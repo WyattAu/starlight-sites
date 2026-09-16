@@ -1,5 +1,5 @@
 ---
-title: "University Chemistry Practice Test — 30 Problems"
+title: "University Chemistry Practice Test, 30 Problems"
 description: "30 university-level chemistry problems covering Physical, Organic, and Inorganic Chemistry. Multiple choice and problem-solving with detailed explanations."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## University Chemistry Practice Test — 30 Problems
+## University Chemistry Practice Test, 30 Problems
 
 This practice test covers 30 problems across three major domains of university chemistry: Physical Chemistry, Organic Chemistry, and Inorganic Chemistry. Each problem tests conceptual understanding, quantitative reasoning, and the application of fundamental principles. Work through the problems with pen and paper before checking the solutions.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Multiple choice and problem-solving — show all working where required
+- **Format:** Multiple choice and problem-solving, show all working where required
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Record your answers on a separate sheet.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any problems you got wrong.
@@ -45,7 +45,7 @@ This practice test covers 30 problems across three major domains of university c
 
 ## Physical Chemistry (P1–P10)
 
-### P1 — Thermodynamics
+### P1, Thermodynamics
 
 A system absorbs 500 J of heat and does 200 J of work on its surroundings. What is the change in internal energy?
 
@@ -61,11 +61,11 @@ A system absorbs 500 J of heat and does 200 J of work on its surroundings. What 
 
 By the first law of thermodynamics: $\Delta U = Q - W = 500 - 200 = +300$ J. The internal energy increases because the system absorbs more heat than it expends as work.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P2 — Chemical Kinetics
+### P2, Chemical Kinetics
 
 For a first-order reaction $A \to B$ with rate constant $k = 0.05 \text{ min}^{-1}$, what is the half-life?
 
@@ -81,11 +81,11 @@ For a first-order reaction $A \to B$ with rate constant $k = 0.05 \text{ min}^{-
 
 For a first-order reaction: $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{0.05} = 13.86 \approx 13.9$ minutes.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P3 — Quantum Chemistry
+### P3, Quantum Chemistry
 
 The de Broglie wavelength of an electron accelerated through a potential difference of 100 V is approximately:
 
@@ -101,11 +101,11 @@ The de Broglie wavelength of an electron accelerated through a potential differe
 
 $\lambda = \frac{h}{\sqrt{2meV}} = \frac{6.626 \times 10^{-34}}{\sqrt{2 \times 9.109 \times 10^{-31} \times 1.602 \times 10^{-19} \times 100}} = 1.23 \times 10^{-9}$ m $= 1.23$ nm.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P4 — Statistical Thermodynamics
+### P4, Statistical Thermodynamics
 
 The partition function for a two-level system with energy gap $\Delta E = k_BT$ is approximately:
 
@@ -121,11 +121,11 @@ The partition function for a two-level system with energy gap $\Delta E = k_BT$ 
 
 $Z = g_0 + g_1 e^{-\Delta E/k_BT} = 1 + e^{-1} = 1 + 0.368 = 1.368$. But with degeneracy $g_1 = 3$: $Z = 1 + 3e^{-1} = 1 + 1.104 = 2.104$. The closest answer assuming equal degeneracies is D (2.72 ≈ $e$). For $Z = 1 + e^{-\Delta E/k_BT}$ with $\Delta E = k_BT$: $Z = 1 + e^{-1} = 1.368$. If the gap is $k_BT$ and each level is doubly degenerate: $Z = 2 + 2e^{-1} = 2.736 \approx 2.72$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P5 — Electrochemistry
+### P5, Electrochemistry
 
 For a galvanic cell with $E^\circ_{\text{cell}} = 0.80$ V and $n = 2$ electrons transferred, calculate $\Delta G^\circ$.
 
@@ -141,11 +141,11 @@ For a galvanic cell with $E^\circ_{\text{cell}} = 0.80$ V and $n = 2$ electrons 
 
 $\Delta G^\circ = -nFE^\circ = -(2)(96485)(0.80) = -154,376$ J mol⁻¹ $\approx -154$ kJ mol⁻¹.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P6 — Molecular Spectroscopy
+### P6, Molecular Spectroscopy
 
 The rotational constant of HCl is $B = 10.59 \text{ cm}^{-1}$. The frequency of the $J = 0 \to J = 1$ rotational transition is:
 
@@ -161,11 +161,11 @@ The rotational constant of HCl is $B = 10.59 \text{ cm}^{-1}$. The frequency of 
 
 For a rigid rotor, $\tilde{\nu} = 2B(J+1)$. For $J = 0 \to 1$: $\tilde{\nu} = 2B(1) = 2(10.59) = 21.18$ cm⁻¹.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — Acid-Base Equilibria
+### P7, Acid-Base Equilibria
 
 A 0.10 M solution of acetic acid ($K_a = 1.8 \times 10^{-5}$) has a pH of:
 
@@ -183,11 +183,11 @@ $[H^+] = \sqrt{K_a \cdot C} = \sqrt{1.8 \times 10^{-5} \times 0.10} = \sqrt{1.8 
 
 $\text{pH} = -\log(1.34 \times 10^{-3}) = 2.87$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P8 — Chemical Equilibrium
+### P8, Chemical Equilibrium
 
 For the reaction $N_2O_4(g) \rightleftharpoons 2NO_2(g)$ with $K_p = 0.144$ at 298 K, if the initial pressure of $N_2O_4$ is 1.00 atm and $NO_2$ is 0, what is the equilibrium pressure of $NO_2$?
 
@@ -209,11 +209,11 @@ $4x^2 + 0.144x - 0.144 = 0$. Solving: $x = \frac{-0.144 + \sqrt{0.144^2 + 4(4)(0
 
 $P_{NO_2} = 2x = 0.346$ atm. The closest answer is C (0.379 atm, accounting for iterative refinement).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P9 — Phase Diagrams
+### P9, Phase Diagrams
 
 At the triple point of water, the phases in equilibrium are:
 
@@ -227,13 +227,13 @@ At the triple point of water, the phases in equilibrium are:
 
 **Correct: B** (index 1)
 
-The triple point is the unique temperature and pressure at which all three phases — solid (ice), liquid (water), and gas (water vapour) — coexist in thermodynamic equilibrium. For water, this occurs at 273.16 K (0.01°C) and 611.7 Pa.
+The triple point is the unique temperature and pressure at which all three phases, solid (ice), liquid (water), and gas (water vapour), coexist in thermodynamic equilibrium. For water, this occurs at 273.16 K (0.01°C) and 611.7 Pa.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P10 — Photochemistry
+### P10, Photochemistry
 
 The photoelectric effect demonstrates that light:
 
@@ -249,13 +249,13 @@ The photoelectric effect demonstrates that light:
 
 The photoelectric effect shows that electrons are only emitted when the light frequency exceeds a threshold, and the kinetic energy of emitted electrons depends on frequency, not intensity. This is explained by Einstein's photon model: $E = h\nu$, demonstrating that light consists of discrete energy quanta.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Organic Chemistry (P11–P20)
 
-### P11 — Reaction Mechanisms
+### P11, Reaction Mechanisms
 
 In an SN1 reaction, the rate-determining step involves:
 
@@ -269,13 +269,13 @@ In an SN1 reaction, the rate-determining step involves:
 
 **Correct: B** (index 1)
 
-SN1 is a two-step mechanism. The rate-determining step is ionisation: the leaving group departs to form a carbocation intermediate. This is unimolecular — the rate depends only on the substrate concentration.
+SN1 is a two-step mechanism. The rate-determining step is ionisation: the leaving group departs to form a carbocation intermediate. This is unimolecular, the rate depends only on the substrate concentration.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P12 — Stereochemistry
+### P12, Stereochemistry
 
 A molecule with two chiral centres and a plane of symmetry is:
 
@@ -291,11 +291,11 @@ A molecule with two chiral centres and a plane of symmetry is:
 
 A meso compound has two or more stereocentres but is achiral overall due to an internal plane of symmetry (or centre of inversion). Despite having chiral centres, the molecule is superimposable on its mirror image and is optically inactive.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P13 — Electrophilic Aromatic Substitution
+### P13, Electrophilic Aromatic Substitution
 
 Which group is ortho/para-directing and deactivating in electrophilic aromatic substitution?
 
@@ -311,11 +311,11 @@ Which group is ortho/para-directing and deactivating in electrophilic aromatic s
 
 Halogens are the unique exception: they are ortho/para-directing (due to lone pair donation) but deactivating (due to inductive electron withdrawal). The $-\text{OH}$ and $-\text{NH}_2$ groups are activating and ortho/para-directing. $-\text{NO}_2$ is deactivating and meta-directing. $-\text{CH}_3$ is weakly activating and ortho/para-directing.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P14 — Carbonyl Chemistry
+### P14, Carbonyl Chemistry
 
 The product of a Grignard reaction between $\text{CH}_3\text{MgBr}$ and formaldehyde ($\text{HCHO}$), followed by aqueous workup, is:
 
@@ -331,11 +331,11 @@ The product of a Grignard reaction between $\text{CH}_3\text{MgBr}$ and formalde
 
 Formaldehyde ($\text{HCHO}$) reacts with a Grignard reagent to give a primary alcohol. The methyl group adds to the carbonyl carbon: $\text{CH}_3\text{MgBr} + \text{HCHO} \to \text{CH}_3\text{CH}_2\text{OMgBr} \xrightarrow{H_3O^+} \text{CH}_3\text{CH}_2\text{OH}$ (ethanol).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P15 — Elimination Reactions
+### P15, Elimination Reactions
 
 Which E2 elimination of 2-bromobutane gives the Zaitsev (more substituted) product as the major product?
 
@@ -351,11 +351,11 @@ Which E2 elimination of 2-bromobutane gives the Zaitsev (more substituted) produ
 
 Small, unhindered bases (like methoxide) favour the more stable, more substituted Zaitsev product. Bulky bases like tert-butoxide favour the less substituted Hofmann product due to steric effects. The Zaitsev product is 2-butene (predominantly trans).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P16 — Spectroscopy
+### P16, Spectroscopy
 
 In the ${}^1\text{H}$ NMR spectrum of ethyl acetate ($\text{CH}_3\text{COOCH}_2\text{CH}_3$), how many signals are expected?
 
@@ -371,11 +371,11 @@ In the ${}^1\text{H}$ NMR spectrum of ethyl acetate ($\text{CH}_3\text{COOCH}_2\
 
 There are three distinct proton environments: (1) $\text{CH}_3\text{CO}-$ (3H singlet), (2) $-\text{OCH}_2-$ (2H quartet), and (3) $-\text{CH}_3$ (3H triplet). The two methyl groups are in different chemical environments due to the ester linkage.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P17 — Aromaticity
+### P17, Aromaticity
 
 Which of the following is aromatic?
 
@@ -391,11 +391,11 @@ Which of the following is aromatic?
 
 The tropylium cation has 6 π electrons (4n+2 with n=1), is planar, cyclic, and fully conjugated, satisfying all criteria for aromaticity (Hückel's rule). Cyclooctatetraene is non-planar and tub-shaped. Cyclobutadiene is anti-aromatic (4n electrons).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P18 — Polymer Chemistry
+### P18, Polymer Chemistry
 
 Nylon-6,6 is formed by the condensation polymerisation of:
 
@@ -411,11 +411,11 @@ Nylon-6,6 is formed by the condensation polymerisation of:
 
 Nylon-6,6 is a polyamide formed from hexamethylenediamine ($\text{H}_2\text{N(CH}_2)_6\text{NH}_2$) and adipic acid ($\text{HOOC(CH}_2)_4\text{COOH}$). Each repeat unit contains 6 carbons from each monomer, hence the name.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P19 — Retrosynthetic Analysis
+### P19, Retrosynthetic Analysis
 
 The target molecule 2-phenyl-2-propanol can be synthesised by a Grignard reaction between acetone and:
 
@@ -431,11 +431,11 @@ The target molecule 2-phenyl-2-propanol can be synthesised by a Grignard reactio
 
 Retrosynthetically, 2-phenyl-2-propanol ($\text{PhC(CH}_3)_2\text{OH}$) is disconnected to acetone ($\text{CH}_3\text{COCH}_3$) and phenylmagnesium bromide ($\text{PhMgBr}$). The phenyl group adds to the carbonyl carbon, and aqueous workup gives the tertiary alcohol.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P20 — Pericyclic Reactions
+### P20, Pericyclic Reactions
 
 In a thermal [4+2] Diels-Alder cycloaddition, the diene must be in the:
 
@@ -451,13 +451,13 @@ In a thermal [4+2] Diels-Alder cycloaddition, the diene must be in the:
 
 The Diels-Alder reaction requires the diene to adopt the s-cis conformation so that both double bonds can simultaneously overlap with the dienophile's π system in a suprafacial-suprafacial manner. A locked s-trans diene (like 1,3-cyclohexadiene) cannot undergo Diels-Alder reactions.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Inorganic Chemistry (P21–P30)
 
-### P21 — Coordination Chemistry
+### P21, Coordination Chemistry
 
 The IUPAC name for $[\text{Co(NH}_3)_4\text{Cl}_2]^+$ is:
 
@@ -473,11 +473,11 @@ The IUPAC name for $[\text{Co(NH}_3)_4\text{Cl}_2]^+$ is:
 
 Cobalt is in the +3 oxidation state: Co(III). The complex has four ammine ligands and two chlorido ligands. Alphabetical order: tetraamminedichlorocobalt(III) ion.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P22 — Crystal Field Theory
+### P22, Crystal Field Theory
 
 In an octahedral crystal field, the d-orbitals split into:
 
@@ -491,13 +491,13 @@ In an octahedral crystal field, the d-orbitals split into:
 
 **Correct: C** (index 2)
 
-In an octahedral field, the five d-orbitals split into the lower $t_{2g}$ set ($d_{xy}$, $d_{xz}$, $d_{yz}$ — three orbitals) and the upper $e_g$ set ($d_{x^2-y^2}$, $d_{z^2}$ — two orbitals). The energy difference is $\Delta_o$.
+In an octahedral field, the five d-orbitals split into the lower $t_{2g}$ set ($d_{xy}$, $d_{xz}$, $d_{yz}$, three orbitals) and the upper $e_g$ set ($d_{x^2-y^2}$, $d_{z^2}$, two orbitals). The energy difference is $\Delta_o$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P23 — Coordination Isomers
+### P23, Coordination Isomers
 
 Which of the following pairs are coordination isomers?
 
@@ -513,11 +513,11 @@ Which of the following pairs are coordination isomers?
 
 Coordination isomers involve the exchange of ligands between the coordination sphere and the counter-ion. Both A and B show this: in A, $\text{Br}^-$ and $\text{SO}_4^{2-}$ swap places between the complex and the outer sphere. In B, $\text{Cl}^-$ and $\text{NO}_2^-$ swap. C represents ionisation isomers (both are cation-anion pairs).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P24 — Organometallic Chemistry
+### P24, Organometallic Chemistry
 
 Ferrocene, $\text{Fe(C}_5\text{H}_5)_2$, exhibits:
 
@@ -533,11 +533,11 @@ Ferrocene, $\text{Fe(C}_5\text{H}_5)_2$, exhibits:
 
 Ferrocene is a sandwich compound where $\text{Fe}^{2+}$ is coordinated to two $\eta^5$-cyclopentadienyl rings through pi bonding. Each ring donates 6 electrons, giving the 18-electron rule. The iron is sandwiched between the two parallel rings.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P25 — Bioinorganic Chemistry
+### P25, Bioinorganic Chemistry
 
 The oxygen-carrying protein in blood is:
 
@@ -553,11 +553,11 @@ The oxygen-carrying protein in blood is:
 
 Hemoglobin is the oxygen-transport protein in red blood cells, containing four heme groups (iron(II) porphyrin complexes). Myoglobin stores oxygen in muscle tissue. Cytochrome c is involved in electron transport. Ferritin and transferrin transport and store iron.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P26 — Lattice Energy
+### P26, Lattice Energy
 
 Which factor most significantly increases lattice energy?
 
@@ -573,11 +573,11 @@ Which factor most significantly increases lattice energy?
 
 Lattice energy is approximately proportional to $\frac{|z_+ z_-|}{r_+ + r_-}$ (Born-Landé equation). Increasing ionic charges $z_+$ and $z_-$ has the greatest effect. For example, $\text{MgO}$ ($+2/-2$, $U = 3850$ kJ/mol) has a much higher lattice energy than $\text{NaCl}$ ($+1/-1$, $U = 786$ kJ/mol).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P27 — Acid-Base Chemistry
+### P27, Acid-Base Chemistry
 
 Which of the following is the strongest Brønsted acid?
 
@@ -593,11 +593,11 @@ Which of the following is the strongest Brønsted acid?
 
 Down group 16, bond strength decreases as atomic size increases ($\text{H–Te}$ is weakest), making proton donation easier. $\text{H}_2\text{Te}$ ($pK_a \approx -6$) is the strongest acid in the series. $\text{HF}$ ($pK_a = 3.17$) is weaker than $\text{H}_2\text{Te}$ despite fluorine's electronegativity.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P28 — Colour and Spectroscopy
+### P28, Colour and Spectroscopy
 
 The intense colour of transition metal complexes arises primarily from:
 
@@ -613,11 +613,11 @@ The intense colour of transition metal complexes arises primarily from:
 
 d-d transitions are typically weak (Laporte-forbidden in centrosymmetric complexes). The intense colours of many coordination compounds arise from charge transfer transitions (LMCT or MLCT), which are both spin- and Laporte-allowed, giving very high molar absorptivities.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P29 — Cluster Chemistry
+### P29, Cluster Chemistry
 
 Wade's rules relate the number of skeletal electron pairs to:
 
@@ -633,11 +633,11 @@ Wade's rules relate the number of skeletal electron pairs to:
 
 Wade's rules (also called Wade-Mingos rules) predict the structures of boranes, carboranes, and transition metal clusters based on the number of skeletal electron pairs (SEPs). $n+1$ SEPs give closo, $n+2$ give nido, and $n+3$ give arachno structures.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P30 — Main Group Chemistry
+### P30, Main Group Chemistry
 
 Aluminium chloride exists as a dimer $\text{Al}_2\text{Cl}_6$ because:
 
@@ -653,7 +653,7 @@ Aluminium chloride exists as a dimer $\text{Al}_2\text{Cl}_6$ because:
 
 In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electron deficient). By dimerising through two bridging chloride ligands, each aluminium achieves a full octet. The bridging is achieved by donation of lone pairs from Cl to the vacant p-orbital on Al.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -691,15 +691,15 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 
 ## Cross-References
 
-- **[Physical Chemistry](1-physical-chemistry)** — Thermodynamics, kinetics, quantum chemistry, spectroscopy, and electrochemistry
-- **[Organic Chemistry](2-organic-chemistry)** — Reaction mechanisms, stereochemistry, carbonyl chemistry, and spectroscopy
-- **[Inorganic Chemistry](3-inorganic-chemistry)** — Coordination chemistry, crystal field theory, organometallics, and bioinorganic chemistry
+- **[Physical Chemistry](1-physical-chemistry)**, Thermodynamics, kinetics, quantum chemistry, spectroscopy, and electrochemistry
+- **[Organic Chemistry](2-organic-chemistry)**, Reaction mechanisms, stereochemistry, carbonyl chemistry, and spectroscopy
+- **[Inorganic Chemistry](3-inorganic-chemistry)**, Coordination chemistry, crystal field theory, organometallics, and bioinorganic chemistry
 
 ---
 
 ## Tips for Using This Practice Test
 
-1. **Show your calculations.** For physical chemistry problems, write out all steps clearly — partial credit is awarded for correct method.
+1. **Show your calculations.** For physical chemistry problems, write out all steps clearly, partial credit is awarded for correct method.
 2. **Draw mechanisms.** For organic chemistry, practise drawing full arrow-pushing mechanisms rather than memorising products.
 3. **Use the periodic table.** Many inorganic trends (size, charge, electronegativity) follow periodic patterns.
 4. **Check charge balance.** Always verify that the total charge is conserved in reactions and complexes.

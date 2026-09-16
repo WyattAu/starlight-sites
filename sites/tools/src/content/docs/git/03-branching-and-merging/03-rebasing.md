@@ -22,11 +22,11 @@ categories:
 
 ## Intuition
 
-**Rewriting history to keep it clean:** Rebasing is like rewriting a history book to remove digressions — instead of a messy merge commit that says "combined two timelines," you get a clean linear narrative. The end result is the same, but the history is easier to follow.
+**Rewriting history to keep it clean:** Rebasing is like rewriting a history book to remove digressions, instead of a messy merge commit that says "combined two timelines," you get a clean linear narrative. The end result is the same, but the history is easier to follow.
 
 **Why it matters:** Clean history makes debugging easier (you can `git bisect` effectively), code review simpler (changes are in logical order), and onboarding faster (new team members can follow the story).
 
-**The key insight:** Never rebase commits that have been pushed to a shared repository — rewriting published history forces everyone else to reconcile conflicting versions. Rebase only your local, unpushed commits.
+**The key insight:** Never rebase commits that have been pushed to a shared repository, rewriting published history forces everyone else to reconcile conflicting versions. Rebase only your local, unpushed commits.
 
 ## What is Rebasing
 
@@ -183,16 +183,16 @@ pick e5f6a7b Update tests
 
 ### Rebase Actions
 
-#### `pick` — Use Commit As-Is
+#### `pick`Use Commit As-Is
 
 The default action. The commit is replayed onto the new base without modification.
 
-#### `reword` — Change the Commit Message
+#### `reword`Change the Commit Message
 
 Stops at the commit and opens an editor with the current message for editing. The commit's content
 (diff) is unchanged.
 
-#### `edit` — Pause for Amending
+#### `edit`Pause for Amending
 
 Stops at the commit, allowing you to:
 
@@ -214,7 +214,7 @@ $ git commit --amend  # Amend the commit
 $ git rebase --continue
 ```
 
-#### `squash` — Combine with Previous Commit
+#### `squash`Combine with Previous Commit
 
 Melds the commit into the previous commit, combining their diffs and prompting for a new combined
 message:
@@ -233,7 +233,7 @@ Add login endpoint
 :::tip
 commit before merging. This keeps the history clean and meaningful.
 
-#### `fixup` — Squash Without Editing
+#### `fixup`Squash Without Editing
 
 Like `squash`But discards the commit message of the squashed commit. The combined commit retains
 only the message of the previous commit. This is faster when you have many small commits to fold in:
@@ -252,11 +252,11 @@ a3f2b1c Add user model         (includes the migration fix and typo fix)
 d4e5f6a' Add authentication middleware
 ```
 
-#### `drop` — Remove a Commit
+#### `drop`Remove a Commit
 
 Removes the commit entirely. Its changes are discarded.
 
-#### `exec` — Run a Shell Command
+#### `exec`Run a Shell Command
 
 Runs an arbitrary shell command at that point in the rebase. Useful for automated formatting or test
 validation:
@@ -354,7 +354,7 @@ For most teams, a hybrid approach works best:
 - **Merging into `main`**: Use `git merge --no-ff` to create a merge commit (preserves branch
   topology).
 - **Shared branches** (`develop``staging`): Never rebase. Always merge.
-- **Personal branches**: Rebase freely — no one else is affected.
+- **Personal branches**: Rebase freely, no one else is affected.
 
 ```bash
 # Typical workflow for a feature branch
@@ -372,7 +372,7 @@ $ git push origin feature-auth        # Push to remote
 
 ### 1. Rebase Conflicts in Long Chains
 
-When rebasing a long chain of commits, conflicts can compound — resolving a conflict in an early
+When rebasing a long chain of commits, conflicts can compound, resolving a conflict in an early
 commit may cause conflicts in later commits that previously applied cleanly.
 
 **Mitigation**: Rebase frequently (small, incremental rebases) rather than rebasing large chains.

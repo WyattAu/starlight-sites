@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Redox Reactions — Diagnostic Tests
+## Redox Reactions, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Redox reactions are like electron transfers — one substance gives away electrons (oxidation) while another accepts them (reduction):** OIL RIG — Oxidation Is Loss, Reduction Is Gain — electrons flow from the reducing agent to the oxidizing agent
+**Redox reactions are like electron transfers, one substance gives away electrons (oxidation) while another accepts them (reduction):** OIL RIG, Oxidation Is Loss, Reduction Is Gain, electrons flow from the reducing agent to the oxidizing agent
 
 **Why it matters:** Redox reactions power batteries, drive metabolism, and enable metal extraction from ores
 
-**The key insight:** OIL RIG — Oxidation Is Loss, Reduction Is Gain — electrons flow from the reducing agent to the oxidizing agent
+**The key insight:** OIL RIG, Oxidation Is Loss, Reduction Is Gain, electrons flow from the reducing agent to the oxidizing agent
 
 ## Unit Tests
 

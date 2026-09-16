@@ -21,7 +21,7 @@ description: 'Java Introduction to Java notes covering key definitions, core con
 
 **Why it matters:** Java powers millions of enterprise applications, Android apps, and big data platforms. Its tooling and libraries are unmatched in scope.
 
-**The key insight:** Java's garbage collector manages memory automatically — understanding object lifecycle is key to writing efficient, leak-free code.
+**The key insight:** Java's garbage collector manages memory automatically, understanding object lifecycle is key to writing efficient, leak-free code.
 
 ## Abstract
 
@@ -32,28 +32,28 @@ specific course, please refer to the IB Computer Science notes on this site for 
 
 ### Core Language
 
-- **Syntax and semantics** — primitive types, operators, control flow, arrays
-- **Object-oriented programming** — classes, objects, inheritance, polymorphism, interfaces,
+- **Syntax and semantics**, primitive types, operators, control flow, arrays
+- **Object-oriented programming**, classes, objects, inheritance, polymorphism, interfaces,
   abstract classes
-- **Exception handling** — checked vs. unchecked exceptions, `try`/`catch`/`finally`, custom
+- **Exception handling**, checked vs. unchecked exceptions, `try`/`catch`/`finally`, custom
   exceptions
-- **Generics** — type parameters, bounded types, wildcards, type erasure
+- **Generics**, type parameters, bounded types, wildcards, type erasure
 
 ### Standard Library
 
-- **Collections Framework** — `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`),
+- **Collections Framework**, `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`),
   `Map` (`HashMap`, `TreeMap`); choosing the right collection
-- **Streams API** — functional-style operations on collections: `filter`, `map`, `reduce`, `collect`
-- **I/O** — byte streams, character streams, buffered I/O, NIO
-- **Concurrency** — `Thread`, `Runnable`, `ExecutorService`, `synchronized`, `java.util.concurrent`
+- **Streams API**, functional-style operations on collections: `filter`, `map`, `reduce`, `collect`
+- **I/O**, byte streams, character streams, buffered I/O, NIO
+- **Concurrency**, `Thread`, `Runnable`, `ExecutorService`, `synchronized`, `java.util.concurrent`
 
 ### Best Practices
 
-- **Effective Java** items — favour composition over inheritance, program to interfaces, minimise
+- **Effective Java** items, favour composition over inheritance, program to interfaces, minimise
   mutability
-- **Design patterns** — Singleton, Factory, Observer, Strategy, Builder
-- **Testing** — JUnit 5, test-driven development, mocking with Mockito
-- **Build tools** — Maven and Gradle project structures, dependency management
+- **Design patterns**, Singleton, Factory, Observer, Strategy, Builder
+- **Testing**, JUnit 5, test-driven development, mocking with Mockito
+- **Build tools**, Maven and Gradle project structures, dependency management
 
 ## Code Examples
 

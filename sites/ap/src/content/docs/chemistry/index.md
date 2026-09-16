@@ -45,15 +45,15 @@ associated science practices.
 
 ## Topics Covered
 
-- **Atomic Structure and Periodicity** — electron configurations, periodic trends, photoelectric
+- **Atomic Structure and Periodicity**, electron configurations, periodic trends, photoelectric
   effect, spectroscopy
-- **Bonding and Intermolecular Forces** — ionic, covalent, and metallic bonding, VSEPR theory,
+- **Bonding and Intermolecular Forces**, ionic, covalent, and metallic bonding, VSEPR theory,
   hybridisation, polarity, IMF types
-- **Stoichiometry** — mole calculations, limiting reagents, per cent composition, empirical and
+- **Stoichiometry**, mole calculations, limiting reagents, per cent composition, empirical and
   molecular formulae, solution stoichiometry
-- **Thermodynamics** — enthalpy, Hess's law, calorimetry, entropy, Gibbs free energy, spontaneous
+- **Thermodynamics**, enthalpy, Hess's law, calorimetry, entropy, Gibbs free energy, spontaneous
   and non-spontaneous processes
-- **Kinetics and Equilibrium** — rate laws, reaction mechanisms, collision theory, Le Chatelier's
+- **Kinetics and Equilibrium**, rate laws, reaction mechanisms, collision theory, Le Chatelier's
   principle, equilibrium constants (Kc, Kp), acid-base equilibria
 
 ## How to Use These Notes
@@ -67,7 +67,7 @@ associated science practices.
 
 - Memorise key equations and constants early; the AP equation sheet is provided but knowing when to
   apply each formula saves valuable time
-- Practise balancing redox reactions and writing net ionic equations — they appear frequently in
+- Practise balancing redox reactions and writing net ionic equations, they appear frequently in
   both multiple-choice and free-response sections
 - Draw particle-level diagrams to explain phenomena such as intermolecular forces and colligative
   properties
@@ -82,7 +82,7 @@ associated science practices.
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
 - Review the AP Chemistry science practices (modelling, data analysis, argumentation) alongside
-  content — they are assessed throughout the exam
+  content, they are assessed throughout the exam
 
 ## Summary
 
@@ -150,4 +150,4 @@ The molecular world governs our everyday experience. Chemical bonds determine ma
 - [Bonding](../../../../../alevel/src/content/docs/chemistry/bonding-and-structure)
 - [Stoichiometry](../../../../../leaving-cert/src/content/docs/chemistry/3-stoichiometry/3_stoichiometry)
 - [Thermodynamics](../../../../../alevel/src/content/docs/chemistry/thermodynamics)
-- **[AP Physics — Work, Energy, and Power](../../../../../alevel/src/content/docs/physics/mechanics/04-work-energy-power):** Thermodynamics and energy conservation are shared principles — the first law of thermodynamics is a restatement of energy conservation from physics.
+- **[AP Physics, Work, Energy, and Power](../../../../../alevel/src/content/docs/physics/mechanics/04-work-energy-power):** Thermodynamics and energy conservation are shared principles, the first law of thermodynamics is a restatement of energy conservation from physics.

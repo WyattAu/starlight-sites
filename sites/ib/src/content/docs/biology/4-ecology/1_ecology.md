@@ -1,7 +1,7 @@
 ---
 
 title: "Ecology"
-description: "IB Biology — species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
+description: "IB Biology, species, communities, ecosystems, energy flow, nutrient cycles, climate change, evolution, natural selection, and classification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Ecology is like studying a community's social network — organisms interact through feeding relationships, competition, and cooperation:** Energy flows through ecosystems while nutrients cycle, creating interdependencies that sustain life
+**Ecology is like studying a community's social network, organisms interact through feeding relationships, competition, and cooperation:** Energy flows through ecosystems while nutrients cycle, creating interdependencies that sustain life
 
 **Why it matters:** Ecology guides conservation, resource management, and understanding human impacts on the environment
 

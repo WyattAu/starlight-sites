@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Kinematics — Diagnostic Tests
+## Kinematics, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for kinematics.
 
-### UT-1: Displacement vs Distance — The Reversal Trap
+### UT-1: Displacement vs Distance, The Reversal Trap
 
 **Question:**
 
@@ -112,7 +112,7 @@ accounting for the two direction reversals.
 }
 </script>
 
-### UT-2: Projectile Launched from a Height — Sign Convention and Range
+### UT-2: Projectile Launched from a Height, Sign Convention and Range
 
 **Question:**
 

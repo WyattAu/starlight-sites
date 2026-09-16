@@ -182,7 +182,7 @@ $\Delta x \approx \lambda^2/\Delta\lambda = L_c$The **coherence length**.
 **Implication for interferometry.** To observe interference fringes, the path difference between The
 two arms must satisfy $\Delta x \ll L_c$. A sodium lamp ($\Delta\lambda \approx 0.6$ nm at
 $\lambda = 589$ nm) gives $L_c \approx 0.58$ mm. A HeNe laser ($\Delta\lambda \approx 10^{-6}$ nm)
-Gives $L_c \approx 350$ m — fringes are visible over enormous path differences.
+Gives $L_c \approx 350$ m, fringes are visible over enormous path differences.
 
 ### 3.6 Multiple-Beam Interference: The Fabry-Perot Etalon
 

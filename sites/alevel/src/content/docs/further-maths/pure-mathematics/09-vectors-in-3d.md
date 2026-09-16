@@ -229,7 +229,7 @@ Equating: $1+\lambda = 3+2\mu$$2-\lambda = 1+\mu$$2\lambda = 4-\mu$.
 From equation 2: $\lambda = 1 - \mu$. From equation 1:
 $1+(1-\mu) = 3+2\mu \implies 2-\mu = 3+2\mu \implies -3\mu = 1 \implies \mu = -1/3$ $\lambda = 4/3$.
 
-Check equation 3: $2(4/3) = 4-(-1/3) \implies 8/3 = 13/3$. **Not consistent** — the lines are skew.
+Check equation 3: $2(4/3) = 4-(-1/3) \implies 8/3 = 13/3$. **Not consistent**, the lines are skew.
 
 <hr />
 
@@ -427,7 +427,7 @@ Verify: $\mathbf{a}\cdot(\mathbf{a}\times\mathbf{b}) = 2(-10)+(-1)(7)+3(9) = -20
 
 $\mathbf{b}\cdot(\mathbf{a}\times\mathbf{b}) = 1(-10)+4(7)+(-2)(9) = -10+28-18 = 0$. ✓
 
-**If you get this wrong, revise:** [Vector Cross Product](#4-vector-cross-product) — Section 4.
+**If you get this wrong, revise:** [Vector Cross Product](#4-vector-cross-product), Section 4.
 
 </details>
 
@@ -452,7 +452,7 @@ $\mathbf{r}\cdot\mathbf{n} = \mathbf{a}\cdot\mathbf{n} = 2+2+0 = 4$.
 
 $\boxed{2x + y + z = 4}$
 
-**If you get this wrong, revise:** [Equation of a Plane](#6-equation-of-a-plane) — Section 6.
+**If you get this wrong, revise:** [Equation of a Plane](#6-equation-of-a-plane), Section 6.
 
 </details>
 
@@ -471,7 +471,7 @@ $D = \dfrac{|3 + 2(1) - 2(-2) - 6|}{\sqrt{1+4+4}} = \dfrac{|3+2+4-6|}{3} = \dfra
 $\boxed{D = 1}$.
 
 **If you get this wrong, revise:**
-[Distance from Point to Plane](#7-distance-from-a-point-to-a-plane) — Section 7.
+[Distance from Point to Plane](#7-distance-from-a-point-to-a-plane), Section 7.
 
 </details>
 
@@ -500,7 +500,7 @@ $(\mathbf{a}_2-\mathbf{a}_1)\cdot(\mathbf{d}_1\times\mathbf{d}_2) = 1(-2)+(-1)(1
 $D = \dfrac{0}{\sqrt{6}} = 0$. The lines actually **intersect** (not skew).
 
 **If you get this wrong, revise:** [Distance Between Skew Lines](#9-distance-between-two-skew-lines)
-— Section 9.
+- Section 9.
 
 </details>
 
@@ -522,7 +522,7 @@ $\mathbf{a}\cdot(\mathbf{b}\times\mathbf{c}) = 1(0)+0(-5)+2(-5) = -10$.
 
 $V = |-10| = \boxed{10}$.
 
-**If you get this wrong, revise:** [Scalar Triple Product](#8-scalar-triple-product) — Section 8.
+**If you get this wrong, revise:** [Scalar Triple Product](#8-scalar-triple-product), Section 8.
 
 </details>
 
@@ -543,7 +543,7 @@ $\cos\theta = \dfrac{|2-1+2|}{\sqrt{6}\cdot\sqrt{6}} = \dfrac{3}{6} = \dfrac{1}{
 
 $\theta = \boxed{60°}$.
 
-**If you get this wrong, revise:** [Angle Between Two Planes](#64-angle-between-two-planes) —
+**If you get this wrong, revise:** [Angle Between Two Planes](#64-angle-between-two-planes),
 Section 6.4.
 
 </details>
@@ -568,7 +568,7 @@ $= 2(1\cdot 1-(-2)\cdot 2) - (-1)(1\cdot 1-(-2)(-1)) + (-1)(1\cdot 2-1\cdot(-1))
 
 $= 2(1+4) + 1(1-2) - 1(2+1) = 10 - 1 - 3 = 6 \neq 0$.
 
-Wait — $6 \neq 0$ So the points are **not coplanar**. Let me verify.
+Wait, $6 \neq 0$ So the points are **not coplanar**. Let me verify.
 
 Actually, let me recompute $\overrightarrow{AC}\times\overrightarrow{AD}$:
 
@@ -578,7 +578,7 @@ $\overrightarrow{AB}\cdot\begin{pmatrix}5\\1\\3\end{pmatrix} = 10-1-3 = 6 \neq 0
 
 The points are **not coplanar**.
 
-**If you get this wrong, revise:** [Scalar Triple Product](#8-scalar-triple-product) — Section 8.
+**If you get this wrong, revise:** [Scalar Triple Product](#8-scalar-triple-product), Section 8.
 
 </details>
 
@@ -604,7 +604,7 @@ Point: $(3, 3, 0)$.
 
 $$\boxed{\mathbf{r} = \begin{pmatrix}3\\3\\0\end{pmatrix} + \lambda\begin{pmatrix}2\\1\\-3\end{pmatrix}}$$
 
-**If you get this wrong, revise:** [Line of Intersection](#66-line-of-intersection-of-two-planes) —
+**If you get this wrong, revise:** [Line of Intersection](#66-line-of-intersection-of-two-planes),
 Section 6.6.
 
 </details>
@@ -629,7 +629,7 @@ $\sin\phi = \dfrac{|\mathbf{d}\cdot\mathbf{n}|}{|\mathbf{d}||\mathbf{n}|} = \dfr
 $\phi = \arcsin\!\left(\dfrac{1}{\sqrt{11}}\right) \approx \boxed{17.6°}$.
 
 **If you get this wrong, revise:**
-[Angle Between Line and Plane](#65-angle-between-a-line-and-a-plane) — Section 6.5.
+[Angle Between Line and Plane](#65-angle-between-a-line-and-a-plane), Section 6.5.
 
 </details>
 
@@ -658,7 +658,7 @@ $(\mathbf{a}_2-\mathbf{a}_1)\cdot(\mathbf{d}_1\times\mathbf{d}_2) = (-1)(-1)+1(2
 $D = \dfrac{3}{\sqrt{6}} = \dfrac{3\sqrt{6}}{6} = \boxed{\dfrac{\sqrt{6}}{2}}$.
 
 **If you get this wrong, revise:** [Distance Between Skew Lines](#9-distance-between-two-skew-lines)
-— Section 9.
+- Section 9.
 
 </details>
 
@@ -1108,7 +1108,7 @@ The equation of a plane can be written in three equivalent forms:
 - Cartesian: $ax+by+cz = d$
 - Parametric: $\mathbf{r} = \mathbf{a} + s\mathbf{b} + t\mathbf{c}$
 
-### 17.2 The shortest distance between two skew lines — alternative derivation
+### 17.2 The shortest distance between two skew lines, alternative derivation
 
 The shortest distance between skew lines equals the perpendicular distance from any point on one
 Line to the parallel plane containing the other line.
@@ -1210,7 +1210,7 @@ $\mathbf{r} = \mathbf{a} + \lambda\mathbf{d}$ is:
 
 $$D = \frac{|(\mathbf{p}-\mathbf{a})\times\mathbf{d}|}{|\mathbf{d}|}$$
 
-### 19.4 Vector planes — parametric form
+### 19.4 Vector planes, parametric form
 
 A plane through point $\mathbf{a}$ spanned by vectors $\mathbf{b}$ and $\mathbf{c}$:
 

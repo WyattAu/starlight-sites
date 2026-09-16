@@ -374,7 +374,7 @@ $\bar{y} = \dfrac{0 + 0 + 4}{3} = \dfrac{4}{3}$.
 
 Centre of mass: $\left(\dfrac{8}{3}, \dfrac{4}{3}\right)$.
 
-**If you get this wrong, revise:** [Uniform triangular lamina](#21-uniform-triangular-lamina) —
+**If you get this wrong, revise:** [Uniform triangular lamina](#21-uniform-triangular-lamina),
 Section 2.1.
 
 </details>
@@ -402,7 +402,7 @@ $\mu = \dfrac{3 \times 5}{8} = \dfrac{15}{8}$.
 $\Delta KE = \dfrac{1}{2} \times \dfrac{15}{8} \times (10)^2 \times (1 - 0.25) = \dfrac{15}{16} \times 100 \times 0.75 = \dfrac{1125}{16} \approx 70.3\,\mathrm{J}$.
 
 **If you get this wrong, revise:**
-[Direct collision of two particles](#53-direct-collision-of-two-particles) — Section 5.3.
+[Direct collision of two particles](#53-direct-collision-of-two-particles), Section 5.3.
 
 </details>
 
@@ -418,7 +418,7 @@ $\bar{y} = \dfrac{4r}{3\pi} = \dfrac{4 \times 5}{3\pi} = \dfrac{20}{3\pi} \appro
 The centre of mass lies on the axis of symmetry at a distance
 $\dfrac{20}{3\pi}\,\mathrm{cm}$ from the diameter.
 
-**If you get this wrong, revise:** [Semicircular lamina](#22-semicircular-lamina) — Section 2.2.
+**If you get this wrong, revise:** [Semicircular lamina](#22-semicircular-lamina), Section 2.2.
 
 </details>
 
@@ -442,7 +442,7 @@ $\bar{x} = \dfrac{24a^2 \times 3a - \pi a^2 \times 3a}{24a^2 - \pi a^2} = \dfrac
 Similarly $\bar{y} = 2a$.
 
 **If you get this wrong, revise:**
-[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies) — Section 3.
+[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies), Section 3.
 
 </details>
 
@@ -467,7 +467,7 @@ Angle to horizontal:
 $\theta = \arctan\!\left(\dfrac{4\sqrt{3}}{5}\right) = \arctan(1.386) \approx 54.2^\circ$.
 
 **If you get this wrong, revise:** [Sphere hitting a smooth wall](#71-sphere-hitting-a-smooth-wall)
-— Section 7.1.
+- Section 7.1.
 
 </details>
 
@@ -490,7 +490,7 @@ $\bar{y} = \dfrac{4 \times 0 + 3 \times 1.5 + 5 \times 1.5}{12} = \dfrac{0 + 4.5
 
 Centre of mass: $(1.5, 1)$.
 
-**If you get this wrong, revise:** [Uniform wire frameworks](#41-uniform-wire-frameworks) — Section
+**If you get this wrong, revise:** [Uniform wire frameworks](#41-uniform-wire-frameworks), Section
 4.1.
 
 </details>
@@ -521,7 +521,7 @@ Velocity of $A$: $(1.08\mathbf{i} + 2\mathbf{j})\,\mathrm{m s}^{-1}$.
 Velocity of $B$: $(2.28\mathbf{i} - \mathbf{j})\,\mathrm{m s}^{-1}$.
 
 **If you get this wrong, revise:**
-[Two spheres in oblique collision](#72-two-spheres-in-oblique-collision) — Section 7.2.
+[Two spheres in oblique collision](#72-two-spheres-in-oblique-collision), Section 7.2.
 
 </details>
 
@@ -545,7 +545,7 @@ $\bar{x} = \dfrac{48 \times 4 - 12 \times 20/3}{36} = \dfrac{192 - 80}{36} = \df
 $\bar{y} = \dfrac{48 \times 3 - 12 \times 4}{36} = \dfrac{144 - 48}{36} = \dfrac{96}{36} = \dfrac{8}{3} \approx 2.67\,\mathrm{cm}$.
 
 **If you get this wrong, revise:**
-[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies) — Section 3.
+[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies), Section 3.
 
 </details>
 
@@ -573,7 +573,7 @@ Horizontal distance
 $= u\cos\theta \times \dfrac{2eu\sin\theta}{g} = \dfrac{eu^2\sin 2\theta}{g}$.
 
 **If you get this wrong, revise:** [Sphere hitting a smooth wall](#71-sphere-hitting-a-smooth-wall)
-— Section 7.1.
+- Section 7.1.
 
 </details>
 
@@ -596,7 +596,7 @@ $$\bar{x} = \frac{\dfrac{2}{3}\pi r^3 \times \dfrac{3r}{8} + \pi r^2 h \times \d
 $$= \frac{r^2/4 + h^2/2}{2r/3 + h} = \frac{r^2 + 2h^2}{4\!\left(\dfrac{2r}{3} + h\right)} = \frac{3(r^2 + 2h^2)}{4(2r + 3h)}$$
 
 **If you get this wrong, revise:**
-[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies) — Section 3.
+[Centre of mass of composite bodies](#3-centre-of-mass-of-composite-bodies), Section 3.
 
 </details>
 
@@ -1032,7 +1032,7 @@ Hole: area $= \dfrac{\pi a^2}{4}$Centroid at geometric centre.
 Since the hole is at the centroid, the remaining lamina has its centre of mass at the centroid of
 The triangle.
 
-Wait — the centre of mass of the remaining lamina is the weighted average of the triangle and the
+Wait, the centre of mass of the remaining lamina is the weighted average of the triangle and the
 Hole (with negative mass for the hole):
 
 $$\bar{x} = \frac{\sqrt{3}a^2 \cdot 0 - \frac{\pi a^2}{4} \cdot 0}{\sqrt{3}a^2 - \frac{\pi a^2}{4}} = 0$$
@@ -1304,7 +1304,7 @@ Flat face (or $\dfrac{3a}{8}$ from the centre of the sphere).
 A thin hemispherical shell of radius $a$ has its centre of mass at distance $\dfrac{a}{2}$ from the
 Flat face.
 
-Note the difference: $\dfrac{3a}{8} < \dfrac{a}{2}$ — the solid hemisphere's centre of mass is
+Note the difference: $\dfrac{3a}{8} < \dfrac{a}{2}$, the solid hemisphere's centre of mass is
 Closer to the base.
 
 ### 16.3 Pappus' centroid theorem (second theorem)
@@ -1316,7 +1316,7 @@ $$V = 2\pi \bar{d} \cdot A$$
 
 Where $\bar{d}$ is the distance from the centroid to the axis of rotation.
 
-### 16.4 Centre of mass by integration — general formula
+### 16.4 Centre of mass by integration, general formula
 
 For a 3D body with density $\rho(\mathbf{r})$:
 

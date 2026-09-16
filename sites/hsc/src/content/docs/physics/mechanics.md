@@ -189,7 +189,7 @@ Mechanics is the foundation of physics and engineering. From designing bridges a
 1. For problems involving height, always define a coordinate system and be consistent with signs
 2. Kinetic energy is always positive; work can be positive or negative
 3. In elastic collisions, both momentum and kinetic energy are conserved
-4. Use energy methods when speed and height are involved — they are often simpler than force methods
+4. Use energy methods when speed and height are involved, they are often simpler than force methods
 
 ## More Worked Examples
 
@@ -258,11 +258,11 @@ $$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 
 
 ## Intuition
 
-**Mechanics describes how objects move under forces:** Think of forces as pushes and pulls. When you push a shopping cart, you apply a force. Friction pushes back. The net force determines how the cart accelerates. This simple principle — force equals mass times acceleration — explains everything from falling apples to orbiting planets.
+**Mechanics describes how objects move under forces:** Think of forces as pushes and pulls. When you push a shopping cart, you apply a force. Friction pushes back. The net force determines how the cart accelerates. This simple principle, force equals mass times acceleration, explains everything from falling apples to orbiting planets.
 
 **Why it matters:** Mechanics is the foundation of physics and engineering. Every bridge, building, vehicle, and aircraft is designed using these principles. Understanding kinematics, forces, momentum, and energy is essential for solving real-world problems.
 
-**The key insight:** Energy methods are often simpler than force methods — instead of tracking every force at every moment, just compare the beginning and end states.
+**The key insight:** Energy methods are often simpler than force methods, instead of tracking every force at every moment, just compare the beginning and end states.
 
 ## Common Mistakes
 

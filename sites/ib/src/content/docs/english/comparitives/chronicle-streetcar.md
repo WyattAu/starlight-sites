@@ -18,7 +18,7 @@ description: "- Streetcar explores class conflict between Blanche (A construct r
 
 ## Intuition
 
-**Comparative literature is like holding two mirrors up to each other — each text reflects and refracts themes from the other, creating deeper meaning:** Comparing texts reveals how different authors address universal human experiences across cultures and time periods
+**Comparative literature is like holding two mirrors up to each other, each text reflects and refracts themes from the other, creating deeper meaning:** Comparing texts reveals how different authors address universal human experiences across cultures and time periods
 
 **Why it matters:** Comparative analysis deepens literary understanding and develops critical thinking skills
 
@@ -104,14 +104,14 @@ Both texts explore how rigid social codes destroy individual lives, but from dif
 Perspectives:
 
 - **Chronicle** examines **Latin American machismo** and the honor code that demands violence to
-  restore family reputation. The Vicario brothers' murder of Santiago is socially sanctioned — even
+  restore family reputation. The Vicario brothers' murder of Santiago is socially sanctioned, even
   the authorities tacitly approve.
 - > "There had never been a death more foretold" ~Narrator
 - The community's collective foreknowledge yet collective inaction makes them all complicit
 - **Streetcar** examines **Southern American honor**, where Stanley's aggression and dominance are
   framed as natural masculine traits. The "Napoleonic Code" is invoked to justify ownership over
   Stella's property.
-- > "Stanley Kowalski — survivor of the Stone Age!" ~Blanche
+- > "Stanley Kowalski, survivor of the Stone Age!" ~Blanche
 - Blanche recognises Stanley as a primitive force that cannot be reasoned with
 
 **Key Difference:** In Chronicle, honor is a public performance demanded by the community. In
@@ -121,10 +121,10 @@ Streetcar, it is an individual assertion of dominance by Stanley.
 
 Both protagonists use illusion as a coping mechanism, but their fates differ:
 
-- **Blanche** retreats into fantasy because reality is unbearable — she creates "magic" rather than
+- **Blanche** retreats into fantasy because reality is unbearable, she creates "magic" rather than
   facing trauma, loss, and ageing. Her downfall comes when her illusions are stripped away.
 - > "I don't want realism. I want magic!" ~Blanche
-- > "Whoever you are — I have always depended on the kindness of strangers" ~Blanche
+- > "Whoever you are, I have always depended on the kindness of strangers" ~Blanche
 - Her final line reveals complete detachment from reality
 - **Angela Vicario** invents a name (Santiago) to protect the real perpetrator, and the town accepts
   this fiction. The "fantasy" here is the lie that maintains social order.
@@ -139,7 +139,7 @@ Survival within the patriarchal system.
 Both texts construct worlds where characters are trapped by forces beyond their control:
 
 - **Santiago's death** is described as inevitable from the opening line. Despite numerous warnings,
-  the murder occurs — suggesting determinism.
+  the murder occurs, suggesting determinism.
 - > "He was already dead when the bishop blessed him from the boat" ~Narrator
 - The religious imagery reinforces the sense of predestination
 - **Blanche's destruction** is similarly prefigured from her arrival at Elysian Fields. Her name
@@ -148,7 +148,7 @@ Both texts construct worlds where characters are trapped by forces beyond their 
   > ~Blanche
 - The streetcar names allegorise her trajectory: desire leads to death
 
-**Key Comparison:** Both use the narrative structure itself to create inevitability — Chronicle
+**Key Comparison:** Both use the narrative structure itself to create inevitability, Chronicle
 Reveals the ending in the first line; Streetcar builds toward Blanche's removal with inexorable
 Momentum.
 
@@ -156,7 +156,7 @@ Momentum.
 
 Both texts examine how sexuality is weaponised within patriarchal systems:
 
-- **Chronicle:** Angela's virginity (or lack thereof) is commodified. Her body is not her own — it
+- **Chronicle:** Angela's virginity (or lack thereof) is commodified. Her body is not her own, it
   belongs to her family's honour. Paradoxically, Maria Alejandrina Cervantes operates as a
   prostitute with full social acceptance.
 - > "She did it with everyone... So that no one would feel obliged" ~Maria Alejandrina
@@ -165,10 +165,10 @@ Both texts examine how sexuality is weaponised within patriarchal systems:
 - **Streetcar:** Blanche's sexuality is used to discredit her (Stanley reveals her past). Her rape
   is the ultimate assertion of power.
 - > "He acts like an animal, has an animal's habits!" ~Blanche
-- The rape scene (Scene 10) is never shown directly on stage — Williams uses "plastic theatre" to
+- The rape scene (Scene 10) is never shown directly on stage, Williams uses "plastic theatre" to
   convey it through sound and lighting
 
-**Key Comparison:** Both texts reveal the hypocrisy of sexual norms — women are simultaneously
+**Key Comparison:** Both texts reveal the hypocrisy of sexual norms, women are simultaneously
 Judged for being sexual and for being pure, depending on what serves the patriarchal structure.
 
 ## Character Comparisons
@@ -190,8 +190,8 @@ Both represent destructive masculinity, but differ in motivation:
 
 - **Vicario Brothers** act out of social obligation, not personal hatred. They publicise their
   intentions, even hoping to be stopped.
-- > "We're going to kill Santiago Nasar" — announced to everyone they met
-- > "We killed him openly, but we're innocent" — denial of moral responsibility
+- > "We're going to kill Santiago Nasar", announced to everyone they met
+- > "We killed him openly, but we're innocent", denial of moral responsibility
 - **Stanley** acts from personal dominance and territorial instinct. He destroys Blanche
   systematically.
 - > "I am the king around here!" ~Stanley
@@ -214,16 +214,16 @@ Both are caught between patriarchal expectations and personal desire:
 
 - **Chronicle:** Non-linear, reconstructed from interviews. The reader pieces together the timeline.
   This fragmentation mirrors the town's fractured memory and collective guilt.
-- **Streetcar:** Linear but uses expressionist "plastic theatre" — music, lighting, and staging
+- **Streetcar:** Linear but uses expressionist "plastic theatre", music, lighting, and staging
   convey psychological states. The play-within-a-play structure (Blanche as performer) mirrors her
   constructed identity.
 
 ### Setting as Symbol
 
-- **Chronicle:** The unnamed town is suffocatingly small — everyone knows everything, yet no one
+- **Chronicle:** The unnamed town is suffocatingly small, everyone knows everything, yet no one
   acts. The river, the market, the church all become sites of dramatic irony.
 - **Streetcar:** New Orleans' Elysian Fields represents both heaven and underworld. Belle Reve
-  (beautiful dream) is Blanche's lost ancestral home — a symbol of the dying Old South.
+  (beautiful dream) is Blanche's lost ancestral home, a symbol of the dying Old South.
 
 ### Dramatic Irony
 
@@ -232,7 +232,7 @@ Both texts depend heavily on dramatic irony:
 - **Chronicle:** The reader knows Santiago will die from the first sentence. Every warning that
   fails heightens the tension.
 - **Streetcar:** The audience sees Blanche's fragility that the other characters (especially
-  Stanley) exploit. Her bathing, her avoidance of bright light — all signal her vulnerability.
+  Stanley) exploit. Her bathing, her avoidance of bright light, all signal her vulnerability.
 
 ## Essay Structure Guidance
 
@@ -265,8 +265,8 @@ Both texts depend heavily on dramatic irony:
   destruction reflects their respective cultures: Santiago's physical death exposes the hypocrisy of
   communal morality, while Blanche's psychological disintegration reveals the cost of resisting
   patriarchal reality."
-- "The narrative techniques of Chronicle and Streetcar — fragmented reconstruction and plastic
-  theatre respectively — both serve to implicate the audience or reader in the moral failure
+- "The narrative techniques of Chronicle and Streetcar, fragmented reconstruction and plastic
+  theatre respectively, both serve to implicate the audience or reader in the moral failure
   surrounding the central tragedy."
 
 :::tip
@@ -284,7 +284,7 @@ Testimony, fabrication, and collective silence.
 
 Marquez structures the novella as a journalistic investigation conducted decades after the murder,
 And the narrator repeatedly encounters contradictory accounts from the same witnesses. This is not
-Accidental — it is the central formal strategy of the text.
+Accidental, it is the central formal strategy of the text.
 
 - The narrator interviews townspeople twenty-seven years after the event, and their memories are
   unreliable: "Many people coincided in recalling that it was a radiant morning with a sea breeze
@@ -296,7 +296,7 @@ Accidental — it is the central formal strategy of the text.
 - Key witnesses give contradictory testimony. Clotilde Armenta says she sent warnings; the twins
   claim nobody tried to stop them. Father Amador cannot recall the autopsy details. The town has
   collectively agreed to forget.
-- The central paradox: "There had never been a death more foretold" — everyone knew it would happen,
+- The central paradox: "There had never been a death more foretold", everyone knew it would happen,
   yet no one acted. The town's "truth" is a fiction of collective denial.
 
 The narrative form itself enacts this unreliability. The reader receives the story out of
@@ -311,7 +311,7 @@ Fabrications, and contrasts her with Stanley, who represents a brutal, unvarnish
 
 - Blanche systematically constructs a false narrative: she lies about her age, her drinking, her
   past at the Flamingo Hotel, and her reasons for visiting Stella. Her fabrications are not merely
-  deceit — they are survival strategies in a world that punishes female vulnerability.
+  deceit, they are survival strategies in a world that punishes female vulnerability.
 - > "I don't tell the truth. I tell what ought to be truth." ~Blanche
 - > "Never inside, I didn't lie in my heart." ~Blanche
 - Her distinction between literal and emotional truth is central to understanding her character
@@ -319,7 +319,7 @@ Fabrications, and contrasts her with Stanley, who represents a brutal, unvarnish
   Blanche's past in Laurel, uncovers the Flamingo Hotel scandal, and presents the evidence to Stella
   and Mitch as a weapon.
 - > "I've been on to you from the start!" ~Stanley
-- Stanley's "truth" is also selective — he ignores his own violence and infidelity while condemning
+- Stanley's "truth" is also selective, he ignores his own violence and infidelity while condemning
   Blanche's sexual history
 - The play's climax (the rape) occurs offstage, in a space of narrative ambiguity. Neither Stella
   nor the audience witnesses it directly, and Stella's subsequent denial ("I couldn't believe her
@@ -333,13 +333,13 @@ Both authors destabilise the concept of objective truth through their narrative 
   failing memories, and presents mutually exclusive accounts without adjudicating between them. The
   reader is placed in the position of a juror who must weigh contradictory evidence.
 - **Streetcar** filters everything through Blanche's subjective experience. The plastic theatre
-  technique — blue piano music, Varsouviana polka, paper lanterns, shadow effects — represents
+  technique, blue piano music, Varsouviana polka, paper lanterns, shadow effects, represents
   Blanche's psychological reality rather than objective fact. The audience sees the world as Blanche
   perceives it, making her unreliability both visible and sympathetic.
 
 :::tip
 Fragmented journalism and Williams's subjective staging both prevent the audience from ever grasping
-A complete, objective account — and this is precisely the point.
+A complete, objective account, and this is precisely the point.
 :::
 ## Character Comparison: Eunice/Steve vs Clotilde Armenta
 
@@ -351,7 +351,7 @@ Them emblematic of the bystander effect and the moral paralysis that both author
 
 ### Eunice
 
-Eunice functions as Stella's neighbour, confidante, and — crucially — as a witness to domestic
+Eunice functions as Stella's neighbour, confidante, and, crucially, as a witness to domestic
 Violence who normalises rather than challenges it.
 
 - She witnesses Stanley's violence against Stella (the poker night beating in Scene 3) and offers
@@ -360,7 +360,7 @@ Violence who normalises rather than challenges it.
 - Yet by the end of the same scene, Eunice tells Stella: "Don't ever believe it. Life has got to go
   on."
 - She hears Blanche's rape accusation in Scene 11 and, along with Stella, decides not to believe
-  her. Her role in the final scene — collecting Blanche and escorting her to the asylum — is one of
+  her. Her role in the final scene, collecting Blanche and escorting her to the asylum, is one of
   quiet complicity.
 - Eunice represents the working-class woman who has accepted patriarchal violence as an inevitable
   feature of marriage. Her function in the play is to make Stella's return to Stanley seem normal,
@@ -369,13 +369,13 @@ Violence who normalises rather than challenges it.
 ### Clotilde Armenta
 
 Clotilde owns the milk shop opposite the twins' house and is one of the few characters who actively
-Attempts — however ineffectually — to prevent Santiago's murder.
+Attempts, however ineffectually, to prevent Santiago's murder.
 
 - She reads the twins' intentions early and sends her son to warn Santiago's mother, Placida Linero.
   She also tries to deter the twins directly.
 - > "She was certain that the Vicario brothers were not as determined to kill as they appeared to
   > be."
-- Her reading is arguably correct — the twins' repeated announcements of their intent suggest they
+- Her reading is arguably correct, the twins' repeated announcements of their intent suggest they
   wanted to be stopped.
 - Despite her efforts, the warnings do not reach Santiago in time. Clotilde's milk shop becomes an
   ironic symbol: a place of nourishment adjacent to a place of planned slaughter.
@@ -394,8 +394,8 @@ Attempts — however ineffectually — to prevent Santiago's murder.
 | Symbolic function | Normalises patriarchal violence   | Represents futile moral conscience     |
 
 **Key Comparison:** Both characters illuminate the limits of individual moral agency within
-Oppressive social systems. Eunice's failure is more damning — she actively discourages Stella from
-Holding Stanley accountable. Clotilde's failure is more tragic — she makes genuine efforts but is
+Oppressive social systems. Eunice's failure is more damning, she actively discourages Stella from
+Holding Stanley accountable. Clotilde's failure is more tragic, she makes genuine efforts but is
 Defeated by the town's collective inertia. Together, they demonstrate that awareness of injustice is
 Insufficient without the structural power to challenge it.
 
@@ -407,27 +407,27 @@ The formal difference between a prose novella and a stage play fundamentally sha
 Constructs meaning and how its audience engages with the central tragedy.
 
 **Chronicle of a Death Foretold** operates as a hybrid of fiction and journalism. Marquez adopts the
-Conventions of a detective investigation — interviewing witnesses, assembling timelines, quoting
-Testimony — while simultaneously employing literary techniques such as magical realism, dramatic
+Conventions of a detective investigation, interviewing witnesses, assembling timelines, quoting
+Testimony, while simultaneously employing literary techniques such as magical realism, dramatic
 Irony, and symbolic imagery. The novella form allows Marquez to:
 
 - Present multiple, often contradictory perspectives in close succession, forcing the reader to
   compare and evaluate testimony.
-- Control the flow of information precisely — revealing Santiago's death in the first sentence and
+- Control the flow of information precisely, revealing Santiago's death in the first sentence and
   then slowly unpacking how it happened.
 - Include the narrator's own reflections and doubts, creating a self-conscious text that questions
   its own reliability.
 
 **A Streetcar Named Desire** operates as a scripted performance. Williams provides extensive stage
-Directions that function as a second narrative layer — one accessible only to the reader of the
+Directions that function as a second narrative layer, one accessible only to the reader of the
 Script, not the theatre audience. The play form allows Williams to:
 
-- Use "plastic theatre" — the integration of music (the blue piano, the Varsouviana polka), lighting
+- Use "plastic theatre", the integration of music (the blue piano, the Varsouviana polka), lighting
   (the naked bulb Blanche avoids, the paper lantern), and sound (the locomotive, the street vendors)
   to create a sensory environment that conveys psychological states.
 - Create real-time tension through the audience's physical proximity to the characters. Blanche's
   breakdown unfolds in the present tense of performance, making it viscerally immediate.
-- Exploit dramatic irony through dialogue — the audience understands Blanche's vulnerability long
+- Exploit dramatic irony through dialogue, the audience understands Blanche's vulnerability long
   before Stanley's destruction is complete.
 
 ### Non-linear vs Linear Chronology
@@ -439,9 +439,9 @@ Inevitability.
 Then moves backward and forward through time, circling the murder from multiple angles. This
 Structure:
 
-- Creates a sense of fatalism — the reader knows the ending, so every moment of hope (a warning
+- Creates a sense of fatalism, the reader knows the ending, so every moment of hope (a warning
   sent, a door locked) is undercut by the certainty of death.
-- Mirrors the act of memory itself — the narrator reconstructs the past in fragments, just as the
+- Mirrors the act of memory itself, the narrator reconstructs the past in fragments, just as the
   townspeople remember in fragments.
 - Emphasises the communal nature of the event rather than any single character's perspective.
 
@@ -450,7 +450,7 @@ Williams complicates this linearity through:
 
 - Flashbacks conveyed through music and lighting (the Varsouviana polka triggers memories of
   Blanche's dead husband, Allan Grey).
-- The symbolic streetcar journey — "Desire" to "Cemeteries" to "Elysian Fields" — which compresses
+- The symbolic streetcar journey, "Desire" to "Cemeteries" to "Elysian Fields", which compresses
   Blanche's entire life trajectory into a single metaphorical arc.
 - Building dramatic tension through a linear progression that nevertheless feels inevitable, as each
   scene strips away another layer of Blanche's defences.
@@ -461,14 +461,14 @@ Both authors developed innovative aesthetic approaches that broke from the conve
 Respective forms.
 
 **New Journalism (Marquez):** Although Marquez predates the New Journalism movement associated with
-Tom Wolfe and Joan Didion, Chronicle employs its techniques — fictional narrative structures applied
+Tom Wolfe and Joan Didion, Chronicle employs its techniques, fictional narrative structures applied
 To journalistic investigation, the blurring of fact and fiction, the use of literary devices in
 Reportage. The narrator positions himself as a journalist: "I returned to this forgotten village...
 Trying to put the broken mirror of memory back together." This creates a text that feels both
 Fictional and documentary, undermining the reader's ability to distinguish between the two.
 
 **Plastic Theatre (Williams):** Williams coined the term "plastic theatre" to describe his method of
-Using all stage elements — not just dialogue — to communicate meaning. In Streetcar, the blue piano
+Using all stage elements, not just dialogue, to communicate meaning. In Streetcar, the blue piano
 Expresses the spirit of New Orleans; the Varsouviana polka represents Blanche's guilt over Allan's
 Death; the paper lantern over the naked bulb symbolises Blanche's desire to soften reality. This
 Multi-sensory approach creates meaning that cannot be reduced to language alone.
@@ -477,7 +477,7 @@ Multi-sensory approach creates meaning that cannot be reduced to language alone.
 
 **Chronicle** employs a collective, polyphonic narration. The narrator assembles testimony from
 Dozens of townspeople, and the text shifts between their voices without a clear hierarchy. No single
-Witness is privileged as authoritative — even the narrator admits his account is incomplete. This
+Witness is privileged as authoritative, even the narrator admits his account is incomplete. This
 Form mirrors the novella's thematic concern with collective responsibility: if the truth is
 Dispersed among many voices, then guilt is also dispersed.
 
@@ -496,17 +496,17 @@ In both _Chronicle of a Death Foretold_ and _A Streetcar Named Desire_, individu
 With the inflexible demands of social expectation, producing destruction. However, the nature of
 That destruction and the formal means by which each author represents it differ significantly.
 Marquez presents a community in which honour codes suppress individual agency so completely that the
-Murder of Santiago Nasar becomes a collective act, while Williams presents a single consciousness —
-Blanche DuBois — struggling to sustain desire in a society that punishes non-conformity. Both texts
+Murder of Santiago Nasar becomes a collective act, while Williams presents a single consciousness,
+Blanche DuBois, struggling to sustain desire in a society that punishes non-conformity. Both texts
 Suggest that social expectation is not merely a backdrop but an active, violent force.
 
 In _Chronicle_, the conflict between desire and social expectation is most visible in Angela
 Vicario. Angela is forced into an arranged marriage with Bayardo San Roman, a man she does not love.
-Her secret desire — for another man whose identity she protects by naming Santiago — is suppressed
+Her secret desire, for another man whose identity she protects by naming Santiago, is suppressed
 By the patriarchal honour code that treats female virginity as family property. Marquez writes: "The
 Only thing I prayed for was the courage to kill myself." Angela's wish for death rather than
 Submission reveals the extremity of the conflict. Her lie about Santiago is an act of individual
-Desire — she protects the real perpetrator — but it operates within the logic of the honour code,
+Desire, she protects the real perpetrator, but it operates within the logic of the honour code,
 Which demands a name regardless of its truth. The result is Santiago's murder, a violent assertion
 Of social expectation over individual life. Marquez's non-linear structure, which reveals the murder
 In the opening line, makes clear that individual desire in this world is always already doomed by
@@ -514,12 +514,12 @@ Communal will.
 
 In _Streetcar_, Blanche DuBois represents individual desire in its most articulate form. She
 Explicitly rejects social expectation: "I don't want realism. I want magic!" Blanche's desire is for
-A world in which beauty, romance, and gentility persist — a world that the post-war, working- class
+A world in which beauty, romance, and gentility persist, a world that the post-war, working- class
 Reality of Elysian Fields has no place for. Her sexual history, her drinking, and her fabrications
 Are all attempts to sustain desire in a society that judges women by rigid standards of purity and
 Domesticity. Stanley Kowalski embodies the social order that destroys her: "I am the king around
 Here!" His rape of Blanche in Scene 10 is not merely an act of personal violence but a social
-Enforcement — he punishes her non-conformity with the one weapon the patriarchal system cannot
+Enforcement, he punishes her non-conformity with the one weapon the patriarchal system cannot
 Prosecute. Williams's plastic theatre intensifies this conflict: the Varsouviana polka, which plays
 Whenever Blanche recalls her husband's suicide, represents desire haunted by guilt, and the paper
 Lantern she places over the naked bulb symbolises her attempt to soften a reality that will not
@@ -533,7 +533,7 @@ Returned them, and the neighbours who heard the twins' threats and did nothing. 
 In Marquez's world is a collective phenomenon, and guilt is collective. In _Streetcar_,
 Responsibility concentrates in the dynamic between Stanley and Blanche, with Stella's refusal to
 Believe Blanche's rape accusation serving as a more personal, intimate form of complicity. "I
-Couldn't believe her story and go on living with Stanley," Stella admits — a statement that mirrors
+Couldn't believe her story and go on living with Stanley," Stella admits, a statement that mirrors
 The town's denial in _Chronicle_ but on a domestic scale. Williams's linear, single- perspective
 Structure focuses the audience's empathy on Blanche, making her destruction feel individual rather
 Than communal.
@@ -557,7 +557,7 @@ Which prioritise codes over compassion produce tragedies that are, in different 
 
 - Chronicle: the suffocating, unnamed town mirrors the claustrophobia of the honour code. The river,
   the market, and the church become ironic sites of inaction.
-- Streetcar: Elysian Fields (ironic name — both paradise and underworld), the Kowalski apartment
+- Streetcar: Elysian Fields (ironic name, both paradise and underworld), the Kowalski apartment
   (cramped, violent, alive), Belle Reve (absent but omnipresent as symbol of loss).
 - Both use setting to create dramatic irony: the reader/audience understands what the characters
   cannot.
@@ -577,11 +577,11 @@ Law, family)?"
 
 - Chronicle: Father Amador fails to warn Santiago; the mayor confiscates knives but returns them;
   the family structure (Purisima del Carmen forcing the marriage) is the root cause.
-- Streetcar: the legal system is absent — Stanley's rape goes unreported; the family (Stella)
+- Streetcar: the legal system is absent, Stanley's rape goes unreported; the family (Stella)
   chooses not to intervene; the medical institution (the asylum) removes Blanche rather than
   addressing the injustice.
 - Both texts show institutions failing to protect the vulnerable.
-- Counterargument: individual moral failure is also significant — the bystanders in Chronicle and
+- Counterargument: individual moral failure is also significant, the bystanders in Chronicle and
   Stella in Streetcar make personal choices.
 
 </details>
@@ -598,7 +598,7 @@ Law, family)?"
   butcher's knife; the imagery of the bishop's boat passing without stopping.
 - Streetcar: the streetcar route (Desire to Cemeteries to Elysian Fields); Blanche's name ("white" /
   funerary); the Varsouviana polka (linked to Allan Grey's death); the asylum as social death.
-- Both use death as both literal event and symbolic condition — Santiago's physical death vs
+- Both use death as both literal event and symbolic condition, Santiago's physical death vs
   Blanche's social and psychological death.
 - Link to form: Marquez reveals death immediately; Williams builds toward it, creating suspense.
 
@@ -616,7 +616,7 @@ Law, family)?"
   commodification; Maria Alejandrina Cervantes as a paradox (sexual power within patriarchy).
 - Streetcar: Stanley's physical dominance over both Stella and Blanche; the Napoleonic Code as
   legalised patriarchy; Blanche's lack of economic independence making her vulnerable.
-- Both texts show women navigating power structures that deny them agency — Angela through silence,
+- Both texts show women navigating power structures that deny them agency, Angela through silence,
   Blanche through fabrication.
 - Difference: Chronicle presents gender power as collective and codified; Streetcar presents it as
   interpersonal and physical.
@@ -633,11 +633,11 @@ Audience's understanding of the central themes?"
 **Planning notes:**
 
 - Chronicle: the final image of the narrator returning decades later to find the town unchanged;
-  Santiago's mother still waiting by the window. The lack of resolution — the truth is never fully
-  established — reinforces the theme of collective amnesia.
+  Santiago's mother still waiting by the window. The lack of resolution, the truth is never fully
+  established, reinforces the theme of collective amnesia.
 - Streetcar: Blanche's departure to the asylum; Stella's cry of "I've always relied on the kindness
   of strangers" echoing Blanche; Eunice's pragmatic normalisation. The play ends with social order
-  restored — but at what cost?
+  restored, but at what cost?
 - Both endings are ambiguous and unsettling, refusing to provide moral closure.
 - Link to reader-response: both endings force the audience to confront their own complicity as
   witnesses to injustice.

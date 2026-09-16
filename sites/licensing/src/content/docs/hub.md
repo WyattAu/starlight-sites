@@ -1,6 +1,6 @@
 ---
-title: "Software Licensing Guide — GPL, MIT, Apache, BSD"
-description: "Study notes for Software Licensing Guide — GPL, MIT, Apache, BSD with worked examples, practice problems, and key concepts for exam preparation."
+title: "Software Licensing Guide, GPL, MIT, Apache, BSD"
+description: "Study notes for Software Licensing Guide, GPL, MIT, Apache, BSD with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - licensing
@@ -55,7 +55,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Software licensing determines what you can do with code — who can use it, modify it, distribute it, and under what conditions. For developers, understanding licensing is not optional. Choosing the wrong license for your project can inadvertently prevent adoption. Using code under the wrong license can result in legal liability. Ignoring license obligations can lead to lawsuits and damaged reputations.
+Software licensing determines what you can do with code, who can use it, modify it, distribute it, and under what conditions. For developers, understanding licensing is not optional. Choosing the wrong license for your project can inadvertently prevent adoption. Using code under the wrong license can result in legal liability. Ignoring license obligations can lead to lawsuits and damaged reputations.
 
 This hub page maps every resource on this site. The guides cover the major open-source licenses (GPL, MIT, Apache, BSD), the philosophy and legal mechanics of copyleft versus permissive licensing, license compatibility and dual licensing, and practical compliance guidance. Whether you are choosing a license for your own project or ensuring compliance when using open-source dependencies, these resources provide the knowledge you need.
 
@@ -76,25 +76,25 @@ This hub page maps every resource on this site. The guides cover the major open-
 
 ## Why Licensing Matters
 
-Every piece of software has a license — even if it is not explicitly stated. When no license is specified, the default under copyright law is "all rights reserved." This means no one can use, copy, modify, or distribute the code without explicit permission.
+Every piece of software has a license, even if it is not explicitly stated. When no license is specified, the default under copyright law is "all rights reserved." This means no one can use, copy, modify, or distribute the code without explicit permission.
 
 ### The Four Freedoms
 
 The Free Software Definition (Free Software Foundation) identifies four essential freedoms:
 
-- **Freedom 0** — the freedom to run the program for any purpose
-- **Freedom 1** — the freedom to study how the program works and modify it
-- **Freedom 2** — the freedom to redistribute copies
-- **Freedom 3** — the freedom to distribute copies of your modified versions
+- **Freedom 0**, the freedom to run the program for any purpose
+- **Freedom 1**, the freedom to study how the program works and modify it
+- **Freedom 2**, the freedom to redistribute copies
+- **Freedom 3**, the freedom to distribute copies of your modified versions
 
 A license is the legal mechanism that grants these freedoms while protecting the author's rights.
 
 ### Why Developers Care
 
-- **Choosing a license** — affects who can use your code and how
-- **Using dependencies** — every library has a license that constrains your project
-- **Compliance** — failure to comply with license terms can result in legal action
-- **Business considerations** — licensing affects monetisation, partnerships, and adoption
+- **Choosing a license**, affects who can use your code and how
+- **Using dependencies**, every library has a license that constrains your project
+- **Compliance**, failure to comply with license terms can result in legal action
+- **Business considerations**, licensing affects monetisation, partnerships, and adoption
 
 ---
 
@@ -312,10 +312,10 @@ License compatibility determines whether code under different licenses can be co
 
 ### Incompatible Combinations
 
-- GPL v2 + Apache 2.0 — Apache 2.0 includes patent provisions incompatible with GPL v2
-- GPL v2 + GPL v3 — the licenses have different requirements
-- AGPL + proprietary code — AGPL requires source code disclosure
-- Any copyleft + proprietary — copyleft licenses require derivative works to be open
+- GPL v2 + Apache 2.0, Apache 2.0 includes patent provisions incompatible with GPL v2
+- GPL v2 + GPL v3, the licenses have different requirements
+- AGPL + proprietary code, AGPL requires source code disclosure
+- Any copyleft + proprietary, copyleft licenses require derivative works to be open
 
 ### Dual Licensing
 
@@ -329,18 +329,18 @@ Not all software is open source. Understanding other licensing models is essenti
 
 ### Proprietary Licenses
 
-- **EULA** (End-User License Agreement) — restricts use, modification, and distribution
-- **Subscription** — pay periodically for continued use (SaaS model)
-- **Perpetual** — one-time purchase with ongoing use rights
-- **OEM** — bundled with hardware
+- **EULA** (End-User License Agreement), restricts use, modification, and distribution
+- **Subscription**, pay periodically for continued use (SaaS model)
+- **Perpetual**, one-time purchase with ongoing use rights
+- **OEM**, bundled with hardware
 
 ### Source-Available Licenses
 
 These licenses provide access to source code but do not meet the Open Source Definition:
 
-- **BSL (Business Source License)** — source available, converts to open source after a period
-- **Elastic License 2.0** — source available but restricts SaaS and competitive use
-- **Server Side Public License (SSPL)** — MongoDB's license; requires SaaS providers to release their entire stack
+- **BSL (Business Source License)**, source available, converts to open source after a period
+- **Elastic License 2.0**, source available but restricts SaaS and competitive use
+- **Server Side Public License (SSPL)**, MongoDB's license; requires SaaS providers to release their entire stack
 
 ---
 
@@ -367,9 +367,9 @@ These licenses provide access to source code but do not meet the Open Source Def
 
 ### Tools for Choosing
 
-- **choosealicense.com** — interactive license chooser by GitHub
-- **tldrlegal.com** — plain-English summaries of licenses
-- **opensource.org** — the Open Source Initiative's license list
+- **choosealicense.com**, interactive license chooser by GitHub
+- **tldrlegal.com**, plain-English summaries of licenses
+- **opensource.org**, the Open Source Initiative's license list
 
 ---
 
@@ -379,25 +379,25 @@ Compliance means following the terms of every license that applies to your softw
 
 ### For Users of Open-Source Software
 
-- **Include copyright notices** — every permissive license requires this
-- **Include license text** — distribute the full license text with your software
-- **Document modifications** — some licenses require you to note changes
-- **Disclose source code** — copyleft licenses require source availability
-- **Maintain license compatibility** — ensure all licenses in your project are compatible
+- **Include copyright notices**, every permissive license requires this
+- **Include license text**, distribute the full license text with your software
+- **Document modifications**, some licenses require you to note changes
+- **Disclose source code**, copyleft licenses require source availability
+- **Maintain license compatibility**, ensure all licenses in your project are compatible
 
 ### For Distributors
 
-- **SBOM (Software Bill of Materials)** — maintain a list of all components and their licenses
-- **License scanning tools** — FOSSology, LicenseFinder, FOSSA, Snyk
-- **Automated compliance** — CI/CD pipelines can scan for license issues on every commit
+- **SBOM (Software Bill of Materials)**, maintain a list of all components and their licenses
+- **License scanning tools**, FOSSology, LicenseFinder, FOSSA, Snyk
+- **Automated compliance**, CI/CD pipelines can scan for license issues on every commit
 
 ### Common Compliance Mistakes
 
-1. **Ignoring transitive dependencies** — your dependencies have dependencies, each with their own license
-2. **Assuming all open-source is MIT** — every license has specific requirements
-3. **Not including license text** — most licenses require the full text to be distributed
-4. **Mixing incompatible licenses** — GPL and Apache 2.0 are not compatible under GPL v2
-5. **Forgetting about documentation** — some licenses apply to documentation as well as code
+1. **Ignoring transitive dependencies**, your dependencies have dependencies, each with their own license
+2. **Assuming all open-source is MIT**, every license has specific requirements
+3. **Not including license text**, most licenses require the full text to be distributed
+4. **Mixing incompatible licenses**, GPL and Apache 2.0 are not compatible under GPL v2
+5. **Forgetting about documentation**, some licenses apply to documentation as well as code
 
 ---
 
@@ -429,12 +429,12 @@ Enterprises typically prefer permissive licenses (MIT, Apache 2.0) to avoid copy
 
 Software licensing connects to many areas of development:
 
-- **[Developer Tools](https://tools.wyattau.com/hub)** — tools for license scanning and compliance
-- **[Linux Administration](https://linux.wyattau.com/hub)** — Linux is GPL-licensed; understanding GPL matters
-- **[C++ Programming](https://programming.wyattau.com/hub)** — license considerations for C++ projects
-- **[Go Programming](https://go.wyattau.com/hub)** — Go standard library licensing
-- **[Rust Programming](https://rust.wyattau.com/hub)** — Rust is dual-licensed MIT/Apache 2.0
-- **[Python](https://python.wyattau.com/hub)** — Python's PSF license
+- **[Developer Tools](https://tools.wyattau.com/hub)**, tools for license scanning and compliance
+- **[Linux Administration](https://linux.wyattau.com/hub)**, Linux is GPL-licensed; understanding GPL matters
+- **[C++ Programming](https://programming.wyattau.com/hub)**, license considerations for C++ projects
+- **[Go Programming](https://go.wyattau.com/hub)**, Go standard library licensing
+- **[Rust Programming](https://rust.wyattau.com/hub)**, Rust is dual-licensed MIT/Apache 2.0
+- **[Python](https://python.wyattau.com/hub)**, Python's PSF license
 
 ---
 
@@ -458,7 +458,7 @@ You can change the license of code you authored. You cannot change the license o
 
 ### Do I need a license for my GitHub repository?
 
-Technically, no — the code is copyrighted by default. But without a license, no one can legally use, modify, or distribute your code. If you want others to use your code, add a license. If you want to keep it private, do not publish it.
+Technically, no, the code is copyrighted by default. But without a license, no one can legally use, modify, or distribute your code. If you want others to use your code, add a license. If you want to keep it private, do not publish it.
 
 ### How do I check the licenses of my dependencies?
 

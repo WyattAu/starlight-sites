@@ -19,7 +19,7 @@ description: 'Sigma-Algebras and Measurable Spaces: comprehensive educational co
 
 :::note
 <strong>Historical Context</strong>
-The concept of a sigma-algebra emerged from the need to formalise which subsets of $\mathbb{R}$ can be assigned a "length" (measure). Georg Cantor's work on the uncountability of the reals (1874) showed that not all subsets are well-behaved. Henri Lebesgue's 1902 thesis introduced the Lebesgue measure, but his construction required a precise notion of "measurable" sets. The sigma-algebra axioms — closure under complements and countable unions — were the cleanest way to capture this. André Weil and later Paul Halmos systematised the theory in the 1940s-50s, connecting it to probability theory (Kolmogorov's 1933 foundation) and functional analysis.
+The concept of a sigma-algebra emerged from the need to formalise which subsets of $\mathbb{R}$ can be assigned a "length" (measure). Georg Cantor's work on the uncountability of the reals (1874) showed that not all subsets are well-behaved. Henri Lebesgue's 1902 thesis introduced the Lebesgue measure, but his construction required a precise notion of "measurable" sets. The sigma-algebra axioms, closure under complements and countable unions, were the cleanest way to capture this. André Weil and later Paul Halmos systematised the theory in the 1940s-50s, connecting it to probability theory (Kolmogorov's 1933 foundation) and functional analysis.
 :::
 ### 1.1 Algebras of Sets
 
@@ -151,7 +151,7 @@ $\limsup A_n \in \mathcal{F}$. Similarly $\liminf A_n \in \mathcal{F}$. $\blacks
 
 :::tip
 <strong>Research Connections</strong>
-The Borel sigma-algebra is foundational for modern probability theory. Kolmogorov (1933) used it to build the axioms of probability that underpin all of statistics. The Carathéodory extension theorem (1914) shows how measures on algebras extend to sigma-algebras — this is the bridge between intuitive "length" and rigorous measure theory. Current research uses sigma-algebras in stochastic processes (Brownian motion, martingales), financial mathematics (Black-Scholes), and functional analysis (measure-theoretic probability on infinite-dimensional spaces).
+The Borel sigma-algebra is foundational for modern probability theory. Kolmogorov (1933) used it to build the axioms of probability that underpin all of statistics. The Carathéodory extension theorem (1914) shows how measures on algebras extend to sigma-algebras, this is the bridge between intuitive "length" and rigorous measure theory. Current research uses sigma-algebras in stochastic processes (Brownian motion, martingales), financial mathematics (Black-Scholes), and functional analysis (measure-theoretic probability on infinite-dimensional spaces).
 :::
 
 ## Cross-References

@@ -155,7 +155,7 @@ $\blacksquare$
 
 Define closed sets $F_n = \{f \in B : f(1/k) = 0 \text{ for } k \geq n\}$. Each $F_n$ is nonempty (contains the zero function). Any finite intersection $\bigcap_{k=1}^m F_{n_k}$ is nonempty (contains at least continuous functions vanishing at specified points). So $\{F_n\}$ has the FIP.
 
-But $\bigcap_{n=1}^\infty F_n = \{f \in B : f(1/k) = 0 \text{ for all } k \in \mathbb{N}\}$. This contains only functions vanishing on $\{1, 1/2, 1/3, \ldots\}$, which by continuity must also vanish at $0$. The only function in $B$ with this property is $f \equiv 0$, which is indeed in the intersection. Wait — this seems to suggest compactness! The subtlety is that in an infinite-dimensional space, closed bounded sets need not be compact. By Riesz's lemma, the unit ball is not compact. The FIP argument fails because the closed sets $F_n$ must be checked for FIP in the subspace topology of $B$, and in an infinite-dimensional space, closed bounded sets need not be compact.
+But $\bigcap_{n=1}^\infty F_n = \{f \in B : f(1/k) = 0 \text{ for all } k \in \mathbb{N}\}$. This contains only functions vanishing on $\{1, 1/2, 1/3, \ldots\}$, which by continuity must also vanish at $0$. The only function in $B$ with this property is $f \equiv 0$, which is indeed in the intersection. Wait, this seems to suggest compactness! The subtlety is that in an infinite-dimensional space, closed bounded sets need not be compact. By Riesz's lemma, the unit ball is not compact. The FIP argument fails because the closed sets $F_n$ must be checked for FIP in the subspace topology of $B$, and in an infinite-dimensional space, closed bounded sets need not be compact.
 
 $\blacksquare$
 

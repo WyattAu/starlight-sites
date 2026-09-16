@@ -1,5 +1,5 @@
 ---
-title: "Software Licensing Glossary — Key Terms"
+title: "Software Licensing Glossary, Key Terms"
 description: "Essential software licensing terminology: copyleft, permissive licenses, dual licensing, GPL, MIT, Apache, BSD, and commercial licensing models."
 date: 2026-07-24
 tags: [glossary]
@@ -27,7 +27,7 @@ tags: [glossary]
 
 **BSD Licenses**: A family of permissive licenses (2-clause and 3-clause variants) similar in spirit to MIT, originating from Berkeley Unix.
 
-**MPL (Mozilla Public License)**: A file-level copyleft license — modifications to licensed files stay open, but new files can be proprietary.
+**MPL (Mozilla Public License)**: A file-level copyleft license, modifications to licensed files stay open, but new files can be proprietary.
 
 ## Concepts
 
@@ -94,13 +94,13 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 
 **SSPL (Server Side Public License)**: MongoDB's license requiring source disclosure for offering the software as a service; rejected by OSI as not open source.
 
-**BSL (Business Source License)**: Time-delayed open source — code converts to an open license after a change date (MariaDB, HashiCorp post-2023).
+**BSL (Business Source License)**: Time-delayed open source, code converts to an open license after a change date (MariaDB, HashiCorp post-2023).
 
 **AGPL (Affero GPL)**: GPLv3 plus network-use clause; the standard choice for server software that wants to force SaaS disclosure.
 
 **CC BY**: Creative Commons attribution license for creative works; permissive but not recommended for software (no patent or source provisions).
 
-**MIT-0**: MIT variant with the attribution condition removed — effectively a public-domain dedication with warranty language.
+**MIT-0**: MIT variant with the attribution condition removed, effectively a public-domain dedication with warranty language.
 
 ## Legal Concepts
 
@@ -116,7 +116,7 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 
 **Installation Information**: GPLv3's requirement to provide build/install instructions when conveying object code for consumer devices.
 
-**Termination and Cure**: GPLv3's provision allowing licensees who violate terms to regain the license automatically if they cure within 30 days — a first-offence forgiveness clause.
+**Termination and Cure**: GPLv3's provision allowing licensees who violate terms to regain the license automatically if they cure within 30 days, a first-offence forgiveness clause.
 
 
 ## Quick Reference Table
@@ -124,18 +124,18 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 | Term | Meaning |
 |------|---------|
 | SPDX | Standardised license identifier system (SPDX-License-Identifier: MIT) |
-| SBOM | Software Bill of Materials — machine-readable dependency inventory |
-| SCA | Software Composition Analysis — automated license/security auditing |
+| SBOM | Software Bill of Materials, machine-readable dependency inventory |
+| SCA | Software Composition Analysis, automated license/security auditing |
 | AGPL | GPL plus network-use clause closing the SaaS loophole |
 | EPL | Eclipse Public License, weak module-level copyleft |
 | CDDL | Sun's file-level copyleft license (OpenSolaris, ZFS) |
-| BSL | Business Source License — converts to open source after change date |
+| BSL | Business Source License, converts to open source after change date |
 | SSPL | MongoDB's service-restriction license, rejected by OSI |
 | CC0 | Public-domain dedication, unrecognised in some jurisdictions |
 | Unlicense | Alternative public-domain dedication with explicit waiver text |
 | CLA | Contributor License Agreement granting relicensing rights to maintainer |
-| DCO | Developer Certificate of Origin — lighter-weight CLA alternative |
-| ORM | Open Source Rewards/OSI-approved mark — compliance certification schemes |
+| DCO | Developer Certificate of Origin, lighter-weight CLA alternative |
+| ORM | Open Source Rewards/OSI-approved mark, compliance certification schemes |
 | Compatibility | Whether two licenses' code may be legally combined |
 | One-way compatibility | A-permissive-in-B-copyleft is fine; the reverse is not |
 | License stack | Combined obligations of a dependency tree's many licenses |

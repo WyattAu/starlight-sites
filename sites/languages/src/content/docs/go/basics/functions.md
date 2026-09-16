@@ -304,7 +304,7 @@ Key rules:
 
 ## Intuition
 
-**Functions are first-class workers in a factory:** In Go, functions aren't just recipes — they're workers you can hire, fire, and pass around. You can hand a worker (closure) a clipboard with notes from the factory floor (captured variables), and they'll carry that context wherever they go. Methods are just workers assigned to a specific machine (receiver type).
+**Functions are first-class workers in a factory:** In Go, functions aren't just recipes, they're workers you can hire, fire, and pass around. You can hand a worker (closure) a clipboard with notes from the factory floor (captured variables), and they'll carry that context wherever they go. Methods are just workers assigned to a specific machine (receiver type).
 
 **Why it matters:** First-class functions and closures enable patterns like middleware, callbacks, and functional transformations that would otherwise require elaborate class hierarchies. Multiple return values eliminate the need for wrapper structs just to return "result + error."
 

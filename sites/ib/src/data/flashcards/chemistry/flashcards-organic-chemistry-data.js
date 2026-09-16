@@ -9,14 +9,14 @@ export const flashcard1 = [
   {
     id: 'hydrocarbon-2',
     front: 'How are alkenes named and what is the significance of the C=C bond?',
-    back: 'Alkenes have a C=C double bond (one σ + one π bond). General formula: CₙH₂ₙ. Named using the suffix -ene with the lowest possible locant for the double bond (e.g. pent-2-ene). The π bond makes alkenes more reactive than alkanes — susceptible to electrophilic addition.',
+    back: 'Alkenes have a C=C double bond (one σ + one π bond). General formula: CₙH₂ₙ. Named using the suffix -ene with the lowest possible locant for the double bond (e.g. pent-2-ene). The π bond makes alkenes more reactive than alkanes, susceptible to electrophilic addition.',
     tags: ['hydrocarbons', 'alkenes'],
     difficulty: 'medium',
   },
   {
     id: 'hydrocarbon-3',
     front: 'What are arenes and how does benzene differ from cyclohexa-1,3,5-triene?',
-    back: 'Arenes contain a benzene ring (C₆H₆). Benzene has a delocalised π electron system — 6 electrons spread evenly over all six carbon atoms (ring of electron density above and below the ring). It is NOT alternating single and double bonds. Evidence: all C–C bonds are equal length (139 pm), intermediate between single (154) and double (134).',
+    back: 'Arenes contain a benzene ring (C₆H₆). Benzene has a delocalised π electron system, 6 electrons spread evenly over all six carbon atoms (ring of electron density above and below the ring). It is NOT alternating single and double bonds. Evidence: all C–C bonds are equal length (139 pm), intermediate between single (154) and double (134).',
     tags: ['hydrocarbons', 'arenes', 'benzene'],
     difficulty: 'hard',
   },
@@ -30,7 +30,7 @@ export const flashcard1 = [
   {
     id: 'functional-2',
     front: 'Describe the structure and properties of carboxylic acids.',
-    back: 'General formula: R–COOH. The carboxyl group contains a carbonyl (C=O) and a hydroxyl (–OH) on the same carbon. They are weak acids: partially dissociate in water — RCOOH ⇌ RCOO⁻ + H⁺ (pKa ≈ 4–5). Form hydrogen bonds, so have higher boiling points than alcohols of similar mass. React with alcohols to form esters (esterification).',
+    back: 'General formula: R–COOH. The carboxyl group contains a carbonyl (C=O) and a hydroxyl (–OH) on the same carbon. They are weak acids: partially dissociate in water, RCOOH ⇌ RCOO⁻ + H⁺ (pKa ≈ 4–5). Form hydrogen bonds, so have higher boiling points than alcohols of similar mass. React with alcohols to form esters (esterification).',
     tags: ['functional groups', 'carboxylic acids'],
     difficulty: 'medium',
   },
@@ -40,14 +40,14 @@ export const flashcard2 = [
   {
     id: 'functional-3',
     front: 'Classify amines and describe their basicity.',
-    back: 'Amines contain –NH₂ (primary), –NHR (secondary), or –NR₂ (tertiary) groups. They are weak bases: the lone pair on nitrogen accepts a proton — R–NH₂ + H₂O ⇌ R–NH₃⁺ + OH⁻. Basicity increases: NH₃ < primary amine < secondary amine (inductive effect). Tertiary amines are less basic than secondary due to steric hindrance. Aromatic amines are weaker bases (lone pair delocalised into the ring).',
+    back: 'Amines contain –NH₂ (primary), –NHR (secondary), or –NR₂ (tertiary) groups. They are weak bases: the lone pair on nitrogen accepts a proton, R–NH₂ + H₂O ⇌ R–NH₃⁺ + OH⁻. Basicity increases: NH₃ < primary amine < secondary amine (inductive effect). Tertiary amines are less basic than secondary due to steric hindrance. Aromatic amines are weaker bases (lone pair delocalised into the ring).',
     tags: ['functional groups', 'amines'],
     difficulty: 'hard',
   },
   {
     id: 'mechanism-1',
     front: 'Describe the SN1 nucleophilic substitution mechanism.',
-    back: 'Two-step mechanism: 1) Slow rate-determining step — the halogen leaves as a halide ion, forming a carbocation intermediate. 2) Fast step — the nucleophile attacks the carbocation. Rate = k[halogenoalkane] (first order, unimolecular). Favoured by tertiary halogenoalkanes (stable carbocations). Produces racemic mixtures (planar intermediate attacked from either side).',
+    back: 'Two-step mechanism: 1) Slow rate-determining step, the halogen leaves as a halide ion, forming a carbocation intermediate. 2) Fast step, the nucleophile attacks the carbocation. Rate = k[halogenoalkane] (first order, unimolecular). Favoured by tertiary halogenoalkanes (stable carbocations). Produces racemic mixtures (planar intermediate attacked from either side).',
     tags: ['mechanisms', 'nucleophilic substitution'],
     difficulty: 'hard',
   },
@@ -86,7 +86,7 @@ export const flashcard3 = [
   {
     id: 'analytical-3',
     front: 'What information does mass spectrometry provide about organic compounds?',
-    back: 'The molecular ion peak (M⁺) gives the molecular mass. The M+1 peak (¹³C isotope) is ~1.1% of M⁺ intensity — useful for counting carbons. The M+2 peak indicates Cl (³⁵Cl:³⁷Cl ≈ 3:1) or Br (⁷⁹Br:⁸¹Br ≈ 1:1). Fragmentation patterns identify functional groups: loss of 15 (CH₃), 17 (OH), 29 (C₂H₅ or CHO), 31 (OCH₃), 44 (CO₂).',
+    back: 'The molecular ion peak (M⁺) gives the molecular mass. The M+1 peak (¹³C isotope) is ~1.1% of M⁺ intensity, useful for counting carbons. The M+2 peak indicates Cl (³⁵Cl:³⁷Cl ≈ 3:1) or Br (⁷⁹Br:⁸¹Br ≈ 1:1). Fragmentation patterns identify functional groups: loss of 15 (CH₃), 17 (OH), 29 (C₂H₅ or CHO), 31 (OCH₃), 44 (CO₂).',
     tags: ['analytical techniques', 'mass spectrometry'],
     difficulty: 'hard',
   },
@@ -100,14 +100,14 @@ export const flashcard3 = [
   {
     id: 'synthesis-2',
     front: 'Describe the aldol condensation reaction.',
-    back: 'An aldehyde or ketone with an α-hydrogen acts as both nucleophile and electrophile. In base: the α-carbon is deprotonated to form an enolate ion, which attacks the carbonyl of another molecule, forming a β-hydroxy aldehyde/ketone (aldol). Upon heating, it dehydrates to form an α,β-unsaturated carbonyl compound. Forms new C–C bonds — important for building larger molecules.',
+    back: 'An aldehyde or ketone with an α-hydrogen acts as both nucleophile and electrophile. In base: the α-carbon is deprotonated to form an enolate ion, which attacks the carbonyl of another molecule, forming a β-hydroxy aldehyde/ketone (aldol). Upon heating, it dehydrates to form an α,β-unsaturated carbonyl compound. Forms new C–C bonds, important for building larger molecules.',
     tags: ['synthesis', 'aldol condensation'],
     difficulty: 'hard',
   },
   {
     id: 'synthesis-3',
     front: 'Describe the oxidation of primary and secondary alcohols.',
-    back: 'Primary alcohol → aldehyde (using PCC/pyridinium chlorochromate — mild) → carboxylic acid (using acidified KMnO₄ or K₂Cr₂O₇ — strong, reflux). Secondary alcohol → ketone (using acidified K₂Cr₂O₇ or KMnO₄). Tertiary alcohols are resistant to oxidation (no α-H to remove). Colour change: orange dichromate(VI) → green chromium(III) indicates oxidation has occurred.',
+    back: 'Primary alcohol → aldehyde (using PCC/pyridinium chlorochromate, mild) → carboxylic acid (using acidified KMnO₄ or K₂Cr₂O₇, strong, reflux). Secondary alcohol → ketone (using acidified K₂Cr₂O₇ or KMnO₄). Tertiary alcohols are resistant to oxidation (no α-H to remove). Colour change: orange dichromate(VI) → green chromium(III) indicates oxidation has occurred.',
     tags: ['synthesis', 'oxidation'],
     difficulty: 'medium',
   },

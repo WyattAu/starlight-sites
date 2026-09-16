@@ -148,7 +148,7 @@ Latency gap drives every architectural decision in cache design.
 ### Cache Lines and Spatial Locality
 
 Caches operate on cache lines, not individual bytes. On x86, a cache line is 64 bytes. When you read
-A single byte from memory, the CPU fetches the entire 64-byte line. This exploits spatial locality —
+A single byte from memory, the CPU fetches the entire 64-byte line. This exploits spatial locality,
 If a program accesses one address, it is likely to access nearby addresses soon.
 
 For array traversal, this means iterating sequentially through memory is significantly faster than
@@ -180,8 +180,8 @@ Protocol defines four states for each cache line:
 | **I** (Invalid)   | Line is not valid in this cache                  |
 
 When Core A modifies a line in Shared state, it must issue a RFO (Read For Ownership) request to
-Invalidate all other copies. This is why false sharing — where unrelated variables share a cache
-Line and are modified by different cores — can devastate multi-threaded performance. Each write
+Invalidate all other copies. This is why false sharing, where unrelated variables share a cache
+Line and are modified by different cores, can devastate multi-threaded performance. Each write
 Triggers a coherence round-trip, effectively serializing access.
 
 MESI extensions include MESIF (Intel uses an Forward state for efficient sharing) and MOESI (AMD
@@ -288,7 +288,7 @@ cat /sys/devices/system/cpu/intel_pstate/status
 ### AMD Precision Boost 2 / Precision Boost Overdrive
 
 AMD's Precision Boost 2 (PB2) algorithm boosts the CPU based on workload characteristics, thermal
-Headroom, and power budget. Unlike Intel's approach, PB2 does not use fixed frequency bins — it
+Headroom, and power budget. Unlike Intel's approach, PB2 does not use fixed frequency bins, it
 Selects the optimal frequency continuously based on current conditions.
 
 Precision Boost Overdrive (PBO) removes the factory power limits, allowing the CPU to draw more
@@ -479,7 +479,7 @@ Intel CPUs implement two configurable power limits:
   is 253 W by default.
 
 After the Tau window expires, the CPU must reduce its power draw to PL1. This is why you see
-Benchmark scores drop after the first 30 seconds — the CPU transitions from PL2 to PL1.
+Benchmark scores drop after the first 30 seconds, the CPU transitions from PL2 to PL1.
 
 On Linux, PL1 and PL2 are exposed via the `powercap` subsystem:
 

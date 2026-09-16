@@ -405,8 +405,8 @@ TB/month will fill a 20 TB pool in approximately 20 months (accounting for RAIDZ
 | ------------------- | -------------------------------------------------- |
 | Pool usage &gt; 70% | Plan expansion within 6 months                     |
 | Pool usage &gt; 80% | Order drives immediately                           |
-| Pool usage &gt; 90% | Critical — expand or delete data                   |
-| Pool usage &gt; 95% | Emergency — ZFS performance degrades significantly |
+| Pool usage &gt; 90% | Critical, expand or delete data                   |
+| Pool usage &gt; 95% | Emergency, ZFS performance degrades significantly |
 
 ---
 
@@ -458,14 +458,14 @@ Work with a test email.
 
 ### Running SMART Tests Only When Problems Occur
 
-SMART tests are predictive — they detect problems before they become failures. Running SMART tests
+SMART tests are predictive, they detect problems before they become failures. Running SMART tests
 Only when you suspect a problem defeats the purpose. Schedule regular short and long tests to catch
 Failures early.
 
 ### Ignoring SMART Warnings
 
 A SMART predictive failure warning means the drive has a high probability of failing. Replace the
-Drive immediately — do not wait for it to fail completely. The longer you wait, the higher the risk
+Drive immediately, do not wait for it to fail completely. The longer you wait, the higher the risk
 Of a second drive failing before the resilver completes.
 
 ### Not Testing UPS Shutdown
@@ -577,11 +577,11 @@ sudo smartctl -l selftest /dev/sda
 # # 1  Extended offline    Completed: read failure  90%        1200h     123456789
 
 # Status values:
-# Completed without error    — Healthy
-# Completed: read failure    — Bad sectors detected
-# Aborted by host            — Test was interrupted
-# Interrupted (host reset)    — System rebooted during test
-# Not started                — Test has not begun
+# Completed without error, Healthy
+# Completed: read failure, Bad sectors detected
+# Aborted by host, Test was interrupted
+# Interrupted (host reset), System rebooted during test
+# Not started, Test has not begun
 ```
 
 ### SMART Temperature Monitoring
@@ -636,9 +636,9 @@ zpool status tank
 #       0 repaired, 0 unrepairable errors
 
 # Key fields:
-# repaired      — Number of blocks repaired from redundancy
-# unrepairable — Number of blocks that could not be repaired (DATA LOSS)
-# errors        — Total checksum errors found
+# repaired, Number of blocks repaired from redundancy
+# unrepairable, Number of blocks that could not be repaired (DATA LOSS)
+# errors, Total checksum errors found
 ```
 
 If `unrepairable` is non-zero, you have experienced data corruption that could not be recovered from
@@ -756,13 +756,13 @@ MAXAGE 15
 upsc myups
 
 # Key fields:
-# battery.charge    — Remaining charge percentage
-# battery.runtime   — Estimated minutes remaining
-# ups.status        — "OL" (online), "OB" (on battery), "LB" (low battery)
-# ups.load          — Load percentage
-# input.voltage     — Input voltage
-# output.voltage    — Output voltage
-# ups.temperature   — UPS internal temperature
+# battery.charge, Remaining charge percentage
+# battery.runtime, Estimated minutes remaining
+# ups.status, "OL" (online), "OB" (on battery), "LB" (low battery)
+# ups.load, Load percentage
+# input.voltage, Input voltage
+# output.voltage, Output voltage
+# ups.temperature, UPS internal temperature
 ```
 
 ### UPS Shutdown Sequence

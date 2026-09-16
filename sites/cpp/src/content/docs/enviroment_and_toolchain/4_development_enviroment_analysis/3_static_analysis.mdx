@@ -142,7 +142,7 @@ int f(int x) \{
     // Abstract domain: x ∈ [-2^31, 2^31 - 1]
     // After the check: x ∈ [1, 2^31 - 1]
     if (x > 0) \{
-        // x + 1 ∈ [2, 2^31] — may overflow!
+        // x + 1 ∈ [2, 2^31], may overflow!
         return x + 1;
     \}
     return 0;
@@ -161,7 +161,7 @@ void handle_request(const std::string& user_input) \{
     // user_input is a taint source
     std::string query = "SELECT * FROM users WHERE name = '" + user_input + "'";
     // query is now tainted
-    db.execute(query);  // taint sink — potential SQL injection
+    db.execute(query);  // taint sink, potential SQL injection
 \}
 ```
 
@@ -354,7 +354,7 @@ Catches common mistakes that compilers often miss. These are higher-priority che
 
 ### 7.3 readability-\*
 
-Enforces consistent style. Some are opinionated — disable the ones that conflict with your project's
+Enforces consistent style. Some are opinionated, disable the ones that conflict with your project's
 Conventions.
 
 | Check                                  | What it does                                        |
@@ -388,7 +388,7 @@ Strategy to adopt clang-tidy without blocking development.
 Run clang-tidy in read-only mode to assess the current state. Do not fail the build.
 
 ```yaml
-# .clang-tidy — Phase 1: Audit only
+# .clang-tidy, Phase 1: Audit only
 Checks: >
   -*, bugprone-*, modernize-use-override, modernize-use-nullptr, modernize-use-auto
 WarningsAsErrors: "'' # Empty = warnings are not errors
@@ -502,7 +502,7 @@ Recommendations:
 | OOP57-CPP | `cert-oop57-cpp` | Copy constructor missing |
 | OOP58-CPP | `cert-oop58-cpp` | Move constructor missing |
 Enabling `cert-*` in CI is a low-cost way to catch common vulnerability patterns. Many of these
-Checks are also covered by `bugprone-*` and `cppcoreguidelines-*`So the overlap is intentional —
+Checks are also covered by `bugprone-*` and `cppcoreguidelines-*`So the overlap is intentional,
 CERT rules provide a formal security justification for checks you might already have enabled.
 
 ## 12. False Positive Management at Scale
@@ -577,7 +577,7 @@ Pass.
 ### Safe Autofix Workflow
 
 ```bash
-# Step 1: Dry run — show what would be changed
+# Step 1: Dry run, show what would be changed
 clang-tidy -p build/ --checks='modernize-*' --fix-errors src/ --dry-run
 # Step 2: Apply fixes
 clang-tidy -p build/ --checks='modernize-*' --fix-errors src/
@@ -669,11 +669,11 @@ fi
 
 ## Intuition
 
-**Automated code review:** Static analysis is like a linter on steroids — it analyzes your code without running it, finding bugs, style issues, and potential vulnerabilities.
+**Automated code review:** Static analysis is like a linter on steroids, it analyzes your code without running it, finding bugs, style issues, and potential vulnerabilities.
 
 **Why it matters:** Static analysis catches bugs early, often before you even run the code. It's like having a code reviewer that works 24/7.
 
-**The key insight:** Static analysis tools have different strengths — use multiple tools to catch different types of issues.
+**The key insight:** Static analysis tools have different strengths, use multiple tools to catch different types of issues.
 
 ## Common Pitfalls
 

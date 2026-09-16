@@ -1,7 +1,7 @@
 ---
 
 title: Special Member Function Generation Rules
-description: "The compiler automatically generates special member functions (SMFs) — destructor, copy/move Constructors, and copy/move assignment operators — according to"
+description: "The compiler automatically generates special member functions (SMFs), destructor, copy/move Constructors, and copy/move assignment operators, according to"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -21,8 +21,8 @@ categories:
 
 ## Special Member Function Generation Rules
 
-The compiler automatically generates special member functions (SMFs) — destructor, copy/move
-Constructors, and copy/move assignment operators — according to well-defined rules. Understanding
+The compiler automatically generates special member functions (SMFs), destructor, copy/move
+Constructors, and copy/move assignment operators, according to well-defined rules. Understanding
 These rules is critical for writing classes that manage resources correctly.
 
 ## 3.1 The Rule of Five
@@ -55,7 +55,7 @@ Exact rules are [N4950 §11.4.5.3]:
 
 :::caution
 Constructor and move assignment are **not** implicitly declared. In C++14 and later, this remains
-True — the Standard was not changed. The critical point: declaring a destructor suppresses implicit
+True, the Standard was not changed. The critical point: declaring a destructor suppresses implicit
 Move generation.
 :::
 ## 3.3 `= default` and `= delete`
@@ -173,8 +173,8 @@ public:
 
     Buffer(const Buffer& other)
         : data_(new char[other.capacity_])
-        , size_(other.size_)
-        , capacity_(other.capacity_)
+size_(other.size_)
+capacity_(other.capacity_)
     {
         std::memcpy(data_, other.data_, other.size_);
     }
@@ -191,8 +191,8 @@ public:
 
     Buffer(Buffer&& other) noexcept
         : data_(other.data_)
-        , size_(other.size_)
-        , capacity_(other.capacity_)
+size_(other.size_)
+capacity_(other.capacity_)
     {
         other.data_ = nullptr;
         other.size_ = 0;
@@ -244,7 +244,7 @@ A special member function is **trivial** if it is not user-provided, its class h
 Functions or virtual base classes, and all base classes and members have trivial versions of the
 Same SMF [N4950 §11.4.5.3]. Trivial SMFs have important implications:
 
-- **copyable types** can be copied with `memcpy` — this is the foundation of
+- **copyable types** can be copied with `memcpy`this is the foundation of
   `std::is_trivially_copyable` [N4950 §20.15.4.3].
 - **destructible types** do not require destructor calls during stack unwinding.
 - **Trivial default constructors** allow zero-initialization and static storage duration objects to
@@ -319,7 +319,7 @@ public:
 
     std::size_t user_count() const { return users_.size(); }
 
-    // No SMFs declared — compiler generates:
+    // No SMFs declared, compiler generates:
     // - Trivial? No (std::string, std::vector have non-trivial SMFs)
     // - Correct? Yes (each member handles its own resource management)
     // - Move constructor: generated (moves name_, users_, impl_)
@@ -495,10 +495,10 @@ struct Surprise {
 int main() {
     Surprise a;
     Surprise b = std::move(a);  // Calls COPY constructor, not move!
-    // a.data is still valid (not nullptr) — the copy constructor was called
+    // a.data is still valid (not nullptr), the copy constructor was called
     std::cout << "a.data: " << (a.data ? *a.data : -1) << "\n";
     std::cout << "b.data: " << (b.data ? *b.data : -1) << "\n";
-    // Both a.data and b.data point to the same int — double delete bug!
+    // Both a.data and b.data point to the same int, double delete bug!
     // This is a classic resource management error caused by suppressed move generation.
 }
 ```
@@ -542,7 +542,7 @@ int main() {
 
 ## Intuition
 
-**Special member functions are like a class's default behaviors:** The destructor is what happens when the object goes out of scope (like cleaning up a room when you leave). The copy constructor is what happens when you clone the object (like making a photocopy). The move constructor is what happens when you steal the object (like taking someone's lunch — you get the food, they get an empty wrapper). The Rule of Five says: if you define any one of these, you probably need to define all five, because the defaults might do the wrong thing.
+**Special member functions are like a class's default behaviors:** The destructor is what happens when the object goes out of scope (like cleaning up a room when you leave). The copy constructor is what happens when you clone the object (like making a photocopy). The move constructor is what happens when you steal the object (like taking someone's lunch, you get the food, they get an empty wrapper). The Rule of Five says: if you define any one of these, you probably need to define all five, because the defaults might do the wrong thing.
 
 **Why it matters:** The compiler generates special member functions automatically, but the defaults are often wrong for classes that manage resources. A class with a raw pointer needs a custom destructor (to free memory), a custom copy constructor (to deep copy), and a custom move constructor (to transfer ownership). Forgetting any of these causes memory leaks, double-frees, or dangling pointers.
 
@@ -601,7 +601,7 @@ struct Leaky {
     std::size_t size = 0;
 
     Leaky&amp; operator=(Leaky&amp;&amp; other) noexcept {
-        // BUG: forgot to delete[] data — memory leak!
+        // BUG: forgot to delete[] data, memory leak!
         data = other.data;
         size = other.size;
         other.data = nullptr;
@@ -659,7 +659,7 @@ struct Widget {
 
 Widget factory() {
     Widget local(42);
-    return local;  // NRVO or implicit move — correct
+    return local;  // NRVO or implicit move, correct
     // return std::move(local);  // WRONG: prevents NRVO, always moves
 }
 

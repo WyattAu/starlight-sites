@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**English literature explores the human experience through language — words painting pictures of life.**
+**English literature explores the human experience through language, words painting pictures of life.**
 
 ## Exam Techniques
 
@@ -68,12 +68,12 @@ Some boards include AO5 (engagement with different interpretations). Check your 
 The foundational paragraph structure for A-Level English.
 
 - **Point**: A clear, arguable assertion that responds directly to the question. State your interpretation, not a fact about the text.
-- **Evidence**: Embedded quotations (not block quotations) that support your point. Select quotations precisely—short, analytically rich phrases are more effective than long extracts.
+- **Evidence**: Embedded quotations (not block quotations) that support your point. Select quotations precisely–short, analytically rich phrases are more effective than long extracts.
 - **Explanation**: Analyse the evidence in detail. Explore language (denotation, connotation, word class, sound), structure (position, repetition, juxtaposition), and form (genre conventions, narrative mode). Explain how the evidence supports your point and what effect is created for the reader.
 
 **Example of strong PEE**:
 
-> Fitzgerald presents Gatsby's aspiration as fundamentally retrospective. The green light, observed from across the bay, functions as a symbol not of future possibility but of past loss: Gatsby reaches toward a dream that is rooted in his 1917 encounter with Daisy. The verb "stretching" in the narrator's description of Gatsby's posture suggests both physical yearning and temporal reaching—an attempt to bridge the gap between present and past that the novel's final line confirms is impossible.
+> Fitzgerald presents Gatsby's aspiration as fundamentally retrospective. The green light, observed from across the bay, functions as a symbol not of future possibility but of past loss: Gatsby reaches toward a dream that is rooted in his 1917 encounter with Daisy. The verb "stretching" in the narrator's description of Gatsby's posture suggests both physical yearning and temporal reaching–an attempt to bridge the gap between present and past that the novel's final line confirms is impossible.
 
 ### PEEL (Point, Evidence, Explanation, Link)
 

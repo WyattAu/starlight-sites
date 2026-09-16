@@ -77,7 +77,7 @@ Key architectural advantages over AHCI/SATA:
 
 ### NVMe Namespaces
 
-A namespace is the NVMe equivalent of a partition — a logical address space exposed to the host.
+A namespace is the NVMe equivalent of a partition, a logical address space exposed to the host.
 Most consumer NVMe SSDs expose a single namespace (NSID 1) spanning the entire device. Enterprise
 SSDs may support multiple namespaces for partitioning.
 
@@ -144,7 +144,7 @@ Node.
 
 ### SLC Caching
 
-Most TLC and QLC SSDs implement an SLC cache — a portion of the NAND operates in pseudo-SLC mode
+Most TLC and QLC SSDs implement an SLC cache, a portion of the NAND operates in pseudo-SLC mode
 (one bit per cell) to boost write performance. When the SLC cache is full, write speeds drop
 Dramatically as data must be folded from SLC into the TLC/QLC area.
 
@@ -170,7 +170,7 @@ Blocks. Two approaches exist:
 
 ### Garbage Collection
 
-NAND flash cannot overwrite data in place — a block must be erased before it can be written. Erase
+NAND flash cannot overwrite data in place, a block must be erased before it can be written. Erase
 Operations happen at the block level ( 4–8 MB), while writes happen at the page level ( 4–16 KB).
 This mismatch necessitates garbage collection:
 
@@ -405,18 +405,18 @@ echo 0 | sudo tee /sys/block/nvme0n1/queue/read_ahead_kb
 /dev/nvme0n1p2 / xfs noatime,discard 0 0
 
 # Key options:
-# noatime  — Don't update file access times (reduces writes)
-# discard  — Enable continuous TRIM (or use fstrim.timer)
-# nodiratime — Don't update directory access times
+# noatime, Don't update file access times (reduces writes)
+# discard, Enable continuous TRIM (or use fstrim.timer)
+# nodiratime, Don't update directory access times
 ```
 
 ### ZFS on SSD
 
 For ZFS on SSD, key tunables include:
 
-- `ashift=12` or `ashift=13` (4K or 8K sector size — always match the SSD's physical sector size)
-- `primarycache=all` (default — use ARC for caching)
-- `compression=lz4` (default — reduces writes and improves performance for compressible data)
+- `ashift=12` or `ashift=13` (4K or 8K sector size, always match the SSD's physical sector size)
+- `primarycache=all` (default, use ARC for caching)
+- `compression=lz4` (default, reduces writes and improves performance for compressible data)
 - `atime=off` (reduces metadata writes)
 - `recordsize=128K` for media files, `recordsize=16K` or `8K` for databases
 
@@ -590,13 +590,13 @@ Allow the SSD controller to reorder and optimize I/O more effectively.
 nvme id-ns /dev/nvme0n1
 
 # Key fields:
-# nsze    — Namespace size (total logical blocks)
-# ncap    — Namespace capacity (usable blocks)
-# nuse    — Namespace utilization (used blocks)
-# nlbaf   — Number of LBA formats supported
-# flbas   — Current LBA format (data size + metadata size)
-# dps     — Data protection (end-to-end protection type)
-# nmc     — Namespace multi-path I/O and sharing capabilities
+# nsze, Namespace size (total logical blocks)
+# ncap, Namespace capacity (usable blocks)
+# nuse, Namespace utilization (used blocks)
+# nlbaf, Number of LBA formats supported
+# flbas, Current LBA format (data size + metadata size)
+# dps, Data protection (end-to-end protection type)
+# nmc, Namespace multi-path I/O and sharing capabilities
 ```
 
 ### NVMe End-to-End Data Protection
@@ -705,10 +705,10 @@ Merging can increase latency for individual requests:
 cat /sys/block/nvme0n1/queue/nomerges
 
 # Values:
-# 0 — Merge all types
-# 1 — Merge only simple adjacent requests
-# 2 — Merge all types including cross-queue merges
-# 2 — No merging
+# 0, Merge all types
+# 1, Merge only simple adjacent requests
+# 2, Merge all types including cross-queue merges
+# 2, No merging
 ```
 
 For low-latency workloads (databases), disabling merges (`nomerges=2`) can reduce latency at the
@@ -748,9 +748,9 @@ Optimizations.
 /dev/nvme0n1p2 / ext4 noatime,discard,errors=remount-ro,commit=60,barrier=1 0 1
 
 # Key options:
-# commit=60    — Flush data to disk every 60 seconds (default is 5)
-# barrier=1    — Enable write barriers (safe, slight overhead)
-# journal_opts=journal_async_commit — Asynchronous journal commits (faster but slightly less safe)
+# commit=60, Flush data to disk every 60 seconds (default is 5)
+# barrier=1, Enable write barriers (safe, slight overhead)
+# journal_opts=journal_async_commit, Asynchronous journal commits (faster but slightly less safe)
 ```
 
 ### XFS Tuning for SSDs
@@ -760,10 +760,10 @@ Optimizations.
 /dev/nvme0n1p2 / xfs noatime,discard,allocsize=64m,inode64 0 0
 
 # Key options:
-# allocsize=64m — Delayed allocation size (larger = better sequential write performance)
-# inode64     — Allow inode allocation across the entire filesystem (not just the first 1 TB)
-# logbufs=8   — Increase log buffer count (default is 2, useful for metadata-heavy workloads)
-# logbsize=256k — Increase log buffer size
+# allocsize=64m, Delayed allocation size (larger = better sequential write performance)
+# inode64, Allow inode allocation across the entire filesystem (not just the first 1 TB)
+# logbufs=8, Increase log buffer count (default is 2, useful for metadata-heavy workloads)
+# logbsize=256k, Increase log buffer size
 ```
 
 ### BTRFS on SSDs
@@ -773,10 +773,10 @@ Optimizations.
 /dev/nvme0n1p2 / btrfs noatime,ssd,discard=async,compress=zstd:1,space_cache=v2 0 0
 
 # Key options:
-# ssd           — Enable SSD-specific optimizations (reduced seek cost model)
-# discard=async — Background discard (better than continuous discard for SSDs)
-# space_cache=v2 — Free space tree (more efficient than v1 for large filesystems)
-# compress=zstd:1 — Lightweight compression (fast, saves space without significant CPU cost)
+# ssd, Enable SSD-specific optimizations (reduced seek cost model)
+# discard=async, Background discard (better than continuous discard for SSDs)
+# space_cache=v2, Free space tree (more efficient than v1 for large filesystems)
+# compress=zstd:1, Lightweight compression (fast, saves space without significant CPU cost)
 ```
 
 ## Storage Performance Benchmarking
@@ -822,7 +822,7 @@ Key metrics to analyze from fio JSON output:
 
 ### UBER (Uncorrectable Bit Error Rate)
 
-Every storage medium has a specified UBER — the probability of an unrecoverable bit error:
+Every storage medium has a specified UBER, the probability of an unrecoverable bit error:
 
 | Medium          | UBER       | Probability of reading error for 1 TB |
 | --------------- | ---------- | ------------------------------------- |
@@ -836,7 +836,7 @@ $$
 P(\mathrm{error in array) = 1 - (1 - UBER)^{N_{drives} \times N_{reads}}
 $$
 
-This is why ZFS checksumming is essential — it detects and corrects these errors that would
+This is why ZFS checksumming is essential, it detects and corrects these errors that would
 Otherwise cause silent data corruption.
 
 ### Wear Leveling Depth
@@ -861,7 +861,7 @@ $$
 $$
 
 Modern TLC SSDs are extremely durable for typical workloads. QLC SSDs (100–1,000 P/E cycles) are the
-Concern — at 500 P/E cycles and 50 GB/day with WAF 2.0:
+Concern, at 500 P/E cycles and 50 GB/day with WAF 2.0:
 
 $$
 \mathrm{Lifespan = \frac{500 \times 2 \mathrm{ TB}{2.0 \times 50 \mathrm{ GB/day} \approx 27 \mathrm{ years

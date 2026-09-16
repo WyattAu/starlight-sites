@@ -55,7 +55,7 @@ Is a bit more complex, refer to
 ## Project Structure
 
 Every Dart project is defined by a `pubspec.yaml` file at the root. This is the single source of
-Truth for dependencies, metadata, and build configuration — similar to `package.json` (Node),
+Truth for dependencies, metadata, and build configuration, similar to `package.json` (Node),
 `Cargo.toml` (Rust), or `go.mod` (Go).
 
 ### pubspec.yaml
@@ -154,7 +154,7 @@ dart pub remove http
 
 Dart uses a **pubspec lockfile** model. `pubspec.lock` pins exact versions. Commit `pubspec.lock` to
 Version control for applications. For libraries (packages intended to be consumed by others), you do
-**not** commit `pubspec.lock` — consumers resolve versions themselves.
+**not** commit `pubspec.lock`consumers resolve versions themselves.
 
 ## Static Analysis: dart analyze
 
@@ -201,7 +201,7 @@ dart format --set-exit-if-changed .   # CI: fail if unformatted
 dart format --output=show .  # dry-run, show diff
 ```
 
-Dart has an opinionated formatter (similar to `gofmt`). There are no configuration options — the
+Dart has an opinionated formatter (similar to `gofmt`). There are no configuration options, the
 Formatter enforces a single canonical style. This eliminates style debates in code review.
 
 Line length defaults to 80 characters. Change it in `analysis_options.yaml`:
@@ -339,11 +339,11 @@ expect(fn(), completion(equals(42)));          // Future completes with value
 
 ## Intuition
 
-**Your coding workspace:** The development environment is like a well-organized desk — having the right tools in the right places makes you more productive.
+**Your coding workspace:** The development environment is like a well-organized desk, having the right tools in the right places makes you more productive.
 
 **Why it matters:** A properly configured IDE with the right extensions saves time and catches errors early.
 
-**The key insight:** Version control (Git) is essential — it lets you track changes, collaborate with others, and undo mistakes.
+**The key insight:** Version control (Git) is essential, it lets you track changes, collaborate with others, and undo mistakes.
 
 ## Common Pitfalls
 

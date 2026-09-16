@@ -77,7 +77,7 @@ interact and respond to change.
 
 ### Global Stores and Flows
 
-The global water cycle is a closed system — no water enters or leaves (in significant quantities).
+The global water cycle is a closed system, no water enters or leaves (in significant quantities).
 The major stores are:
 
 | Store                 | Volume (km³)  | Percentage |
@@ -94,7 +94,7 @@ transpiration.
 
 ### The Drainage Basin as an Open System
 
-A drainage basin is an **open system** — it receives inputs and produces outputs:
+A drainage basin is an **open system**, it receives inputs and produces outputs:
 
 - **Inputs**: Precipitation (rain, snow, hail, dew)
 - **Stores**: Interception (vegetation), surface storage (lakes, puddles), soil moisture,
@@ -319,7 +319,7 @@ Rising global temperatures affect both cycles:
 
 ## Case Studies
 
-### Case Study 1: The Amazon Rainforest — Carbon Cycle Disruption
+### Case Study 1: The Amazon Rainforest, Carbon Cycle Disruption
 
 The Amazon Basin contains approximately 150–200 Gt of carbon in its biomass and soils. Under normal
 conditions, it acts as a net carbon sink, absorbing roughly 2 Gt CO₂ per year through
@@ -336,10 +336,10 @@ satellite. This represents a potential tipping point: if deforestation exceeds a
 of the original forest area, large parts of the Amazon could transition to savannah (lovejoy and
 Nobre, 2018), releasing billions of tonnes of stored carbon.
 
-### Case Study 2: The River Eden, Cumbria — Flooding and the Water Cycle
+### Case Study 2: The River Eden, Cumbria, Flooding and the Water Cycle
 
 The River Eden drains a catchment of approximately 2,300 km² in north-west England. In December
-2015, Storm Desmond delivered record rainfall — 341 mm fell in 24 hours at Honister Pass. The
+2015, Storm Desmond delivered record rainfall, 341 mm fell in 24 hours at Honister Pass. The
 resulting flood was among the most severe in recorded UK history.
 
 Contributing factors included:
@@ -385,7 +385,7 @@ Think of the water cycle as a giant conveyor belt driven by solar energy. The su
 
 1. **Confusing open and closed systems**: The global water cycle is a closed system (fixed total
    volume); a drainage basin is an open system (exchanges matter and energy with its surroundings).
-   Students often write about water "leaving" the global cycle — it does not.
+   Students often write about water "leaving" the global cycle, it does not.
 
 2. **Confusing positive and negative feedback**: A positive feedback amplifies the initial change
    (e.g., ice-albedo effect accelerates warming); a negative feedback counteracts it (e.g.,
@@ -393,7 +393,7 @@ Think of the water cycle as a giant conveyor belt driven by solar energy. The su
 
 3. **Ignoring temporal scale**: The geological carbon cycle operates over millions of years
    (sedimentation, uplift, volcanic outgassing). The biological carbon cycle operates over days to
-   decades. Do not conflate the timescales — for example, weathering sequesters CO₂ but far too
+   decades. Do not conflate the timescales, for example, weathering sequesters CO₂ but far too
    slowly to offset current anthropogenic emissions.
 
 ---
@@ -425,7 +425,7 @@ risk.
 
 Deforestation also modifies the cycle by removing the interception store. Without tree canopies,
 more precipitation reaches the ground as throughfall, increasing surface runoff and soil erosion.
-Transpiration is also reduced, which can lower local humidity and reduce downstream precipitation —
+Transpiration is also reduced, which can lower local humidity and reduce downstream precipitation,
 a concern in regions such as the Amazon Basin.
 
 Agricultural drainage converts wetland stores into farmland, reducing the capacity of the catchment
@@ -489,7 +489,7 @@ flowchart TD
   scale.
 - Positive feedback loops (e.g., ice-albedo, permafrost thaw) amplify environmental change; negative
   feedback loops (e.g., CO₂ fertilisation) counteract it.
-- Human activities — particularly fossil fuel combustion, deforestation, and urbanisation — are
+- Human activities, particularly fossil fuel combustion, deforestation, and urbanisation, are
   fundamentally altering both cycles, with consequences including enhanced greenhouse warming,
   altered flood regimes, and ocean acidification.
 - Understanding feedback mechanisms and temporal scales is essential for predicting future changes

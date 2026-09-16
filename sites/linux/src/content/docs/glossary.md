@@ -1,6 +1,6 @@
 ---
-title: "Linux Glossary — Key Terms and Definitions"
-description: "Study notes for Linux Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Linux Glossary, Key Terms and Definitions"
+description: "Study notes for Linux Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

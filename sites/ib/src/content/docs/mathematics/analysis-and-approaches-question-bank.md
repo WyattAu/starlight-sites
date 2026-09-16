@@ -17,7 +17,7 @@ description: "15 exam-style questions with full mark schemes, aligned to the IB 
 }
 </script>
 
-## IB Mathematics AA — Question Bank
+## IB Mathematics AA, Question Bank
 
 15 exam-style questions with full mark schemes, aligned to the IB Mathematics: Analysis and
 Approaches syllabus (SL/HL). Each question is presented in table format for compact study, with
@@ -36,7 +36,7 @@ worked solutions below.
 
 ## Algebra and Functions
 
-### Q1 — Arithmetic Sequences and Series
+### Q1, Arithmetic Sequences and Series
 
 > An arithmetic sequence has first term $a_1 = 7$ and common difference $d = 4$. (a) Find the 20th
 > term. [2 marks] (b) Find the sum of the first 20 terms. [3 marks]
@@ -52,7 +52,7 @@ worked solutions below.
 | (a)  | 2     | Substitute into $u_n = a_1 + (n-1)d$ |
 | (b)  | 3     | Apply $S_n = \frac{n}{2}(a_1 + a_n)$ |
 
-`medium` — 5 marks total
+`medium`5 marks total
 
 ---
 
@@ -65,7 +65,7 @@ worked solutions below.
 }
 </script>
 
-### Q2 — Quadratic Functions
+### Q2, Quadratic Functions
 
 > The quadratic $f(x) = 2x^2 - 12x + 10$ can be written in the form $f(x) = a(x - h)^2 + k$. (a)
 > Find the values of $a$, $h$, and $k$. [3 marks] (b) State the minimum value of $f(x)$ and the
@@ -86,7 +86,7 @@ $\mathbf{x = 3}$. ✓
 | (a)  | 3     | Complete the square by factoring out coefficient of $x^2$ |
 | (b)  | 2     | Identify vertex $(h, k)$ from completed square form       |
 
-`medium` — 5 marks total
+`medium`5 marks total
 
 ---
 
@@ -99,7 +99,7 @@ $\mathbf{x = 3}$. ✓
 }
 </script>
 
-### Q3 — Exponential and Logarithmic Equations (HL)
+### Q3, Exponential and Logarithmic Equations (HL)
 
 > Solve the equation $3^{2x - 1} = 5^{x + 1}$. Give your answer to three significant figures. [4
 > marks]
@@ -114,9 +114,9 @@ $x \approx \frac{2.708}{0.5878} \approx \mathbf{4.61}$ (3 s.f.) ✓
 
 | Part | Marks | Key Method                                                  |
 | ---- | ----- | ----------------------------------------------------------- |
-| —    | 4     | Apply logarithms to both sides, collect $x$ terms, evaluate |
+|,    | 4     | Apply logarithms to both sides, collect $x$ terms, evaluate |
 
-`hard` — 4 marks total
+`hard`4 marks total
 
 ---
 
@@ -129,7 +129,7 @@ $x \approx \frac{2.708}{0.5878} \approx \mathbf{4.61}$ (3 s.f.) ✓
 }
 </script>
 
-### Q4 — Binomial Theorem (HL)
+### Q4, Binomial Theorem (HL)
 
 > Use the binomial theorem to find the coefficient of $x^3$ in the expansion of $(2x - 3)^5$. [3
 > marks]
@@ -144,9 +144,9 @@ Coefficient $= \binom{5}{2}(2)^3(-3)^2 = 10 \times 8 \times 9 = \mathbf{720}$ �
 
 | Part | Marks | Key Method                                      |
 | ---- | ----- | ----------------------------------------------- |
-| —    | 3     | Identify the correct term, evaluate coefficient |
+|,    | 3     | Identify the correct term, evaluate coefficient |
 
-`medium` — 3 marks total
+`medium`3 marks total
 
 ---
 
@@ -161,7 +161,7 @@ Coefficient $= \binom{5}{2}(2)^3(-3)^2 = 10 \times 8 \times 9 = \mathbf{720}$ �
 
 ## Geometry and Trigonometry
 
-### Q5 — Trigonometric Equations
+### Q5, Trigonometric Equations
 
 > Solve $2\sin x - 1 = 0$ for $0° \leq x \leq 360°$. [4 marks]
 
@@ -177,9 +177,9 @@ Solutions: $\mathbf{x = 30°, 150°}$ ✓
 
 | Part | Marks | Key Method                                          |
 | ---- | ----- | --------------------------------------------------- |
-| —    | 4     | Isolate sin x, find principal value, apply symmetry |
+|,    | 4     | Isolate sin x, find principal value, apply symmetry |
 
-`easy` — 4 marks total
+`easy`4 marks total
 
 ---
 
@@ -192,7 +192,7 @@ Solutions: $\mathbf{x = 30°, 150°}$ ✓
 }
 </script>
 
-### Q6 — Cosine Rule
+### Q6, Cosine Rule
 
 > In triangle ABC, AB = 8 cm, BC = 6 cm, and angle ABC = 110°. Find the length of AC. [3 marks]
 
@@ -209,9 +209,9 @@ $AC = \sqrt{132.83} \approx \mathbf{11.5 \text{ cm}}$ (3 s.f.) ✓
 
 | Part | Marks | Key Method                                  |
 | ---- | ----- | ------------------------------------------- |
-| —    | 3     | Apply cosine rule, evaluate with calculator |
+|,    | 3     | Apply cosine rule, evaluate with calculator |
 
-`medium` — 3 marks total
+`medium`3 marks total
 
 ---
 
@@ -224,7 +224,7 @@ $AC = \sqrt{132.83} \approx \mathbf{11.5 \text{ cm}}$ (3 s.f.) ✓
 }
 </script>
 
-### Q7 — Vectors (HL)
+### Q7, Vectors (HL)
 
 > Points A and B have position vectors $\mathbf{a} = 2\mathbf{i} + 3\mathbf{j} - \mathbf{k}$ and
 > $\mathbf{b} = 5\mathbf{i} - \mathbf{j} + 4\mathbf{k}$. (a) Find $\overrightarrow{AB}$. [1 mark]
@@ -245,7 +245,7 @@ $|\overrightarrow{AB}| = \sqrt{3^2 + (-4)^2 + 5^2} = \sqrt{9 + 16 + 25} = \sqrt{
 | (a)  | 1     | Subtract position vectors                  |
 | (b)  | 2     | Magnitude formula $\sqrt{x^2 + y^2 + z^2}$ |
 
-`medium` — 3 marks total
+`medium`3 marks total
 
 ---
 
@@ -260,7 +260,7 @@ $|\overrightarrow{AB}| = \sqrt{3^2 + (-4)^2 + 5^2} = \sqrt{9 + 16 + 25} = \sqrt{
 
 ## Statistics and Probability
 
-### Q8 — Normal Distribution
+### Q8, Normal Distribution
 
 > The masses of apples are normally distributed with mean 150 g and standard deviation 12 g. (a)
 > Find the probability that a randomly chosen apple has mass greater than 165 g. [2 marks] (b) Find
@@ -281,7 +281,7 @@ $P(Z > 1.25) = 1 - 0.8944 = \mathbf{0.1056}$ ✓
 | (a)  | 2     | Standardise, use normal tables                 |
 | (b)  | 3     | Symmetry of normal distribution about the mean |
 
-`medium` — 5 marks total
+`medium`5 marks total
 
 ---
 
@@ -294,7 +294,7 @@ $P(Z > 1.25) = 1 - 0.8944 = \mathbf{0.1056}$ ✓
 }
 </script>
 
-### Q9 — Probability — Conditional
+### Q9, Probability, Conditional
 
 > In a school, 60% of students study Physics, 45% study Chemistry, and 25% study both. A student is
 > chosen at random. Given that they study Chemistry, find the probability they also study Physics.
@@ -307,9 +307,9 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 
 | Part | Marks | Key Method                                 |
 | ---- | ----- | ------------------------------------------ | ------------------------ |
-| —    | 3     | Apply conditional probability formula $P(A | B) = P(A \cap B) / P(B)$ |
+|,    | 3     | Apply conditional probability formula $P(A | B) = P(A \cap B) / P(B)$ |
 
-`medium` — 3 marks total
+`medium`3 marks total
 
 ---
 
@@ -322,7 +322,7 @@ $P(\text{Physics} \mid \text{Chemistry}) = \frac{P(\text{Physics} \cap \text{Che
 }
 </script>
 
-### Q10 — Correlation and Regression
+### Q10, Correlation and Regression
 
 > The following data shows the number of hours studied ($x$) and test score ($y$) for 5 students:
 >
@@ -344,14 +344,14 @@ $S_{xy} = 2100 - 5(6)(64) = 2100 - 1920 = 180$
 
 $r = \frac{180}{\sqrt{40 \times 1120}} = \frac{180}{\sqrt{44800}} = \frac{180}{211.7} \approx \mathbf{0.851}$
 
-(b) Strong positive linear correlation — as study hours increase, test scores tend to increase. ✓
+(b) Strong positive linear correlation, as study hours increase, test scores tend to increase. ✓
 
 | Part | Marks | Key Method                                     |
 | ---- | ----- | ---------------------------------------------- |
 | (a)  | 3     | Compute $S_{xx}$, $S_{yy}$, $S_{xy}$, then $r$ |
 | (b)  | 1     | Interpret magnitude and sign of $r$            |
 
-`hard` — 4 marks total
+`hard`4 marks total
 
 ---
 
@@ -364,7 +364,7 @@ $r = \frac{180}{\sqrt{40 \times 1120}} = \frac{180}{\sqrt{44800}} = \frac{180}{2
 }
 </script>
 
-### Q11 — Combinatorics (HL)
+### Q11, Combinatorics (HL)
 
 > A committee of 4 people is to be selected from 7 men and 5 women. The committee must contain at
 > least 2 women. In how many ways can this be done? [4 marks]
@@ -383,9 +383,9 @@ Total $= 210 + 70 + 5 = \mathbf{285}$ ✓
 
 | Part | Marks | Key Method                                            |
 | ---- | ----- | ----------------------------------------------------- |
-| —    | 4     | Split into cases by number of women, sum combinations |
+|,    | 4     | Split into cases by number of women, sum combinations |
 
-`hard` — 4 marks total
+`hard`4 marks total
 
 ---
 
@@ -400,7 +400,7 @@ Total $= 210 + 70 + 5 = \mathbf{285}$ ✓
 
 ## Calculus
 
-### Q12 — Differentiation from First Principles
+### Q12, Differentiation from First Principles
 
 > Use the definition of the derivative to show that the derivative of $f(x) = x^2$ is $f'(x) = 2x$.
 > [4 marks]
@@ -417,9 +417,9 @@ $= \lim_{h \to 0}(2x + h) = \mathbf{2x}$ ✓
 
 | Part | Marks | Key Method                             |
 | ---- | ----- | -------------------------------------- |
-| —    | 4     | Expand, factor out $h$, evaluate limit |
+|,    | 4     | Expand, factor out $h$, evaluate limit |
 
-`medium` — 4 marks total
+`medium`4 marks total
 
 ---
 
@@ -432,7 +432,7 @@ $= \lim_{h \to 0}(2x + h) = \mathbf{2x}$ ✓
 }
 </script>
 
-### Q13 — Integration — Area Under a Curve
+### Q13, Integration, Area Under a Curve
 
 > Find the area enclosed by the curve $y = x^2 - 4x + 3$, the x-axis, and the lines $x = 1$ and
 > $x = 4$. [5 marks]
@@ -458,9 +458,9 @@ Total area $= \frac{4}{3} + \frac{4}{3} = \mathbf{\frac{8}{3}}$ ✓
 
 | Part | Marks | Key Method                                                           |
 | ---- | ----- | -------------------------------------------------------------------- |
-| —    | 5     | Find roots, split integral at roots, integrate, take absolute values |
+|,    | 5     | Find roots, split integral at roots, integrate, take absolute values |
 
-`hard` — 5 marks total
+`hard`5 marks total
 
 ---
 
@@ -473,7 +473,7 @@ Total area $= \frac{4}{3} + \frac{4}{3} = \mathbf{\frac{8}{3}}$ ✓
 }
 </script>
 
-### Q14 — Optimisation (HL)
+### Q14, Optimisation (HL)
 
 > A rectangular box with a square base has a volume of $500\text{ cm}^3$. The material for the base
 > costs $0.10/\text{cm}^2$ and the material for the sides costs $0.05/\text{cm}^2$. Find the
@@ -500,9 +500,9 @@ $\frac{d^2C}{dx^2} = 0.20 + \frac{200}{x^3} > 0$ for all $x > 0$, confirming a m
 
 | Part | Marks | Key Method                                           |
 | ---- | ----- | ---------------------------------------------------- |
-| —    | 6     | Express cost function, differentiate, verify minimum |
+|,    | 6     | Express cost function, differentiate, verify minimum |
 
-`hard` — 6 marks total
+`hard`6 marks total
 
 ---
 
@@ -515,7 +515,7 @@ $\frac{d^2C}{dx^2} = 0.20 + \frac{200}{x^3} > 0$ for all $x > 0$, confirming a m
 }
 </script>
 
-### Q15 — Kinematics
+### Q15, Kinematics
 
 > A particle moves in a straight line with velocity $v(t) = 3t^2 - 8t + 4$ m/s. (a) Find when the
 > particle is at rest. [2 marks] (b) Find the total distance travelled in the first 3 seconds. [4
@@ -551,7 +551,7 @@ $= \frac{40}{27} + \frac{40}{27} + 3 = \frac{80}{27} + 3 = \frac{161}{27} \appro
 | (a)  | 2     | Factor quadratic for $v = 0$                               |
 | (b)  | 4     | Integrate, find turning points, sum absolute displacements |
 
-`hard` — 6 marks total
+`hard`6 marks total
 
 ---
 

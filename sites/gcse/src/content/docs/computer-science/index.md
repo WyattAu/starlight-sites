@@ -68,15 +68,15 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Topics Covered
 
-- **Fundamentals** — binary, denary, hexadecimal, character encoding (ASCII, Unicode), representing
+- **Fundamentals**, binary, denary, hexadecimal, character encoding (ASCII, Unicode), representing
   images and sound, data compression, Boolean logic and truth tables
-- **Hardware** — CPU components and the fetch-decode-execute cycle, registers, memory (RAM, ROM,
+- **Hardware**, CPU components and the fetch-decode-execute cycle, registers, memory (RAM, ROM,
   cache), secondary storage, embedded systems
-- **Networks** — LAN and WAN, network topologies, protocols and the TCP/IP stack, cybersecurity
+- **Networks**, LAN and WAN, network topologies, protocols and the TCP/IP stack, cybersecurity
   threats and defences, encryption, the internet and the World Wide Web
-- **Algorithms** — computational thinking, flowcharts and pseudocode, searching algorithms (linear
+- **Algorithms**, computational thinking, flowcharts and pseudocode, searching algorithms (linear
   and binary), sorting algorithms (bubble, merge, insertion), computational complexity
-- **Programming** — variables and data types, sequence, selection, iteration, subprograms, arrays
+- **Programming**, variables and data types, sequence, selection, iteration, subprograms, arrays
   and records, file handling, robust programming and testing
 
 ## How to Use These Notes
@@ -88,23 +88,23 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Study Tips
 
-- Trace tables are essential exam technique — practise stepping through algorithms line by line with
+- Trace tables are essential exam technique, practise stepping through algorithms line by line with
   sample inputs
 - Learn to convert between binary, denary, and hexadecimal fluently; these conversions appear in
   both papers
 - Practise writing pseudocode and Python (or your exam board"s reference language) for common tasks
   such as searching, sorting, and validation
-- Review past paper questions on networking and security — they often require you to explain
+- Review past paper questions on networking and security, they often require you to explain
   concepts in context rather than just define terms
 - Write out algorithms by hand rather than typing them; the exam is paper-based and handwritten
   pseudocode can catch you out
 - Use comparison tables to organise the differences between storage devices, network types, and
   programming constructs
-- Test yourself on key definitions regularly — many marks are lost through imprecise use of
+- Test yourself on key definitions regularly, many marks are lost through imprecise use of
   technical vocabulary
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
-- Pay attention to the programming project requirements for your exam board — understanding the
+- Pay attention to the programming project requirements for your exam board, understanding the
   assessment criteria helps maximise your grade
 
 ## Summary

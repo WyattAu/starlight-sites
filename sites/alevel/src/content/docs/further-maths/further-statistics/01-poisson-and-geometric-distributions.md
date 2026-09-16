@@ -337,7 +337,7 @@ For one hour: $X \sim \mathrm{Po}(2.5)$. $P(X=4) = \dfrac{e^{-2.5}(2.5)^4}{4!} =
 For two hours: $Y \sim \mathrm{Po}(5)$ (by additivity).
 $P(Y > 6) = 1 - P(Y \leq 6) = 1 - 0.7622 = 0.2378$.
 
-**If you get this wrong, revise:** [Cumulative probabilities](#16-cumulative-probabilities) —
+**If you get this wrong, revise:** [Cumulative probabilities](#16-cumulative-probabilities),
 Section 1.6.
 
 </details>
@@ -356,7 +356,7 @@ $P(X > 10) = \left(\dfrac{5}{6}\right)^{10-1} \cdot \left(\dfrac{5}{6}\right)^0 
 Wait: $P(X > 10) = 1 - P(X \leq 10) = 1 - (1-q^{10}) = q^{10} = (5/6)^{10} \approx 0.1615$.
 
 **If you get this wrong, revise:**
-[Cumulative distribution function](#25-cumulative-distribution-function) — Section 2.5.
+[Cumulative distribution function](#25-cumulative-distribution-function), Section 2.5.
 
 </details>
 
@@ -373,7 +373,7 @@ Substituting $k = r-1$:
 $= \lambda e^{-\lambda}\sum_{k=0}^{\infty}\dfrac{\lambda^k}{k!} = \lambda e^{-\lambda}\cdot e^{\lambda} = \lambda$.
 $\blacksquare$
 
-**If you get this wrong, revise:** [Proof that $E(X) = \lambda$](#13-proof-that-ex--lambda) —
+**If you get this wrong, revise:** [Proof that $E(X) = \lambda$](#13-proof-that-ex--lambda),
 Section 1.3.
 
 </details>
@@ -391,7 +391,7 @@ $P(X \leq 12) \approx 0.9362$, $P(X \leq 5) \approx 0.1912$.
 
 $P(6 \leq X \leq 12) \approx 0.9362 - 0.1912 = 0.7450$.
 
-**If you get this wrong, revise:** [Cumulative probabilities](#16-cumulative-probabilities) —
+**If you get this wrong, revise:** [Cumulative probabilities](#16-cumulative-probabilities),
 Section 1.6.
 
 </details>
@@ -409,7 +409,7 @@ $X \approx \mathrm{Po}(25)$.
 $P(X \leq 35) = \sum_{r=0}^{35}\dfrac{e^{-25}(25)^r}{r!} \approx 0.8878$.
 
 **If you get this wrong, revise:**
-[Poisson as approximation to Binomial](#32-poisson-as-approximation-to-binomial) — Section 3.2.
+[Poisson as approximation to Binomial](#32-poisson-as-approximation-to-binomial), Section 3.2.
 
 </details>
 
@@ -424,7 +424,7 @@ $P(X > m+n \mid X > m) = \dfrac{P(X > m+n)}{P(X > m)} = \dfrac{q^{m+n}}{q^m} = q
 
 This uses $P(X > k) = q^k = (1-p)^k$Which follows from $P(X \leq k) = 1 - q^k$. $\blacksquare$
 
-**If you get this wrong, revise:** [The memoryless property](#24-the-memoryless-property) — Section
+**If you get this wrong, revise:** [The memoryless property](#24-the-memoryless-property), Section
 2.4.
 
 </details>
@@ -443,7 +443,7 @@ $P(X \geq 11) = 1 - P(X \leq 10) = 1 - 0.9574 = 0.0426 < 0.05$.
 
 Critical region: $X \geq 11$. Actual significance level: 4.26%.
 
-**If you get this wrong, revise:** [Poisson hypothesis testing](#17-poisson-hypothesis-testing) —
+**If you get this wrong, revise:** [Poisson hypothesis testing](#17-poisson-hypothesis-testing),
 Section 1.7.
 
 </details>
@@ -460,7 +460,7 @@ $P(X = 3 \mid X > 1) = \dfrac{P(X = 3)}{P(X > 1)} = \dfrac{q^2 p}{q} = qp = P(X 
 This is a direct consequence of the memoryless property: given that the first trial was a failure,
 The distribution of the remaining trials is the same as starting fresh.
 
-**If you get this wrong, revise:** [The memoryless property](#24-the-memoryless-property) — Section
+**If you get this wrong, revise:** [The memoryless property](#24-the-memoryless-property), Section
 2.4.
 
 </details>
@@ -483,7 +483,7 @@ $P(X \geq 6) = 1 - 0.9165 = 0.0835 > 0.05$.
 
 Critical region: $X \geq 7$. Since $X = 8 \geq 7$Reject $H_0$.
 
-**If you get this wrong, revise:** [Poisson hypothesis testing](#17-poisson-hypothesis-testing) —
+**If you get this wrong, revise:** [Poisson hypothesis testing](#17-poisson-hypothesis-testing),
 Section 1.7.
 
 </details>
@@ -507,7 +507,7 @@ $E(X^2) = E(X(X-1)) + E(X) = \dfrac{2q}{p^2} + \dfrac{1}{p} = \dfrac{2q+p}{p^2} 
 $\mathrm{Var}(X) = \dfrac{2-p}{p^2} - \dfrac{1}{p^2} = \dfrac{1-p}{p^2}$. $\blacksquare$
 
 **If you get this wrong, revise:**
-[Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$](#23-proof-that-mathrmvarx--frac1-pp2) — Section
+[Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$](#23-proof-that-mathrmvarx--frac1-pp2), Section
 2.3.
 
 </details>
@@ -1168,7 +1168,7 @@ This is $\mathrm{Geo}(1-(1-p)^2)$ with success probability $q = 1-(1-p)^2$. $\bl
 
 ## 16. Further Advanced Topics
 
-### 16.1 The Poisson process — formal definition
+### 16.1 The Poisson process, formal definition
 
 A Poisson process with rate $\lambda$ is a counting process $N(t)$ satisfying:
 
@@ -1182,7 +1182,7 @@ For $X \sim \mathrm{Po}(\lambda_1)$ and $Y \sim \mathrm{Po}(\lambda_2)$Independe
 
 $$P(X = k \mid X + Y = n) = \binom{n}{k}\!\left(\frac{\lambda_1}{\lambda_1+\lambda_2}\right)^k\left(\frac{\lambda_2}{\lambda_1+\lambda_2}\right)^{n-k}$$
 
-This is $\mathrm{Bin}(n, \lambda_1/(\lambda_1+\lambda_2))$ — the conditional distribution is
+This is $\mathrm{Bin}(n, \lambda_1/(\lambda_1+\lambda_2))$, the conditional distribution is
 Binomial!
 
 ### 16.3 The negative binomial distribution

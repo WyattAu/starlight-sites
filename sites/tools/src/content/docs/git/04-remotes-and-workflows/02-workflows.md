@@ -24,14 +24,14 @@ categories:
 
 ## Intuition
 
-**Traffic rules for code:** Branching strategies are like traffic rules for a busy highway — they decide when lanes split, how they merge back, and who has right of way. Without rules, you get collisions (merge conflicts) and gridlock (delayed releases).
+**Traffic rules for code:** Branching strategies are like traffic rules for a busy highway, they decide when lanes split, how they merge back, and who has right of way. Without rules, you get collisions (merge conflicts) and gridlock (delayed releases).
 
 **Why it matters:** The right branching strategy determines how quickly your team can ship features, how easy it is to roll back bugs, and how much time you spend resolving conflicts instead of writing code.
 
-**The key insight:** There is no universally "best" strategy — the right choice depends on your team size, release cadence, and risk tolerance. A startup needs speed; a bank needs safety.
+**The key insight:** There is no universally "best" strategy, the right choice depends on your team size, release cadence, and risk tolerance. A startup needs speed; a bank needs safety.
 
 A branching strategy defines **when to create branches, how long they live, how they integrate, and
-Who can modify which branches**. There is no universal "best" strategy — the right choice depends on
+Who can modify which branches**. There is no universal "best" strategy, the right choice depends on
 Team size, release cadence, deployment model, and risk tolerance.
 
 This guide covers the most widely-used strategies, their trade-offs, and when to use each.
@@ -41,7 +41,7 @@ This guide covers the most widely-used strategies, their trade-offs, and when to
 ### Concept
 
 All developers commit to a single shared branch ( `main`). Feature branches are extremely
-Short-lived (hours, not days). Integration is continuous — every commit is potentially deployable.
+Short-lived (hours, not days). Integration is continuous, every commit is potentially deployable.
 
 ```mermaid
 gitGraph
@@ -65,7 +65,7 @@ gitGraph
 
 | Advantage               | Explanation                                                     |
 | ----------------------- | --------------------------------------------------------------- |
-| **No merge hell**       | No large, complex merges — changes are integrated incrementally |
+| **No merge hell**       | No large, complex merges, changes are integrated incrementally |
 | **Fast feedback**       | CI runs on every commit, catching issues immediately            |
 | **Easy rollback**       | `git revert <hash>` undoes a single commit                      |
 | **Simplified workflow** | No branch management overhead                                   |
@@ -178,8 +178,8 @@ flowchart TD
 
 | Branch      | Purpose                 | Lifetime  | Created From | Merges Into        |
 | ----------- | ----------------------- | --------- | ------------ | ------------------ |
-| `main`      | Production releases     | Permanent | —            | —                  |
-| `develop`   | Integration branch      | Permanent | `main`       | —                  |
+| `main`      | Production releases     | Permanent |,            |,                  |
+| `develop`   | Integration branch      | Permanent | `main`       |,                  |
 | `feature/*` | Feature development     | Short     | `develop`    | `develop`          |
 | `release/*` | Release preparation     | Short     | `develop`    | `main` + `develop` |
 | `hotfix/*`  | Urgent production fixes | Short     | `main`       | `main` + `develop` |
@@ -228,7 +228,7 @@ $ git branch -d hotfix/fix-crash
 
 | Disadvantage            | Explanation                                                                  |
 | ----------------------- | ---------------------------------------------------------------------------- |
-| **Complex**             | 5 branch types, strict merge rules — high cognitive overhead                 |
+| **Complex**             | 5 branch types, strict merge rules, high cognitive overhead                 |
 | **Merge-heavy**         | Every feature requires a merge commit into `develop`Then another into `main` |
 | **Slow feedback**       | Features can live in isolation for weeks, accumulating conflicts             |
 | **Not ideal for CI/CD** | The `develop` branch creates an unnecessary integration step                 |

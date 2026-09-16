@@ -23,11 +23,11 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 The theory of computation explores **the fundamental limits of what can be computed** and the classification of computational problems by their difficulty. It connects mathematics, logic, and computer science at the deepest level.
 
-**Automata hierarchy intuition:** Regular languages (recognised by finite automata) are the simplest — they can match patterns but can't count. Context-free languages (recognised by pushdown automata) can match nested structures. Decidable languages (recognised by Turing machines) can compute anything algorithmically computable. This hierarchy shows that adding memory (stack, tape) increases computational power.
+**Automata hierarchy intuition:** Regular languages (recognised by finite automata) are the simplest, they can match patterns but can't count. Context-free languages (recognised by pushdown automata) can match nested structures. Decidable languages (recognised by Turing machines) can compute anything algorithmically computable. This hierarchy shows that adding memory (stack, tape) increases computational power.
 
-**Reducibility intuition:** Problem A reduces to problem B if solving B would give you a solution to A. If A reduces to B and B is easy, then A is easy. If A reduces to B and A is hard, then B is hard. This is the key technique for proving problems are NP-complete — reduce a known NP-complete problem to your problem.
+**Reducibility intuition:** Problem A reduces to problem B if solving B would give you a solution to A. If A reduces to B and B is easy, then A is easy. If A reduces to B and A is hard, then B is hard. This is the key technique for proving problems are NP-complete, reduce a known NP-complete problem to your problem.
 
-**Complexity class intuition:** P = problems solvable in polynomial time. NP = problems verifiable in polynomial time. P ⊆ NP is obvious (if you can solve it, you can verify it). Whether P = NP is the most important open problem in computer science. NP-complete problems are the hardest problems in NP — they're all equally hard.
+**Complexity class intuition:** P = problems solvable in polynomial time. NP = problems verifiable in polynomial time. P ⊆ NP is obvious (if you can solve it, you can verify it). Whether P = NP is the most important open problem in computer science. NP-complete problems are the hardest problems in NP, they're all equally hard.
 
 ---
 

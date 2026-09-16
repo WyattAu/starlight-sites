@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Computer Networks — Diagnostic Tests
+## Computer Networks, Diagnostic Tests
 
 ## Unit Tests
 
@@ -337,9 +337,9 @@ exists for oversized responses).
 
 ## Common Mistakes
 
-**Confusing TCP and UDP use cases:** TCP guarantees delivery, ordering, and error correction — use it for web browsing, email, and file transfer. UDP is connectionless and faster but unreliable — use it for video streaming, online gaming, and DNS lookups. Students often say "TCP is always better" when the choice depends on whether reliability or speed matters more.
+**Confusing TCP and UDP use cases:** TCP guarantees delivery, ordering, and error correction, use it for web browsing, email, and file transfer. UDP is connectionless and faster but unreliable, use it for video streaming, online gaming, and DNS lookups. Students often say "TCP is always better" when the choice depends on whether reliability or speed matters more.
 
-**Mixing up the OSI and TCP/IP layer models:** The OSI model has 7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application). The TCP/IP model has 4 layers (Network Access, Internet, Transport, Application). Students often confuse which protocol belongs to which layer — IP is Network/Internet layer, TCP/UDP is Transport layer, HTTP is Application layer.
+**Mixing up the OSI and TCP/IP layer models:** The OSI model has 7 layers (Physical, Data Link, Network, Transport, Session, Presentation, Application). The TCP/IP model has 4 layers (Network Access, Internet, Transport, Application). Students often confuse which protocol belongs to which layer, IP is Network/Internet layer, TCP/UDP is Transport layer, HTTP is Application layer.
 
 **Forgetting that MAC addresses are used for local delivery and IP addresses for routing:** When a packet travels across networks, the source and destination MAC addresses change at each hop (router), but the source and destination IP addresses remain the same throughout the journey. MAC addresses are for the local network; IP addresses are for end-to-end routing.
 

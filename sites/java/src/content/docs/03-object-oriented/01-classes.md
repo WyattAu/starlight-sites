@@ -23,7 +23,7 @@ A Java class is a template that defines the structure and behavior of objects. E
 Declaration in Java ultimately inherits from `java.lang.Object`Either explicitly or implicitly.
 
 ```java
-[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2, ...] {
+[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2...] {
     // fields
     // constructors
     // methods

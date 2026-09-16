@@ -26,8 +26,8 @@ Window chains that give window functions their full power.
 ```sql
 function_name([arguments]) OVER (
     [window_name]
-    [PARTITION BY partition_expr, ...]
-    [ORDER BY sort_expr [ASC|DESC] [NULLS {FIRST|LAST}], ...]
+    [PARTITION BY partition_expr...]
+    [ORDER BY sort_expr [ASC|DESC] [NULLS {FIRST|LAST}]...]
     [frame_clause]
 )
 ```

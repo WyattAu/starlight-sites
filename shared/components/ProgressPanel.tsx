@@ -1,5 +1,5 @@
 /**
- * ProgressPanel — landing-page surface for the mastery engine.
+ * ProgressPanel, landing-page surface for the mastery engine.
  *
  * Shows "continue where you left off" topic chips (practice recency),
  * the due-review count, and the study streak. Renders nothing for

@@ -1,5 +1,5 @@
 ---
-title: "University Mathematics Practice Test — 30 Challenging Problems"
+title: "University Mathematics Practice Test, 30 Challenging Problems"
 description: "30 university-level mathematics problems covering Calculus, Linear Algebra, Abstract Algebra, and Real Analysis. Problem-solving with detailed proofs and solutions."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## University Mathematics Practice Test — 30 Challenging Problems
+## University Mathematics Practice Test, 30 Challenging Problems
 
 This practice test covers 30 problems across four major domains of university mathematics: Multivariable Calculus, Linear Algebra, Abstract Algebra, and Real Analysis. Each problem requires rigorous reasoning, proof construction, and the application of fundamental theorems. Work through the problems with pen and paper before checking the solutions.
 
 ## Instructions
 
 - **Time limit:** 120 minutes (4 minutes per problem)
-- **Format:** Problem-solving — show all working and proofs
+- **Format:** Problem-solving, show all working and proofs
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Write complete, rigorous proofs.
 - **After the test:** Check the solutions at the bottom. Study the proof techniques for any problems you got wrong.
@@ -46,7 +46,7 @@ This practice test covers 30 problems across four major domains of university ma
 
 ## Multivariable Calculus (P1–P8)
 
-### P1 — Multiple Integration
+### P1, Multiple Integration
 
 Evaluate the double integral:
 
@@ -64,11 +64,11 @@ Substituting $u = x^2$, $du = 2x \, dx$:
 
 $$= \frac{1}{2} \int_0^1 e^u \, du = \frac{1}{2}(e - 1)$$
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P2 — Gradient and Directional Derivatives
+### P2, Gradient and Directional Derivatives
 
 Find the directional derivative of $f(x,y,z) = x^2 y + yz^3$ at the point $(1,2,-1)$ in the direction of the vector $\mathbf{v} = 2\mathbf{i} - \mathbf{j} + 2\mathbf{k}$.
 
@@ -90,11 +90,11 @@ The directional derivative is:
 
 $$D_{\hat{\mathbf{v}}} f = \nabla f \cdot \hat{\mathbf{v}} = \frac{1}{3}(8 + 0 + 12) = \frac{20}{3}$$
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P3 — Line Integrals
+### P3, Line Integrals
 
 Compute the line integral $\int_C \mathbf{F} \cdot d\mathbf{r}$ where $\mathbf{F} = (y, x, z)$ and $C$ is the helix $\mathbf{r}(t) = (\cos t, \sin t, t)$ for $0 \leq t \leq 2\pi$.
 
@@ -108,11 +108,11 @@ $$\mathbf{F} \cdot \mathbf{r}' = -\sin^2 t + \cos^2 t + t = \cos 2t + t$$
 
 $$\int_0^{2\pi} (\cos 2t + t) \, dt = \left[\frac{\sin 2t}{2} + \frac{t^2}{2}\right]_0^{2\pi} = 2\pi^2$$
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P4 — Surface Integrals
+### P4, Surface Integrals
 
 Find the flux of $\mathbf{F} = (x, y, z)$ across the portion of the sphere $x^2 + y^2 + z^2 = 4$ lying above the plane $z = 1$.
 
@@ -134,11 +134,11 @@ Therefore the flux through the spherical cap:
 
 $$\Phi_{\text{cap}} = 3 \cdot \frac{5\pi}{3} - (-3\pi) = 5\pi + 3\pi = 8\pi$$
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P5 — Green's Theorem
+### P5, Green's Theorem
 
 Use Green's Theorem to evaluate $\oint_C (xy \, dx + x^2 \, dy)$ where $C$ is the boundary of the region enclosed by $y = x$ and $y = x^2$.
 
@@ -152,11 +152,11 @@ The region is bounded by $y = x^2$ (below) and $y = x$ (above), with $0 \leq x \
 
 $$\int_0^1 \int_{x^2}^x x \, dy \, dx = \int_0^1 x(x - x^2) \, dx = \int_0^1 (x^2 - x^3) \, dx = \frac{1}{3} - \frac{1}{4} = \frac{1}{12}$$
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P6 — Stokes' Theorem
+### P6, Stokes' Theorem
 
 Verify Stokes' Theorem for $\mathbf{F} = (z, x, y)$ on the hemisphere $z = \sqrt{1 - x^2 - y^2}$ with boundary $C$ the unit circle in the $xy$-plane.
 
@@ -176,11 +176,11 @@ $$\iint_D \frac{z}{z^2} \cdot z^2 \, dA = \iint_D 1 \, dA = \pi$$
 
 Both integrals equal $\pi$, confirming Stokes' Theorem.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P7 — Taylor Series in Several Variables
+### P7, Taylor Series in Several Variables
 
 Find the second-order Taylor expansion of $f(x,y) = e^{x}\cos(y)$ about the origin.
 
@@ -194,11 +194,11 @@ Second partials: $f_{xx} = e^x \cos y$, $f_{xy} = -e^x \sin y$, $f_{yy} = -e^x \
 
 $$T_2(x,y) = 1 + x + \frac{1}{2}(x^2 - y^2) + \cdots$$
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P8 — Lagrange Multipliers
+### P8, Lagrange Multipliers
 
 Find the maximum and minimum values of $f(x,y,z) = x + 2y + 3z$ subject to $x^2 + y^2 + z^2 = 1$.
 
@@ -216,13 +216,13 @@ Maximum: $f = \frac{1}{2\lambda}(1 + 4 + 9) = \frac{14}{2\lambda} = \sqrt{14}$ a
 
 Minimum: $f = -\sqrt{14}$ at $(x,y,z) = -\frac{1}{\sqrt{14}}(1,2,3)$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Linear Algebra (P9–P16)
 
-### P9 — Eigenvalues and Eigenvectors
+### P9, Eigenvalues and Eigenvectors
 
 Find the eigenvalues and eigenvectors of the matrix:
 
@@ -242,11 +242,11 @@ For $\lambda_2 = 3$: $(A - 3I)\mathbf{v} = 0$ gives $\mathbf{v}_2 = (1, 0, 0)^T$
 
 For $\lambda_3 = 5$: $(A - 5I)\mathbf{v} = 0$ gives $\mathbf{v}_3 = (0, 0, 1)^T$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P10 — Diagonalisation
+### P10, Diagonalisation
 
 Determine whether the matrix $A = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$ is diagonalisable.
 
@@ -258,11 +258,11 @@ $(A - I) = \begin{pmatrix} 0 & 2 \\ 0 & 0 \end{pmatrix}$. The null space is span
 
 Since the geometric multiplicity (1) is less than the algebraic multiplicity (2), $A$ is **not diagonalisable**.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P11 — Inner Product Spaces
+### P11, Inner Product Spaces
 
 Let $V = P_2(\mathbb{R})$ with inner product $\langle f, g \rangle = \int_0^1 f(x)g(x) \, dx$. Apply the Gram-Schmidt process to the basis $\{1, x, x^2\}$.
 
@@ -280,11 +280,11 @@ $$e_3 = x^2 - \frac{1/3}{1} \cdot 1 - \frac{1/12}{1/12}\left(x - \frac{1}{2}\rig
 
 The orthogonal basis is $\left\{1, \, x - \frac{1}{2}, \, x^2 - x + \frac{1}{6}\right\}$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P12 — Linear Transformations
+### P12, Linear Transformations
 
 Let $T: \mathbb{R}^3 \to \mathbb{R}^3$ be defined by $T(x,y,z) = (x + y, y + z, z + x)$. Find the rank and nullity of $T$.
 
@@ -300,11 +300,11 @@ $$\begin{pmatrix} 1 & 1 & 0 \\ 0 & 1 & 1 \\ 0 & -1 & 1 \end{pmatrix} \to \begin{
 
 The rank is 3 and the nullity is 0 (since $\det(A) = 2 \neq 0$). $T$ is invertible.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P13 — Quadratic Forms
+### P13, Quadratic Forms
 
 Classify the quadratic form $Q(x,y,z) = x^2 + 4y^2 + z^2 + 2xy - 2xz$.
 
@@ -318,11 +318,11 @@ Leading principal minors: $\Delta_1 = 1 > 0$, $\Delta_2 = 4 - 1 = 3 > 0$, $\Delt
 
 By Sylvester's criterion, $A$ has signature $(2, 1)$: two positive eigenvalues and one negative eigenvalue. The quadratic form is **indefinite**.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P14 — Vector Spaces
+### P14, Vector Spaces
 
 Prove that the set of all $2 \times 2$ symmetric matrices forms a subspace of $M_{2 \times 2}(\mathbb{R})$, and find its dimension.
 
@@ -342,11 +342,11 @@ $$\left\{\begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix}, \begin{pmatrix} 0 & 1 \\ 
 
 The dimension is 3.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P15 — Spectral Theorem
+### P15, Spectral Theorem
 
 State the Spectral Theorem for real symmetric matrices and sketch a proof outline.
 
@@ -362,11 +362,11 @@ State the Spectral Theorem for real symmetric matrices and sketch a proof outlin
 
 3. **Orthonormal basis:** By induction on dimension, we can construct an orthonormal basis of eigenvectors, giving $A = QDQ^T$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P16 — Jordan Normal Form
+### P16, Jordan Normal Form
 
 Find the Jordan normal form of $A = \begin{pmatrix} 2 & 1 & 0 \\ 0 & 2 & 1 \\ 0 & 0 & 2 \end{pmatrix}$ and compute $A^{10}$.
 
@@ -384,13 +384,13 @@ $$= \begin{pmatrix} 1024 & 0 & 0 \\ 0 & 1024 & 0 \\ 0 & 0 & 1024 \end{pmatrix} +
 
 $$A^{10} = \begin{pmatrix} 1024 & 5120 & 11520 \\ 0 & 1024 & 5120 \\ 0 & 0 & 1024 \end{pmatrix}$$
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Abstract Algebra (P17–P23)
 
-### P17 — Group Theory
+### P17, Group Theory
 
 Prove that every group of order 4 is abelian.
 
@@ -406,11 +406,11 @@ $$ab = (ab)^{-1} = b^{-1}a^{-1} = ba$$
 
 Therefore $G$ is abelian. In fact, $G \cong \mathbb{Z}_2 \times \mathbb{Z}_2$ (the Klein four-group).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P18 — Ring Theory
+### P18, Ring Theory
 
 Prove that in an integral domain, the cancellation law holds: if $ab = ac$ and $a \neq 0$, then $b = c$.
 
@@ -424,11 +424,11 @@ Since $D$ is an integral domain, it has no zero divisors: if $xy = 0$ then $x = 
 
 Since $a \neq 0$, we must have $b - c = 0$, i.e., $b = c$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P19 — Quotient Groups
+### P19, Quotient Groups
 
 Let $H$ be a subgroup of index 2 in a group $G$. Prove that $H$ is normal in $G$.
 
@@ -442,11 +442,11 @@ For any $g \in G$:
 
 In both cases, $gH = Hg$ for all $g \in G$, so $H \trianglelefteq G$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P20 — Group Homomorphisms
+### P20, Group Homomorphisms
 
 Let $\phi: G \to H$ be a group homomorphism. Prove that $\ker(\phi)$ is a normal subgroup of $G$.
 
@@ -460,11 +460,11 @@ $$\phi(gkg^{-1}) = \phi(g)\phi(k)\phi(g)^{-1} = \phi(g) \cdot e_H \cdot \phi(g)^
 
 So $gkg^{-1} \in \ker(\phi)$, proving $\ker(\phi) \trianglelefteq G$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P21 — Polynomial Rings
+### P21, Polynomial Rings
 
 Find the gcd of $f(x) = x^4 + 1$ and $g(x) = x^3 + x + 1$ in $\mathbb{F}_2[x]$ using the Euclidean algorithm.
 
@@ -500,13 +500,13 @@ Dividing $x$ by $1$:
 
 $x = x \cdot 1 + 0$
 
-The last nonzero remainder is $1$, so $\gcd(f, g) = 1$ — they are coprime.
+The last nonzero remainder is $1$, so $\gcd(f, g) = 1$, they are coprime.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P22 — Field Extensions
+### P22, Field Extensions
 
 Find the degree $[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}]$ and construct a basis.
 
@@ -524,11 +524,11 @@ $$[\mathbb{Q}(\sqrt{2}, \sqrt{3}) : \mathbb{Q}] = [\mathbb{Q}(\sqrt{2}, \sqrt{3}
 
 A basis is $\{1, \sqrt{2}, \sqrt{3}, \sqrt{6}\}$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P23 — Sylow Theorems
+### P23, Sylow Theorems
 
 Use the Sylow theorems to show that every group of order 15 is cyclic.
 
@@ -543,13 +543,13 @@ By Sylow's theorems:
 
 Since both Sylow subgroups are unique, they are normal. Let $P \cong \mathbb{Z}_5$ and $Q \cong \mathbb{Z}_3$. Since $P \cap Q = \{e\}$ and $PQ = G$, we have $G \cong P \times Q \cong \mathbb{Z}_5 \times \mathbb{Z}_3 \cong \mathbb{Z}_{15}$ (since $\gcd(3,5) = 1$). Therefore $G$ is cyclic.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Real Analysis (P24–P30)
 
-### P24 — Sequences and Limits
+### P24, Sequences and Limits
 
 Prove that the sequence $a_n = \frac{n}{n+1}$ converges, and find its limit.
 
@@ -563,11 +563,11 @@ $$|a_n - 1| = \left|\frac{n}{n+1} - 1\right| = \frac{1}{n+1} < \frac{1}{n} < \fr
 
 Therefore $\lim_{n \to \infty} a_n = 1$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P25 — Series
+### P25, Series
 
 Determine whether $\sum_{n=1}^{\infty} \frac{n^2}{2^n}$ converges.
 
@@ -579,11 +579,11 @@ $$\frac{a_{n+1}}{a_n} = \frac{(n+1)^2}{2^{n+1}} \cdot \frac{2^n}{n^2} = \frac{1}
 
 Since the limit is less than 1, the series **converges** by the ratio test.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P26 — Continuity
+### P26, Continuity
 
 Prove that $f(x) = x^2$ is continuous at $x = 3$ using the $\epsilon$-$\delta$ definition.
 
@@ -599,11 +599,11 @@ Choose $\delta = \min\left(1, \frac{\epsilon}{7}\right)$. Then:
 
 $$|x^2 - 9| = |x - 3| \cdot |x + 3| < \delta \cdot 7 \leq \epsilon$$
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P27 — Uniform Convergence
+### P27, Uniform Convergence
 
 Show that $f_n(x) = \frac{x}{n}$ converges pointwise but not uniformly on $\mathbb{R}$.
 
@@ -623,11 +623,11 @@ for every $n$, so the convergence is not uniform on $\mathbb{R}$.
 
 (Note: convergence is uniform on any bounded subset $[-M, M]$ since $\sup \frac{|x|}{n} = \frac{M}{n} \to 0$.)
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P28 — Differentiation
+### P28, Differentiation
 
 State and prove the Mean Value Theorem.
 
@@ -643,11 +643,11 @@ By Rolle's theorem (since $g$ is continuous on $[a,b]$, differentiable on $(a,b)
 
 $g'(c) = f'(c) - \frac{f(b)-f(a)}{b-a} = 0$, giving $f'(c) = \frac{f(b)-f(a)}{b-a}$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P29 — Integration
+### P29, Integration
 
 Prove that if $f$ is Riemann integrable on $[a,b]$ and $f(x) \geq 0$ for all $x$, then $\int_a^b f(x) \, dx \geq 0$.
 
@@ -661,11 +661,11 @@ where $m_i = \inf_{x \in [x_{i-1}, x_i]} f(x)$. Since $f(x) \geq 0$ everywhere, 
 
 The Riemann integral is $\int_a^b f = \sup_P L(f, P) \geq 0$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P30 — Compactness
+### P30, Compactness
 
 Prove that a closed and bounded subset of $\mathbb{R}$ is compact (Heine-Borel theorem).
 
@@ -675,9 +675,9 @@ Prove that a closed and bounded subset of $\mathbb{R}$ is compact (Heine-Borel t
 
 **Proof ($\Rightarrow$):** If $K$ is compact, consider the open cover $\{(-n, n) : n \in \mathbb{N}\}$. This has a finite subcover $\{(-n_1, n_1), \ldots, (-n_k, n_k)\}$, so $K \subseteq (-N, N)$ where $N = \max(n_i)$. Thus $K$ is bounded.
 
-To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For each $k \in \mathbb{N}$, the set $U_k = \mathbb{R} \setminus [x - 1/k, x + 1/k]$ is open. The family $\{U_k\}$ covers $K$ (since $x \notin K$, each point of $K$ is at positive distance from $x$). By compactness, $K \subseteq U_{k_1} \cup \cdots \cup U_{k_m} = \mathbb{R} \setminus [x - 1/N, x + 1/N]$ where $N = \max(k_i)$. But $x$ is a limit point, so $K \cap (x - 1/N, x + 1/N) \neq \emptyset$ — contradiction.
+To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For each $k \in \mathbb{N}$, the set $U_k = \mathbb{R} \setminus [x - 1/k, x + 1/k]$ is open. The family $\{U_k\}$ covers $K$ (since $x \notin K$, each point of $K$ is at positive distance from $x$). By compactness, $K \subseteq U_{k_1} \cup \cdots \cup U_{k_m} = \mathbb{R} \setminus [x - 1/N, x + 1/N]$ where $N = \max(k_i)$. But $x$ is a limit point, so $K \cap (x - 1/N, x + 1/N) \neq \emptyset$, contradiction.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
@@ -752,17 +752,17 @@ To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For
 
 ## Cross-References
 
-- **[Multivariable Calculus](4-multivariable-calculus)** — Multiple integration, vector calculus, Green's/Stokes'/Divergence theorems
-- **[Linear Algebra](2-linear-algebra)** — Eigenvalues, diagonalisation, inner products, quadratic forms
-- **[Abstract Algebra](1-abstract-algebra)** — Groups, rings, fields, homomorphisms, Sylow theory
-- **[Real Analysis](3-real-analysis)** — Sequences, series, continuity, differentiation, integration
-- **[Linear Algebra Practice](practice-linear-algebra)** — Additional linear algebra exercises
+- **[Multivariable Calculus](4-multivariable-calculus)**, Multiple integration, vector calculus, Green's/Stokes'/Divergence theorems
+- **[Linear Algebra](2-linear-algebra)**, Eigenvalues, diagonalisation, inner products, quadratic forms
+- **[Abstract Algebra](1-abstract-algebra)**, Groups, rings, fields, homomorphisms, Sylow theory
+- **[Real Analysis](3-real-analysis)**, Sequences, series, continuity, differentiation, integration
+- **[Linear Algebra Practice](practice-linear-algebra)**, Additional linear algebra exercises
 
 ---
 
 ## Tips for Using This Practice Test
 
-1. **Write complete proofs.** University mathematics demands rigour — every claim must be justified.
+1. **Write complete proofs.** University mathematics demands rigour, every claim must be justified.
 2. **Check your work.** Verify dimensions, signs, and boundary cases. Dimensional analysis catches many errors.
 3. **Study the proof techniques.** The solutions demonstrate key methods: induction, contradiction, construction, and the $\epsilon$-$\delta$ argument.
 4. **Understand definitions.** Many problems test whether you can apply definitions precisely (e.g., uniform convergence, normal subgroups).

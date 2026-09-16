@@ -952,7 +952,7 @@ Using classes.
 
 ## Intuition
 
-Python variables are not boxes that contain values — they are labels stuck on objects. When you write `x = [1, 2, 3]`, you are not putting a list inside `x`; you are sticking the label `x` on a list object that lives somewhere in memory. This is why `a = b` does not copy the list — both labels point to the same object. Dynamic typing means these labels can be moved to different objects at any time. Strong typing means Python will not silently convert incompatible types — it raises an error instead, because silent conversion would be like a librarian reorganizing your books without telling you. The immutable nature of strings means every "modification" creates a new string, like photocopying a page and writing on the copy.
+Python variables are not boxes that contain values, they are labels stuck on objects. When you write `x = [1, 2, 3]`, you are not putting a list inside `x`; you are sticking the label `x` on a list object that lives somewhere in memory. This is why `a = b` does not copy the list, both labels point to the same object. Dynamic typing means these labels can be moved to different objects at any time. Strong typing means Python will not silently convert incompatible types, it raises an error instead, because silent conversion would be like a librarian reorganizing your books without telling you. The immutable nature of strings means every "modification" creates a new string, like photocopying a page and writing on the copy.
 
 ## Common Pitfalls
 
@@ -980,8 +980,8 @@ linked above.
 
 ## Cross-References
 
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow) — Truthiness rules and short-circuit evaluation govern how booleans behave in conditional expressions and loops.
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections) — Lists, tuples, and dicts are the primary data structures whose type properties depend on mutability and hashability.
-- [Python Internals](05-python-internals) — Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
-- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter) — The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
+- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), Truthiness rules and short-circuit evaluation govern how booleans behave in conditional expressions and loops.
+- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), Lists, tuples, and dicts are the primary data structures whose type properties depend on mutability and hashability.
+- [Python Internals](05-python-internals), Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
+- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter), The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
 :::

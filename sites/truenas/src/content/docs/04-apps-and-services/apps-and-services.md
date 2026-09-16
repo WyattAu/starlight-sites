@@ -34,8 +34,8 @@ TrueNAS SCALE provides two app catalogs:
 
 | Catalog   | Source                | Update Frequency | Trust Level                      |
 | --------- | --------------------- | ---------------- | -------------------------------- |
-| Official  | TrueNAS/iXsystems     | Regular          | High — tested by iXsystems       |
-| Community | Community-contributed | Variable         | Medium — review before deploying |
+| Official  | TrueNAS/iXsystems     | Regular          | High, tested by iXsystems       |
+| Community | Community-contributed | Variable         | Medium, review before deploying |
 | Custom    | Your own charts       | Manual           | Depends on source                |
 
 ### Installing Apps
@@ -122,7 +122,7 @@ Nextcloud is a self-hosted file sync, collaboration, and communication platform.
 - Nextcloud's performance is heavily dependent on database performance. Use PostgreSQL on an SSD for
   best results.
 - For large deployments, enable Redis caching and PHP OPcache.
-- Regularly update Nextcloud — security updates are frequent.
+- Regularly update Nextcloud, security updates are frequent.
 
 ### Home Assistant
 

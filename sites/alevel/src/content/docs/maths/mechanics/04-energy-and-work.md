@@ -328,7 +328,7 @@ A car of mass $1200\,\mathrm{kg}$ accelerates from $10\,\mathrm{m/s}$ to $25\,\m
 <summary>Solution 1</summary>
 $W = \Delta\mathrm{KE} = \tfrac{1}{2}(1200)(625 - 100) = 600 \times 525 = 315000\,\mathrm{J} = 315\,\mathrm{kJ}$.
 
-**If you get this wrong, revise:** [Work-Energy Principle](#41-statement) — Section 4.1.
+**If you get this wrong, revise:** [Work-Energy Principle](#41-statement), Section 4.1.
 
 </details>
 
@@ -344,7 +344,7 @@ Conservation of energy: $mgh = \tfrac{1}{2}mv^2$.
 $v = \sqrt{2gh} = \sqrt{2(9.8)(20)} = \sqrt{392} \approx 19.8\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy) — Section 4.3.
+[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
 
 </details>
 
@@ -359,7 +359,7 @@ At max speed: $P = Fv$ where $F = 400\,\mathrm{N}$ (driving force equals resista
 
 $60000 = 400v \implies v = 150\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Power](#5-power) — Section 5.
+**If you get this wrong, revise:** [Power](#5-power), Section 5.
 
 </details>
 
@@ -375,7 +375,7 @@ Work against friction $= \mu mg\cos 30° \times 6 = 0.2(4)(9.8)(0.866)(6) = 40.7
 $\tfrac{1}{2}mv^2 = 117.6 - 40.75 = 76.85 \implies v^2 = 76.85/2 = 38.425 \implies v \approx 6.20\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy) — Section 4.3.
+[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
 
 </details>
 
@@ -390,7 +390,7 @@ $W = mgh = 500(9.8)(30) = 147000\,\mathrm{J}$.
 
 $P = W/t = 147000/45 = 3267\,\mathrm{W} \approx 3.27\,\mathrm{kW}$.
 
-**If you get this wrong, revise:** [Power](#5-power) — Section 5.
+**If you get this wrong, revise:** [Power](#5-power), Section 5.
 
 </details>
 
@@ -404,7 +404,7 @@ A pendulum has a bob of mass $2\,\mathrm{kg}$ on a string of length $1.5\,\mathr
 Height dropped $= 1.5\,\mathrm{m}$. $mgh = \tfrac{1}{2}mv^2 \implies v = \sqrt{2(9.8)(1.5)} = \sqrt{29.4} \approx 5.42\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy) — Section 4.3.
+[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
 
 </details>
 
@@ -421,7 +421,7 @@ $P = Fv \implies F = P/v = 20000/15 = 1333.3\,\mathrm{N}$.
 
 $R = F - mg\sin\theta = 1333.3 - 800(9.8)(0.1) = 1333.3 - 784 = 549.3\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Power and Inclined Planes](#53-power-and-inclined-planes) —
+**If you get this wrong, revise:** [Power and Inclined Planes](#53-power-and-inclined-planes),
 Section 5.3.
 
 </details>
@@ -437,7 +437,7 @@ The force varies from $0$ to $kx$. The work done (energy stored) is:
 
 $$\mathrm{EPE} = \int_0^x T\,dx' = \int_0^x kx'\,dx' = \frac{1}{2}kx^2$$
 
-**If you get this wrong, revise:** [Work Done](#11-definition-and-derivation) — Section 1.1.
+**If you get this wrong, revise:** [Work Done](#11-definition-and-derivation), Section 1.1.
 
 </details>
 
@@ -457,7 +457,7 @@ $200 + 294 = \tfrac{1}{2}v^2 \implies v^2 = 988 \implies v \approx 31.4\,\mathrm
 (Air resistance is neglected.)
 
 **If you get this wrong, revise:**
-[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy) — Section 4.3.
+[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
 
 </details>
 
@@ -474,7 +474,7 @@ $20v^2 + 5000v - 2000000 = 0 \implies v^2 + 250v - 100000 = 0$.
 
 $v = \dfrac{-250 + \sqrt{62500 + 400000}}{2} = \dfrac{-250 + \sqrt{462500}}{2} = \dfrac{-250 + 680.1}{2} = 215.1\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Power](#5-power) — Section 5.
+**If you get this wrong, revise:** [Power](#5-power), Section 5.
 
 </details>
 
@@ -494,7 +494,7 @@ At natural length, EPE $= 0$ So all EPE converts to KE:
 
 $\tfrac{1}{2}(0.5)v^2 = 9 \implies v^2 = 36 \implies v = 6\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Elastic Potential Energy](#6-elastic-potential-energy) —
+**If you get this wrong, revise:** [Elastic Potential Energy](#6-elastic-potential-energy),
 Section 6.
 
 </details>
@@ -516,7 +516,7 @@ Using $s = \frac{2}{3}\sqrt{\frac{2P}{m}}\,t^{3/2}$:
 $s = \frac{2}{3}\sqrt{\frac{2(5000)}{500}} \times 5^{3/2} = \frac{2}{3}\sqrt{20} \times 5\sqrt{5} = \frac{2}{3}(2\sqrt{5})(5\sqrt{5}) = \frac{2}{3}(50) = \frac{100}{3} \approx 33.3\,\mathrm{m}$.
 
 **If you get this wrong, revise:**
-[Power in variable-force situations](#54-power-in-variable-force-situations) — Section 5.4.
+[Power in variable-force situations](#54-power-in-variable-force-situations), Section 5.4.
 
 </details>
 
@@ -543,7 +543,7 @@ The return speed is less than $12\,\mathrm{m/s}$ because energy is lost to frict
 And down journey.
 
 **If you get this wrong, revise:**
-[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy) — Section 4.3.
+[Conservation of Mechanical Energy](#43-conservation-of-mechanical-energy), Section 4.3.
 
 </details>
 
@@ -567,7 +567,7 @@ $19.6x = 25x^2 \implies x(25x - 19.6) = 0 \implies x = 0.784\,\mathrm{m}$ (ignor
 Solution $x = 0$).
 
 **If you get this wrong, revise:**
-[Conservation of energy with springs](#63-conservation-of-energy-with-springs) — Section 6.3.
+[Conservation of energy with springs](#63-conservation-of-energy-with-springs), Section 6.3.
 
 </details>
 
@@ -589,7 +589,7 @@ EPE gained $= \tfrac{1}{2}(50)x^2 = 25x^2$.
 
 $0.98x = 25x^2 \implies x(25x - 0.98) = 0 \implies x = 0.0392\,\mathrm{m} = 3.92\,\mathrm{cm}$.
 
-**If you get this wrong, revise:** [Elastic Potential Energy](#6-elastic-potential-energy) —
+**If you get this wrong, revise:** [Elastic Potential Energy](#6-elastic-potential-energy),
 Section 6.
 
 </details>
@@ -618,8 +618,8 @@ Net force $= 3750 - 1676 = 2074\,\mathrm{N}$.
 
 $a = \frac{2074}{1500} \approx 1.38\,\mathrm{m/s}^2$.
 
-**If you get this wrong, revise:** [Power and Inclined Planes](#53-power-and-inclined-planes) —
-Section 5.3, and [Power in variable-force situations](#54-power-in-variable-force-situations) —
+**If you get this wrong, revise:** [Power and Inclined Planes](#53-power-and-inclined-planes),
+Section 5.3, and [Power in variable-force situations](#54-power-in-variable-force-situations),
 Section 5.4.
 
 </details>

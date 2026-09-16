@@ -241,10 +241,10 @@ hooks in the repository) or a symlink to a tracked scripts directory.
 
 See [References](../02-fundamentals/03-references) for the full treatment. In summary:
 
-- `.git/refs/heads/` — branch references
-- `.git/refs/tags/` — tag references
-- `.git/refs/remotes/` — remote-tracking references
-- `.git/packed-refs` — packed (consolidated) references
+- `.git/refs/heads/`branch references
+- `.git/refs/tags/`tag references
+- `.git/refs/remotes/`remote-tracking references
+- `.git/packed-refs`packed (consolidated) references
 
 ## Repository Corruption Recovery
 

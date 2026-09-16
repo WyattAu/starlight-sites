@@ -2030,7 +2030,7 @@ impossible to address with traditional field methods alone.
 
 ## Intuition
 
-**Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
+**Ecology is like a web of relationships, every organism depends on others in a delicate balance.**
 
 
 ```mermaid

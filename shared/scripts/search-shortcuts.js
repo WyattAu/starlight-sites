@@ -1,5 +1,5 @@
 /**
- * search-shortcuts.js — Global keyboard shortcuts for search modal
+ * search-shortcuts.js, Global keyboard shortcuts for search modal
  *
  * Cmd+K (macOS) / Ctrl+K (Windows/Linux) opens the search modal.
  * / opens search when no input is focused.

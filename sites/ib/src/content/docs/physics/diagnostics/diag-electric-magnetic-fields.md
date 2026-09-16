@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Electric and Magnetic Fields — Diagnostic Tests
+## Electric and Magnetic Fields, Diagnostic Tests
 
 
 ```mermaid
@@ -30,9 +30,9 @@ flowchart TD
 
 ## Intuition
 
-**Electric and magnetic fields are like invisible webs that permeate space — charges and currents create distortions in these webs that exert forces on other charges:** Electricity and magnetism are two manifestations of the same fundamental force, unified through Maxwell's equations
+**Electric and magnetic fields are like invisible webs that permeate space, charges and currents create distortions in these webs that exert forces on other charges:** Electricity and magnetism are two manifestations of the same fundamental force, unified through Maxwell's equations
 
-**Why it matters:** Electromagnetic fields power our civilization — from electric motors to wireless communication to medical MRI machines
+**Why it matters:** Electromagnetic fields power our civilization, from electric motors to wireless communication to medical MRI machines
 
 **The key insight:** Electricity and magnetism are two manifestations of the same fundamental force, unified through Maxwell's equations
 

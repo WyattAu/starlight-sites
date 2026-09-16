@@ -59,7 +59,7 @@ These carbonyl compounds are among the most important functional groups in organ
 - Reduction: to primary alcohols (aldehydes) or secondary alcohols (ketones)
 - Haloform reaction: methyl ketones ($\text{CH}_3\text{CO}-$) give $\text{CHX}_3$ with X$_2$/NaOH
 
-## Worked Example 1 — Nucleophilic Addition
+## Worked Example 1, Nucleophilic Addition
 
 **Problem:** Write the product of the reaction of acetaldehyde with HCN.
 
@@ -75,7 +75,7 @@ Mechanism: CN$^-$ attacks the electrophilic carbonyl carbon, then protonation of
 
 **Common mistake:** Writing the product as $\text{CH}_3\text{CH(OH)COOH}$. HCN adds as H and CN, not H and COOH.
 
-## Worked Example 2 — Aldol Condensation
+## Worked Example 2, Aldol Condensation
 
 **Problem:** Write the aldol condensation product of acetaldehyde.
 
@@ -94,7 +94,7 @@ Product: but-2-enal (crotonaldehyde), an $\alpha,\beta$-unsaturated aldehyde.
 
 **Common mistake:** Forgetting the dehydration step. Aldol condensation gives the unsaturated product upon heating.
 
-## Worked Example 3 — Tollens' Test
+## Worked Example 3, Tollens' Test
 
 **Problem:** How does Tollens' test distinguish between acetaldehyde and acetone?
 
@@ -131,11 +131,11 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 
 ## Intuition
 
-**The carbonyl carbon is an electrophile's dream target:** The C=O bond is like a tug-of-war where oxygen always wins — pulling electron density away from carbon, leaving it electron-deficient. Nucleophiles rush in to fill this electron gap, which is why nucleophilic addition is the signature reaction of aldehydes and ketones.
+**The carbonyl carbon is an electrophile's dream target:** The C=O bond is like a tug-of-war where oxygen always wins, pulling electron density away from carbon, leaving it electron-deficient. Nucleophiles rush in to fill this electron gap, which is why nucleophilic addition is the signature reaction of aldehydes and ketones.
 
 **Why it matters:** Aldehydes and ketones appear ineverything from formaldehyde preservatives to vanilla flavoring to drug molecules. The ability to distinguish aldehydes from ketones (Tollens' test) and to build larger molecules (aldol condensation) are foundational organic chemistry skills.
 
-**The key insight:** The presence or absence of an alpha-hydrogen determines whether a carbonyl compound undergoes aldol condensation or the Cannizzaro reaction — one H atom changes the entire reaction pathway.
+**The key insight:** The presence or absence of an alpha-hydrogen determines whether a carbonyl compound undergoes aldol condensation or the Cannizzaro reaction, one H atom changes the entire reaction pathway.
 
 ## Common Mistakes
 

@@ -98,7 +98,7 @@ A) demonstrate Maren's practical expertise in home renovation B) highlight the d
 emotional attachment and pragmatic detachment C) suggest that Maren is correct and Clara is being
 unrealistic D) foreshadow a future conflict between the sisters over ownership
 
-### Annotated Answers — Passage 1
+### Annotated Answers, Passage 1
 
 **Q1. Correct answer: A**
 
@@ -220,7 +220,7 @@ volume of user-generated content makes true viewpoint neutrality practically imp
 
 A) disinterested B) unbiased C) colourless D) inactive
 
-### Annotated Answers — Passage 2
+### Annotated Answers, Passage 2
 
 **Q7. Correct answer: B**
 
@@ -347,7 +347,7 @@ supported, because the observed trend is consistent but confounding variables pr
 conclusions C) refuted, because the deep zone showed only a small pH change D) irrelevant, because
 the researchers did not actually test this hypothesis
 
-### Annotated Answers — Passage 3
+### Annotated Answers, Passage 3
 
 **Q13. Correct answer: C**
 
@@ -414,7 +414,7 @@ the researchers did not actually test this hypothesis
 }
 </script>
 
-## Passage 4: Paired Passages — History / Social Studies
+## Passage 4: Paired Passages, History / Social Studies
 
 ### Passage A
 
@@ -470,7 +470,7 @@ assumption that all college sports programmes are financially successful C) argu
 athletes should focus on academics rather than athletics D) suggest that most universities should
 eliminate athletic programmes
 
-### Annotated Answers — Passage 4
+### Annotated Answers, Passage 4
 
 **Q19. Correct answer: B**
 
@@ -574,7 +574,7 @@ society's ability to establish appropriate safeguards C) Critics warn rapid AI d
 outpace the creation of adequate safeguards D) Society might not be able to keep up with how fast AI
 is moving, according to critics
 
-### Annotated Answers — Passage 5
+### Annotated Answers, Passage 5
 
 **Q23. Correct answer: A**
 
@@ -643,11 +643,11 @@ is moving, according to critics
 
 ## Intuition
 
-**SAT reading tests comprehension and evidence-based reasoning:** Questions ask you to identify what the passage _actually says_ — not what you think it means. Evidence-based questions require finding specific support in the text.
+**SAT reading tests comprehension and evidence-based reasoning:** Questions ask you to identify what the passage _actually says_, not what you think it means. Evidence-based questions require finding specific support in the text.
 
 **Why it matters:** Strong reading comprehension is essential for college success across all disciplines.
 
-**The key insight:** The correct answer is always directly supported by the passage — if you cannot point to specific evidence, you are likely inferring beyond what the text says.
+**The key insight:** The correct answer is always directly supported by the passage, if you cannot point to specific evidence, you are likely inferring beyond what the text says.
 
 ## Summary
 

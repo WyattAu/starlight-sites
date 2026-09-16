@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Theory of Computation — Diagnostic Tests
+## Theory of Computation, Diagnostic Tests
 
 ## Unit Tests
 
@@ -432,7 +432,7 @@ producing a string not in the language -- proving it is not regular.
 
 ## Common Mistakes
 
-**Confusing decidability with complexity:** A problem being decidable means an algorithm exists that always halts and gives the correct answer. Complexity (P vs NP) is about how fast that algorithm runs. The halting problem is undecidable — no algorithm can solve it for all inputs. Sorting is decidable and in P — a fast algorithm exists.
+**Confusing decidability with complexity:** A problem being decidable means an algorithm exists that always halts and gives the correct answer. Complexity (P vs NP) is about how fast that algorithm runs. The halting problem is undecidable, no algorithm can solve it for all inputs. Sorting is decidable and in P, a fast algorithm exists.
 
 **Assuming NP means "not solvable in polynomial time":** NP stands for "nondeterministic polynomial time." It means the solution can be verified in polynomial time, not that it cannot be solved in polynomial time. All P problems are also in NP (if you can solve it quickly, you can certainly verify it quickly).
 

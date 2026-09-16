@@ -724,7 +724,7 @@ missing value.
 }
 </script>
 
-### Problem 19: Statistics — IQR
+### Problem 19: Statistics, IQR
 
 A dataset has the following five-number summary: minimum = 12, $Q_1 = 18$, median = 24, $Q_3 = 32$,
 maximum = 45. What is the interquartile range (IQR)?
@@ -1074,7 +1074,7 @@ Each interior angle of a regular octagon: $1080° \div 8 = 135°$.
 }
 </script>
 
-### Problem 29: Right Triangle Trigonometry — Application
+### Problem 29: Right Triangle Trigonometry, Application
 
 A ladder leans against a wall, making a $72°$ angle with the ground. If the foot of the ladder is 4
 feet from the base of the wall, how long is the ladder?
@@ -1163,7 +1163,7 @@ the square.
 
 **Why it matters:** SAT math scores significantly affect college admissions and scholarship eligibility.
 
-**The key insight:** The calculator section is not harder — it tests whether you can use tools efficiently, while the no-calculator section tests number sense and algebraic manipulation.
+**The key insight:** The calculator section is not harder, it tests whether you can use tools efficiently, while the no-calculator section tests number sense and algebraic manipulation.
 
 ## Summary
 

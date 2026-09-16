@@ -22,11 +22,11 @@ categories:
 
 ## Intuition
 
-**Mapping the boundaries of computation:** Theory of computation draws a map of what's possible — it separates problems that any computer can solve from those that no computer can solve, and identifies which problems are easy vs. hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
+**Mapping the boundaries of computation:** Theory of computation draws a map of what's possible, it separates problems that any computer can solve from those that no computer can solve, and identifies which problems are easy vs. hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
 
-**Why it matters:** This theory guides real engineering — cryptographers rely on factoring being hard, compiler designers use automata to parse code, and complexity theory tells us which problems to approximate vs. solve exactly.
+**Why it matters:** This theory guides real engineering, cryptographers rely on factoring being hard, compiler designers use automata to parse code, and complexity theory tells us which problems to approximate vs. solve exactly.
 
-**The key insight:** The Church-Turing thesis says that any "reasonable" model of computation computes exactly the same things as a Turing machine — this universality means that understanding TMs gives you the limits of all computation.
+**The key insight:** The Church-Turing thesis says that any "reasonable" model of computation computes exactly the same things as a Turing machine, this universality means that understanding TMs gives you the limits of all computation.
 
 ## 1. Introduction
 
@@ -69,8 +69,8 @@ complexity class.
 
 **Finite languages** (always regular):
 
-- $L_1 = \{\mathrm{true}, \mathrm{false}\}$ — the set of Boolean literals.
-- $L_2 = \{w \in \{0,1\}^* : |w| \leq 3\}$ — all binary strings of length at most 3.
+- $L_1 = \{\mathrm{true}, \mathrm{false}\}$, the set of Boolean literals.
+- $L_2 = \{w \in \{0,1\}^* : |w| \leq 3\}$, all binary strings of length at most 3.
 
 **Regular languages** (decidable by finite automata):
 
@@ -80,9 +80,9 @@ complexity class.
 
 **Context-free but not regular:**
 
-- $L_6 = \{a^n b^n : n \geq 0\}$ — matching counts of two symbols.
-- $L_7 = \{w w^R : w \in \{0,1\}^*\}$ — even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$ — equal numbers of `a`S and `b`S.
+- $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
+- $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
 
 **Decidable but not context-free:**
 
@@ -91,12 +91,12 @@ complexity class.
 
 **Undecidable (Turing-recognisable):**
 
-- $A_{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ accepts}  w\}}$ — the acceptance problem.
+- $A_{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ accepts}  w\}}$, the acceptance problem.
 - $\mathrm{HALT_}{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ halts} on  w\}}$.
 
 **Not even Turing-recognisable:**
 
-- $\overline{A_{\mathrm{TM}}}$ — the complement of the acceptance problem.
+- $\overline{A_{\mathrm{TM}}}$, the complement of the acceptance problem.
 
 This hierarchy illustrates the central theme of the course: as we move to more expressive language
 Classes, the corresponding machines become more powerful, but certain properties (decidability,
@@ -127,7 +127,7 @@ Turing-recognisable languages is a countable subset of the uncountable set of al
 
 **Cantor's diagonalisation.** The classic proof of Theorem 1.1 uses diagonalisation: assume the Set
 of all languages is countable, list them as $L_1, L_2, L_3, \ldots$ And construct a language $D$ that
-differs from each $L_i$ on the $i$-th string. Then $D$ is not in the list — contradiction. This
+differs from each $L_i$ on the $i$-th string. Then $D$ is not in the list, contradiction. This
 technique reappears in the proof of undecidability of $A_{\mathrm{TM}}$ (Section 5.2).
 
 ## 2. Regular Languages
@@ -442,7 +442,7 @@ _Proof._ Assume $L$ is regular with pumping length $p$. Since regular languages 
 Complement, $\overline{L} = \{0^n 1^m : n = m\} \cup \{w : w \notin 0^* 1^*\}$ would also be
 regular. Then $\overline{L} \cap 0^* 1^* = \{0^n 1^n : n \geq 0\}$ would be regular (since $0^* 1^*$
 is regular And regular languages are closed under intersection). But $\{0^n 1^n : n \geq 0\}$ is not
-regular — Contradiction. $\blacksquare$
+regular, Contradiction. $\blacksquare$
 
 <details>
 <summary>Worked Example: Proving $\{w : n_0(w) = n_1(w)\}$ is not regular</summary>
@@ -703,14 +703,14 @@ Middle is reached, then pop and compare with the remaining input.
 **Transitions:**
 
 - Push phase ($q_0$):
-- $(q_0, 0, \varepsilon) \to (q_0, 0)$ — push `0`.
-- $(q_0, 1, \varepsilon) \to (q_0, 1)$ — push `1`.
-- $(q_0, \varepsilon, \varepsilon) \to (q_1, \varepsilon)$ — guess the midpoint.
+- $(q_0, 0, \varepsilon) \to (q_0, 0)$, push `0`.
+- $(q_0, 1, \varepsilon) \to (q_0, 1)$, push `1`.
+- $(q_0, \varepsilon, \varepsilon) \to (q_1, \varepsilon)$, guess the midpoint.
 
 - Pop phase ($q_1$):
-- $(q_1, 0, 0) \to (q_1, \varepsilon)$ — match `0`.
-- $(q_1, 1, 1) \to (q_1, \varepsilon)$ — match `1`.
-- $(q_1, \varepsilon, \varepsilon) \to (q_2, \varepsilon)$ — accept if stack empty and input
+- $(q_1, 0, 0) \to (q_1, \varepsilon)$, match `0`.
+- $(q_1, 1, 1) \to (q_1, \varepsilon)$, match `1`.
+- $(q_1, \varepsilon, \varepsilon) \to (q_2, \varepsilon)$, accept if stack empty and input
   consumed.
 
 **Accept:** $\{q_2\}$.
@@ -848,7 +848,7 @@ String: $w = ba$.
 
 - $T[1,2]$: split at $k = 1$. Check all pairs $(X \in T[1,1], Y \in T[2,2])$:
 - $X = B, Y = A$: $S \to BA$? No. $B \to BA$? No. $A \to BA$? No. $C \to BA$? No.
-- $X = B, Y = C$: $S \to BC$? Yes — add $S$.
+- $X = B, Y = C$: $S \to BC$? Yes, add $S$.
 - $X = B, Y = A$: already checked. So $T[1,2] = \{S\}$.
 
 Since $S \in T[1,2]$The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
@@ -1070,11 +1070,11 @@ $\blacksquare$
 
 **Additional decidable problems:**
 
-- $A_{\mathrm{REX} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}$ — convert $R$
+- $A_{\mathrm{REX} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}$, convert $R$
   to a DFA, then decide $A_{\mathrm{DFA}$.
-- $E_{\mathrm{CFG} = \{\langle G \rangle : L(G) = \emptyset\}$ — test all derivations up to length
+- $E_{\mathrm{CFG} = \{\langle G \rangle : L(G) = \emptyset\}$, test all derivations up to length
   $2^{|V|}$.
-- $\mathrm{INF_{\mathrm{CFL} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}$ — check if any
+- $\mathrm{INF_{\mathrm{CFL} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}$, check if any
   variable has a self-embedding derivation.
 
 ### 5.2 The Halting Problem
@@ -1152,7 +1152,7 @@ $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
 Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
-decidable — contradiction. $\blacksquare$
+decidable, contradiction. $\blacksquare$
 
 </details>
 
@@ -1168,7 +1168,7 @@ Then $L(M) = \emptyset$ iff $L(M_1) = L(M_2)$.
 
 Therefore $\langle M \rangle \in E_{\mathrm{TM}$ iff
 $\langle M_1, M_2 \rangle \in \mathrm{EQ_{\mathrm{TM}$. If $\mathrm{EQ_{\mathrm{TM}$ were decidable,
-$E_{\mathrm{TM}$ would be decidable — contradiction. $\blacksquare$
+$E_{\mathrm{TM}$ would be decidable, contradiction. $\blacksquare$
 
 </details>
 
@@ -1206,8 +1206,8 @@ The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
 
 **Example.** $\alpha = (a, ab, bba)$, $\beta = (ba, aa, bb)$. The sequence $(2, 1, 1, 3)$ gives
-$ab \cdot a \cdot a \cdot bba = abaabba$ and $aa \cdot ba \cdot ba \cdot bb = aabababb$ — not equal.
-The sequence $(1, 3, 1)$ gives $a \cdot bba \cdot a = abbaa$ and $ba \cdot bb \cdot ba = babba$ —
+$ab \cdot a \cdot a \cdot bba = abaabba$ and $aa \cdot ba \cdot ba \cdot bb = aabababb$, not equal.
+The sequence $(1, 3, 1)$ gives $a \cdot bba \cdot a = abbaa$ and $ba \cdot bb \cdot ba = babba$,
 not equal. This instance may or may not have a solution; determining this is undecidable .
 
 <details>
@@ -1227,7 +1227,7 @@ Try $(3, 2, 1, 3, 2, 1)$:
 - Top: $aab \cdot ba \cdot b \cdot aab \cdot ba \cdot b = aabbaabaabb$
 - Bottom: $ba \cdot aa \cdot bb \cdot ba \cdot aa \cdot bb = baabbbbaabb$
 
-Not equal. Finding solutions to PCP instances can be very difficult — there is no general algorithm.
+Not equal. Finding solutions to PCP instances can be very difficult, there is no general algorithm.
 
 </details>
 
@@ -1239,7 +1239,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable — contradiction. $\blacksquare$
+Be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -1257,7 +1257,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques — proof methods that do not carry over in the presence of oracles.
+Non-relativising techniques, proof methods that do not carry over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
 
@@ -1555,8 +1555,8 @@ Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))$ is the nondeterministic analo
 
 **Key classes:**
 
-- $\mathrm{L = \mathrm{SPACE(\log n)$ — logarithmic space.
-- $\mathrm{NL = \mathrm{NSPACE(\log n)$ — nondeterministic logarithmic space.
+- $\mathrm{L = \mathrm{SPACE(\log n)$, logarithmic space.
+- $\mathrm{NL = \mathrm{NSPACE(\log n)$, nondeterministic logarithmic space.
 - $\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$.
 
 **Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)$ For
@@ -1841,10 +1841,10 @@ $\mathrm{coNP} \subseteq \mathrm{NP}$.
 **Problem 19.** (a) Let $w = 0^p 1^p \# 0^p 1^p \in L$. Since $|xy| \leq p$, $y$ is in the first
 $0^p$ block. Pumping down gives $0^{p-k}1^p\#0^p1^p \notin L$. (b)
 $S \to 0S0 \mid 1S1 \mid S\#S \mid \varepsilon$ (generate matched pairs on both sides of $\#$). (c)
-Yes — a TM can check the $\#$ symbol and verify both halves are reverses of each other.
+Yes, a TM can check the $\#$ symbol and verify both halves are reverses of each other.
 
 **Problem 20.** (a) Decidable but not CFL (pumping lemma for CFLs). (b) NP-complete (Hamiltonian
-cycle is NP-complete). (c) NP-complete (vertex cover is NP-complete). (d) Decidable (in fact, in P —
+cycle is NP-complete). (c) NP-complete (vertex cover is NP-complete). (d) Decidable (in fact, in P,
 simulate for 100 steps). (e) PSPACE-complete (TQBF is PSPACE-complete).
 
 ## Common Pitfalls
@@ -1919,7 +1919,7 @@ flowchart TD
   like $\{a^n b^n : n \geq 0\}$.
 - Context-free grammars: pushdown automata add a stack; CFLs are closed under union but not
   intersection or complement.
-- Turing machines: model general computation; Church-Turing thesis — any "effectively computable"
+- Turing machines: model general computation; Church-Turing thesis, any "effectively computable"
   function is TM-computable.
 - Complexity: P (polynomial time), NP (polynomial verification), NP-complete (hardest in NP); P vs
   NP remains open.
@@ -1931,7 +1931,7 @@ flowchart TD
 | Discrete Mathematics               | WyattsNotes | [View](discrete-mathematics)                      |
 | Algorithms and Data Structures     | WyattsNotes | [View](algorithms-and-data-structures)            |
 | Advanced Algorithms                | WyattsNotes | [View](2-algorithms-and-data-structures/9_algorithms-advanced)                       |
-| Theory of Computation — MIT 18.404 | MIT         | [View](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) |
+| Theory of Computation, MIT 18.404 | MIT         | [View](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

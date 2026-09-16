@@ -27,7 +27,7 @@ relation to energy, entropy, and the physical properties of matter. It provides 
 description of systems without requiring detailed knowledge of microscopic constituents.
 
 Unlike classical mechanics, which describes individual particle trajectories, thermodynamics
-operates on aggregate quantities — pressure, volume, temperature, and internal energy — that
+operates on aggregate quantities, pressure, volume, temperature, and internal energy, that
 characterise bulk matter.
 
 ### 1.2 Macroscopic vs Microscopic Perspectives
@@ -152,7 +152,7 @@ the gas).
 **Kelvin–Planck statement.** No process is possible whose sole result is the complete conversion of
 heat into work.
 
-Both statements are equivalent — a violation of one implies a violation of the other.
+Both statements are equivalent, a violation of one implies a violation of the other.
 
 ### 3.2 The Carnot Cycle
 
@@ -249,7 +249,7 @@ At equilibrium, the relevant thermodynamic potential is minimised:
 - **Constant $S, V$:** minimise $U$ (isolated system).
 - **Constant $S, p$:** minimise $H$ (isobaric, adiabatic system).
 - **Constant $T, V$:** minimise $F$ (isothermal, closed rigid system).
-- **Constant $T, p$:** minimise $G$ (isothermal, isobaric system — most common).
+- **Constant $T, p$:** minimise $G$ (isothermal, isobaric system, most common).
 
 <details>
 <summary>Worked Example 4.1: Gibbs Free Energy of a Phase Transition</summary>
@@ -521,7 +521,7 @@ friction, heat losses, incomplete combustion, and finite combustion speed.
 1. **"Heat and internal energy are the same thing."** Heat $Q$ is energy in transit due to a
    temperature difference; it is a path-dependent process quantity. Internal energy $U$ is a state
    function depending only on the current state. Adding heat does not "increase the heat" in a body
-   — it increases the internal energy.
+it increases the internal energy.
 
 2. **"$\Delta S = 0$ only for reversible processes."** False. Entropy is a state function, so
    $\Delta S$ between two equilibrium states is the same regardless of path (reversible or

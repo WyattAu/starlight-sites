@@ -58,7 +58,7 @@ SAT mathematics study notes - Algebra
 **Solution:**
 Step 1: Solve for x: 3x = 15, so x = 5
 Step 2: Notice that 6x + 14 = 2(3x + 7) = 2(22) = 44
-Step 3: The answer is 44 — recognising the relationship avoids recalculating from scratch.
+Step 3: The answer is 44, recognising the relationship avoids recalculating from scratch.
 
 **Key insight:** The SAT often tests whether you can see structure rather than just compute. Recognising that $6x + 14 = 2(3x + 7)$ saves time.
 
@@ -82,7 +82,7 @@ Step 1: Identify $a = 2$, $b = -3$, $c = 5$
 Step 2: Compute discriminant: $\Delta = (-3)^2 - 4(2)(5) = 9 - 40 = -31$
 Step 3: Since $\Delta < 0$, there are no real solutions.
 
-**Key insight:** You don't need to find the solutions — just the discriminant tells you the count.
+**Key insight:** You don't need to find the solutions, just the discriminant tells you the count.
 
 ---
 
@@ -105,7 +105,7 @@ Step 2: Simplify: $4x = 16$, so $x = 4$
 Step 3: Substitute: $4 - 2y = 4$, so $y = 0$
 Step 4: Check: $3(4) + 2(0) = 12$ ✓ and $4 - 2(0) = 4$ ✓
 
-**Key insight:** Elimination works best when one variable has opposite coefficients — add the equations to cancel it.
+**Key insight:** Elimination works best when one variable has opposite coefficients, add the equations to cancel it.
 
 ---
 
@@ -136,7 +136,7 @@ Step 4: Check: $3(4) + 2(0) = 12$ ✓ and $4 - 2(0) = 4$ ✓
 
 ## Intuition
 
-Algebra is the art of solving mysteries by letting unknowns represent clues. When you write "x + 3 = 7", you are setting up a puzzle where x is the detective's suspect — and algebraic manipulation is the interrogation that reveals their identity. Linear equations are straight-line relationships — like earning the same hourly wage, where every hour adds the same amount. Quadratic equations describe things that curve — the path of a thrown ball, the shape of a bridge arch. Systems of equations are multiple witnesses describing the same crime from different angles — when you combine their accounts, the truth emerges.
+Algebra is the art of solving mysteries by letting unknowns represent clues. When you write "x + 3 = 7", you are setting up a puzzle where x is the detective's suspect, and algebraic manipulation is the interrogation that reveals their identity. Linear equations are straight-line relationships, like earning the same hourly wage, where every hour adds the same amount. Quadratic equations describe things that curve, the path of a thrown ball, the shape of a bridge arch. Systems of equations are multiple witnesses describing the same crime from different angles, when you combine their accounts, the truth emerges.
 
 ## Common Mistakes
 

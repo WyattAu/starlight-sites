@@ -281,7 +281,7 @@ $$a^2 + b^2 = c^2$$
 
 where $c$ is the hypotenuse.
 
-### 3.4 Trigonometry — SOH CAH TOA
+### 3.4 Trigonometry, SOH CAH TOA
 
 $$\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan \theta = \frac{\text{opposite}}{\text{adjacent}}$$
 

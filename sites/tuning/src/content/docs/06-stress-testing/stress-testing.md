@@ -657,7 +657,7 @@ System is warm from extended use). Always run the recommended number of passes.
 ### Confusing Thermal Throttling with Instability
 
 Thermal throttling is a normal protective mechanism, not instability. If your CPU thermal throttles
-During Prime95 Small FFTs but does not crash or produce errors, your system is stable — just
+During Prime95 Small FFTs but does not crash or produce errors, your system is stable, just
 Thermally limited. Thermal throttling means you need better cooling, not different voltage or
 Frequency settings.
 

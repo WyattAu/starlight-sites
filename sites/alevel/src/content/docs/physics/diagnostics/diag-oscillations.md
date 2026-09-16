@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Oscillations — Diagnostic Tests
+## Oscillations, Diagnostic Tests
 
 ## Unit Tests
 
@@ -94,7 +94,7 @@ The first time is $t = 0.104\,\text{s}$ (when $x = -A/\sqrt{2}$).
 }
 </script>
 
-### UT-2: Damped Oscillations — Logarithmic Decrement
+### UT-2: Damped Oscillations, Logarithmic Decrement
 
 **Question:**
 
@@ -390,7 +390,7 @@ flowchart TD
 
 **Why it matters:** Oscillation concepts underpin telecommunications (radio waves), medical imaging (MRI), and timekeeping (clocks).
 
-**The key insight:** Simple harmonic motion is the "universal" oscillation — any system near a stable equilibrium oscillates approximately sinusoidally, regardless of the specific forces involved.
+**The key insight:** Simple harmonic motion is the "universal" oscillation, any system near a stable equilibrium oscillates approximately sinusoidally, regardless of the specific forces involved.
 
 ## Common Mistakes
 

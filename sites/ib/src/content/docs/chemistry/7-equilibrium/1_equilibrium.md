@@ -18,11 +18,11 @@ tags:
 
 ## Intuition
 
-**Chemical equilibrium is like a tug-of-war that never ends — forward and reverse reactions proceed at equal rates:** Le Chatelier's principle predicts how systems respond to stress — they shift to relieve the applied change
+**Chemical equilibrium is like a tug-of-war that never ends, forward and reverse reactions proceed at equal rates:** Le Chatelier's principle predicts how systems respond to stress, they shift to relieve the applied change
 
 **Why it matters:** Equilibrium principles guide industrial processes, drug design, and understanding natural systems
 
-**The key insight:** Le Chatelier's principle predicts how systems respond to stress — they shift to relieve the applied change
+**The key insight:** Le Chatelier's principle predicts how systems respond to stress, they shift to relieve the applied change
 
 ## Dynamic Equilibrium
 
@@ -37,7 +37,7 @@ $$
 
 ### Closed Systems
 
-Equilibrium can only be established in a **closed system** — one where no matter can enter or leave.
+Equilibrium can only be established in a **closed system**, one where no matter can enter or leave.
 
 ### Dynamic Nature
 
@@ -71,7 +71,7 @@ At equilibrium:
 
 ## The Equilibrium Constant
 
-### $K_c$ — Concentration Equilibrium Constant
+### $K_c$, Concentration Equilibrium Constant
 
 For the reaction $a\mathrm{A} + b\mathrm{B} \rightleftharpoons c\mathrm{C} + d\mathrm{D}$:
 
@@ -84,7 +84,7 @@ $$
 - Square brackets denote equilibrium concentrations in mol/L.
 - $K_c$ is dimensionless (but concentrations are still used in the calculation).
 
-### $K_p$ — Pressure Equilibrium Constant
+### $K_p$, Pressure Equilibrium Constant
 
 For gaseous reactions:
 
@@ -629,7 +629,7 @@ Which salt is most soluble?
 A. AgCl ($K_{sp} = 1.8 \times 10^{-10}$) B. AgBr ($K_{sp} = 5.0 \times 10^{-13}$) C. AgI
 ($K_{sp} = 8.3 \times 10^{-17}$) D. BaSO$_4$ ($K_{sp} = 1.1 \times 10^{-10}$)
 
-**Answer: D** — BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
+**Answer: D**, BaSO$_4$ has the highest $K_{sp}$ But this comparison is only valid for salts with
 The same stoichiometry (1:1). For a fair comparison of solubility, convert to molar solubility. All
 Four are 1:1 salts, so the highest $K_{sp}$ gives the highest solubility: BaSO$_4$.
 
@@ -1084,7 +1084,7 @@ $$\mathrm{pH} = -\log(5.83 \times 10^{-3}) = 2.23$$
 
 1. Misapplying Le Chatelier's principle. It predicts the direction of change, not the extent.
 
-2. Confusing $K_c$ and $K_p$ — $K_c$ uses concentrations; $K_p$ uses partial pressures, and they
+2. Confusing $K_c$ and $K_p$, $K_c$ uses concentrations; $K_p$ uses partial pressures, and they
    only apply to their respective phases.
 
 3. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while

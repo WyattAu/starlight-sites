@@ -1,5 +1,5 @@
 /**
- * reader.js — Persistent reading controls for Wyatt's Notes.
+ * reader.js, Persistent reading controls for Wyatt's Notes.
  *
  * Provides a floating settings button, reader settings panel, focus mode,
  * reading position memory, and reading progress indicator.
@@ -347,7 +347,7 @@
     /* Reading progress */
     '#wn-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--sl-color-accent, #ff6b35), var(--sl-color-accent-high, #ff8c4a)); z-index: 99995; width: 0; transition: width 0.3s linear; pointer-events: none; }',
 
-    /* Panel — ensure it captures scroll events */
+    /* Panel, ensure it captures scroll events */
     '#wn-panel, #wn-panel-body { pointer-events: auto; }',
     '[data-reduce-motion="true"] #wn-progress { transition: none; }',
 
@@ -402,7 +402,7 @@
   // Body
   var body = el('div', { id: 'wn-panel-body' })
 
-  // Progress (due cards, streak, topics practised) — hidden until data exists
+  // Progress (due cards, streak, topics practised), hidden until data exists
   var progressGroup = el('div', { class: 'wn-setting', id: 'wn-progress-group' })
   progressGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Progress')))
   var progressRow = el('div', { id: 'wn-progress-stats' })
@@ -445,7 +445,7 @@
     btn.appendChild(text(t.label))
     themeRow.appendChild(btn)
   })
-  // Custom theme chip — opens the ThemeCreator island in the header.
+  // Custom theme chip, opens the ThemeCreator island in the header.
   var customChip = el('button', {
     class: 'wn-chip',
     dataset: { value: 'custom' },

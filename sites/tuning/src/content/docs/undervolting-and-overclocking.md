@@ -112,7 +112,7 @@ Load. LLC is configured on a scale (e.g., Level 1–7, or Auto/Medium/High/Extre
 | Low (1–2)       | Heavy Vdroop, large delta between idle and load voltage | Stock operation, maximum safety         |
 | Medium (3–5)    | Moderate Vdroop, reasonable compensation                | Moderate overclocking, daily use        |
 | High (6–7)      | Minimal Vdroop, voltage nearly flat across loads        | Aggressive overclocking                 |
-| Extreme / Ultra | Negative Vdroop (voltage increases under load)          | **Not recommended** — risk of overshoot |
+| Extreme / Ultra | Negative Vdroop (voltage increases under load)          | **Not recommended**, risk of overshoot |
 
 **Warning:** Setting LLC too high eliminates the safety margin that Vdroop provides. On load
 Transitions (load → idle), the voltage can overshoot the VID by a significant margin. This is
@@ -223,7 +223,7 @@ CPU's boost algorithm at each frequency point. A negative offset means the CPU t
 Frequencies at lower voltage.
 
 - **Negative values** (e.g., -20) = undervolting (lower voltage, same frequency)
-- **Positive values** (e.g., +20) = overvolting (higher voltage, same frequency) — used to support
+- **Positive values** (e.g., +20) = overvolting (higher voltage, same frequency), used to support
   higher overclocks
 - **Units:** The Curve Optimizer is measured in steps, where each step is approximately 5 mV. A
   value of -20 corresponds to roughly -100 mV.
@@ -480,7 +480,7 @@ After any memory frequency or timing change, run these tests:
 
 ## Stress Testing Methodology
 
-Stress testing is not optional — it is the only way to verify that your tuning changes are stable. A
+Stress testing is not optional, it is the only way to verify that your tuning changes are stable. A
 System that "feels fine" during normal use can still be producing WHEA errors that indicate silent
 Data corruption.
 
@@ -722,7 +722,7 @@ System when:
 - The performance gains from further tuning are marginal (&lt; 2%)
 - You have reached a point where each additional step requires disproportionately more voltage or
   cooling
-- You are no longer enjoying the process — tuning should be fun, not frustrating
+- You are no longer enjoying the process, tuning should be fun, not frustrating
 
 The best tune is the one that gives you the performance you need with comfortable temperatures, low
 Noise, and rock-solid stability. Everything beyond that is diminishing returns.

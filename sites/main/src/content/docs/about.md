@@ -1,13 +1,13 @@
 ---
 title: "About Wyatt Au"
-description: "About Wyatt Au — educator, content developer, and creator of Wyatt's Notes. Learn about the expertise behind 45+ study sites covering IB, A-Level, GCSE, AP, DSE, and university STEM."
+description: "About Wyatt Au, educator, content developer, and creator of Wyatt's Notes. Learn about the expertise behind 45+ study sites covering IB, A-Level, GCSE, AP, DSE, and university STEM."
 ---
 
 # About Wyatt Au
 
 ## Who I Am
 
-I'm **Wyatt Au**, an educator and content developer passionate about making rigorous education accessible to everyone. I created Wyatt's Notes — a network of 45+ study sites covering everything from IB and A-Level to university physics and programming.
+I'm **Wyatt Au**, an educator and content developer passionate about making rigorous education accessible to everyone. I created Wyatt's Notes, a network of 45+ study sites covering everything from IB and A-Level to university physics and programming.
 
 ## My Mission
 
@@ -51,11 +51,11 @@ Education should be free, rigorous, and accessible. Wyatt's Notes exists because
 
 ## Why Trust These Resources
 
-1. **Rigorous content** — Every topic includes derivations, worked examples, and practice problems
-2. **Exam-aligned** — Content follows official curricula and mark schemes
-3. **Interactive learning** — Flashcards with SM-2 algorithm, diagnostic tests, practice problems
-4. **Cross-referenced** — Related topics linked across 45+ sites
-5. **Open source** — All code and content available on GitHub
+1. **Rigorous content**, Every topic includes derivations, worked examples, and practice problems
+2. **Exam-aligned**, Content follows official curricula and mark schemes
+3. **Interactive learning**, Flashcards with SM-2 algorithm, diagnostic tests, practice problems
+4. **Cross-referenced**, Related topics linked across 45+ sites
+5. **Open source**, All code and content available on GitHub
 
 ## Connect
 
@@ -75,11 +75,11 @@ See [CONTRIBUTING.md](https://github.com/WyattAu/starlight-sites/blob/main/CONTR
 
 ## Approach
 
-Wyatt's Notes treats explanation as the product: every topic page leads with the idea, then the formal statement, then worked examples that show each step of reasoning — including the dead ends students usually hit. Mistakes are treated as data: common errors are called out explicitly with the reasoning error that produces them.
+Wyatt's Notes treats explanation as the product: every topic page leads with the idea, then the formal statement, then worked examples that show each step of reasoning, including the dead ends students usually hit. Mistakes are treated as data: common errors are called out explicitly with the reasoning error that produces them.
 
 ## Principles
 
-- **Primary sources first.** Theory pages cite the textbooks and papers the material derives from — Aluffi for algebra, Griffiths for quantum mechanics, CLRS for algorithms — so readers can trace every claim.
+- **Primary sources first.** Theory pages cite the textbooks and papers the material derives from, Aluffi for algebra, Griffiths for quantum mechanics, CLRS for algorithms, so readers can trace every claim.
 - **Practice mirrors assessment.** Problem sets are written to the style of the actual examinations students face, with difficulty ratings and full solutions.
 - **Localisation is real.** UK exam boards (AQA, Edexcel, OCR), DSE (Hong Kong), HSC (NSW), CBSE (India), and Gaokao (China) each get native coverage rather than relabelled generic content.
 - **Accessibility is baseline.** The site ships font-size controls, contrast modes, reduced-motion support, and full keyboard navigation across every property.
@@ -90,16 +90,16 @@ The full property list spans **academic curriculum** (alevel.wyattau.com, gcse.w
 
 ## Contact and Corrections
 
-Every content page carries a date and its sources. Corrections and suggestions are welcome — accuracy outranks completeness, and fixes ship quickly.
+Every content page carries a date and its sources. Corrections and suggestions are welcome, accuracy outranks completeness, and fixes ship quickly.
 
 
 ## Why Subdomains
 
-Each discipline lives on its own subdomain so that navigation, tone, and depth can match its audience — a Hong Kong DSE candidate and a sysadmin tuning ZFS want different things from a study site. Shared infrastructure (search, design system, components) keeps the network consistent; per-site ownership keeps the content honest. Cross-links connect disciplines where the ideas genuinely meet, so following a concept never dead-ends at a site boundary.
+Each discipline lives on its own subdomain so that navigation, tone, and depth can match its audience, a Hong Kong DSE candidate and a sysadmin tuning ZFS want different things from a study site. Shared infrastructure (search, design system, components) keeps the network consistent; per-site ownership keeps the content honest. Cross-links connect disciplines where the ideas genuinely meet, so following a concept never dead-ends at a site boundary.
 
 ## Content Standards
 
-Pages are tiered: index pages orient and link, standard pages teach a topic in full, and depth pages treat hard subtopics with proofs and multiple worked examples. Depth lints run in CI on every commit — pages below their tier's minimum line count fail the build, so thin content cannot silently ship. Practice problems carry difficulty ratings and worked solutions; flashcards pair question sides with spaced-repetition-friendly phrasing.
+Pages are tiered: index pages orient and link, standard pages teach a topic in full, and depth pages treat hard subtopics with proofs and multiple worked examples. Depth lints run in CI on every commit, pages below their tier's minimum line count fail the build, so thin content cannot silently ship. Practice problems carry difficulty ratings and worked solutions; flashcards pair question sides with spaced-repetition-friendly phrasing.
 
 ## Technology
 

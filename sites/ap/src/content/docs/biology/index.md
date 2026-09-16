@@ -45,15 +45,15 @@ topics.
 
 ## Topics Covered
 
-- **Chemistry of Life** — water properties, macromolecules (carbohydrates, lipids, proteins, nucleic
+- **Chemistry of Life**, water properties, macromolecules (carbohydrates, lipids, proteins, nucleic
   acids), enzyme structure and function
-- **Cell Structure and Function** — prokaryotic vs eukaryotic cells, organelles, cell membrane
+- **Cell Structure and Function**, prokaryotic vs eukaryotic cells, organelles, cell membrane
   transport, cell communication
-- **Cellular Energetics** — photosynthesis, cellular respiration, ATP, coupled reactions, energy
+- **Cellular Energetics**, photosynthesis, cellular respiration, ATP, coupled reactions, energy
   flow
-- **Heredity** — meiosis, Mendelian genetics, non-Mendelian inheritance, chromosomal inheritance,
+- **Heredity**, meiosis, Mendelian genetics, non-Mendelian inheritance, chromosomal inheritance,
   genetic engineering
-- **Natural Selection** — evidence for evolution, Hardy-Weinberg equilibrium, phylogeny, speciation,
+- **Natural Selection**, evidence for evolution, Hardy-Weinberg equilibrium, phylogeny, speciation,
   adaptive radiation
 
 ## How to Use These Notes
@@ -65,7 +65,7 @@ topics.
 
 ## Study Tips
 
-- Focus on the four Big Ideas (evolution, energetics, information transfer, systems interactions) —
+- Focus on the four Big Ideas (evolution, energetics, information transfer, systems interactions),
   free-response questions are organised around them
 - Practise explaining biological mechanisms in writing; the AP exam rewards clear, sequential
   descriptions of processes
@@ -77,12 +77,12 @@ topics.
   data analysis techniques
 - Build a personal glossary of key terms with precise definitions; many multiple-choice questions
   test subtle distinctions between related concepts
-- Form study groups to discuss and teach concepts — teaching others is one of the most effective
+- Form study groups to discuss and teach concepts, teaching others is one of the most effective
   ways to solidify understanding
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
 - Review the AP Biology science practices (modelling, data analysis, argumentation) alongside
-  content — they are assessed throughout the exam
+  content, they are assessed throughout the exam
 
 ## Summary
 

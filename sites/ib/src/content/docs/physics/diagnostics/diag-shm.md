@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Simple Harmonic Motion — Diagnostic Tests
+## Simple Harmonic Motion, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Simple harmonic motion is like a pendulum's heartbeat — a restoring force always pulls the system back toward equilibrium, creating rhythmic oscillation:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves
+**Simple harmonic motion is like a pendulum's heartbeat, a restoring force always pulls the system back toward equilibrium, creating rhythmic oscillation:** Any system with a linear restoring force will oscillate sinusoidally, making SHM the universal language of vibrations and waves
 
 **Why it matters:** From musical instruments to earthquake-resistant buildings, SHM principles help us understand and control oscillatory systems
 
@@ -406,9 +406,9 @@ This confirms: $x_{\max} = 2x_0 = x_0 + A = 0.1962 + 0.1962 = 0.3924\,\text{m}$.
 
 **Confusing amplitude with maximum displacement from equilibrium:** Amplitude is the maximum displacement from equilibrium, not the total distance travelled. In SHM, total distance in one cycle is 4× amplitude.
 
-**Assuming SHM always means a pendulum:** Any system with a linear restoring force exhibits SHM — springs, floating objects, and even molecules vibrating. Don't limit your thinking to pendulums.
+**Assuming SHM always means a pendulum:** Any system with a linear restoring force exhibits SHM, springs, floating objects, and even molecules vibrating. Don't limit your thinking to pendulums.
 
-**Forgetting that velocity is maximum at equilibrium:** In SHM, velocity is greatest at the equilibrium position and zero at maximum displacement. Acceleration is the opposite — maximum at displacement, zero at equilibrium.
+**Forgetting that velocity is maximum at equilibrium:** In SHM, velocity is greatest at the equilibrium position and zero at maximum displacement. Acceleration is the opposite, maximum at displacement, zero at equilibrium.
 
 ## Cross-References
 

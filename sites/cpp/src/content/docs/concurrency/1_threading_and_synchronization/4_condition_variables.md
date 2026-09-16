@@ -80,7 +80,7 @@ while (!pred()) {
 
 ### Why Spurious Wakeups Exist
 
-Spurious wakeups are not a bug — they are a deliberate design choice mandated by hardware and OS
+Spurious wakeups are not a bug, they are a deliberate design choice mandated by hardware and OS
 Constraints:
 
 1. **POSIX allows them**: The POSIX specification for `pthread_cond_wait` explicitly permits
@@ -225,7 +225,7 @@ int main() {
 The predicate version of `wait_for` returns `true` if the predicate became `true` before the
 Timeout, and `false` if the timeout expired (regardless of whether the predicate is true at that
 Point). Without the predicate, `wait_for` returns `cv_status::no_timeout` if notified or
-`cv_status::timeout` if the timeout expired — spurious wakeups return `no_timeout`Which is another
+`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`Which is another
 Reason to always use the predicate version.
 
 ## Producer-Consumer with Condition Variable
@@ -676,17 +676,17 @@ Condition variables solve a fundamental problem: how do you wait for something t
 wasting CPU cycles? Imagine a factory worker who needs a part from a supplier. Instead of standing
 at the door endlessly asking "is it here yet?" (busy-waiting), the worker puts their name on a
 waiting list and goes to sleep. When the part arrives, the supplier calls the worker's phone to
-wake them up. That's essentially what a condition variable does — threads register their interest
+wake them up. That's essentially what a condition variable does, threads register their interest
 in a condition and then sleep until another thread signals that the condition is met.
 
 The latch and barrier are simpler cousins of the condition variable. A latch is like a countdown
-timer — you can set it for N events, and every thread that arrives decrements it. When it hits
-zero, all waiting threads are released at once. A barrier is like a checkpoint in a race — every
+timer, you can set it for N events, and every thread that arrives decrements it. When it hits
+zero, all waiting threads are released at once. A barrier is like a checkpoint in a race, every
 runner must check in before anyone is allowed to continue. These primitives are useful when you
 need threads to synchronize at a specific point rather than reacting to changing state.
 
 The key insight is that condition variables are state-aware (you check a condition, not just an
 event), while latches and barriers are stateless counters. Use condition variables when the
 decision to proceed depends on shared data that can change in complex ways. Use latches and
-barriers when you directly need to coordinate timing — everyone waits until N threads have arrived,
+barriers when you directly need to coordinate timing, everyone waits until N threads have arrived,
 then they all proceed together.

@@ -51,48 +51,48 @@ for A-Level, with a focus on writing clear, correct, and maintainable code.
 
 ## Intuition
 
-**Programming is translating ideas into precise instructions:** Computers execute exactly what you tell them — nothing more, nothing less. Programming requires breaking vague human intentions into unambiguous steps that a machine can execute. The three fundamental constructs (sequence, selection, iteration) are sufficient to express any computable algorithm.
+**Programming is translating ideas into precise instructions:** Computers execute exactly what you tell them, nothing more, nothing less. Programming requires breaking vague human intentions into unambiguous steps that a machine can execute. The three fundamental constructs (sequence, selection, iteration) are sufficient to express any computable algorithm.
 
 **Why it matters:** Programming skills are increasingly essential across all careers, from scientific research to business analysis to creative industries.
 
-**The key insight:** Good code is written for humans first, computers second — readability and maintainability matter as much as correctness.
+**The key insight:** Good code is written for humans first, computers second, readability and maintainability matter as much as correctness.
 
 ## Topics Covered
 
 ### Programming Constructs
 
-- **Sequence, selection, iteration** — the three fundamental control structures
-- **Conditional statements** — `IF...THEN...ELSE`, `CASE`/`SWITCH`
-- **Loops** — `FOR` (count-controlled), `WHILE` (condition-controlled), `DO...UNTIL` (post-tested)
-- **Nested constructs** — combining selection and iteration for complex logic
+- **Sequence, selection, iteration**, the three fundamental control structures
+- **Conditional statements**, `IF...THEN...ELSE`, `CASE`/`SWITCH`
+- **Loops**, `FOR` (count-controlled), `WHILE` (condition-controlled), `DO...UNTIL` (post-tested)
+- **Nested constructs**, combining selection and iteration for complex logic
 
 ### Data Types and Variables
 
-- **Primitive types** — integer, real/float, Boolean, character, string
-- **Constants vs. variables** — when to use each
-- **Casting and type conversion** — explicit and implicit
-- **Scope and lifetime** — local vs. global variables, parameter passing
+- **Primitive types**, integer, real/float, Boolean, character, string
+- **Constants vs. variables**, when to use each
+- **Casting and type conversion**, explicit and implicit
+- **Scope and lifetime**, local vs. global variables, parameter passing
 
 ### Procedures and Functions
 
-- **Parameters** — value parameters (pass by value) vs. reference parameters (pass by reference)
-- **Return values** — functions vs. procedures
-- **Modularity** — decomposing programs into reusable subprograms
+- **Parameters**, value parameters (pass by value) vs. reference parameters (pass by reference)
+- **Return values**, functions vs. procedures
+- **Modularity**, decomposing programs into reusable subprograms
 
 ### Object-Oriented Programming
 
-- **Classes and objects** — blueprints and instances
-- **Encapsulation** — public and private members, getters and setters
-- **Inheritance** — parent and child classes, method overriding
-- **Polymorphism** — method overloading and dynamic dispatch
-- **Composition vs. inheritance** — choosing the right relationship
+- **Classes and objects**, blueprints and instances
+- **Encapsulation**, public and private members, getters and setters
+- **Inheritance**, parent and child classes, method overriding
+- **Polymorphism**, method overloading and dynamic dispatch
+- **Composition vs. inheritance**, choosing the right relationship
 
 ### Data Representation in Programming
 
-- **Arrays** — 1D and 2D; initialisation, traversal, searching
-- **Records/structs** — grouping related data
-- **File handling** — reading from and writing to text and CSV files
-- **Validation and verification** — range checks, type checks, presence checks, check digits
+- **Arrays**, 1D and 2D; initialisation, traversal, searching
+- **Records/structs**, grouping related data
+- **File handling**, reading from and writing to text and CSV files
+- **Validation and verification**, range checks, type checks, presence checks, check digits
 
 ## Study Tips
 

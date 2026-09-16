@@ -57,35 +57,35 @@ processes that ensure software meets its requirements reliably and maintainably.
 
 ### Software Development Lifecycle
 
-- **Waterfall model** — sequential phases: requirements $\rightarrow$ design $\rightarrow$
+- **Waterfall model**, sequential phases: requirements $\rightarrow$ design $\rightarrow$
   implementation $\rightarrow$ testing $\rightarrow$ deployment $\rightarrow$ maintenance
-- **Agile methodologies** — iterative development, sprints, stand-ups, user stories
-- **Spiral model** — risk-driven, iterative with prototyping
-- **Rapid Application Development (RAD)** — quick prototyping and iterative feedback
-- **Comparison of models** — when each is appropriate; trade-offs between rigour and flexibility
+- **Agile methodologies**, iterative development, sprints, stand-ups, user stories
+- **Spiral model**, risk-driven, iterative with prototyping
+- **Rapid Application Development (RAD)**, quick prototyping and iterative feedback
+- **Comparison of models**, when each is appropriate; trade-offs between rigour and flexibility
 
 ### Requirements and Design
 
-- **Functional and non-functional requirements** — what the system does vs. how well it does it
-- **User stories and use cases** — capturing requirements from the user"s perspective
-- **Structure charts** — top-down design, decomposition
-- **Data flow diagrams (DFDs)** — modelling how data moves through a system
+- **Functional and non-functional requirements**, what the system does vs. how well it does it
+- **User stories and use cases**, capturing requirements from the user"s perspective
+- **Structure charts**, top-down design, decomposition
+- **Data flow diagrams (DFDs)**, modelling how data moves through a system
 
 ### Testing
 
-- **Testing types** — unit, integration, system, acceptance
-- **Black-box testing** — testing from specifications; equivalence partitioning, boundary value
+- **Testing types**, unit, integration, system, acceptance
+- **Black-box testing**, testing from specifications; equivalence partitioning, boundary value
   analysis
-- **White-box testing** — testing from code; statement coverage, branch coverage
-- **Test data** — normal, boundary, erroneous, extreme data
-- **Traceability** — linking test cases back to requirements
+- **White-box testing**, testing from code; statement coverage, branch coverage
+- **Test data**, normal, boundary, erroneous, extreme data
+- **Traceability**, linking test cases back to requirements
 
 ### Development Practices
 
-- **Version control** — tracking changes, branching, merging
-- **Code review** — peer review for quality and knowledge sharing
-- **Documentation** — user guides, technical documentation, maintenance manuals
-- **Maintenance types** — corrective, adaptive, perfective
+- **Version control**, tracking changes, branching, merging
+- **Code review**, peer review for quality and knowledge sharing
+- **Documentation**, user guides, technical documentation, maintenance manuals
+- **Maintenance types**, corrective, adaptive, perfective
 
 ## Study Tips
 

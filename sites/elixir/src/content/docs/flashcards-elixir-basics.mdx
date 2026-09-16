@@ -21,15 +21,15 @@ import { flashcardData } from '@/data/flashcards/elixir/flashcards-elixir-basics
 
 ## Intuition
 
-Elixir is a functional language built on the Erlang VM (BEAM), designed for concurrency and fault tolerance. Pattern matching is its Swiss army knife — you destructure data and control flow in one expression. Think of processes as lightweight actors: millions can run concurrently, communicating via message passing. OTP provides battle-tested patterns like GenServer for building resilient applications that can recover from crashes automatically.
+Elixir is a functional language built on the Erlang VM (BEAM), designed for concurrency and fault tolerance. Pattern matching is its Swiss army knife, you destructure data and control flow in one expression. Think of processes as lightweight actors: millions can run concurrently, communicating via message passing. OTP provides battle-tested patterns like GenServer for building resilient applications that can recover from crashes automatically.
 
 ## Common Pitfalls
 
-- **Mutable thinking**: Trying to update a variable in place — Elixir variables are immutable bindings; use `=` pattern matching to bind new values, not reassign.
-- **Ignoring return values**: Elixir functions always return the last expression — forgetting this leads to unexpected return values when refactoring.
-- **String vs charlist confusion**: `"hello"` is a binary (UTF-8 encoded), while `'hello'` is a charlist (Erlang-compatible list of codepoints) — mixing them up causes unexpected behaviour with string functions.
-- **Blocking in process message loops**: Using `receive` without a timeout or catch-all clause can cause a process to hang indefinitely — always include a timeout or default handler in message loops.
-- **Supervision tree mistakes**: Placing a frequently crashing worker directly under the root supervisor instead of behind a `one_for_one` strategy — this can cascade failures to unrelated services.
+- **Mutable thinking**: Trying to update a variable in place, Elixir variables are immutable bindings; use `=` pattern matching to bind new values, not reassign.
+- **Ignoring return values**: Elixir functions always return the last expression, forgetting this leads to unexpected return values when refactoring.
+- **String vs charlist confusion**: `"hello"` is a binary (UTF-8 encoded), while `'hello'` is a charlist (Erlang-compatible list of codepoints), mixing them up causes unexpected behaviour with string functions.
+- **Blocking in process message loops**: Using `receive` without a timeout or catch-all clause can cause a process to hang indefinitely, always include a timeout or default handler in message loops.
+- **Supervision tree mistakes**: Placing a frequently crashing worker directly under the root supervisor instead of behind a `one_for_one` strategy, this can cascade failures to unrelated services.
 
 ## Study Tips
 

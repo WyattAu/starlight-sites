@@ -1,5 +1,5 @@
 /* ============================================================
-   BASE — reset, typography, prose, accessibility
+   BASE, reset, typography, prose, accessibility
    ============================================================ */
 
 /* Accessibility: font-size scale user override */
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   border: var(--ea-hairline);
 }
 
-/* Blockquotes — gold left border */
+/* Blockquotes, gold left border */
 .prose blockquote, .sl-markdown-content blockquote {
   border-left: 3px solid var(--ea-gold);
   padding-left: 1.25rem;

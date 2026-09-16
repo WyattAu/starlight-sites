@@ -178,7 +178,7 @@ end
 ```ruby
 # Splat operator * collects remaining positional arguments into an array
 def sum(*numbers)
-  numbers.reduce(0, :+)
+  numbers.reduce(0:+)
 end
 
 sum(1, 2, 3)          # => 6
@@ -222,7 +222,7 @@ end
 
 flexible(1, 2, 3, a: "x", b: "y")
 # Args: [1, 2, 3]
-# Kwargs: {:a=>"x", :b=>"y"}
+# Kwargs: {:a=>"x":b=>"y"}
 ```
 
 ### Method Aliasing and Overriding
@@ -602,7 +602,7 @@ bound2.call(5, 6)  # => 11
 add_method.name        # => :add
 add_method.owner       # => Calculator
 add_method.receiver    # => #<Calculator:...>
-add_method.parameters   # => [[:req, :a], [:req, :b]]
+add_method.parameters   # => [[:req:a], [:req:b]]
 add_method.source_location  # => ["/path/to/file.rb", 2]
 
 # Convert Method to Proc
@@ -625,7 +625,7 @@ add_proc = add_method.to_proc
 ```ruby
 class Person
   # Dynamic method definitions
-  [:name, :email, :phone].each do |field|
+  [:name:email:phone].each do |field|
     define_method(field) { instance_variable_get("@#{field}") }
     define_method("#{field}=") { |value| instance_variable_set("@#{field}", value) }
   end
@@ -675,7 +675,7 @@ class Model
 end
 
 class User < Model
-  attributes :name, :email, :age
+  attributes :name:email:age
 end
 
 u = User.new(name: "Alice", email: "a@b.com")
@@ -919,7 +919,7 @@ cache.fetch("expensive") { compute_expensive_result }  # returns cached value
 
 ## Common Mistakes
 
-- **Confusing Procs and Lambdas:** A `Proc` treats the entire method body as its block, so `return` exits the enclosing method. A lambda behaves like a method — `return` exits only the lambda. Use lambdas (`->`) when you need strict arity checking and proper return behaviour.
+- **Confusing Procs and Lambdas:** A `Proc` treats the entire method body as its block, so `return` exits the enclosing method. A lambda behaves like a method, `return` exits only the lambda. Use lambdas (`->`) when you need strict arity checking and proper return behaviour.
 - **Forgetting that blocks are not objects:** You cannot assign a block to a variable directly. Use `Proc.new` or `&block` in the method parameter to capture a block, then call it with `.call` or `.yield`.
 - **Using `yield` and `&block` together incorrectly:** If you declare `&block` in the method signature, Ruby converts the block to a Proc. Using `yield` after that raises an error. Use `block.call` instead when you have captured the block.
 - **Ignoring the last-evaluated expression rule:** Ruby methods implicitly return the value of the last expression. Accidentally including an extra statement can change the return value and introduce subtle bugs.

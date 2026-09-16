@@ -343,11 +343,11 @@ will eventually be slower regardless of constant factors.
 
 ## Intuition
 
-**Algorithms are step-by-step recipes for solving problems:** Just as a cooking recipe tells you the order and method for preparing a dish, an algorithm specifies exact steps to transform input into output. The choice of algorithm determines efficiency — the same problem can be solved in seconds or centuries depending on the approach.
+**Algorithms are step-by-step recipes for solving problems:** Just as a cooking recipe tells you the order and method for preparing a dish, an algorithm specifies exact steps to transform input into output. The choice of algorithm determines efficiency, the same problem can be solved in seconds or centuries depending on the approach.
 
 **Why it matters:** Algorithm design is the core of computer science. It determines how fast software runs, how much memory it uses, and whether a problem is practically solvable at all.
 
-**The key insight:** Big-O notation describes how an algorithm's time or space requirements grow with input size — understanding this lets you predict performance before writing any code.
+**The key insight:** Big-O notation describes how an algorithm's time or space requirements grow with input size, understanding this lets you predict performance before writing any code.
 
 
 ```mermaid

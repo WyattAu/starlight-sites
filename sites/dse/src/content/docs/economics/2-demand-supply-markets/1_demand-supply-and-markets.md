@@ -655,7 +655,7 @@ Will eventually decrease.
 
 | Units of Labour | Total Product | Marginal Product | Average Product |
 | --------------- | ------------- | ---------------- | --------------- |
-| 0               | 0             | —                | —               |
+| 0               | 0             |,                |,               |
 | 1               | 10            | 10               | 10.0            |
 | 2               | 25            | 15               | 12.5            |
 | 3               | 45            | 20               | 15.0            |
@@ -672,8 +672,8 @@ Marginal product starts to diminish after the 3rd worker. Negative marginal prod
 
 | Cost                        | Definition                                         | Formula                         |
 | --------------------------- | -------------------------------------------------- | ------------------------------- |
-| Total fixed cost (TFC)      | Cost of fixed factors; does not change with output | —                               |
-| Total variable cost (TVC)   | Cost of variable factors; changes with output      | —                               |
+| Total fixed cost (TFC)      | Cost of fixed factors; does not change with output |,                               |
+| Total variable cost (TVC)   | Cost of variable factors; changes with output      |,                               |
 | Total cost (TC)             | Sum of all costs                                   | TC = TFC + TVC                  |
 | Average fixed cost (AFC)    | Fixed cost per unit                                | AFC = TFC / Q                   |
 | Average variable cost (AVC) | Variable cost per unit                             | AVC = TVC / Q                   |
@@ -722,7 +722,7 @@ Given the following data, find the profit-maximising output.
 
 | Q   | TR (USD) | MR (USD) | MC (USD) |
 | --- | -------- | -------- | -------- |
-| 0   | 0        | —        | —        |
+| 0   | 0        |,        |,        |
 | 1   | 50       | 50       | 30       |
 | 2   | 100      | 50       | 20       |
 | 3   | 150      | 50       | 25       |
@@ -1462,7 +1462,7 @@ linked above.
 
 Supply and demand is the most powerful idea in economics. It explains how prices emerge from the interaction of millions of buyers and sellers, each acting on their own interests. The demand curve slopes downward because as price falls, more people can afford the good and existing buyers want more. The supply curve slopes upward because as price rises, producing more becomes profitable.
 
-The equilibrium price is where the two curves cross — the price at which quantity demanded equals quantity supplied. If the price is too high, there's a surplus (unsold goods), so sellers lower prices. If too low, there's a shortage (empty shelves), so sellers raise prices. This natural adjustment is why economists call supply and demand a "market mechanism" — it self-corrects without central planning.
+The equilibrium price is where the two curves cross, the price at which quantity demanded equals quantity supplied. If the price is too high, there's a surplus (unsold goods), so sellers lower prices. If too low, there's a shortage (empty shelves), so sellers raise prices. This natural adjustment is why economists call supply and demand a "market mechanism", it self-corrects without central planning.
 
 The key distinction is between movements along a curve (caused by price changes) and shifts of the curve (caused by income changes, preferences, substitutes, etc.). Getting this distinction wrong is the single most common error in economics exams.
 

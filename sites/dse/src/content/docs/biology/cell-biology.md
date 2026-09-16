@@ -83,7 +83,7 @@ date: 2026-05-31T00:00:00.000Z
 ### Light Microscopy
 
 - Uses visible light; magnification up to $\sim 1500\times$
-- **Resolution:** $\sim 200\ \mathrm{nm}$ — limited by wavelength of light
+- **Resolution:** $\sim 200\ \mathrm{nm}$, limited by wavelength of light
 - Can observe live specimens
 - Staining (e.g. iodine for starch, methylene blue for nuclei) increases contrast
 
@@ -92,7 +92,7 @@ date: 2026-05-31T00:00:00.000Z
 - Uses electron beam (shorter wavelength than light)
 - **Transmission EM (TEM):** thin sections; internal detail; up to $\sim 500\,000\times$
 - **Scanning EM (SEM):** 3D surface images
-- **Resolution:** $\sim 0.2\ \mathrm{nm}$ — can see organelles, viruses, large molecules
+- **Resolution:** $\sim 0.2\ \mathrm{nm}$, can see organelles, viruses, large molecules
 - Specimens must be fixed, dehydrated, and placed in a vacuum (dead specimens only)
 
 ### Magnification and Scale
@@ -110,7 +110,7 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 }
 </script>
 
-## 4. Cell Membrane — The Fluid Mosaic Model
+## 4. Cell Membrane, The Fluid Mosaic Model
 
 ### Structure
 
@@ -213,9 +213,9 @@ $$\text{Magnification} = \frac{\text{Image size}}{\text{Actual size}}$$
 ### Significance of Meiosis
 
 1. **Genetic variation** through:
-   - **Crossing over** (recombination) during prophase I — new combinations of alleles
-   - **Independent assortment** — random alignment of homologous chromosomes at metaphase I
-   - **Random fertilisation** — fusion of any sperm with any egg
+   - **Crossing over** (recombination) during prophase I, new combinations of alleles
+   - **Independent assortment**, random alignment of homologous chromosomes at metaphase I
+   - **Random fertilisation**, fusion of any sperm with any egg
 
 2. **Halving chromosome number** so that fertilisation restores the diploid number
 
@@ -256,11 +256,11 @@ flowchart TD
 
 ## Intuition
 
-**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+**Life's building blocks:** Cells are like factories, the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
 
 **Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
 
-**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+**The key insight:** Structure determines function, the shape of a protein determines what it does, and mutations that change shape can cause disease.
 
 ## Common Pitfalls
 

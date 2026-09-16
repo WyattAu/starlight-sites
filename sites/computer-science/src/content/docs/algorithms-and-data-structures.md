@@ -527,25 +527,25 @@ red-red violation).
 
 Insert 18: Right child of 7, coloured red. $T = [3(R) \leftarrow 7(B) \rightarrow 18(R)]$. Valid.
 
-Insert 10: Insert as left child of 18, coloured red. Now 18 has red child 10. Uncle of 10 is 3(R) —
+Insert 10: Insert as left child of 18, coloured red. Now 18 has red child 10. Uncle of 10 is 3(R),
 **Case 1 (uncle is red)**: recolour uncle 3 black, parent 18 black, grandparent 7 red. Grandparent 7
 is root, so recolour 7 black.
 
 Result: $T = [3(B) \leftarrow 7(B) \rightarrow 18(B)]$ with $10(R)$ under $18$.
 
-Insert 22: Right child of 18, coloured red. Uncle of 22 is 10(R) — Case 1 again: recolour 10 black,
+Insert 22: Right child of 18, coloured red. Uncle of 22 is 10(R), Case 1 again: recolour 10 black,
 22 black, 18 red. Parent 18 is not root, grandparent is 7(B). Now 7 has right child 18(R). Check 7's
 left child: 3(B). No violation.
 
-Insert 8: Left child of 10, coloured red. Uncle of 8 is 22(R) — Case 1: recolour 8 black, 22 black,
+Insert 8: Left child of 10, coloured red. Uncle of 8 is 22(R), Case 1: recolour 8 black, 22 black,
 10 red. Now 10(R) is left child of 18(B). Check grandparent 7: right child 18(B) with left child
 10(R). No red-red violation.
 
-Insert 11: Right child of 10, coloured red. Now 10(R) has both children red — wait, 10 is red and 11
-is red: **violation**. Uncle of 11 is 8(R) — Case 1: recolour 8 black, 11 black, 10 red. Grandparent
+Insert 11: Right child of 10, coloured red. Now 10(R) has both children red, wait, 10 is red and 11
+is red: **violation**. Uncle of 11 is 8(R), Case 1: recolour 8 black, 11 black, 10 red. Grandparent
 18(B): 10(R) is left child, 22(B) is right child. No violation.
 
-Insert 26: Right child of 22, coloured red. Uncle of 26 is 10(R) — Case 1: recolour 10 black, 26
+Insert 26: Right child of 22, coloured red. Uncle of 26 is 10(R), Case 1: recolour 10 black, 26
 black, 22 red. Now 22(R) is right child of 18(B). Check left child of 18: 10(B). Valid.
 
 </details>
@@ -590,10 +590,10 @@ Level 0:  [HEAD] -> [7] -> [12] -> [19] -> [25] -> [31] -> [42]
 Search starts at HEAD, level 3:
 
 - Move right to 31. $31 > 25$Drop to level 2.
-- At level 2, move right to 12. $12 \leq 25$Move right — next is NIL. Drop to level 1.
+- At level 2, move right to 12. $12 \leq 25$Move right, next is NIL. Drop to level 1.
 - At level 1, move right to 19. $19 \leq 25$Move right to 25. $25 = 25$. Found!
 
-The search examined keys 31, 12, 19, 25 — 4 comparisons across 3 levels.
+The search examined keys 31, 12, 19, 25 to 4 comparisons across 3 levels.
 
 </details>
 
@@ -997,11 +997,11 @@ Sort the array $[4, 2, 2, 8, 3, 3, 1]$ using counting sort.
 
 Range of values: $[1, 8]$ So $k = 8$.
 
-**Step 1 — Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
+**Step 1, Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
 
-**Step 2 — Prefix sums:** $C = [0, 1, 3, 5, 6, 6, 6, 6]$.
+**Step 2, Prefix sums:** $C = [0, 1, 3, 5, 6, 6, 6, 6]$.
 
-**Step 3 — Place (iterate backwards):**
+**Step 3, Place (iterate backwards):**
 
 - $A[6] = 1$: $C[1] = 1$Place at position 0. $C[1] = 0$.
 - $A[5] = 3$: $C[3] = 5$Place at position 4. $C[3] = 4$.
@@ -1630,7 +1630,7 @@ i=3:      0  1  1  4  5  6  6  9
 i=4:      0  1  1  4  5  7  8  9
 ```
 
-Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$ — let me
+Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$, let me
 recalculate).
 
 Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$Not valid). Items 1,
@@ -2292,7 +2292,7 @@ $\blacksquare$
 - Fundamental data structures: arrays ($O(1)$ access), linked lists ($O(1)$ insert/delete), hash
   tables ($O(1)$ average lookup), BSTs ($O(\log n)$ balanced).
 - Graph representations: adjacency matrix ($O(V^2)$ space) vs adjacency list ($O(V+E)$ space).
-- Algorithm design paradigms: divide-and-conquer, greedy, dynamic programming — choose based on
+- Algorithm design paradigms: divide-and-conquer, greedy, dynamic programming, choose based on
   optimal substructure and overlapping subproblems.
 
 import { Citation } from "@components/Citations.astro"
@@ -2311,7 +2311,7 @@ import { Citation } from "@components/Citations.astro"
 | Advanced Data Structures | WyattsNotes | [View](2-algorithms-and-data-structures/8_data-structures-advanced)                     |
 | Discrete Mathematics     | WyattsNotes | [View](discrete-mathematics)                         |
 | Theory of Computation    | WyattsNotes | [View](theory-of-computation)                        |
-| Algorithms — MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
+| Algorithms, MIT 6.006   | MIT OCW     | [View](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/) |
 | AP Calculus              | AP          | [View](../../../../ib/src/content/docs/maths/maths)                                                             |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
@@ -2340,9 +2340,9 @@ flowchart TD
 
 ## Intuition
 
-Algorithms and data structures are the engine and chassis of computer science — algorithms are the step-by-step procedures for solving problems, and data structures are the organisations of data that make those algorithms efficient. The central question is always: given a problem, what is the best way to organise the data and process it? Big-O notation captures the essential trade-off: O(1) hash table lookups trade space for speed; O(log n) binary search works because sorted data eliminates half the possibilities at each step; O(n log n) merge sort achieves the theoretical minimum for comparison-based sorting because each comparison eliminates only one possibility.
+Algorithms and data structures are the engine and chassis of computer science, algorithms are the step-by-step procedures for solving problems, and data structures are the organisations of data that make those algorithms efficient. The central question is always: given a problem, what is the best way to organise the data and process it? Big-O notation captures the essential trade-off: O(1) hash table lookups trade space for speed; O(log n) binary search works because sorted data eliminates half the possibilities at each step; O(n log n) merge sort achieves the theoretical minimum for comparison-based sorting because each comparison eliminates only one possibility.
 
 The fundamental insight behind data structure design is that the right representation makes the right operation cheap. Arrays give O(1) access by index because elements are contiguous in memory. Linked lists give O(1) insert/delete at a known position because you only need to update pointers. Hash tables give O(1) average lookup by mapping keys to array indices through a hash function, turning a search problem into an array access. Balanced BSTs give O(log n) for everything by maintaining an invariant that keeps the tree height logarithmic. Every data structure is a bet about what operations you'll perform most often, and the "best" choice depends entirely on your workload.
 
-Algorithm design paradigms — divide-and-conquer, greedy, dynamic programming — are strategies for breaking hard problems into manageable pieces. Divide-and-conquer works when a problem can be split into independent subproblems (merge sort, binary search). Greedy works when making the locally optimal choice leads to the globally optimal solution (Huffman coding, activity selection). Dynamic programming works when a problem has optimal substructure and overlapping subproblems — when the optimal solution to a large problem contains optimal solutions to smaller subproblems, and those smaller subproblems are reused (shortest paths, sequence alignment, knapsack). Recognising which paradigm applies to a new problem is the core skill of algorithm design.
+Algorithm design paradigms, divide-and-conquer, greedy, dynamic programming, are strategies for breaking hard problems into manageable pieces. Divide-and-conquer works when a problem can be split into independent subproblems (merge sort, binary search). Greedy works when making the locally optimal choice leads to the globally optimal solution (Huffman coding, activity selection). Dynamic programming works when a problem has optimal substructure and overlapping subproblems, when the optimal solution to a large problem contains optimal solutions to smaller subproblems, and those smaller subproblems are reused (shortest paths, sequence alignment, knapsack). Recognising which paradigm applies to a new problem is the core skill of algorithm design.
 :::

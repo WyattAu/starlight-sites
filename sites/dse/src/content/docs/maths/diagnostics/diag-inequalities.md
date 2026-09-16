@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Inequalities — Diagnostic Tests
+## Inequalities, Diagnostic Tests
 
 ## Unit Tests
 
@@ -134,7 +134,7 @@ A common mistake is forgetting to reverse the inequality when factoring out the 
 }
 </script>
 
-### UT-4: System of Linear Inequalities — Feasible Region
+### UT-4: System of Linear Inequalities, Feasible Region
 
 **Question:**
 
@@ -574,11 +574,11 @@ flowchart TD
 
 ## Intuition
 
-**A balance beam with weights:** Inequalities are like a balance — whatever you add or subtract from both sides keeps it balanced, but multiplying or dividing by a negative flips the scale. The critical values are where the expression equals zero, marking the boundaries.
+**A balance beam with weights:** Inequalities are like a balance, whatever you add or subtract from both sides keeps it balanced, but multiplying or dividing by a negative flips the scale. The critical values are where the expression equals zero, marking the boundaries.
 
 **Why it matters:** Inequalities define constraints in optimization, engineering tolerances, and economic models. Understanding solution regions helps you find feasible designs and viable policies.
 
-**The key insight:** Always check the sign of expressions before multiplying or dividing — flipping the inequality direction is the most common and costly error.
+**The key insight:** Always check the sign of expressions before multiplying or dividing, flipping the inequality direction is the most common and costly error.
 
 ## Common Pitfalls
 

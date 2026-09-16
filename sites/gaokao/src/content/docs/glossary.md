@@ -1,6 +1,6 @@
 ---
-title: "Gaokao Glossary — Key Terms and Definitions"
-description: "Study notes for Gaokao Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Gaokao Glossary, Key Terms and Definitions"
+description: "Study notes for Gaokao Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -39,9 +39,9 @@ tags: [glossary]
 
 **English (英语)**: 150 points, 120 minutes.
 
-**Comprehensive Liberal Arts**: 300 points, 150 minutes — covering Politics, History, Geography.
+**Comprehensive Liberal Arts**: 300 points, 150 minutes, covering Politics, History, Geography.
 
-**Comprehensive Science**: 300 points, 150 minutes — covering Physics, Chemistry, Biology.
+**Comprehensive Science**: 300 points, 150 minutes, covering Physics, Chemistry, Biology.
 
 **Multiple-Choice Questions**: Select one correct answer from four options, typically 5 points each.
 
@@ -173,7 +173,7 @@ tags: [glossary]
 
 **Weak Area Targeting**: Focusing extra time on subjects/topics with lowest scores.
 
-**9-8-7 Rule**: A study strategy — 9 hours sleep, 8 hours study, 7 meals (regular eating).
+**9-8-7 Rule**: A study strategy, 9 hours sleep, 8 hours study, 7 meals (regular eating).
 
 ## Related Terms
 

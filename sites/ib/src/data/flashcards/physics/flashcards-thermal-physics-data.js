@@ -2,7 +2,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-thermal-001',
     front: 'What is the difference between temperature and internal energy?',
-    back: 'Temperature is a measure of the average random kinetic energy of particles. Internal energy is the total energy of all particles (sum of kinetic + potential energies). Two objects can have the same temperature but different internal energies (e.g. a cup of boiling water vs a bathtub of warm water — bathtub has more internal energy due to more particles).',
+    back: 'Temperature is a measure of the average random kinetic energy of particles. Internal energy is the total energy of all particles (sum of kinetic + potential energies). Two objects can have the same temperature but different internal energies (e.g. a cup of boiling water vs a bathtub of warm water, bathtub has more internal energy due to more particles).',
     tags: ['thermal', 'fundamentals'],
     difficulty: 'easy',
   },
@@ -30,7 +30,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-thermal-005',
     front: 'What are the assumptions of the kinetic theory for an ideal gas?',
-    back: '1) The gas consists of a large number of small molecules in random motion. 2) Molecules are point particles — their volume is negligible compared to the container. 3) No intermolecular forces act except during collisions. 4) All collisions are perfectly elastic (KE conserved). 5) The duration of collisions is negligible compared to time between collisions. 6) Molecules obey Newton’s laws of motion.',
+    back: '1) The gas consists of a large number of small molecules in random motion. 2) Molecules are point particles, their volume is negligible compared to the container. 3) No intermolecular forces act except during collisions. 4) All collisions are perfectly elastic (KE conserved). 5) The duration of collisions is negligible compared to time between collisions. 6) Molecules obey Newton’s laws of motion.',
     tags: ['thermal', 'kinetic theory'],
     difficulty: 'medium',
   },
@@ -47,7 +47,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-thermal-007',
     front: 'What is the average molecular kinetic energy and how is it derived?',
-    back: 'Average KE per molecule = (3/2)k_B T. Derived from kinetic theory: PV = (1/3)Nm(v_rms)² where N = number of molecules. Combining with PV = Nk_B T: (3/2)k_B T = (1/2)m(v_rms)². This means temperature is directly proportional to average molecular KE — a fundamental link between macroscopic T and microscopic motion.',
+    back: 'Average KE per molecule = (3/2)k_B T. Derived from kinetic theory: PV = (1/3)Nm(v_rms)² where N = number of molecules. Combining with PV = Nk_B T: (3/2)k_B T = (1/2)m(v_rms)². This means temperature is directly proportional to average molecular KE, a fundamental link between macroscopic T and microscopic motion.',
     tags: ['thermal', 'kinetic theory', 'derivation'],
     difficulty: 'medium',
   },
@@ -92,7 +92,7 @@ export const flashcard3 = [
   {
     id: 'ib-phys-thermal-013',
     front: 'What is thermal equilibrium and why is it important?',
-    back: 'Thermal equilibrium occurs when two objects at different temperatures are in contact and reach the same temperature — there is no net transfer of thermal energy between them. This is the basis of temperature measurement (thermometer reaches thermal equilibrium with the object being measured). The Zeroth Law of Thermodynamics: if A is in equilibrium with B and B with C, then A is in equilibrium with C.',
+    back: 'Thermal equilibrium occurs when two objects at different temperatures are in contact and reach the same temperature, there is no net transfer of thermal energy between them. This is the basis of temperature measurement (thermometer reaches thermal equilibrium with the object being measured). The Zeroth Law of Thermodynamics: if A is in equilibrium with B and B with C, then A is in equilibrium with C.',
     tags: ['thermal', 'fundamentals'],
     difficulty: 'easy',
   },

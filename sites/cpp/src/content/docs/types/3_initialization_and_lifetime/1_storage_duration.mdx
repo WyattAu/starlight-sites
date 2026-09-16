@@ -369,7 +369,7 @@ Widget* arr = new Widget[10];
 delete[] arr;  // must use delete[] for arrays
 
 // What delete[] actually does:
-// 1. Calls ~Widget() on arr[9], arr[8], ..., arr[0] (reverse order)
+// 1. Calls ~Widget() on arr[9], arr[8]..., arr[0] (reverse order)
 // 2. Calls operator delete[](arr) to free the memory
 ```
 
@@ -502,11 +502,11 @@ flowchart TD
 
 ## Intuition
 
-**How long data lives:** Storage duration is like the lease on an apartment — it determines how long an object exists and where it can be accessed.
+**How long data lives:** Storage duration is like the lease on an apartment, it determines how long an object exists and where it can be accessed.
 
 **Why it matters:** Understanding storage duration helps you manage resources efficiently and avoid dangling references.
 
-**The key insight:** Static storage duration objects live for the entire program — they're initialized before main() and destroyed after it.
+**The key insight:** Static storage duration objects live for the entire program, they're initialized before main() and destroyed after it.
 
 ## Common Pitfalls
 
@@ -580,9 +580,9 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
-| push(5)   | [5]                  | —      |
-| push(3)   | [3, 5]               | —      |
+| push(5)   | [5]                  |,      |
+| push(3)   | [3, 5]               |,      |
 | pop()     | [5]                  | 3      |
-| push(8)   | [8, 5]               | —      |
+| push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |

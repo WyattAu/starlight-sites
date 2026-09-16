@@ -49,11 +49,11 @@ Theoretical computer science establishes the formal foundations of the disciplin
 
 ## Intuition
 
-**A factory with different machines:** Automata theory is like designing machines that recognise patterns — each machine type (finite, pushdown, Turing) has different tools: a finite machine has a simple checklist, a pushdown machine has a stack of sticky notes, and a Turing machine has an infinite scroll. The more powerful the tool, the more complex the patterns it can handle.
+**A factory with different machines:** Automata theory is like designing machines that recognise patterns, each machine type (finite, pushdown, Turing) has different tools: a finite machine has a simple checklist, a pushdown machine has a stack of sticky notes, and a Turing machine has an infinite scroll. The more powerful the tool, the more complex the patterns it can handle.
 
 **Why it matters:** Automata theory underpins compiler design, protocol verification, and understanding what computers fundamentally can and cannot do. It sets the boundary between tractable and intractable computation.
 
-**The key insight:** There is a strict hierarchy of computational power — adding memory transforms what's computable, and some problems are provably beyond any algorithm's reach.
+**The key insight:** There is a strict hierarchy of computational power, adding memory transforms what's computable, and some problems are provably beyond any algorithm's reach.
 
 ## Key Concepts
 

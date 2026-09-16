@@ -45,7 +45,7 @@ $$dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_
 ```python
 def knapsack_01(weights, values, capacity):
     """
-    0/1 knapsack — each item used at most once.
+    0/1 knapsack, each item used at most once.
     Time: O(n * W)
     Space: O(W) with 1D optimisation
     """
@@ -71,7 +71,7 @@ Each item can be taken unlimited times. Iterate capacity forward.
 ```python
 def knapsack_unbounded(weights, values, capacity):
     """
-    Unbounded knapsack — items can be reused.
+    Unbounded knapsack, items can be reused.
     Time: O(n * W)
     Space: O(W)
     """
@@ -90,7 +90,7 @@ Each item can be taken at most $k_i$ times. Convert to 0/1 knapsack by binary de
 ```python
 def knapsack_bounded(weights, values, counts, capacity):
     """
-    Bounded knapsack — each item has a maximum count.
+    Bounded knapsack, each item has a maximum count.
     Uses binary decomposition to convert to 0/1 knapsack.
     Time: O(W * sum(log k_i))
     Space: O(W)
@@ -871,6 +871,6 @@ linked above.
 
 The fundamental idea behind all DP patterns is the same: break a problem into overlapping subproblems, solve each subproblem once, and reuse the results. What changes between patterns is the *shape* of the subproblems. Linear DP arranges subproblems in a line (like climbing stairs). Interval DP works on ranges (like matrix chain multiplication). Tree DP traverses a tree structure. Bitmask DP represents subsets as bit patterns. The core skill is recognizing which "shape" your problem has, because that determines how you define states and transitions.
 
-The hardest part of DP is in most cases defining the right state — what information do you need to capture at each subproblem? A good rule of thumb is: the state should contain everything that affects future decisions but nothing redundant. For interval DP, the state is `(left, right)` because the optimal solution for a range depends only on that range. For tree DP, you process children before parents (post-order) because a node's optimal value depends on its subtree. For bitmask DP, the bitmask itself is the state — it tells you exactly which elements have been used.
+The hardest part of DP is in most cases defining the right state, what information do you need to capture at each subproblem? A good rule of thumb is: the state should contain everything that affects future decisions but nothing redundant. For interval DP, the state is `(left, right)` because the optimal solution for a range depends only on that range. For tree DP, you process children before parents (post-order) because a node's optimal value depends on its subtree. For bitmask DP, the bitmask itself is the state, it tells you exactly which elements have been used.
 
-Once you have the right state, the transition is in most cases straightforward: try all possible "last moves" and take the best one. The key to efficiency is recognizing when you can reduce the state space: rolling arrays when you only need the previous row, coordinate compression when values are large but few, and sparse representations when most states are unreachable. And always, always check your base cases by hand before coding — a missing or wrong base case is the most common DP bug.
+Once you have the right state, the transition is in most cases straightforward: try all possible "last moves" and take the best one. The key to efficiency is recognizing when you can reduce the state space: rolling arrays when you only need the previous row, coordinate compression when values are large but few, and sparse representations when most states are unreachable. And always, always check your base cases by hand before coding, a missing or wrong base case is the most common DP bug.

@@ -369,7 +369,7 @@ Widget* arr = new Widget[10];
 delete[] arr;  // must use delete[] for arrays
 
 // What delete[] actually does:
-// 1. Calls ~Widget() on arr[9], arr[8], ..., arr[0] (reverse order)
+// 1. Calls ~Widget() on arr[9], arr[8]..., arr[0] (reverse order)
 // 2. Calls operator delete[](arr) to free the memory
 ```
 
@@ -576,9 +576,9 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
-| push(5)   | [5]                  | —      |
-| push(3)   | [3, 5]               | —      |
+| push(5)   | [5]                  |,      |
+| push(3)   | [3, 5]               |,      |
 | pop()     | [5]                  | 3      |
-| push(8)   | [8, 5]               | —      |
+| push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |

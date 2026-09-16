@@ -49,8 +49,8 @@ Structural tensions and short-term triggers.
 
 **Long-term causes:**
 
-- **Political polarization**: The Second Spanish Republic (1931) attempted sweeping reforms — land
-  redistribution, secularization of education, military restructuring — which alienated the
+- **Political polarization**: The Second Spanish Republic (1931) attempted sweeping reforms, land
+  redistribution, secularization of education, military restructuring, which alienated the
   conservative elite, the Catholic Church, and the military officer corps.
 - **Economic inequality**: The agrarian south was dominated by large estates (latifundia) worked by
   impoverished landless laborers. Industrial workers in Catalonia and the Basque Country faced poor
@@ -67,7 +67,7 @@ Structural tensions and short-term triggers.
 **Short-term causes:**
 
 - **The 1936 election**: The Popular Front (a coalition of left-wing parties) narrowly won the
-  February 1936 election. Political violence escalated on both sides — church burnings, political
+  February 1936 election. Political violence escalated on both sides, church burnings, political
   assassinations, and street battles.
 - **The assassination of Calvo Sotelo** (July 1936): The murder of the leading monarchist politician
   by Republican police was the immediate trigger for the military uprising planned by General Emilio
@@ -84,7 +84,7 @@ Structural tensions and short-term triggers.
   commanders. This created conditions of chronic instability and suffering, particularly in rural
   areas.
 - **Ideological conflict**: The KMT (founded 1912, reorganized by Sun Yat-sen) and the CCP
-  (founded 1921) represented fundamentally different visions for China's future — nationalist
+  (founded 1921) represented fundamentally different visions for China's future, nationalist
   capitalism versus communist revolution.
 - **May Fourth Movement** (1919): Anti-imperialist protests following the Treaty of Versailles
   fostered intellectual radicalization and increased support for both nationalist and communist
@@ -110,7 +110,7 @@ Structural tensions and short-term triggers.
 | Francisco Franco | Leader of the Nationalist forces; became Head of State in 1939         |
 | Emilio Mola      | Planner of the 1936 military uprising                                  |
 | Manuel Azaña     | President of the Second Republic; led the Republican government        |
-| Dolores Ibárruri | "La Pasionaria" — communist orator and symbol of Republican resistance |
+| Dolores Ibárruri | "La Pasionaria", communist orator and symbol of Republican resistance |
 | George Orwell    | Fought with the POUM militia; wrote _Homage to Catalonia_              |
 | General Miaja    | Defended Madrid during the siege (1936–1939)                           |
 
@@ -142,7 +142,7 @@ Structural tensions and short-term triggers.
 **Support for the Republicans:**
 
 - **Soviet Union**: Provided military advisors, tanks, aircraft, and financial aid. Soviet support
-  came with strings attached — Stalin sought to control the Republican war effort and suppress
+  came with strings attached, Stalin sought to control the Republican war effort and suppress
   non-communist leftist factions (leading to the suppression of the POUM and anarchists in
   Barcelona, 1937).
 - **International Brigades**: Approximately 35,000–40,000 foreign volunteers from over 50 countries
@@ -182,7 +182,7 @@ Chinese Civil War.
 
 - Republican forces in the north used guerrilla tactics against Nationalist occupation, but these
   were relatively small-scale.
-- The main fighting was conventional — large-scale battles between organized armies.
+- The main fighting was conventional, large-scale battles between organized armies.
 - Franco's strategy of slow, methodical consolidation of territory proved more effective than
   guerrilla resistance.
 
@@ -200,7 +200,7 @@ Chinese Civil War.
 - The CCP's success in mobilizing the peasantry through **land reform** and **mass campaigns** was
   fundamental. By promising land redistribution, the CCP turned millions of peasants into active
   supporters who provided intelligence, food, shelter, and recruits.
-- The **Huaihai Campaign** (1948–1949) demonstrated the effectiveness of this approach — despite
+- The **Huaihai Campaign** (1948–1949) demonstrated the effectiveness of this approach, despite
   having inferior conventional military equipment, the CCP's forces (supported by an estimated 5.4
   million civilian laborers) surrounded and destroyed KMT armies through superior logistics and
   popular support.
@@ -240,7 +240,7 @@ Chinese Civil War.
 
 ### Spanish Civil War
 
-- **Traditionalist view**: The war was a "crusade" against communism and atheism — a narrative
+- **Traditionalist view**: The war was a "crusade" against communism and atheism, a narrative
   promoted by Franco's regime.
 - **Republican view**: The war was a struggle between democracy and fascism, betrayed by the
   non-intervention of Western democracies.
@@ -255,9 +255,9 @@ Chinese Civil War.
 - **Orthodox CCP view**: The civil war was a heroic struggle of the people against feudalism,
   imperialism, and KMT reaction, led by Mao Zedong Thought.
 - **Western anti-communist view**: The KMT lost China due to corruption, incompetence, and the "loss
-  of China" to communism — a narrative dominant during the McCarthy era in the US.
-- **Revisionist view** (e.g., Jonathan Spence, Odd Arne Westad): Emphasizes structural factors — KMT
-  inflation, corruption, and loss of popular support — rather than purely CCP military strategy. Odd
+  of China" to communism, a narrative dominant during the McCarthy era in the US.
+- **Revisionist view** (e.g., Jonathan Spence, Odd Arne Westad): Emphasizes structural factors, KMT
+  inflation, corruption, and loss of popular support, rather than purely CCP military strategy. Odd
   Arne Westad argues that the outcome was shaped as much by international dynamics (US policy,
   Soviet behavior) as by domestic factors.
 - **Chen Yung-fa**: Argues that the CCP's success lay in its ability to create a "revolutionary
@@ -292,13 +292,13 @@ When writing a comparative essay on these two civil wars, use the following stru
 - **Ideological coherence**: The Spanish conflict had clearer ideological lines (fascism vs.
   socialism/anarchism), while the Chinese conflict involved a more complex nationalist-communist
   ideological struggle.
-- **Foreign intervention**: Both wars saw significant foreign involvement, but the nature differed —
+- **Foreign intervention**: Both wars saw significant foreign involvement, but the nature differed,
   in Spain, it was ideological (fascist vs. Communist), while in China, it was geopolitical (US vs.
   USSR in the emerging Cold War).
 - **Duration**: The Chinese Civil War was far longer (1927–1949, with interruptions) compared to the
   Spanish Civil War (1936–1939), reflecting the vastly different scale and geography.
 - **Outcome**: The Nationalists won in Spain, establishing a long-lasting authoritarian regime. The
-  Communists won in China, establishing the PRC — one of the defining events of the 20th century.
+  Communists won in China, establishing the PRC, one of the defining events of the 20th century.
 
 ## Role of Ideology
 
@@ -310,7 +310,7 @@ The Spanish Civil War was fundamentally an ideological conflict between left and
 
 - A broad coalition of socialists (PSOE), communists (PCE), anarchists (CNT-FAI), and liberal
   republicans united by opposition to fascism and support for social reform.
-- The anarchists (CNT-FAI) represented one of the most radical elements — they collectivized land
+- The anarchists (CNT-FAI) represented one of the most radical elements, they collectivized land
   and factories in Catalonia and Aragon during the war, creating worker-controlled communes.
 - Internal divisions were severe: communists vs. Anarchists (culminating in the May Days in
   Barcelona, 1937, where communist-led forces suppressed anarchist militias), and moderates vs.
@@ -346,8 +346,8 @@ The Spanish Civil War was fundamentally an ideological conflict between left and
 
 - Marxist-Leninist ideology adapted to Chinese conditions. Mao's innovation was to replace the urban
   proletariat (virtually nonexistent in China) with the peasantry as the revolutionary class.
-- The CCP's land reform program — promising land to peasants who had been exploited by landlords for
-  generations — was their most powerful recruiting tool.
+- The CCP's land reform program, promising land to peasants who had been exploited by landlords for
+  generations, was their most powerful recruiting tool.
 - The Yan'an period (1936–1945) was crucial for CCP development. Mao consolidated his ideological
   authority through the Yan'an Rectification Movement (1942–1944), which eliminated internal dissent
   and established Mao Zedong Thought as orthodoxy.
@@ -367,10 +367,10 @@ The Spanish Civil War was fundamentally an ideological conflict between left and
   Nazi concentration camps.
 - **Repression after the war**: Franco's regime conducted systematic repression of Republican
   supporters. The Law of Political Responsibilities (1939) led to the imprisonment of hundreds of
-  thousands. The "White Terror" — extrajudicial killings of Republicans — continued for years after
+  thousands. The "White Terror", extrajudicial killings of Republicans, continued for years after
   the war.
 - **Cultural impact**: The war produced some of the 20th century's most powerful art and literature
-  — Picasso's _Guernica_, Orwell's _Homage to Catalonia_, Hemingway's _For Whom the Bell Tolls_, and
+Picasso's _Guernica_, Orwell's _Homage to Catalonia_, Hemingway's _For Whom the Bell Tolls_, and
   Neruda's _España en el corazón_.
 
 ### Chinese Civil War
@@ -408,7 +408,7 @@ Both civil wars raised questions about international law and the responsibilitie
   the rights of external powers to influence civil conflicts. The US involvement was justified as
   containing communism; Soviet involvement was framed as supporting anti-imperialist revolution.
 - **Taiwan/PRC representation**: The outcome of the civil war created a contested representation at
-  the United Nations — the Republic of China (Taiwan) held China's UN seat until 1971, when the PRC
+  the United Nations, the Republic of China (Taiwan) held China's UN seat until 1971, when the PRC
   assumed the seat.
 - **Cold War framework**: The Chinese Civil War was one of the first major conflicts of the emerging
   Cold War, establishing patterns of superpower involvement in civil wars that would repeat in
@@ -449,7 +449,7 @@ The following table provides a chronological overview of key events in both wars
 | Period         | Spanish Civil War                                                                   | Chinese Civil War                                                             |
 | :------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------- |
 | Early tensions | Second Republic established (1931); military reforms alienate officer corps         | Qing Dynasty collapses (1912); warlord era begins; KMT and CCP founded        |
-| 1924-1927      | —                                                                                   | First United Front (1924); Shanghai Massacre ends cooperation (1927)          |
+| 1924-1927      |,                                                                                   | First United Front (1924); Shanghai Massacre ends cooperation (1927)          |
 | 1927-1935      | Political polarization intensifies; 1934 right-wing CEDA enters government          | CCP nearly destroyed; Long March (1934-1935) consolidates Mao's leadership    |
 | 1936           | Popular Front wins election (Feb); military uprising begins (July); Siege of Madrid | Xi'an Incident (Dec): Chiang forced to accept Second United Front             |
 | 1937           | Guernica bombing (Apr); Battle of the Ebro preparations                             | Second Sino-Japanese War begins (Jul); Second United Front against Japan      |
@@ -457,7 +457,7 @@ The following table provides a chronological overview of key events in both wars
 | 1939           | Fall of Barcelona (Jan); Franco declares victory (Apr)                              | Continued war against Japan; CCP grows to ~1.2 million members                |
 | 1945           | Spain remains neutral in WWII; Franco consolidates dictatorship                     | Japan surrenders (Aug); CCP and KMT race to control former Japanese territory |
 | 1946-1948      | Franco regime repressive; Spain diplomatically isolated                             | Civil War resumes (1946); Huaihai Campaign (1948-1949): decisive CCP victory  |
-| 1949           | —                                                                                   | PRC founded (Oct 1); KMT retreats to Taiwan                                   |
+| 1949           |,                                                                                   | PRC founded (Oct 1); KMT retreats to Taiwan                                   |
 
 ---
 
@@ -567,7 +567,7 @@ The following table provides a chronological overview of key events in both wars
 **Spain** had relatively clear ideological lines. The Nationalist coalition (monarchists, fascists,
 Catholics, military) was united primarily by **anti-communism** and **anti-republicanism**. The
 Republican coalition (socialists, communists, anarchists, liberals) was united by **anti-fascism**.
-However, the Republican side was significantly less coherent — the anarchists (CNT-FAI) sought
+However, the Republican side was significantly less coherent, the anarchists (CNT-FAI) sought
 Revolution, while the moderates sought to defend the existing Republic. The May Days of Barcelona
 (1937), where communist-led forces suppressed anarchist militias, demonstrated this fundamental
 Division. The USSR's manipulation of the Republican war effort further undermined ideological unity.
@@ -576,14 +576,14 @@ Division. The USSR's manipulation of the Republican war effort further undermine
 Principles (nationalism, democracy, livelihood), but under Chiang Kai-shek it became increasingly
 Authoritarian and aligned with landlord and business interests. The CCP adapted Marxist-Leninist
 Ideology to Chinese conditions through **Mao Zedong Thought**, which replaced the urban proletariat
-With the peasantry as the revolutionary class. This ideological innovation was decisive — it gave
+With the peasantry as the revolutionary class. This ideological innovation was decisive, it gave
 The CCP a mass base that the KMT could not match.
 
 ### Role of Religion
 
 In **Spain**, the Catholic Church was a central pillar of the Nationalist cause. Franco presented
-The war as a crusade against "godless communism." The Church's active support for the Nationalists —
-And the Republican anti-clerical violence (church burnings, murder of priests) — gave the war a
+The war as a crusade against "godless communism." The Church's active support for the Nationalists,
+And the Republican anti-clerical violence (church burnings, murder of priests), gave the war a
 Powerful religious dimension that extended beyond politics.
 
 In **China**, religion played a much smaller direct role. Confucian values of social hierarchy and

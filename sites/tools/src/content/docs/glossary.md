@@ -1,6 +1,6 @@
 ---
-title: "Developer Tools Glossary — Key Terms and Definitions"
-description: "Study notes for Developer Tools Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Developer Tools Glossary, Key Terms and Definitions"
+description: "Study notes for Developer Tools Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -111,11 +111,11 @@ tags: [glossary]
 
 **Continuous Delivery**: Deploying code that passes tests to a staging environment, requiring manual promotion to production.
 
-**Pipeline**: The sequence of stages a commit goes through — build, test, deploy.
+**Pipeline**: The sequence of stages a commit goes through, build, test, deploy.
 
 **Build**: Compiling or bundling the application.
 
-**Artifact**: The output of a build — a binary, Docker image, or package.
+**Artifact**: The output of a build, a binary, Docker image, or package.
 
 **Stage**: A phase in a CI/CD pipeline (e.g., lint, test, build, deploy).
 

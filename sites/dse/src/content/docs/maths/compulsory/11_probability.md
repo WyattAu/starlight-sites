@@ -1023,7 +1023,7 @@ self-marking and building a personal test matrix.
 
 - Complement: $P(A') = 1 - P(A)$; use this for "at least one" problems.
 
-- Confusing $P(A|B)$ with $P(B|A)$ — these are related by Bayes' theorem but are not equal in
+- Confusing $P(A|B)$ with $P(B|A)$, these are related by Bayes' theorem but are not equal in
   general.
 
 ## Worked Examples

@@ -166,7 +166,7 @@ Forms, and validates it on submission. The token must be tied to the user's sess
 **Custom headers** for API endpoints:
 
 ```javascript
-// Fetch API includes custom headers — cross-origin requests require CORS preflight
+// Fetch API includes custom headers, cross-origin requests require CORS preflight
 fetch('https://api.example.com/transfer', {
   method: "POST'',
   headers: {
@@ -222,13 +222,13 @@ SELECT name, description FROM products WHERE id = ''" UNION SELECT username, pas
 **Primary defense: Parameterized queries (prepared statements).**
 
 ```python
-## VULNERABLE — string concatenation
+## VULNERABLE, string concatenation
 cursor.execute(f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'")
 
-## SAFE — parameterized query
+## SAFE, parameterized query
 cursor.execute("SELECT * FROM users WHERE username = ? AND password = ?", (username, password))
 
-# SAFE — ORM
+# SAFE, ORM
 user = User.query.filter_by(username=username, password_hash=hash).first()
 ```
 
@@ -289,12 +289,12 @@ sequenceDiagram
 | `null` origin allowed                             | Sandboxed iframes and redirects can bypass CORS |
 
 ```javascript
-// VULNERABLE — reflecting origin without validation
+// VULNERABLE, reflecting origin without validation
 const origin = req.headers.origin;
 res.setHeader('Access-Control-Allow-Origin', origin);
 res.setHeader('Access-Control-Allow-Credentials', 'true');
 
-// SAFE — allowlist specific origins
+// SAFE, allowlist specific origins
 const ALLOWED_ORIGINS = ['https://app.example.com', 'https://admin.example.com'];
 const origin = req.headers.origin;
 if (ALLOWED_ORIGINS.includes(origin)) {
@@ -391,14 +391,14 @@ Content-Security-Policy: frame-ancestors 'self';
 ## Open Redirect
 
 Open redirect occurs when an application redirects to a user-supplied URL without validation.
-Attackers exploit this to phishing attacks — the redirect URL appears legitimate but sends the
+Attackers exploit this to phishing attacks, the redirect URL appears legitimate but sends the
 Victim to a malicious site.
 
 ```javascript
-// VULNERABLE — redirects to any URL
+// VULNERABLE, redirects to any URL
 res.redirect(req.query.returnTo);
 
-// SAFE — validate against allowlist or ensure relative path
+// SAFE, validate against allowlist or ensure relative path
 const ALLOWED_PATHS = ['/dashboard', '/profile', '/settings'];
 const returnTo = req.query.returnTo;
 if (returnTo && returnTo.startsWith('/') && !returnTo.startsWith('//')) {
@@ -424,13 +424,13 @@ Attacker to manipulate application logic or execute arbitrary code.
 | XML                | Java, .NET, Node.js   | High (XXE)       |
 
 ```python
-# VULNERABLE — deserializing untrusted pickle data
+# VULNERABLE, deserializing untrusted pickle data
 import pickle
 
 data = request.get_data()
 obj = pickle.loads(data)  # Attacker can execute arbitrary code
 
-# SAFE — use JSON or signed/verified pickle
+# SAFE, use JSON or signed/verified pickle
 import json
 obj = json.loads(data)  # JSON cannot execute code
 ```
@@ -483,7 +483,7 @@ def is_safe_url(url):
         if ip.is_private or ip.is_loopback or ip.is_reserved:
             return False
     except ValueError:
-        pass  # hostname, not IP — check against allowlist
+        pass  # hostname, not IP, check against allowlist
     return parsed.hostname in ALLOWED_HOSTS
 ```
 :::
@@ -521,7 +521,7 @@ console.log(user.isAdmin); // true
 ### Prevention
 
 - Use `Object.create(null)` for objects that should not have prototypes
-- Validate and sanitize JSON input — reject keys like `__proto__``constructor``prototype`
+- Validate and sanitize JSON input, reject keys like `__proto__``constructor``prototype`
 - Use safe deep merge libraries that block prototype pollution
 - Freeze prototypes: `Object.freeze(Object.prototype)`
 
@@ -545,7 +545,7 @@ Permissions-Policy: camera=(), microphone=(), geolocation=()
 # Prevent clickjacking
 X-Frame-Options: DENY
 
-# HSTS — force HTTPS for 1 year, include subdomains
+# HSTS, force HTTPS for 1 year, include subdomains
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
 
 # Content Security Policy
@@ -604,7 +604,7 @@ def render_comment(comment_text):
 
 Both are necessary. Input validation alone does not prevent XSS (valid input can contain HTML).
 Output encoding alone does not prevent all injection (SQL injection is not an output encoding
-Problem — it requires parameterized queries).
+Problem, it requires parameterized queries).
 
 ## Dependency Vulnerabilities
 
@@ -733,7 +733,7 @@ Responses.
 ### Pitfall 10: Trusting HTTP Methods
 
 Do not assume that `POST` requests are safe and `GET` requests are not. An attacker can send any
-HTTP method to any endpoint. The `TRACE` method should be disabled (it enables XST — Cross-Site
+HTTP method to any endpoint. The `TRACE` method should be disabled (it enables XST, Cross-Site
 Tracing). The `DELETE` and `PUT` methods must require authentication and authorization just like
 `POST`.
 

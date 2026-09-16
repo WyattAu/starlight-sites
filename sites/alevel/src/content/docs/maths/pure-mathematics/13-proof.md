@@ -327,7 +327,7 @@ $(2m+1)(2n+1) = 4mn + 2m + 2n + 1 = 2(2mn+m+n) + 1$.
 
 This is of the form $2k+1$ (with $k = 2mn+m+n$), hence odd. $\blacksquare$
 
-**If you get this wrong, revise:** [Proof by Deduction](#1-proof-by-deduction) — Section 1.
+**If you get this wrong, revise:** [Proof by Deduction](#1-proof-by-deduction), Section 1.
 
 </details>
 
@@ -343,7 +343,7 @@ Suppose $N$ is the greatest even integer. Then $N = 2k$ for some $k \in \mathbb{
 But $N + 2 = 2k + 2 = 2(k+1)$ is also even, and $N+2 \gt N$. This contradicts $N$ being the Greatest
 even integer. $\blacksquare$
 
-**If you get this wrong, revise:** [Proof by Contradiction](#2-proof-by-contradiction) — Section 2.
+**If you get this wrong, revise:** [Proof by Contradiction](#2-proof-by-contradiction), Section 2.
 
 </details>
 
@@ -372,7 +372,7 @@ $$
 $$
 
 **If you get this wrong, revise:**
-[Proof by Mathematical Induction](#5-proof-by-mathematical-induction) — Section 5.
+[Proof by Mathematical Induction](#5-proof-by-mathematical-induction), Section 5.
 
 </details>
 
@@ -391,7 +391,7 @@ $9k^2 = 3b^2 \implies b^2 = 3k^2$ So $3 \mid b^2$Hence $3 \mid b$.
 
 But $\gcd(a,b) \geq 3$Contradicting $\gcd(a,b) = 1$. $\blacksquare$
 
-**If you get this wrong, revise:** [$\sqrt{2}$ is irrational](#23-sqrt2-is-irrational) — Section
+**If you get this wrong, revise:** [$\sqrt{2}$ is irrational](#23-sqrt2-is-irrational), Section
 2.3.
 
 </details>
@@ -407,7 +407,7 @@ Let $x = \pi/4$. $\sin(\pi/2) = 1$ but $2\sin(\pi/4) = 2 \times \dfrac{\sqrt{2}}
 
 (The correct identity is $\sin(2x) = 2\sin x\cos x$.)
 
-**If you get this wrong, revise:** [Disproof by Counterexample](#4-disproof-by-counterexample) —
+**If you get this wrong, revise:** [Disproof by Counterexample](#4-disproof-by-counterexample),
 Section 4.
 
 </details>
@@ -427,7 +427,7 @@ _Step:_ $5^{k+1} + 3 = 5 \cdot 5^k + 3 = 5(4m-3) + 3 = 20m - 15 + 3 = 20m - 12 =
 
 Divisible by 4. ✓ $\blacksquare$
 
-**If you get this wrong, revise:** [Divisibility](#54-divisibility) — Section 5.4.
+**If you get this wrong, revise:** [Divisibility](#54-divisibility), Section 5.4.
 
 </details>
 
@@ -447,7 +447,7 @@ $3^a$ is odd and $5^b$ is odd, so no immediate parity contradiction. But: $3^a$ 
 3s and also only 5s (by the Fundamental Theorem of Arithmetic, prime factorisation is unique).
 Contradiction. $\blacksquare$
 
-**If you get this wrong, revise:** [$\log_2 3$ is irrational](#24-log_2-3-is-irrational) — Section
+**If you get this wrong, revise:** [$\log_2 3$ is irrational](#24-log_2-3-is-irrational), Section
 2.4.
 
 </details>
@@ -466,7 +466,7 @@ $n=2$: $n^2-1 = 3$Not divisible by 24 (special case $n=2$). $n=3$: $n^2-1 = 8$No
 
 So the claim holds: primes 2 and 3 are exceptions, and $5^2 - 1 = 24$ is divisible by 24.
 
-**If you get this wrong, revise:** [Proof by Exhaustion](#3-proof-by-exhaustion) — Section 3.
+**If you get this wrong, revise:** [Proof by Exhaustion](#3-proof-by-exhaustion), Section 3.
 
 </details>
 
@@ -486,7 +486,7 @@ _Step:_ $(k+1)^3 - (k+1) = k^3 + 3k^2 + 3k + 1 - k - 1 = (k^3 - k) + 3k^2 + 3k =
 Since $k(k+1)$ is always even (product of consecutive integers), $3k(k+1)$ is divisible by 6. So
 $(k+1)^3 - (k+1) = 6m + 6n = 6(m+n)$. ✓ $\blacksquare$
 
-**If you get this wrong, revise:** [Divisibility](#54-divisibility) — Section 5.4.
+**If you get this wrong, revise:** [Divisibility](#54-divisibility), Section 5.4.
 
 </details>
 
@@ -504,7 +504,7 @@ $$a^2 + b^2 = (2m+1)^2 + (2n+1)^2 = 4m^2+4m+1 + 4n^2+4n+1 = 2(2m^2+2m+2n^2+2n+1)
 This is even but not divisible by 4. So $c^2$ is even but not divisible by 4, meaning $c$ is even
 (if $c = 2p$, $c^2 = 4p^2$Which IS divisible by 4). Contradiction. $\blacksquare$
 
-**If you get this wrong, revise:** [Proof by Contradiction](#2-proof-by-contradiction) — Section 2.
+**If you get this wrong, revise:** [Proof by Contradiction](#2-proof-by-contradiction), Section 2.
 
 </details>
 
@@ -531,7 +531,7 @@ $$
 $$
 
 **If you get this wrong, revise:**
-[Proof by Mathematical Induction](#5-proof-by-mathematical-induction) — Section 5.
+[Proof by Mathematical Induction](#5-proof-by-mathematical-induction), Section 5.
 
 </details>
 

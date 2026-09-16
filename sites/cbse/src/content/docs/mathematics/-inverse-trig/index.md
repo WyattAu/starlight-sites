@@ -58,7 +58,7 @@ Inverse trigonometric functions reverse the action of trigonometric functions. T
 - $\cos^{-1}(-x) = \pi - \cos^{-1}x$
 - $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ for $xy < 1$
 
-## Worked Example 1 — Simplification
+## Worked Example 1, Simplification
 
 **Problem:** Simplify $\sin^{-1}\left(\frac{3}{5}\right) + \sin^{-1}\left(\frac{5}{13}\right)$.
 
@@ -77,7 +77,7 @@ $$\sin^{-1}\left(\frac{3}{5}\right) + \sin^{-1}\left(\frac{5}{13}\right) = \sin^
 
 **Common mistake:** Forgetting to check that the sum is within the range $[-\pi/2, \pi/2]$.
 
-## Worked Example 2 — Evaluation
+## Worked Example 2, Evaluation
 
 **Problem:** Find the value of $\tan^{-1}(1) + \tan^{-1}(2) + \tan^{-1)(3)$.
 
@@ -93,7 +93,7 @@ $$\pi - \tan^{-1}(3) + \tan^{-1}(3) = \pi$$
 
 **Common mistake:** Using the formula $\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ without checking whether $xy < 1$.
 
-## Worked Example 3 — Solving Equations
+## Worked Example 3, Solving Equations
 
 **Problem:** Solve $\sin^{-1}(x) + \cos^{-1}(x) = \frac{\pi}{3}$.
 
@@ -119,11 +119,11 @@ Inverse trigonometric functions are essential for integration (they appear as an
 
 ## Intuition
 
-**Asking "which angle gives this ratio?":** Inverse trigonometric functions reverse the usual trig functions — instead of asking "what's the sine of 30°?", you ask "what angle has a sine of 0.5?" Think of it as a lookup table: you give the function a ratio (like 0.5), and it tells you the angle. But there's a catch — trig functions repeat (sine of 30° = sine of 150°), so we restrict the output to a specific range to make the inverse a proper function. The complementary identities (sin⁻¹x + cos⁻¹x = π/2) are like two sides of the same coin — they always add up to a right angle.
+**Asking "which angle gives this ratio?":** Inverse trigonometric functions reverse the usual trig functions, instead of asking "what's the sine of 30°?", you ask "what angle has a sine of 0.5?" Think of it as a lookup table: you give the function a ratio (like 0.5), and it tells you the angle. But there's a catch, trig functions repeat (sine of 30° = sine of 150°), so we restrict the output to a specific range to make the inverse a proper function. The complementary identities (sin⁻¹x + cos⁻¹x = π/2) are like two sides of the same coin, they always add up to a right angle.
 
-**Why it matters:** Inverse trig functions appear everywhere — in integration (they're antiderivatives), in physics (calculating angles from components), in engineering (signal processing), and in any situation where you need to recover an angle from a ratio. They're essential tools for solving equations that involve angles.
+**Why it matters:** Inverse trig functions appear everywhere, in integration (they're antiderivatives), in physics (calculating angles from components), in engineering (signal processing), and in any situation where you need to recover an angle from a ratio. They're essential tools for solving equations that involve angles.
 
-**The key insight:** The range restrictions on inverse trig functions aren't arbitrary — they ensure each input has exactly one output, making the function well-defined. The domain of sin⁻¹ is [-1,1] because sine never exceeds 1, and its range is [-π/2, π/2] because that's where sine is one-to-one.
+**The key insight:** The range restrictions on inverse trig functions aren't arbitrary, they ensure each input has exactly one output, making the function well-defined. The domain of sin⁻¹ is [-1,1] because sine never exceeds 1, and its range is [-π/2, π/2] because that's where sine is one-to-one.
 
 ## Common Exam Patterns
 
@@ -150,7 +150,7 @@ Inverse trigonometric functions are essential for integration (they appear as an
   - $\tan^{-1} x + \tan^{-1} y = \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ when $xy < 1$
   - $\tan^{-1} x + \tan^{-1} y = \pi + \tan^{-1}\left(\frac{x+y}{1-xy}\right)$ when $xy > 1, x > 0$
 
-## Worked Example 4 — Converting Between Forms
+## Worked Example 4, Converting Between Forms
 
 **Problem:** Express $\cos^{-1}\left(\frac{3}{5}\right)$ in terms of $\sin^{-1}$.
 
@@ -167,7 +167,7 @@ $$\cos^{-1}\left(\frac{3}{5}\right) = \sin^{-1}\left(\frac{4}{5}\right)$$
 
 **Common mistake:** Forgetting that $\sin^{-1} x + \cos^{-1} x = \pi/2$, so $\cos^{-1} x = \pi/2 - \sin^{-1} x$. This is another valid answer.
 
-## Worked Example 5 — Evaluating Expressions
+## Worked Example 5, Evaluating Expressions
 
 **Problem:** Find the value of $\sin\left(2\tan^{-1}\frac{3}{4}\right)$.
 
@@ -183,7 +183,7 @@ $$\sin(2\theta) = 2\sin\theta\cos\theta = 2 \times \frac{3}{5} \times \frac{4}{5
 
 **Common mistake:** Forgetting that $\tan^{-1}(3/4)$ gives an angle, not a ratio. After finding the angle, use it in the double-angle formula.
 
-## Worked Example 6 — Solving Equations
+## Worked Example 6, Solving Equations
 
 **Problem:** Solve $\tan^{-1}(x+1) + \tan^{-1}(x-1) = \tan^{-1}\left(\frac{8}{31}\right)$.
 

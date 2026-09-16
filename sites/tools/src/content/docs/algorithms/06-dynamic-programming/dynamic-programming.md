@@ -258,7 +258,7 @@ $$dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if 
 ```python
 def knapsack_01(weights, values, capacity):
     """
-    0/1 Knapsack — each item can be taken at most once.
+    0/1 Knapsack, each item can be taken at most once.
     Time: O(n * W), Space: O(n * W) or O(W) with rolling array
     """
     n = len(weights)
@@ -288,7 +288,7 @@ def knapsack_01_space_optimised(weights, values, capacity):
 
 def unbounded_knapsack(weights, values, capacity):
     """
-    Unbounded knapsack — each item can be taken unlimited times.
+    Unbounded knapsack, each item can be taken unlimited times.
     Iterate w FORWARD to allow reusing items.
     Time: O(n * W), Space: O(W)
     """
@@ -301,9 +301,9 @@ def unbounded_knapsack(weights, values, capacity):
 ```
 :::
 :::note
-- **0/1 knapsack:** iterate $w$ from $W$ down to $weight_i$ (reverse) — prevents using the same item
+- **0/1 knapsack:** iterate $w$ from $W$ down to $weight_i$ (reverse), prevents using the same item
   twice in one iteration
-- **Unbounded knapsack:** iterate $w$ from $weight_i$ up to $W$ (forward) — allows reusing the item
+- **Unbounded knapsack:** iterate $w$ from $weight_i$ up to $W$ (forward), allows reusing the item
   within the same iteration
 
 Getting this direction wrong is one of the most common DP bugs.
@@ -542,14 +542,14 @@ def tsp(dist):
 
 ### Pattern 1: Linear DP
 
-State: $dp[i]$ — optimal value for the prefix of length $i$.
+State: $dp[i]$, optimal value for the prefix of length $i$.
 
 Examples: climbing stairs, house robber, coin change, word break, longest increasing subsequence.
 
 ```python
 def longest_increasing_subsequence(nums):
     """
-    LIS — longest strictly increasing subsequence.
+    LIS, longest strictly increasing subsequence.
     Time: O(n log n) using patience sorting
     Space: O(n)
     """
@@ -568,7 +568,7 @@ def longest_increasing_subsequence(nums):
 
 ### Pattern 2: Grid DP
 
-State: $dp[i][j]$ — optimal value for the subproblem ending at position $(i, j)$.
+State: $dp[i][j]$, optimal value for the subproblem ending at position $(i, j)$.
 
 Examples: unique paths, minimum path sum, edit distance, LCS.
 
@@ -588,13 +588,13 @@ def unique_paths(m, n):
 
 ### Pattern 3: Knapsack DP
 
-State: $dp[w]$ — optimal value using capacity $w$.
+State: $dp[w]$, optimal value using capacity $w$.
 
 Examples: 0/1 knapsack, unbounded knapsack, subset sum, partition equal subset sum.
 
 ### Pattern 4: Tree DP
 
-State: $dp[node]$ — optimal value for the subtree rooted at `node`. Combine children's results.
+State: $dp[node]$, optimal value for the subtree rooted at `node`. Combine children's results.
 
 ```python
 def max_path_sum_binary_tree(root):
@@ -624,7 +624,7 @@ Solution. DP considers all possibilities and chooses the globally optimal one.
 
 ### When Greedy Works
 
-Greedy works when the problem has the **greedy-choice property** — a locally optimal choice leads to
+Greedy works when the problem has the **greedy-choice property**, a locally optimal choice leads to
 A globally optimal solution. This holds for matroid structures.
 
 | Problem                    | Greedy?            | DP?                | Greedy Complexity |
@@ -633,9 +633,9 @@ A globally optimal solution. This holds for matroid structures.
 | Fractional knapsack        | Yes                | Yes                | $O(n \log n)$     |
 | Huffman coding             | Yes                | Yes                | $O(n \log n)$     |
 | Dijkstra's shortest path   | Yes (non-negative) | Yes (Bellman-Ford) | $O((V+E) \log V)$ |
-| 0/1 knapsack               | **No**             | Yes                | —                 |
-| Longest common subsequence | **No**             | Yes                | —                 |
-| Edit distance              | **No**             | Yes                | —                 |
+| 0/1 knapsack               | **No**             | Yes                |,                 |
+| Longest common subsequence | **No**             | Yes                |,                 |
+| Edit distance              | **No**             | Yes                |,                 |
 
 ### Activity Selection (Greedy Works)
 
@@ -732,8 +732,8 @@ def knapsack_reconstruct(weights, values, capacity):
 
 The hardest part of DP is defining the state. A good state should be:
 
-- **Sufficient** — the state captures all information needed to make future decisions
-- **Minimal** — the state does not contain redundant information
+- **Sufficient**, the state captures all information needed to make future decisions
+- **Minimal**, the state does not contain redundant information
 
 Common mistake: trying to use too many state variables. Start with a recursive solution, identify
 What parameters change in recursive calls, and those are your state variables.
@@ -768,7 +768,7 @@ A subsequence does not need to be contiguous (LCS, LIS). A subarray/substring mu
 ### 6. Applying DP When Greedy Suffices
 
 Not every optimisation problem needs DP. Activity selection, fractional knapsack, and minimum
-Spanning trees all have greedy solutions. Using DP where greedy works is correct but slower —
+Spanning trees all have greedy solutions. Using DP where greedy works is correct but slower,
 $O(n^2)$ or $O(n \cdot W)$ instead of $O(n \log n)$.
 
 ### 7. Forgetting That Memoisation Does Not Change Recursion Depth

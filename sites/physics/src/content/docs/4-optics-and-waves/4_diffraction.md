@@ -209,7 +209,7 @@ $\theta_{\min} = 1.22\lambda/D = 1.22(550 \times 10^{-9})/(0.150) = 4.47 \times 
 
 Convert to arcseconds: $4.47 \times 10^{-6} \times (180/\pi) \times 3600 = 0.923''$.
 
-Since $0.50'' \lt 0.923''$The telescope cannot resolve these two stars — they would appear as a
+Since $0.50'' \lt 0.923''$The telescope cannot resolve these two stars, they would appear as a
 Single blurred source.
 
 </details>
@@ -227,9 +227,9 @@ Fourier transform** of $t(x,y)$Evaluated at spatial frequencies $k_x/(2\pi)$ and
 **Key consequences:**
 
 1. A lens of focal length $f$Placed one focal length after the aperture, produces the Fourier
-   transform at its back focal plane — it performs an **optical Fourier transform**.
+   transform at its back focal plane, it performs an **optical Fourier transform**.
 2. Narrow features in the aperture (small $a$) produce broad diffraction patterns (large spread in
-   $k$-space), and vice versa — the optical analogue of the uncertainty principle.
+   $k$-space), and vice versa, the optical analogue of the uncertainty principle.
 3. Spatial filtering: by placing masks in the Fourier plane, one can selectively remove or enhance
    spatial frequency components, modifying the image (the basis of optical image processing).
 

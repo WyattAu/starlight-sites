@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-Memory management answers: **how do you give every process its own address space while sharing limited physical RAM?** The solution is virtual memory — each process sees a private, contiguous address space that maps to scattered physical pages. This provides isolation (one process can't corrupt another) and enables overcommitment (using more total memory than physically available).
+Memory management answers: **how do you give every process its own address space while sharing limited physical RAM?** The solution is virtual memory, each process sees a private, contiguous address space that maps to scattered physical pages. This provides isolation (one process can't corrupt another) and enables overcommitment (using more total memory than physically available).
 
 **Paging intuition:** Physical memory is divided into fixed-size frames; virtual memory into pages of the same size. A page table maps each virtual page to a physical frame. When a process accesses a page not currently in RAM, a page fault occurs and the OS loads it from disk. This is slow (milliseconds vs nanoseconds for RAM), so the OS tries to keep frequently-used pages in memory.
 
-**Replacement algorithm intuition:** When physical memory is full, the OS must evict a page. LRU (Least Recently Used) approximates the principle that recently-used pages will be used again. The working set model tracks which pages a process actively uses — if its working set doesn't fit in RAM, the process thrashes (spends more time paging than computing).
+**Replacement algorithm intuition:** When physical memory is full, the OS must evict a page. LRU (Least Recently Used) approximates the principle that recently-used pages will be used again. The working set model tracks which pages a process actively uses, if its working set doesn't fit in RAM, the process thrashes (spends more time paging than computing).
 
 ### 5.1 Contiguous Memory Allocation
 
@@ -94,7 +94,7 @@ _Advantages:_ Reflects program structure; supports sharing individual segments. 
 External fragmentation (variable-size segments).
 
 <details>
-<summary>Worked Example 5.1 — Segmented Address Translation</summary>
+<summary>Worked Example 5.1, Segmented Address Translation</summary>
 
 A process has three segments with the following segment table:
 
@@ -170,7 +170,7 @@ $$\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}$$
 entry. On x86-64: `invlpg` for single-entry invalidation, or reload `CR3` to flush the entire TLB.
 
 <details>
-<summary>Worked Example 5.2 — TLB + Page Fault EAT Calculation</summary>
+<summary>Worked Example 5.2, TLB + Page Fault EAT Calculation</summary>
 
 A system with TLB access time = 2 ns, memory access time = 100 ns, page fault service time = 8 ms,
 TLB hit ratio = 0.80, and page fault rate = 0.0005.
@@ -236,64 +236,64 @@ Approximation with **active** and **inactive** lists: pages on the active list a
 Not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
-<summary>Worked Example 5.3 — Optimal Page Replacement</summary>
+<summary>Worked Example 5.3, Optimal Page Replacement</summary>
 
 Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Three frames.
 
 | Ref | Frame 1 | Frame 2 | Frame 3 | Fault? | Victim                       |
 | --- | ------- | ------- | ------- | ------ | ---------------------------- |
-| 7   | 7       |         |         | Yes    | —                            |
-| 0   | 7       | 0       |         | Yes    | —                            |
-| 1   | 7       | 0       | 1       | Yes    | —                            |
+| 7   | 7       |         |         | Yes    |,                            |
+| 0   | 7       | 0       |         | Yes    |,                            |
+| 1   | 7       | 0       | 1       | Yes    |,                            |
 | 2   | 2       | 0       | 1       | Yes    | 7 (used at 18)               |
-| 0   | 2       | 0       | 1       | No     | —                            |
+| 0   | 2       | 0       | 1       | No     |,                            |
 | 3   | 2       | 3       | 1       | Yes    | 0 (used at 10)               |
 | 0   | 2       | 3       | 0       | Yes    | 1 (used at 14)               |
 | 4   | 2       | 4       | 0       | Yes    | 3 (used at 11)               |
-| 2   | 2       | 4       | 0       | No     | —                            |
+| 2   | 2       | 4       | 0       | No     |,                            |
 | 3   | 3       | 4       | 0       | Yes    | 2 (used at 13)               |
-| 0   | 3       | 4       | 0       | No     | —                            |
-| 3   | 3       | 4       | 0       | No     | —                            |
+| 0   | 3       | 4       | 0       | No     |,                            |
+| 3   | 3       | 4       | 0       | No     |,                            |
 | 2   | 2       | 4       | 0       | Yes    | 3 (used at 11, already past) |
 | 1   | 2       | 1       | 0       | Yes    | 4 (used at $\infty$)         |
-| 2   | 2       | 1       | 0       | No     | —                            |
-| 0   | 2       | 1       | 0       | No     | —                            |
-| 1   | 2       | 1       | 0       | No     | —                            |
+| 2   | 2       | 1       | 0       | No     |,                            |
+| 0   | 2       | 1       | 0       | No     |,                            |
+| 1   | 2       | 1       | 0       | No     |,                            |
 | 7   | 7       | 1       | 0       | Yes    | 2 (used at 13, already past) |
-| 0   | 7       | 1       | 0       | No     | —                            |
-| 1   | 7       | 1       | 0       | No     | —                            |
+| 0   | 7       | 1       | 0       | No     |,                            |
+| 1   | 7       | 1       | 0       | No     |,                            |
 
 Total page faults: **9**. This is the theoretical minimum.
 
 </details>
 
 <details>
-<summary>Worked Example 5.4 — LRU Page Replacement</summary>
+<summary>Worked Example 5.4, LRU Page Replacement</summary>
 
 Same reference string, three frames. LRU replaces the page whose last use was furthest in the past.
 
 | Ref | F1  | F2  | F3  | Fault? | Victim (least recent) |
 | --- | --- | --- | --- | ------ | --------------------- |
-| 7   | 7   |     |     | Yes    | —                     |
-| 0   | 7   | 0   |     | Yes    | —                     |
-| 1   | 7   | 0   | 1   | Yes    | —                     |
+| 7   | 7   |     |     | Yes    |,                     |
+| 0   | 7   | 0   |     | Yes    |,                     |
+| 1   | 7   | 0   | 1   | Yes    |,                     |
 | 2   | 2   | 0   | 1   | Yes    | 7                     |
-| 0   | 2   | 0   | 1   | No     | —                     |
+| 0   | 2   | 0   | 1   | No     |,                     |
 | 3   | 2   | 3   | 1   | Yes    | 0                     |
 | 0   | 0   | 3   | 1   | Yes    | 2                     |
 | 4   | 0   | 4   | 1   | Yes    | 3                     |
 | 2   | 0   | 4   | 2   | Yes    | 1                     |
 | 3   | 3   | 4   | 2   | Yes    | 0                     |
 | 0   | 3   | 0   | 2   | Yes    | 4                     |
-| 3   | 3   | 0   | 2   | No     | —                     |
-| 2   | 3   | 0   | 2   | No     | —                     |
+| 3   | 3   | 0   | 2   | No     |,                     |
+| 2   | 3   | 0   | 2   | No     |,                     |
 | 1   | 1   | 0   | 2   | Yes    | 3                     |
-| 2   | 1   | 0   | 2   | No     | —                     |
-| 0   | 1   | 0   | 2   | No     | —                     |
-| 1   | 1   | 0   | 2   | No     | —                     |
+| 2   | 1   | 0   | 2   | No     |,                     |
+| 0   | 1   | 0   | 2   | No     |,                     |
+| 1   | 1   | 0   | 2   | No     |,                     |
 | 7   | 1   | 0   | 7   | Yes    | 2                     |
-| 0   | 1   | 0   | 7   | No     | —                     |
-| 1   | 1   | 0   | 7   | No     | —                     |
+| 0   | 1   | 0   | 7   | No     |,                     |
+| 1   | 1   | 0   | 7   | No     |,                     |
 
 Total page faults: **12**. LRU produces 33% more faults than optimal, but does not require future
 Knowledge.
@@ -301,7 +301,7 @@ Knowledge.
 </details>
 
 <details>
-<summary>Worked Example 5.5 — Clock (Second Chance) Replacement</summary>
+<summary>Worked Example 5.5, Clock (Second Chance) Replacement</summary>
 
 Same reference string, three frames. Clock hand starts at frame 0. R = reference bit.
 
@@ -351,7 +351,7 @@ references. If $\sum W_i \gt$ available frames, thrashing occurs.
 3. **Local replacement:** Restrict eviction to the process's own frames.
 
 <details>
-<summary>Worked Example 5.6 — Thrashing Analysis</summary>
+<summary>Worked Example 5.6, Thrashing Analysis</summary>
 
 A system has 64 frames of physical memory. Four processes with the following working set sizes
 ($\Delta = 5$ references):
@@ -409,6 +409,6 @@ Just that page.
 
 3. **Confusing thrashing with poor algorithm choice.** Thrashing occurs when the total working set of all processes exceeds physical memory, not because a page replacement algorithm is "bad." Adding more frames or reducing the number of concurrent processes is the correct fix, not switching algorithms.
 
-4. **Ignoring the cost of page faults.** A single page fault requires a disk access (milliseconds), which is orders of magnitude slower than a memory access (nanoseconds). Code that triggers frequent page faults — e.g., iterating over a large array with poor locality — will be dramatically slower than code with good spatial and temporal locality.
+4. **Ignoring the cost of page faults.** A single page fault requires a disk access (milliseconds), which is orders of magnitude slower than a memory access (nanoseconds). Code that triggers frequent page faults, e.g., iterating over a large array with poor locality, will be dramatically slower than code with good spatial and temporal locality.
 
 5. **Assuming `fork()` is expensive without COW.** Without copy-on-write, `fork()` would need to copy every page of the parent's address space, making it O(n) in the number of pages. With COW, only modified pages are copied, making `fork()` followed by `exec()` extremely cheap since the child's pages are never actually copied.

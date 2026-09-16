@@ -324,7 +324,7 @@ Degrades to O(n) in the worst case if all elements hash to the same bucket.
 `LinkedHashSet<E>` extends `HashSet` but overrides the constructor to create a `LinkedHashMap`
 Instead of a `HashMap`. It maintains a doubly-linked list running through all of its entries, which
 Defines the **insertion order**. Unlike `LinkedHashMap``LinkedHashSet` does not support Access-order
-mode — iteration order always matches insertion order. This is the primary reason to Choose
+mode, iteration order always matches insertion order. This is the primary reason to Choose
 `LinkedHashSet` over `HashSet`.
 
 ```java
@@ -1171,11 +1171,11 @@ System.out.println(nullSafeTree);  // [null, Alice]
 
 ## Intuition
 
-**Data structures toolkit:** Collections are like a toolbox — Lists, Sets, Maps, and Queues each solve different problems. Choosing the right one affects performance and correctness.
+**Data structures toolkit:** Collections are like a toolbox, Lists, Sets, Maps, and Queues each solve different problems. Choosing the right one affects performance and correctness.
 
 **Why it matters:** Efficient data storage and retrieval is fundamental to programming. Understanding collections helps you design efficient algorithms.
 
-**The key insight:** Choose your collection based on what you need — fast lookup (Map), ordered sequence (List), or unique elements (Set).
+**The key insight:** Choose your collection based on what you need, fast lookup (Map), ordered sequence (List), or unique elements (Set).
 
 ## Summary of Design Principles
 

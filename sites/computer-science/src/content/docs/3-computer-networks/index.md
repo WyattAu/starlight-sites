@@ -52,11 +52,11 @@ Computer networks enable the exchange of data between devices across local and w
 
 ## Intuition
 
-**A postal system for data:** Networking is like a postal system — your letter (data) gets wrapped in envelopes at each level (headers), routed through sorting offices (routers), and delivered to the right address. Each layer handles a different part of the journey, from physical delivery to addressing.
+**A postal system for data:** Networking is like a postal system, your letter (data) gets wrapped in envelopes at each level (headers), routed through sorting offices (routers), and delivered to the right address. Each layer handles a different part of the journey, from physical delivery to addressing.
 
-**Why it matters:** Every app you use — email, streaming, banking — depends on networks. Understanding protocols, routing, and congestion control explains why downloads are slow, video calls drop, and how data travels securely across the globe.
+**Why it matters:** Every app you use, email, streaming, banking, depends on networks. Understanding protocols, routing, and congestion control explains why downloads are slow, video calls drop, and how data travels securely across the globe.
 
-**The key insight:** Network design is fundamentally about trade-offs — reliability vs. speed, security vs. performance — and layered architecture lets you optimize one layer without breaking the others.
+**The key insight:** Network design is fundamentally about trade-offs, reliability vs. speed, security vs. performance, and layered architecture lets you optimize one layer without breaking the others.
 
 ## Key Concepts
 

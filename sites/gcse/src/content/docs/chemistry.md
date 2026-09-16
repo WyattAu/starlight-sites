@@ -159,7 +159,7 @@ electrons**.
 - Shiny (delocalised electrons absorb and re-emit light at visible wavelengths).
 
 **Alloys:** Mixtures of two or more metals (or a metal and non-metal). Different-sized atoms distort
-the lattice, making it harder for layers to slide — alloys are harder than pure metals.
+the lattice, making it harder for layers to slide, alloys are harder than pure metals.
 
 ---
 
@@ -357,7 +357,7 @@ Hydrocarbons contain only carbon and hydrogen atoms. They are the basis of all o
 
 **General formula:** $\text{C}_n\text{H}_{2n+2}$
 
-Alkanes are **saturated** hydrocarbons — all carbon-carbon bonds are single bonds.
+Alkanes are **saturated** hydrocarbons, all carbon-carbon bonds are single bonds.
 
 | Carbon atoms | Formula                   | Name            | State at room temperature |
 | ------------ | ------------------------- | --------------- | ------------------------- |
@@ -365,7 +365,7 @@ Alkanes are **saturated** hydrocarbons — all carbon-carbon bonds are single bo
 | 2            | $\text{C}_2\text{H}_6$    | Ethane          | Gas                       |
 | 3            | $\text{C}_3\text{H}_8$    | Propane         | Gas                       |
 | 4            | $\text{C}_4\text{H}_{10}$ | Butane          | Gas                       |
-| 5+           | —                         | Pentane onwards | Liquid (then solid)       |
+| 5+           |,                         | Pentane onwards | Liquid (then solid)       |
 
 Properties: burn in air to produce carbon dioxide and water; less viscous and more volatile as chain
 length decreases.
@@ -374,7 +374,7 @@ length decreases.
 
 **General formula:** $\text{C}_n\text{H}_{2n}$
 
-Alkenes are **unsaturated** — they contain at least one carbon-carbon double bond
+Alkenes are **unsaturated**, they contain at least one carbon-carbon double bond
 ($\text{C}=\text{C}$).
 
 **Test for unsaturation:** Bromine water turns from orange to colourless when shaken with an alkene
@@ -394,7 +394,7 @@ Alkenes are **unsaturated** — they contain at least one carbon-carbon double b
 **General formula:** $\text{C}_n\text{H}_{2n+1}\text{COOH}$
 
 - Functional group: $-$COOH (carboxyl group).
-- Weak acids — partially ionise in solution.
+- Weak acids, partially ionise in solution.
 - Ethanoic acid ($\text{CH}_3\text{COOH}$) is found in vinegar.
 - React with alcohols to form **esters** (condensation reaction).
 
@@ -474,17 +474,17 @@ same solvent under the same conditions.
 
 **Tests for specific ions:**
 
-- $\text{Cu}^{2+}$: Add sodium hydroxide — blue precipitate.
-- $\text{Fe}^{2+}$: Add sodium hydroxide — green precipitate.
-- $\text{Fe}^{3+}$: Add sodium hydroxide — brown precipitate.
+- $\text{Cu}^{2+}$: Add sodium hydroxide, blue precipitate.
+- $\text{Fe}^{2+}$: Add sodium hydroxide, green precipitate.
+- $\text{Fe}^{3+}$: Add sodium hydroxide, brown precipitate.
 - $\text{OH}^-$: Universal indicator turns blue/purple.
-- $\text{Cl}^-$: Add dilute $\text{HNO}_3$ then $\text{AgNO}_3$ — white precipitate (soluble in
+- $\text{Cl}^-$: Add dilute $\text{HNO}_3$ then $\text{AgNO}_3$, white precipitate (soluble in
   dilute ammonia).
-- $\text{Br}^-$: Same test — cream precipitate (partially soluble in dilute ammonia).
-- $\text{I}^-$: Same test — yellow precipitate (insoluble in dilute ammonia).
-- $\text{SO}_4^{2-}$: Add dilute $\text{HCl}$ then $\text{BaCl}_2$ — white precipitate insoluble in
+- $\text{Br}^-$: Same test, cream precipitate (partially soluble in dilute ammonia).
+- $\text{I}^-$: Same test, yellow precipitate (insoluble in dilute ammonia).
+- $\text{SO}_4^{2-}$: Add dilute $\text{HCl}$ then $\text{BaCl}_2$, white precipitate insoluble in
   acids.
-- $\text{CO}_3^{2-}$: Add dilute acid — effervescence; gas turns limewater cloudy.
+- $\text{CO}_3^{2-}$: Add dilute acid, effervescence; gas turns limewater cloudy.
 
 ### 6.5 Instrumental Methods
 
@@ -545,7 +545,7 @@ This can be measured as mass of gas produced, volume of gas, or change in concen
 
 ### 7.4 Reversible Reactions
 
-Some reactions are reversible — the products can react to reform the original reactants.
+Some reactions are reversible, the products can react to reform the original reactants.
 
 $$\text{A} + \text{B} \rightleftharpoons \text{C} + \text{D}$$
 

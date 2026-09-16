@@ -274,8 +274,8 @@ nested :: ((Int, Int), String)
 nested = ((1, 2), "nested")
 
 -- Tuple type constructor
--- (,) :: a -> b -> (a, b)
--- (,,) :: a -> b -> c -> (a, b, c)
+-- () :: a -> b -> (a, b)
+-- () :: a -> b -> c -> (a, b, c)
 ```
 
 ### Tuple Operations
@@ -390,8 +390,8 @@ elem :: (Eq a) => a -> [a] -> Bool
 ['A'..'Z']      -- => "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 -- Infinite ranges (safe because of laziness)
-naturals = [0..]           -- [0, 1, 2, 3, ...]
-evens = [0, 2..]           -- [0, 2, 4, 6, ...]
+naturals = [0..]           -- [0, 1, 2, 3...]
+evens = [0, 2..]           -- [0, 2, 4, 6...]
 ```
 
 ### List Comprehensions
@@ -419,11 +419,11 @@ pythagorean :: [(Int, Int, Int)]
 pythagorean =
   [ (a, b, c)
   | c <- [1..50]
-  , b <- [1..c]
-  , a <- [1..b]
-  , a^2 + b^2 == c^2
+b <- [1..c]
+a <- [1..b]
+a^2 + b^2 == c^2
   ]
--- => [(3,4,5), (6,8,10), (5,12,13), (9,12,15), ...]
+-- => [(3,4,5), (6,8,10), (5,12,13), (9,12,15)...]
 ```
 
 ### Comprehension Transformations
@@ -502,7 +502,7 @@ doubleAndInc = (+1) . (*2)
 -- 9: !! (index)
 -- 8: *, /, `div`, `mod`
 -- 7: +, -
--- 6: ++, :, (comparisons)
+-- 6: ++:, (comparisons)
 -- 5: ==, /=, <, >, <=, >=
 -- 4: &&, $, $!
 -- 3: ||, ^^
@@ -668,7 +668,7 @@ filter (/= ' ') "h e l l o" -- => "hello"
 
 ```haskell
 -- foldr :: (a -> b -> b) -> b -> [a] -> b
--- foldr f z [x1, x2, ..., xn] = x1 `f` (x2 `f` (... (xn `f` z)))
+-- foldr f z [x1, x2..., xn] = x1 `f` (x2 `f` (... (xn `f` z)))
 foldr :: (a -> b -> b) -> b -> [a] -> b
 foldr _ z []     = z
 foldr f z (x:xs) = f x (foldr f z xs)
@@ -689,7 +689,7 @@ foldr (:) [] [1, 2, 3]    -- => 1 : (2 : (3 : [])) = [1, 2, 3]
 
 ```haskell
 -- foldl :: (b -> a -> b) -> b -> [a] -> b
--- foldl f z [x1, x2, ..., xn] = (...((z `f` x1) `f` x2)...) `f` xn
+-- foldl f z [x1, x2..., xn] = (...((z `f` x1) `f` x2)...) `f` xn
 foldl :: (b -> a -> b) -> b -> [a] -> b
 foldl _ acc []     = acc
 foldl f acc (x:xs) = foldl f (f acc x) xs
@@ -745,7 +745,7 @@ scanr (+) 0 [1, 2, 3, 4]  -- => [10, 9, 7, 4, 0]
 
 -- Useful for fibonacci-like sequences
 fibs = scanl (+) 0 (1 : fibs)
--- => [0, 1, 1, 2, 3, 5, 8, 13, ...]
+-- => [0, 1, 1, 2, 3, 5, 8, 13...]
 ```
 
 ### zipWith and friends
@@ -827,9 +827,9 @@ flowchart TD
 
 **Types are contracts, functions are machines:** In Haskell, a type signature like `Int -> Int -> Int` is a contract that says "this machine takes two integers and produces an integer." The compiler verifies that every machine honors its contract. Currying is the assembly line trick: instead of one machine that takes two parts, you have a machine that takes one part and returns a *new machine* that takes the second part. Partial application is snapping the first machine onto the line and getting a custom machine for free.
 
-**Why it matters:** Haskell's type system is so powerful that the types alone tell you what a function does. A function with type `[a] -> [a]` *must* rearrange elements without adding or removing any — the type forces this behavior. This makes code self-documenting and enables refactoring with confidence.
+**Why it matters:** Haskell's type system is so powerful that the types alone tell you what a function does. A function with type `[a] -> [a]` *must* rearrange elements without adding or removing any, the type forces this behavior. This makes code self-documenting and enables refactoring with confidence.
 
-**The key insight:** In Haskell, "partial application" isn't a special feature — it's the default. Every function takes exactly one argument and returns either a result or another function, which means you can compose and transform functions like building blocks.
+**The key insight:** In Haskell, "partial application" isn't a special feature, it's the default. Every function takes exactly one argument and returns either a result or another function, which means you can compose and transform functions like building blocks.
 
 ## Putting It All Together
 
@@ -886,6 +886,6 @@ wordFrequenciesLet text =
 ## Common Mistakes
 
 - **Confusing function application with function composition:** `f . g` composes two functions (outputs of `g` feed into `f`), while `f g` applies `f` to the argument `g`. Beginners often write `f . g x` when they mean `(f . g) x`.
-- **Ignoring type signatures in GHCi:** When testing a function, always check its type with `:t`. A type mismatch is almost always a logic error. GHCi's type inference is precise — trust it.
+- **Ignoring type signatures in GHCi:** When testing a function, always check its type with `:t`. A type mismatch is almost always a logic error. GHCi's type inference is precise, trust it.
 - **Overusing `where` clauses instead of `let` or point-free style:** Nested `where` clauses can obscure scope. Use `let` for local bindings that are evidently scoped, and point-free style only when it improves readability, not as an end in itself.
 - **Forgetting that Haskell is lazy by default:** Expressions are not evaluated until their results are needed. This can cause space leaks where thunks accumulate in memory. Use `seq`, bang patterns (`!`), or `StrictData` to force evaluation when necessary.

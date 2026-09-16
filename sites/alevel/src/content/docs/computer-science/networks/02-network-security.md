@@ -71,7 +71,7 @@ AES is the most widely used symmetric encryption algorithm.
 ### Key Distribution Problem
 
 Symmetric encryption requires both parties to share the same secret key. Distributing this key
-Securely is a fundamental challenge — if the key is intercepted during exchange, the encryption is
+Securely is a fundamental challenge, if the key is intercepted during exchange, the encryption is
 Compromised.
 
 <hr />
@@ -289,7 +289,7 @@ Decrypted message: 7. ✓
 <summary>Answer</summary>
 
 Symmetric encryption (e.g., AES) uses simple operations: substitution boxes (S-boxes), bit
-Permutations, and XOR — all of which are fast hardware operations. AES-128 requires only 10 rounds
+Permutations, and XOR, all of which are fast hardware operations. AES-128 requires only 10 rounds
 Of these operations.
 
 Asymmetric encryption (e.g., RSA) relies on computationally expensive mathematical operations:
@@ -415,7 +415,7 @@ This demonstrates:
 
 1. **Determinism:** The same input always produces the same output
 2. **Avalanche effect:** Changing a single character ("a" vs "") produces a completely different
-   hash — no similarity between the two outputs
+   hash, no similarity between the two outputs
 3. **Fixed output size:** Both hashes are 256 bits (64 hex characters), regardless of input length
 
 </details>
@@ -480,7 +480,7 @@ A company web server (IP `203.0.113.10`) needs the following access:
 | 3    | Inbound   | 10.0.0.0/24 | 203.0.113.10 | 22   | TCP      | Allow  |
 | 4    | Inbound   | Any         | Any          | Any  | Any      | Deny   |
 
-Rule 4 is the **default deny** rule — it blocks everything not explicitly allowed. Rules are
+Rule 4 is the **default deny** rule, it blocks everything not explicitly allowed. Rules are
 Processed top-to-bottom, so the specific rules (1-3) are evaluated before the catch-all deny.
 
 ### Worked Example: Symmetric vs Asymmetric Encryption in HTTPS
@@ -488,7 +488,7 @@ Processed top-to-bottom, so the specific rules (1-3) are evaluated before the ca
 HTTPS uses **both** symmetric and asymmetric encryption:
 
 1. **Asymmetric encryption** (RSA or ECDHE) is used during the TLS handshake to establish a shared
-   secret. This is slow but solves the key distribution problem — the client and server never
+   secret. This is slow but solves the key distribution problem, the client and server never
    transmit the secret directly.
 2. **Symmetric encryption** (AES-256-GCM) is used for all subsequent data transfer. This is fast and
    provides confidentiality and integrity.
@@ -538,7 +538,7 @@ cursor.execute(
 1. **Input validation:** Reject characters that have no legitimate purpose (e.g., `;``'``--` `/*`)
 
 2. **Least privilege:** The application's database account should only have permissions for the
-   operations it needs (SELECT, INSERT — not DROP, ALTER)
+   operations it needs (SELECT, INSERT, not DROP, ALTER)
 
 3. **Stored procedures:** Pre-compiled SQL that accepts parameters, preventing injection at the
    database layer
@@ -559,7 +559,7 @@ cursor.execute(
 | DNS amplification | L3/L7            | Sends small queries to open DNS resolvers with the victim's spoofed IP, causing a massive response |
 
 **SYN flood** exploits the TCP handshake: the server allocates resources for each half-open
-Connection. When the table fills, legitimate connections are dropped. **Mitigation:** SYN cookies —
+Connection. When the table fills, legitimate connections are dropped. **Mitigation:** SYN cookies,
 The server encodes state in the SYN-ACK without allocating memory until the ACK is received.
 
 **DNS amplification** exploits the large response-to-request ratio of DNS queries. A 60-byte request
@@ -598,7 +598,7 @@ Rule 1: Source matches `10.0.0.0/24` (yes, `10.0.0.5` is in this range), destina
 `192.168.1.10`But port 80 does not match port 22. Rule 1 does not apply.
 
 Rule 2: Source is "Any" (matches), destination matches `192.168.1.10`Port 80 matches port 80. Rule 2
-applies — **Allow**.
+applies, **Allow**.
 
 The packet is allowed by Rule 2.
 
@@ -651,7 +651,7 @@ The internet, and describe how asymmetric encryption solves this problem.
 <summary>Answer</summary>
 
 Symmetric encryption requires both parties to share the same secret key. Sending this key over the
-Internet exposes it to interception — a chicken-and-egg problem: you need a secure channel to
+Internet exposes it to interception, a chicken-and-egg problem: you need a secure channel to
 Establish the key, but you need the key to create a secure channel.
 
 Asymmetric encryption solves this because the public key can be transmitted openly. The sender
@@ -681,7 +681,7 @@ Network security.
 
 3. **Fail-safe defaults:** Systems should default to the most secure configuration. If a rule or
 Configuration is missing, the system should deny access rather than allow it. Example: a firewall's
-Final rule should be "deny all" — anything not explicitly permitted is blocked.
+Final rule should be "deny all", anything not explicitly permitted is blocked.
 
 </details>
 

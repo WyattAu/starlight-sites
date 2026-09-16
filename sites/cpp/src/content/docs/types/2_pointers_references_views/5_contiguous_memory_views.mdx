@@ -126,7 +126,7 @@ Preserved through the span interface.
 ## 5. Subviews and Splitting
 
 `std::span` provides `first()``last()`And `subspan()` for creating views into subsets of the Data.
-These operations return new `span` objects and are **O(1)** — no data is copied.
+These operations return new `span` objects and are **O(1)**, no data is copied.
 
 ```cpp
 void parse_header(std::span<const uint8_t> packet) \{
@@ -193,7 +193,7 @@ void send_packet(int fd, std::span<const std::byte> data) \{
     write(fd, data.data(), data.size());
 \}
 
-PacketHeader hdr\{.magic = 0xDEADBEEF, .type = 1, .flags = 0\};
+PacketHeader hdr\{.magic = 0xDEADBEEF.type = 1.flags = 0\};
 send_packet(fd, std::as_bytes(std::span\{&hdr, 1\}));
 ```
 
@@ -542,19 +542,19 @@ Policies.
 
 ## See Also
 
-- **Module 8: String Views and SSO** — `std::string_view` as the character-specific specialization.
-- **Module 7: Data Layout** — Contiguity, alignment, `sizeof``std::byte`.
-- **Module 8: Pointers and References** — Array decay, `std::nullptr_t`Pointer arithmetic.
-- **`std::span`** — [N4950 §22.7.3], C++20.
-- **`std::mdspan`** — [N4950 §22.7.4], C++23 (multi-dimensional views).
+- **Module 8: String Views and SSO**, `std::string_view` as the character-specific specialization.
+- **Module 7: Data Layout**, Contiguity, alignment, `sizeof``std::byte`.
+- **Module 8: Pointers and References**, Array decay, `std::nullptr_t`Pointer arithmetic.
+- **`std::span`**, [N4950 §22.7.3], C++20.
+- **`std::mdspan`**, [N4950 §22.7.4], C++23 (multi-dimensional views).
 
 ## Intuition
 
-**Continuous data access:** Contiguous memory views are like windows into arrays — they provide safe, efficient access to sequential data without copying.
+**Continuous data access:** Contiguous memory views are like windows into arrays, they provide safe, efficient access to sequential data without copying.
 
 **Why it matters:** Contiguous memory views enable efficient algorithms and safe interfaces, especially for string and array processing.
 
-**The key insight:** std::string_view is non-owning — it doesn't manage the memory, so the underlying data must outlive the view.
+**The key insight:** std::string_view is non-owning, it doesn't manage the memory, so the underlying data must outlive the view.
 
 
 ```mermaid

@@ -53,45 +53,45 @@ This section covers measurement techniques, error analysis, and experimental des
 
 ### Measurements and Error Analysis
 
-- **Systematic errors** — consistent offset in measurements (e.g., zero error on a micrometer);
+- **Systematic errors**, consistent offset in measurements (e.g., zero error on a micrometer);
   cannot be reduced by averaging
-- **Random errors** — unpredictable fluctuations; reduced by repeating measurements and calculating
+- **Random errors**, unpredictable fluctuations; reduced by repeating measurements and calculating
   a mean
-- **Precision vs. accuracy** — precise results are close together; accurate results are close to the
+- **Precision vs. accuracy**, precise results are close together; accurate results are close to the
   true value; a measurement can be precise without being accurate
-- **Absolute, fractional, and percentage uncertainties** — $\delta x$, $\frac{\delta x}{x}$,
+- **Absolute, fractional, and percentage uncertainties**, $\delta x$, $\frac{\delta x}{x}$,
   $\frac{\delta x}{x} \times 100\%$
-- **Combining uncertainties** — addition/subtraction: add absolute uncertainties;
+- **Combining uncertainties**, addition/subtraction: add absolute uncertainties;
   multiplication/division: add percentage uncertainties; power: multiply percentage uncertainty by
   the power
-- **Error bars and lines of best/worst fit** — visual representation of uncertainty on graphs;
+- **Error bars and lines of best/worst fit**, visual representation of uncertainty on graphs;
   determining uncertainty in gradient
 
 ### Experimental Design
 
-- **Variables** — independent (you change), dependent (you measure), control (you keep constant)
-- **Methodology** — writing a clear, repeatable procedure; identifying key measurements; choosing
+- **Variables**, independent (you change), dependent (you measure), control (you keep constant)
+- **Methodology**, writing a clear, repeatable procedure; identifying key measurements; choosing
   appropriate ranges and intervals
-- **Instrument selection** — choosing the right tool for the required precision (ruler vs. vernier
+- **Instrument selection**, choosing the right tool for the required precision (ruler vs. vernier
   calliper vs. micrometer)
-- **Risk assessment** — identifying hazards, assessing risk level, stating precautions
+- **Risk assessment**, identifying hazards, assessing risk level, stating precautions
 
 ### Data Analysis
 
-- **Graphs** — choosing appropriate axes, scales, and units; plotting data points with error bars;
+- **Graphs**, choosing appropriate axes, scales, and units; plotting data points with error bars;
   drawing lines of best fit
-- **Determining relationships** — using log-log plots to identify power laws ($y = kx^n$); using
+- **Determining relationships**, using log-log plots to identify power laws ($y = kx^n$); using
   log-linear plots for exponential relationships ($y = ka^x$)
-- **Calculating gradients and intercepts** — using the line of best fit to find physical quantities;
+- **Calculating gradients and intercepts**, using the line of best fit to find physical quantities;
   calculating uncertainty in the gradient using worst-fit lines
-- **Anomalous results** — identifying and explaining outliers; deciding whether to exclude them
+- **Anomalous results**, identifying and explaining outliers; deciding whether to exclude them
 
 ### Evaluation
 
-- **Reliability** — are the results repeatable and reproducible?
-- **Validity** — does the experiment actually test what it claims to test? Have control variables
+- **Reliability**, are the results repeatable and reproducible?
+- **Validity**, does the experiment actually test what it claims to test? Have control variables
   been maintained?
-- **Improvements** — suggesting specific, practical improvements to reduce uncertainty, improve
+- **Improvements**, suggesting specific, practical improvements to reduce uncertainty, improve
   reliability, or extend the investigation
 
 ## Study Tips

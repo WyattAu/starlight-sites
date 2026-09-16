@@ -1,13 +1,13 @@
 ---
-title: "University Admissions Glossary — Key Terms and Definitions"
-description: "Study notes for University Admissions Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "University Admissions Glossary, Key Terms and Definitions"
+description: "Study notes for University Admissions Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
 
 ## Admissions Systems
 
-**Holistic Admissions**: Evaluating the whole applicant — academics, essays, extracurriculars, recommendations — not just grades.
+**Holistic Admissions**: Evaluating the whole applicant, academics, essays, extracurriculars, recommendations, not just grades.
 
 **Common Application**: A platform used by over 900 universities for US undergraduate admissions.
 
@@ -21,9 +21,9 @@ tags: [glossary]
 
 **Direct Application**: Applying directly to a university through its own portal rather than a shared platform.
 
-**Early Decision (ED)**: A binding early application — if accepted, you must attend. Typically due November 1.
+**Early Decision (ED)**: A binding early application, if accepted, you must attend. Typically due November 1.
 
-**Early Action (EA)**: A non-binding early application — you receive a decision early without commitment.
+**Early Action (EA)**: A non-binding early application, you receive a decision early without commitment.
 
 **Regular Decision (RD)**: The standard application deadline, typically January 1–15.
 
@@ -53,7 +53,7 @@ tags: [glossary]
 
 ## Personal Statements and Essays
 
-**Hook**: A compelling opening that draws the reader in — a specific moment, image, or question.
+**Hook**: A compelling opening that draws the reader in, a specific moment, image, or question.
 
 **Show, Don't Tell**: Using concrete examples and experiences rather than abstract claims.
 
@@ -111,7 +111,7 @@ tags: [glossary]
 
 **Initiative**: Starting something new rather than only joining existing activities.
 
-**Impact**: Measurable outcomes — funds raised, people served, projects completed.
+**Impact**: Measurable outcomes, funds raised, people served, projects completed.
 
 **Sustained Commitment**: Long-term involvement over years, not a flurry of senior-year activity.
 
@@ -177,7 +177,7 @@ tags: [glossary]
 
 **Yield**: The percentage of admitted students who actually enroll.
 
-**National Decision Day**: May 1 — the deadline to confirm your enrolment at a US university.
+**National Decision Day**: May 1, the deadline to confirm your enrolment at a US university.
 
 **Deferral from Waitlist**: Being offered admission after the initial decision round.
 

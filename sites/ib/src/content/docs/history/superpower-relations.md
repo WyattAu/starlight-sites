@@ -50,7 +50,7 @@ On 12 March 1947, President Truman outlined the policy of containment:
 - $400 million in aid to Greece and Turkey.
 - The Marshall Plan (1948) extended economic reconstruction aid to Western Europe, explicitly excluding the USSR and its satellites.
 
-**Key Term:** *Containment* — the US foreign policy doctrine of preventing the expansion of Soviet communism through a combination of military alliances, economic aid, and political pressure, articulated by George Kennan in his "Long Telegram" (1946) and "X Article" (1947).
+**Key Term:** *Containment*, the US foreign policy doctrine of preventing the expansion of Soviet communism through a combination of military alliances, economic aid, and political pressure, articulated by George Kennan in his "Long Telegram" (1946) and "X Article" (1947).
 
 ---
 
@@ -76,14 +76,14 @@ On 12 March 1947, President Truman outlined the policy of containment:
 
 - Khrushchev issued an ultimatum demanding that the Western powers withdraw from Berlin and that West Berlin become a "free city" within six months.
 - The deadline passed without confrontation, but the crisis persisted.
-- The construction of the Berlin Wall on 13 August 1961 was the Soviet response to the massive exodus of East Germans to the West — an estimated 3.5 million had fled between 1945 and 1961.
+- The construction of the Berlin Wall on 13 August 1961 was the Soviet response to the massive exodus of East Germans to the West, an estimated 3.5 million had fled between 1945 and 1961.
 
 ### The Third Berlin Crisis (1961)
 
 - The Checkpoint Charlie confrontation (October 1961): US and Soviet tanks faced each other at the crossing point. The incident was resolved through diplomacy but highlighted the risk of direct military confrontation.
 - The Berlin Wall became the most visible symbol of the Cold War division of Europe.
 
-**Key Term:** *Berlin Blockade* — the Soviet attempt to force the Western Allies out of West Berlin by severing all land and water access, countered by the Berlin Airlift, which demonstrated Western resolve to maintain their position.
+**Key Term:** *Berlin Blockade*, the Soviet attempt to force the Western Allies out of West Berlin by severing all land and water access, countered by the Berlin Airlift, which demonstrated Western resolve to maintain their position.
 
 ---
 
@@ -102,7 +102,7 @@ On 12 March 1947, President Truman outlined the policy of containment:
 
 - The US monopoly on atomic weapons ended in 1949 when the USSR successfully tested its first atomic bomb.
 - The hydrogen bomb was developed by the US (1952) and the USSR (1953).
-- By the 1960s, both superpowers possessed enough nuclear weapons to destroy civilisation many times over — a condition termed "mutually assured destruction" (MAD).
+- By the 1960s, both superpowers possessed enough nuclear weapons to destroy civilisation many times over, a condition termed "mutually assured destruction" (MAD).
 
 ### The Cuban Missile Crisis (1962)
 
@@ -114,7 +114,7 @@ The most dangerous moment of the Cold War:
 - Khrushchev agreed to remove the missiles in exchange for a US pledge not to invade Cuba and a secret agreement to remove US Jupiter missiles from Turkey.
 - The crisis led to the establishment of the Moscow–Washington hotline (1963) and the Partial Nuclear Test Ban Treaty (1963).
 
-**Key Term:** *Mutually Assured Destruction (MAD)* — the strategic doctrine in which both superpowers maintained sufficient nuclear capability to guarantee the destruction of the other in the event of a first strike, thereby deterring either side from initiating nuclear war.
+**Key Term:** *Mutually Assured Destruction (MAD)*, the strategic doctrine in which both superpowers maintained sufficient nuclear capability to guarantee the destruction of the other in the event of a first strike, thereby deterring either side from initiating nuclear war.
 
 ---
 
@@ -133,7 +133,7 @@ The most dangerous moment of the Cold War:
 
 - The Cuban Missile Crisis demonstrated the catastrophic risk of uncontrolled escalation.
 - Both superpowers sought to manage their rivalry through diplomacy and arms control.
-- Nixon and Kissinger pursued a strategy of "linkage" — connecting progress on different issues to create incentives for cooperation.
+- Nixon and Kissinger pursued a strategy of "linkage", connecting progress on different issues to create incentives for cooperation.
 
 ### Key Agreements
 
@@ -170,7 +170,7 @@ The most dangerous moment of the Cold War:
 ### Foreign Policy Revolution
 
 - Gorbachev abandoned the Brezhnev Doctrine, which had justified Soviet military intervention in socialist states.
-- The "Sinatra Doctrine" — allowing Eastern Bloc states to determine their own internal affairs.
+- The "Sinatra Doctrine", allowing Eastern Bloc states to determine their own internal affairs.
 - The fall of the Berlin Wall (9 November 1989) was a direct consequence of Gorbachev's refusal to use force to maintain the East German regime.
 - German reunification (3 October 1990) was achieved peacefully through the Two Plus Four negotiations.
 
@@ -256,8 +256,8 @@ The most dangerous moment of the Cold War:
 
 Cold War superpower relations connects to several IB Paper 2 topics:
 
-- **Topic 2 — Causes and Effects of Wars:** The Cold War as a "long war," its origins, proxy conflicts, and eventual resolution.
-- **Topic 5 — Cold War Superpower Tensions:** The primary topic for this material, covering crises, detente, and the end of the Cold War.
+- **Topic 2, Causes and Effects of Wars:** The Cold War as a "long war," its origins, proxy conflicts, and eventual resolution.
+- **Topic 5, Cold War Superpower Tensions:** The primary topic for this material, covering crises, detente, and the end of the Cold War.
 
 ### Essay Strategies
 

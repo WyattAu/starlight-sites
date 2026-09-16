@@ -271,7 +271,7 @@ No overflow (negative + positive never overflows).
 </details>
 
 <details>
-<summary>Example: Overflow — Add $6$ and $5$ in 4-bit two's complement</summary>
+<summary>Example: Overflow, Add $6$ and $5$ in 4-bit two's complement</summary>
 
 $6 = 0110_2$, $5 = 0101_2$
 
@@ -358,7 +358,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
 - A $k$-digit decimal number requires $4k$ bits in BCD
 - BCD is less space-efficient than pure binary: e.g., $999_{10}$ requires 12 bits in BCD but only 10
   bits in pure binary ($1111100111_2$)
-- BCD avoids rounding errors in decimal arithmetic — useful in financial systems
+- BCD avoids rounding errors in decimal arithmetic, useful in financial systems
 
 :::caution
 Is $00010010_2$NOT $1100_2$.
@@ -381,7 +381,7 @@ Standard representing 128 characters:
 **Key property:** The codes for uppercase and lowercase letters differ by exactly $32$ ($2^5$), so
 Bit 5 distinguishes them. Specifically, 'A' = $65$ and 'a' = $97$.
 
-Extended ASCII uses 8 bits (256 characters) but is not standardised — various extensions exist.
+Extended ASCII uses 8 bits (256 characters) but is not standardised, various extensions exist.
 
 ### Unicode
 
@@ -391,7 +391,7 @@ Every writing system. Key facts:
 - Unicode assigns a unique **code point** to each character, written as `U+XXXX` (e.g., 'A' =
   `U+0041`'€' = `U+20AC`)
 - As of Unicode 15.0, there are over 149,000 characters across 161 scripts
-- Unicode is an abstract standard — it defines code points, not how they are stored in bytes
+- Unicode is an abstract standard, it defines code points, not how they are stored in bytes
 
 ### UTF-8 Encoding
 
@@ -624,7 +624,7 @@ The first student is correct for two's complement interpretation. The MSB is 1, 
 
 Value: $- (2^4 - 13) = -(16 - 13) = -3$. ✓
 
-The second student is interpreting it as an unsigned number: $8 + 4 + 1 = 13$. This is also valid —
+The second student is interpreting it as an unsigned number: $8 + 4 + 1 = 13$. This is also valid,
 The bit pattern is the same, but the interpretation differs. Context determines which encoding is
 Used.
 
@@ -649,7 +649,7 @@ $\mathrm{TwosComp}_n(y) = 2^n - y = 2^n - (2^n - x) = x$. ✓
 
 The exception is $x = -2^{n-1}$Whose two's complement is
 $2^n - (-2^{n-1}) = 2^n + 2^{n-1} = 2^{n-1} \cdot 3$Which exceeds $n$ bits. In $n$-bit arithmetic,
-$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$Which is the bit pattern $100\ldots0$ — the same as
+$2^n - (-2^{n-1}) \bmod 2^n = 2^{n-1}$Which is the bit pattern $100\ldots0$, the same as
 $-2^{n-1}$. So $-2^{n-1}$ is its own two's complement.
 
 </details>

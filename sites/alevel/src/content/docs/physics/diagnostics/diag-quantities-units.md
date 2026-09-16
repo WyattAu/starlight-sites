@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
-## Quantities and Units — Diagnostic Tests
+## Quantities and Units, Diagnostic Tests
 
 ## Unit Tests
 

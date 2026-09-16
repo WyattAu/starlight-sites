@@ -465,7 +465,7 @@ View of memory. The MESI protocol guarantees that, given sufficient time, all wr
 All caches.
 
 **Memory model** is a software contract: it defines which values a read may return and what ordering
-Guarantees exist. The C++ memory model [N4950 §6.9.2.2] is weaker than hardware cache coherence — it
+Guarantees exist. The C++ memory model [N4950 §6.9.2.2] is weaker than hardware cache coherence, it
 Allows certain reorderings that cache coherence alone would prevent.
 
 The distinction matters because:
@@ -554,7 +554,7 @@ On the bus asynchronously.
 
 This creates a subtle ordering problem: the CPU can read its own subsequent loads from the store
 Buffer (store forwarding) before the write is visible to other cores. This is one reason why memory
-Barriers exist — they force the store buffer to drain before subsequent loads can proceed.
+Barriers exist, they force the store buffer to drain before subsequent loads can proceed.
 
 For C++ atomics, `memory_order_release` ensures all prior stores are visible before the release
 Operation. On x86, the Total Store Order (TSO) model already guarantees that stores are visible to
@@ -567,11 +567,11 @@ AMD processors use a five-state extension of MESI called **MOESI**, adding an **
 
 | State | Description                                                                                                                                                    |
 | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **M** | Modified — differs from memory, no other copies exist                                                                                                          |
-| **O** | Owned — differs from memory, but Shared copies may exist in other caches. On read miss, the Owned cache supplies data directly without writing back to memory. |
-| **E** | Exclusive — matches memory, no other copies exist                                                                                                              |
-| **S** | Shared — matches memory, copies may exist in other caches                                                                                                      |
-| **I** | Invalid — not cached                                                                                                                                           |
+| **M** | Modified, differs from memory, no other copies exist                                                                                                          |
+| **O** | Owned, differs from memory, but Shared copies may exist in other caches. On read miss, the Owned cache supplies data directly without writing back to memory. |
+| **E** | Exclusive, matches memory, no other copies exist                                                                                                              |
+| **S** | Shared, matches memory, copies may exist in other caches                                                                                                      |
+| **I** | Invalid, not cached                                                                                                                                           |
 
 The Owned state eliminates the write-back-to-memory step when a Modified line is read by another
 Core: the data is transferred cache-to-cache, reducing main memory traffic. This is particularly
@@ -597,7 +597,7 @@ perf c2c report
 
 The `perf c2c` tool is specifically designed for cache-to-cache transfer analysis and directly
 Identifies false sharing by correlating cache miss addresses with data structure offsets. On Intel
-CPUs, the `offcore_response` PMU events distinguish between local and remote cache accesses — remote
+CPUs, the `offcore_response` PMU events distinguish between local and remote cache accesses, remote
 DRAM accesses suggest NUMA effects, while high cache-to-cache transfer counts suggest false sharing.
 
 ## Cache Coherency in Lock-Free Algorithms
@@ -618,7 +618,7 @@ struct Spinlock {
 
     void lock() {
         while (locked.exchange(true, std::memory_order_acquire)) {
-            // spin — each iteration issues an atomic RMW on the cache line
+            // spin, each iteration issues an atomic RMW on the cache line
             // If the line is in Modified state on another core,
             // this causes cache-to-cache transfer
         }
@@ -660,7 +660,7 @@ int main() {
 
 Under heavy contention, the spinlock's cache line ping-pongs between cores in Modified state. Each
 `exchange` operation requires an RFO, invalidating all other copies. This is the fundamental reason
-Why spinlocks scale poorly beyond a few threads — the coherence traffic grows linearly with thread
+Why spinlocks scale poorly beyond a few threads, the coherence traffic grows linearly with thread
 Count.
 
 ### Backoff Strategies
@@ -672,7 +672,7 @@ void lock_with_backoff() {
     int delay = 1;
     while (locked.exchange(true, std::memory_order_acquire)) {
         for (int i = 0; i < delay; ++i) {
-            // spin locally — no coherence traffic
+            // spin locally, no coherence traffic
         }
         if (delay < 1024) delay *= 2;
         // After max delay, optionally yield the thread

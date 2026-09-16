@@ -203,7 +203,7 @@ The engine tries every possible partition of the `a` characters between the two 
 #include <string>
 
 void catastrophic_backtracking_demo() {
-    // SAFE: no nested quantifiers — linear time
+    // SAFE: no nested quantifiers, linear time
     std::regex safe_pattern(R"(^a+b$)");
     std::string dangerous_input(30, 'a');  // "aaa...a" (no trailing 'b')
 
@@ -214,7 +214,7 @@ void catastrophic_backtracking_demo() {
               << " (" << std::chrono::duration<double, std::milli>(elapsed_safe).count()
               << " ms)\n";
 
-    // DANGEROUS: nested quantifiers — exponential time
+    // DANGEROUS: nested quantifiers, exponential time
     std::regex dangerous_pattern(R"(^(a+)+b$)");
 
     start = std::chrono::steady_clock::now();
@@ -265,11 +265,11 @@ int main() {
     std::regex ci_pattern("hello", std::regex::icase);
     std::cout << std::regex_search(text, ci_pattern) << "\n";  // true
 
-    // No capture groups — faster for simple searches
+    // No capture groups, faster for simple searches
     std::regex simple(R"(\d+)", std::regex::nosubs);
     std::cout << std::regex_search("abc 123 def", simple) << "\n";  // true
 
-    // POSIX extended — different syntax
+    // POSIX extended, different syntax
     std::regex posix_ext("[[:digit:]]+", std::regex::extended);
     std::cout << std::regex_search("abc 456", posix_ext) << "\n";  // true
 }
@@ -389,11 +389,11 @@ int main() {
 int main() {
     std::string multi_line = "line1\nline2\nline3";
 
-    // Without match_any, . does not match newline
+    // Without match_any. does not match newline
     std::regex dot_all("line.line");
     std::cout << std::regex_search(multi_line, dot_all) << "\n";  // 0 (false)
 
-    // With match_any, . matches newline
+    // With match_any. matches newline
     std::cout << std::regex_search(multi_line, dot_all, std::regex_constants::match_any) << "\n";  // 1 (true)
 }
 ```

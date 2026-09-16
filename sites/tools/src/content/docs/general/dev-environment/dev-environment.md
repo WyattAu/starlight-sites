@@ -16,11 +16,11 @@ description: "Study notes for Development Environment Setup with worked examples
 
 ## Intuition
 
-**Your digital workshop:** A development environment is like a well-organised workshop — the right tools (terminal, editor, shell) make you productive, while poor setup creates friction that slows you down. Investing in your environment pays dividends every day.
+**Your digital workshop:** A development environment is like a well-organised workshop, the right tools (terminal, editor, shell) make you productive, while poor setup creates friction that slows you down. Investing in your environment pays dividends every day.
 
 **Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
 
-**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode — this is not just cosmetic; it enables tools like `bat`, `fzf`, and `neovim` to display syntax highlighting and special characters correctly.
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat`, `fzf`, and `neovim` to display syntax highlighting and special characters correctly.
 
 ## Terminal Emulators
 
@@ -284,10 +284,10 @@ export PATH="/usr/local/bin:$PATH"
 Neovim is the modern successor to Vim, with built-in LSP, Lua scripting, and a thriving plugin
 Ecosystem:
 
-- **LazyVim** — Opinionated Neovim distribution with pre-configured LSP, completion, and
+- **LazyVim**, Opinionated Neovim distribution with pre-configured LSP, completion, and
   keybindings. Good starting point.
-- **AstroNvim** — Another opinionated distribution with a GUI-like experience.
-- **Kickstart.nvim** — Minimal Neovim configuration that teaches Neovim configuration from scratch.
+- **AstroNvim**, Another opinionated distribution with a GUI-like experience.
+- **Kickstart.nvim**, Minimal Neovim configuration that teaches Neovim configuration from scratch.
 
 ### VS Code
 
@@ -354,7 +354,7 @@ Ctrl+B, d               # Detach from session
 Ctrl+B, c               # Create new window
 Ctrl+B, n               # Next window
 Ctrl+B, p               # Previous window
-Ctrl+B, ,               # Rename window
+Ctrl+B,               # Rename window
 
 # Panes
 Ctrl+B, %               # Vertical split
@@ -484,9 +484,9 @@ ssh-copy-id user@remote-host
 # macOS: brew install fzf
 
 # fzf integrates with shell history, file finding, and more
-# Ctrl+R  — fuzzy history search
-# Ctrl+T  — fuzzy file finder (inserts path)
-# Alt+C   — fuzzy cd
+# Ctrl+R, fuzzy history search
+# Ctrl+T, fuzzy file finder (inserts path)
+# Alt+C, fuzzy cd
 
 # Advanced: fzf with preview
 fzf --preview 'bat --color=always {}'
@@ -806,9 +806,9 @@ tmux send-keys -t dev:git "git status" Enter
 
 ```bash
 # Add to ~/.zshrc (after sourcing zinit/plugins):
-# Ctrl+R — fuzzy history search
-# Ctrl+T — fuzzy file finder
-# Alt+C  — fuzzy cd
+# Ctrl+R, fuzzy history search
+# Ctrl+T, fuzzy file finder
+# Alt+C, fuzzy cd
 
 # fzf-tab completion (replaces default tab completion)
 zinit light zsh-users/zsh-autosuggestions

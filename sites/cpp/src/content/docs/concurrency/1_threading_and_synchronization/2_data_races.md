@@ -196,7 +196,7 @@ Conflicting access without a happens-before edge, it reports a data race.
   for production deployments.
 - **False positives (rare).** TSan can report benign data races in correctly synchronized code if
   the synchronization mechanism is not recognized (e.g., custom spinlocks using `std::atomic_flag`).
-- **No guarantee of completeness.** TSan is sound but not complete — it may miss races that require
+- **No guarantee of completeness.** TSan is sound but not complete, it may miss races that require
   specific interleavings.
 
 **Other tools:**
@@ -241,7 +241,7 @@ hardware treats them as a single unit:
 struct Counters {
     int a;
     int b;
-    // a and b are 4 bytes apart — same cache line (64 bytes)
+    // a and b are 4 bytes apart, same cache line (64 bytes)
 };
 
 Counters counters{};
@@ -362,7 +362,7 @@ int main() {
 
 :::caution
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real
-cost. Always measure Before optimizing memory orderings — `memory_order_seq_cst` is the safest
+cost. Always measure Before optimizing memory orderings, `memory_order_seq_cst` is the safest
 default.
 :::
 ## Practical Data Race Bug and Fix

@@ -59,7 +59,7 @@ Semiconductor electronics covers the physics of semiconductor materials, p-n jun
 - Transistor as switch: operates in cutoff and saturation regions
 - Logic gates: AND, OR, NOT, NAND, NOR, XOR
 
-## Worked Example 1 — Diode Current Calculation
+## Worked Example 1, Diode Current Calculation
 
 **Problem:** A silicon diode has a reverse saturation current of $10 \, \mu\text{A}$ at 25°C. Find the forward current when the applied voltage is 0.5 V. (Use $kT/e \approx 0.026 \, \text{V}$ at 25°C)
 
@@ -78,7 +78,7 @@ $$\approx 10 \times 10^{-6} \times 2.24 \times 10^8 = 2.24 \, \text{A}$$
 
 **Common mistake:** Forgetting that the exponential dominates and the $-1$ term becomes negligible for forward bias.
 
-## Worked Example 2 — Zener Voltage Regulator
+## Worked Example 2, Zener Voltage Regulator
 
 **Problem:** A Zener diode with $V_Z = 6 \, \text{V}$ is used to regulate the output of a 10 V source through a series resistor $R = 200 \, \Omega$. If the load resistance is $R_L = 1 \, \text{k}\Omega$, find the load voltage and current.
 
@@ -101,7 +101,7 @@ $$I_Z = I_R - I_L = 20 - 6 = 14 \, \text{mA}$$
 
 **Common mistake:** Assuming all current flows through the Zener diode. The Zener current is the difference between the total current and the load current.
 
-## Worked Example 3 — Transistor as an Amplifier
+## Worked Example 3, Transistor as an Amplifier
 
 **Problem:** A common-emitter transistor amplifier has $\beta = 100$, $R_C = 2 \, \text{k}\Omega$, and $V_{CC} = 12 \, \text{V}$. If the base current is $20 \, \mu\text{A}$, find the collector current, collector-emitter voltage, and voltage gain.
 
@@ -121,7 +121,7 @@ The negative sign indicates a $180^\circ$ phase shift.
 
 **Common mistake:** Forgetting that the transistor must be in the active region ($V_{CE} > 0.2 \, \text{V}$ approximately) for amplification.
 
-## Worked Example 4 — Logic Gate Output
+## Worked Example 4, Logic Gate Output
 
 **Problem:** For a 2-input NAND gate, write the truth table and identify when the output is LOW.
 
@@ -142,7 +142,7 @@ $$Y = \overline{A \cdot B}$$
 
 ## Common Mistakes
 
-**Confusing n-type and p-type semiconductors.** N-type has excess electrons (donor impurity), p-type has excess holes (acceptor impurity). Students often assume n-type is negative and p-type is positive — both are electrically neutral overall. The "n" and "p" refer to the charge carrier type, not the net charge.
+**Confusing n-type and p-type semiconductors.** N-type has excess electrons (donor impurity), p-type has excess holes (acceptor impurity). Students often assume n-type is negative and p-type is positive, both are electrically neutral overall. The "n" and "p" refer to the charge carrier type, not the net charge.
 
 **Assuming a diode conducts in both directions equally.** A p-n junction diode conducts efficiently in forward bias (low resistance) but blocks current in reverse bias (very high resistance, only tiny leakage current). Students sometimes treat diodes as resistors that work both ways.
 
@@ -150,7 +150,7 @@ $$Y = \overline{A \cdot B}$$
 
 ## Cross-References
 
-- **[Current Electricity](../current-electricity/index):** Semiconductor circuits follow Ohm's law and Kirchhoff's rules — understanding circuits is prerequisite to understanding semiconductor devices.
+- **[Current Electricity](../current-electricity/index):** Semiconductor circuits follow Ohm's law and Kirchhoff's rules, understanding circuits is prerequisite to understanding semiconductor devices.
 - **[Dual Nature](../dual-nature/index):** Band theory of semiconductors involves energy levels and photon absorption, connecting to quantum concepts.
 - **[Electrostatics](../electrostatics/index):** The built-in potential in a p-n junction arises from charge separation, connecting to electrostatic principles.
 - **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** The diode equation involves exponential functions whose analysis uses calculus concepts.
@@ -163,11 +163,11 @@ $$Y = \overline{A \cdot B}$$
 
 ## Intuition
 
-**Semiconductors are materials that can be taught to conduct:** Think of a semiconductor as a material that's neither a good conductor nor a good insulator — it's like a gate that can be opened or closed. Pure silicon has all its electrons locked in bonds, but doping it with impurities (adding a few "guest" atoms) creates free electrons or holes that can carry current. A p-n junction is like a one-way valve for electricity — current flows efficiently in one direction but is blocked in the other, which is the basis of diodes and transistors.
+**Semiconductors are materials that can be taught to conduct:** Think of a semiconductor as a material that's neither a good conductor nor a good insulator, it's like a gate that can be opened or closed. Pure silicon has all its electrons locked in bonds, but doping it with impurities (adding a few "guest" atoms) creates free electrons or holes that can carry current. A p-n junction is like a one-way valve for electricity, current flows efficiently in one direction but is blocked in the other, which is the basis of diodes and transistors.
 
-**Why it matters:** Semiconductors are the foundation of all modern electronics — every computer chip, smartphone, LED, solar cell, and digital device depends on semiconductor physics. Without semiconductors, there would be no internet, no digital cameras, no GPS, and no modern medicine imaging. Understanding semiconductors means understanding the technology that defines our era.
+**Why it matters:** Semiconductors are the foundation of all modern electronics, every computer chip, smartphone, LED, solar cell, and digital device depends on semiconductor physics. Without semiconductors, there would be no internet, no digital cameras, no GPS, and no modern medicine imaging. Understanding semiconductors means understanding the technology that defines our era.
 
-**The key insight:** The transistor is the most important invention of the 20th century — it acts as a tiny electronic switch that can be turned on and off millions of times per second, enabling all digital computation.
+**The key insight:** The transistor is the most important invention of the 20th century, it acts as a tiny electronic switch that can be turned on and off millions of times per second, enabling all digital computation.
 
 ## Common Exam Patterns
 

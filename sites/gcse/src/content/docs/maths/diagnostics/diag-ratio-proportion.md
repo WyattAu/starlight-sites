@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Ratio, Proportion, and Rates of Change — Diagnostic Tests
+## Ratio, Proportion, and Rates of Change, Diagnostic Tests
 
 ## Unit Tests
 
@@ -178,11 +178,11 @@ equalise costs.
 
 ## Intuition
 
-**Comparing quantities:** Ratios are like recipes — they tell you how much of each ingredient you need. Proportions scale the recipe up or down while keeping the same relative amounts.
+**Comparing quantities:** Ratios are like recipes, they tell you how much of each ingredient you need. Proportions scale the recipe up or down while keeping the same relative amounts.
 
 **Why it matters:** From map scales to cooking, ratios and proportions are everywhere. Understanding them helps you scale quantities and compare sizes.
 
-**The key insight:** Cross-multiplication works because it's really multiplying both sides by the product of the denominators — it's a shortcut for maintaining equality.
+**The key insight:** Cross-multiplication works because it's really multiplying both sides by the product of the denominators, it's a shortcut for maintaining equality.
 
 
 ```mermaid

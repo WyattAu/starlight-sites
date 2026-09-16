@@ -20,11 +20,11 @@ The linked list was first described by Hans Peter Luhn at IBM (1953). The concep
 :::
 ## Intuition
 
-**Building blocks of all data structures:** Linked lists, stacks, and queues are like the atoms of data structures — almost every complex data structure is built from these primitives. Linked lists give dynamic sizing, stacks enforce LIFO order, and queues enforce FIFO order.
+**Building blocks of all data structures:** Linked lists, stacks, and queues are like the atoms of data structures, almost every complex data structure is built from these primitives. Linked lists give dynamic sizing, stacks enforce LIFO order, and queues enforce FIFO order.
 
 **Why it matters:** Understanding these fundamentals lets you implement more complex data structures from scratch and choose the right abstraction for the job. Stacks handle undo/redo, queues handle task scheduling, and linked lists handle dynamic collections.
 
-**The key insight:** Linked lists trade space for flexibility — each node wastes pointer space but gains O(1) insertion/deletion. Arrays trade flexibility for cache efficiency — contiguous memory enables O(1) access but O(n) insertion.
+**The key insight:** Linked lists trade space for flexibility, each node wastes pointer space but gains O(1) insertion/deletion. Arrays trade flexibility for cache efficiency, contiguous memory enables O(1) access but O(n) insertion.
 
 ## Singly Linked Lists
 
@@ -99,7 +99,7 @@ def reverse_linked_list(head):
 def reverse_recursive(head):
     """
     Reverse a singly linked list recursively.
-    Time: O(n), Space: O(n) — recursion stack
+    Time: O(n), Space: O(n), recursion stack
     """
     if head is None or head.next is None:
         return head
@@ -153,7 +153,7 @@ def find_cycle_start(head):
 Length. When slow and fast meet, slow has travelled $\mu + a\lambda$ steps and fast has travelled
 $\mu + a\lambda + b\lambda$ steps for some non-negative integers $a, b$. Since fast moves twice as
 Fast: $2(\mu + a\lambda) = \mu + a\lambda + b\lambda$Which gives $\mu = (b - a)\lambda$. So the
-Distance from the meeting point to the cycle start (going around the cycle) is exactly $\mu$ — the
+Distance from the meeting point to the cycle start (going around the cycle) is exactly $\mu$, the
 Same as the distance from head to cycle start.
 
 ### Fast and Slow Pointer Technique
@@ -237,7 +237,7 @@ def delete_doubly_node(node):
 ## Skip Lists
 
 A skip list is a probabilistic data structure that provides $O(\log n)$ expected-time search,
-Insertion, and deletion — the same asymptotic complexity as a balanced BST, but with simpler
+Insertion, and deletion, the same asymptotic complexity as a balanced BST, but with simpler
 Implementation.
 
 The structure consists of multiple levels of linked lists. The bottom level contains all elements.
@@ -300,7 +300,7 @@ class SkipList:
 :::
 :::note
 Kernel (for process address space management). They are preferred over balanced BSTs in these
-Contexts because they are simpler to implement correctly in concurrent settings — insertion and
+Contexts because they are simpler to implement correctly in concurrent settings, insertion and
 Deletion only need to lock the nodes being modified, not the entire structure.
 
 ## Stacks
@@ -349,7 +349,7 @@ Which can then be evaluated with a simple stack-based algorithm.
 ```python
 def evaluate_expression(expr):
     """
-    Evaluate a simple arithmetic expression with +, -, *, /, (, ).
+    Evaluate a simple arithmetic expression with +, -, *, /, ( ).
     Time: O(n), Space: O(n)
     """
     def precedence(op):
@@ -474,7 +474,7 @@ class CircularQueue:
 :::
 :::note
 Queues, audio playback buffers, log rotation, producer-consumer patterns, and pipe implementations.
-The key advantage is that enqueue and dequeue never require memory allocation or copying — they just
+The key advantage is that enqueue and dequeue never require memory allocation or copying, they just
 Advance indices modulo the capacity.
 
 ## Deques
@@ -484,13 +484,13 @@ A deque (double-ended queue) supports insertion and deletion at both ends in $O(
 ```python
 from collections import deque
 
-## Python's built-in deque — implemented as a doubly-linked list of fixed-size blocks
+## Python's built-in deque, implemented as a doubly-linked list of fixed-size blocks
 d = deque()
-d.append(1)        # O(1) — enqueue back
-d.appendleft(0)    # O(1) — enqueue front
-d.pop()            # O(1) — dequeue back
-d.popleft()        # O(1) — dequeue front
-d[0]               # O(1) — access by index (slower than list for large deques)
+d.append(1)        # O(1), enqueue back
+d.appendleft(0)    # O(1), enqueue front
+d.pop()            # O(1), dequeue back
+d.popleft()        # O(1), dequeue front
+d[0]               # O(1), access by index (slower than list for large deques)
 ```
 
 ## Priority Queues
@@ -798,7 +798,7 @@ Are certain the input size is bounded.
 ### 7. Priority Queue Inefficiency for Update Operations
 
 Standard binary heaps do not support efficient decrease-key operations (common in Dijkstra's
-Algorithm). The workaround — insert a new entry and ignore stale entries — works but increases the
+Algorithm). The workaround, insert a new entry and ignore stale entries, works but increases the
 Heap size. For algorithms that require frequent decrease-key, a Fibonacci heap provides $O(1)$
 Amortised decrease-key, but has large constant factors and is rarely used in practice.
 

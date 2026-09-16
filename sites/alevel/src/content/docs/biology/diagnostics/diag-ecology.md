@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Ecology is like a web of relationships — every organism depends on others in a delicate balance.**
+**Ecology is like a web of relationships, every organism depends on others in a delicate balance.**
 
-## Ecology — Diagnostic Tests
+## Ecology, Diagnostic Tests
 
 ## Unit Tests
 
@@ -57,7 +57,7 @@ consequences for global atmospheric CO$_2$ concentration and climate.
 **Solution:**
 
 (a) **Saprobionts** (saprotrophs, mainly fungi and bacteria) are organisms that feed on dead organic
-matter by extracellular digestion — they secrete enzymes onto dead material, breaking down complex
+matter by extracellular digestion, they secrete enzymes onto dead material, breaking down complex
 organic molecules (proteins, lipids, carbohydrates) into simpler soluble molecules, which they
 absorb. In doing so, they release CO$_2$ as a waste product of their own **aerobic respiration**:
 organic carbon compounds are broken down to release energy, producing CO$_2$ and water.
@@ -71,7 +71,7 @@ photosynthesis by producers.
 triple bond, is converted into ammonia (NH$_3$) or ammonium ions (NH$_4^+$). This is carried out by:
 (1) **nitrogen-fixing bacteria** (e.g., _Rhizobium_) living in root nodules of leguminous plants,
 which have a mutualistic relationship with the plant; (2) **free-living nitrogen-fixing bacteria**
-(e.g., _Azotobacter_) in the soil; (3) **lightning** — the energy of lightning breaks N$_2$ bonds,
+(e.g., _Azotobacter_) in the soil; (3) **lightning**, the energy of lightning breaks N$_2$ bonds,
 allowing nitrogen to react with oxygen to form nitrogen oxides, which dissolve in rain to form
 nitrates.
 
@@ -97,7 +97,7 @@ available to plants.
 1. Nitrate fertiliser is applied to agricultural land. Excess nitrate is not absorbed by crops and
    leaches into the soil, eventually reaching waterways (rivers, lakes) through runoff or drainage.
 2. The increased nitrate concentration in the water acts as a nutrient for **algae** and aquatic
-   plants, causing rapid growth — an **algal bloom**.
+   plants, causing rapid growth, an **algal bloom**.
 3. The dense algal bloom at the surface blocks sunlight from reaching deeper water, so aquatic
    plants below cannot photosynthesise and die.
 4. The algae eventually die and are decomposed by aerobic bacteria.
@@ -114,7 +114,7 @@ available to plants.
 locked away in geological deposits over millions of years. This CO$_2$ is released into the
 atmosphere much faster than natural processes (photosynthesis, dissolution in oceans) can remove it,
 creating an imbalance in the carbon cycle. The atmospheric CO$_2$ concentration has increased from
-approximately 280 ppm (pre-industrial) to over 420 ppm currently. CO$_2$ is a **greenhouse gas** —
+approximately 280 ppm (pre-industrial) to over 420 ppm currently. CO$_2$ is a **greenhouse gas**,
 it absorbs and re-radiates infrared radiation (heat) emitted by the Earth"s surface, trapping heat
 in the atmosphere (the enhanced greenhouse effect). This leads to **global warming** (increased
 average global temperature) and **climate change**, with consequences including rising sea levels
@@ -234,7 +234,7 @@ Factors preventing complete extinction:
 }
 </script>
 
-### UT-3: Succession — Primary and Secondary
+### UT-3: Succession, Primary and Secondary
 
 **Question:**
 
@@ -253,7 +253,7 @@ maintain biodiversity in a habitat that would otherwise progress to a climax com
 
 **Solution:**
 
-(a) **Primary succession** occurs on **land that has never been colonised before** — there is no
+(a) **Primary succession** occurs on **land that has never been colonised before**, there is no
 soil or organic matter present initially. Examples: bare rock after a volcanic eruption, sand dunes,
 glacial moraines, land exposed by retreating glaciers.
 
@@ -289,7 +289,7 @@ next group of species while making them less suitable for themselves. This is ca
 change driving succession**.
 
 (c) A **climax community** is the final, stable community that develops at the end of succession. It
-is in equilibrium with the prevailing climate and environmental conditions — the species composition
+is in equilibrium with the prevailing climate and environmental conditions, the species composition
 remains relatively constant over time, and the community is self-sustaining (the species present
 reproduce and replace themselves). In the UK, the typical climax community is deciduous woodland
 (oak, ash, beech).
@@ -387,7 +387,7 @@ energy transfer between trophic levels).
 (c) If the cereal crop is consumed directly by humans:
 
 - Available energy = NPP of cereal crop = 40,000 kJ ha$^{-1}$ year$^{-1}$
-- (Assuming humans can utilise a large proportion of the NPP — humans are primary consumers in this
+- (Assuming humans can utilise a large proportion of the NPP, humans are primary consumers in this
   scenario.)
 
 If the cereal crop is fed to cattle and humans eat the cattle:
@@ -408,7 +408,7 @@ energy-efficient.
 Arguments for intensive farming (maximising production):
 
 - Higher yields per unit area feed a growing global population.
-- Efficient use of land — less land needed for agriculture, potentially leaving more for
+- Efficient use of land, less land needed for agriculture, potentially leaving more for
   conservation.
 - Lower food costs, improving food security and affordability.
 - Modern techniques (precision farming, integrated pest management) can reduce environmental impact
@@ -427,9 +427,9 @@ Arguments against intensive farming (environmental damage):
   deforestation (for grazing land and soybean cultivation for animal feed).
 
 **Balanced conclusion**: Intensive farming is necessary to produce enough food for the global
-population, but the environmental costs are significant. Sustainable approaches — such as integrated
+population, but the environmental costs are significant. Sustainable approaches, such as integrated
 pest management (using biological control alongside limited pesticide use), crop rotation, precision
-application of fertilisers (reducing leaching), organic farming, and reducing food waste — can help
+application of fertilisers (reducing leaching), organic farming, and reducing food waste, can help
 balance food production with environmental protection. The principle of eating lower on the food
 chain (more plant-based diets) can also reduce the ecological footprint of agriculture.
 
@@ -474,22 +474,22 @@ programmes**, and **legislation (CITES)** can help protect endangered species.
 2. **Exponential (log) phase (rapid growth)**: resources are abundant, and the population grows
    rapidly. The birth rate exceeds the death rate, and growth is approximately exponential.
 3. **Stationary phase (plateau)**: population growth slows and stabilises at the **carrying capacity
-   (K)** — the maximum population size that the environment can sustain indefinitely. At carrying
+   (K)**, the maximum population size that the environment can sustain indefinitely. At carrying
    capacity, birth rate approximately equals death rate.
 
 Factors causing the growth rate to slow as the population approaches carrying capacity:
 
-- **Increased competition** for limited resources (food, water, nesting sites, light) — as
+- **Increased competition** for limited resources (food, water, nesting sites, light), as
   population density increases, each individual has access to fewer resources.
-- **Increased disease and parasitism** — pathogens spread more in dense populations (transmission
+- **Increased disease and parasitism**, pathogens spread more in dense populations (transmission
   rate increases with contact rate).
-- **Increased predation** — predators are more likely to encounter prey in dense populations, and
+- **Increased predation**, predators are more likely to encounter prey in dense populations, and
   predator populations may increase in response to more prey.
-- **Accumulation of waste products** — toxic waste products can build up and increase mortality.
-- **Stress and behavioural changes** — crowding can induce stress, reduce reproductive rates, and
+- **Accumulation of waste products**, toxic waste products can build up and increase mortality.
+- **Stress and behavioural changes**, crowding can induce stress, reduce reproductive rates, and
   increase aggression.
 
-These are all **density-dependent factors** — their effect increases with population density.
+These are all **density-dependent factors**, their effect increases with population density.
 
 (b) **Density-dependent factors** affect the population in a way that depends on the size (density)
 of the population. Their effect is proportionally greater at higher population densities. Examples:
@@ -508,7 +508,7 @@ abiotic factors. Examples:
 4. Human activities (habitat destruction, pollution, pesticide application)
 
 (c) An unusually cold winter causing a sudden population decline is a **density-independent factor**
-— the cold weather kills individuals regardless of the population density. (A cold snap kills the
+- the cold weather kills individuals regardless of the population density. (A cold snap kills the
 same proportion of the population whether the population is large or small.)
 
 **Climate change** may increase the frequency of extreme weather events (including cold snaps in
@@ -534,7 +534,7 @@ for conservation.
 - **CITES (Convention on International Trade in Endangered Species)**: an international agreement
   that regulates or prohibits the international trade in specimens of wild animals and plants. CITES
   lists species in three appendices with different levels of protection: Appendix I (most endangered
-  — trade banned except in exceptional circumstances), Appendix II (species that may become
+trade banned except in exceptional circumstances), Appendix II (species that may become
   threatened if trade is not regulated), and Appendix III (species protected by individual
   countries). By controlling trade, CITES reduces poaching and illegal collection, addressing one of
   the major drivers of species decline.
@@ -576,22 +576,22 @@ runoff from the field.
 
 (a) **Nitrogen** is required by plants for the synthesis of:
 
-- **Amino acids** — nitrogen is a component of the amino group ($-$NH$_2$) in amino acids, which are
+- **Amino acids**, nitrogen is a component of the amino group ($-$NH$_2$) in amino acids, which are
   the monomers of proteins. Proteins are essential for growth (enzymes, structural proteins,
   transport proteins, antibodies).
-- **Nucleotides** — nitrogen is found in the nitrogenous bases (adenine, guanine, cytosine, thymine,
+- **Nucleotides**, nitrogen is found in the nitrogenous bases (adenine, guanine, cytosine, thymine,
   uracil) of nucleotides, which are the monomers of DNA and RNA. Nucleotides are also components of
   ATP and coenzymes (NAD, FAD).
-- **Chlorophyll** — nitrogen is a component of the chlorophyll molecule, essential for
+- **Chlorophyll**, nitrogen is a component of the chlorophyll molecule, essential for
   photosynthesis.
 
 **Phosphorus** is required by plants for the synthesis of:
 
-- **Nucleotides** — phosphorus is a component of the phosphate group in nucleotides (DNA, RNA, ATP).
-- **Phospholipids** — phosphorus is found in the phosphate head of phospholipids, which form cell
+- **Nucleotides**, phosphorus is a component of the phosphate group in nucleotides (DNA, RNA, ATP).
+- **Phospholipids**, phosphorus is found in the phosphate head of phospholipids, which form cell
   membranes.
-- **ATP** — the phosphate groups in ATP are essential for energy transfer in cells.
-- **Calcium phosphate** — a component of bones and cell walls (in some organisms).
+- **ATP**, the phosphate groups in ATP are essential for energy transfer in cells.
+- **Calcium phosphate**, a component of bones and cell walls (in some organisms).
 
 (b) Nitrate ions (NO$_3^-$) are absorbed by plant roots by **active transport**:
 

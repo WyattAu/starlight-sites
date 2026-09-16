@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Complex Numbers — Diagnostic Tests
+## Complex Numbers, Diagnostic Tests
 
 ## Unit Tests
 

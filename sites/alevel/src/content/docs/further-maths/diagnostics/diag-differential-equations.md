@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Differential Equations — Diagnostic Tests
+## Differential Equations, Diagnostic Tests
 
 ## Unit Tests
 

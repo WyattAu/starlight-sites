@@ -1,5 +1,5 @@
 ---
-title: "Computer Networking Glossary — Key Terms and Definitions"
+title: "Computer Networking Glossary, Key Terms and Definitions"
 description: "CSMA/CD (Carrier Sense Multiple Access with Collision Detection): A protocol used in Ethernet networks to manage data transmission and handle collisions."
 date: 2026-07-24
 tags: [glossary]

@@ -17,11 +17,11 @@ description: "Git communicates with remote repositories over two primary transpo
 
 ## Intuition
 
-**Two doors to the same仓库:** HTTPS and SSH are like two doors into the same building — HTTPS uses a username/password keycard (easy to set up, works through firewalls), while SSH uses a cryptographic key (more secure, no password typing). Both get you to the same place.
+**Two doors to the same仓库:** HTTPS and SSH are like two doors into the same building, HTTPS uses a username/password keycard (easy to set up, works through firewalls), while SSH uses a cryptographic key (more secure, no password typing). Both get you to the same place.
 
 **Why it matters:** Choosing the wrong protocol can mean the difference between secure deployments and leaked credentials. SSH is preferred for automation; HTTPS is simpler for occasional use.
 
-**The key insight:** SSH keys are more secure than passwords because they are cryptographically generated and cannot be brute-forced — but they must be protected like passwords, because anyone with your private key has full access.
+**The key insight:** SSH keys are more secure than passwords because they are cryptographically generated and cannot be brute-forced, but they must be protected like passwords, because anyone with your private key has full access.
 
 ## Protocol Overview
 
@@ -30,7 +30,7 @@ Git communicates with remote repositories over two primary transport protocols: 
 Each protocol has distinct tradeoffs in security posture, authentication mechanism, network
 Compatibility, and performance characteristics.
 
-Git also supports a third protocol — the unauthenticated `git://` protocol — but it is disabled by
+Git also supports a third protocol, the unauthenticated `git://` protocol, but it is disabled by
 Default on all major hosting platforms due to its lack of authentication (it was the vector for
 CVE-2014-9398, a buffer overflow vulnerability). It is not covered here.
 
@@ -87,7 +87,7 @@ Your public key has been saved in /home/user/.ssh/id_ed25519.pub
 
 **Ed25519** is the default choice for all new keys. Use RSA-4096 only if you must interoperate with
 Systems that do not support Ed25519 (rare, but some older enterprise SSH servers and FIPS-140-2
-Compliant systems may lack support). Avoid ECDSA — while not broken, its reliance on NIST curves has
+Compliant systems may lack support). Avoid ECDSA, while not broken, its reliance on NIST curves has
 Drawn suspicion since the Dual EC DRBG controversy, and Ed25519 is strictly superior in performance.
 
 ### Passphrase-Protected Keys
@@ -410,7 +410,7 @@ $ git clone https://github.com/user/repo.git
 Username for 'https://github.com': your-username
 Password for 'https://github.com': ghp_xxxxxxxxxxxxxxxxxxxx
 
-# Or embed in the URL (not recommended — token visible in process list and .git/config)
+# Or embed in the URL (not recommended, token visible in process list and .git/config)
 $ git clone https://user:ghp_xxxx@github.com/user/repo.git
 ```
 
@@ -478,7 +478,7 @@ username=your-username
 password=ghp_xxxxxxxxxxxx
 ```
 
-Helpers are pluggable — Git asks the helper for credentials, and the helper either returns them or
+Helpers are pluggable, Git asks the helper for credentials, and the helper either returns them or
 Prompts the user. If no helper is configured, Git falls back to prompting on the terminal.
 
 ### Built-in Helpers
@@ -495,7 +495,7 @@ $ git config --global credential.helper cache
 # Custom timeout (1 hour)
 $ git config --global credential.helper 'cache --timeout=3600'
 
-# Custom timeout (30 seconds — useful for testing)
+# Custom timeout (30 seconds, useful for testing)
 $ git config --global credential.helper 'cache --timeout=30'
 ```
 
@@ -504,7 +504,7 @@ This is the least persistent option but the most secure against disk-based attac
 
 #### git-credential-store (Plaintext File)
 
-Stores credentials in **plaintext** in `~/.git-credentials`. This is convenient but insecure — any
+Stores credentials in **plaintext** in `~/.git-credentials`. This is convenient but insecure, any
 Process running as your user can read the file.
 
 ```bash
@@ -519,7 +519,7 @@ $ git config --global credential.helper 'store --file ~/.git-credentials-custom'
 ```
 
 ```
-# ~/.git-credentials contents (INSECURE — plaintext)
+# ~/.git-credentials contents (INSECURE, plaintext)
 https://user:ghp_xxxxxxxxxxxx@github.com
 https://user:glpat-xxxxxxxxxxxxxx@gitlab.com
 ```
@@ -622,7 +622,7 @@ Enables new features like partial clone.
 - The ref advertisement (listing all refs the server has) was sent uncompressed and unconditionally.
   On repos with hundreds of thousands of refs, this alone could take several seconds.
 - Capabilities were advertised inline with refs, making the protocol hard to extend.
-- There was no way to filter what the server sent — you either got everything or nothing.
+- There was no way to filter what the server sent, you either got everything or nothing.
 
 **Protocol v2** addresses these:
 
@@ -657,7 +657,7 @@ For typical operations, the performance difference between v1 and v2 is modest (
 `fetch` on repos with thousands of refs). For monorepos with hundreds of thousands of refs, v2 can
 Be 3-5x faster for the initial ref advertisement phase.
 
-The real performance win comes from **packfile URIs** — in v2, the server can return a URI for the
+The real performance win comes from **packfile URIs**, in v2, the server can return a URI for the
 Packfile alongside a thin pack, allowing the client to download the bulk data from a CDN rather than
 The Git server directly. This is used by GitHub and GitLab to reduce load on their origin servers.
 
@@ -880,7 +880,7 @@ order (based on the agent and default file scanning). This can cause Authenticat
 appear intermittent:
 
 ```bash
-# Sometimes it works, sometimes it doesn't — non-deterministic key order
+# Sometimes it works, sometimes it doesn't, non-deterministic key order
 $ git push origin main
 # Works
 $ git push origin main
@@ -918,11 +918,11 @@ Expiry, or use platform-native credentials (GitHub Actions' `GITHUB_TOKEN` is au
 Process on the remote host can use your SSH keys to authenticate to other servers.
 
 ```gitconfig
-# DANGEROUS — never use this for untrusted hosts
+# DANGEROUS, never use this for untrusted hosts
 Host untrusted-server
     ForwardAgent yes
 
-# SAFE — only forward to trusted bastion hosts
+# SAFE, only forward to trusted bastion hosts
 Host bastion.trusted-company.com
     ForwardAgent yes
 ```

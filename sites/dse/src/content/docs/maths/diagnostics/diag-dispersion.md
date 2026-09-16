@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Dispersion — Diagnostic Tests
+## Dispersion, Diagnostic Tests
 
 ## Unit Tests
 
@@ -590,11 +590,11 @@ flowchart TD
 
 ## Intuition
 
-**A bullseye and its rings:** Standard deviation measures how scattered darts are from the bullseye — clustered tightly means low spread, scattered widely means high spread. Variance is just the square of that scatter.
+**A bullseye and its rings:** Standard deviation measures how scattered darts are from the bullseye, clustered tightly means low spread, scattered widely means high spread. Variance is just the square of that scatter.
 
-**Why it matters:** Two classes can have the same average score but wildly different consistency. Standard deviation reveals whether data is reliable or chaotic — crucial for quality control, finance, and scientific research.
+**Why it matters:** Two classes can have the same average score but wildly different consistency. Standard deviation reveals whether data is reliable or chaotic, crucial for quality control, finance, and scientific research.
 
-**The key insight:** Adding a constant shifts all data but doesn't change the spread — only multiplying by a constant scales the spread.
+**The key insight:** Adding a constant shifts all data but doesn't change the spread, only multiplying by a constant scales the spread.
 
 ## Common Pitfalls
 

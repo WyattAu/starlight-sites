@@ -23,15 +23,15 @@ Interfaces, addresses, routes, tunnels, and policies.
 
 ```mermaid
 graph TD
-    A[iproute2 Suite] --> B[ip — interfaces, addresses, routes]
-    A --> C[ss — socket statistics]
-    A --> D[bridge — layer 2 bridging]
-    A --> E[vlan — VLAN configuration]
-    A --> F[tuntap — TUN/TAP devices]
-    A --> G[rtmon — route monitoring]
-    A --> H[tc — traffic control / qdiscs]
-    A --> I[nstat — network statistics]
-    A --> J[rdisc — router discovery (legacy)]
+    A[iproute2 Suite] --> B[ip, interfaces, addresses, routes]
+    A --> C[ss, socket statistics]
+    A --> D[bridge, layer 2 bridging]
+    A --> E[vlan, VLAN configuration]
+    A --> F[tuntap, TUN/TAP devices]
+    A --> G[rtmon, route monitoring]
+    A --> H[tc, traffic control / qdiscs]
+    A --> I[nstat, network statistics]
+    A --> J[rdisc, router discovery (legacy)]
 ```
 
 ### Interface Configuration
@@ -99,7 +99,7 @@ ip link add name br0 type bridge
 ip link set eth0 master br0
 ip link set br0 up
 
-# VETH pair (virtual ethernet — used by containers)
+# VETH pair (virtual ethernet, used by containers)
 ip link add veth0 type veth peer name veth1
 
 # TUN/TAP (layer 3 / layer 2 tunnel)
@@ -276,11 +276,11 @@ graph LR
 
 | Hook                     | Chains (iptables) | Description                                 |
 | ------------------------ | ----------------- | ------------------------------------------- |
-| **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision — DNAT, mangling    |
+| **NF_INET_PRE_ROUTING**  | `PREROUTING`      | Before routing decision, DNAT, mangling    |
 | **NF_INET_LOCAL_IN**     | `INPUT`           | Packets destined for local processes        |
 | **NF_INET_FORWARD**      | `FORWARD`         | Packets being forwarded (router)            |
 | **NF_INET_LOCAL_OUT**    | `OUTPUT`          | Packets originating from local processes    |
-| **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision — SNAT, masquerading |
+| **NF_INET_POST_ROUTING** | `POSTROUTING`     | After routing decision, SNAT, masquerading |
 
 ### Connection Tracking (conntrack)
 
@@ -375,10 +375,10 @@ iptables -A INPUT -i lo -j ACCEPT
 # Log packets (for debugging)
 iptables -A INPUT -j LOG --log-prefix "INPUT-DROP: " --log-level 4
 
-# NAT — masquerade (source NAT)
+# NAT, masquerade (source NAT)
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
-# NAT — destination NAT (port forwarding)
+# NAT, destination NAT (port forwarding)
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 10.0.0.5:8080
 
 # Rate limiting
@@ -447,12 +447,12 @@ nft add rule inet filter input tcp dport { 22, 80, 443 } accept
 nft add rule inet filter input iifname "eth0" icmp type echo-request limit rate 5/second accept
 nft add rule inet filter input counter drop
 
-# Sets — efficient lookup tables
+# Sets, efficient lookup tables
 nft add set inet filter allowed_ports { type inet_service \; flags interval \; }
 nft add element inet filter allowed_ports { 22, 80, 443, 8080 }
 nft add rule inet filter input tcp dport @allowed_ports accept
 
-# Maps — key-value pairs
+# Maps, key-value pairs
 nft add map inet filter jump_map { type inet_service : verdict \; }
 nft add element inet filter jump_map { 22 : accept, 80 : accept, 443 : accept }
 nft add rule inet filter input tcp dport vmap @jump_map
@@ -512,7 +512,7 @@ systemctl enable --now nftables
 
 ## Network Namespaces
 
-Network namespaces provide complete network stack isolation — each namespace has its own interfaces,
+Network namespaces provide complete network stack isolation, each namespace has its own interfaces,
 Routing tables, ARP tables, firewall rules, and `/proc/net` view. This is the foundation of
 Container networking.
 
@@ -576,7 +576,7 @@ ip link set eth1 master br0
 # Assign IP to bridge
 ip addr add 192.168.1.1/24 dev br0
 
-# View bridge FDB (forwarding database — MAC table)
+# View bridge FDB (forwarding database, MAC table)
 bridge fdb show
 
 # View bridge VLANs
@@ -603,7 +603,7 @@ bridge vlan add dev eth0 vid 200
 
 ## Socket Statistics and Troubleshooting
 
-### `ss` — Socket Statistics
+### `ss`Socket Statistics
 
 `ss` replaces `netstat` and provides more detailed information:
 
@@ -640,7 +640,7 @@ ss -tnm
 ss -s
 ```
 
-### `tcpdump` — Packet Capture
+### `tcpdump`Packet Capture
 
 ```bash
 # Capture on specific interface
@@ -727,10 +727,10 @@ arp -an
 ### Source NAT (SNAT / Masquerade)
 
 ```bash
-# iptables — masquerade (dynamic SNAT — uses interface IP)
+# iptables, masquerade (dynamic SNAT, uses interface IP)
 iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j MASQUERADE
 
-# iptables — static SNAT
+# iptables, static SNAT
 iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j SNAT --to-source 203.0.113.5
 
 # nftables
@@ -740,7 +740,7 @@ nft add rule ip nat postrouting ip saddr 10.0.0.0/24 oifname "eth0" masquerade
 ### Destination NAT (DNAT)
 
 ```bash
-# iptables — port forwarding
+# iptables, port forwarding
 iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to-destination 10.0.0.5:8443
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 10.0.0.5:8080
 
@@ -823,11 +823,11 @@ A common firewall mistake is setting `INPUT` policy to `DROP` without first addi
 Established connections:
 
 ```bash
-# WRONG — drops responses to outgoing requests
+# WRONG, drops responses to outgoing requests
 iptables -P INPUT DROP
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
-# CORRECT — accept established before dropping
+# CORRECT, accept established before dropping
 iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
 iptables -P INPUT DROP
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT

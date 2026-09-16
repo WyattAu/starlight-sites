@@ -58,7 +58,7 @@ Carboxylic acids contain the $-\text{COOH}$ functional group. They are weak acid
 - Acid anhydrides: (RCO)$_2$O (from 2 RCOOH with dehydration)
 - Esters: RCOOR' (from RCOOH + R'OH with acid catalyst)
 
-## Worked Example 1 — Acidity Comparison
+## Worked Example 1, Acidity Comparison
 
 **Problem:** Arrange the following in decreasing order of acidity: acetic acid, chloroacetic acid, trichloroacetic acid.
 
@@ -76,7 +76,7 @@ Decreasing acidity: Cl$_3$CCOOH > ClCH$_2$COOH > CH$_3$COOH
 
 **Common mistake:** Assuming more carbon atoms means higher acidity. Inductive effects depend on electronegativity, not carbon chain length.
 
-## Worked Example 2 — Esterification
+## Worked Example 2, Esterification
 
 **Problem:** Write the reaction for the esterification of benzoic acid with ethanol.
 
@@ -94,7 +94,7 @@ The reaction is reversible. To drive it forward:
 
 **Common mistake:** Writing the ester as $\text{C}_6\text{H}_5\text{OC}_2\text{H}_5$ instead of $\text{C}_6\text{H}_5\text{COOC}_2\text{H}_5$. The ester linkage is $-\text{COO}-$, not $-\text{O}-$.
 
-## Worked Example 3 — Hell-Volhard-Zelinsky Reaction
+## Worked Example 3, Hell-Volhard-Zelinsky Reaction
 
 **Problem:** What is the product of the reaction of propanoic acid with Br$_2$ in the presence of P?
 
@@ -130,11 +130,11 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 
 ## Intuition
 
-**Resonance makes the carboxylate ion surprisingly stable:** When a carboxylic acid loses its proton, the resulting negative charge doesn't sit on one oxygen — it delocalizes equally across both oxygens through resonance. This spreading of charge makes carboxylate ions much more stable than alkoxide ions, which is why carboxylic acids are stronger acids than alcohols.
+**Resonance makes the carboxylate ion surprisingly stable:** When a carboxylic acid loses its proton, the resulting negative charge doesn't sit on one oxygen, it delocalizes equally across both oxygens through resonance. This spreading of charge makes carboxylate ions much more stable than alkoxide ions, which is why carboxylic acids are stronger acids than alcohols.
 
-**Why it matters:** Carboxylic acids are the backbone of organic chemistry — from acetic acid in vinegar to citric acid in citrus fruits to aspirin. Their derivatives (acid chlorides, esters, amides) are the building blocks for pharmaceuticals, polymers, and biological molecules.
+**Why it matters:** Carboxylic acids are the backbone of organic chemistry, from acetic acid in vinegar to citric acid in citrus fruits to aspirin. Their derivatives (acid chlorides, esters, amides) are the building blocks for pharmaceuticals, polymers, and biological molecules.
 
-**The key insight:** Electron-withdrawing groups stabilize the conjugate base through the inductive effect, making the acid stronger — this explains why trichloroacetic acid is 10,000 times stronger than acetic acid.
+**The key insight:** Electron-withdrawing groups stabilize the conjugate base through the inductive effect, making the acid stronger, this explains why trichloroacetic acid is 10,000 times stronger than acetic acid.
 
 ## Common Mistakes
 

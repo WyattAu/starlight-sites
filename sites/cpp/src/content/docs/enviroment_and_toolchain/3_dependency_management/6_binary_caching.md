@@ -433,11 +433,11 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 
 ## Intuition
 
-**Avoiding rebuilds:** Binary caching is like caching web pages — instead of rebuilding dependencies from source every time, you download pre-built binaries.
+**Avoiding rebuilds:** Binary caching is like caching web pages, instead of rebuilding dependencies from source every time, you download pre-built binaries.
 
 **Why it matters:** Binary caching dramatically speeds up builds, especially in CI/CD environments where time is money.
 
-**The key insight:** Binary caches are platform-specific — binaries built on Linux won't work on Windows.
+**The key insight:** Binary caches are platform-specific, binaries built on Linux won't work on Windows.
 
 ## Common Pitfalls
 
@@ -453,11 +453,11 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models) — How package managers resolve
+- [Dependency Resolution](1_dependency_architectures_models), How package managers resolve
   version graphs
-- [vcpkg](3_vcpkg) — Binary caching configuration for vcpkg
-- [Build Caching](../2_build_system/4_build_caching) — CMake and build-system-level caching
-- [Code Coverage](../2_build_system/6_code_coverage) — Instrumented builds (should not be cached)
+- [vcpkg](3_vcpkg), Binary caching configuration for vcpkg
+- [Build Caching](../2_build_system/4_build_caching), CMake and build-system-level caching
+- [Code Coverage](../2_build_system/6_code_coverage), Instrumented builds (should not be cached)
 
 
 ```mermaid

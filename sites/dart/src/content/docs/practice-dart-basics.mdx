@@ -28,7 +28,7 @@ C. name is set to an empty string
 D. It compiles successfully',
 
 **Answer: A**
-— With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
+- With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 *Difficulty: easy*
 
 
@@ -40,7 +40,7 @@ C. Compilation error: cannot assign List&lt;int&gt; to List&lt;int&gt;?
 D. It is of type `dynamic`',
 
 **Answer: A**
-— `List&lt;int&gt;?` is a nullable list type. The variable `numbers` can hold either a `List&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
+- `List&lt;int&gt;?` is a nullable list type. The variable `numbers` can hold either a `List&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 *Difficulty: easy*
 
 
@@ -52,7 +52,7 @@ C. Map
 D. Queue
 
 **Answer: B**
-— A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
+- A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `{'a', 'b', 'a'}` becomes `{'a', 'b'}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 *Difficulty: easy*
 
 
@@ -68,7 +68,7 @@ C. 6
 D. Compilation error
 
 **Answer: A**
-— `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
+- `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 *Difficulty: medium*
 
 
@@ -80,7 +80,7 @@ C. Future&lt;String&gt;
 D. void
 
 **Answer: C**
-— Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
+- Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 *Difficulty: medium*
 
 
@@ -96,7 +96,7 @@ C. switch (r) \{ default: ... \}
 D. switch (r) \{ case Result(): ... \}',
 
 **Answer: A**
-— Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
+- Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 *Difficulty: medium*
 
 
@@ -108,7 +108,7 @@ C. record.0
 D. record.$1
 
 **Answer: D**
-— Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
+- Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 *Difficulty: medium*
 
 
@@ -122,7 +122,7 @@ A. "Prints 'walking' -- Walker's method is mixed into Person
 B. Calls Animal's walk method instead", 'Compilation error: Walker cannot be used with Person',
 
 **Answer: A**
-— Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
+- Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
 *Difficulty: medium*
 
 
@@ -140,7 +140,7 @@ C. Replace all nullable types with `dynamic
 D. Rewrite the project from scratch with null safety from day one',
 
 **Answer: A**
-— The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement.
+- The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement.
 *Difficulty: hard*
 
 
@@ -152,7 +152,7 @@ C. didChangeDependencies
 D. build
 
 **Answer: B**
-— `initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`.
+- `initState()` is called once when the State object is created, before `build()`. It is the correct place to initialize data, subscribe to streams, and set up controllers that depend on `this.context`. Do NOT call `BuildContext`-dependent methods (like `Theme.of(context)`) in `initState` -- use `didChangeDependencies` for those. Clean up subscriptions in `dispose()`.
 *Difficulty: hard*
 
 
@@ -162,13 +162,13 @@ D. build
 
 **Why it matters:** Dart is the language behind Flutter, one of the fastest-growing cross-platform app frameworks. Learning Dart opens doors to mobile, web, and desktop development.
 
-**The key insight:** Dart's async/await model simplifies asynchronous programming — instead of callback hell, you write asynchronous code that looks synchronous.
+**The key insight:** Dart's async/await model simplifies asynchronous programming, instead of callback hell, you write asynchronous code that looks synchronous.
 
 ## Common Mistakes
 
-**Forgetting that Dart is single-threaded with async/await:** Dart uses an event loop, not threads. `async` does not create a new thread — it schedules work on the event loop. CPU-intensive work on the main isolate blocks the UI. Use `Isolate.spawn` for compute-bound tasks.
+**Forgetting that Dart is single-threaded with async/await:** Dart uses an event loop, not threads. `async` does not create a new thread, it schedules work on the event loop. CPU-intensive work on the main isolate blocks the UI. Use `Isolate.spawn` for compute-bound tasks.
 
-**Confusing `late` with non-nullable types:** A `late` variable can hold null until initialized, but accessing it before initialization throws a `LateInitializationError`. Use `late` only when you can guarantee initialization before first access — prefer non-nullable types with immediate initialization when possible.
+**Confusing `late` with non-nullable types:** A `late` variable can hold null until initialized, but accessing it before initialization throws a `LateInitializationError`. Use `late` only when you can guarantee initialization before first access, prefer non-nullable types with immediate initialization when possible.
 
 **Ignoring null safety migration order:** When migrating to null safety, enable it per-package starting from leaf packages (those with no dependencies on other packages in your project). Migrating top-down causes cascading compilation errors that obscure the real issues.
 

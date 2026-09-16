@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Machine Learning resources — experience, expertise, and credentials behind machine learning study materials."
+description: "About Wyatt's Notes Machine Learning resources, experience, expertise, and credentials behind machine learning study materials."
 tags:
   - about
   - machine-learning
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Machine Learning
+## About Wyatt's Notes, Machine Learning
 
 Wyatt's Notes delivers comprehensive study materials for machine learning. These notes cover supervised and unsupervised learning, neural networks, deep learning, and practical ML engineering, building the skills needed to develop and deploy intelligent systems.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across machine learning, mathematics, and programming, 
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics notes
-- **[Python](https://python.wyattau.com)** — Python programming resources
-- **[Physics](https://physics.wyattau.com)** — University-level physics notes
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics notes
+- **[Python](https://python.wyattau.com)**, Python programming resources
+- **[Physics](https://physics.wyattau.com)**, University-level physics notes
 
 ## Explore the Site
 

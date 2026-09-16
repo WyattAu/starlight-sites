@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Numerical Methods — Diagnostic Tests
+## Numerical Methods, Diagnostic Tests
 
 ## Unit Tests
 
@@ -190,7 +190,7 @@ diverging.
 }
 </script>
 
-### UT-3: Trapezium Rule — Overestimate vs Underestimate
+### UT-3: Trapezium Rule, Overestimate vs Underestimate
 
 **Question:**
 

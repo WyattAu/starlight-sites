@@ -37,8 +37,8 @@ companies, and strategic naval bases. The East India Company, the Royal African 
 networks of private merchants drove expansion. Plantation economies in the Caribbean and southern
 American colonies depended on enslaved African labour.
 
-Imperial competition with France and Spain produced a series of wars — King William's War, Queen
-Anne's War, the War of Jenkins' Ear, and the Seven Years' War — that tested and expanded British
+Imperial competition with France and Spain produced a series of wars, King William's War, Queen
+Anne's War, the War of Jenkins' Ear, and the Seven Years' War, that tested and expanded British
 global reach. By 1763, Britain had emerged as the dominant colonial power, possessing territories in
 North America, the Caribbean, and India.
 
@@ -56,56 +56,56 @@ North America, the Caribbean, and India.
 
 ### Foundations of Commercial Expansion
 
-- **1688 — Glorious Revolution**: William of Orange takes the throne; constitutional settlement.
+- **1688, Glorious Revolution**: William of Orange takes the throne; constitutional settlement.
   Significance: creates a regime committed to opposing France and promoting Protestant commercial
   interests globally.
-- **1689 — Bill of Rights and Toleration Act**: Parliamentary sovereignty established. Significance:
+- **1689, Bill of Rights and Toleration Act**: Parliamentary sovereignty established. Significance:
   political stability and property rights create conditions favourable to commercial expansion.
-- **1694 — Bank of England founded**: Provides government finance through a national debt.
+- **1694, Bank of England founded**: Provides government finance through a national debt.
   Significance: enables Britain to fund wars and overseas expansion through sophisticated financial
   instruments.
-- **1698 — New East India Company chartered**: Competes with the original company; they merge
+- **1698, New East India Company chartered**: Competes with the original company; they merge
   in 1709. Significance: intensifies British commercial presence in India.
 
 ### Atlantic Trade and Colonies
 
-- **1707 — Act of Union**: England and Scotland unite as Great Britain. Significance: opens Scottish
+- **1707, Act of Union**: England and Scotland unite as Great Britain. Significance: opens Scottish
   merchants and settlers to English colonial trade; creates a larger political and economic unit.
-- **1713 — Treaty of Utrecht**: Ends War of Spanish Succession. Britain gains Gibraltar, Minorca,
+- **1713, Treaty of Utrecht**: Ends War of Spanish Succession. Britain gains Gibraltar, Minorca,
   Newfoundland, Nova Scotia, and the Asiento (right to supply enslaved Africans to Spanish
   colonies). Significance: establishes Britain as a major beneficiary of the European balance of
   power; the Asiento formalises Britain's role in the slave trade.
-- **1720 — South Sea Bubble**: Financial speculation crash. Significance: reveals the risks of
+- **1720, South Sea Bubble**: Financial speculation crash. Significance: reveals the risks of
   imperial finance but does not halt expansion; leads to increased regulation.
-- **1730s-1740s — Expansion of plantation economies**: Sugar, tobacco, and rice plantations in the
+- **1730s-1740s, Expansion of plantation economies**: Sugar, tobacco, and rice plantations in the
   Caribbean and southern colonies. Significance: these economies depend on enslaved labour; the
   triangular trade (manufactured goods → Africa → enslaved people → Americas → raw materials →
   Britain) becomes the backbone of imperial commerce.
 
 ### The East India Company and India
 
-- **1612 — Battle of Swally**: English defeat Portuguese; begin establishing factories. (Earlier
+- **1612, Battle of Swally**: English defeat Portuguese; begin establishing factories. (Earlier
   context)
-- **1661 — Bombay ceded to England**: Part of Catherine of Braganza's dowry. Significance: first
+- **1661, Bombay ceded to England**: Part of Catherine of Braganza's dowry. Significance: first
   major territorial possession in India.
-- **1686-1690 — Conflict with the Mughal Empire**: East India Company's aggressive tactics lead to
+- **1686-1690, Conflict with the Mughal Empire**: East India Company's aggressive tactics lead to
   defeat; apologises to Aurangzeb. Significance: demonstrates that the Company is not yet a military
   power; must operate through diplomacy and trade.
-- **1690-1700 — Calcutta established**: Job Charnock founds a trading post. Significance: becomes
+- **1690-1700, Calcutta established**: Job Charnock founds a trading post. Significance: becomes
   the centre of British activity in Bengal.
-- **1717 — Farman from Mughal Emperor Farrukhsiyar**: Grants the East India Company duty-free trade
+- **1717, Farman from Mughal Emperor Farrukhsiyar**: Grants the East India Company duty-free trade
   in Bengal. Significance: gives the Company a significant commercial advantage over competitors.
-- **1740s-1750s — Anglo-French rivalry in India**: Dupleix (French) and Clive (British) compete for
+- **1740s-1750s, Anglo-French rivalry in India**: Dupleix (French) and Clive (British) compete for
   influence among Indian states. Significance: transforms the Company from a commercial entity into
   a political and military power.
 
 ### Slavery and the Transatlantic Slave Trade
 
-- **c.1500-1807 — Transatlantic slave trade**: Britain becomes the largest slave-trading nation by
+- **c.1500-1807, Transatlantic slave trade**: Britain becomes the largest slave-trading nation by
   the mid-eighteenth century. Approximately 3.1 million enslaved Africans transported by British
   ships. Significance: the slave trade generates enormous wealth for merchants, ports (Bristol,
   Liverpool, Glasgow), and the broader economy.
-- **1698 — Royal African Company monopoly ends**: Private traders enter the slave trade.
+- **1698, Royal African Company monopoly ends**: Private traders enter the slave trade.
   Significance: dramatically increases the volume of the trade; the number of enslaved people
   transported triples.
 - **Plantation economies**: Caribbean sugar, Virginia tobacco, Carolina rice. Significance: enslaved
@@ -114,38 +114,38 @@ North America, the Caribbean, and India.
 
 ### Imperial Wars
 
-- **1689-1697 — King William's War (War of the Grand Alliance)**: First Anglo-French conflict after
+- **1689-1697, King William's War (War of the Grand Alliance)**: First Anglo-French conflict after
   the Glorious Revolution. Significance: establishes the pattern of imperial warfare linked to
   European conflicts.
-- **1702-1713 — Queen Anne's War (War of Spanish Succession)**: Britain gains major territorial
+- **1702-1713, Queen Anne's War (War of Spanish Succession)**: Britain gains major territorial
   concessions at Utrecht. Significance: demonstrates that European wars can expand imperial
   holdings.
-- **1739-1748 — War of Jenkins' Ear / War of Austrian Succession**: Conflict begins over Spanish
+- **1739-1748, War of Jenkins' Ear / War of Austrian Succession**: Conflict begins over Spanish
   depredations against British shipping; merges into wider European war. Significance: Admiral
   Vernon's capture of Portobello (1739) boosts British confidence but the war ends inconclusively.
-- **1745 — Jacobite Rebellion**: French-backed attempt to restore the Stuart dynasty. Significance:
+- **1745, Jacobite Rebellion**: French-backed attempt to restore the Stuart dynasty. Significance:
   demonstrates that imperial rivalry has domestic consequences; defeat strengthens the Hanoverian
   regime.
-- **1754-1763 — Seven Years' War (French and Indian War)**: Global conflict; Britain and Prussia vs.
+- **1754-1763, Seven Years' War (French and Indian War)**: Global conflict; Britain and Prussia vs.
   France, Austria, Russia, and Spain. Significance: the decisive imperial war.
 
 #### Seven Years' War Key Events
 
-- **1756 — Black Hole of Calcutta**: Alleged incident where British prisoners die in a small room.
+- **1756, Black Hole of Calcutta**: Alleged incident where British prisoners die in a small room.
   Significance: used as propaganda to justify retaliation; accuracy of the account debated.
-- **1757 — Battle of Plassey**: Robert Clive defeats Siraj-ud-Daulah, Nawab of Bengal, with the
+- **1757, Battle of Plassey**: Robert Clive defeats Siraj-ud-Daulah, Nawab of Bengal, with the
   support of the Nawab's rival Mir Jafar. Significance: gives the East India Company control of
   Bengal; the foundation of British rule in India. The battle was won through bribery and treachery
   as much as military skill.
-- **1758-1760 — French expelled from India**: Pondicherry falls in 1761. Significance: ends French
+- **1758-1760, French expelled from India**: Pondicherry falls in 1761. Significance: ends French
   challenge in India; Britain becomes the dominant European power.
-- **1759 — Battle of the Plains of Abraham (Quebec)**: General Wolfe defeats Montcalm; both die.
+- **1759, Battle of the Plains of Abraham (Quebec)**: General Wolfe defeats Montcalm; both die.
   Significance: British capture of Quebec effectively gives control of Canada.
-- **1760 — Capture of Montreal**: French Canada surrenders. Significance: completes the conquest of
+- **1760, Capture of Montreal**: French Canada surrenders. Significance: completes the conquest of
   New France.
-- **1762 — British capture Havana and Manila**: Spanish colonial cities taken. Significance:
+- **1762, British capture Havana and Manila**: Spanish colonial cities taken. Significance:
   demonstrates the global reach of British naval power.
-- **1763 — Treaty of Paris**: Britain gains Canada, Florida, and territories west of the Appalachian
+- **1763, Treaty of Paris**: Britain gains Canada, Florida, and territories west of the Appalachian
   Mountains; returns Havana and Manila to Spain; returns Guadeloupe and Martinique to France.
   Significance: Britain emerges as the world's dominant colonial power, but the vast new territories
   create governing challenges that contribute to the American Revolution.
@@ -171,7 +171,7 @@ North America, the Caribbean, and India.
   Chartered companies, merchants, and economic interests shaped imperial expansion. Territorial
   control was a byproduct of commercial activity.
 - **Political interpretation** (e.g., Lawrence James): Imperial expansion was driven by strategic
-  and political considerations — rivalry with France, national prestige, and the desire for
+  and political considerations, rivalry with France, national prestige, and the desire for
   security. Commercial interests served political goals as much as the reverse.
 - **Synthesis**: The empire was both. The East India Company pursued profit but was drawn into
   political and military entanglement. The government pursued strategic goals but relied on
@@ -226,7 +226,7 @@ When analysing sources from the early British Empire:
 - **Plantation records**: Accounts, inventories, and correspondence from Caribbean and American
   plantations
 - **Naval and military records**: Logs, dispatches, and campaign accounts
-- **Travel narratives and natural histories**: Descriptions of peoples, lands, and resources —
+- **Travel narratives and natural histories**: Descriptions of peoples, lands, and resources,
   shaped by imperial assumptions
 - **Maps and charts**: Representations of territory that reflect imperial claims and knowledge
 
@@ -245,13 +245,13 @@ When analysing sources from the early British Empire:
 
 ## Worked Examples
 
-### Example 1: Essay Plan — "Commercial motives were the main driver of British imperial expansion in the period 1688-1763." How far do you agree?
+### Example 1: Essay Plan, "Commercial motives were the main driver of British imperial expansion in the period 1688-1763." How far do you agree?
 
 **Introduction**: Commercial interests were the primary engine of expansion, but strategic rivalry
 with France, the political ambitions of chartered companies, and the role of the state in supporting
 and directing commerce were also essential factors.
 
-**Paragraph 1 — Commercial motives** (agree)
+**Paragraph 1, Commercial motives** (agree)
 
 - The East India Company, Royal African Company, and private merchants drove expansion
 - The triangular trade generated enormous profits: manufactured goods → Africa → enslaved people →
@@ -260,7 +260,7 @@ and directing commerce were also essential factors.
 - The Navigation Acts were designed to ensure colonial trade benefited the mother country
 - But: commercial success depended on naval and military power provided by the state
 
-**Paragraph 2 — Strategic rivalry with France** (alternative)
+**Paragraph 2, Strategic rivalry with France** (alternative)
 
 - The Glorious Revolution committed Britain to opposing French power
 - Imperial wars (1702-1713, 1740-1748, 1754-1763) were extensions of European conflicts
@@ -270,15 +270,15 @@ and directing commerce were also essential factors.
   thinking
 - But: strategic goals and commercial interests overlapped significantly
 
-**Paragraph 3 — The role of chartered companies** (alternative)
+**Paragraph 3, The role of chartered companies** (alternative)
 
 - The East India Company evolved from a trading body into a territorial power
 - Company officials like Clive pursued personal ambition as much as commercial profit
 - The Company's transition from trade to governance in Bengal after Plassey was driven by political
   opportunity
-- But: this was still fundamentally commercial — political control served trade
+- But: this was still fundamentally commercial, political control served trade
 
-**Paragraph 4 — Settler and colonial dynamics** (alternative)
+**Paragraph 4, Settler and colonial dynamics** (alternative)
 
 - North American colonies expanded westward driven by settlers, not government policy
 - Colonial assemblies often pursued their own interests, sometimes conflicting with London
@@ -286,19 +286,19 @@ and directing commerce were also essential factors.
   meant there was no single "imperial" motive
 - But: settlers operated within the framework of British imperial power
 
-**Conclusion**: Commercial motives were the primary driver — the empire was built on trade, profit,
+**Conclusion**: Commercial motives were the primary driver, the empire was built on trade, profit,
 and the economic exploitation of resources and labour. However, commercial expansion was inseparable
 from strategic competition with France, the political evolution of chartered companies, and the
 support of state power. The most accurate view is that the empire was a commercial project enabled
 and shaped by political and military power.
 
-### Example 2: Essay Plan — "The Battle of Plassey was a turning point in the history of the British Empire." How far do you agree?
+### Example 2: Essay Plan, "The Battle of Plassey was a turning point in the history of the British Empire." How far do you agree?
 
 **Introduction**: Plassey in 1757 marked the transition of the East India Company from a trading
-organisation to a territorial power, but it was not the sole turning point — the Seven Years' War
+organisation to a territorial power, but it was not the sole turning point, the Seven Years' War
 and the Treaty of Paris were equally significant in establishing British global dominance.
 
-**Paragraph 1 — Significance of Plassey** (agree)
+**Paragraph 1, Significance of Plassey** (agree)
 
 - Gave the Company control of Bengal's revenue (the diwani was formally granted in 1765)
 - Transformed the Company into a political entity with its own army and territory
@@ -307,7 +307,7 @@ and the Treaty of Paris were equally significant in establishing British global 
   force
 - But: full British control of India took decades more; Plassey was the beginning, not the end
 
-**Paragraph 2 — The broader context of the Seven Years' War** (alternative)
+**Paragraph 2, The broader context of the Seven Years' War** (alternative)
 
 - Plassey was one theatre of a global conflict
 - The expulsion of France from India and Canada was equally important
@@ -315,7 +315,7 @@ and the Treaty of Paris were equally significant in establishing British global 
 - The war demonstrated Britain's global naval and military reach
 - But: Plassey was specific to India; other gains had separate causes
 
-**Paragraph 3 — Long-term consequences** (alternative)
+**Paragraph 3, Long-term consequences** (alternative)
 
 - Plassey led to the Bengal Famine of 1770 (estimated 10 million deaths), as Company revenue
   extraction devastated the agricultural economy
@@ -324,14 +324,14 @@ and the Treaty of Paris were equally significant in establishing British global 
 - The American Revolution (1776) would soon demonstrate the limits of imperial control
 - But: these consequences were not all foreseeable in 1757
 
-**Paragraph 4 — Earlier turning points** (alternative)
+**Paragraph 4, Earlier turning points** (alternative)
 
 - The Treaty of Utrecht (1713) gave Britain the Asiento and Newfoundland
 - The founding of Calcutta (1690) established the British presence in Bengal
 - The collapse of Mughal authority created the conditions for European expansion
 - But: these events did not create territorial empire in the way Plassey did
 
-**Conclusion**: Plassey was a genuine turning point — it initiated British territorial rule in India
+**Conclusion**: Plassey was a genuine turning point, it initiated British territorial rule in India
 and transformed the East India Company from a commercial into a political entity. However, it must
 be understood within the broader context of the Seven Years' War, which established British global
 dominance across multiple theatres. Plassey was the most significant turning point for India

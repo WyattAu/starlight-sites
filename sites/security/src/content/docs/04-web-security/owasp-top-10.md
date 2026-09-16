@@ -26,7 +26,7 @@ Act outside their intended permissions.
 ## VULNERABLE: Any user can access any order by changing the ID
 @app.route("/api/orders/<order_id>')
 def get_order(order_id):
-    order = db.query("SELECT * FROM orders WHERE id = %s", (order_id,))
+    order = db.query("SELECT * FROM orders WHERE id = %s", (order_id))
     return jsonify(order)
 
 ## SAFE: Verify the user owns the resource
@@ -194,7 +194,7 @@ cursor.execute(f"SELECT * FROM users WHERE id = {user_id} AND SUBSTRING(password
 cursor.execute(f"SELECT * FROM users WHERE id = {user_id}; IF SUBSTRING(password,1,1)='a' WAITFOR DELAY '0:0:5'")
 
 # SAFE: parameterized query
-cursor.execute("SELECT * FROM users WHERE id = %s", (user_id,))
+cursor.execute("SELECT * FROM users WHERE id = %s", (user_id))
 ```
 
 ### NoSQL Injection

@@ -46,7 +46,7 @@ flowchart TD
 
 ## 1. Surds
 
-**Definition.** A _surd_ is an irrational number expressible as the root of a rational number — that
+**Definition.** A _surd_ is an irrational number expressible as the root of a rational number, that
 Is, an expression of the form $\sqrt{n}$ where $n \in \mathbb{Q}^+$ and
 $\sqrt{n} \notin \mathbb{Q}$.
 
@@ -254,7 +254,7 @@ Have smaller degree than the divisor.
 
 ### 4.2 Why Polynomial Division Mirrors Integer Long Division
 
-The structural analogy is deep. Both are instances of a _Euclidean domain_ — an algebraic structure
+The structural analogy is deep. Both are instances of a _Euclidean domain_, an algebraic structure
 Where we can perform division with remainder. In $\mathbb{Z}$The "degree" is the absolute value; In
 $\mathbb{R}[x]$The degree is the polynomial degree. The algorithm is the same: at each step,
 Eliminate the leading term.
@@ -535,7 +535,7 @@ Q^2 &= 3k^2
 \end{aligned}
 $$
 
-So $3 \mid q^2$Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3 — contradiction.
+So $3 \mid q^2$Hence $3 \mid q$. But $\gcd(p, q) = 1$ and both are divisible by 3, contradiction.
 $\blacksquare$
 
 </details>
@@ -703,7 +703,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Quadratics](02-quadratics) — Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
-- [Equations and Inequalities](03-equations-and-inequalities) — The factor theorem and polynomial division are applied to solving simultaneous equations.
-- [Sequences and Series](06-sequences-and-series) — Summation notation and algebraic manipulation are essential for working with series.
+- [Quadratics](02-quadratics), Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
+- [Equations and Inequalities](03-equations-and-inequalities), The factor theorem and polynomial division are applied to solving simultaneous equations.
+- [Sequences and Series](06-sequences-and-series), Summation notation and algebraic manipulation are essential for working with series.
 :::

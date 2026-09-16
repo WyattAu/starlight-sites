@@ -628,7 +628,7 @@ bugs:
 
 ```elixir
 # Add to mix.exs deps
-{:credo, "~> 1.7", only: [:dev, :test], runtime: false}
+{:credo, "~> 1.7", only: [:dev:test], runtime: false}
 
 # Run Credo
 mix credo
@@ -797,11 +797,11 @@ Benchee.run(%{
 
 ## Intuition
 
-**Elixir is a city of lightweight workers:** Imagine a city where every resident (process) has their own house (heap), their own mailbox, and communicates only by sending letters (messages). There are no shared tools or shared walls — if one house burns down, the neighbors are unaffected. The supervisor tree is the city's emergency management system: when a worker crashes, the supervisor restarts them from scratch, like resetting a chess piece to its starting square.
+**Elixir is a city of lightweight workers:** Imagine a city where every resident (process) has their own house (heap), their own mailbox, and communicates only by sending letters (messages). There are no shared tools or shared walls, if one house burns down, the neighbors are unaffected. The supervisor tree is the city's emergency management system: when a worker crashes, the supervisor restarts them from scratch, like resetting a chess piece to its starting square.
 
-**Why it matters:** This architecture makes Elixir systems inherently fault-tolerant. You don't write defensive code for every possible failure — you let things crash and let supervisors handle recovery. WhatsApp handles billions of messages with this model.
+**Why it matters:** This architecture makes Elixir systems inherently fault-tolerant. You don't write defensive code for every possible failure, you let things crash and let supervisors handle recovery. WhatsApp handles billions of messages with this model.
 
-**The key insight:** "Let it crash" isn't reckless — it's a deliberate strategy where recovery from a known good state is cheaper than trying to prevent every possible failure mode.
+**The key insight:** "Let it crash" isn't reckless, it's a deliberate strategy where recovery from a known good state is cheaper than trying to prevent every possible failure mode.
 
 ## Summary
 

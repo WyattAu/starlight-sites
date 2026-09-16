@@ -1,11 +1,11 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: A Streetcar Named Desire — Close Reading and Analysis
+title: A Streetcar Named Desire, Close Reading and Analysis
 tags:
   - IB
   - English
-description: "Study notes for A Streetcar Named Desire — Close Reading and Analysis with worked examples, practice problems, and key concepts for exam preparation."
+description: "Study notes for A Streetcar Named Desire, Close Reading and Analysis with worked examples, practice problems, and key concepts for exam preparation."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -21,11 +21,11 @@ description: "Study notes for A Streetcar Named Desire — Close Reading and Ana
 
 ## Intuition
 
-**Analyzing Streetcar is like performing an autopsy on the American Dream — Blanche's tragedy reveals the rot beneath the surface of postwar America:** Williams layers symbolism throughout — the streetcar named Desire, the Bow and Arrow label, the blue piano — to create meaning beyond dialogue
+**Analyzing Streetcar is like performing an autopsy on the American Dream, Blanche's tragedy reveals the rot beneath the surface of postwar America:** Williams layers symbolism throughout, the streetcar named Desire, the Bow and Arrow label, the blue piano, to create meaning beyond dialogue
 
 **Why it matters:** Deep analysis of this play reveals timeless themes about illusion, desire, and the cruelty of reality
 
-**The key insight:** Williams layers symbolism throughout — the streetcar named Desire, the Bow and Arrow label, the blue piano — to create meaning beyond dialogue
+**The key insight:** Williams layers symbolism throughout, the streetcar named Desire, the Bow and Arrow label, the blue piano, to create meaning beyond dialogue
 
 ## 1. Context: American Drama and Tennessee Williams
 

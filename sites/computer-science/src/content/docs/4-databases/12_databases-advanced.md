@@ -137,8 +137,8 @@ collapsing rows (unlike GROUP BY).
 
 ```sql
 FUNCTION(args) OVER (
-    [PARTITION BY col1, col2, ...]
-    [ORDER BY col3, col4, ...]
+    [PARTITION BY col1, col2...]
+    [ORDER BY col3, col4...]
     [frame_clause]
 )
 ```
@@ -1333,7 +1333,7 @@ If you get this wrong, revise: Section 5.1.
 
 ## Intuition
 
-Advanced databases tackle the hardest problems in data management. Distributed transactions are like ensuring a multi-city bank transfer completes everywhere or nowhere — the two-phase commit protocol is the handshake that makes this happen. Concurrency control is the traffic system that prevents two transactions from writing to the same row at the same time — locks are traffic lights, timestamps are reservation systems. Recovery and backup are the fire insurance of data — write-ahead logging ensures that even if the power cuts out, you can reconstruct what happened. These systems are the invisible infrastructure that keeps the digital world running reliably.
+Advanced databases tackle the hardest problems in data management. Distributed transactions are like ensuring a multi-city bank transfer completes everywhere or nowhere, the two-phase commit protocol is the handshake that makes this happen. Concurrency control is the traffic system that prevents two transactions from writing to the same row at the same time, locks are traffic lights, timestamps are reservation systems. Recovery and backup are the fire insurance of data, write-ahead logging ensures that even if the power cuts out, you can reconstruct what happened. These systems are the invisible infrastructure that keeps the digital world running reliably.
 
 ## Common Pitfalls
 
@@ -1353,7 +1353,7 @@ Advanced databases tackle the hardest problems in data management. Distributed t
 
 **Problem.** Relation R(A, B, C, D) with FDs: AB → C, C → D. Is R in 3NF?
 
-**Solution.** Key: AB. C depends on AB (partial dependency on non-prime B? No — C depends on the
+**Solution.** Key: AB. C depends on AB (partial dependency on non-prime B? No, C depends on the
 full key AB). C → D: D depends on C, which is non-prime. This is a transitive dependency, violating
 3NF.
 

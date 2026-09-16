@@ -60,7 +60,7 @@ Relations and functions form the foundation of higher mathematics. This topic co
 - Function $f: A \to B$ is surjective (onto): for every $b \in B$, there exists $a \in A$ with $f(a) = b$
 - Bijective function: both injective and surjective
 
-## Worked Example 1 — Types of Relations
+## Worked Example 1, Types of Relations
 
 **Problem:** Let $A = \{1, 2, 3, 4\}$ and $R = \{(1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (2, 1), (2, 3), (3, 2)\}$. Determine if $R$ is reflexive, symmetric, and transitive.
 
@@ -77,7 +77,7 @@ $(1,2) \in R$ and $(2,3) \in R$, but $(1,3) \notin R$. No, $R$ is not transitive
 
 **Common mistake:** Assuming that if a relation is reflexive and symmetric, it must be transitive. Always check all three properties.
 
-## Worked Example 2 — Injective and Surjective Functions
+## Worked Example 2, Injective and Surjective Functions
 
 **Problem:** Determine whether $f: \mathbb{R} \to \mathbb{R}$ defined by $f(x) = x^2 + 1$ is injective, surjective, or bijective.
 
@@ -94,7 +94,7 @@ Since $f$ is neither injective nor surjective, it is not bijective.
 
 **Common mistake:** Forgetting that $x^2 = a$ has solutions $x = \pm\sqrt{a}$, which breaks injectivity.
 
-## Worked Example 3 — Composition of Functions
+## Worked Example 3, Composition of Functions
 
 **Problem:** If $f(x) = 2x + 3$ and $g(x) = x^2$, find $(f \circ g)(x)$ and $(g \circ f)(x)$.
 
@@ -134,7 +134,7 @@ Relations and functions are the language of mathematics. Every equation, mapping
 - Composition: $(f \circ g)(x) = f(g(x))$
 - Inverse: if $f(x) = y$, then $f^{-1}(y) = x$
 
-## Worked Example 4 — Equivalence Relation from Partition
+## Worked Example 4, Equivalence Relation from Partition
 
 **Problem:** Let $A = \{1, 2, 3, 4, 5, 6\}$. Define $R$ on $A$ by $aRb$ if $a$ and $b$ leave the same remainder when divided by 3. Show that $R$ is an equivalence relation and find the equivalence classes.
 
@@ -156,7 +156,7 @@ Equivalence classes:
 
 **Common mistake:** Forgetting that equivalence classes partition the set. Each element belongs to exactly one class.
 
-## Worked Example 5 — Injective Function with Restricted Domain
+## Worked Example 5, Injective Function with Restricted Domain
 
 **Problem:** Determine whether $f: \mathbb{Z}^+ \to \mathbb{Z}^+$ defined by $f(n) = 2n + 1$ is injective, surjective, or bijective.
 
@@ -172,7 +172,7 @@ Since $f$ is injective but not surjective, it is not bijective.
 
 **Common mistake:** Confusing the codomain with the range. The codomain is $\mathbb{Z}^+$, but the range is only the odd numbers $\geq 3$.
 
-## Worked Example 6 — Inverse Function
+## Worked Example 6, Inverse Function
 
 **Problem:** Find the inverse of $f: \mathbb{R} \to \mathbb{R}$ defined by $f(x) = \frac{2x + 3}{x - 1}$, $x \neq 1$.
 
@@ -202,11 +202,11 @@ $$f^{-1}(x) = \frac{x + 3}{x - 2}, \quad x \neq 2$$
 
 ## Intuition
 
-**A function is a machine with strict rules:** Picture a vending machine — you put in a specific coin (input), and you always get the same snack (output). A function is the same: same input always produces same output. Injective means no two different coins give the same snack. Surjective means every snack in the display can be obtained. Bijective means it's a perfect one-to-one correspondence.
+**A function is a machine with strict rules:** Picture a vending machine, you put in a specific coin (input), and you always get the same snack (output). A function is the same: same input always produces same output. Injective means no two different coins give the same snack. Surjective means every snack in the display can be obtained. Bijective means it's a perfect one-to-one correspondence.
 
-**Why it matters:** Functions are the language of mathematics itself — every equation, mapping, and transformation is expressed through functions. Understanding injectivity and surjectivity determines whether you can invert a function, solve equations uniquely, and define meaningful compositions.
+**Why it matters:** Functions are the language of mathematics itself, every equation, mapping, and transformation is expressed through functions. Understanding injectivity and surjectivity determines whether you can invert a function, solve equations uniquely, and define meaningful compositions.
 
-**The key insight:** Composition is not commutative because it's about the order of operations — putting on socks then shoes is fundamentally different from shoes then socks.
+**The key insight:** Composition is not commutative because it's about the order of operations, putting on socks then shoes is fundamentally different from shoes then socks.
 
 ## Common Mistakes
 

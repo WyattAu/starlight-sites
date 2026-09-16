@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Programming and Databases — Diagnostic Tests
+## Programming and Databases, Diagnostic Tests
 
 ## Unit Tests
 
@@ -186,11 +186,11 @@ flowchart TD
 
 ## Intuition
 
-**A recipe and a filing cabinet:** Programming is like writing a recipe — precise steps that a computer follows exactly. Databases are filing cabinets that organize information so you can find any record quickly.
+**A recipe and a filing cabinet:** Programming is like writing a recipe, precise steps that a computer follows exactly. Databases are filing cabinets that organize information so you can find any record quickly.
 
 **Why it matters:** Algorithms solve problems efficiently, and databases manage the world's data. Understanding both lets you build systems that scale from personal projects to global platforms.
 
-**The key insight:** Binary search cuts search time in half with each step — O(log n) vs O(n) — making it essential for working with large datasets.
+**The key insight:** Binary search cuts search time in half with each step, O(log n) vs O(n), making it essential for working with large datasets.
 
 ## Integration Tests
 

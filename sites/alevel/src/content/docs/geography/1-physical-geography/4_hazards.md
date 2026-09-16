@@ -281,7 +281,7 @@ depending on their vulnerability and capacity.
   increases before eruption), ground deformation is measured by GPS and tiltmeters, thermal
   satellite imagery detects temperature changes.
 - **Tropical storm forecasting**: Satellite tracking, computer models, aircraft reconnaissance
-  (hurricane hunters). Forecast accuracy has improved significantly — 72-hour track forecasts are
+  (hurricane hunters). Forecast accuracy has improved significantly, 72-hour track forecasts are
   now as accurate as 24-hour forecasts were in 1990.
 
 ### Mitigation Strategies
@@ -323,24 +323,24 @@ North American plates, was responsible.
 **Impacts**: The Haitian government estimated approximately 230,000 deaths, 300,000 injuries, and
 1.5 million people displaced. Approximately 250,000 homes and 30,000 commercial buildings collapsed.
 The presidential palace, parliament, and most government ministries were destroyed. Total economic
-losses were estimated at approximately $8 billion — equivalent to roughly 120% of Haiti's GDP.
+losses were estimated at approximately $8 billion, equivalent to roughly 120% of Haiti's GDP.
 
 **Why vulnerability was so high**: Haiti was the poorest country in the Western Hemisphere, with GDP
 per capita of approximately $650. Decades of political instability, corruption, and weak governance
 meant no building codes were enforced. Most buildings were poorly constructed, unreinforced concrete
 block. The high population density of Port-au-Prince (approximately 25,000 per km² in some areas)
-concentrated exposure. Deficient infrastructure — no heavy lifting equipment, limited hospital
-capacity (only one functional CT scanner in the capital), poor road access — hampered the response.
+concentrated exposure. Deficient infrastructure, no heavy lifting equipment, limited hospital
+capacity (only one functional CT scanner in the capital), poor road access, hampered the response.
 
-**Response challenges**: The international response was enormous — over $9 billion in aid was
-pledged — but coordination was chaotic. The destruction of government buildings and the death of
+**Response challenges**: The international response was enormous, over $9 billion in aid was
+pledged, but coordination was chaotic. The destruction of government buildings and the death of
 many civil servants weakened local leadership. A cholera outbreak in October 2010, introduced by UN
 peacekeepers, killed over 10,000 more people. Over 100,000 people were still living in temporary
 camps five years after the earthquake.
 
 ### Case Study 2: Tōhoku Earthquake and Tsunami, Japan, 11 March 2011
 
-**Physical event**: A magnitude 9.0 earthquake — the most powerful ever recorded in Japan — struck
+**Physical event**: A magnitude 9.0 earthquake, the most powerful ever recorded in Japan, struck
 approximately 72 km east of the Oshika Peninsula at a depth of 32 km. It was caused by the
 subduction of the Pacific plate beneath the North American plate at the Japan Trench. The earthquake
 shifted Honshu 2.4 m east and lowered the coastline by up to 0.6 m.
@@ -359,7 +359,7 @@ the worst nuclear accident since Chernobyl (1986), rated Level 7 on the Internat
 Scale. Approximately 154,000 people were evacuated from the surrounding area.
 
 **Why Japan was better prepared but still vulnerable**: Japan has the most advanced earthquake and
-tsunami preparedness in the world — strict building codes, earthquake early warning systems, tsunami
+tsunami preparedness in the world, strict building codes, earthquake early warning systems, tsunami
 sea walls, and regular evacuation drills. Buildings largely survived the earthquake itself. However,
 the tsunami exceeded design parameters (the sea wall at Fukushima was designed for a maximum 5.7 m
 wave; the actual wave was approximately 14 m). This highlights the limitation of designing defences
@@ -374,7 +374,7 @@ m along the Mississippi coast.
 **Impacts on New Orleans**: The primary cause of devastation was not wind but **flooding**. The
 storm surge overwhelmed the levee and flood wall system designed by the US Army Corps of Engineers,
 causing approximately 50 breaches. Approximately 80% of New Orleans was flooded, with some areas
-under 4.5 m of water. Over 1,800 people died, and approximately 1 million were displaced — the
+under 4.5 m of water. Over 1,800 people died, and approximately 1 million were displaced, the
 largest displacement in the US since the Civil War.
 
 **Why vulnerability was high**: Despite being a wealthy, developed nation, vulnerability was
@@ -387,7 +387,7 @@ refuge, lacked adequate supplies and sanitation.
 **Governance failures**: The response was widely criticised as inadequate. The Federal Emergency
 Management Agency (FEMA) was slow to deploy resources. Confusion between local, state, and federal
 jurisdictional responsibilities delayed action. The levee system had been known to be inadequate for
-a major hurricane — a 2001 FEMA report had identified a New Orleans hurricane as one of the three
+a major hurricane, a 2001 FEMA report had identified a New Orleans hurricane as one of the three
 most likely catastrophic disasters facing the US.
 
 ---
@@ -460,7 +460,7 @@ specific characteristics of the hazard event also play crucial roles.
 
 There is strong evidence that economic development reduces vulnerability. The 2010 Haiti earthquake
 (M7.0) killed approximately 230,000 people, while the 2011 Christchurch earthquake in New Zealand
-(M6.2 — lower magnitude) killed 185. The contrast is largely attributable to differences in building
+(M6.2, lower magnitude) killed 185. The contrast is largely attributable to differences in building
 quality: Haiti had no enforced building codes, whereas New Zealand has stringent seismic building
 standards. Japan, one of the most developed nations, experiences frequent earthquakes but commonly
 suffers relatively low death tolls due to earthquake-resistant construction, early warning systems,
@@ -475,7 +475,7 @@ However, economic development alone does not guarantee low impact. The 2011 Tōh
 demonstrated that even the wealthiest, best-prepared nation can suffer catastrophic losses when an
 event exceeds design parameters. The nuclear disaster at Fukushima resulted from a tsunami that
 overwhelmed defences designed for a smaller wave. Similarly, Hurricane Katrina in 2005 showed that
-vulnerability in wealthy nations can be concentrated among poorer communities — the Lower Ninth Ward
+vulnerability in wealthy nations can be concentrated among poorer communities, the Lower Ninth Ward
 of New Orleans suffered disproportionately because of social inequality, not national wealth.
 
 Physical factors also matter. The depth, location, and time of an earthquake all affect its impact
@@ -498,7 +498,7 @@ considering all these dimensions rather than reducing vulnerability to a single 
 Tropical storms require specific environmental conditions that are met only in certain parts of the
 world. First, sea surface temperatures must be at least 26.5°C to a depth of approximately 50 m.
 This provides the necessary thermal energy and moisture for storm development. Such temperatures are
-found only in tropical and subtropical oceans — in most cases between 5° and 30° north and south of
+found only in tropical and subtropical oceans, in most cases between 5° and 30° north and south of
 the equator.
 
 Second, the Coriolis effect must be strong enough to initiate and sustain cyclonic rotation. The
@@ -546,7 +546,7 @@ flowchart TD
 - The magnitude-frequency relationship describes the inverse correlation between event size and
   frequency.
 - Vulnerability is determined by economic development, governance, education, population density,
-  and social inequality — not just physical exposure.
+  and social inequality, not just physical exposure.
 - Risk management includes prediction, mitigation (building codes, engineering), and adaptation
   (land-use planning, ecosystem approaches).
 - Case studies demonstrate that similar physical events can produce vastly different outcomes

@@ -111,12 +111,12 @@ flowchart TD
 
 **Why it matters:** Well-designed cross-references improve user experience by reducing the effort needed to find related information and understand topic relationships.
 
-**The key insight:** Cross-references should add value — linking to truly related content is more helpful than linking to everything.
+**The key insight:** Cross-references should add value, linking to truly related content is more helpful than linking to everything.
 
 ## Common Mistakes
 
-**Trying to learn topics in isolation:** Many concepts build on each other — linear algebra underpins quantum mechanics, probability underpins machine learning, and discrete mathematics underpins algorithms. Skipping prerequisites creates fragile understanding that collapses under exam pressure. Follow the chains above.
+**Trying to learn topics in isolation:** Many concepts build on each other, linear algebra underpins quantum mechanics, probability underpins machine learning, and discrete mathematics underpins algorithms. Skipping prerequisites creates fragile understanding that collapses under exam pressure. Follow the chains above.
 
 **Ignoring cross-disciplinary connections:** Studying physics without its mathematical foundations, or programming without its algorithmic roots, leads to shallow understanding. The most powerful learning happens when you see how the same concept (e.g., eigenvalues, recursion, differential equations) appears across multiple domains.
 
-**Assuming linear progression:** Learning is not strictly sequential. You may need to revisit calculus while studying differential equations, or review linear algebra while learning machine science. This is normal and expected — the chains above are guides, not rigid prerequisites.
+**Assuming linear progression:** Learning is not strictly sequential. You may need to revisit calculus while studying differential equations, or review linear algebra while learning machine science. This is normal and expected, the chains above are guides, not rigid prerequisites.

@@ -1,5 +1,5 @@
 ---
-title: "University Physics Practice Test — 30 Challenging Problems"
+title: "University Physics Practice Test, 30 Challenging Problems"
 description: "30 university-level physics problems covering Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Problem-solving with detailed solutions."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## University Physics Practice Test — 30 Challenging Problems
+## University Physics Practice Test, 30 Challenging Problems
 
 This practice test covers 30 problems across four major domains of university physics: Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Each problem requires multi-step reasoning and the application of fundamental principles. Work through the problems with pen and paper before checking the solutions.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Problem-solving — show all working
+- **Format:** Problem-solving, show all working
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Show all steps in your solutions.
 - **After the test:** Check the solutions at the bottom. Study the derivations for any problems you got wrong.
@@ -46,7 +46,7 @@ This practice test covers 30 problems across four major domains of university ph
 
 ## Classical Mechanics (P1–P8)
 
-### P1 — Lagrangian Mechanics
+### P1, Lagrangian Mechanics
 
 A particle of mass m slides without friction on the inside surface of a sphere of radius R. Using the angle theta from the vertical as the generalised coordinate, derive the equation of motion and find the condition for the particle to leave the surface.
 
@@ -64,11 +64,11 @@ $$\ddot{\theta} = -\frac{g}{R}\sin\theta$$
 
 The particle leaves the surface when the normal force becomes zero. From the radial force equation: $mg\cos\theta - N = mR\dot{\theta}^2$. Setting $N = 0$ and using energy conservation: $v^2 = 2gR(\cos\theta_c - \cos\theta)$, the critical angle is $\cos\theta_c = 2/3$, or $\theta_c \approx 48.2°$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P2 — Hamiltonian Mechanics
+### P2, Hamiltonian Mechanics
 
 For a one-dimensional harmonic oscillator with mass m and spring constant k, write the Hamiltonian and derive Hamilton's equations of motion.
 
@@ -90,11 +90,11 @@ $$\dot{p} = -\frac{\partial H}{\partial x} = -kx$$
 
 Differentiating the first: $\ddot{x} = \dot{p}/m = -kx/m$, giving $\ddot{x} + \omega^2 x = 0$ where $\omega = \sqrt{k/m}$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P3 — Central Forces
+### P3, Central Forces
 
 A particle moves in a central force field $F(r) = -kr^{-3}$ (attractive). Determine whether closed orbits are possible using the effective potential.
 
@@ -104,13 +104,13 @@ The effective potential is:
 
 $$V_{eff}(r) = \frac{l^2}{2mr^2} + \frac{k}{2r^2} = \frac{1}{2r^2}\left(\frac{l^2}{m} + k\right)$$
 
-where $l$ is the angular momentum. Since $V_{eff} \propto 1/r^2$, the effective potential is purely repulsive (for $k > 0$) or purely attractive (for $k < 0$). There is no potential well, so no stable circular orbits exist. The particle either spirals inward or escapes to infinity — closed orbits are not possible.
+where $l$ is the angular momentum. Since $V_{eff} \propto 1/r^2$, the effective potential is purely repulsive (for $k > 0$) or purely attractive (for $k < 0$). There is no potential well, so no stable circular orbits exist. The particle either spirals inward or escapes to infinity, closed orbits are not possible.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P4 — Rigid Body Dynamics
+### P4, Rigid Body Dynamics
 
 A uniform solid cylinder of mass M and radius R rolls without slipping down an inclined plane of angle alpha. Find the acceleration of the centre of mass.
 
@@ -126,11 +126,11 @@ $$a = \frac{2}{3}g\sin\alpha$$
 
 The cylinder accelerates at two-thirds the value for a frictionless slide, because some gravitational potential energy is converted to rotational kinetic energy.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P5 — Small Oscillations
+### P5, Small Oscillations
 
 Two identical pendulums of mass m and length l are coupled by a spring of constant k attached at a distance h from the pivot. Find the normal mode frequencies.
 
@@ -148,11 +148,11 @@ For the symmetric mode: $\omega_1 = \sqrt{g/l}$ (spring not stretched).
 
 For the antisymmetric mode: $\omega_2 = \sqrt{g/l + 2kh^2/(ml^2)}$.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P6 — Conservation Laws
+### P6, Conservation Laws
 
 A particle of mass $m_1$ moving with velocity $v_0$ collides elastically with a stationary particle of mass $m_2$. Derive the final velocity of $m_2$.
 
@@ -168,11 +168,11 @@ $$v_2 = \frac{2m_1}{m_1 + m_2}v_0$$
 
 Special cases: if $m_1 = m_2$, $v_2 = v_0$ (complete transfer). If $m_1 \ll m_2$, $v_2 \approx 0$ (light particle bounces back).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — Noether's Theorem
+### P7, Noether's Theorem
 
 A free particle of mass m moves in three dimensions with Lagrangian $L = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2)$. Identify the conserved quantities and explain their physical significance.
 
@@ -186,15 +186,15 @@ $$p_y = m\dot{y} = \text{const}$$
 
 $$p_z = m\dot{z} = \text{const}$$
 
-These are the components of linear momentum — translational invariance implies conservation of momentum (Noether's theorem).
+These are the components of linear momentum, translational invariance implies conservation of momentum (Noether's theorem).
 
 $L$ also does not depend on time explicitly, so the Hamiltonian (total energy) $H = \frac{1}{2}m(\dot{x}^2 + \dot{y}^2 + \dot{z}^2) = T$ is conserved.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P8 — Nonlinear Dynamics
+### P8, Nonlinear Dynamics
 
 The Lorenz equations are $\dot{x} = \sigma(y - x)$, $\dot{y} = rx - y - xz$, $\dot{z} = xy - bz$. For what parameter regime do chaotic solutions appear?
 
@@ -206,15 +206,15 @@ For $r < 1$: the origin is the only fixed point (globally stable).
 
 For $1 < r < 24.74$: two additional stable fixed points appear (pitchfork bifurcation). Trajectories converge to one of these.
 
-For $r > 24.74$: the fixed points become unstable, and trajectories exhibit sensitive dependence on initial conditions — the hallmark of chaos. The Lorenz attractor is a strange attractor with fractal dimension approximately 2.06.
+For $r > 24.74$: the fixed points become unstable, and trajectories exhibit sensitive dependence on initial conditions, the hallmark of chaos. The Lorenz attractor is a strange attractor with fractal dimension approximately 2.06.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Thermodynamics (P9–P15)
 
-### P9 — Laws of Thermodynamics
+### P9, Laws of Thermodynamics
 
 An ideal gas undergoes a cyclic process consisting of two isothermal and two adiabatic steps (Carnot cycle). Show that the efficiency depends only on the temperatures of the hot and cold reservoirs.
 
@@ -239,11 +239,11 @@ $$\eta = 1 - \frac{Q_C}{Q_H} = 1 - \frac{T_C}{T_H}$$
 
 This depends only on the reservoir temperatures, not on the working substance.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P10 — Statistical Mechanics
+### P10, Statistical Mechanics
 
 A system of N independent harmonic oscillators has energy levels $E_n = (n + 1/2)\hbar\omega$. Derive the partition function and the mean energy at temperature T.
 
@@ -263,11 +263,11 @@ $$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = N\hbar\omega\left
 
 The first term is the zero-point energy; the second is the thermal excitation.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P11 — Entropy
+### P11, Entropy
 
 A mole of an ideal monatomic gas at 300 K and 1 atm is expanded isothermally to twice its volume. Calculate the change in entropy.
 
@@ -281,11 +281,11 @@ $$\Delta S = (1)(8.314)\ln(2) = 8.314 \times 0.693 = 5.76 \text{ J K}^{-1}$$
 
 The entropy increases because the gas occupies a larger volume, increasing the number of accessible microstates.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P12 — Kinetic Theory
+### P12, Kinetic Theory
 
 Derive the ideal gas law from the kinetic theory of gases, starting from the momentum transfer of molecules colliding with a wall.
 
@@ -307,11 +307,11 @@ Since $\langle KE \rangle = \frac{3}{2}k_BT$:
 
 $$PV = Nk_BT = nRT$$
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P13 — Phase Transitions
+### P13, Phase Transitions
 
 Describe the differences between first-order and second-order phase transitions, giving an example of each.
 
@@ -325,11 +325,11 @@ At a first-order transition: $\Delta S \neq 0$ (latent heat $L = T\Delta S$), $\
 
 At a second-order transition: $\Delta S = 0$, $\Delta V = 0$, but $C_p$, $\kappa$, and $\chi$ may diverge. The transition is characterised by critical exponents and universality.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P14 — Fermi Gas
+### P14, Fermi Gas
 
 For a free electron gas at T = 0, derive the Fermi energy in terms of the electron density n.
 
@@ -349,11 +349,11 @@ $$E_F = \frac{\hbar^2}{2m}\left(3\pi^2 n\right)^{2/3}$$
 
 where $n = N/V$ is the electron density. For copper ($n \approx 8.5 \times 10^{28}$ m$^{-3}$), $E_F \approx 7$ eV.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P15 — Blackbody Radiation
+### P15, Blackbody Radiation
 
 Using Planck's radiation law, derive the Wien displacement law that relates the peak wavelength of blackbody radiation to temperature.
 
@@ -375,13 +375,13 @@ $$\lambda_{max} T = \frac{hc}{4.965 k_B} \approx 2.898 \times 10^{-3} \text{ m K
 
 This is Wien's displacement law: $\lambda_{max} T = b$ where $b \approx 2.9 \times 10^{-3}$ m K.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Electromagnetism (P16–P22)
 
-### P16 — Maxwell's Equations
+### P16, Maxwell's Equations
 
 State Maxwell's equations in differential form and explain the physical significance of each.
 
@@ -403,11 +403,11 @@ State Maxwell's equations in differential form and explain the physical signific
 
    Magnetic fields are generated by currents and by time-varying electric fields (displacement current). The displacement current term was Maxwell's key insight.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P17 — Electrostatics
+### P17, Electrostatics
 
 A point charge q is placed at a distance d from the centre of a grounded conducting sphere of radius R. Find the charge distribution on the sphere using the method of images.
 
@@ -425,11 +425,11 @@ The surface charge density on the sphere is:
 
 $$\sigma(\theta) = -\epsilon_0 \frac{\partial \Phi}{\partial r}\bigg|_{r=R} = \frac{q(d^2 - R^2)}{4\pi R(d^2 + R^2 - 2dR\cos\theta)^{3/2}}$$
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P18 — Magnetostatics
+### P18, Magnetostatics
 
 Derive the magnetic field inside a long solenoid of n turns per unit length carrying current I.
 
@@ -447,11 +447,11 @@ $$B = \mu_0 nI$$
 
 The field is uniform inside and directed along the axis. The direction is given by the right-hand rule: curl your fingers in the direction of current, and your thumb points in the direction of B.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P19 — Electrodynamics
+### P19, Electrodynamics
 
 A parallel-plate capacitor with plate area A and separation d is being charged at a rate dQ/dt. Derive the displacement current and show it gives the same magnetic field as the conduction current.
 
@@ -475,11 +475,11 @@ $$B = \frac{\mu_0 I r}{2A}$$
 
 This matches the field from the conduction current, confirming consistency.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P20 — Electromagnetic Waves
+### P20, Electromagnetic Waves
 
 Starting from Maxwell's equations in free space, derive the wave equation for the electric field and find the speed of electromagnetic waves.
 
@@ -503,11 +503,11 @@ $$\nabla^2 \mathbf{E} = \mu_0 \epsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t
 
 This is the wave equation with speed $c = 1/\sqrt{\mu_0 \epsilon_0} \approx 3 \times 10^8$ m/s.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P21 — Potentials and Gauge
+### P21, Potentials and Gauge
 
 Define the scalar potential phi and vector potential A, and explain the concept of gauge invariance.
 
@@ -521,7 +521,7 @@ The potentials (phi, A) are not unique. The gauge transformation:
 
 $$\mathbf{A}' = \mathbf{A} + \nabla \chi$$
 $$\phi' = \phi - \frac{\partial \chi}{\parameter name="content">---
-title: "University Physics Practice Test — 30 Challenging Problems"
+title: "University Physics Practice Test, 30 Challenging Problems"
 description: "30 university-level physics problems covering Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Problem-solving with detailed solutions."
 date: 2026-07-24
 tags:
@@ -544,14 +544,14 @@ categories:
 }
 </script>
 
-## University Physics Practice Test — 30 Challenging Problems
+## University Physics Practice Test, 30 Challenging Problems
 
 This practice test covers 30 problems across four major domains of university physics: Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Each problem requires multi-step reasoning and the application of fundamental principles. Work through the problems with pen and paper before checking the solutions.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Problem-solving — show all working
+- **Format:** Problem-solving, show all working
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Show all steps in your solutions.
 - **After the test:** Check the solutions at the bottom. Study the derivations for any problems you got wrong.
@@ -568,7 +568,7 @@ This practice test covers 30 problems across four major domains of university ph
 
 ## Classical Mechanics (P1–P8)
 
-### P1 — Lagrangian Mechanics
+### P1, Lagrangian Mechanics
 
 A particle of mass m slides without friction on the inside surface of a sphere of radius R. Using the angle theta from the vertical as the generalised coordinate, derive the equation of motion and find the condition for the particle to leave the surface.
 
@@ -586,11 +586,11 @@ theta_ddot = -(g/R)*sin(theta)
 
 The particle leaves the surface when the normal force becomes zero. From the radial force equation: mg*cos(theta) - N = mR*theta_dot^2. Setting N = 0 and using energy conservation, the critical angle is cos(theta_c) = 2/3, or theta_c approximately 48.2 degrees.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P2 — Hamiltonian Mechanics
+### P2, Hamiltonian Mechanics
 
 For a one-dimensional harmonic oscillator with mass m and spring constant k, write the Hamiltonian and derive Hamilton's equations of motion.
 
@@ -612,11 +612,11 @@ p_dot = -dH/dx = -k*x
 
 Differentiating the first: x_ddot = p_dot/m = -k*x/m, giving x_ddot + omega^2 * x = 0 where omega = sqrt(k/m).
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P3 — Central Forces
+### P3, Central Forces
 
 A particle moves in a central force field F(r) = -k*r^(-3) (attractive). Determine whether closed orbits are possible using the effective potential.
 
@@ -626,13 +626,13 @@ The effective potential is:
 
 V_eff(r) = l^2/(2mr^2) + k/(2r^2) = (1/(2r^2))*(l^2/m + k)
 
-where l is the angular momentum. Since V_eff is proportional to 1/r^2, the effective potential is purely repulsive (for k > 0) or purely attractive (for k < 0). There is no potential well, so no stable circular orbits exist. The particle either spirals inward or escapes to infinity — closed orbits are not possible.
+where l is the angular momentum. Since V_eff is proportional to 1/r^2, the effective potential is purely repulsive (for k > 0) or purely attractive (for k < 0). There is no potential well, so no stable circular orbits exist. The particle either spirals inward or escapes to infinity, closed orbits are not possible.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P4 — Rigid Body Dynamics
+### P4, Rigid Body Dynamics
 
 A uniform solid cylinder of mass M and radius R rolls without slipping down an inclined plane of angle alpha. Find the acceleration of the centre of mass.
 
@@ -648,11 +648,11 @@ a = (2/3)*g*sin(alpha)
 
 The cylinder accelerates at two-thirds the value for a frictionless slide, because some gravitational potential energy is converted to rotational kinetic energy.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P5 — Small Oscillations
+### P5, Small Oscillations
 
 Two identical pendulums of mass m and length l are coupled by a spring of constant k attached at a distance h from the pivot. Find the normal mode frequencies.
 
@@ -670,11 +670,11 @@ For the symmetric mode: omega_1 = sqrt(g/l) (spring not stretched).
 
 For the antisymmetric mode: omega_2 = sqrt(g/l + 2kh^2/(ml^2)).
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P6 — Conservation Laws
+### P6, Conservation Laws
 
 A particle of mass m_1 moving with velocity v_0 collides elastically with a stationary particle of mass m_2. Derive the final velocity of m_2.
 
@@ -690,11 +690,11 @@ v_2 = 2m_1 * v_0 / (m_1 + m_2)
 
 Special cases: if m_1 = m_2, v_2 = v_0 (complete transfer). If m_1 is much less than m_2, v_2 is approximately 0 (light particle bounces back).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — Noether's Theorem
+### P7, Noether's Theorem
 
 A free particle of mass m moves in three dimensions with Lagrangian L = (1/2)m(x_dot^2 + y_dot^2 + z_dot^2). Identify the conserved quantities and explain their physical significance.
 
@@ -708,15 +708,15 @@ p_y = m*y_dot = const
 
 p_z = m*z_dot = const
 
-These are the components of linear momentum — translational invariance implies conservation of momentum (Noether's theorem).
+These are the components of linear momentum, translational invariance implies conservation of momentum (Noether's theorem).
 
 L also does not depend on time explicitly, so the Hamiltonian (total energy) H = (1/2)m(x_dot^2 + y_dot^2 + z_dot^2) = T is conserved.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P8 — Nonlinear Dynamics
+### P8, Nonlinear Dynamics
 
 The Lorenz equations are x_dot = sigma*(y - x), y_dot = r*x - y - x*z, z_dot = x*y - b*z. For what parameter regime do chaotic solutions appear?
 
@@ -728,15 +728,15 @@ For r < 1: the origin is the only fixed point (globally stable).
 
 For 1 < r < 24.74: two additional stable fixed points appear (pitchfork bifurcation). Trajectories converge to one of these.
 
-For r > 24.74: the fixed points become unstable, and trajectories exhibit sensitive dependence on initial conditions — the hallmark of chaos. The Lorenz attractor is a strange attractor with fractal dimension approximately 2.06.
+For r > 24.74: the fixed points become unstable, and trajectories exhibit sensitive dependence on initial conditions, the hallmark of chaos. The Lorenz attractor is a strange attractor with fractal dimension approximately 2.06.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Thermodynamics (P9–P15)
 
-### P9 — Laws of Thermodynamics
+### P9, Laws of Thermodynamics
 
 An ideal gas undergoes a cyclic process consisting of two isothermal and two adiabatic steps (Carnot cycle). Show that the efficiency depends only on the temperatures of the hot and cold reservoirs.
 
@@ -761,11 +761,11 @@ eta = 1 - Q_C/Q_H = 1 - T_C/T_H
 
 This depends only on the reservoir temperatures, not on the working substance.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P10 — Statistical Mechanics
+### P10, Statistical Mechanics
 
 A system of N independent harmonic oscillators has energy levels E_n = (n + 1/2)*hbar*omega. Derive the partition function and the mean energy at temperature T.
 
@@ -785,11 +785,11 @@ The mean energy:
 
 The first term is the zero-point energy; the second is the thermal excitation.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P11 — Entropy
+### P11, Entropy
 
 A mole of an ideal monatomic gas at 300 K and 1 atm is expanded isothermally to twice its volume. Calculate the change in entropy.
 
@@ -803,11 +803,11 @@ Delta S = (1)(8.314)*ln(2) = 8.314 * 0.693 = 5.76 J K^(-1)
 
 The entropy increases because the gas occupies a larger volume, increasing the number of accessible microstates.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P12 — Kinetic Theory
+### P12, Kinetic Theory
 
 Derive the ideal gas law from the kinetic theory of gases, starting from the momentum transfer of molecules colliding with a wall.
 
@@ -829,11 +829,11 @@ Since <KE> = (3/2)*k_B*T:
 
 PV = Nk_B*T = nRT
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P13 — Phase Transitions
+### P13, Phase Transitions
 
 Describe the differences between first-order and second-order phase transitions, giving an example of each.
 
@@ -847,11 +847,11 @@ Second-order phase transitions (continuous transitions) have no latent heat and 
 
 At a second-order transition: Delta S = 0, Delta V = 0, but C_p, kappa, and chi may diverge. The transition is characterised by critical exponents and universality.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P14 — Fermi Gas
+### P14, Fermi Gas
 
 For a free electron gas at T = 0, derive the Fermi energy in terms of the electron density n.
 
@@ -871,11 +871,11 @@ E_F = (hbar^2/(2m)) * (3*pi^2*n)^(2/3)
 
 where n = N/V is the electron density. For copper (n approximately 8.5 x 10^28 m^(-3)), E_F is approximately 7 eV.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P15 — Blackbody Radiation
+### P15, Blackbody Radiation
 
 Using Planck's radiation law, derive the Wien displacement law that relates the peak wavelength of blackbody radiation to temperature.
 
@@ -897,13 +897,13 @@ lambda_max * T = hc / (4.965*k_B) approximately 2.898 x 10^(-3) m K
 
 This is Wien's displacement law: lambda_max * T = b where b approximately 2.9 x 10^(-3) m K.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Electromagnetism (P16–P22)
 
-### P16 — Maxwell's Equations
+### P16, Maxwell's Equations
 
 State Maxwell's equations in differential form and explain the physical significance of each.
 
@@ -925,11 +925,11 @@ State Maxwell's equations in differential form and explain the physical signific
 
    Magnetic fields are generated by currents and by time-varying electric fields (displacement current). The displacement current term was Maxwell's key insight.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P17 — Electrostatics
+### P17, Electrostatics
 
 A point charge q is placed at a distance d from the centre of a grounded conducting sphere of radius R. Find the charge distribution on the sphere using the method of images.
 
@@ -947,11 +947,11 @@ The surface charge density on the sphere is:
 
 sigma(theta) = q*(d^2 - R^2) / (4*pi*R*(d^2 + R^2 - 2*d*R*cos(theta))^(3/2))
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P18 — Magnetostatics
+### P18, Magnetostatics
 
 Derive the magnetic field inside a long solenoid of n turns per unit length carrying current I.
 
@@ -969,11 +969,11 @@ B = mu_0 * n * I
 
 The field is uniform inside and directed along the axis. The direction is given by the right-hand rule: curl your fingers in the direction of current, and your thumb points in the direction of B.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P19 — Electrodynamics
+### P19, Electrodynamics
 
 A parallel-plate capacitor with plate area A and separation d is being charged at a rate dQ/dt. Derive the displacement current and show it gives the same magnetic field as the conduction current.
 
@@ -995,11 +995,11 @@ B = mu_0 * I * r / (2*A)
 
 This matches the field from the conduction current, confirming consistency.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P20 — Electromagnetic Waves
+### P20, Electromagnetic Waves
 
 Starting from Maxwell's equations in free space, derive the wave equation for the electric field and find the speed of electromagnetic waves.
 
@@ -1023,11 +1023,11 @@ nabla^2(E) = mu_0 * epsilon_0 * d^2(E)/dt^2
 
 This is the wave equation with speed c = 1/sqrt(mu_0 * epsilon_0) approximately 3 x 10^8 m/s.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P21 — Potentials and Gauge
+### P21, Potentials and Gauge
 
 Define the scalar potential phi and vector potential A, and explain the concept of gauge invariance.
 
@@ -1044,11 +1044,11 @@ phi' = phi - d(chi)/dt
 
 produces the same E and B fields for any scalar function chi. This freedom is gauge invariance. In electromagnetism, we often use the Coulomb gauge (div(A) = 0) or the Lorenz gauge (div(A) + (1/c^2)*d(phi)/dt = 0).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P22 — Special Relativity
+### P22, Special Relativity
 
 Two events occur at the same point in frame S, separated by time Delta_t. Find the time separation in frame S' moving at velocity v relative to S.
 
@@ -1064,13 +1064,13 @@ Delta_t' = gamma * Delta_t = Delta_t / sqrt(1 - v^2/c^2)
 
 This is time dilation: the moving frame S' measures a longer time interval. A clock at rest in S ticks slowly as observed from S'.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
 ## Quantum Mechanics (P23–P30)
 
-### P23 — Postulates of Quantum Mechanics
+### P23, Postulates of Quantum Mechanics
 
 State the postulates of quantum mechanics and explain the measurement process.
 
@@ -1088,11 +1088,11 @@ Postulate 5 (Composite systems): The state space of a composite system is the te
 
 The measurement process involves: (1) the system is in a superposition of eigenstates, (2) measurement forces collapse to one eigenstate, (3) the probability of each outcome is given by the Born rule, and (4) the collapse is irreversible and non-unitary.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P24 — Wave Functions
+### P24, Wave Functions
 
 A particle in a one-dimensional infinite square well of width L has wave function psi(x) = sqrt(2/L)*sin(n*pi*x/L). Calculate the expectation value of x^2.
 
@@ -1110,11 +1110,11 @@ The cosine term integrates to zero over the full range. So:
 
 Note: <x> = L/2 by symmetry, but <x^2> = L^2/3, so the variance is L^2/3 - L^2/4 = L^2/12.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P25 — One-Dimensional Problems
+### P25, One-Dimensional Problems
 
 For a particle in a harmonic oscillator potential V(x) = (1/2)m*omega^2*x^2, find the ground state energy using the variational method with a Gaussian trial function.
 
@@ -1138,11 +1138,11 @@ Substituting back:
 
 This is exactly the ground state energy of the quantum harmonic oscillator.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P26 — Angular Momentum
+### P26, Angular Momentum
 
 Show that L^2 and L_z commute, and find the simultaneous eigenvalues.
 
@@ -1168,11 +1168,11 @@ L_z|l, m> = hbar * m |l, m>
 
 where l = 0, 1/2, 1, 3/2, ... and m = -l, -l+1, ..., l-1, l.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P27 — Spin
+### P27, Spin
 
 A spin-1/2 particle is in the state |psi> = (1/sqrt(3))|up> + (sqrt(2)/sqrt(3))|down>. What is the probability of measuring S_z = +hbar/2? What is <S_x>?
 
@@ -1198,11 +1198,11 @@ So |up> = (1/sqrt(2))(|+> + |->) and |down> = (1/sqrt(2))(|+> - |->).
 
 = (hbar/2)*(4*sqrt(2))/6 = (hbar/2)*(2*sqrt(2)/3) = sqrt(2)*hbar/3
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P28 — Hydrogen Atom
+### P28, Hydrogen Atom
 
 For the hydrogen atom, the radial wave function for the ground state is R_10(r) = 2*(a_0)^(-3/2)*exp(-r/a_0). Verify that this satisfies the radial Schrodinger equation.
 
@@ -1226,11 +1226,11 @@ Substituting into the radial equation and using E_1 = -m*e^4/(2*(4*pi*epsilon_0)
 
 After simplification, both sides are equal, confirming the solution.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P29 — Perturbation Theory
+### P29, Perturbation Theory
 
 A quantum harmonic oscillator is perturbed by H' = epsilon*x^3. Use first-order perturbation theory to find the first-order correction to the ground state energy.
 
@@ -1254,11 +1254,11 @@ Therefore E_1^(1) = 0.
 
 This makes sense by symmetry: x^3 is an odd function, and the ground state wave function is even, so the integrand is odd and integrates to zero.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P30 — Scattering Theory
+### P30, Scattering Theory
 
 For a particle scattering off a hard sphere of radius a, find the total scattering cross section.
 
@@ -1278,9 +1278,9 @@ The total cross section:
 
 sigma = integral |f(theta)|^2 dOmega = 4*pi*a^2
 
-This is four times the geometric cross section (pi*a^2). The factor of 4 arises from the wave nature of quantum mechanics — even particles classically too large to hit the sphere are diffracted around it.
+This is four times the geometric cross section (pi*a^2). The factor of 4 arises from the wave nature of quantum mechanics, even particles classically too large to hit the sphere are diffracted around it.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
@@ -1355,13 +1355,13 @@ This is four times the geometric cross section (pi*a^2). The factor of 4 arises 
 
 ## Cross-References
 
-- **[Classical Mechanics](1-classical-mechanics)** — Lagrangian, Hamiltonian, central forces, rigid body dynamics, and nonlinear dynamics
-- **[Thermal Physics](2-thermal-physics)** — Laws of thermodynamics, statistical mechanics, entropy, and phase transitions
-- **[Electromagnetism](3-electromagnetism)** — Maxwell's equations, electrostatics, magnetostatics, and electromagnetic waves
-- **[Quantum Mechanics](5-quantum-mechanics)** — Postulates, wave functions, hydrogen atom, perturbation theory, and scattering
-- **[Classical Mechanics Problem Set](1-classical-mechanics/9_problem-set)** — Additional practice problems
-- **[Electromagnetism Problem Set](3-electromagnetism/8_problem-set)** — Additional practice problems
-- **[Quantum Mechanics Problem Set](5-quantum-mechanics/9_problem-set)** — Additional practice problems
+- **[Classical Mechanics](1-classical-mechanics)**, Lagrangian, Hamiltonian, central forces, rigid body dynamics, and nonlinear dynamics
+- **[Thermal Physics](2-thermal-physics)**, Laws of thermodynamics, statistical mechanics, entropy, and phase transitions
+- **[Electromagnetism](3-electromagnetism)**, Maxwell's equations, electrostatics, magnetostatics, and electromagnetic waves
+- **[Quantum Mechanics](5-quantum-mechanics)**, Postulates, wave functions, hydrogen atom, perturbation theory, and scattering
+- **[Classical Mechanics Problem Set](1-classical-mechanics/9_problem-set)**, Additional practice problems
+- **[Electromagnetism Problem Set](3-electromagnetism/8_problem-set)**, Additional practice problems
+- **[Quantum Mechanics Problem Set](5-quantum-mechanics/9_problem-set)**, Additional practice problems
 
 ---
 
@@ -1370,7 +1370,7 @@ This is four times the geometric cross section (pi*a^2). The factor of 4 arises 
 1. **Show all working.** University physics exams award partial credit for correct method, even if the final answer is wrong.
 2. **Use symbolic answers.** Work through the algebra in terms of symbols, not numbers. This reduces errors and makes dimensional analysis possible.
 3. **Check your answers.** Verify dimensions, limits, and signs. A wrong answer that fails dimensional analysis is clearly incorrect.
-4. **Study the derivations.** The solutions show the full derivation — understanding the method is more important than memorising the result.
+4. **Study the derivations.** The solutions show the full derivation, understanding the method is more important than memorising the result.
 5. **Retake after one week.** Physics requires understanding, not memorisation. Retaking after a gap tests whether you truly understand the principles.
 
 ---

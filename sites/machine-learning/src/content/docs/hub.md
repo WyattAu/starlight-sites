@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Machine learning is the field of computer science that enables systems to learn from data and improve their performance without being explicitly programmed. It is the foundation of modern AI — from image recognition and natural language processing to recommendation systems and autonomous vehicles.
+Machine learning is the field of computer science that enables systems to learn from data and improve their performance without being explicitly programmed. It is the foundation of modern AI, from image recognition and natural language processing to recommendation systems and autonomous vehicles.
 
 This hub page maps every resource on this site. The guides cover the mathematical foundations, the major algorithm families, neural network architectures, and practical implementation techniques. Whether you are a student encountering machine learning for the first time, a software engineer adding ML capabilities to your applications, or a researcher exploring new frontiers, these resources provide the theory and practice you need.
 
@@ -79,22 +79,22 @@ Machine learning requires a foundation in several mathematical and computational
 
 ### Mathematics
 
-- **Linear Algebra** — vectors, matrices, eigenvalues, SVD; the language of ML
-- **Calculus** — derivatives, gradients, chain rule; essential for optimisation
-- **Probability and Statistics** — distributions, Bayes' theorem, hypothesis testing
-- **Optimisation** — gradient descent, convex optimisation, Lagrange multipliers
+- **Linear Algebra**, vectors, matrices, eigenvalues, SVD; the language of ML
+- **Calculus**, derivatives, gradients, chain rule; essential for optimisation
+- **Probability and Statistics**, distributions, Bayes' theorem, hypothesis testing
+- **Optimisation**, gradient descent, convex optimisation, Lagrange multipliers
 
 ### Programming
 
-- **Python** — the dominant language for ML; NumPy, pandas, scikit-learn, PyTorch, TensorFlow
-- **Data manipulation** — loading, cleaning, transforming, and visualising data
-- **Software engineering** — version control, testing, and deployment of ML models
+- **Python**, the dominant language for ML; NumPy, pandas, scikit-learn, PyTorch, TensorFlow
+- **Data manipulation**, loading, cleaning, transforming, and visualising data
+- **Software engineering**, version control, testing, and deployment of ML models
 
 ### Key Resources
 
-- [Mathematics](https://mathematics.wyattau.com/hub) — university-level mathematics covering linear algebra, real analysis, and probability
-- [Python](https://python.wyattau.com/hub) — Python programming fundamentals
-- [Data Structures](https://tools.wyattau.com/algorithms) — algorithms and data structures for efficient ML implementations
+- [Mathematics](https://mathematics.wyattau.com/hub), university-level mathematics covering linear algebra, real analysis, and probability
+- [Python](https://python.wyattau.com/hub), Python programming fundamentals
+- [Data Structures](https://tools.wyattau.com/algorithms), algorithms and data structures for efficient ML implementations
 
 ---
 
@@ -115,22 +115,22 @@ Machine learning is the study of algorithms that improve through experience. A m
 
 ### The Machine Learning Workflow
 
-1. **Data collection** — gather relevant, representative data
-2. **Data preprocessing** — clean, transform, and engineer features
-3. **Model selection** — choose an appropriate algorithm
-4. **Training** — fit the model to the training data
-5. **Evaluation** — assess performance on held-out data
-6. **Hyperparameter tuning** — optimise model settings
-7. **Deployment** — put the model into production
-8. **Monitoring** — track performance over time
+1. **Data collection**, gather relevant, representative data
+2. **Data preprocessing**, clean, transform, and engineer features
+3. **Model selection**, choose an appropriate algorithm
+4. **Training**, fit the model to the training data
+5. **Evaluation**, assess performance on held-out data
+6. **Hyperparameter tuning**, optimise model settings
+7. **Deployment**, put the model into production
+8. **Monitoring**, track performance over time
 
 ### Bias-Variance Tradeoff
 
 The fundamental challenge in machine learning:
 
-- **Bias** — error from overly simplistic assumptions (underfitting)
-- **Variance** — error from sensitivity to training data fluctuations (overfitting)
-- **Irreducible error** — noise inherent in the data
+- **Bias**, error from overly simplistic assumptions (underfitting)
+- **Variance**, error from sensitivity to training data fluctuations (overfitting)
+- **Irreducible error**, noise inherent in the data
 
 Total error = Bias² + Variance + Irreducible error
 
@@ -148,13 +148,13 @@ Classification predicts discrete labels. The model learns a decision boundary th
 
 **Key algorithms:**
 
-- **Logistic Regression** — linear model for binary classification
-- **Decision Trees** — hierarchical splitting based on feature values
-- **Random Forests** — ensemble of decision trees
-- **Support Vector Machines (SVM)** — maximum-margin classifiers
-- **k-Nearest Neighbours (k-NN)** — instance-based learning
-- **Naive Bayes** — probabilistic classifier based on Bayes' theorem
-- **Neural Networks** — universal function approximators
+- **Logistic Regression**, linear model for binary classification
+- **Decision Trees**, hierarchical splitting based on feature values
+- **Random Forests**, ensemble of decision trees
+- **Support Vector Machines (SVM)**, maximum-margin classifiers
+- **k-Nearest Neighbours (k-NN)**, instance-based learning
+- **Naive Bayes**, probabilistic classifier based on Bayes' theorem
+- **Neural Networks**, universal function approximators
 
 ### Regression
 
@@ -162,21 +162,21 @@ Regression predicts continuous values. The model learns a function that maps inp
 
 **Key algorithms:**
 
-- **Linear Regression** — modelling linear relationships
-- **Polynomial Regression** — extending linear models to non-linear relationships
-- **Ridge and Lasso Regression** — regularised linear models
-- **Support Vector Regression** — SVM adapted for regression
-- **Gradient Boosting** — sequential ensemble of weak learners
+- **Linear Regression**, modelling linear relationships
+- **Polynomial Regression**, extending linear models to non-linear relationships
+- **Ridge and Lasso Regression**, regularised linear models
+- **Support Vector Regression**, SVM adapted for regression
+- **Gradient Boosting**, sequential ensemble of weak learners
 
 ### Regularisation
 
 Regularisation prevents overfitting by penalising model complexity:
 
-- **L1 (Lasso)** — adds absolute value of coefficients to the loss function; promotes sparsity
-- **L2 (Ridge)** — adds squared magnitude of coefficients; shrinks all coefficients
-- **Elastic Net** — combines L1 and L2
-- **Dropout** — randomly deactivates neurons during training (neural networks)
-- **Early stopping** — halt training when validation performance degrades
+- **L1 (Lasso)**, adds absolute value of coefficients to the loss function; promotes sparsity
+- **L2 (Ridge)**, adds squared magnitude of coefficients; shrinks all coefficients
+- **Elastic Net**, combines L1 and L2
+- **Dropout**, randomly deactivates neurons during training (neural networks)
+- **Early stopping**, halt training when validation performance degrades
 
 ---
 
@@ -190,11 +190,11 @@ Clustering groups similar data points together.
 
 **Key algorithms:**
 
-- **k-Means** — partition data into k clusters by minimising within-cluster variance
-- **Hierarchical Clustering** — build a tree of nested clusters
-- **DBSCAN** — density-based clustering; finds clusters of arbitrary shape
-- **Gaussian Mixture Models (GMM)** — probabilistic clustering with soft assignments
-- **Mean Shift** — mode-seeking algorithm; no need to specify number of clusters
+- **k-Means**, partition data into k clusters by minimising within-cluster variance
+- **Hierarchical Clustering**, build a tree of nested clusters
+- **DBSCAN**, density-based clustering; finds clusters of arbitrary shape
+- **Gaussian Mixture Models (GMM)**, probabilistic clustering with soft assignments
+- **Mean Shift**, mode-seeking algorithm; no need to specify number of clusters
 
 ### Dimensionality Reduction
 
@@ -202,20 +202,20 @@ Dimensionality reduction projects high-dimensional data to lower dimensions whil
 
 **Key algorithms:**
 
-- **Principal Component Analysis (PCA)** — linear projection to orthogonal axes of maximum variance
-- **t-SNE** — non-linear projection for visualisation
-- **UMAP** — uniform manifold approximation; faster and better preservation of global structure
-- **Autoencoders** — neural network-based dimensionality reduction
-- **Independent Component Analysis (ICA)** — separating mixed signals
+- **Principal Component Analysis (PCA)**, linear projection to orthogonal axes of maximum variance
+- **t-SNE**, non-linear projection for visualisation
+- **UMAP**, uniform manifold approximation; faster and better preservation of global structure
+- **Autoencoders**, neural network-based dimensionality reduction
+- **Independent Component Analysis (ICA)**, separating mixed signals
 
 ### Anomaly Detection
 
 Anomaly detection identifies unusual data points that deviate from normal patterns.
 
-- **Isolation Forest** — isolates anomalies by random partitioning
-- **One-Class SVM** — learns a boundary around normal data
-- **Local Outlier Factor** — density-based anomaly detection
-- **Autoencoders** — reconstruct normal data; high reconstruction error indicates anomalies
+- **Isolation Forest**, isolates anomalies by random partitioning
+- **One-Class SVM**, learns a boundary around normal data
+- **Local Outlier Factor**, density-based anomaly detection
+- **Autoencoders**, reconstruct normal data; high reconstruction error indicates anomalies
 
 ---
 
@@ -225,19 +225,19 @@ Neural networks are computational models inspired by the human brain. Deep learn
 
 ### Neural Network Fundamentals
 
-- **Neuron** — computes a weighted sum of inputs, applies an activation function
-- **Layer** — a collection of neurons; fully connected, convolutional, or recurrent
-- **Activation functions** — ReLU, sigmoid, tanh, softmax, GELU
-- **Loss function** — measures prediction error; cross-entropy, MSE, MAE
-- **Optimiser** — updates weights to minimise loss; SGD, Adam, AdamW
+- **Neuron**, computes a weighted sum of inputs, applies an activation function
+- **Layer**, a collection of neurons; fully connected, convolutional, or recurrent
+- **Activation functions**, ReLU, sigmoid, tanh, softmax, GELU
+- **Loss function**, measures prediction error; cross-entropy, MSE, MAE
+- **Optimiser**, updates weights to minimise loss; SGD, Adam, AdamW
 
 ### Feedforward Neural Networks
 
 The simplest neural network architecture. Data flows in one direction from input to output.
 
-- **Input layer** — receives features
-- **Hidden layers** — transform features through learned weights
-- **Output layer** — produces predictions
+- **Input layer**, receives features
+- **Hidden layers**, transform features through learned weights
+- **Output layer**, produces predictions
 
 ### Convolutional Neural Networks (CNNs)
 
@@ -245,9 +245,9 @@ CNNs are designed for grid-structured data (images, video). They learn spatial h
 
 **Key components:**
 
-- **Convolutional layers** — apply learnable filters to extract features
-- **Pooling layers** — downsample feature maps (max pooling, average pooling)
-- **Fully connected layers** — combine features for final prediction
+- **Convolutional layers**, apply learnable filters to extract features
+- **Pooling layers**, downsample feature maps (max pooling, average pooling)
+- **Fully connected layers**, combine features for final prediction
 
 **Architectures:** LeNet, AlexNet, VGG, ResNet, EfficientNet, Vision Transformer (ViT)
 
@@ -255,9 +255,9 @@ CNNs are designed for grid-structured data (images, video). They learn spatial h
 
 RNNs process sequential data by maintaining hidden state across time steps.
 
-- **Vanilla RNN** — simple but suffers from vanishing gradients
-- **LSTM** — Long Short-Term Memory; uses gates to control information flow
-- **GRU** — Gated Recurrent Unit; simplified LSTM with fewer parameters
+- **Vanilla RNN**, simple but suffers from vanishing gradients
+- **LSTM**, Long Short-Term Memory; uses gates to control information flow
+- **GRU**, Gated Recurrent Unit; simplified LSTM with fewer parameters
 
 ### Transformers
 
@@ -265,10 +265,10 @@ Transformers have replaced RNNs for most sequence tasks. They use self-attention
 
 **Key components:**
 
-- **Self-attention** — each position attends to all other positions
-- **Multi-head attention** — multiple parallel attention mechanisms
-- **Positional encoding** — injects sequence order information
-- **Layer normalisation** — stabilises training
+- **Self-attention**, each position attends to all other positions
+- **Multi-head attention**, multiple parallel attention mechanisms
+- **Positional encoding**, injects sequence order information
+- **Layer normalisation**, stabilises training
 
 **Architectures:** BERT, GPT, T5, Vision Transformer, Whisper
 
@@ -276,10 +276,10 @@ Transformers have replaced RNNs for most sequence tasks. They use self-attention
 
 Generative models learn to create new data that resembles the training distribution.
 
-- **GANs (Generative Adversarial Networks)** — generator vs. discriminator
-- **VAEs (Variational Autoencoders)** — learn latent representations
-- **Diffusion Models** — iteratively denoise random noise into data
-- **Large Language Models** — autoregressive text generation (GPT, LLaMA)
+- **GANs (Generative Adversarial Networks)**, generator vs. discriminator
+- **VAEs (Variational Autoencoders)**, learn latent representations
+- **Diffusion Models**, iteratively denoise random noise into data
+- **Large Language Models**, autoregressive text generation (GPT, LLaMA)
 
 ---
 
@@ -311,18 +311,18 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 
 ### Validation Strategies
 
-- **Hold-out set** — split data into train/validation/test
-- **k-Fold Cross-Validation** — rotate through k folds as validation
-- **Stratified k-Fold** — preserves class distribution in each fold
-- **Leave-One-Out** — each sample is a validation set; computationally expensive
-- **Time series split** — respect temporal order; no future data in training
+- **Hold-out set**, split data into train/validation/test
+- **k-Fold Cross-Validation**, rotate through k folds as validation
+- **Stratified k-Fold**, preserves class distribution in each fold
+- **Leave-One-Out**, each sample is a validation set; computationally expensive
+- **Time series split**, respect temporal order; no future data in training
 
 ### Hyperparameter Tuning
 
-- **Grid Search** — exhaustive search over parameter grid
-- **Random Search** — sample random combinations; often more efficient
-- **Bayesian Optimisation** — model the objective function and select promising parameters
-- **Early stopping** — halt unpromising runs early
+- **Grid Search**, exhaustive search over parameter grid
+- **Random Search**, sample random combinations; often more efficient
+- **Bayesian Optimisation**, model the objective function and select promising parameters
+- **Early stopping**, halt unpromising runs early
 
 ---
 
@@ -330,11 +330,11 @@ Evaluating a model's performance is essential to ensure it generalises to unseen
 
 ### Transfer Learning
 
-Transfer learning uses a model pre-trained on one task as the starting point for a different task. It is the foundation of modern deep learning — most practical applications use pre-trained models.
+Transfer learning uses a model pre-trained on one task as the starting point for a different task. It is the foundation of modern deep learning, most practical applications use pre-trained models.
 
-- **Feature extraction** — freeze pre-trained layers; train only the head
-- **Fine-tuning** — update all layers with a small learning rate
-- **Domain adaptation** — adjust a model trained on one domain to work on another
+- **Feature extraction**, freeze pre-trained layers; train only the head
+- **Fine-tuning**, update all layers with a small learning rate
+- **Domain adaptation**, adjust a model trained on one domain to work on another
 
 ### Reinforcement Learning
 
@@ -342,12 +342,12 @@ Reinforcement learning trains agents to make sequences of decisions by maximisin
 
 **Key concepts:**
 
-- **Agent** — the learner and decision maker
-- **Environment** — the world the agent interacts with
-- **State** — the current situation of the agent
-- **Action** — what the agent can do
-- **Reward** — feedback signal
-- **Policy** — the agent's strategy
+- **Agent**, the learner and decision maker
+- **Environment**, the world the agent interacts with
+- **State**, the current situation of the agent
+- **Action**, what the agent can do
+- **Reward**, feedback signal
+- **Policy**, the agent's strategy
 
 **Key algorithms:** Q-Learning, DQN, PPO, A3C, SAC, TD3
 
@@ -355,22 +355,22 @@ Reinforcement learning trains agents to make sequences of decisions by maximisin
 
 NLP enables machines to understand, generate, and translate human language.
 
-- **Tokenisation** — breaking text into tokens
-- **Embeddings** — dense vector representations of words or tokens
-- **Language models** — predict the next token in a sequence
-- **Named entity recognition** — identifying entities in text
-- **Sentiment analysis** — classifying text sentiment
-- **Machine translation** — translating between languages
+- **Tokenisation**, breaking text into tokens
+- **Embeddings**, dense vector representations of words or tokens
+- **Language models**, predict the next token in a sequence
+- **Named entity recognition**, identifying entities in text
+- **Sentiment analysis**, classifying text sentiment
+- **Machine translation**, translating between languages
 
 ### Computer Vision
 
 Computer vision enables machines to interpret visual information.
 
-- **Image classification** — assigning labels to images
-- **Object detection** — localising and classifying objects
-- **Semantic segmentation** — classifying each pixel
-- **Instance segmentation** — distinguishing individual object instances
-- **Image generation** — creating new images from text or noise
+- **Image classification**, assigning labels to images
+- **Object detection**, localising and classifying objects
+- **Semantic segmentation**, classifying each pixel
+- **Instance segmentation**, distinguishing individual object instances
+- **Image generation**, creating new images from text or noise
 
 ---
 
@@ -389,19 +389,19 @@ Computer vision enables machines to interpret visual information.
 
 ### Data Preparation
 
-- **Data cleaning** — handle missing values, outliers, and inconsistencies
-- **Feature engineering** — create informative features from raw data
-- **Feature scaling** — normalise or standardise features
-- **Data augmentation** — artificially increase training data diversity
-- **Class balancing** — oversample minority classes or undersample majority classes
+- **Data cleaning**, handle missing values, outliers, and inconsistencies
+- **Feature engineering**, create informative features from raw data
+- **Feature scaling**, normalise or standardise features
+- **Data augmentation**, artificially increase training data diversity
+- **Class balancing**, oversample minority classes or undersample majority classes
 
 ### MLOps
 
-- **Experiment tracking** — MLflow, Weights & Biases, TensorBoard
-- **Model versioning** — track model versions and their performance
-- **Model serving** — deploy models as APIs (TorchServe, TensorFlow Serving, Triton)
-- **A/B testing** — compare model performance in production
-- **Monitoring** — detect data drift and model degradation
+- **Experiment tracking**, MLflow, Weights & Biases, TensorBoard
+- **Model versioning**, track model versions and their performance
+- **Model serving**, deploy models as APIs (TorchServe, TensorFlow Serving, Triton)
+- **A/B testing**, compare model performance in production
+- **Monitoring**, detect data drift and model degradation
 
 ---
 
@@ -409,12 +409,12 @@ Computer vision enables machines to interpret visual information.
 
 Machine learning connects to many areas of mathematics and computer science:
 
-- **[Mathematics](https://mathematics.wyattau.com/hub)** — linear algebra, probability, and optimisation foundations
-- **[Physics](https://physics.wyattau.com/hub)** — statistical mechanics informs probabilistic models
-- **[Python](https://python.wyattau.com/hub)** — the primary language for ML implementation
-- **[Developer Tools](https://tools.wyattau.com/hub)** — CI/CD and MLOps tooling
-- **[Databases](https://databases.wyattau.com/hub)** — data storage and retrieval for ML pipelines
-- **[Linux Administration](https://linux.wyattau.com/hub)** — GPU server setup and management
+- **[Mathematics](https://mathematics.wyattau.com/hub)**, linear algebra, probability, and optimisation foundations
+- **[Physics](https://physics.wyattau.com/hub)**, statistical mechanics informs probabilistic models
+- **[Python](https://python.wyattau.com/hub)**, the primary language for ML implementation
+- **[Developer Tools](https://tools.wyattau.com/hub)**, CI/CD and MLOps tooling
+- **[Databases](https://databases.wyattau.com/hub)**, data storage and retrieval for ML pipelines
+- **[Linux Administration](https://linux.wyattau.com/hub)**, GPU server setup and management
 
 ---
 
@@ -438,7 +438,7 @@ Use techniques from the bias-variance tradeoff: regularisation (L1, L2, dropout)
 
 ### What is the difference between AI, ML, and deep learning?
 
-AI is the broadest term — machines that perform tasks requiring intelligence. ML is a subset of AI — machines that learn from data. Deep learning is a subset of ML — learning with deep neural networks. All deep learning is ML, but not all ML is deep learning.
+AI is the broadest term, machines that perform tasks requiring intelligence. ML is a subset of AI, machines that learn from data. Deep learning is a subset of ML, learning with deep neural networks. All deep learning is ML, but not all ML is deep learning.
 
 ### How do I deploy an ML model?
 

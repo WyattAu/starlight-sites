@@ -701,7 +701,7 @@ flowchart TD
 <strong>Exam Strategy</strong>
 For .../4-statistics-and-probability/2_statistics questions in Paper 2, always show your working.
 State hypotheses for Hypothesis tests. When using your GDC, note what function you used and the
-inputs. Interpret results In context — never leave a numerical answer without explaining what it
+inputs. Interpret results In context, never leave a numerical answer without explaining what it
 means.
 
 ---
@@ -842,7 +842,7 @@ A scientist investigates the relationship between temperature ($x$In $\degree$C)
 
 **(a)** Explain why a linear regression model may not be appropriate.
 
-The data appears to show exponential growth — as temperature increases, the rate increases by an
+The data appears to show exponential growth, as temperature increases, the rate increases by an
 Increasing amount. A plot of $y$ vs $x$ would show a curve, not a straight line.
 
 **(b)** By plotting $\ln y$ against $x$Determine whether the relationship is of the form
@@ -1025,7 +1025,7 @@ and building a personal test matrix.
 
 ## Intuition
 
-Statistics is the science of making decisions under uncertainty. The mean tells you the center of the data, but the standard deviation tells you how much trust to place in that center — a low standard deviation means the data clusters tightly around the mean, while a high one means the data spreads widely. Correlation measures the strength of a linear relationship, but it does not prove causation — two variables may move together because a third hidden variable drives both. Hypothesis testing is a courtroom argument: you assume innocence (the null hypothesis) and check whether the evidence is strong enough to convict. The p-value is the probability of seeing evidence this extreme if innocence is true.
+Statistics is the science of making decisions under uncertainty. The mean tells you the center of the data, but the standard deviation tells you how much trust to place in that center, a low standard deviation means the data clusters tightly around the mean, while a high one means the data spreads widely. Correlation measures the strength of a linear relationship, but it does not prove causation, two variables may move together because a third hidden variable drives both. Hypothesis testing is a courtroom argument: you assume innocence (the null hypothesis) and check whether the evidence is strong enough to convict. The p-value is the probability of seeing evidence this extreme if innocence is true.
 
 ## Common Pitfalls
 

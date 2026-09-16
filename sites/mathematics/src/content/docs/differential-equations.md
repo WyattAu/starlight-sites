@@ -82,7 +82,7 @@ Differential Equations
 │   ├── By order
 │   │   ├── First-order: y' = f(x, y)
 │   │   ├── Second-order: y'' = f(x, y, y')
-│   │   └── n-th order: y^(n) = f(x, y, ..., y^(n-1))
+│   │   └── n-th order: y^(n) = f(x, y..., y^(n-1))
 │   ├── By linearity
 │   │   ├── Linear: a_n(x)y^(n) + ... + a_0(x)y = g(x)
 │   │   │   ├── Homogeneous (g = 0)
@@ -2591,7 +2591,7 @@ import { Citation } from "@components/Citations.astro"
 | Linear Algebra                     | WyattsNotes | [View](linear-algebra)                           |
 | Multivariable Calculus             | WyattsNotes | [View](multivariable-calculus)                   |
 | Complex Analysis                   | WyattsNotes | [View](complex-analysis)                         |
-| Differential Equations — MIT 18.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) |
+| Differential Equations, MIT 18.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-03sc-differential-equations-fall-2011/) |
 :::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

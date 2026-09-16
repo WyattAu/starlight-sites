@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Waves and Sound — Diagnostic Tests
+## Waves and Sound, Diagnostic Tests
 
 ## Unit Tests
 

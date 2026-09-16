@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Algebra is like a puzzle where letters represent unknown numbers — solving for x is finding the missing piece.**
+**Algebra is like a puzzle where letters represent unknown numbers, solving for x is finding the missing piece.**
 
-## Algebraic Expressions — Diagnostic Tests
+## Algebraic Expressions, Diagnostic Tests
 
 ## Unit Tests
 

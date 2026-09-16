@@ -259,7 +259,7 @@ C++, Dart enums can hold fields, methods and const constructors. An example of e
 
 #### Records
 
-Records (Dart 3.0+) are an anonymous immutable aggregate type — a composite of named positional and
+Records (Dart 3.0+) are an anonymous immutable aggregate type, a composite of named positional and
 Named fields. They are value types with structural equality, similar to C++ `std::tuple` with named
 Elements, or Kotlin data classes.
 
@@ -296,7 +296,7 @@ Cannot be extended.
 
 #### Functions
 
-Functions in Dart are first-class objects — they can be assigned to variables, passed as arguments,
+Functions in Dart are first-class objects, they can be assigned to variables, passed as arguments,
 And returned from other functions. See [Function Mechanics](./01-entrypoint) for the entry point
 Discussion.
 
@@ -367,11 +367,11 @@ growable.addAll([2, 3]);
 // Spread operator (Dart 2.3+)
 var front = [1, 2, 3];
 var back = [6, 7, 8];
-var combined = [...front, 4, 5, ...back]; // [1, 2, 3, 4, 5, 6, 7, 8]
+var combined = [...front, 4, 5...back]; // [1, 2, 3, 4, 5, 6, 7, 8]
 
 // Null-aware spread
 List<int>? maybeList = null;
-var withNull = [0, ...?maybeList, 9]; // [0, 9]
+var withNull = [0...?maybeList, 9]; // [0, 9]
 
 // Collection if/for
 var even = [for (var i = 0; i < 10; i++) if (i % 2 == 0) i]; // [0, 2, 4, 6, 8]
@@ -397,7 +397,7 @@ with `.toList()`:
 var doubled = numbers.map((n) => n * 2).toList();
 ```
 
-This is a deliberate design choice — lazy iterables avoid creating intermediate collections, which
+This is a deliberate design choice, lazy iterables avoid creating intermediate collections, which
 Is critical for large data pipelines.
 
 #### Sets
@@ -450,7 +450,7 @@ var pairs = Map.fromEntries(
 // Operations
 ages['Wyatt'] = 22;
 ages['Wyatt'];        // 22
-ages['Unknown'];      // null (no KeyError — Dart maps return null for missing keys)
+ages['Unknown'];      // null (no KeyError, Dart maps return null for missing keys)
 ages.containsKey('Wyatt'); // true
 ages.remove('Wyatt');
 
@@ -465,13 +465,13 @@ for (var value in ages.values) {
   print(value);
 }
 
-// update() — atomic read-modify-write
+// update(), atomic read-modify-write
 ages.update('Wyatt', (v) => v + 1, ifAbsent: () => 0);
 
-// putIfAbsent — only insert if key doesn't exist
+// putIfAbsent, only insert if key doesn't exist
 ages.putIfAbsent('New', () => computeAge());
 
-// map() — transform values
+// map(), transform values
 var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 ```
 :::
@@ -482,7 +482,7 @@ Validate the types at runtime.
 #### Symbols
 
 A `Symbol` represents an operator or identifier declared in a Dart program. Symbols are rarely used
-In application code — their primary use case is in **mirrors** (reflection):
+In application code, their primary use case is in **mirrors** (reflection):
 
 ```dart
 // Symbol for an identifier
@@ -504,11 +504,11 @@ Directly.
 
 ## Intuition
 
-**Variable specifiers are safety rails on a cliff:** `var` is the default path — type-inferred, mutable, flexible. `final` is a one-way valve — you can set it once, but the object inside can still change. `const` is a frozen block — nothing changes, ever, at compile time. `late` is a sign that says "trust me, this will be initialized" — convenient, but if you're wrong, you fall off the cliff at runtime. Null safety (`?`) is the guardrail that prevents you from walking off the edge into null territory without a harness.
+**Variable specifiers are safety rails on a cliff:** `var` is the default path, type-inferred, mutable, flexible. `final` is a one-way valve, you can set it once, but the object inside can still change. `const` is a frozen block, nothing changes, ever, at compile time. `late` is a sign that says "trust me, this will be initialized", convenient, but if you're wrong, you fall off the cliff at runtime. Null safety (`?`) is the guardrail that prevents you from walking off the edge into null territory without a harness.
 
 **Why it matters:** Dart's type system catches null errors at compile time, not runtime. The distinction between `final` (immutable reference, mutable object) and `const` (fully immutable) prevents subtle bugs where you think something is frozen but the contents can still change.
 
-**The key insight:** Dart's null safety is sound — the compiler guarantees no null reaches a non-nullable variable, eliminating an entire class of runtime crashes.
+**The key insight:** Dart's null safety is sound, the compiler guarantees no null reaches a non-nullable variable, eliminating an entire class of runtime crashes.
 
 ## Common Pitfalls
 

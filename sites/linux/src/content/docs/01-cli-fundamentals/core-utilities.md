@@ -32,7 +32,7 @@ The Unix philosophy of composing small, single-purpose tools into pipelines is t
 Linux systems administration. Understanding how to chain these tools effectively is a core
 Competency.
 
-### `grep` — Pattern Matching
+### `grep`Pattern Matching
 
 `grep` searches input lines for patterns matching a regular expression and prints matching lines.
 Three main variants exist:
@@ -71,7 +71,7 @@ grep -C 2 "panic" /var/log/kern.log
 # Extended regex (alternation, quantifiers without escaping)
 grep -E "error|warning|critical" /var/log/syslog
 
-# PCRE — lookahead, lookbehind, non-greedy quantifiers
+# PCRE, lookahead, lookbehind, non-greedy quantifiers
 grep -P "(?<=status: )\d{3}" response.txt
 
 # Fixed string (no regex interpretation)
@@ -101,13 +101,13 @@ grep --color=always "pattern" file
 | Unicode properties  | No       | No      | `\p{L}`                  |
 
 :::caution
-special meaning. In ERE, the reverse is true — they are special by default and must be escaped To be
+special meaning. In ERE, the reverse is true, they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
-### `sed` — Stream Editor
+### `sed`Stream Editor
 
-`sed` applies editing commands to input text line by line. It operates on a **pattern space** — a
-Buffer holding the current line — and supports hold space for multi-line operations.
+`sed` applies editing commands to input text line by line. It operates on a **pattern space**, a
+Buffer holding the current line, and supports hold space for multi-line operations.
 
 ```bash
 # Substitute first occurrence per line
@@ -158,7 +158,7 @@ sed 'y/abc/xyz/' file.txt
 # Print lines 1 to 5, then quit (efficient for large files)
 sed '5q' huge_file.txt
 
-# Hold space operations — swap pattern and hold space
+# Hold space operations, swap pattern and hold space
 sed -n 'H; ${x; s/\n/ /g; p; }' file.txt  # join all lines
 
 # Multi-line pattern matching
@@ -171,7 +171,7 @@ sed 's/\(word1\) \(word2\)/\2 \1/' file.txt  # swap two words
 sed -E 's/(https?):\/\/([^/]+)(.*)/\2/' urls.txt
 ```
 
-### `awk` — Pattern-Directed Scanning and Processing
+### `awk`Pattern-Directed Scanning and Processing
 
 `awk` is a full programming language designed for text processing. It processes input line by line,
 Splitting each line into fields. The three main implementations are `awk` (often `mawk` or `gawk`).
@@ -214,7 +214,7 @@ awk '{printf "%-15s %8.2f %5d\n", $1, $2, $3}' report.txt
 
 ```awk
 #!/usr/bin/awk -f
-# Log analyzer — count HTTP status codes
+# Log analyzer, count HTTP status codes
 
 BEGIN {
     FS = " "
@@ -255,7 +255,7 @@ awk '{print | "sort -rn"}' unsorted.txt
 These utilities form the backbone of text processing pipelines:
 
 ```bash
-# sort — sort lines
+# sort, sort lines
 sort file.txt                    # alphabetical
 sort -n file.txt                 # numeric
 sort -r file.txt                 # reverse
@@ -265,27 +265,27 @@ sort -u file.txt                 # unique lines
 sort -h sizes.txt                # human-numeric (1K, 2M, 3G)
 sort -R file.txt                 # random shuffle
 
-# uniq — filter adjacent duplicate lines (must be sorted first)
+# uniq, filter adjacent duplicate lines (must be sorted first)
 sort file.txt | uniq             # remove duplicates
 sort file.txt | uniq -c          # count occurrences
 sort file.txt | uniq -d          # show only duplicates
 sort file.txt | uniq -u          # show only unique lines
 sort file.txt | uniq -f1         # ignore first field
 
-# wc — word/line/character count
+# wc, word/line/character count
 wc -l file.txt                   # lines
 wc -w file.txt                   # words
 wc -c file.txt                   # bytes
 wc -m file.txt                   # characters
 wc -L file.txt                   # longest line length
 
-# cut — extract fields/columns
+# cut, extract fields/columns
 cut -d: -f1 /etc/passwd          # first field (colon delimiter)
 cut -d, -f1,3 data.csv           # fields 1 and 3
 cut -c1-80 file.txt              # characters 1-80
 cut -c1- file.txt                # from character 1 to end
 
-# tr — translate or delete characters
+# tr, translate or delete characters
 echo "hello" | tr 'a-z' 'A-Z'            # uppercase
 echo "hello  world" | tr -s ' '           # squeeze spaces
 echo "hello123" | tr -d '0-9'             # delete digits
@@ -318,7 +318,7 @@ find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g'
 
 ## File Operations
 
-### `find` — File System Traversal
+### `find`File System Traversal
 
 `find` recursively traverses a directory tree and evaluates expressions against each file. It is one
 Of the most powerful tools available but also one of the most commonly misused.
@@ -370,13 +370,13 @@ find . -name "*.py" -exec grep -l "TODO" {} +  # find files containing TODO
 ### `find -exec` vs `find -exec ... +` vs `xargs`
 
 ```bash
-# -exec {} \; — runs command once per file (slow for many files)
+# -exec {} \;, runs command once per file (slow for many files)
 find . -name "*.log" -exec gzip {} \;
 
-# -exec {} + — batches files into a single command invocation (fast)
+# -exec {} +, batches files into a single command invocation (fast)
 find . -name "*.log" -exec gzip {} +
 
-# xargs — reads from stdin, builds command lines
+# xargs, reads from stdin, builds command lines
 find . -name "*.log" -print0 | xargs -0 gzip
 
 # xargs with parallel execution
@@ -397,10 +397,10 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
 
-### `xargs` — Build and Execute Commands
+### `xargs`Build and Execute Commands
 
 ```bash
-# Basic usage — reads arguments from stdin
+# Basic usage, reads arguments from stdin
 echo "file1 file2 file3" | xargs rm
 
 # Specify delimiter
@@ -422,7 +422,7 @@ find . -name "*.bak" | xargs -p rm
 find . -name "*.c" | xargs -I @ gcc @ -o @.o
 ```
 
-### `ln` — Symbolic and Hard Links
+### `ln`Symbolic and Hard Links
 
 ```bash
 # Hard link (same inode, cannot cross filesystems)
@@ -458,7 +458,7 @@ graph LR
     G -.->|resolved by VFS| C
 ```
 
-### `stat` — File Metadata
+### `stat`File Metadata
 
 ```bash
 # Display all metadata
@@ -488,7 +488,7 @@ stat -c '%i' file1 file2   # same inode = hard links
 
 ## Archiving and Compression
 
-### `tar` — Tape Archiver
+### `tar`Tape Archiver
 
 ```bash
 # Create archive
@@ -545,7 +545,7 @@ xz -k -9 file.txt         # maximum compression
 xz -T4 file.txt           # multi-threaded compression
 xz -l file.txt.xz         # show compression info
 
-# zstd — recommended for most use cases
+# zstd, recommended for most use cases
 zstd -k file.txt          # compress with default level (3)
 zstd -19 file.txt         # maximum compression
 zstd -T0 file.txt         # use all CPU cores
@@ -558,7 +558,7 @@ zstd -d file.txt.zst      # decompress
 # zstd:  ~55 MiB in 3s
 ```
 
-### `rsync` — Incremental File Transfer
+### `rsync`Incremental File Transfer
 
 ```bash
 # Local copy
@@ -607,7 +607,7 @@ Type   Owner    Group    Other
 | 0-2          | Other     | 0-7   | Permissions for others                 |
 | 3-5          | Group     | 0-7   | Permissions for group members          |
 | 6-8          | Owner     | 0-7   | Permissions for file owner             |
-| 9-11         | File type | —     | Regular file, directory, symlink, etc. |
+| 9-11         | File type |,     | Regular file, directory, symlink, etc. |
 
 Each permission triplet:
 
@@ -647,9 +647,9 @@ chmod --reference=reference_file target_file
 
 | Bit    | Octal | Name   | Effect on Files       | Effect on Directories       |
 | ------ | ----- | ------ | --------------------- | --------------------------- |
-| setuid | 4000  | SUID   | Execute as file owner | —                           |
+| setuid | 4000  | SUID   | Execute as file owner |,                           |
 | setgid | 2000  | SGID   | Execute as file group | New files inherit group     |
-| sticky | 1000  | Sticky | —                     | Only owner can delete files |
+| sticky | 1000  | Sticky |,                     | Only owner can delete files |
 
 ```bash
 # Set SUID (execute as owner)
@@ -677,7 +677,7 @@ find / -perm -4000 -type f -exec ls -la {} \; 2>/dev/null
 
 ### `umask`
 
-`umask` controls the default permissions for newly created files and directories. It is a **mask** —
+`umask` controls the default permissions for newly created files and directories. It is a **mask**,
 It specifies which permission bits to **remove** from the default mode.
 
 ```bash
@@ -691,17 +691,17 @@ umask 0027     # files: 640 (666 - 027), directories: 750 (777 - 027)
 umask 0077     # files: 600 (666 - 077), directories: 700 (777 - 077)
 
 # Common umask values
-# 0022 — world-readable files (default on most systems)
-# 0027 — group-readable, not world-readable
-# 0077 — private (only owner)
-# 0007 — group-writable (for shared directories)
+# 0022, world-readable files (default on most systems)
+# 0027, group-readable, not world-readable
+# 0077, private (only owner)
+# 0007, group-writable (for shared directories)
 ```
 
 The math: `default_permissions & ~umask`. For files: `0666 & ~0022 = 0644`. For directories:
 `0777 & ~0022 = 0755`. Note that most programs do not create files with execute bits set by default,
 Even if the umask would allow it.
 
-### ACLs — Access Control Lists
+### ACLs, Access Control Lists
 
 Standard Unix permissions provide only three permission classes (owner, group, other). ACLs extend
 This model with per-user and per-group rules.
@@ -728,7 +728,7 @@ setfacl -d -m u:john:rw /shared/project/
 setfacl -b /path/to/file       # remove all ACLs
 setfacl -x u:john /path/to/file  # remove specific entry
 
-# Mask — maximum effective permissions for named users and groups
+# Mask, maximum effective permissions for named users and groups
 setfacl -m m::rwx /path/to/file
 
 # Backup and restore ACLs
@@ -743,7 +743,7 @@ ACL evaluation order:
 3. If the process is in the owning group or a named group ACL matches, use it (subject to the mask).
 4. Otherwise, use other permissions.
 
-### `chown` — Change Ownership
+### `chown`Change Ownership
 
 ```bash
 # Change owner
@@ -770,7 +770,7 @@ chown --reference=ref_file target_file
 In scripts, `grep` returns exit code 1 when no lines match. With `set -e`This terminates the Script:
 
 ```bash
-# WRONG — exits script if no matches
+# WRONG, exits script if no matches
 set -e
 grep "pattern" file.txt
 
@@ -788,7 +788,7 @@ fi
 ### Pitfall: `find -exec rm` with Filenames Containing Spaces
 
 ```bash
-# WRONG — word splitting on spaces
+# WRONG, word splitting on spaces
 find . -name "*.tmp" -exec rm {} \;
 
 # Actually, -exec {} \; is safe. The real problem is piping to xargs:
@@ -807,7 +807,7 @@ find . -name "*.tmp" -delete
 Reordered:
 
 ```bash
-# Stable sort — preserves original order of equal elements
+# Stable sort, preserves original order of equal elements
 sort -s -k2,2n data.txt
 ```
 
@@ -822,10 +822,10 @@ The edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symli
 Calculations or exact comparisons:
 
 ```bash
-# WRONG — floating-point comparison
+# WRONG, floating-point comparison
 awk '$3 == 1.1' data.txt    # may miss matches
 
-# CORRECT — use a tolerance
+# CORRECT, use a tolerance
 awk '$3 > 1.0999 && $3 < 1.1001' data.txt
 ```
 
@@ -866,8 +866,8 @@ Interpret it, so execution fails with "Permission denied" even though the execut
 Regular compiled binaries can still be executed without read permission.
 
 ```bash
-chmod 111 binary     # execute-only — works for compiled binaries
-chmod 111 script.sh  # fails — shell needs to read the script
+chmod 111 binary     # execute-only, works for compiled binaries
+chmod 111 script.sh  # fails, shell needs to read the script
 ```
 
 ### Pitfall: `xargs` with Empty Input
@@ -875,10 +875,10 @@ chmod 111 script.sh  # fails — shell needs to read the script
 By default, `xargs` runs the command once even with empty input:
 
 ```bash
-# WRONG — runs "echo" with no arguments
+# WRONG, runs "echo" with no arguments
 true | xargs echo
 
-# CORRECT — use -r (or --no-run-if-empty)
+# CORRECT, use -r (or --no-run-if-empty)
 true | xargs -r echo
 ```
 

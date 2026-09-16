@@ -682,7 +682,7 @@ Server -> Client (encrypted):
   CertificateRequest {
     certificate_request_context: ...,
     extensions: {
-      signature_algorithms: [rsa_pss_rsae_sha256, ecdsa_secp256r1_sha256, ...],
+      signature_algorithms: [rsa_pss_rsae_sha256, ecdsa_secp256r1_sha256...],
       certificate_authorities: [DER-encoded CA DNs]
     }
   }

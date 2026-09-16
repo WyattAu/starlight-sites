@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Radioactive decay is like a population of unstable atoms playing musical chairs — each has a fixed chance of sitting down at any moment.**
+**Radioactive decay is like a population of unstable atoms playing musical chairs, each has a fixed chance of sitting down at any moment.**
 
-## Nuclear Energy — Diagnostic Tests
+## Nuclear Energy, Diagnostic Tests
 
 ## Unit Tests
 

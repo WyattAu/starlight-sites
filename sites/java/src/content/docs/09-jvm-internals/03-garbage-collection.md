@@ -42,7 +42,7 @@ public class GCDemo {
 
     public void method() {
         Object localVar = new Object();     // GC root (stack-local) while in scope
-        // After method returns, localVar is no longer a root — eligible for GC
+        // After method returns, localVar is no longer a root, eligible for GC
         // UNLESS a reference was stored somewhere reachable (e.g., in instanceField)
     }
 }
@@ -68,11 +68,11 @@ Effort on the young generation, where most garbage accumulates.
 ```
 Heap
 ├── Young Generation
-│   ├── Eden Space          — where new objects are allocated
-│   ├── Survivor Space 0    — objects that survived one GC
-│   └── Survivor Space 1    — objects that survived one GC
+│   ├── Eden Space, where new objects are allocated
+│   ├── Survivor Space 0, objects that survived one GC
+│   └── Survivor Space 1, objects that survived one GC
 └── Old Generation (Tenured)
-    └── Long-lived objects   — objects that survived multiple young GCs
+    └── Long-lived objects, objects that survived multiple young GCs
 ```
 
 ### Young Generation
@@ -217,7 +217,7 @@ A scalable, low-latency collector designed for multi-TB heaps with pause times u
 ```bash
 -XX:+UseZGC                    # Enable ZGC
 -XX:+ZGenerational             # Enable generational ZGC (JDK 21+)
--XX:SoftMaxHeapSize=16g        # Soft limit — GC will try to stay under this
+-XX:SoftMaxHeapSize=16g        # Soft limit, GC will try to stay under this
 ```
 
 **ZGC design:**
@@ -252,7 +252,7 @@ Implementation (Brooks pointers instead of colored pointers).
 ### Stop-the-World (STW)
 
 During an STW pause, all application threads are suspended. The JVM cannot execute application code
-While the GC is running. STW pauses directly impact application latency — if a GC pause takes 500
+While the GC is running. STW pauses directly impact application latency, if a GC pause takes 500
 Ms, no requests can be served during that time.
 
 ### Concurrent Phases
@@ -337,11 +337,11 @@ JDK 9+ uses the unified logging framework (`-Xlog`):
 Use tools like **GCViewer**, **GCEasy.io**, or **JDK Mission Control** to analyze GC logs. Key
 Metrics to watch:
 
-- **Pause time distribution** — P50, P95, P99, P99.9.
-- **Throughput** — percentage of time the application is running vs. In GC.
-- **Allocation rate** — MB/s allocated (high rate drives frequent GC).
-- **Promotion rate** — MB/s promoted to old generation.
-- **Old generation growth** — if it grows linearly, you have a memory leak or insufficient heap.
+- **Pause time distribution**, P50, P95, P99, P99.9.
+- **Throughput**, percentage of time the application is running vs. In GC.
+- **Allocation rate**, MB/s allocated (high rate drives frequent GC).
+- **Promotion rate**, MB/s promoted to old generation.
+- **Old generation growth**, if it grows linearly, you have a memory leak or insufficient heap.
 
 ```bash
 # Print GC summary at JVM exit
@@ -357,7 +357,7 @@ Metrics to watch:
 2. **Unclosed resources**. Holding references through unclosed streams, connections, or
    `ThreadLocal` instances.
 3. **Listener registration**. Registering listeners but never unregistering.
-4. **Internal caches without eviction** — `HashMap` used as a cache without size limits or eviction
+4. **Internal caches without eviction**, `HashMap` used as a cache without size limits or eviction
    policy.
 5. **`ThreadLocal` in thread pools**. Values not cleaned up when tasks complete.
 6. **String interning**. Interning unbounded unique strings.
@@ -384,17 +384,17 @@ Profiler**:
 ### Weak, Soft, and Phantom References
 
 ```java
-// WeakReference — GC'd as soon as no strong references remain
+// WeakReference, GC'd as soon as no strong references remain
 // Use for caches where entries can be reclaimed when memory is needed
 WeakReference<byte[]> weak = new WeakReference<>(largeData);
 byte[] data = weak.get(); // null if GC'd
 
-// SoftReference — GC'd only when the JVM needs memory
+// SoftReference, GC'd only when the JVM needs memory
 // Use for memory-sensitive caches
 SoftReference<byte[]> soft = new SoftReference<>(largeData);
 byte[] data = soft.get(); // may survive several GC cycles
 
-// PhantomReference — enqueued after the object is finalized
+// PhantomReference, enqueued after the object is finalized
 // Use for cleanup (e.g., releasing native resources)
 ReferenceQueue<byte[]> queue = new ReferenceQueue<>();
 PhantomReference<byte[]> phantom = new PhantomReference<>(largeData, queue);
@@ -450,7 +450,7 @@ Finalizers.** They are deprecated for removal since JDK 18.
    creating a bottleneck.
 
 ```java
-// DEPRECATED — do not use
+// DEPRECATED, do not use
 public class Resource {
     @Override
     protected void finalize() throws Throwable {
@@ -463,7 +463,7 @@ public class Resource {
     public void close() { /* release resources */ }
 }
 
-// CORRECT — use try-with-resources
+// CORRECT, use try-with-resources
 public class Resource implements AutoCloseable {
     public void close() { /* release resources */ }
 }
@@ -478,10 +478,10 @@ try (Resource r = new Resource()) {
 ### Setting `Xms` Much Lower Than `Xmx`
 
 ```bash
-# BAD — JVM starts small and grows, causing multiple GC cycles during startup
+# BAD, JVM starts small and grows, causing multiple GC cycles during startup
 java -Xms128m -Xmx4g MyApp
 
-# GOOD — allocate the full heap upfront
+# GOOD, allocate the full heap upfront
 java -Xms4g -Xmx4g MyApp
 ```
 
@@ -561,8 +561,8 @@ Duplicate's reference to point to the canonical array. The old array becomes gar
 Collected in a subsequent GC cycle.
 
 **When to enable:** Applications with high heap usage dominated by duplicate strings (web servers
-Processing similar requests, XML/JSON parsers, log aggregation). The overhead is minimal — a few
-Percent of GC pause time — but the memory savings can be substantial (20-30% reduction in live set
+Processing similar requests, XML/JSON parsers, log aggregation). The overhead is minimal, a few
+Percent of GC pause time, but the memory savings can be substantial (20-30% reduction in live set
 Size for string-heavy workloads).
 
 **When NOT to enable:** Applications with few duplicate strings (the deduplication work has no
@@ -640,10 +640,10 @@ A typical memory breakdown for a JVM process:
 
 ### Step 2: Identify the Symptom
 
-- **Long pauses** — check pause time distribution. Is it minor GC or full GC?
-- **Low throughput** — check GC time ratio. If GC takes more than 5-10% of CPU time, investigate.
-- **Heap exhaustion** — check old generation growth. Is it linear (memory leak) or stable?
-- **Allocation failure** — check allocation rate. If the young generation fills too fast, increase
+- **Long pauses**, check pause time distribution. Is it minor GC or full GC?
+- **Low throughput**, check GC time ratio. If GC takes more than 5-10% of CPU time, investigate.
+- **Heap exhaustion**, check old generation growth. Is it linear (memory leak) or stable?
+- **Allocation failure**, check allocation rate. If the young generation fills too fast, increase
   its size.
 
 ### Step 3: Analyze and Fix
@@ -740,7 +740,7 @@ Checks the metadata bits of the loaded reference:
 - If the reference points to a not-yet-marked object, the barrier marks it (or adds it to a marking
   queue).
 
-This is how ZGC achieves concurrent relocation — the GC can move objects while the application is
+This is how ZGC achieves concurrent relocation, the GC can move objects while the application is
 Running, and the load barriers transparently fix any stale references the application encounters.
 
 **Phases:**

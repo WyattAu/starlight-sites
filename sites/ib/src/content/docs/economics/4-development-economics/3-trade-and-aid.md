@@ -18,7 +18,7 @@ categories: [ib-economics]
 
 ## Intuition
 
-**International trade is like a global barter system — countries specialize in what they do best and exchange with others:** Trade theory shows how specialization benefits all parties, but real-world trade involves power dynamics and protectionism
+**International trade is like a global barter system, countries specialize in what they do best and exchange with others:** Trade theory shows how specialization benefits all parties, but real-world trade involves power dynamics and protectionism
 
 **Why it matters:** Understanding trade and aid is crucial for addressing global poverty and inequality
 
@@ -116,7 +116,7 @@ And environmental degradation: pollution rises during early industrialisation bu
 As societies become wealthier, invest in cleaner technology, and demand stronger environmental
 Regulation.
 
-This pattern does not hold universally — carbon dioxide emissions and some pollutants have not
+This pattern does not hold universally, carbon dioxide emissions and some pollutants have not
 Declined in many wealthy countries without deliberate policy intervention.
 
 ## Market-Oriented vs. Interventionist Approaches (HL Extension)
@@ -1047,7 +1047,7 @@ finance the trade deficit.
 - Confusing aid effectiveness with aid volume. More aid does not automatically mean better outcomes
 - Treating FDI as unambiguously positive. FDI can create dependency, environmental damage, and
   profit repatriation
-- Forgetting that the SDGs are interdependent — progress on one goal can affect others (positive or
+- Forgetting that the SDGs are interdependent, progress on one goal can affect others (positive or
   negative)
 - Ignoring the role of trade barriers in developed countries that prevent developing countries from
   accessing markets
@@ -1068,7 +1068,7 @@ economic policies and institutions.
 
 Country C skips landline telephone infrastructure entirely and moves directly to mobile networks.
 Mobile penetration reaches 80% within 5 years, enabling mobile banking (M-Pesa model), agricultural
-price information, and health monitoring — services that would have required decades of traditional
+price information, and health monitoring, services that would have required decades of traditional
 infrastructure development.
 
 

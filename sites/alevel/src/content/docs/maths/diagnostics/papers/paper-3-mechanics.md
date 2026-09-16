@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Paper 3 — Mechanics
+## Paper 3, Mechanics
 
 **Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 mechanics topics
 
@@ -33,7 +33,7 @@ tableOfContents: false
 ## Instructions
 
 Answer all questions. Calculators are permitted. Take $g = 9.8$ m/s$^2$ unless otherwise stated.
-Show all working — marks are awarded for method as well as final answer.
+Show all working, marks are awarded for method as well as final answer.
 
 ---
 
@@ -48,7 +48,7 @@ Show all working — marks are awarded for method as well as final answer.
 
 ## Questions
 
-### Q1 [10 marks] — Kinematics
+### Q1 [10 marks], Kinematics
 
 A particle moves in a straight line so that its velocity $v$ m/s at time $t$ seconds ($t \geq 0$) is
 given by $v = 6t - t^2 - 5$.
@@ -61,7 +61,7 @@ given by $v = 6t - t^2 - 5$.
 obtains a positive answer. The student then claims this integral equals the total distance.
 Calculate the percentage error in the student"s answer. [2 marks]
 
-### Q2 [10 marks] — Forces and Newton's Laws
+### Q2 [10 marks], Forces and Newton's Laws
 
 A block of mass $8$ kg rests on a rough horizontal surface. The coefficient of friction between the
 block and the surface is $\mu = 0.4$. A horizontal force $P$ is applied to the block.
@@ -80,7 +80,7 @@ overestimates the friction. [3 marks]
 value of $P$ for which the block remains in equilibrium, and explain why this maximum is greater
 than the answer in part (a). [3 marks]
 
-### Q3 [10 marks] — Moments
+### Q3 [10 marks], Moments
 
 A force of $50$ N acts at one end $B$ of a uniform rod $AB$ of length $3$ m. The rod is hinged at
 end $A$ and held at an angle of $40°$ to the horizontal. The force acts vertically downwards.
@@ -94,7 +94,7 @@ the percentage overestimate. [4 marks]
 vertically). Find the new moment about $A$ and explain why it is larger than the answer in part (a).
 [3 marks]
 
-### Q4 [10 marks] — Energy and Work
+### Q4 [10 marks], Energy and Work
 
 A car of mass $800$ kg travels on a level road. The engine works at constant power $40$ kW. The
 resistance to motion is a constant $200$ N.
@@ -112,7 +112,7 @@ answers from part (c) to refute this claim. [2 marks]
 **(e)** Find the time taken for the car to accelerate from $5$ m/s to $15$ m/s, giving your answer
 in terms of an integral that you need not evaluate. [2 marks]
 
-### Q5 [10 marks] — Momentum
+### Q5 [10 marks], Momentum
 
 Two particles $A$ (mass $4$ kg) and $B$ (mass $6$ kg) move towards each other along the same
 straight line. $A$ has speed $5$ m/s and $B$ has speed $3$ m/s. After the collision, $A$ moves in
@@ -187,7 +187,7 @@ $\frac{71}{3} \approx 23.67$ m.
 
 $$\text{Percentage error} = \frac{\lvert \frac{71}{3} - \frac{7}{3} \rvert}{\frac{71}{3}} \times 100\% = \frac{64}{71} \times 100\% \approx 90.1\%$$
 
-The student underestimates the distance by approximately 90% — a catastrophic error caused by not
+The student underestimates the distance by approximately 90%, a catastrophic error caused by not
 accounting for the two direction reversals.
 
 ### Q2
@@ -385,7 +385,7 @@ $$\Delta\text{KE} = 77 - \frac{49}{3} = \frac{231 - 49}{3} = \frac{182}{3} \appr
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
 
 ```mermaid

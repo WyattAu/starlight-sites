@@ -197,7 +197,7 @@ Based on the **Diffie-Hellman** problem in cyclic groups.
 ```
 ELGAMAL_KEYGEN():
     choose prime p, generator g of Z_p*
-    choose private key x in {2, ..., p-2}
+    choose private key x in {2..., p-2}
     public key y = g^x mod p
 ```
 
@@ -270,7 +270,7 @@ Build a fixed-output hash from a compression function:
 ```
 MERKLE_DAMGARD(message, IV):
     pad message to multiple of block size
-    break into blocks M_1, M_2, ..., M_k
+    break into blocks M_1, M_2..., M_k
     H_0 = IV
     for i = 1 to k:
         H_i = f(H_{i-1}, M_i)   // compression function

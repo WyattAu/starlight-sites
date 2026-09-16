@@ -1,6 +1,6 @@
 ---
 
-title: Monadic Error Handling — std::expected
+title: Monadic Error Handling, std::expected
 description: "The std::expected type for error handling with contextual information and monadic composition operations in modern C++ programs."
 date: 2026-04-03T00:00:00.000Z
 tags:
@@ -88,7 +88,7 @@ int main() {
 
 ### Proof: `std::expected` Provides Deterministic Error Handling
 
-**Claim:** `std::expected<T, E>` provides deterministic error handling — the error path is explicit,
+**Claim:** `std::expected<T, E>` provides deterministic error handling, the error path is explicit,
 Has no hidden control flow, and has zero overhead compared to error codes.
 
 **Proof:**
@@ -144,7 +144,7 @@ int safe_value = result.value_or(0);  // Returns 0 if error is held
 ```
 
 `value_or` is useful when a sensible default exists and you want to avoid explicit branching.
-However, it silently discards the error — use it only when the error is not actionable.
+However, it silently discards the error, use it only when the error is not actionable.
 
 ## 5.3 Monadic Operations
 
@@ -386,7 +386,7 @@ Is the error truly exceptional (should rarely happen)?
 +-- No  --> Is C++23 available?
             +-- Yes --> std::expected<T, E>
             +-- No  --> Multiple error types?
-                        +-- Yes --> std::variant<T, E1, E2, ...>
+                        +-- Yes --> std::variant<T, E1, E2...>
                         +-- No  --> std::optional<T> or error codes
 ```
 
@@ -437,7 +437,7 @@ Key guidelines from [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidel
 ### Exception Safety in Constructors
 
 Constructors that throw leave the object **partially constructed**. The destructor for the partially
-Constructed object is **not called** — but destructors of any fully-constructed subobjects and base
+Constructed object is **not called**, but destructors of any fully-constructed subobjects and base
 Classes **are** called [N4950 §14.3]:
 
 ```cpp
@@ -461,8 +461,8 @@ struct Widget {
 
     Widget()
         : a{"a"}
-        , b{"b"}
-        , c{"c"}
+b{"b"}
+c{"c"}
     {
         std::cout << "  Widget fully constructed\n";
         throw std::runtime_error{"construction failed"};
@@ -552,7 +552,7 @@ int main() {
 //   Aborted (core dumped)
 ```
 
-**Safe pattern — swallow exceptions inside destructors:**
+**Safe pattern, swallow exceptions inside destructors:**
 
 ```cpp
 #include <iostream>
@@ -764,11 +764,11 @@ int main() {
 
 ## Intuition
 
-**Expected values:** std::expected is like a result that might be an error — it holds either a value or an error, making error handling explicit and type-safe.
+**Expected values:** std::expected is like a result that might be an error, it holds either a value or an error, making error handling explicit and type-safe.
 
 **Why it matters:** std::expected provides a modern alternative to exceptions for functions that can fail, making error handling more visible and predictable.
 
-**The key insight:** std::expected is like std::optional with an error case — it's perfect for functions that either succeed or fail with a specific error.
+**The key insight:** std::expected is like std::optional with an error case, it's perfect for functions that either succeed or fail with a specific error.
 
 ## Common Pitfalls
 
@@ -784,7 +784,7 @@ int main() {
 - **Throwing from within `expected` operations:** If `transform` or `and_then` callbacks throw, the
   exception propagates normally (bypassing the `expected` mechanism). This mixes error handling
   strategies and should be avoided. Make callbacks `noexcept` or catch internally.
-- **Storing references in `expected`:** `std::expected<T&, E>` is valid but tricky — the reference
+- **Storing references in `expected`:** `std::expected<T&, E>` is valid but tricky, the reference
   is stored as a pointer internally, and the referred-to object must outlive the `expected`. Prefer
   `std::expected<T*, E>` for pointer semantics.
 - **Constructing `expected` with brace initialization:** When `T` is a non-moveable type,
@@ -799,7 +799,7 @@ int main() {
 
 ## See Also
 
-- [Algebraic Error Handling — std::optional and std::variant](4_optional_variant)
+- [Algebraic Error Handling, std::optional and std::variant](4_optional_variant)
 - [The noexcept Specifier](3_noexcept)
 - [Exception Safety Guarantees](2_exception_safety)
 
@@ -825,7 +825,7 @@ flowchart TD
 
 ## Summary
 
-This topic covers the mathematical techniques and concepts related to monadic error handling —
+This topic covers the mathematical techniques and concepts related to monadic error handling,
 std::expected, including key theorems, methods, and problem-solving approaches.
 
 **Key concepts include:**

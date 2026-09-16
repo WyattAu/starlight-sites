@@ -79,7 +79,7 @@ while (flag == 0) { /* spin */ }
 // Compiler may transform to:
 int reg = flag;
 if (reg == 0) {
-    while (true) { /* infinite loop — flag is never re-read */ }
+    while (true) { /* infinite loop, flag is never re-read */ }
 }
 ```
 
@@ -207,14 +207,14 @@ Dependent load before the controlling branch is resolved. Always use explicit me
 :::
 ### Data Dependencies as Ordering
 
-On most architectures, a true data dependency (RAW — Read After Write) prevents reordering because
+On most architectures, a true data dependency (RAW, Read After Write) prevents reordering because
 The consumer instruction cannot execute until the producer has produced the value. This is a
 Hardware dependency, not a memory ordering guarantee:
 
 ```cpp
 // Data dependency prevents reordering of the load of b[i]
 int idx = a[0];  // load a[0]
-int val = b[idx]; // load b[a[0]] — cannot execute until idx is known
+int val = b[idx]; // load b[a[0]], cannot execute until idx is known
 ```
 
 However, **address dependencies** (where only the _address_ depends on a prior load, not the value)

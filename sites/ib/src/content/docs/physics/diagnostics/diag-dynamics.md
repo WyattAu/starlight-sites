@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Dynamics — Diagnostic Tests
+## Dynamics, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Forces are like pushes and pulls in a cosmic tug-of-war — every object experiences multiple forces, and the net force determines its motion:** Newton's second law (F = ma) is the bridge between causes (forces) and effects (acceleration), forming the foundation of classical mechanics
+**Forces are like pushes and pulls in a cosmic tug-of-war, every object experiences multiple forces, and the net force determines its motion:** Newton's second law (F = ma) is the bridge between causes (forces) and effects (acceleration), forming the foundation of classical mechanics
 
 **Why it matters:** From designing safer cars to launching rockets, understanding dynamics lets us predict and control how objects move
 

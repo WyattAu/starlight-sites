@@ -56,7 +56,7 @@ Determinants are scalar values associated with square matrices. They determine w
 - Row operations: swapping rows changes sign, adding a multiple of one row to another doesn't change determinant
 - Cramer's rule: $x_i = \frac{\det(A_i)}{\det(A)}$ where $A_i$ replaces column $i$ with the constant vector
 
-## Worked Example 1 — 3x3 Determinant
+## Worked Example 1 to 3x3 Determinant
 
 **Problem:** Find the determinant of $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$.
 
@@ -71,7 +71,7 @@ $$= -24 + 40 - 15 = 1$$
 
 **Common mistake:** Forgetting the $(-1)^{i+j}$ sign pattern. The signs alternate as $+, -, +, -, \ldots$
 
-## Worked Example 2 — Cramer's Rule
+## Worked Example 2, Cramer's Rule
 
 **Problem:** Solve the system:
 $$2x + 3y = 8$$
@@ -89,7 +89,7 @@ $$x = \frac{D_x}{D} = \frac{-7}{-7} = 1, \quad y = \frac{D_y}{D} = \frac{-14}{-7
 
 **Common mistake:** Using Cramer's rule when $D = 0$. If the determinant is zero, the system has no unique solution.
 
-## Worked Example 3 — Area Using Determinants
+## Worked Example 3, Area Using Determinants
 
 **Problem:** Find the area of the triangle with vertices $(1, 2)$, $(4, 5)$, and $(7, 1)$.
 
@@ -130,7 +130,7 @@ Determinants are used in linear algebra, multivariable calculus (Jacobian), and 
 - Area of triangle: $\frac{1}{2} \left| \begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} \right|$
 - Collinearity condition: $\begin{vmatrix} x_1 & y_1 & 1 \\ x_2 & y_2 & 1 \\ x_3 & y_3 & 1 \end{vmatrix} = 0$
 
-## Worked Example 4 — Symbolic Determinant
+## Worked Example 4, Symbolic Determinant
 
 **Problem:** Find $x$ if $\begin{vmatrix} 2 & x & 3 \\ 4 & 1 & 6 \\ 1 & 2 & 3 \end{vmatrix} = 0$.
 
@@ -149,7 +149,7 @@ $$3 - 6x = 0 \implies x = \frac{1}{2}$$
 
 **Common mistake:** Sign errors in cofactor expansion. The signs alternate as $+, -, +$ along the first row.
 
-## Worked Example 5 — Properties of Determinants
+## Worked Example 5, Properties of Determinants
 
 **Problem:** If $A$ is a $3 \times 3$ matrix with $\det(A) = 5$, find $\det(2A)$, $\det(A^{-1})$, and $\det(A^T A)$.
 
@@ -164,7 +164,7 @@ $$\det(A^T A) = \det(A^T) \det(A) = \det(A) \cdot \det(A) = 5 \times 5 = 25$$
 
 **Common mistake:** Using $\det(kA) = k \det(A)$ instead of $\det(kA) = k^n \det(A)$ for an $n \times n$ matrix.
 
-## Worked Example 6 — Solving System Using Cramer's Rule
+## Worked Example 6, Solving System Using Cramer's Rule
 
 **Problem:** Solve the system:
 $$x + y + z = 6$$
@@ -193,11 +193,11 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 
 ## Intuition
 
-**A determinant measures how much a matrix stretches or squishes space:** Think of a 2×2 matrix as transforming a unit square into a parallelogram. The determinant is the signed area of that parallelogram — positive if orientation is preserved, negative if flipped, zero if the parallelogram collapses to a line or point. For 3×3, it's the signed volume of the transformed unit cube.
+**A determinant measures how much a matrix stretches or squishes space:** Think of a 2×2 matrix as transforming a unit square into a parallelogram. The determinant is the signed area of that parallelogram, positive if orientation is preserved, negative if flipped, zero if the parallelogram collapses to a line or point. For 3×3, it's the signed volume of the transformed unit cube.
 
 **Why it matters:** Determinants tell you whether a system of equations has a unique solution, whether a transformation is invertible, and how volumes change under linear maps. They appear in Jacobians for change of variables, cross products in physics, and eigenvalue problems in engineering.
 
-**The key insight:** A zero determinant means the matrix collapses space to a lower dimension — information is lost, and the transformation cannot be reversed.
+**The key insight:** A zero determinant means the matrix collapses space to a lower dimension, information is lost, and the transformation cannot be reversed.
 
 ## Common Mistakes
 

@@ -1,5 +1,5 @@
 ---
-title: "UK Driving Theory Glossary — Key Terms and Definitions"
+title: "UK Driving Theory Glossary, Key Terms and Definitions"
 description: "Comprehensive glossary of UK driving theory terms covering the Highway Code, road signs, driving rules, and vehicle safety for the DVSA theory test."
 date: 2026-07-24
 tags: [glossary]
@@ -79,7 +79,7 @@ tags: [glossary]
 
 **Braking Distance**: The distance a vehicle travels after the brakes are applied until it comes to a complete stop. It increases with speed and poor road conditions.
 
-**Two-Second Rule**: A safe following distance rule — at least two seconds behind the vehicle in front in normal conditions, doubled in wet weather and increased further in ice or fog.
+**Two-Second Rule**: A safe following distance rule, at least two seconds behind the vehicle in front in normal conditions, doubled in wet weather and increased further in ice or fog.
 
 **Safe Following Distance**: The recommended gap between your vehicle and the one ahead, allowing adequate time to stop safely.
 
@@ -161,7 +161,7 @@ tags: [glossary]
 
 **Practical Test**: The 40-minute on-road DVSA exam including one reversing manoeuvre and 20 minutes of independent driving.
 
-**Show Me, Tell Me**: The vehicle-safety questions asked at the test's start (tell) and during driving (show) — five faults here count as one driving fault.
+**Show Me, Tell Me**: The vehicle-safety questions asked at the test's start (tell) and during driving (show), five faults here count as one driving fault.
 
 **Pass Plus**: The post-test training scheme covering motorway, night, and all-weather driving; some insurers discount for completion.
 

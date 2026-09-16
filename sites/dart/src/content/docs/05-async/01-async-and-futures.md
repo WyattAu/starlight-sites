@@ -1,7 +1,7 @@
 ---
 
 title: "Async and Futures"
-description: "Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses — the single thread processes Events from a queue,"
+description: "Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses, the single thread processes Events from a queue,"
 date: 2025-07-20T11:00:00.000Z
 tags:
   - dart
@@ -24,7 +24,7 @@ categories:
 ## Why Async Matters in Dart
 
 Dart runs on a **single-threaded event loop** with an isolated memory model. Unlike languages with
-Threads (Java, C++, Rust), Dart uses **event-driven concurrency** — the single thread processes
+Threads (Java, C++, Rust), Dart uses **event-driven concurrency**, the single thread processes
 Events from a queue, interleaving async operations without blocking.
 
 This design is fundamental to Flutter"s architecture: the UI must remain responsive (60 fps) while
@@ -47,7 +47,7 @@ flowchart TD
 
 ## Futures
 
-A `Future<T>` represents a value that will be available at some point in the future — either a value
+A `Future<T>` represents a value that will be available at some point in the future, either a value
 Of type `T` or an error. It is Dart's equivalent of JavaScript's `Promise` or Rust's `Future`.
 
 ### Creating Futures
@@ -96,7 +96,7 @@ Future<void> loadData() {
   });
 }
 
-// With async/await (linear style — easier to read and reason about)
+// With async/await (linear style, easier to read and reason about)
 Future<void> loadData() async {
   try {
     final response = await http.get(Uri.parse('https://api.example.com/data'));
@@ -222,7 +222,7 @@ final doubled = numbers.map((n) => n * 2);
 final evens = numbers.where((n) => n % 2 == 0);
 final sum = await numbers.reduce((a, b) => a + b);
 
-// async* — generator function for streams
+// async*, generator function for streams
 Stream<int> fibonacci() async* {
   int a = 0, b = 1;
   while (true) {
@@ -263,7 +263,7 @@ class EventBus {
 
 ## Isolates
 
-Dart's answer to threads. Each isolate has its own **memory heap and event loop** — there is no
+Dart's answer to threads. Each isolate has its own **memory heap and event loop**, there is no
 Shared state between isolates. Communication is via **message passing** (ports), similar to Erlang
 Processes or Rust's `mpsc` channels.
 
@@ -288,7 +288,7 @@ flowchart LR
 ```dart
 import 'dart:isolate';
 
-// The entry point for the new isolate — must be a top-level function
+// The entry point for the new isolate, must be a top-level function
 void _isolateEntry(SendPort sendPort) {
   final receivePort = ReceivePort();
   sendPort.send(receivePort.sendPort);

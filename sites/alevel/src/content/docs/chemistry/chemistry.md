@@ -367,7 +367,7 @@ structure before proceeding.
 
 3. **Confusing exothermic and endothermic sign conventions.** Exothermic reactions have negative ΔH (energy released); endothermic reactions have positive ΔH (energy absorbed). Students often get the sign wrong when applying Hess's Law, especially when reversing equations.
 
-4. **Balancing equations incorrectly.** Always check atom counts on both sides after balancing. Pay special attention to diatomic molecules (H₂, O₂, N₂, Cl₂) which are often forgotten. Never change subscripts to balance — only add coefficients.
+4. **Balancing equations incorrectly.** Always check atom counts on both sides after balancing. Pay special attention to diatomic molecules (H₂, O₂, N₂, Cl₂) which are often forgotten. Never change subscripts to balance, only add coefficients.
 
 5. **Using the wrong stoichiometric ratios in calculations.** The mole ratio comes from the balanced equation, not from the question statement. Students sometimes use 1:1 when the actual ratio is different. Always write the balanced equation first.
 

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Interior Mutability"
-description: "Rust' s borrowing rules state that a shared reference () is immutable — you cannot modify the Data through it. This is a compile-time guarantee that prevents"
+description: "Rust' s borrowing rules state that a shared reference () is immutable, you cannot modify the Data through it. This is a compile-time guarantee that prevents"
 
 ---
 
@@ -17,7 +17,7 @@ description: "Rust' s borrowing rules state that a shared reference () is immuta
 
 ## The Shared Reference Contract
 
-Rust's borrowing rules state that a shared reference (`&T`) is immutable — you cannot modify the
+Rust's borrowing rules state that a shared reference (`&T`) is immutable, you cannot modify the
 Data through it. This is a compile-time guarantee that prevents data races and enables safe
 Concurrency. However, there are legitimate cases where you need to mutate data through a shared
 Reference. Interior mutability types provide this capability while maintaining safety guarantees.
@@ -27,7 +27,7 @@ Needs to change in response to operations that only have a shared reference avai
 Mutability resolves this by moving the mutation check from compile time to runtime (for
 Single-threaded types) or by using synchronization primitives (for multi-threaded types).
 
-## `UnsafeCell<T>` — The Primitive
+## `UnsafeCell<T>`The Primitive
 
 `UnsafeCell<T>` is the foundation of all interior mutability in Rust. It is the only type in the
 Standard library that allows you to obtain a mutable reference to its interior through a shared
@@ -97,7 +97,7 @@ impl AtomicCounter {
 This is only sound if you can prove that all accesses to the interior are properly synchronized
 (e.g., via atomics, locks, or platform-specific memory barriers).
 
-## `Cell<T>` — Copy-Based Interior Mutability
+## `Cell<T>`Copy-Based Interior Mutability
 
 `Cell<T>` provides interior mutability for `Copy` types. The value is stored inline (no heap
 Allocation), and you can only access it by copying:
@@ -209,7 +209,7 @@ assert_eq!(f(), 3);
 `Cell` has zero overhead beyond the inline storage. There is no reference counting, no runtime
 Borrow checking, and no heap allocation. The compiler inlines all `Cell` operations.
 
-## `RefCell<T>` — Reference-Based Interior Mutability
+## `RefCell<T>`Reference-Based Interior Mutability
 
 `RefCell<T>` provides interior mutability for any type `T`. It tracks borrows at runtime using a
 Reference count and panics if the borrowing rules are violated:
@@ -326,7 +326,7 @@ let data = RefCell::new(vec![1, 2, 3]);
             guard.push(4);
         }
         Err(BorrowMutError { .. }) => {
-            eprintln!("cannot borrow mutably — already borrowed immutably");
+            eprintln!("cannot borrow mutably, already borrowed immutably");
         }
     }
 }
@@ -459,7 +459,7 @@ fn main() {
 }
 ```
 
-`LazyLock` is thread-safe — the initialization closure runs exactly once, even if multiple threads
+`LazyLock` is thread-safe, the initialization closure runs exactly once, even if multiple threads
 Access the value concurrently.
 
 ## `OnceCell` vs `OnceLock` vs `LazyLock`
@@ -691,7 +691,7 @@ use std::cell::RefCell;
 let cell = RefCell::new(vec![1, 2, 3]);
 let guard = cell.borrow();
 
-// guard is still active — cell's data is borrowed
+// guard is still active, cell's data is borrowed
 // When cell is dropped, the borrow is still tracked
 // But since guard holds a reference to cell's data, the drop order is:
 // 1. guard is dropped (borrow count decremented)
@@ -724,7 +724,7 @@ impl SharedCounter {
 
 impl Drop for SharedCounter {
     fn drop(&mut self) {
-        // Safe to access count during drop — no other borrows can exist
+        // Safe to access count during drop, no other borrows can exist
         // because we have &mut self
         let final_count = *self.count.borrow();
         println!("{} was incremented {} times", self.name, final_count);
@@ -804,9 +804,9 @@ assert_eq!(counter.get(), 2);
 :::
 :::caution
 across threads when `T: Copy`And concurrent `get` and `set` operations are safe because `Cell` uses
-interior mutability — `get` copies the value out and `set` replaces it in a single Operation.
+interior mutability, `get` copies the value out and `set` replaces it in a single Operation.
 
-### `Arc<RefCell<T>>` — Not Thread-Safe
+### `Arc<RefCell<T>>`Not Thread-Safe
 
 `RefCell` is not `Sync`So `Arc<RefCell<T>>` cannot be shared across threads:
 
@@ -820,7 +820,7 @@ let data = Arc::new(RefCell::new(vec![1, 2, 3]));
 // });
 ```
 
-### `Arc<Mutex<T>>` — Thread-Safe Interior Mutability
+### `Arc<Mutex<T>>`Thread-Safe Interior Mutability
 
 ```rust
 use std::sync::Arc;
@@ -935,11 +935,11 @@ mod tests {
 graph TD
     A[Need to mutate through &amp;T?] --> B{Single-threaded?}
     B -->|Yes| C{T is Copy?}
-    C -->|Yes| D[Cell&lt;T&gt; — zero overhead]
-    C -->|No| E[RefCell&lt;T&gt; — runtime borrow check]
+    C -->|Yes| D[Cell&lt;T&gt;, zero overhead]
+    C -->|No| E[RefCell&lt;T&gt;, runtime borrow check]
     B -->|No| F{Mostly reads?}
-    F -->|Yes| G[RwLock&lt;T&gt; — concurrent reads]
-    F -->|No| H[Mutex&lt;T&gt; — exclusive access]
+    F -->|Yes| G[RwLock&lt;T&gt;, concurrent reads]
+    F -->|No| H[Mutex&lt;T&gt;, exclusive access]
     A --> I{One-time init?}
     I -->|Yes, single-threaded| J[OnceCell&lt;T&gt;]
     I -->|Yes, multi-threaded| K[OnceLock&lt;T&gt; or LazyLock&lt;T&gt;]

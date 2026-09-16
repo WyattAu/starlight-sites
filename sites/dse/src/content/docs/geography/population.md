@@ -208,7 +208,7 @@ flowchart TD
 
 ## Intuition
 
-Population is the heartbeat of a society — it tells you how young or old a place is, whether it is growing or shrinking, and where people are moving. South China's population story is one of dramatic change: from explosive growth during the Mao era to deliberate slowing under the one-child policy, and now facing the consequences of an ageing population. Migration is the great equaliser — it moves people from places with too few opportunities to places with too many, but it also disrupts communities and creates new tensions. The dependency ratio is the invisible burden — when too few workers support too many retirees, the entire social contract is tested.
+Population is the heartbeat of a society, it tells you how young or old a place is, whether it is growing or shrinking, and where people are moving. South China's population story is one of dramatic change: from explosive growth during the Mao era to deliberate slowing under the one-child policy, and now facing the consequences of an ageing population. Migration is the great equaliser, it moves people from places with too few opportunities to places with too many, but it also disrupts communities and creates new tensions. The dependency ratio is the invisible burden, when too few workers support too many retirees, the entire social contract is tested.
 
 ## Exam Tips
 

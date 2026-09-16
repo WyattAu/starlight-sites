@@ -750,11 +750,11 @@ Therefore $x = 7$Confirming the formula $\mathrm{MgSO}_4 \cdot 7\mathrm{H}_2\mat
 
 ## Intuition
 
-**Chemical accounting:** Stoichiometry is like a recipe — the balanced equation tells you exactly how much of each ingredient you need and how much product you'll get. The mole is the chemist's dozen.
+**Chemical accounting:** Stoichiometry is like a recipe, the balanced equation tells you exactly how much of each ingredient you need and how much product you'll get. The mole is the chemist's dozen.
 
 **Why it matters:** From manufacturing drugs to calculating fuel efficiency, stoichiometry lets you predict quantities. Errors in stoichiometric calculations can be dangerous or wasteful.
 
-**The key insight:** The mole concept bridges the gap between atoms (invisible) and grams (measurable) — Avogadro's number is the conversion factor.
+**The key insight:** The mole concept bridges the gap between atoms (invisible) and grams (measurable), Avogadro's number is the conversion factor.
 
 ## Common Pitfalls
 

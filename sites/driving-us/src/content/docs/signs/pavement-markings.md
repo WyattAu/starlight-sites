@@ -7,7 +7,7 @@ tags:
   - signs
   - mutcd
 sources:
-  - text: "FHWA — Manual on Uniform Traffic Control Devices (MUTCD), Chapter 3 Markings"
+  - text: "FHWA, Manual on Uniform Traffic Control Devices (MUTCD), Chapter 3 Markings"
     url: "https://mutcd.fhwa.dot.gov/"
 ---
 
@@ -43,7 +43,7 @@ across them. Only a painted median or a physical barrier changes that.
 | Broken white | Lane changes allowed |
 | Solid white | Lane changes discouraged (approaches, tunnel lanes, fog lines) |
 | Double solid white | Do not change lanes (tunnels, bridge approaches) |
-| Dotted (short) white | Lane extension through an intersection — follow it |
+| Dotted (short) white | Lane extension through an intersection, follow it |
 
 Solid white fog lines mark the road's right edge; solid yellow marks
 the left edge on divided roads. Edge-line color is a quick test
@@ -52,7 +52,7 @@ question.
 ## Reversible and Shared Lanes
 
 - **Reversible lanes**: marked by a double-broken yellow or a lane
-  with overhead signals — direction follows the signal, not habit.
+  with overhead signals, direction follows the signal, not habit.
 - **Center turn lane** (solid-and-dashed yellow both sides): a shared
   left-turn pocket. Enter no more than ~200 feet before your turn,
   wait inside the lines, never use it for passing.
@@ -61,13 +61,13 @@ question.
 
 ## Crosswalks and Stop Lines
 
-- **Continental (ladder) crosswalks**: wide bars — the most visible
+- **Continental (ladder) crosswalks**: wide bars, the most visible
   style, used at uncontrolled crossings.
 - **Transverse (two solid lines)**: the classic minimal crosswalk.
-- Stop before the **stop line**, not the crosswalk — the line sits
+- Stop before the **stop line**, not the crosswalk, the line sits
   4+ feet back to keep your bumper out of the pedestrian zone.
 - Yield lines (white triangles) at roundabouts and yield points:
-  the point of no decision — slow and yield before them.
+  the point of no decision, slow and yield before them.
 
 ## Railroad Crossings
 
@@ -82,7 +82,7 @@ round yellow advance-warning sign.
 | Curb | Meaning |
 |------|---------|
 | White | Short loading, passenger pickup |
-| Yellow | Loading zone — freight/passengers, limited time |
+| Yellow | Loading zone, freight/passengers, limited time |
 | Red | No stopping, standing, or parking |
 | Green | Time-limited parking per sign |
 | Blue | Disabled-parking permit holders only |
@@ -103,7 +103,7 @@ round yellow advance-warning sign.
 | Solid with your side broken | You may pass |
 | Solid white between lanes | Stay in lane |
 | Yellow X pavement | Railroad approach |
-| Triangular white lines | Yield line — yield before it |
+| Triangular white lines | Yield line, yield before it |
 | Blue curb | Disabled permit parking |
 
 

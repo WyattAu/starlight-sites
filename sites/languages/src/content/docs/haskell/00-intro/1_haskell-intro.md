@@ -691,11 +691,11 @@ Haskell" programming style used in production code.
 
 ## Intuition
 
-**Haskell is a mathematical proof assistant that happens to run programs:** In most languages, you write instructions and hope they're correct. In Haskell, you write *specifications* — mathematical descriptions of what things are — and the compiler verifies they fit together. Purity means every function is a mathematical function: same input, same output, no surprises. Laziness means you describe *what* to compute, not *when* to compute it — like defining an infinite list and trusting the runtime to only build what's needed.
+**Haskell is a mathematical proof assistant that happens to run programs:** In most languages, you write instructions and hope they're correct. In Haskell, you write *specifications*, mathematical descriptions of what things are, and the compiler verifies they fit together. Purity means every function is a mathematical function: same input, same output, no surprises. Laziness means you describe *what* to compute, not *when* to compute it, like defining an infinite list and trusting the runtime to only build what's needed.
 
 **Why it matters:** Haskell's type system catches entire categories of bugs at compile time that other languages discover in production. The combination of purity and strong typing means that if it compiles, it's much more likely to be correct.
 
-**The key insight:** Haskell separates "what to compute" (pure functions) from "how to interact with the world" (IO monad), making side effects explicit in the type system — you can always tell from a function's type whether it touches the outside world.
+**The key insight:** Haskell separates "what to compute" (pure functions) from "how to interact with the world" (IO monad), making side effects explicit in the type system, you can always tell from a function's type whether it touches the outside world.
 
 - **Finance**: Standard Chartered, Barclays use Haskell for quantitative analysis
 - **Blockchain**: Cardano (IOHK) is implemented in Haskell for its strong type safety
@@ -711,7 +711,7 @@ systems where correctness is critical and where concurrent operations are the no
 
 - **Assuming Haskell is purely academic:** Haskell is used in production at major companies (Standard Chartered, Facebook, GitHub). Dismissing it as "not practical" ignores its real-world adoption in finance, infrastructure, and developer tooling.
 - **Confusing laziness with inefficiency:** Laziness does not mean slow. GHC optimises lazy evaluation aggressively, and strict evaluation can actually be slower if it forces unnecessary computation. Profile before assuming laziness is the problem.
-- **Treating the type system as an obstacle:** Haskell's type system catches bugs at compile time that other languages discover at runtime. Fight the compiler less — read type errors carefully, as they often point directly to the problem.
+- **Treating the type system as an obstacle:** Haskell's type system catches bugs at compile time that other languages discover at runtime. Fight the compiler less, read type errors carefully, as they often point directly to the problem.
 - **Trying to use `IO` for everything:** The IO monad is for real-world side effects, not general computation. Keep pure functions separate from IO, and push IO to the edges of your program. This makes testing and reasoning much easier.
 
 ## See Also

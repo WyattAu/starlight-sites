@@ -1,5 +1,5 @@
 /**
- * EmbedContainer.tsx — Consistent embed layout for Desmos/PhET/etc.
+ * EmbedContainer.tsx, Consistent embed layout for Desmos/PhET/etc.
  *
  * Provides a standardized container with title, source attribution,
  * and responsive aspect ratio preservation.

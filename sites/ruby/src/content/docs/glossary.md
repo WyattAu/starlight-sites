@@ -1,6 +1,6 @@
 ---
-title: "Ruby Glossary — Key Terms and Definitions"
-description: "Study notes for Ruby Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Ruby Glossary, Key Terms and Definitions"
+description: "Study notes for Ruby Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -9,7 +9,7 @@ tags: [glossary]
 
 **Ruby**: A dynamic, object-oriented language designed for developer happiness, with an elegant syntax and powerful metaprogramming.
 
-**Everything Is an Object**: In Ruby, every value — including numbers, strings, booleans, and nil — is an object with methods.
+**Everything Is an Object**: In Ruby, every value, including numbers, strings, booleans, and nil, is an object with methods.
 
 **Interpreter (IRB)**: Interactive Ruby (IRB) provides a REPL for experimenting with Ruby code directly.
 
@@ -55,7 +55,7 @@ tags: [glossary]
 
 **Select**: Filters elements based on a condition: `array.select { |item| item > 5 }`.
 
-**Reject**: The inverse of select — filters out elements matching the condition.
+**Reject**: The inverse of select, filters out elements matching the condition.
 
 **Reduce (Inject)**: Combines elements into a single value: `array.reduce(0) { |sum, n| sum + n }`.
 
@@ -67,7 +67,7 @@ tags: [glossary]
 
 ```ruby
 class Dog
-  attr_accessor :name, :breed
+  attr_accessor :name:breed
 
   def initialize(name, breed)
     @name = name
@@ -152,11 +152,11 @@ end
 
 **RSpec**: The most popular Ruby testing framework, providing a DSL for readable tests.
 
-**Describe/It**: RSpec structure — `describe` groups tests, `it` defines individual test cases.
+**Describe/It**: RSpec structure, `describe` groups tests, `it` defines individual test cases.
 
 **Expect**: RSpec assertion: `expect(value).to eq(expected)`.
 
-**Test Double**: A stand-in for a real object in tests — stubs return predefined values, mocks verify method calls.
+**Test Double**: A stand-in for a real object in tests, stubs return predefined values, mocks verify method calls.
 
 **FactoryBot**: Creates test objects with predefined attributes, replacing fixture files.
 

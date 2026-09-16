@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Statistical Distributions — Diagnostic Tests
+## Statistical Distributions, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for statistical distributions.
 
-### UT-1: Binomial Distribution — Identifying and Applying the Correct Model
+### UT-1: Binomial Distribution, Identifying and Applying the Correct Model
 
 **Question:**
 
@@ -122,7 +122,7 @@ and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 }
 </script>
 
-### UT-2: Normal Distribution — Continuity Correction and Sign Errors
+### UT-2: Normal Distribution, Continuity Correction and Sign Errors
 
 **Question:**
 
@@ -515,7 +515,7 @@ The uniform model is unsuitable because:
 }
 </script>
 
-### IT-3: Expected Trials Until First Success — Geometric Distribution (with Sequences)
+### IT-3: Expected Trials Until First Success, Geometric Distribution (with Sequences)
 
 **Question:**
 

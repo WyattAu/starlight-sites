@@ -7,7 +7,7 @@ tags:
   - florida
   - dmv
 sources:
-  - text: "Florida Highway Safety and Motor Vehicles (FLHSMV) — Licenses"
+  - text: "Florida Highway Safety and Motor Vehicles (FLHSMV), Licenses"
     url: "https://www.flhsmv.gov/driver-licenses-id-cards/"
   - text: "Florida Driver License Handbook (official)"
     url: "https://www.flhsmv.gov/handbooks/"
@@ -25,7 +25,7 @@ third-party providers administer much of driver education.
 
 - **Minimum age**: 15.
 - **Prerequisite**: the 4-hour **TLSAE course** (Traffic Law and
-  Substance Abuse Education) — mandatory for every first-time Florida
+  Substance Abuse Education), mandatory for every first-time Florida
   driver, regardless of age.
 - **Knowledge test**: 50 questions on road rules and road signs;
   40 correct (80%) passes. Teens may take it online with parental
@@ -54,10 +54,10 @@ Adults still need the TLSAE course. There is no holding period, so an
 
 From the official Florida Driver License Handbook:
 
-- Road signs are 20 of the 50 questions — Florida separates rules and
+- Road signs are 20 of the 50 questions, Florida separates rules and
   signs into distinct question banks, so study both.
 - Florida's insurance requirement: **PIP (Personal Injury Protection)**
-  no-fault coverage — heavily tested.
+  no-fault coverage, heavily tested.
 - Right-of-way at four-way stops, left turns, and pedestrians in
   crosswalks.
 - Speed limits: 70 mph maximum on rural interstates, 30 mph business
@@ -67,7 +67,7 @@ From the official Florida Driver License Handbook:
 
 ## Study Plan for the Florida Permit Test
 
-1. Take the TLSAE course first — it doubles as an orientation to
+1. Take the TLSAE course first, it doubles as an orientation to
    Florida traffic law.
 2. Drill the road-sign bank separately; knowing shapes and colors
    cold banks 20 easy points.
@@ -86,7 +86,7 @@ From the official Florida Driver License Handbook:
 - Misreading school-zone speed signs: the limit applies only during
   posted hours when lights flash.
 - Missing that Florida requires helmets for riders under 21 without
-  $10,000 medical coverage — a favorite motorcycle-law question.
+  $10,000 medical coverage, a favorite motorcycle-law question.
 
 
 ## FL Fees and Milestones Quick Table

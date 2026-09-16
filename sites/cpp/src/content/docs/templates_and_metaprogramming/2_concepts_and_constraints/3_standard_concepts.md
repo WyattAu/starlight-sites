@@ -107,7 +107,7 @@ int main() {
 // Output:
 //   is_base_of: true
 //   derived_from: true
-//   is_base_of<int, int>: true  (vacuously true — every type is a base of itself)
+//   is_base_of<int, int>: true  (vacuously true, every type is a base of itself)
 //   derived_from<int, int>: false (int is not implicitly convertible to const int&)
 ```
 
@@ -433,7 +433,7 @@ int main() {
 ## `std::invocable` and `std::regular_invocable`
 
 `std::invocable<F, Args...>` checks that `F(Args...)` is a valid expression.
-`std::regular_invocable` adds the requirement that the invocation is equality-preserving — calling
+`std::regular_invocable` adds the requirement that the invocation is equality-preserving, calling
 The same function with the same arguments produces the same result. This distinction matters for
 Pure functions vs functions with side effects:
 
@@ -455,7 +455,7 @@ int main() {
 
     std::cout << "invocable(impure, int): "
               << std::invocable<decltype(impure), int> << "\n";
-    // regular_invocable is still true for impure — the concept only checks
+    // regular_invocable is still true for impure, the concept only checks
     // structural properties, not actual behavior
     std::cout << "regular_invocable(impure, int): "
               << std::regular_invocable<decltype(impure), int> << "\n";
@@ -465,7 +465,7 @@ int main() {
 
 ## Intuition
 
-Standard concepts are the vocabulary of the C++ type system — they give names to the requirements that algorithms have always silently assumed. `std::sortable` means "can be arranged in order," `std::equality_comparable` means "can be compared with ==". Before concepts, the STL documented these requirements in prose; now the compiler enforces them. Think of concepts as the grammar rules of a language — they tell you which sentences are well-formed before you try to speak them. Using standard concepts makes your code self-documenting and your error messages human-readable, because the compiler can say "type X does not satisfy concept Y" instead of dumping pages of template instantiation errors.
+Standard concepts are the vocabulary of the C++ type system, they give names to the requirements that algorithms have always silently assumed. `std::sortable` means "can be arranged in order," `std::equality_comparable` means "can be compared with ==". Before concepts, the STL documented these requirements in prose; now the compiler enforces them. Think of concepts as the grammar rules of a language, they tell you which sentences are well-formed before you try to speak them. Using standard concepts makes your code self-documenting and your error messages human-readable, because the compiler can say "type X does not satisfy concept Y" instead of dumping pages of template instantiation errors.
 
 ## Common Pitfalls
 

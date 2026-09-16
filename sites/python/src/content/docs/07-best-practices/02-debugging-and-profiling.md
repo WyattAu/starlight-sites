@@ -23,7 +23,7 @@ categories:
 
 Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are
 First-class engineering disciplines. A systems engineer does not guess about correctness or
-Performance — they measure, instrument, and reason from evidence. This reference covers the full
+Performance, they measure, instrument, and reason from evidence. This reference covers the full
 Debugging and profiling stack in CPython, from the interactive debugger down to kernel-level
 Sampling profilers, and explains the _why_ behind each tool"s design.
 
@@ -63,7 +63,7 @@ def compute():
     return x * 2
 ```
 
-`breakpoint()` is not syntax — it is a built-in function that calls `sys.breakpointhook()`. By
+`breakpoint()` is not syntax, it is a built-in function that calls `sys.breakpointhook()`. By
 Default, `sys.breakpointhook` is set to `pdb.set_trace()`But the crucial difference is that it is
 _configurable_. You can set `PYTHONBREAKPOINT=0` in the environment to make all `breakpoint()` calls
 No-ops in production. You can set `PYTHONBREAKPOINT=ipdb.set_trace` to redirect all breakpoints to
@@ -273,13 +273,13 @@ Key fields and their semantics:
   site-packages or the standard library. When `false`You step into everything.
 
 Watch expressions in VS Code are evaluated in the current frame's context on every pause. They are
-Not free — each watch expression requires the debug adapter to serialize the result back to the IDE
+Not free, each watch expression requires the debug adapter to serialize the result back to the IDE
 Over DAP. If you have complex watch expressions and notice the debugger feels sluggish, reduce the
 Number of watches.
 
 The debug console in VS Code is a full Python REPL running in the context of the debugged process.
 You can execute arbitrary Python code, modify variables, call functions, and even import modules.
-This is not a simulation — it is the actual process.
+This is not a simulation, it is the actual process.
 
 ### PyCharm Debugger
 
@@ -373,7 +373,7 @@ Minimal disruption.
 - No thread/process identification. In concurrent systems, you cannot tell which thread emitted the
   message.
 
-In production systems, `print()` statements are not debugging — they are litter. They make
+In production systems, `print()` statements are not debugging, they are litter. They make
 Post-incident analysis harder because they produce unstructured, unfilterable noise.
 
 ### The logging Module
@@ -411,7 +411,7 @@ Key design decisions in this code:
 
 2. `logging.basicConfig()` configures the root logger. It creates a `StreamHandler` attached to
    `sys.stderr` with the specified format. `basicConfig` only works if the root logger has no
-   handlers yet — calling it after any `logging.getLogger()` has been configured is a no-op. This is
+   handlers yet, calling it after any `logging.getLogger()` has been configured is a no-op. This is
    the single most common mistake with logging configuration.
 
 3. The format string uses `%s` style formatting, not f-strings. This is intentional. The `logging`
@@ -576,7 +576,7 @@ Critical detail: always delegate to `sys.__excepthook__` at the end. If your cus
 Exception, Python enters an infinite loop of exception handling. The `sys.__excepthook__` reference
 Is the original hook that Python saved at startup.
 
-Also note the `KeyboardInterrupt` guard. `KeyboardInterrupt` is not an error — it is the user
+Also note the `KeyboardInterrupt` guard. `KeyboardInterrupt` is not an error, it is the user
 Pressing Ctrl+C. Your error reporting hook should not fire for it.
 
 ### Exception Chaining
@@ -615,7 +615,7 @@ The original exception is an implementation detail that would confuse the user o
 
 The `__cause__` and `__context__` attributes are set by the interpreter. `__suppress_context__` is
 Set to `True` when you use `from e` or `from None`Which tells the traceback formatter to prefer
-`__cause__` over `__context__`. You almost never need to manipulate these attributes directly — the
+`__cause__` over `__context__`. You almost never need to manipulate these attributes directly, the
 `raise ... from` syntax handles everything.
 
 ## cProfile
@@ -635,7 +635,7 @@ Flag controls the sort key:
 
 | Sort Key     | What It Measures                                                                                                                                                                    |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `cumulative` | Total time spent in a function including all functions it calls. This is the default. Use this to find the hot path — the function whose total cost (including callees) is highest. |
+| `cumulative` | Total time spent in a function including all functions it calls. This is the default. Use this to find the hot path, the function whose total cost (including callees) is highest. |
 | `tottime`    | Time spent in a function itself, excluding callees. Use this to find the function where the CPU is actually doing work, not just dispatching to other functions.                    |
 | `calls`      | Number of calls. Use this to find functions called surprisingly many times.                                                                                                         |
 | `time`       | Alias for `cumulative`.                                                                                                                                                             |
@@ -732,7 +732,7 @@ print(f"Median: {sorted(times)[len(times)//2]:.6f}s")
 
 `timeit.timeit()` runs the statement `number` times and returns the total time. `timeit.repeat()`
 Runs `timeit()` multiple times (default 5) and returns a list of total times. Always use `repeat()`
-And report the minimum or median — the minimum is the most accurate because it represents the run
+And report the minimum or median, the minimum is the most accurate because it represents the run
 With the least external interference from the OS scheduler, cache effects, and other noise.
 
 ### Common Gotchas
@@ -905,7 +905,7 @@ def long_running_task():
             current_mb = memory_usage(-1, interval=0.1, timeout=0.001)[0]
             print(f"Iteration {i}: {current_mb:.1f} MiB")
 
-mem_history = memory_usage((long_running_task,), interval=0.5)
+mem_history = memory_usage((long_running_task), interval=0.5)
 ```
 
 `memory_usage()` returns a list of RSS measurements sampled at the specified interval (in seconds).
@@ -918,7 +918,7 @@ This produces a time series of memory usage that you can plot or analyze.
   even though it did not allocate any private memory.
 - The CPython garbage collector does not immediately return freed memory to the OS. Memory freed by
   the GC remains in the process's heap and is available for reuse. RSS may not decrease even after
-  objects are freed. This is not a memory leak — it is the allocator's strategy.
+  objects are freed. This is not a memory leak, it is the allocator's strategy.
 - Memory profiling is inherently noisy. The OS may swap pages in and out, other processes may
   compete for memory, and the measurement itself has overhead. Always run memory profiles multiple
   times and look for trends, not individual measurements.
@@ -938,7 +938,7 @@ Unacceptable for profiling production services because:
 - You must restart the process with profiling enabled, losing all in-flight requests.
 - The profiling overhead (10-1000x) makes the results unrepresentative of actual production
   behavior.
-- You cannot profile a specific time window — you profile the entire run or nothing.
+- You cannot profile a specific time window, you profile the entire run or nothing.
 
 `py-spy` solves all of these problems. It attaches to a running Python process with zero code
 Changes and negligible overhead.
@@ -965,9 +965,9 @@ Real-time view of where the process is spending its CPU time.
 
 `py-spy record` collects samples over a time window and generates a flame graph in SVG format. Flame
 Graphs are the standard visualization for sampled profiling data. The x-axis is the proportion of
-Samples (not time — the sampling rate is uniform). The y-axis is the call stack depth. Wider bars
+Samples (not time, the sampling rate is uniform). The y-axis is the call stack depth. Wider bars
 Represent functions that consume more CPU time. You can read a flame graph by finding the widest
-Bars at the bottom — those are the functions where most CPU time is spent.
+Bars at the bottom, those are the functions where most CPU time is spent.
 
 ### How py-spy Works
 
@@ -994,7 +994,7 @@ Operation that does not disturb the target process.
 - py-spy requires root privileges to attach to processes owned by other users (or `CAP_SYS_PTRACE`).
 - Functions that execute too quickly to be caught by the sampler may be invisible in the profile. A
   function that takes 1 microsecond will be missed by a 100 Hz sampler (which samples every 10
-  milliseconds). This is a fundamental limitation of sampling — it provides statistical accuracy,
+  milliseconds). This is a fundamental limitation of sampling, it provides statistical accuracy,
   not deterministic accuracy.
 
 ## Common Performance Anti-Patterns
@@ -1077,7 +1077,7 @@ def compute(values):
 ```
 
 In CPython, local variable access uses the `LOAD_FAST` bytecode instruction, which indexes directly
-Into the frame's `fastlocals` array. This is an array lookup — O(1) with very low constant factor.
+Into the frame's `fastlocals` array. This is an array lookup, O(1) with very low constant factor.
 Global variable access uses `LOAD_GLOBAL`Which performs a dictionary lookup in the module's
 `__dict__`. Dictionary lookup involves hash computation, comparison, and potential collision
 Resolution. For a hot loop, the difference is measurable.
@@ -1110,7 +1110,7 @@ for item in items:
     if item in allowed_items_list:
         ...
 
-# Good: O(n + m) — O(m) to build the set, O(1) per lookup
+# Good: O(n + m), O(m) to build the set, O(1) per lookup
 allowed_set = set(allowed_items_list)
 for item in items:
     if item in allowed_set:
@@ -1233,7 +1233,7 @@ Functions and sampling profilers (py-spy) for long-running, CPU-intensive functi
 
 Python's memory allocator (pymalloc) manages its own memory pool. When objects are freed, the memory
 Is returned to pymalloc's pool, not to the OS. This means that RSS may not decrease after objects
-Are freed. This is not a memory leak — it is the allocator retaining memory for future allocations.
+Are freed. This is not a memory leak, it is the allocator retaining memory for future allocations.
 To detect true memory leaks, use `tracemalloc` from the standard library, which tracks Python-level
 Allocations at the object level:
 
@@ -1274,7 +1274,7 @@ for item in items:
 In a loop processing 10 million items, the f-string version creates 10 million formatted strings
 That are immediately discarded (because the log level is likely INFO or above in production). The
 `%s` version defers formatting to the logging framework, which only interpolates the string if the
-Message passes the log level filter. This is not a micro-optimization — it is the difference between
+Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
 
 

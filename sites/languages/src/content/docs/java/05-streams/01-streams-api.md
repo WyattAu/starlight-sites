@@ -75,9 +75,9 @@ Streams are lazy for three reasons:
 ```java
 // Lazy evaluation in action -- only 3 elements are ever processed
 // even though the source could be infinite
-IntStream.iterate(1, n -> n + 1)       // infinite: 1, 2, 3, 4, ...
-    .filter(n -> n % 2 == 0)           // lazy: 2, 4, 6, ...
-    .map(n -> n * n)                   // lazy: 4, 16, 36, ...
+IntStream.iterate(1, n -> n + 1)       // infinite: 1, 2, 3, 4...
+    .filter(n -> n % 2 == 0)           // lazy: 2, 4, 6...
+    .map(n -> n * n)                   // lazy: 4, 16, 36...
     .limit(3)                          // short-circuiting: takes only 3
     .forEach(System.out::println);     // terminal: triggers the pipeline
 // Output: 4, 16, 36
@@ -1165,8 +1165,8 @@ linked above.
 
 ## Intuition
 
-Java Streams are a declarative way to process collections — you describe *what* transformations to perform (filter, map, sort) rather than *how* to loop through elements. The key insight is laziness: intermediate operations like `filter` and `map` don't actually do any work. They build up a recipe of operations that only executes when you call a terminal operation like `collect` or `reduce`. This means the JVM can fuse multiple operations into a single pass over the data, short-circuit early, and avoid creating intermediate collections between each step.
+Java Streams are a declarative way to process collections, you describe *what* transformations to perform (filter, map, sort) rather than *how* to loop through elements. The key insight is laziness: intermediate operations like `filter` and `map` don't actually do any work. They build up a recipe of operations that only executes when you call a terminal operation like `collect` or `reduce`. This means the JVM can fuse multiple operations into a single pass over the data, short-circuit early, and avoid creating intermediate collections between each step.
 
-Think of a stream pipeline as an assembly line. Data flows through each transformation stage one element at a time. `filter` drops elements that don't match, `map` transforms each element, and `collect` gathers the results into a final container. Because elements flow through one at a time (or in small batches for parallel streams), you can process datasets far larger than memory — `Files.lines()` streams a file without loading it entirely, and `Stream.iterate()` generates infinite sequences.
+Think of a stream pipeline as an assembly line. Data flows through each transformation stage one element at a time. `filter` drops elements that don't match, `map` transforms each element, and `collect` gathers the results into a final container. Because elements flow through one at a time (or in small batches for parallel streams), you can process datasets far larger than memory, `Files.lines()` streams a file without loading it entirely, and `Stream.iterate()` generates infinite sequences.
 
-Parallel streams split the data across multiple threads using the shared ForkJoinPool, but this only helps when the dataset is large, the operations are CPU-bound, and the source can be efficiently split (like arrays or ArrayLists). For small datasets or I/O-bound work, the overhead of thread coordination makes parallel streams slower. `Optional` complements streams by making the absence of a value explicit at the type level — a method returning `Optional<T>` signals that the result might not exist, forcing the caller to handle both cases rather than getting a surprise `NullPointerException`.
+Parallel streams split the data across multiple threads using the shared ForkJoinPool, but this only helps when the dataset is large, the operations are CPU-bound, and the source can be efficiently split (like arrays or ArrayLists). For small datasets or I/O-bound work, the overhead of thread coordination makes parallel streams slower. `Optional` complements streams by making the absence of a value explicit at the type level, a method returning `Optional<T>` signals that the result might not exist, forcing the caller to handle both cases rather than getting a surprise `NullPointerException`.

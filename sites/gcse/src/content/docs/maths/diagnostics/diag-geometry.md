@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Geometry — Diagnostic Tests
+## Geometry, Diagnostic Tests
 
 ## Unit Tests
 
@@ -194,11 +194,11 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 ## Intuition
 
-**A playground of shapes:** Geometry is like a detective story — you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.
+**A playground of shapes:** Geometry is like a detective story, you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.
 
 **Why it matters:** From architecture to navigation, geometry helps you calculate distances, prove designs work, and understand spatial relationships that are invisible to the naked eye.
 
-**The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc — this single fact unlocks dozens of problems.
+**The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc, this single fact unlocks dozens of problems.
 
 
 ```mermaid

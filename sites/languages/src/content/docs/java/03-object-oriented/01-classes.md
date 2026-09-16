@@ -21,7 +21,7 @@ A Java class is a template that defines the structure and behavior of objects. E
 Declaration in Java ultimately inherits from `java.lang.Object`Either explicitly or implicitly.
 
 ```java
-[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2, ...] {
+[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2...] {
     // fields
     // constructors
     // methods
@@ -1424,11 +1424,11 @@ graph TD
 
 ## Intuition
 
-**Blueprints for objects:** Classes are like blueprints — they define what an object looks like and how it behaves. Objects are the actual buildings made from those blueprints.
+**Blueprints for objects:** Classes are like blueprints, they define what an object looks like and how it behaves. Objects are the actual buildings made from those blueprints.
 
 **Why it matters:** OOP is the foundation of modern software design. Understanding classes, encapsulation, and constructors helps you build maintainable, reusable code.
 
-**The key insight:** Encapsulation hides complexity — users of your class don't need to know how it works, just what it does.
+**The key insight:** Encapsulation hides complexity, users of your class don't need to know how it works, just what it does.
 
 ## Summary of Design Principles
 

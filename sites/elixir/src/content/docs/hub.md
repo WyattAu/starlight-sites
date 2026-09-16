@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Elixir is a functional language built on the Erlang VM (BEAM). It combines the simplicity of functional programming with the concurrency, fault tolerance, and distribution capabilities of Erlang. Elixir's process model makes concurrent programming straightforward — processes are lightweight, isolated, and communicate through message passing. The Phoenix framework provides a productive web development experience with real-time capabilities out of the box.
+Elixir is a functional language built on the Erlang VM (BEAM). It combines the simplicity of functional programming with the concurrency, fault tolerance, and distribution capabilities of Erlang. Elixir's process model makes concurrent programming straightforward, processes are lightweight, isolated, and communicate through message passing. The Phoenix framework provides a productive web development experience with real-time capabilities out of the box.
 
 This hub page maps every resource on this site. The learning path takes you from Elixir's core language features through OTP, Phoenix, and distributed systems, building a thorough understanding of how to build resilient, concurrent applications.
 
@@ -78,17 +78,17 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 ### Topic Notes
 
-- [Basics](../../../../dart/src/content/docs/flashcards-dart-basics) — variables, atoms, tuples, lists, and maps
-- [Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching) — the match operator, pin operator, and destructuring
-- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — named functions, anonymous functions, guards, and clauses
-- [Modules and Attributes](02-fundamentals/04-modules-and-attributes) — module definitions, module attributes, and documentation
-- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow) — case, cond, with, and do blocks
+- [Basics](../../../../dart/src/content/docs/flashcards-dart-basics), variables, atoms, tuples, lists, and maps
+- [Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching), the match operator, pin operator, and destructuring
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), named functions, anonymous functions, guards, and clauses
+- [Modules and Attributes](02-fundamentals/04-modules-and-attributes), module definitions, module attributes, and documentation
+- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow), case, cond, with, and do blocks
 
 ### Key Concepts
 
-**Pattern matching with `=`** — The match operator destructures data. `{a, b} = {1, 2}` binds `a` to 1 and `b` to 2. Pattern matching is used in function heads, case expressions, and with chains. It is the primary way to handle different data shapes.
+**Pattern matching with `=`**, The match operator destructures data. `{a, b} = {1, 2}` binds `a` to 1 and `b` to 2. Pattern matching is used in function heads, case expressions, and with chains. It is the primary way to handle different data shapes.
 
-**Atoms** are constants whose name is their value. `:ok`, `:error`, `:not_found` — atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
+**Atoms** are constants whose name is their value. `:ok`, `:error`, `:not_found`atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
 
 **The `with` construct** chains operations that may fail. Each step is pattern-matched against the expected success case. If any step does not match, the non-matching value is returned. `with {:ok, data} <- fetch(url), {:ok, parsed} <- parse(data), do: {:ok, parsed}`.
 
@@ -96,14 +96,14 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 ## Functional Programming
 
-Elixir is a functional language — functions are first-class citizens, data is immutable, and side effects are isolated. Understanding functional patterns is essential for writing idiomatic Elixir.
+Elixir is a functional language, functions are first-class citizens, data is immutable, and side effects are isolated. Understanding functional patterns is essential for writing idiomatic Elixir.
 
 ### Topic Notes
 
-- [Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — Enum.map, Enum.filter, Enum.reduce, and pipe operator
-- [Pipelines](03-functional/02-pipelines) — the |> operator for chaining functions
-- [Recursion](03-functional/03-recursion) — tail call optimization and recursive patterns
-- [Protocols](../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods) — polymorphism through protocol dispatch
+- [Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), Enum.map, Enum.filter, Enum.reduce, and pipe operator
+- [Pipelines](03-functional/02-pipelines), the |> operator for chaining functions
+- [Recursion](03-functional/03-recursion), tail call optimization and recursive patterns
+- [Protocols](../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods), polymorphism through protocol dispatch
 
 ### Key Concepts
 
@@ -121,11 +121,11 @@ Elixir's process model is its most distinctive feature. Processes are lightweigh
 
 ### Topic Notes
 
-- [Process Basics](04-processes/01-process-basics) — spawn, send, receive, and process IDs
-- [GenServer](04-processes/02-genserver) — the generic server behaviour for stateful processes
-- [Agent and Task](04-processes/03-agent-and-task) — simple state management and concurrent tasks
-- [Supervisors](04-processes/04-supervisors) — monitoring, restarting, and fault tolerance
-- [Process Communication](04-processes/05-process-communication) — message passing, selective receive, and timeouts
+- [Process Basics](04-processes/01-process-basics), spawn, send, receive, and process IDs
+- [GenServer](04-processes/02-genserver), the generic server behaviour for stateful processes
+- [Agent and Task](04-processes/03-agent-and-task), simple state management and concurrent tasks
+- [Supervisors](04-processes/04-supervisors), monitoring, restarting, and fault tolerance
+- [Process Communication](04-processes/05-process-communication), message passing, selective receive, and timeouts
 
 ### Key Concepts
 
@@ -143,10 +143,10 @@ OTP (Open Telecom Platform) is a set of libraries and behaviours for building fa
 
 ### Topic Notes
 
-- [OTP Overview](05-otp/01-otp-overview) — what OTP provides and why it matters
-- [Application](../../../../computer-science/src/content/docs/3-computer-networks/6_application-layer) — application lifecycle, configuration, and the supervision tree
-- [GenStateMachine](05-otp/03-gen-state-machine) — state machines with OTP
-- [ETS and Mnesia](05-otp/04-ets-and-mnesia) — in-memory storage and distributed database
+- [OTP Overview](05-otp/01-otp-overview), what OTP provides and why it matters
+- [Application](../../../../computer-science/src/content/docs/3-computer-networks/6_application-layer), application lifecycle, configuration, and the supervision tree
+- [GenStateMachine](05-otp/03-gen-state-machine), state machines with OTP
+- [ETS and Mnesia](05-otp/04-ets-and-mnesia), in-memory storage and distributed database
 
 ### Key Concepts
 
@@ -164,11 +164,11 @@ Phoenix is Elixir's web framework. It follows the MVC pattern, provides real-tim
 
 ### Topic Notes
 
-- [Phoenix Basics](06-phoenix/01-phoenix-basics) — router, controllers, views, and templates
-- [Ecto and Changesets](06-phoenix/02-ecto-and-changesets) — database access, schemas, and data validation
-- [Channels](../../../../go/src/content/docs/concurrency/channels) — WebSocket connections, real-time updates, and presence
-- [LiveView](06-phoenix/04-liveview) — server-rendered real-time UI without JavaScript
-- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — controller tests, channel tests, and LiveView tests
+- [Phoenix Basics](06-phoenix/01-phoenix-basics), router, controllers, views, and templates
+- [Ecto and Changesets](06-phoenix/02-ecto-and-changesets), database access, schemas, and data validation
+- [Channels](../../../../go/src/content/docs/concurrency/channels), WebSocket connections, real-time updates, and presence
+- [LiveView](06-phoenix/04-liveview), server-rendered real-time UI without JavaScript
+- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), controller tests, channel tests, and LiveView tests
 
 ### Key Concepts
 
@@ -186,10 +186,10 @@ Elixir has excellent testing support built into the language. ExUnit is the stan
 
 ### Topic Notes
 
-- [ExUnit Basics](07-testing/01-exunit-basics) — test modules, assertions, and test helpers
-- [Fixtures and Setup](07-testing/02-fixtures-and-setup) — ExUnit.Case, setup blocks, and shared fixtures
-- [Mocking and Stubs](07-testing/03-mocking-and-stubs) — Mox and behaviour-based mocking
-- [Property-Based Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — StreamData and generative testing
+- [ExUnit Basics](07-testing/01-exunit-basics), test modules, assertions, and test helpers
+- [Fixtures and Setup](07-testing/02-fixtures-and-setup), ExUnit.Case, setup blocks, and shared fixtures
+- [Mocking and Stubs](07-testing/03-mocking-and-stubs), Mox and behaviour-based mocking
+- [Property-Based Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), StreamData and generative testing
 
 ### Key Concepts
 
@@ -213,7 +213,7 @@ Elixir's learning curve is moderate. The functional paradigm is approachable, an
 
 ### Stage 2: Processes and OTP (Weeks 4–7)
 
-- Learn process basics — spawn, send, receive
+- Learn process basics, spawn, send, receive
 - Master GenServer and the supervision tree
 - Study OTP Application and fault tolerance
 
@@ -235,12 +235,12 @@ Elixir's learning curve is moderate. The functional paradigm is approachable, an
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[Go Programming Guide](https://go.wyattau.com/hub)** — Go and Elixir both excel at concurrent systems with different approaches
-- **[Ruby Programming Guide](https://ruby.wyattau.com/hub)** — Elixir's syntax is influenced by Ruby
-- **[Haskell Programming Guide](https://haskell.wyattau.com/hub)** — Elixir borrows functional concepts from Haskell
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Elixir
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — relevant for Ecto and database design
-- **[Networking Guide](https://networking.wyattau.com/hub)** — relevant for distributed Elixir systems
+- **[Go Programming Guide](https://go.wyattau.com/hub)**, Go and Elixir both excel at concurrent systems with different approaches
+- **[Ruby Programming Guide](https://ruby.wyattau.com/hub)**, Elixir's syntax is influenced by Ruby
+- **[Haskell Programming Guide](https://haskell.wyattau.com/hub)**, Elixir borrows functional concepts from Haskell
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Elixir
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, relevant for Ecto and database design
+- **[Networking Guide](https://networking.wyattau.com/hub)**, relevant for distributed Elixir systems
 
 ---
 
@@ -248,7 +248,7 @@ Wyatt's Notes is a network of interconnected programming and study sites:
 
 ### Should I learn Elixir or Ruby first?
 
-If your goal is web development, learn Ruby first — it is more widely used and has a larger ecosystem. If your goal is concurrent, fault-tolerant systems, learn Elixir — its process model and OTP are unmatched. Elixir's syntax is Ruby-inspired, so learning Ruby first makes Elixir easier.
+If your goal is web development, learn Ruby first, it is more widely used and has a larger ecosystem. If your goal is concurrent, fault-tolerant systems, learn Elixir, its process model and OTP are unmatched. Elixir's syntax is Ruby-inspired, so learning Ruby first makes Elixir easier.
 
 ### What is the difference between Elixir and Erlang?
 

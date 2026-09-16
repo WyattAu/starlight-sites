@@ -127,7 +127,7 @@ SJF:
 
 **Optimal** (minimizes average waiting time), but requires knowing burst times in advance.
 
-**Shortest Remaining Time First (SRTF):** Preemptive version—when a new process arrives with shorter
+**Shortest Remaining Time First (SRTF):** Preemptive version–when a new process arrives with shorter
 remaining time, preempt current process.
 
 ### 2.4 Round Robin (RR)
@@ -158,15 +158,15 @@ PRIORITY_SCHEDULE(ready_queue):
         run p (preemptive or non-preemptive)
 ```
 
-**Problem: Starvation** — low-priority processes may never execute.
+**Problem: Starvation**, low-priority processes may never execute.
 
-**Solution: Aging** — gradually increase priority of waiting processes.
+**Solution: Aging**, gradually increase priority of waiting processes.
 
 ### 2.6 Multilevel Feedback Queue (MLFQ)
 
 ```
 MLFQ:
-    maintain multiple queues Q0, Q1, ..., Qn
+    maintain multiple queues Q0, Q1..., Qn
     Q0: highest priority, RR with quantum q0
     Q1: lower priority, RR with quantum q1 = 2*q0
     ...
@@ -257,8 +257,8 @@ SIGNAL(S):        // V(S), up
 
 **Types:**
 
-- **Binary semaphore:** $S \in \{0, 1\}$ — acts like a mutex.
-- **Counting semaphore:** $S \geq 0$ — controls access to a resource with multiple instances.
+- **Binary semaphore:** $S \in \{0, 1\}$, acts like a mutex.
+- **Counting semaphore:** $S \geq 0$, controls access to a resource with multiple instances.
 
 ### 3.5 Classic Synchronization Problems
 
@@ -407,7 +407,7 @@ that each $P_i$ can obtain all needed resources and terminate.
 BANKERS(Available, Max, Allocation, Need):
     // Need[i] = Max[i] - Allocation[i]
     Work = Available
-    Finish = [false, ..., false]
+    Finish = [false..., false]
 
     repeat:
         found = false

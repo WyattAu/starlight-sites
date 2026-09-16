@@ -1079,7 +1079,7 @@ flowchart TD
 
 ## Intuition
 
-Probability distributions are recipes for uncertainty. The binomial distribution counts successes in fixed trials — flipping a coin ten times and counting heads. The Poisson distribution counts rare events in continuous time or space — the number of customers arriving at a shop each hour. The normal distribution is the bell curve that emerges logically when many small independent factors combine, like heights of adults shaped by thousands of genetic and environmental influences. The Central Limit Theorem is the deep reason the normal distribution appears everywhere: sample means tend toward normality regardless of the original distribution, which is why statistics works at all.
+Probability distributions are recipes for uncertainty. The binomial distribution counts successes in fixed trials, flipping a coin ten times and counting heads. The Poisson distribution counts rare events in continuous time or space, the number of customers arriving at a shop each hour. The normal distribution is the bell curve that emerges logically when many small independent factors combine, like heights of adults shaped by thousands of genetic and environmental influences. The Central Limit Theorem is the deep reason the normal distribution appears everywhere: sample means tend toward normality regardless of the original distribution, which is why statistics works at all.
 
 ## Common Pitfalls
 

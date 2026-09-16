@@ -40,7 +40,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-electricity-006',
     front: 'State the resistivity equation and explain each variable.',
-    back: 'R = ρL/A. R = resistance (Ω). ρ = resistivity (Ω m) — property of the material. L = length (m). A = cross-sectional area (m²). Longer wire = more resistance. Thicker wire = less resistance. Resistivity depends on material and temperature. Copper: ρ ≈ 1.7 × 10⁻⁸ Ω m. Nichrome: ρ ≈ 1.1 × 10⁻⁶ Ω m (used for heating elements).',
+    back: 'R = ρL/A. R = resistance (Ω). ρ = resistivity (Ω m), property of the material. L = length (m). A = cross-sectional area (m²). Longer wire = more resistance. Thicker wire = less resistance. Resistivity depends on material and temperature. Copper: ρ ≈ 1.7 × 10⁻⁸ Ω m. Nichrome: ρ ≈ 1.1 × 10⁻⁶ Ω m (used for heating elements).',
     tags: ['electricity', 'resistivity'],
     difficulty: 'medium',
   },
@@ -68,7 +68,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-electricity-010',
     front: 'State Kirchhoff’s second law (voltage law).',
-    back: 'The sum of EMFs around any closed loop equals the sum of potential differences: Σ EMF = Σ PD. This is a consequence of conservation of energy. A charge circulating the loop gains energy from EMF sources and loses energy across components. Applications: solving complex circuits with multiple loops. Direction of current matters — assign consistent sign conventions.',
+    back: 'The sum of EMFs around any closed loop equals the sum of potential differences: Σ EMF = Σ PD. This is a consequence of conservation of energy. A charge circulating the loop gains energy from EMF sources and loses energy across components. Applications: solving complex circuits with multiple loops. Direction of current matters, assign consistent sign conventions.',
     tags: ['electricity', 'Kirchhoff’s laws'],
     difficulty: 'medium',
   },

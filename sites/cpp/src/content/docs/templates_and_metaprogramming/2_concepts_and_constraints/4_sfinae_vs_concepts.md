@@ -355,8 +355,8 @@ template<typename T>
 void classify(T) { std::cout << "integral\n"; }
 
 int main() {
-    classify(42);     // "integral" — std::integral subsumes Numeric
-    classify(3.14);   // "numeric"  — only Numeric is satisfied
+    classify(42);     // "integral", std::integral subsumes Numeric
+    classify(3.14);   // "numeric", only Numeric is satisfied
 }
 ```
 
@@ -418,7 +418,7 @@ Requires-expression is both more readable and more expressive:
 #include <concepts>
 #include <string>
 
-// C++17 detection idiom — verbose
+// C++17 detection idiom, verbose
 template<typename T, typename = void>
 struct has_reserve : std::false_type {};
 
@@ -426,7 +426,7 @@ template<typename T>
 struct has_reserve<T, std::void_t<decltype(std::declval<T&>().reserve(std::size_t{}))>>
     : std::true_type {};
 
-// C++20 concept — equivalent and cleaner
+// C++20 concept, equivalent and cleaner
 template<typename T>
 concept HasReserve = requires(T& t) {
     { t.reserve(std::size_t{}) } -> std::same_as<void>;
@@ -465,7 +465,7 @@ Produces a hard error rather than a substitution failure:
 ```cpp
 #include <type_traits>
 
-// WRONG: missing typename — hard error
+// WRONG: missing typename, hard error
 template<typename T>
 typename std::enable_if<T::value, int>::type  // T::value is type-dependent
 bad_sfinae(T) { return 0; }
@@ -537,12 +537,12 @@ Readable:
 #include <iostream>
 #include <vector>
 
-// BAD: complex inline condition — poor error message
+// BAD: complex inline condition, poor error message
 template<typename T>
     requires std::integral<T> && sizeof(T) &lt;= 4 && std::is_signed_v<T>
 void process(T) {}
 
-// GOOD: decomposed into named concepts — clear error messages
+// GOOD: decomposed into named concepts, clear error messages
 template<typename T>
 concept SmallSignedIntegral = std::signed_integral<T> && sizeof(T) &lt;= 4;
 
@@ -596,7 +596,7 @@ linked above.
 
 ## Intuition
 
-Before C++20 concepts, template metaprogramming relied on SFINAE — a compiler quirk where
+Before C++20 concepts, template metaprogramming relied on SFINAE, a compiler quirk where
 ill-formed template specializations are silently removed from the overload set instead of causing
 errors. Think of it like a bouncer at a club: if you don't meet the dress code (the template
 constraints), you're quietly turned away rather than causing a scene. The problem is that SFINAE

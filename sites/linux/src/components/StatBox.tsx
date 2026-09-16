@@ -1,5 +1,5 @@
 /**
- * StatBox.tsx — Consistent stat display component
+ * StatBox.tsx, Consistent stat display component
  *
  * Displays a labeled value with optional highlight and color coding.
  */

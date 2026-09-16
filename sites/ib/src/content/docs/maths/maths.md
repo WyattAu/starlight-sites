@@ -692,7 +692,7 @@ Topic of personal interest in depth.
 
 ### Choosing a Topic
 
-- Choose a topic you are genuinely interested in — motivation shows in the quality of work.
+- Choose a topic you are genuinely interested in, motivation shows in the quality of work.
 - Ensure the topic has sufficient mathematical depth (calculus, statistics, or algebra beyond the
   syllabus).
 - Topics that connect mathematics to real-world applications tend to score well (e.g. Modelling
@@ -924,7 +924,7 @@ Mathematics is the science of patterns. Algebra captures relationships between q
 
 3. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
 
-4. Cancelling terms instead of factors — $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
+4. Cancelling terms instead of factors, $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
 
 
 ```mermaid

@@ -1,5 +1,5 @@
 ---
-title: "Programming Languages Glossary — Key Terms"
+title: "Programming Languages Glossary, Key Terms"
 description: "Cross-language programming terminology: static vs dynamic typing, memory management models, concurrency primitives, and compilation strategies shared across modern languages."
 date: 2026-07-24
 tags: [glossary]
@@ -27,7 +27,7 @@ tags: [glossary]
 
 **Reference Counting**: Swift's Automatic Reference Counting (ARC) tracks strong references and deallocates at zero.
 
-**RAII**: Resource Acquisition Is Initialization — binding resource lifetimes to object scopes, central to C++ and Rust.
+**RAII**: Resource Acquisition Is Initialization, binding resource lifetimes to object scopes, central to C++ and Rust.
 
 ## Concurrency Models
 
@@ -61,7 +61,7 @@ Return to the [Languages Hub](/hub/) to compare languages, or jump into a specif
 
 **Linter**: Static analysis that flags suspicious code or style violations. Clippy (Rust), ESLint (TypeScript), go vet (Go), RuboCop (Ruby).
 
-**Formatter**: Automatic code style normalisation. rustfmt, gofmt, Prettier, swift-format — most languages now have an official formatter.
+**Formatter**: Automatic code style normalisation. rustfmt, gofmt, Prettier, swift-format, most languages now have an official formatter.
 
 **REPL**: Read-Eval-Print Loop for interactive evaluation. Elixir's iex and Haskell's GHCi are central to those languages' development workflows.
 
@@ -69,7 +69,7 @@ Return to the [Languages Hub](/hub/) to compare languages, or jump into a specif
 
 ## Language-Specific Essentials
 
-**Trait (Rust)**: A collection of methods a type must implement — Rust's unit of polymorphism, similar to Haskell's type classes and Swift's protocols.
+**Trait (Rust)**: A collection of methods a type must implement, Rust's unit of polymorphism, similar to Haskell's type classes and Swift's protocols.
 
 **Type Class (Haskell)**: A constraint declaring what operations a type must support (Eq, Ord, Functor, Monad). Enabled by parametric polymorphism.
 
@@ -83,11 +83,11 @@ Return to the [Languages Hub](/hub/) to compare languages, or jump into a specif
 
 **Null Safety**: Language-level prevention of null reference errors. Kotlin's nullable types, Swift's optionals, Rust's Option, Dart's sound null safety.
 
-**Immutability by Default**: Bindings that cannot be reassigned after initialisation — Rust (let vs let mut), Kotlin (val vs var), Swift (let vs var), Haskell (all bindings).
+**Immutability by Default**: Bindings that cannot be reassigned after initialisation, Rust (let vs let mut), Kotlin (val vs var), Swift (let vs var), Haskell (all bindings).
 
 ## Further Reading
 
-Each language site in the network covers these concepts in depth with worked examples — start from the Languages Hub to navigate.
+Each language site in the network covers these concepts in depth with worked examples, start from the Languages Hub to navigate.
 
 
 ## Paradigms
@@ -98,41 +98,41 @@ Each language site in the network covers these concepts in depth with worked exa
 
 **Procedural Programming**: Straight-line routines over shared state; still the right tool for scripts and systems glue.
 
-**Declarative vs Imperative**: Saying what to compute versus how — SQL and regex are declarative islands inside imperative codebases.
+**Declarative vs Imperative**: Saying what to compute versus how, SQL and regex are declarative islands inside imperative codebases.
 
-**Metaprogramming**: Programs that treat programs as data — Elixir macros, Ruby's method_missing, Rust's derive macros, Python's decorators.
+**Metaprogramming**: Programs that treat programs as data, Elixir macros, Ruby's method_missing, Rust's derive macros, Python's decorators.
 
 ## Runtime and Platform
 
-**Virtual Machine (VM) Runtime**: The execution engine hosting bytecode — JVM for Java/Kotlin, BEAM for Elixir, ART for Android's Kotlin/Java, Dart VM for Flutter development.
+**Virtual Machine (VM) Runtime**: The execution engine hosting bytecode, JVM for Java/Kotlin, BEAM for Elixir, ART for Android's Kotlin/Java, Dart VM for Flutter development.
 
 **Bytecode**: The portable intermediate representation compiled sources target; JIT compilers optimise it at runtime.
 
 **Garbage Collector Generations**: The young/old generation split exploiting mortality of objects; Go's GC is concurrent and low-pause instead.
 
-**Tail Call Optimisation**: Reusing the caller's stack frame for a call in tail position — essential to Elixir recursion idioms; absent on the JVM proper.
+**Tail Call Optimisation**: Reusing the caller's stack frame for a call in tail position, essential to Elixir recursion idioms; absent on the JVM proper.
 
 **Hot Code Reloading**: Replacing running code without restart; Erlang/Elixir's origin as telecom switch software made it a first-class BEAM feature.
 
-**FFI (Foreign Function Interface)**: The boundary for calling C or other native code — cgo (Go), JNI (Java), NIF (Elixir), PyO3 (Python+Rust).
+**FFI (Foreign Function Interface)**: The boundary for calling C or other native code, cgo (Go), JNI (Java), NIF (Elixir), PyO3 (Python+Rust).
 
 **Stack vs Heap Allocation**: Value types on the stack are cheap; escape analysis moves heap allocations to the stack where provably safe (Go, JVM).
 
 ## Language Design Terms
 
-**Syntax Sugar**: Syntax simplifying common patterns without adding power — Kotlin data classes, Rust's `?` operator, Swift's optional chaining.
+**Syntax Sugar**: Syntax simplifying common patterns without adding power, Kotlin data classes, Rust's `?` operator, Swift's optional chaining.
 
-**Duck Typing**: Runtime structural typing by behaviour — "if it quacks" — characteristic of Ruby and Python before type hints.
+**Duck Typing**: Runtime structural typing by behaviour, "if it quacks", characteristic of Ruby and Python before type hints.
 
 **Null Object Pattern vs Option Type**: Encoding absence in the type system (Option/Maybe/nullable) versus defensive null checks; modern languages standardise on the former.
 
 **Operator Overloading**: Custom semantics for built-in operators; pervasive in C++ and Rust, restricted in Java (only String +), dynamic in Python (dunder methods).
 
-**First-Class Functions**: Functions assignable to variables and passed as arguments — the enabler of callbacks, promises, and map/filter idioms everywhere.
+**First-Class Functions**: Functions assignable to variables and passed as arguments, the enabler of callbacks, promises, and map/filter idioms everywhere.
 
 **Coroutines**: Suspendable functions generalising async/await; Kotlin's structured concurrency and Python's async generators are coroutine-based.
 
-**Sum Type (Tagged Union)**: A value holding exactly one of several typed variants — Rust's enum, Swift's enum with associated values, Haskell's data declarations.
+**Sum Type (Tagged Union)**: A value holding exactly one of several typed variants, Rust's enum, Swift's enum with associated values, Haskell's data declarations.
 
 
 ## Cross-Language Quick Reference

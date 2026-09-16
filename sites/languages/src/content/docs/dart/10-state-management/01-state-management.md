@@ -35,7 +35,7 @@ On which state.
 
 State management is the discipline of controlling **where** state is stored, **how** it is modified,
 And **which** widgets rebuild when it changes. Every solution in this document addresses the same
-Fundamental problem — they differ in complexity, boilerplate, testability, and scalability.
+Fundamental problem, they differ in complexity, boilerplate, testability, and scalability.
 
 ### Why setState Alone Does Not Scale
 
@@ -74,7 +74,7 @@ class _CounterPageState extends State<CounterPage> {
 
 The problems:
 
-1. **Excessive rebuilds** — `setState` at the top rebuilds the entire subtree, including widgets
+1. **Excessive rebuilds**, `setState` at the top rebuilds the entire subtree, including widgets
    that do not depend on the changed state.
 2. **No sharing**. State in a `State` object is inaccessible to sibling or ancestor widgets without
    callbacks.
@@ -96,7 +96,7 @@ setState(() {
 });
 ```
 
-The callback is synchronous. It runs immediately — not on the next frame. The rebuild is scheduled
+The callback is synchronous. It runs immediately, not on the next frame. The rebuild is scheduled
 For the next frame. Multiple `setState` calls within the same microtask are batched into a single
 Rebuild.
 
@@ -216,7 +216,7 @@ class TemperatureSlider extends StatelessWidget {
 Rebuilt. If it returns `false`No descendant is notified. If it returns `true`Every widget that
 Called `of()` is rebuilt.
 
-This is the granularity mechanism — you control which state changes trigger rebuilds by what you
+This is the granularity mechanism, you control which state changes trigger rebuilds by what you
 Compare in `updateShouldNotify`. Compare only the fields that descendants care about:
 
 ```dart
@@ -231,12 +231,12 @@ bool updateShouldNotify(AppState oldWidget) {
 
 ### Limitations of InheritedWidget
 
-1. **No built-in mutation API** — `InheritedWidget` is immutable. To change its data, you must wrap
+1. **No built-in mutation API**, `InheritedWidget` is immutable. To change its data, you must wrap
    it in a `StatefulWidget` that calls `setState`Then provide a new `InheritedWidget` with updated
    data. This is the boilerplate that `Provider` eliminates.
 2. **No notification granularity**. When `updateShouldNotify` returns `true`**all** dependents
    rebuild, not just the ones that care about the changed field.
-3. **No lifecycle management** — `InheritedWidget` does not dispose resources. You must handle
+3. **No lifecycle management**, `InheritedWidget` does not dispose resources. You must handle
    disposal in the wrapping `StatefulWidget`.
 4. **Verbose**. Every piece of shared state requires a custom `InheritedWidget` subclass with
    `of()``updateShouldNotify`And a wrapping `StatefulWidget`.
@@ -300,7 +300,7 @@ class CounterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // context.watch() subscribes to changes — rebuilds when notifyListeners() is called
+    // context.watch() subscribes to changes, rebuilds when notifyListeners() is called
     final counter = context.watch<Counter>();
 
     return Column(
@@ -318,11 +318,11 @@ class CounterPage extends StatelessWidget {
 
 ### context.read() vs context.watch() vs context.select()
 
-- `context.watch<T>()` — subscribes to the provider and rebuilds the widget whenever
+- `context.watch<T>()`subscribes to the provider and rebuilds the widget whenever
   `notifyListeners()` is called. Use it in `build()`.
-- `context.read<T>()` — returns the provider value without subscribing. Use it in event handlers and
-  callbacks. Calling `read()` in `build()` is a mistake — it will not rebuild when state changes.
-- `context.select<T, R>(R Function(T) selector)` — subscribes to a specific property of the
+- `context.read<T>()`returns the provider value without subscribing. Use it in event handlers and
+  callbacks. Calling `read()` in `build()` is a mistake, it will not rebuild when state changes.
+- `context.select<T, R>(R Function(T) selector)`subscribes to a specific property of the
   provider. The widget rebuilds only when the selected value changes:
 
 ```dart
@@ -335,7 +335,7 @@ final count = context.select<Counter, int>((counter) => counter.count);
 For fine-grained rebuild control within a widget tree, use `Consumer` and `Selector`:
 
 ```dart
-// Consumer — rebuilds only its builder, not the entire parent widget
+// Consumer, rebuilds only its builder, not the entire parent widget
 Column(
   children: [
     const HeaderWidget(), // Does not rebuild
@@ -348,7 +348,7 @@ Column(
   ],
 )
 
-// Selector — rebuilds only when the selected value changes
+// Selector, rebuilds only when the selected value changes
 Selector<Cart, double>(
   selector: (_, cart) => cart.totalPrice,
   builder: (_, totalPrice, __) {
@@ -397,12 +397,12 @@ MultiProvider(
    update).
 2. **No async built-in**. Handling loading/error states for async operations requires manual
    boilerplate.
-3. **Mutable state** — `ChangeNotifier` is mutable by default. Any code with a reference can mutate
+3. **Mutable state**, `ChangeNotifier` is mutable by default. Any code with a reference can mutate
    the state directly, bypassing any validation logic.
-4. **No dependency injection for non-ChangeNotifier types** — `Provider` works best with
+4. **No dependency injection for non-ChangeNotifier types**, `Provider` works best with
    `ChangeNotifier`. For plain objects, services, or repositories, you need separate provider types
    (`Provider``FutureProvider``StreamProvider`).
-5. **BuildContext dependency** — `context.read()` and `context.watch()` require `BuildContext` which
+5. **BuildContext dependency**, `context.read()` and `context.watch()` require `BuildContext` which
    means state access is tied to the widget tree. You cannot access state outside of widgets (e.g.,
    in a domain service or route guard).
 
@@ -424,20 +424,20 @@ dev_dependencies:
 
 ### Providers as Immutable Declarative Values
 
-In Riverpod, a provider is a declaration of how to create a value — not a mutable object. Providers
+In Riverpod, a provider is a declaration of how to create a value, not a mutable object. Providers
 Are immutable globals that you reference by name. The framework handles creation, disposal, and
 Dependency tracking:
 
 ```dart
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// A simple provider — creates an int value
+// A simple provider, creates an int value
 final counterProvider = Provider<int>((ref) => 0);
 
-// A state provider — mutable state without a full notifier class
+// A state provider, mutable state without a full notifier class
 final counterStateProvider = StateProvider<int>((ref) => 0);
 
-// A notifier provider — encapsulated state with business logic
+// A notifier provider, encapsulated state with business logic
 final counterNotifierProvider = NotifierProvider<CounterNotifier, int>(
   CounterNotifier.new,
 );
@@ -455,13 +455,13 @@ class CounterNotifier extends Notifier<int> {
 ### Provider Types
 
 ```dart
-// Provider — immutable, derived value
+// Provider, immutable, derived value
 final greetingProvider = Provider<String>((ref) {
   final name = ref.watch(userNameProvider);
   return 'Hello, $name';
 });
 
-// StateNotifierProvider — mutable state with a notifier (pre-code-gen)
+// StateNotifierProvider, mutable state with a notifier (pre-code-gen)
 class TodosNotifier extends StateNotifier<List<Todo>> {
   TodosNotifier() : super([]);
 
@@ -477,30 +477,30 @@ final todosProvider = StateNotifierProvider<TodosNotifier, List<Todo>>((ref) {
   return TodosNotifier();
 });
 
-// FutureProvider — async value with built-in loading/error states
+// FutureProvider, async value with built-in loading/error states
 final userProvider = FutureProvider<User>((ref) async {
   final api = ref.watch(apiClientProvider);
   return api.fetchCurrentUser();
 });
 
-// StreamProvider — value from a stream with built-in states
+// StreamProvider, value from a stream with built-in states
 final messagesProvider = StreamProvider<Message>((ref) {
   final channel = ref.watch(websocketProvider);
   return channel.messages;
 });
 
-// AsyncNotifierProvider — state + async initialization (code-gen)
+// AsyncNotifierProvider, state + async initialization (code-gen)
 @riverpod
 class AsyncCounter extends _$AsyncCounter {
   @override
   Future<int> build() async {
-    // Async initialization — e.g., load from storage
+    // Async initialization, e.g., load from storage
     final prefs = ref.read(sharedPreferencesProvider);
     return prefs.getInt('counter') ?? 0;
   }
 
   void increment() {
-    // state is AsyncValue<int> — use whenData
+    // state is AsyncValue<int>, use whenData
     state = const AsyncValue.data(0);
     state = AsyncData(state.value! + 1);
   }
@@ -509,18 +509,18 @@ class AsyncCounter extends _$AsyncCounter {
 
 ### ref.watch() vs ref.read()
 
-- `ref.watch(provider)` — subscribes to the provider. When the provider's value changes, the
+- `ref.watch(provider)`subscribes to the provider. When the provider's value changes, the
   watching provider or widget rebuilds. Use inside `build()` and widget `build()` methods.
-- `ref.read(provider)` — reads the current value without subscribing. Use in event handlers,
-  callbacks, and lifecycle methods. Using `ref.read()` inside `build()` is a mistake — the widget
+- `ref.read(provider)`reads the current value without subscribing. Use in event handlers,
+  callbacks, and lifecycle methods. Using `ref.read()` inside `build()` is a mistake, the widget
   will not rebuild when the value changes.
 
 ```dart
 final myWidgetProvider = Provider<void>((ref) {
-  // CORRECT — watch in build to react to changes
+  // CORRECT, watch in build to react to changes
   final user = ref.watch(userProvider);
 
-  // CORRECT — read in callbacks (no subscription)
+  // CORRECT, read in callbacks (no subscription)
   final onLogout = () {
     ref.read(authNotifierProvider.notifier).logout();
   };
@@ -565,7 +565,7 @@ final onRefresh = () {
 };
 ```
 
-All providers that depend on the invalidated provider are also invalidated — this cascading
+All providers that depend on the invalidated provider are also invalidated, this cascading
 Invalidation ensures consistency.
 
 ### Code Generation with @riverpod
@@ -612,7 +612,7 @@ Family, `autoDispose`And proper typing.
    anywhere: widgets, domain services, route guards, middleware.
 2. **Immutable by default**. Providers declare how to create a value, not how to mutate it. State
    mutation goes through well-defined notifier APIs.
-3. **Async-first** — `FutureProvider` and `AsyncNotifierProvider` handle loading, error, and data
+3. **Async-first**, `FutureProvider` and `AsyncNotifierProvider` handle loading, error, and data
    states without manual boilerplate.
 4. **Auto-dispose**. Prevents memory leaks by automatically disposing providers when they are no
    longer watched.
@@ -654,7 +654,7 @@ UI ──(events)──> BLoC ──(states)──> UI
 3. The UI rebuilds in response to the new state.
 
 This is a state machine. Every state transition is caused by a specific event. Every event produces
-A deterministic state transition (for synchronous events). This makes the system traceable — you can
+A deterministic state transition (for synchronous events). This makes the system traceable, you can
 Log every event and state transition to reproduce bugs.
 
 ### Defining Events and States
@@ -662,7 +662,7 @@ Log every event and state transition to reproduce bugs.
 ```dart
 import 'package:equatable/equatable.dart';
 
-// Events — what happened
+// Events, what happened
 sealed class AuthEvent extends Equatable {
   @override
   List<Object?> get props => [];
@@ -687,7 +687,7 @@ class AuthTokenRefreshed extends AuthEvent {
   List<Object?> get props => [token];
 }
 
-// States — what the UI should show
+// States, what the UI should show
 sealed class AuthState extends Equatable {
   @override
   List<Object?> get props => [];
@@ -804,7 +804,7 @@ BlocProvider(
   child: const AuthPage(),
 )
 
-// BlocBuilder — rebuilds UI when state changes
+// BlocBuilder, rebuilds UI when state changes
 BlocBuilder<AuthBloc, AuthState>(
   builder: (context, state) {
     return switch (state) {
@@ -816,7 +816,7 @@ BlocBuilder<AuthBloc, AuthState>(
   },
 )
 
-// BlocListener — reacts to state changes without rebuilding
+// BlocListener, reacts to state changes without rebuilding
 BlocListener<AuthBloc, AuthState>(
   listener: (context, state) {
     switch (state) {
@@ -833,7 +833,7 @@ BlocListener<AuthBloc, AuthState>(
   child: const AuthForm(),
 )
 
-// BlocConsumer — both rebuilds and reacts
+// BlocConsumer, both rebuilds and reacts
 BlocConsumer<AuthBloc, AuthState>(
   listener: (context, state) {
     if (state is Authenticated) {
@@ -975,8 +975,8 @@ void main() {
 - **Large teams** where explicit event contracts prevent "who changed what" confusion.
 - **Complex state machines** with many states and transitions (e.g., multi-step forms, order
   processing, authentication flows).
-- **Event tracing requirements** — when you need to log, replay, or audit every state transition.
-- **Testing rigor** — when the ability to test state transitions in isolation without widgets is a
+- **Event tracing requirements**, when you need to log, replay, or audit every state transition.
+- **Testing rigor**, when the ability to test state transitions in isolation without widgets is a
   priority.
 
 The cost is boilerplate. Every feature requires an event class, a state class, and a BLoC class. For
@@ -1045,18 +1045,18 @@ Complexity of the state machine justifies the boilerplate.
 
 ## Intuition
 
-**Managing app state:** State management is like organizing a filing system — it keeps track of all the data your app needs and ensures changes are reflected in the UI.
+**Managing app state:** State management is like organizing a filing system, it keeps track of all the data your app needs and ensures changes are reflected in the UI.
 
 **Why it matters:** Complex apps need careful state management to avoid bugs and ensure data consistency across screens and widgets.
 
-**The key insight:** State should flow in one direction — from data to UI — making your app predictable and easier to debug.
+**The key insight:** State should flow in one direction, from data to UI, making your app predictable and easier to debug.
 
 ## Common Pitfalls
 
 ### 1. Using setState for Shared State
 
 ```dart
-// WRONG — state is trapped in this widget
+// WRONG, state is trapped in this widget
 class UserSession extends StatefulWidget {
   final Widget child;
   const UserSession({required this.child, super.key});
@@ -1076,14 +1076,14 @@ class _UserSessionState extends State<UserSession> {
   // You need callbacks, InheritedWidget, or Provider
 }
 
-// CORRECT — use Provider, Riverpod, or BLoC for shared state
+// CORRECT, use Provider, Riverpod, or BLoC for shared state
 final userProvider = StateProvider<User?>((ref) => null);
 ```
 
 ### 2. Context.read() in build() Instead of context.watch()
 
 ```dart
-// WRONG — reads once, never rebuilds when state changes
+// WRONG, reads once, never rebuilds when state changes
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1092,7 +1092,7 @@ class MyWidget extends StatelessWidget {
   }
 }
 
-// CORRECT — subscribes to changes
+// CORRECT, subscribes to changes
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1105,13 +1105,13 @@ class MyWidget extends StatelessWidget {
 ### 3. Forgetting notifyListeners() in Provider
 
 ```dart
-// WRONG — state changes but UI does not update
+// WRONG, state changes but UI does not update
 class Cart extends ChangeNotifier {
   final List<Item> _items = [];
 
   void addItem(Item item) {
     _items.add(item);
-    // Missing: notifyListeners(); — UI will not rebuild
+    // Missing: notifyListeners();, UI will not rebuild
   }
 
   List<Item> get items => List.unmodifiable(_items);
@@ -1131,7 +1131,7 @@ class Cart extends ChangeNotifier {
 ### 4. Creating Providers Inside build()
 
 ```dart
-// WRONG — creates a new provider on every rebuild, breaking state
+// WRONG, creates a new provider on every rebuild, breaking state
 class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1142,7 +1142,7 @@ class MyWidget extends StatelessWidget {
   }
 }
 
-// CORRECT — create providers above the widgets that consume them
+// CORRECT, create providers above the widgets that consume them
 // In a parent widget or main()
 void main() {
   runApp(
@@ -1157,7 +1157,7 @@ void main() {
 ### 5. Over-Rebuilding with BLoC
 
 ```dart
-// WRONG — entire page rebuilds on every state change
+// WRONG, entire page rebuilds on every state change
 BlocBuilder<AuthBloc, AuthState>(
   builder: (context, state) {
     return Scaffold(
@@ -1173,7 +1173,7 @@ BlocBuilder<AuthBloc, AuthState>(
   },
 )
 
-// CORRECT — use BlocBuilder only for the part that depends on state
+// CORRECT, use BlocBuilder only for the part that depends on state
 Scaffold(
   appBar: AppBar(title: const Text('Auth')),
   body: BlocBuilder<AuthBloc, AuthState>(
@@ -1193,7 +1193,7 @@ Scaffold(
 ### 6. Not Disposing Resources in Riverpod
 
 ```dart
-// WRONG — stream subscription leaks
+// WRONG, stream subscription leaks
 final tickerProvider = StreamProvider<int>((ref) {
   return Stream.periodic(
     const Duration(seconds: 1),
@@ -1202,7 +1202,7 @@ final tickerProvider = StreamProvider<int>((ref) {
   // When no widget watches this, the stream subscription is never cancelled
 });
 
-// CORRECT — use autoDispose
+// CORRECT, use autoDispose
 final tickerProvider = StreamProvider.autoDispose<int>((ref) {
   final controller = StreamController<int>();
   final subscription = Stream.periodic(
@@ -1224,13 +1224,13 @@ final tickerProvider = StreamProvider.autoDispose<int>((ref) {
 Using Provider for one feature, Riverpod for another, and raw BLoC for a third creates an
 Inconsistent codebase where developers must understand three systems. Pick one solution for the app
 Layer. It is acceptable to use `setState` for truly local widget state regardless of which solution
-The app uses — `setState` is the correct tool for ephemeral, widget-scoped state like animation
+The app uses, `setState` is the correct tool for ephemeral, widget-scoped state like animation
 Progress or a text field controller.
 
 ### 8. Not Extracting State Logic from Widgets
 
 ```dart
-// WRONG — business logic lives in the widget
+// WRONG, business logic lives in the widget
 class OrderPage extends StatefulWidget {
   @override
   State<OrderPage> createState() => _OrderPageState();
@@ -1257,7 +1257,7 @@ class _OrderPageState extends State<OrderPage> {
   }
 }
 
-// CORRECT — state logic in a notifier, widget only renders
+// CORRECT, state logic in a notifier, widget only renders
 class OrderNotifier extends ChangeNotifier {
   double subtotal = 0;
   double get tax => subtotal * 0.08;
@@ -1274,7 +1274,7 @@ class OrderNotifier extends ChangeNotifier {
 ### 9. Equatable Without Proper Props Implementation
 
 ```dart
-// WRONG — props is empty, so all instances are "equal"
+// WRONG, props is empty, so all instances are "equal"
 class AuthState extends Equatable {
   final User? user;
   final bool isLoading;
@@ -1284,7 +1284,7 @@ class AuthState extends Equatable {
   List<Object?> get props => []; // BUG: every AuthState equals every other
 }
 
-// CORRECT — include all fields that affect equality
+// CORRECT, include all fields that affect equality
 class AuthState extends Equatable {
   final User? user;
   final bool isLoading;

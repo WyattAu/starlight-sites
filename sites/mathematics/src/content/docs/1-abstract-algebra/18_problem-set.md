@@ -204,9 +204,9 @@ Their sizes:
 
 1. $(1)(2)(3)(4)$. Identity. Size: $1$.
 2. $(a\ b)$. Transpositions. Count: $\binom{4}{2} = 6$.
-3. $(a\ b\ c)$ — 3-cycles. Count: $\binom{4}{3} \cdot 2 = 8$.
+3. $(a\ b\ c)$, 3-cycles. Count: $\binom{4}{3} \cdot 2 = 8$.
 4. $(a\ b)(c\ d)$. Double transpositions. Count: $\frac{\binom{4}{2}}{2} = 3$.
-5. $(a\ b\ c\ d)$ — 4-cycles. Count: $3! = 6$.
+5. $(a\ b\ c\ d)$, 4-cycles. Count: $3! = 6$.
 
 Class equation: $|S_4| = 1 + 6 + 8 + 3 + 6 = 24$. ✓ $Z(S_4) = \{e\}$ So $|Z(S_4)| = 1$ And the sum of
 $[S_4 : C_G(x_i)]$ over non-central classes is $6 + 8 + 3 + 6 = 23$. $\blacksquare$

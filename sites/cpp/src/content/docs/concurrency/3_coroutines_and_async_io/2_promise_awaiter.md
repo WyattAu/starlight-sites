@@ -85,7 +85,7 @@ Calls [N4950 §9.5.4.3].
            // control returns to caller/resumer
        } else if constexpr (requires { { a.await_suspend(handle) } -> std::convertible_to<bool>; }) {
            if (!a.await_suspend(handle)) {
-               // immediate resumption — goto resume_point
+               // immediate resumption, goto resume_point
            } else {
                // control returns to caller/resumer
            }
@@ -152,7 +152,7 @@ Caller. The **awaiter type** is the mechanism that controls individual suspensio
 
 | Aspect      | Promise Type                                         | Awaiter Type                                          |
 | :---------- | :--------------------------------------------------- | :---------------------------------------------------- |
-| Lifetime    | Lives for the entire duration of the coroutine frame | Temporary — lives only for the duration of `co_await` |
+| Lifetime    | Lives for the entire duration of the coroutine frame | Temporary, lives only for the duration of `co_await` |
 | Purpose     | Manages coroutine state, return values, exceptions   | Controls individual suspend/resume behavior           |
 | Required by | Every coroutine (via `promise_type` alias)           | Every `co_await` expression                           |
 | Key methods | `get_return_object``initial_suspend``final_suspend`  | `await_ready``await_suspend``await_resume`            |
@@ -445,7 +445,7 @@ int main() {
     t.handle.resume();
     // After resume: coroutine reaches final_suspend which is suspend_never,
     // so the frame is destroyed automatically.
-    // handle is now invalid — do NOT call handle.destroy() again.
+    // handle is now invalid, do NOT call handle.destroy() again.
     // ~ScopedTask checks handle, but the handle is already done.
 }
 ```

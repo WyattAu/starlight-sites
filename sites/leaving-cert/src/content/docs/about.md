@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Leaving Certificate resources — experience, expertise, and credentials behind the Irish Leaving Cert study materials."
+description: "About Wyatt's Notes Leaving Certificate resources, experience, expertise, and credentials behind the Irish Leaving Cert study materials."
 tags:
   - about
   - leaving-cert
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Irish Leaving Certificate
+## About Wyatt's Notes, Irish Leaving Certificate
 
 Wyatt's Notes offers comprehensive study materials for the Irish Leaving Certificate. The Leaving Cert is the final examination of the Irish secondary school system, taken at age 17-18 and serving as the primary entry qualification for Irish and international universities.
 
@@ -32,9 +32,9 @@ Wyatt develops resources across multiple international qualification systems, pr
 
 ## Related Sites
 
-- **[GCSE](https://gcse.wyattau.com)** — UK GCSE qualification materials
-- **[A-Level](https://alevel.wyattau.com)** — UK A-Level qualification resources
-- **[IB](https://ib.wyattau.com)** — International Baccalaureate programme notes
+- **[GCSE](https://gcse.wyattau.com)**, UK GCSE qualification materials
+- **[A-Level](https://alevel.wyattau.com)**, UK A-Level qualification resources
+- **[IB](https://ib.wyattau.com)**, International Baccalaureate programme notes
 
 ## Explore the Site
 

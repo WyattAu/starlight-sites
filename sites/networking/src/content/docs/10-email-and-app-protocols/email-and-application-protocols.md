@@ -33,7 +33,7 @@ Distributed systems.
 The email system is composed of three principal agent types, each operating at different stages of
 The message lifecycle.
 
-**MUA — Mail User Agent**
+**MUA, Mail User Agent**
 
 The MUA is the software interface that end users interact with to compose, read, and manage email
 Messages. Examples include command-line tools like `mutt` and `mailx`Desktop clients such as Mozilla
@@ -42,7 +42,7 @@ handles message composition, MIME encoding, submission to an MTA via SMTP on por
 from a message store via IMAP on port 993 or POP3 on port 995. The MUA is also responsible For local
 message rendering, attachment handling, and the application of local filtering rules.
 
-**MTA — Mail Transfer Agent**
+**MTA, Mail Transfer Agent**
 
 The MTA is responsible for routing and relaying messages between mail systems. MTAs implement the
 SMTP protocol (RFC 5321) and communicate with each other on port 25. Well-known MTAs include
@@ -51,7 +51,7 @@ The destination mail server for a given domain, manages message queues for retry
 Failures, and applies routing policies. The MTA-to-MTA path may involve multiple relay hops before
 The message reaches its final destination MTA.
 
-**MDA — Mail Delivery Agent**
+**MDA, Mail Delivery Agent**
 
 The MDA accepts messages from the MTA and writes them into the recipient"s mailbox store. This may
 Involve writing to a local filesystem format such as mbox (all messages concatenated into one file)
@@ -96,7 +96,7 @@ The body section follows the headers after a blank line. In the simplest case (n
 Plain US-ASCII text. With MIME (RFC 2045–2049), the body can contain multipart structures,
 Alternative representations, and binary attachments.
 
-### MIME — Multipurpose Internet Mail Extensions
+### MIME, Multipurpose Internet Mail Extensions
 
 MIME, defined across RFC 2045 through RFC 2049, extends the RFC 5322 message format to support
 Non-ASCII text, multimedia content, and multi-part message bodies.
@@ -173,7 +173,7 @@ The complete lifecycle of an email message involves five stages:
    manage messages. IMAP allows server-side mailbox manipulation, while POP3 is limited to
    downloading messages to the client.
 
-## SMTP — Simple Mail Transfer Protocol
+## SMTP, Simple Mail Transfer Protocol
 
 ### Overview
 
@@ -389,7 +389,7 @@ Enhanced status code), `Diagnostic-Code` (the SMTP response), `Final-Recipient`A
 These fields allow automated systems and administrators to diagnose delivery failures
 Programmatically.
 
-## IMAP — Internet Message Access Protocol
+## IMAP, Internet Message Access Protocol
 
 ### Overview
 
@@ -594,7 +594,7 @@ S: A006 OK IDLE terminated
 - **OBJECTID (RFC 8474)**: Assigns server-generated, globally unique object identifiers to mailboxes
   and messages, independent of UIDs and UIDVALIDITY, for robust synchronization.
 
-## POP3 — Post Office Protocol version 3
+## POP3, Post Office Protocol version 3
 
 ### Overview
 
@@ -718,7 +718,7 @@ Server-side message management.
 
 ### FTP / FTPS / SFTP
 
-**FTP (File Transfer Protocol)** — RFC 959
+**FTP (File Transfer Protocol)**, RFC 959
 
 FTP uses two separate TCP connections: a control connection (port 21) for commands and responses,
 And a data connection for file transfers. FTP is a plaintext protocol; credentials are transmitted
@@ -736,7 +736,7 @@ IP and port number. The client initiates the data connection to the server. Exte
 (`EPSV`RFC 2428) supports IPv6 by returning only a port number without an IP. Passive mode is the
 Default in modern clients because it works through NAT and firewalls.
 
-**FTPS (FTP over TLS/SSL)** — RFC 4217
+**FTPS (FTP over TLS/SSL)**, RFC 4217
 
 FTPS adds TLS encryption to FTP. Explicit TLS uses the `AUTH TLS` command on port 21, where the
 Client requests the TLS upgrade. Implicit TLS negotiates TLS immediately on connection to port 990.
@@ -744,7 +744,7 @@ FTPS can secure the control channel, the data channel, or both independently via
 (`PROT C` for clear, `PROT S` for safe/encrypted, `PROT E` for confidential). FTPS is complex to
 Configure through firewalls because the data connection uses dynamically negotiated ports.
 
-**SFTP (SSH File Transfer Protocol)** — draft-ietf-secsh-filexfer
+**SFTP (SSH File Transfer Protocol)**, draft-ietf-secsh-filexfer
 
 Despite the name, SFTP is not FTP over SSH. It is an entirely separate protocol that runs over the
 SSH transport (port 22). SFTP provides file transfer, directory listing, file removal, and remote
@@ -753,7 +753,7 @@ Manipulation. SFTP is preferred over FTP/FTPS in modern environments because it 
 Integrity, and authentication through SSH without requiring separate TLS configuration, and it works
 Through firewalls with a single port (22).
 
-### SSH — Secure Shell
+### SSH, Secure Shell
 
 SSH (RFC 4250–4254) provides secure remote access over an untrusted network. It operates on port 22
 And provides three core services: user authentication, remote command execution, and encrypted
@@ -793,7 +793,7 @@ Forwarding (`ssh -R`), and dynamic port forwarding (`ssh -D` for SOCKS proxy). T
 Secure tunneling of arbitrary TCP traffic through the encrypted SSH connection, commonly used to
 Access internal services securely.
 
-### NTP — Network Time Protocol
+### NTP, Network Time Protocol
 
 NTP (RFC 5905) synchronizes system clocks across a network with sub-millisecond accuracy over LAN
 And tens of milliseconds over WAN. It operates on UDP port 123. SNTP (Simple Network Time Protocol,
@@ -841,7 +841,7 @@ Timestamp, originate timestamp, receive timestamp, and transmit timestamp. The c
 Server's transmit timestamp into its next request's originate field, and the server uses this to
 Compute the round-trip delay and offset.
 
-### LDAP — Lightweight Directory Access Protocol
+### LDAP, Lightweight Directory Access Protocol
 
 LDAP (RFC 4510–4519) is an application-layer protocol for accessing and maintaining distributed
 Directory information services. It operates on port 389 for plaintext and port 636 for LDAPS (LDAP
@@ -895,7 +895,7 @@ Complex nested filters and unindexed searches (e.g., `(!(someUnindexedAttr=value
 Full database scans on large directories, causing severe performance degradation. Administrators
 Should monitor slow queries and ensure appropriate indexes are in place.
 
-### SMB/CIFS — Server Message Block / Common Internet File System
+### SMB/CIFS, Server Message Block / Common Internet File System
 
 SMB (originating from IBM, then Microsoft, with IETF drafts) is a file-sharing protocol primarily
 Used in Windows environments. CIFS is an older dialect of SMB. Modern implementations use SMB 2.0
@@ -935,7 +935,7 @@ Samba provides SMB/CIFS client and server functionality on Linux and other Unix 
 For mounting SMB shares. Samba implements an Active Directory domain controller, file server, print
 Server, and Winbind (for Linux-to-Windows authentication integration).
 
-### NFS — Network File System
+### NFS, Network File System
 
 NFS, developed by Sun Microsystems, allows remote filesystem access over a network. Current versions
 Are NFSv4.1 (RFC 8881) and NFSv4.2 (RFC 7862). NFS is RPC-based (Remote Procedure Call, RFC 5531)
@@ -973,7 +973,7 @@ Plus integrity plus privacy/encryption).
 
 ## Email Security
 
-### SPF — Sender Policy Framework
+### SPF, Sender Policy Framework
 
 SPF (RFC 7208) allows a domain owner to specify which mail servers are authorized to send email on
 Behalf of the domain. The policy is published as a DNS TXT record on the domain.
@@ -1011,7 +1011,7 @@ Because the forwarding server's IP address is unlikely to be listed in the origi
 Record. Additionally, SPF has a 10-lookup limit to prevent DNS abuse; complex `include` chains can
 Exhaust this limit.
 
-### DKIM — DomainKeys Identified Mail
+### DKIM, DomainKeys Identified Mail
 
 DKIM (RFC 6376) provides cryptographic assurance that a message was sent by an authorized
 Representative of the signing domain and that the message content has not been modified in transit.
@@ -1068,7 +1068,7 @@ Made by intermediate MTAs that may reflow or rewrap headers.
 The `c=` field specifies header and body canonicalization separately (e.g., `c=relaxed/relaxed` is
 The most common and forgiving combination).
 
-### DMARC — Domain-based Message Authentication, Reporting, and Conformance
+### DMARC, Domain-based Message Authentication, Reporting, and Conformance
 
 DMARC (RFC 7489) builds on SPF and DKIM to provide a policy framework that aligns the visible `From`
 Header domain with the authenticated domain. DMARC also provides reporting mechanisms so domain
@@ -1175,7 +1175,7 @@ The symmetrically encrypted data (`application/octet-stream`). `multipart/signed
 Message content and a detached signature (`application/pgp-signature`) that covers the content using
 The same signing algorithms as DKIM but applied to the full message rather than selected headers.
 
-PGP provides confidentiality (encryption), integrity (MDC — Modification Detection Code),
+PGP provides confidentiality (encryption), integrity (MDC, Modification Detection Code),
 Authentication (digital signatures), and non-repudiation. Key revocation is handled via revocation
 Certificates that are published to keyservers.
 
@@ -1215,7 +1215,7 @@ Progress on S/MIME support in their respective email platforms, and the Autocryp
 (RFC 8551) provides an automated key discovery and exchange mechanism for OpenPGP that reduces user
 Friction.
 
-### DNS Records for Email — Summary
+### DNS Records for Email, Summary
 
 A complete email domain configuration requires DNS records for mail routing and authentication:
 
@@ -1243,18 +1243,18 @@ _mta-sts.example.com. IN TXT "v=STSv1; id=2026040901"
 
 | Protocol          | Port (Plain) | Port (TLS)     | Transport |
 | ----------------- | ------------ | -------------- | --------- |
-| SMTP (relay)      | 25           | —              | TCP       |
+| SMTP (relay)      | 25           |,              | TCP       |
 | SMTP (submission) | 587          | 465 (implicit) | TCP       |
 | IMAP              | 143          | 993            | TCP       |
 | POP3              | 110          | 995            | TCP       |
 | FTP (control)     | 21           | 990 (implicit) | TCP       |
 | FTPS (data)       | dynamic      | dynamic        | TCP       |
-| SFTP              | —            | 22 (SSH)       | TCP       |
-| SSH               | 22           | —              | TCP       |
-| NTP               | 123          | —              | UDP       |
+| SFTP              |,            | 22 (SSH)       | TCP       |
+| SSH               | 22           |,              | TCP       |
+| NTP               | 123          |,              | UDP       |
 | LDAP              | 389          | 636            | TCP       |
-| SMB               | 445          | —              | TCP       |
-| NFS               | 2049         | —              | TCP       |
+| SMB               | 445          |,              | TCP       |
+| NFS               | 2049         |,              | TCP       |
 | DNS               | 53           | 853 (DoT)      | UDP/TCP   |
 
 ## Common Pitfalls

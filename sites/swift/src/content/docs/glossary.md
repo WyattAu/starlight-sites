@@ -1,6 +1,6 @@
 ---
-title: "Swift Glossary — Key Terms and Definitions"
-description: "Study notes for Swift Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Swift Glossary, Key Terms and Definitions"
+description: "Study notes for Swift Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -140,7 +140,7 @@ protocol Drawable {
 
 **Escaping Closure**: A closure that outlives the function it was passed to, marked with `@escaping`.
 
-**Non-Escaping Closure**: The default — a closure that executes within the function scope.
+**Non-Escaping Closure**: The default, a closure that executes within the function scope.
 
 ## SwiftUI
 
@@ -174,7 +174,7 @@ protocol Drawable {
 
 **Scene**: Represents a screen in the app (window, tab, etc.).
 
-**Lifecycle**: The stages an app goes through — launch, active, background, terminated.
+**Lifecycle**: The stages an app goes through, launch, active, background, terminated.
 
 **SwiftData**: Apple's modern persistence framework, replacing Core Data, using the `@Model` macro.
 

@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Further Algebra — Diagnostic Tests
+## Further Algebra, Diagnostic Tests
 
 ## Unit Tests
 
@@ -213,7 +213,7 @@ $\{0, 1, -1\}$.
 
 ## Common Mistakes
 
-**Confusing matrix multiplication order:** Matrix multiplication is not commutative: $AB \neq BA$ as a rule. When computing $M^2$ or $MN$, always multiply in the correct order. For $M^2 = M \times M$, the rows of the first $M$ multiply the columns of the second $M$ — getting the order wrong gives a completely different result.
+**Confusing matrix multiplication order:** Matrix multiplication is not commutative: $AB \neq BA$ as a rule. When computing $M^2$ or $MN$, always multiply in the correct order. For $M^2 = M \times M$, the rows of the first $M$ multiply the columns of the second $M$, getting the order wrong gives a completely different result.
 
 **Forgetting that $\det(AB) = \det(A)\det(B)$ but $\det(A+B) \neq \det(A) + \det(B)$:** The determinant of a product is the product of determinants, but the determinant of a sum has no simple relationship. Students often try to distribute the determinant over addition, which is incorrect. Always compute $A + B$ first, then take the determinant.
 

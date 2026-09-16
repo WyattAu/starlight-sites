@@ -27,7 +27,7 @@ categories:
 We define **Gross Domestic Product (GDP)** as the total monetary value of all final goods and
 Services produced within a country's borders during a given time period.
 
-"Final" goods and services are those purchased for final consumption or investment — intermediate
+"Final" goods and services are those purchased for final consumption or investment, intermediate
 Goods are excluded to avoid double counting.
 
 ### 1.2 Three Approaches to Measuring GDP
@@ -198,7 +198,7 @@ Loop.
 
 :::note
 to focus on CPI alone but may ask about measurement issues more broadly. OCR may ask about the
-implications of Using RPI for index-linked bonds — since RPI overstates inflation, bondholders
+implications of Using RPI for index-linked bonds, since RPI overstates inflation, bondholders
 receive higher Payments, increasing government debt costs.
 :::
 ### 2.3 Causes of Inflation
@@ -245,7 +245,7 @@ Depreciation (imported inflation), higher taxes.
 ### 2.5 Real-World Application: UK Inflation History (2021-2023)
 
 The UK experienced a dramatic inflation spike following the COVID-19 pandemic, peaking at 11.1% in
-October 2022 — the highest rate in 41 years. The causes were predominantly cost-push:
+October 2022, the highest rate in 41 years. The causes were predominantly cost-push:
 
 - **Energy prices**: Russia's invasion of Ukraine (February 2022) caused a sharp increase in oil and
   gas prices. The UK's Ofgem energy price cap rose from £1,277 (October 2021) to £2,500 (October
@@ -272,7 +272,7 @@ When evaluating the costs of inflation, context matters enormously:
 
 - **The rate matters**: The costs listed above apply primarily to **high and unpredictable**
   inflation. Moderate, stable inflation (around 2%) is generally considered benign or even
-  beneficial — it creates a "grease in the wheels" of the labour market by allowing real wage
+  beneficial, it creates a "grease in the wheels" of the labour market by allowing real wage
   adjustments without nominal wage cuts (workers are more willing to accept a 1% nominal pay rise
   when inflation is 2% than a 1% nominal pay cut when inflation is 0%).
 - **Anticipation matters**: Fully anticipated inflation causes fewer distortions because contracts,
@@ -285,7 +285,7 @@ When evaluating the costs of inflation, context matters enormously:
   catastrophically destructive: it destroys the functions of money as a medium of exchange and store
   of value, leading to barter and social collapse.
 
-**Exam conclusion**: The costs of inflation are highly non-linear — small increases above the target
+**Exam conclusion**: The costs of inflation are highly non-linear, small increases above the target
 Are manageable, but once inflation becomes entrenched and expectations de-anchor, the costs escalate
 Rapidly, making it much harder and more painful to bring inflation back down.
 
@@ -314,7 +314,7 @@ Discouraged workers, homemakers).
 | **Real-wage**  | Wages above equilibrium (minimum wage, union power)         | Reduce wage rigidity                                  |
 
 **Natural rate of unemployment (NAIRU)**: the rate of unemployment consistent with stable inflation
-— the sum of frictional and structural unemployment.
+- the sum of frictional and structural unemployment.
 
 $$u^* = u_{frictional} + u_{structural}$$
 
@@ -336,7 +336,7 @@ Use expansionary fiscal and monetary policy to boost AD and close the output gap
   England, South Wales) with mismatched skills
 - **Globalisation**: offshoring of manufacturing to lower-cost countries (e.g., China, Vietnam)
 
-**Frictional unemployment** is the least concerning type and may even be economically desirable — it
+**Frictional unemployment** is the least concerning type and may even be economically desirable, it
 Reflects workers searching for the best job match, which improves allocative efficiency in the
 Labour market. The internet and job platforms (Indeed, LinkedIn) have reduced search costs,
 Potentially lowering frictional unemployment.
@@ -378,15 +378,15 @@ Policy response:
 
 - **The shock**: UK GDP fell by 9.7% in 2020, the largest annual decline in over 300 years.
   Unemployment would have been expected to rise dramatically.
-- **The actual outcome**: The unemployment rate peaked at only 5.2% in late 2020 — far below the
+- **The actual outcome**: The unemployment rate peaked at only 5.2% in late 2020, far below the
   8.5% seen during the 2008-09 crisis.
 - **Why? The furlough scheme**: The government's Coronavirus Job Retention Scheme paid up to 80% of
   wages (capped at GBP 2,500 per month) for workers who could not work. At its peak, nearly 12
-  million jobs were furloughed — around one-third of the workforce.
+  million jobs were furloughed, around one-third of the workforce.
 - **Implications**: The furlough scheme effectively converted what would have been cyclical
   unemployment into temporary inactivity. Workers remained attached to their employers, avoiding the
   scarring effects (hysteresis) of long-term unemployment. However, the scheme was extremely
-  expensive — costing approximately GBP 70 billion — and some economists argue it delayed necessary
+  expensive, costing approximately GBP 70 billion, and some economists argue it delayed necessary
   labour market restructuring.
 - **Sectoral impacts**: Hospitality, retail, and travel were worst affected, while professional
   services and technology sectors adapted quickly (remote work).
@@ -474,7 +474,7 @@ Was approximately 3% of GDP. This persistence raises important questions:
 - **Services strength**: the UK is the world's second-largest exporter of services (after the US),
   with strengths in financial services, legal services, education, and creative industries. London's
   role as a global financial centre generates substantial invisible export earnings.
-- **Financing**: the deficit is financed by capital inflows — foreign direct investment into the UK,
+- **Financing**: the deficit is financed by capital inflows, foreign direct investment into the UK,
   portfolio investment in UK assets, and deposits in UK banks. This is sustainable as long as the UK
   remains an attractive destination for foreign capital.
 - **Post-Brexit concerns**: leaving the EU Single Market introduced trade frictions that could
@@ -524,7 +524,7 @@ Friedman (1968) and Phelps (1967) argued that the Phillips curve is vertical in 
 Natural rate of unemployment.
 
 _Proof._ If the government tries to maintain $u \lt u^*$ through expansionary policy, inflation
-Rises. Initially, workers suffer from **money illusion** — they accept nominal wage increases not
+Rises. Initially, workers suffer from **money illusion**, they accept nominal wage increases not
 Realising prices are rising faster. Real wages fall, firms hire more. But eventually, workers update
 Their inflation expectations ($\pi^e$ rises). They demand higher nominal wages to compensate. Real
 Wages return to their original level, and employment falls back to $u^*$. The economy moves up along
@@ -548,12 +548,12 @@ The Phillips curve relationship has been far less stable in practice than theory
 - **1970s stagflation**: Both inflation and unemployment rose simultaneously in the UK and US,
   seemingly contradicting the inverse relationship. This was caused by supply-side oil shocks (OPEC,
   1973 and 1979) combined with expansionary policy, and is explained by the expectations-augmented
-  Phillips curve — the short-run curve shifted outward as expectations adjusted.
+  Phillips curve, the short-run curve shifted outward as expectations adjusted.
 - **1990s-2000s Great Moderation**: Both inflation and unemployment fell in many advanced economies,
   suggesting a favourable shift in the Phillips curve (possibly due to globalisation, technology,
   and anchored inflation expectations).
 - **Post-2008**: Despite near-zero interest rates and quantitative easing, inflation remained
-  stubbornly low in many advanced economies, suggesting the Phillips curve had "flattened" — changes
+  stubbornly low in many advanced economies, suggesting the Phillips curve had "flattened", changes
   in unemployment had a smaller effect on inflation than previously estimated.
 - **Post-2021**: The rapid return of inflation alongside falling unemployment reignited debate about
   whether the Phillips curve had steepened again, or whether the inflation was primarily
@@ -693,7 +693,7 @@ Statement with reference to at least four limitations of GDP as a welfare measur
 
 <details>
 <summary>Hint</summary>
-Four limitations: (1) Inequality — GDP per capita is an average; high average may coexist with extreme poverty. (2) Environmental degradation — China's rapid GDP growth came with severe pollution. (3) Unpaid work — countries with large informal sectors (e.g., India) undercount economic activity. (4) Health and education — Saudi Arabia has high GDP per capita but ranks lower on HDI due to gender inequality in education. (5) Leisure — GDP doesn't value free time; a country with longer working hours has higher GDP but not necessarily better well-being.
+Four limitations: (1) Inequality, GDP per capita is an average; high average may coexist with extreme poverty. (2) Environmental degradation, China's rapid GDP growth came with severe pollution. (3) Unpaid work, countries with large informal sectors (e.g., India) undercount economic activity. (4) Health and education, Saudi Arabia has high GDP per capita but ranks lower on HDI due to gender inequality in education. (5) Leisure, GDP doesn't value free time; a country with longer working hours has higher GDP but not necessarily better well-being.
 </details>
 
 **Problem 7.** Explain the difference between demand-pull and cost-push inflation using AD/AS
@@ -709,7 +709,7 @@ The concept of the NAIRU and the different types of unemployment.
 
 <details>
 <summary>Hint</summary>
-False. The natural rate is positive because frictional unemployment (time to search for jobs) and structural unemployment (skill/location mismatches) always exist. A zero unemployment rate would mean: (1) no one ever leaves a job voluntarily (no frictional), (2) every worker's skills perfectly match every vacancy (no structural). Both are impossible. Some unemployment is *efficient* — it allows better job matching and resource reallocation. However, the natural rate can be reduced through better information, training, and labour market flexibility.
+False. The natural rate is positive because frictional unemployment (time to search for jobs) and structural unemployment (skill/location mismatches) always exist. A zero unemployment rate would mean: (1) no one ever leaves a job voluntarily (no frictional), (2) every worker's skills perfectly match every vacancy (no structural). Both are impossible. Some unemployment is *efficient*, it allows better job matching and resource reallocation. However, the natural rate can be reduced through better information, training, and labour market flexibility.
 </details>
 
 **Problem 9.** Explain why deflation can be more damaging than moderate inflation. In your answer,
@@ -734,7 +734,7 @@ Statement.
 
 <details>
 <summary>Hint</summary>
-Not necessarily. A deficit can reflect: (1) Strong domestic demand — consumers are confident and spending, including on imports. (2) Investment — importing capital goods for future growth (China ran deficits during its industrialisation). (3) Attractive investment destination — capital inflows finance the deficit. However, persistent deficits financed by borrowing are concerning: (1) Growing external debt. (2) Loss of competitiveness (structural deficit). (3) Speculative attacks on the currency. The UK has run a persistent current account deficit for decades, financed by London's status as a financial centre.
+Not necessarily. A deficit can reflect: (1) Strong domestic demand, consumers are confident and spending, including on imports. (2) Investment, importing capital goods for future growth (China ran deficits during its industrialisation). (3) Attractive investment destination, capital inflows finance the deficit. However, persistent deficits financed by borrowing are concerning: (1) Growing external debt. (2) Loss of competitiveness (structural deficit). (3) Speculative attacks on the currency. The UK has run a persistent current account deficit for decades, financed by London's status as a financial centre.
 </details>
 
 **Problem 12.** Explain how the four macroeconomic objectives are interrelated, illustrating your
@@ -752,7 +752,7 @@ Explain why regular basket updates are important.
 
 <details>
 <summary>Hint</summary>
-Old inflation $= 0.083(12\%) + 0.917(3\%) = 0.996\% + 2.751\% = 3.75\%$. New inflation $= 0.105(12\%) + 0.895(3\%) = 1.26\% + 2.685\% = 3.94\%$. The difference is $3.94\% - 3.75\% = 0.19$ percentage points. Basket updates matter because consumer spending patterns change over time — if households spend a larger share of their income on food, the inflation they actually experience will be higher than the old basket suggests. Failure to update the basket creates **substitution bias** (overstating inflation for items becoming less important and understating it for items becoming more important). This is why the ONS updates the CPI basket annually.
+Old inflation $= 0.083(12\%) + 0.917(3\%) = 0.996\% + 2.751\% = 3.75\%$. New inflation $= 0.105(12\%) + 0.895(3\%) = 1.26\% + 2.685\% = 3.94\%$. The difference is $3.94\% - 3.75\% = 0.19$ percentage points. Basket updates matter because consumer spending patterns change over time, if households spend a larger share of their income on food, the inflation they actually experience will be higher than the old basket suggests. Failure to update the basket creates **substitution bias** (overstating inflation for items becoming less important and understating it for items becoming more important). This is why the ONS updates the CPI basket annually.
 </details>
 
 **Problem 14.** A country has a labour force of 33 million. The natural rate of unemployment is
@@ -762,7 +762,7 @@ Cyclical unemployment, and (c) explain two reasons why $\beta$ might differ acro
 
 <details>
 <summary>Hint</summary>
-(a) Cyclical unemployment $= 7.2\% - 4.5\% = 2.7\%$. Output gap $= -2.2 \times 2.7\% = -5.94\%$. (b) GDP loss $= 5.94\% \times 3.1$ trillion $= $GBP 184.1 billion. (c) $\beta$ varies across countries because of: (1) Labour market flexibility — countries with flexible wages (e.g., the US) may see output fall less for a given rise in unemployment (higher $\beta$), while countries with rigid wages (e.g., many European nations) may see more underemployment (workers reducing hours rather than losing jobs), leading to a lower $\beta$. (2) The size of the informal sector — in countries with large informal sectors, formal unemployment may rise sharply while output falls less (because informal work absorbs displaced workers).
+(a) Cyclical unemployment $= 7.2\% - 4.5\% = 2.7\%$. Output gap $= -2.2 \times 2.7\% = -5.94\%$. (b) GDP loss $= 5.94\% \times 3.1$ trillion $= $GBP 184.1 billion. (c) $\beta$ varies across countries because of: (1) Labour market flexibility, countries with flexible wages (e.g., the US) may see output fall less for a given rise in unemployment (higher $\beta$), while countries with rigid wages (e.g., many European nations) may see more underemployment (workers reducing hours rather than losing jobs), leading to a lower $\beta$. (2) The size of the informal sector, in countries with large informal sectors, formal unemployment may rise sharply while output falls less (because informal work absorbs displaced workers).
 </details>
 
 **Problem 15.** "A fall in the value of sterling will automatically correct the UK's current account
@@ -771,7 +771,7 @@ Effect.
 
 <details>
 <summary>Hint</summary>
-A fall in sterling makes UK exports cheaper abroad and imports dearer at home, which should improve the current account. However, whether this actually happens depends on the **Marshall-Lerner condition**: the sum of the price elasticities of demand for exports and imports must exceed 1 (in absolute value). In the short run, demand tends to be inelastic (consumers and firms have fixed contracts and cannot quickly switch suppliers), so the current account may initially worsen — the **J-curve effect**. The deficit worsens because the same volume of imports now costs more in sterling terms. Only after several months or years, as consumers and firms adjust, does the current account improve. Additionally, if UK firms face capacity constraints, they may not be able to increase export volumes even at lower prices, limiting the correction. Evaluation: the exchange rate is a necessary but not sufficient condition for current account adjustment.
+A fall in sterling makes UK exports cheaper abroad and imports dearer at home, which should improve the current account. However, whether this actually happens depends on the **Marshall-Lerner condition**: the sum of the price elasticities of demand for exports and imports must exceed 1 (in absolute value). In the short run, demand tends to be inelastic (consumers and firms have fixed contracts and cannot quickly switch suppliers), so the current account may initially worsen, the **J-curve effect**. The deficit worsens because the same volume of imports now costs more in sterling terms. Only after several months or years, as consumers and firms adjust, does the current account improve. Additionally, if UK firms face capacity constraints, they may not be able to increase export volumes even at lower prices, limiting the correction. Evaluation: the exchange rate is a necessary but not sufficient condition for current account adjustment.
 </details>
 
 **Problem 16.** The UK inflation rate was 0.9% in 2020, 2.6% in 2021, 9.1% in 2022, and 7.3%
@@ -781,7 +781,7 @@ Of raising interest rates as a response.
 
 <details>
 <summary>Hint</summary>
-The Bank of England feared that if inflation remained high for an extended period, workers and firms would adjust their inflation expectations upwards. Once $\pi^e$ rises, the short-run Phillips curve shifts upward: for any given unemployment rate, inflation will be higher. This creates a vicious cycle — higher expected inflation leads to higher wage demands, which push costs and prices up further, validating the higher expectations. If expectations become de-anchored, bringing inflation back down requires a much larger increase in unemployment (a painful disinflation). Raising interest rates works by reducing aggregate demand, increasing unemployment, and creating slack in the economy, which puts downward pressure on wages and prices. Effectiveness evaluation: (1) interest rate hikes work with a lag of 12-18 months, making timing difficult; (2) they also reduce investment and growth, creating a recessionary trade-off; (3) if inflation is primarily cost-push (energy prices, supply chains), demand-side tools may be less effective — this is the "stagflation" problem. The Bank of England ultimately raised rates to 5.25%, and inflation fell to near 2% by mid-2024, but this was partly due to the resolution of supply-side pressures (falling energy prices) rather than the demand reduction alone.
+The Bank of England feared that if inflation remained high for an extended period, workers and firms would adjust their inflation expectations upwards. Once $\pi^e$ rises, the short-run Phillips curve shifts upward: for any given unemployment rate, inflation will be higher. This creates a vicious cycle, higher expected inflation leads to higher wage demands, which push costs and prices up further, validating the higher expectations. If expectations become de-anchored, bringing inflation back down requires a much larger increase in unemployment (a painful disinflation). Raising interest rates works by reducing aggregate demand, increasing unemployment, and creating slack in the economy, which puts downward pressure on wages and prices. Effectiveness evaluation: (1) interest rate hikes work with a lag of 12-18 months, making timing difficult; (2) they also reduce investment and growth, creating a recessionary trade-off; (3) if inflation is primarily cost-push (energy prices, supply chains), demand-side tools may be less effective, this is the "stagflation" problem. The Bank of England ultimately raised rates to 5.25%, and inflation fell to near 2% by mid-2024, but this was partly due to the resolution of supply-side pressures (falling energy prices) rather than the demand reduction alone.
 </details>
 
 :::danger
@@ -808,9 +808,9 @@ The Bank of England feared that if inflation remained high for an extended perio
 
 2. **Misidentifying types of unemployment.** The most common error is classifying all unemployment as cyclical. Structural unemployment (skills mismatch) and frictional unemployment (job search time) always exist even at full employment. The natural rate of unemployment is never zero.
 
-3. **Confusing deficit with debt.** A budget deficit is a flow (annual shortfall), while national debt is a stock (accumulated total). Reducing the deficit does not reduce the debt — it merely slows its rate of growth. Only a budget surplus reduces the debt.
+3. **Confusing deficit with debt.** A budget deficit is a flow (annual shortfall), while national debt is a stock (accumulated total). Reducing the deficit does not reduce the debt, it merely slows its rate of growth. Only a budget surplus reduces the debt.
 
-4. **Misinterpreting the Phillips curve as a stable trade-off.** The short-run Phillips curve shifts when inflation expectations change. A government cannot permanently exploit the inflation-unemployment trade-off — attempting to do so only produces accelerating inflation in the long run.
+4. **Misinterpreting the Phillips curve as a stable trade-off.** The short-run Phillips curve shifts when inflation expectations change. A government cannot permanently exploit the inflation-unemployment trade-off, attempting to do so only produces accelerating inflation in the long run.
 
 5. **Confusing GDP per capita with living standards.** GDP per capita is an average that ignores income distribution, environmental quality, leisure, and unpaid work. A country can have high GDP per capita but poor health outcomes, high inequality, and low quality of life.
 
@@ -1411,6 +1411,6 @@ each approach.
 
 ## Intuition
 
-GDP is the economy's scoreboard — it measures the total value of everything produced in a country. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them). All three methods (output, income, expenditure) give the same result because every pound spent becomes someone's income, which corresponds to output produced.
+GDP is the economy's scoreboard, it measures the total value of everything produced in a country. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them). All three methods (output, income, expenditure) give the same result because every pound spent becomes someone's income, which corresponds to output produced.
 
-The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. CPI measures the cost of a fixed basket of goods — it overstates inflation because people substitute away from goods that become relatively more expensive. Unemployment rate tells you what fraction of the labour force wants to work but can't find a job. These three indicators — GDP growth, inflation, and unemployment — are the vital signs of the economy.
+The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. CPI measures the cost of a fixed basket of goods, it overstates inflation because people substitute away from goods that become relatively more expensive. Unemployment rate tells you what fraction of the labour force wants to work but can't find a job. These three indicators, GDP growth, inflation, and unemployment, are the vital signs of the economy.

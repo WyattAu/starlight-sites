@@ -77,11 +77,11 @@ the explanation.
 
 **Why it matters:** Kotlin's modern features (null safety, smart casts, extension functions) make it more productive than Java for most use cases.
 
-**The key insight:** val vs var is not just about mutability — preferring val makes code easier to reason about and test because you know values will not change.
+**The key insight:** val vs var is not just about mutability, preferring val makes code easier to reason about and test because you know values will not change.
 
 ## Common Mistakes
 
-**Confusing `val` and `var`:** `val` declares an immutable reference (read-only after assignment). `var` declares a mutable reference. Prefer `val` everywhere possible — immutable code is easier to reason about and thread-safe by default.
+**Confusing `val` and `var`:** `val` declares an immutable reference (read-only after assignment). `var` declares a mutable reference. Prefer `val` everywhere possible, immutable code is easier to reason about and thread-safe by default.
 
 **Forgetting that Kotlin nulls are explicit:** `String?` can hold null; `String` cannot. Forgetting the `?` means the variable cannot be null, and assigning null to it is a compile error. Use `?.` (safe call) and `?:` (Elvis operator) to handle nullable types.
 

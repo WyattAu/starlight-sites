@@ -16,11 +16,11 @@ description: "Study notes for Graph Algorithms with worked examples, practice pr
 
 ## Intuition
 
-**Finding the best path through a maze:** Graph algorithms are like navigating a city — Dijkstra finds the fastest route, BFS finds the nearest hospital, and minimum spanning trees connect all buildings with the least road construction. Each algorithm answers a different "best path" question.
+**Finding the best path through a maze:** Graph algorithms are like navigating a city, Dijkstra finds the fastest route, BFS finds the nearest hospital, and minimum spanning trees connect all buildings with the least road construction. Each algorithm answers a different "best path" question.
 
 **Why it matters:** Graph algorithms power GPS navigation, social network analysis, network routing, and countless other applications. Understanding them lets you solve problems involving relationships and connectivity efficiently.
 
-**The key insight:** Dijkstra greedy strategy works because shortest paths have optimal substructure — the shortest path from A to C through B is the shortest path from A to B plus the shortest path from B to C.
+**The key insight:** Dijkstra greedy strategy works because shortest paths have optimal substructure, the shortest path from A to C through B is the shortest path from A to B plus the shortest path from B to C.
 
 ## Shortest Paths
 
@@ -317,7 +317,7 @@ def prim(n, graph):
     Prim's MST algorithm using adjacency list.
     Time: O((V + E) log V) with binary heap
     Space: O(V + E)
-    graph: adjacency list {vertex: [(neighbour, weight), ...]}
+    graph: adjacency list {vertex: [(neighbour, weight)...]}
     """
     import heapq
     visited = [False] * n
@@ -756,14 +756,14 @@ Graph code.
 ### 7. Modifying Graph During Traversal
 
 Modifying the graph structure (adding/removing vertices or edges) during BFS/DFS traversal leads to
-Undefined behaviour — vertices may be skipped or processed multiple times. If you need to modify the
+Undefined behaviour, vertices may be skipped or processed multiple times. If you need to modify the
 Graph, collect the modifications and apply them after the traversal completes.
 
 ### 8. Ignoring Edge Cases in Flow Networks
 
 Ford-Fulkerson may not terminate with irrational capacities (the flow can converge without reaching
 The maximum). Edmonds-Karp (BFS-based) always terminates with $O(VE^2)$ complexity. For integer
-Capacities, Ford-Fulkerson terminates in $O(E \cdot f^*)$ where $f^*$ is the max flow value — this
+Capacities, Ford-Fulkerson terminates in $O(E \cdot f^*)$ where $f^*$ is the max flow value, this
 Can be exponential. Always use Edmonds-Karp or Dinic's algorithm unless you have a specific reason
 Not to.
 

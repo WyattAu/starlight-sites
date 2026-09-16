@@ -20,15 +20,15 @@ Welcome to the physics notes. These notes cover undergraduate physics, from clas
 
 ## Intuition
 
-**Understanding the rules of the universe:** Physics is the most fundamental science — it describes the rules that govern everything from subatomic particles to galaxies. It is the science of "how things work" at the deepest level.
+**Understanding the rules of the universe:** Physics is the most fundamental science, it describes the rules that govern everything from subatomic particles to galaxies. It is the science of "how things work" at the deepest level.
 
-**Why it matters:** Physics underpins all technology — from the semiconductors in your phone to the GPS satellites that guide your navigation. Understanding physics gives you the tools to model, predict, and engineer the physical world.
+**Why it matters:** Physics underpins all technology, from the semiconductors in your phone to the GPS satellites that guide your navigation. Understanding physics gives you the tools to model, predict, and engineer the physical world.
 
-**The key insight:** Physics progresses by finding unifications — electricity and magnetism became electromagnetism, thermodynamics and mechanics became statistical mechanics, and general relativity and quantum mechanics are still waiting to be unified.
+**The key insight:** Physics progresses by finding unifications, electricity and magnetism became electromagnetism, thermodynamics and mechanics became statistical mechanics, and general relativity and quantum mechanics are still waiting to be unified.
 
 ## Why This Matters
 
-Physics describes the fundamental laws governing the universe — from the motion of galaxies to the behaviour of subatomic particles. Classical mechanics provides the framework for understanding macroscopic motion, electromagnetism unifies electricity and magnetism into a single force, quantum mechanics reveals the probabilistic nature of reality at small scales, and statistical mechanics bridges microscopic behaviour to thermodynamic observables.
+Physics describes the fundamental laws governing the universe, from the motion of galaxies to the behaviour of subatomic particles. Classical mechanics provides the framework for understanding macroscopic motion, electromagnetism unifies electricity and magnetism into a single force, quantum mechanics reveals the probabilistic nature of reality at small scales, and statistical mechanics bridges microscopic behaviour to thermodynamic observables.
 
 ## What You Will Find
 
@@ -65,11 +65,11 @@ Physics describes the fundamental laws governing the universe — from the motio
 
 ## Exam Strategy
 
-1. **Draw free-body diagrams** — even simple problems benefit from identifying all forces before writing equations.
-2. **Check units before and after** — dimensional analysis catches algebra errors instantly.
-3. **Identify conserved quantities** — energy, momentum, and angular momentum conservation often bypass complex algebra.
-4. **Approximate before calculating** — physics is about models; identify which terms dominate and which can be neglected.
-5. **Verify limits** — does your answer reduce to the expected result when a parameter goes to zero or infinity?
+1. **Draw free-body diagrams**, even simple problems benefit from identifying all forces before writing equations.
+2. **Check units before and after**, dimensional analysis catches algebra errors instantly.
+3. **Identify conserved quantities**, energy, momentum, and angular momentum conservation often bypass complex algebra.
+4. **Approximate before calculating**, physics is about models; identify which terms dominate and which can be neglected.
+5. **Verify limits**, does your answer reduce to the expected result when a parameter goes to zero or infinity?
 
 ## Common Mistakes
 

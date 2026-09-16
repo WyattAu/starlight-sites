@@ -1,7 +1,7 @@
 ---
 
 title: "Class Modifiers"
-description: "Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,"
+description: "Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,"
 date: 2026-04-05T00:00:00.000Z
 tags:
   - Dart
@@ -21,7 +21,7 @@ categories:
 
 ## Overview of Class Modifiers
 
-Dart 3 introduces class modifiers — keywords that restrict how a class can be used by other
+Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other
 Libraries. Before Dart 3, any class could be extended, implemented, or mixed in by any library. This
 Was a design choice inherited from Smalltalk: maximum flexibility, minimum restriction.
 
@@ -31,7 +31,7 @@ Designed as a pure interface could be `extend`-ed (coupling to implementation de
 Designed as a leaf could be subclassed (breaking invariants).
 
 Class modifiers solve this by giving library authors explicit control over the inheritance contract.
-They are compile-time constraints — the compiler enforces them, not runtime checks.
+They are compile-time constraints, the compiler enforces them, not runtime checks.
 
 ### The Modifier Matrix
 
@@ -64,7 +64,7 @@ Before Dart 3, a user could do this:
 class MyListenable extends Listenable {
   @override
   void addListener(VoidCallback listener) {
-    // Breaks your invariant — skips registration
+    // Breaks your invariant, skips registration
   }
 }
 ```
@@ -80,7 +80,7 @@ interface class Listenable {
 // User's library
 class MyListenable extends Listenable {} // COMPILE ERROR
 class MyListenable implements Listenable {
-  // Must provide ALL methods — no inherited behavior to break
+  // Must provide ALL methods, no inherited behavior to break
   @override
   void addListener(VoidCallback listener) { /* ... */ }
   @override
@@ -114,7 +114,7 @@ Enumerate subtypes for exhaustive switch.
 
 ## `base`
 
-Prevents a class from being `implement`-ed outside the library. External code must use `extends` —
+Prevents a class from being `implement`-ed outside the library. External code must use `extends`
 They cannot duck-type the interface.
 
 ### Syntax and Semantics
@@ -126,16 +126,16 @@ base class Shape {
   int get area;
 }
 
-// User's library — same package, different library
+// User's library, same package, different library
 import 'shapes.dart';
 
-// OK — extends, inherits behavior
+// OK, extends, inherits behavior
 class Circle extends Shape {
   @override
   int get area => pi * radius * radius;
 }
 
-// COMPILE ERROR — cannot implement a base class
+// COMPILE ERROR, cannot implement a base class
 class Square implements Shape {
   @override
   void draw() { /* user's implementation */ }
@@ -153,7 +153,7 @@ Inheritance, its methods may rely on internal invariants. If a user `implement`S
 Consider:
 
 ```dart
-// Your library — designed for extension
+// Your library, designed for extension
 base class Resource {
   bool _isInitialized = false;
 
@@ -177,10 +177,10 @@ class MyResource implements Resource {
   @override
   void initialize() { /* user skips your setup */ }
   @override
-  void use() { /* no initialization check — invariant broken */ }
+  void use() { /* no initialization check, invariant broken */ }
 }
 
-// With 'base', user MUST extend — they get your invariant checks
+// With 'base', user MUST extend, they get your invariant checks
 class MyResource extends Resource {
   // They override specific behavior but your invariant enforcement remains
   @override
@@ -198,7 +198,7 @@ base class Animal {
   void speak() => print('...');
 }
 
-// Dog is effectively base — cannot be implemented externally
+// Dog is effectively base, cannot be implemented externally
 class Dog extends Animal {
   @override
   void speak() => print('Woof');
@@ -227,7 +227,7 @@ base mixin Validatable {
 
 ## `interface`
 
-Prevents a class from being `extend`-ed outside the library. External code must use `implements` —
+Prevents a class from being `extend`-ed outside the library. External code must use `implements`
 They get the interface contract but no implementation.
 
 ### Syntax and Semantics
@@ -241,10 +241,10 @@ interface class Serializable {
 }
 
 // User's library
-// COMPILE ERROR — cannot extend an interface class
+// COMPILE ERROR, cannot extend an interface class
 class User extends Serializable {}
 
-// OK — implements, provides own behavior
+// OK, implements, provides own behavior
 class User implements Serializable {
   final String name;
   User(this.name);
@@ -256,12 +256,12 @@ class User implements Serializable {
 
 ### Why `interface` Exists
 
-Some classes are designed as contracts — they define what methods a type must have, but provide no
+Some classes are designed as contracts, they define what methods a type must have, but provide no
 Implementation worth inheriting. Forcing users to `implement` ensures they provide their own
 Complete implementation, avoiding accidental coupling to implementation details.
 
 ```dart
-// Pure contract — no behavior to inherit
+// Pure contract, no behavior to inherit
 interface class Hashable {
   int get hashCode;
 }
@@ -284,12 +284,12 @@ interface class Loggable {
   }
 }
 
-// Same library — can extend (inherits log/error)
+// Same library, can extend (inherits log/error)
 class Service extends Loggable {
   void doWork() => log('Working...');
 }
 
-// External library — must implement (provides own log/error)
+// External library, must implement (provides own log/error)
 class ExternalService implements Loggable {
   @override
   void log(String message) => logger.info(message);
@@ -311,7 +311,7 @@ interface mixin Disposable {
 ## `final`
 
 Prevents **all** subtyping outside the library. No `extends`No `implements`No `with`. The class Is a
-leaf — it cannot be a supertype of anything defined outside its library.
+leaf, it cannot be a supertype of anything defined outside its library.
 
 ### Syntax and Semantics
 
@@ -323,7 +323,7 @@ final class ImmutableConfig {
   const ImmutableConfig(this.host, this.port);
 }
 
-// User's library — all of these are COMPILE ERRORS:
+// User's library, all of these are COMPILE ERRORS:
 // class MyConfig extends ImmutableConfig {}
 // class MyConfig implements ImmutableConfig {}
 // class MyThing with ImmutableConfig {}
@@ -335,7 +335,7 @@ final config = ImmutableConfig('localhost', 8080);
 ### Why `final` Exists
 
 `final` classes are the Dart equivalent of Java's `final class` or Kotlin's `final class`. They
-Enforce **API boundaries** — the class's implementation is complete and should not be modified or
+Enforce **API boundaries**, the class's implementation is complete and should not be modified or
 Extended.
 
 Common use cases:
@@ -345,7 +345,7 @@ Common use cases:
 3. **Internal implementation details**: Classes that are public but should not be subclassed.
 
 ```dart
-// Value object — should never be extended
+// Value object, should never be extended
 final class UserId {
   final String value;
   const UserId(this.value);
@@ -369,9 +369,9 @@ final class Base {
   // ...
 }
 
-// Same library — extending a final class is allowed
+// Same library, extending a final class is allowed
 class Derived extends Base {
-  // Derived is NOT final — external code can extend Derived
+  // Derived is NOT final, external code can extend Derived
 }
 
 // External library:
@@ -429,12 +429,12 @@ A `mixin class` cannot have a generative constructor that takes parameters (beca
 Have parameterized constructors):
 
 ```dart
-// OK — no constructor or parameterless constructor
+// OK, no constructor or parameterless constructor
 mixin class A {
   A();
 }
 
-// COMPILE ERROR — mixins cannot have parameterized constructors
+// COMPILE ERROR, mixins cannot have parameterized constructors
 mixin class B {
   final int value;
   B(this.value); // ERROR when used as 'with'
@@ -524,7 +524,7 @@ sealed interface class Node {
 ```
 
 This is the most restrictive combination. Within the defining library, it behaves like a regular
-Class. Outside, it is completely sealed — no subtyping, no instantiation, only type references.
+Class. Outside, it is completely sealed, no subtyping, no instantiation, only type references.
 
 ### `base mixin`
 
@@ -577,7 +577,7 @@ Here is the complete reference table for all class modifiers:
 
 | Modifier            | Extends (outside)    | Implements (outside)    | Mixin (outside)   | Instantiate   | Abstract OK    | Key Use Case                         |
 | ------------------- | -------------------- | ----------------------- | ----------------- | ------------- | -------------- | ------------------------------------ |
-| (none)              | Yes                  | Yes                     | Yes               | Yes           | Yes            | Default — no restrictions            |
+| (none)              | Yes                  | Yes                     | Yes               | Yes           | Yes            | Default, no restrictions            |
 | `sealed`            | Same lib             | Same lib                | Same lib          | No (implicit) | Yes (implicit) | Closed hierarchies, exhaustiveness   |
 | `base`              | Yes (`extends` only) | No                      | No                | Yes           | Yes            | Classes designed for inheritance     |
 | `interface`         | No                   | Yes (`implements` only) | No                | Yes           | Yes            | Pure contracts, no shared behavior   |
@@ -620,7 +620,7 @@ abstract class Widget {
   Widget build(BuildContext context);
 }
 
-// After: base — prevents implements, requires extends
+// After: base, prevents implements, requires extends
 base class Widget {
   Widget build(BuildContext context);
 }
@@ -650,7 +650,7 @@ abstract class Comparator&lt;T&gt; {
   int compare(T a, T b);
 }
 
-// After: interface — prevents extends, requires implements
+// After: interface, prevents extends, requires implements
 interface class Comparator&lt;T&gt; {
   int compare(T a, T b);
 }
@@ -684,7 +684,7 @@ class Configuration {
   Configuration(this.host, this.port);
 }
 
-// After: final — prevents all subtyping
+// After: final, prevents all subtyping
 final class Configuration {
   final String host;
   final int port;
@@ -700,7 +700,7 @@ final class Configuration {
 For library authors, the recommended migration order:
 
 1. **Start with `base`**: Most classes designed for inheritance should be `base`. This is the least
-   disruptive change — users who `implement` must switch to `extends`But the behavioral change is
+   disruptive change, users who `implement` must switch to `extends`But the behavioral change is
    minimal.
 
 2. **Add `interface` to contracts**: Classes that are pure interfaces (no implementation worth
@@ -727,13 +727,13 @@ These are suggestions, not mandates. Use your judgment.
 ### 1. Mixing Up `base` and `interface`
 
 ```dart
-// WRONG — using base for a pure contract
+// WRONG, using base for a pure contract
 base class HashCode {
   int get hashCode;
 }
 // External code must extend, but there is nothing to inherit
 
-// RIGHT — use interface for pure contracts
+// RIGHT, use interface for pure contracts
 interface class HashCode {
   int get hashCode;
 }
@@ -745,7 +745,7 @@ Implementation that must be preserved through inheritance, use `base`.
 ### 2. Adding Modifiers to Existing Public APIs Without Bumping Major Version
 
 This is a breaking change. If you add `base` to a class in version 1.2.0, and a downstream package
-Was `implement`-ing it, their code breaks. Follow semver — this requires a major version bump.
+Was `implement`-ing it, their code breaks. Follow semver, this requires a major version bump.
 
 ### 3. `final` Does Not Propagate
 
@@ -753,11 +753,11 @@ Was `implement`-ing it, their code breaks. Follow semver — this requires a maj
 final class Parent {}
 
 class Child extends Parent {
-  // Same library — OK
+  // Same library, OK
 }
 
 // External library:
-class GrandChild extends Child {} // OK — Child is not final
+class GrandChild extends Child {} // OK, Child is not final
 ```
 
 If you want the entire hierarchy to be `final`Mark each class:
@@ -770,7 +770,7 @@ final class Child extends Parent {}
 ### 4. `sealed` Classes Cannot Be `base``interface`Or `final`
 
 ```dart
-// COMPILE ERROR — sealed is already maximally restrictive
+// COMPILE ERROR, sealed is already maximally restrictive
 sealed base class Node {}
 sealed interface class Node {}
 sealed final class Node {}
@@ -794,7 +794,7 @@ class Child extends WithState {
 
 // This DOES NOT work:
 class Other extends Object with WithState {} // ERROR
-// WithState has a parameterized constructor — cannot be used as mixin
+// WithState has a parameterized constructor, cannot be used as mixin
 ```
 
 The restriction is per-use: if the `mixin class` is used as a mixin, it cannot have a parameterized
@@ -821,7 +821,7 @@ class MyService extends Service {
 class MyService implements Service {} // COMPILE ERROR
 ```
 
-The modifier applies to the abstract class itself. `abstract base` means "abstract AND base" — you
+The modifier applies to the abstract class itself. `abstract base` means "abstract AND base", you
 Cannot instantiate it directly, and external code must extend it.
 
 ### 7. Constructors in `interface` Classes
@@ -834,14 +834,14 @@ interface class Builder {
 
 // External code implementing Builder must provide its own constructor
 class MyBuilder implements Builder {
-  MyBuilder(); // Required — does not inherit Builder()
+  MyBuilder(); // Required, does not inherit Builder()
   @override
   void build() { /* ... */ }
 }
 ```
 
 `implements` does not inherit constructors. The implementing class must declare its own
-Constructors. This is not specific to `interface` — it has always been true for `implements`. But
+Constructors. This is not specific to `interface`it has always been true for `implements`. But
 With `interface`It is the only option.
 
 ### 8. Modifiers and `part` Files
@@ -856,8 +856,8 @@ part 'subtypes.dart';
 
 // subtypes.dart
 part of 'main.dart';
-class Element extends Node {} // OK — same library
-class Text extends Node {} // OK — same library
+class Element extends Node {} // OK, same library
+class Text extends Node {} // OK, same library
 ```
 
 All `part` files belong to the same library, so sealed/base/interface/final restrictions do not
@@ -873,7 +873,7 @@ base class Animal {
   void speak() => print('...');
 }
 
-// External library — OK
+// External library, OK
 class Dog extends Animal {
   @override
   void speak() => print('Woof');
@@ -888,13 +888,13 @@ The method non-virtual by design.
 `abstract` can be combined with any modifier:
 
 ```dart
-abstract sealed class Node {} // Redundant — sealed is already abstract
+abstract sealed class Node {} // Redundant, sealed is already abstract
 abstract base class Service {} // Abstract AND base
 abstract interface class Handler {} // Abstract AND interface
-abstract final class Config {} // Abstract AND final — cannot be instantiated or subclassed externally
+abstract final class Config {} // Abstract AND final, cannot be instantiated or subclassed externally
 ```
 
-The only redundant combination is `abstract sealed` — `sealed` already implies `abstract`.
+The only redundant combination is `abstract sealed``sealed` already implies `abstract`.
 
 ### 11. Enums and Modifiers
 
@@ -919,7 +919,7 @@ final class ApiClient {
   // ...
 }
 
-// Same library — extending final is ALLOWED
+// Same library, extending final is ALLOWED
 class TestApiClient extends ApiClient {
   // For testing purposes within the same library
 }

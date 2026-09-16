@@ -1,5 +1,5 @@
 ---
-title: "US Civics Test Glossary — Government Terms"
+title: "US Civics Test Glossary, Government Terms"
 description: "Comprehensive glossary of US civics test terms covering the Constitution, branches of government, rights, and American history for the USCIS naturalisation test."
 date: 2026-07-24
 tags: [glossary]
@@ -11,7 +11,7 @@ tags: [glossary]
 
 **Preamble**: The opening statement of the Constitution, beginning with "We the People," explaining the purpose of the document.
 
-**We the People**: The first three words of the Constitution, establishing the concept of popular sovereignty — that government derives its power from the citizens.
+**We the People**: The first three words of the Constitution, establishing the concept of popular sovereignty, that government derives its power from the citizens.
 
 **Article I**: Establishes the Legislative Branch (Congress), defining its powers, structure, and the process for making laws.
 

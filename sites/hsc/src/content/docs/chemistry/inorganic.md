@@ -179,7 +179,7 @@ $$\Delta H = -\frac{q}{n} = -\frac{2.675}{0.050} = -53.5\,\text{kJ/mol}$$
 
 **Common mistake:** Forgetting the negative sign. The reaction is exothermic, so $\Delta H$ is negative.
 
-### Example 6: Electrochemistry — Nernst Equation
+### Example 6: Electrochemistry, Nernst Equation
 
 **Problem:** Calculate the cell potential for a Daniell cell at $25°\text{C}$ when $[\text{Zn}^{2+}] = 0.5\,\text{M}$ and $[\text{Cu}^{2+}] = 0.01\,\text{M}$. Given $E°_{\text{cell}} = 1.10\,\text{V}$.
 

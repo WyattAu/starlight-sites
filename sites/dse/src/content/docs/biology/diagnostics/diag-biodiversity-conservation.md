@@ -268,11 +268,11 @@ flowchart TD
 
 ## Intuition
 
-**Nature's web of life:** Biodiversity is like a tapestry — each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.
+**Nature's web of life:** Biodiversity is like a tapestry, each species is a thread, and removing threads weakens the whole fabric. Conservation is about protecting the threads that keep ecosystems functional.
 
 **Why it matters:** Biodiversity provides food, medicine, clean water, and climate regulation. Losing species reduces ecosystem resilience and human well-being.
 
-**The key insight:** Biodiversity exists at genetic, species, and ecosystem levels — protecting all three is necessary for true conservation.
+**The key insight:** Biodiversity exists at genetic, species, and ecosystem levels, protecting all three is necessary for true conservation.
 
 ## Integration Test 1: Conservation Methods and Sustainability
 

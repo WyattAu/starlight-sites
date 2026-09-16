@@ -11,7 +11,7 @@ IB Psychology examines behaviour through six major approaches, each offering a d
 
 ### Biological Approach
 
-The biological approach explains behaviour in terms of physiological processes — brain structures, neurotransmitters, hormones, and genetics.
+The biological approach explains behaviour in terms of physiological processes, brain structures, neurotransmitters, hormones, and genetics.
 
 **Key assumptions:**
 - Behaviour has a biological basis
@@ -24,7 +24,7 @@ The biological approach explains behaviour in terms of physiological processes �
 
 ### Cognitive Approach
 
-The cognitive approach studies internal mental processes — how we perceive, remember, think, and solve problems.
+The cognitive approach studies internal mental processes, how we perceive, remember, think, and solve problems.
 
 **Key assumptions:**
 - The mind processes information like a computer (information processing model)
@@ -54,7 +54,7 @@ The behavioural approach focuses on observable behaviour and how it is learned t
 
 **Key assumptions:**
 - All behaviour is learned through conditioning
-- The mind is a "black box" — only observable behaviour matters
+- The mind is a "black box", only observable behaviour matters
 - Reinforcement and punishment shape behaviour
 
 **Key researchers:** Pavlov, Skinner, Watson, Bandura

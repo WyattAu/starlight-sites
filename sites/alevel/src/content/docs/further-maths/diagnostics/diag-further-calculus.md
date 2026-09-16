@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Further Calculus — Diagnostic Tests
+## Further Calculus, Diagnostic Tests
 
 ## Unit Tests
 
@@ -217,7 +217,7 @@ $\Delta x \to 0$: $ds = \sqrt{1 + (dy/dx)^2}\,dx$. Integrating gives the total a
 
 ## Common Mistakes
 
-**Confusing the arc length formula with the area under a curve:** Arc length uses $\int \sqrt{1 + (dy/dx)^2}\,dx$, not $\int y\,dx$. The square root and the squared derivative are essential — omitting them gives the area, not the length. This is one of the most common errors in further calculus.
+**Confusing the arc length formula with the area under a curve:** Arc length uses $\int \sqrt{1 + (dy/dx)^2}\,dx$, not $\int y\,dx$. The square root and the squared derivative are essential, omitting them gives the area, not the length. This is one of the most common errors in further calculus.
 
 **Forgetting the $2\pi$ in surface of revolution formulas:** When rotating a curve about the $x$-axis, the surface area formula is $2\pi\int y\sqrt{1+(dy/dx)^2}\,dx$. Students often write $\pi\int y\sqrt{1+(dy/dx)^2}\,dx$ (confusing it with the volume formula $\pi\int y^2\,dx$). The $2\pi$ comes from the circumference of the circle traced by each point.
 

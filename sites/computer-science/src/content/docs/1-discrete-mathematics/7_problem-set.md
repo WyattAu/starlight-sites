@@ -384,4 +384,4 @@ Practice problems consolidate theoretical understanding. Work through problems s
 | Theory of Computation           | WyattsNotes | [View](../theory-of-computation)                               |
 | Abstract Algebra                | WyattsNotes | [View](../../../../../mathematics/src/content/docs/abstract-algebra)                                  |
 | Number Theory                   | WyattsNotes | [View](../../../../../mathematics/src/content/docs/number-theory)                                     |
-| Discrete Mathematics — MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
+| Discrete Mathematics, MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |

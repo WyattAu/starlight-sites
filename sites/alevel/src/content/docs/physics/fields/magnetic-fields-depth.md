@@ -61,7 +61,7 @@ $$\boxed{F = Bqv}$$
 
 :::caution
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
-Change the speed of a charged particle — only its direction.
+Change the speed of a charged particle, only its direction.
 :::
 ## 3. Circular Motion in a Magnetic Field
 

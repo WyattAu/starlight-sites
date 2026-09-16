@@ -469,7 +469,7 @@ Real analysis is the rigorous foundation of calculus. Where calculus asks "what 
 - **Assuming every bounded set has a maximum.** A set can be bounded above without having a maximum;
   the supremum always exists but may not be a member of the set. **Fix:** The supremum $\sup(S)$ is
   the least upper bound; it equals the maximum only when $\sup(S) \in S$.
-- **Misusing the $\varepsilon$-$\delta$ definition.** The order of quantifiers matters: "for every $\varepsilon > 0$, there exists $\delta > 0$" — $\delta$ depends on $\varepsilon$ and the point,
+- **Misusing the $\varepsilon$-$\delta$ definition.** The order of quantifiers matters: "for every $\varepsilon > 0$, there exists $\delta > 0$", $\delta$ depends on $\varepsilon$ and the point,
   not the other way around. **Fix:** In proofs, choose $\delta$ after $\varepsilon$ is given;
   $\delta$ depends on both $\varepsilon$ and $x_0$ (unless the function is uniformly continuous).
 - **Confusing pointwise and uniform convergence.** Pointwise: $\delta$ may depend on $x$. Uniform:
@@ -530,7 +530,7 @@ flowchart TD
 | Complex Analysis           | WyattsNotes | [View](../complex-analysis)                |
 | Multivariable Calculus     | WyattsNotes | [View](../multivariable-calculus)          |
 | Differential Equations     | WyattsNotes | [View](../../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)          |
-| Real Analysis — MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
+| Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

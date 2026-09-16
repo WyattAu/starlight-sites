@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Vectors — Diagnostic Tests
+## Vectors, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Vectors are like arrows — they have both direction and magnitude, unlike scalars which are just numbers:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen
+**Vectors are like arrows, they have both direction and magnitude, unlike scalars which are just numbers:** Vectors provide a coordinate-free way to describe physical quantities that have direction, making physics equations independent of the coordinate system chosen
 
 **Why it matters:** From GPS navigation to computer animation to quantum mechanics, vectors are the language of directional quantities
 
@@ -40,7 +40,7 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for vectors.
 
-### UT-1: Skew Lines — Classification and Shortest Distance
+### UT-1: Skew Lines, Classification and Shortest Distance
 
 **Question:**
 
@@ -97,7 +97,7 @@ $$(\mathbf{a}_2 - \mathbf{a}_1) \cdot (\mathbf{d}_1 \times \mathbf{d}_2) = 2(1) 
 $$d = \frac{5}{\sqrt{35}} = \frac{5\sqrt{35}}{35} = \frac{\sqrt{35}}{7}$$
 
 **(c)** The student"s error is that in three dimensions, two lines that are not parallel can still
-fail to intersect. In 2D, non-parallel lines always intersect, but in 3D they can be skew — they
+fail to intersect. In 2D, non-parallel lines always intersect, but in 3D they can be skew, they
 pass at different "heights" and never meet. The student has incorrectly generalised the 2D result.
 
 ---
@@ -173,7 +173,7 @@ Specifically:
 
 > Tests synthesis of vectors with other topics.
 
-### IT-1: Volume of a Tetrahedron — Scalar Triple Product
+### IT-1: Volume of a Tetrahedron, Scalar Triple Product
 
 **Question:**
 

@@ -17,9 +17,9 @@ tableOfContents: false
 
 ## Intuition
 
-**Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
+**Organic chemistry is like a vast city of carbon-based molecules, each with unique structures and personalities.**
 
-## Organic Chemistry Introduction — Diagnostic Tests
+## Organic Chemistry Introduction, Diagnostic Tests
 
 ## Unit Tests
 
@@ -456,7 +456,7 @@ stereospecific synthesis with amines.
 
 **Confusing homolytic and heterolytic fission:** Homolytic fission produces free radicals (each atom takes one electron from the bond). Heterolytic fission produces ions (one atom takes both electrons). Free radical substitution involves homolytic fission; nucleophilic substitution involves heterolytic fission. Mixing these up leads to wrong mechanism diagrams.
 
-**Forgetting that 2,4-DNP tests for carbonyl groups, not specifically aldehydes:** 2,4-DNP reacts with both aldehydes and ketones to give an orange precipitate. To distinguish between them, you need a further test — Tollens' reagent (silver mirror test) or Fehling's solution. A positive 2,4-DNP test only tells you a carbonyl is present.
+**Forgetting that 2,4-DNP tests for carbonyl groups, not specifically aldehydes:** 2,4-DNP reacts with both aldehydes and ketones to give an orange precipitate. To distinguish between them, you need a further test, Tollens' reagent (silver mirror test) or Fehling's solution. A positive 2,4-DNP test only tells you a carbonyl is present.
 
 **Using the wrong reagent for elimination vs substitution:** Hot, concentrated, ethanolic KOH favours elimination (OH$^-$ acts as a base, abstracting a $\beta$-hydrogen). Dilute, aqueous KOH favours substitution (OH$^-$ acts as a nucleophile). Students often forget to specify the solvent, which is the key factor in determining the reaction type.
 

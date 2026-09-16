@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Forces and Motion — Diagnostic Tests
+## Forces and Motion, Diagnostic Tests
 
 ## Unit Tests
 
@@ -50,10 +50,10 @@ _Table:_ Weight $W_t = 8 \times 9.81 = 78.48$ N (downward), Normal force from bo
 
 **(b) Newton's third law pairs:**
 
-- $N_{t \to b}$ (table pushes book up) and $N_{b \to t}$ (book pushes table down) — **This is a
+- $N_{t \to b}$ (table pushes book up) and $N_{b \to t}$ (book pushes table down), **This is a
   pair.**
-- $W_b$ (Earth pulls book down) and book pulls Earth up — **This is a pair.**
-- $W_t$ (Earth pulls table down) and table pulls Earth up — **This is a pair.**
+- $W_b$ (Earth pulls book down) and book pulls Earth up, **This is a pair.**
+- $W_t$ (Earth pulls table down) and table pulls Earth up, **This is a pair.**
 
 **Common misconception:** $N_{t \to b}$ and $W_b$ are NOT a third law pair. They act on the same
 body (the book) and are not equal unless $a = 0$.

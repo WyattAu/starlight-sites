@@ -1,7 +1,7 @@
 ---
 
 title: "Value Taxonomy"
-description: "Every C++ expression has a — a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three"
+description: "Every C++ expression has a, a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -21,7 +21,7 @@ categories:
 
 ## Value Taxonomy
 
-Every C++ expression has a **value category** — a property that determines which operations are
+Every C++ expression has a **value category**, a property that determines which operations are
 Legal on it and how it interacts with overloaded functions. C++17 defines three primary categories
 (lvalue, xvalue, prvalue) and two composite categories (glvalue, rvalue). Understanding these
 Categories is essential to understanding move semantics, reference binding, and overload resolution.
@@ -34,14 +34,14 @@ S7.2.1]:
 - **lvalue:** an expression that designates a function or an object. It has an identity (address)
   and, conceptually, a location in memory.
 - **prvalue ("pure" rvalue):** an expression that initializes an object or computes a value. It has
-  no identity — it is a transient value.
+  no identity, it is a transient value.
 - **xvalue ("expiring" value):** an expression that designates an object whose resources can be
   reused ( because it is nearing the end of its lifetime). It has identity but can be moved from.
 
 Two **compound categories** are defined as unions of the primaries [N4950 S7.2.1]:
 
-- **glvalue ("generalized" lvalue):** lvalue $\cup$ xvalue — expressions with identity.
-- **rvalue:** prvalue $\cup$ xvalue — expressions that can be moved from.
+- **glvalue ("generalized" lvalue):** lvalue $\cup$ xvalue, expressions with identity.
+- **rvalue:** prvalue $\cup$ xvalue, expressions that can be moved from.
 
 ## 1.2 Value Category Diagram
 
@@ -61,7 +61,7 @@ $$
 \mathrm{expression = \underbrace{\mathrm{glvalue}_{\mathrm{lvalue \cup \mathrm{xvalue} \;\cup\; \underbrace{\mathrm{rvalue}_{\mathrm{prvalue \cup \mathrm{xvalue}
 $$
 
-The xvalue category occupies the intersection — it is both a glvalue (it has identity) and an rvalue
+The xvalue category occupies the intersection, it is both a glvalue (it has identity) and an rvalue
 (it can be moved from).
 
 ## 1.3 Historical Evolution
@@ -118,7 +118,7 @@ An expression is a prvalue if it [N4950 S7.2.1]:
 - Is a literal (except string literals, which are lvalues).
 - Is the return value of a function that returns by value (not by reference).
 - Is a temporary object, such as the result of a cast to a non-reference type.
-- Has no identity — you cannot take its address.
+- Has no identity, you cannot take its address.
 
 ```cpp
 #include <type_traits>
@@ -268,9 +268,9 @@ Is critical for understanding template metaprogramming and SFINAE constraints.
 
 | Expression `e`             | `decltype(e)` | `decltype((e))`               | Explanation                           |
 | :------------------------- | :------------ | :---------------------------- | :------------------------------------ |
-| `int x = 42;` — `x`        | `int`         | `int&` (lvalue reference)     | `decltype(e)` gives declared type     |
-| `const int cx = 1;` — `cx` | `const int`   | `const int&`                  | `decltype(e)` preserves cv-qualifiers |
-| `int& r = x;` — `r`        | `int`         | `int&`                        | Named references are lvalues          |
+| `int x = 42;``x`        | `int`         | `int&` (lvalue reference)     | `decltype(e)` gives declared type     |
+| `const int cx = 1;``cx` | `const int`   | `const int&`                  | `decltype(e)` preserves cv-qualifiers |
+| `int& r = x;``r`        | `int`         | `int&`                        | Named references are lvalues          |
 | `std::move(x)`             | `int&&`       | `int&&` (xvalue reference)    | rvalue reference                      |
 | `42`                       | `int`         | `int` (prvalue, no reference) | Prvalues have no reference qualifier  |
 | `f()` (returns `int`)      | `int`         | `int` (prvalue)               | Function return is prvalue            |
@@ -372,7 +372,7 @@ int main() {
 
 ## 3.4 Move Semantics as a Consequence of the Taxonomy
 
-Move semantics are not a separate language feature bolted onto C++ — they are a **direct consequence
+Move semantics are not a separate language feature bolted onto C++, they are a **direct consequence
 Of the value category taxonomy**. The mechanism works as follows:
 
 1. Overload resolution prefers rvalue reference bindings for rvalue arguments.
@@ -427,10 +427,10 @@ Buffer wrap_buffer(T&& arg) {
 int main() {
     std::cout << "Direct init from lvalue:\n";
     Buffer a;
-    Buffer b = a;  // copy ctor — a is an lvalue
+    Buffer b = a;  // copy ctor, a is an lvalue
 
     std::cout << "Direct init from xvalue:\n";
-    Buffer c = std::move(a);  // move ctor — std::move(a) is an xvalue (rvalue)
+    Buffer c = std::move(a);  // move ctor, std::move(a) is an xvalue (rvalue)
 
     std::cout << "Return from function (NRVO):\n";
     Buffer d = make_buffer();  // NRVO or move ctor
@@ -447,7 +447,7 @@ int main() {
 ## 3.5 `std::move` and `std::forward` as Category Converters
 
 Both `std::move` and `std::forward` are casts that change the value category of an expression. They
-Do not move anything — they enable move semantics by converting the expression to an rvalue.
+Do not move anything, they enable move semantics by converting the expression to an rvalue.
 
 ### `std::move`: lvalue $\to$ xvalue
 
@@ -460,7 +460,7 @@ constexpr typename std::remove_reference_t<T>&& move(T&& t) noexcept {
 ```
 
 `std::move` unconditionally casts its argument to an rvalue reference. The argument can be an lvalue
-Or an rvalue — in either case, the result is an xvalue.
+Or an rvalue, in either case, the result is an xvalue.
 
 ### `std::forward`: preserves original category
 
@@ -516,7 +516,7 @@ An rvalue reference is declared with a **concrete type**:
 void sink(std::string&& s);  // rvalue reference: binds only to rvalues
 ```
 
-The type `std::string&&` is concrete — template argument deduction does not apply. This overload
+The type `std::string&&` is concrete, template argument deduction does not apply. This overload
 Binds only to rvalues (xvalues and prvalues) of type `std::string`.
 
 ### Forwarding References
@@ -635,7 +635,7 @@ operators).
 
 **Why this matters:** After `std::move(x)`The value of `x` is still valid but unspecified. The
 Actual "move" happens in the move constructor or move assignment operator that receives the xvalue.
-`std::move` is therefore a misnomer — it should be called `std::rvalue_cast` or `std::as_rvalue`.
+`std::move` is therefore a misnomer, it should be called `std::rvalue_cast` or `std::as_rvalue`.
 The name is historical.
 
 **Verification:**
@@ -668,7 +668,7 @@ int main() {
     // Verify: the result type is an rvalue reference
     static_assert(std::is_same_v<decltype(ref), Tracer&&>);
 
-    // "a' is still valid here — std::move didn't move anything
+    // "a' is still valid here, std::move didn't move anything
     std::cout << "a.name after std::move: " << a.name << "\n";
 
     // The actual move happens when the xvalue binds to a move constructor
@@ -766,7 +766,7 @@ Always use `return local_variable;` (without parentheses) when you intend to ret
 
 ## 3.9 Implicit Value Category Conversions
 
-Value categories are not entirely static — certain language constructs implicitly convert between
+Value categories are not entirely static, certain language constructs implicitly convert between
 Categories. Understanding these conversions is essential for predicting overload resolution
 Outcomes.
 
@@ -789,7 +789,7 @@ int y = x + 1;  // x is an lvalue, but '+' requires prvalues
                 // the addition operates on two prvalues: 10 and 1
 ```
 
-The lvalue-to-rvalue conversion does **not** change the value category of `x` itself — `x` remains
+The lvalue-to-rvalue conversion does **not** change the value category of `x` itself, `x` remains
 An lvalue. The conversion produces a **new** prvalue expression from the value stored in `x`.
 
 ### Array-to-Pointer Conversion
@@ -814,7 +814,7 @@ void (*pf)() = f;  // f decays to prvalue void(*)()
 
 ### Temporary Materialization (C++17)
 
-In C++17, a prvalue is not an object — it is a recipe for constructing one. When a prvalue needs to
+In C++17, a prvalue is not an object, it is a recipe for constructing one. When a prvalue needs to
 Be treated as an object (to bind to a reference, take its address, or access a member), it is
 **materialized** into a temporary [N4950 S7.3.5]. This is the mechanism behind guaranteed copy
 Elision:
@@ -830,7 +830,7 @@ S obj = make_s();  // C++17: prvalue is directly materialized into obj (zero cop
 
 ## Intuition
 
-Value categories are the bouncer at the door of memory management. An lvalue is something that has a name and a持久address — like a house you own. A prvalue is a temporary — like a taxi that exists only for the duration of your ride. An xvalue is a temporary that has been explicitly marked as "I am done with this" — like handing your taxi keys to someone else. Move semantics is the process of stealing the taxi instead of copying it: you take the steering wheel, the engine, the seats, and leave the original owner with an empty frame. This is why `std::move` does not actually move anything — it just casts to an rvalue reference, signalling that the object can be plundered.
+Value categories are the bouncer at the door of memory management. An lvalue is something that has a name and a持久address, like a house you own. A prvalue is a temporary, like a taxi that exists only for the duration of your ride. An xvalue is a temporary that has been explicitly marked as "I am done with this", like handing your taxi keys to someone else. Move semantics is the process of stealing the taxi instead of copying it: you take the steering wheel, the engine, the seats, and leave the original owner with an empty frame. This is why `std::move` does not actually move anything, it just casts to an rvalue reference, signalling that the object can be plundered.
 
 ## Common Pitfalls
 
@@ -838,7 +838,7 @@ Value categories are the bouncer at the door of memory management. An lvalue is 
   copy constructors (not move constructors). The object cannot actually be moved from.
 
 - **Using `std::move` on a return value.** `return std::move(local);` prevents NRVO and forces a
-  move. Just write `return local;` — the compiler applies NRVO or implicit move automatically.
+  move. Just write `return local;`the compiler applies NRVO or implicit move automatically.
 
 - **Using `std::forward` outside of forwarding references.** `std::forward<T>(x)` is only meaningful
   when `T` is a template parameter deduced from a forwarding reference (`T&&`). Otherwise, it
@@ -859,7 +859,7 @@ Value categories are the bouncer at the door of memory management. An lvalue is 
 
 - **Overloading on rvalue references for forwarding.** If you write both `void f(T&&)` and
   `void f(const T&)`The rvalue reference overload is preferred for non-const rvalues. But this is
-  not forwarding — it only accepts rvalues. Use a template with a forwarding reference if you need
+  not forwarding, it only accepts rvalues. Use a template with a forwarding reference if you need
   to accept both lvalues and rvalues with a single overload.
 
 ## See Also

@@ -18,7 +18,7 @@ import DesmosGraph from "@components/DesmosGraph";
 
 **Any smooth function can be rebuilt from its derivatives at a single point:** Taylor series say that if you know all the derivatives of a function at one point, you can reconstruct the entire function as an infinite polynomial. It's like having a complete description of a curve encoded in a single number and its rates of change. The Maclaurin series is the special case where we expand about $x = 0$.
 
-**Why it matters:** Taylor series let you approximate complicated functions ($e^x$, $\sin x$, $\cos x$) as simple polynomials. This is how calculators compute $\sin(0.5)$ — they don't use geometry, they use the Maclaurin series. They're also essential for solving differential equations and understanding convergence.
+**Why it matters:** Taylor series let you approximate complicated functions ($e^x$, $\sin x$, $\cos x$) as simple polynomials. This is how calculators compute $\sin(0.5)$, they don't use geometry, they use the Maclaurin series. They're also essential for solving differential equations and understanding convergence.
 
 **The key insight:** More terms in the series give better approximations near the expansion point, but worse approximations far away. The radius of convergence tells you how far the approximation is valid. For $e^x$, the series converges everywhere; for $\ln(1+x)$, it only converges for $-1 < x \leq 1$.
 
@@ -38,7 +38,7 @@ Adjust the parameters in the graph above to explore the relationships between va
 :::note
 <strong>All boards require the standard Maclaurin series. Edexcel and CIE additionally require</strong>
 
-Taylor series about $x = a$. The formula booklet lists the standard Maclaurin series — you must be
+Taylor series about $x = a$. The formula booklet lists the standard Maclaurin series, you must be
 Able to derive them and apply them.
 :::
 <hr />
@@ -382,7 +382,7 @@ $\cos x = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} - \dfrac{x^6}{6!} + \cdots$:
 
 $$\boxed{\cos 2x = 1 - 2x^2 + \frac{2x^4}{3} - \frac{4x^6}{45} + \cdots}$$
 
-**If you get this wrong, revise:** [Standard Series](#2-standard-maclaurin-series) — Section 2.
+**If you get this wrong, revise:** [Standard Series](#2-standard-maclaurin-series), Section 2.
 
 </details>
 
@@ -405,7 +405,7 @@ When substituted, but here $-x^2 - x^4/2 - x^6/3 - \cdots$ at $x = 1$ is $-\sum 
 
 Valid for $-1 < x < 1$.
 
-**If you get this wrong, revise:** [Standard Series](#2-standard-maclaurin-series) — Section 2.
+**If you get this wrong, revise:** [Standard Series](#2-standard-maclaurin-series), Section 2.
 
 </details>
 
@@ -424,7 +424,7 @@ $e^x = \displaystyle\sum_{n=0}^{\infty}\dfrac{x^n}{n!}$.
 
 Setting $x = 2$: $e^2 = \displaystyle\sum_{n=0}^{\infty}\dfrac{2^n}{n!}$. $\blacksquare$
 
-**If you get this wrong, revise:** [Exponential Function](#21-exponential-function) — Section 2.1.
+**If you get this wrong, revise:** [Exponential Function](#21-exponential-function), Section 2.1.
 
 </details>
 
@@ -445,7 +445,7 @@ $f'''(x) = -\cos x$, $f'''(\pi/3) = -\dfrac{1}{2}$.
 
 $$\sin x = \frac{\sqrt{3}}{2} + \frac{1}{2}\left(x-\frac{\pi}{3}\right) - \frac{\sqrt{3}}{4}\left(x-\frac{\pi}{3}\right)^2 - \frac{1}{12}\left(x-\frac{\pi}{3}\right)^3 + \cdots$$
 
-**If you get this wrong, revise:** [Taylor Series About $x = a$](#3-taylor-series-about-x--a) —
+**If you get this wrong, revise:** [Taylor Series About $x = a$](#3-taylor-series-about-x--a),
 Section 3.
 
 </details>
@@ -467,7 +467,7 @@ $\sin x - x = -\dfrac{x^3}{6} + \dfrac{x^5}{120} - \cdots$
 $\dfrac{\sin x - x}{x^3} = -\dfrac{1}{6} + \dfrac{x^2}{120} - \cdots \to \boxed{-\dfrac{1}{6}}$
 As $x \to 0$.
 
-**If you get this wrong, revise:** [Evaluating Limits](#52-evaluating-limits-using-series) — Section
+**If you get this wrong, revise:** [Evaluating Limits](#52-evaluating-limits-using-series), Section
 5.2.
 
 </details>
@@ -494,7 +494,7 @@ $$\boxed{(1+2x)^{-1/2} = 1 - x + \frac{3x^2}{2} - \frac{5x^3}{2} + \cdots}$$
 
 Valid for $|2x| < 1 \implies |x| < \dfrac{1}{2}$.
 
-**If you get this wrong, revise:** [Binomial Series](#25-binomial-series) — Section 2.5.
+**If you get this wrong, revise:** [Binomial Series](#25-binomial-series), Section 2.5.
 
 </details>
 
@@ -515,7 +515,7 @@ As $n \to \infty$.
 
 $R = \dfrac{1}{2}$. The series converges for $\boxed{|x| < \dfrac{1}{2}}$.
 
-**If you get this wrong, revise:** [The Ratio Test](#42-the-ratio-test) — Section 4.2.
+**If you get this wrong, revise:** [The Ratio Test](#42-the-ratio-test), Section 4.2.
 
 </details>
 
@@ -550,7 +550,7 @@ $\dfrac{x^4}{24} \cdot x + \dfrac{x^2}{2}\left(-\dfrac{x^3}{6}\right) + 1 \cdot 
 $$\boxed{e^x \sin x = x + x^2 + \frac{x^3}{3} - \frac{x^5}{30} + \cdots}$$
 
 **If you get this wrong, revise:** [Compound Functions](#53-series-expansions-of-compound-functions)
-— Section 5.3.
+- Section 5.3.
 
 </details>
 
@@ -568,7 +568,7 @@ $\sin x = \displaystyle\sum_{n=0}^{\infty}\dfrac{(-1)^n x^{2n+1}}{(2n+1)!}$.
 
 Setting $x = 1$: $\sin 1 = \displaystyle\sum_{n=0}^{\infty}\dfrac{(-1)^n}{(2n+1)!}$. $\blacksquare$
 
-**If you get this wrong, revise:** [Sine Function](#22-sine-function) — Section 2.2.
+**If you get this wrong, revise:** [Sine Function](#22-sine-function), Section 2.2.
 
 </details>
 
@@ -588,7 +588,7 @@ $e^{-x^2} - 1 = -x^2 + \dfrac{x^4}{2} - \cdots$
 
 $\dfrac{e^{-x^2} - 1}{x^2} = -1 + \dfrac{x^2}{2} - \cdots \to \boxed{-1}$ as $x \to 0$.
 
-**If you get this wrong, revise:** [Evaluating Limits](#52-evaluating-limits-using-series) — Section
+**If you get this wrong, revise:** [Evaluating Limits](#52-evaluating-limits-using-series), Section
 5.2.
 
 </details>
@@ -1113,7 +1113,7 @@ $E(x) = \sum_{n=0}^{\infty} \dfrac{a_n x^n}{n!}$.
 This is useful in combinatorics and probability (e.g., the exponential generating function of the
 Bernoulli numbers).
 
-### 15.3 Binomial series — convergence at the endpoints
+### 15.3 Binomial series, convergence at the endpoints
 
 $(1+x)^\alpha$ converges at $x = 1$ when $\alpha > -1$ and at $x = -1$ when $\alpha > 0$.
 

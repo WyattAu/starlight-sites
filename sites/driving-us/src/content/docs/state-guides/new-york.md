@@ -7,7 +7,7 @@ tags:
   - new-york
   - dmv
 sources:
-  - text: "New York State DMV — Learner permits and driver licenses"
+  - text: "New York State DMV, Learner permits and driver licenses"
     url: "https://dmv.ny.gov/licenses"
   - text: "New York State Driver's Manual (official)"
     url: "https://dmv.ny.gov/brochure/new-york-state-drivers-manual"
@@ -32,7 +32,7 @@ alternate-side parking) that appear in the state manual.
   region (NYC costs more than upstate).
 - **Supervision**: a licensed driver 21+; in New York City, permit
   holders may only drive with a driving-school instructor in a
-  dual-control car — a rule unique among big states.
+  dual-control car, a rule unique among big states.
 
 ## Mandatory Courses
 
@@ -47,7 +47,7 @@ Before the road test, every New York driver under 18 must complete:
 
 Passing the road test yields a **junior license** with restrictions:
 
-- No driving in New York City for junior licensees (any time) —
+- No driving in New York City for junior licensees (any time),
   upstate junior drivers must plan around this.
 - **9 p.m. to 5 a.m.** curfew, with limited exceptions.
 - At 17, a junior license upgrades to full after completing a state-
@@ -58,7 +58,7 @@ Passing the road test yields a **junior license** with restrictions:
 From the official Driver's Manual:
 
 - Right-of-way: four-way stops, left turns, U-turns, and emergency
-  vehicles — New York word-questions these carefully.
+  vehicles, New York word-questions these carefully.
 - Signs: 4 of 20 questions; missing the 2-of-4 sign threshold fails
   the whole test even with 14 correct elsewhere.
 - Alcohol: 0.08% adult limit, **zero tolerance (0.02%) under 21**,
@@ -69,12 +69,12 @@ From the official Driver's Manual:
 
 ## Study Plan for the New York Permit Test
 
-1. Read the manual's chapters 4 (signs) and 8 (alcohol) twice — they
+1. Read the manual's chapters 4 (signs) and 8 (alcohol) twice, they
    gate both thresholds.
 2. Practice sign recognition until the 2-of-4 bar is trivially safe.
 3. Aim for 19-20/20 on practice tests; the 14/20 margin looks safe
    but the embedded sign requirement changes the math.
-4. Book the road test the day you finish the 50 hours — upstate
+4. Book the road test the day you finish the 50 hours, upstate
    openings clear fast but NYC slots take weeks.
 
 ## Common New York Test Mistakes

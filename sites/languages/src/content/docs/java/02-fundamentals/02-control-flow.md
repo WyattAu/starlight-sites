@@ -1017,11 +1017,11 @@ convenience -- they do not introduce a new type.
 :::
 ## Intuition
 
-**Decision points:** Control flow is like a choose-your-own-adventure book — if-else statements, loops, and switches determine which path the program takes.
+**Decision points:** Control flow is like a choose-your-own-adventure book, if-else statements, loops, and switches determine which path the program takes.
 
 **Why it matters:** Control flow structures let programs make decisions and repeat tasks, enabling complex logic and automation.
 
-**The key insight:** Loops are the foundation of automation — they let computers do repetitive work without human intervention.
+**The key insight:** Loops are the foundation of automation, they let computers do repetitive work without human intervention.
 
 ## Summary of Control Flow Design Principles
 

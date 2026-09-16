@@ -71,18 +71,18 @@ disorders.
 | Paper 3             | Not assessed.                                                                                       | 1 hour. Three short-answer questions based on a research scenario. Tests understanding of research methods. Worth 24 marks. |
 | Internal Assessment | Experimental study. Replication of a simple experiment with a written report (maximum 1,800 words). | Experimental study. Replication of a simple experiment with a written report (maximum 2,200 words).                         |
 
-### Paper 1 — Core
+### Paper 1, Core
 
 Paper 1 assesses the three core levels of analysis. Each question requires students to demonstrate
 knowledge of theories, studies, and research methods, and to evaluate these using critical analysis.
 
-### Paper 2 — Options
+### Paper 2, Options
 
 Paper 2 assesses applied psychology options. Students choose from topics such as abnormal
 psychology, developmental psychology, and health psychology. HL students must answer two questions;
 SL students answer one.
 
-### Paper 3 — Research Methods (HL Only)
+### Paper 3, Research Methods (HL Only)
 
 Paper 3 presents students with a novel research scenario and asks three questions testing their
 understanding of research design, sampling, methodology, and the evaluation of research. This paper

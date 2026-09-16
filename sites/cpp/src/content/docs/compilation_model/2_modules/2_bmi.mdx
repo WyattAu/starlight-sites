@@ -511,11 +511,11 @@ build CMakeFiles/App.dir/main.cpp.o: dyndep | CMakeFiles/Engine.dir/engine.pcm
 
 ## Intuition
 
-**Module build systems:** BMI (Binary Module Interface) is like a compiled interface — it pre-processes module interfaces for faster builds.
+**Module build systems:** BMI (Binary Module Interface) is like a compiled interface, it pre-processes module interfaces for faster builds.
 
 **Why it matters:** Understanding BMI helps you set up build systems that take advantage of modules for faster compilation.
 
-**The key insight:** BMI files are platform-specific — they can't be shared between different compilers or architectures.
+**The key insight:** BMI files are platform-specific, they can't be shared between different compilers or architectures.
 
 ## Common Pitfalls
 
@@ -566,7 +566,7 @@ Information for Module B to instantiate `foo<int>` if needed. This means:
 - **Concept constraints** used by the template must be available for constraint checking in
   importers.
 
-This is why BMIs for headers like `<vector>` are so large — they must carry the full definitions of
+This is why BMIs for headers like `<vector>` are so large, they must carry the full definitions of
 Dozens of internal templates (allocators, iterators, node types) so that downstream TUs can
 Instantiate `std::vector<T>` without re-parsing the header.
 

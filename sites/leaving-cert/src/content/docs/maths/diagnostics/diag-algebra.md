@@ -343,7 +343,7 @@ Perimeter $= 2(13 + 5) = 2(18) = 36\,\text{cm}$.
 
 **Why it matters:** Algebraic skills are essential for science, engineering, finance, and everyday problem-solving. They develop the logical thinking needed for any quantitative career.
 
-**The key insight:** Rearranging equations is not arbitrary manipulation — each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
+**The key insight:** Rearranging equations is not arbitrary manipulation, each step must maintain balance, reflecting the physical or mathematical equality the equation represents.
 
 
 ```mermaid

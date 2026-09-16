@@ -1,7 +1,7 @@
 ---
 
 title: Template Instantiation, Monomorphization, and Code Bloat
-description: "Templates are blueprints the compiler uses to generate type-specific code on demand. This process — Called — produces optimized, type-specific functions and"
+description: "Templates are blueprints the compiler uses to generate type-specific code on demand. This process, Called, produces optimized, type-specific functions and"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -21,8 +21,8 @@ categories:
 
 ## Template Instantiation, Monomorphization, and Code Bloat
 
-Templates are blueprints the compiler uses to generate type-specific code on demand. This process —
-Called **instantiation** — produces optimized, type-specific functions and classes through
+Templates are blueprints the compiler uses to generate type-specific code on demand. This process,
+Called **instantiation**, produces optimized, type-specific functions and classes through
 **monomorphization**, but can lead to significant code bloat if not managed carefully.
 
 ## Function Templates and Class Templates

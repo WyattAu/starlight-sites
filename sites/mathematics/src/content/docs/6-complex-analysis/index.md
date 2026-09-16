@@ -72,7 +72,7 @@ University-level complex analysis notes covering analytic functions, integration
 
 ## Topics Covered
 
-- **Complex Functions**: Analyticity, Cauchy-Riemann equations, conformal mappings. A function f(z) is analytic if it is differentiable in a neighbourhood — this single condition imposes enormous rigidity.
+- **Complex Functions**: Analyticity, Cauchy-Riemann equations, conformal mappings. A function f(z) is analytic if it is differentiable in a neighbourhood, this single condition imposes enormous rigidity.
 - **Complex Integration**: Contour integrals, Cauchy's theorem, integral formula. Contour integrals depend only on singularities, not the path, for analytic functions.
 - **Series and Singularities**: Taylor and Laurent series, residues, poles. Singularities are classified by the Laurent expansion: removable, pole, or essential.
 - **Applications**: Contour integration, argument principle, maximum modulus principle. The residue theorem converts hard real integrals into algebraic computations.
@@ -81,11 +81,11 @@ University-level complex analysis notes covering analytic functions, integration
 
 - Single-variable calculus (differentiation, integration). You should be comfortable with derivatives, integrals, and series.
 - Linear algebra (complex numbers, vectors). Complex numbers are the foundation; polar form and Euler's formula are essential.
-- Mathematical proofs and logic. Complex analysis is proof-based — you will need to write rigorous arguments.
+- Mathematical proofs and logic. Complex analysis is proof-based, you will need to write rigorous arguments.
 
 ## How to Use These Notes
 
-Start with complex numbers review to build foundational knowledge, then progress to analytic functions and integration. Each section includes worked examples and practice problems. The residue theorem is the central computational tool — master it early.
+Start with complex numbers review to build foundational knowledge, then progress to analytic functions and integration. Each section includes worked examples and practice problems. The residue theorem is the central computational tool, master it early.
 
 ## Navigation
 

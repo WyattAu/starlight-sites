@@ -21,7 +21,7 @@ categories:
 ## Iterable Interface
 
 `Iterable<T>` is the root of Dart's collection hierarchy. Both `List<T>` and `Set<T>` implement it,
-And `Map<K,V>` implements it via its `entries` property. An `Iterable` is a **lazy sequence** — it
+And `Map<K,V>` implements it via its `entries` property. An `Iterable` is a **lazy sequence**, it
 Describes how to produce elements but does not materialize them until a terminal operation (like
 `toList()` or `forEach()`) forces evaluation.
 
@@ -35,8 +35,8 @@ Until the iterable is consumed.
 ```dart
 final names = ['alice', 'bob', 'charlie'];
 final uppercased = names.map((n) => n.toUpperCase());
-// uppercased is an Iterable<String> — nothing has been executed yet
-print(uppercased.toList()); // [ALICE, BOB, CHARLIE] — now the function runs
+// uppercased is an Iterable<String>, nothing has been executed yet
+print(uppercased.toList()); // [ALICE, BOB, CHARLIE], now the function runs
 ```
 
 #### where()
@@ -79,14 +79,14 @@ final sum = [1, 2, 3, 4, 5].reduce((a, b) => a + b); // 15
 `fold` takes an explicit initial value and never throws on empty:
 
 ```dart
-final sum = <int>[].fold<int>(0, (a, b) => a + b); // 0 — no exception
+final sum = <int>[].fold<int>(0, (a, b) => a + b); // 0, no exception
 final result = [1, 2, 3].fold<String>(
   'Items: ",
   (acc, item) => ''$acc $item",
 ); // 'Items: 1 2 3'
 ```
 
-`fold` is strictly more general than `reduce` — anything `reduce` does, `fold` can do. Use `reduce`
+`fold` is strictly more general than `reduce`anything `reduce` does, `fold` can do. Use `reduce`
 When the initial value is semantically the first element (makes intent clearer). Use `fold` when you
 Need a different initial value or when the iterable might be empty.
 
@@ -108,11 +108,11 @@ Conditionally take or skip elements from the front of the iterable:
 
 ```dart
 final nums = [1, 2, 3, 4, 5, 1, 2];
-print(nums.takeWhile((n) => n < 4).toList()); // [1, 2, 3] — stops at first failure
-print(nums.skipWhile((n) => n < 4).toList()); // [4, 5, 1, 2] — skips until first failure
+print(nums.takeWhile((n) => n < 4).toList()); // [1, 2, 3], stops at first failure
+print(nums.skipWhile((n) => n < 4).toList()); // [4, 5, 1, 2], skips until first failure
 ```
 
-Unlike `where`These are **not** applied to all elements — they operate from the start and stop at
+Unlike `where`These are **not** applied to all elements, they operate from the start and stop at
 The first element that fails the condition.
 
 #### firstWhere(), lastWhere(), singleWhere()
@@ -140,8 +140,8 @@ Returns a lazy view that casts each element on access. Throws at access time, no
 ```dart
 final dynamicList = <dynamic>[1, 2, 3];
 final intList = dynamicList.cast<int>();
-// No exception yet — the cast is lazy
-print(intList.first); // 1 — works
+// No exception yet, the cast is lazy
+print(intList.first); // 1, works
 ```
 
 This is useful when interfacing with legacy APIs that return `List<dynamic>`.
@@ -172,19 +172,19 @@ final pipeline = items
 final result = pipeline.toList();
 ```
 
-Chaining lazy operations is effectively free — you are composing functions, not materializing
+Chaining lazy operations is effectively free, you are composing functions, not materializing
 Intermediate collections. This is the same model as Rust's `Iterator`Java's `Stream`And C#'s
 `IEnumerable`.
 
 ```dart
-// Lazy — single pass, no intermediate allocations
+// Lazy, single pass, no intermediate allocations
 final result = largeList
     .where((x) => x > 0)
     .map((x) => x * 2)
     .take(100)
     .toList();
 
-// Eager — creates intermediate list at each step
+// Eager, creates intermediate list at each step
 var temp1 = largeList.where((x) => x > 0).toList(); // allocation
 var temp2 = temp1.map((x) => x * 2).toList(); // allocation
 var result = temp2.take(100).toList(); // allocation
@@ -204,17 +204,17 @@ final a = <int>[];
 // Literal
 final b = [1, 2, 3];
 
-// List.filled — creates a list of N copies of a value
+// List.filled, creates a list of N copies of a value
 final c = List<int>.filled(5, 0); // [0, 0, 0, 0, 0]
 final d = List<String>.filled(3, ''); // ['', '', '']
 
-// List.generate — creates from a factory function
+// List.generate, creates from a factory function
 final e = List<int>.generate(5, (i) => i * i); // [0, 1, 4, 9, 16]
 
-// List.of — copies from another iterable
+// List.of, copies from another iterable
 final f = List<int>.of([1, 2, 3]); // [1, 2, 3]
 
-// List.unmodifiable — creates a view that cannot be modified
+// List.unmodifiable, creates a view that cannot be modified
 final g = List<int>.unmodifiable([1, 2, 3]);
 // g.add(4); // throws UnsupportedError
 ```
@@ -229,9 +229,9 @@ growable.add(4); // OK
 // Fixed-length
 final fixed = List<int>.filled(3, 0, growable: false);
 // fixed.add(4); // throws UnsupportedError
-fixed[0] = 99; // OK — mutation of existing elements is fine
+fixed[0] = 99; // OK, mutation of existing elements is fine
 
-// Unmodifiable — neither add nor mutate
+// Unmodifiable, neither add nor mutate
 final unmod = List<int>.unmodifiable([1, 2, 3]);
 // unmod[0] = 99; // throws UnsupportedError
 // unmod.add(4); // throws UnsupportedError
@@ -265,20 +265,20 @@ list.retainWhere((x) => x > 0); // keeps only elements matching predicate
 ```dart
 final list = [0, 1, 2, 3, 4, 5];
 
-// sublist — creates a NEW list (copy)
+// sublist, creates a NEW list (copy)
 final sub = list.sublist(1, 4); // [1, 2, 3]
 
-// getRange — returns an Iterable (lazy view, does NOT copy)
+// getRange, returns an Iterable (lazy view, does NOT copy)
 final range = list.getRange(1, 4); // Iterable<int> yielding 1, 2, 3
 
-// setRange — replaces a range with elements from an iterable
+// setRange, replaces a range with elements from an iterable
 list.setRange(1, 4, [10, 20, 30]); // [0, 10, 20, 30, 4, 5]
 
-// replaceRange — removes a range and inserts new elements
+// replaceRange, removes a range and inserts new elements
 list.replaceRange(2, 4, [99]); // [0, 10, 99, 4, 5]
 ```
 
-`sublist` allocates a new list. `getRange` does not — but the returned iterable holds a reference to
+`sublist` allocates a new list. `getRange` does not, but the returned iterable holds a reference to
 The original list, so mutations to the original are visible through the range view.
 
 ### asMap()
@@ -301,9 +301,9 @@ This is the idiomatic way to enumerate a list with indices. Do not use a manual 
 
 ```dart
 final list = [1, 2, 3, 2, 1];
-list.indexOf(2);     // 1 — first occurrence
-list.lastIndexOf(2); // 3 — last occurrence
-list.indexOf(99);    // -1 — not found
+list.indexOf(2);     // 1, first occurrence
+list.lastIndexOf(2); // 3, last occurrence
+list.indexOf(99);    // -1, not found
 ```
 
 Both are O(n) linear scans. For frequent lookups, use a `Set` or `Map` instead.
@@ -312,9 +312,9 @@ Both are O(n) linear scans. For frequent lookups, use a `Set` or `Map` instead.
 
 ```dart
 final list = [3, 1, 4, 1, 5, 9];
-list.sort(); // [1, 1, 3, 4, 5, 9] — in-place, uses natural ordering
+list.sort(); // [1, 1, 3, 4, 5, 9], in-place, uses natural ordering
 
-list.shuffle(); // random permutation — in-place
+list.shuffle(); // random permutation, in-place
 ```
 
 `sort()` modifies the list in place and returns `void`. It does not create a new sorted list.
@@ -322,7 +322,7 @@ list.shuffle(); // random permutation — in-place
 ## Set
 
 A `Set<T>` is an unordered collection of unique elements. It is Dart's mathematical set
-Implementation — it models set operations (union, intersection, difference) directly.
+Implementation, it models set operations (union, intersection, difference) directly.
 
 ### Constructors
 
@@ -333,17 +333,17 @@ final a = <int>{};
 // Literal
 final b = {1, 2, 3};
 
-// Set.from — from any iterable
+// Set.from, from any iterable
 final c = Set<int>.from([1, 2, 2, 3]); // {1, 2, 3}
 
-// Set.of — typed copy from iterable
+// Set.of, typed copy from iterable
 final d = Set<String>.of(['a', 'b', 'a']); // {'a', 'b'}
 
-// Set.identity — uses identity (===) instead of equals() for comparison
+// Set.identity, uses identity (===) instead of equals() for comparison
 final e = Set<Object>.identity();
 final obj = Object();
 e.add(obj);
-e.add(obj); // Set still has 1 element — same identity
+e.add(obj); // Set still has 1 element, same identity
 ```
 
 ### Mutation Operations
@@ -351,14 +351,14 @@ e.add(obj); // Set still has 1 element — same identity
 ```dart
 final set = {1, 2, 3};
 set.add(4);          // {1, 2, 3, 4}
-set.add(2);          // {1, 2, 3, 4} — no change, already present
+set.add(2);          // {1, 2, 3, 4}, no change, already present
 set.addAll({5, 6});  // {1, 2, 3, 4, 5, 6}
 set.remove(1);       // {2, 3, 4, 5, 6}
 set.removeAll({2, 6}); // {3, 4, 5}
 set.retainAll({3, 4}); // {3, 4}
 ```
 
-`add` returns `bool` — `true` if the element was added (not already present), `false` if it was
+`add` returns `bool``true` if the element was added (not already present), `false` if it was
 Already in the set. This is useful for deduplication logic:
 
 ```dart
@@ -376,8 +376,8 @@ final b = {3, 4, 5, 6};
 
 a.union(b);        // {1, 2, 3, 4, 5, 6}
 a.intersection(b); // {3, 4}
-a.difference(b);   // {1, 2} — elements in a but not in b
-b.difference(a);   // {5, 6} — elements in b but not in a
+a.difference(b);   // {1, 2}, elements in a but not in b
+b.difference(a);   // {5, 6}, elements in b but not in a
 ```
 
 ### containsAll()
@@ -410,23 +410,23 @@ Provides O(1) amortized operations.
 ```dart
 import "package:collection/collection.dart';
 
-// LinkedHashSet — default, preserves insertion order, O(1)
+// LinkedHashSet, default, preserves insertion order, O(1)
 final linked = LinkedHashSet<int>();
 linked.add(3);
 linked.add(1);
 linked.add(2);
 print(linked.toList()); // [3, 1, 2]
 
-// HashSet — no order guarantee, slightly faster than LinkedHashSet
+// HashSet, no order guarantee, slightly faster than LinkedHashSet
 final hash = HashSet<int>();
 // Same API, but iteration order is unspecified
 
-// SplayTreeSet — sorted order, O(log n) operations
+// SplayTreeSet, sorted order, O(log n) operations
 final splay = SplayTreeSet<int>();
 splay.add(3);
 splay.add(1);
 splay.add(2);
-print(splay.toList()); // [1, 2, 3] — always sorted
+print(splay.toList()); // [1, 2, 3], always sorted
 ```
 
 | Type            | Order                 | add/contains/remove | Use Case                                        |
@@ -456,7 +456,7 @@ class UserId {
 }
 
 final set = <UserId>{UserId('abc'), UserId('def')};
-print(set.contains(UserId('abc'))); // true — custom equality works
+print(set.contains(UserId('abc'))); // true, custom equality works
 ```
 
 If you only override `==` without `hashCode`The set will use the default `Object.hashCode`
@@ -476,19 +476,19 @@ final a = <String, int>{};
 // Literal
 final b = {'a': 1, 'b': 2, 'c': 3};
 
-// Map.from — from another map (creates a new map)
+// Map.from, from another map (creates a new map)
 final c = Map<String, int>.from({'x': 10, 'y': 20});
 
-// Map.of — typed copy
+// Map.of, typed copy
 final d = Map<String, int>.of({'a': 1, 'b': 2});
 
-// Map.fromEntries — from an iterable of MapEntry
+// Map.fromEntries, from an iterable of MapEntry
 final e = Map<String, int>.fromEntries([
   MapEntry('a', 1),
   MapEntry('b', 2),
 ]);
 
-// Map.unmodifiable — read-only view
+// Map.unmodifiable, read-only view
 final f = Map<String, int>.unmodifiable({'a': 1});
 // f['b'] = 2; // throws UnsupportedError
 ```
@@ -500,27 +500,27 @@ final map = {'a': 1, 'b': 2, 'c': 3};
 
 // Read
 map['a'];           // 1
-map['missing'];     // null — returns null for absent keys (no exception)
+map['missing'];     // null, returns null for absent keys (no exception)
 
 // Write
 map['d'] = 4;       // adds or updates
 map['a'] = 99;      // updates existing key
 
-// putIfAbsent — only inserts if key is absent
+// putIfAbsent, only inserts if key is absent
 map.putIfAbsent('e', () => 5); // {'a': 99, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
-map.putIfAbsent('a', () => 999); // no change — 'a' already exists
+map.putIfAbsent('a', () => 999); // no change, 'a' already exists
 
-// update — modify an existing value, or insert/remove
+// update, modify an existing value, or insert/remove
 map.update('a', (value) => value + 1); // 99 -> 100
 map.update('missing', (value) => value, ifAbsent: () => 42); // inserts 42
 
-// updateAll — batch update
+// updateAll, batch update
 map.updateAll((key, value) => value * 2); // all values doubled
 
 // remove
 map.remove('b'); // removes 'b' and returns its value (2)
 
-// removeWhere — remove entries matching predicate
+// removeWhere, remove entries matching predicate
 map.removeWhere((key, value) => value > 50);
 
 // Query
@@ -566,7 +566,7 @@ final transformed = original.map(
 // {'A': 10, 'B': 20, 'C': 30}
 ```
 
-Note: this returns a lazy `Map` — the transformation is applied on access.
+Note: this returns a lazy `Map`the transformation is applied on access.
 
 ### Iteration Order
 
@@ -578,7 +578,7 @@ final map = <String, int>{};
 map['z'] = 1;
 map['a'] = 2;
 map['m'] = 3;
-print(map.keys.toList()); // [z, a, m] — insertion order preserved
+print(map.keys.toList()); // [z, a, m], insertion order preserved
 ```
 
 If you need sorted iteration, wrap the keys: `map.keys.toList()..sort()` or use `SplayTreeMap` from
@@ -606,7 +606,7 @@ class CaseInsensitiveString {
 final map = <CaseInsensitiveString, int>{
   CaseInsensitiveString('Hello'): 1,
 };
-print(map[CaseInsensitiveString('HELLO')]); // 1 — case-insensitive lookup
+print(map[CaseInsensitiveString('HELLO')]); // 1, case-insensitive lookup
 ```
 
 ## Collection-if and Collection-for
@@ -648,11 +648,11 @@ final extended = [...base, 4, 5]; // [1, 2, 3, 4, 5]
 
 final setA = {1, 2, 3};
 final setB = {3, 4, 5};
-final union = {...setA, ...setB}; // {1, 2, 3, 4, 5}
+final union = {...setA...setB}; // {1, 2, 3, 4, 5}
 
 final defaults = {'theme': "light'', "lang': "en''};
 final userPrefs = {"theme': "dark''};
-final config = {...defaults, ...userPrefs}; // {"theme': "dark'', "lang': "en''}
+final config = {...defaults...userPrefs}; // {"theme': "dark'', "lang': "en''}
 ```
 
 ### Null-Aware Spreads
@@ -661,7 +661,7 @@ The `...?` operator spreads only if the expression is non-null. If null, it inse
 
 ```dart
 List<int>? maybeList = someCondition ? [1, 2, 3] : null;
-final result = [0, ...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
+final result = [0...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
 ```
 
 Without `...?`A null spread throws at runtime. Always use `...?` when the spread source might be
@@ -698,7 +698,7 @@ These create **wrappers** around an existing collection that throw `UnsupportedE
 final source = [1, 2, 3];
 final unmod = List.unmodifiable(source);
 source.add(4);
-print(unmod); // [1, 2, 3, 4] — the view reflects changes to the source!
+print(unmod); // [1, 2, 3, 4], the view reflects changes to the source!
 // unmod.add(5); // throws UnsupportedError
 ```
 
@@ -716,7 +716,7 @@ const config = {"host': "localhost'', "port': 8080};
 // config['debug'] = true; // compile-time error
 ```
 
-`const` is the strongest immutability guarantee in Dart — it is enforced by the compiler, not at
+`const` is the strongest immutability guarantee in Dart, it is enforced by the compiler, not at
 Runtime. Use it for configuration, lookup tables, and any data that is truly constant.
 
 ### When to Use Which
@@ -807,7 +807,7 @@ listCompare([1, 2, 3], [1, 2, 3]); // true
 
 ## Performance Considerations
 
-### List — Growable Array
+### List, Growable Array
 
 Dart's growable `List` is backed by a contiguous array that doubles in capacity when full. This
 Gives:
@@ -827,7 +827,7 @@ Occasionally a resize occurs that copies the entire array. For large lists where
 Size upfront, use `List(growable: true)` with a pre-allocated capacity, or use `List.filled()` with
 `growable: true` and then overwrite elements.
 
-### Set — Hash Table
+### Set, Hash Table
 
 Dart's default `LinkedHashSet` is a hash table with open addressing:
 
@@ -843,7 +843,7 @@ Hash collisions degrade to O(n) in the worst case, but this is rare with a good 
 Your custom `hashCode` implementation is poor (e.g., always returns the same value), you get a
 Degenerate linked list and O(n) for everything.
 
-### Map — Hash Table
+### Map, Hash Table
 
 Same characteristics as `Set`:
 
@@ -873,7 +873,7 @@ for (final word in words) {
 
 ### Memory Overhead
 
-- `List` stores elements contiguously — minimal overhead per element (one pointer/reference).
+- `List` stores elements contiguously, minimal overhead per element (one pointer/reference).
 - `LinkedHashSet` has per-entry overhead for the hash table buckets and the doubly-linked list that
   preserves insertion order.
 - `LinkedHashMap` has the most overhead per entry: two references (key and value) plus hash table
@@ -884,9 +884,9 @@ For very large datasets where memory is a concern, `List` is the most compact op
 
 ## Intuition
 
-**Collections are different shaped containers for different jobs:** `List` is an ordered bookshelf — you know exactly where each book is by its position. `Set` is a bag of marbles — no duplicates, and you can quickly check "do I already have this one?" `Map` is a filing cabinet — you look up folders by name, not by position. `Iterable` is a recipe — it describes *how* to produce ingredients but doesn't cook anything until you actually ask for the food (`toList()`, `forEach()`).
+**Collections are different shaped containers for different jobs:** `List` is an ordered bookshelf, you know exactly where each book is by its position. `Set` is a bag of marbles, no duplicates, and you can quickly check "do I already have this one?" `Map` is a filing cabinet, you look up folders by name, not by position. `Iterable` is a recipe, it describes *how* to produce ingredients but doesn't cook anything until you actually ask for the food (`toList()`, `forEach()`).
 
-**Why it matters:** Dart's lazy iterables (`map`, `where`, `expand`) are like reading a recipe without cooking — you compose the steps for free, and only pay the cost when you actually execute. This makes chained transformations on large datasets efficient by avoiding intermediate collections.
+**Why it matters:** Dart's lazy iterables (`map`, `where`, `expand`) are like reading a recipe without cooking, you compose the steps for free, and only pay the cost when you actually execute. This makes chained transformations on large datasets efficient by avoiding intermediate collections.
 
 **The key insight:** Choose your collection by what operation you need most: index access → `List`, uniqueness → `Set`, key lookup → `Map`. Mixing them up leads to O(n²) where O(1) was available.
 
@@ -895,19 +895,19 @@ For very large datasets where memory is a concern, `List` is the most compact op
 ### 1. Mutating a List While Iterating
 
 ```dart
-// WRONG — ConcurrentModificationError
+// WRONG, ConcurrentModificationError
 final list = [1, 2, 3, 4, 5];
 for (final item in list) {
   if (item == 3) list.remove(item);
 }
 
-// CORRECT — collect indices, then remove
+// CORRECT, collect indices, then remove
 final toRemove = list.where((x) => x == 3).toList();
 for (final item in toRemove) {
   list.remove(item);
 }
 
-// CORRECT — use removeWhere
+// CORRECT, use removeWhere
 list.removeWhere((x) => x == 3);
 ```
 
@@ -916,7 +916,7 @@ list.removeWhere((x) => x == 3);
 ```dart
 final a = [1, 2, 3];
 final b = [1, 2, 3];
-print(a == b); // false — == checks identity for List, not structural equality
+print(a == b); // false, == checks identity for List, not structural equality
 
 // Use ListEquality from package:collection
 import 'package:collection/collection.dart';
@@ -928,7 +928,7 @@ print(a.length == b.length &&
 ```
 
 Dart's `List.==` and `Map.==` use identity comparison (`identical()`), not structural equality. This
-Is by design — structural equality on large collections is expensive, and the language avoids
+Is by design, structural equality on large collections is expensive, and the language avoids
 Implicit O(n) operations.
 
 ### 3. Unmodifiable Views Are Not Copies
@@ -937,7 +937,7 @@ Implicit O(n) operations.
 final source = [1, 2, 3];
 final view = List.unmodifiable(source);
 source.add(4);
-print(view.length); // 4 — the view reflects the mutation
+print(view.length); // 4, the view reflects the mutation
 ```
 
 `List.unmodifiable()` creates a wrapper that prevents mutation through the view, but does not
@@ -954,11 +954,11 @@ class BadKey {
   @override
   bool operator ==(Object other) => other is BadKey && other.id == id;
 
-  // NO hashCode override — this breaks Set and Map!
+  // NO hashCode override, this breaks Set and Map!
 }
 
 final set = <BadKey>{BadKey(1)};
-print(set.contains(BadKey(1))); // likely false — different hashCode, different bucket
+print(set.contains(BadKey(1))); // likely false, different hashCode, different bucket
 ```
 
 Always override both `operator==` and `hashCode` together. The simplest correct approach for value
@@ -972,12 +972,12 @@ int get hashCode => id.hashCode;
 ### 5. List.filled() with a Mutable Default Value
 
 ```dart
-// WRONG — all elements share the SAME list object
+// WRONG, all elements share the SAME list object
 final rows = List<List<int>>.filled(3, <int>[]);
 rows[0].add(1);
-print(rows); // [[1], [1], [1]] — all three rows are the same list!
+print(rows); // [[1], [1], [1]], all three rows are the same list!
 
-// CORRECT — generate a new list for each element
+// CORRECT, generate a new list for each element
 final rows = List<List<int>>.generate(3, (_) => <int>[]);
 rows[0].add(1);
 print(rows); // [[1], [], []]
@@ -990,13 +990,13 @@ Independent.
 ### 6. Removing from a List While Using indexOf
 
 ```dart
-// WRONG — shifting indices after each removal
+// WRONG, shifting indices after each removal
 final list = [1, 2, 3, 2, 4, 2];
 while (list.indexOf(2) != -1) {
   list.removeAt(list.indexOf(2)); // Each removal shifts subsequent indices
 }
 
-// CORRECT — removeWhere
+// CORRECT, removeWhere
 list.removeWhere((x) => x == 2);
 ```
 
@@ -1005,28 +1005,28 @@ list.removeWhere((x) => x == 2);
 ```dart
 import 'dart:collection';
 
-// WRONG — HashSet iteration order is unspecified
+// WRONG, HashSet iteration order is unspecified
 final set = HashSet<int>();
 set.addAll([3, 1, 2]);
 // Do not assume print(set.toList()) produces [3, 1, 2]
 
-// CORRECT — use LinkedHashSet if order matters
+// CORRECT, use LinkedHashSet if order matters
 final ordered = LinkedHashSet<int>();
 ordered.addAll([3, 1, 2]);
-print(ordered.toList()); // [3, 1, 2] — guaranteed insertion order
+print(ordered.toList()); // [3, 1, 2], guaranteed insertion order
 ```
 
 ### 8. Excessive Intermediate Lists from Lazy-to-Eager Conversion
 
 ```dart
-// WRONG — creates 3 intermediate lists
+// WRONG, creates 3 intermediate lists
 final result = items
     .where((x) => x.isActive)
     .map((x) => x.name)
     .where((x) => x.isNotEmpty)
     .toList();
 
-// This is fine — the chain is lazy until toList()
+// This is fine, the chain is lazy until toList()
 // But if you insert .toList() between steps:
 final step1 = items.where((x) => x.isActive).toList(); // allocation
 final step2 = step1.map((x) => x.name).toList(); // allocation
@@ -1041,11 +1041,11 @@ Materialize at the end.
 ```dart
 final map = <String, int?>{};
 map['missing'] = null;
-print(map['missing']); // null — but is the key absent or present with null value?
+print(map['missing']); // null, but is the key absent or present with null value?
 
 // Use containsKey to distinguish
-map.containsKey('missing'); // true — the key exists with a null value
-map.containsKey('nonexistent'); // false — the key does not exist
+map.containsKey('missing'); // true, the key exists with a null value
+map.containsKey('nonexistent'); // false, the key does not exist
 ```
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when

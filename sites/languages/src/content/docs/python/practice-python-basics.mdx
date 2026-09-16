@@ -13,11 +13,11 @@ categories:
 
 ## Intuition
 
-**Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
+**Learning through practice:** Practice problems are like training drills, they help you apply knowledge and identify areas that need more study.
 
 **Why it matters:** Regular practice builds confidence and reveals patterns in how concepts are tested. Each problem reinforces key programming concepts.
 
-**The key insight:** Making mistakes during practice is valuable — each error points to a concept that needs clarification.
+**The key insight:** Making mistakes during practice is valuable, each error points to a concept that needs clarification.
 
 ---
 
@@ -33,8 +33,8 @@ squares_gen = (x**2 for x in range(1000000))
 ```
 
 **Solution:**
-Step 1: `squares_list` is a list — all 1,000,000 values are computed and stored in memory immediately
-Step 2: `squares_gen` is a generator expression — values are computed lazily, one at a time, when iterated
+Step 1: `squares_list` is a list, all 1,000,000 values are computed and stored in memory immediately
+Step 2: `squares_gen` is a generator expression, values are computed lazily, one at a time, when iterated
 Step 3: Memory: list uses ~8 MB, generator uses ~200 bytes (just the expression and iterator state)
 Step 4: Speed: first iteration is similar, but generator wins for large datasets due to lower memory overhead
 
@@ -114,9 +114,9 @@ C. False
 D. SyntaxError
 
 <details>
-<summary>Show answer — C</summary>
+<summary>Show answer, C</summary>
 
-**Answer: C** — `type([1, 2, 3])` is `\<class 'list'>` and `type((1, 2, 3))` is `\<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.
+**Answer: C**, `type([1, 2, 3])` is `\<class 'list'>` and `type((1, 2, 3))` is `\<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.
 
 </details>
 
@@ -128,9 +128,9 @@ C. int
 D. tuple
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.
+**Answer: A**, Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.
 
 </details>
 
@@ -146,9 +146,9 @@ C. TypeError
 D. [1, 2]
 
 <details>
-<summary>Show answer — D</summary>
+<summary>Show answer, D</summary>
 
-**Answer: D** — Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+**Answer: D**, Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 
 </details>
 
@@ -160,9 +160,9 @@ C. Loop, Enclosing, Global, Built-in
 D. Local, Enclosed, Generic, Built-in',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used.
+**Answer: A**, Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used.
 
 </details>
 
@@ -178,9 +178,9 @@ C. None
 D. 0
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.
+**Answer: A**, Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.
 
 </details>
 
@@ -192,9 +192,9 @@ C. D, B, A, C, object
 D. D, B, C, A, object
 
 <details>
-<summary>Show answer — D</summary>
+<summary>Show answer, D</summary>
 
-**Answer: D** — Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`.
+**Answer: D**, Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`.
 
 </details>
 
@@ -210,9 +210,9 @@ C. Limits the function to 2 total calls
 D. Raises an error when the cache is full',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — The LRU (Least Recently Used) cache stores up to `maxsize` distinct argument-result pairs. When the cache is full, the least recently used entry is evicted. For recursive functions like Fibonacci, this transforms exponential time complexity into linear by avoiding recomputation of subproblems.
+**Answer: A**, The LRU (Least Recently Used) cache stores up to `maxsize` distinct argument-result pairs. When the cache is full, the least recently used entry is evicted. For recursive functions like Fibonacci, this transforms exponential time complexity into linear by avoiding recomputation of subproblems.
 
 </details>
 
@@ -224,9 +224,9 @@ C. It returns the value normally like a regular function
 D. It raises SyntaxError',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — In a generator function, `return value` raises `StopIteration(value)` to signal the generator is exhausted. The `value` is attached to the exception and can be retrieved via the return value of `next()` (using a try/except StopIteration) or by capturing it from `yield from`. The generator cannot be resumed after `return`.
+**Answer: A**, In a generator function, `return value` raises `StopIteration(value)` to signal the generator is exhausted. The `value` is attached to the exception and can be retrieved via the return value of `next()` (using a try/except StopIteration) or by capturing it from `yield from`. The generator cannot be resumed after `return`.
 
 </details>
 
@@ -239,9 +239,9 @@ D. It raises SyntaxError',
 A. ZeroDivisionError is raised and not caught', &quot;'caught' is printed&quot;, &quot;'ZeroDivisionError: division by zero' is printed&quot;, 'None',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Dividing by zero raises `ZeroDivisionError`, which is a subclass of `ArithmeticError` and `Exception`, but NOT of `ValueError`. Since the `except` clause only catches `ValueError`, the exception propagates uncaught. The program would terminate with a traceback unless caught by an outer handler.
+**Answer: A**, Dividing by zero raises `ZeroDivisionError`, which is a subclass of `ArithmeticError` and `Exception`, but NOT of `ValueError`. Since the `except` clause only catches `ValueError`, the exception propagates uncaught. The program would terminate with a traceback unless caught by an outer handler.
 
 </details>
 
@@ -257,9 +257,9 @@ C. It raises SyntaxError
 D. It returns None',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+**Answer: A**, Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 
 </details>
 
@@ -271,9 +271,9 @@ C. It enables multiple inheritance
 D. It adds type checking to attributes x and y',
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
+**Answer: A**, `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
 
 </details>
 
@@ -354,7 +354,7 @@ C. False
 D. SyntaxError
 
 **Answer: C**
-— `type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.
+- `type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.
 *Difficulty: medium*
 
 
@@ -366,7 +366,7 @@ C. int
 D. tuple
 
 **Answer: A**
-— Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.
+- Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.
 *Difficulty: medium*
 
 
@@ -378,7 +378,7 @@ C. TypeError
 D. [1, 2]
 
 **Answer: D**
-— Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+- Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 *Difficulty: medium*
 
 
@@ -390,7 +390,7 @@ C. Loop, Enclosing, Global, Built-in
 D. Local, Enclosed, Generic, Built-in',
 
 **Answer: A**
-— Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used.
+- Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used.
 *Difficulty: medium*
 
 
@@ -402,7 +402,7 @@ C. None
 D. 0
 
 **Answer: A**
-— Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.
+- Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.
 *Difficulty: medium*
 
 
@@ -414,7 +414,7 @@ C. D, B, A, C, object
 D. D, B, C, A, object
 
 **Answer: D**
-— Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`.
+- Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`.
 *Difficulty: medium*
 
 
@@ -426,7 +426,7 @@ C. Limits the function to 2 total calls
 D. Raises an error when the cache is full',
 
 **Answer: A**
-— The LRU (Least Recently Used) cache stores up to `maxsize` distinct argument-result pairs. When the cache is full, the least recently used entry is evicted. For recursive functions like Fibonacci, this transforms exponential time complexity into linear by avoiding recomputation of subproblems.
+- The LRU (Least Recently Used) cache stores up to `maxsize` distinct argument-result pairs. When the cache is full, the least recently used entry is evicted. For recursive functions like Fibonacci, this transforms exponential time complexity into linear by avoiding recomputation of subproblems.
 *Difficulty: medium*
 
 
@@ -438,7 +438,7 @@ C. It returns the value normally like a regular function
 D. It raises SyntaxError',
 
 **Answer: A**
-— In a generator function, `return value` raises `StopIteration(value)` to signal the generator is exhausted. The `value` is attached to the exception and can be retrieved via the return value of `next()` (using a try/except StopIteration) or by capturing it from `yield from`. The generator cannot be resumed after `return`.
+- In a generator function, `return value` raises `StopIteration(value)` to signal the generator is exhausted. The `value` is attached to the exception and can be retrieved via the return value of `next()` (using a try/except StopIteration) or by capturing it from `yield from`. The generator cannot be resumed after `return`.
 *Difficulty: hard*
 
 
@@ -450,7 +450,7 @@ C. It raises SyntaxError
 D. It returns None',
 
 **Answer: A**
-— Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+- Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 *Difficulty: hard*
 
 
@@ -462,6 +462,6 @@ C. It enables multiple inheritance
 D. It adds type checking to attributes x and y',
 
 **Answer: A**
-— `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
+- `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
 *Difficulty: hard*
 

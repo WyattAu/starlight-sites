@@ -52,11 +52,11 @@ The theory of computation addresses the fundamental question of what can be comp
 
 ## Intuition
 
-**Drawing lines in the sand:** Theory of computation draws boundaries — it separates what any computer can solve from what no computer can solve, and what's easy from what's hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
+**Drawing lines in the sand:** Theory of computation draws boundaries, it separates what any computer can solve from what no computer can solve, and what's easy from what's hard. It's like discovering that some puzzles are solvable, some are impossible, and most are somewhere in between.
 
-**Why it matters:** Complexity theory tells you whether to keep searching for a fast algorithm or accept that exponential time is the best you'll get. This guides real engineering decisions — from cryptography (we rely on factoring being hard) to AI planning (we accept approximations for NP-hard problems).
+**Why it matters:** Complexity theory tells you whether to keep searching for a fast algorithm or accept that exponential time is the best you'll get. This guides real engineering decisions, from cryptography (we rely on factoring being hard) to AI planning (we accept approximations for NP-hard problems).
 
-**The key insight:** Not all problems are created equal — there are provable hierarchies of difficulty, and knowing where a problem sits tells you what approaches are worth pursuing.
+**The key insight:** Not all problems are created equal, there are provable hierarchies of difficulty, and knowing where a problem sits tells you what approaches are worth pursuing.
 
 ## Key Concepts
 
@@ -125,9 +125,9 @@ Each section includes:
 
 ## Common Mistakes
 
-1. **Confusing recognisability with decidability.** A language is decidable if a Turing machine halts on every input (accepting or rejecting). A language is merely recognisable if the TM halts on accepted inputs but may loop forever on rejected inputs. The halting problem is recognisable but not decidable — this distinction is fundamental.
+1. **Confusing recognisability with decidability.** A language is decidable if a Turing machine halts on every input (accepting or rejecting). A language is merely recognisable if the TM halts on accepted inputs but may loop forever on rejected inputs. The halting problem is recognisable but not decidable, this distinction is fundamental.
 
-2. **Applying pumping lemmas in the wrong direction.** The pumping lemma says "if a language is regular, then it has property X." To prove a language is not regular, you show it lacks property X (proof by contradiction). Using the pumping lemma to prove a language *is* regular is invalid — closure properties are the correct tool for that.
+2. **Applying pumping lemmas in the wrong direction.** The pumping lemma says "if a language is regular, then it has property X." To prove a language is not regular, you show it lacks property X (proof by contradiction). Using the pumping lemma to prove a language *is* regular is invalid, closure properties are the correct tool for that.
 
 3. **Assuming P ≠ NP is proven.** Despite widespread belief, P vs. NP remains one of the most important open problems in computer science. You cannot use "it's NP-complete" as a justification for why something cannot be solved efficiently unless you assume P ≠ NP, which is unproven.
 

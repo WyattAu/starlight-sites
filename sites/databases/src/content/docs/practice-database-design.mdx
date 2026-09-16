@@ -224,11 +224,11 @@ sidebar_position: 50
 
 **Why it matters:** Database design affects application performance, data integrity, and developer productivity. A well-designed database makes applications faster and easier to maintain.
 
-**The key insight:** Normalisation follows a progression (1NF, 2NF, 3NF, BCNF) where each level eliminates a specific type of redundancy — understanding *why* each level exists is more important than memorising the rules.
+**The key insight:** Normalisation follows a progression (1NF, 2NF, 3NF, BCNF) where each level eliminates a specific type of redundancy, understanding *why* each level exists is more important than memorising the rules.
 
 ## Common Mistakes
 
-**Confusing primary keys with unique keys:** A primary key cannot be NULL and there can be only one per table. A unique key allows NULL values (in most RDBMS) and a table can have multiple unique keys. Choose primary keys carefully — they affect index performance and foreign key references.
+**Confusing primary keys with unique keys:** A primary key cannot be NULL and there can be only one per table. A unique key allows NULL values (in most RDBMS) and a table can have multiple unique keys. Choose primary keys carefully, they affect index performance and foreign key references.
 
 **Over-normalising to 5NF/6NF without justification:** Boyce-Codd Normal Form handles most practical cases. Higher normal forms address rare edge cases (join dependencies) that almost never matter in real applications. Over-normalising makes queries complex without meaningful benefit.
 

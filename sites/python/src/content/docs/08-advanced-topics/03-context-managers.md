@@ -38,11 +38,11 @@ finally:
 ### Multiple Context Managers
 
 ```python
-# Sequential — both opened, both closed
+# Sequential, both opened, both closed
 with open("input.txt") as infile, open("output.txt", "w") as outfile:
     outfile.write(infile.read())
 
-# Nested — same as above, different syntax
+# Nested, same as above, different syntax
 with open("input.txt") as infile:
     with open("output.txt", "w") as outfile:
         outfile.write(infile.read())
@@ -316,7 +316,7 @@ with rlock:
 with semaphore:
     pass  # Limited to 3 concurrent
 
-with event:  # Not useful for events — use event.wait() instead
+with event:  # Not useful for events, use event.wait() instead
     pass
 ```
 
@@ -566,12 +566,12 @@ import time
 import random
 
 @contextmanager
-def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception,)):
+def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception)):
     last_exc = None
     for attempt in range(max_attempts):
         try:
             yield
-            return  # Success — exit context manager
+            return  # Success, exit context manager
         except exceptions as e:
             last_exc = e
             if attempt < max_attempts - 1:
@@ -580,7 +580,7 @@ def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception,)):
     raise last_exc
 
 # Usage
-with retry(max_attempts=3, exceptions=(ConnectionError,)):
+with retry(max_attempts=3, exceptions=(ConnectionError)):
     response = requests.get("https://api.example.com/data")
 ```
 
@@ -621,7 +621,7 @@ def log_duration(level=logging.INFO, message="Operation"):
         yield
     except Exception as e:
         elapsed = time.perf_counter() - start
-        logger.log(level, f"{message}: failed after {elapsed:.3f}s — {e}")
+        logger.log(level, f"{message}: failed after {elapsed:.3f}s, {e}")
         raise
     else:
         elapsed = time.perf_counter() - start
@@ -716,7 +716,7 @@ def setup_resources():
 with open("data.txt") as f:
     content = f.read()
 
-# f is closed here — but content is still valid (it's a string)
+# f is closed here, but content is still valid (it's a string)
 # However, if you stored the file object:
 with open("data.txt") as f:
     pass
@@ -733,7 +733,7 @@ class BadManager:
         return self  # Never reached
 
     def __exit__(self, *args):
-        print("Cleanup")  # NOT called — __enter__ raised
+        print("Cleanup")  # NOT called, __enter__ raised
 
 with BadManager():
     pass  # RuntimeError: Setup failed, __exit__ NOT called
@@ -746,7 +746,7 @@ try:
     with BadManager():
         pass
 except RuntimeError:
-    print("Setup failed — handle appropriately")
+    print("Setup failed, handle appropriately")
 ```
 
 ### 3. @contextmanager Yielding More Than Once
@@ -775,11 +775,11 @@ class Dangerous:
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        return True  # Suppresses ALL exceptions — in most cases wrong
+        return True  # Suppresses ALL exceptions, in most cases wrong
 
 with Dangerous():
     raise ValueError("critical error")
-# No exception raised — silently swallowed
+# No exception raised, silently swallowed
 ```
 
 Only suppress exceptions intentionally and for specific types. Always log suppressed exceptions:
@@ -796,7 +796,7 @@ def __exit__(self, exc_type, exc_val, exc_tb):
 ### 5. Not Using contextlib for Simple Patterns
 
 ```python
-# Verbose — manual implementation
+# Verbose, manual implementation
 class FileOpener:
     def __init__(self, path, mode):
         self.path = path
@@ -807,7 +807,7 @@ class FileOpener:
     def __exit__(self, *args):
         self.file.close()
 
-# Clean — use @contextmanager
+# Clean, use @contextmanager
 from contextlib import contextmanager
 
 @contextmanager
@@ -818,7 +818,7 @@ def file_opener(path, mode):
     finally:
         f.close()
 
-# Cleanest — open() is already a context manager
+# Cleanest, open() is already a context manager
 with open(path, mode) as f:
     pass
 ```
@@ -841,7 +841,7 @@ with ExitStack() as stack:
 ### 7. Async Context Manager in Sync Code
 
 ```python
-# WRONG — async context manager in sync with
+# WRONG, async context manager in sync with
 async def get_resource():
     yield "resource"
 

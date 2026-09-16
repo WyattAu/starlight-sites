@@ -60,7 +60,7 @@ Surface chemistry studies phenomena occurring at surfaces and interfaces. It cov
 - Catalysis: substances that increase reaction rate without being consumed
 - Enzyme catalysis: highly specific biological catalysts
 
-## Worked Example 1 — Freundlich Adsorption
+## Worked Example 1, Freundlich Adsorption
 
 **Problem:** At 298 K, the mass of gas adsorbed per gram of adsorbent is $0.12 \, \text{g}$ at $2 \, \text{atm}$ and $0.36 \, \text{g}$ at $6 \, \text{atm}$. Verify that the data fits the Freundlich isotherm and find $k$ and $n$.
 
@@ -91,7 +91,7 @@ $$k = 0.06$$
 
 **Common mistake:** Forgetting to take logarithms. The Freundlich equation is linear in log-log form.
 
-## Worked Example 2 — Colloidal Properties
+## Worked Example 2, Colloidal Properties
 
 **Problem:** A colloidal solution of $\text{Fe(OH)}_3$ is prepared by adding $\text{FeCl}_3$ to hot water. Explain why the sol is positively charged and describe how to purify it.
 
@@ -106,7 +106,7 @@ Purification by dialysis: The sol is placed in a parchment paper bag immersed in
 
 **Common mistake:** Confusing the charge on the colloidal particle with the charge on the stabilizing ion. The particle and its adsorbed ion have the same charge.
 
-## Worked Example 3 — Catalysis
+## Worked Example 3, Catalysis
 
 **Problem:** The decomposition of $\text{H}_2\text{O}_2$ is catalyzed by $\text{MnO}_2$. The rate constant increases from $1.2 \times 10^{-3} \, \text{s}^{-1}$ to $5.8 \times 10^{-2} \, \text{s}^{-1}$ at the same temperature. By what factor does the catalyst increase the rate?
 
@@ -131,11 +131,11 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 
 ## Intuition
 
-**Everything happens at surfaces:** Imagine a crowded dance floor where new dancers arriving at the edges create the most excitement — that's surface chemistry. Molecules accumulate on surfaces (adsorption) because surface atoms have unsatisfied bonding needs, like unfinished handshakes. The more surface area available, the more adsorption can happen. Colloids are tiny particles dispersed throughout a medium, like flour particles suspended in water when you're mixing batter — they're small enough to scatter light but large enough to stay suspended.
+**Everything happens at surfaces:** Imagine a crowded dance floor where new dancers arriving at the edges create the most excitement, that's surface chemistry. Molecules accumulate on surfaces (adsorption) because surface atoms have unsatisfied bonding needs, like unfinished handshakes. The more surface area available, the more adsorption can happen. Colloids are tiny particles dispersed throughout a medium, like flour particles suspended in water when you're mixing batter, they're small enough to scatter light but large enough to stay suspended.
 
 **Why it matters:** Surface chemistry explains why catalytic converters clean your car exhaust, why activated charcoal filters water, why soap forms micelles, and how your kidneys filter blood. It's the chemistry of interfaces, and interfaces are where most of the interesting action happens.
 
-**The key insight:** Physisorption is weak and reversible (like magnets on a fridge), while chemisorption involves actual chemical bonds (like welding) — and the right choice depends on whether you need temporary or permanent attachment.
+**The key insight:** Physisorption is weak and reversible (like magnets on a fridge), while chemisorption involves actual chemical bonds (like welding), and the right choice depends on whether you need temporary or permanent attachment.
 
 ## Common Exam Patterns
 
@@ -155,7 +155,7 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 
 ## Cross-References
 
-- **[Solutions](../solutions/index):** Adsorption depends on concentration of the adsorbate in solution — connecting surface chemistry to solution concepts.
-- **[Chemical Kinetics](../chemical-kinetics/index):** Catalysis speeds up reactions by providing alternative pathways — connecting surface chemistry to reaction rates.
+- **[Solutions](../solutions/index):** Adsorption depends on concentration of the adsorbate in solution, connecting surface chemistry to solution concepts.
+- **[Chemical Kinetics](../chemical-kinetics/index):** Catalysis speeds up reactions by providing alternative pathways, connecting surface chemistry to reaction rates.
 - **[Polymers](../polymers/index):** Polymeric colloids and polymer-surfactant interactions are important in surface chemistry applications.
 - **[Electrochemistry](../electrochemistry/index):** Electrophoresis of colloids involves electric fields, linking surface chemistry to electrochemistry.

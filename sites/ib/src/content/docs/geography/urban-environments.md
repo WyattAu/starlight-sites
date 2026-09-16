@@ -24,7 +24,7 @@ addressing challenges related to housing, transport, pollution, inequality, and 
 
 ## Intuition
 
-**Cities are like living organisms — they have circulation systems (transport), nervous systems (communications), and metabolic processes (resource consumption):** Urbanization concentrates both opportunities and challenges, creating complex systems that require careful planning and management
+**Cities are like living organisms, they have circulation systems (transport), nervous systems (communications), and metabolic processes (resource consumption):** Urbanization concentrates both opportunities and challenges, creating complex systems that require careful planning and management
 
 **Why it matters:** Understanding urban environments is essential as more than half the world's population now lives in cities
 

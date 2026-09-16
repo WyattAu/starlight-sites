@@ -21,7 +21,7 @@ import { practiceQuestions } from '@/data/flashcards/networking/practice-network
 
 ## Worked Examples
 
-### Example 1: Subnetting — CIDR Calculation
+### Example 1: Subnetting, CIDR Calculation
 
 **Problem:** Given the IP block 192.168.1.0/24, divide it into 4 equal subnets. List each subnet's address range, broadcast address, and number of usable hosts.
 
@@ -149,7 +149,7 @@ Acknowledgment: 5001
 
 **Why it matters:** Every internet-connected application depends on networking. Understanding protocols, addressing, and routing is essential for IT professionals and developers.
 
-**The key insight:** The layered model (physical, data link, network, transport, application) means each layer only needs to interface with its neighbours — changes at one layer do not affect others.
+**The key insight:** The layered model (physical, data link, network, transport, application) means each layer only needs to interface with its neighbours, changes at one layer do not affect others.
 
 ## Common Mistakes
 
@@ -157,7 +157,7 @@ Acknowledgment: 5001
 
 **Using classful subnetting when CIDR is standard:** Classful addressing (Class A/B/C with fixed masks) is obsolete. Modern networks use CIDR (Classless Inter-Domain Routing) with variable-length subnet masks. Confusing /24 with a Class C network leads to incorrect subnet calculations. Always work with CIDR notation.
 
-**Forgetting that DNS resolves names to IPs, not the reverse:** DNS maps domain names to IP addresses. The reverse (IP to name) uses reverse DNS (rDNS/PTR records). Students sometimes claim "DNS finds the website for you" — more precisely, DNS translates the name so routing can find the IP.
+**Forgetting that DNS resolves names to IPs, not the reverse:** DNS maps domain names to IP addresses. The reverse (IP to name) uses reverse DNS (rDNS/PTR records). Students sometimes claim "DNS finds the website for you", more precisely, DNS translates the name so routing can find the IP.
 
 ## See Also
 

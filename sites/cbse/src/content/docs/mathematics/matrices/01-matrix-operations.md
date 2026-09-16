@@ -40,7 +40,7 @@ Study notes for CBSE Class 12 mathematics - Matrix operations.
 - Scalar multiplication: $kA$ multiplies every entry of $A$ by $k$
 - A matrix is symmetric if $A^T = A$, skew-symmetric if $A^T = -A$
 
-## Worked Example 1 — Matrix Multiplication
+## Worked Example 1, Matrix Multiplication
 
 **Problem:** Given $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$, find $AB$ and $BA$.
 
@@ -52,7 +52,7 @@ $$BA = \begin{pmatrix} 5 \cdot 1 + 6 \cdot 3 & 5 \cdot 2 + 6 \cdot 4 \\ 7 \cdot 
 
 Note: $AB \neq BA$ (matrix multiplication is not commutative).
 
-## Worked Example 2 — Determinant and Inverse of a 3x3 Matrix
+## Worked Example 2, Determinant and Inverse of a 3x3 Matrix
 
 **Problem:** Find the determinant and inverse of $A = \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 4 \\ 5 & 6 & 0 \end{pmatrix}$.
 
@@ -73,7 +73,7 @@ $$A^{-1} = \frac{1}{\det(A)}\text{adj}(A) = \begin{pmatrix} -24 & 18 & 5 \\ 20 &
 
 Verification: $AA^{-1} = I$ (identity matrix).
 
-## Worked Example 3 — Solving a System Using Matrix Inverse
+## Worked Example 3, Solving a System Using Matrix Inverse
 
 **Problem:** Solve the system:
 $$x + 2y = 5$$

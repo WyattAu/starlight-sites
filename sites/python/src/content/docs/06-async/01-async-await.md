@@ -107,7 +107,7 @@ def fetch(url):
     data = urllib.request.urlopen(url).read()
     print(f"Fetched {len(data)} bytes from {url}")
 
-threads = [threading.Thread(target=fetch, args=(u,)) for u in urls]
+threads = [threading.Thread(target=fetch, args=(u)) for u in urls]
 for t in threads:
     t.start()
 for t in threads:
@@ -204,7 +204,7 @@ def access_resource(thread_id):
         print(f"Thread {thread_id} releasing the semaphore")
 
 for i in range(10):
-    threading.Thread(target=access_resource, args=(i,), daemon=True).start()
+    threading.Thread(target=access_resource, args=(i), daemon=True).start()
 ```
 
 #### `Event`
@@ -309,7 +309,7 @@ def worker(queue):
 
 if __name__ == "__main__":
     q = multiprocessing.Queue()
-    p = multiprocessing.Process(target=worker, args=(q,))
+    p = multiprocessing.Process(target=worker, args=(q))
     p.start()
 
     for _ in range(5):
@@ -331,7 +331,7 @@ def sender(conn):
 
 if __name__ == "__main__":
     parent_conn, child_conn = multiprocessing.Pipe()
-    p = multiprocessing.Process(target=sender, args=(child_conn,))
+    p = multiprocessing.Process(target=sender, args=(child_conn))
     p.start()
     print(parent_conn.recv())  # "hello from child"
     p.join()
@@ -1016,10 +1016,10 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
-| push(5)   | [5]                  | —      |
-| push(3)   | [3, 5]               | —      |
+| push(5)   | [5]                  |,      |
+| push(3)   | [3, 5]               |,      |
 | pop()     | [5]                  | 3      |
-| push(8)   | [8, 5]               | —      |
+| push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
 

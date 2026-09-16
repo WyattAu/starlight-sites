@@ -2335,7 +2335,7 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
 
 ```mermaid

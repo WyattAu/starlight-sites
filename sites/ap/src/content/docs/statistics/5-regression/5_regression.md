@@ -209,11 +209,11 @@ flowchart TD
 
 ## Intuition
 
-Regression analysis is about **quantifying the relationship between two quantitative variables** and using it for prediction. The key insight is that the least-squares regression line minimises the sum of squared residuals — the vertical distances between the data points and the line.
+Regression analysis is about **quantifying the relationship between two quantitative variables** and using it for prediction. The key insight is that the least-squares regression line minimises the sum of squared residuals, the vertical distances between the data points and the line.
 
 **Correlation vs causation:** A strong correlation ($r$ close to 1 or -1) does NOT imply causation. A lurking variable may be causing both variables to change. Only a randomised experiment can establish causation.
 
-**Interpreting slope and intercept:** The slope $b_1$ tells you how much $y$ changes for each unit increase in $x$. The intercept $b_0$ is the predicted $y$ when $x = 0$ — but it may not be meaningful if $x = 0$ is outside the range of observed data.
+**Interpreting slope and intercept:** The slope $b_1$ tells you how much $y$ changes for each unit increase in $x$. The intercept $b_0$ is the predicted $y$ when $x = 0$, but it may not be meaningful if $x = 0$ is outside the range of observed data.
 
 **$r^2$ intuition:** The coefficient of determination $r^2$ tells you what fraction of the variation in $y$ is explained by the linear relationship with $x$. An $r^2$ of 0.64 means 64% of the variability in $y$ is accounted for by $x$.
 

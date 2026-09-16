@@ -755,7 +755,7 @@ As needed:
 
 ```python
 def natural_numbers():
-    """The infinite sequence 0, 1, 2, 3, ..."""
+    """The infinite sequence 0, 1, 2, 3..."""
     n = 0
     while True:
         yield n
@@ -763,7 +763,7 @@ def natural_numbers():
 
 
 def fibonacci():
-    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, ..."""
+    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8..."""
     a, b = 0, 1
     while True:
         yield a
@@ -1137,7 +1137,7 @@ Ask these questions in order:
 ```python
 # Generator to list: materialize
 gen = (x ** 2 for x in range(100))
-lst = list(gen)  # [0, 1, 4, 9, 16, ...]
+lst = list(gen)  # [0, 1, 4, 9, 16...]
 
 # List to generator: wrap in a generator expression or use iter()
 lst = [1, 2, 3, 4, 5]
@@ -1183,7 +1183,7 @@ json.dumps(list(gen))
 
 ## Intuition
 
-A generator is a function that remembers where it left off. Instead of running to completion and returning a result, it pauses at each `yield` and hands you one piece of the puzzle. When you ask for the next piece, it resumes right where it stopped. This is like a vending machine — you insert a coin (call `next()`), it dispenses one item (yields a value), and waits for the next coin. The machine does not produce all items at once; it makes them on demand. This is why generators are memory-efficient — a million-item generator uses the memory of a single item. The `yield from` keyword is a delegation mechanism: imagine a manager handing a customer to a specialist, staying on the line but letting the specialist handle the conversation directly.
+A generator is a function that remembers where it left off. Instead of running to completion and returning a result, it pauses at each `yield` and hands you one piece of the puzzle. When you ask for the next piece, it resumes right where it stopped. This is like a vending machine, you insert a coin (call `next()`), it dispenses one item (yields a value), and waits for the next coin. The machine does not produce all items at once; it makes them on demand. This is why generators are memory-efficient, a million-item generator uses the memory of a single item. The `yield from` keyword is a delegation mechanism: imagine a manager handing a customer to a specialist, staying on the line but letting the specialist handle the conversation directly.
 
 ## Common Pitfalls
 

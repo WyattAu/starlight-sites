@@ -111,7 +111,7 @@ ls secret/          # Permission denied
 cat secret/data.txt # works!
 ```
 
-## chmod — Change Permissions
+## chmod, Change Permissions
 
 ### Symbolic Mode
 
@@ -197,22 +197,22 @@ umask 0027     # owner: rwx, group: rx, other: ---
 umask 0077     # owner only (private)
 
 # Common umask values
-# 0022 — world-readable (default on most systems)
-# 0027 — group-readable, no world access
-# 0077 — private (SSH, PGP directories)
+# 0022, world-readable (default on most systems)
+# 0027, group-readable, no world access
+# 0077, private (SSH, PGP directories)
 
 # Set in profile
 echo 'umask 0027' >> ~/.profile
 ```
 :::
 :::caution
-Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits — it
+Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits, it
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
 ~umask (e.g., 0644), never with execute bits set.
 
 ## Special Bits
 
-### setuid (SUID) — Octal 4000
+### setuid (SUID), Octal 4000
 
 When the setuid bit is set on an executable, the process runs with the **effective UID of the file
 Owner**, not the calling user. This allows non-root users to perform operations that require
@@ -242,7 +242,7 @@ How setuid works:
 5. Process validates old password, writes new hash
 ```
 
-### setgid (SGID) — Octal 2000
+### setgid (SGID), Octal 2000
 
 On executables: the process runs with the **effective GID of the file's group**.
 
@@ -264,7 +264,7 @@ find / -perm -2000 -type f
 find / -perm -2000 -type d
 ```
 
-### Sticky Bit — Octal 1000
+### Sticky Bit, Octal 1000
 
 When set on a directory, only the file owner (or root) can delete or rename files within it,
 Regardless of the directory's write permissions.
@@ -517,14 +517,14 @@ The ext4 filesystem (and others that support them) and cannot be overridden by r
 
 | Attribute | Description                                             |
 | --------- | ------------------------------------------------------- |
-| `a`       | Append only — file can only be opened for append        |
-| `A`       | No atime updates — do not update access time            |
-| `i`       | Immutable — cannot be modified, deleted, or renamed     |
-| `j`       | Data journalling — write data to journal first          |
-| `s`       | Secure deletion — zero blocks on deletion               |
-| `S`       | Synchronous updates — write changes to disk immediately |
-| `e`       | Extents format — uses extents (ext4 default)            |
-| `d`       | No dump — exclude from dump backups                     |
+| `a`       | Append only, file can only be opened for append        |
+| `A`       | No atime updates, do not update access time            |
+| `i`       | Immutable, cannot be modified, deleted, or renamed     |
+| `j`       | Data journalling, write data to journal first          |
+| `s`       | Secure deletion, zero blocks on deletion               |
+| `S`       | Synchronous updates, write changes to disk immediately |
+| `e`       | Extents format, uses extents (ext4 default)            |
+| `d`       | No dump, exclude from dump backups                     |
 
 ### chattr and lsattr
 
@@ -546,7 +546,7 @@ chattr -i /etc/resolv.conf
 chattr +a /var/log/audit.log
 # Can append but not delete or modify existing content
 echo "$(date) audit entry" >> /var/log/audit.log
-# rm /var/log/audit.log  — Operation not permitted
+# rm /var/log/audit.log, Operation not permitted
 
 # Set no atime updates (performance)
 chattr +A /data/files/
@@ -792,7 +792,7 @@ setcap cap_net_bind_service=+ep /usr/bin/myapp
 
 # Copying the binary strips capabilities
 cp /usr/bin/myapp /tmp/myapp
-getcap /tmp/myapp    # (empty — no capabilities)
+getcap /tmp/myapp    # (empty, no capabilities)
 
 # Use install or tar with xattrs to preserve
 getfattr -d -m '.*' /usr/bin/myapp   # check security.capability xattr

@@ -20,7 +20,7 @@ description: "1. The oxidation state of an element in its standard state is (e.g
 
 ## Intuition
 
-**Redox reactions are like electron donors and receivers — one substance gives electrons while another accepts them:** Assigning oxidation states tracks electron transfer, revealing the oxidizing and reducing agents in any reaction
+**Redox reactions are like electron donors and receivers, one substance gives electrons while another accepts them:** Assigning oxidation states tracks electron transfer, revealing the oxidizing and reducing agents in any reaction
 
 **Why it matters:** Redox chemistry is essential for understanding batteries, metabolism, and metal extraction
 

@@ -154,7 +154,7 @@ done > line_counts.txt
 ### Anonymous Pipes
 
 ```bash
-# Basic pipe — stdout of left goes to stdin of right
+# Basic pipe, stdout of left goes to stdin of right
 command1 | command2
 
 # Pipeline return code is the exit status of the last command
@@ -413,37 +413,37 @@ cat files.txt | xargs -P 4 -I {} sh -c 'echo "Processing {}"; process "{}"'
 ### xargs Options
 
 ```bash
-# -I {} — replace string
+# -I {}, replace string
 echo "a b c" | xargs -I {} echo "item: {}"
 # item: a b c
 
-# -n N — max arguments per command
+# -n N, max arguments per command
 seq 1 10 | xargs -n 3 echo
 # 1 2 3
 # 4 5 6
 # 7 8 9
 # 10
 
-# -0 — null-delimited input (safe for filenames with spaces/newlines)
+# -0, null-delimited input (safe for filenames with spaces/newlines)
 find . -print0 | xargs -0 -n 1 echo
 
-# -d DELIM — custom delimiter
+# -d DELIM, custom delimiter
 echo "a:b:c" | xargs -d ': " -I {} echo "item: {}"
 
-# --max-procs or -P — parallel execution
+# --max-procs or -P, parallel execution
 seq 1 20 | xargs -P 4 -I {} sleep 1 && echo {}
 
-# -L N — max lines per command
+# -L N, max lines per command
 cat addresses.txt | xargs -L 1 curl -s -o /dev/null -w "%{http_code}\n"
 ```
 
 ### xargs vs for Loop
 
 ```bash
-# xargs — faster, handles argument limits
+# xargs, faster, handles argument limits
 find . -name "*.log" | xargs gzip
 
-# for loop — safer, easier to add logic
+# for loop, safer, easier to add logic
 find . -name "*.log" -print0 | while IFS= read -r -d ''" file; do
     echo "Compressing $file"
     gzip "$file"
@@ -469,7 +469,7 @@ files=$(find . -name "*.conf")
 # Process substitution: provides a file descriptor
 wc -l <(find . -name "*.conf")
 
-# mapfile — read command output into an array
+# mapfile, read command output into an array
 mapfile -t lines < <(ps aux)
 echo "Total processes: ${#lines[@]}"
 echo "First line: ${lines[0]}"
@@ -786,16 +786,16 @@ EOF
 ### Pitfall: xargs with Filenames Containing Spaces
 
 ```bash
-# WRONG — splits on whitespace
+# WRONG, splits on whitespace
 find . -name "*.txt" | xargs rm
 
-# CORRECT — null-delimited
+# CORRECT, null-delimited
 find . -name "*.txt" -print0 | xargs -0 rm
 
-# CORRECT — use -exec (no xargs needed)
+# CORRECT, use -exec (no xargs needed)
 find . -name "*.txt" -exec rm {} +
 
-# WRONG — xargs -I with spaces in replacement
+# WRONG, xargs -I with spaces in replacement
 echo "/path/with spaces/file.txt" | xargs -I {} cp {} /tmp/
 
 # This works because {} is quoted, but the original input was a single line
@@ -809,7 +809,7 @@ count=0
 echo -e "a\nb\nc" | while read -r line; do
     ((count++))
 done
-echo "$count"    # 0 — the pipe creates a subshell!
+echo "$count"    # 0, the pipe creates a subshell!
 
 # Fix: process substitution
 count=0
@@ -822,7 +822,7 @@ echo "$count"    # 3
 ### Pitfall: Redirecting to a File That Is Being Read
 
 ```bash
-# WRONG — the file is truncated before the read starts
+# WRONG, the file is truncated before the read starts
 cat file.txt > file.txt    # results in empty file!
 
 # Fix: use a temp file

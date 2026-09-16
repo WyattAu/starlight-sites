@@ -125,9 +125,9 @@ $$\mathrm{ToT} = \frac{\mathrm{Index of Export Prices}}{\mathrm{Index of Import 
 ### 2.2 Interpretation
 
 - **ToT > 100 (improvement)**: export prices have risen relative to import prices. A given quantity
-  of exports buys more imports. This is beneficial — "favourable" terms of trade.
+  of exports buys more imports. This is beneficial, "favourable" terms of trade.
 - **ToT &lt; 100 (deterioration)**: export prices have fallen relative to import prices. A given
-  quantity of exports buys fewer imports. This is harmful — "adverse" terms of trade.
+  quantity of exports buys fewer imports. This is harmful, "adverse" terms of trade.
 - **ToT = 100**: no change from the base year.
 
 ### 2.3 Calculation
@@ -174,8 +174,8 @@ The **exchange rate** is the price of one currency in terms of another.
 
 $$\mathrm{Spot rate: } e = \frac{\mathrm{units of domestic currency}}{\mathrm{one unit of foreign currency}}$$
 
-A **depreciation** of the pound means $e$ rises (more pounds per dollar — the pound is weaker). An
-**appreciation** means $e$ falls (fewer pounds per dollar — the pound is stronger).
+A **depreciation** of the pound means $e$ rises (more pounds per dollar, the pound is weaker). An
+**appreciation** means $e$ falls (fewer pounds per dollar, the pound is stronger).
 
 ### 3.2 Exchange Rate Systems
 
@@ -191,7 +191,7 @@ Advantages: certainty for trade and investment, discipline on monetary policy (c
 The peg), reduces speculative volatility.
 
 Disadvantages: requires large foreign reserves, loss of independent monetary policy (impossible
-Trinity), vulnerability to speculative attacks (e.g., Soros vs Bank of England, 1992 — Black
+Trinity), vulnerability to speculative attacks (e.g., Soros vs Bank of England, 1992, Black
 Wednesday).
 
 **2. Floating exchange rate:**
@@ -219,7 +219,7 @@ $$e = f(P, r, Y, Y^*, \mathrm{expectations, speculation})$$
 
 | Factor                   | Mechanism                                                                                                                                |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Relative inflation rates | Higher domestic inflation → exports less competitive, imports more attractive → $e$ rises (depreciation) — purchasing power parity (PPP) |
+| Relative inflation rates | Higher domestic inflation → exports less competitive, imports more attractive → $e$ rises (depreciation), purchasing power parity (PPP) |
 | Relative interest rates  | Higher domestic interest rates → capital inflows (hot money) → demand for £ rises → $e$ falls (appreciation)                             |
 | Relative growth rates    | Faster domestic growth → higher import demand → current account worsens → $e$ rises (depreciation)                                       |
 | Speculation              | If markets expect depreciation → sell £ → self-fulfilling depreciation                                                                   |
@@ -288,7 +288,7 @@ The path of the current account traces a **J-shape**:
 $$CA \mathrm{ falls initially, then rises above the starting level}$$
 
 :::tip
-(Marshall-Lerner — CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
+(Marshall-Lerner, CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
 explicitly.
 :::
 ## 5. Globalisation
@@ -335,7 +335,7 @@ International trade, investment, capital flows, and migration.
 
 ### 5.5 Evaluation
 
-Globalisation is not an unambiguous good or bad — it creates winners and losers. The policy
+Globalisation is not an unambiguous good or bad, it creates winners and losers. The policy
 Challenge is to capture the benefits while compensating the losers (retraining programmes, regional
 Development, social safety nets). The retreat from globalisation since ~2016 (Brexit, US-China trade
 War, reshoring) reflects these tensions.
@@ -491,7 +491,7 @@ And between countries.
 
 <details>
 <summary>Hint</summary>
-Between countries: globalisation has *reduced* inequality between nations — China, India, and other emerging economies have grown rapidly through trade, narrowing the gap with developed countries. Within countries: globalisation has *increased* inequality in many developed countries (Stolper-Samuelson theorem: trade liberalisation benefits the abundant factor — skilled labour in developed countries, unskilled labour in developing countries). In the UK/US: skilled workers and capital owners gained; manufacturing workers lost jobs to import competition and offshoring. Top 1% captured disproportionate gains. However: technology (skill-biased technological change) may be a larger driver of within-country inequality than trade. Policy response: progressive taxation, education and retraining, regional development policies.
+Between countries: globalisation has *reduced* inequality between nations, China, India, and other emerging economies have grown rapidly through trade, narrowing the gap with developed countries. Within countries: globalisation has *increased* inequality in many developed countries (Stolper-Samuelson theorem: trade liberalisation benefits the abundant factor, skilled labour in developed countries, unskilled labour in developing countries). In the UK/US: skilled workers and capital owners gained; manufacturing workers lost jobs to import competition and offshoring. Top 1% captured disproportionate gains. However: technology (skill-biased technological change) may be a larger driver of within-country inequality than trade. Policy response: progressive taxation, education and retraining, regional development policies.
 </details>
 
 **Problem 6.** "Foreign aid is an effective strategy for promoting economic development." Evaluate
@@ -499,7 +499,7 @@ This statement.
 
 <details>
 <summary>Hint</summary>
-Arguments for: (1) Provides capital that poor countries cannot generate domestically (savings gap). (2) Finances infrastructure (roads, hospitals, schools) with long-term benefits. (3) Can improve health and education (human capital). (4) Emergency/humanitarian aid saves lives. Arguments against: (1) Dependency — may discourage domestic savings and tax effort. (2) Corruption and misappropriation — aid may not reach intended beneficiaries. (3) Dutch disease — large aid inflows appreciate the real exchange rate, making exports less competitive. (4) Tied aid — may benefit donor countries more than recipients. (5) Aid effectiveness depends on institutional quality (Burnside & Dollar, 2000). Evidence: countries with good institutions (Botswana) used aid effectively; countries with poor institutions (DRC) did not. Best practice: aid targeted at institutions, health, and education; with conditionality and monitoring.
+Arguments for: (1) Provides capital that poor countries cannot generate domestically (savings gap). (2) Finances infrastructure (roads, hospitals, schools) with long-term benefits. (3) Can improve health and education (human capital). (4) Emergency/humanitarian aid saves lives. Arguments against: (1) Dependency, may discourage domestic savings and tax effort. (2) Corruption and misappropriation, aid may not reach intended beneficiaries. (3) Dutch disease, large aid inflows appreciate the real exchange rate, making exports less competitive. (4) Tied aid, may benefit donor countries more than recipients. (5) Aid effectiveness depends on institutional quality (Burnside & Dollar, 2000). Evidence: countries with good institutions (Botswana) used aid effectively; countries with poor institutions (DRC) did not. Best practice: aid targeted at institutions, health, and education; with conditionality and monitoring.
 </details>
 
 **Problem 7.** Using AD/AS analysis, explain the effects of a depreciation of the exchange rate on
@@ -515,7 +515,7 @@ Specialise in primary commodity exports face a long-term deterioration in their 
 
 <details>
 <summary>Hint</summary>
-Prebisch-Singer hypothesis: the terms of trade for primary commodity exporters decline relative to manufactured goods exporters over the long run. Reasons: (1) Low income elasticity of demand for primary commodities (Engel's law — as income rises, the share spent on food/raw materials falls). (2) High income elasticity of demand for manufactured goods. (3) Technological progress reduces the demand for raw materials (synthetic substitutes, recycling). (4) Agricultural productivity growth is faster than in manufacturing (supply grows faster than demand → prices fall). (5) Oligopolistic pricing in manufacturing vs competitive pricing in primary commodities (manufacturers have pricing power). Implications: developing countries specialising in primary commodities face declining ToT → need to diversify into manufacturing and services.
+Prebisch-Singer hypothesis: the terms of trade for primary commodity exporters decline relative to manufactured goods exporters over the long run. Reasons: (1) Low income elasticity of demand for primary commodities (Engel's law, as income rises, the share spent on food/raw materials falls). (2) High income elasticity of demand for manufactured goods. (3) Technological progress reduces the demand for raw materials (synthetic substitutes, recycling). (4) Agricultural productivity growth is faster than in manufacturing (supply grows faster than demand → prices fall). (5) Oligopolistic pricing in manufacturing vs competitive pricing in primary commodities (manufacturers have pricing power). Implications: developing countries specialising in primary commodities face declining ToT → need to diversify into manufacturing and services.
 </details>
 
 **Problem 9.** A customs union is formed between three countries. Explain the difference between
@@ -532,7 +532,7 @@ Restore balance." Evaluate this policy recommendation.
 
 <details>
 <summary>Hint</summary>
-Devaluation could help: (1) Makes exports cheaper, imports dearer → improves trade balance (Marshall-Lerner condition). (2) Improves competitiveness of domestic industries. (3) Reduces the trade deficit. But: (1) J-curve effect — the CA may worsen initially. (2) Imported inflation — devaluation raises import prices, potentially causing cost-push inflation. (3) If the deficit is structural (caused by lack of competitiveness, not the exchange rate), devaluation is a temporary fix. (4) Capital flight — if markets expect further devaluation, investors sell the currency, making things worse. (5) Retaliation — trading partners may also devalue (competitive devaluation, "currency wars"). Better approach: address the root cause. If the deficit reflects low productivity → supply-side reforms. If it reflects excessive consumption → fiscal tightening. Devaluation is one tool among many, not a panacea. *Revision: see [Fiscal Policy](04-fiscal-policy) for alternative policy approaches.*
+Devaluation could help: (1) Makes exports cheaper, imports dearer → improves trade balance (Marshall-Lerner condition). (2) Improves competitiveness of domestic industries. (3) Reduces the trade deficit. But: (1) J-curve effect, the CA may worsen initially. (2) Imported inflation, devaluation raises import prices, potentially causing cost-push inflation. (3) If the deficit is structural (caused by lack of competitiveness, not the exchange rate), devaluation is a temporary fix. (4) Capital flight, if markets expect further devaluation, investors sell the currency, making things worse. (5) Retaliation, trading partners may also devalue (competitive devaluation, "currency wars"). Better approach: address the root cause. If the deficit reflects low productivity → supply-side reforms. If it reflects excessive consumption → fiscal tightening. Devaluation is one tool among many, not a panacea. *Revision: see [Fiscal Policy](04-fiscal-policy) for alternative policy approaches.*
 </details>
 
 **Problem 11.** Compare and contrast import substitution industrialisation (ISI) with
@@ -548,7 +548,7 @@ Theory of comparative advantage and the concept of trade creation and diversion.
 
 <details>
 <summary>Hint</summary>
-Comparative advantage: leaving the EU's single market means the UK faces tariffs and non-tariff barriers when trading with EU members. This reduces the gains from trade based on comparative advantage — UK producers who were competitive within the EU now face higher costs of exporting. Trade creation/diversion: leaving the EU is like *reverse trade creation* — the UK loses the trade-creating effects of the single market. New trade agreements with non-EU countries may create some trade, but: (1) EU is the UK's largest trading partner (43% of exports) — hard to replace. (2) Non-tariff barriers (regulatory divergence, customs checks) increase costs even without tariffs. (3) Services (80% of UK economy) are particularly affected — harder to negotiate services trade deals. Estimated cost: OBR estimates Brexit reduces long-run UK productivity by 4%. Potential benefits: regulatory autonomy, independent trade policy, control over migration. The net effect depends on how effectively the UK uses its new regulatory freedom.
+Comparative advantage: leaving the EU's single market means the UK faces tariffs and non-tariff barriers when trading with EU members. This reduces the gains from trade based on comparative advantage, UK producers who were competitive within the EU now face higher costs of exporting. Trade creation/diversion: leaving the EU is like *reverse trade creation*, the UK loses the trade-creating effects of the single market. New trade agreements with non-EU countries may create some trade, but: (1) EU is the UK's largest trading partner (43% of exports), hard to replace. (2) Non-tariff barriers (regulatory divergence, customs checks) increase costs even without tariffs. (3) Services (80% of UK economy) are particularly affected, harder to negotiate services trade deals. Estimated cost: OBR estimates Brexit reduces long-run UK productivity by 4%. Potential benefits: regulatory autonomy, independent trade policy, control over migration. The net effect depends on how effectively the UK uses its new regulatory freedom.
 </details>
 
 :::danger
@@ -889,11 +889,11 @@ discrepancy). The country is a net borrower from the rest of the world. If capit
 
 ## Intuition
 
-Comparative advantage is one of the most powerful — and most counterintuitive — ideas in all of economics. It says that even if one country is better at producing everything, both countries still benefit from trading with each other. The trick is opportunity cost: what you give up to produce something. A lawyer who's also the fastest typist in the office shouldn't spend time typing — even though she's better at it than her secretary — because her time is more valuable doing lawyer things. She should hire the secretary and both come out ahead. Countries work the same way. When Britain trades with France, it's not about who's "better" — it's about who gives up less to make each thing. Specialisation based on this logic makes the total global pie bigger, and both sides can eat more than they could alone.
+Comparative advantage is one of the most powerful, and most counterintuitive, ideas in all of economics. It says that even if one country is better at producing everything, both countries still benefit from trading with each other. The trick is opportunity cost: what you give up to produce something. A lawyer who's also the fastest typist in the office shouldn't spend time typing, even though she's better at it than her secretary, because her time is more valuable doing lawyer things. She should hire the secretary and both come out ahead. Countries work the same way. When Britain trades with France, it's not about who's "better", it's about who gives up less to make each thing. Specialisation based on this logic makes the total global pie bigger, and both sides can eat more than they could alone.
 
-The J-curve is where intuition meets reality. When a currency falls in value, you'd expect the trade balance to improve immediately — exports become cheaper abroad, imports become pricier at home. But in the short run, the opposite happens. Why? Because trade is locked in by contracts and habits. A British factory that signed a six-month deal to buy German machinery can't suddenly switch suppliers just because the pound fell. It takes time — often a year or more — for people to find alternatives, for new export deals to be signed, and for the volume effects to outweigh the price effects. It's like turning a large ship: the rudder moves first, but the vessel takes a while to change course. This is why governments can't just devalue their way out of a trade deficit overnight.
+The J-curve is where intuition meets reality. When a currency falls in value, you'd expect the trade balance to improve immediately, exports become cheaper abroad, imports become pricier at home. But in the short run, the opposite happens. Why? Because trade is locked in by contracts and habits. A British factory that signed a six-month deal to buy German machinery can't suddenly switch suppliers just because the pound fell. It takes time, often a year or more, for people to find alternatives, for new export deals to be signed, and for the volume effects to outweigh the price effects. It's like turning a large ship: the rudder moves first, but the vessel takes a while to change course. This is why governments can't just devalue their way out of a trade deficit overnight.
 
-Globalisation is the story of the world getting more connected — and more complicated. Container shipping made it cheap to move goods anywhere, the internet made it easy to coordinate across borders, and trade deals opened the doors. The result has been enormous gains: cheaper products, wider choice, faster growth in developing countries. But there are real losers too. A factory worker in Sunderland whose job moved to Shenzhen didn't experience globalisation as progress — they experienced it as a personal catastrophe. The challenge for policymakers is that the gains from trade are spread thinly across millions of consumers, while the losses are concentrated in specific communities. This is why trade policy is so politically explosive — the aggregate numbers say "everyone benefits," but the human reality is messier. The solution isn't to stop trading but to compensate the losers through retraining, regional investment, and social safety nets.
+Globalisation is the story of the world getting more connected, and more complicated. Container shipping made it cheap to move goods anywhere, the internet made it easy to coordinate across borders, and trade deals opened the doors. The result has been enormous gains: cheaper products, wider choice, faster growth in developing countries. But there are real losers too. A factory worker in Sunderland whose job moved to Shenzhen didn't experience globalisation as progress, they experienced it as a personal catastrophe. The challenge for policymakers is that the gains from trade are spread thinly across millions of consumers, while the losses are concentrated in specific communities. This is why trade policy is so politically explosive, the aggregate numbers say "everyone benefits," but the human reality is messier. The solution isn't to stop trading but to compensate the losers through retraining, regional investment, and social safety nets.
 
 ### 10.3 Trading Blocs: Numerical Welfare Analysis
 

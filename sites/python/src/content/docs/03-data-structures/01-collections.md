@@ -180,7 +180,7 @@ lst[-5:-2]     # [5, 6, 7]
 
 # Slice assignment (modifies in place)
 lst[2:5] = [20, 30, 40]  # [0, 1, 20, 30, 40, 5, 6, 7, 8, 9]
-lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20, ...]
+lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20...]
 del lst[2:4]              # delete slice
 ```
 
@@ -420,7 +420,7 @@ values = d.values()
 items = d.items()
 
 print("a" in keys)    # True (O(1) -- checks the dict, not the view)
-print((1,) in values) # True (Python 3.10+)
+print((1) in values) # True (Python 3.10+)
 print(("b", 2) in items)  # True
 
 # Views reflect mutations
@@ -932,7 +932,7 @@ while tasks:
 # Handling ties with a tiebreaker
 import itertools
 
-counter = itertools.count()  # 0, 1, 2, ...
+counter = itertools.count()  # 0, 1, 2...
 tasks = []
 heapq.heappush(tasks, (2, next(counter), "task A"))
 heapq.heappush(tasks, (2, next(counter), "task B"))

@@ -356,7 +356,7 @@ void increment_bad(int count) \{
 
 void increment_good(int count) \{
     for (int i = 0; i &lt; count; ++i) \{
-        // Still a race — this is NOT atomic
+        // Still a race, this is NOT atomic
         shared_counter++;
     \}
 \}
@@ -387,7 +387,7 @@ WARNING: ThreadSanitizer: data race (pid=12345)
 
 ### TSan and std::atomic
 
-TSan correctly handles `std::atomic` operations — it recognizes that `load``store`And
+TSan correctly handles `std::atomic` operations, it recognizes that `load``store`And
 `compare_exchange` are synchronization points. A race on an atomic variable with
 `memory_order_relaxed` is still flagged if the intent is synchronization:
 
@@ -410,7 +410,7 @@ int main() \{
     t1.join();
     t2.join();
     std::cout << "atomic counter (correct): " << atomic_counter.load() << "\n";
-    // TSan: no warning — atomic operations are properly synchronized
+    // TSan: no warning, atomic operations are properly synchronized
 \}
 ```
 

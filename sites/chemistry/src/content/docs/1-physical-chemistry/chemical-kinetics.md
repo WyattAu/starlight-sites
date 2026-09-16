@@ -41,7 +41,7 @@ $$v = k[A]^m[B]^n$$
 
 where $k$ is the **rate constant**, $m$ is the order with respect to $A$, $n$ is the order with
 respect to $B$, and the overall order is $m + n$. The orders $m$ and $n$ are experimentally
-determined — they need not equal the stoichiometric coefficients.
+determined, they need not equal the stoichiometric coefficients.
 
 ### 1.3 Elementary Reactions and molecularity
 
@@ -533,7 +533,7 @@ import { Citation } from "@components/Citations.astro"
 | Thermodynamics             | WyattsNotes | [View](../../../../../alevel/src/content/docs/chemistry/thermodynamics)                             |
 | Quantum Chemistry          | WyattsNotes | [View](quantum-chemistry)                          |
 | Statistical Mechanics      | WyattsNotes | [View](statistical-mechanics)                      |
-| Enzyme Kinetics — MIT 5.60 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
+| Enzyme Kinetics, MIT 5.60 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

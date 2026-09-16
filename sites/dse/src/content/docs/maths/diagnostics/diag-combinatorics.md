@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Combinatorics — Diagnostic Tests
+## Combinatorics, Diagnostic Tests
 
 ## Unit Tests
 
@@ -521,11 +521,11 @@ flowchart TD
 
 ## Intuition
 
-**A choosing ceremony:** Combinatorics is like picking teams — permutations are when order matters (who's captain vs. who's second), combinations are when it doesn't (just who's on the team). The binomial theorem is like expanding a recipe with optional ingredients.
+**A choosing ceremony:** Combinatorics is like picking teams, permutations are when order matters (who's captain vs. who's second), combinations are when it doesn't (just who's on the team). The binomial theorem is like expanding a recipe with optional ingredients.
 
 **Why it matters:** Probability, cryptography, and computer science all rely on counting correctly. One misplaced factorial or combination can throw off an entire analysis.
 
-**The key insight:** Always ask "does order matter?" before choosing between permutations and combinations — this single question eliminates most errors.
+**The key insight:** Always ask "does order matter?" before choosing between permutations and combinations, this single question eliminates most errors.
 
 ## Common Pitfalls
 

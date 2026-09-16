@@ -60,7 +60,7 @@ This topic covers the chemistry behind drugs, food additives, detergents, and ot
 - Soaps: sodium/potassium salts of long-chain fatty acids
 - Detergents: sodium salts of long-chain alkyl sulfonates/sulfates
 
-## Worked Example 1 — Aspirin Synthesis
+## Worked Example 1, Aspirin Synthesis
 
 **Problem:** Write the reaction for the preparation of aspirin (acetylsalicylic acid).
 
@@ -76,7 +76,7 @@ The -OH group of salicylic acid is acetylated, reducing its acidity and side eff
 
 **Common mistake:** Confusing the esterification of the -OH group with the -COOH group. The -OH is acetylated, not the -COOH.
 
-## Worked Example 2 — Soap vs Detergent
+## Worked Example 2, Soap vs Detergent
 
 **Problem:** Explain why soaps do not work well in hard water but detergents do.
 
@@ -94,7 +94,7 @@ Detergents (sodium dodecyl sulfate, $\text{C}_{12}\text{H}_{25}\text{OSO}_3\text
 
 **Common mistake:** Thinking detergents work because they are stronger cleaners. They work because their calcium/magnesium salts are soluble.
 
-## Worked Example 3 — Antacid Chemistry
+## Worked Example 3, Antacid Chemistry
 
 **Problem:** Explain how an antacid provides relief from acidity.
 
@@ -126,11 +126,11 @@ Understanding the chemistry of everyday products helps make informed decisions a
 
 ## Intuition
 
-**Chemistry is already in your bathroom cabinet:** Think of everyday chemistry as the invisible science governing what you eat, clean with, and take for headaches. Aspirin works by blocking enzymes that cause pain and inflammation — it's like putting a wrench in a machine's gears. Soap molecules have a split personality: one end loves water (hydrophilic) and the other loves grease (hydrophobic), so they grab oil and drag it into the water where it can be washed away.
+**Chemistry is already in your bathroom cabinet:** Think of everyday chemistry as the invisible science governing what you eat, clean with, and take for headaches. Aspirin works by blocking enzymes that cause pain and inflammation, it's like putting a wrench in a machine's gears. Soap molecules have a split personality: one end loves water (hydrophilic) and the other loves grease (hydrophobic), so they grab oil and drag it into the water where it can be washed away.
 
-**Why it matters:** Understanding everyday chemistry helps you make better choices — knowing why antibiotics need prescriptions (resistance), why certain foods stay fresh longer (preservatives), and why some cleaners work in hard water while others don't. It turns you from a passive consumer into an informed decision-maker.
+**Why it matters:** Understanding everyday chemistry helps you make better choices, knowing why antibiotics need prescriptions (resistance), why certain foods stay fresh longer (preservatives), and why some cleaners work in hard water while others don't. It turns you from a passive consumer into an informed decision-maker.
 
-**The key insight:** Most everyday chemistry comes down to acid-base reactions, solubility, and molecular shape — the same principles that govern industrial processes, just applied in your kitchen and bathroom.
+**The key insight:** Most everyday chemistry comes down to acid-base reactions, solubility, and molecular shape, the same principles that govern industrial processes, just applied in your kitchen and bathroom.
 
 ## Common Exam Patterns
 
@@ -156,7 +156,7 @@ Analgesics relieve pain, antipyretics reduce fever, and anti-inflammatory drugs 
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index):** Drug design targets biomolecules (enzymes, receptors) — understanding protein structure explains how drugs work.
-- **[Haloalkanes](../haloalkanes/index):** Many drugs are synthesized using haloalkane intermediates — connecting organic synthesis to pharmaceutical chemistry.
-- **[Solutions](../solutions/index):** Drug solubility and dosage depend on solution chemistry — understanding concentration is essential for pharmacology.
-- **[Surface Chemistry](../surface-chemistry/index):** Drug delivery systems use colloids and micelles — connecting surface chemistry to pharmaceutical formulations.
+- **[Biomolecules](../biomolecules/index):** Drug design targets biomolecules (enzymes, receptors), understanding protein structure explains how drugs work.
+- **[Haloalkanes](../haloalkanes/index):** Many drugs are synthesized using haloalkane intermediates, connecting organic synthesis to pharmaceutical chemistry.
+- **[Solutions](../solutions/index):** Drug solubility and dosage depend on solution chemistry, understanding concentration is essential for pharmacology.
+- **[Surface Chemistry](../surface-chemistry/index):** Drug delivery systems use colloids and micelles, connecting surface chemistry to pharmaceutical formulations.

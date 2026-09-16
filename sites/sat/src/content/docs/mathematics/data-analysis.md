@@ -83,7 +83,7 @@ Step 1: P(first red) = 3/8
 Step 2: After removing one red, P(second red | first red) = 2/7
 Step 3: P(both red) = $\frac{3}{8} \times \frac{2}{7} = \frac{6}{56} = \frac{3}{28}$
 
-**Key insight:** "Without replacement" means the second draw depends on the first — these are dependent events, so we multiply conditional probabilities.
+**Key insight:** "Without replacement" means the second draw depends on the first, these are dependent events, so we multiply conditional probabilities.
 
 ---
 
@@ -103,7 +103,7 @@ Step 3: P(both red) = $\frac{3}{8} \times \frac{2}{7} = \frac{6}{56} = \frac{3}{
 **Solution:**
 Step 1: Upward slope = positive correlation (more hours → higher scores)
 Step 2: Cloud shape = correlation is not perfect (some scatter)
-Step 3: You CANNOT conclude causation — other factors (prior knowledge, sleep) may be involved
+Step 3: You CANNOT conclude causation, other factors (prior knowledge, sleep) may be involved
 
 **Key insight:** Correlation $\neq$ causation. The SAT tests this distinction frequently.
 
@@ -120,7 +120,7 @@ Step 3: You CANNOT conclude causation — other factors (prior knowledge, sleep)
 
 ## Intuition
 
-Data analysis is the art of finding signal in noise. A dataset is like a crowd of people shouting — you need to figure out what they are actually saying. The mean is the average voice, but the median tells you what the middle person is saying, which is more representative when someone is shouting very loudly (an outlier). Standard deviation tells you how much the crowd disagrees with itself — a small standard deviation means everyone is saying roughly the same thing. Probability is your confidence level — how sure are you that the pattern you see is real and not just random chance?
+Data analysis is the art of finding signal in noise. A dataset is like a crowd of people shouting, you need to figure out what they are actually saying. The mean is the average voice, but the median tells you what the middle person is saying, which is more representative when someone is shouting very loudly (an outlier). Standard deviation tells you how much the crowd disagrees with itself, a small standard deviation means everyone is saying roughly the same thing. Probability is your confidence level, how sure are you that the pattern you see is real and not just random chance?
 
 ## Common Mistakes
 

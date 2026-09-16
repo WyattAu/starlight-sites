@@ -75,13 +75,13 @@ This is the most common command term in Paper 2. It requires you to assess how f
 
 PEEL is a framework for constructing clear, analytical paragraphs:
 
-**P — Point:** State the point you are making in relation to the question. This is your topic sentence.
+**P, Point:** State the point you are making in relation to the question. This is your topic sentence.
 
-**E — Evidence:** Provide specific historical evidence to support your point. Use dates, names, events, statistics, and quotations.
+**E, Evidence:** Provide specific historical evidence to support your point. Use dates, names, events, statistics, and quotations.
 
-**E — Explanation:** Analyse the evidence. Explain how it supports your point, why it is significant, and how it relates to the broader argument.
+**E, Explanation:** Analyse the evidence. Explain how it supports your point, why it is significant, and how it relates to the broader argument.
 
-**L — Link:** Connect the paragraph back to the question or forward to the next point.
+**L, Link:** Connect the paragraph back to the question or forward to the next point.
 
 ### Example PEEL Paragraph
 
@@ -114,7 +114,7 @@ Who created the source? Consider:
 
 - The author's identity, nationality, social position, and political affiliation.
 - Whether the author was a direct participant, observer, or outsider.
-- When the source was created — proximity to events can provide immediacy but also bias.
+- When the source was created, proximity to events can provide immediacy but also bias.
 
 A speech by Churchill in 1940 has different authority and limitations than a diary entry by an anonymous civil servant.
 
@@ -150,7 +150,7 @@ What constrains the source's usefulness? Consider:
 
 - Bias, whether conscious or unconscious.
 - The temporal distance between the source and the events described.
-- The scope of the source — does it represent a broader picture or a narrow perspective?
+- The scope of the source, does it represent a broader picture or a narrow perspective?
 
 ### Template for Source Analysis
 
@@ -181,7 +181,7 @@ Paper 1 consists of four questions worth a total of 24 marks (20% at SL and HL).
 ### Question 2: Source Value and Limitations (5 marks)
 
 - Address origin, purpose, and content systematically.
-- Do not merely describe what the source says — evaluate its reliability and usefulness.
+- Do not merely describe what the source says, evaluate its reliability and usefulness.
 - Reference the specific historical context.
 
 ### Question 3: Comparison of Two Sources (6 marks)
@@ -195,7 +195,7 @@ Paper 1 consists of four questions worth a total of 24 marks (20% at SL and HL).
 - This is the highest-value question. It requires synthesis, not summary.
 - Group points by theme or argument, drawing on multiple sources in each paragraph.
 - Integrate your own knowledge to contextualise, support, or challenge the sources.
-- Address the question directly — do not discuss the sources in isolation.
+- Address the question directly, do not discuss the sources in isolation.
 
 ---
 
@@ -223,7 +223,7 @@ Paper 2 requires two essays from a choice of questions covering two of the five 
 - Each paragraph should address one factor or aspect.
 - Begin with a topic sentence linked to the question.
 - Provide specific, accurate evidence.
-- Analyse significance, causation, or consequence — do not merely describe.
+- Analyse significance, causation, or consequence, do not merely describe.
 - Acknowledge counter-arguments before reinforcing your position.
 
 ### Conclusion (2–3 sentences)

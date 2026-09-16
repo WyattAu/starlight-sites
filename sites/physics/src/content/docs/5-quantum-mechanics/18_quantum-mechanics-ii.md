@@ -263,7 +263,7 @@ where $S = \langle\psi_A|\psi_B\rangle$ is the overlap integral. The energies:
 $$E_{\text{singlet}}(R) = \frac{Q + A}{1 + S^2}, \qquad E_{\text{triplet}}(R) = \frac{Q - A}{1 - S^2}$$
 
 where $Q$ is the Coulomb integral and $A$ is the exchange integral (positive). The exchange integral
-$A$ is responsible for covalent bonding — it has no classical analogue and is purely
+$A$ is responsible for covalent bonding, it has no classical analogue and is purely
 quantum-mechanical. The singlet state has a minimum at $R_e \approx 1.64\,a_0$ with binding energy
 $\sim 3.15$ eV (experiment: 4.75 eV).
 
@@ -449,7 +449,7 @@ Expanding to order $\alpha^4$:
 $$E_{n,j} \approx mc^2\left[1 - \frac{Z^2\alpha^2}{2n^2} - \frac{Z^4\alpha^4}{2n^4}\left(\frac{n}{j+1/2} - \frac{3}{4}\right)\right]$$
 
 The $\alpha^4$ term gives the fine structure. Crucially, the Dirac equation predicts that $2S_{1/2}$
-and $2P_{1/2}$ are exactly degenerate — a result confirmed experimentally and explained by QFT as
+and $2P_{1/2}$ are exactly degenerate, a result confirmed experimentally and explained by QFT as
 due to the **Lamb shift** ($\sim 1$ GHz, arising from vacuum fluctuations).
 
 ---
@@ -504,7 +504,7 @@ $\omega_k = c|\mathbf{k}|$.
 The Hamiltonian is
 $\hat{H} = \sum_{\mathbf{k},\lambda}\hbar\omega_k\left(a_{\mathbf{k},\lambda}^\dagger a_{\mathbf{k},\lambda} + \tfrac{1}{2}\right)$.
 
-**The zero-point energy** $\sum_{\mathbf{k},\lambda}\hbar\omega_k/2$ diverges — this is the origin
+**The zero-point energy** $\sum_{\mathbf{k},\lambda}\hbar\omega_k/2$ diverges, this is the origin
 of the Casimir effect and vacuum energy in cosmology.
 
 ### 6.4 The Casimir Effect
@@ -554,7 +554,7 @@ Einstein, Podolsky, and Rosen (1935) argued that QM is incomplete. Their argumen
 2. We could equally choose to measure particle 1 in the $x$-basis. The result determines particle
    2's $x$-spin.
 3. Since particle 2 was not disturbed by the measurement on particle 1 (locality), particle 2 must
-   have had **definite** values of both $S_z$ and $S_x$ simultaneously — contradicting the
+   have had **definite** values of both $S_z$ and $S_x$ simultaneously, contradicting the
    uncertainty principle.
 
 **Resolution (Bell's theorem):** No local hidden variable theory can reproduce all QM predictions.
@@ -631,7 +631,7 @@ $$R_\phi = \begin{pmatrix} 1 & 0 \\ 0 & e^{i\phi} \end{pmatrix}, \quad T = \begi
 
 **Hadamard** $H$ creates superpositions: $H|0\rangle = (|0\rangle + |1\rangle)/\sqrt{2}$.
 
-**Multi-qubit gate — CNOT:**
+**Multi-qubit gate, CNOT:**
 
 $$\text{CNOT} = |0\rangle\langle 0| \otimes I + |1\rangle\langle 1| \otimes X = \begin{pmatrix} 1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0 \end{pmatrix}$$
 
@@ -645,7 +645,7 @@ superpositions into classical bitstrings. The circuit model is **universal**: an
 on $n$ qubits can be decomposed into single-qubit gates and CNOT gates.
 
 **Key fact:** Quantum circuits are reversible (all gates are unitary). Classical circuits need
-irreversible gates (AND, OR) — quantum computation gains power from superposition and entanglement,
+irreversible gates (AND, OR), quantum computation gains power from superposition and entanglement,
 not from irreversible logic.
 
 ### 8.4 The Deutsch–Jozsa Algorithm
@@ -674,7 +674,7 @@ demonstrates an exponential quantum speedup, though for this artificial problem.
 
 **Classical:** $O(N)$ queries.
 
-**Grover's algorithm:** $O(\sqrt{N})$ queries — a quadratic speedup.
+**Grover's algorithm:** $O(\sqrt{N})$ queries, a quadratic speedup.
 
 **The Grover iterate** $G = (2|\psi\rangle\langle\psi| - I)\,O$ where:
 
@@ -753,7 +753,7 @@ applications in optimisation, cryptanalysis, and amplitude amplification.
 - **Scattering theory** generalises through the Lippmann–Schwinger equation, T-matrix, and effective
   range expansion, with quantum phenomena like the Ramsauer–Townsend effect.
 - **Relativistic QM** (Klein–Gordon, Dirac) reveals spin as a relativistic phenomenon, predicts
-  antimatter, and yields the hydrogen fine structure — with discrepancies (Lamb shift) pointing to
+  antimatter, and yields the hydrogen fine structure, with discrepancies (Lamb shift) pointing to
   QFT.
 - **QFT concepts** (Fock space, quantised fields, Casimir effect) show that particles are field
   excitations and vacuum fluctuations have measurable physical consequences.

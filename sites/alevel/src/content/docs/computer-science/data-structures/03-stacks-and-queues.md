@@ -73,7 +73,7 @@ class ArrayStack:
 
 **Theorem.** All stack operations run in $O(1)$ time with an array-based implementation.
 
-**Proof.** `push` and `pop` each perform one index update and one array access — both $O(1)$.
+**Proof.** `push` and `pop` each perform one index update and one array access, both $O(1)$.
 `peek``isEmpty`And `size` each inspect a single variable. $\square$
 
 ### Linked List-Based Implementation
@@ -161,8 +161,8 @@ class CircularQueue:
 
 **Theorem.** Circular array queue operations run in $O(1)$ time.
 
-**Proof.** `enqueue` writes to `_data[_rear]` and updates `_rear` with modular arithmetic — both
-$O(1)$. `dequeue` reads from `_data[_front]` and updates `_front` — both $O(1)$. No shifting of
+**Proof.** `enqueue` writes to `_data[_rear]` and updates `_rear` with modular arithmetic, both
+$O(1)$. `dequeue` reads from `_data[_front]` and updates `_front`both $O(1)$. No shifting of
 Elements is required. $\square$
 
 ### Linked List Implementation
@@ -274,7 +274,7 @@ _Inductive step._ Assume the invariant holds after $k$ tokens.
   sub-expressions with their combined result. The invariant holds.
 
 _Termination._ After processing all $n$ tokens of a valid RPN expression, exactly one value remains
-— the value of the entire expression. $\square$
+- the value of the entire expression. $\square$
 
 **Complexity.** Each token is processed once: $O(n)$ time, $O(n)$ space (stack depth).
 
@@ -486,7 +486,7 @@ The stack (otherwise the prefix would have more `)` than `(`Contradicting balanc
 Underflow means every `)` matched a previous `(`. Empty stack means every `(` was matched. Hence the
 String is balanced. $\square$
 
-Time: $O(n)$ — one pass through the string. Space: $O(n)$ — stack depth.
+Time: $O(n)$, one pass through the string. Space: $O(n)$, stack depth.
 
 </details>
 
@@ -512,7 +512,7 @@ class StackQueue:
         return self._out_stack.pop()
 ```
 
-`enqueue`: $O(1)$ — push onto `in_stack`.
+`enqueue`: $O(1)$, push onto `in_stack`.
 
 `dequeue`: If `out_stack` is non-empty, $O(1)$. If empty, transfer all $n$ elements from `in_stack`
 To `out_stack` ($O(n)$), then pop ($O(1)$). Each element is transferred at most once per
@@ -531,7 +531,7 @@ Text editor.
 <summary>Answer</summary>
 
 Each action in the editor (typing, deleting, formatting) can be represented as a state change. When
-The user performs "undo", we need to reverse the **most recent** action — this is exactly LIFO
+The user performs "undo", we need to reverse the **most recent** action, this is exactly LIFO
 Behaviour. Pushing each action onto a stack and popping on undo reverses actions in the Correct
 order. A queue would undo the **oldest** action first, which is not the desired behaviour.
 
@@ -596,7 +596,7 @@ Consider an expression with $k + 1$ operands. In a valid RPN expression, there e
 Operator $\oplus$ that, when processed, reduces the stack by one (pops 2, pushes 1). Before this
 Operator, some prefix of the expression has evaluated to a stack with at least 2 elements. The
 Prefix before $\oplus$ is a valid sub-expression with $m$ operands and $m - 1$ operators (for some
-$m \geq 2$), and by the inductive hypothesis evaluates to exactly $m$ values — but we need exactly 2
+$m \geq 2$), and by the inductive hypothesis evaluates to exactly $m$ values, but we need exactly 2
 Values before $\oplus$.
 
 More cleanly: let $f(n)$ be the net change in stack size after processing $n$ operands and $n - 1$
@@ -619,7 +619,7 @@ What are the values returned by each `pop()` operation?
 <details>
 <summary>Hint</summary>
 
-Remember that a stack is LIFO — the last element pushed is the first one popped. Track the stack as
+Remember that a stack is LIFO, the last element pushed is the first one popped. Track the stack as
 A list with the top at the right.
 
 </details>
@@ -629,14 +629,14 @@ A list with the top at the right.
 
 | Operation | Stack (top on right) | Value returned |
 | --------- | -------------------- | -------------- |
-| push(5)   | [5]                  | —              |
-| push(12)  | [5, 12]              | —              |
-| push(3)   | [5, 12, 3]           | —              |
+| push(5)   | [5]                  |,              |
+| push(12)  | [5, 12]              |,              |
+| push(3)   | [5, 12, 3]           |,              |
 | pop()     | [5, 12]              | 3              |
-| push(8)   | [5, 12, 8]           | —              |
+| push(8)   | [5, 12, 8]           |,              |
 | pop()     | [5, 12]              | 8              |
 | pop()     | [5]                  | 12             |
-| push(1)   | [5, 1]               | —              |
+| push(1)   | [5, 1]               |,              |
 
 Values returned by `pop()` in order: **3, 8, 12**.
 
@@ -660,15 +660,15 @@ Returns the top without removing it.
 
 Initial: `[2, 7, 1, 9]` (top = 9)
 
-Step 1 — `pop()`: removes 9, stack becomes `[2, 7, 1]`. Returns 9.
+Step 1, `pop()`: removes 9, stack becomes `[2, 7, 1]`. Returns 9.
 
-Step 2 — evaluate `pop() + peek()`:
+Step 2, evaluate `pop() + peek()`:
 
 - `pop()` removes 1, stack becomes `[2, 7]`. Returns 1.
 - `peek()` returns 7 (top of stack, stack unchanged: `[2, 7]`).
 - Result: $1 + 7 = 8$.
 
-Step 3 — `push(8)`: stack becomes `[2, 7, 8]`.
+Step 3, `push(8)`: stack becomes `[2, 7, 8]`.
 
 Final stack: **`[2, 7, 8]`** (8 on top).
 
@@ -680,7 +680,7 @@ Final stack: **`[2, 7, 8]`** (8 on top).
 <details>
 <summary>Hint</summary>
 
-A queue is FIFO — elements are removed from the front and added at the rear.
+A queue is FIFO, elements are removed from the front and added at the rear.
 
 </details>
 
@@ -689,11 +689,11 @@ A queue is FIFO — elements are removed from the front and added at the rear.
 
 | Operation   | Queue (front → rear) | Value returned |
 | ----------- | -------------------- | -------------- |
-| Initial     | [5, 10, 15, 20]      | —              |
+| Initial     | [5, 10, 15, 20]      |,              |
 | dequeue()   | [10, 15, 20]         | 5              |
-| enqueue(25) | [10, 15, 20, 25]     | —              |
+| enqueue(25) | [10, 15, 20, 25]     |,              |
 | dequeue()   | [15, 20, 25]         | 10             |
-| enqueue(30) | [15, 20, 25, 30]     | —              |
+| enqueue(30) | [15, 20, 25, 30]     |,              |
 | dequeue()   | [20, 25, 30]         | 15             |
 
 Final queue: **`[20, 25, 30]`** (front = 20).
@@ -728,7 +728,7 @@ When `size == capacity`.
 
 The last operation (`enqueue(8)`) succeeds. The queue is now **full** (size = capacity = 4). The
 `rear` wraps around: $(1 + 1) \% 4 = 2$. Note that `rear` now equals `front`But the queue is not
-Empty — we use the `size` variable to distinguish full from empty.
+Empty, we use the `size` variable to distinguish full from empty.
 
 </details>
 
@@ -779,8 +779,8 @@ Consider how many elements need to be moved when dequeuing from the front of a n
 <details>
 <summary>Answer</summary>
 
-- `enqueue`: $O(1)$ — add element at index `rear`Increment `rear`.
-- `dequeue`: $O(n)$ — remove element at index `front`Then shift elements `front+1` through `rear-1`
+- `enqueue`: $O(1)$, add element at index `rear`Increment `rear`.
+- `dequeue`: $O(n)$, remove element at index `front`Then shift elements `front+1` through `rear-1`
   one position left.
 
 **Why inefficient:** After dequeuing, every remaining element must be shifted. For a queue of $n$
@@ -844,11 +844,11 @@ Corresponding opening bracket.
 | `{`  | `[{]`                | Push `{`                |
 | `[`  | `[{, []`             | Push `[`                |
 | `(`  | `[{, [, (]`          | Push `(`                |
-| `)`  | `[{, []`             | Pop `(` — matches `)` ✓ |
+| `)`  | `[{, []`             | Pop `(`matches `)` ✓ |
 | `(`  | `[{, [, (]`          | Push `(`                |
-| `)`  | `[{, []`             | Pop `(` — matches `)` ✓ |
-| `]`  | `[{]`                | Pop `[` — matches `]` ✓ |
-| `}`  | `[]`                 | Pop `{` — matches `}` ✓ |
+| `)`  | `[{, []`             | Pop `(`matches `)` ✓ |
+| `]`  | `[{]`                | Pop `[`matches `]` ✓ |
+| `}`  | `[]`                 | Pop `{`matches `}` ✓ |
 
 Stack is empty → **balanced**. ✓
 
@@ -859,9 +859,9 @@ Stack is empty → **balanced**. ✓
 | `[`  | `[[]`                | Push `[`                             |
 | `{`  | `[{, {}`             | Push `{`                             |
 | `(`  | `[{, {, (]`          | Push `(`                             |
-| `}`  | `[{, (]`             | Pop `(` — expected `}` but got `(` ✗ |
+| `}`  | `[{, (]`             | Pop `(`expected `}` but got `(` ✗ |
 
-Stack top is `(` but closing bracket is `}` — **mismatch** → **not balanced**. ✗
+Stack top is `(` but closing bracket is `}`**mismatch** → **not balanced**. ✗
 
 </details>
 
@@ -900,7 +900,7 @@ ENDFUNCTION
   reached
 - Setting `_data[_front] = NULL` is optional but helps with debugging
 - `_size` is decremented to reflect the removal
-- Time complexity: $O(1)$ — constant number of operations regardless of queue size
+- Time complexity: $O(1)$, constant number of operations regardless of queue size
 
 </details>
 
@@ -923,10 +923,10 @@ First (LIFO) or the oldest item (FIFO)?
 <details>
 <summary>Answer</summary>
 
-**(A) Browser back/forward navigation — Stack**
+**(A) Browser back/forward navigation, Stack**
 
 The back button must return to the **most recently visited** page, not the first page visited. This
-Is LIFO behaviour — a stack.
+Is LIFO behaviour, a stack.
 
 Implementation: **Linked-list-based stack**. The number of pages visited is unpredictable and could
 Be very large. A linked list avoids pre-allocating a fixed capacity and eliminates the risk of
@@ -937,10 +937,10 @@ Why a queue would be wrong: A queue would return the user to the **first** page 
 Most recent. This would make the back button navigate to the homepage every time, which is
 Incorrect.
 
-**(B) Customer support tickets — Queue**
+**(B) Customer support tickets, Queue**
 
 Tickets must be answered in the **order they are received** (first come, first served). This is FIFO
-Behaviour — a queue.
+Behaviour, a queue.
 
 Implementation: **Circular array queue**. The volume of support tickets can be estimated (allowing
 Capacity planning), and the contiguous memory gives better performance. Both enqueue (new ticket)
@@ -949,7 +949,7 @@ Linked-list-based queue would be more flexible.
 
 Why a stack would be wrong: A stack would process the **most recently submitted** ticket first. This
 Means a customer who submitted a ticket hours ago would wait indefinitely while new tickets are
-Handled — unfair and violating the FIFO service guarantee.
+Handled, unfair and violating the FIFO service guarantee.
 
 </details>
 

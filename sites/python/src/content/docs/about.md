@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Python resources — experience, expertise, and credentials behind Python programming study materials."
+description: "About Wyatt's Notes Python resources, experience, expertise, and credentials behind Python programming study materials."
 tags:
   - about
   - python
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Python
+## About Wyatt's Notes, Python
 
 Wyatt's Notes delivers comprehensive study materials for Python programming. These notes cover the language from fundamentals through advanced topics including type hints, async programming, and metaclasses, building practical coding skills for data science, web development, and automation.
 
@@ -34,9 +34,9 @@ Wyatt develops resources across Python, data science, and web development, provi
 
 ## Related Sites
 
-- **[Machine Learning](https://machine-learning.wyattau.com)** — Machine learning resources (Python-based)
-- **[Programming](https://programming.wyattau.com)** — Multi-language programming resources
-- **[Databases](https://databases.wyattau.com)** — Database design and SQL notes
+- **[Machine Learning](https://machine-learning.wyattau.com)**, Machine learning resources (Python-based)
+- **[Programming](https://programming.wyattau.com)**, Multi-language programming resources
+- **[Databases](https://databases.wyattau.com)**, Database design and SQL notes
 
 ## Explore the Site
 
@@ -58,17 +58,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -84,10 +84,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 

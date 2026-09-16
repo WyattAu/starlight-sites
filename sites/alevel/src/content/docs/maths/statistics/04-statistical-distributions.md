@@ -375,7 +375,7 @@ $P(X \leq 3) = P(X=0)+P(X=1)+P(X=2)+P(X=3) \approx 0.0282 + 0.1211 + 0.2335 + 0.
 
 $P(X \geq 7) = P(X=7)+P(X=8)+P(X=9)+P(X=10) \approx 0.0090 + 0.0014 + 0.0001 + 0.0000 \approx 0.0106$.
 
-**If you get this wrong, revise:** [The Binomial Distribution](#2-the-binomial-distribution) —
+**If you get this wrong, revise:** [The Binomial Distribution](#2-the-binomial-distribution),
 Section 2.
 
 </details>
@@ -389,7 +389,7 @@ Heights of men are normally distributed with mean 175 cm and standard deviation 
 <summary>Solution 2</summary>
 $X \sim N(175, 64)$. $P(X \gt 185) = P\!\left(Z \gt \dfrac{185-175}{8}\right) = P(Z \gt 1.25) = 1 - \Phi(1.25) \approx 1 - 0.8944 = 0.1056$.
 
-**If you get this wrong, revise:** [The Normal Distribution](#3-the-normal-distribution) —
+**If you get this wrong, revise:** [The Normal Distribution](#3-the-normal-distribution),
 Section 3.
 
 </details>
@@ -407,7 +407,7 @@ $P(X=6) = \dfrac{e^{-4.5}(4.5)^6}{6!} = \dfrac{0.01111 \times 8303.77}{720} \app
 
 $P(X \gt 8) = 1 - P(X \leq 8) = 1 - \sum_{k=0}^{8}\dfrac{e^{-4.5}(4.5)^k}{k!} \approx 1 - 0.9804 = 0.0196$.
 
-**If you get this wrong, revise:** [The Poisson Distribution](#4-the-poisson-distribution) —
+**If you get this wrong, revise:** [The Poisson Distribution](#4-the-poisson-distribution),
 Section 4.
 
 </details>
@@ -424,7 +424,7 @@ $\lambda = np = 4$. $X \approx \mathrm{Po}(4)$.
 $P(X \leq 2) = e^{-4}\left(1 + 4 + \dfrac{16}{2}\right) = e^{-4}(1 + 4 + 8) = 13e^{-4} \approx 0.2381$.
 
 **If you get this wrong, revise:**
-[Derivation as a Limit](#42-derivation-as-a-limit-of-the-binomial) — Section 4.2.
+[Derivation as a Limit](#42-derivation-as-a-limit-of-the-binomial), Section 4.2.
 
 </details>
 
@@ -439,7 +439,7 @@ $P(-c \lt Z \lt c) = 2\Phi(c) - 1 = 0.95 \implies \Phi(c) = 0.975$.
 
 From tables: $c \approx 1.96$.
 
-**If you get this wrong, revise:** [Standard Normal](#34-standard-normal) — Section 3.4.
+**If you get this wrong, revise:** [Standard Normal](#34-standard-normal), Section 3.4.
 
 </details>
 
@@ -458,7 +458,7 @@ $P(X \leq 15) \approx 0.7728$, $P(X \leq 9) \approx 0.2424$.
 
 $P(10 \leq X \leq 15) \approx 0.7728 - 0.2424 = 0.5304$.
 
-**If you get this wrong, revise:** [The Poisson Distribution](#4-the-poisson-distribution) —
+**If you get this wrong, revise:** [The Poisson Distribution](#4-the-poisson-distribution),
 Section 4.
 
 </details>
@@ -478,7 +478,7 @@ $P(X \gt 50.3) = P(Z \gt 1.5) = 0.0668$.
 
 Proportion rejected $= 0.0668 + 0.0668 = 0.1336$ (13.36%).
 
-**If you get this wrong, revise:** [Finding Probabilities](#35-finding-probabilities) — Section 3.5.
+**If you get this wrong, revise:** [Finding Probabilities](#35-finding-probabilities), Section 3.5.
 
 </details>
 
@@ -495,7 +495,7 @@ $\mathrm{Var}(aX+b) = E[(aX+b)^2] - [E(aX+b)]^2 = E[a^2X^2 + 2abX + b^2] - [aE(X
 $= a^2E(X^2) + 2abE(X) + b^2 - a^2[E(X)]^2 - 2abE(X) - b^2$
 $= a^2[E(X^2) - (E(X))^2] = a^2\mathrm{Var}(X)$. ✓
 
-**If you get this wrong, revise:** [Expectation and Variance](#12-expectation-and-variance) —
+**If you get this wrong, revise:** [Expectation and Variance](#12-expectation-and-variance),
 Section 1.2.
 
 </details>
@@ -512,7 +512,7 @@ $\mu = 200(0.15) = 30$$\sigma^2 = 200(0.15)(0.85) = 25.5$$\sigma \approx 5.05$.
 $P(X \gt 35) \approx P\!\left(Z \gt \dfrac{35.5 - 30}{5.05}\right) = P(Z \gt 1.089) \approx 1 - 0.8621 = 0.1379$.
 
 **If you get this wrong, revise:**
-[Normal Approximation to Binomial](#36-normal-approximation-to-binomial) — Section 3.6.
+[Normal Approximation to Binomial](#36-normal-approximation-to-binomial), Section 3.6.
 
 </details>
 
@@ -527,7 +527,7 @@ By additivity: $X + Y \sim \mathrm{Po}(3+5) = \mathrm{Po}(8)$.
 
 $P(X + Y = 6) = \dfrac{e^{-8}(8)^6}{6!} = \dfrac{e^{-8} \times 262144}{720} \approx \dfrac{0.000335 \times 262144}{720} \approx 0.1221$.
 
-**If you get this wrong, revise:** [Additivity](#45-additivity) — Section 4.5.
+**If you get this wrong, revise:** [Additivity](#45-additivity), Section 4.5.
 
 </details>
 
@@ -548,7 +548,7 @@ By the binomial theorem: $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p+(1
 Therefore $E(X) = np$.
 
 **If you get this wrong, revise:**
-[Direct derivation of $E(X) = np$ from the PMF](#25-direct-derivation-of-ex--np-from-the-pmf) —
+[Direct derivation of $E(X) = np$ from the PMF](#25-direct-derivation-of-ex--np-from-the-pmf),
 Section 2.5.
 
 </details>
@@ -570,7 +570,7 @@ $\mathrm{Var}(Y) = 3^2 \times 7 = 63$.
 
 Note that the additive constant $-2$ affects the mean but not the variance.
 
-**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables) —
+**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables),
 Section 6.
 
 </details>
@@ -590,7 +590,7 @@ $X \approx \mathrm{Po}(2.4)$.
 $P(X \leq 1) = P(X=0) + P(X=1) = e^{-2.4}\left(1 + 2.4\right) = 3.4\,e^{-2.4} \approx 3.4 \times 0.0907 \approx 0.3085$.
 
 **If you get this wrong, revise:**
-[Poisson approximation to the Binomial](#47-poisson-approximation-to-the-binomial) — Section 4.7.
+[Poisson approximation to the Binomial](#47-poisson-approximation-to-the-binomial), Section 4.7.
 
 </details>
 
@@ -607,7 +607,7 @@ $\mathrm{Var}(W) = 2^2 \times \mathrm{Var}(X) = 4 \times 4 = 16$.
 
 $\mathrm{SD}(W) = \sqrt{16} = 4$.
 
-**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables) —
+**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables),
 Section 6.
 
 </details>
@@ -629,7 +629,7 @@ $\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(
 
 **If you get this wrong, revise:**
 [Direct derivation of $\mathrm{Var}(X) = np(1-p)$ from the PMF](#26-direct-derivation-of-mathrmvarx--np1-p-from-the-pmf)
-— Section 2.6.
+- Section 2.6.
 
 </details>
 
@@ -652,7 +652,7 @@ normal approximation is not appropriate. The Poisson approximation is the correc
 is small.
 
 **If you get this wrong, revise:**
-[Poisson approximation to the Binomial](#47-poisson-approximation-to-the-binomial) — Section 4.7.
+[Poisson approximation to the Binomial](#47-poisson-approximation-to-the-binomial), Section 4.7.
 
 </details>
 
@@ -672,7 +672,7 @@ $\mathrm{SD}(F) = \sqrt{29.16} = 5.4$.
 
 $P(F \gt 68) = P\!\left(Z \gt \dfrac{68 - 59}{5.4}\right) = P(Z \gt 1.667) \approx 1 - 0.9522 = 0.0478$.
 
-**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables) —
+**If you get this wrong, revise:** [Coding of Random Variables](#6-coding-of-random-variables),
 Section 6.
 
 </details>

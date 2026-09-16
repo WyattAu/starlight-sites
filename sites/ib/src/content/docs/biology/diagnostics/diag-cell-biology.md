@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Cell Biology — Diagnostic Tests
+## Cell Biology, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**A cell is like a factory — the nucleus is the office, mitochondria are the power plant, ribosomes are the assembly line:** Cell structure is inseparable from function — each organelle's design enables its specific role
+**A cell is like a factory, the nucleus is the office, mitochondria are the power plant, ribosomes are the assembly line:** Cell structure is inseparable from function, each organelle's design enables its specific role
 
 **Why it matters:** Cell biology is the foundation of all biology, explaining how living organisms grow, function, and reproduce
 
-**The key insight:** Cell structure is inseparable from function — each organelle's design enables its specific role
+**The key insight:** Cell structure is inseparable from function, each organelle's design enables its specific role
 
 ## Unit Tests
 

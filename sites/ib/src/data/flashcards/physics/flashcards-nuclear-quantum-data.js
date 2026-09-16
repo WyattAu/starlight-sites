@@ -23,7 +23,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-nuclear-quantum-004',
     front: 'Define binding energy and binding energy per nucleon.',
-    back: 'Binding energy: the minimum energy required to completely separate a nucleus into its individual protons and neutrons. E_b = Δmc². Binding energy per nucleon: E_b / A (where A = mass number). This measures nuclear stability — higher binding energy per nucleon = more stable. Peak is at Fe-56 (~8.8 MeV per nucleon). Nuclei with A < 56 gain stability through fusion; A > 56 through fission.',
+    back: 'Binding energy: the minimum energy required to completely separate a nucleus into its individual protons and neutrons. E_b = Δmc². Binding energy per nucleon: E_b / A (where A = mass number). This measures nuclear stability, higher binding energy per nucleon = more stable. Peak is at Fe-56 (~8.8 MeV per nucleon). Nuclei with A < 56 gain stability through fusion; A > 56 through fission.',
     tags: ['nuclear', 'binding energy'],
     difficulty: 'medium',
   },
@@ -92,7 +92,7 @@ export const flashcard3 = [
   {
     id: 'ib-phys-nuclear-quantum-013',
     front: 'State the photoelectric equation and define each term.',
-    back: 'Einstein’s photoelectric equation: E_k(max) = hf − φ. E_k(max) = maximum kinetic energy of emitted photoelectron (J or eV). hf = energy of incident photon (h = 6.63 × 10⁻³⁴ J s, f = frequency). φ (phi) = work function — minimum energy needed to release an electron from the surface. If hf < φ: no photoelectrons emitted regardless of intensity. If hf > φ: excess energy becomes kinetic energy of the photoelectron.',
+    back: 'Einstein’s photoelectric equation: E_k(max) = hf − φ. E_k(max) = maximum kinetic energy of emitted photoelectron (J or eV). hf = energy of incident photon (h = 6.63 × 10⁻³⁴ J s, f = frequency). φ (phi) = work function, minimum energy needed to release an electron from the surface. If hf < φ: no photoelectrons emitted regardless of intensity. If hf > φ: excess energy becomes kinetic energy of the photoelectron.',
     tags: ['quantum', 'photoelectric effect'],
     difficulty: 'medium',
   },

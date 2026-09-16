@@ -7,7 +7,7 @@ tags:
   - signs
   - signals
 sources:
-  - text: "FHWA — Manual on Uniform Traffic Control Devices (MUTCD), Chapter 4 Highway Traffic Signals"
+  - text: "FHWA, Manual on Uniform Traffic Control Devices (MUTCD), Chapter 4 Highway Traffic Signals"
     url: "https://mutcd.fhwa.dot.gov/"
 ---
 
@@ -17,7 +17,7 @@ Traffic signals regulate intersections; written tests probe five
 groups: steady balls, flashing indications, arrows, lane-control
 signals, and special signals (ramp meters, pedestrian heads). The
 core principle: a **green ball is permission to enter, not a
-guarantee to proceed** — you must still yield to traffic and
+guarantee to proceed**, you must still yield to traffic and
 pedestrians lawfully in the intersection.
 
 ## Steady Indications
@@ -31,12 +31,12 @@ pedestrians lawfully in the intersection.
 Yellow-light decision-making is the most-tested signal scenario: if
 you are approaching at speed and can stop comfortably behind the line,
 stop. If you are at the line or too close, continue through steadily
-— never brake hard mid-intersection.
+- never brake hard mid-intersection.
 
 ## Flashing Indications
 
 - **Flashing red** = stop sign. Full stop, yield, then go when clear.
-- **Flashing yellow** = proceed with caution — the intersection is
+- **Flashing yellow** = proceed with caution, the intersection is
   uncontrolled in effect, or the signal is in warning mode.
 - Dead signal (all dark) = treat as an **all-way stop** in most
   states; first-come-first-served, tie goes right.
@@ -44,7 +44,7 @@ stop. If you are at the line or too close, continue through steadily
 ## Arrows: Protected vs Permissive
 
 - **Green arrow** = protected turn: oncoming traffic has a red. Still
-  check for pedestrians in the crosswalk you turn across — the arrow
+  check for pedestrians in the crosswalk you turn across, the arrow
   usually does not protect against them.
 - **Steady yellow arrow** = the protected phase is ending; clear the
   intersection only if already committed.
@@ -65,7 +65,7 @@ bridges, tunnels, and reversible roads:
 
 - **Red X** = lane closed, do not enter or remain.
 - **Green arrow** = lane open in the normal direction.
-- **Yellow X** = lane control changing — vacate safely.
+- **Yellow X** = lane control changing, vacate safely.
 
 ## Ramp Meters and HOV Signals
 
@@ -79,7 +79,7 @@ meter is mandatory when active, even at 2 a.m. if it cycles.
 
 When a power outage darkens a signal, state law mostly says:
 stop, treat as an all-way stop, proceed in turn. If a police officer
-is directing traffic, their **hand signals override everything** —
+is directing traffic, their **hand signals override everything**,
 signals, signs, and markings. The officer-overrides test question
 appears in nearly every state exam.
 
@@ -99,9 +99,9 @@ appears in nearly every state exam.
 | Flashing red | Full stop, then proceed as stop sign |
 | Flashing yellow | Proceed with caution |
 | Signal dark | All-way stop |
-| Green arrow over your lane | Protected movement — proceed |
-| Flashing yellow arrow | Permissive left — yield, then turn |
-| Red X overhead | Lane closed — leave it |
+| Green arrow over your lane | Protected movement, proceed |
+| Flashing yellow arrow | Permissive left, yield, then turn |
+| Red X overhead | Lane closed, leave it |
 | Officer directing | Obey the officer |
 
 

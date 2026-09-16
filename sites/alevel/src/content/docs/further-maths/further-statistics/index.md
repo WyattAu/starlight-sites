@@ -57,34 +57,34 @@ for goodness of fit and independence.
 
 ### Poisson and Geometric Distributions
 
-- **Poisson distribution** — $X \sim \text{Po}(\lambda)$; derivation as the limit of
+- **Poisson distribution**, $X \sim \text{Po}(\lambda)$; derivation as the limit of
   $\text{Bin}(n, p)$ as $n \to \infty$, $p \to 0$ with $np = \lambda$
-- **Poisson properties** — mean $= \lambda$, variance $= \lambda$; additive property of independent
+- **Poisson properties**, mean $= \lambda$, variance $= \lambda$; additive property of independent
   Poissons
-- **Geometric distribution** — $X \sim \text{Geo}(p)$; $P(X = x) = (1-p)^{x-1}p$; memoryless
+- **Geometric distribution**, $X \sim \text{Geo}(p)$; $P(X = x) = (1-p)^{x-1}p$; memoryless
   property
-- **Hypothesis testing** — using Poisson and geometric distributions; critical regions, significance
+- **Hypothesis testing**, using Poisson and geometric distributions; critical regions, significance
   levels, $p$-values
 
 ### Exponential and Continuous Random Variables
 
-- **Exponential distribution** — $X \sim \text{Exp}(\lambda)$; PDF $f(x) = \lambda e^{-\lambda x}$
+- **Exponential distribution**, $X \sim \text{Exp}(\lambda)$; PDF $f(x) = \lambda e^{-\lambda x}$
   for $x \geq 0$; CDF $F(x) = 1 - e^{-\lambda x}$
-- **Link to Poisson processes** — the waiting time between Poisson events follows an exponential
+- **Link to Poisson processes**, the waiting time between Poisson events follows an exponential
   distribution
-- **Continuous random variables** — PDF, CDF, $E(X) = \int xf(x)\,dx$,
+- **Continuous random variables**, PDF, CDF, $E(X) = \int xf(x)\,dx$,
   $\text{Var}(X) = E(X^2) - [E(X)]^2$
-- **Median and mode** — finding the median from the CDF; locating the mode from the PDF
+- **Median and mode**, finding the median from the CDF; locating the mode from the PDF
 
 ### Chi-Squared Tests
 
-- **Goodness of fit** — testing whether observed data follows a specified distribution;
+- **Goodness of fit**, testing whether observed data follows a specified distribution;
   $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$
-- **Contingency tables** — testing for independence between two categorical variables
-- **Degrees of freedom** — calculating $\nu$ correctly; $\nu = k - 1$ for goodness of fit,
+- **Contingency tables**, testing for independence between two categorical variables
+- **Degrees of freedom**, calculating $\nu$ correctly; $\nu = k - 1$ for goodness of fit,
   $\nu = (r-1)(c-1)$ for contingency tables
-- **Combining cells** — when expected frequencies are below 5
-- **Interpretation** — what a significant result actually means in context
+- **Combining cells**, when expected frequencies are below 5
+- **Interpretation**, what a significant result actually means in context
 
 ## Study Tips
 
@@ -103,8 +103,8 @@ for goodness of fit and independence.
 
 Every hypothesis test follows the same five-step structure:
 
-1. **State hypotheses** — $H_0$ (null: no effect/difference) and $H_1$ (alternative)
-2. **Choose significance level** — $\alpha = 0.05$ or $0.01$
+1. **State hypotheses**, $H_0$ (null: no effect/difference) and $H_1$ (alternative)
+2. **Choose significance level**, $\alpha = 0.05$ or $0.01$
 3. **Calculate the test statistic**. Using the appropriate distribution
 4. **Determine the critical region or $p$-value**. Compare to $\alpha$
 5. **State the conclusion in context**. Never just "reject $H_0$"; explain what this means for the

@@ -9,7 +9,7 @@ export const flashcard1 = [
   {
     id: 'ib-chem-kinetics-equilibrium-002',
     front: 'What is a rate equation and how is it different from a balanced chemical equation?',
-    back: 'A rate equation shows how the rate depends on the concentrations of reactants: rate = k[A]m[B]n. The exponents m and n are the orders of reaction with respect to each reactant and must be determined experimentally — they are NOT the coefficients from the balanced equation. The overall order = m + n. k is the rate constant. Example: for A + B -> C, the rate equation might be rate = k[A]2 (second order in A, zero order in B) even though the stoichiometric coefficients are both 1.',
+    back: 'A rate equation shows how the rate depends on the concentrations of reactants: rate = k[A]m[B]n. The exponents m and n are the orders of reaction with respect to each reactant and must be determined experimentally, they are NOT the coefficients from the balanced equation. The overall order = m + n. k is the rate constant. Example: for A + B -> C, the rate equation might be rate = k[A]2 (second order in A, zero order in B) even though the stoichiometric coefficients are both 1.',
     tags: ['rate equation'],
     difficulty: 'easy',
   },
@@ -32,7 +32,7 @@ export const flashcard1 = [
   {
     id: 'ib-chem-kinetics-equilibrium-005',
     front: 'Describe collision theory and the conditions required for a successful collision.',
-    back: 'Collision theory: reactions occur when particles collide with sufficient energy (equal to or greater than the activation energy, Ea) and with the correct orientation (appropriate geometry). Increasing concentration or pressure increases collision frequency. Increasing temperature increases both collision frequency and the proportion of collisions with energy >= Ea (fractional increase is more significant). Catalysts lower Ea, increasing the proportion of successful collisions. Not every collision leads to a reaction — only those meeting both the energy and orientation requirements.',
+    back: 'Collision theory: reactions occur when particles collide with sufficient energy (equal to or greater than the activation energy, Ea) and with the correct orientation (appropriate geometry). Increasing concentration or pressure increases collision frequency. Increasing temperature increases both collision frequency and the proportion of collisions with energy >= Ea (fractional increase is more significant). Catalysts lower Ea, increasing the proportion of successful collisions. Not every collision leads to a reaction, only those meeting both the energy and orientation requirements.',
     tags: ['collision theory'],
     difficulty: 'easy',
   },
@@ -43,7 +43,7 @@ export const flashcard2 = [
     id: 'ib-chem-kinetics-equilibrium-006',
     front:
       'What is activation energy (Ea) and how does it relate to the energy profile of a reaction?',
-    back: 'Activation energy (Ea): the minimum energy required for a reaction to occur — the energy barrier between reactants and products. On an energy profile diagram, Ea is the difference between the energy of the reactants and the peak of the curve (transition state/activated complex). Exothermic reaction: products are lower in energy than reactants (delta H < 0). Endothermic: products are higher (delta H > 0). Catalysts provide an alternative pathway with lower Ea, increasing the rate without being consumed.',
+    back: 'Activation energy (Ea): the minimum energy required for a reaction to occur, the energy barrier between reactants and products. On an energy profile diagram, Ea is the difference between the energy of the reactants and the peak of the curve (transition state/activated complex). Exothermic reaction: products are lower in energy than reactants (delta H < 0). Endothermic: products are higher (delta H > 0). Catalysts provide an alternative pathway with lower Ea, increasing the rate without being consumed.',
     tags: ['activation energy'],
     difficulty: 'medium',
   },
@@ -104,7 +104,7 @@ export const flashcard3 = [
   {
     id: 'ib-chem-kinetics-equilibrium-014',
     front: 'Explain the effect of temperature change on the equilibrium constant K.',
-    back: "Changing temperature changes K. For exothermic reactions (delta H < 0): increasing temperature decreases K (equilibrium shifts towards reactants to absorb heat). For endothermic reactions (delta H > 0): increasing temperature increases K (equilibrium shifts towards products to absorb heat). The van't Hoff equation: ln(K2/K1) = (delta H/R)(1/T1 - 1/T2). Changing concentration or pressure does NOT change K (only shifts the equilibrium position). Catalysts do NOT change K — they only increase the rate at which equilibrium is reached.",
+    back: "Changing temperature changes K. For exothermic reactions (delta H < 0): increasing temperature decreases K (equilibrium shifts towards reactants to absorb heat). For endothermic reactions (delta H > 0): increasing temperature increases K (equilibrium shifts towards products to absorb heat). The van't Hoff equation: ln(K2/K1) = (delta H/R)(1/T1 - 1/T2). Changing concentration or pressure does NOT change K (only shifts the equilibrium position). Catalysts do NOT change K, they only increase the rate at which equilibrium is reached.",
     tags: ['temperature effect', 'equilibrium constant'],
     difficulty: 'hard',
   },
@@ -122,14 +122,14 @@ export const flashcard4 = [
   {
     id: 'ib-chem-kinetics-equilibrium-016',
     front: 'Describe the industrial conditions for the Haber process and explain the compromises.',
-    back: 'N2(g) + 3H2(g) <-> 2NH3(g), delta H = -92 kJ mol-1. Optimum conditions balance equilibrium position and rate. Temperature: 450 C (compromise — lower T favours NH3 but slows rate too much). Pressure: 200 atm (high pressure favours NH3 but is expensive and dangerous). Catalyst: iron with promoters (Al2O3, K2O) to increase rate without affecting equilibrium. Unreacted N2 and H2 are recycled. Yield: ~15% per pass, but overall yield is high due to recycling. The conditions demonstrate the economic trade-off between thermodynamic and kinetic factors.',
+    back: 'N2(g) + 3H2(g) <-> 2NH3(g), delta H = -92 kJ mol-1. Optimum conditions balance equilibrium position and rate. Temperature: 450 C (compromise, lower T favours NH3 but slows rate too much). Pressure: 200 atm (high pressure favours NH3 but is expensive and dangerous). Catalyst: iron with promoters (Al2O3, K2O) to increase rate without affecting equilibrium. Unreacted N2 and H2 are recycled. Yield: ~15% per pass, but overall yield is high due to recycling. The conditions demonstrate the economic trade-off between thermodynamic and kinetic factors.',
     tags: ['Haber process', 'industrial conditions'],
     difficulty: 'hard',
   },
   {
     id: 'ib-chem-kinetics-equilibrium-017',
     front: 'Describe the industrial conditions for the Contact process and the role of V2O5.',
-    back: '2SO2(g) + O2(g) <-> 2SO3(g), delta H = -197 kJ mol-1. Conditions: 450 C (compromise — lower T favours SO3 but rate is too slow), 1-2 atm (moderate pressure since 3 -> 2 mol gas, but high pressure equipment is expensive). Catalyst: V2O5 (vanadium(V) oxide) — heterogeneous catalyst. The catalyst lowers Ea, providing an alternative pathway. SO3 is absorbed in concentrated H2SO4 to form oleum (H2S2O7), which is diluted to give more H2SO4. Excess O2 ensures high conversion of SO2 (shifts equilibrium right).',
+    back: '2SO2(g) + O2(g) <-> 2SO3(g), delta H = -197 kJ mol-1. Conditions: 450 C (compromise, lower T favours SO3 but rate is too slow), 1-2 atm (moderate pressure since 3 -> 2 mol gas, but high pressure equipment is expensive). Catalyst: V2O5 (vanadium(V) oxide), heterogeneous catalyst. The catalyst lowers Ea, providing an alternative pathway. SO3 is absorbed in concentrated H2SO4 to form oleum (H2S2O7), which is diluted to give more H2SO4. Excess O2 ensures high conversion of SO2 (shifts equilibrium right).',
     tags: ['Contact process', 'industrial conditions'],
     difficulty: 'hard',
   },
@@ -137,7 +137,7 @@ export const flashcard4 = [
     id: 'ib-chem-kinetics-equilibrium-018',
     front:
       'Distinguish between equilibrium position and equilibrium constant. Can they change independently?',
-    back: 'Equilibrium position: the relative amounts of reactants and products at equilibrium (which side is favoured). Equilibrium constant K: the numerical ratio of product concentrations to reactant concentrations at equilibrium. K depends only on temperature. The equilibrium position can shift (due to concentration or pressure changes) without K changing. K changes only when temperature changes. A catalyst changes neither K nor the equilibrium position — it only speeds up the rate of approach to equilibrium. The equilibrium position can also be described qualitatively as "lying to the left" (reactants) or "right" (products).',
+    back: 'Equilibrium position: the relative amounts of reactants and products at equilibrium (which side is favoured). Equilibrium constant K: the numerical ratio of product concentrations to reactant concentrations at equilibrium. K depends only on temperature. The equilibrium position can shift (due to concentration or pressure changes) without K changing. K changes only when temperature changes. A catalyst changes neither K nor the equilibrium position, it only speeds up the rate of approach to equilibrium. The equilibrium position can also be described qualitatively as "lying to the left" (reactants) or "right" (products).',
     tags: ['equilibrium position', 'equilibrium constant'],
     difficulty: 'hard',
   },

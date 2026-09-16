@@ -166,11 +166,11 @@ Equals quantity supplied:
 
 $$Q_D(P^*) = Q_S(P^*)$$
 
-**Stability proof.** Suppose price $P_1 \gt P^*$. Then $Q_S(P_1) \gt Q_D(P_1)$ — there is excess
+**Stability proof.** Suppose price $P_1 \gt P^*$. Then $Q_S(P_1) \gt Q_D(P_1)$, there is excess
 Supply (a surplus). Unsold goods pile up, so firms cut prices. As price falls, quantity demanded
 Rises and quantity supplied falls until equilibrium is restored.
 
-Suppose price $P_2 \lt P^*$. Then $Q_D(P_2) \gt Q_S(P_2)$ — there is excess demand (a shortage).
+Suppose price $P_2 \lt P^*$. Then $Q_D(P_2) \gt Q_S(P_2)$, there is excess demand (a shortage).
 Consumers bid up prices. As price rises, quantity supplied rises and quantity demanded falls until
 Equilibrium is restored.
 
@@ -278,7 +278,7 @@ $$\mathrm{XED}_{AB} = \frac{\%\Delta Q_A}{\%\Delta P_B}$$
 | XED < 0 | Complements  | Petrol and cars    |
 | XED = 0 | Unrelated    | Books and tomatoes |
 
-The _magnitude_ of XED indicates the closeness of the relationship — relevant for competition policy
+The _magnitude_ of XED indicates the closeness of the relationship, relevant for competition policy
 (defining the relevant market).
 
 ### 4.7 Price Elasticity of Supply (PES)
@@ -312,7 +312,7 @@ $$PS = \int_0^{Q^*} [P^* - P_s(Q)] \, dQ$$
 
 Where $P_s(Q)$ is the inverse supply function.
 
-**Total surplus** = $CS + PS$. At competitive equilibrium, total surplus is maximised — this is the
+**Total surplus** = $CS + PS$. At competitive equilibrium, total surplus is maximised, this is the
 **First Theorem of Welfare Economics**.
 
 ## 6. Critical Evaluation
@@ -326,8 +326,8 @@ Where $P_s(Q)$ is the inverse supply function.
 
 ### Limitations
 
-- Assumes perfect competition — many markets are not competitive
-- Static analysis — doesn't capture dynamic adjustment processes
-- Representative agent assumption — ignores heterogeneity
-- Ceteris paribus is unrealistic — many variables change simultaneously
+- Assumes perfect competition, many markets are not competitive
+- Static analysis, doesn't capture dynamic adjustment processes
+- Representative agent assumption, ignores heterogeneity
+- Ceteris paribus is unrealistic, many variables change simultaneously
 - Doesn't account for behavioural biases (prospect theory, loss aversion)

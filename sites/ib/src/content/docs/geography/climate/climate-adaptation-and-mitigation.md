@@ -19,11 +19,11 @@ description: "refers to actions that reduce the sources or enhance the sinks of 
 
 ## Intuition
 
-**Adaptation is like building an ark before the flood — preparing for climate impacts we can no longer avoid:** Climate action requires both mitigation (reducing emissions) and adaptation (preparing for impacts) — neither alone is sufficient
+**Adaptation is like building an ark before the flood, preparing for climate impacts we can no longer avoid:** Climate action requires both mitigation (reducing emissions) and adaptation (preparing for impacts), neither alone is sufficient
 
 **Why it matters:** Balancing adaptation and mitigation strategies is essential for protecting communities and ecosystems from climate change
 
-**The key insight:** Climate action requires both mitigation (reducing emissions) and adaptation (preparing for impacts) — neither alone is sufficient
+**The key insight:** Climate action requires both mitigation (reducing emissions) and adaptation (preparing for impacts), neither alone is sufficient
 
 ## Distinguishing Adaptation and Mitigation
 

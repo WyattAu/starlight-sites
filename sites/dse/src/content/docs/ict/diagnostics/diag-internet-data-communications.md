@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Internet and Data Communications — Diagnostic Tests
+## Internet and Data Communications, Diagnostic Tests
 
 ## Unit Tests
 

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Rotational Motion — Diagnostic Tests
+## Rotational Motion, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Rotational motion is like linear motion's twin — every linear concept (force, mass, velocity) has a rotational counterpart (torque, moment of inertia, angular velocity):** Rotational dynamics extends Newton's laws to spinning objects, where the distribution of mass matters as much as the total mass
+**Rotational motion is like linear motion's twin, every linear concept (force, mass, velocity) has a rotational counterpart (torque, moment of inertia, angular velocity):** Rotational dynamics extends Newton's laws to spinning objects, where the distribution of mass matters as much as the total mass
 
 **Why it matters:** Understanding rotation is essential for everything from gyroscopes in navigation to designing efficient turbines and understanding planetary spin
 

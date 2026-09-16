@@ -2,7 +2,7 @@ export const flashcardData = [
   {
     id: 'go-fmt-1',
     front: 'What are the most common Printf format verbs in Go?',
-    back: '%s — string, %d — integer (base 10), %f — floating point, %v — default format (any value), %T — type of value, %p — pointer address, %b — binary, %x — hexadecimal, %q — quoted string. Use %% to print a literal percent sign.',
+    back: '%s, string, %d, integer (base 10), %f, floating point, %v, default format (any value), %T, type of value, %p, pointer address, %b, binary, %x, hexadecimal, %q, quoted string. Use %% to print a literal percent sign.',
     tags: ['fmt', 'formatting'],
     difficulty: 'easy',
   },
@@ -37,7 +37,7 @@ export const flashcardData = [
   {
     id: 'go-strings-3',
     front: 'How does strings.Replace and strings.ReplaceAll work?',
-    back: 'strings.Replace(s, old, new, n) replaces the first n occurrences of old with new in s. If n < 0, all occurrences are replaced. strings.ReplaceAll(s, old, new) replaces all occurrences (equivalent to Replace with n = -1). Both return a new string — strings are immutable in Go.',
+    back: 'strings.Replace(s, old, new, n) replaces the first n occurrences of old with new in s. If n < 0, all occurrences are replaced. strings.ReplaceAll(s, old, new) replaces all occurrences (equivalent to Replace with n = -1). Both return a new string, strings are immutable in Go.',
     tags: ['strings'],
     difficulty: 'medium',
   },
@@ -100,7 +100,7 @@ export const flashcardData = [
   {
     id: 'go-os-2',
     front: 'What does os.Getenv do and what happens if the variable is not set?',
-    back: 'os.Getenv(key string) string returns the value of the environment variable named by key. If the variable is not set, it returns an empty string "" — it does NOT return an error. To distinguish "not set" from "set to empty", use os.LookupEnv which returns (value string, ok bool).',
+    back: 'os.Getenv(key string) string returns the value of the environment variable named by key. If the variable is not set, it returns an empty string "", it does NOT return an error. To distinguish "not set" from "set to empty", use os.LookupEnv which returns (value string, ok bool).',
     tags: ['os', 'environment'],
     difficulty: 'easy',
   },

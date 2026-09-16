@@ -465,7 +465,7 @@ query = f"SELECT * FROM Users WHERE name = '{user_input}'"
 **Secure (parameterised):**
 
 ```python
-cursor.execute("SELECT * FROM Users WHERE name = ?", (user_input,))
+cursor.execute("SELECT * FROM Users WHERE name = ?", (user_input))
 ```
 
 ### Database Design Patterns

@@ -285,7 +285,7 @@ Algorithm to compute $F_{min}$:
 ```text
 1. START with F.
 2. DECOMPOSE right sides:
-   Replace each X -> {A₁, A₂, ..., Aₙ} with X -> A₁, X -> A₂, ..., X -> Aₙ.
+   Replace each X -> {A₁, A₂..., Aₙ} with X -> A₁, X -> A₂..., X -> Aₙ.
 3. REMOVE redundant FDs:
    For each FD f in F:
      Temporarily remove f from F.

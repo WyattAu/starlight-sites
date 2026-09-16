@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## National Income and Macroeconomic Indicators — Diagnostic Tests
+## National Income and Macroeconomic Indicators, Diagnostic Tests
 
 ## Unit Tests
 
@@ -235,11 +235,11 @@ flowchart TD
 
 ## Intuition
 
-**A nation's scoreboard:** GDP is like a company's revenue — it measures the total value of everything produced. But just like revenue isn't profit, GDP isn't welfare — it counts pollution cleanup as positive output.
+**A nation's scoreboard:** GDP is like a company's revenue, it measures the total value of everything produced. But just like revenue isn't profit, GDP isn't welfare, it counts pollution cleanup as positive output.
 
 **Why it matters:** GDP per capita indicates living standards, but it misses inequality, environmental damage, and unpaid work. Understanding its limitations helps interpret economic data correctly.
 
-**The key insight:** GDP measures production, not happiness — a country can have rising GDP while most people's lives don't improve.
+**The key insight:** GDP measures production, not happiness, a country can have rising GDP while most people's lives don't improve.
 
 ## Additional DSE Exam-Style Questions
 

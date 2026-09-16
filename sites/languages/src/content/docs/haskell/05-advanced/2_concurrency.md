@@ -32,11 +32,11 @@ flowchart TD
 
 ## Intuition
 
-**Parallel processing in Haskell:** Haskell's concurrency model is like having multiple workers — lightweight threads (forkIO) communicate through shared variables (MVar) to coordinate tasks.
+**Parallel processing in Haskell:** Haskell's concurrency model is like having multiple workers, lightweight threads (forkIO) communicate through shared variables (MVar) to coordinate tasks.
 
 **Why it matters:** Haskell's pure functional approach to concurrency avoids many common pitfalls like race conditions and deadlocks.
 
-**The key insight:** MVar acts like a mailbox — threads can send and receive messages, ensuring safe communication between concurrent tasks.
+**The key insight:** MVar acts like a mailbox, threads can send and receive messages, ensuring safe communication between concurrent tasks.
 
 ## Concurrency vs Parallelism
 
@@ -705,6 +705,6 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 ## Common Mistakes
 
 - **Using `unsafePerformIO` or `unsafeIOToSTM` to bypass purity:** These break Haskell's safety guarantees and can cause subtle, non-reproducible bugs. Use IORef with STM or the `IO` monad properly instead.
-- **Creating long-running STM transactions:** Long transactions hold locks longer and increase the chance of contention and retry loops. Keep `atomically` blocks short — do I/O and expensive computation outside the transaction.
+- **Creating long-running STM transactions:** Long transactions hold locks longer and increase the chance of contention and retry loops. Keep `atomically` blocks short, do I/O and expensive computation outside the transaction.
 - **Forgetting the `-threaded` flag:** Without `-threaded` and `-N`, GHC runs everything on a single OS thread regardless of how many `forkIO` calls you make. Always compile with `ghc -threaded -rtsopts` for concurrent programs.
 - **Using `forkIO` without `bracket` for cleanup:** If an exception kills a forked thread, resources (file handles, sockets, connections) may leak. Always use `bracket` or `withAsync` to guarantee cleanup.

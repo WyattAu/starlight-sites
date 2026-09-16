@@ -181,11 +181,11 @@ flowchart TD
 
 ## Intuition
 
-**Psychology approaches are different lenses for understanding behaviour:** The biological, cognitive, behavioural, psychodynamic, and humanistic approaches each explain human behaviour from a different perspective. No single approach has all the answers — each highlights different aspects.
+**Psychology approaches are different lenses for understanding behaviour:** The biological, cognitive, behavioural, psychodynamic, and humanistic approaches each explain human behaviour from a different perspective. No single approach has all the answers, each highlights different aspects.
 
 **Why it matters:** Understanding multiple approaches lets you analyse psychological phenomena from different angles and evaluate research more critically.
 
-**The key insight:** The debate between approaches (nature vs nurture, free will vs determinism) reflects genuine complexity in human behaviour — the best psychology integrates multiple perspectives.
+**The key insight:** The debate between approaches (nature vs nurture, free will vs determinism) reflects genuine complexity in human behaviour, the best psychology integrates multiple perspectives.
 
 ## Common Mistakes
 
@@ -193,4 +193,4 @@ flowchart TD
 
 **Assuming all approaches are equally scientific:** The biological and cognitive approaches use empirical, scientific methods (experiments, brain scans). The psychodynamic and humanistic approaches are harder to test empirically and are often criticised for lacking falsifiability. This does not mean they are wrong, but their evidence base is different.
 
-**Confusing Bandura's social learning theory with behaviourism:** Bandura's Bobo doll experiment showed that learning can occur through observation (modelling) without direct reinforcement. This challenged pure behaviourism, which required direct reinforcement. Social learning theory bridges behaviourism and cognitivism — it is not directly an extension of behaviourism.
+**Confusing Bandura's social learning theory with behaviourism:** Bandura's Bobo doll experiment showed that learning can occur through observation (modelling) without direct reinforcement. This challenged pure behaviourism, which required direct reinforcement. Social learning theory bridges behaviourism and cognitivism, it is not directly an extension of behaviourism.

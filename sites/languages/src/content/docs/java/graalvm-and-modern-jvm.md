@@ -554,7 +554,7 @@ public class LibCurlExample {
             FunctionDescriptor.of(ValueLayout.ADDRESS)
         );
 
-        // curl_easy_setopt(CURL*, CURLoption, ...) -> CURLcode
+        // curl_easy_setopt(CURL*, CURLoption...) -> CURLcode
         MethodHandle curlEasySetopt = LINKER.downcallHandle(
             CURL.lookup("curl_easy_setopt").orElseThrow(),
             FunctionDescriptor.of(
@@ -1243,11 +1243,11 @@ The native image binary only for integration tests and final validation.
 
 ## Intuition
 
-**Java's evolution:** The JVM keeps evolving — GraalVM compiles Java to native code for faster startup, and modern JVM features improve performance and developer experience.
+**Java's evolution:** The JVM keeps evolving, GraalVM compiles Java to native code for faster startup, and modern JVM features improve performance and developer experience.
 
 **Why it matters:** Understanding JVM evolution helps you leverage new features and optimize performance in production systems.
 
-**The key insight:** GraalVM's native image compilation can reduce startup time from seconds to milliseconds — crucial for serverless and microservices.
+**The key insight:** GraalVM's native image compilation can reduce startup time from seconds to milliseconds, crucial for serverless and microservices.
 
 ## Common Pitfalls
 

@@ -364,11 +364,11 @@ reader to imagine what it might contain.
 
 ## Intuition
 
-**Stories as mirrors:** Reading fiction is like looking through windows into other lives — each story reveals human nature, social issues, and different perspectives through characters and plot.
+**Stories as mirrors:** Reading fiction is like looking through windows into other lives, each story reveals human nature, social issues, and different perspectives through characters and plot.
 
 **Why it matters:** Literature develops critical thinking, empathy, and communication skills. Understanding narrative techniques helps you analyze texts and express ideas evidently.
 
-**The key insight:** Every literary choice (word, structure, character) serves a purpose — the author's craft is as important as the story itself.
+**The key insight:** Every literary choice (word, structure, character) serves a purpose, the author's craft is as important as the story itself.
 
 
 ```mermaid

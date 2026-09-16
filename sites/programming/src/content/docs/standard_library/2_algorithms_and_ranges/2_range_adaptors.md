@@ -96,7 +96,7 @@ Processing until iteration begins. QED.
 int main() {
     std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    // This creates a LAZY pipeline — no computation yet [N4950 §26.5.2]
+    // This creates a LAZY pipeline, no computation yet [N4950 §26.5.2]
     auto pipeline = numbers
         | std::views::filter([](int x) { return x % 2 == 0; })   // {2,4,6,8,10}
         | std::views::transform([](int x) { return x * x; })     // {4,16,36,64,100}
@@ -833,7 +833,7 @@ int main() {
 
 **Why it matters:** Range adaptors enable composable, lazy data processing. Instead of writing nested loops with temporary vectors, you compose a pipeline that processes elements on-demand. This is more readable, more efficient (no temporary allocations), and more maintainable (each step is independent). The C++20 ranges library provides dozens of adaptors: `filter`, `transform`, `take`, `drop`, `join`, `split`, and more.
 
-**The key insight:** Range adaptors compose with `|` to create lazy data processing pipelines — each adaptor does one thing well, and they chain together logically.
+**The key insight:** Range adaptors compose with `|` to create lazy data processing pipelines, each adaptor does one thing well, and they chain together logically.
 
 ## Common Pitfalls
 

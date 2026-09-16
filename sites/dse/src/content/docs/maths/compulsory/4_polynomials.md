@@ -1021,7 +1021,7 @@ The inequality holds strictly for $n \geq 3$. For $n = 2$Equality holds.
 - **Arithmetic errors in polynomial long division.** A single sign error propagates through all
   subsequent steps.
 
-- Misreading the question, particularly with 'hence' vs 'hence or otherwise' — the former requires
+- Misreading the question, particularly with 'hence' vs 'hence or otherwise', the former requires
   using previous work.
 
 - Remainder Theorem: remainder when $f(x)$ is divided by $(x - a)$ equals $f(a)$.

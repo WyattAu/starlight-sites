@@ -1,7 +1,7 @@
 ---
 
 title: "Molecular Biology"
-description: "IB Biology — water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
+description: "IB Biology, water, carbohydrates, lipids, proteins, enzymes, DNA structure, replication, transcription, and translation."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -29,7 +29,7 @@ flowchart TD
 
 ## Intuition
 
-**Molecular biology is like studying the cell's information technology — DNA stores data, RNA transmits it, and proteins execute the instructions:** The central dogma describes how genetic information flows from DNA through RNA to protein
+**Molecular biology is like studying the cell's information technology, DNA stores data, RNA transmits it, and proteins execute the instructions:** The central dogma describes how genetic information flows from DNA through RNA to protein
 
 **Why it matters:** Molecular biology underpins biotechnology, genetic engineering, and our understanding of life at its most fundamental level
 

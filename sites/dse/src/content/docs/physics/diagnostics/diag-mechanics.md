@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Mechanics — Diagnostic Tests
+## Mechanics, Diagnostic Tests
 
 ## Unit Tests
 
@@ -356,7 +356,7 @@ inelastic collision.
 
 ## Common Mistakes
 
-**Confusing mass with weight:** Mass is the amount of matter (kg). Weight is the force due to gravity (N). Don't use them interchangeably — a 70 kg person weighs about 686 N on Earth.
+**Confusing mass with weight:** Mass is the amount of matter (kg). Weight is the force due to gravity (N). Don't use them interchangeably, a 70 kg person weighs about 686 N on Earth.
 
 **Forgetting to consider friction in real-world problems:** Idealised physics problems often ignore friction, but real systems always have it. When friction is mentioned, include it in your force diagrams and equations.
 

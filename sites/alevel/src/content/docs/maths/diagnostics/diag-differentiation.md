@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Differentiation — Diagnostic Tests
+## Differentiation, Diagnostic Tests
 
 ## Unit Tests
 

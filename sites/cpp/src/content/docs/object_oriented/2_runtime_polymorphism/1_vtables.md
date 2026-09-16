@@ -629,7 +629,7 @@ Access.
 
 ## Intuition
 
-A vtable is the phone book of a virtual class. When you call a virtual function, the compiler does not know which version to call at compile time — it might be the base class version or a derived class version. So it looks up the function pointer in the vtable, which is a table of function pointers specific to each class. Each object with virtual functions carries a hidden pointer to its class's vtable, like a name tag that says "ask me which functions I actually use." This indirection enables runtime polymorphism but costs one extra pointer dereference per virtual call — the price of flexibility.
+A vtable is the phone book of a virtual class. When you call a virtual function, the compiler does not know which version to call at compile time, it might be the base class version or a derived class version. So it looks up the function pointer in the vtable, which is a table of function pointers specific to each class. Each object with virtual functions carries a hidden pointer to its class's vtable, like a name tag that says "ask me which functions I actually use." This indirection enables runtime polymorphism but costs one extra pointer dereference per virtual call, the price of flexibility.
 
 ## Common Pitfalls
 

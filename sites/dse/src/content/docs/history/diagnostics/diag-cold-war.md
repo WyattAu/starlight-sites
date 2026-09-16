@@ -92,11 +92,11 @@ Answer each question. Check your answers against the key at the end.
 
 ## Intuition
 
-**A tense standoff:** The Cold War was like two rivals who never fought directly but competed through proxies, arms races, and propaganda — the world held hostage by nuclear tension.
+**A tense standoff:** The Cold War was like two rivals who never fought directly but competed through proxies, arms races, and propaganda, the world held hostage by nuclear tension.
 
-**Why it matters:** Cold War decisions shaped modern geopolitics — from NATO to the Middle East, from space exploration to surveillance states.
+**Why it matters:** Cold War decisions shaped modern geopolitics, from NATO to the Middle East, from space exploration to surveillance states.
 
-**The key insight:** Containment wasn't about defeating the enemy — it was about preventing their influence from spreading, a strategy that defined decades of foreign policy.
+**The key insight:** Containment wasn't about defeating the enemy, it was about preventing their influence from spreading, a strategy that defined decades of foreign policy.
 
 ## Answer Key
 

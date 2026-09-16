@@ -19,9 +19,9 @@ description: "JUnit 5 (Jupiter) is the standard testing framework for Java. It c
 
 JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of three sub-projects:
 
-- **JUnit Platform** — the foundation for launching test frameworks on the JVM.
-- **JUnit Jupiter** — the programming model (annotations, assertions) and extension model.
-- **JUnit Vintage** — backward compatibility for running JUnit 3 and 4 tests.
+- **JUnit Platform**, the foundation for launching test frameworks on the JVM.
+- **JUnit Jupiter**, the programming model (annotations, assertions) and extension model.
+- **JUnit Vintage**, backward compatibility for running JUnit 3 and 4 tests.
 
 ### Core Annotations
 
@@ -134,7 +134,7 @@ class AssertionExamples {
     void customMessage() {
         assertEquals(expected, actual,
             () -&gt; String.format("Expected %d but got %d for input %s", expected, actual, input));
-        // Use lambda for message — evaluated only on failure
+        // Use lambda for message, evaluated only on failure
     }
 }
 ```
@@ -154,7 +154,7 @@ class LifecycleTest {
     @BeforeEach
     void setUp() {
         // Runs before EACH test
-        // Instance method — fresh state for each test
+        // Instance method, fresh state for each test
         System.out.println("Setting up test " + this.hashCode());
     }
 
@@ -170,7 +170,7 @@ class LifecycleTest {
 
     @AfterEach
     void tearDown() {
-        // Runs after EACH test — cleanup
+        // Runs after EACH test, cleanup
         System.out.println("Tearing down test");
     }
 
@@ -282,7 +282,7 @@ class MockitoBasics {
         // Create a mock
         List&lt;String&gt; mockList = mock(List.class);
 
-        // Stubbing — define behavior
+        // Stubbing, define behavior
         when(mockList.get(0)).thenReturn("first");
         when(mockList.get(1)).thenThrow(new IndexOutOfBoundsException());
         when(mockList.size()).thenReturn(10);
@@ -292,7 +292,7 @@ class MockitoBasics {
         assertThrows(IndexOutOfBoundsException.class, () -&gt; mockList.get(1));
         assertEquals(10, mockList.size());
 
-        // Verification — assert that methods were called
+        // Verification, assert that methods were called
         verify(mockList).get(0);
         verify(mockList, never()).get(99);
         verify(mockList, times(1)).get(0);
@@ -350,7 +350,7 @@ class UserServiceTest {
         // Act
         userService.createUser("alice@example.com", "Alice");
 
-        // Assert — verify interactions
+        // Assert, verify interactions
         verify(userRepository).save(userCaptor.capture());
         User savedUser = userCaptor.getValue();
         assertEquals("alice@example.com", savedUser.getEmail());
@@ -363,42 +363,42 @@ class UserServiceTest {
 ### Stubbing Variations
 
 ```java
-// thenReturn — fixed return value
+// thenReturn, fixed return value
 when(mock.process()).thenReturn("result");
 
-// thenReturn — chain of return values
+// thenReturn, chain of return values
 when(mock.nextId()).thenReturn(1L, 2L, 3L); // 1st call returns 1, 2nd returns 2, etc.
 
 // thenThrow
 when(mock.process()).thenThrow(new RuntimeException("failure"));
 
-// thenAnswer — dynamic return value based on arguments
+// thenAnswer, dynamic return value based on arguments
 when(mock.process(anyString())).thenAnswer(invocation -&gt; {
     String arg = invocation.getArgument(0);
     return arg.toUpperCase();
 });
 
-// doThrow — for void methods
+// doThrow, for void methods
 doThrow(new IllegalStateException()).when(mock).clear();
 
-// doReturn — when spying (real methods are called by default)
+// doReturn, when spying (real methods are called by default)
 List&lt;String&gt; spy = spy(new ArrayList&lt;&gt;());
 doReturn("mocked").when(spy).get(0); // bypasses the real get(0)
 
-// doNothing — explicit no-op for void methods
+// doNothing, explicit no-op for void methods
 doNothing().when(mock).log(anyString());
 
-// lenient — allow unnecessary stubbing (default strict mode reports unused stubs)
+// lenient, allow unnecessary stubbing (default strict mode reports unused stubs)
 lenient().when(mock.process()).thenReturn("result");
 ```
 
 ### Spy vs Mock
 
 ```java
-// Mock — all methods are stubbed, real code is NOT executed
+// Mock, all methods are stubbed, real code is NOT executed
 List&lt;String&gt; mockList = mock(List.class);
 
-// Spy — wraps a real object, real methods are called unless stubbed
+// Spy, wraps a real object, real methods are called unless stubbed
 List&lt;String&gt; realList = new ArrayList&lt;&gt;();
 List&lt;String&gt; spyList = spy(realList);
 
@@ -523,15 +523,15 @@ The most widely used test structure. Each test method follows three clear phases
 ```java
 @Test
 void shouldCalculateTotalPrice() {
-    // Arrange — set up test data and preconditions
+    // Arrange, set up test data and preconditions
     ShoppingCart cart = new ShoppingCart();
     cart.addItem(new Item("Widget", BigDecimal.valueOf(10.00), 2));
     cart.addItem(new Item("Gadget", BigDecimal.valueOf(25.00), 1));
 
-    // Act — invoke the method under test
+    // Act, invoke the method under test
     BigDecimal total = cart.calculateTotal();
 
-    // Assert — verify the result
+    // Assert, verify the result
     assertEquals(new BigDecimal("45.00"), total);
 }
 ```
@@ -587,7 +587,7 @@ class OrderProcessorTest {
 ### Test Object Mothers and Builders
 
 ```java
-// Object Mother — factory methods for test data
+// Object Mother, factory methods for test data
 public class TestUsers {
     public static User aValidUser() {
         return new User("alice@example.com", "Alice", UserStatus.ACTIVE);
@@ -760,7 +760,7 @@ void shouldProcessMessageAsync() {
         .until(() -&gt; processor.getProcessedCount() == 1);
 }
 
-// 4. Isolate tests — don"t share mutable state
+// 4. Isolate tests, don"t share mutable state
 class IsolatedTest {
     @BeforeEach
     void freshState() {
@@ -789,14 +789,14 @@ void flakyNetworkTest() {
 ### Testing Implementation Details
 
 ```java
-// BAD — testing internal implementation, not behavior
+// BAD, testing internal implementation, not behavior
 @Test
 void shouldSortInternally() {
     processor.process(data);
     verify(processor).sort(anyList()); // testing that sort is called, not the result
 }
 
-// GOOD — testing observable behavior
+// GOOD, testing observable behavior
 @Test
 void shouldReturnSortedResults() {
     List&lt;String&gt; result = processor.process(data);
@@ -807,17 +807,17 @@ void shouldReturnSortedResults() {
 ### Over-Mocking
 
 ```java
-// BAD — mocking everything makes the test fragile and meaningless
+// BAD, mocking everything makes the test fragile and meaningless
 @Test
 void badTest() {
     when(userRepository.findById(1L)).thenReturn(Optional.of(user));
     when(userRepository.save(any())).thenReturn(user);
     when(emailService.send(any())).thenReturn(true);
     when(auditLog.log(any())).thenReturn(null);
-    // The test doesn't verify real behavior — it verifies the mock setup
+    // The test doesn't verify real behavior, it verifies the mock setup
 }
 
-// GOOD — mock only external dependencies, test real logic
+// GOOD, mock only external dependencies, test real logic
 @Test
 void goodTest() {
     when(userRepository.findById(1L)).thenReturn(Optional.of(user));
@@ -833,17 +833,17 @@ void goodTest() {
 ### Ignoring Test Failures
 
 ```bash
-## BAD — ignoring test failures in CI
+## BAD, ignoring test failures in CI
 mvn package -DskipTests
 
-## GOOD — fix the failing test or temporarily disable it with @Disabled and a reason
-// @Disabled("Fix: issue #1234 — race condition in concurrent cache")
+## GOOD, fix the failing test or temporarily disable it with @Disabled and a reason
+// @Disabled("Fix: issue #1234, race condition in concurrent cache")
 ```
 
 ### Tests That Depend on Order
 
 ```java
-// BAD — testTwo depends on testOne's side effects
+// BAD, testTwo depends on testOne's side effects
 class OrderDependentTest {
     private static int counter = 0;
 
@@ -851,7 +851,7 @@ class OrderDependentTest {
     @Test void testTwo() { assertEquals(2, counter); } // FAILS if testTwo runs first
 }
 
-// GOOD — each test sets up its own state
+// GOOD, each test sets up its own state
 class IndependentTest {
     @Test void testOne() {
         int counter = 1;
@@ -867,7 +867,7 @@ class IndependentTest {
 ### Using `Thread.sleep` in Tests
 
 ```java
-// BAD — slow and flaky
+// BAD, slow and flaky
 @Test
 void shouldProcessAsync() throws InterruptedException {
     asyncProcessor.submit(task);
@@ -875,7 +875,7 @@ void shouldProcessAsync() throws InterruptedException {
     assertEquals(1, result.get());
 }
 
-// GOOD — use Awaitility or CountDownLatch
+// GOOD, use Awaitility or CountDownLatch
 @Test
 void shouldProcessAsync() {
     asyncProcessor.submit(task);
@@ -889,15 +889,15 @@ void shouldProcessAsync() {
 ### Not Cleaning Up Resources in Tests
 
 ```java
-// BAD — resources leak, locks held, temp files not deleted
+// BAD, resources leak, locks held, temp files not deleted
 @Test
 void shouldWriteToFile() throws IOException {
     FileOutputStream fos = new FileOutputStream("test.txt");
     fos.write(data);
-    // fos never closed — file handle leaked
+    // fos never closed, file handle leaked
 }
 
-// GOOD — use try-with-resources
+// GOOD, use try-with-resources
 @Test
 void shouldWriteToFile() throws IOException {
     try (FileOutputStream fos = new FileOutputStream("test.txt")) {

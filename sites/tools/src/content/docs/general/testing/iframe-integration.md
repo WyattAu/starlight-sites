@@ -20,11 +20,11 @@ categories:
 
 ## Intuition
 
-**Embedding interactive tools in docs:** Iframes are like picture-in-picture on your TV — they let you embed external tools (like Compiler Explorer) directly in your documentation, so readers can experiment without leaving the page.
+**Embedding interactive tools in docs:** Iframes are like picture-in-picture on your TV, they let you embed external tools (like Compiler Explorer) directly in your documentation, so readers can experiment without leaving the page.
 
-**Why it matters:** Interactive examples dramatically improve learning — readers can modify code, see results instantly, and build intuition through experimentation, rather than just reading about concepts.
+**Why it matters:** Interactive examples dramatically improve learning, readers can modify code, see results instantly, and build intuition through experimentation, rather than just reading about concepts.
 
-**The key insight:** Iframes sandbox external content, so a broken embed cannot crash your page — but they can be slow to load and may not work on all devices, so always provide a fallback link.
+**The key insight:** Iframes sandbox external content, so a broken embed cannot crash your page, but they can be slow to load and may not work on all devices, so always provide a fallback link.
 
 ## Godbolt
 
@@ -62,7 +62,7 @@ categories:
 
 ### The `sandbox` Attribute
 
-The `sandbox` attribute restricts what an iframe is allowed to do. Always use it — omitting it
+The `sandbox` attribute restricts what an iframe is allowed to do. Always use it, omitting it
 Grants the embedded page the same privileges as the parent page.
 
 | Token                  | Effect                                                                 |
@@ -99,7 +99,7 @@ Content-Security-Policy: frame-src https://godbolt.org https://dartpad.dev;
 ### HTTPS Only
 
 Always use `https://` for iframe `src` values. Browsers will block mixed content (loading HTTP
-Iframes from an HTTPS parent) without warning the user — the iframe will not render.
+Iframes from an HTTPS parent) without warning the user, the iframe will not render.
 
 ## Cross-Origin Communication with `postMessage`
 
@@ -141,7 +141,7 @@ Key rules:
 
 - **Always check `event.origin`.** Never trust a message without verifying where it came from.
 - **Use a structured `data` object** with a `type` field so the listener can dispatch appropriately.
-- **Specify `targetOrigin` explicitly** in `postMessage` — never use `''*"` if you know the target.
+- **Specify `targetOrigin` explicitly** in `postMessage`never use `''*"` if you know the target.
 
 ## Responsive Iframes
 
@@ -188,7 +188,7 @@ When the embedded content is taller than the viewport:
 
 ### Docusaurus-Specific Wrapper
 
-This site uses a `godbolt-container` CSS class (though currently not defined in custom.css — add it
+This site uses a `godbolt-container` CSS class (though currently not defined in custom.css, add it
 If needed):
 
 ```css
@@ -255,7 +255,7 @@ Opts in.
 ### X-Frame-Options and CSP Blocking
 
 If an iframe is blank or shows a browser error, the target site likely sets `X-Frame-Options: DENY`
-Or `SAMEORIGIN`Or uses `frame-ancestors` in CSP. There is no workaround — the site owner must Allow
+Or `SAMEORIGIN`Or uses `frame-ancestors` in CSP. There is no workaround, the site owner must Allow
 embedding.
 
 ### Cookie Partitioning (Third-Party)
@@ -365,7 +365,7 @@ https://dartpad.dev/embed-inline.html?id=<gist-id>&split=<ratio>&theme=<dark|lig
 | --------- | ---------------------------------------------- |
 | `id`      | GitHub Gist ID containing the Dart source      |
 | `split`   | Editor/preview split ratio (0–100)             |
-| `theme`   | `dark` or `light` — must match the parent site |
+| `theme`   | `dark` or `light`must match the parent site |
 
 Note that Dartpad's theme does not inherit from the parent page. It must be set explicitly in the
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without

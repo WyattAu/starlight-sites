@@ -35,13 +35,13 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-An operating system is **the layer between hardware and applications** — it manages resources (CPU, memory, I/O) and provides abstractions (processes, files, sockets) that make programming manageable.
+An operating system is **the layer between hardware and applications**, it manages resources (CPU, memory, I/O) and provides abstractions (processes, files, sockets) that make programming manageable.
 
-**Process management intuition:** A process is a running program with its own address space. The OS rapidly switches between processes (context switching) to give the illusion of simultaneous execution. Scheduling algorithms decide which process gets the CPU next — the goal is to maximise throughput, minimise response time, and ensure fairness.
+**Process management intuition:** A process is a running program with its own address space. The OS rapidly switches between processes (context switching) to give the illusion of simultaneous execution. Scheduling algorithms decide which process gets the CPU next, the goal is to maximise throughput, minimise response time, and ensure fairness.
 
-**Memory management intuition:** Virtual memory gives each process the illusion of a private, contiguous address space. The OS translates virtual addresses to physical addresses using page tables. When physical memory is full, the OS swaps out pages to disk — this is why programs can use more memory than physically available, but with a performance penalty.
+**Memory management intuition:** Virtual memory gives each process the illusion of a private, contiguous address space. The OS translates virtual addresses to physical addresses using page tables. When physical memory is full, the OS swaps out pages to disk, this is why programs can use more memory than physically available, but with a performance penalty.
 
-**Synchronisation intuition:** When multiple processes access shared data concurrently, race conditions can corrupt data. Semaphores, mutexes, and monitors provide mutual exclusion — ensuring that only one process accesses critical sections at a time. Deadlock occurs when two processes wait forever for each other's resources.
+**Synchronisation intuition:** When multiple processes access shared data concurrently, race conditions can corrupt data. Semaphores, mutexes, and monitors provide mutual exclusion, ensuring that only one process accesses critical sections at a time. Deadlock occurs when two processes wait forever for each other's resources.
 
 ---
 

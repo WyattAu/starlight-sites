@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Forces and Newton"s Laws — Diagnostic Tests
+## Forces and Newton"s Laws, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for forces and Newton's laws.
 
-### UT-1: Friction Inequality vs Equality — The Non-Limiting Trap
+### UT-1: Friction Inequality vs Equality, The Non-Limiting Trap
 
 **Question:**
 
@@ -199,7 +199,7 @@ equilibrium.
 }
 </script>
 
-### UT-3: Newton's Third Law — Identifying Correct Action-Reaction Pairs
+### UT-3: Newton's Third Law, Identifying Correct Action-Reaction Pairs
 
 **Question:**
 
@@ -453,7 +453,7 @@ conveniently as taking moments about $A$ does).
 }
 </script>
 
-### IT-3: Forces as Vectors — Resultant and Equilibrium (with Vectors)
+### IT-3: Forces as Vectors, Resultant and Equilibrium (with Vectors)
 
 **Question:**
 

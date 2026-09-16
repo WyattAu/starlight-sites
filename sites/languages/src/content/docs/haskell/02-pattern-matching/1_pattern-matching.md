@@ -604,8 +604,8 @@ Records provide named fields for data types:
 -- Basic record type
 data Person = Person
   { personName :: String
-  , personAge  :: Int
-  , personEmail :: String
+personAge  :: Int
+personEmail :: String
   }
   deriving (Show, Eq)
 
@@ -613,8 +613,8 @@ data Person = Person
 alice :: Person
 alice = Person
   { personName = "Alice"
-  , personAge  = 30
-  , personEmail = "alice@example.com"
+personAge  = 30
+personEmail = "alice@example.com"
   }
 
 -- Record field access (automatically generated)
@@ -724,11 +724,11 @@ flowchart TD
 
 ## Intuition
 
-**Pattern matching is structural sorting:** Imagine a mailroom where each letter is checked against a template. The `_` wildcard is the "miscellaneous" bin — anything that doesn't fit a specific template goes there. Nested patterns are like checking the envelope, then the letter inside, then the signature — each layer deconstructs further. Case expressions are the decision tree: the compiler generates a fast lookup table from your patterns, checking the most specific ones first.
+**Pattern matching is structural sorting:** Imagine a mailroom where each letter is checked against a template. The `_` wildcard is the "miscellaneous" bin, anything that doesn't fit a specific template goes there. Nested patterns are like checking the envelope, then the letter inside, then the signature, each layer deconstructs further. Case expressions are the decision tree: the compiler generates a fast lookup table from your patterns, checking the most specific ones first.
 
-**Why it matters:** Pattern matching replaces defensive type-checking with structural verification. Instead of `if (x is Just && x.value > 0)` you write `Just x | x > 0` — the structure *is* the logic, making impossible states unrepresentable.
+**Why it matters:** Pattern matching replaces defensive type-checking with structural verification. Instead of `if (x is Just && x.value > 0)` you write `Just x | x > 0`the structure *is* the logic, making impossible states unrepresentable.
 
-**The key insight:** Haskell's pattern matching is total — when you cover all constructors, the compiler guarantees no runtime crashes from unmatched cases. Use `-Wall` to enforce this discipline.
+**The key insight:** Haskell's pattern matching is total, when you cover all constructors, the compiler guarantees no runtime crashes from unmatched cases. Use `-Wall` to enforce this discipline.
 
 ## Pattern Matching Best Practices
 

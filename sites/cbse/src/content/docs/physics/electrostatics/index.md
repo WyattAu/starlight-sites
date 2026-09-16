@@ -59,7 +59,7 @@ Electrostatics studies electric charges at rest. It covers Coulomb's law, electr
 - Work done by electric field: $W = q(V_A - V_B)$
 - Electric potential energy of a system: $U = \sum_{i<j} \frac{kq_i q_j}{r_{ij}}$
 
-## Worked Example 1 — Coulomb's Law in a Medium
+## Worked Example 1, Coulomb's Law in a Medium
 
 **Problem:** Two charges of $+4 \, \mu\text{C}$ and $-6 \, \mu\text{C}$ are placed 0.2 m apart in a medium with dielectric constant $K = 3$. Find the force between them.
 
@@ -76,7 +76,7 @@ The force is attractive (opposite charges).
 
 **Common mistake:** Forgetting to divide by the dielectric constant $K$ when the medium is not vacuum.
 
-## Worked Example 2 — Electric Field Lines and Gauss's Law
+## Worked Example 2, Electric Field Lines and Gauss's Law
 
 **Problem:** A thin spherical shell of radius 0.1 m carries a charge of $5 \, \mu\text{C}$. Find the electric field at (a) $r = 0.05$ m, (b) $r = 0.15$ m, (c) $r = 0.1$ m from the centre.
 
@@ -91,7 +91,7 @@ $$E = k\frac{q}{r^2} = 9 \times 10^9 \times \frac{5 \times 10^{-6}}{(0.15)^2} = 
 
 **Common mistake:** Assuming the field inside a charged shell is non-zero. Gauss's law shows it must be zero.
 
-## Worked Example 3 — Electric Potential Energy
+## Worked Example 3, Electric Potential Energy
 
 **Problem:** Three charges $q_1 = +2 \, \mu\text{C}$, $q_2 = -3 \, \mu\text{C}$, $q_3 = +4 \, \mu\text{C}$ are placed at the vertices of an equilateral triangle of side 0.1 m. Find the total potential energy of the system.
 
@@ -120,11 +120,11 @@ The negative sign indicates the system is bound (energy would be required to sep
 
 ## Intuition
 
-**Electric charges create invisible fields of influence:** Imagine placing a pebble in a pond — ripples spread out in all directions. Charges do something similar: they create electric fields that spread through space, and any other charge placed in that field feels a force. Gauss's law is like counting how many field lines pass through a net — if you know how many lines go through a closed surface, you know how much charge is inside. Capacitors are like rechargeable reservoirs — they store energy in the electric field between two plates, ready to release it when needed.
+**Electric charges create invisible fields of influence:** Imagine placing a pebble in a pond, ripples spread out in all directions. Charges do something similar: they create electric fields that spread through space, and any other charge placed in that field feels a force. Gauss's law is like counting how many field lines pass through a net, if you know how many lines go through a closed surface, you know how much charge is inside. Capacitors are like rechargeable reservoirs, they store energy in the electric field between two plates, ready to release it when needed.
 
 **Why it matters:** Electrostatics explains why you get shocked touching a doorknob (charge buildup), how lightning forms (enormous electric fields in clouds), how photocopying works (electrostatic attraction of toner), and how touchscreens detect your finger (capacitance changes). It's the foundation of all electrical and electronic technology.
 
-**The key insight:** Electric potential is a scalar (just a number at each point), while electric field is a vector (direction matters) — this is why adding potentials is simple arithmetic but adding fields requires vector addition.
+**The key insight:** Electric potential is a scalar (just a number at each point), while electric field is a vector (direction matters), this is why adding potentials is simple arithmetic but adding fields requires vector addition.
 
 ## Common Exam Patterns
 
@@ -148,7 +148,7 @@ The negative sign indicates the system is bound (energy would be required to sep
 9. The potential at a point due to multiple charges is the algebraic sum of potentials due to each charge.
 10. For conductors in electrostatic equilibrium, all excess charge resides on the surface.
 
-## Worked Example 4 — Capacitor with Dielectric
+## Worked Example 4, Capacitor with Dielectric
 
 **Problem:** A parallel plate capacitor has capacitance $C_0 = 10 \, \mu\text{F}$ when air-filled. A dielectric slab of dielectric constant $K = 4$ is inserted to fill half the space between the plates (while the capacitor remains connected to a 12 V battery). Find the new capacitance and the charge stored.
 
@@ -170,7 +170,7 @@ $$Q = CV = 25 \times 10^{-6} \times 12 = 3 \times 10^{-4} \, \text{C} = 300 \, \
 
 **Common mistake:** Treating the two halves as capacitors in series rather than parallel. When the dielectric fills half the area (not half the distance), the two regions are in parallel because they share the same potential difference.
 
-## Worked Example 5 — Electric Potential of a Dipole
+## Worked Example 5, Electric Potential of a Dipole
 
 **Problem:** An electric dipole consists of charges $+q$ and $-q$ separated by distance $2a$. Find the electric potential at a point on the perpendicular bisector at distance $r$ from the centre ($r \gg a$).
 
@@ -190,7 +190,7 @@ This is a general result: the perpendicular bisector of a dipole is an equipoten
 
 **Common mistake:** Confusing the electric field (which is non-zero on the perpendicular bisector) with the electric potential (which is zero). The field and potential are different quantities.
 
-## Worked Example 6 — Force Between Charged Conducting Spheres
+## Worked Example 6, Force Between Charged Conducting Spheres
 
 **Problem:** Two identical conducting spheres of radius $r = 0.05$ m carry charges $q_1 = +2 \, \mu\text{C}$ and $q_2 = -4 \, \mu\text{C}$. They are placed 0.3 m apart (centre to centre). Find the force between them.
 
@@ -219,7 +219,7 @@ $$F' = \frac{9 \times 10^9 \times (1 \times 10^{-6})^2}{(0.3)^2} = \frac{9 \time
 | Electric potential (point charge) | $V = k\frac{q}{r}$ | V |
 | Capacitance (parallel plate) | $C = \frac{\varepsilon_0 A}{d}$ | F |
 | Energy stored in capacitor | $U = \frac{1}{2}CV^2 = \frac{Q^2}{2C}$ | J |
-| Gauss's law | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$ | — |
+| Gauss's law | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{enc}}}{\varepsilon_0}$ | - |
 | Electric potential energy (two charges) | $U = k\frac{q_1 q_2}{r}$ | J |
 | Work done by electric field | $W = q(V_A - V_B)$ | J |
 

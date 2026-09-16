@@ -118,7 +118,7 @@ flowchart TD
 
 ## Intuition
 
-**The IB learner profile is like a compass — it guides students toward becoming well-rounded, ethical, and engaged global citizens:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
+**The IB learner profile is like a compass, it guides students toward becoming well-rounded, ethical, and engaged global citizens:** The ten attributes (inquirers, knowledgeable, thinkers, etc.) describe not just what students know, but who they become
 
 **Why it matters:** The learner profile shapes the IB's approach to education, emphasizing character development alongside academic achievement
 
@@ -335,4 +335,4 @@ Use this audit to identify areas for growth and to set goals for the remainder o
 
 - [English](./)
 - [A Streetcar Named Desire](./a-street-car-named-desire)
-- [Chronicle of a Death Foretold — Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)

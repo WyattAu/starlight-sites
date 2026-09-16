@@ -9,14 +9,14 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      'Sound waves in air are longitudinal — particles oscillate parallel to the direction of wave propagation. Light and string waves are transverse. Water surface waves are a combination of transverse and longitudinal.',
+      'Sound waves in air are longitudinal, particles oscillate parallel to the direction of wave propagation. Light and string waves are transverse. Water surface waves are a combination of transverse and longitudinal.',
   },
   {
     question: 'A wave has frequency 440 Hz and wavelength 0.78 m. What is its speed?',
     options: ['A) 564 m s⁻¹', 'B) 343 m s⁻¹', 'C) 219 m s⁻¹', 'D) 440 m s⁻¹'],
     correct: 1,
     explanation:
-      'Using v = fλ = 440 × 0.78 = 343.2 m s⁻¹ ≈ 343 m s⁻¹. This is the speed of sound in air at room temperature — 440 Hz is concert A.',
+      'Using v = fλ = 440 × 0.78 = 343.2 m s⁻¹ ≈ 343 m s⁻¹. This is the speed of sound in air at room temperature, 440 Hz is concert A.',
   },
   {
     question: 'A wave has a period of 0.025 s. What is its frequency?',
@@ -80,8 +80,8 @@ export const practiceQuestions = [
     question:
       'For destructive interference to occur between two coherent\nsources, the path difference must be:',
     options: [
-      'A) nλ (where n = 0, 1, 2, ...)',
-      'B) (n + 0.5)λ\n(where n = 0, 1, 2, ...)',
+      'A) nλ (where n = 0, 1, 2...)',
+      'B) (n + 0.5)λ\n(where n = 0, 1, 2...)',
       'C) 2nλ',
       'D) Zero only',
     ],

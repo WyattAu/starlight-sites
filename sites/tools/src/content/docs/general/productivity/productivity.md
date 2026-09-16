@@ -54,8 +54,8 @@ You spend the entire day responding to Slack messages and pull request reviews.
 
 ### Deep Work
 
-Cal Newport"s concept of "Deep Work" — cognitively demanding tasks performed in a state of
-Distraction-free concentration — is the most valuable skill for a knowledge worker.
+Cal Newport"s concept of "Deep Work", cognitively demanding tasks performed in a state of
+Distraction-free concentration, is the most valuable skill for a knowledge worker.
 
 **Rules for deep work:**
 
@@ -134,7 +134,7 @@ Tool matters less than the system. Options include:
 
 ### Spaced Repetition
 
-Spaced repetition exploits the spacing effect — information is retained better when review is spaced
+Spaced repetition exploits the spacing effect, information is retained better when review is spaced
 Over increasing intervals. Tools like Anki automate this process.
 
 For technical learning, create flashcards for:
@@ -320,7 +320,7 @@ Additional measures:
 
 - Use a dark theme in your editor and terminal (reduces luminance).
 - Match screen brightness to ambient light.
-- Increase font size — 13–16 pt for body text, 12–14 pt for code.
+- Increase font size, 13–16 pt for body text, 12–14 pt for code.
 - Use a blue light filter in the evening (f.lux, Night Shift, or the monitor's built-in filter).
 
 ### RSI Prevention
@@ -471,7 +471,7 @@ When you actually need them.
 
 ### Note-Taking Without Reviewing
 
-Capturing information without reviewing it is not learning — it is hoarding. Schedule weekly review
+Capturing information without reviewing it is not learning, it is hoarding. Schedule weekly review
 Sessions where you revisit your notes, reorganize them, and identify gaps. Spaced repetition tools
 Like Anki automate the review process.
 
@@ -520,7 +520,7 @@ This rule prevents small tasks from accumulating and becoming mental clutter.
 
 ### Atomic Notes
 
-The core unit in Zettelkasten is the atomic note — a single idea expressed in your own words. Rules
+The core unit in Zettelkasten is the atomic note, a single idea expressed in your own words. Rules
 For atomic notes:
 
 1. **One idea per note.** If a note covers two ideas, split it.
@@ -1085,8 +1085,8 @@ linked above.
 
 ## Intuition
 
-Developer productivity is not about working more hours — it is about protecting your attention and directing it toward work that matters. The single biggest threat to productive work is context switching. Every interruption (a Slack message, an email ping, a quick question) forces your brain to dump its current state and reload context, costing 10-25 minutes of reorientation time. Three interruptions per hour can consume half your productive capacity. The solution is deliberate: batch shallow work into specific windows, defend deep work blocks aggressively, and treat your focus as a finite resource that must be managed, not spent.
+Developer productivity is not about working more hours, it is about protecting your attention and directing it toward work that matters. The single biggest threat to productive work is context switching. Every interruption (a Slack message, an email ping, a quick question) forces your brain to dump its current state and reload context, costing 10-25 minutes of reorientation time. Three interruptions per hour can consume half your productive capacity. The solution is deliberate: batch shallow work into specific windows, defend deep work blocks aggressively, and treat your focus as a finite resource that must be managed, not spent.
 
-The most effective productivity systems share a common structure: they externalize decisions so your brain can focus on execution rather than planning. Time blocking on your calendar pre-decides what you work on and when. The Eisenhower Matrix pre-categorizes tasks by urgency and importance. The two-minute rule eliminates small tasks immediately instead of letting them accumulate as mental clutter. The Zettelkasten method captures knowledge in atomic, linkable notes so you never lose an insight. None of these systems are complicated — their power comes from consistent application, not complexity.
+The most effective productivity systems share a common structure: they externalize decisions so your brain can focus on execution rather than planning. Time blocking on your calendar pre-decides what you work on and when. The Eisenhower Matrix pre-categorizes tasks by urgency and importance. The two-minute rule eliminates small tasks immediately instead of letting them accumulate as mental clutter. The Zettelkasten method captures knowledge in atomic, linkable notes so you never lose an insight. None of these systems are complicated, their power comes from consistent application, not complexity.
 
-Sustainable productivity requires recognizing that rest is productive. Cognitive capacity fluctuates throughout the day: most engineers have a 3-4 hour peak window for creative problem-solving, with lower-energy periods better suited for meetings and administrative work. Pushing through exhaustion produces diminishing returns — error correction on buggy code written while tired costs more time than taking a break would have saved. The goal is consistency over intensity: four focused hours every day produces more value than twelve unfocused hours followed by burnout.
+Sustainable productivity requires recognizing that rest is productive. Cognitive capacity fluctuates throughout the day: most engineers have a 3-4 hour peak window for creative problem-solving, with lower-energy periods better suited for meetings and administrative work. Pushing through exhaustion produces diminishing returns, error correction on buggy code written while tired costs more time than taking a break would have saved. The goal is consistency over intensity: four focused hours every day produces more value than twelve unfocused hours followed by burnout.

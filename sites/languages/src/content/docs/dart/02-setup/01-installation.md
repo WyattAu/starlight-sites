@@ -65,7 +65,7 @@ sudo apt install dart
 
 ### Windows
 
-Download the installer from <https://dart.dev/get-dart>. Run the `.exe` — it adds `dart` to your PATH
+Download the installer from <https://dart.dev/get-dart>. Run the `.exe`it adds `dart` to your PATH
 automatically. Verify with:
 
 ```bash
@@ -74,7 +74,7 @@ dart --version
 
 ## Flutter SDK (Includes Dart)
 
-If you are building Flutter applications, install the Flutter SDK instead. It bundles the Dart SDK —
+If you are building Flutter applications, install the Flutter SDK instead. It bundles the Dart SDK,
 You do not need a separate Dart installation.
 
 ### macOS / Linux
@@ -163,7 +163,7 @@ dart pub --version
     ! clang++ is not installed
 ```
 
-Every `[✓]` means that toolchain is ready. `[✗]` items need attention — follow the diagnostic
+Every `[✓]` means that toolchain is ready. `[✗]` items need attention, follow the diagnostic
 Output.
 
 ## IDE Setup
@@ -268,11 +268,11 @@ my_cli/
 
 ## Intuition
 
-**Getting started:** Setting up Dart is like preparing a workshop — installing the SDK, configuring your editor, and creating your first project.
+**Getting started:** Setting up Dart is like preparing a workshop, installing the SDK, configuring your editor, and creating your first project.
 
 **Why it matters:** A proper setup ensures a smooth development experience. Good tooling makes coding faster and more enjoyable.
 
-**The key insight:** Dart's hot reload lets you see changes instantly — this dramatically speeds up the development cycle.
+**The key insight:** Dart's hot reload lets you see changes instantly, this dramatically speeds up the development cycle.
 
 ## Common Pitfalls
 
@@ -483,7 +483,7 @@ linked above.
 ## Cross-References
 
 - **[Introduction to Dart](../01-intro):** Provides the language overview and motivation before diving into setup.
-- **[Entry Point](../03-basics/01-entrypoint):** First code you run after installation — the `main()` function.
+- **[Entry Point](../03-basics/01-entrypoint):** First code you run after installation, the `main()` function.
 - **[Best Practices](../04-best-practices):** Configuration and tooling best practices once your environment is ready.
 - **[Error Handling](../08-error-handling):** Error handling setup and crash reporting integration for production apps.
 :::

@@ -503,11 +503,11 @@ Top level. Included presets are merged into the including file's namespace.
 
 ## Intuition
 
-**Build configurations:** Presets are like saved recipes — they store build configurations for different environments (debug, release, different compilers).
+**Build configurations:** Presets are like saved recipes, they store build configurations for different environments (debug, release, different compilers).
 
 **Why it matters:** Presets make it easy to switch between configurations and share build settings across teams.
 
-**The key insight:** Toolchain files specify compiler and platform settings — they're essential for cross-compilation.
+**The key insight:** Toolchain files specify compiler and platform settings, they're essential for cross-compilation.
 
 ## Common Pitfalls
 

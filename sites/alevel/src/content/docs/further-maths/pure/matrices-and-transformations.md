@@ -1103,7 +1103,7 @@ If $A$ has $n$ linearly independent eigenvectors, then $A = PDP^{-1}$ where:
 - $P$ has eigenvectors as columns
 - $D$ has eigenvalues on the diagonal
 
-**Computing $A^k$:** $A^k = PD^kP^{-1}$ — much faster than repeated multiplication.
+**Computing $A^k$:** $A^k = PD^kP^{-1}$, much faster than repeated multiplication.
 
 **Computing $e^A$:** $e^A = Pe^DP^{-1}$ where $e^D$ is the diagonal matrix of $e^{\lambda_i}$.
 

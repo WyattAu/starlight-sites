@@ -1,6 +1,6 @@
 ---
-title: "Complete CBSE Study Guide — Physics, Chemistry, Maths"
-description: "Study notes for Complete CBSE Study Guide — Physics, Chemistry, Maths with worked examples, practice problems, and key concepts for exam preparation."
+title: "Complete CBSE Study Guide, Physics, Chemistry, Maths"
+description: "Study notes for Complete CBSE Study Guide, Physics, Chemistry, Maths with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - cbse
@@ -54,9 +54,9 @@ flowchart TD
 
 ## Why This Guide Exists
 
-The Central Board of Secondary Education (CBSE) is one of India's largest and most influential school education boards. The CBSE curriculum for Classes 11 and 12 forms the foundation for competitive entrance examinations including JEE Main and Advanced (for engineering) and NEET (for medicine). Mastering the CBSE syllabus is not just about board exams — it is the gateway to India's top institutions.
+The Central Board of Secondary Education (CBSE) is one of India's largest and most influential school education boards. The CBSE curriculum for Classes 11 and 12 forms the foundation for competitive entrance examinations including JEE Main and Advanced (for engineering) and NEET (for medicine). Mastering the CBSE syllabus is not just about board exams, it is the gateway to India's top institutions.
 
-This hub page maps every resource on this site — organised by subject, with study plans and exam strategies tailored to both CBSE board exams and competitive entrance preparation. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
+This hub page maps every resource on this site, organised by subject, with study plans and exam strategies tailored to both CBSE board exams and competitive entrance preparation. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
 
 ## Table of Contents
 
@@ -76,25 +76,25 @@ CBSE Physics covers mechanics, electrostatics, current electricity, magnetic eff
 
 ### Topic Notes
 
-- [Mechanics](physics/mechanics) — Newton's laws, work-energy-power, rotational motion, and gravitation
-- [Electrostatics](physics/electrostatics) — Coulomb's law, electric fields, potential, and capacitance
-- [Current Electricity](physics/current-electricity) — Ohm's law, Kirchhoff's laws, and electrical circuits
-- [Magnetic Effects of Current](physics/magnetic-effects) — magnetic fields, force on moving charges, and solenoids
-- [Electromagnetic Induction](physics/magnetic-effects) — Faraday's law, Lenz's law, and self-inductance
-- [Optics](physics/optics) — ray optics, wave optics, reflection, refraction, and interference
-- [Dual Nature of Matter](physics/dual-nature) — photoelectric effect, de Broglie wavelength, and matter waves
-- [Atoms and Nuclei](physics/atoms-nuclei) — atomic models, nuclear binding energy, and radioactivity
-- [Semiconductor Devices](physics/semiconductor) — p-n junctions, diodes, transistors, and logic gates
+- [Mechanics](physics/mechanics), Newton's laws, work-energy-power, rotational motion, and gravitation
+- [Electrostatics](physics/electrostatics), Coulomb's law, electric fields, potential, and capacitance
+- [Current Electricity](physics/current-electricity), Ohm's law, Kirchhoff's laws, and electrical circuits
+- [Magnetic Effects of Current](physics/magnetic-effects), magnetic fields, force on moving charges, and solenoids
+- [Electromagnetic Induction](physics/magnetic-effects), Faraday's law, Lenz's law, and self-inductance
+- [Optics](physics/optics), ray optics, wave optics, reflection, refraction, and interference
+- [Dual Nature of Matter](physics/dual-nature), photoelectric effect, de Broglie wavelength, and matter waves
+- [Atoms and Nuclei](physics/atoms-nuclei), atomic models, nuclear binding energy, and radioactivity
+- [Semiconductor Devices](physics/semiconductor), p-n junctions, diodes, transistors, and logic gates
 
 ### Practice and Review
 
 - [Flashcards: Physics Class 12](flashcards-physics-class12)
 - [Practice Questions: Physics](practice-physics)
-- [Diagnostic Quizzes](physics) — test across all physics topics
+- [Diagnostic Quizzes](physics), test across all physics topics
 
 ### Key Exam Focus
 
-CBSE Physics exams test conceptual understanding, mathematical problem-solving, and experimental knowledge. Numerical problems carry significant marks — practise solving them step by step with clear working. Derivations are frequently tested at the Class 12 level — learn to derive key formulas from first principles.
+CBSE Physics exams test conceptual understanding, mathematical problem-solving, and experimental knowledge. Numerical problems carry significant marks, practise solving them step by step with clear working. Derivations are frequently tested at the Class 12 level, learn to derive key formulas from first principles.
 
 ---
 
@@ -104,32 +104,32 @@ CBSE Chemistry is divided into physical chemistry, organic chemistry, and inorga
 
 ### Topic Notes
 
-- [Solid State](chemistry/solid-state) — crystal structures, unit cells, and packing efficiency
-- [Solutions](chemistry/solutions) — colligative properties, Raoult's law, and solubility
-- [Chemical Kinetics](chemistry/chemical-kinetics) — rate laws, activation energy, and Arrhenius equation
-- [Electrochemistry](chemistry/electrochemistry) — galvanic cells, Nernst equation, and electrolysis
-- [Surface Chemistry](chemistry/surface-chemistry) — adsorption, colloids, and catalysis
-- [p-Block Elements](chemistry/p-block) — Group 13–18 elements and their compounds
-- [d-Block Elements](chemistry/d-block) — transition metals, complexes, and their properties
-- [f-Block Elements](chemistry/f-block) — lanthanides and actinides
-- [Coordination Compounds](chemistry/coordination) — Werner's theory, IUPAC nomenclature, and isomerism
-- [Haloalkanes and Haloarenes](chemistry/haloalkanes) — nucleophilic substitution and elimination reactions
-- [Alcohols, Phenols, and Ethers](chemistry/alcohols) — preparation, reactions, and properties
-- [Aldehydes, Ketones, and Carboxylic Acids](chemistry/aldehydes) — nomenclature, reactions, and mechanisms
-- [Amines](chemistry/amines) — classification, basicity, and diazonium salts
-- [Biomolecules](chemistry/biomolecules) — carbohydrates, proteins, and nucleic acids
-- [Polymers](chemistry/polymers) — classification, polymerisation, and biodegradable polymers
-- [Chemistry in Everyday Life](chemistry/chemistry-in-everyday) — drugs, food additives, and cleansing agents
+- [Solid State](chemistry/solid-state), crystal structures, unit cells, and packing efficiency
+- [Solutions](chemistry/solutions), colligative properties, Raoult's law, and solubility
+- [Chemical Kinetics](chemistry/chemical-kinetics), rate laws, activation energy, and Arrhenius equation
+- [Electrochemistry](chemistry/electrochemistry), galvanic cells, Nernst equation, and electrolysis
+- [Surface Chemistry](chemistry/surface-chemistry), adsorption, colloids, and catalysis
+- [p-Block Elements](chemistry/p-block), Group 13–18 elements and their compounds
+- [d-Block Elements](chemistry/d-block), transition metals, complexes, and their properties
+- [f-Block Elements](chemistry/f-block), lanthanides and actinides
+- [Coordination Compounds](chemistry/coordination), Werner's theory, IUPAC nomenclature, and isomerism
+- [Haloalkanes and Haloarenes](chemistry/haloalkanes), nucleophilic substitution and elimination reactions
+- [Alcohols, Phenols, and Ethers](chemistry/alcohols), preparation, reactions, and properties
+- [Aldehydes, Ketones, and Carboxylic Acids](chemistry/aldehydes), nomenclature, reactions, and mechanisms
+- [Amines](chemistry/amines), classification, basicity, and diazonium salts
+- [Biomolecules](chemistry/biomolecules), carbohydrates, proteins, and nucleic acids
+- [Polymers](chemistry/polymers), classification, polymerisation, and biodegradable polymers
+- [Chemistry in Everyday Life](chemistry/chemistry-in-everyday), drugs, food additives, and cleansing agents
 
 ### Practice and Review
 
 - [Flashcards: Chemistry](flashcards-chemistry)
 - [Practice Questions: Chemistry](practice-chemistry)
-- [Diagnostic Quizzes](chemistry) — test across all chemistry topics
+- [Diagnostic Quizzes](chemistry), test across all chemistry topics
 
 ### Key Exam Focus
 
-CBSE Chemistry requires a balanced approach across all three branches. Physical chemistry demands strong calculation skills — practise numerical problems on thermodynamics, kinetics, and equilibrium. Organic chemistry requires understanding reaction mechanisms — learn to predict products systematically. Inorganic chemistry requires factual recall — use flashcards for group trends and compound properties.
+CBSE Chemistry requires a balanced approach across all three branches. Physical chemistry demands strong calculation skills, practise numerical problems on thermodynamics, kinetics, and equilibrium. Organic chemistry requires understanding reaction mechanisms, learn to predict products systematically. Inorganic chemistry requires factual recall, use flashcards for group trends and compound properties.
 
 ---
 
@@ -139,26 +139,26 @@ CBSE Mathematics covers algebra, calculus, vectors, three-dimensional geometry, 
 
 ### Topic Notes
 
-- [Relations and Functions](mathematics/relations-functions) — types of relations, types of functions, and binary operations
-- [Inverse Trigonometric Functions](mathematics/-inverse-trig) — domain, range, and properties
-- [Matrices](mathematics/matrices) — types, operations, transpose, and inverse
-- [Determinants](mathematics/determinants) — properties, adjoint, and applications to solving systems
-- [Continuity and Differentiability](mathematics/continuity) — limits, continuity, and differentiability
-- [Derivatives](mathematics/derivatives) — rules, chain rule, and applications
-- [Integrals](mathematics/integrals) — indefinite and definite integrals, and applications
-- [Differential Equations](mathematics/differential-equations) — order, degree, and solution methods
-- [Probability](mathematics/probability) — conditional probability, Bayes' theorem, and distributions
-- [Linear Programming](mathematics/linear-programming) — graphical method and optimisation problems
+- [Relations and Functions](mathematics/relations-functions), types of relations, types of functions, and binary operations
+- [Inverse Trigonometric Functions](mathematics/-inverse-trig), domain, range, and properties
+- [Matrices](mathematics/matrices), types, operations, transpose, and inverse
+- [Determinants](mathematics/determinants), properties, adjoint, and applications to solving systems
+- [Continuity and Differentiability](mathematics/continuity), limits, continuity, and differentiability
+- [Derivatives](mathematics/derivatives), rules, chain rule, and applications
+- [Integrals](mathematics/integrals), indefinite and definite integrals, and applications
+- [Differential Equations](mathematics/differential-equations), order, degree, and solution methods
+- [Probability](mathematics/probability), conditional probability, Bayes' theorem, and distributions
+- [Linear Programming](mathematics/linear-programming), graphical method and optimisation problems
 
 ### Practice and Review
 
 - [Flashcards: Mathematics Class 12](flashcards-mathematics-class12)
 - [Practice Questions: Mathematics](practice-maths)
-- [Diagnostic Quizzes](mathematics) — test across all maths topics
+- [Diagnostic Quizzes](mathematics), test across all maths topics
 
 ### Key Exam Focus
 
-CBSE Mathematics rewards clear, step-by-step working. Show every line of your solution — markers award marks for correct method even when the final answer is wrong. Calculus (continuity, differentiation, integration) carries the most marks — practise extensively. Matrices and determinants are high-yield topics that appear every year.
+CBSE Mathematics rewards clear, step-by-step working. Show every line of your solution, markers award marks for correct method even when the final answer is wrong. Calculus (continuity, differentiation, integration) carries the most marks, practise extensively. Matrices and determinants are high-yield topics that appear every year.
 
 ---
 
@@ -183,7 +183,7 @@ Preparing for CBSE requires balancing board exam preparation with competitive ex
 ### Phase 3: Board Exam Readiness (Months 13–15)
 
 - Focus entirely on board exam preparation
-- Study the CBSE marking scheme — they show exactly what markers look for
+- Study the CBSE marking scheme, they show exactly what markers look for
 - Do full-length timed papers under real conditions
 - Revise formulas and derivations daily
 
@@ -191,7 +191,7 @@ Preparing for CBSE requires balancing board exam preparation with competitive ex
 
 - After board exams, shift focus to JEE/NEET preparation
 - Practise previous year JEE/NEET questions
-- Focus on speed and accuracy — competitive exams penalise wrong answers
+- Focus on speed and accuracy, competitive exams penalise wrong answers
 - Take regular mock tests under timed conditions
 
 ---
@@ -202,20 +202,20 @@ The JEE (Joint Entrance Examination) and NEET (National Eligibility cum Entrance
 
 ### JEE Main and Advanced
 
-JEE tests Physics, Chemistry, and Mathematics. JEE Main is the qualifying exam; JEE Advanced is for admission to IITs. The key difference from board exams is the difficulty level and time pressure — you have roughly 2 minutes per question in JEE Main.
+JEE tests Physics, Chemistry, and Mathematics. JEE Main is the qualifying exam; JEE Advanced is for admission to IITs. The key difference from board exams is the difficulty level and time pressure, you have roughly 2 minutes per question in JEE Main.
 
 ### NEET
 
-NEET tests Physics, Chemistry, and Biology. It is the sole entrance examination for medical admissions in India. Biology carries 50% of the total marks — give it proportionate attention.
+NEET tests Physics, Chemistry, and Biology. It is the sole entrance examination for medical admissions in India. Biology carries 50% of the total marks, give it proportionate attention.
 
 ### Study Tips for Competitive Exams
 
-1. **Master the NCERT first** — both JEE and NEET are based on the NCERT syllabus
-2. **Solve previous year papers** — they reveal the exam's pattern and difficulty
-3. **Practise under time pressure** — speed is as important as accuracy
-4. **Analyse your mistakes** — every wrong answer is a learning opportunity
-5. **Use flashcards for inorganic chemistry** — factual recall is the bottleneck
-6. **Practise calculus extensively** — it appears in every JEE Maths paper
+1. **Master the NCERT first**, both JEE and NEET are based on the NCERT syllabus
+2. **Solve previous year papers**, they reveal the exam's pattern and difficulty
+3. **Practise under time pressure**, speed is as important as accuracy
+4. **Analyse your mistakes**, every wrong answer is a learning opportunity
+5. **Use flashcards for inorganic chemistry**, factual recall is the bottleneck
+6. **Practise calculus extensively**, it appears in every JEE Maths paper
 
 ---
 
@@ -223,10 +223,10 @@ NEET tests Physics, Chemistry, and Biology. It is the sole entrance examination 
 
 Wyatt's Notes is a network of interconnected study sites. The CBSE content connects to related material:
 
-- **[University Physics](https://physics.wyattau.com/hub)** — deeper coverage beyond CBSE level for competitive exam preparation
-- **[University Mathematics](https://mathematics.wyattau.com/hub)** — proof-based mathematics beyond CBSE level
-- **[University Chemistry](https://chemistry.wyattau.com/hub)** — deeper coverage of physical, organic, and inorganic chemistry
-- **[Computer Science Guide](https://computer-science.wyattau.com/hub)** — if you are exploring computer science alongside your studies
+- **[University Physics](https://physics.wyattau.com/hub)**, deeper coverage beyond CBSE level for competitive exam preparation
+- **[University Mathematics](https://mathematics.wyattau.com/hub)**, proof-based mathematics beyond CBSE level
+- **[University Chemistry](https://chemistry.wyattau.com/hub)**, deeper coverage of physical, organic, and inorganic chemistry
+- **[Computer Science Guide](https://computer-science.wyattau.com/hub)**, if you are exploring computer science alongside your studies
 
 ---
 
@@ -238,7 +238,7 @@ Take a diagnostic quiz for each subject. This takes about 10–15 minutes per su
 
 ### Should I focus on board exams or competitive exams?
 
-Focus on board exams first — they build the foundation. Once your board preparation is solid, transition to competitive exam practice. The CBSE syllabus is the basis for both, so strong board preparation directly benefits competitive exam performance.
+Focus on board exams first, they build the foundation. Once your board preparation is solid, transition to competitive exam practice. The CBSE syllabus is the basis for both, so strong board preparation directly benefits competitive exam performance.
 
 ### How important is the NCERT textbook?
 
@@ -246,7 +246,7 @@ The NCERT is the foundation of both CBSE board exams and JEE/NEET. Read every ch
 
 ### How many hours should I study per day?
 
-Aim for 4–6 hours of focused study per day outside of school. Quality matters more than quantity — active recall (flashcards, practice questions) is more effective than passive reading. Take regular breaks to avoid burnout.
+Aim for 4–6 hours of focused study per day outside of school. Quality matters more than quantity, active recall (flashcards, practice questions) is more effective than passive reading. Take regular breaks to avoid burnout.
 
 ### What is the best way to prepare for organic chemistry?
 

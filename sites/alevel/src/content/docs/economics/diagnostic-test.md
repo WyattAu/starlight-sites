@@ -46,7 +46,7 @@ Reasoning.
 
 <details>
 <summary>Answer</summary>
-This is a **normative** statement. It uses "should," which expresses a value judgement about what the government ought to do. It cannot be tested empirically — reasonable people can disagree on whether subsidies are desirable, depending on their values (environmental priority vs fiscal cost vs market efficiency).
+This is a **normative** statement. It uses "should," which expresses a value judgement about what the government ought to do. It cannot be tested empirically, reasonable people can disagree on whether subsidies are desirable, depending on their values (environmental priority vs fiscal cost vs market efficiency).
 <i>Revision: [The Economic Problem](microeconomics/01-the-economic-problem)</i>
 </details>
 
@@ -117,7 +117,7 @@ Reference to the characteristics of public goods and the concept of government f
 
 <details>
 <summary>Answer</summary>
-Public goods are **non-excludable** and **non-rivalrous** → free-rider problem → markets underprovide or fail to provide them. Government provision can solve this. However: (1) Not all goods are pure public goods — many are quasi-public (congestible). (2) Government failure: inefficiency due to lack of profit motive (X-inefficiency), information problems, political bias. (3) Some public goods can be provided privately (lighthouses were historically private — Coase, 1974). (4) Public-private partnerships may combine efficiency incentives with public goods provision. (5) The optimal level of public good provision is determined by Samuelson's condition: $\sum MRS = MRT$Which is difficult to implement in practice (preference revelation problem). Conclusion: government has a role but should consider efficiency, cost-benefit analysis, and alternative provision mechanisms.
+Public goods are **non-excludable** and **non-rivalrous** → free-rider problem → markets underprovide or fail to provide them. Government provision can solve this. However: (1) Not all goods are pure public goods, many are quasi-public (congestible). (2) Government failure: inefficiency due to lack of profit motive (X-inefficiency), information problems, political bias. (3) Some public goods can be provided privately (lighthouses were historically private, Coase, 1974). (4) Public-private partnerships may combine efficiency incentives with public goods provision. (5) The optimal level of public good provision is determined by Samuelson's condition: $\sum MRS = MRT$Which is difficult to implement in practice (preference revelation problem). Conclusion: government has a role but should consider efficiency, cost-benefit analysis, and alternative provision mechanisms.
 <i>Revision: [Market Failure](microeconomics/03-market-failure)</i>
 </details>
 
@@ -156,7 +156,7 @@ Market power?
 <details>
 <summary>Answer</summary>
 **Perfect competition**: Free entry and exit. If existing firms earn supernormal profit, new firms enter → market supply increases → price falls → profit is competed away. If firms make losses, some exit → supply decreases → price rises → remaining firms break even. Long-run equilibrium: $P = AC_{min}$Zero economic profit.<br />
-**Monopolistic competition**: Despite product differentiation (downward-sloping demand), free entry and exit drive long-run profit to zero. If firms earn supernormal profit, new firms enter with similar but differentiated products → demand for each firm's product shifts left (consumers have more substitutes) → price falls until $P = AC$. The firm still produces where $MR = MC$ and charges $P \gt MC$ (some market power), but $P = AC$ (zero profit). Result: excess capacity — the firm produces less than the output that minimises AC.
+**Monopolistic competition**: Despite product differentiation (downward-sloping demand), free entry and exit drive long-run profit to zero. If firms earn supernormal profit, new firms enter with similar but differentiated products → demand for each firm's product shifts left (consumers have more substitutes) → price falls until $P = AC$. The firm still produces where $MR = MC$ and charges $P \gt MC$ (some market power), but $P = AC$ (zero profit). Result: excess capacity, the firm produces less than the output that minimises AC.
 <i>Revision: [Theory of the Firm](microeconomics/04-theory-of-the-firm)</i>
 </details>
 
@@ -184,7 +184,7 @@ Backwards?
 <summary>Answer</summary>
 **Substitution effect**: A higher wage makes leisure more expensive (higher opportunity cost of not working). The individual substitutes toward work and away from leisure → work more hours.<br />
 **Income effect**: A higher wage makes the individual richer. If leisure is a normal good, the individual demands more leisure → works fewer hours.<br />
-**Backward-bending supply**: At low wages, the substitution effect dominates (curve slopes upward). At high wages, the income effect dominates (curve bends backward — higher wage leads to fewer hours worked). The critical point is where the two effects are equal.
+**Backward-bending supply**: At low wages, the substitution effect dominates (curve slopes upward). At high wages, the income effect dominates (curve bends backward, higher wage leads to fewer hours worked). The critical point is where the two effects are equal.
 <i>Revision: [Labour Markets](microeconomics/05-labour-markets)</i>
 </details>
 
@@ -207,10 +207,10 @@ Vertical equity, and the ability-to-pay principle.
 
 <details>
 <summary>Answer</summary>
-**Vertical equity**: those with a greater ability to pay should pay more. Progressive taxation (ATR rises with income) satisfies vertical equity — the rich contribute a larger share of their income.<br />
+**Vertical equity**: those with a greater ability to pay should pay more. Progressive taxation (ATR rises with income) satisfies vertical equity, the rich contribute a larger share of their income.<br />
 **Horizontal equity**: those with equal ability to pay should pay the same. A well-designed progressive system with allowances and bands can satisfy horizontal equity.<br />
 **Ability-to-pay principle**: tax burden should relate to the taxpayer's capacity. Progressive taxes embody this: higher earners lose less marginal utility from each pound of tax (diminishing marginal utility of income).<br />
-Regressive taxes (e.g., VAT) violate vertical equity — the poor pay a higher share of income. Proportional taxes are neutral on vertical equity. However: progressive taxes may discourage work and investment (efficiency cost). The optimal tax system balances equity and efficiency (Mirrlees, 1971).
+Regressive taxes (e.g., VAT) violate vertical equity, the poor pay a higher share of income. Proportional taxes are neutral on vertical equity. However: progressive taxes may discourage work and investment (efficiency cost). The optimal tax system balances equity and efficiency (Mirrlees, 1971).
 <i>Revision: [Distribution of Income](microeconomics/06-distribution-of-income)</i>
 </details>
 
@@ -275,7 +275,7 @@ Per week while a nurse earns £600 per week. Is this outcome economically effici
 
 <details>
 <summary>Answer</summary>
-In a competitive labour market, wage = $MRP_L = MP_L \times MR$. The footballer's $MRP_L$ is very high: (1) millions of viewers, ticket sales, merchandise, TV rights → $MR$ is enormous. (2) The footballer's marginal product is visible and measurable (goals, wins). The nurse's $MRP_L$ is lower: (1) healthcare is funded by the state (not directly profitable). (2) The marginal product of one nurse is hard to measure. **Efficiency**: in a narrow market sense, the wage reflects MRP → allocatively efficient (labour goes to its highest-valued use). But market imperfections (monopsony in nursing, monopoly power in football) distort this. **Equity**: most would argue the outcome is inequitable — a nurse's social contribution (health, life-saving) is arguably greater. The market rewards scarcity and revenue generation, not social value.
+In a competitive labour market, wage = $MRP_L = MP_L \times MR$. The footballer's $MRP_L$ is very high: (1) millions of viewers, ticket sales, merchandise, TV rights → $MR$ is enormous. (2) The footballer's marginal product is visible and measurable (goals, wins). The nurse's $MRP_L$ is lower: (1) healthcare is funded by the state (not directly profitable). (2) The marginal product of one nurse is hard to measure. **Efficiency**: in a narrow market sense, the wage reflects MRP → allocatively efficient (labour goes to its highest-valued use). But market imperfections (monopsony in nursing, monopoly power in football) distort this. **Equity**: most would argue the outcome is inequitable, a nurse's social contribution (health, life-saving) is arguably greater. The market rewards scarcity and revenue generation, not social value.
 <i>Revision: [Labour Markets](microeconomics/05-labour-markets) and [Distribution of Income](microeconomics/06-distribution-of-income)</i>
 </details>
 
@@ -284,7 +284,7 @@ To determine the optimal level of pollution (which is unlikely to be zero).
 
 <details>
 <summary>Answer</summary>
-The optimal level of pollution is where **marginal social cost of pollution = marginal abatement cost**. At this point, the cost of reducing pollution by one more unit equals the benefit of that reduction. Zero pollution would require eliminating all economic activity — the abatement cost would be infinite. The optimal level is positive because the first units of pollution abatement are cheap (high benefit, low cost), but the last units are extremely expensive. Formally: minimise $TC = C(abatement) + D(pollution)$ subject to $pollution + abatement = baseline$. FOC: $MC(abatement) = MD(pollution)$. This is the same as the Pigouvian tax result. Practical issues: measuring external costs, discounting future costs, uncertainty about health impacts.
+The optimal level of pollution is where **marginal social cost of pollution = marginal abatement cost**. At this point, the cost of reducing pollution by one more unit equals the benefit of that reduction. Zero pollution would require eliminating all economic activity, the abatement cost would be infinite. The optimal level is positive because the first units of pollution abatement are cheap (high benefit, low cost), but the last units are extremely expensive. Formally: minimise $TC = C(abatement) + D(pollution)$ subject to $pollution + abatement = baseline$. FOC: $MC(abatement) = MD(pollution)$. This is the same as the Pigouvian tax result. Practical issues: measuring external costs, discounting future costs, uncertainty about health impacts.
 <i>Revision: [Market Failure](microeconomics/03-market-failure)</i>
 </details>
 
@@ -316,7 +316,7 @@ Existence of frictional unemployment does not imply market failure.
 **Cyclical**: due to insufficient AD ($Y \lt Y^*$), rises during recessions, falls during booms.<br />
 **Structural**: due to mismatch between workers' skills/locations and job requirements (technology change, deindustrialisation).<br />
 **Frictional**: short-term unemployment while workers search for new jobs (graduates, job-to-job transitions).<br />
-Frictional unemployment is not market failure because: (1) It is productive — workers search for the best match, improving allocative efficiency. (2) It is voluntary — workers choose to spend time searching rather than accepting the first available job. (3) Some frictional unemployment is necessary for dynamic efficiency (creative destruction — Schumpeter). (4) Policies to reduce frictional unemployment below the natural rate (e.g., banning job search) would worsen matching quality. The natural rate $u^* = u_{frictional} + u_{structural}$ is positive and efficient.
+Frictional unemployment is not market failure because: (1) It is productive, workers search for the best match, improving allocative efficiency. (2) It is voluntary, workers choose to spend time searching rather than accepting the first available job. (3) Some frictional unemployment is necessary for dynamic efficiency (creative destruction, Schumpeter). (4) Policies to reduce frictional unemployment below the natural rate (e.g., banning job search) would worsen matching quality. The natural rate $u^* = u_{frictional} + u_{structural}$ is positive and efficient.
 <i>Revision: [Macroeconomic Performance](macro/01-macroeconomic-performance)</i>
 </details>
 
@@ -330,7 +330,7 @@ Imports induced by the spending increase.
 <summary>Answer</summary>
 (a) $k = 1/(MPS + MPT + MPM) = 1/(0.4 + 0.2 + 0.15) = 1/0.75 = 1.333$.<br />
 (b) $\Delta Y = 1.333 \times 80 = £106.7$Bn.<br />
-(c) Imports increase by $MPM \times \Delta Y = 0.15 \times 106.7 = £16.0$Bn. This is the leakage abroad — a significant fraction of the stimulus benefits foreign economies, reducing the domestic multiplier.
+(c) Imports increase by $MPM \times \Delta Y = 0.15 \times 106.7 = £16.0$Bn. This is the leakage abroad, a significant fraction of the stimulus benefits foreign economies, reducing the domestic multiplier.
 <i>Revision: [Aggregate Demand and Aggregate Supply](macro/02-aggregate-demand-and-supply)</i>
 </details>
 
@@ -375,7 +375,7 @@ The instability of the velocity of money and the concept of Goodhart's Law.
 
 <details>
 <summary>Answer</summary>
-Monetarists argued for targeting money supply growth (Friedman's $k\%$ rule). But: (1) The velocity of money ($V$ in $MV = PY$) is unstable — it fell sharply during financial crises (2008) and cannot be predicted. If $V$ is unstable, controlling $M$ does not control $PY$. (2) Financial innovation (credit cards, money market funds) blurred the definition of money (M0, M2, M4), making targeting difficult. (3) **Goodhart's Law**: "When a measure becomes a target, it ceases to be a good measure." If the central bank targets M4, banks will innovate to create new forms of money outside M4, breaking the relationship. (4) Inflation targeting directly targets the objective of price stability, is more transparent, and anchors expectations. The UK switched from monetary targeting to inflation targeting in 1992.
+Monetarists argued for targeting money supply growth (Friedman's $k\%$ rule). But: (1) The velocity of money ($V$ in $MV = PY$) is unstable, it fell sharply during financial crises (2008) and cannot be predicted. If $V$ is unstable, controlling $M$ does not control $PY$. (2) Financial innovation (credit cards, money market funds) blurred the definition of money (M0, M2, M4), making targeting difficult. (3) **Goodhart's Law**: "When a measure becomes a target, it ceases to be a good measure." If the central bank targets M4, banks will innovate to create new forms of money outside M4, breaking the relationship. (4) Inflation targeting directly targets the objective of price stability, is more transparent, and anchors expectations. The UK switched from monetary targeting to inflation targeting in 1992.
 <i>Revision: [The Financial Sector](macro/03-the-financial-sector)</i>
 </details>
 
@@ -398,7 +398,7 @@ To the concepts of crowding out, automatic stabilisers, and the debt-to-GDP rati
 
 <details>
 <summary>Answer</summary>
-Not always harmful: (1) **Counter-cyclical deficits** are desirable — they stabilise the economy (Keynesian view). During recessions, deficits automatically widen (automatic stabilisers), supporting AD. (2) If the deficit finances productive investment (infrastructure, education), it raises future GDP → the debt-to-GDP ratio may actually fall even with a deficit (if $g \gt r$). (3) In a deep recession with the ZLB binding, deficits have large multipliers and minimal crowding out. (4) Ricardian equivalence is incomplete — deficits do stimulate AD. Harmful when: (1) Structural deficits during booms crowd out private investment. (2) Persistent deficits lead to unsustainable debt dynamics ($r \gt g$). (3) Deficits finance current consumption (not investment) → no future growth benefit. (4) They create inflationary pressure at full employment.
+Not always harmful: (1) **Counter-cyclical deficits** are desirable, they stabilise the economy (Keynesian view). During recessions, deficits automatically widen (automatic stabilisers), supporting AD. (2) If the deficit finances productive investment (infrastructure, education), it raises future GDP → the debt-to-GDP ratio may actually fall even with a deficit (if $g \gt r$). (3) In a deep recession with the ZLB binding, deficits have large multipliers and minimal crowding out. (4) Ricardian equivalence is incomplete, deficits do stimulate AD. Harmful when: (1) Structural deficits during booms crowd out private investment. (2) Persistent deficits lead to unsustainable debt dynamics ($r \gt g$). (3) Deficits finance current consumption (not investment) → no future growth benefit. (4) They create inflationary pressure at full employment.
 <i>Revision: [Fiscal Policy](macro/04-fiscal-policy)</i>
 </details>
 
@@ -409,7 +409,7 @@ Discuss with reference to both market-oriented and interventionist supply-side p
 
 <details>
 <summary>Answer</summary>
-The statement is largely correct: only supply-side policies shift LRAS right, raising potential output and long-run living standards. Demand-side policy only closes output gaps temporarily. However: (1) "Only" is too strong — demand-side policy creates a stable macroeconomic environment that encourages investment (a prerequisite for supply-side improvements). (2) Supply-side policies take years to work — the economy needs demand-side support in the interim. (3) The effectiveness of supply-side policies varies: market-oriented (tax cuts, deregulation) may boost incentives but increase inequality; interventionist (education, infrastructure) address market failures but require government spending. (4) Some supply-side policies have demand-side effects too (infrastructure spending raises AD in the short run). (5) Institutional quality matters — supply-side reforms work best with strong property rights, rule of law, and low corruption. Best answer: supply-side policies are necessary but not sufficient — they must be complemented by sound demand management.
+The statement is largely correct: only supply-side policies shift LRAS right, raising potential output and long-run living standards. Demand-side policy only closes output gaps temporarily. However: (1) "Only" is too strong, demand-side policy creates a stable macroeconomic environment that encourages investment (a prerequisite for supply-side improvements). (2) Supply-side policies take years to work, the economy needs demand-side support in the interim. (3) The effectiveness of supply-side policies varies: market-oriented (tax cuts, deregulation) may boost incentives but increase inequality; interventionist (education, infrastructure) address market failures but require government spending. (4) Some supply-side policies have demand-side effects too (infrastructure spending raises AD in the short run). (5) Institutional quality matters, supply-side reforms work best with strong property rights, rule of law, and low corruption. Best answer: supply-side policies are necessary but not sufficient, they must be complemented by sound demand management.
 <i>Revision: [Supply-Side Policy](macro/05-supply-side-policy)</i>
 </details>
 
@@ -423,7 +423,7 @@ Both gain from trade.
 <details>
 <summary>Answer</summary>
 (a) OC of 1 car: A = 4/8 = 0.5 wheat; B = 3/3 = 1.0 wheat. A has CA in cars (0.5 < 1.0). OC of 1 wheat: A = 8/4 = 2 cars; B = 3/3 = 1.0 car. B has CA in wheat (1.0 < 2.0).<br />
-(b) At 1.5 wheat per car (between 0.5 and 1.0): A specialises in cars. For each car A exports, it gets 1.5 wheat — better than its OC (0.5). A gains 1.0 wheat per car traded. B specialises in wheat. For each car B imports, it gives 1.5 wheat — better than its OC (1.0 wheat saved per car). B gains 0.5 wheat equivalent per car. Both gain.
+(b) At 1.5 wheat per car (between 0.5 and 1.0): A specialises in cars. For each car A exports, it gets 1.5 wheat, better than its OC (0.5). A gains 1.0 wheat per car traded. B specialises in wheat. For each car B imports, it gives 1.5 wheat, better than its OC (1.0 wheat saved per car). B gains 0.5 wheat equivalent per car. Both gain.
 <i>Revision: [The International Economy](macro/06-the-international-economy)</i>
 </details>
 
@@ -433,7 +433,7 @@ Before improving it? How does the Marshall-Lerner condition relate to this?
 <details>
 <summary>Answer</summary>
 **J-curve**: after a depreciation, the current account initially worsens (the downward part of the J) before improving (the upward part).<br />
-**Why**: In the short run, trade contracts are fixed in volume (signed months in advance), and consumers are slow to change habits. The depreciation raises the domestic currency cost of imports immediately (imported inflation) but export volumes take time to respond. Since import prices rise before export volumes increase, the trade balance worsens. Over 6–18 months, consumers find substitutes for dearer imports, foreign buyers respond to cheaper exports, and producers adjust — volumes change and the trade balance improves.<br />
+**Why**: In the short run, trade contracts are fixed in volume (signed months in advance), and consumers are slow to change habits. The depreciation raises the domestic currency cost of imports immediately (imported inflation) but export volumes take time to respond. Since import prices rise before export volumes increase, the trade balance worsens. Over 6–18 months, consumers find substitutes for dearer imports, foreign buyers respond to cheaper exports, and producers adjust, volumes change and the trade balance improves.<br />
 **Marshall-Lerner**: the CA improves when $|E_X| + |E_M| \gt 1$. In the short run, elasticities are low (contracts fixed) → condition may not hold → CA worsens. In the long run, elasticities rise → condition holds → CA improves. The J-curve is the dynamic manifestation of the Marshall-Lerner condition.
 <i>Revision: [The International Economy](macro/06-the-international-economy)</i>
 </details>
@@ -444,7 +444,7 @@ Roles of comparative advantage, technology transfer, and the Prebisch-Singer hyp
 <details>
 <summary>Answer</summary>
 Benefits: (1) **Comparative advantage**: developing countries can specialise in labour-intensive manufacturing, attracting FDI and creating jobs (China, Vietnam). (2) **Technology transfer**: FDI brings advanced technology, management practices, and training. (3) **Access to large markets**: economies of scale in export industries. (4) **Lower prices**: consumers benefit from cheaper imports.<br />
-Costs: (1) **Prebisch-Singer hypothesis**: primary commodity exporters face declining terms of trade — specialising in primary goods may be a trap. (2) **Race to the bottom**: competition for FDI may lower environmental and labour standards. (3) **Vulnerability**: dependence on export markets exposes the economy to external shocks. (4) **Inequality**: gains may accrue to urban elites while rural populations are left behind. (5) **Cultural homogenisation**.<br />
+Costs: (1) **Prebisch-Singer hypothesis**: primary commodity exporters face declining terms of trade, specialising in primary goods may be a trap. (2) **Race to the bottom**: competition for FDI may lower environmental and labour standards. (3) **Vulnerability**: dependence on export markets exposes the economy to external shocks. (4) **Inequality**: gains may accrue to urban elites while rural populations are left behind. (5) **Cultural homogenisation**.<br />
 Overall: globalisation has lifted billions out of poverty (especially in East Asia) but benefits are unevenly distributed. The key is complementary domestic policies (education, infrastructure, institutional reform).
 <i>Revision: [The International Economy](macro/06-the-international-economy)</i>
 </details>
@@ -458,7 +458,7 @@ about the central bank's dilemma at the ZLB?
 <details>
 <summary>Answer</summary>
 $i = 1.5 + 1 + 0.5(1 - 2) + 0.5(-2) = 1.5 + 1 - 0.5 - 1 = 1.0\%$.<br />
-The Taylor Rule prescribes 1.0%. If the ZLB means the rate cannot go below 0%, there is still room. But if the output gap were larger (e.g., –5%) or deflation set in ($\pi = -1\%$): $i = 1.5 + (-1) + 0.5(-3) + 0.5(-5) = 1.5 - 1 - 1.5 - 2.5 = -3.5\%$. This is below the ZLB → the central bank is constrained. Conventional monetary policy is impotent. This is the **liquidity trap** — the Taylor Rule highlights the need for unconventional tools (QE, forward guidance) or fiscal policy.
+The Taylor Rule prescribes 1.0%. If the ZLB means the rate cannot go below 0%, there is still room. But if the output gap were larger (e.g., –5%) or deflation set in ($\pi = -1\%$): $i = 1.5 + (-1) + 0.5(-3) + 0.5(-5) = 1.5 - 1 - 1.5 - 2.5 = -3.5\%$. This is below the ZLB → the central bank is constrained. Conventional monetary policy is impotent. This is the **liquidity trap**, the Taylor Rule highlights the need for unconventional tools (QE, forward guidance) or fiscal policy.
 <i>Revision: [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates)</i>
 </details>
 
@@ -467,7 +467,7 @@ Statement.
 
 <details>
 <summary>Answer</summary>
-The Lucas critique argues that policy evaluation using models with parameters estimated under one regime is unreliable when the policy regime changes, because expectations and behaviour adjust. This does NOT mean all econometric evaluation is useless — it means we need: (1) **Micro-founded models** based on deep structural parameters (preferences, technology) that are invariant to policy changes. (2) **Natural experiments** that identify causal effects (e.g., comparing similar countries with different policies). (3) **Structural VAR models** that identify shocks using theoretically motivated restrictions. (4) **Counterfactual analysis** using calibrated models. The Lucas critique improved macroeconomic modelling by forcing economists to build models with explicit microfoundations (DSGE models). However, even micro-founded models make simplifying assumptions and may not capture all relevant behavioural responses.
+The Lucas critique argues that policy evaluation using models with parameters estimated under one regime is unreliable when the policy regime changes, because expectations and behaviour adjust. This does NOT mean all econometric evaluation is useless, it means we need: (1) **Micro-founded models** based on deep structural parameters (preferences, technology) that are invariant to policy changes. (2) **Natural experiments** that identify causal effects (e.g., comparing similar countries with different policies). (3) **Structural VAR models** that identify shocks using theoretically motivated restrictions. (4) **Counterfactual analysis** using calibrated models. The Lucas critique improved macroeconomic modelling by forcing economists to build models with explicit microfoundations (DSGE models). However, even micro-founded models make simplifying assumptions and may not capture all relevant behavioural responses.
 <i>Revision: [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates)</i>
 </details>
 
@@ -492,7 +492,7 @@ Currency areas and the impossible trinity.
 <summary>Answer</summary>
 **Optimal currency area (Mundell, 1961)**: regions sharing a currency should have: (1) labour mobility (workers move to where jobs are), (2) wage flexibility, (3) fiscal transfers (to offset asymmetric shocks), (4) similar economic cycles.<br />
 Arguments for: (1) Eliminates exchange rate uncertainty for UK-EU trade (40%+ of UK trade). (2) Reduces transaction costs. (3) Price transparency across the Eurozone. (4) Lower interest rates (convergence risk premium).<br />
-Arguments against: (1) UK and Eurozone cycles are not well synchronised (the UK is more services-oriented, more sensitive to financial conditions). (2) Limited labour mobility between UK and Eurozone (language, culture barriers). (3) Loss of monetary sovereignty — the Bank of England cannot set interest rates for UK conditions. (4) No fiscal union — no automatic fiscal transfers to offset asymmetric shocks. (5) The Eurozone crisis (Greece, Ireland, Spain) showed the costs of inappropriate monetary policy for individual members.<br />
+Arguments against: (1) UK and Eurozone cycles are not well synchronised (the UK is more services-oriented, more sensitive to financial conditions). (2) Limited labour mobility between UK and Eurozone (language, culture barriers). (3) Loss of monetary sovereignty, the Bank of England cannot set interest rates for UK conditions. (4) No fiscal union, no automatic fiscal transfers to offset asymmetric shocks. (5) The Eurozone crisis (Greece, Ireland, Spain) showed the costs of inappropriate monetary policy for individual members.<br />
 The impossible trinity: joining the Euro means giving up monetary independence and exchange rate flexibility in exchange for free capital mobility and a fixed exchange rate (monetary union). Whether this is beneficial depends on whether the UK-Eurozone area satisfies the OCA criteria.
 <i>Revision: [The International Economy](macro/06-the-international-economy) and [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates)</i>
 </details>
@@ -503,7 +503,7 @@ Increase unemployment. Is this a desirable outcome?
 <details>
 <summary>Answer</summary>
 **Mechanism**: Appreciation → imports cheaper (disinflationary) → SRAS shifts right (lower costs) → $P$ falls. Also: exports more expensive → net exports fall → AD shifts left → $Y$ falls, unemployment rises. And: import-competing industries lose competitiveness → structural unemployment.<br />
-**Desirable?** on the starting point. If the economy is overheating (high inflation, output above potential): the appreciation is helpful — it cools the economy and reduces inflation. If the economy is at or below full employment: the appreciation worsens unemployment unnecessarily. The net welfare effect depends on: (1) the initial output gap, (2) the share of trade in GDP, (3) the elasticity of export and import demand, (4) whether the appreciation is temporary or permanent. Policy response: if undesirable, the central bank could cut rates to offset the contractionary effect.
+**Desirable?** on the starting point. If the economy is overheating (high inflation, output above potential): the appreciation is helpful, it cools the economy and reduces inflation. If the economy is at or below full employment: the appreciation worsens unemployment unnecessarily. The net welfare effect depends on: (1) the initial output gap, (2) the share of trade in GDP, (3) the elasticity of export and import demand, (4) whether the appreciation is temporary or permanent. Policy response: if undesirable, the central bank could cut rates to offset the contractionary effect.
 <i>Revision: [The International Economy](macro/06-the-international-economy) and [Macroeconomic Performance](macro/01-macroeconomic-performance)</i>
 </details>
 
@@ -513,7 +513,7 @@ Policy was the wrong response." Evaluate this statement.
 <details>
 <summary>Answer</summary>
 Supply-side factors: COVID supply chain disruptions, labour shortages, Ukraine war → energy prices surged → cost-push inflation (SRAS shifted left). Monetary policy (raising rates) reduces AD, which helps inflation but deepens the output gap.<br />
-However: (1) **Demand also surged** — fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
+However: (1) **Demand also surged**, fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
 <i>Revision: [Macroeconomic Policy Debates](macro/07-macroeconomic-policy-debates) and [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply)</i>
 </details>
 
@@ -533,7 +533,7 @@ Low growth (1%). Recommend a policy mix and justify your choices.
 
 <details>
 <summary>Answer</summary>
-This is a challenging situation — stagflation combined with external imbalance.<br />
+This is a challenging situation, stagflation combined with external imbalance.<br />
 **Monetary policy**: Tighten (raise rates) to reduce inflation and stabilise the currency (reducing the current account deficit by discouraging imports and attracting capital inflows).<br />
 **Fiscal policy**: Consolidate (reduce deficit) to reduce aggregate demand pressure on inflation and the current account. But avoid excessive austerity that deepens the recession.<br />
 **Exchange rate**: Allow controlled depreciation to improve competitiveness (Marshall-Lerner), but not so much that it causes imported inflation.<br />
@@ -548,9 +548,9 @@ Implications for macroeconomic policy?
 
 <details>
 <summary>Answer</summary>
-**Natural rate hypothesis** (Friedman/Phelps): unemployment always returns to $u^*$ after a shock — cyclical unemployment is temporary. **Hysteresis** (Blanchard & Summers, 1986): prolonged cyclical unemployment can become structural, raising the natural rate itself.<br />
+**Natural rate hypothesis** (Friedman/Phelps): unemployment always returns to $u^*$ after a shock, cyclical unemployment is temporary. **Hysteresis** (Blanchard & Summers, 1986): prolonged cyclical unemployment can become structural, raising the natural rate itself.<br />
 **Mechanisms**: (1) Long-term unemployed workers lose skills and motivation → employability falls → $u_{structural}$ rises. (2) Firms reduce investment during recessions → capital stock shrinks → productive capacity falls. (3) Workers become discouraged and leave the labour force → labour force shrinks. (4) Insider-outsider theory: employed "insiders" set wages that prevent the unemployed "outsiders" from bidding down wages.<br />
-**Policy implications**: (1) "Leave it to the market" is dangerous — allowing deep recessions causes permanent damage. (2) Active fiscal and monetary policy is justified even on supply-side grounds (preventing hysteresis). (3) Active labour market policies (retraining, job search assistance) are essential. (4) The output gap is not self-correcting — it can become permanent. (5) There is no stable long-run Phillips curve — the natural rate is endogenous.
+**Policy implications**: (1) "Leave it to the market" is dangerous, allowing deep recessions causes permanent damage. (2) Active fiscal and monetary policy is justified even on supply-side grounds (preventing hysteresis). (3) Active labour market policies (retraining, job search assistance) are essential. (4) The output gap is not self-correcting, it can become permanent. (5) There is no stable long-run Phillips curve, the natural rate is endogenous.
 <i>Revision: [Macroeconomic Performance](macro/01-macroeconomic-performance) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
 </details>
 
@@ -559,9 +559,9 @@ Using the concepts of comparative advantage, trade creation/diversion, and suppl
 
 <details>
 <summary>Answer</summary>
-**Comparative advantage**: leaving the single market introduces trade barriers (tariffs on some goods, non-tariff barriers on all). This reduces the gains from specialisation and trade — the UK cannot fully exploit its comparative advantage in services (financial, legal, creative).<br />
-**Trade creation/diversion**: the UK loses trade creation within the EU (the world's largest single market) and must negotiate new agreements. New trade deals with non-EU countries may partially compensate, but: (1) Distance matters (gravity model) — the EU is geographically proximate. (2) Services trade is harder to negotiate. (3) Regulatory divergence creates new non-tariff barriers.<br />
-**Supply-side effects**: (1) Reduced FDI (the UK was the top EU destination for FDI partly due to EU access). (2) Labour mobility restrictions — harder to recruit EU workers (nursing, agriculture, hospitality). (3) Regulatory divergence could boost competitiveness (if regulations are sensibly reformed) or reduce standards. (4) Potential benefits: regulatory autonomy, independent trade policy, control over fishing/agriculture.<br />
+**Comparative advantage**: leaving the single market introduces trade barriers (tariffs on some goods, non-tariff barriers on all). This reduces the gains from specialisation and trade, the UK cannot fully exploit its comparative advantage in services (financial, legal, creative).<br />
+**Trade creation/diversion**: the UK loses trade creation within the EU (the world's largest single market) and must negotiate new agreements. New trade deals with non-EU countries may partially compensate, but: (1) Distance matters (gravity model), the EU is geographically proximate. (2) Services trade is harder to negotiate. (3) Regulatory divergence creates new non-tariff barriers.<br />
+**Supply-side effects**: (1) Reduced FDI (the UK was the top EU destination for FDI partly due to EU access). (2) Labour mobility restrictions, harder to recruit EU workers (nursing, agriculture, hospitality). (3) Regulatory divergence could boost competitiveness (if regulations are sensibly reformed) or reduce standards. (4) Potential benefits: regulatory autonomy, independent trade policy, control over fishing/agriculture.<br />
 **OBR estimate**: Brexit reduces long-run productivity by ~4%. Whether this is offset by new opportunities depends on the quality of post-Brexit policy.
 <i>Revision: [The International Economy](macro/06-the-international-economy), [Supply-Side Policy](macro/05-supply-side-policy), and [Fiscal Policy](macro/04-fiscal-policy)</i>
 </details>

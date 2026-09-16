@@ -2,7 +2,7 @@
 
 date: 2026-07-23T22:34:31+01:00
 title: "Ruby Basics Flashcards"
-description: "Ruby is a language designed for developer happiness — everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP."
+description: "Ruby is a language designed for developer happiness, everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP."
 sidebar_position: 51
 ---
 
@@ -18,21 +18,21 @@ import { flashcardData } from '@/data/flashcards/ruby/flashcards-ruby-basics-dat
 
 ## Intuition
 
-Ruby is a language designed for developer happiness — everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP. Metaprogramming is Ruby's superpower: you can define methods at runtime, open existing classes to add methods, and use `method_missing` to handle calls to undefined methods. Modules provide mixins for code reuse without multiple inheritance problems.
+Ruby is a language designed for developer happiness, everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP. Metaprogramming is Ruby's superpower: you can define methods at runtime, open existing classes to add methods, and use `method_missing` to handle calls to undefined methods. Modules provide mixins for code reuse without multiple inheritance problems.
 
 ## How to Use These Flashcards
 
-**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+**First pass:** Go through all 15 cards without rating, just flip and read. This familiarises you with the content and identifies weak areas.
 
 **IRB practice:** After reviewing a card, open IRB (Interactive Ruby) and experiment with the concept. Ruby's interactive nature makes it perfect for rapid experimentation.
 
-**Rails connection:** If you're learning Ruby for Rails, relate each concept to its Rails use case — blocks for route definitions, mixins for concerns, metaprogramming for ActiveRecord.
+**Rails connection:** If you're learning Ruby for Rails, relate each concept to its Rails use case, blocks for route definitions, mixins for concerns, metaprogramming for ActiveRecord.
 
 **Common Pitfalls**
 
-- **Monkey patching risks**: Reopening a class and changing method behaviour affects every instance globally — this can introduce hard-to-debug conflicts between libraries.
-- **Symbol vs string**: `:symbol` and `"string"` differ — symbols are immutable and interned (memory efficient), strings are mutable. Use symbols for hash keys and identifiers.
-- **Block vs proc vs lambda**: Blocks are not objects, Procs don't check argument count, and Lambdas do — mixing them up causes subtle argument-passing bugs.
+- **Monkey patching risks**: Reopening a class and changing method behaviour affects every instance globally, this can introduce hard-to-debug conflicts between libraries.
+- **Symbol vs string**: `:symbol` and `"string"` differ, symbols are immutable and interned (memory efficient), strings are mutable. Use symbols for hash keys and identifiers.
+- **Block vs proc vs lambda**: Blocks are not objects, Procs don't check argument count, and Lambdas do, mixing them up causes subtle argument-passing bugs.
 
 ## Study Tips
 

@@ -87,7 +87,7 @@ A suboptimal path to the goal with cost $g' \gt g^*$. Let $v$ be the first node 
 Path not yet expanded. By admissibility:
 $f(v) = g(v) + h(v) \leq g^* + h(v) \leq g^* + \mathrm{true}(v, \mathrm{goal}) \leq g^* + (g' - g(v)) = g'$.
 Since A\* expands the node with minimum $f$It would expand $v$ before the goal on the suboptimal
-Path — contradiction. $\square$
+Path, contradiction. $\square$
 
 ### Common Heuristics
 
@@ -165,7 +165,7 @@ Once and returns to the origin.
 
 ### NP-Hardness
 
-TSP is **NP-hard** — no polynomial-time algorithm is known (and likely none exists, assuming P ≠
+TSP is **NP-hard**, no polynomial-time algorithm is known (and likely none exists, assuming P ≠
 NP). The brute-force approach checks all $(n-1)!$ permutations.
 
 ### Heuristic Approaches
@@ -255,7 +255,7 @@ def floyd_warshall(graph):
 
 **Complexity:** $O(V^3)$ time, $O(V^2)$ space.
 
-**Handles:** Negative weights (but not negative cycles — detect by checking if
+**Handles:** Negative weights (but not negative cycles, detect by checking if
 $\mathrm{dist}[i][i] \lt 0$).
 
 <hr />
@@ -363,7 +363,7 @@ The real failure: S→A (3), S→C (7), A→B (2), B→C (-2). Dijkstra: S(0). A
 Extract C(7). B = 7+(-2) = 5 = no improvement. But A→B→C = 3+2-2 = 3 < 7! B is already finalized at
 5, but C should be 3. The algorithm returns C=7, missing the better path.
 
-Wait — C is already extracted. The issue is that when C is extracted at distance 7, a shorter path
+Wait, C is already extracted. The issue is that when C is extracted at distance 7, a shorter path
 Through B (distance 5 → C = 3) exists but is never explored because B hasn't been processed yet and
 C is already marked as visited.
 
@@ -424,7 +424,7 @@ Optimal solution?
 Possible way. If the new total distance is shorter, the swap is accepted. This corrects "crossing"
 Edges, which are always suboptimal in metric TSP.
 
-2-opt does **not** always find the optimal solution. It can get stuck in local optima —
+2-opt does **not** always find the optimal solution. It can get stuck in local optima,
 Configurations where no single 2-opt swap improves the tour, but a sequence of swaps (or a swap
 Involving more edges, like 3-opt) would. However, for many practical instances, 2-opt produces
 Near-optimal solutions.
@@ -478,7 +478,7 @@ Base case: $dp[0][s] = 0$, $dp[0][v] = \infty$ for $v \neq s$.
 
 Answer: $dp[k][t]$.
 
-Time complexity: $O(k \cdot E)$ — we compute $k+1$ tables, each requiring scanning all edges. Space:
+Time complexity: $O(k \cdot E)$, we compute $k+1$ tables, each requiring scanning all edges. Space:
 $O(k \cdot V)$ (or $O(V)$ with rolling array optimisation).
 
 For $k = V-1$This is equivalent to the Bellman-Ford algorithm.
@@ -508,7 +508,7 @@ Smallest known distance, then update distances to its unvisited neighbours.
 
 | Step | Visited | A     | B     | C     | D     | E      |
 | ---- | ------- | ----- | ----- | ----- | ----- | ------ |
-| Init | —       | 0     | ∞     | ∞     | ∞     | ∞      |
+| Init |,       | 0     | ∞     | ∞     | ∞     | ∞      |
 | 1    | A       | **0** | 4     | 2     | ∞     | ∞      |
 | 2    | C       | **0** | 3     | **2** | 10    | 12     |
 | 3    | B       | **0** | **3** | **2** | 8     | 12     |
@@ -544,7 +544,7 @@ The queue contents after each extraction and relaxation.
 
 | Step | Visit | Dist[S] | Dist[A] | Dist[B] | Dist[C] | Dist[D] | Dist[T] | Queue after extraction |
 | ---- | ----- | ------- | ------- | ------- | ------- | ------- | ------- | ---------------------- |
-| Init | —     | 0       | ∞       | ∞       | ∞       | ∞       | ∞       | `{(0,S)}`              |
+| Init |,     | 0       | ∞       | ∞       | ∞       | ∞       | ∞       | `{(0,S)}`              |
 | 1    | S     | **0**   | 2       | 6       | ∞       | ∞       | ∞       | `{(2,A),(6,B)}`        |
 | 2    | A     | **0**   | **2**   | 5       | 7       | ∞       | ∞       | `{(5,B),(7,C)}`        |
 | 3    | B     | **0**   | **2**   | **5**   | 7       | 6       | ∞       | `{(6,D),(7,C)}`        |
@@ -661,7 +661,7 @@ Minimum-weight edge that connects a vertex in the MST to a vertex outside it.
 | 3    | `{A,C,F}`       | A–B(6), A–D(5), B–C(5), C–D(5), C–E(6), D–F(2), E–F(6) | D–F(2)   | D          | 7          |
 | 4    | `{A,C,F,D}`     | A–B(6), B–C(5), C–E(6), E–F(6)                         | B–C(5)   | B          | 12         |
 | 5    | `{A,C,F,D,B}`   | B–E(3), C–E(6), E–F(6)                                 | B–E(3)   | E          | 15         |
-| 6    | `{A,C,F,D,B,E}` | —                                                      | —        | Done       | 15         |
+| 6    | `{A,C,F,D,B,E}` |,                                                      |,        | Done       | 15         |
 
 **MST edges:** A–C(1), C–F(4), D–F(2), B–C(5), B–E(3). **Total weight: 15.**
 
@@ -688,7 +688,7 @@ Minimum-weight crossing edge.
 | 2    | `{S,U}`       | S–V(6), U–V(5), U–W(8) | U–V(5)   | V    | 7             |
 | 3    | `{S,U,V}`     | U–W(8), V–W(3), V–X(7) | V–W(3)   | W    | 10            |
 | 4    | `{S,U,V,W}`   | V–X(7), W–X(4)         | W–X(4)   | X    | 14            |
-| 5    | `{S,U,V,W,X}` | —                      | —        | Done | 14            |
+| 5    | `{S,U,V,W,X}` |,                      |,        | Done | 14            |
 
 **MST edges:** S–U(2), U–V(5), V–W(3), W–X(4). **Total weight: 14.**
 
@@ -738,7 +738,7 @@ Priority queue compared to BFS's FIFO queue.
 - BFS uses a simple FIFO queue with $O(1)$ enqueue/dequeue: total $O(V+E)$.
 - In unweighted graphs, BFS explores vertices in order of increasing distance, so it produces the
   same shortest paths as Dijkstra without the overhead of a priority queue.
-- Dijkstra's algorithm is overkill when all weights are equal — the priority queue adds unnecessary
+- Dijkstra's algorithm is overkill when all weights are equal, the priority queue adds unnecessary
 Logarithmic overhead.
 
 </details>
@@ -801,14 +801,14 @@ Finding optimal paths from one source to all other vertices (shortest path tree)
 <details>
 <summary>Answer</summary>
 
-**Scenario 1 — Connect all offices to each other:** Use a **minimum spanning tree (MST)** algorithm
+**Scenario 1, Connect all offices to each other:** Use a **minimum spanning tree (MST)** algorithm
 (Kruskal's or Prim's). The MST connects all vertices with the minimum total edge weight. Since the
 Company wants every office reachable from every other office with the least total cabling cost, the
 MST is the optimal solution. Any other connected graph would have equal or greater total weight.
 
-**Scenario 2 — Connect headquarters to every office (star topology):** Use **Dijkstra's shortest
+**Scenario 2, Connect headquarters to every office (star topology):** Use **Dijkstra's shortest
 Path algorithm** from the headquarters. This finds the shortest path from the headquarters to each
-Individual office. The result is a **shortest path tree**, which may differ from the MST — it
+Individual office. The result is a **shortest path tree**, which may differ from the MST, it
 Minimises the path from headquarters to each office, not the total cabling cost.
 
 **Key difference:**
@@ -849,7 +849,7 @@ Objectives of each algorithm.
 
 | Step | Visit | Dist[A] | Dist[B] | Dist[C] | Dist[D] | Dist[E] |
 | ---- | ----- | ------- | ------- | ------- | ------- | ------- |
-| Init | —     | 0       | ∞       | ∞       | ∞       | ∞       |
+| Init |,     | 0       | ∞       | ∞       | ∞       | ∞       |
 | 1    | A     | **0**   | 7       | ∞       | 5       | ∞       |
 | 2    | D     | **0**   | 7       | ∞       | **5**   | 20      |
 | 3    | B     | **0**   | **7**   | 15      | **5**   | 14      |
@@ -884,7 +884,7 @@ Objectives of each algorithm.
 - The **shortest path** minimises the cost between two specific vertices (A and E). The optimal path
   A→B→E (cost 14) is the cheapest route from A to E alone.
 - The **MST** minimises the **total** weight of all edges needed to connect all vertices. It must
-  make trade-offs — for example, including the cheap edge C–E(5) instead of a potentially shorter
+  make trade-offs, for example, including the cheap edge C–E(5) instead of a potentially shorter
   path through D–E(15).
 - The MST includes edge A–D(5), which is not part of the shortest A→E path. Conversely, the shortest
   path uses B–E(7), which the MST also includes, but the overall structure differs because the MST

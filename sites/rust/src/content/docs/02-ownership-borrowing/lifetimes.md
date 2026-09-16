@@ -30,7 +30,7 @@ flowchart TD
 
 Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
 Annotations, the compiler cannot prove that a reference outlives the scope in which it is used. This
-Prevents dangling references — references to memory that has been freed or invalidated.
+Prevents dangling references, references to memory that has been freed or invalidated.
 
 Consider the canonical dangling reference attempt:
 
@@ -45,14 +45,14 @@ The compiler rejects this because `s` is dropped at the end of `dangle`But the f
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
-Every reference in Rust has a lifetime — a region of code during which the reference is valid. In
+Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
 Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
 
 Lifetimes use a leading apostrophe followed by a name. By convention, `'a` is the first lifetime,
-`'b` the second, and so on. The name is purely a compile-time label — it has no runtime
+`'b` the second, and so on. The name is purely a compile-time label, it has no runtime
 Representation.
 
 ```rust
@@ -87,7 +87,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship — they are independent.
+Any relationship, they are independent.
 
 ## Function Lifetimes
 

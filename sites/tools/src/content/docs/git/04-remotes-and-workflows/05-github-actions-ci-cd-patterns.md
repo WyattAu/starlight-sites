@@ -17,11 +17,11 @@ description: "GitHub Actions is an event-driven continuous integration and conti
 
 ## Intuition
 
-**A robot that tests and deploys for you:** GitHub Actions is like hiring a diligent assistant who automatically runs your tests, builds your code, and deploys your app every time you push — catching mistakes before they reach users.
+**A robot that tests and deploys for you:** GitHub Actions is like hiring a diligent assistant who automatically runs your tests, builds your code, and deploys your app every time you push, catching mistakes before they reach users.
 
-**Why it matters:** CI/CD automates the tedious parts of software development — testing, building, deploying — so you can focus on writing code. It also prevents the "works on my machine" problem by testing in a clean environment every time.
+**Why it matters:** CI/CD automates the tedious parts of software development, testing, building, deploying, so you can focus on writing code. It also prevents the "works on my machine" problem by testing in a clean environment every time.
 
-**The key insight:** The real power of CI/CD is fast feedback — if a test fails, you know within minutes, not days. This tight feedback loop dramatically reduces the cost of fixing bugs.
+**The key insight:** The real power of CI/CD is fast feedback, if a test fails, you know within minutes, not days. This tight feedback loop dramatically reduces the cost of fixing bugs.
 
 ## What is GitHub Actions
 
@@ -37,9 +37,9 @@ Comments, scheduled cron expressions, and manual dispatches.
 | **Workflow** | An automated process defined in a YAML file under `.github/workflows/`                                               |
 | **Event**    | A specific activity that triggers a workflow run (e.g., `push``pull_request``schedule`)                              |
 | **Job**      | A set of steps executed on the same runner; jobs run in parallel unless linked with `needs`                          |
-| **Step**     | An individual task within a job — either a `run` (shell command) or `uses` (action reference)                        |
+| **Step**     | An individual task within a job, either a `run` (shell command) or `uses` (action reference)                        |
 | **Action**   | A reusable unit of code packaged for use in workflows, sourced from the Marketplace or custom                        |
-| **Runner**   | The server that executes the workflow — GitHub-hosted (`ubuntu-latest``windows-latest``macos-latest`) or self-hosted |
+| **Runner**   | The server that executes the workflow, GitHub-hosted (`ubuntu-latest``windows-latest``macos-latest`) or self-hosted |
 | **Artifact** | A file or collection of files produced during a workflow run, persisted after the run completes                      |
 | **Secret**   | An encrypted environment variable accessible only within the workflow context                                        |
 
@@ -259,7 +259,7 @@ on:
 ```
 
 Cron syntax follows POSIX: `minute hour day-of-month month day-of-week`. GitHub Actions cron is not
-Guaranteed to run at the exact minute — scheduled workflows are queued and may be delayed under
+Guaranteed to run at the exact minute, scheduled workflows are queued and may be delayed under
 Heavy load. If a scheduled run is skipped due to infrastructure issues, GitHub does not re-schedule
 It.
 
@@ -554,7 +554,7 @@ Cache lookup proceeds as follows:
 
 ### Cache Invalidation
 
-Caches are immutable once written. To invalidate, change the `key` — by bumping a version Prefix:
+Caches are immutable once written. To invalidate, change the `key`by bumping a version Prefix:
 
 ```yaml
 key: v2-${{ runner.os }}-pip-${{ hashFiles('**/requirements*.txt') }}
@@ -1351,7 +1351,7 @@ Windows uses backslash separators and drive letters (`C:\`). Linux/macOS use for
 Hardcoded paths break cross-platform workflows.
 
 ```yaml
-# Fragile — breaks on Windows
+# Fragile, breaks on Windows
 - run: rm -rf build/
 
 # Cross-platform using GitHub environment variables

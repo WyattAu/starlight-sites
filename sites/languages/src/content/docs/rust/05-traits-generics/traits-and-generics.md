@@ -18,7 +18,7 @@ description: "Traits are Rust' s answer to interfaces, type classes, and concept
 ## Trait Definition and Implementation
 
 Traits are Rust's answer to interfaces, type classes, and concepts. They define shared behavior that
-Types can implement. Unlike inheritance, traits are composable — a type can implement any number of
+Types can implement. Unlike inheritance, traits are composable, a type can implement any number of
 Traits.
 
 ### Defining a Trait
@@ -38,8 +38,8 @@ trait Summary {
 }
 ```
 
-`summarize` is a **required method** — every type implementing `Summary` must provide it. `preview`
-Is a **default method** — types can override it, but if they do not, the default implementation is
+`summarize` is a **required method**, every type implementing `Summary` must provide it. `preview`
+Is a **default method**, types can override it, but if they do not, the default implementation is
 Used.
 
 ### Implementing a Trait
@@ -72,7 +72,7 @@ impl Summary for Tweet {
 
 You can only implement a trait for a type if either the trait or the type is defined in your crate.
 You cannot implement `Display` for `Vec<T>` (both are from the standard library) in your own crate.
-This prevents coherence issues — two crates could implement the same trait for the same type with
+This prevents coherence issues, two crates could implement the same trait for the same type with
 Different behavior.
 
 Workarounds:
@@ -284,7 +284,7 @@ impl<T: Clone> Maybe<T> {
 
 ## Monomorphization
 
-Rust performs **monomorphization** — the compiler generates a separate copy of each generic function
+Rust performs **monomorphization**, the compiler generates a separate copy of each generic function
 For every concrete type used. This happens at compile time and produces optimized, specialized code
 With no runtime overhead.
 
@@ -306,12 +306,12 @@ Systems), use dynamic dispatch via `dyn Trait` to share a single implementation.
 ### Comparing Static vs Dynamic Dispatch
 
 ```rust
-// Static dispatch (monomorphized) — no vtable, inlinable
+// Static dispatch (monomorphized), no vtable, inlinable
 fn process<T: Display>(item: T) {
     println!("{}", item);
 }
 
-// Dynamic dispatch (vtable) — single copy, runtime lookup
+// Dynamic dispatch (vtable), single copy, runtime lookup
 fn process_dyn(item: &dyn Display) {
     println!("{}", item);
 }
@@ -446,7 +446,7 @@ impl<T: Display> ToString for T {
 ```
 
 This means every type implementing `Display` automatically gets `to_string()`. You never need to
-Implement `ToString` manually — just implement `Display`.
+Implement `ToString` manually, just implement `Display`.
 
 The standard library has many blanket implementations:
 
@@ -471,7 +471,7 @@ trait ScalarOps: Copy + std::ops::Add<Output = Self> + std::ops::Mul<Output = Se
     }
 }
 
-// Blanket impl — every type that satisfies the bounds gets these methods
+// Blanket impl, every type that satisfies the bounds gets these methods
 impl<T> ScalarOps for T
 where
     T: Copy + std::ops::Add<Output = T> + std::ops::Mul<Output = T>,
@@ -481,7 +481,7 @@ where
 
 ## Marker Traits
 
-Marker traits have no methods — they exist purely as compile-time markers of capabilities.
+Marker traits have no methods, they exist purely as compile-time markers of capabilities.
 
 ### `Send`
 
@@ -517,7 +517,7 @@ where
     println!("{}", value);
 }
 
-print_len("hello");  // &str is ?Sized — works because we take a reference
+print_len("hello");  // &str is ?Sized, works because we take a reference
 ```
 
 `?Sized` is primarily used for trait objects (`dyn Trait` is `!Sized`) and for `[T]` slices (which
@@ -584,7 +584,7 @@ struct Counter {
 }
 
 impl Iterator for Counter {
-    type Item = u32;  // associated type — determined by the implementation
+    type Item = u32;  // associated type, determined by the implementation
 
     fn next(&mut self) -> Option<Self::Item> {
         self.count += 1;
@@ -612,13 +612,13 @@ Use a **generic parameter** when:
 - The caller should choose the type parameter
 
 ```rust
-// Associated type — one output type per implementor
+// Associated type, one output type per implementor
 trait Container {
     type Element;
     fn get(&self, index: usize) -> Option<&Self::Element>;
 }
 
-// Generic parameter — multiple implementations possible
+// Generic parameter, multiple implementations possible
 trait Converter<T> {
     fn convert(&self) -> T;
 }
@@ -885,7 +885,7 @@ impl Human {
 }
 
 let person = Human;
-person.fly();                       // Human::fly — inherent method takes priority
+person.fly();                       // Human::fly, inherent method takes priority
 Pilot::fly(&person);               // Pilot::fly
 Wizard::fly(&person);              // Wizard::fly
 ```

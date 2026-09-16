@@ -3,7 +3,7 @@
 // @ts-check
 
 const SEARCH_API = typeof window !== 'undefined'
-  // @ts-ignore — custom global for testing
+  // @ts-ignore, custom global for testing
   ? (window.__SEARCH_API || 'https://search.wyattau.com/api')
   : 'https://search.wyattau.com/api'
 

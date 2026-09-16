@@ -27,8 +27,8 @@ Of these concepts within their networking modules.
 
 ### The Internet vs the Web
 
-The **Internet** is the global physical infrastructure of interconnected networks — cables, routers,
-Switches, and servers — communicating via the TCP/IP protocol suite.
+The **Internet** is the global physical infrastructure of interconnected networks, cables, routers,
+Switches, and servers, communicating via the TCP/IP protocol suite.
 
 The **World Wide Web** (WWW) is an application running on top of the Internet: a system of
 Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
@@ -43,22 +43,22 @@ Interlinked documents accessed via browsers using URLs, HTTP, and HTML.
 
 ### Historical Development
 
-- **1969 — ARPANET:** US Department of Defence created the first packet-switching network, linking
+- **1969, ARPANET:** US Department of Defence created the first packet-switching network, linking
   four universities. Precursor to the modern Internet.
-- **1973 — TCP/IP:** Vint Cerf and Bob Kahn developed the protocol suite for inter-network
+- **1973, TCP/IP:** Vint Cerf and Bob Kahn developed the protocol suite for inter-network
   communication.
-- **1983 — TCP/IP adopted:** ARPANET officially switched to TCP/IP on 1 January 1983.
-- **1989 — WWW invented:** Tim Berners-Lee proposed the Web at CERN, defining HTML, URLs, and HTTP.
-- **1991 — First website:** `info.cern.ch` went live at CERN.
-- **1993 — Mosaic browser:** First graphical web browser made the Web accessible to non-technical
+- **1983, TCP/IP adopted:** ARPANET officially switched to TCP/IP on 1 January 1983.
+- **1989, WWW invented:** Tim Berners-Lee proposed the Web at CERN, defining HTML, URLs, and HTTP.
+- **1991, First website:** `info.cern.ch` went live at CERN.
+- **1993, Mosaic browser:** First graphical web browser made the Web accessible to non-technical
   users.
 
 ### Key Internet Protocols
 
 | Protocol | Full Name                   | Port  | Purpose                      |
 | -------- | --------------------------- | ----- | ---------------------------- |
-| TCP      | Transmission Control Proto  | —     | Reliable, ordered delivery   |
-| IP       | Internet Protocol           | —     | Addressing and routing       |
+| TCP      | Transmission Control Proto  |,     | Reliable, ordered delivery   |
+| IP       | Internet Protocol           |,     | Addressing and routing       |
 | HTTP     | HyperText Transfer Protocol | 80    | Requesting web pages         |
 | HTTPS    | HTTP Secure                 | 443   | Encrypted web communication  |
 | DNS      | Domain Name System          | 53    | Domain name to IP resolution |
@@ -89,10 +89,10 @@ HTML (HyperText Markup Language) defines the structure and content of web pages:
 </html>
 ```
 
-- `<!DOCTYPE html>` — declares an HTML5 document
-- `<html>` — root element
-- `<head>` — metadata: character set, viewport, title, linked stylesheets
-- `<body>` — visible content
+- `<!DOCTYPE html>`declares an HTML5 document
+- `<html>`root element
+- `<head>`metadata: character set, viewport, title, linked stylesheets
+- `<body>`visible content
 
 ### Semantic HTML
 
@@ -443,7 +443,7 @@ This returns all users because `'1'='1'` is always true.
 **Prevention:** Parameterised queries treat input as data, not executable SQL:
 
 ```python
-cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+cursor.execute("SELECT * FROM users WHERE username = %s", (username))
 ```
 
 ### Cross-Site Request Forgery (CSRF)
@@ -481,7 +481,7 @@ Critical actions.
 <summary>Answer</summary>
 
 The **Internet** is the global physical infrastructure (cables, routers, servers) using TCP/IP. The
-**World Wide Web** is one application on the Internet — interlinked documents accessed via browsers
+**World Wide Web** is one application on the Internet, interlinked documents accessed via browsers
 Using HTTP, HTML, and URLs, invented by Tim Berners-Lee at CERN in 1989. Many services (email via
 SMTP, VoIP) use the Internet but are not part of the Web. The Internet existed for 20 years before
 The Web was created.
@@ -611,7 +611,7 @@ This returns all users. The `--` comments out the rest of the query.
 **Fix with parameterised queries:**
 
 ```python
-cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
+cursor.execute("SELECT * FROM users WHERE username = %s", (username))
 ```
 
 The database treats the input as a literal string, not executable SQL.
@@ -627,9 +627,9 @@ The database treats the input as a literal string, not executable SQL.
 Cookie. They visit a malicious site containing a hidden request (e.g., an `<img>` tag with `src`
 Pointing to a bank transfer URL). The browser sends the session cookie automatically.
 
-**Prevention:** (1) **CSRF tokens** — unique, unpredictable tokens per session embedded in forms;
-(2) **SameSite cookies** — `Strict` or `Lax` prevents cookies with cross-site requests; (3)
-**Re-authentication** — require password for sensitive actions.
+**Prevention:** (1) **CSRF tokens**, unique, unpredictable tokens per session embedded in forms;
+(2) **SameSite cookies**, `Strict` or `Lax` prevents cookies with cross-site requests; (3)
+**Re-authentication**, require password for sensitive actions.
 
 </details>
 
@@ -642,8 +642,8 @@ Pointing to a bank transfer URL). The browser sends the session cookie automatic
 **Sessions** are server-side data structures identified by a session ID cookie. Sessions can store
 Unlimited data and are invisible to the client.
 
-**Security flags:** `HttpOnly` (prevents JavaScript access — XSS defence), `Secure` (HTTPS only),
-`SameSite=Strict` (prevents cross-site requests — CSRF defence), `Path` (restrict to specific URLs).
+**Security flags:** `HttpOnly` (prevents JavaScript access, XSS defence), `Secure` (HTTPS only),
+`SameSite=Strict` (prevents cross-site requests, CSRF defence), `Path` (restrict to specific URLs).
 Example: `Set-Cookie: session_id=abc123; HttpOnly; Secure; SameSite=Strict; Path=/`
 
 </details>

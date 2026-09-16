@@ -1,7 +1,7 @@
 ---
 
 title: "Atomic Theory"
-description: "IB Chemistry — atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties."
+description: "IB Chemistry, atomic models from Dalton to quantum mechanics, electron configuration, orbital theory, and periodic properties."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Atomic theory is like peeling an onion — each model (Dalton, Thomson, Rutherford, Bohr, quantum) revealed deeper layers:** The evolution of atomic theory shows how scientific understanding progresses through experimentation and revised models
+**Atomic theory is like peeling an onion, each model (Dalton, Thomson, Rutherford, Bohr, quantum) revealed deeper layers:** The evolution of atomic theory shows how scientific understanding progresses through experimentation and revised models
 
 **Why it matters:** Atomic theory is the foundation of chemistry, explaining the nature of matter and chemical reactions
 
@@ -54,9 +54,9 @@ Deflected at large angles, and a few rebounded directly.
 
 **Observations:**
 
-- Most alpha particles passed straight through — the atom is mostly empty space.
-- A few were deflected at large angles — a concentrated positive charge exists at the centre.
-- Very few rebounded — the positive centre is extremely small and dense.
+- Most alpha particles passed straight through, the atom is mostly empty space.
+- A few were deflected at large angles, a concentrated positive charge exists at the centre.
+- Very few rebounded, the positive centre is extremely small and dense.
 
 Rutherford concluded that the atom contains a small, dense, positively charged **nucleus**
 Containing most of the mass. Electrons orbit the nucleus.
@@ -300,7 +300,7 @@ Where $S$ is the shielding constant estimated by Slater's rules.
 5. $n - 2$ and lower: each contributes $1.00$.
 :::
 :::note
-<strong>Example — $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)</strong>
+<strong>Example, $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)</strong>
 Configuration: $(1s)^2(2s,2p)^8(3s,3p)^8(4s)^1$
 
 - Same group ($4s$): $0$ other electrons
@@ -362,7 +362,7 @@ $$
 This reveals the number of valence electrons.
 :::
 :::note
-<strong>Example — Silicon ($Z = 14$)</strong>
+<strong>Example, Silicon ($Z = 14$)</strong>
 $IE_1 = 787$$IE_2 = 1577$$IE_3 = 3228$$IE_4 = 4356$$IE_5 = 16091\mathrm{ kJ/mol}$
 
 The large jump from $IE_4$ to $IE_5$ indicates 4 valence electrons, consistent with silicon
@@ -472,7 +472,7 @@ $$
 Z_{\mathrm{eff}}(4s) = 26 - 22.25 = 3.75
 $$
 
-Wait — this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$Which suggests $4s$ is higher in
+Wait, this gives $Z_{\mathrm{eff}}(3d) \gt Z_{\mathrm{eff}}(4s)$Which suggests $4s$ is higher in
 Energy. For a neutral atom, the $4s$ has lower energy due to its greater penetration. Once the $3d$
 Subshell is occupied, however, the $3d$ electrons shield the $4s$ electrons, raising $4s$ above $3d$
 In energy. Therefore, upon ionization, the $4s$ electrons (now at higher energy) are removed first.

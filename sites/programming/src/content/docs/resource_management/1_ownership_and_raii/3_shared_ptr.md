@@ -1,7 +1,7 @@
 ---
 
 title: Shared Ownership (std::shared_ptr) and Control Block
-description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead —"
+description: "enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead,"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -22,8 +22,8 @@ categories:
 ## Shared Ownership (std::shared_ptr) and Control Block
 
 `std::shared_ptr` enables multiple owners to share a single heap-allocated object via a
-Reference-counted control block. While powerful, it carries significant overhead — atomic reference
-Counting, a separate heap allocation, and the risk of reference cycles — and should only be used
+Reference-counted control block. While powerful, it carries significant overhead, atomic reference
+Counting, a separate heap allocation, and the risk of reference cycles, and should only be used
 When shared ownership is genuinely required.
 
 ## 3.1 Definition
@@ -256,13 +256,13 @@ Deleter for very large objects that may be observed by long-lived `weak_ptr` ins
 
 | Operation                                             | Thread-Safe?                                       |
 | :---------------------------------------------------- | :------------------------------------------------- |
-| Copying a `shared_ptr` (incrementing `strong_count`)  | Yes — atomic                                       |
-| Destroying/resetting a `shared_ptr`                   | Yes — atomic                                       |
-| Accessing the **pointed-to object** via `*p` or `p->` | **No** — you must provide your own synchronization |
+| Copying a `shared_ptr` (incrementing `strong_count`)  | Yes, atomic                                       |
+| Destroying/resetting a `shared_ptr`                   | Yes, atomic                                       |
+| Accessing the **pointed-to object** via `*p` or `p->` | **No**, you must provide your own synchronization |
 
 The control block"s reference counts are modified using `std::atomic` operations [N4950 S20.11.3.6].
 This means you can safely copy `shared_ptr` instances between threads. But the **object itself** is
-Not protected — concurrent writes to `*p` without external synchronization is a data race and
+Not protected, concurrent writes to `*p` without external synchronization is a data race and
 Undefined behavior.
 
 ```cpp
@@ -336,7 +336,7 @@ Same `shared_ptr&lt;T&gt;`Then:
   [N4950 S6.9.2.2].
 
 **Intuition:** The control block is an internal implementation detail of `shared_ptr`And the
-Implementer has full control over its synchronization. The pointed-to object is user-defined —
+Implementer has full control over its synchronization. The pointed-to object is user-defined,
 `shared_ptr` has no knowledge of its internals and cannot synthesize correct synchronization for
 Arbitrary types.
 
@@ -469,7 +469,7 @@ public:
         data_ = std::make_shared<std::vector<char>>(s.begin(), s.end());
     }
 
-    // Copy is cheap — just shares the pointer
+    // Copy is cheap, just shares the pointer
     CowString(const CowString& other) = default;
 
     char operator[](std::size_t i) const { return (*data_)[i]; }
@@ -733,11 +733,11 @@ int main() {
 
 ## Intuition
 
-**`std::shared_ptr` is like a group ownership contract:** Multiple people can own the same resource simultaneously. Each owner has a reference count — when the count reaches zero, the resource is freed. It's like a library book with multiple borrowers — as long as at least one person has the book checked out, it stays in circulation. The control block (reference count + weak count + deleter) is the library's tracking system.
+**`std::shared_ptr` is like a group ownership contract:** Multiple people can own the same resource simultaneously. Each owner has a reference count, when the count reaches zero, the resource is freed. It's like a library book with multiple borrowers, as long as at least one person has the book checked out, it stays in circulation. The control block (reference count + weak count + deleter) is the library's tracking system.
 
-**Why it matters:** `shared_ptr` is essential when ownership is genuinely shared — like a cache that multiple threads access, or a graph where multiple nodes point to the same object. But it comes with overhead: atomic reference counting, heap-allocated control block, and potential cyclic references (use `weak_ptr` to break cycles). Use `unique_ptr` by default, and `shared_ptr` only when you truly need shared ownership.
+**Why it matters:** `shared_ptr` is essential when ownership is genuinely shared, like a cache that multiple threads access, or a graph where multiple nodes point to the same object. But it comes with overhead: atomic reference counting, heap-allocated control block, and potential cyclic references (use `weak_ptr` to break cycles). Use `unique_ptr` by default, and `shared_ptr` only when you truly need shared ownership.
 
-**The key insight:** `shared_ptr` uses atomic reference counting — each copy and destruction is an atomic increment/decrement, which has real performance cost under contention.
+**The key insight:** `shared_ptr` uses atomic reference counting, each copy and destruction is an atomic increment/decrement, which has real performance cost under contention.
 
 ## Common Pitfalls
 

@@ -262,11 +262,11 @@ CI with restricted internet).
 
 ## Intuition
 
-**Modules are neighborhoods, packages are houses:** A Go module is a versioned neighborhood with a map (`go.mod`) listing which other neighborhoods it connects to. Packages within a module are individual houses — each with one entrance (the directory name). The `go.sum` file is the neighborhood watch ledger, recording exactly which version of every neighbor's house you're using, so nobody can swap in a different house overnight.
+**Modules are neighborhoods, packages are houses:** A Go module is a versioned neighborhood with a map (`go.mod`) listing which other neighborhoods it connects to. Packages within a module are individual houses, each with one entrance (the directory name). The `go.sum` file is the neighborhood watch ledger, recording exactly which version of every neighbor's house you're using, so nobody can swap in a different house overnight.
 
-**Why it matters:** Go's module system gives you reproducible builds without a central registry. Minimal Version Selection (MVS) means `go.mod` always resolves to the same dependencies — no "works on my machine" surprises from floating versions.
+**Why it matters:** Go's module system gives you reproducible builds without a central registry. Minimal Version Selection (MVS) means `go.mod` always resolves to the same dependencies, no "works on my machine" surprises from floating versions.
 
-**The key insight:** MVS is deliberately conservative — it picks the minimum version that satisfies all constraints, not the latest version, making builds predictable and `go.mod` diffs meaningful.
+**The key insight:** MVS is deliberately conservative, it picks the minimum version that satisfies all constraints, not the latest version, making builds predictable and `go.mod` diffs meaningful.
 
 ## Common Pitfalls
 

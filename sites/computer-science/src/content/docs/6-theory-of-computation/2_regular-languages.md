@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-Regular languages are the **simplest class in the Chomsky hierarchy** — they describe patterns that can be matched with a finite amount of memory (the states of a finite automaton). Think of a vending machine: it has a fixed number of states, transitions on inputs (coins), and accepts or rejects based on the sequence. It can't count arbitrary amounts or remember unbounded history.
+Regular languages are the **simplest class in the Chomsky hierarchy**, they describe patterns that can be matched with a finite amount of memory (the states of a finite automaton). Think of a vending machine: it has a fixed number of states, transitions on inputs (coins), and accepts or rejects based on the sequence. It can't count arbitrary amounts or remember unbounded history.
 
-**DFA vs NFA intuition:** A DFA is deterministic — given a state and input, there's exactly one next state. An NFA can "guess" which transition to take, exploring multiple possibilities simultaneously. NFAs are easier to design (you don't need to track every detail) but DFAs are easier to execute (no guessing needed). The subset construction shows they're equivalent in power.
+**DFA vs NFA intuition:** A DFA is deterministic, given a state and input, there's exactly one next state. An NFA can "guess" which transition to take, exploring multiple possibilities simultaneously. NFAs are easier to design (you don't need to track every detail) but DFAs are easier to execute (no guessing needed). The subset construction shows they're equivalent in power.
 
-**Regular expressions intuition:** Regex describe the same languages as finite automata. Each regex operator maps directly to an NFA construction: union becomes a choice (fork), concatenation becomes a sequence, and Kleene star becomes a loop. This is why regex are so useful in practice — they're compact descriptions of regular languages.
+**Regular expressions intuition:** Regex describe the same languages as finite automata. Each regex operator maps directly to an NFA construction: union becomes a choice (fork), concatenation becomes a sequence, and Kleene star becomes a loop. This is why regex are so useful in practice, they're compact descriptions of regular languages.
 
 ### 2.1 Finite Automata
 
@@ -346,7 +346,7 @@ _Proof._ Assume $L$ is regular with pumping length $p$. Since regular languages 
 Complement, $\overline{L} = \{0^n 1^m : n = m\} \cup \{w : w \notin 0^* 1^*\}$ would also be
 regular. Then $\overline{L} \cap 0^* 1^* = \{0^n 1^n : n \geq 0\}$ would be regular (since $0^* 1^*$
 is regular And regular languages are closed under intersection). But $\{0^n 1^n : n \geq 0\}$ is not
-regular — Contradiction. $\blacksquare$
+regular, Contradiction. $\blacksquare$
 
 <details>
 <summary>Worked Example: Proving $\{w : n_0(w) = n_1(w)\}$ is not regular</summary>
@@ -415,7 +415,7 @@ Regular. Closure properties do not apply when one operand is non-regular.
 
 ## Common Mistakes
 
-1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful" — it is directly more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.
+1. **Confusing NFAs with DFAs in terms of expressive power.** NFAs and DFAs recognise exactly the same class of languages (regular languages). An NFA is not "more powerful", it is directly more convenient to construct. The subset construction converts any NFA to an equivalent DFA, though potentially with exponentially many states.
 
 2. **Misapplying the pumping lemma by pumping to zero.** The pumping lemma states $|xy| \leq p$ and $|y| \geq 1$, so $y$ cannot be empty. Students often pump $y$ to zero characters, which is invalid. The lemma guarantees a non-empty substring can be pumped, not that any substring can be removed.
 
@@ -423,4 +423,4 @@ Regular. Closure properties do not apply when one operand is non-regular.
 
 4. **Forgetting that regular expressions and finite automata are equivalent.** Regular expressions, DFAs, NFAs, and regular grammars all describe exactly the regular languages. A common mistake is assuming regular expressions are "weaker" because they lack features like backreferences, which actually push beyond regular languages into context-free territory.
 
-5. **Confusing the language of a DFA with its state graph.** A DFA accepts a language — a set of strings. The state graph is a representation, not the language itself. Two different DFA state graphs can accept the same language. When proving properties, reason about the language, not the specific graph structure.
+5. **Confusing the language of a DFA with its state graph.** A DFA accepts a language, a set of strings. The state graph is a representation, not the language itself. Two different DFA state graphs can accept the same language. When proving properties, reason about the language, not the specific graph structure.

@@ -1,7 +1,7 @@
 ---
 
 title: "Properties of Materials"
-description: "The mechanical properties of materials — how they deform, stretch, compress, and break — are central To engineering and physics. This topic sits within the"
+description: "The mechanical properties of materials, how they deform, stretch, compress, and break, are central To engineering and physics. This topic sits within the"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - Physics
@@ -23,7 +23,7 @@ categories:
 ## Properties of Materials
 
 > **Info:** Board Coverage AQA Paper 1 | Edexcel CP1 | OCR (A) Paper 1 | CIE P1
-The mechanical properties of materials — how they deform, stretch, compress, and break — are central
+The mechanical properties of materials, how they deform, stretch, compress, and break, are central
 To engineering and physics. This topic sits within the "Mechanics & Materials" strand on every A
 Level board.
 
@@ -41,7 +41,7 @@ Extension from the natural length.
 Elastic object. A stiff spring has a large $k$; a soft spring has a small $k$.
 
 **Definition.** The **limit of proportionality** is the point beyond which force is no longer
-Proportional to extension — the straight-line region of the force-extension graph ends.
+Proportional to extension, the straight-line region of the force-extension graph ends.
 
 **Definition.** The **elastic limit** is the maximum force that can be applied such that the
 Material returns to its original length when the force is removed. Beyond this point, the material
@@ -106,7 +106,7 @@ Strain, within the limit of proportionality:
 
 $$\boxed{E = \frac{\sigma}{\varepsilon} = \frac{F/A}{\Delta L/L} = \frac{FL}{A\,\Delta L}}$$
 
-Young's modulus is a measure of **stiffness** — the resistance of a material to elastic deformation
+Young's modulus is a measure of **stiffness**, the resistance of a material to elastic deformation
 Under tensile loading. It has units of Pa (same as stress, since strain is dimensionless).
 
 ### Typical Values
@@ -139,7 +139,7 @@ A standard experiment uses a wire clamped at one end with masses hung from the o
 4. Plot a graph of force $F = mg$ against extension $\Delta L$.
 5. The gradient is $k = F/\Delta L$. Then $E = kL/A = \frac{FL}{A\,\Delta L}$.
 
-Alternatively, plot stress against strain — the gradient is $E$ directly.
+Alternatively, plot stress against strain, the gradient is $E$ directly.
 
 <details>
 <summary>Worked Example</summary>
@@ -155,7 +155,7 @@ $\varepsilon = \Delta L/L = 1.2 \times 10^{-3} / 2.0 = 6.0 \times 10^{-4}$.
 $E = \sigma/\varepsilon = 2.55 \times 10^8 / 6.0 \times 10^{-4} = 4.25 \times 10^{11}$ Pa $= 425$
 GPa.
 
-(This is somewhat high for steel; typical values are 180–210 GPa — the discrepancy may indicate the
+(This is somewhat high for steel; typical values are 180–210 GPa, the discrepancy may indicate the
 Wire has exceeded its limit of proportionality.)
 
 </details>
@@ -175,7 +175,7 @@ Define $\sigma = F/A$, $\varepsilon = \Delta x/L$:
 $$\frac{\sigma}{\varepsilon} = \frac{kL}{A} = E$$
 
 Since $k$, $L$ And $A$ are all constants for a given sample (within the proportional limit), $E$ is A
-constant of the material — it does not depend on the dimensions of the sample. $\square$
+constant of the material, it does not depend on the dimensions of the sample. $\square$
 
 ## 4. Stress-Strain Graphs
 
@@ -302,7 +302,7 @@ Lattice) to move under stress. This is the basis of plastic deformation in metal
 | Applications | Bottles, pipes          | Tyres, elastic bands      |
 
 Polymers consist of long-chain molecules. In rubber, the chains are tangled and uncoiled when
-Stretched — this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
+Stretched, this is why it can undergo large elastic strains. In thermoplastics like polyethylene,
 The chains can slide past each other, leading to plastic deformation.
 
 ### Ceramics
@@ -327,11 +327,11 @@ Superior to either component alone.
 
 Examples:
 
-- **Fibreglass**: glass fibres embedded in a polymer matrix — combines the strength of glass with
+- **Fibreglass**: glass fibres embedded in a polymer matrix, combines the strength of glass with
   the toughness of polymers.
-- **Carbon fibre reinforced polymer (CFRP)**: carbon fibres in epoxy resin — extremely high
+- **Carbon fibre reinforced polymer (CFRP)**: carbon fibres in epoxy resin, extremely high
   strength-to-weight ratio, used in aircraft and Formula 1.
-- **Reinforced concrete**: steel bars in concrete — steel provides tensile strength; concrete
+- **Reinforced concrete**: steel bars in concrete, steel provides tensile strength; concrete
   provides compressive strength and protects steel from corrosion.
 - **Wood**: a natural composite of cellulose fibres (strong in tension) in a lignin matrix (provides
   rigidity).
@@ -354,18 +354,18 @@ Examples:
 ## 8. Loading, Unloading, and Hysteresis
 
 When a material is loaded and then unloaded within the elastic region, the loading and unloading
-Curves coincide — all stored energy is recovered.
+Curves coincide, all stored energy is recovered.
 
 When a material is loaded beyond the elastic limit and then unloaded:
 
 - The unloading curve is parallel to the original linear region (gradient $= E$)
-- The material does not return to its original length — there is a **permanent extension**
+- The material does not return to its original length, there is a **permanent extension**
 - The area between the loading and unloading curves represents the **energy dissipated** (converted
   to heat due to internal friction)
 
 **Hysteresis** is the lag between the loading and unloading curves. It is particularly important for
 Rubber and viscoelastic materials. In a rubber band, the energy dissipated per cycle is the area of
-The hysteresis loop — this is why a stretched rubber band feels warm when released.
+The hysteresis loop, this is why a stretched rubber band feels warm when released.
 
 ## 9. Fatigue and Creep
 

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Atomic and Nuclear Physics — Diagnostic Tests
+## Atomic and Nuclear Physics, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**An atom is like a solar system with rules — electrons orbit the nucleus at specific distances, like planets locked into fixed tracks:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy
+**An atom is like a solar system with rules, electrons orbit the nucleus at specific distances, like planets locked into fixed tracks:** Quantum mechanics shows that at the smallest scales, nature operates in discrete chunks rather than continuously, fundamentally changing how we understand matter and energy
 
 **Why it matters:** Understanding atomic structure explains everything from why elements have unique spectral colors to how nuclear energy and medical imaging work
 
@@ -38,7 +38,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: Bohr Model — Limitations and Quantisation
+### UT-1: Bohr Model, Limitations and Quantisation
 
 **Question:**
 
@@ -191,7 +191,7 @@ as "pure energy."
 }
 </script>
 
-### UT-3: Radioactive Decay — Statistical Nature of Half-Life
+### UT-3: Radioactive Decay, Statistical Nature of Half-Life
 
 **Question:**
 
@@ -295,7 +295,7 @@ to useful electricity, but the fuel consumption rate depends on the total therma
 }
 </script>
 
-### IT-2: Alpha, Beta, and Gamma — Identification and Properties (with Electric and Magnetic Fields)
+### IT-2: Alpha, Beta, and Gamma, Identification and Properties (with Electric and Magnetic Fields)
 
 **Question:**
 
@@ -436,7 +436,7 @@ The dating calculation is therefore unaffected by the burial temperature.
 
 **Confusing mass number with atomic mass:** Mass number is the count of protons + neutrons (integer). Atomic mass is the actual mass in u (not necessarily integer). Don't round atomic mass to get mass number.
 
-**Mixing up binding energy with binding energy per nucleon:** Total binding energy is the energy to disassemble the nucleus. Binding energy per nucleon is total divided by nucleon count — this is what determines stability.
+**Mixing up binding energy with binding energy per nucleon:** Total binding energy is the energy to disassemble the nucleus. Binding energy per nucleon is total divided by nucleon count, this is what determines stability.
 
 ## Cross-References
 

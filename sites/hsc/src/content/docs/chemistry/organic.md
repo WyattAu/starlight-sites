@@ -188,7 +188,7 @@ Organic chemistry is the basis of pharmaceuticals, plastics, food science, and b
 
 1. When naming compounds, always identify the longest chain containing the functional group
 2. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
-3. Esterification is reversible — use excess reagent or remove water to drive equilibrium
+3. Esterification is reversible, use excess reagent or remove water to drive equilibrium
 4. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
 
 ## More Worked Examples
@@ -252,11 +252,11 @@ Step 4: The number of monomers $n$ in the polymer chain is the degree of polymer
 
 ## Intuition
 
-**Organic chemistry is about carbon's unique bonding:** Carbon forms four covalent bonds and can chain with other carbons indefinitely. This creates an enormous variety of molecules — from simple methane (CH₄) to complex proteins. The functional groups attached to the carbon backbone determine how the molecule behaves chemically.
+**Organic chemistry is about carbon's unique bonding:** Carbon forms four covalent bonds and can chain with other carbons indefinitely. This creates an enormous variety of molecules, from simple methane (CH₄) to complex proteins. The functional groups attached to the carbon backbone determine how the molecule behaves chemically.
 
 **Why it matters:** Organic chemistry is the foundation of biochemistry, pharmaceuticals, and materials science. Understanding reaction mechanisms (SN1/SN2, addition, elimination) lets you predict products and design synthesis routes for new molecules.
 
-**The key insight:** The structure of a molecule determines its reactivity — the same atoms arranged differently (isomers) can have completely different chemical properties.
+**The key insight:** The structure of a molecule determines its reactivity, the same atoms arranged differently (isomers) can have completely different chemical properties.
 
 ## Common Mistakes
 

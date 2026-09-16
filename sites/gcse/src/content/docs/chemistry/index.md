@@ -68,15 +68,15 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Topics Covered
 
-- **Atomic Structure** — atomic models over time, subatomic particles, electronic structure,
+- **Atomic Structure**, atomic models over time, subatomic particles, electronic structure,
   development of the periodic table, group and period trends
-- **Bonding** — ionic, covalent, and metallic bonding, dot-and-cross diagrams, intermolecular
+- **Bonding**, ionic, covalent, and metallic bonding, dot-and-cross diagrams, intermolecular
   forces, states of matter, nanoparticles
-- **Quantitative Chemistry** — relative atomic mass, moles, balancing equations, reacting masses,
+- **Quantitative Chemistry**, relative atomic mass, moles, balancing equations, reacting masses,
   yield, atom economy, concentration calculations
-- **Chemical Changes** — reactivity series, extraction of metals, oxidation and reduction, acids and
+- **Chemical Changes**, reactivity series, extraction of metals, oxidation and reduction, acids and
   bases, neutralisation, electrolysis
-- **Organic Chemistry** — alkanes, alkenes, alcohols, carboxylic acids, esters, polymerisation,
+- **Organic Chemistry**, alkanes, alkenes, alcohols, carboxylic acids, esters, polymerisation,
   combustion, cracking, natural polymers
 
 ## How to Use These Notes
@@ -88,7 +88,7 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Study Tips
 
-- Practise mole calculations until they are automatic — they underpin quantitative chemistry,
+- Practise mole calculations until they are automatic, they underpin quantitative chemistry,
   concentration, and titration questions
 - Learn the required practical methods and common errors; examiners test your understanding of
   experimental technique and safety
@@ -97,13 +97,13 @@ mapped to the national curriculum and organised by topic for easy navigation.
 - Draw dot-and-cross diagrams on graph paper to keep them neat; examiners award marks for correct
   electron pairs and charges
 - Create summary tables to compare properties across groups and periods in the periodic table
-- Pay close attention to command words in questions — "describe" and "explain" require different
+- Pay close attention to command words in questions, "describe" and "explain" require different
   levels of detail
 - Review the mathematics of chemistry (significant figures, unit conversions, balancing equations)
   as calculation errors lose easy marks
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
-- Pay attention to the required practicals for your exam board — questions on methodology,
+- Pay attention to the required practicals for your exam board, questions on methodology,
   variables, and evaluating results appear every year
 
 ## Summary

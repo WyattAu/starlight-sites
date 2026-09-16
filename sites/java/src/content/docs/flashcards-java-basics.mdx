@@ -18,11 +18,11 @@ import { flashcardData } from '@/data/flashcards/java/flashcards-java-basics-dat
 
 ## Intuition
 
-Java is "write once, run anywhere" — code compiles to bytecode that runs on the Java Virtual Machine (JVM), abstracting away the underlying OS. The JVM handles memory management through garbage collection, so you don't manually allocate/free memory like in C. Java's type system is statically typed (types checked at compile time) with single inheritance of classes but multiple inheritance of interfaces, balancing safety with flexibility.
+Java is "write once, run anywhere", code compiles to bytecode that runs on the Java Virtual Machine (JVM), abstracting away the underlying OS. The JVM handles memory management through garbage collection, so you don't manually allocate/free memory like in C. Java's type system is statically typed (types checked at compile time) with single inheritance of classes but multiple inheritance of interfaces, balancing safety with flexibility.
 
 ## How to Use These Flashcards
 
-**First pass:** Go through all 20 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+**First pass:** Go through all 20 cards without rating, just flip and read. This familiarises you with the content and identifies weak areas.
 
 **Rating system:** 1 = could not recall, 2 = recalled with difficulty, 3 = recalled correctly, 4 = instant recall. The spaced repetition algorithm shows cards rated 1-2 more frequently.
 
@@ -30,9 +30,9 @@ Java is "write once, run anywhere" — code compiles to bytecode that runs on th
 
 **Common Pitfalls**
 
-- **NullPointerException**: Java's most infamous runtime error — calling a method on a null reference crashes the program. Always use Optional or null checks.
-- **String immutability**: Strings in Java are immutable — concatenating strings in a loop creates many temporary objects. Use StringBuilder for performance-critical string operations.
-- **Integer caching**: Java caches Integer objects from -128 to 127 — comparing cached integers with == works, but larger values require .equals(), leading to subtle bugs.
+- **NullPointerException**: Java's most infamous runtime error, calling a method on a null reference crashes the program. Always use Optional or null checks.
+- **String immutability**: Strings in Java are immutable, concatenating strings in a loop creates many temporary objects. Use StringBuilder for performance-critical string operations.
+- **Integer caching**: Java caches Integer objects from -128 to 127, comparing cached integers with == works, but larger values require .equals(), leading to subtle bugs.
 - **Classpath issues**: Forgetting to include dependencies on the classpath causes `ClassNotFoundException` at runtime. Always verify classpath configuration before running.
 - **Thread safety with collections**: Using `ArrayList` or `HashMap` from multiple threads without synchronisation causes `ConcurrentModificationException`. Use `Collections.synchronizedList` or `ConcurrentHashMap` for thread-safe access.
 

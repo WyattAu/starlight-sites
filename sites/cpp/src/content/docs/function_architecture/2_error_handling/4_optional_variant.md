@@ -1,6 +1,6 @@
 ---
 
-title: Algebraic Error Handling — std::optional and std::variant
+title: Algebraic Error Handling, std::optional and std::variant
 description: "and are stack-allocated, type-safe alternatives to exceptions for Representing values that may be absent or that may hold one of several alternative types."
 date: 2026-04-03T00:00:00.000Z
 tags:
@@ -204,7 +204,7 @@ int main() {
 ## See Also
 
 - [The noexcept Specifier](3_noexcept)
-- [Monadic Error Handling — std::expected](5_expected)
+- [Monadic Error Handling, std::expected](5_expected)
 
 ## 4.5 `std::optional` API Deep Dive
 
@@ -237,7 +237,7 @@ int main() {
         std::cout << "timeout: " << cfg->timeout << "\n";
     }
 
-    // value() — throws std::bad_optional_access if empty
+    // value(), throws std::bad_optional_access if empty
     try {
         auto empty = std::optional<int>{};
         (void)empty.value();  // throws
@@ -245,33 +245,33 @@ int main() {
         std::cout << "bad_optional_access: " << e.what() << "\n";
     }
 
-    // value_or() — returns default if empty
+    // value_or(), returns default if empty
     auto cfg2 = load_config("");
     std::cout << "name: " << cfg2.value_or(Config{"fallback", 10}).name << "\n";
 
-    // emplace() — destroys existing value, constructs new one in place
+    // emplace(), destroys existing value, constructs new one in place
     std::optional<std::string> label{"hello"};
     label.emplace("world");
     assert(label.value() == "world");
 
-    // reset() — destroys the value, makes optional empty
+    // reset(), destroys the value, makes optional empty
     label.reset();
     assert(!label.has_value());
 
-    // transform() (C++23) — maps the value if present
+    // transform() (C++23), maps the value if present
     std::optional<int> len = cfg.transform([](const Config& c) {
         return static_cast<int>(c.name.size());
     });
     if (len) std::cout << "name length: " << *len << "\n";
 
-    // and_then() (C++23) — monadic bind
+    // and_then() (C++23), monadic bind
     auto timeout = cfg.and_then([](const Config& c) -> std::optional<int> {
         if (c.timeout > 0) return c.timeout;
         return std::nullopt;
     });
     if (timeout) std::cout << "timeout: " << *timeout << "\n";
 
-    // or_else() (C++23) — fallback chain
+    // or_else() (C++23), fallback chain
     auto result = load_config("")
         .or_else([] { return load_config("~/.app/config"); })
         .or_else([] { return load_config("/etc/default"); });
@@ -358,16 +358,16 @@ using Value = std::variant<int, double, std::string>;
 int main() {
     Value v = std::string{"hello"};
 
-    // std::get<T> — throws std::bad_variant_access if wrong type
+    // std::get<T>, throws std::bad_variant_access if wrong type
     try {
         auto s = std::get<std::string>(v);  // OK
         std::cout << "std::get: " << s << "\n";
-        auto n = std::get<int>(v);  // throws — v holds string, not int
+        auto n = std::get<int>(v);  // throws, v holds string, not int
     } catch (const std::bad_variant_access& e) {
         std::cout << "bad_variant_access\n";
     }
 
-    // std::get_if<T> — returns pointer, nullptr if wrong type
+    // std::get_if<T>, returns pointer, nullptr if wrong type
     if (auto* p = std::get_if<double>(&v)) {
         std::cout << "double: " << *p << "\n";
     } else {
@@ -378,11 +378,11 @@ int main() {
         std::cout << "string: " << *p << "\n";
     }
 
-    // std::holds_alternative<T> — type check without accessing
+    // std::holds_alternative<T>, type check without accessing
     std::cout << "holds int? " << std::holds_alternative<int>(v) << "\n";
     std::cout << "holds string? " << std::holds_alternative<std::string>(v) << "\n";
 
-    // index() — returns the index of the active alternative
+    // index(), returns the index of the active alternative
     std::cout << "index: " << v.index() << "\n";  // 2 (string is index 2)
 }
 ```
@@ -607,11 +607,11 @@ int main() {
 
 ## Intuition
 
-**Alternative return values:** std::optional is like a box that might be empty — it represents a value that might not exist. std::variant is like a tagged union — it holds exactly one of several types.
+**Alternative return values:** std::optional is like a box that might be empty, it represents a value that might not exist. std::variant is like a tagged union, it holds exactly one of several types.
 
 **Why it matters:** These types make error handling explicit and type-safe, avoiding null pointer errors and union-related undefined behavior.
 
-**The key insight:** std::optional eliminates the need for sentinel values — instead of returning -1 for "not found," return an empty optional.
+**The key insight:** std::optional eliminates the need for sentinel values, instead of returning -1 for "not found," return an empty optional.
 
 ## Common Pitfalls
 
@@ -641,7 +641,7 @@ flowchart TD
 
 ## Summary
 
-This topic covers the mathematical techniques and concepts related to algebraic error handling —
+This topic covers the mathematical techniques and concepts related to algebraic error handling,
 std::optional and std::variant, including key theorems, methods, and problem-solving approaches.
 
 **Key concepts include:**

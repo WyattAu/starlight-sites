@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Rust is a systems programming language that guarantees memory safety without garbage collection. Its ownership system, lifetimes, and borrow checker prevent entire classes of bugs — null pointer dereferences, dangling pointers, data races, and buffer overflows — at compile time. This safety comes with a steep learning curve, but the result is code that is both correct and fast.
+Rust is a systems programming language that guarantees memory safety without garbage collection. Its ownership system, lifetimes, and borrow checker prevent entire classes of bugs, null pointer dereferences, dangling pointers, data races, and buffer overflows, at compile time. This safety comes with a steep learning curve, but the result is code that is both correct and fast.
 
 This hub page maps every resource on this site. The learning path takes you from Rust's core ownership model through traits, async programming, and systems programming, building a thorough understanding of how Rust works and how to write idiomatic, safe code.
 
@@ -79,59 +79,59 @@ Ownership is Rust's most distinctive feature. Every value has exactly one owner.
 
 ### Topic Notes
 
-- [Ownership Basics](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) — move semantics, Copy trait, and Clone trait
-- [References and Borrowing](../../../../tools/src/content/docs/git/02-fundamentals/03-references) — shared references, mutable references, and the borrow checker
-- [Ownership Transfer](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership) — function parameters, return values, and move vs copy
-- [Slice References](../../../../tools/src/content/docs/git/02-fundamentals/03-references) — string slices, array slices, and the &str type
+- [Ownership Basics](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership), move semantics, Copy trait, and Clone trait
+- [References and Borrowing](../../../../tools/src/content/docs/git/02-fundamentals/03-references), shared references, mutable references, and the borrow checker
+- [Ownership Transfer](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership), function parameters, return values, and move vs copy
+- [Slice References](../../../../tools/src/content/docs/git/02-fundamentals/03-references), string slices, array slices, and the &str type
 
 ### Key Concepts
 
-**Move semantics** — When you assign a value to another variable or pass it to a function, the original variable is invalidated. The value is moved, not copied. This ensures each value has exactly one owner at a time, preventing double-free bugs.
+**Move semantics**, When you assign a value to another variable or pass it to a function, the original variable is invalidated. The value is moved, not copied. This ensures each value has exactly one owner at a time, preventing double-free bugs.
 
-**The borrow checker** enforces two rules: you can have either one mutable reference or any number of immutable references to a value at any given time. This prevents data races at compile time. References must always be valid — the compiler tracks lifetimes to ensure references do not outlive the data they point to.
+**The borrow checker** enforces two rules: you can have either one mutable reference or any number of immutable references to a value at any given time. This prevents data races at compile time. References must always be valid, the compiler tracks lifetimes to ensure references do not outlive the data they point to.
 
-**Copy vs Clone** — Types that implement `Copy` are bitwise-copied on assignment (integers, booleans, floating-point). Types that implement `Clone` can be explicitly duplicated with `.clone()`. Most types implement `Clone` but not `Copy` because cloning heap-allocated data is expensive.
+**Copy vs Clone**, Types that implement `Copy` are bitwise-copied on assignment (integers, booleans, floating-point). Types that implement `Clone` can be explicitly duplicated with `.clone()`. Most types implement `Clone` but not `Copy` because cloning heap-allocated data is expensive.
 
 ---
 
 ## Lifetimes
 
-Lifetimes are Rust's way of tracking reference validity. Every reference has a lifetime — the scope for which it is valid. The compiler infers lifetimes in most cases, but sometimes you need to annotate them explicitly.
+Lifetimes are Rust's way of tracking reference validity. Every reference has a lifetime, the scope for which it is valid. The compiler infers lifetimes in most cases, but sometimes you need to annotate them explicitly.
 
 ### Topic Notes
 
-- [Lifetime Basics](03-lifetimes/01-lifetime-basics) — lifetime elision rules, function signatures, and the 'static lifetime
-- [Struct Lifetimes](../../../../languages/src/content/docs/rust/02-ownership-borrowing/lifetimes) — storing references in structs and the need for lifetime annotations
-- [Lifetime Bounds and Traits](03-lifetimes/03-lifetime-bounds-and-traits) — where clauses, lifetime bounds, and the relationship between lifetimes and generics
+- [Lifetime Basics](03-lifetimes/01-lifetime-basics), lifetime elision rules, function signatures, and the 'static lifetime
+- [Struct Lifetimes](../../../../languages/src/content/docs/rust/02-ownership-borrowing/lifetimes), storing references in structs and the need for lifetime annotations
+- [Lifetime Bounds and Traits](03-lifetimes/03-lifetime-bounds-and-traits), where clauses, lifetime bounds, and the relationship between lifetimes and generics
 
 ### Key Concepts
 
-**Lifetime elision** — The compiler applies rules to infer lifetimes in function signatures. Each input reference gets its own lifetime. If there is exactly one input lifetime, it is assigned to all output lifetimes. If there are multiple input lifetimes and one is `&self` or `&mut self`, the self lifetime is assigned to outputs.
+**Lifetime elision**, The compiler applies rules to infer lifetimes in function signatures. Each input reference gets its own lifetime. If there is exactly one input lifetime, it is assigned to all output lifetimes. If there are multiple input lifetimes and one is `&self` or `&mut self`, the self lifetime is assigned to outputs.
 
-**The `'static` lifetime** means the reference lives for the entire program. String literals have `'static` lifetimes because they are embedded in the binary. Do not use `'static` as a workaround for lifetime issues — understand what the lifetime is actually expressing.
+**The `'static` lifetime** means the reference lives for the entire program. String literals have `'static` lifetimes because they are embedded in the binary. Do not use `'static` as a workaround for lifetime issues, understand what the lifetime is actually expressing.
 
-**Lifetime annotations** (`'a`) describe relationships between references without changing the actual lifetime. A function `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str` says the return value's lifetime is tied to both inputs — it lives as long as the shorter of the two.
+**Lifetime annotations** (`'a`) describe relationships between references without changing the actual lifetime. A function `fn longest<'a>(x: &'a str, y: &'a str) -> &'a str` says the return value's lifetime is tied to both inputs, it lives as long as the shorter of the two.
 
 ---
 
 ## Types and Data Structures
 
-Rust has a rich type system with structs, enums, tuples, arrays, vectors, and hash maps. Enums are algebraic data types — each variant can hold data, making them powerful for modeling state machines and recursive data structures.
+Rust has a rich type system with structs, enums, tuples, arrays, vectors, and hash maps. Enums are algebraic data types, each variant can hold data, making them powerful for modeling state machines and recursive data structures.
 
 ### Topic Notes
 
-- [Structs](../../../../alevel/src/content/docs/computer-science/programming/01-programming-constructs) — field initialization, methods, associated functions, and tuple structs
-- [Enums and Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching) — enum variants, match expressions, and destructuring
-- [Collections](../../../../kotlin/src/content/docs/intermediate/collections) — Vec, HashMap, HashSet, and BTreeMap
-- [String Types](04-types/04-string-types) — String vs &str, UTF-8, and string manipulation
+- [Structs](../../../../alevel/src/content/docs/computer-science/programming/01-programming-constructs), field initialization, methods, associated functions, and tuple structs
+- [Enums and Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching), enum variants, match expressions, and destructuring
+- [Collections](../../../../kotlin/src/content/docs/intermediate/collections), Vec, HashMap, HashSet, and BTreeMap
+- [String Types](04-types/04-string-types), String vs &str, UTF-8, and string manipulation
 
 ### Key Concepts
 
 **Enums with data** are Rust's algebraic data types. An enum variant can hold values of different types: `enum Shape { Circle(f64), Rectangle(f64, f64), Triangle { base: f64, height: f64 } }`. This makes enums ideal for modeling domain states and recursive data structures like linked lists and trees.
 
-**Pattern matching** with `match` is exhaustive — the compiler ensures all variants are handled. Destructuring extracts data from enum variants and structs. Pattern matching is the primary way to handle conditional logic in Rust.
+**Pattern matching** with `match` is exhaustive, the compiler ensures all variants are handled. Destructuring extracts data from enum variants and structs. Pattern matching is the primary way to handle conditional logic in Rust.
 
-**String vs &str** — `String` is a heap-allocated, growable string that owns its data. `&str` is a string slice — a reference to a string stored elsewhere. Function parameters should take `&str` to accept both `String` and `&str` references.
+**String vs &str**, `String` is a heap-allocated, growable string that owns its data. `&str` is a string slice, a reference to a string stored elsewhere. Function parameters should take `&str` to accept both `String` and `&str` references.
 
 ---
 
@@ -141,38 +141,38 @@ Traits define shared behavior. A trait is a set of methods that a type can imple
 
 ### Topic Notes
 
-- [Trait Basics](05-traits/01-trait-basics) — defining traits, implementing traits, and the trait bound syntax
-- [Trait Objects](05-traits/02-trait-objects) — dynamic dispatch, the dyn keyword, and object safety
-- [Generics](../../../../kotlin/src/content/docs/intermediate/generics) — generic functions, structs, enums, and monomorphization
-- [Trait Features](05-traits/04-trait-features) — default methods, associated types, and operator overloading
-- [Common Traits](05-traits/05-common-traits) — Display, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash
+- [Trait Basics](05-traits/01-trait-basics), defining traits, implementing traits, and the trait bound syntax
+- [Trait Objects](05-traits/02-trait-objects), dynamic dispatch, the dyn keyword, and object safety
+- [Generics](../../../../kotlin/src/content/docs/intermediate/generics), generic functions, structs, enums, and monomorphization
+- [Trait Features](05-traits/04-trait-features), default methods, associated types, and operator overloading
+- [Common Traits](05-traits/05-common-traits), Display, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash
 
 ### Key Concepts
 
 **Trait bounds** constrain generics to types that implement specific traits. `fn print_all<T: Display>(items: &[T])` requires `T` to implement `Display`. Multiple bounds use `+`: `T: Display + Clone`. The `where` clause provides an alternative syntax for complex bounds.
 
-**Monomorphization** — Rust generates specialized code for each concrete type used with a generic function. This means generics have zero runtime cost — the compiler generates type-specific code at compile time. This is different from Java's type erasure.
+**Monomorphization**, Rust generates specialized code for each concrete type used with a generic function. This means generics have zero runtime cost, the compiler generates type-specific code at compile time. This is different from Java's type erasure.
 
-**Trait objects** (`dyn Trait`) enable dynamic dispatch — the method to call is determined at runtime using a vtable. Trait objects have a small runtime cost but enable heterogeneous collections: `Vec<Box<dyn Shape>>`. Not all traits are object-safe.
+**Trait objects** (`dyn Trait`) enable dynamic dispatch, the method to call is determined at runtime using a vtable. Trait objects have a small runtime cost but enable heterogeneous collections: `Vec<Box<dyn Shape>>`. Not all traits are object-safe.
 
 ---
 
 ## Error Handling
 
-Rust handles errors with `Result<T, E>` and `Option<T>` — no exceptions. `Result` represents success (`Ok`) or failure (`Err`). `Option` represents presence (`Some`) or absence (`None`). The `?` operator propagates errors concisely.
+Rust handles errors with `Result<T, E>` and `Option<T>`no exceptions. `Result` represents success (`Ok`) or failure (`Err`). `Option` represents presence (`Some`) or absence (`None`). The `?` operator propagates errors concisely.
 
 ### Topic Notes
 
-- [Result and Option](06-errors/01-result-and-option) — creating, pattern matching, and unwrapping
-- [The ? Operator](06-errors/02-question-mark-operator) — error propagation, the From trait, and ergonomic error handling
-- [Custom Error Types](06-errors/03-custom-error-types) — defining error types, the thiserror and anyhow crates
-- [Error Handling Patterns](../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns) — when to use unwrap, expect, and how to design error types
+- [Result and Option](06-errors/01-result-and-option), creating, pattern matching, and unwrapping
+- [The ? Operator](06-errors/02-question-mark-operator), error propagation, the From trait, and ergonomic error handling
+- [Custom Error Types](06-errors/03-custom-error-types), defining error types, the thiserror and anyhow crates
+- [Error Handling Patterns](../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns), when to use unwrap, expect, and how to design error types
 
 ### Key Concepts
 
 **Result<T, E>** is the core error type. `Ok(value)` represents success. `Err(error)` represents failure. Functions that can fail return `Result`, and the caller must handle both cases. The `?` operator short-circuits on error, propagating it up the call stack.
 
-**Option<T>** represents an optional value. `Some(value)` means the value is present. `None` means it is absent. Option replaces null in other languages. The `?` operator works with Option too — it returns `None` early if the value is absent.
+**Option<T>** represents an optional value. `Some(value)` means the value is present. `None` means it is absent. Option replaces null in other languages. The `?` operator works with Option too, it returns `None` early if the value is absent.
 
 **The `?` operator** is syntactic sugar for error propagation. `file.read_to_string(&mut content)?` returns early with the error if the read fails. The `From` trait enables automatic error conversion, so you can use `?` across different error types.
 
@@ -184,35 +184,35 @@ Rust's async/await provides asynchronous programming with zero-cost abstractions
 
 ### Topic Notes
 
-- [Async Basics](07-async/01-async-basics) — async fn, .await, and the Future trait
-- [Async Runtime](07-async/02-async-runtime) — Tokio, async-std, and the executor model
-- [Streams and Async Traits](07-async/03-streams-and-async-traits) — Stream trait, async streams, and async in traits
-- [Concurrency Patterns](../../../../java/src/content/docs/06-concurrency/01-concurrency) — tokio::spawn, join!, select!, and channels
+- [Async Basics](07-async/01-async-basics), async fn.await, and the Future trait
+- [Async Runtime](07-async/02-async-runtime), Tokio, async-std, and the executor model
+- [Streams and Async Traits](07-async/03-streams-and-async-traits), Stream trait, async streams, and async in traits
+- [Concurrency Patterns](../../../../java/src/content/docs/06-concurrency/01-concurrency), tokio::spawn, join!, select!, and channels
 
 ### Key Concepts
 
-**Futures** in Rust are lazy — they do nothing until polled. The `.await` keyword suspends execution until the future completes. The compiler transforms async functions into state machines that implement the `Future` trait.
+**Futures** in Rust are lazy, they do nothing until polled. The `.await` keyword suspends execution until the future completes. The compiler transforms async functions into state machines that implement the `Future` trait.
 
 **Tokio** is the most widely used async runtime. It provides a multi-threaded executor, timers, I/O primitives, and channels. `tokio::spawn` launches a task on the runtime. `tokio::select!` races multiple futures.
 
-**Zero-cost abstractions** — Rust's async/await compiles to efficient state machines with no heap allocation or virtual dispatch. The overhead is comparable to hand-written state machines, making async Rust competitive with synchronous code in performance.
+**Zero-cost abstractions**, Rust's async/await compiles to efficient state machines with no heap allocation or virtual dispatch. The overhead is comparable to hand-written state machines, making async Rust competitive with synchronous code in performance.
 
 ---
 
 ## Systems Programming
 
-Rust is designed for systems programming — operating systems, device drivers, embedded systems, and performance-critical applications. Its lack of garbage collection, fine-grained memory control, and FFI capabilities make it suitable for low-level programming.
+Rust is designed for systems programming, operating systems, device drivers, embedded systems, and performance-critical applications. Its lack of garbage collection, fine-grained memory control, and FFI capabilities make it suitable for low-level programming.
 
 ### Topic Notes
 
-- [Unsafe Rust](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust) — unsafe blocks, raw pointers, and when to use unsafe
-- [FFI and Interop](08-systems/02-ffi-and-interop) — extern "C", bindgen, and calling C from Rust
-- [Memory Layout](08-systems/03-memory-layout) — repr, alignment, padding, and size
-- [Embedded and No-std](08-systems/04-embedded-and-no-std) — no_std, embedded Rust, and bare-metal programming
+- [Unsafe Rust](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust), unsafe blocks, raw pointers, and when to use unsafe
+- [FFI and Interop](08-systems/02-ffi-and-interop), extern "C", bindgen, and calling C from Rust
+- [Memory Layout](08-systems/03-memory-layout), repr, alignment, padding, and size
+- [Embedded and No-std](08-systems/04-embedded-and-no-std), no_std, embedded Rust, and bare-metal programming
 
 ### Key Concepts
 
-**Unsafe Rust** enables operations the borrow checker cannot verify: dereferencing raw pointers, calling unsafe functions, accessing mutable static variables, and implementing unsafe traits. Unsafe blocks do not disable the borrow checker — they add capabilities the compiler cannot verify.
+**Unsafe Rust** enables operations the borrow checker cannot verify: dereferencing raw pointers, calling unsafe functions, accessing mutable static variables, and implementing unsafe traits. Unsafe blocks do not disable the borrow checker, they add capabilities the compiler cannot verify.
 
 **FFI (Foreign Function Interface)** enables Rust to call C code and vice versa. `extern "C"` declares functions with C calling conventions. `bindgen` auto-generates Rust bindings from C headers. This enables gradual migration of C codebases to Rust.
 
@@ -234,7 +234,7 @@ Rust has a steep learning curve. The ownership system requires a mental shift fr
 
 - Master structs, enums, and pattern matching
 - Learn traits, generics, and trait bounds
-- Study the common traits — Display, Debug, Clone, PartialEq
+- Study the common traits, Display, Debug, Clone, PartialEq
 
 ### Stage 3: Error Handling and Lifetimes (Weeks 9–12)
 
@@ -246,7 +246,7 @@ Rust has a steep learning curve. The ownership system requires a mental shift fr
 
 - Learn async/await and the Tokio runtime
 - Study unsafe Rust and FFI
-- Build a real systems project — CLI tool, web server, or embedded application
+- Build a real systems project, CLI tool, web server, or embedded application
 
 ---
 
@@ -254,11 +254,11 @@ Rust has a steep learning curve. The ownership system requires a mental shift fr
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[C++ Programming Guide](https://cpp.wyattau.com/hub)** — if you are comparing Rust with another systems language
-- **[Go Programming Guide](https://go.wyattau.com/hub)** — Go and Rust serve different niches in systems and backend programming
-- **[Python Programming Guide](https://python.wyattau.com/hub)** — if you are comparing Rust with a high-level language
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Rust
-- **[Networking Guide](https://networking.wyattau.com/hub)** — relevant for building networked Rust applications
+- **[C++ Programming Guide](https://cpp.wyattau.com/hub)**, if you are comparing Rust with another systems language
+- **[Go Programming Guide](https://go.wyattau.com/hub)**, Go and Rust serve different niches in systems and backend programming
+- **[Python Programming Guide](https://python.wyattau.com/hub)**, if you are comparing Rust with a high-level language
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Rust
+- **[Networking Guide](https://networking.wyattau.com/hub)**, relevant for building networked Rust applications
 
 ---
 
@@ -266,7 +266,7 @@ Wyatt's Notes is a network of interconnected programming and study sites:
 
 ### How long does it take to learn Rust?
 
-Rust has the steepest learning curve of any mainstream language. Basic competence — writing programs that compile — takes 2–3 months. The ownership system requires a mental shift. Professional competence — writing idiomatic Rust with lifetimes, traits, and async — takes 6–12 months. The learning curve flattens significantly once ownership clicks.
+Rust has the steepest learning curve of any mainstream language. Basic competence, writing programs that compile, takes 2–3 months. The ownership system requires a mental shift. Professional competence, writing idiomatic Rust with lifetimes, traits, and async, takes 6–12 months. The learning curve flattens significantly once ownership clicks.
 
 ### What is the borrow checker?
 
@@ -282,7 +282,7 @@ Yes. Frameworks like Axum, Actix, and Rocket provide productive web development 
 
 ### What is the difference between String and &str?
 
-`String` is a heap-allocated, growable string that owns its data. `&str` is a string slice — a reference to a string stored elsewhere. Function parameters should take `&str` to accept both `String` and `&str`. Use `String` when you need to own and modify the string.
+`String` is a heap-allocated, growable string that owns its data. `&str` is a string slice, a reference to a string stored elsewhere. Function parameters should take `&str` to accept both `String` and `&str`. Use `String` when you need to own and modify the string.
 
 ### Do I need to use unsafe Rust?
 

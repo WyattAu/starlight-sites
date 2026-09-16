@@ -1,5 +1,5 @@
 ---
-title: "Hardware Tuning Glossary — Key Terms"
+title: "Hardware Tuning Glossary, Key Terms"
 description: "Performance tuning terminology: overclocking, undervolting, memory timings, thermal throttling, boost algorithms, and stability-testing concepts for CPUs, GPUs, and RAM."
 date: 2026-07-24
 tags: [glossary]
@@ -9,7 +9,7 @@ tags: [glossary]
 
 **Overclocking**: Running a component above its stock clock speed for more performance, at the cost of power and heat.
 
-**Undervolting**: Reducing voltage while holding frequency — lower heat and power with the same performance, or headroom for higher boosts.
+**Undervolting**: Reducing voltage while holding frequency, lower heat and power with the same performance, or headroom for higher boosts.
 
 **PBO (Precision Boost Overdrive)**: AMD's firmware framework letting the CPU exceed stock power and current limits within platform safety bounds.
 
@@ -23,7 +23,7 @@ tags: [glossary]
 
 ## Memory Tuning
 
-**Frequency and Timings**: RAM speed (MT/s) and latency (CL, tRCD, tRP, tRAS). Real-world latency blends both — infinity-fabric sync on Ryzen matters as much as raw MT/s.
+**Frequency and Timings**: RAM speed (MT/s) and latency (CL, tRCD, tRP, tRAS). Real-world latency blends both, infinity-fabric sync on Ryzen matters as much as raw MT/s.
 
 **XMP / EXPO**: Intel (XMP) and AMD (EXPO) memory profiles that apply validated frequency/timing/voltage sets with one toggle.
 
@@ -39,7 +39,7 @@ tags: [glossary]
 
 **Fan Curve**: User-defined mapping from temperature to fan duty cycle, balancing acoustics against sustained boost clocks.
 
-**Frame Time**: The time to render one frame. Stable frame times matter more than average FPS for perceived smoothness — spikes present as stutter.
+**Frame Time**: The time to render one frame. Stable frame times matter more than average FPS for perceived smoothness, spikes present as stutter.
 
 ## Cooling and Stress Testing
 
@@ -49,7 +49,7 @@ tags: [glossary]
 
 **Stability Testing**: Sustained stress workloads (Prime95, y-cruncher, FurMark, 3DMark) that expose instability faster than gaming loads.
 
-**WHEA Errors**: Windows Hardware Error Architecture events — corrected machine-check errors on Ryzen often signal marginal SoC voltage before crashes appear.
+**WHEA Errors**: Windows Hardware Error Architecture events, corrected machine-check errors on Ryzen often signal marginal SoC voltage before crashes appear.
 
 **Silicon Lottery**: Manufacturing variance; identical chips reach different maximum stable clocks at the same voltage.
 
@@ -65,7 +65,7 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 **VRM (Voltage Regulator Module)**: The motherboard circuitry converting PSU rails into clean Vcore. VRM thermals cap sustained overclocks on budget boards.
 
-**LLC (Load-Line Calibration)**: The board's compensation for Vdroop — the voltage sag when current demand spikes. Aggressive LLC keeps Vcore flat but risks transient overshoot.
+**LLC (Load-Line Calibration)**: The board's compensation for Vdroop, the voltage sag when current demand spikes. Aggressive LLC keeps Vcore flat but risks transient overshoot.
 
 **Vdroop**: Intentional output impedance in the VRM design that lets voltage sag under load, protecting against spikes.
 
@@ -73,13 +73,13 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 **Delidding**: Removing the CPU's integrated heat spreader to replace the factory thermal interface with liquid metal. High risk, modest gains on soldered parts.
 
-**Degradation**: Permanent loss of maximum stable frequency from sustained over-voltage and heat — the reason conservative daily voltages are advised.
+**Degradation**: Permanent loss of maximum stable frequency from sustained over-voltage and heat, the reason conservative daily voltages are advised.
 
 ## Memory Subsystem
 
 **IMC (Integrated Memory Controller)**: The memory controller on the CPU die. Its quality (IMC lottery) caps achievable memory frequencies.
 
-**tRFC**: Refresh cycle timing — the highest-impact CAS-adjacent timing on modern DDR4/DDR5, worth hundreds of cycles of tuning headroom.
+**tRFC**: Refresh cycle timing, the highest-impact CAS-adjacent timing on modern DDR4/DDR5, worth hundreds of cycles of tuning headroom.
 
 **Command Rate**: Delay between memory commands (1T vs 2T). 1T tightens latency but stresses the IMC.
 
@@ -91,7 +91,7 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 **Variance Run-to-Run**: Natural score scatter in benchmarks (often 1-3%); treat differences inside the noise band as no-change.
 
-**OCCT/Prime95 Small FFT**: Heat-vector stress loads that maximise die power density — the fastest way to find thermal instability.
+**OCCT/Prime95 Small FFT**: Heat-vector stress loads that maximise die power density, the fastest way to find thermal instability.
 
 **y-cruncher**: Memory- and cache-intensive stress workload, effective at exposing IMC and RAM instability that CPU loads miss.
 
@@ -100,19 +100,19 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 ## Bench and Monitoring Terms
 
-**HWiNFO**: The standard Windows sensor suite — per-core clocks, VRM temps, power draw, and bus utilisation with logging for correlation against stress runs.
+**HWiNFO**: The standard Windows sensor suite, per-core clocks, VRM temps, power draw, and bus utilisation with logging for correlation against stress runs.
 
 **Perf Counter (PMC)**: CPU performance-monitoring counters exposing cycles, retired instructions, cache misses, and branch misses; the ground truth beneath every tuning claim.
 
-**Telemetry Log**: A timestamped capture of clocks, voltages, and temperatures during a run — the artefact you compare against baseline to attribute a change.
+**Telemetry Log**: A timestamped capture of clocks, voltages, and temperatures during a run, the artefact you compare against baseline to attribute a change.
 
 **Score Normalisation**: Adjusting benchmark output for ambient temperature, background load, and driver version so runs are comparable across days.
 
 ## Cooling Physics
 
-**TDP (Thermal Design Power)**: The cooler-sizing figure — heat a cooling system must dissipate at nominal load; not the same as peak boost power draw.
+**TDP (Thermal Design Power)**: The cooler-sizing figure, heat a cooling system must dissipate at nominal load; not the same as peak boost power draw.
 
-**PPT/PL1/PL2**: Platform power limits — AMD's Package Power Tracking and Intel's sustained (PL1) versus burst (PL2) power windows that shape boost behaviour.
+**PPT/PL1/PL2**: Platform power limits, AMD's Package Power Tracking and Intel's sustained (PL1) versus burst (PL2) power windows that shape boost behaviour.
 
 **Tau**: Intel's time constant defining how long PL2 burst power is allowed before dropping to PL1.
 
@@ -120,7 +120,7 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 **Thermal Mass**: A system's resistance to rapid temperature change; larger radiators and blocks smooth transient loads.
 
-**Delta-T**: The temperature difference between coolant and ambient air — the true measure of cooling capacity, independent of room conditions.
+**Delta-T**: The temperature difference between coolant and ambient air, the true measure of cooling capacity, independent of room conditions.
 
 **Fan Static Pressure**: A fan's push against airflow restriction; radiators and dense fins need high-static-pressure fans, open cases need volume flow.
 
@@ -134,7 +134,7 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 **Hot Spot vs Edge Temp**: The die's internal junction temperature versus the measured edge sensor; a large delta signals mounting or paste problems.
 
-**VRAM Junction Temp**: GDDR6/6X memory temperature — often the true throttle trigger at high memory offsets, invisible on edge sensors.
+**VRAM Junction Temp**: GDDR6/6X memory temperature, often the true throttle trigger at high memory offsets, invisible on edge sensors.
 
 
 ## Tuning Workflow Reference
@@ -152,8 +152,8 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linu
 
 | Term | Meaning |
 |------|---------|
-| Vcore | CPU core voltage — the primary overclocking lever |
-| Vsoc/SA | System agent / uncore voltage — memory controller headroom |
+| Vcore | CPU core voltage, the primary overclocking lever |
+| Vsoc/SA | System agent / uncore voltage, memory controller headroom |
 | VDDG/VDDP | Infinity Fabric related voltages on AMD platforms |
 | DRAM Voltage | Memory module supply (1.35 V typical DDR4 XMP) |
 | Vtt/IMC termination | Bus termination voltage affecting stability margins |

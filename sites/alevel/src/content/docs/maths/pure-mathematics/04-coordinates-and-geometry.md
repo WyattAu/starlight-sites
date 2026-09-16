@@ -79,7 +79,7 @@ $\blacksquare$
 _Intuition (Similar Triangles)._ Imagine two right triangles formed by dropping perpendiculars from
 Any two pairs of points on the line to the $x$-axis. Both triangles share the angle that the line
 Makes with the horizontal. By AA similarity, the triangles are similar, so the ratio of vertical to
-Horizontal sides is constant — this ratio is the gradient.
+Horizontal sides is constant, this ratio is the gradient.
 
 ### 2.2 Equation of a Line
 
@@ -224,7 +224,7 @@ This quadratic has:
 - **No real roots** ($\Delta < 0$): the line does not intersect the circle. $\blacksquare$
 
 _Intuition._ A tangent touches the circle at exactly one point. Algebraically, "one point" means the
-Quadratic has a repeated root — the two intersection points have coalesced into one.
+Quadratic has a repeated root, the two intersection points have coalesced into one.
 
 ### 4.2 Equation of a Tangent to a Circle
 
@@ -570,11 +570,11 @@ $$
 
 $x = 0$ or $x = -1$.
 
-Wait — that gives two intersection points. Let me check: actually $2x^2 + 2x = 0$ gives $x = 0$ and
+Wait, that gives two intersection points. Let me check: actually $2x^2 + 2x = 0$ gives $x = 0$ and
 $x = -1$Which are two points $(0, 1)$ and $(-1, 0)$.
 
 So $y = x + 1$ is **not** tangent to $x^2 + y^2 = 1$. Let me reconsider the problem. Actually, this
-Line passes through two points on the circle — it is a secant, not a tangent.
+Line passes through two points on the circle, it is a secant, not a tangent.
 
 If the problem instead asked about $y = x + c$ being tangent:
 
@@ -700,7 +700,7 @@ $$x^2 - x^2 + 10x - 25 = 5 \implies 10x = 30 \implies x = 3$$
 
 So $PQ$ is the vertical line $x = 3$. The $y$-coordinates satisfy $9 + y^2 = 9 \implies y = 0$.
 
-Wait, $x = 3$ in $C_1$: $9 + y^2 = 9$ So $y = 0$. The circles intersect at a single point $(3, 0)$ —
+Wait, $x = 3$ in $C_1$: $9 + y^2 = 9$ So $y = 0$. The circles intersect at a single point $(3, 0)$,
 they are tangent to each other.
 
 So $PQ = 0$; the circles touch at exactly one point.
@@ -969,10 +969,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions) — Completing the square and factorisation are used to find centres and radii of circles.
-- [Equations and Inequalities](03-equations-and-inequalities) — Simultaneous equations and discriminant analysis determine intersections of lines and circles.
-- [Vectors](12-vectors) — The vector equation of a line and the dot product are applied in coordinate geometry proofs.
-- [Trigonometry](08-trigonometry) — Parametric equations of a circle use sine and cosine functions from trigonometry.
+- [Algebraic Expressions](01-algebraic-expressions), Completing the square and factorisation are used to find centres and radii of circles.
+- [Equations and Inequalities](03-equations-and-inequalities), Simultaneous equations and discriminant analysis determine intersections of lines and circles.
+- [Vectors](12-vectors), The vector equation of a line and the dot product are applied in coordinate geometry proofs.
+- [Trigonometry](08-trigonometry), Parametric equations of a circle use sine and cosine functions from trigonometry.
 
 
 ```mermaid

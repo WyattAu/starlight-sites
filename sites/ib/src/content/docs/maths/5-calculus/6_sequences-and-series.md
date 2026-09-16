@@ -1,7 +1,7 @@
 ---
 
 title: "Sequences and Series"
-description: "IB Mathematics — arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."
+description: "IB Mathematics, arithmetic and geometric sequences, sigma notation, Maclaurin and Taylor series, convergence, and the binomial theorem."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -601,7 +601,7 @@ Actual error: $|0.1823 - 0.18| = 0.0023$Which is within the bound.
 
 ## Intuition
 
-A sequence is a list of numbers marching toward a destination. Some sequences march steadily, like soldiers in step (arithmetic), while others multiply their stride at each step (geometric). The question is whether they converge — whether they settle on a value or wander off forever. The geometric series formula is the key that unlocks repeating decimals and infinite sums: 0.777... is just a geometric series with ratio one-tenth. Maclaurin series are a microscope for functions — they reveal that every smooth function is secretly an infinite polynomial. The more terms you include, the closer you zoom in on the true shape of the function near zero.
+A sequence is a list of numbers marching toward a destination. Some sequences march steadily, like soldiers in step (arithmetic), while others multiply their stride at each step (geometric). The question is whether they converge, whether they settle on a value or wander off forever. The geometric series formula is the key that unlocks repeating decimals and infinite sums: 0.777... is just a geometric series with ratio one-tenth. Maclaurin series are a microscope for functions, they reveal that every smooth function is secretly an infinite polynomial. The more terms you include, the closer you zoom in on the true shape of the function near zero.
 
 ## Common Pitfalls
 

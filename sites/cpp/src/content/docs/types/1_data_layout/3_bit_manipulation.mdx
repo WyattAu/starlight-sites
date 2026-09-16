@@ -134,7 +134,7 @@ static_assert(sizeof(Dense) == 8);
 static_assert(sizeof(Padded) == sizeof(Dense));
 
 // Both types have the same size and are trivially copyable
-auto d = std::bit_cast<Dense>(Padded\{.a = 1, .b = 42\});
+auto d = std::bit_cast<Dense>(Padded\{.a = 1.b = 42\});
 // d.pad1, d.pad2, d.pad3 contain whatever was in the padding of Padded
 ```
 
@@ -513,7 +513,7 @@ class BloomFilter \{
 public:
     BloomFilter(size_t expected_count, double fp_rate)
         : bits_((expected_count * static_cast<size_t>(-std::log2(fp_rate)) + 63) / 64, 0)
-        , num_hashes_(static_cast<size_t>(-std::log2(fp_rate)))
+num_hashes_(static_cast<size_t>(-std::log2(fp_rate)))
     \{\}
 
     void insert(std::string_view key) \{
@@ -546,7 +546,7 @@ int main() \{
 \}
 ```
 
-The core operation — setting and testing individual bits within a `uint64_t` array — relies on the
+The core operation, setting and testing individual bits within a `uint64_t` array, relies on the
 Shift (`&lt;&lt;`) and bitwise AND (`&amp;`) operations. The modulo operation for index calculation
 Is optimized by the compiler into a bitmask when the table size is a power of two.
 
@@ -598,11 +598,11 @@ static_assert(priv.is_private() == true);
 
 ## Intuition
 
-**Working with bits:** Bit manipulation is like working with switches — you can flip individual bits to represent flags, masks, and compact data structures.
+**Working with bits:** Bit manipulation is like working with switches, you can flip individual bits to represent flags, masks, and compact data structures.
 
 **Why it matters:** Bit manipulation enables efficient storage and fast operations, essential for systems programming and embedded systems.
 
-**The key insight:** Bitwise operations are constant-time — they're the fastest operations a CPU can perform.
+**The key insight:** Bitwise operations are constant-time, they're the fastest operations a CPU can perform.
 
 ## Common Pitfalls
 
@@ -632,7 +632,7 @@ uint32_t ok = val << 31;    // OK: shift amount < bit width
 
 ### 3. `std::bit_cast` Size Mismatch
 
-`std::bit_cast` is a compile-time error if the sizes differ. This is by design — it prevents
+`std::bit_cast` is a compile-time error if the sizes differ. This is by design, it prevents
 Accidental truncation or zero-extension. If you need to convert between different-sized types, use
 `memcpy` or explicit masking.
 

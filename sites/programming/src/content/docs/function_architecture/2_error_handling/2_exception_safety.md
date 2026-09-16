@@ -141,7 +141,7 @@ Needed).
 
 Destructors are implicitly `noexcept` in C++11 and later [N4950 §14.7.5.2]. If a destructor attempts
 To throw, `std::terminate` is called immediately. This is non-negotiable: during stack unwinding, if
-A second exception propagates while a first is already active, the runtime calls `std::terminate` —
+A second exception propagates while a first is already active, the runtime calls `std::terminate`
 There is no way to catch both.
 
 ```cpp
@@ -172,7 +172,7 @@ Suppress throws during unwinding.
 
 ## 2.2 Strong Guarantee (Transactional)
 
-The operation either **succeeds completely** or **has no observable effect** — the state of the
+The operation either **succeeds completely** or **has no observable effect**, the state of the
 Program is rolled back to before the operation began [N4950 §16.4.6.3].
 
 The canonical technique is **copy-and-swap**: perform all work on a copy, then atomically swap the
@@ -271,11 +271,11 @@ int main() {
 
 Copy-and-swap is clean but has a significant cost: every modifying operation allocates a complete
 Copy. For large data structures, this is unacceptable. Consider a database buffer managing 1 GB of
-In-memory data — copying on every insert would destroy performance.
+In-memory data, copying on every insert would destroy performance.
 
 In practice, many operations only provide the **basic guarantee** precisely because the strong
 Guarantee is prohibitively expensive. `std::vector::insert` at an arbitrary position provides the
-Strong guarantee [N4950 §23.3.11.4], but `std::sort` only provides the basic guarantee — it
+Strong guarantee [N4950 §23.3.11.4], but `std::sort` only provides the basic guarantee, it
 Rearranges elements in place, and if a comparator throws mid-sort, the container is valid but in an
 Unspecified permutation.
 
@@ -391,7 +391,7 @@ int main() {
 ### Class Invariants After Basic Guarantee
 
 "Valid state" means all class invariants hold. This does not mean the state is predictable or useful
-— only that you can call `begin()``end()``size()`And the destructor without causing undefined
+- only that you can call `begin()``end()``size()`And the destructor without causing undefined
 Behavior:
 
 ```cpp
@@ -503,7 +503,7 @@ Is a non-exhaustive mapping of commonly used operations:
 ### Why `std::unordered_map::insert` Is Only Basic
 
 Node-based containers like `std::map` provide the strong guarantee for insertion because each
-Element is allocated in its own node — if construction throws, the node is freed and the tree is
+Element is allocated in its own node, if construction throws, the node is freed and the tree is
 Untouched. But `std::unordered_map` must maintain its hash table, and if a rehash is triggered
 During insertion, the table must be rebuilt. If rehash allocation fails after some nodes have been
 Re-linked, the container is valid (no leaks, no dangling pointers) but elements may have been moved
@@ -515,11 +515,11 @@ Exception safety guarantees are like service level agreements for your code. The
 
 ## Intuition
 
-**Exception safety is like a surgeon's promise:** A surgeon promises to either complete the operation successfully or leave you in your original state — they won't halfway operate and leave you worse off. The three levels of exception safety are like surgical commitments: `nothrow` means "I promise this won't fail" (like taking your temperature), `strong` means "if I fail, you'll be back to how you were" (like a reversible procedure), and `basic` means "if I fail, at least the system won't crash" (like emergency stabilization).
+**Exception safety is like a surgeon's promise:** A surgeon promises to either complete the operation successfully or leave you in your original state, they won't halfway operate and leave you worse off. The three levels of exception safety are like surgical commitments: `nothrow` means "I promise this won't fail" (like taking your temperature), `strong` means "if I fail, you'll be back to how you were" (like a reversible procedure), and `basic` means "if I fail, at least the system won't crash" (like emergency stabilization).
 
-**Why it matters:** Exception safety is not optional in production C++ code. A function that throws and leaves data in an inconsistent state causes undefined behavior in the caller. The RAII pattern is the primary mechanism for achieving exception safety — it ensures cleanup happens automatically, even when exceptions are thrown.
+**Why it matters:** Exception safety is not optional in production C++ code. A function that throws and leaves data in an inconsistent state causes undefined behavior in the caller. The RAII pattern is the primary mechanism for achieving exception safety, it ensures cleanup happens automatically, even when exceptions are thrown.
 
-**The key insight:** RAII is the foundation of exception safety — if every resource is managed by an RAII wrapper, exceptions cannot leak resources or leave data in inconsistent states.
+**The key insight:** RAII is the foundation of exception safety, if every resource is managed by an RAII wrapper, exceptions cannot leak resources or leave data in inconsistent states.
 
 ## Common Pitfalls
 
@@ -566,8 +566,8 @@ struct Resource {
     Resource(const Resource& o) : data(new int(*o.data)) {}
 
     Resource operator+(const Resource& o) const {
-        Resource result(*this);  // Copy left operand — may throw
-        *result.data += *o.data; // Add right operand — int addition is noexcept
+        Resource result(*this);  // Copy left operand, may throw
+        *result.data += *o.data; // Add right operand, int addition is noexcept
         return result;
     }
 };
@@ -586,7 +586,7 @@ Will clean up normally. This provides the strong guarantee.
 
 ### Pitfall 3: `new` vs `new(std::nothrow)`
 
-When `operator new` fails, it throws `std::bad_alloc` by default. This is correct behavior — the
+When `operator new` fails, it throws `std::bad_alloc` by default. This is correct behavior, the
 Strong guarantee relies on allocation failure being signaled via exception. Using
 `new(std::nothrow)` silently returns `nullptr`Which converts an exceptional condition into a logic
 Error that must be checked manually. Prefer the throwing version.
@@ -644,7 +644,7 @@ int main() {
 
 On platforms using the Itanium C++ ABI (Linux, macOS, BSD, most non-Windows), exceptions are
 Implemented using **zero-cost tables**. When no exception is thrown, there is zero runtime overhead
-— the compiler generates DWARF `.eh_frame` tables that describe how to unwind each function. Only
+- the compiler generates DWARF `.eh_frame` tables that describe how to unwind each function. Only
 When an exception is thrown does the runtime walk these tables, which is significantly slower than a
 Normal function return.
 

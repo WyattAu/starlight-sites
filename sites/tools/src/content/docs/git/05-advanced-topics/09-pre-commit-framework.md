@@ -30,11 +30,11 @@ The framework provides:
 - **A declarative configuration file** (`.pre-commit-config.yaml`) that defines which hooks run,
   when they run, and what files they target. This file is committed to the repository and shared
   with all contributors.
-- **Isolated execution environments** — each hook runs in its own virtual environment or container,
+- **Isolated execution environments**, each hook runs in its own virtual environment or container,
   so hook dependencies never conflict with project dependencies or with each other.
-- **A caching layer** — hooks skip files that have not changed since the last successful run, making
+- **A caching layer**, hooks skip files that have not changed since the last successful run, making
   incremental commits fast.
-- **Language-agnostic hook support** — hooks can be written in any language: Python, Bash, Node.js,
+- **Language-agnostic hook support**, hooks can be written in any language: Python, Bash, Node.js,
   Go, Rust, or run inside Docker containers. The framework does not care what the hook is, only that
   it follows the contract (exit code 0 = pass, non-zero = fail).
 
@@ -156,7 +156,7 @@ repos:
 
 ### The `repos` Array
 
-Each entry in `repos` specifies a hook repository — a Git repository containing hook definitions.
+Each entry in `repos` specifies a hook repository, a Git repository containing hook definitions.
 The framework clones these repos (at the pinned `rev`) and reads their hook metadata.
 
 ### Per-Repo Fields
@@ -859,7 +859,7 @@ The `rev` field can be a tag, a branch, or a SHA:
 ```
 
 **Recommendation**: Pin to release tags. Tags are immutable (once published, they do not change), so
-Every contributor and CI run uses the exact same hook version. Branch references are mutable — the
+Every contributor and CI run uses the exact same hook version. Branch references are mutable, the
 Commit at `main` today may differ from the commit at `main` tomorrow, leading to non-reproducible
 Behavior.
 
@@ -913,7 +913,7 @@ Your latest edit. Fix: run `git add` again after editing.
 ### The Framework Creates Isolated Virtual Environments
 
 Each hook repository gets its own virtual environment under `~/.cache/pre-commit/`. If a hook
-Depends on a library that your project also uses, the versions may differ. This is by design — it
+Depends on a library that your project also uses, the versions may differ. This is by design, it
 Prevents hook dependencies from conflicting with project dependencies. If you need a hook to use
 Your project's environment, use `language: system` and manage dependencies yourself.
 
@@ -928,7 +928,7 @@ Cache and are fast. In CI, use caching to avoid re-downloading on every build.
 git commit --no-verify -m "skip hooks"
 ```
 
-This bypasses all hooks. The framework cannot prevent this — it is a fundamental limitation of
+This bypasses all hooks. The framework cannot prevent this, it is a fundamental limitation of
 Client-side hooks. If you need to enforce hook execution, run `pre-commit run --all-files` in CI. CI
 Is the enforcement layer; local hooks are the convenience layer.
 

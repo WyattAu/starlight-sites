@@ -121,7 +121,7 @@ Implementation. Tests are based on requirements and specifications.
 
 ### Equivalence Partitioning
 
-Divide input data into **equivalence classes** — groups of inputs that the system should treat the
+Divide input data into **equivalence classes**, groups of inputs that the system should treat the
 Same way. Test one representative from each class.
 
 **Example:** A function accepts ages 0-120.
@@ -284,7 +284,7 @@ Total test cases: 5 (equivalence) + 12 (boundary) = 17 (some overlap).
 A **stub** is a simple replacement for a dependency that returns predefined responses. It provides
 Canned answers to calls.
 
-A **mock** is a more sophisticated replacement that **verifies** how it was called — it records the
+A **mock** is a more sophisticated replacement that **verifies** how it was called, it records the
 Calls and can assert that specific methods were called with specific arguments.
 
 | Feature    | Stub                                  | Mock                                  |
@@ -568,7 +568,7 @@ def test_is_prime():
     assert is_prime(4) == False
 ```
 
-Run the test — it fails because `is_prime` does not exist.
+Run the test, it fails because `is_prime` does not exist.
 
 **Step 2 (Green):** Write the minimum code to pass.
 
@@ -582,7 +582,7 @@ def is_prime(n):
     return True
 ```
 
-Run the test — all tests pass.
+Run the test, all tests pass.
 
 **Step 3 (Refactor):** The loop can be optimised.
 
@@ -600,7 +600,7 @@ def is_prime(n):
     return True
 ```
 
-Run the test — still passes. The refactored version is more efficient.
+Run the test, still passes. The refactored version is more efficient.
 
 **Step 4 (Add more tests):** Test edge cases discovered during refactoring.
 
@@ -732,9 +732,9 @@ Two test cases achieve 100% branch coverage:
 
 Both branches are covered. But the following issues are not caught:
 
-- **Negative side length:** `triangle_area(-3, 4, 5)` — the condition `-3 + 4 > 5` is `1 > 5` which
-  is false, so it returns -1. But `triangle_area(-3, -4, -5)` — the condition `-3 + (-4) > -5` is
-  `-7 > -5` which is false. These happen to be handled, but only by accident — the function does not
+- **Negative side length:** `triangle_area(-3, 4, 5)`the condition `-3 + 4 > 5` is `1 > 5` which
+  is false, so it returns -1. But `triangle_area(-3, -4, -5)`the condition `-3 + (-4) > -5` is
+  `-7 > -5` which is false. These happen to be handled, but only by accident, the function does not
   explicitly validate for negative inputs.
 
 The key insight: branch coverage tests control flow, not data ranges, not data types, not arithmetic
@@ -814,7 +814,7 @@ Which tests to run.
 
 2. **Test categorisation:**
 
-- **Smoke tests (5 minutes):** Core functionality — login, database connection, API health. Run
+- **Smoke tests (5 minutes):** Core functionality, login, database connection, API health. Run
   always.
 - **Regression tests (30 minutes):** Tests for previously-fixed bugs. Run after each commit.
 - **Full suite (2 hours):** Run nightly or before release.
@@ -874,8 +874,8 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Intuition
 
-Testing is fundamentally about building confidence in code by systematically checking that it behaves as expected. Think of it like proofreading an essay, but with much higher stakes and stricter rules. You are not just checking for typos; you are verifying that every branch of logic produces the correct output for every possible input. The different levels of testing — unit, integration, system, and acceptance — mirror how you might check a building: first each brick, then each wall, then the whole structure, and finally whether it meets the client's needs.
+Testing is fundamentally about building confidence in code by systematically checking that it behaves as expected. Think of it like proofreading an essay, but with much higher stakes and stricter rules. You are not just checking for typos; you are verifying that every branch of logic produces the correct output for every possible input. The different levels of testing, unit, integration, system, and acceptance, mirror how you might check a building: first each brick, then each wall, then the whole structure, and finally whether it meets the client's needs.
 
 The real insight behind testing strategies like white-box and black-box is about perspective. White-box testing lets you peer inside the code and design tests that exercise every path, catching hidden bugs in logic you might otherwise miss. Black-box testing pretends you cannot see the implementation at all and asks: does the system do what the specification says? Both perspectives are essential because they catch different classes of errors. A function might pass every specification test yet still contain an unused code path with a latent bug, or conversely, every line of code might be tested but the specification itself might be wrong.
 
-Test coverage metrics give you a numerical sense of how thoroughly your tests exercise the code, but they are a guide, not a guarantee. Achieving 100% line coverage means every line was executed at least once — but it does not mean every combination of inputs was tried. The practical takeaway is to write tests early, test incrementally, and prioritise the most critical and complex parts of the system. Automated testing turns what would be an impossibly tedious manual task into something that runs in seconds, letting you refactor and extend code with confidence.
+Test coverage metrics give you a numerical sense of how thoroughly your tests exercise the code, but they are a guide, not a guarantee. Achieving 100% line coverage means every line was executed at least once, but it does not mean every combination of inputs was tried. The practical takeaway is to write tests early, test incrementally, and prioritise the most critical and complex parts of the system. Automated testing turns what would be an impossibly tedious manual task into something that runs in seconds, letting you refactor and extend code with confidence.

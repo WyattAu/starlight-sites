@@ -26,13 +26,13 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-Computer systems are about **how hardware and software cooperate** to execute programs efficiently. The key abstractions — processes, virtual memory, file systems — hide complexity while creating performance trade-offs.
+Computer systems are about **how hardware and software cooperate** to execute programs efficiently. The key abstractions, processes, virtual memory, file systems, hide complexity while creating performance trade-offs.
 
 **The memory hierarchy intuition:** Fast memory is expensive and small; slow memory is cheap and large. Caches exploit *temporal locality* (recently accessed data will be accessed again) and *spatial locality* (nearby data will be accessed next). Understanding this hierarchy explains why a well-optimised program can be 100x faster than a naive one on the same hardware.
 
 **Process vs thread intuition:** A process has its own address space (isolation); threads within a process share memory. Processes are safer (one crash doesn't affect others) but more expensive to create and communicate between. Threads are lighter but require careful synchronisation to avoid race conditions.
 
-**Virtual memory intuition:** Every process thinks it has the entire address space to itself. The OS translates virtual addresses to physical addresses using page tables. This gives each process isolation, allows memory overcommitment, and enables demand paging — loading pages only when accessed.
+**Virtual memory intuition:** Every process thinks it has the entire address space to itself. The OS translates virtual addresses to physical addresses using page tables. This gives each process isolation, allows memory overcommitment, and enables demand paging, loading pages only when accessed.
 
 ---
 

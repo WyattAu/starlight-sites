@@ -228,7 +228,7 @@ The vcpkg toolchain file modifies CMake's module search path (`CMAKE_PREFIX_PATH
 `vcpkg_installed/x64-linux/share/fmt/fmtConfig.cmake` (or the Find module). If found, the package is
 Available. If not found, CMake falls back to system-wide installations.
 
-This mechanism is transparent to the project — standard CMake `find_package` calls work without
+This mechanism is transparent to the project, standard CMake `find_package` calls work without
 Modification.
 
 ## 4. Architectural Advantages
@@ -690,11 +690,11 @@ export VCPKG_ROOT=/opt/vcpkg
 
 ## Intuition
 
-**Microsoft's package manager:** vcpkg is like a curated app store for C++ libraries — it provides pre-built packages that integrate with your build system.
+**Microsoft's package manager:** vcpkg is like a curated app store for C++ libraries, it provides pre-built packages that integrate with your build system.
 
 **Why it matters:** vcpkg simplifies dependency management across platforms, especially for Windows and Visual Studio projects.
 
-**The key insight:** vcpkg uses manifest mode for project-specific dependencies — this ensures reproducible builds.
+**The key insight:** vcpkg uses manifest mode for project-specific dependencies, this ensures reproducible builds.
 
 ## Common Pitfalls
 

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Ecology — Diagnostic Tests
+## Ecology, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Ecology is like studying a web of relationships — every organism is connected to others through food webs, competition, and symbiosis:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities
+**Ecology is like studying a web of relationships, every organism is connected to others through food webs, competition, and symbiosis:** Ecosystems are dynamic systems where energy flows and nutrients cycle through interconnected communities
 
 **Why it matters:** Ecology is essential for conservation, resource management, and understanding human impacts on the environment
 

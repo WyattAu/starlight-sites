@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Number and Algebra — Diagnostic Tests
+## Number and Algebra, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Algebra is like a detective's toolkit — variables are suspects, equations are clues, and solving for x is finding the culprit:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships
+**Algebra is like a detective's toolkit, variables are suspects, equations are clues, and solving for x is finding the culprit:** Algebraic manipulation follows strict logical rules that preserve equality, allowing us to isolate unknowns and prove relationships
 
 **Why it matters:** Algebraic thinking is essential for problem-solving in science, engineering, economics, and everyday reasoning
 
@@ -322,7 +322,7 @@ constraint.
 
 **Question:**
 
-Eight people — Alice, Ben, Charlie, Diana, Elliot, Fiona, George, and Hannah — are to be seated in a
+Eight people, Alice, Ben, Charlie, Diana, Elliot, Fiona, George, and Hannah, are to be seated in a
 row of eight chairs.
 
 **(a)** In how many ways can they be seated if Alice and Ben must sit next to each other?

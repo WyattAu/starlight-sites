@@ -65,7 +65,7 @@ Electromagnetic spectrum, nuclear radiation, half-life, nuclear reactions, and d
 
 ## Study Tips
 
-Always show working in calculations — SQA awards marks for method even if the final answer is wrong.
+Always show working in calculations, SQA awards marks for method even if the final answer is wrong.
 Memorise key formulae and practise deriving them. Pay attention to unit conversions.
 
 ## Exam Information
@@ -93,11 +93,11 @@ most recent SQA documentation for definitive syllabus and assessment requirement
 
 ## Intuition
 
-**Physics is the most fundamental natural science:** It studies matter, energy, and their interactions — from subatomic particles to the entire universe. Physics provides the mathematical framework that all other sciences build upon.
+**Physics is the most fundamental natural science:** It studies matter, energy, and their interactions, from subatomic particles to the entire universe. Physics provides the mathematical framework that all other sciences build upon.
 
 **Why it matters:** Physics principles underpin technology (lasers, semiconductors, MRI), explain natural phenomena (rainbows, earthquakes, northern lights), and drive innovation in energy, medicine, and communications.
 
-**The key insight:** Physics is about building models — simplifying complex reality into mathematical descriptions that capture the essential behaviour while discarding irrelevant details.
+**The key insight:** Physics is about building models, simplifying complex reality into mathematical descriptions that capture the essential behaviour while discarding irrelevant details.
 
 ## Summary
 

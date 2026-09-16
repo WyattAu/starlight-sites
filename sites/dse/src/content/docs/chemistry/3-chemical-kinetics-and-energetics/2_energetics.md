@@ -650,11 +650,11 @@ A catalyst and continuous removal of $\mathrm{NH}_3$ to shift equilibrium.
 
 ## Intuition
 
-**Energy accounting:** Energetics is like balancing a chemical bank account — energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.
+**Energy accounting:** Energetics is like balancing a chemical bank account, energy goes in (endothermic) or out (exothermic), and Hess's Law says the total change is the same regardless of the path taken.
 
 **Why it matters:** From fuel efficiency to drug design, energy changes determine whether reactions occur and how much energy they release or absorb.
 
-**The key insight:** Enthalpy change is a state function — it only depends on the starting and ending points, not the route taken, which is why Hess's Law works.
+**The key insight:** Enthalpy change is a state function, it only depends on the starting and ending points, not the route taken, which is why Hess's Law works.
 
 ## Common Pitfalls
 

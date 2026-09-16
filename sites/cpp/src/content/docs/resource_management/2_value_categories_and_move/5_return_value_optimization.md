@@ -25,14 +25,14 @@ import Citations from '@components/Citations.astro'
 Return value optimization is the compiler's ability to construct a return value directly in the
 Caller's storage, eliminating unnecessary copies and moves. C++17 guarantees this for prvalue
 Returns (RVO), while named returns (NRVO) remain an optional but widely-implemented optimization.
-Understanding the fallback chain — RVO, NRVO, implicit move, copy — is essential for writing
+Understanding the fallback chain, RVO, NRVO, implicit move, copy, is essential for writing
 Efficient code.
 
 ## 8.1 Guaranteed Copy Elision (C++17 RVO)
 
 C++17 mandates that a prvalue returned from a function initializes the destination object directly.
 No temporary is created, and no copy or move constructor is invoked [N4950 S8.4.4]. This applies
-Specifically to **prvalue returns** — returns of unnamed temporaries.
+Specifically to **prvalue returns**, returns of unnamed temporaries.
 
 ```cpp
 #include <iostream>
@@ -46,7 +46,7 @@ struct Widget {
 };
 
 Widget factory(int id) {
-    return Widget{id};  // prvalue — guaranteed elision
+    return Widget{id};  // prvalue, guaranteed elision
 }
 
 int main() {
@@ -62,7 +62,7 @@ int main() {
 URVO (Unnamed Return Value Optimization) is the C++17 guaranteed form. We can prove that it is
 Zero-copy by tracing the Standard's definitions:
 
-**Claim:** `return T{args};` in a function returning `T` produces exactly one constructor call — the
+**Claim:** `return T{args};` in a function returning `T` produces exactly one constructor call, the
 Direct construction of `T` in the caller's storage. No temporary object is created.
 
 **Proof:**
@@ -113,7 +113,7 @@ int main() {
 
 To build intuition for why URVO is zero-copy, consider the conceptual assembly for a function
 Returning a large object. In the Itanium C++ ABI (used by GCC and Clang on x86_64), when a function
-Returns a non-trivial type, the caller passes a hidden first parameter — a pointer to the return
+Returns a non-trivial type, the caller passes a hidden first parameter, a pointer to the return
 Value's storage:
 
 ```asm
@@ -128,7 +128,7 @@ Value's storage:
 ```
 
 There is no temporary on the callee's stack. The `Widget` is constructed directly at the address
-Provided by the caller. This is not an optimization — it is the ABI contract for C++17.
+Provided by the caller. This is not an optimization, it is the ABI contract for C++17.
 
 ### URVO vs. NRVO: The Fundamental Distinction
 
@@ -225,7 +225,7 @@ Widget early_return(int id) {
     if (id < 0) {
         return local;  // Same variable
     }
-    return local;  // Same variable — NRVO can apply
+    return local;  // Same variable, NRVO can apply
 }
 
 // NRVO NOT applicable: different named variables on different paths
@@ -279,7 +279,7 @@ Widget conditional_factory(bool flag) {
 }
 
 int main() {
-    std::cout << "NRVO fails — falls back to move:\n";
+    std::cout << "NRVO fails, falls back to move:\n";
     Widget w = conditional_factory(true);
 }
 ```
@@ -287,7 +287,7 @@ int main() {
 Output (even at `-O2` on most compilers):
 
 ```
-NRVO fails — falls back to move:
+NRVO fails, falls back to move:
   Widget(1) ctor
   Widget(2) ctor
   Widget(1) move ctor
@@ -440,7 +440,7 @@ Good (NRVO or implicit move):
 NRVO works by constructing the named local variable directly in the return slot. For this to work,
 The compiler must be able to prove that every use of the local variable can be redirected to the
 Return slot. When you write `return std::move(local)`The return expression is no longer the named
-Variable `local` — it is an xvalue produced by `std::move(local)`. The compiler can no longer prove
+Variable `local`it is an xvalue produced by `std::move(local)`. The compiler can no longer prove
 That the local variable and the return expression refer to the same object, so NRVO is inhibited.
 
 Furthermore, `std::move` is never an optimization in a return statement because the implicit move
@@ -524,7 +524,7 @@ struct Widget {
 };
 
 Widget make_widget(int id) {
-    return Widget{id};  // prvalue — guaranteed elision
+    return Widget{id};  // prvalue, guaranteed elision
 }
 
 int main() {
@@ -540,7 +540,7 @@ int main() {
     Widget* p = new Widget{3};  // Widget(3) ctor only
 
     // 4. Parenthesized initialization
-    Widget w4(Widget{4});      // Widget(4) ctor only — NOT a copy
+    Widget w4(Widget{4});      // Widget(4) ctor only, NOT a copy
 
     delete p;
 }
@@ -563,7 +563,7 @@ struct Point {
 };
 
 Point origin() {
-    return {0.0, 0.0};  // prvalue — guaranteed elision
+    return {0.0, 0.0};  // prvalue, guaranteed elision
 }
 
 int main() {
@@ -594,10 +594,10 @@ struct Derived : Base {
 };
 
 int main() {
-    // Same type — guaranteed elision
+    // Same type, guaranteed elision
     Base b1 = Base{1};  // Base(1) ctor only
 
-    // Different type — copy elision does NOT apply (slicing occurs)
+    // Different type, copy elision does NOT apply (slicing occurs)
     Base b2 = Derived{2};  // Base(2) move (Derived prvalue materializes, then moves to Base)
 
     // Function return with same type
@@ -617,7 +617,7 @@ Destination (`Base b`) differ. Guaranteed copy elision requires that the prvalue
 Destination type are the same [N4950 S8.4.4]/1. Since they differ, the prvalue must be materialized
 Into a temporary `Derived` object, and then the `Base` constructor is invoked to slice it.
 
-This is not a limitation of the optimization — it is a semantic requirement. The `Derived` object
+This is not a limitation of the optimization, it is a semantic requirement. The `Derived` object
 Has a different layout than the `Base` object. The compiler must construct the full `Derived` object
 (including its vtable pointer) before extracting the `Base` subobject.
 
@@ -653,14 +653,14 @@ std::optional<Expensive> make_expensive(bool flag) {
 
 int main() {
     auto result = make_expensive(true);
-    // Output: Expensive ctor (hello) — no copy, no move
+    // Output: Expensive ctor (hello), no copy, no move
 }
 ```
 
 ## 8.9 The C++17 Language Change: Prvalues Are Not Temporaries
 
 Before C++17, a prvalue was a temporary object. C++17 changed the language so that a prvalue is
-Merely an **initializer** — a recipe for constructing an object. The object is not materialized
+Merely an **initializer**, a recipe for constructing an object. The object is not materialized
 Until it is needed [N4950 S7.2.1]. This is why `return Widget{42}` does not create a temporary: the
 Prvalue `Widget{42}` is just instructions for constructing a `Widget`And those instructions are
 Applied directly to the return slot.
@@ -704,7 +704,7 @@ Permission.
 
 The Itanium C++ ABI was designed with copy elision in mind. The ABI specifies that non-trivial
 Return values are passed via a hidden pointer parameter (the "return slot"). This means the callee
-Already knows where to construct the return value — no copy is needed. C++17 merely made this
+Already knows where to construct the return value, no copy is needed. C++17 merely made this
 ABI-level behavior a language-level guarantee.
 
 On platforms that use a different ABI (e.g., MSVC on Windows), the same guarantee applies in C++17,
@@ -765,7 +765,7 @@ Requires. For example:
 
 - **Return value registers:** On x86_64, small -copyable types (e.g., `int``double` small structs)
   are returned in registers, not via the hidden return slot pointer. For these types, RVO is
-  irrelevant — there is no memory location to elide into.
+  irrelevant, there is no memory location to elide into.
 
 - **Virtual function returns:** If a virtual function returns a non-trivial type, the ABI must
   ensure that the caller provides a return slot. The callee cannot construct the return value in a
@@ -783,7 +783,7 @@ struct Small {
 
 Small make_small() {
     return Small{1, 2};  // Returned in registers on x86_64
-    // RVO is irrelevant — no hidden return slot pointer
+    // RVO is irrelevant, no hidden return slot pointer
 }
 
 int main() {
@@ -842,7 +842,7 @@ void register_address(void*);
 
 Widget possibly_inhibited() {
     Widget local(42);
-    register_address(&local);  // address escapes — NRVO may fail
+    register_address(&local);  // address escapes, NRVO may fail
     return local;
 }
 ```
@@ -851,7 +851,7 @@ Widget possibly_inhibited() {
 
 Writing `return std::move(local)` converts the named variable to an xvalue. Since the return
 Expression is no longer a named variable or a prvalue, neither NRVO nor implicit move can apply. The
-Move constructor is always called. This is never an optimization — it is always a pessimization:
+Move constructor is always called. This is never an optimization, it is always a pessimization:
 
 ```cpp
 #include <utility>
@@ -865,13 +865,13 @@ struct Widget {
 // BAD: always moves
 Widget bad() {
     Widget local;
-    return std::move(local);  // xvalue — NRVO inhibited, move always happens
+    return std::move(local);  // xvalue, NRVO inhibited, move always happens
 }
 
 // GOOD: NRVO applies, no move needed
 Widget good() {
     Widget local;
-    return local;  // named local — NRVO or implicit move
+    return local;  // named local, NRVO or implicit move
 }
 ```
 
@@ -890,7 +890,7 @@ struct Widget {
 };
 
 Widget pass_through(Widget w) {
-    return w;  // NOT RVO — w is a function parameter, not a prvalue or local
+    return w;  // NOT RVO, w is a function parameter, not a prvalue or local
     // implicit move applies
 }
 
@@ -898,7 +898,7 @@ int main() {
     Widget w = pass_through(Widget{});
     // Output: ctor, move, move
     // 1st move: pass_through return (implicit move of parameter)
-    // 2nd move: materialization into w — BUT actually this is guaranteed elision
+    // 2nd move: materialization into w, BUT actually this is guaranteed elision
     // of the prvalue returned by pass_through into w
 }
 ```
@@ -1000,18 +1000,18 @@ linked above.
 Return Value Optimization is the compiler's way of avoiding unnecessary copies when you return
 objects from functions. Imagine you're at a bakery and you order a cake. Without RVO, the baker
 would bake a cake in the back, bring it to the counter, then carry it all the way to your table.
-With RVO, the baker just bakes the cake directly at your table — skipping the intermediate copy
+With RVO, the baker just bakes the cake directly at your table, skipping the intermediate copy
 entirely. The compiler does essentially this: instead of constructing a temporary, moving it, and
 then destroying the original, it constructs the object directly in the caller's memory.
 
-URVO (Unnamed RVO) is guaranteed in C++17 and later — when you return a temporary like
+URVO (Unnamed RVO) is guaranteed in C++17 and later, when you return a temporary like
 `return Foo();`, the compiler must elide the copy. NRVO (Named RVO) applies to named local
 variables like `Foo f; ... return f;` and is optional but almost universally implemented. The key
 distinction is that NRVO requires the compiler to prove that exactly one object will be returned,
 so it won't apply in paths with multiple return statements returning different variables.
 
 The practical implication is that returning by value is almost always the right choice in modern
-C++. Don't avoid returning objects because you're worried about copies — the compiler will
+C++. Don't avoid returning objects because you're worried about copies, the compiler will
 in standard practice elide them entirely. But do ensure your move constructors are correct, because NRVO is
 not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
 functions to maximize the compiler's ability to apply NRVO.

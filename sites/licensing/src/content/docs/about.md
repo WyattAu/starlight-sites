@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Licensing resources — experience, expertise, and credentials behind software licensing study materials."
+description: "About Wyatt's Notes Licensing resources, experience, expertise, and credentials behind software licensing study materials."
 tags:
   - about
   - licensing
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Licensing
+## About Wyatt's Notes, Licensing
 
 Wyatt's Notes provides thorough study materials for software licensing. These notes cover open-source licences, proprietary licensing models, copyright law basics, and compliance requirements, building the skills needed to navigate the legal landscape of software development.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across software engineering, legal compliance, and open
 
 ## Related Sites
 
-- **[Tools](https://tools.wyattau.com)** — Development tools resources
-- **[Programming](https://programming.wyattau.com)** — Programming language resources
-- **[Computer Science](https://computer-science.wyattau.com)** — Computer science theory notes
+- **[Tools](https://tools.wyattau.com)**, Development tools resources
+- **[Programming](https://programming.wyattau.com)**, Programming language resources
+- **[Computer Science](https://computer-science.wyattau.com)**, Computer science theory notes
 
 ## Explore the Site
 
@@ -55,17 +55,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -81,10 +81,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 

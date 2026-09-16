@@ -1,5 +1,5 @@
 /**
- * Mastery model — aggregates practice outcomes, spaced-repetition state,
+ * Mastery model, aggregates practice outcomes, spaced-repetition state,
  * and reading recency into a simple per-topic 0-4 tier.
  *
  * Tiers:

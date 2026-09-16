@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes EU Driving resources — experience, expertise, and credentials behind EU driving licence test study materials."
+description: "About Wyatt's Notes EU Driving resources, experience, expertise, and credentials behind EU driving licence test study materials."
 tags:
   - about
   - driving-eu
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — EU Driving
+## About Wyatt's Notes, EU Driving
 
 Wyatt's Notes offers comprehensive study materials for EU driving licence tests. These notes cover the European driving regulations, road signs, theory test preparation, and the driving skills required for EU licence categories.
 
@@ -33,8 +33,8 @@ Wyatt develops resources across driving tests internationally, providing compara
 
 ## Related Sites
 
-- **[UK Driving](https://driving-uk.wyattau.com)** — UK driving theory test resources
-- **[US Driving](https://driving-us.wyattau.com)** — US DMV driving test resources
+- **[UK Driving](https://driving-uk.wyattau.com)**, UK driving theory test resources
+- **[US Driving](https://driving-us.wyattau.com)**, US DMV driving test resources
 
 ## Explore the Site
 

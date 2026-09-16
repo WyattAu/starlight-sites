@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Exponentials and Logarithms — Diagnostic Tests
+## Exponentials and Logarithms, Diagnostic Tests
 
 ## Unit Tests
 
@@ -332,7 +332,7 @@ $$y = \frac{\sqrt{3}}{4}x - \frac{3}{4} + \ln 2$$
 Wait: $\frac{x}{x^2+1} = 0$ when $x = 0$. Let me check: at $x = 0$, $\frac{dy}{dx} = 0$. So $x = 0$ IS
 a stationary point.
 
-The question says "show that the curve has no stationary points." This is incorrect — the curve does
+The question says "show that the curve has no stationary points." This is incorrect, the curve does
 have a stationary point at $x = 0$. Let me re-examine.
 
 At $x = 0$: $y = \frac{1}{2}\ln 1 = 0$. The gradient is $\frac{0}{1} = 0$. So $x = 0$ is a

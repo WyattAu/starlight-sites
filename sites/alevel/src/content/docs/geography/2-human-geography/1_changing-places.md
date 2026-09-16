@@ -20,7 +20,7 @@ description: "A-Level Geography Changing Places notes covering key definitions, 
 
 ## Introduction
 
-Places are not static — they are constantly evolving in response to a wide range of local and global
+Places are not static, they are constantly evolving in response to a wide range of local and global
 forces. This topic explores how and why places change, examining the demographic, economic,
 cultural, and political processes that drive transformation. A central concept is the **sense of
 place**: the subjective and emotional attachment that individuals and communities have to a
@@ -42,16 +42,16 @@ regeneration strategies and their impacts on different social groups.
 
 | Term                     | Definition                                                                                                                                         |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Place**                | A specific location with meaning and identity attached to it by people — more than just a physical space                                           |
+| **Place**                | A specific location with meaning and identity attached to it by people, more than just a physical space                                           |
 | **Space**                | An abstract, objective area defined by coordinates or boundaries, without human meaning                                                            |
 | **Sense of place**       | The subjective, emotional, and personal attachment that people feel towards a place                                                                |
 | **Placemaking**          | The process of creating or reshaping the identity and character of a place, often through collective action                                        |
-| **Endogenous factors**   | Internal characteristics of a place — its physical geography, built environment, demographics, and local economy                                   |
-| **Exogenous factors**    | External forces that influence a place — national government policy, globalisation, TNC investment, migration                                      |
+| **Endogenous factors**   | Internal characteristics of a place, its physical geography, built environment, demographics, and local economy                                   |
+| **Exogenous factors**    | External forces that influence a place, national government policy, globalisation, TNC investment, migration                                      |
 | **Topophilia**           | A strong sense of place, or love of a particular place (coined by Yi-Fu Tuan)                                                                      |
 | **Topophobia**           | A fear or dislike of a particular place                                                                                                            |
 | **Insider perspective**  | The view of someone who lives in or has deep familiarity with a place                                                                              |
-| **Outsider perspective** | The view of someone who is not from the place — visitors, investors, government officials                                                          |
+| **Outsider perspective** | The view of someone who is not from the place, visitors, investors, government officials                                                          |
 | **Gentrification**       | The process by which wealthier residents move into a formerly deprived area, renovating properties and changing the character of the neighbourhood |
 | **Regeneration**         | A comprehensive programme of investment and change designed to transform the economic, social, and physical environment of a place                 |
 | **Re-imaging**           | Changing the reputation and perception of a place, often through marketing, branding, and flagship developments                                    |
@@ -73,8 +73,8 @@ regeneration strategies and their impacts on different social groups.
 
 ### Space vs. Place
 
-**Space** is an objective concept — a location defined by coordinates, boundaries, and physical
-features. **Place** is a subjective concept — a space that has been given meaning through human
+**Space** is an objective concept, a location defined by coordinates, boundaries, and physical
+features. **Place** is a subjective concept, a space that has been given meaning through human
 experience, memory, and emotion. Every place exists simultaneously as both a physical space and a
 social construct.
 
@@ -98,17 +98,17 @@ external perceptions.
 
 Places are represented through various media:
 
-- **Statistical data**: Census data, deprivation indices, employment figures — objective but
+- **Statistical data**: Census data, deprivation indices, employment figures, objective but
   reductive
 - **Maps**: Physical and political maps present a spatial representation; mental maps reveal
   subjective perceptions
 - **Literature and art**: Novels, poems, paintings, and films evoke the character and atmosphere of
   a place
-- **Photography and media**: News coverage, social media, tourism marketing — powerful but selective
-- **Personal accounts**: Interviews, diaries, oral histories — rich in detail but subjective
+- **Photography and media**: News coverage, social media, tourism marketing, powerful but selective
+- **Personal accounts**: Interviews, diaries, oral histories, rich in detail but subjective
 
 Doreen Massey"s concept of a **global sense of place** argues that places are not fixed or bounded
-but are constantly being constructed through connections to other places — flows of people, money,
+but are constantly being constructed through connections to other places, flows of people, money,
 ideas, and goods.
 
 ---
@@ -178,7 +178,7 @@ The relationship is dynamic and reciprocal. For example:
 
 Places change as their populations evolve. Key processes include:
 
-- **Natural change**: Birth rates and death rates — ageing populations in rural areas (young people
+- **Natural change**: Birth rates and death rates, ageing populations in rural areas (young people
   leave for cities), youthful populations in university towns
 - **Migration**: Inward migration brings new skills, cultures, and energy but can cause tension;
   outward migration (particularly of young, educated people) causes brain drain and population
@@ -196,7 +196,7 @@ Cultural change in places is driven by:
 
 - **Migration**: New communities introduce different languages, religions, cuisines, and traditions
   (e.g., Southall, London, has a vibrant South Asian cultural identity)
-- **Gentrification**: Wealthier incomers change consumption patterns — artisanal shops, cafés,
+- **Gentrification**: Wealthier incomers change consumption patterns, artisanal shops, cafés,
   galleries replace traditional businesses. This can improve the physical environment but displace
   lower-income residents through rising property values
 - **Heritage and identity**: Some places actively promote or protect their cultural heritage as an
@@ -229,7 +229,7 @@ sectors. This has profound impacts on places:
 - **Service-based economies** have grown, concentrated in urban centres and commuter belts.
   Financial services, education, healthcare, and creative industries are major employers.
 - **Quaternary sector growth** (research, development, IT) tends to cluster in areas with
-  universities, good connectivity, and skilled workforces — for example, Cambridge (Silicon Fen) and
+  universities, good connectivity, and skilled workforces, for example, Cambridge (Silicon Fen) and
   the M4 corridor.
 
 ### Economic Inequality Within Places
@@ -262,7 +262,7 @@ as:
 
 | Approach                    | Description                                                                           | Example                                                                                    |
 | --------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| **Property-led**            | Focus on physical redevelopment — flagship buildings, housing renewal, business parks | London Docklands (Canary Wharf); Salford Quays (MediaCityUK)                               |
+| **Property-led**            | Focus on physical redevelopment, flagship buildings, housing renewal, business parks | London Docklands (Canary Wharf); Salford Quays (MediaCityUK)                               |
 | **Retail-led**              | New shopping centres or retail zones to attract spending and create jobs              | Westfield Stratford City (linked to 2012 Olympics regeneration)                            |
 | **Tourism and leisure-led** | Developing visitor attractions, heritage tourism, cultural venues                     | The Baltic Centre for Contemporary Art, Gateshead; Albert Dock, Liverpool                  |
 | **Events-led**              | Using major events as a catalyst for investment and re-imaging                        | Barcelona 1992 Olympics; London 2012 Olympics (Stratford); Glasgow 2014 Commonwealth Games |
@@ -298,10 +298,10 @@ Key evaluation criteria:
 
 ## Case Studies
 
-### Case Study 1: Detroit, Michigan, USA — Deindustrialisation and Decline
+### Case Study 1: Detroit, Michigan, USA, Deindustrialisation and Decline
 
 Detroit was once the beating heart of the American automotive industry. The "Big Three" car
-manufacturers — General Motors, Ford, and Chrysler — were headquartered in or near the city,
+manufacturers, General Motors, Ford, and Chrysler, were headquartered in or near the city,
 employing hundreds of thousands of workers. At its peak in 1950, Detroit had a population of
 approximately 1.85 million.
 
@@ -323,16 +323,16 @@ became the largest US city to file for bankruptcy, with approximately $18 billio
 rates were among the highest in the nation. Entire neighbourhoods returned to prairie.
 
 **Regeneration efforts**: Since bankruptcy, there have been signs of recovery, but uneven. Downtown
-and Midtown have seen significant investment — the Ilitch family's District Detroit development, the
+and Midtown have seen significant investment, the Ilitch family's District Detroit development, the
 renovation of the Book Tower, and Dan Gilbert's Rock Ventures have invested billions. However, these
 improvements are concentrated in the city centre. Many outer neighbourhoods remain blighted. The
 city launched a programme to demolish abandoned houses, removing approximately 20,000 between 2014
 and 2020, but thousands remain.
 
 The contrast between a revitalised downtown and deteriorating neighbourhoods exemplifies the
-inequality challenge of regeneration — who benefits, and who is left behind?
+inequality challenge of regeneration, who benefits, and who is left behind?
 
-### Case Study 2: Barcelona, Spain — Events-Led Regeneration
+### Case Study 2: Barcelona, Spain, Events-Led Regeneration
 
 Barcelona is widely cited as one of the most successful examples of events-led urban regeneration,
 centred on the 1992 Olympic Games.
@@ -359,7 +359,7 @@ million in 1990 to over 12 million annually by 2019. Barcelona became one of Eur
 and desirable cities. The "Barcelona model" of urban regeneration was widely studied and replicated.
 
 **Limitations and criticisms**: However, the success has come at a cost. Mass tourism has led to
-resentment among local residents — rising property prices and rents (driven by short-term holiday
+resentment among local residents, rising property prices and rents (driven by short-term holiday
 lets such as Airbnb) have displaced long-term residents from popular areas such as the Barri Gòtic
 and El Born. The city has attempted to regulate tourist accommodation, but enforcement has been
 difficult. Some critics argue that the Olympic investment prioritised the city's external image over
@@ -378,17 +378,17 @@ the needs of poorer communities in outer districts.
 
 ## Intuition
 
-A place is not just coordinates on a map — it is a living memory. Think of your own neighbourhood: the corner shop where you bought sweets as a child, the park where you played, the street that feels safe or threatening. These feelings are what geographers call "sense of place," and they explain why regeneration is never just about buildings. When Barcelona rebuilt its waterfront for the Olympics, it created a beautiful space but also displaced communities who had lived there for generations. Detroit's downtown revival looks like success from a helicopter, but from street level the abandoned houses nearby tell a different story. Places are layered like archaeological sites — each generation adds a new layer without fully removing the old.
+A place is not just coordinates on a map, it is a living memory. Think of your own neighbourhood: the corner shop where you bought sweets as a child, the park where you played, the street that feels safe or threatening. These feelings are what geographers call "sense of place," and they explain why regeneration is never just about buildings. When Barcelona rebuilt its waterfront for the Olympics, it created a beautiful space but also displaced communities who had lived there for generations. Detroit's downtown revival looks like success from a helicopter, but from street level the abandoned houses nearby tell a different story. Places are layered like archaeological sites, each generation adds a new layer without fully removing the old.
 
 ## Common Pitfalls
 
 1. **Confusing endogenous and exogenous factors**: Endogenous factors are internal to the place
    (local geology, existing housing stock, current demographic profile). Exogenous factors are
    external (government policy, globalisation, TNC decisions). A common error is classifying
-   migration as endogenous — it is exogenous because the people are coming from outside the place.
+   migration as endogenous, it is exogenous because the people are coming from outside the place.
 
 2. **Describing regeneration without evaluation**: Listing what was built or invested is only AO1
-   (knowledge). To achieve higher marks, you must evaluate — who benefited? Were local people
+   (knowledge). To achieve higher marks, you must evaluate, who benefited? Were local people
    employed? Was the community displaced? Were the improvements sustainable? Always weigh successes
    against limitations.
 
@@ -427,13 +427,13 @@ pattern, grand civic architecture, and extensive industrial infrastructure were 
 that supported its growth. The existing African American community, concentrated by historical
 segregation, became a defining demographic feature.
 
-However, exogenous factors drove the transformation from boom to bust. Global competition —
-particularly from Japanese and European car manufacturers — undermined Detroit's automotive
+However, exogenous factors drove the transformation from boom to bust. Global competition,
+particularly from Japanese and European car manufacturers, undermined Detroit's automotive
 dominance. The oil crises of 1973 and 1979 (exogenous shocks) reduced demand for the large,
 fuel-inefficient vehicles that Detroit specialised in producing. National government policy did not
 provide sufficient protection or support for diversification.
 
-The suburbanisation that hollowed out the city was driven by exogenous national trends — the
+The suburbanisation that hollowed out the city was driven by exogenous national trends, the
 expansion of the federal highway system under the Interstate Highway Act (1956) made commuting from
 suburbs feasible, while federally subsidised mortgages favoured new suburban homes over existing
 urban properties. White flight was shaped by exogenous national racial politics and the availability
@@ -443,8 +443,8 @@ More recently, exogenous investment by figures such as Dan Gilbert (Quicken Loan
 the Ilitch family has driven downtown regeneration, while state-level policy (Michigan's emergency
 manager law) enabled the city's bankruptcy and restructuring.
 
-While endogenous factors provided the foundation and initial identity of Detroit, exogenous forces —
-global economic competition, national policy, and external investment decisions — have been the
+While endogenous factors provided the foundation and initial identity of Detroit, exogenous forces,
+global economic competition, national policy, and external investment decisions, have been the
 dominant shapers of its trajectory over the past fifty years.
 
 ### Example 2: 6-Mark Question
@@ -454,18 +454,18 @@ dominant shapers of its trajectory over the past fifty years.
 **Answer:**
 
 Media representations shape both insider and outsider perceptions of a place. For outsiders, media
-is often the primary source of information. Negative coverage — for example, portraying a town as
-crime-ridden, economically depressed, or culturally limited — can deter investment, tourism, and
+is often the primary source of information. Negative coverage, for example, portraying a town as
+crime-ridden, economically depressed, or culturally limited, can deter investment, tourism, and
 migration. This was seen in portrayals of northern English towns as "left behind," which reinforced
 negative perceptions and discouraged businesses from locating there.
 
 Positive media representations can attract investment and visitors. Tourism marketing campaigns
-promote selective, idealised images of places — for example, Visit Britain's campaigns emphasise
+promote selective, idealised images of places, for example, Visit Britain's campaigns emphasise
 heritage, countryside, and cultural attractions. This can boost the economy but may create a
 superficial or incomplete picture that ignores local deprivation.
 
 Social media has amplified the speed and reach of place representation. Viral images of a location
-can rapidly change its perceived identity — either positively (creating "Instagrammable"
+can rapidly change its perceived identity, either positively (creating "Instagrammable"
 destinations) or negatively (spreading images of decline or disorder). For insiders, negative
 external representations can be frustrating and demoralising, affecting their own sense of place and
 community pride.
@@ -494,7 +494,7 @@ flowchart TD
 
 ## Summary
 
-- Places are more than physical spaces — they have subjective meanings, identities, and emotional
+- Places are more than physical spaces, they have subjective meanings, identities, and emotional
   attachments.
 - Endogenous factors (internal characteristics) and exogenous factors (external forces) interact to
   shape places over time.

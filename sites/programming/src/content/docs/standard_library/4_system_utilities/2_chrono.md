@@ -37,7 +37,7 @@ Formatting.
 3. **Durations:** A span of time (e.g., 500 milliseconds).
 
 The library uses the type system to prevent accidental mixing of units. `std::chrono::milliseconds`
-And `std::chrono::seconds` are **different types** — adding them together requires an explicit
+And `std::chrono::seconds` are **different types**, adding them together requires an explicit
 Conversion.
 
 ```
@@ -58,7 +58,7 @@ The standard defines three clocks [N4950 §29.5.7]:
 | `std::chrono::high_resolution_clock` | Alias for the clock with the shortest tick period (often `steady_clock`)         | Benchmarking                          |
 
 :::caution
-Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time** — it
+Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time**, it
 Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
 :::
 ### Durations
@@ -155,7 +155,7 @@ class Timer {
 public:
     explicit Timer(std::string label = "")
         : start_(std::chrono::steady_clock::now())
-        , label_(std::move(label)) {}
+label_(std::move(label)) {}
 
     ~Timer() {
         auto elapsed = std::chrono::steady_clock::now() - start_;
@@ -392,7 +392,7 @@ void duration_literals() {
     auto d5 = 2min;
     auto d6 = 3h;
 
-    // These are constexpr — usable at compile time
+    // These are constexpr, usable at compile time
     constexpr auto timeout = 500ms;
 
     // C++20 literals
@@ -490,7 +490,7 @@ void calendar_arithmetic() {
     // Adding months handles rollover
     chrono::year_month_day date{2026y, chrono::January, 31d};
     auto next_month = date + chrono::months{1};
-    // February 31 does not exist — the standard clamps to the last day of February
+    // February 31 does not exist, the standard clamps to the last day of February
     std::cout << "Jan 31 + 1 month = " << static_cast<unsigned>(next_month.month())
               << "/" << static_cast<unsigned>(next_month.day()) << "\n";
     // Jan 31 + 1 month = 2/28 (or 2/29 in a leap year)
@@ -613,9 +613,9 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 **The chrono library is like a universal clock:** Instead of using raw integers for time (is it seconds? milliseconds? nanoseconds?), chrono uses types that encode the unit in the type system. It's like the difference between saying "wait 5" (5 what?) and "wait 5 seconds" (unambiguous). A `std::chrono::seconds` is always seconds, a `std::chrono::milliseconds` is always milliseconds, and the compiler prevents you from mixing them without explicit conversion.
 
-**Why it matters:** The chrono library eliminates time unit bugs — one of the most common sources of subtle errors. Instead of `sleep(1000)` (is that 1 second or 1 millisecond?), you write `std::this_thread::sleep_for(std::chrono::seconds(1))`. The type system catches unit mismatches at compile time, and the library provides high-resolution clocks, time points, and durations for precise timing.
+**Why it matters:** The chrono library eliminates time unit bugs, one of the most common sources of subtle errors. Instead of `sleep(1000)` (is that 1 second or 1 millisecond?), you write `std::this_thread::sleep_for(std::chrono::seconds(1))`. The type system catches unit mismatches at compile time, and the library provides high-resolution clocks, time points, and durations for precise timing.
 
-**The key insight:** chrono encodes time units in the type system — the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
+**The key insight:** chrono encodes time units in the type system, the compiler catches unit mismatches at compile time, eliminating a common source of subtle bugs.
 
 
 ```mermaid

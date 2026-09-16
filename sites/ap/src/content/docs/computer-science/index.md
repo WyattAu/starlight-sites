@@ -45,15 +45,15 @@ course framework and big ideas.
 
 ## Topics Covered
 
-- **Computational Thinking** — problem decomposition, pattern recognition, abstraction, algorithm
+- **Computational Thinking**, problem decomposition, pattern recognition, abstraction, algorithm
   design, flowcharts and pseudocode
-- **Computing Systems** — hardware components, CPU architecture, memory hierarchy, operating
+- **Computing Systems**, hardware components, CPU architecture, memory hierarchy, operating
   systems, binary and hexadecimal representation
-- **Algorithms and Programming** — sequence, selection, iteration, functions, data structures
+- **Algorithms and Programming**, sequence, selection, iteration, functions, data structures
   (arrays, lists), searching and sorting algorithms, debugging
-- **Data Analysis** — data collection, cleaning, visualisation, statistical analysis, spreadsheets,
+- **Data Analysis**, data collection, cleaning, visualisation, statistical analysis, spreadsheets,
   databases and SQL queries
-- **Networks and the Internet** — network topologies, protocols (TCP/IP, HTTP), cybersecurity,
+- **Networks and the Internet**, network topologies, protocols (TCP/IP, HTTP), cybersecurity,
   encryption, ethical and legal considerations
 
 ## How to Use These Notes
@@ -65,15 +65,15 @@ course framework and big ideas.
 
 ## Study Tips
 
-- Trace algorithms by hand on paper — the exam frequently asks you to determine output or find
+- Trace algorithms by hand on paper, the exam frequently asks you to determine output or find
   errors in pseudocode
 - Learn the time complexity (Big-O) of common algorithms (linear search, binary search, bubble sort)
   as performance analysis is a recurring theme
 - Practise writing and debugging code in the language specified by your course; many concepts
   translate but syntax matters
-- Review cybersecurity and ethical scenarios — the exam tests your ability to evaluate real-world
+- Review cybersecurity and ethical scenarios, the exam tests your ability to evaluate real-world
   impacts of computing decisions
-- Build your own example programs for each concept — active coding reinforces understanding far more
+- Build your own example programs for each concept, active coding reinforces understanding far more
   than passive reading
 - Create comparison tables for similar concepts (e.g., TCP vs UDP, linear search vs binary search)
   to clarify when to use each approach
@@ -81,7 +81,7 @@ course framework and big ideas.
   rewards well-structured written responses
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
-- Review the AP Computer Science Principles computational thinking practices alongside content —
+- Review the AP Computer Science Principles computational thinking practices alongside content,
   they are assessed throughout the exam
 
 ## Summary

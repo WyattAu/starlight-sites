@@ -1,5 +1,5 @@
 ---
-title: "A-Level Glossary — Key Terms Across All Subjects"
+title: "A-Level Glossary, Key Terms Across All Subjects"
 description: "Essential A-Level terminology: assessment objectives, UCAS tariffs, modular structures, and subject-specific definitions for Biology, Chemistry, Physics, Maths, and humanities."
 date: 2026-07-24
 tags: [glossary]
@@ -61,7 +61,7 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 ## Computer Science
 
-**Computational Complexity**: Classification of algorithm resource use — O(1), O(log n), O(n), O(n log n), O(n^2) — and how it features in the NEA project write-up.
+**Computational Complexity**: Classification of algorithm resource use, O(1), O(log n), O(n), O(n log n), O(n^2), and how it features in the NEA project write-up.
 
 **Regular Expression**: A pattern language for matching text; exam questions test constructing and tracing expressions.
 
@@ -87,30 +87,30 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 ## History
 
-**Historiography**: The study of how historians interpret events — essay marks reward weighing schools of thought, not just narrating facts.
+**Historiography**: The study of how historians interpret events, essay marks reward weighing schools of thought, not just narrating facts.
 
 **Primary vs Secondary Sources**: Contemporary evidence versus later analysis; source-value questions test provenance, audience, and purpose.
 
-**Totalitarianism**: A 20th-century state form claiming total control over public and private life — a core theme across Russian, German, and Italian papers.
+**Totalitarianism**: A 20th-century state form claiming total control over public and private life, a core theme across Russian, German, and Italian papers.
 
 ## English Literature
 
 **Close Reading**: Sustained analysis of language, form, and structure in short extracts; AO1/AO2 are the marking core.
 
-**Unreliable Narrator**: A first-person voice whose account readers must discount — central to modern prose set texts.
+**Unreliable Narrator**: A first-person voice whose account readers must discount, central to modern prose set texts.
 
 **Comparative Essay**: AO4/AO5 skill of linking two texts' methods and critical perspectives in a single argument.
 
 
 ## Exam Technique Terms
 
-**Command Word**: The verb dictating response depth — state (one line), describe (no reasons), explain (give reasons), evaluate (weigh evidence and conclude).
+**Command Word**: The verb dictating response depth, state (one line), describe (no reasons), explain (give reasons), evaluate (weigh evidence and conclude).
 
 **Mark Scheme Levels**: Level-of-response marking (Levels 1-3) used by essay subjects; top levels require sustained argument, not bullet recall.
 
-**AO Weights**: The proportion of marks per objective — Physics is roughly 40% AO1, 40% AO2, 20% AO3; English Literature weights analysis (AO2) and context (AO3) heavily.
+**AO Weights**: The proportion of marks per objective, Physics is roughly 40% AO1, 40% AO2, 20% AO3; English Literature weights analysis (AO2) and context (AO3) heavily.
 
-**QP/MS/ER**: The revision triad — Question Paper, Mark Scheme, Examiner Report. The ER tells you where last year's candidates lost marks.
+**QP/MS/ER**: The revision triad, Question Paper, Mark Scheme, Examiner Report. The ER tells you where last year's candidates lost marks.
 
 **Formulae Booklet**: The printed data/formulae sheet provided in maths and sciences; knowing what is and is not given changes what you memorise.
 
@@ -122,13 +122,13 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 **Monetary Policy**: Central bank interest-rate and money-supply management targeting inflation (the UK target is 2% CPI).
 
-**Supply-Side Policy**: Measures raising productive capacity — education, infrastructure, labour-market reform — shifting long-run aggregate supply.
+**Supply-Side Policy**: Measures raising productive capacity, education, infrastructure, labour-market reform, shifting long-run aggregate supply.
 
 ## Psychology
 
 **Ecological Validity**: Whether findings generalise to real-life settings; a classic evaluation point against laboratory experiments.
 
-**Cognitive Bias**: Systematic deviation from rational judgement — confirmation bias, hindsight bias — core to the cognitive approach topic.
+**Cognitive Bias**: Systematic deviation from rational judgement, confirmation bias, hindsight bias, core to the cognitive approach topic.
 
 **Peer Review**: The scrutiny process before publication; both a quality filter and a recurring evaluation discussion point.
 
@@ -136,7 +136,7 @@ Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse t
 
 **Break-Even Output**: The quantity where total revenue equals total cost; contribution per unit times fixed costs gives the calculation.
 
-**Cash Flow Forecast**: The month-by-month prediction of inflows and outflows; insolvency kills profitable firms — cash is not profit.
+**Cash Flow Forecast**: The month-by-month prediction of inflows and outflows; insolvency kills profitable firms, cash is not profit.
 
 
 ## Chemistry Quick Reference

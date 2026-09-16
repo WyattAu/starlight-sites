@@ -36,7 +36,7 @@ flowchart TD
 - Conservation of mechanical energy: $K_i + U_i = K_f + U_f$
 - Power: $P = \frac{W}{t} = F \cdot v$
 
-## Worked Example 1 — Work Done by a Variable Force
+## Worked Example 1, Work Done by a Variable Force
 
 **Problem:** A force $F = (3x^2 + 2x) \, \text{N}$ acts on a particle, moving it from $x = 0$ to $x = 4 \, \text{m}$. Find the work done.
 
@@ -44,7 +44,7 @@ flowchart TD
 $$W = \int_0^4 F \, dx = \int_0^4 (3x^2 + 2x) \, dx$$
 $$= \left[ x^3 + x^2 \right]_0^4 = (64 + 16) - 0 = 80 \, \text{J}$$
 
-## Worked Example 2 — Work-Energy Theorem
+## Worked Example 2, Work-Energy Theorem
 
 **Problem:** A 2 kg block moving at $10 \, \text{m/s}$ on a rough surface comes to rest after sliding 25 m. Find the coefficient of kinetic friction.
 
@@ -56,7 +56,7 @@ $$-\mu_k mg \cdot d = 0 - \frac{1}{2}mv_i^2$$
 $$\mu_k \times 9.8 \times 25 = \frac{1}{2} \times 10^2$$
 $$\mu_k = \frac{50}{245} \approx 0.204$$
 
-## Worked Example 3 — Conservation of Energy on a Track
+## Worked Example 3, Conservation of Energy on a Track
 
 **Problem:** A ball is released from rest at the top of a frictionless track of height $h = 5 \, \text{m}$. Find the speed at the bottom. ($g = 9.8 \, \text{m/s}^2$)
 
@@ -65,7 +65,7 @@ $$\mu_k = \frac{50}{245} \approx 0.204$$
 $$mgh = \frac{1}{2}mv^2$$
 $$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \text{m/s}$$
 
-## Worked Example 4 — Power Calculation
+## Worked Example 4, Power Calculation
 
 **Problem:** A car of mass 1000 kg accelerates from rest to $20 \, \text{m/s}$ in 10 seconds. Find the average power delivered by the engine.
 
@@ -73,7 +73,7 @@ $$v = \sqrt{2gh} = \sqrt{2 \times 9.8 \times 5} = \sqrt{98} \approx 9.90 \, \tex
 $$\Delta K = \frac{1}{2}mv^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \, \text{J}$$
 $$P_{avg} = \frac{W}{t} = \frac{200{,}000}{10} = 20{,}000 \, \text{W} = 20 \, \text{kW}$$
 
-## Worked Example 5 — Work-Energy Theorem with Multiple Forces
+## Worked Example 5, Work-Energy Theorem with Multiple Forces
 
 **Problem:** A 4 kg block starts from rest and is pushed by a 30 N horizontal force over 8 m on a surface with $\mu_k = 0.25$. Find the final speed. ($g = 9.8 \, \text{m/s}^2$)
 
@@ -103,7 +103,7 @@ $$v_f = \sqrt{\frac{2W_{net}}{m}} = \sqrt{\frac{2 \times 161.6}{4}} = \sqrt{80.8
 1. A body of mass 3 kg is lifted vertically by 10 m at constant speed. Find the work done against gravity.
 2. Two blocks of masses 2 kg and 3 kg are connected by a spring on a frictionless surface. The 2 kg block is pulled and released, compressing the spring. If the spring constant is $k = 200 \, \text{N/m}$, find the maximum compression.
 
-## Worked Example 6 — Work Done by Gravity on a Curved Path
+## Worked Example 6, Work Done by Gravity on a Curved Path
 
 **Problem:** A 2 kg ball is thrown from the ground at 20 m/s at $60^\circ$ to the horizontal. Find the work done by gravity when the ball reaches its maximum height.
 
@@ -119,7 +119,7 @@ The work is negative because gravity acts downward while the displacement is upw
 
 **Common mistake:** Forgetting the negative sign. Gravity does negative work when an object moves upward.
 
-## Worked Example 7 — Power and Terminal Velocity
+## Worked Example 7, Power and Terminal Velocity
 
 **Problem:** A car of mass 1200 kg travels at constant speed up a hill inclined at $\sin\theta = 0.05$. The resistive force is 600 N. Find the power required. ($g = 9.8 \text{ m/s}^2$)
 
@@ -133,7 +133,7 @@ $$P = Fv = 1188 \times 25 = 29{,}700 \text{ W} \approx 30 \text{ kW}$$
 
 **Common mistake:** Forgetting to include the gravitational component when calculating power on a slope.
 
-## Worked Example 8 — Elastic Collision in One Dimension
+## Worked Example 8, Elastic Collision in One Dimension
 
 **Problem:** A 1 kg ball moving at 5 m/s collides elastically with a 3 kg ball at rest. Find the velocities after collision.
 
@@ -166,11 +166,11 @@ The work-energy theorem and conservation of energy are among the most powerful t
 
 ## Intuition
 
-**Work is about transferring energy through force:** When you push a box across a room, you're doing work — transferring energy from you to the box. The amount depends on how hard you push (force), how far it moves (distance), and the angle between them. Friction does negative work because it opposes motion, draining energy from the system.
+**Work is about transferring energy through force:** When you push a box across a room, you're doing work, transferring energy from you to the box. The amount depends on how hard you push (force), how far it moves (distance), and the angle between them. Friction does negative work because it opposes motion, draining energy from the system.
 
 **Why it matters:** The work-energy theorem is one of the most powerful tools in physics. It lets you solve complex problems by comparing initial and final states without tracking every force at every moment. This is how engineers calculate car crash impacts, how physicists analyze particle collisions, and how astronomers predict orbital mechanics.
 
-**The key insight:** Power is the rate of energy transfer — a car engine doesn't just need to produce energy, it needs to produce it fast enough to accelerate quickly. This distinction between energy and power explains why a small car can outperform a large truck.
+**The key insight:** Power is the rate of energy transfer, a car engine doesn't just need to produce energy, it needs to produce it fast enough to accelerate quickly. This distinction between energy and power explains why a small car can outperform a large truck.
 
 ## Common Mistakes
 

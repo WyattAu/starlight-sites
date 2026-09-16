@@ -734,11 +734,11 @@ Currently not permitted in most countries due to ethical concerns.
 
 ## Intuition
 
-**Invisible allies:** Microorganisms are like tiny factories — bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.
+**Invisible allies:** Microorganisms are like tiny factories, bacteria make yogurt and antibiotics, yeasts bake bread and brew beer. Biotechnology harnesses these organisms for human benefit.
 
 **Why it matters:** From genetic engineering to disease control, microorganisms are both tools and threats. Understanding them helps us harness their power while avoiding their dangers.
 
-**The key insight:** Not all bacteria are harmful — most are harmless or beneficial, and our bodies contain more bacterial cells than human cells.
+**The key insight:** Not all bacteria are harmful, most are harmless or beneficial, and our bodies contain more bacterial cells than human cells.
 
 ## Common Pitfalls
 

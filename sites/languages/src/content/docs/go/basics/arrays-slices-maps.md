@@ -328,7 +328,7 @@ Structs containing slices or maps are not comparable.
 
 **Why it matters:** Understanding the slice-as-window mental model prevents the most common Go bugs: forgetting that `append` may reallocate, holding onto a tiny slice that keeps a huge array alive, or writing through one slice and surprising another.
 
-**The key insight:** Slices are cheap because they're just pointers with bounds — but that shared backing array means operations that look local can have global effects.
+**The key insight:** Slices are cheap because they're just pointers with bounds, but that shared backing array means operations that look local can have global effects.
 
 ## Common Pitfalls
 

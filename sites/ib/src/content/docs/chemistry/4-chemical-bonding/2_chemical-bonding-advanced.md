@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Advanced bonding is like understanding the quantum rules of molecular construction — hybridization, VSEPR, and molecular orbitals determine shape and reactivity:** Molecular geometry (predicted by VSEPR theory) determines polarity, reactivity, and biological activity
+**Advanced bonding is like understanding the quantum rules of molecular construction, hybridization, VSEPR, and molecular orbitals determine shape and reactivity:** Molecular geometry (predicted by VSEPR theory) determines polarity, reactivity, and biological activity
 
 **Why it matters:** Advanced bonding concepts are essential for drug design, materials science, and understanding spectroscopy
 
@@ -163,7 +163,7 @@ $$
 
 - Hybridization describes the central atom"s orbitals, not the entire molecule.
 - Lone pairs are included in the steric number when determining hybridization.
-- Pi bonds do not participate in hybridization — they involve unhybridized $p$-orbitals.
+- Pi bonds do not participate in hybridization, they involve unhybridized $p$-orbitals.
 
 ---
 
@@ -216,18 +216,18 @@ $$
 | Molecule        | Bond order | Bond type      | Magnetic         |
 | --------------- | ---------- | -------------- | ---------------- |
 | $\mathrm{H}_2$  | $1$        | Single         | Diamagnetic      |
-| $\mathrm{He}_2$ | $0$        | Does not exist | —                |
+| $\mathrm{He}_2$ | $0$        | Does not exist |,                |
 | $\mathrm{Li}_2$ | $1$        | Single         | Diamagnetic      |
 | $\mathrm{B}_2$  | $1$        | Single         | **Paramagnetic** |
 | $\mathrm{C}_2$  | $2$        | Double         | Diamagnetic      |
 | $\mathrm{N}_2$  | $3$        | Triple         | Diamagnetic      |
 | $\mathrm{O}_2$  | $2$        | Double         | **Paramagnetic** |
 | $\mathrm{F}_2$  | $1$        | Single         | Diamagnetic      |
-| $\mathrm{Ne}_2$ | $0$        | Does not exist | —                |
+| $\mathrm{Ne}_2$ | $0$        | Does not exist |,                |
 
 ### Key Successes of MO Theory
 
-- Explains why $\mathrm{O}_2$ is **paramagnetic** (two unpaired electrons in $\pi^*$ orbitals) —
+- Explains why $\mathrm{O}_2$ is **paramagnetic** (two unpaired electrons in $\pi^*$ orbitals),
   VSEPR and valence bond theory cannot explain this.
 - Explains why $\mathrm{He}_2$ and $\mathrm{Ne}_2$ do not exist (bond order = 0).
 - Predicts correct bond orders and bond lengths.
@@ -264,7 +264,7 @@ Electrostatic attraction.
 | Electrical conductivity | Delocalised electrons can move freely under an applied potential          |
 | Thermal conductivity    | Delocalised electrons transfer kinetic energy                             |
 | Malleability            | Cations can slide past each other without breaking the metallic bond      |
-| Ductility               | Same as malleability — layers of cations can shift                        |
+| Ductility               | Same as malleability, layers of cations can shift                        |
 | High melting points     | Strong electrostatic attraction between cations and electrons             |
 | Luster                  | Delocalised electrons absorb and re-emit light at all visible wavelengths |
 
@@ -793,7 +793,7 @@ $$\mathrm{O}=\mathrm{Xe}(=\mathrm{O})_2 \text{ with one lone pair on Xe}$$
 - Xe: $8 - 2 - 12/2 = 8 - 2 - 6 = 0$
 - Each O: $6 - 4 - 4/2 = 6 - 4 - 2 = 0$
 
-All formal charges are zero — this is the preferred structure.
+All formal charges are zero, this is the preferred structure.
 
 **Step 5: Geometry and polarity.**
 
@@ -857,7 +857,7 @@ $$U = \frac{2400.4}{334}\left(1 - 0.1033\right)$$
 
 $$U = 7.187 \times 0.8967 = 6.445\;\mathrm{kJ/mol} \times 10^2 = 644.5\;\mathrm{kJ/mol}$$
 
-Wait — the Kapustinskii equation as written gives the answer in $\mathrm{kJ/mol}$ directly when
+Wait, the Kapustinskii equation as written gives the answer in $\mathrm{kJ/mol}$ directly when
 radii are in pm:
 
 $$U = \frac{1200.2 \times 2}{334}\left(1 - \frac{34.5}{334}\right) = \frac{2400.4}{334}(0.8967) = 7.187 \times 0.8967 = 6.44$$
@@ -995,7 +995,7 @@ from the value in methane.
 - **Assuming all p-type dopants produce the same effect**: The effectiveness of doping depends on
   the concentration of dopant atoms and their energy levels relative to the valence band. Deep-level
   impurities (e.g., gold in silicon) create energy levels in the middle of the band gap and act as
-  recombination centres, reducing carrier lifetime — the opposite of what is desired for
+  recombination centres, reducing carrier lifetime, the opposite of what is desired for
   semiconductor devices.
 
 ---

@@ -1,7 +1,7 @@
 ---
 
 title: Go Standard Library Flashcards
-description: "Go's standard library is deliberately comprehensive — the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles"
+description: "Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles"
 date: 2026-05-31
 tags:
   - Go
@@ -15,21 +15,21 @@ import { flashcardData } from '@/data/flashcards/go/flashcards-standard-library-
 
 ## Go Standard Library Flashcards
 
-15 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http,
+15 flashcards covering key packages in the Go standard library, fmt, strings, io, net/http,
 encoding/json, and os.
 
 ---
 
 ## Intuition
 
-Go's standard library is deliberately comprehensive — the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader`, `Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
+Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader`, `Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
 
 ## Common Pitfalls
 
-- **Ignoring errors**: Go returns `(value, error)` tuples — discarding the error with `_` hides failures that will bite you later. Always check `err != nil`.
-- **String indexing**: `s[i]` returns a `byte`, not a rune — iterating over a string by index breaks for multi-byte UTF-8 characters. Use `for _, r := range s` instead.
-- **Deferred function arguments**: Arguments to `defer` are evaluated immediately when the statement executes, not when the function returns — this catches many developers off guard.
-- **HTTP client timeouts**: The default `http.Client` has no timeout — requests can hang forever. Always set `Timeout` on production HTTP clients.
+- **Ignoring errors**: Go returns `(value, error)` tuples, discarding the error with `_` hides failures that will bite you later. Always check `err != nil`.
+- **String indexing**: `s[i]` returns a `byte`not a rune, iterating over a string by index breaks for multi-byte UTF-8 characters. Use `for _, r := range s` instead.
+- **Deferred function arguments**: Arguments to `defer` are evaluated immediately when the statement executes, not when the function returns, this catches many developers off guard.
+- **HTTP client timeouts**: The default `http.Client` has no timeout, requests can hang forever. Always set `Timeout` on production HTTP clients.
 - **JSON struct tags**: Forgetting `json:"name"` tags means Go uses the field name as-is (capitalised), which may not match the expected API field name. Always add explicit tags.
 
 ## Study Tips

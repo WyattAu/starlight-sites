@@ -44,7 +44,7 @@ On TrueNAS, the minimum SMB version is configured under **Sharing** → **Window
 ### SMB3 Features in Detail
 
 **SMB Encryption:** Encrypts all SMB traffic, protecting data in transit from eavesdropping. The
-Overhead depends on CPU capability — AES-NI hardware acceleration reduces the cost to approximately
+Overhead depends on CPU capability, AES-NI hardware acceleration reduces the cost to approximately
 3–5% throughput reduction. Enable per-share or globally.
 
 **SMB Multichannel:** Allows multiple network connections between client and server, increasing
@@ -72,10 +72,10 @@ TrueNAS offers two approaches to SMB permissions:
 
 1. **SMB Dataset Permissions (simplified):** Set via the SMB share configuration. Options include:
 
-- `DEFAULT` — Use the dataset"s Unix permissions
-- `RESTRICTED` — Only the owner can access
-- `BUILTIN_ADMINISTRATORS` — Windows admin group gets full access
-- `BUILTIN_USERS` — Windows users group gets read access
+- `DEFAULT`Use the dataset"s Unix permissions
+- `RESTRICTED`Only the owner can access
+- `BUILTIN_ADMINISTRATORS`Windows admin group gets full access
+- `BUILTIN_USERS`Windows users group gets read access
 
 1. **ACL Management (advanced):** Use Windows-style ACLs via the TrueNAS ACL editor. This provides
    fine-grained control over user and group permissions, including inheritance.
@@ -131,7 +131,7 @@ TrueNAS can act as a Time Machine backup target for macOS:
 
 - Time Machine creates sparse bundle disk images. These grow over time and cannot be shrunk.
 - Enable quotas on the Time Machine dataset to prevent it from consuming all available space.
-- Time Machine backups are not compatible with ZFS snapshots — the sparse bundle format does not
+- Time Machine backups are not compatible with ZFS snapshots, the sparse bundle format does not
   support efficient snapshotting.
 
 ### Opportunistic Locking (OpLocks)
@@ -305,10 +305,10 @@ mount -t nfs4 -o rw,noatime,hard,intr,_netdev,rsize=1048576,wsize=1048576 \
     nas:/mnt/pool/data /mnt/data
 
 # Key options:
-# rsize/wsize — Read/write size. 1M is optimal for modern networks.
-# hard — Retry indefinitely on server failure (vs soft which returns I/O error).
-# intr — Allow interrupting hung NFS calls.
-# noatime — Don't update access times.
+# rsize/wsize, Read/write size. 1M is optimal for modern networks.
+# hard, Retry indefinitely on server failure (vs soft which returns I/O error).
+# intr, Allow interrupting hung NFS calls.
+# noatime, Don't update access times.
 ```
 
 ### NFS Server Tuning on TrueNAS
@@ -368,10 +368,10 @@ Workload that requires raw block access rather than file-level access.
 | Component | Role                                                              |
 | --------- | ----------------------------------------------------------------- |
 | Target    | The storage server (TrueNAS) that provides block devices          |
-| LUN       | Logical Unit Number — the block device exposed by the target      |
+| LUN       | Logical Unit Number, the block device exposed by the target      |
 | Initiator | The client that connects to the target and accesses the LUN       |
 | Portal    | The IP address and port the target listens on                     |
-| IQN       | iSCSI Qualified Name — unique identifier for target and initiator |
+| IQN       | iSCSI Qualified Name, unique identifier for target and initiator |
 
 ### iSCSI Discovery and Login
 
@@ -427,8 +427,8 @@ Key zvol properties:
 ### Zvol Sizing Considerations
 
 - Zvols are pre-allocated at creation time (unlike datasets that grow dynamically). Choose the size
-  carefully — resizing a zvol is possible but requires coordination with the client.
-- Over-provisioning zvols is safe with ZFS — the zvol size is a logical limit, not a physical
+  carefully, resizing a zvol is possible but requires coordination with the client.
+- Over-provisioning zvols is safe with ZFS, the zvol size is a logical limit, not a physical
   allocation. As long as the pool has free space, the zvol can be written to up to its logical size.
 - Thin provisioning is the default on TrueNAS. The zvol only consumes pool space as data is written.
   Monitor pool capacity to prevent the zvol from consuming all available space.
@@ -518,9 +518,9 @@ chown -R user:group /mnt/pool/dataset
 chmod -R 750 /mnt/pool/dataset
 
 # Common permission sets:
-# 755 (rwxr-xr-x) — Owner full, group and others read+execute
-# 770 (rwxrwx---) — Owner and group full, others none
-# 750 (rwxr-x---) — Owner full, group read+execute, others none
+# 755 (rwxr-xr-x), Owner full, group and others read+execute
+# 770 (rwxrwx---), Owner and group full, others none
+# 750 (rwxr-x---), Owner full, group read+execute, others none
 ```
 
 ### Permission Bits Explained

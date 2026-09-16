@@ -57,7 +57,7 @@ Current electricity deals with the flow of electric charge through conductors. I
 - Kirchhoff's loop rule: $\sum V = 0$ around any closed loop (conservation of energy)
 - Power: $P = IV = I^2R = \frac{V^2}{R}$
 
-## Worked Example 1 — Series Circuit Analysis
+## Worked Example 1, Series Circuit Analysis
 
 **Problem:** Three resistors of 2 $\Omega$, 3 $\Omega$, and 5 $\Omega$ are connected in series to a 10 V battery. Find the current through each resistor and the voltage across each.
 
@@ -78,7 +78,7 @@ Check: $V_1 + V_2 + V_3 = 2 + 3 + 5 = 10 \, \text{V}$ (matches the battery volta
 
 **Common mistake:** Assuming the voltage is the same across all resistors in series. In series, current is constant, not voltage.
 
-## Worked Example 2 — Parallel Circuit Analysis
+## Worked Example 2, Parallel Circuit Analysis
 
 **Problem:** Two resistors of 6 $\Omega$ and 3 $\Omega$ are connected in parallel to a 12 V battery. Find the current through each resistor and the total current.
 
@@ -100,7 +100,7 @@ $$R_{eq} = \frac{V}{I_{total}} = \frac{12}{6} = 2 \, \Omega$$
 
 **Common mistake:** Forgetting that current splits in parallel circuits. The total current is the sum of branch currents.
 
-## Worked Example 3 — Wheatstone Bridge
+## Worked Example 3, Wheatstone Bridge
 
 **Problem:** A Wheatstone bridge has resistors $R_1 = 100 \, \Omega$, $R_2 = 200 \, \Omega$, $R_3 = 150 \, \Omega$ in three arms. Find the value of $R_4$ for the bridge to be balanced.
 
@@ -121,11 +121,11 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 
 ## Intuition
 
-**Electric current is charge in motion — like water flowing through pipes:** Think of voltage as water pressure, current as flow rate, and resistance as pipe narrowness. Ohm's law (V = IR) is the electrical equivalent of "more pressure pushes more water through a narrow pipe." Series circuits are like pipes connected end-to-end — the same water flows through each section. Parallel circuits are like branching pipes — the flow splits among branches, each getting the same pressure but different amounts of water depending on their resistance.
+**Electric current is charge in motion, like water flowing through pipes:** Think of voltage as water pressure, current as flow rate, and resistance as pipe narrowness. Ohm's law (V = IR) is the electrical equivalent of "more pressure pushes more water through a narrow pipe." Series circuits are like pipes connected end-to-end, the same water flows through each section. Parallel circuits are like branching pipes, the flow splits among branches, each getting the same pressure but different amounts of water depending on their resistance.
 
-**Why it matters:** Current electricity is literally the lifeblood of modern civilization — it powers everything from lighting to computing to communication. Understanding circuits means understanding how to design, build, and troubleshoot the electrical systems that run our world.
+**Why it matters:** Current electricity is literally the lifeblood of modern civilization, it powers everything from lighting to computing to communication. Understanding circuits means understanding how to design, build, and troubleshoot the electrical systems that run our world.
 
-**The key insight:** Kirchhoff's laws are just conservation laws in disguise — the junction rule conserves charge (what goes in must come out), and the loop rule conserves energy (what you gain going around must equal what you lose).
+**The key insight:** Kirchhoff's laws are just conservation laws in disguise, the junction rule conserves charge (what goes in must come out), and the loop rule conserves energy (what you gain going around must equal what you lose).
 
 ## Common Exam Patterns
 
@@ -145,7 +145,7 @@ $$R_4 = \frac{R_2 \times R_3}{R_1} = \frac{200 \times 150}{100} = 300 \, \Omega$
 - Internal resistance: $V_{terminal} = E - Ir$
 - Temperature dependence: $R = R_0[1 + \alpha(T - T_0)]$
 
-## Worked Example 4 — Mixed Series-Parallel Circuit
+## Worked Example 4, Mixed Series-Parallel Circuit
 
 **Problem:** Find the equivalent resistance of the circuit shown below: $R_1 = 6\,\Omega$ and $R_2 = 3\,\Omega$ are in parallel, and this combination is in series with $R_3 = 4\,\Omega$.
 
@@ -159,7 +159,7 @@ $$R_{eq} = R_{12} + R_3 = 2 + 4 = 6\,\Omega$$
 
 **Common mistake:** Adding the parallel resistors directly without using the parallel formula. Parallel resistors always give a smaller equivalent resistance.
 
-## Worked Example 5 — Kirchhoff's Loop Rule
+## Worked Example 5, Kirchhoff's Loop Rule
 
 **Problem:** In the circuit below, find the current through each resistor. Battery EMF = 12 V, $R_1 = 4\,\Omega$, $R_2 = 6\,\Omega$, $R_3 = 3\,\Omega$. $R_1$ and $R_2$ are in parallel, connected to the battery through $R_3$.
 
@@ -188,7 +188,7 @@ $$I = I_1 + I_2 = \frac{4}{3} + \frac{8}{9} = \frac{12 + 8}{9} = \frac{20}{9} \a
 
 **Common mistake:** Forgetting to include the internal resistance of the battery or the series resistor when applying Kirchhoff's loop rule.
 
-## Worked Example 6 — Temperature Dependence of Resistance
+## Worked Example 6, Temperature Dependence of Resistance
 
 **Problem:** A copper wire has resistance $10\,\Omega$ at $20°\text{C}$. What is its resistance at $80°\text{C}$? (Temperature coefficient of copper: $\alpha = 0.00404\,°\text{C}^{-1}$)
 

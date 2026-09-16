@@ -893,7 +893,7 @@ linked above.
 
 Logic is the grammar of mathematics. Just as grammar tells you whether a sentence is well-formed, logic tells you whether an argument is valid. Every mathematical proof is essentially a chain of logical statements, each following inevitably from the previous ones.
 
-Think of logical connectives as building blocks. "And" requires both parts to be true. "Or" requires at least one part to be true. "If...then" is the most subtle — it only fails when the hypothesis is true but the conclusion is false. The contrapositive ("if not B then not A") is always logically equivalent to the original ("if A then B"), which is why proof by contradiction works so often. Truth tables are the "calculator" of logic — they let you mechanically verify any complex statement.
+Think of logical connectives as building blocks. "And" requires both parts to be true. "Or" requires at least one part to be true. "If...then" is the most subtle, it only fails when the hypothesis is true but the conclusion is false. The contrapositive ("if not B then not A") is always logically equivalent to the original ("if A then B"), which is why proof by contradiction works so often. Truth tables are the "calculator" of logic, they let you mechanically verify any complex statement.
 
 ## Common Mistakes
 

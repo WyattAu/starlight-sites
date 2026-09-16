@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
-## Capacitance — Diagnostic Tests
+## Capacitance, Diagnostic Tests
 
 ## Unit Tests
 
@@ -101,7 +101,7 @@ removing it requires work).
 }
 </script>
 
-### UT-2: Energy Stored in a Capacitor — Three Formulae
+### UT-2: Energy Stored in a Capacitor, Three Formulae
 
 **Question:**
 
@@ -360,7 +360,7 @@ same amount of energy would be lost (as radiation rather than heat).
 
 **Forgetting that energy stored is $\frac{1}{2}CV^2$, not $CV^2$:** The energy stored in a capacitor is $E = \frac{1}{2}CV^2 = \frac{1}{2}QV = \frac{Q^2}{2C}$. The factor of $\frac{1}{2}$ arises because the voltage increases linearly from 0 to $V$ as the capacitor charges. Students often write $E = CV^2$, which is double the correct value.
 
-**Misidentifying series and parallel capacitor combinations:** Capacitors in series combine like resistors in parallel: $\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2}$. Capacitors in parallel combine like resistors in series: $C_{total} = C_1 + C_2$. This is the opposite of resistors — students frequently get this backwards.
+**Misidentifying series and parallel capacitor combinations:** Capacitors in series combine like resistors in parallel: $\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2}$. Capacitors in parallel combine like resistors in series: $C_{total} = C_1 + C_2$. This is the opposite of resistors, students frequently get this backwards.
 
 ## Cross-References
 

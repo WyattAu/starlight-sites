@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Wave Properties — Diagnostic Tests
+## Wave Properties, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Waves are like messengers carrying energy without carrying matter — they ripple through media, transferring information across vast distances:** Waves exhibit both particle-like and wave-like behavior, and their interference patterns reveal the fundamental nature of reality
+**Waves are like messengers carrying energy without carrying matter, they ripple through media, transferring information across vast distances:** Waves exhibit both particle-like and wave-like behavior, and their interference patterns reveal the fundamental nature of reality
 
 **Why it matters:** Understanding waves explains sound, light, radio, earthquakes, and quantum mechanics
 
@@ -90,7 +90,7 @@ of the amplitude.
 }
 </script>
 
-### UT-2: Wave Speed on a String — Dependence on Tension and Mass Per Unit Length
+### UT-2: Wave Speed on a String, Dependence on Tension and Mass Per Unit Length
 
 **Question:**
 
@@ -138,7 +138,7 @@ a $\sqrt{1.44} - 1 = 1.20 - 1 = 20\%$ increase in frequency.
 }
 </script>
 
-### UT-3: Electromagnetic Waves — Speed in Vacuum vs Medium
+### UT-3: Electromagnetic Waves, Speed in Vacuum vs Medium
 
 **Question:**
 

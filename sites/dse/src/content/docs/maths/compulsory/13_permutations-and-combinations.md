@@ -1060,7 +1060,7 @@ $\blacksquare$
   (order doesn't matter).
 - For restrictions (e.g., items together), use the "block" method.
 - For "at least" problems, either enumerate cases or use the complement: total $-$ unwanted.
-- $0! = 1$; $n!$ grows extremely fast — use simplification before computing.
+- $0! = 1$; $n!$ grows extremely fast, use simplification before computing.
 
 ## Intuition
 

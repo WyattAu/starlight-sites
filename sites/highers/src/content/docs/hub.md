@@ -54,9 +54,9 @@ flowchart TD
 
 ## Why This Guide Exists
 
-The Scottish Highers are the qualifications taken by students in Scotland, typically in S5 (the fifth year of secondary school). They are the Scottish equivalent of A-levels and are used for university admissions across the UK and internationally. Highers are structured differently from other UK qualifications — you typically sit 5 Highers in S5 and may take Advanced Highers in S6 for more advanced study.
+The Scottish Highers are the qualifications taken by students in Scotland, typically in S5 (the fifth year of secondary school). They are the Scottish equivalent of A-levels and are used for university admissions across the UK and internationally. Highers are structured differently from other UK qualifications, you typically sit 5 Highers in S5 and may take Advanced Highers in S6 for more advanced study.
 
-This hub page links every resource on this site — organised by subject, with study plans and exam strategies tailored to the SQA assessment approach. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
+This hub page links every resource on this site, organised by subject, with study plans and exam strategies tailored to the SQA assessment approach. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
 
 ## Table of Contents
 
@@ -77,22 +77,22 @@ Higher Biology covers cell biology, metabolism, multicellular organisms, genetic
 
 ### Topic Notes
 
-- [Biology Overview](biology) — course structure and assessment format
-- [Cell Biology](biology/1-cell-biology) — cell structure, organelles, and membrane transport
-- [Metabolism](biology/2-metabolism) — enzymes, respiration, and photosynthesis
-- [Multicellular Organisms](biology/3-multicellular) — tissues, organ systems, and homeostasis
-- [Genetics and Adaptation](biology/4-genetics-adaptation) — inheritance, DNA, and natural selection
-- [Evolution](biology/5-evolution) — evidence for evolution, speciation, and classification
+- [Biology Overview](biology), course structure and assessment format
+- [Cell Biology](biology/1-cell-biology), cell structure, organelles, and membrane transport
+- [Metabolism](biology/2-metabolism), enzymes, respiration, and photosynthesis
+- [Multicellular Organisms](biology/3-multicellular), tissues, organ systems, and homeostasis
+- [Genetics and Adaptation](biology/4-genetics-adaptation), inheritance, DNA, and natural selection
+- [Evolution](biology/5-evolution), evidence for evolution, speciation, and classification
 
 ### Practice and Review
 
 - [Flashcards: Biology](flashcards-biology)
 - [Practice Questions: Biology](biology/practice-biology)
-- [Diagnostic Quizzes](biology/diagnostics) — test across all biology topics
+- [Diagnostic Quizzes](biology/diagnostics), test across all biology topics
 
 ### Key Exam Focus
 
-Higher Biology requires you to describe, explain, and evaluate biological processes. The exam includes structured questions, data analysis, and extended-response questions. Diagrams and labelled drawings are frequently tested — practise drawing and annotating cell structures, enzyme action, and genetic crosses.
+Higher Biology requires you to describe, explain, and evaluate biological processes. The exam includes structured questions, data analysis, and extended-response questions. Diagrams and labelled drawings are frequently tested, practise drawing and annotating cell structures, enzyme action, and genetic crosses.
 
 ---
 
@@ -102,22 +102,22 @@ Higher Chemistry covers structure and bonding, heat and matter, acids and bases,
 
 ### Topic Notes
 
-- [Chemistry Overview](chemistry) — course structure and assessment format
-- [Structure and Bonding](chemistry/1-structure-bonding) — ionic, covalent, and metallic bonding, and intermolecular forces
-- [Heat and Matter](chemistry/2-heat-matter) — energetics, kinetics, and equilibrium
-- [Acids and Bases](chemistry/3-acids-bases) — pH, titrations, and neutralisation reactions
-- [Organic Chemistry](chemistry/4-organic) — hydrocarbons, alcohols, carboxylic acids, and functional groups
-- [Analytical Techniques](chemistry/5-analytical) — chromatography, spectroscopy, and mass spectrometry
+- [Chemistry Overview](chemistry), course structure and assessment format
+- [Structure and Bonding](chemistry/1-structure-bonding), ionic, covalent, and metallic bonding, and intermolecular forces
+- [Heat and Matter](chemistry/2-heat-matter), energetics, kinetics, and equilibrium
+- [Acids and Bases](chemistry/3-acids-bases), pH, titrations, and neutralisation reactions
+- [Organic Chemistry](chemistry/4-organic), hydrocarbons, alcohols, carboxylic acids, and functional groups
+- [Analytical Techniques](chemistry/5-analytical), chromatography, spectroscopy, and mass spectrometry
 
 ### Practice and Review
 
 - [Flashcards: Chemistry](flashcards-chemistry)
 - [Practice Questions: Chemistry](chemistry/practice-chemistry)
-- [Diagnostic Quizzes](chemistry/diagnostics) — test across all chemistry topics
+- [Diagnostic Quizzes](chemistry/diagnostics), test across all chemistry topics
 
 ### Key Exam Focus
 
-Higher Chemistry emphasises calculation questions — enthalpy changes, equilibrium constants, and titration calculations. Practise working through numerical problems step by step, showing all working. The exam also tests your ability to interpret experimental data and draw conclusions from results.
+Higher Chemistry emphasises calculation questions, enthalpy changes, equilibrium constants, and titration calculations. Practise working through numerical problems step by step, showing all working. The exam also tests your ability to interpret experimental data and draw conclusions from results.
 
 ---
 
@@ -127,18 +127,18 @@ Higher Computer Science covers hardware, software, databases, algorithms, and ne
 
 ### Topic Notes
 
-- [Computer Science Overview](computer-science) — course structure and assessment format
-- [Hardware](computer-science/1-hardware) — computer architecture, processors, and memory
-- [Software](computer-science/2-software) — operating systems, utilities, and application software
-- [Databases](computer-science/3-databases) — relational databases, SQL, and data modelling
-- [Algorithms](computer-science/4-algorithms) — searching, sorting, complexity, and pseudocode
-- [Networks](computer-science/5-networks) — network types, protocols, and security
+- [Computer Science Overview](computer-science), course structure and assessment format
+- [Hardware](computer-science/1-hardware), computer architecture, processors, and memory
+- [Software](computer-science/2-software), operating systems, utilities, and application software
+- [Databases](computer-science/3-databases), relational databases, SQL, and data modelling
+- [Algorithms](computer-science/4-algorithms), searching, sorting, complexity, and pseudocode
+- [Networks](computer-science/5-networks), network types, protocols, and security
 
 ### Practice and Review
 
 - [Flashcards: Computer Science](flashcards-computer-science)
 - [Practice Questions: Computer Science](computer-science/practice-computer-science)
-- [Diagnostic Quizzes](computer-science/diagnostics) — test across all computer science topics
+- [Diagnostic Quizzes](computer-science/diagnostics), test across all computer science topics
 
 ### Key Exam Focus
 
@@ -152,22 +152,22 @@ Higher Mathematics covers algebra, trigonometry, calculus, vectors, and statisti
 
 ### Topic Notes
 
-- [Mathematics Overview](maths) — course structure and assessment format
-- [Algebra and Functions](maths/1-algebra-functions) — polynomials, surds, indices, and functions
-- [Trigonometry](maths/2-trigonometry) — trigonometric identities, equations, and the sine/cosine rules
-- [Calculus](maths/3-calculus) — differentiation, integration, and applications
-- [Vectors](maths/4-vectors) — vector operations, scalar product, and equations of lines
-- [Statistics](maths/5-statistics) — data analysis, probability, and normal distribution
+- [Mathematics Overview](maths), course structure and assessment format
+- [Algebra and Functions](maths/1-algebra-functions), polynomials, surds, indices, and functions
+- [Trigonometry](maths/2-trigonometry), trigonometric identities, equations, and the sine/cosine rules
+- [Calculus](maths/3-calculus), differentiation, integration, and applications
+- [Vectors](maths/4-vectors), vector operations, scalar product, and equations of lines
+- [Statistics](maths/5-statistics), data analysis, probability, and normal distribution
 
 ### Practice and Review
 
 - [Flashcards: Mathematics](flashcards-mathematics)
 - [Practice Questions: Mathematics](maths/practice-maths)
-- [Diagnostic Quizzes](maths/diagnostics) — test across all maths topics
+- [Diagnostic Quizzes](maths/diagnostics), test across all maths topics
 
 ### Key Exam Focus
 
-Higher Mathematics requires fluent algebraic manipulation and the ability to apply techniques to unfamiliar problems. The exam includes both short-answer and extended-response questions. Calculus is a major component — practise differentiation and integration until the techniques are automatic.
+Higher Mathematics requires fluent algebraic manipulation and the ability to apply techniques to unfamiliar problems. The exam includes both short-answer and extended-response questions. Calculus is a major component, practise differentiation and integration until the techniques are automatic.
 
 ---
 
@@ -177,18 +177,18 @@ Higher Physics covers mechanics, dynamics and space, electricity, particles and 
 
 ### Topic Notes
 
-- [Physics Overview](physics) — course structure and assessment format
-- [Mechanics](physics/1-mechanics) — motion, forces, and energy
-- [Dynamics and Space](physics/2-dynamics-space) — Newton's laws, gravitation, and orbital motion
-- [Electricity](physics/3-electricity) — circuits, voltage, current, and resistance
-- [Particles and Waves](physics/4-particles-waves) — quantum phenomena, wave properties, and diffraction
-- [Waves and Radiation](physics/5-waves-radiation) — electromagnetic spectrum, nuclear physics, and radioactivity
+- [Physics Overview](physics), course structure and assessment format
+- [Mechanics](physics/1-mechanics), motion, forces, and energy
+- [Dynamics and Space](physics/2-dynamics-space), Newton's laws, gravitation, and orbital motion
+- [Electricity](physics/3-electricity), circuits, voltage, current, and resistance
+- [Particles and Waves](physics/4-particles-waves), quantum phenomena, wave properties, and diffraction
+- [Waves and Radiation](physics/5-waves-radiation), electromagnetic spectrum, nuclear physics, and radioactivity
 
 ### Practice and Review
 
 - [Flashcards: Physics](flashcards-physics)
 - [Practice Questions: Physics](physics/practice-physics)
-- [Diagnostic Quizzes](physics/diagnostics) — test across all physics topics
+- [Diagnostic Quizzes](physics/diagnostics), test across all physics topics
 
 ### Key Exam Focus
 
@@ -211,7 +211,7 @@ Preparing for Scottish Highers requires sustained effort across multiple subject
 
 - Revisit weak areas identified by diagnostic quizzes
 - Begin practice questions in exam conditions (timed, no notes)
-- Work through past SQA papers — they reveal the exam's style and expectations
+- Work through past SQA papers, they reveal the exam's style and expectations
 - Cross-reference between subjects where topics overlap
 
 ### Phase 3: Exam Readiness (Months 9–12)
@@ -226,9 +226,9 @@ Preparing for Scottish Highers requires sustained effort across multiple subject
 
 | Time | Activity |
 | ------ | ---------- |
-| Morning | Active recall — flashcards for 20 minutes |
-| Afternoon | Topic study — read notes on one new topic |
-| Evening | Practice — complete 5–10 practice questions |
+| Morning | Active recall, flashcards for 20 minutes |
+| Afternoon | Topic study, read notes on one new topic |
+| Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
 
 ---
@@ -237,11 +237,11 @@ Preparing for Scottish Highers requires sustained effort across multiple subject
 
 Wyatt's Notes is a network of interconnected study sites. The Highers content connects to related material:
 
-- **[GCSE Study Guide](https://gcse.wyattau.com/hub)** — comparable UK qualifications if you are comparing exam systems
-- **[A-Level Study Guide](https://alevel.wyattau.com/hub)** — the next level if you are considering Advanced Highers or A-levels
-- **[IB Study Guide](https://ib.wyattau.com/hub)** — the International Baccalaureate as an alternative qualification
-- **[University Physics](https://physics.wyattau.com/hub)** — deeper coverage beyond Higher level
-- **[University Mathematics](https://mathematics.wyattau.com/hub)** — proof-based mathematics beyond Higher level
+- **[GCSE Study Guide](https://gcse.wyattau.com/hub)**, comparable UK qualifications if you are comparing exam systems
+- **[A-Level Study Guide](https://alevel.wyattau.com/hub)**, the next level if you are considering Advanced Highers or A-levels
+- **[IB Study Guide](https://ib.wyattau.com/hub)**, the International Baccalaureate as an alternative qualification
+- **[University Physics](https://physics.wyattau.com/hub)**, deeper coverage beyond Higher level
+- **[University Mathematics](https://mathematics.wyattau.com/hub)**, proof-based mathematics beyond Higher level
 
 ---
 
@@ -261,7 +261,7 @@ The practice questions are modelled on SQA-style problems. They test the same co
 
 ### How often should I use the flashcards?
 
-Daily. Flashcards use spaced repetition — each time you get a card right, it appears less frequently. This is the most efficient way to retain factual knowledge. Spend 15–20 minutes each morning.
+Daily. Flashcards use spaced repetition, each time you get a card right, it appears less frequently. This is the most efficient way to retain factual knowledge. Spend 15–20 minutes each morning.
 
 ### What is the difference between Higher and Advanced Higher?
 

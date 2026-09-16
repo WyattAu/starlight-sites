@@ -257,7 +257,7 @@ $v_p = \omega/k$. The packet **broadens** over time due to GVD.
 
 **Relation to the wave equation.** The 1D wave equation
 $\partial^2 u/\partial t^2 = v^2\partial^2 u/\partial x^2$ Has dispersion relation
-$\omega = \pm vk$Giving $v_g = v_p = v$ — it is non-dispersive.
+$\omega = \pm vk$Giving $v_g = v_p = v$, it is non-dispersive.
 
 <details>
 <summary>Worked Example: Group velocity in a dispersive medium</summary>
@@ -286,7 +286,7 @@ $= 34.6$ ns.
 :::caution
 packet envelope and equals The energy transport velocity in lossless media. However, it is only
 equal to the signal velocity In regions of weak, normal dispersion. Near absorption resonances,
-$v_g$ can exceed $c$ or become Negative — this does not violate causality, since the true signal
+$v_g$ can exceed $c$ or become Negative, this does not violate causality, since the true signal
 velocity (front velocity) never Exceeds $c$.
 
 

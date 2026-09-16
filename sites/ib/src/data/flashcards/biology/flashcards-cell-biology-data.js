@@ -54,7 +54,7 @@ export const flashcard2 = [
   {
     id: 'organelle-2',
     front: 'Explain the structure and function of mitochondria.',
-    back: 'Double membrane: smooth outer, folded inner (cristae) to increase surface area. Matrix contains its own circular DNA, 70S ribosomes, and enzymes for the Krebs cycle. Site of aerobic respiration — produces ATP through oxidative phosphorylation.',
+    back: 'Double membrane: smooth outer, folded inner (cristae) to increase surface area. Matrix contains its own circular DNA, 70S ribosomes, and enzymes for the Krebs cycle. Site of aerobic respiration, produces ATP through oxidative phosphorylation.',
     tags: ['organelles', 'mitochondria'],
     difficulty: 'medium',
   },
@@ -144,7 +144,7 @@ export const flashcard4 = [
   {
     id: 'division-3',
     front: 'Why is mitosis important for multicellular organisms?',
-    back: 'Mitosis enables: 1) Growth — increasing cell number during development. 2) Tissue repair — replacing damaged or dead cells. 3) Asexual reproduction — in some organisms. It produces genetically identical daughter cells (clones), maintaining the diploid chromosome number.',
+    back: 'Mitosis enables: 1) Growth, increasing cell number during development. 2) Tissue repair, replacing damaged or dead cells. 3) Asexual reproduction, in some organisms. It produces genetically identical daughter cells (clones), maintaining the diploid chromosome number.',
     tags: ['cell division', 'mitosis'],
     difficulty: 'easy',
   },

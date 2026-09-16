@@ -1,5 +1,5 @@
 /**
- * ReviewQueueHost — site-wide mount point for the spaced-repetition
+ * ReviewQueueHost, site-wide mount point for the spaced-repetition
  * review queue.
  *
  * Decks register their card content via `registerDeckContent` (written

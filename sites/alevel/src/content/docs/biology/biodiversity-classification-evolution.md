@@ -2065,7 +2065,7 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 
 ## Intuition
 
-**Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**
+**Evolution is like a family tree that stretches back millions of years, branching, adapting, and sometimes going extinct.**
 
 
 ```mermaid

@@ -247,7 +247,7 @@ The certificate chain must be ordered from leaf (server) to root (CA):
 # Correct order:
 # 1. server.crt (your certificate)
 # 2. intermediate.crt (intermediate CA)
-# 3. (root.crt is in most cases NOT included — browsers have it in their trust store)
+# 3. (root.crt is in most cases NOT included, browsers have it in their trust store)
 
 # Full chain file for nginx:
 cat server.crt intermediate.crt > fullchain.pem
@@ -396,10 +396,10 @@ https://example.com/page → loads https://example.com/image.jpg
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
 
 # Common mistakes:
-# 1. Not including "includeSubDomains" — subdomains can be accessed over HTTP
-# 2. Not including "preload" — browsers won't preload HSTS
-# 3. Too short max-age (e.g., 300 seconds) — provides minimal protection
-# 4. Setting HSTS on HTTP responses — browsers ignore it
+# 1. Not including "includeSubDomains", subdomains can be accessed over HTTP
+# 2. Not including "preload", browsers won't preload HSTS
+# 3. Too short max-age (e.g., 300 seconds), provides minimal protection
+# 4. Setting HSTS on HTTP responses, browsers ignore it
 ```
 
 ## Forward Secrecy
@@ -575,11 +575,11 @@ curl "https://api.ssllabs.com/api/v3/analyze?host=example.com&amp;publish=off&am
 
 ## Intuition
 
-**TLS is like a locked mailbox:** When you send a letter (data) through TLS, it's encrypted so only the intended recipient can read it. The certificate is like a verified ID card — it proves the server is who it claims to be. The ACME protocol is like an automated verification system that checks you own the domain before issuing a certificate.
+**TLS is like a locked mailbox:** When you send a letter (data) through TLS, it's encrypted so only the intended recipient can read it. The certificate is like a verified ID card, it proves the server is who it claims to be. The ACME protocol is like an automated verification system that checks you own the domain before issuing a certificate.
 
 **Why it matters:** TLS protects every HTTPS connection, from online banking to email. Understanding certificate management, the ACME protocol, and common configuration mistakes is essential for securing web services.
 
-**The key insight:** Let's Encrypt made TLS free and automated — the ACME protocol handles domain verification, certificate issuance, and renewal without manual intervention, making encryption the default for the web.
+**The key insight:** Let's Encrypt made TLS free and automated, the ACME protocol handles domain verification, certificate issuance, and renewal without manual intervention, making encryption the default for the web.
 
 ## Common Pitfalls
 

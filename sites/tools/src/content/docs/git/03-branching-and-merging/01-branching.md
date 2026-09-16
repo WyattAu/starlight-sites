@@ -1,7 +1,7 @@
 ---
 
 title: "Branching"
-description: "Branching is the mechanism that enables — multiple developers (or a single developer working on multiple features) can modify the codebase independently,"
+description: "Branching is the mechanism that enables, multiple developers (or a single developer working on multiple features) can modify the codebase independently,"
 date: 2025-06-03T02:00:00.000Z
 tags:
   - git
@@ -22,7 +22,7 @@ categories:
 
 ## Why Branching Matters
 
-Branching is the mechanism that enables **parallel development** — multiple developers (or a single
+Branching is the mechanism that enables **parallel development**, multiple developers (or a single
 developer working on multiple features) can modify the codebase independently, then integrate their
 changes. Git"s branching model is one of its defining strengths: branches are cheap ($O(1)$
 creation), fast to switch, and designed to be created and deleted frequently.
@@ -33,7 +33,7 @@ copying the entire directory tree (CVS) or was mediated by a central server (ear
 ## Branch Internals
 
 A branch in Git is nothing more than a **40-byte text file** containing a SHA-1 hash. Creating a
-branch does not copy any files or objects — it writes a single reference:
+branch does not copy any files or objects, it writes a single reference:
 
 ```bash
 $ git branch feature-auth
@@ -43,7 +43,7 @@ $ git branch feature-auth
 This means:
 
 - Creating 1,000 branches costs the same as creating 1 (a few microseconds).
-- Deleting a branch does not delete any commits — it only removes the reference.
+- Deleting a branch does not delete any commits, it only removes the reference.
 - A commit can be reachable from multiple branches simultaneously.
 
 ```mermaid
@@ -63,7 +63,7 @@ In the graph above:
 
 - `main` points to commit `F`.
 - `feature` points to commit `E`.
-- Commits `A``B``C` are shared by both branches — no duplication.
+- Commits `A``B``C` are shared by both branches, no duplication.
 - Commit `D` and `E` are only reachable from `feature`.
 - Commit `F` is only reachable from `main`.
 
@@ -290,7 +290,7 @@ $ git branch save-my-work HEAD@{3}  # Create branch from lost commit
 $ echo "new code" >> file.txt
 $ git add file.txt
 $ git commit -m "Add new feature"
-# Oops — committed to main instead of feature-auth
+# Oops, committed to main instead of feature-auth
 ```
 
 **Recovery**:

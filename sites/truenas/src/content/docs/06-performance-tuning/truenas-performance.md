@@ -41,11 +41,11 @@ GB.
 kstat -p zfs:0:arcstats
 
 ## Key metrics:
-# arc_size — Current ARC size in bytes
-# arc_hits — Number of cache hits
-# arc_misses — Number of cache misses
-# arc_hit_ratio — Hit percentage (hits / (hits + misses) * 100)
-# arc_meta_used — Metadata cache usage
+# arc_size, Current ARC size in bytes
+# arc_hits, Number of cache hits
+# arc_misses, Number of cache misses
+# arc_hit_ratio, Hit percentage (hits / (hits + misses) * 100)
+# arc_meta_used, Metadata cache usage
 
 # Set ARC maximum (in bytes, persistent via /etc/system or sysctl)
 # For a system with 64 GB RAM, set ARC max to 48 GB:
@@ -59,10 +59,10 @@ echo 51539607552 | sudo tee /sys/module/zfs/parameters/zfs_arc_max
 
 | Hit Ratio | Interpretation                            |
 | --------- | ----------------------------------------- |
-| &gt; 95%  | Excellent — working set fits in ARC       |
-| 85–95%    | Good — most reads are served from cache   |
-| 70–85%    | Acceptable — consider adding RAM or L2ARC |
-| &lt; 70%  | Poor — working set exceeds ARC, add RAM   |
+| &gt; 95%  | Excellent, working set fits in ARC       |
+| 85–95%    | Good, most reads are served from cache   |
+| 70–85%    | Acceptable, consider adding RAM or L2ARC |
+| &lt; 70%  | Poor, working set exceeds ARC, add RAM   |
 
 ### primarycache and secondarycache
 
@@ -214,7 +214,7 @@ $$
 | Database storage                   | No         | Low dedup ratio, performance impact   |
 
 :::caution
-Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead — it provides
+Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead, it provides
 Meaningful space savings with no memory cost.
 :::
 ---
@@ -294,10 +294,10 @@ mount -t nfs4 -o rw,hard,intr,_netdev,rsize=1048576,wsize=1048576,noatime \
     nas:/mnt/pool/data /mnt/data
 
 # Key options:
-# rsize/wsize=1M — Maximum read/write size (1 MB is optimal for 10GbE+)
-# hard — Retry on server failure (do not use soft for persistent storage)
-# noatime — Do not update access times (reduces metadata writes)
-# _netdev — Wait for network before mounting
+# rsize/wsize=1M, Maximum read/write size (1 MB is optimal for 10GbE+)
+# hard, Retry on server failure (do not use soft for persistent storage)
+# noatime, Do not update access times (reduces metadata writes)
+# _netdev, Wait for network before mounting
 ```
 
 ### NFS Server Tuning on TrueNAS
@@ -518,7 +518,7 @@ kstat -p zfs:0:arcstats:l2_misses
 
 ### Adding a Single Disk to a RAIDZ Vdev
 
-You cannot add a single disk to an existing RAIDZ vdev. RAIDZ vdevs are fixed-size — you can only
+You cannot add a single disk to an existing RAIDZ vdev. RAIDZ vdevs are fixed-size, you can only
 Add entire new vdevs to the pool (which stripes data across all vdevs). To expand a RAIDZ pool, add
 A new RAIDZ vdev of the same type.
 
@@ -570,9 +570,9 @@ The ARC is a slab allocator that manages memory in several categories:
 kstat -p zfs:0:arcstats
 
 # Key metrics to calculate hit ratio:
-# arc_hits — Cache hits (data served from ARC)
-# arc_misses — Cache misses (data read from disk)
-# arc_prefetch_data_misses — Prefetch misses (data prefetched but not used)
+# arc_hits, Cache hits (data served from ARC)
+# arc_misses, Cache misses (data read from disk)
+# arc_prefetch_data_misses, Prefetch misses (data prefetched but not used)
 
 # Calculate hit ratio:
 # hit_ratio = arc_hits / (arc_hits + arc_misses)
@@ -744,7 +744,7 @@ mount -t nfs4 \
     -o actimeo=60 \
     nas:/mnt/pool/data /mnt/data
 
-# actimeo=60 — Attribute cache timeout (60 seconds)
+# actimeo=60, Attribute cache timeout (60 seconds)
 #   Longer timeout reduces metadata operations for read-mostly workloads
 #   Shorter timeout improves consistency for write-heavy workloads
 ```
@@ -773,7 +773,7 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
 # Create a LAGG interface:
 # Protocol: LACP
 # Ports: igb0, igb1 (or your NIC names)
-# Hash policy: L4 (layer 4 — source/destination IP + port)
+# Hash policy: L4 (layer 4, source/destination IP + port)
 
 # LACP requires switch configuration:
 # Switch side:
@@ -1065,8 +1065,8 @@ linked above.
 
 ## Intuition
 
-TrueNAS performance tuning is the art of matching ZFS's configuration to your actual workload, because the defaults are designed for average use cases that may not match yours. The central concept is the ARC (Adaptive Replacement Cache) — ZFS's intelligent read cache that lives in RAM. The ARC automatically adapts to your access patterns, caching frequently and recently used data. When your working set fits in RAM, reads are served at memory speed. When it doesn't, every cache miss means a round trip to disk, which is 100-1000x slower. Monitoring the ARC hit ratio tells you whether you need more RAM or an L2ARC SSD — a hit ratio below 70% means your working set exceeds your cache.
+TrueNAS performance tuning is the art of matching ZFS's configuration to your actual workload, because the defaults are designed for average use cases that may not match yours. The central concept is the ARC (Adaptive Replacement Cache), ZFS's intelligent read cache that lives in RAM. The ARC automatically adapts to your access patterns, caching frequently and recently used data. When your working set fits in RAM, reads are served at memory speed. When it doesn't, every cache miss means a round trip to disk, which is 100-1000x slower. Monitoring the ARC hit ratio tells you whether you need more RAM or an L2ARC SSD, a hit ratio below 70% means your working set exceeds your cache.
 
-Recordsize is the other critical tuning knob, and it's where most people get it wrong. ZFS stores data in variable-size blocks up to the recordsize, and the block size for a file is fixed at write time. If you set recordsize=128K for a database that reads in 8K pages, every 8K read pulls 128K from disk — 16x amplification. If you set recordsize=8K for a video file that streams sequentially, ZFS issues many tiny reads instead of fewer large ones, crushing throughput. The rule of thumb: match recordsize to your workload's dominant I/O size. Databases need 8K-16K, VMs need 16K-64K, media needs 128K-1M. This single setting can make a 10x difference in performance.
+Recordsize is the other critical tuning knob, and it's where most people get it wrong. ZFS stores data in variable-size blocks up to the recordsize, and the block size for a file is fixed at write time. If you set recordsize=128K for a database that reads in 8K pages, every 8K read pulls 128K from disk, 16x amplification. If you set recordsize=8K for a video file that streams sequentially, ZFS issues many tiny reads instead of fewer large ones, crushing throughput. The rule of thumb: match recordsize to your workload's dominant I/O size. Databases need 8K-16K, VMs need 16K-64K, media needs 128K-1M. This single setting can make a 10x difference in performance.
 
-The deeper insight is that ZFS's copy-on-write architecture means data integrity is baked in — every block is checksummed, and ZFS can detect and self-heal corruption. This is why ECC RAM matters: a bit flip in RAM can cause ZFS to write corrupted data with a matching checksum, making the corruption invisible. The performance trade-offs — mirror vs RAIDZ2, compression vs raw speed, dedup vs memory — all flow from the same principle: ZFS optimises for data safety first and performance second. Understanding this priority is the key to making informed tuning decisions: you're not choosing between safe and fast, you're choosing how much speed you're willing to sacrifice for how much safety.
+The deeper insight is that ZFS's copy-on-write architecture means data integrity is baked in, every block is checksummed, and ZFS can detect and self-heal corruption. This is why ECC RAM matters: a bit flip in RAM can cause ZFS to write corrupted data with a matching checksum, making the corruption invisible. The performance trade-offs, mirror vs RAIDZ2, compression vs raw speed, dedup vs memory, all flow from the same principle: ZFS optimises for data safety first and performance second. Understanding this priority is the key to making informed tuning decisions: you're not choosing between safe and fast, you're choosing how much speed you're willing to sacrifice for how much safety.

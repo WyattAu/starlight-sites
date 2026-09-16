@@ -1,6 +1,6 @@
 ---
-title: "Database Glossary — Key Terms and Definitions"
-description: "Study notes for Database Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Database Glossary, Key Terms and Definitions"
+description: "Study notes for Database Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -242,7 +242,7 @@ CREATE INDEX idx_active_users ON users(email) WHERE active = true;
 
 **Transaction**: A logical unit of work that groups multiple database operations, executed as a single atomic unit.
 
-**ACID Properties**: Atomicity, Consistency, Isolation, Durability — the four properties guaranteeing reliable transaction processing.
+**ACID Properties**: Atomicity, Consistency, Isolation, Durability, the four properties guaranteeing reliable transaction processing.
 
 **Atomicity**: Ensuring all operations in a transaction succeed or all fail; no partial completion.
 
@@ -325,7 +325,7 @@ CREATE INDEX idx_active_users ON users(email) WHERE active = true;
 
 **Graph Database**: Stores data as nodes and edges, optimized for relationships (e.g., Neo4j, Amazon Neptune).
 
-**BASE Properties**: Basically Available, Soft state, Eventually consistent — the opposite of ACID for distributed systems.
+**BASE Properties**: Basically Available, Soft state, Eventually consistent, the opposite of ACID for distributed systems.
 
 **Eventual Consistency**: A consistency model where all nodes will eventually have the same data, but temporary inconsistencies are allowed.
 

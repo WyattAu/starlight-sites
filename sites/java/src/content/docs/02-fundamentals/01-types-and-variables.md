@@ -38,17 +38,17 @@ graph TB
 
 ### Stack vs Heap vs Metaspace
 
-**JVM Stack** — Each thread has its own stack, divided into frames. Each method invocation pushes a
+**JVM Stack**, Each thread has its own stack, divided into frames. Each method invocation pushes a
 New frame containing local variables (including primitive values and object references) and an
 Operand stack. Local variables of primitive type are stored directly on the stack; reference-type
 Locals store a pointer to the heap. Stack memory is automatically reclaimed when a method returns.
 
-**Heap** — All objects and arrays are allocated on the heap. This includes `String` objects, wrapper
+**Heap**, All objects and arrays are allocated on the heap. This includes `String` objects, wrapper
 Instances (`Integer``Double`), and user-defined class instances. The heap is shared across all
 Threads and managed by the garbage collector. Heap allocations are relatively expensive compared to
 Stack allocations.
 
-**Metaspace** (replaced PermGen in Java 8) — Stores class metadata (method bytecodes, field and
+**Metaspace** (replaced PermGen in Java 8), Stores class metadata (method bytecodes, field and
 Method definitions, constant pool entries), static fields, and runtime constant pool information.
 Unlike PermGen, Metaspace uses native memory and can grow dynamically (bounded by
 `-XX:MaxMetaspaceSize`).
@@ -77,7 +77,7 @@ public class MemoryExample {
 
 ## Primitive Types
 
-Java defines eight primitive types. They are not objects — they hold raw bit patterns and live
+Java defines eight primitive types. They are not objects, they hold raw bit patterns and live
 Directly on the stack or within object layouts on the heap. Primitives have no methods, no identity
 (only value equality), and cannot be `null`.
 
@@ -102,7 +102,7 @@ Floating-point types and IEEE 754 conformance.
 
 Java's integral types are **two's complement** signed integers. The `byte``short``int`And `long`
 types use two's complement representation, meaning the most significant bit is the sign bit. The
-`char` type is the only unsigned integral type — it represents a UTF-16 code unit.
+`char` type is the only unsigned integral type, it represents a UTF-16 code unit.
 
 ```java
 int maxInt = Integer.MAX_VALUE;          // 2147483647 (0x7FFFFFFF)
@@ -171,7 +171,7 @@ Field + padding) plus a heap pointer.
 The wrappers exist for two reasons:
 
 1. **Generics require reference types**. `List<int>` is illegal; you must write `List<Integer>`.
-   This is a consequence of Java's type system — generics are implemented via **type erasure**
+   This is a consequence of Java's type system, generics are implemented via **type erasure**
    ([JLS §4.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.6)), where type
    parameters are replaced by their bounds (or `Object`) at compile time. Primitives cannot be
    substituted for `Object`.
@@ -181,7 +181,7 @@ The wrappers exist for two reasons:
 
 ## Reference Types
 
-A reference variable does not contain the object itself — it contains a **pointer** (or handle) to
+A reference variable does not contain the object itself, it contains a **pointer** (or handle) to
 An object on the heap. The JVM specification does not mandate a specific pointer representation; it
 May be a direct pointer, an indirect handle, or a compressed oop (ordinary object pointer).
 
@@ -264,7 +264,7 @@ Wrappers are interchangeable. They are not. The key problems are:
 
 ```java
 Integer maybeNull = null;
-int value = maybeNull;  // NullPointerException — no visible dereference
+int value = maybeNull;  // NullPointerException, no visible dereference
 ```
 
 1. **Identity confusion**: `==` compares identity for reference types but value for primitives.
@@ -280,9 +280,9 @@ int value = maybeNull;  // NullPointerException — no visible dereference
 void overloaded(int i)    { System.out.println("int"); }
 void overloaded(Integer i) { System.out.println("Integer"); }
 
-overloaded(42);     // prints "int"  — primitive is preferred
+overloaded(42);     // prints "int", primitive is preferred
 Integer boxed = 42;
-overloaded(boxed);  // prints "Integer" — reference matches reference
+overloaded(boxed);  // prints "Integer", reference matches reference
 ```
 
 :::danger
@@ -292,14 +292,14 @@ Or you are working with a generic API that requires reference types.
 
 ### Immutability
 
-`String` objects are immutable — once created, their internal state cannot change. Every
+`String` objects are immutable, once created, their internal state cannot change. Every
 "modification" operation creates a new `String` object.
 
 ```java
 String original = "hello";
 String modified = original.concat(" world");
-System.out.println(original == modified);  // false — different objects
-System.out.println(original);  // "hello" — unchanged
+System.out.println(original == modified);  // false, different objects
+System.out.println(original);  // "hello", unchanged
 ```
 
 The `String` class is declared `final` and its internal `value` array is stored as a
@@ -354,15 +354,15 @@ graph LR
 // String literals are interned at class loading time
 String a = "hello";
 String b = "hello";
-System.out.println(a == b);  // true — same object from the pool
+System.out.println(a == b);  // true, same object from the pool
 
 // new String() always creates a new object on the heap
 String c = new String("hello");
-System.out.println(a == c);  // false — c is a different object
+System.out.println(a == c);  // false, c is a different object
 
 // intern() returns the pooled instance
 String d = c.intern();
-System.out.println(a == d);  // true — d points to the pooled "hello"
+System.out.println(a == d);  // true, d points to the pooled "hello"
 
 // Compile-time constant concatenation is interned
 String e = "hel" + "lo";           // compiler folds this to "hello"
@@ -390,7 +390,7 @@ Field names, string constants) make up a significant portion of the heap. Withou
 Occurrence of `"http"` across thousands of HTTP requests would allocate a separate object.
 
 The pool also enables the `==` comparison for interned strings, which is an O(1) pointer comparison
-Versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally —
+Versus O(n) character-by-character comparison for `String.equals()`. The JVM uses this internally,
 Class names, method descriptors, and string constants in the constant pool are all deduplicated via
 Interning.
 
@@ -409,7 +409,7 @@ sb.append("Hello").append(", ").append("World");
 String result = sb.toString();
 
 // StringBuffer is only needed when the same buffer is shared across threads
-// (which is rare — in standard practice you'd use a local variable)
+// (which is rare, in standard practice you'd use a local variable)
 ```
 
 :::caution
@@ -426,8 +426,8 @@ However, unlike regular objects, their structure is defined by the JVM specifica
 file.
 
 ```java
-int[] primitives = new int[10];       // zero-initialized: [0, 0, 0, ...]
-String[] references = new String[5];  // null-initialized: [null, null, ...]
+int[] primitives = new int[10];       // zero-initialized: [0, 0, 0...]
+String[] references = new String[5];  // null-initialized: [null, null...]
 
 // Array initialization
 int[] fib = {0, 1, 1, 2, 3, 5, 8, 13};
@@ -470,14 +470,14 @@ Compile time and requires no runtime checks.
 | Generics support | Cannot use as generic type                  | Full generics support                         |
 
 ```java
-// Primitive array — no boxing, cache-friendly, minimal overhead
+// Primitive array, no boxing, cache-friendly, minimal overhead
 int[] primitiveArray = {1, 2, 3, 4, 5};
 int sum = 0;
 for (int value : primitiveArray) {
     sum += value;  // no unboxing
 }
 
-// ArrayList requires boxing — each element is a heap object
+// ArrayList requires boxing, each element is a heap object
 ArrayList<Integer> boxed = new ArrayList<>();
 boxed.add(1);  // autoboxing: Integer.valueOf(1)
 boxed.add(2);  // autoboxing: Integer.valueOf(2)
@@ -486,7 +486,7 @@ boxed.add(2);  // autoboxing: Integer.valueOf(2)
 ## The `var` Keyword (Local Variable Type Inference)
 
 Introduced in Java 10 ([JEP 286](https://openjdk.org/jeps/286)), `var` enables the compiler to infer
-The type of local variables from the initializer. It does **not** make Java dynamically typed — the
+The type of local variables from the initializer. It does **not** make Java dynamically typed, the
 Inferred type is a concrete, compile-time type, and the variable cannot be reassigned to an
 Incompatible type.
 
@@ -562,13 +562,13 @@ explicit cast. The compiler enforces this to prevent accidental data loss.
 
 ```java
 double pi = 3.14159;
-int truncated = (int) pi;       // 3 — fractional part is discarded (not rounded)
-int rounded = (int) Math.round(pi);  // 3 — use Math.round for actual rounding
+int truncated = (int) pi;       // 3, fractional part is discarded (not rounded)
+int rounded = (int) Math.round(pi);  // 3, use Math.round for actual rounding
 
 long bigValue = 300_000_000_000L;
-int narrowed = (int) bigValue;   // -647710720 — overflow, bits are truncated
+int narrowed = (int) bigValue;   // -647710720, overflow, bits are truncated
 
-// char is an unsigned 16-bit integer — you can cast between char and numeric types
+// char is an unsigned 16-bit integer, you can cast between char and numeric types
 char letter = 'A';
 int letterCode = (int) letter;   // 65
 char fromCode = (char) 66;       // 'B'
@@ -579,30 +579,30 @@ char fromCode = (char) 66;       // 'B'
 ```java
 // Compound assignment operators include implicit narrowing
 byte b = 1;
-b += 1;    // equivalent to b = (byte)(b + 1); — the cast is implicit
+b += 1;    // equivalent to b = (byte)(b + 1);, the cast is implicit
 // b = b + 1;  // compile error: b + 1 is int, cannot assign int to byte without cast
 
 // Literal assignment to smaller types is allowed if the value fits
-byte b2 = 127;     // OK — 127 fits in a byte
-// byte b3 = 128;  // compile error — 128 does not fit in a byte
+byte b2 = 127;     // OK, 127 fits in a byte
+// byte b3 = 128;  // compile error, 128 does not fit in a byte
 ```
 
 ## The `final` Keyword
 
 The `final` keyword restricts reassignment (for variables), overriding (for methods), and
-Subclassing (for classes). It does **not** make objects immutable — only the reference is immutable.
+Subclassing (for classes). It does **not** make objects immutable, only the reference is immutable.
 
 ```java
-// final local variable — cannot be reassigned after initialization
+// final local variable, cannot be reassigned after initialization
 final int x = 10;
 // x = 20;  // compile error: cannot assign a value to final variable x
 
-// final reference — the reference cannot change, but the object can be mutated
+// final reference, the reference cannot change, but the object can be mutated
 final List<String> list = new ArrayList<>();
-list.add("hello");       // OK — mutating the object
-// list = new ArrayList<>();  // compile error — reassigning the reference
+list.add("hello");       // OK, mutating the object
+// list = new ArrayList<>();  // compile error, reassigning the reference
 
-// blank final — initialized exactly once (in constructor or initializer block)
+// blank final, initialized exactly once (in constructor or initializer block)
 class Point {
     final int x;
     final int y;
@@ -613,12 +613,12 @@ class Point {
     }
 }
 
-// final method — cannot be overridden by subclasses
+// final method, cannot be overridden by subclasses
 class Base {
     final void validate() { /* ... */ }
 }
 
-// final class — cannot be extended
+// final class, cannot be extended
 final class Configuration {
     // prevents subclassing, ensures the class's contract cannot be weakened
 }
@@ -631,12 +631,12 @@ Treats effectively final variables the same as explicitly `final` variables for 
 Lambda capture and anonymous class access.
 
 ```java
-String captured = "hello";  // effectively final — never reassigned
-Runnable r = () -> System.out.println(captured);  // OK — lambda captures effectively final var
+String captured = "hello";  // effectively final, never reassigned
+Runnable r = () -> System.out.println(captured);  // OK, lambda captures effectively final var
 
 // String notFinal = "hello";
 // notFinal = "world";
-// Runnable r2 = () -> System.out.println(notFinal);  // compile error — not effectively final
+// Runnable r2 = () -> System.out.println(notFinal);  // compile error, not effectively final
 ```
 
 ## `instanceof` Pattern Matching (Java 16+)
@@ -651,13 +651,13 @@ if (obj instanceof String) {
     System.out.println(s.length());
 }
 
-// Java 16+ — pattern matching
+// Java 16+, pattern matching
 if (obj instanceof String s) {
     System.out.println(s.length());
-    // s is in scope here — already cast and available
+    // s is in scope here, already cast and available
 }
 
-// s is NOT in scope here — the pattern variable is scoped to the true branch
+// s is NOT in scope here, the pattern variable is scoped to the true branch
 
 // Pattern matching with conditions
 if (obj instanceof String s && s.length() > 5) {
@@ -694,7 +694,7 @@ public record Point(int x, int y) {}
 
 ```java
 record Point(int x, int y) {
-    // Compact constructor — validation without repeating field declarations
+    // Compact constructor, validation without repeating field declarations
     public Point {
         if (x < 0 || y < 0) {
             throw new IllegalArgumentException("Coordinates must be non-negative");
@@ -704,7 +704,7 @@ record Point(int x, int y) {
 
 // Usage
 var p = new Point(3, 4);
-System.out.println(p.x());        // 3 — accessor method, not field access
+System.out.println(p.x());        // 3, accessor method, not field access
 System.out.println(p);             // Point[x=3, y=4]
 
 // Records are inherently immutable
@@ -712,8 +712,8 @@ System.out.println(p);             // Point[x=3, y=4]
 
 // Records provide value-based equality
 var p2 = new Point(3, 4);
-System.out.println(p.equals(p2));  // true — structural equality
-System.out.println(p == p2);       // false — different objects
+System.out.println(p.equals(p2));  // true, structural equality
+System.out.println(p == p2);       // false, different objects
 
 // Records can implement interfaces
 record NamedPoint(int x, int y, String name) implements Comparable<NamedPoint> {
@@ -735,7 +735,7 @@ Classes can extend or implement a given type. This enables the compiler to perfo
 Pattern matching over a closed type hierarchy.
 
 ```java
-// sealed class — specifies exactly which subclasses are permitted
+// sealed class, specifies exactly which subclasses are permitted
 public sealed interface Shape
     permits Circle, Rectangle, Triangle {
     double area();
@@ -766,13 +766,13 @@ public non-sealed record Triangle(double base, double height) implements Shape {
 Sealed classes shine when combined with pattern matching in `switch`:
 
 ```java
-// Java 21+ — exhaustive switch with sealed class hierarchy
+// Java 21+, exhaustive switch with sealed class hierarchy
 double computeArea(Shape shape) {
     return switch (shape) {
         case Circle c -> c.area();
         case Rectangle r -> r.area();
         case Triangle t -> t.area();
-        // No default needed — the compiler knows all permitted subtypes
+        // No default needed, the compiler knows all permitted subtypes
     };
 }
 
@@ -804,10 +804,10 @@ Part of the Valhalla project.
 Consider the performance gap between primitives and objects:
 
 ```java
-// Primitive — 8 bytes, no allocation, inline storage
+// Primitive, 8 bytes, no allocation, inline storage
 double x = 3.14;
 
-// Object — 16+ bytes header, 8 bytes field, heap allocation, indirection
+// Object, 16+ bytes header, 8 bytes field, heap allocation, indirection
 ComplexNumber c = new ComplexNumber(3.14, 2.72);
 // To get the real part: load reference -> load field -> (cache miss possible)
 ```
@@ -830,16 +830,16 @@ value class ComplexNumber {
 }
 
 // Unlike regular classes, value types:
-// 1. Have no identity — two instances with the same fields are indistinguishable
-// 2. Are stored inline (flat) in arrays and objects — no pointer indirection
+// 1. Have no identity, two instances with the same fields are indistinguishable
+// 2. Are stored inline (flat) in arrays and objects, no pointer indirection
 // 3. Cannot be synchronized on (no monitor)
 // 4. Cannot have mutable fields (or identity would be observable)
 // 5. Cannot be used as lock objects
 
-// Array of value types — flat layout, no per-element object headers
+// Array of value types, flat layout, no per-element object headers
 ComplexNumber[] points = new ComplexNumber[1000];
-// Memory layout: [real0, imag0, real1, imag1, ...] — 16 bytes per element
-// vs. reference array: [ptr0, ptr1, ...] + 1000 separate heap objects
+// Memory layout: [real0, imag0, real1, imag1...], 16 bytes per element
+// vs. reference array: [ptr0, ptr1...] + 1000 separate heap objects
 ```
 
 :::note
@@ -853,18 +853,18 @@ Equality, eliminating the performance penalty of object identity.
 // Identity semantics (regular objects)
 Integer a = new Integer(42);  // (deprecated constructor, illustrative)
 Integer b = new Integer(42);
-System.out.println(a == b);      // false — different objects, different identity
-System.out.println(a.equals(b)); // true — same value
+System.out.println(a == b);      // false, different objects, different identity
+System.out.println(a.equals(b)); // true, same value
 
 // Value semantics (primitives)
 int x = 42;
 int y = 42;
-System.out.println(x == y);      // true — value comparison, no identity
+System.out.println(x == y);      // true, value comparison, no identity
 
 // Value types will behave like primitives:
 // ComplexNumber p1 = new ComplexNumber(3.0, 4.0);
 // ComplexNumber p2 = new ComplexNumber(3.0, 4.0);
-// p1 == p2  // true — value-based comparison
+// p1 == p2  // true, value-based comparison
 ```
 
 ## Summary of Design Principles

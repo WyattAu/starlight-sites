@@ -167,7 +167,7 @@ type Repository interface {
 
 ### Manual Mocks
 
-The simplest approach — implement the interface inline:
+The simplest approach, implement the interface inline:
 
 ```go
 type MockStore struct {

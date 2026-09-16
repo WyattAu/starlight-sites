@@ -42,7 +42,7 @@ correct answer, a full explanation, a difficulty badge, and a mark value.
 
 ## Number (Fractions, Percentages, Ratios)
 
-### Q1 — Fraction Arithmetic
+### Q1, Fraction Arithmetic
 
 > Work out $\frac{3}{4} + \frac{2}{5}$. Give your answer in its simplest form.
 
@@ -57,7 +57,7 @@ correct answer, a full explanation, a difficulty badge, and a mark value.
 
 $\frac{3}{4} + \frac{2}{5} = \frac{15}{20} + \frac{8}{20} = \frac{23}{20}$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -70,7 +70,7 @@ $\frac{3}{4} + \frac{2}{5} = \frac{15}{20} + \frac{8}{20} = \frac{23}{20}$.
 }
 </script>
 
-### Q2 — Percentage Change
+### Q2, Percentage Change
 
 > A jacket costs £80. It is reduced by 15% in a sale. What is the new price?
 
@@ -85,7 +85,7 @@ $\frac{3}{4} + \frac{2}{5} = \frac{15}{20} + \frac{8}{20} = \frac{23}{20}$.
 
 $15\% \text{ of } 80 = 0.15 \times 80 = 12$. New price = $80 - 12 = £68$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -98,7 +98,7 @@ $15\% \text{ of } 80 = 0.15 \times 80 = 12$. New price = $80 - 12 = £68$.
 }
 </script>
 
-### Q3 — Reverse Percentage
+### Q3, Reverse Percentage
 
 > After a 20% increase, a quantity is 360. What was the original quantity?
 
@@ -113,7 +113,7 @@ $15\% \text{ of } 80 = 0.15 \times 80 = 12$. New price = $80 - 12 = £68$.
 
 Original $\times 1.20 = 360$, so original $= 360 \div 1.20 = 300$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -126,7 +126,7 @@ Original $\times 1.20 = 360$, so original $= 360 \div 1.20 = 300$.
 }
 </script>
 
-### Q4 — Ratio Problem
+### Q4, Ratio Problem
 
 > The ratio of boys to girls in a class is 3:5. There are 32 students in total. How many boys are
 > there?
@@ -142,7 +142,7 @@ Original $\times 1.20 = 360$, so original $= 360 \div 1.20 = 300$.
 
 $3 + 5 = 8$ parts. One part $= 32 \div 8 = 4$. Boys $= 3 \times 4 = 12$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -157,7 +157,7 @@ $3 + 5 = 8$ parts. One part $= 32 \div 8 = 4$. Boys $= 3 \times 4 = 12$.
 
 ## Algebra (Solving Equations, Inequalities, Sequences)
 
-### Q5 — Linear Equation
+### Q5, Linear Equation
 
 > Solve $4x - 7 = 2x + 9$.
 
@@ -172,7 +172,7 @@ $3 + 5 = 8$ parts. One part $= 32 \div 8 = 4$. Boys $= 3 \times 4 = 12$.
 
 $4x - 2x = 9 + 7 \Rightarrow 2x = 16 \Rightarrow x = 8$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -185,7 +185,7 @@ $4x - 2x = 9 + 7 \Rightarrow 2x = 16 \Rightarrow x = 8$.
 }
 </script>
 
-### Q6 — Quadratic Equation
+### Q6, Quadratic Equation
 
 > Solve $x^2 - 5x + 6 = 0$.
 
@@ -200,7 +200,7 @@ $4x - 2x = 9 + 7 \Rightarrow 2x = 16 \Rightarrow x = 8$.
 
 $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -213,7 +213,7 @@ $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 }
 </script>
 
-### Q7 — Inequality
+### Q7, Inequality
 
 > Solve the inequality $3x + 4 > 2x - 5$. Which of the following represents the solution?
 
@@ -228,7 +228,7 @@ $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 
 $3x - 2x > -5 - 4 \Rightarrow x > -9$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -241,7 +241,7 @@ $3x - 2x > -5 - 4 \Rightarrow x > -9$.
 }
 </script>
 
-### Q8 — Nth Term of a Sequence
+### Q8, Nth Term of a Sequence
 
 > The nth term of a sequence is $2n^2 + 3n$. What is the 5th term?
 
@@ -256,7 +256,7 @@ $3x - 2x > -5 - 4 \Rightarrow x > -9$.
 
 $n = 5$: $2(25) + 3(5) = 50 + 15 = 65$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -271,7 +271,7 @@ $n = 5$: $2(25) + 3(5) = 50 + 15 = 65$.
 
 ## Geometry (Angles, Circles, Transformations)
 
-### Q9 — Angles in a Triangle
+### Q9, Angles in a Triangle
 
 > In triangle ABC, angle A = 55° and angle B = 75°. What is angle C?
 
@@ -286,7 +286,7 @@ $n = 5$: $2(25) + 3(5) = 50 + 15 = 65$.
 
 Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -299,7 +299,7 @@ Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 }
 </script>
 
-### Q10 — Circle Theorems
+### Q10, Circle Theorems
 
 > A, B, and C are points on the circumference of a circle where AC is the diameter. Angle BAC = 38°.
 > What is angle ABC?
@@ -315,7 +315,7 @@ Angles in a triangle sum to 180°. $180 - 55 - 75 = 50°$.
 
 The angle subtended by the diameter is a right angle (Thales" theorem). Angle ABC = 90°.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -328,7 +328,7 @@ The angle subtended by the diameter is a right angle (Thales" theorem). Angle AB
 }
 </script>
 
-### Q11 — Area of a Circle
+### Q11, Area of a Circle
 
 > A circle has a radius of 7 cm. Taking $\pi = \frac{22}{7}$, what is the area of the circle?
 
@@ -343,7 +343,7 @@ The angle subtended by the diameter is a right angle (Thales" theorem). Angle AB
 
 $A = \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \text{ cm}^2$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -356,7 +356,7 @@ $A = \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \text{ cm}^2$.
 }
 </script>
 
-### Q12 — Translation
+### Q12, Translation
 
 > Point $P$ has coordinates $(3, 2)$. It is translated by the vector
 > $\begin{pmatrix} -4 \\ 5 \end{pmatrix}$. What are the coordinates of the image point $P'$?
@@ -372,7 +372,7 @@ $A = \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154 \text{ cm}^2$.
 
 $P' = (3 - 4, 2 + 5) = (-1, 7)$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -387,7 +387,7 @@ $P' = (3 - 4, 2 + 5) = (-1, 7)$.
 
 ## Statistics (Mean, Median, Mode, Probability)
 
-### Q13 — Mean from a Frequency Table
+### Q13, Mean from a Frequency Table
 
 > The data set is: 3, 5, 5, 7, 9. What is the mean?
 
@@ -402,7 +402,7 @@ $P' = (3 - 4, 2 + 5) = (-1, 7)$.
 
 Mean $= (3 + 5 + 5 + 7 + 9) \div 5 = 29 \div 5 = 5.8$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -415,7 +415,7 @@ Mean $= (3 + 5 + 5 + 7 + 9) \div 5 = 29 \div 5 = 5.8$.
 }
 </script>
 
-### Q14 — Median
+### Q14, Median
 
 > Find the median of: 2, 7, 1, 8, 3, 5, 6.
 
@@ -430,7 +430,7 @@ Mean $= (3 + 5 + 5 + 7 + 9) \div 5 = 29 \div 5 = 5.8$.
 
 Ordered: 1, 2, 3, **5**, 6, 7, 8. The middle value (4th of 7) is 5.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -443,7 +443,7 @@ Ordered: 1, 2, 3, **5**, 6, 7, 8. The middle value (4th of 7) is 5.
 }
 </script>
 
-### Q15 — Probability
+### Q15, Probability
 
 > A bag contains 3 red balls, 5 blue balls, and 2 green balls. One ball is picked at random. What is
 > the probability it is blue?
@@ -459,7 +459,7 @@ Ordered: 1, 2, 3, **5**, 6, 7, 8. The middle value (4th of 7) is 5.
 
 $P(\text{blue}) = \frac{5}{3 + 5 + 2} = \frac{5}{10} = \frac{1}{2}$.
 
-`easy` — 2 marks
+`easy`2 marks
 
 ---
 
@@ -472,7 +472,7 @@ $P(\text{blue}) = \frac{5}{3 + 5 + 2} = \frac{5}{10} = \frac{1}{2}$.
 }
 </script>
 
-### Q16 — Combined Probability
+### Q16, Combined Probability
 
 > Two fair six-sided dice are rolled. What is the probability that the sum is 7?
 
@@ -485,10 +485,10 @@ $P(\text{blue}) = \frac{5}{3 + 5 + 2} = \frac{5}{10} = \frac{1}{2}$.
 
 **Correct: A** (index 0)
 
-There are 36 total outcomes. Favourable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — 6
+There are 36 total outcomes. Favourable outcomes: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1), 6
 outcomes. $P = \frac{6}{36} = \frac{1}{6}$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -503,7 +503,7 @@ outcomes. $P = \frac{6}{36} = \frac{1}{6}$.
 
 ## Ratio and Proportion
 
-### Q17 — Direct Proportion
+### Q17, Direct Proportion
 
 > If 5 litres of paint covers 60 m², how many litres are needed to cover 96 m²?
 
@@ -518,7 +518,7 @@ outcomes. $P = \frac{6}{36} = \frac{1}{6}$.
 
 Scale factor: $96 \div 60 = 1.6$. Paint needed: $5 \times 1.6 = 8$ litres.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -531,7 +531,7 @@ Scale factor: $96 \div 60 = 1.6$. Paint needed: $5 \times 1.6 = 8$ litres.
 }
 </script>
 
-### Q18 — Ratio Sharing
+### Q18, Ratio Sharing
 
 > £240 is shared in the ratio 2:3:5. What is the largest share?
 
@@ -546,7 +546,7 @@ Scale factor: $96 \div 60 = 1.6$. Paint needed: $5 \times 1.6 = 8$ litres.
 
 $2 + 3 + 5 = 10$ parts. One part = £24. Largest share = $5 \times 24 = £120$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -559,7 +559,7 @@ $2 + 3 + 5 = 10$ parts. One part = £24. Largest share = $5 \times 24 = £120$.
 }
 </script>
 
-### Q19 — Speed, Distance, Time
+### Q19, Speed, Distance, Time
 
 > A car travels 180 miles in 2 hours 30 minutes. What is its average speed in mph?
 
@@ -574,7 +574,7 @@ $2 + 3 + 5 = 10$ parts. One part = £24. Largest share = $5 \times 24 = £120$.
 
 $2 \text{ h } 30 \text{ min} = 2.5 \text{ h}$. Speed $= 180 \div 2.5 = 72 \text{ mph}$.
 
-`medium` — 3 marks
+`medium`3 marks
 
 ---
 
@@ -587,7 +587,7 @@ $2 \text{ h } 30 \text{ min} = 2.5 \text{ h}$. Speed $= 180 \div 2.5 = 72 \text{
 }
 </script>
 
-### Q20 — Exchange Rates
+### Q20, Exchange Rates
 
 > The exchange rate is £1 = $1.25. Kate converts £480 to dollars. She then spends $375 and converts
 > the remainder back to pounds. How much does she receive in pounds?
@@ -602,9 +602,9 @@ $2 \text{ h } 30 \text{ min} = 2.5 \text{ h}$. Speed $= 180 \div 2.5 = 72 \text{
 **Correct: A** (index 0)
 
 $480 \times 1.25 = \$600$. After spending $375, remaining = $\$225$. Convert back:
-$225 \div 1.25 = £180$. Wait — $600 - 375 = 225$. $225 \div 1.25 = £180$. That is not £66. Let me
+$225 \div 1.25 = £180$. Wait, $600 - 375 = 225$. $225 \div 1.25 = £180$. That is not £66. Let me
 correct: Actually $480 \times 1.25 = \$600$. Spends $\$375$, remainder $\$225$.
-$225 \div 1.25 = £180$. None of the options match — the correct answer based on these numbers is
+$225 \div 1.25 = £180$. None of the options match, the correct answer based on these numbers is
 £180, but reviewing the options:
 
 Let me recalculate properly. $480 \times 1.25 = 600$. $600 - 375 = 225$. $225 \div 1.25 = 180$.
@@ -621,11 +621,11 @@ Let me use a different setup that produces one of the given answers.
 **Correct: A** (index 0)
 
 Exchange: $£480 \times 1.25 = \$600$. Spends $\$375$, remainder $\$225$. Converts back:
-$\$225 \div 1.25 = £180$. However the question asks specifically — reviewing, the correct arithmetic
+$\$225 \div 1.25 = £180$. However the question asks specifically, reviewing, the correct arithmetic
 gives £180. The answer is **£180**, which suggests the options need adjustment. For exam purposes:
 the answer is £180.
 
-`hard` — 4 marks
+`hard`4 marks
 
 ---
 

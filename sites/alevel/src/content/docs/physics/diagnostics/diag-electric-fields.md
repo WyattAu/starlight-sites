@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
-## Electric Fields — Diagnostic Tests
+## Electric Fields, Diagnostic Tests
 
 ## Unit Tests
 
@@ -312,7 +312,7 @@ The capacitance increased from $88.5\,\text{pF}$ to $133\,\text{pF}$A factor of 
 }
 </script>
 
-### IT-3: Field Lines and Equipotentials — Proof of Perpendicularity (with Wave Properties)
+### IT-3: Field Lines and Equipotentials, Proof of Perpendicularity (with Wave Properties)
 
 **Question:**
 

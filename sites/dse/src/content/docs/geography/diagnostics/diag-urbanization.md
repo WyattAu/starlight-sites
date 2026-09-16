@@ -92,11 +92,11 @@ Answer each question. Check your answers against the key at the end.
 
 ## Intuition
 
-**Cities as living organisms:** Urbanization is like a growing tree — cities expand outward (sprawl), sometimes people move back inward (re-urbanization), and new branches (new towns) relieve pressure on the trunk.
+**Cities as living organisms:** Urbanization is like a growing tree, cities expand outward (sprawl), sometimes people move back inward (re-urbanization), and new branches (new towns) relieve pressure on the trunk.
 
 **Why it matters:** More than half the world's population now lives in cities. Understanding urban processes helps design livable, sustainable communities and manage resources efficiently.
 
-**The key insight:** Land value decreases with distance from the CBD — this single economic force shapes everything from housing prices to land use patterns.
+**The key insight:** Land value decreases with distance from the CBD, this single economic force shapes everything from housing prices to land use patterns.
 
 ## Answer Key
 

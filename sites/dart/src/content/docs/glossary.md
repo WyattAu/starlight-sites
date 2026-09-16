@@ -1,6 +1,6 @@
 ---
-title: "Dart Glossary — Key Terms and Definitions"
-description: "Study notes for Dart Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Dart Glossary, Key Terms and Definitions"
+description: "Study notes for Dart Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

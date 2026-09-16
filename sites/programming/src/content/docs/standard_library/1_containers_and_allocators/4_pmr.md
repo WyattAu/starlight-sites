@@ -195,11 +195,11 @@ The PMR library provides a hierarchy of resources [N4950 §23.10]:
 
 ```
 memory_resource (abstract base) [N4950 §23.10.2]
-├── new_delete_resource() [N4950 §23.10.3] — uses global operator new/delete
-├── null_memory_resource() [N4950 §23.10.3] — throws on allocate
-├── monotonic_buffer_resource [N4950 §23.10.5] — arena, no individual dealloc
-├── unsynchronized_pool_resource [N4950 §23.10.4] — pool, single-threaded
-└── synchronized_pool_resource [N4950 §23.10.4] — pool, thread-safe
+├── new_delete_resource() [N4950 §23.10.3], uses global operator new/delete
+├── null_memory_resource() [N4950 §23.10.3], throws on allocate
+├── monotonic_buffer_resource [N4950 §23.10.5], arena, no individual dealloc
+├── unsynchronized_pool_resource [N4950 §23.10.4], pool, single-threaded
+└── synchronized_pool_resource [N4950 §23.10.4], pool, thread-safe
 ```
 
 Each resource can have an **upstream resource** that it falls back to when its own resources are
@@ -253,7 +253,7 @@ int main() {
     double total_salary = 0.0;
     for (const auto& emp : employees) {
         report += "  [" + std::pmr::to_string(emp.id) + "] " + emp.name
-                + " — $" + std::pmr::to_string(emp.salary) + "\n";
+                + ", $" + std::pmr::to_string(emp.salary) + "\n";
         total_salary += emp.salary;
     }
 
@@ -268,8 +268,8 @@ int main() {
     // (it only knows about its buffer blocks)
     // For detailed tracking, use a custom memory_resource wrapper
 
-    // Arena cleanup: O(1) — just destroy the resource
-    std::cout << "Arena cleanup is O(1) — no per-object destruction overhead.\n";
+    // Arena cleanup: O(1), just destroy the resource
+    std::cout << "Arena cleanup is O(1), no per-object destruction overhead.\n";
     arena.release();
 }
 ```
@@ -514,11 +514,11 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 
 ## Intuition
 
-**PMR is like renting warehouse space:** Instead of each container owning its own memory (like buying storage units), PMR containers share a memory resource (like renting from a warehouse). The warehouse manager (memory resource) handles allocation and deallocation, and all containers using that resource can share the space. This is efficient for many small allocations — instead of calling `malloc` for each one, you carve them from a large pool.
+**PMR is like renting warehouse space:** Instead of each container owning its own memory (like buying storage units), PMR containers share a memory resource (like renting from a warehouse). The warehouse manager (memory resource) handles allocation and deallocation, and all containers using that resource can share the space. This is efficient for many small allocations, instead of calling `malloc` for each one, you carve them from a large pool.
 
 **Why it matters:** PMR eliminates allocation overhead for containers with many small elements. Instead of each `push_back` triggering a heap allocation, all elements come from a pre-allocated pool. This is critical for performance-critical code like game engines, financial systems, and real-time audio processing where allocation latency is unacceptable.
 
-**The key insight:** PMR containers share a memory resource — this eliminates per-element allocation overhead and enables pool-based allocation strategies.
+**The key insight:** PMR containers share a memory resource, this eliminates per-element allocation overhead and enables pool-based allocation strategies.
 
 ## Common Pitfalls
 

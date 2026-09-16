@@ -43,7 +43,7 @@ Calling `lock()` on a mutex already held by the current thread results in **unde
 
 On Linux, `std::mutex` is implemented as a thin wrapper around `pthread_mutex_t`. The Default
 `pthread_mutex_t` uses the **Normal** type (not recursive, not error-checking), which means
-Re-locking without unlocking is UB — exactly matching the C++ standard"s requirement.
+Re-locking without unlocking is UB, exactly matching the C++ standard"s requirement.
 
 ```cpp
 #include <pthread.h>
@@ -67,7 +67,7 @@ a single atomic `cmpxchg` instruction (futex-based).
 ### Uncontended vs Contended Lock Performance
 
 In the uncontended case (no other thread holds the lock), acquiring a mutex is essentially the cost
-Of a single atomic compare-and-swap — approximately 10-20 nanoseconds on x86. In the contended case,
+Of a single atomic compare-and-swap, approximately 10-20 nanoseconds on x86. In the contended case,
 The thread is descheduled via a futex system call (`FUTEX_WAIT`), which costs 1-10 microseconds for
 The kernel context switch alone, plus scheduler latency.
 
@@ -136,7 +136,7 @@ int main() {
 }
 ```
 
-The better design is to refactor so that `walk_impl` does not acquire the lock — only the public
+The better design is to refactor so that `walk_impl` does not acquire the lock, only the public
 `walk()` method acquires it, and `walk_impl` is a private method that assumes the lock is already
 Held:
 
@@ -146,14 +146,14 @@ class BetterTreeWalker {
 
     void walk_impl(TreeNode* node) {
         if (!node) return;
-        // No lock acquisition here — caller must hold mtx_
+        // No lock acquisition here, caller must hold mtx_
         process_impl(node);
         walk_impl(node->left);
         walk_impl(node->right);
     }
 
     void process_impl(TreeNode* node) {
-        // No lock acquisition — caller must hold mtx_
+        // No lock acquisition, caller must hold mtx_
     }
 
 public:
@@ -294,7 +294,7 @@ public:
         }
         lk.unlock();  // Explicitly release
 
-        // Lock is not held here — safe to do non-critical work
+        // Lock is not held here, safe to do non-critical work
     }
 };
 
@@ -624,11 +624,11 @@ POSIX systems, this maps to `pthread_rwlock_t`.
 :::
 ## Intuition
 
-**A mutex is like a bathroom key:** Only one person can hold the key at a time, and only the person holding the key can use the bathroom. If someone else wants to use it, they must wait until the key is returned. A deadlock is when two people each hold one key and refuse to release it until they get the other — neither can proceed. The `std::scoped_lock` is like a rule that says "always pick up both keys at once, or neither" — it prevents the circular wait that causes deadlocks.
+**A mutex is like a bathroom key:** Only one person can hold the key at a time, and only the person holding the key can use the bathroom. If someone else wants to use it, they must wait until the key is returned. A deadlock is when two people each hold one key and refuse to release it until they get the other, neither can proceed. The `std::scoped_lock` is like a rule that says "always pick up both keys at once, or neither", it prevents the circular wait that causes deadlocks.
 
-**Why it matters:** Mutexes are the most common synchronization primitive, but they come with real costs — a contended mutex can cost 1000x more than an uncontended one. Understanding when to use a mutex, when to use a reader-writer lock, and how to avoid deadlocks is essential for writing correct and performant concurrent code.
+**Why it matters:** Mutexes are the most common synchronization primitive, but they come with real costs, a contended mutex can cost 1000x more than an uncontended one. Understanding when to use a mutex, when to use a reader-writer lock, and how to avoid deadlocks is essential for writing correct and performant concurrent code.
 
-**The key insight:** Deadlock requires four conditions to be true simultaneously — break any one (like always acquiring locks in the same order) and you prevent it.
+**The key insight:** Deadlock requires four conditions to be true simultaneously, break any one (like always acquiring locks in the same order) and you prevent it.
 
 ## Common Pitfalls
 

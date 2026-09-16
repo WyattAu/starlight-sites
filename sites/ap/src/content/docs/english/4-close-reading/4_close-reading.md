@@ -239,9 +239,9 @@ flowchart TD
 
 ## Intuition
 
-Close reading is about **what the text actually says and how it says it** — not what you think it means or what the author intended. Every word, every punctuation mark, every structural choice is evidence. The goal is to build an interpretation from specific textual details.
+Close reading is about **what the text actually says and how it says it**, not what you think it means or what the author intended. Every word, every punctuation mark, every structural choice is evidence. The goal is to build an interpretation from specific textual details.
 
-**Annotation strategy:** Read once for overall meaning, then re-read to identify patterns: repeated words, shifts in tone, unusual syntax, structural contrasts. These patterns are your evidence. A single detail can support multiple interpretations — the best essays explore this complexity.
+**Annotation strategy:** Read once for overall meaning, then re-read to identify patterns: repeated words, shifts in tone, unusual syntax, structural contrasts. These patterns are your evidence. A single detail can support multiple interpretations, the best essays explore this complexity.
 
 **Tone and diction:** Pay attention to word choice (diction). "Slim" and "thin" describe the same quality but carry different connotations. Formal vs informal tone signals the author's attitude toward the subject. Shifts in tone often mark turning points in the argument.
 

@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
-## Exchange and Transport — Diagnostic Tests
+## Exchange and Transport, Diagnostic Tests
 
 ## Unit Tests
 
@@ -72,7 +72,7 @@ and is converted to $\text{HCO}_3^-$ and H$^+$ by carbonic anhydrase:
 $\text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 \rightleftharpoons \text{H}^+ + \text{HCO}_3^-$.
 The increased H$^+$ concentration (lower pH) causes haemoglobin to change shape, reducing its
 affinity for oxygen and promoting oxygen unloading. A rightward shift means that at any given
-pO$_2$Haemoglobin is less saturated with oxygen — it releases oxygen more readily. This ensures that
+pO$_2$Haemoglobin is less saturated with oxygen, it releases oxygen more readily. This ensures that
 tissues with high metabolic rates (high CO$_2$ production) receive more oxygen, precisely where it
 is most needed.
 
@@ -144,7 +144,7 @@ affect the rate of transpiration.
 
 The column of water in the xylem is under tension (negative pressure), and this tension pulls water
 upwards from the roots. The cohesion between water molecules prevents the column from breaking (up
-to a point — if tension exceeds cohesion, cavitation occurs, forming an air bubble that blocks the
+to a point, if tension exceeds cohesion, cavitation occurs, forming an air bubble that blocks the
 vessel).
 
 (b) **Apoplast pathway**: water moves through the cell walls and intercellular spaces of the root
@@ -278,10 +278,10 @@ at the source by companion cells, using ATP (this is the energy-requiring step t
 osmotic gradient); (2) the process can be inhibited by respiratory poisons (e.g., cyanide, which
 inhibits ATP production), which stop translocation. Xylem transport is **passive** because: (1)
 water movement is driven by the passive evaporation of water from leaves (transpiration), which
-creates a tension that pulls water up through the xylem — no metabolic energy is directly required
+creates a tension that pulls water up through the xylem, no metabolic energy is directly required
 for water movement through xylem vessels; (2) xylem vessels are dead cells with no metabolic
 activity. (Root pressure, a minor component of xylem transport, does involve active transport of
-ions, but the main driver — transpiration pull — is passive.)
+ions, but the main driver, transpiration pull, is passive.)
 
 ---
 
@@ -334,7 +334,7 @@ systems (circulatory systems) to move gases between the exchange surface and the
   for gas exchange (approximately 70 m$^2$ in humans).
 - **Thin diffusion barrier**: the alveolar epithelium is a single layer of squamous epithelial cells
   (type I pneumocytes); the capillary endothelium is also a single cell layer; the basement
-  membranes of the two layers are fused — total diffusion distance is approximately 1 micrometre.
+  membranes of the two layers are fused, total diffusion distance is approximately 1 micrometre.
 - **Steep concentration gradient**: maintained by continuous blood flow through capillaries
   (removing O$_2$-rich blood and bringing CO$_2$-rich blood) and ventilation (breathing in fresh air
   with high O$_2$ and low CO$_2$Breathing out stale air).
@@ -343,14 +343,14 @@ systems (circulatory systems) to move gases between the exchange surface and the
 - **Surfactant**: reduces surface tension, preventing alveolar collapse and maintaining surface
   area.
 
-(c) The alveolar epithelium consists mainly of **type I pneumocytes** — extremely thin, flat
+(c) The alveolar epithelium consists mainly of **type I pneumocytes**, extremely thin, flat
 squamous epithelial cells that provide a minimal diffusion distance for gases. They are so thin that
 the cytoplasm is barely visible under a light microscope. Between type I pneumocytes are **type II
 pneumocytes**, which secrete surfactant. Adjacent to the alveolar epithelium, the **capillary
 endothelium** is also a single layer of thin, flat endothelial cells. The basement membranes of the
 alveolar epithelium and capillary endothelium are fused together, meaning there is no interstitial
-space between them. This arrangement — thin epithelium + thin endothelium + fused basement membranes
-— minimises the total diffusion distance between the air in the alveolus and the blood in the
+space between them. This arrangement, thin epithelium + thin endothelium + fused basement membranes
+- minimises the total diffusion distance between the air in the alveolus and the blood in the
 capillary, maximising the rate of gas exchange. Both are specialised to be thin because they are not
 required to provide mechanical strength (the connective tissue around alveoli provides that).
 
@@ -366,7 +366,7 @@ first O$_2$ binds, the remaining haem groups load rapidly. Haemoglobin becomes h
 
 **Unloading in the tissues**: In respiring tissues, $p\text{O}_2$ is low because cells are
 continuously using oxygen for aerobic respiration. CO$_2$ concentration is high. The high CO$_2$
-causes the Bohr effect — haemoglobin's affinity for oxygen decreases, and the dissociation curve
+causes the Bohr effect, haemoglobin's affinity for oxygen decreases, and the dissociation curve
 shifts to the right. Haemoglobin releases oxygen, which diffuses from the blood into the tissues
 along the concentration gradient.
 
@@ -404,7 +404,7 @@ blood arriving in the hepatic portal vein, with reference to the metabolic funct
 
 (a) **Bile** is produced in the liver, stored in the gall bladder, and released into the small
 intestine (duodenum) via the bile duct. Bile contains **bile salts**, which are amphipathic
-molecules (having both hydrophilic and hydrophobic regions). Bile salts emulsify lipids — they break
+molecules (having both hydrophilic and hydrophobic regions). Bile salts emulsify lipids, they break
 large fat globules into smaller droplets, increasing the surface area for the enzyme lipase to act
 upon. Emulsification is a physical process (not chemical digestion). Bile also **neutralises** the
 acidic chyme arriving from the stomach, raising the pH to the optimum for pancreatic lipase
@@ -413,7 +413,7 @@ digestion to the epithelial surface for absorption.
 
 (b) Lipase breaks down triglycerides into monoglycerides, fatty acids, and glycerol. These products
 are hydrophobic and would clump together in the aqueous environment of the intestinal lumen.
-Instead, they are incorporated into **micelles** — small spherical aggregates of bile salts with
+Instead, they are incorporated into **micelles**, small spherical aggregates of bile salts with
 their hydrophilic regions facing outwards and the lipid products in the hydrophobic centre. Micelles
 transport the lipid products to the surface of the intestinal epithelium. The lipid products diffuse
 across the epithelial cell membrane (they are lipid-soluble and can pass through the phospholipid
@@ -436,7 +436,7 @@ converts excess glucose to glycogen (glycogenesis) for storage, converts amino a
 (d) The blood in the hepatic portal vein is rich in nutrients (glucose, amino acids, lipids) and
 potentially harmful substances absorbed from the gut. The liver processes these: (1) **Glucose**:
 excess glucose is converted to glycogen (glycogenesis); when blood glucose is low, glycogen is
-broken down to glucose (glycogenolysis). (2) **Amino acids**: excess amino acids are deaminated —
+broken down to glucose (glycogenolysis). (2) **Amino acids**: excess amino acids are deaminated,
 the amino group is converted to ammonia (toxic), then to urea (less toxic) by the ornithine cycle;
 the remaining carbon skeleton is converted to carbohydrate or fat. (3) **Detoxification**: the liver
 breaks down alcohol, drugs, and other toxins. As a result, the blood leaving the liver in the

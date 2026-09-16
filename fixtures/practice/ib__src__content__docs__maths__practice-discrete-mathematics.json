@@ -136,10 +136,10 @@
         "Show that all integers greater than 1 are composite",
         "Use induction to show infinitely many primes exist",
         "Assume all numbers are prime and derive a contradiction",
-        "Assume a largest prime p exists, then p! + 1 is either prime or divisible by a prime larger than p — contradiction"
+        "Assume a largest prime p exists, then p! + 1 is either prime or divisible by a prime larger than p, contradiction"
       ],
       "correctAnswer": 3,
-      "explanation": "Assume p is the largest prime. Consider N = p! + 1. N is not divisible by any prime ≤ p (it leaves remainder 1). So N is either prime itself or divisible by a prime > p. Either way, a prime larger than p exists — contradiction.\"",
+      "explanation": "Assume p is the largest prime. Consider N = p! + 1. N is not divisible by any prime ≤ p (it leaves remainder 1). So N is either prime itself or divisible by a prime > p. Either way, a prime larger than p exists, contradiction.\"",
       "difficulty": "medium"
     },
     {
@@ -179,7 +179,7 @@
       "difficulty": "medium"
     },
     {
-      "question": "A password consists of 4 distinct digits chosen from {0,1,2,...,9}. How many possible passwords are there?",
+      "question": "A password consists of 4 distinct digits chosen from {0,1,2...,9}. How many possible passwords are there?",
       "options": [
         "10000",
         "5040",

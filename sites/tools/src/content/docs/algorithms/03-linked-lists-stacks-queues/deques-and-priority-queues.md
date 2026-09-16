@@ -126,7 +126,7 @@ class LinkedListDeque:
     """
     Deque using a doubly-linked list with sentinel nodes.
     Time: O(1) for all operations
-    Space: O(n) — one node per element plus two sentinels
+    Space: O(n), one node per element plus two sentinels
     """
     def __init__(self):
         self.sentinel = DequeNode(None)
@@ -180,7 +180,7 @@ class LinkedListDeque:
 | Go       | None (use slice)    | N/A             | Manual implementation needed |
 
 :::note
-Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality — much
+Block size is 64 elements). This gives $O(1)$ amortised operations with good cache locality, much
 Better than a naive linked list but slightly worse than a pure circular buffer for sequential
 Access.
 
@@ -240,7 +240,7 @@ Given an arbitrary array, rearrange it into a valid heap.
 def heapify(arr):
     """
     Build a max-heap from an unsorted array.
-    Time: O(n) — NOT O(n log n). See proof below.
+    Time: O(n), NOT O(n log n). See proof below.
     Space: O(1) in-place
     """
     n = len(arr)
@@ -543,7 +543,7 @@ Perform consolidation only during `extract_min`. This laziness is what gives amo
 
 When a node loses its first child, it is marked. When it loses a second child, it is cut from its
 Parent and added to the root list. This cascading ensures the tree structure does not degrade too
-Badly — the degree of any node is bounded by $O(\log_\phi n)$ where $\phi = (1 + \sqrt{5}) / 2$.
+Badly, the degree of any node is bounded by $O(\log_\phi n)$ where $\phi = (1 + \sqrt{5}) / 2$.
 
 ```python
 class FibNode:
@@ -716,7 +716,7 @@ class PairingNode:
 
 class PairingHeap:
     """
-    Pairing heap — simpler Fibonacci heap alternative.
+    Pairing heap, simpler Fibonacci heap alternative.
     Insert: O(1) amortised
     Find-min: O(1)
     Extract-min: O(log n) amortised

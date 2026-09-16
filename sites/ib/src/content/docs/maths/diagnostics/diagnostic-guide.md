@@ -375,7 +375,7 @@ docs/docs_ib/maths/
 Each `diag-<topic-slug>.md` file follows this structure:
 
 ```
-# Topic Name — Diagnostic Tests
+# Topic Name, Diagnostic Tests
 
 ## Unit Tests
 

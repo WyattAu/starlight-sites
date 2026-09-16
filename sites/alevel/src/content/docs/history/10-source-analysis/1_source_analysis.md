@@ -25,7 +25,7 @@ description: "A-Level History source analysis notes covering OPVL framework, int
 
 Source analysis is the foundation of historical enquiry. At A-Level, examiners assess your ability
 to evaluate the reliability, significance, and utility of primary sources within their historical
-context. This requires a systematic approach — understanding who created a source, why, for whom,
+context. This requires a systematic approach, understanding who created a source, why, for whom,
 and what it can and cannot tell us about the past.
 
 ## Historical Context and Chronology
@@ -51,7 +51,7 @@ Where, when, and by whom was the source produced?
 Knowing the origin helps assess potential biases and reliability. A factory inspector's report will
 differ from a mill owner's editorial, even if both describe the same conditions.
 
-**Key questions**: Who is the author? When was it produced — contemporaneous or retrospective? Where
+**Key questions**: Who is the author? When was it produced, contemporaneous or retrospective? Where
 was it produced and does this suggest particular perspectives?
 
 ### Purpose
@@ -94,7 +94,7 @@ representative? Has it been altered, censored, or selected?
 
 ## Interpretation Evaluation
 
-At A-Level, you must evaluate not only sources but also historical interpretations — the
+At A-Level, you must evaluate not only sources but also historical interpretations, the
 explanations historians construct from evidence.
 
 ### What is an interpretation?
@@ -109,7 +109,7 @@ Consider:
 
 1. **Evidence**: What evidence supports the argument? Is it representative, reliable, sufficient?
 2. **Assumptions**: What assumptions does the historian make? Are they justified?
-3. **Perspective**: What standpoint — political, social, national — does the historian adopt?
+3. **Perspective**: What standpoint, political, social, national, does the historian adopt?
 4. **Comparisons**: How does this interpretation compare with others using the same or different
    evidence?
 5. **Strengths and weaknesses**: What are the strongest and weakest aspects?
@@ -164,7 +164,7 @@ When sources present conflicting accounts, evaluate both and explain why they di
 - **Source B** (reformers): Peaceful meeting attacked without provocation.
 
 **Analysis**: Sources differ because authors hold different political positions. Source A reflects
-fear of revolutionary upheaval; Source B reflects demand for reform. Neither is "wrong" —
+fear of revolutionary upheaval; Source B reflects demand for reform. Neither is "wrong",
 both reveal genuine attitudes. The historian's task is to understand why perspectives differed and
 assess which account is more accurate.
 
@@ -181,7 +181,7 @@ Examiners look for:
 
 ## Intuition
 
-Source analysis is like being a detective at a crime scene. Every witness has a perspective, every piece of evidence has a context, and nothing speaks for itself. A factory inspector's report is not a photograph of reality — it is a painting, shaped by who held the brush and why they painted it that way. The OPVL framework is your magnifying glass: it forces you to ask who made this, why, what does it tell us, and what does it hide. The deepest skill in history is not knowing what happened, but understanding why people described it the way they did, and what they chose to leave out of the picture.
+Source analysis is like being a detective at a crime scene. Every witness has a perspective, every piece of evidence has a context, and nothing speaks for itself. A factory inspector's report is not a photograph of reality, it is a painting, shaped by who held the brush and why they painted it that way. The OPVL framework is your magnifying glass: it forces you to ask who made this, why, what does it tell us, and what does it hide. The deepest skill in history is not knowing what happened, but understanding why people described it the way they did, and what they chose to leave out of the picture.
 
 ## Common Pitfalls
 
@@ -196,7 +196,7 @@ Source analysis is like being a detective at a crime scene. Every witness has a 
 
 ## Worked Examples
 
-### Example 1: OPVL Analysis — A political cartoon
+### Example 1: OPVL Analysis, A political cartoon
 
 **Source**: A Punch cartoon (1882) depicting the Irish as ape-like creatures opposing British
 civilisation.
@@ -210,16 +210,16 @@ civilisation.
 - **Limitation**: Reflects single, biased perspective; does not represent Irish views;
   dehumanising imagery is evidence of prejudice, not reliable depiction.
 
-### Example 2: Essay Plan — "How useful is Source A for understanding working conditions?"
+### Example 2: Essay Plan, "How useful is Source A for understanding working conditions?"
 
 **Introduction**: Source A is a factory inspector's report (1833). Usefulness depends on the
 aspect of working conditions being investigated.
 
-**Paragraph 1 — Value**: Inspector had official access; report produced under Factory Act 1833;
+**Paragraph 1, Value**: Inspector had official access; report produced under Factory Act 1833;
 provides specific details about hours and conditions. But: inspector was mandated to identify
 abuses, potentially biasing selection.
 
-**Paragraph 2 — Limitations**: May emphasise worst conditions; does not represent average mill;
+**Paragraph 2, Limitations**: May emphasise worst conditions; does not represent average mill;
 inspector's perspective differs from workers'. Should be cross-referenced with workers'
 testimonies.
 
@@ -239,7 +239,7 @@ flowchart TD
 
 ## Summary
 
-Source analysis requires systematic evaluation using the OPVL framework — origin, purpose, value,
+Source analysis requires systematic evaluation using the OPVL framework, origin, purpose, value,
 limitation. Sources must be placed in historical context and assessed relative to the question
 asked. Interpretation evaluation requires understanding why historians reach different conclusions,
 examining their evidence, assumptions, and perspectives. Common assessment criteria reward specific

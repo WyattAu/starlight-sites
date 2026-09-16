@@ -190,7 +190,7 @@ The DWL triangle lies between the MRP curve and the supply curve from $L_m$ to $
 
 ### 4.5 Real-World Monopsony Power
 
-Monopsony power exists on a spectrum — few markets have a literal single buyer, but many have
+Monopsony power exists on a spectrum, few markets have a literal single buyer, but many have
 **monopsonistic** characteristics where firms face upward-sloping labour supply curves:
 
 - **Company towns**: Historically, mining villages where one firm dominated employment. Modern
@@ -250,8 +250,8 @@ Always paid their MRP. However, several limitations should be considered:
   could reduce employment.
 
 On balance, the monopsony model is most relevant in localised labour markets, for specialised skills
-With few employers, and in sectors with high employer concentration. Its policy implications —
-Particularly the potential for minimum wages to increase employment — are among the most practically
+With few employers, and in sectors with high employer concentration. Its policy implications,
+Particularly the potential for minimum wages to increase employment, are among the most practically
 Important insights from labour economics.
 
 ## 5. Trade Unions
@@ -286,7 +286,7 @@ Falls to $L_d(w_u)$. There is an excess supply of labour (unemployment) of $L_s(
 
 In a monopsony, a minimum wage $w_{min}$ set at the competitive level $w_c$ makes the
 $MCL = ACL = w_{min}$ for $L \leq L_c$ (the monopsonist no longer faces an upward-sloping MCL). The
-Monopsonist hires where $MRP_L = w_{min}$Which is at $L_c$ — the competitive employment level.
+Monopsonist hires where $MRP_L = w_{min}$Which is at $L_c$, the competitive employment level.
 Employment increases from $L_m$ to $L_c$.
 
 ### 5.4 Union Decline and Modern Relevance
@@ -320,7 +320,7 @@ The net effect of trade unions on economic welfare is ambiguous and context-depe
 - Counter monopsony power, raising wages towards the competitive level (Freeman and Medoff, 1984:
   unions as a "collective voice" that corrects market failures).
 - Reduce wage inequality by compressing the wage distribution.
-- Improve working conditions, health, and safety — generating positive externalities (fewer
+- Improve working conditions, health, and safety, generating positive externalities (fewer
   workplace accidents reduce NHS costs).
 - Increase productivity through reduced turnover, better training, and improved worker morale (the
   "productive efficiency" argument).
@@ -374,7 +374,7 @@ The empirical debate over minimum wages has been one of the most contested in la
 
 - **Card and Krueger (1994)**: Compared fast-food employment in New Jersey (which raised its minimum
   wage) and Pennsylvania (which did not). Contrary to the competitive prediction, employment in New
-  Jersey did not fall — and may have increased. This landmark study suggested monopsony power in
+  Jersey did not fall, and may have increased. This landmark study suggested monopsony power in
   low-wage labour markets.
 - **Neumark and Wascher (2007)**: Conducted a meta-analysis concluding that the preponderance of
   evidence suggests minimum wages reduce employment, particularly for teenagers and low-skilled
@@ -494,7 +494,7 @@ Productivity differences.
 - Even controlling for education, experience, and occupation, a gender pay gap persists (the
   "adjusted" or "unexplained" gap), suggesting discrimination or unobserved factors.
 - The theory does not explain why female-dominated occupations (e.g., nursing, primary teaching) are
-  paid less than male-dominated occupations requiring similar skill levels — a phenomenon known as
+  paid less than male-dominated occupations requiring similar skill levels, a phenomenon known as
   **devaluation** or the **"pink-collar" penalty**.
 
 ### 7.4 Criticisms of Human Capital Theory
@@ -509,7 +509,7 @@ Significant limitations:
 - **Non-cognitive skills**: The theory focuses on measurable skills (education, experience) but
   ignores soft skills (communication, resilience, creativity) that are increasingly important.
 - **Credential inflation**: If more people obtain degrees, the signalling value of a degree falls,
-  and employers may demand postgraduate qualifications for the same jobs — a form of arms race that
+  and employers may demand postgraduate qualifications for the same jobs, a form of arms race that
   wastes resources (the "sheepskin effect").
 - **Oversupply of graduates**: In the UK, approximately 50% of school-leavers attend university, but
   not all graduate-level jobs require degree-level skills. This creates **underemployment** where
@@ -531,7 +531,7 @@ Race, age, etc.).
 
 ### 8.2 Taste-Based Discrimination (Becker, 1957)
 
-Employers have a "taste for discrimination" — they act as if employing a discriminated-against group
+Employers have a "taste for discrimination", they act as if employing a discriminated-against group
 Imposes a psychic cost $\delta$ per worker. The employer maximises:
 
 $$\pi = P \cdot f(L_w, L_m) - w_w L_w - (w_m + \delta) L_m$$
@@ -543,7 +543,7 @@ Higher than it actually is, and hires fewer workers from that group.
 Driven out by non-discriminating employers (who hire the cheaper equally-productive workers).
 Therefore, discrimination should be eliminated in the long run by competition.
 
-**Criticism**: this prediction is not borne out empirically — discrimination persists.
+**Criticism**: this prediction is not borne out empirically, discrimination persists.
 
 ### 8.3 Statistical Discrimination
 
@@ -601,9 +601,9 @@ Discrimination.
 
 ### Limitations
 
-- Assumes perfect information — in reality, employers cannot perfectly observe worker productivity
+- Assumes perfect information, in reality, employers cannot perfectly observe worker productivity
   (principal-agent problem)
-- Assumes labour is homogeneous — ignores non-wage job characteristics (working conditions,
+- Assumes labour is homogeneous, ignores non-wage job characteristics (working conditions,
   location, prestige)
 - The backward-bending supply curve is difficult to observe empirically
 - Discrimination models may underestimate the role of institutional factors and structural
@@ -737,7 +737,7 @@ Men and women." Evaluate this statement using economic theory and evidence.
 <details>
 <summary>Hint</summary>
 Human capital theory explains part of the gap: women are more likely to work part-time, take career
-Breaks, and work in lower-paid occupations — all of which reduce MRP. However, even after controlling
+Breaks, and work in lower-paid occupations, all of which reduce MRP. However, even after controlling
 For education, experience, occupation, and hours worked (the Oaxaca-Blinder decomposition), a
 Significant "unexplained" gap remains (approximately one-third of the total in the UK). This unexplained
 Portion may reflect discrimination (taste-based and statistical), social norms, network effects, and
@@ -780,7 +780,7 @@ Productivity and profitability, but they require collective action and only bene
 Provide additional benefits (working conditions, grievance procedures, training) that minimum wages do
 Not address. (4) Minimum wages are easier to enforce politically but may face less compliance in
 Hard-to-regulate sectors (gig economy). Evaluation: the most effective approach may combine both
-Instruments — a minimum wage floor to prevent the worst exploitation, supplemented by union
+Instruments, a minimum wage floor to prevent the worst exploitation, supplemented by union
 Negotiation for specific improvements above the floor. Evidence from Nordic countries (which combine
 High minimum wages through sectoral bargaining with strong unions) supports this complementary
 Approach.

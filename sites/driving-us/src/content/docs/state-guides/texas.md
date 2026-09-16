@@ -7,7 +7,7 @@ tags:
   - texas
   - dmv
 sources:
-  - text: "Texas Department of Public Safety — Driver License Division"
+  - text: "Texas Department of Public Safety, Driver License Division"
     url: "https://www.dps.texas.gov/section/driver-license"
   - text: "Texas Driver Handbook (official)"
     url: "https://www.dps.texas.gov/section/driver-license/texas-driver-handbook"
@@ -16,7 +16,7 @@ sources:
 ## The Agency: Texas DPS
 
 Texas handles driver licensing through the Department of Public Safety
-(DPS) Driver License Division, not a "DMV" — a common point of
+(DPS) Driver License Division, not a "DMV", a common point of
 confusion for newcomers. Many services (practice tests, appointment
 booking, license status) run through the DPS online portal.
 
@@ -39,7 +39,7 @@ the behind-the-wheel driving test. Until 18, Phase 2 restrictions:
   emergencies.
 - No passengers **under 21** unless family, and no more than one
   passenger under 21 who is not family.
-- Wireless-device use is prohibited for all drivers under 18 — even
+- Wireless-device use is prohibited for all drivers under 18, even
   hands-free.
 
 ## Adults 18-24
@@ -56,7 +56,7 @@ course is still recommended.
 - Permits and licenses expire on your birthday; the permit must be
   valid on road-test day.
 - DPS appointments book out weeks in metro areas (Houston, Dallas,
-  Austin) — schedule the road test as soon as you become eligible.
+  Austin), schedule the road test as soon as you become eligible.
 
 ## What the TX Written Test Emphasizes
 
@@ -69,12 +69,12 @@ From the official Texas Driver Handbook:
 - Insurance laws: the state's minimum liability coverage and the
   consequences of driving uninsured.
 - Work zones: fines double when workers are present.
-- BAC limits: 0.08% adults; Texas zero-tolerance under 21 — any
+- BAC limits: 0.08% adults; Texas zero-tolerance under 21, any
   detectable alcohol is a DUI charge.
 
 ## Study Plan for the Texas Permit Test
 
-1. Read the handbook's right-of-way and penalty sections twice —
+1. Read the handbook's right-of-way and penalty sections twice,
    Texas tests legal consequences more than most states.
 2. Memorize numeric limits with flashcards: speeds, distances,
    insurance minimums, curfew hours.
@@ -90,7 +90,7 @@ From the official Texas Driver Handbook:
   driveway or parking lot.
 - Forgetting that passing a school bus with red lights flashing is
   illegal on both sides of undivided roads.
-- Assuming turn signals are optional in roundabouts — Texas roundabout
+- Assuming turn signals are optional in roundabouts, Texas roundabout
   rules mirror standard yield-to-left practice.
 
 

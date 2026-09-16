@@ -21,7 +21,7 @@ description: "A-Level Geography Contemporary Urban Environments notes covering k
 ## Introduction
 
 Urbanisation is one of the defining processes of the modern era. For the first time in history, more
-people live in urban areas than in rural ones — approximately 56% of the global population in 2023,
+people live in urban areas than in rural ones, approximately 56% of the global population in 2023,
 projected to reach 68% by 2050 (UN). This topic examines the patterns and processes of urbanisation,
 the physical and social character of urban environments, and the challenges and strategies
 associated with making cities sustainable. Understanding urban environments is critical because the
@@ -104,8 +104,8 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
 - **Informal settlements (slums)**: Approximately 1 billion people live in slum conditions globally.
   Dharavi in Mumbai houses approximately 1 million people in 2.1 km². Characteristics include
   inadequate housing, lack of clean water and sanitation, overcrowding, and insecure tenure.
-- **Informal economy**: Many urban residents in developing countries work in the informal sector —
-  street vending, waste picking, casual labour — without legal protection, regular income, or social
+- **Informal economy**: Many urban residents in developing countries work in the informal sector,
+  street vending, waste picking, casual labour, without legal protection, regular income, or social
   security.
 - **Environmental health risks**: Air pollution, contaminated water, inadequate waste disposal, and
   vector-borne diseases (malaria, dengue) are major health threats.
@@ -163,7 +163,7 @@ Dhaka, Lagos, and Kinshasa are among the fastest-growing.
 
 ### Dimensions of Segregation
 
-Urban areas are rarely homogeneous — they contain distinct neighbourhoods differentiated by income,
+Urban areas are rarely homogeneous, they contain distinct neighbourhoods differentiated by income,
 ethnicity, age, and lifestyle.
 
 **Economic segregation**: Wealthier residents concentrate in desirable areas (good schools, low
@@ -372,7 +372,7 @@ future generations to meet their own needs. Key dimensions:
 
 ## Case Studies
 
-### Case Study 1: London — Urban Sustainability Challenges
+### Case Study 1: London, Urban Sustainability Challenges
 
 London is a global megacity with a population of approximately 9 million (Greater London), projected
 to reach approximately 10 million by 2030. It faces a range of sustainability challenges.
@@ -383,7 +383,7 @@ beyond. The Greater London Authority has a target of approximately 66,000 new ho
 delivery has consistently fallen short. The housing crisis contributes to social segregation and
 economic inequality.
 
-**Transport**: London has one of the most extensive public transport networks in the world — the
+**Transport**: London has one of the most extensive public transport networks in the world, the
 Tube (272 stations), Overground, DLR, buses, and national rail services handle approximately 8–9
 million journeys per day. The Ultra Low Emission Zone (ULEZ), expanded London-wide in August 2023,
 charges non-compliant vehicles £12.50 per day. Initial data showed approximately 20% reduction in
@@ -397,7 +397,7 @@ approximately 9,400 premature deaths per year in London.
 space or water. The All London Green Grid provides a strategic framework for green infrastructure.
 However, development pressure threatens some green belt land.
 
-### Case Study 2: Curitiba, Brazil — Sustainable Urban Planning
+### Case Study 2: Curitiba, Brazil, Sustainable Urban Planning
 
 Curitiba, capital of Paraná state in southern Brazil, has a metropolitan population of approximately
 3.5 million and is internationally recognised as a model of sustainable urban planning.
@@ -419,7 +419,7 @@ recycling. In lower-income areas where collection trucks cannot access, the "Gre
 programme allows residents to exchange bags of waste for bus tickets, food, or school supplies. The
 city diverts approximately 70% of its waste from landfill.
 
-**Green spaces**: Curitiba has approximately 52 m² of green space per capita — among the highest in
+**Green spaces**: Curitiba has approximately 52 m² of green space per capita, among the highest in
 Brazil. Former quarries and flood-prone areas have been converted into parks and lakes that serve as
 flood management infrastructure.
 
@@ -441,7 +441,7 @@ on sustained political leadership over decades.
 
 ## Intuition
 
-A city is a living organism with its own metabolism. It breathes in food, water, and energy, and breathes out waste, pollution, and heat. The urban heat island effect is the city running a fever — concrete and asphalt absorb heat like a storage radiator, while tall buildings trap it like walls around a bonfire. Social segregation is the city's circulatory system, carrying wealth to some neighbourhoods and starving others. Curitiba shows what happens when a city is designed thoughtfully — its bus system works like arteries, efficiently moving people where they need to go. But most cities grew organically, like tumors, and their challenges are the growing pains of unplanned growth.
+A city is a living organism with its own metabolism. It breathes in food, water, and energy, and breathes out waste, pollution, and heat. The urban heat island effect is the city running a fever, concrete and asphalt absorb heat like a storage radiator, while tall buildings trap it like walls around a bonfire. Social segregation is the city's circulatory system, carrying wealth to some neighbourhoods and starving others. Curitiba shows what happens when a city is designed thoughtfully, its bus system works like arteries, efficiently moving people where they need to go. But most cities grew organically, like tumors, and their challenges are the growing pains of unplanned growth.
 
 ## Common Pitfalls
 
@@ -491,7 +491,7 @@ partly by increasing incineration with energy recovery, which, while reducing la
 still generates CO₂ emissions and can discourage recycling by creating demand for waste to fuel
 incinerators.
 
-Recycling rates have improved significantly — Germany achieves approximately 67% through
+Recycling rates have improved significantly, Germany achieves approximately 67% through
 comprehensive separation at source and an extended producer responsibility system. However, the UK's
 recycling rate has stalled at approximately 44%, with significant variation between local
 authorities (ranging from under 20% to over 60%). Contamination of recycling streams and confusion
@@ -504,8 +504,8 @@ specific waste streams (e.g., Waste Electrical and Electronic Equipment) but hav
 transformed the overall system.
 
 Overall, developed countries have been effective at diverting waste from landfill but less effective
-at reducing waste generation at source. A genuinely circular economy — where waste is designed out
-of the system — remains an aspiration rather than a reality.
+at reducing waste generation at source. A genuinely circular economy, where waste is designed out
+of the system, remains an aspiration rather than a reality.
 
 ### Example 2: 6-Mark Question
 
@@ -515,7 +515,7 @@ of the system — remains an aspiration rather than a reality.
 
 The urban heat island effect occurs because urban areas are warmer than surrounding rural areas,
 primarily due to the replacement of natural surfaces with artificial materials. Concrete, asphalt,
-and brick have high thermal mass — they absorb solar radiation during the day and release it slowly
+and brick have high thermal mass, they absorb solar radiation during the day and release it slowly
 as long-wave radiation at night, warming the air above. In contrast, vegetated rural surfaces cool
 through evapotranspiration.
 
@@ -523,7 +523,7 @@ Anthropogenic heat from vehicles, air conditioning units, industrial processes, 
 adds additional warmth. In dense urban areas, this can be equivalent to approximately 20–70 W/m² of
 additional energy input.
 
-The urban canyon effect — where tall buildings line narrow streets — traps long-wave radiation by
+The urban canyon effect, where tall buildings line narrow streets, traps long-wave radiation by
 reducing the sky view factor. Heat cannot escape readily to the upper atmosphere. Tall buildings
 also reduce wind speeds at street level, limiting convective cooling and ventilation.
 
@@ -559,7 +559,7 @@ flowchart TD
 - Urbanisation is a global trend, with the majority of humanity now living in cities; growth is
   fastest in Asia and Africa.
 - Urban forms vary by historical period, economic structure, transport technology, and planning
-  policy — no single model applies universally.
+  policy, no single model applies universally.
 - Social segregation divides cities along lines of income, ethnicity, and age, with significant
   consequences for equity and cohesion.
 - Urban climates are modified by human activity, creating urban heat islands, altered precipitation

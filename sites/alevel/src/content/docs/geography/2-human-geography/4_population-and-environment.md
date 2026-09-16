@@ -59,7 +59,7 @@ global challenges such as climate change, food insecurity, and environmental deg
 | **Food security**                      | When all people, at all times, have physical and economic access to sufficient, safe, and nutritious food                                            |
 | **Energy security**                    | Uninterrupted availability of energy sources at an affordable price                                                                                  |
 | **Malthusian theory**                  | Thomas Malthus"s argument (1798) that population grows geometrically while food supply grows arithmetically, leading to inevitable famine and crisis |
-| **Boserupian theory**                  | Ester Boserup's argument (1965) that population growth drives agricultural innovation and intensification — "necessity is the mother of invention"   |
+| **Boserupian theory**                  | Ester Boserup's argument (1965) that population growth drives agricultural innovation and intensification, "necessity is the mother of invention"   |
 | **Epidemiological transition**         | The shift from infectious and parasitic diseases (pre-industrial) to degenerative and man-made diseases (industrial and post-industrial)             |
 
 ---
@@ -104,7 +104,7 @@ global challenges such as climate change, food insecurity, and environmental deg
 
 - **Economic development**: Higher incomes are associated with lower fertility (cost of raising
   children, opportunity cost of women's time)
-- **Education**: Female education is the single strongest predictor of declining fertility —
+- **Education**: Female education is the single strongest predictor of declining fertility,
   educated women marry later, have fewer children, and use contraception
 - **Contraception access**: Availability and acceptance of family planning methods
 - **Religion and culture**: Religious teachings on family size, son preference in some cultures
@@ -141,10 +141,10 @@ global challenges such as climate change, food insecurity, and environmental deg
 | Aspect                | Malthus (1798)                                                                                                                            | Boserup (1965)                                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Core argument**     | Population growth will outstrip food supply, leading to famine, disease, and war (positive checks) or moral restraint (preventive checks) | Population growth drives agricultural innovation and intensification; technology and ingenuity expand the resource base              |
-| **View of resources** | Fixed and finite                                                                                                                          | Dynamic — technology creates new resources and increases efficiency                                                                  |
+| **View of resources** | Fixed and finite                                                                                                                          | Dynamic, technology creates new resources and increases efficiency                                                                  |
 | **Evidence for**      | Famine in Ireland (1845–49), Sahel droughts (1970s–80s), concerns over "peak oil"                                                         | Green Revolution (1960s–70s) dramatically increased food production; global population doubled but food production more than doubled |
 | **Evidence against**  | Global food production has kept pace with population growth; living standards have risen                                                  | Environmental limits are real (climate change, soil degradation, water scarcity); some regions do experience genuine food insecurity |
-| **Relevance today**   | Environmental limits (planetary boundaries) suggest resource constraints are real                                                         | Technological optimism continues — renewable energy, GM crops, lab-grown meat                                                        |
+| **Relevance today**   | Environmental limits (planetary boundaries) suggest resource constraints are real                                                         | Technological optimism continues, renewable energy, GM crops, lab-grown meat                                                        |
 
 ### Carrying Capacity and the Ecological Footprint
 
@@ -153,7 +153,7 @@ provide the resources a population consumes and absorb the waste it generates.
 
 - The global average ecological footprint is approximately 2.7 global hectares (gha) per person
 - The Earth's biocapacity is approximately 1.6 gha per person
-- Humanity is using approximately 1.7 Earths — consuming resources faster than they can be
+- Humanity is using approximately 1.7 Earths, consuming resources faster than they can be
   regenerated
 - High-income countries have much larger footprints: USA ≈ 8 gha, UK ≈ 4 gha, India ≈ 1 gha per
   person
@@ -191,8 +191,8 @@ As countries develop, the pattern of disease shifts:
 
 - Infectious diseases remain major causes of death: malaria (approximately 619,000 deaths in 2021,
   mostly African children under 5), tuberculosis, HIV/AIDS (approximately 630,000 deaths in 2022)
-- Malnutrition — approximately 735 million people face hunger globally (FAO, 2023)
-- Limited healthcare access — Sub-Saharan Africa has approximately 2 physicians per 10,000
+- Malnutrition, approximately 735 million people face hunger globally (FAO, 2023)
+- Limited healthcare access, Sub-Saharan Africa has approximately 2 physicians per 10,000
   population, compared to approximately 30 in Europe
 - Emerging non-communicable diseases as well, creating a "double burden" of disease
 
@@ -201,7 +201,7 @@ As countries develop, the pattern of disease shifts:
 - Non-communicable diseases dominate: cardiovascular disease, cancer, respiratory disease, diabetes
 - Ageing populations create increasing healthcare costs
 - Mental health is a growing concern
-- Obesity — approximately 26% of UK adults are obese (NHS, 2023)
+- Obesity, approximately 26% of UK adults are obese (NHS, 2023)
 
 **Global pandemics**: COVID-19 demonstrated the vulnerability of all nations to infectious disease,
 regardless of development level. As of 2024, WHO recorded over 7 million confirmed deaths globally,
@@ -255,7 +255,7 @@ Four dimensions:
 | **Land degradation**                   | Approximately 33% of the world's soils are degraded through erosion, salinisation, compaction, and nutrient depletion                                                                                                                                |
 | **Water scarcity**                     | Agriculture consumes approximately 70% of global freshwater withdrawals. Groundwater depletion threatens irrigated agriculture in many regions                                                                                                       |
 | **Biofuel production**                 | Land diverted from food crops to biofuel feedstock reduces food availability and increases prices                                                                                                                                                    |
-| **Food waste**                         | Approximately one-third of all food produced globally is lost or wasted — approximately 1.3 billion tonnes per year                                                                                                                                  |
+| **Food waste**                         | Approximately one-third of all food produced globally is lost or wasted, approximately 1.3 billion tonnes per year                                                                                                                                  |
 | **Conflict and political instability** | Disrupts food production, distribution, and markets                                                                                                                                                                                                  |
 
 ### Strategies for Improving Food Security
@@ -269,7 +269,7 @@ Four dimensions:
   depletion, soil degradation, pesticide pollution, and loss of crop genetic diversity.
 - **Genetic modification (GM)**: Crops engineered for pest resistance (Bt cotton), herbicide
   tolerance, drought tolerance, and nutritional enhancement (Golden Rice with vitamin A).
-  Controversial — concerns about ecological impacts, corporate control of seed supply, and consumer
+  Controversial, concerns about ecological impacts, corporate control of seed supply, and consumer
   safety.
 - **Precision agriculture**: GPS-guided equipment, drone monitoring, and data analytics to optimise
   inputs and yields. Reduces waste and environmental impact.
@@ -332,10 +332,10 @@ Global primary energy consumption is approximately 580 exajoules per year (2022)
 
 - **Diversification**: Reducing dependence on any single source or supplier (e.g., Japan importing
   LNG from multiple sources after Fukushima nuclear shutdown)
-- **Domestic production**: Developing domestic energy resources — the UK's North Sea oil and gas, US
+- **Domestic production**: Developing domestic energy resources, the UK's North Sea oil and gas, US
   shale gas revolution
 - **Renewable energy expansion**: Solar, wind, hydroelectric, geothermal, tidal. Costs have fallen
-  dramatically — solar PV costs fell by approximately 90% between 2010 and 2023.
+  dramatically, solar PV costs fell by approximately 90% between 2010 and 2023.
 - **Nuclear power**: Provides low-carbon baseload electricity but raises safety, waste, and cost
   concerns. France generates approximately 70% of its electricity from nuclear.
 - **Energy efficiency**: Reducing demand through building insulation, efficient appliances, and
@@ -354,14 +354,14 @@ Global primary energy consumption is approximately 580 exajoules per year (2022)
 
 ## Case Studies
 
-### Case Study 1: China — Population Policy and Its Consequences
+### Case Study 1: China, Population Policy and Its Consequences
 
 China's demographic trajectory illustrates the profound impact of government policy on population
 change. In 1949, China's population was approximately 540 million. By 2023, it had reached
 approximately 1.4 billion, but with significant challenges ahead.
 
 **The One-Child Policy (1979–2015)**: Introduced by Deng Xiaoping to control population growth, the
-policy restricted most urban couples to one child. Enforcement varied — stricter in urban areas and
+policy restricted most urban couples to one child. Enforcement varied, stricter in urban areas and
 among government employees; more relaxed in rural areas and for ethnic minorities. The policy is
 estimated to have prevented approximately 300–400 million births.
 
@@ -372,28 +372,28 @@ estimated to have prevented approximately 300–400 million births.
 - **Ageing population**: The proportion of the population over 65 is projected to rise from
   approximately 14% (2023) to approximately 30% by 2050. The working-age population has been
   shrinking since approximately 2012. This creates a shrinking labour force and increasing
-  dependency ratio — the "4-2-1 problem" (one child supporting two parents and four grandparents).
+  dependency ratio, the "4-2-1 problem" (one child supporting two parents and four grandparents).
 - **Gender imbalance**: A cultural preference for sons, combined with the one-child restriction, led
   to sex-selective abortion and female infanticide. The sex ratio at birth reached approximately 121
   males per 100 females (the natural ratio is approximately 105:100). This has left an estimated 30
   million "surplus" males who may struggle to find partners.
 - **Policy reversal**: The policy was relaxed to a two-child policy in 2016 and a three-child policy
-  in 2021, with financial incentives for larger families. However, birth rates have not recovered —
+  in 2021, with financial incentives for larger families. However, birth rates have not recovered,
   high housing and education costs, long working hours, and changing social attitudes have led many
   couples to choose smaller families voluntarily.
 
-### Case Study 2: The Sahel Region — Food Insecurity and Environmental Stress
+### Case Study 2: The Sahel Region, Food Insecurity and Environmental Stress
 
 The Sahel is the semi-arid transition zone between the Sahara Desert to the north and the more humid
 savannah to the south, stretching across Africa from Senegal in the west to Sudan in the east. It is
 one of the most food-insecure regions in the world.
 
 **Physical challenges**: Rainfall is low (100–600 mm per year) and highly variable. The region is
-experiencing desertification — the southward expansion of the Sahara — driven by climate change
+experiencing desertification, the southward expansion of the Sahara, driven by climate change
 (Sahel temperatures have risen approximately 1°C more than the global average since the 1970s) and
 overgrazing, deforestation, and unsustainable agricultural practices.
 
-**Population pressure**: The Sahel has some of the highest fertility rates in the world — Niger's
+**Population pressure**: The Sahel has some of the highest fertility rates in the world, Niger's
 TFR is approximately 6.8 (the highest globally). The population of the Sahel is projected to triple
 by 2050, placing enormous pressure on land, water, and food resources.
 
@@ -406,8 +406,8 @@ agricultural production.
 
 - **The Great Green Wall**: An African Union initiative launched in 2007 to restore approximately
   100 million hectares of degraded land across the Sahel by planting trees, improving water
-  management, and supporting sustainable agriculture. Progress has been slower than hoped —
-  approximately 18 million hectares restored by 2023 — but the initiative continues.
+  management, and supporting sustainable agriculture. Progress has been slower than hoped,
+  approximately 18 million hectares restored by 2023, but the initiative continues.
 - **International food aid**: The World Food Programme provides emergency food assistance, but this
   addresses symptoms rather than causes.
 - **Climate-smart agriculture**: Drought-resistant crop varieties, water harvesting techniques, and
@@ -426,12 +426,12 @@ agricultural production.
 
 ## Intuition
 
-The population debate is a tension between two clocks. Malthus heard a ticking time bomb — population growing exponentially while food grows linearly, guaranteeing eventual disaster. Boserup heard an alarm clock — population pressure waking up human ingenuity to find new solutions. Both were partly right. The Green Revolution proved Boserup correct in the short term: necessity produced miracle wheat and rice that fed billions. But Malthus was right about limits — we are now hitting planetary boundaries that no amount of ingenuity can ignore. Food insecurity is rarely about not growing enough food; it is about who controls the food and who can afford to buy it. The real crisis is one of distribution, not production.
+The population debate is a tension between two clocks. Malthus heard a ticking time bomb, population growing exponentially while food grows linearly, guaranteeing eventual disaster. Boserup heard an alarm clock, population pressure waking up human ingenuity to find new solutions. Both were partly right. The Green Revolution proved Boserup correct in the short term: necessity produced miracle wheat and rice that fed billions. But Malthus was right about limits, we are now hitting planetary boundaries that no amount of ingenuity can ignore. Food insecurity is rarely about not growing enough food; it is about who controls the food and who can afford to buy it. The real crisis is one of distribution, not production.
 
 ## Common Pitfalls
 
 1. **Using the DTM uncritically**: The DTM is a generalised model, not a law. Not all countries
-   follow it neatly — some have experienced rapid death rate decline without the economic
+   follow it neatly, some have experienced rapid death rate decline without the economic
    development the model implies (e.g., through imported medical technology). Always note
    limitations.
 
@@ -480,7 +480,7 @@ uses GPS, drones, and data analytics to optimise inputs and reduce waste. Vertic
 hydroponics can produce food in urban areas with minimal land and water.
 
 However, technological solutions have significant limitations. The Green Revolution caused
-environmental damage — groundwater depletion in Punjab, soil degradation, pesticide pollution, and
+environmental damage, groundwater depletion in Punjab, soil degradation, pesticide pollution, and
 loss of agricultural biodiversity. Technologies such as GM crops are often controlled by TNCs (e.g.,
 Monsanto/Bayer), raising concerns about corporate control of the food supply and dependency among
 small farmers.
@@ -506,7 +506,7 @@ low. Several interconnected factors drive this change.
 
 Economic development reduces the economic value of children. In agricultural societies, children
 contribute to farm labour and provide old-age security. As economies industrialise and urbanise,
-children become a financial cost rather than an asset — they require education, healthcare, and
+children become a financial cost rather than an asset, they require education, healthcare, and
 housing but cannot work. This economic shift reduces the desired family size.
 
 Improved female education is the strongest predictor of declining fertility. Educated women marry
@@ -520,7 +520,7 @@ accelerate this transition.
 
 Declining infant mortality means families can be confident that fewer births will result in
 surviving children, reducing the need for "insurance" births. This is a critical precursor to
-fertility decline — birth rates tend to fall only after parents are confident their children will
+fertility decline, birth rates tend to fall only after parents are confident their children will
 survive.
 
 ---
@@ -550,7 +550,7 @@ flowchart TD
 - Population change follows the Demographic Transition Model, but the model has limitations and
   should be applied critically.
 - The Malthusian and Boserupian perspectives offer contrasting views on the population-resource
-  relationship — both have elements of truth in different contexts.
+  relationship, both have elements of truth in different contexts.
 - Carrying capacity and ecological footprints suggest humanity is consuming resources unsustainably
   at current levels.
 - Health challenges differ between developing (infectious disease, malnutrition) and developed

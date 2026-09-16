@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Metabolism is like a cellular economy — anabolic reactions build molecules (investment), while catabolic reactions break them down (returns):** ATP is the universal energy currency of cells, connecting energy-releasing reactions to energy-requiring ones
+**Metabolism is like a cellular economy, anabolic reactions build molecules (investment), while catabolic reactions break them down (returns):** ATP is the universal energy currency of cells, connecting energy-releasing reactions to energy-requiring ones
 
 **Why it matters:** Understanding metabolism explains how cells obtain and use energy, connecting nutrition to cellular function
 

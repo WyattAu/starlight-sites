@@ -26,9 +26,9 @@ The **Higher School Certificate (HSC)** and the **Victorian Certificate of Educa
 two major school-leaving qualifications in Australia. They are awarded upon completion of senior
 secondary schooling and are the primary pathway to university admission.
 
-- **HSC** — administered by the **New South Wales Education Standards Authority (NESA)**, completed
+- **HSC**, administered by the **New South Wales Education Standards Authority (NESA)**, completed
   by Year 12 students in NSW and the ACT.
-- **VCE** — administered by the **Victorian Curriculum and Assessment Authority (VCAA)**, completed
+- **VCE**, administered by the **Victorian Curriculum and Assessment Authority (VCAA)**, completed
   by Year 12 students in Victoria.
 
 Both qualifications are recognised nationally and internationally. University admission in Australia
@@ -56,24 +56,24 @@ Although the two systems share a common purpose, they differ in several importan
 Students must complete a minimum of **12 units** in the Preliminary year (Year 11) and **10 units**
 in the HSC year (Year 12), including:
 
-- **2 units of English** (compulsory — English Standard, English Advanced, English Extension 1/2, or
+- **2 units of English** (compulsory, English Standard, English Advanced, English Extension 1/2, or
   English as an Additional Language/Dialect)
 - At least **4 other units** from Key Learning Areas (KLAs)
 
 Key KLAs include:
 
-- **Mathematics** — Mathematics Standard 1/2, Mathematics Advanced, Mathematics Extension 1,
+- **Mathematics**, Mathematics Standard 1/2, Mathematics Advanced, Mathematics Extension 1,
   Mathematics Extension 2
-- **Sciences** — Biology, Chemistry, Physics, Earth and Environmental Science, Investigating Science
-- **English** — English Standard, English Advanced, English Extension 1, English Extension 2, EAL/D
-- **Humanities** — Modern History, Ancient History, Geography, Economics, Business Studies, Legal
+- **Sciences**, Biology, Chemistry, Physics, Earth and Environmental Science, Investigating Science
+- **English**, English Standard, English Advanced, English Extension 1, English Extension 2, EAL/D
+- **Humanities**, Modern History, Ancient History, Geography, Economics, Business Studies, Legal
   Studies
-- **Technologies** — Software Design and Development, Information Processes and Technology, Design
+- **Technologies**, Software Design and Development, Information Processes and Technology, Design
   and Technology, Engineering Studies
-- **Creative Arts** — Music, Visual Arts, Drama
+- **Creative Arts**, Music, Visual Arts, Drama
 - **Personal Development, Health and Physical Education (PDHPE)**
-- **Languages** — a wide range of languages other than English
-- **VET** — Vocational Education and Training courses
+- **Languages**, a wide range of languages other than English
+- **VET**, Vocational Education and Training courses
 
 ### VCE (Victoria)
 
@@ -84,12 +84,12 @@ Students must complete a minimum of **16 units** over Years 11 and 12, including
 
 Popular VCE subjects include:
 
-- **Mathematics** — General Mathematics, Mathematical Methods, Specialist Mathematics
-- **Sciences** — Biology, Chemistry, Physics, Psychology
-- **English** — English, English Language, Literature
-- **Humanities** — History (Revolutions), Geography, Economics, Business Management, Legal Studies,
+- **Mathematics**, General Mathematics, Mathematical Methods, Specialist Mathematics
+- **Sciences**, Biology, Chemistry, Physics, Psychology
+- **English**, English, English Language, Literature
+- **Humanities**, History (Revolutions), Geography, Economics, Business Management, Legal Studies,
   Accounting
-- **Technologies** — Algorithmics (HESS), Computing, Software Development
+- **Technologies**, Algorithmics (HESS), Computing, Software Development
 - **Health and Physical Education**
 
 ## Assessment
@@ -147,12 +147,12 @@ students in their age group. A higher ATAR increases access to competitive unive
 
 This site provides comprehensive revision notes for the following HSC and VCE subjects:
 
-- **Mathematics** — covers both HSC (Advanced, Extension 1, Extension 2) and VCE (Methods,
+- **Mathematics**, covers both HSC (Advanced, Extension 1, Extension 2) and VCE (Methods,
   Specialist) content
-- **Physics** — aligned to both HSC and VCE syllabi
-- **Chemistry** — aligned to both HSC and VCE syllabi
-- **Biology** — aligned to both HSC and VCE syllabi
-- **English** — essay writing strategies, textual analysis, and comparative study techniques
+- **Physics**, aligned to both HSC and VCE syllabi
+- **Chemistry**, aligned to both HSC and VCE syllabi
+- **Biology**, aligned to both HSC and VCE syllabi
+- **English**, essay writing strategies, textual analysis, and comparative study techniques
   applicable to both qualifications
 
 Each subject page includes key concepts, worked examples, exam-style questions, and detailed

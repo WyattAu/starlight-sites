@@ -47,7 +47,7 @@ sources:
 
 ## Intuition
 
-**Economics is the study of choices under scarcity — how individuals, firms, and governments allocate limited resources:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
+**Economics is the study of choices under scarcity, how individuals, firms, and governments allocate limited resources:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
 
 **Why it matters:** Economic literacy is essential for informed citizenship and navigating an increasingly complex world
 
@@ -55,59 +55,59 @@ sources:
 
 ## 1. Microeconomics
 
-- [Supply and Demand](1-microeconomics/1_supply-and-demand) — scarcity, PPF, supply and demand,
+- [Supply and Demand](1-microeconomics/1_supply-and-demand), scarcity, PPF, supply and demand,
   consumer choice
-- [Elasticity](1-microeconomics/2_elasticity) — price, income, and cross-price elasticity of
+- [Elasticity](1-microeconomics/2_elasticity), price, income, and cross-price elasticity of
   demand and supply
-- [Market Failure](1-microeconomics/3-market-failure) — externalities, public goods, information
+- [Market Failure](1-microeconomics/3-market-failure), externalities, public goods, information
   asymmetry, government intervention and failure
-- [Theory of the Firm](1-microeconomics/4-theory-of-the-firm) — market structures, perfect and
+- [Theory of the Firm](1-microeconomics/4-theory-of-the-firm), market structures, perfect and
   imperfect competition, oligopoly, monopoly, production theory
 
 ## 2. Macroeconomics
 
-- [National Income](2-macroeconomics/1-national-income) — GDP, GNP, GNI, national income
+- [National Income](2-macroeconomics/1-national-income), GDP, GNP, GNI, national income
   accounting, GDP deflator, PPP
-- [Fiscal Policy](2-macroeconomics/2-fiscal-policy) — government spending, taxation, budget
+- [Fiscal Policy](2-macroeconomics/2-fiscal-policy), government spending, taxation, budget
   deficits, crowding out, fiscal rules
-- [Monetary Policy](2-macroeconomics/3-monetary-policy) — interest rates, money supply,
+- [Monetary Policy](2-macroeconomics/3-monetary-policy), interest rates, money supply,
   inflation, monetary transmission, quantitative easing
-- [Supply-Side Policy](2-macroeconomics/4-supply-side-policy) — aggregate demand and supply,
+- [Supply-Side Policy](2-macroeconomics/4-supply-side-policy), aggregate demand and supply,
   supply-side policies, economic growth, business cycles, Laffer curve
 
 ## 3. International Economics
 
-- [International Trade](3-international-economics/1-trade) — comparative advantage, free trade,
+- [International Trade](3-international-economics/1-trade), comparative advantage, free trade,
   trade protection, economic integration, WTO, globalisation
-- [Exchange Rates](3-international-economics/2-exchange-rates) — exchange rate systems,
+- [Exchange Rates](3-international-economics/2-exchange-rates), exchange rate systems,
   determination, floating and fixed rates
-- [Balance of Payments](3-international-economics/3-balance-of-payments) — BOP accounts, current
+- [Balance of Payments](3-international-economics/3-balance-of-payments), BOP accounts, current
   account, capital account, FDI, multinational corporations
 
 ## 4. Development Economics
 
-- [Measuring Development](4-development-economics/1-measuring-development) — GDP, HDI, Gini
+- [Measuring Development](4-development-economics/1-measuring-development), GDP, HDI, Gini
   coefficient, Lorenz curve, composite indicators
-- [Barriers to Growth](4-development-economics/2-barriers-to-growth) — poverty trap, debt,
+- [Barriers to Growth](4-development-economics/2-barriers-to-growth), poverty trap, debt,
   institutional failure, Harrod-Domar, Lewis model, dual economy
-- [Trade and Aid](4-development-economics/3-trade-and-aid) — foreign aid, FDI, sustainable
+- [Trade and Aid](4-development-economics/3-trade-and-aid), foreign aid, FDI, sustainable
   development, microfinance, technology leapfrogging, SDGs
 
 ## 5. Quantitative Economics
 
-- [Descriptive Statistics](5-quantitative-economics/1-descriptive-statistics) — real vs nominal,
+- [Descriptive Statistics](5-quantitative-economics/1-descriptive-statistics), real vs nominal,
   compound interest, CBA, Lorenz curve, Gini, poverty, HDI, multiplier, IS-LM
-- [Index Numbers](5-quantitative-economics/2-index-numbers) — index number construction,
+- [Index Numbers](5-quantitative-economics/2-index-numbers), index number construction,
   weighting, chaining, splicing, Laspeyres and Paasche indices
 
 ## 6. Game Theory
 
-- [Game Theory and Behavioural Economics](6-game-theory/1_game-theory-and-behavioural) — Nash
+- [Game Theory and Behavioural Economics](6-game-theory/1_game-theory-and-behavioural), Nash
   equilibrium, prisoner"s dilemma, heuristics, biases, nudge theory, auctions
 
 ## Study Tips
 
-- Use real-world examples for every concept — examiners reward applied knowledge of current economic
+- Use real-world examples for every concept, examiners reward applied knowledge of current economic
   events and policies
 - Practise drawing and labelling diagrams (supply/demand, AD/AS, Lorenz curve) as they carry
   significant marks in paper-based questions

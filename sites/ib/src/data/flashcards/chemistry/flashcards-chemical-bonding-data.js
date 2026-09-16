@@ -63,7 +63,7 @@ export const flashcard2 = [
     id: 'chemical-bonding-009',
     front:
       'Predict the shapes and bond angles of molecules with 3 bonding pairs: 0 lone pairs, 1 lone pair, and 2 lone pairs.',
-    back: '3 bonding pairs, 0 lone pairs: trigonal planar, 120° (e.g. BF₃). 3 bonding pairs, 1 lone pair: trigonal pyramidal, <109.5° (≈107°, e.g. NH₃ — lone pair pushes bonding pairs closer). 3 bonding pairs, 2 lone pairs: bent/V-shaped, <109.5° (≈104.5°, e.g. H₂O — two lone pairs compress the angle further). Lone pairs occupy more space because they are held by one nucleus, not two.',
+    back: '3 bonding pairs, 0 lone pairs: trigonal planar, 120° (e.g. BF₃). 3 bonding pairs, 1 lone pair: trigonal pyramidal, <109.5° (≈107°, e.g. NH₃, lone pair pushes bonding pairs closer). 3 bonding pairs, 2 lone pairs: bent/V-shaped, <109.5° (≈104.5°, e.g. H₂O, two lone pairs compress the angle further). Lone pairs occupy more space because they are held by one nucleus, not two.',
     tags: ['VSEPR', 'molecular shapes'],
     difficulty: 'medium',
   },
@@ -101,7 +101,7 @@ export const flashcard3 = [
   {
     id: 'chemical-bonding-014',
     front: 'Draw the Lewis structure of ozone (O₃) and explain the concept of resonance.',
-    back: 'O₃ has 18 valence electrons (6 × 3). Central O bonded to two terminal O atoms, with one double bond and one single bond. The double bond can be with either terminal O, giving two equivalent resonance structures. The actual structure is a resonance hybrid — both O–O bonds are identical with bond order 1.5 and bond length intermediate between single (148 pm) and double (121 pm). Delocalised π bonding across all three O atoms.',
+    back: 'O₃ has 18 valence electrons (6 × 3). Central O bonded to two terminal O atoms, with one double bond and one single bond. The double bond can be with either terminal O, giving two equivalent resonance structures. The actual structure is a resonance hybrid, both O–O bonds are identical with bond order 1.5 and bond length intermediate between single (148 pm) and double (121 pm). Delocalised π bonding across all three O atoms.',
     tags: ['Lewis structures', 'resonance'],
     difficulty: 'hard',
   },
@@ -118,7 +118,7 @@ export const flashcard4 = [
   {
     id: 'chemical-bonding-016',
     front: 'Define lattice enthalpy and explain the factors that affect its magnitude.',
-    back: 'Lattice enthalpy (ΔHlatt): the enthalpy change when one mole of an ionic solid is formed from its gaseous ions (always exothermic, negative). Factors affecting magnitude: 1) Ionic charge — higher charges give stronger attraction and more exothermic lattice enthalpy (e.g. NaCl < MgO). 2) Ionic radius — smaller ions can get closer, stronger attraction, more exothermic (e.g. NaF > NaCl > NaBr). Both factors follow Coulomb’s law: F ∝ q₁q₂/r².',
+    back: 'Lattice enthalpy (ΔHlatt): the enthalpy change when one mole of an ionic solid is formed from its gaseous ions (always exothermic, negative). Factors affecting magnitude: 1) Ionic charge, higher charges give stronger attraction and more exothermic lattice enthalpy (e.g. NaCl < MgO). 2) Ionic radius, smaller ions can get closer, stronger attraction, more exothermic (e.g. NaF > NaCl > NaBr). Both factors follow Coulomb’s law: F ∝ q₁q₂/r².',
     tags: ['ionic bonding', 'lattice enthalpy'],
     difficulty: 'hard',
   },
@@ -141,7 +141,7 @@ export const flashcard4 = [
   {
     id: 'chemical-bonding-019',
     front: 'Explain the "expanded octet" and identify which elements can exhibit it.',
-    back: 'Elements in Period 3 and beyond can have more than 8 electrons in their valence shell because they have accessible d orbitals that can participate in bonding. Examples: P in PCl₅ (10 electrons, 5 bonding pairs), S in SF₆ (12 electrons, 6 bonding pairs), I in IF₇ (14 electrons, 7 bonding pairs). Elements in Period 2 (C, N, O, F) cannot expand their octet — maximum 8 valence electrons.',
+    back: 'Elements in Period 3 and beyond can have more than 8 electrons in their valence shell because they have accessible d orbitals that can participate in bonding. Examples: P in PCl₅ (10 electrons, 5 bonding pairs), S in SF₆ (12 electrons, 6 bonding pairs), I in IF₇ (14 electrons, 7 bonding pairs). Elements in Period 2 (C, N, O, F) cannot expand their octet, maximum 8 valence electrons.',
     tags: ['Lewis structures', 'expanded octet', 'VSEPR'],
     difficulty: 'hard',
   },
@@ -149,7 +149,7 @@ export const flashcard4 = [
     id: 'chemical-bonding-020',
     front:
       'Compare and explain the relative strengths of covalent bonds, ionic bonds, metallic bonds, and intermolecular forces.',
-    back: 'Strength ranking (typical): covalent (200–900 kJ/mol) ≈ ionic (600–4000 kJ/mol) > metallic (100–800 kJ/mol) > hydrogen bonds (10–40 kJ/mol) > dipole-dipole (2–10 kJ/mol) > van der Waals (0.1–5 kJ/mol). Covalent/ionic/metallic are intramolecular forces holding atoms/ions together in a substance — determine melting/boiling points. Intermolecular forces act between molecules — determine physical state and volatility.',
+    back: 'Strength ranking (typical): covalent (200–900 kJ/mol) ≈ ionic (600–4000 kJ/mol) > metallic (100–800 kJ/mol) > hydrogen bonds (10–40 kJ/mol) > dipole-dipole (2–10 kJ/mol) > van der Waals (0.1–5 kJ/mol). Covalent/ionic/metallic are intramolecular forces holding atoms/ions together in a substance, determine melting/boiling points. Intermolecular forces act between molecules, determine physical state and volatility.',
     tags: ['bonding comparison', 'bond strength'],
     difficulty: 'hard',
   },

@@ -192,7 +192,7 @@ Conflicting access without a happens-before edge, it reports a data race.
   for production deployments.
 - **False positives (rare).** TSan can report benign data races in correctly synchronized code if
   the synchronization mechanism is not recognized (e.g., custom spinlocks using `std::atomic_flag`).
-- **No guarantee of completeness.** TSan is sound but not complete — it may miss races that require
+- **No guarantee of completeness.** TSan is sound but not complete, it may miss races that require
   specific interleavings.
 
 **Other tools:**
@@ -237,7 +237,7 @@ hardware treats them as a single unit:
 struct Counters {
     int a;
     int b;
-    // a and b are 4 bytes apart — same cache line (64 bytes)
+    // a and b are 4 bytes apart, same cache line (64 bytes)
 };
 
 Counters counters{};
@@ -358,7 +358,7 @@ int main() {
 
 :::caution
 On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instructions and have real
-cost. Always measure Before optimizing memory orderings — `memory_order_seq_cst` is the safest
+cost. Always measure Before optimizing memory orderings, `memory_order_seq_cst` is the safest
 default.
 :::
 ## Practical Data Race Bug and Fix
@@ -453,11 +453,11 @@ Is the preferred idiom in modern C++.
 
 ## Intuition
 
-**A data race is like two people writing to the same whiteboard simultaneously:** If two threads try to write to the same variable at the same time, neither knows what the other wrote. One write gets lost — like two people erasing and rewriting the same whiteboard at the same time. The result is unpredictable: sometimes you see one value, sometimes the other, sometimes garbage. This isn't just a "might get wrong answers" problem — the compiler assumes it never happens and optimizes aggressively, which can cause completely unrelated code to break.
+**A data race is like two people writing to the same whiteboard simultaneously:** If two threads try to write to the same variable at the same time, neither knows what the other wrote. One write gets lost, like two people erasing and rewriting the same whiteboard at the same time. The result is unpredictable: sometimes you see one value, sometimes the other, sometimes garbage. This isn't just a "might get wrong answers" problem, the compiler assumes it never happens and optimizes aggressively, which can cause completely unrelated code to break.
 
-**Why it matters:** Data races are the most common source of bugs in concurrent programs, and they are undefined behavior in C++. This means the compiler can generate any code it wants — including code that appears to work in debug builds but fails catastrophically in release. Tools like ThreadSanitizer exist specifically because these bugs are nearly impossible to find by inspection.
+**Why it matters:** Data races are the most common source of bugs in concurrent programs, and they are undefined behavior in C++. This means the compiler can generate any code it wants, including code that appears to work in debug builds but fails catastrophically in release. Tools like ThreadSanitizer exist specifically because these bugs are nearly impossible to find by inspection.
 
-**The key insight:** A data race is not just "two threads accessing the same data" — it requires concurrent access, at least one write, and no happens-before ordering between them.
+**The key insight:** A data race is not just "two threads accessing the same data", it requires concurrent access, at least one write, and no happens-before ordering between them.
 
 ## Common Pitfalls
 

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Probability Distributions — Diagnostic Tests
+## Probability Distributions, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Probability distributions are like maps of uncertainty — they show where outcomes are likely to cluster and how spread out possibilities are:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns
+**Probability distributions are like maps of uncertainty, they show where outcomes are likely to cluster and how spread out possibilities are:** The normal distribution's bell curve appears everywhere in nature because many small random effects combine to produce predictable patterns
 
 **Why it matters:** Understanding distributions enables risk assessment, quality control, medical research, and data-driven decision making
 
@@ -40,7 +40,7 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for probability distributions.
 
-### UT-1: Binomial Distribution — Verification of Conditions
+### UT-1: Binomial Distribution, Verification of Conditions
 
 **Question:**
 
@@ -104,7 +104,7 @@ The claim is correct. $X \sim \mathrm{Bin}(20, \frac{1}{4})$.
 }
 </script>
 
-### UT-2: Normal Distribution — Sign Error in Standardisation
+### UT-2: Normal Distribution, Sign Error in Standardisation
 
 **Question:**
 
@@ -175,7 +175,7 @@ For the call centre, if we model each second as a Bernoulli trial with
 $p = \frac{2}{60} = \frac{1}{30}$ and $n = 60$ Then $np = 2$. The conditions are satisfied since
 $n = 60 \geq 50$, $p = \frac{1}{30} \lt 0.1$ And $np = 2 \leq 15$.
 
-However, the student"s claim that this is "directly $\mathrm{Poi}(2)$" is incomplete — the Poisson
+However, the student"s claim that this is "directly $\mathrm{Poi}(2)$" is incomplete, the Poisson
 is an approximation that must be justified.
 
 **(b)** With $\lambda = np = 200 \times 0.01 = 2$:
@@ -240,7 +240,7 @@ $$= 1 - \Phi(0.673) \approx 1 - 0.7495 = 0.2505$$
 
 **(b)** The student's error is confusing the mean with the distribution. While the mean total weight
 is indeed $730\,\mathrm{g}$The total weight is a random variable with spread (standard deviation
-$\approx 29.7\,\mathrm{g}$). The probability of exceeding $750\,\mathrm{g}$ is not $50\%$ — it is
+$\approx 29.7\,\mathrm{g}$). The probability of exceeding $750\,\mathrm{g}$ is not $50\%$, it is
 approximately $25\%$. The student failed to account for the variance of the sum. The probability is
 $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.
 

@@ -1,5 +1,5 @@
 /**
- * ActionButton.tsx — Consistent button component
+ * ActionButton.tsx, Consistent button component
  *
  * Variants: primary, secondary, danger, ghost
  * Sizes: sm, md, lg

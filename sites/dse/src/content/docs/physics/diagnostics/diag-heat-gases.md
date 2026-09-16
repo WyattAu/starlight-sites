@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Heat and Gases — Diagnostic Tests
+## Heat and Gases, Diagnostic Tests
 
 ## Unit Tests
 

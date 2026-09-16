@@ -252,7 +252,7 @@ To find $\displaystyle\sum_{r=1}^{n} f(r)$ where $f(r)$ can be written as $g(r) 
 
 $$\sum_{r=1}^{n} f(r) = \sum_{r=1}^{n} [g(r) - g(r+1)] = g(1) - g(n+1)$$
 
-This is a _telescoping sum_ — all intermediate terms cancel.
+This is a _telescoping sum_, all intermediate terms cancel.
 
 ### Proof of the sum of squares formula by the method of differences
 
@@ -827,7 +827,7 @@ Partial fractions are the algebraic equivalent of decomposing a complex signal i
 | Confusing $\displaystyle\sum_{r=1}^{n} r^3$ with $\left(\displaystyle\sum_{r=1}^{n} r\right)^3$ | $\sum r^3 = \dfrac{n^2(n+1)^2}{4}$; they happen to be equal but the reasoning is different                           |
 | Splitting partial fractions incorrectly for method of differences                               | Always check by recombining: $\dfrac{A}{r} + \dfrac{B}{r+1} = \dfrac{A(r+1) + Br}{r(r+1)}$                           |
 | Assuming Vieta's formulae give $\alpha\beta\gamma = -d/a$ without checking the sign             | For $ax^3+bx^2+cx+d=0$: $\alpha+\beta+\gamma=-b/a$$\alpha\beta+\beta\gamma+\gamma\alpha=c/a$$\alpha\beta\gamma=-d/a$ |
-| Skipping the base case in induction proofs                                                      | The base case is essential — without it the induction chain is unanchored                                            |
+| Skipping the base case in induction proofs                                                      | The base case is essential, without it the induction chain is unanchored                                            |
 
 ---
 

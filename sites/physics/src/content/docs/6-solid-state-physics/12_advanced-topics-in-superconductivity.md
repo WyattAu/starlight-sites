@@ -126,7 +126,7 @@ $V = n(h/2e)\nu$.
 
 ### 12.6 Connection to BCS Theory
 
-The GL theory is phenomenological — it does not explain *why* superconductivity occurs. The
+The GL theory is phenomenological, it does not explain *why* superconductivity occurs. The
 microscopic BCS theory (Bardeen, Cooper, Schrieffer, 1957) provides this explanation:
 
 - **Cooper pairs.** An attractive interaction mediated by phonons (lattice vibrations) allows

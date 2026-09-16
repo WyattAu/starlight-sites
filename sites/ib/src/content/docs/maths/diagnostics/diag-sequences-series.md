@@ -15,21 +15,21 @@ tableOfContents: false
 }
 </script>
 
-## Sequences and Series — Diagnostic Tests
+## Sequences and Series, Diagnostic Tests
 
 ## Intuition
 
-**Sequences are like mathematical recipes — each term follows a rule, and series are the cumulative sum of following that recipe step by step:** Arithmetic and geometric sequences model different types of growth — constant addition versus constant multiplication — capturing patterns from savings accounts to population dynamics
+**Sequences are like mathematical recipes, each term follows a rule, and series are the cumulative sum of following that recipe step by step:** Arithmetic and geometric sequences model different types of growth, constant addition versus constant multiplication, capturing patterns from savings accounts to population dynamics
 
 **Why it matters:** Sequences and series underpin financial mathematics, computer algorithms, and modeling natural phenomena
 
-**The key insight:** Arithmetic and geometric sequences model different types of growth — constant addition versus constant multiplication — capturing patterns from savings accounts to population dynamics
+**The key insight:** Arithmetic and geometric sequences model different types of growth, constant addition versus constant multiplication, capturing patterns from savings accounts to population dynamics
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for sequences and series.
 
-### UT-1: Method of Differences — Telescoping Series
+### UT-1: Method of Differences, Telescoping Series
 
 **Question:**
 
@@ -79,7 +79,7 @@ $$\frac{1}{2}\left(1 + \frac{1}{2} - \frac{1}{n+1} - \frac{1}{n+2}\right) = \fra
 }
 </script>
 
-### UT-2: Binomial Expansion — Non-Integer Power Validity
+### UT-2: Binomial Expansion, Non-Integer Power Validity
 
 **Question:**
 

@@ -47,51 +47,51 @@ sources:
 
 Mechanics applies mathematical models to describe and predict the motion of objects under the
 influence of forces. A-Level Mechanics covers kinematics, Newton"s laws, moments, energy, and
-momentum — the foundations of classical physics that also underpin engineering and applied
+momentum, the foundations of classical physics that also underpin engineering and applied
 mathematics.
 
 ## Topics Covered
 
 ### Kinematics
 
-- **SUVAT equations** — constant acceleration: $v = u + at$, $s = ut + \frac{1}{2}at^2$,
+- **SUVAT equations**, constant acceleration: $v = u + at$, $s = ut + \frac{1}{2}at^2$,
   $v^2 = u^2 + 2as$, $s = \frac{(u+v)}{2}t$
-- **Graphs of motion** — displacement-time, velocity-time, acceleration-time; gradients and areas
-- **Calculus-based kinematics** — $v = \frac{ds}{dt}$, $a = \frac{dv}{dt}$; integration from
+- **Graphs of motion**, displacement-time, velocity-time, acceleration-time; gradients and areas
+- **Calculus-based kinematics**, $v = \frac{ds}{dt}$, $a = \frac{dv}{dt}$; integration from
   acceleration to velocity to displacement
-- **Vertical motion under gravity** — $a = -g \approx -9.8\,\text{m/s}^2$
+- **Vertical motion under gravity**, $a = -g \approx -9.8\,\text{m/s}^2$
 
 ### Forces and Newton's Laws
 
-- **Newton's three laws** — inertia, $F = ma$, action-reaction pairs
-- **Resolving forces** — horizontal and vertical components; $F_x = F\cos\theta$,
+- **Newton's three laws**, inertia, $F = ma$, action-reaction pairs
+- **Resolving forces**, horizontal and vertical components; $F_x = F\cos\theta$,
   $F_y = F\sin\theta$
-- **Equilibrium** — resultant force equals zero; triangle and polygon of forces
-- **Friction** — $F \leq \mu R$; limiting friction, static vs. dynamic
-- **Connected particles** — pulleys, tow bars, lifts; treating systems and subsystems
+- **Equilibrium**, resultant force equals zero; triangle and polygon of forces
+- **Friction**, $F \leq \mu R$; limiting friction, static vs. dynamic
+- **Connected particles**, pulleys, tow bars, lifts; treating systems and subsystems
 
 ### Moments
 
-- **Moment of a force** — $\text{moment} = F \times d$ (force $\times$ perpendicular distance from
+- **Moment of a force**, $\text{moment} = F \times d$ (force $\times$ perpendicular distance from
   pivot)
-- **Principle of moments** — sum of clockwise moments = sum of anticlockwise moments for equilibrium
-- **Centres of mass** — uniform laminas, composite bodies
-- **Tilting and toppling** — determining the critical point where an object begins to topple
+- **Principle of moments**, sum of clockwise moments = sum of anticlockwise moments for equilibrium
+- **Centres of mass**, uniform laminas, composite bodies
+- **Tilting and toppling**, determining the critical point where an object begins to topple
 
 ### Energy and Work
 
-- **Work done** — $W = F \times d$ (in the direction of force); work done against friction and
+- **Work done**, $W = F \times d$ (in the direction of force); work done against friction and
   gravity
-- **Kinetic energy** — $KE = \frac{1}{2}mv^2$; gravitational potential energy $PE = mgh$
-- **Conservation of energy** — $KE_1 + PE_1 = KE_2 + PE_2 + W_{\text{friction}}$
-- **Power** — $P = \frac{dW}{dt} = Fv$
+- **Kinetic energy**, $KE = \frac{1}{2}mv^2$; gravitational potential energy $PE = mgh$
+- **Conservation of energy**, $KE_1 + PE_1 = KE_2 + PE_2 + W_{\text{friction}}$
+- **Power**, $P = \frac{dW}{dt} = Fv$
 
 ### Momentum
 
-- **Conservation of momentum** — $m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$ (in the absence of external
+- **Conservation of momentum**, $m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$ (in the absence of external
   forces)
-- **Impulse** — $I = mv - mu = F\Delta t$; impulse-momentum principle
-- **Direct collisions** — elastic and inelastic impacts
+- **Impulse**, $I = mv - mu = F\Delta t$; impulse-momentum principle
+- **Direct collisions**, elastic and inelastic impacts
 
 ## Study Tips
 

@@ -39,18 +39,18 @@ options timeout:2 attempts:3 rotate single-request-reopen
 
 ```text
 Key directives:
-  nameserver IP    — DNS server to query (up to 3, used in order)
-  search domain1 domain2 — append these to unqualified queries
-  domain name      — single search domain (deprecated in favor of search)
-  options          — resolver library options:
-    timeout:N      — initial timeout in seconds (default 5)
-    attempts:N     — number of retries (default 2)
-    rotate         — rotate through nameservers
-    ndots:N        — query as FQDN if name has at least N dots (default 1)
-    single-request — send A and AAAA queries sequentially
-    single-request-reopen — close socket between queries
-    edns0          — enable EDNS0 (large responses)
-    trust-ad       — trust AD flag in responses
+  nameserver IP, DNS server to query (up to 3, used in order)
+  search domain1 domain2, append these to unqualified queries
+  domain name, single search domain (deprecated in favor of search)
+  options, resolver library options:
+    timeout:N, initial timeout in seconds (default 5)
+    attempts:N, number of retries (default 2)
+    rotate, rotate through nameservers
+    ndots:N, query as FQDN if name has at least N dots (default 1)
+    single-request, send A and AAAA queries sequentially
+    single-request-reopen, close socket between queries
+    edns0, enable EDNS0 (large responses)
+    trust-ad, trust AD flag in responses
 ```
 
 :::caution
@@ -73,12 +73,12 @@ networks:   files
 
 ```text
 The "hosts' line determines name resolution order:
-  files     — /etc/hosts (checked first)
-  dns       — DNS (resolv.conf nameservers)
-  myhostname — systemd's nss-myhostname (returns 127.0.0.2 for local hostname)
-  mdns4     — multicast DNS (Avahi) for .local
-  mdns4_minimal — same, but only for .local names
-  resolve   — systemd-resolved (nss-resolve)
+  files, /etc/hosts (checked first)
+  dns, DNS (resolv.conf nameservers)
+  myhostname, systemd's nss-myhostname (returns 127.0.0.2 for local hostname)
+  mdns4, multicast DNS (Avahi) for .local
+  mdns4_minimal, same, but only for .local names
+  resolve, systemd-resolved (nss-resolve)
 ```
 
 ```bash
@@ -99,7 +99,7 @@ hosts:      resolve [!UNAVAIL=return] files myhostname
 ### /etc/hosts
 
 ```text
-# /etc/hosts — static hostname-to-address mapping
+# /etc/hosts, static hostname-to-address mapping
 # Format: IP_address  canonical_hostname  [aliases...]
 127.0.0.1       localhost
 127.0.1.1       myhost.example.com myhost
@@ -361,7 +361,7 @@ lb      IN      A       10.0.0.22
 ```
 
 ```text
-; /etc/bind/db.10.0.0 — reverse zone
+; /etc/bind/db.10.0.0, reverse zone
 $TTL    604800
 @       IN      SOA     ns1.example.com. admin.example.com. (
                         2026040601
@@ -640,9 +640,9 @@ journalctl -u systemd-resolved -f
 [Resolve]
 DNS=1.1.1.1#cloudflare-dns.com 8.8.8.8#dns.google
 DNSOverTLS=opportunistic
-# DNSOverTLS=no        — disabled
-# DNSOverTLS=opportunistic — use DoT if server supports it
-# DNSOverTLS=yes       — require DoT, fail if unsupported
+# DNSOverTLS=no, disabled
+# DNSOverTLS=opportunistic, use DoT if server supports it
+# DNSOverTLS=yes, require DoT, fail if unsupported
 ```
 
 ### Unbound with DoH/DoT Forwarding

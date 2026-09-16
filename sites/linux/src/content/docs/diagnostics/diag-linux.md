@@ -245,11 +245,11 @@ flowchart TD
 
 **Why it matters:** Linux systems power the majority of web servers, cloud platforms, and embedded devices. Administration skills are essential for IT professionals.
 
-**The key insight:** The principle of least privilege — granting only the minimum permissions needed — is the foundation of Linux security.
+**The key insight:** The principle of least privilege, granting only the minimum permissions needed, is the foundation of Linux security.
 
 ## Common Mistakes
 
-**Confusing `rm` with `rmdir`:** `rm` deletes files; `rmdir` removes empty directories. `rm -r` recursively deletes directories and their contents — this is dangerous. Always double-check paths before running `rm -r`.
+**Confusing `rm` with `rmdir`:** `rm` deletes files; `rmdir` removes empty directories. `rm -r` recursively deletes directories and their contents, this is dangerous. Always double-check paths before running `rm -r`.
 
 **Using `kill` without understanding signals:** `kill` sends signals, not just "stopping" processes. `kill -9` (SIGKILL) force-kills without cleanup. `kill -15` (SIGTERM) allows graceful shutdown. Always try SIGTERM first; use SIGKILL only as a last resort.
 

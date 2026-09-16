@@ -29,7 +29,7 @@ flowchart TD
 
 ## Intuition
 
-**Chronicle is like a puzzle with missing pieces — the narrator reconstructs events, but gaps remain, mirroring the community's selective memory:** The novel's structure mimics the way communities construct narratives about traumatic events
+**Chronicle is like a puzzle with missing pieces, the narrator reconstructs events, but gaps remain, mirroring the community's selective memory:** The novel's structure mimics the way communities construct narratives about traumatic events
 
 **Why it matters:** Understanding the narrative technique is key to grasping the novella's commentary on truth, memory, and social pressure
 
@@ -159,7 +159,7 @@ Must kill the man who dishonoured their sister. Angela names Santiago Nasar.
 The brothers announce their intention publicly, sharpening their knives in the butcher shop. Despite
 The town's awareness of the threat, no one effectively warns Santiago. The town priest, the police
 Lieutenant, and numerous bystanders all fail to act decisively. Santiago's mother, Placida Linero,
-Locks the front door, believing he has already entered — sealing his fate.
+Locks the front door, believing he has already entered, sealing his fate.
 
 The brothers kill Santiago in front of his house. He is stabbed repeatedly and dies from his wounds
 While walking into his home. The brothers surrender voluntarily and are sentenced to three years in
@@ -180,7 +180,7 @@ Who took her virginity, but the novel never confirms whether this is true.
 - After years of writing letters, Angela re-constructs her identity for Bayardo's approval
 
 Angela's character embodies the commodification of women under machismo culture. Her body is not her
-Own — it belongs first to her family's honour and then to her husband. Her act of naming Santiago
+Own, it belongs first to her family's honour and then to her husband. Her act of naming Santiago
 May be revenge against the town, protection of the real perpetrator, or a desperate Fabrication.
 
 ### Pedro and Pablo Vicario
@@ -192,7 +192,7 @@ Intentions, sharpen their knives openly, and even tell people they hope someone 
 - Their defence reveals the honour code's logic: murder is not a crime if motivated by honour
 - > "There was no way out... It was a matter of honour" ~Pedro Vicario
 - They frame themselves as instruments of social obligation rather than autonomous agents
-- The brothers are butcher by trade — their skill with knives makes the murder brutally efficient
+- The brothers are butcher by trade, their skill with knives makes the murder brutally efficient
 
 Their willingness to announce the murder yet relief when someone almost stops them reveals their
 Internal conflict between personal morality and social duty.
@@ -204,9 +204,9 @@ Ideal husband, without genuinely knowing her.
 
 - > "He's the perfect man" ~the women of the town
 - Bayardo is constructed as an object of desire rather than a real person
-- He returns Angela after discovering she is not a virgin — showing he views marriage as a
+- He returns Angela after discovering she is not a virgin, showing he views marriage as a
   transaction
-- Decades later, he returns to Angela after she has written him thousands of letters — but he never
+- Decades later, he returns to Angela after she has written him thousands of letters, but he never
   read any of them
 - > "He came with a suitcase full of letters... Unopened" ~Narrator
 - His romantic gesture is undermined by its performative emptiness
@@ -216,13 +216,13 @@ Ideal husband, without genuinely knowing her.
 Placida locks the front door, believing Santiago has already entered. This act seals his fate.
 
 - She is a dream interpreter who dismissed Santiago's dream of trees as meaningless
-- Her action represents the town's collective failure — well-intentioned but ultimately fatal
+- Her action represents the town's collective failure, well-intentioned but ultimately fatal
 
 ### Father Amador (The Priest)
 
-- Performs an autopsy on Santiago's body — the description is grotesque and disrespectful
+- Performs an autopsy on Santiago's body, the description is grotesque and disrespectful
 - Had been warned about the murder threat but dismissed it as drunken bravado
-- > "He was carrying the bishop's images... He couldn't have known" — the priest's alibi
+- > "He was carrying the bishop's images... He couldn't have known", the priest's alibi
 
 ### Colonel Lazaro Aponte
 
@@ -241,7 +241,7 @@ Hypocritical:
 
 - The brothers confess to the priest before committing the murder, suggesting they know it is a sin
 - The community supports the honour code in principle but fails to act when it leads to murder
-- The honour code applies selectively — Maria Alejandrina Cervantes (a prostitute) is celebrated,
+- The honour code applies selectively, Maria Alejandrina Cervantes (a prostitute) is celebrated,
   while Angela is condemned
 
 ### Fate and Determinism
@@ -254,19 +254,19 @@ Cosmic determinism.
 - The opening line establishes fatalism before any detail is revealed
 - Santiago's dream of trees (interpreted negatively) and the bishop's blessing of him as he is
   already dead both contribute to the sense of predestination
-- The structure itself — starting with the death and working backwards — creates inevitability in
+- The structure itself, starting with the death and working backwards, creates inevitability in
   the reader's experience
 
 ### Religion
 
 Marquez critiques performative religiosity throughout the text:
 
-- The bishop passes by on a boat without stopping — the town's religious devotion is unreciprocated
+- The bishop passes by on a boat without stopping, the town's religious devotion is unreciprocated
 - The Vicario brothers confess and attend Mass before and after the murder, revealing the gap
   between religious ritual and moral action
 - Santiago's autopsy is performed by a priest who violates the body more than the murder did
 - > "Before God and before men... It was a matter of honor" ~Vicario brothers
-- They invoke God to justify murder — the ultimate perversion of religious values
+- They invoke God to justify murder, the ultimate perversion of religious values
 
 ### Collective Responsibility
 
@@ -279,7 +279,7 @@ But no one took effective action:
 - Clotilde Armenta tries to warn people but is not taken seriously
 - Santiago's own mother locks the door at the critical moment
 
-Marquez suggests that collective guilt is worse than individual guilt — when everyone is
+Marquez suggests that collective guilt is worse than individual guilt, when everyone is
 Responsible, no one is accountable.
 
 ### Memory and Truth
@@ -301,7 +301,7 @@ Marquez fragments the narrative across time:
 - The first chapter reveals the murder and the events of the morning
 - Subsequent chapters move back and forth in time, revealing backstory, the wedding, and the
   aftermath
-- The effect is disorienting — the reader experiences the same confusion as the townspeople
+- The effect is disorienting, the reader experiences the same confusion as the townspeople
 
 ### Journalistic Technique
 
@@ -311,17 +311,17 @@ The narrator interviews witnesses and presents testimony, mimicking a journalist
 - Conflicting accounts presented without resolution
 - Footnote-like precision about some details alongside gaps in others
 
-This technique implicates the reader — we must judge what happened, just as the town must judge its
+This technique implicates the reader, we must judge what happened, just as the town must judge its
 Own guilt.
 
 ### Magical Realism
 
 Magical realism blends the fantastical with the mundane:
 
-- Santiago's mother can interpret dreams — but misinterprets Santiago's fatal dream of trees
+- Santiago's mother can interpret dreams, but misinterprets Santiago's fatal dream of trees
 - The weather is described in contradictory, dreamlike terms
 - The autopsy scene has grotesque, almost supernatural descriptions
-- Santiago walks home carrying his own entrails — described in a matter-of-fact tone
+- Santiago walks home carrying his own entrails, described in a matter-of-fact tone
 
 Magical realism here serves to show how extraordinary events become normalised within the town's
 Culture.
@@ -336,7 +336,7 @@ Culture.
 | "Before God and before men... It was a matter of honor" | The perversion of religion to justify violence                                       |
 | "She became a virgin again just for him"                | The performative nature of female purity under patriarchy                            |
 | "The bishop blessed him from the boat"                  | Religious authority passes by, offering symbolic but useless blessing                |
-| "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow — appearance without substance                  |
+| "He came with a suitcase full of letters... Unopened"   | Bayardo's romantic gesture is hollow, appearance without substance                  |
 
 :::tip
 Journalistic) as well as the content. The way the story is told is as important as what happens.

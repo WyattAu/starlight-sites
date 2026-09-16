@@ -137,7 +137,7 @@ $\Delta d = m\lambda/2 = 1000 \times 589 \times 10^{-9}/2 = 2.945 \times 10^{-4}
 $\Delta x \lt L_c = \lambda^2/\Delta\lambda = (589 \times 10^{-9})^2/(0.6 \times 10^{-9}) = 5.78 \times 10^{-4}$
 m $= 0.578$ mm. Since the path difference is $2\Delta d$The mirror can move up to
 $\Delta d = L_c/2 = 0.289$ mm before fringes wash out. Note that 1000 fringes correspond to
-$\Delta d = 0.295$ mm, which slightly exceeds $L_c/2$ — the outermost fringes would already be
+$\Delta d = 0.295$ mm, which slightly exceeds $L_c/2$, the outermost fringes would already be
 fading.
 
 **Solution 11.** $\mathcal{F} = \pi\sqrt{0.85}/(1 - 0.85) = 19.3$.

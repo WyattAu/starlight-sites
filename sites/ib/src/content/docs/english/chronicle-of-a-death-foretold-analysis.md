@@ -1,7 +1,7 @@
 ---
 
 date: 2026-07-23T21:57:32+01:00
-title: Chronicle of a Death Foretold — Close Reading and Analysis
+title: Chronicle of a Death Foretold, Close Reading and Analysis
 tags:
   - IB
   - English
@@ -106,7 +106,7 @@ Action and collective responsibility.
 
 ## Intuition
 
-**Chronicle is like a detective story told backwards — we know the murder will happen, but the mystery is why no one stopped it:** García Márquez uses circular narrative to show how community complicity and cultural codes lead to inevitable tragedy
+**Chronicle is like a detective story told backwards, we know the murder will happen, but the mystery is why no one stopped it:** García Márquez uses circular narrative to show how community complicity and cultural codes lead to inevitable tragedy
 
 **Why it matters:** This novella explores themes of honor, fate, and collective responsibility that transcend its Colombian setting
 

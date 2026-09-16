@@ -79,7 +79,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 </a>
 <a href="/resource_management/2_value_categories_and_move/1_value_taxonomy/" class="landing-card">
 <Card title="2_value_categories_and_move" icon="document">
-    Every C++ expression has a — a property that determines which operations are Legal on it and how ...
+    Every C++ expression has a, a property that determines which operations are Legal on it and how ...
   </Card>
 </a>
 <a href="/resource_management/0_intro/" class="landing-card">
@@ -165,9 +165,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 **Forgetting rule of zero/three/five:** If your class manages a resource, define or delete the copy constructor, copy assignment, move constructor, and move assignment. If it does not, the compiler-generated defaults may silently cause double-free bugs or shallow copies of owned resources.
 
-**Using raw `new`/`delete` instead of RAII:** Manual memory management with `new` and `delete` is error-prone — exceptions, early returns, and forgotten cleanup cause leaks and dangling pointers. Use smart pointers and stack allocation to bind resource lifetime to scope.
+**Using raw `new`/`delete` instead of RAII:** Manual memory management with `new` and `delete` is error-prone, exceptions, early returns, and forgotten cleanup cause leaks and dangling pointers. Use smart pointers and stack allocation to bind resource lifetime to scope.
 
-**Assuming `std::move` moves data:** `std::move` casts an lvalue to an rvalue reference — it does not itself move anything. The actual move happens in the move constructor or move assignment operator. Misusing `std::move` on objects after they have been moved-from leads to undefined or surprising behaviour.
+**Assuming `std::move` moves data:** `std::move` casts an lvalue to an rvalue reference, it does not itself move anything. The actual move happens in the move constructor or move assignment operator. Misusing `std::move` on objects after they have been moved-from leads to undefined or surprising behaviour.
 
 ## Cross-References
 
@@ -178,7 +178,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Intuition
 
-C++ systems programming is fundamentally about **owning and managing resources**. Unlike garbage-collected languages where the runtime cleans up after you, C++ puts you in control of memory, file handles, network connections, and other resources. The key insight is that resource lifetimes can be tied to object lifetimes through RAII — when an object is constructed, it acquires a resource; when it is destroyed, it releases it. This simple idea eliminates entire classes of bugs like memory leaks and dangling pointers.
+C++ systems programming is fundamentally about **owning and managing resources**. Unlike garbage-collected languages where the runtime cleans up after you, C++ puts you in control of memory, file handles, network connections, and other resources. The key insight is that resource lifetimes can be tied to object lifetimes through RAII, when an object is constructed, it acquires a resource; when it is destroyed, it releases it. This simple idea eliminates entire classes of bugs like memory leaks and dangling pointers.
 
 The type system, ownership model, and compilation model all serve this central goal. Understanding how code goes from source text to machine code (the compilation model), how data is laid out in memory (types and references), and how to transfer ownership safely (resource management) gives you the mental model needed to write C++ that is both efficient and correct. The standard library builds on these foundations with containers, algorithms, and utilities that follow the same principles.
 

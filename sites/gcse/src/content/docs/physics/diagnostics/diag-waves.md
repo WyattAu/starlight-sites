@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Waves — Diagnostic Tests
+## Waves, Diagnostic Tests
 
 ## Unit Tests
 
@@ -214,11 +214,11 @@ appropriate frequencies ( 1--15 MHz depending on the application).
 
 ## Intuition
 
-**Disturbances that travel:** Waves are like ripples in a pond — they transfer energy without transferring matter. Light, sound, and radio waves are all examples of the same phenomenon.
+**Disturbances that travel:** Waves are like ripples in a pond, they transfer energy without transferring matter. Light, sound, and radio waves are all examples of the same phenomenon.
 
 **Why it matters:** From Wi-Fi to medical imaging, waves are everywhere. Understanding wave behavior helps you design communication systems and explain natural phenomena.
 
-**The key insight:** The speed of light is constant in a vacuum — this fact underpins Einstein's theory of relativity.
+**The key insight:** The speed of light is constant in a vacuum, this fact underpins Einstein's theory of relativity.
 
 
 ```mermaid

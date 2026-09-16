@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Trigonometry — Diagnostic Tests
+## Trigonometry, Diagnostic Tests
 
 ## Unit Tests
 
@@ -568,11 +568,11 @@ flowchart TD
 
 ## Intuition
 
-**A clock and a circle:** Trigonometry is like measuring angles on a clock — sine, cosine, and tangent tell you the ratio of sides in a right triangle, which is really just the coordinates of a point on a unit circle.
+**A clock and a circle:** Trigonometry is like measuring angles on a clock, sine, cosine, and tangent tell you the ratio of sides in a right triangle, which is really just the coordinates of a point on a unit circle.
 
 **Why it matters:** From GPS navigation to music synthesis, trigonometry models periodic phenomena. The sine rule and cosine rule let you solve any triangle, not just right-angled ones.
 
-**The key insight:** All trig functions are really just ratios of sides in a right triangle — once you see this, identities and equations become geometry problems in disguise.
+**The key insight:** All trig functions are really just ratios of sides in a right triangle, once you see this, identities and equations become geometry problems in disguise.
 
 ## Common Pitfalls
 

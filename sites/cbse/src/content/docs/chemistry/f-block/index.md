@@ -59,7 +59,7 @@ F-block elements include the lanthanoids (4f series) and actinoids (5f series). 
 - Colour: due to f-f transitions (partially filled f-orbitals)
 - Cerium: Ce$^{4+}$ (oxidizing) and Ce$^{3+}$ (reducing)
 
-## Worked Example 1 — Lanthanoid Contraction
+## Worked Example 1, Lanthanoid Contraction
 
 **Problem:** Explain why the ionic radius of Zr$^{4+}$ (79 pm) is very close to Hf$^{4+}$ (78 pm) despite Hf being in the next period.
 
@@ -75,7 +75,7 @@ Result: Zr$^{4+}$ and Hf$^{4+}$ have nearly identical sizes, leading to very sim
 
 **Common mistake:** Attributing the similar sizes to periodic trends alone. Without the lanthanoid contraction, Hf$^{4+}$ would be significantly larger than Zr$^{4+}$.
 
-## Worked Example 2 — Electron Configuration
+## Worked Example 2, Electron Configuration
 
 **Problem:** Write the electron configuration of Gd$^{3+}$ (Z = 64).
 
@@ -91,7 +91,7 @@ This is a half-filled f-subshell, which is particularly stable.
 
 **Common mistake:** Writing $[\text{Xe}] 4f^8$ instead of $[\text{Xe}] 4f^7$. Remember to remove from the outermost orbitals first (6s, then 5d, then 4f).
 
-## Worked Example 3 — Actinoid Chemistry
+## Worked Example 3, Actinoid Chemistry
 
 **Problem:** Explain why uranium forms compounds in the +6 oxidation state (e.g., $\text{UF}_6$).
 
@@ -123,11 +123,11 @@ Lanthanoids are used in magnets (Nd$_2$Fe$_{14}$B), electronics (Ce in catalytic
 
 ## Intuition
 
-**The hidden row at the bottom of the periodic table:** Lanthanoids and actinoids are like the backstage crew in a theater production — they're hidden from the main stage (the periodic table's body) but are essential to the show. The lanthanoid contraction is like a slow squeeze: as you add protons and electrons across the 4f series, the 4f electrons are poor at shielding the nucleus, so each element pulls its electrons in tighter than expected. This squeeze makes Period 6 transition metals almost the same size as their Period 5 counterparts.
+**The hidden row at the bottom of the periodic table:** Lanthanoids and actinoids are like the backstage crew in a theater production, they're hidden from the main stage (the periodic table's body) but are essential to the show. The lanthanoid contraction is like a slow squeeze: as you add protons and electrons across the 4f series, the 4f electrons are poor at shielding the nucleus, so each element pulls its electrons in tighter than expected. This squeeze makes Period 6 transition metals almost the same size as their Period 5 counterparts.
 
-**Why it matters:** Lanthanoids power modern technology — neodymium magnets are in every electric motor and headphone, europium makes phone screens glow red, and cerium cleans car exhaust. Actinoids are central to nuclear energy and medicine (uranium-235 fuels reactors, plutonium-238 powers space probes). Without f-block elements, modern life would look very different.
+**Why it matters:** Lanthanoids power modern technology, neodymium magnets are in every electric motor and headphone, europium makes phone screens glow red, and cerium cleans car exhaust. Actinoids are central to nuclear energy and medicine (uranium-235 fuels reactors, plutonium-238 powers space probes). Without f-block elements, modern life would look very different.
 
-**The key insight:** The 4f orbitals are buried deep inside the atom, shielded by 5s and 5p electrons, so they participate little in bonding — which is why lanthanoids almost always show only the +3 oxidation state, unlike d-block metals with their variable oxidation states.
+**The key insight:** The 4f orbitals are buried deep inside the atom, shielded by 5s and 5p electrons, so they participate little in bonding, which is why lanthanoids almost always show only the +3 oxidation state, unlike d-block metals with their variable oxidation states.
 
 ## Common Exam Patterns
 

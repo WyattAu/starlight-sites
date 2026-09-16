@@ -117,7 +117,7 @@ auto serialize(const T& value)
     -> std::enable_if_t<
         std::is_same_v<T, std::string>
         || (std::is_array_v<T> && std::is_same_v<std::remove_extent_t<T>, char>)
-       , std::string> {
+std::string> {
     return std::string{value};
 }
 
@@ -309,7 +309,7 @@ Easier to read, debug, and maintain.
 #include <type_traits>
 #include <concepts>
 
-// APPROACH 1: enable_if (SFINAE) — pre-C++17
+// APPROACH 1: enable_if (SFINAE), pre-C++17
 template <typename T>
 std::enable_if_t<std::is_integral_v<T>>
 approach1_sfniae(T val) {
@@ -322,7 +322,7 @@ approach1_sfniae(T val) {
     std::cout << "floating: " << val << "\n";
 }
 
-// APPROACH 2: Tag dispatch — pre-C++17
+// APPROACH 2: Tag dispatch, pre-C++17
 template <typename T>
 void approach2_tag(T val) {
     if constexpr (std::is_integral_v<T>) {
@@ -342,7 +342,7 @@ void approach2_tag_impl(T val, std::false_type) {
     std::cout << "non-integral: " << val << "\n";
 }
 
-// APPROACH 3: if constexpr — C++17+
+// APPROACH 3: if constexpr, C++17+
 template <typename T>
 void approach3_constexpr(T val) {
     if constexpr (std::is_integral_v<T>) {
@@ -354,7 +354,7 @@ void approach3_constexpr(T val) {
     }
 }
 
-// APPROACH 4: Concepts — C++20+
+// APPROACH 4: Concepts, C++20+
 template <std::integral T>
 void approach4_concept(T val) {
     std::cout << "integral: " << val << "\n";
@@ -524,7 +524,7 @@ $$
 
 template<typename Tuple, typename Func, std::size_t... Is>
 void for_each_impl(Tuple&& t, Func&& f, std::index_sequence<Is...>) {
-    (f(std::get<Is>(std::forward<Tuple>(t))), ...);
+    (f(std::get<Is>(std::forward<Tuple>(t)))...);
 }
 
 template<typename Tuple, typename Func>
@@ -780,7 +780,7 @@ Aggregate members. This pattern would eliminate the need for manual boilerplate 
 Printing aggregates:
 
 ```cpp
-// C++26 — Pseudocode following P2996R9 direction
+// C++26, Pseudocode following P2996R9 direction
 // NOTE: This may not compile on current compilers (as of early 2026)
 // It is included for educational purposes to illustrate the API design.
 
@@ -936,7 +936,7 @@ Introspected).
 
 ## Intuition
 
-Type traits are the eyes of the compiler — they let the template machinery ask questions about types at compile time. `std::is_same` checks if two types are identical, like asking "are these twins?" `std::is_base_of` checks inheritance relationships, like asking "is this person a descendant of that one?" Conditional types are compile-time if-else statements that select different types based on traits. SFINAE is the compiler's way of gracefully saying "I cannot do this" without halting compilation — like a restaurant that silently removes dishes from the menu when ingredients run out, rather than refusing to serve you entirely. Concepts are the modern, readable version of SFINAE constraints.
+Type traits are the eyes of the compiler, they let the template machinery ask questions about types at compile time. `std::is_same` checks if two types are identical, like asking "are these twins?" `std::is_base_of` checks inheritance relationships, like asking "is this person a descendant of that one?" Conditional types are compile-time if-else statements that select different types based on traits. SFINAE is the compiler's way of gracefully saying "I cannot do this" without halting compilation, like a restaurant that silently removes dishes from the menu when ingredients run out, rather than refusing to serve you entirely. Concepts are the modern, readable version of SFINAE constraints.
 
 ## Common Pitfalls
 

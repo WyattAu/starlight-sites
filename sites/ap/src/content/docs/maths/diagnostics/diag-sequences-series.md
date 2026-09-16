@@ -19,7 +19,7 @@ categories:
 }
 </script>
 
-## Sequences and Series — Diagnostic Tests [BC Only]
+## Sequences and Series, Diagnostic Tests [BC Only]
 
 ## Unit Tests
 
@@ -342,17 +342,17 @@ linked above.
 
 ## Intuition
 
-Series diagnostics test whether you can **select the right convergence test** and apply it correctly. The key insight is that no single test works for all series — you must match the test to the form of the series.
+Series diagnostics test whether you can **select the right convergence test** and apply it correctly. The key insight is that no single test works for all series, you must match the test to the form of the series.
 
 **Test selection strategy:**
 
-- **Geometric series:** Recognise the form $\sum ar^n$ — converges iff $|r| < 1$
-- **p-series:** $\sum 1/n^p$ — converges iff $p > 1$
+- **Geometric series:** Recognise the form $\sum ar^n$, converges iff $|r| < 1$
+- **p-series:** $\sum 1/n^p$, converges iff $p > 1$
 - **Ratio test:** Best for factorials and exponentials
 - **Comparison test:** Best when you can bound the series by a known convergent or divergent series
 - **Integral test:** Best when the series term is efficiently integrable
 
-**Taylor series intuition:** A Taylor series approximates a function as a polynomial around a point. The more terms you include, the better the approximation near that point. The Lagrange error bound tells you how far off the approximation is — the answer varies based on on the $(n+1)$th derivative, which is why functions with bounded derivatives are easier to approximate.
+**Taylor series intuition:** A Taylor series approximates a function as a polynomial around a point. The more terms you include, the better the approximation near that point. The Lagrange error bound tells you how far off the approximation is, the answer varies based on on the $(n+1)$th derivative, which is why functions with bounded derivatives are easier to approximate.
 
 ## Common Pitfalls
 

@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Data Structures — Diagnostic Tests
+## Data Structures, Diagnostic Tests
 
 ## Unit Tests
 

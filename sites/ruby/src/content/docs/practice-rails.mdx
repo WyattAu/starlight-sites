@@ -63,7 +63,7 @@ class ArticlesController < ApplicationController
   end
 
   def article_params
-    params.require(:article).permit(:title, :body, :published_at, :tag_list)
+    params.require(:article).permit(:title:body:published_at:tag_list)
   end
 end
 ```
@@ -149,9 +149,9 @@ class CreateSubscriptions < ActiveRecord::Migration[7.1]
       t.timestamps
     end
 
-    add_index :subscriptions, [:user_id, :subscribable_type, :subscribable_id],
+    add_index :subscriptions, [:user_id:subscribable_type:subscribable_id],
               unique: true, name: "index_subscriptions_unique"
-    add_index :subscriptions, :status
+    add_index :subscriptions:status
   end
 
   def down
@@ -170,7 +170,7 @@ end
 
 ```ruby
 class PublishArticle
-  attr_reader :article, :result
+  attr_reader :article:result
 
   def initialize(article, user:)
     @article = article
@@ -321,7 +321,7 @@ end
 
 **Why it matters:** Rails pioneered rapid web development and influenced modern frameworks like Laravel, Django, and Phoenix.
 
-**The key insight:** Rails' "don't repeat yourself" (DRY) principle encourages extracting reusable code — but pragmatism matters more than dogmatic adherence to any principle.
+**The key insight:** Rails' "don't repeat yourself" (DRY) principle encourages extracting reusable code, but pragmatism matters more than dogmatic adherence to any principle.
 
 ## Common Mistakes
 

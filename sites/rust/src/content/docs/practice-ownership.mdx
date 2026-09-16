@@ -229,9 +229,9 @@ impl<T, const N: usize> Drop for SafeArray<T, N> \{
 
 **Rust's ownership system ensures memory safety without garbage collection:** Every value has exactly one owner, and the value is dropped when the owner goes out of scope. Borrowing lets you use values without taking ownership, with strict rules that prevent data races.
 
-**Why it matters:** Ownership eliminates memory leaks, dangling pointers, and data races at compile time — bugs that plague C and C++ programs.
+**Why it matters:** Ownership eliminates memory leaks, dangling pointers, and data races at compile time, bugs that plague C and C++ programs.
 
-**The key insight:** The borrow checker is not fighting you — it is preventing bugs that would otherwise require runtime detection or cause subtle memory corruption.
+**The key insight:** The borrow checker is not fighting you, it is preventing bugs that would otherwise require runtime detection or cause subtle memory corruption.
 
 ## Common Mistakes
 

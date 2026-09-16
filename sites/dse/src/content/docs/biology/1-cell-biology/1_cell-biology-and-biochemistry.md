@@ -238,9 +238,9 @@ Requiring ATP and carrier proteins.
 
 The cell membrane engulfs material to bring it into the cell.
 
-- **Phagocytosis:** "Cell eating" — engulfing solid particles (e.g., white blood cells engulfing
+- **Phagocytosis:** "Cell eating", engulfing solid particles (e.g., white blood cells engulfing
   bacteria)
-- **Pinocytosis:** "Cell drinking" — engulfing liquid droplets
+- **Pinocytosis:** "Cell drinking", engulfing liquid droplets
 
 #### Exocytosis
 
@@ -575,11 +575,11 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 
 ## Intuition
 
-**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+**Life's building blocks:** Cells are like factories, the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
 
 **Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
 
-**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+**The key insight:** Structure determines function, the shape of a protein determines what it does, and mutations that change shape can cause disease.
 
 
 ```mermaid
@@ -2186,7 +2186,7 @@ $\blacksquare$
 **Problem.** A molecule has repeated glucose units linked by $\beta$-1,4 glycosidic bonds. Identify
 it.
 
-**Solution.** Cellulose — the main structural component of plant cell walls, forming long straight
+**Solution.** Cellulose, the main structural component of plant cell walls, forming long straight
 chains that hydrogen-bond into strong fibres.
 
 $\blacksquare$

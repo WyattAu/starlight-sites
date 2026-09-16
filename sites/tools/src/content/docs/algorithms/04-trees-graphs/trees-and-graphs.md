@@ -17,11 +17,11 @@ description: "A tree is a connected, acyclic, undirected graph. In computer scie
 
 ## Intuition
 
-**Connections and hierarchies:** Trees are hierarchies (file systems, organisational charts), graphs are networks (roads, social connections). Trees are special graphs — connected, acyclic, with a clear parent-child relationship. Understanding both is essential for modelling real-world relationships.
+**Connections and hierarchies:** Trees are hierarchies (file systems, organisational charts), graphs are networks (roads, social connections). Trees are special graphs, connected, acyclic, with a clear parent-child relationship. Understanding both is essential for modelling real-world relationships.
 
-**Why it matters:** Trees and graphs appear everywhere — DOM trees in web browsers, dependency graphs in package managers, social networks, and GPS navigation. Knowing the right traversal and algorithm for each structure is fundamental.
+**Why it matters:** Trees and graphs appear everywhere, DOM trees in web browsers, dependency graphs in package managers, social networks, and GPS navigation. Knowing the right traversal and algorithm for each structure is fundamental.
 
-**The key insight:** DFS uses a stack (or recursion) and explores depth-first — good for detecting cycles and topological sorting. BFS uses a queue and explores breadth-first — good for shortest paths in unweighted graphs.
+**The key insight:** DFS uses a stack (or recursion) and explores depth-first, good for detecting cycles and topological sorting. BFS uses a queue and explores breadth-first, good for shortest paths in unweighted graphs.
 
 ## Tree Terminology
 
@@ -305,7 +305,7 @@ def is_valid_bst(root):
 ```
 
 :::caution
-Insufficient — the BST property requires that **all** values in the left subtree are less than
+Insufficient, the BST property requires that **all** values in the left subtree are less than
 `node.val`Not just the immediate left child. A node with value 5, left child with value 1, and
 Left-left grandchild with value 6 fails the BST property but passes the naive check.
 
@@ -387,7 +387,7 @@ A red-black tree is a self-balancing BST with the following properties:
 4. If a node is red, both its children are black (no two consecutive reds)
 5. Every path from a node to its descendant NIL nodes contains the same number of black nodes
 
-Red-black trees guarantee $O(\log n)$ height — specifically, the height is at most $2 \log_2(n+1)$.
+Red-black trees guarantee $O(\log n)$ height, specifically, the height is at most $2 \log_2(n+1)$.
 This is less strict than AVL trees, meaning red-black trees are shorter but may have Slower
 individual lookups.
 

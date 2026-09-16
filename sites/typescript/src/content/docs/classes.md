@@ -364,7 +364,7 @@ interface Constructor<T> {
   new (...args: any[]): T;
 }
 
-function createInstance<T>(ctor: Constructor<T>, ...args: any[]): T {
+function createInstance<T>(ctor: Constructor<T>...args: any[]): T {
   return new ctor(...args);
 }
 

@@ -763,7 +763,7 @@
   --ec-line-bg-active: rgba(0, 95, 135, 0.08);
 }
 
-/* Inline code — distinct bg per theme so it's visibly different from page bg */
+/* Inline code, distinct bg per theme so it's visibly different from page bg */
 [data-theme="sepia"] .sl-markdown-content code:not(pre code) {
   background: #f3ead0;
   border-color: #d8ccb8;
@@ -1544,7 +1544,7 @@ body::after {
   }
 }
 
-/* === 1. Content Width — now handled via --wn-content-width user setting === */
+/* === 1. Content Width, now handled via --wn-content-width user setting === */
 
 /* === 2. Better Heading Spacing (Vertical Rhythm) === */
 .sl-markdown-content h1,
@@ -1657,7 +1657,7 @@ body::after {
   }
 }
 
-/* === 7. Table of Contents Improvements — move closer to right edge === */
+/* === 7. Table of Contents Improvements, move closer to right edge === */
 
 /* Starlight calculates right-sidebar width as: --sl-sidebar-width + (100% - content - sidebar) / 2
    This makes it wider than the TOC needs. Override to shrink-wrap the content. */

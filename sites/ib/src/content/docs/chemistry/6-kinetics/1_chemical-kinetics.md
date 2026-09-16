@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Chemical kinetics is like studying the speed of chemical traffic — reaction rates depend on concentration, temperature, and catalysts:** The Arrhenius equation connects temperature to reaction rate, explaining why heating speeds up chemical processes
+**Chemical kinetics is like studying the speed of chemical traffic, reaction rates depend on concentration, temperature, and catalysts:** The Arrhenius equation connects temperature to reaction rate, explaining why heating speeds up chemical processes
 
 **Why it matters:** Kinetics determines how fast products form, affecting everything from food preservation to pharmaceutical stability
 
@@ -604,7 +604,7 @@ flowchart TD
 <strong>Exam Strategy</strong>
 For rate equation questions, always use the initial rates method systematically. For Arrhenius
 Calculations, ensure temperature is in Kelvin and $E_a$ is in J/mol. For mechanism questions, the
-Rate equation is determined by the slow step — check if intermediates need to be substituted using
+Rate equation is determined by the slow step, check if intermediates need to be substituted using
 Equilibrium approximations.
 
 ---

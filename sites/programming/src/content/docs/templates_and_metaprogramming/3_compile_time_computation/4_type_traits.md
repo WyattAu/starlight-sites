@@ -117,7 +117,7 @@ auto serialize(const T& value)
     -> std::enable_if_t<
         std::is_same_v<T, std::string>
         || (std::is_array_v<T> && std::is_same_v<std::remove_extent_t<T>, char>)
-       , std::string> {
+std::string> {
     return std::string{value};
 }
 
@@ -309,7 +309,7 @@ Easier to read, debug, and maintain.
 #include <type_traits>
 #include <concepts>
 
-// APPROACH 1: enable_if (SFINAE) — pre-C++17
+// APPROACH 1: enable_if (SFINAE), pre-C++17
 template <typename T>
 std::enable_if_t<std::is_integral_v<T>>
 approach1_sfniae(T val) {
@@ -322,7 +322,7 @@ approach1_sfniae(T val) {
     std::cout << "floating: " << val << "\n";
 }
 
-// APPROACH 2: Tag dispatch — pre-C++17
+// APPROACH 2: Tag dispatch, pre-C++17
 template <typename T>
 void approach2_tag(T val) {
     if constexpr (std::is_integral_v<T>) {
@@ -342,7 +342,7 @@ void approach2_tag_impl(T val, std::false_type) {
     std::cout << "non-integral: " << val << "\n";
 }
 
-// APPROACH 3: if constexpr — C++17+
+// APPROACH 3: if constexpr, C++17+
 template <typename T>
 void approach3_constexpr(T val) {
     if constexpr (std::is_integral_v<T>) {
@@ -354,7 +354,7 @@ void approach3_constexpr(T val) {
     }
 }
 
-// APPROACH 4: Concepts — C++20+
+// APPROACH 4: Concepts, C++20+
 template <std::integral T>
 void approach4_concept(T val) {
     std::cout << "integral: " << val << "\n";
@@ -524,7 +524,7 @@ $$
 
 template<typename Tuple, typename Func, std::size_t... Is>
 void for_each_impl(Tuple&& t, Func&& f, std::index_sequence<Is...>) {
-    (f(std::get<Is>(std::forward<Tuple>(t))), ...);
+    (f(std::get<Is>(std::forward<Tuple>(t)))...);
 }
 
 template<typename Tuple, typename Func>
@@ -780,7 +780,7 @@ Aggregate members. This pattern would eliminate the need for manual boilerplate 
 Printing aggregates:
 
 ```cpp
-// C++26 — Pseudocode following P2996R9 direction
+// C++26, Pseudocode following P2996R9 direction
 // NOTE: This may not compile on current compilers (as of early 2026)
 // It is included for educational purposes to illustrate the API design.
 
@@ -940,11 +940,11 @@ Introspected).
 
 ## Intuition
 
-**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type — `std::is_integral<int>::value` is `true`, `std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming — they let you make decisions at compile time based on type properties.
+**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type, `std::is_integral<int>::value` is `true`, `std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming, they let you make decisions at compile time based on type properties.
 
-**Why it matters:** Type traits are essential for writing generic code that behaves differently for different types. Instead of writing separate functions for `int` and `double`, you write one function that checks `std::is_integral_v<T>` at compile time. They're also the foundation of concepts, `if constexpr`, and SFINAE — all of which rely on compile-time type queries.
+**Why it matters:** Type traits are essential for writing generic code that behaves differently for different types. Instead of writing separate functions for `int` and `double`, you write one function that checks `std::is_integral_v<T>` at compile time. They're also the foundation of concepts, `if constexpr`and SFINAE, all of which rely on compile-time type queries.
 
-**The key insight:** Type traits query type properties at compile time — they're the building blocks of template metaprogramming and enable compile-time decisions based on type properties.
+**The key insight:** Type traits query type properties at compile time, they're the building blocks of template metaprogramming and enable compile-time decisions based on type properties.
 
 ## Common Pitfalls
 

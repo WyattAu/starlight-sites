@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Moments — Diagnostic Tests
+## Moments, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for moments.
 
-### UT-1: Perpendicular Distance — Not Just Distance to Pivot
+### UT-1: Perpendicular Distance, Not Just Distance to Pivot
 
 **Question:**
 
@@ -97,7 +97,7 @@ application point.
 }
 </script>
 
-### UT-2: Tilting — Finding the Critical Position
+### UT-2: Tilting, Finding the Critical Position
 
 **Question:**
 
@@ -151,7 +151,7 @@ susceptible to toppling than sliding.
 }
 </script>
 
-### UT-3: Non-Uniform Beam — Centre of Mass Unknown
+### UT-3: Non-Uniform Beam, Centre of Mass Unknown
 
 **Question:**
 

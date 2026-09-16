@@ -202,7 +202,7 @@ The quantum Hall effect reveals that in a strong magnetic field at low temperatu
 These topics are closely related: quantum mechanics provides the foundation for band theory,
 thermal physics governs carrier statistics and thermoelectric performance, and solid state physics
 provides the crystal structure context.
-| Solid State Physics — MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
+| Solid State Physics, MIT 6.720 | MIT OCW     | [View](https://ocw.mit.edu/courses/6-720j-integrated-microelectronic-devices-spring-2007/) |
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

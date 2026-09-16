@@ -1,5 +1,5 @@
 ---
-title: "Wyatt's Notes — Complete Study Resource Network"
+title: "Wyatt's Notes, Complete Study Resource Network"
 description: "The complete network of 46 interconnected study sites covering programming languages, computer science, academic subjects, professional certifications, driving tests, and language proficiency exams. Browse all sites, find your path, and start learning."
 date: 2026-07-24
 tags:

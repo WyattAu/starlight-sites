@@ -24,7 +24,7 @@ Resource, and when does that release occur?**
 
 In garbage-collected languages, the runtime answers this question for you. In C++, the programmer
 Must establish explicit ownership contracts. When these contracts are violated, the result is a
-Resource leak, a double-free, or use-after-free — all of which are undefined behavior.
+Resource leak, a double-free, or use-after-free, all of which are undefined behavior.
 
 This part covers four tightly coupled topics:
 
@@ -46,11 +46,11 @@ Covered in detail in Module 13.
 
 ## Intuition
 
-**RAII: Resource Acquisition Is Initialization:** RAII is like a library book system — when you check out a book (acquire resource), it's automatically returned when you leave the library (goes out of scope).
+**RAII: Resource Acquisition Is Initialization:** RAII is like a library book system, when you check out a book (acquire resource), it's automatically returned when you leave the library (goes out of scope).
 
-**Why it matters:** RAII eliminates resource leaks by tying resource lifecycle to object lifetime — a fundamental C++ pattern.
+**Why it matters:** RAII eliminates resource leaks by tying resource lifecycle to object lifetime, a fundamental C++ pattern.
 
-**The key insight:** Constructors acquire resources, destructors release them — this ensures resources are always properly cleaned up.
+**The key insight:** Constructors acquire resources, destructors release them, this ensures resources are always properly cleaned up.
 
 ## Common Pitfalls
 
@@ -66,7 +66,7 @@ Covered in detail in Module 13.
 
 ### Module Roadmap
 
-**Module 10 — RAII and Smart Pointers** covers the ownership model that distinguishes C++ from
+**Module 10, RAII and Smart Pointers** covers the ownership model that distinguishes C++ from
 garbage-collected languages. You will learn:
 
 - The RAII pattern: constructors acquire, destructors release
@@ -75,7 +75,7 @@ garbage-collected languages. You will learn:
 - `std::weak_ptr`: non-owning observer that breaks cycles
 - Custom deleters for non-memory resources (file handles, sockets, locks)
 
-**Module 11 — Move Semantics and Value Categories** explains the type system machinery that makes
+**Module 11, Move Semantics and Value Categories** explains the type system machinery that makes
 efficient transfer possible:
 
 - lvalue, rvalue, xvalue, prvalue, glvalue classifications
@@ -84,14 +84,14 @@ efficient transfer possible:
 - Perfect forwarding with `std::forward`
 - When the compiler elides moves entirely
 
-**Module 12 — Function Architecture** addresses ownership at function boundaries:
+**Module 12, Function Architecture** addresses ownership at function boundaries:
 
 - Parameter passing guidelines: by value, by reference, by smart pointer
 - Return value optimisation and returning large objects
 - Lambda captures and their interaction with ownership
 - C FFI and passing ownership across language boundaries
 
-**Module 13 — Error Handling and Exception Safety** covers:
+**Module 13, Error Handling and Exception Safety** covers:
 
 - The four exception safety guarantees (no guarantee, basic, strong, nothrow)
 - `noexcept` specifications and their performance implications
@@ -110,7 +110,7 @@ Before starting this part, ensure you understand:
 ### Key Concepts
 
 **RAII (Resource Acquisition Is Initialisation)** is the central C++ idiom for resource management.
-Every resource — heap memory, file descriptors, mutex locks, database connections — should be
+Every resource, heap memory, file descriptors, mutex locks, database connections, should be
 wrapped in a class whose constructor acquires the resource and whose destructor releases it. When
 the object goes out of scope, the destructor is guaranteed to run, even if an exception is thrown.
 
@@ -176,8 +176,8 @@ linked above.
 :::
 ## Related Topics
 
-- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/) — Rust"s compile-time ownership model as an alternative to C++ manual resource management.
-- [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/) — When Rust's safety guarantees are deliberately bypassed.
+- [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust"s compile-time ownership model as an alternative to C++ manual resource management.
+- [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/), When Rust's safety guarantees are deliberately bypassed.
 
 ## See Also
 

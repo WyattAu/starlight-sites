@@ -846,7 +846,7 @@ $z_4 = 2e^{3i\pi/2}$$z_5 = 2e^{11i\pi/6}$.
 
 These lie on a circle of radius 2, at angles $30°, 90°, 150°, 210°, 270°, 330°$.
 
-### Example 8.3: Loci — perpendicular bisector
+### Example 8.3: Loci, perpendicular bisector
 
 **Problem.** Find the Cartesian equation of the locus $|z - 3 - 4i| = |z + 1 - 2i|$.
 
@@ -877,7 +877,7 @@ The line $y = x$ (for $x \geq 0$).
 The required region is the intersection: a segment of the disc in the first quadrant between angles
 $0$ and $\pi/4$.
 
-### Example 8.5: Complex transformation — rotation and enlargement
+### Example 8.5: Complex transformation, rotation and enlargement
 
 **Problem.** The transformation $T$ maps the complex plane by $w = (1+i)z + 2i$. Describe $T$ fully
 And find the image of the line $\mathrm{Re}(z) = 1$.
@@ -1355,7 +1355,7 @@ Concepts appear:
 
 These are mentioned for context and further study.
 
-### 18.4 De Moivre's theorem — number theory applications
+### 18.4 De Moivre's theorem, number theory applications
 
 De Moivre's theorem connects complex numbers to number theory:
 

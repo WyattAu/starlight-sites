@@ -85,7 +85,7 @@ export const flashcard3 = [
   {
     id: 'ib-maths-statistics-012',
     front: 'How do you interpret Pearson’s product-moment correlation coefficient (PMCC), r?',
-    back: 'r ranges from −1 to +1. r = +1: perfect positive linear correlation. r = −1: perfect negative linear correlation. r = 0: no linear correlation. |r| > 0.8: strong correlation. 0.5 < |r| < 0.8: moderate. |r| < 0.5: weak. Always check the scatter plot — r only measures linear association.',
+    back: 'r ranges from −1 to +1. r = +1: perfect positive linear correlation. r = −1: perfect negative linear correlation. r = 0: no linear correlation. |r| > 0.8: strong correlation. 0.5 < |r| < 0.8: moderate. |r| < 0.5: weak. Always check the scatter plot, r only measures linear association.',
     tags: ['correlation', 'PMCC'],
     difficulty: 'medium',
   },

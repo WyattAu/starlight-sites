@@ -95,7 +95,7 @@ void path_composition() {
 
     // On Windows, this correctly produces:
     // C:\home\user\projects\my_app\src\main.cpp
-    // (even if base is C:/home/user — the / operator normalizes separators)
+    // (even if base is C:/home/user, the / operator normalizes separators)
 
     fs::path canonical = fs::canonical(full);
     // Resolves symlinks, removes . and .., produces absolute path
@@ -136,7 +136,7 @@ The library provides two directory iterators [N4950 §30.10.11]:
 | `fs::directory_iterator`           | Iterates over the immediate children of a directory |
 | `fs::recursive_directory_iterator` | Iterates over all descendants recursively           |
 
-Both are input iterators and follow the RAII pattern — they close the directory handle in their
+Both are input iterators and follow the RAII pattern, they close the directory handle in their
 Destructor.
 
 ```cpp
@@ -494,7 +494,7 @@ void canonical_demo() {
     // /home/user/nonexistent/dir/file.txt
     // (assuming /home/user exists but /home/user/nonexistent does not)
 
-    // lexically_normal() is purely string-based — no filesystem access
+    // lexically_normal() is purely string-based, no filesystem access
     fs::path normalized = fs::path("/a/b/../c/./d").lexically_normal();
     std::cout << "Lexically normal: " << normalized << "\n";
     // /a/c/d
@@ -526,7 +526,7 @@ void error_handling_demo() {
         // Error code: system:2 (No such file or directory)
     }
 
-    // Non-throwing overload — returns error code
+    // Non-throwing overload, returns error code
     std::error_code ec;
     fs::file_size(nonexistent, ec);
     if (ec) {
@@ -587,11 +587,11 @@ void atomic_write(const fs::path& target, std::string_view content) {
    caution, and consider tracking visited directories by device/inode to detect cycles.
 
 4. **Path separator on Windows:** `fs::path` uses the preferred separator on construction, but the
-   `/` operator always works on both platforms. Avoid hardcoding `\\` — always use `/` or
+   `/` operator always works on both platforms. Avoid hardcoding `\\`always use `/` or
    `fs::path::preferred_separator`.
 
 5. **`fs::exists` TOCTOU race:** The check `if (fs::exists(p)) fs::remove(p)` is vulnerable to a
-   time-of-check-to-time-of-use (TOCTOU) race — another process may create or delete the file
+   time-of-check-to-time-of-use (TOCTOU) race, another process may create or delete the file
    between the check and the removal. Prefer just performing the operation and handling the error.
 
 6. **File permissions on Windows:** The POSIX permission model does not map cleanly to Windows ACLs.

@@ -58,7 +58,7 @@ Probability quantifies the likelihood of events. This topic covers conditional p
 - Variance: $\text{Var}(X) = E(X^2) - [E(X)]^2$
 - Binomial distribution: $P(X = r) = \binom{n}{r} p^r q^{n-r}$, mean $= np$, variance $= npq$
 
-## Worked Example 1 — Conditional Probability
+## Worked Example 1, Conditional Probability
 
 **Problem:** A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability that both are red.
 
@@ -70,7 +70,7 @@ $$= \frac{5}{8} \times \frac{4}{7} = \frac{20}{56} = \frac{5}{14}$$
 
 **Common mistake:** Treating the draws as independent when they are without replacement. The second draw depends on the first.
 
-## Worked Example 2 — Bayes' Theorem
+## Worked Example 2, Bayes' Theorem
 
 **Problem:** A factory has three machines. Machine A produces 30% of items with 5% defect rate, Machine B produces 45% with 3% defect rate, and Machine C produces 25% with 4% defect rate. An item is selected at random and found to be defective. Find the probability it came from Machine A.
 
@@ -89,7 +89,7 @@ $$P(A|D) = \frac{P(D|A)P(A)}{P(D)} = \frac{0.015}{0.0385} = \frac{15}{38.5} \app
 
 **Common mistake:** Forgetting to use the total probability $P(D)$ in the denominator. Using only $P(D|A)P(A)$ gives the wrong answer.
 
-## Worked Example 3 — Binomial Distribution
+## Worked Example 3, Binomial Distribution
 
 **Problem:** A coin is tossed 5 times. Find the probability of getting exactly 3 heads.
 
@@ -117,11 +117,11 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 
 ## Intuition
 
-**Quantifying uncertainty with numbers:** Probability assigns a number between 0 (impossible) and 1 (certain) to how likely an event is. Conditional probability is like narrowing your focus — "given that it's raining, what's the chance my picnic is ruined?" uses different information than "what's the chance it rains?" Bayes' theorem is the reverse-engineering tool: it takes an observed effect (like a positive test result) and works backward to find the most likely cause (like whether you actually have the disease). The binomial distribution counts successes in a fixed number of independent trials — like flipping a coin 10 times and counting heads.
+**Quantifying uncertainty with numbers:** Probability assigns a number between 0 (impossible) and 1 (certain) to how likely an event is. Conditional probability is like narrowing your focus, "given that it's raining, what's the chance my picnic is ruined?" uses different information than "what's the chance it rains?" Bayes' theorem is the reverse-engineering tool: it takes an observed effect (like a positive test result) and works backward to find the most likely cause (like whether you actually have the disease). The binomial distribution counts successes in a fixed number of independent trials, like flipping a coin 10 times and counting heads.
 
-**Why it matters:** Probability is the language of uncertainty — it underpins statistics, risk assessment, medical diagnosis, weather forecasting, insurance, gambling odds, and machine learning. Bayes' theorem is the foundation of modern AI and medical testing. Without probability, we couldn't make rational decisions under uncertainty.
+**Why it matters:** Probability is the language of uncertainty, it underpins statistics, risk assessment, medical diagnosis, weather forecasting, insurance, gambling odds, and machine learning. Bayes' theorem is the foundation of modern AI and medical testing. Without probability, we couldn't make rational decisions under uncertainty.
 
-**The key insight:** Conditional probability P(A|B) ≠ P(B|A) — "probability of rain given clouds" is very different from "probability of clouds given rain." This asymmetry is why Bayes' theorem is so powerful and so commonly misunderstood.
+**The key insight:** Conditional probability P(A|B) ≠ P(B|A), "probability of rain given clouds" is very different from "probability of clouds given rain." This asymmetry is why Bayes' theorem is so powerful and so commonly misunderstood.
 
 ## Common Exam Patterns
 
@@ -140,7 +140,7 @@ Probability is fundamental to statistics, data science, risk assessment, and dec
 - Mean of binomial: $\mu = np$, Variance: $\sigma^2 = np(1-p)$
 - Variance formula: $\text{Var}(X) = E(X^2) - [E(X)]^2$
 
-## Worked Example 4 — Conditional Probability with Cards
+## Worked Example 4, Conditional Probability with Cards
 
 **Problem:** Two cards are drawn from a standard deck of 52 cards without replacement. Given that the first card is an ace, find the probability that the second card is also an ace.
 
@@ -154,7 +154,7 @@ This is a direct application of conditional probability. The sample space reduce
 
 **Common mistake:** Calculating $\frac{4}{52} \times \frac{3}{51}$ instead of just $\frac{3}{51}$. Since we are given the first card is an ace, we don't multiply by its probability.
 
-## Worked Example 5 — Mean and Variance of Random Variable
+## Worked Example 5, Mean and Variance of Random Variable
 
 **Problem:** A random variable $X$ has the probability distribution:
 
@@ -174,7 +174,7 @@ $$\text{Var}(X) = E(X^2) - [E(X)]^2 = 6.05 - (2.15)^2 = 6.05 - 4.6225 = 1.4275$$
 
 **Common mistake:** Forgetting to square $E(X)$ in the variance formula. $\text{Var}(X) = E(X^2) - [E(X)]^2$, not $E(X^2) - E(X)$.
 
-## Worked Example 6 — Binomial Distribution Application
+## Worked Example 6, Binomial Distribution Application
 
 **Problem:** A survey shows that 60% of students prefer online learning. If 8 students are selected at random, find the probability that exactly 5 prefer online learning. Also find the mean and standard deviation.
 
@@ -198,7 +198,7 @@ Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
 2. Conditional probability problems: identify what is "given" and reduce the sample space accordingly
 3. Binomial distribution requires: fixed number of trials, two outcomes, constant probability, independent trials
 4. When calculating variance, always use $\text{Var}(X) = E(X^2) - [E(X)]^2$ (not $E(X^2) - E(X)$)
-5. Practice problems involving "at least one" — use the complement: $P(\text{at least one}) = 1 - P(\text{none})$
+5. Practice problems involving "at least one", use the complement: $P(\text{at least one}) = 1 - P(\text{none})$
 
 ## Common Mistakes
 

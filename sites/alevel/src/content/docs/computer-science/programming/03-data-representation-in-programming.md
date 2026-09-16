@@ -33,7 +33,7 @@ Programming languages provide integer types of various sizes:
 | int   | 32 bits | $[-2^{31}, 2^{31}-1]$ | $[0, 2^{32}-1]$  |
 | long  | 64 bits | $[-2^{63}, 2^{63}-1]$ | $[0, 2^{64}-1]$  |
 
-Python integers have arbitrary precision — they grow to accommodate any value, limited only by
+Python integers have arbitrary precision, they grow to accommodate any value, limited only by
 Available memory.
 
 ### Floating-Point Representation
@@ -85,7 +85,7 @@ Python does not have explicit pointers. Variables are **references** to objects 
 a = [1, 2, 3]
 b = a       # b references the SAME list object
 b[0] = 99
-print(a)    # [99, 2, 3] — a is also modified!
+print(a)    # [99, 2, 3], a is also modified!
 ```
 
 **Key distinction:**
@@ -363,8 +363,8 @@ deep = copy.deepcopy(original)
 
 original[0][0] = 99
 
-print(shallow)  # [[99, 2], [3, 4]] — modified!
-print(deep)     # [[1, 2], [3, 4]]   — unchanged
+print(shallow)  # [[99, 2], [3, 4]], modified!
+print(deep)     # [[1, 2], [3, 4]], unchanged
 ```
 
 The shallow copy shares the inner lists with the original. The deep copy has independent inner
@@ -411,12 +411,12 @@ Disadvantages?
 2. **Performance:** Concatenation in a loop is $O(n^2)$ without optimisation
 
 ```python
-## Inefficient: O(n^2) — creates new string each iteration
+## Inefficient: O(n^2), creates new string each iteration
 s = ""
 for i in range(1000):
     s += str(i)
 
-# Efficient: O(n) — use join
+# Efficient: O(n), use join
 s = "".join(str(i) for i in range(1000))
 ```
 

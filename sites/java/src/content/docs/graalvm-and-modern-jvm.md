@@ -554,7 +554,7 @@ public class LibCurlExample {
             FunctionDescriptor.of(ValueLayout.ADDRESS)
         );
 
-        // curl_easy_setopt(CURL*, CURLoption, ...) -> CURLcode
+        // curl_easy_setopt(CURL*, CURLoption...) -> CURLcode
         MethodHandle curlEasySetopt = LINKER.downcallHandle(
             CURL.lookup("curl_easy_setopt").orElseThrow(),
             FunctionDescriptor.of(
@@ -1242,11 +1242,11 @@ The native image binary only for integration tests and final validation.
 
 ## Intuition
 
-**GraalVM makes Java compile like Go or Rust:** Instead of running on a virtual machine with slow startup, GraalVM can compile Java ahead-of-time into a standalone native executable. It's like the difference between interpreting a recipe (JVM) versus having a pre-cooked meal (native image) — the native version is ready to eat immediately.
+**GraalVM makes Java compile like Go or Rust:** Instead of running on a virtual machine with slow startup, GraalVM can compile Java ahead-of-time into a standalone native executable. It's like the difference between interpreting a recipe (JVM) versus having a pre-cooked meal (native image), the native version is ready to eat immediately.
 
 **Why it matters:** GraalVM addresses Java's historic weaknesses: slow startup, high memory consumption, and difficult native interop. Native images bring Java into the cloud-native era with sub-second startup and minimal memory footprint, making it competitive with Go and Rust for microservices and CLI tools.
 
-**The key insight:** Native images trade startup speed and peak throughput for fast startup and low memory — they're optimized for short-lived, memory-constrained environments, not long-running servers.
+**The key insight:** Native images trade startup speed and peak throughput for fast startup and low memory, they're optimized for short-lived, memory-constrained environments, not long-running servers.
 
 ## Common Pitfalls
 

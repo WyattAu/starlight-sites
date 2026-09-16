@@ -18,7 +18,7 @@ description: "Study notes for Atmospheric Systems with worked examples, practice
 
 ## Intuition
 
-**The atmosphere is like a giant heat engine — it redistributes solar energy from the equator to the poles through wind, weather, and ocean currents:** Atmospheric systems operate through complex feedback loops where temperature, pressure, and moisture interact to create weather patterns
+**The atmosphere is like a giant heat engine, it redistributes solar energy from the equator to the poles through wind, weather, and ocean currents:** Atmospheric systems operate through complex feedback loops where temperature, pressure, and moisture interact to create weather patterns
 
 **Why it matters:** Understanding atmospheric systems is essential for weather forecasting, climate modeling, and addressing climate change
 

@@ -1,7 +1,7 @@
 ---
 
 title: "Measuring Development"
-description: "IB Economics — GDP, HDI, Gini coefficient, Lorenz curve, composite indicators. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
+description: "IB Economics, GDP, HDI, Gini coefficient, Lorenz curve, composite indicators. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -18,11 +18,11 @@ categories: [ib-economics]
 
 ## Intuition
 
-**Measuring development is like taking a country's vital signs — GDP, HDI, and other indicators reveal the health of an economy:** Development is multidimensional — no single indicator captures the full picture of human progress
+**Measuring development is like taking a country's vital signs, GDP, HDI, and other indicators reveal the health of an economy:** Development is multidimensional, no single indicator captures the full picture of human progress
 
 **Why it matters:** Accurate measurement guides policy decisions and resource allocation for poverty reduction
 
-**The key insight:** Development is multidimensional — no single indicator captures the full picture of human progress
+**The key insight:** Development is multidimensional, no single indicator captures the full picture of human progress
 
 ## Measuring Development
 
@@ -33,7 +33,7 @@ Allow meaningful comparisons by accounting for differences in price levels acros
 
 Limitations of GDP per capita:
 
-- Does not reflect income distribution — a high average can mask severe inequality
+- Does not reflect income distribution, a high average can mask severe inequality
 - Excludes non-market activities (subsistence farming, unpaid care work)
 - Does not account for environmental degradation or resource depletion
 - Says nothing about health, education, or political freedom

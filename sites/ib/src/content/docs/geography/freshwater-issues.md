@@ -25,11 +25,11 @@ relevance.
 
 ## Intuition
 
-**Freshwater is like liquid gold — it covers 70% of Earth's surface, but only 3% is freshwater, and most of that is locked in ice:** Water scarcity is not just about quantity — it's about distribution, quality, and management of this essential resource
+**Freshwater is like liquid gold, it covers 70% of Earth's surface, but only 3% is freshwater, and most of that is locked in ice:** Water scarcity is not just about quantity, it's about distribution, quality, and management of this essential resource
 
 **Why it matters:** Freshwater issues affect billions of people and will intensify with climate change and population growth
 
-**The key insight:** Water scarcity is not just about quantity — it's about distribution, quality, and management of this essential resource
+**The key insight:** Water scarcity is not just about quantity, it's about distribution, quality, and management of this essential resource
 
 ## Contents
 

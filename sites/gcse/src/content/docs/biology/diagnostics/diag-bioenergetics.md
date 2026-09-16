@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Bioenergetics — Diagnostic Tests
+## Bioenergetics, Diagnostic Tests
 
 ## Unit Tests
 
@@ -222,11 +222,11 @@ sustain another trophic level.
 
 ## Intuition
 
-**Energy's journey:** Bioenergetics is like tracking money through an economy — energy flows from the sun through food chains, with each level keeping some and losing the rest as heat.
+**Energy's journey:** Bioenergetics is like tracking money through an economy, energy flows from the sun through food chains, with each level keeping some and losing the rest as heat.
 
 **Why it matters:** Understanding energy transfer explains why food chains are short, why decomposers matter, and how ecosystems sustain themselves.
 
-**The key insight:** Only about 10% of energy transfers between trophic levels — the rest is lost as heat through respiration.
+**The key insight:** Only about 10% of energy transfers between trophic levels, the rest is lost as heat through respiration.
 
 
 ```mermaid

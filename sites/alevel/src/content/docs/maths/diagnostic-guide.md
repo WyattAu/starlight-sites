@@ -514,7 +514,7 @@ Allocate 15%.
 
 $\blacksquare$
 
-### Example 2: Diagnostic Question Analysis — Common Misconception
+### Example 2: Diagnostic Question Analysis, Common Misconception
 
 **Problem.** A student answered: "$\int \sin^2 x\,dx = \frac{\sin^3 x}{3} + c$". Identify and
 correct the error.

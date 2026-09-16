@@ -21,7 +21,7 @@ categories:
 ## Exception vs Error Hierarchy
 
 Dart draws a sharp line between two families of throwable objects: `Exception` and `Error`. This is
-Not a stylistic preference — it is a semantic contract. `Exception` means "something went wrong at
+Not a stylistic preference, it is a semantic contract. `Exception` means "something went wrong at
 Runtime that a caller might reasonably recover from." `Error` means "the program has entered a state
 That indicates a programming bug, and recovery is not safe."
 
@@ -52,10 +52,10 @@ Object
 
 ### The Semantic Distinction
 
-- **`Exception`** — The caller did nothing wrong structurally, but a runtime condition was
+- **`Exception`**, The caller did nothing wrong structurally, but a runtime condition was
   encountered. A file does not exist. A network request timed out. JSON failed to parse. The caller
   can catch this, log it, show a user-facing message, retry, or fall back to a default value.
-- **`Error`** — The program is in a state that should never exist if the code were correct. A null
+- **`Error`**, The program is in a state that should never exist if the code were correct. A null
   dereference where null safety should have prevented it. A stack overflow from infinite recursion.
   An out-of-memory condition. Catching these is dangerous because the program"s internal state is
   unknown and possibly corrupted.
@@ -63,7 +63,7 @@ Object
 ### When to Catch vs Let Propagate
 
 ```dart
-// CORRECT: catch Exception — it represents a runtime condition
+// CORRECT: catch Exception, it represents a runtime condition
 Future<User> fetchUser(int id) async {
   try {
     final response = await http.get(Uri.parse('https://api.example.com/users/$id'));
@@ -78,13 +78,13 @@ Future<User> fetchUser(int id) async {
 // WRONG: catching Error masks programming bugs
 void processList(List<int> items) {
   try {
-    items[999]; // RangeError — this is a bug, not a runtime condition
+    items[999]; // RangeError, this is a bug, not a runtime condition
   } catch (e) {
     print('Handled: $e'); // You just silenced a programming bug
   }
 }
 
-// CORRECT: let Errors propagate — they indicate bugs that must be fixed
+// CORRECT: let Errors propagate, they indicate bugs that must be fixed
 void processList(List<int> items) {
   if (items.isEmpty) return;
   print(items.first); // If items is empty, RangeError surfaces the bug
@@ -117,7 +117,7 @@ try {
 }
 ```
 
-This is preferred when you do not need the exception object — it makes the intent explicit.
+This is preferred when you do not need the exception object, it makes the intent explicit.
 
 ### catch (e, stackTrace) for General Handling
 
@@ -132,7 +132,7 @@ try {
 }
 ```
 
-The second parameter `stackTrace` is optional. If omitted, you lose the stack trace — which is a
+The second parameter `stackTrace` is optional. If omitted, you lose the stack trace, which is a
 Significant loss when debugging.
 
 ### Combining on and catch
@@ -153,7 +153,7 @@ try {
 }
 ```
 
-Dart evaluates `on` clauses in order — first match wins. Always put more specific types before more
+Dart evaluates `on` clauses in order, first match wins. Always put more specific types before more
 General ones.
 
 ### finally Always Runs
@@ -189,12 +189,12 @@ Future<void> processBatch(List<String> urls) async {
         await fetchAndProcess(url);
         processed++;
       } on NetworkException {
-        // Individual failure — log and continue with next URL
+        // Individual failure, log and continue with next URL
         logger.warning('Skipping $url: network failure');
       }
     }
   } catch (e, stackTrace) {
-    // Catastrophic failure — bail out entirely
+    // Catastrophic failure, bail out entirely
     logger.error('Batch processing aborted after $processed items', e, stackTrace);
     rethrow;
   }
@@ -209,7 +209,7 @@ Failures (unrecoverable).
 
 ### Extending Exception
 
-`Exception` is an interface in Dart — any class can implement it. The canonical approach is to
+`Exception` is an interface in Dart, any class can implement it. The canonical approach is to
 Extend `Exception` (or a more specific base) and provide structured context.
 
 ```dart
@@ -263,7 +263,7 @@ class NetworkException extends AppException {
       'NetworkException: $message'
       '${uri != null ? ' (uri=$uri)' : "''}"
       '${statusCode != null ? ' (status=$statusCode)' : "''}"
-      '${cause != null ? ' — caused by $cause' : "''}";
+      '${cause != null ? ', caused by $cause' : "''}";
 }
 
 class ValidationException extends AppException {
@@ -305,13 +305,13 @@ void logAndRethrow() {
     riskyOperation();
   } catch (e) {
     logger.error('Operation failed: $e');
-    throw e; // WRONG — resets the stack trace to THIS line
+    throw e; // WRONG, resets the stack trace to THIS line
   }
 }
 ```
 
-When you `throw e`Dart creates a **new** throw site. The original stack trace — the one that Points
-to the actual bug — is lost. The new stack trace will show `logAndRethrow` as the origin, Which is
+When you `throw e`Dart creates a **new** throw site. The original stack trace, the one that Points
+to the actual bug, is lost. The new stack trace will show `logAndRethrow` as the origin, Which is
 misleading.
 
 ### rethrow Preserves the Original Stack Trace
@@ -322,7 +322,7 @@ void logAndRethrow() {
     riskyOperation();
   } catch (e) {
     logger.error('Operation failed: $e');
-    rethrow; // CORRECT — preserves the original throw site
+    rethrow; // CORRECT, preserves the original throw site
   }
 }
 ```
@@ -355,7 +355,7 @@ Future<User> fetchUser(String id) async {
       cause: e,
     );
   } on SocketException {
-    // Rethrow as-is — stack trace is already meaningful
+    // Rethrow as-is, stack trace is already meaningful
     rethrow;
   }
 }
@@ -366,7 +366,7 @@ Future<User> fetchUser(String id) async {
 ### StackTrace Object
 
 A `StackTrace` is an opaque string-like object representing the call stack at the point of a throw.
-It is not parseable via a structured API — it is a formatted string that you read visually or send
+It is not parseable via a structured API, it is a formatted string that you read visually or send
 To an error reporting service.
 
 ```dart
@@ -413,7 +413,7 @@ void analyzeError(Object error, StackTrace stackTrace) {
 ```
 
 `Chain` also supports folding recursive frames, which compresses tail-recursive call patterns into a
-Single line — significantly more readable for deeply recursive code.
+Single line, significantly more readable for deeply recursive code.
 
 ### Reading Stack Traces
 
@@ -425,9 +425,9 @@ A Dart stack trace frame has the format:
 
 - `#0` is the throw site (innermost frame).
 - Higher numbers are callers further up the stack.
-- `dart:core``dart:async``dart:isolate` frames are VM-internal — skip these when debugging.
-- `package:your_app/` frames are your application code — start here.
-- `package:http/``package:flutter/` frames are third-party — the bug may be in how you called them,
+- `dart:core``dart:async``dart:isolate` frames are VM-internal, skip these when debugging.
+- `package:your_app/` frames are your application code, start here.
+- `package:http/``package:flutter/` frames are third-party, the bug may be in how you called them,
   not in the library itself.
 
 ## Error Handling in Async
@@ -438,12 +438,12 @@ In synchronous code, an uncaught exception crashes the isolate. In async code, t
 On whether the `Future` has an error handler attached:
 
 ```dart
-// Synchronous — crashes immediately
+// Synchronous, crashes immediately
 void main() {
   throw Exception('crash'); // Isolate terminates
 }
 
-// Async — error goes to the zone's error handler, NOT the global handler
+// Async, error goes to the zone's error handler, NOT the global handler
 void main() {
   Future.delayed(Duration(seconds: 1), () {
     throw Exception('async crash');
@@ -485,7 +485,7 @@ Future<int> safeParse(String input) {
 }
 ```
 
-The `test` parameter filters which errors to catch — without it, `catchError` catches
+The `test` parameter filters which errors to catch, without it, `catchError` catches
 **everything**, including `Error` subclasses. Always provide `test` to restrict catching to
 `Exception` types.
 
@@ -524,7 +524,7 @@ void main() {
 
 When a `Future` completes with an error and no `catchError` or `await`+`try/catch` is attached, the
 Error is dispatched to the **enclosing zone's error handler**. The root zone's default handler
-Prints to stderr but does **not** terminate the isolate. This is by design — in a long-running UI
+Prints to stderr but does **not** terminate the isolate. This is by design, in a long-running UI
 Application (Flutter), a single failed network request should not bring down the entire app.
 
 This means uncaught async errors are **silent by default**. The only output is a stderr print. This
@@ -540,7 +540,7 @@ Is why you must either:
 
 ### Errors as Stream Events
 
-In the `Stream` contract, errors are **first-class events** — they are not exceptions. A stream can
+In the `Stream` contract, errors are **first-class events**, they are not exceptions. A stream can
 Deliver multiple errors interleaved with data events. An error event does not terminate a broadcast
 Stream (but it does terminate a single-subscription stream unless handled).
 
@@ -601,7 +601,7 @@ Delivered. If you need to continue after an error, use `handleError` to consume 
 Propagates:
 
 ```dart
-// Without handling — stream dies on first error
+// Without handling, stream dies on first error
 final stream = eventSource(); // Single-subscription
 stream.listen(
   (data) => process(data),
@@ -609,7 +609,7 @@ stream.listen(
 );
 // After first error, no more events arrive
 
-// With handling — stream survives
+// With handling, stream survives
 final stream = eventSource();
 stream
     .handleError((e) => logger.warning(e))
@@ -621,7 +621,7 @@ stream
 
 ### Why Avoid Exceptions for Expected Failures
 
-Exceptions are for **exceptional** conditions — things that should not happen in normal operation.
+Exceptions are for **exceptional** conditions, things that should not happen in normal operation.
 If a user enters an invalid email, that is not exceptional; it is an expected validation outcome.
 Using exceptions for control flow has several problems:
 
@@ -910,14 +910,14 @@ Firebase Crashlytics follows a similar pattern with `FlutterError.onError` and `
 ### 1. Catching Error Instead of Exception
 
 ```dart
-// WRONG — catches StackOverflowError, OutOfMemoryError, etc.
+// WRONG, catches StackOverflowError, OutOfMemoryError, etc.
 try {
   processData(input);
 } catch (e) {
   logger.error(e);
 }
 
-// CORRECT — only catch recoverable exceptions
+// CORRECT, only catch recoverable exceptions
 try {
   processData(input);
 } on AppException catch (e, st) {
@@ -931,7 +931,7 @@ And the program will continue in an undefined state.
 ### 2. Throw e Instead of rethrow
 
 ```dart
-// WRONG — resets the stack trace to this line
+// WRONG, resets the stack trace to this line
 try {
   await fetchFromApi();
 } catch (e) {
@@ -939,7 +939,7 @@ try {
   throw e; // Stack trace now points HERE, not the actual failure
 }
 
-// CORRECT — preserves original stack trace
+// CORRECT, preserves original stack trace
 try {
   await fetchFromApi();
 } catch (e) {
@@ -948,20 +948,20 @@ try {
 }
 ```
 
-If you need to wrap the exception in a new type, pass the original as the `cause` field — but
+If you need to wrap the exception in a new type, pass the original as the `cause` field, but
 Understand that the stack trace of the new throw will be the wrap site.
 
 ### 3. Forgetting the stackTrace Parameter
 
 ```dart
-// WRONG — stack trace is silently discarded
+// WRONG, stack trace is silently discarded
 try {
   riskyOperation();
 } catch (e) {
   reportError(e); // No stack trace!
 }
 
-// CORRECT — capture and forward the stack trace
+// CORRECT, capture and forward the stack trace
 try {
   riskyOperation();
 } catch (e, stackTrace) {
@@ -969,18 +969,18 @@ try {
 }
 ```
 
-Without the stack trace, the error report is nearly useless — you know what failed but not where.
+Without the stack trace, the error report is nearly useless, you know what failed but not where.
 
 ### 4. Unawaited Futures Silently Swallow Errors
 
 ```dart
-// WRONG — the Future's error is dispatched to the zone handler,
+// WRONG, the Future's error is dispatched to the zone handler,
 // which by default only prints to stderr
 void onButtonPressed() {
   saveToDatabase(record); // Not awaited
 }
 
-// CORRECT — handle the error
+// CORRECT, handle the error
 Future<void> onButtonPressed() async {
   try {
     await saveToDatabase(record);
@@ -995,7 +995,7 @@ Enable the `unawaited_futures` lint to catch this at compile time.
 ### 5. Using Exceptions for Control Flow
 
 ```dart
-// WRONG — exceptions are not a control flow mechanism
+// WRONG, exceptions are not a control flow mechanism
 int? findFirst(List<int> items, int target) {
   try {
     return items.firstWhere((x) => x == target);
@@ -1004,7 +1004,7 @@ int? findFirst(List<int> items, int target) {
   }
 }
 
-// CORRECT — use the API designed for this
+// CORRECT, use the API designed for this
 int? findFirst(List<int> items, int target) {
   return items.cast<int?>().firstWhere(
     (x) => x == target,
@@ -1019,12 +1019,12 @@ Stack trace is captured, and the intent is explicit in the return type.
 ### 6. Not Handling Errors in Streams
 
 ```dart
-// WRONG — errors in the stream are silently dispatched to the zone
+// WRONG, errors in the stream are silently dispatched to the zone
 streamController.stream.listen((data) {
   process(data);
 });
 
-// CORRECT — always provide an onError handler
+// CORRECT, always provide an onError handler
 streamController.stream.listen(
   (data) => process(data),
   onError: (error, stackTrace) => logger.error('Stream error', error, stackTrace),
@@ -1034,7 +1034,7 @@ streamController.stream.listen(
 ### 7. Catching Without Specific Types in Public APIs
 
 ```dart
-// WRONG — callers cannot distinguish between failure types
+// WRONG, callers cannot distinguish between failure types
 Future<User> getUser(String id) async {
   try {
     return await api.getUser(id);
@@ -1043,7 +1043,7 @@ Future<User> getUser(String id) async {
   }
 }
 
-// CORRECT — preserve or wrap with domain-specific types
+// CORRECT, preserve or wrap with domain-specific types
 Future<User> getUser(String id) async {
   try {
     return await api.getUser(id);
@@ -1058,14 +1058,14 @@ Future<User> getUser(String id) async {
 ### 8. Missing finally for Resource Cleanup
 
 ```dart
-// WRONG — file handle leaks on exception
+// WRONG, file handle leaks on exception
 void writeLog(String message) async {
   final file = await File('log.txt').open(mode: FileMode.append);
   await file.writeString(message);
   await file.close();
 }
 
-// CORRECT — finally ensures cleanup
+// CORRECT, finally ensures cleanup
 void writeLog(String message) async {
   final file = await File('log.txt').open(mode: FileMode.append);
   try {

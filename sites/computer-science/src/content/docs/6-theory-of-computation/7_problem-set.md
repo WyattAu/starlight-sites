@@ -19,11 +19,11 @@ description: "Construct a DFA over that accepts exactly those strings whose Leng
 
 ## Intuition
 
-**Testing the limits of what's computable:** Problem sets in theory of computation are like puzzles that probe the boundaries of computation — some are solvable with simple machines, some require infinite memory, and some are provably impossible. Working through them builds intuition for what's computationally feasible.
+**Testing the limits of what's computable:** Problem sets in theory of computation are like puzzles that probe the boundaries of computation, some are solvable with simple machines, some require infinite memory, and some are provably impossible. Working through them builds intuition for what's computationally feasible.
 
-**Why it matters:** These problems train you to think about computation abstractly — to see past the code and understand the fundamental limits. This is the knowledge that tells you when to keep searching for an algorithm and when to accept that none exists.
+**Why it matters:** These problems train you to think about computation abstractly, to see past the code and understand the fundamental limits. This is the knowledge that tells you when to keep searching for an algorithm and when to accept that none exists.
 
-**The key insight:** Reductions are the Swiss Army knife of complexity theory — if you can transform problem A into problem B, then B is at least as hard as A. This lets you prove hardness by reduction from known hard problems.
+**The key insight:** Reductions are the Swiss Army knife of complexity theory, if you can transform problem A into problem B, then B is at least as hard as A. This lets you prove hardness by reduction from known hard problems.
 
 ### 7.1 Regular Languages
 
@@ -142,10 +142,10 @@ $\mathrm{coNP} \subseteq \mathrm{NP}$.
 **Problem 19.** (a) Let $w = 0^p 1^p \# 0^p 1^p \in L$. Since $|xy| \leq p$, $y$ is in the first
 $0^p$ block. Pumping down gives $0^{p-k}1^p\#0^p1^p \notin L$. (b)
 $S \to 0S0 \mid 1S1 \mid S\#S \mid \varepsilon$ (generate matched pairs on both sides of $\#$). (c)
-Yes — a TM can check the $\#$ symbol and verify both halves are reverses of each other.
+Yes, a TM can check the $\#$ symbol and verify both halves are reverses of each other.
 
 **Problem 20.** (a) Decidable but not CFL (pumping lemma for CFLs). (b) NP-complete (Hamiltonian
-cycle is NP-complete). (c) NP-complete (vertex cover is NP-complete). (d) Decidable (in fact, in P —
+cycle is NP-complete). (c) NP-complete (vertex cover is NP-complete). (d) Decidable (in fact, in P,
 simulate for 100 steps). (e) PSPACE-complete (TQBF is PSPACE-complete).
 
 ## Common Pitfalls
@@ -153,7 +153,7 @@ simulate for 100 steps). (e) PSPACE-complete (TQBF is PSPACE-complete).
 - **Confusing regular and context-free languages.** Regular: recognised by finite automata (no
   memory). Context-free: recognised by pushdown automata (stack memory). **Fix:**
   $\{a^n b^n : n \geq 0\}$ is context-free but not regular. $\{a^n b^n c^n\}$ is neither.
-- **Wrong halting problem understanding.** The halting problem is undecidable — no algorithm can
+- **Wrong halting problem understanding.** The halting problem is undecidable, no algorithm can
   determine for all programs whether they halt. **Fix:** This is a fundamental limitation; specific
   cases may be decidable, but the general problem is not.
 - **Confusing P and NP.** P: problems solvable in polynomial time (deterministic). NP: solutions

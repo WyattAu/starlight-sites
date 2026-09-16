@@ -92,7 +92,7 @@ Link, or a redirect), the router reacts and rebuilds the widget tree accordingly
 Benefits of the declarative approach:
 
 - **Centralized route table**: Every route and its parameters are declared in one place.
-- **Deep linking is first-class**: A URL directly maps to a route — no manual push choreography
+- **Deep linking is first-class**: A URL directly maps to a route, no manual push choreography
   required.
 - **Predictable back-button behavior**: The router manages the navigation stack based on the
   declarative structure, so the back button always behaves consistently.
@@ -165,8 +165,8 @@ class DetailPage extends StatelessWidget {
 ```
 
 `Navigator.push()` adds a new route to the top of the navigation stack. `Navigator.pop()` removes
-The topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects — the
-**navigation stack** — and only the topmost route is visible.
+The topmost route. Under the hood, `Navigator` maintains an ordered list of `Route` objects, the
+**navigation stack**, and only the topmost route is visible.
 
 ### Passing Data to a Route
 

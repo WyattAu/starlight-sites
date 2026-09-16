@@ -1,6 +1,6 @@
 ---
 title: "Themes"
-description: "Complete guide to themes in Wyatt's Notes — creating, customizing, and using all 11 themes."
+description: "Complete guide to themes in Wyatt's Notes, creating, customizing, and using all 11 themes."
 ---
 
 # Themes

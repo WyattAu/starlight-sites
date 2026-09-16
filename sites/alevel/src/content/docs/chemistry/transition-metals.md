@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+**Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
 ## Transition Metals & Analytical Chemistry
 

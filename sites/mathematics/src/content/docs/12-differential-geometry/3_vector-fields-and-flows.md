@@ -167,7 +167,7 @@ A vector field on a non-compact manifold can be complete (e.g., $X = \partial/\p
 **Mistake 3: Miscomputing the Lie bracket in coordinates**
 The coordinate formula $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$ requires differentiating the *component functions* of $Y$ along $X$ and vice versa. Students frequently differentiate the wrong components or forget that the partial derivatives act on the coefficients, not on the basis vector fields themselves.
 
-A vector field assigns a direction and magnitude to every point of a manifold — like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute — if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
+A vector field assigns a direction and magnitude to every point of a manifold, like a wind map on the Earth's surface. The flow of a vector field is the family of curves that follow these arrows: starting at any point and moving along the field traces out a path. If the field is complete, the flow is defined for all time. The Lie bracket of two vector fields measures how their flows fail to commute, if you flow along $X$ then $Y$, and compare with flowing along $Y$ then $X$, the discrepancy is the Lie bracket $[X, Y]$. Zero bracket means the flows commute, generalising the fact that mixed partial derivatives are equal.
 
 ### 3.9 Practice Problems
 

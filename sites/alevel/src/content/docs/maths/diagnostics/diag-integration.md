@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Integration — Diagnostic Tests
+## Integration, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for integration.
 
-### UT-1: Integration by Parts — Choosing $u$ and $\frac{dv}{dx}$ Correctly
+### UT-1: Integration by Parts, Choosing $u$ and $\frac{dv}{dx}$ Correctly
 
 **Question:**
 
@@ -160,7 +160,7 @@ Third student"s answer: $\frac{\pi}{2} \approx 1.5708$.
 
 $$\text{Percentage error} = \frac{\lvert\frac{\pi}{2} - (\frac{\pi}{2} - 1)\rvert}{\lvert\frac{\pi}{2} - 1\rvert} \times 100\% = \frac{1}{\frac{\pi}{2} - 1} \times 100\% \approx 175.2\%$$
 
-The third student's answer is $175.2\%$ too large — a catastrophic error from omitting a single
+The third student's answer is $175.2\%$ too large, a catastrophic error from omitting a single
 term.
 
 ---

@@ -59,7 +59,7 @@ Alcohols contain $-\text{OH}$ bonded to an sp$^3$ carbon. Phenols have $-\text{O
 - Williamson synthesis: RONa + R'X $\rightarrow$ ROR' (for ethers)
 - Phenol reactions: electrophilic aromatic substitution (bromination, nitration)
 
-## Worked Example 1 — Acidity Comparison
+## Worked Example 1, Acidity Comparison
 
 **Problem:** Arrange ethanol, phenol, and water in decreasing order of acidity.
 
@@ -77,7 +77,7 @@ Decreasing acidity: phenol > water > ethanol
 
 **Common mistake:** Assuming alcohols are more acidic than water. In reality, water is slightly more acidic than most simple alcohols.
 
-## Worked Example 2 — Dehydration of Alcohols
+## Worked Example 2, Dehydration of Alcohols
 
 **Problem:** Write the products of dehydration of 2-methylpropan-2-ol with concentrated H$_2$SO$_4$.
 
@@ -93,7 +93,7 @@ Tertiary alcohols dehydrate most efficiently (most stable carbocation intermedia
 
 **Common mistake:** Using SN2 conditions for tertiary alcohols. Tertiary alcohols undergo E1/SN1, not E2/SN2.
 
-## Worked Example 3 — Williamson Ether Synthesis
+## Worked Example 3, Williamson Ether Synthesis
 
 **Problem:** How would you prepare diethyl ether using Williamson synthesis?
 
@@ -127,7 +127,7 @@ Alcohols are solvents (ethanol, methanol), fuels (methanol), and precursors to m
 - Williamson synthesis: primary halide + alkoxide (avoid elimination)
 - Phenol: activates ring for electrophilic substitution (ortho/para directing)
 
-## Worked Example 4 — Oxidation of Alcohols
+## Worked Example 4, Oxidation of Alcohols
 
 **Problem:** What are the products when (a) propan-1-ol and (b) propan-2-ol are heated with acidified potassium dichromate?
 
@@ -153,13 +153,13 @@ Product: propanone (acetone, a ketone)
 
 **Common mistake:** Forgetting that primary alcohols can be oxidised further to carboxylic acids. To stop at the aldehyde stage, use PCC (pyridinium chlorochromate) as the oxidising agent.
 
-## Worked Example 5 — Esterification
+## Worked Example 5, Esterification
 
 **Problem:** Write the equation for the reaction between ethanol and ethanoic acid in the presence of concentrated sulfuric acid.
 
 **Solution:**
 
-This is a Fischer esterification — a condensation reaction between a carboxylic acid and an alcohol:
+This is a Fischer esterification, a condensation reaction between a carboxylic acid and an alcohol:
 
 $$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightleftharpoons[\Delta]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
 
@@ -169,7 +169,7 @@ The reaction is reversible. Concentrated $\text{H}_2\text{SO}_4$ acts as both a 
 
 **Common mistake:** Forgetting that the reaction is reversible. Using excess alcohol or removing water drives the equilibrium towards ester formation (Le Chatelier's principle).
 
-## Worked Example 6 — Phenol as a Weak Acid
+## Worked Example 6, Phenol as a Weak Acid
 
 **Problem:** Write equations showing the reaction of phenol with (a) NaOH and (b) Na. Explain why phenol does not react with $\text{NaHCO}_3$.
 
@@ -208,11 +208,11 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 
 ## Intuition
 
-**The -OH group is a double-edged sword:** Think of the hydroxyl group as a magnetic pull on electrons. In alcohols, it pulls electron density toward itself, making the O-H bond polar and the carbon slightly positive. This polarity drives most of alcohol chemistry — nucleophiles attack the carbon, acids efficiently donate the proton, and the oxygen can participate in hydrogen bonding.
+**The -OH group is a double-edged sword:** Think of the hydroxyl group as a magnetic pull on electrons. In alcohols, it pulls electron density toward itself, making the O-H bond polar and the carbon slightly positive. This polarity drives most of alcohol chemistry, nucleophiles attack the carbon, acids efficiently donate the proton, and the oxygen can participate in hydrogen bonding.
 
 **Why it matters:** Alcohols are the bridge between simple organic molecules and complex pharmaceuticals. The ability to oxidize, dehydrate, and form ethers makes them essential intermediates in synthesis. Understanding acidity trends helps predict which reactions will work.
 
-**The key insight:** Acidity is really about conjugate base stability — the more stable the anion after losing a proton, the stronger the acid.
+**The key insight:** Acidity is really about conjugate base stability, the more stable the anion after losing a proton, the stronger the acid.
 
 ## Common Mistakes
 

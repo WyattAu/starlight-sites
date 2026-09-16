@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+**Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
-## Alkanes and Alkenes — Diagnostic Tests
+## Alkanes and Alkenes, Diagnostic Tests
 
 ## Unit Tests
 
@@ -488,9 +488,9 @@ The mixture is **ethene** ($\mathrm{C}_2\mathrm{H}_4$) and **butane**
 
 ## Common Mistakes
 
-**Confusing Markovnikov and anti-Markovnikov addition:** Without peroxides, HBr adds Markovnikov — the hydrogen goes to the carbon with more hydrogens, and bromine goes to the more substituted carbon (via the more stable carbocation). With peroxides, the mechanism switches to free radical addition, giving anti-Markovnikov products. Students often forget that the peroxide effect only works with HBr, not HCl or HI.
+**Confusing Markovnikov and anti-Markovnikov addition:** Without peroxides, HBr adds Markovnikov, the hydrogen goes to the carbon with more hydrogens, and bromine goes to the more substituted carbon (via the more stable carbocation). With peroxides, the mechanism switches to free radical addition, giving anti-Markovnikov products. Students often forget that the peroxide effect only works with HBr, not HCl or HI.
 
-**Drawing the bromonium ion as a carbocation intermediate:** When an alkene reacts with bromine, a cyclic bromonium ion forms — not an open carbocation. The bromonium ion explains why bromine adds anti (from opposite sides). Drawing a carbocation would predict a mixture of syn and anti addition, which is incorrect.
+**Drawing the bromonium ion as a carbocation intermediate:** When an alkene reacts with bromine, a cyclic bromonium ion forms, not an open carbocation. The bromonium ion explains why bromine adds anti (from opposite sides). Drawing a carbocation would predict a mixture of syn and anti addition, which is incorrect.
 
 **Forgetting that cracking is done at low pressure to avoid side reactions:** Le Chatelier's principle suggests low pressure favours cracking (more moles of gas on the product side), but the real reason for low pressure is to prevent polymerisation of the alkene products. High pressure would cause the ethene produced to polymerise, reducing the yield of the desired product.
 

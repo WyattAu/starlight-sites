@@ -47,7 +47,7 @@ void main() {
 ### Organizing Tests with group
 
 Groups allow you to nest related tests under a shared setup and teardown. This is not just
-aesthetics — shared setup reduces duplication and ensures each test in the group operates on a
+aesthetics, shared setup reduces duplication and ensures each test in the group operates on a
 consistent state.
 
 ```dart
@@ -92,7 +92,7 @@ void main() {
 
 ### Matchers
 
-The `expect` function pairs a value with a matcher. Matchers are composable — they can be nested,
+The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
 combined with `allOf`, `anyOf`, and negated with `isNot`.
 
 ```dart
@@ -131,8 +131,8 @@ dart test --reporter json  # JSON output for CI pipelines
 ## Mocking
 
 Mocking substitutes real dependencies with test doubles that record interactions and return
-programmed responses. This isolates the unit under test from external state — databases, network
-calls, file systems — making tests deterministic and fast.
+programmed responses. This isolates the unit under test from external state, databases, network
+calls, file systems, making tests deterministic and fast.
 
 ### mockito Package
 
@@ -224,7 +224,7 @@ verify(mockRepo.save(argThat(isA<User>())));
 ## Widget Testing
 
 Widget tests (component tests in Flutter terminology) render a single widget in a test environment
-and verify its behavior — layout, interaction, state changes — without running the full application.
+and verify its behavior, layout, interaction, state changes, without running the full application.
 They are slower than unit tests but orders of magnitude faster than integration tests.
 
 ### Setting Up Widget Tests
@@ -314,7 +314,7 @@ testWidgets('displays data after fetch', (tester) async {
 
 ## Integration Testing
 
-Integration tests run the entire application in a real environment — a simulator, emulator, or
+Integration tests run the entire application in a real environment, a simulator, emulator, or
 physical device. They validate end-to-end flows: navigation, data persistence, network interactions,
 platform channels.
 
@@ -386,7 +386,7 @@ testWidgets('deep link opens correct screen', (tester) async {
 ## Golden Tests
 
 Golden tests capture a rendered widget as an image and compare it against a reference image (the
-golden file). Any visual change — intentional or not — fails the test. This catches regressions that
+golden file). Any visual change, intentional or not, fails the test. This catches regressions that
 no amount of logic testing would detect: padding changes, color shifts, font substitutions, layout
 breaks on different screen sizes.
 
@@ -420,7 +420,7 @@ flutter test --update-goldens test/button_test.dart  # Regenerate specific test
 
 ### Platform-Specific Goldens
 
-Different platforms render differently — text rendering, shadows, and anti-aliasing vary between
+Different platforms render differently, text rendering, shadows, and anti-aliasing vary between
 macOS, Linux, Windows, and mobile. Use platform-specific golden directories:
 
 ```dart
@@ -581,15 +581,15 @@ void main() {
 
 ### When TDD Helps Most
 
-- Public API design — tests clarify the contract before implementation locks it in
-- Complex business logic — state machines, validation rules, calculation engines
-- Error handling paths — edge cases that are hard to reason about without executable examples
-- Refactoring existing code — write tests for the current behavior first, then refactor with safety
+- Public API design, tests clarify the contract before implementation locks it in
+- Complex business logic, state machines, validation rules, calculation engines
+- Error handling paths, edge cases that are hard to reason about without executable examples
+- Refactoring existing code, write tests for the current behavior first, then refactor with safety
 
 ## Code Coverage
 
 Code coverage measures what percentage of your code is exercised by tests. It is a necessary but
-insufficient metric — 100% coverage does not mean 100% correctness, but low coverage is a reliable
+insufficient metric, 100% coverage does not mean 100% correctness, but low coverage is a reliable
 indicator of untested risk.
 
 ### Generating Coverage Reports
@@ -634,10 +634,10 @@ Enforce minimum coverage in CI to prevent regression:
 Coverage numbers are misleading if the tests themselves are weak. A test that calls a function with
 random inputs and asserts nothing will generate coverage but provides no value. Focus on:
 
-- Branch coverage over line coverage — both branches of an if statement should be tested
-- Edge case coverage — empty collections, null inputs, boundary values
-- Integration coverage — are the units wired together correctly?
-- Mutation testing — tools like `mutation_test` flip operators and assertions to check if tests
+- Branch coverage over line coverage, both branches of an if statement should be tested
+- Edge case coverage, empty collections, null inputs, boundary values
+- Integration coverage, are the units wired together correctly?
+- Mutation testing, tools like `mutation_test` flip operators and assertions to check if tests
   catch the change
 
 ## Flutter Testing Patterns
@@ -723,15 +723,15 @@ testWidgets('navigates to detail on tap', (tester) async {
 ## Common Pitfalls
 
 1. **Testing implementation instead of behavior.** If you refactor the internals and tests break,
-   the tests are coupled to implementation. Write tests against the public interface — inputs and
-   outputs — not internal method calls. Verify behavior, not mechanics.
+   the tests are coupled to implementation. Write tests against the public interface, inputs and
+   outputs, not internal method calls. Verify behavior, not mechanics.
 
 2. **Over-mocking.** If every dependency is mocked, tests verify mocks interacting with mocks, not
    the real logic. Mock external boundaries (network, file system, databases). Do not mock the
    domain layer or value objects.
 
 3. **Ignoring async ordering.** `pump()` renders one frame. `pumpAndSettle()` waits for all
-   animations and microtasks. Using the wrong one causes flaky tests — either timing out on infinite
+   animations and microtasks. Using the wrong one causes flaky tests, either timing out on infinite
    animations or not advancing far enough to see state changes.
 
 4. **Test interdependence.** Tests that depend on order, shared mutable state, or external services
@@ -743,7 +743,7 @@ testWidgets('navigates to detail on tap', (tester) async {
    pixel threshold if anti-aliasing varies.
 
 6. **Not testing error paths.** Happy-path tests are easy. Error-path tests. What happens when the
-   network fails, the database is corrupt, the input is malformed — are where the bugs live. Every
+   network fails, the database is corrupt, the input is malformed, are where the bugs live. Every
    test group should have at least one error case.
 
 7. **Coverage without quality.** A high coverage number from low-quality tests provides a false
@@ -767,8 +767,8 @@ Dart and Flutter provide a layered testing framework: unit tests for logic, widg
 components, and integration tests for full application flows. Mocking with mockito isolates units
 from their dependencies. Golden tests catch visual regressions that logic tests cannot. `fakeAsync`
 gives deterministic control over time for testing async code. Coverage tools measure test breadth
-but not depth — pair them with mutation testing and code review. The greatest risk in any testing
-strategy is not what you fail to test, but what you test incorrectly — a false-passing test is worse
+but not depth, pair them with mutation testing and code review. The greatest risk in any testing
+strategy is not what you fail to test, but what you test incorrectly, a false-passing test is worse
 than no test at all.
 
 ## Intuition

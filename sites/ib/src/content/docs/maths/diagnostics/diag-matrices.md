@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Matrices — Diagnostic Tests
+## Matrices, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Matrices are like spreadsheets of numbers with their own arithmetic — they can represent transformations, systems of equations, and data structures:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
+**Matrices are like spreadsheets of numbers with their own arithmetic, they can represent transformations, systems of equations, and data structures:** Matrices encode linear transformations, they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
 
 **Why it matters:** From 3D graphics to machine learning to quantum computing, matrices are the workhorses of modern computation
 
-**The key insight:** Matrices encode linear transformations — they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
+**The key insight:** Matrices encode linear transformations, they can rotate, scale, shear, and project space, making them fundamental to computer graphics and data science
 
 ## Unit Tests
 
@@ -140,7 +140,7 @@ $\begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix}$.
 **(b)** The student is incorrect. While it is true that the eigenvalues of a triangular matrix are
 the diagonal entries, the number of linearly independent eigenvectors is not necessarily equal to
 the number of eigenvalues (counting multiplicity). Here $\lambda = 2$ has algebraic multiplicity $2$
-but geometric multiplicity $1$. The matrix is **defective** — it cannot be diagonalised.
+but geometric multiplicity $1$. The matrix is **defective**, it cannot be diagonalised.
 
 ---
 

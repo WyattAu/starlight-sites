@@ -111,7 +111,7 @@ void writer() {
 
 void reader() {
     while (!flag.load(std::memory_order_relaxed)) {}
-    // RISK: data may still be 0 here — the store to data may not be visible
+    // RISK: data may still be 0 here, the store to data may not be visible
     std::cout << "data = " << data << "\n";
 }
 // This code has a data race on non-atomic 'data' and is undefined behavior.
@@ -358,7 +358,7 @@ architectures.
 Understanding why the ordering costs differ requires understanding the underlying hardware memory
 Models:
 
-**x86 (Total Store Order — TSO):**
+**x86 (Total Store Order, TSO):**
 
 - Loads are never reordered with other loads.
 - Stores are never reordered with other stores.
@@ -439,7 +439,7 @@ non-standard means.
 
 `memory_order_consume` was intended to optimize cases where data dependency ordering is sufficient
 (carries-a-dependency-to). However, it is effectively deprecated because no major compiler
-Implements it correctly — they all promote it to `memory_order_acquire` to avoid the complexity of
+Implements it correctly, they all promote it to `memory_order_acquire` to avoid the complexity of
 Tracking data dependencies through the compiler's intermediate representation.
 
 ```cpp
@@ -485,11 +485,11 @@ The C++26 proposal P0371R3 formalizes the deprecation by recommending that compi
 
 ## Intuition
 
-**Memory orderings are like traffic rules for data:** Relaxed ordering is like a country road with no rules — cars can go任意方向, and you might see them in any order. Acquire/release is like a highway with lanes — you can't pass (reorder) a stop sign. Sequential consistency is like a one-lane bridge — everything goes in a single line, no exceptions. The stronger the ordering, the more rules (and the more expensive the instructions).
+**Memory orderings are like traffic rules for data:** Relaxed ordering is like a country road with no rules, cars can go任意方向, and you might see them in any order. Acquire/release is like a highway with lanes, you can't pass (reorder) a stop sign. Sequential consistency is like a one-lane bridge, everything goes in a single line, no exceptions. The stronger the ordering, the more rules (and the more expensive the instructions).
 
-**Why it matters:** Using the wrong memory ordering is like using a stop sign where you need a traffic light — too weak and you get crashes, too strong and you waste performance. On x86, most orderings are free (the hardware already guarantees them), but on ARM/POWER, each ordering costs real instructions. Understanding the hierarchy lets you write code that's both correct and fast.
+**Why it matters:** Using the wrong memory ordering is like using a stop sign where you need a traffic light, too weak and you get crashes, too strong and you waste performance. On x86, most orderings are free (the hardware already guarantees them), but on ARM/POWER, each ordering costs real instructions. Understanding the hierarchy lets you write code that's both correct and fast.
 
-**The key insight:** Acquire/release creates a synchronizes-with relationship between threads — without it, there's no guarantee that one thread's writes are visible to another thread's reads.
+**The key insight:** Acquire/release creates a synchronizes-with relationship between threads, without it, there's no guarantee that one thread's writes are visible to another thread's reads.
 
 ## Common Pitfalls
 

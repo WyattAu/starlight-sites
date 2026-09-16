@@ -25,7 +25,7 @@ description: "A-Level Psychology Memory notes covering key definitions, core con
 ## Introduction
 
 Memory is the process by which information is encoded, stored, and retrieved. Understanding how
-memory works — and how it fails — is central to cognitive psychology. This section covers the
+memory works, and how it fails, is central to cognitive psychology. This section covers the
 multi-store model, the working memory model, types of long-term memory, theories of forgetting,
 eyewitness testimony, and the cognitive interview.
 
@@ -61,8 +61,8 @@ eyewitness testimony, and the cognitive interview.
   al. (1975) found LTM for Spanish vocabulary lasted over 30 years.
 - **Coding:** Baddeley (1966) found STM uses acoustic coding (confusion between similar-sounding
   words) while LTM uses semantic coding (confusion between similar-meaning words).
-- **Case studies:** HM (Scoville and Milner, 1957) — after bilateral hippocampus removal, HM could
-  not form new long-term memories but his STM was intact. Clive Wearing — viral encephalitis damaged
+- **Case studies:** HM (Scoville and Milner, 1957), after bilateral hippocampus removal, HM could
+  not form new long-term memories but his STM was intact. Clive Wearing, viral encephalitis damaged
   his hippocampus; his STM functioned but he could not transfer information to LTM.
 
 ### The Working Memory Model (WMM)
@@ -80,13 +80,13 @@ multiple components:
    - **Articulatory control process:** Sub-vocal rehearsal (the "inner voice") that maintains
      information by repeating it.
 
-   Evidence: The **word length effect** — people find it harder to recall a list of long words than
+   Evidence: The **word length effect**, people find it harder to recall a list of long words than
    short words because long words take longer to rehearse (Baddeley et al., 1975). The
-   **articulatory suppression effect** — repeating an irrelevant sound blocks the articulatory
+   **articulatory suppression effect**, repeating an irrelevant sound blocks the articulatory
    process, eliminating the word length effect.
 
 3. **Visuospatial sketchpad:** Stores and manipulates visual and spatial information (the "inner
-   eye"). Limited capacity — Logie (1995) estimated approximately 3–4 objects.
+   eye"). Limited capacity, Logie (1995) estimated approximately 3–4 objects.
 
    Evidence: Baddeley et al. (1975) found that a visual task (tracking a spot of light) interfered
    with another visual task but not a verbal task, demonstrating the separation of visual and verbal
@@ -133,11 +133,11 @@ Forgetting occurs because the cues available at retrieval do not match the cues 
 This is based on the **encoding specificity principle** (Tulvin, 1972): a cue needs to be present at
 encoding and retrieval for it to be effective.
 
-- **Context-dependent forgetting:** External environmental cues (e.g., Godden and Baddeley, 1975 —
+- **Context-dependent forgetting:** External environmental cues (e.g., Godden and Baddeley, 1975,
   divers recalled words best in the same environment where they learned them: underwater-underwater
   or dry-dry).
-- **State-dependent forgetting:** Internal physiological cues (e.g., Carter and Cassaday, 1998 —
-  participants recalled more when their learning and recall states matched — antihistamine or
+- **State-dependent forgetting:** Internal physiological cues (e.g., Carter and Cassaday, 1998,
+  participants recalled more when their learning and recall states matched, antihistamine or
   placebo).
 
 ### Eyewitness Testimony (EWT)
@@ -169,7 +169,7 @@ none).
 
 **Factors affecting EWT:**
 
-- **Anxiety:** The **weapon focus effect** (Loftus et al., 1987) — when a weapon is present,
+- **Anxiety:** The **weapon focus effect** (Loftus et al., 1987), when a weapon is present,
   witnesses focus on the weapon rather than the perpetrator, reducing identification accuracy. The
   **Yerkes-Dodson law** suggests moderate anxiety improves recall, but very high anxiety impairs it.
 - **Age:** Children and the elderly are generally less accurate witnesses. Children are more
@@ -317,7 +317,7 @@ system."
 The phonological loop processes auditory and verbal information. It consists of the phonological
 store, which holds speech-based information for approximately two seconds, and the articulatory
 control process, which rehearses information sub-vocally to prevent decay. This explains why we find
-it harder to recall a list of long words compared to short words — the word length effect — because
+it harder to recall a list of long words compared to short words, the word length effect, because
 longer words take more time to rehearse.
 
 The visuospatial sketchpad processes visual and spatial information, such as remembering the layout

@@ -56,7 +56,7 @@ Partitions are numbered after the device name:
 ### Partition Tables
 
 **Definition.** A partition table is a data structure stored at the beginning of a disk that
-Describes the layout of partitions — their starting sectors, sizes, types, and status flags.
+Describes the layout of partitions, their starting sectors, sizes, types, and status flags.
 
 #### MBR (Master Boot Record)
 
@@ -309,7 +309,7 @@ The `mkfs` frontend calls filesystem-specific tools. Always use the specific too
 Control over options.
 
 ```bash
-# ext4 — default on most Linux distributions
+# ext4, default on most Linux distributions
 mkfs.ext4 /dev/sdb1
 mkfs.ext4 -L data_volume /dev/sdb1           # set filesystem label
 mkfs.ext4 -b 4096 /dev/sdb1                  # 4 KiB block size
@@ -319,7 +319,7 @@ mkfs.ext4 -O ^has_journal /dev/sdb1           # disable journal (for SSDs with P
 mkfs.ext4 -E nodiscard /dev/sdb1              # do not discard during mkfs
 mkfs.ext4 -T largefile4 /dev/sdb1             # fewer inodes, optimized for large files
 
-# XFS — default on RHEL/CentOS/Fedora
+# XFS, default on RHEL/CentOS/Fedora
 mkfs.xfs /dev/sdb1
 mkfs.xfs -f /dev/sdb1                        # force (overwrite existing fs)
 mkfs.xfs -L data_volume /dev/sdb1             # set label
@@ -562,7 +562,7 @@ Physical Disks / Partitions
   Logical Volumes (LV)      <-- lvcreate
         |
         v
-  Filesystem (ext4, XFS, ...)  <-- mkfs
+  Filesystem (ext4, XFS...)  <-- mkfs
 ```
 
 **Physical Volume (PV):** A partition or whole disk that has been initialized for LVM use. Each PV
@@ -621,7 +621,7 @@ A typical production layout:
 ```
 :::
 :::note
-Provides a layer of protection — if LVM metadata is corrupted, partition boundaries remain visible
+Provides a layer of protection, if LVM metadata is corrupted, partition boundaries remain visible
 To non-LVM tools for recovery.
 
 ## LVM Operations
@@ -738,7 +738,7 @@ lvchange -ay -K /dev/vg_data/lv_mysql  # ignore monitoring (for broken VG)
 ### Extending Filesystems (Online)
 
 Extending is safe to do online (while mounted). The general process is: extend the underlying
-Storage, then extend the LV, then extend the filesystem. Order matters — the filesystem cannot be
+Storage, then extend the LV, then extend the filesystem. Order matters, the filesystem cannot be
 Larger than the LV.
 
 ```bash
@@ -768,7 +768,7 @@ Common source of errors. The `lvextend -r` shortcut does not work with XFS.
 ### Shrinking Filesystems (Offline)
 
 Shrinking is **not supported online** for most filesystems. The filesystem must be unmounted first.
-The process is: shrink the filesystem, then shrink the LV. Order is reversed from extending — the
+The process is: shrink the filesystem, then shrink the LV. Order is reversed from extending, the
 Filesystem must be smaller than the target LV size.
 
 ```bash
@@ -862,7 +862,7 @@ lvs -o name,lv_attr,snap_percent,origin
 ```
 :::
 :::caution
-Back. Monitor `snap_percent` closely. Overestimate the CoW size — unused CoW space is wasted but
+Back. Monitor `snap_percent` closely. Overestimate the CoW size, unused CoW space is wasted but
 Safe; CoW space that is too small is catastrophic. A good rule of thumb is 10-20% of the origin LV
 Size for low-write volumes, or up to 50% for high-write volumes.
 
@@ -904,7 +904,7 @@ Successful merge.
 
 ### Snapshot Limitations
 
-- Snapshots of the **same origin** share CoW resources — one filling up affects all
+- Snapshots of the **same origin** share CoW resources, one filling up affects all
 - Snapshot performance degrades as CoW area fills (more indirection for lookups)
 - Snapshots cannot be resized (CoW space is fixed at creation)
 - Snapshots cannot be snapshotted (no recursive snapshots)
@@ -1119,7 +1119,7 @@ mdadm --examine /dev/sdb1              # show superblock on a component
 # View array information (human-readable)
 mdadm --query --detail /dev/md0
 
-# Save array configuration (CRITICAL — without this, array won't assemble on boot)
+# Save array configuration (CRITICAL, without this, array won't assemble on boot)
 mdadm --detail --scan >> /etc/mdadm/mdadm.conf
 # or:
 mdadm --detail --scan | tee -a /etc/mdadm/mdadm.conf
@@ -1259,7 +1259,7 @@ swapon --show
 :::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
 The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
-Files may not work at all — use a swap partition or swap file on a loop device instead.
+Files may not work at all, use a swap partition or swap file on a loop device instead.
 
 ### Swappiness
 
@@ -1449,7 +1449,7 @@ du -sh /var/log                      # total size
 du -h --max-depth=1 /var             # one level deep
 du -ah /var/log | sort -rh | head    # largest files
 
-# ncdu — interactive disk usage analyzer
+# ncdu, interactive disk usage analyzer
 ncdu /var
 ncdu -x /                            # stay on same filesystem
 ncdu -e /var                         # enable extended info
@@ -1528,7 +1528,7 @@ cryptsetup luksAddKey /dev/sdb1 /root/luks-key
 # Open with a keyfile
 cryptsetup luksOpen /dev/sdb1 crypt_data --key-file /root/luks-key
 
-# Backup LUKS header (critical — losing header means losing data)
+# Backup LUKS header (critical, losing header means losing data)
 cryptsetup luksHeaderBackup /dev/sdb1 --header-backup-file /root/sdb1.header
 
 # Restore LUKS header
@@ -1781,7 +1781,7 @@ Especially dangerous for long-running snapshots on write-heavy volumes.
 # Monitor snapshot usage
 lvs -o name,snap_percent,origin
 
-# Extend a snapshot (not directly possible — create new snapshot, copy data, remove old)
+# Extend a snapshot (not directly possible, create new snapshot, copy data, remove old)
 # Workaround: create a larger snapshot and migrate
 lvcreate -L 40G -s -n new_snap /dev/vg_data/lv_mysql
 # Copy data from old snapshot if needed, then:
@@ -1816,10 +1816,10 @@ Using `fdisk` or `parted` on a PV that is part of an active VG will corrupt LVM 
 Deactivate the VG first, or use LVM commands for PV operations.
 
 ```bash
-# WRONG — fdisk on an active PV
+# WRONG, fdisk on an active PV
 fdisk /dev/sdb1    # if sdb1 is a PV in an active VG
 
-# CORRECT — deactivate VG first
+# CORRECT, deactivate VG first
 vgchange -a n vg_data
 # Now safe to use fdisk/parted on the PV
 ```

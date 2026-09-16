@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## A Level Physics — Course Overview
+## A Level Physics, Course Overview
 
 A Level Physics is the study of the fundamental laws governing the universe, from the subatomic
 Scale to the cosmological. The course develops mathematical modelling skills, experimental
@@ -37,8 +37,8 @@ Technique, and the ability to reason from first principles.
 | Thermal Physics                   | Paper 2 | CP3      | Paper 2 | P2         |
 | Fields (Gravitational & Electric) | Paper 2 | CP3      | Paper 2 | P4         |
 | Nuclear & Quantum Physics         | Paper 2 | CP3      | Paper 2 | P4         |
-| Astrophysics (Optional)           | Paper 2 | CP5      | Paper 2 | —          |
-| Particle Physics                  | Paper 1 | CP1      | Paper 1 | —          |
+| Astrophysics (Optional)           | Paper 2 | CP5      | Paper 2 |,          |
+| Particle Physics                  | Paper 1 | CP1      | Paper 1 |,          |
 
 ### Course Structure
 
@@ -82,10 +82,10 @@ identify gaps.
 
 ## Cross-References
 
-- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics) — Kinematics, dynamics, and momentum form the foundation of classical mechanics.
-- [Waves](../../../../../hsc/src/content/docs/physics/waves) — Progressive and stationary waves, interference, and diffraction describe oscillatory phenomena.
-- [Electricity](../../../../../gaokao/src/content/docs/physics/electricity) — Current, resistance, and DC circuits are central to understanding electrical systems.
-- [Fields](diagnostics/diag-electric-fields) — Gravitational, electric, and magnetic fields unify the forces acting at a distance.
+- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics), Kinematics, dynamics, and momentum form the foundation of classical mechanics.
+- [Waves](../../../../../hsc/src/content/docs/physics/waves), Progressive and stationary waves, interference, and diffraction describe oscillatory phenomena.
+- [Electricity](../../../../../gaokao/src/content/docs/physics/electricity), Current, resistance, and DC circuits are central to understanding electrical systems.
+- [Fields](diagnostics/diag-electric-fields), Gravitational, electric, and magnetic fields unify the forces acting at a distance.
 
 ### Key Exam Board Differences
 

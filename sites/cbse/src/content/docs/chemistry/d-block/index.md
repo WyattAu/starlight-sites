@@ -58,7 +58,7 @@ D-block elements (transition metals) have partially filled d-orbitals. They exhi
 - Interstitial compounds: small atoms (H, C, N) trapped in metal lattice
 - Alloy formation: similar atomic radii allow substitution
 
-## Worked Example 1 — Electron Configurations
+## Worked Example 1, Electron Configurations
 
 **Problem:** Write the electron configurations and predict the number of unpaired electrons for Ti$^{3+}$, Fe$^{2+}$, and Cu$^{2+}$.
 
@@ -81,7 +81,7 @@ Unpaired electrons: 1
 
 **Common mistake:** Writing Cu as $[\text{Ar}] 3d^9 4s^2$. Copper has the anomalous configuration $[\text{Ar}] 3d^{10} 4s^1$ (fully filled d is more stable).
 
-## Worked Example 2 — Color of Compounds
+## Worked Example 2, Color of Compounds
 
 **Problem:** Explain why Ti$^{3+}$ compounds are purple while Cu$^{2+}$ compounds are blue.
 
@@ -99,7 +99,7 @@ The color depends on:
 
 **Common mistake:** Thinking the color comes from s or p electrons. Transition metal colors arise from d-d transitions.
 
-## Worked Example 3 — Catalytic Properties
+## Worked Example 3, Catalytic Properties
 
 **Problem:** Explain the catalytic role of MnO$_2$ in the decomposition of $\text{H}_2\text{O}_2$.
 
@@ -127,11 +127,11 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 
 ## Intuition
 
-**Colorful metals with multiple personalities:** Transition metals are like actors who can play many roles — iron can be Fe²⁺ or Fe³⁺, copper can be Cu⁺ or Cu²⁺, and manganese can exist in seven different oxidation states. This versatility comes from their partially filled d-orbitals, which are close in energy to the s-orbitals. When light hits a transition metal compound, d-electrons absorb specific wavelengths and jump to higher energy levels — the remaining light gives the compound its characteristic color, like how stained glass filters sunlight into colors.
+**Colorful metals with multiple personalities:** Transition metals are like actors who can play many roles, iron can be Fe²⁺ or Fe³⁺, copper can be Cu⁺ or Cu²⁺, and manganese can exist in seven different oxidation states. This versatility comes from their partially filled d-orbitals, which are close in energy to the s-orbitals. When light hits a transition metal compound, d-electrons absorb specific wavelengths and jump to higher energy levels, the remaining light gives the compound its characteristic color, like how stained glass filters sunlight into colors.
 
 **Why it matters:** Transition metals are the workhorses of industry and biology. Iron carries oxygen in hemoglobin, copper conducts electricity in wires, titanium makes aircraft strong and light, and platinum catalyzes chemical reactions. Understanding d-block chemistry means understanding the elements that build and power our world.
 
-**The key insight:** The anomalous electron configurations of Cr ([Ar]3d⁵4s¹) and Cu ([Ar]3d¹⁰4s¹) occur because half-filled and fully-filled d-orbitals are extra stable — nature always finds the lowest energy arrangement.
+**The key insight:** The anomalous electron configurations of Cr ([Ar]3d⁵4s¹) and Cu ([Ar]3d¹⁰4s¹) occur because half-filled and fully-filled d-orbitals are extra stable, nature always finds the lowest energy arrangement.
 
 ## Common Exam Patterns
 
@@ -151,7 +151,7 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 
 ## Cross-References
 
-- **[Coordination Compounds](../coordination/index):** Crystal field theory explains d-orbital splitting in coordination complexes — connecting d-block properties to coordination chemistry.
+- **[Coordination Compounds](../coordination/index):** Crystal field theory explains d-orbital splitting in coordination complexes, connecting d-block properties to coordination chemistry.
 - **[F-Block Elements](../f-block/index):** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
-- **[Electrochemistry](../electrochemistry/index):** Variable oxidation states enable redox cycling in electrochemical cells — connecting d-block properties to batteries and electrolysis.
-- **[Surface Chemistry](../surface-chemistry/index):** Transition metals are heterogeneous catalysts — their surface properties and d-electrons enable catalytic activity.
+- **[Electrochemistry](../electrochemistry/index):** Variable oxidation states enable redox cycling in electrochemical cells, connecting d-block properties to batteries and electrolysis.
+- **[Surface Chemistry](../surface-chemistry/index):** Transition metals are heterogeneous catalysts, their surface properties and d-electrons enable catalytic activity.

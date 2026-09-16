@@ -80,7 +80,7 @@ while (!pred()) {
 
 ### Why Spurious Wakeups Exist
 
-Spurious wakeups are not a bug — they are a deliberate design choice mandated by hardware and OS
+Spurious wakeups are not a bug, they are a deliberate design choice mandated by hardware and OS
 Constraints:
 
 1. **POSIX allows them**: The POSIX specification for `pthread_cond_wait` explicitly permits
@@ -225,7 +225,7 @@ int main() {
 The predicate version of `wait_for` returns `true` if the predicate became `true` before the
 Timeout, and `false` if the timeout expired (regardless of whether the predicate is true at that
 Point). Without the predicate, `wait_for` returns `cv_status::no_timeout` if notified or
-`cv_status::timeout` if the timeout expired — spurious wakeups return `no_timeout`Which is another
+`cv_status::timeout` if the timeout expired, spurious wakeups return `no_timeout`Which is another
 Reason to always use the predicate version.
 
 ## Producer-Consumer with Condition Variable
@@ -553,11 +553,11 @@ int main() {
 
 ## Intuition
 
-**A condition variable is like a doorbell for a waiting room:** When you're waiting for something to happen (like a package delivery), you don't want to keep checking the door every second. Instead, you ring the doorbell when the package arrives, and the waiting person wakes up. The predicate is like a security check — even if someone rings the bell, you still verify the package is actually there before getting excited (because of spurious wakeups, the doorbell might ring randomly).
+**A condition variable is like a doorbell for a waiting room:** When you're waiting for something to happen (like a package delivery), you don't want to keep checking the door every second. Instead, you ring the doorbell when the package arrives, and the waiting person wakes up. The predicate is like a security check, even if someone rings the bell, you still verify the package is actually there before getting excited (because of spurious wakeups, the doorbell might ring randomly).
 
 **Why it matters:** Condition variables are the bridge between "I need to wait for something" and "I need to be notified when it's ready." Without them, you'd either waste CPU spinning in a loop or miss notifications entirely. They're the backbone of producer-consumer patterns, thread pools, and any scenario where threads need to coordinate based on changing state.
 
-**The key insight:** Always use the predicate version of `wait()` — without it, spurious wakeups will cause your code to process data that isn't actually ready.
+**The key insight:** Always use the predicate version of `wait()`without it, spurious wakeups will cause your code to process data that isn't actually ready.
 
 ## Common Pitfalls
 

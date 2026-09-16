@@ -57,18 +57,18 @@ class Vector:
         self.y = y
 
     def __repr__(self):
-        """Unambiguous — for debugging. Should ideally be eval()-able."""
+        """Unambiguous, for debugging. Should ideally be eval()-able."""
         return f"Vector({self.x!r}, {self.y!r})"
 
     def __str__(self):
-        """Readable — for display."""
+        """Readable, for display."""
         return f"({self.x}, {self.y})"
 
 v = Vector(1.5, 2.5)
 print(repr(v))  # Vector(1.5, 2.5)
 print(str(v))   # (1.5, 2.5)
-print(v)        # (1.5, 2.5) — print() calls __str__
-## In REPL: v shows Vector(1.5, 2.5) — REPL calls __repr__
+print(v)        # (1.5, 2.5), print() calls __str__
+## In REPL: v shows Vector(1.5, 2.5), REPL calls __repr__
 ```
 
 ### \_\_bytes\_\_, \_\_bool\_\_, \_\_len\_\_, \_\_format\_\_
@@ -122,7 +122,7 @@ v1 = Version(1, 2, 3)
 v2 = Version(1, 2, 3)
 print(v1 == v2)      # True
 print(hash(v1) == hash(v2))  # True
-print({v1, v2})      # {Version(1, 2, 3)} — single element, hashable
+print({v1, v2})      # {Version(1, 2, 3)}, single element, hashable
 
 ## Can be used as dict key
 versions = {v1: "stable"}
@@ -207,7 +207,7 @@ class Foot:
             return self.value == other.value * 3.28084
         return NotImplemented
 
-print(Meter(1) == Foot(3.28084))  # True — Meter.__eq__ returns NotImplemented,
+print(Meter(1) == Foot(3.28084))  # True, Meter.__eq__ returns NotImplemented,
                                    # then Python tries Foot.__eq__
 ```
 
@@ -293,7 +293,7 @@ class SortedList:
         return idx < len(self.items) and self.items[idx] == item
 
 sl = SortedList([1, 3, 5, 7, 9])
-print(5 in sl)   # True — uses __contains__ for O(log n) lookup
+print(5 in sl)   # True, uses __contains__ for O(log n) lookup
 print(4 in sl)   # False
 ```
 
@@ -493,8 +493,8 @@ v2 = Vector(3, 4)
 print(v1 + v2)     # Vector(4, 6)
 print(v1 - v2)     # Vector(-2, -2)
 print(v1 * 3)      # Vector(3, 6)
-print(3 * v1)      # Vector(3, 6) — uses __rmul__
-print(v1 * v2)     # 11 — dot product
+print(3 * v1)      # Vector(3, 6), uses __rmul__
+print(v1 * v2)     # 11, dot product
 print(abs(v1))     # 2.236...
 print(-v1)         # Vector(-1, -2)
 ```
@@ -505,7 +505,7 @@ When `a + b` fails because `type(a).__add__` returns `NotImplemented`Python trie
 `type(b).__radd__(a)`. This enables operations with mixed types:
 
 ```python
-print(5 + Vector(1, 2))  # Vector(6, 7) — int.__add__ returns NotImplemented,
+print(5 + Vector(1, 2))  # Vector(6, 7), int.__add__ returns NotImplemented,
                           # then Vector.__radd__ is tried
 ```
 
@@ -594,14 +594,14 @@ class Config:
         self.cache = {}
 
     def __copy__(self):
-        """Shallow copy — new object, shared references."""
+        """Shallow copy, new object, shared references."""
         new = self.__class__.__new__(self.__class__)
         new.data = self.data  # Shared reference
         new.cache = self.cache  # Shared reference
         return new
 
     def __deepcopy__(self, memo):
-        """Deep copy — new object, copied values."""
+        """Deep copy, new object, copied values."""
         new = self.__class__.__new__(self.__class__)
         memo[id(self)] = new
         new.data = copy.deepcopy(self.data, memo)
@@ -614,8 +614,8 @@ deep = copy.deepcopy(original)
 
 original.data["key"].append(4)
 print(original.data["key"])  # [1, 2, 3, 4]
-print(shallow.data["key"])   # [1, 2, 3, 4] — shared
-print(deep.data["key"])      # [1, 2, 3] — independent copy
+print(shallow.data["key"])   # [1, 2, 3, 4], shared
+print(deep.data["key"])      # [1, 2, 3], independent copy
 ```
 
 ## Pickle Protocol
@@ -738,7 +738,7 @@ class Meter:
     def __eq__(self, other):
         if isinstance(other, Meter):
             return self.value == other.value
-        return False  # Wrong — should return NotImplemented
+        return False  # Wrong, should return NotImplemented
 
 class Foot:
     def __eq__(self, other):
@@ -748,8 +748,8 @@ class Foot:
 
 m = Meter(1)
 f = Foot(3.28084)
-print(m == f)  # False — Meter.__eq__ returns False
-print(f == m)  # Could be True — asymmetric!
+print(m == f)  # False, Meter.__eq__ returns False
+print(f == m)  # Could be True, asymmetric!
 ```
 
 Always return `NotImplemented` for unsupported types to enable Python"s fallback mechanism.
@@ -782,7 +782,7 @@ class MutableKey:
 mk = MutableKey(1)
 s = {mk}
 mk.value = 2  # Mutate after insertion
-print(mk in s)  # May be False — hash changed but position didn't
+print(mk in s)  # May be False, hash changed but position didn't
 ```
 
 :::danger
@@ -817,10 +817,10 @@ gc.collect()  # Now __del__ is called
 ### 6. NotImplemented vs NotImplementedError
 
 ```python
-# NotImplemented — sentinel value for comparison operators
+# NotImplemented, sentinel value for comparison operators
 # Return this when the operation is not supported for the given type
 
-# NotImplementedError — exception
+# NotImplementedError, exception
 # Raise this when the operation is abstract and should be implemented by subclasses
 ```
 
@@ -843,7 +843,7 @@ class User:
         self.email = email
 
 u = User("Alice", "alice@example.com")
-print(u)    # <__main__.User object at 0x7f...> — useless in debugging
+print(u)    # <__main__.User object at 0x7f...>, useless in debugging
 print(repr(u))  # Same
 
 # Fix:

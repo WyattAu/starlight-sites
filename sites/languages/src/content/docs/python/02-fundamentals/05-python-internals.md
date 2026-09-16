@@ -686,7 +686,7 @@ class Base:
     pass  # No __slots__ -- instances have __dict__
 
 class Child(Base):
-    __slots__ = ("x",)  # Ineffective! Instances still have __dict__ from Base
+    __slots__ = ("x")  # Ineffective! Instances still have __dict__ from Base
 
 c = Child()
 c.y = 10  # Works -- __dict__ exists from Base
@@ -697,10 +697,10 @@ c.y = 10  # Works -- __dict__ exists from Base
 
 ```python
 class Base:
-    __slots__ = ("a",)
+    __slots__ = ("a")
 
 class Child(Base):
-    __slots__ = ("b",)
+    __slots__ = ("b")
 
 c = Child()
 c.a = 1  # OK (from Base's slots)
@@ -798,7 +798,7 @@ flowchart TD
 
 ## Intuition
 
-CPython is an interpreter, not a compiler. It reads your code, compiles it to bytecode — an intermediate representation — and then executes it one instruction at a time on a virtual machine. This virtual machine is like a stack of plates: operations push results on top and pop operands off. The GIL is a single key to a shared bathroom — only one thread can hold it, so only one thread can execute Python code at a time. Reference counting is Python's memory janitor: every time something points to an object, the refcount goes up; every time it stops pointing, the refcount goes down. When refcount hits zero, the object is immediately cleaned up. This is fast but cannot handle circular references, which is why a periodic garbage collector exists as a backup.
+CPython is an interpreter, not a compiler. It reads your code, compiles it to bytecode, an intermediate representation, and then executes it one instruction at a time on a virtual machine. This virtual machine is like a stack of plates: operations push results on top and pop operands off. The GIL is a single key to a shared bathroom, only one thread can hold it, so only one thread can execute Python code at a time. Reference counting is Python's memory janitor: every time something points to an object, the refcount goes up; every time it stops pointing, the refcount goes down. When refcount hits zero, the object is immediately cleaned up. This is fast but cannot handle circular references, which is why a periodic garbage collector exists as a backup.
 
 ## Common Pitfalls
 
@@ -898,7 +898,7 @@ linked above.
 
 ## Cross-References
 
-- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables) — The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections) — List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow) — Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
-- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter) — Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.
+- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables), The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
+- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
+- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
+- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter), Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.

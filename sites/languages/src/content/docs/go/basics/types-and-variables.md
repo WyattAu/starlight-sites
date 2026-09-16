@@ -305,11 +305,11 @@ type Rune = int32
 
 ## Intuition
 
-**Types are labeled boxes in a warehouse:** Think of Go's type system as a warehouse where every item sits in a labeled box. You can't pour water into a box labeled "sand" — Go forces you to explicitly relabel (convert) before moving data between boxes. Zero values mean every box starts with something reasonable inside, so you never open an empty box by accident.
+**Types are labeled boxes in a warehouse:** Think of Go's type system as a warehouse where every item sits in a labeled box. You can't pour water into a box labeled "sand", Go forces you to explicitly relabel (convert) before moving data between boxes. Zero values mean every box starts with something reasonable inside, so you never open an empty box by accident.
 
 **Why it matters:** Explicit type conversions catch entire classes of bugs at compile time rather than letting silent truncation or reinterpretation corrupt data at runtime. The zero-value guarantee eliminates the "uninitialized variable" category of bugs entirely.
 
-**The key insight:** Go trades a small amount of typing convenience for a large gain in correctness — every conversion is visible, every variable starts sane.
+**The key insight:** Go trades a small amount of typing convenience for a large gain in correctness, every conversion is visible, every variable starts sane.
 
 ## Common Pitfalls
 

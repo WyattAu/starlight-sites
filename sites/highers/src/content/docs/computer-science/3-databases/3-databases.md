@@ -31,7 +31,7 @@ A database is a structured collection of data organised for efficient retrieval 
 
 ## Why This Matters
 
-Databases underpin virtually every digital system — from banking and healthcare to social media and e-commerce. Understanding how data is structured, queried, and protected is essential for any computer scientist. The relational model, SQL, and normalisation concepts taught at Highers level provide the foundation for working with data at any scale.
+Databases underpin virtually every digital system, from banking and healthcare to social media and e-commerce. Understanding how data is structured, queried, and protected is essential for any computer scientist. The relational model, SQL, and normalisation concepts taught at Highers level provide the foundation for working with data at any scale.
 
 ## Key Concepts
 
@@ -39,15 +39,15 @@ Databases underpin virtually every digital system — from banking and healthcar
 - **Primary and foreign keys**: Unique identifiers that establish relationships between tables
 - **Normalisation**: Reducing data redundancy by splitting data into related tables
 - **SQL**: The standard language for querying and manipulating relational data
-- **ACID properties**: Atomicity, Consistency, Isolation, Durability — guarantees for reliable transactions
+- **ACID properties**: Atomicity, Consistency, Isolation, Durability, guarantees for reliable transactions
 
 ## Why This Matters
 
-Databases underpin virtually every digital system — from banking and healthcare to social media and e-commerce. Understanding how data is structured, queried, and protected is essential for any computer scientist. The relational model, SQL, and normalisation concepts taught at Highers level provide the foundation for working with data at any scale.
+Databases underpin virtually every digital system, from banking and healthcare to social media and e-commerce. Understanding how data is structured, queried, and protected is essential for any computer scientist. The relational model, SQL, and normalisation concepts taught at Highers level provide the foundation for working with data at any scale.
 
 ## Practical Applications
 
-- **Banking systems:** ACID transactions ensure money transfers are atomic — either the entire transfer succeeds or none of it does, preventing partial updates that could lose money.
+- **Banking systems:** ACID transactions ensure money transfers are atomic, either the entire transfer succeeds or none of it does, preventing partial updates that could lose money.
 - **Healthcare records:** Normalised databases prevent duplicate patient records while maintaining referential integrity across departments.
 - **E-commerce platforms:** Proper indexing on product catalogs and order tables ensures fast searches even with millions of records.
 

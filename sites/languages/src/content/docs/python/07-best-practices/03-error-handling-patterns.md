@@ -62,7 +62,7 @@ BaseException
 ```
 
 :::note
-`Exception`. This means `except Exception:` does not catch them — which is Correct, since you
+`Exception`. This means `except Exception:` does not catch them, which is Correct, since you
 generally do not want to catch system-level signals.
 :::
 ### Catching by Hierarchy
@@ -145,13 +145,13 @@ class ServerError(Exception):
         self.host = host
         self.port = port
         self.reason = reason
-        super().__init__(f"{host}:{port} — {reason}")
+        super().__init__(f"{host}:{port}, {reason}")
 
     def __repr__(self):
         return f"ServerError({self.host!r}, {self.port!r}, {self.reason!r})"
 
 e = ServerError("db.example.com", 5432, "connection refused")
-print(str(e))   # db.example.com:5432 — connection refused
+print(str(e))   # db.example.com:5432, connection refused
 print(repr(e))  # ServerError("db.example.com', 5432, 'connection refused')
 ```
 
@@ -163,10 +163,10 @@ Chaining and logging.
 
 ### EAFP: Easier to Ask Forgiveness than Permission
 
-The Pythonic approach — try the operation and handle exceptions:
+The Pythonic approach, try the operation and handle exceptions:
 
 ```python
-## EAFP — try and handle
+## EAFP, try and handle
 def get_value(data, key, default=None):
     try:
         return data[key]
@@ -184,7 +184,7 @@ print(get_value(42, "x"))           # None
 Check conditions before operating:
 
 ```python
-## LBYL — check first
+## LBYL, check first
 def get_value_lbyl(data, key, default=None):
     if isinstance(data, dict) and key in data:
         return data[key]
@@ -210,7 +210,7 @@ print(get_value_lbyl({"a": 1}, "b"))   # None
 ```python
 import os
 
-# WRONG — race condition
+# WRONG, race condition
 
 if os.path.exists("config.json"):
     with open("config.json") as f:
@@ -218,7 +218,7 @@ if os.path.exists("config.json"):
 
 # File could be deleted between exists() and open()
 
-# CORRECT — EAFP
+# CORRECT, EAFP
 
 try:
     with open("config.json") as f:
@@ -302,7 +302,7 @@ def process_file(path):
         # Runs only if no exception was raised
         print(f"Processed {len(data)} bytes")
     finally:
-        # Always runs — even if exception was raised or return was called
+        # Always runs, even if exception was raised or return was called
         if f is not None:
             f.close()
 ```
@@ -514,14 +514,14 @@ def binary_search(arr, target):
 ```
 
 :::caution
-The `__debug__` constant. **Never use assertions for data validation or runtime checks** — they are
+The `__debug__` constant. **Never use assertions for data validation or runtime checks**, they are
 For debugging and documenting invariants:
 
 ```python
-# WRONG — assertion disabled in production
+# WRONG, assertion disabled in production
 assert user.is_authenticated, "User must be authenticated"
 
-# CORRECT — explicit check
+# CORRECT, explicit check
 if not user.is_authenticated:
     raise PermissionError("User must be authenticated")
 ```
@@ -547,7 +547,7 @@ def test_config_defaults():
 
 ## Input Validation at Boundaries
 
-Validate input at the edges of your system — API endpoints, file readers, CLI parsers — and trust
+Validate input at the edges of your system, API endpoints, file readers, CLI parsers, and trust
 The data internally:
 
 ```python
@@ -639,7 +639,7 @@ class UserService:
             self._db.delete(user_id)
         except DatabaseError as e:
             logger.exception("Failed to delete user %d", user_id)
-            raise  # Re-raise — let the caller decide what to do
+            raise  # Re-raise, let the caller decide what to do
 
     def sync_user(self, user_id):
         try:
@@ -647,7 +647,7 @@ class UserService:
             self._db.update(user_id, remote_data)
         except NetworkError as e:
             logger.warning("Network error syncing user %d: %s", user_id, e)
-            # Do NOT raise — this is a non-critical background sync
+            # Do NOT raise, this is a non-critical background sync
 ```
 
 :::tip
@@ -695,7 +695,7 @@ class AuthenticationError(UnrecoverableError):
 import time
 import random
 
-def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableError,)):
+def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableError)):
     last_exception = None
     for attempt in range(max_retries):
         try:
@@ -712,30 +712,30 @@ def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableEr
 
 ## Intuition
 
-**Graceful failure:** Error handling is like a safety net — it catches problems before they crash your program. Try-except blocks let you handle unexpected situations gracefully.
+**Graceful failure:** Error handling is like a safety net, it catches problems before they crash your program. Try-except blocks let you handle unexpected situations gracefully.
 
 **Why it matters:** Robust programs handle errors gracefully. Good error handling improves user experience and makes debugging easier.
 
-**The key insight:** Catch specific exceptions, not generic ones — this lets you handle different errors appropriately.
+**The key insight:** Catch specific exceptions, not generic ones, this lets you handle different errors appropriately.
 
 ## Common Pitfalls
 
 ### 1. Catching Too Broadly
 
 ```python
-# BAD — catches everything including KeyboardInterrupt
+# BAD, catches everything including KeyboardInterrupt
 try:
     process_data()
 except:
     pass
 
-# BAD — still too broad
+# BAD, still too broad
 try:
     process_data()
 except Exception:
     pass
 
-# GOOD — specific exceptions
+# GOOD, specific exceptions
 try:
     process_data()
 except (ValueError, FileNotFoundError, json.JSONDecodeError) as e:
@@ -746,13 +746,13 @@ except (ValueError, FileNotFoundError, json.JSONDecodeError) as e:
 ### 2. Losing the Stack Trace
 
 ```python
-# BAD — raises new exception without chaining
+# BAD, raises new exception without chaining
 try:
     json.loads(data)
 except json.JSONDecodeError:
     raise ValueError("Invalid data")  # Original traceback lost
 
-# GOOD — use raise from
+# GOOD, use raise from
 try:
     json.loads(data)
 except json.JSONDecodeError as e:
@@ -762,14 +762,14 @@ except json.JSONDecodeError as e:
 ### 3. Using Exceptions for Control Flow
 
 ```python
-# BAD — exceptions for normal flow
+# BAD, exceptions for normal flow
 def get_first(items):
     try:
         return items[0]
     except IndexError:
         return None
 
-# GOOD — use the appropriate method
+# GOOD, use the appropriate method
 def get_first(items):
     return items[0] if items else None
 ```

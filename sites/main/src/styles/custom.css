@@ -1019,7 +1019,7 @@ html {
 }
 
 /* === Section Dividers === */
-/* Removed — caused blank space before demos grid */
+/* Removed, caused blank space before demos grid */
 
 /* === Card subtle entrance (respecting reduced motion) === */
 @keyframes cardFadeIn {

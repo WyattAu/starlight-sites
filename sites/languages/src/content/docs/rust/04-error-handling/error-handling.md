@@ -22,7 +22,7 @@ Failures).
 
 ### Panics
 
-Panics are for unrecoverable programming errors — the kind of bugs where the program cannot continue
+Panics are for unrecoverable programming errors, the kind of bugs where the program cannot continue
 Correctly. When a panic occurs, the runtime unwinds the stack (by default), calling destructors for
 All live values, and then aborts the thread (or the process in `panic = "abort"` mode).
 
@@ -77,18 +77,18 @@ assert!(result.is_err());
 
 :::caution
 Across FFI boundaries (panics through C callbacks are undefined behavior). It is also not a
-Substitute for proper error handling — use it sparingly, for plugin systems or process Isolation.
+Substitute for proper error handling, use it sparingly, for plugin systems or process Isolation.
 
 ## `unwrap` and `expect`
 
 ```rust
 let some_value: Option<i32> = Some(42);
-some_value.unwrap();    // 42 — panics on None
-some_value.expect("value should exist");  // 42 — panics with message on None
+some_value.unwrap();    // 42, panics on None
+some_value.expect("value should exist");  // 42, panics with message on None
 
 let result: Result<i32, &str> = Ok(10);
-result.unwrap();        // 10 — panics on Err
-result.expect("parse should succeed"); // 10 — panics with message on Err
+result.unwrap();        // 10, panics on Err
+result.expect("parse should succeed"); // 10, panics with message on Err
 ```
 :::
 :::tip
@@ -124,7 +124,7 @@ x.and_then(|n| {
 ```
 
 `map` transforms the inner value if `Some`Passes through `None`. `and_then` (also known as `flatMap`
-or `bind`) chains operations that may fail — if the first operation returns `None`The Entire chain
+or `bind`) chains operations that may fail, if the first operation returns `None`The Entire chain
 short-circuits.
 
 ### `unwrap_or` and `unwrap_or_else`
@@ -132,7 +132,7 @@ short-circuits.
 ```rust
 let x: Option<i32> = None;
 
-x.unwrap_or(0);              // 0 — always evaluated
+x.unwrap_or(0);              // 0, always evaluated
 x.unwrap_or_else(|| {
     println!("computing default");
     expensive_computation()   // only evaluated for None
@@ -213,7 +213,7 @@ for value in y {
 let r: Result<i32, &str> = Ok(42);
 
 r.map(|n| n * 2);          // Ok(84)
-r.map_err(|e| e.to_string()); // Ok(42) — map_err transforms the error
+r.map_err(|e| e.to_string()); // Ok(42), map_err transforms the error
 
 let e: Result<i32, &str> = Err("bad input");
 e.map_err(|e| format!("error: {}", e)); // Err("error: bad input")
@@ -230,7 +230,7 @@ fn validate(n: i32) -> Result<i32, &str> {
     if n >= 0 { Ok(n) } else { Err("negative") }
 }
 
-// Chaining with and_then — short-circuits on Err
+// Chaining with and_then, short-circuits on Err
 let result = parse("42").and_then(validate); // Ok(42)
 let result = parse("abc").and_then(validate); // Err("not a number")
 let result = parse("-5").and_then(validate); // Err("negative")
@@ -257,7 +257,7 @@ assert_eq!(r.unwrap_or_default(), ""); // String::default() == ""
 
 ### `inspect` and `inspect_err`
 
-`inspect` allows you to examine a `Result` without changing it — useful for logging:
+`inspect` allows you to examine a `Result` without changing it, useful for logging:
 
 ```rust
 let r: Result<i32, ParseIntError> = "42".parse();
@@ -414,7 +414,7 @@ impl From<std::num::ParseIntError> for AppError {
 This is verbose but gives full control. Each `From` implementation enables the `?` operator for that
 Error type.
 
-### `thiserror` — Derive Macro for Errors
+### `thiserror`Derive Macro for Errors
 
 The `thiserror` crate eliminates the boilerplate:
 
@@ -485,7 +485,7 @@ enum AppError {
 `#[error(transparent)]` forwards the inner error's `Display` message directly, making the wrapper
 Error invisible in error reports.
 
-## `anyhow` — Ergonomic Error Handling for Applications
+## `anyhow`Ergonomic Error Handling for Applications
 
 `anyhow` is designed for application code (binaries, CLIs) where you want to propagate errors with
 Context without defining custom error enums for every function.
@@ -599,7 +599,7 @@ let results: Vec<Result<i32, &str>> = vec!["1", "2", "three", "4"]
     .map(|s| s.parse::<i32>().map_err(|_| "not a number"))
     .collect();
 
-// Collect into Result<Vec<T>, E> — stops at first error
+// Collect into Result<Vec<T>, E>, stops at first error
 let results: Result<Vec<i32>, &str> = vec!["1", "2", "three", "4"]
     .iter()
     .map(|s| s.parse::<i32>().map_err(|_| "not a number"))
@@ -607,7 +607,7 @@ let results: Result<Vec<i32>, &str> = vec!["1", "2", "three", "4"]
 // Err("not a number")
 ```
 
-### Error Recovery — `filter_map` and `partition`
+### Error Recovery, `filter_map` and `partition`
 
 When you want to skip failures instead of propagating them:
 
@@ -654,7 +654,7 @@ pub trait Error: Debug + Display {
 }
 ```
 
-Implementing `Error` is optional — any type implementing `Debug + Display` can be used as an error.
+Implementing `Error` is optional, any type implementing `Debug + Display` can be used as an error.
 But implementing `Error` enables `source()` chaining and compatibility with `anyhow`.
 
 ### Error Chains and `std::error::Error::source()`
@@ -712,7 +712,7 @@ while let Some(source) = cause.source() {
 }
 ```
 
-### `eyre` — Alternative to `anyhow`
+### `eyre`Alternative to `anyhow`
 
 `eyre` is a fork of `anyhow` with better customization for error reports:
 
@@ -756,7 +756,7 @@ Output (JSON, colored terminal output, etc.) without changing error propagation 
 
 ```rust
 fn process(data: &HashMap<String, Vec<i32>>) -> i32 {
-    let values = data.get("key").expect("key must exist — invariant checked by caller");
+    let values = data.get("key").expect("key must exist, invariant checked by caller");
     values.iter().sum()
 }
 ```
@@ -765,7 +765,7 @@ fn process(data: &HashMap<String, Vec<i32>>) -> i32 {
 
 The `Error` trait has evolved across Rust editions:
 
-### Rust 1.81+ — `Error::provide` and `std::error::Request`
+### Rust 1.81+, `Error::provide` and `std::error::Request`
 
 Rust 1.81 stabilized the `provide` method, which allows errors to provide type-erased context data:
 
@@ -809,7 +809,7 @@ fn handle_error(err: &dyn Error) {
 ## Common Pitfalls
 
 1. **Using `unwrap()` on external input.** Parsing user input, reading files, making network
-   requests — all of these can fail in expected ways. Always use `?` or explicit error handling for
+   requests, all of these can fail in expected ways. Always use `?` or explicit error handling for
    these operations.
 
 2. **Swallowing errors with `let _ =`.** Writing `let _ = result` silently discards the error. At
@@ -824,7 +824,7 @@ fn handle_error(err: &dyn Error) {
    propagation, error chain walking, and `anyhow` compatibility.
 
 5. **Over-engineering error types in applications.** In a binary, you rarely need to match on
-   specific error variants — you just need to report them to the user or log them. Use `anyhow` with
+   specific error variants, you just need to report them to the user or log them. Use `anyhow` with
    `.context()` and avoid defining large error enums unless you have a specific need.
 
 6. **Mixing `Result` and `Option` without conversion.** Calling `?` on a `Result` inside an `Option`

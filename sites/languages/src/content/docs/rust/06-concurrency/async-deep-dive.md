@@ -129,7 +129,7 @@ impl<'a> Future for FetchDataFuture<'a> {
                         Poll::Pending => return Poll::Pending,
                     }
                 }
-                State2 { future, .. } => {
+                State2 { future.. } => {
                     match Pin::new(future).poll(cx) {
                         Poll::Ready(Ok(body)) => {
                             *self = Resolved;
@@ -156,7 +156,7 @@ State is saved across yield points so execution can resume from where it left of
 
 ### Why Pin Exists
 
-The compiler-generated state machine for async blocks can contain self-referential data — a field
+The compiler-generated state machine for async blocks can contain self-referential data, a field
 That points to another field within the same struct. If the struct were moved, the pointer would
 Become invalid. `Pin` prevents the wrapped value from being moved after it has been pinned.
 
@@ -194,7 +194,7 @@ impl SelfReferential {
 
 ### `Unpin`
 
-Most types are `Unpin` — they can be safely moved even when pinned. Types that are self-referential
+Most types are `Unpin`they can be safely moved even when pinned. Types that are self-referential
 (like the compiler-generated state machine for async blocks) are `!Unpin`:
 
 ```rust
@@ -291,7 +291,7 @@ async fn main() {
 }
 ```
 
-`tokio::spawn` creates a new task (not an OS thread). Tasks are cooperatively scheduled — they yield
+`tokio::spawn` creates a new task (not an OS thread). Tasks are cooperatively scheduled, they yield
 Control at `.await` points.
 
 ## Async I/O
@@ -351,7 +351,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
 ### Drop-Based Cancellation
 
-In Rust, dropping a future cancels it. There is no explicit cancellation token — if you drop the
+In Rust, dropping a future cancels it. There is no explicit cancellation token, if you drop the
 `JoinHandle`The task continues running but its result is ignored:
 
 ```rust
@@ -364,7 +364,7 @@ let handle = tokio::spawn(async {
 
 tokio::time::sleep(Duration::from_millis(500)).await;
 drop(handle);
-// The task is NOT cancelled — it continues running in the background
+// The task is NOT cancelled, it continues running in the background
 ```
 
 To truly cancel a task, use `tokio::select!` with a cancellation signal or `CancellationToken`:
@@ -425,7 +425,7 @@ async fn with_cleanup(resource_id: &str) {
     };
 
     do_work().await;
-    // _guard dropped here — cleanup runs
+    // _guard dropped here, cleanup runs
 }
 ```
 
@@ -520,7 +520,7 @@ async fn fetch_with_timeout(url: &str) -> Result<String, reqwest::Error> {
 
 ### Streams
 
-Streams are the async equivalent of iterators — they produce a sequence of values over time:
+Streams are the async equivalent of iterators, they produce a sequence of values over time:
 
 ```rust
 use tokio_stream::StreamExt;
@@ -614,9 +614,9 @@ async fn main() {
 
 Common non-`Send` types:
 
-- `Rc<T>` — use `Arc<T>` instead
-- `&RefCell<T>` — use `Arc<Mutex<T>>` or `Arc<tokio::sync::Mutex<T>>`
-- `*const T` / `*mut T` — raw pointers are not `Send` by default
+- `Rc<T>`use `Arc<T>` instead
+- `&RefCell<T>`use `Arc<Mutex<T>>` or `Arc<tokio::sync::Mutex<T>>`
+- `*const T` / `*mut T`raw pointers are not `Send` by default
 
 ## Common Pitfalls
 
@@ -649,7 +649,7 @@ Common non-`Send` types:
    handle the error or use a supervision mechanism.
 
 7. **`tokio::sync::Mutex` vs `std::sync::Mutex`.** `tokio::sync::Mutex` is designed for async
-   contexts — its `lock()` method returns a future. `std::sync::Mutex` blocks the thread. Use
+   contexts, its `lock()` method returns a future. `std::sync::Mutex` blocks the thread. Use
    `tokio::sync::Mutex` when the critical section contains `.await`And `std::sync::Mutex` when the
    critical section is short and synchronous.
 
@@ -879,12 +879,12 @@ Tokio tasks are lightweight (a few hundred bytes), but creating millions of task
 Batch work into larger tasks when possible:
 
 ```rust
-// Less efficient — one task per item
+// Less efficient, one task per item
 for item in items {
     tokio::spawn(process(item));
 }
 
-// More efficient — batch processing
+// More efficient, batch processing
 tokio::spawn(async move {
     for item in items {
         process(item).await;
@@ -907,12 +907,12 @@ let (tx, rx) = tokio::sync::mpsc::channel(128);
 ### Avoiding allocations in Hot Paths
 
 ```rust
-// Bad — allocates a new String for each message
+// Bad, allocates a new String for each message
 async fn send_message(tx: &mpsc::Sender<String>, msg: &str) {
     tx.send(msg.to_string()).await.unwrap();
 }
 
-// Better — use Arc to share the allocation
+// Better, use Arc to share the allocation
 async fn send_message(tx: &mpsc::Sender<Arc<String>>, msg: Arc<String>) {
     tx.send(msg).await.unwrap();
 }

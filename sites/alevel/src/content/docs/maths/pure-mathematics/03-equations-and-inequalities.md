@@ -283,7 +283,7 @@ _Proof._ Since $a, b > 0$ and $a < b$: $\frac{1}{a} - \frac{1}{b} = \frac{b - a}
 $b - a > 0$ and $ab > 0$The result is positive. So $\frac{1}{a} > \frac{1}{b}$. $\blacksquare$
 
 _Intuition._ Consider $a = 2$$b = 4$. Then $\frac{1}{2} > \frac{1}{4}$. The smaller the positive
-Number, the larger its reciprocal — like how slicing a cake into more pieces makes each piece
+Number, the larger its reciprocal, like how slicing a cake into more pieces makes each piece
 Smaller.
 
 <hr />
@@ -980,7 +980,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions) — Factorisation and the factor theorem are used to solve polynomial equations in this topic.
-- [Quadratics](02-quadratics) — Quadratic inequalities and the discriminant extend the quadratic equations covered there.
-- [Coordinates and Geometry](04-coordinates-and-geometry) — Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
-- [Proof](13-proof) — The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.
+- [Algebraic Expressions](01-algebraic-expressions), Factorisation and the factor theorem are used to solve polynomial equations in this topic.
+- [Quadratics](02-quadratics), Quadratic inequalities and the discriminant extend the quadratic equations covered there.
+- [Coordinates and Geometry](04-coordinates-and-geometry), Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
+- [Proof](13-proof), The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.

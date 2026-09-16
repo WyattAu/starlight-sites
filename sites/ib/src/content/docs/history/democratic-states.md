@@ -6,7 +6,7 @@ tags:
   - IB History
 categories:
   - IB History
-description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges —"
+description: "This document covers the IB History topic on Democratic States for Paper 2. It examines three case studies of democratic states facing severe challenges,"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -21,8 +21,8 @@ description: "This document covers the IB History topic on Democratic States for
 ## Democratic States: Challenges and Crises (1918--1939)
 
 This document covers the IB History topic on Democratic States for Paper 2. It examines three case
-studies of democratic states facing severe challenges — Weimar Germany, the United States during the
-Great Depression, and the Spanish Second Republic — and analyses the conditions that enabled
+studies of democratic states facing severe challenges, Weimar Germany, the United States during the
+Great Depression, and the Spanish Second Republic, and analyses the conditions that enabled
 democratic systems to survive or collapse. Comparative analysis and historiographical perspectives
 are integrated throughout.
 
@@ -43,13 +43,13 @@ are integrated throughout.
 
 - Established in the town of Weimar (not Berlin) in August 1919, amid political instability
 - Key features:
-  - **President**: elected every seven years, with extensive emergency powers under Article 48 —
+  - **President**: elected every seven years, with extensive emergency powers under Article 48,
     could rule by decree in times of crisis
-  - **Reichstag**: elected by proportional representation — ensured fair representation but produced
+  - **Reichstag**: elected by proportional representation, ensured fair representation but produced
     fragmented parliaments with many small parties
   - **Chancellor**: appointed by the President, required the confidence of the Reichstag
   - **Bill of Rights**: guaranteed civil liberties, freedom of speech, assembly, and religion
-  - **Article 48**: the most significant weakness — allowed the President to suspend civil liberties
+  - **Article 48**: the most significant weakness, allowed the President to suspend civil liberties
     and rule by decree, and was used increasingly from 1930 onwards
 - Strengths: democratic, progressive, included welfare provisions, gave women the vote
 - Weaknesses: proportional representation encouraged extremism; Article 48 undermined parliamentary
@@ -60,18 +60,18 @@ are integrated throughout.
 **Political Violence and Extremism**
 
 - The new republic faced violent opposition from both left and right
-- **Left-wing threats**: Spartacist Uprising (January 1919) — communist revolt suppressed by the
+- **Left-wing threats**: Spartacist Uprising (January 1919), communist revolt suppressed by the
   Freikorps (paramilitary units); the Bavarian Soviet Republic (April 1919)
-- **Right-wing threats**: the Kapp Putsch (March 1920) — right-wing attempt to overthrow the
+- **Right-wing threats**: the Kapp Putsch (March 1920), right-wing attempt to overthrow the
   government; political assassinations (Matthias Erzberger, Walther Rathenau)
 - The judiciary was biased towards the right: left-wing offenders received harsh sentences,
   right-wing offenders received lenient treatment
 
 **The Treaty of Versailles**
 
-- The treaty was deeply unpopular — the "war guilt clause" (Article 231), reparations, territorial
+- The treaty was deeply unpopular, the "war guilt clause" (Article 231), reparations, territorial
   losses, and military restrictions were seen as a national humiliation
-- The government was associated with the treaty — politicians were called the "November Criminals"
+- The government was associated with the treaty, politicians were called the "November Criminals"
 - The stab-in-the-back myth (Dolchstosslegende) blamed the civilian government for Germany"s defeat,
   undermining the legitimacy of the republic
 
@@ -79,7 +79,7 @@ are integrated throughout.
 
 - Germany defaulted on reparations payments in 1922; France and Belgium occupied the Ruhr in
   response
-- The government ordered passive resistance and printed money to support workers — triggering
+- The government ordered passive resistance and printed money to support workers, triggering
   hyperinflation
 - By November 1923, the exchange rate was 4.2 trillion marks to the dollar
 - Savings were destroyed; the middle class was ruined; social unrest intensified
@@ -92,7 +92,7 @@ are integrated throughout.
 - No party ever won a majority in the Reichstag; coalition governments were unstable and short-lived
 - Between 1919 and 1933, there were 20 different cabinets
 - Extremist parties (NSDAP and KPD) gained ground as the moderate parties lost support
-- Voter turnout was high — people had not lost faith in democracy itself, but in the specific
+- Voter turnout was high, people had not lost faith in democracy itself, but in the specific
   parties that had governed under the Weimar system
 
 ### 1.3 The Stresemann Era (1923--1929)
@@ -108,7 +108,7 @@ are integrated throughout.
   - **Young Plan (1929)**: further reduced and restructured reparations
 - The period 1924--1929 was one of relative stability and economic recovery
 - Cultural flowering: Berlin became a centre of art, cinema, literature, and nightlife
-- However, recovery depended on American loans — this proved fragile when the Great Depression hit
+- However, recovery depended on American loans, this proved fragile when the Great Depression hit
 
 ### 1.4 Collapse of the Weimar Republic
 
@@ -124,7 +124,7 @@ are integrated throughout.
 - Hitler was appointed Chancellor on 30 January 1933 by Hindenburg, who was persuaded by
   conservative elites
 - Within months, the Enabling Act (March 1933) effectively ended the Weimar Republic
-- The Weimar Republic did not collapse because democracy was inherently flawed — it was destroyed by
+- The Weimar Republic did not collapse because democracy was inherently flawed, it was destroyed by
   a combination of economic crisis, political miscalculation, and the deliberate actions of its
   enemies
 
@@ -148,7 +148,7 @@ are integrated throughout.
 - The 1920s saw unprecedented economic growth: GDP grew by approximately 40% between 1920 and 1929
 - Mass production (assembly lines, e.g., Ford's Model T) made consumer goods affordable
 - Consumer credit and hire purchase enabled widespread consumption
-- The stock market boomed — share prices rose by 300% between 1925 and 1929
+- The stock market boomed, share prices rose by 300% between 1925 and 1929
 - New industries: automobiles, radios, electrical appliances, aviation
 - Construction boom: skyscrapers, suburbs, highways
 
@@ -182,7 +182,7 @@ are integrated throughout.
 
 **Causes**
 
-- **Stock market crash** (October 1929): the bubble burst — share prices collapsed by 89% by 1932
+- **Stock market crash** (October 1929): the bubble burst, share prices collapsed by 89% by 1932
 - **Overproduction**: industrial and agricultural output exceeded demand
 - **Unequal distribution of wealth**: the top 5% of earners received 33% of all income
 - **Weak banking system**: thousands of banks failed; deposits were uninsured
@@ -205,7 +205,7 @@ are integrated throughout.
 - Limited intervention: the Reconstruction Finance Corporation (1932) provided loans to banks and
   businesses
 - The Bonus Army (1932): WWI veterans marched on Washington demanding early payment of bonuses;
-  Hoover ordered the army to disperse them — a public relations disaster
+  Hoover ordered the army to disperse them, a public relations disaster
 - Hoover's inaction made him a symbol of government indifference to suffering
 
 ### 2.3 The New Deal
@@ -217,30 +217,30 @@ are integrated throughout.
 
 **First New Deal (1933--1934)**
 
-- **Banking**: Emergency Banking Act (1933) — bank holiday; the FDIC insured deposits; restored
+- **Banking**: Emergency Banking Act (1933), bank holiday; the FDIC insured deposits; restored
   confidence
-- **Agriculture**: Agricultural Adjustment Act (AAA) — paid farmers to reduce production to raise
+- **Agriculture**: Agricultural Adjustment Act (AAA), paid farmers to reduce production to raise
   prices
-- **Industry**: National Industrial Recovery Act (NIRA) — established industry codes for wages,
+- **Industry**: National Industrial Recovery Act (NIRA), established industry codes for wages,
   hours, and prices (later declared unconstitutional)
-- **Employment**: Civilian Conservation Corps (CCC) — employed young men in conservation projects;
-  Public Works Administration (PWA) — funded large-scale public works
-- **Relief**: Federal Emergency Relief Administration (FERA) — provided direct relief to the
+- **Employment**: Civilian Conservation Corps (CCC), employed young men in conservation projects;
+  Public Works Administration (PWA), funded large-scale public works
+- **Relief**: Federal Emergency Relief Administration (FERA), provided direct relief to the
   unemployed
 
 **Second New Deal (1935--1938)**
 
 - **Social Security Act (1935)**: established old-age pensions, unemployment insurance, and aid to
-  dependent children — the most significant and lasting achievement of the New Deal
+  dependent children, the most significant and lasting achievement of the New Deal
 - **Wagner Act (1935)**: protected workers' rights to organise and bargain collectively; led to a
   surge in union membership
-- **Works Progress Administration (WPA)**: the largest New Deal employment programme — employed
+- **Works Progress Administration (WPA)**: the largest New Deal employment programme, employed
   millions in construction, arts, and public service projects
 - **Wealth Tax Act (1935)**: increased taxes on the wealthy
 
 **Limitations of the New Deal**
 
-- Did not end the Great Depression — unemployment remained at 14% in 1937
+- Did not end the Great Depression, unemployment remained at 14% in 1937
 - The "Roosevelt Recession" (1937--1938) occurred when FDR cut spending prematurely
 - Many groups were left out or discriminated against: African Americans, women, migrant workers
 - New Deal programmes were sometimes declared unconstitutional by the Supreme Court (NIRA, AAA)
@@ -253,7 +253,7 @@ are integrated throughout.
 - It established the principle that the federal government had a responsibility for economic
   management and social welfare
 - It preserved American democracy at a time when authoritarianism was on the rise in Europe
-- WWII, not the New Deal, ultimately ended the Great Depression — but the New Deal provided the
+- WWII, not the New Deal, ultimately ended the Great Depression, but the New Deal provided the
   institutional framework that made recovery possible
 
 ---
@@ -276,10 +276,10 @@ are integrated throughout.
 - The Second Spanish Republic was declared on 14 April 1931
 - A new constitution was drafted (1931) with progressive reforms:
   - Separation of church and state
-  - Land reform — redistribution to peasants
+  - Land reform, redistribution to peasants
   - Regional autonomy (particularly for Catalonia and the Basque Country)
-  - Military reform — reducing the power and privileges of the officer corps
-  - Educational reform — expanding secular education
+  - Military reform, reducing the power and privileges of the officer corps
+  - Educational reform, expanding secular education
   - Women's suffrage granted
 - The reforms were opposed by conservatives: the Church, landowners, the military, and the Falange
   (fascist party)
@@ -308,7 +308,7 @@ are integrated throughout.
     (volunteers from 53 countries), and Mexico
   - **Nationalists**: supported by Germany (Condor Legion, air support), Italy (100,000 troops), and
     Portugal
-- Britain and France pursued a policy of non-intervention — but this favoured the Nationalists, who
+- Britain and France pursued a policy of non-intervention, but this favoured the Nationalists, who
   received far more foreign support
 
 **Key Events**
@@ -323,7 +323,7 @@ are integrated throughout.
 **The Republic's Defeat**
 
 - The Republic was weakened by internal divisions: communists vs anarchists vs socialists vs
-  republicans — they fought each other as much as the Nationalists
+  republicans, they fought each other as much as the Nationalists
 - The May Events in Barcelona (1937): fighting between communists and anarchists
 - The Nationalists were more united under Franco's leadership
 - Franco captured Barcelona (January 1939) and Madrid (March 1939)
@@ -340,7 +340,7 @@ are integrated throughout.
   - One-party state (Falange merged with traditionalist elements)
   - Censorship and repression: political prisoners, executions, concentration camps
   - Catholic Church was restored to a privileged position
-  - Regional autonomy was abolished — centralised rule from Madrid
+  - Regional autonomy was abolished, centralised rule from Madrid
   - Spain remained neutral during WWII but sympathetic to the Axis
   - Economic isolation gradually lifted in the 1950s; economic growth in the 1960s
   - Transition to democracy after Franco's death (1975)

@@ -89,7 +89,7 @@ r.start()
 ## When the main thread exits, daemon threads are killed immediately
 ## Regular threads keep the process alive
 r.join()  # Wait for regular thread
-# Program exits here — daemon thread is terminated
+# Program exits here, daemon thread is terminated
 ```
 
 :::caution
@@ -112,8 +112,8 @@ def increment(n):
             counter += 1
 
 threads = [
-    threading.Thread(target=increment, args=(100000,)),
-    threading.Thread(target=increment, args=(100000,)),
+    threading.Thread(target=increment, args=(100000)),
+    threading.Thread(target=increment, args=(100000)),
 ]
 
 for t in threads:
@@ -124,7 +124,7 @@ for t in threads:
 print(f"Counter: {counter}")  # Counter: 200000
 ```
 
-Without the lock, `counter += 1` is not atomic — it involves reading, incrementing, and writing,
+Without the lock, `counter += 1` is not atomic, it involves reading, incrementing, and writing,
 Which can be interleaved between threads.
 
 ### RLock (Reentrant Lock)
@@ -141,9 +141,9 @@ def outer():
 
 def inner():
     with lock:
-        print("inner acquired — same thread, reentrant")
+        print("inner acquired, same thread, reentrant")
 
-outer()  # Works fine — RLock allows same thread to re-acquire
+outer()  # Works fine, RLock allows same thread to re-acquire
 ```
 
 | Feature               | `Lock`         | `RLock`                  |
@@ -173,7 +173,7 @@ def access_resource(thread_id):
         time.sleep(2)
     print(f"Thread {thread_id} released")
 
-threads = [threading.Thread(target=access_resource, args=(i,)) for i in range(6)]
+threads = [threading.Thread(target=access_resource, args=(i)) for i in range(6)]
 for t in threads:
     t.start()
 for t in threads:
@@ -197,8 +197,8 @@ def setter():
     print("Setting event")
     event.set()
 
-w1 = threading.Thread(target=waiter, args=("W1",))
-w2 = threading.Thread(target=waiter, args=("W2",))
+w1 = threading.Thread(target=waiter, args=("W1"))
+w2 = threading.Thread(target=waiter, args=("W2"))
 s = threading.Thread(target=setter)
 
 w1.start()
@@ -264,7 +264,7 @@ def phase(thread_id):
     barrier.wait()
     print(f"Thread {thread_id} done")
 
-threads = [threading.Thread(target=phase, args=(i,)) for i in range(3)]
+threads = [threading.Thread(target=phase, args=(i)) for i in range(3)]
 for t in threads:
     t.start()
 for t in threads:
@@ -310,7 +310,7 @@ if __name__ == "__main__":
     start = time.time()
     processes = []
     for i in range(4):
-        p = multiprocessing.Process(target=compute, args=(10_000_000,))
+        p = multiprocessing.Process(target=compute, args=(10_000_000))
         processes.append(p)
         p.start()
     for p in processes:
@@ -389,8 +389,8 @@ def receiver(conn):
 
 if __name__ == "__main__":
     parent_conn, child_conn = multiprocessing.Pipe()
-    p1 = multiprocessing.Process(target=sender, args=(child_conn,))
-    p2 = multiprocessing.Process(target=receiver, args=(parent_conn,))
+    p1 = multiprocessing.Process(target=sender, args=(child_conn))
+    p2 = multiprocessing.Process(target=receiver, args=(parent_conn))
 
     p1.start()
     p2.start()
@@ -456,12 +456,12 @@ from concurrent.futures import ThreadPoolExecutor
 def process(item):
     return item * 2
 
-# map — simple, ordered, blocks until all complete
+# map, simple, ordered, blocks until all complete
 with ThreadPoolExecutor(max_workers=3) as executor:
     results = list(executor.map(process, range(5)))
     print(results)  # [0, 2, 4, 6, 8]
 
-# submit — more control, unordered results
+# submit, more control, unordered results
 with ThreadPoolExecutor(max_workers=3) as executor:
     futures = [executor.submit(process, i) for i in range(5)]
     for future in futures:
@@ -529,7 +529,7 @@ lq = queue.LifoQueue()
 lq.put(1)
 lq.put(2)
 lq.put(3)
-print(lq.get())  # 3 — last in, first out
+print(lq.get())  # 3, last in, first out
 print(lq.get())  # 2
 ```
 
@@ -713,7 +713,7 @@ def consumer(worker_id):
             break
 
 producers = [threading.Thread(target=producer) for _ in range(2)]
-consumers = [threading.Thread(target=consumer, args=(i,)) for i in range(5)]
+consumers = [threading.Thread(target=consumer, args=(i)) for i in range(5)]
 
 for p in producers: p.start()
 time.sleep(0.1)
@@ -754,7 +754,7 @@ print(f"Collected metrics from {len(all_metrics)} servers")
 
 ## Intuition
 
-Concurrency is about doing many things at once, but Python's GIL means threads cannot truly execute Python code in parallel. Think of threads like workers sharing a single tool — they can take turns using it, but only one can hold the tool at a time. Multiprocessing gives each worker their own tool, but now they cannot efficiently share notes. Locks are like traffic lights at an intersection — they prevent crashes by ensuring only one direction moves at a time. The event loop is a single waiter serving many tables — they take orders from one table, start it cooking, then move to the next while the first one waits. The right concurrency model depends on whether your bottleneck is waiting for external systems or crunching numbers.
+Concurrency is about doing many things at once, but Python's GIL means threads cannot truly execute Python code in parallel. Think of threads like workers sharing a single tool, they can take turns using it, but only one can hold the tool at a time. Multiprocessing gives each worker their own tool, but now they cannot efficiently share notes. Locks are like traffic lights at an intersection, they prevent crashes by ensuring only one direction moves at a time. The event loop is a single waiter serving many tables, they take orders from one table, start it cooking, then move to the next while the first one waits. The right concurrency model depends on whether your bottleneck is waiting for external systems or crunching numbers.
 
 ## Common Pitfalls
 
@@ -812,7 +812,7 @@ t.start()
 ```python
 import threading
 
-counter = 0  # Shared mutable state — no lock!
+counter = 0  # Shared mutable state, no lock!
 
 def increment():
     global counter
@@ -823,7 +823,7 @@ threads = [threading.Thread(target=increment) for _ in range(4)]
 for t in threads: t.start()
 for t in threads: t.join()
 
-print(f"Counter: {counter}")  # NOT 400000 — likely less due to races
+print(f"Counter: {counter}")  # NOT 400000, likely less due to races
 ```
 
 ### 4. Multiprocessing with Lambdas
@@ -831,7 +831,7 @@ print(f"Counter: {counter}")  # NOT 400000 — likely less due to races
 ```python
 from concurrent.futures import ProcessPoolExecutor
 
-# This fails — lambdas are not picklable by default
+# This fails, lambdas are not picklable by default
 # executor = ProcessPoolExecutor()
 # executor.submit(lambda x: x * 2, 5)  # PicklingError
 
@@ -886,7 +886,7 @@ def heavy_computation(n):
         total += i ** 2
     return total
 
-# Wrong: ThreadPoolExecutor for CPU-bound work — GIL prevents parallelism
+# Wrong: ThreadPoolExecutor for CPU-bound work, GIL prevents parallelism
 with ThreadPoolExecutor(max_workers=8) as executor:
     results = list(executor.map(heavy_computation, [10_000_000] * 8))
 
@@ -900,12 +900,12 @@ with ProcessPoolExecutor(max_workers=8) as executor:
 ```python
 import threading
 
-# print() is NOT atomic — output from multiple threads may interleave
+# print() is NOT atomic, output from multiple threads may interleave
 def noisy_worker(thread_id):
     for _ in range(100):
         print(f"[{thread_id}] message")
 
-threads = [threading.Thread(target=noisy_worker, args=(i,)) for i in range(5)]
+threads = [threading.Thread(target=noisy_worker, args=(i)) for i in range(5)]
 for t in threads: t.start()
 for t in threads: t.join()
 # Output may have garbled lines like: [1] mes[2] message

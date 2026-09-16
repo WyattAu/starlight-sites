@@ -191,7 +191,7 @@ This shows that the second law is not absolute but statistical: fluctuations can
 Decrease entropy, but the probability of a macroscopic fluctuation is exponentially small in $N$.
 
 <details>
-<summary>Solution: Worked Example — Response Functions for an Ideal Gas</summary>
+<summary>Solution: Worked Example, Response Functions for an Ideal Gas</summary>
 
 For an ideal gas $PV = Nk_B T$:
 
@@ -270,7 +270,7 @@ These relations allow us to express unmeasurable quantities (entropy changes) in
 ones (equations of state).
 
 <details>
-<summary>Solution: Worked Example — Free Energy Minimisation</summary>
+<summary>Solution: Worked Example, Free Energy Minimisation</summary>
 
 A gas cylinder at $T = 300$ K is divided by a frictionless piston. Side $A$ has volume $V_A = 1$ L
 With $N_A = 0.04$ mol of ideal gas. Side $B$ has volume $V_B = 3$ L with $N_B = 0.02$ mol of ideal
@@ -392,7 +392,7 @@ $$\left(\frac{\partial U}{\partial V}\right)_T = T \cdot \frac{Nk_B}{V} - \frac{
 This confirms that the internal energy of an ideal gas depends only on $T$ (Joule's law).
 
 <details>
-<summary>Solution: Worked Example — Maxwell Relation for a Van der Waals Gas</summary>
+<summary>Solution: Worked Example, Maxwell Relation for a Van der Waals Gas</summary>
 
 For a van der Waals gas $\left(P + a/v^2\right)(v - b) = RT$ where $v = V/n$:
 
@@ -644,7 +644,7 @@ This explains why water boils at a lower temperature at high altitude.
 </details>
 
 <details>
-<summary>Solution: Solid-Liquid Coexistence — Pressure Melting of Ice</summary>
+<summary>Solution: Solid-Liquid Coexistence, Pressure Melting of Ice</summary>
 
 For the ice-water transition: $L_f = 6008$ J/mol, $T_m = 273.15$ K,
 $\Delta V = V_{\mathrm{water} - V_{\mathrm{ice} = 18.0 \times 10^{-6} - 19.7 \times 10^{-6}
@@ -936,7 +936,7 @@ $$D = \mu k_B T$$
 This is a consequence of the fluctuation-dissipation theorem.
 
 <details>
-<summary>Solution: Worked Example — Viscosity of Nitrogen</summary>
+<summary>Solution: Worked Example, Viscosity of Nitrogen</summary>
 
 For N$_2$ at $T = 273$ K: $m = 4.65 \times 10^{-26}$ kg, $d = 3.7 \times 10^{-10}$ m.
 
@@ -1228,7 +1228,7 @@ $\blacksquare$
 **Historical note.** Planck originally derived this result in 1900 by interpolating between the
 Rayleigh-Jeans law (valid at low frequencies, $u(\omega) \propto \omega^2$) and Wien's law (valid At
 high frequencies, $u(\omega) \propto \omega^3 e^{-\beta\hbar\omega}$). The Rayleigh-Jeans law Leads
-to the "ultraviolet catastrophe" — infinite total energy — which Planck resolved by Postulating that
+to the "ultraviolet catastrophe", infinite total energy, which Planck resolved by Postulating that
 energy is quantised in units of $\hbar\omega$.
 
 ### 13.5 Derivation of the Stefan-Boltzmann Law
@@ -1275,7 +1275,7 @@ $\lambda_{\mathrm{max} T
 = hc/(4.965\,k_B) = b}$. $\blacksquare$
 
 <details>
-<summary>Solution: Worked Example — Temperature of the Sun's Surface</summary>
+<summary>Solution: Worked Example, Temperature of the Sun's Surface</summary>
 
 The Sun's emission peaks at $\lambda_{\mathrm{max} \approx 502}$ nm (green). Using Wien’s law:
 
@@ -1467,7 +1467,7 @@ $$P(E_S) \propto e^{-E_S/(k_B T)} = e^{-\beta E_S}$$
 Normalising gives the Boltzmann distribution $P_i = e^{-\beta E_i}/Z$. $\blacksquare$
 
 <details>
-<summary>Solution: Worked Example — Entropy of Mixing Revisited</summary>
+<summary>Solution: Worked Example, Entropy of Mixing Revisited</summary>
 
 Two ideal gases, each with $N$ particles at the same $T$ and $P$Are separated by a partition. The
 partition is removed. Find $\Delta S$.
@@ -1490,7 +1490,7 @@ partition function automatically resolves this paradox.
 
 </details>
 
-## 16. The Canonical Ensemble — Detailed Treatment
+## 16. The Canonical Ensemble, Detailed Treatment
 
 ### 16.1 Derivation of Thermodynamic Quantities
 
@@ -1918,7 +1918,7 @@ $$\kappa = \frac{1}{3}n\langle v\rangle\lambda_{\mathrm{mfp} \cdot \frac{3}{2}k_
 
 $$= \frac{1}{2} \times 2.69 \times 10^{25} \times 1.381 \times 10^{-23} \times 398 \times 6.5 \times 10^{-8} \approx 0.019\ \mathrm{W}/(m \cdot K)$$
 
-The experimental value is approximately 0.018 W/(m$\cdot$K) — reasonable agreement for the
+The experimental value is approximately 0.018 W/(m$\cdot$K), reasonable agreement for the
 hard-sphere Model.
 
 **If you get this wrong, revise:** Section 9.5 (kinetic theory, transport properties).
@@ -1963,7 +1963,7 @@ $$\langle N^2 \rangle - \langle N \rangle^2 = \langle N \rangle$$
 $$\frac{\sqrt{\langle N^2 \rangle - \langle N \rangle^2}}{\langle N \rangle} = \frac{1}{\sqrt{\langle N \rangle}}$$
 
 For $\langle N \rangle = 10^{23}$: relative fluctuations are $\sim 10^{-11.5}$Completely negligible
-— the grand canonical and canonical ensembles are equivalent for macroscopic systems.
+- the grand canonical and canonical ensembles are equivalent for macroscopic systems.
 
 **If you get this wrong, revise:** Section 11.3 (grand canonical fluctuations) and Section 12
 (fluctuation-dissipation theorem).
@@ -2029,7 +2029,7 @@ Have both kinetic and potential energy terms. Electronic and rotational degrees 
 :::
 :::caution
 Distinguishable. Always include the $1/N!$ factor in the partition function for identical particles.
-This is not an optional correction — it is required by quantum mechanics (indistinguishability of
+This is not an optional correction, it is required by quantum mechanics (indistinguishability of
 Identical particles) and ensures that entropy is extensive.
 :::
 ## 13. Nonequilibrium Thermodynamics

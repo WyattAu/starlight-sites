@@ -19,11 +19,11 @@ description: "Development is a multidimensional concept encompassing economic pr
 
 ## Intuition
 
-**Measuring development is like taking a country's vital signs — GDP, life expectancy, literacy, and HDI are the pulse, temperature, and blood pressure of nations:** Development is multidimensional — no single indicator captures the full picture of a country's progress and well-being
+**Measuring development is like taking a country's vital signs, GDP, life expectancy, literacy, and HDI are the pulse, temperature, and blood pressure of nations:** Development is multidimensional, no single indicator captures the full picture of a country's progress and well-being
 
 **Why it matters:** Accurate measurement of development guides international aid, policy decisions, and our understanding of global inequality
 
-**The key insight:** Development is multidimensional — no single indicator captures the full picture of a country's progress and well-being
+**The key insight:** Development is multidimensional, no single indicator captures the full picture of a country's progress and well-being
 
 ## The Challenge of Measurement
 

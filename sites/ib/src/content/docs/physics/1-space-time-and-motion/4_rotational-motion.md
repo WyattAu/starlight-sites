@@ -96,7 +96,7 @@ Always directed toward the centre of the circular path (radially inward).
 :::
 :::caution
 <strong>Exam Tip</strong>
-Centripetal force is NOT a new force — it is the NET force toward the centre provided by existing
+Centripetal force is NOT a new force, it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
 Separate force on a free-body diagram.
 

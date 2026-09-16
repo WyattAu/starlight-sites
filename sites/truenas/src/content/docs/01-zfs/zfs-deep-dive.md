@@ -328,9 +328,9 @@ Datasets.
 zfs get arcstats 2>/dev/null || cat /proc/spl/kstat/zfs/arcstats
 
 # Key metrics:
-# arc_hits    — Cache hits
-# arc_misses  — Cache misses
-# arc_hit_ratio — Percentage of reads served from cache
+# arc_hits, Cache hits
+# arc_misses, Cache misses
+# arc_hit_ratio, Percentage of reads served from cache
 ```
 
 ### L2ARC (Level 2 ARC)
@@ -343,7 +343,7 @@ Slower pool disks.
 **L2ARC considerations:**
 
 - L2ARC is read-through, not write-through. Data is written to L2ARC only when evicted from ARC.
-- The L2ARC does not speed up writes — only reads.
+- The L2ARC does not speed up writes, only reads.
 - L2ARC requires significant ARC space to be effective. The ARC metadata for tracking L2ARC entries
   consumes RAM.
 - L2ARC is most effective when the working set is larger than ARC but smaller than ARC + L2ARC.
@@ -548,7 +548,7 @@ Reducing performance by 50–80%. Always use `ashift=12` or higher.
 
 ZFS pools become fragmented over time due to the copy-on-write nature. Fragmentation above 70–80%
 Can significantly reduce performance, especially for random read workloads. Monitor fragmentation
-With `zpool list -v`. There is no native defragmentation tool for ZFS — the only way to defragment
+With `zpool list -v`. There is no native defragmentation tool for ZFS, the only way to defragment
 Is to copy the data to a new pool. Regular snapshot pruning and avoiding small random writes on HDD
 Pools help keep fragmentation manageable.
 

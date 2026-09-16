@@ -13,7 +13,7 @@ import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 :::note
 <strong>Historical Context</strong>
-Memory alignment is a consequence of how hardware accesses memory. In the 1970s-80s, processors like the Motorola 68000 required aligned access and raised hardware exceptions (bus errors) for misaligned reads. Modern x86 processors handle misaligned access transparently (with a performance penalty), but ARM processors — which power every smartphone — still raise SIGBUS for misaligned access on some configurations. The C language was designed in 1972 when alignment was a hardware constraint, so C's struct layout rules encode alignment directly. C++ inherited these rules. Understanding alignment is critical for systems programming because: (1) padding wastes memory, (2) false sharing on cache lines degrades multi-threaded performance, and (3) network protocols require specific alignment for zero-copy I/O.
+Memory alignment is a consequence of how hardware accesses memory. In the 1970s-80s, processors like the Motorola 68000 required aligned access and raised hardware exceptions (bus errors) for misaligned reads. Modern x86 processors handle misaligned access transparently (with a performance penalty), but ARM processors, which power every smartphone, still raise SIGBUS for misaligned access on some configurations. The C language was designed in 1972 when alignment was a hardware constraint, so C's struct layout rules encode alignment directly. C++ inherited these rules. Understanding alignment is critical for systems programming because: (1) padding wastes memory, (2) false sharing on cache lines degrades multi-threaded performance, and (3) network protocols require specific alignment for zero-copy I/O.
 :::
 In C++, `sizeof(T)` is rarely equal to the sum of the sizes of its members. The compiler inserts
 Invisible bytes known as **Padding** between members to satisfy **Alignment Requirements**.
@@ -298,7 +298,7 @@ Defined:
 
 struct Example \{
     unsigned int a : 10;  // 10 bits
-    unsigned int b : 10;  // 10 bits — may or may not straddle the 16-bit boundary
+    unsigned int b : 10;  // 10 bits, may or may not straddle the 16-bit boundary
     unsigned int c : 10;  // 10 bits
     unsigned int d : 3;   // 3 bits
 \};
@@ -439,7 +439,7 @@ Fields into separate arrays (Struct of Arrays vs Array of Structs):
 #include <vector>
 #include <cstddef>
 
-// Array of Structs (AoS) — good for per-object access
+// Array of Structs (AoS), good for per-object access
 struct ParticleAoS \{
     float x, y, z;       // position (hot in physics update)
     float vx, vy, vz;    // velocity (hot in physics update)
@@ -448,7 +448,7 @@ struct ParticleAoS \{
     std::uint32_t id;    // cold: only used for identification
 \};
 
-// Struct of Arrays (SoA) — good for batch processing
+// Struct of Arrays (SoA), good for batch processing
 struct ParticlesSoA \{
     std::vector<float> x, y, z;
     std::vector<float> vx, vy, vz;
@@ -470,7 +470,7 @@ int main() \{
 
 ## Intuition
 
-**Memory organization:** Data layout is like organizing a filing cabinet — how you arrange data affects cache performance and memory usage.
+**Memory organization:** Data layout is like organizing a filing cabinet, how you arrange data affects cache performance and memory usage.
 
 **Why it matters:** Good data layout improves cache performance, which can make the difference between fast and slow code.
 
@@ -515,7 +515,7 @@ Member can overlap with padding bytes. If the struct has no padding, no space is
 struct Empty \{\};
 
 struct NoSavings \{
-    Empty e;  // 1 byte — no padding to overlap with
+    Empty e;  // 1 byte, no padding to overlap with
     // sizeof(NoSavings) == 1
 \};
 
@@ -609,7 +609,7 @@ linked above.
 
 :::tip
 <strong>Research Connections</strong>
-Memory layout directly impacts modern systems performance. Cache-line alignment is critical for lock-free concurrent data structures (used in high-frequency trading, databases, and OS kernels). The "false sharing" problem — where independent data structures share a cache line — is a major source of performance degradation in multi-threaded programs. Current research includes: cache-oblivious algorithms (van Emde Boas layout), NVM-aware data structures (Intel Optane), and hardware-software co-design for emerging memory technologies. GPU programming (CUDA, OpenCL) adds another layer of alignment complexity where memory coalescing depends on warp-level access patterns.
+Memory layout directly impacts modern systems performance. Cache-line alignment is critical for lock-free concurrent data structures (used in high-frequency trading, databases, and OS kernels). The "false sharing" problem, where independent data structures share a cache line, is a major source of performance degradation in multi-threaded programs. Current research includes: cache-oblivious algorithms (van Emde Boas layout), NVM-aware data structures (Intel Optane), and hardware-software co-design for emerging memory technologies. GPU programming (CUDA, OpenCL) adds another layer of alignment complexity where memory coalescing depends on warp-level access patterns.
 :::
 
 ## See Also

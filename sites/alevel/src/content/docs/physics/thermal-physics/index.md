@@ -53,48 +53,48 @@ properties of gases, solids, and liquids.
 
 ### Thermal Properties
 
-- **Temperature scales** — Celsius, Kelvin; $T(\text{K}) = T(^{\circ}\text{C}) + 273.15$; absolute
+- **Temperature scales**, Celsius, Kelvin; $T(\text{K}) = T(^{\circ}\text{C}) + 273.15$; absolute
   zero as the theoretical minimum
-- **Specific heat capacity** — $Q = mc\Delta T$; energy required to raise the temperature of 1 kg by
+- **Specific heat capacity**, $Q = mc\Delta T$; energy required to raise the temperature of 1 kg by
   1 K; continuous flow method for measurement
-- **Specific latent heat** — $Q = mL$; energy for change of state at constant temperature; fusion
+- **Specific latent heat**, $Q = mL$; energy for change of state at constant temperature; fusion
   (solid $\to$ liquid) and vaporisation (liquid $\to$ gas)
-- **Internal energy** — the sum of kinetic and potential energy of all molecules; increased by
+- **Internal energy**, the sum of kinetic and potential energy of all molecules; increased by
   heating or doing work
 
 ### Ideal Gas Laws
 
-- **Boyle"s law** — $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
+- **Boyle"s law**, $pV = \text{constant}$ at constant $T$; inverse proportionality of pressure and
   volume
-- **Charles's law** — $V/T = \text{constant}$ at constant $p$; volume proportional to temperature
+- **Charles's law**, $V/T = \text{constant}$ at constant $p$; volume proportional to temperature
   (Kelvin)
-- **Pressure law** — $p/T = \text{constant}$ at constant $V$
-- **Ideal gas equation** — $pV = nRT$ (molar form) and $pV = NkT$ (molecular form);
+- **Pressure law**, $p/T = \text{constant}$ at constant $V$
+- **Ideal gas equation**, $pV = nRT$ (molar form) and $pV = NkT$ (molecular form);
   $R = 8.31\,\text{J mol}^{-1}\text{K}^{-1}$, $k = 1.38 \times 10^{-23}\,\text{JK}^{-1}$
 
 ### Kinetic Theory
 
-- **Assumptions** — point particles, elastic collisions, random motion, large number of particles,
+- **Assumptions**, point particles, elastic collisions, random motion, large number of particles,
   negligible intermolecular forces (except during collisions)
-- **Root mean square speed** — $c_{\text{rms}} = \sqrt{\frac{c_1^2 + c_2^2 + \cdots + c_N^2}{N}}$
-- **Pressure derivation** — $pV = \frac{1}{3}Nm c_{\text{rms}}^2$; connecting microscopic motion to
+- **Root mean square speed**, $c_{\text{rms}} = \sqrt{\frac{c_1^2 + c_2^2 + \cdots + c_N^2}{N}}$
+- **Pressure derivation**, $pV = \frac{1}{3}Nm c_{\text{rms}}^2$; connecting microscopic motion to
   macroscopic pressure
-- **Kinetic energy and temperature** — $\frac{1}{2}m c_{\text{rms}}^2 = \frac{3}{2}kT$; temperature
+- **Kinetic energy and temperature**, $\frac{1}{2}m c_{\text{rms}}^2 = \frac{3}{2}kT$; temperature
   is a measure of average kinetic energy per molecule
-- **Maxwell-Boltzmann distribution** — the distribution of molecular speeds; effect of temperature
+- **Maxwell-Boltzmann distribution**, the distribution of molecular speeds; effect of temperature
   on the shape of the distribution
 
 ### Thermodynamics
 
-- **First law** — $\Delta U = Q - W$; change in internal energy = heat supplied minus work done by
+- **First law**, $\Delta U = Q - W$; change in internal energy = heat supplied minus work done by
   the gas
-- **Work done by a gas** — $W = p\Delta V$ (at constant pressure); area under a $p$-$V$ graph
-- **Isothermal and adiabatic processes** — isothermal ($\Delta T = 0$, heat exchanged); adiabatic
+- **Work done by a gas**, $W = p\Delta V$ (at constant pressure); area under a $p$-$V$ graph
+- **Isothermal and adiabatic processes**, isothermal ($\Delta T = 0$, heat exchanged); adiabatic
   ($Q = 0$, no heat exchange, temperature changes)
 
 ## Study Tips
 
-1. **Derive the kinetic theory equation** — $pV = \frac{1}{3}Nm c_{\text{rms}}^2$. From first
+1. **Derive the kinetic theory equation**, $pV = \frac{1}{3}Nm c_{\text{rms}}^2$. From first
    principles (momentum change at a wall). This derivation is frequently examined.
 2. **Sketch Maxwell-Boltzmann curves**. Be able to draw the distribution for two different
    temperatures and explain how the peak shifts and broadens.

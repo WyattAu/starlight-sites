@@ -354,7 +354,7 @@ for i, word in enumerate(words):
 
 # Custom start index
 for i, word in enumerate(words, start=1):
-    print(f"{i}: {word}")  # 1: apple, 2: banana, ...
+    print(f"{i}: {word}")  # 1: apple, 2: banana...
 ```
 
 ### `zip`
@@ -396,7 +396,7 @@ print(list(islice(range(100), 5, 10)))
 
 # cycle: infinite repetition
 # for item in cycle(["A", "B", "C"]):
-#     print(item)  # A, B, C, A, B, C, ...
+#     print(item)  # A, B, C, A, B, C...
 
 # repeat: repeat a single value
 print(list(repeat(42, 3)))
@@ -597,7 +597,7 @@ max_root = max(math.sqrt(x) for x in range(100))
 result = (x for x in range(100) if x % 2 == 0)
 result = (x * 2 for x in result)
 result = (x + 1 for x in result)
-print(list(result))  # [1, 5, 9, 13, ...]
+print(list(result))  # [1, 5, 9, 13...]
 ```
 :::
 :::tip

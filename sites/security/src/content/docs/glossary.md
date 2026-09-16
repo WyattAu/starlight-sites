@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Glossary — Key Terms and Definitions"
+title: "Cybersecurity Glossary, Key Terms and Definitions"
 description: "Advanced Persistent Threat (APT): A prolonged and targeted cyber attack where an intruder gains access and remains undetected for an extended period."
 date: 2026-07-24
 tags: [glossary]

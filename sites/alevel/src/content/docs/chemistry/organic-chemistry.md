@@ -931,7 +931,7 @@ self-marking and building a personal test matrix.
 
 ## Intuition
 
-**Organic chemistry is like a vast city of carbon-based molecules — each with unique structures and personalities.**
+**Organic chemistry is like a vast city of carbon-based molecules, each with unique structures and personalities.**
 
 
 ```mermaid

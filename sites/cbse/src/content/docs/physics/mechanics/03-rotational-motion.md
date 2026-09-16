@@ -38,7 +38,7 @@ flowchart TD
 - Rotational kinetic energy: $K_{rot} = \frac{1}{2}I\omega^2$
 - Parallel axis theorem: $I = I_{cm} + Md^2$
 
-## Worked Example 1 — Torque Calculation
+## Worked Example 1, Torque Calculation
 
 **Problem:** A force of 20 N is applied at the end of a 0.5 m wrench at an angle of $60^\circ$ to the handle. Find the torque about the bolt.
 
@@ -46,7 +46,7 @@ flowchart TD
 $$\tau = rF\sin\theta = 0.5 \times 20 \times \sin 60^\circ$$
 $$= 0.5 \times 20 \times \frac{\sqrt{3}}{2} = 5\sqrt{3} \approx 8.66 \, \text{N}\cdot\text{m}$$
 
-## Worked Example 2 — Moment of Inertia of a System
+## Worked Example 2, Moment of Inertia of a System
 
 **Problem:** Three point masses of 1 kg, 2 kg, and 3 kg are placed at distances of 1 m, 2 m, and 3 m from the axis of rotation. Find the total moment of inertia and the angular acceleration when a net torque of 12 N$\cdot$m is applied.
 
@@ -57,7 +57,7 @@ $$= 1 + 8 + 27 = 36 \, \text{kg}\cdot\text{m}^2$$
 Angular acceleration:
 $$\alpha = \frac{\tau}{I} = \frac{12}{36} = \frac{1}{3} \approx 0.333 \, \text{rad/s}^2$$
 
-## Worked Example 3 — Rotational Kinetic Energy
+## Worked Example 3, Rotational Kinetic Energy
 
 **Problem:** A uniform disc of mass 2 kg and radius 0.3 m rotates about its axis at $10 \, \text{rad/s}$. Find its rotational kinetic energy.
 
@@ -69,7 +69,7 @@ $$I = \frac{1}{2}MR^2 = \frac{1}{2} \times 2 \times (0.3)^2 = 0.09 \, \text{kg}\
 Rotational kinetic energy:
 $$K_{rot} = \frac{1}{2}I\omega^2 = \frac{1}{2} \times 0.09 \times 100 = 4.5 \, \text{J}$$
 
-## Worked Example 4 — Conservation of Angular Momentum
+## Worked Example 4, Conservation of Angular Momentum
 
 **Problem:** A figure skater spinning at $4 \, \text{rad/s}$ with arms extended has moment of inertia $4 \, \text{kg}\cdot\text{m}^2$. She pulls her arms in, reducing her moment of inertia to $2 \, \text{kg}\cdot\text{m}^2$. Find her new angular speed and the change in rotational kinetic energy.
 
@@ -98,7 +98,7 @@ Change: $\Delta K = 64 - 32 = 32 \, \text{J}$ (energy increases due to work done
 1. Find the moment of inertia of a solid sphere of mass $M$ and radius $R$ about a tangent axis.
 2. A merry-go-round of moment of inertia $200 \, \text{kg}\cdot\text{m}^2$ rotates at $2 \, \text{rad/s}$. A 25 kg child runs radially inward from 3 m to 1 m from the center. Find the new angular speed.
 
-## Worked Example 5 — Rolling Motion Without Slipping
+## Worked Example 5, Rolling Motion Without Slipping
 
 **Problem:** A solid sphere of mass 2 kg and radius 0.1 m rolls down an incline from rest. Find its speed at the bottom of a 3 m high incline.
 
@@ -116,7 +116,7 @@ $$v = \sqrt{\frac{10gh}{7}} = \sqrt{\frac{10 \times 9.8 \times 3}{7}} = \sqrt{42
 
 **Common mistake:** Forgetting to include rotational kinetic energy. The answer would be $\sqrt{2gh} = 7.67$ m/s if rotation were ignored.
 
-## Worked Example 6 — Torque and Angular Acceleration
+## Worked Example 6, Torque and Angular Acceleration
 
 **Problem:** A uniform disc of mass 5 kg and radius 0.2 m is free to rotate about a horizontal axis through its center. A string is wrapped around the rim and a 0.5 kg mass hangs from it. Find the angular acceleration of the disc.
 
@@ -140,7 +140,7 @@ $$\alpha = \frac{mg}{R\left(m + \frac{M}{2}\right)} = \frac{0.5 \times 9.8}{0.2 
 
 **Common mistake:** Forgetting that the tension provides the torque, not the weight of the hanging mass.
 
-## Worked Example 7 — Precession of a Gyroscope
+## Worked Example 7, Precession of a Gyroscope
 
 **Problem:** A gyroscope wheel has moment of inertia $0.04 \text{ kg}\cdot\text{m}^2$ and spins at $100 \text{ rad/s}$. Its axle is horizontal and supported at one end, 0.1 m from the wheel's center. Find the precession angular velocity.
 
@@ -163,7 +163,7 @@ $$\Omega = \frac{\tau}{L} = \frac{0.49}{4} = 0.1225 \text{ rad/s}$$
 
 **Why it matters:** Rotational motion explains how gears work, why gyroscopes stabilise, how planets orbit, and why ice skaters spin faster when they pull in their arms.
 
-**The key insight:** Moment of inertia is the rotational analogue of mass — the answer varies based on not just on how much matter there is, but on how that matter is distributed relative to the axis of rotation.
+**The key insight:** Moment of inertia is the rotational analogue of mass, the answer varies based on not just on how much matter there is, but on how that matter is distributed relative to the axis of rotation.
 
 ## Common Mistakes
 

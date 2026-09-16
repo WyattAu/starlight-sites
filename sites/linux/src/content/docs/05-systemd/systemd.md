@@ -170,13 +170,13 @@ WantedBy=multi-user.target
 | `Documentation` | URL to documentation                                        |
 | `After=`        | Start after the listed units (ordering, not dependency)     |
 | `Before=`       | Start before the listed units                               |
-| `Requires=`     | Hard dependency — if the listed unit fails, this unit fails |
-| `Wants=`        | Soft dependency — start if available, continue if not       |
-| `Requisite=`    | Hard dependency — fail immediately if not already running   |
+| `Requires=`     | Hard dependency, if the listed unit fails, this unit fails |
+| `Wants=`        | Soft dependency, start if available, continue if not       |
+| `Requisite=`    | Hard dependency, fail immediately if not already running   |
 | `Conflicts=`    | If the listed unit is running, this unit cannot start       |
 | `PartOf=`       | When the listed unit is stopped/restarted, this unit is too |
 
-### `[Service]` Section — Service Type
+### `[Service]` Section, Service Type
 
 | Type               | Behavior                                                                              | Use Case                      |
 | ------------------ | ------------------------------------------------------------------------------------- | ----------------------------- |
@@ -189,7 +189,7 @@ WantedBy=multi-user.target
 | `notify-reload`    | Like `notify`But supports `sd_notify(RELOADING=1)` for reload.                        | Daemons with reload support   |
 | `idle`             | Like `simple`But started after all active jobs are dispatched.                        | Avoids blocking boot output   |
 
-### `[Service]` Section — Lifecycle Directives
+### `[Service]` Section, Lifecycle Directives
 
 ```ini
 [Service]
@@ -220,7 +220,7 @@ EnvironmentFile=/etc/myapp/environment
 EnvironmentFile=-/etc/myapp/env.local    # - means file is optional
 ```
 
-### `[Service]` Section — Restart Policy
+### `[Service]` Section, Restart Policy
 
 | Directive             | Behavior                                             |
 | --------------------- | ---------------------------------------------------- |
@@ -239,7 +239,7 @@ StartLimitBurst=5         # allow 5 restarts within...
 StartLimitIntervalSec=60  # ...60 seconds before giving up
 ```
 
-### `systemctl` — Service Management
+### `systemctl`Service Management
 
 ```bash
 # Start/stop/restart
@@ -309,8 +309,8 @@ Targets are synchronization points that group units. They replace the SysV runle
 | 3             | `multi-user.target` | Multi-user, no GUI            |
 | 5             | `graphical.target`  | Multi-user with GUI           |
 | 6             | `reboot.target`     | Reboot                        |
-| —             | `emergency.target`  | Emergency shell               |
-| —             | `default.target`    | Symlink to the default target |
+|,             | `emergency.target`  | Emergency shell               |
+|,             | `default.target`    | Symlink to the default target |
 
 ```bash
 # View current target
@@ -421,7 +421,7 @@ ForwardToSyslog=yes       # also forward to traditional syslog
 ```
 
 :::caution
-Does not exist, logs are stored in `/run/log/journal/` (volatile — lost on reboot). Ensure
+Does not exist, logs are stored in `/run/log/journal/` (volatile, lost on reboot). Ensure
 `/var/log/journal/` exists and has correct permissions (`systemd-tmpfiles --create`).
 
 ## Timers
@@ -810,10 +810,10 @@ Expansion. If you need expansion, use `ExecStart` with a shell wrapper or use `$
 `ExecStart` (systemd performs its own expansion for `%i``%n`Etc.):
 
 ```ini
-# This works — systemd expands %n, %i, %f, etc.
+# This works, systemd expands %n, %i, %f, etc.
 ExecStart=/usr/bin/app --config /etc/%i/config.yaml
 
-# This does NOT work — EnvironmentFile does not expand variables
+# This does NOT work, EnvironmentFile does not expand variables
 EnvironmentFile=/etc/myapp/${HOSTNAME}.env
 
 # Use ExecStartPre to set up dynamic environment
@@ -828,10 +828,10 @@ EnvironmentFile=/run/myapp/env
 Addition:
 
 ```ini
-# WRONG — only ordering, no dependency
+# WRONG, only ordering, no dependency
 After=postgresql.service
 
-# CORRECT — both ordering and dependency
+# CORRECT, both ordering and dependency
 After=postgresql.service
 Wants=postgresql.service
 ```

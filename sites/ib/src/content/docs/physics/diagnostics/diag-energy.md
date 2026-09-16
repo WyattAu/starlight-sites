@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Energy and Conservation — Diagnostic Tests
+## Energy and Conservation, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Energy is like currency — it can't be created or destroyed, only transferred between accounts (objects) or converted between currencies (forms):** The conservation of energy is the most powerful tool in physics — it lets us solve problems without knowing all the details of what happens in between
+**Energy is like currency, it can't be created or destroyed, only transferred between accounts (objects) or converted between currencies (forms):** The conservation of energy is the most powerful tool in physics, it lets us solve problems without knowing all the details of what happens in between
 
 **Why it matters:** Energy conservation governs everything from why perpetual motion is impossible to how power plants generate electricity
 
-**The key insight:** The conservation of energy is the most powerful tool in physics — it lets us solve problems without knowing all the details of what happens in between
+**The key insight:** The conservation of energy is the most powerful tool in physics, it lets us solve problems without knowing all the details of what happens in between
 
 ## Unit Tests
 

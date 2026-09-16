@@ -105,14 +105,14 @@ constexpr bool any_true(Args... args) {
 // Push all elements into a vector: fold over comma operator
 template <typename T, typename... Args>
 void push_all(std::vector<T>& vec, Args&&... args) {
-    (vec.push_back(std::forward<Args>(args)), ...);
+    (vec.push_back(std::forward<Args>(args))...);
     // This is a unary right fold over the comma operator.
 }
 
 // Print all arguments
 template <typename... Args>
 void print_all(Args&&... args) {
-    ((std::cout << args << " "), ...);
+    ((std::cout << args << " ")...);
     std::cout << "\n";
 }
 
@@ -386,7 +386,7 @@ int count_positive(Args... args) {
 template <typename... Args>
 std::string join(Args&&... args) {
     std::string result;
-    ((result += std::forward<Args>(args)), ...);  // comma fold, no init needed
+    ((result += std::forward<Args>(args))...);  // comma fold, no init needed
     return result;
 }
 
@@ -468,25 +468,25 @@ And discards the values, making it ideal for "do something for each element" pat
 // Print each argument on a separate line
 template <typename... Args>
 void print_lines(Args&&... args) {
-    ((std::cout << args << "\n"), ...);
+    ((std::cout << args << "\n")...);
 }
 
 // Lock multiple mutexes (C++17 lock order)
 template <typename... Mutexes>
 void lock_all(Mutexes&... mtxs) {
-    (mtxs.lock(), ...);
+    (mtxs.lock()...);
 }
 
 // Unlock multiple mutexes
 template <typename... Mutexes>
 void unlock_all(Mutexes&... mtxs) {
-    (mtxs.unlock(), ...);
+    (mtxs.unlock()...);
 }
 
 // Execute a function on each argument
 template <typename Func, typename... Args>
 void for_each(Func f, Args&&... args) {
-    (f(std::forward<Args>(args)), ...);
+    (f(std::forward<Args>(args))...);
 }
 
 int main() {
@@ -569,14 +569,14 @@ Fold expressions can invoke lambdas on each pack element, enabling complex per-e
 // Apply a lambda to each element, collecting results via comma fold
 template <typename Func, typename... Args>
 void apply_each(Func f, Args&&... args) {
-    (f(std::forward<Args>(args)), ...);
+    (f(std::forward<Args>(args))...);
 }
 
 // Fold with a lambda that captures state
 template <typename... Args>
 void print_with_index(Args&&... args) {
     int i = 0;
-    ((std::cout << "[" << i++ << "] " << args << "\n"), ...);
+    ((std::cout << "[" << i++ << "] " << args << "\n")...);
 }
 
 // Fold with a lambda that returns a value (using comma fold for side effects,
@@ -586,7 +586,7 @@ auto transform_all(Args&&... args) {
     std::vector<decltype(std::forward<Args>(args))> results;
     (results.push_back([](auto&& x) {
         return x * x;  // Transform: square each element
-    }(std::forward<Args>(args))), ...);
+    }(std::forward<Args>(args)))...);
     return results;
 }
 
@@ -616,7 +616,7 @@ template <typename... Args>
 std::string join_strings(std::string sep, Args&&... args) {
     std::ostringstream oss;
     bool first = true;
-    ((oss << (first ? (first = false, "") : sep) << args), ...);
+    ((oss << (first ? (first = false, "") : sep) << args)...);
     return oss.str();
 }
 
@@ -667,7 +667,7 @@ auto recursive_sum(T first, Rest... rest) {
 
 template <typename... Args>
 void print_fold(Args&&... args) {
-    ((std::cout << args << " "), ...);
+    ((std::cout << args << " ")...);
     std::cout << "\n";
 }
 
@@ -748,13 +748,13 @@ concept NonEmptyIntegralPack = sizeof...(Ts) > 0 && (std::integral<Ts> && ...);
 
 template <AllIntegral... Ts>
 void print_ints(Ts... args) {
-    ((std::cout << args << " "), ...);
+    ((std::cout << args << " ")...);
     std::cout << "\n";
 }
 
 template <HasFloat... Ts>
 void print_mixed(Ts... args) {
-    ((std::cout << args << " "), ...);
+    ((std::cout << args << " ")...);
     std::cout << "\n";
 }
 
@@ -788,7 +788,7 @@ void hash_combine(std::size_t& seed, const T& value) {
 template <typename... Args>
 std::size_t hash_all(const Args&... args) {
     std::size_t seed = 0;
-    (hash_combine(seed, args), ...);
+    (hash_combine(seed, args)...);
     return seed;
 }
 
@@ -820,7 +820,7 @@ int main() {
 template <typename... Args>
 void print_delimited(std::string_view delim, Args&&... args) {
     std::size_t i = 0;
-    ((std::cout << (i++ == 0 ? "" : delim) << args), ...);
+    ((std::cout << (i++ == 0 ? "" : delim) << args)...);
     std::cout << "\n";
 }
 
@@ -839,7 +839,7 @@ int main() {
 template <typename T, typename Op, typename... Args>
 T accumulate_fold(T init, Op op, Args... args) {
     T result = init;
-    ((result = op(result, args)), ...);
+    ((result = op(result, args))...);
     return result;
 }
 

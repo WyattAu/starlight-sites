@@ -20,7 +20,7 @@ categories:
 
 ## Intuition
 
-**System design is like urban planning — you must balance efficiency, scalability, and maintainability while meeting user needs:** Good system design anticipates change, manages complexity, and balances competing requirements
+**System design is like urban planning, you must balance efficiency, scalability, and maintainability while meeting user needs:** Good system design anticipates change, manages complexity, and balances competing requirements
 
 **Why it matters:** System design skills are essential for building robust, scalable software that evolves with changing requirements
 
@@ -77,8 +77,8 @@ Understanding the stages and their purposes.
 
 | Model     | Description                                                                                                                                                          |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Waterfall | Sequential, linear approach — each phase must be completed before the next begins. Simple to understand but inflexible to changing requirements.                     |
-| Agile     | Iterative approach — the system is developed in small increments (sprints). Flexible and responsive to change, but can be harder to predict final cost and timeline. |
+| Waterfall | Sequential, linear approach, each phase must be completed before the next begins. Simple to understand but inflexible to changing requirements.                     |
+| Agile     | Iterative approach, the system is developed in small increments (sprints). Flexible and responsive to change, but can be harder to predict final cost and timeline. |
 | Spiral    | Combines iterative development with risk analysis. Each cycle includes planning, risk analysis, engineering, and evaluation. Suitable for large, complex projects.   |
 | Rapid     | Emphasizes rapid prototyping and user feedback. Useful when requirements are not well understood. Can lead to scope creep if not carefully managed.                  |
 
@@ -385,11 +385,11 @@ Are diamonds between entities. Primary keys are shown as underlined attributes. 
 **Relationship types**:
 
 - **One-to-one (1:1)**: Each record in Table A relates to at most one record in Table B (e.g.,
-  Student — StudentProfile).
-- **One-to-many (1:M)**: One record in Table A relates to many in Table B (e.g., Teacher —
+  Student, StudentProfile).
+- **One-to-many (1:M)**: One record in Table A relates to many in Table B (e.g., Teacher,
   Students).
 - **Many-to-many (M:N)**: Many records in A relate to many in B. Requires a junction table (e.g.,
-  Students — Courses resolved via Enrollments).
+  Students, Courses resolved via Enrollments).
 
 ### Keys
 
@@ -415,9 +415,9 @@ Tables.
 (has a primary key). No repeating groups.
 
 **Second Normal Form (2NF)**: Must be in 1NF. All non-key attributes must be fully dependent on the
-Entire primary key — no partial dependencies. (Only relevant for composite primary keys.)
+Entire primary key, no partial dependencies. (Only relevant for composite primary keys.)
 
-**Third Normal Form (3NF)**: Must be in 2NF. No transitive dependencies — every non-key attribute
+**Third Normal Form (3NF)**: Must be in 2NF. No transitive dependencies, every non-key attribute
 Must depend directly on the primary key, not through another non-key attribute.
 
 **Worked example**: Consider this library table:
@@ -429,7 +429,7 @@ Must depend directly on the primary key, not through another non-key attribute.
 | 3      | Bob        | <bob@school.com>   | Calculus  | Stewart | Textbook |
 
 This is in 1NF but not 3NF. MemberEmail depends on MemberName (not LoanID), and Author/Genre depend
-On BookTitle. These are transitive dependencies. Resolution — split into three tables:
+On BookTitle. These are transitive dependencies. Resolution, split into three tables:
 
 **Members table** (PK: MemberID):
 
@@ -493,9 +493,9 @@ Cloud computing delivers computing services over the internet. The three main se
 
 | Model | Description                                             | Example                        |
 | ----- | ------------------------------------------------------- | ------------------------------ |
-| IaaS  | Infrastructure as a Service — virtual machines, storage | AWS EC2, Google Compute Engine |
-| PaaS  | Platform as a Service — development platform            | Heroku, Google App Engine      |
-| SaaS  | Software as a Service — fully hosted application        | Gmail, Google Docs, Salesforce |
+| IaaS  | Infrastructure as a Service, virtual machines, storage | AWS EC2, Google Compute Engine |
+| PaaS  | Platform as a Service, development platform            | Heroku, Google App Engine      |
+| SaaS  | Software as a Service, fully hosted application        | Gmail, Google Docs, Salesforce |
 
 With IaaS, the user manages the OS and application; with PaaS, only the application code; with SaaS,
 Nothing (everything is managed by the provider).
@@ -753,7 +753,7 @@ From Librarian to Member indicating generalization.
 <details>
 
 The System Administrator's responsibilities (managing accounts, viewing logs) are unrelated to
-Library operations. Inheritance implies an "is-a" relationship — a System Administrator is not a
+Library operations. Inheritance implies an "is-a" relationship, a System Administrator is not a
 Specialized Librarian. Both should be separate actors with distinct use cases.
 
 </details>
@@ -769,7 +769,7 @@ Personal data must be protected.
 
 Three-tier client-server on cloud infrastructure (IaaS/PaaS). The presentation tier delivers the web
 Interface, the application tier handles business logic (grading, submissions, streaming), and the
-Data tier stores records. Each tier scales independently — the application tier can scale
+Data tier stores records. Each tier scales independently, the application tier can scale
 Horizontally during peak usage. Cloud hosting avoids large upfront costs.
 
 </details>

@@ -17,11 +17,11 @@ date: 2025-09-08T09:17:16.135Z
 
 ## Intuition
 
-**Strengthening the foundation:** Back pain exercises are like reinforcing the foundation of a building — strong core, glute, and posterior chain muscles provide the structural support that takes stress off your spine, reducing pain and preventing future injury.
+**Strengthening the foundation:** Back pain exercises are like reinforcing the foundation of a building, strong core, glute, and posterior chain muscles provide the structural support that takes stress off your spine, reducing pain and preventing future injury.
 
 **Why it matters:** Back pain is one of the leading causes of disability worldwide. A targeted exercise programme can be more effective than medication for chronic back pain, and it addresses the root cause (weak stabilising muscles) rather than just masking symptoms.
 
-**The key insight:** Progressive overload is essential — muscles adapt to stress, so you must gradually increase demands (reps, then weight) to continue building strength. Starting too heavy risks injury; starting too light produces no adaptation.
+**The key insight:** Progressive overload is essential, muscles adapt to stress, so you must gradually increase demands (reps, then weight) to continue building strength. Starting too heavy risks injury; starting too light produces no adaptation.
 
 ## Objective
 

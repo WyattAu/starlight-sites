@@ -332,7 +332,7 @@ flowchart TD
 
 **Why it matters:** Understanding waves is essential for telecommunications, medical imaging, astronomy, and materials science. Wave behaviour explains how fibre optics transmit data, how ultrasound creates images, and how X-rays reveal crystal structures.
 
-**The key insight:** When a wave changes speed (entering a new medium), its wavelength changes but frequency stays the same — this is why light bends when entering water, and why the colour (frequency) doesn't change.
+**The key insight:** When a wave changes speed (entering a new medium), its wavelength changes but frequency stays the same, this is why light bends when entering water, and why the colour (frequency) doesn't change.
 
 ## Common Pitfalls
 

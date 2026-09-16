@@ -12,18 +12,18 @@ description: "UNIVERSITY Computing practice problems: Databases Practice (Intera
 
 import PracticeProblem from "@components/PracticeProblem";
 
-## University Computing — Databases Practice
+## University Computing, Databases Practice
 
 10 auto-graded practice problems at medium to hard difficulty. Select an answer, submit, and review
 the explanation.
 
 ## Intuition
 
-**The librarian of your data:** A database is like a well-organised library — SQL is the language you use to ask the librarian questions, normalisation ensures no book is shelved in multiple places, and indexes help you find books without scanning every shelf.
+**The librarian of your data:** A database is like a well-organised library, SQL is the language you use to ask the librarian questions, normalisation ensures no book is shelved in multiple places, and indexes help you find books without scanning every shelf.
 
 **Why it matters:** Every application with persistent data needs databases. Understanding them explains why some queries are fast and others are slow, how to design schemas that don't break, and how to keep data consistent under concurrent access.
 
-**The key insight:** B+ trees are the workhorses of database indexing — their linked leaves enable efficient range queries, and their balanced structure guarantees O(log n) lookups regardless of data distribution.
+**The key insight:** B+ trees are the workhorses of database indexing, their linked leaves enable efficient range queries, and their balanced structure guarantees O(log n) lookups regardless of data distribution.
 
 ---
 
@@ -46,7 +46,7 @@ the explanation.
 
 **Confusing hash indexes with B-tree indexes:** Hash indexes are fast for equality lookups (O(1)) but can't do range queries. B-tree indexes handle both equality and range queries efficiently.
 
-**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it — consider query performance trade-offs.
+**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it, consider query performance trade-offs.
 
 **Mixing up 2NF with 3NF:** 2NF eliminates partial dependencies. 3NF eliminates transitive dependencies. Don't confuse the two.
 

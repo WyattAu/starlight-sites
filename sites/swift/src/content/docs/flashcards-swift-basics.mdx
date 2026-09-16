@@ -2,7 +2,7 @@
 
 date: 2026-07-23T22:34:31+01:00
 title: "Swift Basics Flashcards"
-description: "Swift is designed for safety and performance — optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and"
+description: "Swift is designed for safety and performance, optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and"
 sidebar_position: 51
 ---
 
@@ -18,23 +18,23 @@ import { flashcardData } from '@/data/flashcards/swift/flashcards-swift-basics-d
 
 ## Intuition
 
-Swift is designed for safety and performance — optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and ARC manages memory without a garbage collector. Protocols define capabilities that types adopt, and protocol-oriented programming favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
+Swift is designed for safety and performance, optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and ARC manages memory without a garbage collector. Protocols define capabilities that types adopt, and protocol-oriented programming favours composition over inheritance. Enums in Swift are algebraic data types that can carry associated values, making them far more powerful than C-style enums.
 
 ## How to Use These Flashcards
 
-**First pass:** Go through all 15 cards without rating — just flip and read. This familiarises you with the content and identifies weak areas.
+**First pass:** Go through all 15 cards without rating, just flip and read. This familiarises you with the content and identifies weak areas.
 
 **Playground practice:** After reviewing a card, open a Swift Playground and experiment with the concept. Swift'sREPL and playgrounds make rapid experimentation easy.
 
-**iOS/macOS connection:** If you're learning Swift for Apple platforms, relate each concept to its framework use case — optionals for UIKit/SwiftUI properties, protocols for delegate patterns, ARC for memory management.
+**iOS/macOS connection:** If you're learning Swift for Apple platforms, relate each concept to its framework use case, optionals for UIKit/SwiftUI properties, protocols for delegate patterns, ARC for memory management.
 
 ## Common Pitfalls
 
-- **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program — prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
-- **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle — use `[weak self]` or `[unowned self]` capture lists.
-- **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared) — confusion here leads to unexpected mutations.
-- **String indexing pitfalls**: Swift strings are not randomly accessible by integer index — use `String.Index` methods or `enumerated()` for iteration.
-- **Actor re-entrancy**: Actors protect shared mutable state but are re-entrant — multiple tasks can interleave at `await` boundaries. Use `@Sendable` closures and careful state management to avoid race conditions.
+- **Force unwrap (`!`)**: Using `!` on an optional that is nil crashes the program, prefer `guard let`, `if let`, or the nil-coalescing operator (`??`).
+- **Reference cycle with closures**: Capturing `self` strongly in a closure creates a retain cycle, use `[weak self]` or `[unowned self]` capture lists.
+- **Value vs reference semantics**: Structs are value types (copied on assignment), classes are reference types (shared), confusion here leads to unexpected mutations.
+- **String indexing pitfalls**: Swift strings are not randomly accessible by integer index, use `String.Index` methods or `enumerated()` for iteration.
+- **Actor re-entrancy**: Actors protect shared mutable state but are re-entrant, multiple tasks can interleave at `await` boundaries. Use `@Sendable` closures and careful state management to avoid race conditions.
 
 ## Study Tips
 

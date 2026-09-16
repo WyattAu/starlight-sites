@@ -53,33 +53,33 @@ with defined relationships, and on **SQL** as the language for manipulating that
 
 ### Relational Databases
 
-- **Entities, attributes, and relationships** — the conceptual model
-- **Tables, rows (tuples), columns (attributes)** — the relational implementation
-- **Primary keys, foreign keys, and composite keys** — enforcing identity and relationships
-- **Referential integrity** — ensuring consistency across related tables
+- **Entities, attributes, and relationships**, the conceptual model
+- **Tables, rows (tuples), columns (attributes)**, the relational implementation
+- **Primary keys, foreign keys, and composite keys**, enforcing identity and relationships
+- **Referential integrity**, ensuring consistency across related tables
 
 ### Normalisation
 
-- **1NF, 2NF, 3NF** — step-by-step normalisation process to eliminate redundancy
-- **Functional dependencies** — identifying which attributes determine others
-- **Anomalies** — insertion, update, and deletion anomalies caused by poor design
-- **Entity-Relationship diagrams** — modelling before implementation
+- **1NF, 2NF, 3NF**, step-by-step normalisation process to eliminate redundancy
+- **Functional dependencies**, identifying which attributes determine others
+- **Anomalies**, insertion, update, and deletion anomalies caused by poor design
+- **Entity-Relationship diagrams**, modelling before implementation
 
 ### SQL
 
-- **DDL (Data Definition Language)** — `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
+- **DDL (Data Definition Language)**, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
   (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`)
-- **DML (Data Manipulation Language)** — `SELECT`, `INSERT`, `UPDATE`, `DELETE`
-- **Queries** — `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, aggregate functions (`COUNT`, `SUM`,
+- **DML (Data Manipulation Language)**, `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+- **Queries**, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, aggregate functions (`COUNT`, `SUM`,
   `AVG`, `MIN`, `MAX`)
-- **Joins** — `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
-- **Subqueries** — nested `SELECT` statements
+- **Joins**, `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
+- **Subqueries**, nested `SELECT` statements
 
 ### Transaction Processing
 
-- **ACID properties** — Atomicity, Consistency, Isolation, Durability
-- **Concurrency** — why simultaneous access causes problems (lost updates, dirty reads)
-- **Locking and serialisation** — preventing concurrency issues
+- **ACID properties**, Atomicity, Consistency, Isolation, Durability
+- **Concurrency**, why simultaneous access causes problems (lost updates, dirty reads)
+- **Locking and serialisation**, preventing concurrency issues
 
 ## Study Tips
 
@@ -89,7 +89,7 @@ with defined relationships, and on **SQL** as the language for manipulating that
    normalise to 3NF. Work through 1NF $\rightarrow$ 2NF $\rightarrow$ 3NF explicitly.
 3. **Draw ER diagrams** before writing SQL. They clarify relationships and cardinality (1:1, 1:M,
    M:N).
-4. **Understand join types** — `INNER JOIN` returns only matching rows; `LEFT JOIN` returns all rows
+4. **Understand join types**, `INNER JOIN` returns only matching rows; `LEFT JOIN` returns all rows
    from the left table. Sketch Venn diagrams if it helps.
 5. **Learn the ACID properties** with concrete examples of what goes wrong when each is violated.
 
@@ -185,21 +185,21 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 1. **Confusing entity-relationship cardinalities.** In a 1:Many relationship, the foreign key goes in the table on the "Many" side. In a Many:Many relationship, you need a junction table. Students often put the foreign key on the wrong side or forget the junction table entirely.
 
-2. **Normalising too aggressively or not enough.** Over-normalisation creates too many tables with complex joins, reducing query performance. Under-normalisation leaves data redundant and prone to anomalies. Aim for 3NF as the standard — go to BCNF only when there are clear dependency preservation issues.
+2. **Normalising too aggressively or not enough.** Over-normalisation creates too many tables with complex joins, reducing query performance. Under-normalisation leaves data redundant and prone to anomalies. Aim for 3NF as the standard, go to BCNF only when there are clear dependency preservation issues.
 
 3. **Confusing DDL and DML.** DDL (Data Definition Language) creates and modifies schema: CREATE TABLE, ALTER TABLE, DROP TABLE. DML (Data Manipulation Language) manipulates data: SELECT, INSERT, UPDATE, DELETE. Students often use CREATE when they mean INSERT, or vice versa.
 
 4. **Writing SQL without specifying which table columns come from.** In JOIN queries, always qualify column names with the table name (e.g., `Students.name` not just `name`) to avoid ambiguity when both tables have columns with the same name.
 
-5. **Forgetting that NULL is not the same as zero or empty string.** NULL represents an unknown or missing value. You cannot compare NULL with = or != — use IS NULL or IS NOT NULL instead. `WHERE column = NULL` never returns any rows.
+5. **Forgetting that NULL is not the same as zero or empty string.** NULL represents an unknown or missing value. You cannot compare NULL with = or !=, use IS NULL or IS NOT NULL instead. `WHERE column = NULL` never returns any rows.
 
 ## Intuition
 
-Databases exist to solve a fundamental problem: how do you store, retrieve, and manage large amounts of structured data reliably? Before databases, applications stored data in flat files — essentially text files with a fixed format. This worked for small datasets but became unmanageable as data grew: multiple programs might need the same data, files could become corrupted, and updating information meant manually editing files. A database management system (DBMS) acts as a controlled intermediary, ensuring that data is stored safely and accessed consistently by multiple users and applications simultaneously.
+Databases exist to solve a fundamental problem: how do you store, retrieve, and manage large amounts of structured data reliably? Before databases, applications stored data in flat files, essentially text files with a fixed format. This worked for small datasets but became unmanageable as data grew: multiple programs might need the same data, files could become corrupted, and updating information meant manually editing files. A database management system (DBMS) acts as a controlled intermediary, ensuring that data is stored safely and accessed consistently by multiple users and applications simultaneously.
 
-The relational model, introduced by Edgar Codd, revolutionised how we think about data by treating it as collections of tuples (rows) in relations (tables), rather than as hierarchical file structures. The key insight is that relationships between data are expressed through matching values, not through physical pointers or nested structures. This abstraction makes it far easier to write queries, modify the schema, and reason about data integrity. When you write a SQL JOIN, you are telling the database to find matching rows across tables — the engine handles the mechanical work of locating those matches efficiently.
+The relational model, introduced by Edgar Codd, revolutionised how we think about data by treating it as collections of tuples (rows) in relations (tables), rather than as hierarchical file structures. The key insight is that relationships between data are expressed through matching values, not through physical pointers or nested structures. This abstraction makes it far easier to write queries, modify the schema, and reason about data integrity. When you write a SQL JOIN, you are telling the database to find matching rows across tables, the engine handles the mechanical work of locating those matches efficiently.
 
-Transactions and ACID properties ensure that even when things go wrong — power failures, software crashes, concurrent edits — the database remains in a consistent state. Think of a bank transfer: money must leave one account and arrive in another. If the system crashes halfway through, a transaction ensures either both operations complete or neither does, preventing money from vanishing into thin air. This reliability, combined with the flexibility of SQL and the efficiency of indexing, is why relational databases have been the backbone of information systems for decades.
+Transactions and ACID properties ensure that even when things go wrong, power failures, software crashes, concurrent edits, the database remains in a consistent state. Think of a bank transfer: money must leave one account and arrive in another. If the system crashes halfway through, a transaction ensures either both operations complete or neither does, preventing money from vanishing into thin air. This reliability, combined with the flexibility of SQL and the efficiency of indexing, is why relational databases have been the backbone of information systems for decades.
 
 ## See Also
 

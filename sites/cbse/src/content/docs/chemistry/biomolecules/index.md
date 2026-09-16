@@ -62,7 +62,7 @@ Biomolecules are organic molecules essential for life. This topic covers carbohy
 - RNA: ribonucleic acid (single strand, bases A, U, G, C)
 - Enzymes: protein catalysts with high specificity
 
-## Worked Example 1 — Carbohydrate Classification
+## Worked Example 1, Carbohydrate Classification
 
 **Problem:** Classify glucose, sucrose, and starch as mono-, di-, or polysaccharide.
 
@@ -77,7 +77,7 @@ Biomolecules are organic molecules essential for life. This topic covers carbohy
 
 **Common mistake:** Confusing molecular formula with classification. Two different monosaccharides can have the same molecular formula (glucose and fructose are isomers).
 
-## Worked Example 2 — Peptide Bond Formation
+## Worked Example 2, Peptide Bond Formation
 
 **Problem:** Write the formation of a dipeptide from glycine and alanine.
 
@@ -95,7 +95,7 @@ Product: glycylalanine (Gly-Ala)
 
 **Common mistake:** Writing the peptide bond as $-\text{NH}-\text{CO}-$ instead of $-\text{CO}-\text{NH}-$. The carbonyl carbon is bonded to the nitrogen.
 
-## Worked Example 3 — DNA vs RNA
+## Worked Example 3, DNA vs RNA
 
 **Problem:** Compare the structure and function of DNA and RNA.
 
@@ -126,11 +126,11 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 
 ## Intuition
 
-**The molecules of life are just chemistry in action:** Think of carbohydrates as your body's quick-energy fuel (like gasoline for a car), proteins as the workers and structural materials (like bricks and workers in a building), and DNA as the instruction manual (like a blueprint). The beauty is that all three use just a handful of simple building blocks — simple sugars, 20 amino acids, and 4 nucleotide bases — arranged in different sequences to create the staggering complexity of life.
+**The molecules of life are just chemistry in action:** Think of carbohydrates as your body's quick-energy fuel (like gasoline for a car), proteins as the workers and structural materials (like bricks and workers in a building), and DNA as the instruction manual (like a blueprint). The beauty is that all three use just a handful of simple building blocks, simple sugars, 20 amino acids, and 4 nucleotide bases, arranged in different sequences to create the staggering complexity of life.
 
 **Why it matters:** Understanding biomolecules is the foundation of medicine (how drugs interact with proteins), nutrition (what your body actually does with food), and biotechnology (how we engineer organisms to produce insulin, biofuels, and more). Every disease has a molecular basis, and every treatment targets a biomolecule.
 
-**The key insight:** The glycosidic bond in carbohydrates, the peptide bond in proteins, and the phosphodiester bond in nucleic acids are all formed by the same principle — condensation reactions that join monomers while releasing water. Life is built by a single chemical strategy repeated in different contexts.
+**The key insight:** The glycosidic bond in carbohydrates, the peptide bond in proteins, and the phosphodiester bond in nucleic acids are all formed by the same principle, condensation reactions that join monomers while releasing water. Life is built by a single chemical strategy repeated in different contexts.
 
 ## Common Exam Patterns
 
@@ -150,7 +150,7 @@ Biomolecules are the basis of biochemistry, molecular biology, and medicine. Und
 
 ## Cross-References
 
-- **[Polymers](../polymers/index):** Biomolecules are natural polymers — proteins are amino acid polymers, polysaccharides are sugar polymers, and nucleic acids are nucleotide polymers.
-- **[Coordination Compounds](../coordination/index):** Metal ions coordinate to biomolecules — hemoglobin (Fe²⁺ with heme), chlorophyll (Mg²⁺ with chlorin), and enzyme active sites often contain coordinated metals.
+- **[Polymers](../polymers/index):** Biomolecules are natural polymers, proteins are amino acid polymers, polysaccharides are sugar polymers, and nucleic acids are nucleotide polymers.
+- **[Coordination Compounds](../coordination/index):** Metal ions coordinate to biomolecules, hemoglobin (Fe²⁺ with heme), chlorophyll (Mg²⁺ with chlorin), and enzyme active sites often contain coordinated metals.
 - **[Solutions](../solutions/index):** Biomolecules dissolve in aqueous solutions, and their osmotic pressure is critical for biological function.
 - **[Surface Chemistry](../surface-chemistry/index):** Enzyme-substrate interactions involve surface adsorption, and cell membranes are organized by amphiphilic biomolecules.

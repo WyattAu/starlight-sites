@@ -34,7 +34,7 @@ Containerized environments. Key advantages over alternatives:
 | Docker Compose integration        | Excellent (labels on each service) | Separate container    | Good             |
 
 Traefik shines in a homelab because it eliminates manual proxy configuration. When you start a new
-Container with the right labels, Traefik picks it up and routes traffic immediately — no restart, no
+Container with the right labels, Traefik picks it up and routes traffic immediately, no restart, no
 Config file editing, no UI clicking.
 
 ## Prerequisites

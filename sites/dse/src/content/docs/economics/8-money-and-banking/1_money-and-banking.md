@@ -691,11 +691,11 @@ Per bank.
 
 ## Intuition
 
-**Money multiplies like rabbits:** Banks create money by lending out deposits — each loan becomes someone else's deposit, which gets lent again, creating a chain reaction. The money multiplier amplifies the initial deposit.
+**Money multiplies like rabbits:** Banks create money by lending out deposits, each loan becomes someone else's deposit, which gets lent again, creating a chain reaction. The money multiplier amplifies the initial deposit.
 
 **Why it matters:** Money creation affects inflation, interest rates, and economic growth. Understanding how banks create money explains why central banks control the money supply.
 
-**The key insight:** Banks don't just store money — they create it through lending, which is why a small reserve requirement can support a much larger money supply.
+**The key insight:** Banks don't just store money, they create it through lending, which is why a small reserve requirement can support a much larger money supply.
 
 ## Common Pitfalls
 
@@ -1220,7 +1220,7 @@ At the strong-side convertibility undertaking (7.75):
 If you get this wrong, revise:
 [The Hong Kong Monetary Authority (HKMA)](#the-hong-kong-monetary-authority-hkma)
 
-### Problem 6: Functions of Money — Bitcoin Evaluation
+### Problem 6: Functions of Money, Bitcoin Evaluation
 
 Evaluate Bitcoin against each of the four functions of money. Is Bitcoin likely to replace
 Conventional money in the foreseeable future?

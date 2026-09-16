@@ -168,7 +168,7 @@ void seeded_rng_demo() {
 
 :::tip
 Well-distributed initial state for the engine. This is important because the Mersenne Twister's
-Initialization algorithm has known weaknesses when given a single 32-bit seed — some bits of the
+Initialization algorithm has known weaknesses when given a single 32-bit seed, some bits of the
 Initial state may have low entropy. Using `seed_seq` with multiple entropy sources produces a better
 Initial state.
 :::
@@ -189,7 +189,7 @@ struct Histogram {
 
     explicit Histogram(double lo, double hi, int num_bins)
         : bins(num_bins)
-        , counts(num_bins, 0) {
+counts(num_bins, 0) {
         double step = (hi - lo) / num_bins;
         for (int i = 0; i < num_bins; ++i) {
             bins[i] = {lo + i * step, lo + (i + 1) * step};
@@ -318,7 +318,7 @@ void engine_serialization_demo() {
     // Generate more values
     std::cout << "More values: " << engine() << " " << engine() << "\n";
 
-    // Restore state — subsequent values will match the saved point
+    // Restore state, subsequent values will match the saved point
     std::istringstream iss(oss.str());
     iss >> engine;
 
@@ -383,7 +383,7 @@ Producing a well-distributed initial state from multiple entropy sources [N4950 
 
 void seed_seq_quality_demo() {
     // Weak initialization: single 32-bit seed
-    // Only 2^32 possible initial states — not enough for the 2^19937-1 period
+    // Only 2^32 possible initial states, not enough for the 2^19937-1 period
     std::mt19937 weak(42);
 
     // Strong initialization: seed_seq with multiple entropy sources
@@ -541,7 +541,7 @@ void engine_benchmark() {
                   << iterations << " values\n";
     }
 
-    // random_device (MUCH slower — OS syscall per call)
+    // random_device (MUCH slower, OS syscall per call)
     {
         std::random_device rd;
         auto start = steady_clock::now();
@@ -563,7 +563,7 @@ PRNG.
 ### Common Pitfalls
 
 1. **Seeding `mt19937` with a single 32-bit value:** The engine has 2496 bytes of state. A single
-   32-bit seed can only produce 2^32 distinct initial states — a tiny fraction of the engine's
+   32-bit seed can only produce 2^32 distinct initial states, a tiny fraction of the engine's
    2^19937-1 period. Use `std::seed_seq` with multiple entropy sources.
 
 2. **Using `mt19937` for cryptography:** The Mersenne Twister is **not** cryptographically secure.
@@ -583,7 +583,7 @@ PRNG.
    from `/dev/urandom` directly on POSIX systems.
 
 6. **Floating-point distribution bounds:** `std::uniform_real_distribution&lt;double>(0.0, 1.0)`
-   produces values in $[0.0, 1.0)$ — the upper bound is exclusive. If you need a closed interval
+   produces values in $[0.0, 1.0)$, the upper bound is exclusive. If you need a closed interval
    $[0.0, 1.0]$Use `std::uniform_real_distribution&lt;double>(0.0, std::nextafter(1.0, 2.0))`.
 
 ## Common Pitfalls

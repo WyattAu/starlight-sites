@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Energy — Diagnostic Tests
+## Energy, Diagnostic Tests
 
 ## Unit Tests
 
@@ -202,11 +202,11 @@ rather than eliminate impact.
 
 ## Intuition
 
-**Energy's many forms:** Energy is like money — it can be stored in different accounts (potential, kinetic, thermal) and transferred between them, but the total never changes (conservation of energy).
+**Energy's many forms:** Energy is like money, it can be stored in different accounts (potential, kinetic, thermal) and transferred between them, but the total never changes (conservation of energy).
 
 **Why it matters:** From fuel efficiency to renewable energy, understanding energy helps you make informed decisions about energy use and sustainability.
 
-**The key insight:** Energy cannot be created or destroyed — it only changes form. This is the first law of thermodynamics.
+**The key insight:** Energy cannot be created or destroyed, it only changes form. This is the first law of thermodynamics.
 
 
 ```mermaid

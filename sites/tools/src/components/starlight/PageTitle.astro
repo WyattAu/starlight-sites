@@ -2,12 +2,12 @@
 const { starlightRoute } = Astro.locals;
 const { entry, id } = starlightRoute;
 
-// Landing pages render the SubjectHero headline in PageFrame — no
+// Landing pages render the SubjectHero headline in PageFrame, no
 // breadcrumbs or duplicate <h1> here. Starlight normalizes the home
 // slug to an empty string.
 const isLanding = (id === '' || id === 'index') && entry.data.template === 'splash';
 
-// PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
+// PAGE_TITLE_ID is '_top', hardcoded to avoid import resolution issues in overrides
 const PAGE_TITLE_ID = '_top';
 
 const siteTitle = starlightRoute?.siteTitle || "Notes";

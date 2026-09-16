@@ -247,11 +247,11 @@ flowchart TD
 
 ## Intuition
 
-**Life's building blocks:** Cells are like factories — the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
+**Life's building blocks:** Cells are like factories, the nucleus is the management office, mitochondria are power plants, and ribosomes are assembly lines. Biochemical tests identify which molecules are present.
 
 **Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
 
-**The key insight:** Structure determines function — the shape of a protein determines what it does, and mutations that change shape can cause disease.
+**The key insight:** Structure determines function, the shape of a protein determines what it does, and mutations that change shape can cause disease.
 
 ## Integration Test 1: Biological Molecules and Biochemical Tests
 
@@ -459,7 +459,7 @@ contamination of the product.)
 
 ## Common Mistakes
 
-**Confusing prokaryotic and eukaryotic ribosome sizes:** Prokaryotes have 70S ribosomes (~20 nm) while eukaryotes have 80S ribosomes (~25 nm). Don't mix up which is larger — eukaryotic ribosomes are bigger.
+**Confusing prokaryotic and eukaryotic ribosome sizes:** Prokaryotes have 70S ribosomes (~20 nm) while eukaryotes have 80S ribosomes (~25 nm). Don't mix up which is larger, eukaryotic ribosomes are bigger.
 
 **Assuming all cells with no cell wall must be animal cells:** Protozoa like Amoeba are eukaryotic but lack cell walls. The absence of a cell wall alone doesn't prove a cell is from an animal.
 

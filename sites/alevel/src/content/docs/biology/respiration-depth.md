@@ -919,7 +919,7 @@ Evidence supporting endosymbiosis:
 
 ## Common Mistakes
 
-1. **Stating that glycolysis produces "2 ATP" without specifying net yield.** Glycolysis produces 4 ATP but uses 2 ATP, giving a net yield of 2 ATP. In examination answers, always specify the net yield. Also, glycolysis produces 2 molecules of pyruvate, 2 NADH, and 2 H₂O — not just ATP.
+1. **Stating that glycolysis produces "2 ATP" without specifying net yield.** Glycolysis produces 4 ATP but uses 2 ATP, giving a net yield of 2 ATP. In examination answers, always specify the net yield. Also, glycolysis produces 2 molecules of pyruvate, 2 NADH, and 2 H₂O, not just ATP.
 
 2. **Confusing the roles of NADH and FADH₂.** Both carry electrons to the ETC, but NADH donates at Complex I (pumping 10 H⁺ total) while FADH₂ donates at Complex II (pumping 6 H⁺ total). This means NADH generates approximately 2.5 ATP while FADH₂ generates approximately 1.5 ATP.
 

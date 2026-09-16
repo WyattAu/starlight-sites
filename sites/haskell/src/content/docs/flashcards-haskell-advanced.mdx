@@ -2,7 +2,7 @@
 
 date: 2026-07-23T22:34:31+01:00
 title: "Advanced Haskell Flashcards"
-description: "Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects — each builds on the"
+description: "Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects, each builds on the"
 sidebar_position: 51
 ---
 
@@ -18,11 +18,11 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-adva
 
 ## Intuition
 
-Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects — each builds on the previous, adding power. Monad transformers stack effects (e.g., Reader + State + IO) to build complex programs from simple, composable parts. Lenses let you focus deep into nested data structures immutably, like a surgical tool for updating one part of a record without touching the rest.
+Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects, each builds on the previous, adding power. Monad transformers stack effects (e.g., Reader + State + IO) to build complex programs from simple, composable parts. Lenses let you focus deep into nested data structures immutably, like a surgical tool for updating one part of a record without touching the rest.
 
 ## How to Use These Flashcards
 
-**First pass:** Go through all 15 cards without rating — just flip and read. Advanced concepts often require multiple passes before clicking.
+**First pass:** Go through all 15 cards without rating, just flip and read. Advanced concepts often require multiple passes before clicking.
 
 **Type-driven development:** Haskell's type system encodes vast amounts of information. Practice reading type signatures and predicting what a function does before seeing the implementation.
 
@@ -30,9 +30,9 @@ Advanced Haskell is about abstraction at the highest level. Functors, applicativ
 
 **Common Pitfalls**
 
-- **Monad transformer order matters**: `StateT s (ReaderT r IO) a` behaves differently from `ReaderT r (StateT s IO) a` — the outer transformer runs first, and mixing up the order changes which effects are visible where.
+- **Monad transformer order matters**: `StateT s (ReaderT r IO) a` behaves differently from `ReaderT r (StateT s IO) a`the outer transformer runs first, and mixing up the order changes which effects are visible where.
 - **Phantom types misuse**: A phantom type parameter (one not used in the type's definition) can enforce invariants at compile time, but forgetting to include it in data constructors leads to unsatisfiable constraints.
-- **Lens overuse**: Deep lens chains can be hard to read and debug — sometimes a plain pattern match or function composition is clearer.
+- **Lens overuse**: Deep lens chains can be hard to read and debug, sometimes a plain pattern match or function composition is clearer.
 - **Stack overflow from lazy IO:** Using lazy I/O (`readFile`, `hGetContents`) without forcing evaluation can cause the entire file to be held in memory as a thunk chain. Use strict I/O or `BangPatterns` for large files.
 - **Type family exhaustiveness:** Forgetting to add all cases to a closed type family leads to runtime errors when unexpected types are used. Always add a catch-all or document the complete set of cases.
 

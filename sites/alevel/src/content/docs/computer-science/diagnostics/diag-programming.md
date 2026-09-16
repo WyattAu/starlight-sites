@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Programming and OOP — Diagnostic Tests
+## Programming and OOP, Diagnostic Tests
 
 ## Unit Tests
 

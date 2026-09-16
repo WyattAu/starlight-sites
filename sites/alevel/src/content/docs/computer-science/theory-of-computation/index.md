@@ -57,36 +57,36 @@ classifies problems by their inherent difficulty.
 
 ### Finite State Machines (FSMs)
 
-- **Deterministic finite automata (DFA)** — states, transitions, accept/reject; modelling simple
+- **Deterministic finite automata (DFA)**, states, transitions, accept/reject; modelling simple
   pattern recognisers
-- **State transition diagrams** — drawing and interpreting FSMs
-- **State transition tables** — tabular representation of FSMs
-- **Mealy and Moore machines** — output-producing FSMs and their differences
+- **State transition diagrams**, drawing and interpreting FSMs
+- **State transition tables**, tabular representation of FSMs
+- **Mealy and Moore machines**, output-producing FSMs and their differences
 
 ### Regular Expressions
 
-- **Syntax and semantics** — concatenation, alternation (`|`), Kleene star (`*`), grouping
-- **Relationship to FSMs** — every regular expression has an equivalent FSM and vice versa
-- **Pattern matching** — using regular expressions for validation and searching
+- **Syntax and semantics**, concatenation, alternation (`|`), Kleene star (`*`), grouping
+- **Relationship to FSMs**, every regular expression has an equivalent FSM and vice versa
+- **Pattern matching**, using regular expressions for validation and searching
 
 ### Turing Machines
 
-- **Definition** — infinite tape, read/write head, finite state controller, transition function
-- **Universal Turing machine** — a TM that can simulate any other TM
-- **Church-Turing thesis** — any effectively computable function can be computed by a Turing machine
+- **Definition**, infinite tape, read/write head, finite state controller, transition function
+- **Universal Turing machine**, a TM that can simulate any other TM
+- **Church-Turing thesis**, any effectively computable function can be computed by a Turing machine
 
 ### Decidability and Computability
 
-- **Decidable problems** — problems for which an algorithm always produces a yes/no answer
-- **Undecidable problems** — the Halting Problem; proof by contradiction that no algorithm can
+- **Decidable problems**, problems for which an algorithm always produces a yes/no answer
+- **Undecidable problems**, the Halting Problem; proof by contradiction that no algorithm can
   determine whether an arbitrary program halts
-- **Implications** — why undecidability matters for real-world software engineering
+- **Implications**, why undecidability matters for real-world software engineering
 
 ### Computational Complexity
 
-- **P and NP classes** — problems solvable in polynomial time vs. verifiable in polynomial time
-- **NP-completeness** — the hardest problems in NP; no known polynomial-time solution
-- **Why this matters** — practical implications for cryptography, optimisation, and algorithm design
+- **P and NP classes**, problems solvable in polynomial time vs. verifiable in polynomial time
+- **NP-completeness**, the hardest problems in NP; no known polynomial-time solution
+- **Why this matters**, practical implications for cryptography, optimisation, and algorithm design
 
 ## Study Tips
 

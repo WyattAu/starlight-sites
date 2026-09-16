@@ -19,7 +19,7 @@ description: "Every piece of software you write, compile, or deploy is subject t
 
 Every piece of software you write, compile, or deploy is subject to copyright law by default. Under
 The Berne Convention (implemented in the US via the Copyright Act of 1976), copyright attaches
-Automatically the moment an original work is fixed in a tangible medium of expression — no
+Automatically the moment an original work is fixed in a tangible medium of expression, no
 Registration required, no notice required. This means that without an explicit license, nobody else
 Has any legal right to copy, modify, distribute, or use your software. The default state of all
 Software is "all rights reserved."
@@ -41,37 +41,37 @@ Patent provisions to address the intersection of copyright and patent rights in 
 Software licensing exists on a spectrum defined by how much freedom the license grants to downstream
 Users and what obligations it imposes in return:
 
-**Proprietary** — All rights reserved. The copyright holder grants limited, specific permissions (
+**Proprietary**, All rights reserved. The copyright holder grants limited, specific permissions (
 via an End User License Agreement, or EULA). No right to modify, redistribute, or even
 reverse-engineer. The license can be revoked and is often restricted to a specific number Of users,
 machines, or use cases.
 
-**Source-available** — Source code is published and readable, but modification and redistribution
+**Source-available**, Source code is published and readable, but modification and redistribution
 Rights are restricted. The code is visible but not "open source" in the OSI (Open Source Initiative)
 Sense. Examples: BSL (Business Source License), SSPL (Server Side Public License), Redis RSALv2.
 
-**Permissive open source** — Redistribution and modification are allowed with minimal obligations (
+**Permissive open source**, Redistribution and modification are allowed with minimal obligations (
 attribution and license notice inclusion). Downstream works can be proprietary. Examples: MIT,
 Apache 2.0, BSD, ISC.
 
-**Weak copyleft** — Modified files must remain under the same license, but the copyleft obligation
+**Weak copyleft**, Modified files must remain under the same license, but the copyleft obligation
 Does not propagate to unrelated files that merely link to the licensed work. The boundary of the
 "work" matters: only the covered files are subject to copyleft. Examples: LGPLv3 (linking boundary),
 MPL 2.0 (file boundary).
 
-**Strong copyleft** — Any derivative work must be distributed under the same copyleft license. The
+**Strong copyleft**, Any derivative work must be distributed under the same copyleft license. The
 Obligation propagates to the entire combined work, not just the modified files. Examples: GPLv2,
 GPLv3.
 
-**Network copyleft (AGPL)** — Extends strong copyleft obligations to network interactions. If users
+**Network copyleft (AGPL)**, Extends strong copyleft obligations to network interactions. If users
 Interact with the software over a network, you must provide the source to those users. This closes
 The "ASP loophole" (Application Service Provider loophole) that existed in GPLv2 and GPLv3, where
 Hosting software as a service did not trigger distribution requirements because no copy was being
 Conveyed.
 
-**Public domain** — The copyright holder waives all rights entirely. No restrictions, no
+**Public domain**, The copyright holder waives all rights entirely. No restrictions, no
 Obligations, no attribution required. The legal mechanism for achieving this varies by jurisdiction
-— not all legal systems recognize copyright waiver, which is why "public domain dedication" licenses
+- not all legal systems recognize copyright waiver, which is why "public domain dedication" licenses
 Include fallback provisions.
 
 ## Copyleft vs Permissive: Philosophy and Practice
@@ -82,7 +82,7 @@ About the purpose of software freedom:
 **Permissive licensing** (associated with the Open Source Initiative and the "open source" movement)
 Treats software freedom as a practical benefit. The goal is maximal adoption and reuse. If a company
 Takes MIT-licensed code, modifies it, and ships it in a closed-source commercial product, that is
-Considered a success — the code is being used, the user community benefits from the original
+Considered a success, the code is being used, the user community benefits from the original
 Release, and the author"s goal of broad adoption is served.
 
 **Copyleft licensing** (associated with the Free Software Foundation and the "free software"
@@ -105,7 +105,7 @@ Decisions that have licensing implications every day:
 
 **Dependency audits.** Every package you pull from npm, PyPI, Maven Central, Go modules, or any
 Other package registry carries a license. If you ship a product that includes a GPLv3-licensed
-Dependency, your entire product may need to be distributed under GPLv3 — and if you cannot do that
+Dependency, your entire product may need to be distributed under GPLv3, and if you cannot do that
 (because your product includes proprietary components), you cannot ship the product at all. You need
 To know what is in your dependency tree and what obligations those licenses impose. This is not a
 Theoretical concern: companies have been forced to rewrite products to remove GPL dependencies after
@@ -120,7 +120,7 @@ Damages of up to $150,000 per work infringed in the US.
 **Contributor agreements.** If you contribute to an open-source project, you may be asked to sign a
 Contributor License Agreement (CLA) or agree to a Developer Certificate of Origin (DCO). You need to
 Understand what rights you are granting, whether your employer retains rights to your contribution
-(check your employment contract — many employment agreements assign all intellectual property
+(check your employment contract, many employment agreements assign all intellectual property
 Created during employment to the employer), and whether the project's license allows your employer
 To use your contribution.
 
@@ -132,7 +132,7 @@ Better dependency choices and avoid introducing compliance risk.
 
 **Containerization and distribution.** Shipping a Docker image that bundles multiple dependencies
 Raises the question: does distributing a container count as distributing the software inside it? The
-Answer is almost certainly yes — a container image is a distributable artifact that contains copies
+Answer is almost certainly yes, a container image is a distributable artifact that contains copies
 Of the software. This triggers copyleft obligations for any GPL-licensed components in the image,
 And it means license notices must be included.
 
@@ -162,7 +162,7 @@ Components or you are committing copyright infringement.
 **Derivative work.** A work based upon one or more preexisting works, such as a modification,
 Enhancement, adaptation, or translation. In US copyright law (17 U.S.C. § 101), this is a term of
 Art with specific legal meaning. For software, modifying source code unambiguously creates a
-Derivative work. The critical ambiguity — and the source of enormous legal debate — is whether
+Derivative work. The critical ambiguity, and the source of enormous legal debate, is whether
 Linking (static or dynamic) to a library creates a derivative work of that library. Copyleft
 Licenses differ significantly in how they handle this ambiguity: GPL takes the strict view that
 Linking creates a derivative work, LGPL explicitly creates an exception for dynamic linking, and MPL
@@ -176,14 +176,14 @@ Or secondarily liable for infringement. Distribution involves transferring a cop
 physical media, electronic download, or (under AGPL) making the software available over a Network.
 
 **Sublicense.** To grant rights to a third party that are a subset of (or equal to) the rights you
-Hold. Permissive licenses like MIT and Apache 2.0 allow sublicensing — you can take MIT-licensed
+Hold. Permissive licenses like MIT and Apache 2.0 allow sublicensing, you can take MIT-licensed
 Code, modify it, and distribute the result under a different license (including a proprietary
 License), as long as you comply with the attribution requirements. Copyleft licenses like GPL do not
-Allow sublicensing in this sense — downstream recipients receive their license directly from the
+Allow sublicensing in this sense, downstream recipients receive their license directly from the
 Copyright holder, not from you. The distinction matters for license compatibility analysis.
 
 **Patent grant.** A provision in a license that explicitly grants users a license to any patents
-Held by the contributors that cover the software. MIT has no patent grant — it is silent on patents
+Held by the contributors that cover the software. MIT has no patent grant, it is silent on patents
 Entirely, which means users have no explicit patent protection from contributors. Apache 2.0 has an
 Explicit patent grant (Section 3) with retaliation provisions (Section 3.3). GPLv3 includes an
 Implicit patent grant through its license conditions: the license grants permission to "do
@@ -195,14 +195,14 @@ Same license terms. The term was coined by Richard Stallman in the 1980s. Copyle
 Copyright law to enforce the opposite of the usual copyright paradigm: instead of "all rights
 Reserved," it is "some rights reserved, and you must pass those same rights along to downstream
 Recipients." The mechanism relies on the fact that without a license, copying and distributing the
-Work is copyright infringement — the copyleft license grants permission conditional on the copyleft
+Work is copyright infringement, the copyleft license grants permission conditional on the copyleft
 Requirement being met.
 
 **Viral license.** A pejorative term for copyleft licenses, referring to the way copyleft
 Obligations propagate from the licensed work to derivative works. While commonly used in industry
 Discourse, the term is misleading. Copyleft is not a virus; it is a conditional grant of rights. If
 You do not want the conditions (i.e., you do not want to release your derivative work under the same
-License), you can decline the license — but then you have no right to copy, modify, or Distribute
+License), you can decline the license, but then you have no right to copy, modify, or Distribute
 the software at all.
 
 **Contributor License Agreement (CLA).** A legal agreement in which a contributor grants the project
@@ -218,17 +218,17 @@ Proprietary terms).
 Certifies ( by adding a `Signed-off-by:` line to the commit message) that they have the Legal right
 to submit the contribution and that the contribution complies with the project's License. The Linux
 kernel uses DCO (enforced by the `checkpatch` tool) instead of CLAs. Unlike CLAs, DCOs do not
-transfer any additional rights — they verify that the contributor has the rights They are purporting
+transfer any additional rights, they verify that the contributor has the rights They are purporting
 to grant under the project's license.
 
 ## What This Section Covers
 
 This licensing section is divided into two parts:
 
-- **This page** — conceptual foundations: what licensing is, why it matters, the spectrum of license
+- **This page**, conceptual foundations: what licensing is, why it matters, the spectrum of license
   types, the philosophical and practical differences between copyleft and permissive approaches, and
   the terminology you need to understand license texts.
-- **[Software Licensing](software-licensing)** — a detailed reference covering specific licenses
+- **[Software Licensing](software-licensing)**, a detailed reference covering specific licenses
   (AGPLv3, GPLv3, LGPLv3, GPLv2, MPL 2.0, MIT, Apache 2.0, BSD 2/3-Clause, ISC, 0BSD, CC0,
   Unlicense, WTFPL, BSL, SSPL), compliance obligations for distribution, linking, containers, and
   SaaS, practical guidance for dependency auditing, a comparison table across all major dimensions,

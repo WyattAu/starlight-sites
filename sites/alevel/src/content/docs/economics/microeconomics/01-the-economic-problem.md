@@ -27,7 +27,7 @@ categories:
 We define **scarcity** as the condition in which human wants exceed the resources available to
 Satisfy them. Formally, if we denote the set of all desired goods and services by $\mathcal{W}$ and
 The set of all producible goods and services by $\mathcal{P}$ Then scarcity is the statement that
-$\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition — it is a permanent feature
+$\mathcal{W} \supsetneq \mathcal{P}$. This is not a temporary condition, it is a permanent feature
 Of human existence, because wants are effectively unlimited while resources (land, labour, capital,
 Entrepreneurship) are finite.
 
@@ -41,7 +41,7 @@ Of scarcity and opportunity cost.
 ### 1.2 Choice
 
 **Choice** is the act of selecting among alternative uses of scarce resources. Given scarcity, every
-Economic agent — whether a household, firm, or government — must decide _how_ to allocate limited
+Economic agent, whether a household, firm, or government, must decide _how_ to allocate limited
 Resources among competing ends. We model choice formally as an optimisation problem: the agent
 Maximises an objective function subject to constraints.
 
@@ -52,12 +52,12 @@ As a result of that decision.
 
 $$\mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}$$
 
-Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives —
+Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives,
 Only the single best one that was rejected.
 
 :::caution
 spend £10 on a book When your next-best option is a film ticket costing £10, the opportunity cost is
-the film ticket — Not the book, not the £10 itself, and not the film ticket _plus_ a coffee.
+the film ticket, Not the book, not the £10 itself, and not the film ticket _plus_ a coffee.
 :::
 <details>
 <summary>Example</summary>
@@ -82,7 +82,7 @@ Opportunity cost operates at every level of the economy:
   could have used that capital to acquire a smaller competitor. The opportunity cost is the forgone
   acquisition revenue.
 - **Governments**: If the UK government spends GBP 40 billion on a high-speed rail project, the
-  opportunity cost is the alternative public services that money could have funded — NHS capacity,
+  opportunity cost is the alternative public services that money could have funded, NHS capacity,
   school building programmes, or tax cuts.
 
 Opportunity cost also has a **time dimension**. Short-run opportunity costs may differ from long-run
@@ -95,7 +95,7 @@ Horizons.
 The concept of opportunity cost, while fundamental, has limitations. In practice, measuring the
 "value" of the next-best alternative is often subjective and difficult to quantify. How does one
 Compare the utility of three years of travel against three years of work experience? The assumption
-That individuals can identify and rank all alternatives is itself questionable — behavioural
+That individuals can identify and rank all alternatives is itself questionable, behavioural
 Economics shows that people suffer from _choice overload_ and often fail to consider relevant
 Alternatives (Simon, 1955). Furthermore, in macroeconomic policy, the "next-best alternative" is
 Itself contested: economists disagree on what the government _would have done_ with resources not
@@ -115,15 +115,15 @@ $$
 \end{aligned}
 $$
 
-This constrained optimisation problem is the foundation of consumer theory. The solution — the
-Consumer's optimal bundle — depends on the shape of the utility function and the budget constraint.
+This constrained optimisation problem is the foundation of consumer theory. The solution, the
+Consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
 
 **Satisficing** is an alternative model (Simon, 1955): agents choose the first option that meets a
-Minimum acceptable threshold, rather than optimising. This accounts for bounded rationality —
+Minimum acceptable threshold, rather than optimising. This accounts for bounded rationality,
 Limited cognitive capacity and information.
 
 :::note
-places particular Emphasis on _behavioural_ challenges to rationality — be prepared to discuss how
+places particular Emphasis on _behavioural_ challenges to rationality, be prepared to discuss how
 bounded Rationality, heuristics, and framing effects undermine the assumption of rational utility
 Maximisation. CIE (9708) focuses more narrowly on the formal optimisation framework in Paper 2 essay
 Questions.
@@ -158,11 +158,11 @@ Product in $Y$ is also diminishing, then:
 $$\frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}$$
 
 As $L_X$ increases, $f'_X(L_X)$ decreases (diminishing returns). As $L_Y$ decreases, $f'_Y(L_Y)$
-Increases. Therefore $\left|\frac{dy}{dx}\right|$ increases — the slope becomes steeper, producing
+Increases. Therefore $\left|\frac{dy}{dx}\right|$ increases, the slope becomes steeper, producing
 Concavity. $\blacksquare$
 
-A **linear PPF** (straight line) arises when resources are perfectly adaptable — the opportunity
-Cost of $X$ in terms of $Y$ is constant. A **convex PPF** would imply decreasing opportunity cost —
+A **linear PPF** (straight line) arises when resources are perfectly adaptable, the opportunity
+Cost of $X$ in terms of $Y$ is constant. A **convex PPF** would imply decreasing opportunity cost,
 Rare but possible if there are economies of scale.
 
 :::note
@@ -173,12 +173,12 @@ OCR tends To focus more on the _policy implications_ of PPF shifts.
 #### Evaluation of PPF Assumptions
 
 The standard PPF model rests on several simplifying assumptions that limit its real-world
-Applicability. The assumption of only two goods is unrealistic — modern economies produce Millions
+Applicability. The assumption of only two goods is unrealistic, modern economies produce Millions
 of goods and services. The two-good model is a pedagogical simplification; in reality, the PPF is a
 multi-dimensional surface that cannot be drawn. Additionally, the model assumes that Resources are
 fixed in quantity and quality during the analysis period. In practice, resources Change
 continuously: workers gain experience (learning by doing), capital depreciates, and Technology
-evolves even over short timeframes. Finally, the PPF assumes all resources are Homogeneous — that
+evolves even over short timeframes. Finally, the PPF assumes all resources are Homogeneous, that
 any unit of labour can be switched between sectors. This ignores skill Differences, geographic
 immobility, and occupational immobility, all of which make real-world Reallocation slower and
 costlier than the model suggests.
@@ -201,7 +201,7 @@ $$\mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}$$
 Where $\mathrm{MRT}_{XY} = \left|\frac{dy}{dx}\right|$ is the slope of the PPF and
 $\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$ is the ratio of marginal utilities.
 
-A point inside the PPF represents inefficiency — resources are unemployed or misallocated. A point
+A point inside the PPF represents inefficiency, resources are unemployed or misallocated. A point
 Outside the PPF is unattainable given current resources and technology.
 
 <details>
@@ -227,7 +227,7 @@ Cost rises as gun production increases.
 **Productive inefficiency** is widespread during economic downturns. The UK during the 2008
 Financial crisis is a clear example: GDP fell by over 6% from peak to trough, representing a
 Movement inside the PPF as workers and factories sat idle. The COVID-19 pandemic in 2020 produced an
-Even sharper contraction — the UK economy shrank by 9.9% in a single year as lockdowns forced
+Even sharper contraction, the UK economy shrank by 9.9% in a single year as lockdowns forced
 Businesses to close.
 
 **Allocative inefficiency** can occur even when an economy is on its PPF. Consider an economy at
@@ -239,7 +239,7 @@ Military output alongside chronic shortages of consumer goods.
 The concept of **Pareto efficiency** is closely related: an allocation is Pareto efficient if no one
 Can be made better off without making someone else worse off. Every point on the PPF is Pareto
 Efficient in production, but different points on the PPF represent different distributions of output
-— and hence different distributions of welfare between consumers of $X$ and $Y$.
+- and hence different distributions of welfare between consumers of $X$ and $Y$.
 
 ### 2.4 Shifts of the PPF
 
@@ -256,10 +256,10 @@ The PPF can shift due to:
 
 Not all PPF shifts are equally beneficial. An outward shift driven by capital accumulation may come
 At the cost of current consumption (the classic guns vs butter trade-off). An economy that invests
-Heavily in capital goods today sacrifices current living standards for future growth — but if the
+Heavily in capital goods today sacrifices current living standards for future growth, but if the
 Investment is misdirected (e.g., ghost cities in China), the outward shift may not materialise.
 Similarly, resource discovery (such as North Sea oil in the 1970s) can shift the PPF outward but may
-Also cause "Dutch disease" — the resource sector crowds out manufacturing, leading to
+Also cause "Dutch disease", the resource sector crowds out manufacturing, leading to
 Deindustrialisation. The net effect on welfare depends on how the additional output is distributed
 And whether it satisfies society's most pressing needs.
 
@@ -277,7 +277,7 @@ We compare three systems using PPF analysis:
 | PPF position | Near frontier      | Often inside frontier     | Between  |
 
 **Free market economies** tend to operate near the PPF because price signals allocate resources
-Efficiently. However, they may not achieve allocative efficiency (due to market failure — see Topic
+Efficiently. However, they may not achieve allocative efficiency (due to market failure, see Topic
 3).
 
 **Command economies** often operate inside the PPF because central planners lack the information to
@@ -301,12 +301,12 @@ Correct market failures and promote equity.
 #### Evaluation of Economic Systems
 
 The comparison between economic systems is more nuanced than the textbook model suggests. Pure
-Command and pure market economies are theoretical extremes — no real economy operates at either
+Command and pure market economies are theoretical extremes, no real economy operates at either
 Pole. China's economy, for instance, combines state-owned enterprises in strategic sectors with
 Vigorous private enterprise in consumer goods and technology. The "information problem" identified
 By Hayek (1945) and Mises (1920) remains the strongest theoretical argument against central
 Planning: no planner can possess the dispersed, tacit knowledge held by millions of individuals.
-However, market economies also suffer from information problems — asymmetric information between
+However, market economies also suffer from information problems, asymmetric information between
 Buyers and sellers can lead to market failure (Akerlof, 1970). The optimal degree of government
 Intervention remains one of the central debates in economics and depends on the specific context:
 The effectiveness of institutions, the nature of the goods being produced, and societal values
@@ -323,12 +323,12 @@ Essay questions frequently ask students to assess the relative merits of differe
 
 ### 3.1 Definitions
 
-A **positive statement** is a claim about what _is_ — it can be tested against evidence and is
+A **positive statement** is a claim about what _is_, it can be tested against evidence and is
 Either true or false.
 
 $$\mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}$$
 
-A **normative statement** is a claim about what _ought to be_ — it involves value judgements and
+A **normative statement** is a claim about what _ought to be_, it involves value judgements and
 Cannot be tested.
 
 $$\mathrm{Example: "The government should increase the minimum wage."}$$
@@ -366,7 +366,7 @@ While the positive-normative distinction is a useful analytical tool, it is not 
 Practice. Some statements blend positive and normative elements. For example, "The government should
 Raise the minimum wage because it reduces poverty" contains a normative claim ("should raise")
 Embedded within a positive claim ("reduces poverty"). The effectiveness of the positive claim does
-Not settle the normative debate — even if a minimum wage reduces poverty, one could still argue
+Not settle the normative debate, even if a minimum wage reduces poverty, one could still argue
 Against it on the grounds that it causes unemployment. Furthermore, the choice of what to study (the
 Research agenda itself) is shaped by normative concerns. Economists who prioritise research into
 Inequality are making a value judgement about what matters. The positive-normative distinction is
@@ -426,7 +426,7 @@ Specialisation extends far beyond individual workers:
 
 - **Firm-level specialisation**: Companies like TSMC specialise entirely in semiconductor
   fabrication, while Apple focuses on design and software.
-- **International specialisation**: Countries specialise according to comparative advantage — Saudi
+- **International specialisation**: Countries specialise according to comparative advantage, Saudi
   Arabia in oil extraction, New Zealand in dairy, Japan in advanced manufacturing.
 - **Occupational specialisation**: The division of labour within a hospital (surgeons,
   anaesthetists, nurses, radiologists) enables complex procedures that no single individual could
@@ -438,8 +438,8 @@ While specialisation drives productivity gains, it carries significant risks. Ex
 Specialisation makes workers vulnerable to structural unemployment when technology or demand
 Changes. The decline of manufacturing employment in the UK (from over 25% of the workforce in 1979
 To under 8% today) illustrates this: workers with highly specific skills struggled to find new
-Employment when factories closed. Moreover, extreme division of labour can lead to **alienation** —
-A concept developed by Karl Marx — where workers lose connection to the final product and find their
+Employment when factories closed. Moreover, extreme division of labour can lead to **alienation**,
+A concept developed by Karl Marx, where workers lose connection to the final product and find their
 Work meaningless. Henry Ford's assembly lines achieved extraordinary productivity but also produced
 High worker turnover until he introduced the USD 5/day wage in 1914. The gig economy represents a
 Partial reversal: platforms like Uber allow flexible, multi-task work but sacrifice the productivity
@@ -463,7 +463,7 @@ About globalisation and its discontents.
 
 ### Limitations
 
-- Assumes only two goods — the real economy produces millions
+- Assumes only two goods, the real economy produces millions
 - Assumes resources are homogeneous within each category
 - Assumes a given state of technology (static analysis)
 - Cannot capture dynamic changes (innovation, learning by doing)
@@ -476,7 +476,7 @@ Future growth.
 :::
 #### Additional Evaluation Points
 
-- **Dynamic efficiency**: The PPF is a static model — it captures a snapshot in time. In reality,
+- **Dynamic efficiency**: The PPF is a static model, it captures a snapshot in time. In reality,
   economies that sacrifice current consumption for investment in capital goods and R&D may achieve
   _faster_ PPF growth over time (dynamic efficiency). South Korea's rapid industrialisation from the
   1960s onwards exemplifies this: high savings and investment rates drove sustained outward shifts
@@ -523,7 +523,7 @@ Effect on the PPF.
 
 <details>
 <summary>Hint</summary>
-This is an asymmetric shock — it affects food production capacity but not directly clothing. The PPF pivots inward on the $F$-axis but the $C$-intercept may not change (since resources can be moved from food to clothing, but the food sector's maximum output is reduced).
+This is an asymmetric shock, it affects food production capacity but not directly clothing. The PPF pivots inward on the $F$-axis but the $C$-intercept may not change (since resources can be moved from food to clothing, but the food sector's maximum output is reduced).
 </details>
 
 **Problem 5.** Classify each statement as positive or normative, explaining your reasoning: (a) "The
@@ -533,7 +533,7 @@ Ought to raise taxes on the wealthy."
 
 <details>
 <summary>Hint</summary>
-(a) Positive — factual, testable. (b) Normative — "unacceptable" is a value judgement. (c) Positive — a counterfactual claim that could be estimated empirically. (d) Normative — "ought to" signals a value judgement about what should be done.
+(a) Positive, factual, testable. (b) Normative, "unacceptable" is a value judgement. (c) Positive, a counterfactual claim that could be estimated empirically. (d) Normative, "ought to" signals a value judgement about what should be done.
 </details>
 
 **Problem 6.** Using the PPF model, explain how an increase in the quality of education (e.g., more
@@ -542,7 +542,7 @@ The long run.
 
 <details>
 <summary>Hint</summary>
-Better education improves human capital $\Rightarrow$ resources become more productive $\Rightarrow$ PPF shifts outward. If education specifically enhances the productivity of capital goods production (engineers, scientists), the outward shift may be asymmetric — larger for capital goods. In the long run, more capital goods today $\Rightarrow$ even more outward shift in the future.
+Better education improves human capital $\Rightarrow$ resources become more productive $\Rightarrow$ PPF shifts outward. If education specifically enhances the productivity of capital goods production (engineers, scientists), the outward shift may be asymmetric, larger for capital goods. In the long run, more capital goods today $\Rightarrow$ even more outward shift in the future.
 </details>
 
 **Problem 7.** A student has 6 hours to revise for two exams: Economics and Mathematics. Her
@@ -569,7 +569,7 @@ War ends (c) Why a market economy might make different choices
 
 <details>
 <summary>Hint</summary>
-(a) All production at the military goods intercept of the PPF — zero consumer goods. (b) Capital stock depreciates, infrastructure decays $\Rightarrow$ PPF shifts inward post-war (the "peace dividend" in reverse). (c) In a market economy, consumer demand for food, housing, etc. Would push production toward a more balanced point, though government could still intervene.
+(a) All production at the military goods intercept of the PPF, zero consumer goods. (b) Capital stock depreciates, infrastructure decays $\Rightarrow$ PPF shifts inward post-war (the "peace dividend" in reverse). (c) In a market economy, consumer demand for food, housing, etc. Would push production toward a more balanced point, though government could still intervene.
 </details>
 
 **Problem 10.** "The concept of opportunity cost implies that there is no such thing as a free
@@ -577,7 +577,7 @@ Lunch." Discuss this statement with reference to the PPF model.
 
 <details>
 <summary>Hint</summary>
-Even a "free" school meal costs resources that could have been used elsewhere (teacher salaries, ingredients, kitchen equipment). The opportunity cost is the next-best use of those resources. Formally: if resources are on the PPF, producing more of anything requires giving up something else. If resources are inside the PPF, "free" goods may use unemployed resources — but even then, there may be alternative uses for those resources.
+Even a "free" school meal costs resources that could have been used elsewhere (teacher salaries, ingredients, kitchen equipment). The opportunity cost is the next-best use of those resources. Formally: if resources are on the PPF, producing more of anything requires giving up something else. If resources are inside the PPF, "free" goods may use unemployed resources, but even then, there may be alternative uses for those resources.
 </details>
 
 **Problem 11.** An economy produces capital goods ($K$) and consumer goods ($C$) with PPF
@@ -588,7 +588,7 @@ Justified for a developing economy seeking long-term growth.
 
 <details>
 <summary>Hint</summary>
-(a) At $K = 10$: $C = 400 - 100 = 300$. The point $(10, 300)$ lies exactly on the PPF — productively efficient.
+(a) At $K = 10$: $C = 400 - 100 = 300$. The point $(10, 300)$ lies exactly on the PPF, productively efficient.
 (b) At $K = 15$: $C = 400 - 225 = 175$. Opportunity cost = $300 - 175 = 125$ units of consumer goods.
 (c) Evaluation: In the short run, consumers experience a significant reduction in living standards. However, increased capital goods production expands productive capacity, shifting the PPF outward in future periods. This is the fundamental trade-off faced by developing economies like China and South Korea. Whether it is justified depends on the marginal productivity of the additional capital, the time horizon, and the social cost of reduced current consumption.
 </details>
@@ -601,7 +601,7 @@ Either a pure market or a pure command economy." To what extent do you agree wit
 <summary>Hint</summary>
 This is an evaluative essay question typical of AQA and Edexcel A Level papers. Structure your answer as follows:
 - **Agree**: Mixed economies can correct market failures (public goods, externalities, information asymmetries) through government intervention while retaining the efficiency of the price mechanism for most goods. The Nordic countries combine high living standards with strong social safety nets.
-- **Disagree**: Government intervention can itself cause inefficiency — government failure (regulatory capture, bureaucratic waste, distortionary taxes). The "optimal" mix varies by context. Hong Kong's minimal government approach produced high growth; Sweden's extensive welfare state also produces high living standards.
+- **Disagree**: Government intervention can itself cause inefficiency, government failure (regulatory capture, bureaucratic waste, distortionary taxes). The "optimal" mix varies by context. Hong Kong's minimal government approach produced high growth; Sweden's extensive welfare state also produces high living standards.
 - **Conclusion**: There is no universally optimal mix. The effectiveness of a mixed economy depends on the quality of institutions, the nature of market failures present, and societal preferences regarding equity vs efficiency.
 </details>
 
@@ -622,7 +622,7 @@ Effect on car production, explain how the PPF changes.
 <details>
 <summary>Hint</summary>
 (a) The PPF connects (0, 200) to (100, 0). Assuming increasing opportunity cost (concave shape), the curve bows outward from the origin. This reflects that resources are not perfectly adaptable between car manufacturing and wheat farming.
-(b) The opportunity cost depends on the shape of the PPF. If we assume a linear PPF for simplicity (constant opportunity cost), the slope is $-200/100 = -2$ So each car costs 2 units of wheat. If the PPF is concave, the opportunity cost at 50 cars is greater than at 0 cars — resources less suited to car production must be transferred from wheat farming.
+(b) The opportunity cost depends on the shape of the PPF. If we assume a linear PPF for simplicity (constant opportunity cost), the slope is $-200/100 = -2$ So each car costs 2 units of wheat. If the PPF is concave, the opportunity cost at 50 cars is greater than at 0 cars, resources less suited to car production must be transferred from wheat farming.
 (c) This is an asymmetric outward shift. The wheat intercept doubles from 200 to 400, but the car intercept remains at 100. The new PPF connects (0, 400) to (100, 0), pivoting outward on the vertical axis. This represents a sector-specific technological improvement.
 </details>
 
@@ -632,7 +632,7 @@ Explaining how consumers actually behave in markets. [25 marks]
 <details>
 <summary>Hint</summary>
 This question requires evaluating the assumptions of rational choice theory against evidence from behavioural economics.
-- **Arguments that rationality is limited**: Kahneman and Tversky's prospect theory shows that people are loss-averse — they value losses more heavily than equivalent gains, violating the rational assumption of symmetric preferences. Thaler's mental accounting shows people treat money differently depending on its source (e.g., spending bonus income more freely than salary). Present bias (hyperbolic discounting) leads people to underinvest in long-term goods like pensions. Framing effects mean the same choice presented differently produces different decisions.
+- **Arguments that rationality is limited**: Kahneman and Tversky's prospect theory shows that people are loss-averse, they value losses more heavily than equivalent gains, violating the rational assumption of symmetric preferences. Thaler's mental accounting shows people treat money differently depending on its source (e.g., spending bonus income more freely than salary). Present bias (hyperbolic discounting) leads people to underinvest in long-term goods like pensions. Framing effects mean the same choice presented differently produces different decisions.
 - **Arguments that rationality remains useful**: Despite these deviations, the rational model provides strong predictive power for aggregate market behaviour. Firms use rational models effectively for pricing and production decisions. Behavioural deviations are often systematic and can be incorporated into extended models (e.g., incorporating probability weighting into expected utility). The rational model remains the benchmark against which deviations are measured.
 - **Conclusion**: Rational decision making is a simplification, but it remains the foundation of economic analysis. Its limitations are well-documented, and behavioural economics provides valuable corrections. For A Level purposes, acknowledge both the predictive power and the empirical limitations.
 </details>
@@ -658,15 +658,15 @@ This question requires evaluating the assumptions of rational choice theory agai
 :::
 ## Common Mistakes
 
-1. **Defining opportunity cost as "everything you give up."** Opportunity cost is the value of the _next-best_ alternative only, not the sum of all alternatives. If you spend £10 on a book when your next-best option is a £10 film ticket, the opportunity cost is the film ticket alone — not the film ticket plus a coffee.
+1. **Defining opportunity cost as "everything you give up."** Opportunity cost is the value of the _next-best_ alternative only, not the sum of all alternatives. If you spend £10 on a book when your next-best option is a £10 film ticket, the opportunity cost is the film ticket alone, not the film ticket plus a coffee.
 
 2. **Confusing positive and normative statements.** A positive statement is testable ("inflation is 3.2%") while a normative statement involves value judgements ("inflation is too high"). Look for trigger words like "should," "ought," "fair," and "too much" to identify normative statements.
 
 3. **Drawing the PPF as convex (bowed inward).** The PPF is CONCAVE (bowed outward from the origin) because resources are not perfectly adaptable between uses, causing increasing opportunity costs. A linear PPF implies constant opportunity costs, which is a special case, not the norm.
 
-4. **Assuming all points inside the PPF represent unemployment.** A point inside the PPF can also represent productive inefficiency — resources are employed but misallocated (e.g., highly skilled workers doing unskilled tasks). Not all inefficiency is due to unemployment.
+4. **Assuming all points inside the PPF represent unemployment.** A point inside the PPF can also represent productive inefficiency, resources are employed but misallocated (e.g., highly skilled workers doing unskilled tasks). Not all inefficiency is due to unemployment.
 
-5. **Misunderstanding the difference between scarcity and shortage.** Scarcity is a permanent condition — wants always exceed available resources. A shortage is a temporary market situation where quantity demanded exceeds quantity supplied at the current price. Scarcity exists even when there is no shortage.
+5. **Misunderstanding the difference between scarcity and shortage.** Scarcity is a permanent condition, wants always exceed available resources. A shortage is a temporary market situation where quantity demanded exceeds quantity supplied at the current price. Scarcity exists even when there is no shortage.
 
 ## 8. Advanced Worked Examples
 
@@ -1016,9 +1016,9 @@ each approach.
 
 ## Intuition
 
-The economic problem is simple: we want more than we can have. Scarcity forces every choice to be a trade-off. When you spend £10 on a book, you can't spend that same £10 on a film ticket. The opportunity cost is the film ticket — the best thing you gave up. This is the foundation of all economic reasoning.
+The economic problem is simple: we want more than we can have. Scarcity forces every choice to be a trade-off. When you spend £10 on a book, you can't spend that same £10 on a film ticket. The opportunity cost is the film ticket, the best thing you gave up. This is the foundation of all economic reasoning.
 
-The production possibility frontier (PPF) is the visual representation of scarcity. Points inside the curve are inefficient (waste). Points on the curve are efficient (maximum output). Points outside are unattainable with current resources. Economic growth shifts the curve outward. The slope of the PPF shows the opportunity cost — how much of one good you sacrifice to get more of the other. A steep slope means high opportunity cost; a gentle slope means low opportunity cost.
+The production possibility frontier (PPF) is the visual representation of scarcity. Points inside the curve are inefficient (waste). Points on the curve are efficient (maximum output). Points outside are unattainable with current resources. Economic growth shifts the curve outward. The slope of the PPF shows the opportunity cost, how much of one good you sacrifice to get more of the other. A steep slope means high opportunity cost; a gentle slope means low opportunity cost.
 
 ## See Also
 

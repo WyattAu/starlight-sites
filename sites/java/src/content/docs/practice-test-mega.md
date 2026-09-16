@@ -1,5 +1,5 @@
 ---
-title: "Java Programming Practice Test — 30 Problems"
+title: "Java Programming Practice Test, 30 Problems"
 description: "30 Java programming problems covering OOP, Collections, Concurrency, Streams, and Exceptions. Code analysis and debugging with detailed explanations."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## Java Programming Practice Test — 30 Problems
+## Java Programming Practice Test, 30 Problems
 
 This practice test covers 30 problems across five major domains of Java programming: Object-Oriented Programming, Collections Framework, Concurrency, Streams API, and Exception Handling. Each problem tests code analysis, debugging, and understanding of Java semantics. Work through all problems before checking the answer key.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Code analysis and debugging — trace the output, identify errors, or select the correct implementation
+- **Format:** Code analysis and debugging, trace the output, identify errors, or select the correct implementation
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Trace code by hand.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any problems you got wrong.
@@ -47,7 +47,7 @@ This practice test covers 30 problems across five major domains of Java programm
 
 ## Object-Oriented Programming (P1–P7)
 
-### P1 — Polymorphism and Method Dispatch
+### P1, Polymorphism and Method Dispatch
 
 What is the output of the following code?
 
@@ -83,13 +83,13 @@ public class Main {
 
 **Correct: A** (index 0)
 
-The variable `a` is declared as `Animal` but references a `Puppy` instance. `a.speak()` uses dynamic dispatch — it calls `Puppy.speak()` (outputs "Puppy "). The cast `(Dog) a` succeeds because `Puppy` is-a `Dog`. `(Dog) a).speak()` also uses dynamic dispatch on the same `Puppy` object, calling `Puppy.speak()` again. Both calls output "Puppy".
+The variable `a` is declared as `Animal` but references a `Puppy` instance. `a.speak()` uses dynamic dispatch, it calls `Puppy.speak()` (outputs "Puppy "). The cast `(Dog) a` succeeds because `Puppy` is-a `Dog`. `(Dog) a).speak()` also uses dynamic dispatch on the same `Puppy` object, calling `Puppy.speak()` again. Both calls output "Puppy".
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P2 — Interface Default Methods
+### P2, Interface Default Methods
 
 What is the output?
 
@@ -120,7 +120,7 @@ public class Main {
 | --- | --- |
 | A | `Hello colleague` |
 | B | `Dear colleague` |
-| C | Compiler error — ambiguous default method |
+| C | Compiler error, ambiguous default method |
 | D | `Hello Dear colleague` |
 | E | ClassCastException |
 
@@ -128,11 +128,11 @@ public class Main {
 
 When a class implements two interfaces with the same default method, the compiler requires the class to override the method and explicitly choose which interface's version to call. `Diplomat` overrides `greet()`, calls `Greetable.super.greet()` (outputs "Hello "), then prints "colleague".
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P3 — Records and Immutability
+### P3, Records and Immutability
 
 What is the output?
 
@@ -164,13 +164,13 @@ public class Main {
 
 **Correct: B** (index 1)
 
-Records generate `equals()` based on component values, so `p1.equals(p2)` is `true`. However, `==` compares references — `p1` and `p2` are different objects, so `p1 == p2` is `false`. `p1.x()` returns 3, `p2.y()` returns 4, sum is 7.
+Records generate `equals()` based on component values, so `p1.equals(p2)` is `true`. However, `==` compares references, `p1` and `p2` are different objects, so `p1 == p2` is `false`. `p1.x()` returns 3, `p2.y()` returns 4, sum is 7.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P4 — Sealed Classes
+### P4, Sealed Classes
 
 Which statement about sealed classes in Java 17+ is correct?
 
@@ -186,11 +186,11 @@ Which statement about sealed classes in Java 17+ is correct?
 
 A sealed class restricts which classes may extend it by listing `permits` in the class declaration. Each permitted subclass must be declared `final` (no further extension), `sealed` (further restricted), or `non-sealed` (opens the hierarchy back up). Permitted subclasses can be in different packages if they are in the same module.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P5 — Equals and HashCode Contract
+### P5, Equals and HashCode Contract
 
 What happens when you use a custom class as a HashMap key without overriding `equals` and `hashCode`?
 
@@ -221,13 +221,13 @@ public class Main {
 
 **Correct: B** (index 1)
 
-Without overriding `equals` and `hashCode`, `FileKey` uses the default `Object` implementations — `equals` compares references, and `hashCode` is based on memory address. `k1` and `k2` are different objects, so `k2` is not equal to `k1`. `map.get(k2)` returns `null` because no matching key is found.
+Without overriding `equals` and `hashCode`, `FileKey` uses the default `Object` implementations, `equals` compares references, and `hashCode` is based on memory address. `k1` and `k2` are different objects, so `k2` is not equal to `k1`. `map.get(k2)` returns `null` because no matching key is found.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P6 — Covariant Return Types
+### P6, Covariant Return Types
 
 What is the output?
 
@@ -260,18 +260,18 @@ public class Main {
 | A | `Base Builder` |
 | B | `Web Builder` |
 | C | `Web WebBuilder` |
-| D | Compiler error — return type mismatch |
+| D | Compiler error, return type mismatch |
 | E | `Base WebBuilder` |
 
 **Correct: B** (index 1)
 
-Java allows covariant return types — `WebBuilder.configure()` returns `WebBuilder` (a subtype of `Builder`), which is valid. `b.configure()` uses dynamic dispatch, calling `WebBuilder.configure()` (outputs "Web "). The return type of the reference `result` is `Builder`, so `getClass().getSimpleName()` returns "Builder".
+Java allows covariant return types, `WebBuilder.configure()` returns `WebBuilder` (a subtype of `Builder`), which is valid. `b.configure()` uses dynamic dispatch, calling `WebBuilder.configure()` (outputs "Web "). The return type of the reference `result` is `Builder`, so `getClass().getSimpleName()` returns "Builder".
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — Anonymous Classes and Effectively Final
+### P7, Anonymous Classes and Effectively Final
 
 What is the output?
 
@@ -294,7 +294,7 @@ public class Main {
 | --- | --- |
 | A | `10` |
 | B | `20` |
-| C | Compiler error — x must be final |
+| C | Compiler error, x must be final |
 | D | Runtime error |
 | E | `0` |
 
@@ -302,13 +302,13 @@ public class Main {
 
 Local variables referenced from an inner class must be effectively final (never reassigned after initialization). `x = 10` is assigned once and never changed (the `x = 20` line is commented out), so the code compiles. The anonymous class captures the value 10 and prints it.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
 ## Collections Framework (P8–P14)
 
-### P8 — ArrayList vs LinkedList
+### P8, ArrayList vs LinkedList
 
 Which operation is O(1) for `ArrayList` but O(n) for `LinkedList`?
 
@@ -324,11 +324,11 @@ Which operation is O(1) for `ArrayList` but O(n) for `LinkedList`?
 
 `ArrayList` provides O(1) random access via its underlying array. `LinkedList` requires traversal from the head or tail to reach the nth element, making index-based access O(n). Both have O(n) search. Adding at the beginning is O(1) for `LinkedList` but O(n) for `ArrayList` (shift required).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P9 — HashMap Bucket Collision
+### P9, HashMap Bucket Collision
 
 What is the time complexity of `HashMap.get()` in the worst case?
 
@@ -344,11 +344,11 @@ What is the time complexity of `HashMap.get()` in the worst case?
 
 In the worst case, all keys hash to the same bucket, forming a linked list (or red-black tree after Java 8's treeification threshold of 8). Traversing the bucket is O(n). With treeification, worst case becomes O(log n), but the theoretical worst case before treeification is O(n).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P10 — TreeMap Ordering
+### P10, TreeMap Ordering
 
 Which statement about `TreeMap` is true?
 
@@ -362,13 +362,13 @@ Which statement about `TreeMap` is true?
 
 **Correct: C** (index 2)
 
-`TreeMap` is a `SortedMap` backed by a red-black tree. Keys are kept in sorted order — either by their natural ordering (implementing `Comparable`) or by a `Comparator` provided at construction time. It does not allow null keys (throws `NullPointerException`). Lookup is O(log n).
+`TreeMap` is a `SortedMap` backed by a red-black tree. Keys are kept in sorted order, either by their natural ordering (implementing `Comparable`) or by a `Comparator` provided at construction time. It does not allow null keys (throws `NullPointerException`). Lookup is O(log n).
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P11 — Iterator and ConcurrentModificationException
+### P11, Iterator and ConcurrentModificationException
 
 What is the output?
 
@@ -400,11 +400,11 @@ public class Main {
 
 Using `Iterator.remove()` is the safe way to remove elements during iteration. It updates the iterator's internal state, so no `ConcurrentModificationException` is thrown. The element "b" is removed, leaving `[a, c, d]`.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P12 — ConcurrentHashMap Thread Safety
+### P12, ConcurrentHashMap Thread Safety
 
 Which statement about `ConcurrentHashMap` is true?
 
@@ -420,11 +420,11 @@ Which statement about `ConcurrentHashMap` is true?
 
 `ConcurrentHashMap` uses a more fine-grained locking strategy (bucket-level or striping in Java 7, CAS + synchronized on individual buckets in Java 8+). This allows concurrent reads and writes without locking the entire map. It does not permit null keys or values. It is significantly faster than `synchronizedMap` under contention.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P13 — Collections.unmodifiableList
+### P13, Collections.unmodifiableList
 
 What happens when you call `add` on an unmodifiable list?
 
@@ -446,18 +446,18 @@ public class Main {
 | A | `"z"` is added successfully |
 | B | NullPointerException |
 | C | UnsupportedOperationException |
-| D | Compiler error — cannot call add on unmodifiable list |
+| D | Compiler error, cannot call add on unmodifiable list |
 | E | `[x, y, z]` |
 
 **Correct: C** (index 2)
 
-`Collections.unmodifiableList` returns a wrapper that delegates to the original list but throws `UnsupportedOperationException` for any mutating operation (`add`, `remove`, `set`). The compiler cannot prevent this because `List` declares these methods — the error occurs at runtime.
+`Collections.unmodifiableList` returns a wrapper that delegates to the original list but throws `UnsupportedOperationException` for any mutating operation (`add`, `remove`, `set`). The compiler cannot prevent this because `List` declares these methods, the error occurs at runtime.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P14 — PriorityQueue Ordering
+### P14, PriorityQueue Ordering
 
 What is the output?
 
@@ -489,13 +489,13 @@ public class Main {
 
 `PriorityQueue` is a min-heap by default. `poll()` removes and returns the smallest element. Elements are dequeued in ascending order: 1, 3, 5.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
 ## Concurrency (P15–P20)
 
-### P15 — Synchronized Block
+### P15, Synchronized Block
 
 What is the output?
 
@@ -538,13 +538,13 @@ public class Counter {
 
 **Correct: A** (index 0)
 
-The `synchronized (this)` block ensures mutual exclusion — only one thread executes `count++` at a time. Both threads iterate 1000 times, so the result is always 2000. Without synchronization, the result would be nondeterministic (sometimes less than 2000 due to race conditions).
+The `synchronized (this)` block ensures mutual exclusion, only one thread executes `count++` at a time. Both threads iterate 1000 times, so the result is always 2000. Without synchronization, the result would be nondeterministic (sometimes less than 2000 due to race conditions).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P16 — Volatile Keyword
+### P16, Volatile Keyword
 
 Which statement about the `volatile` keyword is correct?
 
@@ -558,13 +558,13 @@ Which statement about the `volatile` keyword is correct?
 
 **Correct: C** (index 2)
 
-`volatile` guarantees that reads and writes to the variable are visible across threads — a write by one thread is immediately visible to reads by other threads. It does not provide atomicity for compound operations like `i++` (read-modify-write). It is appropriate for flags and status variables, not for counters or accumulators.
+`volatile` guarantees that reads and writes to the variable are visible across threads, a write by one thread is immediately visible to reads by other threads. It does not provide atomicity for compound operations like `i++` (read-modify-write). It is appropriate for flags and status variables, not for counters or accumulators.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P17 — Virtual Threads Blocking
+### P17, Virtual Threads Blocking
 
 What is a key characteristic of virtual threads in Java 21+?
 
@@ -578,13 +578,13 @@ What is a key characteristic of virtual threads in Java 21+?
 
 **Correct: C** (index 2)
 
-Virtual threads are managed by the JVM's scheduler, not the operating system. They are extremely lightweight — you can create millions of them. When a virtual thread performs blocking I/O, the JVM unmounts it from its carrier thread and mounts another virtual thread, allowing efficient utilisation.
+Virtual threads are managed by the JVM's scheduler, not the operating system. They are extremely lightweight, you can create millions of them. When a virtual thread performs blocking I/O, the JVM unmounts it from its carrier thread and mounts another virtual thread, allowing efficient utilisation.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P18 — CompletableFuture Composition
+### P18, CompletableFuture Composition
 
 What is the output?
 
@@ -614,11 +614,11 @@ public class Main {
 
 `thenCombine` combines the results of two futures once both complete. `f1` produces "Hello", `f2` produces " World". The combiner function concatenates them: "Hello" + " World" = "Hello World". `.get()` blocks until the result is available.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P19 — Deadlock Conditions
+### P19, Deadlock Conditions
 
 Which of the following is NOT a necessary condition for deadlock?
 
@@ -632,13 +632,13 @@ Which of the following is NOT a necessary condition for deadlock?
 
 **Correct: E** (index 4)
 
-The four necessary conditions for deadlock (Coffman conditions) are: (1) mutual exclusion — resources cannot be shared, (2) hold and wait — threads hold resources while waiting for others, (3) no preemption — resources cannot be forcibly taken, (4) circular wait — a cycle of threads exists. Thread priority inversion is a scheduling problem, not a deadlock condition.
+The four necessary conditions for deadlock (Coffman conditions) are: (1) mutual exclusion, resources cannot be shared, (2) hold and wait, threads hold resources while waiting for others, (3) no preemption, resources cannot be forcibly taken, (4) circular wait, a cycle of threads exists. Thread priority inversion is a scheduling problem, not a deadlock condition.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P20 — ReentrantLock vs Synchronized
+### P20, ReentrantLock vs Synchronized
 
 Which advantage does `ReentrantLock` have over `synchronized`?
 
@@ -652,15 +652,15 @@ Which advantage does `ReentrantLock` have over `synchronized`?
 
 **Correct: B** (index 1)
 
-`ReentrantLock` provides features that `synchronized` does not: `tryLock()` with a timeout, `lockInterruptibly()`, and multiple `Condition` objects. `synchronized` automatically releases the lock when the block exits; `ReentrantLock` requires an explicit `unlock()` in a `finally` block. `ReentrantLock` is not inherently faster — it is designed for situations where `synchronized` is insufficient.
+`ReentrantLock` provides features that `synchronized` does not: `tryLock()` with a timeout, `lockInterruptibly()`, and multiple `Condition` objects. `synchronized` automatically releases the lock when the block exits; `ReentrantLock` requires an explicit `unlock()` in a `finally` block. `ReentrantLock` is not inherently faster, it is designed for situations where `synchronized` is insufficient.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Streams API (P21–P26)
 
-### P21 — Stream Lazy Evaluation
+### P21, Stream Lazy Evaluation
 
 What is the output?
 
@@ -690,13 +690,13 @@ public class Main {
 
 **Correct: A** (index 0)
 
-Streams are lazy — `filter` is invoked only when `forEach` requests elements. The pipeline requests elements until 3 match. For each element: filter prints "f0", element 0 passes (prints 0), filter prints "f1", element 1 fails, filter prints "f2", element 2 passes (prints 2), filter prints "f3" (fails), filter prints "f4", element 4 passes (prints 4). Output: `f0 0f2 2f4 4`.
+Streams are lazy, `filter` is invoked only when `forEach` requests elements. The pipeline requests elements until 3 match. For each element: filter prints "f0", element 0 passes (prints 0), filter prints "f1", element 1 fails, filter prints "f2", element 2 passes (prints 2), filter prints "f3" (fails), filter prints "f4", element 4 passes (prints 4). Output: `f0 0f2 2f4 4`.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P22 — Collectors.groupingBy
+### P22, Collectors.groupingBy
 
 What is the output?
 
@@ -725,11 +725,11 @@ public class Main {
 
 `Collectors.groupingBy` partitions elements by the classifier function. Odd numbers (1, 3, 5) are grouped under "odd", even numbers (2, 4, 6) under "even". The result is a `Map<String, List<Integer>>`. Map iteration order is not guaranteed, but the grouping is correct.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P23 — FlatMap
+### P23, FlatMap
 
 What is the output?
 
@@ -764,11 +764,11 @@ public class Main {
 
 `flatMap` maps each element to a stream and flattens the results into a single stream. Each inner list is converted to a stream, and all elements are combined into one flat stream. The result is `[1, 2, 3, 4, 5]`.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P24 — Reduce Operation
+### P24, Reduce Operation
 
 What is the output?
 
@@ -796,11 +796,11 @@ public class Main {
 
 `reduce(1, (a, b) -> a * b)` computes the product: 1 * 1 * 2 * 3 * 4 * 5 = 120. The identity value is 1 (multiplicative identity). `IntStream.rangeClosed(1, 5)` produces the stream 1, 2, 3, 4, 5.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P25 — Optional and Stream Interaction
+### P25, Optional and Stream Interaction
 
 What is the output?
 
@@ -830,11 +830,11 @@ public class Main {
 
 `findFirst()` returns an `Optional<String>`. The filter keeps only "banana" (starts with "b"). "banana" has length 6. `ifPresent` prints 6 if the Optional contains a value.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P26 — Parallel Streams Performance
+### P26, Parallel Streams Performance
 
 Which statement about parallel streams is correct?
 
@@ -848,15 +848,15 @@ Which statement about parallel streams is correct?
 
 **Correct: B** (index 1)
 
-Parallel streams use the common `ForkJoinPool` (available via `ForkJoinPool.commonPool()`). They are not always faster — small datasets or expensive operations may see no benefit or even performance degradation. They are not automatically thread-safe for side-effecting operations (use `ConcurrentHashMap` or `reduce` instead).
+Parallel streams use the common `ForkJoinPool` (available via `ForkJoinPool.commonPool()`). They are not always faster, small datasets or expensive operations may see no benefit or even performance degradation. They are not automatically thread-safe for side-effecting operations (use `ConcurrentHashMap` or `reduce` instead).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Exception Handling (P27–P30)
 
-### P27 — Try-With-Resources
+### P27, Try-With-Resources
 
 What is the output?
 
@@ -887,11 +887,11 @@ public class Main {
 
 Try-with-resources acquires the resource first (prints "open "), executes the block (prints "use "), then automatically calls `close()` (prints "close ") even if an exception occurs. This ensures deterministic resource cleanup.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P28 — Exception Propagation
+### P28, Exception Propagation
 
 What is the output?
 
@@ -920,7 +920,7 @@ public class Main {
 | --- | --- |
 | A | `done` |
 | B | `caught done` |
-| C | Unhandled exception — program terminates |
+| C | Unhandled exception, program terminates |
 | D | `caught` |
 | E | `RuntimeException done` |
 
@@ -928,11 +928,11 @@ public class Main {
 
 `methodB` throws a `RuntimeException`. It propagates up to `methodA`, where the `catch` block catches it (prints "caught "). Execution continues after the try-catch, printing "done".
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P29 — Multi-Catch Block
+### P29, Multi-Catch Block
 
 What is the output?
 
@@ -954,18 +954,18 @@ public class Main {
 | A | `Exception` |
 | B | `NullPointerException` |
 | C | `IndexOutOfBoundsException` |
-| D | Compiler error — multi-catch must not overlap |
+| D | Compiler error, multi-catch must not overlap |
 | E | `RuntimeException` |
 
 **Correct: B** (index 1)
 
-The multi-catch block handles either `NullPointerException` or `IndexOutOfBoundsException`. `null.length()` throws `NullPointerException`. The catch block prints the exception's simple class name: "NullPointerException". Multi-catch is syntactic sugar — the variable `e` is implicitly final.
+The multi-catch block handles either `NullPointerException` or `IndexOutOfBoundsException`. `null.length()` throws `NullPointerException`. The catch block prints the exception's simple class name: "NullPointerException". Multi-catch is syntactic sugar, the variable `e` is implicitly final.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P30 — Custom Exception with Chaining
+### P30, Custom Exception with Chaining
 
 What is the output?
 
@@ -1004,7 +1004,7 @@ public class Main {
 
 The inner try throws an `IOException`. The catch block wraps it in an `AppException` with message "failed". The outer catch prints `getMessage()` ("failed") and `getCause().getMessage()` ("disk error"). Exception chaining preserves the root cause while adding context.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -1042,13 +1042,13 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 
 ## Cross-References
 
-- **[Object-Oriented Programming](https://java.wyattau.com/hub)** — Classes, inheritance, polymorphism, and design patterns
-- **[Collections Framework](https://java.wyattau.com/hub)** — Data structures, iterators, and concurrent collections
-- **[Concurrency](https://java.wyattau.com/hub)** — Threads, locks, virtual threads, and CompletableFuture
-- **[Streams API](https://java.wyattau.com/hub)** — Functional-style operations on collections
-- **[Exception Handling](https://java.wyattau.com/hub)** — Try-with-resources, custom exceptions, and error propagation
-- **[Computer Science](https://computer-science.wyattau.com/hub)** — Algorithms and data structures that underpin Java collections
-- **[C++ Programming](https://cpp.wyattau.com/hub)** — Comparing Java OOP with C++ templates and RAII
+- **[Object-Oriented Programming](https://java.wyattau.com/hub)**, Classes, inheritance, polymorphism, and design patterns
+- **[Collections Framework](https://java.wyattau.com/hub)**, Data structures, iterators, and concurrent collections
+- **[Concurrency](https://java.wyattau.com/hub)**, Threads, locks, virtual threads, and CompletableFuture
+- **[Streams API](https://java.wyattau.com/hub)**, Functional-style operations on collections
+- **[Exception Handling](https://java.wyattau.com/hub)**, Try-with-resources, custom exceptions, and error propagation
+- **[Computer Science](https://computer-science.wyattau.com/hub)**, Algorithms and data structures that underpin Java collections
+- **[C++ Programming](https://cpp.wyattau.com/hub)**, Comparing Java OOP with C++ templates and RAII
 
 ---
 
@@ -1058,7 +1058,7 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 2. **Know the Collections contracts.** Understanding `equals`/`hashCode`, `Comparable`, and iterator semantics is essential.
 3. **Understand the "why".** Java design decisions (generics type erasure, checked exceptions, virtual threads) have clear rationale. Understanding the motivation makes the rules easier to remember.
 4. **Practise concurrency mentally.** Visualise thread interleavings to identify race conditions and deadlocks.
-5. **Retake after one week.** Java has many subtle rules — spaced repetition is essential for retaining the details.
+5. **Retake after one week.** Java has many subtle rules, spaced repetition is essential for retaining the details.
 
 ---
 

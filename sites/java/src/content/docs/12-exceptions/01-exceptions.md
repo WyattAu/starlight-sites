@@ -52,14 +52,14 @@ And `Exception` is the first critical decision point:
   `OutOfMemoryError`You are guessing about JVM state invariants that may no longer hold.
 - **`Exception`**: Application-level failures. This is where you design error handling.
 
-Within `Exception`The `RuntimeException` subclass marks **unchecked** exceptions — the compiler Does
+Within `Exception`The `RuntimeException` subclass marks **unchecked** exceptions, the compiler Does
 not force you to declare or handle them. Everything else is **checked**.
 
 ### When to Use Checked vs Unchecked
 
 | Factor               | Checked                                      | Unchecked                                        |
 | -------------------- | -------------------------------------------- | ------------------------------------------------ |
-| Recovery expected?   | Yes — caller can meaningfully handle it      | No — a programming error                         |
+| Recovery expected?   | Yes, caller can meaningfully handle it      | No, a programming error                         |
 | Compiler enforcement | Required `throws` declaration                | No declaration needed                            |
 | API surface impact   | Propagates through every caller in the chain | Stops where it stops                             |
 | Example              | `IOException``SQLException`                  | `NullPointerException``IllegalArgumentException` |
@@ -68,7 +68,7 @@ The pragmatic rule: use checked exceptions for conditions where the caller **rea
 Should** take corrective action. Use unchecked exceptions for programming errors and precondition
 Violations.
 
-This is not a bright line. The Java standard library itself is inconsistent —
+This is not a bright line. The Java standard library itself is inconsistent,
 `CloneNotSupportedException` is checked but almost never handled meaningfully, while
 `IllegalArgumentException` is unchecked despite being a recoverable validation failure.
 
@@ -108,7 +108,7 @@ try {
         try {
             in.close();
         } catch (IOException e) {
-            // swallowed — this is the pattern that try-with-resources fixes
+            // swallowed, this is the pattern that try-with-resources fixes
         }
     }
 }
@@ -124,7 +124,7 @@ try {
 } catch (Exception e) {
     // catches everything
 } catch (IOException e) {
-    // DEAD CODE — IOException is a subclass of Exception
+    // DEAD CODE, IOException is a subclass of Exception
 }
 ```
 
@@ -141,7 +141,7 @@ try {
 ```
 
 The pipe operator lets you handle multiple exception types with identical logic. The variable `e` is
-Implicitly `final`. The alternatives cannot be related by subtyping — if one exception type is a
+Implicitly `final`. The alternatives cannot be related by subtyping, if one exception type is a
 Subtype of another, it is a compiler error (e.g., `IOException | FileNotFoundException`).
 
 ### try-with-resources (Java 7+)
@@ -213,7 +213,7 @@ public static int dangerousReturn() {
     } catch (Exception e) {
         return -1;
     } finally {
-        return 0; // ALWAYS wins — the try/catch return is silently discarded
+        return 0; // ALWAYS wins, the try/catch return is silently discarded
     }
 }
 ```
@@ -350,7 +350,7 @@ Mistakes in Java error handling.
 Translate exceptions at architectural boundaries to prevent implementation details from leaking:
 
 ```java
-// Repository layer — infrastructure detail
+// Repository layer, infrastructure detail
 public class JpaUserRepository implements UserRepository {
     @Override
     public User findById(Long id) {
@@ -362,7 +362,7 @@ public class JpaUserRepository implements UserRepository {
     }
 }
 
-// Service layer — business logic boundary
+// Service layer, business logic boundary
 public class UserService {
     public User getUser(Long id) {
         try {
@@ -515,13 +515,13 @@ public class FileLoader {
     }
     // The IOException is thrown without being declared in the signature
     // Bytecode-level: the method does not have a throws clause
-    // This bypasses the compiler check — use sparingly and only when
+    // This bypasses the compiler check, use sparingly and only when
     // the exception truly should not be handled at this level
 }
 ```
 
 `@SneakyThrows` works by generating bytecode that throws the checked exception without declaring it.
-The JVM does not enforce checked exceptions — only the compiler does. Use it when wrapping every
+The JVM does not enforce checked exceptions, only the compiler does. Use it when wrapping every
 Call in a try-catch would add noise without safety.
 
 ## Performance Implications
@@ -591,7 +591,7 @@ Path is the common case. If exceptions are your normal control flow, you are fig
 | Frequency of failure             | Rare / exceptional | Common / expected     |
 | Performance sensitivity          | Low                | High                  |
 | Separation of happy/unhappy path | Clean separation   | Mixed in control flow |
-| Forced handling                  | Yes (checked)      | No — ignored          |
+| Forced handling                  | Yes (checked)      | No, ignored          |
 | Composability                    | Breaks lambdas     | Composes cleanly      |
 
 Rule of thumb: if it happens more than once per thousand calls on the hot path, consider a return
@@ -694,7 +694,7 @@ try {
     log.error("something went wrong", e);
 }
 
-// WORSE: catches Errors too — including OutOfMemoryError
+// WORSE: catches Errors too, including OutOfMemoryError
 try {
     riskyOperation();
 } catch (Throwable t) {
@@ -742,7 +742,7 @@ Why:
 try {
     props.load(new FileInputStream(configFile));
 } catch (FileNotFoundException e) {
-    // expected on first run — defaults will be used
+    // expected on first run, defaults will be used
     log.debug("no config file found at {}, using defaults", configFile);
 }
 ```
@@ -811,7 +811,7 @@ try {
     throw new ConfigurationException("config load failed", e);
 }
 
-// BAD: logging and rethrowing — stack trace shows the logging line, not the throw line
+// BAD: logging and rethrowing, stack trace shows the logging line, not the throw line
 try {
     parseConfig(configFile);
 } catch (IOException e) {
@@ -831,7 +831,7 @@ try {
 ### Catching and Wrapping Without Adding Context
 
 ```java
-// BAD: no additional context — the wrapper adds nothing useful
+// BAD: no additional context, the wrapper adds nothing useful
 try {
     db.query(sql);
 } catch (SQLException e) {
@@ -849,12 +849,12 @@ try {
 ### Throwing NullPointerException Explicitly
 
 ```java
-// BAD: manual NPE — inconsistent with JVM-generated NPEs
+// BAD: manual NPE, inconsistent with JVM-generated NPEs
 if (config == null) {
     throw new NullPointerException("config is null");
 }
 
-// GOOD: use the standard utility — produces cleaner stack traces
+// GOOD: use the standard utility, produces cleaner stack traces
 Objects.requireNonNull(config, "config must not be null");
 
 // GOOD (Java 14+): use null checks in the signature

@@ -1,7 +1,7 @@
 ---
 
 title: "Market Failure"
-description: "We define as the condition in which the free market allocation of resources is _allocatively inefficient_ — that is, the market fails to produce the"
+description: "We define as the condition in which the free market allocation of resources is _allocatively inefficient_, that is, the market fails to produce the"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -34,7 +34,7 @@ flowchart TD
 ## 1. Definition of Market Failure
 
 We define **market failure** as the condition in which the free market allocation of resources is
-_allocatively inefficient_ — that is, the market fails to produce the Pareto-optimal quantity of
+_allocatively inefficient_, that is, the market fails to produce the Pareto-optimal quantity of
 Goods and services.
 
 Formally, market failure occurs when the price mechanism does not equate marginal social benefit
@@ -145,7 +145,7 @@ _Proof._ Suppose a public good costs $C$ to provide and benefits each of $n$ ind
 The socially optimal provision requires $\sum_{i=1}^{n} B_i \geq C$. However, each individual $i$
 Reasons: "If others pay, I can enjoy the good without paying (non-excludability). If others don't
 Pay, my contribution is insufficient to provide the good." Therefore, it is individually rational
-For each person not to contribute — the **dominant strategy is to free-ride**. By the same logic, no
+For each person not to contribute, the **dominant strategy is to free-ride**. By the same logic, no
 One contributes, and the good is not provided, even when $\sum B_i \gg C$. $\blacksquare$
 
 **Quasi-public goods**: goods that are largely non-rivalrous but are excludable (e.g., roads,
@@ -172,8 +172,8 @@ Buyer of a random car is:
 $$E[V] = 0.5 \times 10\,000 + 0.5 \times 6\,000 = £8\,000$$
 
 Buyers are willing to pay at most £8,000. But at this price, sellers of peaches (£8,000 value to
-Seller) will not sell — only lemons are offered. Buyers, anticipating this, revise their offer
-Downward to £6,000. Now _only_ lemons trade. **The market for high-quality cars collapses** — this
+Seller) will not sell, only lemons are offered. Buyers, anticipating this, revise their offer
+Downward to £6,000. Now _only_ lemons trade. **The market for high-quality cars collapses**, this
 Is adverse selection: asymmetric information drives high-quality products out of the market.
 
 #### Moral Hazard
@@ -185,7 +185,7 @@ Into an agreement, knowing that the other party bears some of the cost of that b
 <summary>Example</summary>
 After purchasing comprehensive car insurance, a driver may take more risks (driving faster, parking
 In unsafe areas) because the insurance company bears the cost of accidents. The driver's behaviour
-Changes _because_ they are insured — this is moral hazard.
+Changes _because_ they are insured, this is moral hazard.
 </details>
 
 ### 2.4 Market Power
@@ -209,7 +209,7 @@ Inefficient allocation of labour.
 
 Markets reward factors of production according to marginal productivity. Those who own scarce,
 Highly productive factors (skilled labour, capital, land) receive higher incomes. Without
-Redistribution, this can lead to extreme inequality — which many consider a form of market failure
+Redistribution, this can lead to extreme inequality, which many consider a form of market failure
 Because:
 
 1. Unequal incomes $\Rightarrow$ unequal access to education, healthcare, opportunities
@@ -353,7 +353,7 @@ Market failure worsens the outcome.
    (principal's) interest
 
 :::tip
-the market — on the relative severity of market failure vs government failure in each specific case.
+the market, on the relative severity of market failure vs government failure in each specific case.
 :::
 ## 6. Critical Evaluation
 

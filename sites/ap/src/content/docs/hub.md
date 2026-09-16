@@ -1,6 +1,6 @@
 ---
-title: "Complete AP Course Guide — All Subjects"
-description: "Study notes for Complete AP Course Guide — All Subjects with worked examples, practice problems, and key concepts for exam preparation."
+title: "Complete AP Course Guide, All Subjects"
+description: "Study notes for Complete AP Course Guide, All Subjects with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - study-guide
@@ -21,7 +21,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Complete AP Course Guide — All Subjects
+## Complete AP Course Guide, All Subjects
 
 The Advanced Placement program, administered by the College Board, offers college-level coursework across a wide range of disciplines. Earning a high AP exam score can earn you college credit, strengthen your university application, and give you a head start on university-level study. This hub brings together every AP study resource on Wyatt's Notes into a single page, covering Biology, Chemistry, Computer Science A, Computer Science Principles, English Language and Composition, English Literature, History (US, European, and World), Mathematics (Calculus AB, Calculus BC, and Statistics), and Physics (1, 2, and C).
 
@@ -166,12 +166,12 @@ Success on AP exams requires more than content knowledge. Here are proven strate
 
 AP courses do not exist in isolation. The knowledge you gain in one subject often supports success in others:
 
-- **[GCSE Resources](https://gcse.wyattau.com)** — If you are transitioning from the GCSE system, these resources bridge the gap between GCSE and AP-level study.
-- **[IB Resources](https://ib.wyattau.com)** — The IB programme shares many topics with AP. Compare approaches and deepen your understanding across both curricula.
-- **[SAT Preparation](https://sat.wyattau.com)** — The SAT tests reading, writing, and mathematics skills that underpin AP success. Strengthen your foundations with SAT prep.
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics extends the calculus and statistics covered in AP.
-- **[Physics](https://physics.wyattau.com)** — University physics deepens the mechanics, electricity, and magnetism taught in AP Physics.
-- **[Chemistry](https://chemistry.wyattau.com)** — University chemistry builds on the atomic structure, bonding, and reactions covered in AP Chemistry.
+- **[GCSE Resources](https://gcse.wyattau.com)**, If you are transitioning from the GCSE system, these resources bridge the gap between GCSE and AP-level study.
+- **[IB Resources](https://ib.wyattau.com)**, The IB programme shares many topics with AP. Compare approaches and deepen your understanding across both curricula.
+- **[SAT Preparation](https://sat.wyattau.com)**, The SAT tests reading, writing, and mathematics skills that underpin AP success. Strengthen your foundations with SAT prep.
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics extends the calculus and statistics covered in AP.
+- **[Physics](https://physics.wyattau.com)**, University physics deepens the mechanics, electricity, and magnetism taught in AP Physics.
+- **[Chemistry](https://chemistry.wyattau.com)**, University chemistry builds on the atomic structure, bonding, and reactions covered in AP Chemistry.
 
 ## Frequently Asked Questions
 

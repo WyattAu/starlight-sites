@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Periodicity is like a chemical fingerprint — elements in the same group share similar properties due to electron configuration:** Periodic trends (atomic radius, ionization energy, electronegativity) follow predictable patterns across the table
+**Periodicity is like a chemical fingerprint, elements in the same group share similar properties due to electron configuration:** Periodic trends (atomic radius, ionization energy, electronegativity) follow predictable patterns across the table
 
 **Why it matters:** Understanding periodicity allows prediction of chemical behavior without memorizing individual element properties
 
@@ -185,7 +185,7 @@ Lower polarising power, distorting the carbonate/nitrate ion less and making it 
 | Carbonates | Generally insoluble  |
 
 $$
-\mathrm{BaSO}_4 \mathrm{ is very insoluble — used in barium meals (X-ray contrast).}
+\mathrm{BaSO}_4 \mathrm{ is very insoluble, used in barium meals (X-ray contrast).}
 $$
 
 ### Uses
@@ -324,7 +324,7 @@ Valence electrons available for bonding.
 | Si      | $\mathrm{SiCl}_4$                          | Covalent (mol.)  | Hydrolyses: $\mathrm{SiCl}_4 + 2\mathrm{H}_2\mathrm{O} \to \mathrm{SiO}_2 + 4\mathrm{HCl}$    |
 | P       | $\mathrm{PCl}_3/\mathrm{PCl}_5$            | Covalent         | Hydrolyses violently                                                                          |
 | S       | $\mathrm{SCl}_2/\mathrm{S}_2\mathrm{Cl}_2$ | Covalent         | Hydrolyses                                                                                    |
-| Cl      | —                                          | —                | N/A                                                                                           |
+| Cl      |,                                          |,                | N/A                                                                                           |
 
 ---
 
@@ -506,7 +506,7 @@ Is scandium a transition metal? Justify using the IB definition.
 The IB defines a transition metal as an element with a partially filled $d$-subshell in the atom or
 any common oxidation state. Scandium has the electron configuration $[\mathrm{Ar}]\,3d^1\,4s^2$ So
 its atom has a partially filled $d$-subshell. However, its only common oxidation state is
-$\mathrm{Sc}^{3+}$ with configuration $[\mathrm{Ar}]\,3d^0$ — an empty $d$-subshell. Since no common
+$\mathrm{Sc}^{3+}$ with configuration $[\mathrm{Ar}]\,3d^0$, an empty $d$-subshell. Since no common
 ion of scandium has a partially filled $d$-subshell, scandium is **not** classified as a transition
 metal under the IB definition.
 
@@ -589,7 +589,7 @@ $\mathrm{Na}_2\mathrm{CO}_3$$\mathrm{MgCO}_3$$\mathrm{CaCO}_3$.
 Order: $\mathrm{Na}_2\mathrm{CO}_3$ $\lt$ $\mathrm{MgCO}_3$ $\lt$ $\mathrm{CaCO}_3$
 
 The thermal stability of carbonates depends on the polarising power of the cation. $\mathrm{Na}^+$
-is a large, singly charged ion with very low charge density — it barely distorts the
+is a large, singly charged ion with very low charge density, it barely distorts the
 $\mathrm{CO}_3^{2-}$ ion, so $\mathrm{Na}_2\mathrm{CO}_3$ does not decompose on heating (it melts at
 $851\degree\mathrm{C}$ without decomposition). $\mathrm{Mg}^{2+}$ has the highest charge density
 among these three (small radius, $+2$ charge), so it most effectively polarises the carbonate ion
@@ -612,7 +612,7 @@ $[\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}$ complex ion. In the octahedral cr
 by the six water ligands, the $d$-orbitals of the $\mathrm{Cu}^{2+}$ ion ($d^9$ configuration) split
 into two energy levels. When white light passes through the solution, photons of a specific
 wavelength (red-orange, $\approx 600$--$700\mathrm{ nm}$) are absorbed to promote electrons from the
-lower to the upper $d$-orbital set. The transmitted or reflected light is the complementary colour —
+lower to the upper $d$-orbital set. The transmitted or reflected light is the complementary colour,
 blue.
 
 In anhydrous $\mathrm{CuSO}_4$No water ligands are present, so no crystal field splitting occurs and
@@ -642,7 +642,7 @@ no visible light is absorbed by $d$-$d$ transitions. The compound appears white.
   state, not merely being in the $d$-block.
 
 - **Assuming all Group 2 carbonates decompose :** $\mathrm{Na}_2\mathrm{CO}_3$ and
-  $\mathrm{K}_2\mathrm{CO}_3$ are Group 1 carbonates and are thermally stable — they do not
+  $\mathrm{K}_2\mathrm{CO}_3$ are Group 1 carbonates and are thermally stable, they do not
   decompose on heating. Group 2 carbonates do decompose, with decreasing ease down the group.
 
 - **Forgetting the oxide/peroxide/superoxide trend:** Students often assume all Group 1 metals form
@@ -757,7 +757,7 @@ nitrogen ($1402\;\mathrm{kJ/mol}$), even though oxygen has a greater nuclear cha
 <details>
 <summary>Solution</summary>
 
-Nitrogen has the electron configuration $1s^2\;2s^2\;2p^3$ — the $2p$ subshell is exactly
+Nitrogen has the electron configuration $1s^2\;2s^2\;2p^3$, the $2p$ subshell is exactly
 half-filled. Half-filled subshells have extra stability due to exchange energy (parallel spins in
 degenerate orbitals are quantum-mechanically favoured). Removing an electron from a half-filled $p$
 subshell disrupts this symmetry, costing additional energy.
@@ -935,7 +935,7 @@ of aluminium from bauxite ore via the Bayer process.
 
 - **Assuming all $d$-block elements are transition metals**: The IB definition requires a partially
   filled $d$-subshell in a common oxidation state. $\mathrm{Sc}^{3+}$ has $3d^0$ and
-  $\mathrm{Zn}^{2+}$ has $3d^{10}$ — neither qualifies. Always check the common ion, not just the
+  $\mathrm{Zn}^{2+}$ has $3d^{10}$, neither qualifies. Always check the common ion, not just the
   atom.
 
 - **Reversing the polarising power trend**: Smaller, more highly charged cations have greater

@@ -245,7 +245,7 @@ flowchart TD
 
 **Why it matters:** Efficient systems save money, improve user experience, and enable scaling.
 
-**The key insight:** Optimising code that is not the bottleneck wastes effort — always identify the constraint before attempting to improve it.
+**The key insight:** Optimising code that is not the bottleneck wastes effort, always identify the constraint before attempting to improve it.
 
 ## Common Mistakes
 

@@ -22,7 +22,7 @@ Commit signing cryptographically proves who authored a commit by attaching a dig
 ## Why Sign Commits
 
 Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a
-Specific private key. The signature is stored as part of the commit object itself — it is not a
+Specific private key. The signature is stored as part of the commit object itself, it is not a
 Separate metadata layer, but an integral field in the commit"s header.
 
 ### The Threat Model
@@ -35,7 +35,7 @@ Object can set these fields to arbitrary values:
 $ git commit --author="Linus Torvalds <torvalds@linux-foundation.org>" -m "important fix"
 ```
 
-This is not a bug — Git was designed as a distributed system where trust is social, not
+This is not a bug, Git was designed as a distributed system where trust is social, not
 Cryptographic. But in an era of supply chain attacks, this design assumption is a liability:
 
 - **Commit spoofing**: An attacker modifies a repository's history and sets author fields to match
@@ -48,7 +48,7 @@ Cryptographic. But in an era of supply chain attacks, this design assumption is 
   someone else to obscure accountability.
 
 Commit signing addresses all of these by binding a commit to a cryptographic key. The signature
-Covers the commit's entire content — tree hash, parent hashes, author, committer, message — making
+Covers the commit's entire content, tree hash, parent hashes, author, committer, message, making
 It tamper-evident. If any bit of the commit changes, the signature breaks.
 
 ### Identity Verification
@@ -99,7 +99,7 @@ $ apk add gnupg
 
 ### Generating a GPG Key
 
-For signing Git commits, an Ed25519 key is preferred — it produces small signatures (64 bytes), uses
+For signing Git commits, an Ed25519 key is preferred, it produces small signatures (64 bytes), uses
 Elliptic curve cryptography (fast, small keys), and is widely supported in modern GPG versions:
 
 ```bash
@@ -221,7 +221,7 @@ $ ssh-keygen -t ed25519 -C "git-signing" -f ~/.ssh/git-signing-key
 ```
 
 You can use the same SSH key for both authentication and signing, but separating them is a better
-Practice — if your signing key is compromised, your server access is not affected, and vice versa.
+Practice, if your signing key is compromised, your server access is not affected, and vice versa.
 
 ### Configuring Git for SSH Signing
 
@@ -322,7 +322,7 @@ $ git verify-commit abc1234
 
 ### Rebasing Signed Commits
 
-Rebasing rewrites commit objects — new parent hashes mean new commit hashes. When
+Rebasing rewrites commit objects, new parent hashes mean new commit hashes. When
 `commit.gpgsign = true`Git automatically re-signs each rewritten commit during the rebase:
 
 ```bash
@@ -351,7 +351,7 @@ Rewritten. With `commit.gpgsign = true`:
 
 ## Signing Tags
 
-Annotated tags (`git tag -a`) can be signed. Lightweight tags (`git tag`) cannot — they are just
+Annotated tags (`git tag -a`) can be signed. Lightweight tags (`git tag`) cannot, they are just
 Pointers to a commit, with no metadata to sign.
 
 ### Creating Signed Tags
@@ -374,7 +374,7 @@ Object includes a signature header.
 
 ### What Gets Signed
 
-The signature in a tag covers the **tag object itself** — the tag name, the message, the tagger
+The signature in a tag covers the **tag object itself**, the tag name, the message, the tagger
 Identity, and the reference to the target commit. If any of these fields are modified, the signature
 Breaks:
 
@@ -438,7 +438,7 @@ feat: add user authentication
 The verification process performs three distinct checks:
 
 1. **Signature validity**: The cryptographic signature over the commit content matches the public
-   key. This is pure mathematics — if the signature is valid, the commit content was produced by
+   key. This is pure mathematics, if the signature is valid, the commit content was produced by
    someone with access to the corresponding private key.
 
 2. **Key identity**: The public key's User ID matches the commit's author or committer field. Git
@@ -451,7 +451,7 @@ There is no indication that the signature belongs to the author.
 ```
 
 1. **Commit hash integrity**: The commit's SHA-1 (or SHA-256) hash matches the content. This is
-   always true for any well-formed Git object — it is not specific to signed commits. But combined
+   always true for any well-formed Git object, it is not specific to signed commits. But combined
    with the signature, it means the commit cannot be tampered with.
 
 ### Trust Models
@@ -472,7 +472,7 @@ Primary key fingerprint: 1122 3344 5566 7788 9900  AABB CCDD EEFF 0011 2233
 ```
 
 The "WARNING: This key is not certified" message means the key is not signed by any other key in
-Your local trust database. This is **normal** and does not indicate a problem — it means you Have
+Your local trust database. This is **normal** and does not indicate a problem, it means you Have
 not built a web of trust. The signature itself is still valid.
 
 ## Key Management
@@ -486,7 +486,7 @@ A single GPG "master key" can have multiple subkeys, each with different capabil
 - **Authentication (A)**: Used for SSH authentication
 
 The master key should be kept offline (on an air-gapped machine or hardware token). Subkeys are used
-For daily operations. If a subkey is compromised, you revoke it and generate a new one — the master
+For daily operations. If a subkey is compromised, you revoke it and generate a new one, the master
 Key and its identity remain intact.
 
 ```bash
@@ -618,7 +618,7 @@ $ echo "test" | gpg --clearsign
 
 **Common causes**:
 
-1. **No terminal for passphrase input** — `gpg-agent` needs a terminal or pinentry program to prompt
+1. **No terminal for passphrase input**, `gpg-agent` needs a terminal or pinentry program to prompt
    for your passphrase. In CI/CD environments, there is no terminal.
 2. **`gpg-agent` not running**. The agent must be started before Git can use it.
 3. **`GPG_TTY` not set**. Git (and GPG) need to know which terminal to use for pinentry.
@@ -719,7 +719,7 @@ $ git config --global user.email "123456789+username@users.noreply.github.com"
 # Correct
 $ git config --global user.signingkey ~/.ssh/git-signing-key.pub
 
-# Incorrect — this will not work
+# Incorrect, this will not work
 $ git config --global user.signingkey ~/.ssh/git-signing-key
 ```
 
@@ -732,7 +732,7 @@ git config --global gpg.format ssh
 
 ### GPG in CI/CD
 
-Signing commits in CI requires providing the private key to the runner. This is inherently risky —
+Signing commits in CI requires providing the private key to the runner. This is inherently risky,
 The key is exposed to the CI environment:
 
 ```bash
@@ -788,7 +788,7 @@ $ ssh-add -l
 ### Email Mismatch Between Key and Git Config
 
 The most frequent cause of "Unverified" signatures. Your GPG key's email and your `user.email` must
-Match exactly — character for character. Check both:
+Match exactly, character for character. Check both:
 
 ```bash
 $ git config --global user.email
@@ -816,13 +816,13 @@ GPG supports short (32-bit), long (64-bit), and fingerprint (160-bit) key IDs. A
 Uniquely identify your key:
 
 ```bash
-# Short — ambiguous, avoid
+# Short, ambiguous, avoid
 $ git config user.signingkey 12345678
 
-# Long — use this
+# Long, use this
 $ git config user.signingkey ABCDEF1234567890
 
-# Fingerprint — works but unnecessarily long
+# Fingerprint, works but unnecessarily long
 $ git config user.signingkey 11223344556677889900AABBCCDDEEFF00112233
 ```
 

@@ -139,7 +139,7 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 ### Connections to Other Topics
 
 - **Superconductivity:** The BCS ground state is a condensate of Cooper pairs (composite bosons). The BCS--BEC crossover connects fermionic pairing to molecular BEC.
-- **Quantum field theory:** BEC is an example of spontaneous symmetry breaking — the $U(1)$ phase symmetry of the matter field is broken, giving rise to a Goldstone mode (Bogoliubov phonon).
+- **Quantum field theory:** BEC is an example of spontaneous symmetry breaking, the $U(1)$ phase symmetry of the matter field is broken, giving rise to a Goldstone mode (Bogoliubov phonon).
 - **Statistical mechanics:** The BEC transition is a textbook example of a phase transition driven purely by statistics, requiring no interactions.
 
 ### Summary Table: Ideal Bose Gas vs Ideal Fermi Gas

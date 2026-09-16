@@ -460,7 +460,7 @@ Interface, catching common packaging errors and potential tampering.
 
 ## Intuition
 
-**Dependency architectures:** Different dependency models are like different delivery services — some download source and build locally, others download pre-built binaries.
+**Dependency architectures:** Different dependency models are like different delivery services, some download source and build locally, others download pre-built binaries.
 
 **Why it matters:** Choosing the right dependency architecture affects build times, portability, and maintenance burden.
 

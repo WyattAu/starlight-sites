@@ -25,12 +25,12 @@ Specifying a property that its members satisfy.
 
 ### Notation
 
-- $\emptyset$ — the empty set (contains no elements)
-- $x \in X$ — the element $x$ belongs to the set $X$
-- $x \notin X$ — the element $x$ does not belong to $X$
-- $A \subseteq B$ — $A$ is a subset of $B$: every element of $A$ is also an element of $B$
-- $|A|$ — the cardinality (number of elements) of a finite set $A$
-- $\mathcal{P}(A)$ — the power set of $A$: the set of all subsets of $A$
+- $\emptyset$, the empty set (contains no elements)
+- $x \in X$, the element $x$ belongs to the set $X$
+- $x \notin X$, the element $x$ does not belong to $X$
+- $A \subseteq B$, $A$ is a subset of $B$: every element of $A$ is also an element of $B$
+- $|A|$, the cardinality (number of elements) of a finite set $A$
+- $\mathcal{P}(A)$, the power set of $A$: the set of all subsets of $A$
 
 ### Set-Builder Notation
 
@@ -133,12 +133,12 @@ $$f: X \to Y$$
 <details>
 <summary>Non-examples of functions</summary>
 
-- $f_1: \mathbb{R}^+ \to \mathbb{R},\; f(x) = \pm\sqrt{x}$ — Since $x$ maps to two values, $f_1$ is
+- $f_1: \mathbb{R}^+ \to \mathbb{R},\; f(x) = \pm\sqrt{x}$, Since $x$ maps to two values, $f_1$ is
   not a function.
-- $f_2: \mathbb{R} \to \mathbb{R},\; f_2(x) = \frac{1}{x}$ — At $x = 0$, $f_2(0)$ is undefined, so
+- $f_2: \mathbb{R} \to \mathbb{R},\; f_2(x) = \frac{1}{x}$, At $x = 0$, $f_2(0)$ is undefined, so
   not every element of the domain is mapped. Redefine as
   $f_2: \mathbb{R} \setminus \{0\} \to \mathbb{R}$.
-- $f_3: \emptyset \to Y$ — Since no elements are in the domain, uniqueness is vacuously satisfied.
+- $f_3: \emptyset \to Y$, Since no elements are in the domain, uniqueness is vacuously satisfied.
   This is a valid (empty) function.
 
 </details>
@@ -159,7 +159,7 @@ $$A = \{f(x) \mid x \in X\}, \quad A \subseteq Y$$
 - **Odd:** $f(-x) = -f(x)$ for all $x \in \mathbb{R}$
 - **Even:** $f(-x) = f(x)$ for all $x \in \mathbb{R}$
 
-### Injectivity, Surjectivity, and Bijectivity — Worked Examples
+### Injectivity, Surjectivity, and Bijectivity, Worked Examples
 
 <details>
 <summary>Example: Determining injectivity and surjectivity</summary>
@@ -347,7 +347,7 @@ An arithmetic sequence has a constant **common difference** $d$ between consecut
 
 $$a_n = a_1 + (n-1)d$$
 
-### Arithmetic Series — Proof by Pairing
+### Arithmetic Series, Proof by Pairing
 
 **Theorem.** $S_k = \frac{k}{2}(a_1 + a_k)$
 
@@ -376,7 +376,7 @@ A geometric sequence has a constant **common ratio** $r$ between consecutive ter
 
 $$u_n = u_1 \cdot r^{n-1}$$
 
-### Geometric Series — Proof by Subtraction
+### Geometric Series, Proof by Subtraction
 
 **Theorem.** $S_k = \dfrac{u_1(1 - r^k)}{1 - r}$ for $r \ne 1$.
 
@@ -455,7 +455,7 @@ $S_{\infty} = \frac{1}{1 - 1/2} = \frac{1}{1/2} = 2$
 </details>
 
 <details>
-<summary>Worked example: Geometric series — finding n</summary>
+<summary>Worked example: Geometric series, finding n</summary>
 
 The sum of the first $n$ terms of $2, 6, 18, \ldots$ is $6560$. Find $n$.
 
@@ -473,7 +473,7 @@ $$\log_b(b^x) = x, \quad b \in \{r \in \mathbb{R} \mid r \gt 0,\; r \ne 1\}$$
 
 The logarithm $\log_b x$ answers the question: "to what power must $b$ be raised to obtain $x$?"
 
-### Logarithm Laws — Proofs
+### Logarithm Laws, Proofs
 
 **Law 1 (Product rule):** $\log_a(xy) = \log_a x + \log_a y$
 

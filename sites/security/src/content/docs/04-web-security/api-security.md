@@ -414,7 +414,7 @@ def list_orders():
     else:
         orders = db.query(
             "SELECT * FROM orders ORDER BY id LIMIT %s",
-            (limit,)
+            (limit)
         )
 
     next_cursor = orders[-1]['id'] if orders else None

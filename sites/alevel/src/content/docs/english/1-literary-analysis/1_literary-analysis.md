@@ -44,14 +44,14 @@ essay you write.
 
 Key elements to attend to in close reading:
 
-- **Diction** — Word choice: concrete vs abstract, formal vs informal, archaic vs modern
-- **Syntax** — Sentence structure: simple, compound, complex; use of inversion, ellipsis,
+- **Diction**, Word choice: concrete vs abstract, formal vs informal, archaic vs modern
+- **Syntax**, Sentence structure: simple, compound, complex; use of inversion, ellipsis,
   parenthesis
-- **Imagery** — Simile, metaphor, personification, symbolism
-- **Sound** — Alliteration, assonance, onomatopoeia, sibilance
-- **Structure** — Sentence length, paragraphing, stanza form, enjambment, caesura
-- **Tone** — The attitude of the speaker or narrator (ironic, elegiac, urgent, detached)
-- **Register** — The level of formality and its appropriateness to subject and audience
+- **Imagery**, Simile, metaphor, personification, symbolism
+- **Sound**, Alliteration, assonance, onomatopoeia, sibilance
+- **Structure**, Sentence length, paragraphing, stanza form, enjambment, caesura
+- **Tone**, The attitude of the speaker or narrator (ironic, elegiac, urgent, detached)
+- **Register**, The level of formality and its appropriateness to subject and audience
 
 ### Critical Approaches
 
@@ -197,11 +197,11 @@ A strong analytical paragraph follows this structure:
 
 ### Structuring an Essay
 
-- **Introduction** — Define key terms from the question, outline your argument, and establish the
+- **Introduction**, Define key terms from the question, outline your argument, and establish the
   scope of your response
-- **Body paragraphs** — Each paragraph should develop one aspect of your argument using the
+- **Body paragraphs**, Each paragraph should develop one aspect of your argument using the
   analytical paragraph structure above
-- **Conclusion** — Draw together your points into a final evaluative statement that answers the
+- **Conclusion**, Draw together your points into a final evaluative statement that answers the
   question directly
 
 ## Common Pitfalls
@@ -246,7 +246,7 @@ where her uncle died.
 Brontë establishes an atmosphere of dread through the dominance of the colour red, which functions
 on multiple levels. The "crimson" furnishings, "red" curtains, and "pink" carpet create a visual
 assault that is both claustrophobic and threatening. The semantic field of red carries connotations
-of danger, passion, and blood — associations that foreshadow Jane's later experiences while also
+of danger, passion, and blood, associations that foreshadow Jane's later experiences while also
 suggesting the violence of her containment. The room is described as "chill" yet the colour suggests
 heat, creating a disturbing sensory dissonance that mirrors Jane's psychological state.
 
@@ -273,13 +273,13 @@ A feminist reading of _The Great Gatsby_ might argue that the novel's women are 
 in relation to men, denied interiority, and ultimately punished for their sexuality. Daisy Buchanan
 is perhaps the most striking example. Despite being the object of Gatsby's obsession, she is given
 remarkably little direct speech and is described primarily through Gatsby's idealised vision of her.
-Her famous line "I hope she'll be a fool — that's the best thing a girl can be in this world, a
+Her famous line "I hope she'll be a fool, that's the best thing a girl can be in this world, a
 beautiful little fool" is a rare moment of self-awareness, yet even this is undercut by the
 narrative's refusal to develop her perspective further.
 
 Myrtle Wilson, by contrast, is punished directly for her sexual agency. Her affair with Tom
-represents a transgression of class and gender boundaries, and her violent death — run over by Daisy
-in Gatsby's car — can be read as a literal silencing. Fitzgerald stages Myrtle's death through the
+represents a transgression of class and gender boundaries, and her violent death, run over by Daisy
+in Gatsby's car, can be read as a literal silencing. Fitzgerald stages Myrtle's death through the
 detached perspective of the male characters, reducing her to a narrative device that advances the
 plot rather than a fully realised human being.
 
@@ -288,14 +288,14 @@ conventional femininity, yet the novel frames these traits as moral failings rat
 Nick's ultimate rejection of Jordan can be read as the text's discomfort with women who do not
 conform to traditional roles.
 
-A feminist critic might note that the only voice the reader trusts is Nick's — a male narrator who
+A feminist critic might note that the only voice the reader trusts is Nick's, a male narrator who
 admits to being "inclined to reserve all judgements" yet exercises considerable narrative control
 over how women are perceived. The absence of female narratorial perspective is itself a meaningful
 silence.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid

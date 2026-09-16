@@ -220,7 +220,7 @@ Input size) and **space complexity** (how the memory usage grows with input size
 
 ### Sorting Algorithms
 
-**Bubble Sort** — O(n²) time complexity:
+**Bubble Sort**, O(n²) time complexity:
 
 ```python
 def bubble_sort(data):
@@ -232,7 +232,7 @@ def bubble_sort(data):
     return data
 ```
 
-**Selection Sort** — O(n²) time complexity:
+**Selection Sort**, O(n²) time complexity:
 
 ```python
 def selection_sort(data):
@@ -246,7 +246,7 @@ def selection_sort(data):
     return data
 ```
 
-**Insertion Sort** — O(n²) time complexity, but efficient for small or nearly sorted datasets:
+**Insertion Sort**, O(n²) time complexity, but efficient for small or nearly sorted datasets:
 
 ```python
 def insertion_sort(data):
@@ -312,24 +312,24 @@ Occur in a pass.
 
 ### Searching Algorithms
 
-**Linear Search** — O(n): Checks each element sequentially. Works on unsorted data.
+**Linear Search**, O(n): Checks each element sequentially. Works on unsorted data.
 
-**Binary Search** — O(log n): Repeatedly divides the search space in half. Requires sorted data.
+**Binary Search**, O(log n): Repeatedly divides the search space in half. Requires sorted data.
 
-**Trace of binary search** — searching for 7 in `[1, 3, 5, 7, 9, 11, 13]`:
+**Trace of binary search**, searching for 7 in `[1, 3, 5, 7, 9, 11, 13]`:
 
 | Step | low | high | mid | data[mid] | Action |
 | ---- | --- | ---- | --- | --------- | ------ |
 | 1    | 0   | 6    | 3   | 7         | Found! |
 
-**Trace of binary search** — searching for 6 in `[1, 3, 5, 7, 9, 11, 13]`:
+**Trace of binary search**, searching for 6 in `[1, 3, 5, 7, 9, 11, 13]`:
 
 | Step | low | high | mid | data[mid] | Action                   |
 | ---- | --- | ---- | --- | --------- | ------------------------ |
 | 1    | 0   | 6    | 3   | 7         | 6 &lt; 7, high = 2       |
 | 2    | 0   | 2    | 1   | 3         | 6 &gt; 3, low = 2        |
 | 3    | 2   | 2    | 2   | 5         | 6 &gt; 5, low = 3        |
-| 4    | 3   | 2    | —   | —         | low &gt; high, not found |
+| 4    | 3   | 2    |,   |,         | low &gt; high, not found |
 
 ### Worked Example: Comparing Search Algorithms
 
@@ -625,7 +625,7 @@ Reference multiple stakeholders, and present a balanced argument with a reasoned
 ### Paper 2 tips
 
 - Read the entire scenario carefully before attempting any questions.
-- For algorithm writing, use pseudocode or Python — whichever you are more comfortable with.
+- For algorithm writing, use pseudocode or Python, whichever you are more comfortable with.
 - Test your algorithms mentally with sample data before writing your final answer.
 - For trace questions, set up a neat trace table and work through it systematically.
 
@@ -1092,17 +1092,17 @@ linked above.
 
 ## Intuition
 
-Computer Science is the study of problem-solving with machines. It's not just about programming — it's about thinking systematically. Computational thinking is the core skill: breaking a big problem into smaller pieces (decomposition), recognising patterns (pattern recognition), abstracting away irrelevant details (abstraction), and designing step-by-step solutions (algorithms).
+Computer Science is the study of problem-solving with machines. It's not just about programming, it's about thinking systematically. Computational thinking is the core skill: breaking a big problem into smaller pieces (decomposition), recognising patterns (pattern recognition), abstracting away irrelevant details (abstraction), and designing step-by-step solutions (algorithms).
 
-The IB course is structured around this thinking process. You start with the fundamentals (how computers work, how to think logically), then move to algorithms (how to solve problems efficiently), then to data (how to store and retrieve information), and finally to networks and ethics (how computing connects to the real world). The HL extension dives deeper into the technical details — memory management, advanced data structures, and how programs control hardware. Throughout, the emphasis is on understanding _why_ things work, not just _how_ to use them.
+The IB course is structured around this thinking process. You start with the fundamentals (how computers work, how to think logically), then move to algorithms (how to solve problems efficiently), then to data (how to store and retrieve information), and finally to networks and ethics (how computing connects to the real world). The HL extension dives deeper into the technical details, memory management, advanced data structures, and how programs control hardware. Throughout, the emphasis is on understanding _why_ things work, not just _how_ to use them.
 
 ## Common Mistakes
 
-1. **Confusing data representation with data structures.** Data representation (Topic 1) covers how data is stored in binary — integers, floating point, images, sound. Data structures (Topic 3) covers how data is organised for efficient access — arrays, stacks, queues, trees. These are distinct topics; confusing them leads to incorrect answers in both.
+1. **Confusing data representation with data structures.** Data representation (Topic 1) covers how data is stored in binary, integers, floating point, images, sound. Data structures (Topic 3) covers how data is organised for efficient access, arrays, stacks, queues, trees. These are distinct topics; confusing them leads to incorrect answers in both.
 
-2. **Assuming all computers process information the same way.** Different architectures (von Neumann, Harvard) and different processors (CPUs, GPUs) have different capabilities and limitations. The IB syllabus covers specific architectures and their trade-offs — do not assume that knowledge of one system applies universally.
+2. **Assuming all computers process information the same way.** Different architectures (von Neumann, Harvard) and different processors (CPUs, GPUs) have different capabilities and limitations. The IB syllabus covers specific architectures and their trade-offs, do not assume that knowledge of one system applies universally.
 
-3. **Treating ethics as a separate topic rather than integrated throughout.** Ethical issues arise in every area of computing — data privacy in databases, digital divide in networking, intellectual property in programming. The IB expects you to identify and discuss ethical implications across all topics, not just in a dedicated ethics section.
+3. **Treating ethics as a separate topic rather than integrated throughout.** Ethical issues arise in every area of computing, data privacy in databases, digital divide in networking, intellectual property in programming. The IB expects you to identify and discuss ethical implications across all topics, not just in a dedicated ethics section.
 
 4. **Confusing local and wide area networks.** A LAN connects devices in a small area (school, office) with high speed and low cost. A WAN connects LANs over large distances with higher cost and lower speed. The Internet is a WAN, not a LAN. Misidentifying the network type leads to incorrect analysis of costs, speeds, and use cases.
 

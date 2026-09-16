@@ -64,7 +64,7 @@ Hydrocarbons, functional groups, reaction mechanisms, and organic analysis.
 
 ## Study Tips
 
-Learn mandatory experiments thoroughly — they appear in every exam. Practise mole calculations until
+Learn mandatory experiments thoroughly, they appear in every exam. Practise mole calculations until
 they are automatic. For organic chemistry, draw mechanisms step by step to show electron movement.
 
 ## Exam Information

@@ -28,7 +28,7 @@ flowchart TD
 
 ## Intuition
 
-**History is like a vast library of human experience — learning from the past to understand the present.**
+**History is like a vast library of human experience, learning from the past to understand the present.**
 
 ## Diagnostic Test: Source Analysis
 

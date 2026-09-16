@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Equations and Inequalities — Diagnostic Tests
+## Equations and Inequalities, Diagnostic Tests
 
 ## Unit Tests
 
@@ -153,7 +153,7 @@ The solutions are $x = 1, 2, 5$.
 }
 </script>
 
-### UT-3: System with No Real Solutions — Proof of Impossibility
+### UT-3: System with No Real Solutions, Proof of Impossibility
 
 **Question:**
 

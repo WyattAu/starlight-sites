@@ -55,7 +55,7 @@ Exception is thrown. The tables are consulted only during unwinding.
 
 The SJLJ model incurs cost on every `try` entry (saving registers via `setjmp`) and every `try` exit
 (potentially restoring via `longjmp`). This is why modern compilers default to the table-based model
-— it has zero normal-path cost.
+- it has zero normal-path cost.
 
 ## 1.2 Searching for Matching Catch Clauses
 
@@ -127,7 +127,7 @@ struct AppError : std::runtime_error {
 void throw_app() { throw AppError{"app failure"}; }
 
 int main() {
-    // BAD: caught by value — sliced to std::runtime_error
+    // BAD: caught by value, sliced to std::runtime_error
     try {
         throw_app();
     } catch (std::runtime_error e) {
@@ -136,7 +136,7 @@ int main() {
         // The dynamic type is LOST
     }
 
-    // GOOD: caught by reference — preserves dynamic type
+    // GOOD: caught by reference, preserves dynamic type
     try {
         throw_app();
     } catch (const std::runtime_error& e) {
@@ -420,7 +420,7 @@ Thread:
 #include <future>
 
 int main() {
-    // Using std::async — handles exception_ptr internally
+    // Using std::async, handles exception_ptr internally
     std::future<int> f = std::async(std::launch::async, []() {
         throw std::runtime_error{"async failure"};
         return 0;
@@ -612,11 +612,11 @@ The Itanium Exception ABI is the hidden machinery that makes try/catch work. Whe
 
 ## Intuition
 
-**The exception ABI is like a postal service for errors:** When you `throw` an exception, the runtime copies the exception object into a hidden memory location (like putting a letter in a mailbox). When you `catch` it, the runtime retrieves it from the mailbox and delivers it to you. The stack unwinding process is like the postal service tracing back through the delivery route — it undoes each function call until it finds a handler. If no handler exists, the program terminates (the letter is returned to sender).
+**The exception ABI is like a postal service for errors:** When you `throw` an exception, the runtime copies the exception object into a hidden memory location (like putting a letter in a mailbox). When you `catch` it, the runtime retrieves it from the mailbox and delivers it to you. The stack unwinding process is like the postal service tracing back through the delivery route, it undoes each function call until it finds a handler. If no handler exists, the program terminates (the letter is returned to sender).
 
 **Why it matters:** Understanding the exception ABI is crucial for writing correct exception-safe code and for debugging crashes. The hidden exception object, the personality function, and the unwind tables are all part of a complex machinery that makes exceptions work across shared libraries and different compiler versions. Getting this wrong causes mysterious crashes or ABI incompatibilities.
 
-**The key insight:** Exceptions are not free — they involve heap allocation, stack unwinding, and personality function dispatch. This is why `noexcept` and `std::expected` are increasingly preferred for performance-critical code.
+**The key insight:** Exceptions are not free, they involve heap allocation, stack unwinding, and personality function dispatch. This is why `noexcept` and `std::expected` are increasingly preferred for performance-critical code.
 
 ## Common Pitfalls
 
@@ -651,7 +651,7 @@ int main() {
 ### 2. Exceptions and `noexcept` Functions
 
 If an exception escapes a `noexcept` function, `std::terminate()` is called instead of stack
-Unwinding. This is a deliberate design choice — callers of `noexcept` functions are entitled to
+Unwinding. This is a deliberate design choice, callers of `noexcept` functions are entitled to
 Assume no exception propagation overhead:
 
 ```cpp
@@ -660,7 +660,7 @@ Assume no exception propagation overhead:
 
 void unexpected_throw() noexcept {
     throw std::runtime_error{"from noexcept function"};
-    // std::terminate() is called — no stack unwinding occurs
+    // std::terminate() is called, no stack unwinding occurs
 }
 
 int main() {

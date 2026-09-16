@@ -121,7 +121,7 @@ First actual argument.
 
 ## Basic Types
 
-Dart has a small set of built-in types. The type system is sound — the compiler and runtime
+Dart has a small set of built-in types. The type system is sound, the compiler and runtime
 Guarantee type safety.
 
 ### Numbers
@@ -247,7 +247,7 @@ const List<int> items = [1, 2, 3];  // immutable list
 // Canonicalization
 const a = [1, 2, 3];
 const b = [1, 2, 3];
-print(identical(a, b));      // true — same object in memory
+print(identical(a, b));      // true, same object in memory
 ```
 
 ### late
@@ -287,7 +287,7 @@ Access it before initialization, you get a runtime error. Use it when:
 
 ## Null Safety
 
-Dart's null safety (Dart 2.12+) is sound — the compiler guarantees that no `null` value reaches a
+Dart's null safety (Dart 2.12+) is sound, the compiler guarantees that no `null` value reaches a
 Non-nullable variable at runtime.
 
 ### Nullable and Non-Nullable Types
@@ -417,7 +417,7 @@ final description = switch (value) {
   [] => 'empty',
   [var single] => 'single: $single',
   [var first, var second] => 'pair: $first, $second',
-  [var first, ...var rest] => 'first: $first, rest: $rest',
+  [var first...var rest] => 'first: $first, rest: $rest',
 };
 ```
 
@@ -429,20 +429,20 @@ final status = age >= 18 ? 'adult' : "minor'';
 ```
 
 Remember: Dart has no truthy/falsy. The condition in `?:``if``while` must be `bool`. You cannot
-Write `final status = name ? "exists' : 'missing';` — that is a compile error.
+Write `final status = name ? "exists' : 'missing';`that is a compile error.
 
 ## Intuition
 
-**main() is the front door to your program:** Every Dart program begins at `main()` — it's the single entrance point that the runtime knows how to find, like the front door of a building that all visitors must use. In Flutter, `runApp()` is like turning on the lights and opening for business: it initializes the framework, attaches the root widget, and starts the event loop that makes everything responsive. The event loop is the receptionist, processing one request at a time from a queue — never blocking on any single task.
+**main() is the front door to your program:** Every Dart program begins at `main()`it's the single entrance point that the runtime knows how to find, like the front door of a building that all visitors must use. In Flutter, `runApp()` is like turning on the lights and opening for business: it initializes the framework, attaches the root widget, and starts the event loop that makes everything responsive. The event loop is the receptionist, processing one request at a time from a queue, never blocking on any single task.
 
 **Why it matters:** Understanding the event loop is critical for Flutter: any synchronous work that takes too long blocks the receptionist, and the entire UI freezes. Async operations hand off the work and let the loop keep processing other events.
 
-**The key insight:** Dart's single-threaded event loop is both its strength (no locks, no races) and its constraint (no blocking) — async is not optional, it's the architecture.
+**The key insight:** Dart's single-threaded event loop is both its strength (no locks, no races) and its constraint (no blocking), async is not optional, it's the architecture.
 
 ## Common Pitfalls
 
 - **Using `var` for everything**: `var` is fine for local variables with obvious initializers. For
-  fields and parameters, always specify the type explicitly — it serves as documentation.
+  fields and parameters, always specify the type explicitly, it serves as documentation.
 - **Confusing `final` with immutable**: `final` means the reference cannot change. The object itself
   is still mutable. Use `const` for compile-time constants, or use immutable collections from
   `package:collection` / `package:built_collection` for deep immutability.

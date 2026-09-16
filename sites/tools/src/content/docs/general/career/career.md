@@ -17,11 +17,11 @@ description: "General Systems Engineering Career notes covering key definitions,
 
 ## Intuition
 
-**Building a career in systems engineering:** A systems engineering career is like building a skyscraper — you start with a solid foundation (fundamentals), add floors gradually (specialisation), and occasionally renovate (learn new technologies) to stay relevant.
+**Building a career in systems engineering:** A systems engineering career is like building a skyscraper, you start with a solid foundation (fundamentals), add floors gradually (specialisation), and occasionally renovate (learn new technologies) to stay relevant.
 
 **Why it matters:** Systems engineering roles (SRE, platform engineering, DevOps) are among the most in-demand and well-compensated in tech. Understanding the career paths helps you make strategic decisions about what to learn next.
 
-**The key insight:** The best systems engineers combine technical depth with communication skills — you need to understand distributed systems deeply, but you also need to explain trade-offs to non-technical stakeholders and write clear incident reports.
+**The key insight:** The best systems engineers combine technical depth with communication skills, you need to understand distributed systems deeply, but you also need to explain trade-offs to non-technical stakeholders and write clear incident reports.
 
 ## Systems Engineering Career Paths
 
@@ -197,13 +197,13 @@ email@example.com | github.com/yourusername | linkedin.com/in/yourusername
 
 ## Experience
 
-### Senior Systems Engineer — Company (2022–Present)
+### Senior Systems Engineer, Company (2022–Present)
 
 - Achieved X by doing Y, resulting in Z (quantify everything)
 - Led the migration from X to Y, reducing costs by 40%
 - Designed and built a monitoring system that reduced MTTR from 4 hours to 30 minutes
 
-### Systems Engineer — Company (2019–2022)
+### Systems Engineer, Company (2019–2022)
 
 - Managed a fleet of 200+ Linux servers across 3 data centers
 - Automated infrastructure provisioning with Terraform, reducing deployment time from days to hours
@@ -217,7 +217,7 @@ email@example.com | github.com/yourusername | linkedin.com/in/yourusername
 
 ## Education
 
-B.S. Computer Science — University (2019)
+B.S. Computer Science, University (2019)
 ```
 
 ### Key Principles
@@ -332,7 +332,7 @@ B.S. Computer Science — University (2019)
 | Work-life balance | Often poor                         | Varies (some teams are good)       |
 
 **Recommendation:** Start in big tech if possible to learn best practices, then move to a startup
-For broader experience — or vice versa. The ideal path depends on your risk tolerance, career goals,
+For broader experience, or vice versa. The ideal path depends on your risk tolerance, career goals,
 And life stage.
 
 ---
@@ -353,7 +353,7 @@ And life stage.
 1. **Create a dedicated workspace.** A separate room is ideal. A dedicated desk with a door you can
    close is the minimum.
 2. **Maintain a routine.** Start work at the same time, take breaks at the same time, end work at
-   the same time. The lack of commute makes boundaries blurry — enforce them.
+   the same time. The lack of commute makes boundaries blurry, enforce them.
 3. **Over-communicate.** In a remote setting, nobody can see what you are working on. Write detailed
    status updates, document your decisions, and communicate proactively.
 4. **Invest in equipment.** A good monitor, keyboard, webcam, microphone, and chair pay for
@@ -482,7 +482,7 @@ Many areas (the horizontal bar). Systems engineers should aim for:
 ### Staying Too Long in One Role
 
 Comfort is the enemy of growth. If you have been in the same role for 3+ years and are no longer
-Learning, it is time to move on — either to a new team, a new company, or a new domain.
+Learning, it is time to move on, either to a new team, a new company, or a new domain.
 
 ### Neglecting Soft Skills
 
@@ -497,7 +497,7 @@ Negotiated and non-negotiated offer can be 10–20% of total compensation, compo
 ### Chasing Titles Over Skills
 
 A "Senior" title at one company may not equate to "Senior" at another. Focus on building skills and
-Delivering impact — the title will follow. Conversely, do not accept a title demotion when changing
+Delivering impact, the title will follow. Conversely, do not accept a title demotion when changing
 Companies without a compelling reason (e.g., transitioning to a much larger company).
 
 ### Ignoring Work-Life Balance

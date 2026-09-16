@@ -541,7 +541,7 @@ The two categories have fundamentally different performance characteristics:
 1. **Static TLS:** Variables declared `thread_local` with constant initializers (zero-initialization
    or constant-expression initialization) are placed in the `.tbss` or `.tdata` ELF sections. The
    dynamic linker (`ld.so`) allocates and initializes these when a new thread is created via the TLS
-   block template. Access cost is a single segment register load (`%fs:offset` on x86-64) —
+   block template. Access cost is a single segment register load (`%fs:offset` on x86-64),
    effectively free after thread creation.
 2. **Dynamic TLS:** Variables with non-constant initializers (including function-local
    `thread_local` and types with non-trivial constructors) require a guard variable and an
@@ -765,8 +765,8 @@ for mastery of this topic.
 
 ## Intuition
 
-The C Runtime (CRT) is the invisible scaffolding that makes a C++ program run. Before your `main` function is called, the CRT has already done significant work: it set up the stack, initialised the heap, processed global constructors (`.init_array`), and set up thread-local storage. When `main` returns, the CRT runs `atexit` handlers, calls static destructors, flushes I/O buffers, and then invokes the OS exit syscall. Understanding this lifecycle is critical because bugs in global constructors, static destructors, or heap initialisation happen _before your code even runs_ — and they are notoriously hard to debug.
+The C Runtime (CRT) is the invisible scaffolding that makes a C++ program run. Before your `main` function is called, the CRT has already done significant work: it set up the stack, initialised the heap, processed global constructors (`.init_array`), and set up thread-local storage. When `main` returns, the CRT runs `atexit` handlers, calls static destructors, flushes I/O buffers, and then invokes the OS exit syscall. Understanding this lifecycle is critical because bugs in global constructors, static destructors, or heap initialisation happen _before your code even runs_, and they are notoriously hard to debug.
 
-The CRT also manages the boundary between your program and the operating system. On Linux, glibc provides dynamic linking, thread-local storage setup, and the dynamic linker (`ld.so`). On Windows, MSVC offers a choice between dynamic and static CRT linking, with the static option creating heap isolation traps between DLLs. These platform differences are not just implementation details — they affect binary size, startup time, memory safety, and deployment.
+The CRT also manages the boundary between your program and the operating system. On Linux, glibc provides dynamic linking, thread-local storage setup, and the dynamic linker (`ld.so`). On Windows, MSVC offers a choice between dynamic and static CRT linking, with the static option creating heap isolation traps between DLLs. These platform differences are not just implementation details, they affect binary size, startup time, memory safety, and deployment.
 
-The key mental model is that the CRT is **not optional** — even freestanding environments must provide a minimal startup sequence. The difference between hosted and freestanding environments is directly how much of the CRT you get: hosted gives you everything (heap, exceptions, standard library), while freestanding gives you almost nothing and requires you to provide your own `_start` and manage the stack manually. Knowing where the CRT ends and your code begins is essential for systems programming, embedded development, and understanding what happens at program startup.
+The key mental model is that the CRT is **not optional**, even freestanding environments must provide a minimal startup sequence. The difference between hosted and freestanding environments is directly how much of the CRT you get: hosted gives you everything (heap, exceptions, standard library), while freestanding gives you almost nothing and requires you to provide your own `_start` and manage the stack manually. Knowing where the CRT ends and your code begins is essential for systems programming, embedded development, and understanding what happens at program startup.

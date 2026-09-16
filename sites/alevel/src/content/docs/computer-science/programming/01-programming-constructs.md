@@ -518,9 +518,9 @@ for i in range(1, 4):
 
 | Iteration | `i` | `j` range                   | Output             |
 | --------- | --- | --------------------------- | ------------------ |
-| Outer 1   | 1   | `range(1, 2)` — j = 1       | `*` then newline   |
-| Outer 2   | 2   | `range(1, 3)` — j = 1, 2    | `**` then newline  |
-| Outer 3   | 3   | `range(1, 4)` — j = 1, 2, 3 | `***` then newline |
+| Outer 1   | 1   | `range(1, 2)`j = 1       | `*` then newline   |
+| Outer 2   | 2   | `range(1, 3)`j = 1, 2    | `**` then newline  |
+| Outer 3   | 3   | `range(1, 4)`j = 1, 2, 3 | `***` then newline |
 
 **Output:**
 
@@ -550,7 +550,7 @@ def get_valid_score():
 This loop combines two validation checks: type validation (integer) and range validation (1-100).
 The loop only exits when both checks pass.
 
-### Worked Example: Nested Loop — Multiplication Table
+### Worked Example: Nested Loop, Multiplication Table
 
 ```python
 def multiplication_table(n):
@@ -641,7 +641,7 @@ returns 5
 ```
 
 Note: `fib(3)` is computed twice, `fib(2)` is computed three times. This redundancy is why naive
-Recursive Fibonacci is $O(\phi^n)$ — it recomputes the same subproblems repeatedly.
+Recursive Fibonacci is $O(\phi^n)$, it recomputes the same subproblems repeatedly.
 
 <hr />
 
@@ -653,9 +653,9 @@ Off-by-one errors occur when a loop iterates one time too many or one time too f
 
 | Error               | Code                                       | Fix                                                   |
 | ------------------- | ------------------------------------------ | ----------------------------------------------------- |
-| Fencepost           | `for i in range(1, n)` — iterates 1 to n-1 | Use `range(1, n + 1)` if you need 1 to n              |
+| Fencepost           | `for i in range(1, n)`iterates 1 to n-1 | Use `range(1, n + 1)` if you need 1 to n              |
 | Off-by-one in while | `while i &lt; n` vs `while i &lt;= n`      | Decide whether the boundary is inclusive or exclusive |
-| Array indexing      | `array[len(array)]` — IndexError           | Valid indices are 0 to `len(array) - 1`               |
+| Array indexing      | `array[len(array)]`IndexError           | Valid indices are 0 to `len(array) - 1`               |
 
 ### Infinite Loops
 
@@ -709,7 +709,7 @@ def add_item(item, items=[]):
     return items
 
 print(add_item(1))  # [1]
-print(add_item(2))  # [1, 2] — NOT [2]!
+print(add_item(2))  # [1, 2], NOT [2]!
 ```
 
 The default list `[]` is created once when the function is defined, not each time it is called. Fix:

@@ -49,7 +49,7 @@ function extractLinks(content, filePath) {
     const line = lines[i]
     const lineNum = i + 1
 
-    // Markdown links: [text](url) — exclude images ![...](...)
+    // Markdown links: [text](url), exclude images ![...](...)
     const mdRegex = /(?<!!)\[([^\]]*)\]\(([^)]+)\)/g
     let mdMatch
     while ((mdMatch = mdRegex.exec(line)) !== null) {

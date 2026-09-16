@@ -213,7 +213,7 @@ arise:
 
 ### 3.7 2D NMR Techniques
 
-**Definition 4 (COSY — Correlation Spectroscopy):** Reveals $^1$H–$^1$H coupling relationships.
+**Definition 4 (COSY, Correlation Spectroscopy):** Reveals $^1$H–$^1$H coupling relationships.
 Cross-peaks indicate which protons are coupled.
 
 **Definition 5 (HSQC/HMQC):** Shows $^1$H–$^{13}$C one-bond correlations. Each proton signal correlates
@@ -402,7 +402,7 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 | Structure and Bonding    | WyattsNotes | [View](structure-and-bonding)              |
 | Reaction Mechanisms      | WyattsNotes | [View](reaction-mechanisms)                |
 | Quantum Chemistry        | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)                  |
-| Organic Spectroscopy — MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
+| Organic Spectroscopy, MIT 5.33 | MIT OCW | [View](https://ocw.mit.edu/courses/5-33-advanced-chemical-experimentation-fall-2003/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

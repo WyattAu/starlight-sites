@@ -197,7 +197,7 @@ flowchart TD
 
 ## Intuition
 
-**IB English assessment is like a performance — you must demonstrate understanding through careful analysis, clear writing, and insightful interpretation:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
+**IB English assessment is like a performance, you must demonstrate understanding through careful analysis, clear writing, and insightful interpretation:** Success in IB English comes from close reading, structured argumentation, and connecting texts to broader contexts
 
 **Why it matters:** Mastering assessment techniques ensures your understanding is accurately reflected in your grades
 

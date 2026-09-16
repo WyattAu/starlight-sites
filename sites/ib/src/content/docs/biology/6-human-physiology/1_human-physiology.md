@@ -1,7 +1,7 @@
 ---
 
 title: "Human Physiology"
-description: "IB Biology — digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
+description: "IB Biology, digestion, cardiovascular system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,11 +18,11 @@ tags:
 
 ## Intuition
 
-**Human physiology is like a symphony orchestra — each organ system plays its part, and coordination creates health:** Homeostasis — the maintenance of stable internal conditions — connects all physiological processes
+**Human physiology is like a symphony orchestra, each organ system plays its part, and coordination creates health:** Homeostasis, the maintenance of stable internal conditions, connects all physiological processes
 
 **Why it matters:** Understanding physiology explains how our bodies work and how diseases disrupt normal function
 
-**The key insight:** Homeostasis — the maintenance of stable internal conditions — connects all physiological processes
+**The key insight:** Homeostasis, the maintenance of stable internal conditions, connects all physiological processes
 
 ## 1. Digestion
 

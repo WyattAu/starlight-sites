@@ -39,7 +39,7 @@ class generator : public ranges::view_interface<generator<Ref, V, Allocator>> {
 };
 ```
 
-`std::generator<T>` is a **view** — it is lightweight, non-owning, and models `input_range`. Values
+`std::generator<T>` is a **view**, it is lightweight, non-owning, and models `input_range`. Values
 Are computed lazily on demand.
 
 ## `co_yield` as Syntactic Sugar
@@ -62,7 +62,7 @@ Sequences, large data pipelines, or expensive computations where only a prefix o
 Needed.
 
 The memory usage of a generator is $\mathcal{O}(d)$ where $d$ is the depth of the coroutine's local
-Variable state that crosses a suspend point — constant and independent of the number of Values
+Variable state that crosses a suspend point, constant and independent of the number of Values
 produced.
 
 ## Comparison with Python Generators
@@ -74,7 +74,7 @@ produced.
 | Type safety                 | Dynamically typed                         | Statically typed (templates)                   |
 | Lazy evaluation             | Yes                                       | Yes                                            |
 | Composable via `yield from` | Yes (`yield from gen`)                    | Via nested coroutine calls or range adapters   |
-| Exception propagation       | `throw` inside generator caught by caller | Same — exceptions propagate through `co_await` |
+| Exception propagation       | `throw` inside generator caught by caller | Same, exceptions propagate through `co_await` |
 | Standard library support    | Built-in since Python 2.2                 | C++23 (`<generator>`)                          |
 
 ## Complete Example: Fibonacci Generator with `std::generator`
@@ -164,16 +164,16 @@ Sum: 4613732
 
 :::tip
 `std::views::filter``std::views::transform`Etc. However, be aware that range adaptors are eager On
-the iteration step — each `++it` call on the adapted view will advance the underlying generator By
+the iteration step, each `++it` call on the adapted view will advance the underlying generator By
 one element.
 :::
 ## Intuition
 
-**A generator is like a vending machine that dispenses values one at a time:** Instead of computing all values upfront (like a function that returns a vector), a generator computes values lazily — one per `co_yield`. It's like a vending machine that makes one snack when you press the button, then goes back to sleep until you press again. This is perfect for sequences that are expensive to compute or infinite (like Fibonacci numbers).
+**A generator is like a vending machine that dispenses values one at a time:** Instead of computing all values upfront (like a function that returns a vector), a generator computes values lazily, one per `co_yield`. It's like a vending machine that makes one snack when you press the button, then goes back to sleep until you press again. This is perfect for sequences that are expensive to compute or infinite (like Fibonacci numbers).
 
 **Why it matters:** `std::generator` (C++23) brings Python-style generators to C++. Instead of building entire vectors in memory, you can produce values on-demand. This enables composable pipelines (filter, transform, take) that process data lazily, saving both memory and compute time.
 
-**The key insight:** A generator suspends at each `co_yield` — the frame stores the current position, so the next `co_await` or `co_yield` resumes exactly where it left off.
+**The key insight:** A generator suspends at each `co_yield`the frame stores the current position, so the next `co_await` or `co_yield` resumes exactly where it left off.
 
 ## See Also
 
@@ -283,7 +283,7 @@ int main() {
 | :----------------- | :------------------------------------------------------ | :---------------------------------------- |
 | State storage      | Manual (member variables)                               | Automatic (coroutine frame)               |
 | Suspend/resume     | Not supported                                           | Built-in (`co_yield` / `co_await`)        |
-| Complexity         | Boilerplate-heavy (`begin``end``operator++``operator*`) | Minimal — just write the body             |
+| Complexity         | Boilerplate-heavy (`begin``end``operator++``operator*`) | Minimal, just write the body             |
 | Infinite sequences | Difficult (need sentinel tricks)                        | Natural (`while(true) { co_yield ...; }`) |
 | Exception safety   | Manual                                                  | Stack unwinding on unhandled exception    |
 | Composability      | Limited                                                 | Nest coroutines, use range adaptors       |
@@ -435,7 +435,7 @@ int main() {
 | Coroutine frame allocation | 1 heap allocation per `std::generator` creation  |
 | Frame size                 | ~100–300 bytes (depends on local variables)      |
 | Resume/suspend overhead    | ~10–50ns (comparable to a virtual function call) |
-| Memory usage (per element) | $\mathcal{O}(1)$ — no accumulation               |
+| Memory usage (per element) | $\mathcal{O}(1)$, no accumulation               |
 | Cache behavior             | Poor if frame is large and accessed infrequently |
 
 :::caution

@@ -30,7 +30,7 @@ flowchart TD
 
 **Gravity is like an invisible rubber sheet that bends under the weight of massive objects, guiding their motion.**
 
-## Gravitational Fields — Diagnostic Tests
+## Gravitational Fields, Diagnostic Tests
 
 ## Unit Tests
 

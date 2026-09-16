@@ -30,13 +30,13 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-Multivariable calculus extends single-variable calculus to functions of several variables. Partial derivatives measure the rate of change in one direction while holding others constant. The gradient vector points in the direction of steepest ascent — its magnitude is the maximum rate of change. Multiple integrals compute volumes and masses over regions, and the theorems of Green, Stokes, and Gauss connect local differential properties to global integral properties over boundaries. These theorems are the unifying principle: they all state that the integral of a derivative over a region equals the integral of the original function over the boundary.
+Multivariable calculus extends single-variable calculus to functions of several variables. Partial derivatives measure the rate of change in one direction while holding others constant. The gradient vector points in the direction of steepest ascent, its magnitude is the maximum rate of change. Multiple integrals compute volumes and masses over regions, and the theorems of Green, Stokes, and Gauss connect local differential properties to global integral properties over boundaries. These theorems are the unifying principle: they all state that the integral of a derivative over a region equals the integral of the original function over the boundary.
 
 ## Common Pitfalls
 
-- **Clairaut's theorem order**: Mixed partial derivatives f_xy and f_yx are equal only if they're continuous — assuming equality without checking continuity can lead to wrong results for non-smooth functions.
-- **Jacobian determinant sign**: The Jacobian determinant in change-of-variables can be negative — the absolute value is used for volume scaling, but the sign indicates orientation reversal.
-- **Green's theorem orientation**: The boundary curve must be positively oriented (counterclockwise) for Green's theorem — reversing orientation flips the sign of the integral.
+- **Clairaut's theorem order**: Mixed partial derivatives f_xy and f_yx are equal only if they're continuous, assuming equality without checking continuity can lead to wrong results for non-smooth functions.
+- **Jacobian determinant sign**: The Jacobian determinant in change-of-variables can be negative, the absolute value is used for volume scaling, but the sign indicates orientation reversal.
+- **Green's theorem orientation**: The boundary curve must be positively oriented (counterclockwise) for Green's theorem, reversing orientation flips the sign of the integral.
 - **Confusing parameterisation with integration**: When computing surface or line integrals, the parameterisation determines the limits of integration. A poor choice of parameterisation can make the integral much harder.
 - **Forgetting the chain rule for multivariable functions**: If z = f(x,y) and x = g(t), y = h(t), then dz/dt = (∂f/∂x)(dx/dt) + (∂f/∂y)(dy/dt). The chain rule has more terms in multivariable calculus.
 

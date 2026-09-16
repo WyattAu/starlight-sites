@@ -63,7 +63,7 @@ A relation that is reflexive, symmetric, and transitive is called an **equivalen
 - The empty relation $\emptyset$ is symmetric and transitive, but not reflexive (unless $A = \emptyset$).
 - The universal relation $A \times A$ is reflexive, symmetric, and transitive.
 
-## Worked Example 1 — Checking Properties
+## Worked Example 1, Checking Properties
 
 **Problem:** Let $A = \{1, 2, 3, 4\}$ and $R = \{(1,1), (2,2), (3,3), (4,4), (1,2), (2,1)\}$. Determine whether $R$ is reflexive, symmetric, and transitive.
 
@@ -91,7 +91,7 @@ A relation that is reflexive, symmetric, and transitive is called an **equivalen
 
 **Common mistake:** Forgetting to check all pairs for transitivity. When $(a,b)$ and $(b,c)$ both belong to $R$, you must verify $(a,c)$ is also in $R$.
 
-## Worked Example 2 — Relation Defined by a Rule
+## Worked Example 2, Relation Defined by a Rule
 
 **Problem:** Let $R$ be defined on $\mathbb{Z}$ by $aRb$ if and only if $a - b$ is divisible by $3$. Show that $R$ is an equivalence relation and describe the equivalence classes.
 
@@ -115,7 +115,7 @@ So $3 \mid (a - c)$, giving $aRc$.
 
 **Common mistake:** Confusing divisibility with equality. $a - b$ divisible by 3 does not mean $a = b$; it means $a$ and $b$ leave the same remainder when divided by 3.
 
-## Worked Example 3 — Relation That Is Not an Equivalence Relation
+## Worked Example 3, Relation That Is Not an Equivalence Relation
 
 **Problem:** Let $A = \{1, 2, 3\}$ and $R = \{(1,1), (2,2), (1,3), (3,1)\}$. Determine which properties $R$ satisfies.
 

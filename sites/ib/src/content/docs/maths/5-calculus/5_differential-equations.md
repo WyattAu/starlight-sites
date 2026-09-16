@@ -1,7 +1,7 @@
 ---
 
 title: "Differential Equations"
-description: "IB Mathematics — first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
+description: "IB Mathematics, first order separable equations, integrating factors, second order homogeneous equations, applications, and numerical methods."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -399,7 +399,7 @@ $y(0) = 1$.
 | 2   | 0.2   | 1.220 | 1.420                     |
 | 3   | 0.3   | 1.362 | 1.662                     |
 | 4   | 0.4   | 1.528 | 1.928                     |
-| 5   | 0.5   | 1.721 | —                         |
+| 5   | 0.5   | 1.721 |,                         |
 
 Euler's approximation: $y(0.5) \approx 1.721$.
 
@@ -574,7 +574,7 @@ Use Euler's method with $h = 0.05$ to approximate $y(0.3)$ for $\dfrac{dy}{dx} =
 | 3   | 0.15  | 1.7221 | $-1.5721$                 |
 | 4   | 0.20  | 1.6435 | $-1.4435$                 |
 | 5   | 0.25  | 1.5713 | $-1.3213$                 |
-| 6   | 0.30  | 1.5053 | —                         |
+| 6   | 0.30  | 1.5053 |,                         |
 
 Euler approximation: $y(0.3) \approx 1.505$.
 
@@ -603,7 +603,7 @@ Error: $|1.522 - 1.505| \approx 0.017$Roughly $1.1\%$.
 
 ## Intuition
 
-A differential equation is a sentence about change. It does not tell you where you are; it tells you how you are moving. Separable equations are the simplest case — imagine a car whose speed depends only on its position. You can separate the "where" from the "how fast" and integrate each side independently. The integrating factor trick for linear equations is like finding the right lens through which a tangled expression suddenly comes into focus — it transforms a messy left side into the derivative of a product you can integrate directly. Second order equations describe systems with inertia, like springs and circuits, where the future depends on both position and velocity.
+A differential equation is a sentence about change. It does not tell you where you are; it tells you how you are moving. Separable equations are the simplest case, imagine a car whose speed depends only on its position. You can separate the "where" from the "how fast" and integrate each side independently. The integrating factor trick for linear equations is like finding the right lens through which a tangled expression suddenly comes into focus, it transforms a messy left side into the derivative of a product you can integrate directly. Second order equations describe systems with inertia, like springs and circuits, where the future depends on both position and velocity.
 
 ## Common Pitfalls
 

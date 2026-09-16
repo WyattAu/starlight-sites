@@ -48,7 +48,7 @@ m $= 11.9$ mm.
 
 (c) The number of fringes:
 $N_{\mathrm{fringes} = L_c/\lambda = (11.9 \times 10^{-3})/(546.1 \times 10^{-9}) = 2.18 \times 10^4}$.
-Over 20000 fringes are visible — a large number, but far fewer than for a laser.
+Over 20000 fringes are visible, a large number, but far fewer than for a laser.
 
 </details>
 

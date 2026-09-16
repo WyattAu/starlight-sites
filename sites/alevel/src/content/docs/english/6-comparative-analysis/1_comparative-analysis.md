@@ -42,15 +42,15 @@ comparative essays.
 
 Comparison serves several analytical purposes:
 
-- **Illuminates individual texts** — Seeing a text alongside another reveals aspects that might
+- **Illuminates individual texts**, Seeing a text alongside another reveals aspects that might
   otherwise go unnoticed
-- **Reveals the effects of context** — Texts from different periods treating similar themes show how
+- **Reveals the effects of context**, Texts from different periods treating similar themes show how
   cultural values change
-- **Highlights authorial choices** — When two writers approach the same subject differently, the
+- **Highlights authorial choices**, When two writers approach the same subject differently, the
   contrast is analytically rich
-- **Tests critical approaches** — A feminist reading might work differently on two texts, revealing
+- **Tests critical approaches**, A feminist reading might work differently on two texts, revealing
   the approach"s strengths and limitations
-- **Develops argument** — Comparison forces you to make judgements about relative emphasis,
+- **Develops argument**, Comparison forces you to make judgements about relative emphasis,
   significance, and effectiveness
 
 ### Points of Comparison
@@ -76,7 +76,7 @@ Effective comparison balances similarity and difference:
 - **Similarities** reveal shared concerns, conventions, or responses to common themes
 - **Differences** reveal the distinctiveness of each text, the influence of context, or the writer's
   individual perspective
-- **The relationship between them** — Often the most analytically productive point is where texts
+- **The relationship between them**, Often the most analytically productive point is where texts
   are similar in theme but different in approach, or vice versa
 
 **Key principle:** Never force a comparison that does not exist. If two texts are fundamentally
@@ -205,9 +205,9 @@ Sometimes you must compare a text with its historical source, adaptation, or cri
 
 ### Structuring the Essay
 
-- **Introduction** — Introduce both texts, establish the basis for comparison, state your thesis
-- **Body paragraphs** — Each paragraph should cover one point of comparison, integrating both texts
-- **Conclusion** — Evaluate the comparison. What does it reveal that analysing each text alone would
+- **Introduction**, Introduce both texts, establish the basis for comparison, state your thesis
+- **Body paragraphs**, Each paragraph should cover one point of comparison, integrating both texts
+- **Conclusion**, Evaluate the comparison. What does it reveal that analysing each text alone would
   not?
 
 ### Timing Guide
@@ -264,7 +264,7 @@ result of one man's hubris.
 
 In _The Handmaid's Tale_, power is systemic and institutional. Gilead's theocratic regime exercises
 control through language, ritual, and surveillance. Atwood's first-person narration is deliberately
-fragmented and unreliable — Offred's account is partial, edited, and shaped by trauma. Unlike
+fragmented and unreliable, Offred's account is partial, edited, and shaped by trauma. Unlike
 Victor, who chooses his transgression, Offred is a victim of a system that has stripped her of
 agency. The difference in narrative perspective reflects the difference in the nature of power:
 individual ambition versus structural oppression.
@@ -272,7 +272,7 @@ individual ambition versus structural oppression.
 Both texts use the motif of the created being. Victor's creature is literally manufactured; Offred
 is socially reconstructed as a "two-legged womb." Both creations are denied names, autonomy, and
 dignity. However, where the creature responds to his exclusion with violence, Offred's resistance is
-internal and narrative — her survival depends on the act of telling her story. A feminist reading
+internal and narrative, her survival depends on the act of telling her story. A feminist reading
 might argue that this difference reflects gendered expectations: the male creation rebels openly,
 while the female creation must resist through memory and language.
 
@@ -296,7 +296,7 @@ Blake's poem is structured as a walk through London, with each stanza building a
 of suffering. The repetition of "every" ("every face," "every cry," "every man," "every Infant")
 creates a sense of total, inescapable oppression. The present tense makes the suffering immediate
 and ongoing. Blake's use of the "mind-forg'd manacles" suggests that oppression operates through
-ideology as well as physical force — the people are imprisoned by their own acceptance of the
+ideology as well as physical force, the people are imprisoned by their own acceptance of the
 system.
 
 Shelley, by contrast, presents power as self-defeating. Ozymandias's "shattered visage" is all that
@@ -306,7 +306,7 @@ frames (speaker, traveller, inscription) distance the reader from Ozymandias's p
 pathetic rather than terrifying.
 
 The difference in form reinforces this contrast. Blake uses a regular, almost hymn-like structure
-(four quatrains with ABAB rhyme) that suggests order and constraint — mirroring the oppressive city.
+(four quatrains with ABAB rhyme) that suggests order and constraint, mirroring the oppressive city.
 Shelley uses an irregular sonnet form that breaks from convention, suggesting the collapse of
 established structures. Blake's poem is tight and claustrophobic; Shelley's is expansive and open,
 ending with the "lone and level sands" that stretch "far away."
@@ -316,7 +316,7 @@ Shelley shows what time does to power itself.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid

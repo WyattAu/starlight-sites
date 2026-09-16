@@ -9,14 +9,14 @@ export const flashcard1 = [
   {
     id: 'ib-chem-redox-electrochemistry-002',
     front: 'Define oxidation and reduction in terms of electron transfer and oxidation state.',
-    back: 'Oxidation: loss of electrons, increase in oxidation state (OIL — Oxidation Is Loss). Reduction: gain of electrons, decrease in oxidation state (RIG — Reduction Is Gain). Together: OIL RIG. Oxidation states: oxidised species has its oxidation state increased; reduced species has its oxidation state decreased. Example: Fe -> Fe2+ + 2e- (Fe is oxidised, oxidation state 0 to +2). Cu2+ + 2e- -> Cu (Cu2+ is reduced, oxidation state +2 to 0).',
+    back: 'Oxidation: loss of electrons, increase in oxidation state (OIL, Oxidation Is Loss). Reduction: gain of electrons, decrease in oxidation state (RIG, Reduction Is Gain). Together: OIL RIG. Oxidation states: oxidised species has its oxidation state increased; reduced species has its oxidation state decreased. Example: Fe -> Fe2+ + 2e- (Fe is oxidised, oxidation state 0 to +2). Cu2+ + 2e- -> Cu (Cu2+ is reduced, oxidation state +2 to 0).',
     tags: ['oxidation', 'reduction'],
     difficulty: 'easy',
   },
   {
     id: 'ib-chem-redox-electrochemistry-003',
     front: 'Define oxidizing agent and reducing agent. Give an example of each.',
-    back: 'Oxidizing agent (oxidant): a species that causes oxidation by accepting electrons — it is itself reduced. Example: MnO4- in acid (Mn goes from +7 to +2). Reducing agent (reductant): a species that causes reduction by donating electrons — it is itself oxidized. Example: Fe2+ (Fe goes from +2 to +3). Strong oxidizing agents: F2, MnO4-, Cr2O7 2-, Cl2. Strong reducing agents: alkali metals, Zn, I-.',
+    back: 'Oxidizing agent (oxidant): a species that causes oxidation by accepting electrons, it is itself reduced. Example: MnO4- in acid (Mn goes from +7 to +2). Reducing agent (reductant): a species that causes reduction by donating electrons, it is itself oxidized. Example: Fe2+ (Fe goes from +2 to +3). Strong oxidizing agents: F2, MnO4-, Cr2O7 2-, Cl2. Strong reducing agents: alkali metals, Zn, I-.',
     tags: ['oxidizing agent', 'reducing agent'],
     difficulty: 'easy',
   },

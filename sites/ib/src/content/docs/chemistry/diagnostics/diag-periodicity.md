@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Periodicity — Diagnostic Tests
+## Periodicity, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**The periodic table is like a map of元素 properties — elements in the same column share similar chemical personalities:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns
+**The periodic table is like a map of元素 properties, elements in the same column share similar chemical personalities:** Periodic trends in atomic radius, ionization energy, and electronegability arise from electron configuration patterns
 
 **Why it matters:** Understanding periodicity allows prediction of chemical behavior, guiding everything from drug design to materials science
 

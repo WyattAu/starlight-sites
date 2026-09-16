@@ -503,11 +503,11 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 ## Intuition
 
-**Building blocks with rules:** Atoms are like LEGO sets — protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
+**Building blocks with rules:** Atoms are like LEGO sets, protons determine the element, electrons determine the chemistry. The periodic table organizes elements by their electron configurations, revealing patterns in reactivity.
 
 **Why it matters:** From semiconductors to pharmaceuticals, understanding atomic structure explains why elements behave the way they do and how to combine them.
 
-**The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant — electrons are held more tightly.
+**The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant, electrons are held more tightly.
 
 
 ```mermaid
@@ -797,7 +797,7 @@ Period 3 elements ($\mathrm{Na}$ to $\mathrm{Ar}$) show clear trends that are fr
 
 | Element            | Na  | Mg  | Al  | Si  | P   | S   | Cl  | Ar  |
 | ------------------ | --- | --- | --- | --- | --- | --- | --- | --- |
-| Atomic radius (pm) | 186 | 160 | 143 | 117 | 110 | 104 | 99  | —   |
+| Atomic radius (pm) | 186 | 160 | 143 | 117 | 110 | 104 | 99  |,   |
 
 Atomic radius decreases across the period because increasing nuclear charge pulls electrons closer.
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   DESIGN TOKENS — single source of truth
+   DESIGN TOKENS, single source of truth
    All sites import this. Themes override at [data-theme] level.
    ============================================================ */
 
@@ -110,7 +110,7 @@
    `:root` maps the legacy --wn-* variables and Starlight's
    --sl-color-* system onto the design tokens so both variable
    families agree. Per-theme palettes in themes.css override
-   these at [data-theme] level — never the other way around.
+   these at [data-theme] level, never the other way around.
    ============================================================ */
 :root {
   --wn-bg: var(--ea-surface);

@@ -79,7 +79,7 @@ Validation).
 
 - WAFs are signature-based and cannot detect novel attacks
 - False positives can block legitimate traffic
-- WAFs do not fix underlying vulnerabilities — they mask them
+- WAFs do not fix underlying vulnerabilities, they mask them
 - Encrypted traffic (HTTPS) requires TLS termination before WAF inspection
 - Attackers can encode payloads to bypass pattern matching
 
@@ -407,7 +407,7 @@ Enabling DNS response authentication. It prevents DNS cache poisoning and spoofi
 | ----------- | ------------------------------------------------------- |
 | DNSKEY      | Public key for the zone                                 |
 | RRSIG       | Signature over a record set (RRset)                     |
-| DS          | Delegation signer — links child zone to parent          |
+| DS          | Delegation signer, links child zone to parent          |
 | NSEC/NSEC3  | Proves non-existence of a record (authenticated denial) |
 
 **Chain of trust:**
@@ -568,7 +568,7 @@ Man-in-the-middle attacks even if a CA is compromised.
 | Certificate pinning | Per certificate | Very low    | High     |
 | CA pinning          | Per CA          | Medium      | Medium   |
 
-### HTTP Public Key Pinning (HPKP) — Deprecated
+### HTTP Public Key Pinning (HPKP), Deprecated
 
 HPKP was deprecated due to the risk of hosts pinning themselves out of existence (losing the pinned
 Key with no recovery mechanism). If the pin was wrong, the site became permanently inaccessible for

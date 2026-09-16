@@ -30,9 +30,9 @@ flowchart TD
 
 ## Intuition
 
-Decidability asks: **can an algorithm give a definitive yes/no answer for every input?** Some problems are fundamentally undecidable — no amount of cleverness or computing power can solve them for all cases. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or loop forever.
+Decidability asks: **can an algorithm give a definitive yes/no answer for every input?** Some problems are fundamentally undecidable, no amount of cleverness or computing power can solve them for all cases. The halting problem is the canonical example: you cannot write a program that determines whether an arbitrary program will halt or loop forever.
 
-**Why the halting problem is undecidable:** The proof is by diagonalisation — if such a program H existed, we could construct a program D that does the opposite of what H predicts, creating a paradox. This is similar to the liar's paradox ("this statement is false") but made rigorous through computation.
+**Why the halting problem is undecidable:** The proof is by diagonalisation, if such a program H existed, we could construct a program D that does the opposite of what H predicts, creating a paradox. This is similar to the liar's paradox ("this statement is false") but made rigorous through computation.
 
 **Reductions intuition:** To prove a problem is undecidable, reduce a known undecidable problem to it. If A reduces to B and A is undecidable, then B is undecidable (because a decider for B would give a decider for A). This is the primary tool for proving undecidability results.
 
@@ -62,11 +62,11 @@ $\blacksquare$
 
 **Additional decidable problems:**
 
-- $A_{\mathrm{REX} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}$ — convert $R$
+- $A_{\mathrm{REX} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}$, convert $R$
   to a DFA, then decide $A_{\mathrm{DFA}$.
-- $E_{\mathrm{CFG} = \{\langle G \rangle : L(G) = \emptyset\}$ — test all derivations up to length
+- $E_{\mathrm{CFG} = \{\langle G \rangle : L(G) = \emptyset\}$, test all derivations up to length
   $2^{|V|}$.
-- $\mathrm{INF_{\mathrm{CFL} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}$ — check if any
+- $\mathrm{INF_{\mathrm{CFL} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}$, check if any
   variable has a self-embedding derivation.
 
 ### 5.2 The Halting Problem
@@ -144,7 +144,7 @@ $\langle M_w \rangle \notin E_{\mathrm{TM}$.
 
 The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
 Were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
-decidable — contradiction. $\blacksquare$
+decidable, contradiction. $\blacksquare$
 
 </details>
 
@@ -160,7 +160,7 @@ Then $L(M) = \emptyset$ iff $L(M_1) = L(M_2)$.
 
 Therefore $\langle M \rangle \in E_{\mathrm{TM}$ iff
 $\langle M_1, M_2 \rangle \in \mathrm{EQ_{\mathrm{TM}$. If $\mathrm{EQ_{\mathrm{TM}$ were decidable,
-$E_{\mathrm{TM}$ would be decidable — contradiction. $\blacksquare$
+$E_{\mathrm{TM}$ would be decidable, contradiction. $\blacksquare$
 
 </details>
 
@@ -198,8 +198,8 @@ The **PCP language** is
 $\mathrm{PCP} = \{\langle \alpha, \beta \rangle : \alpha, \beta \mathrm{ have} a solution\}$.
 
 **Example.** $\alpha = (a, ab, bba)$, $\beta = (ba, aa, bb)$. The sequence $(2, 1, 1, 3)$ gives
-$ab \cdot a \cdot a \cdot bba = abaabba$ and $aa \cdot ba \cdot ba \cdot bb = aabababb$ — not equal.
-The sequence $(1, 3, 1)$ gives $a \cdot bba \cdot a = abbaa$ and $ba \cdot bb \cdot ba = babba$ —
+$ab \cdot a \cdot a \cdot bba = abaabba$ and $aa \cdot ba \cdot ba \cdot bb = aabababb$, not equal.
+The sequence $(1, 3, 1)$ gives $a \cdot bba \cdot a = abbaa$ and $ba \cdot bb \cdot ba = babba$,
 not equal. This instance may or may not have a solution; determining this is undecidable .
 
 <details>
@@ -219,7 +219,7 @@ Try $(3, 2, 1, 3, 2, 1)$:
 - Top: $aab \cdot ba \cdot b \cdot aab \cdot ba \cdot b = aabbaabaabb$
 - Bottom: $ba \cdot aa \cdot bb \cdot ba \cdot aa \cdot bb = baabbbbaabb$
 
-Not equal. Finding solutions to PCP instances can be very difficult — there is no general algorithm.
+Not equal. Finding solutions to PCP instances can be very difficult, there is no general algorithm.
 
 </details>
 
@@ -231,7 +231,7 @@ Sequence corresponds to a valid accepting computation: the first tile starts the
 Tiles enforce that each configuration follows from the previous by a valid transition, and the last
 Tile allows termination only if an accept state is reached. Thus the PCP instance has a solution iff
 $M$ accepts $w$. The construction is computable, so if PCP were decidable, $A_{\mathrm{TM}}$ would
-Be decidable — contradiction. $\blacksquare$
+Be decidable, contradiction. $\blacksquare$
 
 **Modified PCP (MPCP).** In the modified version, the first tile used must be tile 1. MPCP is also
 Undecidable, and the reduction from PCP to MPCP adds a "prefix" tile that forces tile 1 to be used
@@ -249,7 +249,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques — .../1-number-and-algebra/3_proof-and-logic methods that do not carry
+Non-relativising techniques.../1-number-and-algebra/3_proof-and-logic methods that do not carry
 over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
@@ -290,4 +290,4 @@ about $B$.
 
 4. **Using Rice's theorem incorrectly.** Rice's theorem applies to non-trivial properties of the _language_ recognised by a TM, not properties of the TM itself. "Does this TM have 5 states?" is not a property of the language and is therefore decidable. "Does this TM accept a regular language?" is a property of the language and is undecidable by Rice's theorem.
 
-5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem _relative to itself_ (the Turing jump). Oracles create a strict hierarchy — each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.
+5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem _relative to itself_ (the Turing jump). Oracles create a strict hierarchy, each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.

@@ -48,10 +48,10 @@ efficient problem-solving.
 
 ### The Two-Pass System
 
-**Pass 1** — Solve every question you can do in under 60 seconds. Mark difficult questions and move
+**Pass 1**, Solve every question you can do in under 60 seconds. Mark difficult questions and move
 on. Do not spend more than 90 seconds on any single question on the first pass.
 
-**Pass 2** — Return to marked questions. You now have remaining time with no pressure from
+**Pass 2**, Return to marked questions. You now have remaining time with no pressure from
 unfinished easy questions. Spend up to 2 minutes per marked question.
 
 **Why it works:** The adaptive model weights all questions within a module equally. Getting 5 easy
@@ -63,9 +63,9 @@ Check your position at these checkpoints:
 
 | Checkpoint  | Reading & Writing     | Mathematics           |
 | ----------- | --------------------- | --------------------- |
-| 25% through | Q7 — ~8 min elapsed   | Q5 — ~9 min elapsed   |
-| 50% through | Q14 — ~16 min elapsed | Q11 — ~17 min elapsed |
-| 75% through | Q20 — ~24 min elapsed | Q16 — ~26 min elapsed |
+| 25% through | Q7, ~8 min elapsed   | Q5, ~9 min elapsed   |
+| 50% through | Q14, ~16 min elapsed | Q11, ~17 min elapsed |
+| 75% through | Q20, ~24 min elapsed | Q16, ~26 min elapsed |
 
 If you are behind at any checkpoint, switch to the two-pass system immediately.
 
@@ -97,9 +97,9 @@ For every multiple-choice question, apply elimination in this order:
 
 ### When to Stop Eliminating
 
-- **2 options remain** — guess. The expected value of guessing between 2 options (50% chance)
+- **2 options remain**, guess. The expected value of guessing between 2 options (50% chance)
   exceeds the cost of spending additional time.
-- **3 options remain and time is short** — guess unless you can eliminate one more in under 15
+- **3 options remain and time is short**, guess unless you can eliminate one more in under 15
   seconds.
 
 ---
@@ -121,15 +121,15 @@ There is **no penalty for wrong answers** on the digital SAT. This means:
 
 - **Never leave a question blank.** Even a pure guess has a 25% chance of being correct (4 options)
   or 33% (3 options for some student-produced response alternatives).
-- The expected value of a random guess on a 4-option question is 0.25 marks — strictly positive.
+- The expected value of a random guess on a 4-option question is 0.25 marks, strictly positive.
 
 ### Strategic Guessing Framework
 
 | Situation                                  | Action                                                        |
 | ------------------------------------------ | ------------------------------------------------------------- |
-| Can eliminate 0 options                    | Guess immediately — don"t waste time                          |
+| Can eliminate 0 options                    | Guess immediately, don"t waste time                          |
 | Can eliminate 1 option                     | Guess if under 30 seconds remaining, otherwise eliminate more |
-| Can eliminate 2 options                    | Always guess — 50% success rate                               |
+| Can eliminate 2 options                    | Always guess, 50% success rate                               |
 | Running out of time with 3+ questions left | Bubble answers for all remaining questions instantly          |
 
 ### Grid-In Questions
@@ -138,8 +138,8 @@ Student-produced response questions have no options to eliminate. Strategy:
 
 - If you have no idea, enter a reasonable estimate (e.g., for a geometry question, estimate the
   area).
-- Common answers tend to be integers or simple fractions — avoid extremely unusual decimals.
-- Never leave blank — there is no penalty.
+- Common answers tend to be integers or simple fractions, avoid extremely unusual decimals.
+- Never leave blank, there is no penalty.
 
 ---
 
@@ -160,12 +160,12 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 | Scenario                                            | Calculator?                                   |
 | --------------------------------------------------- | --------------------------------------------- |
-| Simple arithmetic (e.g., $17 \times 23$)            | No — mental math is faster                    |
-| Checking a result you computed by hand              | Yes — quick verification                      |
-| Solving systems of equations                        | Yes — graph both equations, find intersection |
-| Finding roots of a quadratic                        | Yes — graph and identify x-intercepts         |
-| Statistical calculations (mean, standard deviation) | Yes — use Desmos stats tools                  |
-| Estimating an answer to check reasonableness        | Yes — plug in approximate values              |
+| Simple arithmetic (e.g., $17 \times 23$)            | No, mental math is faster                    |
+| Checking a result you computed by hand              | Yes, quick verification                      |
+| Solving systems of equations                        | Yes, graph both equations, find intersection |
+| Finding roots of a quadratic                        | Yes, graph and identify x-intercepts         |
+| Statistical calculations (mean, standard deviation) | Yes, use Desmos stats tools                  |
+| Estimating an answer to check reasonableness        | Yes, plug in approximate values              |
 
 ### Desmos Power Techniques
 
@@ -182,7 +182,7 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 - Typing the wrong number is the most common calculator error. **Always estimate the answer first**
   so you can recognise when the calculator output is wrong.
-- Relying on the calculator for questions that test algebraic manipulation — the test expects you to
+- Relying on the calculator for questions that test algebraic manipulation, the test expects you to
   show algebraic reasoning, and some questions are faster to solve symbolically.
 
 ---
@@ -200,18 +200,18 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 
 ### The Three-Read Approach
 
-**Read 1 — Skim for structure (30 seconds)**
+**Read 1, Skim for structure (30 seconds)**
 
 - Identify the main idea of each paragraph.
 - Note transition words (however, furthermore, in contrast).
 - Determine the author's purpose (argue, inform, entertain).
 
-**Read 2 — Read with the question in mind**
+**Read 2, Read with the question in mind**
 
 - Read the passage again, this time focusing on the specific content the question asks about.
 - Underline (mentally or with the highlight tool) key phrases, evidence, and claims.
 
-**Read 3 — Verify with the passage**
+**Read 3, Verify with the passage**
 
 - For each answer option, locate the specific text that supports or contradicts it.
 - Eliminate options that are true as a general principle but not supported by the passage.
@@ -247,11 +247,11 @@ The digital SAT provides a built-in Desmos graphing calculator for the entire Ma
 2. **Pronoun Agreement**. Pronouns must agree with their antecedents in number and gender. Watch
    for ambiguous references.
 3. **Modifier Placement**. Modifying phrases must be placed next to what they modify. "Walking down
-   the street, **the trees** were beautiful" is wrong — the trees weren't walking.
+   the street, **the trees** were beautiful" is wrong, the trees weren't walking.
 4. **Parallel Structure**. Items in a list or comparison must follow the same grammatical form.
 5. **Tense Consistency**. Maintain consistent verb tense unless there is a clear reason to shift.
 6. **Comma Splices and Run-ons**. Two independent clauses need a conjunction, semicolon, or period
-   between them — not just a comma.
+   between them, not just a comma.
 
 ### Transition Word Quick Reference
 
@@ -290,7 +290,7 @@ work.
 ### Pattern 3: Units Consistency
 
 If a question mixes units (e.g., gives time in minutes but speed in km/h), the answer that involves
-a unit conversion is almost always correct. Check the options — the one with a conversion factor
+a unit conversion is almost always correct. Check the options, the one with a conversion factor
 (like $\times 60$ or $\div 60$) is the one to verify first.
 
 ### Pattern 4: Symmetry in Geometry
@@ -333,7 +333,7 @@ Always estimate the answer before calculating. If the question asks for 17% of 3
 | 7    | Full-length practice test #4 (timed)                     | 2.5 hours + 1 hour review |
 | 8    | Light review + flashcard drill                           | 2 sessions of 30 min      |
 | 9    | Full-length practice test #5 (timed, simulated test day) | 2.5 hours + 1 hour review |
-| 10   | Final review — mistakes log + formula sheet              | 1 session of 60 min       |
+| 10   | Final review, mistakes log + formula sheet              | 1 session of 60 min       |
 
 ### Simulating Test Day
 

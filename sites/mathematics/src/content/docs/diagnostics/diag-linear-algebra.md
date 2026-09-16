@@ -228,7 +228,7 @@ flowchart TD
 
 **Why it matters:** Linear algebra is the foundation of machine learning, computer graphics, and scientific computing. Gaps in your understanding will show up as bugs in your code or errors in your models.
 
-**The key insight:** If you cannot compute a determinant or eigenvalue by hand, you do not truly understand the concept — use diagnostic tests as a starting point for deeper study, not as an endpoint.
+**The key insight:** If you cannot compute a determinant or eigenvalue by hand, you do not truly understand the concept, use diagnostic tests as a starting point for deeper study, not as an endpoint.
 
 ## Answer Key
 
@@ -262,4 +262,4 @@ flowchart TD
 
 **Assuming all eigenvectors are orthogonal:** Eigenvectors from different eigenvalues of a symmetric matrix are orthogonal, but eigenvectors from the same eigenvalue (eigenspace) need not be. For non-symmetric matrices, eigenvectors from different eigenvalues may not be orthogonal at all. Always orthogonalize eigenvectors from the same eigenspace using Gram-Schmidt if orthogonality is needed.
 
-**Confusing rank with the number of non-zero rows in a specific row echelon form:** The rank equals the number of pivot columns (dimension of the column space), which equals the number of non-zero rows in any row echelon form — but different row reduction algorithms can produce different echelon forms. The rank is an invariant of the matrix, not of a particular reduction.
+**Confusing rank with the number of non-zero rows in a specific row echelon form:** The rank equals the number of pivot columns (dimension of the column space), which equals the number of non-zero rows in any row echelon form, but different row reduction algorithms can produce different echelon forms. The rank is an invariant of the matrix, not of a particular reduction.

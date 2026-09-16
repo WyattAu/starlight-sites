@@ -28,7 +28,7 @@ categories:
 
 We begin with the most fundamental question in physics: **how do we measure things?**
 
-A **physical quantity** is a property of a phenomenon that can be quantified — assigned a numerical
+A **physical quantity** is a property of a phenomenon that can be quantified, assigned a numerical
 Value and compared with other instances of the same quantity. Physical quantities come in two
 Varieties:
 
@@ -268,7 +268,7 @@ The number of significant figures in a quoted result should be consistent with t
 And the uncertainty should be quoted to at most 2 significant figures.
 
 **Example.** If a length is measured as $12.3 \pm 0.4$ cm, we quote two significant figures
-(matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm — the
+(matching the uncertainty"s one significant figure). We do not write $12.30 \pm 0.4$ cm, the
 Trailing zero implies precision we do not have.
 
 :::tip
@@ -430,7 +430,7 @@ Explain the difference between a systematic error and a random error, giving one
 
 **Answer.** A systematic error is a consistent offset from the true value. Example: the bob is not
 Perfectly point-like, effectively increasing the pendulum length. A random error causes scatter in
-Repeated readings. Example: human reaction time when timing oscillations with a stopwatch — it
+Repeated readings. Example: human reaction time when timing oscillations with a stopwatch, it
 Varies unpredictably from trial to trial.
 
 <b>If you get this wrong, revise:</b> [Types of Error](#types-of-error)

@@ -32,7 +32,7 @@ description: "1. False. Only finite intersections are guaranteed. Counterexample
 
 5. **"Continuous bijections are homeomorphisms."** False. The bijection $f : [0, 2\pi) \to S^1$
    given by $f(t) = (\cos t, \sin t)$ is continuous and bijective, but its inverse is not continuous
-   — $[0, 2\pi)$ is not compact but $S^1$ is.
+$[0, 2\pi)$ is not compact but $S^1$ is.
 
 6. **"Every metric space is complete."** False. $\mathbb{Q}$ with the usual metric is not complete.
 
@@ -77,7 +77,7 @@ description: "1. False. Only finite intersections are guaranteed. Counterexample
 | Compact $\Rightarrow$ closed in any space | Cofinite topology on $\mathbb{N}$ | Every subset is compact, but only finite sets are closed |
 | Closed and bounded $\Rightarrow$ compact | $\mathbb{Q} \cap [0,1]$ | Closed and bounded in $\mathbb{Q}$ but not compact (not complete) |
 | Connected $\Rightarrow$ path-connected | Topologist's sine curve | Connected but no path between $(0,0)$ and $(1,\sin 1)$ |
-| Hausdorff $\Rightarrow$ regular | $K$-topology on $\mathbb{R}$ | Hausdorff but not regular — the set $K = \{1/n : n \in \mathbb{N}\}$ cannot be separated from $0$ |
+| Hausdorff $\Rightarrow$ regular | $K$-topology on $\mathbb{R}$ | Hausdorff but not regular, the set $K = \{1/n : n \in \mathbb{N}\}$ cannot be separated from $0$ |
 | Regular $\Rightarrow$ normal | Sorgenfrey plane | Regular but not normal (product of Sorgenfrey lines) |
 | First countable $\Rightarrow$ second countable | $\mathbb{R}$ with discrete topology | Singletons form a countable neighborhood basis at each point, but the space is uncountable |
 | Sequentially compact $\Rightarrow$ compact | Ordinal space $[0, \omega_1)$ | Every sequence converges but the open cover $\{[0,\alpha) : \alpha < \omega_1\}$ has no finite subcover |
@@ -133,7 +133,7 @@ infinitely often, contradicting continuity. $\blacksquare$
 
 2. **"Every continuous function on a compact set attains its maximum."** True for functions into
     $\mathbb{R}$ (extreme value theorem), but the codomain matters. A continuous function from a
-    compact space into an arbitrary topological space need not attain a "maximum" — the concept
+    compact space into an arbitrary topological space need not attain a "maximum", the concept
     of maximum requires an order structure.
 
 3. **"A subspace of a connected space is connected."** False. The interval $(0,1) \cup (2,3)$ is a

@@ -1,4 +1,4 @@
-/* Shared design system — import order matters */
+/* Shared design system, import order matters */
 @import "./tokens.css";
 @import "./base.css";
 @import "./components.css";

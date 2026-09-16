@@ -224,7 +224,7 @@ $\{X^{-1}(B) : \omega \in \Omega, X(\omega) \in B\} \in \mathcal{F}$.
 **Example 2.1 (Discrete).** Roll a fair die. Define $X(\omega) = \omega$. Then $X$ takes values in
 $\{1, 2, 3, 4, 5, 6\}$ With $P(X = k) = 1/6$ for each $k$.
 
-**Example 2.2 (Discrete — Indicator).** For any event $A$The **indicator random variable**
+**Example 2.2 (Discrete, Indicator).** For any event $A$The **indicator random variable**
 $\mathbf{1}_A$ equals 1 if $A$ occurs and 0 otherwise. Then $E[\mathbf{1}_A] = P(A)$ and
 $\mathrm{Var}(\mathbf{1}_A) = P(A)(1 - P(A))$.
 
@@ -653,7 +653,7 @@ $$P(X \gt 300 + 200 \mid X \gt 300) = P(X \gt 200) = e^{-200/500} = e^{-0.4} \ap
 
 $$E[X] = \begin{cases} \sum_x x\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} x\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}$$
 
-**Proposition 4.1 (LOTUS — Law of the Unconscious Statistician).** For any function $g$:
+**Proposition 4.1 (LOTUS, Law of the Unconscious Statistician).** For any function $g$:
 
 $$E[g(X)] = \begin{cases} \sum_x g(x)\, f_X(x) & \mathrm{(discrete)} \\ \int_{-\infty}^{\infty} g(x)\, f_X(x)\, dx & \mathrm{(continuous)} \end{cases}$$
 
@@ -751,7 +751,7 @@ both sides: $E[\varphi(X)] \geq \varphi(\mu) + \varphi'(\mu) \cdot 0 = \varphi(E
 $\blacksquare$
 
 _Remark._ Important applications: $E[X^2] \geq (E[X])^2$ (variance is non-negative, since $x^2$ is
-convex); $E[\log X] \leq \log E[X]$ (logarithm is concave — this is used in proving the information
+convex); $E[\log X] \leq \log E[X]$ (logarithm is concave, this is used in proving the information
 inequality).
 
 ### 4.5 Cauchy-Schwarz Inequality for Random Variables
@@ -1250,7 +1250,7 @@ found by solving $\ell'(\theta) = 0$ and verifying $\ell''(\hat{\theta}) \lt 0$.
 
 ### 7.3 Properties of MLEs
 
-**Theorem 7.1 (Consistency — Sketch).** Under regularity conditions,
+**Theorem 7.1 (Consistency, Sketch).** Under regularity conditions,
 $\hat{\theta}_{\mathrm{MLE} \xrightarrow{p} \theta_0}$ (the true parameter).
 
 _Proof sketch._ By the law of large numbers,
@@ -2188,7 +2188,7 @@ flowchart TD
 | Probability                 | WyattsNotes | [View](../../../../alevel/src/content/docs/maths/statistics/03-probability)            |
 | Real Analysis               | WyattsNotes | [View](real-analysis)          |
 | Differential Equations      | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations) |
-| Statistics — Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
+| Statistics, Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

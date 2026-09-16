@@ -248,7 +248,7 @@ Every thread receives a fixed-size stack at creation time. The default size vari
 
 Stack overflow is not catchable via C++ exceptions. When the stack pointer crosses the guard page at
 The bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
-Exception (Windows). These are fatal signals — there is no recovery.
+Exception (Windows). These are fatal signals, there is no recovery.
 
 ```cpp
 #include <cstdio>
@@ -581,11 +581,11 @@ void* stack_size_example(void*) \{
 
 ## Intuition
 
-**Fast local storage:** The stack is like a stack of plates — fast to add and remove from the top, but limited in size. Local variables live on the stack.
+**Fast local storage:** The stack is like a stack of plates, fast to add and remove from the top, but limited in size. Local variables live on the stack.
 
-**Why it matters:** Stack allocation is fast and automatic — understanding it helps you write efficient code and avoid stack overflow.
+**Why it matters:** Stack allocation is fast and automatic, understanding it helps you write efficient code and avoid stack overflow.
 
-**The key insight:** Stack memory is automatically freed when functions return — this is why local variables don't need manual cleanup.
+**The key insight:** Stack memory is automatically freed when functions return, this is why local variables don't need manual cleanup.
 
 ## Common Pitfalls
 
@@ -595,7 +595,7 @@ Allocating large arrays on the stack can cause stack overflow even without recur
 
 ```cpp
 void bad_function() \{
-    double matrix[1000][1000];  // 8 MB — exceeds default 8 MB stack
+    double matrix[1000][1000];  // 8 MB, exceeds default 8 MB stack
     // Stack overflow immediately on entry
 \}
 ```

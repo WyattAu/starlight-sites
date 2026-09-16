@@ -219,7 +219,7 @@ flowchart TD
 
 ## Intuition
 
-Economic development is the process of climbing a ladder — each rung represents higher productivity, better jobs, and more choice. South China's Pearl River Delta went from rice paddies to factory floors to tech hubs in a single generation, which is like watching a caterpillar become a butterfly in fast-forward. The Belt and Road Initiative is China building new roads to new markets — like a shopkeeper expanding to new neighbourhoods. The transition from manufacturing to services is inevitable as economies mature, but the challenge is making sure the workers left behind by factories are picked up by offices, not dropped.
+Economic development is the process of climbing a ladder, each rung represents higher productivity, better jobs, and more choice. South China's Pearl River Delta went from rice paddies to factory floors to tech hubs in a single generation, which is like watching a caterpillar become a butterfly in fast-forward. The Belt and Road Initiative is China building new roads to new markets, like a shopkeeper expanding to new neighbourhoods. The transition from manufacturing to services is inevitable as economies mature, but the challenge is making sure the workers left behind by factories are picked up by offices, not dropped.
 
 ## Exam Tips
 
@@ -252,7 +252,7 @@ Economic development is the process of climbing a ladder — each rung represent
 
 **Confusing FDI with portfolio investment:** FDI involves direct control of production facilities in another country (building a factory). Portfolio investment is just buying stocks or bonds without management control.
 
-**Mixing up core-periphery with developed-developing:** Core regions aren't always countries — they can be regions within countries (e.g., Shanghai is a core within China). Periphery isn't always poor — it's about the economic relationship, not absolute wealth.
+**Mixing up core-periphery with developed-developing:** Core regions aren't always countries, they can be regions within countries (e.g., Shanghai is a core within China). Periphery isn't always poor, it's about the economic relationship, not absolute wealth.
 
 ## See Also
 

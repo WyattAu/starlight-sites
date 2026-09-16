@@ -241,11 +241,11 @@ flowchart TD
 
 ## Intuition
 
-**Solar-powered factories:** Plants are like solar panels that make food — photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.
+**Solar-powered factories:** Plants are like solar panels that make food, photosynthesis captures sunlight and converts it into chemical energy. Transpiration is the plant's cooling system.
 
 **Why it matters:** From agriculture to climate change, plant biology underpins food security and environmental health. Understanding photosynthesis helps improve crop yields.
 
-**The key insight:** Photosynthesis and respiration are complementary processes — plants make glucose using sunlight, then break it down for energy, just like animals.
+**The key insight:** Photosynthesis and respiration are complementary processes, plants make glucose using sunlight, then break it down for energy, just like animals.
 
 ## Integration Test 1: Photosynthesis Limiting Factors and Experimental Design
 
@@ -465,7 +465,7 @@ xylem sap as amino acids.
 
 **Confusing the effects of auxin on shoots versus roots:** Auxin promotes cell elongation in shoots but inhibits it in roots. The same hormone concentration that causes a shoot to bend towards light causes a root to bend away from it.
 
-**Forgetting that transpiration is driven by evaporation, not by the plant "pumping" water:** Water moves up the xylem through cohesion-tension — evaporation at the leaf surface creates tension that pulls the entire water column upward. There is no active pumping.
+**Forgetting that transpiration is driven by evaporation, not by the plant "pumping" water:** Water moves up the xylem through cohesion-tension, evaporation at the leaf surface creates tension that pulls the entire water column upward. There is no active pumping.
 
 **Mixing up xylem and phloem transport direction:** Xylem transports water and minerals one-way (upward only). Phloem transports sugars two-way (both up and down) depending on source-to-sink direction.
 

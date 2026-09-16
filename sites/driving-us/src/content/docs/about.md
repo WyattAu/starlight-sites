@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes US Driving resources — experience, expertise, and credentials behind US DMV driving test study materials."
+description: "About Wyatt's Notes US Driving resources, experience, expertise, and credentials behind US DMV driving test study materials."
 tags:
   - about
   - driving-us
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — US Driving
+## About Wyatt's Notes, US Driving
 
 Wyatt's Notes delivers comprehensive study materials for the US driving test. These notes cover state-specific road rules, traffic signs, written test preparation, and driving skills, building the knowledge needed to pass DMV examinations across US states.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across driving tests internationally, providing compara
 
 ## Related Sites
 
-- **[UK Driving](https://driving-uk.wyattau.com)** — UK driving theory test resources
-- **[EU Driving](https://driving-eu.wyattau.com)** — EU driving test resources
-- **[Civics Tests](https://civics-tests.wyattau.com)** — US citizenship and civics test resources
+- **[UK Driving](https://driving-uk.wyattau.com)**, UK driving theory test resources
+- **[EU Driving](https://driving-eu.wyattau.com)**, EU driving test resources
+- **[Civics Tests](https://civics-tests.wyattau.com)**, US citizenship and civics test resources
 
 ## Explore the Site
 

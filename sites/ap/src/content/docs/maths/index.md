@@ -44,15 +44,15 @@ exam. The content follows the College Board"s course framework and mathematical 
 
 ## Topics Covered
 
-- **Limits and Continuity** — evaluating limits algebraically and graphically, squeeze theorem,
+- **Limits and Continuity**, evaluating limits algebraically and graphically, squeeze theorem,
   intermediate value theorem, infinite limits, limits at infinity
-- **Derivatives** — definition of the derivative, power/product/quotient/chain rules, implicit
+- **Derivatives**, definition of the derivative, power/product/quotient/chain rules, implicit
   differentiation, related rates, optimisation, curve sketching
-- **Integrals** — Riemann sums, fundamental theorem of calculus, u-substitution, integration by
+- **Integrals**, Riemann sums, fundamental theorem of calculus, u-substitution, integration by
   parts, area between curves, volume of solids of revolution
-- **Differential Equations** — slope fields, separation of variables, exponential growth and decay,
+- **Differential Equations**, slope fields, separation of variables, exponential growth and decay,
   logistic models, Euler's method
-- **Sequences and Series** — convergence tests (ratio, comparison, integral), Taylor and Maclaurin
+- **Sequences and Series**, convergence tests (ratio, comparison, integral), Taylor and Maclaurin
   series, power series, radius and interval of convergence (BC only)
 
 ## How to Use These Notes
@@ -66,7 +66,7 @@ exam. The content follows the College Board"s course framework and mathematical 
 
 - Show every step of your working; AP free-response questions award partial credit for correct
   intermediate steps even if the final answer is wrong
-- Practise justifying your answers — stating which theorem or test you are using is often required
+- Practise justifying your answers, stating which theorem or test you are using is often required
   for full credit
 - Master your calculator skills (graphing, numerical integration, solver) for the calculator-active
   portions of the exam
@@ -76,11 +76,11 @@ exam. The content follows the College Board"s course framework and mathematical 
   functions, which are exclusive to the BC exam
 - Create a one-page summary sheet of all derivative and integral rules for quick reference during
   revision sessions
-- Time yourself when practising free-response questions — the exam is tight on time and pacing is a
+- Time yourself when practising free-response questions, the exam is tight on time and pacing is a
   key skill
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
-- Review the AP Calculus mathematical practices alongside content — justification and communication
+- Review the AP Calculus mathematical practices alongside content, justification and communication
   are assessed throughout the exam
 
 ## Summary
@@ -98,7 +98,7 @@ linked above.
 
 Calculus is the mathematics of **change and accumulation**. The derivative measures instantaneous rate of change; the integral measures accumulated quantity. The Fundamental Theorem of Calculus connects them: differentiation and integration are inverse operations.
 
-**The limits foundation:** Everything in calculus rests on limits. A derivative is a limit of a difference quotient. An integral is a limit of Riemann sums. Continuity (no jumps, no holes) is defined by limits. Master limits first — the rest builds on them.
+**The limits foundation:** Everything in calculus rests on limits. A derivative is a limit of a difference quotient. An integral is a limit of Riemann sums. Continuity (no jumps, no holes) is defined by limits. Master limits first, the rest builds on them.
 
 **The big picture:** Limits give you derivatives. Derivatives give you optimisation, related rates, and curve sketching. Integrals give you area, volume, and accumulation. Differential equations model real-world growth, decay, and oscillation. Series (BC) approximate functions that can't be integrated analytically.
 
@@ -149,7 +149,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- **[AP Physics](../../../../../ib/src/content/docs/physics/physics):** Calculus is essential for Physics C — kinematics, work, and circuits all require derivatives and integrals.
+- **[AP Physics](../../../../../ib/src/content/docs/physics/physics):** Calculus is essential for Physics C, kinematics, work, and circuits all require derivatives and integrals.
 - **[AP Statistics](../../../../../alevel/src/content/docs/further-maths/flashcards-further-statistics):** Probability and distributions in statistics use concepts from calculus.
 - **[AP Computer Science](../../../../../ib/src/content/docs/computer-science/computer-science):** Algorithm analysis uses limits and series to describe time complexity.
-- **[Computer Science — Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Asymptotic analysis of algorithms relies on the same limit and series concepts used in calculus — Big-O notation is formalised using limits.
+- **[Computer Science, Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Asymptotic analysis of algorithms relies on the same limit and series concepts used in calculus, Big-O notation is formalised using limits.

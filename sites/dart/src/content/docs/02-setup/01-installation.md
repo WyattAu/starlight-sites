@@ -65,7 +65,7 @@ sudo apt install dart
 
 ### Windows
 
-Download the installer from <https://dart.dev/get-dart>. Run the `.exe` — it adds `dart` to your PATH
+Download the installer from <https://dart.dev/get-dart>. Run the `.exe`it adds `dart` to your PATH
 automatically. Verify with:
 
 ```bash
@@ -74,7 +74,7 @@ dart --version
 
 ## Flutter SDK (Includes Dart)
 
-If you are building Flutter applications, install the Flutter SDK instead. It bundles the Dart SDK —
+If you are building Flutter applications, install the Flutter SDK instead. It bundles the Dart SDK,
 You do not need a separate Dart installation.
 
 ### macOS / Linux
@@ -163,7 +163,7 @@ dart pub --version
     ! clang++ is not installed
 ```
 
-Every `[✓]` means that toolchain is ready. `[✗]` items need attention — follow the diagnostic
+Every `[✓]` means that toolchain is ready. `[✗]` items need attention, follow the diagnostic
 Output.
 
 ## IDE Setup

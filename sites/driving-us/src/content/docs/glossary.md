@@ -1,5 +1,5 @@
 ---
-title: "US DMV Driving Test Glossary — Key Terms"
+title: "US DMV Driving Test Glossary, Key Terms"
 description: "Comprehensive glossary of US DMV driving test terms covering road rules, signs, vehicle systems, and state licensing requirements."
 date: 2026-07-24
 tags: [glossary]

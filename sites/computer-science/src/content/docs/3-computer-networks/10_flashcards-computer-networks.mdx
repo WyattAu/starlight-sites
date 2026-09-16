@@ -21,11 +21,11 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-Computer networks are about **how data travels between machines**. The internet is a "network of networks" — billions of devices connected through a layered architecture where each layer provides services to the layer above.
+Computer networks are about **how data travels between machines**. The internet is a "network of networks", billions of devices connected through a layered architecture where each layer provides services to the layer above.
 
 **Layered architecture intuition:** The OSI and TCP/IP models divide networking into layers, each with a specific responsibility. Physical layer handles bits on wires. Data link layer handles frames on a single link. Network layer handles routing across multiple networks. Transport layer handles reliable end-to-end delivery. Application layer handles the actual data format. This separation of concerns allows each layer to evolve independently.
 
-**TCP vs UDP intuition:** TCP is reliable but slower — it guarantees delivery, ordering, and congestion control. UDP is fast but unreliable — it sends packets without confirmation. Use TCP for web browsing, email, and file transfer (where correctness matters). Use UDP for video streaming, gaming, and DNS (where speed matters more than perfect reliability).
+**TCP vs UDP intuition:** TCP is reliable but slower, it guarantees delivery, ordering, and congestion control. UDP is fast but unreliable, it sends packets without confirmation. Use TCP for web browsing, email, and file transfer (where correctness matters). Use UDP for video streaming, gaming, and DNS (where speed matters more than perfect reliability).
 
 **Routing intuition:** Routers forward packets toward their destination by consulting routing tables. Each router only needs to know the *next hop*, not the entire path. Distance vector protocols (like RIP) share routing tables with neighbours. Link state protocols (like OSPF) build a complete map of the network and compute shortest paths.
 

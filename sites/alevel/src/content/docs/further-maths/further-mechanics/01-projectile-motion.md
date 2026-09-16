@@ -53,7 +53,7 @@ Determined.
 
 :::note
 Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
-Conventions — define upward as positive at the start and be consistent.
+Conventions, define upward as positive at the start and be consistent.
 :::
 <hr />
 
@@ -159,7 +159,7 @@ This is maximised when $\sin 2\theta = 1$I.e., $\theta = 45^\circ$Giving
 $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
 
 :::note
-Both produce $R = \dfrac{V^2\sin 2\theta}{g}$. However, the trajectories are different —
+Both produce $R = \dfrac{V^2\sin 2\theta}{g}$. However, the trajectories are different,
 The steeper angle gives a higher but shorter arc.
 :::
 <hr />
@@ -251,7 +251,7 @@ $T = \dfrac{2V\sin\theta}{g} = \dfrac{60\sin 50°}{9.8} = \dfrac{45.96}{9.8} \ap
 
 $R = \dfrac{V^2\sin 2\theta}{g} = \dfrac{900\sin 100°}{9.8} = \dfrac{900 \times 0.9848}{9.8} \approx 90.44\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Key Results](#3-key-results) — Section 3.
+**If you get this wrong, revise:** [Key Results](#3-key-results), Section 3.
 
 </details>
 
@@ -270,7 +270,7 @@ Substituting:
 $y = V\sin\theta \cdot \dfrac{x}{V\cos\theta} - \dfrac{1}{2}g\left(\dfrac{x}{V\cos\theta}\right)^2 = x\tan\theta - \dfrac{gx^2}{2V^2\cos^2\theta}$.
 $\blacksquare$
 
-**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation),
 Section 2.
 
 </details>
@@ -288,7 +288,7 @@ $y = -\dfrac{1}{2}gt^2 = -80 \implies t^2 = \dfrac{160}{9.8} \implies t \approx 
 
 $x = 20 \times 4.04 \approx 80.8\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Equations of Motion](#1-equations-of-motion) — Section 1.
+**If you get this wrong, revise:** [Equations of Motion](#1-equations-of-motion), Section 1.
 
 </details>
 
@@ -304,7 +304,7 @@ For maximum range up the plane: $\theta = 45° + \dfrac{\alpha}{2} = 45° + 15°
 The projectile should be launched at $60^\circ$ to the horizontal.
 
 **If you get this wrong, revise:**
-[Maximum range on an inclined plane](#43-maximum-range-on-an-inclined-plane) — Section 4.3.
+[Maximum range on an inclined plane](#43-maximum-range-on-an-inclined-plane), Section 4.3.
 
 </details>
 
@@ -328,7 +328,7 @@ $= \sqrt{11.49^2 + 11.55^2} = \sqrt{132.0 + 133.4} = \sqrt{265.4} \approx 16.3\,
 
 Angle below horizontal: $\arctan(11.55/11.49) \approx 45.1^\circ$.
 
-**If you get this wrong, revise:** [Velocity at Any Point](#5-velocity-at-any-point) — Section 5.
+**If you get this wrong, revise:** [Velocity at Any Point](#5-velocity-at-any-point), Section 5.
 
 </details>
 
@@ -343,7 +343,7 @@ $r = \dfrac{2V^2\cos\theta\sin(\theta-\alpha)}{g\cos^2\alpha} = \dfrac{2(625)\co
 
 $= \dfrac{1250 \times 0.8192 \times 0.2588}{9.8 \times 0.8830} = \dfrac{265.1}{8.653} \approx 30.6\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Up the plane](#41-up-the-plane) — Section 4.1.
+**If you get this wrong, revise:** [Up the plane](#41-up-the-plane), Section 4.1.
 
 </details>
 
@@ -358,7 +358,7 @@ $R = \dfrac{V^2\sin 2\theta}{g}$. The maximum value of $\sin 2\theta$ is 1, occu
 
 $R_{\max} = \dfrac{V^2 \times 1}{g} = \dfrac{V^2}{g}$. $\blacksquare$
 
-**If you get this wrong, revise:** [Range on horizontal ground](#33-range-on-horizontal-ground) —
+**If you get this wrong, revise:** [Range on horizontal ground](#33-range-on-horizontal-ground),
 Section 3.3.
 
 </details>
@@ -381,7 +381,7 @@ $= 42.02 - 33.54 = 8.48\,\mathrm{m}$.
 The ball is at height $8.48\,\mathrm{m}$ when it passes $x = 60\,\mathrm{m}$ So the fielder cannot
 Catch it at the same height.
 
-**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation),
 Section 2.
 
 </details>
@@ -397,7 +397,7 @@ $r = \dfrac{2V^2\cos\theta\sin(\theta+\alpha)}{g\cos^2\alpha} = \dfrac{2(400)\co
 
 $= \dfrac{800 \times 0.8660 \times 0.8192}{9.8 \times 0.8214} = \dfrac{567.5}{8.050} \approx 70.5\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Down the plane](#42-down-the-plane) — Section 4.2.
+**If you get this wrong, revise:** [Down the plane](#42-down-the-plane), Section 4.2.
 
 </details>
 
@@ -427,7 +427,7 @@ $V^2\cos^2\theta = \dfrac{588}{0.3} = 1960$.
 $V^2 = \dfrac{1960}{\cos^2 16.7°} = \dfrac{1960}{0.9163} \approx 2139$.
 $V \approx 46.3\,\mathrm{m s}^{-1}$.
 
-**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation) —
+**If you get this wrong, revise:** [The Trajectory Equation](#2-the-trajectory-equation),
 Section 2.
 
 </details>

@@ -49,15 +49,15 @@ P-block elements have their outermost electrons in p-orbitals. This topic covers
 
 ## Key Concepts
 
-- Group 15: N, P, As, Sb, Bi — show $-3, +3, +5$ oxidation states
-- Group 16: O, S, Se, Te, Po — show $-2, +4, +6$ oxidation states
-- Group 17: F, Cl, Br, I — strong oxidizing agents, form $-1$ ions
-- Group 18: He, Ne, Ar, Kr, Xe, Rn — generally inert, Xe forms compounds
+- Group 15: N, P, As, Sb, Bi, show $-3, +3, +5$ oxidation states
+- Group 16: O, S, Se, Te, Po, show $-2, +4, +6$ oxidation states
+- Group 17: F, Cl, Br, I, strong oxidizing agents, form $-1$ ions
+- Group 18: He, Ne, Ar, Kr, Xe, Rn, generally inert, Xe forms compounds
 - Anomalous behaviour of first element (small size, high electronegativity, no d-orbitals)
 - Allotropy: same element in different structural forms (e.g., O$_2$ and O$_3$)
 - Interhalogen compounds: $\text{XY}_n$ where X is less electronegative than Y
 
-## Worked Example 1 — Nitrogen Chemistry
+## Worked Example 1, Nitrogen Chemistry
 
 **Problem:** Write the balanced equation for the reaction of copper with dilute $\text{HNO}_3$.
 
@@ -72,7 +72,7 @@ $$\text{Cu} + 4\text{HNO}_3(\text{conc}) \rightarrow \text{Cu(NO}_3)_2 + 2\text{
 
 **Common mistake:** Using $\text{NO}_2$ as the product for dilute $\text{HNO}_3$. Dilute $\text{HNO}_3$ produces NO; concentrated produces $\text{NO}_2$.
 
-## Worked Example 2 — Allotropy of Sulfur
+## Worked Example 2, Allotropy of Sulfur
 
 **Problem:** Explain the difference between rhombic and monoclinic sulfur.
 
@@ -89,7 +89,7 @@ $$\text{S}_{\text{rhombic}} \xrightarrow{95.5°C} \text{S}_{\text{monoclinic}}$$
 
 **Common mistake:** Thinking monoclinic sulfur is always more stable. Rhombic is more stable below the transition temperature.
 
-## Worked Example 3 — Interhalogen Compounds
+## Worked Example 3, Interhalogen Compounds
 
 **Problem:** Predict the structure of $\text{ClF}_3$ and explain why it has this shape.
 
@@ -136,9 +136,9 @@ P-block elements are essential for life (N, O, S), industry (Cl, P, S), and tech
 
 ## Intuition
 
-**The periodic table's right side is a chemical playground:** P-block elements span from life-essential nitrogen and oxygen to inert noble gases, all because they're filling p-orbitals. Think of p-orbitals as three dumbbell-shaped regions pointing along x, y, z axes — as you move across the block, electrons fill these orbitals one by one, systematically changing each element's reactivity. The first element in each group behaves differently from the rest because it's small, has no d-orbitals available for bonding, and forms unusually strong bonds (like N≡N's triple bond).
+**The periodic table's right side is a chemical playground:** P-block elements span from life-essential nitrogen and oxygen to inert noble gases, all because they're filling p-orbitals. Think of p-orbitals as three dumbbell-shaped regions pointing along x, y, z axes, as you move across the block, electrons fill these orbitals one by one, systematically changing each element's reactivity. The first element in each group behaves differently from the rest because it's small, has no d-orbitals available for bonding, and forms unusually strong bonds (like N≡N's triple bond).
 
-**Why it matters:** P-block elements are literally everywhere — nitrogen makes up 78% of the air you breathe, oxygen sustains life, chlorine purifies water, and silicon powers your computer chips. Understanding their chemistry means understanding the world around you.
+**Why it matters:** P-block elements are literally everywhere, nitrogen makes up 78% of the air you breathe, oxygen sustains life, chlorine purifies water, and silicon powers your computer chips. Understanding their chemistry means understanding the world around you.
 
 **The key insight:** The anomalous behavior of first elements (N, O, F) arises from their tiny size and lack of d-orbitals, making them behave nothing like their heavier congeners.
 

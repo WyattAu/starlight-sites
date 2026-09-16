@@ -875,8 +875,8 @@ instance FromConfig Bool where
 config :: Map.Map String String
 config = Map.fromList
   [ ("host", "localhost")
-  , ("port", "8080")
-  , ("debug", "true")
+("port", "8080")
+("debug", "true")
   ]
 
 getHost :: Either String String

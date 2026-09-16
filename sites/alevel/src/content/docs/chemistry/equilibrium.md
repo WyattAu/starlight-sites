@@ -1040,7 +1040,7 @@ self-marking and building a personal test matrix.
 
 ## Intuition
 
-**Chemical equilibrium is like a busy restaurant — dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
+**Chemical equilibrium is like a busy restaurant, dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
 
 
 ```mermaid

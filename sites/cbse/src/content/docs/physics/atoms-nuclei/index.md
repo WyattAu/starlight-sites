@@ -59,7 +59,7 @@ This topic covers the Bohr model of the hydrogen atom, X-ray production, nuclear
 - Alpha decay: $^A_Z X \rightarrow ^{A-4}_{Z-2} Y + ^4_2 \text{He}$
 - Beta decay: $^A_Z X \rightarrow ^{A}_{Z+1} Y + e^- + \bar{\nu}_e$
 
-## Worked Example 1 — Energy Levels of Hydrogen
+## Worked Example 1, Energy Levels of Hydrogen
 
 **Problem:** Find the wavelength of light emitted when an electron in hydrogen transitions from $n = 3$ to $n = 2$.
 
@@ -78,7 +78,7 @@ This is the red line of the Balmer series.
 
 **Common mistake:** Using $E_n = -13.6/n^2$ without the negative sign. The energy is negative because the electron is bound.
 
-## Worked Example 2 — Binding Energy
+## Worked Example 2, Binding Energy
 
 **Problem:** Calculate the binding energy per nucleon of $^4_2\text{He}$. (Mass of proton = 1.00728 u, mass of neutron = 1.00867 u, mass of $^4$He = 4.00260 u)
 
@@ -96,7 +96,7 @@ $$\frac{E_B}{A} = \frac{27.3}{4} = 6.83 \, \text{MeV/nucleon}$$
 
 **Common mistake:** Forgetting to multiply by 931.5 to convert mass defect from atomic mass units to MeV.
 
-## Worked Example 3 — Radioactive Decay
+## Worked Example 3, Radioactive Decay
 
 **Problem:** A radioactive sample has a half-life of 10 days. What fraction remains after 30 days?
 
@@ -138,7 +138,7 @@ $$N = N_0 e^{-\lambda t} = N_0 e^{-0.0693 \times 30} = N_0 e^{-2.079} = 0.125 \,
 - Radioactive decay: $N = N_0 e^{-\lambda t}$, $t_{1/2} = \frac{0.693}{\lambda}$
 - Activity: $A = \lambda N = A_0 e^{-\lambda t}$
 
-## Worked Example 4 — de Broglie Wavelength of Electron
+## Worked Example 4, de Broglie Wavelength of Electron
 
 **Problem:** Find the de Broglie wavelength of an electron accelerated through a potential difference of 100 V.
 
@@ -157,7 +157,7 @@ $$= \frac{6.63 \times 10^{-34}}{\sqrt{2.915 \times 10^{-47}}} = \frac{6.63 \time
 
 **Common mistake:** Forgetting to convert electron-volts to joules. $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$.
 
-## Worked Example 5 — Nuclear Reaction
+## Worked Example 5, Nuclear Reaction
 
 **Problem:** Complete the nuclear reaction: $^{238}_{92}\text{U} \rightarrow \, ? + \, ^4_2\text{He}$
 
@@ -173,7 +173,7 @@ $$^{238}_{92}\text{U} \rightarrow \, ^{234}_{90}\text{Th} + \, ^4_2\text{He}$$
 
 **Common mistake:** Forgetting to conserve both mass number and atomic number. Both must balance on both sides.
 
-## Worked Example 6 — Activity of Radioactive Sample
+## Worked Example 6, Activity of Radioactive Sample
 
 **Problem:** A radioactive sample has a half-life of 5 years. If its initial activity is 800 Bq, what is the activity after 15 years?
 

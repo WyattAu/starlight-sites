@@ -217,11 +217,11 @@ flowchart TD
 
 ## Intuition
 
-**Electricity from chemistry:** Electrochemistry is like a chemical battery — redox reactions transfer electrons from one substance to another, and we can harness that electron flow as electricity.
+**Electricity from chemistry:** Electrochemistry is like a chemical battery, redox reactions transfer electrons from one substance to another, and we can harness that electron flow as electricity.
 
 **Why it matters:** From car batteries to rechargeable phones, electrochemistry powers modern life. Understanding redox helps you predict which reactions occur and how to control them.
 
-**The key insight:** The electrochemical series ranks substances by their tendency to gain or lose electrons — higher in the series means more likely to be oxidized.
+**The key insight:** The electrochemical series ranks substances by their tendency to gain or lose electrons, higher in the series means more likely to be oxidized.
 
 ## Integration Test 1: Electrochemical Series Predictions
 
@@ -354,7 +354,7 @@ The efficiency is less than 100\% due to:
 
 **Forgetting to balance electrons before combining half-equations:** When combining oxidation and reduction half-equations, you must multiply them so the number of electrons lost equals electrons gained. Don't just add the half-equations directly.
 
-**Confusing anode and cathode in electrolysis vs galvanic cells:** In electrolysis, the anode is positive (oxidation) and cathode is negative (reduction). In galvanic cells, it's reversed — anode is negative (oxidation) and cathode is positive (reduction).
+**Confusing anode and cathode in electrolysis vs galvanic cells:** In electrolysis, the anode is positive (oxidation) and cathode is negative (reduction). In galvanic cells, it's reversed, anode is negative (oxidation) and cathode is positive (reduction).
 
 **Assuming Na⁺ is discharged in aqueous NaCl electrolysis:** Na⁺ is never discharged in aqueous solution because water is reduced instead (Na is very reactive). At the anode, Cl⁻ is discharged in concentrated solution, but OH⁻ from water is discharged in dilute solution.
 

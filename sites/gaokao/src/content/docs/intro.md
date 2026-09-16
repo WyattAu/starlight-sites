@@ -46,7 +46,7 @@ Key features of the Gaokao:
 
 Historically, most provinces followed the **3+X model**:
 
-- **3 (mandatory subjects):** Chinese (语文), Mathematics (数学), and a Foreign Language (外语) —
+- **3 (mandatory subjects):** Chinese (语文), Mathematics (数学), and a Foreign Language (外语),
   most commonly English
 - **X (elective subjects):** Students choose from a set of electives depending on their province and
   stream (Arts/Humanities or Science). In the traditional system:
@@ -147,13 +147,13 @@ Notable examples:
 
 This site provides comprehensive revision notes for the following Gaokao subjects:
 
-- **Mathematics** — covers both the Arts (文科数学) and Science (理科数学) streams, including all
+- **Mathematics**, covers both the Arts (文科数学) and Science (理科数学) streams, including all
   topics tested on national and provincial papers
-- **Physics** — mechanics, electromagnetism, thermodynamics, optics, and modern physics
-- **Chemistry** — stoichiometry, chemical bonding, reaction kinetics, equilibrium, organic
+- **Physics**, mechanics, electromagnetism, thermodynamics, optics, and modern physics
+- **Chemistry**, stoichiometry, chemical bonding, reaction kinetics, equilibrium, organic
   chemistry, and electrochemistry
-- **Biology** — cell biology, genetics, ecology, human physiology, and evolution
-- **English** — reading comprehension, writing, vocabulary, grammar, and listening strategies
+- **Biology**, cell biology, genetics, ecology, human physiology, and evolution
+- **English**, reading comprehension, writing, vocabulary, grammar, and listening strategies
 
 Each subject page covers key concepts aligned with the Gaokao syllabus, worked examples, exam-style
 questions, and detailed solutions.
@@ -175,7 +175,7 @@ questions, and detailed solutions.
 ### Subject-Specific Advice
 
 - **Mathematics:** Focus on problem-solving strategies and pattern recognition. The Gaokao
-  mathematics paper includes questions of increasing difficulty — ensure you can solve the standard
+  mathematics paper includes questions of increasing difficulty, ensure you can solve the standard
   questions quickly to allocate time for the more challenging final problems.
 - **Sciences (Physics, Chemistry, Biology):** Understand the underlying principles and their
   applications. The Gaokao often tests concepts in novel contexts. Practise interpreting

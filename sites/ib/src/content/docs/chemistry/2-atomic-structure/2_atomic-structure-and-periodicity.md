@@ -20,7 +20,7 @@ categories:
 
 ## Intuition
 
-**Atomic structure and periodicity are like a lock and key — electron configuration determines where elements fit in the periodic table:** Electron shell filling follows the Aufbau principle, explaining why the periodic table has its characteristic shape
+**Atomic structure and periodicity are like a lock and key, electron configuration determines where elements fit in the periodic table:** Electron shell filling follows the Aufbau principle, explaining why the periodic table has its characteristic shape
 
 **Why it matters:** Connecting atomic structure to periodicity enables prediction of chemical behavior across the entire table
 
@@ -85,7 +85,7 @@ A_r = \sum_{i} (\mathrm{isotope mass})_i \times (\mathrm{fractional abundance})_
 $$
 
 :::note
-<strong>Example — Chlorine</strong>
+<strong>Example, Chlorine</strong>
 Chlorine has two occurring isotopes: $\mathrm{Cl}$-35 ($75.77\%$Mass $\approx 34.97\mathrm{ u}$) and
 $\mathrm{Cl}$-37 ($24.23\%$Mass $\approx 36.97\mathrm{ u}$).
 
@@ -167,7 +167,7 @@ Each electron in an atom is described by four quantum numbers:
 The number of orbitals in a subshell is $2l + 1$.
 :::
 :::note
-<strong>Example — Quantum numbers for a $3p$ electron</strong>
+<strong>Example, Quantum numbers for a $3p$ electron</strong>
 For the $3p$ subshell: $n = 3$, $l = 1$$m_l = -1, 0, +1$$m_s = \pm\frac{1}{2}$
 
 This gives three $p$-orbitals ($p_x$$p_y$$p_z$), each holding two electrons, for a total of six $3p$
@@ -194,13 +194,13 @@ $$
 
 ### Writing Electron Configurations
 
-**Full notation** — write every subshell explicitly:
+**Full notation**, write every subshell explicitly:
 
 $$
 \mathrm{Fe}: 1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^6\, 4s^2\, 3d^6
 $$
 
-**Noble gas core notation** — replace the inner-shell electrons with the preceding noble gas symbol
+**Noble gas core notation**, replace the inner-shell electrons with the preceding noble gas symbol
 In brackets:
 
 $$
@@ -340,7 +340,7 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 | Across a period, ions decrease in size      | Isoelectronic series: same number of electrons, increasing $Z$       |
 :::
 :::note
-<strong>Example — Isoelectronic series</strong>
+<strong>Example, Isoelectronic series</strong>
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
 
 All have the neon configuration ($1s^2\, 2s^2\, 2p^6$$10$ electrons). The nuclear charge increases
@@ -380,13 +380,13 @@ A large jump in successive ionization energies indicates the removal of an elect
 Shell. This reveals the electron configuration.
 :::
 :::note
-<strong>Example — Aluminium</strong>
+<strong>Example, Aluminium</strong>
 For aluminium ($1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$):
 
 - $IE_1 = 578\mathrm{ kJ/mol}$ (removes $3p$ electron)
 - $IE_2 = 1817\mathrm{ kJ/mol}$ (removes $3s$ electron)
 - $IE_3 = 2745\mathrm{ kJ/mol}$ (removes $3s$ electron)
-- $IE_4 = 11577\mathrm{ kJ/mol}$ (removes $2p$ electron — large jump!)
+- $IE_4 = 11577\mathrm{ kJ/mol}$ (removes $2p$ electron, large jump!)
 
 The jump from $IE_3$ to $IE_4$ confirms that aluminium has three valence electrons.
 
@@ -879,7 +879,7 @@ Where:
 - $\lambda$ = wavelength of emitted light
 - $\nu$ = frequency
 
-Each element produces a unique **line emission spectrum** — a series of discrete lines at specific
+Each element produces a unique **line emission spectrum**, a series of discrete lines at specific
 Wavelengths. This is the basis of flame tests and spectroscopic analysis.
 
 ### Absorption Spectra
@@ -969,7 +969,7 @@ For a single element, the mass spectrum shows peaks at each isotope's mass, with
 Proportional to natural abundance.
 :::
 :::note
-<strong>Example — Boron</strong>
+<strong>Example, Boron</strong>
 Boron has two isotopes: $\mathrm{B}$-10 ($19.9\%$) and $\mathrm{B}$-11 ($80.1\%$).
 
 The mass spectrum shows peaks at $m/z = 10$ and $m/z = 11$ with relative heights in the ratio
@@ -1015,7 +1015,7 @@ A molecule with one chlorine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak 
 Molecule with one bromine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $1:1$ ratio.
 :::
 :::note
-<strong>Example — Chlorobenzene</strong>
+<strong>Example, Chlorobenzene</strong>
 Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
 
 - $\mathrm{M}^+$ at $m/z = 112$ ($\mathrm{C}_6\mathrm{H}_5^{35}\mathrm{Cl}$)
@@ -1072,7 +1072,7 @@ Many-electron atom.
 1. Electrons in shells **$n-2$ or lower** contribute $1.00$ each.
 :::
 :::note
-<strong>Example — $Z_{\mathrm{eff}}$ for a $3p$ electron in chlorine ($Z = 17$)</strong>
+<strong>Example, $Z_{\mathrm{eff}}$ for a $3p$ electron in chlorine ($Z = 17$)</strong>
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^7$
 
 For a $3p$ electron:
@@ -1086,7 +1086,7 @@ $$ S = 2.10 + 6.80 + 2.00 = 10.90 $$
 $$ Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10 $$
 :::
 :::note
-<strong>Example — $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)</strong>
+<strong>Example, $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)</strong>
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^8(3d)^1(4s)^2$
 
 For the $3d$ electron:
@@ -1100,7 +1100,7 @@ $$ S = 0 + 8.00 + 10.00 = 18.00 $$
 
 $$ Z\_{\mathrm{eff}} = 21 - 18.00 = 3.00 $$
 
-The low $Z_{\mathrm{eff}}$ on the $3d$ electron explains why the $4s$ orbital fills before $3d$ —
+The low $Z_{\mathrm{eff}}$ on the $3d$ electron explains why the $4s$ orbital fills before $3d$,
 The $4s$ electron experiences a higher effective nuclear charge.
 
 ### Successive Ionization Energy Graphs and Electron Configuration
@@ -1145,7 +1145,7 @@ Where $R_H = 1.097 \times 10^7\mathrm{ m}^{-1}$ is the Rydberg constant, $n_i$ i
 Level, and $n_f$ is the final energy level ($n_i \gt n_f$ for emission).
 :::
 :::note
-<strong>Example — Wavelength of the first Balmer line</strong>
+<strong>Example, Wavelength of the first Balmer line</strong>
 For the transition $n = 3 \to n = 2$:
 
 $$
@@ -1199,7 +1199,7 @@ For $n = 4$: $N = 6$ spectral lines.
 
 ## 12. Exam Practice
 
-### Question 1 (SL — 4 marks)
+### Question 1 (SL, 4 marks)
 
 (a) Define the term **relative atomic mass**. (2 marks)
 
@@ -1243,7 +1243,7 @@ Percentage abundance of $\mathrm{B}$-10 = $19\%$. (1 mark for setup, 1 mark for 
 }
 </script>
 
-### Question 2 (SL — 3 marks)
+### Question 2 (SL, 3 marks)
 
 Explain why the first ionization energy of sodium is lower than that of magnesium, but the first
 Ionization energy of magnesium is lower than that of aluminium.
@@ -1270,7 +1270,7 @@ Also: Mg has a stable filled $3s$ subshell configuration. (1 mark)
 }
 </script>
 
-### Question 3 (SL — 4 marks)
+### Question 3 (SL, 4 marks)
 
 (a) State the electron configuration of $\mathrm{Fe}^{2+}$ using noble gas notation. (1 mark)
 
@@ -1300,7 +1300,7 @@ Nucleus and decreasing the atomic radius. (1 mark)
 }
 </script>
 
-### Question 4 (SL — 3 marks)
+### Question 4 (SL, 3 marks)
 
 A sample of chlorine gas is analysed by mass spectrometry. Describe and explain the appearance of
 The mass spectrum.
@@ -1327,7 +1327,7 @@ $m/z = 74$ ($^{37}\mathrm{Cl}$--$^{37}\mathrm{Cl}$) in the ratio $9:6:1$. (1 mar
 }
 </script>
 
-### Question 5 (HL — 5 marks)
+### Question 5 (HL, 5 marks)
 
 (a) State the four quantum numbers for each of the valence electrons in a ground-state oxygen atom.
 (3 marks)
@@ -1361,7 +1361,7 @@ Much more energy to remove. This is an inner shell electron. (1 mark)
 }
 </script>
 
-### Question 6 (HL — 6 marks)
+### Question 6 (HL, 6 marks)
 
 (a) Explain what is meant by the term **ligand** and give one example of a bidentate ligand. (2
 Marks)
@@ -1400,7 +1400,7 @@ Facilitating the formation of $\mathrm{NH}_3$. (1 mark)
 }
 </script>
 
-### Question 7 (HL — 4 marks)
+### Question 7 (HL, 4 marks)
 
 The successive ionization energies of an element X are shown below (in kJ/mol):
 
@@ -1436,7 +1436,7 @@ Higher. (1 mark)
 }
 </script>
 
-### Question 8 (HL — 4 marks)
+### Question 8 (HL, 4 marks)
 
 Calculate the wavelength of radiation emitted when an electron in a hydrogen atom transitions from
 $n = 5$ to $n = 2$. Identify the spectral series and the region of the electromagnetic spectrum.

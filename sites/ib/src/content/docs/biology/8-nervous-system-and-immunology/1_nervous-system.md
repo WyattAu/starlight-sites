@@ -1,7 +1,7 @@
 ---
 
 title: "Nervous System"
-description: "IB Biology — neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
+description: "IB Biology, neuron structure and function, resting potential, action potential propagation, myelination, synapses, neurotransmitters, reflex arcs, sensory"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**The nervous system is like an electrical grid — neurons transmit signals as electrical impulses across synapses using chemical messengers:** The balance between excitation and inhibition in neural networks determines all thought, movement, and sensation
+**The nervous system is like an electrical grid, neurons transmit signals as electrical impulses across synapses using chemical messengers:** The balance between excitation and inhibition in neural networks determines all thought, movement, and sensation
 
 **Why it matters:** Understanding the nervous system is essential for treating neurological disorders and developing brain-computer interfaces
 

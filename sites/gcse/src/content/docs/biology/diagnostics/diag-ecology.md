@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Ecology — Diagnostic Tests
+## Ecology, Diagnostic Tests
 
 ## Unit Tests
 
@@ -251,7 +251,7 @@ prove causation -- other factors (light, moisture, competition) may also be corr
 
 ## Intuition
 
-**Nature's web of interactions:** Ecology is like studying a city's social network — species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
+**Nature's web of interactions:** Ecology is like studying a city's social network, species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
 
 **Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
 

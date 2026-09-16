@@ -16,7 +16,7 @@ description: "Study notes for Typescript with worked examples, practice problems
 
 ## TypeScript
 
-Welcome to the TypeScript notes. TypeScript is a superset of JavaScript that adds static type checking — catching errors at compile time rather than runtime. It compiles to plain JavaScript, so it runs anywhere JavaScript runs.
+Welcome to the TypeScript notes. TypeScript is a superset of JavaScript that adds static type checking, catching errors at compile time rather than runtime. It compiles to plain JavaScript, so it runs anywhere JavaScript runs.
 
 ## Why This Matters
 
@@ -26,13 +26,13 @@ TypeScript's type system catches bugs that JavaScript would only reveal at runti
 
 - **Type system**: Primitive types, unions, intersections, type narrowing, and type guards
 - **Generics**: Write functions and classes that work with any type while preserving type safety
-- **Utility types**: Transform existing types — `Partial<T>`, `Pick<T,K>`, `Omit<T,K>`, `Record<K,V>`
+- **Utility types**: Transform existing types, `Partial<T>`, `Pick<T,K>`, `Omit<T,K>`, `Record<K,V>`
 - **Advanced patterns**: Mapped types, conditional types, template literal types
 - **React integration**: Typing components, hooks, props, and state in React applications
 
 ## How to Get Started
 
-Install TypeScript with `npm install -g typescript` and compile your first `.ts` file with `tsc`. Start with strict mode enabled (`"strict": true` in tsconfig.json) from the beginning — it catches more bugs and teaches good habits. The TypeScript Handbook (typescriptlang.org/docs/handbook) is the definitive reference.
+Install TypeScript with `npm install -g typescript` and compile your first `.ts` file with `tsc`. Start with strict mode enabled (`"strict": true` in tsconfig.json) from the beginning, it catches more bugs and teaches good habits. The TypeScript Handbook (typescriptlang.org/docs/handbook) is the definitive reference.
 
 Browse the content using the sidebar navigation on the left.
 
@@ -42,11 +42,11 @@ Browse the content using the sidebar navigation on the left.
 
 **Why it matters:** TypeScript is the standard for large-scale JavaScript development, improving code quality, maintainability, and developer productivity.
 
-**The key insight:** TypeScript's type inference means you rarely need explicit annotations — the compiler can in most cases figure out types from context.
+**The key insight:** TypeScript's type inference means you rarely need explicit annotations, the compiler can in most cases figure out types from context.
 
 ## Study Approach
 
-Start with TypeScript fundamentals: type annotations, interfaces, and type narrowing. Then learn generics and utility types for writing reusable, type-safe code. Advanced patterns (conditional types, mapped types, template literals) come last — they build on the basics. Use the TypeScript Playground (typescriptlang.org/play) for rapid experimentation.
+Start with TypeScript fundamentals: type annotations, interfaces, and type narrowing. Then learn generics and utility types for writing reusable, type-safe code. Advanced patterns (conditional types, mapped types, template literals) come last, they build on the basics. Use the TypeScript Playground (typescriptlang.org/play) for rapid experimentation.
 
 ## Practical Applications
 
@@ -60,7 +60,7 @@ Start with TypeScript fundamentals: type annotations, interfaces, and type narro
 
 **Ignoring strict mode:** tsconfig.json with strict: true enables null checks, strict function types, and other safety features. Without strict mode, TypeScript catches fewer bugs. Always enable strict mode for new projects.
 
-**Confusing type assertions with type guards:** `value as Type` tells the compiler to trust you — it does not runtime-check. `if (value instanceof Type)` is a runtime type guard that actually validates the type. Use type assertions sparingly.
+**Confusing type assertions with type guards:** `value as Type` tells the compiler to trust you, it does not runtime-check. `if (value instanceof Type)` is a runtime type guard that actually validates the type. Use type assertions sparingly.
 
 
 ## Summary
@@ -70,7 +70,7 @@ It adds static type checking, generics, utility types, and advanced type-level
 programming while maintaining full JavaScript compatibility. Key concepts
 include structural typing (shapes matter, not names), type narrowing with type
 guards, and declaration files for library type information. TypeScript's type
-inference means explicit annotations are rarely needed — the compiler deduces
+inference means explicit annotations are rarely needed, the compiler deduces
 types from context. Start with strict mode enabled, use `unknown` instead of
 `any`, and prefer type guards over type assertions.
 

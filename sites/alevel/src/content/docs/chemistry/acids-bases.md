@@ -1265,7 +1265,7 @@ self-marking and building a personal test matrix.
 
 ## Intuition
 
-**Acids and bases are like opposite personalities — one gives protons, the other accepts them, creating balance.**
+**Acids and bases are like opposite personalities, one gives protons, the other accepts them, creating balance.**
 
 
 ```mermaid

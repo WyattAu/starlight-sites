@@ -241,7 +241,7 @@ flowchart TD
 
 ## Intuition
 
-**Database design balances competing priorities:** Fast reads vs fast writes, normalisation vs performance, consistency vs availability — database design is about making informed trade-offs based on your application's needs.
+**Database design balances competing priorities:** Fast reads vs fast writes, normalisation vs performance, consistency vs availability, database design is about making informed trade-offs based on your application's needs.
 
 **Why it matters:** Poor database design leads to slow applications, data corruption, and expensive migrations. Getting the design right early saves enormous time and money.
 

@@ -411,7 +411,7 @@ private:
 #include "widget.h"
 #include <iostream>
 
-// Complete definition of Impl — hidden from widget.h consumers
+// Complete definition of Impl, hidden from widget.h consumers
 struct Widget::Impl {
     std::string name_;
     std::vector<int> data_;
@@ -598,11 +598,11 @@ std::unique_ptr is a single-owner smart pointer -- like a house key that only on
 
 ## Intuition
 
-**`std::unique_ptr` is like a solo ownership contract:** Only one person can own the resource at a time. When you transfer ownership (move the pointer), the original owner no longer has access — like handing someone your car keys. You can't copy a unique pointer (no two people can have the same car keys), but you can move it (hand over the keys). The resource is freed automatically when the last owner goes out of scope — no manual `delete` needed.
+**`std::unique_ptr` is like a solo ownership contract:** Only one person can own the resource at a time. When you transfer ownership (move the pointer), the original owner no longer has access, like handing someone your car keys. You can't copy a unique pointer (no two people can have the same car keys), but you can move it (hand over the keys). The resource is freed automatically when the last owner goes out of scope, no manual `delete` needed.
 
-**Why it matters:** `unique_ptr` is the default choice for heap-allocated objects. It has zero overhead compared to raw pointers (same size, same performance), but provides automatic cleanup and move semantics. Use it whenever you need heap allocation but don't need shared ownership. It's also the building block for `shared_ptr` — the control block is managed by `unique_ptr` internally.
+**Why it matters:** `unique_ptr` is the default choice for heap-allocated objects. It has zero overhead compared to raw pointers (same size, same performance), but provides automatic cleanup and move semantics. Use it whenever you need heap allocation but don't need shared ownership. It's also the building block for `shared_ptr`the control block is managed by `unique_ptr` internally.
 
-**The key insight:** `unique_ptr` is zero-overhead — it's the same size and performance as a raw pointer, but with automatic cleanup and move semantics.
+**The key insight:** `unique_ptr` is zero-overhead, it's the same size and performance as a raw pointer, but with automatic cleanup and move semantics.
 
 ## Common Pitfalls
 

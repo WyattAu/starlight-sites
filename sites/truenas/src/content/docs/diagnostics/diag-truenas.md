@@ -245,7 +245,7 @@ flowchart TD
 
 **Why it matters:** Proper TrueNAS configuration ensures data availability, security, and performance.
 
-**The key insight:** ZFS's copy-on-write design means snapshots are nearly free — take them frequently for data protection.
+**The key insight:** ZFS's copy-on-write design means snapshots are nearly free, take them frequently for data protection.
 
 ## Common Mistakes
 

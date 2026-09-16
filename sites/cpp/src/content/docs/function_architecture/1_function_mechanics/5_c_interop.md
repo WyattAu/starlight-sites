@@ -1,7 +1,7 @@
 ---
 
 title: "C-Interop and FFI"
-description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names — each function has a single symbol matching its"
+description: "C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names, each function has a single symbol matching its"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -22,13 +22,13 @@ categories:
 ## C-Interop and FFI
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
-Does not mangle names — each function has a single symbol matching its source name. Interoperating
+Does not mangle names, each function has a single symbol matching its source name. Interoperating
 Between C and C++ requires careful management of linkage, data layouts, and exception boundaries.
 
 ## 5.1 `extern "C"` Linkage [N4950 §9.9]
 
 C++ uses **name mangling** to encode type information into function symbols, enabling overloading. C
-Does not mangle names — each function has a single symbol matching its source name. The `extern "C"`
+Does not mangle names, each function has a single symbol matching its source name. The `extern "C"`
 Linkage specification disables name mangling, making a C++ function callable from C (and vice
 Versa).
 
@@ -65,7 +65,7 @@ By [N4950 §9.9], the `extern "C"` linkage specification has three effects:
 2. **Language linkage is set to C.** This affects how the function is called (C calling convention)
    and how entities are looked up.
 3. **Overloading is prohibited.** Within an `extern "C"` block, you cannot have two functions with
-   the same name — the linker would see duplicate symbols.
+   the same name, the linker would see duplicate symbols.
 
 ### `extern "C"` and Function Overloading
 
@@ -74,7 +74,7 @@ Since name mangling is disabled, you cannot overload functions with `extern "C"`
 ```cpp
 extern "C" {
     int process(int x);     // OK: symbol is "process"
-    // int process(double); // ERROR: duplicate symbol "process" — no mangling to disambiguate
+    // int process(double); // ERROR: duplicate symbol "process", no mangling to disambiguate
 }
 ```
 
@@ -129,7 +129,7 @@ The C ABI contract:
 ```cpp
 extern "C" void c_function();  // implicitly noexcept
 
-extern "C" void throwing_c_function() noexcept(false);  // explicitly non-noexcept — allowed
+extern "C" void throwing_c_function() noexcept(false);  // explicitly non-noexcept, allowed
                                                         // but dangerous: exceptions may cross
                                                         // the C ABI boundary
 ```
@@ -141,7 +141,7 @@ When you `#include <cstring>`The declarations are automatically given C linkage.
 Libraries, use `extern "C"`:
 
 ```cpp
-// my_c_api.h — the C header
+// my_c_api.h, the C header
 #ifndef MY_C_API_H
 #define MY_C_API_H
 
@@ -166,7 +166,7 @@ void point_translate(Point* p, double dx, double dy);
 ```
 
 ```cpp
-// my_c_api.c — the C implementation
+// my_c_api.c, the C implementation
 #include "my_c_api.h"
 #include <math.h>
 
@@ -188,7 +188,7 @@ void point_translate(Point* p, double dx, double dy) {
 ```
 
 ```cpp
-// main.cpp — calling C from C++
+// main.cpp, calling C from C++
 #include "my_c_api.h"
 #include <cstdio>
 #include <memory>
@@ -234,11 +234,11 @@ std::unique_ptr<char, decltype(&c_destroy_buffer)> buf(
 
 ## 5.3 Calling C++ from C
 
-Calling C++ functions from C requires a C-compatible entry point — a function with `extern "C"`
+Calling C++ functions from C requires a C-compatible entry point, a function with `extern "C"`
 Linkage that wraps the C++ implementation:
 
 ```cpp
-// widget.cpp — C++ implementation
+// widget.cpp, C++ implementation
 #include <string>
 #include <vector>
 
@@ -256,7 +256,7 @@ public:
 
 // C-compatible opaque handle
 extern "C" {
-    // Opaque pointer type — C code never sees the full definition
+    // Opaque pointer type, C code never sees the full definition
     typedef struct WidgetOpaque* WidgetHandle;
 
     WidgetHandle widget_create(const char* name) {
@@ -282,10 +282,10 @@ extern "C" {
 ```
 
 ```c
-/* widget_user.c — calling C++ from C */
+/* widget_user.c, calling C++ from C */
 #include <stdio.h>
 
-/* Opaque type — only declared, never defined in C */
+/* Opaque type, only declared, never defined in C */
 typedef struct WidgetOpaque* WidgetHandle;
 
 WidgetHandle widget_create(const char* name);
@@ -341,7 +341,7 @@ At a C/C++ boundary, several ABI properties must align:
 
 | Property           | C ABI                         | C++ ABI (Itanium, used on Linux/macOS) |
 | :----------------- | :---------------------------- | :------------------------------------- |
-| Name mangling      | None — symbol = function name | Encodes types, namespaces, templates   |
+| Name mangling      | None, symbol = function name | Encodes types, namespaces, templates   |
 | Calling convention | System V AMD64 (x86-64)       | Same as C (on System V platforms)      |
 | Struct layout      | Same as C++ POD               | Same as C for POD; non-POD differs     |
 | Exception handling | N/A (no exceptions)           | Zero-cost with unwind tables           |
@@ -397,11 +397,11 @@ struct CPoint make_cpoint(double x, double y) {
     return p;
 }
 
-// C++-specific struct — NOT safe to pass across the boundary
+// C++-specific struct, NOT safe to pass across the boundary
 struct ComplexPoint {
     double x, y;
     virtual double magnitude() const { /* ... */ return 0.0; }
-    // vtable pointer changes the layout — first member is NOT at offset 0
+    // vtable pointer changes the layout, first member is NOT at offset 0
     // sizeof(ComplexPoint) >= 24 (8-byte vptr + 2*8 bytes)
 };
 }
@@ -427,7 +427,7 @@ When passing data across a C/C++ boundary, ensure that:
 3. **No padding surprises**: use `static_assert` and `offsetof` to verify layout, or `#pragma pack`
    / `alignas` to control it.
 4. **No C++ exceptions cross the boundary**: exceptions thrown in C++ code called from C unwind
-   through C frames, which have no unwind information — undefined behavior. Catch all exceptions
+   through C frames, which have no unwind information, undefined behavior. Catch all exceptions
    before returning to C code.
 
 ### Proof of Struct Layout Compatibility
@@ -490,7 +490,7 @@ When interfacing with a C library that uses non-default packing (common in netwo
 File formats), use `#pragma pack` to match the layout:
 
 ```cpp
-#pragma pack(push, 1)  // 1-byte alignment — no padding
+#pragma pack(push, 1)  // 1-byte alignment, no padding
 struct NetworkHeader {
     uint8_t  type;
     uint32_t length;
@@ -511,7 +511,7 @@ POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared l
 This enables plugin architectures and runtime code loading.
 
 ```cpp
-// plugin.cpp — compiled into libplugin.so
+// plugin.cpp, compiled into libplugin.so
 // $ g++ -shared -fPIC -o libplugin.so plugin.cpp
 
 #include <cstdint>
@@ -534,7 +534,7 @@ const char* plugin_name() {
 ```
 
 ```cpp
-// loader.cpp — dynamically loads and uses the plugin
+// loader.cpp, dynamically loads and uses the plugin
 // $ g++ -std=c++17 -o loader loader.cpp -ldl
 #include <cstdint>
 #include <cstdio>
@@ -663,7 +663,7 @@ extern "C" void my_callback_wrapper(int event_code) {
     try {
         // C++ implementation
     } catch (...) {
-        // Swallow — exceptions must not cross the C boundary
+        // Swallow, exceptions must not cross the C boundary
     }
 }
 
@@ -727,7 +727,7 @@ extern "C" {
         try {
             // ... C++ code that might throw ...
         } catch (const std::exception& e) {
-            // Log and return error code — do NOT let exceptions escape
+            // Log and return error code, do NOT let exceptions escape
         } catch (...) {
             // Catch everything else
         }
@@ -740,7 +740,7 @@ extern "C" {
 To avoid the static initialization order fiasco when C code calls into C++ during startup:
 
 ```cpp
-// Safe global accessor — avoids static init order issues
+// Safe global accessor, avoids static init order issues
 class Config {
     std::string name_;
 public:
@@ -765,7 +765,7 @@ Static initialization order problem entirely.
 
 ## Intuition
 
-**Bridge between worlds:** C interop is like a translator — it lets C++ code use C libraries and vice versa, enabling code reuse and system integration.
+**Bridge between worlds:** C interop is like a translator, it lets C++ code use C libraries and vice versa, enabling code reuse and system integration.
 
 **Why it matters:** Many system libraries and APIs are written in C. Understanding C interop lets you leverage existing code and interface with system-level functionality.
 

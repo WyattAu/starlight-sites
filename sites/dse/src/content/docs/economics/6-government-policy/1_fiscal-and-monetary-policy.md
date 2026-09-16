@@ -558,7 +558,7 @@ Targeted fiscal measures than on discretionary macroeconomic policy.
 
 **Why it matters:** These tools determine inflation rates, unemployment levels, and economic growth. Understanding them helps predict how governments respond to crises.
 
-**The key insight:** The multiplier effect means a small government spending increase can ripple through the economy — but leakages (savings, imports) reduce the impact.
+**The key insight:** The multiplier effect means a small government spending increase can ripple through the economy, but leakages (savings, imports) reduce the impact.
 
 ## Common Pitfalls
 

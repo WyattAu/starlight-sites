@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Git Hooks"
-description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle — commits, pushes, rebases, checkouts, and"
+description: "Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle, commits, pushes, rebases, checkouts, and"
 
 ---
 
@@ -22,7 +22,7 @@ Git hooks are automation points that fire at specific moments in the Git workflo
 ## Hook Lifecycle
 
 Git hooks are scripts that Git executes automatically before or after specific events in the
-Repository lifecycle — commits, pushes, rebases, checkouts, and so on. They live at the boundary
+Repository lifecycle, commits, pushes, rebases, checkouts, and so on. They live at the boundary
 Between your workflow and Git"s internal state machine, and they are the primary mechanism for
 Enforcing local policy without requiring a central server.
 
@@ -31,13 +31,13 @@ Enforcing local policy without requiring a central server.
 Hooks execute at precisely defined points in Git's operation. There is no ambiguity about when they
 Fire: the hook name encodes the event, and Git invokes it synchronously at that exact point in the
 Control flow. A hook either succeeds (exit code 0) or fails (non-zero exit code). If a hook fails,
-Git aborts the operation — this is the entire enforcement mechanism.
+Git aborts the operation, this is the entire enforcement mechanism.
 
 Hooks are divided into two categories based on where they execute:
 
 **Client-side hooks** run on the local machine performing the Git operation. They are triggered by
 Commands like `git commit``git push``git checkout`And `git rebase`. Client-side hooks cannot Be
-enforced remotely — a user with filesystem access can always bypass them with `--no-verify`. Their
+enforced remotely, a user with filesystem access can always bypass them with `--no-verify`. Their
 purpose is **convenience and local policy**, not security.
 
 **Server-side hooks** run on the remote repository when it receives a push. They are triggered by
@@ -51,7 +51,7 @@ Git discovers hooks through a well-defined search path:
 
 1. **`.git/hooks/`**. The default location. When you `git init` a repository, Git populates this
    directory with sample hook scripts (all suffixed with `.sample` so they do not execute). Git only
-   looks for files that are **exactly named** after the hook event — no extensions, no suffixes. A
+   looks for files that are **exactly named** after the hook event, no extensions, no suffixes. A
    file named `pre-commit.sh` will never run; it must be named `pre-commit`.
 
 2. **`core.hooksPath`**. A configuration override that points Git to an alternative directory. This
@@ -102,7 +102,7 @@ hint: Updates were rejected because the pre-push hook exited with error code 1.
 ```
 
 Post-hooks (`post-commit``post-receive`Etc.) are informational. If a post-hook fails, Git prints A
-warning but does **not** abort the operation — the commit or push has already succeeded.
+warning but does **not** abort the operation, the commit or push has already succeeded.
 
 ## Client-Side Hooks
 
@@ -123,7 +123,7 @@ warning but does **not** abort the operation — the commit or push has already 
 ### pre-commit
 
 The `pre-commit` hook runs **after** `git commit` is invoked but **before** the commit object is
-Created. At this point, the staging area (index) is locked — you cannot modify it from within the
+Created. At this point, the staging area (index) is locked, you cannot modify it from within the
 Hook. The hook receives no arguments and reads no stdin. To inspect what is about to be committed,
 You must query the index directly:
 
@@ -153,7 +153,7 @@ fi
 
 The critical detail: `pre-commit` sees the **staged** content, not the working tree. If you modified
 A file after staging it, the hook inspects the staged version, not the working copy. This is by
-Design — the commit reflects the index, not the working tree.
+Design, the commit reflects the index, not the working tree.
 
 ### prepare-commit-msg
 
@@ -182,11 +182,11 @@ fi
 
 The `COMMIT_SOURCE` argument tells you where the message came from:
 
-- `message` — passed via `-m` or `--message`
-- `template` — from `.git/commit-template` or `commit.template` config
-- `merge` — a merge commit
-- `squash` — a squash commit
-- `commit` — the default ( means the editor will open)
+- `message`passed via `-m` or `--message`
+- `template`from `.git/commit-template` or `commit.template` config
+- `merge`a merge commit
+- `squash`a squash commit
+- `commit`the default ( means the editor will open)
 
 ### commit-msg
 
@@ -280,7 +280,7 @@ if [ "$BRANCH_FLAG" = "1" ]; then
     # Initialize submodules if .gitmodules changed
     DIFF=$(git diff --name-only "$PREV_HEAD" "$NEW_HEAD" -- .gitmodules 2>/dev/null)
     if [ -n "$DIFF" ]; then
-        echo "Submodules changed — updating..."
+        echo "Submodules changed, updating..."
         git submodule update --init --recursive
     fi
 fi
@@ -301,7 +301,7 @@ git submodule update --init --recursive
 MERGE_BASE=$(git merge-base HEAD HEAD@{1} 2>/dev/null)
 CHANGED=$(git diff --name-only "$MERGE_BASE" HEAD -- package.json 2>/dev/null)
 if [ -n "$CHANGED" ]; then
-    echo "package.json changed — running npm install..."
+    echo "package.json changed, running npm install..."
     npm install
 fi
 ```
@@ -358,7 +358,7 @@ Updates that are about to be applied:
 <old sha> <new sha> <ref name>
 ```
 
-If this hook exits non-zero, **all** ref updates are rejected. This is atomic — either everything
+If this hook exits non-zero, **all** ref updates are rejected. This is atomic, either everything
 Updates or nothing does:
 
 ```bash
@@ -374,7 +374,7 @@ while read old_sha new_sha ref_name; do
     fi
 
     if [ "$old_sha" = "0000000000000000000000000000000000000000" ]; then
-        # New branch — check all commits reachable from new_sha
+        # New branch, check all commits reachable from new_sha
         # but not from any existing ref
         RANGE=$(git for-each-ref --format='%(refname)' | sed 's/^/^/')
         COMMITS=$(git rev-list "$new_sha" $RANGE 2>/dev/null)
@@ -567,7 +567,7 @@ To them, or use a framework.
 
 ### Redirecting with core.hooksPath
 
-The simplest approach — commit a hooks directory to the repository and point Git to it:
+The simplest approach, commit a hooks directory to the repository and point Git to it:
 
 ```bash
 # Create a hooks directory tracked by the repo
@@ -586,7 +586,7 @@ $ git add .githooks
 $ git commit -m "chore: add shared hooks directory"
 ```
 
-**Caveat**: `git config core.hooksPath` is a local config change — it is not automatically applied
+**Caveat**: `git config core.hooksPath` is a local config change, it is not automatically applied
 When someone clones the repo. New contributors must still run the config command manually. This is
 documented in `README.md` or automated in a `make setup` target.
 
@@ -832,7 +832,7 @@ $ git push --no-verify origin main
 $ git commit -n -m "emergency fix"
 ```
 
-> **Warning**: `--no-verify` bypasses **all** hooks — pre-commit, commit-msg, pre-push, everything.
+> **Warning**: `--no-verify` bypasses **all** hooks, pre-commit, commit-msg, pre-push, everything.
 > Use it only in exceptional circumstances. If you find yourself using `--no-verify` regularly, your
 > hooks are too strict or too slow. Fix the hooks, don't bypass them.
 
@@ -872,7 +872,7 @@ found. Always explicitly set `PATH` or use absolute paths to tools in your hook 
 ### pre-commit Sees Staged Content, Not Working Tree
 
 If you edit a file after staging it, the hook inspects the **staged** version. This causes confusion
-When developers run `git add file.py`Then fix a lint error, then commit — the hook still sees the
+When developers run `git add file.py`Then fix a lint error, then commit, the hook still sees the
 Old staged content. Run `git add` again after fixing.
 
 ### Hooks Do Not Apply to Amended Commits by Default

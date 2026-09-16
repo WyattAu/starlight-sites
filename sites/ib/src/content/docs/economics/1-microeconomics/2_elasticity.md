@@ -1,7 +1,7 @@
 ---
 
 title: "Elasticity"
-description: "IB Economics — price, income, and cross-price elasticity of demand and supply. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
+description: "IB Economics, price, income, and cross-price elasticity of demand and supply. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examination."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -18,7 +18,7 @@ categories: [ib-economics]
 
 ## Intuition
 
-**Elasticity is like a rubber band — it measures how stretched (responsive) quantity is to changes in price or income:** Elasticity determines who bears the burden of taxes, how firms set prices, and how consumers respond to price changes
+**Elasticity is like a rubber band, it measures how stretched (responsive) quantity is to changes in price or income:** Elasticity determines who bears the burden of taxes, how firms set prices, and how consumers respond to price changes
 
 **Why it matters:** Understanding elasticity is essential for business pricing decisions, tax policy, and predicting market responses
 
@@ -123,7 +123,7 @@ Indicates they are close competitors.
   goods have $YED < 0$. The magnitude still matters for determining necessity ($0 < YED < 1$) vs
   luxury ($YED > 1$)
 - Using the wrong formula for cross-price elasticity. XED measures the responsiveness of quantity
-  demanded of good X to a change in the price of good Y — not the other way around
+  demanded of good X to a change in the price of good Y, not the other way around
 - Calculating percentage change incorrectly when there is no base value given. Always use the
   midpoint (arc elasticity) formula when the base is ambiguous:
   $\frac{\Delta Q}{(Q_1 + Q_2)/2} \div \frac{\Delta P}{(P_1 + P_2)/2}$
@@ -142,7 +142,7 @@ $$\text{PED} = \frac{\%\Delta Q_d}{\%\Delta P} = \frac{\frac{400-500}{500} \time
 Demand is unit elastic ($|\text{PED}| = 1$). Total revenue remains unchanged:
 $10 \times 500 = \$5,000$ and $12 \times 400 = \$4,800$.
 
-Wait — actually $\$5,000 \neq \$4,800$, which means the PED calculated using the initial-point
+Wait, actually $\$5,000 \neq \$4,800$, which means the PED calculated using the initial-point
 method gives $-1.0$ but the revenue changed. Using the midpoint method:
 
 $$\text{PED} = \frac{\frac{400-500}{(400+500)/2}}{\frac{12-10}{(12+10)/2}} = \frac{-100/450}{2/11} = \frac{-0.222}{0.182} \approx -1.22$$

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Memory Tuning"
-description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed — the power delivery model, signal integrity, and error"
+description: "DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed, the power delivery model, signal integrity, and error"
 
 ---
 
@@ -20,7 +20,7 @@ description: "DDR5 represents a fundamental shift in memory architecture. The co
 ### DDR4 vs DDR5
 
 DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed
-— the power delivery model, signal integrity, and error correction mechanisms are all different.
+- the power delivery model, signal integrity, and error correction mechanisms are all different.
 
 | Parameter                | DDR4                | DDR5                           |
 | ------------------------ | ------------------- | ------------------------------ |
@@ -39,7 +39,7 @@ DDR5 represents a fundamental shift in memory architecture. The comparison is no
 
 DDR5 moves the power management IC (PMIC) from the motherboard onto the DIMM itself. This means each
 DIMM manages its own power regulation, reducing the burden on the motherboard VRM. It also means you
-Cannot adjust VDDQ/VPP independently per DIMM from the motherboard — the DIMM"s PMIC handles this
+Cannot adjust VDDQ/VPP independently per DIMM from the motherboard, the DIMM"s PMIC handles this
 Internally.
 
 DDR5 doubles the bank group count (from 4 to 8) and doubles the burst length (from BL8 to BL16).
@@ -132,11 +132,11 @@ Tight settings:
 
 | Timing | Description                                                                                                                  |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| tRFC   | Refresh Cycle Time — time to complete a full DRAM refresh. Very long on DDR5 (500+ cycles) and often the biggest bottleneck. |
-| tREFI  | Refresh Interval — time between refresh cycles. Higher = better performance but riskier.                                     |
-| tRDWR  | Read to Write turnaround — bus turnaround time when switching from reads to writes.                                          |
-| tWRRD  | Write to Read turnaround — bus turnaround time when switching from writes to reads.                                          |
-| tRTT   | Read to Read turnaround (different ranks) — time between reads to different ranks on the same channel.                       |
+| tRFC   | Refresh Cycle Time, time to complete a full DRAM refresh. Very long on DDR5 (500+ cycles) and often the biggest bottleneck. |
+| tREFI  | Refresh Interval, time between refresh cycles. Higher = better performance but riskier.                                     |
+| tRDWR  | Read to Write turnaround, bus turnaround time when switching from reads to writes.                                          |
+| tWRRD  | Write to Read turnaround, bus turnaround time when switching from writes to reads.                                          |
+| tRTT   | Read to Read turnaround (different ranks), time between reads to different ranks on the same channel.                       |
 
 ### Interpreting Timing Strings
 
@@ -182,7 +182,7 @@ XMP supports two profiles (Profile 1 and Profile 2), allowing vendors to store a
 
 ### EXPO (AMD Extended Profiles for Overclocking)
 
-EXPO is AMD's equivalent of XMP. Functionally identical — it stores validated profiles in the SPD
+EXPO is AMD's equivalent of XMP. Functionally identical, it stores validated profiles in the SPD
 Chip. The main difference is branding: EXPO profiles are validated on AMD platforms. In practice,
 Most EXPO kits work fine on Intel and vice versa, as the memory ICs are the same.
 
@@ -427,8 +427,8 @@ DIMMs.
 
 Error-Correcting Code (ECC) memory adds an extra memory chip (or chips) per DIMM that stores parity
 And syndrome information. For single-bit errors, ECC can detect and correct the error transparently
-(SEC — Single Error Correction). For multi-bit errors, ECC can detect the error but cannot correct
-It (DED — Double Error Detection), triggering a machine check exception.
+(SEC, Single Error Correction). For multi-bit errors, ECC can detect the error but cannot correct
+It (DED, Double Error Detection), triggering a machine check exception.
 
 ### ECC Memory Types
 
@@ -439,7 +439,7 @@ It (DED — Double Error Detection), triggering a machine check exception.
 | DDR5 in-band ECC   | Correct 1-bit per burst (internal)  | No extra pins                     |
 
 DDR5 introduces "in-band" ECC, where each 128-bit access includes 8 extra ECC bits that allow the
-DRAM to correct single-bit errors internally. This is separate from traditional ECC — it protects
+DRAM to correct single-bit errors internally. This is separate from traditional ECC, it protects
 Against bit flips within the DRAM chip itself but does not protect against bus errors or provide the
 Same level of protection as platform-level ECC.
 
@@ -580,7 +580,7 @@ Kit with the total capacity you need.
 ### Overclocking Without Testing
 
 A system that boots and runs benchmarks is not necessarily stable. Memory instability can cause
-Silent data corruption — the system continues running but produces incorrect results. This is
+Silent data corruption, the system continues running but produces incorrect results. This is
 Particularly dangerous for ZFS pools, databases, and compilation workloads. Always run MemTest86 and
 TestMem5 after any timing or frequency change.
 
@@ -608,7 +608,7 @@ It means 6000 MT/s.
 
 ### Neglecting DRAM Cooling
 
-High-speed DDR5 modules generate significant heat — 5–8 W per DIMM under sustained load. Without
+High-speed DDR5 modules generate significant heat, 5–8 W per DIMM under sustained load. Without
 Adequate airflow over the DIMMs, temperatures can exceed 60 °C, which forces the memory controller
 To insert wait states or can cause instability. Ensure your case has intake airflow that passes over
 The DIMM area, or use aftermarket DRAM heatsinks and fans.
@@ -640,7 +640,7 @@ Inter-symbol interference (ISI):
 - **Receive DFE (RX DFE):** On the DIMM side, compensates for signal degradation on the read path.
 
 DFE training occurs during system boot (JEDEC training sequence) and can be a source of
-Compatibility issues — some CPU/memory combinations fail DFE training at high speeds.
+Compatibility issues, some CPU/memory combinations fail DFE training at high speeds.
 
 ### Training and Calibration Sequence
 

@@ -50,52 +50,52 @@ within this new strategic environment.
 
 ### Bismarck's Alliance System (1871-1890)
 
-- **1871 — Proclamation of the German Empire**: Following Prussian victory in the Franco-Prussian
+- **1871, Proclamation of the German Empire**: Following Prussian victory in the Franco-Prussian
   War. Significance: creates a dominant continental power; French revanchisme becomes a permanent
   feature of European diplomacy.
 
-- **1873 — Three Emperors' League**: Agreement between Germany, Austria-Hungary, and Russia to
+- **1873, Three Emperors' League**: Agreement between Germany, Austria-Hungary, and Russia to
   maintain the status quo. Significance: Bismarck's preferred alignment of conservative empires
   isolating France; but Austro-Russian rivalry in the Balkans makes it unstable.
 
-- **1878 — Congress of Berlin**: Bismarck revises the Treaty of San Stefano, limiting Russian gains
+- **1878, Congress of Berlin**: Bismarck revises the Treaty of San Stefano, limiting Russian gains
   in the Balkans. Significance: Russia feels cheated; Austro-Russian rivalry deepens.
 
-- **1879 — Dual Alliance**: Germany and Austria-Hungary sign a defensive alliance against Russia.
+- **1879, Dual Alliance**: Germany and Austria-Hungary sign a defensive alliance against Russia.
   Significance: foundation of German alliance policy.
 
-- **1882 — Triple Alliance**: Italy joins, forming the Triple Alliance. Significance: Italy's
+- **1882, Triple Alliance**: Italy joins, forming the Triple Alliance. Significance: Italy's
   membership is conditional and unreliable.
 
-- **1887 — Reinsurance Treaty**: Germany and Russia agree to mutual neutrality in certain
+- **1887, Reinsurance Treaty**: Germany and Russia agree to mutual neutrality in certain
   circumstances. Significance: Bismarck's last effort to maintain French isolation.
 
-- **1890 — Bismarck dismissed**: Kaiser Wilhelm II allows the Reinsurance Treaty to lapse.
+- **1890, Bismarck dismissed**: Kaiser Wilhelm II allows the Reinsurance Treaty to lapse.
   Significance: Russia, feeling isolated, begins to court France.
 
 ### Franco-German Tensions and Imperial Rivalry
 
-- **1894 — Franco-Russian Alliance**: Ends France's diplomatic isolation. Significance: creates the
+- **1894, Franco-Russian Alliance**: Ends France's diplomatic isolation. Significance: creates the
   possibility of a two-front war for Germany.
 
-- **1898 — Fashoda Crisis**: Britain and France clash in the Sudan. Significance: imperial rivalry
+- **1898, Fashoda Crisis**: Britain and France clash in the Sudan. Significance: imperial rivalry
   strains relations but its peaceful resolution demonstrates risks of uncontrolled competition.
 
-- **1904 — Entente Cordiale**: Britain and France resolve colonial disputes. Significance: ends
+- **1904, Entente Cordiale**: Britain and France resolve colonial disputes. Significance: ends
   centuries of Anglo-French rivalry; creates an informal alignment.
 
-- **1907 — Anglo-Russian Convention**: Resolves disputes in Persia, Afghanistan, and Tibet.
+- **1907, Anglo-Russian Convention**: Resolves disputes in Persia, Afghanistan, and Tibet.
   Significance: completes the Triple Entente; Germany now faces a two-front war prospect.
 
 ### The Naval Arms Race
 
-- **1898 — German Naval Law**: Tirpitz begins naval expansion to challenge British supremacy.
+- **1898, German Naval Law**: Tirpitz begins naval expansion to challenge British supremacy.
   Significance: transforms Britain's strategic calculus.
 
-- **1906 — HMS Dreadnought launched**: First all-big-gun battleship, rendering previous warships
+- **1906, HMS Dreadnought launched**: First all-big-gun battleship, rendering previous warships
   obsolete. Significance: resets the naval competition; Germany accelerates its own programme.
 
-- **1907-1914 — Arms race escalates**: Both sides launch dreadnoughts at increasing rate.
+- **1907-1914, Arms race escalates**: Both sides launch dreadnoughts at increasing rate.
   Significance: major source of Anglo-German hostility; some historians argue it made war more
   likely by creating a sense of inevitability.
 
@@ -108,18 +108,18 @@ within this new strategic environment.
 
 ### The July Crisis (1914)
 
-- **28 June — Assassination of Archduke Franz Ferdinand**: Gavrilo Princip, a Bosnian Serb
+- **28 June, Assassination of Archduke Franz Ferdinand**: Gavrilo Princip, a Bosnian Serb
   nationalist, kills the heir to the Austro-Hungarian throne. Significance: the immediate trigger.
 
-- **5 July — Germany's "blank cheque"**: Germany promises Austria-Hungary unconditional support.
+- **5 July, Germany's "blank cheque"**: Germany promises Austria-Hungary unconditional support.
   Significance: emboldens Austria to issue an ultimatum.
 
-- **23 July — Ultimatum to Serbia**: Deliberately humiliating ten-point demands with 48-hour
+- **23 July, Ultimatum to Serbia**: Deliberately humiliating ten-point demands with 48-hour
   deadline. Significance: designed to be unacceptable.
 
-- **28 July — Austria declares war on Serbia**. **30 July — Russia mobilises**. **1 August — Germany
-  declares war on Russia**. **3 August — Germany declares war on France; invades Belgium**. **4
-  August — Britain declares war on Germany**. Significance: within a week, a regional dispute
+- **28 July, Austria declares war on Serbia**. **30 July, Russia mobilises**. **1 August, Germany
+  declares war on Russia**. **3 August, Germany declares war on France; invades Belgium**. **4
+  August, Britain declares war on Germany**. Significance: within a week, a regional dispute
   becomes a general European war.
 
 ## Key Terms
@@ -150,8 +150,8 @@ within this new strategic environment.
 
 - **Determinist view**: The alliance system, arms race, imperial rivalry, and nationalism made war
   inevitable.
-- **Contingency view**: Different decisions at key moments — Austria restraining itself, Germany not
-  issuing the "blank cheque," Russia not mobilising — could have prevented or localised the
+- **Contingency view**: Different decisions at key moments, Austria restraining itself, Germany not
+  issuing the "blank cheque," Russia not mobilising, could have prevented or localised the
   conflict.
 
 ## Source Analysis Techniques
@@ -169,7 +169,7 @@ When analysing diplomatic sources from this period:
 
 ## Intuition
 
-Think of European diplomacy 1871-1914 as a game of Jenga. Bismarck carefully balanced the blocks — keeping France isolated while managing rivalries between Austria-Hungary and Russia. When Kaiser Wilhelm II removed the Reinsurance Treaty block in 1890, the structure began to wobble. Each new alliance, each dreadnought launched, each colonial dispute added a block higher. The alliance system was meant to prevent war through deterrence, but it actually created a hair-trigger mechanism where one local spark — an assassination in Sarajevo — could ignite the entire structure. The tragedy is that most leaders did not want a general war; they directly could not find a way to step back from the commitments they had made.
+Think of European diplomacy 1871-1914 as a game of Jenga. Bismarck carefully balanced the blocks, keeping France isolated while managing rivalries between Austria-Hungary and Russia. When Kaiser Wilhelm II removed the Reinsurance Treaty block in 1890, the structure began to wobble. Each new alliance, each dreadnought launched, each colonial dispute added a block higher. The alliance system was meant to prevent war through deterrence, but it actually created a hair-trigger mechanism where one local spark, an assassination in Sarajevo, could ignite the entire structure. The tragedy is that most leaders did not want a general war; they directly could not find a way to step back from the commitments they had made.
 
 ## Common Pitfalls
 
@@ -181,7 +181,7 @@ Think of European diplomacy 1871-1914 as a game of Jenga. Bismarck carefully bal
 
 ## Worked Examples
 
-### Essay Plan — "The alliance system was the most significant cause of the First World War."
+### Essay Plan, "The alliance system was the most significant cause of the First World War."
 
 How far do you agree?
 
@@ -189,18 +189,18 @@ How far do you agree?
 general war, but it was not the sole cause. Imperial rivalry, the arms race, nationalism, and
 individual decisions were equally significant.
 
-**Paragraph 1 — The alliance system** (agree): The Triple Alliance and Triple Entente divided
+**Paragraph 1, The alliance system** (agree): The Triple Alliance and Triple Entente divided
 Europe into two blocs; Germany's "blank cheque" emboldened Austria. But: alliances were defensive
 in intent; they became dangerous only when states chose to use them offensively.
 
-**Paragraph 2 — Imperial rivalry and arms race** (alternative): Colonial competition and the
+**Paragraph 2, Imperial rivalry and arms race** (alternative): Colonial competition and the
 naval race deepened suspicion. But: imperial rivalry was often resolved peacefully (Entente
 Cordiale, Anglo-Russian Convention).
 
-**Paragraph 3 — Nationalism** (alternative): Pan-Slavism and Balkan nationalism created
+**Paragraph 3, Nationalism** (alternative): Pan-Slavism and Balkan nationalism created
 flashpoints. But: nationalism was constant throughout; what changed was the diplomatic response.
 
-**Paragraph 4 — Leadership and decision-making** (alternative): Wilhelm II's erratic diplomacy
+**Paragraph 4, Leadership and decision-making** (alternative): Wilhelm II's erratic diplomacy
 and Russia's mobilisation were critical. But: individual decisions were shaped by structural
 constraints.
 

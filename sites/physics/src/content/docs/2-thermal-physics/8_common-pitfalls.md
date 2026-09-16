@@ -148,7 +148,7 @@ is a key signature of a Fermi liquid. $\blacksquare$
 
 - **Confusing thermodynamic and kinetic stability.** A system can be thermodynamically unstable
   (negative curvature of free energy) yet kinetically stable (metastable) due to energy barriers.
-  Diamond at room temperature is metastable — it is kinetically stable but thermodynamically
+  Diamond at room temperature is metastable, it is kinetically stable but thermodynamically
   unstable relative to graphite. The phase diagram shows equilibrium, not kinetics.
 
 - **Misapplying the Sackur-Tetrode equation.** The Sackur-Tetrode equation for the entropy of an

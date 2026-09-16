@@ -38,7 +38,7 @@ evidence. Technique and knowledge are complementary, not alternatives.
 
 ### Developing a thesis
 
-Every essay requires a clear line of argument — a thesis directly answering the question, stated
+Every essay requires a clear line of argument, a thesis directly answering the question, stated
 in the introduction and sustained throughout.
 
 **Strong thesis**: "The alliance system was the most significant cause of the First World War
@@ -64,10 +64,10 @@ less significant.
 
 The PEEL framework provides clear structure for each analytical paragraph:
 
-- **P — Point**: State your argument in a clear topic sentence.
-- **E — Evidence**: Provide specific, accurate evidence (dates, names, events, statistics).
-- **E — Explanation**: Analyse the evidence and link it back to the question.
-- **L — Link**: Conclude by reinforcing your argument and linking to the next point.
+- **P, Point**: State your argument in a clear topic sentence.
+- **E, Evidence**: Provide specific, accurate evidence (dates, names, events, statistics).
+- **E, Explanation**: Analyse the evidence and link it back to the question.
+- **L, Link**: Conclude by reinforcing your argument and linking to the next point.
 
 ### Example PEEL paragraph
 
@@ -83,7 +83,7 @@ Britain into the war on 4 August.
 **E**: This chain demonstrates that alliance commitments created an escalatory dynamic drawing in
 each state. Without the alliance structure, Austria's conflict with Serbia might have remained
 localised. However, the system only became dangerous because states chose to interpret commitments
-expansively — the "blank cheque" was a political choice, not an automatic response.
+expansively, the "blank cheque" was a political choice, not an automatic response.
 
 **L**: The alliance system was therefore the most significant structural cause, though the
 interaction of commitments with individual leaders' decisions produced the general war.
@@ -91,7 +91,7 @@ interaction of commitments with individual leaders' decisions produced the gener
 ## Historiographical Engagement
 
 Examiners reward awareness of how and why historians reach different conclusions. This does not
-require extensive knowledge of individual historians — it requires understanding the types of
+require extensive knowledge of individual historians, it requires understanding the types of
 arguments that exist and the evidence on which they rest.
 
 ### How to engage
@@ -174,11 +174,11 @@ Based on examiner reports and mark schemes:
 
 ## Intuition
 
-Writing a history essay is like building an argument in a courtroom. You are the barrister, the examiner is the jury, and the evidence is your exhibits. A weak essay lists facts like an inventory; a strong essay constructs a case. The PEEL structure is your cross-examination technique — each paragraph must make a claim, present evidence, explain why it matters, and connect to the next point. The best essays do something more: they acknowledge the opposing counsel. When you engage with competing interpretations, you show the examiner that you understand history is not a single story but a conversation between different perspectives, and you can judge which argument is most convincing.
+Writing a history essay is like building an argument in a courtroom. You are the barrister, the examiner is the jury, and the evidence is your exhibits. A weak essay lists facts like an inventory; a strong essay constructs a case. The PEEL structure is your cross-examination technique, each paragraph must make a claim, present evidence, explain why it matters, and connect to the next point. The best essays do something more: they acknowledge the opposing counsel. When you engage with competing interpretations, you show the examiner that you understand history is not a single story but a conversation between different perspectives, and you can judge which argument is most convincing.
 
 ## Common Pitfalls
 
-1. **Description without analysis**. The most common error — telling the examiner what happened
+1. **Description without analysis**. The most common error, telling the examiner what happened
    without explaining why or evaluating significance.
 2. **Uneven coverage**. Spending too long on one factor; each paragraph should address a distinct
    point.
@@ -194,7 +194,7 @@ Writing a history essay is like building an argument in a courtroom. You are the
 far do you agree?
 
 **Introduction**: The English Reformation was driven primarily by Henry VIII's dynastic and
-political needs — his desire to annul his marriage and assert royal supremacy. However, the
+political needs, his desire to annul his marriage and assert royal supremacy. However, the
 Reformation also had genuine theological dimensions: Protestant doctrine developed under Thomas
 Cranmer, the Book of Common Prayer was established, and evangelical preaching ensured the break
 with Rome produced lasting religious change. On balance, the initial break was political, but the
@@ -208,7 +208,7 @@ do you agree?
 **Conclusion**: The alliance system was the most significant structural cause because it created
 the framework for a regional crisis to become a general conflict. Without the Triple Alliance and
 Triple Entente, Austria's dispute with Serbia might have remained localised. However, the system
-was not inherently war-making — it became dangerous because of imperial rivalry, nationalist
+was not inherently war-making, it became dangerous because of imperial rivalry, nationalist
 agitation, the arms race, and specific leaders' decisions. The most accurate interpretation is
 that the alliance system was the most significant enabling condition, but the war resulted from
 multiple causes, none individually sufficient.
@@ -230,7 +230,7 @@ Strong A-Level History essays combine specific knowledge with systematic analysi
 framework provides clear paragraph structure. Argument construction requires a clear thesis,
 sustained evaluation, and historiographical engagement. Causation, continuity, change, and
 significance each require specific techniques and appropriate language. Time management is
-essential — plan before writing, allocate time to each section, and answer the question directly.
+essential, plan before writing, allocate time to each section, and answer the question directly.
 
 ## Cross-References
 

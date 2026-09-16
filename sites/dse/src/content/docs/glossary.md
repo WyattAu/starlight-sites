@@ -1,5 +1,5 @@
 ---
-title: "DSE Exam Glossary — Key Terms Across All Subjects"
+title: "DSE Exam Glossary, Key Terms Across All Subjects"
 description: "Compulsory Module: A module that all candidates must take as part of a subject. Forms the foundation of the subject curriculum."
 date: 2026-07-24
 tags: [glossary]

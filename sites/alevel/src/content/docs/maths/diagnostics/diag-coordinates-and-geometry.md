@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Geometry is the art of measuring and describing shapes — from simple triangles to complex solids.**
+**Geometry is the art of measuring and describing shapes, from simple triangles to complex solids.**
 
-## Coordinates and Geometry — Diagnostic Tests
+## Coordinates and Geometry, Diagnostic Tests
 
 ## Unit Tests
 
@@ -432,7 +432,7 @@ So $a = 1$, $b = 0$, $c = 0$.
 
 ## Common Mistakes
 
-**Confusing the equation of a line in different forms:** $y = mx + c$ is the gradient-intercept form. $ax + by + c = 0$ is the general form. $y - y_1 = m(x - x_1)$ is the point-gradient form. Converting between these requires care — for example, rearranging $y = 2x + 3$ to general form gives $2x - y + 3 = 0$, not $2x + y + 3 = 0$.
+**Confusing the equation of a line in different forms:** $y = mx + c$ is the gradient-intercept form. $ax + by + c = 0$ is the general form. $y - y_1 = m(x - x_1)$ is the point-gradient form. Converting between these requires care, for example, rearranging $y = 2x + 3$ to general form gives $2x - y + 3 = 0$, not $2x + y + 3 = 0$.
 
 **Forgetting that perpendicular gradients multiply to $-1$:** If a line has gradient $m$, the perpendicular line has gradient $-1/m$. Students often write $1/m$ instead. Also, horizontal and vertical lines are perpendicular ($m = 0$ and $m$ undefined), which is a special case often missed.
 

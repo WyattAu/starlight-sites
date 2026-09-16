@@ -40,7 +40,7 @@ add_executable(App main.cpp)
 ## 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
 add_library(MathStatic STATIC math.cpp)
 
-# 3. Shared Library: Compiles into .so (Linux), .dylib (macOS), or .dll (Windows)
+# 3. Shared Library: Compiles into .so (Linux).dylib (macOS), or .dll (Windows)
 add_library(MathShared SHARED math.cpp)
 
 # 4. Interface Library: A collection of properties/headers (No source files)
@@ -327,7 +327,7 @@ Consumers, prefer an INTERFACE library (described below).
 
 ## INTERFACE Libraries in Depth
 
-INTERFACE libraries are pure property containers. They have no compiled output — they exist solely
+INTERFACE libraries are pure property containers. They have no compiled output, they exist solely
 To propagate build requirements to their consumers.
 
 ```cmake
@@ -506,7 +506,7 @@ target_link_libraries(Engine PUBLIC spdlog)
 target_link_libraries(Engine PRIVATE spdlog)
 ```
 
-Making `spdlog` PUBLIC means every consumer of `Engine` — and every consumer of those consumers —
+Making `spdlog` PUBLIC means every consumer of `Engine`and every consumer of those consumers,
 Must also be able to find `spdlog`. This creates a transitive dependency explosion that slows builds
 And makes the project harder to integrate.
 

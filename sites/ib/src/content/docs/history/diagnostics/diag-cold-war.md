@@ -32,7 +32,7 @@ Answer each question. Check your answers against the key at the end.
 
 ## Intuition
 
-**The Cold War was like a chess match between superpowers — each move by one side prompted a countermove by the other, with the world as the board:** The Cold War's ideological struggle between capitalism and communism shaped global politics, technology, and culture for nearly half a century
+**The Cold War was like a chess match between superpowers, each move by one side prompted a countermove by the other, with the world as the board:** The Cold War's ideological struggle between capitalism and communism shaped global politics, technology, and culture for nearly half a century
 
 **Why it matters:** Understanding the Cold War explains the modern world order, from NATO to nuclear proliferation to ongoing geopolitical tensions
 

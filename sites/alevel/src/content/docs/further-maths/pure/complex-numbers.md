@@ -917,7 +917,7 @@ $0, 72°, 144°, 216°, 288°$. Equal angular spacing confirms a regular pentago
 
 Sum: $\displaystyle\sum_{k=0}^{4} \omega^k = \frac{1-\omega^5}{1-\omega} = 0$.
 
-### Example 12.3: Locus — circle
+### Example 12.3: Locus, circle
 
 **Problem.** Find the Cartesian equation of $|z - 1 + 2i| = 3$ and describe the locus.
 
@@ -950,7 +950,7 @@ $x^2+2x+5 = 0$: $x = \dfrac{-2\pm\sqrt{4-20}}{2} = -1 \pm 2i$.
 
 $\boxed{x = -1,\; x = -1+2i,\; x = -1-2i}$
 
-### Example 12.6: Transformation — inversion
+### Example 12.6: Transformation, inversion
 
 **Problem.** Under the transformation $w = \dfrac{1}{z}$Find the image of the line $x = 2$.
 
@@ -1139,7 +1139,7 @@ This is a circle (after simplification).
 
 ## 15. Further Advanced Topics
 
-### 15.1 De Moivre and roots of unity — applications
+### 15.1 De Moivre and roots of unity, applications
 
 The $n$Th roots of unity are equally spaced on the unit circle and have important properties:
 

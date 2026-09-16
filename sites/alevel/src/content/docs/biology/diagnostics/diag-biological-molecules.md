@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
-## Biological Molecules — Diagnostic Tests
+## Biological Molecules, Diagnostic Tests
 
 ## Unit Tests
 
@@ -68,7 +68,7 @@ each successive beta-glucose molecule must rotate 180 degrees relative to its ne
 1,4-glycosidic bond. This produces a straight, unbranched chain. The straight chains align parallel
 to each other, allowing extensive hydrogen bonding between the $-$OH groups of adjacent chains,
 forming strong, insoluble microfibrils. In alpha-glucose, the $-$OH groups all point in the same
-relative direction, so successive molecules do not need to rotate — the chain coils into a helix,
+relative direction, so successive molecules do not need to rotate, the chain coils into a helix,
 which is compact and less accessible for hydrogen bonding between chains.
 
 (d) The enzyme amylase, produced in human saliva and the pancreas, has an active site complementary
@@ -76,7 +76,7 @@ in shape to the alpha-glycosidic bond. Cellulase, the enzyme that hydrolyses bet
 bonds, is not produced by humans. The active site of amylase cannot bind to the beta-glycosidic bond
 because the spatial arrangement of atoms in the beta linkage does not match the active site"s
 three-dimensional shape. This is an example of the lock-and-key model of enzyme action (though
-induced fit also applies more broadly — the key point is that the active site is specific to the
+induced fit also applies more broadly, the key point is that the active site is specific to the
 alpha linkage).
 
 ---
@@ -135,12 +135,12 @@ efficiently and the rate falls to near zero. The bonds broken are ionic bonds an
 the tertiary structure.
 
 (c) Above 60 degrees Celsius, the increased kinetic energy breaks the hydrogen bonds, ionic bonds,
-and hydrophobic interactions maintaining the tertiary structure. The enzyme **denatures** — the
+and hydrophobic interactions maintaining the tertiary structure. The enzyme **denatures**, the
 active site permanently loses its specific shape. Since this involves breaking bonds in the tertiary
 structure, the change is irreversible (the protein cannot spontaneously refold correctly). At low
 temperature, the kinetic energy of enzyme and substrate molecules is reduced, so fewer successful
 collisions occur per unit time. No bonds in the protein structure are broken, so when the
-temperature is raised again, the enzyme resumes normal activity — this is reversible.
+temperature is raised again, the enzyme resumes normal activity, this is reversible.
 
 (d) The **lock-and-key model** proposes that the active site has a rigid, fixed shape that is
 exactly complementary to the substrate, like a key fitting a lock. The **induced fit model**
@@ -198,8 +198,8 @@ enzyme affected by a non-competitive inhibitor.
 the active site, blocking substrate access. At high substrate concentrations, the probability that a
 substrate molecule rather than the inhibitor occupies the active site increases, because substrate
 molecules outcompete the inhibitor molecules for the active site. Therefore, the $V_{\max}$ is the
-same with and without the inhibitor, but the apparent $K_m$ is increased (the Michaelis constant —
-the substrate concentration at half $V_{\max}$ — is higher with the inhibitor present, as seen by
+same with and without the inhibitor, but the apparent $K_m$ is increased (the Michaelis constant,
+the substrate concentration at half $V_{\max}$, is higher with the inhibitor present, as seen by
 the rightward shift of the curve).
 
 (b) Three structural differences between DNA and RNA:
@@ -215,7 +215,7 @@ the rightward shift of the curve).
 (c) ATP (adenosine triphosphate) consists of three components: adenine (a nitrogenous base), ribose
 (a pentose sugar), and three phosphate groups. The hydrolysis of the terminal phosphoanhydride bond
 between the second and third phosphate groups releases energy (approximately 30.5 kJ mol$^{-1}$)
-because the products (ADP + P$_i$) are more stable than ATP — the negative charges on the phosphate
+because the products (ADP + P$_i$) are more stable than ATP, the negative charges on the phosphate
 groups in ATP repel each other, making the bond strained and high-energy. The reaction is exergonic
 because it has a negative change in Gibbs free energy ($\Delta G \lt 0$); energy is released to the
 surroundings.
@@ -225,7 +225,7 @@ allosteric site). This binding causes a conformational change in the enzyme's te
 that alters the shape of the active site, preventing substrate binding. Unlike competitive
 inhibition, the inhibitor does not compete with the substrate for the active site. **Increasing
 substrate concentration does not overcome non-competitive inhibition** because the inhibitor and
-substrate bind at different sites — the inhibitor can bind whether or not the substrate is present.
+substrate bind at different sites, the inhibitor can bind whether or not the substrate is present.
 Therefore, $V_{\max}$ is reduced but $K_m$ is unchanged (the substrate still binds with normal
 affinity to any uninhibited enzyme molecules).
 
@@ -279,7 +279,7 @@ Translation continues until a stop codon is reached. The polypeptide chain is re
 into its functional three-dimensional structure.
 
 (b) The deletion of three nucleotides removes exactly one codon (since each codon is three
-nucleotides). The reading frame of the mRNA downstream of the deletion is not shifted — every
+nucleotides). The reading frame of the mRNA downstream of the deletion is not shifted, every
 subsequent codon is still read in the correct triplet. This is why it is not a frameshift mutation.
 However, the amino acid sequence is altered (phenylalanine is missing at position 508), which
 affects the protein's folding and function.
@@ -340,7 +340,7 @@ energy is required to change water from liquid to vapour (high latent heat of va
 mammals sweat, the evaporation of water from the skin surface removes heat energy from the body,
 cooling it. Water's **high specific heat capacity** (due to extensive hydrogen bonding) means that a
 large amount of energy is required to change its temperature. This buffers the body against rapid
-temperature fluctuations — blood, which is mostly water, can transport heat from metabolically
+temperature fluctuations, blood, which is mostly water, can transport heat from metabolically
 active organs to the skin for dissipation without large temperature changes in the blood itself.
 
 (b) Water has a high surface tension because the water molecules at the surface experience an
@@ -365,7 +365,7 @@ majority). The conversion of $\text{CO}_2$ to $\text{HCO}_3^-$ requires the enzy
 anhydrase and depends on water as both a solvent and a reactant:
 $\text{CO}_2 + \text{H}_2\text{O} \rightleftharpoons \text{H}_2\text{CO}_3 \rightleftharpoons \text{H}^+ + \text{HCO}_3^-$.
 Oxygen, although non-polar and poorly soluble in water, is carried by haemoglobin (a protein
-dissolved in the aqueous cytoplasm of red blood cells) — the small amount that dissolves directly in
+dissolved in the aqueous cytoplasm of red blood cells), the small amount that dissolves directly in
 plasma does so in the aqueous portion of blood.
 
 ---
@@ -446,7 +446,7 @@ driven by the concentration gradient between blood and the cell cytoplasm.
 
 **Thinking DNA replication is conservative after one generation:** In the Meselson-Stahl experiment, after one generation all DNA is of intermediate density, which is consistent with both semi-conservative and dispersive replication. Only after two generations does the appearance of a light band rule out dispersive replication. Do not conclude semi-conservative from one generation alone.
 
-**Assuming cellulose is indigestible because it is "inert":** Cellulose is not chemically inert — it is a polysaccharide with strong beta-1,4-glycosidic bonds. Humans lack cellulase, the enzyme needed to hydrolyse these bonds. The issue is enzyme specificity, not the chemical stability of the molecule itself.
+**Assuming cellulose is indigestible because it is "inert":** Cellulose is not chemically inert, it is a polysaccharide with strong beta-1,4-glycosidic bonds. Humans lack cellulase, the enzyme needed to hydrolyse these bonds. The issue is enzyme specificity, not the chemical stability of the molecule itself.
 
 ## Cross-References
 

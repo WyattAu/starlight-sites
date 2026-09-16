@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: Control Flow and Pattern Matching
-description: "Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression — it"
+description: "Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression, it"
 
 ---
 
@@ -22,7 +22,7 @@ Control flow in Rust is expression-oriented, meaning nearly everything returns a
 ## `if` / `else`
 
 Rust's `if` expression does not require parentheses around the condition, but braces around the body
-Are mandatory. Unlike C or Java, `if` is an expression — it returns a value and can be used inline:
+Are mandatory. Unlike C or Java, `if` is an expression, it returns a value and can be used inline:
 
 ```rust
 let condition = true;
@@ -74,19 +74,19 @@ Every block in Rust is an expression. The last expression without a semicolon is
 let x = {
     let a = 1;
     let b = 2;
-    a + b  // no semicolon — this is the block's value
+    a + b  // no semicolon, this is the block's value
 };
 assert_eq!(x, 3);
 
 let y = {
     let a = 1;
     let b = 2;
-    a + b;  // semicolon — the block returns ()
+    a + b;  // semicolon, the block returns ()
 };
 assert_eq!(y, ());
 ```
 
-This is not specific to `if` — it applies to `match` arms, `loop` bodies, function bodies, and any
+This is not specific to `if`it applies to `match` arms, `loop` bodies, function bodies, and any
 Braced block.
 
 ## `match` Expressions
@@ -170,7 +170,7 @@ match x {
 
 ### Match on References (Match Ergonomics)
 
-Rust 2021 edition enables match ergonomics — the compiler automatically adds `&` when matching
+Rust 2021 edition enables match ergonomics, the compiler automatically adds `&` when matching
 Through a reference:
 
 ```rust
@@ -272,7 +272,7 @@ while number != 0 {
 `while` evaluates the condition before each iteration. If the condition is false on the first check,
 The body never executes.
 
-### `for` — Iterator-Based Looping
+### `for`Iterator-Based Looping
 
 `for` loops iterate over any type implementing `IntoIterator`. This includes arrays, vectors,
 Ranges, strings, hash maps, and any custom iterator:
@@ -534,12 +534,12 @@ struct Point3D { x: f64, y: f64, z: f64 }
 let p = Point3D { x: 1.0, y: 2.0, z: 3.0 };
 
 match p {
-    Point3D { x, .. } => println!("x is {}", x),
+    Point3D { x.. } => println!("x is {}", x),
 }
 
 let origin = (0, 0, 0);
 match origin {
-    (0, ..) => println!("x is zero"),
+    (0..) => println!("x is zero"),
     _ => {}
 }
 ```
@@ -556,7 +556,7 @@ let person = Person {
     age: 30,
 };
 
-// Move — person.name is no longer accessible
+// Move, person.name is no longer accessible
 let Person { name, age } = person;
 println!("{} is {}", name, age);
 
@@ -565,7 +565,7 @@ let person = Person {
     age: 25,
 };
 
-// Borrow — person remains fully accessible
+// Borrow, person remains fully accessible
 let Person { ref name, ref age } = person;
 println!("{} is {}", name, age);
 println!("{} is {}", person.name, person.age);
@@ -592,7 +592,7 @@ match points {
 let arr = [1, 2, 3, 4, 5];
 
 match arr {
-    [first, second, ..] => {
+    [first, second..] => {
         println!("first: {}, second: {}", first, second);
     }
     [] => {
@@ -604,7 +604,7 @@ match arr {
 let slice = &[1, 2, 3, 4, 5];
 match slice {
     [1, 2, rest @ ..] => println!("starts with 1,2, rest: {:?}", rest),
-    [1, .., 5] => println!("starts with 1, ends with 5"),
+    [1.., 5] => println!("starts with 1, ends with 5"),
     _ => println!("other"),
 }
 ```
@@ -681,7 +681,7 @@ fn fetch_with_retry(url: &str, max_retries: usize) -> Result<String, reqwest::Er
 
 ## The `matches!` Macro
 
-`matches!` is a concise way to check whether a value matches a pattern — it returns `bool`:
+`matches!` is a concise way to check whether a value matches a pattern, it returns `bool`:
 
 ```rust
 let x = Some(5);
@@ -944,16 +944,16 @@ fn abs(x: i32) -> i32 {
 }
 ```
 
-Use `return` only for early exits. Omit the trailing `return` for the final expression — Rust
+Use `return` only for early exits. Omit the trailing `return` for the final expression, Rust
 Functions return the last expression automatically:
 
 ```rust
-// Idiomatic — no trailing return
+// Idiomatic, no trailing return
 fn add(a: i32, b: i32) -> i32 {
     a + b
 }
 
-// Unidiomatic — explicit trailing return
+// Unidiomatic, explicit trailing return
 fn add_verbose(a: i32, b: i32) -> i32 {
     return a + b;
 }
@@ -1009,10 +1009,10 @@ Not appear in production code.
 ## Common Pitfalls
 
 1. **Using `if` without braces.** Rust requires braces around the body of `if``else``while`And
-   `for`. Unlike C, `if (x) return;` is invalid — you must write `if x { return; }`.
+   `for`. Unlike C, `if (x) return;` is invalid, you must write `if x { return; }`.
 
 2. **Forgetting `match` exhaustiveness.** Adding a new enum variant without updating all `match`
-   expressions is a compile error. This is a feature, not a bug — it prevents silent logic errors.
+   expressions is a compile error. This is a feature, not a bug, it prevents silent logic errors.
    Do not paper over it with `_ => {}` unless the variant genuinely does not matter.
 
 3. **`if let` hiding missing arms.** `if let Some(x) = val` ignores the `None` case by default. If

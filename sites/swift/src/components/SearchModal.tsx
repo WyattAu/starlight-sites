@@ -1,5 +1,5 @@
 /**
- * SearchModal.tsx — Spotlight search with Cmd+K/Ctrl+K trigger
+ * SearchModal.tsx, Spotlight search with Cmd+K/Ctrl+K trigger
  *
  * Features:
  * - Cmd+K / Ctrl+K global keyboard shortcut

@@ -15,11 +15,11 @@ tableOfContents: false
 }
 </script>
 
-## Statistics — Diagnostic Tests
+## Statistics, Diagnostic Tests
 
 ## Intuition
 
-**Statistics is like a lens for seeing patterns in data — it separates signal from noise, revealing what data actually tells us:** Statistical inference lets us draw conclusions about entire populations from carefully chosen samples, bridging observation and generalization
+**Statistics is like a lens for seeing patterns in data, it separates signal from noise, revealing what data actually tells us:** Statistical inference lets us draw conclusions about entire populations from carefully chosen samples, bridging observation and generalization
 
 **Why it matters:** From election polling to clinical trials to quality control, statistics is the science of learning from data
 
@@ -57,7 +57,7 @@ Since $Q_3 - Q_2 \gt Q_2 - Q_1$The right tail is longer than the left tail, indi
 skew**.
 
 **(b)** The student"s reasoning is correct in principle: positive skew means the right tail is
-longer. However, the student should note that this is a heuristic — formal skewness is measured by
+longer. However, the student should note that this is a heuristic, formal skewness is measured by
 the moment coefficient $\frac{1}{n}\sum\left(\frac{x_i - \bar{x}}{s}\right)^3$Not just quartile
 differences. The quartile-based test is a quick check, not definitive proof.
 

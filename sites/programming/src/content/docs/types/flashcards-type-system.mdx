@@ -26,11 +26,11 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-**The C++ type system is like a toolbox with specialized tools:** Each type is a specific tool designed for a specific job. An `int` is a hammer — good for general purpose, but not great for precision work. A `float` is a screwdriver — works well for some tasks, but has limitations. `std::string` is a power tool — more complex but handles more cases. The type system ensures you use the right tool for the job, and the compiler catches mismatches at compile time. Value categories (lvalue, prvalue, xvalue) are like different ways you can use a tool: you can borrow it (lvalue reference), copy it (copy construction), or steal it (move construction).
+**The C++ type system is like a toolbox with specialized tools:** Each type is a specific tool designed for a specific job. An `int` is a hammer, good for general purpose, but not great for precision work. A `float` is a screwdriver, works well for some tasks, but has limitations. `std::string` is a power tool, more complex but handles more cases. The type system ensures you use the right tool for the job, and the compiler catches mismatches at compile time. Value categories (lvalue, prvalue, xvalue) are like different ways you can use a tool: you can borrow it (lvalue reference), copy it (copy construction), or steal it (move construction).
 
 **Why it matters:** Understanding the C++ type system is fundamental to writing correct and efficient code. Types determine memory layout, performance characteristics, and what operations are valid. Misunderstanding types leads to subtle bugs: dangling references from incorrect lifetime management, performance issues from unnecessary copies, and undefined behavior from type punning.
 
-**The key insight:** Types are not just labels — they determine memory layout, performance, and what operations are valid. The compiler enforces these constraints at compile time, catching errors before they become runtime bugs.
+**The key insight:** Types are not just labels, they determine memory layout, performance, and what operations are valid. The compiler enforces these constraints at compile time, catching errors before they become runtime bugs.
 
 ## Common Pitfalls
 

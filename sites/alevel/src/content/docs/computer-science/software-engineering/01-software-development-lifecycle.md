@@ -54,10 +54,10 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 | Property             | Value                                |
 | -------------------- | ------------------------------------ |
 | Type                 | Plan-driven                          |
-| Flexibility          | Low — changes are expensive          |
+| Flexibility          | Low, changes are expensive          |
 | Customer involvement | Minimal (mostly at start/end)        |
 | Documentation        | Extensive                            |
-| Risk                 | High — issues found late are costly  |
+| Risk                 | High, issues found late are costly  |
 | Best for             | Well-understood, stable requirements |
 
 ### Advantages
@@ -71,7 +71,7 @@ Analysis → Design → Implementation → Testing → Deployment → Maintenanc
 - No working software until late in the cycle
 - Difficult to accommodate requirement changes
 - Customer sees the product only at the end
-- Testing is a single phase — bugs found late are expensive to fix
+- Testing is a single phase, bugs found late are expensive to fix
 
 <hr />
 
@@ -116,10 +116,10 @@ A specific Agile methodology with defined roles, events, and artefacts.
 | Property             | Value                                      |
 | -------------------- | ------------------------------------------ |
 | Type                 | Change-driven                              |
-| Flexibility          | High — embrace changing requirements       |
+| Flexibility          | High, embrace changing requirements       |
 | Customer involvement | Continuous throughout                      |
-| Documentation        | Minimal — working software is priority     |
-| Risk                 | Low — issues found early                   |
+| Documentation        | Minimal, working software is priority     |
+| Risk                 | Low, issues found early                   |
 | Best for             | Evolving requirements, innovative projects |
 
 <hr />
@@ -148,7 +148,7 @@ Objectives          Development
 
 | Property    | Value                                           |
 | ----------- | ----------------------------------------------- |
-| Risk focus  | High — explicit risk analysis at each iteration |
+| Risk focus  | High, explicit risk analysis at each iteration |
 | Flexibility | Medium                                          |
 | Best for    | Large, complex, high-risk projects              |
 
@@ -284,7 +284,7 @@ Feedback. Which methodology is most appropriate and why?
 **Agile (Scrum).** Justification:
 
 - Requirements are evolving and not fully known upfront
-- Customer feedback drives development — Agile embraces change
+- Customer feedback drives development, Agile embraces change
 - Short sprints allow rapid iteration and frequent releases
 - Working software delivered early allows market validation
 - Low cost of changing direction based on user feedback
@@ -395,7 +395,7 @@ complete. The cost of fixing a bug increases exponentially the later it is found
 - Frequent feedback catches issues early
 - The cost multiplier is 3-5× vs 100× in waterfall
 
-Agile is most efficient at the sprint level — bugs found within the same sprint they were introduced
+Agile is most efficient at the sprint level, bugs found within the same sprint they were introduced
 Are cheapest to fix.
 
 </details>
@@ -417,7 +417,7 @@ Needed to solve the primary problem.
 - User feedback on the MVP informs the product backlog
 - The MVP validates assumptions before investing in full development
 
-Example: A ride-sharing app MVP might have only driver-rider matching and payment — no ratings, no
+Example: A ride-sharing app MVP might have only driver-rider matching and payment, no ratings, no
 Scheduling, no advanced features.
 
 </details>
@@ -603,12 +603,12 @@ Recommend an SDLC methodology and justify your choice.
 
 **Waterfall model.** Justification:
 
-- Requirements are fixed by law and cannot change — waterfall's rigidity is an advantage, not a
+- Requirements are fixed by law and cannot change, waterfall's rigidity is an advantage, not a
   limitation
-- Accuracy is critical — extensive documentation and formal testing phases ensure correctness
-- Large scale (millions of records) — thorough upfront design prevents architectural issues
-- Regulatory audit — waterfall's comprehensive documentation supports compliance requirements
-- Predictable budget and timeline — government projects require fixed-cost contracts
+- Accuracy is critical, extensive documentation and formal testing phases ensure correctness
+- Large scale (millions of records), thorough upfront design prevents architectural issues
+- Regulatory audit, waterfall's comprehensive documentation supports compliance requirements
+- Predictable budget and timeline, government projects require fixed-cost contracts
 
 Agile would be inappropriate because: iterative delivery of a tax system makes no sense (users
 Cannot give feedback on a partially-complete tax calculation), and the cost of errors in tax
@@ -648,7 +648,7 @@ How should this situation be resolved?
 <details>
 <summary>Answer</summary>
 
-This situation is expected in RAD — the whole point is to gather user feedback early and iterate.
+This situation is expected in RAD, the whole point is to gather user feedback early and iterate.
 Resolution steps:
 
 1. **Evaluate the changes:** Determine which changes are essential (affect usability) vs cosmetic
@@ -689,7 +689,7 @@ Manifesto valuing "working software over comprehensive documentation."
 <details>
 <summary>Answer</summary>
 
-The Agile Manifesto says "working software over comprehensive documentation" — it does not say "no
+The Agile Manifesto says "working software over comprehensive documentation", it does not say "no
 Documentation." The word "comprehensive" is key: Agile rejects voluminous documentation that nobody
 Reads, not documentation itself.
 

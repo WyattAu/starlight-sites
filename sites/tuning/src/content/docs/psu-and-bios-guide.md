@@ -37,7 +37,7 @@ High-voltage DC bus to the final output rails).
 
 ### Rectification
 
-After EMI filtering, the AC mains passes through a bridge rectifier — four diodes arranged in a
+After EMI filtering, the AC mains passes through a bridge rectifier, four diodes arranged in a
 Full-wave bridge configuration. This produces a pulsating DC waveform. A bulk capacitor (or
 Capacitor bank) smooths this into a relatively flat high-voltage DC bus, around 340 V for 240 V
 mains or 170 V for 120 V mains (peak voltage, not RMS). The quality and capacitance of these Bulk
@@ -159,7 +159,7 @@ Modern PSUs derive all useful power from the +12 V rail. The +3.3 V and +5 V rai
 Peripherals and are supplied via small DC-DC converters from the +12 V rail.
 
 **Single-rail 12V:** The entire +12 V capacity is available on a single output channel. No
-Peripheral OCP trip point. Simpler for the user — you cannot accidentally trip a rail by connecting
+Peripheral OCP trip point. Simpler for the user, you cannot accidentally trip a rail by connecting
 Too many devices to one cable set. The theoretical risk is that a short circuit could draw the full
 PSU capacity through one wire before SCP triggers, but SCP is faster than the thermal Limit of the
 wire.
@@ -196,7 +196,7 @@ Documented fire hazard. Use native SATA connectors or replace the PSU.
   contact points), but cable management is harder and unused cables clutter the case. Typical of
   budget units and high-end server PSUs.
 - **Fully modular:** All cables are detachable. Cleanest builds, but each connector adds a contact
-  point with potential resistance. Quality matters — cheap modular PSUs have been known to melt
+  point with potential resistance. Quality matters, cheap modular PSUs have been known to melt
   modular connectors under sustained high current.
 - **Semi-modular:** The 24-pin ATX and EPS connectors are fixed (since every build needs them),
   while peripheral cables (PCIe, SATA, Molex) are modular. The pragmatic middle ground.
@@ -260,7 +260,7 @@ These transients quickly enough, the voltage on the 12V rail will sag below the 
 Minimum, triggering UVP or causing GPU crashes.
 
 ATX 3.0/3.1 certified units are tested against standardized transient load profiles. Non-certified
-Units may or may not handle transients well — on the bulk capacitor bank size, DC-DC Converter
+Units may or may not handle transients well, on the bulk capacitor bank size, DC-DC Converter
 bandwidth, and overall topology. Independent PSU reviewers (Cybenetics, Hardware Busters) Now
 include transient load tests.
 
@@ -289,7 +289,7 @@ Margin for:
 - Operating in the PSU's peak efficiency range
 
 For a system with a calculated peak draw of 450 W, a 650 W PSU provides ~44% headroom and places
-Typical loads near the 70% mark — a good operating point.
+Typical loads near the 70% mark, a good operating point.
 
 ### Quality Indicators
 
@@ -485,7 +485,7 @@ Above the threshold are allowed, but sustained over-power triggers shutdown.
 measured at the primary side (hottest components).
 
 OTP protects against fan failure, blocked ventilation, or ambient temperatures beyond the PSU's
-Operating range. Quality PSUs implement OTP with hysteresis — the PSU will not restart until the
+Operating range. Quality PSUs implement OTP with hysteresis, the PSU will not restart until the
 Temperature has dropped below a lower threshold, preventing rapid cycling.
 
 ### SCP (Short Circuit Protection)
@@ -498,7 +498,7 @@ Melt wires, damage connectors, or harm the motherboard. Modern PSUs use dedicate
 That monitor each rail for sudden current surges characteristic of short circuits.
 
 :::caution
-This indicates a genuine fault — either a short circuit in a component, a damaged cable, or a
+This indicates a genuine fault, either a short circuit in a component, a damaged cable, or a
 Failing PSU. Continued operation risks fire and total system destruction.
 :::
 ---
@@ -555,13 +555,13 @@ Motherboard. Typical capacities are 16 MB, 32 MB, or 64 MB. The SPI flash is add
 SPI bus and can be programmed in-system (via BIOS update utility) or externally (using a dedicated
 SPI programmer).
 
-Many enthusiast and workstation motherboards include dual BIOS chips — a primary and a backup. If
+Many enthusiast and workstation motherboards include dual BIOS chips, a primary and a backup. If
 The primary BIOS is corrupted (failed flash, bad update), the backup can restore it. Some boards
 Feature a physical BIOS selector switch; others auto-recover from the backup.
 
 ### CMOS Battery
 
-The CMOS (Complementary Metal-Oxide-Semiconductor) battery — a CR2032 lithium coin cell — Provides
+The CMOS (Complementary Metal-Oxide-Semiconductor) battery, a CR2032 lithium coin cell, Provides
 power to the CMOS SRAM that stores BIOS settings when the system is powered off. This Includes boot
 order, fan curves, overclocking settings, and hardware configuration.
 
@@ -648,7 +648,7 @@ Modern CPUs have multiple clock domains:
 
 - **CPU Core Ratio (All-Core):** Applied uniformly to all cores. Simple but may not account for
   binning differences between cores.
-- **Per-Core Ratio:** Each core can have its own multiplier. This is how Intel Turbo Boost works —
+- **Per-Core Ratio:** Each core can have its own multiplier. This is how Intel Turbo Boost works,
   the best-binned core(s) boost higher than the rest.
 - **Ring/Cache Ratio:** Controls the frequency of the L3 cache and ring bus (Intel) or the L3 cache
   clock (AMD). On Intel, the ring ratio is often the limiting factor in overclocking. Decoupling it
@@ -749,7 +749,7 @@ More CPU subsystems (clocks, core voltage, cache) to reduce power consumption wh
   package. Lowest power but highest wake latency.
 
 :::note
-Frequency transitions that can cause instability during stress tests. For daily use, enable them —
+Frequency transitions that can cause instability during stress tests. For daily use, enable them,
 The power savings are significant (10--40 W at idle on modern CPUs).
 :::
 ### EIST / SpeedStep
@@ -796,7 +796,7 @@ The boost algorithm considers:
 AMD) are pre-configured memory settings stored in the SPD (Serial Presence Detect) EEPROM on the
 Memory module. They define the rated frequency, timings, and voltage for the advertised performance.
 
-XMP and EXPO are functionally identical — they are vendor-specific names for the same concept. Intel
+XMP and EXPO are functionally identical, they are vendor-specific names for the same concept. Intel
 XMP 3.0 adds two user-customizable profiles in addition to the three factory profiles.
 
 When you enable XMP/EXPO in BIOS, the firmware reads the profile from the SPD and applies the
@@ -1294,7 +1294,7 @@ Clearing CMOS.
 :::
 ### No-Post Debugging
 
-A "no-post" condition is when the system powers on but does not complete POST (Power-On Self-Test) —
+A "no-post" condition is when the system powers on but does not complete POST (Power-On Self-Test),
 No display, no beep codes, and the system appears frozen.
 
 Diagnostic steps, in order:
@@ -1368,7 +1368,7 @@ Longevity. The common mistakes are:
 - **LLC too high:** Minimal or negative Vdroop means the CPU receives more voltage under load than
   at idle. On load-to-idle transitions, the voltage overshoots the set value by a margin
   proportional to the LLC aggressiveness. At LLC Level 7 with Vcore set to 1.35 V, the actual
-  voltage during load-to-idle transitions can briefly exceed 1.45 V — dangerously close to or
+  voltage during load-to-idle transitions can briefly exceed 1.45 V, dangerously close to or
   exceeding the safe limit for many CPUs.
 
 - **Recommended approach:** Set LLC to a moderate level (4--5 on a 1--7 scale, or Medium/High on a

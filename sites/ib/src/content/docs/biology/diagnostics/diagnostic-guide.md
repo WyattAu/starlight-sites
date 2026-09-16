@@ -17,7 +17,7 @@ tableOfContents: false
 }
 </script>
 
-## IB Biology — Diagnostic Guide
+## IB Biology, Diagnostic Guide
 
 ## Coverage Map
 

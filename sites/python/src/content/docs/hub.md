@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Python is the most widely used programming language in the world. Its readable syntax, massive ecosystem, and versatility make it the language of choice for data science, web development, automation, education, and scientific computing. But Python's simplicity is deceptive — the language has deep layers of sophistication that separate competent developers from expert ones.
+Python is the most widely used programming language in the world. Its readable syntax, massive ecosystem, and versatility make it the language of choice for data science, web development, automation, education, and scientific computing. But Python's simplicity is deceptive, the language has deep layers of sophistication that separate competent developers from expert ones.
 
 This hub page maps every resource on this site. The learning path takes you from fundamentals through advanced topics, building a thorough understanding of how Python works under the hood and how to write code that is idiomatic, maintainable, and performant.
 
@@ -79,12 +79,12 @@ Python fundamentals cover the syntax, data types, control flow, and functions th
 
 ### Topic Notes
 
-- [Types and Variables](02-fundamentals/01-types-and-variables) — dynamic typing, type hints, mutability, and variable scope
-- [Control Flow](02-fundamentals/02-control-flow) — if/elif/else, for/while loops, comprehensions, and match statements
-- [Functions](02-fundamentals/03-functions) — parameters, return types, decorators, and closures
-- [Generators and Iterators](02-fundamentals/04-generators-and-iterators) — yield, iterator protocol, and lazy evaluation
-- [Python Internals](02-fundamentals/05-python-internals) — the GIL, bytecode compilation, and the CPython runtime
-- [Modules and Packages](02-fundamentals/06-modules-and-packages) — imports, packages, virtual environments, and dependency management
+- [Types and Variables](02-fundamentals/01-types-and-variables), dynamic typing, type hints, mutability, and variable scope
+- [Control Flow](02-fundamentals/02-control-flow), if/elif/else, for/while loops, comprehensions, and match statements
+- [Functions](02-fundamentals/03-functions), parameters, return types, decorators, and closures
+- [Generators and Iterators](02-fundamentals/04-generators-and-iterators), yield, iterator protocol, and lazy evaluation
+- [Python Internals](02-fundamentals/05-python-internals), the GIL, bytecode compilation, and the CPython runtime
+- [Modules and Packages](02-fundamentals/06-modules-and-packages), imports, packages, virtual environments, and dependency management
 
 ### Practice and Review
 
@@ -98,7 +98,7 @@ Python fundamentals cover the syntax, data types, control flow, and functions th
 
 **Generators** are functions that produce values lazily using the `yield` keyword. Instead of computing all values at once and storing them in memory, generators compute one value at a time as requested. This makes them ideal for processing large data sets, streaming data, and implementing pipelines.
 
-**Decorators** are functions that modify other functions. They are commonly used for logging, authentication, caching, and timing. Understanding decorators requires understanding closures — functions that capture variables from their enclosing scope.
+**Decorators** are functions that modify other functions. They are commonly used for logging, authentication, caching, and timing. Understanding decorators requires understanding closures, functions that capture variables from their enclosing scope.
 
 ---
 
@@ -108,8 +108,8 @@ Python's standard library provides powerful built-in data structures. Understand
 
 ### Topic Notes
 
-- [Collections](03-data-structures/01-collections) — lists, tuples, deques, and named tuples
-- [Dictionaries, Sets, and Counter](03-data-structures/02-dicts-sets-counter) — hash tables, set operations, and counting patterns
+- [Collections](03-data-structures/01-collections), lists, tuples, deques, and named tuples
+- [Dictionaries, Sets, and Counter](03-data-structures/02-dicts-sets-counter), hash tables, set operations, and counting patterns
 
 ### Practice and Review
 
@@ -129,17 +129,17 @@ Python's standard library provides powerful built-in data structures. Understand
 
 ## Object-Oriented Programming
 
-Python supports object-oriented programming through classes, inheritance, and protocols. Python's OOP model differs from statically typed languages — it emphasises duck typing, protocols, and composition over deep inheritance hierarchies.
+Python supports object-oriented programming through classes, inheritance, and protocols. Python's OOP model differs from statically typed languages, it emphasises duck typing, protocols, and composition over deep inheritance hierarchies.
 
 ### Topic Notes
 
-- [Classes](04-object-oriented/01-classes) — class definition, **init**, **str**, **repr**, and special methods
-- [Metaclasses](04-object-oriented/02-metaclasses) — type, class creation, and custom metaclasses
-- [Descriptors](04-object-oriented/03-descriptors) — **get**, **set**, **delete**, and how attributes work under the hood
+- [Classes](04-object-oriented/01-classes), class definition, **init**, **str**, **repr**, and special methods
+- [Metaclasses](04-object-oriented/02-metaclasses), type, class creation, and custom metaclasses
+- [Descriptors](04-object-oriented/03-descriptors), **get**, **set**, **delete**, and how attributes work under the hood
 
 ### Key Concepts
 
-**Duck typing** means "if it walks like a duck and quacks like a duck, it is a duck." Python does not check types — it checks whether an object has the methods and attributes you use. This makes Python extremely flexible but requires clear documentation and testing.
+**Duck typing** means "if it walks like a duck and quacks like a duck, it is a duck." Python does not check types, it checks whether an object has the methods and attributes you use. This makes Python extremely flexible but requires clear documentation and testing.
 
 **Special methods** (also called dunder methods) define how objects behave with Python's built-in operations. `__len__` defines the result of `len()`, `__getitem__` defines indexing with `[]`, and `__eq__` defines equality with `==`. Implementing these methods makes your classes integrate naturally with Python's syntax.
 
@@ -149,23 +149,23 @@ Python supports object-oriented programming through classes, inheritance, and pr
 
 ## Standard Library
 
-Python's standard library is one of its greatest strengths. It provides modules for file I/O, networking, concurrency, data serialisation, command-line tools, and more — all without installing third-party packages.
+Python's standard library is one of its greatest strengths. It provides modules for file I/O, networking, concurrency, data serialisation, command-line tools, and more, all without installing third-party packages.
 
 ### Topic Notes
 
-- [Essential Modules](05-standard-library/01-essential-modules) — os, sys, pathlib, collections, itertools, functools
-- [File I/O](05-standard-library/02-file-io) — open, io, csv, json, and file system operations
-- [CLI Tools](05-standard-library/03-cli-tools) — argparse, sys.argv, and command-line interfaces
-- [Serialisation](05-standard-library/04-serialization) — json, pickle, csv, and data exchange formats
-- [Concurrency Primitives](05-standard-library/05-concurrency-primitives) — threading, multiprocessing, subprocess, and queue
+- [Essential Modules](05-standard-library/01-essential-modules), os, sys, pathlib, collections, itertools, functools
+- [File I/O](05-standard-library/02-file-io), open, io, csv, json, and file system operations
+- [CLI Tools](05-standard-library/03-cli-tools), argparse, sys.argv, and command-line interfaces
+- [Serialisation](05-standard-library/04-serialization), json, pickle, csv, and data exchange formats
+- [Concurrency Primitives](05-standard-library/05-concurrency-primitives), threading, multiprocessing, subprocess, and queue
 
 ### Key Concepts
 
 **`pathlib`** provides an object-oriented interface to the file system. Instead of manipulating strings with `os.path.join`, you use `Path` objects with `/` operators: `path / "subdir" / "file.txt"`. It is more readable and less error-prone.
 
-**`itertools`** provides iterator building blocks — `chain`, `groupby`, `product`, `combinations`, `permutations`, and more. These functions enable elegant, memory-efficient data processing pipelines.
+**`itertools`** provides iterator building blocks, `chain`, `groupby`, `product`, `combinations`, `permutations`, and more. These functions enable elegant, memory-efficient data processing pipelines.
 
-**`functools`** provides higher-order functions — `lru_cache` for memoization, `partial` for partial function application, `reduce` for cumulative operations, and `total_ordering` for generating comparison methods.
+**`functools`** provides higher-order functions, `lru_cache` for memoization, `partial` for partial function application, `reduce` for cumulative operations, and `total_ordering` for generating comparison methods.
 
 ---
 
@@ -175,28 +175,28 @@ Python's async/await syntax enables cooperative multitasking for I/O-bound workl
 
 ### Topic Notes
 
-- [Async/Await](06-async/01-async-await) — coroutines, event loops, asyncio, and async patterns
+- [Async/Await](06-async/01-async-await), coroutines, event loops, asyncio, and async patterns
 
 ### Key Concepts
 
-**Coroutines** are functions defined with `async def` that can suspend execution and resume later. Unlike threads, coroutines are cooperative — they only suspend at explicit `await` points, which eliminates data races without locks.
+**Coroutines** are functions defined with `async def` that can suspend execution and resume later. Unlike threads, coroutines are cooperative, they only suspend at explicit `await` points, which eliminates data races without locks.
 
 **The event loop** schedules coroutines and drives I/O operations. When a coroutine awaits an I/O operation, the event loop runs other coroutines while waiting. This enables high concurrency with low overhead.
 
-**When to use async**: use async for I/O-bound workloads — web servers, database queries, API calls, file downloads. Do not use async for CPU-bound work — use `multiprocessing` instead. The GIL prevents threads from running Python code in parallel, but coroutines release the GIL during I/O.
+**When to use async**: use async for I/O-bound workloads, web servers, database queries, API calls, file downloads. Do not use async for CPU-bound work, use `multiprocessing` instead. The GIL prevents threads from running Python code in parallel, but coroutines release the GIL during I/O.
 
 ---
 
 ## Best Practices
 
-Writing correct Python code is not enough — you must write code that is readable, maintainable, and follows community conventions. These practices separate professional Python developers from hobbyists.
+Writing correct Python code is not enough, you must write code that is readable, maintainable, and follows community conventions. These practices separate professional Python developers from hobbyists.
 
 ### Topic Notes
 
-- [Style and Idioms](07-best-practices/01-style-and-idioms) — PEP 8, Pythonic patterns, and idiomatic code
-- [Debugging and Profiling](07-best-practices/02-debugging-and-profiling) — pdb, logging, cProfile, and performance analysis
-- [Error Handling Patterns](07-best-practices/03-error-handling-patterns) — exceptions, custom errors, and graceful degradation
-- [Packaging and Distribution](07-best-practices/04-packaging-distribution) — pyproject.toml, setuptools, and publishing packages
+- [Style and Idioms](07-best-practices/01-style-and-idioms), PEP 8, Pythonic patterns, and idiomatic code
+- [Debugging and Profiling](07-best-practices/02-debugging-and-profiling), pdb, logging, cProfile, and performance analysis
+- [Error Handling Patterns](07-best-practices/03-error-handling-patterns), exceptions, custom errors, and graceful degradation
+- [Packaging and Distribution](07-best-practices/04-packaging-distribution), pyproject.toml, setuptools, and publishing packages
 
 ### Key Concepts
 
@@ -210,14 +210,14 @@ Writing correct Python code is not enough — you must write code that is readab
 
 ## Advanced Topics
 
-These topics cover Python's deeper layers — type systems, data validation, context managers, and protocol-based design. They are essential for building robust, production-quality Python applications.
+These topics cover Python's deeper layers, type systems, data validation, context managers, and protocol-based design. They are essential for building robust, production-quality Python applications.
 
 ### Topic Notes
 
-- [Advanced Typing](08-advanced-topics/01-advanced-typing) — generics, protocols, TypeVar, and runtime type checking
-- [Data Validation](08-advanced-topics/02-data-validation) — Pydantic, dataclasses, and schema validation
-- [Context Managers](08-advanced-topics/03-context-managers) — with statement, **enter**/**exit**, and contextlib
-- [Protocols and Dunder Methods](08-advanced-topics/04-protocols-dunder-methods) — structural subtyping and Python's data model
+- [Advanced Typing](08-advanced-topics/01-advanced-typing), generics, protocols, TypeVar, and runtime type checking
+- [Data Validation](08-advanced-topics/02-data-validation), Pydantic, dataclasses, and schema validation
+- [Context Managers](08-advanced-topics/03-context-managers), with statement, **enter**/**exit**, and contextlib
+- [Protocols and Dunder Methods](08-advanced-topics/04-protocols-dunder-methods), structural subtyping and Python's data model
 
 ### Key Concepts
 
@@ -225,7 +225,7 @@ These topics cover Python's deeper layers — type systems, data validation, con
 
 **Pydantic** provides data validation using Python type hints. Define a model with types, and Pydantic validates and coerces input data at runtime. It is the standard for data validation in FastAPI, SQLModel, and many other frameworks.
 
-**Protocols** (PEP 544) enable structural subtyping — a class satisfies a protocol if it has the right methods, regardless of whether it explicitly inherits from the protocol. This is more flexible than nominal subtyping and aligns with Python's duck-typing philosophy.
+**Protocols** (PEP 544) enable structural subtyping, a class satisfies a protocol if it has the right methods, regardless of whether it explicitly inherits from the protocol. This is more flexible than nominal subtyping and aligns with Python's duck-typing philosophy.
 
 ---
 
@@ -241,7 +241,7 @@ Python is broad. Follow this progression to build competence systematically.
 
 ### Stage 2: Intermediate (Weeks 4–6)
 
-- Study object-oriented programming — classes, inheritance, and special methods
+- Study object-oriented programming, classes, inheritance, and special methods
 - Learn generators, decorators, and closures
 - Use the standard library for file I/O, serialisation, and CLI tools
 
@@ -263,11 +263,11 @@ Python is broad. Follow this progression to build competence systematically.
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[C++ Programming Guide](https://cpp.wyattau.com/hub)** — if you are comparing Python with a lower-level language
-- **[Programming Language Guide](https://languages.wyattau.com/hub)** — how Python compares to other languages
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Python
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — if your Python applications interact with databases
-- **[Networking Guide](https://networking.wyattau.com/hub)** — if you are building networked Python applications
+- **[C++ Programming Guide](https://cpp.wyattau.com/hub)**, if you are comparing Python with a lower-level language
+- **[Programming Language Guide](https://languages.wyattau.com/hub)**, how Python compares to other languages
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Python
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, if your Python applications interact with databases
+- **[Networking Guide](https://networking.wyattau.com/hub)**, if you are building networked Python applications
 
 ---
 
@@ -275,11 +275,11 @@ Wyatt's Notes is a network of interconnected programming and study sites:
 
 ### How should I start learning Python?
 
-Start with the fundamentals — types, control flow, and functions. Write small programs that do something useful: a calculator, a file processor, a simple web scraper. The best way to learn Python is to write Python.
+Start with the fundamentals, types, control flow, and functions. Write small programs that do something useful: a calculator, a file processor, a simple web scraper. The best way to learn Python is to write Python.
 
 ### Is Python slow? Should I worry about performance?
 
-Python is slower than compiled languages like C++ and Rust, but performance rarely matters for most applications. Profile before optimising — most Python programs are I/O-bound, not CPU-bound. When performance matters, use NumPy, Cython, or write performance-critical sections in C.
+Python is slower than compiled languages like C++ and Rust, but performance rarely matters for most applications. Profile before optimising, most Python programs are I/O-bound, not CPU-bound. When performance matters, use NumPy, Cython, or write performance-critical sections in C.
 
 ### What is the GIL and does it matter?
 
@@ -295,7 +295,7 @@ For web development, learn FastAPI (modern, async, type-hinted) or Django (batte
 
 ### How do I manage dependencies?
 
-Use a virtual environment for each project. Tools like `poetry`, `uv`, or `pip-tools` manage dependencies and lock versions. Never install packages globally — it leads to dependency conflicts.
+Use a virtual environment for each project. Tools like `poetry`, `uv`, or `pip-tools` manage dependencies and lock versions. Never install packages globally, it leads to dependency conflicts.
 
 ---
 

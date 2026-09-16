@@ -150,7 +150,7 @@ Pin: release *
 Pin-Priority: -1
 ```
 
-### dpkg — Low-Level Package Manager
+### dpkg, Low-Level Package Manager
 
 ```bash
 # Install a .deb file
@@ -253,7 +253,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
 
-### rpm — Low-Level Package Manager
+### rpm, Low-Level Package Manager
 
 ```bash
 # Install an RPM
@@ -362,9 +362,9 @@ pacman -Qdt               # list orphaned packages
 pacman -Rns $(pacman -Qdtq)
 ```
 
-### AUR — Arch User Repository
+### AUR, Arch User Repository
 
-The AUR is a community-maintained repository of PKGBUILD scripts. It is not a binary repository —
+The AUR is a community-maintained repository of PKGBUILD scripts. It is not a binary repository,
 Packages are built from source on the local machine.
 
 ```bash
@@ -383,7 +383,7 @@ makepkg -si               # build and install
 Especially packages that modify system files or run install hooks. Use a helper that supports
 PKGBUILD inspection.
 
-## Nix — Functional Package Management
+## Nix, Functional Package Management
 
 Nix is a fundamentally different approach to package management. Instead of a global package
 Database, Nix stores each package version in a unique path in the Nix store (`/nix/store/`),
@@ -407,7 +407,7 @@ graph TD
 | Concept        | Description                                                  |
 | -------------- | ------------------------------------------------------------ |
 | **Derivation** | A build recipe (input sources, build commands, dependencies) |
-| **Store Path** | `/nix/store/hash-name/` — content-addressable storage        |
+| **Store Path** | `/nix/store/hash-name/`content-addressable storage        |
 | **Profile**    | A set of packages linked together in a user environment      |
 | **Channel**    | A named set of Nix expressions (like a repository)           |
 | **Shell**      | An isolated environment with specific packages               |
@@ -539,7 +539,7 @@ apt install snapd
 # Install a snap
 snap install firefox
 
-# Classic confinement (full system access — less secure)
+# Classic confinement (full system access, less secure)
 snap install code --classic
 
 # List installed
@@ -571,7 +571,7 @@ snap info firefox
 
 ### How Dependency Resolution Works
 
-Package managers must solve a **dependency graph** — finding a set of package versions that satisfy
+Package managers must solve a **dependency graph**, finding a set of package versions that satisfy
 All dependency constraints simultaneously. This is a SAT problem (Boolean satisfiability), which is
 NP-complete in the worst case.
 
@@ -740,10 +740,10 @@ Installing or upgrading packages without first updating the package index can le
 Outdated packages or missing security updates:
 
 ```bash
-# WRONG — may install stale cached packages
+# WRONG, may install stale cached packages
 apt upgrade
 
-# CORRECT — always update first
+# CORRECT, always update first
 apt update && apt upgrade
 ```
 
@@ -753,10 +753,10 @@ apt update && apt upgrade
 Package is in a "half-configured" state:
 
 ```bash
-# WRONG — dpkg does not resolve dependencies
+# WRONG, dpkg does not resolve dependencies
 dpkg -i package.deb
 
-# CORRECT — use apt to resolve and install
+# CORRECT, use apt to resolve and install
 apt install ./package.deb
 
 # Or fix after dpkg:
@@ -785,10 +785,10 @@ Pacman does not support partial upgrades. If you update only some packages, you 
 Incompatible library versions:
 
 ```bash
-# WRONG — partial upgrade
+# WRONG, partial upgrade
 pacman -S nginx
 
-# CORRECT — always do full system update
+# CORRECT, always do full system update
 pacman -Syu
 ```
 
@@ -804,7 +804,7 @@ du -sh /nix/store
 # Garbage collect unreachable paths
 nix store gc
 
-# Aggressive GC — delete all old generations
+# Aggressive GC, delete all old generations
 nix-collect-garbage -d
 
 # Optimize store (deduplicate identical files)

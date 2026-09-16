@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes GCSE resources — experience, expertise, and credentials behind UK GCSE qualification study materials."
+description: "About Wyatt's Notes GCSE resources, experience, expertise, and credentials behind UK GCSE qualification study materials."
 tags:
   - about
   - gcse
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — GCSE
+## About Wyatt's Notes, GCSE
 
 Wyatt's Notes offers comprehensive study materials for the UK General Certificate of Secondary Education (GCSE). GCSEs are the standardised qualifications taken by students in England, Wales, and Northern Ireland at age 16, forming the foundation for further study and career pathways.
 
@@ -32,9 +32,9 @@ Wyatt develops resources across multiple qualification frameworks, enabling a co
 
 ## Related Sites
 
-- **[A-Level](https://alevel.wyattau.com)** — UK A-Level qualification materials
-- **[DSE](https://dse.wyattau.com)** — Hong Kong DSE exam preparation
-- **[IB](https://ib.wyattau.com)** — International Baccalaureate programme resources
+- **[A-Level](https://alevel.wyattau.com)**, UK A-Level qualification materials
+- **[DSE](https://dse.wyattau.com)**, Hong Kong DSE exam preparation
+- **[IB](https://ib.wyattau.com)**, International Baccalaureate programme resources
 
 ## Explore the Site
 
@@ -56,17 +56,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -82,10 +82,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 

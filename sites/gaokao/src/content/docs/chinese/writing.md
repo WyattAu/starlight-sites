@@ -118,7 +118,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
 **解答：**
 
 ```
-一、开头：引出话题——科技深刻改变了我们的生活
+一、开头：引出话题, 科技深刻改变了我们的生活
 
 二、本论：
   （一）科技便利了日常生活
@@ -154,7 +154,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
 
 **答案：** 见示范结尾
 
-### 例题5：材料作文审题——多角度立意
+### 例题5：材料作文审题, 多角度立意
 
 **题目：** 阅读下面的材料，根据要求写作。
 
@@ -198,7 +198,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
   （三）事件高潮：接过母亲手中的热牛奶，泪水夺眶而出
 
 三、结尾：
-  升华主题——长大不是年龄的增长，而是懂得感恩和承担责任
+  升华主题, 长大不是年龄的增长，而是懂得感恩和承担责任
 ```
 
 **答案：** 见写作提纲
@@ -221,7 +221,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
 
 ## 更多典型例题
 
-### 例题7：材料作文审题——寓意类
+### 例题7：材料作文审题, 寓意类
 
 **题目：** 阅读下面的材料，根据要求写作。
 
@@ -231,13 +231,13 @@ description: "Study notes for Writing with worked examples, practice problems, a
 
 **解答：**
 
-步骤1：分析材料核心——竹子前四年看似没有成长，实际上在扎根；第五年快速生长，是前四年积累的结果。
+步骤1：分析材料核心, 竹子前四年看似没有成长，实际上在扎根；第五年快速生长，是前四年积累的结果。
 
 步骤2：多角度立意：
 
-- 立意一：厚积薄发——成功需要长期的积累和沉淀
-- 立意二：不要急于求成——成长需要过程，不能急功近利
-- 立意三：扎根与成长——根基扎实才能走得更远
+- 立意一：厚积薄发, 成功需要长期的积累和沉淀
+- 立意二：不要急于求成, 成长需要过程，不能急功近利
+- 立意三：扎根与成长, 根基扎实才能走得更远
 
 步骤3：选择最佳立意：厚积薄发。
 
@@ -259,7 +259,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
 
 **考试技巧：** 议论文段落的基本结构：论点→论据（事例或道理）→分析→结论。注意论据要典型，分析要深入，不能只罗列事例。
 
-### 例题9：记叙文——细节描写
+### 例题9：记叙文, 细节描写
 
 **题目：** 以"温暖"为题，写一个细节描写的片段（200字左右）。
 
@@ -271,7 +271,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
 
 **考试技巧：** 细节描写要调动多种感官（视觉、听觉、触觉、嗅觉），通过具体的动作、语言、神态来表现人物情感，避免空洞的抒情。
 
-### 例题10：材料作文审题——寓意类
+### 例题10：材料作文审题, 寓意类
 
 **题目：** 阅读下面的材料，根据要求写作。
 
@@ -327,7 +327,7 @@ description: "Study notes for Writing with worked examples, practice problems, a
   （三）事件高潮：接过母亲手中的热牛奶，泪水夺眶而出
 
 三、结尾：
-  升华主题——长大不是年龄的增长，而是懂得感恩和承担责任
+  升华主题, 长大不是年龄的增长，而是懂得感恩和承担责任
 ```
 
 **答案：** 见写作提纲

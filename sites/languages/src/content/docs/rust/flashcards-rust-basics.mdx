@@ -36,13 +36,13 @@ unsafe. Press Space to flip, rate 1-4.
 
 ## Intuition
 
-Rust achieves memory safety without a garbage collector through its ownership system: every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use a value without taking ownership — immutable borrows (`&T`) allow simultaneous read access, while mutable borrows (`&mut T`) grant exclusive write access. The compiler enforces these rules at compile time, catching data races, dangling pointers, and use-after-free before the code ever runs. Zero-cost abstractions mean you pay no runtime penalty for using high-level features.
+Rust achieves memory safety without a garbage collector through its ownership system: every value has exactly one owner, and when that owner goes out of scope, the value is dropped. Borrowing lets you use a value without taking ownership, immutable borrows (`&T`) allow simultaneous read access, while mutable borrows (`&mut T`) grant exclusive write access. The compiler enforces these rules at compile time, catching data races, dangling pointers, and use-after-free before the code ever runs. Zero-cost abstractions mean you pay no runtime penalty for using high-level features.
 
 ## Common Pitfalls
 
-- **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope — the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
-- **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue — understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
-- **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime — handle errors with `?`, `match`, or `if let` instead.
+- **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope, the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
+- **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue, understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
+- **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime, handle errors with `?`, `match`, or `if let` instead.
 - **Confusing `move` closures**: Closures capture variables by reference by default; `move` transfers ownership into the closure. Forgetting `move` can cause lifetime errors.
 - **String vs &str**: `String` is owned and heap-allocated; `&str` is a borrowed string slice. Use `String` for owned data, `&str` for references.
 

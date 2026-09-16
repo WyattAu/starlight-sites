@@ -191,7 +191,7 @@ pub struct Data {
 ### Feature Unification
 
 When two crates in the same dependency graph enable different features of a shared dependency, Cargo
-Unifies them — all enabled features are active for all dependents. This can cause unexpected
+Unifies them, all enabled features are active for all dependents. This can cause unexpected
 Behavior:
 
 ```toml
@@ -269,8 +269,8 @@ LTO performs optimizations across crate boundaries. It increases compile time si
 Reduce binary size by 10-20% and improve runtime performance by 5-10%.
 
 - `lto = false`: No LTO (default for dev)
-- `lto = "thin"`: Thin LTO — faster than full LTO, most of the benefit
-- `lto = true` (or `lto = "fat"`): Full LTO — best optimization, slowest compile
+- `lto = "thin"`: Thin LTO, faster than full LTO, most of the benefit
+- `lto = true` (or `lto = "fat"`): Full LTO, best optimization, slowest compile
 
 For release builds in production, `lto = "thin"` is a good default. Use `lto = true` for maximum
 Performance-critical builds.
@@ -690,7 +690,7 @@ Is captured).
 
 ## Key Crates
 
-### `serde` — Serialization Framework
+### `serde`Serialization Framework
 
 ```toml
 [dependencies]
@@ -725,7 +725,7 @@ Serde is the de facto serialization framework. It supports JSON, YAML, TOML, Mes
 BSON, XML, and custom formats. The `#[serde]` attribute provides fine-grained control over field
 Names, defaults, serialization behavior, and conditional compilation.
 
-### `tokio` — Async Runtime
+### `tokio`Async Runtime
 
 ```toml
 [dependencies]
@@ -742,7 +742,7 @@ Key features to enable:
 - `time`: Timers and delays
 - `sync`: Async mutex, channels, watch, notify
 
-### `clap` — CLI Argument Parsing
+### `clap`CLI Argument Parsing
 
 ```toml
 [dependencies]
@@ -779,7 +779,7 @@ fn main() {
 }
 ```
 
-### `rayon` — Data Parallelism
+### `rayon`Data Parallelism
 
 ```toml
 [dependencies]
@@ -805,7 +805,7 @@ data.par_sort();
 Rayon converts sequential iterators to parallel iterators by changing `.iter()` to `.par_iter()`.
 The work-stealing scheduler automatically balances load across threads.
 
-### `itertools` — Extra Iterator Adapters
+### `itertools`Extra Iterator Adapters
 
 ```toml
 [dependencies]
@@ -836,7 +836,7 @@ let joined = vec!["a", "b", "c"].into_iter().intersperse(", ").collect::<String>
 let groups = vec![1, 1, 2, 3, 3, 3].into_iter().group_by(|&k| k);
 ```
 
-### `tracing` — Structured Diagnostics
+### `tracing`Structured Diagnostics
 
 ```toml
 [dependencies]
@@ -860,7 +860,7 @@ fn main() {
 }
 ```
 
-### `axum` / `actix-web` — Web Frameworks
+### `axum` / `actix-web`Web Frameworks
 
 ```toml
 [dependencies]
@@ -896,15 +896,15 @@ Before adding a dependency, evaluate it:
 
 | Criterion                 | How to Check                                                |
 | ------------------------- | ----------------------------------------------------------- |
-| **Downloads**             | crates.io page — monthly downloads                          |
-| **Last update**           | crates.io — last publish date                               |
-| **Maintenance**           | GitHub — open issues, PRs, commit frequency                 |
-| **Dependencies**          | `cargo tree -p crate-name` — dependency count               |
-| **Binary size impact**    | `cargo bloat --release` — size contribution                 |
-| **Build time**            | `cargo build --timings` — incremental and clean build times |
-| **License compatibility** | crates.io — license field                                   |
+| **Downloads**             | crates.io page, monthly downloads                          |
+| **Last update**           | crates.io, last publish date                               |
+| **Maintenance**           | GitHub, open issues, PRs, commit frequency                 |
+| **Dependencies**          | `cargo tree -p crate-name`dependency count               |
+| **Binary size impact**    | `cargo bloat --release`size contribution                 |
+| **Build time**            | `cargo build --timings`incremental and clean build times |
+| **License compatibility** | crates.io, license field                                   |
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
-| **Audit**                 | `cargo audit` — known CVEs                                  |
+| **Audit**                 | `cargo audit`known CVEs                                  |
 :::
 :::caution
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with

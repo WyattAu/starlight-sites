@@ -54,7 +54,7 @@ Annotations (your code)
   Builders (packages like freezed, json_serializable)
         |
         v
-  Generated files (.g.dart, .freezed.dart, .gr.dart)
+  Generated files (.g.dart.freezed.dart.gr.dart)
 ```
 
 ---
@@ -76,13 +76,13 @@ Consume source code and emit generated files.
 ### Core Commands
 
 ```bash
-# One-time build — generates all files
+# One-time build, generates all files
 dart run build_runner build
 
 # Build with conflict resolution (overwrites existing generated files)
 dart run build_runner build --delete-conflicting-outputs
 
-# Watch mode — regenerates on file changes during development
+# Watch mode, regenerates on file changes during development
 dart run build_runner watch
 
 # Watch mode with conflict resolution
@@ -220,10 +220,10 @@ class User with _$User {
 
 After running `dart run build_runner build`Freezed generates:
 
-- `_$User` — the private implementation class
-- `copyWith()` — returns a new instance with selected fields changed
-- `==` and `hashCode` — deep equality based on all fields
-- `toString()` — includes all field values
+- `_$User`the private implementation class
+- `copyWith()`returns a new instance with selected fields changed
+- `==` and `hashCode`deep equality based on all fields
+- `toString()`includes all field values
 
 ### Using Generated Methods
 
@@ -235,7 +235,7 @@ void main() {
   final updated = user.copyWith(name: "Alice Smith'', isActive: true);
   print(updated); // User(id: 1, name: Alice Smith, email: alice@example.com, isActive: true)
 
-  // Equality — compares all fields
+  // Equality, compares all fields
   const same = User(id: 1, name: "Alice', email: "alice@example.com'');
   print(user == same); // true
 
@@ -249,7 +249,7 @@ void main() {
 
 ### Union Types
 
-`freezed` excels at modeling sealed class hierarchies — union types where a value can be one of
+`freezed` excels at modeling sealed class hierarchies, union types where a value can be one of
 Several variants:
 
 ```dart
@@ -276,7 +276,7 @@ void handleResult(NetworkResult<User> result) {
     loading: () => print('Loading...'),
   );
 
-  // Pattern matching with maybeWhen (partial — must handle null case)
+  // Pattern matching with maybeWhen (partial, must handle null case)
   result.maybeWhen(
     success: (user) => print('Got user: ${user.name}'),
     orElse: () => print('Not a success'),
@@ -286,7 +286,7 @@ void handleResult(NetworkResult<User> result) {
   switch (result) {
     case Success(:final data):
       print('User: ${data.name}');
-    case Failure(:final error, :final statusCode):
+    case Failure(:final error:final statusCode):
       print('Error $statusCode: $error');
     case Loading():
       print('Loading...');
@@ -614,7 +614,7 @@ class UserProfile {
 ```dart
 @JsonSerializable()
 class StrictModel {
-  // Required — fromJson throws if key is missing
+  // Required, fromJson throws if key is missing
   @JsonKey(required: true)
   final String mandatoryField;
 
@@ -626,7 +626,7 @@ class StrictModel {
   @JsonKey(defaultValue: "unknown'')
   final String optionalField;
 
-  // Nullable — can be absent or null
+  // Nullable, can be absent or null
   final String? nullableField;
 
   StrictModel({
@@ -769,7 +769,7 @@ targets:
           # Allow generic JSON (Map<String, dynamic> without specific types)
           any_map: false
 
-          # Enable checked mode — throws on missing keys
+          # Enable checked mode, throws on missing keys
           checked: true
 ```
 
@@ -858,12 +858,12 @@ The `--delete-conflicting-outputs` flag is critical when:
 ### Watching for Changes During Development
 
 ```bash
-# Start watch mode — auto-regenerates on save
+# Start watch mode, auto-regenerates on save
 dart run build_runner watch --delete-conflicting-outputs
 ```
 
 Watch mode monitors all files in the project and triggers regeneration when annotated source files
-Change. This is useful during active model development but consumes resources — consider stopping it
+Change. This is useful during active model development but consumes resources, consider stopping it
 When working on unrelated files.
 
 ### Cleaning Stale Generated Files
@@ -1076,14 +1076,14 @@ git diff --exit-code
 Forgetting to add `part` directives or using wrong file paths causes compilation errors:
 
 ```dart
-// WRONG — missing part directives
+// WRONG, missing part directives
 @freezed
 class User with _$User {
   const factory User({required String name}) = _User;
   // Error: The part directive is missing
 }
 
-// WRONG — wrong file path
+// WRONG, wrong file path
 part 'models/user.freezed.dart'; // File is in the same directory
 
 // CORRECT
@@ -1097,7 +1097,7 @@ The `@JsonSerializable` integration step or missing the `.g.dart` part directive
 Generation:
 
 ```dart
-// WRONG — only freezed part, no json_serializable part
+// WRONG, only freezed part, no json_serializable part
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'user.freezed.dart';
@@ -1109,7 +1109,7 @@ class User with _$User {
   // Error: _$UserFromJson not found
 }
 
-// CORRECT — both parts declared
+// CORRECT, both parts declared
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'user.freezed.dart';

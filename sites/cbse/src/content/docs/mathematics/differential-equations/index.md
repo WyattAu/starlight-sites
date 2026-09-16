@@ -58,7 +58,7 @@ Differential equations relate a function to its derivatives. This topic covers c
 - Linear first-order: $\frac{dy}{dx} + Py = Q$ where $P$ and $Q$ are functions of $x$
 - Integrating factor: $\mu = e^{\int P \, dx}$ for linear equations
 
-## Worked Example 1 — Separation of Variables
+## Worked Example 1, Separation of Variables
 
 **Problem:** Solve $\frac{dy}{dx} = \frac{x}{y}$ given $y(0) = 4$.
 
@@ -78,7 +78,7 @@ $$\frac{y^2}{2} = \frac{x^2}{2} + 8 \implies y^2 = x^2 + 16$$
 
 **Common mistake:** Forgetting to apply the initial condition to find $C$. The general solution is not the final answer.
 
-## Worked Example 2 — Homogeneous Differential Equation
+## Worked Example 2, Homogeneous Differential Equation
 
 **Problem:** Solve $\frac{dy}{dx} = \frac{x + y}{x}$.
 
@@ -105,7 +105,7 @@ $$y = x\ln|x| + Cx$$
 
 **Common mistake:** Not recognizing that the equation is homogeneous. If $\frac{dy}{dx} = F\left(\frac{y}{x}\right)$, the substitution $v = y/x$ always works.
 
-## Worked Example 3 — Linear Differential Equation
+## Worked Example 3, Linear Differential Equation
 
 **Problem:** Solve $\frac{dy}{dx} + \frac{y}{x} = x^2$.
 
@@ -130,10 +130,10 @@ $$y = \frac{x^3}{4} + \frac{C}{x}$$
 
 ## Cross-References
 
-- **[Integrals](../integrals/index):** Solving differential equations requires integration — the antiderivative is the tool that reverses differentiation.
+- **[Integrals](../integrals/index):** Solving differential equations requires integration, the antiderivative is the tool that reverses differentiation.
 - **[Derivatives](../derivatives/index):** Differentiation rules underpin how you verify solutions by substituting back into the original equation.
 - **[Probability](../probability/index):** Probability distributions and expected values involve differential equations in their continuous forms.
-- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Rate laws in chemistry are differential equations — the connection between math and real chemical systems.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Rate laws in chemistry are differential equations, the connection between math and real chemical systems.
 
 ## Practice Problems
 
@@ -147,11 +147,11 @@ Differential equations model nearly every physical phenomenon: population growth
 
 ## Intuition
 
-**Equations that describe change itself:** Differential equations are like recipes that describe how things evolve — they tell you the rate of change at every point, and you figure out the actual behavior by "integrating" those rates. Think of it as being told the speed of a car at every moment (that's the differential equation) and having to reconstruct the entire journey (that's the solution). Separation of variables is the simplest case: if the x-parts and y-parts can be separated onto opposite sides of the equation, you can integrate each side independently.
+**Equations that describe change itself:** Differential equations are like recipes that describe how things evolve, they tell you the rate of change at every point, and you figure out the actual behavior by "integrating" those rates. Think of it as being told the speed of a car at every moment (that's the differential equation) and having to reconstruct the entire journey (that's the solution). Separation of variables is the simplest case: if the x-parts and y-parts can be separated onto opposite sides of the equation, you can integrate each side independently.
 
-**Why it matters:** Differential equations model virtually every dynamic system in the universe — population growth, radioactive decay, heat flow, vibrations of bridges, flight paths of rockets, and the spread of diseases. They are the mathematical language of physics, engineering, biology, and economics. Without them, we couldn't design buildings, predict weather, or understand how medications circulate in your body.
+**Why it matters:** Differential equations model virtually every dynamic system in the universe, population growth, radioactive decay, heat flow, vibrations of bridges, flight paths of rockets, and the spread of diseases. They are the mathematical language of physics, engineering, biology, and economics. Without them, we couldn't design buildings, predict weather, or understand how medications circulate in your body.
 
-**The key insight:** The order of a differential equation tells you how many constants of integration you need — each derivative you "undo" introduces one arbitrary constant, which physical conditions (initial values) pin down.
+**The key insight:** The order of a differential equation tells you how many constants of integration you need, each derivative you "undo" introduces one arbitrary constant, which physical conditions (initial values) pin down.
 
 ## Common Exam Patterns
 

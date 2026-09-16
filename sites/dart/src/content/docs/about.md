@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Dart resources — experience, expertise, and credentials behind Dart and Flutter programming study materials."
+description: "About Wyatt's Notes Dart resources, experience, expertise, and credentials behind Dart and Flutter programming study materials."
 tags:
   - about
   - dart
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Dart
+## About Wyatt's Notes, Dart
 
 Wyatt's Notes provides thorough study materials for Dart programming and Flutter development. These notes cover Dart's syntax, async patterns, widget system, and cross-platform mobile development, building the skills needed for production Flutter applications.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across Dart, mobile development, and programming, provi
 
 ## Related Sites
 
-- **[Kotlin](https://kotlin.wyattau.com)** — Kotlin programming resources (Android)
-- **[Swift](https://swift.wyattau.com)** — Swift programming notes (iOS)
-- **[Programming](https://programming.wyattau.com)** — Multi-language programming resources
+- **[Kotlin](https://kotlin.wyattau.com)**, Kotlin programming resources (Android)
+- **[Swift](https://swift.wyattau.com)**, Swift programming notes (iOS)
+- **[Programming](https://programming.wyattau.com)**, Multi-language programming resources
 
 ## Explore the Site
 
@@ -57,17 +57,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -83,10 +83,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 

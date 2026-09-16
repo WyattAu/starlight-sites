@@ -545,7 +545,7 @@ The two categories have fundamentally different performance characteristics:
 1. **Static TLS:** Variables declared `thread_local` with constant initializers (zero-initialization
    or constant-expression initialization) are placed in the `.tbss` or `.tdata` ELF sections. The
    dynamic linker (`ld.so`) allocates and initializes these when a new thread is created via the TLS
-   block template. Access cost is a single segment register load (`%fs:offset` on x86-64) —
+   block template. Access cost is a single segment register load (`%fs:offset` on x86-64),
    effectively free after thread creation.
 2. **Dynamic TLS:** Variables with non-constant initializers (including function-local
    `thread_local` and types with non-trivial constructors) require a guard variable and an

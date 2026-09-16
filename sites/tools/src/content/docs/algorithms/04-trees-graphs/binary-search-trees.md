@@ -17,11 +17,11 @@ description: "A binary search tree (BST) is a binary tree where every node satis
 
 ## Intuition
 
-**A filing cabinet that stays sorted:** A BST is like a filing cabinet where every folder is labelled, and you know that smaller labels go left and larger labels go right — finding any file takes O(log n) time if the tree is balanced, just like binary search on a sorted array.
+**A filing cabinet that stays sorted:** A BST is like a filing cabinet where every folder is labelled, and you know that smaller labels go left and larger labels go right, finding any file takes O(log n) time if the tree is balanced, just like binary search on a sorted array.
 
-**Why it matters:** BSTs are the foundation of many data structures — balanced BSTs (AVL, red-black) power database indexes, language libraries (C++ std::map, Java TreeMap), and filesystem directories.
+**Why it matters:** BSTs are the foundation of many data structures, balanced BSTs (AVL, red-black) power database indexes, language libraries (C++ std::map, Java TreeMap), and filesystem directories.
 
-**The key insight:** An unbalanced BST degenerates into a linked list with O(n) operations — this is why self-balancing variants (AVL, red-black) are essential in practice. The balance property guarantees O(log n) height.
+**The key insight:** An unbalanced BST degenerates into a linked list with O(n) operations, this is why self-balancing variants (AVL, red-black) are essential in practice. The balance property guarantees O(log n) height.
 
 ## Binary Search Tree Fundamentals
 
@@ -81,7 +81,7 @@ def bst_insert(root, key, val=None):
     return root
 ```
 
-### Delete — Three Cases
+### Delete, Three Cases
 
 ```python
 def bst_delete(root, key):
@@ -105,7 +105,7 @@ def bst_delete(root, key):
             return root.right
         if root.right is None:
             return root.left
-        # Case 3: Two children — replace with inorder successor
+        # Case 3: Two children, replace with inorder successor
         successor = bst_min(root.right)
         root.key = successor.key
         root.val = successor.val
@@ -636,7 +636,7 @@ class BTree:
     """
     B-tree with minimum degree t.
     Search: O(t log_t n)
-    Insert: O(t log_t n) — at most O(log_t n) splits
+    Insert: O(t log_t n), at most O(log_t n) splits
     Delete: O(t log_t n)
     Space: O(n)
     """

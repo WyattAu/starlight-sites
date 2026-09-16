@@ -1,5 +1,5 @@
 ---
-title: "Computer Science Glossary — Key Terms and Definitions"
+title: "Computer Science Glossary, Key Terms and Definitions"
 description: "Abstract Data Type (ADT): A theoretical model of a data type defined by its behavior (operations and semantics) without implementation details. Examples:"
 date: 2026-07-24
 tags: [glossary]
@@ -97,7 +97,7 @@ tags: [glossary]
 
 ## Databases
 
-**ACID Properties**: Atomicity, Consistency, Isolation, Durability — properties guaranteeing reliable database transactions.
+**ACID Properties**: Atomicity, Consistency, Isolation, Durability, properties guaranteeing reliable database transactions.
 
 **Atomicity**: A transaction is all-or-nothing. Either all operations complete successfully, or none are applied.
 

@@ -46,7 +46,7 @@ The term "Century of Humiliation" refers to the period from the First Opium War 
 - The Qing abdicated on 12 February 1912, ending over 2,000 years of imperial rule.
 - Sun Yat-sen was provisional president but ceded power to Yuan Shikai, the commander of the Beiyang Army, in exchange for Yuan's role in securing the abdication.
 
-**Key Term:** *Sun Yat-sen's Three Principles of the People* — nationalism (overthrowing Manchu rule and ending foreign imperialism), democracy (constitutional government), and people's livelihood (land reform and state control of key industries).
+**Key Term:** *Sun Yat-sen's Three Principles of the People*, nationalism (overthrowing Manchu rule and ending foreign imperialism), democracy (constitutional government), and people's livelihood (land reform and state control of key industries).
 
 ---
 
@@ -68,7 +68,7 @@ Yuan Shikai's death in 1916 left a power vacuum. China fragmented into territori
 - The May Fourth Movement (4 May 1919) was a student-led protest against the Treaty of Versailles, which transferred German concessions in Shandong to Japan rather than returning them to China. This catalysed intellectual radicalism and the spread of Marxism.
 - The CCP was founded in July 1921, with Chen Duxiu as its first General Secretary and Soviet advisers providing organisational support.
 
-**Key Term:** *Warlordism* — the fragmentation of centralised political authority into regional military fiefdoms, where loyalty was personal rather than institutional, and power was maintained through military force.
+**Key Term:** *Warlordism*, the fragmentation of centralised political authority into regional military fiefdoms, where loyalty was personal rather than institutional, and power was maintained through military force.
 
 ---
 
@@ -94,7 +94,7 @@ Yuan Shikai's death in 1916 left a power vacuum. China fragmented into territori
 
 On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, with help from the Green Gang criminal organisation. Thousands of communists and suspected sympathisers were killed. The purge extended to other cities, effectively destroying the CCP's urban organisation.
 
-**Key Term:** *White Terror* — the violent suppression of communists by the KMT between 1927 and the late 1930s, involving mass arrests, executions, and the destruction of CCP labour organisations.
+**Key Term:** *White Terror*, the violent suppression of communists by the KMT between 1927 and the late 1930s, involving mass arrests, executions, and the destruction of CCP labour organisations.
 
 ### The Nanjing Decade (1927–1937)
 
@@ -103,7 +103,7 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 - Limited land reform: Chiang relied on landlord support and failed to address rural poverty.
 - The Encirclement Campaigns (1930–1934): Chiang launched five military campaigns against CCP base areas in Jiangxi. The fifth campaign succeeded through a strategy of blockhouses and economic blockade, forcing the CCP into the Long March (1934–1935).
 
-**Key Term:** *The Long March* — a strategic retreat of approximately 9,000 km by the First Front Army of the CCP from Jiangxi to Yan'an. Of the roughly 80,000 who began the march, approximately 7,000 survived. It cemented Mao Zedong's leadership of the CCP.
+**Key Term:** *The Long March*, a strategic retreat of approximately 9,000 km by the First Front Army of the CCP from Jiangxi to Yan'an. Of the roughly 80,000 who began the march, approximately 7,000 survived. It cemented Mao Zedong's leadership of the CCP.
 
 ---
 
@@ -201,10 +201,10 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 ### The Great Leap Forward (1958–1962)
 
 - Mao's campaign to rapidly industrialise China through collectivisation and backyard steel production.
-- The result was the Great Chinese Famine, with an estimated 15–55 million deaths — the deadliest famine in human history.
+- The result was the Great Chinese Famine, with an estimated 15–55 million deaths, the deadliest famine in human history.
 - The campaign demonstrated the catastrophic consequences of ideological rigidity and the suppression of dissenting information.
 
-**Key Term:** *Commune system* — the reorganisation of agricultural production into large collective units (people's communes) where private property was abolished, meals were communal, and labour was directed by party cadres.
+**Key Term:** *Commune system*, the reorganisation of agricultural production into large collective units (people's communes) where private property was abolished, meals were communal, and labour was directed by party cadres.
 
 ### The Cultural Revolution (1966–1976)
 
@@ -214,7 +214,7 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 - An estimated 500,000 to 2 million people died.
 - The Cultural Revolution deepened factional divisions within the CCP and caused widespread destruction of cultural heritage.
 
-**Key Term:** *Red Guards* — mass organisations of young radicals, primarily students, mobilised by Mao to attack perceived enemies of the revolution and destroy remnants of traditional Chinese culture.
+**Key Term:** *Red Guards*, mass organisations of young radicals, primarily students, mobilised by Mao to attack perceived enemies of the revolution and destroy remnants of traditional Chinese culture.
 
 ---
 
@@ -257,10 +257,10 @@ On 12 April 1927, Chiang launched a violent purge of CCP members in Shanghai, wi
 
 The history of 20th-century China connects directly to several IB Paper 2 topics:
 
-- **Topic 2 — Causes and Effects of Wars:** The Second Sino-Japanese War and Chinese Civil War.
-- **Topic 3 — Authoritarian States:** Mao's China as a case study of authoritarian rule and state terror.
-- **Topic 4 — Movements for Social Change:** Land reform, the role of peasants, and the Cultural Revolution as radical social transformation.
-- **Topic 5 — Cold War Superpower Tensions:** The Sino-Soviet alliance and its collapse; China's role in the broader Cold War.
+- **Topic 2, Causes and Effects of Wars:** The Second Sino-Japanese War and Chinese Civil War.
+- **Topic 3, Authoritarian States:** Mao's China as a case study of authoritarian rule and state terror.
+- **Topic 4, Movements for Social Change:** Land reform, the role of peasants, and the Cultural Revolution as radical social transformation.
+- **Topic 5, Cold War Superpower Tensions:** The Sino-Soviet alliance and its collapse; China's role in the broader Cold War.
 
 ---
 
@@ -276,7 +276,7 @@ The history of 20th-century China connects directly to several IB Paper 2 topics
 ## Historiographical Debates
 
 - **Mao as liberator vs Mao as tyrant:** Western historiography has oscillated between viewing Mao as a revolutionary who liberated China from imperialism and feudalism, and as a dictator responsible for tens of millions of deaths. The opening of Chinese archives and the work of historians such as Frank Dikotter (*The Great Famine*, *The Cultural Revolution*) have strengthened the latter interpretation.
-- **The CCP's legitimacy:** Some historians argue that the CCP's legitimacy rests primarily on economic performance since 1978. Others contend that revolutionary legitimacy — the CCP's role in ending the Century of Humiliation — remains foundational.
+- **The CCP's legitimacy:** Some historians argue that the CCP's legitimacy rests primarily on economic performance since 1978. Others contend that revolutionary legitimacy, the CCP's role in ending the Century of Humiliation, remains foundational.
 - **Was the CCP's victory inevitable?** Revisionist historians emphasise contingent factors (KMT corruption, Japanese invasion, Soviet intervention) rather than presenting the CCP's triumph as historically determined.
 
 
@@ -300,7 +300,7 @@ China's twentieth century is like watching a river change course multiple times 
 
 **Confusing the Nanjing Decade with stability:** While the KMT achieved nominal unification, it faced ongoing challenges from warlords, Communists, and Japanese aggression. The period was far from stable.
 
-**Forgetting the human cost of Mao's policies:** The Great Leap Forward caused 15-55 million deaths. The Cultural Revolution caused 500,000-2 million deaths. These aren't abstract numbers — they represent real human suffering.
+**Forgetting the human cost of Mao's policies:** The Great Leap Forward caused 15-55 million deaths. The Cultural Revolution caused 500,000-2 million deaths. These aren't abstract numbers, they represent real human suffering.
 
 ## Cross-References
 

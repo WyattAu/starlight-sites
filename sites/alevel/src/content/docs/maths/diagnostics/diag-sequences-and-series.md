@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Sequences and Series — Diagnostic Tests
+## Sequences and Series, Diagnostic Tests
 
 ## Unit Tests
 
@@ -136,13 +136,13 @@ index shift.]
 upper limit also changes. The formula $\sum_{r=1}^{m} r^2 = \frac{m(m+1)(2m+1)}{6}$ requires the sum
 to start at $r = 1$ and end at $r = m$.
 
-**Correct approach — Method 1: Index shift.**
+**Correct approach, Method 1: Index shift.**
 
 Let $k = r - 3$. When $r = 4$$k = 1$. When $r = n + 3$$k = n$.
 
 $$\sum_{r=4}^{n+3} (r-3)^2 = \sum_{k=1}^{n} k^2 = \frac{n(n+1)(2n+1)}{6}$$
 
-**Correct approach — Method 2: Subtract sums.**
+**Correct approach, Method 2: Subtract sums.**
 
 $$\sum_{r=4}^{n+3} (r-3)^2 = \sum_{r=1}^{n+3} (r-3)^2 - \sum_{r=1}^{3} (r-3)^2$$
 

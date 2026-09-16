@@ -28,7 +28,7 @@ coroutine, and a thread pool executor for scheduling coroutines across threads.
 ## Task Concept
 
 A **task** is a coroutine that produces a result asynchronously. Unlike a generator (which produces
-Many values), a task produces exactly one result upon completion. The task coroutine is Lazy — it
+Many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
 does not begin executing until someone calls `resume()` or an executor schedules it.
 
 The minimal interface for a task is:
@@ -51,13 +51,13 @@ Races on non-atomic variables.
 1. A data race requires two conflicting accesses from different threads that are not ordered by
    happens-before [N4950 §6.9.4.1].
 2. In a cooperative scheduler, each thread runs at most one coroutine at a time. There is no
-   preemption — a coroutine runs until it explicitly suspends.
+   preemption, a coroutine runs until it explicitly suspends.
 3. Within a single coroutine, all accesses are sequenced (the coroutine is a single thread of
    execution).
 4. Two coroutines running on different threads access shared data only through explicit
    synchronization (mutexes, atomics) because the scheduler provides no implicit sharing mechanism.
 5. If shared data is accessed without synchronization, the accesses are from different threads and
-   are not ordered by happens-before — this is a data race. But this is a _programmer error_, not a
+   are not ordered by happens-before, this is a data race. But this is a _programmer error_, not a
    scheduler error.
 6. The scheduler itself does not introduce concurrency between coroutines on the same thread, so it
    does not introduce data races.
@@ -240,13 +240,13 @@ int main() {
 | C#         | `async``await`                  | ThreadPool / IOCP                | `CancellationToken`     | `try/catch`           |
 
 C++ is unique in providing **no built-in executor or event loop**. The coroutine machinery is
-Deliberately low-level — the standard provides only the suspension/resumption primitives, and
+Deliberately low-level, the standard provides only the suspension/resumption primitives, and
 Scheduling is entirely the programmer"s or library's responsibility.
 
 ## Structured Concurrency: `when_all` / `when_any`
 
 **Structured concurrency** is the principle that every concurrent operation should have a
-Well-defined lifetime — all child tasks must complete (or be cancelled) before the parent scope
+Well-defined lifetime, all child tasks must complete (or be cancelled) before the parent scope
 Exits. C++ does not yet have a standard `when_all` or `when_any` primitive, but these are common
 Library patterns.
 
@@ -804,16 +804,16 @@ Computation cannot be cancelled until it reaches the next `co_await`.
 
 ## Intuition
 
-**A task is like a promise to do work later:** When you create a task, you're not starting it immediately — you're creating a description of work that can be scheduled on a thread pool. It's like ordering food at a restaurant: you place the order (create the task), the kitchen schedules it (thread pool), and you get a number (the task object) to track when it's ready. The executor is the restaurant manager who decides which cook handles which order.
+**A task is like a promise to do work later:** When you create a task, you're not starting it immediately, you're creating a description of work that can be scheduled on a thread pool. It's like ordering food at a restaurant: you place the order (create the task), the kitchen schedules it (thread pool), and you get a number (the task object) to track when it's ready. The executor is the restaurant manager who decides which cook handles which order.
 
-**Why it matters:** Task scheduling is how you bridge coroutines with real concurrency. Without an executor, coroutines run on whatever thread resumes them — which might not be the thread you want. Executors let you control which thread pool handles which tasks, enabling work-stealing, priority scheduling, and thread affinity.
+**Why it matters:** Task scheduling is how you bridge coroutines with real concurrency. Without an executor, coroutines run on whatever thread resumes them, which might not be the thread you want. Executors let you control which thread pool handles which tasks, enabling work-stealing, priority scheduling, and thread affinity.
 
-**The key insight:** A coroutine without an executor runs on the thread that resumes it — with an executor, you control which thread pool handles the work.
+**The key insight:** A coroutine without an executor runs on the thread that resumes it, with an executor, you control which thread pool handles the work.
 
 ## Common Pitfalls
 
 - **Forgetting to `resume()` after `suspend_always`.** If a coroutine suspends with `suspend_always`
-  and no scheduler ever calls `resume()`The coroutine leaks — its frame is never destroyed. Always
+  and no scheduler ever calls `resume()`The coroutine leaks, its frame is never destroyed. Always
   pair lazy coroutines with a scheduler or manual resume loop.
 - **Symmetric transfer vs direct resume.** Using `handle.resume()` inside `await_suspend` can cause
   stack overflow on deep coroutine chains. Use symmetric transfer (`return handle;`) when the

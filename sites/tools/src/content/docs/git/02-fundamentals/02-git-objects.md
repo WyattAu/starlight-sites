@@ -1,7 +1,7 @@
 ---
 
 title: "Git Objects"
-description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature — it is the"
+description: "At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature, it is the"
 date: 2025-06-03T00:00:00.000Z
 tags:
   - git
@@ -23,16 +23,16 @@ categories:
 
 ## Intuition
 
-**A library of immutable snapshots:** Git objects are like a library of sealed time capsules — each commit, file, and directory is stored as an immutable object identified by its content hash. Nothing is ever truly deleted; old versions remain accessible through the object graph.
+**A library of immutable snapshots:** Git objects are like a library of sealed time capsules, each commit, file, and directory is stored as an immutable object identified by its content hash. Nothing is ever truly deleted; old versions remain accessible through the object graph.
 
 **Why it matters:** Understanding Git objects explains why `git checkout` is instant (it just moves a pointer), why `git rebase` rewrites history (it creates new objects), and why `.git` can grow large (old objects accumulate).
 
-**The key insight:** Git stores snapshots, not diffs — each commit points to a complete tree of files. Diffs are computed on demand, not stored. This makes operations like checkout and branch switching O(1) regardless of history size.
+**The key insight:** Git stores snapshots, not diffs, each commit points to a complete tree of files. Diffs are computed on demand, not stored. This makes operations like checkout and branch switching O(1) regardless of history size.
 
 ## The Content-Addressable Filesystem
 
 At its core, Git is a **content-addressable filesystem**. It stores data as objects, each identified
-by the SHA-1 hash of its content. This is not a version control feature — it is the fundamental
+by the SHA-1 hash of its content. This is not a version control feature, it is the fundamental
 storage mechanism. Version control is built on top of it.
 
 There are four types of Git objects:
@@ -64,7 +64,7 @@ flowchart LR
 
 ## Blobs
 
-A blob is the simplest Git object. It stores the **raw content** of a file — nothing more. It does
+A blob is the simplest Git object. It stores the **raw content** of a file, nothing more. It does
 not store the filename, permissions, or any metadata. Two files with identical content at different
 paths produce the same blob object.
 
@@ -122,7 +122,7 @@ $ git hash-object b.txt
 ```
 
 This is why Git is efficient at storing projects with many similar files (e.g., renamed files,
-copied configurations) — identical content is stored exactly once.
+copied configurations), identical content is stored exactly once.
 
 ## Trees
 
@@ -181,7 +181,7 @@ tree <content-length>\0<entries>
 ```
 
 Each entry is encoded as `<mode> <name>\0<20-byte-sha1>` (binary SHA-1, not hex). The entries are
-**sorted** lexicographically by name, which is critical for canonical hashing — the same directory
+**sorted** lexicographically by name, which is critical for canonical hashing, the same directory
 must always produce the same tree hash.
 :::
 :::caution
@@ -323,7 +323,7 @@ or message, which makes them unsuitable for audit trails. Use `git tag -a` or co
 
 ### Loose Objects
 
-Newly created objects are stored as individual **loose objects** — compressed (zlib deflate) files
+Newly created objects are stored as individual **loose objects**, compressed (zlib deflate) files
 under `.git/objects/`. The filename is the first 2 characters of the SHA-1 hash, and the file
 contains the remaining 38 characters as a suffix:
 

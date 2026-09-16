@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Genetics is like a recipe book — DNA holds the instructions, and proteins are the dishes that get cooked.**
+**Genetics is like a recipe book, DNA holds the instructions, and proteins are the dishes that get cooked.**
 
-## Genetics and DNA — Diagnostic Tests
+## Genetics and DNA, Diagnostic Tests
 
 ## Unit Tests
 
@@ -93,7 +93,7 @@ polymerase cannot initiate synthesis without a primer.
 (c) **Conservative replication** (the entire original double helix is conserved, and an entirely new
 double helix is synthesised):
 
-- After 1 generation: TWO bands — one heavy (original) and one light (new), in equal proportions.
+- After 1 generation: TWO bands, one heavy (original) and one light (new), in equal proportions.
   This was NOT observed (only intermediate was seen).
 
 **Dispersive replication** (each new molecule contains fragments of old and new DNA interspersed
@@ -108,7 +108,7 @@ approximately 5-10 nucleotides long) complementary to the DNA template strand at
 new DNA strand. The RNA primer provides a free 3'-OH group (hydroxyl group) to which DNA polymerase
 can add the first DNA nucleotide. **DNA polymerase cannot initiate synthesis de novo** (from
 scratch) because it requires a pre-existing free 3'-OH group to which it can add nucleotides in the
-5' to 3' direction — it can only extend an existing chain, not start one. After DNA synthesis is
+5' to 3' direction, it can only extend an existing chain, not start one. After DNA synthesis is
 complete, the RNA primers are removed (by DNA polymerase I in prokaryotes, or RNase H in eukaryotes)
 and replaced with DNA, and the gaps are sealed by DNA ligase.
 
@@ -194,10 +194,10 @@ Phenotypes:
 
 Expected phenotypic ratio: **9 purple : 7 white**
 
-(d) **Dominance** refers to the relationship between alleles of a **single gene** — one allele masks
+(d) **Dominance** refers to the relationship between alleles of a **single gene**, one allele masks
 the expression of another allele at the same gene locus (e.g., in a heterozygote $Aa$The dominant
 allele $A$ masks the recessive allele $a$). **Epistasis** refers to the interaction between **two or
-more different genes** — the allele of one gene masks or modifies the expression of alleles at a
+more different genes**, the allele of one gene masks or modifies the expression of alleles at a
 different gene locus. Epistasis is an inter-gene interaction, whereas dominance is an intra-gene
 interaction.
 
@@ -262,7 +262,7 @@ to expression of the protein in the bacterium.
 These three stages are repeated for 25-35 cycles, with each cycle doubling the amount of target DNA
 (exponential amplification).
 
-(b) **Primers** are necessary because Taq polymerase cannot initiate DNA synthesis de novo — it
+(b) **Primers** are necessary because Taq polymerase cannot initiate DNA synthesis de novo, it
 requires a free 3'-OH group on a pre-existing strand to which it can add nucleotides (as in vivo DNA
 replication). Primers provide this starting point.
 
@@ -351,7 +351,7 @@ means that not all substitution mutations result in a change to the amino acid s
 **Solution:**
 
 (a) This is a **substitution mutation** because one nucleotide base is replaced by another in the
-DNA sequence — specifically, the middle base of the sixth codon is changed from A to T (on the
+DNA sequence, specifically, the middle base of the sixth codon is changed from A to T (on the
 coding strand; or T to A on the template strand). It does not cause a frameshift because a
 frameshift requires the insertion or deletion of a number of nucleotides not divisible by three,
 which shifts the reading frame of all codons downstream. A substitution changes only one codon, and
@@ -389,19 +389,19 @@ blood cells. The different genotypes and their phenotypes are:
   malaria but at a high health cost.
 
 **Natural selection** favours the heterozygous genotype (HbA/HbS) in malaria-endemic regions because
-heterozygotes have the highest fitness — they have some protection against malaria without the
+heterozygotes have the highest fitness, they have some protection against malaria without the
 severe symptoms of sickle cell anaemia. This is an example of **heterozygote advantage** (balancing
 selection), which maintains both alleles in the population at a relatively high frequency. This
 explains why the sickle cell allele is more common in populations originating from West Africa, the
 Mediterranean, and parts of India, where malaria has historically been prevalent.
 
-(d) The genetic code is a **triplet code** — each amino acid is coded for by a sequence of three
-nucleotide bases (a codon). The code is **degenerate** (redundant) — most amino acids are coded for
+(d) The genetic code is a **triplet code**, each amino acid is coded for by a sequence of three
+nucleotide bases (a codon). The code is **degenerate** (redundant), most amino acids are coded for
 by more than one codon. For example, leucine is coded for by six different codons (CUU, CUC, CUA,
 CUG, UUA, UAG). This means that a substitution mutation in the third base of a codon often does not
-change the amino acid specified — this is called a **silent mutation**. For example, changing CUU to
+change the amino acid specified, this is called a **silent mutation**. For example, changing CUU to
 CUC still codes for leucine. The degeneracy of the code provides a degree of protection against the
-effects of mutations — not all substitutions alter the primary structure of the protein, and
+effects of mutations, not all substitutions alter the primary structure of the protein, and
 therefore not all substitutions affect protein function.
 
 ---
@@ -446,7 +446,7 @@ males than in females.
 Since males have only one X chromosome (genotype XY), they can have only one of these alleles and
 are therefore either entirely orange ($X^OY$) or entirely black ($X^BY$). Females have two X
 chromosomes and can be heterozygous ($X^OX^B$), producing the tortoiseshell pattern through
-**X-inactivation (lyonisation)** — in each cell, one of the two X chromosomes is randomly
+**X-inactivation (lyonisation)**, in each cell, one of the two X chromosomes is randomly
 inactivated during early embryonic development. The inactivated X forms a Barr body. Patches of
 cells with the active $X^O$ chromosome produce orange fur, and patches with the active $X^B$
 chromosome produce black fur.
@@ -493,7 +493,7 @@ sampling error, or other factors affecting the cross.
 (d) **Sex-linked inheritance** involves genes located on the sex chromosomes ( the X chromosome,
 since the Y chromosome carries very few genes). The key difference from autosomal inheritance is
 that males have only one X chromosome (hemizygous), so they express whatever allele is present on
-their single X chromosome — there is no second allele to mask a recessive allele. Females have two X
+their single X chromosome, there is no second allele to mask a recessive allele. Females have two X
 chromosomes, so recessive alleles on one X can be masked by dominant alleles on the other.
 
 **X-linked recessive conditions are more common in males** because:
@@ -572,12 +572,12 @@ pores that cause cell lysis and death of the insect.
 Humans and most other animals are unaffected because: (1) the human gut is acidic, not alkaline, so
 the protoxin is not activated; (2) humans lack the specific proteases required to cleave and
 activate the protoxin; (3) human gut cells lack the specific receptor proteins that the active Bt
-toxin binds to. This is an example of **enzyme and receptor specificity** — the toxin's action
+toxin binds to. This is an example of **enzyme and receptor specificity**, the toxin's action
 depends on the presence of specific enzymes and receptors found only in certain insect species.
 
 (c) The concern is that the Bt gene could be transferred from GM crops to wild relatives through
 **cross-pollination** (pollen from the GM crop fertilising wild plants). This is **not horizontal
-gene transfer** (which refers to transfer between unrelated organisms, e.g., between bacteria) — it
+gene transfer** (which refers to transfer between unrelated organisms, e.g., between bacteria), it
 is **vertical gene transfer through hybridisation** between closely related plant species. If the Bt
 gene were transferred to a wild relative, the wild plant might gain insect resistance, potentially
 making it a more successful "weed."
@@ -608,7 +608,7 @@ RNA template. To produce recombinant human insulin:
 **cDNA is used instead of genomic DNA** because bacteria (prokaryotes) lack the machinery to remove
 introns from pre-mRNA (they do not have spliceosomes). If genomic DNA (containing introns) were
 inserted into a bacterium, the introns would be transcribed along with the exons, producing an mRNA
-that cannot be correctly translated — the bacterial ribosomes would try to translate the introns as
+that cannot be correctly translated, the bacterial ribosomes would try to translate the introns as
 part of the protein, producing a non-functional product. CDNA, being a copy of the processed mRNA
 (without introns), can be transcribed and translated directly by the bacterial cell to produce
 functional insulin.
@@ -617,9 +617,9 @@ functional insulin.
 
 **Forgetting that DNA polymerase cannot start a new strand from scratch:** Both in vivo replication and PCR require a primer to provide a free 3'-OH group. DNA polymerase can only extend an existing chain. Students often omit the primer step or forget to mention why two different primers are needed in PCR (forward and reverse, defining the region to be amplified).
 
-**Confusing epistasis with dominance:** Dominance is an interaction between alleles of the same gene (one allele masks another at the same locus). Epistasis is an interaction between different genes — the genotype at one gene locus masks or modifies the expression of alleles at a different locus. The 9:3:4 ratio in coat colour is epistasis, not a modified dihybrid ratio.
+**Confusing epistasis with dominance:** Dominance is an interaction between alleles of the same gene (one allele masks another at the same locus). Epistasis is an interaction between different genes, the genotype at one gene locus masks or modifies the expression of alleles at a different locus. The 9:3:4 ratio in coat colour is epistasis, not a modified dihybrid ratio.
 
-**Assuming all substitution mutations change the amino acid sequence:** The genetic code is degenerate — most amino acids are encoded by more than one codon. A substitution in the third (wobble) position of a codon often produces a silent mutation that codes for the same amino acid. Not every base change alters the protein.
+**Assuming all substitution mutations change the amino acid sequence:** The genetic code is degenerate, most amino acids are encoded by more than one codon. A substitution in the third (wobble) position of a codon often produces a silent mutation that codes for the same amino acid. Not every base change alters the protein.
 
 ## See Also
 

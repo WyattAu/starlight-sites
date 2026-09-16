@@ -1,6 +1,6 @@
 ---
-title: "Rust Glossary — Key Terms and Definitions"
-description: "Study notes for Rust Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Rust Glossary, Key Terms and Definitions"
+description: "Study notes for Rust Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -391,13 +391,13 @@ let user = User::new(String::from("bob"), String::from("bob@example.com"));
 
 ```rust
 let username = String::from("alice");
-let user = User { username, ..default }; // Shorthand for username: username
+let user = User { username..default }; // Shorthand for username: username
 ```
 
 **Struct Update Syntax**: Creating a new struct by copying some fields from another and overriding others.
 
 ```rust
-let user2 = User { email: String::from("new@example.com"), ..user };
+let user2 = User { email: String::from("new@example.com")..user };
 ```
 
 ## Closures and Iterators

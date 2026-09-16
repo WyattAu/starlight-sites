@@ -576,7 +576,7 @@ flowchart TD
 | Real Analysis                      | WyattsNotes | [View](../real-analysis)                            |
 | Linear Algebra                     | WyattsNotes | [View](../linear-algebra)                           |
 | Differential Equations             | WyattsNotes | [View](../../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)                   |
-| Multivariable Calculus — MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
+| Multivariable Calculus, MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -26,13 +26,13 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Differential Equations — Diagnostic Tests
+## Differential Equations, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for differential equations.
 
-### UT-1: Separable Equations — Lost Equilibrium Solutions
+### UT-1: Separable Equations, Lost Equilibrium Solutions
 
 **Question:**
 
@@ -88,7 +88,7 @@ formula.
 }
 </script>
 
-### UT-2: Integrating Factor — Sign Error
+### UT-2: Integrating Factor, Sign Error
 
 **Question:**
 
@@ -156,7 +156,7 @@ always verify solutions by substitution, rather than relying on intuition about 
 }
 </script>
 
-### UT-3: Second Order — Repeated Root Error
+### UT-3: Second Order, Repeated Root Error
 
 **Question:**
 
@@ -288,7 +288,7 @@ expected from Newton's law of cooling.
 }
 </script>
 
-### IT-2: Euler's Method — Comparing with Exact Solution (with Number and Algebra)
+### IT-2: Euler's Method, Comparing with Exact Solution (with Number and Algebra)
 
 **Question:**
 

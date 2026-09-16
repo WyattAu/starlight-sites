@@ -66,7 +66,7 @@ This page provides a detailed analysis of Sylvia Plath's "Mirror" as practice fo
 
 ## Intuition
 
-**Unseen poetry practice is like training for triathlon — each poem tests different skills: close reading, technical analysis, and thematic interpretation:** The more poems you analyze, the better you become at recognizing patterns and making connections across texts
+**Unseen poetry practice is like training for triathlon, each poem tests different skills: close reading, technical analysis, and thematic interpretation:** The more poems you analyze, the better you become at recognizing patterns and making connections across texts
 
 **Why it matters:** Regular practice with diverse poems builds confidence and versatility for any poetry challenge
 

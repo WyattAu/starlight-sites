@@ -140,6 +140,6 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Electron diffraction (Davisson-Germer experiment) demonstrates the wave nature of\nelectrons — they produce interference patterns when passed through a crystal lattice, just like\nX-rays. The photoelectric effect demonstrates the particle nature of light. Together they support\nwave-particle duality.',
+      'Electron diffraction (Davisson-Germer experiment) demonstrates the wave nature of\nelectrons, they produce interference patterns when passed through a crystal lattice, just like\nX-rays. The photoelectric effect demonstrates the particle nature of light. Together they support\nwave-particle duality.',
   },
 ]

@@ -49,7 +49,7 @@ methodologies, techniques, and principles that underpin successful geographical 
 | **Qualitative data**                      | Non-numerical data describing qualities, perceptions, and experiences (e.g., interview responses, photographs)       |
 | **Sampling**                              | The process of selecting a subset of a population or area for investigation                                          |
 | **Representativeness**                    | The extent to which a sample accurately reflects the characteristics of the whole population or area                 |
-| **Reliability**                           | The consistency of results — would the same method produce the same results if repeated?                             |
+| **Reliability**                           | The consistency of results, would the same method produce the same results if repeated?                             |
 | **Validity**                              | The extent to which the method actually measures what it claims to measure                                           |
 | **Bias**                                  | Systematic error in data collection or sampling that skews results in a particular direction                         |
 | **Ethical considerations**                | Principles governing the treatment of human participants, the environment, and data in research                      |
@@ -267,7 +267,7 @@ GIS software (e.g., ArcGIS, QGIS, Google Earth Pro) enables:
 | **Spatial data**      | Choropleth maps, proportional symbol maps, dot maps, GIS layers, heat maps         |
 | **Changes over time** | Line graphs, bar charts, population pyramids                                       |
 | **Comparisons**       | Bar charts, divided bar charts, scatter graphs                                     |
-| **Proportions**       | Pie charts, proportional circles (use sparingly — often better alternatives exist) |
+| **Proportions**       | Pie charts, proportional circles (use sparingly, often better alternatives exist) |
 | **Distributions**     | Histograms, box-and-whisker plots, frequency polygons                              |
 | **Relationships**     | Scatter graphs with line of best fit, Spearman's rank results                      |
 | **Profiles**          | Cross-section diagrams, beach profiles, cliff profiles                             |
@@ -381,7 +381,7 @@ A good evaluation should:
 
 ## Intuition
 
-Fieldwork is where geography stops being abstract and becomes tangible. It is the difference between reading about a river and standing in one, feeling the current push against your legs. The methodology is not a bureaucratic hurdle — it is the difference between collecting evidence and collecting noise. A poorly designed问卷 gives you data that tells you nothing; a well-designed one reveals patterns invisible from a textbook. Think of sampling like tasting a soup: you need the right amount from the right places to know what the whole pot tastes like. The statistical tests are not just maths — they are the difference between guessing and knowing.
+Fieldwork is where geography stops being abstract and becomes tangible. It is the difference between reading about a river and standing in one, feeling the current push against your legs. The methodology is not a bureaucratic hurdle, it is the difference between collecting evidence and collecting noise. A poorly designed问卷 gives you data that tells you nothing; a well-designed one reveals patterns invisible from a textbook. Think of sampling like tasting a soup: you need the right amount from the right places to know what the whole pot tastes like. The statistical tests are not just maths, they are the difference between guessing and knowing.
 
 ## Common Pitfalls
 

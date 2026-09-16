@@ -1900,7 +1900,7 @@ size can Decrease (island dwarfism) or fluctuate depending on environmental cond
 
 **Why it matters:** Evolutionary understanding is essential for medicine (antibiotic resistance), conservation (biodiversity preservation), and agriculture (crop improvement).
 
-**The key insight:** Natural selection acts on phenotypes, not genotypes — it is the observable traits that determine survival and reproduction, even though the underlying genetic changes are what persist across generations.
+**The key insight:** Natural selection acts on phenotypes, not genotypes, it is the observable traits that determine survival and reproduction, even though the underlying genetic changes are what persist across generations.
 
 
 ```mermaid

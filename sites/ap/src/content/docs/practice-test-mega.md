@@ -1,5 +1,5 @@
 ---
-title: "AP Practice Test — 50 Questions Across All Subjects"
+title: "AP Practice Test, 50 Questions Across All Subjects"
 description: "50 AP-style practice questions covering Biology, Chemistry, Physics, Calculus, and Statistics. Multiple choice with detailed explanations and difficulty ratings."
 date: 2026-07-24
 tags:
@@ -21,14 +21,14 @@ categories:
 }
 </script>
 
-## AP Practice Test — 50 Questions Across All Subjects
+## AP Practice Test, 50 Questions Across All Subjects
 
-This practice test covers 10 questions from each of Biology, Chemistry, Physics (Mechanics), Calculus, and Statistics — the five most popular AP STEM subjects. The questions follow AP exam style, testing both conceptual understanding and problem-solving. Work through all 50 questions under timed conditions before checking the answer key.
+This practice test covers 10 questions from each of Biology, Chemistry, Physics (Mechanics), Calculus, and Statistics, the five most popular AP STEM subjects. The questions follow AP exam style, testing both conceptual understanding and problem-solving. Work through all 50 questions under timed conditions before checking the answer key.
 
 ## Instructions
 
 - **Time limit:** 60 minutes (72 seconds per question)
-- **Format:** Multiple choice — select the best answer from options A–E (AP style)
+- **Format:** Multiple choice, select the best answer from options A–E (AP style)
 - **Marking:** 1 mark per question, 50 marks total
 - **Conditions:** Attempt without notes. Record your answers on a separate sheet.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any questions you got wrong.
@@ -46,7 +46,7 @@ This practice test covers 10 questions from each of Biology, Chemistry, Physics 
 
 ## Biology (Q1–Q10)
 
-### Q1 — Cell Structure and Function
+### Q1, Cell Structure and Function
 
 Which of the following best describes the function of the rough endoplasmic reticulum?
 
@@ -62,11 +62,11 @@ Which of the following best describes the function of the rough endoplasmic reti
 
 The rough ER is studded with ribosomes and is the site of protein synthesis and initial modification (glycosylation). The smooth ER (A) synthesises lipids. Mitochondria (C) produce ATP. The nucleus (D) is the site of DNA replication.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q2 — Cellular Respiration
+### Q2, Cellular Respiration
 
 During oxidative phosphorylation, electrons are passed through the electron transport chain to:
 
@@ -82,11 +82,11 @@ During oxidative phosphorylation, electrons are passed through the electron tran
 
 In oxidative phosphorylation, electrons are passed along the electron transport chain and ultimately accepted by oxygen, the final electron acceptor, forming water. This creates the proton gradient that drives ATP synthase.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q3 — Genetics and Gene Expression
+### Q3, Genetics and Gene Expression
 
 In eukaryotic gene regulation, which of the following is most directly responsible for activating transcription of a specific gene?
 
@@ -102,11 +102,11 @@ In eukaryotic gene regulation, which of the following is most directly responsib
 
 Transcription factors bind to the promoter region and recruit RNA polymerase, directly activating transcription. Histone acetylation (C) generally facilitates transcription by relaxing chromatin but does not directly activate specific genes.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q4 — Evolution
+### Q4, Evolution
 
 Which of the following provides the strongest evidence for evolution?
 
@@ -122,11 +122,11 @@ Which of the following provides the strongest evidence for evolution?
 
 All of these provide evidence for evolution. Artificial selection demonstrates that selection produces rapid change. Fossils show gradual transitions. DNA similarities indicate common ancestry. The convergence of multiple independent lines of evidence is what makes evolution so well-supported.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q5 — Ecology
+### Q5, Ecology
 
 In an ecosystem, the concept of a "trophic cascade" refers to:
 
@@ -142,11 +142,11 @@ In an ecosystem, the concept of a "trophic cascade" refers to:
 
 A trophic cascade occurs when a top predator suppresses the abundance of herbivores, which in turn allows producers to flourish. The classic example is the reintroduction of wolves in Yellowstone, which reduced elk grazing and allowed vegetation recovery.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q6 — Human Physiology
+### Q6, Human Physiology
 
 The renin-angiotensin-aldosterone system (RAAS) regulates:
 
@@ -162,11 +162,11 @@ The renin-angiotensin-aldosterone system (RAAS) regulates:
 
 The RAAS is activated when blood pressure drops. Renin triggers the production of angiotensin II, which constricts blood vessels and stimulates aldosterone release, increasing sodium and water reabsorption. This raises blood pressure and restores fluid balance.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q7 — Molecular Biology
+### Q7, Molecular Biology
 
 A mutation that changes a single nucleotide in a coding region but does not change the amino acid produced is called:
 
@@ -182,11 +182,11 @@ A mutation that changes a single nucleotide in a coding region but does not chan
 
 A silent mutation changes the DNA sequence but not the amino acid, due to the redundancy of the genetic code. A missense mutation (D) changes one amino acid to another. A nonsense mutation (B) introduces a premature stop codon.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q8 — Plant Biology
+### Q8, Plant Biology
 
 Guard cells regulate the opening and closing of stomata by:
 
@@ -202,11 +202,11 @@ Guard cells regulate the opening and closing of stomata by:
 
 Guard cells open stomata by accumulating K+ ions, which lowers their water potential, causing water to enter by osmosis. The cells become turgid and bow apart, opening the pore. When K+ is lost, the cells become flaccid and the pore closes.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q9 — Immunology
+### Q9, Immunology
 
 Which of the following is characteristic of the adaptive immune response but NOT the innate immune response?
 
@@ -222,11 +222,11 @@ Which of the following is characteristic of the adaptive immune response but NOT
 
 Immunological memory is unique to the adaptive immune system. After an initial exposure, memory B and T cells enable a faster, stronger response upon re-exposure. This is the basis of vaccination. All other options are features of innate immunity.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q10 — Biochemistry
+### Q10, Biochemistry
 
 Which of the following is a characteristic of competitive enzyme inhibitors?
 
@@ -242,13 +242,13 @@ Which of the following is a characteristic of competitive enzyme inhibitors?
 
 Competitive inhibitors compete with substrate for the active site, increasing the apparent Km (lowering apparent affinity) without changing Vmax. They can be overcome by increasing substrate concentration. Non-competitive inhibitors decrease Vmax.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Chemistry (Q11–Q20)
 
-### Q11 — Atomic Structure
+### Q11, Atomic Structure
 
 Which of the following elements has the highest electronegativity?
 
@@ -264,11 +264,11 @@ Which of the following elements has the highest electronegativity?
 
 Electronegativity generally increases across a period and decreases down a group. Chlorine has the highest electronegativity of the listed elements (3.0 on the Pauling scale). Argon, being a noble gas, does not typically form bonds.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q12 — Chemical Bonding
+### Q12, Chemical Bonding
 
 In molecular orbital theory, which of the following species is paramagnetic?
 
@@ -284,11 +284,11 @@ In molecular orbital theory, which of the following species is paramagnetic?
 
 O2 has two unpaired electrons in its antibonding pi* orbitals, making it paramagnetic. This is one prediction of MO theory that Lewis structures fail to explain. N2 and F2 are diamagnetic.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q13 — Stoichiometry
+### Q13, Stoichiometry
 
 What volume of 0.10 M HCl is required to neutralise 25.0 mL of 0.20 M NaOH?
 
@@ -304,11 +304,11 @@ What volume of 0.10 M HCl is required to neutralise 25.0 mL of 0.20 M NaOH?
 
 At the equivalence point, moles of HCl = moles of NaOH: 0.10 x V = 0.20 x 25.0, so V = (0.20 x 25.0) / 0.10 = 50.0 mL.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q14 — Thermodynamics
+### Q14, Thermodynamics
 
 For a reaction to be spontaneous at constant temperature and pressure, which condition must be met?
 
@@ -324,11 +324,11 @@ For a reaction to be spontaneous at constant temperature and pressure, which con
 
 A reaction is spontaneous when delta G < 0. Since delta G = delta H - T*delta S, the most favourable conditions are delta H < 0 (exothermic) and delta S > 0 (increase in entropy), which always give delta G < 0.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q15 — Kinetics
+### Q15, Kinetics
 
 According to collision theory, which of the following will increase the rate of a reaction?
 
@@ -344,11 +344,11 @@ According to collision theory, which of the following will increase the rate of 
 
 A catalyst provides an alternative reaction pathway with a lower activation energy, increasing the rate without being consumed. Lowering temperature (A) and concentration (C) decrease the rate. A larger container (D) decreases concentration.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q16 — Equilibrium
+### Q16, Equilibrium
 
 For the equilibrium 2SO2(g) + O2(g) <=> 2SO3(g), increasing the pressure will:
 
@@ -364,11 +364,11 @@ For the equilibrium 2SO2(g) + O2(g) <=> 2SO3(g), increasing the pressure will:
 
 Increasing pressure favours the side with fewer moles of gas. The left side has 3 moles; the right side has 2 moles. Equilibrium shifts to the right to reduce pressure. Kc only changes with temperature.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q17 — Acids and Bases
+### Q17, Acids and Bases
 
 Which of the following is a buffer solution?
 
@@ -384,11 +384,11 @@ Which of the following is a buffer solution?
 
 A buffer consists of a weak acid and its conjugate base (or a weak base and its conjugate acid). CH3COOH (weak acid) and CH3COONa (its conjugate base) form a buffer. Strong acid + salt (A), strong base + salt (C), and strong acid + strong base (D) are not buffers.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q18 — Electrochemistry
+### Q18, Electrochemistry
 
 In a galvanic cell, oxidation occurs at the:
 
@@ -404,11 +404,11 @@ In a galvanic cell, oxidation occurs at the:
 
 In both galvanic and electrolytic cells, oxidation always occurs at the anode and reduction at the cathode. Remember: An Ox (anode oxidation), Red Cat (reduction at cathode).
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q19 — Organic Chemistry
+### Q19, Organic Chemistry
 
 Which of the following is the correct IUPAC name for CH3CH(OH)CH3?
 
@@ -424,11 +424,11 @@ Which of the following is the correct IUPAC name for CH3CH(OH)CH3?
 
 The OH group is on carbon 2 of a 3-carbon chain, so the name is 2-propanol (isopropanol). 1-propanol has the OH on carbon 1. Propanal and propanone contain carbonyl groups, not hydroxyl groups.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q20 — Nuclear Chemistry
+### Q20, Nuclear Chemistry
 
 In beta-minus decay, a neutron in the nucleus is converted into:
 
@@ -444,13 +444,13 @@ In beta-minus decay, a neutron in the nucleus is converted into:
 
 In beta-minus decay, a neutron converts into a proton and an electron (beta particle). The electron is emitted, and the atomic number increases by 1 while the mass number stays the same. Beta-plus decay produces a positron (B).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Physics (Q21–Q30)
 
-### Q21 — Kinematics
+### Q21, Kinematics
 
 A ball is thrown vertically upward with an initial velocity of 20 m/s. Ignoring air resistance, what is the maximum height reached? (g = 10 m/s^2)
 
@@ -466,11 +466,11 @@ A ball is thrown vertically upward with an initial velocity of 20 m/s. Ignoring 
 
 At maximum height, v = 0. Using v^2 = u^2 - 2gh: 0 = 20^2 - 2(10)h, so 400 = 20h, giving h = 20 m.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q22 — Newton's Laws
+### Q22, Newton's Laws
 
 A 5 kg object is subject to two forces: 10 N to the right and 3 N to the left. What is the acceleration?
 
@@ -486,11 +486,11 @@ A 5 kg object is subject to two forces: 10 N to the right and 3 N to the left. W
 
 Net force = 10 - 3 = 7 N to the right. By Newton's second law: a = F/m = 7/5 = 1.4 m/s^2.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q23 — Work and Energy
+### Q23, Work and Energy
 
 A 2 kg block slides down a frictionless ramp from a height of 5 m. What is its speed at the bottom? (g = 10 m/s^2)
 
@@ -506,11 +506,11 @@ A 2 kg block slides down a frictionless ramp from a height of 5 m. What is its s
 
 By conservation of energy: mgh = (1/2)mv^2, so v = sqrt(2gh) = sqrt(2 x 10 x 5) = sqrt(100) = 10 m/s.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q24 — Momentum
+### Q24, Momentum
 
 A 3 kg object moving at 4 m/s collides with a stationary 1 kg object. After the collision, they stick together. What is the final velocity?
 
@@ -526,11 +526,11 @@ A 3 kg object moving at 4 m/s collides with a stationary 1 kg object. After the 
 
 By conservation of momentum: m1*v1 + m2*v2 = (m1 + m2)*v_final. (3)(4) + (1)(0) = (4)*v_final, so 12 = 4*v_final, giving v_final = 3 m/s.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q25 — Circular Motion
+### Q25, Circular Motion
 
 A car of mass 1000 kg travels around a circular track of radius 50 m at a constant speed of 20 m/s. What is the centripetal force?
 
@@ -546,11 +546,11 @@ A car of mass 1000 kg travels around a circular track of radius 50 m at a consta
 
 F = mv^2/r = (1000)(20^2)/50 = (1000)(400)/50 = 400,000/50 = 8,000 N.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q26 — Gravitation
+### Q26, Gravitation
 
 If the distance between two masses is doubled, the gravitational force between them:
 
@@ -566,11 +566,11 @@ If the distance between two masses is doubled, the gravitational force between t
 
 By Newton's law of gravitation, F = Gm1m2/r^2. If r doubles, F becomes Gm1m2/(2r)^2 = Gm1m2/(4r^2) = F/4.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q27 — Oscillations
+### Q27, Oscillations
 
 A mass-spring system has a spring constant of 100 N/m and a mass of 0.25 kg. What is the period of oscillation?
 
@@ -586,11 +586,11 @@ A mass-spring system has a spring constant of 100 N/m and a mass of 0.25 kg. Wha
 
 T = 2*pi*sqrt(m/k) = 2*pi*sqrt(0.25/100) = 2*pi*sqrt(0.0025) = 2*pi*0.05 = 0.314 s (approximately pi/10).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q28 — Rotational Motion
+### Q28, Rotational Motion
 
 A solid sphere rolls without slipping down an incline. At the bottom, what fraction of its kinetic energy is rotational?
 
@@ -606,11 +606,11 @@ A solid sphere rolls without slipping down an incline. At the bottom, what fract
 
 For a solid sphere, I = (2/5)mr^2. With v = omega*r (rolling without slipping), KE_rot = (1/2)I*omega^2 = (1/2)(2/5)mr^2*(v/r)^2 = (1/5)mv^2. KE_total = (1/2)mv^2 + (1/5)mv^2 = (7/10)mv^2. Fraction = (1/5)/(7/10) = 2/7.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### Q29 — Fluid Mechanics
+### Q29, Fluid Mechanics
 
 According to Bernoulli's principle, where the speed of a fluid increases, the pressure:
 
@@ -626,11 +626,11 @@ According to Bernoulli's principle, where the speed of a fluid increases, the pr
 
 Bernoulli's principle states that for an incompressible, non-viscous fluid in steady flow, an increase in speed occurs simultaneously with a decrease in pressure. This explains lift on airplane wings and the curve of a spinning ball.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q30 — Waves and Optics
+### Q30, Waves and Optics
 
 A double-slit experiment uses light of wavelength 500 nm. The slit separation is 0.1 mm and the screen is 2 m away. What is the fringe spacing?
 
@@ -646,13 +646,13 @@ A double-slit experiment uses light of wavelength 500 nm. The slit separation is
 
 Fringe spacing = lambda*D/d = (500 x 10^-9)(2)/(0.1 x 10^-3) = (10^-6)/(10^-4) = 10^-2 m = 10 mm.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Calculus (Q31–Q40)
 
-### Q31 — Limits
+### Q31, Limits
 
 What is the limit as x approaches 0 of sin(x)/x?
 
@@ -668,11 +668,11 @@ What is the limit as x approaches 0 of sin(x)/x?
 
 This is a fundamental limit in calculus. Using L'Hopital's rule or the squeeze theorem, lim(x->0) sin(x)/x = 1.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q32 — Derivatives
+### Q32, Derivatives
 
 What is the derivative of f(x) = x^3 * e^x?
 
@@ -688,11 +688,11 @@ What is the derivative of f(x) = x^3 * e^x?
 
 Using the product rule: f'(x) = (x^3)' *e^x + x^3* (e^x)' = 3x^2 *e^x + x^3* e^x = e^x(x^3 + 3x^2).
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q33 — Chain Rule
+### Q33, Chain Rule
 
 If f(x) = sin(3x^2), what is f'(x)?
 
@@ -708,11 +708,11 @@ If f(x) = sin(3x^2), what is f'(x)?
 
 By the chain rule: f'(x) = cos(3x^2) *d/dx(3x^2) = cos(3x^2)* 6x = 6x * cos(3x^2).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q34 — Integration
+### Q34, Integration
 
 What is the integral of 2x / (1 + x^2) dx?
 
@@ -728,11 +728,11 @@ What is the integral of 2x / (1 + x^2) dx?
 
 Let u = 1 + x^2, then du = 2x dx. The integral becomes integral(1/u) du = ln|u| + C = ln(1 + x^2) + C.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q35 — Definite Integrals
+### Q35, Definite Integrals
 
 What is the definite integral from 0 to pi of sin(x) dx?
 
@@ -748,11 +748,11 @@ What is the definite integral from 0 to pi of sin(x) dx?
 
 Integral of sin(x) = -cos(x). Evaluating from 0 to pi: [-cos(pi)] - [-cos(0)] = [-(-1)] - [-1] = 1 + 1 = 2.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q36 — Applications of Derivatives
+### Q36, Applications of Derivatives
 
 For f(x) = x^3 - 3x + 2, at which value of x does f have a local maximum?
 
@@ -768,11 +768,11 @@ For f(x) = x^3 - 3x + 2, at which value of x does f have a local maximum?
 
 f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1). Critical points at x = 1 and x = -1. f''(x) = 6x. f''(-1) = -6 < 0, so x = -1 is a local maximum. f''(1) = 6 > 0, so x = 1 is a local minimum.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q37 — Related Rates
+### Q37, Related Rates
 
 A circle's radius increases at 2 cm/s. How fast is the area increasing when r = 5 cm?
 
@@ -788,11 +788,11 @@ A circle's radius increases at 2 cm/s. How fast is the area increasing when r = 
 
 A = pi*r^2. dA/dt = 2*pi*r * dr/dt = 2*pi*5*2 = 20 pi cm^2/s.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q38 — Volumes of Revolution
+### Q38, Volumes of Revolution
 
 The volume of the solid obtained by rotating the region under y = x from x = 0 to x = 1 about the x-axis is:
 
@@ -808,11 +808,11 @@ The volume of the solid obtained by rotating the region under y = x from x = 0 t
 
 V = pi *integral from 0 to 1 of (x)^2 dx = pi* [x^3/3] from 0 to 1 = pi * (1/3 - 0) = pi/3.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q39 — Series
+### Q39, Series
 
 What is the sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...?
 
@@ -828,11 +828,11 @@ What is the sum of the infinite geometric series 1 + 1/2 + 1/4 + 1/8 + ...?
 
 This is a geometric series with a = 1 and r = 1/2. Since |r| < 1, the sum = a/(1-r) = 1/(1-1/2) = 1/(1/2) = 2.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q40 — Differential Equations
+### Q40, Differential Equations
 
 Which of the following is the solution to dy/dx = 2y?
 
@@ -848,13 +848,13 @@ Which of the following is the solution to dy/dx = 2y?
 
 Separating variables: dy/y = 2 dx. Integrating: ln|y| = 2x + C. Exponentiating: y = e^(2x+C) = e^C * e^(2x) = Ce^(2x).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Statistics (Q41–Q50)
 
-### Q41 — Descriptive Statistics
+### Q41, Descriptive Statistics
 
 A data set has values: 2, 4, 4, 4, 5, 5, 7, 9. What is the mean?
 
@@ -870,11 +870,11 @@ A data set has values: 2, 4, 4, 4, 5, 5, 7, 9. What is the mean?
 
 Mean = (2+4+4+4+5+5+7+9)/8 = 40/8 = 5.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q42 — Probability
+### Q42, Probability
 
 Two independent events A and B have P(A) = 0.3 and P(B) = 0.4. What is P(A and B)?
 
@@ -890,11 +890,11 @@ Two independent events A and B have P(A) = 0.3 and P(B) = 0.4. What is P(A and B
 
 For independent events: P(A and B) = P(A) *P(B) = 0.3* 0.4 = 0.12.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q43 — Distributions
+### Q43, Distributions
 
 In a normal distribution, approximately what percentage of data falls within 2 standard deviations of the mean?
 
@@ -910,11 +910,11 @@ In a normal distribution, approximately what percentage of data falls within 2 s
 
 The empirical rule states: approximately 68% within 1 SD, 95% within 2 SD, and 99.7% within 3 SD of the mean.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q44 — Sampling
+### Q44, Sampling
 
 Which sampling method is most likely to produce a biased sample of students at a university?
 
@@ -930,11 +930,11 @@ Which sampling method is most likely to produce a biased sample of students at a
 
 A convenience sample uses the most easily accessible individuals, which introduces selection bias. For example, surveying only students in the library excludes those who study elsewhere. Random sampling methods (A, B, D, E) reduce bias.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q45 — Hypothesis Testing
+### Q45, Hypothesis Testing
 
 In a hypothesis test, a p-value of 0.03 means:
 
@@ -950,11 +950,11 @@ In a hypothesis test, a p-value of 0.03 means:
 
 The p-value is the probability of obtaining results at least as extreme as the observed data, assuming the null hypothesis is true. It is NOT the probability that the null hypothesis is true.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q46 — Confidence Intervals
+### Q46, Confidence Intervals
 
 A 95% confidence interval for a population mean is (10, 16). Which interpretation is correct?
 
@@ -970,11 +970,11 @@ A 95% confidence interval for a population mean is (10, 16). Which interpretatio
 
 A confidence interval is about the reliability of the method. A 95% CI means that if we repeated the experiment many times, approximately 95% of the resulting intervals would contain the true population parameter.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q47 — Regression
+### Q47, Regression
 
 In a linear regression model, the coefficient of determination (R-squared) measures:
 
@@ -990,11 +990,11 @@ In a linear regression model, the coefficient of determination (R-squared) measu
 
 R-squared measures the proportion of the variance in the dependent variable that is predictable from the independent variable(s). An R-squared of 0.85 means 85% of the variation in Y is explained by the model.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q48 — Experimental Design
+### Q48, Experimental Design
 
 In a randomised controlled experiment, the control group:
 
@@ -1010,11 +1010,11 @@ In a randomised controlled experiment, the control group:
 
 The control group does not receive the experimental treatment and serves as a baseline for comparison. This allows researchers to determine whether the treatment has an effect. The control group may receive a placebo (C), but this is not always the case.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q49 — Chi-Squared Test
+### Q49, Chi-Squared Test
 
 A chi-squared goodness-of-fit test is used to determine whether:
 
@@ -1030,11 +1030,11 @@ A chi-squared goodness-of-fit test is used to determine whether:
 
 The chi-squared goodness-of-fit test compares observed frequencies to expected frequencies to determine whether the data fit a specific distribution. It is used for categorical data.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q50 — Type Errors
+### Q50, Type Errors
 
 In hypothesis testing, a Type II error occurs when:
 
@@ -1050,7 +1050,7 @@ In hypothesis testing, a Type II error occurs when:
 
 A Type I error is rejecting a true null hypothesis (false positive). A Type II error is failing to reject a false null hypothesis (false negative). Reducing one type of error typically increases the other, holding sample size constant.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -1095,11 +1095,11 @@ A Type I error is rejecting a true null hypothesis (false positive). A Type II e
 
 ## Cross-References
 
-- **[AP Biology](biology)** — Cell biology, genetics, evolution, ecology, and physiology
-- **[AP Chemistry](chemistry)** — Atomic structure, bonding, stoichiometry, thermodynamics, and organic chemistry
-- **[AP Physics](physics-1)** — Mechanics, energy, momentum, rotation, and oscillations
-- **[AP Calculus AB](calculus-ab)** — Limits, derivatives, integrals, and applications
-- **[AP Statistics](statistics)** — Descriptive statistics, probability, distributions, and hypothesis testing
+- **[AP Biology](biology)**, Cell biology, genetics, evolution, ecology, and physiology
+- **[AP Chemistry](chemistry)**, Atomic structure, bonding, stoichiometry, thermodynamics, and organic chemistry
+- **[AP Physics](physics-1)**, Mechanics, energy, momentum, rotation, and oscillations
+- **[AP Calculus AB](calculus-ab)**, Limits, derivatives, integrals, and applications
+- **[AP Statistics](statistics)**, Descriptive statistics, probability, distributions, and hypothesis testing
 
 ---
 
@@ -1107,7 +1107,7 @@ A Type I error is rejecting a true null hypothesis (false positive). A Type II e
 
 1. **Time yourself.** 60 minutes for 50 questions mirrors the pace of the AP multiple-choice section.
 2. **Use the A–E format.** AP exams use five options per question, which reduces the probability of guessing correctly.
-3. **Study the explanations.** AP questions often test common misconceptions — the explanations address these directly.
+3. **Study the explanations.** AP questions often test common misconceptions, the explanations address these directly.
 4. **Focus on understanding, not memorisation.** AP exams test whether you can apply concepts to new situations.
 5. **Retake after one week.** Spaced repetition is the most effective way to retain information.
 

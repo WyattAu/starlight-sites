@@ -23,7 +23,7 @@ categories:
 ## Overview
 
 This guide covers the **CBSE Class 11 and 12 Chemistry** syllabus (NCERT). It is divided into three
-branches — Physical, Inorganic, and Organic Chemistry — with key concepts, reactions, and
+branches, Physical, Inorganic, and Organic Chemistry, with key concepts, reactions, and
 exam-focused advice.
 
 The CBSE Class 12 Chemistry board exam carries **70 marks** (theory) + **30 marks** (practical). The
@@ -431,7 +431,7 @@ Watson-Crick base pairing: A--T (2 H-bonds), G--C (3 H-bonds).
 5. **Draw resonance structures where applicable.** This is expected for benzene, phenol, carboxylate ions,
    and conjugated systems.
 6. **State the geometry of hybridised orbitals.** Questions frequently ask for the geometry and bond
-   angle of a specific molecule — know the hybridisation-table relationships.
+   angle of a specific molecule, know the hybridisation-table relationships.
 7. **Know the trends and exceptions.** CBSE regularly tests lanthanide contraction, diagonal relationships,
    inert pair effect, and anomalous behaviour of Li, Be, and O.
 

@@ -123,7 +123,7 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 ### Connections to Other Topics
 
-- **Quantum electrodynamics:** Spontaneous emission is not predicted by non-relativistic quantum mechanics alone — it requires coupling to the quantised electromagnetic field vacuum.
+- **Quantum electrodynamics:** Spontaneous emission is not predicted by non-relativistic quantum mechanics alone, it requires coupling to the quantised electromagnetic field vacuum.
 - **Scattering theory:** The $T$-matrix formalism generalises FGR to higher orders. The optical theorem ($\sigma_{\text{tot}} = (4\pi/k)\,\text{Im}\,f(0)$) relates the forward scattering amplitude to the total cross section.
 - **Solid-state physics:** Fermi's Golden Rule describes electron--phonon scattering, carrier relaxation, and exciton decay in semiconductors.
 
@@ -135,7 +135,7 @@ $A_{3d \to 2p} \sim 6.4 \times 10^7$ s$^{-1}$.
 
 $$k = \sqrt{2m\epsilon}/\hbar, \quad \rho(\epsilon) = \frac{V m k}{(2\pi)^3 \hbar^2} d\Omega$$
 
-The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 10^{-18}$ cm$^2$ for hydrogen. At intensity $I = 10^{12}$ W/m$^2$, the rate $\Gamma = \sigma I / (\hbar\omega) \approx 10^{14}$ s$^{-1}$ — complete ionisation occurs within femtoseconds for intense fields.
+The photoionisation cross section near threshold is $\sigma \approx 6.3 \times 10^{-18}$ cm$^2$ for hydrogen. At intensity $I = 10^{12}$ W/m$^2$, the rate $\Gamma = \sigma I / (\hbar\omega) \approx 10^{14}$ s$^{-1}$, complete ionisation occurs within femtoseconds for intense fields.
 
 ### Summary Table: Transition Types
 

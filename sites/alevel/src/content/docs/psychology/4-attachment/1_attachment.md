@@ -33,7 +33,7 @@ institutionalisation, and how early attachment experiences influence later relat
 
 ### Animal Studies
 
-**Lorenz (1935) — Imprinting in geese:**
+**Lorenz (1935), Imprinting in geese:**
 
 **Procedure:** Lorenz divided a clutch of greylag goose eggs into two groups. One group hatched
 under normal conditions with the mother goose; the other hatched in an incubator with Lorenz as the
@@ -48,11 +48,11 @@ called **imprinting**, occurred within a brief, biologically determined **critic
 
 - Imprinting is innate (genetically programmed).
 - It occurs during a critical period.
-- It is irreversible — once imprinted, the attachment cannot be reversed.
-- Imprinting affects later mate preference — Lorenz found that imprinted birds later directed sexual
+- It is irreversible, once imprinted, the attachment cannot be reversed.
+- Imprinting affects later mate preference, Lorenz found that imprinted birds later directed sexual
   behaviour towards humans.
 
-**Harlow (1958, 1962) — Contact comfort in rhesus monkeys:**
+**Harlow (1958, 1962), Contact comfort in rhesus monkeys:**
 
 **Procedure:** Harlow separated infant rhesus monkeys from their mothers at birth and raised them
 with two surrogate "mothers": one made of wire mesh that provided milk, and one covered in soft
@@ -69,7 +69,7 @@ in the formation of attachment.
 
 ### Human Attachment
 
-**Ainsworth et al. (1978) — The Strange Situation:**
+**Ainsworth et al. (1978), The Strange Situation:**
 
 A controlled observation procedure designed to measure the quality of attachment between a child
 (12–18 months) and their caregiver. It takes place in a controlled room with a two-way mirror and
@@ -103,7 +103,7 @@ response to the stranger.
 **Cultural variations:** Van Ijzendoorn and Kroonenberg (1988) conducted a meta-analysis of 32
 Strange Situation studies across 8 countries. Secure attachment was the most common type in all
 cultures. However, the proportion of insecure-avoidant and insecure-resistant attachments varied
-across cultures — German samples showed higher rates of insecure-avoidant attachment, while Japanese
+across cultures, German samples showed higher rates of insecure-avoidant attachment, while Japanese
 samples showed higher rates of insecure-resistant attachment. This may reflect cultural differences
 in child-rearing practices rather than differences in attachment quality.
 
@@ -123,7 +123,7 @@ enhances survival.
 3. **Critical period:** Bowlby proposed that attachment must form within a critical period
    (approximately birth to 2.5 years). If no attachment forms during this time, the child will
    suffer irreversible long-term consequences. (Later research suggests a **sensitive period** is
-   more accurate — attachment can form after this window, but it is more difficult.)
+   more accurate, attachment can form after this window, but it is more difficult.)
 
 4. **Monotropy:** Bowlby argued that the child forms one special, primary attachment (in most cases
    to the mother), which is qualitatively different from other attachments. This primary attachment
@@ -172,7 +172,7 @@ and delinquency does not prove causation.
 After the fall of the Ceaușescu regime in Romania in 1989, thousands of children were found living
 in severely deprived institutional conditions. This provided a unique natural experiment.
 
-**Rutter et al. (2011) — English and Romanian Adoptees (ERA) study:**
+**Rutter et al. (2011), English and Romanian Adoptees (ERA) study:**
 
 **Procedure:** 165 Romanian orphans adopted by British families were assessed at various ages (4, 6,
 11, 15, and into adulthood). They were compared with a control group of 52 British children adopted
@@ -190,7 +190,7 @@ and 24–42 months.
   cognitive development.
 
 **Significance:** Demonstrates that the effects of institutionalisation can be partially reversed by
-early intervention, but the likelihood of recovery depends on the timing — supporting the concept of
+early intervention, but the likelihood of recovery depends on the timing, supporting the concept of
 a sensitive (not critical) period. Disinhibited attachment is a particularly persistent consequence
 of early institutional care.
 
@@ -271,7 +271,7 @@ adulthood.
 
 ### Limitations
 
-- **Animal studies** raise issues of generalisability — attachment processes in geese and monkeys
+- **Animal studies** raise issues of generalisability, attachment processes in geese and monkeys
   may not be the same as in humans. They also raise significant ethical concerns about the treatment
   of animals.
 - **The Strange Situation** may not be culturally universal. Takahashi (1990) found that Japanese
@@ -283,7 +283,7 @@ adulthood.
   multiple attachments of equal importance.
 - **The continuity hypothesis** is based largely on correlational and retrospective data. Hazan and
   Shaver's study relied on adults recalling their childhood attachments, which is subject to memory
-  distortion. Temperament may be an alternative explanation — a child's innate temperament could
+  distortion. Temperament may be an alternative explanation, a child's innate temperament could
   influence both attachment type and later relationship quality.
 - **Deterministic:** Bowlby's theory implies that early attachment irrevocably determines later
   outcomes. This is overly deterministic, as the Romanian orphan studies show that recovery is
@@ -312,7 +312,7 @@ Attachment research uses a range of methods:
    prospects differ.
 2. **Confusing critical period and sensitive period:** Bowlby originally used "critical period"
    (implying no recovery is possible after the window closes). Research from Romanian orphan studies
-   supports the concept of a "sensitive period" — recovery is harder but not impossible. Always use
+   supports the concept of a "sensitive period", recovery is harder but not impossible. Always use
    the correct term.
 3. **Overstating monotropy:** Bowlby's emphasis on the mother as the sole attachment figure is
    culturally biased and outdated. Modern research recognises multiple attachment figures. Do not
@@ -333,7 +333,7 @@ born with an innate drive to form an attachment with their primary caregiver, wh
 protection, nourishment, and a secure base from which to explore.
 
 A central concept is that of social releasers. Bowlby argued that infants are born with innate
-behaviours — smiling, cooing, crying, and grasping — that elicit caregiving responses from adults.
+behaviours, smiling, cooing, crying, and grasping, that elicit caregiving responses from adults.
 These social releasers activate the adult's innate caregiving system, creating a reciprocal
 attachment process. This explains why adults generally find infants appealing and feel compelled to
 respond to their cries.
@@ -346,7 +346,7 @@ experienced prolonged early separation from their mothers, compared to only 5% o
 
 The concept of monotropy is central to Bowlby's theory. He argued that the child forms one special,
 primary attachment that is qualitatively different from all others. This primary attachment
-relationship provides the basis for the internal working model — a mental template of expectations
+relationship provides the basis for the internal working model, a mental template of expectations
 about relationships that guides all future social interactions. A secure attachment leads to the
 expectation that others are trustworthy and supportive, while an insecure attachment leads to
 expectations of rejection or unreliability.
@@ -382,7 +382,7 @@ strict critical period, suggesting that Bowlby was overly pessimistic about the 
 recovery.
 
 Additionally, the continuity hypothesis is supported largely by correlational data. Temperament may
-offer an alternative explanation — a child's innate temperament (e.g., being easy-going or
+offer an alternative explanation, a child's innate temperament (e.g., being easy-going or
 difficult) could influence both attachment type and later relationship quality, without early
 attachment being the cause of later outcomes. Kagan (1984) argued that temperament is a better
 predictor of attachment type than caregiving quality.
@@ -407,7 +407,7 @@ childcare policy.
 The Romanian orphan studies, particularly Rutter et al.'s (2011) English and Romanian Adoptees (ERA)
 study, represent the most significant research in this area. After the fall of the Ceaușescu regime
 in 1989, over 100,000 Romanian children were found living in extremely deprived institutional
-conditions — shared carers, minimal interaction, poor nutrition, and little stimulation. Rutter and
+conditions, shared carers, minimal interaction, poor nutrition, and little stimulation. Rutter and
 colleagues followed 165 Romanian orphans adopted by British families, comparing them with 52 British
 children adopted before 6 months of age.
 
@@ -415,12 +415,12 @@ The findings were striking. Children adopted before 6 months of age showed good 
 cognitive development and attachment outcomes similar to the British control group by age 4. This
 suggests that early adoption can largely mitigate the effects of institutionalisation. However,
 children adopted between 6 and 24 months, and those adopted between 24 and 42 months, showed higher
-rates of developmental difficulties, particularly disinhibited attachment — characterised by
+rates of developmental difficulties, particularly disinhibited attachment, characterised by
 indiscriminate friendliness, a lack of appropriate social wariness, and attention-seeking behaviour.
 
 Disinhibited attachment was the most persistent consequence of institutionalisation. Even at age 15,
 children adopted after 6 months continued to show higher rates of disinhibited attachment than those
-adopted earlier. However, cognitive development showed remarkable catch-up — by age 11, even those
+adopted earlier. However, cognitive development showed remarkable catch-up, by age 11, even those
 adopted after 24 months showed significant improvement in IQ, although they still lagged behind the
 control group.
 
@@ -438,8 +438,8 @@ prioritised foster care over institutional care.
 However, the Romanian orphanages represented an extreme case of deprivation. The conditions were
 exceptionally poor, even by the standards of institutional care. This means the findings may not
 generalise to institutional care in other countries, where conditions may be less severe. The
-children also experienced multiple forms of deprivation — not just emotional but also nutritional,
-cognitive, and medical — making it difficult to isolate the specific effect of attachment
+children also experienced multiple forms of deprivation, not just emotional but also nutritional,
+cognitive, and medical, making it difficult to isolate the specific effect of attachment
 deprivation.
 
 Zeanah et al. (2005) provided complementary evidence from the Bucharest Early Intervention Project

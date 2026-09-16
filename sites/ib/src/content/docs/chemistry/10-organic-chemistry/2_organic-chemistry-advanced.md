@@ -1,7 +1,7 @@
 ---
 
 title: "Organic Chemistry (Advanced)"
-description: "IB Chemistry — reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification."
+description: "IB Chemistry, reaction mechanisms, stereochemistry, addition and condensation polymers, and spectroscopic identification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Advanced organic chemistry is like molecular engineering — understanding reaction mechanisms allows precise synthesis of complex molecules:** Reaction mechanisms show electron flow through curved arrows, revealing why reactions occur and how to control them
+**Advanced organic chemistry is like molecular engineering, understanding reaction mechanisms allows precise synthesis of complex molecules:** Reaction mechanisms show electron flow through curved arrows, revealing why reactions occur and how to control them
 
 **Why it matters:** Advanced organic chemistry enables drug synthesis, materials design, and understanding biochemical pathways
 
@@ -202,7 +202,7 @@ $Z$ (zusammen). Opposite sides: $E$ (entgegen).
 
 - A molecule with a plane of symmetry is never chiral, even if it has stereocentres (meso
   compounds).
-- Not all stereocentres produce chirality — internal symmetry can make a molecule achiral.
+- Not all stereocentres produce chirality, internal symmetry can make a molecule achiral.
 - $R$/$S$ refers to absolute configuration at a single stereocentre; it does not predict the
   direction of optical rotation.
 
@@ -257,7 +257,7 @@ Biological breakdown. Disposal by landfill or incineration creates environmental
 
 - The repeating unit of an addition polymer is not the same as the monomer (the double bond is
   gone).
-- Condensation polymers and addition polymers are formed by different mechanisms — do not confuse
+- Condensation polymers and addition polymers are formed by different mechanisms, do not confuse
   them.
 
 ---
@@ -287,7 +287,7 @@ $$
 $$
 
 :::note
-<strong>Example — PET (polyethylene terephthalate)</strong>
+<strong>Example, PET (polyethylene terephthalate)</strong>
 Monomers: ethane-1,2-diol and benzene-1,4-dicarboxylic acid.
 
 $$
@@ -305,7 +305,7 @@ $$
 $$
 :::
 :::note
-<strong>Example — Nylon-6,6</strong>
+<strong>Example, Nylon-6,6</strong>
 Monomers: hexane-1,6-diamine and hexanedioic acid.
 
 $$
@@ -451,7 +451,7 @@ $\mathrm{^1H}$ NMR spectrum shows: $\delta\ 1.2\ (d,\ 3\mathrm{H})$
 $\delta\ 4.1\ (q,\ 1\mathrm{H})$, $\delta\ 11.0\ (s,\ 1\mathrm{H})$ And a singlet at $\delta\ 2.0$ That
 integrates to $1\mathrm{H}$.
 
-Wait — the formula only has 6 H. Let me correct: $\delta\ 1.2\ (d,\ 3\mathrm{H})$
+Wait, the formula only has 6 H. Let me correct: $\delta\ 1.2\ (d,\ 3\mathrm{H})$
 $\delta\ 2.5\ (q,\ 2\mathrm{H})$, $\delta\ 11.5\ (s,\ 1\mathrm{H})$. Identify the compound.
 
 **Solution:**

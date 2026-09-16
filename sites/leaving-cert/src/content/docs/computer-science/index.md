@@ -64,7 +64,7 @@ Problem decomposition, pattern recognition, abstraction, algorithm complexity, a
 
 ## Study Tips
 
-Practise coding regularly — the coursework project requires strong programming skills. Understand
+Practise coding regularly, the coursework project requires strong programming skills. Understand
 algorithms at the trace-table level. For theory, focus on being able to explain concepts precisely
 and precisely.
 

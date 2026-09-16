@@ -130,7 +130,7 @@ hierarchical societies).
 ### Resistance to Social Influence
 
 - **Social support:** The presence of an ally who dissents from the majority reduces conformity
-  (Asch) and obedience (Milgram, variation with another confederate who refused to continue —
+  (Asch) and obedience (Milgram, variation with another confederate who refused to continue,
   obedience dropped to 10%).
 - **Locus of control (Rotter, 1966):** Individuals with an **internal locus of control** believe
   they control their own behaviour and outcomes. They are more resistant to social influence.
@@ -157,12 +157,12 @@ inconsistent condition, agreement was only 1.25%.
 1. **Consistency:** The minority must be consistent over time and within the group (synchronic and
    diachronic consistency). This suggests confidence and makes the majority reconsider.
 2. **Commitment:** The minority must demonstrate dedication, sometimes through personal sacrifice.
-   This is known as the **augmentation principle** — the majority takes the minority's view more
+   This is known as the **augmentation principle**, the majority takes the minority's view more
    seriously when they see them willing to suffer for it.
 3. **Flexibility:** The minority must not be seen as dogmatic or rigid. A willingness to compromise
    makes the minority position more reasonable and persuasive.
 
-**Conversion theory:** Minority influence leads to **internalisation** — a genuine, deep change in
+**Conversion theory:** Minority influence leads to **internalisation**, a genuine, deep change in
 beliefs. Unlike majority influence (which often produces only surface-level compliance), minority
 influence causes people to privately reconsider their position through a process of **cognitive
 conflict** and **validation**.
@@ -191,7 +191,7 @@ legislation or campaigns), people follow the new majority position.
 
 | Study                     | Researcher(s)  | Year | Method                         | Key Findings                                                                        | Evaluation                                                                             |
 | ------------------------- | -------------- | ---- | ------------------------------ | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| Line conformity           | Asch           | 1951 | Lab experiment                 | 37% conformity rate; group size, unanimity, and task difficulty affected conformity | High control; artificial task; all male, American — cultural and gender bias           |
+| Line conformity           | Asch           | 1951 | Lab experiment                 | 37% conformity rate; group size, unanimity, and task difficulty affected conformity | High control; artificial task; all male, American, cultural and gender bias           |
 | Obedience to authority    | Milgram        | 1963 | Lab experiment                 | 65% obeyed to 450V; proximity, location, and uniform affected obedience             | Deception justified; ethical concerns; high internal validity; low ecological validity |
 | Stanford Prison           | Zimbardo       | 1973 | Field experiment               | Guards became abusive; prisoners submissive; terminated early                       | Dramatic demonstration; ethical concerns; researcher bias; small sample                |
 | Blue-green slides         | Moscovici      | 1969 | Lab experiment                 | Consistent minority influenced 8.42% of responses                                   | Supports minority influence; artificial task; only female participants                 |
@@ -289,7 +289,7 @@ establish the universality of social influence processes and identifies cultural
 Conformity is a form of social influence in which an individual changes their behaviour or beliefs
 to align with those of a group. Kelman (1958) identified three types: compliance (public agreement
 without private acceptance), identification (adopting group norms to gain acceptance), and
-internalisation (genuine belief change). Two key explanations underpin conformity — normative social
+internalisation (genuine belief change). Two key explanations underpin conformity, normative social
 influence (NSI), the desire to be liked and accepted, and informational social influence (ISI), the
 desire to be correct.
 
@@ -301,11 +301,11 @@ answer before the real participant responded. Asch found a mean conformity rate 
 critical trials, with 75% of participants conforming at least once. However, 25% never conformed,
 demonstrating individual differences in resistance to conformity.
 
-Asch systematically varied factors to explore what influenced conformity. Group size mattered —
+Asch systematically varied factors to explore what influenced conformity. Group size mattered,
 conformity increased up to three confederates, after which further increases had little effect.
 Unanimity was crucial; the presence of even one dissenter (a confederate giving a different answer,
 whether correct or incorrect) reduced conformity to approximately 5.5%. Task difficulty also played
-a role — when lines were made more similar, conformity increased, supporting the role of ISI in
+a role, when lines were made more similar, conformity increased, supporting the role of ISI in
 ambiguous situations.
 
 A key strength of Asch's research is its high level of control. The standardised procedure, with
@@ -314,18 +314,18 @@ increasing internal validity. This allowed Asch to establish a clear cause-and-e
 between group pressure and conformity. Furthermore, the paradigm has been replicated many times,
 demonstrating good reliability.
 
-However, Asch's study suffers from significant limitations. The task — judging line lengths — is
+However, Asch's study suffers from significant limitations. The task, judging line lengths, is
 trivial and artificial, bearing little resemblance to the real-life situations in which conformity
 occurs. This low mundane realism limits ecological validity. Moreover, Perrin and Spencer (1980)
 replicated the study with engineering students in the UK and found virtually no conformity,
 suggesting that the original findings may have been a product of the 1950s American cultural context
-— McCarthyism and the pressure to conform were particularly strong at that time.
+- McCarthyism and the pressure to conform were particularly strong at that time.
 
 The sample is also problematic. Asch used only male American university students, which severely
 limits generalisability to women, other age groups, and other cultures. Bond and Smith's (1996)
 meta-analysis of 133 Asch-type studies across 17 countries found higher conformity rates in
 collectivist cultures, confirming that culture moderates conformity. Additionally, ethical concerns
-include the use of deception — participants were not told about the confederates or the true aim,
+include the use of deception, participants were not told about the confederates or the true aim,
 although this was arguably justified by the scientific value of the findings.
 
 In conclusion, Asch's research provides a foundational understanding of conformity and the factors
@@ -368,13 +368,13 @@ experimenter wore everyday clothes, it fell to 20%. This demonstrates that perce
 authority facilitates the agentic shift.
 
 However, the agentic state explanation has been criticised. It does not explain why some
-participants refused to obey at all — if the agentic shift were universal, 100% of participants
+participants refused to obey at all, if the agentic shift were universal, 100% of participants
 would have obeyed. Individual differences, such as locus of control (Rotter, 1966), suggest that
 dispositional factors also play a role. People with an internal locus of control are more resistant
 to authority, implying that the agentic shift is not the complete explanation.
 
 Additionally, the agentic state is a theoretical construct that is difficult to test empirically. We
-cannot directly observe whether someone is in an agentic or autonomous state — we can only infer it
+cannot directly observe whether someone is in an agentic or autonomous state, we can only infer it
 from their behaviour. This makes the explanation difficult to falsify, which is a limitation from a
 scientific perspective.
 
@@ -386,7 +386,7 @@ described by the theory.
 
 In conclusion, the agentic state explanation provides a valuable framework for understanding
 obedience, supported by Milgram's experimental variations. It highlights the powerful role of
-situational factors in shaping behaviour. However, it is not a complete explanation — individual
+situational factors in shaping behaviour. However, it is not a complete explanation, individual
 differences, cultural factors, and the difficulty of empirically testing the agentic state limit its
 explanatory power. A comprehensive understanding of obedience requires integrating situational and
 dispositional perspectives.

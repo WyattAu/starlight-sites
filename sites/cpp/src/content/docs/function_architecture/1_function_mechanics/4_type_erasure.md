@@ -1,6 +1,6 @@
 ---
 
-title: Type Erasure — Function Pointers, std::function, std::move_only_function
+title: Type Erasure, Function Pointers, std::function, std::move_only_function
 description: "Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function"
 date: 2026-04-03T00:00:00.000Z
 tags:
@@ -69,7 +69,7 @@ Signature:
 #include <cstdio>
 
 int main() {
-    // Stateless lambda — no captures
+    // Stateless lambda, no captures
     auto greet = [](const char* name) {
         std::printf("Hello, %s\n", name);
     };
@@ -163,12 +163,12 @@ x86-64). If the stored callable fits within this buffer, no heap allocation occu
 #include <cstdint>
 
 struct LargeCallable {
-    int64_t data[8] = {};  // 64 bytes — exceeds typical SBO threshold
+    int64_t data[8] = {};  // 64 bytes, exceeds typical SBO threshold
     int operator()(int x) const { return x + static_cast<int>(data[0]); }
 };
 
 struct SmallCallable {
-    int64_t data[1] = {42};  // 8 bytes — fits in SBO
+    int64_t data[1] = {42};  // 8 bytes, fits in SBO
     int operator()(int x) const { return x + static_cast<int>(data[0]); }
 };
 
@@ -266,7 +266,7 @@ int main() {
     logger("Performing computation");
     logger("Application finished");
 
-    // logger is move-only — cannot be copied:
+    // logger is move-only, cannot be copied:
     // auto logger2 = logger;  // ERROR: deleted copy constructor
     auto logger2 = std::move(logger);  // OK: move transfers ownership
 
@@ -529,8 +529,8 @@ public:
 
     Task(Task&& other) noexcept
         : invoke_(other.invoke_)
-        , move_(other.move_)
-        , destroy_(other.destroy_)
+move_(other.move_)
+destroy_(other.destroy_)
     {
         if (move_) {
             move_(buffer_, other.buffer_);
@@ -624,7 +624,7 @@ public:
         requires std::is_invocable_r_v<R, F&, Args...>
     FunctionRef(F& f) noexcept
         : obj_(reinterpret_cast<void*>(std::addressof(f)))
-        , invoke_([](void* obj, Args... args) -> R {
+invoke_([](void* obj, Args... args) -> R {
             return (*reinterpret_cast<F*>(obj))(std::forward<Args>(args)...);
           })
     {}
@@ -652,11 +652,11 @@ The `FunctionRef`.
 
 ## Intuition
 
-**Hiding types:** Type erasure is like a universal container — it lets you store different types behind a common interface, hiding the specific type information.
+**Hiding types:** Type erasure is like a universal container, it lets you store different types behind a common interface, hiding the specific type information.
 
 **Why it matters:** Type erasure enables polymorphism without inheritance, making code more flexible and reducing compilation dependencies.
 
-**The key insight:** std::function is a classic type erasure example — it can wrap any callable, hiding its specific type.
+**The key insight:** std::function is a classic type erasure example, it can wrap any callable, hiding its specific type.
 
 ## Common Pitfalls
 
@@ -734,7 +734,7 @@ flowchart TD
 
 ## Summary
 
-This topic covers the fundamental principles of type erasure — function pointers, std::function,
+This topic covers the fundamental principles of type erasure, function pointers, std::function,
 std::move_only_function, including the key equations, experimental methods, and applications
 relevant to the specification.
 

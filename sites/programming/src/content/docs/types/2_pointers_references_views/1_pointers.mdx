@@ -133,7 +133,7 @@ Is undefined behavior.
    formal statement of the one-past-the-end rule.
 
 3. By [N4950 §7.6.1.1], the indirection operator `*` requires that its operand be a pointer to an
-   object. The one-past-the-end pointer does not point to any object — it points to the position
+   object. The one-past-the-end pointer does not point to any object, it points to the position
    immediately after the last element.
 
 4. Therefore, `*(arr + n)` is undefined behavior. QED.
@@ -246,7 +246,7 @@ Derived d\{1, 2\};
 int val = d.*pb;  // accesses d.b
 ```
 
-For virtual inheritance, the implementation is more complex — the offset may be stored as a pair
+For virtual inheritance, the implementation is more complex, the offset may be stored as a pair
 (virtual base offset + member offset) and resolved at runtime.
 
 ### Void Pointers
@@ -272,8 +272,8 @@ Them, but you cannot dereference them or perform pointer arithmetic until the ty
 struct Forward;  // incomplete type
 
 Forward* fp = nullptr;  // OK: pointer to incomplete type
-// Forward f;            // ERROR: incomplete type — cannot create object
-// *fp;                  // ERROR: incomplete type — cannot dereference
+// Forward f;            // ERROR: incomplete type, cannot create object
+// *fp;                  // ERROR: incomplete type, cannot dereference
 
 void process(Forward* p);  // OK: parameter declaration does not require complete type
 ```
@@ -286,7 +286,7 @@ void process(Forward* p);  // OK: parameter declaration does not require complet
 | `const T*`              | Yes        | Yes (r/o)   | Platform ptr | `void*``const void*`        |
 | `void*`                 | No         | No          | Platform ptr | (none)                      |
 | `T(*)()` (function ptr) | No         | Yes (call)  | Platform ptr | `void(*)()`                 |
-| `T C::*` (member ptr)   | No         | With object | 2x ptr size  | (none — requires object)    |
+| `T C::*` (member ptr)   | No         | With object | 2x ptr size  | (none, requires object)    |
 | `nullptr_t`             | No         | No          | Platform ptr | Any object/function pointer |
 
 Note: On most platforms, `sizeof(T*)` is 8 bytes (64-bit) or 4 bytes (32-bit). Pointer-to-member may
@@ -317,24 +317,24 @@ void caller() \{
 
 Array decay does not occur in the following contexts [N4950 §7.3.3]:
 
-1. As the operand of `sizeof` — `sizeof(arr)` yields the total array size.
-2. As the operand of `decltype` — `decltype(arr)` yields the array type.
-3. As the operand of `alignof` — `alignof(arr)` yields the array alignment.
-4. When bound to a reference — `void f(int (&arr)[N])` preserves the array type.
-5. When initializing a reference — `int (&ref)[10] = arr`.
+1. As the operand of `sizeof``sizeof(arr)` yields the total array size.
+2. As the operand of `decltype``decltype(arr)` yields the array type.
+3. As the operand of `alignof``alignof(arr)` yields the array alignment.
+4. When bound to a reference, `void f(int (&arr)[N])` preserves the array type.
+5. When initializing a reference, `int (&ref)[10] = arr`.
 
 ```cpp
 int arr[5] = \{1, 2, 3, 4, 5\};
 
-std::cout << sizeof(arr) << "\n";     // 20 (5 * sizeof(int)) — no decay
-std::cout << sizeof(arr + 0) << "\n"; // 8 (pointer size) — decayed
+std::cout << sizeof(arr) << "\n";     // 20 (5 * sizeof(int)), no decay
+std::cout << sizeof(arr + 0) << "\n"; // 8 (pointer size), decayed
 
-decltype(arr) another = \{6, 7, 8, 9, 10\};  // another is int[5] — no decay
+decltype(arr) another = \{6, 7, 8, 9, 10\};  // another is int[5], no decay
 ```
 
 ### Multi-Dimensional Array Decay
 
-Multi-dimensional arrays decay only the first dimension. A `T[M][N]` decays to `T(*)[N]` — a pointer
+Multi-dimensional arrays decay only the first dimension. A `T[M][N]` decays to `T(*)[N]`a pointer
 To an array of `N` elements. The inner dimension is preserved:
 
 ```cpp
@@ -521,23 +521,23 @@ C++ provides a layered hierarchy of pointer types with increasing safety guarant
 #include <vector>
 
 void safety_hierarchy() \{
-    // Level 0: Raw pointer — no lifetime management, no null safety
+    // Level 0: Raw pointer, no lifetime management, no null safety
     int* raw = new int(42);
     delete raw;  // Must manually manage
 
-    // Level 1: std::unique_ptr — exclusive ownership, no runtime overhead
+    // Level 1: std::unique_ptr, exclusive ownership, no runtime overhead
     auto unique = std::make_unique<int>(42);
     // Automatic cleanup when unique goes out of scope
 
-    // Level 2: std::shared_ptr — shared ownership, reference counting overhead
+    // Level 2: std::shared_ptr, shared ownership, reference counting overhead
     auto shared = std::make_shared<int>(42);
     // Cleanup when last shared_ptr is destroyed
 
     // Level 3: Non-owning observers
-    int* observer = shared.get();       // Raw observer — must outlive
-    std::weak_ptr<int> weak = shared;   // Safe observer — checks lifetime
+    int* observer = shared.get();       // Raw observer, must outlive
+    std::weak_ptr<int> weak = shared;   // Safe observer, checks lifetime
 
-    // Level 4: std::span (C++20) — bounded view
+    // Level 4: std::span (C++20), bounded view
     std::vector<int> v = \{1, 2, 3, 4, 5\};
     std::span<int> s = v;  // Bounds-checked in debug builds (MSVC, with sanitizer)
 \}
@@ -673,7 +673,7 @@ int* dangling_demo() \{
 
 void dangling_usage() \{
     int* p = dangling_demo();
-    // p is a dangling pointer — reading *p is UB
+    // p is a dangling pointer, reading *p is UB
     // The memory may be reused by subsequent allocations
 \}
 ```
@@ -730,7 +730,7 @@ void double_free() \{
     int* p = static_cast<int*>(std::malloc(sizeof(int)));
     *p = 42;
     std::free(p);
-    std::free(p);  // UB: double free — may corrupt heap metadata
+    std::free(p);  // UB: double free, may corrupt heap metadata
 \}
 
 void use_after_free() \{
@@ -781,7 +781,7 @@ int* q = p + 1;  // UB: arithmetic on null pointer
 
 ## Intuition
 
-A pointer is a street address written on an envelope. It does not contain the letter itself — it tells you where to find it. Pointer arithmetic is like walking down a street: if each house is the same size, adding 1 to the address moves you to the next house. Array decay is when the compiler treats an array as a pointer to its first element — it is like handing someone the address of your house instead of the house itself. Null pointers are addresses that point nowhere — like a street address for a demolished building. Dereferencing a null pointer is walking up to that empty lot and trying to open a door that does not exist.
+A pointer is a street address written on an envelope. It does not contain the letter itself, it tells you where to find it. Pointer arithmetic is like walking down a street: if each house is the same size, adding 1 to the address moves you to the next house. Array decay is when the compiler treats an array as a pointer to its first element, it is like handing someone the address of your house instead of the house itself. Null pointers are addresses that point nowhere, like a street address for a demolished building. Dereferencing a null pointer is walking up to that empty lot and trying to open a door that does not exist.
 
 
 ```mermaid

@@ -13,11 +13,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Intuition
 
-**Geometry of curved spaces:** Differential geometry studies the geometry of surfaces and curves using calculus — it describes how space curves, bends, and twists. It is the mathematics of general relativity (spacetime curvature) and computer graphics (surface rendering).
+**Geometry of curved spaces:** Differential geometry studies the geometry of surfaces and curves using calculus, it describes how space curves, bends, and twists. It is the mathematics of general relativity (spacetime curvature) and computer graphics (surface rendering).
 
 **Why it matters:** General relativity describes gravity as spacetime curvature, which is fundamentally a differential geometry problem. Computer graphics needs differential geometry to render smooth surfaces realistically.
 
-**The key insight:** The Gaussian curvature of a surface is intrinsic — the answer varies based on only on distances measured on the surface, not on how the surface sits in space. This insight led to Einstein theory of general relativity.
+**The key insight:** The Gaussian curvature of a surface is intrinsic, the answer varies based on only on distances measured on the surface, not on how the surface sits in space. This insight led to Einstein theory of general relativity.
 
 ## University Mathematics -- Differential Geometry Practice
 
@@ -55,7 +55,7 @@ the explanation.
 
 **Confusing the tangent bundle with the cotangent bundle:** The tangent bundle $TM$ consists of tangent vectors (velocity vectors), while the cotangent bundle $T^*M$ consists of covectors (1-forms, linear functionals on tangent spaces). Both have dimension $2n$, but they are different manifolds. The differential $df$ lives in $T^*M$, not $TM$.
 
-**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (directly connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact — its integral around $S^1$ is $2\pi \neq 0$.
+**Assuming a closed form is exact without checking topology:** By Poincaré's lemma, every closed form is exact on contractible (directly connected) domains. But on spaces with nontrivial topology (like $S^1$ or $T^2$), closed forms need not be exact. The form $d\theta$ on $S^1 \setminus \{0\}$ is closed ($d(d\theta) = 0$) but not exact, its integral around $S^1$ is $2\pi \neq 0$.
 
 **Misidentifying symmetries of the Riemann curvature tensor:** The Riemann tensor $R_{ijkl}$ satisfies $R_{ijkl} = -R_{jikl}$, $R_{ijkl} = -R_{ijlk}$, and $R_{ijkl} = R_{klij}$, but it does NOT satisfy $R_{ijkl} = R_{ikjl}$. Swapping the second and third indices (interior swap) is not a symmetry. Misidentifying symmetries leads to incorrect simplifications in curvature computations.
 

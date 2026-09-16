@@ -348,7 +348,7 @@ int main() {
     std::vector<int> v = {5, 3, 1, 4, 2};
     std::sort(v.begin(), v.end());  // OK: vector iterators are random-access
 
-    // std::list has bidirectional iterators — cannot use std::sort directly
+    // std::list has bidirectional iterators, cannot use std::sort directly
     std::list<int> l = {5, 3, 1, 4, 2};
     // std::sort(l.begin(), l.end());  // ERROR: list::iterator is not RandomAccessIterator
 
@@ -458,11 +458,11 @@ int main() {
 
 ## Intuition
 
-**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers — it provides a uniform interface (`++`, `*`, `->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features — some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
+**Iterators are like remote controls for containers:** A remote control lets you access TV channels (elements) without knowing how the TV works internally. An iterator does the same thing for containers, it provides a uniform interface (`++`, `*`, `->`) to access elements regardless of whether the container is a vector, list, or map. The iterator categories (input, forward, bidirectional, random access) are like remote control features, some let you go forward only, some let you go backward, and some let you jump to any channel instantly.
 
 **Why it matters:** Iterators are the bridge between algorithms and containers. Algorithms operate on iterator ranges, not containers directly. This means the same algorithm (`std::sort`, `std::find`) works with any container that provides the right iterator category. Understanding iterator categories is essential for writing generic code and for knowing which algorithms work with which containers.
 
-**The key insight:** Iterator categories determine which algorithms work — `std::sort` requires random access iterators, so it works with `std::vector` but not `std::list`.
+**The key insight:** Iterator categories determine which algorithms work, `std::sort` requires random access iterators, so it works with `std::vector` but not `std::list`.
 
 ## Common Pitfalls
 
@@ -529,7 +529,7 @@ int main() {
 
 ### Pitfall 3: Off-by-One with `end()`
 
-The `end()` iterator points **past the last element** — it is not dereferenceable:
+The `end()` iterator points **past the last element**, it is not dereferenceable:
 
 ```cpp
 #include <vector>

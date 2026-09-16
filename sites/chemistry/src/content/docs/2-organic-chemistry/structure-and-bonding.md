@@ -131,7 +131,7 @@ Examples: 1,3-butadiene, $\alpha,\beta$-unsaturated carbonyls, benzene.
 ### 4.2 Resonance
 
 **Definition 7 (Resonance):** When a molecule or ion can be represented by two or more valid Lewis
-structures (resonance forms), the actual structure is a hybrid — a weighted average.
+structures (resonance forms), the actual structure is a hybrid, a weighted average.
 
 **Theorem 2 (Resonance Rules):**
 
@@ -450,7 +450,7 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 | Reaction Mechanisms          | WyattsNotes | [View](reaction-mechanisms)                  |
 | Spectroscopy                 | WyattsNotes | [View](spectroscopy)                         |
 | Quantum Chemistry            | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)                    |
-| Organic Chemistry — MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
+| Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

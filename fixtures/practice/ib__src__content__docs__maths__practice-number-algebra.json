@@ -97,7 +97,7 @@
       "difficulty": "medium"
     },
     {
-      "question": "The 5th term of the arithmetic sequence 3, 7, 11, 15, ... is:",
+      "question": "The 5th term of the arithmetic sequence 3, 7, 11, 15... is:",
       "options": [
         "23",
         "21",
@@ -141,7 +141,7 @@
         "2"
       ],
       "correctAnswer": 0,
-      "explanation": "S₄ = a(1 − r⁴)/(1 − r) = 5(1 − r⁴)/(1 − r) = 335. (1 − r⁴)/(1 − r) = 67. Using sum of GP formula: 1 + r + r² + r³ = 67. Try r = 3: 1 + 3 + 9 + 27 = 40 ≠ 67. Try r = 4: 1 + 4 + 16 + 64 = 85 ≠ 67. Wait, let me recheck. Hmm. Actually 335/5 = 67. We need 1 + r + r² + r³ = 67. r = 4 gives 85. Let me try differently — perhaps r is not an integer. Or recheck: if r = 4: 5(1−256)/(1−4) = 5(−255)/(−3) = 5(85) = 425 ≠ 335. If r = 3: 5(1−81)/(1−3) = 5(−80)/(−2) = 200. For r = 4: 5(255/3) = 425. Hmm, none match exactly. Let me try r = ∓2: if r = 4, it gives 425. Let me reconsider — with r = 4: (1−256)/(1−4) = (−255)/(−3) = 85, and 5×85 = 425. With r = 3: (1−81)/(1−3) = 80/2 = 40, 5×40 = 200. It seems none of the integer options work. But the closest structured answer option is r = 3 if we consider the problem as intended to have r = 3.\"",
+      "explanation": "S₄ = a(1 − r⁴)/(1 − r) = 5(1 − r⁴)/(1 − r) = 335. (1 − r⁴)/(1 − r) = 67. Using sum of GP formula: 1 + r + r² + r³ = 67. Try r = 3: 1 + 3 + 9 + 27 = 40 ≠ 67. Try r = 4: 1 + 4 + 16 + 64 = 85 ≠ 67. Wait, let me recheck. Hmm. Actually 335/5 = 67. We need 1 + r + r² + r³ = 67. r = 4 gives 85. Let me try differently, perhaps r is not an integer. Or recheck: if r = 4: 5(1−256)/(1−4) = 5(−255)/(−3) = 5(85) = 425 ≠ 335. If r = 3: 5(1−81)/(1−3) = 5(−80)/(−2) = 200. For r = 4: 5(255/3) = 425. Hmm, none match exactly. Let me try r = ∓2: if r = 4, it gives 425. Let me reconsider, with r = 4: (1−256)/(1−4) = (−255)/(−3) = 85, and 5×85 = 425. With r = 3: (1−81)/(1−3) = 80/2 = 40, 5×40 = 200. It seems none of the integer options work. But the closest structured answer option is r = 3 if we consider the problem as intended to have r = 3.\"",
       "difficulty": "hard"
     },
     {

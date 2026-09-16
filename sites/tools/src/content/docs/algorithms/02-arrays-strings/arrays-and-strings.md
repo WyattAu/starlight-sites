@@ -17,11 +17,11 @@ description: "An array is a contiguous block of memory where each element occupi
 
 ## Intuition
 
-**The simplest and fastest data structure:** Arrays are like a row of mailboxes — each slot is numbered, and you can access any slot instantly by its number. This contiguous memory layout gives O(1) access and excellent cache performance, making arrays the foundation of almost everything.
+**The simplest and fastest data structure:** Arrays are like a row of mailboxes, each slot is numbered, and you can access any slot instantly by its number. This contiguous memory layout gives O(1) access and excellent cache performance, making arrays the foundation of almost everything.
 
-**Why it matters:** Arrays are the most cache-friendly data structure — sequential access patterns exploit CPU cache lines, making array operations 10-100x faster than pointer-based alternatives for the same asymptotic complexity.
+**Why it matters:** Arrays are the most cache-friendly data structure, sequential access patterns exploit CPU cache lines, making array operations 10-100x faster than pointer-based alternatives for the same asymptotic complexity.
 
-**The key insight:** The real-world performance gap between arrays and linked lists is much larger than Big-O suggests — cache misses cost 100+ cycles, so array traversal is dramatically faster even though both are O(n).
+**The key insight:** The real-world performance gap between arrays and linked lists is much larger than Big-O suggests, cache misses cost 100+ cycles, so array traversal is dramatically faster even though both are O(n).
 
 ## Array Fundamentals
 
@@ -295,7 +295,7 @@ class PrefixSum1D:
         return self.prefix[right + 1] - self.prefix[left]
 
     def update(self, index, delta):
-        """Update arr[index] += delta. O(n) — prefix sums don't support fast updates."""
+        """Update arr[index] += delta. O(n), prefix sums don't support fast updates."""
         # This requires rebuilding or using a Fenwick tree instead
         raise NotImplementedError("Use Fenwick tree for fast updates")
 ```
@@ -531,7 +531,7 @@ Negligible levels.
 
 ### Knuth-Morris-Pratt (KMP) Algorithm
 
-KMP preprocesses the pattern to build a "failure function" (also called the LPS array — longest
+KMP preprocesses the pattern to build a "failure function" (also called the LPS array, longest
 Proper prefix which is also suffix) that allows the algorithm to skip redundant comparisons.
 
 ```python
@@ -587,7 +587,7 @@ def kmp_search(text, pattern):
     return -1
 ```
 
-**Complexity:** $O(n + m)$ worst case — guaranteed linear time, no hash collisions to worry about.
+**Complexity:** $O(n + m)$ worst case, guaranteed linear time, no hash collisions to worry about.
 The LPS array ensures the text pointer `i` never moves backward.
 
 ## Anagram and Grouping Problems
@@ -598,7 +598,7 @@ The LPS array ensures the text pointer `i` never moves backward.
 def is_anagram(s, t):
     """
     Check if t is an anagram of s.
-    Time: O(n), Space: O(1) — fixed alphabet size
+    Time: O(n), Space: O(1), fixed alphabet size
     """
     if len(s) != len(t):
         return False
@@ -754,7 +754,7 @@ def dutch_national_flag(arr, pivot_idx):
         elif arr[i] > pivot:
             arr[gt], arr[i] = arr[i], arr[gt]
             gt -= 1
-            # Don't increment i — need to examine the swapped element
+            # Don't increment i, need to examine the swapped element
         else:
             i += 1
     return lt, gt  # boundaries of the equal region
@@ -861,7 +861,7 @@ Pair exists are all edge cases that two-pointer solutions must handle. Test your
 
 ### 4. Treating Strings as Arrays of Bytes
 
-In a world of UTF-8, string indexing does not give you bytes — it gives you code points. Reversing a
+In a world of UTF-8, string indexing does not give you bytes, it gives you code points. Reversing a
 UTF-8 string by swapping bytes produces invalid UTF-8. Reversing by code points is safe but does not
 Handle grapheme clusters (e.g., the emoji flags sequence). Use language-appropriate string reversal.
 

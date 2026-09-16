@@ -24,7 +24,7 @@ description: "- Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th 
 
 ## Intuition
 
-Database systems are built on a tension between correctness and speed. Transactions are the promise that your money will not vanish mid-transfer — ACID properties guarantee that. Indexes are like the index at the back of a textbook — they let you find a topic without reading every page, but they take up space and slow down updates. Normalisation is the art of organising data so that each fact is stored in exactly one place, preventing the chaos of contradictory copies. Query optimisation is the database's way of finding the fastest route through a maze of joins and filters, like a GPS that recalculates when traffic changes.
+Database systems are built on a tension between correctness and speed. Transactions are the promise that your money will not vanish mid-transfer, ACID properties guarantee that. Indexes are like the index at the back of a textbook, they let you find a topic without reading every page, but they take up space and slow down updates. Normalisation is the art of organising data so that each fact is stored in exactly one place, preventing the chaos of contradictory copies. Query optimisation is the database's way of finding the fastest route through a maze of joins and filters, like a GPS that recalculates when traffic changes.
 
 ## Common Pitfalls
 
@@ -50,7 +50,7 @@ Database systems are built on a tension between correctness and speed. Transacti
 
 **Problem.** Relation R(A, B, C, D) with FDs: AB → C, C → D. Is R in 3NF?
 
-**Solution.** Key: AB. C depends on AB (partial dependency on non-prime B? No — C depends on the
+**Solution.** Key: AB. C depends on AB (partial dependency on non-prime B? No, C depends on the
 full key AB). C → D: D depends on C, which is non-prime. This is a transitive dependency, violating
 3NF.
 
@@ -113,26 +113,26 @@ flowchart TD
 
 ### Academic Papers and Surveys
 
-- Bernstein _et al._: "The Asilomar Report on Database Research" — landmark ACM report on
+- Bernstein _et al._: "The Asilomar Report on Database Research", landmark ACM report on
   database research directions.
-- Stonebraker _et al._: "The End of an Architectural Era (It's Time for a Complete Rewrite)" —
+- Stonebraker _et al._: "The End of an Architectural Era (It's Time for a Complete Rewrite)",
   argues for specialised database engines over one-size-fits-all.
 - DeWitt & Gray: "Parallel Database Systems: The Future of High Performance Database
-  Processing" — survey of shared-nothing, shared-memory, and shared-disk architectures.
-- Abiteboul, Hull, Vianu: _Foundations of Databases_ — rigorous treatment of database theory,
+  Processing", survey of shared-nothing, shared-memory, and shared-disk architectures.
+- Abiteboul, Hull, Vianu: _Foundations of Databases_, rigorous treatment of database theory,
   query languages, and complexity.
-- Gray _et al._: "Transaction Processing: Concepts and Techniques" — encyclopedic reference
+- Gray _et al._: "Transaction Processing: Concepts and Techniques", encyclopedic reference
   on transaction processing, recovery, and concurrency control.
 
 ### Online Resources
 
-- **Use The Index, Luke** (use-the-index-luke.com) — practical guide to SQL indexing strategies
+- **Use The Index, Luke** (use-the-index-luke.com), practical guide to SQL indexing strategies
   with visual explainers.
-- **SQL Performance Explained** by Markus Winand — focused on index usage and query optimisation.
-- **CMU Database Group** lectures (YouTube) — Andy Pavlo's database course covering
+- **SQL Performance Explained** by Markus Winand, focused on index usage and query optimisation.
+- **CMU Database Group** lectures (YouTube), Andy Pavlo's database course covering
   architecture, storage, and modern systems.
-- **VLDB Summer School** — annual summer school on database research topics.
-- **DB-Engines Ranking** (db-engines.com) — popularity ranking of database systems with comparison
+- **VLDB Summer School**, annual summer school on database research topics.
+- **DB-Engines Ranking** (db-engines.com), popularity ranking of database systems with comparison
   features.
 
 ### Topic-Specific Recommendations
@@ -170,15 +170,15 @@ flowchart TD
 
 ## Recommended Reading by Topic
 
-- **SQL & Relational Theory:** Date: _SQL and Relational Theory_ (3rd ed.) — deep treatment of
+- **SQL & Relational Theory:** Date: _SQL and Relational Theory_ (3rd ed.), deep treatment of
   relational model fundamentals.
-- **Transactions & Concurrency:** Weikum, Vossen: _Transactional Information Systems_ — complete
+- **Transactions & Concurrency:** Weikum, Vossen: _Transactional Information Systems_, complete
   coverage of serialisability theory and recovery.
-- **Distributed Databases:** Özsu, Valduriez: _Principles of Distributed Database Systems_ —
+- **Distributed Databases:** Özsu, Valduriez: _Principles of Distributed Database Systems_,
   standard reference for distributed query processing and transaction management.
-- **Performance Tuning:** Tow: _SQL Tuning_ — practical guide to indexing strategies, query plan
+- **Performance Tuning:** Tow: _SQL Tuning_, practical guide to indexing strategies, query plan
   analysis, and schema design for performance.
-- **NoSQL:** Sadalage, Fowler: _NoSQL Distilled_ — overview of when to use document, graph, column,
+- **NoSQL:** Sadalage, Fowler: _NoSQL Distilled_, overview of when to use document, graph, column,
   and key-value stores over relational databases.
 
 ## See Also

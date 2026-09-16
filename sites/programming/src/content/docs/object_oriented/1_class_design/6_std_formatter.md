@@ -204,7 +204,7 @@ int main() {
 
 **Why it matters:** Custom formatters let your types integrate seamlessly with `std::format` and `std::print`. Without them, you'd need to convert your types to strings manually, losing type safety and performance. The formatter specialization mechanism is also how the standard library implements formatting for its own types.
 
-**The key insight:** Specialize `std::formatter<T>` in namespace `std` to enable `std::format("{}", your_type)` — the `parse` method handles format specifiers, and `format` produces the output.
+**The key insight:** Specialize `std::formatter<T>` in namespace `std` to enable `std::format("{}", your_type)`the `parse` method handles format specifiers, and `format` produces the output.
 
 ## See Also
 
@@ -312,7 +312,7 @@ struct std::formatter<std::tuple<Ts...>, char> {
         std::apply([&](const auto&... args) {
             bool first = true;
             ((out = std::format_to(out, "{}{}",
-                first ? (first = false, "") : ", ", args)), ...);
+                first ? (first = false, "") : ", ", args))...);
         }, t);
         return std::format_to(out, ")");
     }
@@ -364,16 +364,16 @@ struct std::formatter<LogEntry, char> {
 int main() {
     LogEntry entry{"INFO", "Server started", 1234.56789};
 
-    // std::format — returns string
+    // std::format, returns string
     std::string s = std::format("{}", entry);
     std::cout << s << "\n";
 
-    // std::format_to — writes to iterator
+    // std::format_to, writes to iterator
     std::string buf;
     std::format_to(std::back_inserter(buf), "  >> {}\n", entry);
     std::cout << buf;
 
-    // std::print (C++23) — writes to stdout
+    // std::print (C++23), writes to stdout
     std::print("  {}\n", entry);
 }
 // Output:

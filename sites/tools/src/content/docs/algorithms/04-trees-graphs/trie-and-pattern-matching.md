@@ -242,7 +242,7 @@ The worst case), which is too large for practical use.
 ```python
 class SuffixTrie:
     """
-    Suffix trie — contains all suffixes of a string.
+    Suffix trie, contains all suffixes of a string.
     Construction: O(n^2) time and space
     Pattern search: O(m) where m = pattern length
     """
@@ -647,7 +647,7 @@ def kmp_search(text, pattern):
 
 The key invariant: after processing `text[i]`The variable `j` equals the length of the longest
 Prefix of `pattern` that is a suffix of `text[0:i+1]`. When `j == m`We have found a complete match
-Ending at position `i`. The failure function ensures that we never backtrack in the text — each
+Ending at position `i`. The failure function ensures that we never backtrack in the text, each
 Character of the text is examined at most once, giving $O(n)$ time for the search phase plus $O(m)$
 For preprocessing.
 

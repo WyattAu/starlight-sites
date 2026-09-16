@@ -18,7 +18,7 @@ description: "Study notes for Inheritance and Polymorphism with worked examples,
 
 Inheritance allows a class (subclass) to extend another class (superclass), acquiring its fields and
 Methods. The `extends` keyword establishes an "is-a" relationship. Java supports **single class
-Inheritance** — a class can extend exactly one superclass — but can implement multiple interfaces.
+Inheritance**, a class can extend exactly one superclass, but can implement multiple interfaces.
 
 ### The `extends` Keyword
 
@@ -123,7 +123,7 @@ public class Base {
 
 public class Derived extends Base {
     public Derived() {
-        super(42); // REQUIRED — Base has no no-arg constructor
+        super(42); // REQUIRED, Base has no no-arg constructor
     }
 
     public Derived(int value) {
@@ -199,16 +199,16 @@ public class Base {
 
 ### Compile-Time vs Runtime Polymorphism
 
-**Compile-time polymorphism** (method overloading) — the compiler resolves which method to call
+**Compile-time polymorphism** (method overloading), the compiler resolves which method to call
 Based on the static types of the arguments at compile time.
 
-**Runtime polymorphism** (method overriding) — the JVM resolves which method to call based on the
+**Runtime polymorphism** (method overriding), the JVM resolves which method to call based on the
 Actual type of the object at runtime. This is the polymorphism that matters for the "is-a"
 Relationship.
 
 ```java
 Animal animal = new Dog("Rex", 3, "Shepherd");
-animal.eat(); // Calls Dog.eat() — runtime dispatch
+animal.eat(); // Calls Dog.eat(), runtime dispatch
 
 // The variable type is Animal, but the actual object is Dog
 // The JVM calls Dog's overridden eat() method
@@ -252,7 +252,7 @@ s.area(); // The JVM calls the correct area() based on the actual object type
 ### Dynamic Binding and `final`
 
 The `final` keyword on a method prevents overriding and allows the JIT compiler to devirtualize the
-Call — it can inline the method at the call site because it knows no subclass will override it. This
+Call, it can inline the method at the call site because it knows no subclass will override it. This
 Can improve performance in hot paths.
 
 ```java
@@ -261,7 +261,7 @@ public class Point {
 
     public Point(double x, double y) { this.x = x; this.y = y; }
 
-    // JIT can inline this — no subclass can override it
+    // JIT can inline this, no subclass can override it
     public final double distanceTo(Point other) {
         double dx = this.x - other.x;
         double dy = this.y - other.y;
@@ -283,11 +283,11 @@ public abstract class Shape {
         this.color = color;
     }
 
-    // Abstract method — subclasses must implement
+    // Abstract method, subclasses must implement
     public abstract double area();
     public abstract double perimeter();
 
-    // Concrete method — subclasses inherit
+    // Concrete method, subclasses inherit
     public String getColor() {
         return color;
     }
@@ -342,23 +342,23 @@ Have default methods, static methods, and (since Java 9) private methods.
 
 ```java
 public interface Drawable {
-    // Abstract method — implementing classes must provide an implementation
+    // Abstract method, implementing classes must provide an implementation
     void draw();
 
-    // Default method — provides a default implementation (Java 8+)
+    // Default method, provides a default implementation (Java 8+)
     default void drawWithBorder(int borderWidth) {
         System.out.println("Drawing border of width " + borderWidth);
         draw();
     }
 
-    // Static method — belongs to the interface, not implementing instances (Java 8+)
+    // Static method, belongs to the interface, not implementing instances (Java 8+)
     static void drawAll(Drawable[] drawables) {
         for (Drawable d : drawables) {
             d.draw();
         }
     }
 
-    // Private method — helper for default methods (Java 9+)
+    // Private method, helper for default methods (Java 9+)
     private void logDraw() {
         System.out.println("Drawing performed");
     }
@@ -368,7 +368,7 @@ public interface Drawable {
 ### Functional Interfaces
 
 A functional interface has exactly one abstract method. It can be used as the target of a lambda
-Expression. The `@FunctionalInterface` annotation is optional but recommended — the compiler will
+Expression. The `@FunctionalInterface` annotation is optional but recommended, the compiler will
 Verify the constraint.
 
 ```java
@@ -424,11 +424,11 @@ Rule.
 ## Composition Over Inheritance
 
 Inheritance creates tight coupling between superclass and subclass. Changes to the superclass can
-Break subclasses in unexpected ways. Composition — building complex objects from simpler ones —
+Break subclasses in unexpected ways. Composition, building complex objects from simpler ones,
 Provides flexibility and loose coupling.
 
 ```java
-// INHERITANCE — tight coupling
+// INHERITANCE, tight coupling
 public class FlyingCar extends Car {
     @Override
     public void drive() {
@@ -438,7 +438,7 @@ public class FlyingCar extends Car {
     private void fly() { /* ... */ }
 }
 
-// COMPOSITION — loose coupling, flexible
+// COMPOSITION, loose coupling, flexible
 public class FlyingVehicle {
     private final GroundNavigation groundNav = new GroundNavigation();
     private final AirNavigation airNav = new AirNavigation();
@@ -509,23 +509,23 @@ A subclass must violate the superclass's contract to work correctly, use composi
 
 | Principle                     | Guideline                                                           |
 | ----------------------------- | ------------------------------------------------------------------- |
-| **S** — Single Responsibility | A class should have only one reason to change.                      |
-| **O** — Open/Closed           | Open for extension, closed for modification.                        |
-| **L** — Liskov Substitution   | Subtypes must be substitutable for their base types.                |
-| **I** — Interface Segregation | Prefer many specific interfaces over one general-purpose interface. |
-| **D** — Dependency Inversion  | Depend on abstractions, not concretions.                            |
+| **S**, Single Responsibility | A class should have only one reason to change.                      |
+| **O**, Open/Closed           | Open for extension, closed for modification.                        |
+| **L**, Liskov Substitution   | Subtypes must be substitutable for their base types.                |
+| **I**, Interface Segregation | Prefer many specific interfaces over one general-purpose interface. |
+| **D**, Dependency Inversion  | Depend on abstractions, not concretions.                            |
 
 ### Single Responsibility Example
 
 ```java
-// VIOLATION — class does too many things
+// VIOLATION, class does too many things
 public class UserService {
     public void saveUser(User user) { /* DB access */ }
     public void sendEmail(User user, String msg) { /* email sending */ }
     public void validateUser(User user) { /* validation */ }
 }
 
-// CORRECT — separate responsibilities
+// CORRECT, separate responsibilities
 public class UserRepository {
     public void save(User user) { /* DB access */ }
 }
@@ -584,7 +584,7 @@ public class FileDataSource implements DataSource {
 public class ReportService {
     private final DataSource dataSource;
 
-    // Inject the dependency — don't create it here
+    // Inject the dependency, don't create it here
     public ReportService(DataSource dataSource) {
         this.dataSource = dataSource;
     }
@@ -598,11 +598,11 @@ public class ReportService {
 ```java
 Animal animal = new Dog("Rex", 3, "Shepherd");
 
-// Upcasting — always safe, implicit
+// Upcasting, always safe, implicit
 Animal a = animal;
 
-// Downcasting — may fail, requires explicit cast
-Dog dog = (Dog) a;        // OK — a actually refers to a Dog
+// Downcasting, may fail, requires explicit cast
+Dog dog = (Dog) a;        // OK, a actually refers to a Dog
 // Cat cat = (Cat) a;     // ClassCastException at runtime
 
 // Safe downcasting with instanceof
@@ -651,7 +651,7 @@ public double area(Shape shape) {
             double s = (t.a() + t.b() + t.c()) / 2;
             yield Math.sqrt(s * (s - t.a()) * (s - t.b()) * (s - t.c()));
         }
-        // No default needed — sealed interface ensures exhaustive matching
+        // No default needed, sealed interface ensures exhaustive matching
     };
 }
 ```
@@ -745,11 +745,11 @@ Pattern components must match the number of record components.
 :::
 ## Intuition
 
-**Family resemblance:** Inheritance is like a family tree — child classes inherit traits from parents but can also have their own unique characteristics. Polymorphism lets different shapes respond to the same command in their own way.
+**Family resemblance:** Inheritance is like a family tree, child classes inherit traits from parents but can also have their own unique characteristics. Polymorphism lets different shapes respond to the same command in their own way.
 
 **Why it matters:** Inheritance promotes code reuse, and polymorphism enables flexible, extensible designs. Together they power the open-closed principle.
 
-**The key insight:** Program to an interface, not an implementation — this makes your code flexible and easy to extend.
+**The key insight:** Program to an interface, not an implementation, this makes your code flexible and easy to extend.
 
 ## Common Pitfalls
 
@@ -758,7 +758,7 @@ Pattern components must match the number of record components.
 ```java
 public class Derived extends Base {
     public Derived(int value) {
-        // BUG — implicit super() calls Base(), but Base(int) is the only constructor
+        // BUG, implicit super() calls Base(), but Base(int) is the only constructor
         // Compiler error: constructor Base() not found
     }
 }
@@ -772,7 +772,7 @@ public class Base {
 }
 
 public class Derived extends Base {
-    // BUG — this is overloading, NOT overriding
+    // BUG, this is overloading, NOT overriding
     // Parameter type is different (ArrayList vs List)
     public void process(ArrayList&lt;String&gt; items) { /* ... */ }
 
@@ -787,7 +787,7 @@ public class Derived extends Base {
 ```java
 public class Base {
     public Base() {
-        initialize(); // DANGEROUS — calls overridden method before subclass is constructed
+        initialize(); // DANGEROUS, calls overridden method before subclass is constructed
     }
 
     protected void initialize() {
@@ -800,7 +800,7 @@ public class Derived extends Base {
 
     @Override
     protected void initialize() {
-        data.add("initialized"); // NullPointerException — data not yet initialized
+        data.add("initialized"); // NullPointerException, data not yet initialized
     }
 }
 
@@ -815,12 +815,12 @@ It from a constructor.
 ### `instanceof` and `null`
 
 ```java
-// instanceof returns false for null — no NullPointerException
+// instanceof returns false for null, no NullPointerException
 if (obj instanceof String s) {
     // s is non-null here
 }
 
-// Safe — no NPE
+// Safe, no NPE
 String result = (obj instanceof String s) ? s.toUpperCase() : "default";
 ```
 
@@ -832,16 +832,16 @@ public class Base {
 }
 
 public class Derived extends Base {
-    // This does NOT override Base.describe() — it HIDES it
+    // This does NOT override Base.describe(), it HIDES it
     public static void describe() { System.out.println("Derived"); }
 }
 
 Base.describe();   // "Base"
-Derived.describe(); // "Derived" — static dispatch, not virtual
+Derived.describe(); // "Derived", static dispatch, not virtual
 ```
 
 Static method dispatch is based on the declared type, not the actual object type. There is no
-Polymorphism for static methods. This is why hiding static methods is almost always a mistake — it
+Polymorphism for static methods. This is why hiding static methods is almost always a mistake, it
 Creates confusion.
 
 ### Fragile Base Class Problem
@@ -864,7 +864,7 @@ public class Derived extends Base {
 // Version 2 of library adds a new method
 public class Base {
     public void process(String s) { /* ... */ }
-    public void process(Object o) { /* ... */ } // NEW — now shadows Derived.process(Object)!
+    public void process(Object o) { /* ... */ } // NEW, now shadows Derived.process(Object)!
 }
 
 // Your Derived.process(Object) is now never called through Base references
@@ -877,14 +877,14 @@ If you extend a class solely to reuse its methods but there is no genuine "is-a"
 Are misusing inheritance. Use composition with delegation instead:
 
 ```java
-// WRONG — Stack is NOT a List (you don't want random access, iteration at arbitrary positions)
+// WRONG, Stack is NOT a List (you don't want random access, iteration at arbitrary positions)
 public class Stack&lt;E&gt; extends ArrayList&lt;E&gt; {
     public void push(E item) { add(item); }
     public E pop() { return remove(size() - 1); }
     // Problem: user can call add(0, item) or get(5), violating stack semantics
 }
 
-// CORRECT — composition
+// CORRECT, composition
 public class Stack&lt;E&gt; {
     private final List&lt;E&gt; items = new ArrayList&lt;&gt;();
     public void push(E item) { items.add(item); }

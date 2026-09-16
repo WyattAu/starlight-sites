@@ -184,7 +184,7 @@ import os
 
 class Malicious:
     def __reduce__(self):
-        return (os.system, ("rm -rf /",))
+        return (os.system, ("rm -rf /"))
 
 # pickle.dumps(Malicious()) creates a payload that runs rm -rf /
 # pickle.loads(payload) would execute it
@@ -227,8 +227,8 @@ class Config:
         return {"loaded_from": path}
 
     def __reduce__(self):
-        # Return (callable, args) — pickle will call Config(*args)
-        return (Config, (self.path,))
+        # Return (callable, args), pickle will call Config(*args)
+        return (Config, (self.path))
 
 c = Config("/etc/app/config.yaml")
 data = pickle.dumps(c)
@@ -398,7 +398,7 @@ with open("data.csv", newline="") as f:
     for row in reader:
         print(dict(zip(headers, row)))
 
-# DictReader — recommended for most use cases
+# DictReader, recommended for most use cases
 with open("data.csv", newline="") as f:
     reader = csv.DictReader(f)
     for row in reader:
@@ -433,10 +433,10 @@ with open("quoted.csv", "w", newline="") as f:
     writer.writerow(["name", "description"])
     writer.writerow(['Alice', 'Has a "title" and, commas'])
 
-# csv.QUOTE_MINIMAL (default) — quote only when necessary
-# csv.QUOTE_ALL — quote everything
-# csv.QUOTE_NONNUMERIC — quote non-numeric values
-# csv.QUOTE_NONE — never quote (raises error if quoting needed)
+# csv.QUOTE_MINIMAL (default), quote only when necessary
+# csv.QUOTE_ALL, quote everything
+# csv.QUOTE_NONNUMERIC, quote non-numeric values
+# csv.QUOTE_NONE, never quote (raises error if quoting needed)
 ```
 
 :::caution
@@ -645,7 +645,7 @@ json_str = json.dumps(data)
 restored = json.loads(json_str)
 
 print(type(data["coords"]))      # <class 'tuple'>
-print(type(restored["coords"]))  # <class 'list'> — tuples become lists!
+print(type(restored["coords"]))  # <class 'list'>, tuples become lists!
 
 # Fix with object_hook:
 def tuple_hook(dct):
@@ -668,7 +668,7 @@ import json
 json_str = json.dumps({"val": float("inf")}, allow_nan=True)
 print(json_str)  # {"val": Infinity}
 
-# Many JSON parsers reject Infinity/NaN — avoid them in APIs
+# Many JSON parsers reject Infinity/NaN, avoid them in APIs
 ```
 
 ### 3. Pickle Compatibility Across Python Versions
@@ -696,14 +696,14 @@ a: &anchor
 c: *anchor
 """
 data = yaml.safe_load(yaml_str)
-print(data["a"] is data["c"])  # True — same object
+print(data["a"] is data["c"])  # True, same object
 
 # Circular references in YAML:
 circular = """
 a: &ref
   b: *ref
 """
-# yaml.safe_load(circular) — may cause RecursionError or create infinite structure
+# yaml.safe_load(circular), may cause RecursionError or create infinite structure
 ```
 
 ### 5. CSV Encoding Issues
@@ -778,7 +778,7 @@ with open("events.jsonl", "w") as f:
     for record in events:
         f.write(json.dumps(record) + "\n")
 
-# Reading JSON Lines — streamable, one line at a time
+# Reading JSON Lines, streamable, one line at a time
 with open("events.jsonl") as f:
     for line in f:
         record = json.loads(line)
@@ -787,10 +787,10 @@ with open("events.jsonl") as f:
 
 JSON Lines (`.jsonl`) is preferred over a single JSON array for large datasets because:
 
-- Each line is independently parseable — no need to load the entire file into memory.
-- Append-friendly — new records can be added without rewriting the file.
-- Streamable — processes can read and write concurrently.
-- Resilient — a corrupted line does not invalidate the entire file.
+- Each line is independently parseable, no need to load the entire file into memory.
+- Append-friendly, new records can be added without rewriting the file.
+- Streamable, processes can read and write concurrently.
+- Resilient, a corrupted line does not invalidate the entire file.
 
 ## Schema Validation with Pydantic (Serialization)
 
@@ -823,13 +823,13 @@ class ServerConfig(BaseModel):
             ]
         }
 
-# Deserialize from dict — validates automatically
+# Deserialize from dict, validates automatically
 config = ServerConfig(**{"host": "db.example.com", "port": 5432})
 print(config.host)  # db.example.com
 
 # Serialize to dict
 d = config.model_dump()
-print(d)  # {'host': "db.example.com'', "port': 5432, 'timeout': 30.0, ...}
+print(d)  # {'host': "db.example.com'', "port': 5432, 'timeout': 30.0...}
 
 # Serialize to JSON
 json_str = config.model_dump_json()
@@ -908,12 +908,12 @@ class Event(BaseModel):
 
 event = Event(name="deploy", status=Status.ACTIVE, timestamp=datetime(2025, 1, 15))
 
-# Python mode (default) — returns Python types
+# Python mode (default), returns Python types
 d = event.model_dump()
 print(d["status"])      # Status.ACTIVE (enum member)
 print(d["timestamp"])   # datetime object
 
-# JSON mode — returns JSON-serializable types
+# JSON mode, returns JSON-serializable types
 d_json = event.model_dump(mode="json")
 print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)

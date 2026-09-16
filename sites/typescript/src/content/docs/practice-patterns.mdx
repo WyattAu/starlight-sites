@@ -129,7 +129,7 @@ class QuickSort<T> implements SortStrategy<T> \{
     const pivot = data[0];
     const left = data.slice(1).filter((x) => x <= pivot);
     const right = data.slice(1).filter((x) => x > pivot);
-    return [...this.sort(left), pivot, ...this.sort(right)];
+    return [...this.sort(left), pivot...this.sort(right)];
   \}
 \}
 
@@ -269,13 +269,13 @@ class NotificationService \{
 
 **Why it matters:** These patterns enable type-safe code that would be impossible with JavaScript alone, catching bugs at compile time.
 
-**The key insight:** Discriminated unions (tagged unions) make impossible states unrepresentable — the compiler ensures you handle every possible case.
+**The key insight:** Discriminated unions (tagged unions) make impossible states unrepresentable, the compiler ensures you handle every possible case.
 
 ## Common Mistakes
 
 **Using type assertions instead of type narrowing:** `const el = document.getElementById("app") as HTMLDivElement` assumes the element exists and is a div. If it doesnt exist, this crashes at runtime. Use instanceof or optional chaining instead.
 
-**Ignoring the difference between `unknown` and `any`:** `unknown` is type-safe — you must narrow before using. `any` is type-unsafe — it bypasses all checking. Prefer `unknown` for values whose type is uncertain.
+**Ignoring the difference between `unknown` and `any`:** `unknown` is type-safe, you must narrow before using. `any` is type-unsafe, it bypasses all checking. Prefer `unknown` for values whose type is uncertain.
 
 **Over-engineering patterns:** Design patterns add abstraction. Use them only when the complexity they solve is real. Over-engineering makes code harder to understand without providing real benefits. Start simple, refactor when patterns emerge.
 

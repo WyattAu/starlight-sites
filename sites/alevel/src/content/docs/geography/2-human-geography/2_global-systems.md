@@ -58,7 +58,7 @@ challenges such as climate change.
 | **Brain drain**                     | The emigration of highly trained or qualified people from a particular country                                                            |
 | **Core countries**                  | Wealthy, developed nations that dominate global economic and political systems                                                            |
 | **Periphery countries**             | Less developed nations that are economically dependent on core countries                                                                  |
-| **Semi-periphery**                  | Countries that are between core and periphery — industrialising but not yet dominant                                                      |
+| **Semi-periphery**                  | Countries that are between core and periphery, industrialising but not yet dominant                                                      |
 
 ---
 
@@ -91,7 +91,7 @@ development lending. National sovereignty is increasingly constrained by interna
 **Cultural globalisation**: The spread of ideas, values, media, and cultural practices across
 borders. Global media corporations (Disney, Netflix, social media platforms) disseminate
 predominantly Western cultural products. This can lead to cultural homogenisation (the
-"McDonaldisation" of culture) or hybridisation (the blending of global and local cultures —
+"McDonaldisation" of culture) or hybridisation (the blending of global and local cultures,
 glocalisation).
 
 **Social globalisation**: The movement of people, ideas, and information. Migration, tourism,
@@ -115,7 +115,7 @@ borders.
 
 - Economic growth in many developing countries (e.g., China"s GDP per capita increased approximately
   25-fold since 1980)
-- Poverty reduction — the proportion of the global population living in extreme poverty fell from
+- Poverty reduction, the proportion of the global population living in extreme poverty fell from
   approximately 42% in 1981 to under 10% by 2015
 - Technology transfer and skills development in developing countries
 - Greater consumer choice and lower prices for manufactured goods
@@ -123,13 +123,13 @@ borders.
 
 **Negative impacts:**
 
-- Rising inequality — both between and within countries. The richest 1% of the global population
+- Rising inequality, both between and within countries. The richest 1% of the global population
   holds approximately 43% of global wealth.
 - Environmental degradation through increased resource extraction, pollution, and carbon emissions
   from global transport
 - Exploitation of labour in low-wage countries (sweatshops, poor working conditions)
 - Loss of cultural diversity and identity through cultural homogenisation
-- Economic vulnerability — the 2008 financial crisis demonstrated how interconnected economies
+- Economic vulnerability, the 2008 financial crisis demonstrated how interconnected economies
   transmit shocks globally
 - Deindustrialisation in developed countries as manufacturing moves to lower-cost locations
 
@@ -194,7 +194,7 @@ members), loss of national sovereignty over trade policy, unequal benefits withi
 TNCs are the primary agents of globalisation. The largest TNCs have revenues exceeding the GDP of
 many nations:
 
-- Apple's revenue in 2023 was approximately $383 billion — larger than the GDP of Denmark or
+- Apple's revenue in 2023 was approximately $383 billion, larger than the GDP of Denmark or
   Thailand
 - Walmart employs approximately 2.1 million people globally
 - Toyota operates in approximately 170 countries
@@ -212,20 +212,20 @@ TNCs influence global systems through:
 
 **Positive contributions:**
 
-- Job creation — TNCs are major employers in developing countries
-- Technology transfer — bringing advanced production methods and management practices
-- Infrastructure investment — TNCs often invest in roads, ports, and utilities
-- Skills development — training local workforce
-- Export earnings — TNC-produced goods generate foreign exchange
+- Job creation, TNCs are major employers in developing countries
+- Technology transfer, bringing advanced production methods and management practices
+- Infrastructure investment, TNCs often invest in roads, ports, and utilities
+- Skills development, training local workforce
+- Export earnings, TNC-produced goods generate foreign exchange
 
 **Negative impacts:**
 
-- Profit repatriation — profits flow back to TNC headquarters countries rather than remaining
+- Profit repatriation, profits flow back to TNC headquarters countries rather than remaining
   locally
 - Exploitation of weak labour and environmental regulations in developing countries (the "race to
   the bottom")
 - Crowding out of local businesses that cannot compete
-- Economic dependency — if a TNC leaves, the local economy can collapse (branch plant economy)
+- Economic dependency, if a TNC leaves, the local economy can collapse (branch plant economy)
 - Tax avoidance through transfer pricing and profit shifting
 
 ---
@@ -258,7 +258,7 @@ TNCs influence global systems through:
   nations (the US has effective veto power at the IMF). Developing nations argue that decisions
   affecting them are made without adequate representation.
 - **Conditionality**: IMF and World Bank loans often require structural adjustment programmes (SAPs)
-  — privatisation, trade liberalisation, and public spending cuts — that can exacerbate poverty and
+privatisation, trade liberalisation, and public spending cuts, that can exacerbate poverty and
   inequality.
 - **Enforcement weakness**: The UN lacks direct enforcement power. WTO dispute rulings can be
   ignored. International agreements on climate change rely on voluntary commitments.
@@ -269,7 +269,7 @@ TNCs influence global systems through:
 
 The global commons are resources that no single nation owns or controls:
 
-- **The atmosphere** (climate change governance — Paris Agreement)
+- **The atmosphere** (climate change governance, Paris Agreement)
 - **The oceans** (UN Convention on the Law of the Sea, exclusive economic zones)
 - **Antarctica** (Antarctic Treaty System)
 - **Outer space** (Outer Space Treaty)
@@ -297,7 +297,7 @@ restraint would benefit all.
 | --------------------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | **Economic migration**      | Movement for employment and better wages                         | Polish workers to the UK after 2004 EU accession                                 |
 | **Forced migration**        | Displacement by conflict, persecution, or environmental disaster | Syrian refugees (approximately 6.8 million externally displaced since 2011)      |
-| **Rural-urban migration**   | Movement from countryside to cities                              | Internal migration in China — approximately 280 million rural migrants in cities |
+| **Rural-urban migration**   | Movement from countryside to cities                              | Internal migration in China, approximately 280 million rural migrants in cities |
 | **International migration** | Movement between countries                                       | Mexican migration to the USA                                                     |
 | **Return migration**        | Migrants returning to their country of origin                    | Return of skilled Indians from the US and UK                                     |
 | **Irregular migration**     | Movement outside legal frameworks                                | Mediterranean crossings to Europe                                                |
@@ -306,7 +306,7 @@ restraint would benefit all.
 
 **On destination countries:**
 
-- Fills labour shortages (e.g., NHS relies heavily on overseas-trained medical staff — approximately
+- Fills labour shortages (e.g., NHS relies heavily on overseas-trained medical staff, approximately
   30% of doctors in the UK trained abroad)
 - Cultural diversity and dynamism
 - Fiscal contribution (migrants are often of working age and pay more in taxes than they receive in
@@ -315,11 +315,11 @@ restraint would benefit all.
 
 **On origin countries:**
 
-- Remittances — global remittances to low- and middle-income countries reached approximately $656
+- Remittances, global remittances to low- and middle-income countries reached approximately $656
   billion in 2022 (exceeding FDI and official development assistance)
-- Brain drain — loss of skilled professionals weakens health, education, and governance systems
+- Brain drain, loss of skilled professionals weakens health, education, and governance systems
 - Reduced unemployment pressure and population growth
-- Social costs — family separation, dependency on remittance income
+- Social costs, family separation, dependency on remittance income
 
 ---
 
@@ -334,13 +334,13 @@ restraint would benefit all.
 
 ## Case Studies
 
-### Case Study 1: Apple Inc. — TNC Global Supply Chain
+### Case Study 1: Apple Inc., TNC Global Supply Chain
 
 Apple is the world's most valuable company (market capitalisation exceeding $3 trillion in 2024) and
 exemplifies the globalised TNC model.
 
 **Headquarters and design**: Apple is headquartered in Cupertino, California. Product design,
-software development, marketing, and corporate strategy are concentrated in the United States —
+software development, marketing, and corporate strategy are concentrated in the United States,
 these are the highest-value activities in the supply chain.
 
 **Manufacturing**: Apple does not own any factories. Instead, it contracts manufacturing primarily
@@ -349,13 +349,13 @@ factories in China, India, Vietnam, and Brazil. Foxconn's Zhengzhou factory in C
 "iPhone City," employs approximately 200,000–300,000 workers and can produce up to 500,000 iPhones
 per day.
 
-**Supply chain geography**: Components are sourced globally — displays from Samsung (South Korea),
+**Supply chain geography**: Components are sourced globally, displays from Samsung (South Korea),
 chips from TSMC (Taiwan), cameras from Sony (Japan), rare earth minerals from the Democratic
 Republic of Congo and China. Components are shipped to assembly plants, and finished products are
 shipped globally.
 
 **Criticism and challenges**: Apple has faced sustained criticism over labour conditions in its
-supply chain — long working hours, low wages, and unsafe conditions. After a series of suicides at
+supply chain, long working hours, low wages, and unsafe conditions. After a series of suicides at
 Foxconn in 2010, Apple joined the Fair Labor Association and increased audits. More recently, Apple
 has sought to diversify manufacturing away from China due to geopolitical tensions (US-China trade
 war) and supply chain disruptions (COVID-19), expanding production in India and Vietnam.
@@ -396,7 +396,7 @@ political parties across Europe and was a factor in the UK's Brexit vote (2016).
 
 ## Intuition
 
-Globalisation is like a vast spider web, with TNCs sitting at the centre. Each strand — trade routes, supply chains, migration flows, financial transactions — connects distant places in ways that are invisible until something breaks. When a tsunami hits Japan, car factories in Tennessee stop producing. When a pandemic closes Chinese ports, shelves in British supermarkets empty. The web creates wealth but also vulnerability. The tragedy of global governance is that the web needs a spider — someone to manage it — but the most powerful strands are controlled by nations that do not want to share their autonomy. The result is a system that is interconnected enough to cause global crises but disorganised enough to struggle with global solutions.
+Globalisation is like a vast spider web, with TNCs sitting at the centre. Each strand, trade routes, supply chains, migration flows, financial transactions, connects distant places in ways that are invisible until something breaks. When a tsunami hits Japan, car factories in Tennessee stop producing. When a pandemic closes Chinese ports, shelves in British supermarkets empty. The web creates wealth but also vulnerability. The tragedy of global governance is that the web needs a spider, someone to manage it, but the most powerful strands are controlled by nations that do not want to share their autonomy. The result is a system that is interconnected enough to cause global crises but disorganised enough to struggle with global solutions.
 
 ## Common Pitfalls
 
@@ -446,8 +446,8 @@ trade agreements outside the WTO framework also undermines its authority.
 
 The IMF provides financial assistance to countries facing balance of payments crises, which can
 prevent economic collapse. During the 2008 financial crisis, the IMF provided over $100 billion in
-loans to affected countries. However, IMF conditionality — requiring countries to implement
-austerity measures, privatisation, and trade liberalisation — has been widely criticised for
+loans to affected countries. However, IMF conditionality, requiring countries to implement
+austerity measures, privatisation, and trade liberalisation, has been widely criticised for
 exacerbating poverty and inequality, particularly during the structural adjustment programmes
 imposed on Sub-Saharan African countries in the 1980s and 1990s.
 
@@ -468,19 +468,19 @@ global rules and national sovereignty.
 **Answer:**
 
 Migration has significant economic impacts on the country of origin. The most positive impact is the
-flow of remittances — money sent home by migrants working abroad. Global remittances to low- and
+flow of remittances, money sent home by migrants working abroad. Global remittances to low- and
 middle-income countries totalled approximately $656 billion in 2022, exceeding both FDI and official
 development assistance. In countries such as Nepal, remittances constitute over 25% of GDP,
 providing a vital source of foreign exchange and household income.
 
-However, migration also causes brain drain — the loss of skilled and educated workers. This is
+However, migration also causes brain drain, the loss of skilled and educated workers. This is
 particularly damaging in sectors such as healthcare. The WHO estimates that Sub-Saharan Africa bears
 24% of the global disease burden but has only 3% of the world's health workers. The emigration of
 doctors and nurses trained at domestic expense to wealthier countries represents a significant loss
 of human capital.
 
 Migration can also create dependency on remittance income, making the economy vulnerable to external
-shocks — if migrants lose their jobs abroad (as seen during COVID-19), remittance flows decline,
+shocks, if migrants lose their jobs abroad (as seen during COVID-19), remittance flows decline,
 affecting households and national accounts.
 
 ---

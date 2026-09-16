@@ -266,11 +266,11 @@ A=1  | m4  m5  m7  m6 |
 
 Groups:
 
-1. (m0, m1) = $(\bar{A}\bar{B})$ — $A=0, B=0, C$ varies
-2. (m1, m5) = $(\bar{B}C)$ — $B=0, C=1, A$ varies (wraps vertically? No, these are in the same
+1. (m0, m1) = $(\bar{A}\bar{B})$, $A=0, B=0, C$ varies
+2. (m1, m5) = $(\bar{B}C)$, $B=0, C=1, A$ varies (wraps vertically? No, these are in the same
    column BC=01)
-3. (m6, m7) = $(AB)$ — $A=1, B=1, C$ varies
-4. (m0, m2) = $(\bar{A}\bar{C})$ — $A=0, C=0, B$ varies
+3. (m6, m7) = $(AB)$, $A=1, B=1, C$ varies
+4. (m0, m2) = $(\bar{A}\bar{C})$, $A=0, C=0, B$ varies
 
 Optimal grouping:
 
@@ -394,7 +394,7 @@ Actually, in Boolean algebra: $AB + AC_{in} + BC_{in} = AB + C_{in}(A + B)$
 
 $(A \oplus B)C_{in} + AB = (A\bar{B} + \bar{A}B)C_{in} + AB$
 
-Consider all 8 cases in the truth table — both expressions yield the same $C_{out}$ column, so they
+Consider all 8 cases in the truth table, both expressions yield the same $C_{out}$ column, so they
 Are equivalent. ✓
 
 **Implementation:** 2 XOR gates + 2 AND gates + 1 OR gate (or equivalent).
@@ -578,7 +578,7 @@ Of... Not rectangular unless we include m10 which is 0.
 
 Groups:
 
-- (m0, m1, m4, m5): $\bar{A}\bar{C}$ — wait, that's not right either. Let me re-examine.
+- (m0, m1, m4, m5): $\bar{A}\bar{C}$, wait, that's not right either. Let me re-examine.
 
 AB=00, CD=00,01: $\bar{A}\bar{B}\bar{C}$ AB=01, CD=00,01: $\bar{A}B\bar{C}$ AB=11, CD=00,01:
 $AB\bar{C}$ AB=10, CD=00,01: $A\bar{B}\bar{C}$
@@ -742,10 +742,10 @@ $A \oplus B = \overline{\overline{A \cdot \overline{AB}} \cdot \overline{B \cdot
 <summary>Answer</summary>
 
 XOR from NAND:
-$A \oplus B = \overline{\overline{A \cdot \overline{AB}} \cdot \overline{B \cdot \overline{AB}}}$ —
+$A \oplus B = \overline{\overline{A \cdot \overline{AB}} \cdot \overline{B \cdot \overline{AB}}}$,
 4 NAND gates
 
-NOT: $\bar{X} = \overline{X \cdot X}$ — 1 NAND gate (or use existing NAND output)
+NOT: $\bar{X} = \overline{X \cdot X}$, 1 NAND gate (or use existing NAND output)
 
 Sum = $A \oplus B \oplus C_{in}$: needs two XOR operations.
 
@@ -785,7 +785,7 @@ A=1  |  X   1   X   0 |
 
 Grouping strategy:
 
-- (m0, m1, m4, m5): This wraps — m0(000), m1(001) in A=0; m4(100), m5(101) in A=1. These form a
+- (m0, m1, m4, m5): This wraps, m0(000), m1(001) in A=0; m4(100), m5(101) in A=1. These form a
   column BC=00 and BC=01. Treat m1 and m4 as 1. Group: $\bar{C}$ (all have C=0 or C=1... Wait, BC=00
   has C=0, BC=01 has C=1).
 
@@ -865,8 +865,8 @@ linked above.
 
 ## Intuition
 
-Boolean algebra is the mathematics of yes-or-no decisions. Every statement is either true (1) or false (0), and the three operators — AND, OR, NOT — are directly rules for combining these binary values. Think of a light switch: AND means both switches must be on for the light to work, OR means either one is enough, and NOT flips the state. This simplicity is deceptive because from these three primitives you can build circuits that perform arithmetic, make comparisons, and control complex systems.
+Boolean algebra is the mathematics of yes-or-no decisions. Every statement is either true (1) or false (0), and the three operators, AND, OR, NOT, are directly rules for combining these binary values. Think of a light switch: AND means both switches must be on for the light to work, OR means either one is enough, and NOT flips the state. This simplicity is deceptive because from these three primitives you can build circuits that perform arithmetic, make comparisons, and control complex systems.
 
-The power of Boolean algebra lies in its ability to simplify. Two expressions that look completely different on paper may produce identical outputs for every possible input — they are logically equivalent. Laws like De Morgan's theorem, distribution, and absorption let you rewrite expressions into simpler forms. This is not just an academic exercise: in hardware, fewer logic gates means cheaper, faster, and more energy-efficient circuits. In software, simplifying Boolean conditions makes code easier to read and less error-prone.
+The power of Boolean algebra lies in its ability to simplify. Two expressions that look completely different on paper may produce identical outputs for every possible input, they are logically equivalent. Laws like De Morgan's theorem, distribution, and absorption let you rewrite expressions into simpler forms. This is not just an academic exercise: in hardware, fewer logic gates means cheaper, faster, and more energy-efficient circuits. In software, simplifying Boolean conditions makes code easier to read and less error-prone.
 
 Karnaugh maps turn simplification into a visual puzzle. By arranging truth table values in a grid where adjacent cells differ by exactly one bit, you can spot groups of 1s that correspond to simplified terms. The human eye is excellent at finding patterns in 2D layouts, and K-maps exploit this to make simplification almost mechanical. For expressions with more variables, the same principles underlie algorithms like Quine-McCluskey, which computers can apply systematically. The core idea remains the same: find the smallest set of terms that covers all the cases where the output is 1.

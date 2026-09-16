@@ -47,7 +47,7 @@ electrostatic, nuclear.
 **Energy transfers:** heating (particles), electrical work, mechanical work (forces doing work),
 radiation (light and other EM waves).
 
-**Conservation of energy:** Energy cannot be created or destroyed — it can only be transferred from
+**Conservation of energy:** Energy cannot be created or destroyed, it can only be transferred from
 one store to another. The total energy in a closed system remains constant.
 
 ### 1.2 Kinetic and Potential Energy
@@ -123,7 +123,7 @@ where $L$ is specific latent heat (J/kg).
 - **Specific latent heat of fusion:** Melting (solid to liquid).
 - **Specific latent heat of vaporisation:** Boiling (liquid to gas).
 
-**Key value:** Water — latent heat of fusion $\approx 334\,000 \text{ J/kg}$, latent heat of
+**Key value:** Water, latent heat of fusion $\approx 334\,000 \text{ J/kg}$, latent heat of
 vaporisation $\approx 2\,260\,000 \text{ J/kg}$.
 
 ---
@@ -185,7 +185,7 @@ resistance on a car).
 
 **Terminal velocity:** When an object falls, air resistance increases with speed until it equals the
 weight. The resultant force becomes zero, so acceleration stops. The object then falls at constant
-velocity — the terminal velocity.
+velocity, the terminal velocity.
 
 ### 2.5 Momentum
 
@@ -201,7 +201,7 @@ total momentum after the event.
 $$F = \frac{\Delta p}{t}$$
 
 A larger force or longer contact time gives a larger change in momentum. This is the principle
-behind crumple zones and seat belts — increasing the time reduces the force.
+behind crumple zones and seat belts, increasing the time reduces the force.
 
 ### 2.6 Stopping Distances and Car Safety
 
@@ -212,7 +212,7 @@ $$\text{Stopping distance} = \text{thinking distance} + \text{braking distance}$
 - **Braking distance:** Distance travelled while the brakes are applied. Increases with speed;
   affected by road conditions, tyre condition, and vehicle mass.
 
-**Safety features:** Seat belts, airbags, crumple zones — all increase the time over which momentum
+**Safety features:** Seat belts, airbags, crumple zones, all increase the time over which momentum
 changes, reducing the force on the occupant.
 
 ---
@@ -261,7 +261,7 @@ All EM waves travel at $3 \times 10^8 \text{ m/s}$ in a vacuum.
 | X-ray         |                              | Medical imaging, airport security   |
 | Gamma ray     | Shortest                     | Radiotherapy, sterilisation         |
 
-Higher frequency = higher energy. Gamma rays and X-rays are ionising radiation — they can damage
+Higher frequency = higher energy. Gamma rays and X-rays are ionising radiation, they can damage
 cells and cause cancer.
 
 ### 3.4 Reflection and Refraction
@@ -357,9 +357,9 @@ UK mains supply: 230 V AC (alternating current) at 50 Hz.
 
 **The three-pin plug:**
 
-- Live (brown wire) — carries alternating high voltage.
-- Neutral (blue wire) — completes the circuit at approximately 0 V.
-- Earth (green/yellow wire) — safety connection; carries current only if there is a fault.
+- Live (brown wire), carries alternating high voltage.
+- Neutral (blue wire), completes the circuit at approximately 0 V.
+- Earth (green/yellow wire), safety connection; carries current only if there is a fault.
 
 **Fuses:** Melt and break the circuit if current exceeds the fuse rating. Always choose a fuse
 rating slightly higher than the normal operating current.
@@ -475,9 +475,9 @@ $$\Delta E = mc\Delta T$$
 The pressure of a gas in a sealed container increases when the temperature increases because the
 particles move faster and collide with the walls more frequently and with greater force.
 
-$$pV = \text{constant} \quad \text{(at constant temperature — Boyle's law)}$$
+$$pV = \text{constant} \quad \text{(at constant temperature, Boyle's law)}$$
 
-$$\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume — pressure law, temperature in kelvin)}$$
+$$\frac{p_1}{T_1} = \frac{p_2}{T_2} \quad \text{(at constant volume, pressure law, temperature in kelvin)}$$
 
 ---
 
@@ -583,10 +583,10 @@ square law), and shielding.
 | Potential difference           | $V = IR$                            | V      |
 | Electrical power               | $P = IV = I^2R = \frac{V^2}{R}$     | W      |
 | Electrical energy              | $E = Pt = QV$                       | J      |
-| Transformer ratio              | $\frac{V_p}{V_s} = \frac{n_p}{n_s}$ | —      |
+| Transformer ratio              | $\frac{V_p}{V_s} = \frac{n_p}{n_s}$ |,      |
 | Density                        | $\rho = \frac{m}{V}$                | kg/m³  |
 | Pressure                       | $p = \frac{F}{A}$                   | Pa     |
-| Gas law (Boyle)                | $p_1V_1 = p_2V_2$                   | —      |
+| Gas law (Boyle)                | $p_1V_1 = p_2V_2$                   |,      |
 
 ---
 
@@ -639,11 +639,11 @@ square law), and shielding.
 
 ## Intuition
 
-**The rules of the universe:** Physics explains how everything moves — from apples falling to planets orbiting. It's like learning the rules of a game that nature always follows.
+**The rules of the universe:** Physics explains how everything moves, from apples falling to planets orbiting. It's like learning the rules of a game that nature always follows.
 
 **Why it matters:** From engineering to medicine, physics principles underpin modern technology. Understanding physics helps you see the invisible forces that shape our world.
 
-**The key insight:** Newton's laws are deceptively simple — F = ma explains everything from car crashes to rocket launches.
+**The key insight:** Newton's laws are deceptively simple, F = ma explains everything from car crashes to rocket launches.
 
 ## Common Pitfalls
 

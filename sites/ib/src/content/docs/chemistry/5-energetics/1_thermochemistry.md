@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Thermochemistry is like tracking energy bookkeeping — every bond broken costs energy, every bond formed releases energy:** Enthalpy changes determine whether reactions release heat (exothermic) or absorb it (endothermic)
+**Thermochemistry is like tracking energy bookkeeping, every bond broken costs energy, every bond formed releases energy:** Enthalpy changes determine whether reactions release heat (exothermic) or absorb it (endothermic)
 
 **Why it matters:** Thermochemistry guides fuel selection, industrial process design, and understanding metabolic energy flow
 
@@ -253,7 +253,7 @@ $$
 \Delta H = \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})
 $$
 
-Bonds broken (positive — energy absorbed) and bonds formed (negative — energy released).
+Bonds broken (positive, energy absorbed) and bonds formed (negative, energy released).
 :::
 :::note
 <strong>Example</strong>
@@ -528,7 +528,7 @@ For which reaction is $\Delta S$ positive?
 A. 2H$_2$(g) + O$_2$(g) $\to$ 2H$_2$O(g) B. NH$_4$Cl(s) $\to$ NH$_3$(g) + HCl(g) C. CaO(s) +
 H$_2$O(l) $\to$ Ca(OH)$_2$(s) D. N$_2$(g) + 3H$_2$(g) $\to$ 2NH$_3$(g)
 
-**Answer: B** — a solid produces two gases, increasing disorder.
+**Answer: B**, a solid produces two gases, increasing disorder.
 
 ---
 
@@ -566,7 +566,7 @@ flowchart TD
 :::tip
 <strong>Exam Strategy</strong>
 For Hess's law questions, draw the energy cycle . For calorimetry, always account for the Total mass
-of the solution. For Gibbs free energy, pay attention to units — $\Delta H$ is In kJ/mol while
+of the solution. For Gibbs free energy, pay attention to units, $\Delta H$ is In kJ/mol while
 $\Delta S$ is in J/(mol$\cdot$K), so convert one before combining.
 
 ---
@@ -952,7 +952,7 @@ $$
 
 Since both $\Delta H$ and $\Delta S$ are negative, the reaction is spontaneous at low temperatures.
 It becomes non-spontaneous above $1094\mathrm{ K}$. Since the calculated "temperature" is negative,
-$\Delta G^\circ$ is negative at all positive temperatures — the reaction is always spontaneous.
+$\Delta G^\circ$ is negative at all positive temperatures, the reaction is always spontaneous.
 
 ## Practice Problems
 

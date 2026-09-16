@@ -16,9 +16,9 @@ description: "Study notes for Authentication and Authorization with worked examp
 
 ## Authentication vs Authorization
 
-**Authentication (AuthN)** answers "who are you?" — it verifies identity.
+**Authentication (AuthN)** answers "who are you?", it verifies identity.
 
-**Authorization (AuthZ)** answers "what can you do?" — it enforces permissions.
+**Authorization (AuthZ)** answers "what can you do?", it enforces permissions.
 
 These are distinct concerns that are often conflated. A user can be authenticated (their identity is
 Verified) but not authorized (they lack permission for a specific action). Conversely, a system
@@ -43,7 +43,7 @@ Might authorize a request without authentication (anonymous access).
 | MD5                  | Fast, 128-bit output, no salt, broken            |
 | SHA-1                | Fast, 160-bit output, collision broken           |
 | SHA-256 without salt | Fast, no salt, vulnerable to rainbow tables      |
-| Base64 encoding      | Not hashing at all — encoding is not encryption  |
+| Base64 encoding      | Not hashing at all, encoding is not encryption  |
 | Custom encryption    | Key management problem shifts the attack surface |
 
 ### How to Store Passwords
@@ -117,7 +117,7 @@ They contradict many traditional policies.
 **Do Not:**
 
 - Force periodic password rotation (leads to predictable patterns: `Password1!``Password2!`...)
-- Require composition rules (uppercase + lowercase + digit + special character — users just
+- Require composition rules (uppercase + lowercase + digit + special character, users just
   capitalize the first letter and add `1!`)
 - Require passwords to be changed after a breach unless compromise is confirmed
 - Use knowledge-based authentication (security questions are guessable)
@@ -223,7 +223,7 @@ Rate limiting, anomaly detection, and do not use it as the sole second factor.
 ## OAuth 2.0
 
 OAuth 2.0 (RFC 6749) is an authorization framework that allows applications to obtain limited access
-To user accounts on HTTP services. It is a delegation protocol — the user authorizes a third-party
+To user accounts on HTTP services. It is a delegation protocol, the user authorizes a third-party
 Application to access their resources without sharing their credentials.
 
 ### Core Concepts
@@ -444,11 +444,11 @@ RSASHA256(
 
 | Algorithm | Type       | Security Notes                                    |
 | --------- | ---------- | ------------------------------------------------- |
-| HS256     | Symmetric  | Shared secret — both parties must protect the key |
-| RS256     | Asymmetric | RSA with SHA-256 — widely supported               |
-| ES256     | Asymmetric | ECDSA with P-256 — smaller signatures             |
-| EdDSA     | Asymmetric | Ed25519 — modern, recommended for new systems     |
-| none      | None       | **Insecure** — must be rejected                   |
+| HS256     | Symmetric  | Shared secret, both parties must protect the key |
+| RS256     | Asymmetric | RSA with SHA-256, widely supported               |
+| ES256     | Asymmetric | ECDSA with P-256, smaller signatures             |
+| EdDSA     | Asymmetric | Ed25519, modern, recommended for new systems     |
+| none      | None       | **Insecure**, must be rejected                   |
 
 ### JWT Validation Checklist
 
@@ -598,17 +598,17 @@ Fine-grained decisions (attribute checks within a role).
 
 | Client Type       | Storage Method                               | Risks                            |
 | ----------------- | -------------------------------------------- | -------------------------------- |
-| Server-side (web) | HttpOnly, Secure, SameSite cookie            | Lowest risk — JS cannot access   |
+| Server-side (web) | HttpOnly, Secure, SameSite cookie            | Lowest risk, JS cannot access   |
 | SPA (browser)     | In-memory only, or HttpOnly cookie           | XSS exfiltrates in-memory tokens |
 | Mobile (native)   | OS keychain (iOS Keychain, Android Keystore) | Malware, jailbroken devices      |
 | Desktop (native)  | OS credential store                          | Similar to mobile                |
 
 ### Token Storage Anti-Patterns
 
-- **localStorage**: Accessible to any JavaScript on the page — XSS directly exfiltrates tokens
-- **sessionStorage**: Same as localStorage but cleared on tab close — still vulnerable to XSS
+- **localStorage**: Accessible to any JavaScript on the page, XSS directly exfiltrates tokens
+- **sessionStorage**: Same as localStorage but cleared on tab close, still vulnerable to XSS
 - **URL parameters**: Tokens in URLs appear in browser history, referrer headers, server logs
-- **Cookies without HttpOnly**: Accessible to JavaScript — XSS can steal them
+- **Cookies without HttpOnly**: Accessible to JavaScript, XSS can steal them
 
 ### Refresh Token Storage
 
@@ -712,7 +712,7 @@ graph TD
 
 **Disadvantages:**
 
-- Single point of failure — IdP outage affects all applications
+- Single point of failure, IdP outage affects all applications
 - Requires high availability and disaster recovery planning
 - Latency added to every authentication request
 - Vendor lock-in risk with proprietary IdPs

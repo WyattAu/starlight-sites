@@ -54,7 +54,7 @@ Refuses to run on dirty working trees, and supports rename detection.
 3. Re-importing the modified history using `git fast-import`.
 4. Cleaning up all refs, reflogs, and the original object database.
 
-This pipeline approach means it never needs to read the full object database into memory — it
+This pipeline approach means it never needs to read the full object database into memory, it
 Processes objects as a stream, making it both fast and memory-efficient.
 
 ## Installation
@@ -94,7 +94,7 @@ Itself.
 ### Platform-Specific Notes
 
 ```bash
-# On Debian/Ubuntu, the system package is outdated — use pip instead
+# On Debian/Ubuntu, the system package is outdated, use pip instead
 $ sudo apt install git-filter-repo   # May be an old version
 $ pip install git-filter-repo         # Always the latest
 
@@ -262,10 +262,10 @@ regex:PATTERN==>REPLACEMENT
 glob:PATTERN==>REPLACEMENT
 ```
 
-- `literal:` — exact string match (no regex interpretation)
-- `regex:` — Python-compatible regular expression
-- `glob:` — glob pattern matching
-- `==>` — separator between match and replacement (can be omitted if only matching, not replacing)
+- `literal:`exact string match (no regex interpretation)
+- `regex:`Python-compatible regular expression
+- `glob:`glob pattern matching
+- `==>`separator between match and replacement (can be omitted if only matching, not replacing)
 - If no `==>REPLACEMENT` is provided, matching lines/blobs are **deleted entirely**
 
 ### Examples
@@ -332,7 +332,7 @@ On a repository with 50,000 commits and 10,000 files:
 | Extract subdirectory | 50 minutes      | 2.5 minutes   |
 
 These numbers are approximate and depend on hardware, but the order-of-magnitude difference is
-Consistent. `filter-repo` is 15-30x faster because it avoids creating intermediate Git objects — it
+Consistent. `filter-repo` is 15-30x faster because it avoids creating intermediate Git objects, it
 Streams modifications directly through the fast-import/fast-export pipeline.
 
 ### Why filter-branch Is Still in Git

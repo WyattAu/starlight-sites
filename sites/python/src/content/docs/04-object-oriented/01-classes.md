@@ -818,13 +818,13 @@ p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 
 ```python
 class Base:
-    __slots__ = ("id",)
+    __slots__ = ("id")
 
 class Child(Base):
-    __slots__ = ("name",)
+    __slots__ = ("name")
 
 class Grandchild(Child):
-    __slots__ = ("age",)
+    __slots__ = ("age")
 
 g = Grandchild()
 g.id = 1

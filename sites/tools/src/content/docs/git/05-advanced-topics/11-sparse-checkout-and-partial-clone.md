@@ -49,7 +49,7 @@ They can be used independently or combined for maximum efficiency.
 ## Sparse Checkout
 
 Sparse checkout allows you to check out only a subset of the repository"s directories into your
-Working tree. The repository still contains all objects (commits, trees, blobs) — the working tree
+Working tree. The repository still contains all objects (commits, trees, blobs), the working tree
 Is a filtered view of the tree at HEAD.
 
 ### Cone Mode (Default Since Git 2.37)
@@ -77,7 +77,7 @@ src/utils/
 ```
 
 After `git sparse-checkout init --cone`The working tree is emptied except for the directories you
-Explicitly include. The `.git` directory retains all objects and refs — only the working tree is
+Explicitly include. The `.git` directory retains all objects and refs, only the working tree is
 Filtered.
 
 ### How Cone Mode Works
@@ -154,8 +154,8 @@ Appear empty (but the branch switch succeeds silently).
 
 ```bash
 $ git sparse-checkout set src/frontend
-$ git switch main          # Works — shows only src/frontend/
-$ git switch feature-api   # Works — shows only src/frontend/ (even if feature-api
+$ git switch main          # Works, shows only src/frontend/
+$ git switch feature-api   # Works, shows only src/frontend/ (even if feature-api
                           # only changed files in src/backend/)
 ```
 
@@ -208,7 +208,7 @@ blobs it needs:
 
 ```bash
 $ git log --oneline
-# Works immediately — commit objects are local
+# Works immediately, commit objects are local
 
 $ git show HEAD:src/main.c
 # Triggers a fetch of the blob for src/main.c at HEAD
@@ -331,8 +331,8 @@ $ git sparse-checkout init --cone
 $ git sparse-checkout set src/frontend docs
 
 # Result:
-# - .git/objects/ contains commits + trees (no blobs) — ~2GB
-# - Working tree contains only src/frontend/ and docs/ — ~200MB
+# - .git/objects/ contains commits + trees (no blobs), ~2GB
+# - Working tree contains only src/frontend/ and docs/, ~200MB
 # - Total disk usage: ~2.2GB instead of ~40GB
 # - Initial clone time: ~30 seconds instead of ~30 minutes
 ```
@@ -606,7 +606,7 @@ Directory). Instead, use **sparse + shallow** clones for each job and rely on th
 # The clone time for a sparse + shallow partial clone is in standard practice
 # under 10 seconds even for large monorepos
 
-# Do NOT cache the .git directory for partial clones — the cache
+# Do NOT cache the .git directory for partial clones, the cache
 # would be as large as a full clone once all promisor objects are fetched
 ```
 
@@ -676,7 +676,7 @@ For read-only analysis of a partial clone, use `--no-patch` to avoid blob fetche
 # Only show commit metadata (no blob fetches)
 $ git log --oneline --no-patch HEAD~100..HEAD
 
-# Count commits touching a path (no blob fetches — only tree objects needed)
+# Count commits touching a path (no blob fetches, only tree objects needed)
 $ git log --oneline -- src/frontend/
 ```
 
@@ -705,7 +705,7 @@ To reduce `.git` size, use partial clone:
 ```bash
 $ git clone --filter=blob:none https://github.com/org/monorepo.git
 $ du -sh .git
-2G      .git    # Much smaller — no blobs
+2G      .git    # Much smaller, no blobs
 ```
 
 ### Forgetting to Expand the Sparse Checkout Before Building
@@ -781,7 +781,7 @@ $ git fetch --unshallow
 
 ### Converting an Existing Clone to a Partial Clone
 
-Converting an existing full clone to a partial clone does not reclaim disk space — the objects are
+Converting an existing full clone to a partial clone does not reclaim disk space, the objects are
 Already downloaded. The conversion only affects future fetches:
 
 ```bash

@@ -26,8 +26,8 @@ flowchart TD
 
 The **reflog** (reference log) is Git's built-in safety net. It records every change to the HEAD
 reference and to each branch reference, creating a chronological audit trail of all movements in the
-repository. Even after operations that appear destructive —
-`git reset --hard``git rebase``git commit --amend` — the reflog retains a record of where the
+repository. Even after operations that appear destructive,
+`git reset --hard``git rebase``git commit --amend`the reflog retains a record of where the
 references were before.
 
 Think of the reflog as Git's **undo history**. While `git log` shows the commit history (the DAG),
@@ -94,13 +94,13 @@ $ git reflog --all
 Reflog entries can be used anywhere a commit hash is expected:
 
 ```bash
-# HEAD@{N} — the Nth previous position of HEAD
+# HEAD@{N}, the Nth previous position of HEAD
 $ git show HEAD@{3}
 
-# branch@{N} — the Nth previous position of a branch
+# branch@{N}, the Nth previous position of a branch
 $ git show main@{2}
 
-# @{N} — shorthand for HEAD@{N}
+# @{N}, shorthand for HEAD@{N}
 $ git show @{5}
 ```
 
@@ -111,7 +111,7 @@ $ git show @{5}
 ```bash
 # You accidentally reset too far
 $ git reset --hard HEAD~3
-# Oops — you wanted to go back only 1 commit
+# Oops, you wanted to go back only 1 commit
 
 # Find the correct position in the reflog
 $ git reflog
@@ -142,7 +142,7 @@ $ git reset --hard HEAD@{2}
 
 ```bash
 $ git stash drop
-# Oops — you needed that stash
+# Oops, you needed that stash
 
 # Find the stash in the reflog (stashes are stored as special commits)
 $ git reflog stash

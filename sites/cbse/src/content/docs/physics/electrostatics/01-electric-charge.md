@@ -39,7 +39,7 @@ Electric charge is a fundamental property of matter. This topic covers Coulomb's
 - Charge is conserved in all interactions (nuclear, chemical, etc.)
 - The force between two charges is along the line joining them
 
-## Worked Example 1 — Coulomb's Law (Two Charges)
+## Worked Example 1, Coulomb's Law (Two Charges)
 
 **Problem:** Two point charges $q_1 = +3 \, \mu\text{C}$ and $q_2 = -5 \, \mu\text{C}$ are placed 0.2 m apart. Find the magnitude and direction of the force between them.
 
@@ -52,7 +52,7 @@ Since the charges have opposite signs, the force is attractive (directed toward 
 
 **Common mistake:** Forgetting to convert microcoulombs to coulombs. Always write $3 \, \mu\text{C} = 3 \times 10^{-6} \, \text{C}$ before substituting.
 
-## Worked Example 2 — Superposition of Forces
+## Worked Example 2, Superposition of Forces
 
 **Problem:** A charge $q = +2 \, \mu\text{C}$ is placed at the origin. Charges $q_1 = +3 \, \mu\text{C}$ at $(0.1, 0)$ m and $q_2 = -4 \, \mu\text{C}$ at $(0, 0.1)$ m. Find the net force on $q$.
 
@@ -75,7 +75,7 @@ Direction: $\theta = \tan^{-1}\left(\frac{7.2}{5.4}\right) \approx 53.1^\circ$ b
 
 **Common mistake:** Adding force magnitudes directly without considering direction. Forces are vectors and must be added using vector components.
 
-## Worked Example 3 — Equilibrium of Three Charges
+## Worked Example 3, Equilibrium of Three Charges
 
 **Problem:** A charge $q_1 = +4 \, \mu\text{C}$ is at the origin and $q_2 = +9 \, \mu\text{C}$ is at $x = 3$ m. Where should a third charge $q_3$ be placed on the $x$-axis so that it is in equilibrium?
 
@@ -96,8 +96,8 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 ## Cross-References
 
-- **[Electric Field (02-electric-field)](02-electric-field):** Charges create electric fields, which exert forces on other charges — connecting charge to the field concept.
-- **[Current Electricity](../current-electricity/index):** Electric current is the flow of charge — understanding charge is the first step to understanding circuits.
+- **[Electric Field (02-electric-field)](02-electric-field):** Charges create electric fields, which exert forces on other charges, connecting charge to the field concept.
+- **[Current Electricity](../current-electricity/index):** Electric current is the flow of charge, understanding charge is the first step to understanding circuits.
 - **[Electrostatics](../../../../../../typescript/src/content/docs/index):** The broader topic that uses Coulomb's law to calculate fields, potentials, and forces from charge distributions.
 - **[Atoms and Nuclei (Physics)](../../../../../../typescript/src/content/docs/index):** Atomic structure depends on the electrostatic attraction between the positively charged nucleus and negatively charged electrons.
 
@@ -114,11 +114,11 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 ## Intuition
 
-**The invisible force that holds matter together:** Electric charge is like an invisible property of matter — you can't see it, but you can see its effects when objects attract or repel. Think of it as a "social tendency": like charges (same type) avoid each other, while opposite charges are drawn together, just like magnets. The force between charges follows an inverse-square law — double the distance and the force drops to one quarter, just like gravity weakens with distance.
+**The invisible force that holds matter together:** Electric charge is like an invisible property of matter, you can't see it, but you can see its effects when objects attract or repel. Think of it as a "social tendency": like charges (same type) avoid each other, while opposite charges are drawn together, just like magnets. The force between charges follows an inverse-square law, double the distance and the force drops to one quarter, just like gravity weakens with distance.
 
-**Why it matters:** Electric charge is the foundation of all electromagnetic phenomena — from the lightning in a thunderstorm to the signals in your brain. Understanding charge means understanding how batteries work, how computers process information, and how atoms bind together to form everything around you.
+**Why it matters:** Electric charge is the foundation of all electromagnetic phenomena, from the lightning in a thunderstorm to the signals in your brain. Understanding charge means understanding how batteries work, how computers process information, and how atoms bind together to form everything around you.
 
-**The key insight:** Charge comes in discrete packets (multiples of the elementary charge e = 1.6 × 10⁻¹⁹ C) and is always conserved — it can be transferred between objects but never created or destroyed, like a cosmic accounting system that always balances.
+**The key insight:** Charge comes in discrete packets (multiples of the elementary charge e = 1.6 × 10⁻¹⁹ C) and is always conserved, it can be transferred between objects but never created or destroyed, like a cosmic accounting system that always balances.
 
 ## Common Exam Patterns
 
@@ -140,7 +140,7 @@ The third charge should be placed at $x = 1.2$ m from the origin.
 
 **Forgetting to convert microcoulombs to coulombs.** The formula F = kq₁q₂/r² requires charges in coulombs, not microcoulombs. Always write 3 μC = 3 × 10⁻⁶ C before substituting. This single mistake can make your answer off by a factor of 10¹².
 
-**Adding force magnitudes directly without vector components.** Forces are vectors — when multiple charges act on a charge, you must resolve forces into components and add them vectorially, not just add the magnitudes. F_net ≠ F₁ + F₂ unless the forces are in the same direction.
+**Adding force magnitudes directly without vector components.** Forces are vectors, when multiple charges act on a charge, you must resolve forces into components and add them vectorially, not just add the magnitudes. F_net ≠ F₁ + F₂ unless the forces are in the same direction.
 
 **Confusing the equilibrium position between two charges.** For two like charges, the equilibrium point is between them, closer to the smaller charge. For two unlike charges, the equilibrium point is outside the charges, on the side of the smaller charge (magnitude). Students often place the equilibrium point at the midpoint regardless of charge magnitudes.
 

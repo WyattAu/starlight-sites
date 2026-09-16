@@ -2392,7 +2392,7 @@ _If you get this wrong, revise: Section 6.2 (Matrix Representation) and Section 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
 
-2. Assuming matrix multiplication is commutative — $AB \neq BA$.
+2. Assuming matrix multiplication is commutative, $AB \neq BA$.
 
 ## Worked Examples
 
@@ -2477,7 +2477,7 @@ import { Citation } from "@components/Citations.astro"
 | Abstract Algebra           | WyattsNotes | [View](abstract-algebra)                 |
 | Multivariable Calculus     | WyattsNotes | [View](multivariable-calculus)           |
 | Real Analysis              | WyattsNotes | [View](real-analysis)                    |
-| Linear Algebra — MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
+| Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

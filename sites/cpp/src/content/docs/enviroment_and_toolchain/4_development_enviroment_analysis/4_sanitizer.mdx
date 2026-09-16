@@ -352,7 +352,7 @@ void increment_bad(int count) \{
 
 void increment_good(int count) \{
     for (int i = 0; i &lt; count; ++i) \{
-        // Still a race — this is NOT atomic
+        // Still a race, this is NOT atomic
         shared_counter++;
     \}
 \}
@@ -383,7 +383,7 @@ WARNING: ThreadSanitizer: data race (pid=12345)
 
 ### TSan and std::atomic
 
-TSan correctly handles `std::atomic` operations — it recognizes that `load``store`And
+TSan correctly handles `std::atomic` operations, it recognizes that `load``store`And
 `compare_exchange` are synchronization points. A race on an atomic variable with
 `memory_order_relaxed` is still flagged if the intent is synchronization:
 
@@ -406,7 +406,7 @@ int main() \{
     t1.join();
     t2.join();
     std::cout << "atomic counter (correct): " << atomic_counter.load() << "\n";
-    // TSan: no warning — atomic operations are properly synchronized
+    // TSan: no warning, atomic operations are properly synchronized
 \}
 ```
 
@@ -598,11 +598,11 @@ marks in geography assessments.
 
 ## Intuition
 
-Sanitizers are like **x-ray machines for your code** — they instrument your program at compile time to catch bugs that would otherwise go undetected until they cause mysterious failures in production. AddressSanitizer (ASan) inserts redzones around every allocation and checks every memory access against a shadow memory map. ThreadSanitizer (TSan) tracks happens-before relationships between threads using vector clocks. UndefinedBehaviorSanitizer (UBSan) checks for operations that the C++ standard says have no defined behaviour. The key insight is that these tools find real bugs — sanitizers almost never produce false positives, so if they report an error, it is a genuine problem.
+Sanitizers are like **x-ray machines for your code**, they instrument your program at compile time to catch bugs that would otherwise go undetected until they cause mysterious failures in production. AddressSanitizer (ASan) inserts redzones around every allocation and checks every memory access against a shadow memory map. ThreadSanitizer (TSan) tracks happens-before relationships between threads using vector clocks. UndefinedBehaviorSanitizer (UBSan) checks for operations that the C++ standard says have no defined behaviour. The key insight is that these tools find real bugs, sanitizers almost never produce false positives, so if they report an error, it is a genuine problem.
 
-The trade-off is performance and memory. ASan roughly doubles memory usage and CPU time because every memory access goes through a shadow memory check. TSan is even more expensive — 5–15x CPU overhead — because it must track synchronisation events across all threads. This is why you should never run sanitizers in production or benchmarks: they are development-time tools that catch bugs early. The recommended approach is to run ASan/UBSan in one CI job and TSan in a separate job, since they cannot run simultaneously (they instrument memory accesses in incompatible ways).
+The trade-off is performance and memory. ASan roughly doubles memory usage and CPU time because every memory access goes through a shadow memory check. TSan is even more expensive, 5–15x CPU overhead, because it must track synchronisation events across all threads. This is why you should never run sanitizers in production or benchmarks: they are development-time tools that catch bugs early. The recommended approach is to run ASan/UBSan in one CI job and TSan in a separate job, since they cannot run simultaneously (they instrument memory accesses in incompatible ways).
 
-Think of sanitizers as **cheap insurance** against the most dangerous classes of bugs: buffer overflows, use-after-free, data races, and undefined behaviour. These bugs are notoriously hard to reproduce and debug because they may not manifest on every run, on every platform, or under every compiler. Sanitizers make them deterministic and loud — they crash immediately with a clear error message and stack trace, telling you exactly where the bug is. The investment of a slower CI run is trivially worth the cost of finding these bugs before your users do.
+Think of sanitizers as **cheap insurance** against the most dangerous classes of bugs: buffer overflows, use-after-free, data races, and undefined behaviour. These bugs are notoriously hard to reproduce and debug because they may not manifest on every run, on every platform, or under every compiler. Sanitizers make them deterministic and loud, they crash immediately with a clear error message and stack trace, telling you exactly where the bug is. The investment of a slower CI run is trivially worth the cost of finding these bugs before your users do.
 
 ## See Also
 

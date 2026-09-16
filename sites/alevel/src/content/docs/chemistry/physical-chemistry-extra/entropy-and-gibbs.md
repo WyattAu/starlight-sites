@@ -838,7 +838,7 @@ lattice and have greater freedom of movement (1 mark).
 
 ## Intuition
 
-**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+**Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
 
 ```mermaid

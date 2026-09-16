@@ -183,7 +183,7 @@ $$\Delta H = H_{\text{products}} - H_{\text{reactants}}$$
 
 ### Hess"s Law
 
-The enthalpy change for a reaction is independent of the route taken — the answer varies by context
+The enthalpy change for a reaction is independent of the route taken, the answer varies by context
 only on initial and final states.
 
 $$\Delta H_{\text{reaction}} = \sum \Delta H_f^\ominus(\text{products}) - \sum \Delta H_f^\ominus(\text{reactants})$$
@@ -236,7 +236,7 @@ $$\text{Rate} = k[\mathrm{A}]^m[\mathrm{B}]^n$$
 - $m$, $n$ = orders of reaction with respect to each reactant
 - **Overall order** = $m + n$
 
-**Orders can only be determined experimentally** — not from stoichiometric coefficients.
+**Orders can only be determined experimentally**, not from stoichiometric coefficients.
 
 ### Initial Rates Method
 
@@ -288,7 +288,7 @@ If a system at equilibrium is subjected to a change, the equilibrium shifts to o
 | Increase [reactant]  | Shifts to products                                    |
 | Increase pressure    | Shifts to fewer moles of gas                          |
 | Increase temperature | Shifts endothermic direction                          |
-| Add catalyst         | No shift — speeds up both forward and reverse equally |
+| Add catalyst         | No shift, speeds up both forward and reverse equally |
 
 ### Equilibrium Constants
 
@@ -303,7 +303,7 @@ $$K_p = \frac{(p_{\mathrm{C}})^c(p_{\mathrm{D}})^d}{(p_{\mathrm{A}})^a(p_{\mathr
 - Equilibrium constants are **temperature-dependent** only
 - $K > 1$: products favoured at equilibrium
 - $K < 1$: reactants favoured at equilibrium
-- Units depend on the expression — always write them
+- Units depend on the expression, always write them
 
 ### Industrial Processes
 
@@ -336,7 +336,7 @@ $$\mathrm{pH} = -\log_{10}[\mathrm{H}^+]$$
 
 - **Strong acids** fully dissociate ($\mathrm{HCl}$, $\mathrm{HNO_3}$, $\mathrm{H_2SO_4}$ first
   proton)
-- **Weak acids** partially dissociate — equilibrium established
+- **Weak acids** partially dissociate, equilibrium established
 
 ### Acid Dissociation Constant ($K_a$)
 
@@ -464,7 +464,7 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 4. **Forgetting units for $K_c$ and $k$.** Always calculate and include units.
 
 5. **Misapplying Le Chatelier's principle to catalysts.** A catalyst has no effect on the position
-   of equilibrium — only the rate at which equilibrium is reached.
+   of equilibrium, only the rate at which equilibrium is reached.
 
 6. **Balancing half-equations incorrectly.** Always balance atoms first, then charges, using
    electrons. Multiply to equalise electrons before combining.
@@ -485,7 +485,7 @@ If $E^\ominus_{\text{cell}} > 0$, the reaction is feasible under standard condit
 
 ## Intuition
 
-**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+**Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
 
 ```mermaid

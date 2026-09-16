@@ -371,7 +371,7 @@ being more favourable for massive objects.
 
 **Why it matters:** Mechanics is the foundation of engineering, vehicle safety design, sports science, and structural analysis.
 
-**The key insight:** Free body diagrams are the essential first step — correctly identifying all forces acting on an object determines whether your calculation will be correct.
+**The key insight:** Free body diagrams are the essential first step, correctly identifying all forces acting on an object determines whether your calculation will be correct.
 
 
 ```mermaid

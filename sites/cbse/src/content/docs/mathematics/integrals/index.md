@@ -60,7 +60,7 @@ Integration is the reverse process of differentiation. This topic covers basic i
 - Definite integral: $\int_a^b f(x) \, dx = F(b) - F(a)$
 - Properties: $\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx$, $\int_a^b f(x) \, dx = \int_a^c f(x) \, dx + \int_c^b f(x) \, dx$
 
-## Worked Example 1 — Substitution Method
+## Worked Example 1, Substitution Method
 
 **Problem:** Evaluate $\int 2x \cos(x^2) \, dx$.
 
@@ -72,7 +72,7 @@ $$\int 2x \cos(x^2) \, dx = \int \cos u \, du = \sin u + C = \sin(x^2) + C$$
 
 **Common mistake:** Forgetting to substitute back. The answer is $\sin(x^2) + C$, not $\sin u + C$.
 
-## Worked Example 2 — Integration by Parts
+## Worked Example 2, Integration by Parts
 
 **Problem:** Evaluate $\int x e^x \, dx$.
 
@@ -84,7 +84,7 @@ $$\int x e^x \, dx = x e^x - \int e^x \, dx = x e^x - e^x + C = e^x(x - 1) + C$$
 
 **Common mistake:** Choosing the wrong $u$ and $dv$. Use LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential) to choose $u$.
 
-## Worked Example 3 — Definite Integral
+## Worked Example 3, Definite Integral
 
 **Problem:** Evaluate $\int_0^{\pi/2} \sin^2 x \, dx$.
 
@@ -98,7 +98,7 @@ $$= \frac{1}{2}\left[\frac{\pi}{2} - 0 - (0 - 0)\right] = \frac{\pi}{4}$$
 
 **Common mistake:** Forgetting to evaluate at both limits. The definite integral is $F(b) - F(a)$, not just $F(b)$.
 
-## Worked Example 4 — Partial Fractions
+## Worked Example 4, Partial Fractions
 
 **Problem:** Evaluate $\int \frac{2x + 3}{(x+1)(x+2)} \, dx$.
 
@@ -118,7 +118,7 @@ $$= \ln|(x+1)(x+2)| + C$$
 
 **Common mistake:** Forgetting the absolute value inside the logarithm. The integral of $\frac{1}{x}$ is $\ln|x| + C$, not $\ln x + C$.
 
-## Worked Example 5 — Integration by Substitution (Trigonometric)
+## Worked Example 5, Integration by Substitution (Trigonometric)
 
 **Problem:** Evaluate $\int \tan x \, dx$.
 

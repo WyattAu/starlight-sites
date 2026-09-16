@@ -363,7 +363,7 @@ int main() {
 The standard guarantees thread-safe initialization for both `static` locals [N4950 §9.8.1] and
 `thread_local` variables. The compiler generates a guard variable with atomic operations to ensure
 That if two threads race to initialize the same `thread_local` instance (within the same thread's
-Execution — which cannot happen for `thread_local`), exactly one initialization occurs. For
+Execution, which cannot happen for `thread_local`), exactly one initialization occurs. For
 Function-local `static`This matters because multiple threads can call the function concurrently.
 
 ### Dynamic Initialization with `thread_local` and `static` Combined
@@ -551,7 +551,7 @@ thread_local Logger logger;  // Logger constructor calls config_key()
 When `std::exit()` is called, thread-local variables in threads other than the calling thread are
 **not** destroyed [N4950 §6.9.3.4]. Only the calling thread's thread-local variables are destroyed
 During the `std::exit()` process. This is because `std::exit()` does not join or terminate other
-Threads — it terminates the process.
+Threads, it terminates the process.
 
 ## Interaction with Dynamic Loading (`dlopen`)
 
@@ -581,11 +581,11 @@ libraries that use the POSIX API directly can exhaust the limit.
 
 ## Intuition
 
-**Thread-local storage is like each worker having their own toolbox:** Instead of sharing one toolbox (which would require waiting for others to finish), each thread gets its own copy. No contention, no waiting — but also no sharing. It's like having separate toolboxes in a workshop: each worker can grab their own hammer without asking permission, but if Worker A borrows a tool from Worker B's toolbox, they need to coordinate.
+**Thread-local storage is like each worker having their own toolbox:** Instead of sharing one toolbox (which would require waiting for others to finish), each thread gets its own copy. No contention, no waiting, but also no sharing. It's like having separate toolboxes in a workshop: each worker can grab their own hammer without asking permission, but if Worker A borrows a tool from Worker B's toolbox, they need to coordinate.
 
-**Why it matters:** Thread-local storage eliminates contention for per-thread data like random number generators, caches, and accumulators. When every thread needs its own copy of something, TLS is the fastest option — no locks, no atomics, no cache-line bouncing. But it comes with subtle pitfalls around initialization order and thread pool reuse.
+**Why it matters:** Thread-local storage eliminates contention for per-thread data like random number generators, caches, and accumulators. When every thread needs its own copy of something, TLS is the fastest option, no locks, no atomics, no cache-line bouncing. But it comes with subtle pitfalls around initialization order and thread pool reuse.
 
-**The key insight:** `thread_local` variables are initialized per-thread on first use, not at program start — this lazy initialization is efficient but can surprise you with ordering.
+**The key insight:** `thread_local` variables are initialized per-thread on first use, not at program start, this lazy initialization is efficient but can surprise you with ordering.
 
 ## Common Pitfalls
 
@@ -798,7 +798,7 @@ int main() {
 ```
 
 This pattern provides fast bump-pointer allocation within each thread, completely eliminating
-Allocator contention. The trade-off is that individual deallocations are not supported — only bulk
+Allocator contention. The trade-off is that individual deallocations are not supported, only bulk
 Deallocation of the entire pool.
 
 

@@ -68,15 +68,15 @@ national curriculum and organised by topic for easy navigation.
 
 ## Topics Covered
 
-- **Cell Biology** — plant and animal cell structure, microscopy, cell division (mitosis and
+- **Cell Biology**, plant and animal cell structure, microscopy, cell division (mitosis and
   meiosis), stem cells, transport across membranes
-- **Organisation** — tissues and organs, the digestive system, the circulatory system, coronary
+- **Organisation**, tissues and organs, the digestive system, the circulatory system, coronary
   heart disease, health and disease
-- **Bioenergetics** — photosynthesis, factors affecting rate of photosynthesis, aerobic and
+- **Bioenergetics**, photosynthesis, factors affecting rate of photosynthesis, aerobic and
   anaerobic respiration, metabolism
-- **Inheritance, Variation & Evolution** — DNA and genes, genetic crosses, sex determination,
+- **Inheritance, Variation & Evolution**, DNA and genes, genetic crosses, sex determination,
   mutations, natural selection, selective breeding, genetic engineering, cloning
-- **Ecology** — ecosystems, competition, food chains and webs, material cycles (carbon and water),
+- **Ecology**, ecosystems, competition, food chains and webs, material cycles (carbon and water),
   biodiversity, human impacts, sustainability
 
 ## How to Use These Notes
@@ -94,7 +94,7 @@ national curriculum and organised by topic for easy navigation.
   earns marks
 - Learn required practical methods and the associated maths skills (means, ranges, graphs,
   percentage change)
-- Revise key diagrams such as the heart, leaf cross-section, and nephron — labelling questions
+- Revise key diagrams such as the heart, leaf cross-section, and nephron, labelling questions
   appear frequently
 - Make flashcards for definitions and key processes; recall speed matters in the exam
 - Use the command words (describe, explain, compare, evaluate) to shape the depth of your answers

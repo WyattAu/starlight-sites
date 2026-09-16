@@ -1,7 +1,7 @@
 ---
 
 title: "Heap | C++ - Wyatt's Notes"
-description: "Dynamic storage: The heap is like a warehouse — you can request any amount of memory, but you must return it when done. new and delete manage heap allocation."
+description: "Dynamic storage: The heap is like a warehouse, you can request any amount of memory, but you must return it when done. new and delete manage heap allocation."
 date: 2025-12-13T05:06:47.303Z
 tags:
   - cpp
@@ -600,11 +600,11 @@ Resources (`std::pmr`)**.
 
 ## Intuition
 
-**Dynamic storage:** The heap is like a warehouse — you can request any amount of memory, but you must return it when done. new and delete manage heap allocation.
+**Dynamic storage:** The heap is like a warehouse, you can request any amount of memory, but you must return it when done. new and delete manage heap allocation.
 
 **Why it matters:** Heap allocation enables dynamic data structures and runtime-sized objects, but requires careful management to avoid leaks.
 
-**The key insight:** Heap allocation is slower than stack allocation — prefer stack when possible for better performance.
+**The key insight:** Heap allocation is slower than stack allocation, prefer stack when possible for better performance.
 
 ## Common Pitfalls
 
@@ -671,7 +671,7 @@ void mmap_demo(const char* path) \{
                        PROT_READ, MAP_PRIVATE, fd, 0);
     if (addr == MAP_FAILED) \{ close(fd); return; \}
 
-    // Access file contents as memory — no explicit read() needed
+    // Access file contents as memory, no explicit read() needed
     auto* data = static_cast<const std::byte*>(addr);
     std::cout << "Mapped " << sb.st_size << " bytes\n";
 

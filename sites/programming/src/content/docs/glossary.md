@@ -1,6 +1,6 @@
 ---
-title: "Programming Concepts Glossary — Key Terms"
-description: "Study notes for Programming Concepts Glossary — Key Terms with worked examples, practice problems, and key concepts for exam preparation."
+title: "Programming Concepts Glossary, Key Terms"
+description: "Study notes for Programming Concepts Glossary, Key Terms with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

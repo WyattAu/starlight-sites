@@ -235,7 +235,7 @@ called measurable sets, where $\mathcal{F}$ satisfies:
    $A_1, A_2, \dots \in \mathcal{F} \implies \bigcup^\infty_{i=1} A_i \in \mathcal{F}$
 
 :::note
-Why condition 3 is necessary: countable unions are required to handle limits — for example,
+Why condition 3 is necessary: countable unions are required to handle limits, for example,
 when we analyze a sequence of events $\lim_{n\to \infty} A_n$. Without closure under countable
 unions, probabilities cannot be assign to limits of random variables.
 :::

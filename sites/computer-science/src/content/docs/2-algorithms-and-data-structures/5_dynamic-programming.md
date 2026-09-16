@@ -109,7 +109,7 @@ i=3:      0  1  1  4  5  6  6  9
 i=4:      0  1  1  4  5  7  8  9
 ```
 
-Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$ — let me
+Maximum value: $dp[4][7] = 9$ (items 2 and 4: $w = 3 + 5 = 7$, $v = 4 + 7 = 11$, let me
 recalculate).
 
 Correct: items 2 and 3 ($w=3+4=7$, $v=4+5=9$), or items 1, 2, 4 ($w=1+3+5=9 > 7$Not valid). Items 1,

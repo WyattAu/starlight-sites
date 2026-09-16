@@ -151,7 +151,7 @@ Modified triglycerides where one fatty acid is replaced by a **phosphate group**
 ### Cholesterol
 
 - Steroid molecule with a hydrocarbon ring structure
-- Small and hydrophobic — fits between phospholipid tails
+- Small and hydrophobic, fits between phospholipid tails
 - Regulates membrane fluidity: prevents crystallisation at low temp, restricts movement at high temp
 
 ### Emulsion Test
@@ -229,8 +229,8 @@ tertiary structure stability.
 
 - Double-stranded helix
 - **Sugar-phosphate backbone** on the outside; **base pairs** on the inside
-- Adenine (A) pairs with Thymine (T) — 2 hydrogen bonds
-- Guanine (G) pairs with Cytosine (C) — 3 hydrogen bonds
+- Adenine (A) pairs with Thymine (T), 2 hydrogen bonds
+- Guanine (G) pairs with Cytosine (C), 3 hydrogen bonds
 - Antiparallel strands: one runs 5'→3', the other 3'→5'
 
 ### DNA Replication (Semi-Conservative)
@@ -250,7 +250,7 @@ tertiary structure stability.
 
 ### ATP
 
-**Adenosine triphosphate** — the universal energy currency:
+**Adenosine triphosphate**, the universal energy currency:
 
 $$\mathrm{ATP} \rightleftharpoons \mathrm{ADP} + P_i + \text{energy}$$
 
@@ -374,7 +374,7 @@ but do **not** change the $\Delta H$ or equilibrium position.
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
 
 ```mermaid

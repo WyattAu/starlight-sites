@@ -243,7 +243,7 @@ flowchart TD
 
 ## Intuition
 
-Optimization asks: what is the best I can do under constraints? In unconstrained problems, the gradient points uphill — critical points are where it vanishes, meaning all first-order effects balance. The Hessian (matrix of second derivatives) tells you whether the critical point is a minimum, maximum, or saddle, like feeling the curvature of a bowl. Lagrange multipliers handle constraints by saying: at an optimum, the gradient of the objective must be parallel to the gradient of the constraint. Geometrically, this means the level curves of the objective are tangent to the constraint surface. The multiplier $\lambda$ measures the sensitivity — how much the optimum changes if you relax the constraint slightly.
+Optimization asks: what is the best I can do under constraints? In unconstrained problems, the gradient points uphill, critical points are where it vanishes, meaning all first-order effects balance. The Hessian (matrix of second derivatives) tells you whether the critical point is a minimum, maximum, or saddle, like feeling the curvature of a bowl. Lagrange multipliers handle constraints by saying: at an optimum, the gradient of the objective must be parallel to the gradient of the constraint. Geometrically, this means the level curves of the objective are tangent to the constraint surface. The multiplier $\lambda$ measures the sensitivity, how much the optimum changes if you relax the constraint slightly.
 
 ### 4.7 Common Pitfalls
 

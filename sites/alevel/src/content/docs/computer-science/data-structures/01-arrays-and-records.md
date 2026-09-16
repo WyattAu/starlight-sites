@@ -44,7 +44,7 @@ Where $b$ is the base address of the array, $i$ is the index, and $s$ is the ele
 
 **Theorem.** Array element access takes $O(1)$ time.
 
-**Proof.** The address of $A[i]$ is computed by a single multiplication and a single addition — both
+**Proof.** The address of $A[i]$ is computed by a single multiplication and a single addition, both
 Constant-time operations. No traversal is needed. $\square$
 
 <details>
@@ -105,7 +105,7 @@ class StaticArray:
 
 ### Definition
 
-A **two-dimensional array** is an array of arrays — a matrix with $m$ rows and $n$ columns.
+A **two-dimensional array** is an array of arrays, a matrix with $m$ rows and $n$ columns.
 Formally:
 
 $$A: \{0,\ldots,m-1\} \times \{0,\ldots,n-1\} \to \mathrm{Memory}$$
@@ -150,13 +150,13 @@ $b + (i \cdot n + j) \cdot s$. All are constant-time operations. $\square$
 
 ### Static Arrays
 
-- **Size is fixed at creation** — determined at compile time (or declaration time)
+- **Size is fixed at creation**, determined at compile time (or declaration time)
 - Stored on the **stack** (for local arrays) or in the **data segment** (for global arrays)
 - Cannot be resized after creation
 
 ### Dynamic Arrays
 
-- **Size can change at runtime** — the array automatically resizes when full
+- **Size can change at runtime**, the array automatically resizes when full
 - Stored on the **heap**
 - Achieved by allocating a larger array and copying elements when capacity is exceeded
 
@@ -247,11 +247,11 @@ Layout (on a 32-bit system with 4-byte alignment):
 
 | Offset | Field | Size | Padding |
 | ------ | ----- | ---- | ------- |
-| 0      | c     | 1    | —       |
-| 1–3    | —     | 3    | padding |
-| 4–7    | x     | 4    | —       |
-| 8–9    | s     | 2    | —       |
-| 10–11  | —     | 2    | padding |
+| 0      | c     | 1    |,       |
+| 1–3    |,     | 3    | padding |
+| 4–7    | x     | 4    |,       |
+| 8–9    | s     | 2    |,       |
+| 10–11  |,     | 2    | padding |
 
 Total size: 12 bytes (not 7).
 
@@ -282,7 +282,7 @@ Total size: 12 bytes (not 7).
 **Definition.** Bounds checking verifies that an array index is within the valid range $[0, n-1]$
 Before accessing the element.
 
-Without bounds checking, an out-of-bounds access reads or writes arbitrary memory — a **buffer
+Without bounds checking, an out-of-bounds access reads or writes arbitrary memory, a **buffer
 Overflow** vulnerability.
 
 :::caution
@@ -307,7 +307,7 @@ def average_grade(student):
     return sum(student.grades) / len(student.grades)
 ```
 
-**Complexity.** Accessing field $f$ of record $i$ in an array: $O(1)$ — compute array offset, then
+**Complexity.** Accessing field $f$ of record $i$ in an array: $O(1)$, compute array offset, then
 Add field offset.
 
 <hr />
@@ -391,7 +391,7 @@ $\Omega(n)$ comparisons in the worst case.
 
 In an unsorted array, there is no relationship between the values at different indices. To determine
 Whether a target value $x$ exists in the array, any algorithm must potentially examine every element
-— if it skips any unchecked element, that element could be $x$. Therefore, the worst case requires
+- if it skips any unchecked element, that element could be $x$. Therefore, the worst case requires
 $n$ comparisons, giving $\Omega(n)$.
 
 More formally: an adversary can answer "no" to all $n-1$ comparisons. Only after checking all $n$
@@ -448,7 +448,7 @@ $\mathrm{addr}(C[12]) = 3000 + 12 \times 1 = 3012$
 
 If the array has size 10, valid indices are 0–9. Accessing `C[12]` is an **out-of-bounds access**.
 In Python, Java, and C#, this raises an `IndexError`/exception. In C and C++, no bounds checking
-Occurs, so the program reads whatever data happens to be at address 3012 — this is **undefined
+Occurs, so the program reads whatever data happens to be at address 3012, this is **undefined
 Behaviour** and a potential buffer overflow vulnerability.
 
 </details>
@@ -493,13 +493,13 @@ Needed, and pad at the end to make the total a multiple of the largest alignment
 
 | Field     | Size | Alignment | Offset | Padding before |
 | --------- | ---- | --------- | ------ | -------------- |
-| title     | 30   | 8         | 0      | —              |
-| (padding) | 2    | —         | 30     | 2 bytes        |
-| pages     | 4    | 4         | 32     | —              |
-| (padding) | 4    | —         | 36     | 4 bytes        |
-| price     | 8    | 8         | 40     | —              |
-| available | 1    | 1         | 48     | —              |
-| (padding) | 7    | —         | 49     | 7 bytes        |
+| title     | 30   | 8         | 0      |,              |
+| (padding) | 2    |,         | 30     | 2 bytes        |
+| pages     | 4    | 4         | 32     |,              |
+| (padding) | 4    |,         | 36     | 4 bytes        |
+| price     | 8    | 8         | 40     |,              |
+| available | 1    | 1         | 48     |,              |
+| (padding) | 7    |,         | 49     | 7 bytes        |
 
 Total size: 56 bytes.
 
@@ -550,7 +550,7 @@ Used by `S` and `D`. Which uses more memory and why?
 <details>
 <summary>Hint</summary>
 
-The static array allocates exactly 100 slots. The dynamic array doubles at powers of 2 — what is the
+The static array allocates exactly 100 slots. The dynamic array doubles at powers of 2, what is the
 Capacity after 100 insertions?
 
 </details>
@@ -729,7 +729,7 @@ Complexities.
 <summary>Hint</summary>
 
 Consider which structure combines the need for indexed access, heterogeneous fields (name, Age,
-grades), and the ability to grow. Think about what "array of records" actually means — it Combines
+grades), and the ability to grow. Think about what "array of records" actually means, it Combines
 arrays and records.
 
 </details>
@@ -752,10 +752,10 @@ Memory or running out of space. A dynamic array grows automatically with $O(1)$ 
 
 **Operation analysis:**
 
-- (a) Lookup by position: $O(1)$ — direct index access into the array
-- (b) Calculate average grade: $O(1)$ — access the record by index, then average over at most 10
+- (a) Lookup by position: $O(1)$, direct index access into the array
+- (b) Calculate average grade: $O(1)$, access the record by index, then average over at most 10
   grades (constant)
-- (c) Add new student at end: $O(1)$ amortised — dynamic array append
+- (c) Add new student at end: $O(1)$ amortised, dynamic array append
 
 A linked list would also support insertion but would not provide $O(1)$ access by position (it would
 Be $O(n)$), making it worse for operation (a). The array of records with dynamic sizing is therefore

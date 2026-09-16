@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Shell Basics"
-description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process — Or . When you run a script with The shebang line determines which"
+description: "A shell is both an and a . When you open a terminal emulator, it spawns a shell process, Or . When you run a script with The shebang line determines which"
 
 ---
 
@@ -18,7 +18,7 @@ description: "A shell is both an and a . When you open a terminal emulator, it s
 ## Shell Invocation
 
 A shell is both an **interactive command interpreter** and a **scripting language interpreter**.
-When you open a terminal emulator, it spawns a shell process — `bash``zsh`Or `dash`. When you run a
+When you open a terminal emulator, it spawns a shell process, `bash``zsh`Or `dash`. When you run a
 script with `./script.sh`The shebang line determines which interpreter processes The file.
 
 ### Interactive vs Non-Interactive
@@ -58,7 +58,7 @@ flowchart TD
 
 :::note
 Interactive shells load the same configuration. However, scripts executed by cron or systemd do not
-Source `~/.bashrc` — this is a frequent source of bugs.
+Source `~/.bashrc`this is a frequent source of bugs.
 
 ### POSIX Shell vs Bash
 
@@ -77,7 +77,7 @@ Writing for known-bash environments, use bash features deliberately.
 | `${var:offset:length}` | No       | Yes (substring expansion)   |
 | `&\>\&2` redirection   | No       | Yes                         |
 
-On Debian and Ubuntu, `/bin/sh` is `dash` — a minimal POSIX shell that is significantly faster than
+On Debian and Ubuntu, `/bin/sh` is `dash`a minimal POSIX shell that is significantly faster than
 Bash but lacks bash extensions. Scripts that use bash features must use `#!/bin/bash`Not
 `#!/bin/sh`.
 
@@ -243,7 +243,7 @@ exec 3>&- 4>&-
 ## Globbing Patterns
 
 The shell expands glob patterns into matching filenames before passing them to the command. This is
-Fundamentally different from regex — globbing operates on filenames in the filesystem, not on
+Fundamentally different from regex, globbing operates on filenames in the filesystem, not on
 Arbitrary text.
 
 | Pattern  | Meaning                                         | Example     | Matches                     |
@@ -271,7 +271,7 @@ ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
 :::
 :::caution
-The original Unix glob behavior — you must explicitly use `.*` or enable `dotglob` with
+The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
 
 ### Extended Globbing (Bash)
@@ -335,7 +335,7 @@ command &
 ### Process Groups and Sessions
 
 Every job is a **process group** with a unique PGID. The terminal assigns one process group as the
-**foreground process group** — only this group receives terminal input (stdin) and signals (SIGINT,
+**foreground process group**, only this group receives terminal input (stdin) and signals (SIGINT,
 SIGQUIT, SIGTSTP).
 
 ```bash
@@ -365,10 +365,10 @@ When a shell session ends (SSH disconnect, terminal close), it sends `SIGHUP` to
 Session. Two mechanisms prevent this:
 
 ```bash
-# Method 1: nohup — ignores SIGHUP, redirects output to nohup.out
+# Method 1: nohup, ignores SIGHUP, redirects output to nohup.out
 nohup ./build.sh &
 
-# Method 2: disown — removes job from shell's active table
+# Method 2: disown, removes job from shell's active table
 ./build.sh &
 disown -h %1  # prevents SIGHUP on shell exit
 ```
@@ -383,10 +383,10 @@ On the terminal driver behavior.
 ### Shell Variables vs Environment Variables
 
 ```bash
-# Shell variable — visible only to current shell
+# Shell variable, visible only to current shell
 MY_VAR="hello"
 
-# Export to environment — visible to child processes
+# Export to environment, visible to child processes
 export MY_VAR="hello"
 # or equivalently:
 declare -x MY_VAR="hello"
@@ -476,7 +476,7 @@ echo "${VAR/%pattern/replacement}"
 echo "${VAR^^}"
 
 # Convert to lowercase (bash 4.0+)
-echo "${VAR,,}"
+echo "${VAR,}"
 ```
 
 ### Common Environment Files
@@ -501,7 +501,7 @@ Direct command (`./script.sh`):
 
 ```bash
 #!/bin/bash
-#!/usr/bin/env bash       # portable — finds bash in PATH
+#!/usr/bin/env bash       # portable, finds bash in PATH
 #!/bin/sh
 #!/usr/bin/env python3
 #!/usr/bin/awk -f
@@ -509,7 +509,7 @@ Direct command (`./script.sh`):
 
 The `env` form is preferred for languages that may be installed in different locations
 (`/usr/bin/bash``/usr/local/bin/bash``/opt/homebrew/bin/bash`). The kernel only allows one Argument
-on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not — `bash -e`
+on the shebang line, so `#!/usr/bin/bash -e` works but `#!/usr/bin/env bash -e` does not, `bash -e`
 is treated as a single argument to `env`.
 
 ### Quoting Rules
@@ -520,18 +520,18 @@ Quoting controls word splitting and globbing. The rules are:
 | ----------- | ----------------------------------------------------- |
 | No quotes   | All expansions, word splitting, globbing              |
 | Double `""` | Parameter expansion, command substitution, arithmetic |
-| Single `''` | None — literal string                                 |
+| Single `''` | None, literal string                                 |
 
 ```bash
 VAR="hello world"
 
-# Without quotes — word splitting on IFS
+# Without quotes, word splitting on IFS
 echo $VAR      # outputs: hello world (but splits into two args)
 
-# With double quotes — no word splitting
+# With double quotes, no word splitting
 echo "$VAR"    # outputs: hello world (single arg)
 
-# Single quotes — no expansion at all
+# Single quotes, no expansion at all
 echo '$VAR'    # outputs: $VAR
 
 # Escaping within double quotes
@@ -661,7 +661,7 @@ set -euo pipefail
 It does not fire for commands whose exit status is tested (e.g., `if ! command; then`). If you need
 Fine-grained error handling, use explicit error checking with `$?` or `trap`.
 
-### Trap — Signal Handling in Scripts
+### Trap, Signal Handling in Scripts
 
 ```bash
 #!/usr/bin/env bash
@@ -691,13 +691,13 @@ echo "Working in $TMPDIR"
 files=$(find /etc -name "*.conf" -type f)
 count=$(wc -l < /etc/passwd)
 
-# Legacy form (avoid — nesting is painful)
+# Legacy form (avoid, nesting is painful)
 files=`find /etc -name "*.conf" -type f`
 
 # Nested substitution
 base_dir=$(basename $(dirname $(realpath $0)))
 
-# Mapfile — read command output into an array (bash 4.0+)
+# Mapfile, read command output into an array (bash 4.0+)
 mapfile -t lines < <(ps aux)
 echo "First line: ${lines[0]}"
 echo "Total lines: ${#lines[@]}"
@@ -708,12 +708,12 @@ echo "Total lines: ${#lines[@]}"
 ### Pitfall: Word Splitting on Filenames with Spaces
 
 ```bash
-# WRONG — word splitting breaks on spaces
+# WRONG, word splitting breaks on spaces
 for file in $(ls *.txt); do
     rm "$file"
 done
 
-# CORRECT — glob expansion preserves spaces within each match
+# CORRECT, glob expansion preserves spaces within each match
 for file in *.txt; do
     rm "$file"
 done
@@ -776,12 +776,12 @@ cd /some/path  # exits immediately on failure
 ### Pitfall: Reading Lines with `for`
 
 ```bash
-# WRONG — for reads words, not lines
+# WRONG, for reads words, not lines
 for line in $(cat file.txt); do
     echo "$line"
 done
 
-# CORRECT — while read processes line by line
+# CORRECT, while read processes line by line
 while IFS= read -r line; do
     echo "$line"
 done < file.txt
@@ -801,30 +801,30 @@ Diagnose because the error messages come from dash, not bash.
 ### Pitfall: Unquoted Variable Expansion in `[ ]`
 
 ```bash
-# WRONG — if $VAR is empty, this becomes [ -f  ], which is true
+# WRONG, if $VAR is empty, this becomes [ -f  ], which is true
 [ -f $VAR ]
 
-# CORRECT — handles empty variables correctly
+# CORRECT, handles empty variables correctly
 [ -f "$VAR" ]
 
-# BEST — use [[ ]] which has no word splitting
+# BEST, use [[ ]] which has no word splitting
 [[ -f $VAR ]]
 ```
 
 ### Pitfall: Here-Documents with Leading Whitespace
 
 ```bash
-# WRONG — leading tabs are preserved in the output
+# WRONG, leading tabs are preserved in the output
 cat << EOF
     indented text
 EOF
 
-# CORRECT — <<- strips leading tabs (only tabs, not spaces)
+# CORRECT, <<- strips leading tabs (only tabs, not spaces)
 cat <<- EOF
     indented text (tabs stripped)
 EOF
 
-# CORRECT — use IFS to strip whitespace
+# CORRECT, use IFS to strip whitespace
 while IFS=$'\t' read -r line; do
     echo "${line#"${line%%[![:space:]]*}"}"
 done <<- EOF
@@ -839,7 +839,7 @@ Supported by bash's built-in `echo` but not by the POSIX `echo` from `/bin/echo`
 The `-n` flag (suppress trailing newline) is also non-portable.
 
 ```bash
-# Use printf instead — it is POSIX and consistent
+# Use printf instead, it is POSIX and consistent
 printf '%s\n' "hello world"
 printf '%-20s %5d\n' "filename" 42
 printf 'Error: %s (code %d)\n' "$msg" "$code"

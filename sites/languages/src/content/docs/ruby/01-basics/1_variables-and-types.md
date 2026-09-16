@@ -303,7 +303,7 @@ Symbols are immutable, interned identifiers. Two symbols with the same name are 
 # Symbols are commonly used as hash keys and identifiers
 person = { name: "Alice", age: 30 }
 # equivalent to:
-person = { :name => "Alice", :age => 30 }
+person = { :name => "Alice":age => 30 }
 
 # Symbol conversion
 "hello".to_sym       # => :hello
@@ -386,7 +386,7 @@ Arrays are ordered, integer-indexed collections of any type:
 Array.new(3, "x")                  # => ["x", "x", "x"]
 Array.new(3) { |i| i * 2 }        # => [0, 2, 4]
 %w[apple banana cherry]            # => ["apple", "banana", "cherry"]
-%i[apple banana cherry]            # => [:apple, :banana, :cherry]
+%i[apple banana cherry]            # => [:apple:banana:cherry]
 Array(1..5)                         # => [1, 2, 3, 4, 5]
 Array.new([1, 2, 3])              # => [1, 2, 3]
 
@@ -463,14 +463,14 @@ h[:missing]               # => nil
 h.fetch(:missing, "N/A")  # => "N/A"
 h.key?(:name)             # => true
 h.value?(30)              # => true
-h.keys                    # => [:name, :age]
+h.keys                    # => [:name:age]
 h.values                  # => ["Alice", 30]
 
 # Modification
 h[:email] = "alice@example.com"  # add/update
 h.delete(:age)                   # remove
 h.transform_keys(&:to_s)         # => {"name"=>"Alice", "email"=>"..."}
-h.transform_values(&:to_s)       # => {:name=>"Alice", ...}
+h.transform_values(&:to_s)       # => {:name=>"Alice"...}
 h.merge({ city: "London" })      # => new hash with merged entries
 h.merge!({ city: "London" })     # modify in place
 
@@ -493,7 +493,7 @@ end
 configure(**{ host: "localhost", port: 8080 })
 
 # Hash ordering is guaranteed (insertion order) since Ruby 1.9
-{ a: 1, b: 2, c: 3 }.keys  # => [:a, :b, :c] (insertion order)
+{ a: 1, b: 2, c: 3 }.keys  # => [:a:b:c] (insertion order)
 ```
 
 ### Range

@@ -426,11 +426,11 @@ double-check the logic of the condition to ensure it can eventually evaluate to 
 
 ## Intuition
 
-**A digital recipe:** Programming is like writing a recipe — precise steps that a computer follows exactly. Variables are ingredients, loops are repeated steps, and functions are sub-recipes.
+**A digital recipe:** Programming is like writing a recipe, precise steps that a computer follows exactly. Variables are ingredients, loops are repeated steps, and functions are sub-recipes.
 
 **Why it matters:** From apps to AI, programming is the language of technology. Understanding programming concepts helps you create solutions and understand how software works.
 
-**The key insight:** Debugging is problem-solving — finding and fixing errors in logic requires patience and systematic testing.
+**The key insight:** Debugging is problem-solving, finding and fixing errors in logic requires patience and systematic testing.
 
 
 ```mermaid

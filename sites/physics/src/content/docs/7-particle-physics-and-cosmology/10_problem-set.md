@@ -138,7 +138,7 @@ $\Omega^-$ at Brookhaven in 1964.
 **Problem 19.** For $\rho(r) = \rho_0/(1 + (r/r_s)^2)$, the enclosed mass is
 $M(r) = 4\pi\int_0^r \rho(r') r'^2\,dr' = 4\pi\rho_0 r_s^3[r/r_s - \arctan(r/r_s)]$.
 The circular velocity is $v^2(r) = GM(r)/r$. For $r \gg r_s$, $M(r) \propto r$, giving $v \approx
-\sqrt{4\pi G\rho_0 r_s^2}$, which is constant — explaining the flat rotation curves.
+\sqrt{4\pi G\rho_0 r_s^2}$, which is constant, explaining the flat rotation curves.
 
 **Problem 22.** The gauge couplings run according to the renormalisation group equations:
 $\mu d\alpha_i^{-1}/d\mu = -b_i/(2\pi)$. In the SM, $b = (41/10, -19/6, -7)$ for U(1), SU(2), SU(3)

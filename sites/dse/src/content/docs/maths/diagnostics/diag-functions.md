@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Functions — Diagnostic Tests
+## Functions, Diagnostic Tests
 
 ## Unit Tests
 
@@ -598,11 +598,11 @@ flowchart TD
 
 ## Intuition
 
-**A machine with input and output:** A function is like a vending machine — put in a specific item (input), get out a specific snack (output). Composition is chaining machines: the output of one becomes the input of the next. The inverse is the undo button.
+**A machine with input and output:** A function is like a vending machine, put in a specific item (input), get out a specific snack (output). Composition is chaining machines: the output of one becomes the input of the next. The inverse is the undo button.
 
 **Why it matters:** Functions model everything from bacterial growth to financial returns. Understanding domain, range, and composition lets you predict system behavior and reverse-engineer processes.
 
-**The key insight:** The inverse function "undoes" the original — f⁻¹(f(x)) = x — but only works when the function is one-to-one.
+**The key insight:** The inverse function "undoes" the original, f⁻¹(f(x)) = x, but only works when the function is one-to-one.
 
 ## Common Pitfalls
 

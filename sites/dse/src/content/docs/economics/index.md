@@ -53,9 +53,9 @@ curriculum structure.
 
 **The study of choices:** Economics is about how people, businesses, and governments make decisions under scarcity. Microeconomics studies individual choices; macroeconomics studies the big picture.
 
-**Why it matters:** Every policy decision — from taxes to trade — has economic consequences. Understanding economics helps you evaluate arguments and make informed decisions.
+**Why it matters:** Every policy decision, from taxes to trade, has economic consequences. Understanding economics helps you evaluate arguments and make informed decisions.
 
-**The key insight:** Economics isn't about money — it's about trade-offs. Every choice has an opportunity cost, and understanding this principle clarifies everything from personal budgets to national policy.
+**The key insight:** Economics isn't about money, it's about trade-offs. Every choice has an opportunity cost, and understanding this principle clarifies everything from personal budgets to national policy.
 
 ## Microeconomics
 

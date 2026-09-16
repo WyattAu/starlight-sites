@@ -648,11 +648,11 @@ find build/ -name "*.so" -o -name "*.a" | xargs file | grep -v "x86-64"
 
 ## Intuition
 
-**Building for other platforms:** Cross-compilation is like translation — you compile code on one platform to run on another, using a toolchain that generates the right machine code.
+**Building for other platforms:** Cross-compilation is like translation, you compile code on one platform to run on another, using a toolchain that generates the right machine code.
 
 **Why it matters:** Cross-compilation enables building for embedded systems, mobile devices, and different architectures from a single development machine.
 
-**The key insight:** Sysroot contains the target platform's libraries and headers — it's essential for successful cross-compilation.
+**The key insight:** Sysroot contains the target platform's libraries and headers, it's essential for successful cross-compilation.
 
 ## Common Pitfalls
 

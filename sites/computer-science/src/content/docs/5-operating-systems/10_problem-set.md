@@ -18,7 +18,7 @@ description: "List all possible state transitions for a process and identify whi
 </script>
 
 <details>
-<summary>Problem 1 — Process States</summary>
+<summary>Problem 1, Process States</summary>
 
 List all possible state transitions for a process and identify which transition requires the
 Scheduler, which requires an I/O event, and which is initiated by the process itself.
@@ -40,7 +40,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 </details>
 
 <details>
-<summary>Problem 2 — Kernel Architecture Trade-offs</summary>
+<summary>Problem 2, Kernel Architecture Trade-offs</summary>
 
 A microkernel-based OS adds 2 $\mu$S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
@@ -55,7 +55,7 @@ Rate without optimisations such as batched IPC or shared-memory channels.
 </details>
 
 <details>
-<summary>Problem 3 — FCFS Scheduling</summary>
+<summary>Problem 3, FCFS Scheduling</summary>
 
 Processes arrive in the order $P_1$ (burst 10, arrival 0), $P_2$ (burst 5, arrival 1), $P_3$ (burst
 2, arrival 2). Compute waiting time and turnaround time for each process under FCFS.
@@ -71,12 +71,12 @@ Gantt: $\lvert P_1(10) \rvert P_2(5) \rvert P_3(2) \rvert$ at times 0, 10, 15, 1
 | $P_3$   | 13       | 15         |
 | **Avg** | **7.33** | **13**     |
 
-$P_3$ waits the longest despite having the shortest burst — the convoy effect.
+$P_3$ waits the longest despite having the shortest burst, the convoy effect.
 
 </details>
 
 <details>
-<summary>Problem 4 — SJF Scheduling</summary>
+<summary>Problem 4, SJF Scheduling</summary>
 
 Using the same processes as Problem 3, compute the schedule under non-preemptive SJF.
 
@@ -99,7 +99,7 @@ Average waiting time improves from 7.33 to 6 compared to FCFS.
 </details>
 
 <details>
-<summary>Problem 5 — Round Robin Scheduling</summary>
+<summary>Problem 5, Round Robin Scheduling</summary>
 
 Using the processes from Problem 3 with quantum $q = 2$Draw the Gantt chart and compute the Average
 turnaround time.
@@ -125,7 +125,7 @@ turnaround.
 </details>
 
 <details>
-<summary>Problem 6 — SRTF Scheduling</summary>
+<summary>Problem 6, SRTF Scheduling</summary>
 
 Processes: $P_1$ (burst 8, arrival 0), $P_2$ (burst 4, arrival 1), $P_3$ (burst 2, arrival 2).
 Compute the schedule under SRTF (preemptive SJF).
@@ -149,7 +149,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 </details>
 
 <details>
-<summary>Problem 7 — Critical Section</summary>
+<summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson"s algorithm
 With the order of `flag[i] = true` and `turn = j` swapped):
@@ -191,7 +191,7 @@ Both processes are in their critical section simultaneously. Mutual exclusion is
 </details>
 
 <details>
-<summary>Problem 8 — Producer-Consumer with Semaphores</summary>
+<summary>Problem 8, Producer-Consumer with Semaphores</summary>
 
 In the bounded buffer solution of §3.6, explain why the `empty` and `full` semaphores must be
 Different from the `mutex`. What goes wrong if we use only `mutex` (initialised to 1) and `count`
@@ -213,12 +213,12 @@ Without `empty` and `full` semaphores, the producer must busy-wait or use condit
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
 And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
-protocol — which is exactly what semaphores encapsulate.
+protocol, which is exactly what semaphores encapsulate.
 
 </details>
 
 <details>
-<summary>Problem 9 — Deadlock: Necessary Conditions</summary>
+<summary>Problem 9, Deadlock: Necessary Conditions</summary>
 
 A system has three processes and three resources. Each process holds one resource and requests a
 Second. Is deadlock possible? If so, identify the deadlocked set.
@@ -237,7 +237,7 @@ $R_2$ and requests $R_1$The same circular wait exists.
 </details>
 
 <details>
-<summary>Problem 10 — Banker's Algorithm Safety</summary>
+<summary>Problem 10, Banker's Algorithm Safety</summary>
 
 Three processes, three resource types. Available = $(3, 2, 1)$.
 
@@ -265,7 +265,7 @@ All Finish = true. Safe sequence: $\langle P_1, P_2, P_0 \rangle$.
 </details>
 
 <details>
-<summary>Problem 11 — Banker's Algorithm Request</summary>
+<summary>Problem 11, Banker's Algorithm Request</summary>
 
 Using the state from Problem 10, determine whether the request from $P_0$ for $(1, 0, 0)$ can be
 Granted.
@@ -286,7 +286,7 @@ All finish. Request **granted**.
 </details>
 
 <details>
-<summary>Problem 12 — Page Table Address Translation</summary>
+<summary>Problem 12, Page Table Address Translation</summary>
 
 A system uses 32-bit virtual addresses with 4 KiB pages. The page table entry is 4 bytes.
 
@@ -301,7 +301,7 @@ entries. (c) $1048576 \times 4$ bytes = 4 MiB.
 </details>
 
 <details>
-<summary>Problem 13 — TLB and EAT Calculation</summary>
+<summary>Problem 13, TLB and EAT Calculation</summary>
 
 A system with a two-level page table. TLB hit ratio = 0.90, TLB access = 2 ns, memory access = 100
 ns (for any level). Page fault rate = 0.001, page fault service = 6 ms. Compute the effective Access
@@ -319,7 +319,7 @@ $= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$S.
 </details>
 
 <details>
-<summary>Problem 14 — Page Fault EAT</summary>
+<summary>Problem 14, Page Fault EAT</summary>
 
 What page fault rate is needed to ensure the effective access time is no more than 200 ns? Memory
 Access time = 100 ns, page fault service = 8 ms.
@@ -336,7 +336,7 @@ why effective caching is essential.
 </details>
 
 <details>
-<summary>Problem 15 — LRU Page Replacement</summary>
+<summary>Problem 15, LRU Page Replacement</summary>
 
 Reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5. Four frames. Compute the number of page Faults
 under LRU and under FIFO. Does Belady's anomaly occur?
@@ -406,7 +406,7 @@ Particular reference string, 3 and 4 frames happen to produce the same count und
 </details>
 
 <details>
-<summary>Problem 16 — Belady's Anomaly</summary>
+<summary>Problem 16, Belady's Anomaly</summary>
 
 Prove that FIFO can exhibit Belady's anomaly by constructing a counterexample with 2 and 3 frames.
 
@@ -431,7 +431,7 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 </details>
 
 <details>
-<summary>Problem 17 — Working Set and Thrashing</summary>
+<summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
 Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
@@ -450,7 +450,7 @@ $P_2 + P_3 =
 </details>
 
 <details>
-<summary>Problem 18 — File Allocation</summary>
+<summary>Problem 18, File Allocation</summary>
 
 A file system uses contiguous allocation with 512-byte blocks. A file is created at block 1000 and
 Grows to 5000 bytes. Blocks 1000--1009 are allocated. The file then grows by 2000 bytes, but Blocks
@@ -475,7 +475,7 @@ Dynamically without costly relocation.
 </details>
 
 <details>
-<summary>Problem 19 — Disk Scheduling</summary>
+<summary>Problem 19, Disk Scheduling</summary>
 
 A disk has 500 cylinders (0--499). The request queue contains: 55, 58, 39, 18, 90, 160, 150,
 38, 184. The head is at cylinder 50, moving toward 0. Compute the total head movement for SCAN and
@@ -498,7 +498,7 @@ SCAN is far more efficient here because the requests are clustered between 18 an
 </details>
 
 <details>
-<summary>Problem 20 — Security: Buffer Overflow and Defences</summary>
+<summary>Problem 20, Security: Buffer Overflow and Defences</summary>
 
 Consider the following C function:
 
@@ -535,7 +535,7 @@ by the overflow would fail the CFI check.
 
 ## Intuition
 
-Operating systems problems test your ability to think like the machine itself. Deadlock questions ask you to trace circular waits — like four people sitting around a table, each holding one chopstick and reaching for the next. Scheduling questions test whether you can simulate the OS choosing which process runs next — like an air traffic controller deciding which plane lands first. Memory management questions ask you to track where every byte lives and who owns it — like an accountant balancing a ledger where every dollar must be accounted for. The key insight is that every OS concept exists because hardware is fast but dumb, and software must bridge the gap between raw speed and useful behaviour.
+Operating systems problems test your ability to think like the machine itself. Deadlock questions ask you to trace circular waits, like four people sitting around a table, each holding one chopstick and reaching for the next. Scheduling questions test whether you can simulate the OS choosing which process runs next, like an air traffic controller deciding which plane lands first. Memory management questions ask you to track where every byte lives and who owns it, like an accountant balancing a ledger where every dollar must be accounted for. The key insight is that every OS concept exists because hardware is fast but dumb, and software must bridge the gap between raw speed and useful behaviour.
 
 ## Common Pitfalls
 

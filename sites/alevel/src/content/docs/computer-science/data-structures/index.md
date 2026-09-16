@@ -51,47 +51,47 @@ sources:
 
 Data structures are organised collections of data that enable efficient access, modification, and
 storage. Choosing the right data structure is one of the most impactful decisions in algorithm
-design — it determines the complexity of every operation your program performs.
+design, it determines the complexity of every operation your program performs.
 
 ## Topics Covered
 
 ### Arrays and Records
 
-- **Static vs. dynamic arrays** — memory layout, indexing, and resizing costs
-- **Records (tuples/structs)** — grouping heterogeneous data
-- **2D arrays** — row-major and column-major order
+- **Static vs. dynamic arrays**, memory layout, indexing, and resizing costs
+- **Records (tuples/structs)**, grouping heterogeneous data
+- **2D arrays**, row-major and column-major order
 
 ### Linked Lists
 
-- **Singly linked lists** — node structure, traversal, insertion, deletion ($O(n)$ search, $O(1)$
+- **Singly linked lists**, node structure, traversal, insertion, deletion ($O(n)$ search, $O(1)$
   insert/delete at head)
-- **Doubly linked lists** — bidirectional traversal, trade-off with extra pointer storage
-- **Comparison with arrays** — when to choose each structure
+- **Doubly linked lists**, bidirectional traversal, trade-off with extra pointer storage
+- **Comparison with arrays**, when to choose each structure
 
 ### Stacks and Queues
 
-- **Stack (LIFO)** — push, pop, peek; call stacks, expression evaluation, bracket matching
-- **Queue (FIFO)** — enqueue, dequeue, peek; buffering, BFS, scheduling
-- **Circular queues** — avoiding wasted space in fixed-size implementations
+- **Stack (LIFO)**, push, pop, peek; call stacks, expression evaluation, bracket matching
+- **Queue (FIFO)**, enqueue, dequeue, peek; buffering, BFS, scheduling
+- **Circular queues**, avoiding wasted space in fixed-size implementations
 
 ### Trees
 
-- **Binary trees** — node structure, traversal (in-order, pre-order, post-order)
-- **Binary search trees** — insertion, search, deletion; average $O(\log n)$, worst-case $O(n)$
-- **Balancing** — why unbalanced BSTs degrade to linked lists
+- **Binary trees**, node structure, traversal (in-order, pre-order, post-order)
+- **Binary search trees**, insertion, search, deletion; average $O(\log n)$, worst-case $O(n)$
+- **Balancing**, why unbalanced BSTs degrade to linked lists
 
 ### Graphs
 
-- **Directed and undirected graphs** — vertices, edges, weights
+- **Directed and undirected graphs**, vertices, edges, weights
 - **Adjacency matrix** ($O(1)$ edge lookup, $O(n^2)$ space) vs. **adjacency list** ($O(n + e)$
   space)
-- **Traversal** — DFS and BFS on graph structures
+- **Traversal**, DFS and BFS on graph structures
 
 ### Hash Tables
 
-- **Hash functions** — mapping keys to indices
-- **Collision resolution** — chaining vs. open addressing (linear probing)
-- **Average $O(1)$ lookup** — and the worst-case scenarios that degrade it
+- **Hash functions**, mapping keys to indices
+- **Collision resolution**, chaining vs. open addressing (linear probing)
+- **Average $O(1)$ lookup**, and the worst-case scenarios that degrade it
 
 ## Study Tips
 

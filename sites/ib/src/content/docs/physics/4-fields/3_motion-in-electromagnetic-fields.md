@@ -340,7 +340,7 @@ $$
 V = \frac{E}{B} = \frac{1.5 \times 10^5}{0.050} = 3.0 \times 10^6 \mathrm{ m/s}
 $$
 
-**Exam tip:** The velocity selector does not depend on the charge or mass of the particle — only on
+**Exam tip:** The velocity selector does not depend on the charge or mass of the particle, only on
 $E$ and $B$. This means it selects a velocity, not a specific particle type.
 
 ---
@@ -648,7 +648,7 @@ $$
 M_2 = \frac{3.33 \times 10^{-26}}{1.66 \times 10^{-27}} = 20.1 \mathrm{ u}
 $$
 
-These correspond to neon-20 (20.2 u) and neon-22 (21.9 u) — the slight discrepancy is due to
+These correspond to neon-20 (20.2 u) and neon-22 (21.9 u), the slight discrepancy is due to
 Simplified values.
 
 ---
@@ -673,15 +673,15 @@ Simplified values.
    for negative charges.
 
 3. **Confusing electric and magnetic force work.** Electric fields do work on charges and change
-   kinetic energy. Magnetic fields do zero work — they change direction only.
+   kinetic energy. Magnetic fields do zero work, they change direction only.
 
 4. **Incorrectly using the charge sign in the radius formula.** The radius formula $r = mv/(|q|B)$
    uses the magnitude of the charge. The sign of the charge only affects the direction of the
    circular motion (clockwise vs counterclockwise).
 
 5. **Assuming all particles have the same charge.** In mass spectrometer problems, always check
-   whether ions are singly or doubly charged. The charge affects both the selected velocity (no —
-   velocity selector is charge-independent) and the deflection radius (yes — $r \propto m/q$).
+   whether ions are singly or doubly charged. The charge affects both the selected velocity (no,
+   velocity selector is charge-independent) and the deflection radius (yes, $r \propto m/q$).
 
 6. **Mixing up the velocity selector condition.** The condition $v = E/B$ comes from $qE = qvB$
    where the electric and magnetic forces are in **opposite** directions. If you set them in the

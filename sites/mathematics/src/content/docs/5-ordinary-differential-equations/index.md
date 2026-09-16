@@ -68,7 +68,7 @@ University-level differential equations notes covering ODEs, Laplace transforms,
 
 ## Topics Covered
 
-- **First-Order ODEs**: Separable, linear, exact, integrating factors. These are the building blocks — mastering first-order techniques is essential for higher-order equations.
+- **First-Order ODEs**: Separable, linear, exact, integrating factors. These are the building blocks, mastering first-order techniques is essential for higher-order equations.
 - **Second-Order Linear ODEs**: Homogeneous, non-homogeneous, characteristic equation. These model oscillations (springs, circuits) and appear throughout physics and engineering.
 - **Laplace Transforms**: Properties, inverse transforms, solving ODEs. The Laplace transform converts differential equations into algebraic equations, solving initial value problems systematically.
 - **Stability Analysis**: Phase planes, equilibrium points, linearisation. Stability analysis asks whether equilibria attract or repel nearby trajectories, revealing qualitative behaviour without solving explicitly.

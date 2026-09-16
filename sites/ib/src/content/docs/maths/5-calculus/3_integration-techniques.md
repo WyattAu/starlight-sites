@@ -1092,7 +1092,7 @@ and building a personal test matrix.
 
 ## Intuition
 
-Integration is the art of undoing differentiation, and each technique is a different strategy for dismantling complexity. Substitution is the chain rule in reverse — if you spot a function inside another function, you peel away the outer layer by changing variables. Integration by parts splits a product into something you can integrate and something that disappears, guided by the LIATE hierarchy which ranks functions by how much they simplify when differentiated. Partial fractions拆 apart rational functions into pieces that each integrate to logarithms or arctangents. The Fundamental Theorem of Calculus is the bridge connecting the two halves of calculus — area and slope are inverse operations.
+Integration is the art of undoing differentiation, and each technique is a different strategy for dismantling complexity. Substitution is the chain rule in reverse, if you spot a function inside another function, you peel away the outer layer by changing variables. Integration by parts splits a product into something you can integrate and something that disappears, guided by the LIATE hierarchy which ranks functions by how much they simplify when differentiated. Partial fractions拆 apart rational functions into pieces that each integrate to logarithms or arctangents. The Fundamental Theorem of Calculus is the bridge connecting the two halves of calculus, area and slope are inverse operations.
 
 ## Common Pitfalls
 
@@ -1111,7 +1111,7 @@ Integration is the art of undoing differentiation, and each technique is a diffe
 5. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
 
-6. Cancelling terms instead of factors — $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
+6. Cancelling terms instead of factors, $\frac{ab + ac}{a}$ simplifies to $b + c$, not $bc$.
 
 ## Summary
 

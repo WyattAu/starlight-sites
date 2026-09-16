@@ -57,7 +57,7 @@ $f(1) = 1$ But no root.
 :::
 **Intuition.** The sign change theorem is the Intermediate Value Theorem applied to the special case
 Of crossing zero. If you walk from a point below sea level to one above sea level, you must cross
-Sea level at some point — provided the ground is continuous (no teleporting).
+Sea level at some point, provided the ground is continuous (no teleporting).
 
 <hr />
 
@@ -174,7 +174,7 @@ Adds roughly a fixed number of correct digits per step).
 
 Newton-Raphson fails when:
 
-- $f'(x_n) = 0$ (the tangent is horizontal — division by zero).
+- $f'(x_n) = 0$ (the tangent is horizontal, division by zero).
 - $f'(x_n)$ is close to zero (the next iterate jumps far away).
 - The starting point is not close enough to the root.
 
@@ -430,7 +430,7 @@ $f(x) = x^3 - 2x - 5$. $f(2) = 8-4-5 = -1 \lt 0$$f(3) = 27-6-5 = 16 \gt 0$.
 Since $f$ is continuous and changes sign on $[2,3]$By the sign change theorem there is a root in
 $(2,3)$.
 
-**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change) — Section
+**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change), Section
 1.1.
 
 </details>
@@ -447,7 +447,7 @@ $x_1 = \sqrt[3]{9} = 2.0801$
 $x_2 = \sqrt[3]{2(2.0801)+5} = \sqrt[3]{9.1602} = 2.0924$
 $x_3 = \sqrt[3]{2(2.0924)+5} = \sqrt[3]{9.1848} = 2.0943$
 
-**If you get this wrong, revise:** [Fixed-Point Iteration](#2-fixed-point-iteration) — Section 2.
+**If you get this wrong, revise:** [Fixed-Point Iteration](#2-fixed-point-iteration), Section 2.
 
 </details>
 
@@ -465,7 +465,7 @@ $g'(\alpha) = \dfrac{3(2.09)^2}{2} \approx \dfrac{3 \times 4.37}{2} \approx 6.55
 
 Since $|g'(\alpha)| \gt 1$The iteration diverges near $\alpha$.
 
-**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition) — Section 2.2.
+**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition), Section 2.2.
 
 </details>
 
@@ -483,7 +483,7 @@ $x_0 = 2$: $f(2) = -1$$f'(2) = 10$. $x_1 = 2 - (-1/10) = 2.1000$.
 $x_1 = 2.1$: $f(2.1) = 9.261-4.2-5 = 0.061$$f'(2.1) = 13.23-2 = 11.23$.
 $x_2 = 2.1 - 0.061/11.23 = 2.0946$.
 
-**If you get this wrong, revise:** [Newton-Raphson Method](#3-newton-raphson-method) — Section 3.
+**If you get this wrong, revise:** [Newton-Raphson Method](#3-newton-raphson-method), Section 3.
 
 </details>
 
@@ -499,7 +499,7 @@ $h = 0.5$. Values: $y_0 = 1$$y_1 = e^{-0.25} \approx 0.7788$$y_2 = e^{-1} \appro
 $$\int_0^2 e^{-x^2}\,dx \approx \frac{0.5}{3}[1 + 4(0.7788) + 2(0.3679) + 4(0.1054) + 0.0183]$$
 $$= \frac{0.5}{3}[1 + 3.1152 + 0.7358 + 0.4216 + 0.0183] = \frac{0.5}{3}(5.2909) \approx 0.8818$$
 
-**If you get this wrong, revise:** [Simpson's Rule](#5-simpsons-rule) — Section 5.
+**If you get this wrong, revise:** [Simpson's Rule](#5-simpsons-rule), Section 5.
 
 </details>
 
@@ -522,7 +522,7 @@ $f(x) \to \infty$ as $x \to \pm\infty$ So $f(x) = 0$ has exactly two roots.
 $f(0) = 1 \gt 0$$f(1) = e-3 \lt 0$: root in $(0,1)$. $f(1) \lt 0$$f(2) = e^2-6 \gt 0$: Root in
 $(1,2)$.
 
-**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change) — Section 1.
+**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change), Section 1.
 
 </details>
 
@@ -539,10 +539,10 @@ $x_{n+1} = x_n - \dfrac{x_n^{1/3}}{\frac{1}{3}x_n^{-2/3}} = x_n - 3x_n = -2x_n$.
 
 So $x_1 = -2$$x_2 = 4$$x_3 = -8$... The iterates oscillate and diverge.
 
-The problem is that $f'(0) = \infty$ — the tangent at the root $x=0$ is vertical, so the
+The problem is that $f'(0) = \infty$, the tangent at the root $x=0$ is vertical, so the
 Newton-Raphson step sends the iterate to $-\infty$.
 
-**If you get this wrong, revise:** [Failures](#33-failures) — Section 3.3.
+**If you get this wrong, revise:** [Failures](#33-failures), Section 3.3.
 
 </details>
 
@@ -560,7 +560,7 @@ $$= 0.25[0 + 2(4.3663) + 1.3863] = 0.25[8.7326 + 1.3863] = 0.25 \times 10.1189 \
 
 (Exact: $[x\ln x - x]_1^4 = 4\ln 4 - 4 + 1 = 8\ln 2 - 3 \approx 2.5452$.)
 
-**If you get this wrong, revise:** [The Trapezium Rule](#4-the-trapezium-rule) — Section 4.
+**If you get this wrong, revise:** [The Trapezium Rule](#4-the-trapezium-rule), Section 4.
 
 </details>
 
@@ -581,7 +581,7 @@ $|g'(\alpha)| = \dfrac{1}{3}(3-1.21)^{-2/3} = \dfrac{1}{3}(1.79)^{-2/3} \approx 
 
 Converges since $|g'(\alpha)| \lt 1$.
 
-**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition) — Section 2.2.
+**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition), Section 2.2.
 
 </details>
 
@@ -592,9 +592,9 @@ Explain why the sign change theorem does not guarantee a root of $f(x) = \dfrac{
 
 <details>
 <summary>Solution 10</summary>
-$f(1) = -1 \lt 0$ and $f(3) = 1 \gt 0$ So there is a sign change. However, $f$ is **not continuous** on $[1,3]$ — it has a vertical asymptote at $x = 2$. The sign change theorem requires continuity, so it does not apply here. There is no root of $1/(x-2) = 0$.
+$f(1) = -1 \lt 0$ and $f(3) = 1 \gt 0$ So there is a sign change. However, $f$ is **not continuous** on $[1,3]$, it has a vertical asymptote at $x = 2$. The sign change theorem requires continuity, so it does not apply here. There is no root of $1/(x-2) = 0$.
 
-**If you get this wrong, revise:** [Limitations](#12-limitations) — Section 1.2.
+**If you get this wrong, revise:** [Limitations](#12-limitations), Section 1.2.
 
 </details>
 
@@ -626,7 +626,7 @@ Degrades to linear convergence with rate $1/2$. Here $f''(x) = 6(x-2)$ So $f''(2
 (triple root), giving rate $2/3$ instead of $1/2$.
 
 **If you get this wrong, revise:**
-[Slow Convergence Near Inflection Points](#35-slow-convergence-near-inflection-points) — Section
+[Slow Convergence Near Inflection Points](#35-slow-convergence-near-inflection-points), Section
 3.5.
 
 </details>
@@ -665,8 +665,8 @@ $|E_T| \leq \dfrac{(2-0)^3}{12 \times 4^2} \times 2 = \dfrac{8}{192} \times 2 = 
 
 The actual error is $|1.1071 - 1.1039| = 0.0032$Well within the bound.
 
-**If you get this wrong, revise:** [Error Analysis](#42-error-analysis) — Section 4.2 and
-[Error Bound](#43-error-bound) — Section 4.3.
+**If you get this wrong, revise:** [Error Analysis](#42-error-analysis), Section 4.2 and
+[Error Bound](#43-error-bound), Section 4.3.
 
 </details>
 
@@ -697,7 +697,7 @@ $|g_2'(\alpha)| = 1/\alpha \approx 1.763 \gt 1$. Diverges.
 
 Both rearrangements solve the same equation, but only $x_{n+1} = e^{-x_n}$ converges near the root.
 
-**If you get this wrong, revise:** [Rearrangement Choices](#23-rearrangement-choices) — Section 2.3.
+**If you get this wrong, revise:** [Rearrangement Choices](#23-rearrangement-choices), Section 2.3.
 
 </details>
 
@@ -727,7 +727,7 @@ lost (as in Section 3.5). For a double root, Newton-Raphson converges linearly w
 Approximately $1/2$.
 
 **If you get this wrong, revise:**
-[Slow Convergence Near Inflection Points](#35-slow-convergence-near-inflection-points) — Section
+[Slow Convergence Near Inflection Points](#35-slow-convergence-near-inflection-points), Section
 3.5.
 
 </details>
@@ -760,7 +760,7 @@ $M = \frac{1}{4}\varepsilon^{-3/2}$Which blows up as $\varepsilon \to 0$. This i
 Limitation of the error bound: it requires $f''$ to be bounded, which fails when $f$ has a vertical
 Tangent at an endpoint.
 
-**If you get this wrong, revise:** [Error Bound](#43-error-bound) — Section 4.3.
+**If you get this wrong, revise:** [Error Bound](#43-error-bound), Section 4.3.
 
 </details>
 
@@ -788,7 +788,7 @@ $|g'(\alpha)| = \sin(0.7391) \approx 0.6736 \lt 1$. Converges.
 (c) $x_0 = 0.500000$ $x_1 = \cos(0.5) = 0.877583$ $x_2 = \cos(0.877583) = 0.639012$
 $x_3 = \cos(0.639012) = 0.802685$
 
-**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition) — Section 2.2.
+**If you get this wrong, revise:** [Convergence Condition](#22-convergence-condition), Section 2.2.
 
 </details>
 
@@ -826,7 +826,7 @@ A better starting point is $x_0 = 1.0$: $f(1) = \tan 1 - 1 \approx 0.5574$
 $f'(1) = \sec^2 1 \approx 3.426$. $x_1 = 1 - 0.5574/3.426 \approx 0.8373$Already close to
 $\alpha = 0.7854$.
 
-**If you get this wrong, revise:** [Horizontal Tangent Failure](#34-horizontal-tangent-failure) —
+**If you get this wrong, revise:** [Horizontal Tangent Failure](#34-horizontal-tangent-failure),
 Section 3.4.
 
 </details>

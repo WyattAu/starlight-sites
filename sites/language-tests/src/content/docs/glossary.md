@@ -1,5 +1,5 @@
 ---
-title: "Language Proficiency Test Glossary — IELTS, TOEFL Terms"
+title: "Language Proficiency Test Glossary, IELTS, TOEFL Terms"
 description: "Comprehensive glossary of language proficiency test terms covering IELTS, TOEFL, TOEIC, Cambridge, and general language testing concepts."
 date: 2026-07-24
 tags: [glossary]
@@ -152,7 +152,7 @@ tags: [glossary]
 
 **Can-Do Statement**: A descriptor of what a learner can perform at a given CEFR level ("can describe experiences and events" for B1); exam tasks map directly onto them.
 
-**Washback**: The effect an exam's format has on teaching — positive washback encourages communicative practice, negative washback drills test tricks.
+**Washback**: The effect an exam's format has on teaching, positive washback encourages communicative practice, negative washback drills test tricks.
 
 **Band Score**: The IELTS 0-9 scale, reported in whole and half bands; writing and speaking use public descriptors.
 
@@ -160,7 +160,7 @@ tags: [glossary]
 
 **Hanyu Shuiping Kaoshi (HSK) Levels**: The standardised Chinese proficiency ladder (HSK 1-6, plus the advanced 7-9 band); HSK 4 is the common university-entry threshold.
 
-**JLPT N-Levels**: Japanese proficiency graded N5 (basic) to N1 (advanced); no speaking or writing production sections — recognition only.
+**JLPT N-Levels**: Japanese proficiency graded N5 (basic) to N1 (advanced); no speaking or writing production sections, recognition only.
 
 **TOPIK Levels**: Korean proficiency (Level 1-6) split into TOPIK I (1-2) and TOPIK II (3-6).
 

@@ -145,7 +145,7 @@ export const flashcard4 = [
   {
     id: 'gcse-chem-019',
     front: 'Describe alkenes and the test to identify them. What is addition polymerisation?',
-    back: 'General formula: CₙH₂ₙ. Unsaturated hydrocarbons (contain a C=C double bond). Test: add bromine water — turns from orange/brown to colourless (the double bond opens and bromine adds across it). Addition polymerisation: many alkene monomers join to form a long polymer chain. Example: ethene → poly(ethene). No other product is formed. The repeat unit has the same atoms as the monomer but with the double bond opened.',
+    back: 'General formula: CₙH₂ₙ. Unsaturated hydrocarbons (contain a C=C double bond). Test: add bromine water, turns from orange/brown to colourless (the double bond opens and bromine adds across it). Addition polymerisation: many alkene monomers join to form a long polymer chain. Example: ethene → poly(ethene). No other product is formed. The repeat unit has the same atoms as the monomer but with the double bond opened.',
     tags: ['organic-chemistry'],
     difficulty: 'hard',
   },

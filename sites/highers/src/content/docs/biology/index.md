@@ -64,7 +64,7 @@ Evolution, biodiversity, classification, ecosystems, and environmental biology.
 
 ## Study Tips
 
-Learn diagrams thoroughly — SQA frequently awards marks for accurate labelled diagrams. Understand
+Learn diagrams thoroughly, SQA frequently awards marks for accurate labelled diagrams. Understand
 the difference between describing and explaining biological processes. Practise data interpretation
 questions.
 

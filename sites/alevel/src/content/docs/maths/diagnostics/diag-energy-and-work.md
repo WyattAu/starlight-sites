@@ -26,13 +26,13 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Energy and Work — Diagnostic Tests
+## Energy and Work, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for energy and work.
 
-### UT-1: Work Done Against Friction — Applied Force vs Frictional Force
+### UT-1: Work Done Against Friction, Applied Force vs Frictional Force
 
 **Question:**
 
@@ -94,7 +94,7 @@ $$\text{Percentage error} = \frac{735 - 529.8}{529.8} \times 100\% \approx 38.7\
 }
 </script>
 
-### UT-2: Power, Force, and Velocity — The Constant-Power Trap
+### UT-2: Power, Force, and Velocity, The Constant-Power Trap
 
 **Question:**
 
@@ -174,7 +174,7 @@ $$= 800\ln\!\left(\frac{39}{37}\right) + 40 \approx 800(0.05263) + 40 \approx 42
 }
 </script>
 
-### UT-3: Elastic Potential Energy — Maximum Extension of a Spring System
+### UT-3: Elastic Potential Energy, Maximum Extension of a Spring System
 
 **Question:**
 

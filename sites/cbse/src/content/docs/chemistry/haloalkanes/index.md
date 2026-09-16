@@ -57,7 +57,7 @@ Haloalkanes are alkanes with one or more halogen atoms. They are important inter
 - Optical activity: enantiomers rotate plane-polarized light in opposite directions
 - Grignard reagent: $\text{R-MgX}$ (formed from haloalkane + Mg in dry ether)
 
-## Worked Example 1 — SN1 vs SN2
+## Worked Example 1, SN1 vs SN2
 
 **Problem:** Predict whether 2-bromobutane undergoes SN1 or SN2 with $\text{NaOH}$.
 
@@ -73,7 +73,7 @@ With $\text{NaOH}$ (strong nucleophile) in ethanol, SN2 is favoured. With water 
 
 **Common mistake:** Assuming secondary haloalkanes always follow one mechanism. The mechanism depends on reaction conditions.
 
-## Worked Example 2 — Saytzeff's Rule
+## Worked Example 2, Saytzeff's Rule
 
 **Problem:** Write the products of dehydrohalination of 2-bromobutane with alcoholic KOH.
 
@@ -90,7 +90,7 @@ The more substituted alkene is more stable (hyperconjugation).
 
 **Common mistake:** Producing the less substituted alkene as the major product. Saytzeff's rule predicts the more substituted alkene.
 
-## Worked Example 3 — Grignard Reagent Formation
+## Worked Example 3, Grignard Reagent Formation
 
 **Problem:** Write the reaction for the formation of ethylmagnesium bromide and its reaction with formaldehyde.
 
@@ -121,11 +121,11 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 
 ## Intuition
 
-**The Swiss Army knife of organic synthesis:** Haloalkanes are alkanes with a halogen (Cl, Br, I) replacing a hydrogen, and that halogen is like a handle on a door — it makes the molecule reactive in specific ways. The C-X bond is polar (halogen pulls electrons), making the carbon electrophilic and susceptible to nucleophilic attack. Think of it as a tug-of-war: the nucleophile pulls the halogen away, and depending on how crowded the carbon is, the reaction proceeds through one of two pathways (SN1 or SN2).
+**The Swiss Army knife of organic synthesis:** Haloalkanes are alkanes with a halogen (Cl, Br, I) replacing a hydrogen, and that halogen is like a handle on a door, it makes the molecule reactive in specific ways. The C-X bond is polar (halogen pulls electrons), making the carbon electrophilic and susceptible to nucleophilic attack. Think of it as a tug-of-war: the nucleophile pulls the halogen away, and depending on how crowded the carbon is, the reaction proceeds through one of two pathways (SN1 or SN2).
 
 **Why it matters:** Haloalkanes are the gateway to thousands of other organic compounds. Grignard reagents (made from haloalkanes) can build carbon-carbon bonds, which is how pharmaceutical companies synthesize complex drug molecules. Without haloalkane chemistry, we couldn't make most of the medicines, plastics, and materials we rely on.
 
-**The key insight:** SN1 vs SN2 isn't just about the substrate — it's a three-way competition between substrate structure, nucleophile strength, and solvent. Master this three-way balance and you can predict organic reaction outcomes.
+**The key insight:** SN1 vs SN2 isn't just about the substrate, it's a three-way competition between substrate structure, nucleophile strength, and solvent. Master this three-way balance and you can predict organic reaction outcomes.
 
 ## Common Exam Patterns
 
@@ -145,7 +145,7 @@ Haloalkanes are key intermediates in organic synthesis. Grignard reagents, forme
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index):** Haloalkanes are alkylating agents used in organic synthesis of biomolecules — connecting haloalkane reactivity to biological chemistry.
-- **[Polymers](../polymers/index):** Vinyl chloride (a haloalkane) polymerizes to PVC — linking haloalkane chemistry to polymer production.
+- **[Biomolecules](../biomolecules/index):** Haloalkanes are alkylating agents used in organic synthesis of biomolecules, connecting haloalkane reactivity to biological chemistry.
+- **[Polymers](../polymers/index):** Vinyl chloride (a haloalkane) polymerizes to PVC, linking haloalkane chemistry to polymer production.
 - **[Electrochemistry](../electrochemistry/index):** The C-X bond in haloalkanes can undergo electrochemical reduction, connecting organic reactivity to electrochemistry.
 - **[Coordination Compounds](../coordination/index):** Halide ions (Cl⁻, Br⁻, I⁻) are common ligands in coordination complexes.

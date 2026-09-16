@@ -1,5 +1,5 @@
 ---
-title: "CBSE Board Exam Glossary — Key Terms"
+title: "CBSE Board Exam Glossary, Key Terms"
 description: "Comprehensive glossary of CBSE Board Exam terms covering the Indian education system, assessment, JEE, NEET, and competitive exams."
 date: 2026-07-24
 tags: [glossary]
@@ -37,9 +37,9 @@ tags: [glossary]
 
 **Humanities/Arts Stream**: Includes History, Political Science, Geography, Psychology, and other subjects.
 
-**PCM**: Physics, Chemistry, Mathematics — the standard combination for engineering aspirants.
+**PCM**: Physics, Chemistry, Mathematics, the standard combination for engineering aspirants.
 
-**PCB**: Physics, Chemistry, Biology — the standard combination for medical aspirants.
+**PCB**: Physics, Chemistry, Biology, the standard combination for medical aspirants.
 
 **Elective Subjects**: Optional subjects students can choose alongside compulsory subjects.
 
@@ -131,7 +131,7 @@ tags: [glossary]
 
 **Mock Test**: A practice exam simulating real exam conditions.
 
-**Time Management**: Allocating time efficiently during exams — roughly 1–2 minutes per MCQ in JEE.
+**Time Management**: Allocating time efficiently during exams, roughly 1–2 minutes per MCQ in JEE.
 
 **Revision Notes**: Concise summaries of key concepts for quick review.
 

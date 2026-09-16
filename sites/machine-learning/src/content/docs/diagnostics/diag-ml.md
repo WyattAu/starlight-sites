@@ -241,11 +241,11 @@ flowchart TD
 
 ## Intuition
 
-**ML diagnostic assessment tests foundational understanding:** Before building complex models, you need to understand the basics — data preprocessing, model evaluation, overfitting, and the bias-variance trade-off.
+**ML diagnostic assessment tests foundational understanding:** Before building complex models, you need to understand the basics, data preprocessing, model evaluation, overfitting, and the bias-variance trade-off.
 
 **Why it matters:** These fundamentals determine whether your models will actually work in practice, not just in theory.
 
-**The key insight:** Always evaluate on data the model has never seen — training accuracy tells you almost nothing about real-world performance.
+**The key insight:** Always evaluate on data the model has never seen, training accuracy tells you almost nothing about real-world performance.
 
 ## Common Mistakes
 

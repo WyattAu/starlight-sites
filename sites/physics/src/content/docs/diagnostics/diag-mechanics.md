@@ -226,9 +226,9 @@ flowchart TD
 
 **Checking your mechanics foundations:** Diagnostic tests quickly reveal which concepts you have mastered and which need more work. They are like a health check for your physics understanding.
 
-**Why it matters:** Classical mechanics is the foundation of all physics — gaps in your understanding will propagate to electromagnetism, quantum mechanics, and beyond.
+**Why it matters:** Classical mechanics is the foundation of all physics, gaps in your understanding will propagate to electromagnetism, quantum mechanics, and beyond.
 
-**The key insight:** If you cannot draw a free body diagram and apply F=ma, you do not truly understand mechanics — use diagnostic tests as a starting point for deeper study, not as an endpoint.
+**The key insight:** If you cannot draw a free body diagram and apply F=ma, you do not truly understand mechanics, use diagnostic tests as a starting point for deeper study, not as an endpoint.
 
 ## Answer Key
 

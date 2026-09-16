@@ -48,7 +48,7 @@ impl Marker {
 ```
 
 Unit structs have size 0 (they are zero-sized types). This makes them free to create and pass around
-— the compiler optimizes away all storage for them.
+- the compiler optimizes away all storage for them.
 
 ```rust
 assert_eq!(std::mem::size_of::<Marker>(), 0);
@@ -86,7 +86,7 @@ get_user(uid);   // OK
 // get_user(oid);  // ERROR: expected UserId, found OrderId
 ```
 
-This is type-safe and zero-cost — the compiler eliminates the wrapper at optimization time.
+This is type-safe and zero-cost, the compiler eliminates the wrapper at optimization time.
 
 ### Named-Field Structs
 
@@ -139,7 +139,7 @@ By default, the compiler is free to reorder fields and add padding for alignment
 Attribute controls the memory layout:
 
 ```rust
-#[repr(C)]      // C-compatible layout — fields in declaration order, C alignment rules
+#[repr(C)]      // C-compatible layout, fields in declaration order, C alignment rules
 struct Color {
     r: u8,
     g: u8,
@@ -149,10 +149,10 @@ struct Color {
 #[repr(transparent)]  // has the same layout as the single field inside
 struct Wrapper(u32);
 
-#[repr(packed)]   // no padding — fields are packed tightly (may cause unaligned access)
+#[repr(packed)]   // no padding, fields are packed tightly (may cause unaligned access)
 struct Packed {
     a: u8,
-    b: u32,       // at offset 1, not offset 4 — misaligned on most platforms
+    b: u32,       // at offset 1, not offset 4, misaligned on most platforms
 }
 
 #[repr(align(16))]  // forced alignment of 16 bytes
@@ -173,8 +173,8 @@ Defined). Use `pub` to make fields public:
 ```rust
 mod geometry {
     pub struct Circle {
-        pub radius: f64,   // public — accessible from other modules
-        center: Point,      // private — only accessible within this module
+        pub radius: f64,   // public, accessible from other modules
+        center: Point,      // private, only accessible within this module
     }
 
     impl Circle {
@@ -204,7 +204,7 @@ struct Rectangle {
 }
 
 impl Rectangle {
-    // Associated function (no self parameter) — like a static method
+    // Associated function (no self parameter), like a static method
     fn new(width: f64, height: f64) -> Self {
         Rectangle { width, height }
     }
@@ -253,7 +253,7 @@ impl Rectangle {
 
 ### Method Dispatch
 
-Rust uses static dispatch by default — the compiler knows the exact type at the call site and
+Rust uses static dispatch by default, the compiler knows the exact type at the call site and
 Monomorphizes the code. Trait methods called through `dyn Trait` use dynamic dispatch via vtable
 Indirection.
 
@@ -267,11 +267,11 @@ impl Shape for Circle {
     fn area(&self) -> f64 { std::f64::consts::PI * self.radius * self.radius }
 }
 
-// Static dispatch — no vtable
+// Static dispatch, no vtable
 let c = Circle { radius: 5.0 };
 let a = c.area();  // compiler generates Circle::area directly
 
-// Dynamic dispatch — vtable lookup
+// Dynamic dispatch, vtable lookup
 let s: &dyn Shape = &Circle { radius: 5.0 };
 let a = s.area();  // indirect call through vtable
 ```
@@ -279,7 +279,7 @@ let a = s.area();  // indirect call through vtable
 ## Enums
 
 Enums are algebraic data types (sum types). Each variant can optionally carry data. Rust enums are
-Discriminated unions — the compiler stores a tag (discriminant) to identify which variant is active.
+Discriminated unions, the compiler stores a tag (discriminant) to identify which variant is active.
 
 ### Unit Variants
 
@@ -342,9 +342,9 @@ enum Color {
 // sizeof(Color) == 1 (tag only, no data)
 
 enum Payload {
-    None,               // 0 — no data
-    Integer(i64),       // 1 — 8 bytes of data
-    Text(String),       // 2 — 24 bytes (ptr + len + cap)
+    None,               // 0, no data
+    Integer(i64),       // 1 to 8 bytes of data
+    Text(String),       // 2 to 24 bytes (ptr + len + cap)
 }
 // sizeof(Payload) == 32 (8 bytes tag + 24 bytes data, with padding)
 ```
@@ -397,7 +397,7 @@ fn eval(expr: &Expr, env: &std::collections::HashMap<String, i64>) -> i64 {
 }
 ```
 
-Note the use of `Box<Expr>` — without boxing, the enum would be infinitely sized because `Expr`
+Note the use of `Box<Expr>`without boxing, the enum would be infinitely sized because `Expr`
 Contains itself recursively.
 
 ## Pattern Matching
@@ -460,7 +460,7 @@ Will always match for a given variant, so you may still need a catch-all arm.
 
 ### Binding Modes
 
-#### `ref` — Borrow Instead of Move
+#### `ref`Borrow Instead of Move
 
 ```rust
 struct Point { x: i32, y: i32 }
@@ -473,7 +473,7 @@ match p {
 }
 ```
 
-#### `mut` — Mutable Binding
+#### `mut`Mutable Binding
 
 ```rust
 let mut v = vec![1, 2, 3];
@@ -483,7 +483,7 @@ match v {
 assert_eq!(v, vec![1, 2, 3, 4]);
 ```
 
-#### `@` — At Bindings
+#### `@`At Bindings
 
 The `@` operator binds a value to a name while also testing it against a pattern:
 
@@ -555,7 +555,7 @@ match p {
 }
 ```
 
-### `if let` — Single Pattern Matching
+### `if let`Single Pattern Matching
 
 When you only care about one variant, `if let` is more concise than `match`:
 
@@ -593,7 +593,7 @@ fn process(data: Option<Vec<i32>>) -> i32 {
 The `else` block must diverge (return, break, continue, panic, or loop). This is cleaner than the
 Equivalent `match` with a single arm and a fallback.
 
-### `while let` — Repeated Pattern Matching
+### `while let`Repeated Pattern Matching
 
 ```rust
 let mut stack = Vec::new();
@@ -672,11 +672,11 @@ struct User {
 | Trait        | What it generates                                              |
 | ------------ | -------------------------------------------------------------- |
 | `Debug`      | `fmt::Debug` for `{:?}` formatting                             |
-| `Clone`      | `clone()` — deep copy (requires all fields to be `Clone`)      |
+| `Clone`      | `clone()`deep copy (requires all fields to be `Clone`)      |
 | `Copy`       | Implicit bitwise copy (requires `Clone`No `Drop`)              |
-| `PartialEq`  | `==` and `!=` — structural equality                            |
+| `PartialEq`  | `==` and `!=`structural equality                            |
 | `Eq`         | Marks type as having reflexive equality (requires `PartialEq`) |
-| `PartialOrd` | `&lt;``&gt;``&lt;=``&gt;=` — derived from field order          |
+| `PartialOrd` | `&lt;``&gt;``&lt;=``&gt;=`derived from field order          |
 | `Ord`        | Total ordering (requires `PartialOrd``Eq`)                     |
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |

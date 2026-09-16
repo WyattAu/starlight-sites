@@ -21,7 +21,7 @@ categories:
 }
 </script>
 
-## A Level Further Mathematics — Course Overview
+## A Level Further Mathematics, Course Overview
 
 A Level Further Mathematics extends the tools of pure mathematics to more abstract and powerful
 Settings, introduces advanced statistical methods, and deepens the study of mechanics. It is the
@@ -36,18 +36,18 @@ Science at university.
 | Pure: Matrices                               | Paper 1 | FP1      | Paper 1 | P1         |
 | Pure: Further Algebra & Functions            | Paper 1 | FP1      | Paper 1 | P1         |
 | Pure: Further Calculus                       | Paper 1 | FP1, FP2 | Paper 1 | P1, P2     |
-| Pure: Polar Coordinates                      | Paper 1 | FP2      | —       | P2         |
+| Pure: Polar Coordinates                      | Paper 1 | FP2      |,       | P2         |
 | Pure: Hyperbolic Functions                   | Paper 1 | FP2      | Paper 1 | P2         |
 | Pure: Differential Equations                 | Paper 1 | FP2      | Paper 1 | P2         |
 | Pure: Maclaurin & Taylor Series              | Paper 1 | FP2      | Paper 1 | P2         |
 | Pure: Vectors in 3D                          | Paper 1 | FP1      | Paper 1 | P1         |
 | Further Statistics: Poisson & Geometric      | Paper 2 | S2, S3   | Paper 2 | S2         |
-| Further Statistics: Exponential & Continuous | —       | S3, S4   | —       | S2         |
+| Further Statistics: Exponential & Continuous |,       | S3, S4   |,       | S2         |
 | Further Statistics: Chi-squared Tests        | Paper 2 | S3       | Paper 2 | S2         |
 | Further Mechanics: Projectiles               | Paper 2 | M2       | Paper 2 | M2         |
-| Further Mechanics: Circular Motion           | —       | M2       | —       | M2         |
+| Further Mechanics: Circular Motion           |,       | M2       |,       | M2         |
 | Further Mechanics: Centres of Mass           | Paper 2 | M2       | Paper 2 | M2         |
-| Further Mechanics: Elastic Collisions        | —       | M2       | —       | M2         |
+| Further Mechanics: Elastic Collisions        |,       | M2       |,       | M2         |
 
 ### Course Structure
 
@@ -56,33 +56,33 @@ Science at university.
 The further pure core extends A Level mathematics into territory that is essential for university
 STEM courses:
 
-- **Complex numbers** — Argand diagrams, De Moivre"s theorem, roots of unity, exponential form
+- **Complex numbers**, Argand diagrams, De Moivre"s theorem, roots of unity, exponential form
   $e^{i\theta}$
-- **Matrices** — determinants, inverses, transformations in 2D and 3D, eigenvalues (AQA)
-- **Further algebra** — roots of polynomial equations, partial fractions with irreducible quadratics
-- **Further calculus** — integration by parts (repeated), inverse trigonometric integration, volumes
+- **Matrices**, determinants, inverses, transformations in 2D and 3D, eigenvalues (AQA)
+- **Further algebra**, roots of polynomial equations, partial fractions with irreducible quadratics
+- **Further calculus**, integration by parts (repeated), inverse trigonometric integration, volumes
   of revolution, parametric differentiation
-- **Polar coordinates** — conversion, sketching curves, area enclosed by polar curves
-- **Hyperbolic functions** — definitions, identities, calculus with $\sinh$, $\cosh$, $\tanh$
-- **Differential equations** — first-order (separable, integrating factor), second-order linear with
+- **Polar coordinates**, conversion, sketching curves, area enclosed by polar curves
+- **Hyperbolic functions**, definitions, identities, calculus with $\sinh$, $\cosh$, $\tanh$
+- **Differential equations**, first-order (separable, integrating factor), second-order linear with
   constant coefficients
-- **Maclaurin and Taylor series** — expansion, convergence, standard series
-- **Vectors in 3D** — scalar product, vector product, equations of lines and planes
+- **Maclaurin and Taylor series**, expansion, convergence, standard series
+- **Vectors in 3D**, scalar product, vector product, equations of lines and planes
 
 #### Further Statistics
 
-- **Poisson distribution** — derivation as binomial limit, hypothesis testing
-- **Geometric distribution** — properties, hypothesis testing
-- **Exponential distribution** — PDF, CDF, hypothesis testing, link to Poisson processes
-- **Continuous random variables** — PDF, CDF, expected value, variance, median
-- **Chi-squared tests** — goodness of fit, test for independence, contingency tables
+- **Poisson distribution**, derivation as binomial limit, hypothesis testing
+- **Geometric distribution**, properties, hypothesis testing
+- **Exponential distribution**, PDF, CDF, hypothesis testing, link to Poisson processes
+- **Continuous random variables**, PDF, CDF, expected value, variance, median
+- **Chi-squared tests**, goodness of fit, test for independence, contingency tables
 
 #### Further Mechanics
 
-- **Projectile motion** — trajectory as parabola, range, maximum height, motion on inclined planes
-- **Circular motion** — angular velocity, centripetal acceleration, banked tracks, vertical circles
-- **Centres of mass** — laminae, composite bodies, frameworks, toppling
-- **Elastic collisions** — impulse, coefficient of restitution, kinetic energy, oblique impacts
+- **Projectile motion**, trajectory as parabola, range, maximum height, motion on inclined planes
+- **Circular motion**, angular velocity, centripetal acceleration, banked tracks, vertical circles
+- **Centres of mass**, laminae, composite bodies, frameworks, toppling
+- **Elastic collisions**, impulse, coefficient of restitution, kinetic energy, oblique impacts
 
 ### Assessment
 
@@ -123,7 +123,7 @@ Follow the sidebar order. Each topic page contains:
 
 ### Study Strategy
 
-Master the pure core first — complex numbers and matrices are prerequisites for the applied modules.
+Master the pure core first, complex numbers and matrices are prerequisites for the applied modules.
 Practise full exam papers under timed conditions; Further Maths questions require chaining 3--4
 techniques in a single problem. Focus on proof questions: they carry high marks and require you to
 justify every step. Use the Further Pure modules as the backbone, then branch into Statistics or

@@ -1,5 +1,5 @@
 /**
- * ThemeCreator — custom theme builder with WCAG AA validation.
+ * ThemeCreator, custom theme builder with WCAG AA validation.
  *
  * Mounted once in the shared Header override (client:idle); opens via
  * the `wn:open-theme-creator` custom event, dispatched by the reader

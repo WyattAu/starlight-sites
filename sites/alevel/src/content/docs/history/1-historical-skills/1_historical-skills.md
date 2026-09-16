@@ -41,7 +41,7 @@ you must place events in sequence and identify turning points, continuities, and
 
 Every source must be evaluated using a systematic framework:
 
-**Provenance** — who produced the source, when, where, and for whom. Provenance shapes purpose and
+**Provenance**, who produced the source, when, where, and for whom. Provenance shapes purpose and
 reliability.
 
 - **Origin**: Where and when was the source produced?
@@ -49,21 +49,21 @@ reliability.
 - **Audience**: Who was the intended reader or viewer? Public, private, or official?
 - **Purpose**: Why was the source created? To inform, persuade, warn, record, or propagandise?
 
-**Content** — what the source actually says or shows. Extract specific details rather than
+**Content**, what the source actually says or shows. Extract specific details rather than
 summarising broadly.
 
 - Identify explicit claims and implicit suggestions
 - Note tone, language, and emphasis
-- Consider what is omitted — silences can be as revealing as statements
+- Consider what is omitted, silences can be as revealing as statements
 
-**Context** — the historical circumstances in which the source was produced. Context determines how
+**Context**, the historical circumstances in which the source was produced. Context determines how
 a source should be read.
 
 - What events were happening at the time?
 - What was the political or cultural climate?
 - How does context affect the source"s meaning or reliability?
 
-**Cross-referencing** — comparing a source with other sources or contextual knowledge to corroborate
+**Cross-referencing**, comparing a source with other sources or contextual knowledge to corroborate
 or challenge its claims.
 
 ### Essay Structure
@@ -112,7 +112,7 @@ Effective argumentation requires:
   stronger
 - **Analytical connectives**: Use "therefore", "consequently", "in contrast", "nevertheless" to show
   relationships between points
-- **Significance weighting**: Not all factors are equal — explain which is most important and why
+- **Significance weighting**: Not all factors are equal, explain which is most important and why
 
 ### Evaluation of Interpretations
 
@@ -142,7 +142,7 @@ When given two historical interpretations to evaluate:
   individuals
 - **Structuralist approaches** (Marx, Braudel) argue that economic, social, and geographic forces
   determine historical outcomes regardless of individual agency
-- **Synthesis** — most modern historians accept that both individuals and structures interact; the
+- **Synthesis**, most modern historians accept that both individuals and structures interact; the
   key question is their relative weight in specific contexts
 
 ### Debate 3: Intentionalism vs. Functionalism (applied to Nazi Germany)
@@ -192,64 +192,64 @@ To assess how useful a source is for a specific enquiry:
 
 ## Worked Examples
 
-### Example 1: Essay Plan — "The most important factor in the outbreak of the Cold War was ideological differences." How far do you agree?
+### Example 1: Essay Plan, "The most important factor in the outbreak of the Cold War was ideological differences." How far do you agree?
 
 **Introduction**: Ideological differences between the USA and USSR created fundamental mistrust, but
 superpower rivalry was also driven by security concerns, economic interests, and individual leaders'
 actions.
 
-**Paragraph 1 — Ideological differences** (agree)
+**Paragraph 1, Ideological differences** (agree)
 
 - Capitalism vs. communism: mutually hostile worldviews
 - US commitment to democracy and free markets; Soviet commitment to world revolution
 - Long-term roots: Bolshevik Revolution (1917), US intervention in Russian Civil War
-- But: ideology alone did not make conflict inevitable — wartime alliance showed cooperation was
+- But: ideology alone did not make conflict inevitable, wartime alliance showed cooperation was
   possible
 
-**Paragraph 2 — Security concerns** (alternative factor)
+**Paragraph 2, Security concerns** (alternative factor)
 
 - USSR's need for a buffer zone in Eastern Europe after devastating losses (27 million dead)
 - US fear of Soviet expansionism and domino theory
 - Yalta and Potsdam conferences: disagreements over Poland and Germany
 - More significant in the short term than abstract ideology
 
-**Paragraph 3 — Economic factors** (alternative factor)
+**Paragraph 3, Economic factors** (alternative factor)
 
-- US economic power and the Marshall Plan (1947) — seen by Stalin as "dollar imperialism"
+- US economic power and the Marshall Plan (1947), seen by Stalin as "dollar imperialism"
 - Soviet exploitation of Eastern European economies
 - Truman Doctrine linked economic aid to containment policy
 - Economic rivalry reinforced ideological suspicion
 
-**Paragraph 4 — Individual leadership** (alternative factor)
+**Paragraph 4, Individual leadership** (alternative factor)
 
 - Stalin's paranoia and aggressive tactics
 - Truman's more confrontational approach than Roosevelt
 - Churchill's "Iron Curtain" speech (1946) shaping Western perception
 - But: leaders operated within structural constraints
 
-**Conclusion**: Ideological differences provided the underlying cause, but security concerns —
-particularly the USSR's demand for a buffer zone and the US policy of containment — were the most
+**Conclusion**: Ideological differences provided the underlying cause, but security concerns,
+particularly the USSR's demand for a buffer zone and the US policy of containment, were the most
 immediate triggers. Ideology gave the conflict its character; security fears made it a reality.
 
-### Example 2: Essay Plan — Assess the value of a source for an enquiry into the causes of the English Reformation
+### Example 2: Essay Plan, Assess the value of a source for an enquiry into the causes of the English Reformation
 
 **Introduction**: State the source's nature, origin, and purpose. Identify its potential value and
 limitations for the specific enquiry.
 
-**Paragraph 1 — Content analysis**
+**Paragraph 1, Content analysis**
 
 - What does the source explicitly state about the causes of the Reformation?
 - What does it imply or suggest?
 - What is omitted, and how does that affect its utility?
 
-**Paragraph 2 — Provenance and reliability**
+**Paragraph 2, Provenance and reliability**
 
 - Who wrote it, and what was their perspective?
-- When was it produced — during or after the events?
+- When was it produced, during or after the events?
 - Was it intended for a public or private audience?
 - How does provenance affect the source's reliability?
 
-**Paragraph 3 — Context and corroboration**
+**Paragraph 3, Context and corroboration**
 
 - How does the source fit with other evidence about the Reformation?
 - Does contextual knowledge support, challenge, or nuance the source's claims?

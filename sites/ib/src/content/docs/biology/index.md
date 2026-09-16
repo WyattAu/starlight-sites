@@ -52,7 +52,7 @@ pitfalls, and exam-style problems.
 
 ## Intuition
 
-**Biology is the science of life — it explores how living organisms function, reproduce, evolve, and interact:** Biology connects molecular mechanisms to organism-level phenomena, from DNA replication to ecosystem dynamics
+**Biology is the science of life, it explores how living organisms function, reproduce, evolve, and interact:** Biology connects molecular mechanisms to organism-level phenomena, from DNA replication to ecosystem dynamics
 
 **Why it matters:** Biological literacy is essential for medicine, environmental stewardship, and understanding our place in nature
 
@@ -62,41 +62,41 @@ pitfalls, and exam-style problems.
 
 ### Cell and Molecular Biology
 
-- **[Cell Biology](./1-cell-biology/1_cell-biology)** — Cell theory, prokaryotic and eukaryotic
+- **[Cell Biology](./1-cell-biology/1_cell-biology)**, Cell theory, prokaryotic and eukaryotic
   cells, membrane structure, organelles, and cell division
-- **[Molecular Biology](./2-molecular-biology/1_molecular-biology)** — Water, carbohydrates, lipids,
+- **[Molecular Biology](./2-molecular-biology/1_molecular-biology)**, Water, carbohydrates, lipids,
   proteins, enzymes, DNA structure, replication, transcription, and translation
-- **[Metabolism and Cell Biology](./1-cell-biology/2_metabolism)** — Enzyme kinetics
+- **[Metabolism and Cell Biology](./1-cell-biology/2_metabolism)**, Enzyme kinetics
   (Michaelis-Menten, inhibition), cellular respiration, photosynthesis, ATP, metabolic pathways,
   fermentation
 
 ### Genetics
 
-- **[Genetics](./3-genetics/1_genetics)** — Meiosis, Mendelian genetics, inheritance patterns, gene
+- **[Genetics](./3-genetics/1_genetics)**, Meiosis, Mendelian genetics, inheritance patterns, gene
   expression, mutations, biotechnology, PCR, and genetic modification
-- **[Genetics Advanced](./3-genetics/2_genetics-advanced)** — DNA replication detail, transcription
+- **[Genetics Advanced](./3-genetics/2_genetics-advanced)**, DNA replication detail, transcription
   and gene regulation, translation mechanics, operons, epigenetics, genetic engineering, PCR, gel
   electrophoresis, chi-squared tests, pedigree analysis
 
 ### Ecology and Evolution
 
-- **[Ecology](./4-ecology/1_ecology)** — Species, communities, ecosystems, energy flow, nutrient
+- **[Ecology](./4-ecology/1_ecology)**, Species, communities, ecosystems, energy flow, nutrient
   cycles, climate change, evolution, natural selection, and classification
-- **[Evolution in Depth](./5-evolution-and-biodiversity/1_evolution)** — Evidence for evolution,
+- **[Evolution in Depth](./5-evolution-and-biodiversity/1_evolution)**, Evidence for evolution,
   natural selection types, speciation, adaptive radiation, convergent evolution, Hardy-Weinberg
   extended, population genetics, phylogenetic trees, molecular clocks, antibiotic resistance
 
 ### Physiology
 
-- **[Human Physiology](./6-human-physiology/1_human-physiology)** — Digestion, cardiovascular
+- **[Human Physiology](./6-human-physiology/1_human-physiology)**, Digestion, cardiovascular
   system, immune system, gas exchange, neurones, synapses, hormones, homeostasis, and reproduction
-- **[Nervous System](./8-nervous-system-and-immunology/1_nervous-system)** — Neuron structure,
+- **[Nervous System](./8-nervous-system-and-immunology/1_nervous-system)**, Neuron structure,
   resting potential, action potential, synapses, neurotransmitters, reflex arcs, sensory systems,
   muscle contraction, brain regions, autonomic nervous system
-- **[Immunology](./8-nervous-system-and-immunology/2_immunology)** — Innate immunity, adaptive
+- **[Immunology](./8-nervous-system-and-immunology/2_immunology)**, Innate immunity, adaptive
   immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory,
   vaccines, ELISA, monoclonal antibodies, HIV/AIDS, autoimmune diseases, allergies
-- **[Plant Biology](./7-plant-biology/1_plant-biology)** — Plant structure, transport in plants,
+- **[Plant Biology](./7-plant-biology/1_plant-biology)**, Plant structure, transport in plants,
   reproduction, growth, phototropism, and phytochromes
 
 ## Related Content

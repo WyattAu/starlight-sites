@@ -6,7 +6,7 @@ tags:
   - University Maths
 categories:
   - University Maths
-description: "is the study of algebraic structures — sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,"
+description: "is the study of algebraic structures, sets equipped with operations satisfying certain axioms. Rather than studying specific objects (numbers, matrices,"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -22,7 +22,7 @@ description: "is the study of algebraic structures — sets equipped with operat
 
 ### 1.1 What is Abstract Algebra?
 
-**Abstract algebra** is the study of algebraic structures — sets equipped with operations satisfying
+**Abstract algebra** is the study of algebraic structures, sets equipped with operations satisfying
 certain axioms. Rather than studying specific objects (numbers, matrices, polynomials) in isolation,
 abstract algebra identifies the common structural patterns they share and studies these patterns in
 their full generality.
@@ -229,7 +229,7 @@ $N \subseteq M$, then $(G/N)/(M/N) \cong G/M$.
 Specifically, $G$ embeds into $S_{|G|}$ via the left regular representation $g \mapsto \rho_g$ where
 $\rho_g(x) = gx$.
 
-This shows that the symmetric groups are, in a precise sense, universal — every group is a
+This shows that the symmetric groups are, in a precise sense, universal, every group is a
 permutation group.
 
 ### 3.5 Direct Products and Semidirect Products
@@ -250,7 +250,7 @@ with a complement is a semidirect product.
 **Example 3.4.** $D_n \cong \mathbb{Z}/n\mathbb{Z} \rtimes \mathbb{Z}/2\mathbb{Z}$. The action of
 $\mathbb{Z}/2\mathbb{Z}$ on $\mathbb{Z}/n\mathbb{Z}$ is inversion: $k \mapsto -k$.
 
-**Example 3.5.** $Q_8$ is _not_ a semidirect product of smaller groups — it is a non-split extension
+**Example 3.5.** $Q_8$ is _not_ a semidirect product of smaller groups, it is a non-split extension
 of $\mathbb{Z}/2\mathbb{Z}$ by $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$.
 
 ## 4. Sylow Theorems
@@ -283,7 +283,7 @@ $G \cong \mathbb{Z}/pq\mathbb{Z}$. If $p \mid (q - 1)$, there are two groups:
 $\mathbb{Z}/pq\mathbb{Z}$ and $\mathbb{Z}/q\mathbb{Z} \rtimes \mathbb{Z}/p\mathbb{Z}$.
 
 **Example 4.2 (Groups of order $p^2$).** Every group of order $p^2$ is abelian. Proof: if
-$|Z(G)| = p$, then $G/Z(G)$ has order $p$ and is cyclic, which forces $G$ to be abelian —
+$|Z(G)| = p$, then $G/Z(G)$ has order $p$ and is cyclic, which forces $G$ to be abelian,
 contradiction. So $|Z(G)| = p^2$ and $G = Z(G)$. Hence $G$ is isomorphic to either
 $\mathbb{Z}/p^2\mathbb{Z}$ or $\mathbb{Z}/p\mathbb{Z} \times \mathbb{Z}/p\mathbb{Z}$.
 
@@ -510,7 +510,7 @@ The **cyclotomic field** $\mathbb{Q}(\zeta_n)$, where $\zeta_n = e^{2\pi i/n}$ i
 root of unity, is the splitting field of $x^n - 1$ over $\mathbb{Q}$.
 
 **Theorem 6.4.** The Galois group $\operatorname{Gal}(\mathbb{Q}(\zeta_n)/\mathbb{Q})$ is isomorphic
-to $(\mathbb{Z}/n\mathbb{Z})^\times$ — the unit group of $\mathbb{Z}/n\mathbb{Z}$.
+to $(\mathbb{Z}/n\mathbb{Z})^\times$, the unit group of $\mathbb{Z}/n\mathbb{Z}$.
 
 **Example 6.4.** For $n = 5$:
 $\operatorname{Gal}(\mathbb{Q}(\zeta_5)/\mathbb{Q}) \cong (\mathbb{Z}/5\mathbb{Z})^\times \cong \mathbb{Z}/4\mathbb{Z}$.
@@ -531,10 +531,10 @@ power of 2.
 
 **Corollary (Classical impossibilities).**
 
-- **Doubling the cube** requires $\sqrt[3]{2}$, with $[\mathbb{Q}(\sqrt[3]{2}) : \mathbb{Q}] = 3$ —
+- **Doubling the cube** requires $\sqrt[3]{2}$, with $[\mathbb{Q}(\sqrt[3]{2}) : \mathbb{Q}] = 3$,
   not a power of 2. Impossible.
 - **Trisecting a general angle** reduces to solving a cubic equation whose Galois group has order 3
-  — not a power of 2. Impossible.
+not a power of 2. Impossible.
 - **Squaring the circle** requires constructing $\pi$, which is transcendental over $\mathbb{Q}$
   (Lindemann, 1882). Impossible.
 
@@ -574,7 +574,7 @@ mathematical framework is that of **group actions**: a group $G$ acts on a set $
 $G \times X \to X$ satisfying $g_1(g_2 x) = (g_1 g_2)x$ and $ex = x$.
 
 There are exactly 230 crystallographic space groups in 3D, 17 wallpaper groups in 2D, and 7 frieze
-groups in 1D — all classified by group-theoretic methods.
+groups in 1D, all classified by group-theoretic methods.
 
 ### 7.4 Fermat's Little Theorem and Applications
 
@@ -617,7 +617,7 @@ computationally infeasible in sufficiently large groups.
    order 6. The converse holds for Sylow subgroups but not as a general principle.
 
 3. **"Abelian implies cyclic."** False. $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ is
-   abelian but not cyclic — every non-identity element has order 2.
+   abelian but not cyclic, every non-identity element has order 2.
 
 4. **"Every field extension is Galois."** False. $\mathbb{Q}(\sqrt[3]{2})/\mathbb{Q}$ has degree 3
    but only the identity automorphism (the other cube roots of 2 are complex and not in this field),
@@ -632,7 +632,7 @@ computationally infeasible in sufficiently large groups.
 
 7. **"$\mathbb{F}_{p^n}$ is the same as $\mathbb{Z}/p^n\mathbb{Z}$."** False.
    $\mathbb{Z}/p^n\mathbb{Z}$ is not a field for $n > 1$ (it has zero divisors). $\mathbb{F}_{p^n}$
-   is the splitting field of $x^{p^n} - x$ over $\mathbb{F}_p$ — an entirely different structure.
+   is the splitting field of $x^{p^n} - x$ over $\mathbb{F}_p$, an entirely different structure.
 
 ## 9. Summary
 
@@ -683,7 +683,7 @@ flowchart TD
 
 ## Intuition
 
-Abstract algebra strips away the specifics of numbers and geometry to study algebraic structure itself. A group is any set with an operation that behaves like symmetry: you can combine elements, there is an identity, and every element has an inverse. A ring adds a second operation that distributes over the first, generalising the arithmetic of integers. A homomorphism is a map that respects the algebraic structure — it sends products to products and sums to sums. The fundamental insight is that you can quotient out by a normal subgroup or ideal to "collapse" structure and study what remains. This lets you decompose complex objects into simpler building blocks, just as integers decompose into primes.
+Abstract algebra strips away the specifics of numbers and geometry to study algebraic structure itself. A group is any set with an operation that behaves like symmetry: you can combine elements, there is an identity, and every element has an inverse. A ring adds a second operation that distributes over the first, generalising the arithmetic of integers. A homomorphism is a map that respects the algebraic structure, it sends products to products and sums to sums. The fundamental insight is that you can quotient out by a normal subgroup or ideal to "collapse" structure and study what remains. This lets you decompose complex objects into simpler building blocks, just as integers decompose into primes.
 
 ## Worked Examples
 

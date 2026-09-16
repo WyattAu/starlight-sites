@@ -203,7 +203,7 @@ $$T + mg = \frac{mv^2}{r} \implies T = \frac{mv^2}{r} - mg \geq 0$$
 
 $$\frac{mv^2}{r} \geq mg \implies v^2 \geq gr \implies \boxed{v_{\min} = \sqrt{gr}}$$
 
-At this minimum speed, $T = 0$ — the weight alone provides the centripetal force. $\blacksquare$
+At this minimum speed, $T = 0$, the weight alone provides the centripetal force. $\blacksquare$
 
 ### 4.3 Energy approach
 
@@ -299,7 +299,7 @@ $\cos\alpha = \dfrac{-3.75 + \sqrt{14.0625 + 96.04}}{9.8} = \dfrac{-3.75 + 10.48
 $\alpha \approx 46.6^\circ$. $r = 1.2\sin 46.6° \approx 0.873\,\mathrm{m}$.
 $T = 4.9/0.687 \approx 7.13\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Conical pendulum](#31-conical-pendulum) — Section 3.1.
+**If you get this wrong, revise:** [Conical pendulum](#31-conical-pendulum), Section 3.1.
 
 </details>
 
@@ -317,7 +317,7 @@ $\mathbf{a}(t) = -r\omega^2\cos(\omega t)\,\mathbf{i} - r\omega^2\sin(\omega t)\
 $|\mathbf{a}| = \omega^2 r = \dfrac{v^2}{r}$Directed radially inward. $\blacksquare$
 
 **If you get this wrong, revise:**
-[Proof from differentiation](#proof-from-differentiation-of-position-vector) — Section 2.
+[Proof from differentiation](#proof-from-differentiation-of-position-vector), Section 2.
 
 </details>
 
@@ -332,7 +332,7 @@ $v_{\mathrm{opt}} = \sqrt{rg\tan\theta} = \sqrt{60 \times 9.8 \times \tan 20°} 
 
 $N = \dfrac{mg}{\cos\theta} = \dfrac{1000 \times 9.8}{\cos 20°} = \dfrac{9800}{0.9397} \approx 10\,430\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Banked tracks](#32-banked-tracks) — Section 3.2.
+**If you get this wrong, revise:** [Banked tracks](#32-banked-tracks), Section 3.2.
 
 </details>
 
@@ -354,7 +354,7 @@ $v_b = \sqrt{2 \times 7.104/0.3} = \sqrt{47.36} \approx 6.88\,\mathrm{m s}^{-1}$
 At the bottom:
 $T - mg = \dfrac{mv_b^2}{r} \implies T = \dfrac{0.3 \times 47.36}{0.8} + 2.94 = 17.76 + 2.94 = 20.7\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Motion in Vertical Circles](#4-motion-in-vertical-circles) —
+**If you get this wrong, revise:** [Motion in Vertical Circles](#4-motion-in-vertical-circles),
 Section 4.
 
 </details>
@@ -375,7 +375,7 @@ For minimum: $v_b^2 = gr + 4gr = 5gr$.
 $$\boxed{v_{\min} = \sqrt{5gr}} \quad \blacksquare$$
 
 **If you get this wrong, revise:**
-[Proof of minimum speed at the top](#42-proof-of-minimum-speed-at-the-top) — Section 4.2.
+[Proof of minimum speed at the top](#42-proof-of-minimum-speed-at-the-top), Section 4.2.
 
 </details>
 
@@ -393,7 +393,7 @@ At this point: $\dfrac{1}{2}mv^2 = mgr(1-\cos\theta) = mg(1.5)(1/3) = 0.5mg$.
 $v = \sqrt{g} \approx 3.13\,\mathrm{m s}^{-1}$.
 
 **If you get this wrong, revise:**
-[Particle on the outside of a sphere](#45-particle-on-the-outside-of-a-sphere) — Section 4.5.
+[Particle on the outside of a sphere](#45-particle-on-the-outside-of-a-sphere), Section 4.5.
 
 </details>
 
@@ -423,7 +423,7 @@ Since $\tan\theta\sin\theta + \cos\theta = \sec\theta$:
 
 $5484 + F\sec 25° = 7776 \implies F \times 1.1034 = 2292 \implies F \approx 2077\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Banked tracks](#32-banked-tracks) — Section 3.2.
+**If you get this wrong, revise:** [Banked tracks](#32-banked-tracks), Section 3.2.
 
 </details>
 
@@ -440,7 +440,7 @@ Energy: $\dfrac{1}{2}mv_b^2 = mg(2r) \implies v_b = \sqrt{4gr} = 2\sqrt{gr}$.
 
 This is less than $\sqrt{5gr}$ (the string case) because the rod can push as well as pull.
 
-**If you get this wrong, revise:** [Energy approach](#43-energy-approach) — Section 4.3.
+**If you get this wrong, revise:** [Energy approach](#43-energy-approach), Section 4.3.
 
 </details>
 
@@ -460,7 +460,7 @@ $\alpha \approx 6.6^\circ$.
 
 $r = L\sin\alpha = 1 \times \sin 6.6° \approx 0.115\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Conical pendulum](#31-conical-pendulum) — Section 3.1.
+**If you get this wrong, revise:** [Conical pendulum](#31-conical-pendulum), Section 3.1.
 
 </details>
 
@@ -485,14 +485,14 @@ $R = \dfrac{mv^2}{r} = \dfrac{0.1 \times 6.2}{0.5} = 1.24\,\mathrm{N}$.
 Note: the weight is perpendicular to the radius at this point, so it does not contribute to the
 Centripetal force.
 
-**If you get this wrong, revise:** [Motion in Vertical Circles](#4-motion-in-vertical-circles) —
+**If you get this wrong, revise:** [Motion in Vertical Circles](#4-motion-in-vertical-circles),
 Section 4.
 
 </details>
 
 <hr />
 
-## 6. Vertical Circles: Energy Method — Full Derivation
+## 6. Vertical Circles: Energy Method, Full Derivation
 
 ### 6.1 Speed at any point on a vertical circle
 
@@ -634,7 +634,7 @@ $$\boxed{T_{\mathrm{period}} = \frac{2\pi}{\omega} = 2\pi\sqrt{\frac{L\cos\alpha
 
 Key observations:
 
-- The period depends only on $L$, $\alpha$ And $g$ — it is independent of mass
+- The period depends only on $L$, $\alpha$ And $g$, it is independent of mass
 - As $\alpha \to 0$The period approaches $2\pi\sqrt{L/g}$ (simple pendulum for small angles)
 - As $\alpha \to 90^\circ$The period $\to 0$ (impractical: requires infinite speed)
 - A larger angle $\alpha$ means a faster rotation (shorter period)
@@ -882,7 +882,7 @@ $$\cos\theta = \frac{g}{\omega^2 L} = \frac{9.8}{16} = 0.6125$$
 
 $$\boxed{\theta \approx 52.2°}$$
 
-### Example 8.2: Car on a banked curve — maximum speed formula
+### Example 8.2: Car on a banked curve, maximum speed formula
 
 **Problem.** A car of mass $m$ travels around a banked curve of radius $r$ at banking angle $\alpha$
 With friction coefficient $\mu$. Find the maximum safe speed.
@@ -898,7 +898,7 @@ $$v^2\!\left(\frac{\cos\alpha}{r} - \frac{\mu\sin\alpha}{r}\right) = g(\sin\alph
 
 $$\boxed{v_{\max}^2 = \frac{rg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}}$$
 
-### Example 8.3: Vertical circle — minimum speed at the top (rod)
+### Example 8.3: Vertical circle, minimum speed at the top (rod)
 
 **Problem.** A particle of mass $m$ is attached to a light rod of length $l$ and rotates in a
 Vertical circle. Find the minimum angular speed for complete circles.

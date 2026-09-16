@@ -31,7 +31,7 @@ There are two key variants:
   parent repo records "added subtree at commit X" as one commit. This keeps the parent history clean
   but loses the upstream's individual commit history.
 - **Without `--squash`**: Replays every upstream commit into the parent repository. The full history
-  is interleaved — parent commits and subtree commits are mixed together in the log. This preserves
+  is interleaved, parent commits and subtree commits are mixed together in the log. This preserves
   provenance but pollutes the parent's history.
 
 Subtrees are implemented as a set of Git commands built on top of `git merge` and `git read-tree`.
@@ -93,7 +93,7 @@ Date:   Mon Jun 2 10:00:00 2025 +0000
 ```
 
 With `--squash`The framework creates a single merge commit whose tree contains the subtree files.
-The synthetic commit message records the upstream commit SHA that was squashed. This is critical —
+The synthetic commit message records the upstream commit SHA that was squashed. This is critical,
 It is the bookmark that `git subtree pull` uses to find the starting point for the next pull.
 
 ### With Full History
@@ -237,7 +237,7 @@ Internally, `git subtree push`:
 ### Prerequisites for Pushing
 
 You must have push access to the upstream repository. If you do not, the push will fail with a
-Permission error. This is by design — subtrees assume a trust relationship between the parent and
+Permission error. This is by design, subtrees assume a trust relationship between the parent and
 Upstream repositories.
 
 ### What Gets Pushed
@@ -276,28 +276,28 @@ History instead.
 | **Complexity**           | High (two repos, two sets of commands, `.gitmodules`)         | Lower (single repo, single set of commands)               |
 | **CI/CD**                | Must run `git submodule update --init --recursive`            | No special CI handling needed                             |
 | **Offline work**         | Cannot update submodules without network                      | Already have all files; can work offline                  |
-| **Contributor friction** | High — new contributors forget submodule init                 | Low — clone and go                                        |
+| **Contributor friction** | High, new contributors forget submodule init                 | Low, clone and go                                        |
 | **Removing**             | `git rm` + `git submodule deinit` + clean `.git/modules`      | `git rm -rf <prefix>` + `git remote rm`                   |
 | **Best for**             | Large, independently-developed dependencies                   | Vendor libraries, shared code, small dependencies         |
 
 ### When to Use Subtrees
 
-- **Vendor dependencies** — embedding a third-party library whose source you want to modify or
+- **Vendor dependencies**, embedding a third-party library whose source you want to modify or
   audit.
-- **Shared code between projects** — a common library used by multiple internal projects where you
+- **Shared code between projects**, a common library used by multiple internal projects where you
   want to push changes back.
-- **Monorepo migration** — gradually extracting subdirectories into separate repos (or vice versa).
-- **Simplicity** — when you want a single clone, single branch, and no submodule friction.
+- **Monorepo migration**, gradually extracting subdirectories into separate repos (or vice versa).
+- **Simplicity**, when you want a single clone, single branch, and no submodule friction.
 
 ### When to Use Submodules
 
-- **Large dependencies** — when the upstream repository is large and you do not want it in your
+- **Large dependencies**, when the upstream repository is large and you do not want it in your
   repo's object database.
-- **Independent development** — when the upstream is actively developed by a separate team and you
+- **Independent development**, when the upstream is actively developed by a separate team and you
   want to track specific commits without merging their entire history.
-- **Multiple consumers** — when many projects depend on the same upstream and you want to update
+- **Multiple consumers**, when many projects depend on the same upstream and you want to update
   them independently.
-- **Sparse checkout** — when you only need a subset of the upstream's files.
+- **Sparse checkout**, when you only need a subset of the upstream's files.
 
 ## Extracting a Subdirectory
 
@@ -391,7 +391,7 @@ $ git gc --prune=now
 If you want to remove the subtree tracking but keep the files:
 
 ```bash
-# The files are already regular files — just leave them.
+# The files are already regular files, just leave them.
 # Remove the remote reference:
 $ git remote rm lib-upstream
 # The files in vendor/lib/ remain as normal tracked files.
@@ -510,14 +510,14 @@ Significant pain later.
 
 **Recommendation**: Use `--squash` for one-way dependencies (you pull from upstream but never push
 Back). Use full history for bidirectional workflows (you both pull and push). This decision should
-Be made at the time of `git subtree add` and must remain consistent — mixing squashed and
+Be made at the time of `git subtree add` and must remain consistent, mixing squashed and
 Non-squashed operations on the same subtree leads to conflicts.
 
 ### Merge Conflicts on Pull
 
 If you modified files in the subtree directory and the upstream also modified those same files,
 `git subtree pull` produces merge conflicts. The conflict resolution is a standard Git merge
-Conflict — edit the files, stage them, commit. But the experience is worse than a normal merge
+Conflict, edit the files, stage them, commit. But the experience is worse than a normal merge
 Because:
 
 - The conflict markers appear in files you may not fully understand (they are upstream code).
@@ -530,7 +530,7 @@ Because:
 
 Every file in the subtree is stored in the parent repository's object database. If the upstream
 Repository is large (hundreds of megabytes of source, binary assets, or large history), your parent
-Repository grows by the same amount. This is unavoidable — it is the cost of embedding the files.
+Repository grows by the same amount. This is unavoidable, it is the cost of embedding the files.
 
 Mitigate by:
 
@@ -541,7 +541,7 @@ Mitigate by:
 ### Forgetting the Remote URL
 
 The `git subtree pull` and `git subtree push` commands require the repository URL every time. If you
-Do not add a named remote, you must type the full URL on every command — and it must match exactly
+Do not add a named remote, you must type the full URL on every command, and it must match exactly
 What you used for `git subtree add`:
 
 ```bash
@@ -559,7 +559,7 @@ $ git subtree pull --prefix=vendor/lib --squash lib-upstream main
 ### `git subtree split` Performance
 
 `git subtree split` replays every commit in the repository's history that touched the prefix. On a
-Repository with 100,000 commits, this can take 10+ minutes. There is no way to speed this up — it is
+Repository with 100,000 commits, this can take 10+ minutes. There is no way to speed this up, it is
 An inherent limitation of the algorithm. If you need to split frequently, consider using
 `git filter-repo` instead, which is significantly faster.
 
@@ -568,7 +568,7 @@ An inherent limitation of the algorithm. If you need to split frequently, consid
 If two parent repositories both use subtrees pointing to the same upstream, and both push changes,
 The upstream will have conflicting histories. Git cannot resolve this automatically. The second push
 Will fail with a non-fast-forward error, and the pusher must pull, resolve conflicts, and push
-Again. This is fundamentally a coordination problem — subtrees assume a single source of truth for
+Again. This is fundamentally a coordination problem, subtrees assume a single source of truth for
 The upstream.
 
 ### Deleting and Re-adding a Subtree
@@ -582,7 +582,7 @@ Want.
 
 `git subtree add``pull`And `push` all involve `git fetch``git read-tree`And `git merge`. For Large
 subtrees (thousands of files), these operations can be slow. The framework does not support Partial
-subtree operations — you always operate on the entire prefix. If performance is a concern And the
+subtree operations, you always operate on the entire prefix. If performance is a concern And the
 upstream is large, submodules may be a better choice.
 
 ### No Automatic Tracking

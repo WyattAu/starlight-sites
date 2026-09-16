@@ -324,7 +324,7 @@ Degrades to O(n) in the worst case if all elements hash to the same bucket.
 `LinkedHashSet<E>` extends `HashSet` but overrides the constructor to create a `LinkedHashMap`
 Instead of a `HashMap`. It maintains a doubly-linked list running through all of its entries, which
 Defines the **insertion order**. Unlike `LinkedHashMap``LinkedHashSet` does not support Access-order
-mode — iteration order always matches insertion order. This is the primary reason to Choose
+mode, iteration order always matches insertion order. This is the primary reason to Choose
 `LinkedHashSet` over `HashSet`.
 
 ```java

@@ -391,10 +391,10 @@ Delocalization energy: $2\beta$.
 
 ### 11.1 Basis Sets
 
-- **Minimal basis:** STO-3G — each orbital represented by 3 Gaussian functions.
-- **Split-valence:** 3-21G, 6-31G — valence orbitals split into multiple functions.
-- **Polarization:** 6-31G*, 6-31G** — add $d$ functions on heavy atoms, $p$ on H.
-- **Diffuse:** 6-31+G* — add diffuse functions for anions and excited states.
+- **Minimal basis:** STO-3G, each orbital represented by 3 Gaussian functions.
+- **Split-valence:** 3-21G, 6-31G, valence orbitals split into multiple functions.
+- **Polarization:** 6-31G*, 6-31G**, add $d$ functions on heavy atoms, $p$ on H.
+- **Diffuse:** 6-31+G*, add diffuse functions for anions and excited states.
 
 ### 11.2 Post-Hartree-Fock Methods
 
@@ -516,7 +516,7 @@ Quantum chemistry reveals that electrons do not orbit nuclei like planets around
 | Statistical Mechanics    | WyattsNotes | [View](statistical-mechanics)             |
 | Spectroscopy (Organic)   | WyattsNotes | [View](../2-organic-chemistry/spectroscopy)                       |
 | Quantum Mechanics        | WyattsNotes | [View](../../../../../physics/src/content/docs/5-quantum-mechanics/16_flashcards-quantum-mechanics)                    |
-| Quantum Chemistry — MIT 5.61 | MIT OCW | [View](https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2013/) |
+| Quantum Chemistry, MIT 5.61 | MIT OCW | [View](https://ocw.mit.edu/courses/5-61-physical-chemistry-fall-2013/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

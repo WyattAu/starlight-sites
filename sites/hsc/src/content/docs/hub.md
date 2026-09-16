@@ -1,6 +1,6 @@
 ---
-title: "Complete HSC Study Guide — Physics and Maths"
-description: "Study notes for Complete HSC Study Guide — Physics and Maths with worked examples, practice problems, and key concepts for exam preparation."
+title: "Complete HSC Study Guide, Physics and Maths"
+description: "Study notes for Complete HSC Study Guide, Physics and Maths with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - hsc
@@ -53,9 +53,9 @@ flowchart TD
 
 ## Why This Guide Exists
 
-The Higher School Certificate (HSC) is the qualification earned by students in New South Wales, Australia, upon completing secondary school. The HSC is administered by NESA (NSW Education Standards Authority) and is the primary pathway to university admissions in Australia. Physics and Mathematics are among the most challenging and high-value HSC subjects — they develop analytical thinking, problem-solving skills, and the quantitative foundation for university STEM courses.
+The Higher School Certificate (HSC) is the qualification earned by students in New South Wales, Australia, upon completing secondary school. The HSC is administered by NESA (NSW Education Standards Authority) and is the primary pathway to university admissions in Australia. Physics and Mathematics are among the most challenging and high-value HSC subjects, they develop analytical thinking, problem-solving skills, and the quantitative foundation for university STEM courses.
 
-This hub page maps every resource on this site — organised by subject, with study plans and exam strategies tailored to the HSC assessment approach. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
+This hub page maps every resource on this site, organised by subject, with study plans and exam strategies tailored to the HSC assessment approach. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
 
 ## Table of Contents
 
@@ -73,9 +73,9 @@ HSC Physics covers mechanics, electricity and magnetism, waves and light, the un
 
 ### Topic Notes
 
-- [Physics Overview](physics) — course structure, syllabus topics, and assessment format
-- [Mechanics](physics/mechanics) — motion, forces, energy, momentum, and circular motion
-- [Waves](physics/waves) — wave properties, sound, electromagnetic waves, and diffraction
+- [Physics Overview](physics), course structure, syllabus topics, and assessment format
+- [Mechanics](physics/mechanics), motion, forces, energy, momentum, and circular motion
+- [Waves](physics/waves), wave properties, sound, electromagnetic waves, and diffraction
 
 ### Practice and Review
 
@@ -84,17 +84,17 @@ HSC Physics covers mechanics, electricity and magnetism, waves and light, the un
 
 ### Key Exam Focus
 
-HSC Physics requires you to explain, predict, and analyse physical phenomena. The exam includes short-answer questions, extended-response questions, and data analysis. Practise explaining concepts clearly in writing — the exam rewards well-structured explanations supported by calculations and diagrams.
+HSC Physics requires you to explain, predict, and analyse physical phenomena. The exam includes short-answer questions, extended-response questions, and data analysis. Practise explaining concepts clearly in writing, the exam rewards well-structured explanations supported by calculations and diagrams.
 
-The exam is divided into a first paper (typically 1.5 hours) covering all topics and a second paper that may include additional depth. You must manage your time carefully — allocate roughly 1 minute per mark and move on if a question is stalling you.
+The exam is divided into a first paper (typically 1.5 hours) covering all topics and a second paper that may include additional depth. You must manage your time carefully, allocate roughly 1 minute per mark and move on if a question is stalling you.
 
-**The "In-depth Investigation"** (major work) is a significant component of your HSC mark. Plan it carefully — choose a topic that allows genuine investigation with measurable outcomes. Start early, document everything, and ensure your conclusion directly addresses your hypothesis.
+**The "In-depth Investigation"** (major work) is a significant component of your HSC mark. Plan it carefully, choose a topic that allows genuine investigation with measurable outcomes. Start early, document everything, and ensure your conclusion directly addresses your hypothesis.
 
 ### Topic Breakdown
 
-**Mechanics** is the foundation of HSC Physics. You must understand Newton's laws, projectile motion, momentum conservation, and energy transformations. The exam frequently combines mechanics concepts — for example, a projectile problem that also involves energy conservation and circular motion. Practise drawing free-body diagrams and applying Newton's second law to objects on inclined planes, in circular motion, and in collision scenarios.
+**Mechanics** is the foundation of HSC Physics. You must understand Newton's laws, projectile motion, momentum conservation, and energy transformations. The exam frequently combines mechanics concepts, for example, a projectile problem that also involves energy conservation and circular motion. Practise drawing free-body diagrams and applying Newton's second law to objects on inclined planes, in circular motion, and in collision scenarios.
 
-**Electricity and Magnetism** covers electric fields, magnetic fields, electromagnetic induction, and generators. Understanding the relationship between electricity and magnetism — Faraday's law, Lenz's law, and motor/generator principles — is essential. You should be able to predict the direction of induced current and calculate induced EMF using Faraday's law.
+**Electricity and Magnetism** covers electric fields, magnetic fields, electromagnetic induction, and generators. Understanding the relationship between electricity and magnetism, Faraday's law, Lenz's law, and motor/generator principles, is essential. You should be able to predict the direction of induced current and calculate induced EMF using Faraday's law.
 
 **Waves and Light** includes mechanical waves, electromagnetic spectrum, reflection, refraction, diffraction, and interference. The HSC tests both the physics of waves and their practical applications. Practise solving problems involving Snell's law, diffraction gratings, and double-slit interference. Understanding the relationship between wavelength, frequency, and wave speed is fundamental.
 
@@ -108,20 +108,20 @@ HSC Mathematics is available in three levels: General Mathematics, Mathematics (
 
 ### Topic Notes
 
-- [Mathematics Overview](mathematics) — course structure, syllabus topics, and assessment format
-- [Algebra](mathematics/algebra) — algebraic manipulation, functions, and equations
-- [Calculus](mathematics/calculus) — differentiation, integration, and applications
+- [Mathematics Overview](mathematics), course structure, syllabus topics, and assessment format
+- [Algebra](mathematics/algebra), algebraic manipulation, functions, and equations
+- [Calculus](mathematics/calculus), differentiation, integration, and applications
 
 ### Practice and Review
 
 - [Practice Questions: Mathematics](practice-mathematics)
-- [Diagnostic Quizzes](mathematics) — test across all maths topics
+- [Diagnostic Quizzes](mathematics), test across all maths topics
 
 ### Key Exam Focus
 
-HSC Mathematics rewards clear, structured working. Show every step of your solution — markers award marks for correct method even when the final answer is wrong. The exam includes both short-answer and extended-response questions.
+HSC Mathematics rewards clear, structured working. Show every step of your solution, markers award marks for correct method even when the final answer is wrong. The exam includes both short-answer and extended-response questions.
 
-The exam typically consists of a 2-hour paper for Standard and Advanced levels. You must manage your time carefully — allocate time proportional to marks and do not spend too long on any single question. Read each question carefully to ensure you are answering what is actually asked.
+The exam typically consists of a 2-hour paper for Standard and Advanced levels. You must manage your time carefully, allocate time proportional to marks and do not spend too long on any single question. Read each question carefully to ensure you are answering what is actually asked.
 
 ### Mathematics Levels
 
@@ -129,7 +129,7 @@ The exam typically consists of a 2-hour paper for Standard and Advanced levels. 
 
 **Mathematics (Standard 2)** covers algebra, measurement, financial modelling, statistical analysis, and networks. It is suitable for students planning university courses that require some mathematical background. Standard 2 provides a solid foundation without the demands of calculus.
 
-**Mathematics (Advanced)** covers functions, calculus, financial modelling, statistical analysis, and networks. It is the prerequisite for Mathematics Extension 1 and is designed for students planning STEM university courses. Calculus — differentiation and integration — forms a major component of the Advanced course.
+**Mathematics (Advanced)** covers functions, calculus, financial modelling, statistical analysis, and networks. It is the prerequisite for Mathematics Extension 1 and is designed for students planning STEM university courses. Calculus, differentiation and integration, forms a major component of the Advanced course.
 
 ### Mathematics Extension 1
 
@@ -158,27 +158,27 @@ Preparing for the HSC requires sustained effort across your subject selections. 
 
 - Revisit weak areas identified by diagnostic quizzes
 - Begin practice questions under timed conditions
-- Work through past HSC papers — they reveal the exam's style and marking criteria
+- Work through past HSC papers, they reveal the exam's style and marking criteria
 - Practise extended-response questions for Physics
-- For Mathematics, focus on calculus and algebra — they carry the most marks
+- For Mathematics, focus on calculus and algebra, they carry the most marks
 - Analyse NESA marking criteria to understand what markers reward
 
 ### Phase 3: Exam Readiness (Months 11–12)
 
 - Focus almost entirely on practice questions and past papers
-- Study NESA marking criteria — they show exactly what markers look for
+- Study NESA marking criteria, they show exactly what markers look for
 - Do full-length timed papers under real conditions
 - Revise formulas and key concepts daily
-- Practise explaining Physics concepts in writing — clarity is rewarded
+- Practise explaining Physics concepts in writing, clarity is rewarded
 - Reserve the last two weeks for light revision and rest
 
 ### Daily Routine
 
 | Time | Activity |
 | ------ | ---------- |
-| Morning | Active recall — flashcards and formula review for 20 minutes |
-| Afternoon | Topic study — read notes on one new topic |
-| Evening | Practice — complete 5–10 practice questions |
+| Morning | Active recall, flashcards and formula review for 20 minutes |
+| Afternoon | Topic study, read notes on one new topic |
+| Evening | Practice, complete 5–10 practice questions |
 | Weekend | Diagnostic quiz + review weak areas |
 
 ---
@@ -187,10 +187,10 @@ Preparing for the HSC requires sustained effort across your subject selections. 
 
 Wyatt's Notes is a network of interconnected study sites. The HSC content connects to related material:
 
-- **[IB Study Guide](https://ib.wyattau.com/hub)** — the International Baccalaureate as an alternative qualification
-- **[AP Study Guide](https://ap.wyattau.com/hub)** — Advanced Placement courses as an alternative pathway
-- **[University Physics](https://physics.wyattau.com/hub)** — deeper coverage beyond HSC level
-- **[University Mathematics](https://mathematics.wyattau.com/hub)** — proof-based mathematics beyond HSC level
+- **[IB Study Guide](https://ib.wyattau.com/hub)**, the International Baccalaureate as an alternative qualification
+- **[AP Study Guide](https://ap.wyattau.com/hub)**, Advanced Placement courses as an alternative pathway
+- **[University Physics](https://physics.wyattau.com/hub)**, deeper coverage beyond HSC level
+- **[University Mathematics](https://mathematics.wyattau.com/hub)**, proof-based mathematics beyond HSC level
 
 ---
 
@@ -218,7 +218,7 @@ The HSC is specific to New South Wales. Other states have their own qualificatio
 
 ### How should I prepare for the Physics major work?
 
-Start early — the major work is a long-term project. Choose a topic that genuinely interests you and allows measurable investigation. Follow the NESA guidelines carefully and seek feedback from your teacher throughout the process. Keep a detailed logbook — it is assessed alongside your final report.
+Start early, the major work is a long-term project. Choose a topic that genuinely interests you and allows measurable investigation. Follow the NESA guidelines carefully and seek feedback from your teacher throughout the process. Keep a detailed logbook, it is assessed alongside your final report.
 
 ### What is the ATAR and how does it affect my university options?
 
@@ -226,7 +226,7 @@ The ATAR (Australian Tertiary Admission Rank) is a rank from 0 to 99.95 that det
 
 ### Does HSC Physics scale well for ATAR?
 
-Physics is generally considered a moderately scaling subject — it may be scaled up slightly depending on the difficulty of the exam. However, choose subjects based on your strengths and interests, not just scaling. A strong mark in a subject you enjoy will always outperform a mediocre mark in a scaled subject.
+Physics is generally considered a moderately scaling subject, it may be scaled up slightly depending on the difficulty of the exam. However, choose subjects based on your strengths and interests, not just scaling. A strong mark in a subject you enjoy will always outperform a mediocre mark in a scaled subject.
 
 ---
 

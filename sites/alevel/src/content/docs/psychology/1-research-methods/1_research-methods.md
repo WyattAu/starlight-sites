@@ -75,7 +75,7 @@ impossible. The IV is not manipulated by the researcher.
 | Systematic                | Every nth member of the target population is selected                     | Simple, objective                          | The list may have a hidden pattern that introduces bias                       |
 | Stratified                | Population divided into subgroups; proportional random sampling from each | Highly representative                      | Time-consuming; must know population proportions                              |
 | Opportunity               | Selecting whoever is available at the time                                | Quick, convenient                          | Biased towards certain types of people (e.g., students)                       |
-| Volunteer (self-selected) | Participants put themselves forward (e.g., advert)                        | Willing participants; less ethical concern | Volunteer bias — certain personality types more likely to volunteer           |
+| Volunteer (self-selected) | Participants put themselves forward (e.g., advert)                        | Willing participants; less ethical concern | Volunteer bias, certain personality types more likely to volunteer           |
 
 ### Ethics
 
@@ -127,8 +127,8 @@ The choice of statistical test depends on three factors:
 | Related t-test   | Difference               | Interval   | Related   |
 | Unrelated t-test | Difference               | Interval   | Unrelated |
 | Chi-squared      | Difference / association | Nominal    | Unrelated |
-| Spearman"s rho   | Correlation              | Ordinal    | —         |
-| Pearson's r      | Correlation              | Interval   | —         |
+| Spearman"s rho   | Correlation              | Ordinal    |,         |
+| Pearson's r      | Correlation              | Interval   |,         |
 
 **Significance:** If the calculated value is equal to or more extreme than the critical value (at p
 ≤ 0.05), the result is statistically significant and the null hypothesis can be rejected. The 0.05
@@ -224,7 +224,7 @@ process; reviewer bias (institutional loyalty, gender bias).
 | Study                          | Researcher(s) | Year | Method                         | Key Findings                                                                         | Evaluation                                                                       |
 | ------------------------------ | ------------- | ---- | ------------------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | On being sane in insane places | Rosenhan      | 1973 | Covert participant observation | Pseudopatients were not detected by staff; labels persisted despite normal behaviour | High ecological validity; ethical concerns (deception); limited generalisability |
-| The halo effect                | Thorndike     | 1920 | Correlational study            | Ratings of one positive trait correlated with ratings of unrelated traits            | Demonstrated cognitive bias; correlational — no causation                        |
+| The halo effect                | Thorndike     | 1920 | Correlational study            | Ratings of one positive trait correlated with ratings of unrelated traits            | Demonstrated cognitive bias; correlational, no causation                        |
 | Strange Situation              | Ainsworth     | 1978 | Controlled observation         | Identified three attachment types (secure, insecure-avoidant, insecure-resistant)    | High reliability; culturally biased; limited ecological validity                 |
 
 ## Key Terminology
@@ -356,7 +356,7 @@ findings.
 However, laboratory experiments are frequently criticised for their low ecological validity. The
 artificial setting may not reflect real-life behaviour, meaning findings cannot be generalised
 beyond the laboratory. Orne (1962) argued that participants in lab experiments are aware they are
-being studied and may respond to demand characteristics — cues that allow them to guess the study's
+being studied and may respond to demand characteristics, cues that allow them to guess the study's
 aims and behave accordingly. For instance, in Milgram's original study, participants may have
 continued administering shocks because they guessed (correctly) that no real harm was being done,
 rather than because of genuine obedience to authority.
@@ -403,13 +403,13 @@ However, the most significant limitation of correlations is that they cannot est
 Even a strong correlation between two variables does not mean one causes the other. There may be a
 third, unmeasured variable (a confounding variable) that influences both. For example, a correlation
 between ice cream sales and drowning incidents does not mean ice cream causes drowning; both are
-influenced by a third variable — hot weather. This is known as the "third variable problem" and is a
+influenced by a third variable, hot weather. This is known as the "third variable problem" and is a
 fundamental limitation of correlational research.
 
 A related issue is the directionality problem. Even if a causal relationship exists, correlations
 cannot determine which variable causes which. For instance, a correlation between self-esteem and
 academic achievement does not reveal whether high self-esteem leads to better grades or whether
-achieving good grades boosts self-esteem — or both.
+achieving good grades boosts self-esteem, or both.
 
 Furthermore, correlations can be misleading when presented without appropriate context. A
 statistically significant correlation may be weak (e.g., r = 0.15) and of limited practical

@@ -244,25 +244,25 @@ red-red violation).
 
 Insert 18: Right child of 7, coloured red. $T = [3(R) \leftarrow 7(B) \rightarrow 18(R)]$. Valid.
 
-Insert 10: Insert as left child of 18, coloured red. Now 18 has red child 10. Uncle of 10 is 3(R) —
+Insert 10: Insert as left child of 18, coloured red. Now 18 has red child 10. Uncle of 10 is 3(R),
 **Case 1 (uncle is red)**: recolour uncle 3 black, parent 18 black, grandparent 7 red. Grandparent 7
 is root, so recolour 7 black.
 
 Result: $T = [3(B) \leftarrow 7(B) \rightarrow 18(B)]$ with $10(R)$ under $18$.
 
-Insert 22: Right child of 18, coloured red. Uncle of 22 is 10(R) — Case 1 again: recolour 10 black,
+Insert 22: Right child of 18, coloured red. Uncle of 22 is 10(R), Case 1 again: recolour 10 black,
 22 black, 18 red. Parent 18 is not root, grandparent is 7(B). Now 7 has right child 18(R). Check 7's
 left child: 3(B). No violation.
 
-Insert 8: Left child of 10, coloured red. Uncle of 8 is 22(R) — Case 1: recolour 8 black, 22 black,
+Insert 8: Left child of 10, coloured red. Uncle of 8 is 22(R), Case 1: recolour 8 black, 22 black,
 10 red. Now 10(R) is left child of 18(B). Check grandparent 7: right child 18(B) with left child
 10(R). No red-red violation.
 
-Insert 11: Right child of 10, coloured red. Now 10(R) has both children red — wait, 10 is red and 11
-is red: **violation**. Uncle of 11 is 8(R) — Case 1: recolour 8 black, 11 black, 10 red. Grandparent
+Insert 11: Right child of 10, coloured red. Now 10(R) has both children red, wait, 10 is red and 11
+is red: **violation**. Uncle of 11 is 8(R), Case 1: recolour 8 black, 11 black, 10 red. Grandparent
 18(B): 10(R) is left child, 22(B) is right child. No violation.
 
-Insert 26: Right child of 22, coloured red. Uncle of 26 is 10(R) — Case 1: recolour 10 black, 26
+Insert 26: Right child of 22, coloured red. Uncle of 26 is 10(R), Case 1: recolour 10 black, 26
 black, 22 red. Now 22(R) is right child of 18(B). Check left child of 18: 10(B). Valid.
 
 </details>
@@ -307,10 +307,10 @@ Level 0:  [HEAD] -> [7] -> [12] -> [19] -> [25] -> [31] -> [42]
 Search starts at HEAD, level 3:
 
 - Move right to 31. $31 > 25$Drop to level 2.
-- At level 2, move right to 12. $12 \leq 25$Move right — next is NIL. Drop to level 1.
+- At level 2, move right to 12. $12 \leq 25$Move right, next is NIL. Drop to level 1.
 - At level 1, move right to 19. $19 \leq 25$Move right to 25. $25 = 25$. Found!
 
-The search examined keys 31, 12, 19, 25 — 4 comparisons across 3 levels.
+The search examined keys 31, 12, 19, 25 to 4 comparisons across 3 levels.
 
 </details>
 

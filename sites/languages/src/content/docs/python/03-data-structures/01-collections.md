@@ -180,7 +180,7 @@ lst[-5:-2]     # [5, 6, 7]
 
 # Slice assignment (modifies in place)
 lst[2:5] = [20, 30, 40]  # [0, 1, 20, 30, 40, 5, 6, 7, 8, 9]
-lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20, ...]
+lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20...]
 del lst[2:4]              # delete slice
 ```
 
@@ -420,7 +420,7 @@ values = d.values()
 items = d.items()
 
 print("a" in keys)    # True (O(1) -- checks the dict, not the view)
-print((1,) in values) # True (Python 3.10+)
+print((1) in values) # True (Python 3.10+)
 print(("b", 2) in items)  # True
 
 # Views reflect mutations
@@ -932,7 +932,7 @@ while tasks:
 # Handling ties with a tiebreaker
 import itertools
 
-counter = itertools.count()  # 0, 1, 2, ...
+counter = itertools.count()  # 0, 1, 2...
 tasks = []
 heapq.heappush(tasks, (2, next(counter), "task A"))
 heapq.heappush(tasks, (2, next(counter), "task B"))
@@ -1032,7 +1032,7 @@ graph TD
 
 ## Intuition
 
-A list in Python is not an array — it is an array of pointers, each pointing to a separate object on the heap. This is why a list can hold anything: it holds references, not values. Appending is amortized O(1) because Python pre-allocates extra space, like a restaurant keeping empty tables ready for walk-ins. When the restaurant fills up, it moves to a bigger building — that is the resize. A dictionary is a hash table: it hashes the key, looks up a slot, and finds the value in constant time. A set is a dictionary without values — it only cares whether something is present. A deque is a linked list of blocks that lets you add or remove from both ends in constant time, unlike a list which must shift everything when you pop from the front.
+A list in Python is not an array, it is an array of pointers, each pointing to a separate object on the heap. This is why a list can hold anything: it holds references, not values. Appending is amortized O(1) because Python pre-allocates extra space, like a restaurant keeping empty tables ready for walk-ins. When the restaurant fills up, it moves to a bigger building, that is the resize. A dictionary is a hash table: it hashes the key, looks up a slot, and finds the value in constant time. A set is a dictionary without values, it only cares whether something is present. A deque is a linked list of blocks that lets you add or remove from both ends in constant time, unlike a list which must shift everything when you pop from the front.
 
 ## Common Pitfalls
 
@@ -1060,8 +1060,8 @@ linked above.
 
 ## Cross-References
 
-- [Dicts, Sets, and Collections Deep Dive](02-dicts-sets-counter) — Dictionaries and sets share the same hash table internals as the collections covered here.
-- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables) — Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow) — List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
-- [Python Internals](../02-fundamentals/05-python-internals) — CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
+- [Dicts, Sets, and Collections Deep Dive](02-dicts-sets-counter), Dictionaries and sets share the same hash table internals as the collections covered here.
+- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables), Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
+- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
+- [Python Internals](../02-fundamentals/05-python-internals), CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
 :::

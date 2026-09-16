@@ -747,7 +747,7 @@ void print(auto&& value) {
 }
 
 void print_all(const auto&... args) {
-    (print(args), ...);
+    (print(args)...);
 }
 
 int main() {
@@ -839,7 +839,7 @@ Constrained overload during overload resolution.
 
 ## Intuition
 
-Concepts are like ingredient lists for recipes — they define what a type must be able to do before it can be used in a function template. Without concepts, a template accepts any type and only fails when the body tries an unsupported operation, producing cryptic error messages. With concepts, the constraint is stated upfront, like a bouncer checking IDs at the door. A requires expression asks "can this type do X?" and returns true or false at compile time. This transforms templates from "anything goes" to "you must meet these conditions," making code self-documenting and errors clear.
+Concepts are like ingredient lists for recipes, they define what a type must be able to do before it can be used in a function template. Without concepts, a template accepts any type and only fails when the body tries an unsupported operation, producing cryptic error messages. With concepts, the constraint is stated upfront, like a bouncer checking IDs at the door. A requires expression asks "can this type do X?" and returns true or false at compile time. This transforms templates from "anything goes" to "you must meet these conditions," making code self-documenting and errors clear.
 
 ## Common Pitfalls
 

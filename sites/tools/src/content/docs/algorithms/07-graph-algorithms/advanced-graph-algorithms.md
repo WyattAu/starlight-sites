@@ -17,11 +17,11 @@ description: "Algorithms Advanced Graph Algorithms notes covering key definition
 
 ## Intuition
 
-**Finding pockets of mutual reachability:** Strongly connected components are like friend groups where everyone knows everyone — within an SCC, you can reach any node from any other node. Condensing SCCs into single nodes reveals the DAG structure of the graph.
+**Finding pockets of mutual reachability:** Strongly connected components are like friend groups where everyone knows everyone, within an SCC, you can reach any node from any other node. Condensing SCCs into single nodes reveals the DAG structure of the graph.
 
-**Why it matters:** SCCs are fundamental to understanding graph structure — they identify cyclic dependencies in build systems, strongly connected regions in social networks, and mutually reachable states in automata.
+**Why it matters:** SCCs are fundamental to understanding graph structure, they identify cyclic dependencies in build systems, strongly connected regions in social networks, and mutually reachable states in automata.
 
-**The key insight:** Kosaraju algorithm uses two DFS passes — the first determines the order to process nodes, the second finds SCCs on the transposed graph. This elegant two-pass approach runs in O(V+E) time.
+**The key insight:** Kosaraju algorithm uses two DFS passes, the first determines the order to process nodes, the second finds SCCs on the transposed graph. This elegant two-pass approach runs in O(V+E) time.
 
 ## Strongly Connected Components
 
@@ -333,7 +333,7 @@ Augmenting paths in the residual graph and pushes flow along them.
 def ford_fulkerson(n, adj, capacity, source, sink):
     """
     Maximum flow using Ford-Fulkerson with DFS.
-    Time: O(E * max_flow) — can be exponential
+    Time: O(E * max_flow), can be exponential
     Space: O(V + E)
     """
     flow = 0
@@ -867,7 +867,7 @@ Integers.
 ### 4. Dinic's Level Graph Must Be Rebuilt
 
 In Dinic's algorithm, the level graph is built fresh each time BFS fails to find an augmenting path.
-Do not reuse the old level graph — it no longer represents valid augmenting paths in the residual
+Do not reuse the old level graph, it no longer represents valid augmenting paths in the residual
 Graph.
 
 ### 5. Self-Loops in Eulerian Path Problems

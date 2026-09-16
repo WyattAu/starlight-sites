@@ -121,7 +121,7 @@ export const flashcard4 = [
   {
     id: 'hsc-physics-016',
     front: 'Describe magnetic fields: force on a moving charge, and the right-hand rule.',
-    back: 'Force on charge q moving at velocity v in field B: F = qvB sinθ. Maximum force when v ⊥ B, zero when v ∥ B. Direction: use right-hand rule (for positive charge) — fingers point along v, curl towards B, thumb gives force direction. For negative charges, reverse the direction. Units: B in Tesla (T), F in Newtons (N). A charge moving in a uniform magnetic field follows a circular path: qvB = mv²/r → r = mv/(qB). This is the principle behind mass spectrometers.',
+    back: 'Force on charge q moving at velocity v in field B: F = qvB sinθ. Maximum force when v ⊥ B, zero when v ∥ B. Direction: use right-hand rule (for positive charge), fingers point along v, curl towards B, thumb gives force direction. For negative charges, reverse the direction. Units: B in Tesla (T), F in Newtons (N). A charge moving in a uniform magnetic field follows a circular path: qvB = mv²/r → r = mv/(qB). This is the principle behind mass spectrometers.',
     tags: ['magnetic-fields'],
     difficulty: 'hard',
   },
@@ -152,7 +152,7 @@ export const flashcard4 = [
     id: 'hsc-physics-020',
     front:
       'State the mass-energy equivalence equation and calculate the energy released in a nuclear reaction.',
-    back: 'E = mc² (Einstein). Energy released = (mass before − mass after) × c². Units: mass in kg, c = 3 × 10⁸ m/s → E in joules. Or: use atomic mass units (u), where 1 u = 1.66 × 10⁻²⁷ kg, and 1 u × c² ≈ 931.5 MeV. Example: U-235 fission releases ≈ 200 MeV per nucleus. In comparison, chemical reactions release ≈ eV per molecule — nuclear reactions are ~10⁶ times more energetic per mass than chemical reactions.',
+    back: 'E = mc² (Einstein). Energy released = (mass before − mass after) × c². Units: mass in kg, c = 3 × 10⁸ m/s → E in joules. Or: use atomic mass units (u), where 1 u = 1.66 × 10⁻²⁷ kg, and 1 u × c² ≈ 931.5 MeV. Example: U-235 fission releases ≈ 200 MeV per nucleus. In comparison, chemical reactions release ≈ eV per molecule, nuclear reactions are ~10⁶ times more energetic per mass than chemical reactions.',
     tags: ['nuclear-physics'],
     difficulty: 'hard',
   },

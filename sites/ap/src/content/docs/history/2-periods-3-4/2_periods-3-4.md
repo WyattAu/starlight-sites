@@ -199,13 +199,13 @@ flowchart TD
 
 ## Intuition
 
-Periods 3-4 (1754-1848) cover the **creation of the American republic** — from the imperial crisis through the Revolution, the Constitution, and the early national period. The central question is: how do you create a stable democratic government from scratch?
+Periods 3-4 (1754-1848) cover the **creation of the American republic**, from the imperial crisis through the Revolution, the Constitution, and the early national period. The central question is: how do you create a stable democratic government from scratch?
 
-**The Revolution as conservative and radical:** The American Revolution was conservative in that it preserved existing social structures and property relations, but radical in its democratic ideals. The tension between these two aspects — egalitarian rhetoric and unequal reality — defines much of early American history.
+**The Revolution as conservative and radical:** The American Revolution was conservative in that it preserved existing social structures and property relations, but radical in its democratic ideals. The tension between these two aspects, egalitarian rhetoric and unequal reality, defines much of early American history.
 
-**The Constitution as a compromise:** The Constitution wasn't a perfect document — it was a series of compromises between large and small states (Great Compromise), between slave and free states (three-fifths clause), and between federal and state power (10th Amendment). Understanding these compromises explains many features of American government today.
+**The Constitution as a compromise:** The Constitution wasn't a perfect document, it was a series of compromises between large and small states (Great Compromise), between slave and free states (three-fifths clause), and between federal and state power (10th Amendment). Understanding these compromises explains many features of American government today.
 
-**The Market Revolution:** The early 1800s saw a transformation from subsistence farming to market-oriented production. This wasn't just economic — it changed family structures, gender roles, class relations, and regional identities. The Market Revolution is the connective tissue between the Jeffersonian and Jacksonian eras.
+**The Market Revolution:** The early 1800s saw a transformation from subsistence farming to market-oriented production. This wasn't just economic, it changed family structures, gender roles, class relations, and regional identities. The Market Revolution is the connective tissue between the Jeffersonian and Jacksonian eras.
 
 ## Common Pitfalls
 

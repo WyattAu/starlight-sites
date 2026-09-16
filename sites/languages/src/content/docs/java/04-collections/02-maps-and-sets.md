@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Maps and Sets"
-description: "maps keys to values. It is not part of the hierarchy — it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can"
+description: "maps keys to values. It is not part of the hierarchy, it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can"
 
 ---
 
@@ -17,7 +17,7 @@ description: "maps keys to values. It is not part of the hierarchy — it models
 
 ## The `Map` Interface
 
-`Map<K,V>` maps keys to values. It is not part of the `Collection` hierarchy — it models a
+`Map<K,V>` maps keys to values. It is not part of the `Collection` hierarchy, it models a
 Fundamentally different abstraction. Each key maps to at most one value, and each key can appear
 Only once.
 
@@ -50,7 +50,7 @@ public interface Map<K, V> {
 ### `HashMap`
 
 The default general-purpose map. Uses an array of buckets (linked lists, converted to balanced trees
-When a bucket exceeds 8 entries — JDK 8+). Provides O(1) average-case for `put``get``remove` And
+When a bucket exceeds 8 entries, JDK 8+). Provides O(1) average-case for `put``get``remove` And
 `containsKey`.
 
 ```java
@@ -93,7 +93,7 @@ insertionOrder.put("A", 1);
 insertionOrder.put("B", 2);
 // Iteration: C, A, B
 
-// Access-order — useful for LRU caches
+// Access-order, useful for LRU caches
 Map<String, Integer> lru = new LinkedHashMap<>(16, 0.75f, true);
 lru.put("A", 1);
 lru.put("B", 2);
@@ -173,7 +173,7 @@ ConcurrentHashMap<String, AtomicInteger> counterMap = new ConcurrentHashMap<>();
 // Atomic compute operations
 counterMap.computeIfAbsent("requests", k -&gt; new AtomicInteger(0)).incrementAndGet();
 
-// merge — atomically combines old and new values
+// merge, atomically combines old and new values
 counterMap.merge("requests", 1, (oldVal, newVal) -&gt; {
     // This lambda is called atomically
     return new AtomicInteger(oldVal.get() + newVal);
@@ -183,11 +183,11 @@ counterMap.merge("requests", 1, (oldVal, newVal) -&gt; {
 ### `Hashtable`
 
 Legacy thread-safe map from JDK 1.0. Uses method-level synchronization (the entire map is locked for
-Every operation). Do not use in new code — `ConcurrentHashMap` provides better concurrency and
+Every operation). Do not use in new code, `ConcurrentHashMap` provides better concurrency and
 `Collections.synchronizedMap` provides the same semantics with less overhead.
 
 ```java
-// LEGACY — do not use
+// LEGACY, do not use
 Hashtable<String, Integer> table = new Hashtable<>();
 
 // MODERN equivalent
@@ -202,25 +202,25 @@ These methods (added in JDK 8) provide atomic compound operations that eliminate
 Race condition:
 
 ```java
-// computeIfAbsent — compute value only if key is absent
+// computeIfAbsent, compute value only if key is absent
 Map<String, List<String&gt;&gt; groups = new HashMap<>();
 groups.computeIfAbsent("team1", k -&gt; new ArrayList&lt;&gt;()).add("Alice");
 groups.computeIfAbsent("team1", k -&gt; new ArrayList&lt;&gt;()).add("Bob");
 // groups: {"team1": ["Alice", "Bob"]}
 
-// computeIfPresent — recompute only if key is present
+// computeIfPresent, recompute only if key is present
 Map<String, Integer> wordCounts = new HashMap<>();
 wordCounts.put("hello", 1);
 wordCounts.computeIfPresent("hello", (k, v) -&gt; v + 1);
 // wordCounts: {"hello": 2}
 
-// compute — compute new value (removes key if result is null)
+// compute, compute new value (removes key if result is null)
 Map<String, String> config = new HashMap<>();
 config.compute("timeout", (k, v) -&gt; v == null ? "30s" : null);
 // If "timeout" was absent, it is now "30s"
 // If "timeout" was present, it is now removed (result is null)
 
-// merge — combine existing value with new value
+// merge, combine existing value with new value
 Map<String, Integer> scores = new HashMap<>();
 scores.put("Alice", 10);
 scores.merge("Alice", 5, Integer::sum); // 15
@@ -239,7 +239,7 @@ map.forEach((key, value) -&gt; System.out.println(key + "=" + value));
 ## The `Set` Interface
 
 `Set<E>` is a collection that cannot contain duplicate elements. It models the mathematical set
-Abstraction. The `Set` interface extends `Collection` and adds no new methods — it only constrains
+Abstraction. The `Set` interface extends `Collection` and adds no new methods, it only constrains
 Behavior: `add` returns `false` if the element already exists.
 
 ## Set Implementations
@@ -393,13 +393,13 @@ A list after using it as a key, the map will no longer find it. Use immutable co
 ### `Objects.hash` and `Arrays.hashCode`
 
 ```java
-// Good — uses Objects.hash for null-safe hashing
+// Good, uses Objects.hash for null-safe hashing
 @Override
 public int hashCode() {
     return Objects.hash(name, age, email);
 }
 
-// For arrays — Arrays.hashCode handles the iteration
+// For arrays, Arrays.hashCode handles the iteration
 @Override
 public int hashCode() {
     return Objects.hash(name, Arrays.hashCode(tags));
@@ -427,7 +427,7 @@ List<Employee> employees = List.of(
     new Employee("Charlie", 85000)
 );
 
-// Natural ordering — sorted by salary
+// Natural ordering, sorted by salary
 employees.stream().sorted().forEach(System.out::println);
 ```
 
@@ -442,7 +442,7 @@ Comparator<Employee> byName = Comparator.comparing(Employee::name);
 // Sort by salary descending
 Comparator<Employee> bySalaryDesc = Comparator.comparingInt(Employee::salary).reversed();
 
-// Chained comparator — sort by department, then by salary descending
+// Chained comparator, sort by department, then by salary descending
 Comparator<Employee> byDeptThenSalary = Comparator
     .comparing(Employee::department)
     .thenComparing(Comparator.comparingInt(Employee::salary).reversed());
@@ -495,7 +495,7 @@ Set<String> immutableSet = Set.copyOf(mutableSet);
 ```
 
 :::caution
-`NullPointerException`. This is by design — nulls in collections are a common source of bugs, and
+`NullPointerException`. This is by design, nulls in collections are a common source of bugs, and
 The immutable factories enforce non-null.
 :::
 ### Unmodifiable Wrappers
@@ -643,18 +643,18 @@ public class TimedCache<K, V> {
 
 ## Intuition
 
-**Key-value stores and unique elements:** Maps are like dictionaries — they map keys to values for fast lookup. Sets are like guest lists — they ensure each element appears only once.
+**Key-value stores and unique elements:** Maps are like dictionaries, they map keys to values for fast lookup. Sets are like guest lists, they ensure each element appears only once.
 
 **Why it matters:** Maps and sets are essential for efficient data retrieval. Understanding their implementations helps you choose the right one for your use case.
 
-**The key insight:** Hash-based implementations offer O(1) lookup, but tree-based implementations keep elements sorted — choose based on your priorities.
+**The key insight:** Hash-based implementations offer O(1) lookup, but tree-based implementations keep elements sorted, choose based on your priorities.
 
 ## Common Pitfalls
 
 ### Modifying a Map While Iterating
 
 ```java
-// BUG — ConcurrentModificationException
+// BUG, ConcurrentModificationException
 Map<String, Integer> map = new HashMap<>();
 map.put("A", 1);
 map.put("B", 2);
@@ -664,7 +664,7 @@ for (String key : map.keySet()) {
     }
 }
 
-// FIX — use Iterator.remove()
+// FIX, use Iterator.remove()
 Iterator<String> it = map.keySet().iterator();
 while (it.hasNext()) {
     String key = it.next();
@@ -673,22 +673,22 @@ while (it.hasNext()) {
     }
 }
 
-// FIX — use removeIf (JDK 8+)
+// FIX, use removeIf (JDK 8+)
 map.keySet().removeIf(key -&gt; key.equals("A"));
 ```
 
 ### Using a Mutable Object as a Map Key
 
 ```java
-// BUG — modifying a key after insertion breaks the map
+// BUG, modifying a key after insertion breaks the map
 List<String> key = new ArrayList<>(List.of("A", "B"));
 Map<List<String>, String> map = new HashMap<>();
 map.put(key, "value");
-key.add("C"); // changes hashCode — now the key is lost
-map.get(key); // null — cannot find the key!
+key.add("C"); // changes hashCode, now the key is lost
+map.get(key); // null, cannot find the key!
 map.get(new ArrayList<>(List.of("A", "B"))); // also null!
 
-// FIX — use immutable keys
+// FIX, use immutable keys
 Map<List<String>, String> map2 = new HashMap<>();
 map2.put(List.of("A", "B"), "value"); // List.of returns immutable list
 ```
@@ -697,8 +697,8 @@ map2.put(List.of("A", "B"), "value"); // List.of returns immutable list
 
 ```java
 HashMap<String, Integer> map = new HashMap<>();
-map.put(null, 1);     // OK — null key allowed
-map.put("key", null);  // OK — null value allowed
+map.put(null, 1);     // OK, null key allowed
+map.put("key", null);  // OK, null value allowed
 map.get(null);         // 1
 
 // ConcurrentHashMap does NOT allow null
@@ -710,7 +710,7 @@ ConcurrentHashMap<String, Integer> cmap = new ConcurrentHashMap<>();
 ### `Set.of` Rejects Duplicates
 
 ```java
-// BUG — throws IllegalArgumentException
+// BUG, throws IllegalArgumentException
 Set<Integer> set = Set.of(1, 2, 3, 2); // duplicate 2
 ```
 
@@ -727,7 +727,7 @@ public class BadKey {
         return o instanceof BadKey bk && id == bk.id;
     }
 
-    // BUG — no hashCode override! Uses Object.hashCode() (identity-based)
+    // BUG, no hashCode override! Uses Object.hashCode() (identity-based)
     // Two equal BadKey objects may have different hash codes
     // HashSet will not find them
 }
@@ -740,25 +740,25 @@ set.contains(new BadKey(1)); // false! Different hash codes
 ### Forgetting to Pre-size `HashMap`
 
 ```java
-// BAD — default capacity 16, will resize multiple times
+// BAD, default capacity 16, will resize multiple times
 Map<String, String> map = new HashMap<>();
 for (int i = 0; i &lt; 10000; i++) {
     map.put("key" + i, "value" + i);
 }
 // Resizes: 16 -> 32 -> 64 -> 128 -> 256 -> 512 -> 1024 -> 2048 -> 4096 -> 8192 -> 16384
 
-// GOOD — pre-size to avoid rehashing
+// GOOD, pre-size to avoid rehashing
 Map<String, String> map2 = new HashMap<>(10000);
 ```
 
 ### `TreeMap` Requires `Comparable` Keys
 
 ```java
-// BUG — ClassCastException if keys don"t implement Comparable
+// BUG, ClassCastException if keys don"t implement Comparable
 TreeMap<List<String>, String> treeMap = new TreeMap<>();
 treeMap.put(List.of("A"), "value"); // ClassCastException: List is not Comparable
 
-// FIX — provide a Comparator
+// FIX, provide a Comparator
 TreeMap<List<String>, String> treeMap2 = new TreeMap<>(
     Comparator.comparing(Object::toString)
 );
@@ -790,18 +790,18 @@ Useful for implementing object graphs, serialization frameworks, or proxy-based 
 Want distinct objects to remain distinct even if they are logically equal.
 
 ```java
-// Regular HashMap — two equal Integer objects map to the same entry
+// Regular HashMap, two equal Integer objects map to the same entry
 Map<Integer, String> regular = new HashMap<>();
 regular.put(Integer.valueOf(1), "one");
 regular.put(Integer.valueOf(1), "uno");
 System.out.println(regular.size()); // 1
 
-// IdentityHashMap — two distinct Integer objects (cached -128..127) map to different entries
+// IdentityHashMap, two distinct Integer objects (cached -128..127) map to different entries
 // Note: Integer.valueOf(1) returns the same cached object for small values
 Map<Integer, String> identity = new IdentityHashMap<>();
 identity.put(new Integer(1), "one");
 identity.put(new Integer(1), "uno");
-System.out.println(identity.size()); // 2 — different object references
+System.out.println(identity.size()); // 2, different object references
 ```
 
 ### `EnumMap`
@@ -842,7 +842,7 @@ metadata.put(key, "metadata for key");
 System.out.println(metadata.size()); // 1
 
 key = null; // remove strong reference to key
-System.gc(); // suggest GC — the entry may be removed
+System.gc(); // suggest GC, the entry may be removed
 System.out.println(metadata.size()); // possibly 0
 ```
 
@@ -912,12 +912,12 @@ List<Person> people = List.of(
     new Person("Charlie", "Sales")
 );
 
-// BUG — duplicate keys throw IllegalStateException
+// BUG, duplicate keys throw IllegalStateException
 Map<String, Person> byDept = people.stream()
     .collect(Collectors.toMap(Person::department, Function.identity()));
 // IllegalStateException: Duplicate key Engineering
 
-// FIX — provide a merge function
+// FIX, provide a merge function
 Map<String, Person> byDept2 = people.stream()
     .collect(Collectors.toMap(
         Person::department,

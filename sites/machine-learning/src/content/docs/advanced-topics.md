@@ -6,7 +6,7 @@ tags:
   - Machine Learning
 categories:
   - Machine Learning
-description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability — selectively"
+description: "Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability, selectively"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -21,7 +21,7 @@ description: "Attention mechanisms allow a model to focus on different parts of 
 ## Attention Mechanisms and Transformers
 
 Attention mechanisms allow a model to focus on different parts of an input sequence when producing
-each element of an output. This capability — selectively attending to relevant information —
+each element of an output. This capability, selectively attending to relevant information,
 replaced recurrence as the dominant paradigm for sequence modeling.
 
 ### Self-Attention
@@ -52,17 +52,17 @@ A single attention head learns one type of relationship. Multi-head attention ru
 attention operations in parallel with different learned projections, then concatenates the results:
 
 ```
-MultiHead(Q, K, V) = Concat(head_1, ..., head_h) * W_O
+MultiHead(Q, K, V) = Concat(head_1..., head_h) * W_O
 where head_i = Attention(Q * W_Q_i, K * W_K_i, V * W_V_i)
 ```
 
-Different heads can attend to different relationships simultaneously — one head might track
+Different heads can attend to different relationships simultaneously, one head might track
 syntactic structure while another tracks semantic proximity. This is the core mechanism that gives
 transformers their expressiveness.
 
 ### Positional Encoding
 
-Self-attention is permutation-invariant — it processes a set of vectors, not a sequence. Positional
+Self-attention is permutation-invariant, it processes a set of vectors, not a sequence. Positional
 encoding injects order information. The original transformer uses sinusoidal encodings:
 
 ```
@@ -70,7 +70,7 @@ PE(pos, 2i)   = sin(pos / 10000^(2i/d_model))
 PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
 ```
 
-Learned positional embeddings are also common — a simple embedding matrix indexed by position, added
+Learned positional embeddings are also common, a simple embedding matrix indexed by position, added
 to the token embedding. Rotary positional embeddings (RoPE) apply rotations to queries and keys
 based on position, combining absolute and relative position information.
 
@@ -100,10 +100,10 @@ Decoder layer:
 ### BERT and GPT
 
 BERT (Bidirectional Encoder Representations from Transformers) uses the encoder stack for
-understanding tasks — classification, question answering, named entity recognition. It is pretrained
+understanding tasks, classification, question answering, named entity recognition. It is pretrained
 with masked language modeling (predict randomly masked tokens) and next sentence prediction.
 
-GPT (Generative Pre-trained Transformer) uses the decoder stack for generation tasks — text
+GPT (Generative Pre-trained Transformer) uses the decoder stack for generation tasks, text
 completion, dialogue, code generation. It is pretrained with causal language modeling (predict the
 next token given all previous tokens). Scaling up GPT models produced the large language model
 family that underpins modern generative AI.
@@ -118,7 +118,7 @@ family that underpins modern generative AI.
 ## Generative Models
 
 Generative models learn the distribution of training data and can produce new samples from that
-distribution. Three dominant families — VAEs, GANs, and diffusion models — approach this problem
+distribution. Three dominant families, VAEs, GANs, and diffusion models, approach this problem
 with different trade-offs between sample quality, diversity, and training stability.
 
 ### Variational Autoencoders (VAEs)
@@ -146,10 +146,10 @@ KL divergence (second term) keeps latent distributions close to the prior.
 
 **Key properties:**
 
-- Latent space is continuous and structured — interpolation between latent vectors produces smooth
+- Latent space is continuous and structured, interpolation between latent vectors produces smooth
   transitions in output space
-- Training is stable — the loss is a single scalar with no adversarial dynamics
-- Generated samples tend to be blurry — the reconstruction objective averages over possible outputs,
+- Training is stable, the loss is a single scalar with no adversarial dynamics
+- Generated samples tend to be blurry, the reconstruction objective averages over possible outputs,
   which smooths high-frequency detail
 
 ### Generative Adversarial Networks (GANs)
@@ -172,9 +172,9 @@ outputs 0.5 for everything.
 
 **Training challenges:**
 
-- Mode collapse — the generator produces a narrow range of outputs that fool the discriminator but
+- Mode collapse, the generator produces a narrow range of outputs that fool the discriminator but
   cover only a few modes of the data distribution
-- Training instability — the adversarial dynamics can oscillate without converging
+- Training instability, the adversarial dynamics can oscillate without converging
 - Vanishing gradients for the generator when the discriminator becomes too strong too early
 
 **Architectures:**
@@ -199,7 +199,7 @@ process: predict and remove noise at each step to recover the original data.
 
 ```
 Forward: q(x_t | x_{t-1}) = N(x_t; sqrt(1-β_t) x_{t-1}, β_t I)
-Reverse: p_θ(x_{t-1} | x_t) — learned neural network
+Reverse: p_θ(x_{t-1} | x_t), learned neural network
 
 Training objective: predict the noise ε added at each step
 Loss = E_{x, ε, t}[||ε - ε_θ(x_t, t)||²]
@@ -207,7 +207,7 @@ Loss = E_{x, ε, t}[||ε - ε_θ(x_t, t)||²]
 
 Diffusion models produce the highest-quality samples among generative models and have become the
 foundation for image generation (Stable Diffusion, DALL-E), audio generation, and video generation.
-The cost is slow sampling — hundreds of sequential denoising steps. Techniques like DDIM and latent
+The cost is slow sampling, hundreds of sequential denoising steps. Techniques like DDIM and latent
 diffusion (operating in a compressed latent space) accelerate this.
 
 ## Reinforcement Learning
@@ -222,10 +222,10 @@ An MDP formalizes the RL problem as a tuple (S, A, P, R, γ):
 
 - **S**: set of states
 - **A**: set of actions
-- **P(s'|s,a)**: transition probability — probability of reaching state s' from state s after action
+- **P(s'|s,a)**: transition probability, probability of reaching state s' from state s after action
   a
 - **R(s,a,s')**: reward received after transition
-- **γ**: discount factor — how much to value future rewards vs. immediate ones
+- **γ**: discount factor, how much to value future rewards vs. immediate ones
 
 The objective is to find a policy π that maximizes the expected discounted return:
 
@@ -257,7 +257,7 @@ optimize the policy. The gradient of the expected return with respect to the pol
 
 REINFORCE is the simplest policy gradient algorithm. It samples full trajectories, computes returns,
 and updates the policy to increase probability of high-reward actions. The variance of gradient
-estimates is high — baselines, advantage functions, and actor-critic methods reduce this.
+estimates is high, baselines, advantage functions, and actor-critic methods reduce this.
 
 ### Actor-Critic Methods
 
@@ -265,9 +265,9 @@ Actor-critic methods combine policy gradient (actor) with value estimation (crit
 provides a lower-variance estimate of the return, which the actor uses to update the policy.
 
 ```
-Actor: π_θ(a|s) — selects actions
-Critic: V_φ(s) or Q_φ(s,a) — estimates value
-Advantage: A(s,a) = Q(s,a) - V(s) — how much better an action is than average
+Actor: π_θ(a|s), selects actions
+Critic: V_φ(s) or Q_φ(s,a), estimates value
+Advantage: A(s,a) = Q(s,a) - V(s), how much better an action is than average
 ```
 
 **PPO (Proximal Policy Optimization)** is the current standard for policy gradient training. It
@@ -278,7 +278,7 @@ L(θ) = E[min(r_t(θ) * A_t, clip(r_t(θ), 1-ε, 1+ε) * A_t)]
 where r_t(θ) = π_θ(a_t | s_t) / π_{θ_old}(a_t | s_t)
 ```
 
-PPO is stable, sample-efficient enough for many tasks, and parallelizable — agents collect
+PPO is stable, sample-efficient enough for many tasks, and parallelizable, agents collect
 experience in multiple environments simultaneously.
 
 ### Applications
@@ -298,7 +298,7 @@ that PPO uses to fine-tune the language model.
 ## Transfer Learning
 
 Transfer learning applies knowledge gained from one task or domain to a different but related task.
-This is the dominant paradigm in modern deep learning — very few production models are trained from
+This is the dominant paradigm in modern deep learning, very few production models are trained from
 random initialization.
 
 ### Fine-Tuning
@@ -317,7 +317,7 @@ model.classifier = Linear(hidden_size, num_classes)  # Replace head
 optimizer = Adam(model.classifier.parameters(), lr=1e-4)
 ```
 
-**Layer-wise learning rates** — unfreeze layers gradually during training. Lower layers (general
+**Layer-wise learning rates**, unfreeze layers gradually during training. Lower layers (general
 features) get smaller learning rates; upper layers (task-specific features) get larger ones:
 
 ```python
@@ -349,21 +349,21 @@ with torch.no_grad():
 Domain adaptation handles the case where the source and target domains differ in distribution but
 share the task. Techniques include:
 
-- **Domain adversarial training** — a gradient reversal layer trains a domain classifier while the
+- **Domain adversarial training**, a gradient reversal layer trains a domain classifier while the
   feature extractor learns to produce domain-invariant features
-- **CORAL** — aligns the second-order statistics (covariance) of source and target feature
+- **CORAL**, aligns the second-order statistics (covariance) of source and target feature
   distributions
-- **Self-training** — the model generates pseudo-labels for unlabeled target data and retrains on
+- **Self-training**, the model generates pseudo-labels for unlabeled target data and retrains on
   them
 
 ### Few-Shot Learning
 
-Few-shot learning trains models to generalize from very few examples — often 1 to 5 per class.
+Few-shot learning trains models to generalize from very few examples, often 1 to 5 per class.
 Approaches:
 
 | Approach              | Mechanism                                             | Example              |
 | --------------------- | ----------------------------------------------------- | -------------------- |
-| Meta-learning         | Learn to learn — train across many tasks              | MAML, Reptile        |
+| Meta-learning         | Learn to learn, train across many tasks              | MAML, Reptile        |
 | Prototypical networks | Compare to class prototypes in embedding space        | N-way K-shot         |
 | Prompt tuning         | Adapt pretrained models with text prompts             | GPT-3 in-context     |
 | LoRA                  | Low-rank adapters for parameter-efficient fine-tuning | Rank-4 decomposition |
@@ -451,11 +451,11 @@ between input and output changes) are the two primary failure modes.
 
 **Detection methods:**
 
-- **Statistical tests** — KS test, Population Stability Index, Jensen-Shannon divergence on feature
+- **Statistical tests**, KS test, Population Stability Index, Jensen-Shannon divergence on feature
   distributions between training and production data
-- **Performance monitoring** — track prediction quality on labeled production data; alert on
+- **Performance monitoring**, track prediction quality on labeled production data; alert on
   degradation beyond a threshold
-- **Input feature tracking** — monitor that feature distributions, null rates, and value ranges
+- **Input feature tracking**, monitor that feature distributions, null rates, and value ranges
   remain within training-time bounds
 
 ## Worked Examples
@@ -577,7 +577,7 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
    precision, recall, F1, AUC-ROC, or task-specific metrics that reflect the actual cost of errors.
 
 2. **Training on test data.** Any information from the test set that leaks into the training
-   pipeline — through feature selection, hyperparameter tuning, or preprocessing — inflates
+   pipeline, through feature selection, hyperparameter tuning, or preprocessing, inflates
    performance estimates and produces models that fail in deployment. Maintain strict
    train/validation/test splits.
 
@@ -603,11 +603,11 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
 
 ## Intuition
 
-**Attention is learned relevance:** When you read a sentence, your brain automatically focuses on the words that matter for understanding each concept. Self-attention does the same thing computationally — each word learns which other words in the sequence are most relevant to its meaning. This is why transformers revolutionized NLP: they capture long-range dependencies that RNNs struggle with.
+**Attention is learned relevance:** When you read a sentence, your brain automatically focuses on the words that matter for understanding each concept. Self-attention does the same thing computationally, each word learns which other words in the sequence are most relevant to its meaning. This is why transformers revolutionized NLP: they capture long-range dependencies that RNNs struggle with.
 
 **Why it matters:** Transformers power GPT, BERT, and virtually all modern language models. Understanding attention mechanisms explains how these models generate coherent text, translate languages, and answer questions. The same architecture now dominates vision, audio, and protein folding.
 
-**The key insight:** Multi-head attention lets the model track multiple types of relationships simultaneously — one head might capture syntax while another captures semantics — which is why transformers are so expressive despite their relatively simple architecture.
+**The key insight:** Multi-head attention lets the model track multiple types of relationships simultaneously, one head might capture syntax while another captures semantics, which is why transformers are so expressive despite their relatively simple architecture.
 
 ## Common Pitfalls
 
@@ -642,7 +642,7 @@ produce high-quality samples for images, text, and audio. Reinforcement learning
 decision-making through reward signals. Transfer learning makes pretrained models accessible for
 downstream tasks with minimal data and compute. Deployment bridges the gap between research and
 production through efficient inference runtimes, serving infrastructure, and monitoring systems. The
-field moves fast, but the fundamentals — clean data, proper evaluation, and operational discipline —
+field moves fast, but the fundamentals, clean data, proper evaluation, and operational discipline,
 do not change.
 
 ## See Also

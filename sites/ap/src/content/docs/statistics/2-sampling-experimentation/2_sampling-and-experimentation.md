@@ -190,11 +190,11 @@ flowchart TD
 
 ## Intuition
 
-Sampling and experimentation are about **collecting data that leads to valid conclusions**. The quality of your inference depends entirely on the quality of your data — garbage in, garbage out.
+Sampling and experimentation are about **collecting data that leads to valid conclusions**. The quality of your inference depends entirely on the quality of your data, garbage in, garbage out.
 
 **Why randomisation matters:** Random sampling reduces bias by giving every member of the population an equal chance of selection. Random assignment in experiments ensures that treatment groups are comparable at the start, so any difference at the end can be attributed to the treatment.
 
-**Observational study vs experiment — the critical distinction:** You can only establish *causation* from a well-designed experiment with random assignment. Observational studies can show *association* but not causation, because confounding variables may be present.
+**Observational study vs experiment, the critical distinction:** You can only establish *causation* from a well-designed experiment with random assignment. Observational studies can show *association* but not causation, because confounding variables may be present.
 
 **Bias comes in many forms:** Undercoverage (some groups are left out), nonresponse (people who don't respond differ from those who do), and voluntary response bias (people with strong opinions are more likely to participate) all distort results. Recognising these patterns is more important than memorising definitions.
 

@@ -45,11 +45,11 @@ sources:
 
 ## Intuition
 
-**Macroeconomics is like looking at the big picture — inflation, growth, and unemployment affecting entire nations.**
+**Macroeconomics is like looking at the big picture, inflation, growth, and unemployment affecting entire nations.**
 
 ## Macroeconomics
 
-Macroeconomics studies the behaviour of the economy as a whole — national output, inflation,
+Macroeconomics studies the behaviour of the economy as a whole, national output, inflation,
 unemployment, the balance of payments, and the policy tools governments and central banks use to
 manage economic performance. This section covers the full A-Level macroeconomics syllabus.
 
@@ -57,40 +57,40 @@ manage economic performance. This section covers the full A-Level macroeconomics
 
 ### Macroeconomic Performance
 
-- **Economic growth** — real GDP, nominal GDP, GDP per capita; limitations of GDP as a welfare
+- **Economic growth**, real GDP, nominal GDP, GDP per capita; limitations of GDP as a welfare
   measure
-- **Inflation** — CPI, RPI, cost-push vs. demand-pull; consequences for purchasing power and
+- **Inflation**, CPI, RPI, cost-push vs. demand-pull; consequences for purchasing power and
   international competitiveness
-- **Unemployment** — types (structural, frictional, cyclical, seasonal); the Phillips curve
+- **Unemployment**, types (structural, frictional, cyclical, seasonal); the Phillips curve
   relationship
-- **Balance of payments** — current account, capital account, trade deficits and surpluses
+- **Balance of payments**, current account, capital account, trade deficits and surpluses
 
 ### Aggregate Demand and Aggregate Supply
 
-- **AD components** — consumption ($C$), investment ($I$), government spending ($G$), net exports
+- **AD components**, consumption ($C$), investment ($I$), government spending ($G$), net exports
   ($X-M$)
-- **AD/AS model** — shifts, movements along curves, equilibrium price level and output
-- **Short-run vs. long-run aggregate supply** — the classical-Keynesian debate
-- **Multiplier effects** — the multiplier $k = \frac{1}{1 - MPC}$ and its policy implications
+- **AD/AS model**, shifts, movements along curves, equilibrium price level and output
+- **Short-run vs. long-run aggregate supply**, the classical-Keynesian debate
+- **Multiplier effects**, the multiplier $k = \frac{1}{1 - MPC}$ and its policy implications
 
 ### The Financial Sector
 
-- **Role of financial markets** — intermediation, risk management, providing liquidity
-- **Commercial banks and central banks** — functions, balance sheets
-- **Monetary policy** — interest rates, quantitative easing, forward guidance
+- **Role of financial markets**, intermediation, risk management, providing liquidity
+- **Commercial banks and central banks**, functions, balance sheets
+- **Monetary policy**, interest rates, quantitative easing, forward guidance
 
 ### Fiscal Policy and Supply-Side Policy
 
-- **Fiscal policy** — taxation, government spending, budget deficits and national debt
-- **Supply-side policy** — education, infrastructure, deregulation, labour market reform
-- **Policy evaluation** — effectiveness, time lags, crowding out, sustainability
+- **Fiscal policy**, taxation, government spending, budget deficits and national debt
+- **Supply-side policy**, education, infrastructure, deregulation, labour market reform
+- **Policy evaluation**, effectiveness, time lags, crowding out, sustainability
 
 ### The International Economy
 
-- **Exchange rates** — floating vs. fixed; impact on trade competitiveness
-- **Trade liberalisation** — comparative advantage, tariffs, quotas, WTO
-- **Globalisation** — benefits and costs for developed and developing economies
-- **Economic development** — HDI, poverty traps, aid vs. trade
+- **Exchange rates**, floating vs. fixed; impact on trade competitiveness
+- **Trade liberalisation**, comparative advantage, tariffs, quotas, WTO
+- **Globalisation**, benefits and costs for developed and developing economies
+- **Economic development**, HDI, poverty traps, aid vs. trade
 
 ## Study Tips
 

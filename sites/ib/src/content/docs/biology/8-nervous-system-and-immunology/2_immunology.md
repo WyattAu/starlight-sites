@@ -1,7 +1,7 @@
 ---
 
 title: "Immunology"
-description: "IB Biology — innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,"
+description: "IB Biology, innate immunity, adaptive immunity, antibody structure and classes, T-cell and B-cell activation, immunological memory, vaccines, ELISA,"
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**The immune system is like a military defense force — it has surveillance (innate immunity), specialized units (adaptive immunity), and memory (immunological memory):** The immune system distinguishes self from non-self through antigen recognition, enabling targeted defense without harming the body
+**The immune system is like a military defense force, it has surveillance (innate immunity), specialized units (adaptive immunity), and memory (immunological memory):** The immune system distinguishes self from non-self through antigen recognition, enabling targeted defense without harming the body
 
 **Why it matters:** Immunology is essential for understanding allergies, autoimmune diseases, vaccines, and transplant medicine
 

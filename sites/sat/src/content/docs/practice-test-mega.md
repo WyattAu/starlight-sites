@@ -1,5 +1,5 @@
 ---
-title: "SAT Practice Test — 50 Questions"
+title: "SAT Practice Test, 50 Questions"
 description: "50 SAT-style practice questions covering Math, Reading, and Writing sections. Multiple choice with detailed explanations and difficulty ratings."
 date: 2026-07-24
 tags:
@@ -21,14 +21,14 @@ categories:
 }
 </script>
 
-## SAT Practice Test — 50 Questions
+## SAT Practice Test, 50 Questions
 
 This practice test covers 50 questions across the three main SAT sections: Math (20 questions), Reading (15 questions), and Writing and Language (15 questions). The questions follow the format used in the digital SAT, testing both content knowledge and analytical skills. Work through all 50 questions under timed conditions before checking the answer key.
 
 ## Instructions
 
 - **Time limit:** 75 minutes (90 seconds per question)
-- **Format:** Multiple choice — select the best answer from options A–D (Math) or A–D (Reading/Writing)
+- **Format:** Multiple choice, select the best answer from options A–D (Math) or A–D (Reading/Writing)
 - **Marking:** 1 mark per question, 50 marks total
 - **Conditions:** Attempt without notes. Record your answers on a separate sheet.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any questions you got wrong.
@@ -44,7 +44,7 @@ This practice test covers 50 questions across the three main SAT sections: Math 
 
 ## Math (Q1–Q20)
 
-### Q1 — Algebra
+### Q1, Algebra
 
 If $3x + 7 = 22$, what is the value of $6x + 14$?
 
@@ -59,11 +59,11 @@ If $3x + 7 = 22$, what is the value of $6x + 14$?
 
 $3x + 7 = 22 \implies 3x = 15 \implies x = 5$. Then $6x + 14 = 30 + 14 = 44$. Alternatively, note that $6x + 14 = 2(3x + 7) = 2(22) = 44$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q2 — Linear Equations
+### Q2, Linear Equations
 
 A line passes through the points $(2, 5)$ and $(6, 13)$. What is the slope of the line?
 
@@ -78,11 +78,11 @@ A line passes through the points $(2, 5)$ and $(6, 13)$. What is the slope of th
 
 Slope $m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{13 - 5}{6 - 2} = \frac{8}{4} = 2$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q3 — Systems of Equations
+### Q3, Systems of Equations
 
 If $2x + y = 10$ and $x - y = 2$, what is the value of $x$?
 
@@ -97,11 +97,11 @@ If $2x + y = 10$ and $x - y = 2$, what is the value of $x$?
 
 Adding the equations: $3x = 12 \implies x = 4$. Substituting back: $4 - y = 2 \implies y = 2$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q4 — Quadratics
+### Q4, Quadratics
 
 What are the solutions to $x^2 - 5x + 6 = 0$?
 
@@ -116,11 +116,11 @@ What are the solutions to $x^2 - 5x + 6 = 0$?
 
 Factoring: $(x - 2)(x - 3) = 0$, so $x = 2$ or $x = 3$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q5 — Exponents
+### Q5, Exponents
 
 If $2^x = 32$, what is $x$?
 
@@ -135,11 +135,11 @@ If $2^x = 32$, what is $x$?
 
 $32 = 2^5$, so $x = 5$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q6 — Ratios
+### Q6, Ratios
 
 The ratio of boys to girls in a class is 3:5. If there are 24 students total, how many are girls?
 
@@ -154,11 +154,11 @@ The ratio of boys to girls in a class is 3:5. If there are 24 students total, ho
 
 Boys = $\frac{3}{8} \times 24 = 9$. Girls = $\frac{5}{8} \times 24 = 15$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q7 — Percentages
+### Q7, Percentages
 
 A store marks up an item by 40% over its cost price. During a sale, the store offers a 30% discount on the marked-up price. What is the net percentage change from the original cost?
 
@@ -175,11 +175,11 @@ Cost = 100. Marked price = 140. Sale price = $140 \times 0.70 = 98$. Net change 
 
 Wait: $140 \times 0.70 = 98$, which is a 2% decrease from 100. So the answer is D (2% decrease).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q8 — Functions
+### Q8, Functions
 
 If $f(x) = 2x^2 - 3x + 1$, what is $f(-2)$?
 
@@ -194,11 +194,11 @@ If $f(x) = 2x^2 - 3x + 1$, what is $f(-2)$?
 
 $f(-2) = 2(4) - 3(-2) + 1 = 8 + 6 + 1 = 15$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q9 — Geometry
+### Q9, Geometry
 
 A rectangle has a length of 12 and a width of 5. What is the length of the diagonal?
 
@@ -213,11 +213,11 @@ A rectangle has a length of 12 and a width of 5. What is the length of the diago
 
 By the Pythagorean theorem: $d = \sqrt{12^2 + 5^2} = \sqrt{144 + 25} = \sqrt{169} = 13$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q10 — Circle Geometry
+### Q10, Circle Geometry
 
 What is the area of a circle with radius 7? (Use $\pi \approx \frac{22}{7}$)
 
@@ -232,11 +232,11 @@ What is the area of a circle with radius 7? (Use $\pi \approx \frac{22}{7}$)
 
 Area $= \pi r^2 = \frac{22}{7} \times 49 = 22 \times 7 = 154$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q11 — Probability
+### Q11, Probability
 
 A bag contains 3 red, 5 blue, and 2 green marbles. What is the probability of randomly selecting a blue marble?
 
@@ -251,11 +251,11 @@ A bag contains 3 red, 5 blue, and 2 green marbles. What is the probability of ra
 
 Total = 10. Blue = 5. $P(\text{blue}) = \frac{5}{10} = \frac{1}{2}$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q12 — Statistics
+### Q12, Statistics
 
 The mean of five numbers is 20. If four of the numbers are 15, 18, 22, and 25, what is the fifth number?
 
@@ -270,11 +270,11 @@ The mean of five numbers is 20. If four of the numbers are 15, 18, 22, and 25, w
 
 Sum $= 5 \times 20 = 100$. Sum of four = $15 + 18 + 22 + 25 = 80$. Fifth number = $100 - 80 = 20$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q13 — Inequalities
+### Q13, Inequalities
 
 What is the solution set for $|2x - 3| \leq 7$?
 
@@ -289,11 +289,11 @@ What is the solution set for $|2x - 3| \leq 7$?
 
 $|2x - 3| \leq 7 \implies -7 \leq 2x - 3 \leq 7 \implies -4 \leq 2x \leq 10 \implies -2 \leq x \leq 5$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q14 — Coordinate Geometry
+### Q14, Coordinate Geometry
 
 What is the equation of a circle centred at $(3, -2)$ with radius 5?
 
@@ -308,11 +308,11 @@ What is the equation of a circle centred at $(3, -2)$ with radius 5?
 
 The standard form is $(x - h)^2 + (y - k)^2 = r^2$ where $(h,k)$ is the centre. $(x - 3)^2 + (y - (-2))^2 = 5^2 = 25$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q15 — Exponential Growth
+### Q15, Exponential Growth
 
 A population of bacteria doubles every 3 hours. If the initial population is 500, what is the population after 9 hours?
 
@@ -327,11 +327,11 @@ A population of bacteria doubles every 3 hours. If the initial population is 500
 
 9 hours = 3 doubling periods. Population = $500 \times 2^3 = 500 \times 8 = 4,000$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q16 — Trigonometry
+### Q16, Trigonometry
 
 In a right triangle, if the opposite side to angle $\theta$ is 5 and the hypotenuse is 13, what is $\sin \theta$?
 
@@ -346,11 +346,11 @@ In a right triangle, if the opposite side to angle $\theta$ is 5 and the hypoten
 
 $\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}} = \frac{5}{13}$.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q17 — Polynomial Operations
+### Q17, Polynomial Operations
 
 What is the remainder when $f(x) = x^3 - 2x^2 + 3x - 1$ is divided by $(x - 2)$?
 
@@ -365,11 +365,11 @@ What is the remainder when $f(x) = x^3 - 2x^2 + 3x - 1$ is divided by $(x - 2)$?
 
 By the Remainder Theorem: $f(2) = 8 - 8 + 6 - 1 = 5$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q18 — Absolute Value
+### Q18, Absolute Value
 
 For what values of $x$ is $|x - 4| = |2x + 1|$?
 
@@ -384,11 +384,11 @@ For what values of $x$ is $|x - 4| = |2x + 1|$?
 
 $|x - 4| = |2x + 1|$ means either $x - 4 = 2x + 1$ or $x - 4 = -(2x + 1)$. Case 1: $x = -5$. Case 2: $x - 4 = -2x - 1 \implies 3x = 3 \implies x = 1$. Checking: $|-5-4| = 9 = |2(-5)+1| = 9$ ✓. $|1-4| = 3 = |2(1)+1| = 3$ ✓. So $x = -5$ or $x = 1$. The closest answer is A, with a typo (should be $x = -5$ or $x = 1$).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q19 — Word Problems
+### Q19, Word Problems
 
 A car travels 180 miles in 3 hours. If it continues at the same speed, how far will it travel in 5 hours?
 
@@ -403,11 +403,11 @@ A car travels 180 miles in 3 hours. If it continues at the same speed, how far w
 
 Speed $= 180/3 = 60$ mph. Distance in 5 hours $= 60 \times 5 = 300$ miles.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q20 — Advanced Algebra
+### Q20, Advanced Algebra
 
 If $f(x) = \frac{2x + 1}{x - 3}$, what is $f^{-1}(5)$?
 
@@ -422,7 +422,7 @@ If $f(x) = \frac{2x + 1}{x - 3}$, what is $f^{-1}(5)$?
 
 $f^{-1}(5)$ means finding $x$ such that $f(x) = 5$: $\frac{2x + 1}{x - 3} = 5 \implies 2x + 1 = 5x - 15 \implies 16 = 3x \implies x = \frac{16}{3}$. This is not among the options. Let me recalculate: $2x + 1 = 5(x - 3) = 5x - 15 \implies 1 + 15 = 5x - 2x \implies 16 = 3x \implies x = 16/3$. The answer is $16/3$, closest to D (16). There may be a typo in the question. The correct answer is $16/3$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -430,13 +430,13 @@ $f^{-1}(5)$ means finding $x$ such that $f(x) = 5$: $\frac{2x + 1}{x - 3} = 5 \i
 
 *Read the following passage and answer the questions.*
 
-> The discovery of penicillin in 1928 by Alexander Fleming is often portrayed as a serendipitous accident — a contaminated petri dish that changed the world. While chance certainly played a role, the full story reveals that Fleming's breakthrough was equally the product of careful observation, deep knowledge, and years of methodical research. Fleming had spent years studying antibacterial substances and had developed keen skills in identifying unusual patterns in bacterial growth. Without this expertise, the mould on that petri dish would have been discarded like countless others before it.
+> The discovery of penicillin in 1928 by Alexander Fleming is often portrayed as a serendipitous accident, a contaminated petri dish that changed the world. While chance certainly played a role, the full story reveals that Fleming's breakthrough was equally the product of careful observation, deep knowledge, and years of methodical research. Fleming had spent years studying antibacterial substances and had developed keen skills in identifying unusual patterns in bacterial growth. Without this expertise, the mould on that petri dish would have been discarded like countless others before it.
 >
-> What makes the penicillin story particularly instructive is what happened next. Fleming recognised the significance of his observation but lacked the resources and expertise to purify and mass-produce the compound. It took another twelve years, and the collaborative effort of Howard Florey and Ernst Boris Chain at Oxford, before penicillin became a usable medicine. Their work involved solving extraordinary practical challenges — from stabilising the compound to developing fermentation techniques. The development of penicillin was not a single moment of genius but a sustained, multidisciplinary effort.
+> What makes the penicillin story particularly instructive is what happened next. Fleming recognised the significance of his observation but lacked the resources and expertise to purify and mass-produce the compound. It took another twelve years, and the collaborative effort of Howard Florey and Ernst Boris Chain at Oxford, before penicillin became a usable medicine. Their work involved solving extraordinary practical challenges, from stabilising the compound to developing fermentation techniques. The development of penicillin was not a single moment of genius but a sustained, multidisciplinary effort.
 >
-> The lesson extends beyond medicine. Major breakthroughs in science and technology rarely emerge from a single individual working in isolation. They require ecosystems of support — funding, infrastructure, collaboration, and institutional knowledge. The "lone genius" narrative, while appealing, obscures the collaborative nature of real discovery.
+> The lesson extends beyond medicine. Major breakthroughs in science and technology rarely emerge from a single individual working in isolation. They require ecosystems of support, funding, infrastructure, collaboration, and institutional knowledge. The "lone genius" narrative, while appealing, obscures the collaborative nature of real discovery.
 
-### Q21 — Main Idea
+### Q21, Main Idea
 
 What is the primary argument of the passage?
 
@@ -449,13 +449,13 @@ What is the primary argument of the passage?
 
 **Correct: B** (index 1)
 
-The passage argues that the "lone genius" narrative is misleading and that breakthroughs depend on ecosystems of support, collaboration, and sustained effort — using penicillin as evidence.
+The passage argues that the "lone genius" narrative is misleading and that breakthroughs depend on ecosystems of support, collaboration, and sustained effort, using penicillin as evidence.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q22 — Evidence
+### Q22, Evidence
 
 Which sentence from the passage best supports the claim that Fleming's observation required expertise to recognise?
 
@@ -470,11 +470,11 @@ Which sentence from the passage best supports the claim that Fleming's observati
 
 This sentence directly states that Fleming's expertise enabled him to recognise the significance of the contaminated plate, supporting the claim that observation requires prior knowledge.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q23 — Author's Purpose
+### Q23, Author's Purpose
 
 The author mentions the "lone genius" narrative primarily to:
 
@@ -487,13 +487,13 @@ The author mentions the "lone genius" narrative primarily to:
 
 **Correct: C** (index 2)
 
-The author introduces the "lone genius" narrative specifically to refute it — arguing that it "obscures the collaborative nature of real discovery."
+The author introduces the "lone genius" narrative specifically to refute it, arguing that it "obscures the collaborative nature of real discovery."
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q24 — Vocabulary in Context
+### Q24, Vocabulary in Context
 
 In the passage, "serendipitous" most nearly means:
 
@@ -508,11 +508,11 @@ In the passage, "serendipitous" most nearly means:
 
 "Serendipitous" means happening by chance in a beneficial way. The passage contrasts this with the reality that Fleming's observation was not purely accidental but required expertise.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q25 — Inference
+### Q25, Inference
 
 Based on the passage, which of the following would the author most likely agree with?
 
@@ -525,13 +525,13 @@ Based on the passage, which of the following would the author most likely agree 
 
 **Correct: D** (index 3)
 
-The passage argues that breakthroughs require "ecosystems of support — funding, infrastructure, collaboration, and institutional knowledge," supporting option D.
+The passage argues that breakthroughs require "ecosystems of support, funding, infrastructure, collaboration, and institutional knowledge," supporting option D.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q26 — Text Structure
+### Q26, Text Structure
 
 How does the passage transition from the Fleming story to the broader argument?
 
@@ -546,11 +546,11 @@ How does the passage transition from the Fleming story to the broader argument?
 
 The passage uses the specific case of penicillin to illustrate the broader point that "major breakthroughs... require ecosystems of support." The transition sentence is: "The lesson extends beyond medicine."
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q27 — Paired Passages
+### Q27, Paired Passages
 
 *Passage B* (not shown) argues that artificial intelligence will primarily augment human workers rather than replace them. If both passages were read together, they would most likely agree on which point?
 
@@ -563,23 +563,23 @@ The passage uses the specific case of penicillin to illustrate the broader point
 
 **Correct: C** (index 2)
 
-Both passages emphasise the importance of collaboration — Passage A argues for collaborative scientific effort, and Passage B (AI augmenting humans) implies human-machine collaboration rather than replacement.
+Both passages emphasise the importance of collaboration, Passage A argues for collaborative scientific effort, and Passage B (AI augmenting humans) implies human-machine collaboration rather than replacement.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-## Reading — Passage 2
+## Reading, Passage 2
 
 *Read the following passage and answer the questions.*
 
-> In 1961, the economist William Nordhaus noted that the price of artificial light had fallen by a factor of more than a thousand over the preceding century. He used this observation to construct an index of economic wellbeing — the Nordhaus light index — arguing that the cost of basic goods is a better measure of living standards than GDP alone. The light index tells a story of extraordinary progress: what once required a day's wages now costs mere minutes of labour.
+> In 1961, the economist William Nordhaus noted that the price of artificial light had fallen by a factor of more than a thousand over the preceding century. He used this observation to construct an index of economic wellbeing, the Nordhaus light index, arguing that the cost of basic goods is a better measure of living standards than GDP alone. The light index tells a story of extraordinary progress: what once required a day's wages now costs mere minutes of labour.
 >
-> But the light index also reveals something troubling. Despite the dramatic reduction in the cost of light, the average person today spends roughly the same proportion of their income on illumination as they did two centuries ago. This paradox — known as the Jevons paradox — occurs when efficiency gains are offset by increased consumption. We don't just buy cheaper light; we buy more of it: larger homes, brighter screens, illuminated billboards, 24-hour cities. The savings from efficiency are consumed by expansion.
+> But the light index also reveals something troubling. Despite the dramatic reduction in the cost of light, the average person today spends roughly the same proportion of their income on illumination as they did two centuries ago. This paradox, known as the Jevons paradox, occurs when efficiency gains are offset by increased consumption. We don't just buy cheaper light; we buy more of it: larger homes, brighter screens, illuminated billboards, 24-hour cities. The savings from efficiency are consumed by expansion.
 >
 > The Jevons paradox has implications beyond light. As cars became more fuel-efficient, people drove more. As computing became cheaper, we created exponentially more data. As communication became instant and free, we produced more messages than we could ever read. Efficiency, it seems, does not guarantee sustainability.
 
-### Q28 — Central Idea
+### Q28, Central Idea
 
 The central idea of the passage is that:
 
@@ -594,11 +594,11 @@ The central idea of the passage is that:
 
 The passage argues that efficiency gains (cheaper light, fuel-efficient cars, cheaper computing) are offset by increased consumption (the Jevons paradox), preventing the expected sustainability benefits.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q29 — Supporting Evidence
+### Q29, Supporting Evidence
 
 According to the passage, the Jevons paradox is best illustrated by which example?
 
@@ -613,11 +613,11 @@ According to the passage, the Jevons paradox is best illustrated by which exampl
 
 The passage states: "We don't just buy cheaper light; we buy more of it: larger homes, brighter screens, illuminated billboards, 24-hour cities." This illustrates efficiency gains being offset by increased consumption.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q30 — Tone and Purpose
+### Q30, Tone and Purpose
 
 The author's tone in the final paragraph is best described as:
 
@@ -632,11 +632,11 @@ The author's tone in the final paragraph is best described as:
 
 The final paragraph uses the phrase "it seems" and presents a pattern of efficiency not leading to sustainability, suggesting cautious concern rather than alarm or optimism.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q31 — Word Choice
+### Q31, Word Choice
 
 In the passage, "offset" most nearly means:
 
@@ -649,13 +649,13 @@ In the passage, "offset" most nearly means:
 
 **Correct: B** (index 1)
 
-"Offset" means to counterbalance or compensate for something. The passage says efficiency gains are "offset by increased consumption" — meaning the benefits are neutralised by more use.
+"Offset" means to counterbalance or compensate for something. The passage says efficiency gains are "offset by increased consumption", meaning the benefits are neutralised by more use.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q32 — Quantitative Reasoning
+### Q32, Quantitative Reasoning
 
 Based on the passage, if the price of light fell by a factor of 1,000 but people spend the same proportion of income on light, approximately how much more light do people consume?
 
@@ -670,11 +670,11 @@ Based on the passage, if the price of light fell by a factor of 1,000 but people
 
 If the price fell by a factor of 1,000 but spending is constant, consumption must have increased by a factor of 1,000 to maintain the same total expenditure. This is the essence of the Jevons paradox.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q33 — Author's Reasoning
+### Q33, Author's Reasoning
 
 The author mentions computing and communication in the final paragraph to:
 
@@ -689,11 +689,11 @@ The author mentions computing and communication in the final paragraph to:
 
 The author extends the argument from light to cars, computing, and communication to show the Jevons paradox is a general pattern, not limited to illumination.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q34 — Vocabulary
+### Q34, Vocabulary
 
 What does the term "Jevons paradox" refer to in the passage?
 
@@ -706,13 +706,13 @@ What does the term "Jevons paradox" refer to in the passage?
 
 **Correct: B** (index 1)
 
-The passage defines the Jevons paradox as occurring "when efficiency gains are offset by increased consumption" — a direct description of option B.
+The passage defines the Jevons paradox as occurring "when efficiency gains are offset by increased consumption", a direct description of option B.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q35 — Inference
+### Q35, Inference
 
 Based on the passage, which of the following is the author most likely to support?
 
@@ -727,13 +727,13 @@ Based on the passage, which of the following is the author most likely to suppor
 
 Since the passage argues that efficiency alone does not guarantee sustainability, the author would likely support policies that address consumption directly, rather than relying solely on efficiency improvements.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Writing and Language (Q36–Q50)
 
-### Q36 — Subject-Verb Agreement
+### Q36, Subject-Verb Agreement
 
 Which sentence is grammatically correct?
 
@@ -748,11 +748,11 @@ Which sentence is grammatically correct?
 
 "The group" is the subject, and it is singular (a collective noun acting as a unit). The verb should agree with "group," not "students." "Was" is the singular past tense.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q37 — Pronoun Agreement
+### Q37, Pronoun Agreement
 
 Which sentence has correct pronoun agreement?
 
@@ -767,11 +767,11 @@ Which sentence has correct pronoun agreement?
 
 In modern English, "their" is widely accepted as a singular gender-neutral pronoun. Option D adds "own" which is redundant but not incorrect. Option B assumes male. Option C uses "its" for a person, which is inappropriate.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q38 — Comma Usage
+### Q38, Comma Usage
 
 Which sentence uses commas correctly?
 
@@ -786,11 +786,11 @@ Which sentence uses commas correctly?
 
 "After the concert" is an introductory phrase requiring a comma. "And then we went home" is a continuation of the same compound predicate and does not need a comma before "and."
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q39 — Transition Words
+### Q39, Transition Words
 
 Which transition best completes the sentence?
 
@@ -807,11 +807,11 @@ Which transition best completes the sentence?
 
 "Therefore" indicates a consequence: because the results were unexpected, the researchers decided to repeat. "However" would signal contrast, which doesn't fit.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q40 — Parallel Structure
+### Q40, Parallel Structure
 
 Which sentence maintains parallel structure?
 
@@ -826,11 +826,11 @@ Which sentence maintains parallel structure?
 
 Parallel structure requires consistent grammatical form. All three items should be gerunds (-ing form): swimming, running, cycling.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q41 — Sentence Fragments
+### Q41, Sentence Fragments
 
 Which of the following is a complete sentence?
 
@@ -845,11 +845,11 @@ Which of the following is a complete sentence?
 
 A complete sentence requires a subject and a predicate. Option C has "The children" (subject) and "played outside until dusk" (predicate). The others are fragments.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q42 — Modifier Placement
+### Q42, Modifier Placement
 
 Which sentence places modifiers correctly?
 
@@ -862,13 +862,13 @@ Which sentence places modifiers correctly?
 
 **Correct: C** (index 2)
 
-"Only" should be placed directly before what it modifies. "Only the first ten papers" clarifies that exactly ten papers were graded — not all papers.
+"Only" should be placed directly before what it modifies. "Only the first ten papers" clarifies that exactly ten papers were graded, not all papers.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q43 — Apostrophe Usage
+### Q43, Apostrophe Usage
 
 Which sentence uses apostrophes correctly?
 
@@ -883,11 +883,11 @@ Which sentence uses apostrophes correctly?
 
 "It's" (with apostrophe) means "it is," not possessive. "Children's" correctly shows possession. "Teachers meeting" needs an apostrophe: "teachers' meeting." "Cat's" is singular possessive, but "ate all their food" suggests multiple cats (should be "cats' ate" or "cats ate").
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q44 — Active vs Passive Voice
+### Q44, Active vs Passive Voice
 
 Which sentence uses active voice?
 
@@ -902,11 +902,11 @@ Which sentence uses active voice?
 
 Active voice has the subject performing the action: "The chef (subject) baked (verb) the cake (object)." Passive voice has the subject receiving the action.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### Q45 — Dangling Modifiers
+### Q45, Dangling Modifiers
 
 Which sentence contains a dangling modifier?
 
@@ -921,11 +921,11 @@ Which sentence contains a dangling modifier?
 
 "Walking through the door" is a participial phrase that should modify a person, but "the room" is the subject. The room cannot walk through the door. The sentence should be: "Walking through the door, she found the room was freezing."
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q46 — Sentence Combining
+### Q46, Sentence Combining
 
 Which is the most effective way to combine these sentences?
 
@@ -942,11 +942,11 @@ Which is the most effective way to combine these sentences?
 
 Option B uses a causal chain (because → causing) to logically connect all three ideas in a single, complex sentence that shows the relationship between events.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q47 — Logical Consistency
+### Q47, Logical Consistency
 
 Which revision best improves the logical flow?
 
@@ -963,11 +963,11 @@ Which revision best improves the logical flow?
 
 Option B combines the ideas into a single sentence that contrasts the importance of healthy habits with the reality that people don't follow them, creating a clear and cohesive argument.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q48 — Conciseness
+### Q48, Conciseness
 
 Which sentence is most concise while preserving the original meaning?
 
@@ -982,13 +982,13 @@ Which sentence is most concise while preserving the original meaning?
 
 **Correct: B** (index 1)
 
-Option B is the most concise: "Due to bad weather" replaces "Due to the fact that the weather was extremely bad" — cutting 7 words while preserving the meaning.
+Option B is the most concise: "Due to bad weather" replaces "Due to the fact that the weather was extremely bad", cutting 7 words while preserving the meaning.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q49 — Rhetorical Effectiveness
+### Q49, Rhetorical Effectiveness
 
 Which sentence is most effective for a persuasive essay introduction?
 
@@ -1001,13 +1001,13 @@ Which sentence is most effective for a persuasive essay introduction?
 
 **Correct: B** (index 1)
 
-Option B is the most engaging — it draws the reader in with a relatable scenario before introducing the topic. Effective introductions hook the reader rather than announcing the topic.
+Option B is the most engaging, it draws the reader in with a relatable scenario before introducing the topic. Effective introductions hook the reader rather than announcing the topic.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### Q50 — Evidence and Reasoning
+### Q50, Evidence and Reasoning
 
 Which sentence best supports the claim that "reading improves vocabulary"?
 
@@ -1022,7 +1022,7 @@ Which sentence best supports the claim that "reading improves vocabulary"?
 
 Option B provides specific evidence (a study, a percentage, a comparison) that directly supports the claim. The other options are either irrelevant or too vague to serve as evidence.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -1067,10 +1067,10 @@ Option B provides specific evidence (a study, a percentage, a comparison) that d
 
 ## Cross-References
 
-- **[SAT Math](math)** — Algebra, problem-solving, and advanced math
-- **[SAT Reading](reading)** — Passage analysis, evidence-based reasoning, and vocabulary
-- **[SAT Writing](writing)** — Grammar, usage, and rhetorical effectiveness
-- **[SAT Test-Taking Strategies](strategies)** — Time management and question techniques
+- **[SAT Math](math)**, Algebra, problem-solving, and advanced math
+- **[SAT Reading](reading)**, Passage analysis, evidence-based reasoning, and vocabulary
+- **[SAT Writing](writing)**, Grammar, usage, and rhetorical effectiveness
+- **[SAT Test-Taking Strategies](strategies)**, Time management and question techniques
 
 ---
 
@@ -1078,8 +1078,8 @@ Option B provides specific evidence (a study, a percentage, a comparison) that d
 
 1. **Time yourself.** The digital SAT has strict time limits. Practise pacing yourself to complete each section on time.
 2. **Eliminate wrong answers.** For multiple choice, eliminate obviously wrong options first, then choose among the remaining.
-3. **Read the questions carefully.** SAT questions often test specific skills — identify what is being asked before answering.
-4. **Use the provided reference sheet.** The SAT provides a math reference sheet — practise using it to save time.
+3. **Read the questions carefully.** SAT questions often test specific skills, identify what is being asked before answering.
+4. **Use the provided reference sheet.** The SAT provides a math reference sheet, practise using it to save time.
 5. **Retake after one week.** Spaced repetition is the most effective way to improve your score. Focus on questions you got wrong.
 
 ---

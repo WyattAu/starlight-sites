@@ -114,7 +114,7 @@ A **regular expression** defines a regular language using operators:
 
 | Operator      | Name          | Meaning                          | Regex  |
 | ------------- | ------------- | -------------------------------- | ------ |
-| $\emptyset$   | Empty set     | Accepts nothing                  | —      |
+| $\emptyset$   | Empty set     | Accepts nothing                  |,      |
 | $\varepsilon$ | Empty string  | Accepts the empty string         | `ε`    |
 | $a$           | Literal       | Accepts the character $a$        | `a`    |
 | $R \cdot S$   | Concatenation | Strings from $R$ followed by $S$ | `RS`   |
@@ -203,13 +203,13 @@ $M = (Q, \Sigma, \Gamma, \delta, q_0, q_{accept}, q_{reject})$ where:
 
 ## 5. The Church-Turing Thesis
 
-**Thesis (not provable — a thesis):** Every effectively computable function is computable by a
+**Thesis (not provable, a thesis):** Every effectively computable function is computable by a
 Turing machine.
 
 Equivalently: any reasonable model of computation (lambda calculus, μ-recursive functions, modern
 Programming languages) can compute exactly the same set of functions as a Turing machine.
 
-This is a **thesis**, not a theorem — it cannot be proven because "effectively computable" is an
+This is a **thesis**, not a theorem, it cannot be proven because "effectively computable" is an
 Informal concept. However, no counterexample has ever been found.
 
 <hr />
@@ -221,7 +221,7 @@ Informal concept. However, no counterexample has ever been found.
 **Halting problem:** Given a description of a Turing machine $M$ and an input $w$Determine whether
 $M$ halts (accepts or rejects) when run on $w$.
 
-**Theorem (Turing, 1936).** The halting problem is **undecidable** — no Turing machine can solve it
+**Theorem (Turing, 1936).** The halting problem is **undecidable**, no Turing machine can solve it
 For all possible inputs.
 
 ### Proof by Contradiction
@@ -502,13 +502,13 @@ An example of each.
 
 **Decidable:** There exists a TM that halts on ALL inputs and correctly answers yes/no.
 
-- Example: "Given a DFA $M$ and a string $w$Does $M$ accept $w$?" — simulate $M$ on $w$; it always
+- Example: "Given a DFA $M$ and a string $w$Does $M$ accept $w$?", simulate $M$ on $w$; it always
   halts.
 
 **Semi-decidable (recursively enumerable):** There exists a TM that halts and accepts on
 Yes-instances, but may loop forever on no-instances.
 
-- Example: "Given a TM $M$ and input $w$Does $M$ halt on $w$?" — run $M$ on $w$; if it halts,
+- Example: "Given a TM $M$ and input $w$Does $M$ halt on $w$?", run $M$ on $w$; if it halts,
   accept. But if $M$ doesn't halt, our verifier loops forever.
 
 **Key difference:** For semi-decidable problems, you can verify a "yes" answer in finite time, but
@@ -529,7 +529,7 @@ Would be decidable (run both semi-decidable machines in parallel; one must event
 The answer).
 
 The halting problem is semi-decidable (run the TM and accept when it halts). If its complement were
-Also semi-decidable, the halting problem would be decidable — but we proved it's not. Therefore, the
+Also semi-decidable, the halting problem would be decidable, but we proved it's not. Therefore, the
 Complement of the halting problem is not semi-decidable. $\square$
 
 </details>
@@ -547,9 +547,9 @@ Polynomial time:
 
 **Verification algorithm:**
 
-1. Check that the certificate is a valid permutation of all $n$ cities — $O(n)$
-2. Sum the distances between consecutive cities (and from last back to first) — $O(n)$
-3. Compare the total to $k$ — $O(1)$
+1. Check that the certificate is a valid permutation of all $n$ cities, $O(n)$
+2. Sum the distances between consecutive cities (and from last back to first), $O(n)$
+3. Compare the total to $k$, $O(1)$
 
 Total verification time: $O(n)$Which is polynomial. Therefore, TSP is in NP. ✓
 
@@ -566,7 +566,7 @@ Would it mean if it were false?
 **Church-Turing Thesis:** Every function that is effectively computable (can be computed by an
 Algorithm) is computable by a Turing machine.
 
-**Why it's a thesis, not a theorem:** "Effectively computable" is an informal, intuitive concept —
+**Why it's a thesis, not a theorem:** "Effectively computable" is an informal, intuitive concept,
 It refers to any step-by-step procedure that a human could follow with pen and paper (or a computer
 Could execute). Since this is not a mathematically precise definition, we cannot formally prove that
 Turing machines capture all of "computation." However, every reasonable model of computation
@@ -574,7 +574,7 @@ Proposed (lambda calculus, μ-recursive functions, register machines, modern pro
 Has been shown to be equivalent to Turing machines, providing overwhelming evidence for the thesis.
 
 **If it were false:** There would exist an effectively computable function that no Turing machine
-Could compute. This would mean our entire understanding of computation is fundamentally incomplete —
+Could compute. This would mean our entire understanding of computation is fundamentally incomplete,
 There would be a type of computation that our current theoretical models cannot capture. It would
 Revolutionise computer science and mathematics, as it would imply the existence of a "super-Turing"
 Model of computation.
@@ -601,9 +601,9 @@ For revision on algorithms and complexity, see
 
 1. **Assuming NFAs are more powerful than DFAs.** NFAs and DFAs accept exactly the same class of languages (the regular languages). NFAs are more convenient to write but not more powerful. The subset construction converts any NFA to an equivalent DFA.
 
-2. **Misapplying the Pumping Lemma.** The Pumping Lemma shows a language is NOT regular by contradiction — you must show that for any pumping length p, there exists a string that cannot be pumped. Students often try to prove a language IS regular using the Pumping Lemma, which is impossible.
+2. **Misapplying the Pumping Lemma.** The Pumping Lemma shows a language is NOT regular by contradiction, you must show that for any pumping length p, there exists a string that cannot be pumped. Students often try to prove a language IS regular using the Pumping Lemma, which is impossible.
 
-3. **Confusing semi-decidable with decidable.** The halting problem is semi-decidable — you can build a machine that accepts when it halts, but you cannot always reject when it doesn't halt (it would loop forever). Decidable problems always halt with the correct answer.
+3. **Confusing semi-decidable with decidable.** The halting problem is semi-decidable, you can build a machine that accepts when it halts, but you cannot always reject when it doesn't halt (it would loop forever). Decidable problems always halt with the correct answer.
 
 4. **Confusing P with NP.** P is the class of problems solvable in polynomial time. NP is the class whose YES-instances can be verified in polynomial time. P ⊆ NP, but whether P = NP is unknown. NP-complete problems are in NP but not known to be in P.
 
@@ -633,8 +633,8 @@ linked above.
 
 ## Intuition
 
-At its core, computability theory asks a deceptively simple question: what can a machine actually do? Imagine you have an infinitely powerful assistant who can follow instructions perfectly and never gets tired. The theory of computation draws a boundary around what that assistant could — and could not — accomplish, no matter how clever the instructions. Automata are the simplest models in this landscape: finite automata can only remember a limited amount of information (like a toggle switch), push-down automata add a stack for slightly more memory, and Turing machines get an unlimited tape. Each step up in power unlocks new categories of problems that become solvable.
+At its core, computability theory asks a deceptively simple question: what can a machine actually do? Imagine you have an infinitely powerful assistant who can follow instructions perfectly and never gets tired. The theory of computation draws a boundary around what that assistant could, and could not, accomplish, no matter how clever the instructions. Automata are the simplest models in this landscape: finite automata can only remember a limited amount of information (like a toggle switch), push-down automata add a stack for slightly more memory, and Turing machines get an unlimited tape. Each step up in power unlocks new categories of problems that become solvable.
 
-The Church-Turing thesis ties this all together by claiming that the Turing machine — despite being a simple, mechanical device — captures everything we informally mean by "computable." Think of it like this: if you can describe a step-by-step procedure that a human could follow with pencil and paper, then a Turing machine can simulate it. This is remarkable because it means all programming languages, no matter how fancy their features, are ultimately equivalent in computational power. The differences between languages are about convenience and efficiency, not about what they can fundamentally compute.
+The Church-Turing thesis ties this all together by claiming that the Turing machine, despite being a simple, mechanical device, captures everything we informally mean by "computable." Think of it like this: if you can describe a step-by-step procedure that a human could follow with pencil and paper, then a Turing machine can simulate it. This is remarkable because it means all programming languages, no matter how fancy their features, are ultimately equivalent in computational power. The differences between languages are about convenience and efficiency, not about what they can fundamentally compute.
 
-Some problems, however, remain beyond reach. The halting problem — determining whether an arbitrary program will eventually stop or run forever — is famously undecidable. No algorithm can solve it for all possible inputs, and this sets a hard ceiling on what automated tools can guarantee. This insight has real consequences: it explains why perfect bug detectors, perfect optimisers, and perfect type-checkers are impossible. Recognising these limits is just as important as understanding what machines can do.
+Some problems, however, remain beyond reach. The halting problem, determining whether an arbitrary program will eventually stop or run forever, is famously undecidable. No algorithm can solve it for all possible inputs, and this sets a hard ceiling on what automated tools can guarantee. This insight has real consequences: it explains why perfect bug detectors, perfect optimisers, and perfect type-checkers are impossible. Recognising these limits is just as important as understanding what machines can do.

@@ -1,9 +1,9 @@
 /**
- * site-data.ts — Derived site metadata from sites.meta.json (SSOT)
+ * site-data.ts, Derived site metadata from sites.meta.json (SSOT)
  *
  * This file derives the site list from sites.meta.json,
  * ensuring a single source of truth for all site references.
- * Never hand-copy site lists — always import from here.
+ * Never hand-copy site lists, always import from here.
  */
 
 import siteMeta from '../../sites.meta.json'

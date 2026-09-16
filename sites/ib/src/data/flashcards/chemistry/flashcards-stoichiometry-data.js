@@ -42,7 +42,7 @@ export const flashcard2 = [
   {
     id: 'ib-chem-stoichiometry-006',
     front: 'Describe the steps for balancing a chemical equation using inspection.',
-    back: 'Steps: (1) Write the correct formulas for all reactants and products. (2) Count atoms of each element on both sides. (3) Balance metals first, then non-metals, then hydrogen and oxygen. (4) Use coefficients (never change subscripts). (5) If fractions appear, multiply the entire equation by the smallest integer to clear them. (6) Check the final equation. Example: Fe2O3 + CO -> Fe + CO2. Fe: put 2 before Fe. O: Fe2O3 has 3O, CO2 has 2O per molecule — LCM = 6. Put 2 before Fe2O3, 3 before CO, 4 before Fe, 6 before CO2.',
+    back: 'Steps: (1) Write the correct formulas for all reactants and products. (2) Count atoms of each element on both sides. (3) Balance metals first, then non-metals, then hydrogen and oxygen. (4) Use coefficients (never change subscripts). (5) If fractions appear, multiply the entire equation by the smallest integer to clear them. (6) Check the final equation. Example: Fe2O3 + CO -> Fe + CO2. Fe: put 2 before Fe. O: Fe2O3 has 3O, CO2 has 2O per molecule, LCM = 6. Put 2 before Fe2O3, 3 before CO, 4 before Fe, 6 before CO2.',
     tags: ['balancing equations'],
     difficulty: 'medium',
   },

@@ -729,11 +729,11 @@ int main() {
 
 ## Intuition
 
-**`std::format` is like a type-safe printf:** Instead of `printf("%d", x)` where a wrong format specifier causes undefined behavior, `std::format("{}", x)` checks types at compile time. It's like the difference between a text message (printf — you might typo the address) and a GPS coordinate (std::format — the compiler knows exactly where to send it). The format string is parsed at compile time, so mismatches are caught before the program runs.
+**`std::format` is like a type-safe printf:** Instead of `printf("%d", x)` where a wrong format specifier causes undefined behavior, `std::format("{}", x)` checks types at compile time. It's like the difference between a text message (printf, you might typo the address) and a GPS coordinate (std::format, the compiler knows exactly where to send it). The format string is parsed at compile time, so mismatches are caught before the program runs.
 
 **Why it matters:** `std::format` replaces the unsafe `printf` family with compile-time checked formatting. It's faster (no parsing at runtime), safer (type mismatches are compile errors), and extensible (you can add formatters for your own types). It's the modern C++ way to format strings.
 
-**The key insight:** `std::format` parses format strings at compile time — type mismatches are caught before the program runs, eliminating undefined behavior.
+**The key insight:** `std::format` parses format strings at compile time, type mismatches are caught before the program runs, eliminating undefined behavior.
 
 
 ```mermaid

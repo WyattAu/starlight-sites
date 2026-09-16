@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Market Structure and Theory of the Firm — Diagnostic Tests
+## Market Structure and Theory of the Firm, Diagnostic Tests
 
 ## Unit Tests
 
@@ -284,7 +284,7 @@ flowchart TD
 
 **Why it matters:** From Uber to local restaurants, market structure determines pricing power, innovation, and consumer welfare. Antitrust laws exist to prevent harmful monopolies.
 
-**The key insight:** In the long run, perfectly competitive firms earn zero economic profit — entry of new firms drives prices down to average cost.
+**The key insight:** In the long run, perfectly competitive firms earn zero economic profit, entry of new firms drives prices down to average cost.
 
 ## Additional DSE Exam-Style Questions
 

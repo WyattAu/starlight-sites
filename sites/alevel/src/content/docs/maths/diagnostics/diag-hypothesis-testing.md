@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Hypothesis Testing — Diagnostic Tests
+## Hypothesis Testing, Diagnostic Tests
 
 ## Unit Tests
 
@@ -167,7 +167,7 @@ and $z = -1.645$ that the two-tailed test would not catch).
 }
 </script>
 
-### UT-2: Type I and Type II Errors — Calculation and Interpretation
+### UT-2: Type I and Type II Errors, Calculation and Interpretation
 
 **Question:**
 

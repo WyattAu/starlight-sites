@@ -1,7 +1,7 @@
 ---
 
 title: "Introduction to Git"
-description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a"
+description: "Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a"
 date: 2025-06-02T21:50:00.000Z
 tags:
   - git
@@ -23,8 +23,8 @@ categories:
 ## What is Git
 
 Git is a **distributed version control system** (DVCS) designed to track changes in source code
-During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce — where a
-Single server holds the authoritative repository — Git treats every clone as a **fully-fledged
+During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
+Single server holds the authoritative repository, Git treats every clone as a **fully-fledged
 Repository** with complete history. There is no intrinsic distinction between a "server" and a
 "client"; the difference is purely social (who pushes where).
 
@@ -43,7 +43,7 @@ Workflow:
 
 ### 1. Distributed by Default
 
-Every repository clone contains the **complete object database** — every commit, every tree, every
+Every repository clone contains the **complete object database**, every commit, every tree, every
 Blob. This means:
 
 - **Offline operation**: `git log``git diff``git blame``git show` all work without network access.
@@ -53,14 +53,14 @@ Blob. This means:
 - **Resilience**: No single point of failure. If the remote server burns down, any clone can
   recreate it entirely with `git push --mirror`.
 
-The cost is **disk space** — a full clone of the Linux kernel is $\sim$5 GB. Mitigations exist
+The cost is **disk space**, a full clone of the Linux kernel is $\sim$5 GB. Mitigations exist
 (shallow clones, sparse checkout, partial clone), but the default is to replicate everything.
 
 ### 2. Snapshots, Not Diffs
 
 Most VCS (CVS, Subversion, Perforce) store a series of **deltas**: file $v_2$ is expressed as "file
 $v_1$ with these lines changed." Git instead stores **full snapshots** of the entire project tree at
-Each commit. If a file has not changed between two commits, Git does not store it again — it stores
+Each commit. If a file has not changed between two commits, Git does not store it again, it stores
 A pointer to the identical blob object.
 
 This design choice has deep implications:
@@ -68,7 +68,7 @@ This design choice has deep implications:
 - **Content-addressable storage**: Every object is identified by the SHA-1 hash (or SHA-256, as of
   Git 2.29) of its content. Two identical files at different paths or in different commits produce
   the same blob object. This deduplication is automatic and transparent.
-- **Fast branching**: Creating a branch is a $O(1)$ operation — it writes a 41-byte reference file.
+- **Fast branching**: Creating a branch is a $O(1)$ operation, it writes a 41-byte reference file.
   There is no copying of file data.
 - **Merge correctness**: Three-way merge compares full tree snapshots, not a chain of deltas, which
   makes it robust against complex history topologies.
@@ -126,7 +126,7 @@ Git is optimized for text files.
 ### Essential Configuration
 
 ```bash
-## Identity — required for commits
+## Identity, required for commits
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
@@ -139,7 +139,7 @@ git config --global core.editor "vim"
 # Default pull strategy: rebase instead of merge (see [Remotes](./04-remotes-and-workflows/01-remote-operations))
 git config --global pull.rebase true
 
-# Credential helper — avoids typing passwords repeatedly
+# Credential helper, avoids typing passwords repeatedly
 git config --global credential.helper cache --timeout=3600  # 1 hour cache
 ```
 
@@ -194,7 +194,7 @@ flowchart TB
     style HEAD fill:#f3e5f5
 ```
 
-These three areas — **working directory**, **index**, and **repository** — form the foundation of
+These three areas, **working directory**, **index**, and **repository**, form the foundation of
 Every Git operation. Understanding the transitions between them is essential. See
 [The Three Trees](./02-fundamentals/01-the-three-trees) for a deep dive.
 

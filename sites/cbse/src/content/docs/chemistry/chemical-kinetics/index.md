@@ -56,7 +56,7 @@ Chemical kinetics studies the rate of chemical reactions and the factors affecti
 - Arrhenius equation: $k = Ae^{-E_a/RT}$ relates rate constant to temperature
 - Activation energy $E_a$ is the minimum energy required for reaction
 
-## Worked Example 1 — Determining Rate Law from Experimental Data
+## Worked Example 1, Determining Rate Law from Experimental Data
 
 **Problem:** For the reaction $2\text{NO} + \text{O}_2 \rightarrow 2\text{NO}_2$, the following initial rates are observed:
 
@@ -87,7 +87,7 @@ $$k = \frac{\text{rate}}{[\text{NO}]^2[\text{O}_2]} = \frac{2.5 \times 10^{-5}}{
 
 **Common mistake:** Assuming the rate law from the stoichiometric coefficients. The exponents must be determined experimentally, not from the balanced equation.
 
-## Worked Example 2 — First-Order Half-Life
+## Worked Example 2, First-Order Half-Life
 
 **Problem:** A first-order reaction has a half-life of 20 minutes. What percentage of the reactant remains after 60 minutes?
 
@@ -103,7 +103,7 @@ Percentage remaining: $12.5\%$
 
 **Common mistake:** Forgetting that first-order half-life is constant. Some students try to use integrated rate law unnecessarily when the half-life method is simpler.
 
-## Worked Example 3 — Arrhenius Equation
+## Worked Example 3, Arrhenius Equation
 
 **Problem:** The rate constant of a reaction doubles when the temperature increases from 300 K to 310 K. Calculate the activation energy.
 

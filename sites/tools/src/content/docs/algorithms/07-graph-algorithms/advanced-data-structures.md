@@ -17,11 +17,11 @@ description: "Algorithms Advanced Data Structures notes covering key definitions
 
 ## Intuition
 
-**Trees that remember ranges:** Segment trees are like a librarian who knows the sum of every shelf range instantly — instead of counting books one by one, they pre-compute summaries at every level, so any range query is answered by combining a few pre-computed values.
+**Trees that remember ranges:** Segment trees are like a librarian who knows the sum of every shelf range instantly, instead of counting books one by one, they pre-compute summaries at every level, so any range query is answered by combining a few pre-computed values.
 
 **Why it matters:** Segment trees enable O(log n) range queries and updates, which is crucial for competitive programming, database indexing, and computational geometry where you need to query and modify intervals efficiently.
 
-**The key insight:** The power of segment trees comes from pre-computation — by storing summaries at every level of the tree, you trade O(n) space for O(log n) query time, which is a massive improvement for repeated range queries.
+**The key insight:** The power of segment trees comes from pre-computation, by storing summaries at every level of the tree, you trade O(n) space for O(log n) query time, which is a massive improvement for repeated range queries.
 
 ## Segment Tree
 
@@ -213,7 +213,7 @@ class LazySegmentTree:
 ```python
 class IterativeSegmentTree:
     """
-    Iterative segment tree — faster in practice due to no recursion overhead.
+    Iterative segment tree, faster in practice due to no recursion overhead.
     Build: O(n)
     Point update: O(log n)
     Range query: O(log n)
@@ -507,8 +507,8 @@ Added in a specific order). Process edges in reverse order.
 def offline_connectivity(n, edges, queries):
     """
     Answer connectivity queries offline.
-    edges: list of (u, v, time) — edge added at given time
-    queries: list of (time, u, v) — connectivity query at given time
+    edges: list of (u, v, time), edge added at given time
+    queries: list of (time, u, v), connectivity query at given time
     Time: O((E + Q) * alpha(n))
     """
     dsu = DSU(n)
@@ -843,7 +843,7 @@ Nodes only on the path that is modified, sharing unchanged subtrees with the pre
 class PersistentSegmentTree:
     """
     Persistent segment tree for range sum queries.
-    Update: O(log n) — creates new version
+    Update: O(log n), creates new version
     Query on any version: O(log n)
     Space: O(n log n) for n updates
     """
@@ -975,7 +975,7 @@ A way that preserves locality better than block-based sorting.
 
 The most common bug in segment tree implementations is incorrect indexing. The children of node `i`
 Are `2*i+1` and `2*i+2` (0-based). For iterative segment trees, the leaf nodes start at index `size`
-(the next power of 2). Off-by-one errors in the query boundaries are also extremely common — always
+(the next power of 2). Off-by-one errors in the query boundaries are also extremely common, always
 Test with single-element queries and full-range queries.
 
 ### 2. Fenwick Tree 1-based vs 0-based
@@ -992,7 +992,7 @@ Order matters: parent must be pushed before children are queried.
 
 ### 4. Sparse Table Cannot Handle Updates
 
-Sparse tables are static — they cannot handle point updates or range updates. If you need updates,
+Sparse tables are static, they cannot handle point updates or range updates. If you need updates,
 Use a segment tree or Fenwick tree. Attempting to "update" a sparse table by recomputing affected
 Entries is $O(n \log n)$ per update, which defeats the purpose.
 

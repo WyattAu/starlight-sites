@@ -224,9 +224,9 @@ flowchart TD
 
 ## Intuition
 
-**Testing your algorithmic knowledge:** Diagnostic tests are like a mechanic checkup for your understanding — they quickly reveal which concepts you have mastered and which need more work, so you can focus your study time effectively.
+**Testing your algorithmic knowledge:** Diagnostic tests are like a mechanic checkup for your understanding, they quickly reveal which concepts you have mastered and which need more work, so you can focus your study time effectively.
 
-**Why it matters:** Self-assessment prevents the illusion of competence — you might think you understand binary search until you are asked to implement it under pressure. Diagnostic tests expose these gaps before they become problems.
+**Why it matters:** Self-assessment prevents the illusion of competence, you might think you understand binary search until you are asked to implement it under pressure. Diagnostic tests expose these gaps before they become problems.
 
 **The key insight:** If you cannot explain why an answer is correct (not just which option is right), you do not truly understand the concept. Use diagnostic tests as a starting point for deeper study, not as an endpoint.
 

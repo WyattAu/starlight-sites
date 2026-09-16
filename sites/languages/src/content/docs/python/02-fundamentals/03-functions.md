@@ -149,7 +149,7 @@ print(triple(5))   # 15
 print(double(10))  # 20
 
 print(type(double))  # <class 'function'>
-print(double.__closure__)  # (<cell at 0x...: int object at 0x...>,)
+print(double.__closure__)  # (<cell at 0x...: int object at 0x...>)
 ```
 
 `multiplier` does not compute a result -- it **manufactures a function**. The returned `inner`
@@ -331,7 +331,7 @@ def make_adder(n: int):
 
 add_five = make_adder(5)
 
-print(add_five.__closure__)      # (<cell at 0x...: int object at 0x...>,)
+print(add_five.__closure__)      # (<cell at 0x...: int object at 0x...>)
 print(add_five.__closure__[0].cell_contents)  # 5
 print(type(add_five.__closure__[0]))          # <class 'cell'>
 ```
@@ -339,7 +339,7 @@ print(type(add_five.__closure__[0]))          # <class 'cell'>
 The `__code__` attribute of the function tells you which variables are free:
 
 ```python
-print(add_five.__code__.co_freevars)  # ('n',)
+print(add_five.__code__.co_freevars)  # ('n')
 ```
 
 This is how CPython implements closures: free variables are not stored as local variables in the
@@ -1525,8 +1525,8 @@ linked above.
 
 ## Intuition
 
-Functions in Python are first-class objects — they can be assigned to variables, passed as arguments, and returned from other functions just like integers or strings. This is the foundation for everything that follows: closures let a function "remember" the environment in which it was created, even after that environment has finished executing. Decorators are directly functions that take a function and return a modified version of it, using this closure mechanism under the hood. The `@decorator` syntax is just syntactic sugar for a function call.
+Functions in Python are first-class objects, they can be assigned to variables, passed as arguments, and returned from other functions just like integers or strings. This is the foundation for everything that follows: closures let a function "remember" the environment in which it was created, even after that environment has finished executing. Decorators are directly functions that take a function and return a modified version of it, using this closure mechanism under the hood. The `@decorator` syntax is just syntactic sugar for a function call.
 
 The key mental model is that decorators are transparent wrappers. When you write `@timer` above a function, Python calls `timer(your_function)` and replaces the name `your_function` with the returned wrapper. Every time you later call `your_function()`, you are actually calling the wrapper, which adds its behavior (timing, logging, retrying) and then delegates to the original. `functools.wraps` ensures the wrapper carries the original function's name, docstring, and metadata so debugging and introspection still work.
 
-Closures solve the problem of carrying state between function calls without using global variables or classes. A closure captures variables by reference, not by value — which is powerful but can be surprising in loops where all closures share the same variable. The `nonlocal` keyword lets an inner function write to a captured variable rather than just reading it. Together, closures and decorators enable elegant patterns for caching, validation, retry logic, and access control, all composed declaratively with `@` syntax.
+Closures solve the problem of carrying state between function calls without using global variables or classes. A closure captures variables by reference, not by value, which is powerful but can be surprising in loops where all closures share the same variable. The `nonlocal` keyword lets an inner function write to a captured variable rather than just reading it. Together, closures and decorators enable elegant patterns for caching, validation, retry logic, and access control, all composed declaratively with `@` syntax.

@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Basic Economic Concepts — Diagnostic Tests
+## Basic Economic Concepts, Diagnostic Tests
 
 ## Unit Tests
 
@@ -472,11 +472,11 @@ flowchart TD
 
 ## Intuition
 
-**A seesaw of choices:** Economics is about trade-offs — the PPC shows that producing more of one thing means less of another. Opportunity cost is what you give up, not what you spend.
+**A seesaw of choices:** Economics is about trade-offs, the PPC shows that producing more of one thing means less of another. Opportunity cost is what you give up, not what you spend.
 
-**Why it matters:** Every decision — personal, business, or government — involves scarcity. Understanding opportunity cost and the PPC helps you see the true cost of choices.
+**Why it matters:** Every decision, personal, business, or government, involves scarcity. Understanding opportunity cost and the PPC helps you see the true cost of choices.
 
-**The key insight:** There's no such thing as a free lunch — every choice has an opportunity cost, and the PPC visualizes the trade-offs a society faces.
+**The key insight:** There's no such thing as a free lunch, every choice has an opportunity cost, and the PPC visualizes the trade-offs a society faces.
 
 ## Common Pitfalls
 

@@ -1,7 +1,7 @@
 ---
 title: "About This Site | language-tests"
 date: 2026-07-24
-description: "About Wyatt's Notes Language Tests resources — experience, expertise, and credentials behind IELTS, TOEFL, and language proficiency test study materials."
+description: "About Wyatt's Notes Language Tests resources, experience, expertise, and credentials behind IELTS, TOEFL, and language proficiency test study materials."
 tags:
   - about
   - language-tests
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Language Tests
+## About Wyatt's Notes, Language Tests
 
 Wyatt's Notes provides thorough study materials for language proficiency tests. These notes cover IELTS, TOEFL, and other standardised language assessments, building the skills needed to achieve target scores for academic and immigration purposes.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across language testing and international qualification
 
 ## Related Sites
 
-- **[Admissions](https://admissions.wyattau.com)** — University admissions guidance
-- **[SAT](https://sat.wyattau.com)** — US standardised test preparation
-- **[Civics Tests](https://civics-tests.wyattau.com)** — US citizenship test resources
+- **[Admissions](https://admissions.wyattau.com)**, University admissions guidance
+- **[SAT](https://sat.wyattau.com)**, US standardised test preparation
+- **[Civics Tests](https://civics-tests.wyattau.com)**, US citizenship test resources
 
 ## Explore the Site
 

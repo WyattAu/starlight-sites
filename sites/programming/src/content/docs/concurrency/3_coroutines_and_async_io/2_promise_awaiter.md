@@ -74,7 +74,7 @@ Calls [N4950 §9.5.4.3].
            // control returns to caller/resumer
        } else if constexpr (requires { { a.await_suspend(handle) } -> std::convertible_to<bool>; }) {
            if (!a.await_suspend(handle)) {
-               // immediate resumption — goto resume_point
+               // immediate resumption, goto resume_point
            } else {
                // control returns to caller/resumer
            }
@@ -141,7 +141,7 @@ Caller. The **awaiter type** is the mechanism that controls individual suspensio
 
 | Aspect      | Promise Type                                         | Awaiter Type                                          |
 | :---------- | :--------------------------------------------------- | :---------------------------------------------------- |
-| Lifetime    | Lives for the entire duration of the coroutine frame | Temporary — lives only for the duration of `co_await` |
+| Lifetime    | Lives for the entire duration of the coroutine frame | Temporary, lives only for the duration of `co_await` |
 | Purpose     | Manages coroutine state, return values, exceptions   | Controls individual suspend/resume behavior           |
 | Required by | Every coroutine (via `promise_type` alias)           | Every `co_await` expression                           |
 | Key methods | `get_return_object``initial_suspend``final_suspend`  | `await_ready``await_suspend``await_resume`            |
@@ -434,7 +434,7 @@ int main() {
     t.handle.resume();
     // After resume: coroutine reaches final_suspend which is suspend_never,
     // so the frame is destroyed automatically.
-    // handle is now invalid — do NOT call handle.destroy() again.
+    // handle is now invalid, do NOT call handle.destroy() again.
     // ~ScopedTask checks handle, but the handle is already done.
 }
 ```
@@ -447,7 +447,7 @@ Behavior**. If `final_suspend` returns `std::suspend_always`You **must** eventua
 ## Symmetric Transfer and `await_suspend` Returning a Handle
 
 When `await_suspend` returns a `coroutine_handle<Z>`The calling coroutine is suspended and the
-Returned handle is resumed immediately — without unwinding the stack back to the caller. This is
+Returned handle is resumed immediately, without unwinding the stack back to the caller. This is
 **symmetric transfer** [N4950 §9.5.4.3]. It is the foundational mechanism for building coroutine
 Chains without stack overflow:
 
@@ -528,7 +528,7 @@ Deep chains. With symmetric transfer, the resumption is a tail call at the ABI l
 
 When an exception escapes the coroutine body (i.e., it is not caught by a `try`/`catch` within the
 Coroutine), the promise's `unhandled_exception()` method is called [N4950 §9.5.4.3]. The standard
-Library provides no default implementation — the promise type must define this method.
+Library provides no default implementation, the promise type must define this method.
 
 ### Exception Storage Pattern
 
@@ -731,11 +731,11 @@ int main() {
 
 ## Intuition
 
-**The promise type is like a contract between the coroutine and its caller:** The promise defines what happens when the coroutine is created (initial_suspend), when it produces a value (yield_value), when it finishes (return_value/return_void), and what happens if it throws (unhandled_exception). The awaiter is like a traffic light — it decides whether the coroutine should stop (suspend) or keep going (resume) when it hits a `co_await`.
+**The promise type is like a contract between the coroutine and its caller:** The promise defines what happens when the coroutine is created (initial_suspend), when it produces a value (yield_value), when it finishes (return_value/return_void), and what happens if it throws (unhandled_exception). The awaiter is like a traffic light, it decides whether the coroutine should stop (suspend) or keep going (resume) when it hits a `co_await`.
 
-**Why it matters:** Understanding the distinction between promise and awaiter is crucial for writing custom coroutine types. The promise controls the coroutine's lifecycle, while the awaiter controls individual suspension points. Mix them up and you get unpredictable behavior — like a traffic light that controls the entire intersection instead of just one direction.
+**Why it matters:** Understanding the distinction between promise and awaiter is crucial for writing custom coroutine types. The promise controls the coroutine's lifecycle, while the awaiter controls individual suspension points. Mix them up and you get unpredictable behavior, like a traffic light that controls the entire intersection instead of just one direction.
 
-**The key insight:** `await_transform` in the promise type lets you customize what `co_await` does for each expression — this is how you implement `task` types that don't suspend at every `co_await`.
+**The key insight:** `await_transform` in the promise type lets you customize what `co_await` does for each expression, this is how you implement `task` types that don't suspend at every `co_await`.
 
 ## Common Pitfalls
 
@@ -755,7 +755,7 @@ Always either rethrow, store, or terminate in `unhandled_exception`.
 
 **4. `await_transform` hides the original type:** When the promise defines `await_transform`Every
 `co_await` expression passes through it. If you intend to `co_await` a type that does not match any
-`await_transform` overload, the compiler will error — the raw expression is never used as the
+`await_transform` overload, the compiler will error, the raw expression is never used as the
 Awaiter. Provide a generic fallback `template&lt;typename T&gt; auto await_transform(T&& t)` to
 Forward unsupported types unchanged.
 

@@ -54,7 +54,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Computer networking is the backbone of modern computing. Every application that communicates over the internet — web browsers, mobile apps, APIs, databases, streaming services — relies on networking protocols and infrastructure. Understanding how networks work is essential for building reliable, secure, and performant systems.
+Computer networking is the backbone of modern computing. Every application that communicates over the internet, web browsers, mobile apps, APIs, databases, streaming services, relies on networking protocols and infrastructure. Understanding how networks work is essential for building reliable, secure, and performant systems.
 
 This hub page maps every resource on this site. The learning path takes you from the foundational OSI model through IP addressing, transport protocols, application protocols, security, and network tools. Each section includes practical examples, packet captures, and troubleshooting techniques.
 
@@ -82,20 +82,20 @@ The OSI (Open Systems Interconnection) model and the TCP/IP model are the concep
 
 ### Topic Notes
 
-- [OSI and TCP/IP Overview](01-osi-model) — the seven-layer OSI model and the four-layer TCP/IP model
-- [OSI and TCP/IP](01-osi-model/osi-and-tcp-ip) — layer functions, protocol mapping, and encapsulation
+- [OSI and TCP/IP Overview](01-osi-model), the seven-layer OSI model and the four-layer TCP/IP model
+- [OSI and TCP/IP](01-osi-model/osi-and-tcp-ip), layer functions, protocol mapping, and encapsulation
 
 ### Key Concepts
 
 The **OSI model** divides networking into seven layers, each with specific responsibilities:
 
-1. **Physical** — raw bit transmission over physical media (cables, radio waves)
-2. **Data Link** — node-to-node delivery, MAC addresses, and Ethernet frames
-3. **Network** — end-to-end routing, IP addresses, and packet forwarding
-4. **Transport** — reliable (TCP) or unreliable (UDP) data delivery between processes
-5. **Session** — session management and dialog control
-6. **Presentation** — data formatting, encryption, and compression
-7. **Application** — network services to user applications (HTTP, DNS, SMTP)
+1. **Physical**, raw bit transmission over physical media (cables, radio waves)
+2. **Data Link**, node-to-node delivery, MAC addresses, and Ethernet frames
+3. **Network**, end-to-end routing, IP addresses, and packet forwarding
+4. **Transport**, reliable (TCP) or unreliable (UDP) data delivery between processes
+5. **Session**, session management and dialog control
+6. **Presentation**, data formatting, encryption, and compression
+7. **Application**, network services to user applications (HTTP, DNS, SMTP)
 
 The **TCP/IP model** simplifies this into four layers: Link, Internet, Transport, and Application. In practice, TCP/IP is the model used on the internet.
 
@@ -109,15 +109,15 @@ IP addressing is the mechanism that allows packets to be routed from source to d
 
 ### Topic Notes
 
-- [IP Addressing Overview](02-ip-addressing) — IP addresses, subnets, and routing
-- [IP Addressing](02-ip-addressing/ip-addressing) — IPv4, IPv6, subnetting, and CIDR notation
-- [Subnetting Workshop](02-ip-addressing/subnetting-workshop) — hands-on subnet calculation practice
+- [IP Addressing Overview](02-ip-addressing), IP addresses, subnets, and routing
+- [IP Addressing](02-ip-addressing/ip-addressing), IPv4, IPv6, subnetting, and CIDR notation
+- [Subnetting Workshop](02-ip-addressing/subnetting-workshop), hands-on subnet calculation practice
 
 ### Key Concepts
 
-**IPv4 addresses** are 32-bit numbers written in dotted-decimal notation (e.g., 192.168.1.1). There are roughly 4.3 billion IPv4 addresses — not enough for every device on the internet, which is why NAT (Network Address Translation) and IPv6 exist.
+**IPv4 addresses** are 32-bit numbers written in dotted-decimal notation (e.g., 192.168.1.1). There are roughly 4.3 billion IPv4 addresses, not enough for every device on the internet, which is why NAT (Network Address Translation) and IPv6 exist.
 
-**Subnetting** divides a network into smaller sub-networks. A subnet mask determines which portion of an IP address identifies the network and which identifies the host. CIDR notation (e.g., /24) specifies the prefix length — the number of network bits.
+**Subnetting** divides a network into smaller sub-networks. A subnet mask determines which portion of an IP address identifies the network and which identifies the host. CIDR notation (e.g., /24) specifies the prefix length, the number of network bits.
 
 **IPv6 addresses** are 128-bit numbers written in hexadecimal with colons (e.g., 2001:0db8:85a3::8a2e:0370:7334). IPv6 eliminates the need for NAT and provides a virtually unlimited address space.
 
@@ -131,16 +131,16 @@ TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two
 
 ### Topic Notes
 
-- [TCP and UDP Overview](03-tcp-udp) — transport layer protocols and their trade-offs
-- [TCP and UDP](03-tcp-udp/tcp-and-udp) — connection management, flow control, and error handling
-- [TCP State Machine](03-tcp-udp/tcp-state-machine) — connection states, SYN, FIN, and TIME_WAIT
-- [UDP Deep Dive](03-tcp-udp/udp-deep-dive) — datagram structure, reliability, and usage patterns
+- [TCP and UDP Overview](03-tcp-udp), transport layer protocols and their trade-offs
+- [TCP and UDP](03-tcp-udp/tcp-and-udp), connection management, flow control, and error handling
+- [TCP State Machine](03-tcp-udp/tcp-state-machine), connection states, SYN, FIN, and TIME_WAIT
+- [UDP Deep Dive](03-tcp-udp/udp-deep-dive), datagram structure, reliability, and usage patterns
 
 ### Key Concepts
 
 **TCP** provides reliable, ordered, byte-stream delivery. It uses a three-way handshake (SYN, SYN-ACK, ACK) to establish connections, sequence numbers for ordering, acknowledgements for reliability, and flow control to prevent overwhelming the receiver.
 
-**UDP** provides unreliable, connectionless, datagram delivery. It has no handshake, no ordering, and no retransmission. This makes it fast and lightweight — ideal for DNS queries, real-time video, gaming, and any application where speed matters more than perfect reliability.
+**UDP** provides unreliable, connectionless, datagram delivery. It has no handshake, no ordering, and no retransmission. This makes it fast and lightweight, ideal for DNS queries, real-time video, gaming, and any application where speed matters more than perfect reliability.
 
 **TCP flow control** uses a sliding window mechanism. The receiver advertises how much data it can buffer; the sender limits its transmission rate accordingly. This prevents the sender from overwhelming the receiver's buffer.
 
@@ -150,13 +150,13 @@ TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are the two
 
 ## DNS
 
-DNS (Domain Name System) translates human-readable domain names into IP addresses. It is one of the most critical infrastructure services on the internet — without it, every web request would require users to remember IP addresses.
+DNS (Domain Name System) translates human-readable domain names into IP addresses. It is one of the most critical infrastructure services on the internet, without it, every web request would require users to remember IP addresses.
 
 ### Topic Notes
 
-- [DNS Overview](04-dns) — domain hierarchy, resolution process, and record types
-- [DNS Architecture](04-dns/dns-architecture) — recursive resolvers, root servers, and caching
-- [DNS](04-dns/dns) — record types (A, AAAA, CNAME, MX, TXT), TTL, and troubleshooting
+- [DNS Overview](04-dns), domain hierarchy, resolution process, and record types
+- [DNS Architecture](04-dns/dns-architecture), recursive resolvers, root servers, and caching
+- [DNS](04-dns/dns), record types (A, AAAA, CNAME, MX, TXT), TTL, and troubleshooting
 
 ### Key Concepts
 
@@ -170,7 +170,7 @@ DNS (Domain Name System) translates human-readable domain names into IP addresse
 - **MX** specifies mail servers for a domain
 - **TXT** stores arbitrary text (used for verification and SPF records)
 
-**DNS caching** occurs at every level — browser, operating system, recursive resolver, and authoritative server. The TTL (Time to Live) determines how long a record can be cached. Lower TTLs mean faster propagation of changes but more DNS queries.
+**DNS caching** occurs at every level, browser, operating system, recursive resolver, and authoritative server. The TTL (Time to Live) determines how long a record can be cached. Lower TTLs mean faster propagation of changes but more DNS queries.
 
 ---
 
@@ -180,10 +180,10 @@ HTTP (HyperText Transfer Protocol) is the foundation of the World Wide Web. HTTP
 
 ### Topic Notes
 
-- [HTTP Overview](05-http-https) — request/response model, methods, and status codes
-- [HTTP](05-http-https/http) — headers, cookies, caching, and connection management
-- [HTTP/2 and HTTP/3](05-http-https/http-2-and-3) — multiplexing, server push, and QUIC
-- [WebSockets](05-http-https/websockets) — bidirectional communication for real-time applications
+- [HTTP Overview](05-http-https), request/response model, methods, and status codes
+- [HTTP](05-http-https/http), headers, cookies, caching, and connection management
+- [HTTP/2 and HTTP/3](05-http-https/http-2-and-3), multiplexing, server push, and QUIC
+- [WebSockets](05-http-https/websockets), bidirectional communication for real-time applications
 
 ### Key Concepts
 
@@ -197,17 +197,17 @@ HTTP (HyperText Transfer Protocol) is the foundation of the World Wide Web. HTTP
 
 ## TLS
 
-TLS (Transport Layer Security) provides encryption, authentication, and integrity for network communication. HTTPS is HTTP over TLS — every secure website uses TLS.
+TLS (Transport Layer Security) provides encryption, authentication, and integrity for network communication. HTTPS is HTTP over TLS, every secure website uses TLS.
 
 ### Topic Notes
 
-- [TLS Overview](06-tls) — encryption, certificates, and the handshake process
-- [TLS](06-tls/tls) — symmetric and asymmetric encryption, certificate chains, and trust
-- [TLS Internals](06-tls/tls-internals) — cipher suites, key exchange, and protocol versions
+- [TLS Overview](06-tls), encryption, certificates, and the handshake process
+- [TLS](06-tls/tls), symmetric and asymmetric encryption, certificate chains, and trust
+- [TLS Internals](06-tls/tls-internals), cipher suites, key exchange, and protocol versions
 
 ### Key Concepts
 
-The **TLS handshake** establishes a secure connection. The client and server negotiate cipher suites, exchange keys, and verify certificates. This happens before any application data is sent — the handshake is transparent to the user.
+The **TLS handshake** establishes a secure connection. The client and server negotiate cipher suites, exchange keys, and verify certificates. This happens before any application data is sent, the handshake is transparent to the user.
 
 **Symmetric encryption** (AES, ChaCha20) encrypts data with a shared key. It is fast and suitable for bulk data. **Asymmetric encryption** (RSA, ECDSA) uses a public-private key pair. It is used during the handshake to exchange the symmetric key, not for bulk data.
 
@@ -221,9 +221,9 @@ Network tools are essential for diagnosing, debugging, and understanding network
 
 ### Topic Notes
 
-- [Network Tools Overview](07-network-tools) — diagnostic tools and their usage
-- [Network Tools](07-network-tools/network-tools) — ping, traceroute, netstat, ss, and tcpdump
-- [Traffic Analysis](07-network-tools/traffic-analysis) — packet captures, Wireshark, and protocol analysis
+- [Network Tools Overview](07-network-tools), diagnostic tools and their usage
+- [Network Tools](07-network-tools/network-tools), ping, traceroute, netstat, ss, and tcpdump
+- [Traffic Analysis](07-network-tools/traffic-analysis), packet captures, Wireshark, and protocol analysis
 
 ### Key Concepts
 
@@ -231,7 +231,7 @@ Network tools are essential for diagnosing, debugging, and understanding network
 
 **traceroute** (or tracert on Windows) shows the path packets take to a destination. It identifies which router is causing delays or packet loss.
 
-**tcpdump** captures raw packet data on a network interface. It is the most powerful tool for understanding exactly what is happening on the wire. Learn its filter syntax — it is indispensable for debugging.
+**tcpdump** captures raw packet data on a network interface. It is the most powerful tool for understanding exactly what is happening on the wire. Learn its filter syntax, it is indispensable for debugging.
 
 ---
 
@@ -241,14 +241,14 @@ Layer 2 handles communication within a single network segment. Ethernet is the d
 
 ### Topic Notes
 
-- [Layer 2 Overview](08-layer2) — Ethernet, MAC addresses, and switching
-- [Layer 2 and Ethernet](08-layer2/layer2-and-ethernet) — frame structure, VLANs, and Spanning Tree Protocol
+- [Layer 2 Overview](08-layer2), Ethernet, MAC addresses, and switching
+- [Layer 2 and Ethernet](08-layer2/layer2-and-ethernet), frame structure, VLANs, and Spanning Tree Protocol
 
 ### Key Concepts
 
-**MAC addresses** are 48-bit hardware addresses burned into network interfaces. They are used for local delivery within a network segment — once a packet reaches the destination network, ARP resolves the IP address to a MAC address.
+**MAC addresses** are 48-bit hardware addresses burned into network interfaces. They are used for local delivery within a network segment, once a packet reaches the destination network, ARP resolves the IP address to a MAC address.
 
-**VLANs** (Virtual LANs) logically segment a physical network. Devices on different VLANs cannot communicate directly — they must go through a router. VLANs improve security and reduce broadcast traffic.
+**VLANs** (Virtual LANs) logically segment a physical network. Devices on different VLANs cannot communicate directly, they must go through a router. VLANs improve security and reduce broadcast traffic.
 
 ---
 
@@ -258,14 +258,14 @@ Wireless networking uses radio waves to provide network connectivity without phy
 
 ### Topic Notes
 
-- [Wireless Overview](09-wireless) — Wi-Fi standards, security, and configuration
-- [Wireless Networking](09-wireless/wireless-networking) — 802.11 standards, WPA3, and channel management
+- [Wireless Overview](09-wireless), Wi-Fi standards, security, and configuration
+- [Wireless Networking](09-wireless/wireless-networking), 802.11 standards, WPA3, and channel management
 
 ### Key Concepts
 
 **Wi-Fi standards** (802.11a/b/g/n/ac/ax) define speed, range, and frequency bands. Modern networks use Wi-Fi 6 (802.11ax) for improved performance in dense environments.
 
-**WPA3** is the current Wi-Fi security standard. It provides stronger encryption and protection against offline dictionary attacks. Never use WEP or WPA — they are broken.
+**WPA3** is the current Wi-Fi security standard. It provides stronger encryption and protection against offline dictionary attacks. Never use WEP or WPA, they are broken.
 
 ---
 
@@ -275,8 +275,8 @@ Email and application protocols provide specific services over the network. Unde
 
 ### Topic Notes
 
-- [Email and Application Protocols Overview](10-email-and-app-protocols) — email, SSH, FTP, and other protocols
-- [Email and Application Protocols](10-email-and-app-protocols/email-and-application-protocols) — SMTP, IMAP, POP3, SSH, and their security
+- [Email and Application Protocols Overview](10-email-and-app-protocols), email, SSH, FTP, and other protocols
+- [Email and Application Protocols](10-email-and-app-protocols/email-and-application-protocols), SMTP, IMAP, POP3, SSH, and their security
 
 ### Key Concepts
 
@@ -288,7 +288,7 @@ Email and application protocols provide specific services over the network. Unde
 
 ## Learning Path
 
-Networking knowledge builds in layers — literally. Follow this progression.
+Networking knowledge builds in layers, literally. Follow this progression.
 
 ### Stage 1: Foundations (Weeks 1–4)
 
@@ -304,14 +304,14 @@ Networking knowledge builds in layers — literally. Follow this progression.
 
 ### Stage 3: Advanced Topics (Weeks 9–12)
 
-- Master network tools — tcpdump, Wireshark, traceroute
-- Study Layer 2 — Ethernet, VLANs, and switching
+- Master network tools, tcpdump, Wireshark, traceroute
+- Study Layer 2, Ethernet, VLANs, and switching
 - Learn wireless networking and email protocols
 
 ### Stage 4: Expert (Weeks 13–16)
 
-- Study network security — firewalls, IDS/IPS, and VPNs
-- Learn cloud networking — VPCs, load balancers, and CDNs
+- Study network security, firewalls, IDS/IPS, and VPNs
+- Learn cloud networking, VPCs, load balancers, and CDNs
 - Build and debug real networked applications
 
 ---
@@ -320,11 +320,11 @@ Networking knowledge builds in layers — literally. Follow this progression.
 
 Wyatt's Notes is a network of interconnected study sites. The networking content connects to related material:
 
-- **[Security Guide](https://security.wyattau.com/hub)** — network security, cryptography, and penetration testing
-- **[C++ Programming Guide](https://cpp.wyattau.com/hub)** — if you are building networked applications in C++
-- **[Python Programming Guide](https://python.wyattau.com/hub)** — if you are using Python for networking (socket, asyncio)
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — how databases communicate over networks
-- **[Computer Science Guide](https://computer-science.wyattau.com/hub)** — algorithms and protocols that underpin networking
+- **[Security Guide](https://security.wyattau.com/hub)**, network security, cryptography, and penetration testing
+- **[C++ Programming Guide](https://cpp.wyattau.com/hub)**, if you are building networked applications in C++
+- **[Python Programming Guide](https://python.wyattau.com/hub)**, if you are using Python for networking (socket, asyncio)
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, how databases communicate over networks
+- **[Computer Science Guide](https://computer-science.wyattau.com/hub)**, algorithms and protocols that underpin networking
 
 ---
 
@@ -332,11 +332,11 @@ Wyatt's Notes is a network of interconnected study sites. The networking content
 
 ### How should I start learning networking?
 
-Start with the OSI model and TCP/IP. Understand what each layer does and which protocols operate at each layer. Then learn IP addressing — subnetting is a fundamental skill. Build from the bottom up.
+Start with the OSI model and TCP/IP. Understand what each layer does and which protocols operate at each layer. Then learn IP addressing, subnetting is a fundamental skill. Build from the bottom up.
 
 ### Do I need to know subnetting?
 
-Yes. Subnetting is essential for network design, troubleshooting, and security. Practise calculating subnets by hand — it builds an intuition that tools alone cannot provide.
+Yes. Subnetting is essential for network design, troubleshooting, and security. Practise calculating subnets by hand, it builds an intuition that tools alone cannot provide.
 
 ### What is the difference between TCP and UDP?
 
@@ -344,7 +344,7 @@ TCP provides reliable, ordered delivery with connection management. UDP provides
 
 ### How do I troubleshoot a network problem?
 
-Start with ping — is the host reachable? Then traceroute — where is the packet being dropped? Then tcpdump — what does the actual traffic look like? Work from connectivity up to application layer.
+Start with ping, is the host reachable? Then traceroute, where is the packet being dropped? Then tcpdump, what does the actual traffic look like? Work from connectivity up to application layer.
 
 ### Why is TLS important?
 

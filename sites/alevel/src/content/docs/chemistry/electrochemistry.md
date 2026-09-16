@@ -1008,7 +1008,7 @@ self-marking and building a personal test matrix.
 
 ## Intuition
 
-**Electrochemistry is like a conversation between electricity and chemistry — electrons flowing to create or consume reactions.**
+**Electrochemistry is like a conversation between electricity and chemistry, electrons flowing to create or consume reactions.**
 
 
 ```mermaid

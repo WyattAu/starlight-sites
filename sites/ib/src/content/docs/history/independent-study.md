@@ -85,7 +85,7 @@ The quality of the research question determines the quality of the entire invest
 
 1. **Preliminary reading:** Survey the secondary literature to understand the scope and key debates surrounding the topic. This informs the formulation of the research question.
 
-2. **Question formulation:** Refine the research question based on preliminary reading. The question may evolve as research deepens — this is normal and expected.
+2. **Question formulation:** Refine the research question based on preliminary reading. The question may evolve as research deepens, this is normal and expected.
 
 3. **Source gathering:** Collect primary and secondary sources. The IA requires evaluation of at least two sources; the EE requires engagement with a broader range.
 
@@ -143,7 +143,7 @@ The IA requires critical evaluation of two sources. The following framework shou
 ### Purpose
 
 - **Why** was the source created? Was it intended to inform, persuade, record, or reflect?
-- **For whom** was it produced? The intended audience shapes the content — a speech to parliament differs from a private diary.
+- **For whom** was it produced? The intended audience shapes the content, a speech to parliament differs from a private diary.
 - **What** was the historical context of its production? Political pressures, censorship, and propaganda conditions all affect what could be said.
 
 ### Content

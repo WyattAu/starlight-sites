@@ -25,7 +25,7 @@ geographic skills to climate data.
 
 ## Intuition
 
-**Climate change is like a fever for the planet — a small increase in average temperature disrupts entire systems:** The greenhouse effect is natural and necessary, but human activities have amplified it to dangerous levels
+**Climate change is like a fever for the planet, a small increase in average temperature disrupts entire systems:** The greenhouse effect is natural and necessary, but human activities have amplified it to dangerous levels
 
 **Why it matters:** Understanding climate change is essential for making informed decisions about energy, policy, and the future of our planet
 

@@ -31,7 +31,7 @@ And Flutter code.
 ### Core Principles
 
 ```dart
-// WITHOUT DI — tight coupling, untestable
+// WITHOUT DI, tight coupling, untestable
 class UserService {
   final HttpClient client = HttpClient(); // creates its own dependency
   final Database db = Database();           // hard-wired concrete type
@@ -42,7 +42,7 @@ class UserService {
   }
 }
 
-// WITH DI — loose coupling, testable
+// WITH DI, loose coupling, testable
 class UserService {
   final HttpClient client;
   final Database db;
@@ -205,7 +205,7 @@ class NotificationService {
   final PushNotificationProvider _pushProvider;
   final InAppNotificationProvider _inAppProvider;
 
-  // Production constructor — requires all dependencies
+  // Production constructor, requires all dependencies
   NotificationService({
     required PushNotificationProvider pushProvider,
     required InAppNotificationProvider inAppProvider,
@@ -247,12 +247,12 @@ void setupDependencies() {
   getIt.registerSingleton<Database>(() => SqliteDatabase());
   getIt.registerSingleton<Logger>(() => ConsoleLogger());
 
-  // Lazy singleton — created on first access
+  // Lazy singleton, created on first access
   getIt.registerLazySingleton<UserRepository>(
     () => SqliteUserRepository(getIt<Database>()),
   );
 
-  // Factory — new instance every time
+  // Factory, new instance every time
   getIt.registerFactory<UserService>(
     () => UserService(getIt<UserRepository>(), getIt<Logger>()),
   );
@@ -314,22 +314,22 @@ import 'package:get_it/get_it.dart';
 final getIt = GetIt.instance;
 
 void configure() {
-  // Eager singleton — created immediately
+  // Eager singleton, created immediately
   getIt.registerSingleton<HttpClient>(
     DioHttpClient(baseUrl: "https://api.example.com''),
   );
 
-  // Lazy singleton — created on first get<T>()
+  // Lazy singleton, created on first get<T>()
   getIt.registerLazySingleton<Database>(() {
     return SqliteDatabase(path: "app.db');
   });
 
-  // Factory — new instance on every get<T>()
+  // Factory, new instance on every get<T>()
   getIt.registerFactory<Session>(() {
     return Session(token: generateToken());
   });
 
-  // Async singleton — supports async initialization
+  // Async singleton, supports async initialization
   getIt.registerSingletonAsync<ApiService>(() async {
     final client = getIt<HttpClient>();
     final db = getIt<Database>();
@@ -360,7 +360,7 @@ if (getIt.isRegistered<CacheService>()) {
   final cache = getIt<CacheService>();
 }
 
-// Optional retrieval — returns null if not registered
+// Optional retrieval, returns null if not registered
 final maybeFeatureFlag = getIt.isRegistered<FeatureFlagService>()
     ? getIt<FeatureFlagService>()
     : null;
@@ -462,7 +462,7 @@ dev_dependencies:
 ```dart
 import 'package:injectable/injectable.dart';
 
-// Singleton — one instance for the entire app lifecycle
+// Singleton, one instance for the entire app lifecycle
 @singleton
 class AnalyticsService {
   void track(String event) {
@@ -470,7 +470,7 @@ class AnalyticsService {
   }
 }
 
-// Lazy singleton — created on first access
+// Lazy singleton, created on first access
 @lazySingleton
 class CacheService {
   final Map<String, dynamic> _cache = {};
@@ -478,7 +478,7 @@ class CacheService {
   void set(String key, dynamic value) => _cache[key] = value;
 }
 
-// Factory — new instance every time
+// Factory, new instance every time
 @injectable
 class Session {
   final String token;
@@ -577,7 +577,7 @@ dart run build_runner build
 This generates a file with `@InjectableInit`:
 
 ```dart
-// GENERATED CODE — DO NOT EDIT
+// GENERATED CODE, DO NOT EDIT
 import 'package:get_it/get_it.dart';
 import 'package:injectable/injectable.dart';
 
@@ -671,7 +671,7 @@ As dependency containers with compile-time safety.
 ```dart
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// A provider IS a dependency — declare it once, use everywhere
+// A provider IS a dependency, declare it once, use everywhere
 final httpClientProvider = Provider<HttpClient>((ref) {
   return DioHttpClient(baseUrl: "https://api.example.com'');
 });
@@ -680,7 +680,7 @@ final databaseProvider = Provider<Database>((ref) {
   return SqliteDatabase(path: "app.db');
 });
 
-// Providers can depend on other providers — Riverpod resolves the graph
+// Providers can depend on other providers, Riverpod resolves the graph
 final userRepositoryProvider = Provider<UserRepository>((ref) {
   final db = ref.watch(databaseProvider);
   return SqliteUserRepository(db);
@@ -722,7 +722,7 @@ class UserController extends StateNotifier<AsyncValue<User?>> {
 class UserScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // ref.watch — rebuilds widget when user changes
+    // ref.watch, rebuilds widget when user changes
     final userAsync = ref.watch(userControllerProvider);
 
     return userAsync.when(
@@ -739,7 +739,7 @@ class ProfileButton extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return ElevatedButton(
       onPressed: () {
-        // ref.read — one-time read, does NOT rebuild
+        // ref.read, one-time read, does NOT rebuild
         ref.read(userControllerProvider.notifier).loadUser(42);
       },
       child: const Text('Load Profile'),
@@ -796,7 +796,7 @@ final cartProvider = StateNotifierProvider<CartNotifier, List<CartItem>>((ref) {
 class Settings extends _$Settings {
   @override
   Future<AppSettings> build() async {
-    // Async initialization — Riverpod handles loading/error states
+    // Async initialization, Riverpod handles loading/error states
     final prefs = ref.watch(sharedPreferencesProvider);
     return AppSettings.fromPrefs(prefs);
   }
@@ -826,7 +826,7 @@ class SettingsScreen extends ConsumerWidget {
 ```dart
 void main() {
   runApp(
-    // Root scope — app-wide providers
+    // Root scope, app-wide providers
     ProviderScope(
       overrides: [
         // Override providers for the entire app
@@ -1092,12 +1092,12 @@ class OrderFactory {
 
 | Aspect                | Constructor Injection                       | Service Locator (get_it)               | Riverpod                                          |
 | --------------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------- |
-| Compile-time safety   | Full — missing deps are compile errors      | None — errors at runtime               | Full — missing providers are compile errors       |
-| Testability           | Excellent — pass mocks directly             | Good — must configure locator per test | Excellent — override providers in ProviderScope   |
-| Boilerplate           | Moderate — thread deps through constructors | Low — register once, get anywhere      | Moderate — declare providers, use ref             |
+| Compile-time safety   | Full, missing deps are compile errors      | None, errors at runtime               | Full, missing providers are compile errors       |
+| Testability           | Excellent, pass mocks directly             | Good, must configure locator per test | Excellent, override providers in ProviderScope   |
+| Boilerplate           | Moderate, thread deps through constructors | Low, register once, get anywhere      | Moderate, declare providers, use ref             |
 | Lazy initialization   | Manual                                      | Built-in (lazy singleton)              | Built-in (provider evaluated on first watch/read) |
 | Scoping               | Manual                                      | Manual                                 | Built-in (ProviderScope, nested scopes)           |
-| Dependency visibility | Explicit in constructor signature           | Hidden — read source to discover       | Visible in provider declaration                   |
+| Dependency visibility | Explicit in constructor signature           | Hidden, read source to discover       | Visible in provider declaration                   |
 | Lifecycle management  | Manual                                      | Singleton/factory/lazy singleton       | Auto-disposed, keepAlive                          |
 | State management      | Not provided                                | Not provided                           | Built-in                                          |
 | Learning curve        | Low                                         | Low                                    | Moderate to high                                  |
@@ -1124,14 +1124,14 @@ Injection. Only inject things that have side effects, external dependencies, or 
 Implementations.
 
 ```dart
-// DON'T — over-injecting a pure value object
+// DON'T, over-injecting a pure value object
 @injectable
 class EmailAddress {
   final String value;
   EmailAddress(this.value);
 }
 
-// DO — simple constructor, no DI needed
+// DO, simple constructor, no DI needed
 class EmailAddress {
   final String value;
   const EmailAddress(this.value);
@@ -1140,11 +1140,11 @@ class EmailAddress {
 
 ### Circular Dependencies
 
-A depends on B, B depends on A — both never resolve. This is a design smell indicating
+A depends on B, B depends on A, both never resolve. This is a design smell indicating
 Responsibilities are tangled.
 
 ```dart
-// DON'T — circular dependency
+// DON'T, circular dependency
 class A {
   final B b;
   A(this.b);
@@ -1155,7 +1155,7 @@ class B {
   B(this.a);
 }
 
-// DO — extract shared logic into a third dependency
+// DO, extract shared logic into a third dependency
 class A {
   final C c;
   A(this.c);
@@ -1177,10 +1177,10 @@ Using singletons for everything makes tests interdependent. State leaks between 
 Are not reset.
 
 ```dart
-// DON'T — singleton for stateful service used in tests
+// DON'T, singleton for stateful service used in tests
 getIt.registerSingleton<ShoppingCart>(() => ShoppingCart());
 
-// DO — factory for stateful services in tests
+// DO, factory for stateful services in tests
 getIt.registerFactory<ShoppingCart>(() => ShoppingCart());
 ```
 
@@ -1190,7 +1190,7 @@ Placing `ProviderScope` too deep or too shallow causes either missing overrides 
 Rebuilds.
 
 ```dart
-// DON'T — ProviderScope at the wrong level
+// DON'T, ProviderScope at the wrong level
 class MyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -1200,7 +1200,7 @@ class MyPage extends StatelessWidget {
   }
 }
 
-// DO — ProviderScope at the root or test level
+// DO, ProviderScope at the root or test level
 void main() {
   runApp(ProviderScope(child: MyApp()));
 }

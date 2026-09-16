@@ -74,7 +74,7 @@ buf.put("Hello".getBytes(StandardCharsets.UTF_8));
 buf.put("World".getBytes(StandardCharsets.UTF_8));
 // position = 10, limit = 256
 
-// Flip — prepare for reading (limit = position, position = 0)
+// Flip, prepare for reading (limit = position, position = 0)
 buf.flip();
 // position = 0, limit = 10
 
@@ -83,29 +83,29 @@ byte[] result = new byte[buf.remaining()];
 buf.get(result);
 // position = 10, limit = 10
 
-// Clear — prepare for writing again (position = 0, limit = capacity)
+// Clear, prepare for writing again (position = 0, limit = capacity)
 buf.clear();
 // position = 0, limit = 256
 
-// Compact — copy unread data to the beginning, prepare for writing
+// Compact, copy unread data to the beginning, prepare for writing
 // Useful when you"ve partially read and want to append more data
 buf.compact();
 // Copies bytes from position..limit to 0..remaining, sets position = remaining
 
-// Rewind — position = 0, limit unchanged (re-read the same data)
+// Rewind, position = 0, limit unchanged (re-read the same data)
 buf.rewind();
 ```
 
 ### Direct vs Heap Buffers
 
 ```java
-// Heap buffer — backed by a regular Java byte array
+// Heap buffer, backed by a regular Java byte array
 ByteBuffer heap = ByteBuffer.allocate(1024);
 // Allocated on the Java heap, subject to GC
 // Fast allocation, fast access from Java code
 // When used for I/O, the data must be copied to/from native memory
 
-// Direct buffer — backed by native memory (malloc)
+// Direct buffer, backed by native memory (malloc)
 ByteBuffer direct = ByteBuffer.allocateDirect(1024);
 // Allocated outside the Java heap, not subject to GC (except the buffer object itself)
 // Slower allocation, but avoids copy when used with I/O operations
@@ -170,7 +170,7 @@ ByteBuffer byteBuf = encoder.encode(charBuf);
 ## Channels
 
 Channels represent open connections to I/O sources or sinks (files, sockets). Unlike streams,
-Channels are bidirectional — a `FileChannel` can both read and write.
+Channels are bidirectional, a `FileChannel` can both read and write.
 
 ### `FileChannel`
 
@@ -243,7 +243,7 @@ try (FileChannel channel = FileChannel.open(Path.of("data.lock"),
     }
 
     try {
-        // Critical section — exclusive access to the file
+        // Critical section, exclusive access to the file
         channel.write(ByteBuffer.wrap("important data".getBytes(StandardCharsets.UTF_8)));
     } finally {
         lock.release();
@@ -302,7 +302,7 @@ try (DatagramChannel channel = DatagramChannel.open()) {
 ## Selectors
 
 A `Selector` allows a single thread to monitor multiple channels for readiness events (connect,
-Accept, read, write). This is the foundation of scalable network servers — one thread can handle
+Accept, read, write). This is the foundation of scalable network servers, one thread can handle
 Thousands of connections.
 
 ### `SelectionKey`
@@ -405,12 +405,12 @@ private void writeToChannel(SelectionKey key) throws IOException {
 Coordination:
 
 ```java
-// From another thread — wake up the selector loop
+// From another thread, wake up the selector loop
 selector.wakeup();
 
 // In the selector loop
 int readyCount = selector.select();
-// If woken up, readyCount may be 0 — check for pending state changes
+// If woken up, readyCount may be 0, check for pending state changes
 ```
 
 ## Non-Blocking I/O
@@ -422,12 +422,12 @@ Written (may be less than requested).
 ```java
 channel.configureBlocking(false);
 
-// Non-blocking write — must handle partial writes
+// Non-blocking write, must handle partial writes
 ByteBuffer buf = ByteBuffer.wrap(largeData);
 while (buf.hasRemaining()) {
     int written = channel.write(buf);
     if (written == 0) {
-        // Channel's write buffer is full — register for OP_WRITE
+        // Channel's write buffer is full, register for OP_WRITE
         key.interestOps(key.interestOps() | SelectionKey.OP_WRITE);
         break;
     }
@@ -490,7 +490,7 @@ try (AsynchronousFileChannel channel = AsynchronousFileChannel.open(
         }
     });
 
-    // Continue doing other work — the callback runs on a separate thread
+    // Continue doing other work, the callback runs on a separate thread
 }
 ```
 
@@ -581,7 +581,7 @@ try (Stream<Path> found = Files.find(Path.of("src"), 10,
 ## Memory-Mapped Files
 
 `MappedByteBuffer` maps a region of a file directly into memory. Reads and writes to the buffer are
-Reflected in the file. The OS handles paging — only the portions of the file that are actually
+Reflected in the file. The OS handles paging, only the portions of the file that are actually
 Accessed are loaded into physical memory.
 
 ```java
@@ -594,7 +594,7 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
         channel.size()  // size
     );
 
-    // Direct memory access — reads/writes go to the file
+    // Direct memory access, reads/writes go to the file
     int value = mapped.getInt(0);
     mapped.putInt(0, value + 1);
 
@@ -613,24 +613,24 @@ try (FileChannel channel = FileChannel.open(Path.of("data.bin"),
 
 ### Use Cases
 
-- **Structured binary file access** — reading/writing fixed-format records at known offsets.
-- **Shared memory between processes** — two JVM processes can map the same file and communicate
+- **Structured binary file access**, reading/writing fixed-format records at known offsets.
+- **Shared memory between processes**, two JVM processes can map the same file and communicate
   through the mapped buffer.
-- **Large file processing** — process terabyte-scale files without loading them into JVM heap.
+- **Large file processing**, process terabyte-scale files without loading them into JVM heap.
 
 :::caution
 Limits, but it does consume address space. On 32-bit JVMs, you are limited to ~2 GB of mapped
 Memory. On 64-bit JVMs, the limit is the available virtual address space. Closing the `FileChannel`
-Does not immediately unmap the buffer — the mapped memory is released when the `MappedByteBuffer`
+Does not immediately unmap the buffer, the mapped memory is released when the `MappedByteBuffer`
 Object is GC'd, which may be delayed.
 :::
 ## Intuition
 
-**Data highways:** NIO is like a postal system with express lanes — selectors let one thread manage many channels, making it ideal for high-performance servers.
+**Data highways:** NIO is like a postal system with express lanes, selectors let one thread manage many channels, making it ideal for high-performance servers.
 
 **Why it matters:** NIO's non-blocking nature enables handling thousands of connections with minimal threads, essential for modern network applications.
 
-**The key insight:** Selectors are the magic — they let one thread monitor multiple channels for readiness, avoiding the overhead of one thread per connection.
+**The key insight:** Selectors are the magic, they let one thread monitor multiple channels for readiness, avoiding the overhead of one thread per connection.
 
 ## Common Pitfalls
 
@@ -639,7 +639,7 @@ Object is GC'd, which may be delayed.
 ```java
 ByteBuffer buf = ByteBuffer.allocate(1024);
 channel.read(buf);
-// BUG — position is at the end, limit is at capacity
+// BUG, position is at the end, limit is at capacity
 byte[] data = new byte[buf.remaining()]; // remaining() returns 0!
 buf.get(data); // BufferUnderflowException
 
@@ -652,10 +652,10 @@ buf.get(data);
 ### Not Handling Partial Writes in Non-Blocking Mode
 
 ```java
-// BUG — assumes write() writes all bytes
+// BUG, assumes write() writes all bytes
 channel.write(buffer); // may write only some bytes
 
-// FIX — loop until all bytes are written
+// FIX, loop until all bytes are written
 while (buffer.hasRemaining()) {
     channel.write(buffer);
 }
@@ -664,12 +664,12 @@ while (buffer.hasRemaining()) {
 ### Forgetting to `remove()` SelectionKey
 
 ```java
-// BUG — selectedKeys() returns keys that were ready at the time of select()
+// BUG, selectedKeys() returns keys that were ready at the time of select()
 // If you don't remove processed keys, select() returns the same keys again
 Set<SelectionKey> keys = selector.selectedKeys();
 for (SelectionKey key : keys) {
     process(key);
-    // BUG — key not removed from the set
+    // BUG, key not removed from the set
 }
 
 // FIX
@@ -703,17 +703,17 @@ public void processFile(Path path) throws IOException {
 ### Blocking in Selector Thread
 
 ```java
-// BUG — performing blocking operations in the selector event loop
+// BUG, performing blocking operations in the selector event loop
 if (key.isReadable()) {
     SocketChannel client = (SocketChannel) key.channel();
     ByteBuffer buf = ByteBuffer.allocate(8192);
     client.read(buf);
     // If you do a blocking database call here, the entire selector
-    // is blocked — no other connections can be served
+    // is blocked, no other connections can be served
     String result = blockingDatabaseCall(); // BAD
 }
 
-// FIX — offload blocking work to a separate thread pool
+// FIX, offload blocking work to a separate thread pool
 if (key.isReadable()) {
     SocketChannel client = (SocketChannel) key.channel();
     ByteBuffer buf = ByteBuffer.allocate(8192);
@@ -728,7 +728,7 @@ if (key.isReadable()) {
 ### Using `FileChannel` with `FileInputStream` in Non-Blocking Mode
 
 ```java
-// BUG — FileChannel does not support non-blocking mode
+// BUG, FileChannel does not support non-blocking mode
 FileChannel fc = new FileInputStream("data.bin").getChannel();
 // fc.configureBlocking(false); // throws NonWritableChannelException or no-op
 
@@ -739,7 +739,7 @@ FileChannel fc = new FileInputStream("data.bin").getChannel();
 ### Not Flushing `MappedByteBuffer` Before Closing
 
 ```java
-// BUG — changes to a MappedByteBuffer may not be written to disk before the
+// BUG, changes to a MappedByteBuffer may not be written to disk before the
 // JVM exits. The OS controls when dirty pages are flushed to disk.
 try (FileChannel fc = FileChannel.open(path, READ, WRITE)) {
     MappedByteBuffer buf = fc.map(READ_WRITE, 0, 1024);
@@ -747,7 +747,7 @@ try (FileChannel fc = FileChannel.open(path, READ, WRITE)) {
     // If the JVM crashes here, the write may be lost
 } // fc.close() does NOT guarantee flush
 
-// FIX — call force() before closing
+// FIX, call force() before closing
 try (FileChannel fc = FileChannel.open(path, READ, WRITE)) {
     MappedByteBuffer buf = fc.map(READ_WRITE, 0, 1024);
     buf.putInt(0, 42);
@@ -799,7 +799,7 @@ Buffers to a channel (gather) in a single system call. This reduces the number o
 Between user space and kernel space.
 
 ```java
-// Gather write — write headers and body from separate buffers
+// Gather write, write headers and body from separate buffers
 ByteBuffer header = ByteBuffer.wrap("HTTP/1.1 200 OK\r\nContent-Length: 5\r\n\r\n".getBytes(StandardCharsets.UTF_8));
 ByteBuffer body = ByteBuffer.wrap("Hello".getBytes(StandardCharsets.UTF_8));
 
@@ -808,7 +808,7 @@ try (FileChannel fc = FileChannel.open(Path.of("response.bin"), WRITE, CREATE)) 
     fc.write(buffers); // single writev system call
 }
 
-// Scatter read — read into header and body buffers
+// Scatter read, read into header and body buffers
 ByteBuffer headerBuf = ByteBuffer.allocate(128);
 ByteBuffer bodyBuf = ByteBuffer.allocate(1024);
 
@@ -822,11 +822,11 @@ try (FileChannel fc = FileChannel.open(Path.of("request.bin"), READ)) {
 
 The classic Reactor pattern with selectors is effective but has limitations:
 
-- **Single selector thread** — all I/O events are processed on one thread. CPU-bound processing
+- **Single selector thread**, all I/O events are processed on one thread. CPU-bound processing
   blocks the selector.
-- **Multiple selector threads** — can process I/O events in parallel, but requires careful
+- **Multiple selector threads**, can process I/O events in parallel, but requires careful
   coordination (e.g., `wakeup()` calls).
-- **Selector + worker pool** — the selector thread dispatches I/O events; worker threads handle
+- **Selector + worker pool**, the selector thread dispatches I/O events; worker threads handle
   business logic. This is the most common production pattern.
 
 ```java
@@ -859,7 +859,7 @@ For sequential file reads, `FileInputStream` with `BufferedInputStream` is often
 Access, `transferTo`/`transferFrom`And memory-mapped I/O.
 
 ```java
-// Sequential read — BufferedInputStream is simpler and often faster
+// Sequential read, BufferedInputStream is simpler and often faster
 try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream("large.dat"))) {
     byte[] buffer = new byte[8192];
     while (bis.read(buffer) != -1) {
@@ -867,7 +867,7 @@ try (BufferedInputStream bis = new BufferedInputStream(new FileInputStream("larg
     }
 }
 
-// Random access — FileChannel is the right choice
+// Random access, FileChannel is the right choice
 try (RandomAccessFile raf = new RandomAccessFile("index.dat", "r");
      FileChannel fc = raf.getChannel()) {
     for (long offset : offsets) {

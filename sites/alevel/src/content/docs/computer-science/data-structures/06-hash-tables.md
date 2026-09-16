@@ -300,7 +300,7 @@ $h(k) = k \bmod 7$:
 - 35 mod 7 = 0
 - 42 mod 7 = 0
 
-All keys hash to index 0 — **maximum collisions**. This demonstrates why $m$ should not divide
+All keys hash to index 0, **maximum collisions**. This demonstrates why $m$ should not divide
 Common key patterns. If $m = 7$ and all keys are multiples of 7, every key collides. Choose $m$ to
 Be a prime not dividing common key values.
 
@@ -328,7 +328,7 @@ Final table:
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Key   | 22  | —   | —   | —   | 4   | 15  | 28  | 17  | —   | 31  | 10  |
+| Key   | 22  |,   |,   |,   | 4   | 15  | 28  | 17  |,   | 31  | 10  |
 
 </details>
 
@@ -394,7 +394,7 @@ keys than slots, making it impossible to store all keys (the table is full). Wit
 the search for an empty slot may never terminate.
 
 In chaining, each bucket can hold an arbitrary number of keys (via a linked list). The table never
-"fills up" — chains grow longer. However, performance degrades as $\alpha$ increases, since Search
+"fills up", chains grow longer. However, performance degrades as $\alpha$ increases, since Search
 time is proportional to chain length.
 
 </details>
@@ -491,7 +491,7 @@ $h(k) = k \bmod 13$:
 | 55  | 55 ÷ 13 = 4 r 3  | 3          |
 | 20  | 20 ÷ 13 = 1 r 7  | 7          |
 
-Note: 42 and 55 both hash to index 3 — a collision occurs.
+Note: 42 and 55 both hash to index 3, a collision occurs.
 
 </details>
 
@@ -555,9 +555,9 @@ $h(k) = k \bmod 7$
 
 Step-by-step table states:
 
-After inserting 44: `[—, —, 44, —, —, —, —]` After inserting 17: `[—, —, 44, 17, —, —, —]` After
-Inserting 31: `[—, —, 44, 17, 31, —, —]` After inserting 88: `[—, —, 44, 17, 31, 88, —]` After
-Inserting 61: `[—, —, 44, 17, 31, 88, 61]` After inserting 5: `[5, —, 44, 17, 31, 88, 61]` After
+After inserting 44: `[-, -, 44, -, -, -, -]` After inserting 17: `[-, -, 44, 17, -, -, -]` After
+Inserting 31: `[-, -, 44, 17, 31, -, -]` After inserting 88: `[-, -, 44, 17, 31, 88, -]` After
+Inserting 61: `[-, -, 44, 17, 31, 88, 61]` After inserting 5: `[5, -, 44, 17, 31, 88, 61]` After
 Inserting 22: `[5, 22, 44, 17, 31, 88, 61]`
 
 Final table:
@@ -592,7 +592,7 @@ Probe sequence:
 
 The key 61 was found at index 6 after 2 probes.
 
-Note: This illustrates a drawback of linear probing — even though $h(61) = 5$The key is stored at
+Note: This illustrates a drawback of linear probing, even though $h(61) = 5$The key is stored at
 Index 6 due to earlier collisions. We must continue probing past occupied slots until we find the
 Key or an empty slot.
 
@@ -629,7 +629,7 @@ Final table:
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Key   | —   | —   | —   | 36  | 69  | 5   | 50  | 14  | 19  | 75  | —   |
+| Key   |,   |,   |,   | 36  | 69  | 5   | 50  | 14  | 19  | 75  |,   |
 
 Load factor: $\alpha = 7/11 \approx 0.636$
 
@@ -675,7 +675,7 @@ No collisions occur with the new table size.
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  | 13  | 14  | 16  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Key   | —   | 35  | —   | —   | 21  | —   | —   | 7   | 42  | —   | —   | 28  | —   | —   | 14  | —   |
+| Key   |,   | 35  |,   |,   | 21  |,   |,   | 7   | 42  |,   |,   | 28  |,   |,   | 14  |,   |
 
 New load factor: $\alpha = 6/17 \approx 0.353 < 0.7$ ✓
 
@@ -731,12 +731,12 @@ Probe sequences, memory usage, and deletion.
 
 | Aspect                 | Linear Probing                                                                                                                   | Chaining                                                                                                                                  |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Best-case search**   | $O(1)$ — key at its hash index                                                                                                   | $O(1)$ — key is alone in its bucket                                                                                                       |
-| **Worst-case search**  | $O(n)$ — all keys cluster together                                                                                               | $O(n)$ — all keys hash to same bucket                                                                                                     |
-| **Deletion**           | Requires "lazy deletion" (mark slot as deleted, not empty). If emptied, search would break by stopping early at the gap.         | $O(1)$ — remove node from linked list                                                                                                     |
+| **Best-case search**   | $O(1)$, key at its hash index                                                                                                   | $O(1)$, key is alone in its bucket                                                                                                       |
+| **Worst-case search**  | $O(n)$, all keys cluster together                                                                                               | $O(n)$, all keys hash to same bucket                                                                                                     |
+| **Deletion**           | Requires "lazy deletion" (mark slot as deleted, not empty). If emptied, search would break by stopping early at the gap.         | $O(1)$, remove node from linked list                                                                                                     |
 | **Load factor effect** | Performance degrades rapidly as $\alpha \to 1$. At $\alpha > 0.7$Clustering causes significant slowdown. Must keep $\alpha < 1$. | Performance degrades gradually. Chains grow linearly with $\alpha$. No hard upper limit on $\alpha$ (but should keep < 1 for efficiency). |
-| **Memory**             | $O(m)$ — fixed array size                                                                                                        | $O(n + m)$ — array + linked list nodes                                                                                                    |
-| **Cache performance**  | Good — contiguous memory access                                                                                                  | Poor — following pointers to scattered nodes                                                                                              |
+| **Memory**             | $O(m)$, fixed array size                                                                                                        | $O(n + m)$, array + linked list nodes                                                                                                    |
+| **Cache performance**  | Good, contiguous memory access                                                                                                  | Poor, following pointers to scattered nodes                                                                                              |
 
 **Key trade-off:** Linear probing has better cache performance but suffers from clustering and
 Requires careful load factor management. Chaining is simpler to implement and handles deletion
@@ -826,7 +826,7 @@ Final table:
 
 | Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
 | ----- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Key   | 25  | 80  | —   | 47  | 36  | 52  | —   | —   | 63  | 14  | —   |
+| Key   | 25  | 80  |,   | 47  | 36  | 52  |,   |,   | 63  | 14  |,   |
 
 **(b) Load factor:**
 
@@ -854,7 +854,7 @@ Search for 47:
 
 1. Index 3 → 47 found immediately. (This actually works for 47.)
 
-But consider searching for **key 25** after re-inserting it at a different location — or consider
+But consider searching for **key 25** after re-inserting it at a different location, or consider
 Searching for key 80 if index 0 were emptied: $h_1(80) = 3$Probing goes to index 1 (found). However,
 the problem arises with keys that were inserted after the deleted key and probed past it.
 

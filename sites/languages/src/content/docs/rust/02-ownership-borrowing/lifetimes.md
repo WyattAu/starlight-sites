@@ -19,7 +19,7 @@ description: "Rust' s borrow checker must ensure that every reference is valid f
 
 Rust's borrow checker must ensure that every reference is valid for its entire use. Without lifetime
 Annotations, the compiler cannot prove that a reference outlives the scope in which it is used. This
-Prevents dangling references — references to memory that has been freed or invalidated.
+Prevents dangling references, references to memory that has been freed or invalidated.
 
 Consider the canonical dangling reference attempt:
 
@@ -34,14 +34,14 @@ The compiler rejects this because `s` is dropped at the end of `dangle`But the f
 return a reference. The returned reference would point to freed memory. Lifetimes are the Mechanism
 by which the compiler tracks and enforces this constraint.
 
-Every reference in Rust has a lifetime — a region of code during which the reference is valid. In
+Every reference in Rust has a lifetime, a region of code during which the reference is valid. In
 Most cases, the compiler infers lifetimes automatically. Explicit annotations are needed when the
 Relationship between input and output lifetimes is ambiguous.
 
 ## Lifetime Annotation Syntax
 
 Lifetimes use a leading apostrophe followed by a name. By convention, `'a` is the first lifetime,
-`'b` the second, and so on. The name is purely a compile-time label — it has no runtime
+`'b` the second, and so on. The name is purely a compile-time label, it has no runtime
 Representation.
 
 ```rust
@@ -76,7 +76,7 @@ fn first<'a, 'b>(x: &'a str, _y: &'b str) -> &'a str {
 ```
 
 The return type's lifetime is tied only to `'a`. The compiler does not require `'a` and `'b` to have
-Any relationship — they are independent.
+Any relationship, they are independent.
 
 ## Function Lifetimes
 
@@ -114,7 +114,7 @@ let s: &str = "hello";  // &'static is inferred for literals
 ```
 
 :::caution
-Reference. Adding `'static` constraints reduces the function's flexibility — callers can no longer
+Reference. Adding `'static` constraints reduces the function's flexibility, callers can no longer
 Pass locally-owned string slices. The compiler may suggest `'static` when it cannot infer a shorter
 Lifetime, but this is often a sign that the function signature needs redesign.
 
@@ -190,7 +190,7 @@ Explicit lifetime annotations on methods:
 
 ```rust
 impl<'a> Excerpt<'a> {
-    // No explicit lifetime needed — elision rule 3 applies
+    // No explicit lifetime needed, elision rule 3 applies
     fn level(&self) -> i32 {
         3
     }
@@ -201,7 +201,7 @@ impl<'a> Excerpt<'a> {
         self.part
     }
 
-    // Multiple lifetimes — explicit annotations needed
+    // Multiple lifetimes, explicit annotations needed
     fn compare<'b>(&self, other: &'b str) -> bool {
         self.part.len() == other.len()
     }
@@ -260,7 +260,7 @@ impl Foo {
 ### When Elision Fails
 
 ```rust
-// This does NOT compile — two input lifetimes, no self, ambiguous output
+// This does NOT compile, two input lifetimes, no self, ambiguous output
 fn merge(x: &str, y: &str) -> &str {
     if x.len() > y.len() { x } else { y }
 }
@@ -273,7 +273,7 @@ fn merge<'a>(x: &'a str, y: &'a str) -> &'a str {
 
 ## Lifetime Bounds
 
-Lifetimes can have bounds, just like type parameters. The syntax `'a: "b` means "a outlives b" — the
+Lifetimes can have bounds, just like type parameters. The syntax `'a: "b` means "a outlives b", the
 Reference with lifetime `''a` must live at least as long as `"b`:
 
 ```rust
@@ -327,7 +327,7 @@ Only read through it:
 fn takes_short<'a>(r: &'a str) {}
 
 let long: &'static str = "hello";
-takes_short(long);  // OK — 'static can be shortened to 'a
+takes_short(long);  // OK, 'static can be shortened to 'a
 ```
 
 ### Contravariance
@@ -358,7 +358,7 @@ fn takes_short_mut<'a>(r: &'a mut i32) {
 
 let mut x: i32 = 1;
 let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
-// takes_short_mut(r);  // ERROR — &'static mut i32 is invariant
+// takes_short_mut(r);  // ERROR, &'static mut i32 is invariant
 ```
 
 ### Variance Summary
@@ -367,8 +367,8 @@ let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
 | ---------------- | ---------------- | --------------- |
 | `&'a T`          | Covariant        | Covariant       |
 | `&'a mut T`      | Invariant        | Invariant       |
-| `Box&lt;T&gt;`   | —                | Covariant       |
-| `Cell&lt;T&gt;`  | —                | Invariant       |
+| `Box&lt;T&gt;`   |,                | Covariant       |
+| `Cell&lt;T&gt;`  |,                | Invariant       |
 | `fn(&'a T) -> R` | Contravariant    | Contravariant   |
 | `fn(T) -> &'a R` | Covariant        | Covariant       |
 
@@ -494,7 +494,7 @@ use bumpalo::Bump;
 let arena = Bump::new();
 let a = arena.alloc("hello");
 let b = arena.alloc("world");
-// a and b have the same lifetime — cross-references are valid
+// a and b have the same lifetime, cross-references are valid
 ```
 
 **Pin-based approach** for self-referential async state machines:
@@ -564,7 +564,7 @@ impl<'a> Transformer<'a> for ToUpper {
 
 Lifetimes have zero runtime cost. They are purely compile-time annotations. The compiler erases all
 Lifetime information before code generation. A `&'a T` and a `&'b T` produce identical machine code
-— the lifetimes exist only for the borrow checker's verification.
+- the lifetimes exist only for the borrow checker's verification.
 
 ## Lifetime Parameters in Enums
 
@@ -630,7 +630,7 @@ fn get_parts<'a>(s: &'a str) -> impl Iterator<Item = &'a str> + 'a {
    to take an explicit lifetime parameter or restructure ownership.
 
 2. **Confusing lifetime names with actual lifetimes.** `'a` and `'b` are just labels. Two functions
-   using `'a` in their signatures do not share a lifetime — the compiler resolves each independently
+   using `'a` in their signatures do not share a lifetime, the compiler resolves each independently
    at each call site.
 
 3. **Fighting the borrow checker with clones.** Cloning to satisfy lifetime constraints often
@@ -795,7 +795,7 @@ struct RefWrapper<''a, T: "a> {
 let s = String::from("hello");
 let w = RefWrapper { inner: &s };
 
-// This also works — the lifetime of the reference is shorter than ''a
+// This also works, the lifetime of the reference is shorter than ''a
 let r = &s;
 let w = RefWrapper { inner: r };
 ```
@@ -837,7 +837,7 @@ impl<'a> SimpleParser<'a> {
 ```
 
 The returned `&'a str` borrows from the parser's `input` field, which has lifetime `'a`. This means
-The returned slices are valid as long as the parser's input is valid — zero-copy parsing.
+The returned slices are valid as long as the parser's input is valid, zero-copy parsing.
 
 ## `impl Trait` and Lifetimes
 
@@ -926,7 +926,7 @@ async fn fixed() {
     let data = String::from("hello");
     let len = data.len();  // Copy the value, not a reference
     some_async_function().await;
-    println!("{}", len);  // OK — len is a usize, not a reference
+    println!("{}", len);  // OK, len is a usize, not a reference
 }
 ```
 
@@ -949,7 +949,7 @@ async fn broken() {
 async fn fixed() {
     let data = String::from("hello");
     tokio::spawn(async move {
-        println!("{}", data);  // OK — data is moved into the task
+        println!("{}", data);  // OK, data is moved into the task
     });
 }
 ```

@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
-## Refraction and Total Internal Reflection — Diagnostic Tests
+## Refraction and Total Internal Reflection, Diagnostic Tests
 
 ## Unit Tests
 
@@ -94,7 +94,7 @@ Angular dispersion $= e' - e = 64.2^\circ - 60.6^\circ = 3.6^\circ$
 }
 </script>
 
-### UT-2: Optical Fibre — Step Index
+### UT-2: Optical Fibre, Step Index
 
 **Question:**
 

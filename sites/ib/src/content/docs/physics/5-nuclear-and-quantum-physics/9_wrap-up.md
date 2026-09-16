@@ -412,7 +412,7 @@ Where:
 - $E_{k,\mathrm{max}}$ is the maximum kinetic energy of emitted electrons (J)
 - $h = 6.63 \times 10^{-34}$ Js is Planck's constant
 - $f$ is the frequency of incident light (Hz)
-- $\Phi = hf_0$ is the work function of the metal (J) — the minimum energy needed to liberate an
+- $\Phi = hf_0$ is the work function of the metal (J), the minimum energy needed to liberate an
   electron
 
 **Work function values:**
@@ -505,7 +505,7 @@ $$
 \lambda = \frac`\{hc}`{\Delta E} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{4.08 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m} = 487 \mathrm{ nm}
 $$
 
-This is in the visible (blue-green) region — it is the $H_\beta$ line of the Balmer series.
+This is in the visible (blue-green) region, it is the $H_\beta$ line of the Balmer series.
 
 ---
 
@@ -531,7 +531,7 @@ $$
 
 Where $p$ is the momentum of the particle.
 
-**Significance:** The wave nature of matter explains the quantised energy levels in the Bohr model —
+**Significance:** The wave nature of matter explains the quantised energy levels in the Bohr model,
 An electron orbit is stable only when a whole number of wavelengths fits around the orbit (standing
 Wave condition):
 

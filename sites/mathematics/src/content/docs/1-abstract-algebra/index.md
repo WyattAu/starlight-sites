@@ -83,13 +83,13 @@ University-level abstract algebra notes covering groups, rings, fields, and Galo
 
 ## Prerequisites
 
-- Mathematical proofs and logic. Abstract algebra is proof-based — you will write many proofs about abstract structures.
+- Mathematical proofs and logic. Abstract algebra is proof-based, you will write many proofs about abstract structures.
 - Basic linear algebra (helpful but not required). Vector spaces are examples of modules; eigenvalues connect to group representations.
 - Mathematical maturity. You should be comfortable with abstraction and working with definitions.
 
 ## How to Use These Notes
 
-Start with groups to build foundational knowledge, then progress to rings and fields. Each section includes worked examples and practice problems. The key is to work through proofs yourself — reading proofs is not enough.
+Start with groups to build foundational knowledge, then progress to rings and fields. Each section includes worked examples and practice problems. The key is to work through proofs yourself, reading proofs is not enough.
 
 ## Navigation
 

@@ -99,7 +99,7 @@ validateEmail email
 
 data UserForm = UserForm
   \{ ufAge   :: Int
-  , ufEmail :: String
+ufEmail :: String
   \} deriving (Show)
 
 validateUserForm :: Int -> String -> Validation [String] UserForm
@@ -122,8 +122,8 @@ import Control.Monad.IO.Class
 
 data Config = Config
   \{ cfgDatabaseUrl :: String
-  , cfgMaxRetries  :: Int
-  , cfgDebug       :: Bool
+cfgMaxRetries  :: Int
+cfgDebug       :: Bool
   \} deriving (Show)
 
 data AppError
@@ -170,8 +170,8 @@ main :: IO ()
 main = do
   let config = Config
         \{ cfgDatabaseUrl = "postgres://localhost/mydb"
-        , cfgMaxRetries  = 3
-        , cfgDebug       = True
+cfgMaxRetries  = 3
+cfgDebug       = True
         \}
 
   result <- runApp config $ do
@@ -296,7 +296,7 @@ example3 = eval (If (Equal (LitInt 5) (LitInt 5)) (LitInt 10) (LitInt 20))
 
 **Why it matters:** Type classes are the mechanism behind Haskell's overloaded operators, formatting, and equality testing. Understanding them is essential for reading and writing Haskell code.
 
-**The key insight:** Type classes enable "the expression problem" — you can add new types to an existing interface or new interfaces to an existing type, without modifying existing code.
+**The key insight:** Type classes enable "the expression problem", you can add new types to an existing interface or new interfaces to an existing type, without modifying existing code.
 
 ## Common Mistakes
 

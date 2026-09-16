@@ -132,7 +132,7 @@ Separator and `rep` is one of:
 ```rust
 macro_rules! count_args {
     () => { 0usize };
-    ($first:tt $(, $rest:tt)*) => {
+    ($first:tt $( $rest:tt)*) => {
         1usize + count_args!($($rest),*)
     };
 }
@@ -146,7 +146,7 @@ The separator can be any token. Common separators are `,` (comma) and `;` (semic
 
 ```rust
 macro_rules! vector {
-    ($($elem:expr),* $(,)?) => {
+    ($($elem:expr),* $()?) => {
         {
             let mut v = Vec::new();
             $( v.push($elem); )*
@@ -168,7 +168,7 @@ Iteration of the outer one:
 
 ```rust
 macro_rules! matrix {
-    ($([$($elem:expr),+]),+ $(,)?) => {
+    ($([$($elem:expr),+]),+ $()?) => {
         {
             vec![
                 $(
@@ -268,7 +268,7 @@ macro_rules! vec {
     ($elem:expr; $n:expr) => {
         std::vec::from_elem($elem, $n)
     };
-    ($($x:expr),+ $(,)?) => {
+    ($($x:expr),+ $()?) => {
         <[_]>::into_vec(Box::new([$($x),+]))
     };
     () => {
@@ -305,7 +305,7 @@ Captures everything as token trees and passes them through to `format_args!`.
 
 ```rust
 macro_rules! assert_eq {
-    ($left:expr, $right:expr $(,)?) => ({
+    ($left:expr, $right:expr $()?) => ({
         match (&$left, &$right) {
             (left_val, right_val) => {
                 if !(*left_val == *right_val) {
@@ -373,7 +373,7 @@ Macro scoping in Rust has changed over editions. As of edition 2021:
 // In crate `helper`
 #[macro_export]
 macro_rules! make_map {
-    ($($key:expr => $val:expr),+ $(,)?) => {
+    ($($key:expr => $val:expr),+ $()?) => {
         {
             let mut m = $crate::HashMap::new();
             $(

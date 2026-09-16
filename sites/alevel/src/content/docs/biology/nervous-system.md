@@ -891,7 +891,7 @@ For more on hormonal control of blood glucose, see [Homeostasis](homeostasis).
 
 ## Common Mistakes
 
-1. **Confusing the resting potential with the action potential.** The resting potential is a stable state maintained by the Na⁺/K⁺ pump and K⁺ leak channels (approximately −70 mV). The action potential is a transient event — a rapid depolarisation to +40 mV followed by repolarisation. The resting potential is maintained continuously; the action potential is an all-or-nothing event.
+1. **Confusing the resting potential with the action potential.** The resting potential is a stable state maintained by the Na⁺/K⁺ pump and K⁺ leak channels (approximately −70 mV). The action potential is a transient event, a rapid depolarisation to +40 mV followed by repolarisation. The resting potential is maintained continuously; the action potential is an all-or-nothing event.
 
 2. **Stating that neurotransmitters "cross the synaptic cleft by diffusion" without mentioning receptors.** The neurotransmitter diffuses across the cleft and binds to specific receptor proteins on the postsynaptic membrane. This binding opens ion channels, which causes the change in membrane potential. The specificity of neurotransmitter-receptor binding determines whether the synapse is excitatory or inhibitory.
 

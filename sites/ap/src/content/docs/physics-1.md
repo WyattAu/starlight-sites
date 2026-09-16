@@ -118,7 +118,7 @@ $$
 \vec{F}_{\text{net}} = m\vec{a}
 $$
 
-This is a vector equation — apply separately in each direction.
+This is a vector equation, apply separately in each direction.
 
 **Third Law:** For every action force there is an equal and opposite reaction force. Forces always
 come in pairs acting on different objects.
@@ -578,7 +578,7 @@ $$
 | Oscillations      | SHM, mass-spring systems, pendulums, energy in oscillations                             |
 
 AP Physics 1 rewards deep conceptual understanding over memorisation. Focus on building physical
-intuition — ask yourself _why_ an object behaves as it does before reaching for an equation.
+intuition, ask yourself _why_ an object behaves as it does before reaching for an equation.
 Practise explaining your reasoning evidently in writing, as the free-response section heavily
 weights qualitative explanations alongside quantitative solutions.
 
@@ -600,9 +600,9 @@ flowchart TD
 
 ## Intuition
 
-AP Physics 1 is the **algebra-based introduction to mechanics** — it describes how objects move and why. The course builds from kinematics (describing motion) through forces (causing motion) to energy and momentum (conservation laws that simplify complex problems).
+AP Physics 1 is the **algebra-based introduction to mechanics**, it describes how objects move and why. The course builds from kinematics (describing motion) through forces (causing motion) to energy and momentum (conservation laws that simplify complex problems).
 
-**The physics chain:** Kinematics describes _what_ happens. Newton's laws explain _why_ it happens. Energy and momentum provide _shortcut methods_ that bypass detailed force analysis. Rotational motion extends all these ideas to spinning objects. The key is recognising which approach — forces, energy, or momentum — is simplest for each problem.
+**The physics chain:** Kinematics describes _what_ happens. Newton's laws explain _why_ it happens. Energy and momentum provide _shortcut methods_ that bypass detailed force analysis. Rotational motion extends all these ideas to spinning objects. The key is recognising which approach, forces, energy, or momentum, is simplest for each problem.
 
 **Conceptual understanding over calculation:** AP Physics 1 emphasises reasoning about physical situations. Can you predict what happens when you cut a string? Can you explain _why_ a ball rolls slower than it slides? The exam tests your ability to justify answers, not just compute numbers.
 

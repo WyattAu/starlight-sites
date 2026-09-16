@@ -1,7 +1,7 @@
 ---
 
 title: "Genetics"
-description: "IB Biology — meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
+description: "IB Biology, meiosis, Mendelian genetics, inheritance patterns, gene expression, mutations, biotechnology, PCR, and genetic modification."
 date: 2024-01-01T00:00:00Z
 tags:
   - ib
@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Genetics is like a biological recipe book — DNA contains instructions, genes are individual recipes, and proteins are the finished dishes:** Genes control traits through protein synthesis, and genetic variation creates the diversity of life
+**Genetics is like a biological recipe book, DNA contains instructions, genes are individual recipes, and proteins are the finished dishes:** Genes control traits through protein synthesis, and genetic variation creates the diversity of life
 
 **Why it matters:** Genetics explains inheritance, evolution, and genetic diseases, making it fundamental to biology and medicine
 

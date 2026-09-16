@@ -483,7 +483,7 @@ Memory:
 #include <ranges>
 
 int main() {
-    // DANGEROUS: infinite range materialized — hangs forever
+    // DANGEROUS: infinite range materialized, hangs forever
     // auto bad = std::views::iota(0) | std::ranges::to<std::vector<int>>();
 
     // CORRECT: bound the infinite range before materializing

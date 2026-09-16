@@ -1,6 +1,6 @@
 ---
-title: "Developer Tools Guide — Testing, Debugging, CI/CD"
-description: "Study notes for Developer Tools Guide — Testing, Debugging, CI/CD with worked examples, practice problems, and key concepts for exam preparation."
+title: "Developer Tools Guide, Testing, Debugging, CI/CD"
+description: "Study notes for Developer Tools Guide, Testing, Debugging, CI/CD with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - developer-tools
@@ -55,7 +55,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-Software development is not just about writing code — it is about writing code that works, that is maintainable, and that ships reliably. The tools you use determine how effectively you can write, test, debug, and deploy software. A developer who masters their tools can produce in hours what takes others days.
+Software development is not just about writing code, it is about writing code that works, that is maintainable, and that ships reliably. The tools you use determine how effectively you can write, test, debug, and deploy software. A developer who masters their tools can produce in hours what takes others days.
 
 This hub page maps every resource on this site. The guides cover the essential toolchain of modern software development: version control with Git, testing at every level, debugging techniques, CI/CD pipelines, code quality enforcement, containerisation with Docker and Kubernetes, and productivity workflows that keep you focused. Whether you are a solo developer or part of a large team, these resources will help you work more effectively.
 
@@ -76,16 +76,16 @@ This hub page maps every resource on this site. The guides cover the essential t
 
 ## Version Control with Git
 
-Git is the foundation of modern software development. Every developer must be proficient in Git — not just the basic commands, but the workflows and strategies that keep a codebase healthy as a team grows.
+Git is the foundation of modern software development. Every developer must be proficient in Git, not just the basic commands, but the workflows and strategies that keep a codebase healthy as a team grows.
 
 ### Core Concepts
 
-- **Repository** — a directory tracked by Git, containing all files and their history
-- **Commit** — a snapshot of the repository at a point in time
-- **Branch** — an independent line of development
-- **Merge** — combining changes from different branches
-- **Rebase** — replaying commits from one branch onto another
-- **Remote** — a version of the repository hosted elsewhere (GitHub, GitLab, Bitbucket)
+- **Repository**, a directory tracked by Git, containing all files and their history
+- **Commit**, a snapshot of the repository at a point in time
+- **Branch**, an independent line of development
+- **Merge**, combining changes from different branches
+- **Rebase**, replaying commits from one branch onto another
+- **Remote**, a version of the repository hosted elsewhere (GitHub, GitLab, Bitbucket)
 
 ### Essential Commands
 
@@ -107,32 +107,32 @@ git cherry-pick <commit>    # Apply a specific commit
 
 ### Branching Strategies
 
-- **Git Flow** — develop, feature, release, hotfix branches; suits release-based projects
-- **GitHub Flow** — feature branches off main, merge via pull request; suits continuous deployment
-- **Trunk-Based Development** — everyone commits to main with short-lived branches; suits high-velocity teams
+- **Git Flow**, develop, feature, release, hotfix branches; suits release-based projects
+- **GitHub Flow**, feature branches off main, merge via pull request; suits continuous deployment
+- **Trunk-Based Development**, everyone commits to main with short-lived branches; suits high-velocity teams
 
 ### Advanced Topics
 
-- **Interactive rebase** — clean up commit history before merging
-- **Bisect** — binary search through commits to find when a bug was introduced
-- **Submodules** — manage external repositories within your project
-- **Hooks** — automate tasks on commit, push, or merge
+- **Interactive rebase**, clean up commit history before merging
+- **Bisect**, binary search through commits to find when a bug was introduced
+- **Submodules**, manage external repositories within your project
+- **Hooks**, automate tasks on commit, push, or merge
 
 ---
 
 ## Testing
 
-Testing is the practice of verifying that your code behaves correctly. It is not optional — it is a core professional responsibility. The testing pyramid provides a framework for thinking about what to test and how.
+Testing is the practice of verifying that your code behaves correctly. It is not optional, it is a core professional responsibility. The testing pyramid provides a framework for thinking about what to test and how.
 
 ### The Testing Pyramid
 
 ```
         /  \
-       / E2E \       — End-to-end tests: full system, few in number
+       / E2E \, End-to-end tests: full system, few in number
       /--------\
-     / Integration\  — Integration tests: multiple components
+     / Integration\, Integration tests: multiple components
     /--------------\
-   /   Unit Tests   \ — Unit tests: individual functions, many in number
+   /   Unit Tests   \, Unit tests: individual functions, many in number
   /------------------\
 ```
 
@@ -158,11 +158,11 @@ Unit tests verify individual functions or methods in isolation. They are fast, d
 - Follow Arrange-Act-Assert pattern
 - Test both happy paths and edge cases
 - Mock external dependencies (databases, APIs, file systems)
-- Aim for high coverage but do not chase 100% — focus on critical paths
+- Aim for high coverage but do not chase 100%, focus on critical paths
 
 ### Integration Testing
 
-Integration tests verify that multiple components work together correctly. They catch issues that unit tests miss — incorrect interfaces, configuration problems, and data flow errors.
+Integration tests verify that multiple components work together correctly. They catch issues that unit tests miss, incorrect interfaces, configuration problems, and data flow errors.
 
 **Common integration test targets:**
 
@@ -178,17 +178,17 @@ E2E tests simulate real user workflows through the entire application stack. The
 
 **E2E frameworks:**
 
-- **Playwright** — modern, fast, multi-browser
-- **Cypress** — developer-friendly, great debugging
-- **Selenium** — mature, wide language support
+- **Playwright**, modern, fast, multi-browser
+- **Cypress**, developer-friendly, great debugging
+- **Selenium**, mature, wide language support
 
 ### Test-Driven Development (TDD)
 
 TDD is a development methodology where you write tests before writing code:
 
-1. **Red** — write a failing test
-2. **Green** — write the minimum code to pass the test
-3. **Refactor** — improve the code while keeping tests green
+1. **Red**, write a failing test
+2. **Green**, write the minimum code to pass the test
+3. **Refactor**, improve the code while keeping tests green
 
 TDD produces cleaner code, better test coverage, and more confident refactoring. It requires discipline but pays dividends in code quality.
 
@@ -196,27 +196,27 @@ TDD produces cleaner code, better test coverage, and more confident refactoring.
 
 ## Debugging
 
-Debugging is the art of finding and fixing defects in software. It is the most time-consuming part of development — and the part where tool mastery has the highest return.
+Debugging is the art of finding and fixing defects in software. It is the most time-consuming part of development, and the part where tool mastery has the highest return.
 
 ### Debugging Strategies
 
-1. **Reproduce the bug** — create a minimal, reliable reproduction
-2. **Read the error message** — stack traces contain valuable information; read them carefully
-3. **Add logging** — instrument your code to understand what is happening
-4. **Use a debugger** — step through code, inspect variables, set breakpoints
-5. **Rubber duck debugging** — explain the problem out loud (or to a colleague); the act of explaining often reveals the solution
-6. **Binary search** — comment out halves of the code to narrow down where the bug lives
-7. **Check recent changes** — `git log` and `git diff` to see what changed
-8. **Search for similar issues** — someone has likely encountered the same bug before
+1. **Reproduce the bug**, create a minimal, reliable reproduction
+2. **Read the error message**, stack traces contain valuable information; read them carefully
+3. **Add logging**, instrument your code to understand what is happening
+4. **Use a debugger**, step through code, inspect variables, set breakpoints
+5. **Rubber duck debugging**, explain the problem out loud (or to a colleague); the act of explaining often reveals the solution
+6. **Binary search**, comment out halves of the code to narrow down where the bug lives
+7. **Check recent changes**, `git log` and `git diff` to see what changed
+8. **Search for similar issues**, someone has likely encountered the same bug before
 
 ### Debugging Tools
 
-- **Browser DevTools** — Chrome, Firefox, and Safari include powerful debugging tools for web applications
-- **IDE debuggers** — VS Code, IntelliJ, and PyCharm include integrated debuggers
-- **Postman/Insomnia** — test API endpoints independently of the frontend
-- **Network analysers** — Wireshark, tcpdump for low-level network debugging
-- **Memory profilers** — Valgrind, Chrome DevTools Memory tab for memory leaks
-- **Log aggregators** — ELK Stack, Datadog for production debugging
+- **Browser DevTools**, Chrome, Firefox, and Safari include powerful debugging tools for web applications
+- **IDE debuggers**, VS Code, IntelliJ, and PyCharm include integrated debuggers
+- **Postman/Insomnia**, test API endpoints independently of the frontend
+- **Network analysers**, Wireshark, tcpdump for low-level network debugging
+- **Memory profilers**, Valgrind, Chrome DevTools Memory tab for memory leaks
+- **Log aggregators**, ELK Stack, Datadog for production debugging
 
 ### Common Bug Categories
 
@@ -241,20 +241,20 @@ CI automatically builds and tests code every time a change is pushed to the repo
 
 **CI pipeline stages:**
 
-1. **Checkout** — pull the latest code
-2. **Install dependencies** — `npm install`, `pip install`, `cargo build`
-3. **Lint** — check code style and catch common errors
-4. **Build** — compile or bundle the application
-5. **Test** — run unit, integration, and E2E tests
-6. **Report** — publish results and coverage reports
+1. **Checkout**, pull the latest code
+2. **Install dependencies**, `npm install`, `pip install`, `cargo build`
+3. **Lint**, check code style and catch common errors
+4. **Build**, compile or bundle the application
+5. **Test**, run unit, integration, and E2E tests
+6. **Report**, publish results and coverage reports
 
 **CI platforms:**
 
-- **GitHub Actions** — tightly integrated with GitHub repositories
-- **GitLab CI/CD** — built into GitLab with powerful pipeline configuration
-- **CircleCI** — fast, Docker-based CI with parallelism
-- **Jenkins** — self-hosted, highly customisable
-- **Travis CI** — simple, open-source-friendly
+- **GitHub Actions**, tightly integrated with GitHub repositories
+- **GitLab CI/CD**, built into GitLab with powerful pipeline configuration
+- **CircleCI**, fast, Docker-based CI with parallelism
+- **Jenkins**, self-hosted, highly customisable
+- **Travis CI**, simple, open-source-friendly
 
 ### Continuous Deployment (CD)
 
@@ -262,10 +262,10 @@ CD extends CI by automatically deploying code that passes all tests to productio
 
 **CD strategies:**
 
-- **Blue-green deployment** — maintain two identical environments; swap traffic between them
-- **Canary deployment** — roll out to a small percentage of users first
-- **Rolling deployment** — gradually replace old instances with new ones
-- **Feature flags** — deploy code with features disabled; enable remotely when ready
+- **Blue-green deployment**, maintain two identical environments; swap traffic between them
+- **Canary deployment**, roll out to a small percentage of users first
+- **Rolling deployment**, gradually replace old instances with new ones
+- **Feature flags**, deploy code with features disabled; enable remotely when ready
 
 ### GitHub Actions Example
 
@@ -313,19 +313,19 @@ Linters analyse code for errors, style violations, and potential bugs.
 
 Formatters automatically reformat code to a consistent style.
 
-- **Prettier** — opinionated formatter for JavaScript, TypeScript, CSS, HTML, JSON
-- **Black** — opinionated Python formatter
-- **gofmt** — built-in Go formatter
-- **rustfmt** — built-in Rust formatter
+- **Prettier**, opinionated formatter for JavaScript, TypeScript, CSS, HTML, JSON
+- **Black**, opinionated Python formatter
+- **gofmt**, built-in Go formatter
+- **rustfmt**, built-in Rust formatter
 
 ### Static Analysis
 
 Static analysis tools find bugs without running the code.
 
-- **TypeScript compiler** — catches type errors at compile time
-- **mypy** — static type checker for Python
-- **SonarQube** — multi-language code quality platform
-- **CodeQL** — semantic code analysis for security vulnerabilities
+- **TypeScript compiler**, catches type errors at compile time
+- **mypy**, static type checker for Python
+- **SonarQube**, multi-language code quality platform
+- **CodeQL**, semantic code analysis for security vulnerabilities
 
 ### Pre-commit Hooks
 
@@ -382,16 +382,16 @@ Kubernetes manages containerised applications across clusters of machines.
 
 **Core concepts:**
 
-- **Pod** — the smallest deployable unit; one or more containers
-- **Deployment** — declares desired state for pods; handles rolling updates
-- **Service** — stable network endpoint for accessing pods
-- **Ingress** — routes external traffic to services
-- **ConfigMap / Secret** — configuration data separate from container images
-- **PersistentVolume** — storage that survives pod restarts
+- **Pod**, the smallest deployable unit; one or more containers
+- **Deployment**, declares desired state for pods; handles rolling updates
+- **Service**, stable network endpoint for accessing pods
+- **Ingress**, routes external traffic to services
+- **ConfigMap / Secret**, configuration data separate from container images
+- **PersistentVolume**, storage that survives pod restarts
 
 **Key resources:**
 
-- [Kubernetes and Docker Guide](kubernetes-docker) — practical guide to containerisation and orchestration
+- [Kubernetes and Docker Guide](kubernetes-docker), practical guide to containerisation and orchestration
 
 ---
 
@@ -401,24 +401,24 @@ Understanding algorithms and data structures is essential for writing efficient 
 
 ### Core Data Structures
 
-- **Arrays and Lists** — contiguous and linked sequential storage
-- **Stacks and Queues** — LIFO and FIFO structures
-- **Hash Tables** — O(1) average-case lookup
-- **Trees** — hierarchical structures (binary trees, BSTs, heaps, tries)
-- **Graphs** — networks of nodes and edges (directed/undirected, weighted/unweighted)
+- **Arrays and Lists**, contiguous and linked sequential storage
+- **Stacks and Queues**, LIFO and FIFO structures
+- **Hash Tables**, O(1) average-case lookup
+- **Trees**, hierarchical structures (binary trees, BSTs, heaps, tries)
+- **Graphs**, networks of nodes and edges (directed/undirected, weighted/unweighted)
 
 ### Core Algorithms
 
-- **Sorting** — quicksort, mergesort, heapsort, timsort
-- **Searching** — binary search, breadth-first search, depth-first search
-- **Dynamic programming** — optimisation by breaking problems into overlapping subproblems
-- **Greedy algorithms** — locally optimal choices leading to global optimum
-- **Graph algorithms** — Dijkstra's, Bellman-Ford, Kruskal's, Prim's
+- **Sorting**, quicksort, mergesort, heapsort, timsort
+- **Searching**, binary search, breadth-first search, depth-first search
+- **Dynamic programming**, optimisation by breaking problems into overlapping subproblems
+- **Greedy algorithms**, locally optimal choices leading to global optimum
+- **Graph algorithms**, Dijkstra's, Bellman-Ford, Kruskal's, Prim's
 
 ### Practice
 
-- [Algorithms Guide](algorithms) — topic-by-topic notes with complexity analysis
-- [Algorithm Practice Problems](practice-algorithms) — worked examples and challenge problems
+- [Algorithms Guide](algorithms), topic-by-topic notes with complexity analysis
+- [Algorithm Practice Problems](practice-algorithms), worked examples and challenge problems
 
 ---
 
@@ -442,10 +442,10 @@ Developer productivity is about managing attention, not just time.
 
 ### Time Management
 
-- **Pomodoro Technique** — 25 minutes of focused work, 5-minute break
-- **Time blocking** — dedicate specific hours to specific types of work
-- **Batch similar tasks** — group code reviews, emails, or meetings
-- **Protect deep work** — block uninterrupted time for complex tasks
+- **Pomodoro Technique**, 25 minutes of focused work, 5-minute break
+- **Time blocking**, dedicate specific hours to specific types of work
+- **Batch similar tasks**, group code reviews, emails, or meetings
+- **Protect deep work**, block uninterrupted time for complex tasks
 
 ### Documentation
 
@@ -460,14 +460,14 @@ Developer productivity is about managing attention, not just time.
 
 Developer tools connect to many other areas of software development:
 
-- **[C++ Programming](https://programming.wyattau.com/hub)** — programming fundamentals and language-specific tooling
-- **[Go Programming](https://go.wyattau.com/hub)** — Go-specific tools and conventions
-- **[Rust Programming](https://rust.wyattau.com/hub)** — Rust's built-in toolchain and Cargo ecosystem
-- **[TypeScript](https://typescript.wyattau.com/hub)** — TypeScript tooling and configuration
-- **[Databases](https://databases.wyattau.com/hub)** — database tools and management
-- **[Networking](https://networking.wyattau.com/hub)** — network debugging and analysis tools
-- **[Security](https://security.wyattau.com/hub)** — security scanning and vulnerability assessment
-- **[Performance Tuning](https://tuning.wyattau.com/hub)** — profiling and optimisation tools
+- **[C++ Programming](https://programming.wyattau.com/hub)**, programming fundamentals and language-specific tooling
+- **[Go Programming](https://go.wyattau.com/hub)**, Go-specific tools and conventions
+- **[Rust Programming](https://rust.wyattau.com/hub)**, Rust's built-in toolchain and Cargo ecosystem
+- **[TypeScript](https://typescript.wyattau.com/hub)**, TypeScript tooling and configuration
+- **[Databases](https://databases.wyattau.com/hub)**, database tools and management
+- **[Networking](https://networking.wyattau.com/hub)**, network debugging and analysis tools
+- **[Security](https://security.wyattau.com/hub)**, security scanning and vulnerability assessment
+- **[Performance Tuning](https://tuning.wyattau.com/hub)**, profiling and optimisation tools
 
 ---
 
@@ -475,7 +475,7 @@ Developer tools connect to many other areas of software development:
 
 ### What tools should I learn first?
 
-Start with Git and your editor. These two tools have the highest return on investment — you use them every day, and proficiency directly impacts your productivity. Then learn your language's package manager and build tools. CI/CD and containerisation come next as your projects grow in complexity.
+Start with Git and your editor. These two tools have the highest return on investment, you use them every day, and proficiency directly impacts your productivity. Then learn your language's package manager and build tools. CI/CD and containerisation come next as your projects grow in complexity.
 
 ### How do I choose between CI/CD platforms?
 
@@ -491,7 +491,7 @@ Use feature flags to disable problematic features without redeploying. Add compr
 
 ### How many tests should I write?
 
-Focus on critical paths first — the code that handles money, user data, or core business logic. Aim for high coverage on those paths (80%+). For less critical code, lower coverage is acceptable. Remember: coverage is a metric, not a goal. The goal is confidence that your code works.
+Focus on critical paths first, the code that handles money, user data, or core business logic. Aim for high coverage on those paths (80%+). For less critical code, lower coverage is acceptable. Remember: coverage is a metric, not a goal. The goal is confidence that your code works.
 
 ### Should I use Docker for every project?
 

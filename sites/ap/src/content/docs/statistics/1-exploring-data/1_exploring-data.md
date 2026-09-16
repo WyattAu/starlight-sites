@@ -223,11 +223,11 @@ flowchart TD
 
 ## Intuition
 
-Exploring data is about **seeing the story before computing the statistics**. A good graph reveals shape, centre, spread, and outliers — before you calculate a single number. The key is choosing the right display for the type of data you have.
+Exploring data is about **seeing the story before computing the statistics**. A good graph reveals shape, centre, spread, and outliers, before you calculate a single number. The key is choosing the right display for the type of data you have.
 
-**Categorical vs quantitative — why it matters:** The type of variable determines everything: which graphs to draw, which statistics to compute, and which inference procedures to use. Categorical data gets bar charts and proportions; quantitative data gets histograms, boxplots, and means/standard deviations.
+**Categorical vs quantitative, why it matters:** The type of variable determines everything: which graphs to draw, which statistics to compute, and which inference procedures to use. Categorical data gets bar charts and proportions; quantitative data gets histograms, boxplots, and means/standard deviations.
 
-**Mean vs median — the outlier story:** The mean is pulled toward outliers and skewness; the median is resistant. In a right-skewed distribution (like income data), the mean is always greater than the median. Always choose the measure of centre that matches the shape of the distribution.
+**Mean vs median, the outlier story:** The mean is pulled toward outliers and skewness; the median is resistant. In a right-skewed distribution (like income data), the mean is always greater than the median. Always choose the measure of centre that matches the shape of the distribution.
 
 **The empirical rule is a shortcut, not a substitute:** The 68-95-99.7 rule only applies to *approximately normal* distributions. For skewed or irregular distributions, use the actual data or z-scores with the standard normal table.
 

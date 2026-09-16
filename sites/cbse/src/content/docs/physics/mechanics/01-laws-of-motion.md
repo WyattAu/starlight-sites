@@ -64,7 +64,7 @@ For every action, there is an equal and opposite reaction.
 
 ## Additional Worked Examples
 
-### Worked Example 5 — Newton's Second Law with Friction
+### Worked Example 5, Newton's Second Law with Friction
 
 **Problem:** A 10 kg block is pushed across a rough horizontal surface with a force of 40 N. The coefficient of kinetic friction is 0.3. Find the acceleration of the block. ($g = 9.8 \, \text{m/s}^2$)
 
@@ -82,7 +82,7 @@ $$F_{net} = F - f_k = 40 - 29.4 = 10.6 \, \text{N}$$
 Acceleration:
 $$a = \frac{F_{net}}{m} = \frac{10.6}{10} = 1.06 \, \text{m/s}^2$$
 
-### Worked Example 6 — Inclined Plane with Friction
+### Worked Example 6, Inclined Plane with Friction
 
 **Problem:** A 5 kg block is placed on a rough inclined plane at an angle of $30^\circ$ to the horizontal. The coefficient of static friction is 0.25. Will the block slide down? If it does, find the acceleration. ($g = 9.8 \, \text{m/s}^2$)
 
@@ -104,7 +104,7 @@ $$= 24.5 - 8.49 = 16.01 \, \text{N}$$
 Acceleration:
 $$a = \frac{F_{net}}{m} = \frac{16.01}{5} \approx 3.20 \, \text{m/s}^2$$
 
-### Worked Example 7 — Connected Blocks (Atwood's Machine)
+### Worked Example 7, Connected Blocks (Atwood's Machine)
 
 **Problem:** Two masses $m_1 = 3 \, \text{kg}$ and $m_2 = 5 \, \text{kg}$ are connected by a light inextensible string over a frictionless pulley. Find the acceleration of the system and the tension in the string. ($g = 9.8 \, \text{m/s}^2$)
 
@@ -123,7 +123,7 @@ $$a = \frac{(m_2 - m_1)g}{m_1 + m_2} = \frac{(5 - 3) \times 9.8}{3 + 5} = \frac{
 Tension:
 $$T = m_1(g + a) = 3 \times (9.8 + 2.45) = 3 \times 12.25 = 36.75 \, \text{N}$$
 
-### Worked Example 8 — Lift Problem (Apparent Weight)
+### Worked Example 8, Lift Problem (Apparent Weight)
 
 **Problem:** A 60 kg person stands on a weighing scale inside a lift. What does the scale read when the lift (a) accelerates upward at $2 \, \text{m/s}^2$, (b) accelerates downward at $2 \, \text{m/s}^2$, (c) moves with constant velocity? ($g = 9.8 \, \text{m/s}^2$)
 
@@ -165,11 +165,11 @@ flowchart TD
 
 ## Intuition
 
-**Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion — from a ball rolling down a hill to a planet orbiting a star.
+**Newton's laws are about prediction, not explanation:** The first law tells you what happens when nothing is pushing. The second law tells you how hard things accelerate when you push them. The third law tells you that every push comes with a push-back. Together, they form a complete framework for predicting motion, from a ball rolling down a hill to a planet orbiting a star.
 
-**Why it matters:** These laws are the foundation of classical mechanics. Every engineering calculation — bridge design, rocket trajectory, car crash analysis — starts with F=ma. Understanding friction, normal forces, and inertial frames is essential for solving real-world problems.
+**Why it matters:** These laws are the foundation of classical mechanics. Every engineering calculation, bridge design, rocket trajectory, car crash analysis, starts with F=ma. Understanding friction, normal forces, and inertial frames is essential for solving real-world problems.
 
-**The key insight:** The normal force is not always equal to weight — it adjusts to whatever is needed to prevent surfaces from passing through each other. On an incline, the normal force is mg cosθ, not mg.
+**The key insight:** The normal force is not always equal to weight, it adjusts to whatever is needed to prevent surfaces from passing through each other. On an incline, the normal force is mg cosθ, not mg.
 
 ## Common Mistakes
 

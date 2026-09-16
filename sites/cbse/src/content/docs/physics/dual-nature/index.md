@@ -57,7 +57,7 @@ This topic covers the wave-particle duality of light and matter, including the p
 - Electron volt: $1 \, \text{eV} = 1.6 \times 10^{-19} \, \text{J}$
 - Planck's constant: $h = 6.63 \times 10^{-34} \, \text{J·s}$
 
-## Worked Example 1 — Photoelectric Effect
+## Worked Example 1, Photoelectric Effect
 
 **Problem:** Light of wavelength 200 nm falls on a metal surface with work function 3.0 eV. Find the maximum kinetic energy of emitted photoelectrons.
 
@@ -74,7 +74,7 @@ $$K_{\max} = E - W_0 = 6.22 - 3.0 = 3.22 \, \text{eV}$$
 
 **Common mistake:** Forgetting to convert units between joules and electron volts. Always work in consistent units.
 
-## Worked Example 2 — Threshold Frequency
+## Worked Example 2, Threshold Frequency
 
 **Problem:** The stopping potential for light of wavelength 400 nm on a metal surface is 0.5 V. Find the work function and threshold wavelength.
 
@@ -94,7 +94,7 @@ $$\lambda_0 = \frac{hc}{W_0} = \frac{1240 \, \text{eV·nm}}{2.61 \, \text{eV}} \
 
 **Common mistake:** Using $\lambda_0 = hc/W_0$ without converting $W_0$ to joules, or using the shortcut $hc = 1240 \, \text{eV·nm}$ incorrectly.
 
-## Worked Example 3 — de Broglie Wavelength
+## Worked Example 3, de Broglie Wavelength
 
 **Problem:** Find the de Broglie wavelength of an electron accelerated through a potential difference of 100 V.
 
@@ -113,7 +113,7 @@ $$\lambda = \frac{h}{p} = \frac{6.63 \times 10^{-34}}{5.40 \times 10^{-24}} = 1.
 
 **Common mistake:** Forgetting to take the square root when calculating momentum from kinetic energy.
 
-## Worked Example 4 — Stopping Potential
+## Worked Example 4, Stopping Potential
 
 **Problem:** Light of frequency $8 \times 10^{14} \, \text{Hz}$ falls on a metal surface with work function 2.0 eV. Find the stopping potential.
 
@@ -143,9 +143,9 @@ $$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
 
 ## Cross-References
 
-- **[Atoms and Nuclei](../atoms-nuclei/index):** The Bohr model uses quantized energy levels that connect directly to photon energies — dual nature extends this to matter waves.
+- **[Atoms and Nuclei](../atoms-nuclei/index):** The Bohr model uses quantized energy levels that connect directly to photon energies, dual nature extends this to matter waves.
 - **[Electrostatics](../electrostatics/index):** The photoelectric effect involves electric fields stopping photoelectrons, connecting wave-particle duality to electrostatics.
-- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Photochemical reactions are driven by photon absorption — the same photoelectric principle applied to chemistry.
+- **[Chemical Kinetics (Chemistry)](../../chemistry/chemical-kinetics/index):** Photochemical reactions are driven by photon absorption, the same photoelectric principle applied to chemistry.
 - **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** The photoelectric equation and de Broglie wavelength involve functions that connect to calculus concepts.
 
 ## Practice Problems
@@ -156,11 +156,11 @@ $$V_0 = \frac{K_{\max}}{e} = 1.31 \, \text{V}$$
 
 ## Intuition
 
-**Light and matter are both waves and particles — depending on how you look:** The dual nature of radiation is like a performer who acts differently depending on the audience. In the photoelectric effect, light behaves as particles (photons) — each photon kicks out one electron, like individual bullets hitting a target. But in diffraction experiments, light behaves as a wave, spreading out and creating interference patterns. Matter does the same thing — electrons create diffraction patterns like waves, but hit detectors like particles. The de Broglie wavelength tells you the "wavelength" of any moving object, though for everyday objects it's so tiny you'd never notice.
+**Light and matter are both waves and particles, depending on how you look:** The dual nature of radiation is like a performer who acts differently depending on the audience. In the photoelectric effect, light behaves as particles (photons), each photon kicks out one electron, like individual bullets hitting a target. But in diffraction experiments, light behaves as a wave, spreading out and creating interference patterns. Matter does the same thing, electrons create diffraction patterns like waves, but hit detectors like particles. The de Broglie wavelength tells you the "wavelength" of any moving object, though for everyday objects it's so tiny you'd never notice.
 
 **Why it matters:** The photoelectric effect is how solar cells generate electricity and how digital cameras capture images. Electron diffraction is how we study crystal structures at the atomic scale. Wave-particle duality is the foundation of quantum mechanics, which powers all modern electronics, from smartphones to quantum computers.
 
-**The key insight:** The photon model explains why there's a threshold frequency — below that, individual photons don't have enough energy to liberate electrons, no matter how intense the light. This is something wave theory completely failed to predict.
+**The key insight:** The photon model explains why there's a threshold frequency, below that, individual photons don't have enough energy to liberate electrons, no matter how intense the light. This is something wave theory completely failed to predict.
 
 ## Common Exam Patterns
 

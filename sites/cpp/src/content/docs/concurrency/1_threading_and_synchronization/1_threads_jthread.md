@@ -325,8 +325,8 @@ void native_handle_demo() {
     });
 
     auto handle = t.native_handle();
-    // POSIX: handle is pthread_t — can use with pthread_setaffinity_np, pthread_setname_np, etc.
-    // Windows: handle is HANDLE — can use with SetThreadAffinityMask, SetThreadPriority, etc.
+    // POSIX: handle is pthread_t, can use with pthread_setaffinity_np, pthread_setname_np, etc.
+    // Windows: handle is HANDLE, can use with SetThreadAffinityMask, SetThreadPriority, etc.
 
     // Example (POSIX only): set thread name
     // pthread_setname_np(handle, "worker-thread");
@@ -362,7 +362,7 @@ void race_condition_demo() {
     //     std::cout << "Thread 2: " << s << "\n";  // may crash if t2 runs after scope exit
     // }, std::cref(msg));  // DANGEROUS: dangling reference if thread outlives scope
 
-    // SAFE with std::ref — but only if you guarantee the scope outlives the thread
+    // SAFE with std::ref, but only if you guarantee the scope outlives the thread
     std::jthread t3([](std::string& s) {
         s = "modified by thread";
     }, std::ref(msg));
@@ -400,7 +400,7 @@ std::future<int> launch_async_sum(std::vector<int> data) {
         promise.set_value(sum);
     });
 
-    // Detach the thread — the promise captures all needed state
+    // Detach the thread, the promise captures all needed state
     // The thread will complete and set the promise value
     t.detach();
 
@@ -421,10 +421,10 @@ void promise_future_demo() {
 ```
 
 :::note
-completes. However, detached threads are hard to reason about — you cannot join them, and they may
+completes. However, detached threads are hard to reason about, you cannot join them, and they may
 outlive `main()`Causing undefined behavior. Prefer joining whenever possible.
 :::
-## `std::stop_callback` — Reactive Cancellation
+## `std::stop_callback`Reactive Cancellation
 
 `std::stop_callback` registers a callback that is invoked when `stop_requested()` becomes true
 [N4950 §31.4.4.6]. This is useful for cleaning up resources or signaling other subsystems when a
@@ -535,11 +535,11 @@ void constructor_variants() {
    the thread, or ensure all referenced data outlives the thread (e.g., via `shared_ptr`).
 
 3. **Calling `request_stop()` after `jthread` is joined:** `request_stop()` is safe to call at any
-   time — it is a no-op if the stop has already been requested. The `jthread` destructor calls
+   time, it is a no-op if the stop has already been requested. The `jthread` destructor calls
    `request_stop()` followed by `join()`So the stop is always requested before joining.
 
 4. **`stop_token` is not a cancellation mechanism:** `stop_token` implements cooperative
-   cancellation — the worker must periodically check `stop_requested()`. If the worker blocks
+   cancellation, the worker must periodically check `stop_requested()`. If the worker blocks
    indefinitely (e.g., on I/O or a mutex), `request_stop()` alone cannot interrupt it. Use condition
    variables with timeouts or OS-specific cancellation for truly interruptible waits.
 

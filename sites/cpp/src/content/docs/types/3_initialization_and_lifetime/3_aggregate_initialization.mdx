@@ -144,8 +144,8 @@ struct Employee \{
     double salary;
 \};
 
-Employee e1\{.name = "Alice", .id = 1001, .salary = 85000.0\};
-Employee e2\{.id = 1002, .name = "Bob"\};  // salary uses default member initializer or zero
+Employee e1\{.name = "Alice".id = 1001.salary = 85000.0\};
+Employee e2\{.id = 1002.name = "Bob"\};  // salary uses default member initializer or zero
 ```
 
 ### Designated Initializer Rules
@@ -162,8 +162,8 @@ struct S \{
     int c;
 \};
 
-S s1\{.a = 1, .c = 3\};  // OK: b is zero-initialized (no default member initializer)
-S s2\{.c = 3, .a = 1\};  // OK: out of order, but initialized in declaration order (a=1, b=0, c=3)
+S s1\{.a = 1.c = 3\};  // OK: b is zero-initialized (no default member initializer)
+S s2\{.c = 3.a = 1\};  // OK: out of order, but initialized in declaration order (a=1, b=0, c=3)
 S s3\{.b = 2\};           // ERROR: a must be initialized before b
 ```
 
@@ -184,7 +184,7 @@ Value v3\{.s = "hello"\}; // OK: initializes the string member
 ### Restriction: No Re-initialization
 
 ```cpp
-S s\{.a = 1, .a = 2\};    // ERROR: member a designated twice
+S s\{.a = 1.a = 2\};    // ERROR: member a designated twice
 ```
 
 ### Interaction with Base Classes (C++20)
@@ -193,7 +193,7 @@ S s\{.a = 1, .a = 2\};    // ERROR: member a designated twice
 struct Base \{ int a; \};
 struct Derived : Base \{ int b; \};
 
-Derived d\{.a = 1, .b = 2\};   // C++20: designator can refer to base class member
+Derived d\{.a = 1.b = 2\};   // C++20: designator can refer to base class member
 ```
 
 ## The Three Initialization Forms
@@ -365,8 +365,8 @@ struct BuildConfig \{
     int log_level = 1;
 \};
 
-constexpr BuildConfig release_config\{.debug_mode = false, .log_level = 2\};
-constexpr BuildConfig debug_config\{.debug_mode = true, .log_level = 4\};
+constexpr BuildConfig release_config\{.debug_mode = false.log_level = 2\};
+constexpr BuildConfig debug_config\{.debug_mode = true.log_level = 4\};
 ```
 
 ### Interop with C Structs
@@ -411,7 +411,7 @@ struct Flags \{
 \};
 
 Flags f\{\};                    // all bits zero
-Flags f2\{.read = 1, .write = 1\};  // C++20: r=1, w=1, x=0, reserved=0
+Flags f2\{.read = 1.write = 1\};  // C++20: r=1, w=1, x=0, reserved=0
 ```
 
 ### Aggregate Initialization and `constexpr`
@@ -490,7 +490,7 @@ auto& [ref_a, ref_b] = p;  // references to p.first, p.second
 auto point = Point\{1.0, 2.0\};       // Point is deduced from the initializer
 auto arr = std::array\{1, 2, 3\};     // C++17 CTAD: std::array<int, 3>
 
-auto agg = S\{.a = 1, .b = 2\};     // C++20: designated init with auto
+auto agg = S\{.a = 1.b = 2\};     // C++20: designated init with auto
 ```
 
 ### `std::is_aggregate` in Generic Code
@@ -509,11 +509,11 @@ void zero_init(T& obj) \{
 
 ## Intuition
 
-**Direct member initialization:** Aggregate initialization is like filling in a form — you provide values for each member in order, without calling a constructor.
+**Direct member initialization:** Aggregate initialization is like filling in a form, you provide values for each member in order, without calling a constructor.
 
 **Why it matters:** Aggregates are simple data carriers, and aggregate initialization provides a clean, efficient way to initialize them.
 
-**The key insight:** Aggregates can have default member initializers — you can omit values during initialization, and members will use their defaults.
+**The key insight:** Aggregates can have default member initializers, you can omit values during initialization, and members will use their defaults.
 
 ## Common Pitfalls
 
@@ -540,7 +540,7 @@ S s2\{127, 42\};  // OK: 127 fits in char
 
 ```cpp
 struct S \{ int a; int b; \};
-S s\{.b = expr_using_a(), .a = 1\};
+S s\{.b = expr_using_a().a = 1\};
 // b's initializer runs FIRST (declaration order), but a is still 1 at that point
 // because designator values are evaluated in their syntactic order
 ```

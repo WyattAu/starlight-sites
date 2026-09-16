@@ -14,7 +14,7 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 # Diagnostics
 
-Diagnostic tests in AP Mathematics (Calculus) help you identify which areas of the curriculum you have already mastered and which require further study. Mathematics is inherently cumulative — you cannot understand integration without differentiation, and you cannot solve differential equations without both. Diagnosing your current level ensures you spend your study time where it will have the greatest impact.
+Diagnostic tests in AP Mathematics (Calculus) help you identify which areas of the curriculum you have already mastered and which require further study. Mathematics is inherently cumulative, you cannot understand integration without differentiation, and you cannot solve differential equations without both. Diagnosing your current level ensures you spend your study time where it will have the greatest impact.
 
 The AP Calculus exam (whether AB or BC) tests your ability to apply calculus concepts to solve problems, interpret results, and connect ideas across topics. A diagnostic test across all major topic areas reveals not just what you know, but how well you can apply it under exam conditions.
 
@@ -45,14 +45,14 @@ Use the cross-references to link related concepts across subjects where applicab
 ### How to Use Diagnostic Tests Effectively
 
 **Before the diagnostic:**
-- Do not study specifically for the diagnostic — the point is to reveal your true current state
+- Do not study specifically for the diagnostic, the point is to reveal your true current state
 - Ensure you have scratch paper, a pencil, and a timer
 - Treat it like a real exam: no notes, no calculator (unless the diagnostic specifies calculator use)
 
 **During the diagnostic:**
-- Attempt every question, even if you are unsure — partial knowledge is still knowledge
-- Show your working clearly — this helps you (and your teacher) identify where errors occur
-- Do not spend too long on any single question — mark it and move on
+- Attempt every question, even if you are unsure, partial knowledge is still knowledge
+- Show your working clearly, this helps you (and your teacher) identify where errors occur
+- Do not spend too long on any single question, mark it and move on
 
 **After the diagnostic:**
 - Mark your answers using the provided mark scheme
@@ -299,10 +299,10 @@ where $C' = 2C$. This is the equation of a hyperbola (for $C' \neq 0$) or a pair
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
 
-- *Calculus: Early Transcendentals* by James Stewart — The standard AP Calculus textbook
-- *Thomas' Calculus* — Another excellent comprehensive calculus textbook
-- *AP Calculus Premium* by Barron's — Exam preparation with practice tests
-- *The Calculus Lifesaver* by Adrian Banner — Accessible supplementary guide with worked examples
+- *Calculus: Early Transcendentals* by James Stewart, The standard AP Calculus textbook
+- *Thomas' Calculus*, Another excellent comprehensive calculus textbook
+- *AP Calculus Premium* by Barron's, Exam preparation with practice tests
+- *The Calculus Lifesaver* by Adrian Banner, Accessible supplementary guide with worked examples
 
 
 ## Overview

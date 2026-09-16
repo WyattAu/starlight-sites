@@ -111,9 +111,9 @@ Dependencies, plugins, and build configuration.
 
 **Coordinate system:** Every Maven artifact is identified by three coordinates:
 
-- **`groupId`** — the reverse domain name (`com.example``org.apache.commons`).
-- **`artifactId`** — the project or library name (`my-app``commons-lang3`).
-- **`version`** — semantic version (`1.0.0``2.3.1-SNAPSHOT`).
+- **`groupId`**, the reverse domain name (`com.example``org.apache.commons`).
+- **`artifactId`**, the project or library name (`my-app``commons-lang3`).
+- **`version`**, semantic version (`1.0.0``2.3.1-SNAPSHOT`).
 
 ### Lifecycle Phases
 
@@ -155,14 +155,14 @@ Maven scopes control when a dependency is available:
 | `system`            | Yes     | Yes  | No      | Yes     | No                     |
 
 ```xml
-<!-- compile (default) — needed for compilation, included in package -->
+<!-- compile (default), needed for compilation, included in package -->
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
     <version>3.14.0</version>
 </dependency>
 
-<!-- provided — needed for compilation, but not included in package -->
+<!-- provided, needed for compilation, but not included in package -->
 <!-- (expected to be provided by the runtime environment) -->
 <dependency>
     <groupId>jakarta.servlet</groupId>
@@ -171,7 +171,7 @@ Maven scopes control when a dependency is available:
     <scope>provided</scope>
 </dependency>
 
-<!-- runtime — not needed for compilation, needed at runtime -->
+<!-- runtime, not needed for compilation, needed at runtime -->
 <dependency>
     <groupId>com.mysql</groupId>
     <artifactId>mysql-connector-j</artifactId>
@@ -179,7 +179,7 @@ Maven scopes control when a dependency is available:
     <scope>runtime</scope>
 </dependency>
 
-<!-- test — only available during test compilation and execution -->
+<!-- test, only available during test compilation and execution -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter</artifactId>
@@ -216,7 +216,7 @@ mvn dependency:analyze -DignoreNonCompile=true
 Plugins provide the actual build behavior for each lifecycle phase:
 
 ```xml
-<!-- Compiler plugin — controls Java version and compilation flags -->
+<!-- Compiler plugin, controls Java version and compilation flags -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
@@ -231,7 +231,7 @@ Plugins provide the actual build behavior for each lifecycle phase:
     </configuration>
 </plugin>
 
-<!-- Surefire plugin — runs unit tests -->
+<!-- Surefire plugin, runs unit tests -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-surefire-plugin</artifactId>
@@ -245,7 +245,7 @@ Plugins provide the actual build behavior for each lifecycle phase:
     </configuration>
 </plugin>
 
-<!-- Failsafe plugin — runs integration tests -->
+<!-- Failsafe plugin, runs integration tests -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-failsafe-plugin</artifactId>
@@ -260,7 +260,7 @@ Plugins provide the actual build behavior for each lifecycle phase:
     </executions>
 </plugin>
 
-<!-- Shade plugin — creates an uber-jar with all dependencies -->
+<!-- Shade plugin, creates an uber-jar with all dependencies -->
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-shade-plugin</artifactId>
@@ -380,17 +380,17 @@ Gradle uses configurations to declare dependencies with different roles:
 
 ```kotlin
 dependencies {
-    // Implementation — standard production dependency
+    // Implementation, standard production dependency
     implementation("com.fasterxml.jackson.core:jackson-databind:2.16.1")
 
-    // API — exposes this dependency to consumers of this library
+    // API, exposes this dependency to consumers of this library
     // Use ONLY for dependencies that are part of this module's public API
     api("org.slf4j:slf4j-api:2.0.11")
 
-    // Compile only — provided by the runtime (e.g., servlet API)
+    // Compile only, provided by the runtime (e.g., servlet API)
     compileOnly("jakarta.servlet:jakarta.servlet-api:6.0.0")
 
-    // Runtime only — JDBC driver, logging implementation
+    // Runtime only, JDBC driver, logging implementation
     runtimeOnly("com.mysql:mysql-connector-j:8.3.0")
     runtimeOnly("ch.qos.logback:logback-classic:1.4.14")
 
@@ -404,7 +404,7 @@ dependencies {
 ### Gradle Kotlin DSL Features
 
 ```kotlin
-// Dependency constraints — enforce version ranges
+// Dependency constraints, enforce version ranges
 dependencies {
     implementation("com.google.guava:guava")
     constraints {
@@ -418,7 +418,7 @@ dependencies {
 dependencies {
     implementation(platform("org.springframework.boot:spring-boot-dependencies:3.2.3"))
     implementation("org.springframework.boot:spring-boot-starter-web")
-    // Version resolved by BOM — no explicit version needed
+    // Version resolved by BOM, no explicit version needed
 }
 
 // Custom configurations
@@ -460,21 +460,21 @@ sourceSets {
 MAJOR.MINOR.PATCH[-QUALIFIER]
 ```
 
-- **MAJOR** — incompatible API changes.
-- **MINOR** — backward-compatible feature additions.
-- **PATCH** — backward-compatible bug fixes.
+- **MAJOR**, incompatible API changes.
+- **MINOR**, backward-compatible feature additions.
+- **PATCH**, backward-compatible bug fixes.
 
 ### SNAPSHOT vs RELEASE
 
-- **`SNAPSHOT`** — a development version that may change. Maven repositories can serve the latest
+- **`SNAPSHOT`**, a development version that may change. Maven repositories can serve the latest
   SNAPSHOT for each request (`-SNAPSHOT` suffix).
-- **RELEASE** — a stable, immutable version. Once published, the artifact never changes.
+- **RELEASE**, a stable, immutable version. Once published, the artifact never changes.
 
 ```xml
-<!-- SNAPSHOT — will check for updates on each build -->
+<!-- SNAPSHOT, will check for updates on each build -->
 <version>1.0.0-SNAPSHOT</version>
 
-<!-- RELEASE — cached locally, never re-downloaded (unless forced) -->
+<!-- RELEASE, cached locally, never re-downloaded (unless forced) -->
 <version>1.0.0</version>
 ```
 
@@ -486,7 +486,7 @@ Maven supports version ranges, but they are a source of non-reproducible builds.
 <!-- Prefer exact versions -->
 <version>3.14.0</version>
 
-<!-- Avoid version ranges — they cause non-reproducible builds -->
+<!-- Avoid version ranges, they cause non-reproducible builds -->
 <version>[3.12.0,4.0.0)</version>  <!-- >= 3.12.0, < 4.0.0 -->
 <version>[3.14.0]</version>         <!-- exactly 3.14.0 -->
 ```
@@ -592,10 +592,10 @@ dependencies {
 ### Inter-Module Dependencies
 
 ```bash
-# Maven — build all modules in dependency order
+# Maven, build all modules in dependency order
 mvn clean install
 
-# Gradle — build specific module and its dependencies
+# Gradle, build specific module and its dependencies
 ./gradlew :web:build
 ```
 
@@ -606,7 +606,7 @@ Plugins or the `subprojects` block.
 :::
 ## Common Pitfalls
 
-### Dependency Hell — Version Conflicts
+### Dependency Hell, Version Conflicts
 
 ```bash
 # Maven: analyze the dependency tree to find conflicts
@@ -625,7 +625,7 @@ Across all modules.
 ### Forgetting `testImplementation` Scope
 
 ```xml
-<!-- BUG — JUnit is a compile dependency, bundled in production JAR -->
+<!-- BUG, JUnit is a compile dependency, bundled in production JAR -->
 <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter</artifactId>
@@ -637,7 +637,7 @@ Across all modules.
 ### `provided` Scope Misuse
 
 ```xml
-<!-- BUG — using provided for a library that is NOT available at runtime -->
+<!-- BUG, using provided for a library that is NOT available at runtime -->
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
@@ -649,7 +649,7 @@ Across all modules.
 
 ### SNAPSHOT Instability
 
-SNAPSHOT versions are mutable — the same version number may resolve to different artifacts over
+SNAPSHOT versions are mutable, the same version number may resolve to different artifacts over
 Time. This can cause builds to succeed locally but fail on CI (which may have cached an older
 Snapshot), or two developers to get different results.
 
@@ -662,7 +662,7 @@ Without a BOM or `dependencyManagement`Each dependency version must be declared 
 Leading to version mismatches between related libraries:
 
 ```xml
-<!-- BAD — individual versions may be incompatible -->
+<!-- BAD, individual versions may be incompatible -->
 <dependency>
     <groupId>org.springframework</groupId>
     <artifactId>spring-core</artifactId>
@@ -675,7 +675,7 @@ Leading to version mismatches between related libraries:
 <!-- ^ Incompatible with spring-core 6.1.4 -->
 </dependency>
 
-<!-- GOOD — use a BOM to manage compatible versions -->
+<!-- GOOD, use a BOM to manage compatible versions -->
 <dependencyManagement>
     <dependencies>
         <dependency>
@@ -692,23 +692,23 @@ Leading to version mismatches between related libraries:
 ### Gradle Configuration Cache Issues
 
 Gradle's configuration cache (enabled with `--configuration-cache`) caches the project configuration
-Between builds. Build scripts must be idempotent — they must not read system state that can change
+Between builds. Build scripts must be idempotent, they must not read system state that can change
 Between builds (e.g., `System.getenv()` outside of providers, `new Date()` in dependency
 Declarations).
 
 ```kotlin
-// BAD — reads mutable system state during configuration
+// BAD, reads mutable system state during configuration
 val buildTime = LocalDateTime.now()
 version = "1.0.0-${buildTime}"
 
-// GOOD — use providers for lazy evaluation
+// GOOD, use providers for lazy evaluation
 version = providers.gradleProperty("projectVersion").getOrElse("1.0.0-SNAPSHOT")
 ```
 
 ### Maven `system` Scope
 
 ```xml
-<!-- AVOID — system scope references a local JAR file, making the build non-portable -->
+<!-- AVOID, system scope references a local JAR file, making the build non-portable -->
 <dependency>
     <groupId>com.oracle</groupId>
     <artifactId>ojdbc</artifactId>
@@ -838,10 +838,10 @@ publishing {
 Corporate environments run a private Maven repository manager (Sonatype Nexus, JFrog Artifactory)
 that:
 
-- **Proxies Maven Central** — reduces external bandwidth and provides a local cache.
-- **Hosts internal libraries** — first-party artifacts not published to Maven Central.
-- **Manages security** — authentication, authorization, and audit logging.
-- **Supports multiple formats** — Maven, Gradle, npm, Docker, PyPI.
+- **Proxies Maven Central**, reduces external bandwidth and provides a local cache.
+- **Hosts internal libraries**, first-party artifacts not published to Maven Central.
+- **Manages security**, authentication, authorization, and audit logging.
+- **Supports multiple formats**, Maven, Gradle, npm, Docker, PyPI.
 
 ## Build Profiles
 
@@ -926,9 +926,9 @@ dependencies {
 
 Gradle resolves dependencies lazily during task execution. Key features:
 
-- **Configuration cache** — caches resolved dependency graphs between builds.
-- **Build cache** — caches task outputs (including compiled classes) across builds.
-- **File-based dependency locking** — pins resolved versions to a lock file.
+- **Configuration cache**, caches resolved dependency graphs between builds.
+- **Build cache**, caches task outputs (including compiled classes) across builds.
+- **File-based dependency locking**, pins resolved versions to a lock file.
 
 ```kotlin
 // Dependency locking for reproducible builds
@@ -939,13 +939,13 @@ Gradle resolves dependencies lazily during task execution. Key features:
 ### Cleaning the Local Cache
 
 ```bash
-# Maven — clean local repository
+# Maven, clean local repository
 rm -rf ~/.m2/repository/com/example
 
-# Maven — force update of SNAPSHOTs
+# Maven, force update of SNAPSHOTs
 mvn clean install -U
 
-# Gradle — clean build cache
+# Gradle, clean build cache
 ./gradlew cleanBuildCache
 ./gradlew clean
 rm -rf ~/.gradle/caches

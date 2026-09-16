@@ -245,7 +245,7 @@ flowchart TD
 
 **Why it matters:** Mathematical skills are essential for science, engineering, finance, and any career involving data or quantitative analysis.
 
-**The key insight:** Mathematics is cumulative — gaps in algebra will cause difficulties in calculus, and weak trigonometry will hinder physics and engineering.
+**The key insight:** Mathematics is cumulative, gaps in algebra will cause difficulties in calculus, and weak trigonometry will hinder physics and engineering.
 
 ## Common Mistakes
 

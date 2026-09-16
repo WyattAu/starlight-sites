@@ -240,9 +240,9 @@ $$\text{Tl}^+ > \text{Tl}^{3+}, \quad \text{Pb}^{2+} > \text{Pb}^{4+}, \quad \te
 
 ### 5.1 Chromium and Copper
 
-- **Cr ($Z = 24$):** $[\text{Ar}]\,3d^5\,4s^1$ (not $3d^4\,4s^2$) — half-filled $d$-subshell is more
+- **Cr ($Z = 24$):** $[\text{Ar}]\,3d^5\,4s^1$ (not $3d^4\,4s^2$), half-filled $d$-subshell is more
   stable.
-- **Cu ($Z = 29$):** $[\text{Ar}]\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$) — filled $d$-subshell is more
+- **Cu ($Z = 29$):** $[\text{Ar}]\,3d^{10}\,4s^1$ (not $3d^9\,4s^2$), filled $d$-subshell is more
   stable.
 
 Similar anomalies: Mo ($4d^5\,5s^1$), Ag ($4d^{10}\,5s^1$), Au ($5d^{10}\,6s^1$).
@@ -314,7 +314,7 @@ Trend: Basicity increases down a group; acidity increases across a period.
    lanthanide contraction and relativistic stabilization of $s$ orbitals.
 6. **Confusing electron affinity signs.** EA is defined as energy released; a more negative EA means
    the process is more favorable. **Fix:** Conventionally, EA is reported as a positive number when
-   energy is released (some sources differ — check the convention).
+   energy is released (some sources differ, check the convention).
 7. **Overgeneralizing diagonal relationships.** Li–Mg and Be–Al are the strongest; B–Si is weaker.
    **Fix:** Diagonal relationships are trends, not absolute rules; always consider specific
    chemistry.
@@ -385,7 +385,7 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 | Quantum Chemistry             | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)               |
 | Coordination Chemistry        | WyattsNotes | [View](coordination-chemistry)          |
 | Main-Group Chemistry          | WyattsNotes | [View](main-group-chemistry)            |
-| Atomic Structure — LibreTexts | LibreTexts  | [View](https://chem.libretexts.org/Bookshelves/General_Chemistry/) |
+| Atomic Structure, LibreTexts | LibreTexts  | [View](https://chem.libretexts.org/Bookshelves/General_Chemistry/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Integration — Diagnostic Tests
+## Integration, Diagnostic Tests
 
 
 ```mermaid
@@ -30,17 +30,17 @@ flowchart TD
 
 ## Intuition
 
-**Integration is like adding up infinitely many infinitely thin slices — it's the mathematical tool for finding total quantities from rates of change:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change
+**Integration is like adding up infinitely many infinitely thin slices, it's the mathematical tool for finding total quantities from rates of change:** Integration and differentiation are inverse operations, the fundamental theorem of calculus connects accumulation with instantaneous change
 
 **Why it matters:** Integration calculates areas, volumes, probabilities, and totals that would be impossible to measure directly
 
-**The key insight:** Integration and differentiation are inverse operations — the fundamental theorem of calculus connects accumulation with instantaneous change
+**The key insight:** Integration and differentiation are inverse operations, the fundamental theorem of calculus connects accumulation with instantaneous change
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for integration.
 
-### UT-1: Integration by Parts — Cyclic Integral Trap
+### UT-1: Integration by Parts, Cyclic Integral Trap
 
 **Question:**
 
@@ -76,7 +76,7 @@ $$I = \frac{e^{2x}(2\sin x - \cos x)}{3} + C$$
 **(b)** The student"s error is that when they got $I = \text{(something)} - I$They incorrectly
 concluded $I = 0$. The correct step is to add $I$ to both sides to get $2I = \text{(something)}$ Then
 divide by $2$ (or in this case $3$). The cyclic nature of the integral means $I$ appears on both
-sides, but this does not mean $I = 0$ — it means $I$ can be solved for algebraically.
+sides, but this does not mean $I = 0$, it means $I$ can be solved for algebraically.
 
 ---
 
@@ -143,7 +143,7 @@ $$3x - 1 = A(x^2 + 1) + B(x + 1) = Ax^2 + A + Bx + B$$
 
 Comparing coefficients: $A = 0$ (from $x^2$ term), $B = 3$ (from $x$ term), and $A + B = 3 = -1$
 (from constant term), which is a contradiction ($3 \neq -1$). This shows the form
-$\dfrac{B}{x^2 + 1}$ is incorrect — the numerator must be linear: $\dfrac{Bx + C}{x^2 + 1}$.
+$\dfrac{B}{x^2 + 1}$ is incorrect, the numerator must be linear: $\dfrac{Bx + C}{x^2 + 1}$.
 
 ---
 
@@ -156,7 +156,7 @@ $\dfrac{B}{x^2 + 1}$ is incorrect — the numerator must be linear: $\dfrac{Bx +
 }
 </script>
 
-### UT-3: Improper Integral — Convergence with Parameter
+### UT-3: Improper Integral, Convergence with Parameter
 
 **Question:**
 

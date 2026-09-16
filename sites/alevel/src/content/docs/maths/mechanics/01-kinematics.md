@@ -183,7 +183,7 @@ The velocity is $v = ds/dt = 3t^2 - 18t + 24 = 3(t^2 - 6t + 8) = 3(t-2)(t-4)$.
 
 - $v = 0$ at $t = 2$ and $t = 4$: the particle is instantaneously at rest at these times.
 - For $0 \lt t \lt 2$: $v \gt 0$ (moving in positive direction).
-- For $2 \lt t \lt 4$: $v \lt 0$ (moving in negative direction — it has reversed).
+- For $2 \lt t \lt 4$: $v \lt 0$ (moving in negative direction, it has reversed).
 - For $t \gt 4$: $v \gt 0$ (moving in positive direction again).
 
 The acceleration is $a = dv/dt = 6t - 18 = 6(t - 3)$.
@@ -224,7 +224,7 @@ $$y = v\sin\theta \cdot \frac{x}{v\cos\theta} - \frac{1}{2}g\left(\frac{x}{v\cos
 
 $$\boxed{y = x\tan\theta - \frac{gx^2}{2v^2\cos^2\theta}}$$
 
-This is a parabola — all projectile trajectories are parabolic (under constant gravity, no air
+This is a parabola, all projectile trajectories are parabolic (under constant gravity, no air
 Resistance).
 
 ### 4.5 Maximum height
@@ -275,10 +275,10 @@ $$h = v\sin\theta \cdot t - \frac{1}{2}gt^2 \implies \frac{1}{2}gt^2 - v\sin\the
 
 $$t = \frac{v\sin\theta \pm \sqrt{(v\sin\theta)^2 - 2gh}}{g}$$
 
-- If $(v\sin\theta)^2 \gt 2gh$: two solutions — the projectile passes through height $h$ twice (on
+- If $(v\sin\theta)^2 \gt 2gh$: two solutions, the projectile passes through height $h$ twice (on
   the way up and on the way down).
-- If $(v\sin\theta)^2 = 2gh$: one solution — $h$ is the maximum height.
-- If $(v\sin\theta)^2 \lt 2gh$: no real solution — the projectile never reaches height $h$.
+- If $(v\sin\theta)^2 = 2gh$: one solution, $h$ is the maximum height.
+- If $(v\sin\theta)^2 \lt 2gh$: no real solution, the projectile never reaches height $h$.
 
 ### 4.9 Projectiles launched from a height
 
@@ -407,7 +407,7 @@ $u = 0$, $a = 2$, $t = 8$. Using $s = ut + \tfrac{1}{2}at^2$:
 
 $s = 0 + \tfrac{1}{2}(2)(64) = 64\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations) — Section 2.
+**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations), Section 2.
 
 </details>
 
@@ -424,7 +424,7 @@ Time up: $v = u - gt \implies 0 = 15 - 9.8t \implies t = 15/9.8 \approx 1.53\,\m
 
 Total time (up and down): $2 \times 1.53 = 3.06\,\mathrm{s}$.
 
-**If you get this wrong, revise:** [Maximum Height](#45-maximum-height) — Section 4.5.
+**If you get this wrong, revise:** [Maximum Height](#45-maximum-height), Section 4.5.
 
 </details>
 
@@ -441,7 +441,7 @@ $H_{\max} = \dfrac{(19.28)^2}{2(9.8)} = \dfrac{371.72}{19.6} \approx 18.97\,\mat
 
 $R = \dfrac{30^2 \sin 80°}{9.8} = \dfrac{900 \times 0.9848}{9.8} \approx 90.44\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Projectiles](#4-projectiles) — Section 4.
+**If you get this wrong, revise:** [Projectiles](#4-projectiles), Section 4.
 
 </details>
 
@@ -458,7 +458,7 @@ $v^2 = u^2 + 2as \implies 100 = 625 + 400a \implies a = -525/400 = -1.3125\,\mat
 
 $v = u + at \implies 10 = 25 - 1.3125t \implies t = 15/1.3125 \approx 11.43\,\mathrm{s}$.
 
-**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations) — Section 2.
+**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations), Section 2.
 
 </details>
 
@@ -471,7 +471,7 @@ A particle moves with velocity $v = 3t^2 - 2t + 1$ m/s. Find the displacement af
 <summary>Solution 5</summary>
 $s = \int_0^3 (3t^2 - 2t + 1)\,dt = \left[t^3 - t^2 + t\right]_0^3 = 27 - 9 + 3 = 21\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration) — Section 5.
+**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration), Section 5.
 
 </details>
 
@@ -487,7 +487,7 @@ $R = \dfrac{v^2 \sin 2\theta}{g}$. To maximise: $\dfrac{dR}{d\theta} = \dfrac{2v
 $\dfrac{d^2R}{d\theta^2} = -\dfrac{4v^2 \sin 2\theta}{g} \lt 0$ at
 $\theta = 45^\circ$Confirming A maximum. $\blacksquare$
 
-**If you get this wrong, revise:** [Range](#46-range) — Section 4.6.
+**If you get this wrong, revise:** [Range](#46-range), Section 4.6.
 
 </details>
 
@@ -502,7 +502,7 @@ $s = \tfrac{1}{2}gt^2 \implies 80 = 4.9t^2 \implies t^2 = 80/4.9 \implies t \app
 
 $v = gt = 9.8(4.04) \approx 39.6\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations) — Section 2.
+**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations), Section 2.
 
 </details>
 
@@ -532,7 +532,7 @@ $u \approx 3.702$ or $u \approx 0.890$.
 $\theta \approx 74.9^\circ$ or $\theta \approx 41.7^\circ$.
 
 **If you get this wrong, revise:** [Trajectory Equation](#44-derivation-of-the-trajectory-equation)
-— Section 4.4.
+- Section 4.4.
 
 </details>
 
@@ -551,7 +551,7 @@ $s_2 = ut + \tfrac{1}{2}at^2 = 20(40/3) - \tfrac{1}{2}(1.5)(1600/9) = 800/3 - 40
 
 Total: $s = 600 + 133.3 = 733.3\,\mathrm{m}$$t = 30 + 13.33 = 43.33\,\mathrm{s}$.
 
-**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations) — Section 2.
+**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations), Section 2.
 
 </details>
 
@@ -566,7 +566,7 @@ $a = dv/dt = 6 - 2t = 0 \implies t = 3$. $v_{\max} = 18 - 9 = 9\,\mathrm{m/s}$.
 
 Distance: $s = \int_0^6 (6t-t^2)\,dt = [3t^2 - t^3/3]_0^6 = 108 - 72 = 36\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration) — Section 5.
+**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration), Section 5.
 
 </details>
 
@@ -585,7 +585,7 @@ $s_2 = \tfrac{1}{2}(9.8)(2.03)^2 = 4.9 \times 4.121 \approx 20.19\,\mathrm{m}$.
 
 Separation: $45 - 20.19 = 24.81\,\mathrm{m}$.
 
-**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations) — Section 2.
+**If you get this wrong, revise:** [The SUVAT Equations](#2-the-suvat-equations), Section 2.
 
 </details>
 
@@ -605,7 +605,7 @@ $20 = 40(1.1918) - \dfrac{15680}{2v^2(0.4132)} = 47.67 - \dfrac{15680}{0.8263v^2
 $\dfrac{18976.9}{v^2} = 27.67 \implies v^2 = 686.0 \implies v \approx 26.2\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:** [Trajectory Equation](#44-derivation-of-the-trajectory-equation)
-— Section 4.4.
+- Section 4.4.
 
 </details>
 
@@ -629,7 +629,7 @@ $v = 0 \implies -t^2 + 4t + 3 = 0 \implies t^2 - 4t - 3 = 0 \implies t = (4 \pm 
 
 $t = 2 + \sqrt{7} \approx 4.65\,\mathrm{s}$ (taking the positive root).
 
-**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration) — Section 5.
+**If you get this wrong, revise:** [Variable Acceleration](#5-variable-acceleration), Section 5.
 
 </details>
 
@@ -652,7 +652,7 @@ Speed:
 $|\mathbf{v}| = \sqrt{20^2 + 34.3^2} = \sqrt{400 + 1176.49} = \sqrt{1576.49} \approx 39.7\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Projectiles from a Height](#49-projectiles-launched-from-a-height) — Section 4.9.
+[Projectiles from a Height](#49-projectiles-launched-from-a-height), Section 4.9.
 
 </details>
 
@@ -685,7 +685,7 @@ Distance
 $= |s(2.5) - s(0)| + |s(3) - s(2.5)| = |-2.344| + |-1.5 - (-2.344)| = 2.344 + 0.844 = 3.188\,\mathrm{m}$.
 
 **If you get this wrong, revise:**
-[Definite Integration for Distance](#54-definite-integration-for-distance-and-displacement) —
+[Definite Integration for Distance](#54-definite-integration-for-distance-and-displacement),
 Section 5.4.
 
 </details>
@@ -714,7 +714,7 @@ Speed: $\sqrt{6^2 + 12.05^2} = \sqrt{36 + 145.20} = \sqrt{181.20} \approx 13.46\
 Angle below horizontal: $\arctan(12.05/6) \approx 63.5^\circ$.
 
 **If you get this wrong, revise:**
-[Velocity at Any Point](#47-velocity-at-any-point-on-the-trajectory) — Section 4.7.
+[Velocity at Any Point](#47-velocity-at-any-point-on-the-trajectory), Section 4.7.
 
 </details>
 
@@ -744,7 +744,7 @@ The particle is still moving in the positive direction ($v \gt 0$) since it has 
 turning point where $v = 0$ (which occurs at $s^2 = 32/3$I.e., $s \approx 3.27\,\mathrm{m}$).
 
 **If you get this wrong, revise:**
-[Acceleration in Terms of Displacement](#53-acceleration-in-terms-of-displacement-or-velocity) —
+[Acceleration in Terms of Displacement](#53-acceleration-in-terms-of-displacement-or-velocity),
 Section 5.3.
 
 </details>
@@ -798,7 +798,7 @@ unphysical. The problem states they collide at some time after projection. Since
 Constraint is given, we take $w$ as a free parameter satisfying
 $w\,\Delta t = u^2\sin^2\theta / (2g)$ for some $\Delta t \gt 0$.
 
-**If you get this wrong, revise:** [Projectiles](#4-projectiles) — Section 4.
+**If you get this wrong, revise:** [Projectiles](#4-projectiles), Section 4.
 
 </details>
 

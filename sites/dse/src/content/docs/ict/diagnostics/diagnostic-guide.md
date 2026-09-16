@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## DSE ICT — Diagnostic Guide
+## DSE ICT, Diagnostic Guide
 
 ## Coverage Map
 

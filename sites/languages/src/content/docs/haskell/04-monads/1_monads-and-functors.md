@@ -335,8 +335,8 @@ type App = Reader AppEnv
 
 data AppEnv = AppEnv
   { envDbConn :: String
-  , envLogger :: String -> IO ()
-  , envPort   :: Int
+envLogger :: String -> IO ()
+envPort   :: Int
   }
 
 handleRequest :: String -> App String
@@ -388,7 +388,7 @@ factorialLog n = do
 -- Running the Writer
 runFactorial :: (Integer, [String])
 runFactorial = runWriter (factorialLog 5)
--- => (120, ["Computing 5!", "Computing 4!", ..., "Base case: 0! = 1"])
+-- => (120, ["Computing 5!", "Computing 4!"..., "Base case: 0! = 1"])
 ```
 
 ### Writer with Different Monoids
@@ -681,11 +681,11 @@ flowchart TD
 
 ## Intuition
 
-**A monad is a conveyor belt in a factory:** Imagine a factory where each station can transform the item on the belt, but the belt itself has special properties. The `Maybe` belt drops items into the void if anything goes wrong — no downstream station ever sees a broken part. The `IO` belt logs every operation — the belt *is* the audit trail. The `State` belt carries a clipboard that accumulates instructions as items move along. `>>=` (bind) is the instruction: "take the item off the belt, run it through this station, and put the result back on."
+**A monad is a conveyor belt in a factory:** Imagine a factory where each station can transform the item on the belt, but the belt itself has special properties. The `Maybe` belt drops items into the void if anything goes wrong, no downstream station ever sees a broken part. The `IO` belt logs every operation, the belt *is* the audit trail. The `State` belt carries a clipboard that accumulates instructions as items move along. `>>=` (bind) is the instruction: "take the item off the belt, run it through this station, and put the result back on."
 
-**Why it matters:** Monads let you compose computations with effects (failure, state, I/O) in a purely functional way. Instead of side effects happening invisibly, the monad type *tells you* what kind of effects a function has — `Maybe a` might fail, `IO a` does I/O, `State s a` mutates state.
+**Why it matters:** Monads let you compose computations with effects (failure, state, I/O) in a purely functional way. Instead of side effects happening invisibly, the monad type *tells you* what kind of effects a function has, `Maybe a` might fail, `IO a` does I/O, `State s a` mutates state.
 
-**The key insight:** The monad laws (left identity, right identity, associativity) guarantee that chaining operations behaves predictably — you can refactor `m >>= f >>= g` into `m >>= (\x -> f x >>= g)` without changing the result.
+**The key insight:** The monad laws (left identity, right identity, associativity) guarantee that chaining operations behaves predictably, you can refactor `m >>= f >>= g` into `m >>= (\x -> f x >>= g)` without changing the result.
 
 ## Combining Effects
 
@@ -721,6 +721,6 @@ runApp config state action =
 
 **Confusing `fmap` with `>>=`:** `fmap` applies a pure function inside a functor; `>>=` applies a function that itself produces a functor. Using `fmap` when you need `>>=` leads to nested functors (`f (f a)`) instead of flattened results.
 
-**Forgetting that `return` is not a constructor:** `return` is just `pure` — it wraps a value in the monad. It doesn't escape the monad or perform IO. Thinking `return` exits the monad is a common misconception from imperative languages.
+**Forgetting that `return` is not a constructor:** `return` is just `pure`it wraps a value in the monad. It doesn't escape the monad or perform IO. Thinking `return` exits the monad is a common misconception from imperative languages.
 
 **Stacking monad transformers in the wrong order:** The order of `ReaderT`, `StateT`, and `ExceptT` determines which effects are innermost. Wrong ordering makes `lift` calls verbose or impossible. Put the most-used transformer closest to the inner monad.

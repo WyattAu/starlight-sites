@@ -186,7 +186,7 @@ Transformers underpin modern language models (BERT, GPT, T5).
 
 **Why it matters:** ML powers recommendation systems, medical diagnosis, autonomous vehicles, and natural language processing. Understanding ML is essential for modern data science.
 
-**The key insight:** The bias-variance trade-off is the central challenge — simple models underfit (high bias), complex models overfit (high variance), and the best model balances both.
+**The key insight:** The bias-variance trade-off is the central challenge, simple models underfit (high bias), complex models overfit (high variance), and the best model balances both.
 
 ## Summary
 

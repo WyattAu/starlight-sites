@@ -32,7 +32,7 @@ Answer each question. Check your answers against the key at the end.
 
 ## Intuition
 
-**Poetry analysis is like deciphering a code — poets use metaphor, rhythm, and structure to encode meaning that rewards careful reading:** Effective poetry analysis connects technical elements (form, sound, imagery) to thematic meaning and emotional impact
+**Poetry analysis is like deciphering a code, poets use metaphor, rhythm, and structure to encode meaning that rewards careful reading:** Effective poetry analysis connects technical elements (form, sound, imagery) to thematic meaning and emotional impact
 
 **Why it matters:** Poetry analysis develops close reading skills applicable to all forms of communication
 

@@ -27,9 +27,9 @@ C. The Accumulator (ACC) holds the address of the next instruction to be fetched
 D. The Instruction Register (IR) holds the address of the next instruction to be fetched.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — The Program Counter (PC) is a special-purpose register that always contains the memory address of the next instruction to be fetched. When the fetch stage begins, the contents of the PC are copied to the Memory Address Register (MAR), which then communicates with memory to retrieve the instruction. Once fetched, the instruction is placed in the Instruction Register (IR) for decoding. The PC is then incremented (or updated for branch instructions) to point to the following instruction. The MAR temporarily holds the address being accessed, the IR holds the current instruction, and the Accumulator holds intermediate arithmetic results. The PC is fundamental to sequential program execution."
+**Answer: A**, The Program Counter (PC) is a special-purpose register that always contains the memory address of the next instruction to be fetched. When the fetch stage begins, the contents of the PC are copied to the Memory Address Register (MAR), which then communicates with memory to retrieve the instruction. Once fetched, the instruction is placed in the Instruction Register (IR) for decoding. The PC is then incremented (or updated for branch instructions) to point to the following instruction. The MAR temporarily holds the address being accessed, the IR holds the current instruction, and the Accumulator holds intermediate arithmetic results. The PC is fundamental to sequential program execution."
 
 </details>
 
@@ -41,9 +41,9 @@ C. 3.2 thousand cycles per second; one cycle takes approximately 0.3125 microsec
 D. 3.2 billion cycles per second; one cycle takes approximately 3.125 nanoseconds.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — A clock speed of 3.2 GHz means 3.2 gigahertz, which is 3.2 billion cycles per second (since 1 GHz = 1,000,000,000 Hz = 10^9 Hz). The time for one clock cycle is the reciprocal of the clock frequency: T = 1/f = 1 / (3.2 x 10^9) = 3.125 x 10^-10 seconds = 0.3125 nanoseconds. The clock speed determines how many basic operations the CPU can perform per second, though the actual number of instructions completed per cycle depends on the processor architecture (pipelining, superscalar execution). A higher clock speed generally means faster processing but also generates more heat."
+**Answer: A**, A clock speed of 3.2 GHz means 3.2 gigahertz, which is 3.2 billion cycles per second (since 1 GHz = 1,000,000,000 Hz = 10^9 Hz). The time for one clock cycle is the reciprocal of the clock frequency: T = 1/f = 1 / (3.2 x 10^9) = 3.125 x 10^-10 seconds = 0.3125 nanoseconds. The clock speed determines how many basic operations the CPU can perform per second, though the actual number of instructions completed per cycle depends on the processor architecture (pipelining, superscalar execution). A higher clock speed generally means faster processing but also generates more heat."
 
 </details>
 
@@ -57,9 +57,9 @@ C. File management, which organises data on storage devices into directories and
 D. Device management, which controls communication between the CPU and peripheral devices through device drivers.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Process scheduling is the operating system function responsible for deciding which process gets CPU time and for how long. The scheduler maintains a ready queue of processes waiting to execute and uses scheduling algorithms to allocate CPU time. In round-robin scheduling, each process is given a fixed time slice (quantum) in turn; if the process does not finish within its quantum, it is returned to the back of the queue. Priority-based scheduling assigns priorities to processes and the CPU is given to the highest-priority ready process. Memory management handles RAM allocation, file management handles storage organisation, and device management handles peripheral communication -- these are separate OS functions."
+**Answer: A**, Process scheduling is the operating system function responsible for deciding which process gets CPU time and for how long. The scheduler maintains a ready queue of processes waiting to execute and uses scheduling algorithms to allocate CPU time. In round-robin scheduling, each process is given a fixed time slice (quantum) in turn; if the process does not finish within its quantum, it is returned to the back of the queue. Priority-based scheduling assigns priorities to processes and the CPU is given to the highest-priority ready process. Memory management handles RAM allocation, file management handles storage organisation, and device management handles peripheral communication -- these are separate OS functions."
 
 </details>
 
@@ -71,9 +71,9 @@ C. System software is written in high-level languages; application software is w
 D. System software can only run on one type of computer; application software is portable across all platforms. A disk defragmenter is neither system nor application software.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — System software manages and controls the hardware components of a computer and provides a platform upon which application software can run. Examples include operating systems, compilers, interpreters, and system utilities. Application software is designed to perform specific tasks for end users, such as word processors, web browsers, and games. A disk defragmenter is a system utility -- it reorganises fragmented data on a hard disk to improve read/write performance. System utilities are a subset of system software, so the disk defragmenter is classified as system software. Understanding this distinction is important for organising software categories in the Scottish Highers curriculum."
+**Answer: A**, System software manages and controls the hardware components of a computer and provides a platform upon which application software can run. Examples include operating systems, compilers, interpreters, and system utilities. Application software is designed to perform specific tasks for end users, such as word processors, web browsers, and games. A disk defragmenter is a system utility -- it reorganises fragmented data on a hard disk to improve read/write performance. System utilities are a subset of system software, so the disk defragmenter is classified as system software. Understanding this distinction is important for organising software categories in the Scottish Highers curriculum."
 
 </details>
 
@@ -87,9 +87,9 @@ C. It violates Third Normal Form (3NF) because studentID is not unique in the ta
 D. It does not violate any normal form; the table is fully normalised and all attributes are fully dependent on the primary key.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — This table demonstrates a transitive dependency, which violates Third Normal Form (3NF). The 3NF rule states that no non-key attribute should depend on another non-key attribute. In this table, studentID is the primary key. While firstName and lastName depend directly on studentID, the attributes teacherName and teacherEmail depend on the subject column, not directly on studentID. If multiple students study the same subject, the teacher information is repeated. To normalise, the table should be split: one table for students (studentID, firstName, lastName, subject) and another for subjects (subject, teacherName, teacherEmail) with subject as the primary key of the second table. This eliminates data redundancy and update anomalies."
+**Answer: A**, This table demonstrates a transitive dependency, which violates Third Normal Form (3NF). The 3NF rule states that no non-key attribute should depend on another non-key attribute. In this table, studentID is the primary key. While firstName and lastName depend directly on studentID, the attributes teacherName and teacherEmail depend on the subject column, not directly on studentID. If multiple students study the same subject, the teacher information is repeated. To normalise, the table should be split: one table for students (studentID, firstName, lastName, subject) and another for subjects (subject, teacherName, teacherEmail) with subject as the primary key of the second table. This eliminates data redundancy and update anomalies."
 
 </details>
 
@@ -101,9 +101,9 @@ C. GET firstName FROM students HAVING subject = 'Mathematics' AND score > 70 ORD
 D. SHOW firstName FROM students WHERE subject EQUALS 'Mathematics' AND score GREATER_THAN 70 ORDER BY score DESC;
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — The correct SQL query uses SELECT to specify the column to retrieve (firstName), FROM to identify the table (students), WHERE to filter rows using two conditions joined by AND (subject equals 'Mathematics' AND score is greater than 70), and ORDER BY to sort the results by the score column in descending order (DESC). The other options contain incorrect SQL syntax: "SORT BY'' is not valid SQL (it should be ORDER BY), "GET' is not a valid SQL command, 'HAVING' is used with GROUP BY not WHERE conditions, and 'SHOW', 'EQUALS', and 'GREATER_THAN' are not valid SQL keywords. SQL syntax must be precise and follow the standard structure of SELECT-FROM-WHERE-ORDER BY.
+**Answer: A**, The correct SQL query uses SELECT to specify the column to retrieve (firstName), FROM to identify the table (students), WHERE to filter rows using two conditions joined by AND (subject equals 'Mathematics' AND score is greater than 70), and ORDER BY to sort the results by the score column in descending order (DESC). The other options contain incorrect SQL syntax: "SORT BY'' is not valid SQL (it should be ORDER BY), "GET' is not a valid SQL command, 'HAVING' is used with GROUP BY not WHERE conditions, and 'SHOW', 'EQUALS', and 'GREATER_THAN' are not valid SQL keywords. SQL syntax must be precise and follow the standard structure of SELECT-FROM-WHERE-ORDER BY.
 
 </details>
 
@@ -117,9 +117,9 @@ C. Time complexity is O(log n), and the array can be in any order for binary sea
 D. Time complexity is O(n log n), and the array must be sorted before binary search can be applied.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Binary search has a time complexity of O(log n) because it repeatedly divides the search space in half. Starting with the middle element, if the target is less than the middle element, the search continues in the left half; if greater, it continues in the right half. This halving process means that for an array of n elements, at most log2(n) comparisons are needed. The critical precondition is that the data must be sorted -- binary search will not produce correct results on unsorted data. For comparison, linear search has O(n) complexity because it may need to check every element. The logarithmic complexity of binary search makes it significantly more efficient for large sorted datasets."
+**Answer: A**, Binary search has a time complexity of O(log n) because it repeatedly divides the search space in half. Starting with the middle element, if the target is less than the middle element, the search continues in the left half; if greater, it continues in the right half. This halving process means that for an array of n elements, at most log2(n) comparisons are needed. The critical precondition is that the data must be sorted -- binary search will not produce correct results on unsorted data. For comparison, linear search has O(n) complexity because it may need to check every element. The logarithmic complexity of binary search makes it significantly more efficient for large sorted datasets."
 
 </details>
 
@@ -131,9 +131,9 @@ C. Bubble sort; worst case occurs when the array is sorted in reverse order, req
 D. Insertion sort; worst case occurs when the array is already sorted and the algorithm unnecessarily compares adjacent elements.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — Quick sort has an average-case time complexity of O(n log n) due to the divide-and-conquer approach of partitioning the array around a pivot. However, if the pivot selection consistently produces highly unbalanced partitions (e.g., always picking the smallest or largest element as the pivot), the depth of recursion becomes n and each level processes n elements, giving O(n squared) worst-case complexity. This commonly occurs when the array is already sorted (or reverse sorted) and the first or last element is used as the pivot. This can be mitigated by using a random pivot or median-of-three pivot selection. Merge sort always has O(n log n) regardless of input, while bubble sort and insertion sort are both O(n squared) in all cases except best case."
+**Answer: A**, Quick sort has an average-case time complexity of O(n log n) due to the divide-and-conquer approach of partitioning the array around a pivot. However, if the pivot selection consistently produces highly unbalanced partitions (e.g., always picking the smallest or largest element as the pivot), the depth of recursion becomes n and each level processes n elements, giving O(n squared) worst-case complexity. This commonly occurs when the array is already sorted (or reverse sorted) and the first or last element is used as the pivot. This can be mitigated by using a random pivot or median-of-three pivot selection. Merge sort always has O(n log n) regardless of input, while bubble sort and insertion sort are both O(n squared) in all cases except best case."
 
 </details>
 
@@ -147,9 +147,9 @@ C. The Network Access layer, where Ethernet handles logical addressing and inter
 D. The Application layer, where HTTP handles routing of packets between networks using domain names.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — The TCP/IP model consists of four layers: Application, Transport, Internet, and Network Access. The Internet layer is responsible for logical addressing and routing of data packets across interconnected networks. The Internet Protocol (IP) operates at this layer, assigning IP addresses to devices and determining the best path (routing) for packets from source to destination. The Transport layer (TCP/UDP) handles end-to-end communication and uses port numbers. The Network Access layer (Ethernet, Wi-Fi) handles physical transmission and uses MAC addresses for local network delivery. The Application layer (HTTP, FTP, SMTP) provides network services to applications. IP is the fundamental protocol that enables inter-network communication."
+**Answer: A**, The TCP/IP model consists of four layers: Application, Transport, Internet, and Network Access. The Internet layer is responsible for logical addressing and routing of data packets across interconnected networks. The Internet Protocol (IP) operates at this layer, assigning IP addresses to devices and determining the best path (routing) for packets from source to destination. The Transport layer (TCP/UDP) handles end-to-end communication and uses port numbers. The Network Access layer (Ethernet, Wi-Fi) handles physical transmission and uses MAC addresses for local network delivery. The Application layer (HTTP, FTP, SMTP) provides network services to applications. IP is the fundamental protocol that enables inter-network communication."
 
 </details>
 
@@ -161,9 +161,9 @@ C. MAC address filtering is used, with SSH being the protocol that encrypts web 
 D. WPA2 encryption is used, with SMTP being the protocol that secures client-server communication through password authentication.
 
 <details>
-<summary>Show answer — A</summary>
+<summary>Show answer, A</summary>
 
-**Answer: A** — SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are cryptographic protocols that encrypt data transmitted between a client (web browser) and a server. HTTPS (HTTP Secure) is the protocol that implements TLS encryption on top of HTTP. When a user connects to a website using HTTPS, the browser and server perform a TLS handshake to establish a secure encrypted connection, exchange certificates to verify the server's identity, and then transmit all data in encrypted form. This protects sensitive information (passwords, credit card numbers) from being intercepted during transmission. SSL is now considered insecure and has been deprecated in favour of TLS. A firewall filters traffic, MAC filtering restricts network access by device, and WPA2 secures wireless networks -- none of these encrypt transmitted web data."
+**Answer: A**, SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) are cryptographic protocols that encrypt data transmitted between a client (web browser) and a server. HTTPS (HTTP Secure) is the protocol that implements TLS encryption on top of HTTP. When a user connects to a website using HTTPS, the browser and server perform a TLS handshake to establish a secure encrypted connection, exchange certificates to verify the server's identity, and then transmit all data in encrypted form. This protects sensitive information (passwords, credit card numbers) from being intercepted during transmission. SSL is now considered insecure and has been deprecated in favour of TLS. A firewall filters traffic, MAC filtering restricts network access by device, and WPA2 secures wireless networks -- none of these encrypt transmitted web data."
 
 </details>
 
@@ -173,7 +173,7 @@ D. WPA2 encryption is used, with SMTP being the protocol that secures client-ser
 
 **Why it matters:** Every app, website, and digital device relies on computer science principles. Understanding these concepts lets you build reliable, efficient software and understand the technology that shapes modern life.
 
-**The key insight:** Abstraction is the most powerful tool in computing — by hiding complexity behind simple interfaces, we can build enormously complex systems from understandable components.
+**The key insight:** Abstraction is the most powerful tool in computing, by hiding complexity behind simple interfaces, we can build enormously complex systems from understandable components.
 
 ## Common Mistakes
 

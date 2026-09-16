@@ -26,7 +26,7 @@ description: "A-Level Psychology Issues and Debates notes covering key definitio
 
 Issues and debates are fundamental to A-Level Psychology because they provide a framework for
 evaluating theories, studies, and approaches. Every piece of research can be analysed through these
-lenses. Understanding these debates enables critical evaluation — the skill that earns the most
+lenses. Understanding these debates enables critical evaluation, the skill that earns the most
 marks in exams. This section covers six major debates: nature vs. nurture, free will vs.
 determinism, holism vs. reductionism, idiographic vs. nomothetic approaches, gender bias, and
 culture bias (including ethnocentrism).
@@ -40,19 +40,19 @@ environmental factors (nurture) to the development of behaviour and psychologica
 
 **The nature position:**
 
-- Behaviour is determined by innate, biological factors — genes, neurochemistry, brain structure,
+- Behaviour is determined by innate, biological factors, genes, neurochemistry, brain structure,
   and evolution.
 - Supported by twin studies (higher concordance in MZ than DZ twins), adoption studies (children
   resemble biological parents more than adoptive parents), and evolutionary explanations.
-- Example: The biological approach to mental disorders — OCD is explained by genetic factors
+- Example: The biological approach to mental disorders, OCD is explained by genetic factors
   (candidate genes) and neural abnormalities (basal ganglia dysfunction).
 
 **The nurture position:**
 
-- Behaviour is determined by experience — learning, socialisation, and environmental influence.
+- Behaviour is determined by experience, learning, socialisation, and environmental influence.
 - Supported by behaviourist research (conditioning), social learning theory (observation and
   imitation), and the effect of cultural context on behaviour.
-- Example: Behaviourist explanation of phobias — learned through classical conditioning and
+- Example: Behaviourist explanation of phobias, learned through classical conditioning and
   maintained through operant conditioning.
 
 **The interactionist position:**
@@ -111,17 +111,17 @@ their own behaviour. They are not controlled by external or internal forces.
 
 **Evaluation of determinism:**
 
-- _Strengths:_ Consistent with the aims of science — identifying causes allows prediction and
+- _Strengths:_ Consistent with the aims of science, identifying causes allows prediction and
   control. Has led to effective treatments (e.g., drug therapies based on biological determinism).
-- _Limitations:_ Unscientific — determinism is itself unfalsifiable (we can never prove that all
+- _Limitations:_ Unscientific, determinism is itself unfalsifiable (we can never prove that all
   behaviour is determined). Inconsistent with the subjective experience of free will. Ethical
-  implications — if behaviour is determined, individuals cannot be held responsible for their
+  implications, if behaviour is determined, individuals cannot be held responsible for their
   actions, undermining the legal system.
 
 **Evaluation of free will:**
 
-- _Strengths:_ Consistent with subjective experience — people feel they make choices. Has practical
-  benefits — studies show that people who believe in free will are more likely to behave morally and
+- _Strengths:_ Consistent with subjective experience, people feel they make choices. Has practical
+  benefits, studies show that people who believe in free will are more likely to behave morally and
   pro-socially (Vohs and Schooler, 2008).
 - _Limitations:_ Neuroscientific evidence (Libet) challenges free will. May be an illusion.
   Difficult to reconcile with scientific psychology, which seeks causal explanations.
@@ -140,7 +140,7 @@ their simplest component parts.
 - **Physiological level:** Explaining behaviour in terms of organs, cells, and biochemical
   processes.
 
-The most extreme form of reductionism is **biological reductionism** — explaining behaviour entirely
+The most extreme form of reductionism is **biological reductionism**, explaining behaviour entirely
 in terms of genes, neurochemistry, and brain function. The behaviourist approach is also
 reductionist, reducing behaviour to stimulus-response associations.
 
@@ -154,9 +154,9 @@ examines the interaction of multiple cognitive processes.
 
 **Evaluation of reductionism:**
 
-- _Strengths:_ Forms the basis of scientific research — breaking complex phenomena into manageable
+- _Strengths:_ Forms the basis of scientific research, breaking complex phenomena into manageable
   parts allows systematic study. Has led to significant discoveries (e.g., the role of
-  neurotransmitters in mental disorders). Parsimonious — provides simple, efficient explanations.
+  neurotransmitters in mental disorders). Parsimonious, provides simple, efficient explanations.
 - _Limitations:_ Oversimplifies complex behaviour. Loses the complexity and richness of human
   experience. May miss important higher-level explanations. Cannot explain phenomena that emerge
   from the interaction of components (emergent properties).
@@ -165,7 +165,7 @@ examines the interaction of multiple cognitive processes.
 
 - _Strengths:_ Provides a more complete, realistic account of human behaviour. Recognises the
   complexity of human experience. Considers the interaction of multiple factors.
-- _Limitations:_ Difficult to test scientifically — too many variables to control. Vague and
+- _Limitations:_ Difficult to test scientifically, too many variables to control. Vague and
   impractical for research. Lacks predictive power. May not provide useful guidance for treatment.
 
 ### Idiographic vs. Nomothetic
@@ -198,7 +198,7 @@ observations).
 - _Idiographic limitations:_ Cannot be generalised; subjective; time-consuming; limited predictive
   power.
 
-Many psychologists argue that both approaches are needed — the nomothetic for establishing general
+Many psychologists argue that both approaches are needed, the nomothetic for establishing general
 principles and the idiographic for understanding individual experience.
 
 ### Gender Bias
@@ -341,7 +341,7 @@ been presented as universal, when they may in fact be culturally specific.
 - Free will has practical importance: research shows that belief in free will promotes moral
   behaviour (Vohs and Schooler, 2008), while deterministic beliefs may reduce personal
   responsibility.
-- Determinism is a necessary assumption for scientific psychology — if behaviour is not determined,
+- Determinism is a necessary assumption for scientific psychology, if behaviour is not determined,
   it cannot be predicted or explained scientifically.
 
 ### Holism vs. Reductionism
@@ -412,7 +412,7 @@ in your answer. [16 marks]
 The nature-nurture debate is one of the oldest and most fundamental debates in psychology. It
 concerns the relative contribution of genetic inheritance (nature) and environmental experience
 (nurture) to the development of behaviour and psychological traits. Historically, the two positions
-were seen as opposing — behaviourists such as Watson and Skinner argued that all behaviour is
+were seen as opposing, behaviourists such as Watson and Skinner argued that all behaviour is
 learned from the environment (nurture), while biological psychologists argued that behaviour is
 determined by genes and physiology (nature). However, most contemporary psychologists adopt an
 interactionist position, recognising that both nature and nurture contribute to behaviour and that
@@ -427,14 +427,14 @@ abnormalities in the basal ganglia and orbitofrontal cortex. Drug treatments (SS
 biological understanding are effective for many patients.
 
 However, the genetic explanation is incomplete. Concordance rates for MZ twins are not 100%, meaning
-that genetics alone cannot account for OCD — environmental factors must also play a role. The
+that genetics alone cannot account for OCD, environmental factors must also play a role. The
 diathesis-stress model offers a more complete explanation: a genetic predisposition (diathesis)
 creates vulnerability, but environmental stressors (e.g., trauma, infection, major life changes)
 trigger the onset of the disorder. This is an interactionist position that acknowledges both nature
 and nurture.
 
 The behavioural explanation of phobias illustrates the nurture position. Mowrer's (1960) two-process
-model proposes that phobias are learned — acquired through classical conditioning (a neutral
+model proposes that phobias are learned, acquired through classical conditioning (a neutral
 stimulus is paired with a fear-inducing event) and maintained through operant conditioning (negative
 reinforcement of avoidance behaviour). Watson and Rayner's (1920) Little Albert study demonstrated
 that fear could be classically conditioned in a child. The success of behavioural treatments
@@ -443,7 +443,7 @@ nurture position.
 
 However, the nurture explanation is also incomplete. Not all phobias can be traced to a specific
 conditioning event, and some fears are much more common than others. Seligman (1971) proposed the
-concept of biological preparedness — humans are biologically predisposed to learn certain fears more
+concept of biological preparedness, humans are biologically predisposed to learn certain fears more
 readily because they were adaptive in our evolutionary past. Öhman and Mineka (2001) found that
 people more readily acquire phobias of snakes and spiders than of guns and electrical outlets,
 despite the latter being more dangerous in modern life. This demonstrates that nature (evolutionary
@@ -453,7 +453,7 @@ The most compelling evidence for nature-nurture interaction comes from the field
 Environmental factors (diet, stress, trauma) can modify gene expression without changing the DNA
 sequence itself. Meaney and Szyf (2005) found that rat pups who received high levels of maternal
 care showed different patterns of gene expression related to stress responses compared to those who
-received low levels of care. Crucially, these differences were reversible — changing the environment
+received low levels of care. Crucially, these differences were reversible, changing the environment
 changed the gene expression. This provides a biological mechanism for how nurture can influence
 nature.
 
@@ -462,7 +462,7 @@ They found that a variation in the 5-HTT gene (involved in serotonin transport) 
 depression, but only when combined with stressful life events. Individuals with the short version of
 the gene who experienced four or more stressful life events were significantly more likely to
 develop depression than those with the long version. Neither the gene alone nor the stress alone was
-sufficient — both were necessary. This elegantly demonstrates that nature and nurture interact in
+sufficient, both were necessary. This elegantly demonstrates that nature and nurture interact in
 the development of mental disorders.
 
 In conclusion, the nature-nurture debate has largely been resolved in favour of interactionism. As
@@ -486,16 +486,16 @@ American) researchers, participants, and theoretical frameworks. Henrich et al. 
 acronym WEIRD (Western, Educated, Industrialised, Rich, Democratic) to describe the disproportionate
 reliance on this narrow demographic in psychological research.
 
-Ethnocentrism is the most common form of culture bias — the tendency to view one's own culture as
+Ethnocentrism is the most common form of culture bias, the tendency to view one's own culture as
 the standard against which all others are judged. In psychology, this has manifested as the
 assumption that findings from American or European research are universal human characteristics
-rather than culturally specific patterns. This is a form of imposed etic — applying concepts and
+rather than culturally specific patterns. This is a form of imposed etic, applying concepts and
 methods from one culture to another without checking their appropriateness.
 
 One clear example of culture bias is Ainsworth's Strange Situation. Developed in the United States,
 it was designed to assess attachment type in American infants. The procedure, which involves
 separating the infant from the caregiver in an unfamiliar room, is based on Western assumptions
-about mother-infant interaction — specifically, that the mother is the primary caregiver, that brief
+about mother-infant interaction, specifically, that the mother is the primary caregiver, that brief
 separations are normal, and that the infant should explore freely in the caregiver's presence. When
 applied in other cultures, the Strange Situation has produced findings that may be misinterpreted.
 Takahashi (1990) found that Japanese infants showed very high rates of insecure-resistant
@@ -506,7 +506,7 @@ can lead to inaccurate conclusions.
 
 Van Ijzendoorn and Kroonenberg's (1988) meta-analysis of 32 Strange Situation studies across 8
 countries found that secure attachment was the most common type in all cultures, suggesting some
-universality. However, the distribution of insecure types varied significantly — German samples
+universality. However, the distribution of insecure types varied significantly, German samples
 showed high rates of insecure-avoidant attachment, which reflects German cultural values of
 independence rather than poor attachment. This shows that even when research is conducted
 cross-culturally, the interpretive framework may still be culturally biased.
@@ -517,7 +517,7 @@ conducted a meta-analysis of 133 conformity studies across 17 countries and foun
 cultural variation. Conformity rates were higher in collectivist cultures (e.g., Japan, Fiji) than
 in individualist cultures (e.g., USA, UK), reflecting cultural differences in the value placed on
 group harmony versus individual expression. Asch's findings were not universal but specific to 1950s
-America — a period of strong social conformity during the McCarthy era.
+America, a period of strong social conformity during the McCarthy era.
 
 Maslow's hierarchy of needs has also been criticised as culturally biased. The emphasis on
 self-actualisation, personal autonomy, and individual achievement reflects Western individualist
@@ -531,7 +531,7 @@ To address culture bias, psychologists have advocated for both emic and etic app
 approach studies behaviour from within a culture, using culturally specific concepts and methods,
 ensuring that findings are meaningful within that cultural context. The etic approach studies
 behaviour from outside a culture, looking for universal patterns. The most effective research
-combines both — developing culturally sensitive methods while also seeking cross-cultural
+combines both, developing culturally sensitive methods while also seeking cross-cultural
 commonalities.
 
 However, conducting truly culture-fair research is challenging. Researchers themselves are cultural
@@ -565,11 +565,11 @@ Issues and debates provide essential frameworks for evaluating psychological res
 - **Nature vs. nurture** is increasingly resolved in favour of interactionism, with epigenetics and
   gene-environment interaction providing biological mechanisms for how the environment shapes
   genetic expression.
-- **Free will vs. determinism** remains contested — determinism underpins scientific psychology but
+- **Free will vs. determinism** remains contested, determinism underpins scientific psychology but
   is inconsistent with subjective experience and moral responsibility.
 - **Holism vs. reductionism** involves a trade-off between completeness and scientific rigour; both
   perspectives have value.
-- **Idiographic vs. nomothetic** approaches are complementary — general laws and individual
+- **Idiographic vs. nomothetic** approaches are complementary, general laws and individual
   experience are both needed.
 - **Gender bias** (alpha and beta) and **culture bias** (ethnocentrism, imposed etic) have distorted
   psychological theory and must be actively addressed through diverse samples and culturally

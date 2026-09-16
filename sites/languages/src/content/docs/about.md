@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes Programming Languages resources — experience, expertise, and credentials behind programming language comparison study materials."
+description: "About Wyatt's Notes Programming Languages resources, experience, expertise, and credentials behind programming language comparison study materials."
 tags:
   - about
   - languages
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Programming Languages
+## About Wyatt's Notes, Programming Languages
 
 Wyatt's Notes provides comparative study materials across programming languages. These notes compare paradigms, type systems, concurrency models, and design philosophies across major languages, building the broad perspective needed to choose the right tool for each problem.
 
@@ -17,7 +17,7 @@ Wyatt's Notes provides comparative study materials across programming languages.
 
 These notes are developed by **Wyatt**, an educator and content creator with expertise across multiple programming languages and paradigms. Content provides objective comparisons grounded in language design theory and practical application.
 
-Materials emphasise the trade-offs between different approaches — static vs dynamic typing, imperative vs functional, compiled vs interpreted — helping developers make informed language choices. Every comparison includes practical examples and explains the contexts where each approach excels.
+Materials emphasise the trade-offs between different approaches, static vs dynamic typing, imperative vs functional, compiled vs interpreted, helping developers make informed language choices. Every comparison includes practical examples and explains the contexts where each approach excels.
 
 ### What You'll Find
 
@@ -33,9 +33,9 @@ Wyatt develops individual language resources across 15+ programming languages, p
 
 ## Related Sites
 
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals resources
-- **[Computer Science](https://computer-science.wyattau.com)** — Computer science theory notes
-- **[C++](https://cpp.wyattau.com)** — Dedicated C++ programming resources
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals resources
+- **[Computer Science](https://computer-science.wyattau.com)**, Computer science theory notes
+- **[C++](https://cpp.wyattau.com)**, Dedicated C++ programming resources
 
 ## Explore the Site
 
@@ -57,17 +57,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -83,10 +83,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 

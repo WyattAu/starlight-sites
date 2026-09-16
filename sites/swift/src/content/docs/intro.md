@@ -16,7 +16,7 @@ description: "Study notes for Swift with worked examples, practice problems, and
 
 ## Swift
 
-Welcome to the Swift notes. Swift is a modern language for iOS, macOS, watchOS, and tvOS development — combining the safety of a strong type system with the performance of compiled code and the expressiveness of modern syntax.
+Welcome to the Swift notes. Swift is a modern language for iOS, macOS, watchOS, and tvOS development, combining the safety of a strong type system with the performance of compiled code and the expressiveness of modern syntax.
 
 ## Why This Matters
 
@@ -25,16 +25,16 @@ Swift is the primary language for Apple platform development. Its optionals enfo
 ## What You Will Find
 
 - **Type system**: Optionals, type inference, and generics for safe, expressive code
-- **Value types vs reference types**: Structs and enums (value) vs classes (reference) — understanding when to use each
+- **Value types vs reference types**: Structs and enums (value) vs classes (reference), understanding when to use each
 - **Protocols and extensions**: Define capabilities and add functionality to existing types without modifying them
 - **Memory management**: Automatic Reference Counting (ARC), strong/weak/unowned references
 - **Concurrency**: async/await, actors, and structured concurrency for safe parallel execution
 
 ## Resources
 
-- Swift.org documentation (swift.org/documentation) — Official language reference
-- Hacking with Swift (hackingwithswift.com) — Free tutorials and projects
-- Apple Developer documentation (developer.apple.com/documentation) — Framework reference
+- Swift.org documentation (swift.org/documentation), Official language reference
+- Hacking with Swift (hackingwithswift.com), Free tutorials and projects
+- Apple Developer documentation (developer.apple.com/documentation), Framework reference
 
 ## How to Get Started
 
@@ -52,11 +52,11 @@ Browse the content using the sidebar navigation on the left.
 
 ## Study Approach
 
-Start with Swift basics: variables, optionals, functions, and control flow. Then move to value types (structs, enums) vs reference types (classes), protocols, and extensions. Concurrency (async/await, actors) comes last — it builds on all previous concepts. Use Swift Playgrounds for rapid experimentation before committing to a full Xcode project.
+Start with Swift basics: variables, optionals, functions, and control flow. Then move to value types (structs, enums) vs reference types (classes), protocols, and extensions. Concurrency (async/await, actors) comes last, it builds on all previous concepts. Use Swift Playgrounds for rapid experimentation before committing to a full Xcode project.
 
 ## Common Mistakes
 
-**Confusing `let` and `var`:** `let` declares a constant (cannot be reassigned). `var` declares a variable. Swift encourages immutability — use `let` everywhere possible. This makes code safer and helps the compiler optimise.
+**Confusing `let` and `var`:** `let` declares a constant (cannot be reassigned). `var` declares a variable. Swift encourages immutability, use `let` everywhere possible. This makes code safer and helps the compiler optimise.
 
 **Ignoring optionals:** Swift uses optionals (Type?) to represent values that may be absent. Forcing an optional with ! crashes the program if nil. Use optional binding (if let, guard let) or nil coalescing (??) to handle optionals safely.
 

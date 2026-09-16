@@ -574,7 +574,7 @@ flowchart TD
   questions on mathematical reasoning and logic.
 - Key topics: algebra, functions, sequences, coordinate geometry, trigonometry,
   exponentials/logarithms, differentiation, integration, and proof.
-- Unlike STEP/MAT, there is no written component — all answers are multiple choice, so accuracy and
+- Unlike STEP/MAT, there is no written component, all answers are multiple choice, so accuracy and
   elimination strategies matter.
 - Practice under strict time conditions: roughly 3 minutes per question; skip difficult questions
   and return to them.

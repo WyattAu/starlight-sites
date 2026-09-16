@@ -68,7 +68,7 @@ University-level topology notes covering topological spaces, compactness, and co
 ## Topics Covered
 
 - **Topological Spaces**: Definitions, bases, subbases, continuity. A topology on a set X is a collection of open sets satisfying the axioms: ∅ and X are open, arbitrary unions of open sets are open, finite intersections of open sets are open.
-- **Compactness**: Open covers, Heine-Borel theorem, Tychonoff theorem. Compactness is the topological analogue of finiteness — many results that hold for finite sets extend to compact spaces.
+- **Compactness**: Open covers, Heine-Borel theorem, Tychonoff theorem. Compactness is the topological analogue of finiteness, many results that hold for finite sets extend to compact spaces.
 - **Connectedness**: Path connectedness, components, local connectedness. A space is connected if it cannot be written as a union of two disjoint non-empty open sets. Path connectedness is stronger: any two points can be joined by a continuous path.
 - **Algebraic Topology**: Fundamental group, homology, Euler characteristic. These invariants classify spaces up to homeomorphism by associating algebraic objects (groups, numbers) to topological spaces.
 
@@ -76,11 +76,11 @@ University-level topology notes covering topological spaces, compactness, and co
 
 - Real analysis (sequences, continuity, metric spaces). You should be comfortable with ε-δ arguments and convergence.
 - Basic set theory and logic. Familiarity with unions, intersections, complements, and proof techniques.
-- Mathematical proofs and logic. Topology is proof-based — you will write many proofs.
+- Mathematical proofs and logic. Topology is proof-based, you will write many proofs.
 
 ## How to Use These Notes
 
-Start with topological spaces to build foundational knowledge, then progress to compactness and connectedness. Each section includes worked examples and practice problems. The key to learning topology is to work through proofs yourself — reading proofs is not enough.
+Start with topological spaces to build foundational knowledge, then progress to compactness and connectedness. Each section includes worked examples and practice problems. The key to learning topology is to work through proofs yourself, reading proofs is not enough.
 
 ## Navigation
 

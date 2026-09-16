@@ -26,8 +26,8 @@ description: "A-Level English Drama Analysis notes covering key definitions, cor
 
 Drama is a unique literary form because it is written to be performed. Analysing drama at A-Level
 requires you to think simultaneously about the text on the page and its realisation on the stage.
-Every choice a playwright makes — from dialogue and stage directions to the structure of acts and
-scenes — is designed to create meaning in performance. At A-Level, you must demonstrate that you can
+Every choice a playwright makes, from dialogue and stage directions to the structure of acts and
+scenes, is designed to create meaning in performance. At A-Level, you must demonstrate that you can
 analyse plays as both literary texts and theatrical experiences.
 
 This section covers the key elements of drama analysis, including stagecraft, dramatic structure,
@@ -80,13 +80,13 @@ encounters them through performance, not narration.
 
 Key methods of characterisation in drama:
 
-- **Dialogue** — What characters say and how they say it (register, rhythm, interruptions)
-- **Soliloquy** — A speech delivered alone on stage, revealing inner thoughts to the audience
-- **Aside** — A remark directed to the audience, unheard by other characters
-- **Action** — What characters do, especially under pressure
-- **Interaction** — How characters relate to each other in dialogue scenes
-- **Silence** — What characters do not say; pauses and hesitations
-- **Physicality** — Stage directions describing gesture, posture, and movement
+- **Dialogue**, What characters say and how they say it (register, rhythm, interruptions)
+- **Soliloquy**, A speech delivered alone on stage, revealing inner thoughts to the audience
+- **Aside**, A remark directed to the audience, unheard by other characters
+- **Action**, What characters do, especially under pressure
+- **Interaction**, How characters relate to each other in dialogue scenes
+- **Silence**, What characters do not say; pauses and hesitations
+- **Physicality**, Stage directions describing gesture, posture, and movement
 
 **Soliloquy vs monologue:**
 
@@ -102,7 +102,7 @@ exploration. Analytical attention to dialogue should focus on:
 | Feature              | What to Analyse                                                     |
 | -------------------- | ------------------------------------------------------------------- |
 | Turn-taking          | Who speaks more? Who interrupts? Who is silenced?                   |
-| Register             | Formal, informal, colloquial, elevated — and shifts between them    |
+| Register             | Formal, informal, colloquial, elevated, and shifts between them    |
 | Subtext              | What is meant but not directly said                                 |
 | Repetition           | Words or phrases that recur within or across scenes                 |
 | Questions            | Who asks questions? Who avoids answering?                           |
@@ -151,7 +151,7 @@ When approaching a play extract or whole-text question, work through these layer
 | **S**  | Statistics (or specific detail) |
 | **T**  | Rule of three / Tricolon        |
 
-This is useful when analysing characters who are trying to persuade others — Iago in _Othello_, the
+This is useful when analysing characters who are trying to persuade others, Iago in _Othello_, the
 Inspector in _An Inspector Calls_, Angelo in _Measure for Measure_.
 
 ## Key Terminology
@@ -237,14 +237,14 @@ construct Blanche's anxiety." Characters in drama are effects of theatrical tech
 
 Priestley's play is structured as a single continuous act set in one room, creating claustrophobic
 intensity. The Birlings' dining room is initially presented as a space of comfort and social display
-— the port, the cigars, the celebration — but the Inspector's arrival transforms it into a space of
+- the port, the cigars, the celebration, but the Inspector's arrival transforms it into a space of
 interrogation and moral reckoning. The set does not change, but its meaning shifts as the Inspector
 systematically dismantles each character's defences.
 
 The lighting instructions are explicitly symbolic. At the start, the lighting is "pink and
 intimate," suggesting warmth and complacency. When the Inspector enters, the lighting changes to
 "brighter and harder," signalling the shift from private comfort to public scrutiny. This visual
-transformation is immediate and inescapable — the audience experiences the disruption alongside the
+transformation is immediate and inescapable, the audience experiences the disruption alongside the
 characters.
 
 The Inspector's timing is precisely calculated. Each revelation is delivered at the moment of
@@ -280,18 +280,18 @@ questioning reduces her language to stammers and deflections.
 
 The poker game scenes use dialogue as a metaphor for power. The men's conversation is sparse,
 competitive, and rule-bound. Blanche's interruption of the poker game with her flirtatious banter
-represents a collision of cultural codes. Stanley's violent reaction — throwing the radio out of the
-window and striking Stella — demonstrates the limits of Blanche's linguistic power in the face of
+represents a collision of cultural codes. Stanley's violent reaction, throwing the radio out of the
+window and striking Stella, demonstrates the limits of Blanche's linguistic power in the face of
 physical force.
 
-The final scene is devastating in its use of silence. Blanche's famous line — "Whoever you are, I
-have always depended on the kindness of strangers" — is followed by the Doctor's gentle but firm
+The final scene is devastating in its use of silence. Blanche's famous line, "Whoever you are, I
+have always depended on the kindness of strangers", is followed by the Doctor's gentle but firm
 escort from the stage. The silence of the other characters as she leaves speaks louder than any
 dialogue could.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid

@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Cells are like tiny factories — each with specialized departments working together to keep the organism alive.**
+**Cells are like tiny factories, each with specialized departments working together to keep the organism alive.**
 
-## Cells — Diagnostic Tests
+## Cells, Diagnostic Tests
 
 ## Unit Tests
 
@@ -64,7 +64,7 @@ significance in genetic engineering.
 | DNA form                  | Circular, naked DNA (no histones); may also have plasmids | Linear DNA associated with histone proteins to form chromosomes           |
 | Ribosomes                 | 70S (smaller: 50S + 30S subunits)                         | 80S (larger: 60S + 40S subunits)                                          |
 | Membrane-bound organelles | None (no mitochondria, ER, Golgi)                         | Present (mitochondria, ER, Golgi, lysosomes, etc.)                        |
-| Cell wall                 | Present (made of peptidoglycan, not cellulose or chitin)  | Absent (animal cell) or present (plant cell — cellulose, fungal — chitin) |
+| Cell wall                 | Present (made of peptidoglycan, not cellulose or chitin)  | Absent (animal cell) or present (plant cell, cellulose, fungal, chitin) |
 
 (b) Many antibiotics (e.g., tetracycline, chloramphenicol) target bacterial 70S ribosomes, binding
 to them and inhibiting protein synthesis. Because eukaryotic cells have 80S ribosomes with a
@@ -82,7 +82,7 @@ daughter cells, each with a copy of the DNA. Plasmids may also replicate indepen
 (d) A **plasmid** is a small, circular, double-stranded DNA molecule found in the cytoplasm of many
 prokaryotic cells, separate from the main circular chromosome. Plasmids carry genes that confer
 advantageous traits (e.g., antibiotic resistance). In genetic engineering, plasmids are used as
-**vectors** — a gene of interest is inserted into the plasmid using restriction enzymes (which cut
+**vectors**, a gene of interest is inserted into the plasmid using restriction enzymes (which cut
 at specific recognition sequences, producing sticky ends) and DNA ligase (which joins the gene to
 the plasmid). The recombinant plasmid is then transferred into a host cell (e.g., using bacterial
 transformation), where the gene is expressed. Plasmids are ideal vectors because they replicate
@@ -137,7 +137,7 @@ surface membrane, fuse with it (exocytosis), and release the proteins outside th
 - **Double membrane**: the outer membrane is permeable; the inner membrane is folded into cristae,
   greatly increasing the surface area for the electron transport chain and ATP synthase.
 - **Matrix**: contains enzymes for the Krebs cycle and the link reaction, as well as mitochondrial
-  DNA (circular, like prokaryotic DNA), 70S ribosomes, and its own pool of metabolites — allowing
+  DNA (circular, like prokaryotic DNA), 70S ribosomes, and its own pool of metabolites, allowing
   some degree of independent protein synthesis.
 - **Cristae**: the folds of the inner membrane increase the surface area available for the electron
   carriers and ATP synthase, maximising the rate of oxidative phosphorylation.
@@ -156,7 +156,7 @@ proteins embedded in it (forming a mosaic pattern). Components:
   maintaining the cytoskeleton.
 - **Cholesterol**: a lipid molecule present between phospholipids in animal cell membranes. Its
   hydroxyl group interacts with phospholipid heads, while its ring structure interacts with fatty
-  acid tails. Cholesterol regulates membrane fluidity — at high temperatures it restricts movement
+  acid tails. Cholesterol regulates membrane fluidity, at high temperatures it restricts movement
   of phospholipids (making the membrane less fluid), and at low temperatures it prevents tight
   packing (preventing freezing).
 - **Glycoproteins**: proteins with carbohydrate chains attached, projecting from the cell surface.
@@ -184,7 +184,7 @@ carrier proteins) to cross the membrane via facilitated diffusion or active tran
 }
 </script>
 
-### UT-3: Microscopy — Resolution, Magnification, and Cell Fractionation
+### UT-3: Microscopy, Resolution, Magnification, and Cell Fractionation
 
 **Question:**
 
@@ -209,7 +209,7 @@ different organelles are separated based on their density.
 $\text{magnification} = \frac{\text{image size}}{\text{actual size}}$. **Resolution**
 (or resolving power) is the minimum distance between two points that can be distinguished as
 separate objects. Resolution is more important than magnification because increasing magnification
-without improving resolution produces a larger, blurry image — you cannot see more detail. The
+without improving resolution produces a larger, blurry image, you cannot see more detail. The
 resolution of a light microscope is limited to approximately 200 nm (due to the wavelength of
 visible light), whereas electron microscopes have a resolution of approximately 0.2 nm (due to the
 much shorter wavelength of electrons). This means electron microscopes can reveal sub-cellular
@@ -366,7 +366,7 @@ not require oxygen, and state the net products of glycolysis per molecule of glu
 (a) The buffer must be **ice-cold** to reduce the activity of digestive enzymes (lysosomal enzymes
 and proteases) that could damage or degrade the mitochondria once cells are broken open. It must be
 **isotonic** (same water potential as the cytoplasm of the cells) to prevent osmotic gain or loss of
-water by the organelles — if the solution were hypotonic, mitochondria would absorb water and burst;
+water by the organelles, if the solution were hypotonic, mitochondria would absorb water and burst;
 if hypertonic, they would shrink and be damaged. It must be **buffered** to maintain a constant pH,
 because enzyme activity (including mitochondrial enzymes for the Krebs cycle and oxidative
 phosphorylation) is pH-dependent, and the metabolic activity of broken cells could alter the pH of
@@ -380,20 +380,20 @@ creating an electrochemical gradient (proton gradient) across the inner membrane
 accumulate in the intermembrane space, creating a high concentration and a more positive charge.
 H$^+$ ions diffuse back into the matrix through the enzyme **ATP synthase** (a transmembrane
 protein). The flow of H$^+$ through ATP synthase drives the rotation of its stalk, catalysing the
-phosphorylation of ADP to ATP. This process — the movement of H$^+$ ions down their electrochemical
-gradient driving ATP synthesis — is called **chemiosmosis**. The electrons are ultimately
+phosphorylation of ADP to ATP. This process, the movement of H$^+$ ions down their electrochemical
+gradient driving ATP synthesis, is called **chemiosmosis**. The electrons are ultimately
 transferred to oxygen (the terminal electron acceptor), which combines with H$^+$ to form water.
 
-(c) If the inner membrane is made permeable to H$^+$The proton gradient is dissipated — H$^+$ ions
+(c) If the inner membrane is made permeable to H$^+$The proton gradient is dissipated, H$^+$ ions
 leak back into the matrix without passing through ATP synthase. **ATP production will decrease or
 stop** because there is no proton gradient to drive ATP synthase. **Oxygen consumption will
 increase** (or continue at a high rate) because the electron transport chain will continue to
 operate (electrons still flow from NADH/FADH$_2$ to oxygen) and will pump H$^+$ ions, but the
 gradient cannot be maintained. The uncoupled mitochondria will consume oxygen and oxidise substrates
-without producing ATP — the energy is released as heat instead.
+without producing ATP, the energy is released as heat instead.
 
 (d) **Glycolysis** occurs in the **cytoplasm** of the cell (not in the mitochondria). It does not
-require oxygen because it is an anaerobic process — no electron transport chain or oxidative
+require oxygen because it is an anaerobic process, no electron transport chain or oxidative
 phosphorylation is involved. Glycolysis involves the phosphorylation of glucose (using 2 ATP), its
 splitting into two triose phosphate molecules, and the oxidation of these to pyruvate (producing 4
 ATP and 2 NADH by substrate-level phosphorylation). The **net products of glycolysis per molecule of
@@ -436,7 +436,7 @@ co-transporter were used instead? Explain.
 (a) Light microscopy cannot directly observe leucine uptake because: (1) leucine molecules are far
 smaller than the resolution limit of a light microscope (approximately 200 nm), so individual
 molecules cannot be seen; (2) the light microscope cannot track the movement of individual molecules
-across membranes. An alternative technique is to use **radioactive labelling** — leucine can be
+across membranes. An alternative technique is to use **radioactive labelling**, leucine can be
 labelled with a radioactive isotope (e.g., $^{14}$C-leucine or $^{3}$H-leucine). The researcher
 measures the radioactivity taken up by the cells over time using a scintillation counter.
 Alternatively, **fluorescent labelling** (e.g., using a fluorescently tagged leucine analogue) with
@@ -451,7 +451,7 @@ Leucine uptake requires a carrier protein because: (1) leucine is an amino acid 
 polar molecule) that cannot pass through a channel protein, which accommodates only ions and very
 small molecules; (2) leucine is transported against its concentration gradient, which requires a
 carrier protein that can couple the movement of leucine to the movement of Na$^+$ down its gradient
-— channel proteins cannot perform this coupled transport.
+- channel proteins cannot perform this coupled transport.
 
 (c) In co-transport, the $\text{Na}^+/\text{K}^+$ pump on the basolateral membrane of the epithelial
 cell uses **ATP** to actively transport $\text{Na}^+$ out of the cell and $\text{K}^+$ into the
@@ -477,7 +477,7 @@ co-transporter can be partially overcome by increasing substrate concentration.
 
 ## Common Mistakes
 
-**Confusing magnification with resolution:** Increasing magnification without improving resolution just produces a larger blurry image. Resolution — the minimum distance between two distinguishable points — is what determines how much detail you can see. A light microscope at $\times 1500$ cannot reveal ribosomes because its resolution is limited to about 200 nm.
+**Confusing magnification with resolution:** Increasing magnification without improving resolution just produces a larger blurry image. Resolution, the minimum distance between two distinguishable points, is what determines how much detail you can see. A light microscope at $\times 1500$ cannot reveal ribosomes because its resolution is limited to about 200 nm.
 
 **Forgetting that TEM specimens must be dead:** Transmission electron microscopy requires a vacuum, so specimens must be fixed, dehydrated, and sectioned. You cannot observe living cells or dynamic processes with TEM. If a question asks you to observe a live process, suggest light microscopy or fluorescent labelling instead.
 

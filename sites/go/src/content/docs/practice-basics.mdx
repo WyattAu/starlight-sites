@@ -11,7 +11,7 @@ description: "8 auto-graded practice problems covering core Go concepts. Select 
 
 import PracticeProblem from "@components/PracticeProblem";
 
-## Go — Basics Practice
+## Go, Basics Practice
 
 8 auto-graded practice problems covering core Go concepts. Select an answer, submit, and review the
 explanation.
@@ -159,7 +159,7 @@ MyInt(42)
 Interface value: MyInt(42)
 ```
 
-**Key insight:** Go uses structural typing — any type that implements all methods of an interface automatically satisfies it. No explicit declaration needed.
+**Key insight:** Go uses structural typing, any type that implements all methods of an interface automatically satisfies it. No explicit declaration needed.
 
 ---
 
@@ -239,11 +239,11 @@ All workers finished
 
 **Why it matters:** Mastering Go basics enables you to write efficient, readable Go code that takes advantage of the language's simplicity and performance.
 
-**The key insight:** Go's error handling (returning error values) is verbose but explicit — you always know what can fail and how failures are handled.
+**The key insight:** Go's error handling (returning error values) is verbose but explicit, you always know what can fail and how failures are handled.
 
 ## Common Mistakes
 
-**Ignoring error returns:** Go functions that can fail return error values. Forgetting to check `if err != nil` means silent failures that are hard to debug. Always handle errors explicitly — the linter will flag unchecked errors.
+**Ignoring error returns:** Go functions that can fail return error values. Forgetting to check `if err != nil` means silent failures that are hard to debug. Always handle errors explicitly, the linter will flag unchecked errors.
 
 **Confusing value receivers with pointer receivers:** Methods on value receivers operate on copies of the struct. Methods on pointer receivers modify the original. If your method needs to modify state, use a pointer receiver. Mixing receiver types inconsistently causes subtle bugs.
 

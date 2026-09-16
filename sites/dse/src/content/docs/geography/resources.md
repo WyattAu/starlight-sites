@@ -210,7 +210,7 @@ flowchart TD
 
 ## Intuition
 
-Resources are not just things in the ground — they are relationships between nature, technology, and human need. A mineral is not a resource until someone figures out how to extract it and someone else wants to buy it. South China's development was fuelled by resources that were extracted, processed, and consumed in a global chain. Sustainability is the art of using resources without consuming the future — like eating the interest without touching the principal. The tension is real: developing nations need resources to grow, but over-extraction degrades the environment that supports everyone.
+Resources are not just things in the ground, they are relationships between nature, technology, and human need. A mineral is not a resource until someone figures out how to extract it and someone else wants to buy it. South China's development was fuelled by resources that were extracted, processed, and consumed in a global chain. Sustainability is the art of using resources without consuming the future, like eating the interest without touching the principal. The tension is real: developing nations need resources to grow, but over-extraction degrades the environment that supports everyone.
 
 ## Exam Tips
 

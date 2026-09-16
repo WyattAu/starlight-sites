@@ -145,7 +145,7 @@ zfs send -Rcv tank/data@snapshot2 | \
 
 | Flag | Meaning                                     | When to Use                    |
 | ---- | ------------------------------------------- | ------------------------------ |
-| `-R` | Recursive — send all child datasets         | Replicating entire hierarchies |
+| `-R` | Recursive, send all child datasets         | Replicating entire hierarchies |
 | `-p` | Send properties                             | Preserving dataset settings    |
 | `-c` | Compress data during transfer               | Slow or metered network links  |
 | `-v` | Verbose output                              | Monitoring progress            |
@@ -229,7 +229,7 @@ TrueNAS Cloud Sync supports:
 
 ### The Restore Test
 
-A backup that has never been tested is not a backup — it is a hope. Regularly test your backup
+A backup that has never been tested is not a backup, it is a hope. Regularly test your backup
 Restore procedure:
 
 1. **Monthly:** Restore a random subset of files from the most recent backup and verify integrity.
@@ -411,7 +411,7 @@ Where efficiency accounts for compression and deduplication ( 0.5–0.8 for comp
 
 If your encryption keys are compromised, all data encrypted with those keys is at risk. Implement a
 Key rotation policy (e.g., annually) and ensure you can re-encrypt data with new keys. ZFS does not
-Natively support key rotation on existing datasets — you must create a new encrypted dataset and
+Natively support key rotation on existing datasets, you must create a new encrypted dataset and
 Copy the data.
 
 ### Snapshot Explosion

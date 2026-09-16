@@ -370,7 +370,7 @@ Define:
 ### Basic Linker Script Syntax
 
 ```ld
-/* minimal.ld -- Place .text at 0x10000, .data after it */
+/* minimal.ld -- Place .text at 0x10000.data after it */
 ENTRY(_start)
 SECTIONS
 \{
@@ -602,11 +602,11 @@ clang++ -mcmodel=large ...
 
 ## Intuition
 
-**Connecting code:** The linker is like a puzzle assembler — it connects object files into an executable, resolving references between them.
+**Connecting code:** The linker is like a puzzle assembler, it connects object files into an executable, resolving references between them.
 
 **Why it matters:** Understanding linking helps you organize code into libraries and debug "undefined reference" errors.
 
-**The key insight:** Linker scripts control how sections are arranged — they're essential for embedded systems and custom memory layouts.
+**The key insight:** Linker scripts control how sections are arranged, they're essential for embedded systems and custom memory layouts.
 
 ## Common Pitfalls
 

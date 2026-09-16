@@ -161,7 +161,7 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 **The Heart**
 
 - Four chambers: left and right atria (upper), left and right ventricles (lower)
-- The left ventricle has a thicker muscular wall than the right — it pumps blood to the whole body;
+- The left ventricle has a thicker muscular wall than the right, it pumps blood to the whole body;
   the right pumps only to the lungs
 - Valves prevent the backflow of blood
 - Blood flow: vena cava (right atrium, right ventricle, pulmonary artery, lungs, pulmonary vein,
@@ -398,15 +398,15 @@ contains key concepts, definitions, and essential facts. Use this alongside the
   hypothalamus
 - Temperature receptors in the skin and blood detect changes
 - **Too hot**:
-  - Blood vessels near the skin dilate (vasodilation) — more blood flows to the surface, increasing
+  - Blood vessels near the skin dilate (vasodilation), more blood flows to the surface, increasing
     heat loss by radiation
-  - Sweat glands produce more sweat — evaporation of water absorbs heat energy
+  - Sweat glands produce more sweat, evaporation of water absorbs heat energy
   - Body hairs lie flat
 - **Too cold**:
-  - Blood vessels near the skin constrict (vasoconstriction) — less blood flows to the surface,
+  - Blood vessels near the skin constrict (vasoconstriction), less blood flows to the surface,
     reducing heat loss
-  - Shivering — muscles contract rapidly, generating heat
-  - Body hairs stand erect (goosebumps) — traps a layer of insulating air
+  - Shivering, muscles contract rapidly, generating heat
+  - Body hairs stand erect (goosebumps), traps a layer of insulating air
 
 ### 5.2 Control of Blood Glucose
 
@@ -436,7 +436,7 @@ contains key concepts, definitions, and essential facts. Use this alongside the
 
 ### 5.4 Dialysis
 
-- Dialysis is used when the kidneys fail — it removes waste products from the blood
+- Dialysis is used when the kidneys fail, it removes waste products from the blood
 - **Haemodialysis**: blood is passed through a dialysis machine; a partially permeable membrane
   separates the blood from dialysis fluid; waste products diffuse across the membrane
 - **Peritoneal dialysis**: dialysis fluid is pumped into the abdominal cavity; the peritoneum acts
@@ -580,7 +580,7 @@ Ratio: 3 brown : 1 blue (phenotype) or 1 BB : 2 Bb : 1 bb (genotype)
 
 ### 7.2 Food Chains and Webs
 
-- **Producers** (autotrophs): plants and algae — they produce biomass from light energy via
+- **Producers** (autotrophs): plants and algae, they produce biomass from light energy via
   photosynthesis
 - **Consumers** (heterotrophs): animals that eat other organisms
   - Primary consumers eat producers (herbivores)

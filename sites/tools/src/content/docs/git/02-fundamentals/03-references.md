@@ -22,15 +22,15 @@ categories:
 
 ## Intuition
 
-**Name tags for commits:** References are like name tags stuck on specific commits — without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`, and `v1.0` to navigate the commit graph.
+**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`, and `v1.0` to navigate the commit graph.
 
 **Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
 
-**The key insight:** `HEAD` is a special reference that points to the currently checked-out commit — when you make a new commit, `HEAD` moves forward. Understanding this explains why detached HEAD states feel weird and why `git reset` moves `HEAD`.
+**The key insight:** `HEAD` is a special reference that points to the currently checked-out commit, when you make a new commit, `HEAD` moves forward. Understanding this explains why detached HEAD states feel weird and why `git reset` moves `HEAD`.
 
 ## What Are References
 
-A reference (or "ref") is a named pointer to a Git object — almost always a commit. References are
+A reference (or "ref") is a named pointer to a Git object, almost always a commit. References are
 What make Git's object graph navigable. Without them, commits would exist as isolated objects with
 No way to find them (except by hash).
 
@@ -72,7 +72,7 @@ $ git switch feature-login
 $ git branch -a
 ```
 
-**Design decision**: Branches in Git are extremely lightweight — they are a single file containing
+**Design decision**: Branches in Git are extremely lightweight, they are a single file containing
 41 bytes. This is why Git encourages branching freely, unlike CVS or SVN where branching involves
 Copying the entire directory tree. The cost of creating a branch is $O(1)$; the cost of merging
 Depends on the divergence between branches.
@@ -131,7 +131,7 @@ gitGraph
 ```
 
 In the graph above, after checking out commit `C` (detached HEAD), commits `E` and `F` are orphaned
-— no branch points to them. To preserve them:
+- no branch points to them. To preserve them:
 
 ```bash
 # While in detached HEAD at commit F
@@ -149,7 +149,7 @@ Saving the commit hash.
 ### Tags
 
 Tags are references stored at `.git/refs/tags/<tag-name>`. Unlike branches, tags **do not move**
-When new commits are created — they are static pointers. See [Git Objects](./02-git-objects) for
+When new commits are created, they are static pointers. See [Git Objects](./02-git-objects) for
 The distinction between lightweight and annotated tags.
 
 ### Remote References
@@ -197,7 +197,7 @@ e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4 refs/tags/v2.0
 ^c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0
 ```
 
-The `^` prefix on the tag line indicates the peeled (dereferenced) commit — the commit the annotated
+The `^` prefix on the tag line indicates the peeled (dereferenced) commit, the commit the annotated
 Tag points to.
 
 Git checks the loose ref file first, then `packed-refs`. If a ref exists in both places, the loose
@@ -251,8 +251,8 @@ Exclusively own (feature branches, personal forks). Never force push `main` in a
 The **reflog** (reference log) is a chronological record of every change to `HEAD` and branch
 References. It is stored at `.git/logs/HEAD` and `.git/logs/refs/heads/<branch>`.
 
-Every time a branch pointer moves — due to commit, checkout, rebase, reset, merge, or any other
-Operation — Git records:
+Every time a branch pointer moves, due to commit, checkout, rebase, reset, merge, or any other
+Operation, Git records:
 
 ```
 a3f2b1c0 HEAD@{0}: checkout: moving from feature to main
@@ -296,7 +296,7 @@ See [Reflog](../05-advanced-topics/01-reflog) for a deeper treatment.
 ## Symbolic References
 
 A **symbolic reference** (or "symref") is a reference that points to another reference, rather than
-To an object. `HEAD` is the canonical example — it points to a branch ref, which in turn points to a
+To an object. `HEAD` is the canonical example, it points to a branch ref, which in turn points to a
 Commit.
 
 ```bash
@@ -316,7 +316,7 @@ When you run `git commit`Git:
 2. Reads `HEAD` to find the current branch (`refs/heads/main`)
 3. Updates `refs/heads/main` to point to the new commit
 
-This indirection is what makes branches work — moving a branch pointer is just writing 41 bytes to a
+This indirection is what makes branches work, moving a branch pointer is just writing 41 bytes to a
 File.
 
 ## Reference Resolution Order
@@ -345,7 +345,7 @@ flowchart TD
     style P fill:#ffcdd2
 ```
 
-This is why you can type `git checkout main` instead of `git checkout refs/heads/main` — Git
+This is why you can type `git checkout main` instead of `git checkout refs/heads/main`Git
 Searches multiple ref namespaces.
 
 ## Common Pitfalls

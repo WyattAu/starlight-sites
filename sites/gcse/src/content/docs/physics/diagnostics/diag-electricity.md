@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Electricity — Diagnostic Tests
+## Electricity, Diagnostic Tests
 
 ## Unit Tests
 
@@ -186,11 +186,11 @@ voltage, the more sensitive and accurate the temperature sensor.
 
 ## Intuition
 
-**The flow of charge:** Electricity is like water flowing through pipes — voltage is the pressure, current is the flow rate, and resistance is how narrow the pipes are. Ohm's law connects them all.
+**The flow of charge:** Electricity is like water flowing through pipes, voltage is the pressure, current is the flow rate, and resistance is how narrow the pipes are. Ohm's law connects them all.
 
 **Why it matters:** From lighting homes to powering computers, electricity is the backbone of modern life. Understanding circuits helps you design and troubleshoot electrical systems.
 
-**The key insight:** Power = voltage × current — this tells you how much energy is being used per second.
+**The key insight:** Power = voltage × current, this tells you how much energy is being used per second.
 
 
 ```mermaid

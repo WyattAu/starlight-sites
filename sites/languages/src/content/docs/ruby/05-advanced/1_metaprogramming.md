@@ -213,7 +213,7 @@ p.greet("Hi")  # => "Hi, Alice"
 
 # Batch method definition
 class Invoice
-  FIELDS = [:amount, :date, :customer, :paid]
+  FIELDS = [:amount:date:customer:paid]
 
   FIELDS.each do |field|
     attr_accessor field
@@ -311,7 +311,7 @@ class Template
 end
 
 class ViewContext
-  attr_accessor :title, :items
+  attr_accessor :title:items
 
   def initialize
     @title = "Default"
@@ -349,7 +349,7 @@ end.join
 
 ```ruby
 class User
-  attr_accessor :name, :email
+  attr_accessor :name:email
 
   def greet
     "Hello, I'm #{@name}"
@@ -465,7 +465,7 @@ Person.create("Alice").greet  # => "Hello, Alice"
 
 # Dynamic class modification
 class_name = "Product"
-fields = [:name, :price, :stock]
+fields = [:name:price:stock]
 
 klass = Class.new do
   fields.each do |field|
@@ -541,7 +541,7 @@ end
 
 # alias_method -- can be called at any time
 class Array
-  alias_method :second, :at
+  alias_method :second:at
 end
 
 [10, 20, 30].second(1)  # => 20
@@ -559,7 +559,7 @@ end
 
 # Wrap original method
 class Greeting
-  alias_method :hello_original, :hello
+  alias_method :hello_original:hello
 
   def hello
     "#{hello_original} (enhanced)"
@@ -688,7 +688,7 @@ end
 
 # Practical: prevent certain methods
 class SensitiveData
-  undef_method :inspect, :to_s
+  undef_method :inspect:to_s
 
   def initialize(data)
     @data = data
@@ -820,7 +820,7 @@ Registry.register(:Service, MyService)
 Registry::Service  # => MyService
 
 # List constants
-Version.constants      # => [:MAJOR, :MINOR, :PATCH, :FULL]
+Version.constants      # => [:MAJOR:MINOR:PATCH:FULL]
 Version.constants(false)  # => own constants only
 ```
 
@@ -923,13 +923,13 @@ class Employee
     @work_info = WorkInfo.new
   end
 
-  def_delegators :@contact_info, :email, :phone, :address
-  def_delegator :@work_info, :title, :job_title
-  def_delegators :@work_info, :department, :salary
+  def_delegators :@contact_info:email:phone:address
+  def_delegator :@work_info:title:job_title
+  def_delegators :@work_info:department:salary
 end
 
 class ContactInfo
-  attr_accessor :email, :phone, :address
+  attr_accessor :email:phone:address
   def initialize
     @email = "a@b.com"
     @phone = "555-1234"
@@ -937,7 +937,7 @@ class ContactInfo
 end
 
 class WorkInfo
-  attr_accessor :title, :department, :salary
+  attr_accessor :title:department:salary
   def initialize
     @title = "Engineer"
   end

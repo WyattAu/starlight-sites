@@ -122,7 +122,7 @@ $g$ is the **genus**. The Euler characteristic is $\chi = 2 - 2g$.
    must be checked.
 
 3. **The Lie bracket is not the commutator of flows.** $[X, Y] = 0$ means flows commute, but
-   $[X, Y] \neq 0$ does not mean they do not flow at all — only that the composition order matters.
+   $[X, Y] \neq 0$ does not mean they do not flow at all, only that the composition order matters.
 
 4. **Stokes' theorem requires compact support or compact manifold with boundary.** For non-compact
    manifolds, additional decay conditions are needed for the integral to be well-defined.

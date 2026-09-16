@@ -154,7 +154,7 @@ const userRepo: Repository<User> = {
     return [];
   },
   create(entity) {
-    return { id: crypto.randomUUID(), ...entity };
+    return { id: crypto.randomUUID()...entity };
   },
   update(id, entity) {
     return undefined;
@@ -398,7 +398,7 @@ type B = UnwrapPromise<number>;
 
 ```ts
 type Unpack<T> = T extends (infer A)[] ? A : T;
-type First<T extends any[]> = T extends [infer F, ...any[]] ? F : never;
+type First<T extends any[]> = T extends [infer F...any[]] ? F : never;
 type Last<T extends any[]> = T extends [...any[], infer L] ? L : never;
 ```
 
@@ -431,7 +431,7 @@ type B = MyReturnType<(x: number) => boolean>;
 
 ```ts
 function merge<T extends object, U extends object>(a: T, b: U): T & U {
-  return { ...a, ...b };
+  return { ...a...b };
 }
 
 const result = merge({ name: "Ada'' }, { age: 30 });
@@ -686,7 +686,7 @@ Adding unnecessary constraints reduces the flexibility of generic code. Only con
 Constraint is required for the implementation:
 
 ```ts
-function first<T extends any[]>(arr: T): T extends [infer F, ...any[]] ? F : T[number] {
+function first<T extends any[]>(arr: T): T extends [infer F...any[]] ? F : T[number] {
   return arr[0] as any;
 }
 ```

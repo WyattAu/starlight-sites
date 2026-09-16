@@ -83,11 +83,11 @@ Every diagnostic file contains:
 
 ## Intuition
 
-**A diagnostic roadmap:** Diagnostic tests are like medical check-ups — they identify weak spots before the exam, so you can focus your study time where it matters most.
+**A diagnostic roadmap:** Diagnostic tests are like medical check-ups, they identify weak spots before the exam, so you can focus your study time where it matters most.
 
 **Why it matters:** Targeted revision is more efficient than covering everything. Diagnostic tests help you prioritize and track improvement.
 
-**The key insight:** Making mistakes on diagnostic tests is valuable — each error points to a concept that needs clarification.
+**The key insight:** Making mistakes on diagnostic tests is valuable, each error points to a concept that needs clarification.
 
 ## Summary
 

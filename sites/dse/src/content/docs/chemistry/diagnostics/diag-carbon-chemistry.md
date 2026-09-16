@@ -216,11 +216,11 @@ flowchart TD
 
 ## Intuition
 
-**Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
+**Carbon's versatility:** Carbon atoms can chain together in countless ways, like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
 
 **Why it matters:** From plastics to proteins, carbon chemistry is the basis of organic life and modern materials. Understanding reactions lets you predict how molecules behave.
 
-**The key insight:** Functional groups determine reactivity — an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
+**The key insight:** Functional groups determine reactivity, an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
 
 ## Integration Test 1: Multi-Step Synthesis Planning
 
@@ -404,9 +404,9 @@ alkene, or complete combustion.
 
 **Confusing substitution with addition reactions in alkanes vs alkenes:** Alkanes undergo substitution (with halogens under UV light), while alkenes undergo addition (with bromine water at room temperature). Don't assume both react the same way with bromine.
 
-**Forgetting that addition polymerisation consumes the double bond:** When alkenes polymerise, the pi bond opens to form new sigma bonds. The resulting polymer has only single bonds — there are no remaining double bonds in the main chain.
+**Forgetting that addition polymerisation consumes the double bond:** When alkenes polymerise, the pi bond opens to form new sigma bonds. The resulting polymer has only single bonds, there are no remaining double bonds in the main chain.
 
-**Mixing up Markovnikov and anti-Markovnikov addition:** HBr adds to propene to give 2-bromopropane (Markovnikov — Br goes to the more substituted carbon). Only with peroxides does HBr add anti-Markovnikov to give 1-bromopropane.
+**Mixing up Markovnikov and anti-Markovnikov addition:** HBr adds to propene to give 2-bromopropane (Markovnikov, Br goes to the more substituted carbon). Only with peroxides does HBr add anti-Markovnikov to give 1-bromopropane.
 
 ## Cross-References
 

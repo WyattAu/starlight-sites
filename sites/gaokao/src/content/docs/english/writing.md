@@ -181,11 +181,11 @@ October 1st, 2026
 "'What changed?' Sarah asked, looking up with curiosity. Mrs. Chen smiled gently and sat beside her on the wooden dock. 'When I was your age, I nearly drowned in a river. For years, I couldn't even look at water without trembling. Then one summer, my father took me to a quiet pond. He didn't force me in. He just sat with me, day after day, until the fear lost its power.' Mrs. Chen's eyes drifted across the shimmering lake. 'Fear is not something you fight. It is something you understand.'"
 
 第二段：
-"The next morning, Sarah found Mrs. Chen waiting by the shore with two fishing rods. 'Today, we fish,' she said directly. Sarah hesitated but took the rod. As they sat side by side, the gentle lapping of waves became almost musical. Gradually, Sarah's grip on the dock railing loosened. By the end of the week, she was wading ankle-deep in the shallows, laughing as the water swirled around her feet. She still couldn't swim, but she no longer sat alone on the dock. The lake was no longer her enemy — it was becoming her friend."
+"The next morning, Sarah found Mrs. Chen waiting by the shore with two fishing rods. 'Today, we fish,' she said directly. Sarah hesitated but took the rod. As they sat side by side, the gentle lapping of waves became almost musical. Gradually, Sarah's grip on the dock railing loosened. By the end of the week, she was wading ankle-deep in the shallows, laughing as the water swirled around her feet. She still couldn't swim, but she no longer sat alone on the dock. The lake was no longer her enemy, it was becoming her friend."
 
 **答案：** 见续写示范
 
-### 例题5：应用文写作——感谢信
+### 例题5：应用文写作, 感谢信
 
 **题目：** 假如你是李华，你的外教Mr. Smith帮助你提高了英语写作水平，请给他写一封感谢信。
 
@@ -202,7 +202,7 @@ ideas and often made grammatical errors that obscured my meaning.
 Your patient feedback on each essay, combined with your emphasis on
 clear structure and precise word choice, has transformed my approach
 to writing. I particularly valued your suggestion to read my work
-aloud before submitting it — a technique that has helped me identify
+aloud before submitting it, a technique that has helped me identify
 awkward phrasing and improve the flow of my sentences.
 
   As a result of your teaching, my writing grade has improved from
@@ -219,7 +219,7 @@ Li Hua
 
 **答案：** 见感谢信范文
 
-### 例题6：通知写作——英语角活动
+### 例题6：通知写作, 英语角活动
 
 **题目：** 你校英语社将举办"英语电影配音大赛"，请以英语社的名义写一则通知。
 
@@ -296,7 +296,7 @@ Li Hua
 
 **考试技巧：** 申请信要突出与申请职位相关的经历和能力，用具体事例支撑，避免空泛的自我评价。
 
-### 例题8：读后续写——情感描写
+### 例题8：读后续写, 情感描写
 
 **题目：** 阅读下面短文，根据所给情节进行续写（两段）。
 
@@ -307,14 +307,14 @@ Li Hua
 续写示范：
 
 第一段：
-"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence — and then the audience erupted in thunderous applause."
+"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence, and then the audience erupted in thunderous applause."
 
 第二段：
 "Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."
 
 **考试技巧：** 续写中的情感描写要自然真实，通过动作、语言、心理活动等多种方式展现人物情感变化。
 
-### 例题9：建议信——环境保护
+### 例题9：建议信, 环境保护
 
 **题目：** 假如你是李华，你班将召开以"保护环境"为主题的班会。请你给全班同学写一封建议信，提出至少三条具体建议。
 
@@ -347,11 +347,11 @@ Li Hua
 
 **考试技巧：** 建议信中的建议要具体可行，避免空洞的口号。每条建议最好有简要的理由或说明。
 
-### 例题10：读后续写——情节发展
+### 例题10：读后续写, 情节发展
 
 **题目：** 阅读下面短文，根据所给情节进行续写（两段）。
 
-"Lisa had always been a straight-A student. When her final exam results came out, she was shocked to find she had failed Mathematics. She couldn't believe her eyes — she had studied so hard. That evening, she locked herself in her room, refusing to eat or talk to anyone."
+"Lisa had always been a straight-A student. When her final exam results came out, she was shocked to find she had failed Mathematics. She couldn't believe her eyes, she had studied so hard. That evening, she locked herself in her room, refusing to eat or talk to anyone."
 
 **解答：**
 
@@ -361,11 +361,11 @@ Li Hua
 "Her mother knocked gently on the door. 'Lisa, I know you're disappointed, but locking yourself away won't solve anything.' After a long silence, Lisa opened the door. Tears streamed down her face as she whispered, 'I don't understand what went wrong. I studied every night.' Her mother sat beside her and said softly, 'Sometimes the hardest exams aren't the ones on paper. They're the ones that teach us how to handle failure.'"
 
 第二段：
-"The next morning, Lisa asked her mother to help her make a new study plan. Instead of studying alone in her room, she joined a study group where they explained problems to each other. She also visited her Mathematics teacher, who helped her identify the concepts she had misunderstood. Within weeks, her confidence returned. She realised that one failure did not define her — it was how she responded to it that truly mattered.
+"The next morning, Lisa asked her mother to help her make a new study plan. Instead of studying alone in her room, she joined a study group where they explained problems to each other. She also visited her Mathematics teacher, who helped her identify the concepts she had misunderstood. Within weeks, her confidence returned. She realised that one failure did not define her, it was how she responded to it that truly mattered.
 
 **考试技巧：** 续写要保持人物性格一致，情节发展合理。使用适当的连接词使文章连贯。
 
-### 例题11：应用文写作——道歉信
+### 例题11：应用文写作, 道歉信
 
 **题目：** 假如你是李华，你因病未能参加昨天的英语角活动，请给活动组织者写一封道歉信。
 
@@ -388,7 +388,7 @@ Li Hua
 
 **考试技巧：** 道歉信要说明原因、表达歉意、提出补救措施。语气要诚恳，不要找借口。
 
-### 例题12：读后续写——动作与心理描写
+### 例题12：读后续写, 动作与心理描写
 
 **题目：** 阅读下面短文，根据所给情节进行续写（两段）。
 
@@ -399,7 +399,7 @@ Li Hua
 续写示范：
 
 第一段：
-"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence — and then the audience erupted in thunderous applause."
+"He closed his eyes and took a deep breath, trying to calm his racing heart. The first few notes came out hesitant and shaky, but as his fingers found their rhythm, the music began to flow smoothly. The melody filled the auditorium, carrying with it all the months of practice and the passion that had driven him to this moment. When he played the final chord, there was a moment of perfect silence, and then the audience erupted in thunderous applause."
 
 第二段：
 "Tom opened his eyes, stunned by the response. Tears welled up as he stood to bow, his trembling hands now steady with relief and joy. After the show, his music teacher approached him with a warm smile. 'You didn't just play the piano tonight, Tom. You shared your heart with everyone here.' From that day forward, Tom no longer feared the stage. He had discovered that courage was not the absence of fear, but the determination to move forward despite it."

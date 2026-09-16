@@ -28,7 +28,7 @@ flowchart TD
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 ## Diagnostic Test: Literary Analysis
 

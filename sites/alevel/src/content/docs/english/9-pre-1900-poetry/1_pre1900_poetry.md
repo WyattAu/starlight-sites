@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**Poetry is like a musical composition — rhythm, imagery, and emotion woven into a few carefully chosen words.**
+**Poetry is like a musical composition, rhythm, imagery, and emotion woven into a few carefully chosen words.**
 
 ## Pre-1900 Poetry
 
@@ -51,19 +51,19 @@ The Romantic period emerged in response to the Enlightenment's emphasis on reaso
 
 Wordsworth's poetry explores the restorative power of nature and the relationship between the mind and the external world. In "Lines Composed a Few Miles above Tintern Abbey," the speaker describes how nature functions as a moral and spiritual guide: "Nature never did betray the heart that loved her." The poem traces a progression from youthful sensory immersion to mature philosophical reflection, reflecting Wordsworth's belief that memory of nature sustains the individual through urban life.
 
-The concept of the **spot of time**—a particular moment in nature that retains its emotional power across years—is central to Wordsworth's poetics. In _The Prelude_, these moments function as anchors for personal identity. For examination, students should attend to Wordsworth's use of blank verse, enjambment, and the movement between descriptive and reflective registers.
+The concept of the **spot of time**,a particular moment in nature that retains its emotional power across years–is central to Wordsworth's poetics. In _The Prelude_, these moments function as anchors for personal identity. For examination, students should attend to Wordsworth's use of blank verse, enjambment, and the movement between descriptive and reflective registers.
 
 ### John Keats (1795-1821)
 
 Keats's poetry is distinguished by its sensory richness and its engagement with mortality. "Ode to a Nightingale" juxtaposes the bird's "full-throated ease" with the speaker's awareness of death: "Now more than ever seems it rich to die." The ode form allows Keats to sustain a tension between aesthetic pleasure and existential anxiety.
 
-In "Ode on a Grecian Urn," Keats explores the paradox of art's permanence and life's transience. The urn's frozen figures are "still unravish'd," preserved in eternal beauty yet unable to experience life. The final lines—"Beauty is truth, truth beauty"—have generated extensive critical debate: the ambiguity of the referent ("that is all / Ye know on earth") enacts the poem's resistance to definitive interpretation.
+In "Ode on a Grecian Urn," Keats explores the paradox of art's permanence and life's transience. The urn's frozen figures are "still unravish'd," preserved in eternal beauty yet unable to experience life. The final lines,"Beauty is truth, truth beauty",have generated extensive critical debate: the ambiguity of the referent ("that is all / Ye know on earth") enacts the poem's resistance to definitive interpretation.
 
 Keats developed the concept of **negative capability**: the capacity to remain "in uncertainties, Mysteries, doubts, without any irritable reaching after fact and reason." This concept is directly assessable under AO5 (alternative interpretations).
 
 ### Percy Bysshe Shelley (1792-1822)
 
-Shelley's "Ozymandias" is a compact exploration of the transience of political power. The sonnet's structure—a frame narrative within a frame—complicates the authority of the inscription: "Look on my Works, ye Mighty, and despair!" The irony that Ozymandias's empire has crumbled to "nothing beside" underscores the Romantic scepticism toward institutional power.
+Shelley's "Ozymandias" is a compact exploration of the transience of political power. The sonnet's structure–a frame narrative within a frame–complicates the authority of the inscription: "Look on my Works, ye Mighty, and despair!" The irony that Ozymandias's empire has crumbled to "nothing beside" underscores the Romantic scepticism toward institutional power.
 
 "Mont Blanc" pushes Romantic epistemology to its limits, questioning whether the human mind can truly comprehend nature: "And what were thou, and earth, and stars, and sea, / If to the human mind's imaginings / Silence and solitude were vacancy?" This interrogation of perception connects to broader Romantic debates about the relationship between imagination and reality.
 
@@ -77,13 +77,13 @@ Victorian poetry responds to the crisis of faith prompted by Darwinism, the expa
 
 Tennyson, Poet Laureate from 1850, is the defining voice of Victorian anxiety. "The Charge of the Light Brigade" commemorates military sacrifice while subtly questioning the leadership that produced it: "Theirs not to make reply, / Theirs not to reason why." The repetition enacts the soldiers' obedience while the phrase "blundered" in the final stanza introduces a quiet indictment.
 
-In "Ulysses," Tennyson repurposes the dramatic monologue to present an ageing hero who refuses retirement: "To strive, to seek, to find, and not to yield." The poem engages with Victorian debates about the purpose of empire and the refusal to accept decline. The final apostrophe—"We are not now that strength which in old days / Moved earth and heaven"—acknowledges mortality while asserting the will to continue.
+In "Ulysses," Tennyson repurposes the dramatic monologue to present an ageing hero who refuses retirement: "To strive, to seek, to find, and not to yield." The poem engages with Victorian debates about the purpose of empire and the refusal to accept decline. The final apostrophe,"We are not now that strength which in old days / Moved earth and heaven",acknowledges mortality while asserting the will to continue.
 
 ### Robert Browning (1812-1889)
 
 Browning perfected the **dramatic monologue**, a form in which a speaker reveals their character inadvertently through their address to a silent listener. "My Last Duchess" presents the Duke of Ferrara discussing a portrait of his deceased wife. The Duke's controlling personality emerges through his complaint that the Duchess smiled too freely: "I gave commands; / Then all smiles stopped together." The euphemism for murder is chilling in its casualness.
 
-Browning's technique of **dramatic irony**—where the reader perceives more than the speaker intends—is a key skill for AO2. Students should analyse how the Duke's language, syntax, and rhetorical strategies betray the very character he seeks to conceal.
+Browning's technique of **dramatic irony**,where the reader perceives more than the speaker intends–is a key skill for AO2. Students should analyse how the Duke's language, syntax, and rhetorical strategies betray the very character he seeks to conceal.
 
 ### Matthew Arnold (1822-1888)
 
@@ -95,11 +95,11 @@ Arnold's poem anticipates twentieth-century modernism in its fragmentation of ce
 
 ### Context and Characteristics
 
-The Metaphysical poets—John Donne, George Herbert, Andrew Marvell, and others—were grouped by Samuel Johnson as writers who employed "heterogeneous ideas yoked by violence together." This "yoking" of conceits, the fusion of intellectual argument with emotional intensity, is their defining characteristic.
+The Metaphysical poets–John Donne, George Herbert, Andrew Marvell, and others–were grouped by Samuel Johnson as writers who employed "heterogeneous ideas yoked by violence together." This "yoking" of conceits, the fusion of intellectual argument with emotional intensity, is their defining characteristic.
 
 ### John Donne (1572-1631)
 
-Donne's "The Flea" uses a trivial premise—a flea that has bitten both speaker and beloved—as an elaborate conceit to argue for sexual union: "Mark but this flea, and mark in this, / How little that which thou deniest me is." The poem's wit depends on the disproportion between the vehicle (a flea) and the tenor (physical intimacy). For close reading, students should trace how the conceit is sustained, complicated, and finally subverted across three stanzas.
+Donne's "The Flea" uses a trivial premise–a flea that has bitten both speaker and beloved–as an elaborate conceit to argue for sexual union: "Mark but this flea, and mark in this, / How little that which thou deniest me is." The poem's wit depends on the disproportion between the vehicle (a flea) and the tenor (physical intimacy). For close reading, students should trace how the conceit is sustained, complicated, and finally subverted across three stanzas.
 
 "The Sun Rising" similarly employs a metaphysical conceit to transform the external world into an extension of the lovers' bedchamber: "She is all states, and all princes, I." The poem's hyperbole enacts the speaker's claim that love transcends temporal and spatial boundaries.
 
@@ -109,7 +109,7 @@ Herbert's "The Collar" demonstrates the metaphysical blend of rebellion and subm
 
 ### Andrew Marvell (1621-1678)
 
-"To His Coy Mistress" uses the **carpe diem** convention to argue for immediate sexual gratification. The poem's three-part syllogistic structure ("Had we but world enough and time" / "But at my back I always hear" / "Now therefore") moves from hyperbolic flattery through memento mori to pragmatic conclusion. The famous couplet—"Thus, though we cannot make our sun / Stand still, yet we will make him run"—enacts the poem's argument through its accelerating rhythm.
+"To His Coy Mistress" uses the **carpe diem** convention to argue for immediate sexual gratification. The poem's three-part syllogistic structure ("Had we but world enough and time" / "But at my back I always hear" / "Now therefore") moves from hyperbolic flattery through memento mori to pragmatic conclusion. The famous couplet,"Thus, though we cannot make our sun / Stand still, yet we will make him run",enacts the poem's argument through its accelerating rhythm.
 
 ## Sonnet Form
 

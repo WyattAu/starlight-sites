@@ -43,7 +43,7 @@ auto obj = std::make_unique<Widget>();
 // Destructor runs automatically, no leak possible.
 ```
 
-## 5.2 `std::make_unique` vs `new` in Expressions — Exception Safety
+## 5.2 `std::make_unique` vs `new` in Expressions, Exception Safety
 
 Consider a function call where the argument evaluation order matters:
 
@@ -103,13 +103,13 @@ void aliasing_demo() {
 ```
 
 :::caution
-Lifetime of the member it points to — it only extends the lifetime of the **owning** object. If the
+Lifetime of the member it points to, it only extends the lifetime of the **owning** object. If the
 Owning object is destroyed first, the aliased pointer dangles. Use cases include returning pointers
 To members from APIs that need to express shared ownership of the containing object.
 :::
 ## 5.5 Custom Deleters
 
-Smart pointers support **custom deleters** — callable objects invoked instead of `delete` when the
+Smart pointers support **custom deleters**, callable objects invoked instead of `delete` when the
 Managed object is destroyed. This is essential for resources that are not heap-allocated with `new`
 Such as C library handles, memory from custom allocators, or OS file descriptors.
 
@@ -273,7 +273,7 @@ int main() {
 :::caution
 Outlive the `unique_ptr`. Since the deleter runs in the `unique_ptr` destructor, which runs when the
 `unique_ptr` goes out of scope, any captured reference must refer to an object with equal or greater
-Scope. This is easy to violate in practice — prefer capturing by value.
+Scope. This is easy to violate in practice, prefer capturing by value.
 :::
 ### 5.5.3 Functor Deleters with State
 
@@ -343,7 +343,7 @@ For `std::shared_ptr`Array semantics are handled differently. The default delete
 // Correct: shared_ptr with array deleter
 auto arr = std::shared_ptr<int[]>(new int[10], std::default_delete<int[]>());
 
-// WRONG: this calls delete, not delete[] — undefined behavior for arrays
+// WRONG: this calls delete, not delete[], undefined behavior for arrays
 // auto bad = std::shared_ptr<int>(new int[10]);
 ```
 
@@ -404,7 +404,7 @@ void verify_deleter_overhead() {
     static_assert(std::is_invocable_v<D, T*>,
                   "deleter must be invocable with T*");
     static_assert(std::is_nothrow_invocable_v<D, T*>,
-                  "deleter must be noexcept — throwing in a destructor is UB");
+                  "deleter must be noexcept, throwing in a destructor is UB");
 
     if constexpr (deleter_is_empty_v<T, D>) {
         static_assert(sizeof(std::unique_ptr<T, D>) == sizeof(T*),
@@ -457,7 +457,7 @@ void shared_with_custom_deleter() {
 
 When using `std::make_shared`The control block and the managed object are allocated in a single Heap
 allocation (one `new` call). When providing a custom deleter, the compiler cannot use `make_shared`
-— it must perform a separate allocation for the control block and the managed object:
+- it must perform a separate allocation for the control block and the managed object:
 
 ```cpp
 // Single allocation: control block + object (no custom deleter)
@@ -520,7 +520,7 @@ Custom allocators interact with smart pointer custom deleters in important ways.
 
 When a container uses a custom allocator, elements are allocated and deallocated through that
 Allocator. If you extract a raw pointer from a container element and wrap it in a smart pointer, the
-Default deleter will call `delete`Which bypasses the allocator — a mismatch that causes undefined
+Default deleter will call `delete`Which bypasses the allocator, a mismatch that causes undefined
 Behavior:
 
 ```cpp
@@ -656,7 +656,7 @@ using unique_file_ptr = std::unique_ptr<std::FILE, decltype([](std::FILE* f) noe
 
 // shared_ptr: deleter is type-erased, same type regardless of deleter
 void process_with_shared(std::shared_ptr<std::FILE> fp) {
-    // fp's deleter could be anything — no compile-time check
+    // fp's deleter could be anything, no compile-time check
     std::fprintf(fp.get(), "writing data\n");
 }
 
@@ -735,11 +735,11 @@ Lambda.
 
 ## Intuition
 
-**Custom cleanup:** Custom deleters are like specialized garbage collectors — they know exactly how to clean up resources that aren't memory (files, sockets, etc.).
+**Custom cleanup:** Custom deleters are like specialized garbage collectors, they know exactly how to clean up resources that aren't memory (files, sockets, etc.).
 
 **Why it matters:** Custom deleters enable unique_ptr and shared_ptr to manage any resource, not just memory, ensuring proper cleanup.
 
-**The key insight:** Lambdas are perfect for custom deleters — they capture cleanup logic inline and have zero overhead.
+**The key insight:** Lambdas are perfect for custom deleters, they capture cleanup logic inline and have zero overhead.
 
 ```mermaid
 flowchart TD
@@ -787,7 +787,7 @@ Lambda.
 **Type erasure hiding bugs.** `std::shared_ptr`'s type-erased deleter means the compiler cannot
 Verify deleter correctness at the call site. If you accidentally pass the wrong deleter (e.g., one
 That calls `free` on a `new`-allocated object), the error manifests at runtime as heap corruption.
-Prefer `std::unique_ptr` where possible — its deleter is part of the type and checked at compile
+Prefer `std::unique_ptr` where possible, its deleter is part of the type and checked at compile
 Time.
 
 **`final` on empty deleter classes.** Marking an empty deleter class as `final` prevents EBO from

@@ -27,7 +27,7 @@
     {
       "question": "Can you have both a mutable reference and an immutable reference to the same data at the same time?",
       "options": [
-        "No — mutable references are exclusive",
+        "No, mutable references are exclusive",
         "Yes, as long as the immutable reference was created first",
         "Yes, but only in unsafe blocks",
         "Yes, Rust automatically handles conflicts',"
@@ -57,7 +57,7 @@
         "There is no difference',"
       ],
       "correctAnswer": 0,
-      "explanation": "`Box<T>` provides single ownership of heap data — only one owner at a time. `Rc<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc<T>` for shared ownership across threads.",
+      "explanation": "`Box<T>` provides single ownership of heap data, only one owner at a time. `Rc<T>` (Reference Counted) allows multiple owners of the same data by keeping a count of active references. Neither is thread-safe; use `Arc<T>` for shared ownership across threads.",
       "difficulty": "medium"
     },
     {

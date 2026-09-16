@@ -7,7 +7,7 @@ tags:
   - signs
   - mutcd
 sources:
-  - text: "FHWA — Manual on Uniform Traffic Control Devices (MUTCD), Chapters 2D-2H Guide Signs"
+  - text: "FHWA, Manual on Uniform Traffic Control Devices (MUTCD), Chapters 2D-2H Guide Signs"
     url: "https://mutcd.fhwa.dot.gov/"
 ---
 
@@ -25,9 +25,9 @@ logic.
 - **Distance signs**: list destinations with mileages; the top
   destination is the nearest major city on this route.
 - **Exit signs**: exit number = mile marker on most interstates
-  (post-2000s renumbering), so "Exit 212" means mile 212 — a built-in
+  (post-2000s renumbering), so "Exit 212" means mile 212, a built-in
   navigation check.
-- **Action-point signs**: "Exit 25 — 1 mile", then ½ mile, then the
+- **Action-point signs**: "Exit 25 to 1 mile", then ½ mile, then the
   exit gore with an arrow. Position your lane change at the first one.
 - **Destination/junction signs**: announce upcoming route numbers;
   a shield with "TO" routes you via a connector.
@@ -41,7 +41,7 @@ Blue squares mark services you may need mid-trip:
 - Gas, food, lodging (the classic tri-service sign)
 - Hospitals (blue with a white H)
 - Rest areas (blue with a picnic-table or restroom symbol)
-- Evacuation route markers (blue with a wave — coastal states)
+- Evacuation route markers (blue with a wave, coastal states)
 - Phone/emergency services along highways
 
 Blue signs never regulate traffic; a blue "hospital ahead" requires
@@ -71,7 +71,7 @@ from I-5's corridor).
 ## Mile Markers and Exit Numbers
 
 Mile markers count from the state's southern or western border. If
-your GPS says exit 40 and signs show exit 38, the next exit is yours —
+your GPS says exit 40 and signs show exit 38, the next exit is yours,
 mile-based exits make walkie-talkie-style coordination possible
 ("pickup at mile 112"). States that never converted (a handful in the
 northeast) use sequential exit numbers instead; the testable default
@@ -84,7 +84,7 @@ is the mile-based system.
 2. **Route logic**: even/odd interstate directions; 3-digit = spur.
 3. **Sign recognition**: hospital H (blue), rest area (blue), picnic
    area (brown), evacuation route (blue wave).
-4. **Action questions**: "first advance sign for your exit appears —
+4. **Action questions**: "first advance sign for your exit appears,
    what now?" Answer: move into the proper lane early, don't brake
    yet.
 

@@ -59,7 +59,7 @@ Coordination compounds contain a central metal atom/ion bonded to ligands throug
 - Strong field ligands (CN$^-$, CO): large splitting, low spin (paired electrons)
 - Weak field ligands (I$^-$, Br$^-$): small splitting, high spin (unpaired electrons)
 
-## Worked Example 1 — IUPAC Naming
+## Worked Example 1, IUPAC Naming
 
 **Problem:** Give the IUPAC name for $[\text{Co(NH}_3)_4\text{Cl}_2]\text{Cl}$.
 
@@ -82,7 +82,7 @@ Full name: **tetraamminedichloridocobalt(III) chloride**
 
 **Common mistake:** Forgetting alphabetical ordering of ligands. Ammine comes before chloro (a before c).
 
-## Worked Example 2 — Crystal Field Splitting
+## Worked Example 2, Crystal Field Splitting
 
 **Problem:** For $[\text{Fe(CN)}_6]^{3-}$, determine the number of unpaired electrons and whether it is paramagnetic.
 
@@ -97,13 +97,13 @@ $$t_{2g}^5 \, e_g^0$$
 
 Unpaired electrons: 1 (one electron in each of the three $t_{2g}$ orbitals, plus one pair)
 
-Wait — 5 electrons in 3 $t_{2g}$ orbitals: $\uparrow\downarrow, \uparrow\downarrow, \uparrow$ = 1 unpaired electron.
+Wait, 5 electrons in 3 $t_{2g}$ orbitals: $\uparrow\downarrow, \uparrow\downarrow, \uparrow$ = 1 unpaired electron.
 
 The complex is paramagnetic (has unpaired electrons).
 
 **Common mistake:** Using high-spin filling for strong field ligands. Strong field ligands force low-spin configurations.
 
-## Worked Example 3 — Isomerism
+## Worked Example 3, Isomerism
 
 **Problem:** Identify the type of isomerism in $[\text{Co(NH}_3)_5\text{NO}_2]^{2+}$.
 
@@ -132,9 +132,9 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 
 ## Intuition
 
-**A central metal ion surrounded by electron-donating ligands:** Think of a coordination compound as a central metal ion sitting in a cage made of ligands. Each ligand donates a pair of electrons to the metal, like hands gripping a ball from different directions. The more hands (ligands) and the stronger they grip, the more stable the complex. Crystal field theory adds that the d-orbitals of the metal split into different energy levels depending on the ligand arrangement — like how a ball squeezed from different sides deforms differently.
+**A central metal ion surrounded by electron-donating ligands:** Think of a coordination compound as a central metal ion sitting in a cage made of ligands. Each ligand donates a pair of electrons to the metal, like hands gripping a ball from different directions. The more hands (ligands) and the stronger they grip, the more stable the complex. Crystal field theory adds that the d-orbitals of the metal split into different energy levels depending on the ligand arrangement, like how a ball squeezed from different sides deforms differently.
 
-**Why it matters:** Coordination compounds are everywhere — hemoglobin carries oxygen using iron coordination, cisplatin fights cancer through platinum coordination, and industrial catalysts like Wilkinson's catalyst rely on rhodium coordination. Without understanding these, modern medicine and industry wouldn't exist.
+**Why it matters:** Coordination compounds are everywhere, hemoglobin carries oxygen using iron coordination, cisplatin fights cancer through platinum coordination, and industrial catalysts like Wilkinson's catalyst rely on rhodium coordination. Without understanding these, modern medicine and industry wouldn't exist.
 
 **The key insight:** The spectrochemical series tells you whether electrons pair up in lower-energy d-orbitals (strong field) or spread out (weak field), which determines color, magnetism, and reactivity.
 
@@ -156,7 +156,7 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 
 ## Cross-References
 
-- **[D-Block Elements](../d-block/index):** Coordination chemistry is primarily d-block chemistry — understanding transition metal properties explains why certain metals form stable complexes.
+- **[D-Block Elements](../d-block/index):** Coordination chemistry is primarily d-block chemistry, understanding transition metal properties explains why certain metals form stable complexes.
 - **[P-Block Elements](../p-block/index):** Ligands like NH₃, CN⁻, and Cl⁻ are p-block compounds that coordinate to metal centers.
-- **[Electrochemistry](../electrochemistry/index):** Complex formation affects electrode potentials — the stability of coordination compounds influences redox behavior.
+- **[Electrochemistry](../electrochemistry/index):** Complex formation affects electrode potentials, the stability of coordination compounds influences redox behavior.
 - **[Biomolecules](../biomolecules/index):** Biological coordination compounds like hemoglobin (Fe²⁺ with porphyrin) and vitamin B₁₂ (Co³⁺ with corrin) are essential for life.

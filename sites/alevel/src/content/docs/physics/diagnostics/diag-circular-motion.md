@@ -28,13 +28,13 @@ flowchart TD
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
-## Circular Motion — Diagnostic Tests
+## Circular Motion, Diagnostic Tests
 
 ## Unit Tests
 
-### UT-1: Vertical Circle — Minimum Speed at the Top
+### UT-1: Vertical Circle, Minimum Speed at the Top
 
 **Question:**
 
@@ -403,9 +403,9 @@ slow), indicating the onset of instability.
 
 ## Common Mistakes
 
-**Confusing centripetal and centrifugal force:** Centripetal force is the real net force directed towards the centre of the circle (e.g., tension, friction, gravity). Centrifugal force is a fictitious force that appears in a rotating reference frame. In an inertial frame, there is no centrifugal force — only the centripetal force keeps the object in circular motion.
+**Confusing centripetal and centrifugal force:** Centripetal force is the real net force directed towards the centre of the circle (e.g., tension, friction, gravity). Centrifugal force is a fictitious force that appears in a rotating reference frame. In an inertial frame, there is no centrifugal force, only the centripetal force keeps the object in circular motion.
 
-**Forgetting that centripetal acceleration is $v^2/r$, not $v^2r$:** The centripetal acceleration is $a = v^2/r = \omega^2 r$. Students sometimes write $v^2r$ instead of $v^2/r$. A larger radius means less acceleration for the same speed, which makes physical sense — a gentle curve requires less force than a tight one.
+**Forgetting that centripetal acceleration is $v^2/r$, not $v^2r$:** The centripetal acceleration is $a = v^2/r = \omega^2 r$. Students sometimes write $v^2r$ instead of $v^2/r$. A larger radius means less acceleration for the same speed, which makes physical sense, a gentle curve requires less force than a tight one.
 
 **Confusing angular velocity with linear velocity:** $\omega$ (rad/s) is angular velocity; $v$ (m/s) is linear velocity. They are related by $v = \omega r$. Students often use $\omega$ when the question asks for $v$, or forget to multiply by $r$ when converting between them.
 

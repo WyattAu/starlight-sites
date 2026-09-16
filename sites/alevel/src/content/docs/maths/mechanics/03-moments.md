@@ -50,7 +50,7 @@ The SI unit of moment is the newton-metre (Nm).
 
 **Seesaw.** A seesaw is the simplest moment problem. Two children of weights $W_1$ and $W_2$ sit at
 Distances $d_1$ and $d_2$ from the pivot. For balance: $W_1 d_1 = W_2 d_2$. A lighter child further
-From the pivot can balance a heavier child closer to it — this is why you move back to let a lighter
+From the pivot can balance a heavier child closer to it, this is why you move back to let a lighter
 Friend balance you.
 
 **Crane counterweight.** Tower cranes have a heavy concrete counterweight on the short arm behind
@@ -66,7 +66,7 @@ Bars on stubborn bolts.
 
 ### 1.2 Sign convention
 
-- **Clockwise** moments are taken as positive (or negative — be consistent).
+- **Clockwise** moments are taken as positive (or negative, be consistent).
 - **Anticlockwise** moments have the opposite sign.
 
 <hr />
@@ -109,7 +109,7 @@ By symmetry (vertical equilibrium):
 $R_{\mathrm{left}} = W + P - R_{\mathrm{right}} = \dfrac{W}{2} + \dfrac{P(L-a)}{L}$.
 
 Notice that as the vehicle moves right ($a$ increases), $R_{\mathrm{right}}$ increases and
-$R_{\mathrm{left}}$ decreases — the bridge load redistributes continuously.
+$R_{\mathrm{left}}$ decreases, the bridge load redistributes continuously.
 
 :::caution
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
@@ -236,7 +236,7 @@ $\alpha L$ from the base), the moment equation becomes:
 $$R_w \times L\sin\theta = W \times \frac{L}{2}\cos\theta + P \times \alpha L\cos\theta$$
 
 This gives $R_w = \left(\dfrac{W}{2} + P\alpha\right)\cot\theta$ And the required friction Increases
-accordingly. The higher the person climbs (larger $\alpha$), the more friction is needed — Climb too
+accordingly. The higher the person climbs (larger $\alpha$), the more friction is needed, Climb too
 high and the ladder slips.
 
 <hr />
@@ -348,7 +348,7 @@ With $BA$ along the positive $x$-axis and $BC$ along the positive $y$-axis:
 Triangle centroid is at
 $\left(\frac{4}{3}\cos 60°, 4 - \frac{2\sqrt{3}}{3}\right) = \left(\frac{2}{3}, 4 - \frac{2\sqrt{3}}{3}\right)$.
 
-Wait — let us set up coordinates more carefully. Place $A$ at the origin, $AB$ along the $x$-axis,
+Wait, let us set up coordinates more carefully. Place $A$ at the origin, $AB$ along the $x$-axis,
 $AD$ along the $y$-axis.
 
 Rectangle centre: $(3, 2)$. Triangle vertex $E$ is at $(6 + 2, 4) = (8, 4)$... Actually, let us
@@ -448,7 +448,7 @@ Taking moments about $A$: $R_B \times 4 - 200 \times 2 - 300 \times 1 = 0 \impli
 
 Vertical equilibrium: $R_A + 175 = 200 + 300 = 500 \implies R_A = 325\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Principle of Moments](#2-principle-of-moments) — Section 2.
+**If you get this wrong, revise:** [Principle of Moments](#2-principle-of-moments), Section 2.
 
 </details>
 
@@ -465,7 +465,7 @@ Moments about $A$: $T\cos 30° \times 3 = 12g \times 1.5$.
 
 $T = \dfrac{12(9.8)(1.5)}{3\cos 30°} = \dfrac{176.4}{2.598} \approx 67.9\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Definition of a Moment](#1-definition-of-a-moment) — Section 1.
+**If you get this wrong, revise:** [Definition of a Moment](#1-definition-of-a-moment), Section 1.
 
 </details>
 
@@ -482,7 +482,7 @@ $\bar{y} = \dfrac{2(0) + 3(0) + 5(3)}{10} = \dfrac{15}{10} = 1.5$.
 
 Centre of mass at $(2.2, 1.5)$.
 
-**If you get this wrong, revise:** [Composite Bodies](#43-composite-bodies) — Section 4.3.
+**If you get this wrong, revise:** [Composite Bodies](#43-composite-bodies), Section 4.3.
 
 </details>
 
@@ -506,7 +506,7 @@ $3W(l-x) \leq W \cdot l \implies 3l - 3x \leq l \implies x \geq \dfrac{2l}{3}$.
 
 Range: $\dfrac{2l}{3} \leq x \leq \dfrac{4l}{3}$.
 
-**If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling) — Section 5.
+**If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling), Section 5.
 
 </details>
 
@@ -522,7 +522,7 @@ $18 \times 2 = 40 \times d_{\mathrm{from } B} \implies d_{\mathrm{from } B} = 36
 
 Centre of mass is $0.9\,\mathrm{m}$ from $B$I.e., $1.1\,\mathrm{m}$ from $A$.
 
-**If you get this wrong, revise:** [Centre of Mass](#4-centre-of-mass) — Section 4.
+**If you get this wrong, revise:** [Centre of Mass](#4-centre-of-mass), Section 4.
 
 </details>
 
@@ -543,7 +543,7 @@ $R_w = \dfrac{500\cos 65°}{5\sin 65°} = \dfrac{100\cos 65°}{\sin 65°} = 100\
 
 $F = R_w = 46.6\,\mathrm{N}$. $\mu_{\min} = F/R_g = 46.6/200 = 0.233$.
 
-**If you get this wrong, revise:** [Friction and Moments](#2-principle-of-moments) — Section 2.
+**If you get this wrong, revise:** [Friction and Moments](#2-principle-of-moments), Section 2.
 
 </details>
 
@@ -560,7 +560,7 @@ $\bar{x} = \dfrac{0+6+0}{3} = 2$$\bar{y} = \dfrac{0+0+4}{3} = \dfrac{4}{3}$.
 
 Centre of mass at $\left(2, \dfrac{4}{3}\right)$.
 
-**If you get this wrong, revise:** [Standard Results](#44-standard-results) — Section 4.4.
+**If you get this wrong, revise:** [Standard Results](#44-standard-results), Section 4.4.
 
 </details>
 
@@ -582,7 +582,7 @@ Resolving vertically: $R_y = 100 - T\cos 60° = 100 - 28.87 = 71.13\,\mathrm{N}$
 $R = \sqrt{50^2 + 71.13^2} = \sqrt{2500 + 5059.5} \approx 86.9\,\mathrm{N}$ at
 $\arctan(71.13/50) \approx 54.9^\circ$ below horizontal.
 
-**If you get this wrong, revise:** [Equilibrium Conditions](#3-equilibrium-conditions) — Section 3.
+**If you get this wrong, revise:** [Equilibrium Conditions](#3-equilibrium-conditions), Section 3.
 
 </details>
 
@@ -608,7 +608,7 @@ $\bar{y} = \dfrac{48 \times 3 - 9 \times 4.5}{39} = \dfrac{144 - 40.5}{39} = \df
 
 Centre of mass at approximately $(3.42, 2.65)$.
 
-**If you get this wrong, revise:** [Subtraction Method](#432-subtraction-method) — Section 4.3.2.
+**If you get this wrong, revise:** [Subtraction Method](#432-subtraction-method), Section 4.3.2.
 
 </details>
 
@@ -637,7 +637,7 @@ $R_w = \dfrac{3650 \times 0.7002}{6} \approx 426.0\,\mathrm{N}$.
 
 $\mu_{\min} = F/R_g = R_w/R_g = 426.0/950 = 0.448$.
 
-**If you get this wrong, revise:** [Ladders Against Walls](#32-ladders-against-walls) — Section 3.2.
+**If you get this wrong, revise:** [Ladders Against Walls](#32-ladders-against-walls), Section 3.2.
 
 </details>
 
@@ -656,7 +656,7 @@ Net torque: $\tau_{\mathrm{net}} = 20 - 20 = 0\,\mathrm{Nm}$.
 
 The rod **is** in rotational equilibrium since the two couples balance exactly.
 
-**If you get this wrong, revise:** [Couples and Torque](#31-couples-and-torque) — Section 3.1.
+**If you get this wrong, revise:** [Couples and Torque](#31-couples-and-torque), Section 3.1.
 
 </details>
 
@@ -680,18 +680,18 @@ $2500 = 300x + 800$.
 $300x = 1700 \implies x = \dfrac{1700}{300} = \dfrac{17}{3} \approx 5.67\,\mathrm{m}$.
 
 Since $x > 5\,\mathrm{m}$ (the length of the beam), the centre of mass lies **beyond** end $B$. This
-Makes sense — the tension at $B$ is large relative to the load, suggesting the beam is heavier near
+Makes sense, the tension at $B$ is large relative to the load, suggesting the beam is heavier near
 End $B$.
 
-Wait — let us check: if the beam is $5\,\mathrm{m}$ long, the centre of mass must lie on the beam.
+Wait, let us check: if the beam is $5\,\mathrm{m}$ long, the centre of mass must lie on the beam.
 Let us re-examine.
 
 $2500 = 300x + 800 \implies x = \dfrac{1700}{300} = 5.67\,\mathrm{m}$.
 
-This is impossible for a $5\,\mathrm{m}$ beam. The given data is inconsistent — there must be an
+This is impossible for a $5\,\mathrm{m}$ beam. The given data is inconsistent, there must be an
 Error in the problem statement. In an exam, you would state that no valid position exists.
 
-**If you get this wrong, revise:** [Non-Uniform Beams](#33-non-uniform-beams) — Section 3.3.
+**If you get this wrong, revise:** [Non-Uniform Beams](#33-non-uniform-beams), Section 3.3.
 
 </details>
 
@@ -719,7 +719,7 @@ Substituting: $F_v + F_v = 100 \implies F_v = 50\,\mathrm{N}$ (tension).
 
 The vertical rod carries $50\,\mathrm{N}$ in tension.
 
-**If you get this wrong, revise:** [Frameworks and Trusses](#34-frameworks-and-trusses) — Section
+**If you get this wrong, revise:** [Frameworks and Trusses](#34-frameworks-and-trusses), Section
 3.4.
 
 </details>
@@ -750,7 +750,7 @@ Applied below $\dfrac{5}{6}\,\mathrm{m}$ from the ground).
 For $h > \dfrac{5}{6}\,\mathrm{m}$The block topples first. At $h = \dfrac{5}{6}\,\mathrm{m}$ Sliding
 and toppling occur simultaneously.
 
-**If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling) — Section 5.
+**If you get this wrong, revise:** [Tilting and Toppling](#5-tilting-and-toppling), Section 5.
 
 </details>
 
@@ -793,7 +793,7 @@ $R = \sqrt{80^2 + 60^2} = \sqrt{6400 + 3600} = \sqrt{10000} = 100\,\mathrm{N}$.
 
 Direction: $\theta = \arctan(60/80) = \arctan(0.75) \approx 36.9^\circ$ above the horizontal.
 
-**If you get this wrong, revise:** [Equilibrium Conditions](#3-equilibrium-conditions) — Section 3.
+**If you get this wrong, revise:** [Equilibrium Conditions](#3-equilibrium-conditions), Section 3.
 
 </details>
 
@@ -824,7 +824,7 @@ $= \dfrac{324\pi + 1800\pi}{504\pi} = \dfrac{2124}{504} = \dfrac{59}{14} \approx
 
 Centre of mass is approximately $4.21\,\mathrm{cm}$ from the flat face.
 
-**If you get this wrong, revise:** [Composite Bodies](#43-composite-bodies) — Section 4.3.
+**If you get this wrong, revise:** [Composite Bodies](#43-composite-bodies), Section 4.3.
 
 </details>
 

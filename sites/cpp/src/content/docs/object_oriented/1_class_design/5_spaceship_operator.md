@@ -199,9 +199,9 @@ Synthesized operators use the `<=>` result and `==` for equality.
 
 | Condition                              | Synthesized Operators?                                  |
 | :------------------------------------- | :------------------------------------------------------ |
-| `= default` returns `strong_ordering`  | Yes — all six operators                                 |
-| `= default` returns `weak_ordering`    | Yes — all six operators                                 |
-| `= default` returns `partial_ordering` | Yes — all six operators                                 |
+| `= default` returns `strong_ordering`  | Yes, all six operators                                 |
+| `= default` returns `weak_ordering`    | Yes, all six operators                                 |
+| `= default` returns `partial_ordering` | Yes, all six operators                                 |
 | `operator<=>` is user-defined          | Only `!=``<``>``<=``>=` (if `==` is separately defined) |
 | Only `operator==` is defined           | `!=` is synthesized, but not ordering operators         |
 
@@ -237,7 +237,7 @@ int main() {
     // Partial ordering with NaN
     Partial p1{1.0};
     Partial p2{__builtin_nan("")};
-    // p1 <=> p2 is unordered — comparisons return false
+    // p1 <=> p2 is unordered, comparisons return false
     assert(!(p1 < p2));
     assert(!(p2 < p1));
     assert(!(p1 == p2));
@@ -246,7 +246,7 @@ int main() {
     OnlyEq e1{1}, e2{2}, e3{1};
     static_assert(e1 == e3);
     static_assert(e1 != e2);
-    // e1 < e2 would not compile — no ordering operators synthesized
+    // e1 < e2 would not compile, no ordering operators synthesized
 }
 ```
 
@@ -296,8 +296,8 @@ struct CaseInsensitiveString {
 
     std::weak_ordering operator<=>(const CaseInsensitiveString& other) const {
         std::string a = data, b = other.data;
-        std::transform(a.begin(), a.end(), a.begin(), ::tolower);
-        std::transform(b.begin(), b.end(), b.begin(), ::tolower);
+        std::transform(a.begin(), a.end(), a.begin()::tolower);
+        std::transform(b.begin(), b.end(), b.begin()::tolower);
         if (a < b) return std::weak_ordering::less;
         if (a > b) return std::weak_ordering::greater;
         return std::weak_ordering::equivalent;

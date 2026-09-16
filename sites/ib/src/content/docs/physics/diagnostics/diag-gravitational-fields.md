@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Gravitational Fields — Diagnostic Tests
+## Gravitational Fields, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Gravity is like a rubber sheet stretched across space — massive objects create dips, and other objects roll toward them following the curvature:** Every mass attracts every other mass with a force proportional to both masses and inversely proportional to the square of the distance between them
+**Gravity is like a rubber sheet stretched across space, massive objects create dips, and other objects roll toward them following the curvature:** Every mass attracts every other mass with a force proportional to both masses and inversely proportional to the square of the distance between them
 
 **Why it matters:** Gravity governs planetary orbits, satellite trajectories, tides, and even the large-scale structure of the universe
 

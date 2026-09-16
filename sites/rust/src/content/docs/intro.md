@@ -121,7 +121,7 @@ A `Cargo.toml` file is the manifest that defines dependencies, features, profile
 ## Rust 2024 Edition
 
 Rust uses an edition system to make breaking language changes without breaking existing code. Each
-Crate specifies its edition in `Cargo.toml`. Editions are not version gates — a Rust 2024 crate can
+Crate specifies its edition in `Cargo.toml`. Editions are not version gates, a Rust 2024 crate can
 Depend on a Rust 2018 crate and vice versa. The compiler supports all editions simultaneously.
 
 Key changes in Rust 2024:
@@ -155,8 +155,8 @@ Key changes in Rust 2024:
 
 ## Related Topics
 
-- [Resource Management in C++](https://programming.wyattau.com/resource-management/) — C++ ownership and RAII compared to Rust's borrow checker.
-- [C++ Basics](https://programming.wyattau.com/1_enviroment_and_toolchain/1_cpp_basics/) — Fundamentals of C++ for readers transitioning from systems programming.
+- [Resource Management in C++](https://programming.wyattau.com/resource-management/), C++ ownership and RAII compared to Rust's borrow checker.
+- [C++ Basics](https://programming.wyattau.com/1_enviroment_and_toolchain/1_cpp_basics/), Fundamentals of C++ for readers transitioning from systems programming.
 
 ## Intuition
 

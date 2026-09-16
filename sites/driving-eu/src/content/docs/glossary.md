@@ -1,5 +1,5 @@
 ---
-title: "EU Driving Test Glossary — Key Terms"
+title: "EU Driving Test Glossary, Key Terms"
 description: "Comprehensive glossary of European driving test terms covering EU driving regulations, road signs, vehicle categories, and cross-border rules."
 date: 2026-07-24
 tags: [glossary]
@@ -147,7 +147,7 @@ tags: [glossary]
 
 ## Common Sign Vocabulary
 
-**Priorite a droite (Priority to the right)**: The default rule in France and Belgium at unmarked junctions — traffic from the right has priority.
+**Priorite a droite (Priority to the right)**: The default rule in France and Belgium at unmarked junctions, traffic from the right has priority.
 
 **Zone 30**: The urban 30 km/h zone marked by a sign naming the zone rather than repeated speed signs.
 
@@ -160,7 +160,7 @@ tags: [glossary]
 
 ## Rules of the Road
 
-**Priority Road**: Roads marked with the yellow diamond sign — traffic on them has priority at every junction until the sign is cancelled.
+**Priority Road**: Roads marked with the yellow diamond sign, traffic on them has priority at every junction until the sign is cancelled.
 
 **Built-Up Area**: The zone between white rectangular name signs; the default urban speed limit (50 km/h, or 30 km/h in residential zones) applies.
 
@@ -168,8 +168,8 @@ tags: [glossary]
 
 **Overtaking Rules**: Overtake on the left on dual carriageways; solid white lines prohibit crossing; in the UK and Malta overtake on the right instead.
 
-**Alcohol Limits**: 0.0 g/l in Hungary, Slovakia, Czechia, and Estonia for all drivers; most others 0.5 g/l with lower novice limits — check per country.
+**Alcohol Limits**: 0.0 g/l in Hungary, Slovakia, Czechia, and Estonia for all drivers; most others 0.5 g/l with lower novice limits, check per country.
 
-**Winter Tyre Mandate**: Country-specific seasonal requirements — Austria and Germany situation-based (bei winterlichen Verhaltnissen), Finland and the Baltics date-based.
+**Winter Tyre Mandate**: Country-specific seasonal requirements, Austria and Germany situation-based (bei winterlichen Verhaltnissen), Finland and the Baltics date-based.
 
 **Headlamp Requirement**: Dipped beams mandatory in tunnel, rain, and poor visibility almost everywhere; Poland, Sweden, and the Baltics require them 24/7 year-round.

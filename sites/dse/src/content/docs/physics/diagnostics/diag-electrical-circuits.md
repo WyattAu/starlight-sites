@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Electrical Circuits — Diagnostic Tests
+## Electrical Circuits, Diagnostic Tests
 
 ## Unit Tests
 

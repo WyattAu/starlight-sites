@@ -173,7 +173,7 @@ def bst_min(node):
 
 **Theorem.** `bst_delete` preserves the BST property.
 
-**Proof.** Cases 1 and 2 are trivial — removing a leaf or replacing with a single child maintains
+**Proof.** Cases 1 and 2 are trivial, removing a leaf or replacing with a single child maintains
 Ordering. For case 3: the in-order successor $s$ is the smallest key in the right subtree, so
 $s \gt \mathrm{root.key}$ and all keys in the left subtree are $\lt \mathrm{root.key} \lt s$. After
 replacing root's key with $s$'s key and deleting $s$ from the right subtree (which is case 1 Or 2),
@@ -329,7 +329,7 @@ Heap of size $i$ takes $O(\log i)$ time. Total:
 
 $$T(n) = O(n) + \sum_{i=2}^{n} O(\log i) = O(n) + O\left(\sum_{i=1}^{n} \log i\right) \leq O(n) + O(n \log n) = O(n \log n)$$
 
-**Space:** $O(1)$ — in-place. **Stability:** Not stable (swaps can change relative order of equal
+**Space:** $O(1)$, in-place. **Stability:** Not stable (swaps can change relative order of equal
 Elements). $\square$
 
 <hr />
@@ -523,7 +523,7 @@ Array, changing the relative order of equal elements.
 
 Example: Array `[(3, a), (3, b), (2, c)]` (pairs with key and identity).
 
-After build_heap (max-heap): `[(3, a), (3, b), (2, c)]` — already a max-heap.
+After build_heap (max-heap): `[(3, a), (3, b), (2, c)]`already a max-heap.
 
 Swap root with last: `[(2, c), (3, b), (3, a)]`. Heapify on size 2: no change.
 

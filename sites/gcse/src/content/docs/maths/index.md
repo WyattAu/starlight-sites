@@ -68,15 +68,15 @@ and organised by topic for easy navigation.
 
 ## Topics Covered
 
-- **Number** — arithmetic, fractions, decimals, percentages, indices and roots, standard form,
+- **Number**, arithmetic, fractions, decimals, percentages, indices and roots, standard form,
   surds, financial maths, bounds and accuracy
-- **Algebra** — expressions and formulae, solving equations, inequalities, sequences, graphs of
+- **Algebra**, expressions and formulae, solving equations, inequalities, sequences, graphs of
   linear and quadratic functions, simultaneous equations, rearranging formulae
-- **Ratio, Proportion & Rates of Change** — ratio, direct and inverse proportion, compound units
+- **Ratio, Proportion & Rates of Change**, ratio, direct and inverse proportion, compound units
   (speed, density, pressure), growth and decay, compound interest
-- **Geometry** — angles, triangles and polygons, circles (circumference, area, arcs, sectors), 3D
+- **Geometry**, angles, triangles and polygons, circles (circumference, area, arcs, sectors), 3D
   shapes, transformations, congruence and similarity, Pythagoras" theorem, trigonometry, vectors
-- **Statistics** — data collection and sampling, representing data (charts, tables, histograms,
+- **Statistics**, data collection and sampling, representing data (charts, tables, histograms,
   cumulative frequency), measures of central tendency and spread, scatter graphs and correlation,
   probability
 
@@ -90,12 +90,12 @@ and organised by topic for easy navigation.
 ## Study Tips
 
 - Show all working precisely; method marks can save you even when the final answer is wrong
-- Practise non-calculator arithmetic regularly — mental maths speed helps across every topic
+- Practise non-calculator arithmetic regularly, mental maths speed helps across every topic
 - Learn formulae that are not given on the formula sheet (e.g., quadratic formula, cosine rule, area
   of a trapezium)
 - Work through exam-style problems under timed conditions to build speed and identify weak areas
   early
-- Focus on the topics that carry the most marks — algebra and geometry commonly account for a large
+- Focus on the topics that carry the most marks, algebra and geometry commonly account for a large
   share of the paper
 - Check your answers by estimating or using inverse operations; a quick sense-check catches many
   errors
@@ -103,7 +103,7 @@ and organised by topic for easy navigation.
   and misreading scale on graphs
 - Keep a mistake log of questions you get wrong in practice and review it before the exam to avoid
   repeating the same errors
-- Focus on problem-solving and multi-step questions — they carry the most marks and are where most
+- Focus on problem-solving and multi-step questions, they carry the most marks and are where most
   students lose ground
 
 ## Summary
@@ -119,11 +119,11 @@ linked above.
 
 ## Intuition
 
-GCSE Maths is the **foundation of mathematical thinking** — it covers number, algebra, ratio and proportion, geometry, and statistics. Each topic builds on the previous ones: algebra extends number, geometry uses algebra, and statistics uses all of them.
+GCSE Maths is the **foundation of mathematical thinking**, it covers number, algebra, ratio and proportion, geometry, and statistics. Each topic builds on the previous ones: algebra extends number, geometry uses algebra, and statistics uses all of them.
 
 **Number intuition:** Understanding place value, fractions, decimals, and percentages is essential. They're all different ways of expressing the same quantity. Converting between them fluently is the single most useful skill in GCSE Maths.
 
-**Algebra intuition:** Algebra is about generalising patterns. When you write $2n + 1$ for an odd number, you're capturing a property of *all* odd numbers in a single expression. The key is translating between words, expressions, equations, and graphs — they're all representations of the same mathematical idea.
+**Algebra intuition:** Algebra is about generalising patterns. When you write $2n + 1$ for an odd number, you're capturing a property of *all* odd numbers in a single expression. The key is translating between words, expressions, equations, and graphs, they're all representations of the same mathematical idea.
 
 **Geometry intuition:** Geometry is about shapes, angles, and spatial reasoning. The key formulas (area of a triangle, circumference of a circle, Pythagoras' theorem) connect measurements to each other. Understanding *why* the formulas work (not just memorising them) helps you apply them in unfamiliar situations.
 

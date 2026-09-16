@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## A Level Mathematics — Course Overview
+## A Level Mathematics, Course Overview
 
 A Level Mathematics is fundamentally a course in **mathematical reasoning**. The pure mathematics
 Syllabus develops the tools of calculus, algebra, and proof that underpin every quantitative
@@ -55,30 +55,30 @@ Physical world with mathematics.
 
 The pure mathematics core is the backbone of the course. It develops:
 
-- **Algebraic fluency** — manipulation of polynomials, rational functions, partial fractions
-- **Calculus** — differentiation and integration as inverse operations, with deep understanding of
+- **Algebraic fluency**, manipulation of polynomials, rational functions, partial fractions
+- **Calculus**, differentiation and integration as inverse operations, with deep understanding of
   _why_ they work
-- **Proof** — rigorous arguments by contradiction, induction, and direct deduction
-- **Functions** — domain, range, composition, inverse, transformations
-- **Sequences and series** — arithmetic, geometric, and binomial expansions
-- **Trigonometry** — identities, equations, and the geometric intuition behind them
-- **Exponentials and logarithms** — modelling growth and decay
-- **Vectors** — geometric reasoning in 2D and 3D
-- **Numerical methods** — when analytical solutions don't exist
+- **Proof**, rigorous arguments by contradiction, induction, and direct deduction
+- **Functions**, domain, range, composition, inverse, transformations
+- **Sequences and series**, arithmetic, geometric, and binomial expansions
+- **Trigonometry**, identities, equations, and the geometric intuition behind them
+- **Exponentials and logarithms**, modelling growth and decay
+- **Vectors**, geometric reasoning in 2D and 3D
+- **Numerical methods**, when analytical solutions don't exist
 
 #### Statistics
 
-- **Data representation and interpretation** — measures of location, spread, and correlation
-- **Probability** — the axiomatic foundations and their consequences
-- **Statistical distributions** — binomial, normal, and their properties
-- **Hypothesis testing** — the logic of statistical inference
+- **Data representation and interpretation**, measures of location, spread, and correlation
+- **Probability**, the axiomatic foundations and their consequences
+- **Statistical distributions**, binomial, normal, and their properties
+- **Hypothesis testing**, the logic of statistical inference
 
 #### Mechanics
 
-- **Kinematics** — describing motion mathematically (SUVAT, calculus-based)
-- **Dynamics** — Newton's laws as the foundation of classical mechanics
-- **Statics** — equilibrium, resolving forces, moments
-- **Energy and momentum** — conservation laws as unifying principles
+- **Kinematics**, describing motion mathematically (SUVAT, calculus-based)
+- **Dynamics**, Newton's laws as the foundation of classical mechanics
+- **Statics**, equilibrium, resolving forces, moments
+- **Energy and momentum**, conservation laws as unifying principles
 
 ### Assessment
 
@@ -121,7 +121,7 @@ to identify your Weakest areas.
 
 ### Study Strategy
 
-Build pure maths fluency first — every applied question depends on algebraic and calculus technique.
+Build pure maths fluency first, every applied question depends on algebraic and calculus technique.
 For statistics, define events and distributions before calculating. For mechanics, always draw a
 diagram and state your sign convention. Practise full papers under timed conditions and review every
 dropped mark. Use the diagnostic test to identify weak areas and focus revision on topics where

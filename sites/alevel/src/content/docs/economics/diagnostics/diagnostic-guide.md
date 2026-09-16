@@ -17,7 +17,7 @@ tableOfContents: false
 }
 </script>
 
-## A-Level Economics — Diagnostic Guide
+## A-Level Economics, Diagnostic Guide
 
 ## Coverage Map
 

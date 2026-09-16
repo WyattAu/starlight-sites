@@ -2171,7 +2171,7 @@ flowchart TD
 
 ## Intuition
 
-Real analysis is the art of making calculus rigorous. The central idea is that limits capture what happens "eventually" without requiring us to reach infinity. The $\varepsilon$-$\delta$ definition of a limit is a challenge game: an opponent picks any tolerance $\varepsilon > 0$, and you must find a distance $\delta$ that keeps the function within that tolerance. Continuity means no jumps: small changes in input produce small changes in output. The completeness of the reals — every bounded sequence has a convergent subsequence — is the engine that makes the whole theory work. Without completeness, Cauchy sequences could "fall through gaps" in the number line, and the intermediate value theorem would fail.
+Real analysis is the art of making calculus rigorous. The central idea is that limits capture what happens "eventually" without requiring us to reach infinity. The $\varepsilon$-$\delta$ definition of a limit is a challenge game: an opponent picks any tolerance $\varepsilon > 0$, and you must find a distance $\delta$ that keeps the function within that tolerance. Continuity means no jumps: small changes in input produce small changes in output. The completeness of the reals, every bounded sequence has a convergent subsequence, is the engine that makes the whole theory work. Without completeness, Cauchy sequences could "fall through gaps" in the number line, and the intermediate value theorem would fail.
 
 ## Cross-References
 
@@ -2180,7 +2180,7 @@ Real analysis is the art of making calculus rigorous. The central idea is that l
 | Complex Analysis           | WyattsNotes | [View](complex-analysis)                |
 | Linear Algebra             | WyattsNotes | [View](linear-algebra)                  |
 | Multivariable Calculus     | WyattsNotes | [View](multivariable-calculus)          |
-| Real Analysis — MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
+| Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 :::
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

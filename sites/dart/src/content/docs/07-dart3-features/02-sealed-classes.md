@@ -23,13 +23,13 @@ categories:
 
 Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite
 Set of subtypes, all of which must be declared in the same library. They are Dart 3"s mechanism for
-Implementing **algebraic data types (ADTs)** — specifically, sum types.
+Implementing **algebraic data types (ADTs)**, specifically, sum types.
 
 ### The Systems Engineering Motivation
 
 In systems programming, you frequently model states that are mutually exclusive and exhaustive: a
 Network request is either pending, successful, or failed. A packet is either a SYN, ACK, or DATA
-Frame. A file descriptor is either open or closed. These are not just "different values" — they are
+Frame. A file descriptor is either open or closed. These are not just "different values", they are
 Entirely different structures with different fields, different invariants, and different handling
 Logic.
 
@@ -86,27 +86,27 @@ The `sealed` modifier on `NetworkResult` means:
 
 ### The Same-Library Restriction
 
-This is the critical constraint. "Same library" in Dart means the same compilation unit — a file
+This is the critical constraint. "Same library" in Dart means the same compilation unit, a file
 Plus all its `part` files. It does **not** mean the same package or the same directory.
 
 ```dart
-// network_result.dart — the sealed class lives here
+// network_result.dart, the sealed class lives here
 sealed class NetworkResult { ... }
 class Success extends NetworkResult { ... }
 class Failure extends NetworkResult { ... }
 
-// other_file.dart — same package, DIFFERENT library
+// other_file.dart, same package, DIFFERENT library
 // class Timeout extends NetworkResult { ... } // COMPILE ERROR
 // Cannot extend, implement, or mix in a sealed class from another library
 ```
 
 **Why same-library only**: The compiler needs to enumerate all direct subtypes for exhaustiveness
 Checking. If subtypes could be in any library, the compiler would need whole-program analysis to
-Find them — which is impossible for separately compiled packages. By restricting to the same
+Find them, which is impossible for separately compiled packages. By restricting to the same
 Library, the compiler has a complete, local view of the hierarchy.
 
 **Practical implication**: You cannot split sealed class subtypes across files in a package unless
-You use `part`/`part of`. This is a deliberate design trade-off — exhaustiveness is more valuable
+You use `part`/`part of`. This is a deliberate design trade-off, exhaustiveness is more valuable
 Than distribution.
 
 ```dart
@@ -131,7 +131,7 @@ A sealed class is implicitly abstract. You cannot instantiate it:
 ```dart
 sealed class Shape {}
 
-// var s = Shape(); // COMPILE ERROR — sealed classes are implicitly abstract
+// var s = Shape(); // COMPILE ERROR, sealed classes are implicitly abstract
 ```
 
 You can add the `abstract` keyword explicitly for clarity, but it is redundant:
@@ -145,7 +145,7 @@ abstract sealed class Shape {} // Legal but redundant
 A sealed class can have subtypes that are classes, enums, or mixins. Each subtype relationship has
 Specific rules.
 
-### `extends` — Class Subtypes
+### `extends`Class Subtypes
 
 ```dart
 sealed class Expr {}
@@ -171,7 +171,7 @@ class Mul extends Expr {
 Classes that `extend` a sealed class are direct subtypes. The compiler includes them in
 Exhaustiveness checks.
 
-### `implements` — Interface Subtypes
+### `implements`Interface Subtypes
 
 A class can `implement` a sealed class instead of extending it. This is still a direct subtype for
 Exhaustiveness purposes:
@@ -289,13 +289,13 @@ No `default` case. If you add `class Pending&lt;T&gt; extends Result&lt;T&gt;`Ev
 Both benefit from exhaustiveness:
 
 ```dart
-// Switch expression — returns a value
+// Switch expression, returns a value
 String describe(Result&lt;int&gt; r) => switch (r) {
   Ok(value: var v) => 'Success: $v',
   Err(error: var e) => 'Error: $e',
 };
 
-// Switch statement — no return value, but still checked for exhaustiveness
+// Switch statement, no return value, but still checked for exhaustiveness
 void handle(Result&lt;int&gt; r) {
   switch (r) {
     case Ok(value: var v):
@@ -325,13 +325,13 @@ A new subtype, not when a user hits an unhandled case in production.
 ### `default` Defeats Exhaustiveness
 
 ```dart
-// BAD — default hides future subtypes
+// BAD, default hides future subtypes
 String describe(Result&lt;int&gt; r) => switch (r) {
   Ok() => 'ok',
   _ => 'other', // Catches Err now, AND any future subtype silently
 };
 
-// GOOD — compiler forces handling of every known subtype
+// GOOD, compiler forces handling of every known subtype
 String describe(Result&lt;int&gt; r) => switch (r) {
   Ok(value: var v) => 'ok: $v',
   Err(error: var e) => 'error: $e',
@@ -347,7 +347,7 @@ Guards (`when`) do not contribute to exhaustiveness. If a subtype is only handle
 The compiler still considers it uncovered:
 
 ```dart
-// ERROR — not exhaustive (Ok is guarded, Err is unguarded)
+// ERROR, not exhaustive (Ok is guarded, Err is unguarded)
 String describe(Result&lt;int&gt; r) => switch (r) {
   Ok(value: var v) when v > 0 => 'positive success',
   Err() => 'error',
@@ -416,8 +416,8 @@ class Reconnecting extends ConnectionState {
 Ask yourself: "Will I ever need to add a new subtype from outside this library?" If yes, use
 `abstract class`. If the subtypes are a closed set defined by this library, use `sealed class`.
 
-In practice, most "state" types and "result" types are closed — you know all possible states at
-Design time. Most "interface" types are open — you want external implementations.
+In practice, most "state" types and "result" types are closed, you know all possible states at
+Design time. Most "interface" types are open, you want external implementations.
 
 ## Sealed Classes vs Enums
 
@@ -493,7 +493,7 @@ All enum values share the same constructor parameters.
 
 ### Result Type (Success/Error)
 
-The most common use of sealed classes — replacing nullable returns or exceptions with explicit
+The most common use of sealed classes, replacing nullable returns or exceptions with explicit
 Success/failure:
 
 ```dart
@@ -525,7 +525,7 @@ Future&lt;Result&lt;User&gt;&gt; fetchUser(int id) async {
   }
 }
 
-// Handling — exhaustive, no exceptions escape
+// Handling, exhaustive, no exceptions escape
 void main() async {
   final result = await fetchUser(42);
   switch (result) {
@@ -545,7 +545,7 @@ Engineering, this is the difference between "trust the documentation" and "trust
 
 ### AST Representation
 
-Abstract syntax trees are the canonical use case for sealed classes — each node type has a different
+Abstract syntax trees are the canonical use case for sealed classes, each node type has a different
 Structure:
 
 ```dart
@@ -576,7 +576,7 @@ class IdentifierNode extends AstNode {
   const IdentifierNode(this.name);
 }
 
-// Recursive evaluation — exhaustive by construction
+// Recursive evaluation, exhaustive by construction
 int evaluate(AstNode node) => switch (node) {
   LiteralNode(value: int n) => n,
   BinaryOpNode(left: var l, operator: "+'', right: var r) =>
@@ -624,7 +624,7 @@ class Disconnected extends ConnectionState {
   const Disconnected.withReason(this.reason);
 }
 
-// State transitions — each transition returns a new state
+// State transitions, each transition returns a new state
 ConnectionState nextState(ConnectionState current, Event event) => switch ((current, event)) {
   (Idle(), Connect(uri: var uri)) => Connecting(1, uri),
   (Connecting(attempt: var a, endpoint: var ep), Connected(latency: var l)) =>
@@ -637,7 +637,7 @@ ConnectionState nextState(ConnectionState current, Event event) => switch ((curr
     Disconnected(),
   (Disconnected(), Connect(uri: var uri)) =>
     Connecting(1, uri),
-  // Exhaustive — compiler ensures every combination is handled
+  // Exhaustive, compiler ensures every combination is handled
 };
 ```
 
@@ -718,7 +718,7 @@ ApiResponse&lt;User&gt; getUser(int id) {
 Records and sealed classes combine to create lightweight, expressive data types:
 
 ```dart
-// Before Dart 3 — verbose
+// Before Dart 3, verbose
 sealed class Result&lt;T&gt; {}
 class Ok&lt;T&gt; extends Result&lt;T&gt; {
   final T value;
@@ -729,7 +729,7 @@ class Err&lt;T&gt; extends Result&lt;T&gt; {
   Err(this.error);
 }
 
-// With records — more concise where appropriate
+// With records, more concise where appropriate
 sealed class Outcome&lt;T&gt; {}
 class Win&lt;T&gt; extends Outcome&lt;T&gt; {
   final (T value, Duration elapsed) result;
@@ -832,7 +832,7 @@ Expr optimize(Expr expr) => switch (expr) {
   // Recurse on children
   Add(left: var l, right: var r) => Add(optimize(l), optimize(r)),
   Mul(left: var l, right: var r) => Mul(optimize(l), optimize(r)),
-  // Leaf — no optimization
+  // Leaf, no optimization
   Num() => expr,
 };
 ```
@@ -940,7 +940,7 @@ class Cat extends Mammal {}
 
 class Bird extends Animal {}
 
-// This is exhaustive — Mammal and Bird cover all direct subtypes
+// This is exhaustive, Mammal and Bird cover all direct subtypes
 String describe(Animal a) => switch (a) {
   Mammal() => 'mammal',
   Bird() => 'bird',
@@ -962,7 +962,7 @@ Supertype. To get fine-grained matching, you must pattern match on the leaf type
 ```dart
 sealed class Result {}
 
-// var r = Result(); // COMPILE ERROR — implicitly abstract
+// var r = Result(); // COMPILE ERROR, implicitly abstract
 
 // If you need a "default" or "empty" case, create a subtype for it
 sealed class Result {}
@@ -973,7 +973,7 @@ class Value extends Result {
 }
 ```
 
-### 6. Sealed Classes and `implements` — Subtype Still Registered
+### 6. Sealed Classes and `implements`Subtype Still Registered
 
 ```dart
 sealed class Service {}
@@ -1013,7 +1013,7 @@ void render(Component c) => switch (c) {
 };
 ```
 
-The mixin application does not create a new sealed subtype — `Button` is the subtype, regardless of
+The mixin application does not create a new sealed subtype, `Button` is the subtype, regardless of
 Mixins.
 
 ### 8. Generic Sealed Classes with Covariance
@@ -1028,7 +1028,7 @@ class FullBox&lt;T&gt; extends Box&lt;T&gt; {
 
 class EmptyBox&lt;T&gt; extends Box&lt;T&gt; {}
 
-// This works — exhaustiveness on Box&lt;int&gt;
+// This works, exhaustiveness on Box&lt;int&gt;
 String describe(Box&lt;int&gt; box) => switch (box) {
   FullBox(contents: var n) => 'Contains $n',
   EmptyBox() => 'Empty',
@@ -1041,11 +1041,11 @@ Not the generic type parameter.
 ### 9. Trying to Use Sealed Classes for Open Hierarchies
 
 ```dart
-// WRONG — sealed is for closed hierarchies
+// WRONG, sealed is for closed hierarchies
 sealed class Plugin {} // You want third-party plugins?
 // Nobody outside this library can create new Plugin subtypes
 
-// RIGHT — use abstract or base for open hierarchies
+// RIGHT, use abstract or base for open hierarchies
 abstract class Plugin {} // Anyone can extend
 ```
 
@@ -1076,7 +1076,7 @@ class UserDeleted extends Event {
     {'type': "UserDeleted'', "userId': userId};
 }
 
-// Deserialization — manual dispatch on discriminator
+// Deserialization, manual dispatch on discriminator
 Event fromJson(Map&lt;String, dynamic&gt; json) => switch (json['type']) {
   'UserCreated' => UserCreated(json['userId'] as String),
   'UserDeleted' => UserDeleted(json['userId'] as String),
@@ -1085,7 +1085,7 @@ Event fromJson(Map&lt;String, dynamic&gt; json) => switch (json['type']) {
 ```
 
 The `switch` on the discriminator string is not exhaustive (strings are not sealed), so you need
-`default` here. This is the one place where sealed class exhaustiveness does not apply — at the
+`default` here. This is the one place where sealed class exhaustiveness does not apply, at the
 Serialization boundary where types are erased.
 
 

@@ -302,9 +302,9 @@ $$\Delta_r H = \sum \Delta_f H^\circ(\text{products}) - \sum \Delta_f H^\circ(\t
 
 ### 9.2 Standard Enthalpies
 
-- **Standard enthalpy of formation:** $\Delta_f H^\circ$ — enthalpy change when 1 mol of compound forms
+- **Standard enthalpy of formation:** $\Delta_f H^\circ$, enthalpy change when 1 mol of compound forms
   from its elements in their standard states.
-- **Standard enthalpy of combustion:** $\Delta_c H^\circ$ — enthalpy change for complete combustion of
+- **Standard enthalpy of combustion:** $\Delta_c H^\circ$, enthalpy change for complete combustion of
   1 mol of substance.
 - **Bond enthalpies:** Average energy required to break a bond in the gas phase.
 
@@ -481,7 +481,7 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 | Chemical Kinetics        | WyattsNotes | [View](chemical-kinetics)                  |
 | Quantum Chemistry        | WyattsNotes | [View](quantum-chemistry)                  |
 | Statistical Mechanics    | WyattsNotes | [View](statistical-mechanics)               |
-| Thermodynamics — MIT 5.60| MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
+| Thermodynamics, MIT 5.60| MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

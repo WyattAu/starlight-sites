@@ -1,7 +1,7 @@
 ---
 title: "About This Site | civics-tests"
 date: 2026-07-24
-description: "About Wyatt's Notes Civics Tests resources — experience, expertise, and credentials behind US citizenship and civics test study materials."
+description: "About Wyatt's Notes Civics Tests resources, experience, expertise, and credentials behind US citizenship and civics test study materials."
 tags:
   - about
   - civics-tests
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Civics Tests
+## About Wyatt's Notes, Civics Tests
 
 Wyatt's Notes delivers comprehensive study materials for US citizenship and civics tests. These notes cover the USCIS naturalisation test, civics questions, and the English language requirements, building the knowledge needed to become a US citizen.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across standardised testing and qualifications, providi
 
 ## Related Sites
 
-- **[US Driving](https://driving-us.wyattau.com)** — US DMV driving test resources
-- **[Language Tests](https://language-tests.wyattau.com)** — IELTS, TOEFL, and language proficiency resources
-- **[Admissions](https://admissions.wyattau.com)** — University admissions guidance
+- **[US Driving](https://driving-us.wyattau.com)**, US DMV driving test resources
+- **[Language Tests](https://language-tests.wyattau.com)**, IELTS, TOEFL, and language proficiency resources
+- **[Admissions](https://admissions.wyattau.com)**, University admissions guidance
 
 ## Explore the Site
 

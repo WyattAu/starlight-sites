@@ -1,5 +1,5 @@
 ---
-title: "HSC Exam Glossary — Key Terms"
+title: "HSC Exam Glossary, Key Terms"
 description: "Comprehensive glossary of HSC Exam terms covering the NSW education system, assessment, ATAR, scaling, and university admissions."
 date: 2026-07-24
 tags: [glossary]
@@ -63,7 +63,7 @@ tags: [glossary]
 
 **The Motor Effect**: Force on a current-carrying conductor in a magnetic field.
 
-**Electromagnetic Induction**: Faraday's law and Lenz's law — generating EMF from changing magnetic fields.
+**Electromagnetic Induction**: Faraday's law and Lenz's law, generating EMF from changing magnetic fields.
 
 **Circular Motion**: Objects moving in circles under centripetal force.
 

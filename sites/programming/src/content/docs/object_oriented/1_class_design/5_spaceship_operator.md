@@ -186,11 +186,11 @@ Comparison that avoids allocation.
 :::
 ## Intuition
 
-**The spaceship operator is like a universal comparison tool:** Instead of writing six separate comparison functions (`==`, `!=`, `<`, `<=`, `>`, `>=`), you write one function that returns "less," "equal," or "greater." The compiler then generates all six comparisons from that single function. It's like having a single "comparison function" that answers "which comes first?" — and the compiler derives all the other questions from that answer.
+**The spaceship operator is like a universal comparison tool:** Instead of writing six separate comparison functions (`==`, `!=`, `<`, `<=`, `>`, `>=`), you write one function that returns "less," "equal," or "greater." The compiler then generates all six comparisons from that single function. It's like having a single "comparison function" that answers "which comes first?", and the compiler derives all the other questions from that answer.
 
 **Why it matters:** The spaceship operator eliminates massive boilerplate for comparable types. A point class with x and y coordinates would need 6 comparison operators (or at least 2 with the rest derived). With `<=>`, you write one three-way comparison and `= default` the rest. It also handles the tricky cases (like comparing different types) correctly by default.
 
-**The key insight:** `<=>` returns a comparison category type (`std::strong_ordering`, `std::weak_ordering`, or `std::partial_ordering`) that encodes the comparison result — the compiler uses this to generate all six relational operators.
+**The key insight:** `<=>` returns a comparison category type (`std::strong_ordering`, `std::weak_ordering`, or `std::partial_ordering`) that encodes the comparison result, the compiler uses this to generate all six relational operators.
 
 ## See Also
 
@@ -211,9 +211,9 @@ Synthesized operators use the `<=>` result and `==` for equality.
 
 | Condition                              | Synthesized Operators?                                  |
 | :------------------------------------- | :------------------------------------------------------ |
-| `= default` returns `strong_ordering`  | Yes — all six operators                                 |
-| `= default` returns `weak_ordering`    | Yes — all six operators                                 |
-| `= default` returns `partial_ordering` | Yes — all six operators                                 |
+| `= default` returns `strong_ordering`  | Yes, all six operators                                 |
+| `= default` returns `weak_ordering`    | Yes, all six operators                                 |
+| `= default` returns `partial_ordering` | Yes, all six operators                                 |
 | `operator<=>` is user-defined          | Only `!=``<``>``<=``>=` (if `==` is separately defined) |
 | Only `operator==` is defined           | `!=` is synthesized, but not ordering operators         |
 
@@ -249,7 +249,7 @@ int main() {
     // Partial ordering with NaN
     Partial p1{1.0};
     Partial p2{__builtin_nan("")};
-    // p1 <=> p2 is unordered — comparisons return false
+    // p1 <=> p2 is unordered, comparisons return false
     assert(!(p1 < p2));
     assert(!(p2 < p1));
     assert(!(p1 == p2));
@@ -258,7 +258,7 @@ int main() {
     OnlyEq e1{1}, e2{2}, e3{1};
     static_assert(e1 == e3);
     static_assert(e1 != e2);
-    // e1 < e2 would not compile — no ordering operators synthesized
+    // e1 < e2 would not compile, no ordering operators synthesized
 }
 ```
 
@@ -308,8 +308,8 @@ struct CaseInsensitiveString {
 
     std::weak_ordering operator<=>(const CaseInsensitiveString& other) const {
         std::string a = data, b = other.data;
-        std::transform(a.begin(), a.end(), a.begin(), ::tolower);
-        std::transform(b.begin(), b.end(), b.begin(), ::tolower);
+        std::transform(a.begin(), a.end(), a.begin()::tolower);
+        std::transform(b.begin(), b.end(), b.begin()::tolower);
         if (a < b) return std::weak_ordering::less;
         if (a > b) return std::weak_ordering::greater;
         return std::weak_ordering::equivalent;

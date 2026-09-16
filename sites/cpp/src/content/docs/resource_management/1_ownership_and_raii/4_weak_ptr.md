@@ -1,7 +1,7 @@
 ---
 
 title: Weak Pointers and Cyclic Reference Breaking
-description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures — the most common source of memory"
+description: "is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures, the most common source of memory"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -22,7 +22,7 @@ categories:
 ## Weak Pointers and Cyclic Reference Breaking
 
 `std::weak_ptr` is a non-owning observer of a `shared_ptr`-managed object. Its primary use case is
-Breaking reference cycles in graph structures — the most common source of memory leaks in
+Breaking reference cycles in graph structures, the most common source of memory leaks in
 `shared_ptr`-heavy codebases.
 
 ## 4.1 Definition
@@ -118,7 +118,7 @@ void expired_demo() {
 ```
 
 :::caution
-`expired()` and using the object — the object could be destroyed by another thread between the check
+`expired()` and using the object, the object could be destroyed by another thread between the check
 And the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
 :::
 ### Formal Correctness: `expired()` vs `lock()` in Concurrent Code
@@ -157,7 +157,7 @@ Incrementing, leaving a window for another thread to destroy the object.
 
 **Corollary:** In single-threaded code, `expired()` is safe if no code between the check and the
 Access can trigger a `shared_ptr` destruction (e.g., no function calls that might reset a
-`shared_ptr` on the stack). However, this is fragile and error-prone — always prefer `lock()`.
+`shared_ptr` on the stack). However, this is fragile and error-prone, always prefer `lock()`.
 
 ## 4.4 Control Block Reference Counting Details
 
@@ -491,7 +491,7 @@ Lock, then invoke them after releasing the lock.
 :::
 ## 4.7 `weak_ptr` with `shared_ptr::reset()`
 
-When a `shared_ptr` is reset, the `weak_ptr` does not become invalid immediately — it Observes that
+When a `shared_ptr` is reset, the `weak_ptr` does not become invalid immediately, it Observes that
 the object is gone. The `weak_ptr` itself remains valid (it can be copied, compared, Etc.) but
 `lock()` returns an empty `shared_ptr`:
 
@@ -509,7 +509,7 @@ void reset_demo() {
 
     std::cout << "after reset:  expired=" << wp.expired() << "\n";  // 1
 
-    // wp is still valid as an object itself — you can copy it, assign it, etc.
+    // wp is still valid as an object itself, you can copy it, assign it, etc.
     std::weak_ptr<int> wp2 = wp;
     std::cout << "wp2.expired=" << wp2.expired() << "\n";  // 1
 
@@ -597,7 +597,7 @@ Without providing additional safety in this case.
    control" scenario.
 
 5. **For caching.** If you need a cache that evicts entries when memory is low, `weak_ptr` alone is
-   not sufficient — you need a cache structure that decides when to clear entries. `weak_ptr` just
+   not sufficient, you need a cache structure that decides when to clear entries. `weak_ptr` just
    tells you if the object is still alive, not whether you _should_ keep it alive.
 
 ## 4.10 Thread Safety of `weak_ptr` Operations
@@ -955,17 +955,17 @@ linked above.
 A `std::weak_ptr` is like a library card for a book that someone else owns. You can look up the
 book on the shelf (call `lock()`), but you can't take it home unless the owner decides to lend it.
 If the owner returns the book to the publisher (the object is destroyed), your card becomes useless
-— `lock()` returns an empty `shared_ptr`. This is the fundamental difference from `shared_ptr`:
+- `lock()` returns an empty `shared_ptr`. This is the fundamental difference from `shared_ptr`:
 a weak pointer observes an object without participating in its lifetime management.
 
 The reason `weak_ptr` exists is to solve a specific problem: circular references. Imagine two
 objects that each hold a `shared_ptr` to the other. Neither will ever be destroyed because each
-keeps the other alive — a memory leak. The solution is to make one of the links a `weak_ptr`. Now
+keeps the other alive, a memory leak. The solution is to make one of the links a `weak_ptr`. Now
 the reference count accurately reflects the actual ownership, and the objects can be properly
 destroyed when no strong references remain.
 
 In practice, `weak_ptr` is most useful for caches, observer patterns, and any situation where you
 need to reference an object without owning it. The pattern is always the same: call `lock()`, check
 if the resulting `shared_ptr` is valid, and then use the object within that scope. If the object
-was destroyed between your check and your use, the `shared_ptr` will be null — fail gracefully
+was destroyed between your check and your use, the `shared_ptr` will be null, fail gracefully
 rather than dereferencing a dangling pointer.

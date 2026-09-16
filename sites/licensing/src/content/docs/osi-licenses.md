@@ -6,7 +6,7 @@ tags:
   - Licensing
 categories:
   - Licensing
-description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used — they"
+description: "Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used, they"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -21,7 +21,7 @@ description: "Open source licenses fall on a spectrum from permissive to copylef
 ## License Classification
 
 Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place
-minimal restrictions on how the code can be used — they require attribution but do not impose
+minimal restrictions on how the code can be used, they require attribution but do not impose
 conditions on derivative works. Copyleft licenses require that derivative works carry the same
 license, ensuring that modifications remain open source.
 
@@ -43,7 +43,7 @@ license can make a project unshippable or expose a company to legal risk.
 
 ## MIT License
 
-The MIT License is the most popular open source license. It is short — a single paragraph — and
+The MIT License is the most popular open source license. It is short, a single paragraph, and
 unambiguous. You can do almost anything with MIT-licensed code as long as you include the original
 copyright notice and license text.
 
@@ -51,7 +51,7 @@ copyright notice and license text.
 
 - Permission to use, copy, modify, merge, publish, distribute, sublicense, and sell
 - The license text and copyright notice must be included in all copies or substantial portions
-- No warranty — the software is provided "as is"
+- No warranty, the software is provided "as is"
 
 ### Requirements
 
@@ -91,7 +91,7 @@ same code. Apache 2.0 prevents this.
 ### NOTICE File
 
 Apache 2.0 requires that derivative works preserve a NOTICE file if the original work includes one.
-The NOTICE file contains additional attribution — names of contributors, copyright holders, and
+The NOTICE file contains additional attribution, names of contributors, copyright holders, and
 specific attribution notices. This is more burdensome than MIT"s single requirement.
 
 ### Notable Projects
@@ -109,7 +109,7 @@ projects that want to be compatible with Apache Foundation governance.
 
 The GNU Lesser General Public License v3 is a weak copyleft license. It applies copyleft
 requirements to the LGPL-licensed code itself but not to software that merely uses it. This makes
-LGPL suitable for libraries — code that is linked into larger applications — where requiring the
+LGPL suitable for libraries, code that is linked into larger applications, where requiring the
 entire application to be GPL-licensed would be impractical.
 
 ### Weak Copyleft Mechanism
@@ -118,10 +118,10 @@ LGPL v3 requires that modifications to the LGPL-licensed library itself must be 
 v3 or GPL v3. However, a proprietary application that dynamically links to an unmodified LGPL
 library is not subject to copyleft. The boundary is:
 
-- **Modifying the library** — must release modifications under LGPL/GPL
-- **Linking against the library** — no copyleft obligation for the linking application
-- **Static linking** — may trigger copyleft (debated; safest to use dynamic linking)
-- **Distributing the library** — must provide source or an offer for source
+- **Modifying the library**, must release modifications under LGPL/GPL
+- **Linking against the library**, no copyleft obligation for the linking application
+- **Static linking**, may trigger copyleft (debated; safest to use dynamic linking)
+- **Distributing the library**, must provide source or an offer for source
 
 ### Notable Projects
 
@@ -143,7 +143,7 @@ restrictive than GPL but more protective than MIT or Apache.
 
 The defining feature of MPL 2.0 is that copyleft applies at the file level, not the project level.
 If you modify an MPL-licensed file, your modifications must be distributed under MPL 2.0. If you add
-a new file to the project, you can license that file however you want — MIT, Apache, proprietary. A
+a new file to the project, you can license that file however you want, MIT, Apache, proprietary. A
 larger work that includes MPL files alongside other-licensed files is not subject to copyleft as a
 whole.
 
@@ -153,11 +153,11 @@ files while allowing proprietary extensions.
 ### Notable Projects
 
 Firefox (historically; now MPL/GPL/LGPL tri-license), LibreOffice, MariaDB, HashiCorp Vault
-(transitioned to BSL — see lessons in license changes)
+(transitioned to BSL, see lessons in license changes)
 
 ### When to Use
 
-Use MPL 2.0 when you want a middle ground between permissive and copyleft — protect your core code
+Use MPL 2.0 when you want a middle ground between permissive and copyleft, protect your core code
 while allowing proprietary additions. It is well-suited for applications with extensible plugin
 architectures where you want the core to remain open but do not want to restrict what third parties
 build on top.
@@ -165,13 +165,13 @@ build on top.
 ## GPL v3
 
 The GNU General Public License v3 is a strong copyleft license. Any work that contains GPL-licensed
-code — linked statically or dynamically, combined into a single executable, or distributed as a
-whole — must be distributed under GPL v3. This is the "viral" nature of GPL: the copyleft
+code, linked statically or dynamically, combined into a single executable, or distributed as a
+whole, must be distributed under GPL v3. This is the "viral" nature of GPL: the copyleft
 requirement propagates to the entire combined work.
 
 ### Strong Copyleft Mechanism
 
-GPL v3 applies to "covered works" — works that are based on the GPL-licensed program or that
+GPL v3 applies to "covered works", works that are based on the GPL-licensed program or that
 incorporate it. The boundary is clear for static linking and direct inclusion. For dynamic linking,
 the FSF considers it a combined work; others disagree. The safest approach is to assume GPL copyleft
 applies to any form of linking.
@@ -201,7 +201,7 @@ use your code in proprietary products.
 
 The Affero General Public License v3 extends GPL v3 with a network interaction clause (Section 13).
 If you modify AGPL-licensed software and offer users the ability to interact with it over a network
-— such as hosting it as a web service — you must provide those users with the complete source code
+- such as hosting it as a web service, you must provide those users with the complete source code
 of your version.
 
 ### Network Copyleft
@@ -235,7 +235,7 @@ and historical context rather than substance.
 ### BSD (2-Clause)
 
 The BSD 2-Clause (Simplified BSD) license is functionally equivalent to MIT. It grants permission to
-use, modify, and distribute with attribution. The primary difference is wording — BSD uses
+use, modify, and distribute with attribution. The primary difference is wording, BSD uses
 "Redistribute and use in source and binary forms" while MIT uses "Permission is hereby granted."
 
 ### BSD (3-Clause)
@@ -265,7 +265,7 @@ with patent grant in additional file) ISC: OpenSSH, ncurses, many OpenBSD utilit
 ### When to Use
 
 Use BSD or ISC when you want a permissive license that is functionally equivalent to MIT but prefer
-different wording. The choice between MIT, BSD-2, BSD-3, and ISC is largely aesthetic — all four are
+different wording. The choice between MIT, BSD-2, BSD-3, and ISC is largely aesthetic, all four are
 permissive, well-understood, and compatible with each other. Pick the one your community uses and
 move on.
 
@@ -356,7 +356,7 @@ not to.
 5. **Ignoring contributor license agreements.** If you accept contributions from others without a
    CLA or DCO, you do not have a clear record of who holds copyright to what. This becomes a problem
    when you want to change the license, enforce it, or relicense the code. A DCO (Developer
-   Certificate of Origin) is the lightweight option — contributors certify they have the right to
+   Certificate of Origin) is the lightweight option, contributors certify they have the right to
    submit their contribution under the project's license.
 
 6. **Choosing AGPL v3 for libraries.** AGPL v3's network copyleft is designed for network services,
@@ -366,7 +366,7 @@ not to.
 
 7. **Changing licenses without consent.** You cannot unilaterally relicense code contributed by
    others unless they signed a CLA granting you that right. If you accepted contributions under MIT
-   and later want to switch to GPL, you need permission from every contributor — or you must rewrite
+   and later want to switch to GPL, you need permission from every contributor, or you must rewrite
    the code yourself. Plan the license from the start.
 
 ## Intuition
@@ -375,7 +375,7 @@ not to.
 
 **Why it matters:** Using the wrong licence can expose you to legal liability or prevent others from using your code. Understanding licences is essential for any software project.
 
-**The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use — this fundamental distinction shapes the open source ecosystem.
+**The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use, this fundamental distinction shapes the open source ecosystem.
 
 
 ```mermaid
@@ -395,7 +395,7 @@ MPL, GPL, AGPL). Permissive licenses maximize adoption by placing minimal condit
 Copyleft licenses ensure that modifications remain open, with varying scope: file-level (MPL),
 library-level (LGPL), project-level (GPL), and network-level (AGPL). Apache 2.0 is the permissive
 license of choice when patent protection matters. GPL v3 is the strong copyleft standard. AGPL v3
-extends GPL v3 to network services. License compatibility is not automatic — incompatible
+extends GPL v3 to network services. License compatibility is not automatic, incompatible
 combinations make projects legally unshippable. Choose a license based on what you want to happen to
 your code, verify compatibility before combining code, and include proper license headers in every
 file.

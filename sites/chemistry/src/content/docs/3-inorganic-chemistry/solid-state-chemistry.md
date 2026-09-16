@@ -182,8 +182,8 @@ the effective density of states.
 
 **Extrinsic semiconductors:**
 
-- **n-type:** Doped with donors (Group 15 in Si, e.g., P, As) — extra electrons in the conduction band.
-- **p-type:** Doped with acceptors (Group 13 in Si, e.g., B, Al) — holes in the valence band.
+- **n-type:** Doped with donors (Group 15 in Si, e.g., P, As), extra electrons in the conduction band.
+- **p-type:** Doped with acceptors (Group 13 in Si, e.g., B, Al), holes in the valence band.
 
 **Theorem 5 (pn Junction):** At the interface of p-type and n-type material:
 
@@ -404,7 +404,7 @@ Examples:
 
 - $\beta$-alumina (Na$^+$ conductivity).
 - AgI above 147°C (Ag$^+$ mobility).
-- Yttria-stabilized zirconia (YSZ, O$^{2-}$ conductivity — used in solid oxide fuel cells).
+- Yttria-stabilized zirconia (YSZ, O$^{2-}$ conductivity, used in solid oxide fuel cells).
 
 ## Common Pitfalls
 
@@ -483,7 +483,7 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 | Coordination Chemistry   | WyattsNotes | [View](coordination-chemistry)             |
 | Statistical Mechanics    | WyattsNotes | [View](../1-physical-chemistry/statistical-mechanics)              |
 | Solid-State Physics      | WyattsNotes | [View](../../../../../physics/src/content/docs/6-solid-state-physics/17_practice-solid-state-physics)                  |
-| Solid-State Chemistry — MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
+| Solid-State Chemistry, MIT 3.091 | MIT OCW | [View](https://ocw.mit.edu/courses/3-091-introduction-to-solid-state-chemistry-fall-2018/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

@@ -43,14 +43,14 @@ A common definition is living below $60\%$ of the median household income.
 
 A poverty trap is a self-reinforcing mechanism that perpetuates poverty. Low income leads to low
 Savings, which limits investment in human and physical capital, which in turn keeps productivity and
-Income low. Breaking the trap requires a "big push" — a large, coordinated investment in health,
+Income low. Breaking the trap requires a "big push", a large, coordinated investment in health,
 Education, and infrastructure.
 
 ## Debt
 
 ### The Debt Problem
 
-Many developing countries carry high levels of external debt — debt owed to foreign creditors
+Many developing countries carry high levels of external debt, debt owed to foreign creditors
 (governments, multilateral institutions, commercial banks). Servicing this debt (interest payments
 And principal repayment) diverts scarce government resources away from health, education, and
 Infrastructure.
@@ -878,9 +878,9 @@ flowchart TD
 
 ## Intuition
 
-The poverty trap is a vicious cycle: low income → low savings → low investment → low productivity → low income. It's like trying to climb a hill while the ground slopes downward under you. Breaking free requires a "big push" — a large enough investment in education, health, and infrastructure to shift the economy onto a higher growth path. This is why foreign aid, debt relief, and institutional reform matter.
+The poverty trap is a vicious cycle: low income → low savings → low investment → low productivity → low income. It's like trying to climb a hill while the ground slopes downward under you. Breaking free requires a "big push", a large enough investment in education, health, and infrastructure to shift the economy onto a higher growth path. This is why foreign aid, debt relief, and institutional reform matter.
 
-The Harrod-Domar model captures this directly: growth equals savings divided by the capital-output ratio. If a country saves more, it can invest more and grow faster. If capital is used efficiently (low capital-output ratio), growth is faster. The Lewis model adds that development involves moving workers from low-productivity agriculture to high-productivity industry. The resource curse shows that even abundant natural resources can be a curse — they can fund corruption, appreciate the exchange rate (hurting other exports), and create conflict over resource rents.
+The Harrod-Domar model captures this directly: growth equals savings divided by the capital-output ratio. If a country saves more, it can invest more and grow faster. If capital is used efficiently (low capital-output ratio), growth is faster. The Lewis model adds that development involves moving workers from low-productivity agriculture to high-productivity industry. The resource curse shows that even abundant natural resources can be a curse, they can fund corruption, appreciate the exchange rate (hurting other exports), and create conflict over resource rents.
 
 ## Common Mistakes
 
@@ -890,6 +890,6 @@ The Harrod-Domar model captures this directly: growth equals savings divided by 
 
 3. **Treating the Lewis turning point as a fixed date rather than a structural threshold.** The turning point occurs when surplus labour in the traditional sector is exhausted, after which wages must rise. It is not a calendar event but a structural change that depends on the rate of modern-sector expansion and population growth. Misidentifying the turning point leads to incorrect policy prescriptions.
 
-4. **Assuming the resource curse is inevitable.** Natural resource wealth can be managed well (e.g., Norway's sovereign wealth fund) or poorly (e.g., Nigeria's oil wealth). The curse depends on institutions, governance, and policy — it is not a deterministic outcome. Avoiding it requires deliberate institutional design, not resource depletion.
+4. **Assuming the resource curse is inevitable.** Natural resource wealth can be managed well (e.g., Norway's sovereign wealth fund) or poorly (e.g., Nigeria's oil wealth). The curse depends on institutions, governance, and policy, it is not a deterministic outcome. Avoiding it requires deliberate institutional design, not resource depletion.
 
 5. **Ignoring the role of human capital in growth models.** Both Harrod-Domar and Lewis models focus on physical capital and labour but neglect human capital (education, skills, health). In modern economies, human capital is a primary driver of productivity growth. Omitting it leads to incomplete policy recommendations that focus only on savings and investment.

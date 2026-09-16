@@ -178,7 +178,7 @@ flowchart TD
 
 ## Intuition
 
-The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point — it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes — it is the infinitesimal version of Stokes' theorem.
+The tangent space at a point on a manifold is the collection of all possible velocities of curves passing through that point, it is the "flat approximation" to the curved space at that point. On a sphere, the tangent space at the north pole is the horizontal plane touching the sphere there. The tangent bundle glues together all tangent spaces into a single space, giving a manifold a way to talk about directions and velocities globally. A differential form is a machine that takes a tangent vector and returns a number, consistently across all points. The exterior derivative of a form measures how the form changes, it is the infinitesimal version of Stokes' theorem.
 
 ### 2.9 Practice Problems
 

@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**States of matter are like different social formations — solids (ordered), liquids (close but mobile), gases (free-roaming):** Phase changes occur when thermal energy overcomes intermolecular forces, transforming how particles interact
+**States of matter are like different social formations, solids (ordered), liquids (close but mobile), gases (free-roaming):** Phase changes occur when thermal energy overcomes intermolecular forces, transforming how particles interact
 
 **Why it matters:** Understanding states of matter explains everything from weather patterns to cooking to industrial processes
 
@@ -317,7 +317,7 @@ And **lowers** the melting point.
 ### $\mathrm{CO}_2$ Phase Diagram
 
 The triple point of $\mathrm{CO}_2$ is at $-57\degree\mathrm{C}$ and $5.1\mathrm{ atm}$. At
-$1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas — hence the name "dry ice."
+$1\mathrm{ atm}$, $\mathrm{CO}_2$ sublimates directly from solid to gas, hence the name "dry ice."
 
 ---
 
@@ -614,7 +614,7 @@ boundary**, meaning the ice **melts** into liquid water.
 
 This is unusual because the solid--liquid boundary on water's phase diagram has a **negative
 slope**. For nearly all other substances, increasing pressure at constant temperature in the solid
-region does not cross the melting curve — instead, the solid remains solid or the melting point
+region does not cross the melting curve, instead, the solid remains solid or the melting point
 increases.
 
 The negative slope for water arises because ice is **less dense** than liquid water. Increasing
@@ -782,7 +782,7 @@ of supercritical $\mathrm{CO}_2$ that make it useful as a solvent.
 <summary>Solution</summary>
 
 **(a)** At the critical point, the densities of the liquid and gas phases become identical. Above
-$T_c$ and $P_c$No phase boundary exists between liquid and gas — the substance exists as a single,
+$T_c$ and $P_c$No phase boundary exists between liquid and gas, the substance exists as a single,
 dense phase called a supercritical fluid. The meniscus between liquid and gas disappears.
 
 **(b)** The conditions are $T = 40\degree\mathrm{C} = 313\;\mathrm{K}$Which is above
@@ -967,7 +967,7 @@ what minimum temperature can the substance be liquefied by pressure alone?
 
 - **Assuming the heating curve is linear**: During a phase transition (melting or boiling),
   temperature remains constant while energy is absorbed or released. The heating curve is flat
-  during these transitions — this is the latent heat, not a failure of heating.
+  during these transitions, this is the latent heat, not a failure of heating.
 
 - **Confusing vapour pressure with gas pressure**: Vapour pressure is the pressure exerted by the
   vapour in equilibrium with its liquid at a given temperature. It is a property of the substance

@@ -167,10 +167,10 @@ int main() {
 }
 ```
 
-## 3.4 `noexcept(false)` — Explicit Opt-Out
+## 3.4 `noexcept(false)`Explicit Opt-Out
 
 The default for destructors is `noexcept(true)` since C++11 [N4950 §14.5.3]. Use `noexcept(false)`
-Only when absolutely necessary (and the "destructor must never throw" rule still applies — see
+Only when absolutely necessary (and the "destructor must never throw" rule still applies, see
 Below).
 
 ```cpp
@@ -238,7 +238,7 @@ int main() {
 
 The `noexcept` operator is a **compile-time** constant expression that evaluates to `true` if the
 Given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
-Runtime — it only examines the `noexcept` specifiers of the functions called within it:
+Runtime, it only examines the `noexcept` specifiers of the functions called within it:
 
 ```cpp
 #include <iostream>
@@ -376,8 +376,8 @@ int normal_fn() { std::cout << "  normal_fn\n"; return 0; }
 int noexcept_fn() noexcept { std::cout << "  noexcept_fn\n"; return 0; }
 
 int main() {
-    process(normal_fn);    // calls process(int(*)())  — non-noexcept overload
-    process(noexcept_fn);  // calls process(int(*)() noexcept) — noexcept overload
+    process(normal_fn);    // calls process(int(*)()), non-noexcept overload
+    process(noexcept_fn);  // calls process(int(*)() noexcept), noexcept overload
 
     // Conversion: non-noexcept -> noexcept is allowed
     int (*ns)() noexcept = normal_fn;  // OK: implicit conversion
@@ -430,11 +430,11 @@ noexcept is a contract that says "this function will not throw." It is part of t
 
 ## Intuition
 
-**`noexcept` is like a safety certification:** When you mark a function `noexcept`, you're telling the compiler and the runtime "I guarantee this function won't throw." The compiler can use this to generate faster code (no exception handling overhead), and the runtime can call `std::terminate` immediately if an exception does escape (instead of unwinding the stack). It's like signing a contract — if you break it (throw from a `noexcept` function), the consequences are severe (program termination).
+**`noexcept` is like a safety certification:** When you mark a function `noexcept`, you're telling the compiler and the runtime "I guarantee this function won't throw." The compiler can use this to generate faster code (no exception handling overhead), and the runtime can call `std::terminate` immediately if an exception does escape (instead of unwinding the stack). It's like signing a contract, if you break it (throw from a `noexcept` function), the consequences are severe (program termination).
 
-**Why it matters:** `noexcept` is not just a performance optimization — it's a design tool. Move constructors should be `noexcept` because the standard library uses it to decide whether to move or copy during reallocation. `noexcept` on move operations can mean the difference between O(n) copies and O(1) moves.
+**Why it matters:** `noexcept` is not just a performance optimization, it's a design tool. Move constructors should be `noexcept` because the standard library uses it to decide whether to move or copy during reallocation. `noexcept` on move operations can mean the difference between O(n) copies and O(1) moves.
 
-**The key insight:** A `noexcept` function that throws calls `std::terminate` — no stack unwinding, no catch handlers, just immediate termination. Use it when you're certain the function cannot throw.
+**The key insight:** A `noexcept` function that throws calls `std::terminate`no stack unwinding, no catch handlers, just immediate termination. Use it when you're certain the function cannot throw.
 
 ## Common Pitfalls
 
@@ -470,10 +470,10 @@ struct Expensive {
     int data[1024]{};
     Expensive() = default;
 
-    // BAD: throwing move — vector will copy instead of move during reallocation
+    // BAD: throwing move, vector will copy instead of move during reallocation
     Expensive(Expensive&amp;&amp; other) { std::memcpy(data, other.data, sizeof(data)); }
 
-    // GOOD: noexcept move — vector uses move during reallocation
+    // GOOD: noexcept move, vector uses move during reallocation
     // Expensive(Expensive&amp;&amp; other) noexcept { std::memcpy(data, other.data, sizeof(data)); }
 };
 
@@ -550,12 +550,12 @@ struct Wrapper {
 };
 
 int main() {
-    // Normal destruction (no active exception) — ~Wrapper's noexcept(false) allows throw
+    // Normal destruction (no active exception), ~Wrapper's noexcept(false) allows throw
     {
         Wrapper w;
     }  // ~Wrapper runs, ~Member throws, caught inside ~Wrapper
 
-    // During stack unwinding — if ~Member throws, terminate is called
+    // During stack unwinding, if ~Member throws, terminate is called
     // even with noexcept(false) on ~Wrapper, because the C++ runtime
     // calls terminate when any destructor throws during unwinding
 }

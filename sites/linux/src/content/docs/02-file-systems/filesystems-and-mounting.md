@@ -49,12 +49,12 @@ The VFS maintains four primary object types:
 | -------------- | ------------------------------------------------------------------ | -------------------- |
 | **superblock** | Describes a mounted file system (type, size, flags)                | `struct super_block` |
 | **inode**      | Represents a single file (metadata: permissions, size, timestamps) | `struct inode`       |
-| **dentry**     | Directory entry — maps a name to an inode                          | `struct dentry`      |
+| **dentry**     | Directory entry, maps a name to an inode                          | `struct dentry`      |
 | **file**       | Represents an open file (current offset, access mode)              | `struct file`        |
 
 The dentry cache (dcache) holds the directory hierarchy in memory, avoiding disk lookups for
 Frequently accessed paths. The inode cache (icache) keeps recently accessed inodes in memory. Both
-Caches are critical for performance — a warm dentry cache means `stat(2)` on a file requires no disk
+Caches are critical for performance, a warm dentry cache means `stat(2)` on a file requires no disk
 I/O.
 
 ### File System Registration
@@ -112,7 +112,7 @@ stat file2.txt
 # Inode: 123456  Links: 2  (same inode)
 
 stat file3.txt
-# Inode: 789012  Links: 1  (different inode — symlink)
+# Inode: 789012  Links: 1  (different inode, symlink)
 ```
 
 ### File Types
@@ -164,11 +164,11 @@ Ext2 and ext3, adding extents, larger volumes, journal checksumming, and delayed
 
 ### Extents
 
-Traditional ext2/ext3 used indirect block mapping — the inode pointed to a block of pointers, which
+Traditional ext2/ext3 used indirect block mapping, the inode pointed to a block of pointers, which
 Could point to more pointer blocks (up to 3 levels of indirection). This was inefficient for large
 Files because even a contiguous file required multiple block pointer lookups.
 
-Ext4 introduces **extents** — a descriptor that maps a contiguous range of blocks. An extent can
+Ext4 introduces **extents**, a descriptor that maps a contiguous range of blocks. An extent can
 Describe up to 128 MiB of contiguous data in a single descriptor. For most files, the extent tree
 Fits entirely within the inode (no separate extent block needed).
 
@@ -261,7 +261,7 @@ Media workloads, and databases.
 ### Allocation Groups
 
 An XFS file system is divided into **Allocation Groups** (AGs), each of which manages its own free
-Space and inodes independently. This design enables parallel I/O — multiple processes can allocate
+Space and inodes independently. This design enables parallel I/O, multiple processes can allocate
 Blocks in different AGs simultaneously without lock contention.
 
 ```bash
@@ -359,7 +359,7 @@ This has significant implications:
 - **Snapshots are cheap**: A snapshot is a metadata reference to the current state. Creating a
   snapshot takes O(1) time and no data copying.
 - **Crash consistency**: If the system crashes during a write, either the old or new version is
-  intact — never a partially written state.
+  intact, never a partially written state.
 - **Write amplification**: Small random writes cause block fragmentation. A 1-byte modification to a
   128 KiB block requires writing the entire new block.
 - **Fragmentation over time**: Repeated COW writes fragment large files. This is particularly
@@ -397,7 +397,7 @@ btrfs subvolume list /mnt/btrfs
 # Delete a subvolume (must not be mounted)
 btrfs subvolume delete /mnt/btrfs/@home_copy
 
-# Send/Receive — incremental backup
+# Send/Receive, incremental backup
 btrfs send /mnt/btrfs/@home_snapshot_2024 | btrfs receive /backup/btrfs/
 
 # Incremental send (only changes since previous snapshot)
@@ -423,7 +423,7 @@ btrfs balance status /mnt/btrfs
 # Convert RAID level (online)
 btrfs balance start -dconvert=raid1 -mconvert=raid1 /mnt/btrfs
 
-# Scrub — verify checksums and repair if redundant copies exist
+# Scrub, verify checksums and repair if redundant copies exist
 btrfs scrub start /mnt/btrfs
 btrfs scrub status /mnt/btrfs
 ```
@@ -460,7 +460,7 @@ sequenceDiagram
     participant Daemon as FUSE Daemon (User Space)
     participant Storage as Backing Storage
 
-    App->>VFS: read("/mnt/fuse/file.txt", ...)
+    App->>VFS: read("/mnt/fuse/file.txt"...)
     VFS->>Kernel: fuse_read()
     Kernel->>Daemon: FUSE_READ request
     Daemon->>Storage: Actual I/O
@@ -508,7 +508,7 @@ mount /dev/sdb1 /mnt/data
 # Mount with options
 mount -o noatime,nodev,nosuid /dev/sdb1 /mnt/data
 
-# Mount by UUID (preferred — survives disk reordering)
+# Mount by UUID (preferred, survives disk reordering)
 mount UUID=abc123-def456 /mnt/data
 
 # Mount by label
@@ -525,7 +525,7 @@ umount /mnt/data
 # Lazy unmount (detaches immediately, cleans up when no longer busy)
 umount -l /mnt/data
 
-# Force unmount (dangerous — can corrupt data)
+# Force unmount (dangerous, can corrupt data)
 umount -f /mnt/data
 ```
 
@@ -703,7 +703,7 @@ If an `/etc/fstab` entry for a USB drive or network share does not include `nofa
 Drop to emergency shell on boot when the device is absent:
 
 ```text
-# WRONG — will fail on boot if device missing
+# WRONG, will fail on boot if device missing
 /dev/sdb1  /mnt/backup  ext4  defaults  0  2
 
 # CORRECT
@@ -748,10 +748,10 @@ chattr +C /var/lib/mysql
 And chroots:
 
 ```bash
-# Bind mount — makes /existing visible at /new-location
+# Bind mount, makes /existing visible at /new-location
 mount --bind /existing /new-location
 
-# Move mount — moves the mount itself
+# Move mount, moves the mount itself
 mount --move /old-mount-point /new-mount-point
 ```
 

@@ -243,9 +243,9 @@ flowchart TD
 
 **Physics describes the fundamental rules of the universe:** From motion to electricity to quantum phenomena, physics provides mathematical models that predict how the natural world behaves. It is the most quantitative of the sciences.
 
-**Why it matters:** Physics understanding underpins all technology — from smartphones to solar panels to medical imaging devices.
+**Why it matters:** Physics understanding underpins all technology, from smartphones to solar panels to medical imaging devices.
 
-**The key insight:** Physics is about building models — choosing the right simplification for the right situation. A physicist knows when to treat a car as a point mass and when its internal structure matters.
+**The key insight:** Physics is about building models, choosing the right simplification for the right situation. A physicist knows when to treat a car as a point mass and when its internal structure matters.
 
 ## Common Mistakes
 

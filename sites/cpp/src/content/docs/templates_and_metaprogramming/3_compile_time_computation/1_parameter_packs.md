@@ -197,9 +197,9 @@ public:
 
     void run_all() const {
         // Each call resolves via the appropriate base
-        (void(Printer::print), ...);   // only compiles if Printer is in Mixins...
-        (void(Logger::log), ...);
-        (void(Serializer::serialize), ...);
+        (void(Printer::print)...);   // only compiles if Printer is in Mixins...
+        (void(Logger::log)...);
+        (void(Serializer::serialize)...);
     }
 };
 
@@ -308,7 +308,7 @@ Substitutes each pack element into the pattern and produces a comma-separated li
 // 1. Function argument expansion: f(args...)
 template <typename... Args>
 void call_print(Args... args) {
-    ((std::cout << args << "\n"), ...);
+    ((std::cout << args << "\n")...);
 }
 
 // 2. Template argument expansion: Tuple<Types...>
@@ -391,7 +391,7 @@ struct is_integral_pred : std::is_integral<T> {};
 // Pattern 3: Recursive tuple for_each
 template <typename Fn, typename Tuple, std::size_t... Is>
 void tuple_for_each_impl(Fn&& fn, Tuple&& t, std::index_sequence<Is...>) {
-    (fn(std::get<Is>(std::forward<Tuple>(t))), ...);
+    (fn(std::get<Is>(std::forward<Tuple>(t)))...);
 }
 
 template <typename Fn, typename... Ts>
@@ -439,7 +439,7 @@ auto sum_fold(Args... args) {
 template <typename... Args>
 void print_fold(Args&&... args) {
     std::string sep;
-    ((std::cout << std::exchange(sep, ", ") << args), ...);
+    ((std::cout << std::exchange(sep, ", ") << args)...);
     std::cout << "\n";
 }
 
@@ -451,7 +451,7 @@ int main() {
 
 ## Intuition
 
-Parameter packs are like an accordion — they can hold zero, one, or many arguments, and they expand when you need them. Fold expressions are the magic that lets you collapse the accordion into a single result by applying an operator across all elements, like pouring all the water from several buckets into one. Variadic templates are the foundation of modern C++ generic programming because they let you write functions that accept any number of arguments of any type, then process them recursively or with fold expressions. The compiler generates a separate function for each unique combination of types, which is powerful but can produce code bloat if used carelessly.
+Parameter packs are like an accordion, they can hold zero, one, or many arguments, and they expand when you need them. Fold expressions are the magic that lets you collapse the accordion into a single result by applying an operator across all elements, like pouring all the water from several buckets into one. Variadic templates are the foundation of modern C++ generic programming because they let you write functions that accept any number of arguments of any type, then process them recursively or with fold expressions. The compiler generates a separate function for each unique combination of types, which is powerful but can produce code bloat if used carelessly.
 
 ## Common Pitfalls
 

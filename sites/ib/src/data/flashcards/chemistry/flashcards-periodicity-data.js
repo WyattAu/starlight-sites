@@ -10,14 +10,14 @@ export const flashcard1 = [
     id: 'ib-chem-periodicity-002',
     front:
       'State and explain the trend in ionic radius for the cations and anions formed by Period 3 elements.',
-    back: 'Cations (Na+, Mg2+, Al3+) are smaller than their parent atoms because electron loss reduces electron-electron repulsion and the remaining electrons experience greater effective nuclear charge. Isoelectronic cations: Al3+ (54 pm) < Mg2+ (72 pm) < Na+ (102 pm) — higher charge means smaller radius. Anions (P3-, S2-, Cl-) are larger than their parent atoms because added electrons increase repulsion. Isoelectronic anions: P3- > S2- > Cl- (N3- has largest radius, fewer protons for same electron count).',
+    back: 'Cations (Na+, Mg2+, Al3+) are smaller than their parent atoms because electron loss reduces electron-electron repulsion and the remaining electrons experience greater effective nuclear charge. Isoelectronic cations: Al3+ (54 pm) < Mg2+ (72 pm) < Na+ (102 pm), higher charge means smaller radius. Anions (P3-, S2-, Cl-) are larger than their parent atoms because added electrons increase repulsion. Isoelectronic anions: P3- > S2- > Cl- (N3- has largest radius, fewer protons for same electron count).',
     tags: ['Period 3', 'ionic radius'],
     difficulty: 'easy',
   },
   {
     id: 'ib-chem-periodicity-003',
     front: 'State and explain the trend in first ionization energy across Period 3.',
-    back: 'First ionization energy generally increases across Period 3 (Na to Ar) because increasing nuclear charge attracts outer electrons more strongly. Anomalies: Mg to Al — drop because Al loses a 3p electron (higher energy, less tightly held than 3s). P to S — drop because S has a paired 3p electron, experiencing electron-electron repulsion, making it easier to remove. Full trend: Na < Mg > Al < Si < P > S < Cl < Ar.',
+    back: 'First ionization energy generally increases across Period 3 (Na to Ar) because increasing nuclear charge attracts outer electrons more strongly. Anomalies: Mg to Al, drop because Al loses a 3p electron (higher energy, less tightly held than 3s). P to S, drop because S has a paired 3p electron, experiencing electron-electron repulsion, making it easier to remove. Full trend: Na < Mg > Al < Si < P > S < Cl < Ar.',
     tags: ['Period 3', 'ionization energy'],
     difficulty: 'easy',
   },
@@ -82,14 +82,14 @@ export const flashcard3 = [
     id: 'ib-chem-periodicity-011',
     front:
       'What are the reactions of chlorine with water and with cold dilute NaOH? Write the equations.',
-    back: 'With water: Cl2 + H2O <-> HClO + HCl (disproportionation — chlorine is both oxidised and reduced, oxidation states 0 to +1 and -1). This produces chloric(I) acid (bleach). With cold dilute NaOH: Cl2 + 2NaOH -> NaCl + NaClO + H2O. This is also disproportionation and produces a mixture of NaCl (Cl oxidation state -1) and NaClO (chlorate(I), Cl oxidation state +1). This reaction is used commercially to make bleach (sodium chlorate(I) solution).',
+    back: 'With water: Cl2 + H2O <-> HClO + HCl (disproportionation, chlorine is both oxidised and reduced, oxidation states 0 to +1 and -1). This produces chloric(I) acid (bleach). With cold dilute NaOH: Cl2 + 2NaOH -> NaCl + NaClO + H2O. This is also disproportionation and produces a mixture of NaCl (Cl oxidation state -1) and NaClO (chlorate(I), Cl oxidation state +1). This reaction is used commercially to make bleach (sodium chlorate(I) solution).',
     tags: ['Group 17', 'chlorine', 'disproportionation'],
     difficulty: 'medium',
   },
   {
     id: 'ib-chem-periodicity-012',
     front: 'Explain why transition metals can form coloured compounds and give an example.',
-    back: 'Transition metal ions have partially filled d-orbitals. When light passes through a solution of a transition metal compound, photons of specific energies are absorbed to promote electrons between d-orbitals (d-d transitions). The remaining transmitted light is the complementary colour. Examples: Cu2+(aq) is blue (absorbs red/orange), Ni2+(aq) is green (absorbs red), [Fe(H2O)6]3+ is yellow/brown, [Co(H2O)6]2+ is pink. Sc3+ and Zn2+ are colourless — Sc3+ has no d electrons (d0), Zn2+ has full d orbitals (d10), so no d-d transitions are possible.',
+    back: 'Transition metal ions have partially filled d-orbitals. When light passes through a solution of a transition metal compound, photons of specific energies are absorbed to promote electrons between d-orbitals (d-d transitions). The remaining transmitted light is the complementary colour. Examples: Cu2+(aq) is blue (absorbs red/orange), Ni2+(aq) is green (absorbs red), [Fe(H2O)6]3+ is yellow/brown, [Co(H2O)6]2+ is pink. Sc3+ and Zn2+ are colourless, Sc3+ has no d electrons (d0), Zn2+ has full d orbitals (d10), so no d-d transitions are possible.',
     tags: ['transition metals', 'colour'],
     difficulty: 'medium',
   },
@@ -132,7 +132,7 @@ export const flashcard4 = [
     id: 'ib-chem-periodicity-017',
     front:
       'Explain the magnetic properties of transition metal ions. Why are Sc3+ and Zn2+ not paramagnetic?',
-    back: 'Transition metal ions with unpaired d electrons are paramagnetic (attracted to a magnetic field). Each unpaired electron has a magnetic moment, and the total magnetic moment depends on the number of unpaired electrons. For example: Fe3+ (d5, five unpaired electrons) is strongly paramagnetic. Sc3+ has a d0 configuration (no d electrons) — diamagnetic. Zn2+ has a d10 configuration (all electrons paired) — diamagnetic. The number of unpaired electrons can be determined from magnetic susceptibility measurements.',
+    back: 'Transition metal ions with unpaired d electrons are paramagnetic (attracted to a magnetic field). Each unpaired electron has a magnetic moment, and the total magnetic moment depends on the number of unpaired electrons. For example: Fe3+ (d5, five unpaired electrons) is strongly paramagnetic. Sc3+ has a d0 configuration (no d electrons), diamagnetic. Zn2+ has a d10 configuration (all electrons paired), diamagnetic. The number of unpaired electrons can be determined from magnetic susceptibility measurements.',
     tags: ['transition metals', 'magnetic properties'],
     difficulty: 'hard',
   },

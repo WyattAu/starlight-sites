@@ -45,7 +45,7 @@ Independent variable.
 
 ### Identifying Variables: Worked Examples
 
-**Example 1 — Investigating `g` with a pendulum:**
+**Example 1, Investigating `g` with a pendulum:**
 
 | Type        | Variable                      | How it is controlled/changed                    |
 | ----------- | ----------------------------- | ----------------------------------------------- |
@@ -55,7 +55,7 @@ Independent variable.
 | Control     | Amplitude (angle of release)  | Keep below $5^\circ$                            |
 | Control     | String material and thickness | Use inextensible string                         |
 
-**Example 2 — Investigating the effect of temperature on the resistance of a thermistor:**
+**Example 2, Investigating the effect of temperature on the resistance of a thermistor:**
 
 | Type        | Variable           | How it is controlled/changed              |
 | ----------- | ------------------ | ----------------------------------------- |
@@ -74,7 +74,7 @@ Control variables are often the most neglected part of experimental design, yet 
 Them is the most common reason experiments produce invalid results.
 
 **Why control variables matter:** If a control variable is not held constant, it becomes a
-**confounding variable** — you cannot determine whether the change in the dependent variable is due
+**confounding variable**, you cannot determine whether the change in the dependent variable is due
 To the independent variable or the uncontrolled factor.
 
 **Strategies for controlling variables:**
@@ -154,7 +154,7 @@ The **range** (maximum − minimum) is often used as a simpler indicator.
 
 **Example.** A student measures the period of a pendulum five times: 1.98 s, 2.01 s, 2.00 s, 1.99 s,
 2.00 s. The mean is 2.00 s and the range is 0.03 s, giving a spread of $\pm 0.015$ s. This is
-Reliable — the variation is less than 1% of the mean.
+Reliable, the variation is less than 1% of the mean.
 
 ### Validity in Depth
 
@@ -174,7 +174,7 @@ Validity has two aspects that examiners distinguish:
 - **AQA** emphasises the distinction between validity and reliability in 6-mark practical questions.
 - **Edexcel** Core Practicals require students to comment on the validity of their conclusions.
 - **OCR (A)** PAG reports ask students to evaluate the validity of their method and results.
-- **CIE** Paper 5 marks validity through the "justification of the method" requirement — students
+- **CIE** Paper 5 marks validity through the "justification of the method" requirement, students
   must explain _why_ their approach is valid, not just state that it is.
 
 ### Accuracy in Depth
@@ -262,7 +262,7 @@ Is critical:
 
 > **Info:** Board Coverage AQA Paper 3 Section A | Edexcel CP6 | OCR (A) PAG | CIE P5
 
-- **AQA** often provides a method and asks students to identify improvements — focus on range,
+- **AQA** often provides a method and asks students to identify improvements, focus on range,
   intervals, and repeats.
 - **Edexcel** Core Practicals have prescribed ranges; students should justify why the chosen range
   is appropriate.
@@ -393,7 +393,7 @@ When evaluating, you must distinguish between the two types of error:
   when it should, or the gradient differs from the accepted value.
 
 **Example.** In a resistivity experiment, a student plots $R$ vs $L$ and finds the line of best fit
-Has a non-zero y-intercept. This indicates a systematic error — likely contact resistance at the
+Has a non-zero y-intercept. This indicates a systematic error, likely contact resistance at the
 Crocodile clips. The intercept represents this fixed resistance.
 
 ### Evaluating Graphs
@@ -456,7 +456,7 @@ When a graph is plotted, check:
   string.
 - **OCR (A)** PAG 2 covers mechanics experiments (including `g`); PAG 3 covers electrical
   experiments.
-- **CIE** Paper 5 Q2 often asks students to analyse data from a provided experiment — knowing common
+- **CIE** Paper 5 Q2 often asks students to analyse data from a provided experiment, knowing common
   experimental contexts helps you spot the relationship between variables quickly.
 
 :::tip

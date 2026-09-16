@@ -117,7 +117,7 @@ class _CounterState extends State<Counter> {
 
 The separation between `StatefulWidget` (immutable config) and `State` (mutable lifecycle) is
 Deliberate: it allows the framework to swap a new widget config into an existing State object when
-The parent rebuilds. This is why `didUpdateWidget` receives the old widget — the current widget is
+The parent rebuilds. This is why `didUpdateWidget` receives the old widget, the current widget is
 Already available as `widget`.
 
 ### InheritedWidget
@@ -169,7 +169,7 @@ of space in the layout without the AppBar needing to measure itself during the l
 When a widget constructor is invoked with `const`The Dart VM canonicalizes the instance at compile
 Time. Every `const SizedBox(height: 8)` in your codebase resolves to the **same object identity** in
 Memory. This means the framework can skip the entire `==` / `runtimeType` check during
-Reconciliation — it performs a pointer identity check, which is O(1) and branch-predictor friendly.
+Reconciliation, it performs a pointer identity check, which is O(1) and branch-predictor friendly.
 
 ## 3. BuildContext
 
@@ -180,7 +180,7 @@ In the tree.
 
 ### What BuildContext Provides
 
-- **Ancestor lookups**: `Theme.of(context)``MediaQuery.of(context)``Navigator.of(context)` — all
+- **Ancestor lookups**: `Theme.of(context)``MediaQuery.of(context)``Navigator.of(context)`all
   walk up the Element tree to find the nearest `InheritedWidget` of the target type.
 - **Dependency registration**: `dependOnInheritedWidgetOfExactType` both looks up the ancestor and
   registers the current element as a dependent, so the element rebuilds when the inherited widget
@@ -230,7 +230,7 @@ Element in the tree. Once `dispose()` is called, `mounted` becomes `false` and n
 
 In Flutter 3.10+, `context.lookup<T>()` provides a non-depended-upon lookup of the nearest ancestor
 Of type `T` in the Element tree. Unlike `dependOnInheritedWidgetOfExactType`This does **not**
-Register a dependency — meaning the calling element will **not** rebuild when the ancestor changes.
+Register a dependency, meaning the calling element will **not** rebuild when the ancestor changes.
 Use this when you need to read a value once without subscribing to updates.
 
 ## 4. StatelessWidget Lifecycle
@@ -320,7 +320,7 @@ dispose()                        ← permanent removal, release resources
 
 Called by the framework when the `StatefulWidget` is inserted into the tree. This is the only place
 Where the `State` object is instantiated. The `State` object is then associated with the `Element`
-And persists as long as that `Element` remains in the tree — even across parent rebuilds that supply
+And persists as long as that `Element` remains in the tree, even across parent rebuilds that supply
 A new `StatefulWidget` instance.
 
 ### initState()
@@ -357,7 +357,7 @@ But will not be triggered again unless you later register a dependency.
 
 Called after `initState()``didChangeDependencies()`And after every `setState()`. Must return a
 Widget. Should be a pure function of `this.state` and `this.widget` (and any inherited data). Must
-Not have side effects — do not call `setState()` inside `build()`.
+Not have side effects, do not call `setState()` inside `build()`.
 
 ### didUpdateWidget(covariant oldWidget)
 
@@ -381,7 +381,7 @@ void didUpdateWidget(covariant MyWidget oldWidget) {
 Called when the element is removed from the tree. The element **might** be reinserted (e.g., when
 Moved to a different position in the tree via a key change). If reinserted, the framework calls
 `initState()` again (actually, it reuses the State object and calls `didChangeDependencies()` then
-`build()`). Do not release resources here — use `dispose()`.
+`build()`). Do not release resources here, use `dispose()`.
 
 ### dispose()
 
@@ -409,7 +409,7 @@ When you call `setState()`The following occurs:
    `rebuild()` on each.
 6. `rebuild()` invokes `performRebuild()` which calls your `build()` method.
 
-The rebuild is deferred — it does not happen synchronously inside `setState()`. This means you can
+The rebuild is deferred, it does not happen synchronously inside `setState()`. This means you can
 Call `setState()` multiple times within a single event handler, and only one rebuild occurs.
 
 ### Common Mistakes
@@ -462,7 +462,7 @@ Re-instantiated every build; the state persists.
 
 Keys provide a secondary identity criterion for widgets. During reconciliation, the framework
 Matches old and new children by `(runtimeType, key)`. If two widgets have the same `runtimeType` but
-Different keys, the framework treats them as different widgets — the old Element is unmounted and a
+Different keys, the framework treats them as different widgets, the old Element is unmounted and a
 New one is created.
 
 ### ValueKey&lt;T&gt;
@@ -485,7 +485,7 @@ Use `ValueKey<String>` for IDs, `ValueKey<int>` for indices (only when the list 
 
 Generates a unique identity every time it is constructed. Every rebuild creates a new `UniqueKey`
 Which forces the framework to create a new Element. This is almost never what you want in a
-Production list — it defeats element reuse entirely. Use sparingly, to force a widget to Fully
+Production list, it defeats element reuse entirely. Use sparingly, to force a widget to Fully
 rebuild (e.g., resetting animation state).
 
 ### GlobalKey
@@ -516,7 +516,7 @@ void _submit() {
 }
 ```
 
-Global keys are expensive — they require O(1) lookups in a global hash map during every rebuild. Do
+Global keys are expensive, they require O(1) lookups in a global hash map during every rebuild. Do
 Not use them inside `ListView.builder` or other lazily-built lists. They also prevent garbage
 Collection of the Element until the key is nulled out or reassigned.
 
@@ -556,11 +556,11 @@ Expressions with the same constructor and arguments evaluate to the identical ob
 ```dart
 const a = SizedBox(height: 8);
 const b = SizedBox(height: 8);
-assert(identical(a, b)); // true — same object
+assert(identical(a, b)); // true, same object
 ```
 
 For Flutter's reconciliation, `identical(oldWidget, newWidget)` is the cheapest possible check. When
-It returns `true`The framework skips the entire update process — no `didUpdateWidget`No `build()`
+It returns `true`The framework skips the entire update process, no `didUpdateWidget`No `build()`
 call on the child.
 
 ### When to Use const
@@ -576,8 +576,8 @@ Includes:
 
 Do not use `const` when arguments are runtime values:
 
-- `const Text(dynamicValue)` — compilation error
-- `const SizedBox(height: computedHeight)` — compilation error
+- `const Text(dynamicValue)`compilation error
+- `const SizedBox(height: computedHeight)`compilation error
 
 ### Performance Impact
 
@@ -871,7 +871,7 @@ References to `RenderObject` objects. The entire subtree remains in memory.
 ### setState During Build
 
 Calling `setState()` during `build()` throws a `FlutterError`. This is because the framework is
-Already in the process of building — marking the element dirty again creates a contradiction. If you
+Already in the process of building, marking the element dirty again creates a contradiction. If you
 Need to trigger a rebuild as a side effect of building, defer it:
 
 ```dart
@@ -906,17 +906,17 @@ void didChangeDependencies() {
 }
 ```
 
-Note that in modern Flutter (2.3+), this restriction is somewhat relaxed — you can use `context` in
+Note that in modern Flutter (2.3+), this restriction is somewhat relaxed, you can use `context` in
 `initState()` for non-dependent lookups, but `Theme.of``MediaQuery.of`Etc. Still fail because They
 internally call `dependOnInheritedWidgetOfExactType`.
 
 ## Intuition
 
-**Flutter UIs are built from composable widgets:** Everything in Flutter is a widget — text, buttons, layouts, even entire screens. Widgets are immutable descriptions of what the UI should look like, and the framework efficiently updates the screen when state changes.
+**Flutter UIs are built from composable widgets:** Everything in Flutter is a widget, text, buttons, layouts, even entire screens. Widgets are immutable descriptions of what the UI should look like, and the framework efficiently updates the screen when state changes.
 
 **Why it matters:** Understanding the widget model and lifecycle is essential for building responsive, performant Flutter apps that update correctly when data changes.
 
-**The key insight:** Flutter's "everything is a widget" philosophy means complex UIs are built by nesting simple widgets — mastering composition is the key to Flutter mastery.
+**The key insight:** Flutter's "everything is a widget" philosophy means complex UIs are built by nesting simple widgets, mastering composition is the key to Flutter mastery.
 
 
 ```mermaid

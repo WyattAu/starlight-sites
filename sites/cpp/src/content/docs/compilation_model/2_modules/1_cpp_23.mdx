@@ -349,7 +349,7 @@ The `export` keyword can be applied at multiple levels:
 ```cpp
 export module Engine;
 
-// 1. Export a namespace — exports ALL members
+// 1. Export a namespace, exports ALL members
 export namespace Config {
     int timeout = 30;
     int retries = 3;
@@ -371,8 +371,8 @@ Of declarations from a larger header, avoiding the need to prefix each declarati
 ## 8. Macros and Modules
 
 Macros are the fundamental impedance mismatch between the inclusion model and the module model.
-Macros are a preprocessor concept — they operate on tokens before the compiler sees any C++ grammar.
-Modules are a compiler concept — they operate on the parsed AST.
+Macros are a preprocessor concept, they operate on tokens before the compiler sees any C++ grammar.
+Modules are a compiler concept, they operate on the parsed AST.
 
 ### What Does NOT Cross Module Boundaries
 
@@ -414,7 +414,7 @@ export module WinWrapper;
 
 ## 9. BMI Format and Performance Characteristics
 
-The Binary Module Interface (BMI) is a compiler-internal format. It is **not standardized** — each
+The Binary Module Interface (BMI) is a compiler-internal format. It is **not standardized**, each
 Compiler implements its own BMI format:
 
 - **Clang:** Uses a precompiled module (`.pcm`) format, stored in the module cache.
@@ -533,27 +533,27 @@ flowchart TD
 
 ## Intuition
 
-**Modern modules:** C++20 modules are like sealed packages — they export interfaces without exposing implementation details, reducing compile times and name collisions.
+**Modern modules:** C++20 modules are like sealed packages, they export interfaces without exposing implementation details, reducing compile times and name collisions.
 
-**Why it matters:** Modules solve the header file problem — faster compilation, better encapsulation, and no more include guards.
+**Why it matters:** Modules solve the header file problem, faster compilation, better encapsulation, and no more include guards.
 
-**The key insight:** Modules are the future of C++ — they enable faster builds and better code organization.
+**The key insight:** Modules are the future of C++, they enable faster builds and better code organization.
 
 ## Common Pitfalls
 
 ### 1. Forgetting the `export` Keyword on Partition Re-exports
 
 The most common module error. If a partition is not re-exported from the Primary Interface,
-Consumers cannot see its symbols — and the error message from the compiler is cryptic.
+Consumers cannot see its symbols, and the error message from the compiler is cryptic.
 
 ```cpp
 // BUG: Missing 'export' on import
 export module Engine;
-import :Graphics;  // WRONG — Graphics symbols are NOT exported to consumers
+import :Graphics;  // WRONG, Graphics symbols are NOT exported to consumers
 
 // FIX:
 export module Engine;
-export import :Graphics;  // CORRECT — Graphics symbols are now part of Engine's API
+export import :Graphics;  // CORRECT, Graphics symbols are now part of Engine's API
 ```
 
 ### 2. `#include` Inside Module Purview
@@ -583,7 +583,7 @@ Level and (often) the compiler level.
 
 As of 2025, module support across the three major compilers is still inconsistent. GCC's
 Implementation trails Clang and MSVC. BMI formats are not interoperable between compilers. Do not
-Distribute BMIs — only distribute source and let each consumer build their own BMIs.
+Distribute BMIs, only distribute source and let each consumer build their own BMIs.
 
 ### 6. Partition Naming Collisions
 

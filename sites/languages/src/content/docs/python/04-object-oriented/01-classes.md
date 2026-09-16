@@ -816,13 +816,13 @@ p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 
 ```python
 class Base:
-    __slots__ = ("id",)
+    __slots__ = ("id")
 
 class Child(Base):
-    __slots__ = ("name",)
+    __slots__ = ("name")
 
 class Grandchild(Child):
-    __slots__ = ("age",)
+    __slots__ = ("age")
 
 g = Grandchild()
 g.id = 1
@@ -1030,7 +1030,7 @@ Of these mechanisms addresses a separate concern, and they compose without confl
 
 ## Intuition
 
-A class is a blueprint, and each instance is a house built from that blueprint. The blueprint itself is not a house — it is a plan that tells you what rooms to build. When you call `__init__`, you are furnishing the house with specific furniture. `self` is the address of the house — every method needs to know which house it is working on. Inheritance is like extending a blueprint: a Dog blueprint adds barking to the Animal blueprint. Multiple inheritance is like combining blueprints from two parents — powerful but risky if both blueprints define the same room differently. Descriptors are the magic behind properties — they intercept attribute access and can compute values on the fly, turning a simple attribute into a gatekeeper.
+A class is a blueprint, and each instance is a house built from that blueprint. The blueprint itself is not a house, it is a plan that tells you what rooms to build. When you call `__init__`, you are furnishing the house with specific furniture. `self` is the address of the house, every method needs to know which house it is working on. Inheritance is like extending a blueprint: a Dog blueprint adds barking to the Animal blueprint. Multiple inheritance is like combining blueprints from two parents, powerful but risky if both blueprints define the same room differently. Descriptors are the magic behind properties, they intercept attribute access and can compute values on the fly, turning a simple attribute into a gatekeeper.
 
 ## Common Pitfalls
 

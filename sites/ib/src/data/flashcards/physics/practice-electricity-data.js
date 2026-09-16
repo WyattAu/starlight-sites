@@ -25,7 +25,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      'Conventional current flows from positive to negative terminal of a cell — opposite to the actual drift of electrons. This historical convention predates the discovery of the electron.',
+      'Conventional current flows from positive to negative terminal of a cell, opposite to the actual drift of electrons. This historical convention predates the discovery of the electron.',
   },
   {
     question:
@@ -53,7 +53,7 @@ export const practiceQuestions = [
     ],
     correct: 2,
     explanation:
-      "An ohmic\nconductor has a constant resistance regardless of the applied voltage — its I-V graph is a straight\nline through the origin. A filament lamp\'s resistance increases with temperature. A diode only conducts in one direction. A thermistor’s resistance changes with temperature.",
+      "An ohmic\nconductor has a constant resistance regardless of the applied voltage, its I-V graph is a straight\nline through the origin. A filament lamp\'s resistance increases with temperature. A diode only conducts in one direction. A thermistor’s resistance changes with temperature.",
   },
   {
     question:
@@ -101,7 +101,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Kirchhoff’s first law states that the sum of currents entering a junction equals the sum of currents leaving it. This is a consequence of conservation of charge — charge cannot accumulate at a junction. Kirchhoff\'s second law (sum of EMFs = sum of PDs\naround a loop) follows from conservation of energy.",
+      "Kirchhoff’s first law states that the sum of currents entering a junction equals the sum of currents leaving it. This is a consequence of conservation of charge, charge cannot accumulate at a junction. Kirchhoff\'s second law (sum of EMFs = sum of PDs\naround a loop) follows from conservation of energy.",
   },
   {
     question:

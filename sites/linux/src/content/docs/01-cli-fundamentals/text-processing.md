@@ -41,8 +41,8 @@ Character Classes:
   [abc]        any of a, b, c
   [a-z]        lowercase letters
   [^0-9]       NOT a digit
-  [[:alpha:]]  POSIX class — any letter
-  [[:digit:]]  POSIX class — any digit
+  [[:alpha:]]  POSIX class, any letter
+  [[:digit:]]  POSIX class, any digit
   [[:alnum:]]  letters or digits
   [[:space:]]  whitespace
   [[:upper:]]  uppercase letters
@@ -68,7 +68,7 @@ Greedy (match as much as possible):
   {n,}         n or more
   {n,m}        between n and m
 
-Lazy (match as little as possible — PCRE only):
+Lazy (match as little as possible, PCRE only):
   *?           zero or more (lazy)
   +?           one or more (lazy)
   ??           zero or one (lazy)
@@ -77,16 +77,16 @@ Lazy (match as little as possible — PCRE only):
 ### Lookahead and Lookbehind (PCRE)
 
 ```bash
-## Positive lookahead — match "foo" only when followed by "bar"
+## Positive lookahead, match "foo" only when followed by "bar"
 grep -P "foo(?=bar)' file.txt
 
-## Negative lookahead — match "foo" only when NOT followed by "bar"
+## Negative lookahead, match "foo" only when NOT followed by "bar"
 grep -P 'foo(?!bar)' file.txt
 
-# Positive lookbehind — match "bar" only when preceded by "foo"
+# Positive lookbehind, match "bar" only when preceded by "foo"
 grep -P '(?<=foo)bar' file.txt
 
-# Negative lookbehind — match "bar" only when NOT preceded by "foo"
+# Negative lookbehind, match "bar" only when NOT preceded by "foo"
 grep -P '(?<!foo)bar' file.txt
 ```
 
@@ -112,7 +112,7 @@ grep -P '\d{4}-\d{2}-\d{2}(T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:?\d{2})?)?' fi
 grep -P '\bv[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9.]+)?(\+[a-zA-Z0-9.]+)?\b' file.txt
 ```
 
-## sed — Stream Editor
+## sed, Stream Editor
 
 `sed` reads input line by line, applies editing commands, and writes output. It operates on a
 **pattern space** (a working buffer holding the current line) and a **hold space** (a secondary
@@ -191,11 +191,11 @@ sed -n '/pattern/{n;p}' file.txt
 # Label and branch
 sed '/start/b skip; s/foo/bar/; :skip' file.txt
 
-# Conditional branch — skip substitution on comment lines
+# Conditional branch, skip substitution on comment lines
 sed '/^#/b; s/enabled/disabled/' config
 
 # Loop with t (branch if substitution was made)
-# Remove all leading spaces (not tabs) — one at a time
+# Remove all leading spaces (not tabs), one at a time
 sed ':loop; s/^ //; t loop' file.txt
 
 # Infinite loop with break
@@ -226,7 +226,7 @@ sed -f edit.sed httpd.conf
 # Create backup with .bak extension
 sed -i.bak 's/old/new/g' file.txt
 
-# In-place without backup (dangerous — no recovery)
+# In-place without backup (dangerous, no recovery)
 sed -i 's/old/new/g' file.txt
 
 # Operate on multiple files
@@ -237,7 +237,7 @@ sed -i 's/192.168.1.100/10.0.0.1/g' /etc/hosts /etc/resolv.conf
 The original file was a symlink, the link is destroyed. Always use `sed -i.bak` in production
 Scripts to preserve recoverability.
 
-## awk — Pattern-Scanning Language
+## awk, Pattern-Scanning Language
 
 `awk` is a full programming language designed for processing columnar text data. The GNU
 Implementation (`gawk`) is standard on Linux.
@@ -437,7 +437,7 @@ grep -m 5 'pattern' file.txt     # stop after 5 matches
 grep --color=auto 'pattern' file.txt  # colorize matches
 ```
 
-## jq — JSON Processing
+## jq, JSON Processing
 
 `jq` is a command-line JSON processor that uses a filter language inspired by awk and SQL.
 
@@ -535,7 +535,7 @@ jq -n --arg name "Alice" '{user: $name}'
 # Reduce
 jq 'reduce .[] as $item (0; . + $item.price)' file.json
 
-# Defs — custom functions
+# Defs, custom functions
 jq 'def double: . * 2; [.[] | double]' file.json
 
 # Walk/recursive update
@@ -563,10 +563,10 @@ jq '.version = "2.0.0"' package.json > tmp.json && mv tmp.json package.json
 jq -s '.[0] * .[1]' defaults.json overrides.json
 
 # Convert JSON to CSV
-jq -r '.[] | [.name, .email, .age] | @csv' data.json
+jq -r '.[] | [.name.email.age] | @csv' data.json
 
 # Convert JSON to TSV
-jq -r '.[] | [.name, .email, .age] | @tsv' data.json
+jq -r '.[] | [.name.email.age] | @tsv' data.json
 
 # Process JSON lines (ndjson)
 jq -c '.items[]' large.json  # compact output, one object per line
@@ -574,7 +574,7 @@ jq -c '.items[]' large.json  # compact output, one object per line
 
 ## Columnar Data Processing
 
-### column — Columnate Text
+### column, Columnate Text
 
 ```bash
 # Auto-detect delimiter
@@ -590,7 +590,7 @@ ls -1 | column -c 80
 column -t -R 2,3 numbers.txt
 ```
 
-### pr — Page Formatting
+### pr, Page Formatting
 
 ```bash
 # Format into columns
@@ -606,7 +606,7 @@ pr -d file.txt
 pr -e file.txt
 ```
 
-### fmt — Paragraph Formatting
+### fmt, Paragraph Formatting
 
 ```bash
 # Reformat to 72-character lines (default width)
@@ -625,7 +625,7 @@ fmt -u file.txt
 fmt -s -w 72 file.txt
 ```
 
-### fold — Line Wrapping
+### fold, Line Wrapping
 
 ```bash
 # Wrap at 80 characters
@@ -779,7 +779,7 @@ patch -R -p1 < changes.patch
 diff -ruN original_dir/ modified_dir/ > changes.patch
 ```
 
-## sort — Advanced Sorting
+## sort, Advanced Sorting
 
 ### Multi-Key Sorting
 
@@ -820,17 +820,17 @@ sort -c file.txt
 ```text
 sort -k START,END [OPTIONS]
 
-  START,END  — field range (1-indexed)
-  n          — numeric sort
-  h          — human-numeric (1K = 1000)
-  g          — general numeric (handles scientific notation)
-  M          — month sort
-  r          — reverse this key
-  b          — ignore leading blanks
-  d          — dictionary order (ignore punctuation)
-  f          — fold case (ignore case)
-  i          — ignore non-printable characters
-  t SEP      — field separator
+  START,END, field range (1-indexed)
+  n, numeric sort
+  h, human-numeric (1K = 1000)
+  g, general numeric (handles scientific notation)
+  M, month sort
+  r, reverse this key
+  b, ignore leading blanks
+  d, dictionary order (ignore punctuation)
+  f, fold case (ignore case)
+  i, ignore non-printable characters
+  t SEP, field separator
 ```
 
 ```bash
@@ -847,14 +847,14 @@ sort -t, -k3,3 -k1,1r data.csv
 ## cut vs awk for Field Extraction
 
 ```bash
-# cut — fast for simple delimiter-based extraction
+# cut, fast for simple delimiter-based extraction
 cut -d: -f1 /etc/passwd           # first field, colon-delimited
 cut -d, -f2,5 data.csv            # fields 2 and 5
 cut -c1-10 file.txt               # characters 1-10
 cut -c1,5,10 file.txt             # specific characters
 cut -d' ' -f2- file.txt           # field 2 to end
 
-# awk — more flexible, handles variable-width fields
+# awk, more flexible, handles variable-width fields
 awk -F: "{print $1, $3, $7}'' /etc/passwd
 awk -F, "{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
@@ -865,7 +865,7 @@ Large files. Use `awk` when you need conditional logic, field manipulation, or a
 
 ## paste and join
 
-### paste — Merge Lines
+### paste, Merge Lines
 
 ```bash
 # Merge two files side by side (tab-separated)
@@ -881,7 +881,7 @@ paste -s file.txt                # all lines on one line
 paste file1.txt file2.txt file3.txt
 ```
 
-### join — Relational Join
+### join, Relational Join
 
 ```bash
 # Inner join on first field (files must be sorted)
@@ -902,7 +902,7 @@ join -e 'N/A' file1.txt file2.txt
 join -o '1.1 2.2' file1.txt file2.txt
 ```
 
-## tr — Character Translation
+## tr, Character Translation
 
 ```bash
 # Translate characters
@@ -937,20 +937,20 @@ echo 'secret' | tr 'a-zA-Z' 'n-za-mN-ZA-M'
 ### Pitfall: BRE Escaping in sed
 
 ```bash
-# WRONG — BRE requires escaping quantifiers
+# WRONG, BRE requires escaping quantifiers
 sed 's/[0-9]+/NUMBER/g' file.txt    # matches "[0-9]" followed by literal "+"
 
-# CORRECT — escape the quantifier in BRE
+# CORRECT, escape the quantifier in BRE
 sed 's/[0-9]\+/NUMBER/g' file.txt   # matches one or more digits
 
-# ALTERNATIVE — use ERE with -E flag
+# ALTERNATIVE, use ERE with -E flag
 sed -E 's/[0-9]+/NUMBER/g' file.txt # matches one or more digits
 ```
 
 ### Pitfall: awk Floating-Point Precision
 
 ```bash
-# awk uses double-precision floating point — expect rounding errors
+# awk uses double-precision floating point, expect rounding errors
 awk 'BEGIN {print 0.1 + 0.2}'        # outputs 0.3 (display rounding)
 awk 'BEGIN {printf "%.20f\n", 0.1 + 0.2}'  # outputs 0.30000000000000004441
 
@@ -961,7 +961,7 @@ awk '{printf "%d.%02d\n", $1/100, $1%100}' transactions.txt
 ### Pitfall: grep Returning Non-Zero on No Match
 
 ```bash
-# grep exits with 1 when no lines match — this breaks set -e scripts
+# grep exits with 1 when no lines match, this breaks set -e scripts
 set -e
 grep "pattern" file.txt  # script exits if no match!
 
@@ -992,13 +992,13 @@ jq --stream 'fromstream(1|truncate_stream(inputs))' huge.json
 ### Pitfall: sed with Paths Containing Delimiters
 
 ```bash
-# WRONG — slashes in the path break the sed command
+# WRONG, slashes in the path break the sed command
 sed 's|/old/path|/new/path|g' file.txt   # works if using | as delimiter
 
-# CORRECT — use a different delimiter
+# CORRECT, use a different delimiter
 sed 's|/old/path|/new/path|g' file.txt
 
-# CORRECT — escape the delimiter
+# CORRECT, escape the delimiter
 sed 's/\/old\/path/\/new\/path/g' file.txt
 
 # Use | or # or @ as delimiter when paths contain /
@@ -1008,7 +1008,7 @@ sed 's#/var/log#/opt/log#g' config
 ### Pitfall: sort Locale Sensitivity
 
 ```bash
-# Default sort uses locale — order may be unexpected
+# Default sort uses locale, order may be unexpected
 sort file.txt  # 'A' may sort after 'z' depending on locale
 
 # Fix: use C locale for byte-order sorting
@@ -1022,8 +1022,8 @@ export LC_ALL=C; sort file.txt | uniq
 
 ```bash
 # cut only accepts single-character delimiters
-cut -d'|' file.txt          # works — single character
-cut -d'||' file.txt         # WRONG — uses only the first '|'
+cut -d'|' file.txt          # works, single character
+cut -d'||' file.txt         # WRONG, uses only the first '|'
 
 # Fix: use awk instead
 awk -F'\\|\\|' '{print $1, $2}' file.txt

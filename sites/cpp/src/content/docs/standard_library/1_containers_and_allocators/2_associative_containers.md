@@ -266,7 +266,7 @@ struct PointHash {
         // Combine two hash values using a standard technique
         std::size_t hx = std::hash<double>{}(p.x);
         std::size_t hy = std::hash<double>{}(p.y);
-        return hx ^ (hy << 1);  // Simple combining — see boost::hash_combine for better
+        return hx ^ (hy << 1);  // Simple combining, see boost::hash_combine for better
     }
 };
 
@@ -419,7 +419,7 @@ int main() {
     m["hello"] = 1;
     m["world"] = 2;
 
-    // Lookup with string_view — no temporary std::string constructed
+    // Lookup with string_view, no temporary std::string constructed
     std::string_view sv = "hello";
     auto it = m.find(sv);
     if (it != m.end()) {
@@ -460,7 +460,7 @@ int main() {
     std::map<std::string, int> dst;
     dst["delta"] = 4;
 
-    // Extract a node from src — no copy, no deallocation
+    // Extract a node from src, no copy, no deallocation
     auto nh = src.extract("bravo");
 
     if (!nh.empty()) {
@@ -470,7 +470,7 @@ int main() {
         nh.key() = "echo";
         nh.mapped() = 20;
 
-        // Insert into dst — transfers ownership, no allocation
+        // Insert into dst, transfers ownership, no allocation
         dst.insert(std::move(nh));
     }
 
@@ -493,8 +493,8 @@ dst: delta echo(20)
 ```
 
 This API is critical for performance-sensitive code that needs to transfer elements between maps
-(such as sharding or repartitioning), because the alternative — erase from one map, then emplace
-Into another — involves a redundant deallocation and allocation. With `extract`/`insert`The node's
+(such as sharding or repartitioning), because the alternative, erase from one map, then emplace
+Into another, involves a redundant deallocation and allocation. With `extract`/`insert`The node's
 Heap memory is reparented [N4950 §22.4.4.4].
 
 ### Red-Black Tree Node Structure
@@ -573,7 +573,7 @@ int main() {
     m["hello"] = 1;
     m["world"] = 2;
 
-    // Lookup with string_view — no temporary std::string constructed
+    // Lookup with string_view, no temporary std::string constructed
     std::string_view sv = "hello";
     auto it = m.find(sv);
     if (it != m.end()) {
@@ -607,11 +607,11 @@ Rehashing (e.g., hash computation throws), the container is in a valid but unspe
 **1. Mutable keys in `std::set` and `std::map`:** The keys of ordered associative containers must
 Remain ordered at all times. The iterator types for `std::set` yield `const Key&`Preventing direct
 Mutation. However, `std::map` iterators yield `std::pair&lt;const Key, T>&`And the value type is
-`std::pair&lt;const Key, T>` — the key is `const`. This is by design: mutating a key violates the
+`std::pair&lt;const Key, T>`the key is `const`. This is by design: mutating a key violates the
 Ordering invariant and causes undefined behavior [N4950 §22.4.4.1].
 
 **2. `operator[]` default-inserts:** `m[key]` inserts a default-constructed value if `key` is
-Absent, then returns a reference to it. This is surprising when used in a read-only context — it
+Absent, then returns a reference to it. This is surprising when used in a read-only context, it
 Silently modifies the container. Use `m.at(key)` (throws on miss) or `m.find(key)` (returns
 Iterator) for lookups that should not modify the map.
 

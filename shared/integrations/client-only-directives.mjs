@@ -5,7 +5,7 @@
  * for interactive Solid components that are not SSR-safe under Astro 6.
  *
  * Without this plugin, `<PracticeProblem>` in MDX content triggers SSR of
- * Kobalte's popper module (which calls solid-js/web template() at top level —
+ * Kobalte's popper module (which calls solid-js/web template() at top level,
  * a client-only API), causing a build failure. The plugin transparently
  * adds the `client:only` directive so Astro skips SSR for these islands
  * and hydrates them client-side only.

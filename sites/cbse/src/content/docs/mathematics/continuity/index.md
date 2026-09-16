@@ -56,7 +56,7 @@ Continuity ensures a function has no breaks, jumps, or holes. Differentiability 
 - Implicit differentiation: differentiate both sides with respect to $x$
 - Logarithmic differentiation: take $\ln$ of both sides before differentiating
 
-## Worked Example 1 — Continuity at a Point
+## Worked Example 1, Continuity at a Point
 
 **Problem:** Determine whether $f(x) = \begin{cases} \frac{x^2 - 4}{x - 2} & x \neq 2 \\ 6 & x = 2 \end{cases}$ is continuous at $x = 2$.
 
@@ -75,7 +75,7 @@ Since $\lim_{x \to 2} f(x) \neq f(2)$, the function is not continuous at $x = 2$
 
 **Common mistake:** Evaluating the limit by direct substitution when the function has a removable discontinuity. Simplify first.
 
-## Worked Example 2 — Chain Rule
+## Worked Example 2, Chain Rule
 
 **Problem:** Find $\frac{d}{dx}[\sin(\ln(x^2 + 1))]$.
 
@@ -89,7 +89,7 @@ $$= \frac{2x \cos(\ln(x^2 + 1))}{x^2 + 1}$$
 
 **Common mistake:** Forgetting one of the chain rule steps. Each nested function requires one more derivative factor.
 
-## Worked Example 3 — Logarithmic Differentiation
+## Worked Example 3, Logarithmic Differentiation
 
 **Problem:** Find $\frac{dy}{dx}$ if $y = x^x$.
 
@@ -117,9 +117,9 @@ Continuity and differentiability are the foundations of calculus. They guarantee
 
 ## Intuition
 
-**A function is continuous if you can draw it without lifting your pen:** Continuity means there are no holes, jumps, or vertical asymptotes — the function flows smoothly. Think of it as a road with no potholes or cliffs. Differentiability is stricter: it means the road not only exists but has a well-defined slope at every point (no sharp corners). The absolute value function |x| is continuous at x = 0 (no hole) but not differentiable there (sharp V-shape). Chain rule, implicit differentiation, and logarithmic differentiation are just tools for finding slopes of curves that are hard to differentiate directly.
+**A function is continuous if you can draw it without lifting your pen:** Continuity means there are no holes, jumps, or vertical asymptotes, the function flows smoothly. Think of it as a road with no potholes or cliffs. Differentiability is stricter: it means the road not only exists but has a well-defined slope at every point (no sharp corners). The absolute value function |x| is continuous at x = 0 (no hole) but not differentiable there (sharp V-shape). Chain rule, implicit differentiation, and logarithmic differentiation are just tools for finding slopes of curves that are hard to differentiate directly.
 
-**Why it matters:** Continuity and differentiability are the foundations of calculus — they guarantee that limits, derivatives, and integrals work properly. Every physical law expressed as a differential equation assumes continuity. Without these concepts, we couldn't model motion, growth, decay, or virtually any changing quantity.
+**Why it matters:** Continuity and differentiability are the foundations of calculus, they guarantee that limits, derivatives, and integrals work properly. Every physical law expressed as a differential equation assumes continuity. Without these concepts, we couldn't model motion, growth, decay, or virtually any changing quantity.
 
 **The key insight:** Differentiability implies continuity (if a function has a derivative, it must be continuous), but continuity does NOT imply differentiability (a continuous function can have sharp corners). This one-way relationship is a fundamental theorem of calculus.
 
@@ -139,7 +139,7 @@ Continuity and differentiability are the foundations of calculus. They guarantee
 - Implicit differentiation: differentiate both sides, then solve for $\frac{dy}{dx}$
 - Logarithmic differentiation: $\frac{d}{dx}[f(x)] = f(x) \cdot \frac{d}{dx}[\ln f(x)]$
 
-## Worked Example 4 — Continuity of Piecewise Function
+## Worked Example 4, Continuity of Piecewise Function
 
 **Problem:** Find the value of $k$ if $f(x) = \begin{cases} kx + 1 & x \leq 3 \\ 2x - 1 & x > 3 \end{cases}$ is continuous at $x = 3$.
 
@@ -157,7 +157,7 @@ Setting equal: $3k + 1 = 5 \implies k = \frac{4}{3}$
 
 **Common mistake:** Forgetting to check that the function value equals the limits, not just that the left and right limits are equal.
 
-## Worked Example 5 — Derivative Using Chain Rule (Multi-layer)
+## Worked Example 5, Derivative Using Chain Rule (Multi-layer)
 
 **Problem:** Find $\frac{d}{dx} \left[ \ln\left(\sqrt{\sin(x^2)}\right) \right]$.
 
@@ -172,7 +172,7 @@ $$= \frac{x \cos(x^2)}{\sin(x^2)} = x \cot(x^2)$$
 
 **Common mistake:** Not simplifying before differentiating. Simplifying $\ln(\sqrt{u})$ to $\frac{1}{2}\ln u$ makes the chain rule much easier.
 
-## Worked Example 6 — Implicit Differentiation
+## Worked Example 6, Implicit Differentiation
 
 **Problem:** Find $\frac{dy}{dx}$ if $x^2 + y^2 + \sin(xy) = 4$.
 

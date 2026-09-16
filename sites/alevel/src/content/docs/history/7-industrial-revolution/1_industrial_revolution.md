@@ -50,7 +50,7 @@ and mines.
 
 ### Causes of Industrialisation
 
-- **c.1700-1760 — Agricultural Revolution**: Enclosure acts consolidated common land into private
+- **c.1700-1760, Agricultural Revolution**: Enclosure acts consolidated common land into private
   holdings; crop rotation, selective breeding (Robert Bakewell), and seed drills (Jethro Tull)
   increased productivity. Significance: produced a food surplus and displaced rural workers,
   creating an urban labour force.
@@ -63,23 +63,23 @@ and mines.
 
 ### Technological Change
 
-- **1764 — Spinning Jenny (James Hargreaves)**: Multiplied the output of a single spinner.
+- **1764, Spinning Jenny (James Hargreaves)**: Multiplied the output of a single spinner.
   Significance: began the mechanisation of textile production.
 
-- **1769 — Water Frame (Richard Arkwright)**: Water-powered spinning requiring factory production.
+- **1769, Water Frame (Richard Arkwright)**: Water-powered spinning requiring factory production.
   Significance: established the factory system as the dominant mode of textile manufacture.
 
-- **1785 — Power Loom (Edmund Cartwright)**: Mechanised weaving. Significance: completed the
+- **1785, Power Loom (Edmund Cartwright)**: Mechanised weaving. Significance: completed the
   mechanisation of textile production.
 
-- **1769 — Improved Steam Engine (James Watt)**: Separate condenser reduced fuel consumption by 75
+- **1769, Improved Steam Engine (James Watt)**: Separate condenser reduced fuel consumption by 75
   per cent. Significance: provided reliable power independent of water sources; essential for deep
   mining and factories away from rivers.
 
-- **1784 — Puddling Process (Henry Cort)**: Allowed wrought iron production using coke. Significance:
+- **1784, Puddling Process (Henry Cort)**: Allowed wrought iron production using coke. Significance:
   made iron cheaper and more scalable.
 
-- **1825 — Stockton-Darlington Railway (George Stephenson)**: First public steam railway.
+- **1825, Stockton-Darlington Railway (George Stephenson)**: First public steam railway.
   Significance: transformed transport and catalysed further coal and iron production.
 
 ### Social Impact
@@ -91,10 +91,10 @@ and mines.
   machinery, and child labour as young as five. Significance: provoked humanitarian concern and
   legislative intervention.
 
-- **1833 — Factory Act**: Prohibited employment of children under nine in textile mills.
+- **1833, Factory Act**: Prohibited employment of children under nine in textile mills.
   Significance: first effective state regulation of working conditions.
 
-- **1842 — Mines Act**: Prohibited women and children working underground. Significance: followed
+- **1842, Mines Act**: Prohibited women and children working underground. Significance: followed
   the shocking revelations of the Children's Employment Commission.
 
 - **Public health crisis**: Overcrowded, unsanitary urban conditions produced cholera and typhus
@@ -103,21 +103,21 @@ and mines.
 
 ### Political Reform
 
-- **1815 — Corn Laws**: Tariffs on imported grain benefiting landlords but harming the urban poor.
+- **1815, Corn Laws**: Tariffs on imported grain benefiting landlords but harming the urban poor.
   Significance: became a focus of political agitation.
 
-- **1819 — Peterloo Massacre**: Cavalry charged a peaceful reform meeting in Manchester, killing
+- **1819, Peterloo Massacre**: Cavalry charged a peaceful reform meeting in Manchester, killing
   eleven. Significance: exposed the gap between the political system and public opinion.
 
-- **1832 — Reform Act**: Extended the franchise to middle-class men; redistributed seats from
+- **1832, Reform Act**: Extended the franchise to middle-class men; redistributed seats from
   "rotten boroughs" to industrial cities. Significance: first major expansion of the franchise
   since 1688.
 
-- **1838 — People's Charter**: Chartism's six-point programme including universal male suffrage.
+- **1838, People's Charter**: Chartism's six-point programme including universal male suffrage.
   Significance: first mass working-class political movement; five of six demands were eventually
   adopted.
 
-- **1846 — Corn Laws repealed**: Free trade triumph. Significance: marked the decline of landed
+- **1846, Corn Laws repealed**: Free trade triumph. Significance: marked the decline of landed
   aristocratic power.
 
 ## Key Terms
@@ -140,7 +140,7 @@ standards.
   time, benefited society broadly.
 
 - **Pessimist interpretation** (E.P. Thompson, Eric Hobsbawm): The early industrial period saw
-  deteriorating conditions — stagnant wages, long hours, dangerous work, unhealthy cities, and
+  deteriorating conditions, stagnant wages, long hours, dangerous work, unhealthy cities, and
   destroyed communities. Thompson described industrialisation as exploitation and immiseration.
 
 - **Revisionist synthesis** (Robert Feinstein, Nicholas Crafts): Modest real wage improvements but
@@ -177,7 +177,7 @@ When analysing sources from the Industrial Revolution:
 
 ## Intuition
 
-The Industrial Revolution is like a dam breaking. For centuries, agricultural improvements, trade profits, and population growth had been building water pressure behind a wall of tradition and manual labour. When the first machines cracked that wall, the flood of change was unstoppable. Each invention pulled the next — steam engines needed iron, iron needed coal, coal needed deeper mines, deeper mines needed better pumps. The factory system was not just a new way to work; it was a new way of living, where time itself was regimented by the clock rather than the seasons. The social upheaval that followed was the price of progress, paid by those who had no voice in demanding it.
+The Industrial Revolution is like a dam breaking. For centuries, agricultural improvements, trade profits, and population growth had been building water pressure behind a wall of tradition and manual labour. When the first machines cracked that wall, the flood of change was unstoppable. Each invention pulled the next, steam engines needed iron, iron needed coal, coal needed deeper mines, deeper mines needed better pumps. The factory system was not just a new way to work; it was a new way of living, where time itself was regimented by the clock rather than the seasons. The social upheaval that followed was the price of progress, paid by those who had no voice in demanding it.
 
 ## Common Pitfalls
 
@@ -190,26 +190,26 @@ The Industrial Revolution is like a dam breaking. For centuries, agricultural im
 
 ## Worked Examples
 
-### Essay Plan — "The Industrial Revolution was primarily driven by technological innovation."
+### Essay Plan, "The Industrial Revolution was primarily driven by technological innovation."
 
 How far do you agree?
 
 **Introduction**: Technological innovation was essential but insufficient. Capital, labour supply,
 natural resources, and institutional frameworks were equally necessary conditions.
 
-**Paragraph 1 — Technological innovation** (agree): The spinning jenny, water frame, and steam
+**Paragraph 1, Technological innovation** (agree): The spinning jenny, water frame, and steam
 engine transformed production; Arkwright's factory system organised mechanised production
 unprecedentedly. But: many inventions were incremental improvements; the conditions allowing their
 adoption were equally important.
 
-**Paragraph 2 — Agricultural change and labour supply** (alternative): Enclosure created surplus
+**Paragraph 2, Agricultural change and labour supply** (alternative): Enclosure created surplus
 labour; population growth provided workers and consumers. But: labour supply alone does not explain
 mechanisation.
 
-**Paragraph 3 — Capital and commerce** (alternative): Colonial trade and banking provided
+**Paragraph 3, Capital and commerce** (alternative): Colonial trade and banking provided
 investment capital. But: other societies had capital without industrialising.
 
-**Paragraph 4 — Institutional framework** (alternative): Property rights, patent law, and political
+**Paragraph 4, Institutional framework** (alternative): Property rights, patent law, and political
 stability encouraged investment. But: these existed before 1760 without producing industrialisation.
 
 **Conclusion**: Technology was the most visible driver but operated within specific agricultural,

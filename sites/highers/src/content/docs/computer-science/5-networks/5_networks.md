@@ -415,7 +415,7 @@ Users.
 ```python
 query = f"SELECT * FROM users WHERE name = '{user_input}'"
 
-cursor.execute("SELECT * FROM users WHERE name = ?", (user_input,))
+cursor.execute("SELECT * FROM users WHERE name = ?", (user_input))
 ```
 
 **Cross-Site Request Forgery (CSRF):** Attacker tricks the user into performing unwanted actions on

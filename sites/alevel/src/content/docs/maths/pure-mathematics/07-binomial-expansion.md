@@ -228,7 +228,7 @@ To find the coefficient of $x^k$ in $(a + bx)^n$:
 2. Set the power of $x$ equal to $k$: $r = k$.
 3. Substitute $r = k$ and evaluate.
 
-When $n$ is not a positive integer, the general term still works — but you must also check
+When $n$ is not a positive integer, the general term still works, but you must also check
 Convergence ($|bx/a| \lt 1$).
 
 <details>
@@ -694,7 +694,7 @@ $$(1 - 1)^n = \sum_{r=0}^{n} \binom{n}{r} 1^{n-r}(-1)^r = \sum_{r=0}^{n} (-1)^r 
 
 $0^n = 0$ for $n \geq 1$. $\blacksquare$
 
-_Intuition._ This counts the difference between subsets of even size and subsets of odd size — which
+_Intuition._ This counts the difference between subsets of even size and subsets of odd size, which
 Is zero by a parity argument (there's a bijection between even-sized and odd-sized subsets: add or
 Remove one element).
 

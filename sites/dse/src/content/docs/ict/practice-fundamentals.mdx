@@ -38,15 +38,15 @@ programming, and networking.
 
 ## Intuition
 
-ICT practice questions test your understanding of how data moves through a system. Think of a computer as a factory: data enters (input), is processed (CPU), stored temporarily (RAM), stored permanently (disk), and exits (output). Each question asks about one part of this pipeline. The key insight is that computers process binary data only—all text, images, and sounds are converted to binary before processing.
+ICT practice questions test your understanding of how data moves through a system. Think of a computer as a factory: data enters (input), is processed (CPU), stored temporarily (RAM), stored permanently (disk), and exits (output). Each question asks about one part of this pipeline. The key insight is that computers process binary data only–all text, images, and sounds are converted to binary before processing.
 
 ## Common Mistakes
 
 - **Confusing binary and hexadecimal**: each hex digit is 4 bits, not 8. 0xFF = 11111111₂ = 255₁₀, not 256. Hexadecimal is a shorthand for binary, not a separate number base in terms of magnitude.
 - **Forgetting signed number representation**: in two's complement, the leftmost bit is the sign bit. 1000₂ in 4-bit two's complement is -8, not 8. The range for n-bit two's complement is -2^(n-1) to 2^(n-1)-1.
-- **Mixing up topologies**: mesh topology has every device connected to every other (high redundancy), while star has a central hub. Don't confuse redundancy with cost—mesh is expensive but fault-tolerant.
+- **Mixing up topologies**: mesh topology has every device connected to every other (high redundancy), while star has a central hub. Don't confuse redundancy with cost–mesh is expensive but fault-tolerant.
 - **Incorrect unit conversions**: 1 KB = 1024 bytes, not 1000. The "kilo" in computing is 2^10 = 1024, reflecting binary addressing. Similarly, 1 MB = 1024 KB.
-- **Misunderstanding protocols**: TCP is connection-oriented (reliable, slower), UDP is connectionless (unreliable, faster). Don't assume faster always means better—file transfers need TCP's reliability.
+- **Misunderstanding protocols**: TCP is connection-oriented (reliable, slower), UDP is connectionless (unreliable, faster). Don't assume faster always means better–file transfers need TCP's reliability.
 
 <PracticeProblem client:only="solid-js" questions={practiceQuestions}  />
 

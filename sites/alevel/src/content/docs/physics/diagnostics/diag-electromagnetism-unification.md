@@ -26,11 +26,11 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Electromagnetism Unification — Diagnostic Tests
+## Electromagnetism Unification, Diagnostic Tests
 
 ## Unit Tests
 
-### UT-1: Faraday"s Law vs Lenz's Law — Conceptual Distinction
+### UT-1: Faraday"s Law vs Lenz's Law, Conceptual Distinction
 
 **Question:**
 
@@ -87,7 +87,7 @@ The key distinction: Faraday's law determines **how much** EMF is induced; Lenz'
 }
 </script>
 
-### UT-2: EM Wave — Speed, Wavelength, and Frequency
+### UT-2: EM Wave, Speed, Wavelength, and Frequency
 
 **Question:**
 
@@ -186,7 +186,7 @@ currents.
 
 ## Integration Tests
 
-### IT-1: Generating EM Waves — LC Circuit Analogy (with Oscillations)
+### IT-1: Generating EM Waves, LC Circuit Analogy (with Oscillations)
 
 **Question:**
 

@@ -17,7 +17,7 @@ import PracticeProblem from "@components/PracticeProblem";
 
 **Why it matters:** Quantum mechanics is formulated in Hilbert spaces (complete inner product spaces), signal processing uses L2 spaces, and PDE theory uses Sobolev spaces. Functional analysis provides the language for all of these.
 
-**The key insight:** Compactness in infinite dimensions replaces finiteness — a compact operator behaves like a finite-rank operator, which is why spectral theory works for compact operators on Hilbert spaces.
+**The key insight:** Compactness in infinite dimensions replaces finiteness, a compact operator behaves like a finite-rank operator, which is why spectral theory works for compact operators on Hilbert spaces.
 
 ## University Mathematics -- Functional Analysis Practice
 
@@ -43,7 +43,7 @@ the explanation.
 
 **Confusing weak and strong convergence:** In $\ell^2$, the standard basis $e_n$ converges weakly to 0 ($\langle e_n, y\rangle \to 0$ for all $y$) but does not converge in norm ($\|e_n\| = 1$ for all $n$). Weak convergence does not imply strong convergence. Do not conclude $\|x_n - x\| \to 0$ from $\langle x_n, y\rangle \to \langle x, y\rangle$ for all $y$.
 
-**Assuming all bounded operators are compact:** On infinite-dimensional spaces, bounded operators need not be compact. The identity operator $I: \ell^2 \to \ell^2$ is bounded ($\|I\| = 1$) but not compact — it maps the unit ball to itself, which is not compact in infinite dimensions. Compact operators are a strict subset of bounded operators.
+**Assuming all bounded operators are compact:** On infinite-dimensional spaces, bounded operators need not be compact. The identity operator $I: \ell^2 \to \ell^2$ is bounded ($\|I\| = 1$) but not compact, it maps the unit ball to itself, which is not compact in infinite dimensions. Compact operators are a strict subset of bounded operators.
 
 **Forgetting the completeness requirement in the Bounded Inverse Theorem:** A bijective bounded linear operator between Banach spaces has a bounded inverse, but if either space is not complete, this can fail. The differentiation operator on $C^1[0,1] \to C[0,1]$ is bijective and bounded but its inverse (antidifferentiation) is unbounded because $C^1[0,1]$ is not complete under the supremum norm.
 
@@ -57,7 +57,7 @@ the explanation.
 
 **Confusing weak and strong convergence:** In $\ell^2$, the standard basis $e_n$ converges weakly to 0 ($\langle e_n, y\rangle \to 0$ for all $y$) but does not converge in norm ($\|e_n\| = 1$ for all $n$). Weak convergence does not imply strong convergence. Do not conclude $\|x_n - x\| \to 0$ from $\langle x_n, y\rangle \to \langle x, y\rangle$ for all $y$.
 
-**Assuming all bounded operators are compact:** On infinite-dimensional spaces, bounded operators need not be compact. The identity operator $I: \ell^2 \to \ell^2$ is bounded ($\|I\| = 1$) but not compact — it maps the unit ball to itself, which is not compact in infinite dimensions. Compact operators are a strict subset of bounded operators.
+**Assuming all bounded operators are compact:** On infinite-dimensional spaces, bounded operators need not be compact. The identity operator $I: \ell^2 \to \ell^2$ is bounded ($\|I\| = 1$) but not compact, it maps the unit ball to itself, which is not compact in infinite dimensions. Compact operators are a strict subset of bounded operators.
 
 **Forgetting the completeness requirement in the Bounded Inverse Theorem:** A bijective bounded linear operator between Banach spaces has a bounded inverse, but if either space is not complete, this can fail. The differentiation operator on $C^1[0,1] \to C[0,1]$ is bijective and bounded but its inverse (antidifferentiation) is unbounded because $C^1[0,1]$ is not complete under the supremum norm.
 

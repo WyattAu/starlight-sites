@@ -975,11 +975,11 @@ Material within a patient's cells.
 
 ## Intuition
 
-**Nature's instruction manual:** Genetics is like a recipe book — DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
+**Nature's instruction manual:** Genetics is like a recipe book, DNA contains the instructions, genes are individual recipes, and proteins are the dishes that get made. Mutations are typos in the recipe.
 
 **Why it matters:** From genetic diseases to crop improvement, genetics explains inheritance and variation. Understanding genetics helps diagnose and treat genetic disorders.
 
-**The key insight:** Genes don't work alone — most traits are polygenic (controlled by many genes) and influenced by the environment.
+**The key insight:** Genes don't work alone, most traits are polygenic (controlled by many genes) and influenced by the environment.
 
 ## Common Pitfalls
 

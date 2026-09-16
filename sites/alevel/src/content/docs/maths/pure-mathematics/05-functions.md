@@ -38,7 +38,7 @@ categories:
 **Definition.** A _function_ $f$ from a set $A$ (the _domain_) to a set $B$ (the _codomain_) is a
 Rule that assigns to each element $a \in A$ exactly one element $f(a) \in B$. We write $f: A \to B$.
 
-**Definition.** The _range_ (or _image_) of $f$ is the set $\{f(a) : a \in A\} \subseteq B$ — the
+**Definition.** The _range_ (or _image_) of $f$ is the set $\{f(a) : a \in A\} \subseteq B$, the
 Set of all values actually attained.
 
 **Definition.** The _natural domain_ of a real-valued function defined by an algebraic expression is
@@ -223,7 +223,7 @@ Positive $x$-direction.
 
 _Proof._ Let $g(x) = f(x - a)$. The point $(x_0, y_0)$ lies on $y = g(x)$ if and only if
 $y_0 = g(x_0) = f(x_0 - a)$. This means $(x_0 - a, y_0)$ lies on $y = f(x)$. So the point
-$(x_0, y_0)$ on $g$ corresponds to the point $(x_0 - a, y_0)$ on $f$ — a shift right by $a$.
+$(x_0, y_0)$ on $g$ corresponds to the point $(x_0 - a, y_0)$ on $f$, a shift right by $a$.
 $\blacksquare$
 
 _Intuition._ Replacing $x$ with $x - a$ means "to get the same output, I need to input $a$ more."
@@ -251,7 +251,7 @@ $y = f(-x)$. Reflecting $(x_0, y_0)$ in the $y$-axis gives $(-x_0, y_0)$. $\blac
 
 **Proof for $y = f(ax)$ as horizontal stretch.** If $(x_0, y_0)$ is on $y = f(x)$ Then on
 $y = f(ax)$The same $y$-value occurs when $ax = x_0$I.e., $x = \frac{x_0}{a}$. So
-$(\frac{x_0}{a}, y_0)$ is on the new graph — a horizontal stretch by factor $\frac{1}{a}$.
+$(\frac{x_0}{a}, y_0)$ is on the new graph, a horizontal stretch by factor $\frac{1}{a}$.
 $\blacksquare$
 
 :::caution
@@ -417,7 +417,7 @@ Solution: $x \leq -1/3$ or $x \geq 3$I.e., $x \in (-\infty, -1/3] \cup [3, \inft
 
 <hr />
 
-## 10. Transformation Order — Why It Matters
+## 10. Transformation Order, Why It Matters
 
 When multiple transformations are applied to $y = f(x)$The order matters because horizontal and
 Vertical transformations interact differently.

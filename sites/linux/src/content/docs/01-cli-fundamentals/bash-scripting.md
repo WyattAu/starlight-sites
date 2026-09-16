@@ -43,12 +43,12 @@ Three test constructs exist, with important differences:
 | Empty string safety | Requires quoting   | Safe without quotes |
 
 ```bash
-## POSIX test — requires quoting
+## POSIX test, requires quoting
 [ -f "$file" ] && echo "exists"
 [ "$var" = "value" ]
 [ "$n" -eq 5 ]
 
-## Bash test — no quoting required for most cases
+## Bash test, no quoting required for most cases
 [[ -f $file ]] && echo "exists"
 [[ $var == "value" ]]
 [[ $n -eq 5 ]]
@@ -107,7 +107,7 @@ if [[ $input =~ $re ]]; then echo "match"; fi
 ### Arithmetic Comparison
 
 ```bash
-# Inside (( )) — no dollar sign needed for variables
+# Inside (( )), no dollar sign needed for variables
 (( x == 5 ))
 (( x != 5 ))
 (( x > 5 ))
@@ -526,12 +526,12 @@ echo "${str:(-6)}"                # orld!  (alternative syntax)
 
 # Remove prefix
 file="/path/to/file.txt"
-echo "${file##*/}"               # file.txt (longest match — basename)
+echo "${file##*/}"               # file.txt (longest match, basename)
 echo "${file#*/}"                # path/to/file.txt (shortest match)
 
 # Remove suffix
-echo "${file%/*}"                # /path/to (shortest — dirname)
-echo "${file%%/*}"               # (empty — longest match)
+echo "${file%/*}"                # /path/to (shortest, dirname)
+echo "${file%%/*}"               # (empty, longest match)
 
 # Replace
 str="foo bar foo baz foo"
@@ -546,7 +546,7 @@ echo "${str/%foo/QUX}"           # foo bar foo baz QUX (end)
 ```bash
 str="Hello World"
 echo "${str^^}"          # HELLO WORLD (all uppercase)
-echo "${str,,}"          # hello world (all lowercase)
+echo "${str,}"          # hello world (all lowercase)
 echo "${str^}"           # Hello world (first character uppercase)
 echo "${str,}"           # hello World (first character lowercase)
 
@@ -766,7 +766,7 @@ false
 :::
 :::caution
 `pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
-`ERR` trap in complex pipelines — explicit error checking is more reliable.
+`ERR` trap in complex pipelines, explicit error checking is more reliable.
 
 ## Signal Handling
 
@@ -823,7 +823,7 @@ kill -l
 # Send a signal
 kill -TERM 12345
 kill -s SIGTERM 12345
-kill -9 12345    # SIGKILL — cannot be caught, blocked, or ignored
+kill -9 12345    # SIGKILL, cannot be caught, blocked, or ignored
 ```
 
 ## Best Practices
@@ -861,7 +861,7 @@ Common shellcheck warnings and fixes:
 ```bash
 # Always quote variable expansions
 "$var"          # correct
-"$@"            # correct — preserves argument boundaries
+"$@"            # correct, preserves argument boundaries
 "${arr[@]}"     # correct for arrays
 "${!arr[@]}"    # correct for array keys
 
@@ -907,7 +907,7 @@ main "$@"
 ### Portable sh vs Bash
 
 ```bash
-# POSIX sh compatible — maximum portability
+# POSIX sh compatible, maximum portability
 #!/bin/sh
 # Use [ ] not [[ ]]
 # No arrays, no associative arrays
@@ -917,13 +917,13 @@ main "$@"
 # Use printf not echo -e
 # Use $(cmd) not `cmd`
 
-# Bash — when you know the target has bash
+# Bash, when you know the target has bash
 #!/usr/bin/env bash
 # Can use [[ ]], (( )), arrays, process substitution
 # Use bash 4.0+ features only when target is guaranteed
 # Alpine Linux has bash 5.x by default
 # Ubuntu ships bash 5.x
-# macOS ships bash 3.2 (old license) — avoid bash 4+ features for macOS
+# macOS ships bash 3.2 (old license), avoid bash 4+ features for macOS
 ```
 
 ## Common Patterns
@@ -1067,12 +1067,12 @@ result=$(cat "$tmp_dir/output.txt")
 ```bash
 arr=("file with spaces.txt" "another file.txt")
 
-# WRONG — word splitting on spaces
+# WRONG, word splitting on spaces
 for f in ${arr[@]}; do
     echo "$f"
 done
 
-# CORRECT — preserves array element boundaries
+# CORRECT, preserves array element boundaries
 for f in "${arr[@]}"; do
     echo "$f"
 done
@@ -1089,24 +1089,24 @@ is_installed() {
     dpkg -l "$1" &>/dev/null
 }
 
-# WRONG — script exits if package is not installed
+# WRONG, script exits if package is not installed
 is_installed nginx
 
-# CORRECT — handle the return code explicitly
+# CORRECT, handle the return code explicitly
 if is_installed nginx; then
     echo "nginx is installed"
 else
     echo "nginx is not installed"
 fi
 
-# CORRECT — or use || true
+# CORRECT, or use || true
 is_installed nginx || echo "nginx not installed"
 ```
 
 ### Pitfall: Local Variable Scope with command substitution
 
 ```bash
-# WRONG — SC2155: declare and assign separately
+# WRONG, SC2155: declare and assign separately
 function bad() {
     local result=$(some_command)
 }
@@ -1138,19 +1138,19 @@ brew install bash
 ```bash
 result=""
 
-# WRONG — pipe creates a subshell, variables don't propagate
+# WRONG, pipe creates a subshell, variables don't propagate
 echo "hello" | read result
 echo "$result"    # empty!
 
-# CORRECT — use process substitution
+# CORRECT, use process substitution
 read result < <(echo "hello")
 echo "$result"    # hello
 
-# CORRECT — use here-string
+# CORRECT, use here-string
 read result <<< "hello"
 echo "$result"    # hello
 
-# CORRECT — use lastpipe (requires job control disabled)
+# CORRECT, use lastpipe (requires job control disabled)
 shopt -s lastpipe
 echo "hello" | read result
 echo "$result"    # hello (only works in non-interactive shell or with set +m)
@@ -1161,13 +1161,13 @@ echo "$result"    # hello (only works in non-interactive shell or with set +m)
 ```bash
 files="*.txt"
 
-# WRONG — variable expands, then glob matches files
+# WRONG, variable expands, then glob matches files
 ls $files    # expands to ls *.txt, then globs
 
-# CORRECT — quote to prevent globbing
+# CORRECT, quote to prevent globbing
 ls "$files"  # passes literal "*.txt" to ls
 
-# CORRECT — use an array to store globs
+# CORRECT, use an array to store globs
 files=(*.txt)
 ls "${files[@]}"
 ```

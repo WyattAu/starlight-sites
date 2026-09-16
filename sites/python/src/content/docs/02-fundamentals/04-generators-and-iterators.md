@@ -755,7 +755,7 @@ As needed:
 
 ```python
 def natural_numbers():
-    """The infinite sequence 0, 1, 2, 3, ..."""
+    """The infinite sequence 0, 1, 2, 3..."""
     n = 0
     while True:
         yield n
@@ -763,7 +763,7 @@ def natural_numbers():
 
 
 def fibonacci():
-    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, ..."""
+    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8..."""
     a, b = 0, 1
     while True:
         yield a
@@ -1137,7 +1137,7 @@ Ask these questions in order:
 ```python
 # Generator to list: materialize
 gen = (x ** 2 for x in range(100))
-lst = list(gen)  # [0, 1, 4, 9, 16, ...]
+lst = list(gen)  # [0, 1, 4, 9, 16...]
 
 # List to generator: wrap in a generator expression or use iter()
 lst = [1, 2, 3, 4, 5]

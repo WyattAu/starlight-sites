@@ -127,7 +127,7 @@ principle:
 $$U(P) = \frac{1}{4\pi} \iint_{\Sigma} \left[U \frac{\partial}{\partial n}\left(\frac{e^{ikr}}{r}\right) - \frac{e^{ikr}}{r} \frac{\partial U}{\partial n}\right] dS$$
 
 The Kirchhoff boundary conditions assume $U = 0$ and $\partial U/\partial n = 0$ on the opaque
-portion of the screen, though these assumptions are not strictly consistent — a limitation
+portion of the screen, though these assumptions are not strictly consistent, a limitation
 addressed by the **Sommerfeld radiation theory**.
 
 ### 12.10 Thin Lens and Fourier Transformation

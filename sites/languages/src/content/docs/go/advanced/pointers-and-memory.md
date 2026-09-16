@@ -252,11 +252,11 @@ Pointers can also be compared to `nil`.
 
 ## Intuition
 
-**Pointers are addresses, not the houses themselves:** A pointer in Go is like writing a street address on a piece of paper. You can pass the paper around without moving the house. Go's garbage collector is the property manager — when nobody has the address anymore, the house gets demolished and the lot reused. Escape analysis is the city planner deciding whether a house should be temporary (stack) or permanent (heap).
+**Pointers are addresses, not the houses themselves:** A pointer in Go is like writing a street address on a piece of paper. You can pass the paper around without moving the house. Go's garbage collector is the property manager, when nobody has the address anymore, the house gets demolished and the lot reused. Escape analysis is the city planner deciding whether a house should be temporary (stack) or permanent (heap).
 
 **Why it matters:** Understanding pointers and escape analysis lets you write code that allocates on the stack (fast, no GC pressure) rather than the heap (slow, GC-managed). This is the single biggest performance optimization available in Go without changing algorithms.
 
-**The key insight:** Go pointers are safe (no arithmetic, GC-tracked) but still powerful — escape analysis automates the stack/heap decision so you rarely think about it, but knowing the rules helps when performance matters.
+**The key insight:** Go pointers are safe (no arithmetic, GC-tracked) but still powerful, escape analysis automates the stack/heap decision so you rarely think about it, but knowing the rules helps when performance matters.
 
 ## Common Pitfalls
 

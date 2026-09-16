@@ -318,4 +318,4 @@ flowchart TD
 
 - [IB Notes](./)
 - [About This Site](./about)
-- [Complete IB Study Guide — All Subjects & Papers](./hub)
+- [Complete IB Study Guide, All Subjects & Papers](./hub)

@@ -138,18 +138,18 @@ To work, energy, and power, then extends into rigid body mechanics and relativit
 **Key concepts by subtopic:**
 
 - **A.1 Kinematics:** Describing motion using displacement, velocity, and acceleration. The SUVA
-  equations are the most important tool — memorise them and practise identifying which variable is
+  equations are the most important tool, memorise them and practise identifying which variable is
   unknown in each problem. Projectile motion is a frequent exam question; always resolve into
   horizontal and vertical components independently.
 - **A.2 Forces and Momentum:** Free-body diagrams are essential. Newton's second law in momentum
   form ($F = \Delta p / \Delta t$) is commonly tested with impulse questions. Elastic vs inelastic
-  collisions — remember that kinetic energy is conserved in elastic collisions only.
+  collisions, remember that kinetic energy is conserved in elastic collisions only.
 - **A.3 Work, Energy and Power:** The work-energy theorem connects force and motion through energy.
-  Efficiency questions are straightforward marks — do not lose them.
+  Efficiency questions are straightforward marks, do not lose them.
 - **A.4 Rigid Body Mechanics (HL):** Torque and rotational equilibrium appear frequently in Paper 2.
   The moment of inertia depends on mass distribution, not just total mass.
 - **A.5 Relativity (HL):** Time dilation and length contraction are the most commonly tested
-  concepts. Always identify the proper time and proper length first — these belong to the frame
+  concepts. Always identify the proper time and proper length first, these belong to the frame
   where the event occurs at the same position (proper time) or where the object is at rest (proper
   length).
 
@@ -172,7 +172,7 @@ This theme bridges mechanics and thermal physics.
 
 ### Theme C: Wave Behaviour (Core)
 
-Waves appear across many contexts — from sound and light to quantum mechanics.
+Waves appear across many contexts, from sound and light to quantum mechanics.
 
 - **C.1 SHM:** The defining equation $a = -\omega^2 x$ is fundamental. Energy interchange between
   kinetic and potential in SHM mirrors that of a mass-spring system.
@@ -187,7 +187,7 @@ Waves appear across many contexts — from sound and light to quantum mechanics.
 
 ### Theme D: Fields (Core)
 
-Fields describe forces that act at a distance — gravitational, electric, and magnetic.
+Fields describe forces that act at a distance, gravitational, electric, and magnetic.
 
 - **D.1 Gravitational Fields:** Orbital mechanics (Kepler's laws, orbital speed, escape velocity)
   are common. Remember that gravitational potential energy is negative.
@@ -230,14 +230,14 @@ This theme introduces the quantum nature of matter and energy.
 
 | Component | Paper 1                            | Paper 2 | IA  |
 | :-------- | :--------------------------------- | :------ | :-- |
-| Duration  | 45 min (MCQ) + 75 min (structured) | 75 min  | —   |
+| Duration  | 45 min (MCQ) + 75 min (structured) | 75 min  |,   |
 | Weighting | 30% (MCQ) + 20% (structured) = 50% | 25%     | 25% |
 
 ### Higher Level (HL)
 
 | Component | Paper 1                            | Paper 2 | Paper 3 | IA  |
 | :-------- | :--------------------------------- | :------ | :------ | :-- |
-| Duration  | 60 min (MCQ) + 90 min (structured) | 90 min  | 60 min  | —   |
+| Duration  | 60 min (MCQ) + 90 min (structured) | 90 min  | 60 min  |,   |
 | Weighting | 36% (MCQ) + 24% (structured) = 60% | 20%     | 20%     | 20% |
 
 **Paper 1** consists of multiple-choice questions (Section A) followed by structured/data-based
@@ -316,7 +316,7 @@ Might combine:
 - Forgetting the **negative sign** in the first law of thermodynamics sign convention.
 - Using $\theta = 0$ instead of $\theta = 90^\circ$ for the angle between velocity and magnetic
   field when applying $F = qvB \sin\theta$.
-- Mixing up **half-life** and **decay constant** — remember $T_{1/2} = \ln 2 / \lambda$.
+- Mixing up **half-life** and **decay constant**, remember $T_{1/2} = \ln 2 / \lambda$.
 - Forgetting that **gravitational potential energy is negative** and approaches zero at infinity.
 
 ## Common Pitfalls

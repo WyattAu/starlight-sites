@@ -402,7 +402,7 @@ Connections.
 
 **Online gaming:**
 
-- Low latency is critical — a delayed packet is worse than a lost packet
+- Low latency is critical, a delayed packet is worse than a lost packet
 - UDP's lack of retransmission means lost data is skipped (the game moves on)
 - TCP's retransmission and ordering cause delay and jitter
 - Games can implement their own reliability for critical data (e.g., player positions) while
@@ -410,7 +410,7 @@ Connections.
 
 **Video conferencing:**
 
-- Real-time requirement — audio/video from 5 seconds ago is useless
+- Real-time requirement, audio/video from 5 seconds ago is useless
 - UDP delivers packets as fast as possible without waiting for retransmission
 - Occasional packet loss manifests as brief glitches (acceptable)
 - TCP would buffer delayed packets, causing increasing lag
@@ -560,7 +560,7 @@ Step 3: Broadcast address (all host bits = 1):
 
 Broadcast: `10.150.79.255`
 
-Step 4: Usable range: `10.150.64.1` — `10.150.79.254`
+Step 4: Usable range: `10.150.64.1``10.150.79.254`
 
 Hosts per subnet: $2^{12} - 2 = 4094$
 
@@ -573,14 +573,14 @@ Both use `/24`. Network address for each:
 - `192.168.10.50 AND 255.255.255.0` = `192.168.10.0`
 - `192.168.10.200 AND 255.255.255.0` = `192.168.10.0`
 
-Same network address — same subnet.
+Same network address, same subnet.
 
 Now with `/25`:
 
 - `192.168.10.50 AND 255.255.255.128` = `192.168.10.0`
 - `192.168.10.200 AND 255.255.255.128` = `192.168.10.128`
 
-Different network addresses — different subnets.
+Different network addresses, different subnets.
 
 <hr />
 
@@ -610,7 +610,7 @@ Encrypted with this shared secret using AES.
 | Purpose    | Upload and download files              |
 
 FTP uses two separate connections: a control connection (commands) and a data connection (file
-Content). In **active mode**, the server initiates the data connection back to the client —
+Content). In **active mode**, the server initiates the data connection back to the client,
 Problematic through firewalls. In **passive mode**, the client initiates both connections.
 
 ### HTTP vs HTTPS
@@ -634,7 +634,7 @@ A certificate, and all traffic is encrypted. Modern browsers flag HTTP sites as 
 | Encryption | Optional (STARTTLS)                |
 | Purpose    | Sending email between mail servers |
 
-SMTP is a push protocol — the sender pushes the message to the receiver's mail server. For
+SMTP is a push protocol, the sender pushes the message to the receiver's mail server. For
 Receiving, POP3 or IMAP is used.
 
 <hr />
@@ -678,7 +678,7 @@ Supporting at least 200 hosts. Determine a suitable subnet mask and verify the r
 
 Subnets needed: 100. Borrowing bits: $2^6 = 64$ (not enough), $2^7 = 128$ (enough). Borrow 7 bits.
 
-New mask: `/16 + 7 = /23` — `255.255.254.0`
+New mask: `/16 + 7 = /23``255.255.254.0`
 
 Hosts per subnet: $2^{32-23} - 2 = 2^9 - 2 = 510$ (meets the 200 host requirement).
 

@@ -309,11 +309,11 @@ $$P + \frac{1}{2}\rho v^2 + \rho g h = \mathrm{constant}$$
 
 This is a statement of **conservation of energy** per unit volume of fluid:
 
-- $P$ — pressure energy per unit volume
-- $\frac{1}{2}\rho v^2$ — kinetic energy per unit volume
-- $\rho g h$ — gravitational potential energy per unit volume
+- $P$, pressure energy per unit volume
+- $\frac{1}{2}\rho v^2$, kinetic energy per unit volume
+- $\rho g h$, gravitational potential energy per unit volume
 
-**Key consequence — the Venturi effect:** Where the fluid speed increases, the pressure decreases.
+**Key consequence, the Venturi effect:** Where the fluid speed increases, the pressure decreases.
 For a horizontal pipe ($h = \mathrm{const.}$):
 
 $$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
@@ -334,7 +334,7 @@ The pressure there is $1.5 \times 10^5$ Pa.
   $$P_2 = P_1 + \frac{1}{2}\rho(v_1^2 - v_2^2) = 1.5 \times 10^5 + \frac{1}{2}(1000)(4.0 - 25.0)$$
   $$P_2 = 1.5 \times 10^5 - 10500 = 1.395 \times 10^5 \mathrm{ Pa}$$
 
-The pressure **drops** where the fluid speeds up — this is the Venturi effect.
+The pressure **drops** where the fluid speeds up, this is the Venturi effect.
 
 > **Exam Tip:** Bernoulli's equation explains lift on an aeroplane wing (airfoil), the operation of
 > a spray bottle, and why a roof can blow off in high winds. Be ready to apply it conceptually as

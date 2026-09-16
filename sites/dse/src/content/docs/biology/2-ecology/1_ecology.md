@@ -1263,7 +1263,7 @@ slow-release fertilisers).
 
 ## Intuition
 
-**Life's web of interactions:** Ecology is like studying a city's social network — species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
+**Life's web of interactions:** Ecology is like studying a city's social network, species interact through food chains, competition, and symbiosis, and these interactions determine community structure.
 
 **Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
 

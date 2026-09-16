@@ -59,7 +59,7 @@ Derivatives measure the rate of change of a function with respect to its variabl
 - Quotient rule: $\frac{d}{dx}\left[\frac{u}{v}\right] = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^2}$
 - Chain rule: $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
 
-## Worked Example 1 — Product Rule
+## Worked Example 1, Product Rule
 
 **Problem:** Find $\frac{d}{dx}[x^2 \sin x]$.
 
@@ -71,7 +71,7 @@ $$\frac{d}{dx}[x^2 \sin x] = x^2 \cos x + \sin x \cdot 2x = x^2 \cos x + 2x \sin
 
 **Common mistake:** Forgetting to differentiate one of the factors. Both terms must be present.
 
-## Worked Example 2 — Chain Rule
+## Worked Example 2, Chain Rule
 
 **Problem:** Find $\frac{d}{dx}[\sin(3x^2 + 1)]$.
 
@@ -83,7 +83,7 @@ $$\frac{d}{dx}[\sin(3x^2 + 1)] = \cos(3x^2 + 1) \cdot 6x = 6x \cos(3x^2 + 1)$$
 
 **Common mistake:** Forgetting the inner derivative. The answer is not just $\cos(3x^2 + 1)$.
 
-## Worked Example 3 — Implicit Differentiation
+## Worked Example 3, Implicit Differentiation
 
 **Problem:** Find $\frac{dy}{dx}$ if $x^2 + y^2 = 25$.
 
@@ -97,7 +97,7 @@ $$\frac{dy}{dx} = -\frac{x}{y}$$
 
 **Common mistake:** Treating $y$ as a constant when differentiating. Remember that $y$ is a function of $x$, so $\frac{d}{dx}[y^2] = 2y\frac{dy}{dx}$.
 
-## Worked Example 4 — Quotient Rule
+## Worked Example 4, Quotient Rule
 
 **Problem:** Find $\frac{d}{dx}\left[\frac{x}{x^2 + 1}\right]$.
 
@@ -109,7 +109,7 @@ $$\frac{d}{dx}\left[\frac{x}{x^2+1}\right] = \frac{(x^2+1)(1) - x(2x)}{(x^2+1)^2
 
 **Common mistake:** Swapping $u$ and $v$ in the quotient rule formula. The numerator is $v \cdot u' - u \cdot v'$, not $u \cdot v' - v \cdot u'$.
 
-## Worked Example 5 — Higher-Order Derivatives
+## Worked Example 5, Higher-Order Derivatives
 
 **Problem:** If $y = e^{2x}$, find $\frac{d^2y}{dx^2}$.
 
@@ -148,7 +148,7 @@ $$\frac{d^2y}{dx^2} = 2 \cdot 2e^{2x} = 4e^{2x}$$
 4. Simplify your answer by factoring common terms; examiners reward simplified forms.
 5. Verify your derivative by checking dimensions or testing a specific value.
 
-## Worked Example 6 — Product of Three Functions
+## Worked Example 6, Product of Three Functions
 
 **Problem:** Find $\frac{d}{dx}[x \cdot e^x \cdot \sin x]$.
 
@@ -167,7 +167,7 @@ $$= e^x[\sin x + x\sin x + x\cos x] = e^x[(1 + x)\sin x + x\cos x]$$
 
 **Common mistake:** Trying to apply the product rule to three factors at once. Instead, group two factors together and apply the rule iteratively.
 
-## Worked Example 7 — Logarithmic Differentiation
+## Worked Example 7, Logarithmic Differentiation
 
 **Problem:** Find $\frac{dy}{dx}$ if $y = x^x$ for $x > 0$.
 
@@ -182,9 +182,9 @@ $$\frac{1}{y}\frac{dy}{dx} = \ln x + x \cdot \frac{1}{x} = \ln x + 1$$
 Solve for $\frac{dy}{dx}$:
 $$\frac{dy}{dx} = y(\ln x + 1) = x^x(\ln x + 1)$$
 
-**Common mistake:** Treating $x^x$ as a power function ($nx^{n-1}$) or an exponential function ($a^x \ln a$). It is neither — use logarithmic differentiation.
+**Common mistake:** Treating $x^x$ as a power function ($nx^{n-1}$) or an exponential function ($a^x \ln a$). It is neither, use logarithmic differentiation.
 
-## Worked Example 8 — Derivative of an Inverse Function
+## Worked Example 8, Derivative of an Inverse Function
 
 **Problem:** If $f(x) = \tan^{-1}\left(\frac{x}{1 + x^2}\right)$, find $f'(x)$.
 
@@ -219,7 +219,7 @@ $$f'(x) = \frac{(1 + x^2)^2}{1 + 3x^2 + x^4} \cdot \frac{1 - x^2}{(1 + x^2)^2} =
 ## Additional Exam Tips
 
 1. For logarithmic differentiation, take $\ln$ of both sides first, then differentiate implicitly. This is useful for functions of the form $f(x)^{g(x)}$.
-2. The derivative of $\ln|f(x)|$ is $\frac{f'(x)}{f(x)}$ — remember the absolute value for the domain.
+2. The derivative of $\ln|f(x)|$ is $\frac{f'(x)}{f(x)}$, remember the absolute value for the domain.
 3. When differentiating inverse trigonometric functions, always apply the chain rule: $\frac{d}{dx}[\tan^{-1}(u)] = \frac{u'}{1 + u^2}$.
 4. For piecewise functions, check differentiability at the boundary by verifying that the left and right derivatives are equal.
 5. In CBSE exams, questions often combine multiple rules (product + chain, quotient + chain). Practice identifying which rules to apply in which order.

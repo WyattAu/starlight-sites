@@ -25,8 +25,8 @@ description: "A-Level Psychology Psychopathology notes covering key definitions,
 ## Introduction
 
 Psychopathology is the study of mental disorders, including their definitions, explanations, and
-treatments. This section covers the four definitions of abnormality, and three specific disorders —
-depression, phobias, and obsessive-compulsive disorder (OCD) — examining their behavioural,
+treatments. This section covers the four definitions of abnormality, and three specific disorders,
+depression, phobias, and obsessive-compulsive disorder (OCD), examining their behavioural,
 cognitive, and biological explanations alongside evidence-based treatments.
 
 ## Key Concepts
@@ -38,7 +38,7 @@ cognitive, and biological explanations alongside evidence-based treatments.
    inappropriate clothing for the weather may be considered abnormal.
    - _Strength:_ Distinguishes desirable and undesirable behaviour; accounts for the effect that
      abnormal behaviour has on others.
-   - _Limitation:_ Highly culturally relative — social norms vary between cultures and change over
+   - _Limitation:_ Highly culturally relative, social norms vary between cultures and change over
      time. Homosexuality was classified as a mental disorder until 1973. Risk of abuse (e.g.,
      political dissidents diagnosed as mentally ill in the Soviet Union).
 
@@ -46,18 +46,18 @@ cognitive, and biological explanations alongside evidence-based treatments.
    with the demands of everyday life. Rosenhan and Seligman (1989) proposed seven criteria:
    suffering, maladaptiveness, vividness/unconventionality, unpredictability/loss of control,
    irrationality, observer discomfort, and violation of moral/ideal standards.
-   - _Strength:_ Practical and measurable — includes a threshold for professional help; captures the
+   - _Strength:_ Practical and measurable, includes a threshold for professional help; captures the
      experience of the individual.
-   - _Limitation:_ Subjective judgement — who decides what "adequate functioning" means? Some
+   - _Limitation:_ Subjective judgement, who decides what "adequate functioning" means? Some
      behaviour (e.g., extreme sports, religious fasting) may appear dysfunctional but is chosen and
      adaptive. Adaptive or maladaptive depends on context.
 
 3. **Deviation from Ideal Mental Health:** Jahoda (1958) identified six criteria for ideal mental
    health: positive attitudes towards the self, self-actualisation, resistance to stress, personal
    autonomy, accurate perception of reality, and adapting to the environment.
-   - _Strength:_ Comprehensive — covers a broad range of criteria for mental health; positive focus
+   - _Strength:_ Comprehensive, covers a broad range of criteria for mental health; positive focus
      on health rather than illness.
-   - _Limitation:_ Unrealistically high standard — very few people meet all six criteria all the
+   - _Limitation:_ Unrealistically high standard, very few people meet all six criteria all the
      time. Culturally biased towards Western individualist values (personal autonomy,
      self-actualisation).
 
@@ -91,20 +91,20 @@ of negative thinking:
 3. **Negative thoughts about the future** ("Things will never get better")
 
 These negative schemas develop from early experiences and are activated by stressful life events.
-Beck also identified **cognitive distortions** — errors in thinking that maintain depression,
+Beck also identified **cognitive distortions**, errors in thinking that maintain depression,
 including overgeneralisation, magnification (catastrophising), and selective abstraction (focusing
 on negative details while ignoring positive information).
 
 **Ellis's ABC Model (1962):** Ellis proposed that depression is caused by irrational beliefs
 activated by external events:
 
-- **A — Activating event:** An external event that triggers the response (e.g., failing an exam).
-- **B — Beliefs:** The individual's irrational beliefs about the event (e.g., "I am a total
+- **A, Activating event:** An external event that triggers the response (e.g., failing an exam).
+- **B, Beliefs:** The individual's irrational beliefs about the event (e.g., "I am a total
   failure").
-- **C — Consequences:** The emotional and behavioural consequences of the belief (e.g., depression).
+- **C, Consequences:** The emotional and behavioural consequences of the belief (e.g., depression).
 
 Ellis argued that it is not the event itself that causes depression, but the individual's irrational
-interpretation of it. He identified specific irrational beliefs called **musturbatory thinking** —
+interpretation of it. He identified specific irrational beliefs called **musturbatory thinking**,
 "I must be perfect," "Others must treat me well," "The world must be easy."
 
 **Cognitive Treatments:**
@@ -118,7 +118,7 @@ For Beck's approach, CBT involves identifying the negative triad and challenging
 distortions through evidence-gathering and Socratic questioning.
 
 For Ellis's approach, **Rational Emotive Behaviour Therapy (REBT)** focuses on identifying and
-disputing (D) irrational beliefs, leading to effective (E) new philosophy — extended to ABCDE.
+disputing (D) irrational beliefs, leading to effective (E) new philosophy, extended to ABCDE.
 
 **Biological Explanation:**
 
@@ -143,7 +143,7 @@ block the reuptake of serotonin and noradrenaline but have more side effects.
 - **Cognitive:** Selective attention to the feared stimulus, irrational beliefs about the danger,
   difficulty concentrating on anything else.
 
-**Behavioural Explanation — The Two-Process Model (Mowrer, 1960):**
+**Behavioural Explanation, The Two-Process Model (Mowrer, 1960):**
 
 Phobias are acquired through classical conditioning and maintained through operant conditioning.
 
@@ -156,7 +156,7 @@ Phobias are acquired through classical conditioning and maintained through opera
    with a loud noise. The fear generalised to other white, furry objects (rabbit, Santa Claus mask).
 
 2. **Maintenance (operant conditioning):** The phobia is maintained through **negative
-   reinforcement** — the individual avoids the feared stimulus, which removes the anxiety and
+   reinforcement**, the individual avoids the feared stimulus, which removes the anxiety and
    reinforces the avoidance behaviour. This avoidance prevents the person from learning that the
    stimulus is not actually dangerous.
 
@@ -164,7 +164,7 @@ Phobias are acquired through classical conditioning and maintained through opera
 
 **Systematic Desensitisation (SD):** A gradual exposure therapy based on classical conditioning. The
 patient is gradually exposed to the feared stimulus while in a state of deep relaxation, replacing
-the fear response with a relaxation response (**reciprocal inhibition** — it is impossible to be
+the fear response with a relaxation response (**reciprocal inhibition**, it is impossible to be
 anxious and relaxed simultaneously).
 
 **Procedure:**
@@ -176,7 +176,7 @@ anxious and relaxed simultaneously).
    before moving to the next.
 
 **Flooding:** Direct, immediate exposure to the feared stimulus at maximum intensity. Based on the
-principle of **extinction** — the fear response cannot be maintained indefinitely, and eventually
+principle of **extinction**, the fear response cannot be maintained indefinitely, and eventually
 the individual learns that the stimulus is not dangerous. Must be conducted by a trained
 professional. Highly distressing but can be effective in a single session.
 
@@ -185,9 +185,9 @@ professional. Highly distressing but can be effective in a single session.
 **Characteristics:**
 
 - **Emotional:** Extreme anxiety, disgust, guilt, shame.
-- **Behavioural:** Compulsions — repetitive behaviours performed to reduce anxiety (e.g., hand
+- **Behavioural:** Compulsions, repetitive behaviours performed to reduce anxiety (e.g., hand
   washing, checking, counting). Avoidance of situations that trigger obsessions.
-- **Cognitive:** Obsessions — intrusive, unwanted, persistent thoughts, images, or urges (e.g., fear
+- **Cognitive:** Obsessions, intrusive, unwanted, persistent thoughts, images, or urges (e.g., fear
   of contamination, fear of causing harm).
 
 **Biological Explanations:**
@@ -202,7 +202,7 @@ professional. Highly distressing but can be effective in a single session.
    in motor control and habit formation) and the **orbitofrontal cortex** (involved in
    decision-making and evaluating threats). Overactivity in this circuit may cause the repetitive
    thoughts (obsessions) and behaviours (compulsions) characteristic of OCD. Neurotransmitter
-   imbalance — low serotonin levels and abnormal dopamine levels are associated with OCD.
+   imbalance, low serotonin levels and abnormal dopamine levels are associated with OCD.
 
 **Biological Treatment:**
 
@@ -212,14 +212,14 @@ taking 3–4 months to reach full effect. If SSRIs are ineffective, tricyclic an
 clomipramine) or benzodiazepines may be prescribed.
 
 **Combining drugs with CBT:** NICE guidelines recommend combining SSRI medication with CBT
-(specifically Exposure and Response Prevention — ERP) for moderate to severe OCD.
+(specifically Exposure and Response Prevention, ERP) for moderate to severe OCD.
 
 ## Key Studies
 
 | Study                | Researcher(s)   | Year | Method                      | Key Findings                                                                               | Evaluation                                                                                         |
 | -------------------- | --------------- | ---- | --------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Little Albert        | Watson & Rayner | 1920 | Case study / lab experiment | Classically conditioned fear of white rat; generalised to other white objects              | Supports classical conditioning; single case; ethical concerns; confounding variables              |
-| Cognitive triad      | Beck            | 1967 | Clinical observation        | Depressed patients showed systematic negative biases in thinking about self, world, future | Led to CBT; based on self-report; correlational — causality unclear                                |
+| Cognitive triad      | Beck            | 1967 | Clinical observation        | Depressed patients showed systematic negative biases in thinking about self, world, future | Led to CBT; based on self-report; correlational, causality unclear                                |
 | ABC model            | Ellis           | 1962 | Clinical observation        | Irrational beliefs (not events) cause emotional disturbance                                | Practical application in REBT; cultural bias in defining "rational"; difficult to test empirically |
 | OCD genetics         | Nestadt et al.  | 2010 | Family and twin study       | 1st-degree relatives 5x more likely to develop OCD; MZ concordance higher than DZ          | Supports genetic basis; twin studies confounded by shared environment                              |
 | Ideal mental health  | Jahoda          | 1958 | Theoretical analysis        | Six criteria for positive mental health                                                    | Comprehensive; culturally biased; unrealistic standard                                             |
@@ -233,16 +233,16 @@ clomipramine) or benzodiazepines may be prescribed.
 | Phobia                     | An intense, irrational fear of a specific object, situation, or activity                                 |
 | Obsession                  | A persistent, intrusive, unwanted thought, image, or urge                                                |
 | Compulsion                 | A repetitive behaviour performed to reduce the anxiety caused by an obsession                            |
-| Classical conditioning     | Learning through association — a neutral stimulus becomes associated with an unconditioned stimulus      |
-| Operant conditioning       | Learning through consequences — behaviour is reinforced (increased) or punished (decreased)              |
+| Classical conditioning     | Learning through association, a neutral stimulus becomes associated with an unconditioned stimulus      |
+| Operant conditioning       | Learning through consequences, behaviour is reinforced (increased) or punished (decreased)              |
 | Negative reinforcement     | Behaviour is strengthened because it removes or avoids something unpleasant                              |
 | Systematic desensitisation | A behavioural therapy for phobias involving gradual exposure paired with relaxation                      |
 | Flooding                   | A behavioural therapy involving immediate, intense exposure to the feared stimulus                       |
 | Reciprocal inhibition      | The principle that anxiety and relaxation cannot occur simultaneously                                    |
 | Cognitive triad            | Beck's three components of negative thinking in depression: self, world, future                          |
 | Musturbatory thinking      | Ellis's term for irrational, absolute beliefs ("must," "should," "ought")                                |
-| CBT                        | Cognitive Behavioural Therapy — a therapy combining cognitive restructuring with behavioural techniques  |
-| SSRI                       | Selective Serotonin Reuptake Inhibitor — a drug that increases serotonin availability                    |
+| CBT                        | Cognitive Behavioural Therapy, a therapy combining cognitive restructuring with behavioural techniques  |
+| SSRI                       | Selective Serotonin Reuptake Inhibitor, a drug that increases serotonin availability                    |
 | Concordance rate           | The probability that one twin has a disorder given that the other twin has it                            |
 | Diathesis-stress model     | The idea that a genetic vulnerability (diathesis) combined with environmental stress triggers a disorder |
 
@@ -296,7 +296,7 @@ Psychopathology research uses:
 - **Twin and family studies:** Used to investigate genetic contributions to mental disorders. Higher
   concordance rates in MZ vs. DZ twins suggest a genetic component.
 - **Neuroimaging:** fMRI and PET scans identify brain abnormalities associated with mental
-  disorders. Correlational — cannot prove causation.
+  disorders. Correlational, cannot prove causation.
 - **Meta-analysis:** Combining results from multiple studies to provide a more reliable estimate of
   treatment effectiveness.
 
@@ -311,7 +311,7 @@ Psychopathology research uses:
    Flooding is immediate, intense, and relies on extinction. They have different ethical
    implications.
 3. **Oversimplifying biological explanations:** OCD is not merely "caused by a gene" or "caused by
-   low serotonin." The diathesis-stress model is more accurate — genetic vulnerability combined with
+   low serotonin." The diathesis-stress model is more accurate, genetic vulnerability combined with
    environmental stress triggers the disorder. Always present a balanced view.
 
 ## Worked Examples
@@ -332,7 +332,7 @@ ABC model.
 Beck's cognitive triad (1967) proposes that depression is maintained by three interrelated
 components of negative thinking: negative views about the self ("I am worthless"), the world ("The
 world is a terrible place"), and the future ("Nothing will ever improve"). These negative schemas
-develop from early negative experiences — for example, a child who is constantly criticised may
+develop from early negative experiences, for example, a child who is constantly criticised may
 develop a negative self-schema that is activated by later stressful events. Beck also identified
 cognitive distortions that maintain depression, including overgeneralisation (drawing sweeping
 negative conclusions from a single event), catastrophising (expecting the worst possible outcome),
@@ -344,7 +344,7 @@ event (A) itself that causes depression, but the individual's beliefs (B) about 
 lead to emotional and behavioural consequences (C). For example, failing an exam (A) does not
 directly cause depression; rather, the irrational belief "I am a total failure and will never
 succeed" (B) produces the depressive response (C). Ellis specifically identified musturbatory
-thinking — absolute, rigid demands such as "I must always succeed" or "Everyone must like me" — as a
+thinking, absolute, rigid demands such as "I must always succeed" or "Everyone must like me", as a
 key driver of emotional disturbance.
 
 A significant strength of both models is their practical application in treatment. Beck's cognitive
@@ -365,7 +365,7 @@ a causal role in depression.
 
 However, a fundamental limitation of cognitive explanations is the issue of causality. While Beck
 and Ellis argue that negative thinking causes depression, it is equally possible that depression
-causes negative thinking. The relationship may be bidirectional — depressive symptoms may lead to
+causes negative thinking. The relationship may be bidirectional, depressive symptoms may lead to
 negative thoughts, which in turn worsen the depression, creating a vicious cycle. This limits the
 explanatory power of purely cognitive models.
 
@@ -397,7 +397,7 @@ neutral stimulus (e.g., a dog) is paired with an unconditioned stimulus (e.g., b
 inherently produces an unconditioned fear response. Through repeated association, the neutral
 stimulus becomes a conditioned stimulus, eliciting a conditioned fear response even in the absence
 of the unconditioned stimulus. Watson and Rayner's (1920) Little Albert study provided early
-evidence for this process — Albert was conditioned to fear a white rat by pairing it with a loud
+evidence for this process, Albert was conditioned to fear a white rat by pairing it with a loud
 noise, and this fear generalised to other white, furry objects.
 
 Once acquired, the phobia is maintained through operant conditioning, specifically negative
@@ -410,7 +410,7 @@ The behavioural approach has led to highly effective treatments, particularly sy
 desensitisation (SD) and flooding. SD, developed by Wolpe (1958), involves constructing an anxiety
 hierarchy of feared situations, training the patient in relaxation techniques, and then gradually
 exposing the patient to each item on the hierarchy while they maintain a state of relaxation. The
-principle of reciprocal inhibition underlies this treatment — it is physiologically impossible to be
+principle of reciprocal inhibition underlies this treatment, it is physiologically impossible to be
 anxious and relaxed at the same time, so the relaxation response gradually replaces the fear
 response.
 
@@ -421,7 +421,7 @@ phobias, particularly those with a strong cognitive component.
 
 Flooding involves immediate, intense exposure to the feared stimulus at maximum intensity. The
 patient is prevented from escaping or avoiding the stimulus until the anxiety response extinguishes.
-This is based on the principle of extinction — the fear response cannot be maintained indefinitely,
+This is based on the principle of extinction, the fear response cannot be maintained indefinitely,
 and the individual eventually learns that the stimulus is not dangerous. Flooding can be effective
 in a single session, making it highly efficient. However, it is ethically controversial, highly
 distressing, and may cause the patient to drop out of treatment or develop worse anxiety. It must
@@ -430,14 +430,14 @@ only be conducted by trained professionals with full informed consent.
 A strength of the behavioural approach is its strong empirical foundation. The two-process model is
 based on well-established learning principles (classical and operant conditioning) that have been
 demonstrated in hundreds of studies. The treatments derived from the model (SD and flooding) have
-strong evidence for their effectiveness. Furthermore, the approach is parsimonious — it explains
+strong evidence for their effectiveness. Furthermore, the approach is parsimonious, it explains
 phobias using simple, well-understood mechanisms.
 
 However, the behavioural explanation has been criticised for being incomplete. Not all phobias can
 be traced to a specific conditioning event. Öhman and Mineka (2001) found that people more readily
 acquire phobias of evolutionarily relevant stimuli (snakes, spiders, heights) than of modern dangers
 (guns, electrical outlets), suggesting a biological preparedness that the behavioural model does not
-account for. Seligman (1971) called this **biological preparedness** — humans are biologically
+account for. Seligman (1971) called this **biological preparedness**, humans are biologically
 predisposed to learn certain fears more readily because they were adaptive in our evolutionary past.
 
 Additionally, the behavioural approach ignores cognitive factors. Many people with phobias have

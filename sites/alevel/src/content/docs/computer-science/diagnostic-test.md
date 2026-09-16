@@ -1,6 +1,6 @@
 ---
 
-title: A Level Computer Science — Diagnostic Test
+title: A Level Computer Science, Diagnostic Test
 description: "This diagnostic test covers the full A Level Computer Science syllabus. There are Across all topics. Attempt each question, then check your answers. Each"
 date: 2025-06-02T16:25:28.480Z
 tags:
@@ -111,7 +111,7 @@ With $n$ elements?
 <details>
 <summary>Answer</summary>
 
-$O(1)$ — insert at the head by updating the new node's next pointer to the current head and updating
+$O(1)$, insert at the head by updating the new node's next pointer to the current head and updating
 The head pointer. No traversal needed.
 
 **Revision:** [Linked Lists](data-structures/02-linked-lists)
@@ -174,7 +174,7 @@ $\alpha = 200/50 = 4.0$.
 <details>
 <summary>Answer</summary>
 
-$O(\log n)$ — each comparison halves the search space.
+$O(\log n)$, each comparison halves the search space.
 
 **Revision:** [Searching Algorithms](algorithms/01-searching-algorithms)
 
@@ -210,7 +210,7 @@ Elements has at least $n!$ leaves, requiring height $\Omega(\log n!) = \Omega(n 
 <summary>Answer</summary>
 
 Graphs with **negative edge weights**. Dijkstra's greedy choice assumes that once a vertex is
-Finalised, its distance cannot improve — this assumption fails with negative edges.
+Finalised, its distance cannot improve, this assumption fails with negative edges.
 
 **Revision:** [Graph Algorithms](algorithms/03-graph-algorithms)
 
@@ -327,7 +327,7 @@ Requirements?
 <details>
 <summary>Answer</summary>
 
-The **Waterfall** model — its sequential phases suit stable requirements with clear milestones.
+The **Waterfall** model, its sequential phases suit stable requirements with clear milestones.
 
 **Revision:**
 [SDLC](software-engineering/01-software-development-lifecycle)
@@ -352,8 +352,8 @@ shippable product increment.
 <details>
 <summary>Answer</summary>
 
-**Verification:** "Are we building the product right?" — checks conformance to specification.
-**Validation:** "Are we building the right product?" — checks that it meets user needs.
+**Verification:** "Are we building the product right?", checks conformance to specification.
+**Validation:** "Are we building the right product?", checks that it meets user needs.
 
 **Revision:** [Testing](software-engineering/02-testing)
 
@@ -419,7 +419,7 @@ Layer 3 (Network layer). Routers make forwarding decisions based on IP addresses
 <summary>Answer</summary>
 
 UDP has lower latency (no handshake, no retransmission). Delayed packets are useless for real-time
-Communication — better to skip them than wait for retransmission.
+Communication, better to skip them than wait for retransmission.
 
 **Revision:** [Network Fundamentals](networks/01-network-fundamentals)
 
@@ -524,7 +524,7 @@ HAVING AVG(score) > 80;
 <details>
 <summary>Answer</summary>
 
-**Partial dependencies** — non-key attributes depending on only part of a composite key.
+**Partial dependencies**, non-key attributes depending on only part of a composite key.
 
 **Revision:** [Relational Databases](databases/01-relational-databases)
 
@@ -535,7 +535,7 @@ HAVING AVG(score) > 80;
 <details>
 <summary>Answer</summary>
 
-**Atomicity:** A transaction is all-or-nothing — either all operations complete or none do.
+**Atomicity:** A transaction is all-or-nothing, either all operations complete or none do.
 
 **Revision:** [Relational Databases](databases/01-relational-databases)
 
@@ -621,11 +621,11 @@ Count your correct answers and identify weak areas:
 
 | Score | Grade | Recommendation                                        |
 | ----- | ----- | ----------------------------------------------------- |
-| 40–45 | A\*   | Excellent — focus on exam technique                   |
-| 35–39 | A     | Strong — review missed topics briefly                 |
-| 25–34 | B/C   | Good foundation — systematic revision needed          |
-| 15–24 | D/E   | Gaps exist — work through each topic's notes          |
-| 0–14  | U     | Significant revision needed — start with fundamentals |
+| 40–45 | A\*   | Excellent, focus on exam technique                   |
+| 35–39 | A     | Strong, review missed topics briefly                 |
+| 25–34 | B/C   | Good foundation, systematic revision needed          |
+| 15–24 | D/E   | Gaps exist, work through each topic's notes          |
+| 0–14  | U     | Significant revision needed, start with fundamentals |
 
 **Next steps:** For each incorrect answer, follow the revision link and work through the full
 Problem set on that page.

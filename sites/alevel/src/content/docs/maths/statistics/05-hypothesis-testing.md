@@ -427,7 +427,7 @@ Two-tailed: critical values $\pm 1.96$. $|2.078| \gt 1.96$ So **reject** $H_0$.
 
 There is evidence at the 5% level that the die is biased.
 
-**If you get this wrong, revise:** [Binomial Hypothesis Tests](#5-binomial-hypothesis-tests) —
+**If you get this wrong, revise:** [Binomial Hypothesis Tests](#5-binomial-hypothesis-tests),
 Section 5.
 
 </details>
@@ -451,7 +451,7 @@ Critical value: $-1.645$. Since $-2.358 \lt -1.645$**reject** $H_0$.
 
 There is evidence that the proportion passing quality control is less than 90%.
 
-**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests) —
+**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests),
 Section 6.
 
 </details>
@@ -468,7 +468,7 @@ Explain the difference between a Type I error and a Type II error in the context
 **Type II error:** The test says a sick person is healthy (false negative). This means the person
 Goes untreated, potentially with serious consequences.
 
-**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors) —
+**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors),
 Section 3.
 
 </details>
@@ -487,7 +487,7 @@ $P(X \geq 5) = 1 - P(X \leq 4) = 1 - 0.8497 = 0.1503 \gt 0.05$.
 
 Critical region: $X \geq 6$. Actual significance level: 4.73%.
 
-**If you get this wrong, revise:** [Critical Region](#23-critical-region) — Section 2.3.
+**If you get this wrong, revise:** [Critical Region](#23-critical-region), Section 2.3.
 
 </details>
 
@@ -508,7 +508,7 @@ Critical value at 1%: $-2.326$. Since $-2.652 \lt -2.326$**reject** $H_0$.
 
 There is evidence at the 1% level that the mean lifetime is less than 1000 hours.
 
-**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests) —
+**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests),
 Section 6.
 
 </details>
@@ -531,7 +531,7 @@ $c_U = 15$.
 Critical region: $X \leq 5$ or $X \geq 15$. Actual significance level: $2 \times 0.0207 = 0.0414$.
 
 **If you get this wrong, revise:**
-[Critical Values and Significance Levels](#2-critical-values-and-significance-levels) — Section 2.
+[Critical Values and Significance Levels](#2-critical-values-and-significance-levels), Section 2.
 
 </details>
 
@@ -552,7 +552,7 @@ Two-tailed critical values: $\pm 1.96$. $|-1.667| \lt 1.96$ So **do not reject**
 
 There is insufficient evidence at the 5% level that the mean score differs from 70%.
 
-**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests) —
+**If you get this wrong, revise:** [Normal Hypothesis Tests](#6-normal-hypothesis-tests),
 Section 6.
 
 </details>
@@ -575,7 +575,7 @@ Critical region: $X \geq 20$. Since $X = 18 \lt 20$**do not reject** $H_0$.
 
 Insufficient evidence that the new treatment is more effective.
 
-**If you get this wrong, revise:** [Binomial Hypothesis Tests](#5-binomial-hypothesis-tests) —
+**If you get this wrong, revise:** [Binomial Hypothesis Tests](#5-binomial-hypothesis-tests),
 Section 5.
 
 </details>
@@ -589,7 +589,7 @@ Explain why failing to reject $H_0$ does not mean $H_0$ is true.
 <summary>Solution 9</summary>
 Failing to reject $H_0$ means the data is consistent with $H_0$ but does not prove it. The test may lack sufficient power to detect a real effect. For example, if a drug has a small but real benefit, a small sample may not detect it, leading us to fail to reject $H_0$ even though the drug is effective. The absence of evidence is not evidence of absence.
 
-**If you get this wrong, revise:** [Interpreting Results](#7-interpreting-results) — Section 7.
+**If you get this wrong, revise:** [Interpreting Results](#7-interpreting-results), Section 7.
 
 </details>
 
@@ -612,7 +612,7 @@ $P(\bar{X} \lt 51.645 \mid \mu = 52) = P\!\left(Z \lt \dfrac{51.645 - 52}{1}\rig
 
 So $\beta \approx 0.361$ and the power is $1 - \beta \approx 0.639$.
 
-**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors) —
+**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors),
 Section 3.
 
 </details>
@@ -634,7 +634,7 @@ Tail, making the critical value less extreme. This illustrates why the choice be
 Two-tailed must be made **before** seeing the data.
 
 **If you get this wrong, revise:**
-[One-Tailed vs Two-Tailed Tests in Depth](#8-one-tailed-vs-two-tailed-tests-in-depth) — Section 8.
+[One-Tailed vs Two-Tailed Tests in Depth](#8-one-tailed-vs-two-tailed-tests-in-depth), Section 8.
 
 </details>
 
@@ -662,7 +662,7 @@ Two-tailed critical values: $\pm 1.96$. $|0.796| \lt 1.96$ So **do not reject** 
 There is insufficient evidence at the 5% level that the recycling rate differs from 20%.
 
 **If you get this wrong, revise:**
-[Binomial Tests with Normal Approximation](#9-binomial-tests-with-normal-approximation) — Section 9.
+[Binomial Tests with Normal Approximation](#9-binomial-tests-with-normal-approximation), Section 9.
 
 </details>
 
@@ -686,7 +686,7 @@ $H_0: p = 0.5$ at the 5% level. However, the lower bound is only 0.501, so the e
 Majority is borderline. The claim is technically supported by the test, but the narrow margin should
 Be communicated carefully.
 
-**If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals) — Section 10.
+**If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals), Section 10.
 
 </details>
 
@@ -704,7 +704,7 @@ By a two-tailed test at the 5% level.
 $47 \notin (48.2, 53.8)$ So **reject** $H_0$. (c) $\mu_0 = 54$: $54 \notin (48.2, 53.8)$ So **reject**
 $H_0$.
 
-**If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals) — Section 10.
+**If you get this wrong, revise:** [Confidence Intervals](#10-confidence-intervals), Section 10.
 
 </details>
 
@@ -726,7 +726,7 @@ true mean score exceeds 60. The $p$-value of 0.038 means that if the true mean w
 be a 3.8% chance of observing a sample mean of 62.4 or higher. This provides moderate evidence
 Against $H_0$.
 
-**If you get this wrong, revise:** [Interpreting p-Values](#11-interpreting-p-values) — Section 11.
+**If you get this wrong, revise:** [Interpreting p-Values](#11-interpreting-p-values), Section 11.
 
 </details>
 
@@ -757,7 +757,7 @@ Power $= 1 - 0.083 = 0.917$. Increasing $\alpha$ from 0.05 to 0.10 **increases**
 0.847 to 0.917) but also increases the probability of a Type I error. This illustrates the trade-off
 Between Type I and Type II errors.
 
-**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors) —
+**If you get this wrong, revise:** [Type I and Type II Errors](#3-type-i-and-type-ii-errors),
 Section 3.
 
 </details>
@@ -797,10 +797,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Probability](../statistics/03-probability) — The probability theory and distributions used as test statistics are developed in the probability topic.
-- [Statistical Distributions](04-statistical-distributions) — Binomial and normal distributions provide the test statistics for hypothesis testing.
-- [Data Representation](../statistics/01-data-representation) — Summary statistics from data representation are the inputs for significance tests and confidence intervals.
-- [Correlation and Regression](../statistics/02-correlation-and-regression) — Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
+- [Probability](../statistics/03-probability), The probability theory and distributions used as test statistics are developed in the probability topic.
+- [Statistical Distributions](04-statistical-distributions), Binomial and normal distributions provide the test statistics for hypothesis testing.
+- [Data Representation](../statistics/01-data-representation), Summary statistics from data representation are the inputs for significance tests and confidence intervals.
+- [Correlation and Regression](../statistics/02-correlation-and-regression), Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
 
 
 ```mermaid

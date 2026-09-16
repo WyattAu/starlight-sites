@@ -164,7 +164,7 @@ String first = Util.getFirst(List.of("a", "b", "c"));
 // Util.<String, Integer>invert(someMap);
 ```
 
-Generic constructors follow the same pattern — type parameters go before the constructor name:
+Generic constructors follow the same pattern, type parameters go before the constructor name:
 
 ```java
 public class IdentityWrapper<T> {
@@ -228,7 +228,7 @@ public static <T extends Number> double sum(List<T> numbers) { /* ... */ }
 
 // INVALID: type parameter with lower bound
 // public static <T super Integer> void foo(List<T> list) { }
-// Compile error — type parameters cannot have lower bounds
+// Compile error, type parameters cannot have lower bounds
 ```
 
 ### Recursive Bounds
@@ -258,7 +258,7 @@ When a type parameter has a bound, erasure replaces it with the **first bound**:
 // erasure of <T extends Number & Comparable<T>> is Number
 ```
 
-The compiler is smart enough to let you call methods from any bound — it generates the appropriate
+The compiler is smart enough to let you call methods from any bound, it generates the appropriate
 Cast at the call site. But at the bytecode level, the erased type is only the first bound.
 
 ## Wildcards and the PECS Principle
@@ -288,9 +288,9 @@ Use `List<?>` when you don"t care about the element type and only need read-only
 void sum(List<? extends Number> numbers) {
     double total = 0;
     for (Number n : numbers) {
-        total += n.doubleValue();  // OK — every element is at least a Number
+        total += n.doubleValue();  // OK, every element is at least a Number
     }
-    // numbers.add(3.14);          // compile error — don't know if it's List<Double>
+    // numbers.add(3.14);          // compile error, don't know if it's List<Double>
 }
 ```
 
@@ -304,9 +304,9 @@ The compiler cannot safely allow an `add` because the actual list type is unknow
 
 ```java
 void addIntegers(List<? super Integer> list) {
-    list.add(1);          // OK — Integer is assignable to Integer, Number, or Object
+    list.add(1);          // OK, Integer is assignable to Integer, Number, or Object
     list.add(2);          // OK
-    Object obj = list.get(0); // OK — don't know the actual type
+    Object obj = list.get(0); // OK, don't know the actual type
     // Number n = list.get(0);  // compile error
 }
 ```
@@ -365,7 +365,7 @@ List<?> list = new ArrayList<String>();
 addAndPrint(list, "hello"); // T is inferred as String
 ```
 
-This pattern — delegating to a generic helper method to "capture" a wildcard — is called the
+This pattern, delegating to a generic helper method to "capture" a wildcard, is called the
 **wildcard capture helper** pattern.
 
 ### Return Types and Wildcards
@@ -505,8 +505,8 @@ public class CatShelter extends Shelter<Cat> {
 You cannot use `instanceof` with parameterized types because the type parameter is erased:
 
 ```java
-if (list instanceof List<String>)  // compile error — illegal generic type for instanceof
-if (list instanceof List<?>)       // OK since Java 8 for unbounded wildcards? No — still error
+if (list instanceof List<String>)  // compile error, illegal generic type for instanceof
+if (list instanceof List<?>)       // OK since Java 8 for unbounded wildcards? No, still error
 
 // Correct approach:
 if (list instanceof List)  // raw type check only
@@ -522,7 +522,7 @@ Erasure can cause surprising overload conflicts:
 public class Overload {
     public void print(List<String> list) { }
     public void print(List<Integer> list) { }
-    // Compile error: name clash — both erase to print(List)
+    // Compile error: name clash, both erase to print(List)
 }
 ```
 
@@ -538,11 +538,11 @@ Arrays are **covariant** in Java: `String[]` is a subtype of `Object[]`. Generic
 
 ```java
 String[] strings = new String[1];
-Object[] objects = strings;     // OK — arrays are covariant
+Object[] objects = strings;     // OK, arrays are covariant
 objects[0] = 42;                // ArrayStoreException at runtime
 
 List<String> strings = List.of("a");
-// List<Object> objects = strings;  // compile error — generics are invariant
+// List<Object> objects = strings;  // compile error, generics are invariant
 ```
 
 Arrays enforce type safety at runtime (`ArrayStoreException`). Generics enforce it at compile time.
@@ -559,7 +559,7 @@ This is illegal because if it were allowed:
 List<String>[] strings = new List<String>[1]; // hypothetical
 Object[] objects = strings;
 objects[0] = List.of(42);   // would pass compile-time array covariance check
-String s = strings[0].get(0); // ClassCastException at runtime — heap pollution
+String s = strings[0].get(0); // ClassCastException at runtime, heap pollution
 ```
 
 The compiler prevents this by forbidding generic array creation.
@@ -584,7 +584,7 @@ public class ArrayList<E> {
 List<Class<T>> types = new ArrayList<>(); // instead of Class<T>[]
 ```
 
-**Varargs with generic types** — `@SafeVarargs` (JDK 7) suppresses the heap pollution warning for
+**Varargs with generic types**, `@SafeVarargs` (JDK 7) suppresses the heap pollution warning for
 Varargs methods where the caller does not modify the array:
 
 ```java
@@ -764,7 +764,7 @@ public static <T extends Comparable<T>> T readConfig(
 List<String> a = new ArrayList<>();
 List<Integer> b = new ArrayList<>();
 
-System.out.println(a.getClass() == b.getClass()); // true — both are ArrayList
+System.out.println(a.getClass() == b.getClass()); // true, both are ArrayList
 System.out.println(a.getClass());                  // class java.util.ArrayList
 ```
 
@@ -781,7 +781,7 @@ That type. This happens through unchecked casts or mixing raw and generic types:
 ```java
 List raw = new ArrayList<Integer>();
 raw.add("not an integer");  // heap pollution
-List<Integer> integers = raw; // no warning — raw type assignment
+List<Integer> integers = raw; // no warning, raw type assignment
 int x = integers.get(0);   // ClassCastException: String cannot be cast to Integer
 ```
 
@@ -837,19 +837,19 @@ public <T> T[] toArray(T[] array) {
 if (obj instanceof List<String>) // compile error
 ```
 
-**Cast to generic type is unchecked** — erasure reduces it to `(List)` at runtime:
+**Cast to generic type is unchecked**, erasure reduces it to `(List)` at runtime:
 
 ```java
 List<String> list = (List<String>) obj; // unchecked cast warning
 ```
 
-**Cannot throw or catch generic types** — the JVM needs the exception class at runtime:
+**Cannot throw or catch generic types**, the JVM needs the exception class at runtime:
 
 ```java
 try { } catch (T e) { } // compile error
 ```
 
-**Static fields cannot reference type parameters** — shared across all `Box<T>` instances:
+**Static fields cannot reference type parameters**, shared across all `Box<T>` instances:
 
 ```java
 public class Box<T> {
@@ -857,7 +857,7 @@ public class Box<T> {
 }
 ```
 
-**`ClassCastException` at the wrong location** — erasure delays the check to the inserted cast:
+**`ClassCastException` at the wrong location**, erasure delays the check to the inserted cast:
 
 ```java
 List<Integer> list = new ArrayList<>();
@@ -887,15 +887,15 @@ Confuse the compiler.
 ### Mixing Inheritance and Generics
 
 ```java
-public class StringList extends ArrayList<String> { } // valid — fixes T to String
+public class StringList extends ArrayList<String> { } // valid, fixes T to String
 
 public class MyList implements List<String>, List<Integer> {
-    // compile error — both erase to List
+    // compile error, both erase to List
 }
 ```
 
 When extending a generic class, you can fix the type parameter, pass it through, or add constraints
-— but you cannot have conflicting erasures.
+- but you cannot have conflicting erasures.
 
 ```mermaid
 flowchart TD

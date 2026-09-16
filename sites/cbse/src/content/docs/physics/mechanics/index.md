@@ -61,7 +61,7 @@ Mechanics is the branch of physics dealing with motion and the forces that cause
 - Angular momentum: $L = I\omega$
 - Gravitational PE: $U = -\frac{GMm}{r}$
 
-## Worked Example 1 — Projectile Motion
+## Worked Example 1, Projectile Motion
 
 **Problem:** A ball is thrown at $30 \, \text{m/s}$ at $60^\circ$ to the horizontal. Find the range and maximum height.
 
@@ -78,7 +78,7 @@ $$R = \frac{v_0^2 \sin 2\theta}{g} = \frac{900 \times \sin 120^\circ}{9.8} = \fr
 
 **Common mistake:** Using $\sin 2\theta$ with $\theta = 60^\circ$ gives $\sin 120^\circ$, not $\sin 60^\circ$.
 
-## Worked Example 2 — Work-Energy with Friction
+## Worked Example 2, Work-Energy with Friction
 
 **Problem:** A 5 kg block slides down a rough incline of $30^\circ$ from rest over 4 m. The coefficient of kinetic friction is 0.2. Find the speed at the bottom.
 
@@ -99,7 +99,7 @@ $$W_{net} = \frac{1}{2}mv^2 \implies v = \sqrt{\frac{2 \times 64.05}{5}} = \sqrt
 
 **Common mistake:** Forgetting to include the $\cos\theta$ factor when calculating the normal force on an incline.
 
-## Worked Example 3 — Rotational Motion
+## Worked Example 3, Rotational Motion
 
 **Problem:** A solid disc of mass 2 kg and radius 0.3 m rolls without slipping down an incline from height 2 m. Find its speed at the bottom.
 
@@ -127,11 +127,11 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 
 ## Intuition
 
-**Energy is the great simplifier:** Instead of tracking every force at every moment (Newton's approach), you can just compare the beginning and end states. If you know a ball is at height h and want its speed, you don't need to know the path it took — just equate potential energy lost to kinetic energy gained. Energy methods cut through complexity by focusing on what matters: the state, not the journey.
+**Energy is the great simplifier:** Instead of tracking every force at every moment (Newton's approach), you can just compare the beginning and end states. If you know a ball is at height h and want its speed, you don't need to know the path it took, just equate potential energy lost to kinetic energy gained. Energy methods cut through complexity by focusing on what matters: the state, not the journey.
 
 **Why it matters:** Mechanics is the foundation of all physics and engineering. Every bridge, airplane, and robot is designed using these principles. The work-energy theorem connects forces to motion through energy, and rotational dynamics explains everything from spinning tops to galaxy formation.
 
-**The key insight:** The work-energy theorem (W_net = ΔK) is Newton's second law in disguise — integrating F=ma over distance gives you the energy relationship, making many problems dramatically simpler.
+**The key insight:** The work-energy theorem (W_net = ΔK) is Newton's second law in disguise, integrating F=ma over distance gives you the energy relationship, making many problems dramatically simpler.
 
 ## Common Exam Patterns
 

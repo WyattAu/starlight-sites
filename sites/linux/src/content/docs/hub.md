@@ -80,12 +80,12 @@ This hub page maps every resource on this site. The guides cover the core compet
 
 Linux dominates the server market for several reasons:
 
-- **Open source** — free to use, modify, and distribute
-- **Stability** — Linux servers routinely run for years without rebooting
-- **Security** — strong permissions model, rapid patching, and community vigilance
-- **Performance** — efficient resource usage; runs on everything from Raspberry Pi to supercomputers
-- **Ecosystem** — vast package repositories, community support, and enterprise distributions
-- **Cloud native** — all major cloud providers default to Linux for virtual machines and containers
+- **Open source**, free to use, modify, and distribute
+- **Stability**, Linux servers routinely run for years without rebooting
+- **Security**, strong permissions model, rapid patching, and community vigilance
+- **Performance**, efficient resource usage; runs on everything from Raspberry Pi to supercomputers
+- **Ecosystem**, vast package repositories, community support, and enterprise distributions
+- **Cloud native**, all major cloud providers default to Linux for virtual machines and containers
 
 ### Who Should Learn Linux?
 
@@ -104,20 +104,20 @@ Linux distributions package the Linux kernel with system libraries, package mana
 
 ### Debian-Based
 
-- **Debian** — the foundation; known for stability and reliability
-- **Ubuntu** — user-friendly; the most popular desktop and cloud distribution
-- **Linux Mint** — Ubuntu-based with a focus on desktop usability
+- **Debian**, the foundation; known for stability and reliability
+- **Ubuntu**, user-friendly; the most popular desktop and cloud distribution
+- **Linux Mint**, Ubuntu-based with a focus on desktop usability
 
 ### Red Hat-Based
 
-- **Red Hat Enterprise Linux (RHEL)** — enterprise-grade; commercial support
-- **CentOS / AlmaLinux / Rocky Linux** — free RHEL-compatible alternatives
-- **Fedora** — cutting-edge; upstream for RHEL
+- **Red Hat Enterprise Linux (RHEL)**, enterprise-grade; commercial support
+- **CentOS / AlmaLinux / Rocky Linux**, free RHEL-compatible alternatives
+- **Fedora**, cutting-edge; upstream for RHEL
 
 ### Arch-Based
 
-- **Arch Linux** — rolling release; minimal base; user assembles the system
-- **Manjaro** — Arch-based with easier installation and configuration
+- **Arch Linux**, rolling release; minimal base; user assembles the system
+- **Manjaro**, Arch-based with easier installation and configuration
 
 ### Choosing a Distribution
 
@@ -220,28 +220,28 @@ Understanding Linux file systems is essential for managing storage, permissions,
 ### Directory Structure
 
 ```
-/                    — root directory
-├── bin/             — essential user binaries
-├── boot/            — boot loader files
-├── dev/             — device files
-├── etc/             — system configuration
-├── home/            — user home directories
-├── lib/             — shared libraries
-├── mnt/             — temporary mount points
-├── opt/             — optional software
-├── proc/            — process information (virtual)
-├── root/            — root user's home directory
-├── sbin/            — system binaries
-├── srv/             — service data
-├── sys/             — system information (virtual)
-├── tmp/             — temporary files
-├── usr/             — user programs and data
-│   ├── bin/         — user binaries
-│   ├── lib/         — libraries
-│   └── share/       — architecture-independent data
-└── var/             — variable data (logs, mail, spool)
-    ├── log/         — system logs
-    └── tmp/         — persistent temporary files
+/, root directory
+├── bin/, essential user binaries
+├── boot/, boot loader files
+├── dev/, device files
+├── etc/, system configuration
+├── home/, user home directories
+├── lib/, shared libraries
+├── mnt/, temporary mount points
+├── opt/, optional software
+├── proc/, process information (virtual)
+├── root/, root user's home directory
+├── sbin/, system binaries
+├── srv/, service data
+├── sys/, system information (virtual)
+├── tmp/, temporary files
+├── usr/, user programs and data
+│   ├── bin/, user binaries
+│   ├── lib/, libraries
+│   └── share/, architecture-independent data
+└── var/, variable data (logs, mail, spool)
+    ├── log/, system logs
+    └── tmp/, persistent temporary files
 ```
 
 ### File System Types
@@ -510,8 +510,8 @@ find / -writable -type f    # Find world-writable files
 
 ### AppArmor and SELinux
 
-- **AppArmor** — path-based mandatory access control (Ubuntu, SUSE)
-- **SELinux** — label-based mandatory access control (RHEL, Fedora)
+- **AppArmor**, path-based mandatory access control (Ubuntu, SUSE)
+- **SELinux**, label-based mandatory access control (RHEL, Fedora)
 
 Both restrict what processes can do, even as root. Learning to work with them (rather than disabling them) is essential for secure Linux administration.
 
@@ -589,9 +589,9 @@ LVM (Logical Volume Manager) provides flexible disk management, allowing you to 
 
 ### LVM Concepts
 
-- **Physical Volume (PV)** — a disk or partition initialised for LVM
-- **Volume Group (VG)** — a pool of storage from one or more physical volumes
-- **Logical Volume (LV)** — a virtual partition carved from a volume group
+- **Physical Volume (PV)**, a disk or partition initialised for LVM
+- **Volume Group (VG)**, a pool of storage from one or more physical volumes
+- **Logical Volume (LV)**, a virtual partition carved from a volume group
 
 ### LVM Operations
 
@@ -639,12 +639,12 @@ cat /proc/mdstat              # View RAID status
 
 Linux administration connects to many other areas:
 
-- **[TrueNAS Administration](https://truenas.wyattau.com/hub)** — TrueNAS SCALE runs on Linux; ZFS and Linux administration overlap
-- **[Networking](https://networking.wyattau.com/hub)** — network configuration and troubleshooting
-- **[Security](https://security.wyattau.com/hub)** — security hardening and vulnerability assessment
-- **[Performance Tuning](https://tuning.wyattau.com/hub)** — system-level optimisation
-- **[Docker and Kubernetes](https://tools.wyattau.com/kubernetes-docker)** — containerisation on Linux
-- **[Developer Tools](https://tools.wyattau.com/hub)** — development environments on Linux
+- **[TrueNAS Administration](https://truenas.wyattau.com/hub)**, TrueNAS SCALE runs on Linux; ZFS and Linux administration overlap
+- **[Networking](https://networking.wyattau.com/hub)**, network configuration and troubleshooting
+- **[Security](https://security.wyattau.com/hub)**, security hardening and vulnerability assessment
+- **[Performance Tuning](https://tuning.wyattau.com/hub)**, system-level optimisation
+- **[Docker and Kubernetes](https://tools.wyattau.com/kubernetes-docker)**, containerisation on Linux
+- **[Developer Tools](https://tools.wyattau.com/hub)**, development environments on Linux
 
 ---
 
@@ -656,7 +656,7 @@ For server administration, learn Ubuntu or RHEL/AlmaLinux. Ubuntu is the most po
 
 ### How do I become proficient in the command line?
 
-Practice daily. Replace GUI tasks with command-line equivalents. Work through tutorials. Set up a home server and administer it entirely via SSH. The command line becomes intuitive through repetition — there is no shortcut.
+Practice daily. Replace GUI tasks with command-line equivalents. Work through tutorials. Set up a home server and administer it entirely via SSH. The command line becomes intuitive through repetition, there is no shortcut.
 
 ### What is the difference between init systems?
 
@@ -668,11 +668,11 @@ Boot from a live USB or rescue mode. Mount your root filesystem. Use `chroot` to
 
 ### Do I need to learn Linux for a development career?
 
-If you deploy to cloud servers (AWS, GCP, Azure), almost certainly yes. Most cloud instances run Linux. Even if you develop on macOS or Windows, your deployment target is likely Linux. Basic Linux skills — SSH, file management, process control — are expected of most backend and DevOps engineers.
+If you deploy to cloud servers (AWS, GCP, Azure), almost certainly yes. Most cloud instances run Linux. Even if you develop on macOS or Windows, your deployment target is likely Linux. Basic Linux skills, SSH, file management, process control, are expected of most backend and DevOps engineers.
 
 ### How do I keep a Linux system secure?
 
-Keep it updated. Minimise installed packages. Use firewall rules. Enable SELinux or AppArmor. Use SSH keys. Monitor logs. Run services with least privilege. Regularly audit for vulnerabilities. Security is not a one-time setup — it requires ongoing attention.
+Keep it updated. Minimise installed packages. Use firewall rules. Enable SELinux or AppArmor. Use SSH keys. Monitor logs. Run services with least privilege. Regularly audit for vulnerabilities. Security is not a one-time setup, it requires ongoing attention.
 
 ---
 

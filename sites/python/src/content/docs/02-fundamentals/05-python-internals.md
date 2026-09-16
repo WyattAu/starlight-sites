@@ -686,7 +686,7 @@ class Base:
     pass  # No __slots__ -- instances have __dict__
 
 class Child(Base):
-    __slots__ = ("x",)  # Ineffective! Instances still have __dict__ from Base
+    __slots__ = ("x")  # Ineffective! Instances still have __dict__ from Base
 
 c = Child()
 c.y = 10  # Works -- __dict__ exists from Base
@@ -697,10 +697,10 @@ c.y = 10  # Works -- __dict__ exists from Base
 
 ```python
 class Base:
-    __slots__ = ("a",)
+    __slots__ = ("a")
 
 class Child(Base):
-    __slots__ = ("b",)
+    __slots__ = ("b")
 
 c = Child()
 c.a = 1  # OK (from Base's slots)

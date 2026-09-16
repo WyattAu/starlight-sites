@@ -315,7 +315,7 @@ graph TD
 1. **Diversity**: Use controls from different vendors and different technologies. Two firewalls from
    the same vendor with the same ruleset are one control, not two.
 2. **Redundancy**: If one control fails, another should still provide protection. This does not mean
-   identical controls — it means complementary ones.
+   identical controls, it means complementary ones.
 3. **Fail-safe defaults**: When a control fails, it should fail to a more restrictive state, not a
    more permissive one.
 4. **Depth over breadth**: It is better to have 3 controls protecting a critical asset than 1
@@ -513,7 +513,7 @@ Each of these fails because:
 3. **It creates a false sense of security**: You invest effort in hiding rather than hardening.
 4. **It does not survive disclosure**: Once discovered, there is no defense in depth.
 
-Obscurity is not without value — it can reduce noise from automated scanners and raise the effort
+Obscurity is not without value, it can reduce noise from automated scanners and raise the effort
 Required for reconnaissance. But it must never be the sole or primary security control.
 
 ### Obscurity as a Supplementary Layer
@@ -562,7 +562,7 @@ Domains, file hashes) into actionable context (who is attacking, why, and how).
 Threat intelligence is most valuable when integrated into operational workflows:
 
 1. **Patch prioritization**: CISA KEV catalog identifies vulnerabilities known to be actively
-   exploited — patch these first regardless of CVSS score
+   exploited, patch these first regardless of CVSS score
 2. **Detection engineering**: Map threat actor TTPs to detection rules in your SIEM/EDR
 3. **Hunting**: Proactively search your environment for indicators and behaviors associated with
    active campaigns
@@ -578,8 +578,8 @@ Effectiveness of security controls and inform resource allocation.
 
 | Type    | Description                                   | Example                                |
 | ------- | --------------------------------------------- | -------------------------------------- |
-| Leading | Predictive — measures effort and preparedness | Percentage of systems with MFA enabled |
-| Lagging | Reactive — measures outcomes after the fact   | Number of breaches in the last year    |
+| Leading | Predictive, measures effort and preparedness | Percentage of systems with MFA enabled |
+| Lagging | Reactive, measures outcomes after the fact   | Number of breaches in the last year    |
 
 Leading indicators are more actionable because you can influence them before an incident occurs.
 
@@ -609,7 +609,7 @@ Leading indicators are more actionable because you can influence them before an 
 
 ## Security vs Convenience Trade-offs
 
-Every security control introduces friction. The challenge is finding the right balance — not
+Every security control introduces friction. The challenge is finding the right balance, not
 Eliminating friction (which eliminates security), but minimizing unnecessary friction while
 Maintaining adequate protection.
 
@@ -631,7 +631,7 @@ of the security control. A single ransomware incident can cost millions of USD i
 revenue, and regulatory fines. The annual cost of MFA tokens for an entire Organization is a
 rounding error by comparison.
 
-However, excessive security friction drives shadow IT — users routing around controls using personal
+However, excessive security friction drives shadow IT, users routing around controls using personal
 Devices, unapproved SaaS, and shared credentials. The goal is security that is effective without
 Being burdensome enough to create workarounds.
 
@@ -740,12 +740,12 @@ The 2022 revision reorganized controls into four themes:
 
 Running through OWASP Top 10, applying security headers, and enabling MFA is necessary but not
 Sufficient. Checklists capture known patterns but miss novel attacks, context-specific risks, and
-Systemic issues. Security must be a continuous process of threat modeling, testing, and iteration —
+Systemic issues. Security must be a continuous process of threat modeling, testing, and iteration,
 Not a one-time audit.
 
 ### Pitfall 2: Confusing Compliance with Security
 
-PCI-DSS, SOC 2, HIPAA, ISO 27001 — these are compliance frameworks, not security guarantees.
+PCI-DSS, SOC 2, HIPAA, ISO 27001, these are compliance frameworks, not security guarantees.
 Compliance measures whether you have controls in place. Security measures whether those controls are
 Effective. A compliant system can still be breached. A secure system that is not compliant can face
 Legal liability. Both are necessary; neither is sufficient.
@@ -786,7 +786,7 @@ Are not optional extras.
 
 Every organization will experience a security incident. The difference between a contained incident
 And a catastrophe is whether you have a tested, practiced response plan. Without one, you will waste
-The first critical hours figuring out who is responsible, what to do, and how to communicate — while
+The first critical hours figuring out who is responsible, what to do, and how to communicate, while
 The attacker continues to operate undisturbed.
 
 ### Pitfall 8: Assuming Compliance Equals Security
@@ -867,15 +867,15 @@ linked above.
 
 ## Intuition
 
-Security is fundamentally about managing risk in a world where attackers only need to find one weakness while defenders must protect everything. The CIA triad — Confidentiality, Integrity, Availability — provides the framework for thinking about what you're protecting. Confidentiality means keeping secrets secret. Integrity means ensuring data hasn't been tampered with. Availability means systems are accessible when needed. Every security control, from encryption to firewalls to access controls, maps to one or more of these three properties. Understanding this mapping is the first step to building a coherent security posture rather than a collection of disconnected tools.
+Security is fundamentally about managing risk in a world where attackers only need to find one weakness while defenders must protect everything. The CIA triad, Confidentiality, Integrity, Availability, provides the framework for thinking about what you're protecting. Confidentiality means keeping secrets secret. Integrity means ensuring data hasn't been tampered with. Availability means systems are accessible when needed. Every security control, from encryption to firewalls to access controls, maps to one or more of these three properties. Understanding this mapping is the first step to building a coherent security posture rather than a collection of disconnected tools.
 
-The most important mental model in security is defence in depth: layering multiple independent controls so that no single failure leads to total compromise. A firewall without encryption is useless (an attacker who breaches the network sees everything). Encryption without access control is useless (anyone with the key can read the data). Access control without audit logging is useless (you can't detect misuse). Each layer catches what the previous layer missed. This is why the perimeter model ("everything inside the network is safe") failed — attackers who breach the perimeter have unrestricted access. Zero trust ("verify everything, trust nothing") is the modern response: authenticate and authorize at every access point, not just the front door.
+The most important mental model in security is defence in depth: layering multiple independent controls so that no single failure leads to total compromise. A firewall without encryption is useless (an attacker who breaches the network sees everything). Encryption without access control is useless (anyone with the key can read the data). Access control without audit logging is useless (you can't detect misuse). Each layer catches what the previous layer missed. This is why the perimeter model ("everything inside the network is safe") failed, attackers who breach the perimeter have unrestricted access. Zero trust ("verify everything, trust nothing") is the modern response: authenticate and authorize at every access point, not just the front door.
 
-The human element is often the weakest link and the hardest to control. Technical controls are necessary but insufficient without a security-aware culture. The most common attack vectors — phishing, social engineering, misconfigurations — exploit human behaviour, not software vulnerabilities. This is why security awareness training, phishing simulations, and usable security design matter as much as firewalls and encryption. The goal is to make the secure choice the easy choice, so that users don't route around controls using personal devices, unapproved tools, or shared credentials. Security that is too difficult to use correctly will be used incorrectly.
+The human element is often the weakest link and the hardest to control. Technical controls are necessary but insufficient without a security-aware culture. The most common attack vectors, phishing, social engineering, misconfigurations, exploit human behaviour, not software vulnerabilities. This is why security awareness training, phishing simulations, and usable security design matter as much as firewalls and encryption. The goal is to make the secure choice the easy choice, so that users don't route around controls using personal devices, unapproved tools, or shared credentials. Security that is too difficult to use correctly will be used incorrectly.
 
 ## Common Mistakes
 
 - **Relying on security through obscurity:** Hiding implementation details (secret algorithms, hidden URLs) is not a security measure. If the attacker discovers the detail, all protection vanishes. Use well-tested, publicly scrutinised algorithms and focus on key management instead.
 - **Confusing authentication with authorization:** Authentication verifies identity ("who are you"); authorization determines permissions ("what can you do"). A system can authenticate a user perfectly but still grant excessive permissions if authorization is not configured separately.
 - **Ignoring the human element in security design:** The most sophisticated technical controls fail when users find workarounds. If a password policy is too complex, users write passwords on sticky notes. Design security that is easy to use correctly and hard to misuse.
-- **Treating compliance as equivalent to security:** Meeting regulatory requirements (GDPR, ISO 27001) does not mean your system is secure. Compliance is a floor, not a ceiling. Attackers do not care whether you passed an audit — they care whether they can break in.
+- **Treating compliance as equivalent to security:** Meeting regulatory requirements (GDPR, ISO 27001) does not mean your system is secure. Compliance is a floor, not a ceiling. Attackers do not care whether you passed an audit, they care whether they can break in.

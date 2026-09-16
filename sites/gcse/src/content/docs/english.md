@@ -50,11 +50,11 @@ analysis, and evaluation of the writer"s methods.
 
 - **Structured questions**: in most cases four questions progressing from literal comprehension to
   detailed analysis and comparison
-- **Identify and interpret**: "List four things you learn about..." — straightforward information
+- **Identify and interpret**: "List four things you learn about...", straightforward information
   retrieval; read the text carefully and paraphrase
 - **How the writer uses language**: analyse specific words, phrases, and techniques; explain the
   effect on the reader
-- **How the writer uses structure**: analyse the overall organisation of the text — sentence length,
+- **How the writer uses structure**: analyse the overall organisation of the text, sentence length,
   paragraphing, shifts in focus, chronological vs non-linear narrative, openings and endings
 - **Extended critical evaluation**: a longer response requiring a detailed, analytical argument
   about how the writer creates effects
@@ -96,7 +96,7 @@ You will be given a choice: write a descriptive piece based on an image, or writ
 
 **Descriptive writing**:
 
-- Paint a picture with words — focus on sensory details (sight, sound, smell, touch, taste)
+- Paint a picture with words, focus on sensory details (sight, sound, smell, touch, taste)
 - Use figurative language but avoid cliches; aim for original, precise images
 - Zoom in: start with a wide view and focus on specific details
 - Show, don't tell: instead of "he was angry", write "his fists clenched; his jaw tightened"
@@ -107,11 +107,11 @@ You will be given a choice: write a descriptive piece based on an image, or writ
 
 - Have a clear structure: opening (set the scene and introduce the character/situation), development
   (build tension or complication), climax (turning point), resolution (conclusion)
-- Develop character through action, speech, and description — not just telling the reader what the
+- Develop character through action, speech, and description, not just telling the reader what the
   character is like
 - Use dialogue to advance the plot and reveal character
 - Create suspense, mystery, or conflict to engage the reader
-- Endings do not need to be neat — but they should feel earned and relevant
+- Endings do not need to be neat, but they should feel earned and relevant
 
 ### 1.4 Planning Techniques
 
@@ -137,7 +137,7 @@ You will be given a choice: write a descriptive piece based on an image, or writ
 
 - Choose precise, specific words rather than vague ones: "sprinted" not "ran quickly", "bellowed"
   not "shouted loudly"
-- Use ambitious vocabulary correctly — do not use a word you are unsure about just because it sounds
+- Use ambitious vocabulary correctly, do not use a word you are unsure about just because it sounds
   impressive
 - Avoid repetition: use synonyms and varied word choices
 - Keep a list of powerful verbs, adjectives, and adverbs for different moods and settings
@@ -164,11 +164,11 @@ and answer questions that test your understanding, analysis, and ability to comp
 
 **Question types**:
 
-- **Summary**: "Summarise the key points about..." — identify the main ideas concisely; use your own
+- **Summary**: "Summarise the key points about...", identify the main ideas concisely; use your own
   words; keep it brief
-- **Language analysis**: "How does the writer use language to present their viewpoint?" — analyse
+- **Language analysis**: "How does the writer use language to present their viewpoint?", analyse
   specific words and phrases and explain their effect
-- **Comparison**: "Compare how the two writers present their ideas about..." — identify similarities
+- **Comparison**: "Compare how the two writers present their ideas about...", identify similarities
   and differences in content, language, and methods
 
 **Writer's viewpoints and methods**:
@@ -239,12 +239,12 @@ speech, a review).
 - Spoken language differs significantly from written language: it includes pauses, hesitations,
   fillers, repetitions, and non-standard grammar
 - Key features of spoken language to analyse:
-  - **Fillers and hesitations**: "um", "er", "like", "you know" — can indicate uncertainty,
+  - **Fillers and hesitations**: "um", "er", "like", "you know", can indicate uncertainty,
     thoughtfulness, or a desire to maintain the conversation flow
-  - **Backchanneling**: "mm", "yeah", "right" — shows the listener is engaged and encouraging the
+  - **Backchanneling**: "mm", "yeah", "right", shows the listener is engaged and encouraging the
     speaker
   - **Turn-taking**: the way speakers manage who speaks and when; overlap and interruption
-  - **Repair**: self-correction ("I went to... well, I was going to go to...") — speakers constantly
+  - **Repair**: self-correction ("I went to... well, I was going to go to..."), speakers constantly
     monitor and adjust what they say
 
 ### 3.2 Analysis of Speech Features
@@ -328,11 +328,11 @@ For the spoken language endorsement (assessed separately, not graded):
 
 Use the PETAL method for analytical paragraphs:
 
-- **Point**: state your main point evidently and concisely — what are you arguing?
+- **Point**: state your main point evidently and concisely, what are you arguing?
 - **Evidence**: quote a specific word, phrase, or technique from the text; embed shorter quotations
   by definition within your sentence
 - **Technique**: identify the technique the writer has used (simile, metaphor, semantic field, etc.)
-- **Analysis**: explain the effect of the technique on the reader — how does it create meaning,
+- **Analysis**: explain the effect of the technique on the reader, how does it create meaning,
   mood, or atmosphere? What does it suggest about the writer's viewpoint?
 - **Link**: connect this point back to the question and, if possible, to your overall argument
 
@@ -415,7 +415,7 @@ Use the PETAL method for analytical paragraphs:
 6. **Failing to compare in Paper 2**: when asked to compare, you must address similarities and/or
    differences between both texts. Discussing one text in isolation scores very few marks.
 7. **Poor time management**: spending too long on early questions and rushing the final,
-   highest-mark questions. The last question is in most cases worth the most marks — allocate your
+   highest-mark questions. The last question is in most cases worth the most marks, allocate your
    time accordingly.
 
 ## Intuition

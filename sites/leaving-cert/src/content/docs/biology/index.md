@@ -64,7 +64,7 @@ Digestive, circulatory, respiratory, nervous, endocrine, and excretory systems.
 
 ## Study Tips
 
-Mandatory practical activities (MPAs) are always examined — know methods, results, and conclusions.
+Mandatory practical activities (MPAs) are always examined, know methods, results, and conclusions.
 Use precise biological terminology. Diagrams should be large, clear, and fully labelled.
 
 ## Exam Information

@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Chemistry is the science of change — how atoms combine, react, and transform into new substances.**
+**Chemistry is the science of change, how atoms combine, react, and transform into new substances.**
 
-## Halogenoalkanes, Alcohols — Diagnostic Tests
+## Halogenoalkanes, Alcohols, Diagnostic Tests
 
 ## Unit Tests
 

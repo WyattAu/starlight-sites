@@ -61,7 +61,7 @@ Dart is a general-purpose language with four primary compilation targets:
 | **Flutter runtime**  | AOT (release) or JIT (debug)          | Cross-platform GUI applications                     |
 
 The dual JIT/AOT strategy is the defining architectural decision in Dart. During development, the VM
-Uses JIT compilation with **hot reload** — the VM injects updated source into the running process
+Uses JIT compilation with **hot reload**, the VM injects updated source into the running process
 Without restarting. In release, the AOT compiler (`dart2native` / `flutter build`) produces a
 Standalone binary with no runtime dependency on the VM. This is not an interpreter trick; the AOT
 Compiler performs tree-shaking, type inference, and inlining to produce code competitive with C++ on
@@ -151,13 +151,13 @@ void main() {
 
 This is a complete Dart program. Let's dissect it:
 
-- **`void`** — The return type. `main()` returns nothing. Dart supports `void``int``double`
+- **`void`**, The return type. `main()` returns nothing. Dart supports `void``int``double`
   `bool``String``Null`And user-defined types. `void` is a special type indicating no value.
-- **`main()`** — The entry point. The Dart VM looks for a top-level function named `main`. It can
+- **`main()`**, The entry point. The Dart VM looks for a top-level function named `main`. It can
   optionally accept `List<String> args` for command-line arguments.
-- **`print()`** — A top-level function from `dart:core` (implicitly imported). Writes to stdout with
+- **`print()`**, A top-level function from `dart:core` (implicitly imported). Writes to stdout with
   a newline.
-- **No semicolon omission** — Semicolons are required. Unlike JavaScript's ASI, Dart has no
+- **No semicolon omission**, Semicolons are required. Unlike JavaScript's ASI, Dart has no
   automatic semicolon insertion.
 
 ### A More Complete Example
@@ -184,7 +184,7 @@ dart run hello.dart --verbose
 ```
 
 This demonstrates imports, nullable-safe list access, string interpolation, and conditional
-Execution — all within a single file.
+Execution, all within a single file.
 
 ## Typical Toolchain Required
 
@@ -201,7 +201,7 @@ Execution — all within a single file.
   is the top type but still enforces type checks at runtime. Prefer `Object?` over `dynamic` unless
   you genuinely need no static checking.
 - **Assuming Dart has threads**: It does not. Isolates are not threads. You cannot share memory
-  between isolates. If you need shared-memory parallelism, Dart is the wrong tool — use Rust, C++,
+  between isolates. If you need shared-memory parallelism, Dart is the wrong tool, use Rust, C++,
   or Go.
 - **Ignoring tree-shaking**: The AOT compiler only includes code reachable from `main()`. If you use
   reflection or `dynamic` dispatch extensively, tree-shaking cannot work and binary size balloons.

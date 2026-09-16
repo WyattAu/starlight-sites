@@ -411,7 +411,7 @@ private:
 #include "widget.h"
 #include <iostream>
 
-// Complete definition of Impl — hidden from widget.h consumers
+// Complete definition of Impl, hidden from widget.h consumers
 struct Widget::Impl {
     std::string name_;
     std::vector<int> data_;
@@ -594,11 +594,11 @@ Are transferring ownership to another mechanism (e.g., a C API that takes owners
 :::
 ## Intuition
 
-**Exclusive ownership:** std::unique_ptr is like a deed to a house — only one person can own it at a time, and when they leave, the house is demolished.
+**Exclusive ownership:** std::unique_ptr is like a deed to a house, only one person can own it at a time, and when they leave, the house is demolished.
 
 **Why it matters:** unique_ptr provides automatic memory management without garbage collection overhead, preventing memory leaks and dangling pointers.
 
-**The key insight:** unique_ptr has zero overhead compared to raw pointers — it's the default choice for heap-allocated objects.
+**The key insight:** unique_ptr has zero overhead compared to raw pointers, it's the default choice for heap-allocated objects.
 
 ## Common Pitfalls
 

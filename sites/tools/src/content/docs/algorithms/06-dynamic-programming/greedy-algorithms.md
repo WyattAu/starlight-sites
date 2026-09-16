@@ -19,7 +19,7 @@ description: "A greedy algorithm makes the locally optimal choice at each step, 
 
 A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally
 Optimal solution. Unlike dynamic programming, greedy algorithms do not consider all possible
-Subproblems — they commit to a choice and never reconsider.
+Subproblems, they commit to a choice and never reconsider.
 
 ### When to Consider Greedy
 
@@ -174,7 +174,7 @@ Value-to-weight ratio and take as much as possible of the highest-ratio items.
 ```python
 def fractional_knapsack(weights, values, capacity):
     """
-    Fractional knapsack — can take fractions of items.
+    Fractional knapsack, can take fractions of items.
     Time: O(n log n)
     Space: O(n)
     """
@@ -514,7 +514,7 @@ Greedy coin change (always take the largest coin possible) works for certain coi
 ```python
 def greedy_coin_change(amount, coins):
     """
-    Greedy coin change — optimal for canonical coin systems.
+    Greedy coin change, optimal for canonical coin systems.
     Time: O(amount / min_coin) = O(amount)
     Space: O(1)
     """
@@ -542,7 +542,7 @@ The coin system `{1, 3, 4}` is not canonical. For non-canonical systems, use DP.
 ```python
 def dp_coin_change(amount, coins):
     """
-    DP coin change — works for any coin system.
+    DP coin change, works for any coin system.
     Time: O(amount * len(coins))
     Space: O(amount)
     """
@@ -564,7 +564,7 @@ $(\ln n + 1)$-approximation.
 ```python
 def greedy_set_cover(universe, subsets):
     """
-    Greedy set cover — (ln n + 1)-approximation.
+    Greedy set cover, (ln n + 1)-approximation.
     Time: O(|U| * m^2) naive, O(|U| * m) with efficient tracking
     Space: O(|U| + m)
     """

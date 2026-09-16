@@ -111,7 +111,7 @@ NVIDIA GPUs operate along a voltage/frequency (V/F) curve. Each frequency point 
 Voltage required for stability. The GPU Boost algorithm selects the highest frequency point where
 The current conditions (temperature, power, voltage) allow operation.
 
-The V/F curve is non-linear — higher frequencies require disproportionately more voltage. This is
+The V/F curve is non-linear, higher frequencies require disproportionately more voltage. This is
 Because:
 
 $$
@@ -169,7 +169,7 @@ And power constraints. The principles are similar but the implementation differs
 
 ### NVIDIA Undervolting with MSI Afterburner
 
-The most effective GPU tuning technique is undervolting — reducing the voltage at which the GPU
+The most effective GPU tuning technique is undervolting, reducing the voltage at which the GPU
 Operates while maintaining or only slightly reducing the clock frequency.
 
 ```mermaid
@@ -292,7 +292,7 @@ On an overclocked GPU for production compute.
 ### Why Adjust Power Limits
 
 Increasing the power limit allows the GPU to sustain higher boost frequencies for longer. The
-Default power limit is conservative — it accounts for reference cooling solutions and thermal
+Default power limit is conservative, it accounts for reference cooling solutions and thermal
 Environments that may be worse than yours.
 
 ### NVIDIA Power Limits
@@ -406,7 +406,7 @@ Recommended pastes for GPUs:
 ### Linux
 
 ```bash
-# nvidia-smi — NVIDIA GPU management and monitoring
+# nvidia-smi, NVIDIA GPU management and monitoring
 nvidia-smi                    # Basic status
 nvidia-smi -l 1               # Refresh every 1 second
 nvidia-smi -q -d PERFORMANCE  # Detailed performance state
@@ -448,7 +448,7 @@ Technology is relevant for modern gaming.
 
 ### Compute Multi-GPU
 
-For compute workloads (machine learning, rendering), multiple GPUs are used independently — each GPU
+For compute workloads (machine learning, rendering), multiple GPUs are used independently, each GPU
 Processes a portion of the workload. No special inter-GPU communication is required, but:
 
 1. **PCIe bandwidth matters** when transferring data between GPUs or between CPU and GPU. NVLink
@@ -609,7 +609,7 @@ AMD's RDNA 3 introduced a chiplet design with separate compute and I/O dies:
 - **I/O Die (IOD):** 6nm process, contains the display engine, PCIe controller, memory controllers,
   and Infinity Cache.
 - **Infinity Cache:** 96 MB of L3 cache (Navi 31) that dramatically reduces dependence on VRAM
-  bandwidth. This is a key differentiator — RDNA 3 achieves competitive performance with narrower
+  bandwidth. This is a key differentiator, RDNA 3 achieves competitive performance with narrower
   memory buses (384-bit vs. NVIDIA's 384-bit on 4090) thanks to the cache.
 
 ### Memory Controller Architecture
@@ -623,7 +623,7 @@ GPU memory controllers manage the interface between the GPU and VRAM:
   without stalling the GPU.
 
 Understanding the memory controller helps explain why some GPUs with lower bandwidth numbers
-Outperform others in practice — a larger L2 cache or Infinity Cache reduces the effective memory
+Outperform others in practice, a larger L2 cache or Infinity Cache reduces the effective memory
 Traffic.
 
 ## Detailed GPU Undervolting Analysis

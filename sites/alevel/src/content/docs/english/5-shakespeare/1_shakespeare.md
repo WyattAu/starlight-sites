@@ -54,7 +54,7 @@ creating a rhythm close to natural English speech:
 - **Short lines** (fewer than ten syllables) create pauses, emphasising a word or creating tension
 - **Shared lines** (where one character's speech completes another's metre) show intimacy or
   conflict
-- **Prose passages** (no meter) signal a shift in register — often used for comedy, madness, or
+- **Prose passages** (no meter) signal a shift in register, often used for comedy, madness, or
   lower-class characters
 
 #### Imagery and Figurative Language
@@ -223,12 +223,12 @@ A-Level Shakespeare requires engagement with different critical readings. Major 
 
 ### Writing About Shakespeare
 
-- **Quote precisely** — Short, embedded quotations are more effective than long extracts
-- **Name the device, then analyse the effect** — "The metaphor of X suggests..."
-- **Discuss performance possibilities** — "In performance, an actor might deliver this line as..."
-- **Engage with interpretations** — "A feminist reading might argue that..." or "Critics have
+- **Quote precisely**, Short, embedded quotations are more effective than long extracts
+- **Name the device, then analyse the effect**, "The metaphor of X suggests..."
+- **Discuss performance possibilities**, "In performance, an actor might deliver this line as..."
+- **Engage with interpretations**, "A feminist reading might argue that..." or "Critics have
   disagreed about whether..."
-- **Weave in context** — Connect the text to its historical moment without reducing the play to mere
+- **Weave in context**, Connect the text to its historical moment without reducing the play to mere
   propaganda
 
 ## Common Pitfalls
@@ -268,18 +268,18 @@ replace analysis of it.
 
 This soliloquy, delivered after Lady Macbeth's death, is one of the most famous passages in
 Shakespeare. It marks Macbeth's complete descent into nihilism. The repetition of "tomorrow" at the
-opening creates a mechanical, numbing rhythm — three identical beats that suggest the endless,
+opening creates a mechanical, numbing rhythm, three identical beats that suggest the endless,
 meaningless repetition of time. The iambic pentameter is regular and unrelenting, mirroring the
 inevitability of passing time that Macbeth describes.
 
-The metaphor of life as a "walking shadow" reduces human existence to a theatrical illusion — a
+The metaphor of life as a "walking shadow" reduces human existence to a theatrical illusion, a
 "poor player that struts and frets his hour upon the stage." This is deeply ironic given Macbeth's
 own performance of power throughout the play. The imagery of the candle ("Out, out, brief candle")
 suggests both fragility and the possibility of deliberate extinguishment. Macbeth's earlier
 invocation of darkness ("Stars, hide your fires") is answered here by the recognition that the light
 of life is brief and readily snuffed out.
 
-The final image — "a tale told by an idiot, full of sound and fury, signifying nothing" — collapses
+The final image, "a tale told by an idiot, full of sound and fury, signifying nothing", collapses
 the play's own language into meaninglessness. Macbeth, who has been manipulated by the witches'
 equivocation and his own rhetorical self-deception, arrives at the conclusion that language itself
 is empty. This is a moment of both recognition and despair: he sees the truth of his situation but
@@ -291,25 +291,25 @@ has no capacity to change it.
 
 Othello's final speech is an exercise in self-dramatisation and narrative control. Even as he faces
 the consequences of murdering Desdemona, Othello constructs a version of events that preserves his
-dignity. He asks the assembled characters to "speak of me as I am" — yet what follows is a carefully
+dignity. He asks the assembled characters to "speak of me as I am", yet what follows is a carefully
 crafted performance rather than a confession.
 
 The speech contains an extended narrative about a time "in Aleppo once" where Othello "smote" a
 "turban'd Turk" who "beat a Venetian and traduced the state." By casting himself as both the avenger
 and the punished "Turk," Othello splits his identity in two: the noble servant of Venice and the
-"malignant and a turban'd Turk" who must be destroyed. The irony is that this story — which may be
-fabricated — allows Othello to kill himself as both executioner and victim, preserving the role of
+"malignant and a turban'd Turk" who must be destroyed. The irony is that this story, which may be
+fabricated, allows Othello to kill himself as both executioner and victim, preserving the role of
 the tragic hero he has always performed.
 
 A postcolonial reading might note that Othello's final act of self-destruction is framed through an
 Orientalist narrative: he must kill the "Turk" within himself, the racialised Other that Venice has
 always feared. Even in death, Othello serves the state that ultimately destroyed him. The speech's
-concluding couplet — where Lodovico orders Othello's story to be told — raises the question of who
+concluding couplet, where Lodovico orders Othello's story to be told, raises the question of who
 controls narrative and whose version of events survives.
 
 ## Intuition
 
-**Shakespeare’s plays are like timeless human stories — love, power, betrayal, and redemption.**
+**Shakespeare’s plays are like timeless human stories, love, power, betrayal, and redemption.**
 
 
 ```mermaid
@@ -324,7 +324,7 @@ flowchart TD
 
 ## Summary
 
-- Shakespeare's language — meter, imagery, rhetoric — is the primary focus of A-Level analysis
+- Shakespeare's language, meter, imagery, rhetoric, is the primary focus of A-Level analysis
 - Iambic pentameter is the dominant rhythm; deviations are always analytically significant
 - Track image clusters (blood in _Macbeth_, animals in _Othello_, disease in _Hamlet_) across entire
   plays

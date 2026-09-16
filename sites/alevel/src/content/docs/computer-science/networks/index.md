@@ -57,40 +57,40 @@ models that govern these processes.
 
 ### Network Fundamentals
 
-- **LAN, WAN, WLAN** — classification by geography and technology
-- **Client-server vs. peer-to-peer** — architecture models and their trade-offs
-- **Topologies** — star, bus, ring, mesh, hybrid; advantages and disadvantages of each
-- **Transmission media** — copper (twisted pair, coaxial), fibre optic, wireless; bandwidth and
+- **LAN, WAN, WLAN**, classification by geography and technology
+- **Client-server vs. peer-to-peer**, architecture models and their trade-offs
+- **Topologies**, star, bus, ring, mesh, hybrid; advantages and disadvantages of each
+- **Transmission media**, copper (twisted pair, coaxial), fibre optic, wireless; bandwidth and
   latency trade-offs
 
 ### The OSI and TCP/IP Models
 
-- **OSI 7-layer model** — Physical, Data Link, Network, Transport, Session, Presentation,
+- **OSI 7-layer model**, Physical, Data Link, Network, Transport, Session, Presentation,
   Application
-- **TCP/IP 4-layer model** — Link, Internet, Transport, Application
-- **Protocol mapping** — where HTTP, TCP, IP, Ethernet sit in each model
-- **Encapsulation** — how data is wrapped with headers at each layer
+- **TCP/IP 4-layer model**, Link, Internet, Transport, Application
+- **Protocol mapping**, where HTTP, TCP, IP, Ethernet sit in each model
+- **Encapsulation**, how data is wrapped with headers at each layer
 
 ### Protocols
 
-- **TCP** — reliable, connection-oriented; three-way handshake, flow control
-- **UDP** — unreliable, connectionless; when speed matters more than reliability
-- **IP addressing** — IPv4 (dotted decimal), subnet masks, CIDR notation
-- **HTTP/HTTPS** — request-response model, status codes, TLS encryption
-- **DNS** — domain name resolution, hierarchical lookup
-- **DHCP** — automatic IP address assignment
+- **TCP**, reliable, connection-oriented; three-way handshake, flow control
+- **UDP**, unreliable, connectionless; when speed matters more than reliability
+- **IP addressing**, IPv4 (dotted decimal), subnet masks, CIDR notation
+- **HTTP/HTTPS**, request-response model, status codes, TLS encryption
+- **DNS**, domain name resolution, hierarchical lookup
+- **DHCP**, automatic IP address assignment
 
 ### Network Security
 
-- **Firewalls** — packet filtering, stateful inspection
-- **Encryption** — symmetric vs. asymmetric; TLS/SSL handshake
-- **Authentication** — passwords, biometrics, multi-factor authentication
-- **Malware and attacks** — viruses, worms, trojans, phishing, DDoS, SQL injection
+- **Firewalls**, packet filtering, stateful inspection
+- **Encryption**, symmetric vs. asymmetric; TLS/SSL handshake
+- **Authentication**, passwords, biometrics, multi-factor authentication
+- **Malware and attacks**, viruses, worms, trojans, phishing, DDoS, SQL injection
 
 ### Web Technologies
 
-- **HTML, CSS, JavaScript** — structure, presentation, behaviour
-- **Client-side vs. server-side** processing — where computation happens and why
+- **HTML, CSS, JavaScript**, structure, presentation, behaviour
+- **Client-side vs. server-side** processing, where computation happens and why
 
 ## Study Tips
 

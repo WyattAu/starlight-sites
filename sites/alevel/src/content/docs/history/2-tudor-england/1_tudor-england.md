@@ -31,7 +31,7 @@ The Tudor dynasty was born from the Wars of the Roses (1455-1487), a protracted 
 houses of Lancaster and York. Henry VII"s victory at Bosworth Field in 1485 ended Plantagenet rule
 and established a new dynasty whose survival was far from certain.
 
-Over 118 years, England experienced dramatic religious change — from Catholic orthodoxy under Henry
+Over 118 years, England experienced dramatic religious change, from Catholic orthodoxy under Henry
 VII and early Henry VIII, through the break with Rome and establishment of the Church of England, to
 radical Protestantism under Edward VI, Catholic restoration under Mary I, and the Elizabethan
 Religious Settlement that sought a middle way.
@@ -50,77 +50,77 @@ Religious Settlement that sought a middle way.
 
 ### Henry VII: Consolidation of Power
 
-- **1485 — Battle of Bosworth**: Henry defeats Richard III; establishes Tudor dynasty. Significance:
+- **1485, Battle of Bosworth**: Henry defeats Richard III; establishes Tudor dynasty. Significance:
   ends Wars of the Roses, but Yorkist claimants remain a threat.
-- **1486 — Marriage to Elizabeth of York**: Unites Lancastrian and Yorkist claims. Significance:
+- **1486, Marriage to Elizabeth of York**: Unites Lancastrian and Yorkist claims. Significance:
   weakens opposition by symbolically ending the dynastic divide.
-- **1487 — Battle of Stoke**: Defeats Lambert Simnel's rebellion. Significance: last serious
+- **1487, Battle of Stoke**: Defeats Lambert Simnel's rebellion. Significance: last serious
   military challenge to Henry's throne.
-- **1497 — Treaty of Medina del Campo**: Alliance with Spain, sealed by marriage arrangement for
+- **1497, Treaty of Medina del Campo**: Alliance with Spain, sealed by marriage arrangement for
   Arthur and Catherine of Aragon. Significance: secures international legitimacy.
-- **1499 — Execution of the Earl of Warwick**: Eliminates last male Plantagenet. Significance:
+- **1499, Execution of the Earl of Warwick**: Eliminates last male Plantagenet. Significance:
   removes focal point for Yorkist plots.
 
 ### Henry VIII and the Reformation
 
-- **1509 — Accession of Henry VIII**: Young, athletic, Renaissance prince. Significance: initial
+- **1509, Accession of Henry VIII**: Young, athletic, Renaissance prince. Significance: initial
   popularity contrasts with later tyranny.
-- **1513 — Battle of Flodden**: English victory over Scotland; James IV killed. Significance:
+- **1513, Battle of Flodden**: English victory over Scotland; James IV killed. Significance:
   secures northern border.
-- **1521 — Henry named "Defender of the Faith"**: Pope rewards Henry's anti-Lutheran treatise.
+- **1521, Henry named "Defender of the Faith"**: Pope rewards Henry's anti-Lutheran treatise.
   Significance: deep irony given later break with Rome.
-- **1527 — Henry seeks annulment from Catherine of Aragon**: The "King's Great Matter" begins.
+- **1527, Henry seeks annulment from Catherine of Aragon**: The "King's Great Matter" begins.
   Significance: triggers the English Reformation.
-- **1533 — Henry marries Anne Boleyn; Thomas Cranmer grants annulment**: Significance: defies papal
+- **1533, Henry marries Anne Boleyn; Thomas Cranmer grants annulment**: Significance: defies papal
   authority.
-- **1534 — Act of Supremacy**: Henry declared Supreme Head of the Church of England. Significance:
+- **1534, Act of Supremacy**: Henry declared Supreme Head of the Church of England. Significance:
   fundamental break with Rome; transforms English religion and politics.
-- **1536-1541 — Dissolution of the Monasteries**: Monastic wealth seized by the Crown. Significance:
+- **1536-1541, Dissolution of the Monasteries**: Monastic wealth seized by the Crown. Significance:
   economic motivation merges with religious reform; redistributes land and creates a new class of
   gentry loyal to the regime.
-- **1536 — Pilgrimage of Grace**: Major Catholic rebellion in the north. Significance: most serious
+- **1536, Pilgrimage of Grace**: Major Catholic rebellion in the north. Significance: most serious
   domestic threat to Henry; suppressed through deception and execution.
 
 ### Edward VI
 
-- **1547 — Accession aged 9**: Somerset becomes Lord Protector. Significance: minority rule leads to
+- **1547, Accession aged 9**: Somerset becomes Lord Protector. Significance: minority rule leads to
   factional politics.
-- **1547-1549 — Somerset's reforms**: Introduction of the Book of Common Prayer (1549), moves toward
+- **1547-1549, Somerset's reforms**: Introduction of the Book of Common Prayer (1549), moves toward
   Protestant worship. Significance: radical religious change imposed from above.
-- **1549 — Kett's Rebellion and Western Prayer Book Rebellion**: Responses to religious and economic
+- **1549, Kett's Rebellion and Western Prayer Book Rebellion**: Responses to religious and economic
   grievances. Significance: reveals popular resistance to top-down reform.
-- **1549-1553 — Northumberland's protectorate**: Further Protestant radicalism, including the 1552
+- **1549-1553, Northumberland's protectorate**: Further Protestant radicalism, including the 1552
   Book of Common Prayer. Significance: pushes England toward Calvinism.
-- **1553 — Edward's "Devise for the Succession"**: Attempts to name Lady Jane Grey as heir.
+- **1553, Edward's "Devise for the Succession"**: Attempts to name Lady Jane Grey as heir.
   Significance: fails; Mary triumphs, demonstrating popular support for legitimate succession.
 
 ### Mary I
 
-- **1553 — Accession**: First queen regnant. Significance: challenges contemporary assumptions about
+- **1553, Accession**: First queen regnant. Significance: challenges contemporary assumptions about
   female rule.
-- **1554 — Marriage to Philip of Spain**: Unpopular match. Significance: fears of Spanish
+- **1554, Marriage to Philip of Spain**: Unpopular match. Significance: fears of Spanish
   domination; triggers Wyatt's Rebellion.
-- **1555-1558 — Marian burnings**: Approximately 280 Protestants burned at the stake. Significance:
+- **1555-1558, Marian burnings**: Approximately 280 Protestants burned at the stake. Significance:
   earns Mary the nickname "Bloody Mary"; martyrdom strengthens Protestant resolve.
-- **1558 — Loss of Calais**: England's last territory in France falls. Significance: symbolically
+- **1558, Loss of Calais**: England's last territory in France falls. Significance: symbolically
   and strategically damaging.
 
 ### Elizabeth I
 
-- **1558 — Accession**: Inherits a religiously divided and financially strained kingdom.
+- **1558, Accession**: Inherits a religiously divided and financially strained kingdom.
   Significance: must navigate between Catholic and Protestant extremes.
-- **1559 — Elizabethan Religious Settlement**: Act of Supremacy (Elizabeth as Supreme Governor) and
+- **1559, Elizabethan Religious Settlement**: Act of Supremacy (Elizabeth as Supreme Governor) and
   Act of Uniformity (reintroduces Protestant worship with some Catholic elements). Significance:
   pragmatic compromise that defines the Church of England.
-- **1568 — Mary Queen of Scots flees to England**: Catholic figurehead enters England. Significance:
+- **1568, Mary Queen of Scots flees to England**: Catholic figurehead enters England. Significance:
   focus for Catholic plots for 19 years.
-- **1570 — Papal Bull "Regnans in Excelsis"**: Pope excommunicates Elizabeth and releases subjects
+- **1570, Papal Bull "Regnans in Excelsis"**: Pope excommunicates Elizabeth and releases subjects
   from allegiance. Significance: increases threat of Catholic opposition.
-- **1586 — Babington Plot**: Evidence implicates Mary Queen of Scots in assassination plot.
+- **1586, Babington Plot**: Evidence implicates Mary Queen of Scots in assassination plot.
   Significance: leads to Mary's execution (1587).
-- **1588 — Spanish Armada**: Spanish invasion fleet defeated. Significance: propaganda victory for
+- **1588, Spanish Armada**: Spanish invasion fleet defeated. Significance: propaganda victory for
   Elizabeth; demonstrates English naval capability.
-- **1601 — Elizabeth's "Golden Speech"**: Addresses Parliament on monopolies. Significance: reflects
+- **1601, Elizabeth's "Golden Speech"**: Addresses Parliament on monopolies. Significance: reflects
   the political skill that characterised her reign.
 
 ## Key Figures and Their Roles
@@ -184,10 +184,10 @@ When analysing Tudor sources, consider:
 
 - **Acts of Parliament**: Reveal official policy but not necessarily popular reception
 - **Chronicles**: Contemporary accounts (e.g., Hall, Holinshed) but shaped by author's perspective
-- **Letters and dispatches**: Private communications (e.g., Eustace Chapuys, Imperial ambassador) —
+- **Letters and dispatches**: Private communications (e.g., Eustace Chapuys, Imperial ambassador),
   candid but biased
-- **Literary sources**: Plays, poems, and pamphlets — reflect and shape public opinion
-- **Visual sources**: Portraits, woodcuts, and architecture — deliberate political messaging
+- **Literary sources**: Plays, poems, and pamphlets, reflect and shape public opinion
+- **Visual sources**: Portraits, woodcuts, and architecture, deliberate political messaging
 
 ## Common Pitfalls
 
@@ -202,33 +202,33 @@ When analysing Tudor sources, consider:
 
 ## Worked Examples
 
-### Example 1: Essay Plan — "Henry VIII's break with Rome was motivated primarily by personal desire for an annulment." How far do you agree?
+### Example 1: Essay Plan, "Henry VIII's break with Rome was motivated primarily by personal desire for an annulment." How far do you agree?
 
 **Introduction**: The annulment was the immediate trigger, but the break with Rome also reflected
 political, financial, and religious motivations that extended beyond Henry's personal marital needs.
 
-**Paragraph 1 — Personal motivation** (agree)
+**Paragraph 1, Personal motivation** (agree)
 
 - Henry's desperation for a male heir drove the "King's Great Matter"
 - Obsession with Anne Boleyn from 1527
 - Personal pride: refusal to accept papal authority over the king
 - But: the break went far beyond what was necessary for an annulment
 
-**Paragraph 2 — Political motivation** (alternative)
+**Paragraph 2, Political motivation** (alternative)
 
 - Desire for full sovereignty: no foreign power (the Pope) should have authority in England
 - Cromwell's vision of a unified realm under the Crown
-- Threat from Catherine's nephew, Emperor Charles V — papal pressure was politically motivated
+- Threat from Catherine's nephew, Emperor Charles V, papal pressure was politically motivated
 - The Act of Supremacy fundamentally redefined the relationship between Crown and Church
 
-**Paragraph 3 — Financial motivation** (alternative)
+**Paragraph 3, Financial motivation** (alternative)
 
 - Dissolution of the Monasteries generated enormous wealth
 - Monastic lands sold or granted to create a loyal gentry class
-- Cromwell's Valor Ecclesiasticus (1535) assessed church wealth — revealing the scale of the prize
+- Cromwell's Valor Ecclesiasticus (1535) assessed church wealth, revealing the scale of the prize
 - But: financial gain may have been a consequence rather than a primary cause
 
-**Paragraph 4 — Religious motivation** (alternative)
+**Paragraph 4, Religious motivation** (alternative)
 
 - Henry was influenced by humanist and reformist ideas, though he remained theologically
   conservative
@@ -241,33 +241,33 @@ and financial considerations. Henry's desire for sovereignty and Cromwell's admi
 turned a marital crisis into a revolution. Personal desire started the process; structural factors
 determined its scale.
 
-### Example 2: Essay Plan — "Elizabeth I's religious settlement of 1559 was a failure." How far do you agree?
+### Example 2: Essay Plan, "Elizabeth I's religious settlement of 1559 was a failure." How far do you agree?
 
 **Introduction**: The settlement failed to satisfy either Catholic or Puritan extremes, but its
 durability and pragmatic compromise made it a qualified success in maintaining religious stability.
 
-**Paragraph 1 — Catholic opposition** (agree)
+**Paragraph 1, Catholic opposition** (agree)
 
 - Recusancy remained significant, especially in the north
 - Papal excommunication (1570) and subsequent plots (Ridolfi, Throckmorton, Babington)
 - Mary Queen of Scots as a Catholic figurehead
 - The settlement alienated those who wanted full reconciliation with Rome
 
-**Paragraph 2 — Puritan opposition** (agree)
+**Paragraph 2, Puritan opposition** (agree)
 
 - Puritans wanted further reform: removal of vestments, episcopacy, and ceremony
 - Vestments controversy (1560s), Admonition controversy (1570s)
 - Some Puritans rejected the settlement as insufficient
 - But: Puritan opposition was numerically small and politically manageable
 
-**Paragraph 3 — Political success** (disagree)
+**Paragraph 3, Political success** (disagree)
 
 - The settlement lasted Elizabeth's entire reign and beyond
-- Act of Supremacy made Elizabeth "Supreme Governor" — a title acceptable to many moderates
+- Act of Supremacy made Elizabeth "Supreme Governor", a title acceptable to many moderates
 - Act of Uniformity established a single form of worship, promoting national unity
 - Elizabeth skillfully balanced factions and avoided extremes
 
-**Paragraph 4 — Long-term significance** (disagree)
+**Paragraph 4, Long-term significance** (disagree)
 
 - The settlement defined the Church of England for centuries
 - Demonstrated that religious compromise was possible in a divided nation

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Paper 1 — Pure Mathematics
+## Paper 1, Pure Mathematics
 
 **Time allowed:** 120 minutes **Total marks:** 100 **Topics covered:** All 14 pure mathematics
 topics
@@ -33,7 +33,7 @@ topics
 
 ## Instructions
 
-Answer all questions. Calculators are permitted unless otherwise stated. Show all working — marks
+Answer all questions. Calculators are permitted unless otherwise stated. Show all working, marks
 are awarded for method as well as final answer.
 
 ---
@@ -49,13 +49,13 @@ are awarded for method as well as final answer.
 
 ## Questions
 
-### Q1 [7 marks] — Algebraic Expressions
+### Q1 [7 marks], Algebraic Expressions
 
 Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$Find the exact value of:
 
 $$\frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}$$
 
-### Q2 [7 marks] — Quadratics
+### Q2 [7 marks], Quadratics
 
 The roots of the equation $2x^2 - 5x + 1 = 0$ are $\alpha$ and $\beta$.
 
@@ -63,7 +63,7 @@ Without finding the numerical values of $\alpha$ and $\beta$Find the value of:
 
 $$\frac{1}{\alpha^2 + 1} + \frac{1}{\beta^2 + 1}$$
 
-### Q3 [7 marks] — Equations and Inequalities
+### Q3 [7 marks], Equations and Inequalities
 
 Solve the inequality:
 
@@ -71,14 +71,14 @@ $$\frac{x^2 - 3x + 2}{x^2 + x - 6} \geq 0$$
 
 State your answer using set notation, identifying all excluded values.
 
-### Q4 [7 marks] — Coordinates and Geometry
+### Q4 [7 marks], Coordinates and Geometry
 
 Find the value of $k$ such that the line $y = kx + 5$ is tangent to the circle
 $x^2 + y^2 - 4x - 6y + 9 = 0$.
 
 Hence find the coordinates of the point of tangency.
 
-### Q5 [7 marks] — Functions
+### Q5 [7 marks], Functions
 
 Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
@@ -88,7 +88,7 @@ Given $f(x) = \sqrt{2x - 1}$ and $g(x) = \frac{1}{x - 3}$:
 
 **(c)** Explain why the domains of $f \circ g$ and $g \circ f$ are different.
 
-### Q6 [7 marks] — Sequences and Series
+### Q6 [7 marks], Sequences and Series
 
 Evaluate the sum:
 
@@ -96,20 +96,20 @@ $$S_n = \sum_{r=1}^{n} \frac{1}{r(r+1)(r+2)}$$
 
 Express your answer in terms of $n$ And hence find $\lim_{n \to \infty} S_n$.
 
-### Q7 [7 marks] — Binomial Expansion
+### Q7 [7 marks], Binomial Expansion
 
 Find the coefficient of $x^4$ in the expansion of:
 
 $$\frac{(1 + 2x)^5}{(1 - x)^3}$$
 
-### Q8 [8 marks] — Trigonometry
+### Q8 [8 marks], Trigonometry
 
 **(a)** Solve $\cos(3x) = \frac{1}{2}$ for $x \in [0, 2\pi)$. Find all solutions.
 
 **(b)** The curve $y = \cos(3x)$ intersects the line $y = \frac{1}{2}$ at $N$ distinct points in the
 interval $[0, 2\pi)$. Find $N$ and the sum of all $x$-coordinates of the intersection points.
 
-### Q9 [8 marks] — Exponentials and Logarithms
+### Q9 [8 marks], Exponentials and Logarithms
 
 **(a)** Solve $e^{2x} - 5e^x + 6 = 0$Giving exact answers.
 
@@ -118,7 +118,7 @@ interval $[0, 2\pi)$. Find $N$ and the sum of all $x$-coordinates of the interse
 **(c)** Explain why, when using the substitution $u = e^x$ to solve an equation of the form
 $e^{2x} + pe^x + q = 0$You must check that $u \gt 0$ before taking natural logarithms.
 
-### Q10 [9 marks] — Differentiation
+### Q10 [9 marks], Differentiation
 
 A curve has equation $y = x^4 - 4x^3 + 6x^2 - 4x + 1$.
 
@@ -132,7 +132,7 @@ determine the true nature of this point.
 
 **(d)** Express $y$ in a form that makes the nature of the stationary point immediately obvious.
 
-### Q11 [9 marks] — Integration
+### Q11 [9 marks], Integration
 
 **(a)** Find $\int x^3 \ln x\, dx$.
 
@@ -141,7 +141,7 @@ why this choice is problematic.
 
 **(c)** Using your result from part (a), evaluate $\int_1^e x^3 \ln x\, dx$ exactly.
 
-### Q12 [7 marks] — Vectors
+### Q12 [7 marks], Vectors
 
 Line $l_1$ passes through $A(1, 2, 3)$ with direction vector
 $\mathbf{d}_1 = \begin{pmatrix} 2 \\ -1 \\ 1 \end{pmatrix}$.
@@ -155,7 +155,7 @@ $\mathbf{d}_2 = \begin{pmatrix} 1 \\ a \\ 2 \end{pmatrix}$.
 
 **(c)** For $a = -1$Find the shortest distance between $l_1$ and $l_2$.
 
-### Q13 [5 marks] — Proof
+### Q13 [5 marks], Proof
 
 For each of the following, state whether the condition is necessary, sufficient, both, or neither.
 Justify each answer.
@@ -166,7 +166,7 @@ Justify each answer.
 
 **(c)** "$a^2 + b^2 = 0$" (where $a, b \in \mathbb{R}$) as a condition for "$a = 0$ and $b = 0$".
 
-### Q14 [5 marks] — Numerical Methods
+### Q14 [5 marks], Numerical Methods
 
 The function $f(x) = x^3 - 2x + 2$ has a root near $x = -1.77$.
 
@@ -190,7 +190,7 @@ $x_3$. Describe the behaviour of the iteration.
 
 ## Solutions
 
-### Q1 — Solution
+### Q1, Solution
 
 **Key observation:** The numerator $a^{3/2} - a^{-3/2}$ can be factorised using the difference of
 cubes identity $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ with $x = a^{1/2}$ and $y = a^{-1/2}$:
@@ -227,7 +227,7 @@ $$a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24$$
 }
 </script>
 
-### Q2 — Solution
+### Q2, Solution
 
 **Step 1: State Vieta"s formulas.**
 
@@ -260,7 +260,7 @@ $$\frac{\frac{21}{4} + 2}{\frac{1}{4} + \frac{21}{4} + 1} = \frac{\frac{21}{4} +
 }
 </script>
 
-### Q3 — Solution
+### Q3, Solution
 
 **Step 1: Factorise numerator and denominator.**
 
@@ -306,7 +306,7 @@ $$x \in (-\infty, -3) \cup [1, 2) \cup (2, \infty)$$
 }
 </script>
 
-### Q4 — Solution
+### Q4, Solution
 
 **Step 1: Substitute the line into the circle equation.**
 
@@ -339,7 +339,7 @@ $y = 5$ is at distance $|5-3| = 2$ from the centre, equal to the radius. Confirm
 }
 </script>
 
-### Q5 — Solution
+### Q5, Solution
 
 **(a)**
 $f(g(x)) = f\left(\frac{1}{x-3}\right) = \sqrt{\frac{2}{x-3} - 1} = \sqrt{\frac{2 - (x-3)}{x-3}} = \sqrt{\frac{5-x}{x-3}}$.
@@ -393,7 +393,7 @@ excluded value of $g$ (which is $3$). The former is much more restrictive.
 }
 </script>
 
-### Q6 — Solution
+### Q6, Solution
 
 **Step 1: Partial fraction decomposition.**
 
@@ -452,7 +452,7 @@ $$\lim_{n \to \infty} S_n = \frac{1}{4} + 0 = \frac{1}{4}$$
 }
 </script>
 
-### Q7 — Solution
+### Q7, Solution
 
 **Step 1: Expand the numerator.**
 
@@ -495,7 +495,7 @@ Coefficient of $x^4$: $15 + 100 + 240 + 240 + 80 = 675$.
 }
 </script>
 
-### Q8 — Solution
+### Q8, Solution
 
 **(a)** $\cos(3x) = \frac{1}{2}$.
 
@@ -535,7 +535,7 @@ $$S = \frac{\pi}{9} + \frac{5\pi}{9} + \frac{7\pi}{9} + \frac{11\pi}{9} + \frac{
 }
 </script>
 
-### Q9 — Solution
+### Q9, Solution
 
 **(a)** Let $u = e^x$. Since $e^x \gt 0$ for all $x \in \mathbb{R}$We require $u \gt 0$.
 
@@ -577,7 +577,7 @@ solutions.
 }
 </script>
 
-### Q10 — Solution
+### Q10, Solution
 
 **(a)** $y = x^4 - 4x^3 + 6x^2 - 4x + 1$
 
@@ -627,7 +627,7 @@ $(1, 0)$ is a global (and local) minimum.
 }
 </script>
 
-### Q11 — Solution
+### Q11, Solution
 
 **(a)** By LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential), $\ln x$ is
 prioritised for $u$.
@@ -672,7 +672,7 @@ $$= \frac{3e^4}{16} - \left(-\frac{1}{16}\right) = \frac{3e^4 + 1}{16}$$
 }
 </script>
 
-### Q12 — Solution
+### Q12, Solution
 
 **(a)** $\mathbf{d}_1$ and $\mathbf{d}_2$ are not proportional for any value of $a$ So the lines are
 never parallel.
@@ -728,7 +728,7 @@ $$d = \frac{\lvert -3 \rvert}{\sqrt{19}} = \frac{3}{\sqrt{19}} = \frac{3\sqrt{19
 }
 </script>
 
-### Q13 — Solution
+### Q13, Solution
 
 **(a)** "$x \gt 2$" implies "$x^2 \gt 4$": if $x \gt 2$ then $x^2 \gt 4$. However, "$x \gt 2$" is
 not necessary: $x = -3$ gives $x^2 = 9 \gt 4$ But $x \lt 2$.
@@ -756,7 +756,7 @@ Answer: **both necessary and sufficient**.
 }
 </script>
 
-### Q14 — Solution
+### Q14, Solution
 
 **(a)** $f'(x) = 3x^2 - 2 = 0$ gives $x = \pm\sqrt{2/3} \approx \pm 0.816$.
 
@@ -823,7 +823,7 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
 
 ```mermaid

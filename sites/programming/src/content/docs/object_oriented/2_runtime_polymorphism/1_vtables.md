@@ -629,11 +629,11 @@ Access.
 
 ## Intuition
 
-**A vtable is like a restaurant's menu:** Each class has a menu (vtable) that lists all its virtual functions. When you call a virtual function, the compiler looks at the object's vptr (which points to the correct menu), finds the function on that menu, and calls it. This is like a waiter asking "what would you like?" and then looking at the right menu — the same question (function call) produces different results depending on which menu (vtable) is used. The cost is one pointer indirection — like the waiter walking to the menu before taking your order.
+**A vtable is like a restaurant's menu:** Each class has a menu (vtable) that lists all its virtual functions. When you call a virtual function, the compiler looks at the object's vptr (which points to the correct menu), finds the function on that menu, and calls it. This is like a waiter asking "what would you like?" and then looking at the right menu, the same question (function call) produces different results depending on which menu (vtable) is used. The cost is one pointer indirection, like the waiter walking to the menu before taking your order.
 
-**Why it matters:** Vtables are the mechanism behind C++'s runtime polymorphism. Understanding them explains why virtual functions have a small overhead (vptr load + indirect call), why `sizeof` a polymorphic class includes a hidden pointer, and why slicing (copying a derived object to a base) loses the derived class's behavior — the vptr points to the base's vtable, not the derived's.
+**Why it matters:** Vtables are the mechanism behind C++'s runtime polymorphism. Understanding them explains why virtual functions have a small overhead (vptr load + indirect call), why `sizeof` a polymorphic class includes a hidden pointer, and why slicing (copying a derived object to a base) loses the derived class's behavior, the vptr points to the base's vtable, not the derived's.
 
-**The key insight:** Each polymorphic class has exactly one vtable shared by all instances — the vptr in each object points to it, enabling runtime dispatch with O(1) overhead.
+**The key insight:** Each polymorphic class has exactly one vtable shared by all instances, the vptr in each object points to it, enabling runtime dispatch with O(1) overhead.
 
 ## Common Pitfalls
 

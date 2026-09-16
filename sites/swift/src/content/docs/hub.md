@@ -78,19 +78,19 @@ Swift's fundamentals are designed for safety and clarity. The type system catche
 
 ### Topic Notes
 
-- [Variables and Types](02-fundamentals/01-variables-and-types) — let vs var, type inference, and basic types
-- [Strings and Characters](02-fundamentals/02-strings-and-characters) — string interpolation, multi-line strings, and Unicode
-- [Collections](02-fundamentals/03-collections) — Array, Set, Dictionary, and their mutability
-- [Control Flow](02-fundamentals/04-control-flow) — if/else, switch, for/while, and where clauses
-- [Functions and Closures](02-fundamentals/05-functions-and-closures) — parameters, return types, trailing closures, and capture lists
+- [Variables and Types](02-fundamentals/01-variables-and-types), let vs var, type inference, and basic types
+- [Strings and Characters](02-fundamentals/02-strings-and-characters), string interpolation, multi-line strings, and Unicode
+- [Collections](02-fundamentals/03-collections), Array, Set, Dictionary, and their mutability
+- [Control Flow](02-fundamentals/04-control-flow), if/else, switch, for/while, and where clauses
+- [Functions and Closures](02-fundamentals/05-functions-and-closures), parameters, return types, trailing closures, and capture lists
 
 ### Key Concepts
 
-**let vs var** — `let` declares an immutable constant. `var` declares a mutable variable. Prefer `let` whenever possible — it communicates intent, prevents accidental modification, and enables compiler optimization. Immutable values are easier to reason about and test.
+**let vs var**, `let` declares an immutable constant. `var` declares a mutable variable. Prefer `let` whenever possible, it communicates intent, prevents accidental modification, and enables compiler optimization. Immutable values are easier to reason about and test.
 
-**Value types** — Structs, enums, and tuples are value types. Assigning a value type creates a copy. Classes are reference types — assigning a class creates a shared reference. Value types prevent unintended mutation and are the preferred design choice in Swift.
+**Value types**, Structs, enums, and tuples are value types. Assigning a value type creates a copy. Classes are reference types, assigning a class creates a shared reference. Value types prevent unintended mutation and are the preferred design choice in Swift.
 
-**Trailing closures** — When the last argument to a function is a closure, you can write it outside the parentheses. `array.map { $0 * 2 }` is equivalent to `array.map({ $0 * 2 })`. Trailing closures make Swift code more readable.
+**Trailing closures**, When the last argument to a function is a closure, you can write it outside the parentheses. `array.map { $0 * 2 }` is equivalent to `array.map({ $0 * 2 })`. Trailing closures make Swift code more readable.
 
 ---
 
@@ -100,18 +100,18 @@ Optionals are Swift's most distinctive feature. An optional type (`Type?`) can h
 
 ### Topic Notes
 
-- [Optionals](03-optionals/01-optionals) — nil, optional binding, and force unwrapping
-- [Optional Chaining](03-optionals/02-optional-chaining) — ?. operator and nil coalescing ??
-- [Error Handling](03-optionals/03-error-handling) — throws, try/catch, and Result type
-- [Guard Statements](03-optionals/04-guard-statements) — early returns and unwrapping
+- [Optionals](03-optionals/01-optionals), nil, optional binding, and force unwrapping
+- [Optional Chaining](03-optionals/02-optional-chaining), ?. operator and nil coalescing ??
+- [Error Handling](03-optionals/03-error-handling), throws, try/catch, and Result type
+- [Guard Statements](03-optionals/04-guard-statements), early returns and unwrapping
 
 ### Key Concepts
 
-**Optional binding** — `if let name = optionalName { print(name) }` unwraps the optional and binds the value to a constant. `guard let name = optionalName else { return }` unwraps and requires an early return. Optional binding is the safe way to use optionals.
+**Optional binding**, `if let name = optionalName { print(name) }` unwraps the optional and binds the value to a constant. `guard let name = optionalName else { return }` unwraps and requires an early return. Optional binding is the safe way to use optionals.
 
-**Optional chaining** — `user?.profile?.name` chains optional access. If any part is nil, the entire chain returns nil. This eliminates nested nil checks.
+**Optional chaining**, `user?.profile?.name` chains optional access. If any part is nil, the entire chain returns nil. This eliminates nested nil checks.
 
-**Guard statements** — `guard let value = optional else { return }` unwraps an optional and requires an early exit on failure. Guard is preferred over if-let when you need to unwrap and continue — it reduces nesting and improves readability.
+**Guard statements**, `guard let value = optional else { return }` unwraps an optional and requires an early exit on failure. Guard is preferred over if-let when you need to unwrap and continue, it reduces nesting and improves readability.
 
 ---
 
@@ -121,40 +121,40 @@ Swift's protocol-oriented design is a distinctive feature. Protocols define capa
 
 ### Topic Notes
 
-- [Protocol Basics](04-protocols/01-protocol-basics) — defining protocols, conforming to protocols
-- [Protocol Extensions](04-protocols/02-protocol-extensions) — default implementations and protocol-oriented design
-- [Protocol Inheritance](04-protocols/03-protocol-inheritance) — composing protocols and protocol hierarchies
-- [Associated Types](04-protocols/04-associated-types) — generic protocols and type constraints
+- [Protocol Basics](04-protocols/01-protocol-basics), defining protocols, conforming to protocols
+- [Protocol Extensions](04-protocols/02-protocol-extensions), default implementations and protocol-oriented design
+- [Protocol Inheritance](04-protocols/03-protocol-inheritance), composing protocols and protocol hierarchies
+- [Associated Types](04-protocols/04-associated-types), generic protocols and type constraints
 
 ### Key Concepts
 
 **Protocol extensions** provide default implementations for protocol methods. A type can conform to a protocol and automatically inherit the default implementation. This enables code reuse without inheritance.
 
-**Protocol composition** — `func process<T: Codable & Identifiable>(_ item: T)` requires T to conform to multiple protocols. Protocols compose naturally, enabling flexible type constraints.
+**Protocol composition**, `func process<T: Codable & Identifiable>(_ item: T)` requires T to conform to multiple protocols. Protocols compose naturally, enabling flexible type constraints.
 
-**Associated types** — A protocol can declare an associated type: `protocol Container { associatedtype Item; mutating func append(_ item: Item) }`. The conforming type specifies the concrete type. Associated types enable generic protocols.
+**Associated types**, A protocol can declare an associated type: `protocol Container { associatedtype Item; mutating func append(_ item: Item) }`. The conforming type specifies the concrete type. Associated types enable generic protocols.
 
 ---
 
 ## SwiftUI
 
-SwiftUI is Apple's declarative UI framework for building user interfaces across all Apple platforms. It uses Swift's language features — property wrappers, result builders, and protocol extensions — to make UI code concise and expressive.
+SwiftUI is Apple's declarative UI framework for building user interfaces across all Apple platforms. It uses Swift's language features, property wrappers, result builders, and protocol extensions, to make UI code concise and expressive.
 
 ### Topic Notes
 
-- [SwiftUI Basics](05-swiftui/01-swiftui-basics) — Text, Image, VStack, HStack, and the view hierarchy
-- [State Management](05-swiftui/02-state-management) — @State, @Binding, @ObservedObject, @EnvironmentObject
-- [Navigation](05-swiftui/03-navigation) — NavigationStack, NavigationLink, and sheet presentation
-- [Lists and Data](05-swiftui/04-lists-and-data) — List, ForEach, and data flow patterns
-- [Animations](05-swiftui/05-animations) — withAnimation, transition, and matchedGeometryEffect
+- [SwiftUI Basics](05-swiftui/01-swiftui-basics), Text, Image, VStack, HStack, and the view hierarchy
+- [State Management](05-swiftui/02-state-management), @State, @Binding, @ObservedObject, @EnvironmentObject
+- [Navigation](05-swiftui/03-navigation), NavigationStack, NavigationLink, and sheet presentation
+- [Lists and Data](05-swiftui/04-lists-and-data), List, ForEach, and data flow patterns
+- [Animations](05-swiftui/05-animations), withAnimation, transition, and matchedGeometryEffect
 
 ### Key Concepts
 
-**Declarative UI** — You describe what the UI should look like for a given state. SwiftUI handles the diffing and rendering. When state changes, SwiftUI automatically updates the affected views. This eliminates manual UI updates.
+**Declarative UI**, You describe what the UI should look like for a given state. SwiftUI handles the diffing and rendering. When state changes, SwiftUI automatically updates the affected views. This eliminates manual UI updates.
 
-**@State and @Binding** — `@State` is a property wrapper that manages view-local state. `@Binding` creates a two-way reference to a parent's state. When @State changes, the view rebuilds. This is the foundation of SwiftUI's data flow.
+**@State and @Binding**, `@State` is a property wrapper that manages view-local state. `@Binding` creates a two-way reference to a parent's state. When @State changes, the view rebuilds. This is the foundation of SwiftUI's data flow.
 
-**@Observable** (Swift 5.9+) — The modern approach to observable objects. Apply @Observable to a class, and SwiftUI tracks which properties views actually read. This is more efficient than ObservableObject and eliminates the need for @Published.
+**@Observable** (Swift 5.9+), The modern approach to observable objects. Apply @Observable to a class, and SwiftUI tracks which properties views actually read. This is more efficient than ObservableObject and eliminates the need for @Published.
 
 ---
 
@@ -164,11 +164,11 @@ Building iOS applications requires understanding the app lifecycle, data persist
 
 ### Topic Notes
 
-- [App Lifecycle](06-ios/01-app-lifecycle) — @main, App protocol, and scene lifecycle
-- [Data Persistence](06-ios/02-data-persistence) — UserDefaults, SwiftData, and Core Data
-- [Networking](06-ios/03-networking) — URLSession, async/await, and Codable
-- [Notifications](06-ios/04-notifications) — local and remote notifications
-- [App Store](06-ios/05-app-store) — submission, review, and distribution
+- [App Lifecycle](06-ios/01-app-lifecycle), @main, App protocol, and scene lifecycle
+- [Data Persistence](06-ios/02-data-persistence), UserDefaults, SwiftData, and Core Data
+- [Networking](06-ios/03-networking), URLSession, async/await, and Codable
+- [Notifications](06-ios/04-notifications), local and remote notifications
+- [App Store](06-ios/05-app-store), submission, review, and distribution
 
 ### Key Concepts
 
@@ -176,7 +176,7 @@ Building iOS applications requires understanding the app lifecycle, data persist
 
 **Codable** is a protocol for encoding and decoding JSON, Property Lists, and other formats. Define a struct conforming to Codable, and the compiler generates the encoding/decoding logic automatically. Codable simplifies API integration significantly.
 
-**async/await** — Swift's concurrency model uses async functions and await for asynchronous operations. URLSession provides async APIs for network requests. This eliminates completion handlers and callback-based code.
+**async/await**, Swift's concurrency model uses async functions and await for asynchronous operations. URLSession provides async APIs for network requests. This eliminates completion handlers and callback-based code.
 
 ---
 
@@ -186,10 +186,10 @@ Swift's concurrency model prevents data races at compile time. Actors isolate mu
 
 ### Topic Notes
 
-- [async/await](07-concurrency/01-async-await) — async functions, await, and structured concurrency
-- [Actors](07-concurrency/02-actors) — actor isolation, Sendable, and thread safety
-- [TaskGroup](07-concurrency/03-taskgroup) — concurrent tasks and result collection
-- [Continuations](07-concurrency/04-continuations) — bridging callback-based APIs to async
+- [async/await](07-concurrency/01-async-await), async functions, await, and structured concurrency
+- [Actors](07-concurrency/02-actors), actor isolation, Sendable, and thread safety
+- [TaskGroup](07-concurrency/03-taskgroup), concurrent tasks and result collection
+- [Continuations](07-concurrency/04-continuations), bridging callback-based APIs to async
 
 ### Key Concepts
 
@@ -197,7 +197,7 @@ Swift's concurrency model prevents data races at compile time. Actors isolate mu
 
 **Sendable** is a protocol that marks types as safe to send across concurrency boundaries. Value types are inherently Sendable. Reference types must be explicitly marked Sendable and satisfy safety requirements.
 
-**Structured concurrency** — Tasks form a structured hierarchy. Parent tasks wait for child tasks to complete. This prevents leaked tasks and simplifies cancellation. `async let` enables concurrent computation within a function.
+**Structured concurrency**, Tasks form a structured hierarchy. Parent tasks wait for child tasks to complete. This prevents leaked tasks and simplifies cancellation. `async let` enables concurrent computation within a function.
 
 ---
 
@@ -215,12 +215,12 @@ Swift is approachable and well-documented. Apple's ecosystem provides excellent 
 
 - Master protocols and protocol extensions
 - Learn associated types and protocol composition
-- Study the standard library protocols — Equatable, Comparable, Hashable, Codable
+- Study the standard library protocols, Equatable, Comparable, Hashable, Codable
 
 ### Stage 3: SwiftUI (Weeks 9–12)
 
 - Build UIs with SwiftUI views and layouts
-- Learn state management — @State, @Binding, @Observable
+- Learn state management, @State, @Binding, @Observable
 - Study navigation, lists, and animations
 
 ### Stage 4: iOS and Concurrency (Weeks 13–18)
@@ -235,11 +235,11 @@ Swift is approachable and well-documented. Apple's ecosystem provides excellent 
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)** — Kotlin is the language for Android development
-- **[Dart/Flutter Programming Guide](https://dart.wyattau.com/hub)** — Flutter is a cross-platform alternative to native iOS
-- **[TypeScript Programming Guide](https://typescript.wyattau.com/hub)** — TypeScript is relevant for web-based Apple platform development
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Swift
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — relevant for SwiftData and Core Data
+- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)**, Kotlin is the language for Android development
+- **[Dart/Flutter Programming Guide](https://dart.wyattau.com/hub)**, Flutter is a cross-platform alternative to native iOS
+- **[TypeScript Programming Guide](https://typescript.wyattau.com/hub)**, TypeScript is relevant for web-based Apple platform development
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Swift
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, relevant for SwiftData and Core Data
 
 ---
 
@@ -247,11 +247,11 @@ Wyatt's Notes is a network of interconnected programming and study sites:
 
 ### Should I learn Swift or Kotlin first?
 
-If your goal is iOS development, learn Swift — it is the only language for native iOS. If your goal is Android development, learn Kotlin. If you want to build for both platforms, learn Swift first (it is more approachable) and then Kotlin — the concepts transfer.
+If your goal is iOS development, learn Swift, it is the only language for native iOS. If your goal is Android development, learn Kotlin. If you want to build for both platforms, learn Swift first (it is more approachable) and then Kotlin, the concepts transfer.
 
 ### Do I need to learn UIKit or SwiftUI?
 
-Start with SwiftUI — it is Apple's recommended approach and the future of iOS development. Learn UIKit later if you need advanced features, custom layouts, or are working with existing UIKit codebases. Most new iOS development uses SwiftUI.
+Start with SwiftUI, it is Apple's recommended approach and the future of iOS development. Learn UIKit later if you need advanced features, custom layouts, or are working with existing UIKit codebases. Most new iOS development uses SwiftUI.
 
 ### What is the difference between @State and @Observable?
 
@@ -267,7 +267,7 @@ Yes. Swift on the server is possible with frameworks like Vapor and Hummingbird.
 
 ### How do I manage dependencies in Swift?
 
-Use Swift Package Manager (SPM) — Apple's built-in dependency manager. Add dependencies in Xcode via File > Add Package Dependencies, or define them in Package.swift. SPM is integrated into Xcode and the Swift toolchain.
+Use Swift Package Manager (SPM), Apple's built-in dependency manager. Add dependencies in Xcode via File > Add Package Dependencies, or define them in Package.swift. SPM is integrated into Xcode and the Swift toolchain.
 
 ---
 

@@ -112,9 +112,9 @@ Flexible schemas are paramount. The choice depends on the workload, not on a bla
 
 **Solution.** The conceptual schema includes three tables:
 
-- **Books(book_id, isbn, title, author, year, copies)** — each book copy shares the same ISBN.
-- **Members(member_id, name, email, join_date)** — library members.
-- **Loans(loan_id, book_id, member_id, loan_date, due_date, return_date)** — each loan tracks one copy.
+- **Books(book_id, isbn, title, author, year, copies)**, each book copy shares the same ISBN.
+- **Members(member_id, name, email, join_date)**, library members.
+- **Loans(loan_id, book_id, member_id, loan_date, due_date, return_date)**, each loan tracks one copy.
 
 An external view for members might hide internal identifiers and join across tables:
 

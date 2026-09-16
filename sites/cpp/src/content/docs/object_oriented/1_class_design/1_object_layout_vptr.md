@@ -109,7 +109,7 @@ int main() {
 
 ## 1.3 How `this` Is Passed
 
-The C++ Standard does not specify the mechanism for passing `this` — that is determined by the ABI.
+The C++ Standard does not specify the mechanism for passing `this`that is determined by the ABI.
 On the dominant 64-bit platforms:
 
 - **System V AMD64 ABI** (Linux, macOS): `this` is passed as the first implicit argument in register
@@ -149,7 +149,7 @@ int main() {
 ## 1.4 Empty Base Optimization (EBO)
 
 The Standard requires that every complete object has a unique address [N4950 §6.9]. This means that
-Even an empty class — one with no non-static data members and no virtual functions — must occupy at
+Even an empty class, one with no non-static data members and no virtual functions, must occupy at
 Least one byte:
 
 ```cpp
@@ -232,7 +232,7 @@ int main() {
 }
 ```
 
-When a class has virtual functions, the compiler adds a hidden pointer — the **vptr** — as the first
+When a class has virtual functions, the compiler adds a hidden pointer, the **vptr**, as the first
 Member of the object layout. The vptr points to a per-class virtual table (vtable) containing
 Function pointers for each virtual function. On 64-bit platforms, the vptr occupies 8 bytes.
 
@@ -435,7 +435,7 @@ Disables `dynamic_cast` (except for upcasts, which are compile-time resolved).
 
 ### Pure Virtual Functions and Abstract Classes
 
-A class with at least one **pure virtual function** is abstract — it cannot be instantiated. In the
+A class with at least one **pure virtual function** is abstract, it cannot be instantiated. In the
 Vtable, a pure virtual function's slot points to `__cxa_pure_virtual` (Itanium ABI) or `_purecall`
 (MSVC), which triggers a runtime error if called:
 
@@ -511,7 +511,7 @@ struct Derived : Base {
 };
 
 int main() {
-    // BAD: Undefined Behavior — Derived dtor is not called
+    // BAD: Undefined Behavior, Derived dtor is not called
     Base* p = new Derived();
     delete p;  // Only ~Base() runs. Memory leak for Derived members.
 
@@ -628,7 +628,7 @@ Undefined Behavior.
 ### 4. Multiple Inheritance `this` Pointer Adjustments
 
 When casting between base class pointers in a multiple inheritance hierarchy, the pointer value may
-Change. This is surprising but correct — the different base subobjects are at different offsets
+Change. This is surprising but correct, the different base subobjects are at different offsets
 Within the derived object. Always use `static_cast` for known-safe downcasts and `dynamic_cast` for
 Runtime-checked downcasts.
 

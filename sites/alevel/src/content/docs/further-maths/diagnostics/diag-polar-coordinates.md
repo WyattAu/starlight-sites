@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Polar Coordinates — Diagnostic Tests
+## Polar Coordinates, Diagnostic Tests
 
 ## Unit Tests
 
@@ -251,7 +251,7 @@ cardioid, inside circle $= 9\pi/4 - \pi = 5\pi/4$.
 
 ## Common Mistakes
 
-**Forgetting the $\frac{1}{2}$ in the polar area formula:** The area enclosed by a polar curve is $A = \frac{1}{2}\int r^2\,d\theta$, not $\int r^2\,d\theta$. The factor of $\frac{1}{2}$ comes from the geometry of the sector area. Omitting it doubles the answer — a very common error.
+**Forgetting the $\frac{1}{2}$ in the polar area formula:** The area enclosed by a polar curve is $A = \frac{1}{2}\int r^2\,d\theta$, not $\int r^2\,d\theta$. The factor of $\frac{1}{2}$ comes from the geometry of the sector area. Omitting it doubles the answer, a very common error.
 
 **Mixing up the conversion between polar and Cartesian:** $x = r\cos\theta$, $y = r\sin\theta$, $r^2 = x^2 + y^2$, $\tan\theta = y/x$. Students sometimes write $r = x\cos\theta + y\sin\theta$ or confuse which functions go with which variable. Always derive from the right-angled triangle.
 

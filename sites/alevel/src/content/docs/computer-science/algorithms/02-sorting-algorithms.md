@@ -73,10 +73,10 @@ After $n-1$ passes, all elements are sorted. $\square$
 
 ### Complexity
 
-- **Worst case:** $O(n^2)$ — when the array is in reverse order
-- **Best case:** $O(n)$ — when the array is already sorted (early termination with `swapped` flag)
+- **Worst case:** $O(n^2)$, when the array is in reverse order
+- **Best case:** $O(n)$, when the array is already sorted (early termination with `swapped` flag)
 - **Average case:** $O(n^2)$
-- **Space:** $O(1)$ — in-place
+- **Space:** $O(1)$, in-place
 - **Stable:** Yes
 
 **Proof of worst case.** In reverse order, each pass performs $n - 1 - i$ swaps for pass $i$. Total
@@ -126,10 +126,10 @@ $\square$
 
 ### Complexity
 
-- **Worst case:** $O(n^2)$ — reverse order
-- **Best case:** $O(n)$ — already sorted (inner loop never executes)
+- **Worst case:** $O(n^2)$, reverse order
+- **Best case:** $O(n)$, already sorted (inner loop never executes)
 - **Average case:** $O(n^2)$
-- **Space:** $O(1)$ — in-place
+- **Space:** $O(1)$, in-place
 - **Stable:** Yes
 
 **Proof of average case.** On average, each insertion shifts approximately half of the sorted
@@ -205,7 +205,7 @@ $f(n) = O(n^{\log_b a}) = O(n^1) = O(n)$Which is case 2. Therefore:
 
 $$T(n) = O(n \log n)$$
 
-**Space:** $O(n)$ — the merge step requires a temporary array. **Stable:** Yes (merge uses `<=`).
+**Space:** $O(n)$, the merge step requires a temporary array. **Stable:** Yes (merge uses `<=`).
 
 <hr />
 

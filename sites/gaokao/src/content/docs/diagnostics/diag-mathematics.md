@@ -230,7 +230,7 @@ tableOfContents: false
 
 ## How to Use This Diagnostic
 
-**Step 1:** Complete all 10 questions without looking at notes. Time yourself — aim for 30 minutes total.
+**Step 1:** Complete all 10 questions without looking at notes. Time yourself, aim for 30 minutes total.
 
 **Step 2:** Check your answers against the table above. For each question you got wrong, note the topic area.
 
@@ -257,7 +257,7 @@ flowchart TD
 
 **Why it matters:** Mathematical skills are essential for science, engineering, economics, and competitive exam performance.
 
-**The key insight:** Mathematics is cumulative — a gap in algebra will cascade into difficulties with calculus and beyond.
+**The key insight:** Mathematics is cumulative, a gap in algebra will cascade into difficulties with calculus and beyond.
 
 ## Common Mistakes
 

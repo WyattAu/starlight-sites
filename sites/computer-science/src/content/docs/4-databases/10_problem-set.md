@@ -135,7 +135,7 @@ attributes). (b) {A,B}$^+$ = {A,B,C,D,E} = all attributes. (c) {C}$^+$ = {C,D,E}
 
 **Problem 11.** (a) Candidate keys: A, CD, E (each determines all attributes).
 (b) Highest normal form: BCNF, since every FD has a superkey LHS.
-(c) Already in BCNF — no decomposition needed.
+(c) Already in BCNF, no decomposition needed.
 
 **Problem 15.** B+ tree of order 3: after inserting 8,5,1,7,3,12,9,6, leaf splits occur at
 insertions of 7, 3, 12, 9, and 6 (5 splits). Internal splits occur at 7 and 6 (2 splits).

@@ -83,7 +83,7 @@ Aliasing list for `T`) is undefined behavior.
 5. Therefore, the access is undefined behavior per [N4950 S6.9.2.1]/11. QED.
 
 The critical point is that the UB occurs at the **read**, not at the `reinterpret_cast`. The cast
-Itself is well-defined — it produces a pointer. The UB occurs when you dereference that pointer to
+Itself is well-defined, it produces a pointer. The UB occurs when you dereference that pointer to
 Read the object's value.
 
 ### Why the Compiler Cares
@@ -170,7 +170,7 @@ Just the type-punning sites.
 
 ## 3. Permitted Type Punning Techniques
 
-### 3.1 `memcpy` — The Portable Baseline
+### 3.1 `memcpy`The Portable Baseline
 
 Since C++14, `memcpy` is the Standard-blessed mechanism for type punning. [N4950 S6.9]/2 states that
 Copying an object's representation via `memcpy` into an array of `unsigned char` (or `std::byte`)
@@ -196,7 +196,7 @@ float bits_to_float(uint32_t bits) \{
 
 **Why this works:** `memcpy` operates on `void*` / `const void*`Which are explicitly excluded from
 The aliasing restrictions. Furthermore, every major optimizer at `-O2` and above recognizes the
-`memcpy` pattern for small, known-size copies and emits a single register move — **zero runtime
+`memcpy` pattern for small, known-size copies and emits a single register move, **zero runtime
 Overhead**.
 
 ```cpp
@@ -215,7 +215,7 @@ Works on all platforms, and (c) produces zero-overhead code at `-O2`.
 1. **Well-defined per the Standard:** [N4950 S6.9]/2 states that copying an object's object
    representation via `memcpy` into an array of `unsigned char` or `std::byte` produces a value
    that, when copied back via `memcpy`Compares equal to the original. This is a direct guarantee in
-   the Standard. `reinterpret_cast`-based punning has no such guarantee — it is explicitly UB.
+   the Standard. `reinterpret_cast`-based punning has no such guarantee, it is explicitly UB.
 
 2. **Works on all platforms:** `memcpy` handles alignment correctly on all architectures, including
    those that trap on misaligned access (e.g., some ARM variants). `reinterpret_cast`-based punning
@@ -236,7 +236,7 @@ Works on all platforms, and (c) produces zero-overhead code at `-O2`.
 Therefore, for C++14/17 code, `memcpy` is the unique method that satisfies all three criteria. For
 C++20 code, `std::bit_cast` is equally portable and adds `constexpr` support. QED.
 
-### 3.2 `std::bit_cast` — The C++20 Solution
+### 3.2 `std::bit_cast`The C++20 Solution
 
 `std::bit_cast<T>(U)` in `<bit>` performs a bitwise copy from an object of type `U` to an object of
 Type `T`Returning the result by value. It is a `constexpr` function.
@@ -354,7 +354,7 @@ uint32_t bad_pun(float f) \{
 
 **Why the distinction matters:** The union member access syntax is special-cased by the Standard to
 Be well-defined [N4950 S6.9.2.1]/11. But `reinterpret_cast<uint32_t*>(&sp.u)` does not go through
-The union member access path — it goes through the pointer cast path, which is subject to the strict
+The union member access path, it goes through the pointer cast path, which is subject to the strict
 Aliasing rule.
 
 ### 3.4 `std::aligned_storage` (Deprecated in C++23)
@@ -426,7 +426,7 @@ void parse_frame(const uint8_t* frame, size_t len) \{
     std::memcpy(&header, frame, sizeof(header));
 
     if (header.ether_type == 0x0800) \{
-        // IPv4 packet — parse next layer
+        // IPv4 packet, parse next layer
     \}
 \}
 ```
@@ -582,7 +582,7 @@ void alignment_demo() \{
     buffer[2] = 0x34;
     buffer[3] = 0x12;
 
-    // BAD: may be misaligned — UB on strict-alignment architectures
+    // BAD: may be misaligned, UB on strict-alignment architectures
     // uint32_t val = *reinterpret_cast<uint32_t*>(buffer);
 
     // GOOD: memcpy handles any alignment
@@ -776,10 +776,10 @@ Or contain garbage.
 #include <bit>
 #include <cstdint>
 
-// This is a COMPILE ERROR — good:
+// This is a COMPILE ERROR, good:
 // auto bad = std::bit_cast<uint64_t>(1.0f);  // sizeof(float) != sizeof(uint64_t)
 
-// This compiles but is WRONG — the upper 4 bytes of i are uninitialized:
+// This compiles but is WRONG, the upper 4 bytes of i are uninitialized:
 float f = 3.14f;
 uint64_t i;
 std::memcpy(&i, &f, sizeof(f));  // Only copies 4 bytes into an 8-byte variable
@@ -797,7 +797,7 @@ need compile-time punning in C++17, your options are limited to manual bit Manip
 
 constexpr uint32_t float_to_bits_cxx17(float f) \{
     uint32_t result;
-    // Manual bit manipulation — no memcpy in constexpr
+    // Manual bit manipulation, no memcpy in constexpr
     // This requires knowing the float layout (IEEE 754)
     // and the platform endianness
     const uint32_t* p = reinterpret_cast<const uint32_t*>(&f);
@@ -832,16 +832,16 @@ Stores. This is not type punning per se, but it is a consequence of the same rul
 - [Pointers](1_pointers)
 - [Reference Lifetime](2_reference_lifetime)
 - [String Views and SSO](4_string_views_sso)
-- **`std::bit_cast`** — [N4950 S20.15.5], C++20.
-- **Strict Aliasing** — [N4950 S6.9.2.1]/11.
+- **`std::bit_cast`**, [N4950 S20.15.5], C++20.
+- **Strict Aliasing**, [N4950 S6.9.2.1]/11.
 
 ## Intuition
 
-**Reinterpreting data:** Type punning is like looking at the same data through different lenses — you interpret the same bytes as different types.
+**Reinterpreting data:** Type punning is like looking at the same data through different lenses, you interpret the same bytes as different types.
 
 **Why it matters:** Type punning enables low-level data manipulation but must be done carefully to avoid undefined behavior.
 
-**The key insight:** std::bit_cast is the safe way to do type punning in C++20 — it's constexpr and well-defined.
+**The key insight:** std::bit_cast is the safe way to do type punning in C++20, it's constexpr and well-defined.
 
 
 ```mermaid

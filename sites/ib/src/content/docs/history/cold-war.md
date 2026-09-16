@@ -50,14 +50,14 @@ fundamental differences between the Allies over the post-war settlement of Europ
 - Division of Germany into four occupation zones (US, UK, France, USSR)
 - Soviet commitment to join the war against Japan within three months
 - Formation of the United Nations agreed
-- Stalin promised to allow free elections in Poland — a promise he later reneged on
+- Stalin promised to allow free elections in Poland, a promise he later reneged on
 - The "percentages agreement" (Churchill--Stalin) divided spheres of influence in the Balkans
 
 **Potsdam Conference (17 July -- 2 August 1945)**
 
-- Truman replaced Roosevelt — harder anti-Soviet stance
+- Truman replaced Roosevelt, harder anti-Soviet stance
 - Churchill replaced mid-conference by Attlee after Labour election victory
-- Atom bomb successfully tested during the conference — changed the power dynamic
+- Atom bomb successfully tested during the conference, changed the power dynamic
 - Disagreement over Germany: Stalin wanted heavy reparations; the West wanted economic recovery
 - Disagreement over Poland: the Lublin government (Soviet-backed) vs the London government-in-exile
 - Reparations from each occupation zone, with the USSR receiving additional from the Western zones
@@ -75,7 +75,7 @@ Doctrine:
   and Turkey faced Soviet pressure on the Straits
 - $400 million in aid to Greece and Turkey
 - Marked the end of isolationist policy and the beginning of containment
-- The doctrine was ideological — it framed the conflict as a struggle between freedom and tyranny
+- The doctrine was ideological, it framed the conflict as a struggle between freedom and tyranny
 - It did not specifically name the USSR but was evidently directed against Soviet expansion
 
 ### 1.3 The Marshall Plan
@@ -89,7 +89,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - Conditional on cooperation between recipient nations and adoption of free-market policies
 - Stalin rejected the plan for the USSR and Eastern Europe, calling it "dollar imperialism"
 - The USSR established Comecon (Council for Mutual Economic Assistance) as a rival programme in 1949
-- The Marshall Plan was highly effective — Western European industrial production exceeded pre-war
+- The Marshall Plan was highly effective, Western European industrial production exceeded pre-war
   levels by 1952
 - It consolidated the division of Europe into Western and Soviet blocs
 
@@ -100,7 +100,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - Stalin saw this as a threat to the Soviet economy and responded by blocking all road, rail, and
   canal access to West Berlin (24 June 1948)
 - 2.5 million people in West Berlin were cut off from supplies
-- The Western Allies responded with the Berlin Airlift — a massive operation to supply the city by
+- The Western Allies responded with the Berlin Airlift, a massive operation to supply the city by
   air
   - At its peak, planes were landing in West Berlin every 30 seconds
   - Over 2 million tons of supplies were delivered
@@ -119,7 +119,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
 - Collective security organisation: an attack on one member is an attack on all (Article 5)
 - Original members: USA, UK, France, Canada, Italy, Belgium, Netherlands, Luxembourg, Denmark,
   Norway, Iceland, Portugal
-- West Germany joined in 1955 — this was a key trigger for the Warsaw Pact
+- West Germany joined in 1955, this was a key trigger for the Warsaw Pact
 - First peacetime military alliance the USA had entered
 - Integrated military command under a Supreme Allied Commander (initially Eisenhower)
 - Demonstrated the USA"s commitment to defending Western Europe
@@ -156,11 +156,11 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
   could not veto)
 - UN forces (predominantly American) under MacArthur pushed North Korean forces back to the Yalu
   River
-- China entered the war in October 1950 when UN forces approached the Yalu — 300,000 Chinese troops
+- China entered the war in October 1950 when UN forces approached the Yalu, 300,000 Chinese troops
   crossed the border
 - The war became a stalemate around the 38th parallel
 - MacArthur wanted to use nuclear weapons against China; Truman dismissed him (April 1951)
-- Armistice signed 27 July 1953 — Korea remained divided at approximately the 38th parallel
+- Armistice signed 27 July 1953, Korea remained divided at approximately the 38th parallel
 - Casualties: approximately 5 million, mostly Korean civilians
 - Significance: first "hot war" of the Cold War; demonstrated the limits of containment; China
   emerged as a major Cold War actor
@@ -180,7 +180,7 @@ Officially the European Recovery Programme (ERP), announced by Secretary of Stat
   - Nagy was arrested, tried, and executed in 1958
   - Kadar was installed as the new Soviet-aligned leader
 - The West condemned the invasion but did not intervene militarily
-- The Suez Crisis occurred simultaneously — distracting Western attention
+- The Suez Crisis occurred simultaneously, distracting Western attention
 - Significance: demonstrated that the USSR would use force to maintain control of the Eastern bloc;
   confirmed the limits of Western intervention behind the Iron Curtain
 
@@ -207,7 +207,7 @@ The closest the world came to nuclear war.
 **Background**
 
 - Fidel Castro overthrew the Batista regime in Cuba (1959) and established a communist government
-- The USA attempted to overthrow Castro through the Bay of Pigs invasion (April 1961) — a failed
+- The USA attempted to overthrow Castro through the Bay of Pigs invasion (April 1961), a failed
   CIA-backed invasion by Cuban exiles
 - In response, Castro moved closer to the USSR
 - The USSR installed nuclear missiles in Cuba (Operation Anadyr) in May--October 1962
@@ -227,8 +227,8 @@ The closest the world came to nuclear war.
 **Significance**
 
 - Direct communication hotline between Washington and Moscow established (1963)
-- Both leaders recognised the need for arms control — led to the Partial Test Ban Treaty (1963)
-- Khrushchev was seen as backing down — contributed to his ousting in 1964
+- Both leaders recognised the need for arms control, led to the Partial Test Ban Treaty (1963)
+- Khrushchev was seen as backing down, contributed to his ousting in 1964
 - Demonstrated the dangers of nuclear brinkmanship and miscalculation
 - Reinforced the concept of mutually assured destruction (MAD)
 
@@ -247,7 +247,7 @@ The closest the world came to nuclear war.
   - 500,000 troops from the USSR, Bulgaria, East Germany, Hungary, and Poland
   - Dubcek was arrested and taken to Moscow; he was replaced by Husak
   - Czechoslovakia returned to orthodox communism
-- Civilian resistance was non-violent — the "Prague Spring" became a symbol of peaceful resistance
+- Civilian resistance was non-violent, the "Prague Spring" became a symbol of peaceful resistance
 - The Brezhnev Doctrine was used to justify the suppression of any reform movement in the Eastern
   bloc
 - Significance: demonstrated that the USSR would not tolerate reform even when it was popular and
@@ -265,7 +265,7 @@ The closest the world came to nuclear war.
 - The Mujahideen received support from the USA, Pakistan, Saudi Arabia, and China (Operation
   Cyclone)
   - CIA supplied Stinger missiles which were effective against Soviet helicopters
-- The war became a "Soviet Vietnam" — a long, costly, and unpopular conflict
+- The war became a "Soviet Vietnam", a long, costly, and unpopular conflict
   - Approximately 15,000 Soviet soldiers killed
   - Over 1 million Afghan civilians killed
   - 5 million Afghan refugees fled to Pakistan and Iran
@@ -289,7 +289,7 @@ The closest the world came to nuclear war.
 
 ### 3.1 SALT Treaties
 
-- **SALT I (1972)**: Strategic Arms Limitation Talks — first agreement between USA and USSR to limit
+- **SALT I (1972)**: Strategic Arms Limitation Talks, first agreement between USA and USSR to limit
   strategic nuclear weapons
   - Anti-Ballistic Missile (ABM) Treaty: limited each side to two ABM systems (later reduced to one)
   - Interim Agreement: froze the number of ICBMs and SLBMs at existing levels
@@ -315,7 +315,7 @@ The closest the world came to nuclear war.
 
 ### 3.3 Nixon's Visit to China (1972)
 
-- Nixon visited China 21--28 February 1972 — the first US president to visit the People's Republic
+- Nixon visited China 21--28 February 1972, the first US president to visit the People's Republic
 - Secret diplomacy conducted by Henry Kissinger and Zhou Enlai in 1971 paved the way
 - The Shanghai Communique outlined shared interests in opposing Soviet hegemony
 - Ping-pong diplomacy (1971) helped break the ice
@@ -340,7 +340,7 @@ The closest the world came to nuclear war.
 ### 3.5 Ostpolitik
 
 - West German Chancellor Willy Brandt's policy of normalisation with Eastern Europe (1969--1974)
-- "Change through rapprochement" — engaging with communist states to encourage reform
+- "Change through rapprochement", engaging with communist states to encourage reform
 - Key agreements:
   - Treaty of Moscow (1970): recognised post-war borders, renounced use of force
   - Treaty of Warsaw (1970): recognised the Oder-Neisse line as Poland's western border
@@ -382,12 +382,12 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
   - Introduction of limited market mechanisms
   - Reduction of central planning
   - Encouragement of small private enterprises (cooperatives)
-  - Enterprise autonomy — factories given more control over production
+  - Enterprise autonomy, factories given more control over production
 - Political reforms:
   - Introduction of competitive elections (albeit within a one-party framework initially)
   - Creation of a new parliament, the Congress of People's Deputies (1989)
   - Gorbachev became President of the USSR in 1990
-- Perestroika was half-hearted and poorly implemented — it created uncertainty without delivering
+- Perestroika was half-hearted and poorly implemented, it created uncertainty without delivering
   improvements
 - Combined with glasnost, it unleashed forces Gorbachev could not control
 
@@ -399,12 +399,12 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 - Mass demonstrations in Leipzig ("Monday demonstrations") grew from hundreds to hundreds of
   thousands
 - Gorbachev visited East Berlin in October 1989 and stated that each country should follow its own
-  path — implicitly rejecting the Brezhnev Doctrine
+  path, implicitly rejecting the Brezhnev Doctrine
 - East German leader Honecker was replaced by Krenz in October 1989
 - On 9 November 1989, an ill-prepared press conference by Gunter Schabowski led to the borders being
   opened
 - Thousands of East Berliners flooded through the checkpoints
-- People began demolishing the Wall with hammers and pickaxes ("Mauerspechte" — wall woodpeckers)
+- People began demolishing the Wall with hammers and pickaxes ("Mauerspechte", wall woodpeckers)
 - The fall of the Wall symbolised the collapse of communism in Eastern Europe
 
 ### 4.3 Reunification of Germany (1990)
@@ -513,9 +513,9 @@ Mikhail Gorbachev became General Secretary of the Communist Party in March 1985.
 ## 6. Essay Writing Tips
 
 1. **Establish clear timelines**: Cold War questions often span decades. Chronological structure
-   works well — show change over time rather than treating events as isolated incidents.
+   works well, show change over time rather than treating events as isolated incidents.
 2. **Evaluate causation**: Avoid listing events. For each crisis, identify causes, course, and
-   consequences — and explain their relative significance.
+   consequences, and explain their relative significance.
 3. **Use historiography deliberately**: Don't just name historians. Explain how their
    interpretations differ and why, then take a reasoned position.
 4. **Balance depth and breadth**: The IB rewards detailed knowledge of specific events combined with

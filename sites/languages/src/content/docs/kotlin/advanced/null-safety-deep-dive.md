@@ -34,7 +34,7 @@ name = null  // compile error: Null can not be a value of a non-null type String
 ```
 
 Non-null types are the default. The `?` suffix makes a type nullable. The compiler enforces this
-distinction throughout — you cannot pass a nullable `String?` where `String` is expected without
+distinction throughout, you cannot pass a nullable `String?` where `String` is expected without
 explicit handling.
 
 ## Safe Calls and Elvis
@@ -49,7 +49,7 @@ val length: Int? = name?.length        // null-safe access
 val city: String? = user?.address?.city  // chains short-circuit
 ```
 
-No `NullPointerException` at runtime — the compiler inserts null checks.
+No `NullPointerException` at runtime, the compiler inserts null checks.
 
 ### Elvis Operator (?:)
 
@@ -147,7 +147,7 @@ public String getName() { return null; }
 ```
 
 ```kotlin
-// Kotlin — both compile, but one may NPE at runtime
+// Kotlin, both compile, but one may NPE at runtime
 val name: String = getName()   // risky: may NPE
 val name: String? = getName()  // safe: treat as nullable
 ```
@@ -174,7 +174,7 @@ Supported annotation packages:
 - `androidx.annotation` (Android)
 - `lombok.NonNull` (Lombok)
 
-Without annotations, Kotlin assumes the worst — the value could be null.
+Without annotations, Kotlin assumes the worst, the value could be null.
 
 ## Contracts
 
@@ -249,7 +249,7 @@ val nonNull: List<String> = items.filterNotNull()  // ["hello", "world"]
 
 ### mapNotNull
 
-Maps and filters in one pass — drops entries where the transform returns null:
+Maps and filters in one pass, drops entries where the transform returns null:
 
 ```kotlin
 val names: List<String> = users.mapNotNull { it.name }
@@ -284,7 +284,7 @@ fun describe(result: Result): String = when (result) {
     is Result.Success -> "Data: ${result.data}"
     is Result.Error -> "Error: ${result.message}"
     Result.Loading -> "Loading..."
-    // no else needed — exhaustive
+    // no else needed, exhaustive
 }
 ```
 
@@ -353,8 +353,8 @@ flowchart TD
 - Non-null types are the default in Kotlin; add `?` to make a type nullable.
 - `?.` safely accesses nullable values; `?:` provides defaults.
 - `let` scopes execute blocks on non-null receivers with smart-cast `it`.
-- `!!` forces non-null with an NPE on null — prefer `requireNotNull` for better errors.
-- Java interop uses platform types — annotate Java APIs with `@Nullable`/`@NotNull`.
+- `!!` forces non-null with an NPE on null, prefer `requireNotNull` for better errors.
+- Java interop uses platform types, annotate Java APIs with `@Nullable`/`@NotNull`.
 - Smart casts after null checks are powered by compiler contracts on `inline` functions.
 - `filterNotNull` and `mapNotNull` remove null elements; understand `List<String?>` vs
   `List<String>?`.

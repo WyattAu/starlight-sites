@@ -20,11 +20,11 @@ categories:
 
 ## Intuition
 
-**Computer organization is like an anatomy lesson — understanding how CPU, memory, and storage work together reveals how computers think:** The von Neumann architecture — stored programs and sequential execution — remains the foundation of modern computing
+**Computer organization is like an anatomy lesson, understanding how CPU, memory, and storage work together reveals how computers think:** The von Neumann architecture, stored programs and sequential execution, remains the foundation of modern computing
 
 **Why it matters:** Understanding hardware organization helps programmers write more efficient code and diagnose performance issues
 
-**The key insight:** The von Neumann architecture — stored programs and sequential execution — remains the foundation of modern computing
+**The key insight:** The von Neumann architecture, stored programs and sequential execution, remains the foundation of modern computing
 
 ## Computer Architecture
 
@@ -94,7 +94,7 @@ Characterized by:
 | ---------- | ----------------------------------------------- | -------------------------------------------------------------------- |
 | Memory     | Single unified memory for data and instructions | Separate memory spaces for data and instructions                     |
 | Bus        | Single bus (bottleneck for simultaneous access) | Separate buses for data and instructions                             |
-| Speed      | Slower due to bus contention                    | Faster — can fetch instruction and data simultaneously               |
+| Speed      | Slower due to bus contention                    | Faster, can fetch instruction and data simultaneously               |
 | Complexity | Simpler design, cheaper to manufacture          | More complex, more expensive                                         |
 | Usage      | Most general-purpose computers (PCs, laptops)   | Digital signal processors (DSPs), microcontrollers, embedded systems |
 
@@ -106,7 +106,7 @@ Characterized by:
 
 ### Representing Data in Binary
 
-All data in a computer is represented using binary digits (bits) — 0s and 1s.
+All data in a computer is represented using binary digits (bits), 0s and 1s.
 
 **Units of measurement:**
 
@@ -455,25 +455,25 @@ Consider the following simple program stored in memory:
 
 | Step | Action                                  | PC  | MAR | MDR       | CIR       | ALU/CU Activity         |
 | ---- | --------------------------------------- | --- | --- | --------- | --------- | ----------------------- |
-| 1    | Fetch: PC → MAR, PC + 1                 | 101 | 100 | —         | —         | —                       |
-| 2    | Fetch: Memory[MAR] → MDR                | 101 | 100 | LOAD 200  | —         | —                       |
-| 3    | Fetch: MDR → CIR                        | 101 | 100 | LOAD 200  | LOAD 200  | —                       |
+| 1    | Fetch: PC → MAR, PC + 1                 | 101 | 100 |,         |,         |,                       |
+| 2    | Fetch: Memory[MAR] → MDR                | 101 | 100 | LOAD 200  |,         |,                       |
+| 3    | Fetch: MDR → CIR                        | 101 | 100 | LOAD 200  | LOAD 200  |,                       |
 | 4    | Decode: CU decodes CIR                  | 101 | 100 | LOAD 200  | LOAD 200  | CU identifies LOAD op   |
 | 5    | Execute: Address 200 → MAR              | 101 | 200 | LOAD 200  | LOAD 200  | CU sends address to MAR |
-| 6    | Execute: Memory[MAR] → MDR (value = 15) | 101 | 200 | 15        | LOAD 200  | —                       |
+| 6    | Execute: Memory[MAR] → MDR (value = 15) | 101 | 200 | 15        | LOAD 200  |,                       |
 | 7    | Execute: MDR → Accumulator              | 101 | 200 | 15        | LOAD 200  | ACC = 15                |
-| 8    | Fetch: PC → MAR, PC + 1                 | 102 | 101 | —         | —         | —                       |
-| 9    | Fetch: Memory[MAR] → MDR                | 102 | 101 | ADD 201   | —         | —                       |
-| 10   | Fetch: MDR → CIR                        | 102 | 101 | ADD 201   | ADD 201   | —                       |
+| 8    | Fetch: PC → MAR, PC + 1                 | 102 | 101 |,         |,         |,                       |
+| 9    | Fetch: Memory[MAR] → MDR                | 102 | 101 | ADD 201   |,         |,                       |
+| 10   | Fetch: MDR → CIR                        | 102 | 101 | ADD 201   | ADD 201   |,                       |
 | 11   | Decode: CU decodes CIR                  | 102 | 101 | ADD 201   | ADD 201   | CU identifies ADD op    |
 | 12   | Execute: Address 201 → MAR              | 102 | 201 | ADD 201   | ADD 201   | CU sends address to MAR |
-| 13   | Execute: Memory[MAR] → MDR (value = 27) | 102 | 201 | 27        | ADD 201   | —                       |
+| 13   | Execute: Memory[MAR] → MDR (value = 27) | 102 | 201 | 27        | ADD 201   |,                       |
 | 14   | Execute: ACC + MDR → ACC                | 102 | 201 | 27        | ADD 201   | ACC = 15 + 27 = 42      |
-| 15   | Fetch: PC → MAR, PC + 1                 | 103 | 102 | —         | —         | —                       |
-| 16   | Fetch: Memory[MAR] → MDR                | 103 | 102 | STORE 202 | —         | —                       |
-| 17   | Fetch: MDR → CIR                        | 103 | 102 | STORE 202 | STORE 202 | —                       |
+| 15   | Fetch: PC → MAR, PC + 1                 | 103 | 102 |,         |,         |,                       |
+| 16   | Fetch: Memory[MAR] → MDR                | 103 | 102 | STORE 202 |,         |,                       |
+| 17   | Fetch: MDR → CIR                        | 103 | 102 | STORE 202 | STORE 202 |,                       |
 | 18   | Decode: CU decodes CIR                  | 103 | 102 | STORE 202 | STORE 202 | CU identifies STORE op  |
-| 19   | Execute: ACC → MDR (value = 42)         | 103 | 102 | 42        | STORE 202 | —                       |
+| 19   | Execute: ACC → MDR (value = 42)         | 103 | 102 | 42        | STORE 202 |,                       |
 | 20   | Execute: Address 202 → MAR              | 103 | 202 | 42        | STORE 202 | CU sends address to MAR |
 | 21   | Execute: MDR → Memory[MAR]              | 103 | 202 | 42        | STORE 202 | Memory[202] = 42        |
 
@@ -764,7 +764,7 @@ Answer, describe the Von Neumann bottleneck and explain how the Harvard architec
 
 The Von Neumann architecture uses a single memory space for both data and instructions, connected to
 The CPU by a single bus. This means the CPU cannot read an instruction and read/write data
-Simultaneously, creating the **Von Neumann bottleneck** — the bus becomes a performance limitation
+Simultaneously, creating the **Von Neumann bottleneck**, the bus becomes a performance limitation
 Because it can only transfer one item at a time.
 
 The Harvard architecture uses **separate memory spaces** for data and instructions, each with its

@@ -1,7 +1,7 @@
 ---
 
 title: "Submodules"
-description: "Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository — not"
+description: "Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository, not"
 date: 2025-06-03T11:00:00.000Z
 tags:
   - git
@@ -35,7 +35,7 @@ flowchart TD
 ## What Are Submodules
 
 Git submodules allow you to embed one Git repository inside another. The parent repository records a
-**reference** to a specific commit of the submodule repository — not the files themselves. This
+**reference** to a specific commit of the submodule repository, not the files themselves. This
 enables you to:
 
 - Include external libraries or dependencies as source code.
@@ -70,7 +70,7 @@ parent-repo/
 ### Tree Entry
 
 The parent repository's tree records the submodule as a special entry with mode `160000` (a Gitlink
-— a commit reference, not a file or directory):
+- a commit reference, not a file or directory):
 
 ```bash
 $ git ls-tree HEAD src/lib

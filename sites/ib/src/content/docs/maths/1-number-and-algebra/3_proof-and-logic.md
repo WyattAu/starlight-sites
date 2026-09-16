@@ -20,14 +20,14 @@ categories:
 
 ## Proof and Logic
 
-This note covers **IB Mathematics AA — Topic 1.4: Proof** in full depth. Everything here is
+This note covers **IB Mathematics AA, Topic 1.4: Proof** in full depth. Everything here is
 Examinable at both Standard Level and Higher Level, with HL extensions marked where relevant.
 
 ## 1. Logic Foundations
 
 ### 1.1 Propositions and Truth Values
 
-A **proposition** is a declarative sentence that is either **true** or **false** — never both, never
+A **proposition** is a declarative sentence that is either **true** or **false**, never both, never
 Neither.
 
 "7 is prime" is a proposition (true). "Solve for x" is not a proposition. "This sentence is false"
@@ -85,7 +85,7 @@ There are five fundamental connectives. Let $P$ and $Q$ be propositions.
 
 The implication $P \implies Q$ is only false when a true premise leads to a false conclusion. This
 Is the single most misunderstood truth table entry in all of mathematics. When $P$ is false, the
-Implication is **vacuously true** — there is no counterexample to "whenever P holds, Q holds."
+Implication is **vacuously true**, there is no counterexample to "whenever P holds, Q holds."
 
 **Biconditional:**
 
@@ -124,7 +124,7 @@ $$\neg(P \vee Q) \equiv \neg P \wedge \neg Q$$
 **Intuition:** To negate an "and," negate each part and switch to "or." To negate an "or," negate
 Each part and switch to "and."
 
-**Worked Example — Negating a compound statement:**
+**Worked Example, Negating a compound statement:**
 
 Negate: "The function $f$ is continuous and differentiable."
 
@@ -132,7 +132,7 @@ Let $C$: "$f$ is continuous." Let $D$: "$f$ is differentiable." The statement is
 Negation is $\neg C \vee \neg D$I.e., "$f$ is either not continuous or not differentiable."
 
 :::note
-"$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable" — that
+"$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable", that
 Is too strong.
 :::
 ### 1.5 The Contrapositive
@@ -171,7 +171,7 @@ A **tautology** is a compound proposition that is true for every possible truth 
 
 **Important contradiction:** $P \wedge \neg P$
 
-**Another key tautology — Modus Ponens:** $((P \implies Q) \wedge P) \implies Q$
+**Another key tautology, Modus Ponens:** $((P \implies Q) \wedge P) \implies Q$
 
 This says: if you know $P \implies Q$ and you know $P$ Then you can conclude $Q$. This is the
 Fundamental rule of direct .../1-number-and-algebra/3_proof-and-logic.
@@ -185,12 +185,12 @@ The fundamental rule of .../1-number-and-algebra/3_proof-and-logic by contraposi
 
 Quantifiers let us express statements about collections of objects.
 
-**Universal quantifier** ($\forall$): "For all" — the statement must hold for every element in the
+**Universal quantifier** ($\forall$): "For all", the statement must hold for every element in the
 Domain.
 
 $$\forall x \in S, \; P(x)$$
 
-**Existential quantifier** ($\exists$): "There exists" — the statement must hold for at least one
+**Existential quantifier** ($\exists$): "There exists", the statement must hold for at least one
 Element.
 
 $$\exists x \in S, \; P(x)$$
@@ -208,7 +208,7 @@ Statement, you must show it fails for every case.
 
 $$\forall x \, \exists y, \; P(x,y) \quad \mathrm{is NOT equivalent to} \quad \exists y \, \forall x, \; P(x,y)$$
 
-**Worked Example — Negating a nested quantifier statement:**
+**Worked Example, Negating a nested quantifier statement:**
 
 Negate: "For every positive real number $\varepsilon$There exists a positive real number $\delta$
 Such that..."
@@ -224,12 +224,12 @@ same sequence but With each quantifier flipped.
 <details>
 <summary>Worked Example: Negate $\forall n \in \mathbb{Z}^+, \; \exists p \mathrm{ prime}, \; p \gt n$</summary>
 
-Step 1: Identify the structure — it is $\forall n, \; \exists p, \; P(n,p)$ where $P(n,p)$ is "$p$
+Step 1: Identify the structure, it is $\forall n, \; \exists p, \; P(n,p)$ where $P(n,p)$ is "$p$
 Is prime and $p \gt n$."
 
-Step 2: Negate — $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; \neg(p \gt n)$
+Step 2: Negate, $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; \neg(p \gt n)$
 
-Step 3: Simplify — $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; p \le n$
+Step 3: Simplify, $\exists n \in \mathbb{Z}^+, \; \forall p \mathrm{ prime}, \; p \le n$
 
 Reading: "There exists a positive integer $n$ such that every prime $p$ satisfies $p \le n$." This
 Is false (there are infinitely many primes), so the original statement is true.
@@ -263,7 +263,7 @@ Algebraic manipulations.
 3. Therefore $Q$.
 4. Hence $P \implies Q$.
 
-**Worked Example — If $n$ is odd, then $n^2$ is odd:**
+**Worked Example, If $n$ is odd, then $n^2$ is odd:**
 
 Assume $n$ is odd. By definition, $n = 2k + 1$ for some $k \in \mathbb{Z}$.
 
@@ -274,7 +274,7 @@ Then $n^2 = 2m + 1$Which is odd by definition.
 
 Therefore, if $n$ is odd, then $n^2$ is odd.
 
-**Worked Example — The sum of two even numbers is even:**
+**Worked Example, The sum of two even numbers is even:**
 
 Let $a = 2m$ and $b = 2n$ for some $m, n \in \mathbb{Z}$.
 
@@ -311,7 +311,7 @@ Does not exist..." or "there are no...").
 :::note
 Middle ($P \vee \neg P$ must be true).
 :::
-**Worked Example — $\sqrt{2}$ is irrational:**
+**Worked Example, $\sqrt{2}$ is irrational:**
 
 Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b \in \mathbb{Z}^+$
 $\gcd(a, b) = 1$ (the fraction is in lowest terms).
@@ -319,7 +319,7 @@ $\gcd(a, b) = 1$ (the fraction is in lowest terms).
 Squaring both sides: $2 = \frac{a^2}{b^2}$ So $a^2 = 2b^2$.
 
 Since $a^2 = 2b^2$We have $a^2$ is even. Therefore $a$ is even (by the lemma: if $a^2$ is even, Then
-$a$ is even — proved below).
+$a$ is even, proved below).
 
 Write $a = 2k$ for some $k \in \mathbb{Z}^+$. Substituting:
 
@@ -363,7 +363,7 @@ But the negation of the conclusion $\neg Q$ gives you something concrete to grab
 4. Therefore $\neg P$.
 5. Hence $P \implies Q$.
 
-**Worked Example — If $n^2$ is even, then $n$ is even:**
+**Worked Example, If $n^2$ is even, then $n$ is even:**
 
 We prove the contrapositive: if $n$ is odd, then $n^2$ is odd.
 
@@ -376,7 +376,7 @@ Is even.
 
 :::tip
 that $n^2$ is Both even and odd). But the contrapositive .../1-number-and-algebra/3_proof-and-logic
-is cleaner — it is a direct .../1-number-and-algebra/3_proof-and-logic of the equivalent Statement.
+is cleaner, it is a direct .../1-number-and-algebra/3_proof-and-logic of the equivalent Statement.
 :::
 <details>
 <summary>Exercise: Prove that if $3n + 2$ is odd, then $n$ is odd (by contrapositive).</summary>
@@ -405,7 +405,7 @@ Induction proves statements of the form $\forall n \ge n_0, \; P(n)$Where $n_0 \
 3. **Inductive step:** Using the hypothesis that $P(k)$ holds, prove that $P(k+1)$ holds.
 4. **Conclusion:** By the Principle of Mathematical Induction, $P(n)$ is true for all $n \ge n_0$.
 
-**Worked Example — Sum formula $1 + 2 + \cdots + n = \frac{n(n+1)}{2}$:**
+**Worked Example, Sum formula $1 + 2 + \cdots + n = \frac{n(n+1)}{2}$:**
 
 Let $P(n)$: $1 + 2 + \cdots + n = \frac{n(n+1)}{2}$.
 
@@ -428,7 +428,7 @@ This is exactly the RHS of $P(k+1)$. Therefore $P(k+1)$ holds.
 
 **Conclusion:** By induction, $P(n)$ is true for all $n \ge 1$.
 
-**Worked Example — Sum of squares $1^2 + 2^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}$:**
+**Worked Example, Sum of squares $1^2 + 2^2 + \cdots + n^2 = \frac{n(n+1)(2n+1)}{6}$:**
 
 Let $P(n)$: $\displaystyle\sum_{i=1}^{n} i^2 = \frac{n(n+1)(2n+1)}{6}$.
 
@@ -505,7 +505,7 @@ Case $P(j)$ where $j \lt k$.
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
 :::
-**Worked Example — Every integer $n \ge 2$ is a product of primes:**
+**Worked Example, Every integer $n \ge 2$ is a product of primes:**
 
 Let $P(n)$: "$n$ is a product of primes (possibly a single prime)."
 
@@ -527,7 +527,7 @@ In either case, $P(k+1)$ holds. By strong induction, every integer $n \ge 2$ is 
 
 Let $P(n)$: "Postage of $n$ cents can be formed using 4-cent and 5-cent stamps."
 
-Base cases: $P(4)$: one 4-cent stamp. $P(5)$: one 5-cent stamp. $P(6)$: cannot — wait, this needs
+Base cases: $P(4)$: one 4-cent stamp. $P(5)$: one 5-cent stamp. $P(6)$: cannot, wait, this needs
 Checking. $P(7)$: cannot either. Let me reconsider.
 
 Actually, we need $P(8)$: two 4-cent stamps. $P(9)$: one 4-cent + one 5-cent. $P(10)$: two 5-cent
@@ -556,7 +556,7 @@ Verifying each case individually.
 
 This is brute-force but rigorous. It is only practical when the number of cases is manageable.
 
-**Worked Example — Show that $n^2 + n + 17$ is prime for $n = 0, 1, 2, 3, 4$:**
+**Worked Example, Show that $n^2 + n + 17$ is prime for $n = 0, 1, 2, 3, 4$:**
 
 $n = 0$: $0 + 0 + 17 = 17$ (prime) $n = 1$: $1 + 1 + 17 = 19$ (prime) $n = 2$: $4 + 2 + 17 = 23$
 (prime) $n = 3$: $9 + 3 + 17 = 29$ (prime) $n = 4$: $16 + 4 + 17 = 37$ (prime)
@@ -570,11 +570,11 @@ A single counterexample is sufficient to disprove a universal statement.
 
 **Strategy:** To disprove $\forall x \in S, \; P(x)$Find one $a \in S$ such that $P(a)$ is false.
 
-**Worked Example — Disprove: "All prime numbers are odd."**
+**Worked Example, Disprove: "All prime numbers are odd."**
 
 Counterexample: $2$ is prime and $2$ is even.
 
-**Worked Example — Disprove: "$n^2 - n + 41$ is prime for all $n \in \mathbb{N}$."**
+**Worked Example, Disprove: "$n^2 - n + 41$ is prime for all $n \in \mathbb{N}$."**
 
 When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$).
 
@@ -929,7 +929,7 @@ Sides by $(p-1)!$ modulo $p$:
 
 $$a^{p-1} \equiv 1 \pmod{p} \quad \blacksquare$$
 
-**Worked Example — Find $2^{100} \pmod{13}$:**
+**Worked Example, Find $2^{100} \pmod{13}$:**
 
 Since 13 is prime and $\gcd(2, 13) = 1$By Fermat: $2^{12} \equiv 1 \pmod{13}$.
 
@@ -972,10 +972,10 @@ Factor and repeat. By induction, the factorizations are identical. $\blacksquare
 
 ### 4.5 GCD and LCM Properties
 
-**Definition:** $\gcd(a, b)$ is the greatest common divisor of $a$ and $b$ — the largest positive
+**Definition:** $\gcd(a, b)$ is the greatest common divisor of $a$ and $b$, the largest positive
 Integer dividing both.
 
-**Definition:** $\mathrm{lcm}(a, b)$ is the least common multiple — the smallest positive integer
+**Definition:** $\mathrm{lcm}(a, b)$ is the least common multiple, the smallest positive integer
 That both $a$ and $b$ divide.
 
 **Key relationship:**
@@ -1082,7 +1082,7 @@ written as $\frac{a}{b}$. Therefore $\sqrt{2}$ is irrational."
 The conclusion ($\sqrt{2}$ is irrational) appears in the hypothesis. This proves nothing.
 
 **How to avoid:** Check that every step of your .../1-number-and-algebra/3_proof-and-logic relies
-only on axioms, definitions, and Previously established theorems — never on the statement you are
+only on axioms, definitions, and Previously established theorems, never on the statement you are
 proving.
 
 :::danger
@@ -1222,7 +1222,7 @@ Showing $P$ is false does NOT disprove the implication.
 
 :::danger
 Different from "There exists a person who is the mother of everyone." The negation of "for every x
-There exists y" is "there exists x such that for every y" — quantifiers flip but their order is
+There exists y" is "there exists x such that for every y", quantifiers flip but their order is
 Preserved.
 :::
 ---

@@ -78,11 +78,11 @@ specification. Content is organised into three core areas:
 
 A-Level Geography is assessed through three written papers and a non-examined fieldwork assessment:
 
-- **Paper 1** (2 hours 30 minutes, 40%): Physical Geography — Water and Carbon Cycles, Coastal
+- **Paper 1** (2 hours 30 minutes, 40%): Physical Geography, Water and Carbon Cycles, Coastal
   Systems or Glacial Systems or Hazards (two of three)
-- **Paper 2** (2 hours 30 minutes, 40%): Human Geography — Changing Places, Global Systems,
+- **Paper 2** (2 hours 30 minutes, 40%): Human Geography, Changing Places, Global Systems,
   Contemporary Urban Environments or Population and the Environment
-- **Paper 3** (2 hours, 20%): Geographical Debate — synoptic assessment drawing on content from both
+- **Paper 3** (2 hours, 20%): Geographical Debate, synoptic assessment drawing on content from both
   physical and human geography
 - **Non-examined Assessment**: Fieldwork write-up (3,000–4,000 words), internally marked and
   moderated

@@ -92,11 +92,11 @@ Answer each question. Check your answers against the key at the end.
 
 ## Intuition
 
-**Earth's thermostat:** Climate is like the planet's long-term mood — it's the average weather pattern over decades, not the day-to-day fluctuations. The atmosphere is a giant heat engine powered by the sun.
+**Earth's thermostat:** Climate is like the planet's long-term mood, it's the average weather pattern over decades, not the day-to-day fluctuations. The atmosphere is a giant heat engine powered by the sun.
 
 **Why it matters:** From agriculture to urban planning, climate determines where people live, what they grow, and how they build. Understanding climate systems helps predict droughts, floods, and typhoons.
 
-**The key insight:** The greenhouse effect isn't inherently bad — without it, Earth would be frozen. The problem is the enhanced greenhouse effect from human emissions.
+**The key insight:** The greenhouse effect isn't inherently bad, without it, Earth would be frozen. The problem is the enhanced greenhouse effect from human emissions.
 
 ## Answer Key
 

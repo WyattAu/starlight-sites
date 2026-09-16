@@ -280,7 +280,7 @@ print(MathUtils.clamp(150, 0, 100))  # 100
 print(MathUtils.is_prime(17))         # True
 ```
 
-`staticmethod` is also a descriptor, but a simple one — it just returns the original function
+`staticmethod` is also a descriptor, but a simple one, it just returns the original function
 Without binding:
 
 ```python
@@ -357,10 +357,10 @@ Have many instances.
 
 ```python
 class Base:
-    __slots__ = ("x",)
+    __slots__ = ("x")
 
 class Child(Base):
-    __slots__ = ("y",)  # Inherits x from Base, adds y
+    __slots__ = ("y")  # Inherits x from Base, adds y
 
 c = Child()
 c.x = 1
@@ -754,7 +754,7 @@ _ = s.state          # Logs: Accessed state on Service
 
 ## Intuition
 
-Descriptors are the invisible machinery behind Python's attribute access. When you write `obj.attr`, Python does not just look up a dictionary — it consults a priority list. Data descriptors (like `property`) always win over instance attributes, which is why you cannot bypass a property setter by assigning directly. Non-data descriptors (like regular functions) lose to instance attributes, which is why you can shadow a method with `obj.method = lambda: 42`. This hierarchy is the reason `self` exists in methods — the descriptor protocol inserts the instance as the first argument. Understanding descriptors is understanding how Python's object model actually works under the hood.
+Descriptors are the invisible machinery behind Python's attribute access. When you write `obj.attr`Python does not just look up a dictionary, it consults a priority list. Data descriptors (like `property`) always win over instance attributes, which is why you cannot bypass a property setter by assigning directly. Non-data descriptors (like regular functions) lose to instance attributes, which is why you can shadow a method with `obj.method = lambda: 42`. This hierarchy is the reason `self` exists in methods, the descriptor protocol inserts the instance as the first argument. Understanding descriptors is understanding how Python's object model actually works under the hood.
 
 ## Common Pitfalls
 
@@ -796,7 +796,7 @@ class Example:
 
 e = Example()
 e.value = 42
-print(e.value)  # 0 — the descriptor's __set__ ignores the assignment
+print(e.value)  # 0, the descriptor's __set__ ignores the assignment
 ```
 
 If you need to allow override, make it a non-data descriptor (implement only `__get__`).
@@ -824,10 +824,10 @@ obj2 = pickle.loads(data)
 
 ```python
 class A:
-    __slots__ = ("x",)
+    __slots__ = ("x")
 
 class B:
-    __slots__ = ("y",)
+    __slots__ = ("y")
 
 # class C(A, B):  # TypeError: multiple bases have instance lay-out conflict
 #     pass
@@ -837,13 +837,13 @@ class Base:
     __slots__ = ()
 
 class A(Base):
-    __slots__ = ("x",)
+    __slots__ = ("x")
 
 class B(Base):
-    __slots__ = ("y",)
+    __slots__ = ("y")
 
-class C(A, B):  # Works — both inherit from Base
-    __slots__ = ("z",)
+class C(A, B):  # Works, both inherit from Base
+    __slots__ = ("z")
 ```
 
 ### 5. Infinite Recursion in **getattribute**
@@ -876,7 +876,7 @@ e = Example()
 e.instance_level = Desc()      # Does NOT work as descriptor
 
 print(e.class_level)     # descriptor
-print(e.instance_level)  # <Desc object at 0x...> — just a regular object
+print(e.instance_level)  # <Desc object at 0x...>, just a regular object
 ```
 
 ### 7. Property Getter Returning None vs Not Set
@@ -892,7 +892,7 @@ class Tricky:
         pass
 
 t = Tricky()
-print(t.value)  # None — was it set to None or never set?
+print(t.value)  # None, was it set to None or never set?
 # There's no way to tell with property alone. Track state explicitly if needed.
 ```
 

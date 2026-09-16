@@ -183,9 +183,9 @@ flowchart TD
 
 ## Intuition
 
-Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Before European contact, the Americas contained hundreds of distinct societies with different economies, governance systems, and cultures. European colonisation didn't create a single "American" society — it created a collision of multiple worlds.
+Periods 1-2 (1491-1754) establish the **foundations of American diversity**. Before European contact, the Americas contained hundreds of distinct societies with different economies, governance systems, and cultures. European colonisation didn't create a single "American" society, it created a collision of multiple worlds.
 
-**The Columbian Exchange as turning point:** The transfer of plants, animals, diseases, and people between hemispheres was arguably the most significant event in human history. Diseases killed up to 90% of Native Americans — this demographic collapse, not military superiority, was the primary factor enabling European conquest.
+**The Columbian Exchange as turning point:** The transfer of plants, animals, diseases, and people between hemispheres was arguably the most significant event in human history. Diseases killed up to 90% of Native Americans, this demographic collapse, not military superiority, was the primary factor enabling European conquest.
 
 **Regional differences matter:** The Chesapeake (tobacco, labour-intensive, high mortality), New England (subsistence farming, religious communities), Middle Colonies (diverse, commercially oriented), and Southern Colonies (plantation agriculture) developed very different societies from the start. These regional differences would ultimately contribute to the Civil War a century later.
 

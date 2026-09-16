@@ -314,7 +314,7 @@ export interface SpeakableSchemaProps {
 
 /**
  * Generate Speakable schema.org structured data.
- * Use for voice search optimization — tells Google which parts of the page are best for text-to-speech.
+ * Use for voice search optimization, tells Google which parts of the page are best for text-to-speech.
  */
 export function generateSpeakableSchema(props: SpeakableSchemaProps) {
   return {

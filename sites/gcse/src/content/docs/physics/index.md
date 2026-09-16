@@ -68,15 +68,15 @@ curriculum and organised by topic for easy navigation.
 
 ## Topics Covered
 
-- **Energy** — energy stores and transfers, conservation of energy, specific heat capacity, latent
+- **Energy**, energy stores and transfers, conservation of energy, specific heat capacity, latent
   heat, efficiency, renewable and non-renewable resources, national and global energy use
-- **Electricity** — circuit symbols, current, potential difference and resistance, Ohm"s law, series
+- **Electricity**, circuit symbols, current, potential difference and resistance, Ohm"s law, series
   and parallel circuits, power and energy transfer, domestic electricity, the National Grid
-- **Forces** — scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
+- **Forces**, scalar and vector quantities, Newton's laws, weight and mass, resultant forces, work
   done, momentum, stopping distances, elasticity, pressure in fluids
-- **Waves** — transverse and longitudinal waves, wave properties (frequency, wavelength, amplitude),
+- **Waves**, transverse and longitudinal waves, wave properties (frequency, wavelength, amplitude),
   electromagnetic spectrum, reflection and refraction, sound waves, ultrasound
-- **Magnetism & Electromagnetism** — permanent and induced magnets, magnetic fields, electromagnets,
+- **Magnetism & Electromagnetism**, permanent and induced magnets, magnetic fields, electromagnets,
   the motor effect, electromagnetic induction, transformers, the National Grid
 
 ## How to Use These Notes
@@ -90,13 +90,13 @@ curriculum and organised by topic for easy navigation.
 
 - Memorise the equations not provided on the formula sheet and practise rearranging them before the
   exam
-- Use the "show your working" approach for multi-step calculations — each step can earn a mark even
+- Use the "show your working" approach for multi-step calculations, each step can earn a mark even
   if you make an error later
 - Learn the required practical methods (specific heat capacity, resistance, density, IR
   investigation); questions test both method and analysis
 - Practise describing and explaining concepts in full sentences; many marks are for written
   explanations rather than calculations
-- Always include units in your final answer — missing units cost easy marks on calculation questions
+- Always include units in your final answer, missing units cost easy marks on calculation questions
 - Use analogy and real-world examples to remember abstract concepts (e.g., water flow for current,
   springs for forces)
 - Review the maths skills you need for physics (rearranging formulae, standard form, graph analysis)
@@ -119,11 +119,11 @@ linked above.
 
 ## Intuition
 
-GCSE Physics is about **understanding how the physical world works** — from energy transfers to electric circuits to the behaviour of waves. The key insight is that complex phenomena can be explained by a few fundamental laws and equations.
+GCSE Physics is about **understanding how the physical world works**, from energy transfers to electric circuits to the behaviour of waves. The key insight is that complex phenomena can be explained by a few fundamental laws and equations.
 
-**Energy intuition:** Energy is never created or destroyed — it only changes form. A falling ball converts gravitational potential energy to kinetic energy. A circuit converts electrical energy to heat and light. The total energy in a closed system is constant.
+**Energy intuition:** Energy is never created or destroyed, it only changes form. A falling ball converts gravitational potential energy to kinetic energy. A circuit converts electrical energy to heat and light. The total energy in a closed system is constant.
 
-**Forces intuition:** Forces cause changes in motion. A net force accelerates an object (F = ma). Friction opposes motion. Gravity pulls objects toward each other. Drawing a free-body diagram — identifying every force acting on an object — is the key to solving force problems.
+**Forces intuition:** Forces cause changes in motion. A net force accelerates an object (F = ma). Friction opposes motion. Gravity pulls objects toward each other. Drawing a free-body diagram, identifying every force acting on an object, is the key to solving force problems.
 
 **Waves intuition:** Waves transfer energy without transferring matter. A wave on a rope moves energy along, but each point on the rope only moves up and down. The key properties are wavelength, frequency, and amplitude. Speed = wavelength × frequency.
 
@@ -204,8 +204,8 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Common Exam Question Types
 
-1. **Calculation questions** — show all working, include units, check significant figures
-2. **Explanation questions** — use physics terminology, explain cause and effect
-3. **Practical questions** — describe method, identify variables, explain sources of error
-4. **Graph questions** — label axes, draw best-fit line, calculate gradient
-5. **Evaluation questions** — consider advantages, disadvantages, and improvements
+1. **Calculation questions**, show all working, include units, check significant figures
+2. **Explanation questions**, use physics terminology, explain cause and effect
+3. **Practical questions**, describe method, identify variables, explain sources of error
+4. **Graph questions**, label axes, draw best-fit line, calculate gradient
+5. **Evaluation questions**, consider advantages, disadvantages, and improvements

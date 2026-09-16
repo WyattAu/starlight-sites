@@ -56,7 +56,7 @@ Linear programming is an optimization technique for maximizing or minimizing a l
 - Artificial variables and slack variables for standard form
 - Dual problem: every LP problem has a corresponding dual
 
-## Worked Example 1 — Graphical Method
+## Worked Example 1, Graphical Method
 
 **Problem:** Maximize $Z = 3x + 2y$ subject to:
 $$x + y \leq 4$$
@@ -88,7 +88,7 @@ Step 4: Maximum value is $Z = 12$ at $(4, 0)$.
 
 **Common mistake:** Checking interior points instead of corner points. The optimal value always occurs at a vertex.
 
-## Worked Example 2 — Minimization Problem
+## Worked Example 2, Minimization Problem
 
 **Problem:** Minimize $Z = 5x + 3y$ subject to:
 $$2x + y \geq 10$$
@@ -115,7 +115,7 @@ Step 4: Minimum is $Z = 15$ at $(0, 5)$.
 
 **Common mistake:** For unbounded regions, verify that no point in the feasible region gives a smaller value. Check if $5x + 3y < 15$ has any solution in the feasible region.
 
-## Worked Example 3 — Manufacturing Problem
+## Worked Example 3, Manufacturing Problem
 
 **Problem:** A manufacturer produces two products. Product A requires 2 hours on machine I and 1 hour on machine II. Product B requires 1 hour on machine I and 3 hours on machine II. Machine I is available for 8 hours and machine II for 9 hours. If profit is Rs. 400 per unit of A and Rs. 500 per unit of B, find the production plan that maximizes profit.
 
@@ -168,11 +168,11 @@ Linear programming is used in logistics, supply chain management, telecommunicat
 
 ## Intuition
 
-**Finding the best answer by drawing a map:** Linear programming is like finding the highest point on a mountain by walking along the boundary of a fenced area. The fence represents your constraints (what you can't do), and the terrain represents your objective (what you want to maximize). The corner point theorem says the best answer always lies at a corner of the feasible region — you never need to check the middle of an edge or the interior. This is because linear functions can't have their maximum in the middle of a flat region.
+**Finding the best answer by drawing a map:** Linear programming is like finding the highest point on a mountain by walking along the boundary of a fenced area. The fence represents your constraints (what you can't do), and the terrain represents your objective (what you want to maximize). The corner point theorem says the best answer always lies at a corner of the feasible region, you never need to check the middle of an edge or the interior. This is because linear functions can't have their maximum in the middle of a flat region.
 
 **Why it matters:** Linear programming is used by airlines to optimize flight routes, factories to plan production schedules, logistics companies to minimize delivery costs, and farmers to decide crop allocation. Every time you see an "optimal" solution in business, there's likely a linear programming algorithm behind it.
 
-**The key insight:** The feasible region is convex (no dents), which guarantees that any local optimum is also a global optimum — no need to worry about getting stuck in a local maximum.
+**The key insight:** The feasible region is convex (no dents), which guarantees that any local optimum is also a global optimum, no need to worry about getting stuck in a local maximum.
 
 ## Common Exam Patterns
 

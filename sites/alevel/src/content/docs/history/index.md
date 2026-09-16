@@ -32,45 +32,45 @@ covers the major themes, source analysis techniques, and coursework skills requi
 
 ### Modern European History
 
-- **Revolutions** — the French Revolution, 1848 revolutions; causes (political, social, economic),
+- **Revolutions**, the French Revolution, 1848 revolutions; causes (political, social, economic),
   key events, consequences
-- **Unification** — Germany (Bismarck) and Italy (Cavour, Garibaldi); the role of nationalism, war,
+- **Unification**, Germany (Bismarck) and Italy (Cavour, Garibaldi); the role of nationalism, war,
   and diplomacy
-- **World Wars** — origins, key turning points, home fronts, total war, Treaty of Versailles and its
+- **World Wars**, origins, key turning points, home fronts, total war, Treaty of Versailles and its
   consequences
-- **Cold War** — origins (ideological differences, Yalta, Potsdam), key crises (Berlin, Cuba,
+- **Cold War**, origins (ideological differences, Yalta, Potsdam), key crises (Berlin, Cuba,
   Korea), détente, collapse of the USSR
 
 ### British History
 
-- **Political reform** — Reform Acts (1832, 1867, 1884), the Chartists, extension of the franchise
-- **Empire and decolonisation** — the British Empire at its height, independence movements, Suez
+- **Political reform**, Reform Acts (1832, 1867, 1884), the Chartists, extension of the franchise
+- **Empire and decolonisation**, the British Empire at its height, independence movements, Suez
   Crisis
-- **Social change** — industrialisation, public health, education reforms, women"s suffrage, welfare
+- **Social change**, industrialisation, public health, education reforms, women"s suffrage, welfare
   state
 
 ### Source Analysis
 
-- **Primary source evaluation** — provenance, purpose, tone, content, context; provenance = origin +
+- **Primary source evaluation**, provenance, purpose, tone, content, context; provenance = origin +
   author + date + audience
-- **Cross-referencing sources** — corroborating and challenging using multiple sources
-- **Source utility** — assessing how useful a source is for answering a specific historical question
-- **Contemporary vs. retrospective sources** — understanding the significance of when a source was
+- **Cross-referencing sources**, corroborating and challenging using multiple sources
+- **Source utility**, assessing how useful a source is for answering a specific historical question
+- **Contemporary vs. retrospective sources**, understanding the significance of when a source was
   produced
 
 ### Historical Interpretation
 
-- **Historiography** — how and why interpretations of events have changed over time
-- **Competing narratives** — orthodox vs. revisionist interpretations (e.g., Cold War
+- **Historiography**, how and why interpretations of events have changed over time
+- **Competing narratives**, orthodox vs. revisionist interpretations (e.g., Cold War
   responsibility)
-- **Evaluating historians' arguments** — identifying evidence used, assumptions made, perspectives
+- **Evaluating historians' arguments**, identifying evidence used, assumptions made, perspectives
   adopted
 
 ### Coursework Investigation
 
-- **Independent research** — formulating a research question, identifying sources, building an
+- **Independent research**, formulating a research question, identifying sources, building an
   argument
-- **Extended essay** — structured writing at length (3000–4000 words); footnoting, bibliography,
+- **Extended essay**, structured writing at length (3000–4000 words); footnoting, bibliography,
   critical engagement with interpretations
 
 ## Study Tips

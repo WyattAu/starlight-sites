@@ -1,6 +1,6 @@
 ---
-title: "Complete Language Proficiency Test Guide — IELTS, TOEFL, and More"
-description: "Study notes for Complete Language Proficiency Test Guide — IELTS, TOEFL, and More with worked examples, practice problems, and key concepts for exam preparation."
+title: "Complete Language Proficiency Test Guide, IELTS, TOEFL, and More"
+description: "Study notes for Complete Language Proficiency Test Guide, IELTS, TOEFL, and More with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags:
   - language-tests

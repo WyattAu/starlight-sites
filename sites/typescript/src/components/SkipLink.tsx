@@ -1,5 +1,5 @@
 /**
- * SkipLink.tsx — Accessibility skip navigation
+ * SkipLink.tsx, Accessibility skip navigation
  *
  * Hidden by default, visible on focus (Tab key).
  * Allows keyboard users to skip to main content.

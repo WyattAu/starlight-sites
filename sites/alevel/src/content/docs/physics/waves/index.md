@@ -45,58 +45,58 @@ sources:
 
 ## Waves
 
-Waves transfer energy without transferring matter. Understanding wave behaviour — including
-reflection, refraction, diffraction, interference, and the wave-particle duality — is essential for
+Waves transfer energy without transferring matter. Understanding wave behaviour, including
+reflection, refraction, diffraction, interference, and the wave-particle duality, is essential for
 explaining phenomena from sound to light to quantum mechanics.
 
 ## Topics Covered
 
 ### Wave Properties
 
-- **Progressive waves** — transverse (displacement perpendicular to propagation: light,
+- **Progressive waves**, transverse (displacement perpendicular to propagation: light,
   electromagnetic) vs. longitudinal (displacement parallel to propagation: sound)
-- **Wave terms** — amplitude, wavelength $\lambda$, frequency $f$, period $T = \frac{1}{f}$, wave
+- **Wave terms**, amplitude, wavelength $\lambda$, frequency $f$, period $T = \frac{1}{f}$, wave
   speed $v = f\lambda$
-- **Phase and phase difference** — in phase ($\Delta\phi = 0$ or $2\pi$), antiphase
+- **Phase and phase difference**, in phase ($\Delta\phi = 0$ or $2\pi$), antiphase
   ($\Delta\phi = \pi$); path difference $\Delta x = \frac{\lambda \Delta\phi}{2\pi}$
-- **Electromagnetic spectrum** — radio, microwave, infrared, visible, ultraviolet, X-ray, gamma; all
+- **Electromagnetic spectrum**, radio, microwave, infrared, visible, ultraviolet, X-ray, gamma; all
   travel at $c = 3.0 \times 10^8\,\text{m/s}$ in a vacuum
 
 ### Superposition and Interference
 
-- **Principle of superposition** — resultant displacement is the sum of individual displacements
-- **Constructive interference** — path difference $= n\lambda$; amplitudes add
-- **Destructive interference** — path difference $= (n + \frac{1}{2})\lambda$; amplitudes cancel
-- **Two-source interference** — Young"s double slit: fringe spacing
+- **Principle of superposition**, resultant displacement is the sum of individual displacements
+- **Constructive interference**, path difference $= n\lambda$; amplitudes add
+- **Destructive interference**, path difference $= (n + \frac{1}{2})\lambda$; amplitudes cancel
+- **Two-source interference**, Young"s double slit: fringe spacing
   $\Delta y = \frac{\lambda D}{s}$; coherent sources required
-- **Diffraction gratings** — $d\sin\theta = n\lambda$; calculating wavelength or grating spacing;
+- **Diffraction gratings**, $d\sin\theta = n\lambda$; calculating wavelength or grating spacing;
   resolving power
-- **Stationary (standing) waves** — formed by superposition of two progressive waves travelling in
+- **Stationary (standing) waves**, formed by superposition of two progressive waves travelling in
   opposite directions; nodes (zero amplitude) and antinodes (maximum amplitude); fundamental
   frequency and harmonics
 
 ### Refraction and Total Internal Reflection
 
-- **Snell's law** — $n_1 \sin\theta_1 = n_2 \sin\theta_2$; refractive index $n = \frac{c}{v}$
-- **Total internal reflection (TIR)** — occurs when $\theta > \theta_c$ and light travels from a
+- **Snell's law**, $n_1 \sin\theta_1 = n_2 \sin\theta_2$; refractive index $n = \frac{c}{v}$
+- **Total internal reflection (TIR)**, occurs when $\theta > \theta_c$ and light travels from a
   more dense to less dense medium; critical angle $\sin\theta_c = \frac{n_2}{n_1}$ ($n_1 > n_2$)
-- **Optical fibres** — TIR in the core; cladding with lower refractive index; applications in
+- **Optical fibres**, TIR in the core; cladding with lower refractive index; applications in
   communications and medicine; modal and material dispersion
-- **Lenses** — converging and diverging; focal length, principal focus, magnification
+- **Lenses**, converging and diverging; focal length, principal focus, magnification
   $m = \frac{v}{u}$; the lens equation $\frac{1}{f} = \frac{1}{u} + \frac{1}{v}$
 
 ### Polarisation
 
 Polarisation is evidence for the transverse nature of electromagnetic waves. Only transverse waves
-can be polarised — longitudinal waves (sound) cannot.
+can be polarised, longitudinal waves (sound) cannot.
 
-- **Polarisation by reflection** — light reflected from a non-metallic surface is partially
+- **Polarisation by reflection**, light reflected from a non-metallic surface is partially
   polarised; the reflected light vibrates in one plane
-- **Polarising filters** — transmit only one plane of vibration; rotating the filter varies the
+- **Polarising filters**, transmit only one plane of vibration; rotating the filter varies the
   transmitted intensity from maximum to zero (when crossed at 90°)
-- **Malus's law** — $I = I_0 \cos^2\theta$, where $\theta$ is the angle between the polariser and
+- **Malus's law**, $I = I_0 \cos^2\theta$, where $\theta$ is the angle between the polariser and
   the analyser
-- **Applications** — sunglasses (reduce glare from reflective surfaces), LCD screens, stress
+- **Applications**, sunglasses (reduce glare from reflective surfaces), LCD screens, stress
   analysis in engineering
 
 ### Stationary vs. Progressive Waves

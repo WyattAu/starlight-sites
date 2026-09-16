@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Differentiation — Diagnostic Tests
+## Differentiation, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Differentiation is like finding the instantaneous speed of a car — it tells you the rate of change at any exact moment, not just the average over time:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another
+**Differentiation is like finding the instantaneous speed of a car, it tells you the rate of change at any exact moment, not just the average over time:** The derivative captures the slope of a curve at any point, revealing how fast one quantity changes relative to another
 
 **Why it matters:** From optimizing business profits to modeling population growth, differentiation is the calculus of change
 
@@ -40,7 +40,7 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for differentiation.
 
-### UT-1: Implicit Differentiation — Second Derivative Trap
+### UT-1: Implicit Differentiation, Second Derivative Trap
 
 **Question:**
 
@@ -124,7 +124,7 @@ and simplifying. Both forms are correct; they just express the answer differentl
 }
 </script>
 
-### UT-2: L'Hopital's Rule — When It Does Not Apply
+### UT-2: L'Hopital's Rule, When It Does Not Apply
 
 **Question:**
 
@@ -183,7 +183,7 @@ because the original limit is indeterminate.
 }
 </script>
 
-### UT-3: Product Rule — Order of Operations
+### UT-3: Product Rule, Order of Operations
 
 **Question:**
 
@@ -214,7 +214,7 @@ $$= e^{3x}\left[(2x + 3x^2)\sin x + x^2\cos x\right]$$
 
 **(b)** The student's error is that they differentiated each factor independently and multiplied the
 results: $f'(x) \neq u' \cdot v' \cdot w'$. The derivative of a product is **not** the product of
-the derivatives. The correct rule is $(uvw)' = u'vw + uv'w + uvw'$ — each term differentiates
+the derivatives. The correct rule is $(uvw)' = u'vw + uv'w + uvw'$, each term differentiates
 exactly one factor while keeping the others unchanged.
 
 ---

@@ -248,7 +248,7 @@ namespace \{
 int a_func(int x) \{ return compute(x); \}
 // b.cpp
 namespace \{
-    int compute(int x) \{ return x + x; \}  // Different function, same name — no conflict
+    int compute(int x) \{ return x + x; \}  // Different function, same name, no conflict
 \}
 int b_func(int x) \{ return compute(x); \}
 ```
@@ -366,7 +366,7 @@ public:
 By default, `inline` functions defined in headers are **not** exported from DSOs, even with
 `default` visibility. They are compiled into each TU that includes the header. However, if a
 `-fvisibility=hidden` compilation is in effect, inlines in a shared library are still available to
-Consumers through the header — they are compiled into the consumer's TU.
+Consumers through the header, they are compiled into the consumer's TU.
 The CMake property `VISIBILITY_INLINES_HIDDEN YES` explicitly hides inline functions from the DSO's
 Export table, reducing symbol table size:
 
@@ -468,7 +468,7 @@ ODR violations are particularly insidious because the linker often does not dete
 struct Point \{
     double x, y;
 \};
-// b.h (included by b.cpp) — different layout, same name
+// b.h (included by b.cpp), different layout, same name
 struct Point \{
     double y, x;  // Swapped!
 \};
@@ -489,11 +489,11 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 
 ## Intuition
 
-**Controlling what's visible:** Symbol visibility is like deciding what to show on a store window — some symbols are public (visible to other translation units), others are private.
+**Controlling what's visible:** Symbol visibility is like deciding what to show on a store window, some symbols are public (visible to other translation units), others are private.
 
 **Why it matters:** Proper visibility control reduces binary size, improves link times, and prevents symbol conflicts.
 
-**The key insight:** Hidden visibility is the default in many modern build systems — explicitly marking symbols as visible improves build performance.
+**The key insight:** Hidden visibility is the default in many modern build systems, explicitly marking symbols as visible improves build performance.
 
 ## Common Pitfalls
 

@@ -1,5 +1,5 @@
 ---
-title: "Irish Leaving Certificate Glossary — Key Terms"
+title: "Irish Leaving Certificate Glossary, Key Terms"
 description: "Comprehensive glossary of Irish Leaving Certificate terms covering the examination system, grading, CAO points, subjects, and university admissions."
 date: 2026-07-24
 tags: [glossary]

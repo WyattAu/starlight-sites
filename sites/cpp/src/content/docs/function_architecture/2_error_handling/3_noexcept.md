@@ -167,10 +167,10 @@ int main() {
 }
 ```
 
-## 3.4 `noexcept(false)` — Explicit Opt-Out
+## 3.4 `noexcept(false)`Explicit Opt-Out
 
 The default for destructors is `noexcept(true)` since C++11 [N4950 §14.5.3]. Use `noexcept(false)`
-Only when absolutely necessary (and the "destructor must never throw" rule still applies — see
+Only when absolutely necessary (and the "destructor must never throw" rule still applies, see
 Below).
 
 ```cpp
@@ -238,7 +238,7 @@ int main() {
 
 The `noexcept` operator is a **compile-time** constant expression that evaluates to `true` if the
 Given expression is guaranteed not to throw [N4950 §14.5.2]. It does not evaluate the expression at
-Runtime — it only examines the `noexcept` specifiers of the functions called within it:
+Runtime, it only examines the `noexcept` specifiers of the functions called within it:
 
 ```cpp
 #include <iostream>
@@ -376,8 +376,8 @@ int normal_fn() { std::cout << "  normal_fn\n"; return 0; }
 int noexcept_fn() noexcept { std::cout << "  noexcept_fn\n"; return 0; }
 
 int main() {
-    process(normal_fn);    // calls process(int(*)())  — non-noexcept overload
-    process(noexcept_fn);  // calls process(int(*)() noexcept) — noexcept overload
+    process(normal_fn);    // calls process(int(*)()), non-noexcept overload
+    process(noexcept_fn);  // calls process(int(*)() noexcept), noexcept overload
 
     // Conversion: non-noexcept -> noexcept is allowed
     int (*ns)() noexcept = normal_fn;  // OK: implicit conversion
@@ -426,11 +426,11 @@ int main() {
 
 ## Intuition
 
-**Promising not to throw:** noexcept is like a promise — it tells the compiler "this function won't throw exceptions," enabling optimizations and clearer contracts.
+**Promising not to throw:** noexcept is like a promise, it tells the compiler "this function won't throw exceptions," enabling optimizations and clearer contracts.
 
 **Why it matters:** noexcept helps the compiler generate better code and makes it clear which functions can be trusted not to throw.
 
-**The key insight:** Move constructors should be noexcept whenever possible — it enables better performance in containers like std::vector.
+**The key insight:** Move constructors should be noexcept whenever possible, it enables better performance in containers like std::vector.
 
 ## Common Pitfalls
 
@@ -466,10 +466,10 @@ struct Expensive {
     int data[1024]{};
     Expensive() = default;
 
-    // BAD: throwing move — vector will copy instead of move during reallocation
+    // BAD: throwing move, vector will copy instead of move during reallocation
     Expensive(Expensive&amp;&amp; other) { std::memcpy(data, other.data, sizeof(data)); }
 
-    // GOOD: noexcept move — vector uses move during reallocation
+    // GOOD: noexcept move, vector uses move during reallocation
     // Expensive(Expensive&amp;&amp; other) noexcept { std::memcpy(data, other.data, sizeof(data)); }
 };
 
@@ -546,12 +546,12 @@ struct Wrapper {
 };
 
 int main() {
-    // Normal destruction (no active exception) — ~Wrapper's noexcept(false) allows throw
+    // Normal destruction (no active exception), ~Wrapper's noexcept(false) allows throw
     {
         Wrapper w;
     }  // ~Wrapper runs, ~Member throws, caught inside ~Wrapper
 
-    // During stack unwinding — if ~Member throws, terminate is called
+    // During stack unwinding, if ~Member throws, terminate is called
     // even with noexcept(false) on ~Wrapper, because the C++ runtime
     // calls terminate when any destructor throws during unwinding
 }

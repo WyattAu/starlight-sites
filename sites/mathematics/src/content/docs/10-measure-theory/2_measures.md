@@ -167,7 +167,7 @@ flowchart TD
 
 ## Intuition
 
-A measure assigns a "size" to sets in a way that is consistent under subdivision. The three axioms — non-negativity, the measure of the empty set is zero, and countable additivity for disjoint sets — capture the idea that the whole equals the sum of its parts, even when there are infinitely many. Lebesgue measure on the real line generalises length: intervals get their usual length, and more complicated sets are measured by covering them with intervals. The Cantor set illustrates the subtlety: it is uncountable yet has measure zero, showing that cardinality and measure are independent notions. The $\sigma$-algebra determines which sets are measurable — a technical but essential requirement for consistency.
+A measure assigns a "size" to sets in a way that is consistent under subdivision. The three axioms, non-negativity, the measure of the empty set is zero, and countable additivity for disjoint sets, capture the idea that the whole equals the sum of its parts, even when there are infinitely many. Lebesgue measure on the real line generalises length: intervals get their usual length, and more complicated sets are measured by covering them with intervals. The Cantor set illustrates the subtlety: it is uncountable yet has measure zero, showing that cardinality and measure are independent notions. The $\sigma$-algebra determines which sets are measurable, a technical but essential requirement for consistency.
 
 ### 2.9 Common Mistakes
 

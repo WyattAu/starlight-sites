@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Trigonometry — Diagnostic Tests
+## Trigonometry, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Trigonometry is the mathematics of circles and triangles — it connects angles to side lengths through sine, cosine, and tangent:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion
+**Trigonometry is the mathematics of circles and triangles, it connects angles to side lengths through sine, cosine, and tangent:** The unit circle unifies all trigonometric functions, revealing periodic patterns that model waves, oscillations, and circular motion
 
 **Why it matters:** Trigonometry is essential for navigation, architecture, music theory, and analyzing any periodic phenomenon
 
@@ -40,7 +40,7 @@ flowchart TD
 
 > Tests edge cases, boundary conditions, and common misconceptions for trigonometry.
 
-### UT-1: Solving Trigonometric Equations — Missing Solutions from Periodicity
+### UT-1: Solving Trigonometric Equations, Missing Solutions from Periodicity
 
 **Question:**
 
@@ -162,7 +162,7 @@ The maximum value of the reciprocal occurs when the denominator is at its minimu
 
 $$\text{Maximum} = \frac{1}{0}$$
 
-Wait — when $\sin(x - \alpha) = -1$The denominator is $0$Which is undefined. The range of the
+Wait, when $\sin(x - \alpha) = -1$The denominator is $0$Which is undefined. The range of the
 denominator is $(0, 10]$ So:
 
 $$\frac{1}{3\sin x - 4\cos x + 5} \in \left[\frac{1}{10}, \infty\right)$$

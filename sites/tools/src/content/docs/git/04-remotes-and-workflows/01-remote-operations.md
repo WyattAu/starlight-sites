@@ -61,8 +61,8 @@ flowchart LR
 
 | Type                   | Working Directory | Purpose                                       |
 | ---------------------- | ----------------- | --------------------------------------------- |
-| **Non-bare** (default) | Yes               | Developer workstation — edit, commit, push    |
-| **Bare** (`--bare`)    | No                | Server-side repository — receives pushes only |
+| **Non-bare** (default) | Yes               | Developer workstation, edit, commit, push    |
+| **Bare** (`--bare`)    | No                | Server-side repository, receives pushes only |
 
 A bare repository is just the `.git/` directory without a working tree. It is the standard format
 for remote servers (GitHub, GitLab, Gitea):
@@ -353,11 +353,11 @@ The clone creates:
 
 | Variant     | Command               | Use Case                                       |
 | ----------- | --------------------- | ---------------------------------------------- |
-| **Full**    | `git clone`           | Development — full history, all branches       |
-| **Shallow** | `git clone --depth=1` | CI/CD — only latest commit, minimal disk usage |
-| **Sparse**  | `git clone --sparse`  | Monorepos — only specific directories          |
-| **Mirror**  | `git clone --mirror`  | Backup/migration — all refs, bare repository   |
-| **Bare**    | `git clone --bare`    | Server setup — no working directory            |
+| **Full**    | `git clone`           | Development, full history, all branches       |
+| **Shallow** | `git clone --depth=1` | CI/CD, only latest commit, minimal disk usage |
+| **Sparse**  | `git clone --sparse`  | Monorepos, only specific directories          |
+| **Mirror**  | `git clone --mirror`  | Backup/migration, all refs, bare repository   |
+| **Bare**    | `git clone --bare`    | Server setup, no working directory            |
 
 ## Remote-Tracking Branches
 

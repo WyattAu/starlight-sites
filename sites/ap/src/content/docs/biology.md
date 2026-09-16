@@ -40,7 +40,7 @@ Water"s polarity gives it unique properties essential for life:
 3. **High heat of vaporisation:** Significant energy is required to evaporate water, providing
    evaporative cooling (e.g., sweating).
 4. **Lower density as a solid:** Hydrogen bonds in ice create an open lattice, so ice is less dense
-   than liquid water and floats — insulating aquatic habitats in winter.
+   than liquid water and floats, insulating aquatic habitats in winter.
 5. **Universal solvent:** Polar molecules and ions dissolve readily, enabling biochemical reactions
    in aqueous solution.
 6. **High surface tension:** Cohesion at the air-water interface creates a surface film supporting
@@ -85,7 +85,7 @@ All biological macromolecules are polymers built from monomers via dehydration s
 - Monomers: nucleotides (phosphate group, pentose sugar, nitrogenous base)
 - DNA: double-stranded helix; deoxyribose sugar; bases A, T, G, C
 - RNA: single-stranded; ribose sugar; bases A, U, G, C
-- ATP: adenosine triphosphate — the energy currency of the cell
+- ATP: adenosine triphosphate, the energy currency of the cell
 - Functions: information storage (DNA), protein synthesis (mRNA, tRNA, rRNA), energy transfer (ATP)
 
 ### Enzymes
@@ -130,7 +130,7 @@ All biological macromolecules are polymers built from monomers via dehydration s
 | Smooth ER       | Lipid synthesis, detoxification, calcium storage                                                                  |
 | Golgi apparatus | Modifies, sorts, and packages proteins and lipids for transport                                                   |
 | Mitochondria    | Cellular respiration (Krebs cycle, ETC), ATP production                                                           |
-| Chloroplasts    | Photosynthesis (light reactions, Calvin cycle) — plants only                                                      |
+| Chloroplasts    | Photosynthesis (light reactions, Calvin cycle), plants only                                                      |
 | Lysosomes       | Intracellular digestion (contain hydrolytic enzymes)                                                              |
 | Peroxisomes     | Break down fatty acids, detoxify harmful substances                                                               |
 | Vacuoles        | Storage, turgor pressure (large central vacuole in plants)                                                        |
@@ -142,7 +142,7 @@ All biological macromolecules are polymers built from monomers via dehydration s
 The fluid mosaic model: phospholipid bilayer with embedded proteins that can drift laterally.
 
 - **Phospholipid bilayer:** hydrophilic phosphate heads face outward; hydrophobic fatty acid tails
-  face inward — selectively permeable
+  face inward, selectively permeable
 - **Transport proteins:** channel proteins and carrier proteins facilitate movement of specific
   molecules across the membrane
 - **Cholesterol:** modulates membrane fluidity in animal cells
@@ -160,9 +160,9 @@ The fluid mosaic model: phospholipid bilayer with embedded proteins that can dri
 
 **Tonicity:**
 
-- **Hypotonic:** lower solute concentration outside — water enters cell (cell swells)
-- **Hypertonic:** higher solute concentration outside — water leaves cell (cell shrinks)
-- **Isotonic:** equal solute concentrations — no net water movement
+- **Hypotonic:** lower solute concentration outside, water enters cell (cell swells)
+- **Hypertonic:** higher solute concentration outside, water leaves cell (cell shrinks)
+- **Isotonic:** equal solute concentrations, no net water movement
 
 ### Cell Cycle and Mitosis
 
@@ -184,7 +184,7 @@ plate.
 Two rounds of division producing four genetically distinct haploid ($n$) cells from one diploid
 ($2n$) cell:
 
-- **Meiosis I:** homologous chromosomes separate (crossing over occurs in prophase I — increases
+- **Meiosis I:** homologous chromosomes separate (crossing over occurs in prophase I, increases
   genetic variation)
 - **Meiosis II:** sister chromatids separate (similar to mitosis)
 
@@ -322,7 +322,7 @@ meiosis (provided they are not linked).
 | Cross                  | Ratio (phenotype) | Ratio (genotype) |
 | ---------------------- | ----------------- | ---------------- |
 | Monohybrid (Aa × Aa)   | 3:1               | 1:2:1            |
-| Dihybrid (AaBb × AaBb) | 9:3:3:1           | —                |
+| Dihybrid (AaBb × AaBb) | 9:3:3:1           |,                |
 | Test cross (Aa × aa)   | 1:1               | 1:1              |
 
 **Probability rules:**
@@ -345,7 +345,7 @@ meiosis (provided they are not linked).
 ### Linked Genes and Chromosomal Inheritance
 
 - Genes on the same chromosome are **linked** and tend to be inherited together
-- **Crossing over** during meiosis can separate linked genes — the frequency of recombination
+- **Crossing over** during meiosis can separate linked genes, the frequency of recombination
   indicates the distance between genes (1% recombination = 1 map unit)
 - **Nondisjunction:** failure of chromosomes to separate properly during meiosis, resulting in
   aneuploidy (e.g., Down syndrome = trisomy 21)
@@ -456,9 +456,9 @@ of evolutionary relatedness through sequence similarity.
 
 1. **Fossil record:** shows gradual change over time and transitional forms
 2. **Comparative anatomy:**
-   - Homologous structures: similar anatomy, different function (e.g., forelimbs of vertebrates) —
+   - Homologous structures: similar anatomy, different function (e.g., forelimbs of vertebrates),
      evidence of common ancestry
-   - Analogous structures: similar function, different anatomy (e.g., wings of birds vs insects) —
+   - Analogous structures: similar function, different anatomy (e.g., wings of birds vs insects),
      convergent evolution
    - Vestigial structures: remnants of structures that had a function in ancestors (e.g., appendix,
      pelvic bones in whales)
@@ -560,7 +560,7 @@ of evolutionary relatedness through sequence similarity.
 | Heredity                          | Mendelian genetics, non-Mendelian patterns, DNA replication, transcription, translation, gene regulation |
 | Evolution                         | Natural selection, Hardy-Weinberg, genetic drift, gene flow, speciation, evidence                        |
 
-AP Biology tests your ability to connect concepts across scales — from molecules to ecosystems.
+AP Biology tests your ability to connect concepts across scales, from molecules to ecosystems.
 Focus on understanding _why_ biological processes work the way they do, not just memorising facts.
 Practise explaining processes in your own words and applying biological principles to novel
 scenarios. Combine these notes with regular past paper practice for the best results.

@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Measurement in chemistry is like precision engineering — small errors can have large consequences in quantitative analysis:** Significant figures, error analysis, and data processing techniques ensure reliable and reproducible results
+**Measurement in chemistry is like precision engineering, small errors can have large consequences in quantitative analysis:** Significant figures, error analysis, and data processing techniques ensure reliable and reproducible results
 
 **Why it matters:** Accurate measurement is the foundation of all quantitative chemistry, from pharmaceuticals to environmental monitoring
 
@@ -200,8 +200,8 @@ At $x = 0$.
 
 ### Interpolation and Extrapolation
 
-- **Interpolation**: reading values within the data range — generally reliable.
-- **Extrapolation**: extending the line beyond the data range — unreliable and should be noted.
+- **Interpolation**: reading values within the data range, generally reliable.
+- **Extrapolation**: extending the line beyond the data range, unreliable and should be noted.
 
 ### Using Graphs to Verify Relationships
 
@@ -468,7 +468,7 @@ $\delta\ 1.2\ (t,\ 3\mathrm{H})$, $\delta\ 2.6\ (q,\ 2\mathrm{H})$ $\delta\ 11.0
 - $\mathrm{^1H}$ NMR: 3 environments. Quartet + triplet suggests an ethyl group
   ($\mathrm{CH}_3\mathrm{CH}_2$--).
 - Singlet at $\delta\ 11.0$ confirms COOH.
-- Structure: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$ (propanoic acid, $M = 74$). Mismatch — need
+- Structure: $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH}$ (propanoic acid, $M = 74$). Mismatch, need
   to re-evaluate.
 - With $\mathrm{M} = 88$: try $\mathrm{C}_4\mathrm{H}_8\mathrm{O}_2$.
   $\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{COOH}$ (butanoic acid) has M = 88. NMR:
@@ -476,8 +476,8 @@ $\delta\ 1.2\ (t,\ 3\mathrm{H})$, $\delta\ 2.6\ (q,\ 2\mathrm{H})$ $\delta\ 11.0
   $\delta\ 2.3\ (t,\ 2\mathrm{H})$, $\delta\ 11.0\ (s,\ 1\mathrm{H})$.
 
 The original triplet/quartet pattern is consistent with an ethyl ester, not a carboxylic acid.
-Consider ethyl methanoate ($\mathrm{HCOOCH}_2\mathrm{CH}_3$, $M = 74$) — still a mismatch. The Correct
-answer is $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOCH}_3$ (methyl propanoate, $M = 74$) — but M = 88 is
+Consider ethyl methanoate ($\mathrm{HCOOCH}_2\mathrm{CH}_3$, $M = 74$), still a mismatch. The Correct
+answer is $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOCH}_3$ (methyl propanoate, $M = 74$), but M = 88 is
 $\mathrm{CH}_3\mathrm{CH}_2\mathrm{COOCH}_2\mathrm{CH}_3$ (ethyl propanoate, $M = 102$). This
 illustrates the iterative nature of spectral analysis.
 
@@ -562,13 +562,13 @@ $\delta\ 3.6\ (septet,\ 1\mathrm{H})$. Identify the compound.
 **Solution:**
 
 - $d, 6\mathrm{H}$ at $\delta\ 1.2$: two equivalent $\mathrm{CH}_3$ groups, each neighbouring one H.
-- $s, 3\mathrm{H}$ at $\delta\ 2.1$: isolated $\mathrm{CH}_3$ group — likely adjacent to C=O.
+- $s, 3\mathrm{H}$ at $\delta\ 2.1$: isolated $\mathrm{CH}_3$ group, likely adjacent to C=O.
 - $septet, 1\mathrm{H}$ at $\delta\ 3.6$: one proton neighbouring six equivalent protons.
 - The doublet + septet pattern indicates an isopropyl group: $\mathrm{(CH}_3)_2\mathrm{CH}$--.
 - The singlet at $\delta\ 2.1$ suggests $\mathrm{CH}_3\mathrm{CO}$--.
 - Structure: $\mathrm{CH}_3\mathrm{COCH(CH}_3)_2$ (3-methyl-2-butanone).
 
-Check: $\mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$ — this does not match
+Check: $\mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$, this does not match
 $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$. Reconsider: $\mathrm{CH}_3\mathrm{COCH}_2\mathrm{CH}_3$
 (butan-2-one) has $\mathrm{C}_4\mathrm{H}_8\mathrm{O}$. But its NMR would show
 $\delta\ 1.0\ (t,\ 3\mathrm{H})$, $\delta\ 2.1\ (s,\ 3\mathrm{H})$ $\delta\ 2.4\ (q,\ 2\mathrm{H})$.

@@ -238,7 +238,7 @@ Consider (student, course, teacher) with dependencies:
 
 Keys: (student, course) and (student, teacher).
 
-In 3NF: teacher → course is a transitive dependency through (student, teacher) → course. Wait —
+In 3NF: teacher → course is a transitive dependency through (student, teacher) → course. Wait,
 Teacher is not a non-prime attribute in 3NF's definition (it's part of a candidate key). So this
 Relation is in 3NF.
 
@@ -246,8 +246,8 @@ But: teacher → course, and teacher is NOT a superkey. So this violates BCNF.
 
 **BCNF decomposition:** Split into:
 
-- (student, teacher) — student takes course from teacher
-- (teacher, course) — teacher teaches course
+- (student, teacher), student takes course from teacher
+- (teacher, course), teacher teaches course
 
 This is in BCNF but loses the dependency (student, course) → teacher (a join is needed to recover
 It).
@@ -266,7 +266,7 @@ It).
   entity-relationship diagrams
 - **CIE (9618)** requires SQL queries, conceptual and logical data models, and normalisation to at
   least 3NF
-- **OCR (A)** requires SQL, normalisation to BCNF (Boyce-Codd Normal Form — more advanced than other
+- **OCR (A)** requires SQL, normalisation to BCNF (Boyce-Codd Normal Form, more advanced than other
   boards), and ER diagrams
 - **Edexcel** covers SQL fundamentals and basic normalisation
 :::
@@ -278,7 +278,7 @@ Transactions in a database must satisfy the **ACID** properties:
 
 | Property    | Description                                                                 |
 | ----------- | --------------------------------------------------------------------------- |
-| Atomicity   | A transaction is all-or-nothing — either all operations complete or none do |
+| Atomicity   | A transaction is all-or-nothing, either all operations complete or none do |
 | Consistency | The database transitions from one valid state to another                    |
 | Isolation   | Concurrent transactions do not interfere with each other                    |
 | Durability  | Once a transaction commits, its effects are permanent (survive crashes)     |
@@ -335,10 +335,10 @@ Resolved into:
 <details>
 <summary>Answer</summary>
 
-**Step 1 — 1NF:** All values are already atomic. But the table has repeating groups (OrderID 1 has
+**Step 1 to 1NF:** All values are already atomic. But the table has repeating groups (OrderID 1 has
 Two product rows). This is actually already in 1NF since each cell has a single value.
 
-**Step 2 — 2NF:** Composite key: (OrderID, Product). Partial dependencies:
+**Step 2 to 2NF:** Composite key: (OrderID, Product). Partial dependencies:
 
 - CustomerName, CustomerCity depend only on OrderID
 - ProductPrice depends only on Product
@@ -349,8 +349,8 @@ Two product rows). This is actually already in 1NF since each cell has a single 
 - Products (Product, ProductPrice)
 - OrderItems (OrderID, Product, Quantity)
 
-**Step 3 — 3NF:** In Orders: OrderID → CustomerName, CustomerCity. Transitive dependency: OrderID →
-CustomerName → CustomerCity? Not necessarily — customer details depend on OrderID, not on
+**Step 3 to 3NF:** In Orders: OrderID → CustomerName, CustomerCity. Transitive dependency: OrderID →
+CustomerName → CustomerCity? Not necessarily, customer details depend on OrderID, not on
 CustomerName. But if we consider CustomerName as a determinant of CustomerCity, then we have:
 OrderID → CustomerName → CustomerCity.
 
@@ -679,7 +679,7 @@ Functional dependencies and normalise the table to 2NF.
 <details>
 <summary>Hint</summary>
 
-First identify the candidate key(s). Then check for partial dependencies — non-key attributes that
+First identify the candidate key(s). Then check for partial dependencies, non-key attributes that
 Depend on only part of a composite key.
 
 </details>
@@ -695,7 +695,7 @@ Depend on only part of a composite key.
 
 **Candidate key:** patient_id (uniquely identifies each row)
 
-**Is this in 1NF?** Yes — all values are atomic.
+**Is this in 1NF?** Yes, all values are atomic.
 
 **Is this in 2NF?** No. 2NF requires no partial dependencies on composite keys. Since the key is
 Single-attribute (patient_id), there are technically no partial dependencies on a composite key.
@@ -751,7 +751,7 @@ Dependencies.
 
 **Step 2: Check 1NF.** All values are atomic. ✓
 
-**Step 3: Check 2NF — partial dependencies.**
+**Step 3: Check 2NF, partial dependencies.**
 
 - student_name depends only on student_id (partial dependency on composite key)
 - module_title depends only on module_code (partial dependency)
@@ -764,7 +764,7 @@ Dependencies.
 2. **Students** (student_id, student_name)
 3. **Modules** (module_code, module_title, credits, lecturer)
 
-**Step 4: Check 3NF — transitive dependencies.**
+**Step 4: Check 3NF, transitive dependencies.**
 
 In Results: key is (student_id, module_code), only non-key attribute is grade. No transitive
 Dependency. ✓
@@ -801,7 +801,7 @@ Referencing the two entities it connects.
 <details>
 <summary>Answer</summary>
 
-**(a)** Two junction tables are needed — one for Student–Class and one for Teacher–Class.
+**(a)** Two junction tables are needed, one for Student–Class and one for Teacher–Class.
 
 **(b) Table schemas:**
 
@@ -982,7 +982,7 @@ WHERE borrow_date < '2025-01-01';
 ```
 
 This updates all borrow records where the borrow date is before 1st January 2025 and sets their
-Status to 'overdue'. This is a bulk update — multiple rows may be affected.
+Status to 'overdue'. This is a bulk update, multiple rows may be affected.
 
 **(c) Delete a specific borrow record:**
 
@@ -992,7 +992,7 @@ WHERE member_id = 50 AND book_id = 'BK004';
 ```
 
 Both conditions are needed in the WHERE clause to identify the correct record (since member_id alone
-Is not unique in the Borrows table — a member can borrow multiple books).
+Is not unique in the Borrows table, a member can borrow multiple books).
 
 </details>
 
@@ -1017,10 +1017,10 @@ E). Try computing the closure of potential keys starting with individual attribu
 
 **Step 1: Compute closures of single attributes.**
 
-$A^+ = \{A\}$ — A does not appear on the left side of any FD. Not a key. $B^+ = \{B\} \to \{B, E\}$
+$A^+ = \{A\}$, A does not appear on the left side of any FD. Not a key. $B^+ = \{B\} \to \{B, E\}$
 (B → E) $\to$ cannot go further (E alone doesn't determine anything). Not a key.
 $C^+ = \{C\} \to \{C, D\}$ (C → D) $\to \{C, D, E, A\}$ (DE → A) $\to$ cannot determine B. Not a
-Key. $D^+ = \{D\}$ — D alone doesn't determine anything. Not a key. $E^+ = \{E\}$ — E alone doesn't
+Key. $D^+ = \{D\}$, D alone doesn't determine anything. Not a key. $E^+ = \{E\}$, E alone doesn't
 Determine anything. Not a key.
 
 No single attribute is a candidate key.
@@ -1116,7 +1116,7 @@ INNER JOIN Projects p ON ep.project_code = p.project_code
 WHERE p.budget > 50000;
 ```
 
-DISTINCT is used because an employee may work on multiple high-budget projects — we want each name
+DISTINCT is used because an employee may work on multiple high-budget projects, we want each name
 Listed once.
 
 Result example: If Alice works on Project A (budget 60000) and Project B (budget 30000), she appears
@@ -1179,13 +1179,13 @@ linked above.
 
 ## Common Mistakes
 
-1. **Confusing WHERE and HAVING in SQL.** WHERE filters individual rows *before* GROUP BY is applied; HAVING filters groups *after* aggregation. You cannot use aggregate functions (COUNT, SUM, AVG) in a WHERE clause — use HAVING instead.
+1. **Confusing WHERE and HAVING in SQL.** WHERE filters individual rows *before* GROUP BY is applied; HAVING filters groups *after* aggregation. You cannot use aggregate functions (COUNT, SUM, AVG) in a WHERE clause, use HAVING instead.
 
 2. **Normalising to 2NF when the table is already in 2NF.** 2NF requires no partial dependencies on *composite* keys. If the primary key is a single attribute, there are no partial dependencies, and the table is automatically in 2NF. Check for transitive dependencies (3NF violation) instead.
 
 3. **Forgetting that INNER JOIN excludes unmatched rows.** If you need all rows from one table regardless of matches, use LEFT JOIN. Students often write INNER JOIN when they need LEFT JOIN, losing data for entities without related records.
 
-4. **Misidentifying candidate keys.** A candidate key must determine ALL other attributes in the relation. Compute the closure of each potential key — if the closure includes all attributes, it is a candidate key. Students often select a non-minimal set or miss a candidate key.
+4. **Misidentifying candidate keys.** A candidate key must determine ALL other attributes in the relation. Compute the closure of each potential key, if the closure includes all attributes, it is a candidate key. Students often select a non-minimal set or miss a candidate key.
 
 5. **Confusing entity-relationship cardinalities.** In a 1:Many relationship, the foreign key goes in the table on the "Many" side. In a Many:Many relationship, you need a junction table with foreign keys referencing both entities.
 
@@ -1198,8 +1198,8 @@ linked above.
 
 ## Intuition
 
-A relational database is essentially a collection of spreadsheets that know how to talk to each other. Each table holds data about one thing — customers, orders, products — and rows represent individual records. The "relational" part means you can link tables together using matching values, so a customer ID in the Orders table points back to a specific row in the Customers table. This avoids duplicating customer details across every order they place, which keeps data consistent and saves space.
+A relational database is essentially a collection of spreadsheets that know how to talk to each other. Each table holds data about one thing, customers, orders, products, and rows represent individual records. The "relational" part means you can link tables together using matching values, so a customer ID in the Orders table points back to a specific row in the Customers table. This avoids duplicating customer details across every order they place, which keeps data consistent and saves space.
 
-Normalisation is the process of organising tables to minimise redundancy. The intuition is simple: if a piece of information appears in multiple rows and you need to update it, you might change it in one place but forget another, creating inconsistencies. Normal forms (1NF through BCNF) are a series of increasingly strict rules that ensure each fact is stored in exactly one place. Think of it like having a single master copy of a document rather than photocopies scattered across different offices — when the master is updated, everyone sees the correct version.
+Normalisation is the process of organising tables to minimise redundancy. The intuition is simple: if a piece of information appears in multiple rows and you need to update it, you might change it in one place but forget another, creating inconsistencies. Normal forms (1NF through BCNF) are a series of increasingly strict rules that ensure each fact is stored in exactly one place. Think of it like having a single master copy of a document rather than photocopies scattered across different offices, when the master is updated, everyone sees the correct version.
 
-SQL is the language that lets you ask questions of this organised data. JOIN operations combine rows from different tables based on related columns, essentially reconstructing the connections that normalisation deliberately separated. GROUP BY and aggregate functions let you summarise — counting orders per customer, averaging scores per exam, or totalling sales per region. The beauty of the relational model is that you describe what data you want, and the database engine figures out the most efficient way to retrieve it, using indexes and query optimisation to handle tables with millions of rows in milliseconds.
+SQL is the language that lets you ask questions of this organised data. JOIN operations combine rows from different tables based on related columns, essentially reconstructing the connections that normalisation deliberately separated. GROUP BY and aggregate functions let you summarise, counting orders per customer, averaging scores per exam, or totalling sales per region. The beauty of the relational model is that you describe what data you want, and the database engine figures out the most efficient way to retrieve it, using indexes and query optimisation to handle tables with millions of rows in milliseconds.

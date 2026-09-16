@@ -214,7 +214,7 @@ sign of $r_s$ indicates a phase shift of $\pi$ upon reflection.
 :::caution
 error is to swap the $n_1\cos\theta_i$ and $n_2\cos\theta_t$ terms. Remember: for $r_s$The numerator
 starts with $n_1\cos\theta_i$; for $r_p$The numerator starts with $n_2\cos\theta_i$. Also, $r$ and
-$t$ are Amplitude coefficients, while $R$ and $T$ are energy coefficients — they are related but not
+$t$ are Amplitude coefficients, while $R$ and $T$ are energy coefficients, they are related but not
 Interchangeable.
 
 ### 2.6 Total Internal Reflection and Evanescent Waves

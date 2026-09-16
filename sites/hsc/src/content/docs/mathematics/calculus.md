@@ -179,7 +179,7 @@ Calculus is the mathematical study of continuous change. Differentiation and int
 ## Additional Exam Tips
 
 1. For optimisation problems, always check the second derivative or boundary values
-2. The chain rule is the most commonly tested rule — practise identifying inner and outer functions
+2. The chain rule is the most commonly tested rule, practise identifying inner and outer functions
 3. When finding areas between curves, always sketch the graph first
 4. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$
 
@@ -298,7 +298,7 @@ $$= x \sin x - (-\cos x) + C = x \sin x + \cos x + C$$
 
 **Answer:** $\int x \cos x \, dx = x \sin x + \cos x + C$
 
-**Common mistake:** Choosing the wrong $u$ and $dv$. A good rule of thumb is LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential) — choose $u$ from left to right.
+**Common mistake:** Choosing the wrong $u$ and $dv$. A good rule of thumb is LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential), choose $u$ from left to right.
 
 ### Example 12: Volume of Revolution
 
@@ -328,11 +328,11 @@ $$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \f
 
 ## Intuition
 
-**Calculus is about change and accumulation:** Differentiation measures how fast something changes (slope of a curve), while integration measures how much accumulates (area under a curve). These are inverse operations — the Fundamental Theorem of Calculus connects them, just as addition and subtraction are inverses.
+**Calculus is about change and accumulation:** Differentiation measures how fast something changes (slope of a curve), while integration measures how much accumulates (area under a curve). These are inverse operations, the Fundamental Theorem of Calculus connects them, just as addition and subtraction are inverses.
 
-**Why it matters:** Calculus is the language of change — it describes how planets orbit, how populations grow, how heat flows, and how objects move. Every branch of science and engineering uses calculus to model dynamic systems.
+**Why it matters:** Calculus is the language of change, it describes how planets orbit, how populations grow, how heat flows, and how objects move. Every branch of science and engineering uses calculus to model dynamic systems.
 
-**The key insight:** The derivative tells you the rate of change at an instant, while the integral tells you the total change over an interval — they're two perspectives on the same relationship.
+**The key insight:** The derivative tells you the rate of change at an instant, while the integral tells you the total change over an interval, they're two perspectives on the same relationship.
 
 ## Common Mistakes
 

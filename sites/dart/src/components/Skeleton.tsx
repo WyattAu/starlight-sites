@@ -1,5 +1,5 @@
 /**
- * Skeleton.tsx — Loading state placeholder component
+ * Skeleton.tsx, Loading state placeholder component
  *
  * Features:
  * - Three variants: text, circular, rectangular
@@ -44,7 +44,7 @@ export default function Skeleton(props: SkeletonProps) {
 }
 
 /**
- * SkeletonGroup — Multiple skeleton rows for loading states
+ * SkeletonGroup, Multiple skeleton rows for loading states
  */
 interface SkeletonGroupProps {
   rows?: number

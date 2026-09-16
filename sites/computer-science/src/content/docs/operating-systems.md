@@ -22,11 +22,11 @@ categories:
 
 ## Intuition
 
-**The invisible manager:** An operating system is like an invisible hotel manager — it allocates rooms (memory), manages guests (processes), handles complaints (interrupts), and ensures no guest walks into another's room (protection). You never see it, but without it, everything descends into chaos.
+**The invisible manager:** An operating system is like an invisible hotel manager, it allocates rooms (memory), manages guests (processes), handles complaints (interrupts), and ensures no guest walks into another's room (protection). You never see it, but without it, everything descends into chaos.
 
 **Why it matters:** Understanding operating systems explains why your computer slows down with too many tabs, how virtual memory extends your RAM, and why processes can't just access any memory address. It's the foundation for systems programming, security, and DevOps.
 
-**The key insight:** The OS creates the illusion of infinite, safe, organised resources through layers of abstraction — virtual memory, process scheduling, and file systems all hide hardware complexity behind clean interfaces.
+**The key insight:** The OS creates the illusion of infinite, safe, organised resources through layers of abstraction, virtual memory, process scheduling, and file systems all hide hardware complexity behind clean interfaces.
 
 ## 1. Introduction to Operating Systems
 
@@ -179,7 +179,7 @@ $A$ has a longer burst than $B$ but is scheduled first. Swapping $A$ and $B$ red
 Time of $B$ by the burst time of $A$ and increases the waiting time of $A$ by the burst time of $B$.
 Since $B$"s burst is shorter, the net change reduces the average. $\blacksquare$
 
-**Worked Example 2.1 — FCFS vs SJF Comparison**
+**Worked Example 2.1, FCFS vs SJF Comparison**
 
 Consider three processes, all arriving at time $t = 0$:
 
@@ -220,7 +220,7 @@ _SJF Gantt chart:_
 SJF reduces average waiting time from 17 to 3, illustrating the **convoy effect** in FCFS.
 
 <details>
-<summary>Solution — Round Robin with $q = 4$</summary>
+<summary>Solution, Round Robin with $q = 4$</summary>
 
 Using the same three processes with quantum $q = 4$:
 
@@ -697,7 +697,7 @@ $(2,0,0)$New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. 
 processes can complete: system is **safe**.
 
 <details>
-<summary>Worked Example 4.1 — Banker's Algorithm Step-by-Step</summary>
+<summary>Worked Example 4.1, Banker's Algorithm Step-by-Step</summary>
 
 Given the state above, suppose $P_1$ requests $(1,0,2)$.
 
@@ -731,7 +731,7 @@ $\langle P_1, P_3, P_4, P_0, P_2 \rangle$.
 </details>
 
 <details>
-<summary>Worked Example 4.2 — Unsafe State Detection</summary>
+<summary>Worked Example 4.2, Unsafe State Detection</summary>
 
 Suppose instead $P_0$ requests $(0,2,0)$ in the original state.
 
@@ -742,10 +742,10 @@ _Step 2:_ $\mathrm{Request_0} = (0,2,0) \leq A = (3,3,2)$. OK.
 _Step 3:_ Pretend to allocate. New $A = (3,1,2)$, $\mathrm{Need_0} = (7,2,3)$.
 
 _Step 4:_ Safety check. No process can execute: $P_1$ needs $(1,2,2)$ but only $(3,1,2)$ available
-(second component insufficient). $P_3$ needs $(0,1,1) \leq (3,1,2)$ — OK, execute $P_3$:
-$A = (5,2,3)$. Then $P_1$: $(1,2,2) \leq (5,2,3)$ — OK, execute: $A = (7,2,3)$. But now $P_0$ needs
-$(7,2,3)$ — exact match, execute: $A = (7,3,3)$. $P_4$: $(4,3,1) \leq (7,3,3)$ — OK, execute:
-$A = (7,3,5)$. $P_2$: $(6,0,0) \leq (7,3,5)$ — OK.
+(second component insufficient). $P_3$ needs $(0,1,1) \leq (3,1,2)$, OK, execute $P_3$:
+$A = (5,2,3)$. Then $P_1$: $(1,2,2) \leq (5,2,3)$, OK, execute: $A = (7,2,3)$. But now $P_0$ needs
+$(7,2,3)$, exact match, execute: $A = (7,3,3)$. $P_4$: $(4,3,1) \leq (7,3,3)$, OK, execute:
+$A = (7,3,5)$. $P_2$: $(6,0,0) \leq (7,3,5)$, OK.
 
 Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **granted**.
 
@@ -781,7 +781,7 @@ Allow deadlocks to occur, then detect and recover.
 3. **Checkpoint and rollback:** Periodically save process state; restore on deadlock.
 
 <details>
-<summary>Worked Example 4.3 — Deadlock Detection</summary>
+<summary>Worked Example 4.3, Deadlock Detection</summary>
 
 Three processes and one resource type with 10 instances:
 
@@ -875,7 +875,7 @@ _Advantages:_ Reflects program structure; supports sharing individual segments. 
 External fragmentation (variable-size segments).
 
 <details>
-<summary>Worked Example 5.1 — Segmented Address Translation</summary>
+<summary>Worked Example 5.1, Segmented Address Translation</summary>
 
 A process has three segments with the following segment table:
 
@@ -951,7 +951,7 @@ $$\mathrm{EAT} = 0.99 \times 102 + 0.01 \times 202 = 103 \; \mathrm{ns}$$
 entry. On x86-64: `invlpg` for single-entry invalidation, or reload `CR3` to flush the entire TLB.
 
 <details>
-<summary>Worked Example 5.2 — TLB + Page Fault EAT Calculation</summary>
+<summary>Worked Example 5.2, TLB + Page Fault EAT Calculation</summary>
 
 A system with TLB access time = 2 ns, memory access time = 100 ns, page fault service time = 8 ms,
 TLB hit ratio = 0.80, and page fault rate = 0.0005.
@@ -1017,64 +1017,64 @@ Approximation with **active** and **inactive** lists: pages on the active list a
 Not accessed are demoted to the inactive list; eviction targets the inactive list.
 
 <details>
-<summary>Worked Example 5.3 — Optimal Page Replacement</summary>
+<summary>Worked Example 5.3, Optimal Page Replacement</summary>
 
 Reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1. Three frames.
 
 | Ref | Frame 1 | Frame 2 | Frame 3 | Fault? | Victim                       |
 | --- | ------- | ------- | ------- | ------ | ---------------------------- |
-| 7   | 7       |         |         | Yes    | —                            |
-| 0   | 7       | 0       |         | Yes    | —                            |
-| 1   | 7       | 0       | 1       | Yes    | —                            |
+| 7   | 7       |         |         | Yes    |,                            |
+| 0   | 7       | 0       |         | Yes    |,                            |
+| 1   | 7       | 0       | 1       | Yes    |,                            |
 | 2   | 2       | 0       | 1       | Yes    | 7 (used at 18)               |
-| 0   | 2       | 0       | 1       | No     | —                            |
+| 0   | 2       | 0       | 1       | No     |,                            |
 | 3   | 2       | 3       | 1       | Yes    | 0 (used at 10)               |
 | 0   | 2       | 3       | 0       | Yes    | 1 (used at 14)               |
 | 4   | 2       | 4       | 0       | Yes    | 3 (used at 11)               |
-| 2   | 2       | 4       | 0       | No     | —                            |
+| 2   | 2       | 4       | 0       | No     |,                            |
 | 3   | 3       | 4       | 0       | Yes    | 2 (used at 13)               |
-| 0   | 3       | 4       | 0       | No     | —                            |
-| 3   | 3       | 4       | 0       | No     | —                            |
+| 0   | 3       | 4       | 0       | No     |,                            |
+| 3   | 3       | 4       | 0       | No     |,                            |
 | 2   | 2       | 4       | 0       | Yes    | 3 (used at 11, already past) |
 | 1   | 2       | 1       | 0       | Yes    | 4 (used at $\infty$)         |
-| 2   | 2       | 1       | 0       | No     | —                            |
-| 0   | 2       | 1       | 0       | No     | —                            |
-| 1   | 2       | 1       | 0       | No     | —                            |
+| 2   | 2       | 1       | 0       | No     |,                            |
+| 0   | 2       | 1       | 0       | No     |,                            |
+| 1   | 2       | 1       | 0       | No     |,                            |
 | 7   | 7       | 1       | 0       | Yes    | 2 (used at 13, already past) |
-| 0   | 7       | 1       | 0       | No     | —                            |
-| 1   | 7       | 1       | 0       | No     | —                            |
+| 0   | 7       | 1       | 0       | No     |,                            |
+| 1   | 7       | 1       | 0       | No     |,                            |
 
 Total page faults: **9**. This is the theoretical minimum.
 
 </details>
 
 <details>
-<summary>Worked Example 5.4 — LRU Page Replacement</summary>
+<summary>Worked Example 5.4, LRU Page Replacement</summary>
 
 Same reference string, three frames. LRU replaces the page whose last use was furthest in the past.
 
 | Ref | F1  | F2  | F3  | Fault? | Victim (least recent) |
 | --- | --- | --- | --- | ------ | --------------------- |
-| 7   | 7   |     |     | Yes    | —                     |
-| 0   | 7   | 0   |     | Yes    | —                     |
-| 1   | 7   | 0   | 1   | Yes    | —                     |
+| 7   | 7   |     |     | Yes    |,                     |
+| 0   | 7   | 0   |     | Yes    |,                     |
+| 1   | 7   | 0   | 1   | Yes    |,                     |
 | 2   | 2   | 0   | 1   | Yes    | 7                     |
-| 0   | 2   | 0   | 1   | No     | —                     |
+| 0   | 2   | 0   | 1   | No     |,                     |
 | 3   | 2   | 3   | 1   | Yes    | 0                     |
 | 0   | 0   | 3   | 1   | Yes    | 2                     |
 | 4   | 0   | 4   | 1   | Yes    | 3                     |
 | 2   | 0   | 4   | 2   | Yes    | 1                     |
 | 3   | 3   | 4   | 2   | Yes    | 0                     |
 | 0   | 3   | 0   | 2   | Yes    | 4                     |
-| 3   | 3   | 0   | 2   | No     | —                     |
-| 2   | 3   | 0   | 2   | No     | —                     |
+| 3   | 3   | 0   | 2   | No     |,                     |
+| 2   | 3   | 0   | 2   | No     |,                     |
 | 1   | 1   | 0   | 2   | Yes    | 3                     |
-| 2   | 1   | 0   | 2   | No     | —                     |
-| 0   | 1   | 0   | 2   | No     | —                     |
-| 1   | 1   | 0   | 2   | No     | —                     |
+| 2   | 1   | 0   | 2   | No     |,                     |
+| 0   | 1   | 0   | 2   | No     |,                     |
+| 1   | 1   | 0   | 2   | No     |,                     |
 | 7   | 1   | 0   | 7   | Yes    | 2                     |
-| 0   | 1   | 0   | 7   | No     | —                     |
-| 1   | 1   | 0   | 7   | No     | —                     |
+| 0   | 1   | 0   | 7   | No     |,                     |
+| 1   | 1   | 0   | 7   | No     |,                     |
 
 Total page faults: **12**. LRU produces 33% more faults than optimal, but does not require future
 Knowledge.
@@ -1082,7 +1082,7 @@ Knowledge.
 </details>
 
 <details>
-<summary>Worked Example 5.5 — Clock (Second Chance) Replacement</summary>
+<summary>Worked Example 5.5, Clock (Second Chance) Replacement</summary>
 
 Same reference string, three frames. Clock hand starts at frame 0. R = reference bit.
 
@@ -1132,7 +1132,7 @@ references. If $\sum W_i \gt$ available frames, thrashing occurs.
 3. **Local replacement:** Restrict eviction to the process's own frames.
 
 <details>
-<summary>Worked Example 5.6 — Thrashing Analysis</summary>
+<summary>Worked Example 5.6, Thrashing Analysis</summary>
 
 A system has 64 frames of physical memory. Four processes with the following working set sizes
 ($\Delta = 5$ references):
@@ -1219,7 +1219,7 @@ Pointers to data blocks. Supports direct access without external fragmentation.
 | Indexed    | Good       | Yes    | No             | Index block    |
 
 <details>
-<summary>Worked Example 6.1 — Allocation Comparison</summary>
+<summary>Worked Example 6.1, Allocation Comparison</summary>
 
 A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (free), 1 (used), 2-5
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
@@ -1337,7 +1337,7 @@ RAID 5 significantly improves reliability for large arrays, but the rebuild time
 Capacity, increasing the window of vulnerability.
 
 <details>
-<summary>Worked Example 6.2 — RAID Capacity and Reliability</summary>
+<summary>Worked Example 6.2, RAID Capacity and Reliability</summary>
 
 Eight 2 TiB disks. $\mathrm{MTTF_}{\mathrm{disk} = 1.2 \times 10^6}$ hours,
 $T_{\mathrm{repair} = 24}$ hours.
@@ -1449,7 +1449,7 @@ Longer. C-SCAN treats the disk as a circular queue, ensuring every request is se
 Full sweep. $\blacksquare$
 
 <details>
-<summary>Worked Example 7.1 — Disk Scheduling Comparison</summary>
+<summary>Worked Example 7.1, Disk Scheduling Comparison</summary>
 
 Disk with 200 cylinders (0--199). Request queue (sorted): 98, 183, 37, 122, 14, 124, 65, 67. Current
 head position: 53, moving toward higher cylinders.
@@ -1650,7 +1650,7 @@ writable-and-executable pages.
 ## 10. Problem Set
 
 <details>
-<summary>Problem 1 — Process States</summary>
+<summary>Problem 1, Process States</summary>
 
 List all possible state transitions for a process and identify which transition requires the
 Scheduler, which requires an I/O event, and which is initiated by the process itself.
@@ -1672,7 +1672,7 @@ The scheduler triggers Ready → Running and Running → Ready (preemption). I/O
 </details>
 
 <details>
-<summary>Problem 2 — Kernel Architecture Trade-offs</summary>
+<summary>Problem 2, Kernel Architecture Trade-offs</summary>
 
 A microkernel-based OS adds 2 $\mu$S of message-passing overhead per system call compared to a
 Monolithic kernel. If a web server makes $10^6$ system calls per second, what is the total overhead
@@ -1687,7 +1687,7 @@ Rate without optimisations such as batched IPC or shared-memory channels.
 </details>
 
 <details>
-<summary>Problem 3 — FCFS Scheduling</summary>
+<summary>Problem 3, FCFS Scheduling</summary>
 
 Processes arrive in the order $P_1$ (burst 10, arrival 0), $P_2$ (burst 5, arrival 1), $P_3$ (burst
 2, arrival 2). Compute waiting time and turnaround time for each process under FCFS.
@@ -1703,12 +1703,12 @@ Gantt: $\lvert P_1(10) \rvert P_2(5) \rvert P_3(2) \rvert$ at times 0, 10, 15, 1
 | $P_3$   | 13       | 15         |
 | **Avg** | **7.33** | **13**     |
 
-$P_3$ waits the longest despite having the shortest burst — the convoy effect.
+$P_3$ waits the longest despite having the shortest burst, the convoy effect.
 
 </details>
 
 <details>
-<summary>Problem 4 — SJF Scheduling</summary>
+<summary>Problem 4, SJF Scheduling</summary>
 
 Using the same processes as Problem 3, compute the schedule under non-preemptive SJF.
 
@@ -1731,7 +1731,7 @@ Average waiting time improves from 7.33 to 6 compared to FCFS.
 </details>
 
 <details>
-<summary>Problem 5 — Round Robin Scheduling</summary>
+<summary>Problem 5, Round Robin Scheduling</summary>
 
 Using the processes from Problem 3 with quantum $q = 2$Draw the Gantt chart and compute the Average
 turnaround time.
@@ -1757,7 +1757,7 @@ turnaround.
 </details>
 
 <details>
-<summary>Problem 6 — SRTF Scheduling</summary>
+<summary>Problem 6, SRTF Scheduling</summary>
 
 Processes: $P_1$ (burst 8, arrival 0), $P_2$ (burst 4, arrival 1), $P_3$ (burst 2, arrival 2).
 Compute the schedule under SRTF (preemptive SJF).
@@ -1781,7 +1781,7 @@ Gantt: $\lvert P_1(1) \rvert P_2(1) \rvert P_3(2) \rvert P_2(4) \rvert P_1(6) \r
 </details>
 
 <details>
-<summary>Problem 7 — Critical Section</summary>
+<summary>Problem 7, Critical Section</summary>
 
 Show that the following solution to the critical section problem is incorrect (Peterson's algorithm
 With the order of `flag[i] = true` and `turn = j` swapped):
@@ -1823,7 +1823,7 @@ Both processes are in their critical section simultaneously. Mutual exclusion is
 </details>
 
 <details>
-<summary>Problem 8 — Producer-Consumer with Semaphores</summary>
+<summary>Problem 8, Producer-Consumer with Semaphores</summary>
 
 In the bounded buffer solution of §3.6, explain why the `empty` and `full` semaphores must be
 Different from the `mutex`. What goes wrong if we use only `mutex` (initialised to 1) and `count`
@@ -1845,12 +1845,12 @@ Without `empty` and `full` semaphores, the producer must busy-wait or use condit
 Semaphores provide **blocking** semantics: the producer blocks on `empty` when the buffer is full
 And is automatically woken when a consumer signals `empty`. Using only `mutex` either causes
 Busy-waiting (wasting CPU cycles) or requires the programmer to correctly implement the Wait/signal
-protocol — which is exactly what semaphores encapsulate.
+protocol, which is exactly what semaphores encapsulate.
 
 </details>
 
 <details>
-<summary>Problem 9 — Deadlock: Necessary Conditions</summary>
+<summary>Problem 9, Deadlock: Necessary Conditions</summary>
 
 A system has three processes and three resources. Each process holds one resource and requests a
 Second. Is deadlock possible? If so, identify the deadlocked set.
@@ -1869,7 +1869,7 @@ $R_2$ and requests $R_1$The same circular wait exists.
 </details>
 
 <details>
-<summary>Problem 10 — Banker's Algorithm Safety</summary>
+<summary>Problem 10, Banker's Algorithm Safety</summary>
 
 Three processes, three resource types. Available = $(3, 2, 1)$.
 
@@ -1897,7 +1897,7 @@ All Finish = true. Safe sequence: $\langle P_1, P_2, P_0 \rangle$.
 </details>
 
 <details>
-<summary>Problem 11 — Banker's Algorithm Request</summary>
+<summary>Problem 11, Banker's Algorithm Request</summary>
 
 Using the state from Problem 10, determine whether the request from $P_0$ for $(1, 0, 0)$ can be
 Granted.
@@ -1918,7 +1918,7 @@ All finish. Request **granted**.
 </details>
 
 <details>
-<summary>Problem 12 — Page Table Address Translation</summary>
+<summary>Problem 12, Page Table Address Translation</summary>
 
 A system uses 32-bit virtual addresses with 4 KiB pages. The page table entry is 4 bytes.
 
@@ -1933,7 +1933,7 @@ entries. (c) $1048576 \times 4$ bytes = 4 MiB.
 </details>
 
 <details>
-<summary>Problem 13 — TLB and EAT Calculation</summary>
+<summary>Problem 13, TLB and EAT Calculation</summary>
 
 A system with a two-level page table. TLB hit ratio = 0.90, TLB access = 2 ns, memory access = 100
 ns (for any level). Page fault rate = 0.001, page fault service = 6 ms. Compute the effective Access
@@ -1951,7 +1951,7 @@ $= 91.71 + 20.18 + 6000.20 = 6112.09$ ns $\approx 6.11$ $\mu$S.
 </details>
 
 <details>
-<summary>Problem 14 — Page Fault EAT</summary>
+<summary>Problem 14, Page Fault EAT</summary>
 
 What page fault rate is needed to ensure the effective access time is no more than 200 ns? Memory
 Access time = 100 ns, page fault service = 8 ms.
@@ -1968,7 +1968,7 @@ why effective caching is essential.
 </details>
 
 <details>
-<summary>Problem 15 — LRU Page Replacement</summary>
+<summary>Problem 15, LRU Page Replacement</summary>
 
 Reference string: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5. Four frames. Compute the number of page Faults
 under LRU and under FIFO. Does Belady's anomaly occur?
@@ -2038,7 +2038,7 @@ Particular reference string, 3 and 4 frames happen to produce the same count und
 </details>
 
 <details>
-<summary>Problem 16 — Belady's Anomaly</summary>
+<summary>Problem 16, Belady's Anomaly</summary>
 
 Prove that FIFO can exhibit Belady's anomaly by constructing a counterexample with 2 and 3 frames.
 
@@ -2063,7 +2063,7 @@ Counterexample from the text (1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 with 3 vs 4 fra
 </details>
 
 <details>
-<summary>Problem 17 — Working Set and Thrashing</summary>
+<summary>Problem 17, Working Set and Thrashing</summary>
 
 A system has 40 frames. Process $P_1$ has a working set of 15 pages, $P_2$ has 12 pages, and $P_3$
 Has 18 pages. Can all three run simultaneously without thrashing? What if $P_4$ with a working set
@@ -2082,7 +2082,7 @@ $P_2 + P_3 =
 </details>
 
 <details>
-<summary>Problem 18 — File Allocation</summary>
+<summary>Problem 18, File Allocation</summary>
 
 A file system uses contiguous allocation with 512-byte blocks. A file is created at block 1000 and
 Grows to 5000 bytes. Blocks 1000--1009 are allocated. The file then grows by 2000 bytes, but Blocks
@@ -2107,7 +2107,7 @@ Dynamically without costly relocation.
 </details>
 
 <details>
-<summary>Problem 19 — Disk Scheduling</summary>
+<summary>Problem 19, Disk Scheduling</summary>
 
 A disk has 500 cylinders (0--499). The request queue contains: 55, 58, 39, 18, 90, 160, 150,
 38, 184. The head is at cylinder 50, moving toward 0. Compute the total head movement for SCAN and
@@ -2130,7 +2130,7 @@ SCAN is far more efficient here because the requests are clustered between 18 an
 </details>
 
 <details>
-<summary>Problem 20 — Security: Buffer Overflow and Defences</summary>
+<summary>Problem 20, Security: Buffer Overflow and Defences</summary>
 
 Consider the following C function:
 
@@ -2180,7 +2180,7 @@ by the overflow would fail the CFI check.
 
 ## Worked Examples
 
-### Example 1: Process Scheduling — Round Robin
+### Example 1: Process Scheduling, Round Robin
 
 **Problem.** Three processes arrive at time 0 with burst times: P1 = 24 ms, P2 = 3 ms, P3 = 3 ms.
 Calculate average waiting time with Round Robin (quantum = 4 ms).
@@ -2248,7 +2248,7 @@ flowchart TD
 | Advanced Operating Systems     | WyattsNotes | [View](5-operating-systems/11_operating-systems-advanced) |
 | Computer Networks              | WyattsNotes | [View](computer-networks)          |
 | Databases                      | WyattsNotes | [View](2-systems/databases)                  |
-| Operating Systems — MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
+| Operating Systems, MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

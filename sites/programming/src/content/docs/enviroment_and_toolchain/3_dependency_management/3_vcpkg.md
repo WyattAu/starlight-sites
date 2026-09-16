@@ -228,7 +228,7 @@ The vcpkg toolchain file modifies CMake's module search path (`CMAKE_PREFIX_PATH
 `vcpkg_installed/x64-linux/share/fmt/fmtConfig.cmake` (or the Find module). If found, the package is
 Available. If not found, CMake falls back to system-wide installations.
 
-This mechanism is transparent to the project — standard CMake `find_package` calls work without
+This mechanism is transparent to the project, standard CMake `find_package` calls work without
 Modification.
 
 ## 4. Architectural Advantages

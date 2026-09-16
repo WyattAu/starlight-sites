@@ -228,7 +228,7 @@ int main() {
     // capacity is likely 2, so push_back triggers realloc
     v2.push_back(3);  // May or may not reallocate depending on initial capacity
 
-    // it2 is now INVALIDATED — undefined behavior to dereference
+    // it2 is now INVALIDATED, undefined behavior to dereference
     // std::cout << *it2 << "\n";  // UB!
 
     // Safe approach: store indices, not iterators
@@ -285,7 +285,7 @@ itself is a small heap-allocated array of pointers. When the map array fills up,
 
 - **Random access** requires two pointer dereferences (map lookup, then element access), giving
   $O(1)$ with a higher constant than `std::vector`.
-- **No contiguous guarantee** — you cannot pass `d.data()` to a C API expecting a flat array and
+- **No contiguous guarantee**, you cannot pass `d.data()` to a C API expecting a flat array and
   expect all elements to be contiguous.
 
 ```cpp
@@ -380,7 +380,7 @@ int main() {
     // Output: a: 1 2 10 20 30 3 4 5
 
     std::cout << "\nb: ";
-    std::cout << "b.size() = " << b.size() << "\n";  // 0 — b is now empty
+    std::cout << "b.size() = " << b.size() << "\n";  // 0, b is now empty
 
     // Pointers/iterators to spliced elements remain valid
     // and now refer to elements in 'a'
@@ -430,7 +430,7 @@ int main() {
 
 Key properties:
 
-- `sizeof(std::array<T, N>) == N * sizeof(T)` — no padding, no overhead [N4950 §22.3.7.1].
+- `sizeof(std::array<T, N>) == N * sizeof(T)`no padding, no overhead [N4950 §22.3.7.1].
 - Aggregate initialization: `std::array<int, 3> a = {1, 2, 3}`.
 - No iterator invalidation: the container never reallocates.
 - `at()` provides bounds-checked access with `std::out_of_range` on failure [N4950 §22.3.7.2].
@@ -527,7 +527,7 @@ Library if you need compact storage.
 
 The C++ Standard provides a strong exception-safety guarantee for `std::vector::push_back` [N4950
 §22.3.11.5]: if `push_back` throws (either because the element's copy/move constructor throws or
-Because memory allocation fails), the vector's state is rolled back to its prior state — no elements
+Because memory allocation fails), the vector's state is rolled back to its prior state, no elements
 Are lost and the vector remains valid.
 
 This guarantee is achieved by allocating the new buffer **before** moving elements into it. If any
@@ -572,7 +572,7 @@ int main() {
         std::cout << "Caught: " << e.what() << "\n";
     }
 
-    // Vector is still valid — strong guarantee
+    // Vector is still valid, strong guarantee
     std::cout << "Vector size after exception: " << v.size() << "\n";
     for (const auto& tc : v) {
         std::cout << "  value=" << tc.value << "\n";

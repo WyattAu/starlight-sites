@@ -751,5 +751,5 @@ flowchart TD
 | STEP Support Programme     | Cambridge            | [View](https://maths.org/step/)                                                 |
 | MAT Preparation            | WyattsNotes          | [View](mat-preparation)                             |
 | TMUA Preparation           | WyattsNotes          | [View](tmua-preparation)                            |
-| Calculus — Differentiation | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/10-differentiation)                           |
-| Calculus — Integration     | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/11-integration)                               |
+| Calculus, Differentiation | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/10-differentiation)                           |
+| Calculus, Integration     | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/11-integration)                               |

@@ -33,10 +33,10 @@ SAT reading study notes - Comprehension
 
 - **Main Idea**: the central point the author is making. Often found in the first or last paragraph. Every detail connects back to this.
 - **Supporting Details**: facts, examples, and evidence that support the main idea. Always verify answer choices against specific textual evidence.
-- **Inferences**: logical conclusions drawn from textual evidence. Must be directly supported — not reasonable guesses.
-- **Purpose**: why the author wrote the passage or included a specific detail — to inform, persuade, entertain, or explain.
-- **Tone**: the author's attitude toward the subject — objective, critical, enthusiastic, skeptical. Determined by word choice.
-- **Structure**: how the passage is organised — chronological, compare/contrast, cause/effect, problem/solution.
+- **Inferences**: logical conclusions drawn from textual evidence. Must be directly supported, not reasonable guesses.
+- **Purpose**: why the author wrote the passage or included a specific detail, to inform, persuade, entertain, or explain.
+- **Tone**: the author's attitude toward the subject, objective, critical, enthusiastic, skeptical. Determined by word choice.
+- **Structure**: how the passage is organised, chronological, compare/contrast, cause/effect, problem/solution.
 
 ## Question Type Strategy
 
@@ -78,7 +78,7 @@ Step 3: The correct inference is that the project may resume in the future but t
 **Solution:**
 Step 1: Read the sentence containing the reference
 Step 2: Check what claim the study supports
-Step 3: The study provides evidence for the author's argument — it is not the main point itself
+Step 3: The study provides evidence for the author's argument, it is not the main point itself
 Step 4: Choose the answer that says "to provide evidence for" or "to support the claim that"
 
 **Key insight:** Specific examples, studies, and data are always in service of a broader claim. The question asks what function they serve.
@@ -101,7 +101,7 @@ Step 4: Choose the answer that says "to provide evidence for" or "to support the
 **Solution:**
 Step 1: Read the surrounding sentences for context
 Step 2: If the findings sparked debate or challenged existing views, "provocative" means "stimulating discussion"
-Step 3: It does NOT mean "annoying" or "offensive" — test each option by substituting it back
+Step 3: It does NOT mean "annoying" or "offensive", test each option by substituting it back
 
 **Key insight:** The SAT tests words with multiple meanings. Always use context, not just the most common definition.
 
@@ -118,7 +118,7 @@ Step 3: It does NOT mean "annoying" or "offensive" — test each option by subst
 
 ## Intuition
 
-Reading comprehension is like being a detective at a crime scene — every sentence is a clue, and you need to piece together what happened, why, and what it means. The main idea is the suspect you are after; supporting details are the evidence that points to them. Inference is reading between the lines — the author did not say it directly, but the clues are there if you look. Purpose is asking "why did the author write this?" — were they trying to inform, persuade, or entertain? Every passage has a structure, and understanding that structure is like understanding the blueprint of a building.
+Reading comprehension is like being a detective at a crime scene, every sentence is a clue, and you need to piece together what happened, why, and what it means. The main idea is the suspect you are after; supporting details are the evidence that points to them. Inference is reading between the lines, the author did not say it directly, but the clues are there if you look. Purpose is asking "why did the author write this?", were they trying to inform, persuade, or entertain? Every passage has a structure, and understanding that structure is like understanding the blueprint of a building.
 
 ## Common Mistakes
 

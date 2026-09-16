@@ -156,7 +156,7 @@ Water-based solution) under partial vacuum. The heat pipe operates by phase chan
 3. Vapor condenses, releasing latent heat to the fins.
 4. Liquid returns to the evaporator via capillary action in a wick structure along the pipe wall.
 
-Heat pipes are remarkably efficient — a single 6 mm heat pipe can transfer 50–100 W of heat over a
+Heat pipes are remarkably efficient, a single 6 mm heat pipe can transfer 50–100 W of heat over a
 Distance of 100 mm with a thermal resistance of less than 0.1 °C/W.
 
 The number and diameter of heat pipes matter:
@@ -175,7 +175,7 @@ Understanding fan specs is critical for selecting the right fans for your build:
 | Static Pressure | mmH$_2$O       | Ability to push air through resistance (heatsinks, filters) |
 | RPM             | rev/min        | Fan speed; higher = more airflow but more noise             |
 | Noise           | dBA            | Sound pressure level at 1 meter                             |
-| Bearing Type    | —              | Longevity and noise characteristics                         |
+| Bearing Type    |,              | Longevity and noise characteristics                         |
 
 **Static pressure vs. Airflow:** Heatsinks and radiators present high airflow resistance. You need
 Fans with high static pressure to push air through them effectively. Case exhaust fans benefit more
@@ -246,7 +246,7 @@ The orientation of fans on a radiator significantly affects thermals and noise:
 AIO coolers have finite lifespans. Common failure modes:
 
 1. **Pump failure:** The pump stops circulating coolant. CPU temperatures spike rapidly. The pump is
-   the most likely component to fail ( after 4–7 years). Most AIOs provide pump RPM monitoring — if
+   the most likely component to fail ( after 4–7 years). Most AIOs provide pump RPM monitoring, if
    pump RPM drops to 0, the pump has failed.
 2. **Coolant loss:** Sealed AIOs can lose coolant through permeation (slow loss through tubing) or
    from a micro-leak. Reduced coolant volume decreases cooling capacity.
@@ -335,10 +335,10 @@ Accumulation.
 ### Ideal Fan Configuration
 
 ```
-Front:  Intake (filtered) — provides cool air to CPU and GPU
-Top:    Exhaust — removes rising hot air (optional: intake for bottom-mounted rad)
-Rear:   Exhaust — removes hot air from CPU cooler area
-Bottom: Intake (filtered) — provides cool air to GPU
+Front:  Intake (filtered), provides cool air to CPU and GPU
+Top:    Exhaust, removes rising hot air (optional: intake for bottom-mounted rad)
+Rear:   Exhaust, removes hot air from CPU cooler area
+Bottom: Intake (filtered), provides cool air to GPU
 ```
 
 **Rules of thumb:**
@@ -484,7 +484,7 @@ sudo turbostat --show Core,CPU,Busy%,Bzy_MHz,PKG%,PkgTmp -i 5
 1. **Undervolt the CPU and GPU.** Lower voltage means less heat, which means fans spin slower. This
    is the single most effective noise reduction technique.
 2. **Use larger fans.** A 140 mm fan moves the same air as a 120 mm fan at lower RPM and lower
-   noise. Fan noise scales with the fifth power of RPM — a 20% reduction in RPM reduces noise by
+   noise. Fan noise scales with the fifth power of RPM, a 20% reduction in RPM reduces noise by
    roughly 60%.
 3. **Enable fan curves.** Never run fans at 100% all the time. Use temperature-based curves.
 4. **Use a fan hub.** Dedicated fan controllers provide smoother PWM control than motherboard
@@ -522,7 +522,7 @@ Radiator as exhaust (top) or side-intake with the understanding of the thermal t
 
 More paste is not better. Excess paste squeezes out from between the IHS and heatsink and can spill
 Onto the motherboard. Worse, a thick layer of paste has higher thermal resistance than a thin layer.
-The paste should fill only the microscopic imperfections between the two surfaces — not act as a gap
+The paste should fill only the microscopic imperfections between the two surfaces, not act as a gap
 Filler. A pea-sized amount is sufficient for most CPUs.
 
 ### Neglecting Dust Filters
@@ -576,7 +576,7 @@ PTM7950 requires a heat cycling process after application:
 
 ### Graphite Pads
 
-Graphite pads are anisotropic — they conduct heat well in the X-Y plane (along the pad surface) but
+Graphite pads are anisotropic, they conduct heat well in the X-Y plane (along the pad surface) but
 Poorly in the Z-axis (through the pad thickness). This makes them suitable for:
 
 - Laptops with bare-die CPUs (where the pad conforms to the die and heat spreader)
@@ -834,7 +834,7 @@ T_{CPU} = T_{ambient} + \Delta T_{CPU-ambient}
 $$
 
 If your room is 30 °C instead of 20 °C, your CPU will run 10 °C hotter for the same workload. This
-Is significant — a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
+Is significant, a CPU that runs at 75 °C in a 20 °C room will hit 85 °C in a 30 °C room.
 
 ### Altitude Effects
 

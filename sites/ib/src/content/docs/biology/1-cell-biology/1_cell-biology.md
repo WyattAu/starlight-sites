@@ -18,11 +18,11 @@ tags:
 
 ## Intuition
 
-**A cell is like a miniature city — the nucleus is city hall, mitochondria are power plants, and the membrane is the border control:** Cell structure is inseparable from function — each organelle's design enables its specific role in cellular life
+**A cell is like a miniature city, the nucleus is city hall, mitochondria are power plants, and the membrane is the border control:** Cell structure is inseparable from function, each organelle's design enables its specific role in cellular life
 
 **Why it matters:** Cell biology is the foundation of all biology, explaining how living organisms grow, function, and reproduce
 
-**The key insight:** Cell structure is inseparable from function — each organelle's design enables its specific role in cellular life
+**The key insight:** Cell structure is inseparable from function, each organelle's design enables its specific role in cellular life
 
 ## 1. Cell Theory
 

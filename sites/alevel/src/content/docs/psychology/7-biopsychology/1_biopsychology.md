@@ -77,7 +77,7 @@ There are approximately 86 billion neurons in the human brain.
 - **Dendrites:** Branch-like structures that receive signals from other neurons.
 - **Axon:** A long fibre that carries electrical impulses away from the cell body.
 - **Myelin sheath:** A fatty layer that insulates the axon, speeding up transmission. Gaps in the
-  myelin sheath are called **nodes of Ranvier** — the impulse "jumps" between these nodes (saltatory
+  myelin sheath are called **nodes of Ranvier**, the impulse "jumps" between these nodes (saltatory
   conduction).
 - **Axon terminals (terminal buttons):** Branches at the end of the axon that connect to other
   neurons or to muscles/glands.
@@ -94,14 +94,14 @@ There are approximately 86 billion neurons in the human brain.
 **Electrical transmission:** Neurons transmit signals electrically within the cell. At rest, the
 inside of the neuron is negatively charged relative to the outside (resting potential, approximately
 −70mV). When stimulated, the membrane becomes permeable to sodium ions, which rush in, depolarising
-the cell. This creates an **action potential** — an electrical impulse that travels along the axon.
+the cell. This creates an **action potential**, an electrical impulse that travels along the axon.
 After firing, the neuron enters a brief **refractory period** during which it cannot fire again,
 ensuring impulses travel in one direction only.
 
 ### Synaptic Transmission
 
 A **synapse** is the junction between two neurons. The tiny gap between them is the **synaptic
-cleft**. Neurons do not physically touch — signals are transmitted chemically across the synapse.
+cleft**. Neurons do not physically touch, signals are transmitted chemically across the synapse.
 
 **Process:**
 
@@ -119,16 +119,16 @@ cleft**. Neurons do not physically touch — signals are transmitted chemically 
 
 | Neurotransmitter    | Function                               | Effect                                                                         |
 | ------------------- | -------------------------------------- | ------------------------------------------------------------------------------ |
-| Serotonin           | Mood regulation, sleep, appetite       | Generally inhibitory — low levels associated with depression                   |
-| Dopamine            | Reward, motivation, voluntary movement | Generally excitatory — high levels associated with schizophrenia               |
-| Acetylcholine (ACh) | Muscle contraction, memory, attention  | Excitatory — involved in the neuromuscular junction; low levels in Alzheimer"s |
-| Noradrenaline       | Arousal, alertness, fight or flight    | Excitatory — involved in stress response                                       |
-| GABA                | Anxiety reduction, relaxation          | Inhibitory — the brain's main inhibitory neurotransmitter                      |
+| Serotonin           | Mood regulation, sleep, appetite       | Generally inhibitory, low levels associated with depression                   |
+| Dopamine            | Reward, motivation, voluntary movement | Generally excitatory, high levels associated with schizophrenia               |
+| Acetylcholine (ACh) | Muscle contraction, memory, attention  | Excitatory, involved in the neuromuscular junction; low levels in Alzheimer"s |
+| Noradrenaline       | Arousal, alertness, fight or flight    | Excitatory, involved in stress response                                       |
+| GABA                | Anxiety reduction, relaxation          | Inhibitory, the brain's main inhibitory neurotransmitter                      |
 
 **Excitatory and inhibitory neurotransmitters:** Excitatory neurotransmitters (e.g., glutamate)
 increase the likelihood that the postsynaptic neuron will fire. Inhibitory neurotransmitters (e.g.,
 GABA) decrease the likelihood of firing. The net effect on the postsynaptic neuron depends on the
-sum of excitatory and inhibitory inputs — this is called **summation**.
+sum of excitatory and inhibitory inputs, this is called **summation**.
 
 ### Localisation of Function
 
@@ -143,8 +143,8 @@ brain contribute equally to all functions.
 - **Motor cortex (precentral gyrus):** Controls voluntary movement. The body is represented
   contralaterally (the left motor cortex controls the right side of the body and vice versa) and
   disproportionately (more cortex is devoted to areas requiring fine motor control, such as the
-  hands and face — the **motor homunculus**).
-- **Broca's area (left frontal lobe):** Speech production. Damage causes **Broca's aphasia** — slow,
+  hands and face, the **motor homunculus**).
+- **Broca's area (left frontal lobe):** Speech production. Damage causes **Broca's aphasia**, slow,
   non-fluent speech with difficulty finding words but good comprehension. Identified by Paul Broca
   (1861) from his patient "Tan" (who could only say the word "tan").
 
@@ -158,7 +158,7 @@ brain contribute equally to all functions.
 - **Auditory cortex:** Processes auditory information. Different regions respond to different
   frequencies.
 - **Wernicke's area (left temporal lobe):** Language comprehension. Damage causes **Wernicke's
-  aphasia** — fluent but meaningless speech with poor comprehension. Identified by Carl Wernicke
+  aphasia**, fluent but meaningless speech with poor comprehension. Identified by Carl Wernicke
   (1874).
 
 **Occipital lobe:**
@@ -177,7 +177,7 @@ brain contribute equally to all functions.
 
 **Evidence for localisation:**
 
-- **Case studies:** Phineas Gage (1848) — an iron rod passed through his frontal lobe, destroying
+- **Case studies:** Phineas Gage (1848), an iron rod passed through his frontal lobe, destroying
   it. He survived but his personality changed dramatically (from responsible and well-mannered to
   impulsive and aggressive), demonstrating the role of the frontal lobe in personality and
   decision-making.
@@ -200,9 +200,9 @@ occurs throughout life but is greatest during childhood.
 **Types of plasticity:**
 
 - **Synaptic plasticity:** The strengthening or weakening of synaptic connections. Repeated
-  stimulation leads to **long-term potentiation (LTP)** — the strengthening of synaptic connections,
+  stimulation leads to **long-term potentiation (LTP)**, the strengthening of synaptic connections,
   which is the neural basis of learning. Lack of stimulation leads to **long-term depression (LTD)**
-  — the weakening of connections.
+the weakening of connections.
 - **Structural plasticity:** Physical changes in brain structure, such as the growth of new
   dendrites, the formation of new synapses (synaptogenesis), or changes in the size of brain
   regions.
@@ -251,7 +251,7 @@ rhythm.
 - **Endogenous pacemakers (internal clocks):** The **suprachiasmatic nucleus (SCN)** in the
   hypothalamus is the body's master clock. It receives light information via the optic nerve (even
   in blind individuals, some light-detecting cells in the retina project to the SCN). The SCN
-  regulates melatonin production by the pineal gland — melatonin promotes sleepiness and is produced
+  regulates melatonin production by the pineal gland, melatonin promotes sleepiness and is produced
   in darkness.
 - **Exogenous zeitgebers (external time-givers):** Light is the primary zeitgeber. Other zeitgebers
   include social cues (mealtimes, work schedules), temperature, and exercise.
@@ -406,7 +406,7 @@ imaging research, and neurosurgical evidence.
 
 The cerebral cortex is divided into four lobes, each associated with different functions. The
 frontal lobe contains the motor cortex, which controls voluntary movement. The body is represented
-contralaterally — the left motor cortex controls the right side of the body and vice versa — and
+contralaterally, the left motor cortex controls the right side of the body and vice versa, and
 disproportionately, with more cortical area devoted to body parts requiring fine motor control, such
 as the hands and face. The parietal lobe contains the somatosensory cortex, which processes tactile
 information (touch, temperature, pain).
@@ -415,14 +415,14 @@ Language functions are predominantly localised to the left hemisphere. Broca's a
 frontal lobe, is responsible for speech production. Paul Broca (1861) identified this area through
 his work with patient "Tan," who could understand language but could only produce the syllable
 "tan." A post-mortem revealed a lesion in the left frontal lobe. Damage to Broca's area results in
-Broca's aphasia — slow, effortful, non-fluent speech with relatively intact comprehension.
+Broca's aphasia, slow, effortful, non-fluent speech with relatively intact comprehension.
 Wernicke's area, in the left temporal lobe, is responsible for language comprehension. Carl Wernicke
 (1874) identified patients who could produce fluent speech but could not understand language. Damage
-results in Wernicke's aphasia — fluent but meaningless speech with poor comprehension.
+results in Wernicke's aphasia, fluent but meaningless speech with poor comprehension.
 
 One of the most dramatic pieces of evidence for localisation comes from the case of Phineas Gage
 (1848). An iron rod passed through his frontal lobe when an explosion drove it through his skull.
-Remarkably, Gage survived, but his personality changed profoundly — from a responsible,
+Remarkably, Gage survived, but his personality changed profoundly, from a responsible,
 well-mannered man to an impulsive, aggressive individual who could no longer hold down his job. This
 case demonstrated that the frontal lobe plays a critical role in personality, decision-making, and
 social behaviour.
@@ -431,7 +431,7 @@ Modern brain imaging techniques have provided further support for localisation. 
 consistently show that specific brain regions are activated during specific tasks. For example, the
 visual cortex is activated when viewing images, the auditory cortex when listening to sounds, and
 the motor cortex when making movements. Petersen et al. (1988) used PET scans to demonstrate that
-different brain regions were activated during different language tasks — listening to words
+different brain regions were activated during different language tasks, listening to words
 activated Wernicke's area, while speaking words activated Broca's area.
 
 However, the localisation view has been criticised as oversimplified. Lashley (1950) investigated
@@ -454,7 +454,7 @@ functions are distributed across the brain.
 
 In conclusion, there is strong evidence from clinical case studies and brain imaging that specific
 brain areas are responsible for specific functions, particularly for basic sensory, motor, and
-language functions. However, the localisation view is incomplete — plasticity, distributed
+language functions. However, the localisation view is incomplete, plasticity, distributed
 processing, and the holistic nature of complex cognition mean that a strict localisation account is
 an oversimplification. The truth lies somewhere between strict localisation and complete holism.
 
@@ -474,12 +474,12 @@ cells located in the hypothalamus above the optic chiasm. The SCN acts as the bo
 generating a circadian rhythm of approximately 24–25 hours even in the absence of external cues. The
 SCN receives light information via the optic nerve, even in individuals who are cortically blind but
 have intact retinal ganglion cells that project to the SCN. The SCN regulates the pineal gland,
-which produces melatonin — a hormone that promotes sleepiness. Melatonin levels rise in the evening
+which produces melatonin, a hormone that promotes sleepiness. Melatonin levels rise in the evening
 (promoting sleep) and fall in the morning (promoting wakefulness).
 
 Morgan (1995) provided compelling evidence for the role of the SCN. He removed the SCN from
 hamsters, which abolished their circadian rhythms. When SCN tissue from donor hamsters was
-transplanted into the SCN-lesioned hamsters, circadian rhythms were restored — and the rhythms
+transplanted into the SCN-lesioned hamsters, circadian rhythms were restored, and the rhythms
 matched those of the donors. This demonstrates that the SCN is both necessary and sufficient for
 circadian rhythm generation.
 
@@ -488,7 +488,7 @@ time cues. In one study, he spent six months in a Texas cave with no clocks, day
 indicators. His circadian rhythm settled to approximately 25 hours (slightly longer than 24 hours),
 demonstrating that the body has an internal clock that runs without external cues but that it needs
 regular calibration by zeitgebers to maintain a 24-hour cycle. In a later study, Siffre (1999) spent
-two months in a cave and found that his days lengthened to 48 hours — he would sleep for 16 hours
+two months in a cave and found that his days lengthened to 48 hours, he would sleep for 16 hours
 and be awake for 32 hours, without realising it.
 
 The primary exogenous zeitgeber is light. Light entering the eye activates retinal ganglion cells
@@ -509,7 +509,7 @@ just light.
 
 Furthermore, individual differences in circadian rhythms are well documented. Some people are
 "morning types" (larks) and others "evening types" (owls), with different peak performance times.
-Age also affects circadian rhythms — adolescents tend to have delayed circadian rhythms (preferring
+Age also affects circadian rhythms, adolescents tend to have delayed circadian rhythms (preferring
 later bedtimes and wake times), while older adults tend to have advanced rhythms. Duffy et al.
 (2001) found that these differences have a biological basis, with different patterns of melatonin
 production and body temperature.

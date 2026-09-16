@@ -312,8 +312,8 @@ Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))$ is the nondeterministic analo
 
 **Key classes:**
 
-- $\mathrm{L = \mathrm{SPACE(\log n)$ — logarithmic space.
-- $\mathrm{NL = \mathrm{NSPACE(\log n)$ — nondeterministic logarithmic space.
+- $\mathrm{L = \mathrm{SPACE(\log n)$, logarithmic space.
+- $\mathrm{NL = \mathrm{NSPACE(\log n)$, nondeterministic logarithmic space.
 - $\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$.
 
 **Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)$ For
@@ -497,6 +497,6 @@ undecidable).
 
 3. **Believing that polynomial reductions prove a problem is "hard" in an absolute sense.** Polynomial-time reductions show relative difficulty within the polynomial hierarchy. A problem reduced from SAT is "hard" only in the sense that solving it would solve SAT. It says nothing about the problem's difficulty for small input sizes or with respect to other resource bounds.
 
-4. **Confusing the classes P and NP.** P ⊆ NP is known (a deterministic TM is a special case of a non-deterministic one). The open question is whether P = NP — whether every problem verifiable in polynomial time is also solvable in polynomial time. Most experts believe P ≠ NP, but this is unproven.
+4. **Confusing the classes P and NP.** P ⊆ NP is known (a deterministic TM is a special case of a non-deterministic one). The open question is whether P = NP, whether every problem verifiable in polynomial time is also solvable in polynomial time. Most experts believe P ≠ NP, but this is unproven.
 
 5. **Assuming NP ⊆ coNP is false.** It is unknown whether NP = coNP. If it were true, then every problem whose "no" instances are efficiently verifiable would also have "yes" instances efficiently verifiable. This is considered unlikely but remains open, and is considered a harder question than P vs. NP by some researchers.

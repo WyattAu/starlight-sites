@@ -1,6 +1,6 @@
 ---
-title: "TypeScript Glossary — Key Terms and Definitions"
-description: "Study notes for TypeScript Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "TypeScript Glossary, Key Terms and Definitions"
+description: "Study notes for TypeScript Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -17,11 +17,11 @@ tags: [glossary]
 
 **tsconfig.json**: The TypeScript configuration file specifying compiler options, include/exclude patterns, and project references.
 
-**Any**: An escape hatch that disables type checking. Avoid using — it defeats TypeScript's purpose.
+**Any**: An escape hatch that disables type checking. Avoid using, it defeats TypeScript's purpose.
 
 **Unknown**: A type-safe alternative to `any`. Requires narrowing before use.
 
-**Never**: A type that represents values that never occur — functions that always throw or have infinite loops.
+**Never**: A type that represents values that never occur, functions that always throw or have infinite loops.
 
 **Void**: The return type of functions that don't return a value.
 
@@ -59,7 +59,7 @@ type Result =
 
 **Intersection Type (&)**: A value must satisfy all combined types: `TypeA & TypeB`.
 
-**Type Narrowing**: The compiler narrows types based on control flow — `typeof`, `instanceof`, `in`, and discriminated unions.
+**Type Narrowing**: The compiler narrows types based on control flow, `typeof`, `instanceof`, `in`, and discriminated unions.
 
 **Type Guard**: A function that narrows types: `function isString(x: unknown): x is string { return typeof x === "string" }`.
 

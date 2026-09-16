@@ -121,7 +121,7 @@ Consider two translation units compiled with different ABIs. Unit A uses `libstd
 `libc++`. Both define a function that takes `std::string` by value:
 
 ```cpp
-// unit_a.cpp — compiled with -stdlib=libstdc++
+// unit_a.cpp, compiled with -stdlib=libstdc++
 #include <string>
 #include <cstddef>
 
@@ -131,7 +131,7 @@ extern "C" std::size_t get_string_size_libstdcxx(std::string s) \{
 ```
 
 ```cpp
-// unit_b.cpp — compiled with -stdlib=libc++
+// unit_b.cpp, compiled with -stdlib=libc++
 #include <string>
 #include <iostream>
 #include <cstddef>
@@ -273,7 +273,7 @@ This configuration automatically translates to:
 
 ## Detailed C++ Standard Feature Overview
 
-### C++11 — The Modern C++ Foundation
+### C++11, The Modern C++ Foundation
 
 C++11 introduced the most significant set of changes since the original standard. Key features:
 
@@ -286,7 +286,7 @@ C++11 introduced the most significant set of changes since the original standard
 - `<thread>``<mutex>``<condition_variable>``<future>`
 - Uniform initialization (`{}` syntax), `std::initializer_list`
 
-### C++14 — Bug Fixes and Refinements
+### C++14, Bug Fixes and Refinements
 
 Incremental improvements over C++11:
 
@@ -296,7 +296,7 @@ Incremental improvements over C++11:
 - Relaxed `constexpr` (allows loops, local variables)
 - `[[deprecated]]` attribute, variable templates
 
-### C++17 — Major New Features
+### C++17, Major New Features
 
 - Structured bindings (`auto [a, b] = pair;`)
 - `std::optional``std::variant``std::any`
@@ -306,7 +306,7 @@ Incremental improvements over C++11:
 - `std::invoke``std::byte`Nested namespaces (`A::B::C`)
 - `__has_include``<charconv>` (`std::from_chars``std::to_chars`)
 
-### C++20 — The "Big Four"
+### C++20, The "Big Four"
 
 - Concepts (`template&lt;std::integral T&gt;`), requires clauses
 - Ranges (`std::views::filter``std::views::transform`Range adapters)
@@ -316,7 +316,7 @@ Incremental improvements over C++11:
 Also: Three-way comparison (`<=>`), `std::format`Designated initializers, `std::span`
 `std::jthread`Calendar/time zone libraries.
 
-### C++23 — Refinements and Completeness
+### C++23, Refinements and Completeness
 
 - `std::print``std::println` (free-function formatting)
 - `std::expected&lt;T, E&gt;` (error handling without exceptions)
@@ -408,7 +408,7 @@ struct Config \{
 struct Config \{
     int timeout = 30;
     bool verbose = false;
-    int retries = 3;  // NEW FIELD — changes sizeof(Config)
+    int retries = 3;  // NEW FIELD, changes sizeof(Config)
 \};
 
 // Application compiled against v1, linked against v2:
@@ -495,11 +495,11 @@ Calling convention [MSVC x64 ABI] respectively.
 
 ## Intuition
 
-**C++ evolution:** Language standards are like software versions — each new standard adds features and improvements while maintaining backward compatibility.
+**C++ evolution:** Language standards are like software versions, each new standard adds features and improvements while maintaining backward compatibility.
 
 **Why it matters:** Understanding standards helps you choose the right features for your project and ensure compatibility.
 
-**The key insight:** ABI compatibility matters for libraries — different compilers may not be compatible even with the same standard.
+**The key insight:** ABI compatibility matters for libraries, different compilers may not be compatible even with the same standard.
 
 ## Common Pitfalls
 
@@ -538,7 +538,7 @@ Providing ABI versioning without API changes:
 
 int main() \{
     // User code sees std::string
-    // But the mangled symbol is std::__cxx11::basic_string<char, ...>
+    // But the mangled symbol is std::__cxx11::basic_string<char...>
     std::string s = "hello";
     std::cout << s << "\n";
 \}
@@ -558,7 +558,7 @@ Inline namespace symbols.
 ```bash
 # Inspect the inline namespaces in libc++
 nm -C /usr/lib/libc++.so | grep basic_string
-# Output includes: std::__1::basic_string<char, ...>
+# Output includes: std::__1::basic_string<char...>
 # The __1 is the inline namespace (ABI version 1)
 ```
 
@@ -571,7 +571,7 @@ Consider the following simplified representation of how `libstdc++` implements t
 namespace std \{
     // Legacy ABI (inline namespace removed, so symbols mangle as std::basic_string)
     inline namespace __cxx11 \{
-        template&lt;typename CharT, ...&gt;
+        template&lt;typename CharT...&gt;
         class basic_string \{ /* SSO implementation */ \};
     \}
 \}
@@ -641,7 +641,7 @@ readelf -d app
 # Show symbol version requirements
 readelf -V app
 
-# Show section headers (verify .text, .rodata, .data sizes)
+# Show section headers (verify .text.rodata.data sizes)
 readelf -S app
 ```
 

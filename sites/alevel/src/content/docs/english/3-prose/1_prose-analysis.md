@@ -24,7 +24,7 @@ description: "A-Level English Prose Analysis notes covering key definitions, cor
 
 ## Introduction
 
-Prose fiction — novels, novellas, and short stories — forms a major component of A-Level English
+Prose fiction, novels, novellas, and short stories, forms a major component of A-Level English
 Literature. Analysing prose requires you to examine how writers construct narrative worlds through
 choices about voice, character, setting, structure, and language. At A-Level, you are expected to
 move beyond merely understanding what happens in a text to exploring how meaning is shaped by
@@ -60,13 +60,13 @@ should analyse not just what characters do but how they are constructed.
 
 Methods of characterisation:
 
-- **Direct description** — The narrator or other characters describe a character explicitly
-- **Action** — What a character does reveals who they are
-- **Dialogue** — How a character speaks, including register, dialect, and what they avoid saying
-- **Thought** — Internal monologue or reported thought reveals motivation and feeling
-- **Other characters' responses** — How others react to a character shapes the reader's perception
-- **Setting and possession** — A character's environment and belongings reflect their identity
-- **Names** — Character names often carry symbolic or thematic significance (e.g. Pip, Heathcliff,
+- **Direct description**, The narrator or other characters describe a character explicitly
+- **Action**, What a character does reveals who they are
+- **Dialogue**, How a character speaks, including register, dialect, and what they avoid saying
+- **Thought**, Internal monologue or reported thought reveals motivation and feeling
+- **Other characters' responses**, How others react to a character shapes the reader's perception
+- **Setting and possession**, A character's environment and belongings reflect their identity
+- **Names**, Character names often carry symbolic or thematic significance (e.g. Pip, Heathcliff,
   Gradgrind)
 
 **Round vs flat characters:**
@@ -79,7 +79,7 @@ Methods of characterisation:
 ### Setting
 
 Setting encompasses the time, place, and social environment of a narrative. It is never merely a
-backdrop — it shapes character, action, and theme.
+backdrop, it shapes character, action, and theme.
 
 | Aspect              | Question to Ask                                          |
 | ------------------- | -------------------------------------------------------- |
@@ -132,7 +132,7 @@ reader.
 | Chapter divisions    | How the text is segmented                     | Creates pace, emphasis, and structural rhythm        |
 
 **Key point:** Structure is always meaningful. The decision to begin or end at a particular point,
-to include or omit events, to follow one character or many — these are analytical choices worth
+to include or omit events, to follow one character or many, these are analytical choices worth
 examining.
 
 ### Genre Conventions
@@ -208,11 +208,11 @@ When approaching a prose text, work through these layers:
 
 ### Writing the Essay
 
-- **Introduction** — Engage with the question's key terms, state your thesis, and outline your
+- **Introduction**, Engage with the question's key terms, state your thesis, and outline your
   approach
-- **Body paragraphs** — Each paragraph should develop one aspect of your argument with close
+- **Body paragraphs**, Each paragraph should develop one aspect of your argument with close
   analysis
-- **Conclusion** — Draw your points together and offer a final evaluative statement
+- **Conclusion**, Draw your points together and offer a final evaluative statement
 
 ## Common Pitfalls
 
@@ -256,7 +256,7 @@ self-contradiction alerts the reader to the gap between Nick's self-perception a
 practice. His narration is shaped by admiration for Gatsby, resentment of Tom and Daisy, and a moral
 framework that is never as objective as he claims.
 
-The delayed introduction of Gatsby — he does not speak until Chapter 3 — means the reader
+The delayed introduction of Gatsby, he does not speak until Chapter 3, means the reader
 experiences him through layers of rumour, gossip, and Nick's own idealised vision before meeting him
 directly. This structural choice creates a sense of mystery and allows Fitzgerald to explore the gap
 between Gatsby's public persona and private self. Nick's description of Gatsby's smile as having "a
@@ -287,7 +287,7 @@ wildness; the Lintons embody the Grange's cultivated softness. When Catherine de
 Heathcliff," she is asserting an identification with the Heights' untamed nature, yet her decision
 to marry Edgar Linton represents her capitulation to the Grange's social expectations.
 
-Brontë uses the moors as a liminal space between the two houses — a place that belongs to neither
+Brontë uses the moors as a liminal space between the two houses, a place that belongs to neither
 world and where Catherine and Heathcliff can exist outside social constraints. The moors represent
 freedom but also danger and exposure. A feminist reading might see the moors as the only space where
 Catherine can express her full identity, while the houses represent the patriarchal structures that
@@ -295,7 +295,7 @@ confine her.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid
@@ -312,10 +312,10 @@ flowchart TD
 
 - Prose analysis requires attention to narrative voice, characterisation, setting, theme, and
   structure
-- Identify who narrates and how reliable they are — voice shapes everything the reader knows
+- Identify who narrates and how reliable they are, voice shapes everything the reader knows
 - Characters are constructed through action, dialogue, thought, and other characters' responses
 - Setting is never neutral: it functions symbolically, thematically, and atmospherically
-- Structure — the order and organisation of events — is a key analytical tool
+- Structure, the order and organisation of events, is a key analytical tool
 - Avoid retelling the plot; focus on how the writer creates meaning through narrative choices
 - Use genre conventions to understand what a text is working with or against
 

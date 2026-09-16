@@ -20,7 +20,7 @@ categories:
 
 ## Intuition
 
-**Algorithms are like recipes — step-by-step instructions that transform inputs into outputs, with data structures as the kitchen organization:** Choosing the right algorithm and data structure can mean the difference between a program that runs in seconds versus hours
+**Algorithms are like recipes, step-by-step instructions that transform inputs into outputs, with data structures as the kitchen organization:** Choosing the right algorithm and data structure can mean the difference between a program that runs in seconds versus hours
 
 **Why it matters:** Efficient algorithms and data structures are essential for building performant software and solving computational problems
 

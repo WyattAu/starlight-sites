@@ -194,9 +194,9 @@ Deposition occurs when wave energy is insufficient to transport sediment. This h
 
 Relative sea-level change is the combined effect of:
 
-- **Eustatic change**: Global changes — melting ice sheets and thermal expansion of seawater
+- **Eustatic change**: Global changes, melting ice sheets and thermal expansion of seawater
   (currently approximately 3.3 mm per year globally)
-- **Isostatic change**: Local land-level changes — post-glacial rebound (e.g., Scotland rising ~1 mm
+- **Isostatic change**: Local land-level changes, post-glacial rebound (e.g., Scotland rising ~1 mm
   per year) and subsidence (e.g., southern England sinking ~1–2 mm per year)
 
 In the UK, relative sea-level rise is greatest in southern and eastern England where isostatic
@@ -302,7 +302,7 @@ Under current rates of erosion and with projected sea-level rise, it is estimate
 Holderness Coast could retreat by a further 200–300 m by 2100, threatening several settlements and
 approximately 30 km² of agricultural land.
 
-### Case Study 2: The Maldives — Sea-Level Rise
+### Case Study 2: The Maldives, Sea-Level Rise
 
 The Republic of Maldives is an archipelago of 1,192 coral islands in the Indian Ocean, with 80% of
 its land area less than 1 metre above sea level. It is among the most vulnerable nations on Earth to
@@ -394,13 +394,13 @@ Imagine the coast as a tug-of-war between the ocean and the land. Waves are the 
 Hard engineering strategies aim to resist coastal erosion through the construction of artificial
 structures. Sea walls, in most cases built from reinforced concrete, reflect wave energy and prevent
 erosion of the cliff behind. They are effective at protecting high-value assets in the short to
-medium term — for example, the sea wall at Scarborough has protected the town's spa and gardens for
+medium term, for example, the sea wall at Scarborough has protected the town's spa and gardens for
 over a century. However, sea walls are extremely expensive (up to £10,000 per metre) and can create
 a false sense of security. Reflected wave energy can also scour the beach in front of the wall,
 ultimately undermining it.
 
 Groynes trap sediment moving by longshore drift, building up a wider beach that inherently absorbs
-wave energy. This can be highly effective locally — the groynes at Mappleton on the Holderness Coast
+wave energy. This can be highly effective locally, the groynes at Mappleton on the Holderness Coast
 have successfully protected the village. However, they starve downdrift beaches of sediment,
 accelerating erosion elsewhere within the sediment cell. This is a significant limitation, as
 coastal management must consider the entire system rather than individual locations.
@@ -422,7 +422,7 @@ most effective long-term approach.
 
 A spit is a narrow ridge of sand or shingle that extends from the mainland into the open sea. It
 forms where longshore drift transports sediment along the coast in the direction of the prevailing
-wind. When the coastline changes direction — for example, at a river mouth or a bay — longshore
+wind. When the coastline changes direction, for example, at a river mouth or a bay, longshore
 drift continues to transport sediment into deeper, open water.
 
 As the sediment extends into deeper water, wave energy decreases because the waves are no longer

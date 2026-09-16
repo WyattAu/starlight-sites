@@ -57,7 +57,7 @@ Amines are derivatives of ammonia where one or more H atoms are replaced by alky
 - Diazonium salts: $\text{ArN}_2^+\text{Cl}^-$ (formed from primary aromatic amines + NaNO$_2$/HCl at 0-5°C)
 - Coupling reaction: diazonium salt + phenol/aniline $\rightarrow$ azo dye
 
-## Worked Example 1 — Basicity Comparison
+## Worked Example 1, Basicity Comparison
 
 **Problem:** Arrange methylamine, aniline, and dimethylamine in decreasing order of basicity in aqueous solution.
 
@@ -75,7 +75,7 @@ Decreasing basicity: $(\text{CH}_3)_2\text{NH} > \text{CH}_3\text{NH}_2 > \text{
 
 **Common mistake:** Assuming more alkyl groups always means higher basicity. Steric effects can reduce basicity in highly substituted amines in the gas phase, but in aqueous solution, solvation effects dominate.
 
-## Worked Example 2 — Hinsberg Test
+## Worked Example 2, Hinsberg Test
 
 **Problem:** How does the Hinsberg test distinguish between primary, secondary, and tertiary amines?
 
@@ -95,7 +95,7 @@ The Hinsberg reagent is benzenesulfonyl chloride ($\text{C}_6\text{H}_5\text{SO}
 
 **Common mistake:** Forgetting that the sulfonamide from a primary amine has an acidic proton that makes it soluble in base.
 
-## Worked Example 3 — Diazonium Coupling
+## Worked Example 3, Diazonium Coupling
 
 **Problem:** Write the coupling reaction of benzenediazonium chloride with phenol.
 
@@ -129,9 +129,9 @@ Amines are found in amino acids, neurotransmitters, pharmaceuticals (ephedrine, 
 
 ## Intuition
 
-**Amines are ammonia wearing different hats:** Picture ammonia (NH₃) with its lone pair of electrons sitting on nitrogen like a raised hand ready to bond. When you replace one or more hydrogens with carbon groups, you get amines. The more alkyl groups you add, the more you push electron density onto nitrogen, making it more eager to accept protons — until steric crowding gets in the way.
+**Amines are ammonia wearing different hats:** Picture ammonia (NH₃) with its lone pair of electrons sitting on nitrogen like a raised hand ready to bond. When you replace one or more hydrogens with carbon groups, you get amines. The more alkyl groups you add, the more you push electron density onto nitrogen, making it more eager to accept protons, until steric crowding gets in the way.
 
-**Why it matters:** Amines are everywhere in biology — amino acids, neurotransmitters, caffeine, and most drugs contain nitrogen. Understanding basicity trends helps predict drug absorption, and diazonium chemistry enables the synthesis of azo dyes used in textiles and food coloring.
+**Why it matters:** Amines are everywhere in biology, amino acids, neurotransmitters, caffeine, and most drugs contain nitrogen. Understanding basicity trends helps predict drug absorption, and diazonium chemistry enables the synthesis of azo dyes used in textiles and food coloring.
 
 **The key insight:** Basicity in aqueous solution is a three-way competition between electron donation (increases basicity), steric hindrance (decreases it), and solvation of the conjugate acid (stabilizes it).
 

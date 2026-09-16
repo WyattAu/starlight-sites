@@ -33,9 +33,9 @@ SAT writing study notes - Language
 
 - **Subject-Verb Agreement**: the verb must agree with the true subject. Ignore prepositional phrases between subject and verb.
 - **Pronoun Clarity**: every pronoun must evidently refer to one antecedent. Avoid ambiguous references.
-- **Parallel Structure**: items in a list or comparison must have the same grammatical form — all gerunds, all infinitives, or all clauses.
+- **Parallel Structure**: items in a list or comparison must have the same grammatical form, all gerunds, all infinitives, or all clauses.
 - **Conciseness**: eliminate redundant words and phrases. "Due to the fact that" → "because."
-- **Transition Words**: use appropriate transitions to show relationships — cause/effect, contrast, addition, sequence.
+- **Transition Words**: use appropriate transitions to show relationships, cause/effect, contrast, addition, sequence.
 - **Modifier Placement**: modifiers must be next to the word they modify. Dangling modifiers create confusion.
 - **Comma Rules**: use commas after introductory elements, between items in a list, and before coordinating conjunctions joining independent clauses.
 
@@ -77,7 +77,7 @@ Step 3: Correct: "She likes swimming, running, and cycling" (all gerunds)
 
 **Solution:**
 Step 1: The true subject is "collection" (singular), not "stamps"
-Step 2: "of rare stamps" is a prepositional phrase — ignore it for agreement
+Step 2: "of rare stamps" is a prepositional phrase, ignore it for agreement
 Step 3: Correct: "The collection of rare stamps **was** recently sold"
 
 **Key insight:** Prepositional phrases between subject and verb are the SAT's favourite trap. Find the true subject first.
@@ -99,7 +99,7 @@ Step 3: Correct: "The collection of rare stamps **was** recently sold"
 
 **Solution:**
 Step 1: "After reviewing the data" is a participial phrase
-Step 2: It must modify the subject of the main clause — but "the conclusion" did not review the data
+Step 2: It must modify the subject of the main clause, but "the conclusion" did not review the data
 Step 3: Correct: "After reviewing the data, **the researchers found** the conclusion obvious"
 
 **Key insight:** A dangling modifier has no logical subject in the main clause. Add the missing subject.
@@ -117,7 +117,7 @@ Step 3: Correct: "After reviewing the data, **the researchers found** the conclu
 
 ## Intuition
 
-Language conventions are the traffic rules of writing — they keep communication flowing smoothly. Punctuation marks are the traffic signals: commas separate ideas, semicolons connect related ones, colons introduce what follows. Sentence structure is the road layout — simple sentences are straight roads, complex sentences have on-ramps and exits. The SAT tests whether you can navigate these rules without crashing. The key insight is that good writing is not about fancy words — it is about clear connections between ideas, where every sentence does work and every word earns its place.
+Language conventions are the traffic rules of writing, they keep communication flowing smoothly. Punctuation marks are the traffic signals: commas separate ideas, semicolons connect related ones, colons introduce what follows. Sentence structure is the road layout, simple sentences are straight roads, complex sentences have on-ramps and exits. The SAT tests whether you can navigate these rules without crashing. The key insight is that good writing is not about fancy words, it is about clear connections between ideas, where every sentence does work and every word earns its place.
 
 ## Common Mistakes
 

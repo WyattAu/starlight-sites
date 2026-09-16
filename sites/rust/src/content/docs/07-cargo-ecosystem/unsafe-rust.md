@@ -19,13 +19,13 @@ description: "The keyword grants access to five capabilities that the compiler c
 
 The `unsafe` keyword grants access to five capabilities that the compiler cannot verify:
 
-1. **Dereference raw pointers** — `*const T` and `*mut T`
-2. **Call unsafe functions** — `fn foo() { unsafe { ... } }`
-3. **Access mutable statics** — `static mut X: i32`
-4. **Implement unsafe traits** — `unsafe impl Send for T {}`
+1. **Dereference raw pointers**, `*const T` and `*mut T`
+2. **Call unsafe functions**, `fn foo() { unsafe { ... } }`
+3. **Access mutable statics**, `static mut X: i32`
+4. **Implement unsafe traits**, `unsafe impl Send for T {}`
 5. **Access union fields**. Unions require unsafe for field access
 
-`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees — it
+`unsafe` does not disable the borrow checker. It does not bypass Rust"s safety guarantees, it
 Allows you to do things that the compiler cannot prove are safe. You are responsible for maintaining
 All invariants manually.
 
@@ -33,7 +33,7 @@ All invariants manually.
 
 ### `*const T` and `*mut T`
 
-Raw pointers are like C pointers — they can be null, dangling, misaligned, or aliased. The compiler
+Raw pointers are like C pointers, they can be null, dangling, misaligned, or aliased. The compiler
 Does not check them:
 
 ```rust
@@ -52,7 +52,7 @@ unsafe {
 
 ### Creating Raw Pointers
 
-Raw pointers can be created in safe code — only dereferencing them requires `unsafe`:
+Raw pointers can be created in safe code, only dereferencing them requires `unsafe`:
 
 ```rust
 let x = 42;
@@ -72,7 +72,7 @@ let mut values = [1i32, 2, 3, 4, 5];
 let ptr: *mut i32 = values.as_mut_ptr();
 
 unsafe {
-    // Offset — returns pointer to ptr + count
+    // Offset, returns pointer to ptr + count
     let second = ptr.add(1);
     assert_eq!(*second, 2);
 
@@ -194,7 +194,7 @@ impl<T> Vec<T> {
 }
 ```
 
-The caller of `push` does not need `unsafe` — the safety invariant is maintained internally.
+The caller of `push` does not need `unsafe`the safety invariant is maintained internally.
 
 ## Unsafe Traits
 
@@ -248,7 +248,7 @@ extern "C" {
     fn abs(input: i32) -> i32;
     fn malloc(size: usize) -> *mut u8;
     fn free(ptr: *mut u8);
-    fn printf(format: *const i8, ...) -> i32;
+    fn printf(format: *const i8...) -> i32;
 }
 
 fn main() {
@@ -287,7 +287,7 @@ pub extern "C" fn rust_greet(name: *const i8) {
 use std::ffi::{CString, CStr};
 
 fn rust_to_c(s: &str) -> CString {
-    CString::new(s).expect("CString::new failed — contains null byte")
+    CString::new(s).expect("CString::new failed, contains null byte")
 }
 
 fn c_to_rust<'a>(s: &'a CStr) -> &'a str {
@@ -319,7 +319,7 @@ cbindgen --config cbindgen.toml --crate my_lib --output my_lib.h
 3. C does not have Move semantics. Rust values passed to C must be `Copy` or leaked
 4. C does not have destructors. Resources allocated by Rust and passed to C must be freed manually
    or through a callback
-5. The ABI must match — `"C"` is the most portable, but platform-specific ABIs exist
+5. The ABI must match, `"C"` is the most portable, but platform-specific ABIs exist
 
 ## Safety Invariants
 
@@ -364,7 +364,7 @@ impl<'a, T> BoundedSlice<'a, T> {
 }
 ```
 
-The caller never uses `unsafe` — the safe abstraction enforces bounds checking.
+The caller never uses `unsafe`the safe abstraction enforces bounds checking.
 
 ## Common Unsafe Patterns
 
@@ -560,7 +560,7 @@ Exercises edge cases that hand-written tests may miss.
 
 1. **FFI**. Calling C functions or exposing Rust functions to C
 2. **Performance-critical code**. After profiling shows a bottleneck
-3. **Implementing safe abstractions** — `Vec``String``Box` are all implemented with `unsafe`
+3. **Implementing safe abstractions**, `Vec``String``Box` are all implemented with `unsafe`
 4. **Interfacing with hardware**. Memory-mapped I/O, raw device access
 5. **Custom allocators**. Implementing `GlobalAlloc`
 
@@ -579,7 +579,7 @@ Exercises edge cases that hand-written tests may miss.
    `ptr.as_ref()` which returns `Option<&T>` and handles null safely.
 
 2. **Use-after-free through raw pointers.** A raw pointer may outlive the data it points to. The
-   compiler does not track this — you must ensure the pointer's lifetime does not exceed the data's
+   compiler does not track this, you must ensure the pointer's lifetime does not exceed the data's
    lifetime.
 
 3. **Aliasing violations.** Creating `&T` and `&mut T` to the same data is UB, even through raw
@@ -731,7 +731,7 @@ impl Drop for ManualBuffer {
 Should be avoided when alternatives exist:
 
 ```rust
-// Dangerous — use only when you understand the exact bit layout
+// Dangerous, use only when you understand the exact bit layout
 let a: u32 = 0x12345678;
 let bytes: [u8; 4] = unsafe { std::mem::transmute(a) };
 assert_eq!(bytes, [0x78, 0x56, 0x34, 0x12]);  // little-endian

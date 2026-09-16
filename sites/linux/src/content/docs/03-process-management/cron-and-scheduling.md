@@ -89,10 +89,10 @@ systemctl enable --now crond
 ```bash
 # Step values
 */15 * * * *      # every 15 minutes
-1-31/2 * * * *    # every other day of the month (1,3,5,...,31)
+1-31/2 * * * *    # every other day of the month (1,3,5...,31)
 
 # Range with step
-0 6-18/2 * * *   # every 2 hours from 6 AM to 6 PM (6,8,10,...,18)
+0 6-18/2 * * *   # every 2 hours from 6 AM to 6 PM (6,8,10...,18)
 
 # Day of week with day of month (both must match)
 0 0 15 * 1       # 15th of the month AND Monday (not common)
@@ -135,7 +135,7 @@ crontab -l 2>&1 | head -1
 ### Environment Variables in Crontab
 
 ```bash
-# Crontab environment is minimal — NOT the same as interactive shell
+# Crontab environment is minimal, NOT the same as interactive shell
 # These are the defaults set by cron:
 # SHELL=/bin/sh
 # PATH=/usr/bin:/bin
@@ -155,18 +155,18 @@ LANG=en_US.UTF-8
 ### PATH Issues
 
 ```bash
-# WRONG — command not found in cron's minimal PATH
+# WRONG, command not found in cron's minimal PATH
 * * * * * python3 /path/to/script.py
 # /bin/sh: python3: command not found
 
-# CORRECT — use full paths
+# CORRECT, use full paths
 * * * * * /usr/bin/python3 /path/to/script.py
 
-# CORRECT — set PATH in crontab
+# CORRECT, set PATH in crontab
 PATH=/usr/local/bin:/usr/bin:/bin
 * * * * * python3 /path/to/script.py
 
-# CORRECT — source environment in the script
+# CORRECT, source environment in the script
 * * * * * /bin/bash -c 'source ~/.bashrc && python3 /path/to/script.py'
 ```
 
@@ -188,8 +188,8 @@ MAILTO="admin@example.com,oncall@example.com"
 ## cron Permissions
 
 ```bash
-# /etc/cron.allow — if it exists, only listed users can use cron
-# /etc/cron.deny  — if it exists, listed users CANNOT use cron
+# /etc/cron.allow, if it exists, only listed users can use cron
+# /etc/cron.deny, if it exists, listed users CANNOT use cron
 #
 # Priority: cron.allow > cron.deny
 # If neither exists: only root can use cron (varies by distribution)
@@ -208,7 +208,7 @@ echo "nobody" | sudo tee -a /etc/cron.deny
 ### /etc/crontab
 
 ```ini
-# /etc/crontab — system-wide crontab
+# /etc/crontab, system-wide crontab
 # Format includes a username field (unlike user crontabs)
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
@@ -331,7 +331,7 @@ Persistent=true
 # (prevents thundering herd on many systems)
 RandomizedDelaySec=10m
 
-# Accuracy — timer may fire this much late (default 1 min)
+# Accuracy, timer may fire this much late (default 1 min)
 AccuracySec=1min
 
 [Install]
@@ -630,13 +630,13 @@ Timezone=America/New_York
 ### Pitfall: Percent Signs in cron Commands
 
 ```cron
-# WRONG — cron interprets % as newline
+# WRONG, cron interprets % as newline
 0 2 * * * /usr/bin/backup.sh --date $(date +%Y%m%d)
 
-# CORRECT — escape percent signs
+# CORRECT, escape percent signs
 0 2 * * * /usr/bin/backup.sh --date $(date +\%Y\%m\%d)
 
-# CORRECT — wrap in a script
+# CORRECT, wrap in a script
 0 2 * * * /usr/local/bin/backup-wrapper.sh
 ```
 
@@ -659,12 +659,12 @@ MAILTO=""
 ### Pitfall: cron.d Files Must Not Have Extensions
 
 ```bash
-# WRONG — files with extensions are ignored by run-parts
+# WRONG, files with extensions are ignored by run-parts
 /etc/cron.d/mybackup.sh
 /etc/cron.d/maintenance.cron
 /etc/cron.d/job~
 
-# CORRECT — no dots in filename (except .dpkg-old, .dpkg-dist, etc.)
+# CORRECT, no dots in filename (except .dpkg-old.dpkg-dist, etc.)
 /etc/cron.d/mybackup
 /etc/cron.d/maintenance
 ```
@@ -686,13 +686,13 @@ MAILTO=""
 ### Pitfall: cron Jobs Without Absolute Paths
 
 ```cron
-# WRONG — relative paths resolve to $HOME
+# WRONG, relative paths resolve to $HOME
 0 2 * * * cd project && ./backup.sh
 
-# CORRECT — use absolute paths
+# CORRECT, use absolute paths
 0 2 * * * cd /opt/project && /opt/project/backup.sh
 
-# CORRECT — or use full path in the script's shebang
+# CORRECT, or use full path in the script's shebang
 ```
 
 ### Pitfall: System Clock Changes Affect cron
@@ -721,7 +721,7 @@ flock -n 200 || {
     exit 1
 }
 
-# Critical section — only one instance at a time
+# Critical section, only one instance at a time
 echo "Starting job at $(date)"
 sleep 60
 echo "Job completed at $(date)"
@@ -797,13 +797,13 @@ fi
 ### Staggered Execution Across Servers
 
 ```cron
-# On server 1 — run at minute 0
+# On server 1, run at minute 0
 0 * * * * /usr/local/bin/health-check.sh
 
-# On server 2 — run at minute 10
+# On server 2, run at minute 10
 10 * * * * /usr/local/bin/health-check.sh
 
-# On server 3 — run at minute 20
+# On server 3, run at minute 20
 20 * * * * /usr/local/bin/health-check.sh
 
 # This prevents all servers from hitting the same resource simultaneously

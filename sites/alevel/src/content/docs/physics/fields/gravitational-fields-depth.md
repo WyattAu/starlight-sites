@@ -44,8 +44,8 @@ Consequence of flux conservation in three-dimensional space.
 ### Properties of the Gravitational Force
 
 - Always **attractive** (no negative mass exists).
-- Infinite range — the force extends to arbitrarily large distances, weakening as $1/r^2$.
-- Acts on all objects with mass — it is the universal force binding large-scale structures.
+- Infinite range, the force extends to arbitrarily large distances, weakening as $1/r^2$.
+- Acts on all objects with mass, it is the universal force binding large-scale structures.
 - Extremely weak compared to electromagnetism: $F_e/F_g \sim 10^{36}$ for elementary particles.
 
 The weakness of gravity means it is only dominant at macroscopic scales where the near-perfect
@@ -231,7 +231,7 @@ $E_k = \frac{1}{2}mv^2 = \frac{GMm}{2r}$. $E_p = -GMm/r$. Total: $E_k + E_p = -\
 Note: $E_k = \frac{1}{2}|E_p|$ and $E_{\mathrm{total}} = E_k$. This is the virial theorem for bound
 Gravitational systems: $2E_k + E_p = 0$. $\square$
 
-**Key insight.** The total energy is negative — the satellite is gravitationally bound. To move to a
+**Key insight.** The total energy is negative, the satellite is gravitationally bound. To move to a
 Higher orbit, energy must be added (the orbit becomes less negative). The kinetic energy _decreases_
 With increasing $r$ But the total energy _increases_ (potential energy increase dominates).
 
@@ -345,7 +345,7 @@ $$v = \sqrt{\frac{GM}{r}} = \frac{2\pi r}{T} = 3070\ \mathrm{m\,s}^{-1}$$
 3. **Prograde rotation:** The satellite must orbit west to east, matching Earth's rotation.
 
 :::caution
-circular. GPS satellites are Neither — they use medium Earth orbits at 20,200 km altitude with
+circular. GPS satellites are Neither, they use medium Earth orbits at 20,200 km altitude with
 12-hour periods.
 
 ### Applications

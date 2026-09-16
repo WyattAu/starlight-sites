@@ -132,7 +132,7 @@ $\blacksquare$
 
 ### 13.7 Optical Activity and Faraday Rotation
 
-Some materials exhibit **optical activity**: the plane of linear polarisation rotates as light propagates. This arises from circular birefringence — different refractive indices for left and right circularly polarised light.
+Some materials exhibit **optical activity**: the plane of linear polarisation rotates as light propagates. This arises from circular birefringence, different refractive indices for left and right circularly polarised light.
 
 The rotation angle is $\phi = \alpha L$ where $\alpha$ is the specific rotation and $L$ is the path length.
 

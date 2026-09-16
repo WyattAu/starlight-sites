@@ -152,7 +152,7 @@ Regular expressions over alphabet $\Sigma$:
 
 ```
 DFA_TO_RE(DFA):
-    rename states q1, q2, ..., qn
+    rename states q1, q2..., qn
     add new start state qs and new accept state qf
     for each pair (qi, qj), eliminate states one by one
     update transition labels using state elimination formula:
@@ -419,7 +419,7 @@ $$\text{Decidable} \subsetneq \text{RE} \subsetneq \text{All languages}$$
 
 **Any algorithmic procedure can be simulated by a Turing machine.**
 
-This is a **thesis** (not a theorem) — it cannot be proven because "algorithmic procedure" is an informal notion.
+This is a **thesis** (not a theorem), it cannot be proven because "algorithmic procedure" is an informal notion.
 
 ### 8.2 Implications
 

@@ -630,7 +630,7 @@ String bad = """
 
 **Why it matters:** Modern Java features make code more concise, safer, and easier to maintain. They represent the evolution of Java toward expressiveness.
 
-**The key insight:** Records automatically generate equals, hashCode, and toString — no more boilerplate for simple data classes.
+**The key insight:** Records automatically generate equals, hashCode, and toString, no more boilerplate for simple data classes.
 
 ## Common Pitfalls
 

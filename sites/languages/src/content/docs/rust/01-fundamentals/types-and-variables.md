@@ -32,7 +32,7 @@ Platform-dependent `isize` and `usize`:
 | `i128` / `u128`   | 16           | -170,141,183,460,469,231,731,687,303,715,884,105,728 to 170,141,183,460,469,231,731,687,303,715,884,105,727 | 0 to 340,282,366,920,938,463,463,374,607,431,768,211,455 |
 | `isize` / `usize` | 4 or 8       | Pointer-sized                                                                                               | Pointer-sized                                            |
 
-The default integer type is `i32`. This is not an arbitrary choice — on x86-64, `i32` operations are
+The default integer type is `i32`. This is not an arbitrary choice, on x86-64, `i32` operations are
 As fast as any smaller integer width, and using `i32` avoids the implicit sign-extension or
 Zero-extension overhead that `i8`/`u8` incur in many contexts.
 
@@ -66,7 +66,7 @@ let x: u8 = 255;
 let y = x.wrapping_add(1);      // 0 (wraps)
 let y = x.saturating_add(1);    // 255 (clamps at max)
 let y = x.checked_add(1);       // None
-let y = x.overflowing_add(1);   // (0, true) — value + overflow flag
+let y = x.overflowing_add(1);   // (0, true), value + overflow flag
 ```
 
 ### Sizing and Alignment
@@ -93,7 +93,7 @@ Rust has two floating-point types conforming to IEEE 754-2008:
 | `f32` | 4 bytes | ~6-7 decimal digits   | plus/minus 3.4e38   |
 | `f64` | 8 bytes | ~15-16 decimal digits | plus/minus 1.8e308  |
 
-The default is `f64`. On modern x86-64 hardware, `f64` operations are as fast as `f32` — there is no
+The default is `f64`. On modern x86-64 hardware, `f64` operations are as fast as `f32`there is no
 Performance penalty for using the larger type. Use `f32` only when you need to reduce memory
 Bandwidth (e.g., GPU shaders, large arrays of floats in ML workloads).
 
@@ -105,7 +105,7 @@ let y: f32 = 3.14;  // f32
 ### Floating-Point Gotchas
 
 ```rust
-assert!(0.1 + 0.2 != 0.3);  // true — IEEE 754 representation error
+assert!(0.1 + 0.2 != 0.3);  // true, IEEE 754 representation error
 assert!((0.1_f64 + 0.2_f64 - 0.3_f64).abs() < f64::EPSILON);
 ```
 
@@ -114,7 +114,7 @@ assert!((0.1_f64 + 0.2_f64 - 0.3_f64).abs() < f64::EPSILON);
 ```rust
 let nan = f64::NAN;
 assert!(nan != nan);           // true
-assert!(!nan.is_nan());        // false — use is_nan() for the check
+assert!(!nan.is_nan());        // false, use is_nan() for the check
 ```
 
 :::caution
@@ -166,11 +166,11 @@ Surrogates). Converting between them is explicit and fallible:
 
 ```rust
 let byte: u8 = 97;
-let c = byte as char;          // 'a' — always valid (u8 is a subset of Unicode)
+let c = byte as char;          // 'a', always valid (u8 is a subset of Unicode)
 assert_eq!(c, 'a');
 
 let c: char = '€';
-let byte = c as u8;            // truncates to lower 8 bits — 172 (0xAC)
+let byte = c as u8;            // truncates to lower 8 bits, 172 (0xAC)
 // This is almost certainly not what you want for encoding purposes.
 // Use .encode_utf8() instead:
 let mut buf = [0u8; 4];
@@ -216,7 +216,7 @@ let Point(x, y, z) = p;
 ```
 
 Tuple structs are named tuples. They are structurally similar to plain tuples but have a distinct
-Type, which is critical for type safety — a `Point(f64, f64)` and a `Vector(f64, f64)` are different
+Type, which is critical for type safety, a `Point(f64, f64)` and a `Vector(f64, f64)` are different
 Types even though they have the same layout.
 
 ## Arrays
@@ -225,7 +225,7 @@ Arrays are fixed-size, stack-allocated, homogeneous collections. The size is par
 
 ```rust
 let arr: [i32; 5] = [1, 2, 3, 4, 5];
-let zeros = [0u8; 1024];      // [expr; N] — repeat N times
+let zeros = [0u8; 1024];      // [expr; N], repeat N times
 let first = arr[0];            // 1
 let slice: &[i32] = &arr[1..3]; // [2, 3]
 ```
@@ -412,7 +412,7 @@ let combined = format!("{} {}", "hello", "world"); // "hello world"
 
 ### String Interning and `&'static str`
 
-String literals are `&'static str` — they live for the entire duration of the program. They are
+String literals are `&'static str`they live for the entire duration of the program. They are
 Embedded in the binary's read-only data section.
 
 ```rust
@@ -428,7 +428,7 @@ Rust's type inference is local and flow-insensitive. The compiler infers types f
 Single function body but does not perform interprocedural type inference. This is a deliberate
 Design choice with two concrete benefits. First, because each function body is type-checked
 independently, compilation scales linearly with the number of functions rather than
-Combinatorially — the compiler never needs to resolve types across function boundaries. Second,
+Combinatorially, the compiler never needs to resolve types across function boundaries. Second,
 error messages are localised to the function where the type mismatch occurs, so the compiler can
 Point to the exact line rather than tracing through an interprocedural call graph.
 
@@ -448,7 +448,7 @@ let z = 42_i32;        // underscore-separated suffix
 Type inference does not work across function boundaries:
 
 ```rust
-// This does NOT compile — the compiler cannot infer the type of `x`
+// This does NOT compile, the compiler cannot infer the type of `x`
 // because it has no usage context at the call site:
 fn make_vec() -> Vec<_> {  // ERROR: type annotations needed
     Vec::new()
@@ -479,23 +479,23 @@ let _ = expensive_call(); // call evaluated, result discarded
 ## Shadowing
 
 Rust allows you to declare a new variable with the same name as an existing one. The new variable
-Shadows the previous one. This is not mutation — the old variable still exists but is no longer
+Shadows the previous one. This is not mutation, the old variable still exists but is no longer
 Accessible by name.
 
 ```rust
 let x = 5;
 let x = x + 1;       // new binding, x is now 6
-let x = "hello";     // new binding, different type — x is now &str
+let x = "hello";     // new binding, different type, x is now &str
 ```
 
 Shadowing is distinct from `let mut`:
 
 ```rust
 let x = 5;
-let x = x + 1;       // shadowing — x is immutable, but we create a new binding
+let x = x + 1;       // shadowing, x is immutable, but we create a new binding
 
 let mut y = 5;
-y = y + 1;           // mutation — same binding, modified in place
+y = y + 1;           // mutation, same binding, modified in place
 ```
 
 Shadowing is useful for type transformations and for reusing a name after a value is no longer
@@ -566,7 +566,7 @@ const BUFFER: [u8; 3] = [0xAA, 0xBB, 0xCC];
 - Inlined at every use site (no address, no memory location)
 - Must be evaluatable at compile time (const context)
 - Can be of any type that supports const construction
-- No fixed memory address — each use may be a separate copy
+- No fixed memory address, each use may be a separate copy
 
 ### `static`
 
@@ -595,7 +595,7 @@ Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or 
 :::
 ## Type Aliases
 
-Type aliases create an alias for an existing type. They do not create a new type — the alias is
+Type aliases create an alias for an existing type. They do not create a new type, the alias is
 Interchangeable with the original.
 
 ```rust
@@ -603,7 +603,7 @@ type Kilometers = i32;
 type Thunk = Box<dyn Fn() -> i32>;
 
 let distance: Kilometers = 42;
-let x: i32 = distance;  // OK — Kilometers IS i32
+let x: i32 = distance;  // OK, Kilometers IS i32
 ```
 
 For creating a newtype (a distinct type with the same representation), use a tuple struct:
@@ -612,8 +612,8 @@ For creating a newtype (a distinct type with the same representation), use a tup
 struct Kilometers(i32);
 
 let distance = Kilometers(42);
-// let x: i32 = distance;  // ERROR — Kilometers is not i32
-let x: i32 = distance.0;   // OK — explicit field access
+// let x: i32 = distance;  // ERROR, Kilometers is not i32
+let x: i32 = distance.0;   // OK, explicit field access
 ```
 
 ## The Never Type `!`
@@ -639,9 +639,9 @@ let x: i32 = {
 
 Functions that return `!` are called "diverging functions." Common examples:
 
-- `panic!()` — terminates the program (in non-abort mode, unwinds the stack)
-- `std::process::exit()` — terminates the process immediately
-- Infinite loops (`loop { ... }`) — if the loop has no break
+- `panic!()`terminates the program (in non-abort mode, unwinds the stack)
+- `std::process::exit()`terminates the process immediately
+- Infinite loops (`loop { ... }`), if the loop has no break
 
 `!` is not yet a stable type in Rust's type system (it is a compiler-internal concept), but you can
 Use it in function return types. RFC 2361 tracks its stabilization.
@@ -667,7 +667,7 @@ Rust supports destructuring for tuples, arrays, structs, and enums:
 let (a, b, c) = (1, 2.0, "three");
 
 // Array destructuring
-let [first, second, ..] = [1, 2, 3, 4, 5];
+let [first, second..] = [1, 2, 3, 4, 5];
 
 // Struct destructuring
 struct Point { x: f64, y: f64 }
@@ -678,7 +678,7 @@ let Point { x, y } = p;
 let Point { x: a, y: b } = p;
 
 // Struct destructuring with ignore
-let Point { x, .. } = p;
+let Point { x.. } = p;
 
 // Enum destructuring
 enum Shape {
@@ -715,7 +715,7 @@ let Point { x, y } = p;       // moves x and y out of p
 let p = Point { x: 1, y: 2 };
 let Point { ref x, ref y } = p; // borrows x and y
 println!("{} {}", x, y);       // OK
-println!("{} {}", p.x, p.y);   // OK — p is not moved
+println!("{} {}", p.x, p.y);   // OK, p is not moved
 ```
 
 ## Numeric Conversions
@@ -749,7 +749,7 @@ Value (for signed). This behavior is documented in the reference but surprises p
 For fallible conversions that return `Result`:
 
 ```rust
-// TryFrom and TryInto are in the prelude since Rust 1.76 — no explicit use needed
+// TryFrom and TryInto are in the prelude since Rust 1.76, no explicit use needed
 use std::convert::TryFrom;
 use std::convert::TryInto;
 
@@ -773,7 +773,7 @@ unsafe {
 }
 ```
 
-Raw pointers can be null, misaligned, or dangling — the compiler does not check them. They are
+Raw pointers can be null, misaligned, or dangling, the compiler does not check them. They are
 Necessary for FFI and for implementing safe abstractions over unsafe memory operations.
 
 ## Visibility of Primitive Types
@@ -820,7 +820,7 @@ List): `Option``Result``Vec``String``Box``Drop``Clone``Copy``Deref``DerefMut`
 
 9. **`Vec` vs array misuse.** Arrays are stack-allocated with a compile-time known size. `Vec` is
    heap-allocated with a runtime-determined size. If the size is known at compile time and small,
-   prefer arrays — they avoid heap allocation and have better cache locality.
+   prefer arrays, they avoid heap allocation and have better cache locality.
 
 10. **Ignoring alignment.** On some platforms (notably ARM), misaligned access to multi-byte
     integers causes a hardware trap (SIGBUS). Even on x86-64, misaligned access can be significantly

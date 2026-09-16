@@ -44,7 +44,7 @@ Readiness for the next incident.
 ## Preparation
 
 Preparation is the most important phase. An unprepared team will waste critical time during an
-Incident figuring out roles, tools, and processes — while the attacker continues to operate.
+Incident figuring out roles, tools, and processes, while the attacker continues to operate.
 
 ### Incident Response Plan (IRP)
 
@@ -208,7 +208,7 @@ Rapidly.
 | VirusTotal     | Malware       | Free/Paid   | File and URL reputation lookup               |
 | Shodan         | Internet scan | Free/Paid   | Exposed services and vulnerability detection |
 
-Sharing IOCs must be done carefully. Sanitize internal information before sharing externally —
+Sharing IOCs must be done carefully. Sanitize internal information before sharing externally,
 Remove internal hostnames, usernames, and any information that could reveal your network topology or
 Security posture.
 
@@ -360,7 +360,7 @@ dc3dd if=/dev/sda of=/evidence/disk_image.dd hash=sha256 log=/evidence/imaging_l
 
 ### Chain of Custody
 
-Every piece of evidence must have a documented chain of custody — a record of who handled it, when,
+Every piece of evidence must have a documented chain of custody, a record of who handled it, when,
 And what was done.
 
 | Field            | Description                                                     |
@@ -477,7 +477,7 @@ Why was there no security training or review?
 → Because the organization does not have a security awareness program for developers.
 ```
 
-The root cause is not "the developer made a mistake" — it is "the organization lacks developer
+The root cause is not "the developer made a mistake", it is "the organization lacks developer
 Security training and secure code review."
 
 ### Metrics and KPIs
@@ -554,7 +554,7 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 # Sort and analyze
 # Look for files created/modified during the incident window
 # Look for files in unusual locations
-# Look for files with suspicious extensions (.php, .jsp, .exe in web directories)
+# Look for files with suspicious extensions (.php.jsp.exe in web directories)
 ```
 
 ## Common Incident Types
@@ -597,7 +597,7 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | ------------- | --------------------------------------------------------------------- |
 | Detection     | Identify the compromised dependency or update                         |
 | Containment   | Pin to last known-good version, revoke compromised artifacts          |
-| Assessment    | Determine blast radius — which systems used the compromised component |
+| Assessment    | Determine blast radius, which systems used the compromised component |
 | Investigation | Trace the supply chain path, identify the root compromise             |
 | Recovery      | Replace with verified, signed artifacts (SLSA)                        |
 
@@ -642,7 +642,7 @@ Costs. GDPR fines for late notification can reach 10 million EUR or 2% of global
 
 Operating without a documented, tested IRP means the first hours of any incident will be spent
 Figuring out who is responsible, what to do, and how to communicate. This is the most critical
-Window — the attacker is active, and you are disorganized. Write a plan, test it with tabletop
+Window, the attacker is active, and you are disorganized. Write a plan, test it with tabletop
 Exercises, and update it regularly.
 
 ### Pitfall 2: Destroying Evidence
@@ -681,7 +681,7 @@ With legal guidance.
 
 Not every incident is a catastrophic breach, but every incident is an opportunity to improve. A
 Phishing email that reached an inbox reveals a gap in email filtering. A successful brute-force
-Attempt on SSH reveals a need for key-based authentication. Small incidents are free lessons — treat
+Attempt on SSH reveals a need for key-based authentication. Small incidents are free lessons, treat
 Them as such.
 
 ### Pitfall 8: Not Preserving Volatile Evidence

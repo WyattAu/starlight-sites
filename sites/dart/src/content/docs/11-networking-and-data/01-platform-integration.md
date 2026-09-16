@@ -102,7 +102,7 @@ if (isApple) {
 ### Theme.of(context).platform
 
 `Theme.of(context).platform` returns the platform that the current theme is targeting. This can
-Differ from the actual platform — for example, an Android user might prefer iOS-style UI. The
+Differ from the actual platform, for example, an Android user might prefer iOS-style UI. The
 Theme's platform value respects the user's preference:
 
 ```dart
@@ -354,7 +354,7 @@ desktop) or when the plugin registration is missing.
 ## EventChannel
 
 `EventChannel` is designed for streaming data from native to Dart. While `MethodChannel` follows a
-Request-response model, `EventChannel` establishes a continuous stream of events — similar to a Dart
+Request-response model, `EventChannel` establishes a continuous stream of events, similar to a Dart
 `Stream`.
 
 ### Setup (Dart Side)
@@ -1162,7 +1162,7 @@ void main() {
 
 ### Integration Testing with Platform Views
 
-In integration tests that run on a real device or emulator, platform channels work normally — the
+In integration tests that run on a real device or emulator, platform channels work normally, the
 Test binary runs alongside the native code. No mocking is needed. However, you must handle the
 Asynchronous nature of platform calls:
 

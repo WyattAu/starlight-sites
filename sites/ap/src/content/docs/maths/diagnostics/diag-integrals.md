@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## Integrals — Diagnostic Tests
+## Integrals, Diagnostic Tests
 
 ## Unit Tests
 
@@ -383,9 +383,9 @@ linked above.
 
 Integral diagnostics test whether you can **set up integrals correctly** and distinguish between the two parts of the Fundamental Theorem of Calculus. The most common error is confusing FTC Part 1 (derivative of an integral) with Part 2 (evaluation of a definite integral).
 
-**FTC Part 1 vs Part 2:** Part 1 says $\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$ — the derivative of an accumulation function gives back the integrand. Part 2 says $\int_a^b f(x)\,dx = F(b) - F(a)$ — you evaluate the antiderivative at the bounds. These are different operations serving different purposes.
+**FTC Part 1 vs Part 2:** Part 1 says $\frac{d}{dx}\int_a^x f(t)\,dt = f(x)$, the derivative of an accumulation function gives back the integrand. Part 2 says $\int_a^b f(x)\,dx = F(b) - F(a)$, you evaluate the antiderivative at the bounds. These are different operations serving different purposes.
 
-**Riemann sum intuition:** A Riemann sum approximates area by dividing it into rectangles. Left endpoints, right endpoints, and midpoints give different approximations. The key insight is that the *error* in a Riemann sum is proportional to the width of the subintervals — halving the width roughly halves the error.
+**Riemann sum intuition:** A Riemann sum approximates area by dividing it into rectangles. Left endpoints, right endpoints, and midpoints give different approximations. The key insight is that the *error* in a Riemann sum is proportional to the width of the subintervals, halving the width roughly halves the error.
 
 ## Common Pitfalls
 

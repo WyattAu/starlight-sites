@@ -165,7 +165,7 @@ flowchart TD
 
 ## Intuition
 
-Number theory is the study of whole numbers and their hidden patterns. The integers behave like atoms for arithmetic: every integer greater than $1$ factors uniquely into primes, making primes the fundamental building blocks. The Euclidean algorithm is a simple but deep idea: repeated division produces the greatest common divisor, and the process terminates because remainders strictly decrease. Modular arithmetic wraps the integers into a finite circle — like a clock — where only remainders matter. Bezout's identity reveals that the gcd of two numbers is the smallest positive combination of them, connecting division to linear algebra over the integers.
+Number theory is the study of whole numbers and their hidden patterns. The integers behave like atoms for arithmetic: every integer greater than $1$ factors uniquely into primes, making primes the fundamental building blocks. The Euclidean algorithm is a simple but deep idea: repeated division produces the greatest common divisor, and the process terminates because remainders strictly decrease. Modular arithmetic wraps the integers into a finite circle, like a clock, where only remainders matter. Bezout's identity reveals that the gcd of two numbers is the smallest positive combination of them, connecting division to linear algebra over the integers.
 
 ## Cross-References
 

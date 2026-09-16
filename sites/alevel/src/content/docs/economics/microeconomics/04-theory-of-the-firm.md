@@ -181,10 +181,10 @@ $\pi = TR - TC = P \cdot Q - ATC \cdot Q = 0$. $\blacksquare$
 
 #### Efficiency Properties
 
-- **Allocative efficiency**: $P = MC$ — the price consumers pay equals the marginal cost of
+- **Allocative efficiency**: $P = MC$, the price consumers pay equals the marginal cost of
   production, so resources are allocated to produce the socially optimal quantity
-- **Productive efficiency**: $P = ATC_{min}$ — production occurs at minimum cost per unit
-- **Dynamic efficiency**: debatable — zero profit may reduce funds for R&D, but competitive pressure
+- **Productive efficiency**: $P = ATC_{min}$, production occurs at minimum cost per unit
+- **Dynamic efficiency**: debatable, zero profit may reduce funds for R&D, but competitive pressure
   may spur innovation
 
 ### 4.2 Monopoly
@@ -264,14 +264,14 @@ $9.50 \times 15 = 142.50$. Discrimination increases profit.
 - **Airlines**: Third-degree discrimination between business and leisure travellers. Business
   travellers have inelastic demand (flights are booked close to departure, often by employers).
   Leisure travellers book early and are price-sensitive. Airlines also use **yield management**
-  (second-degree) — the same seat may sell for GBP 50 or GBP 500 depending on when it is booked,
+  (second-degree), the same seat may sell for GBP 50 or GBP 500 depending on when it is booked,
   whether it is refundable, and whether baggage is included.
 - **Software and digital goods**: Near-zero marginal cost makes price discrimination extremely
   profitable. Microsoft offers Windows in Home, Pro, and Enterprise editions at very different
   prices, despite the marginal cost of an additional download being negligible. Student discounts
   exploit differences in PED.
 - **Uber surge pricing**: Second-degree discrimination based on real-time demand elasticity. When
-  demand spikes (rain, events), the algorithm raises prices — consumers with inelastic demand still
+  demand spikes (rain, events), the algorithm raises prices, consumers with inelastic demand still
   ride, while price-sensitive consumers wait or use alternatives.
 
 **Evaluation of price discrimination**: The welfare effects depend on the type. First-degree
@@ -280,11 +280,11 @@ Equals the competitive level). Third-degree discrimination _may_ increase total 
 Single-price monopoly, but it also redistributes surplus from consumers with inelastic demand to the
 Firm. A strong evaluation point: price discrimination can be **pro-competitive** if it enables a
 Firm to enter a market that would otherwise be unprofitable (e.g., cross-subsidy between market
-Segments). However, it raises equity concerns — poorer consumers ( more price-elastic) may Benefit
+Segments). However, it raises equity concerns, poorer consumers ( more price-elastic) may Benefit
 from lower prices, while less elastic groups face higher prices.
 
 :::note
-Always reduces consumer welfare — the key is to recognise that _some_ consumers (the elastic group)
+Always reduces consumer welfare, the key is to recognise that _some_ consumers (the elastic group)
 May face lower prices. CIE (9708) requires calculation of profit under single-price vs
 Discriminatory pricing. AQA Paper 2 frequently features questions on the ethics and fairness of
 Price discrimination. OCR (A) may ask about the conditions necessary for each type of price
@@ -304,20 +304,20 @@ $MC \lt AC$. Regulatory options: average cost pricing ($P = AC$), price cap regu
 Ownership.
 
 :::note
-regulation Can create **X-inefficiency** — the monopoly has no incentive to minimise costs if the
+regulation Can create **X-inefficiency**, the monopoly has no incentive to minimise costs if the
 regulator allows cost-plus pricing. CIE (9708) often asks students to compare **public ownership vs
 Regulation** using efficiency criteria. OCR (A) focuses on the principal-agent problem between
 Regulator and firm (information asymmetry).
 :::
 **Real-world example: UK water industry.** Thames Water and other regional water companies are
-Natural monopolies covering specific geographic areas — it would be deeply inefficient to run
+Natural monopolies covering specific geographic areas, it would be deeply inefficient to run
 Multiple pipe networks through the same streets. Ofwat regulates prices using the RPI-X formula
 (prices can rise by RPI inflation minus an efficiency factor X). However, the 2023-2024 crisis at
 Thames Water (debt of GBP 14 billion, sewage discharge failures) illustrates the limits of
 Regulatory oversight when firms are privately owned but provide essential public services.
 
 **Real-world example: Tech monopolies.** Google controls approximately 92% of the UK search engine
-Market, and Apple's App Store charges a 30% commission on digital sales — both cases where **network
+Market, and Apple's App Store charges a 30% commission on digital sales, both cases where **network
 Effects** create enormous barriers to entry. The European Commission's Digital Markets Act (2024)
 Designates such firms as "gatekeepers" and mandates interoperability with third-party app stores.
 This raises the evaluation point: does regulation of tech monopolies promote competition, or does it
@@ -340,7 +340,7 @@ It is efficient, or because it has successfully blocked competition?_
 
 #### Equilibrium
 
-**Short run**: like monopoly — the firm faces a downward-sloping demand curve, sets $MR = MC$ And May
+**Short run**: like monopoly, the firm faces a downward-sloping demand curve, sets $MR = MC$ And May
 earn supernormal profit.
 
 **Long run**: free entry eliminates supernormal profit, but $P > MC$ and $P > AC_{min}$.
@@ -348,14 +348,14 @@ earn supernormal profit.
 $$\pi = 0 \implies P = AC$$ $$MR = MC \implies P > MC \mathrm{ (since } MR < P\mathrm{)}$$
 
 **Excess capacity**: the firm produces at an output below the output that minimises AC. The gap
-Between actual output and the minimum efficient scale output is excess capacity — a measure of
+Between actual output and the minimum efficient scale output is excess capacity, a measure of
 Inefficiency.
 
 $$Q_{MC} < Q_{MES} \quad \mathrm{where } Q_{MES} \mathrm{ minimises AC}$$
 
 **Evaluation of monopolistic competition**: While the model predicts excess capacity and allocative
 Inefficiency ($P > MC$), it has important strengths that are often underemphasised in exam answers.
-Product differentiation generates **consumer choice and variety** — the value of having multiple
+Product differentiation generates **consumer choice and variety**, the value of having multiple
 Restaurants, coffee shops, or clothing brands may exceed the deadweight loss from pricing above
 Marginal cost. Additionally, the competitive pressure of free entry drives firms to innovate in
 Product quality and branding (dynamic efficiency). The advertising expenditure that characterises
@@ -386,7 +386,7 @@ Two firms (A and B) each choose whether to charge a high price or a low price.
 Dominant strategy: Low Price (regardless of B's choice, A is better off). Same for B. Nash
 Equilibrium: (Low, Low) with payoffs (5, 5).
 
-**Pareto optimal outcome**: (High, High) with payoffs (10, 10) — no other outcome makes both players
+**Pareto optimal outcome**: (High, High) with payoffs (10, 10), no other outcome makes both players
 Better off. But neither firm has an incentive to choose High Price unilaterally.
 
 **Proposition: The Nash equilibrium of the prisoner's dilemma is not Pareto optimal.**
@@ -395,7 +395,7 @@ _Proof._ At (Low, Low), if both firms switch to High Price, both are better off 
 Each firm individually cannot improve by deviating from Low Price (given the other plays Low).
 Therefore (Low, Low) is Nash but not Pareto optimal. $\blacksquare$
 
-**Implications**: individual rationality leads to collective suboptimality — explains why firms have
+**Implications**: individual rationality leads to collective suboptimality, explains why firms have
 Difficulty sustaining collusion without enforcement mechanisms.
 
 #### Repeated Games and the Tit-for-Tat Strategy
@@ -425,7 +425,7 @@ Is loss of market share to discounters.
 :::note
 Differs from a one-shot game in sustaining collusion. CIE (9708) may ask students to construct a
 Payoff matrix and identify dominant strategies. OCR (A) has recently included questions on whether
-The prisoner's dilemma applies to real-world oligopolies where firms can communicate — a key
+The prisoner's dilemma applies to real-world oligopolies where firms can communicate, a key
 Evaluation point.
 :::
 #### Kinked Demand Curve Model (Sweezy, 1939)
@@ -444,7 +444,7 @@ Through the gap in the MR curve.
 **Limitation**: the model explains price rigidity but not how the initial price is determined.
 
 **Evaluation of the kinked demand curve**: While empirically relevant (prices in oligopolistic
-Markets do tend to be sticky — e.g., the price of a pint of milk changed very little between 2015
+Markets do tend to be sticky, e.g., the price of a pint of milk changed very little between 2015
 And 2022 despite cost fluctuations), the model has been largely superseded by game-theoretic
 Approaches. A strong evaluation point for exams: the kinked demand curve assumes asymmetric
 Reactions (competitors follow price cuts but not price rises), but in reality firms may also follow
@@ -463,14 +463,14 @@ OPEC is a well-known example: member countries frequently exceed production quot
 Prices to fluctuate.
 
 **Real-world example: the UK energy market.** The "Big Six" energy suppliers (British Gas, EDF,
-E.ON, Npower, Scottish Power, SSE — now reduced through mergers to the "Big Five") operated as an
+E.ON, Npower, Scottish Power, SSE, now reduced through mergers to the "Big Five") operated as an
 Effective oligopoly in UK residential energy supply for decades. Despite apparent competition, price
-Changes were highly correlated — when one firm raised prices, others followed within weeks (tacit
+Changes were highly correlated, when one firm raised prices, others followed within weeks (tacit
 Collusion rather than explicit agreement). The entry of smaller challenger suppliers (Octopus
 Energy, Bulb before its collapse) increased contestability. However, the 2021-2022 energy crisis
-Exposed the vulnerability of smaller firms — 29 UK energy suppliers collapsed between September 2021
+Exposed the vulnerability of smaller firms, 29 UK energy suppliers collapsed between September 2021
 And November 2022 because they could not hedge against the wholesale gas price spike. This
-Illustrates a critical evaluation point: **barriers to entry in oligopoly are not always obvious** —
+Illustrates a critical evaluation point: **barriers to entry in oligopoly are not always obvious**,
 The need for working capital and hedging capacity acts as a significant barrier even where
 Regulation nominally encourages entry.
 
@@ -479,7 +479,7 @@ Independently arrive at similar pricing strategies without any formal agreement.
 Markets Authority (CMA) can prosecute explicit cartel agreements under the Competition Act 1998
 (fines of up to 10% of global turnover) and the Enterprise Act 2002 (criminal penalties including
 Imprisonment for individuals). However, the effectiveness of competition policy depends on the
-Regulator's resources and information — asymmetric information between the CMA and firms is a
+Regulator's resources and information, asymmetric information between the CMA and firms is a
 Persistent problem.
 
 #### Contestable Markets
@@ -501,7 +501,7 @@ Economic profit), because any supernormal profit would attract entry.
 - Access to the same technology as the incumbent
 
 **Evaluation of contestable market theory**: The theory provides a powerful critique of the
-Traditional structure-conduct-performance paradigm — it suggests that market _conduct_ (and threat
+Traditional structure-conduct-performance paradigm, it suggests that market _conduct_ (and threat
 Of entry) matters more than the number of firms. However, the assumption of zero sunk costs is
 Extremely restrictive. In practice, most industries involve significant sunk costs: a new airline
 Needs aircraft, airport slots, and brand recognition; a new energy supplier needs regulatory
@@ -511,12 +511,12 @@ Uber's platform model dramatically increased contestability by reducing sunk cos
 **online retail**.
 
 **Example**: The UK bus market after deregulation (1985 Transport Act) was intended to be highly
-Contestable — new operators could enter any route. In practice, the incumbent operator often had
+Contestable, new operators could enter any route. In practice, the incumbent operator often had
 Advantages (depots, driver knowledge, existing contracts), and many routes remained de facto
 Monopolies. This illustrates the gap between theoretical contestability and real-world outcomes.
 
 :::note
-Contestable and competitive markets — the key distinction is that a contestable market may have only
+Contestable and competitive markets, the key distinction is that a contestable market may have only
 One firm but behaves as if competitive due to the threat of entry. AQA Paper 1 has included 25-mark
 Questions on the extent to which UK supermarket markets are contestable. OCR (A) requires
 Understanding of sunk costs as the key barrier to contestability.
@@ -555,9 +555,9 @@ Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
 ### Limitations
 
 - Real-world markets rarely fit neatly into one category
-- The theory focuses on static efficiency — dynamic efficiency (innovation, R&D) may be higher under
+- The theory focuses on static efficiency, dynamic efficiency (innovation, R&D) may be higher under
   monopoly (Schumpeterian hypothesis)
-- Contestable market theory challenges the structural approach — _behaviour_ matters more than
+- Contestable market theory challenges the structural approach, _behaviour_ matters more than
   _structure_
 - Transaction cost economics (Coase, Williamson) suggests firm boundaries are determined by the
   relative costs of market transactions vs internal organisation
@@ -579,7 +579,7 @@ Innovate because:
 
 - Competitive markets may innovate more because firms _must_ innovate to survive (the "innovation
   stimulus" of competition)
-- Monopolists may become complacent — X-inefficiency (Leibenstein, 1966) arises when firms lack
+- Monopolists may become complacent, X-inefficiency (Leibenstein, 1966) arises when firms lack
   competitive pressure to minimise costs
 - Empirical evidence is mixed: small startups are responsible for many disruptive innovations (e.g.,
   Dyson, Deliveroo), but large firms dominate R&D spending (Amazon invested USD 73 billion in R&D
@@ -602,12 +602,12 @@ Traditional theory of the firm assumes profit maximisation. Behavioural economic
   monitor managers (agents). Managers may pursue their own objectives (empire-building, higher
   salaries) rather than maximising shareholder profit. This is a form of market failure within the
   firm itself.
-- **Loss aversion**: firms may react asymmetrically to price changes — cutting prices reluctantly
+- **Loss aversion**: firms may react asymmetrically to price changes, cutting prices reluctantly
   but matching competitors' cuts quickly (consistent with the kinked demand curve, but explained by
   psychology rather than game theory).
 
 :::note
-Debate whether firms really maximise profit — behavioural objections are high-scoring evaluation
+Debate whether firms really maximise profit, behavioural objections are high-scoring evaluation
 Points. CIE (9708) does not formally require behavioural economics but rewards students who mention
 Satisficing as an alternative objective. Edexcel includes the principal-agent problem in its
 Specification for market failure topics.
@@ -704,7 +704,7 @@ All its assumptions." Discuss this criticism.
 
 <details>
 <summary>Hint</summary>
-For: perfect competition is an idealised model — no market has infinitely many firms, perfect information, or zero transaction costs. Against: the model provides a benchmark for efficiency, helps identify sources of market failure, and many markets approximate perfect competition (agricultural commodities, foreign exchange). The value of a model is not realism of assumptions but predictive power and explanatory insight (Friedman's methodology).
+For: perfect competition is an idealised model, no market has infinitely many firms, perfect information, or zero transaction costs. Against: the model provides a benchmark for efficiency, helps identify sources of market failure, and many markets approximate perfect competition (agricultural commodities, foreign exchange). The value of a model is not realism of assumptions but predictive power and explanatory insight (Friedman's methodology).
 </details>
 
 **Problem 11.** A firm in monopolistic competition spends £50,000 on advertising. This shifts demand
@@ -731,7 +731,7 @@ Might regulators be concerned about this business model?
 
 <details>
 <summary>Hint</summary>
-This is an example of third-degree price discrimination combined with **network effects**. Users have highly elastic demand (many free alternatives), so the platform charges them nothing to maximise the user base. Developers have inelastic demand (they need access to the platform's users), so the platform extracts surplus via commissions. The cross-subsidy means users are subsidised by developers. Regulators (e.g., the European Commission under the Digital Markets Act) are concerned because: (a) the 30% commission may be excessive (monopoly pricing), (b) developers cannot pass the full cost to consumers, (c) the platform's control over app distribution creates barriers to entry for competing platforms. Evaluation: the commission also funds platform security, app review, and infrastructure — it is not pure surplus extraction.
+This is an example of third-degree price discrimination combined with **network effects**. Users have highly elastic demand (many free alternatives), so the platform charges them nothing to maximise the user base. Developers have inelastic demand (they need access to the platform's users), so the platform extracts surplus via commissions. The cross-subsidy means users are subsidised by developers. Regulators (e.g., the European Commission under the Digital Markets Act) are concerned because: (a) the 30% commission may be excessive (monopoly pricing), (b) developers cannot pass the full cost to consumers, (c) the platform's control over app distribution creates barriers to entry for competing platforms. Evaluation: the commission also funds platform security, app review, and infrastructure, it is not pure surplus extraction.
 </details>
 
 **Problem 14.** Two firms in a duopoly can choose to invest in R&D or not. The payoffs (profit in
@@ -745,7 +745,7 @@ Differ in a repeated game.
 
 <details>
 <summary>Hint</summary>
-Nash equilibrium: (Invest, Invest) — this is the **only** Nash equilibrium. If A invests, B's best response is to invest (8 > 2). If B invests, A's best response is to invest (8 > 2). (No R&D, No R&D) is NOT a Nash equilibrium because either firm can deviate to Invest and earn 15. This is an inverted prisoner's dilemma — cooperation (both investing) is also the dominant strategy, unlike the pricing prisoner's dilemma where defection is dominant. In a repeated game, the outcome is even more likely to be (Invest, Invest) because firms that fail to invest will lose market share permanently. Evaluation: in practice, firms may underinvest in R&D if they cannot appropriate the full returns (knowledge spillovers), which is a justification for government R&D subsidies.
+Nash equilibrium: (Invest, Invest), this is the **only** Nash equilibrium. If A invests, B's best response is to invest (8 > 2). If B invests, A's best response is to invest (8 > 2). (No R&D, No R&D) is NOT a Nash equilibrium because either firm can deviate to Invest and earn 15. This is an inverted prisoner's dilemma, cooperation (both investing) is also the dominant strategy, unlike the pricing prisoner's dilemma where defection is dominant. In a repeated game, the outcome is even more likely to be (Invest, Invest) because firms that fail to invest will lose market share permanently. Evaluation: in practice, firms may underinvest in R&D if they cannot appropriate the full returns (knowledge spillovers), which is a justification for government R&D subsidies.
 </details>
 
 **Problem 15.** The UK supermarket industry has seen significant merger activity. The CMA blocked

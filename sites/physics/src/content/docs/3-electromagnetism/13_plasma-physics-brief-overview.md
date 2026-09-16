@@ -71,7 +71,7 @@ $\blacksquare$
   flux through the surface equals the enclosed charge divided by $\varepsilon_0$.
 - **Wrong Maxwell equation sign.** Faraday's law has a negative sign:
   $\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$. **Fix:** The minus sign reflects
-  Lenz's law — the induced EMF opposes the change in flux.
+  Lenz's law, the induced EMF opposes the change in flux.
 - **Confusing $\vec{D}$ and $\vec{E}$, $\vec{H}$ and $\vec{B}$.**
   $\vec{D} = \varepsilon_0\vec{E} + \vec{P}$; $\vec{H} = \vec{B}/\mu_0 - \vec{M}$. **Fix:** In
   vacuum: $\vec{D} = \varepsilon_0\vec{E}$, $\vec{H} = \vec{B}/\mu_0$.
@@ -125,7 +125,7 @@ A plasma is not directly an ionised gas; it is a gas where charged particles int
 ### 13.4 Common Pitfalls
 
 - **Confusing Debye shielding with perfect neutrality.** A plasma is quasineutral ($n_i \approx n_e$) on scales large compared to $\lambda_D$, but charge separation exists on Debye-length scales. **Fix:** Use $\lambda_D$ as the scale below which individual charges matter.
-- **Assuming all EM waves propagate in a plasma.** Waves with $\omega < \omega_p$ are evanescent — they decay exponentially. **Fix:** The cut-off condition is $\omega > \omega_p$ for propagation; below $\omega_p$ the refractive index becomes imaginary.
+- **Assuming all EM waves propagate in a plasma.** Waves with $\omega < \omega_p$ are evanescent, they decay exponentially. **Fix:** The cut-off condition is $\omega > \omega_p$ for propagation; below $\omega_p$ the refractive index becomes imaginary.
 - **Forgetting ion motion in low-frequency waves.** The ion-acoustic wave requires mobile ions; at frequencies above $\omega_{pi}$ (ion plasma frequency), ions cannot respond. **Fix:** Check whether $\omega \ll \omega_{pi}$ before using the ion-acoustic dispersion.
 - **Treating Coulomb collisions as rare.** While high-temperature plasmas are often collisionless, the collision frequency scales as $T^{-3/2}$; cold, dense plasmas can be collisional. **Fix:** Compare the mean free path to system size using $\nu_{ei} \propto n_e T_e^{-3/2}$.
 

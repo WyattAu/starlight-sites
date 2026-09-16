@@ -16,17 +16,17 @@ analysis. Select an option to check your answer and view the explanation.
 
 ## Intuition
 
-**Specialised containers for different jobs:** Data structures are like different containers in a kitchen — a hash table is a labelled drawer (instant lookup), a tree is a filing cabinet with folders (sorted access), and a heap is a priority inbox (always get the most important item first).
+**Specialised containers for different jobs:** Data structures are like different containers in a kitchen, a hash table is a labelled drawer (instant lookup), a tree is a filing cabinet with folders (sorted access), and a heap is a priority inbox (always get the most important item first).
 
 **Why it matters:** The right data structure makes algorithms fast. Using an array where you need a hash table can turn O(1) lookups into O(n) scans. Understanding data structures is the difference between elegant code and sluggish code.
 
-**The key insight:** Every data structure is a trade-off — hash tables give O(1) lookup but poor ordering, trees give O(log n) lookup and ordering, and tries give O(m) prefix search but use more memory. Choose based on what operations you need most.
+**The key insight:** Every data structure is a trade-off, hash tables give O(1) lookup but poor ordering, trees give O(log n) lookup and ordering, and tries give O(m) prefix search but use more memory. Choose based on what operations you need most.
 
 ---
 
 ## Worked Examples
 
-### Example 1: Hash Table — Collision Resolution
+### Example 1: Hash Table, Collision Resolution
 
 **Problem:** Insert keys $\{10, 22, 31, 4, 15, 28, 17, 88\}$ into a hash table of size 11 using (a) chaining and (b) open addressing with linear probing. Use $h(k) = k \mod 11$.
 
@@ -71,11 +71,11 @@ Let me recalculate:
 | 9 | 31 | 1 |
 | 10 | 10 | 1 |
 
-**Key insight:** Linear probing causes primary clustering — consecutive occupied slots form runs. Double hashing eliminates this by using a second hash function for the probe step size.
+**Key insight:** Linear probing causes primary clustering, consecutive occupied slots form runs. Double hashing eliminates this by using a second hash function for the probe step size.
 
 ---
 
-### Example 2: Binary Heap — Insert and Extract-Min
+### Example 2: Binary Heap, Insert and Extract-Min
 
 **Problem:** Build a min-heap from array $[15, 13, 12, 11, 9, 8, 7, 6, 5, 4]$ and extract the minimum three times.
 
@@ -119,13 +119,13 @@ After extracting 6:
   11  13  12  15
 ```
 
-**Extracted sequence:** 4, 5, 6 (sorted order — heap sort property)
+**Extracted sequence:** 4, 5, 6 (sorted order, heap sort property)
 
 **Time complexity:** Each extract-min is $O(\log n)$. Building heap: $O(n)$. Total for $k$ extracts: $O(n + k \log n)$.
 
 ---
 
-### Example 3: Trie — Prefix Search
+### Example 3: Trie, Prefix Search
 
 **Problem:** Build a trie for words $\{$"cat", "car", "card", "dog", "dot"$\}$ and find all words with prefix "ca".
 

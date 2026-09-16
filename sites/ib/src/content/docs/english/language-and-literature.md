@@ -74,7 +74,7 @@ flowchart TD
 
 ## Intuition
 
-**Language and literature are like two sides of the same coin — one studies how language works, the other studies what language creates:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication
+**Language and literature are like two sides of the same coin, one studies how language works, the other studies what language creates:** Understanding how language shapes meaning is essential for analyzing texts and crafting effective communication
 
 **Why it matters:** Language and literature studies develop critical thinking about media, rhetoric, and cultural communication
 
@@ -362,4 +362,4 @@ If you answered "no" to any of these questions, refer to the relevant section ab
 
 - [English](./)
 - [A Streetcar Named Desire](./a-street-car-named-desire)
-- [Chronicle of a Death Foretold — Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)

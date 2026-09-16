@@ -1,7 +1,7 @@
 ---
 
 title: "Supply and Demand"
-description: "IB Economics — scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi."
+description: "IB Economics, scarcity, PPF, supply and demand, consumer choice. Aligned with the IB Economics HL/SL syllabus for Paper 1 and Paper 2 examinations. Aligned wi."
 date: 2026-05-21
 tags: [ib, ib-economics]
 categories: [ib-economics]
@@ -18,7 +18,7 @@ categories: [ib-economics]
 
 ## Intuition
 
-**Supply and demand is like a negotiation between buyers and sellers — the market price is where they reach agreement:** The equilibrium price emerges from the interaction of consumer willingness to pay and producer costs
+**Supply and demand is like a negotiation between buyers and sellers, the market price is where they reach agreement:** The equilibrium price emerges from the interaction of consumer willingness to pay and producer costs
 
 **Why it matters:** Supply and demand is the foundational model for understanding how markets allocate resources
 

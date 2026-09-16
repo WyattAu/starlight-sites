@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-A process is a **program in action** — it's the abstract entity that the OS manages, containing not just code but all the state needed to execute: memory, open files, registers, and more. The OS creates the illusion that each process has the entire computer to itself through virtual memory and time-sliced CPU access.
+A process is a **program in action**, it's the abstract entity that the OS manages, containing not just code but all the state needed to execute: memory, open files, registers, and more. The OS creates the illusion that each process has the entire computer to itself through virtual memory and time-sliced CPU access.
 
-**Scheduling intuition:** The scheduler decides which process runs next. Round-robin gives each process a time slice. Priority scheduling favours important processes. The goal is to maximise throughput (jobs completed per unit time) while minimising response time (how long users wait). Context switching is expensive — saving and restoring all registers and TLB entries — so the scheduler must balance responsiveness against overhead.
+**Scheduling intuition:** The scheduler decides which process runs next. Round-robin gives each process a time slice. Priority scheduling favours important processes. The goal is to maximise throughput (jobs completed per unit time) while minimising response time (how long users wait). Context switching is expensive, saving and restoring all registers and TLB entries, so the scheduler must balance responsiveness against overhead.
 
-**Process states intuition:** A process transitions between states: new (being created), ready (waiting for CPU), running (executing), waiting (blocked on I/O), and terminated. The key insight is that processes spend most of their time waiting for I/O, not running. This is why multiprogramming works — while one process waits, another runs.
+**Process states intuition:** A process transitions between states: new (being created), ready (waiting for CPU), running (executing), waiting (blocked on I/O), and terminated. The key insight is that processes spend most of their time waiting for I/O, not running. This is why multiprogramming works, while one process waits, another runs.
 
 ### 2.1 Process Concept
 
@@ -132,7 +132,7 @@ $A$ has a longer burst than $B$ but is scheduled first. Swapping $A$ and $B$ red
 Time of $B$ by the burst time of $A$ and increases the waiting time of $A$ by the burst time of $B$.
 Since $B$"s burst is shorter, the net change reduces the average. $\blacksquare$
 
-**Worked Example 2.1 — FCFS vs SJF Comparison**
+**Worked Example 2.1, FCFS vs SJF Comparison**
 
 Consider three processes, all arriving at time $t = 0$:
 
@@ -173,7 +173,7 @@ _SJF Gantt chart:_
 SJF reduces average waiting time from 17 to 3, illustrating the **convoy effect** in FCFS.
 
 <details>
-<summary>Solution — Round Robin with $q = 4$</summary>
+<summary>Solution, Round Robin with $q = 4$</summary>
 
 Using the same three processes with quantum $q = 4$:
 
@@ -359,7 +359,7 @@ Named pipes (`mkfifo`) allow unrelated processes to communicate.
 
 2. **Confusing zombie processes with orphan processes.** A zombie process has finished executing but its entry remains in the process table because the parent has not called `wait()`. An orphan process is still running but its parent has exited. Zombies are cleaned up by `wait()`; orphans are adopted by `init`.
 
-3. **Using `SIGKILL` as a first resort.** `SIGKILL` cannot be caught or handled — the process has no chance to clean up resources, flush buffers, or release locks. Always try `SIGTERM` first, which allows the process to shut down gracefully, and only escalate to `SIGKILL` if it does not respond.
+3. **Using `SIGKILL` as a first resort.** `SIGKILL` cannot be caught or handled, the process has no chance to clean up resources, flush buffers, or release locks. Always try `SIGTERM` first, which allows the process to shut down gracefully, and only escalate to `SIGKILL` if it does not respond.
 
 4. **Ignoring race conditions in shared memory IPC.** Shared memory provides no built-in synchronisation. Without explicit locks (mutexes, semaphores), concurrent reads and writes to the same region cause data races and undefined behaviour. Message passing is safer when synchronisation is difficult to implement correctly.
 

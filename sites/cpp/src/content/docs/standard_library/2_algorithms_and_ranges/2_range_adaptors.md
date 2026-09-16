@@ -96,7 +96,7 @@ Processing until iteration begins. QED.
 int main() {
     std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    // This creates a LAZY pipeline — no computation yet [N4950 §26.5.2]
+    // This creates a LAZY pipeline, no computation yet [N4950 §26.5.2]
     auto pipeline = numbers
         | std::views::filter([](int x) { return x % 2 == 0; })   // {2,4,6,8,10}
         | std::views::transform([](int x) { return x * x; })     // {4,16,36,64,100}

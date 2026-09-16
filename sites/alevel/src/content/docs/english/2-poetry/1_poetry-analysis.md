@@ -87,15 +87,15 @@ or extra syllable creates a disturbance that often mirrors the poem's thematic c
 Imagery is the use of language to create sensory experience. In poetry, images are the primary
 vehicle for meaning.
 
-- **Visual imagery** — Creates pictures in the reader's mind ("the fog comes on little cat feet")
-- **Auditory imagery** — Represents sound ("the silken, sad, uncertain rustling of each purple
+- **Visual imagery**, Creates pictures in the reader's mind ("the fog comes on little cat feet")
+- **Auditory imagery**, Represents sound ("the silken, sad, uncertain rustling of each purple
   curtain")
-- **Tactile imagery** — Evokes touch or physical sensation ("rough as a file")
-- **Olfactory imagery** — Evokes smell ("the stench of the battlefield")
-- **Gustatory imagery** — Evokes taste ("the bitter aftertaste of regret")
-- **Kinaesthetic imagery** — Evokes movement ("the river serpentines through the valley")
-- **Extended metaphor** — A metaphor sustained across multiple lines or an entire poem
-- **Conceit** — An elaborate, surprising metaphor connecting unlike things (common in metaphysical
+- **Tactile imagery**, Evokes touch or physical sensation ("rough as a file")
+- **Olfactory imagery**, Evokes smell ("the stench of the battlefield")
+- **Gustatory imagery**, Evokes taste ("the bitter aftertaste of regret")
+- **Kinaesthetic imagery**, Evokes movement ("the river serpentines through the valley")
+- **Extended metaphor**, A metaphor sustained across multiple lines or an entire poem
+- **Conceit**, An elaborate, surprising metaphor connecting unlike things (common in metaphysical
   poetry)
 
 ### Sound Devices
@@ -113,12 +113,12 @@ vehicle for meaning.
 
 ### Tone and Voice
 
-- **Tone** — The speaker's attitude towards the subject. Can be ironic, reverent, bitter, tender,
+- **Tone**, The speaker's attitude towards the subject. Can be ironic, reverent, bitter, tender,
   detached, urgent, nostalgic, or any combination
-- **Voice** — The persona adopted by the poet. May be the poet themselves, a character, or an
+- **Voice**, The persona adopted by the poet. May be the poet themselves, a character, or an
   abstract consciousness
-- **Dramatic monologue** — The speaker addresses a silent listener, revealing more than they intend
-- **Persona** — A character created by the poet, distinct from the poet's own identity
+- **Dramatic monologue**, The speaker addresses a silent listener, revealing more than they intend
+- **Persona**, A character created by the poet, distinct from the poet's own identity
 
 ## Analytical Frameworks
 
@@ -242,13 +242,13 @@ though the speaker is trapped in a perpetual present from which the lover is abs
 
 ## Worked Examples
 
-### Example 1: Sonnet 18 ("Shall I compare thee to a summer's day?") — William Shakespeare
+### Example 1: Sonnet 18 ("Shall I compare thee to a summer's day?"), William Shakespeare
 
 **Analysis:**
 
 Shakespeare's Sonnet 18 begins with a question that immediately establishes the poem's central
 conceit: the comparison of the beloved to a summer's day. The iambic pentameter creates a steady,
-confident rhythm, but the question mark at the end of line one introduces doubt — the comparison
+confident rhythm, but the question mark at the end of line one introduces doubt, the comparison
 will not be straightforward.
 
 By line four, the poem has rejected the comparison: summer is "too short," "too rough," and its
@@ -262,7 +262,7 @@ eternal lines). This trajectory mirrors the poem's argument: physical beauty dec
 word endures. The rhyme scheme (ABAB CDCD EFEF GG) creates a sense of order and inevitability,
 culminating in the rhyming couplet that functions as a seal on the argument.
 
-### Example 2: "Ozymandias" — Percy Bysshe Shelley
+### Example 2: "Ozymandias", Percy Bysshe Shelley
 
 **Analysis:**
 
@@ -275,7 +275,7 @@ The poem uses a nested narrative structure: the speaker reports the words of a t
 describes a ruined statue. This distancing effect means the reader experiences Ozymandias's downfall
 through multiple layers of mediation, emphasising how thoroughly the king has been forgotten. The
 statue's inscription ("Look on my works, ye Mighty, and despair") is deeply ironic: the "works" are
-a "colossal wreck" surrounded by "lone and level sands." The adjective "level" is significant — the
+a "colossal wreck" surrounded by "lone and level sands." The adjective "level" is significant, the
 desert has erased all evidence of Ozymandias's power, reducing everything to a flat, featureless
 expanse.
 
@@ -288,7 +288,7 @@ hubris.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid
@@ -306,7 +306,7 @@ flowchart TD
 - Poetry analysis requires simultaneous attention to form, language, imagery, and sound
 - Identify the poem's form early: sonnet, villanelle, free verse, etc.
 - Use SMILE (Structure, Meaning, Imagery, Language, Effect) to organise your analysis
-- Always link techniques to meaning and effect — never list features in isolation
+- Always link techniques to meaning and effect, never list features in isolation
 - For anthology study, group poems by theme and practise comparative plans
 - Learn to spot the volta: the turn that reveals the poem's true argument
 - Practise close reading on unseen poems to develop analytical speed and confidence

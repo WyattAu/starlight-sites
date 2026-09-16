@@ -20,15 +20,15 @@ integration. Press Space to flip, rate 1-4.
 
 ## Intuition
 
-TypeScript adds a compile-time type layer on top of JavaScript — the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type disables type checking entirely — it's an escape hatch, not a feature.
+TypeScript adds a compile-time type layer on top of JavaScript, the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type disables type checking entirely, it's an escape hatch, not a feature.
 
 ## Common Pitfalls
 
-- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string") — type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
-- **Enum gotchas**: Numeric enums allow reverse mapping and can be assigned any number without a compile error — prefer string enums or union types for safety.
-- **Generic constraints**: Forgetting to constrain generic types — `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
-- **Structural typing surprises**: TypeScript uses structural typing, not nominal — two unrelated types with the same shape are compatible. This can mask design errors.
-- **Type erasure at runtime**: TypeScript types are erased during compilation — `instanceof T` does not work for generic type parameters at runtime. Use type guards or runtime validation libraries.
+- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string"), type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
+- **Enum gotchas**: Numeric enums allow reverse mapping and can be assigned any number without a compile error, prefer string enums or union types for safety.
+- **Generic constraints**: Forgetting to constrain generic types, `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
+- **Structural typing surprises**: TypeScript uses structural typing, not nominal, two unrelated types with the same shape are compatible. This can mask design errors.
+- **Type erasure at runtime**: TypeScript types are erased during compilation, `instanceof T` does not work for generic type parameters at runtime. Use type guards or runtime validation libraries.
 
 ## Study Tips
 

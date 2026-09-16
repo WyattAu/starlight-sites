@@ -2,7 +2,7 @@
 
 date: 2026-07-24T02:00:35+01:00
 title: "Async Practice"
-description: "Rust's async/await enables efficient asynchronous programming: Futures in Rust are zero-cost abstractions — they compile to state machines with no heap"
+description: "Rust's async/await enables efficient asynchronous programming: Futures in Rust are zero-cost abstractions, they compile to state machines with no heap"
 sidebar_position: 51
 ---
 
@@ -248,11 +248,11 @@ async fn combined_operation() -> Result<(String, i32), AppError> \{
 
 ## Intuition
 
-**Rust's async/await enables efficient asynchronous programming:** Futures in Rust are zero-cost abstractions — they compile to state machines with no heap allocation. This provides the ergonomics of async/await with the performance of manual state machines.
+**Rust's async/await enables efficient asynchronous programming:** Futures in Rust are zero-cost abstractions, they compile to state machines with no heap allocation. This provides the ergonomics of async/await with the performance of manual state machines.
 
 **Why it matters:** Async Rust enables high-performance networking, web servers, and I/O-bound applications without the overhead of threads.
 
-**The key insight:** Rust's async model is lazy — a future does nothing until polled. This means you need a runtime (tokio, async-std) to drive future execution.
+**The key insight:** Rust's async model is lazy, a future does nothing until polled. This means you need a runtime (tokio, async-std) to drive future execution.
 
 ## Common Mistakes
 

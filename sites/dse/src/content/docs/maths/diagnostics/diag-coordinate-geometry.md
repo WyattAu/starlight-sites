@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Coordinate Geometry — Diagnostic Tests
+## Coordinate Geometry, Diagnostic Tests
 
 ## Unit Tests
 
@@ -573,11 +573,11 @@ flowchart TD
 
 ## Intuition
 
-**A map and a compass:** Coordinate geometry is like plotting locations on a map — every point has an address (x, y), and lines are roads connecting them. The distance formula is how far you'd walk, and slopes tell you how steep the roads are.
+**A map and a compass:** Coordinate geometry is like plotting locations on a map, every point has an address (x, y), and lines are roads connecting them. The distance formula is how far you'd walk, and slopes tell you how steep the roads are.
 
-**Why it matters:** Circle equations and tangent lines appear everywhere — from satellite orbits to designing wheels. Understanding how shapes behave on a coordinate plane lets you model real-world motion and design precisely.
+**Why it matters:** Circle equations and tangent lines appear everywhere, from satellite orbits to designing wheels. Understanding how shapes behave on a coordinate plane lets you model real-world motion and design precisely.
 
-**The key insight:** Every geometric property (perpendicular, tangent, intersection) translates into an algebraic equation — geometry becomes algebra you can solve.
+**The key insight:** Every geometric property (perpendicular, tangent, intersection) translates into an algebraic equation, geometry becomes algebra you can solve.
 
 ## Common Pitfalls
 

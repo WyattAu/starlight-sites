@@ -52,7 +52,7 @@ public class Counter {
 
 **Fair vs Non-fair locking:**
 
-- **Non-fair (default):** Threads can barge — a newly arriving thread may acquire the lock before a
+- **Non-fair (default):** Threads can barge, a newly arriving thread may acquire the lock before a
   waiting thread. Higher throughput because threads do not need to be woken up and immediately put
   back to sleep.
 - **Fair:** Threads acquire the lock in the order they requested it. Lower throughput due to
@@ -148,7 +148,7 @@ public class ThreadSafeCache<K, V> {
 
 **Downgrade from write to read:** A thread holding the write lock can acquire the read lock without
 Releasing the write lock first. Then it can release the write lock, effectively downgrading.
-**Upgrade from read to write is NOT supported** — attempting to acquire the write lock while holding
+**Upgrade from read to write is NOT supported**, attempting to acquire the write lock while holding
 The read lock causes deadlock.
 
 ### `StampedLock`
@@ -161,7 +161,7 @@ public class Point {
     private double x, y;
     private final StampedLock sl = new StampedLock();
 
-    // Write — exclusive
+    // Write, exclusive
     void move(double deltaX, double deltaY) {
         long stamp = sl.writeLock();
         try {
@@ -172,12 +172,12 @@ public class Point {
         }
     }
 
-    // Optimistic read — NO blocking of writers
+    // Optimistic read, NO blocking of writers
     double distanceFromOrigin() {
         long stamp = sl.tryOptimisticRead();
         double currentX = x, currentY = y;
         if (!sl.validate(stamp)) {
-            // A write occurred — fall back to read lock
+            // A write occurred, fall back to read lock
             stamp = sl.readLock();
             try {
                 currentX = x;
@@ -189,7 +189,7 @@ public class Point {
         return Math.sqrt(currentX * currentX + currentY * currentY);
     }
 
-    // Read — blocking
+    // Read, blocking
     double[] getPosition() {
         long stamp = sl.readLock();
         try {
@@ -202,7 +202,7 @@ public class Point {
 ```
 
 `StampedLock` is not reentrant. Each call to `writeLock``readLock`Or `tryOptimisticRead` returns A
-`long` stamp that must be used to unlock. This is a deliberate design choice — the lack of
+`long` stamp that must be used to unlock. This is a deliberate design choice, the lack of
 Reentrancy prevents certain deadlock patterns and allows the optimistic read mechanism.
 
 :::caution
@@ -295,13 +295,13 @@ do {
 ```java
 AtomicInteger counter = new AtomicInteger(0);
 
-// getAndUpdate — applies function, returns previous value
+// getAndUpdate, applies function, returns previous value
 int prev = counter.getAndUpdate(n -&gt; n * 2);
 
-// updateAndGet — applies function, returns new value
+// updateAndGet, applies function, returns new value
 int next = counter.updateAndGet(n -&gt; n + 1);
 
-// accumulateAndGet — int-specific, avoids boxing
+// accumulateAndGet, int-specific, avoids boxing
 int sum = counter.accumulateAndGet(5, Integer::sum);
 // Equivalent to: counter = counter + 5
 
@@ -333,16 +333,16 @@ For high-contention counters where `AtomicLong` becomes a bottleneck due to CAS 
 Is eliminated; read requires summing all cells.
 
 ```java
-// AtomicLong — single variable, CAS contention under high contention
+// AtomicLong, single variable, CAS contention under high contention
 AtomicLong counter = new AtomicLong();
 
-// LongAdder — distributed cells, better under high contention
+// LongAdder, distributed cells, better under high contention
 LongAdder adder = new LongAdder();
 adder.increment();
 adder.add(5L);
 long total = adder.sum();
 
-// LongAccumulator — general-purpose with custom function
+// LongAccumulator, general-purpose with custom function
 LongAccumulator max = new LongAccumulator(Long::max, Long.MIN_VALUE);
 max.accumulate(42L);
 max.accumulate(17L);
@@ -383,28 +383,28 @@ public class VolatileFlag {
 
 Use `volatile` for:
 
-- **Flags and status indicators** — one thread writes, others read (shutdown flags, initialization
+- **Flags and status indicators**, one thread writes, others read (shutdown flags, initialization
   flags).
-- **One-shot publication** — writing a reference to a fully constructed object exactly once.
+- **One-shot publication**, writing a reference to a fully constructed object exactly once.
 - **Read-heavy counters** where approximate accuracy is acceptable (use `AtomicInteger` instead if
   exactness is required).
 
 Do NOT use `volatile` for:
 
-- **Compound operations** like `count++` (read-modify-write is not atomic — use `AtomicInteger`).
+- **Compound operations** like `count++` (read-modify-write is not atomic, use `AtomicInteger`).
 - **Multi-variable invariants** where consistency between variables matters (use a lock).
 
 ```java
-// BUG — volatile does not make count++ atomic
+// BUG, volatile does not make count++ atomic
 public class VolatileCounter {
     private volatile int count = 0; // NOT thread-safe for increment
 
     public void increment() {
-        count++; // read, add, write — NOT atomic
+        count++; // read, add, write, NOT atomic
     }
 }
 
-// FIX — use AtomicInteger
+// FIX, use AtomicInteger
 public class SafeCounter {
     private final AtomicInteger count = new AtomicInteger(0);
 
@@ -424,14 +424,14 @@ Synchronized blocks only on individual buckets during resize.
 ```java
 ConcurrentHashMap<String, Long> wordCounts = new ConcurrentHashMap<>();
 
-// Atomic operations — no external synchronization needed
+// Atomic operations, no external synchronization needed
 wordCounts.put("hello", 1L);
 wordCounts.merge("hello", 1L, Long::sum); // atomically adds 1
 Long count = wordCounts.getOrDefault("hello", 0L);
 
-// Atomic compute — the mapping function runs atomically
+// Atomic compute, the mapping function runs atomically
 wordCounts.computeIfAbsent("world", k -&gt; {
-    // expensive computation — runs at most once per key
+    // expensive computation, runs at most once per key
     return loadFromDatabase(k);
 });
 
@@ -449,7 +449,7 @@ long total = wordCounts.reduceValuesToLong(4, Long::longValue, 0, Long::sum);
 ```
 
 :::note
-And `null` values. This is a deliberate design decision — `null` is ambiguous in concurrent contexts
+And `null` values. This is a deliberate design decision, `null` is ambiguous in concurrent contexts
 (does `get(key)` returning `null` mean "key not found" or "value is null"?).
 :::
 ### `ConcurrentLinkedQueue`
@@ -476,12 +476,12 @@ Expensive. Ideal for read-heavy workloads with infrequent writes (listener lists
 ```java
 CopyOnWriteArrayList<EventListener> listeners = new CopyOnWriteArrayList<>();
 
-// Fast read — no synchronization
+// Fast read, no synchronization
 for (EventListener listener : listeners) {
     listener.onEvent(event); // safe even during concurrent modification
 }
 
-// Expensive write — copies entire array
+// Expensive write, copies entire array
 listeners.add(newListener);
 ```
 
@@ -498,7 +498,7 @@ When empty.
 | `ArrayBlockingQueue`    | Yes (fixed)    | FIFO                             | Backed by array              |
 | `LinkedBlockingQueue`   | Optional       | FIFO                             | Backed by linked nodes       |
 | `PriorityBlockingQueue` | No (unbounded) | Priority (natural or Comparator) | Never blocks on put          |
-| `SynchronousQueue`      | Zero capacity  | None                             | Handoff — put waits for take |
+| `SynchronousQueue`      | Zero capacity  | None                             | Handoff, put waits for take |
 | `DelayQueue`            | Unbounded      | By delay time                    | Elements implement `Delayed` |
 
 ```java
@@ -524,7 +524,7 @@ consumers.submit(() -&gt; {
 });
 ```
 
-**`SynchronousQueue`** has zero capacity — each `put` must wait for a matching `take` and vice
+**`SynchronousQueue`** has zero capacity, each `put` must wait for a matching `take` and vice
 Versa. It is used by `Executors.newCachedThreadPool()` to hand off tasks directly to worker threads
 Without buffering.
 
@@ -550,7 +550,7 @@ public class ParallelMergeSort extends RecursiveTask<long[]> {
     @Override
     protected long[] compute() {
         if (hi - lo &lt; 8192) {
-            // Sequential threshold — sort small arrays sequentially
+            // Sequential threshold, sort small arrays sequentially
             Arrays.sort(array, lo, hi);
             return array;
         }
@@ -623,7 +623,7 @@ Process sequentially. Profile and adjust.
 
 ## `ThreadLocal`
 
-`ThreadLocal<T>` provides thread-confined variables — each thread has its own independently
+`ThreadLocal<T>` provides thread-confined variables, each thread has its own independently
 Initialized copy. No synchronization is needed because threads never share the value.
 
 ```java
@@ -640,7 +640,7 @@ public class UserIdContext {
     }
 
     public static void clear() {
-        CURRENT_USER.remove(); // CRITICAL — prevents memory leaks
+        CURRENT_USER.remove(); // CRITICAL, prevents memory leaks
     }
 }
 ```
@@ -652,19 +652,19 @@ A web server worker thread in a thread pool), and you do not call `remove()`The 
 memory for the lifetime of the thread. This is the most common `ThreadLocal` leak.
 
 ```java
-// DANGEROUS — in a servlet container with pooled threads
+// DANGEROUS, in a servlet container with pooled threads
 public void doGet(HttpServletRequest req, HttpServletResponse resp) {
     ThreadLocal&lt;Connection&gt; connectionHolder = ...; // instance variable
     connectionHolder.set(dataSource.getConnection());
     try {
         // process request
     } finally {
-        // BUG — connection not closed, not removed from ThreadLocal
+        // BUG, connection not closed, not removed from ThreadLocal
         // The Connection leaks because the thread is returned to the pool
     }
 }
 
-// SAFE — always clean up in finally
+// SAFE, always clean up in finally
 public void doGet(HttpServletRequest req, HttpServletResponse resp) {
     connectionHolder.set(dataSource.getConnection());
     try {
@@ -691,14 +691,14 @@ Consistent order.
 // DEADLOCK-PRONE
 void transfer(Account from, Account to, int amount) {
     synchronized (from) {      // lock A
-        synchronized (to) {    // lock B — potential deadlock
+        synchronized (to) {    // lock B, potential deadlock
             from.debit(amount);
             to.credit(amount);
         }
     }
 }
 
-// SAFE — consistent lock ordering
+// SAFE, consistent lock ordering
 void safeTransfer(Account from, Account to, int amount) {
     Account first = from.getId() &lt; to.getId() ? from : to;
     Account second = from.getId() &lt; to.getId() ? to : from;
@@ -733,15 +733,15 @@ if (deadlockedThreads != null) {
 
 ## Virtual Threads Integration
 
-Project Loom (JDK 21) introduces virtual threads — lightweight threads managed by the JVM, not the
+Project Loom (JDK 21) introduces virtual threads, lightweight threads managed by the JVM, not the
 OS. Virtual threads make blocking operations cheap, reducing the need for complex asynchronous
 Programming.
 
 ```java
-// Traditional platform threads — expensive, limited by OS
+// Traditional platform threads, expensive, limited by OS
 ExecutorService platformPool = Executors.newFixedThreadPool(200);
 
-// Virtual threads — millions of concurrent tasks
+// Virtual threads, millions of concurrent tasks
 ExecutorService virtualPool = Executors.newVirtualThreadPerTaskExecutor();
 
 List&lt;Future&lt;String&gt;&gt; futures = new ArrayList&lt;&gt;();
@@ -775,7 +775,7 @@ public void doWork() {
     }
 }
 
-// Avoid — pins carrier thread
+// Avoid, pins carrier thread
 public synchronized void doWorkSync() {
     // critical section
 }
@@ -783,18 +783,18 @@ public synchronized void doWorkSync() {
 
 ## Intuition
 
-**Deep dive into parallelism:** Advanced concurrency is like managing a team of workers — locks, semaphores, and executors are tools for coordinating parallel tasks efficiently.
+**Deep dive into parallelism:** Advanced concurrency is like managing a team of workers, locks, semaphores, and executors are tools for coordinating parallel tasks efficiently.
 
 **Why it matters:** Deep understanding of concurrency helps you build high-performance, thread-safe applications that scale to millions of users.
 
-**The key insight:** Lock-free algorithms can be faster than traditional synchronization — they avoid the overhead of acquiring and releasing locks.
+**The key insight:** Lock-free algorithms can be faster than traditional synchronization, they avoid the overhead of acquiring and releasing locks.
 
 ## Common Pitfalls
 
 ### Forgetting `finally { lock.unlock(); }`
 
 ```java
-// BUG — lock is never released if an exception occurs
+// BUG, lock is never released if an exception occurs
 public void process() {
     lock.lock();
     doRiskyOperation(); // if this throws, lock is never released
@@ -818,7 +818,7 @@ public void process() {
 // Even concurrent collections can throw CME during bulk operations
 ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
 for (String key : map.keySet()) {
-    // This is safe for ConcurrentHashMap — no CME
+    // This is safe for ConcurrentHashMap, no CME
     map.remove(key); // ConcurrentHashMap's iterator is weakly consistent
 }
 
@@ -831,17 +831,17 @@ map.forEach((key, value) -&gt; {
 ### Using `synchronized` on `Long` or `Integer` Wrappers
 
 ```java
-// BUG — synchronized on auto-boxed Integer
+// BUG, synchronized on auto-boxed Integer
 // Each boxing creates a NEW Integer object, so the lock is on different objects
 private Integer counter = 0;
 
 public void increment() {
-    synchronized (counter) { // BUG — counter is re-boxed each time
+    synchronized (counter) { // BUG, counter is re-boxed each time
         counter++;
     }
 }
 
-// FIX — use a dedicated lock object
+// FIX, use a dedicated lock object
 private final Object lock = new Object();
 private int counter = 0;
 
@@ -855,7 +855,7 @@ public void increment() {
 ### `AtomicReference` ABA Problem
 
 ```java
-// BUG — ABA problem with AtomicReference
+// BUG, ABA problem with AtomicReference
 AtomicReference<Node> head = new AtomicReference<>(nodeA);
 // Thread 1: reads head = nodeA, gets preempted
 // Thread 2: sets head = nodeB
@@ -863,14 +863,14 @@ AtomicReference<Node> head = new AtomicReference<>(nodeA);
 // Thread 1: CAS succeeds, but the list structure has changed!
 head.compareAndSet(nodeA, newNode); // succeeds incorrectly
 
-// FIX — use AtomicStampedReference
+// FIX, use AtomicStampedReference
 AtomicStampedReference<Node> stampedHead = new AtomicStampedReference<>(nodeA, 1);
 ```
 
 ### Thread Pool Starvation
 
 ```java
-// DEADLOCK — all threads in the pool are waiting for tasks from the same pool
+// DEADLOCK, all threads in the pool are waiting for tasks from the same pool
 ExecutorService pool = Executors.newFixedThreadPool(10);
 pool.submit(() -&gt; {
     Future&lt;String&gt; f = pool.submit(() -&gt; "result"); // waits for another thread

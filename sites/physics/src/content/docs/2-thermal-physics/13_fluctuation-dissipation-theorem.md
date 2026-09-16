@@ -55,7 +55,7 @@ The FDT predicts **thermal (Johnson--Nyquist) noise** in a resistor:
 
 $$\langle V^2 \rangle = 4k_B T R \Delta f$$
 
-Where $R$ is the resistance and $\Delta f$ is the bandwidth. This noise is fundamental — it arises
+Where $R$ is the resistance and $\Delta f$ is the bandwidth. This noise is fundamental, it arises
 from thermal fluctuations of charge carriers and cannot be eliminated.
 
 <details>
@@ -142,7 +142,7 @@ The fluctuation-dissipation theorem reveals a profound link between how a system
 ### Connections to Other Topics
 
 - **Kramers--Kronig relations:** Causality imposes integral relations between $\chi'(\omega)$ and $\chi''(\omega)$, which are intimately related to the FDT.
-- **Onsager regression hypothesis:** The relaxation of macroscopic nonequilibrium fluctuations follows the same laws as spontaneous fluctuations at equilibrium — a precursor to the FDT.
+- **Onsager regression hypothesis:** The relaxation of macroscopic nonequilibrium fluctuations follows the same laws as spontaneous fluctuations at equilibrium, a precursor to the FDT.
 - **Nonequilibrium statistical mechanics:** The fluctuation theorem (Evans--Searles, Crooks) extends fluctuation--dissipation ideas to far-from-equilibrium regimes, relating work distributions to free energy differences.
 - **Quantum optics:** The FDT applied to the electromagnetic field yields the Planck spectrum, connecting blackbody radiation to vacuum fluctuations and dissipation.
 

@@ -161,7 +161,7 @@ After substitution and simplification:
 $$\Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare$$
 
 **Intuition.** When $e = 1$: $\Delta\mathrm{KE} = 0$ (no energy lost). When $e = 0$: maximum energy
-Loss. The energy lost increases as $(1-e^2)$ — a small decrease in $e$ causes a relatively small
+Loss. The energy lost increases as $(1-e^2)$, a small decrease in $e$ causes a relatively small
 Increase in energy loss for nearly elastic collisions, but the loss grows rapidly as $e$ decreases.
 
 ### 5.4 Proof that $0 \leq e \leq 1$
@@ -290,7 +290,7 @@ $1.5\sqrt{3} = \frac{3\sqrt{3}}{2}$,
 $12 - 4.5\sqrt{3} = 12 - \frac{9\sqrt{3}}{2}$. From $y$: $\sin\theta = 0.75$,
 $\cos\theta = \sqrt{1 - 0.5625} = \sqrt{0.4375} \approx 0.6614$. From $x$:
 $\cos\theta = (12 - 4.5\sqrt{3})/6 \approx 0.701$. These are not equal, indicating the stated speeds
-Are not exactly consistent with momentum conservation — a useful check in exam problems.
+Are not exactly consistent with momentum conservation, a useful check in exam problems.
 
 <hr />
 
@@ -451,7 +451,7 @@ $J = m(v - u) = 0.3(-5 - 8) = 0.3(-13) = -3.9\,\mathrm{Ns}$.
 
 The impulse is $3.9\,\mathrm{Ns}$ in the direction opposite to the initial motion.
 
-**If you get this wrong, revise:** [Impulse](#3-impulse) — Section 3.
+**If you get this wrong, revise:** [Impulse](#3-impulse), Section 3.
 
 </details>
 
@@ -466,7 +466,7 @@ Momentum: $3(4) + 5(-2) = 3(-1) + 5v \implies 12 - 10 = -3 + 5v \implies 5 = -3 
 
 $e = \dfrac{v_2 - v_1}{u_1 - u_2} = \dfrac{1.6 - (-1)}{4 - (-2)} = \dfrac{2.6}{6} \approx 0.433$.
 
-**If you get this wrong, revise:** [Direct Collisions](#41-direct-collisions) — Section 4.1.
+**If you get this wrong, revise:** [Direct Collisions](#41-direct-collisions), Section 4.1.
 
 </details>
 
@@ -481,7 +481,7 @@ $J = \int_0^2 (6t-2)\,dt = [3t^2 - 2t]_0^2 = 12 - 4 = 8\,\mathrm{Ns}$.
 
 $J = mv \implies 8 = 2v \implies v = 4\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Impulse from a Graph](#33-impulse-from-a-graph) — Section 3.3.
+**If you get this wrong, revise:** [Impulse from a Graph](#33-impulse-from-a-graph), Section 3.3.
 
 </details>
 
@@ -500,7 +500,7 @@ $v_2 = v_1 + 5$. Substituting: $30 = 6v_1 + 4(v_1+5) = 10v_1 + 20 \implies v_1 =
 
 $v_2 = 6\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution) —
+**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution),
 Section 5.
 
 </details>
@@ -520,7 +520,7 @@ Adding: $2v_2 = 2u_1 \implies v_2 = u_1$. Subtracting: $2v_1 = 2u_2 \implies v_1
 
 The bodies exchange velocities. $\blacksquare$
 
-**If you get this wrong, revise:** [Conservation of Momentum](#2-conservation-of-momentum) —
+**If you get this wrong, revise:** [Conservation of Momentum](#2-conservation-of-momentum),
 Section 2.
 
 </details>
@@ -537,7 +537,7 @@ Speed just after impact: $v = \sqrt{2g(h/4)} = \sqrt{gh/2} = \sqrt{2gh}/2$.
 
 $e = v/u = (\sqrt{2gh}/2)/\sqrt{2gh} = 1/2 = 0.5$.
 
-**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution) —
+**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution),
 Section 5.
 
 </details>
@@ -551,7 +551,7 @@ A force acts on a $5\,\mathrm{kg}$ body for $0.3\,\mathrm{s}$Giving it an impuls
 <summary>Solution 7</summary>
 $J = m\Delta v \implies 15 = 5\Delta v \implies \Delta v = 3\,\mathrm{m/s}$.
 
-**If you get this wrong, revise:** [Impulse](#3-impulse) — Section 3.
+**If you get this wrong, revise:** [Impulse](#3-impulse), Section 3.
 
 </details>
 
@@ -573,7 +573,7 @@ $\mathrm{KE}_{\mathrm{after}} = \tfrac{1}{2}(3)(0.0576) + \tfrac{1}{2}(2)(31.81)
 
 $\Delta\mathrm{KE} = 63 - 31.90 = 31.10\,\mathrm{J}$.
 
-**If you get this wrong, revise:** [Energy Loss in Collisions](#53-energy-loss-in-collisions) —
+**If you get this wrong, revise:** [Energy Loss in Collisions](#53-energy-loss-in-collisions),
 Section 5.3.
 
 </details>
@@ -591,7 +591,7 @@ $J_n = m(v_n - u_n) = 0.2(-4.2\sqrt{3} - 6\sqrt{3}) = 0.2(-10.2\sqrt{3}) = -2.04
 
 Parallel to wall: no friction, so velocity component is unchanged. $J_{\parallel} = 0$.
 
-**If you get this wrong, revise:** [Oblique Collisions](#42-oblique-2d-collisions) — Section 4.2.
+**If you get this wrong, revise:** [Oblique Collisions](#42-oblique-2d-collisions), Section 4.2.
 
 </details>
 
@@ -664,7 +664,7 @@ $v_2 \geq -u$ So $e \geq 0$.
 If the problem says $e \leq 1/3$There may be additional constraints. Given the complexity, the key
 Idea is shown.
 
-**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution) —
+**If you get this wrong, revise:** [Coefficient of Restitution](#5-coefficient-of-restitution),
 Section 5.
 
 </details>
@@ -692,7 +692,7 @@ $\theta = \arctan\!\left(\frac{-2\sqrt{3}}{-2}\right) = \arctan(\sqrt{3}) = 60^\
 Below the horizontal (south-west).
 
 **If you get this wrong, revise:**
-[Conservation of Momentum in Two Dimensions](#7-conservation-of-momentum-in-two-dimensions) —
+[Conservation of Momentum in Two Dimensions](#7-conservation-of-momentum-in-two-dimensions),
 Section 7.
 
 </details>
@@ -721,7 +721,7 @@ Speed after:
 $v = \sqrt{3.574^2 + 7.660^2} = \sqrt{12.77 + 58.68} = \sqrt{71.45} \approx 8.45\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Oblique Collisions with a Surface](#9-oblique-collisions-with-a-surface) — Section 9.
+[Oblique Collisions with a Surface](#9-oblique-collisions-with-a-surface), Section 9.
 
 </details>
 
@@ -765,7 +765,7 @@ $v_{B,\parallel} = 3.6\,\mathrm{m/s}$.
   $= \sqrt{3.6^2 + 2^2} = \sqrt{12.96 + 4} = \sqrt{16.96} \approx 4.12\,\mathrm{m/s}$
 
 **If you get this wrong, revise:**
-[Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles) —
+[Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles),
 Section 8.
 
 </details>
@@ -793,7 +793,7 @@ during the collision).
 
 Therefore $e \leq 1$. $\blacksquare$
 
-**If you get this wrong, revise:** [Proof that $0 \leq e \leq 1$](#54-proof-that-0-leq-e-leq-1) —
+**If you get this wrong, revise:** [Proof that $0 \leq e \leq 1$](#54-proof-that-0-leq-e-leq-1),
 Section 5.4.
 
 </details>
@@ -826,7 +826,7 @@ $v = \sqrt{8^2 + 5.568^2} = \sqrt{64 + 31.00} = \sqrt{95.00} \approx 9.75\,\math
 Angle to horizontal:
 $\theta = \arctan\!\left(\frac{5.568}{8}\right) = \arctan(0.696) \approx 34.8^\circ$.
 
-**If you get this wrong, revise:** [Successive Bounces](#94-successive-bounces) — Section 9.4.
+**If you get this wrong, revise:** [Successive Bounces](#94-successive-bounces), Section 9.4.
 
 </details>
 
@@ -894,7 +894,7 @@ For general $e$The spheres do **not** move at right angles. The problem as state
 For the elastic case. $\blacksquare$
 
 **If you get this wrong, revise:**
-[Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles) —
+[Two-Dimensional Collisions Between Particles](#8-two-dimensional-collisions-between-particles),
 Section 8.
 
 </details>

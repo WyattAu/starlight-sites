@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Proof and Logic — Diagnostic Tests
+## Proof and Logic, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Mathematical proof is like a legal argument — each step must be justified by axioms, definitions, or previously proven theorems:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
+**Mathematical proof is like a legal argument, each step must be justified by axioms, definitions, or previously proven theorems:** Logic provides the grammar of mathematics, it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
 
-**Why it matters:** Proof is what separates mathematics from computation — it establishes universal truth, not just empirical patterns
+**Why it matters:** Proof is what separates mathematics from computation, it establishes universal truth, not just empirical patterns
 
-**The key insight:** Logic provides the grammar of mathematics — it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
+**The key insight:** Logic provides the grammar of mathematics, it ensures that conclusions follow necessarily from premises, creating certainty in an uncertain world
 
 ## Unit Tests
 
@@ -77,7 +77,7 @@ the quadratic has exactly one real root, then $\Delta = 0$ (necessary, since $\D
 two distinct roots and $\Delta \lt 0$ gives none).
 
 **(d)** This is the **fallacy of affirming the consequent**. $P \implies Q$ and $Q$ does not imply
-$P$. The correct inference from $P \implies Q$ and $Q$ is nothing — we cannot deduce $P$. The valid
+$P$. The correct inference from $P \implies Q$ and $Q$ is nothing, we cannot deduce $P$. The valid
 inference is _modus ponens_: from $P \implies Q$ and $P$We deduce $Q$.
 
 ---

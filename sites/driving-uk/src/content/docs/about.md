@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes UK Driving resources — experience, expertise, and credentials behind UK driving theory test study materials."
+description: "About Wyatt's Notes UK Driving resources, experience, expertise, and credentials behind UK driving theory test study materials."
 tags:
   - about
   - driving-uk
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — UK Driving
+## About Wyatt's Notes, UK Driving
 
 Wyatt's Notes provides thorough study materials for the UK driving theory test. These notes cover the Highway Code, road signs, hazard perception, and theory test preparation, building the knowledge needed to pass the DVSA theory and practical driving tests.
 
@@ -33,8 +33,8 @@ Wyatt develops resources across driving tests internationally, providing compara
 
 ## Related Sites
 
-- **[US Driving](https://driving-us.wyattau.com)** — US DMV driving test resources
-- **[EU Driving](https://driving-eu.wyattau.com)** — EU driving test resources
+- **[US Driving](https://driving-us.wyattau.com)**, US DMV driving test resources
+- **[EU Driving](https://driving-eu.wyattau.com)**, EU driving test resources
 
 ## Explore the Site
 

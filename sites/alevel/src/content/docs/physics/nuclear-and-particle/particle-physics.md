@@ -329,7 +329,7 @@ Structures.
 ### Davisson--Germer Experiment (1927)
 
 Davisson and Germer directed a beam of electrons at a nickel crystal and observed a diffraction
-Pattern — sharp intensity maxima at specific angles. The angles matched the prediction of the de
+Pattern, sharp intensity maxima at specific angles. The angles matched the prediction of the de
 Broglie wavelength using the Bragg condition:
 
 $$n\lambda = 2d\sin\theta$$

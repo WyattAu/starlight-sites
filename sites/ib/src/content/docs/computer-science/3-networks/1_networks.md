@@ -20,7 +20,7 @@ categories:
 
 ## Intuition
 
-**Computer networks are like postal systems — data is broken into packets, addressed, routed, and reassembled at the destination:** The Internet's layered protocol architecture allows different technologies to work together seamlessly
+**Computer networks are like postal systems, data is broken into packets, addressed, routed, and reassembled at the destination:** The Internet's layered protocol architecture allows different technologies to work together seamlessly
 
 **Why it matters:** Understanding networks is essential for building, securing, and troubleshooting connected systems
 
@@ -184,7 +184,7 @@ Layers which specifies standards for physical communication and virtual communic
 ### Mesh Topology
 
 - Every device is connected to every other device (full mesh) or to multiple devices (partial mesh).
-- **Advantages:** High redundancy — if one connection fails, data can be rerouted. No single point
+- **Advantages:** High redundancy, if one connection fails, data can be rerouted. No single point
   of failure.
 - **Disadvantages:** Expensive and complex to set up due to the large number of cables/connections
   required.
@@ -216,17 +216,17 @@ Layers of the OSI model.
 
 **TCP (Transport Layer):**
 
-- Connection-oriented — establishes a connection before data transfer (three-way handshake).
-- Reliable delivery — uses acknowledgements (ACKs) and retransmission to ensure all packets arrive.
-- Flow control — prevents the sender from overwhelming the receiver.
-- Order preservation — packets are reassembled in the correct order at the destination.
+- Connection-oriented, establishes a connection before data transfer (three-way handshake).
+- Reliable delivery, uses acknowledgements (ACKs) and retransmission to ensure all packets arrive.
+- Flow control, prevents the sender from overwhelming the receiver.
+- Order preservation, packets are reassembled in the correct order at the destination.
 
 **IP (Network Layer):**
 
 - Responsible for addressing and routing packets across interconnected networks.
 - Each device on a network has a unique IP address (IPv4: 32-bit, e.g. `192.168.1.1`; IPv6:
   128-bit).
-- IP is connectionless — each packet is treated independently (datagram switching).
+- IP is connectionless, each packet is treated independently (datagram switching).
 - TTL (Time to Live) prevents packets from circulating indefinitely.
 
 **Three-way handshake (TCP connection establishment):**
@@ -240,7 +240,7 @@ Layers of the OSI model.
 **HTTP (Hypertext Transfer Protocol):**
 
 - Application layer protocol used for transmitting web pages and other resources.
-- Stateless — each request is independent; no memory of previous interactions.
+- Stateless, each request is independent; no memory of previous interactions.
 - Request methods: `GET` (retrieve data), `POST` (submit data), `PUT` (update data), `DELETE`
   (remove data).
 - Status codes: `200` (OK), `301` (Moved Permanently), `404` (Not Found), `500` (Server Error).
@@ -318,9 +318,9 @@ DHCP automatically assigns IP addresses to devices on a network.
 
 ### Peer-to-Peer (P2P) Model
 
-- All devices (peers) have equal status — each can act as both client and server.
+- All devices (peers) have equal status, each can act as both client and server.
 - No central server; resources are shared directly between peers.
-- **Advantages:** No single point of failure; scalable — more peers means more resources; lower
+- **Advantages:** No single point of failure; scalable, more peers means more resources; lower
   infrastructure cost.
 - **Disadvantages:** Harder to manage and secure; performance depends on the number and capability
   of peers; data consistency is harder to maintain.
@@ -389,8 +389,8 @@ Authorised parties with the correct key can decrypt the data.
 
 - The same key is used for both encryption and decryption.
 - **Advantages:** Fast; efficient for large amounts of data.
-- **Disadvantages:** Key distribution problem — how do you securely share the key?
-- **Examples:** AES (Advanced Encryption Standard), DES (Data Encryption Standard — now considered
+- **Disadvantages:** Key distribution problem, how do you securely share the key?
+- **Examples:** AES (Advanced Encryption Standard), DES (Data Encryption Standard, now considered
   insecure).
 
 ### Asymmetric Encryption
@@ -497,7 +497,7 @@ A TCP segment contains:
 - **Sequence number** (32 bits): ensures correct reassembly of packets.
 - **Acknowledgement number** (32 bits): confirms receipt of data.
 - **Flags**: SYN, ACK, FIN, RST control the connection state.
-- **Window size** (16 bits): used for flow control — tells the sender how much data the receiver can
+- **Window size** (16 bits): used for flow control, tells the sender how much data the receiver can
   accept.
 - **Checksum**: error detection for the segment header and data.
 
@@ -711,8 +711,8 @@ Frames with a VLAN ID (using IEEE 802.1Q standard). The switch is configured so 
 To VLAN 1 can only communicate with other ports in VLAN 1, and similarly for VLANs 2 and 3. The
 Switch enforces this isolation by only forwarding frames to ports in the same VLAN. Frames between
 Different VLANs can only be routed through a router (inter-VLAN routing), which can be configured
-With access control policies. C) **Advantage:** Cost-effective — no additional hardware required;
-Flexible — devices can be moved between VLANs through software configuration without recabling.
+With access control policies. C) **Advantage:** Cost-effective, no additional hardware required;
+Flexible, devices can be moved between VLANs through software configuration without recabling.
 **Disadvantage:** All VLANs share the same physical switch, so a hardware failure of the switch
 Affects all VLANs; total bandwidth is shared among all VLANs.
 
@@ -744,7 +744,7 @@ Versa. This solves the key distribution problem since the public key can be tran
 Asymmetric encryption is computationally **slow**, making it impractical for large data volumes
 (e.g., RSA).
 
-**Practical scenario — HTTPS/TLS:** Asymmetric encryption is used during the initial TLS handshake
+**Practical scenario, HTTPS/TLS:** Asymmetric encryption is used during the initial TLS handshake
 To securely exchange a symmetric session key. Once the symmetric key is established, all subsequent
 Data is encrypted using symmetric encryption (AES), combining the security benefits of asymmetric
 Encryption with the speed of symmetric encryption.

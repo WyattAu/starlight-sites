@@ -56,8 +56,8 @@ complexity class.
 
 **Finite languages** (always regular):
 
-- $L_1 = \{\mathrm{true}, \mathrm{false}\}$ — the set of Boolean literals.
-- $L_2 = \{w \in \{0,1\}^* : |w| \leq 3\}$ — all binary strings of length at most 3.
+- $L_1 = \{\mathrm{true}, \mathrm{false}\}$, the set of Boolean literals.
+- $L_2 = \{w \in \{0,1\}^* : |w| \leq 3\}$, all binary strings of length at most 3.
 
 **Regular languages** (decidable by finite automata):
 
@@ -67,9 +67,9 @@ complexity class.
 
 **Context-free but not regular:**
 
-- $L_6 = \{a^n b^n : n \geq 0\}$ — matching counts of two symbols.
-- $L_7 = \{w w^R : w \in \{0,1\}^*\}$ — even-length palindromes.
-- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$ — equal numbers of `a`S and `b`S.
+- $L_6 = \{a^n b^n : n \geq 0\}$, matching counts of two symbols.
+- $L_7 = \{w w^R : w \in \{0,1\}^*\}$, even-length palindromes.
+- $L_8 = \{w \in \{a,b,c\}^* : n_a(w) = n_b(w)\}$, equal numbers of `a`S and `b`S.
 
 **Decidable but not context-free:**
 
@@ -78,12 +78,12 @@ complexity class.
 
 **Undecidable (Turing-recognisable):**
 
-- $A_{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ accepts}  w\}}$ — the acceptance problem.
+- $A_{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ accepts}  w\}}$, the acceptance problem.
 - $\mathrm{HALT_}{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ halts} on  w\}}$.
 
 **Not even Turing-recognisable:**
 
-- $\overline{A_{\mathrm{TM}}}$ — the complement of the acceptance problem.
+- $\overline{A_{\mathrm{TM}}}$, the complement of the acceptance problem.
 
 This hierarchy illustrates the central theme of the course: as we move to more expressive language
 Classes, the corresponding machines become more powerful, but certain properties (decidability,
@@ -115,7 +115,7 @@ Turing-recognisable languages is a countable subset of the uncountable set of al
 **Cantor's diagonalisation.** The classic .../1-number-and-algebra/3*proof-and-logic of Theorem 1.1
 uses diagonalisation: assume the Set of all languages is countable, list them as
 $L_1, L_2, L_3, \ldots$ And construct a language $D$ that differs from each $L_i$ on the $i$-th
-string. Then $D$ is not in the list — contradiction. This technique reappears in the
+string. Then $D$ is not in the list, contradiction. This technique reappears in the
 .../1-number-and-algebra/3_proof-and-logic of undecidability of $A*{\mathrm{TM}}$ (Section 5.2).
 
 ### 1.5 Common Pitfalls

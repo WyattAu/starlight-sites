@@ -81,7 +81,7 @@ export const flashcard3 = [
   {
     id: 'ib-chem-measurement-data-011',
     front: 'What is an anomalous result and how should you handle it?',
-    back: 'An anomalous (outlier) result is a data point that does not fit the expected pattern, deviating significantly from other values. It may result from a measurement error, procedural mistake, or contamination. Handling: (1) Identify visually (point far from the trend line or outside the scatter of other points). (2) Do NOT simply discard it — first investigate the cause. (3) If a clear error is identified (e.g., air bubble in burette), the result can be excluded with justification. (4) If no clear cause, keep the result or repeat the measurement. (5) Mark anomalous points on graphs and explain in the evaluation.',
+    back: 'An anomalous (outlier) result is a data point that does not fit the expected pattern, deviating significantly from other values. It may result from a measurement error, procedural mistake, or contamination. Handling: (1) Identify visually (point far from the trend line or outside the scatter of other points). (2) Do NOT simply discard it, first investigate the cause. (3) If a clear error is identified (e.g., air bubble in burette), the result can be excluded with justification. (4) If no clear cause, keep the result or repeat the measurement. (5) Mark anomalous points on graphs and explain in the evaluation.',
     tags: ['anomalous results'],
     difficulty: 'medium',
   },
@@ -96,7 +96,7 @@ export const flashcard3 = [
   {
     id: 'ib-chem-measurement-data-013',
     front: 'State the typical uncertainty associated with common laboratory apparatus.',
-    back: 'Burette: +/- 0.05 cm3 per reading (so +/- 0.10 cm3 for a titre = initial + final reading uncertainty). Pipette (25.0 cm3): +/- 0.05 cm3 (one reading). Volumetric flask (250.0 cm3): +/- 0.15 cm3. Measuring cylinder (100 cm3): +/- 0.5 cm3 (much less precise than burette/pipette). Digital balance (2 dp): +/- 0.01 g. Thermometer (-10 to 110 C): +/- 0.5 C. Stopwatch: +/- 0.01 s (but human reaction time adds uncertainty). The apparatus chosen must be appropriate for the required precision — always use the most precise apparatus available.',
+    back: 'Burette: +/- 0.05 cm3 per reading (so +/- 0.10 cm3 for a titre = initial + final reading uncertainty). Pipette (25.0 cm3): +/- 0.05 cm3 (one reading). Volumetric flask (250.0 cm3): +/- 0.15 cm3. Measuring cylinder (100 cm3): +/- 0.5 cm3 (much less precise than burette/pipette). Digital balance (2 dp): +/- 0.01 g. Thermometer (-10 to 110 C): +/- 0.5 C. Stopwatch: +/- 0.01 s (but human reaction time adds uncertainty). The apparatus chosen must be appropriate for the required precision, always use the most precise apparatus available.',
     tags: ['apparatus uncertainty'],
     difficulty: 'medium',
   },

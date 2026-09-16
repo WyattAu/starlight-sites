@@ -125,7 +125,7 @@ export const flashcard4 = [
     id: 'sat-math-advanced-016',
     front:
       'Define function composition. Given f(x) = 2x + 1 and g(x) = x², find f(g(3)) and g(f(3)).',
-    back: 'Function composition: (f ∘ g)(x) = f(g(x)) — apply g first, then f. f(g(3)) = f(3²) = f(9) = 2(9) + 1 = 19. g(f(3)) = g(2(3)+1) = g(7) = 7² = 49. Note: f(g(x)) ≠ g(f(x)) in general. The domain of f ∘ g is restricted to values of x where g(x) is in the domain of f.',
+    back: 'Function composition: (f ∘ g)(x) = f(g(x)), apply g first, then f. f(g(3)) = f(3²) = f(9) = 2(9) + 1 = 19. g(f(3)) = g(2(3)+1) = g(7) = 7² = 49. Note: f(g(x)) ≠ g(f(x)) in general. The domain of f ∘ g is restricted to values of x where g(x) is in the domain of f.',
     tags: ['functions'],
     difficulty: 'medium',
   },

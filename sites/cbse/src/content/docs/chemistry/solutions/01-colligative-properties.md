@@ -38,7 +38,7 @@ Study notes for CBSE Class 12 chemistry - Colligative properties.
 - Osmotic pressure: $\pi = i \cdot CRT$
 - Van't Hoff factor: $i = \frac{\text{observed colligative property}}{\text{calculated colligative property}}$
 
-## Worked Example 1 — Boiling Point Elevation
+## Worked Example 1, Boiling Point Elevation
 
 **Problem:** $34.2 \, \text{g}$ of sucrose ($M = 342 \, \text{g/mol}$) is dissolved in $500 \, \text{g}$ of water. Calculate the boiling point of the solution. ($K_b$ for water $= 0.52 \, \text{K}\cdot\text{kg/mol}$)
 
@@ -58,7 +58,7 @@ $$\Delta T_b = i \cdot K_b \cdot m = 1 \times 0.52 \times 0.2 = 0.104 \, \text{K
 New boiling point:
 $$T_b = 100 + 0.104 = 100.104^\circ\text{C}$$
 
-## Worked Example 2 — Freezing Point Depression with Electrolyte
+## Worked Example 2, Freezing Point Depression with Electrolyte
 
 **Problem:** Calculate the freezing point of a solution containing $5.85 \, \text{g}$ of NaCl ($M = 58.5 \, \text{g/mol}$) dissolved in $1 \, \text{kg}$ of water. ($K_f$ for water $= 1.86 \, \text{K}\cdot\text{kg/mol}$)
 
@@ -78,7 +78,7 @@ $$\Delta T_f = i \cdot K_f \cdot m = 2 \times 1.86 \times 0.1 = 0.372 \, \text{K
 New freezing point:
 $$T_f = 0 - 0.372 = -0.372^\circ\text{C}$$
 
-## Worked Example 3 — Osmotic Pressure
+## Worked Example 3, Osmotic Pressure
 
 **Problem:** $1.5 \, \text{g}$ of a polymer ($M = 150{,}000 \, \text{g/mol}$) is dissolved in $500 \, \text{mL}$ of water at $27^\circ\text{C}$. Find the osmotic pressure. ($R = 0.0821 \, \text{L}\cdot\text{atm/K}\cdot\text{mol}$)
 
@@ -122,7 +122,7 @@ Colligative properties depend only on how many solute particles you add, not wha
 ## Cross-References
 
 - **[Solutions](../../../../../../typescript/src/content/docs/index):** Colligative properties are direct applications of solution concentration concepts like molality and mole fraction.
-- **[Chemical Kinetics](../chemical-kinetics/index):** Solute concentration affects reaction rates — understanding colligative properties deepens your grasp of concentration effects.
+- **[Chemical Kinetics](../chemical-kinetics/index):** Solute concentration affects reaction rates, understanding colligative properties deepens your grasp of concentration effects.
 - **[Biomolecules](../biomolecules/index):** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
 - **[Surface Chemistry](../surface-chemistry/index):** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
 

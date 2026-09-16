@@ -106,9 +106,9 @@ linked above.
 
 AP Statistics is about **making conclusions from data** while quantifying uncertainty. The four major themes form a logical chain: explore the data → design studies → model probability → draw inferences.
 
-**The big picture:** Statistics isn't about computing numbers — it's about *interpreting* them. A p-value of 0.03 doesn't mean "there's a 3% chance the null hypothesis is true." It means "if the null hypothesis were true, we'd see data this extreme only 3% of the time." This distinction is the single most important concept in the course.
+**The big picture:** Statistics isn't about computing numbers, it's about *interpreting* them. A p-value of 0.03 doesn't mean "there's a 3% chance the null hypothesis is true." It means "if the null hypothesis were true, we'd see data this extreme only 3% of the time." This distinction is the single most important concept in the course.
 
-**Why conditions matter:** Every inference procedure (confidence intervals, hypothesis tests, chi-square tests) has conditions that must be checked before applying the formula. Ignoring conditions doesn't make the math wrong — it makes the *conclusion* unreliable. The AP exam rewards students who state and verify conditions.
+**Why conditions matter:** Every inference procedure (confidence intervals, hypothesis tests, chi-square tests) has conditions that must be checked before applying the formula. Ignoring conditions doesn't make the math wrong, it makes the *conclusion* unreliable. The AP exam rewards students who state and verify conditions.
 
 **The calculator is your friend:** The TI-84 handles the computation, freeing you to focus on setup and interpretation. Master `Stat > Tests` for hypothesis tests and confidence intervals, and `LinReg` for regression analysis.
 

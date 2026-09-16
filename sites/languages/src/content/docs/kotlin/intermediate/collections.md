@@ -279,7 +279,7 @@ Processed:
 
 ```kotlin
 list.asSequence().filter { ... }.map { ... }.take(5)
-// Processes: element 1 (filter -> map), element 2, ... until 5 collected
+// Processes: element 1 (filter -> map), element 2... until 5 collected
 ```
 
 ### When to Use Sequences
@@ -293,7 +293,7 @@ list.asSequence().filter { ... }.map { ... }.take(5)
 ```kotlin
 val seq1 = listOf(1, 2, 3).asSequence()
 val seq2 = sequenceOf(1, 2, 3)
-val seq3 = generateSequence(1) { it * 2 }  // 1, 2, 4, 8, 16, ... (lazy, infinite)
+val seq3 = generateSequence(1) { it * 2 }  // 1, 2, 4, 8, 16... (lazy, infinite)
 val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..99
 ```
 
@@ -348,7 +348,7 @@ linked above.
 
 ## Cross-References
 
-- [Coroutines](../../../../../../kotlin/src/content/docs/intermediate/coroutines) — Flow operators on collections parallel coroutine-based async processing; both use functional transformation patterns.
-- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics) — Collection type parameters and variance annotations (in/out) are governed by the generic type system.
-- [Delegation and Result](../../../../../../kotlin/src/content/docs/intermediate/delegation-and-result) — Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
-- [Coroutines Advanced](../../../../../../kotlin/src/content/docs/intermediate/coroutines-advanced) — StateFlow and SharedFlow build on collection concepts to provide reactive state management.
+- [Coroutines](../../../../../../kotlin/src/content/docs/intermediate/coroutines), Flow operators on collections parallel coroutine-based async processing; both use functional transformation patterns.
+- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics), Collection type parameters and variance annotations (in/out) are governed by the generic type system.
+- [Delegation and Result](../../../../../../kotlin/src/content/docs/intermediate/delegation-and-result), Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
+- [Coroutines Advanced](../../../../../../kotlin/src/content/docs/intermediate/coroutines-advanced), StateFlow and SharedFlow build on collection concepts to provide reactive state management.

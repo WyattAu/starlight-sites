@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Trigonometry is like a bridge between angles and lengths — sine, cosine, and tangent are the tools that connect them.**
+**Trigonometry is like a bridge between angles and lengths, sine, cosine, and tangent are the tools that connect them.**
 
-## Trigonometry — Diagnostic Tests
+## Trigonometry, Diagnostic Tests
 
 ## Unit Tests
 

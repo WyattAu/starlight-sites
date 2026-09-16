@@ -59,7 +59,7 @@ Magnetic effects of current covers the magnetic field produced by electric curre
 - Torque on a dipole: $\vec{\tau} = \vec{m} \times \vec{B}$
 - Para-, dia-, and ferromagnetic materials respond differently to external fields
 
-## Worked Example 1 — Magnetic Field at the Centre of a Circular Loop
+## Worked Example 1, Magnetic Field at the Centre of a Circular Loop
 
 **Problem:** A circular loop of radius 0.1 m carries a current of 2 A. Find the magnetic field at its centre.
 
@@ -75,7 +75,7 @@ $$B \approx 1.26 \times 10^{-5} \, \text{T}$$
 
 **Common mistake:** Forgetting that for a coil of $N$ turns, the field is $B = \frac{\mu_0 N I}{2R}$.
 
-## Worked Example 2 — Force on a Charge in a Magnetic Field
+## Worked Example 2, Force on a Charge in a Magnetic Field
 
 **Problem:** A proton moves with velocity $2 \times 10^6 \, \text{m/s}$ at $30^\circ$ to a uniform magnetic field of $0.1 \, \text{T}$. Find the magnitude of the force.
 
@@ -87,7 +87,7 @@ $$F = 1.6 \times 10^{-19} \times 2 \times 10^6 \times 0.1 \times 0.5 = 1.6 \time
 
 **Common mistake:** Forgetting the $\sin\theta$ factor. When $\theta = 0$ (velocity parallel to field), the force is zero.
 
-## Worked Example 3 — Ampere's Law for a Solenoid
+## Worked Example 3, Ampere's Law for a Solenoid
 
 **Problem:** A long solenoid has 500 turns per metre and carries a current of 3 A. Find the magnetic field inside the solenoid.
 
@@ -105,7 +105,7 @@ $$B = 6\pi \times 10^{-4} \approx 1.88 \times 10^{-3} \, \text{T}$$
 
 **Common mistake:** Confusing total turns $N$ with turns per unit length $n = N/L$.
 
-## Worked Example 4 — Cyclotron Frequency
+## Worked Example 4, Cyclotron Frequency
 
 **Problem:** A proton is accelerated in a cyclotron with a magnetic field of $0.5 \, \text{T}$. Find the cyclotron frequency.
 
@@ -123,10 +123,10 @@ $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \
 
 ## Cross-References
 
-- **[Current Electricity](../current-electricity/index):** Electric currents produce magnetic fields — understanding circuits is prerequisite to understanding magnetic effects.
-- **[Electrostatics](../electrostatics/index):** Charges at rest produce electric fields; charges in motion produce magnetic fields — they're the electromagnetic duality.
+- **[Current Electricity](../current-electricity/index):** Electric currents produce magnetic fields, understanding circuits is prerequisite to understanding magnetic effects.
+- **[Electrostatics](../electrostatics/index):** Charges at rest produce electric fields; charges in motion produce magnetic fields, they're the electromagnetic duality.
 - **[Atoms and Nuclei](../atoms-nuclei/index):** The Bohr model uses magnetic fields to explain atomic spectra and the Zeeman effect.
-- **[Optics](../optics/index):** Electromagnetic waves include visible light — Maxwell's equations unify magnetic effects with optics.
+- **[Optics](../optics/index):** Electromagnetic waves include visible light, Maxwell's equations unify magnetic effects with optics.
 
 ## Practice Problems
 
@@ -136,11 +136,11 @@ $$f = \frac{8 \times 10^{-20}}{1.049 \times 10^{-26}} \approx 7.62 \times 10^6 \
 
 ## Intuition
 
-**Electricity and magnetism are two faces of the same coin:** Moving charges create magnetic fields, and changing magnetic fields create electric currents — they're inseparable partners. Think of a wire carrying current as creating an invisible magnetic "halo" around it, like a force field. A solenoid (coil of wire) concentrates this field inside, making it uniform — like organizing scattered magnets into a neat row so their fields reinforce. The force on a moving charge in a magnetic field is always perpendicular to its motion, which is why charged particles spiral in circles rather than straight lines.
+**Electricity and magnetism are two faces of the same coin:** Moving charges create magnetic fields, and changing magnetic fields create electric currents, they're inseparable partners. Think of a wire carrying current as creating an invisible magnetic "halo" around it, like a force field. A solenoid (coil of wire) concentrates this field inside, making it uniform, like organizing scattered magnets into a neat row so their fields reinforce. The force on a moving charge in a magnetic field is always perpendicular to its motion, which is why charged particles spiral in circles rather than straight lines.
 
 **Why it matters:** Magnetic effects underpin electric motors (which power everything from fans to electric cars), generators (which produce the electricity you use), MRI machines (which use magnetic fields to image your body), and particle accelerators (which explore the fundamental structure of matter).
 
-**The key insight:** The magnetic force on a moving charge is always perpendicular to both velocity and field, meaning it changes direction but never speed — it's the ultimate "turning force" that makes circular motion possible without doing work.
+**The key insight:** The magnetic force on a moving charge is always perpendicular to both velocity and field, meaning it changes direction but never speed, it's the ultimate "turning force" that makes circular motion possible without doing work.
 
 ## Common Exam Patterns
 

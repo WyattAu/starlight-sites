@@ -1,7 +1,7 @@
 ---
 
 title: "Matrices"
-description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and — at a more"
+description: "Matrices provide a compact algebraic framework for representing and manipulating systems of linear Equations, geometric transformations, and, at a more"
 date: 2026-04-02T00:00:00.000Z
 tags:
   - FurtherMaths
@@ -34,7 +34,7 @@ flowchart TD
 ## Matrices
 
 Matrices provide a compact algebraic framework for representing and manipulating systems of linear
-Equations, geometric transformations, and — at a more advanced level — quantum mechanical states and
+Equations, geometric transformations, and, at a more advanced level, quantum mechanical states and
 Data structures. This topic develops the algebra of matrices and their interpretation as linear
 Transformations of the plane and space.
 
@@ -1202,7 +1202,7 @@ Any square matrix $\mathbf{A}$ can be decomposed as $\mathbf{A} = \mathbf{L}\mat
 $\mathbf{L}$ is lower triangular and $\mathbf{U}$ is upper triangular. This is used for efficient
 Numerical solution of systems $\mathbf{Ax} = \mathbf{b}$.
 
-### 16.2 The Cayley--Hamilton theorem — applications
+### 16.2 The Cayley--Hamilton theorem, applications
 
 Since $\mathbf{A}$ satisfies $p(\mathbf{A}) = \mathbf{O}$ where $p$ is the characteristic
 Polynomial:

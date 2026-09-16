@@ -86,7 +86,7 @@ linearity breaks down.
 
 **Psychology:** Study hours and exam scores often show moderate positive correlation
 ($r \approx 0.4$ to $0.7$). The PMCC captures the linear trend, but individual variation means
-Prediction is imprecise — a student studying 10 hours could score anywhere on a wide range. This
+Prediction is imprecise, a student studying 10 hours could score anywhere on a wide range. This
 Illustrates that even a moderate $r$ does not guarantee accurate individual predictions.
 
 <hr />
@@ -110,7 +110,7 @@ Where $d_i$ is the difference in ranks for the $i$-th pair.
 ### 2.3 Handling tied ranks
 
 When values are tied, assign the average of the ranks they would have occupied. The simplified
-Formula above does not account for ties — a correction factor is needed for tied data.
+Formula above does not account for ties, a correction factor is needed for tied data.
 
 ### 2.4 PMCC vs. Spearman's Rank: When to Use Which
 
@@ -178,7 +178,7 @@ $$y = a + b\bar{x} = (\bar{y} - b\bar{x}) + b\bar{x} = \bar{y}$$
 So $(\bar{x}, \bar{y})$ lies on the regression line. $\blacksquare$
 
 **Intuition.** The regression line passes through the "centre of mass" of the data. This makes sense
-— the best-fit line should balance the data around it, just as the mean balances a univariate
+- the best-fit line should balance the data around it, just as the mean balances a univariate
 Dataset.
 
 <hr />
@@ -220,13 +220,13 @@ $x_i$).
 - **Funnel shape** (increasing spread): the variance is not constant (heteroscedasticity);
   predictions are less reliable at extremes.
 
-Residual plots are a diagnostic tool — they reveal whether the assumptions of linear regression are
+Residual plots are a diagnostic tool, they reveal whether the assumptions of linear regression are
 Met. In A Level exams, you may be asked to comment on a residual plot to assess whether the
 Regression line is a good model.
 
 ### 5.5 Outliers and Influential Points
 
-An **outlier** is a point with a large residual — it falls far from the regression line. An
+An **outlier** is a point with a large residual, it falls far from the regression line. An
 **influential point** is an outlier with high leverage, meaning its $x$-value is far from $\bar{x}$.
 Influential points can pull the regression line significantly toward themselves.
 
@@ -314,7 +314,7 @@ $S_{xy} = 74 - 5(3)(4.2) = 74 - 63 = 11$.
 $r = \dfrac{11}{\sqrt{10 \times 14.8}} = \dfrac{11}{\sqrt{148}} = \dfrac{11}{12.166} \approx 0.904$.
 
 **If you get this wrong, revise:**
-[Pearson's PMCC](#1-pearsons-product-moment-correlation-coefficient-pmcc) — Section 1.
+[Pearson's PMCC](#1-pearsons-product-moment-correlation-coefficient-pmcc), Section 1.
 
 </details>
 
@@ -333,7 +333,7 @@ $a = \bar{y} - b\bar{x} = 4.2 - 1.1(3) = 4.2 - 3.3 = 0.9$.
 
 Regression line: $y = 0.9 + 1.1x$.
 
-**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression) —
+**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression),
 Section 3.
 
 </details>
@@ -357,7 +357,7 @@ $\sum d^2 = 0 + 1 + 1 + 0 + 0 = 2$.
 $r_s = 1 - \dfrac{6 \times 2}{5(25-1)} = 1 - \dfrac{12}{120} = 1 - 0.1 = 0.9$.
 
 **If you get this wrong, revise:**
-[Spearman's Rank Correlation](#2-spearmans-rank-correlation-coefficient) — Section 2.
+[Spearman's Rank Correlation](#2-spearmans-rank-correlation-coefficient), Section 2.
 
 </details>
 
@@ -370,7 +370,7 @@ Prove that $\sum e_i = 0$ where $e_i = y_i - (a + bx_i)$ are the residuals of th
 <summary>Solution 4</summary>
 $$\sum e_i = \sum y_i - na - b\sum x_i = n\bar{y} - n(\bar{y} - b\bar{x}) - bn\bar{x} = n\bar{y} - n\bar{y} + nb\bar{x} - nb\bar{x} = 0 \quad \blacksquare$$
 
-**If you get this wrong, revise:** [Residuals](#51-residuals) — Section 5.1.
+**If you get this wrong, revise:** [Residuals](#51-residuals), Section 5.1.
 
 </details>
 
@@ -387,7 +387,7 @@ $y = 1 + 0.6(x-10) = 1 + 0.6x - 6 = 0.6x - 5$.
 
 So $y = -5 + 0.6x$.
 
-**If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression) — Section 6.
+**If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression), Section 6.
 
 </details>
 
@@ -400,7 +400,7 @@ A student finds $r = 0.95$ between ice cream sales and drowning deaths. The stud
 <summary>Solution 6</summary>
 Correlation does not imply causation. Both ice cream sales and drowning deaths are influenced by a **confounding variable**: hot weather. In summer, more people buy ice cream and more people swim, leading to more of both. The correlation is real but the causal claim is not supported.
 
-**If you get this wrong, revise:** [Properties](#12-properties) — Section 1.2.
+**If you get this wrong, revise:** [Properties](#12-properties), Section 1.2.
 
 </details>
 
@@ -417,7 +417,7 @@ $b = \dfrac{S_{xy}}{S_{xx}} = \dfrac{100}{80} = 1.25$.
 
 Proportion of variance explained $= r^2 = 0.625$ (62.5%).
 
-**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression) —
+**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression),
 Section 3.
 
 </details>
@@ -435,7 +435,7 @@ $\bar{y} = 2 + 3(5) = 17$.
 
 **If you get this wrong, revise:**
 [The Regression Line Passes Through $(\bar{x}, \bar{y})$](#4-the-regression-line-passes-through-barx-bary)
-— Section 4.
+- Section 4.
 
 </details>
 
@@ -452,7 +452,7 @@ Quadratic). The linear regression model is inappropriate because it fails to cap
 A more appropriate approach would be to fit a quadratic model $y = a + bx + cx^2$Or to apply a
 Transformation (e.g., taking logarithms) to linearise the relationship.
 
-**If you get this wrong, revise:** [Residual Plots](#54-residual-plots) — Section 5.4.
+**If you get this wrong, revise:** [Residual Plots](#54-residual-plots), Section 5.4.
 
 </details>
 
@@ -470,7 +470,7 @@ $n = 100$The threshold is approximately 0.197. While both datasets show the same
 Dataset B provides far stronger statistical evidence because random fluctuations are much less
 Likely to produce $r = 0.85$ with 100 observations.
 
-**If you get this wrong, revise:** [Properties](#12-properties) — Section 1.2.
+**If you get this wrong, revise:** [Properties](#12-properties), Section 1.2.
 
 </details>
 
@@ -506,7 +506,7 @@ This indicates very strong positive agreement between the two teachers' rankings
 Consistent assessment standards.
 
 **If you get this wrong, revise:**
-[Spearman's Rank Correlation](#2-spearmans-rank-correlation-coefficient) — Section 2.
+[Spearman's Rank Correlation](#2-spearmans-rank-correlation-coefficient), Section 2.
 
 </details>
 
@@ -539,8 +539,8 @@ This prediction is reasonably reliable since 150 is within (or close to) the ran
 However, $n = 12$ is a small sample, so there is considerable uncertainty. The prediction should not
 Be treated as precise.
 
-**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression) — Section
-3, and [Extrapolation](#52-extrapolation) — Section 5.2.
+**If you get this wrong, revise:** [Least Squares Regression](#3-least-squares-regression), Section
+3, and [Extrapolation](#52-extrapolation), Section 5.2.
 
 </details>
 
@@ -572,8 +572,8 @@ $$y - 100 = 1.6x - 20$$
 
 $$y = 80 + 1.6x$$
 
-**If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression) — Section 6, and
-[Effect of Coding on Correlation](#61-effect-of-coding-on-correlation) — Section 6.1.
+**If you get this wrong, revise:** [Coding in Regression](#6-coding-in-regression), Section 6, and
+[Effect of Coding on Correlation](#61-effect-of-coding-on-correlation), Section 6.1.
 
 </details>
 
@@ -596,11 +596,11 @@ Gradient (pull the line upward at the right side).
 
 (b) Since the point lies close to the general positive trend (above the line in the same direction
 As the overall slope), it will likely **increase** the PMCC slightly. However, if the point were
-Below the trend, it could decrease $r$ significantly — a single influential point can change $r$ by
+Below the trend, it could decrease $r$ significantly, a single influential point can change $r$ by
 A large amount.
 
 **If you get this wrong, revise:**
-[Outliers and Influential Points](#55-outliers-and-influential-points) — Section 5.5.
+[Outliers and Influential Points](#55-outliers-and-influential-points), Section 5.5.
 
 </details>
 
@@ -640,7 +640,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Data Representation](../statistics/01-data-representation) — The mean, standard deviation, and quartiles used here are defined in the data representation topic.
-- [Probability](../statistics/03-probability) — Understanding probability distributions is essential for interpreting correlation in a statistical context.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing) — Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
+- [Data Representation](../statistics/01-data-representation), The mean, standard deviation, and quartiles used here are defined in the data representation topic.
+- [Probability](../statistics/03-probability), Understanding probability distributions is essential for interpreting correlation in a statistical context.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing), Regression residuals and PMCC values are tested for significance using hypothesis testing methods.
 :::

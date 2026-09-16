@@ -331,7 +331,7 @@ Than one with complexity $O(n^2 \log n)$. Is this correct? Explain.
 <details>
 <summary>Answer</summary>
 
-No. Big-O is an **asymptotic** upper bound — it describes behaviour as $n \to \infty$. For small
+No. Big-O is an **asymptotic** upper bound, it describes behaviour as $n \to \infty$. For small
 $n$The $O(n^3)$ algorithm might be faster due to smaller constant factors.
 
 Example: Algorithm A takes $1000n^2 \log n$ operations, Algorithm B takes $n^3$ operations. For
@@ -550,7 +550,7 @@ grows strictly slower than $g$.
 
 **(a) $O(n \log n)$ is more efficient than $O(n^2)$.**
 $\lim_{n \to \infty} \frac{n \log n}{n^2} = \lim_{n \to \infty} \frac{\log n}{n} = 0$.
-So $n \log n = o(n^2)$ — it grows strictly slower.
+So $n \log n = o(n^2)$, it grows strictly slower.
 
 **(b) $O(n^3)$ is more efficient than $O(2^n)$.** $\lim_{n \to \infty} \frac{n^3}{2^n} = 0$
 (exponential always dominates polynomial). So $n^3 = o(2^n)$.
@@ -626,7 +626,7 @@ Recursion go, and how much space does each stack frame use?
 Depth is `n` (from `sum_recursive(arr, n)` down to `sum_recursive(arr, 0)`).
 
 **Stack frame size:** Each frame stores the parameters `arr` (a reference, $O(1)$) and `n` (an
-Integer, $O(1)$), plus the return address and local variables — all $O(1)$ per frame.
+Integer, $O(1)$), plus the return address and local variables, all $O(1)$ per frame.
 
 **Total space:** $n \times O(1) = O(n)$.
 
@@ -754,7 +754,7 @@ $$= n\left(1 + \frac{1}{2} + \frac{1}{4} + \cdots\right) = n \cdot 2 = 2n = O(n)
 
 </details>
 
-**Problem 10.** (Exam-style) Two algorithms solve the same problem — counting inversions in an array
+**Problem 10.** (Exam-style) Two algorithms solve the same problem, counting inversions in an array
 (the number of pairs (i, j) where i < j but A[i] > A[j]).
 
 **Algorithm P** uses a brute-force approach:
@@ -818,7 +818,7 @@ $$\frac{n^2/2}{n \log n} = \frac{n}{2 \log_2 n} = \frac{10\,000}{2 \times 13.3} 
 Algorithm Q is approximately **376 times faster** than Algorithm P for $n = 10\,000$.
 
 **Reasoning:** The difference grows with $n$. For $n = 1\,000\,000$Algorithm P would perform
-$\approx 5 \times 10^{11}$ operations while Algorithm Q performs $\approx 20\,000\,000$ — a factor
+$\approx 5 \times 10^{11}$ operations while Algorithm Q performs $\approx 20\,000\,000$, a factor
 Of 25,000×. This demonstrates the critical importance of choosing algorithms with better asymptotic
 Complexity for large inputs.
 

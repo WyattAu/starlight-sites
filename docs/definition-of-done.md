@@ -1,6 +1,6 @@
 ---
 title: "Definition of Done"
-description: "Formal criteria for completing work on Wyatt's Notes — prevents scope creep and ensures quality."
+description: "Formal criteria for completing work on Wyatt's Notes, prevents scope creep and ensures quality."
 ---
 
 # Definition of Done

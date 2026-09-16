@@ -355,8 +355,8 @@ template<typename T>
 void classify(T) { std::cout << "integral\n"; }
 
 int main() {
-    classify(42);     // "integral" — std::integral subsumes Numeric
-    classify(3.14);   // "numeric"  — only Numeric is satisfied
+    classify(42);     // "integral", std::integral subsumes Numeric
+    classify(3.14);   // "numeric", only Numeric is satisfied
 }
 ```
 
@@ -418,7 +418,7 @@ Requires-expression is both more readable and more expressive:
 #include <concepts>
 #include <string>
 
-// C++17 detection idiom — verbose
+// C++17 detection idiom, verbose
 template<typename T, typename = void>
 struct has_reserve : std::false_type {};
 
@@ -426,7 +426,7 @@ template<typename T>
 struct has_reserve<T, std::void_t<decltype(std::declval<T&>().reserve(std::size_t{}))>>
     : std::true_type {};
 
-// C++20 concept — equivalent and cleaner
+// C++20 concept, equivalent and cleaner
 template<typename T>
 concept HasReserve = requires(T& t) {
     { t.reserve(std::size_t{}) } -> std::same_as<void>;
@@ -458,11 +458,11 @@ However, for new C++20 code, concepts should be the default choice for template 
 
 ## Intuition
 
-**SFINAE vs concepts is like old maps vs GPS:** SFINAE (Substitution Failure Is Not An Error) is the old way — you write complex template metaprogramming tricks to constrain templates, and if substitution fails, the overload is silently removed. It works, but it's like navigating with an old paper map — you can get lost efficiently. Concepts are the GPS — you specify the destination (constraint) evidently, and the compiler tells you exactly where you went wrong. The error messages are better, the code is readable, and the constraints are composable.
+**SFINAE vs concepts is like old maps vs GPS:** SFINAE (Substitution Failure Is Not An Error) is the old way, you write complex template metaprogramming tricks to constrain templates, and if substitution fails, the overload is silently removed. It works, but it's like navigating with an old paper map, you can get lost efficiently. Concepts are the GPS, you specify the destination (constraint) evidently, and the compiler tells you exactly where you went wrong. The error messages are better, the code is readable, and the constraints are composable.
 
-**Why it matters:** SFINAE is the pre-C++20 way to constrain templates. It works, but the error messages are cryptic, the code is hard to read, and the constraints are fragile. Concepts replace SFINAE with readable, composable constraints that give clear error messages. For new C++20 code, concepts should be the default choice — SFINAE is only needed for backward compatibility or complex constraints that concepts can't express.
+**Why it matters:** SFINAE is the pre-C++20 way to constrain templates. It works, but the error messages are cryptic, the code is hard to read, and the constraints are fragile. Concepts replace SFINAE with readable, composable constraints that give clear error messages. For new C++20 code, concepts should be the default choice, SFINAE is only needed for backward compatibility or complex constraints that concepts can't express.
 
-**The key insight:** Concepts are the modern replacement for SFINAE — they're readable, composable, and give clear error messages. Use concepts for new code; SFINAE for backward compatibility.
+**The key insight:** Concepts are the modern replacement for SFINAE, they're readable, composable, and give clear error messages. Use concepts for new code; SFINAE for backward compatibility.
 
 ## Common Pitfalls
 
@@ -474,7 +474,7 @@ Produces a hard error rather than a substitution failure:
 ```cpp
 #include <type_traits>
 
-// WRONG: missing typename — hard error
+// WRONG: missing typename, hard error
 template<typename T>
 typename std::enable_if<T::value, int>::type  // T::value is type-dependent
 bad_sfinae(T) { return 0; }
@@ -546,12 +546,12 @@ Readable:
 #include <iostream>
 #include <vector>
 
-// BAD: complex inline condition — poor error message
+// BAD: complex inline condition, poor error message
 template<typename T>
     requires std::integral<T> && sizeof(T) &lt;= 4 && std::is_signed_v<T>
 void process(T) {}
 
-// GOOD: decomposed into named concepts — clear error messages
+// GOOD: decomposed into named concepts, clear error messages
 template<typename T>
 concept SmallSignedIntegral = std::signed_integral<T> && sizeof(T) &lt;= 4;
 

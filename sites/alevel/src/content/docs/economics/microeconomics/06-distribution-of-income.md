@@ -179,8 +179,8 @@ $$\frac{dT}{dY} < \frac{T}{Y}$$
 
 ### 4.2 Transfer Payments
 
-- **Universal benefits**: paid to all (e.g., state pension, NHS) — no poverty trap but costly
-- **Means-tested benefits**: targeted at low-income households (e.g., Universal Credit) — more
+- **Universal benefits**: paid to all (e.g., state pension, NHS), no poverty trap but costly
+- **Means-tested benefits**: targeted at low-income households (e.g., Universal Credit), more
   efficient but create poverty traps
 - **In-kind transfers**: provision of goods/services rather than cash (e.g., free school meals,
   social housing)
@@ -344,7 +344,7 @@ Proportional against income.
 
 <details>
 <summary>Hint</summary>
-Low-income households spend a larger proportion of their income (sometimes more than 100% — dissaving) than high-income households. A flat tax on income is proportional against income. But low-income households spend nearly all income, while high-income households save a large fraction. If measured against *spending*, the effective tax rate on spending is: for low-income households, $\approx 20\%$ of all spending; for high-income households, the tax as a fraction of spending is lower because much income is saved, not spent. Actually, a flat income tax is proportional by definition. The regressivity argument applies to *consumption taxes* (VAT), not flat income taxes. Clarify the distinction.
+Low-income households spend a larger proportion of their income (sometimes more than 100%, dissaving) than high-income households. A flat tax on income is proportional against income. But low-income households spend nearly all income, while high-income households save a large fraction. If measured against *spending*, the effective tax rate on spending is: for low-income households, $\approx 20\%$ of all spending; for high-income households, the tax as a fraction of spending is lower because much income is saved, not spent. Actually, a flat income tax is proportional by definition. The regressivity argument applies to *consumption taxes* (VAT), not flat income taxes. Clarify the distinction.
 </details>
 
 **Problem 3.** The median household income in a country is £30,000. The relative poverty line is 60%
@@ -387,7 +387,7 @@ Tools for reducing poverty.
 
 <details>
 <summary>Hint</summary>
-Universal: advantages — no stigma, no poverty trap, universal coverage, simple to administer. Disadvantages — expensive (goes to those who don't need it), may require higher taxes. Means-tested: advantages — targeted, cheaper, can provide higher benefits to those most in need. Disadvantages — creates poverty traps (high EMTR), stigma, non-take-up (eligible people don't claim), administrative complexity.
+Universal: advantages, no stigma, no poverty trap, universal coverage, simple to administer. Disadvantages, expensive (goes to those who don't need it), may require higher taxes. Means-tested: advantages, targeted, cheaper, can provide higher benefits to those most in need. Disadvantages, creates poverty traps (high EMTR), stigma, non-take-up (eligible people don't claim), administrative complexity.
 </details>
 
 **Problem 8.** A country has a Gini coefficient of 0.25 for income but 0.65 for wealth. Explain why
@@ -395,7 +395,7 @@ Wealth is more unequally distributed than income, and discuss the implications f
 
 <details>
 <summary>Hint</summary>
-Wealth is accumulated over lifetimes and generations; income is measured annually. Wealth generates returns ($r > g$), creating compounding effects. Inheritance concentrates wealth. Implications for social mobility: wealthy families can invest in education, health, networks, and housing for their children, giving them advantages regardless of individual talent. High wealth inequality reduces intergenerational mobility (the "Great Gatsby curve" — countries with higher inequality tend to have lower mobility).
+Wealth is accumulated over lifetimes and generations; income is measured annually. Wealth generates returns ($r > g$), creating compounding effects. Inheritance concentrates wealth. Implications for social mobility: wealthy families can invest in education, health, networks, and housing for their children, giving them advantages regardless of individual talent. High wealth inequality reduces intergenerational mobility (the "Great Gatsby curve", countries with higher inequality tend to have lower mobility).
 </details>
 
 **Problem 9.** Evaluate the argument that globalisation has increased inequality within developed
@@ -411,7 +411,7 @@ Discuss.
 
 <details>
 <summary>Hint</summary>
-Education addresses the *root cause* (productivity differences) rather than the *symptom* (income differences). Improves human capital, raises wages at the bottom, promotes social mobility. More politically acceptable than higher taxes. But: takes decades to have effect, access to education is itself unequal, doesn't help those past working age, quality of education matters more than quantity. Redistribution provides immediate relief for those in poverty. Optimal approach: both — invest in education for long-run equality of opportunity, and redistribute for short-run poverty alleviation.
+Education addresses the *root cause* (productivity differences) rather than the *symptom* (income differences). Improves human capital, raises wages at the bottom, promotes social mobility. More politically acceptable than higher taxes. But: takes decades to have effect, access to education is itself unequal, doesn't help those past working age, quality of education matters more than quantity. Redistribution provides immediate relief for those in poverty. Optimal approach: both, invest in education for long-run equality of opportunity, and redistribute for short-run poverty alleviation.
 </details>
 
 ## 9. Lorenz Curve Interpretation: Worked Example
@@ -609,7 +609,7 @@ Transferring after market incomes are determined). Over-reliance on either alone
 
 3. **Ignoring the difference between absolute and relative poverty.** A country can have very low absolute poverty but high relative poverty. Policies to address each are different: absolute poverty requires economic growth and direct transfers; relative poverty requires reducing the income gap.
 
-4. **Overstating the poverty trap.** While high EMTRs exist, empirical evidence suggests that most people still respond to financial incentives. The poverty trap is a real but often exaggerated problem — few people face EMTRs above 80%.
+4. **Overstating the poverty trap.** While high EMTRs exist, empirical evidence suggests that most people still respond to financial incentives. The poverty trap is a real but often exaggerated problem, few people face EMTRs above 80%.
 
 5. **Treating the Gini coefficient as a complete measure.** The Gini is insensitive to changes at different parts of the distribution. Two countries with the same Gini can have very different income distributions (e.g., one with a large underclass, another with a small elite). Always use supplementary measures like the Palma ratio.
 
@@ -1296,8 +1296,8 @@ success in this subject.
 
 ## Intuition
 
-Inequality is fundamentally about how the economic pie is sliced. Imagine a group of people at a dinner: if one person takes 50% of the food while half the group shares just 10%, we'd call that unfair. The Lorenz curve is directly a picture of that dinner — it shows you exactly how the pie is divided, from the hungriest person to the fullest. The Gini coefficient is just a single number summarising how bent that curve is: a straight line means everyone gets an equal slice; a deeply bowed curve means a few people are eating very well while others go hungry.
+Inequality is fundamentally about how the economic pie is sliced. Imagine a group of people at a dinner: if one person takes 50% of the food while half the group shares just 10%, we'd call that unfair. The Lorenz curve is directly a picture of that dinner, it shows you exactly how the pie is divided, from the hungriest person to the fullest. The Gini coefficient is just a single number summarising how bent that curve is: a straight line means everyone gets an equal slice; a deeply bowed curve means a few people are eating very well while others go hungry.
 
-The tricky part is that inequality has many causes and no single solution. Some inequality is natural and even useful — people with rare skills or who take big risks earn more, which encourages others to develop skills and start businesses. But inequality becomes a problem when it's driven by factors people can't control, like inheriting wealth, facing discrimination, or being born in the wrong postcode. The "leaky bucket" analogy captures the core dilemma perfectly: when you try to move money from the rich to the poor, some of it spills — through administrative costs, reduced work incentives, or tax avoidance. The question isn't whether the bucket leaks, but whether the redistribution still leaves the poor better off enough to justify the loss.
+The tricky part is that inequality has many causes and no single solution. Some inequality is natural and even useful, people with rare skills or who take big risks earn more, which encourages others to develop skills and start businesses. But inequality becomes a problem when it's driven by factors people can't control, like inheriting wealth, facing discrimination, or being born in the wrong postcode. The "leaky bucket" analogy captures the core dilemma perfectly: when you try to move money from the rich to the poor, some of it spills, through administrative costs, reduced work incentives, or tax avoidance. The question isn't whether the bucket leaks, but whether the redistribution still leaves the poor better off enough to justify the loss.
 
-What makes this topic really interesting is the tension between growth and fairness. A country can have high growth but leave most people behind, or it can have very equal incomes but be equally poor. The best outcomes — like the Nordic countries — manage to be both relatively equal and highly productive, by investing heavily in education, healthcare, and institutions that give everyone a genuine chance. The policy toolkit is wide (taxes, benefits, minimum wages, education), and the right mix depends on a country's specific problems. There's no one-size-fits-all answer, but understanding the trade-offs is the key to making good policy choices.
+What makes this topic really interesting is the tension between growth and fairness. A country can have high growth but leave most people behind, or it can have very equal incomes but be equally poor. The best outcomes, like the Nordic countries, manage to be both relatively equal and highly productive, by investing heavily in education, healthcare, and institutions that give everyone a genuine chance. The policy toolkit is wide (taxes, benefits, minimum wages, education), and the right mix depends on a country's specific problems. There's no one-size-fits-all answer, but understanding the trade-offs is the key to making good policy choices.

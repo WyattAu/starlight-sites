@@ -107,7 +107,7 @@ Or **Defect** (betray the other). The payoff matrix (years in prison, so lower i
 ### The Core Insight
 
 The prisoner's dilemma demonstrates that individually rational behaviour can lead to collectively
-Suboptimal outcomes. The Nash equilibrium is not Pareto efficient — both players would be better off
+Suboptimal outcomes. The Nash equilibrium is not Pareto efficient, both players would be better off
 Cooperating, but neither has the incentive to do so unilaterally.
 
 ### Applications in Economics
@@ -181,7 +181,7 @@ Empirical evidence to model how people actually make decisions.
 
 Herbert Simon (1955) proposed that individuals are **boundedly rational**: they make satisfactory
 Rather than optimal decisions because of limited information, limited cognitive processing capacity,
-And limited time. People use **heuristics** — mental shortcuts — to simplify complex decisions.
+And limited time. People use **heuristics**, mental shortcuts, to simplify complex decisions.
 
 ### Heuristics and Biases
 
@@ -264,8 +264,8 @@ Procrastination, undersaving for retirement, and difficulty maintaining diets.
 
 ### Nudge Theory
 
-Richard Thaler and Cass Sunstein (2008) proposed that choice architecture — the way options are
-Presented — can influence decisions without restricting freedom of choice. A **nudge** is any aspect
+Richard Thaler and Cass Sunstein (2008) proposed that choice architecture, the way options are
+Presented, can influence decisions without restricting freedom of choice. A **nudge** is any aspect
 Of that architecture that alters behaviour predictably without forbidding options or significantly
 Changing economic incentives.
 
@@ -309,7 +309,7 @@ While preserving their freedom to choose otherwise.
   reference dependence are fundamental departures that change predictions qualitatively, not just
   quantitatively.
 - Assuming that bounded rationality implies irrationality. Bounded rationality is often a rational
-  response to constraints — satisficing can be optimal when information is costly to acquire.
+  response to constraints, satisficing can be optimal when information is costly to acquire.
 - Confounding nudges with mandates. Nudges preserve freedom of choice; regulations and bans do not.
 
 ## Practice Problems
@@ -408,7 +408,7 @@ person Is more patient.
 With exponential discounting at a constant rate, the preference should be consistent: if you prefer
 `USD 100` today over `USD 120` in a month, you should also prefer `USD 100` in 12 months over
 `USD 120` in 13 months (since the trade-off is identical). The inconsistency reveals that the
-discount rate is Not constant — it is much higher for immediate trade-offs than for future ones.
+discount rate is Not constant, it is much higher for immediate trade-offs than for future ones.
 
 This has important implications for savings behaviour, health decisions, and commitment devices.
 
@@ -428,7 +428,7 @@ Than actively changing it.
 
 **Ethical considerations:**
 
-- _Libertarian paternalism_: the nudge preserves freedom of choice — anyone can opt out. The default
+- _Libertarian paternalism_: the nudge preserves freedom of choice, anyone can opt out. The default
   is changed, not forced.
 - _Autonomy_: critics argue that presumed consent may not reflect genuine consent, particularly if
   people are unaware of the default or face barriers to opting out.
@@ -2736,15 +2736,15 @@ success in this subject.
 
 ## Intuition
 
-Game theory is the mathematics of strategy. It studies situations where your best choice depends on what others choose. The prisoner's dilemma is the classic example: two suspects are interrogated separately. If both stay silent, both get light sentences. If one betrays the other, the betrayer goes free while the other gets a heavy sentence. If both betray, both get moderate sentences. The Nash equilibrium is for both to betray — even though both would be better off if both stayed silent. This explains why cooperation is hard even when it's mutually beneficial.
+Game theory is the mathematics of strategy. It studies situations where your best choice depends on what others choose. The prisoner's dilemma is the classic example: two suspects are interrogated separately. If both stay silent, both get light sentences. If one betrays the other, the betrayer goes free while the other gets a heavy sentence. If both betray, both get moderate sentences. The Nash equilibrium is for both to betray, even though both would be better off if both stayed silent. This explains why cooperation is hard even when it's mutually beneficial.
 
-Nash equilibrium is the "no regrets" outcome: given what everyone else is doing, no one wishes they had chosen differently. It doesn't mean the outcome is optimal — it just means no one can improve their payoff by unilaterally changing strategy. Behavioural economics then adds that real humans aren't perfectly rational: we have biases, use heuristics, and are influenced by framing, social norms, and loss aversion.
+Nash equilibrium is the "no regrets" outcome: given what everyone else is doing, no one wishes they had chosen differently. It doesn't mean the outcome is optimal, it just means no one can improve their payoff by unilaterally changing strategy. Behavioural economics then adds that real humans aren't perfectly rational: we have biases, use heuristics, and are influenced by framing, social norms, and loss aversion.
 
 ## Common Mistakes
 
 1. **Confusing Nash equilibrium with optimal outcomes.** A Nash equilibrium is a stable outcome where no player can benefit by changing strategy alone, but it is often not the best collective outcome. The prisoner's dilemma illustrates this: both players defecting is the Nash equilibrium, but both cooperating would yield a better result for both. Equilibrium ≠ optimality.
 
-2. **Assuming rationality in all game-theoretic analyses.** Classical game theory assumes perfectly rational players, but behavioural economics shows that real people use heuristics, exhibit loss aversion, and are affected by framing. When analysing games, consider whether the assumption of rationality is realistic for the context — many real-world strategic interactions involve bounded rationality.
+2. **Assuming rationality in all game-theoretic analyses.** Classical game theory assumes perfectly rational players, but behavioural economics shows that real people use heuristics, exhibit loss aversion, and are affected by framing. When analysing games, consider whether the assumption of rationality is realistic for the context, many real-world strategic interactions involve bounded rationality.
 
 3. **Ignoring dominated strategies too early.** Before searching for Nash equilibria, eliminate strictly dominated strategies (strategies that are always worse regardless of what others do). Students sometimes jump to equilibrium analysis without first simplifying the game, leading to unnecessarily complex or incorrect solutions.
 

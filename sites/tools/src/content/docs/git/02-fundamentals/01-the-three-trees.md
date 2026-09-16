@@ -23,7 +23,7 @@ categories:
 ## Overview
 
 Git manipulates three distinct data structures, conventionally called **trees** (though "tree" is
-overloaded in Git terminology — see [Git Objects](./02-git-objects)). These are:
+overloaded in Git terminology, see [Git Objects](./02-git-objects)). These are:
 
 1. **The Working Directory** (also called the **working tree**). The actual files on disk.
 2. **The Index** (also called the **staging area** or **cache**). A binary file at `.git/index`
@@ -60,7 +60,7 @@ stateDiagram-v2
 ## The Working Directory
 
 The working directory is the directory on your filesystem where you edit files. It is a **checkout**
-of a particular commit"s tree — Git extracts the files referenced by a tree object and writes them
+of a particular commit"s tree, Git extracts the files referenced by a tree object and writes them
 to disk.
 
 ### Key Properties
@@ -81,7 +81,7 @@ Git classifies files in the working directory into two categories:
 | **Tracked**   | File is in the index (either as a new addition or inherited from the last commit). | `git diff` (modified), `git status` (deleted) |
 | **Untracked** | File is not in the index and not in `.gitignore`.                                  | `git status` (untracked files)                |
 
-Files listed in `.gitignore` are **ignored** — they are not tracked and `git status` will not
+Files listed in `.gitignore` are **ignored**, they are not tracked and `git status` will not
 mention them.
 
 :::caution
@@ -89,7 +89,7 @@ to `.gitignore` will have no effect. You must first untrack it with `git rm --ca
 
 ## The Index
 
-The index is perhaps the most misunderstood part of Git. It is **not** a diff or a list of changes —
+The index is perhaps the most misunderstood part of Git. It is **not** a diff or a list of changes,
 it is a **complete snapshot** of the next commit's tree. When you run `git add file.txt`Git does not
 record "file.txt was modified"; it computes the SHA-1 hash of the file's current content, creates
 (or reuses) a blob object in `.git/objects/`And updates the index to point to that blob.
@@ -136,7 +136,7 @@ contains:
 
 - **The object store** (`.git/objects/`): All blobs, trees, commits, and tags, identified by their
   SHA-1 hashes.
-- **References** (`.git/refs/`): Named pointers to commits — branches, tags, HEAD.
+- **References** (`.git/refs/`): Named pointers to commits, branches, tags, HEAD.
 - **Configuration** (`.git/config`): Repository-local settings.
 - **Various metadata**: `description``info/exclude``hooks/`Etc.
 
@@ -150,12 +150,12 @@ is the most important reference in this guide:
 
 | Command                       | From → To                                     | Effect                                                                        |
 | ----------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
-| `git init`                    | — → Repository + Working Directory            | Creates empty repository and working directory                                |
+| `git init`                    |, → Repository + Working Directory            | Creates empty repository and working directory                                |
 | `git clone`                   | Remote → Repository → Working Directory       | Copies remote repository and checks out default branch                        |
 | `git add <file>`              | Working Directory → Index                     | Computes blob hash, updates index entry                                       |
 | `git add -p <file>`           | Working Directory → Index (partial)           | Stages selected hunks only                                                    |
-| `git rm <file>`               | Working Directory + Index → —                 | Removes from index and working directory                                      |
-| `git rm --cached <file>`      | Index → —                                     | Removes from index only (file remains on disk)                                |
+| `git rm <file>`               | Working Directory + Index →,                 | Removes from index and working directory                                      |
+| `git rm --cached <file>`      | Index →,                                     | Removes from index only (file remains on disk)                                |
 | `git commit`                  | Index → Repository                            | Creates commit object pointing to current index tree                          |
 | `git status`                  | Reads all three                               | Shows differences between the trees                                           |
 | `git diff`                    | Working Directory vs Index                    | Shows unstaged changes                                                        |
@@ -248,7 +248,7 @@ Understanding these states is critical for using Git safely:
   discard changes. `git stash` will save them.
 - **D2 only**: You have staged files but the working directory matches the index. Safe to commit.
   Switching branches will carry staged changes.
-- **D3**: Both staged and unstaged changes exist. Be careful with `git checkout` — it only affects
+- **D3**: Both staged and unstaged changes exist. Be careful with `git checkout`it only affects
   the working directory, not the index.
 - **D4**: A merge conflict. The index has entries in multiple stages. You must resolve conflicts
   (editing files) and `git add` them to mark resolution before committing.

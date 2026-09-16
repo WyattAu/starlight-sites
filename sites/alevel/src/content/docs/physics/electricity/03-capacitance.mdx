@@ -23,11 +23,11 @@ Explore the simulation above to develop intuition for this topic.
 
 ## Intuition
 
-**A capacitor is like a rechargeable battery that charges instantly:** Imagine two metal plates separated by a small gap. When you connect a battery, positive charge accumulates on one plate and negative charge on the other. The gap prevents current from flowing through, but the electric field between the plates stores energy. When you disconnect the battery, the capacitor holds its charge — like a tiny, fast-charging battery.
+**A capacitor is like a rechargeable battery that charges instantly:** Imagine two metal plates separated by a small gap. When you connect a battery, positive charge accumulates on one plate and negative charge on the other. The gap prevents current from flowing through, but the electric field between the plates stores energy. When you disconnect the battery, the capacitor holds its charge, like a tiny, fast-charging battery.
 
 **Why it matters:** Capacitors store energy in electric fields and are used in camera flashes (instant high-power discharge), computer memory (storing bits as charged/uncharged), power supplies (smoothing voltage ripple), and tuning circuits (selecting radio frequencies). They're one of the most common electronic components.
 
-**The key insight:** Capacitors charge and discharge exponentially — they reach ~63% of full charge in one time constant ($\tau = RC$) and ~99% in 5 time constants. This exponential behaviour is why capacitor circuits have characteristic "charging curves" that look the same regardless of the specific values of R and C.
+**The key insight:** Capacitors charge and discharge exponentially, they reach ~63% of full charge in one time constant ($\tau = RC$) and ~99% in 5 time constants. This exponential behaviour is why capacitor circuits have characteristic "charging curves" that look the same regardless of the specific values of R and C.
 
 ## 1. Capacitance
 
@@ -42,7 +42,7 @@ In practice, capacitances range from picofarads (pF) to millifarads (mF).
 
 **Intuition.** A capacitor is a device that stores charge. When a p.d. Is applied across two
 Parallel conducting plates, one plate gains $+Q$ and the other gains $-Q$. The larger the plates and
-The closer they are, the more charge can be stored for a given p.d. — hence the larger the
+The closer they are, the more charge can be stored for a given p.d., hence the larger the
 Capacitance.
 
 ## 2. Parallel Plate Capacitor
@@ -221,7 +221,7 @@ For discharging: $\frac{Q}{Q_0} = e^{-1} = 0.368$ So **36.8%** remains (63.2% is
 | $5\tau$ | 99.3%   | 0.7%                 |
 
 **Intuition.** The time constant is the "characteristic time" of the circuit. A large resistance
-Limits the charging current, and a large capacitance requires more charge — both increase the time
+Limits the charging current, and a large capacitance requires more charge, both increase the time
 Needed. After $5\tau$The capacitor is effectively fully charged or discharged.
 
 :::tip
@@ -247,7 +247,7 @@ Dielectric respond in one of two ways depending on the material:
    The applied field distorts the electron cloud relative to the nucleus, **inducing** a dipole
    moment proportional to the applied field.
 
-In both cases, the net effect is the same: the dielectric material becomes **polarised** — the
+In both cases, the net effect is the same: the dielectric material becomes **polarised**, the
 Positive and negative charges within the molecules shift slightly in opposite directions along the
 Field lines.
 
@@ -313,7 +313,7 @@ Insertion), the new capacitance is:
 $$C = \frac{Q}{V} = \frac{Q}{V_0/\varepsilon_r} = \varepsilon_r \frac{Q}{V_0} = \boxed{\varepsilon_r C_0}$$
 
 The capacitance increases by a factor of $\varepsilon_r$. Physically, the reduced internal field
-Means a smaller p.d. For the same charge — the capacitor can store more charge for the same p.d.
+Means a smaller p.d. For the same charge, the capacitor can store more charge for the same p.d.
 
 ### Absolute vs Relative Permittivity
 
@@ -331,7 +331,7 @@ $$C = \frac{\varepsilon A}{d} = \frac{\varepsilon_0 \varepsilon_r A}{d}$$
 
 The **dielectric strength** is the maximum electric field a material can withstand before electrical
 Breakdown occurs (the dielectric becomes conducting). When $E$ exceeds this threshold, electrons are
-Ripped from their atoms and a conducting path forms — this is what happens in a lightning strike,
+Ripped from their atoms and a conducting path forms, this is what happens in a lightning strike,
 For instance.
 
 The maximum p.d. A capacitor can tolerate is:
@@ -1012,6 +1012,6 @@ linked above.
 
 ## Cross-References
 
-- [DC Circuits](../electricity/02-dc-circuits) — Capacitors are charged and discharged through resistors, requiring Kirchhoff's laws.
-- [Fields](../diagnostics/diag-electric-fields) — The parallel plate capacitor is derived from the uniform electric field between conductors.
-- [Oscillations and Waves](../mechanics/07-oscillations) — RC circuits produce exponential decay analogous to damped oscillations in mechanical systems.
+- [DC Circuits](../electricity/02-dc-circuits), Capacitors are charged and discharged through resistors, requiring Kirchhoff's laws.
+- [Fields](../diagnostics/diag-electric-fields), The parallel plate capacitor is derived from the uniform electric field between conductors.
+- [Oscillations and Waves](../mechanics/07-oscillations), RC circuits produce exponential decay analogous to damped oscillations in mechanical systems.

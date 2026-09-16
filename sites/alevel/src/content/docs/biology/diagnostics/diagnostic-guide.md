@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## A-Level Biology — Diagnostic Test Guide
+## A-Level Biology, Diagnostic Test Guide
 
 ## Purpose
 
@@ -46,9 +46,9 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 
 | Score   | Interpretation                                                      |
 | ------- | ------------------------------------------------------------------- |
-| 5-6 / 6 | Excellent — focus on integration tests in other topics              |
-| 3-4 / 6 | Secure foundations — revisit specific weak areas                    |
-| 0-2 / 6 | Significant gaps — work through the corresponding topic notes first |
+| 5-6 / 6 | Excellent, focus on integration tests in other topics              |
+| 3-4 / 6 | Secure foundations, revisit specific weak areas                    |
+| 0-2 / 6 | Significant gaps, work through the corresponding topic notes first |
 
 ## Unit Tests vs Integration Tests
 
@@ -73,7 +73,7 @@ Each topic file contains **3 unit tests** (single-topic depth) and **3 integrati
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
 ## Summary
 

@@ -59,7 +59,7 @@ Solutions are homogeneous mixtures of two or more components. This topic covers 
 - Osmotic pressure: $\pi = CRT$
 - van't Hoff factor $i$ accounts for dissociation or association
 
-## Worked Example 1 — Molality from Molarity
+## Worked Example 1, Molality from Molarity
 
 **Problem:** A sulfuric acid solution has molarity 18 M and density 1.8 g/mL. Calculate its molality. (Molar mass of H$_2$SO$_4$ = 98 g/mol)
 
@@ -76,7 +76,7 @@ $$\text{Molality} = \frac{18}{0.036} = 500 \text{ m}$$
 
 **Common mistake:** Confusing mass of solution with mass of solvent. The denominator in molality is mass of solvent only.
 
-## Worked Example 2 — Boiling Point Elevation
+## Worked Example 2, Boiling Point Elevation
 
 **Problem:** Calculate the boiling point of a 0.5 m aqueous solution of NaCl. ($K_b$ for water = 0.52 K kg/mol)
 
@@ -90,7 +90,7 @@ Boiling point = $100 + 0.52 = 100.52^\circ$C
 
 **Common mistake:** Forgetting the van't Hoff factor for electrolytes. Using $i = 1$ gives $\Delta T_b = 0.26$ K, which is wrong.
 
-## Worked Example 3 — Osmotic Pressure
+## Worked Example 3, Osmotic Pressure
 
 **Problem:** A protein solution has osmotic pressure 2.5 kPa at 27$^\circ$C. If the protein has molar mass 50,000 g/mol, find its concentration in g/L.
 
@@ -105,7 +105,7 @@ $$1.002 \times 10^{-3} \times 50{,}000 = 50.1 \text{ g/L}$$
 
 **Common mistake:** Using $R = 0.0821$ L atm/(mol K) when pressure is in kPa. Either convert pressure to atm or use $R = 8.314$ J/(mol K) with SI units.
 
-## Worked Example 4 — Freezing Point Depression
+## Worked Example 4, Freezing Point Depression
 
 **Problem:** Calculate the freezing point of a 1.0 m CaCl$_2$ solution. ($K_f$ for water = 1.86 K kg/mol)
 

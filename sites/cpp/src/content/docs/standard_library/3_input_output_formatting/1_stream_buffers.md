@@ -81,15 +81,15 @@ The standard stream buffer operations [N4950 §30.4.4] are:
 
 The library provides three concrete stream buffer types [N4950 §30.4.2]:
 
-**`std::basic_stringbuf&lt;CharT>`** — reads from and writes to a `std::basic_string`. Used by
+**`std::basic_stringbuf&lt;CharT>`**, reads from and writes to a `std::basic_string`. Used by
 `std::istringstream``std::ostringstream`And `std::stringstream`. The buffer stores characters
 Directly in a dynamically managed string, so no external device is involved [N4950 §30.4.2.3].
 
-**`std::basic_filebuf&lt;CharT>`** — reads from and writes to a file. Used by `std::ifstream`
+**`std::basic_filebuf&lt;CharT>`**, reads from and writes to a file. Used by `std::ifstream`
 `std::ofstream`And `std::fstream`. Manages a `std::FILE*`-like resource internally, but with full
 C++ semantics (RAII, locale awareness, codecvt for character set conversion) [N4950 §30.4.2.4].
 
-**`std::basic_spanbuf&lt;CharT>`** (C++23) — reads from and writes to a contiguous sequence of
+**`std::basic_spanbuf&lt;CharT>`** (C++23), reads from and writes to a contiguous sequence of
 Characters described by a `std::span`. Unlike `stringbuf`It does not own the underlying storage.
 This enables zero-copy I/O into pre-allocated buffers, which is critical in embedded systems and
 High-performance networking where allocation is forbidden [N4950 §30.4.2.5].
@@ -129,7 +129,7 @@ Heap allocation entirely.
 :::
 ### Locale Facets
 
-A **locale** in C++ is a collection of **facets** — polymorphic classes that encapsulate cultural
+A **locale** in C++ is a collection of **facets**, polymorphic classes that encapsulate cultural
 Conventions for text processing [N4950 §30.3]. The standard defines facets for character
 Classification, numeric formatting, collation, time formatting, and message catalogs.
 
@@ -345,7 +345,7 @@ The stream buffer provides three input-related virtual functions [N4950 §30.4.4
 | `uflow()`      | Call `underflow()`Then advance `gptr`                    | Yes (consume)    |
 | `pbackfail(c)` | Put a character back into the get area (unget)           | Yes (retreat)    |
 
-`underflow()` is a "peek" operation — it fills the buffer but does not advance the read position.
+`underflow()` is a "peek" operation, it fills the buffer but does not advance the read position.
 `uflow()` calls `underflow()` and then increments `gptr`Consuming the character. Most custom Stream
 buffers only need to override `underflow()`; the default `uflow()` delegates to it.
 
@@ -385,8 +385,8 @@ void counting_stream_demo() {
 
 ### Unbuffered vs Buffered Streams
 
-By default, `std::cout` and `std::cin` are **tied** — accessing `std::cin` flushes `std::cout`
-[N4950 §30.4.5.3]. This ensures prompts appear before input is read. `std::cerr` is **unitbuf** — it
+By default, `std::cout` and `std::cin` are **tied**, accessing `std::cin` flushes `std::cout`
+[N4950 §30.4.5.3]. This ensures prompts appear before input is read. `std::cerr` is **unitbuf**, it
 Flushes after every output operation.
 
 ```cpp
@@ -397,7 +397,7 @@ void buffer_mode_demo() {
     // std::cout is in standard practice line-buffered when connected to a terminal
     // and fully buffered when redirected to a pipe or file.
 
-    // std::cerr is unitbuf — flushes after every character
+    // std::cerr is unitbuf, flushes after every character
     // This is set via: std::cerr.setf(std::ios::unitbuf);
 
     // std::clog is fully buffered (like cout but not tied to cin)
@@ -435,7 +435,7 @@ void sync_demo() {
     // Default: C++ streams and C stdio are synchronized
     std::ios_base::sync_with_stdio(false);
 
-    // After this, do NOT mix printf/cout or scanf/cin — the results are undefined
+    // After this, do NOT mix printf/cout or scanf/cin, the results are undefined
 
     // Untie cin from cout for faster input
     std::cin.tie(nullptr);
@@ -571,7 +571,7 @@ void stream_state_demo() {
         if (std::cin.eof()) {
             std::cout << "EOF reached\n";
         } else if (std::cin.fail()) {
-            std::cout << "Parse error — clearing...\n";
+            std::cout << "Parse error, clearing...\n";
             std::cin.clear();  // Clear error flags
 
             // Discard the invalid input

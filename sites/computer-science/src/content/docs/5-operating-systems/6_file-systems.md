@@ -61,7 +61,7 @@ Pointers to data blocks. Supports direct access without external fragmentation.
 | Indexed    | Good       | Yes    | No             | Index block    |
 
 <details>
-<summary>Worked Example 6.1 — Allocation Comparison</summary>
+<summary>Worked Example 6.1, Allocation Comparison</summary>
 
 A file of 10 blocks is stored on a disk. The disk has blocks at positions: 0 (free), 1 (used), 2-5
 (free), 6 (used), 7-9 (free), 10-15 (free), 16 (used), 17-31 (free).
@@ -179,7 +179,7 @@ RAID 5 significantly improves reliability for large arrays, but the rebuild time
 Capacity, increasing the window of vulnerability.
 
 <details>
-<summary>Worked Example 6.2 — RAID Capacity and Reliability</summary>
+<summary>Worked Example 6.2, RAID Capacity and Reliability</summary>
 
 Eight 2 TiB disks. $\mathrm{MTTF_}{\mathrm{disk} = 1.2 \times 10^6}$ hours,
 $T_{\mathrm{repair} = 24}$ hours.
@@ -246,7 +246,7 @@ flowchart TD
 
 ## Intuition
 
-A file system is the librarian of storage — it keeps track of which bytes belong to which file and where they live on disk. Inodes are the index cards that describe each file — they hold metadata but not the actual data, which lives in data blocks pointed to by the inode. Directories are special files that map names to inode numbers, like a phone book mapping names to phone numbers. Journaling is the file system's diary — it writes down what it plans to do before doing it, so if the power fails mid-operation, it can finish or roll back safely. Fragmentation is like a jigsaw puzzle with pieces scattered across the table — the file exists but its parts are spread out, making reading slower.
+A file system is the librarian of storage, it keeps track of which bytes belong to which file and where they live on disk. Inodes are the index cards that describe each file, they hold metadata but not the actual data, which lives in data blocks pointed to by the inode. Directories are special files that map names to inode numbers, like a phone book mapping names to phone numbers. Journaling is the file system's diary, it writes down what it plans to do before doing it, so if the power fails mid-operation, it can finish or roll back safely. Fragmentation is like a jigsaw puzzle with pieces scattered across the table, the file exists but its parts are spread out, making reading slower.
 
 ## Common Mistakes
 

@@ -18,7 +18,7 @@ description: "IB English A: Language and Literature is a two-year course that de
 
 ## Intuition
 
-**English is the art of communication — it combines language, literature, and critical thinking to interpret and create meaning:** Studying English develops skills in analysis, argumentation, and creative expression that are valuable in every field
+**English is the art of communication, it combines language, literature, and critical thinking to interpret and create meaning:** Studying English develops skills in analysis, argumentation, and creative expression that are valuable in every field
 
 **Why it matters:** English literacy is essential for informed citizenship, cultural understanding, and professional success
 

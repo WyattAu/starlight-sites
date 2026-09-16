@@ -24,7 +24,7 @@ course and connects closely to themes of development, resource management, and u
 
 ## Intuition
 
-**Population distribution is like a heat map of human settlement — people cluster where conditions are favorable and avoid hostile environments:** Population patterns reflect the interplay of physical geography, economics, history, and culture
+**Population distribution is like a heat map of human settlement, people cluster where conditions are favorable and avoid hostile environments:** Population patterns reflect the interplay of physical geography, economics, history, and culture
 
 **Why it matters:** Understanding population distribution is crucial for planning infrastructure, services, and sustainable development
 

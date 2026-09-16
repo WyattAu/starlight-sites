@@ -39,7 +39,7 @@ C++20 coroutine mechanism is defined in terms of three keywords:
 
 Any function body containing one of these keywords is a **coroutine** [N4950 §9.5.2]. The compiler
 Transforms the coroutine into a state machine at compile time. This transformation is entirely
-Implicit — the programmer never writes the state machine manually.
+Implicit, the programmer never writes the state machine manually.
 
 ```cpp
 #include <coroutine>
@@ -105,22 +105,22 @@ Use [N4950 §9.5.2].
 :::
 ## Stackless vs Stackful Coroutines
 
-C++ chose **stackless coroutines** — the coroutine frame is a single heap-allocated block, not a
+C++ chose **stackless coroutines**, the coroutine frame is a single heap-allocated block, not a
 Separate stack. This is a deliberate design decision with important trade-offs.
 
 | Property                     | Stackless (C++)                                 | Stackful (e.g., Boost.Context, goroutines)         |
 | :--------------------------- | :---------------------------------------------- | :------------------------------------------------- |
 | Frame size                   | Fixed at compile time (known locals)            | Dynamic (grows/shrinks like a regular stack)       |
-| Memory per coroutine         | $\mathcal{O}(1)$ — hundreds of bytes            | $\mathcal{O}(n)$ — megabytes reserved              |
+| Memory per coroutine         | $\mathcal{O}(1)$, hundreds of bytes            | $\mathcal{O}(n)$, megabytes reserved              |
 | Allocation                   | Single heap allocation                          | Separate stack allocation                          |
-| Suspend inside callee        | No — only at explicit `co_await` points         | Yes — any function call can be a suspend point     |
+| Suspend inside callee        | No, only at explicit `co_await` points         | Yes, any function call can be a suspend point     |
 | Implementation cost          | Compiler transforms function into state machine | Context switching (save/restore registers + stack) |
 | Migrating between OS threads | Must resume on same or specified thread         | Can freely migrate (stack is self-contained)       |
 | Composability                | Requires explicit chaining of coroutines        | composable via call stack                          |
 
 The key limitation of stackless coroutines is that **you cannot suspend in a function called by the
 Coroutine unless that function is itself a coroutine**. If a regular function calls `co_await`It Is
-a compile error — `co_await` can only appear in a coroutine body [N4950 §9.5.4].
+a compile error, `co_await` can only appear in a coroutine body [N4950 §9.5.4].
 
 ```cpp
 #include <coroutine>
@@ -147,7 +147,7 @@ struct Nested {
     std::coroutine_handle<NestedPromise> handle;
 };
 
-// This is a coroutine — OK to use co_await
+// This is a coroutine, OK to use co_await
 Nested inner() {
     std::cout << "inner: before\n";
     co_await std::suspend_always{};
@@ -172,7 +172,7 @@ int main() {
 
 ## Coroutine Frame Layout
 
-When the compiler transforms a coroutine, it generates a **coroutine frame** — a single contiguous
+When the compiler transforms a coroutine, it generates a **coroutine frame**, a single contiguous
 Block of memory whose layout is implementation-defined [N4950 §9.5.4]. The general structure is:
 
 ```
@@ -220,7 +220,7 @@ Task example(int param) {
     co_await some_awaitable();   // suspension point 1
     int b = a + 1;               // lives across co_await 2
     co_await some_awaitable();   // suspension point 2
-    int c = b + 1;               // dead after co_return — may not need frame storage
+    int c = b + 1;               // dead after co_return, may not need frame storage
     co_return c;
 }
 ```
@@ -243,7 +243,7 @@ The frame layout is :
 +---------------------------+
 | int c                     |  (may be stored)
 +---------------------------+
-| coroutine state index     |  (enum: 0, 1, 2, ..., done)
+| coroutine state index     |  (enum: 0, 1, 2..., done)
 +---------------------------+
 | padding                   |
 +---------------------------+
@@ -503,7 +503,7 @@ struct Pooled {
 ## `std::coroutine_handle<P>` for Manual Lifetime Management
 
 `std::coroutine_handle<P>` [N4950 §21.4.4] is a lightweight, copyable, -destructible handle To a
-coroutine frame. It does **not** own the frame — it is a non-owning observer. The programmer is
+coroutine frame. It does **not** own the frame, it is a non-owning observer. The programmer is
 Responsible for calling `destroy()` when the coroutine is no longer needed.
 
 Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
@@ -520,7 +520,7 @@ Key members of `std::coroutine_handle<P>` [N4950 §21.4.4]:
 
 ### Handle Nullability and Validity
 
-A default-constructed `coroutine_handle` is a **null handle** — it does not refer to any frame. The
+A default-constructed `coroutine_handle` is a **null handle**, it does not refer to any frame. The
 Following operations are undefined on a null handle: `resume()``destroy()``promise()`And `done()`.
 Always check `operator bool()` before calling these.
 
@@ -535,7 +535,7 @@ Calling `destroy()` on a handle triggers:
 2. Destruction of the promise object.
 3. Deallocation of the frame memory (via the matching `operator delete`).
 
-After `destroy()`The handle becomes **invalid** — using it is undefined behavior [N4950 §21.4.4]. If
+After `destroy()`The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
 
 :::tip
@@ -737,11 +737,11 @@ int main() {
 
 ## Intuition
 
-**A coroutine frame is like a bookmark in a book:** When you read a book and need to stop, you put a bookmark on the page and close the book. When you come back, you open to the bookmark and continue from where you left off. A coroutine frame is that bookmark — it stores the function's state (local variables, the instruction pointer) so it can be suspended and resumed later. Unlike a regular function that has a stack frame (automatically managed), a coroutine frame is heap-allocated and must be explicitly managed.
+**A coroutine frame is like a bookmark in a book:** When you read a book and need to stop, you put a bookmark on the page and close the book. When you come back, you open to the bookmark and continue from where you left off. A coroutine frame is that bookmark, it stores the function's state (local variables, the instruction pointer) so it can be suspended and resumed later. Unlike a regular function that has a stack frame (automatically managed), a coroutine frame is heap-allocated and must be explicitly managed.
 
-**Why it matters:** Coroutine frames are the secret sauce that makes coroutines work. They transform a function from "runs to completion" to "can pause and resume." This is what enables generators, async/await, and lazy evaluation — all without blocking the thread. The heap allocation cost is why C++20 coroutines are "stackless" — only the coroutine frame is heap-allocated, not the entire call stack.
+**Why it matters:** Coroutine frames are the secret sauce that makes coroutines work. They transform a function from "runs to completion" to "can pause and resume." This is what enables generators, async/await, and lazy evaluation, all without blocking the thread. The heap allocation cost is why C++20 coroutines are "stackless", only the coroutine frame is heap-allocated, not the entire call stack.
 
-**The key insight:** A coroutine frame is heap-allocated and must be explicitly destroyed via `coroutine_handle::destroy()` — forget this and you leak memory.
+**The key insight:** A coroutine frame is heap-allocated and must be explicitly destroyed via `coroutine_handle::destroy()`forget this and you leak memory.
 
 ## Common Pitfalls
 

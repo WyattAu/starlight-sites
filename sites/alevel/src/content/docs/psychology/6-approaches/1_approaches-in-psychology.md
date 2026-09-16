@@ -67,7 +67,7 @@ food.
 
 **Operant Conditioning (Skinner, 1938):**
 
-Learning through consequences. Behaviour is shaped by its outcomes — reinforced behaviour increases,
+Learning through consequences. Behaviour is shaped by its outcomes, reinforced behaviour increases,
 punished behaviour decreases.
 
 Skinner demonstrated this using the "Skinner Box." Rats learned to press a lever to receive a food
@@ -96,7 +96,7 @@ experience (as behaviourists argued) but also through observation and imitation 
 **Key assumptions:**
 
 - Behaviour is learned through observation and imitation of role models.
-- Mental (cognitive) processes are important — learning is not merely stimulus-response.
+- Mental (cognitive) processes are important, learning is not merely stimulus-response.
 - Mediational processes determine whether a behaviour is imitated.
 
 **Bandura"s Bobo Doll Experiment (1961):**
@@ -112,7 +112,7 @@ behaviour towards the Bobo doll, imitating specific aggressive acts they had see
 physically aggressive than girls, but both genders imitated verbal aggression equally.
 
 **Variation (Bandura and Walters, 1963):** Showed that children would imitate aggressive behaviour
-seen on film, not just live models, and even from a cartoon character — demonstrating that vicarious
+seen on film, not just live models, and even from a cartoon character, demonstrating that vicarious
 reinforcement was sufficient.
 
 **Mediational processes:** Bandura identified four mental processes that mediate whether a behaviour
@@ -128,7 +128,7 @@ is imitated:
 model being rewarded for a behaviour, they are more likely to imitate it. If they see a model being
 punished, they are less likely to imitate it (**vicarious punishment**).
 
-**Identification:** Observers are more likely to imitate models they identify with — those who are
+**Identification:** Observers are more likely to imitate models they identify with, those who are
 similar to them (same age, gender, status), powerful, or attractive.
 
 ### The Cognitive Approach
@@ -140,7 +140,7 @@ behaviourism's exclusion of mental processes.
 
 - Mental processes (thinking, memory, perception, attention) can and should be studied
   scientifically.
-- The mind processes information like a computer — input → processing → output.
+- The mind processes information like a computer, input → processing → output.
 - Mental processes operate on stored knowledge, using schemas to organise and interpret information.
 
 **The information processing model:** The mind receives input from the senses (encoding), processes
@@ -158,7 +158,7 @@ specific cognitive tasks. This bridges the gap between the cognitive approach an
 approach.
 
 **The role of inference:** Cognitive psychologists must make inferences about mental processes based
-on observable behaviour. We cannot directly observe memory, attention, or thinking — we can only
+on observable behaviour. We cannot directly observe memory, attention, or thinking, we can only
 measure their effects on behaviour. This is a fundamental methodological challenge.
 
 ### The Biological Approach
@@ -175,7 +175,7 @@ genetics, the nervous system, hormones, and brain structure.
 **Genetic basis of behaviour:**
 
 Genes are inherited from parents and influence physical and psychological characteristics. The
-**nature vs. nurture** debate is central — behaviourism emphasises nurture (environment), while the
+**nature vs. nurture** debate is central, behaviourism emphasises nurture (environment), while the
 biological approach emphasises nature (genetics).
 
 **Twin studies** compare concordance rates between identical (monozygotic/MZ) twins, who share 100%
@@ -187,7 +187,7 @@ to biological parents suggests a genetic influence; similarity to adoptive paren
 environmental influence.
 
 **Neurochemistry:** Neurotransmitters are chemical messengers that transmit signals across synapses.
-Imbalances are associated with mental disorders — low serotonin with depression, high dopamine with
+Imbalances are associated with mental disorders, low serotonin with depression, high dopamine with
 schizophrenia.
 
 **Brain structure:** Different brain regions have different functions. The prefrontal cortex is
@@ -251,7 +251,7 @@ personality characteristics:
 as a rival. The boy fears castration by the father (castration anxiety). This is resolved when the
 boy identifies with the father, internalising his moral standards (forming the superego).
 
-**The Electra complex:** The female equivalent — girls develop desires for their father and
+**The Electra complex:** The female equivalent, girls develop desires for their father and
 experience penis envy. Resolved by identifying with the mother.
 
 **Dream analysis:** Freud believed dreams are the "royal road to the unconscious." The **manifest
@@ -320,7 +320,7 @@ self-actualisation.
 | Term                          | Definition                                                                                 |
 | ----------------------------- | ------------------------------------------------------------------------------------------ |
 | Classical conditioning        | Learning through association between a neutral stimulus and an unconditioned stimulus      |
-| Operant conditioning          | Learning through consequences — reinforcement and punishment                               |
+| Operant conditioning          | Learning through consequences, reinforcement and punishment                               |
 | Positive reinforcement        | Adding something pleasant to increase the likelihood of a behaviour                        |
 | Negative reinforcement        | Removing something unpleasant to increase the likelihood of a behaviour                    |
 | Vicarious reinforcement       | Learning by observing the consequences of others' behaviour                                |
@@ -343,12 +343,12 @@ self-actualisation.
 
 ### Behaviourism
 
-**Strengths:** Highly scientific — based on observable behaviour and controlled experiments. Has led
+**Strengths:** Highly scientific, based on observable behaviour and controlled experiments. Has led
 to effective real-world applications (systematic desensitisation, token economies, behaviour
 modification). Established clear principles of learning.
 
-**Limitations:** Environmental determinism — ignores the role of free will, cognition, and
-biological factors. Animal research may not generalise to humans. Reductionist — reduces complex
+**Limitations:** Environmental determinism, ignores the role of free will, cognition, and
+biological factors. Animal research may not generalise to humans. Reductionist, reduces complex
 behaviour to stimulus-response associations.
 
 ### Social Learning Theory
@@ -358,27 +358,27 @@ more complete explanation than behaviourism. Supported by empirical research (Ba
 studies). Explains cultural differences in behaviour (different role models in different cultures).
 
 **Limitations:** Underestimates biological factors (e.g., hormonal influences on aggression). Bobo
-doll studies are artificial — hitting a doll is not the same as real aggression. Demand
+doll studies are artificial, hitting a doll is not the same as real aggression. Demand
 characteristics may have influenced children's behaviour.
 
 ### Cognitive Approach
 
-**Strengths:** Scientific — uses controlled experiments and objective measures (reaction times,
+**Strengths:** Scientific, uses controlled experiments and objective measures (reaction times,
 brain imaging). Has led to effective treatments (CBT for depression, anxiety). More comprehensive
 than behaviourism as it includes mental processes.
 
-**Limitations:** Machine reductionism — the computer analogy oversimplifies human cognition (people
-have emotions, are affected by social context). Relies on inference — we cannot directly observe
+**Limitations:** Machine reductionism, the computer analogy oversimplifies human cognition (people
+have emotions, are affected by social context). Relies on inference, we cannot directly observe
 mental processes. Ignores biological factors and emotional influences on thinking.
 
 ### Biological Approach
 
-**Strengths:** Highly scientific — uses objective, measurable variables (genes, brain scans,
+**Strengths:** Highly scientific, uses objective, measurable variables (genes, brain scans,
 neurotransmitter levels). Has led to effective treatments (drug therapies). Strong real-world
 application (understanding mental disorders).
 
-**Limitations:** Biological determinism — implies behaviour is entirely determined by biology,
-ignoring free will and environmental influences. Reductionist — reducing complex behaviour to genes
+**Limitations:** Biological determinism, implies behaviour is entirely determined by biology,
+ignoring free will and environmental influences. Reductionist, reducing complex behaviour to genes
 and neurotransmitters. Concordance rates in twin studies are never 100%, indicating environmental
 factors also play a role.
 
@@ -388,20 +388,20 @@ factors also play a role.
 Highlighted the importance of early childhood experience and the unconscious. Has influenced therapy
 (psychoanalysis, psychodynamic therapy).
 
-**Limitations:** Unfalsifiable — many concepts (the unconscious, defence mechanisms) cannot be
+**Limitations:** Unfalsifiable, many concepts (the unconscious, defence mechanisms) cannot be
 empirically tested. Based on case studies of a small, unrepresentative sample (Victorian Viennese
-women). Overemphasises sexual drives. Deterministic — behaviour is determined by unconscious forces
+women). Overemphasises sexual drives. Deterministic, behaviour is determined by unconscious forces
 and childhood experiences.
 
 ### Humanistic Approach
 
-**Strengths:** Acknowledges free will — offers a non-deterministic, optimistic view of human nature.
-Holistic — considers the whole person. Has led to effective therapy (client-centred therapy).
+**Strengths:** Acknowledges free will, offers a non-deterministic, optimistic view of human nature.
+Holistic, considers the whole person. Has led to effective therapy (client-centred therapy).
 Emphasises personal growth and potential.
 
-**Limitations:** Unscientific — concepts like self-actualisation are difficult to define and
-measure. Cultural bias — emphasis on individualism and personal achievement reflects Western values.
-Limited explanatory power — cannot readily explain severe mental disorders (e.g., schizophrenia).
+**Limitations:** Unscientific, concepts like self-actualisation are difficult to define and
+measure. Cultural bias, emphasis on individualism and personal achievement reflects Western values.
+Limited explanatory power, cannot readily explain severe mental disorders (e.g., schizophrenia).
 
 ## Methodology
 
@@ -446,14 +446,14 @@ they consider the proper subject matter of psychology and the methods they emplo
 
 The behaviourist approach, pioneered by Pavlov (1927) and Skinner (1938), argues that psychology
 should study only observable behaviour. Behaviourists reject the study of mental processes as
-unscientific and instead focus on how behaviour is learned through conditioning — classical
+unscientific and instead focus on how behaviour is learned through conditioning, classical
 conditioning (learning through association) and operant conditioning (learning through
 consequences). All behaviour, according to behaviourists, is determined by environmental stimuli and
 reinforcement history. This represents a strong environmental determinism.
 
 In contrast, the cognitive approach, which emerged in the 1950s and 1960s, argues that mental
 processes are essential to understanding behaviour. Cognitive psychologists use the computer analogy
-to describe the mind as an information processor — receiving input from the senses, processing it
+to describe the mind as an information processor, receiving input from the senses, processing it
 through cognitive systems (attention, memory, reasoning), and producing behavioural output.
 Cognitive psychologists accept that mental processes cannot be directly observed but argue they can
 be inferred from behaviour using scientific methods such as reaction time experiments and brain
@@ -467,7 +467,7 @@ memory experiments, and neuroimaging to study mental processes objectively. This
 gives both approaches high credibility compared to the psychodynamic or humanistic approaches.
 
 However, the approaches differ critically in their view of what drives behaviour. For behaviourists,
-behaviour is a mechanical response to environmental stimuli — a deterministic view that leaves no
+behaviour is a mechanical response to environmental stimuli, a deterministic view that leaves no
 room for free will or cognitive mediation. The cognitive approach, while still broadly deterministic
 (mental processes follow rules), allows for a more active role of the individual in processing
 information, making decisions, and choosing responses. Bandura's social learning theory bridges the
@@ -477,15 +477,15 @@ environment.
 
 A major strength of the behaviourist approach is its practical applications. Behaviourist principles
 have been applied to education (programmed learning), therapy (systematic desensitisation, token
-economies), and behaviour management. However, behaviourism is criticised for being reductionist —
-reducing complex human behaviour to simple stimulus-response associations — and for ignoring the
+economies), and behaviour management. However, behaviourism is criticised for being reductionist,
+reducing complex human behaviour to simple stimulus-response associations, and for ignoring the
 role of cognition, emotion, and biology.
 
 The cognitive approach addresses some of these limitations by acknowledging the importance of mental
 processes. It has led to effective treatments, particularly CBT, which is the treatment of choice
 for depression and anxiety disorders. Cognitive neuroscience has further strengthened the approach
 by providing objective evidence for the neural basis of cognitive processes. However, the cognitive
-approach is itself criticised for machine reductionism — the computer analogy ignores emotion,
+approach is itself criticised for machine reductionism, the computer analogy ignores emotion,
 motivation, and social context. People are not merely information processors; they are emotional,
 social beings whose thinking is influenced by feelings and relationships.
 
@@ -514,7 +514,7 @@ nature.
 
 Maslow's hierarchy of needs (1943, 1954) proposes that human motivation is organised in a hierarchy
 of five levels. At the base are physiological needs (food, water, warmth), followed by safety needs,
-love and belonging needs, and esteem needs. At the pinnacle is self-actualisation — the drive to
+love and belonging needs, and esteem needs. At the pinnacle is self-actualisation, the drive to
 fulfil one's potential and become the best version of oneself. Maslow argued that lower-level needs
 must be met before higher-level needs become motivating. He estimated that only about 2% of the
 population achieve full self-actualisation. Maslow studied individuals he considered
@@ -528,11 +528,11 @@ a close match between the two, the person is congruent and psychologically healt
 significant mismatch, the person experiences incongruence, leading to anxiety, low self-esteem, and
 psychological distress.
 
-Rogers argued that incongruence develops when children receive conditional love — love that is given
+Rogers argued that incongruence develops when children receive conditional love, love that is given
 only when they meet certain conditions. These conditions of worth lead children to believe they are
 only valued when they behave in certain ways, causing them to distort their self-concept to match
-others' expectations. In contrast, children who receive unconditional positive regard (UPR) —
-acceptance and love without conditions — develop a healthy, congruent self-concept.
+others' expectations. In contrast, children who receive unconditional positive regard (UPR),
+acceptance and love without conditions, develop a healthy, congruent self-concept.
 
 Based on these principles, Rogers developed client-centred therapy. The therapist provides three
 core conditions: unconditional positive regard (accepting the client without judgement), empathy

@@ -49,11 +49,11 @@ The study of algorithms is central to computer science. An algorithm is a finite
 
 ## Intuition
 
-**A recipe for solving problems:** An algorithm is like a recipe — it tells you exactly what steps to take, in what order, and when to stop. The better the recipe (algorithm), the faster you get dinner (solution), especially when cooking for a large group (big inputs).
+**A recipe for solving problems:** An algorithm is like a recipe, it tells you exactly what steps to take, in what order, and when to stop. The better the recipe (algorithm), the faster you get dinner (solution), especially when cooking for a large group (big inputs).
 
-**Why it matters:** Algorithms determine whether a problem is solvable in seconds or centuries. Choosing the right algorithm can turn an intractable problem into a routine task — this is the difference between a search engine returning results instantly and one that takes days.
+**Why it matters:** Algorithms determine whether a problem is solvable in seconds or centuries. Choosing the right algorithm can turn an intractable problem into a routine task, this is the difference between a search engine returning results instantly and one that takes days.
 
-**The key insight:** Efficiency is about growth rates, not absolute speed — understanding how running time scales with input size lets you predict performance on problems you've never seen before.
+**The key insight:** Efficiency is about growth rates, not absolute speed, understanding how running time scales with input size lets you predict performance on problems you've never seen before.
 
 ## Key Concepts
 
@@ -117,7 +117,7 @@ Each section includes:
 ## Common Mistakes
 
 - **Confusing time complexity with space complexity:** An algorithm can be fast but use a lot of memory (e.g., storing all permutations) or slow but memory-efficient. Always analyse both dimensions and state which one you are optimising.
-- **Misapplying Big-O notation:** $O(n)$ describes an upper bound, not an exact growth rate. Saying "this algorithm is $O(n^2)$" does not mean it always takes quadratic time — it could be faster. Use $\Theta(n)$ when you mean tight bound.
+- **Misapplying Big-O notation:** $O(n)$ describes an upper bound, not an exact growth rate. Saying "this algorithm is $O(n^2)$" does not mean it always takes quadratic time, it could be faster. Use $\Theta(n)$ when you mean tight bound.
 - **Assuming a greedy algorithm is optimal:** Greedy algorithms work for matroids and certain optimisation problems but fail for many others (e.g., knapsack, Huffman coding requires a proof of correctness). Always prove or cite why a greedy strategy works.
 - **Forgetting that recursion depth matters:** Recursive algorithms can cause stack overflow for deep recursions. Convert to iteration or use tail-call optimisation (where the language supports it) for problems with recursion depth exceeding a few thousand.
 

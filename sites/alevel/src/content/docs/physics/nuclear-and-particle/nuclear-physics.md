@@ -89,7 +89,7 @@ $$\boxed{\Delta m = Zm_p + Nm_n - m_{\mathrm{nucleus}}}$$
 
 $$\boxed{E = mc^2}$$
 
-The mass defect corresponds to the binding energy — the energy released when the nucleus was formed
+The mass defect corresponds to the binding energy, the energy released when the nucleus was formed
 From its constituent nucleons, or equivalently, the energy required to separate the nucleus into its
 Individual nucleons.
 
@@ -125,7 +125,7 @@ The binding energy per nucleon plotted against mass number shows:
   $\prescript{4}{2}\mathrm{He}$, $\prescript{12}{6}\mathrm{C}$ And $\prescript{16}{8}\mathrm{O}$
   (magic numbers).
 - **Iron-56** ($\prescript{56}{26}\mathrm{Fe}$): Maximum binding energy per nucleon ($\sim 8.8$ MeV)
-  — the most stable nucleus.
+the most stable nucleus.
 - **Heavy nuclei** ($A \gt 60$): Gradually decreasing binding energy per nucleon.
 
 **Implications:**
@@ -181,7 +181,7 @@ A neutron converts to a proton, emitting an electron and an antineutrino:
 $$\prescript{A}{Z}\mathrm{X} \to \prescript{A}{Z+1}\mathrm{Y} + \prescript{0}{-1}\beta^- + \bar{\nu}_e$$
 
 **Conservation:** $A$ unchanged, $Z$ increases by 1. The antineutrino was postulated (Pauli, 1930;
-Fermi, 1934) to conserve energy and momentum — the continuous electron energy spectrum requires a
+Fermi, 1934) to conserve energy and momentum, the continuous electron energy spectrum requires a
 Third particle to carry away the remaining energy.
 
 ### Beta-Plus Decay
@@ -258,8 +258,8 @@ Each fission event releases 2--3 neutrons, which can induce further fission even
 Cause another fission) must equal 1.
 
 - $k \lt 1$: subcritical (reaction dies out).
-- $k = 1$: critical (steady reaction — nuclear reactor).
-- $k \gt 1$: supercritical (exponential growth — nuclear weapon).
+- $k = 1$: critical (steady reaction, nuclear reactor).
+- $k \gt 1$: supercritical (exponential growth, nuclear weapon).
 
 **Critical mass:** The minimum mass of fissile material required to sustain a chain reaction. For
 $\prescript{235}_{92}\mathrm{U}$This is approximately 50 kg (sphere). The critical mass depends On
@@ -270,10 +270,10 @@ geometry, density, and the presence of a neutron reflector.
 Key components:
 
 - **Fuel rods:** Enriched uranium ($\sim 3$--$5\%$\ $\prescript{235}_{92}\mathrm{U}$).
-- **Moderator:** Graphite or heavy water — slows neutrons to thermal energies where the fission
+- **Moderator:** Graphite or heavy water, slows neutrons to thermal energies where the fission
   cross-section of $\prescript{235}_{92}\mathrm{U}$ is largest.
-- **Control rods:** Boron or cadmium — absorb neutrons to regulate $k$.
-- **Coolant:** Water, liquid sodium, or CO$_2$ — transfers heat from the reactor to the turbines.
+- **Control rods:** Boron or cadmium, absorb neutrons to regulate $k$.
+- **Coolant:** Water, liquid sodium, or CO$_2$, transfers heat from the reactor to the turbines.
 
 ## 8. Nuclear Fusion
 

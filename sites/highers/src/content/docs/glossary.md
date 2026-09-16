@@ -1,5 +1,5 @@
 ---
-title: "Scottish Highers Glossary — Key Terms"
+title: "Scottish Highers Glossary, Key Terms"
 description: "Comprehensive glossary of Scottish Highers terms covering the qualification system, SQA exams, assessment, university admissions, and study strategies."
 date: 2026-07-24
 tags: [glossary]

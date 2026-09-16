@@ -401,11 +401,11 @@ slog.Info("user logged in", "username", username, "ip", ip)
 
 ## Intuition
 
-**Math is the toolbox, sort is the librarian, slog is the scribe:** The `math` package gives you the raw tools (sqrt, log, sin) — the kind of stuff you'd find in a scientific calculator. The `sort` package is like a librarian who can organize any collection according to your rules, even finding specific items with binary search. `log/slog` is the structured note-taker who writes entries in key-value format that machines can parse and humans can read, unlike the old `log` package that just wrote paragraphs.
+**Math is the toolbox, sort is the librarian, slog is the scribe:** The `math` package gives you the raw tools (sqrt, log, sin), the kind of stuff you'd find in a scientific calculator. The `sort` package is like a librarian who can organize any collection according to your rules, even finding specific items with binary search. `log/slog` is the structured note-taker who writes entries in key-value format that machines can parse and humans can read, unlike the old `log` package that just wrote paragraphs.
 
-**Why it matters:** Go's standard library includes everything you need for most common operations. You rarely need third-party packages for basic math, sorting, or logging — the standard versions are well-tested, performant, and follow Go's conventions.
+**Why it matters:** Go's standard library includes everything you need for most common operations. You rarely need third-party packages for basic math, sorting, or logging, the standard versions are well-tested, performant, and follow Go's conventions.
 
-**The key insight:** `slog` replaces the old `log` with structured, leveled logging that's both human-readable (text handler) and machine-parseable (JSON handler) — essential for production observability.
+**The key insight:** `slog` replaces the old `log` with structured, leveled logging that's both human-readable (text handler) and machine-parseable (JSON handler), essential for production observability.
 
 ## Common Pitfalls
 

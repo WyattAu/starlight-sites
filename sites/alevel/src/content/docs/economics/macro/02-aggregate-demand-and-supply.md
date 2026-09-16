@@ -78,7 +78,7 @@ Locus, the AD curve slopes downward.
 
 **Real-world example.** During 2021-22, many economies experienced rising price levels. The Bank of
 England raised the base rate from 0.1% to 5.25% to combat inflation. Higher interest rates
-Discouraged business investment and household spending on mortgages and durable goods, reducing AD —
+Discouraged business investment and household spending on mortgages and durable goods, reducing AD,
 Illustrating the interest rate channel in action.
 
 ### 1.3 Shifts of the AD Curve
@@ -101,13 +101,13 @@ Increases spending by £50bn and $k = 2$The AD curve shifts right by £100bn at 
 
 $$\mathrm{AD shifts right by } k \cdot \Delta A \mathrm{ at every } P$$
 
-**Real-world example — the COVID-19 fiscal response.** In 2020, the UK government introduced the
+**Real-world example, the COVID-19 fiscal response.** In 2020, the UK government introduced the
 Furlough scheme costing approximately £70bn. With an estimated multiplier of 0.6-1.5 (lower than
 Usual due to lockdowns restricting spending channels), AD still shifted significantly rightward,
 Preventing a deeper recession. This illustrates how the multiplier determines the _magnitude_ of the
 AD shift, not just its direction.
 
-**Real-world example — exchange rate effects on AD.** Following the Brexit referendum in 2016, the
+**Real-world example, exchange rate effects on AD.** Following the Brexit referendum in 2016, the
 Pound depreciated by approximately 15% against the US dollar. This made UK exports cheaper and
 Imports more expensive, shifting AD to the right through increased net exports. However, the effect
 Was partly offset by higher import costs feeding into SRAS (cost-push inflation).
@@ -137,12 +137,12 @@ Where $Y^*$ is potential output, $P^e$ is the expected price level, and $\alpha 
 :::note
 imperfect Information model. OCR expects students to compare sticky-wage and sticky-price theories.
 New Classical economists (AQA Unit 4, CIE Paper 4) argue that SRAS is vertical even in the short run
-Because rational agents anticipate price changes — this is the policy ineffectiveness proposition.
+Because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
 :::
-**Real-world example — sticky wages in action.** During the COVID-19 pandemic, many UK workers
+**Real-world example, sticky wages in action.** During the COVID-19 pandemic, many UK workers
 Remained on fixed-wage contracts even as the price level rose due to supply chain disruptions. The
 Real wage ($w/P$) fell, making labour relatively cheaper for firms. However, because lockdowns
-Prevented firms from expanding output, the SRAS mechanism was constrained — showing that the SRAS
+Prevented firms from expanding output, the SRAS mechanism was constrained, showing that the SRAS
 Relationship depends on firms' ability to respond, not just the incentive.
 
 ### 2.2 Long-Run Aggregate Supply (LRAS)
@@ -161,7 +161,7 @@ Therefore, the LRAS curve is vertical at $Y^*$. $\blacksquare$
 :::note
 Capacity of the economy. AQA uses the same vertical LRAS but emphasises the distinction between
 Actual and potential growth. CIE (9708) may present an alternative diagram where LRAS is drawn as a
-Curve becoming vertical at full employment — this is the _Keynesian AS curve_ and is acceptable only
+Curve becoming vertical at full employment, this is the _Keynesian AS curve_ and is acceptable only
 In CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
 Dichotomy or factor mobility arguments.
 :::
@@ -174,7 +174,7 @@ $$Y^* = A \cdot F(K, L)$$
 Where $A$ is total factor productivity, $K$ is the capital stock, and $L$ is the labour supply (at
 The natural rate of employment). In the long run, $K$ and $L$ are fixed (determined by savings,
 Investment, population growth), and $A$ grows exogenously (technological progress). Therefore $Y^*$
-Is independent of the price level — the LRAS is vertical.
+Is independent of the price level, the LRAS is vertical.
 
 The growth rate of potential output is:
 
@@ -196,15 +196,15 @@ LRAS shifts right when productivity, capital, or labour grow.
 | Expectations of higher inflation                | SRAS shifts left  |
 | Tax increase on firms                           | SRAS shifts left  |
 
-**Real-world example — the 1973 oil crisis.** When OPEC quadrupled oil prices, SRAS shifted sharply
+**Real-world example, the 1973 oil crisis.** When OPEC quadrupled oil prices, SRAS shifted sharply
 Left across Western economies. In the UK, inflation reached over 24% while GDP contracted by 2.7% in
 1974-75. This episode of stagflation fundamentally challenged the prevailing Keynesian consensus and
 Helped establish the importance of supply-side analysis in macroeconomics.
 
-**Real-world example — technology and SRAS.** The widespread adoption of the internet and digital
+**Real-world example, technology and SRAS.** The widespread adoption of the internet and digital
 Technologies from the late 1990s shifted SRAS right by reducing production costs and increasing
-Productivity. This contributed to a period of low inflation and strong growth — sometimes called the
-"Great Moderation" — illustrating how positive supply shocks can improve both output and prices
+Productivity. This contributed to a period of low inflation and strong growth, sometimes called the
+"Great Moderation", illustrating how positive supply shocks can improve both output and prices
 Simultaneously.
 
 #### Derivation of the SRAS Shift from Expectations
@@ -233,16 +233,16 @@ The LRAS shifts right when the economy's productive capacity increases:
   markets
 - **Discovery of new resources**: oil, minerals
 
-**Real-world example — China's LRAS shift (1978-present).** Economic reforms under Deng Xiaoping
+**Real-world example, China's LRAS shift (1978-present).** Economic reforms under Deng Xiaoping
 Transformed China from an agrarian economy to the world's manufacturing hub. Institutional reforms
 (establishment of Special Economic Zones), massive investment in physical capital, improvements in
 Education, and technology transfer from foreign direct investment collectively shifted China's LRAS
 Dramatically rightward. Annual GDP growth averaged approximately 10% for three decades.
 
-**Real-world example — UK productivity puzzle.** Since the 2008 financial crisis, the UK has
+**Real-world example, UK productivity puzzle.** Since the 2008 financial crisis, the UK has
 Experienced a persistent productivity slowdown. Despite employment recovering quickly, output per
 Hour grew at only 0.3% per year from 2008-2020, compared to 2.2% from 1971-2007. This suggests the
-LRAS shifted right more slowly than historical trends would predict — a phenomenon known as the
+LRAS shifted right more slowly than historical trends would predict, a phenomenon known as the
 "productivity puzzle." Possible explanations include: misallocation of capital to low-productivity
 Sectors, reduced business investment, and weaker growth in total factor productivity.
 
@@ -296,7 +296,7 @@ This is the worst outcome for policymakers because the standard tools are contra
 Expansionary policy to raise output worsens inflation; contractionary policy to reduce inflation
 Worsens output.
 
-**Real-world example — the 2022 energy crisis.** Russia's invasion of Ukraine caused European gas
+**Real-world example, the 2022 energy crisis.** Russia's invasion of Ukraine caused European gas
 Prices to spike, creating a negative supply shock. The UK experienced inflation of 11.1%
 (October 2022) while GDP growth stalled. The Bank of England faced precisely the stagflation
 Trade-off described above: raising rates to curb inflation risked deepening the cost-of-living
@@ -320,7 +320,7 @@ The classical self-correction mechanism rests on several assumptions that may no
    run.
 
 4. **Expectations can destabilise adjustment.** If households and firms expect a deep recession,
-   they may cut spending _further_, shifting AD leftward and deepening the downturn — the opposite
+   they may cut spending _further_, shifting AD leftward and deepening the downturn, the opposite
    of self-correction.
 
 :::note
@@ -461,14 +461,14 @@ Evaluative answers:
    the basic model treats only through the net exports component.
 
 :::note
-The usefulness of the AD/AS model itself — a higher-order skill. AQA (7132) expects evaluation
+The usefulness of the AD/AS model itself, a higher-order skill. AQA (7132) expects evaluation
 Within the context of specific policy discussions (e.g., "Evaluate the view that fiscal policy is
 The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
 With alternative models such as the Phillips Curve.
 :::
 :::caution
-Curves. "An increase in the price level reduces AD" is WRONG — it causes a movement along the AD
-Curve. "An increase in consumer confidence increases AD" is CORRECT — it shifts the AD curve.
+Curves. "An increase in the price level reduces AD" is WRONG, it causes a movement along the AD
+Curve. "An increase in consumer confidence increases AD" is CORRECT, it shifts the AD curve.
 :::
 :::note
 (9708) requires detailed diagrammatic analysis of equilibrium and shifts. AQA focuses on the
@@ -525,7 +525,7 @@ Unnecessary." Evaluate this statement with reference to the Keynesian-Classical 
 
 <details>
 <summary>Hint</summary>
-Classical view: wages and prices are flexible, so the economy self-corrects to $Y^*$ — no need for intervention. Keynesian view: wages are sticky downward (contracts, unions, money illusion), so the self-correction mechanism is slow or fails. In a deep recession, the economy can remain below $Y^*$ for a long time. Keynes: "In the long run, we are all dead." Intervention may be necessary to avoid prolonged suffering. Modern consensus: self-correction works in theory but may be too slow in practice, justifying active policy for large shocks.
+Classical view: wages and prices are flexible, so the economy self-corrects to $Y^*$, no need for intervention. Keynesian view: wages are sticky downward (contracts, unions, money illusion), so the self-correction mechanism is slow or fails. In a deep recession, the economy can remain below $Y^*$ for a long time. Keynes: "In the long run, we are all dead." Intervention may be necessary to avoid prolonged suffering. Modern consensus: self-correction works in theory but may be too slow in practice, justifying active policy for large shocks.
 </details>
 
 **Problem 7.** An economy has AD: $Y = 1000 - 2P$ and SRAS: $Y = -500 + 5P$. Find the short-run
@@ -542,7 +542,7 @@ Large fall in investment? What are the implications for the business cycle?
 
 <details>
 <summary>Hint</summary>
-The accelerator: $I = v \times \Delta Y$. If $v = 3$ (capital-output ratio) and $\Delta Y$ falls from £50bn to £20bn, investment falls from £150bn to £60bn — a 60% fall in investment from a 60% fall in the *growth* of output (not output itself). This amplifies the business cycle: a mild slowdown triggers a sharp investment decline, which reduces AD further (multiplier), causing a deeper downturn. This positive feedback can turn a mild recession into a severe one.
+The accelerator: $I = v \times \Delta Y$. If $v = 3$ (capital-output ratio) and $\Delta Y$ falls from £50bn to £20bn, investment falls from £150bn to £60bn, a 60% fall in investment from a 60% fall in the *growth* of output (not output itself). This amplifies the business cycle: a mild slowdown triggers a sharp investment decline, which reduces AD further (multiplier), causing a deeper downturn. This positive feedback can turn a mild recession into a severe one.
 </details>
 
 **Problem 9.** "An increase in government spending will always increase economic growth." Evaluate
@@ -602,13 +602,13 @@ Long-run economic growth." Evaluate this statement using the AD/AS framework.
 <summary>Hint</summary>
 Supply-side policies shift LRAS right by increasing productive capacity (education reform,
 Deregulation, infrastructure investment, tax incentives for R&D). This increases $Y^*$ and reduces
-The price level — a sustainable improvement in living standards. Demand-side policies (fiscal and
+The price level, a sustainable improvement in living standards. Demand-side policies (fiscal and
 Monetary) shift AD right: they raise $Y$ only in the short run (if below $Y^*$) and may create
 Inflationary pressure (if at $Y^*$). In the long run, AD shifts only change prices, not output.
-Evaluation: (1) Supply-side policies take years to have effect — they cannot address a short-run
+Evaluation: (1) Supply-side policies take years to have effect, they cannot address a short-run
 Recession. (2) Demand-side policies are essential for stabilisation. (3) Some supply-side policies
 Also shift AD in the short run (e.g., infrastructure spending). (4) The effectiveness of supply-side
-Policies depends on the type — market-based reforms (deregulation) may increase inequality, while
+Policies depends on the type, market-based reforms (deregulation) may increase inequality, while
 Human capital investment has fewer negative side effects. (5) In practice, optimal policy combines
 Both: demand management for stabilisation and supply-side reform for long-run growth.
 </details>
@@ -625,11 +625,11 @@ Distributional effects.
 Option B: tax cut of £40bn increases disposable income by £40bn. Initial consumption increase $=
 MPC \times 40 = 24$. $\Delta Y = 1.33 \times 24 = £32$bn. Option A has a larger effect. (c)
 Evaluation: government spending directly injects into the circular flow, whereas tax cuts depend on
-Households' MPC — some of the tax cut will be saved. However, tax cuts may be faster to implement
+Households' MPC, some of the tax cut will be saved. However, tax cuts may be faster to implement
 And avoid the bureaucratic delays of government spending programmes. Crowding out is more likely
 With spending increases (government borrowing). Distributional effects: income tax cuts
 Disproportionately benefit higher earners (if not targeted), while government spending on public
-Services benefits lower-income groups more. The choice depends on the government's objectives —
+Services benefits lower-income groups more. The choice depends on the government's objectives,
 Speed, equity, and the state of public finances.
 </details>
 
@@ -645,7 +645,7 @@ Imports is low initially). SRAS effects: imported raw materials and intermediate
 Expensive $\Rightarrow$ firms' costs rise $\Rightarrow$ SRAS shifts left. Net effect: AD shifts
 Right, SRAS shifts left. The outcome for output is ambiguous (depends on the relative magnitude of
 Shifts), but the price level unambiguously rises (imported inflation). Evaluation: (1) The
-Marshall-Lerner condition must hold — the sum of price elasticities of demand for exports and
+Marshall-Lerner condition must hold, the sum of price elasticities of demand for exports and
 Imports must exceed 1 for the trade balance to improve. In the short run, the J-curve effect means
 The trade balance may worsen before improving. (2) If the economy is near $Y^*$The main effect is
 Inflationary, not growth-promoting. (3) Second-round effects: higher import prices feed into wage
@@ -671,7 +671,7 @@ Demands, creating a wage-price spiral.
 :::
 ## Common Mistakes
 
-1. **Confusing shifts with movements along AD/SRAS.** An increase in the price level does NOT shift the AD curve — it causes a movement along it. Only changes in the components of AD (C, I, G, X-M) at a given price level shift the curve. This is the single most common exam error.
+1. **Confusing shifts with movements along AD/SRAS.** An increase in the price level does NOT shift the AD curve, it causes a movement along it. Only changes in the components of AD (C, I, G, X-M) at a given price level shift the curve. This is the single most common exam error.
 
 2. **Assuming the multiplier always works.** The multiplier effect assumes spare capacity in the economy. If the economy is at or near full employment, an increase in government spending will mainly raise prices (inflation) rather than output, making the real multiplier close to zero.
 
@@ -1211,6 +1211,6 @@ each approach.
 
 ## Intuition
 
-The AD/AS model is the macroeconomy's equivalent of supply and demand. Aggregate demand (AD) is the total spending in the economy — consumption, investment, government spending, and net exports. Aggregate supply (AS) is the total output. The short-run AS curve slopes upward because higher prices make production more profitable. The long-run AS curve is vertical at potential output — in the long run, the economy produces at its capacity regardless of the price level.
+The AD/AS model is the macroeconomy's equivalent of supply and demand. Aggregate demand (AD) is the total spending in the economy, consumption, investment, government spending, and net exports. Aggregate supply (AS) is the total output. The short-run AS curve slopes upward because higher prices make production more profitable. The long-run AS curve is vertical at potential output, in the long run, the economy produces at its capacity regardless of the price level.
 
-The key insight is that the economy can be in three states: equilibrium at potential output (full employment), below potential (recession, unemployment), or above potential (overheating, inflation). Demand-side policies (fiscal and monetary) shift AD. Supply-side policies shift AS. The multiplier effect means an initial change in spending creates a larger final change in GDP — spending becomes income, which becomes more spending. But at full employment, more spending just raises prices, not output.
+The key insight is that the economy can be in three states: equilibrium at potential output (full employment), below potential (recession, unemployment), or above potential (overheating, inflation). Demand-side policies (fiscal and monetary) shift AD. Supply-side policies shift AS. The multiplier effect means an initial change in spending creates a larger final change in GDP, spending becomes income, which becomes more spending. But at full employment, more spending just raises prices, not output.

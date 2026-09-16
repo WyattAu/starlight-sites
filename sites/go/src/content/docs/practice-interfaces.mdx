@@ -229,11 +229,11 @@ func (s *UserService) CreateUser(name string) \{
 
 ## Intuition
 
-**Go interfaces are implicit — you satisfy them by implementing methods:** Unlike languages with explicit interface declarations, Go interfaces are satisfied implicitly. This enables flexible, decoupled code where types do not need to know about the interfaces they satisfy.
+**Go interfaces are implicit, you satisfy them by implementing methods:** Unlike languages with explicit interface declarations, Go interfaces are satisfied implicitly. This enables flexible, decoupled code where types do not need to know about the interfaces they satisfy.
 
 **Why it matters:** Interfaces are the key to writing testable, reusable Go code. They enable dependency injection, mock testing, and polymorphism without inheritance.
 
-**The key insight:** Small interfaces (one or two methods) are more powerful than large ones — the io.Reader and io.Writer interfaces with a single method each are the most widely used interfaces in Go.
+**The key insight:** Small interfaces (one or two methods) are more powerful than large ones, the io.Reader and io.Writer interfaces with a single method each are the most widely used interfaces in Go.
 
 ## Common Mistakes
 
@@ -241,7 +241,7 @@ func (s *UserService) CreateUser(name string) \{
 
 **Defining interfaces too broadly:** Go interfaces should be small (1-3 methods). Large interfaces are hard to implement and test. The `io.Reader` interface (one method: `Read`) is the gold standard. Prefer many small interfaces over one large one.
 
-**Confusing interface satisfaction with struct embedding:** Embedding a struct gives you its methods automatically, but you can also implement an interface by defining the required methods directly. These are different mechanisms — dont assume embedding is the only way to satisfy interfaces.
+**Confusing interface satisfaction with struct embedding:** Embedding a struct gives you its methods automatically, but you can also implement an interface by defining the required methods directly. These are different mechanisms, dont assume embedding is the only way to satisfy interfaces.
 
 ## Cross-References
 

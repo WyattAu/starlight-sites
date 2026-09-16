@@ -23,12 +23,12 @@ categories:
 ## The Merge Operation
 
 Merging is the process of combining the changes from one branch into another. Git's merge algorithm
-Is one of its most sophisticated features — it can automatically resolve many cases where both
+Is one of its most sophisticated features, it can automatically resolve many cases where both
 Branches have modified different files or different parts of the same file.
 
 ### What `git merge` Actually Does
 
-A merge takes two (or more) commit pointers — branch tips — and produces a new **merge Commit** that
+A merge takes two (or more) commit pointers, branch tips, and produces a new **merge Commit** that
 has both as parents:
 
 ```bash
@@ -80,10 +80,10 @@ The algorithm works **file by file, hunk by hunk**:
 
 | Base | Ours | Theirs | Result       | Explanation                                           |
 | ---- | ---- | ------ | ------------ | ----------------------------------------------------- |
-| `x`  | `x`  | `x`    | `x`          | No change — keep as-is                                |
-| `x`  | `y`  | `x`    | `y`          | Only we changed — take ours                           |
-| `x`  | `x`  | `y`    | `y`          | Only they changed — take theirs                       |
-| `x`  | `y`  | `z`    | **Conflict** | Both changed differently — manual resolution required |
+| `x`  | `x`  | `x`    | `x`          | No change, keep as-is                                |
+| `x`  | `y`  | `x`    | `y`          | Only we changed, take ours                           |
+| `x`  | `x`  | `y`    | `y`          | Only they changed, take theirs                       |
+| `x`  | `y`  | `z`    | **Conflict** | Both changed differently, manual resolution required |
 
 The critical case is the last row: when both branches modify the same region of the same file. This
 Is a **merge conflict**.
@@ -118,7 +118,7 @@ Performs the three-way merge against it.
 
 When the current branch has no new commits since the branch point (i.e., the current branch is an
 Ancestor of the branch being merged), Git can perform a **fast-forward** merge. This moves The
-branch pointer forward — no merge commit is created.
+branch pointer forward, no merge commit is created.
 
 ```mermaid
 gitGraph
@@ -142,7 +142,7 @@ Fast-forward
 
 ### Disabling Fast-Forward
 
-Sometimes you want a merge commit even when a fast-forward is possible — to preserve a record of the
+Sometimes you want a merge commit even when a fast-forward is possible, to preserve a record of the
 Merge event:
 
 ```bash

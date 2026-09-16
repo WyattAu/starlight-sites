@@ -57,7 +57,7 @@ let handle = thread::spawn(move || {
 });
 
 handle.join().unwrap();
-// s is no longer valid here — it was moved
+// s is no longer valid here, it was moved
 ```
 
 Without `move`The closure would attempt to borrow `s`But the borrow checker cannot guarantee That
@@ -120,7 +120,7 @@ From the parent scope. They are safer (no `'static` requirement) and more ergono
 
 ## Message Passing
 
-Rust's channel implementation is based on the actor model — threads communicate by sending messages,
+Rust's channel implementation is based on the actor model, threads communicate by sending messages,
 Not by sharing memory.
 
 ### `mpsc` Channels
@@ -137,7 +137,7 @@ let (tx, rx) = mpsc::channel();
 thread::spawn(move || {
     let val = String::from("hello");
     tx.send(val).unwrap();
-    // val is moved into the channel — no longer accessible here
+    // val is moved into the channel, no longer accessible here
 });
 
 let received = rx.recv().unwrap();
@@ -180,7 +180,7 @@ use std::sync::mpsc;
 
 let (tx, rx) = mpsc::sync_channel(10);  // buffer size 10
 
-tx.send(1).unwrap();  // OK — buffer not full
+tx.send(1).unwrap();  // OK, buffer not full
 // If the buffer is full, send() blocks until a receiver reads
 ```
 
@@ -197,7 +197,7 @@ tx.send(1).unwrap();  // OK — buffer not full
 
 ### `Mutex<T>`
 
-A mutual exclusion lock provides interior mutability — only one thread can access the data at a
+A mutual exclusion lock provides interior mutability, only one thread can access the data at a
 Time:
 
 ```rust
@@ -225,7 +225,7 @@ assert_eq!(*counter.lock().unwrap(), 10);
 #### Mutex Poisoning
 
 If a thread panics while holding a `Mutex` lock, the mutex becomes **poisoned**. Subsequent calls to
-`lock()` return `Err(PoisonError)`. This is a deliberate safety feature — it prevents you from
+`lock()` return `Err(PoisonError)`. This is a deliberate safety feature, it prevents you from
 Accessing potentially inconsistent state.
 
 ```rust
@@ -255,7 +255,7 @@ let lock = RwLock::new(5);
 // Multiple concurrent readers
 {
     let r1 = lock.read().unwrap();
-    let r2 = lock.read().unwrap();  // OK — multiple readers
+    let r2 = lock.read().unwrap();  // OK, multiple readers
     assert_eq!(*r1, 5);
     assert_eq!(*r2, 5);
 }  // readers dropped
@@ -271,11 +271,11 @@ let lock = RwLock::new(5);
 
 | Condition                       | Use                                               |
 | ------------------------------- | ------------------------------------------------- |
-| Mostly writes, low contention   | `Mutex` — simpler, lower overhead                 |
-| Mostly reads, occasional writes | `RwLock` — allows concurrent reads                |
-| Very high contention            | Reconsider your design — locks are the bottleneck |
+| Mostly writes, low contention   | `Mutex`simpler, lower overhead                 |
+| Mostly reads, occasional writes | `RwLock`allows concurrent reads                |
+| Very high contention            | Reconsider your design, locks are the bottleneck |
 
-### `Arc<T>` — Atomic Reference Counting
+### `Arc<T>`Atomic Reference Counting
 
 `Arc<T>` enables shared ownership across threads. It is `Send + Sync` because the reference count is
 Maintained atomically:
@@ -302,9 +302,9 @@ for handle in handles {
 
 `Arc` vs `Rc`:
 
-- `Arc` uses atomic operations for reference counting — thread-safe but slower.
-- `Rc` uses non-atomic reference counting — not thread-safe but faster.
-- `Rc` does not implement `Send` or `Sync` — the compiler prevents cross-thread use.
+- `Arc` uses atomic operations for reference counting, thread-safe but slower.
+- `Rc` uses non-atomic reference counting, not thread-safe but faster.
+- `Rc` does not implement `Send` or `Sync`the compiler prevents cross-thread use.
 
 ## Atomic Types
 
@@ -338,11 +338,11 @@ loop {
 
 | Ordering  | Guarantee                                                              |
 | --------- | ---------------------------------------------------------------------- |
-| `Relaxed` | No ordering — only atomicity guaranteed                                |
+| `Relaxed` | No ordering, only atomicity guaranteed                                |
 | `Release` | All prior writes are visible to threads that acquire this location     |
 | `Acquire` | All subsequent reads see writes from the last release on this location |
 | `AcqRel`  | Both acquire and release semantics                                     |
-| `SeqCst`  | Sequentially consistent — total ordering across all threads            |
+| `SeqCst`  | Sequentially consistent, total ordering across all threads            |
 
 ```rust
 use std::sync::atomic::{AtomicBool, Ordering};
@@ -366,7 +366,7 @@ fn reader() {
 :::
 :::caution
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
-Correct visibility semantics. Use `SeqCst` when you are unsure — it is the safest but slowest
+Correct visibility semantics. Use `SeqCst` when you are unsure, it is the safest but slowest
 Option.
 
 ### Available Atomic Types
@@ -386,7 +386,7 @@ Option.
    and waits for lock 1.
 
 2. **Non-reentrant locking**: A thread attempts to acquire a lock it already holds. Rust's `Mutex`
-   is not reentrant (by design — reentrant locks hide bugs).
+   is not reentrant (by design, reentrant locks hide bugs).
 
 3. **Resource starvation**: A thread holds a lock for too long, preventing other threads from making
    progress.
@@ -421,7 +421,7 @@ fn transfer(from: &Account, to: &Account, amount: i64) {
 Keep lock guards in as small a scope as possible:
 
 ```rust
-// Bad — lock held for the entire function body
+// Bad, lock held for the entire function body
 fn process(data: &Mutex<Vec<i32>>) {
     let guard = data.lock().unwrap();
     guard.push(1);
@@ -429,7 +429,7 @@ fn process(data: &Mutex<Vec<i32>>) {
     // ... many more operations while lock is held
 }
 
-// Good — lock held only when needed
+// Good, lock held only when needed
 fn process(data: &Mutex<Vec<i32>>) {
     {
         let mut guard = data.lock().unwrap();
@@ -449,7 +449,7 @@ OS threads are expensive: each thread uses 8 MB of stack (default on Linux), con
 With thousands of concurrent tasks (web servers, database connections), threads do not scale
 Efficiently.
 
-Async/await provides lightweight concurrency — thousands of tasks on a handful of OS threads.
+Async/await provides lightweight concurrency, thousands of tasks on a handful of OS threads.
 
 ### `Future` Trait
 
@@ -524,7 +524,7 @@ struct SelfReferential {
 }
 ```
 
-Most types are `Unpin` — they can be safely moved even when pinned. Types that are self-referential
+Most types are `Unpin`they can be safely moved even when pinned. Types that are self-referential
 (like the compiler-generated state machine for async blocks) are `!Unpin`.
 
 ### `Send` and `Sync` Bounds for Futures
@@ -606,7 +606,7 @@ async fn main() {
 ```
 
 Never run CPU-intensive or blocking I/O (like `std::fs::read_to_string`) directly on the async
-Executor — it will block all other tasks on that thread. Use `spawn_blocking` for blocking
+Executor, it will block all other tasks on that thread. Use `spawn_blocking` for blocking
 Operations and `tokio::fs` for async file I/O.
 
 ### Async Channels
@@ -672,12 +672,12 @@ Coming from JavaScript's `Promise.race`.
 
 ### Data Races vs Race Conditions
 
-A **data race** is undefined behavior — two threads access the same memory location concurrently, at
+A **data race** is undefined behavior, two threads access the same memory location concurrently, at
 Least one of them writes, and there is no synchronization. Rust's type system prevents data races at
 Compile time (in safe code).
 
 A **race condition** is a logical error where the outcome depends on the timing of concurrent
-Operations. Race conditions are not prevented by the type system — they are logic bugs that require
+Operations. Race conditions are not prevented by the type system, they are logic bugs that require
 Careful design to avoid.
 
 ```rust
@@ -874,7 +874,7 @@ Cannot see).
    awaiting.
 
 3. **Deadlock with `Mutex` in async code.** Two tasks each lock one mutex and then try to lock the
-   other — classic deadlock. This is worse in async code because the executor cannot preempt the
+   other, classic deadlock. This is worse in async code because the executor cannot preempt the
    tasks. Always acquire locks in a consistent order, or use `try_lock` with backoff.
 
 4. **`Arc` reference cycles.** Two `Arc` values that reference each other will never be dropped. Use

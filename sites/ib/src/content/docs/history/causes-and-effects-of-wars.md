@@ -49,19 +49,19 @@ analytical skills needed for high-scoring essay responses.
 - Alliances were intended to deter war by creating a balance of power, but in practice they created
   a situation in which any conflict between two powers would draw in their allies
 - Italy switched sides in 1915, joining the Entente
-- The alliances were not automatic — all governments chose to mobilise — but the system created
+- The alliances were not automatic, all governments chose to mobilise, but the system created
   tremendous pressure to act
 
 **Militarism**
 
 - The arms race between the major European powers created an atmosphere of tension and suspicion
 - Anglo-German naval rivalry: Germany"s decision to build a large fleet (Risk Theory) provoked a
-  British response — the naval arms race was a significant factor in worsening Anglo-German
+  British response, the naval arms race was a significant factor in worsening Anglo-German
   relations
 - Conscription and large standing armies created the capacity for rapid mobilisation, which meant
   that any crisis could escalate very quickly
 - Military planning (e.g., the Schlieffen Plan) locked powers into rigid offensive strategies
-- War was increasingly seen as a legitimate tool of statecraft — social Darwinist ideas glorified
+- War was increasingly seen as a legitimate tool of statecraft, social Darwinist ideas glorified
   military conflict
 
 **Imperialism**
@@ -70,7 +70,7 @@ analytical skills needed for high-scoring essay responses.
   the Middle East
 - The Moroccan Crises (1905 and 1911) heightened tensions between Germany and France/Britain
 - The Boer War (1899--1902) damaged Britain's reputation and emboldened Germany
-- Imperial competition was both a cause of tension and a motive for war — control of colonies meant
+- Imperial competition was both a cause of tension and a motive for war, control of colonies meant
   access to raw materials, markets, and strategic positions
 
 **Nationalism**
@@ -78,7 +78,7 @@ analytical skills needed for high-scoring essay responses.
 - Nationalism was perhaps the most powerful long-term cause of WWI
 - Pan-Slavism: Russia saw itself as the protector of the Slavic peoples; Serbia's nationalist
   ambitions threatened Austria-Hungary
-- German nationalism: the desire for "a place in the sun" (Weltpolitik) — a global role commensurate
+- German nationalism: the desire for "a place in the sun" (Weltpolitik), a global role commensurate
   with Germany's growing economic and military power
 - French nationalism: the desire to regain Alsace-Lorraine, lost to Germany in 1871, and to avenge
   the humiliation of defeat
@@ -92,37 +92,37 @@ analytical skills needed for high-scoring essay responses.
 - Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo on 28 June 1914 by
   Gavrilo Princip, a Bosnian Serb nationalist with links to the Serbian secret society, the Black
   Hand
-- Austria-Hungary issued an ultimatum to Serbia on 23 July — deliberately designed to be
+- Austria-Hungary issued an ultimatum to Serbia on 23 July, deliberately designed to be
   unacceptable
 - Serbia accepted most but not all terms; Austria-Hungary declared war on 28 July
 - Russia mobilised in support of Serbia
 - Germany mobilised in support of Austria-Hungary and declared war on Russia (1 August) and France
   (3 August)
-- Germany invaded Belgium on 4 August — Britain declared war the same day, citing the Treaty of
+- Germany invaded Belgium on 4 August, Britain declared war the same day, citing the Treaty of
   London (1839) guaranteeing Belgian neutrality
 
 **The Question of Responsibility**
 
-- All the major powers share some responsibility — the July Crisis was a collective failure of
+- All the major powers share some responsibility, the July Crisis was a collective failure of
   diplomacy
 - Austria-Hungary was reckless in issuing an ultimatum it knew Serbia could not fully accept
 - Germany gave Austria-Hungary a "blank cheque" and implemented the Schlieffen Plan
 - Russia's mobilisation was the trigger for German action, but it was a response to Austrian
   aggression
 - France and Britain became involved because of their alliance commitments
-- The "slide into war" was not inevitable — decisions were made by individuals with alternatives
+- The "slide into war" was not inevitable, decisions were made by individuals with alternatives
 
 ### 1.3 Course of the War
 
 - Initial German advance through Belgium and into France was halted at the Battle of the Marne
   (September 1914)
-- Both sides dug in — the Western Front became characterised by trench warfare
+- Both sides dug in, the Western Front became characterised by trench warfare
 - Key battles on the Western Front: Verdun (1916), the Somme (1916), Passchendaele (1917)
 - The Eastern Front was more fluid: Russia's initial advance into East Prussia was defeated at
   Tannenberg (1914); Russia eventually collapsed into revolution (1917)
 - New weapons: machine guns, poison gas, tanks, aircraft, submarines
 - The war of attrition: by 1917, all combatants were exhausted
-- US entry (April 1917) — prompted by unrestricted submarine warfare and the Zimmermann Telegram —
+- US entry (April 1917), prompted by unrestricted submarine warfare and the Zimmermann Telegram,
   tipped the balance
 - The German Spring Offensive (1918) nearly succeeded but ultimately failed
 - Germany sued for armistice on 11 November 1918
@@ -131,8 +131,8 @@ analytical skills needed for high-scoring essay responses.
 
 **Key Terms**
 
-- Article 231: the "war guilt clause" — Germany accepted sole responsibility for starting the war
-- Reparations: initially set at 132 billion gold marks (£6.6 billion) — an enormous sum
+- Article 231: the "war guilt clause", Germany accepted sole responsibility for starting the war
+- Reparations: initially set at 132 billion gold marks (£6.6 billion), an enormous sum
 - Territorial losses: Alsace-Lorraine returned to France; Eupen-Malmedy to Belgium; West Prussia and
   Posen to Poland (creating the Polish Corridor); all colonies lost
 - Military restrictions: army limited to 100,000; no conscription; no air force; limited navy;
@@ -141,7 +141,7 @@ analytical skills needed for high-scoring essay responses.
 
 **Consequences**
 
-- The treaty was widely resented in Germany — the "stab-in-the-back" myth blamed defeat on domestic
+- The treaty was widely resented in Germany, the "stab-in-the-back" myth blamed defeat on domestic
   betrayal rather than military defeat
 - France wanted a harsher treaty; Britain wanted a more moderate approach; the USA wanted a "peace
   without victory" (Wilson's Fourteen Points)
@@ -170,24 +170,24 @@ analytical skills needed for high-scoring essay responses.
 
 - The treaty's harshness created lasting resentment in Germany
 - Reparations and economic hardship contributed to political extremism
-- The treaty did not create a stable European order — it merely created a "twenty-year armistice"
+- The treaty did not create a stable European order, it merely created a "twenty-year armistice"
   (Foch)
 - The USA never ratified the treaty or joined the League of Nations, undermining the settlement
 - The failure to enforce the treaty's provisions (e.g., German rearmament) eroded its credibility
 
 **Appeasement**
 
-- The policy of appeasement — making concessions to avoid conflict — was the dominant Western
+- The policy of appeasement, making concessions to avoid conflict, was the dominant Western
   approach to Nazi Germany in the 1930s
-- Key examples: German remilitarisation of the Rhineland (1936) — no response; Anschluss with
-  Austria (1938) — accepted; the Sudetenland (Munich Agreement, September 1938) — Britain and France
+- Key examples: German remilitarisation of the Rhineland (1936), no response; Anschluss with
+  Austria (1938), accepted; the Sudetenland (Munich Agreement, September 1938), Britain and France
   sacrificed Czechoslovakia
 - Reasons for appeasement: memory of WWI horrors, pacifist public opinion, anti-communism (some saw
   Hitler as a bulwark against Stalin), British rearmament was incomplete, genuine belief that
   Hitler's demands were limited
-- Munich was initially seen as a triumph ("peace for our time" — Chamberlain); it became a byword
+- Munich was initially seen as a triumph ("peace for our time", Chamberlain); it became a byword
   for cowardice when Hitler invaded the rest of Czechoslovakia in March 1939
-- When Germany invaded Poland (1 September 1939), Britain and France declared war — appeasement was
+- When Germany invaded Poland (1 September 1939), Britain and France declared war, appeasement was
   finally abandoned
 
 **Nazi Expansionism**
@@ -204,7 +204,7 @@ analytical skills needed for high-scoring essay responses.
 **Other Factors**
 
 - The Great Depression destabilised democracies and enabled the rise of fascism
-- The League of Nations failed to prevent aggression — the Manchurian Crisis (1931), the Abyssinian
+- The League of Nations failed to prevent aggression, the Manchurian Crisis (1931), the Abyssinian
   Crisis (1935), and German rearmament all went unpunished
 - The USA's isolationism reduced the capacity for collective action
 - The USSR's signing of the Nazi-Soviet Pact allowed Hitler to avoid a two-front war in 1939
@@ -242,7 +242,7 @@ analytical skills needed for high-scoring essay responses.
 - Britain, France, and the Netherlands could no longer maintain their empires
 - India gained independence in 1947; the process of decolonisation accelerated across Africa and
   Asia
-- The war exposed the contradictions of colonial rule — colonial troops had fought for freedom in
+- The war exposed the contradictions of colonial rule, colonial troops had fought for freedom in
   Europe
 
 **The United Nations**
@@ -255,7 +255,7 @@ analytical skills needed for high-scoring essay responses.
 **The Holocaust**
 
 - The systematic murder of 6 million Jews and millions of others by the Nazi regime
-- Led to the Nuremberg Trials (1945--1946) — establishing the principle of individual criminal
+- Led to the Nuremberg Trials (1945--1946), establishing the principle of individual criminal
   responsibility for crimes against humanity
 - Created the legal and moral framework for international human rights law
 
@@ -329,7 +329,7 @@ analytical skills needed for high-scoring essay responses.
 
 ### 4.2 Collective Guilt vs Shared Responsibility
 
-- Article 231 of Versailles imposed sole war guilt on Germany — this is now widely seen as unfair
+- Article 231 of Versailles imposed sole war guilt on Germany, this is now widely seen as unfair
   and counterproductive
 - Modern historians generally agree that responsibility was shared among all the major powers
 - The July Crisis was a collective failure of diplomacy in which all parties made bad decisions
@@ -337,7 +337,7 @@ analytical skills needed for high-scoring essay responses.
 
 ### 4.3 Revisionist Views
 
-- Some revisionist historians argue that WWI was not inevitable — it was the result of specific
+- Some revisionist historians argue that WWI was not inevitable, it was the result of specific
   decisions that could have gone differently
 - Others emphasise structural factors (alliances, militarism, imperialism) that made war highly
   probable even if not strictly inevitable
@@ -432,7 +432,7 @@ The two World Wars were the defining catastrophes of the 20th century, and under
 causes and consequences is central to the study of modern history. WWI resulted from the interplay
 of alliances, militarism, imperialism, and nationalism, triggered by a crisis in the Balkans. WWII
 emerged from the failures of the Versailles settlement, the policy of appeasement, and Nazi
-expansionism. Both wars had profound and lasting consequences — the redrawing of borders, the
+expansionism. Both wars had profound and lasting consequences, the redrawing of borders, the
 collapse of empires, the creation of new international institutions, and the onset of the Cold War.
 The historiographical debates surrounding these wars remain vibrant and essential to the development
 of sophisticated historical analysis.

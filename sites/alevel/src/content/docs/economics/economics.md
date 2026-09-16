@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## A Level Economics — Course Overview
+## A Level Economics, Course Overview
 
 A Level Economics is the study of how societies allocate scarce resources. It develops a rigorous
 Analytical framework for understanding markets, firms, governments, and the global economy. The
@@ -34,18 +34,18 @@ Course requires both mathematical fluency and the ability to construct clear, lo
 | The National Economy                         | Paper 2 | P1      | Paper 2 | P2         |
 | Individual & Market Behaviour (Micro)        | Paper 1 | P1      | Paper 1 | P1         |
 | The National & International Economy (Macro) | Paper 2 | P1      | Paper 2 | P2         |
-| Economic Principles & Issues                 | —       | P2      | —       | —          |
+| Economic Principles & Issues                 |,       | P2      |,       |,          |
 | Labour Markets                               | Paper 1 | P1      | Paper 1 | P1         |
-| Distribution of Income & Wealth              | Paper 1 | —       | Paper 1 | P1         |
-| Financial Markets                            | —       | P1      | Paper 2 | —          |
-| Development Economics                        | —       | P1      | —       | P2         |
+| Distribution of Income & Wealth              | Paper 1 |,       | Paper 1 | P1         |
+| Financial Markets                            |,       | P1      | Paper 2 |,          |
+| Development Economics                        |,       | P1      |,       | P2         |
 | The Global Economy                           | Paper 2 | P1      | Paper 2 | P2         |
 
 ### Course Structure
 
 #### Microeconomics
 
-The study of individual economic agents — consumers, firms, and markets:
+The study of individual economic agents, consumers, firms, and markets:
 
 1. **Methodology & the Economic Problem**. Scarcity, choice, opportunity cost, positive vs
    normative economics
@@ -313,7 +313,7 @@ When presented with economic data in an exam:
 
 ## Intuition
 
-**Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
+**Economics is the study of choices, how individuals, businesses, and governments allocate scarce resources.**
 
 
 ```mermaid

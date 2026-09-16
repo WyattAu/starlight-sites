@@ -25,9 +25,9 @@ Explore the simulation above to develop intuition for this topic.
 
 **Circuits are plumbing for electrons:** Think of a battery as a pump, wires as pipes, and components (resistors, LEDs) as valves or restrictions. Current flows from high voltage to low voltage, just as water flows from high pressure to low pressure. Kirchhoff's laws are just conservation of charge (no electrons accumulate at junctions) and conservation of energy (voltage around any loop is zero).
 
-**Why it matters:** DC circuits are the foundation of all electronics — from simple flashlight circuits to complex computer processors. Understanding Kirchhoff's laws lets you analyse any circuit, no matter how complicated, by breaking it into manageable loops and junctions.
+**Why it matters:** DC circuits are the foundation of all electronics, from simple flashlight circuits to complex computer processors. Understanding Kirchhoff's laws lets you analyse any circuit, no matter how complicated, by breaking it into manageable loops and junctions.
 
-**The key insight:** Kirchhoff's voltage law (KVL) is just conservation of energy applied to circuits. The battery provides energy, and components consume it. The total energy provided must equal the total energy consumed — that's why voltage around any loop sums to zero. This is the same principle as a roller coaster: what goes up must come down.
+**The key insight:** Kirchhoff's voltage law (KVL) is just conservation of energy applied to circuits. The battery provides energy, and components consume it. The total energy provided must equal the total energy consumed, that's why voltage around any loop sums to zero. This is the same principle as a roller coaster: what goes up must come down.
 
 ## 1. Kirchhoff's Laws
 
@@ -136,7 +136,7 @@ $\square$
 
 ### Potentiometer
 
-A **potentiometer** is a continuous potential divider — a single resistive track with a sliding
+A **potentiometer** is a continuous potential divider, a single resistive track with a sliding
 Contact. It can provide any output voltage from 0 to $V_{\mathrm{in}}$.
 
 ### Potential Divider with a Sensor
@@ -149,7 +149,7 @@ $$V_{\mathrm{out}} = V_{\mathrm{in}} \cdot \frac{R_{\mathrm{sensor}}}{R_{\mathrm
 :::caution
 <strong>Common Pitfall A potential divider circuit loaded by connecting a component across $R_2$</strong>
 
-Changes the effective resistance. The simple divider formula no longer applies — you must
+Changes the effective resistance. The simple divider formula no longer applies, you must
 Recalculate the parallel combination of $R_2$ and the load.
 :::
 ## 4. Internal Resistance
@@ -180,7 +180,7 @@ Alternatively, by Kirchhoff's second law around the full circuit:
 
 $$\mathcal{E} = V + Ir \implies \boxed{V = \mathcal{E} - Ir}$$
 
-The "lost volts" is $Ir$ — the p.d. Across the internal resistance.
+The "lost volts" is $Ir$, the p.d. Across the internal resistance.
 
 **Maximum power transfer.** The power delivered to the load is:
 
@@ -442,7 +442,7 @@ Resistance to convert it to a 0--5 A ammeter.
 **Answer.**
 $R_{\mathrm{shunt}} = \frac{50 \times 1.0 \times 10^{-3}}{5.0 - 1.0 \times 10^{-3}} = \frac{0.050}{4.999} = 0.0100\,\Omega$.
 
-Note the very small shunt resistance — most current bypasses the galvanometer.
+Note the very small shunt resistance, most current bypasses the galvanometer.
 
 </details>
 
@@ -834,7 +834,7 @@ linked above.
 
 ## Cross-References
 
-- [Capacitance](../electricity/03-capacitance) — Capacitors store charge and are analysed using similar circuit techniques to resistors.
-- [Quantum Physics](../nuclear-physics/03-quantum-physics) — The photoelectric effect relies on circuit measurements to determine photon energy.
-- [Fields](../diagnostics/diag-electric-fields) — Electric fields underpin the potential differences that drive current in DC circuits.
-- [Measurements and Uncertainties](../measurements-and-uncertainties/01-measurements-and-uncertainties) — Instrument loading errors and precision requirements connect directly to measurement theory.
+- [Capacitance](../electricity/03-capacitance), Capacitors store charge and are analysed using similar circuit techniques to resistors.
+- [Quantum Physics](../nuclear-physics/03-quantum-physics), The photoelectric effect relies on circuit measurements to determine photon energy.
+- [Fields](../diagnostics/diag-electric-fields), Electric fields underpin the potential differences that drive current in DC circuits.
+- [Measurements and Uncertainties](../measurements-and-uncertainties/01-measurements-and-uncertainties), Instrument loading errors and precision requirements connect directly to measurement theory.

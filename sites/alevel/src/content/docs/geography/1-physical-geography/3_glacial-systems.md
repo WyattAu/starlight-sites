@@ -142,7 +142,7 @@ Glaciers transport enormous volumes of debris:
 - **Meltwater transport**: Glacial meltwater transports fine sediment (glacial flour) downstream,
   often creating braided river channels
 
-**Deposition** occurs when the glacier loses kinetic energy — in most cases when it retreats, thins,
+**Deposition** occurs when the glacier loses kinetic energy, in most cases when it retreats, thins,
 or encounters a flattening of gradient. Glacial deposits (till) are characteristically:
 
 - **Unsorted**: Mixed particle sizes from clay to boulders
@@ -293,7 +293,7 @@ landscape. During the last glacial maximum (Devensian, approximately 26,000–13
 caps and valley glaciers covered the region, reshaping the pre-existing river landscape into the
 distinctive landforms visible today.
 
-**Erosional features**: The valleys of the Lake District are classic U-shaped glacial troughs — for
+**Erosional features**: The valleys of the Lake District are classic U-shaped glacial troughs, for
 example, Borrowdale and Wasdale. These were originally V-shaped river valleys that were deepened and
 widened by glaciers, producing steep, rocky sides and flat valley floors. Many contain ribbon lakes:
 Wastwater (the deepest lake in England at 79 m), Windermere (the largest natural lake in England at
@@ -316,7 +316,7 @@ receives approximately 15 million visitor days per year, contributing substantia
 economy. The distinctive landscape, shaped by glaciation, was designated a UNESCO World Heritage
 Site in 2017.
 
-### Case Study 2: The Swiss Alps — Retreating Glaciers and Climate Change
+### Case Study 2: The Swiss Alps, Retreating Glaciers and Climate Change
 
 The Swiss Alps contain approximately 1,400 glaciers, which have been retreating dramatically in
 recent decades due to rising global temperatures. The Aletsch Glacier, the largest glacier in the
@@ -326,7 +326,7 @@ km since 1870, with the rate of retreat accelerating.
 **Recent trends**: Between 1973 and 2010, Swiss glaciers lost approximately 30% of their total
 volume. The extremely hot summers of 2003 and 2022 caused record losses. The Swiss Glacier
 Monitoring Network (GLAMOS) reported that Swiss glaciers lost over 6% of their remaining volume in
-2022 alone — an unprecedented rate.
+2022 alone, an unprecedented rate.
 
 **Impacts of retreat**:
 
@@ -378,12 +378,12 @@ A glacier behaves like an incredibly slow-moving river of ice. It flows downhill
    or hollowed features; deposition produces accumulations of unsorted till or stratified outwash.
 
 2. **Describing glacial movement without explaining why it happens**: Merely stating "the glacier
-   moves" gains no credit. You must explain **how** — basal sliding (meltwater lubrication),
-   internal deformation (ice crystal creep under pressure), or bed deformation — and the
+   moves" gains no credit. You must explain **how**, basal sliding (meltwater lubrication),
+   internal deformation (ice crystal creep under pressure), or bed deformation, and the
    **conditions** required (warm-based vs. cold-based, thickness, gradient).
 
 3. **Confusing periglacial and glacial environments**: Periglacial zones are cold but **not**
-   covered by ice. They are characterised by permafrost, freeze-thaw weathering, and solifluction —
+   covered by ice. They are characterised by permafrost, freeze-thaw weathering, and solifluction,
    not by glacial erosion or deposition. Do not describe corries or U-valleys in periglacial
    contexts.
 
@@ -415,13 +415,13 @@ power.
 Pre-existing landscape features play a crucial role. Corries commonly develop in pre-existing
 hollows or depressions on north- or east-facing slopes where snow accumulates in the shade and is
 sheltered from prevailing winds. Without these initial hollows, glaciers may not nucleate.
-Similarly, U-shaped valleys develop from pre-existing V-shaped river valleys — the glacier exploits
+Similarly, U-shaped valleys develop from pre-existing V-shaped river valleys, the glacier exploits
 and modifies the existing valley rather than creating an entirely new one. The size and depth of the
 U-valley are influenced by the size of the original valley.
 
 The underlying geology also exerts strong control. Weaknesses in the rock (joints, faults, bedding
 planes) are exploited by the glacier through plucking and enhanced abrasion. The Lithology affects
-resistance — hard, resistant rocks such as granite produce more rugged, angular landscapes than
+resistance, hard, resistant rocks such as granite produce more rugged, angular landscapes than
 softer rocks.
 
 However, glacial processes are the transformative agent. A V-shaped valley does not become U-shaped
@@ -431,7 +431,7 @@ results of glacial erosion that could not occur through fluvial processes alone.
 
 In conclusion, while pre-existing landscape features provide the initial conditions and geological
 framework, it is glacial processes that fundamentally reshape the landscape. The final landform is
-the product of both — the inherited landscape provides the template, and the glacier provides the
+the product of both, the inherited landscape provides the template, and the glacier provides the
 transformation.
 
 ### Example 2: 6-Mark Question

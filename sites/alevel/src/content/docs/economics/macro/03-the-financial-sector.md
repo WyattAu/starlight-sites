@@ -27,7 +27,7 @@ categories:
 Commercial banks perform four key functions:
 
 1. **Financial intermediation**: channel funds from savers (depositors) to borrowers (loans). This
-   converts small, liquid deposits into large, illiquid loans — overcoming the mismatch between
+   converts small, liquid deposits into large, illiquid loans, overcoming the mismatch between
    savers" and borrowers' needs.
 
 2. **Maturity transformation**: borrow short-term (demand deposits) and lend long-term (mortgages,
@@ -90,14 +90,14 @@ The 2% CPI inflation target. CIE (9708) focuses more on the _functions_ of centr
 a specific institution. OCR expects you to distinguish between the central bank's roles In monetary
 stability and financial stability, and to evaluate whether these roles can conflict.
 :::
-**Real-world example — the Bank of England during COVID-19 (2020):** In March 2020, the BoE cut Bank
+**Real-world example, the Bank of England during COVID-19 (2020):** In March 2020, the BoE cut Bank
 Rate from 0.75% to 0.1% (an emergency 0.65 percentage point cut) and launched a GBP 200 billion QE
 Programme. Simultaneously, it introduced the COVID Corporate Financing Facility (CCFF) to buy
 Short-term corporate debt directly from firms. This illustrates multiple central bank functions
 Operating at once: monetary policy (rate cut), financial stability (supporting corporate bond
 Markets to prevent fire sales), and lender of last resort (supporting commercial paper markets).
 
-**Evaluation — independence vs accountability:** Central bank independence (adopted by the BoE
+**Evaluation, independence vs accountability:** Central bank independence (adopted by the BoE
 In 1997) is argued to improve policy credibility and anchor inflation expectations. However, critics
 Argue that unelected officials setting interest rates is democratically illegitimate, and that QE
 Decisions (which redistribute wealth and affect government borrowing costs) are fiscal policy by
@@ -168,7 +168,7 @@ In practice, the actual money multiplier differs from $1/rr$ because:
 5. **The modern view**: banks create deposits by making loans first, then seek reserves later
    (endogenous money theory)
 
-**Evaluation — which model is correct?** The textbook money multiplier model implies a causal chain:
+**Evaluation, which model is correct?** The textbook money multiplier model implies a causal chain:
 Central bank creates reserves, banks lend, money supply expands. The endogenous money model reverses
 This: banks lend first (creating deposits), then obtain reserves as needed from the interbank market
 Or central bank. In the UK, Canada, and many other modern banking systems, there are no binding
@@ -196,7 +196,7 @@ Customer 1 deposits £900 in Bank B:
 - Bank B lends £810, keeps £90 reserves
 - Reserves: £90 | Loans: £810 | Deposits: £900
 
-And so on. Total new money = £10,000 (deposits) + £9,000 (loans) — the deposit is money, the loan
+And so on. Total new money = £10,000 (deposits) + £9,000 (loans), the deposit is money, the loan
 Creates the deposit.
 
 ## 3. Interest Rates
@@ -244,7 +244,7 @@ The **yield curve** plots interest rates against the maturity of bonds.
   rate cuts, often precedes recession)
 - **Flat**: rates are similar across maturities
 
-**Real-world example — the inverted yield curve:** In August 2019, the US 2-year Treasury yield
+**Real-world example, the inverted yield curve:** In August 2019, the US 2-year Treasury yield
 Exceeded the 10-year yield (an inverted yield curve), which has historically preceded every US
 Recession since WWII. The inversion reflected market expectations that the Federal Reserve would
 Need to cut rates to combat an impending downturn. The 2020 COVID recession followed, though the
@@ -287,7 +287,7 @@ Understanding of each pathway:
 1. **Interest rate channel (cost of borrowing):** Higher policy rates increase commercial banks'
    funding costs, which are passed on to households (mortgages, personal loans, credit cards) and
    firms (business loans, overdrafts). The effect depends on the _interest elasticity of investment_
-   — investment is more responsive to rate changes when firms are highly leveraged and when rates
+investment is more responsive to rate changes when firms are highly leveraged and when rates
    rise from a low base. In the UK, approximately 35% of mortgages are variable-rate, so rate
    changes transmit relatively quickly to household disposable income.
 
@@ -304,7 +304,7 @@ Understanding of each pathway:
 
 4. **Expectations channel (forward guidance):** If the central bank signals that rates will remain
    high for an extended period, households and firms adjust their expectations of future inflation
-   and economic conditions. This can be powerful — expectations of lower future inflation reduce
+   and economic conditions. This can be powerful, expectations of lower future inflation reduce
    wage demands and price-setting behaviour, reinforcing the central bank's inflation target.
 
 5. **Credit channel:** Higher interest rates tighten banks' lending standards. Banks become more
@@ -315,23 +315,23 @@ Understanding of each pathway:
 :::note
 Diagrams. Edexcel requires a clear chain of reasoning from the interest rate change to the final
 Impact on AD, inflation, and employment. OCR is particularly interested in the _limitations_ of
-Monetary policy transmission — time lags, interest elasticity, and the liquidity trap. CIE expects a
+Monetary policy transmission, time lags, interest elasticity, and the liquidity trap. CIE expects a
 More formal diagrammatic analysis using the IS-LM framework (though not all centres teach IS-LM, so
 Check with your teacher).
 :::
-**Evaluation — how effective is monetary policy?**
+**Evaluation, how effective is monetary policy?**
 
 - **Time lags:** Monetary policy operates with long and variable time lags. The BoE estimates that a
   rate change takes 12-24 months to fully affect inflation. This means policy is inherently
   backward-looking (responding to past data) and can be pro-cyclical if misjudged.
-- **Interest elasticity:** In a recession, investment may be interest-inelastic — firms won't invest
+- **Interest elasticity:** In a recession, investment may be interest-inelastic, firms won't invest
   regardless of how low rates go if they lack confidence about future demand (as Keynes argued, "you
   can't push on a string").
 - **Conflicting objectives:** Tightening monetary policy to control inflation may worsen
   unemployment and economic growth. The Phillips curve trade-off means the central bank must judge
   the appropriate balance.
 - **Global factors:** In a small open economy like the UK, exchange rate effects can be
-  destabilising — an appreciating currency helps control inflation (cheaper imports) but harms
+  destabilising, an appreciating currency helps control inflation (cheaper imports) but harms
   exporters.
 - **Distributional effects:** Rate rises benefit savers but hurt borrowers. Since younger households
   tend to be net borrowers and older households net savers, monetary policy redistributes across
@@ -377,7 +377,7 @@ QE was first used extensively after the 2008 financial crisis and again during C
 - Transmission to the real economy may be weak if banks don't lend (liquidity trap)
 - Unwinding QE (quantitative tightening) may be disruptive
 
-**Evaluation — was QE effective?**
+**Evaluation, was QE effective?**
 
 Evidence from the UK: the BoE's own estimates suggest that the GBP 895 billion of QE conducted
 Between 2009 and 2022 boosted GDP by around 1.5-2% and raised inflation by 0.75-1.5 percentage
@@ -386,11 +386,11 @@ That its QE programme had increased the wealth of the top 5% of households by up
 Bottom 50% saw minimal benefit. This is because the top 5% hold the majority of financial assets
 Whose prices were inflated by QE.
 
-**Real-world example — QE and the COVID-19 recovery:** Between March 2020 and late 2021, the BoE
+**Real-world example, QE and the COVID-19 recovery:** Between March 2020 and late 2021, the BoE
 Purchased an additional GBP 450 billion of government bonds. Despite this massive expansion of the
 Money supply, CPI inflation remained below the 2% target until mid-2021, when supply chain
 Disruptions and energy price shocks drove inflation higher. This illustrates that QE alone does not
-Cause high inflation — the broader macroeconomic context matters.
+Cause high inflation, the broader macroeconomic context matters.
 
 :::note
 Frequently includes questions on unconventional monetary policy. Key evaluation points: QE is less
@@ -445,14 +445,14 @@ Financial markets perform crucial functions beyond matching buyers and sellers:
    uncertainty about future costs.
 
 3. **Corporate governance:** share prices provide a signal about managerial performance. Persistent
-   underperformance leads to a falling share price, making the firm a takeover target — disciplining
+   underperformance leads to a falling share price, making the firm a takeover target, disciplining
    management.
 
 4. **Capital allocation:** financial markets direct savings towards the most productive investments.
    In theory, capital flows to firms offering the highest risk-adjusted returns, improving
    allocative efficiency.
 
-**Real-world example — the 2021 GameStop short squeeze:** In January 2021, retail investors
+**Real-world example, the 2021 GameStop short squeeze:** In January 2021, retail investors
 Coordinated through Reddit to buy shares in GameStop, driving the price from USD 18 to USD 483 in
 Weeks. This forced hedge funds that had shorted the stock to buy shares to cover their positions,
 Amplifying the price rise. The episode illustrates both the power of market sentiment (prices can
@@ -482,7 +482,7 @@ Financial markets. Key lessons:
 - Stress testing: regular assessment of banks' resilience to adverse scenarios
 - Resolution planning: "living wills" to allow orderly bank failure without taxpayer bailouts
 
-**Evaluation — have post-crisis reforms been sufficient?**
+**Evaluation, have post-crisis reforms been sufficient?**
 
 On one hand, the UK banking system is significantly more resilient than in 2008. The Common Equity
 Tier 1 (CET1) capital ratio of major UK banks rose from around 4-5% pre-crisis to over 15% by 2023.
@@ -555,7 +555,7 @@ Liquidity trap? Evaluate the risks of QE for (a) asset price inflation and (b) w
 
 <details>
 <summary>Hint</summary>
-QE: central bank buys assets (mainly government bonds) $\Rightarrow$ bond prices rise, yields fall $\Rightarrow$ lower borrowing costs, portfolio rebalancing. Liquidity trap: at the zero lower bound, interest rates can't fall further, and banks may hoard reserves rather than lend (excess reserves). Risks: (a) QE increases demand for assets (bonds, equities, property), pushing up prices — potentially creating bubbles disconnected from fundamentals. (b) Asset price inflation benefits those who own assets (wealthy) more than those who don't (poor), exacerbating wealth inequality.
+QE: central bank buys assets (mainly government bonds) $\Rightarrow$ bond prices rise, yields fall $\Rightarrow$ lower borrowing costs, portfolio rebalancing. Liquidity trap: at the zero lower bound, interest rates can't fall further, and banks may hoard reserves rather than lend (excess reserves). Risks: (a) QE increases demand for assets (bonds, equities, property), pushing up prices, potentially creating bubbles disconnected from fundamentals. (b) Asset price inflation benefits those who own assets (wealthy) more than those who don't (poor), exacerbating wealth inequality.
 </details>
 
 **Problem 6.** A commercial bank has £500m in deposits, £50m in reserves, and £450m in loans. The
@@ -572,7 +572,7 @@ Credit creation process and the role of central bank reserves.
 
 <details>
 <summary>Hint</summary>
-Technically true: when a bank makes a loan, it simultaneously creates a deposit (money). The bank doesn't need reserves first — it creates the loan-deposit pair. However, constraints exist: (1) The bank must have enough reserves *later* to settle interbank payments and meet reserve requirements. (2) Capital requirements limit lending relative to equity. (3) The bank must find creditworthy borrowers willing to borrow. (4) Regulatory oversight limits excessive credit creation. The statement is misleading because it suggests unlimited money creation, which is false.
+Technically true: when a bank makes a loan, it simultaneously creates a deposit (money). The bank doesn't need reserves first, it creates the loan-deposit pair. However, constraints exist: (1) The bank must have enough reserves *later* to settle interbank payments and meet reserve requirements. (2) Capital requirements limit lending relative to equity. (3) The bank must find creditworthy borrowers willing to borrow. (4) Regulatory oversight limits excessive credit creation. The statement is misleading because it suggests unlimited money creation, which is false.
 </details>
 
 **Problem 8.** Explain how an increase in the Bank of England's base rate would affect (a) mortgage
@@ -598,7 +598,7 @@ Evaluate this statement, considering the roles of (a) banks, (b) regulators, (c)
 
 <details>
 <summary>Hint</summary>
-(a) Banks: excessive leverage, inadequate risk management, complex securitisation, mis-selling of subprime mortgages. (b) Regulators: light-touch regulation, failure to monitor systemic risk, regulatory arbitrage (shadow banking). (c) Central banks: low interest rates encouraged excessive borrowing, failure to identify asset bubbles. (d) Consumers: borrowed beyond their means (subprime mortgages), irrational exuberance about house prices. The crisis was a *systemic* failure — no single cause, but rather a combination of misaligned incentives, regulatory gaps, and collective irrationality.
+(a) Banks: excessive leverage, inadequate risk management, complex securitisation, mis-selling of subprime mortgages. (b) Regulators: light-touch regulation, failure to monitor systemic risk, regulatory arbitrage (shadow banking). (c) Central banks: low interest rates encouraged excessive borrowing, failure to identify asset bubbles. (d) Consumers: borrowed beyond their means (subprime mortgages), irrational exuberance about house prices. The crisis was a *systemic* failure, no single cause, but rather a combination of misaligned incentives, regulatory gaps, and collective irrationality.
 </details>
 
 **Problem 11.** Explain the inverse relationship between bond prices and interest rates. If a bond
@@ -645,7 +645,7 @@ UK Gilt Crisis, and the failure of Silicon Valley Bank in 2023.
 
 <details>
 <summary>Hint</summary>
-For the statement: (1) Shadow banking entities (hedge funds, money market funds, private credit) are less regulated, less transparent, and not subject to Basel III capital requirements. (2) The 2008 crisis was amplified by shadow banking — mortgage-backed securities and SIVs (structured investment vehicles) operated outside the regulated banking system. (3) The 2022 UK Gilt Crisis was triggered by liability-driven investments (LDIs) held by pension funds — non-bank entities using leverage that was not captured by banking regulation. (4) SVB's failure was caused by losses on its bond portfolio, but the bank run was amplified by social media and venture capital networks (a form of shadow banking contagion). Against: (1) Traditional banks still pose systemic risk — Credit Suisse's 2023 failure showed that even regulated banks can fail. (2) Shadow banking provides valuable services (credit to SMEs, alternative investments) that traditional banks cannot or will not provide. (3) The solution is better regulation of shadow banking, not eliminating it. Conclusion: shadow banking is a significant and growing risk, but the threat comes from the *interaction* between regulated and unregulated parts of the financial system, not from shadow banking alone.
+For the statement: (1) Shadow banking entities (hedge funds, money market funds, private credit) are less regulated, less transparent, and not subject to Basel III capital requirements. (2) The 2008 crisis was amplified by shadow banking, mortgage-backed securities and SIVs (structured investment vehicles) operated outside the regulated banking system. (3) The 2022 UK Gilt Crisis was triggered by liability-driven investments (LDIs) held by pension funds, non-bank entities using leverage that was not captured by banking regulation. (4) SVB's failure was caused by losses on its bond portfolio, but the bank run was amplified by social media and venture capital networks (a form of shadow banking contagion). Against: (1) Traditional banks still pose systemic risk, Credit Suisse's 2023 failure showed that even regulated banks can fail. (2) Shadow banking provides valuable services (credit to SMEs, alternative investments) that traditional banks cannot or will not provide. (3) The solution is better regulation of shadow banking, not eliminating it. Conclusion: shadow banking is a significant and growing risk, but the threat comes from the *interaction* between regulated and unregulated parts of the financial system, not from shadow banking alone.
 </details>
 
 **Problem 16.** A country's money supply is currently GBP 2 trillion. The central bank wants to
@@ -1194,7 +1194,7 @@ largest component of household wealth.
 
 ## Intuition
 
-**Economics is the study of choices — how individuals, businesses, and governments allocate scarce resources.**
+**Economics is the study of choices, how individuals, businesses, and governments allocate scarce resources.**
 
 
 ```mermaid

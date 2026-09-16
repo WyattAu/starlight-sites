@@ -18,11 +18,11 @@ tags:
 
 ## Intuition
 
-**Organic chemistry is like the chemistry of life — carbon's ability to form four bonds creates the backbone of all living things:** Functional groups are the reactive centers of organic molecules — mastering them unlocks the chemistry of millions of compounds
+**Organic chemistry is like the chemistry of life, carbon's ability to form four bonds creates the backbone of all living things:** Functional groups are the reactive centers of organic molecules, mastering them unlocks the chemistry of millions of compounds
 
 **Why it matters:** Organic chemistry is essential for pharmaceuticals, polymers, food science, and understanding biological processes
 
-**The key insight:** Functional groups are the reactive centers of organic molecules — mastering them unlocks the chemistry of millions of compounds
+**The key insight:** Functional groups are the reactive centers of organic molecules, mastering them unlocks the chemistry of millions of compounds
 
 ## Homologous Series and Naming
 
@@ -216,7 +216,7 @@ $$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
 $$
 
-The bromine water is decolourised — this is the test for unsaturation.
+The bromine water is decolourised, this is the test for unsaturation.
 
 **Hydration** (with acid catalyst):
 
@@ -247,7 +247,7 @@ $$
 N\mathrm{CH}_2=\mathrm{CHCl} \to -(\mathrm{CH}_2\mathrm{CHCl})_n-
 $$
 
-Poly(chloroethene) — PVC.
+Poly(chloroethene), PVC.
 
 ---
 
@@ -544,7 +544,7 @@ $$
 N\mathrm{HOOC--R--COOH} + n\mathrm{HO--R'--OH} \to -(\mathrm{OC--R--COO--R'O})_n- + 2n\mathrm{H}_2\mathrm{O}
 $$
 
-Example: PET (polyethylene terephthalate) — used in fibres and bottles.
+Example: PET (polyethylene terephthalate), used in fibres and bottles.
 
 #### Polyamides (Nylons)
 

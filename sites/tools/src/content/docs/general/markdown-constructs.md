@@ -21,11 +21,11 @@ categories:
 
 ## Intuition
 
-**The language of documentation:** Markdown is like a simplified HTML — it uses plain text formatting that humans can read and write efficiently, while computers can convert it to beautiful rendered pages. It is the lingua franca of technical documentation.
+**The language of documentation:** Markdown is like a simplified HTML, it uses plain text formatting that humans can read and write efficiently, while computers can convert it to beautiful rendered pages. It is the lingua franca of technical documentation.
 
-**Why it matters:** Markdown is everywhere — GitHub READMEs, documentation sites, blog posts, even Jupyter notebooks. Mastering it lets you create professional-looking documentation without fighting with WYSIWYG editors.
+**Why it matters:** Markdown is everywhere, GitHub READMEs, documentation sites, blog posts, even Jupyter notebooks. Mastering it lets you create professional-looking documentation without fighting with WYSIWYG editors.
 
-**The key insight:** Use headings consistently (never skip levels), code blocks for all code, and tables for structured data — these conventions make your docs scannable and prevent rendering issues across platforms.
+**The key insight:** Use headings consistently (never skip levels), code blocks for all code, and tables for structured data, these conventions make your docs scannable and prevent rendering issues across platforms.
 
 ## Standard Markdown
 
@@ -437,7 +437,7 @@ draft: true # Hide from production build
 
 ### Tags and Categories
 
-Tags and categories populate the blog-like tag pages and aid search. They are flat strings — no
+Tags and categories populate the blog-like tag pages and aid search. They are flat strings, no
 Hierarchy. Use lowercase, hyphen-separated values for consistency:
 
 ```yaml
@@ -468,7 +468,7 @@ Same rule applies inside table cells:
 
 ### In Code Blocks
 
-No escaping needed inside fenced code blocks — the content is treated as raw text.
+No escaping needed inside fenced code blocks, the content is treated as raw text.
 
 ### Raw HTML Restrictions
 

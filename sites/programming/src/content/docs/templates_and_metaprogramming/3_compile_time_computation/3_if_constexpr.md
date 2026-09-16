@@ -242,7 +242,7 @@ struct Serializer {
             oss << "(";
             std::apply([this](const auto&... elems) {
                 bool first = true;
-                ((serialize(elems), oss << (first ? (first = false, "") : ", ")), ...);
+                ((serialize(elems), oss << (first ? (first = false, "") : ", "))...);
             }, value);
             oss << ")";
         } else {
@@ -614,11 +614,11 @@ key: "key'', value: "value'
 
 ## Intuition
 
-**`if constexpr` is like a compile-time switch:** Instead of writing two overloaded functions (one for integral types, one for floating-point types), you write one function with `if constexpr (std::is_integral_v<T>)`. The compiler evaluates the condition at compile time and discards the branch that's not taken — like a switch that's wired into the compiler. The discarded branch doesn't need to compile for all types, only for the types that actually reach it.
+**`if constexpr` is like a compile-time switch:** Instead of writing two overloaded functions (one for integral types, one for floating-point types), you write one function with `if constexpr (std::is_integral_v<T>)`. The compiler evaluates the condition at compile time and discards the branch that's not taken, like a switch that's wired into the compiler. The discarded branch doesn't need to compile for all types, only for the types that actually reach it.
 
 **Why it matters:** `if constexpr` replaces SFINAE and template specialization for compile-time branching. Instead of writing separate overloads with `enable_if`, you write a single function with `if constexpr`. This is simpler, more readable, and gives better error messages. It's also the foundation for many modern C++ techniques, including policy-based design and compile-time strategy selection.
 
-**The key insight:** `if constexpr` discards untaken branches at compile time — the discarded branch doesn't need to be valid for all types, only for the types that reach it.
+**The key insight:** `if constexpr` discards untaken branches at compile time, the discarded branch doesn't need to be valid for all types, only for the types that reach it.
 
 ## Common Pitfalls
 

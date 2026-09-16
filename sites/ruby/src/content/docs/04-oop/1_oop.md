@@ -69,13 +69,13 @@ end
 ```ruby
 class Book
   # attr_reader: generates getter methods
-  attr_reader :title, :author
+  attr_reader :title:author
 
   # attr_writer: generates setter methods
   attr_writer :price
 
   # attr_accessor: generates both getter and setter
-  attr_accessor :isbn, :published_year
+  attr_accessor :isbn:published_year
 
   def initialize(title, author, price)
     @title = title
@@ -144,7 +144,7 @@ end
 ```ruby
 # Base class
 class Animal
-  attr_accessor :name, :age
+  attr_accessor :name:age
 
   def initialize(name, age)
     @name = name
@@ -426,7 +426,7 @@ alice = User.new("Alice")
 User.count        # => 1
 
 # Class methods are singleton methods on the class object
-User.singleton_methods  # => [:count, :find_by_name, :all_users, :search, :reset!]
+User.singleton_methods  # => [:count:find_by_name:all_users:search:reset!]
 ```
 
 ## Class Variables vs Instance Variables
@@ -584,7 +584,7 @@ Including `Comparable` and implementing `<=>` gives you access to comparison ope
 class Version
   include Comparable
 
-  attr_reader :major, :minor, :patch
+  attr_reader :major:minor:patch
 
   def initialize(major, minor = 0, patch = 0)
     @major = major
@@ -825,7 +825,7 @@ publisher.publish("user_signed_up")
 
 ```ruby
 # Struct: lightweight class creation
-Person = Struct.new(:name, :email, :age) do
+Person = Struct.new(:name:email:age) do
   def adult?
     age >= 18
   end
@@ -839,7 +839,7 @@ p.to_a      # => ["Alice", "a@b.com", 30]
 p.to_h      # => {name: "Alice", email: "a@b.com", age: 30}
 
 # Struct with keyword_init (Ruby 2.5+)
-Person = Struct.new(:name, :email, :age, keyword_init: true)
+Person = Struct.new(:name:email:age, keyword_init: true)
 p = Person.new(name: "Bob", age: 25)
 p.name  # => "Bob"
 
@@ -858,7 +858,7 @@ config.timeout      # => 30
 ```ruby
 # Data: immutable value objects
 class Point < Data
-  params :x, :y
+  params :x:y
 end
 
 p = Point.new(3, 4)
@@ -1038,7 +1038,7 @@ end
 processor = PaymentProcessor.new(card_number: "4111111111111111")
 result = processor.process_payment(99.99)
 # => "Charging $99.99 to credit card 1111"
-# => {:success=>true, :reference=>"CC-4523"}
+# => {:success=>true:reference=>"CC-4523"}
 ```
 
 **Explanation:** Each payment strategy is a module with `process_payment` and `refund` methods. The `PaymentProcessor` class includes the appropriate strategy module. This makes it easy to add new payment methods by creating new modules, following the Open/Closed Principle.

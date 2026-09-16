@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Quadratics — Diagnostic Tests
+## Quadratics, Diagnostic Tests
 
 ## Unit Tests
 
@@ -552,7 +552,7 @@ flowchart TD
 
 ## Intuition
 
-**A ball thrown in the air:** A quadratic traces a parabola — the discriminant tells you how many times it crosses the x-axis (0, 1, or 2 roots), and completing the square reveals the vertex (highest or lowest point).
+**A ball thrown in the air:** A quadratic traces a parabola, the discriminant tells you how many times it crosses the x-axis (0, 1, or 2 roots), and completing the square reveals the vertex (highest or lowest point).
 
 **Why it matters:** Quadratics model projectile motion, profit optimization, and area problems. The discriminant alone tells you whether real solutions exist before you solve.
 

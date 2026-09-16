@@ -250,7 +250,7 @@ Version control and never edited manually.
 
 **Why it matters:** Go excels at concurrent servers, command-line tools, and cloud infrastructure. Its fast compilation and static binaries make it ideal for containerised deployments.
 
-**The key insight:** Go's goroutines and channels make concurrent programming accessible — instead of complex thread management, you communicate between lightweight processes using channels.
+**The key insight:** Go's goroutines and channels make concurrent programming accessible, instead of complex thread management, you communicate between lightweight processes using channels.
 
 ## Common Pitfalls
 

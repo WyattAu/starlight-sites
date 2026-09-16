@@ -74,8 +74,8 @@ $3, 3.1, 3.14, 3.141, 3.1415, \ldots$ does not converge in $\mathbb{Q}$.
 
 **Definition.** A **Banach space** is a complete normed vector space.
 
-**Example 7.6.** $(C([a, b]), \|\cdot\|_\infty)$ — the space of continuous functions on $[a, b]$
-with the sup norm — is a Banach space.
+**Example 7.6.** $(C([a, b]), \|\cdot\|_\infty)$, the space of continuous functions on $[a, b]$
+with the sup norm, is a Banach space.
 
 ### 7.5 Contraction Mapping Theorem
 

@@ -207,15 +207,15 @@ flowchart TD
 
 ## Intuition
 
-Probability is the **mathematics of uncertainty** — it quantifies how likely events are and provides the foundation for statistical inference. The key insight is that probability statements are about *long-run frequencies*, not single events.
+Probability is the **mathematics of uncertainty**, it quantifies how likely events are and provides the foundation for statistical inference. The key insight is that probability statements are about *long-run frequencies*, not single events.
 
-**The addition rule intuition:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$. The subtraction of the intersection prevents double-counting — if you count all of A and all of B, you've counted the overlap twice.
+**The addition rule intuition:** $P(A \cup B) = P(A) + P(B) - P(A \cap B)$. The subtraction of the intersection prevents double-counting, if you count all of A and all of B, you've counted the overlap twice.
 
-**Conditional probability intuition:** $P(A|B) = P(A \cap B) / P(B)$ restricts the sample space to event B. Think of it as "given that B has occurred, what fraction of those outcomes also have A?" Independence means $P(A|B) = P(A)$ — knowing B occurred doesn't change the probability of A.
+**Conditional probability intuition:** $P(A|B) = P(A \cap B) / P(B)$ restricts the sample space to event B. Think of it as "given that B has occurred, what fraction of those outcomes also have A?" Independence means $P(A|B) = P(A)$, knowing B occurred doesn't change the probability of A.
 
-**Bayes' theorem intuition:** Bayes' theorem flips conditional probabilities: if you know $P(B|A)$ and want $P(A|B)$, you need to account for the base rates of both events. This is why medical test results must be interpreted in context — a positive test for a rare disease may still have a low probability of being a true positive.
+**Bayes' theorem intuition:** Bayes' theorem flips conditional probabilities: if you know $P(B|A)$ and want $P(A|B)$, you need to account for the base rates of both events. This is why medical test results must be interpreted in context, a positive test for a rare disease may still have a low probability of being a true positive.
 
-**The Central Limit Theorem:** This is the bridge between probability and inference. No matter what the population distribution looks like, the sampling distribution of the mean becomes approximately normal for large $n$. This is why z-scores and t-scores work — they rely on the CLT.
+**The Central Limit Theorem:** This is the bridge between probability and inference. No matter what the population distribution looks like, the sampling distribution of the mean becomes approximately normal for large $n$. This is why z-scores and t-scores work, they rely on the CLT.
 
 ## Common Pitfalls
 

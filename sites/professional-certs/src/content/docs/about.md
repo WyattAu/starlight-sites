@@ -1,7 +1,7 @@
 ---
 title: "About This Site | professional-certs"
 date: 2026-07-24
-description: "About Wyatt's Notes Professional Certifications resources — experience, expertise, and credentials behind professional certification study materials."
+description: "About Wyatt's Notes Professional Certifications resources, experience, expertise, and credentials behind professional certification study materials."
 tags:
   - about
   - professional-certs
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — Professional Certifications
+## About Wyatt's Notes, Professional Certifications
 
 Wyatt's Notes provides comprehensive study materials for professional certifications. These notes cover AWS cloud certifications, with plans for additional professional credentials, building the knowledge needed to advance careers in technology and business.
 
@@ -33,9 +33,9 @@ Wyatt develops resources across technology domains and professional development,
 
 ## Related Sites
 
-- **[Tools](https://tools.wyattau.com)** — Development tools resources
-- **[Linux](https://linux.wyattau.com)** — Linux administration notes
-- **[Security](https://security.wyattau.com)** — Cybersecurity resources
+- **[Tools](https://tools.wyattau.com)**, Development tools resources
+- **[Linux](https://linux.wyattau.com)**, Linux administration notes
+- **[Security](https://security.wyattau.com)**, Cybersecurity resources
 
 ## Explore the Site
 

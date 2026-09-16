@@ -26,7 +26,7 @@ Students to present OOP concepts
 
 ## Intuition
 
-**OOP is like building with LEGO — objects are modular, reusable blocks that can be combined to create complex systems:** Encapsulation, inheritance, and polymorphism allow programmers to model real-world entities and relationships in code
+**OOP is like building with LEGO, objects are modular, reusable blocks that can be combined to create complex systems:** Encapsulation, inheritance, and polymorphism allow programmers to model real-world entities and relationships in code
 
 **Why it matters:** OOP is the dominant paradigm for building large, maintainable software systems
 
@@ -308,7 +308,7 @@ abstract class Vehicle {
     this.type = type;
   }
 
-  // Abstract method — no implementation
+  // Abstract method, no implementation
   public abstract void move();
 
   public String getType() {
@@ -557,7 +557,7 @@ int linearSearch(int[] arr, int target) {
 }
 ```
 
-- **Time complexity:** $O(n)$ — worst case checks every element.
+- **Time complexity:** $O(n)$, worst case checks every element.
 - **Best for:** Small or unsorted arrays.
 
 ### Binary Search
@@ -583,7 +583,7 @@ int binarySearch(int[] arr, int target) {
 }
 ```
 
-- **Time complexity:** $O(\log n)$ — much faster for large sorted arrays.
+- **Time complexity:** $O(\log n)$, much faster for large sorted arrays.
 - **Best for:** Large, sorted arrays.
 
 ### Bubble Sort
@@ -607,8 +607,8 @@ void bubbleSort(int[] arr) {
 }
 ```
 
-- **Time complexity:** $O(n^2)$ — slow for large arrays.
-- **Space complexity:** $O(1)$ — sorts in place.
+- **Time complexity:** $O(n^2)$, slow for large arrays.
+- **Space complexity:** $O(1)$, sorts in place.
 
 ### Selection Sort
 

@@ -57,7 +57,7 @@ flowchart TD
 
 Performance tuning is the art and science of extracting maximum capability from your hardware. Whether you are a gamer pushing frame rates higher, a content creator rendering video faster, or an engineer optimising a workstation for scientific computing, the principles are the same: understand your hardware, adjust its parameters, and verify the results with benchmarks.
 
-This hub page maps every resource on this site. The guides cover every subsystem of a modern computer — CPU, memory, GPU, storage, cooling, and power supply — with practical, tested techniques for each. Every recommendation includes the reasoning behind it, so you understand not just what to do but why it works. The goal is not to push hardware to destruction, but to find the optimal balance of performance, stability, and longevity.
+This hub page maps every resource on this site. The guides cover every subsystem of a modern computer, CPU, memory, GPU, storage, cooling, and power supply, with practical, tested techniques for each. Every recommendation includes the reasoning behind it, so you understand not just what to do but why it works. The goal is not to push hardware to destruction, but to find the optimal balance of performance, stability, and longevity.
 
 ## Table of Contents
 
@@ -108,35 +108,35 @@ The CPU is the brain of your system. Tuning it involves adjusting clock speeds, 
 
 ### Clock Speed and Voltage
 
-Modern CPUs use dynamic frequency scaling — they automatically boost to higher clocks when thermal and power headroom allows. You can influence this behaviour through several mechanisms:
+Modern CPUs use dynamic frequency scaling, they automatically boost to higher clocks when thermal and power headroom allows. You can influence this behaviour through several mechanisms:
 
-- **Base clock (BCLK)** — the fundamental clock frequency; typically 100 MHz
-- **Multiplier** — BCLK × multiplier = core clock speed
-- **Voltage (Vcore)** — higher voltage allows higher clocks but increases heat and power
-- **Load-Line Calibration (LLC)** — compensates for voltage droop under load
+- **Base clock (BCLK)**, the fundamental clock frequency; typically 100 MHz
+- **Multiplier**, BCLK × multiplier = core clock speed
+- **Voltage (Vcore)**, higher voltage allows higher clocks but increases heat and power
+- **Load-Line Calibration (LLC)**, compensates for voltage droop under load
 
 ### Intel CPU Tuning
 
 Intel CPUs use Thermal Velocity Boost (TVB), Turbo Boost Max 3.0, and traditional turbo boost. Tuning options include:
 
-- **Intel XTU** — software-based tuning utility
-- **BIOS settings** — multiplier, voltage, power limits (PL1, PL2, Tau)
-- **Undervolting** — reducing voltage at stock clocks for lower temperatures
+- **Intel XTU**, software-based tuning utility
+- **BIOS settings**, multiplier, voltage, power limits (PL1, PL2, Tau)
+- **Undervolting**, reducing voltage at stock clocks for lower temperatures
 
 ### AMD CPU Tuning
 
 AMD Ryzen processors use Precision Boost Overdrive (PBO) and Curve Optimiser:
 
-- **PBO** — allows the CPU to boost beyond official limits when thermal and power conditions allow
-- **Curve Optimiser** — per-core voltage-frequency curve adjustment for better all-core performance
-- **PPT, TDC, EDC** — power delivery limits that control boost behaviour
+- **PBO**, allows the CPU to boost beyond official limits when thermal and power conditions allow
+- **Curve Optimiser**, per-core voltage-frequency curve adjustment for better all-core performance
+- **PPT, TDC, EDC**, power delivery limits that control boost behaviour
 
 ### Power Limits
 
 Intel CPUs have two power limits:
 
-- **PL1** (long-term) — sustained power draw
-- **PL2** (short-term) — peak power draw for a limited duration (Tau)
+- **PL1** (long-term), sustained power draw
+- **PL2** (short-term), peak power draw for a limited duration (Tau)
 
 Increasing PL1 and PL2 allows sustained higher performance but requires better cooling.
 
@@ -150,8 +150,8 @@ Memory (RAM) performance significantly impacts overall system speed, particularl
 
 The simplest memory optimisation is enabling XMP (Intel) or EXPO (AMD) profiles in BIOS. These set the memory to its rated speed and timings rather than the default JEDEC speed.
 
-- **DDR4** — XMP profiles typically set 3200–3600 MHz with tightened timings
-- **DDR5** — XMP profiles set 5600–7200+ MHz with optimised timings
+- **DDR4**, XMP profiles typically set 3200–3600 MHz with tightened timings
+- **DDR5**, XMP profiles set 5600–7200+ MHz with optimised timings
 
 ### Memory Timings
 
@@ -187,35 +187,35 @@ The GPU is the primary performance component for gaming, 3D rendering, and GPU-a
 
 ### NVIDIA GPU Tuning
 
-- **MSI Afterburner** — the universal GPU tuning tool
-- **NVIDIA Inspector** — advanced NVIDIA-specific tuning
-- **EVGA Precision X1** — EVGA-specific tool (limited availability)
+- **MSI Afterburner**, the universal GPU tuning tool
+- **NVIDIA Inspector**, advanced NVIDIA-specific tuning
+- **EVGA Precision X1**, EVGA-specific tool (limited availability)
 
 **Key adjustments:**
 
-- **Core clock offset** — increase in 15–25 MHz increments
-- **Memory clock offset** — increase in 50–100 MHz increments
-- **Power limit** — increase to maximum for more headroom
-- **Fan curve** — customise fan speed vs. temperature relationship
-- **Voltage** — increase cautiously; most GPUs have voltage locks
+- **Core clock offset**, increase in 15–25 MHz increments
+- **Memory clock offset**, increase in 50–100 MHz increments
+- **Power limit**, increase to maximum for more headroom
+- **Fan curve**, customise fan speed vs. temperature relationship
+- **Voltage**, increase cautiously; most GPUs have voltage locks
 
 ### AMD GPU Tuning
 
-- **AMD Software: Adrenalin** — AMD's official tuning tool
-- **MorePowerTool** — for unlocking additional power limits
+- **AMD Software: Adrenalin**, AMD's official tuning tool
+- **MorePowerTool**, for unlocking additional power limits
 
 **Key adjustments:**
 
-- **GPU frequency** — set maximum and minimum clocks
-- **VRAM frequency** — overclock memory for bandwidth
-- **Power limit** — increase for sustained boost clocks
-- **Undervolting** — reduce voltage at stock clocks for lower temperatures
+- **GPU frequency**, set maximum and minimum clocks
+- **VRAM frequency**, overclock memory for bandwidth
+- **Power limit**, increase for sustained boost clocks
+- **Undervolting**, reduce voltage at stock clocks for lower temperatures
 
 ### GPU Optimisation Tips
 
-- Always increase power limit first — this gives the GPU more headroom
+- Always increase power limit first, this gives the GPU more headroom
 - Test with GPU-intensive benchmarks (FurMark, 3DMark, Unigine)
-- Monitor temperatures — keep below 85°C for sustained loads
+- Monitor temperatures, keep below 85°C for sustained loads
 - Use a custom fan curve for better thermal management
 - Undervolting often provides better performance per watt than overclocking
 
@@ -227,31 +227,31 @@ Storage performance affects boot times, application loading, and file transfer s
 
 ### SSD Optimisation
 
-- **Enable TRIM** — maintains SSD performance over time
-- **AHCI mode** — ensure your SSD operates in AHCI mode, not IDE
-- **Firmware updates** — keep SSD firmware current
-- **Over-provisioning** — reserve 10–20% of SSD capacity for wear levelling
+- **Enable TRIM**, maintains SSD performance over time
+- **AHCI mode**, ensure your SSD operates in AHCI mode, not IDE
+- **Firmware updates**, keep SSD firmware current
+- **Over-provisioning**, reserve 10–20% of SSD capacity for wear levelling
 
 ### HDD Optimisation
 
-- **AAM (Automatic Acoustic Management)** — trade noise for performance
-- **APM (Advanced Power Management)** — balance power saving and performance
-- **Stripe size** — match to workload (64 KB for general use, 256 KB for large files)
+- **AAM (Automatic Acoustic Management)**, trade noise for performance
+- **APM (Advanced Power Management)**, balance power saving and performance
+- **Stripe size**, match to workload (64 KB for general use, 256 KB for large files)
 
 ### File System Tuning
 
-- **NTFS** — default Windows file system; enable large file records for better performance
-- **ext4** — Linux default; tune journal mode and block size
-- **ZFS** — use appropriate record size and compression settings
-- **XFS** — high-performance Linux file system for large files
+- **NTFS**, default Windows file system; enable large file records for better performance
+- **ext4**, Linux default; tune journal mode and block size
+- **ZFS**, use appropriate record size and compression settings
+- **XFS**, high-performance Linux file system for large files
 
 ### RAID and Storage Arrays
 
-- **RAID 0** — maximum performance, no redundancy
-- **RAID 1** — mirroring for redundancy
-- **RAID 5/6** — parity-based with capacity efficiency
-- **RAID 10** — mirror + stripe for performance and redundancy
-- **NVMe RAID** — motherboard RAID for NVMe drives
+- **RAID 0**, maximum performance, no redundancy
+- **RAID 1**, mirroring for redundancy
+- **RAID 5/6**, parity-based with capacity efficiency
+- **RAID 10**, mirror + stripe for performance and redundancy
+- **NVMe RAID**, motherboard RAID for NVMe drives
 
 ---
 
@@ -261,25 +261,25 @@ Cooling is the bottleneck for sustained performance. Better cooling allows highe
 
 ### Air Cooling
 
-- **Tower coolers** — Noctua NH-D15, be quiet! Dark Rock Pro 4
-- **Case fans** — positive pressure configuration (more intake than exhaust)
-- **Fan curves** — configure in BIOS or software for optimal noise-to-performance ratio
-- **Thermal paste** — apply a thin, even layer; replace every 2–3 years
+- **Tower coolers**, Noctua NH-D15, be quiet! Dark Rock Pro 4
+- **Case fans**, positive pressure configuration (more intake than exhaust)
+- **Fan curves**, configure in BIOS or software for optimal noise-to-performance ratio
+- **Thermal paste**, apply a thin, even layer; replace every 2–3 years
 
 ### Liquid Cooling
 
-- **AIO (All-in-One) coolers** — sealed, maintenance-free; 240 mm, 280 mm, or 360 mm radiators
-- **Custom loops** — maximum performance; requires maintenance and expertise
-- **Radiator placement** — front-mounted for CPU, top-mounted for exhaust
-- **Fan configuration** — push or pull; both work; push-pull is marginal improvement
+- **AIO (All-in-One) coolers**, sealed, maintenance-free; 240 mm, 280 mm, or 360 mm radiators
+- **Custom loops**, maximum performance; requires maintenance and expertise
+- **Radiator placement**, front-mounted for CPU, top-mounted for exhaust
+- **Fan configuration**, push or pull; both work; push-pull is marginal improvement
 
 ### Thermal Management
 
-- **Ambient temperature** — every 1°C increase in room temperature raises component temperatures
-- **Case airflow** — ensure unobstructed intake and exhaust paths
-- **Cable management** — tidy cables improve airflow
-- **Dust filters** — clean monthly; dusty filters restrict airflow
-- **Thermal pads** — use on VRMs and M.2 SSDs for heat dissipation
+- **Ambient temperature**, every 1°C increase in room temperature raises component temperatures
+- **Case airflow**, ensure unobstructed intake and exhaust paths
+- **Cable management**, tidy cables improve airflow
+- **Dust filters**, clean monthly; dusty filters restrict airflow
+- **Thermal pads**, use on VRMs and M.2 SSDs for heat dissipation
 
 ### Temperature Targets
 
@@ -297,10 +297,10 @@ Stress testing validates system stability under maximum load. Never consider a s
 
 ### CPU Stress Tests
 
-- **Prime95** — the gold standard for CPU stability testing; use Small FFTs for maximum heat
-- **AIDA64** — comprehensive system stress test
-- **Cinebench** — renders a scene; useful for both testing and benchmarking
-- **Intel Burn Test** — extremely demanding; validates absolute stability
+- **Prime95**, the gold standard for CPU stability testing; use Small FFTs for maximum heat
+- **AIDA64**, comprehensive system stress test
+- **Cinebench**, renders a scene; useful for both testing and benchmarking
+- **Intel Burn Test**, extremely demanding; validates absolute stability
 
 **Recommended duration:**
 
@@ -310,22 +310,22 @@ Stress testing validates system stability under maximum load. Never consider a s
 
 ### GPU Stress Tests
 
-- **FurMark** — extreme GPU stress test; generates maximum heat
-- **3DMark** — realistic gaming workload simulation
-- **Unigine Heaven/Superposition** — sustained GPU load with visual output
-- **OCCT** — combined CPU + GPU stress test
+- **FurMark**, extreme GPU stress test; generates maximum heat
+- **3DMark**, realistic gaming workload simulation
+- **Unigine Heaven/Superposition**, sustained GPU load with visual output
+- **OCCT**, combined CPU + GPU stress test
 
 ### Memory Stress Tests
 
-- **MemTest86** — bootable USB tool; run overnight for thorough testing
-- **TestMem5 (TM5)** — Windows-based; excellent for memory overclocking
-- **HCI MemTest** — running multiple instances for parallel testing
+- **MemTest86**, bootable USB tool; run overnight for thorough testing
+- **TestMem5 (TM5)**, Windows-based; excellent for memory overclocking
+- **HCI MemTest**, running multiple instances for parallel testing
 
 ### Storage Stress Tests
 
-- **CrystalDiskMark** — benchmark sequential and random I/O
-- **ATTO Disk Benchmark** — test performance across different block sizes
-- **fio** — flexible I/O tester for advanced workloads
+- **CrystalDiskMark**, benchmark sequential and random I/O
+- **ATTO Disk Benchmark**, test performance across different block sizes
+- **fio**, flexible I/O tester for advanced workloads
 
 ---
 
@@ -335,19 +335,19 @@ BIOS settings directly impact system performance and stability.
 
 ### Key BIOS Settings for Performance
 
-- **XMP/EXPO** — enable for rated memory speed
-- **CPU Power Limits** — adjust PL1/PL2 (Intel) or PPT/TDC/EDC (AMD)
-- **Resizable BAR** — enable for GPU performance improvement
-- **PCIe Gen** — set to highest supported generation for GPU and NVMe
-- **Fast Boot** — skip hardware checks for faster boot times
-- **Virtualisation** — enable VT-d (Intel) or AMD-Vi for VM performance
+- **XMP/EXPO**, enable for rated memory speed
+- **CPU Power Limits**, adjust PL1/PL2 (Intel) or PPT/TDC/EDC (AMD)
+- **Resizable BAR**, enable for GPU performance improvement
+- **PCIe Gen**, set to highest supported generation for GPU and NVMe
+- **Fast Boot**, skip hardware checks for faster boot times
+- **Virtualisation**, enable VT-d (Intel) or AMD-Vi for VM performance
 
 ### Settings to Avoid Changing
 
-- **BCLK** — overclocking via base clock is unreliable on modern platforms
-- **CPU voltage** — only adjust if you understand the implications
-- **Memory voltage** — only adjust when overclocking memory
-- **PCIe frequency** — leave at auto unless you know exactly what you are doing
+- **BCLK**, overclocking via base clock is unreliable on modern platforms
+- **CPU voltage**, only adjust if you understand the implications
+- **Memory voltage**, only adjust when overclocking memory
+- **PCIe frequency**, leave at auto unless you know exactly what you are doing
 
 ---
 
@@ -364,10 +364,10 @@ The power supply is the most underrated component in a performance system.
 
 ### PSU Quality
 
-- **80+ certification** — efficiency rating (Bronze, Gold, Platinum, Titanium)
-- **Single rail vs. multi-rail** — single rail is simpler; multi-rail adds protection
-- **Modularity** — fully modular PSUs allow cleaner cable management
-- **Warranty** — quality PSUs come with 7–10 year warranties
+- **80+ certification**, efficiency rating (Bronze, Gold, Platinum, Titanium)
+- **Single rail vs. multi-rail**, single rail is simpler; multi-rail adds protection
+- **Modularity**, fully modular PSUs allow cleaner cable management
+- **Warranty**, quality PSUs come with 7–10 year warranties
 
 ---
 
@@ -402,7 +402,7 @@ Overclocking increases clock speeds beyond stock specifications. Benefits includ
 2. Increase multiplier in small increments
 3. Stress test after each increment
 4. If unstable, increase voltage slightly
-5. Monitor temperatures — stay below 85°C for sustained loads
+5. Monitor temperatures, stay below 85°C for sustained loads
 
 ### The Performance Triangle
 
@@ -414,7 +414,7 @@ Every tuning decision involves three factors:
           /  \
          /    \
         /      \
-  Stability — Longevity
+  Stability, Longevity
 ```
 
 Maximising one often compromises the others. Find the balance that suits your needs.
@@ -425,12 +425,12 @@ Maximising one often compromises the others. Find the balance that suits your ne
 
 Performance tuning connects to many other areas:
 
-- **[Linux Administration](https://linux.wyattau.com/hub)** — Linux-specific performance tuning and system configuration
-- **[TrueNAS Administration](https://truenas.wyattau.com/hub)** — storage server performance optimisation
-- **[Networking](https://networking.wyattau.com/hub)** — network performance tuning
-- **[Security](https://security.wyattau.com/hub)** — security considerations that may impact performance
-- **[Developer Tools](https://tools.wyattau.com/hub)** — application-level performance profiling
-- **[C++ Programming](https://programming.wyattau.com/hub)** — low-level programming for performance-critical applications
+- **[Linux Administration](https://linux.wyattau.com/hub)**, Linux-specific performance tuning and system configuration
+- **[TrueNAS Administration](https://truenas.wyattau.com/hub)**, storage server performance optimisation
+- **[Networking](https://networking.wyattau.com/hub)**, network performance tuning
+- **[Security](https://security.wyattau.com/hub)**, security considerations that may impact performance
+- **[Developer Tools](https://tools.wyattau.com/hub)**, application-level performance profiling
+- **[C++ Programming](https://programming.wyattau.com/hub)**, low-level programming for performance-critical applications
 
 ---
 
@@ -446,11 +446,11 @@ Run stress tests for an extended period. For CPUs, Prime95 Small FFTs for 4+ hou
 
 ### Should I undervolt or overclock?
 
-Undervolt first. It provides temperature and power savings with minimal performance loss — often negligible. If you still need more performance after undervolting, then consider overclocking. Many users find that undervolting provides the best balance of performance, thermals, and noise.
+Undervolt first. It provides temperature and power savings with minimal performance loss, often negligible. If you still need more performance after undervolting, then consider overclocking. Many users find that undervolting provides the best balance of performance, thermals, and noise.
 
 ### What is the safest way to overclock?
 
-Start with modest increases and validate stability at each step. Use manufacturer-provided tools (Intel XTU, AMD Ryzen Master, MSI Afterburner) rather than manual BIOS settings. Monitor temperatures continuously. If in doubt, use PBO (AMD) or stock boost behaviour (Intel) — modern CPUs boost aggressively on their own.
+Start with modest increases and validate stability at each step. Use manufacturer-provided tools (Intel XTU, AMD Ryzen Master, MSI Afterburner) rather than manual BIOS settings. Monitor temperatures continuously. If in doubt, use PBO (AMD) or stock boost behaviour (Intel), modern CPUs boost aggressively on their own.
 
 ### How often should I re-paste my CPU?
 

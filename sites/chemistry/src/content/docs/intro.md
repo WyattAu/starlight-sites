@@ -27,7 +27,7 @@ graph TD
 ```
 
 
-Chemistry is a cumulative subject — each concept builds on previous knowledge. Work through physical chemistry first (thermodynamics, kinetics, quantum mechanics), then organic chemistry (mechanisms, synthesis), then inorganic chemistry (coordination compounds, solid-state).
+Chemistry is a cumulative subject, each concept builds on previous knowledge. Work through physical chemistry first (thermodynamics, kinetics, quantum mechanics), then organic chemistry (mechanisms, synthesis), then inorganic chemistry (coordination compounds, solid-state).
 
 **Problem-solving approach:** Chemistry problems require both conceptual understanding and numerical skill. For mechanism questions, always draw electron-pushing arrows. For calculation questions, track units through every step and verify your answer makes physical sense.
 
@@ -35,9 +35,9 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 
 ## Study Path
 
-1. **Physical Chemistry** — Start here: thermodynamics, kinetics, quantum mechanics, spectroscopy
-2. **Organic Chemistry** — Reaction mechanisms, synthesis, stereochemistry
-3. **Inorganic Chemistry** — Coordination compounds, organometallics, solid-state
+1. **Physical Chemistry**, Start here: thermodynamics, kinetics, quantum mechanics, spectroscopy
+2. **Organic Chemistry**, Reaction mechanisms, synthesis, stereochemistry
+3. **Inorganic Chemistry**, Coordination compounds, organometallics, solid-state
 
 ## Core Concepts
 
@@ -51,16 +51,16 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 
 ## Exam Strategy
 
-1. **Read the question fully** before drawing mechanisms — misinterpreting the starting material wastes time.
-2. **Check units and signs** — a negative $\Delta G$ means spontaneous; a negative $K$ is impossible.
-3. **Draw every intermediate** — partial marks come from correct intermediate structures even if the final product is wrong.
-4. **Use dimensional analysis** — if units don't cancel, the equation is wrong or applied incorrectly.
+1. **Read the question fully** before drawing mechanisms, misinterpreting the starting material wastes time.
+2. **Check units and signs**, a negative $\Delta G$ means spontaneous; a negative $K$ is impossible.
+3. **Draw every intermediate**, partial marks come from correct intermediate structures even if the final product is wrong.
+4. **Use dimensional analysis**, if units don't cancel, the equation is wrong or applied incorrectly.
 
 ## Key Resources
 
-- **Flashcards** — Spaced repetition for key facts, reactions, and mechanisms
-- **Practice Problems** — Worked examples with detailed explanations
-- **Diagnostic Tests** — Identify gaps in your knowledge before exams
+- **Flashcards**, Spaced repetition for key facts, reactions, and mechanisms
+- **Practice Problems**, Worked examples with detailed explanations
+- **Diagnostic Tests**, Identify gaps in your knowledge before exams
 
 ## Common Mistakes
 
@@ -79,11 +79,11 @@ Chemistry is a cumulative subject — each concept builds on previous knowledge.
 
 ## Intuition
 
-Chemistry is the science of matter and its transformations — what things are made of, how they change, and why. At its heart, chemistry is about electrons: how they're arranged in atoms, how they're shared or transferred between atoms in chemical bonds, and how they flow during chemical reactions. The periodic table isn't just a chart to memorise — it's a map of electron configurations that predicts chemical behaviour. Elements in the same group have similar properties because they have the same number of valence electrons. Understanding this connection between electron structure and chemical properties is what transforms chemistry from rote memorisation into a logical, predictive science.
+Chemistry is the science of matter and its transformations, what things are made of, how they change, and why. At its heart, chemistry is about electrons: how they're arranged in atoms, how they're shared or transferred between atoms in chemical bonds, and how they flow during chemical reactions. The periodic table isn't just a chart to memorise, it's a map of electron configurations that predicts chemical behaviour. Elements in the same group have similar properties because they have the same number of valence electrons. Understanding this connection between electron structure and chemical properties is what transforms chemistry from rote memorisation into a logical, predictive science.
 
-The three branches of chemistry — physical, organic, and inorganic — are different perspectives on the same fundamental question: why do substances behave the way they do? Physical chemistry provides the thermodynamic and quantum mechanical framework: thermodynamics tells you whether a reaction will happen (ΔG < 0 means spontaneous), kinetics tells you how fast it will happen (activation energy determines the rate), and quantum mechanics explains why bonds form and why molecules have specific shapes. Organic chemistry applies these principles to carbon-based molecules, where the versatility of carbon's four bonds creates an enormous diversity of structures and reactions. Inorganic chemistry covers coordination compounds and solid-state structures where metal-ligand bonding and crystal field theory explain colour, magnetism, and reactivity.
+The three branches of chemistry, physical, organic, and inorganic, are different perspectives on the same fundamental question: why do substances behave the way they do? Physical chemistry provides the thermodynamic and quantum mechanical framework: thermodynamics tells you whether a reaction will happen (ΔG < 0 means spontaneous), kinetics tells you how fast it will happen (activation energy determines the rate), and quantum mechanics explains why bonds form and why molecules have specific shapes. Organic chemistry applies these principles to carbon-based molecules, where the versatility of carbon's four bonds creates an enormous diversity of structures and reactions. Inorganic chemistry covers coordination compounds and solid-state structures where metal-ligand bonding and crystal field theory explain colour, magnetism, and reactivity.
 
-The practical power of chemistry lies in prediction. If you understand that nucleophiles attack electrophiles, you can predict the products of reactions you've never seen before. If you understand that ΔG = ΔH - TΔS, you can predict whether a reaction becomes more or less spontaneous as temperature changes. If you understand molecular orbital theory, you can explain why O₂ is paramagnetic and why benzene is unusually stable. Chemistry is not about memorising thousands of reactions — it's about understanding a small number of principles that generate all the rest.
+The practical power of chemistry lies in prediction. If you understand that nucleophiles attack electrophiles, you can predict the products of reactions you've never seen before. If you understand that ΔG = ΔH - TΔS, you can predict whether a reaction becomes more or less spontaneous as temperature changes. If you understand molecular orbital theory, you can explain why O₂ is paramagnetic and why benzene is unusually stable. Chemistry is not about memorising thousands of reactions, it's about understanding a small number of principles that generate all the rest.
 
 
 ## Detailed Content

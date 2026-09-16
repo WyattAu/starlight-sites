@@ -20,7 +20,7 @@ Browse the content using the sidebar navigation on the left.
 
 ## Why Licensing Matters
 
-Every piece of software has a license — even if you did not choose one. Without an explicit license, copyright law gives you "all rights reserved" by default, meaning nobody can use, modify, or distribute your code. Choosing the right license protects you and communicates your intentions to users.
+Every piece of software has a license, even if you did not choose one. Without an explicit license, copyright law gives you "all rights reserved" by default, meaning nobody can use, modify, or distribute your code. Choosing the right license protects you and communicates your intentions to users.
 
 ## Key Concepts
 
@@ -41,7 +41,7 @@ Every piece of software has a license — even if you did not choose one. Withou
 
 ## Why This Matters
 
-Choosing the wrong license can have lasting consequences for your project. A GPL license in a commercial product may require you to release your source code. A permissive license without patent protection may leave you vulnerable to patent claims. Understanding the legal implications of each license family is not optional — it is a fundamental part of software development.
+Choosing the wrong license can have lasting consequences for your project. A GPL license in a commercial product may require you to release your source code. A permissive license without patent protection may leave you vulnerable to patent claims. Understanding the legal implications of each license family is not optional, it is a fundamental part of software development.
 
 ## Practical Guidance
 
@@ -66,11 +66,11 @@ Choosing the wrong license can have lasting consequences for your project. A GPL
 
 **Why it matters:** Incorrect licensing can result in legal disputes, forced code disclosure, or loss of intellectual property rights.
 
-**The key insight:** There is no such thing as "no licence" — if you do not specify one, default copyright applies, meaning nobody can legally use, modify, or distribute your code.
+**The key insight:** There is no such thing as "no licence", if you do not specify one, default copyright applies, meaning nobody can legally use, modify, or distribute your code.
 
 ## Common Mistakes
 
-**Confusing copyright with licensing:** Copyright is automatic (applied on creation). Licensing is a choice — you decide how others can use your work. An unlicensed work is "all rights reserved" by default, even if you want to share it. Always apply an explicit license.
+**Confusing copyright with licensing:** Copyright is automatic (applied on creation). Licensing is a choice, you decide how others can use your work. An unlicensed work is "all rights reserved" by default, even if you want to share it. Always apply an explicit license.
 
 **Using GPL code in proprietary software:** GPL requires derivative works to also be GPL. If you incorporate GPL-licensed code into your project, your entire project must be GPL-compatible. Use MIT or Apache 2.0 for permissive licensing if you want proprietary compatibility.
 

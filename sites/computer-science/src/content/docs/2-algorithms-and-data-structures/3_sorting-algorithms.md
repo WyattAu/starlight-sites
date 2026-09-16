@@ -191,11 +191,11 @@ Sort the array $[4, 2, 2, 8, 3, 3, 1]$ using counting sort.
 
 Range of values: $[1, 8]$ So $k = 8$.
 
-**Step 1 — Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
+**Step 1, Count:** $C = [0, 1, 2, 2, 1, 0, 0, 0]$ (indices 1 through 8).
 
-**Step 2 — Prefix sums:** $C = [0, 1, 3, 5, 6, 6, 6, 6]$.
+**Step 2, Prefix sums:** $C = [0, 1, 3, 5, 6, 6, 6, 6]$.
 
-**Step 3 — Place (iterate backwards):**
+**Step 3, Place (iterate backwards):**
 
 - $A[6] = 1$: $C[1] = 1$Place at position 0. $C[1] = 0$.
 - $A[5] = 3$: $C[3] = 5$Place at position 4. $C[3] = 4$.

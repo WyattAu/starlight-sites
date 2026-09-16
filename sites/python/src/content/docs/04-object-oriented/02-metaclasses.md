@@ -89,7 +89,7 @@ Relationship between `type` and `object` is the foundation of Python's object mo
 ```python
 MyClass = type(
     "MyClass",       # __name__
-    (object,),       # __bases__
+    (object),       # __bases__
     {                # namespace dict
         "x": 10,
         "get_x": lambda self: self.x,

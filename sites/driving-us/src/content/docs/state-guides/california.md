@@ -7,7 +7,7 @@ tags:
   - california
   - dmv
 sources:
-  - text: "California DMV — Driver License and Identification (DL/ID) Card Application and testing"
+  - text: "California DMV, Driver License and Identification (DL/ID) Card Application and testing"
     url: "https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/"
   - text: "California Driver Handbook (official)"
     url: "https://www.dmv.ca.gov/portal/driver-education-and-safety/driver-handbooks/"
@@ -16,7 +16,7 @@ sources:
 ## The Agency: California DMV
 
 California's Department of Motor Vehicles (DMV) runs licensing for the
-state's roughly 27 million licensed drivers — the largest driver
+state's roughly 27 million licensed drivers, the largest driver
 population in the country. Appointments are booked online and walk-in
 service is slow; always book ahead for knowledge tests.
 
@@ -48,7 +48,7 @@ Provisional restrictions for the first 12 months:
 
 Adults skip driver education requirements and the provisional stage.
 The knowledge test for adults is shorter (36 questions, 3 wrong
-allowed), and there is no mandatory holding period — you can take the
+allowed), and there is no mandatory holding period, you can take the
 behind-the-wheel test as soon as you feel ready.
 
 ## Renewals and Real ID
@@ -56,7 +56,7 @@ behind-the-wheel test as soon as you feel ready.
 California licenses renew every 5 years. The federal **REAL ID**
 (upgrade marked with a bear-and-star) requires an office visit with
 proof of identity, Social Security number, and two proofs of
-residency — worth doing well before airport travel deadlines.
+residency, worth doing well before airport travel deadlines.
 
 ## What the CA Written Test Emphasizes
 
@@ -71,11 +71,11 @@ Based on the official California Driver Handbook:
 
 ## Study Plan for the CA Permit Test
 
-1. Read the official handbook once, slowly — the test quotes it nearly
+1. Read the official handbook once, slowly, the test quotes it nearly
    verbatim.
 2. Focus on numeric facts (speeds, distances, BAC limits, curfews);
    make flashcards for each.
-3. Take practice tests until you score 46/46 twice in a row — CA's 83%
+3. Take practice tests until you score 46/46 twice in a row, CA's 83%
    pass mark gives little slack (only 8 wrong answers).
 4. Book the earliest morning appointment; test centers are calmer and
    you will not be rushed at closing time.
@@ -83,11 +83,11 @@ Based on the official California Driver Handbook:
 ## Common CA Test Mistakes
 
 - Confusing when passengers must yield to merging traffic on freeways.
-- Misremembering the under-21 BAC limit (0.01% — essentially zero).
+- Misremembering the under-21 BAC limit (0.01%, essentially zero).
 - Missing that bicycles in bike lanes have right-of-way when you turn
   across the lane.
 - Assuming a red right-turn arrow works like a plain red light (it
-  does not — wait for green).
+  does not, wait for green).
 
 
 ## CA Fees and Milestones Quick Table

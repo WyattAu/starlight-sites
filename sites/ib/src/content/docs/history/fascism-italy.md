@@ -44,9 +44,9 @@ Italy fought on the Allied side in the First World War but emerged from the conf
 - Local elites, landowners, and police often colluded with or tolerated Fascist violence.
 - Mussolini positioned Fascism as a bulwark against communism, winning the support of industrialists (notably the Confederazione Generale del Lavoro) and the monarchy.
 - The March on Rome (28 October 1922): approximately 25,000 Fascists converged on Rome. King Victor Emmanuel III refused to declare martial law and appointed Mussolini as Prime Minister.
-- The March was more of a political coup than a military conquest — Mussolini was already in negotiations with the establishment before the march began.
+- The March was more of a political coup than a military conquest, Mussolini was already in negotiations with the establishment before the march began.
 
-**Key Term:** *Squadristi* — the paramilitary wings of the Fascist movement, responsible for violent attacks on political opponents, particularly socialists and trade unionists. Their violence was systematic and often sanctioned by local authorities.
+**Key Term:** *Squadristi*, the paramilitary wings of the Fascist movement, responsible for violent attacks on political opponents, particularly socialists and trade unionists. Their violence was systematic and often sanctioned by local authorities.
 
 ---
 
@@ -73,7 +73,7 @@ Italy fought on the Allied side in the First World War but emerged from the conf
 - The corporatist system organised the economy into 22 corporations by industry, each comprising representatives of employers, employees, and the state.
 - In practice, corporatism served the interests of employers and the state. Real wages declined, independent trade unions were suppressed, and workers lost the right to strike.
 
-**Key Term:** *Corporatism* — an economic and political system in which society is organised into corporate groups (by industry or profession) that mediate between the individual and the state. In Fascist theory, it replaced class conflict with state-managed collaboration; in practice, it was a mechanism of state control over labour.
+**Key Term:** *Corporatism*, an economic and political system in which society is organised into corporate groups (by industry or profession) that mediate between the individual and the state. In Fascist theory, it replaced class conflict with state-managed collaboration; in practice, it was a mechanism of state control over labour.
 
 ---
 
@@ -168,7 +168,7 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 - Jews were excluded from public life, education, and professions. Approximately 7,000 Italian Jews were deported to concentration camps; roughly 15% survived.
 - The racial laws were not part of the original Fascist programme and represented a late, ideologically driven shift.
 
-**Key Term:** *Lateran Treaty (1929)* — the agreement between the Italian state and the Holy See that established Vatican City as an independent sovereign territory, settled the financial claims of the Church, and defined the relationship between Catholicism and the Italian state.
+**Key Term:** *Lateran Treaty (1929)*, the agreement between the Italian state and the Holy See that established Vatican City as an independent sovereign territory, settled the financial claims of the Church, and defined the relationship between Catholicism and the Italian state.
 
 ---
 
@@ -189,25 +189,25 @@ Mussolini co-authored *The Doctrine of Fascism* (1932) with the philosopher Giov
 | :------ | :------------ | :----------- | :------------- |
 | **Seizure of power** | Appointed through constitutional processes; gradual consolidation | Appointed through constitutional processes; rapid elimination of opposition | Rise through party apparatus; elimination of rivals after Lenin's death |
 | **One-party state** | Achieved by 1926 | Achieved by 1933 | Already in place since 1917 |
-| **Use of terror** | Moderate — OVRA, exile, imprisonment; less systematic than Nazi or Soviet terror | Systematic — Gestapo, SS, concentration camps; escalating to genocide | Systematic — NKVD, purges, Gulag; mass executions and deportations |
+| **Use of terror** | Moderate, OVRA, exile, imprisonment; less systematic than Nazi or Soviet terror | Systematic, Gestapo, SS, concentration camps; escalating to genocide | Systematic, NKVD, purges, Gulag; mass executions and deportations |
 | **Leader cult** | The Duce as father of the nation; personal authority | The Führer as embodiment of the racial state; semi-religious devotion | Stalin as the great leader, teacher, and "father of nations" |
 
 ### Economic Policy
 
-- **Fascist Italy:** Corporatism suppressed independent trade unions and maintained private ownership. Economic performance was poor — GDP per capita growth was sluggish compared to liberal democracies.
+- **Fascist Italy:** Corporatism suppressed independent trade unions and maintained private ownership. Economic performance was poor, GDP per capita growth was sluggish compared to liberal democracies.
 - **Nazi Germany:** Rearmament and public works (Autobahn) drove rapid economic recovery. The economy was restructured for war, with private firms operating under state direction.
 - **Stalinist USSR:** Central planning through Five-Year Plans. Rapid industrialisation at the cost of massive human suffering. Forced collectivisation of agriculture.
 
 ### Ideology
 
 - **Fascist Italy:** Nationalism, imperial expansion, corporatism. Anti-communist but not initially racial in its ideology.
-- **Nazi Germany:** Racial ideology was central — antisemitism, *Lebensraum*, Aryan supremacy. The Volksgemeinschaft (racial community) defined national belonging.
+- **Nazi Germany:** Racial ideology was central, antisemitism, *Lebensraum*, Aryan supremacy. The Volksgemeinschaft (racial community) defined national belonging.
 - **Stalinist USSR:** Marxism-Leninism. The class struggle, the vanguard party, and the construction of socialism. Racial ideology was rejected in favour of internationalism, though Soviet nationality policy was complex.
 
 ### Historiographical Debates
 
-- **Was Fascism a distinct ideology or merely anti-liberal and anti-communist?** Roger Griffin argues that Fascism possessed a coherent ideological core — "palingenetic ultranationalism" — centred on national rebirth through revolutionary action. Others, such as Renzo De Felice, emphasise the regime's pragmatic adaptation to circumstances.
-- **Totalitarian model vs authoritarian model:** Hannah Arendt and Carl Friedrich-Zbigniew Brzezinski argued that both Fascist Italy and Stalinist USSR were totalitarian states characterised by monopoly of mass communication, single-party control, and systematic terror. However, scholars like Juan Linz contended that Fascist Italy was merely authoritarian — lacking the ideological penetration and total control of the Nazi or Soviet systems.
+- **Was Fascism a distinct ideology or merely anti-liberal and anti-communist?** Roger Griffin argues that Fascism possessed a coherent ideological core, "palingenetic ultranationalism", centred on national rebirth through revolutionary action. Others, such as Renzo De Felice, emphasise the regime's pragmatic adaptation to circumstances.
+- **Totalitarian model vs authoritarian model:** Hannah Arendt and Carl Friedrich-Zbigniew Brzezinski argued that both Fascist Italy and Stalinist USSR were totalitarian states characterised by monopoly of mass communication, single-party control, and systematic terror. However, scholars like Juan Linz contended that Fascist Italy was merely authoritarian, lacking the ideological penetration and total control of the Nazi or Soviet systems.
 - **The "modernising" thesis:** Some historians, notably Dennis Mack Smith, argued that Fascism was a reactionary movement that preserved the power of the traditional elites (monarchy, Church, military) rather than a modernising force. Others, such as Emilio Gentile, contend that Fascism did pursue a form of political modernisation through mass mobilisation and state intervention.
 
 ---

@@ -295,7 +295,7 @@ Normalization is the process of breaking a large, messy table into smaller, well
 
 **Confusing functional dependencies with key constraints:** Functional dependency X → Y means X determines Y. Key constraint means X uniquely identifies a row. They're related but different concepts.
 
-**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it — consider query performance trade-offs.
+**Forgetting that normalisation is about eliminating redundancy:** The goal is to reduce data duplication and update anomalies. Don't normalise just for the sake of it, consider query performance trade-offs.
 
 **Mixing up 2NF with 3NF:** 2NF eliminates partial dependencies (non-key attributes depending on part of a composite key). 3NF eliminates transitive dependencies (non-key attributes depending on other non-key attributes). Don't confuse the two.
 

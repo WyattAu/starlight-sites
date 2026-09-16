@@ -29,12 +29,12 @@ A method from an interface. The compiler verifies the declaration actually overr
 ```java
 public class Dog {
     @Override
-    public String toString() { // compiles — Object.toString() exists
+    public String toString() { // compiles, Object.toString() exists
         return "Dog";
     }
 
     @Override
-    public boolean equals(Dog other) { // compile error — does not override Object.equals(Object)
+    public boolean equals(Dog other) { // compile error, does not override Object.equals(Object)
         return false;
     }
 }
@@ -50,7 +50,7 @@ public interface Animal {
 
 public interface LoudAnimal extends Animal {
     @Override
-    void speak(); // valid — overrides Animal.speak()
+    void speak(); // valid, overrides Animal.speak()
 }
 ```
 
@@ -66,7 +66,7 @@ Deprecated elements are used or overridden:
 public class LegacyService {
     @Deprecated(since = "3.0", forRemoval = true)
     public void oldMethod() {
-        // do not use — will be removed in a future release
+        // do not use, will be removed in a future release
     }
 
     @Deprecated(since = "3.0", forRemoval = false)
@@ -111,7 +111,7 @@ public class Config {
 ### @FunctionalInterface
 
 `@FunctionalInterface` (JDK 8) marks an interface as intended to be a functional interface (SAM type
-— single abstract method). The compiler enforces that the interface has exactly one abstract method:
+- single abstract method). The compiler enforces that the interface has exactly one abstract method:
 
 ```java
 @FunctionalInterface
@@ -136,7 +136,7 @@ public interface Predicate<T> {
 @FunctionalInterface
 public interface Broken {
     void run();
-    void stop(); // compile error — multiple abstract methods
+    void stop(); // compile error, multiple abstract methods
 }
 ```
 
@@ -145,12 +145,12 @@ It makes intent explicit and catches accidental additions.
 
 ### Other Built-in Annotations
 
-- `@SafeVarargs` (JDK 7) — suppresses heap pollution warnings on varargs methods/constructors. Must
+- `@SafeVarargs` (JDK 7), suppresses heap pollution warnings on varargs methods/constructors. Must
   be on `final``static`Or `private` methods (or constructors). Applying it on non-final instance
   methods is a compile error (JDK 9+).
-- `@Native` (JDK 8) — marks a `static final` field as a constant that may be referenced from native
+- `@Native` (JDK 8), marks a `static final` field as a constant that may be referenced from native
   code. The field must be initialized to a compile-time constant.
-- `@Repeatable` (JDK 8) — covered in [Meta-Annotations](#meta-annotations).
+- `@Repeatable` (JDK 8), covered in [Meta-Annotations](#meta-annotations).
 
 ## Meta-Annotations
 
@@ -181,7 +181,7 @@ public @interface Column { String name(); } // readable via reflection
 
 If you need to read annotations at runtime (for framework processing, serialization config, etc.),
 Use `RUNTIME`. If annotations are purely for compile-time checking (lint rules, code generation),
-`SOURCE` is appropriate. `CLASS` is rarely used directly — it exists for tools that process class
+`SOURCE` is appropriate. `CLASS` is rarely used directly, it exists for tools that process class
 Files without loading them into the JVM.
 
 ### @Target
@@ -210,7 +210,7 @@ Files without loading them into the JVM.
 public @interface NotNull { }
 ```
 
-`TYPE_USE` is powerful — it lets you annotate any use of a type:
+`TYPE_USE` is powerful, it lets you annotate any use of a type:
 
 ```java
 List<@NotNull String> names;
@@ -239,7 +239,7 @@ public class UserService extends BaseService { }
 Limitations:
 
 - Only works for class-level annotations, not methods or fields.
-- Only applies to direct inheritance — interfaces implementing other interfaces do not inherit
+- Only applies to direct inheritance, interfaces implementing other interfaces do not inherit
   annotations.
 - A subclass annotation overrides the inherited one.
 
@@ -332,7 +332,7 @@ public @interface Log {
     Level level() default Level.INFO;
 }
 
-// Usage — 'value' allows shorthand
+// Usage, 'value' allows shorthand
 @Log("processing order")
 @Log(value = "processing order", level = Level.DEBUG)
 public void process(Order order) { }
@@ -439,7 +439,7 @@ int length = Array.getLength(arr);
 // Primitive wrapper classes
 Class<Integer> intClass = int.class;    // primitive
 Class<Integer> intWrapper = Integer.class; // wrapper
-intClass != intWrapper;                  // true — different Class objects
+intClass != intWrapper;                  // true, different Class objects
 ```
 
 ## Runtime Type Introspection Patterns
@@ -762,7 +762,7 @@ int val = (int) arrayVH.getVolatile(arr, 1); // volatile read
 
 `invokedynamic` is a JVM bytecode instruction that defers method linkage to runtime. Foundation for
 Lambda expressions (JDK 8), dynamic languages (Groovy, JRuby), and string concatenation (JDK 9+).
-You rarely use it directly unless building a language runtime — the JVM links the call site through
+You rarely use it directly unless building a language runtime, the JVM links the call site through
 A `CallSite` object and a bootstrap method.
 
 ## Performance Implications of Reflection
@@ -791,16 +791,16 @@ Specific case.
 
 ### Mitigating Reflection Overhead
 
-**Cache `Method` objects** — look up once, reuse. Avoid `getMethod()` inside loops.
+**Cache `Method` objects**, look up once, reuse. Avoid `getMethod()` inside loops.
 
-**Use `MethodHandle` instead of `Method.invoke()`** — JIT can optimize `invokeExact` call sites.
+**Use `MethodHandle` instead of `Method.invoke()`**, JIT can optimize `invokeExact` call sites.
 
 **Code generation** (ByteBuddy, CGLIB, ASM) eliminates reflection entirely by generating bytecode at
 Runtime. This is what Hibernate, Spring, and Mockito do for performance-critical paths.
 
 ### Reflection and JIT Optimization
 
-The JIT compiler cannot optimize through reflection boundaries — a reflective call site is an opaque
+The JIT compiler cannot optimize through reflection boundaries, a reflective call site is an opaque
 Barrier. The called method is not inlined, escape analysis doesn't work across it, and loop
 Optimizations cannot see through reflective dispatch. `MethodHandle.invokeExact` is an exception:
 The JIT can sometimes inline through it because the type is known at the call site.
@@ -841,7 +841,7 @@ for (Object item : items) {
     Object value = getter.invoke(item); // reflection on every iteration
 }
 
-// GOOD — cache the method handle outside the loop
+// GOOD, cache the method handle outside the loop
 MethodHandle getter = MethodHandles.lookup()
         .findVirtual(item.getClass(), "getValue", MethodType.methodType(Object.class));
 for (Object item : items) {
@@ -866,7 +866,7 @@ After type erasure, you cannot cast to a generic type through reflection without
 ```java
 Field field = clazz.getDeclaredField("list");
 field.setAccessible(true);
-// This is an unchecked cast — the actual runtime type is List (raw)
+// This is an unchecked cast, the actual runtime type is List (raw)
 List<String> list = (List<String>) field.get(obj);
 ```
 
@@ -876,7 +876,7 @@ A `List<Integer>`You get a `ClassCastException` later when accessing elements, n
 ### Primitive Type Handling
 
 `Method.invoke()` boxes primitives automatically, which costs in tight loops. Use `Field.setInt()` /
-`Field.getInt()` for primitive fields. `Method.invoke` always boxes — consider `MethodHandle` for
+`Field.getInt()` for primitive fields. `Method.invoke` always boxes, consider `MethodHandle` for
 Performance-critical paths.
 
 ### Overloaded Methods and Ambiguity

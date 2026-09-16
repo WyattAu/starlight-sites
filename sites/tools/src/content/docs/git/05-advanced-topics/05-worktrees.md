@@ -184,7 +184,7 @@ $ git worktree add ../repo-hotfix -b hotfix-crash main
 $ cd ../repo-hotfix
 # Fix the crash, test, commit, push
 $ cd ../repo-main
-# Continue working on your feature — no stash needed
+# Continue working on your feature, no stash needed
 ```
 
 ### 2. Side-by-Side Code Review
@@ -234,7 +234,7 @@ git worktree add project-main main
 
 ### Submodule Interaction
 
-Submodules in worktrees can be tricky — each worktree initializes submodules independently, which
+Submodules in worktrees can be tricky, each worktree initializes submodules independently, which
 can lead to conflicts:
 
 ```bash

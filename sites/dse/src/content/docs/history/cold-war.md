@@ -88,7 +88,7 @@ The Cold War ended abruptly with the fall of the Berlin Wall on 9 November 1989 
 
 ## Intuition
 
-The Cold War was a staring contest between two superpowers, each pointing nuclear weapons at the other while trying not to blink. Neither side wanted direct confrontation because mutual assured destruction meant both would lose, so they fought through proxies — like chess players using other people's pieces. Hong Kong sat on the fault line between these two worlds, a capitalist outpost on the doorstep of communist China. The city became a listening post, a trading post, and an escape route — its prosperity was built partly on the tensions of the era.
+The Cold War was a staring contest between two superpowers, each pointing nuclear weapons at the other while trying not to blink. Neither side wanted direct confrontation because mutual assured destruction meant both would lose, so they fought through proxies, like chess players using other people's pieces. Hong Kong sat on the fault line between these two worlds, a capitalist outpost on the doorstep of communist China. The city became a listening post, a trading post, and an escape route, its prosperity was built partly on the tensions of the era.
 
 ## Exam Tips
 

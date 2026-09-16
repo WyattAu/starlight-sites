@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Acids and Bases — Diagnostic Tests
+## Acids and Bases, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Acids and bases are like chemical opposites — they neutralize each other in a proton-transfer handshake:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
+**Acids and bases are like chemical opposites, they neutralize each other in a proton-transfer handshake:** The pH scale measures the intensity of acidity or basicity, governing everything from enzyme function to ocean chemistry
 
 **Why it matters:** Acid-base chemistry is fundamental to biology, medicine, environmental science, and industrial processes
 
@@ -274,7 +274,7 @@ Maximum volume of HCl: $4.97\ \text{cm}^3$.
 
 **Confusing strong acids with concentrated acids:** Strong acids dissociate completely. Concentrated acids have high molarity. A dilute strong acid is still strong; a concentrated weak acid is still weak.
 
-**Forgetting that pH is a logarithmic scale:** A change of 1 pH unit means a 10-fold change in [H⁺]. Don't assume pH 3 is "twice as acidic" as pH 6 — it's 1000 times more acidic.
+**Forgetting that pH is a logarithmic scale:** A change of 1 pH unit means a 10-fold change in [H⁺]. Don't assume pH 3 is "twice as acidic" as pH 6, it's 1000 times more acidic.
 
 **Mixing up Ka with pKa:** Ka is the acid dissociation constant. pKa = -log Ka. Lower pKa means stronger acid. Don't confuse the two scales.
 

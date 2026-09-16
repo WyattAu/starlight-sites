@@ -56,7 +56,7 @@ flowchart TD
 
 Java remains one of the most widely deployed programming languages in the world. It powers enterprise backends, Android applications, financial systems, and large-scale distributed systems. Its combination of strong typing, managed runtime, and mature ecosystem makes it a reliable choice for production software. But Java's verbosity and layers of abstraction can obscure what is actually happening under the hood.
 
-This hub page maps every resource on this site. The learning path takes you from core language features through advanced concurrency and the Spring ecosystem, building a thorough understanding of how Java works and how to write code that is idiomatic, maintainable, and performant. These notes cover modern Java (17+) — the version of the language in active production use today.
+This hub page maps every resource on this site. The learning path takes you from core language features through advanced concurrency and the Spring ecosystem, building a thorough understanding of how Java works and how to write code that is idiomatic, maintainable, and performant. These notes cover modern Java (17+), the version of the language in active production use today.
 
 ## Table of Contents
 
@@ -73,21 +73,21 @@ This hub page maps every resource on this site. The learning path takes you from
 
 ## Core Java
 
-Core Java covers the language fundamentals that every Java developer must master: types, control flow, exceptions, generics, and the standard library. These concepts form the foundation for everything else — collections, concurrency, and frameworks all build on top of them.
+Core Java covers the language fundamentals that every Java developer must master: types, control flow, exceptions, generics, and the standard library. These concepts form the foundation for everything else, collections, concurrency, and frameworks all build on top of them.
 
 ### Topic Notes
 
-- [Types and Variables](02-fundamentals/01-types-and-variables) — primitive types, reference types, boxing, and type conversion
-- [Control Flow](02-fundamentals/02-control-flow) — if/else, switch expressions, for/while loops, and pattern matching
-- [Methods and Scope](02-fundamentals/03-methods-and-scope) — parameter passing, method overloading, and variable scope
-- [Exceptions](12-exceptions/01-exceptions) — checked vs unchecked exceptions, try-with-resources, and exception hierarchies
-- [Generics](../../../../kotlin/src/content/docs/intermediate/generics) — type parameters, bounded types, wildcards, and type erasure
+- [Types and Variables](02-fundamentals/01-types-and-variables), primitive types, reference types, boxing, and type conversion
+- [Control Flow](02-fundamentals/02-control-flow), if/else, switch expressions, for/while loops, and pattern matching
+- [Methods and Scope](02-fundamentals/03-methods-and-scope), parameter passing, method overloading, and variable scope
+- [Exceptions](12-exceptions/01-exceptions), checked vs unchecked exceptions, try-with-resources, and exception hierarchies
+- [Generics](../../../../kotlin/src/content/docs/intermediate/generics), type parameters, bounded types, wildcards, and type erasure
 
 ### Key Concepts
 
 **Reference vs. primitive types** is the first distinction every Java developer must understand. Primitives (`int`, `double`, `boolean`) store values directly on the stack. Reference types store pointers to objects on the heap. Understanding this distinction explains why `==` compares references but `.equals()` compares content.
 
-**Generics** enable type-safe collections and methods without sacrificing type information at compile time. Type erasure means generic type parameters are removed at runtime — you cannot use `instanceof` with generic types or create generic arrays. Bounded wildcards (`? extends T`, `? super T`) enable flexible API design.
+**Generics** enable type-safe collections and methods without sacrificing type information at compile time. Type erasure means generic type parameters are removed at runtime, you cannot use `instanceof` with generic types or create generic arrays. Bounded wildcards (`? extends T`, `? super T`) enable flexible API design.
 
 **Try-with-resources** ensures that resources implementing `AutoCloseable` are properly closed after use. The `try` block acquires the resource, and the runtime guarantees `close()` is called even if an exception is thrown.
 
@@ -99,11 +99,11 @@ Java is fundamentally an object-oriented language. Understanding class design, i
 
 ### Topic Notes
 
-- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects) — constructors, fields, methods, and the `this` reference
-- [Inheritance and Polymorphism](03-oop/02-inheritance-and-polymorphism) — extends, method overriding, super, and dynamic dispatch
-- [Interfaces and Abstract Classes](../../../../go/src/content/docs/intermediate/interfaces) — interface design, default methods, and the IS-A relationship
-- [Sealed Classes and Records](../../../../dart/src/content/docs/07-dart3-features/02-sealed-classes) — Java 17+ features for modeling closed hierarchies and immutable data
-- [Design Principles](03-oop/05-design-principles) — SOLID principles, composition over inheritance, and clean code practices
+- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects), constructors, fields, methods, and the `this` reference
+- [Inheritance and Polymorphism](03-oop/02-inheritance-and-polymorphism), extends, method overriding, super, and dynamic dispatch
+- [Interfaces and Abstract Classes](../../../../go/src/content/docs/intermediate/interfaces), interface design, default methods, and the IS-A relationship
+- [Sealed Classes and Records](../../../../dart/src/content/docs/07-dart3-features/02-sealed-classes), Java 17+ features for modeling closed hierarchies and immutable data
+- [Design Principles](03-oop/05-design-principles), SOLID principles, composition over inheritance, and clean code practices
 
 ### Key Concepts
 
@@ -117,15 +117,15 @@ Java is fundamentally an object-oriented language. Understanding class design, i
 
 ## Collections Framework
 
-The Java Collections Framework provides the data structures and algorithms that underpin virtually every Java application. Understanding the framework — its interfaces, implementations, and algorithms — is critical for writing efficient code.
+The Java Collections Framework provides the data structures and algorithms that underpin virtually every Java application. Understanding the framework, its interfaces, implementations, and algorithms, is critical for writing efficient code.
 
 ### Topic Notes
 
-- [Collection Interfaces](../../../../go/src/content/docs/intermediate/interfaces) — Collection, List, Set, Map, and their contracts
-- [Implementations](04-collections/02-implementations) — ArrayList, LinkedList, HashMap, TreeMap, HashSet, and when to use each
-- [Iterators and Streams](04-collections/03-iterators-and-streams) — Iterator, ListIterator, the Stream API, and lazy evaluation
-- [Concurrency-Safe Collections](06-concurrency/01-concurrency) — ConcurrentHashMap, CopyOnWriteArrayList, and blocking queues
-- [Sorting and Searching](../../../../tools/src/content/docs/algorithms/05-sorting/sorting) — Comparable, Comparator, Collections.sort, and Arrays.sort
+- [Collection Interfaces](../../../../go/src/content/docs/intermediate/interfaces), Collection, List, Set, Map, and their contracts
+- [Implementations](04-collections/02-implementations), ArrayList, LinkedList, HashMap, TreeMap, HashSet, and when to use each
+- [Iterators and Streams](04-collections/03-iterators-and-streams), Iterator, ListIterator, the Stream API, and lazy evaluation
+- [Concurrency-Safe Collections](06-concurrency/01-concurrency), ConcurrentHashMap, CopyOnWriteArrayList, and blocking queues
+- [Sorting and Searching](../../../../tools/src/content/docs/algorithms/05-sorting/sorting), Comparable, Comparator, Collections.sort, and Arrays.sort
 
 ### Key Concepts
 
@@ -143,11 +143,11 @@ Java's concurrency model is one of its greatest strengths. The language provides
 
 ### Topic Notes
 
-- [Thread Basics](05-concurrency/01-thread-basics) — Thread, Runnable, lifecycle states, and synchronization
-- [Synchronized and Locks](05-concurrency/02-synchronized-and-locks) — intrinsic locks, ReentrantLock, ReadWriteLock, and deadlock prevention
-- [Atomics and Memory Model](05-concurrency/03-atomics-and-memory-model) — volatile, AtomicReference, happens-before, and memory ordering
-- [Executor Framework](05-concurrency/04-executor-framework) — thread pools, ScheduledExecutorService, and CompletableFuture
-- [Virtual Threads](08-modern-java/02-virtual-threads-structured-concurrency) — Project Loom, structured concurrency, and lightweight threading
+- [Thread Basics](05-concurrency/01-thread-basics), Thread, Runnable, lifecycle states, and synchronization
+- [Synchronized and Locks](05-concurrency/02-synchronized-and-locks), intrinsic locks, ReentrantLock, ReadWriteLock, and deadlock prevention
+- [Atomics and Memory Model](05-concurrency/03-atomics-and-memory-model), volatile, AtomicReference, happens-before, and memory ordering
+- [Executor Framework](05-concurrency/04-executor-framework), thread pools, ScheduledExecutorService, and CompletableFuture
+- [Virtual Threads](08-modern-java/02-virtual-threads-structured-concurrency), Project Loom, structured concurrency, and lightweight threading
 
 ### Key Concepts
 
@@ -165,11 +165,11 @@ Spring is the dominant framework for building Java applications. Spring Boot sim
 
 ### Topic Notes
 
-- [Spring Boot Basics](06-spring/01-spring-boot-basics) — auto-configuration, application properties, and dependency injection
-- [Spring MVC](06-spring/02-spring-mvc) — controllers, request mapping, validation, and REST APIs
-- [Spring Data](06-spring/03-spring-data) — repositories, JPA, query methods, and transactions
-- [Spring Security](06-spring/04-spring-security) — authentication, authorization, and JWT
-- [Testing in Spring](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — @SpringBootTest, MockMvc, and TestContainers
+- [Spring Boot Basics](06-spring/01-spring-boot-basics), auto-configuration, application properties, and dependency injection
+- [Spring MVC](06-spring/02-spring-mvc), controllers, request mapping, validation, and REST APIs
+- [Spring Data](06-spring/03-spring-data), repositories, JPA, query methods, and transactions
+- [Spring Security](06-spring/04-spring-security), authentication, authorization, and JWT
+- [Testing in Spring](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), @SpringBootTest, MockMvc, and TestContainers
 
 ### Key Concepts
 
@@ -215,12 +215,12 @@ Java is vast. Follow this progression to build competence systematically.
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[C++ Programming Guide](https://cpp.wyattau.com/hub)** — if you are comparing Java with a lower-level language
-- **[Python Programming Guide](https://python.wyattau.com/hub)** — if you are comparing Java with a dynamic language
-- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)** — Kotlin runs on the JVM and interoperates with Java
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Java
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — essential for Spring Data and JDBC development
-- **[Networking Guide](https://networking.wyattau.com/hub)** — relevant for building networked Java applications
+- **[C++ Programming Guide](https://cpp.wyattau.com/hub)**, if you are comparing Java with a lower-level language
+- **[Python Programming Guide](https://python.wyattau.com/hub)**, if you are comparing Java with a dynamic language
+- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)**, Kotlin runs on the JVM and interoperates with Java
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Java
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, essential for Spring Data and JDBC development
+- **[Networking Guide](https://networking.wyattau.com/hub)**, relevant for building networked Java applications
 
 ---
 
@@ -228,11 +228,11 @@ Wyatt's Notes is a network of interconnected programming and study sites:
 
 ### How long does it take to learn Java?
 
-Basic competence — writing programs that compile and run correctly — takes 2–3 months. Professional competence — designing object-oriented systems, using collections effectively, and writing concurrent code — takes 6–12 months. The Spring ecosystem adds another 2–3 months. The learning path above gives you a structured progression.
+Basic competence, writing programs that compile and run correctly, takes 2–3 months. Professional competence, designing object-oriented systems, using collections effectively, and writing concurrent code, takes 6–12 months. The Spring ecosystem adds another 2–3 months. The learning path above gives you a structured progression.
 
 ### Should I learn Java or Kotlin first?
 
-If your goal is enterprise backend development, start with Java — it is more widely used and has a larger ecosystem. If your goal is Android development, start with Kotlin — it is the preferred language for Android. If you already know one, learning the other is straightforward because both run on the JVM.
+If your goal is enterprise backend development, start with Java, it is more widely used and has a larger ecosystem. If your goal is Android development, start with Kotlin, it is the preferred language for Android. If you already know one, learning the other is straightforward because both run on the JVM.
 
 ### What is the difference between a thread and a virtual thread?
 

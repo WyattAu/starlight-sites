@@ -23,7 +23,7 @@ flowchart TD
 
 ## Complete Computer Science Study Guide
 
-Computer science is the study of computation — what can be computed, how efficiently it can be done, and how systems are designed to solve problems. University-level computer science builds a foundation of algorithms, data structures, formal languages, systems design, and mathematical reasoning. This hub brings together every core area of computer science into a structured study plan.
+Computer science is the study of computation, what can be computed, how efficiently it can be done, and how systems are designed to solve problems. University-level computer science builds a foundation of algorithms, data structures, formal languages, systems design, and mathematical reasoning. This hub brings together every core area of computer science into a structured study plan.
 
 Whether you are preparing for exams, building your theoretical foundation, or exploring how different areas connect, the guides below give you the depth and breadth to master the discipline.
 
@@ -33,7 +33,7 @@ Algorithms are the step-by-step procedures that solve computational problems. Th
 
 ### Sorting and Searching
 
-Sorting algorithms — quicksort, mergesort, heapsort, and radix sort — illustrate fundamental design paradigms including divide-and-conquer, priority queues, and comparison-based lower bounds. Searching algorithms — binary search, hash-based lookup, and tree traversal — demonstrate how data organisation affects access time.
+Sorting algorithms, quicksort, mergesort, heapsort, and radix sort, illustrate fundamental design paradigms including divide-and-conquer, priority queues, and comparison-based lower bounds. Searching algorithms, binary search, hash-based lookup, and tree traversal, demonstrate how data organisation affects access time.
 
 Key concepts include:
 
@@ -58,8 +58,8 @@ Dynamic programming solves problems by breaking them into overlapping subproblem
 
 Key principles include:
 
-- **Optimal substructure** — the optimal solution contains optimal solutions to subproblems
-- **Overlapping subproblems** — the same subproblems are solved repeatedly
+- **Optimal substructure**, the optimal solution contains optimal solutions to subproblems
+- **Overlapping subproblems**, the same subproblems are solved repeatedly
 - **Memoisation** (top-down) versus **tabulation** (bottom-up)
 - **Reconstruction** of solutions, not just optimal values
 
@@ -130,7 +130,7 @@ Computability theory identifies what problems can and cannot be solved by algori
 
 - **Turing machines** as the formal model of computation
 - **Decidable and undecidable languages**
-- **The Halting Problem** — a fundamental undecidable problem
+- **The Halting Problem**, a fundamental undecidable problem
 - **Reduction** for proving undecidability
 - **Recursive and recursively enumerable languages**
 
@@ -138,8 +138,8 @@ Computability theory identifies what problems can and cannot be solved by algori
 
 Computational complexity classifies problems by the resources required to solve them:
 
-- **P** — problems solvable in polynomial time
-- **NP** — problems verifiable in polynomial time
+- **P**, problems solvable in polynomial time
+- **NP**, problems verifiable in polynomial time
 - **NP-completeness** and the Cook-Levin theorem
 - **NP-hard problems** and approximation algorithms
 - **Space complexity** and PSPACE
@@ -228,12 +228,12 @@ Computer networks enable communication between devices across distances. Underst
 
 ### Network Models
 
-- **OSI model** and **TCP/IP model** — layered architectures that organise network functionality
-- **Physical layer** — signals, encoding, and transmission media
-- **Data link layer** — framing, error detection, and Ethernet
-- **Network layer** — IP addressing, routing, and fragmentation
-- **Transport layer** — TCP (reliable, ordered) versus UDP (fast, connectionless)
-- **Application layer** — HTTP, DNS, SMTP, and other protocols
+- **OSI model** and **TCP/IP model**, layered architectures that organise network functionality
+- **Physical layer**, signals, encoding, and transmission media
+- **Data link layer**, framing, error detection, and Ethernet
+- **Network layer**, IP addressing, routing, and fragmentation
+- **Transport layer**, TCP (reliable, ordered) versus UDP (fast, connectionless)
+- **Application layer**, HTTP, DNS, SMTP, and other protocols
 
 ### Routing and Switching
 
@@ -262,12 +262,12 @@ Read the full guide: [Computer Networks Study Guide](3-computer-networks).
 
 Computer science is deeply interconnected with mathematics and programming:
 
-- **[Mathematics](https://mathematics.wyattau.com)** — Discrete mathematics, probability, linear algebra, and logic provide the mathematical foundation for algorithms, complexity theory, and machine learning.
-- **[Programming](https://programming.wyattau.com)** — Programming languages are the tools through which algorithms and systems are implemented. Understanding language design, compilers, and paradigms deepens your CS knowledge.
-- **[Databases](https://databases.wyattau.com)** — Specialised database resources covering SQL, NoSQL, and data modelling.
-- **[Networking](https://networking.wyattau.com)** — Extended networking resources and protocol analysis.
-- **[AP Resources](https://ap.wyattau.com)** — AP Computer Science A and Principles provide a bridge from secondary school to university-level study.
-- **[Languages](https://languages.wyattau.com)** — Programming language comparisons to help you choose the right tool for each task.
+- **[Mathematics](https://mathematics.wyattau.com)**, Discrete mathematics, probability, linear algebra, and logic provide the mathematical foundation for algorithms, complexity theory, and machine learning.
+- **[Programming](https://programming.wyattau.com)**, Programming languages are the tools through which algorithms and systems are implemented. Understanding language design, compilers, and paradigms deepens your CS knowledge.
+- **[Databases](https://databases.wyattau.com)**, Specialised database resources covering SQL, NoSQL, and data modelling.
+- **[Networking](https://networking.wyattau.com)**, Extended networking resources and protocol analysis.
+- **[AP Resources](https://ap.wyattau.com)**, AP Computer Science A and Principles provide a bridge from secondary school to university-level study.
+- **[Languages](https://languages.wyattau.com)**, Programming language comparisons to help you choose the right tool for each task.
 
 ## Frequently Asked Questions
 
@@ -289,7 +289,7 @@ Computer science requires substantial mathematics, particularly discrete mathema
 
 ### What is the difference between computer science and programming?
 
-Programming is the practice of writing code to solve problems. Computer science is the study of computation, including algorithms, theory, systems, and the principles underlying software design. Programming is a tool that computer scientists use, but computer science encompasses much more — including problems that cannot be solved by any program.
+Programming is the practice of writing code to solve problems. Computer science is the study of computation, including algorithms, theory, systems, and the principles underlying software design. Programming is a tool that computer scientists use, but computer science encompasses much more, including problems that cannot be solved by any program.
 
 ### How do I prepare for a computer science degree?
 

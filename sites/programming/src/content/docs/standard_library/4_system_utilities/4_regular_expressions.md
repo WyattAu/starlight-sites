@@ -199,7 +199,7 @@ The engine tries every possible partition of the `a` characters between the two 
 #include <string>
 
 void catastrophic_backtracking_demo() {
-    // SAFE: no nested quantifiers — linear time
+    // SAFE: no nested quantifiers, linear time
     std::regex safe_pattern(R"(^a+b$)");
     std::string dangerous_input(30, 'a');  // "aaa...a" (no trailing 'b')
 
@@ -210,7 +210,7 @@ void catastrophic_backtracking_demo() {
               << " (" << std::chrono::duration<double, std::milli>(elapsed_safe).count()
               << " ms)\n";
 
-    // DANGEROUS: nested quantifiers — exponential time
+    // DANGEROUS: nested quantifiers, exponential time
     std::regex dangerous_pattern(R"(^(a+)+b$)");
 
     start = std::chrono::steady_clock::now();
@@ -261,11 +261,11 @@ int main() {
     std::regex ci_pattern("hello", std::regex::icase);
     std::cout << std::regex_search(text, ci_pattern) << "\n";  // true
 
-    // No capture groups — faster for simple searches
+    // No capture groups, faster for simple searches
     std::regex simple(R"(\d+)", std::regex::nosubs);
     std::cout << std::regex_search("abc 123 def", simple) << "\n";  // true
 
-    // POSIX extended — different syntax
+    // POSIX extended, different syntax
     std::regex posix_ext("[[:digit:]]+", std::regex::extended);
     std::cout << std::regex_search("abc 456", posix_ext) << "\n";  // true
 }
@@ -385,11 +385,11 @@ int main() {
 int main() {
     std::string multi_line = "line1\nline2\nline3";
 
-    // Without match_any, . does not match newline
+    // Without match_any. does not match newline
     std::regex dot_all("line.line");
     std::cout << std::regex_search(multi_line, dot_all) << "\n";  // 0 (false)
 
-    // With match_any, . matches newline
+    // With match_any. matches newline
     std::cout << std::regex_search(multi_line, dot_all, std::regex_constants::match_any) << "\n";  // 1 (true)
 }
 ```
@@ -552,11 +552,11 @@ Index `-1`.
 
 ## Intuition
 
-**Regular expressions are like search patterns with superpowers:** Instead of searching for exact text, you search for patterns — like "any email address" or "any phone number." The regex syntax is like a mini-language for describing text patterns: `\d+` means "one or more digits," `[a-z]` means "any lowercase letter," and `(...)` captures groups. The regex engine is like a pattern-matching robot that walks through your text looking for matches.
+**Regular expressions are like search patterns with superpowers:** Instead of searching for exact text, you search for patterns, like "any email address" or "any phone number." The regex syntax is like a mini-language for describing text patterns: `\d+` means "one or more digits," `[a-z]` means "any lowercase letter," and `(...)` captures groups. The regex engine is like a pattern-matching robot that walks through your text looking for matches.
 
 **Why it matters:** Regular expressions are essential for text processing tasks like validation, extraction, and replacement. They're used everywhere: input validation (is this a valid email?), log parsing (extract timestamps), and search-and-replace (refactor code patterns). The C++ `<regex>` library provides a standard, type-safe way to use regular expressions without external dependencies.
 
-**The key insight:** Regular expressions are a pattern-matching language embedded in C++ — they're powerful but can be hard to read, so prefer clarity over cleverness.
+**The key insight:** Regular expressions are a pattern-matching language embedded in C++, they're powerful but can be hard to read, so prefer clarity over cleverness.
 
 ## See Also
 

@@ -26,7 +26,7 @@ An algorithm is a **step-by-step procedure for solving a problem**. The key insi
 
 **Why efficiency matters:** For small inputs, the difference between algorithms is negligible. But for large inputs (millions of items), an efficient algorithm can mean the difference between seconds and hours. Understanding Big-O notation lets you predict how algorithms scale without running them.
 
-**Decomposition intuition:** Complex problems are solved by breaking them into smaller, manageable sub-problems. This is the foundation of structured programming — each sub-problem is solved by a function or module, and the overall solution combines these modules. Decomposition makes code easier to understand, test, and debug.
+**Decomposition intuition:** Complex problems are solved by breaking them into smaller, manageable sub-problems. This is the foundation of structured programming, each sub-problem is solved by a function or module, and the overall solution combines these modules. Decomposition makes code easier to understand, test, and debug.
 
 ## Algorithms
 

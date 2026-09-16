@@ -1,5 +1,5 @@
 // Fast MDX JSX-expression validator: extracts { ... } attribute expressions
-// and parses each with acorn — reproduces @mdx-js/rollup expression errors
+// and parses each with acorn, reproduces @mdx-js/rollup expression errors
 // without running the Vite build.
 import { createRequire } from 'module'
 import { readFileSync } from 'fs'

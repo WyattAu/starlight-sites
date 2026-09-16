@@ -23,7 +23,7 @@ categories:
 
 Reference collapsing is the template mechanism that enables a single function template to accept
 Both lvalues and rvalues while preserving their original value category. Combined with
-`std::forward`This enables **perfect forwarding** — the foundation behind `std::make_unique`
+`std::forward`This enables **perfect forwarding**, the foundation behind `std::make_unique`
 `std::make_shared``emplace_back`And virtually every factory function in the standard library.
 
 ## 3.1 The Rules
@@ -45,7 +45,7 @@ Reference.
 
 ## 3.2 Where Collapsing Occurs
 
-Reference collapsing does **not** occur in direct type declarations — you cannot declare `int& & x;`
+Reference collapsing does **not** occur in direct type declarations, you cannot declare `int& & x;`
 In C++. It occurs only in:
 
 1. **Template instantiation** where a template parameter is deduced to be a reference type.
@@ -91,7 +91,7 @@ void collapsing_demo() {
 ```
 
 :::note
-(Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues — the deduction would
+(Section 4). Without collapsing, a `T&&` parameter could not bind to lvalues, the deduction would
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
 :::
@@ -99,9 +99,9 @@ Lvalue is passed, making perfect forwarding possible.
 
 The syntax `T&&` has two distinct meanings depending on context:
 
-1. **Rvalue reference:** `void f(int&& x)` — `T` is a concrete type, not deduced. This function
+1. **Rvalue reference:** `void f(int&& x)``T` is a concrete type, not deduced. This function
    accepts **only rvalues**.
-2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)` — `T` is a
+2. **Forwarding reference (universal reference):** `template<typename T> void f(T&& x)``T` is a
    deduced template parameter. This function accepts **both lvalues and rvalues**.
 
 The critical distinction is whether `T` is being **deduced** [N4950 §13.3.2.3]. If `T` appears in a
@@ -163,17 +163,17 @@ void not_forwarding() {
 ```
 
 :::caution
-a forwarding reference — it becomes a plain rvalue reference. The forwarding reference Deduction
+a forwarding reference, it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
 :::
-## 4.3 `std::forward<T>(x)` — Perfect Forwarding
+## 4.3 `std::forward<T>(x)`Perfect Forwarding
 
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
 Original value category of the argument:
 
-- If the caller passed an **lvalue**, `T` was deduced as `U&`So `T&&` collapses to `U&` —
+- If the caller passed an **lvalue**, `T` was deduced as `U&`So `T&&` collapses to `U&`
   `std::forward` returns an lvalue reference.
-- If the caller passed an **rvalue**, `T` was deduced as `U`So `T&&` is `U&&` — `std::forward`
+- If the caller passed an **rvalue**, `T` was deduced as `U`So `T&&` is `U&&``std::forward`
   returns an rvalue reference.
 
 ```cpp
@@ -228,15 +228,15 @@ std::unique_ptr<T> make_unique_custom(Args&&... args) {
 int main() {
     std::string label = "sensor-7";
 
-    // label is an lvalue — forwarded as an lvalue reference to Widget"s constructor,
+    // label is an lvalue, forwarded as an lvalue reference to Widget"s constructor,
     // which copies it into name.
     auto p1 = make_unique_custom<Widget>(label, 1);
 
-    // std::string("actuator") is a prvalue — forwarded as an rvalue reference,
+    // std::string("actuator") is a prvalue, forwarded as an rvalue reference,
     // so Widget's constructor moves it into name.
     auto p2 = make_unique_custom<Widget>(std::string("actuator"), 2);
 
-    // 42 is a prvalue — forwarded as int&& (no difference from int for scalars).
+    // 42 is a prvalue, forwarded as int&& (no difference from int for scalars).
     auto p3 = make_unique_custom<Widget>("valve", 3);
 }
 ```
@@ -268,10 +268,10 @@ int main() {
         l.log("callback executed");
     };
 
-    // lvalue Logger, lvalue lambda — both forwarded as lvalue references
+    // lvalue Logger, lvalue lambda, both forwarded as lvalue references
     with_logging(logger, callback);
 
-    // rvalue Logger (moved), rvalue lambda — both forwarded as rvalue references
+    // rvalue Logger (moved), rvalue lambda, both forwarded as rvalue references
     with_logging(Logger{}, [](Logger& l) {
         l.log("temporary callback executed");
     });
@@ -281,16 +281,16 @@ int main() {
 :::note
 `std::vector::emplace_back`And virtually every factory or emplacement function in the standard
 Library. Without forwarding references and `std::forward`These functions would be forced to copy
-Their arguments or require separate overloads for every combination of lvalue/rvalue parameters — a
+Their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
 Combinatorial explosion.
 :::
 ## Intuition
 
-**Reference collapsing is like a Russian nesting doll:** When you have a reference to a reference (`T& &`), the compiler collapses it into a single reference (`T&`). It's like a nesting doll — no matter how many layers you add, the outer shell is still just a doll. The rules are simple: `T& &` → `T&`, `T& &&` → `T&`, `T&& &` → `T&`, `T&& &&` → `T&&`. Only `T&& &&` preserves the rvalue reference — everything else collapses to an lvalue reference.
+**Reference collapsing is like a Russian nesting doll:** When you have a reference to a reference (`T& &`), the compiler collapses it into a single reference (`T&`). It's like a nesting doll, no matter how many layers you add, the outer shell is still just a doll. The rules are simple: `T& &` → `T&`, `T& &&` → `T&`, `T&& &` → `T&`, `T&& &&` → `T&&`. Only `T&& &&` preserves the rvalue reference, everything else collapses to an lvalue reference.
 
-**Why it matters:** Reference collapsing is the mechanism behind `std::forward` and perfect forwarding. When you write `template<typename T> void f(T&& x)`, the `T&&` is a "forwarding reference" — it preserves the value category of the argument. If you pass an lvalue, `T` is `T&` and `T&&` collapses to `T&`. If you pass an rvalue, `T` is `T` and `T&&` stays `T&&`. This is how a single template function can forward arguments correctly.
+**Why it matters:** Reference collapsing is the mechanism behind `std::forward` and perfect forwarding. When you write `template<typename T> void f(T&& x)`, the `T&&` is a "forwarding reference", it preserves the value category of the argument. If you pass an lvalue, `T` is `T&` and `T&&` collapses to `T&`. If you pass an rvalue, `T` is `T` and `T&&` stays `T&&`. This is how a single template function can forward arguments correctly.
 
-**The key insight:** `T&&` in a template is a forwarding reference, not an rvalue reference — reference collapsing rules make it preserve the value category of the argument.
+**The key insight:** `T&&` in a template is a forwarding reference, not an rvalue reference, reference collapsing rules make it preserve the value category of the argument.
 
 ## See Also
 
@@ -303,7 +303,7 @@ Combinatorial explosion.
 
 ## 5.1 Reference Collapsing Under the Hood
 
-Reference collapsing is not a runtime mechanism — it is purely a compile-time type substitution rule
+Reference collapsing is not a runtime mechanism, it is purely a compile-time type substitution rule
 Enforced by the C++ core language. When the compiler instantiates a template and deduces `T` to be a
 Reference type, any `T&&` or `T&` formed from that `T` undergoes collapsing according to the table
 Above. This happens during **type alias substitution** [N4950 §13.3.2.3].
@@ -378,7 +378,7 @@ void range_for_forwarding() {
     vec.emplace_back(1000);
     vec.emplace_back(2000);
 
-    // auto&& binds to lvalue elements in the vector — no copy, no move
+    // auto&& binds to lvalue elements in the vector, no copy, no move
     for (auto&& elem : vec) {
         elem.data.push_back(42);  // modifies the element in place
     }
@@ -388,9 +388,9 @@ void range_for_forwarding() {
         elem.data.push_back(43);
     }
 
-    // auto (by value) would COPY each element — very expensive
+    // auto (by value) would COPY each element, very expensive
     for (auto elem : vec) {
-        elem.data.push_back(44);  // modifies a local copy — original unchanged
+        elem.data.push_back(44);  // modifies a local copy, original unchanged
     }
 }
 ```
@@ -426,14 +426,14 @@ Let us trace through the two cases:
 - `std::remove_reference_t<int&>` is `int`.
 - The first overload matches: `forward<int&>(int& x)`.
 - `static_cast<int& &&>(x)` → reference collapsing → `static_cast<int&>(x)`.
-- Returns `int&` — lvalue reference. Correct.
+- Returns `int&`lvalue reference. Correct.
 
 **Case 2: Rvalue passed** (`T = int`):
 
 - `std::remove_reference_t<int>` is `int`.
 - The second overload matches (rvalue argument): `forward<int>(int&& x)`.
 - `static_cast<int&&>(x)`.
-- Returns `int&&` — rvalue reference. Correct.
+- Returns `int&&`rvalue reference. Correct.
 
 The key insight is that `std::forward` does **not** move anything. It is purely a **conditional
 Cast** that produces an lvalue reference or rvalue reference based on the deduced type `T`. The
@@ -547,7 +547,7 @@ void variadic_demo() {
     auto t = capture(s, 42, 3.14);
 
     // std::get<0>(t) is std::string& (reference to s)
-    // std::get<1>(t) is const int& (reference to temporary — DANGEROUS)
+    // std::get<1>(t) is const int& (reference to temporary, DANGEROUS)
     // std::get<2>(t) is double (copy of 3.14)
 }
 ```
@@ -573,15 +573,15 @@ struct Widget {
 
     Widget(std::string n) : name(std::move(n)) {}
 
-    // Forwarding reference constructor — matches EVERYTHING
+    // Forwarding reference constructor, matches EVERYTHING
     template<typename T>
     Widget(T&& arg) : name(std::forward<T>(arg)) {}
 
-    // Copy constructor — BUT the template above is a better match for
+    // Copy constructor, BUT the template above is a better match for
     // non-const lvalues because T is deduced more specifically!
     Widget(const Widget&) = default;
 
-    // Move constructor — similarly shadowed by the template
+    // Move constructor, similarly shadowed by the template
     Widget(Widget&&) = default;
 };
 
@@ -619,7 +619,7 @@ struct SafeWidget {
 };
 ```
 
-## 5.7 `std::forward` vs `std::move` — When to Use Which
+## 5.7 `std::forward` vs `std::move`When to Use Which
 
 | Situation                         | Use                  | Reason                                     |
 | :-------------------------------- | :------------------- | :----------------------------------------- |
@@ -648,7 +648,7 @@ void move_vs_forward() {
     // Forwarding: use std::forward
     auto make_vec = [](auto&&... args) {
         std::vector<std::string> v;
-        (v.emplace_back(std::forward<decltype(args)>(args)), ...);
+        (v.emplace_back(std::forward<decltype(args)>(args))...);
         return v;
     };
 
@@ -662,18 +662,18 @@ void move_vs_forward() {
 
 ## Intuition
 
-Reference collapsing is the rulebook for what happens when you layer references on top of each other. It is like Russian nesting dolls — a reference to a reference collapses into a single reference, except that two lvalue references stay as an lvalue reference while any rvalue reference involvement produces an rvalue reference. Forwarding references use this collapsing to preserve the value category of their arguments — like a courier who delivers the package exactly as it was sent, whether it was wrapped in bubble wrap (lvalue) or thrown over the fence (rvalue). Without reference collapsing, generic code could not preserve the distinction between objects you want to keep and objects you want to steal from.
+Reference collapsing is the rulebook for what happens when you layer references on top of each other. It is like Russian nesting dolls, a reference to a reference collapses into a single reference, except that two lvalue references stay as an lvalue reference while any rvalue reference involvement produces an rvalue reference. Forwarding references use this collapsing to preserve the value category of their arguments, like a courier who delivers the package exactly as it was sent, whether it was wrapped in bubble wrap (lvalue) or thrown over the fence (rvalue). Without reference collapsing, generic code could not preserve the distinction between objects you want to keep and objects you want to steal from.
 
 ## Common Pitfalls
 
 1. **Calling `std::forward` outside of a forwarding reference context:** `std::move(x)` is
    equivalent to `std::forward<remove_reference_t<decltype(x)>>(x)`. But `std::forward<T>(x)`
    requires `T` to be the **deduced** template parameter from a forwarding reference. If you call
-   `std::forward<int>(x)` where `x` is an lvalue, you get an rvalue reference — this is effectively
+   `std::forward<int>(x)` where `x` is an lvalue, you get an rvalue reference, this is effectively
    `std::move`Not forwarding. The distinction matters only for correctness of intent.
 
 2. **Using `std::forward` more than once on the same object:** `std::forward` does not move the
-   object — it casts it. But the _recipient_ of the cast may move from it. If you forward the same
+   object, it casts it. But the _recipient_ of the cast may move from it. If you forward the same
    object to two different functions, the first recipient may move from it, leaving the second
    recipient with a moved-from object:
 
@@ -691,8 +691,8 @@ Reference collapsing is the rulebook for what happens when you layer references 
    carefully.
 
 4. **Returning `std::forward<T>(x)` from a function:** This is almost always wrong. If `T` is a
-   reference type, you return a reference to a parameter — which may dangle if the caller passed a
-   temporary. If `T` is a non-reference type, you return an rvalue reference to a local — which
+   reference type, you return a reference to a parameter, which may dangle if the caller passed a
+   temporary. If `T` is a non-reference type, you return an rvalue reference to a local, which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
 
 

@@ -9,7 +9,7 @@ export const flashcard1 = [
   {
     id: 'ib-phys-kinematics-002',
     front: 'What is the difference between distance and displacement?',
-    back: 'Distance is a scalar — the total path length travelled, always positive. Displacement is a vector — the straight-line separation from start to finish with direction. Distance is always greater than or equal to the magnitude of displacement. Running one lap of a 400 m track: distance = 400 m, displacement = 0 m.',
+    back: 'Distance is a scalar, the total path length travelled, always positive. Displacement is a vector, the straight-line separation from start to finish with direction. Distance is always greater than or equal to the magnitude of displacement. Running one lap of a 400 m track: distance = 400 m, displacement = 0 m.',
     tags: ['kinematics', 'scalars'],
     difficulty: 'easy',
   },
@@ -47,7 +47,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-kinematics-007',
     front: 'Explain projectile motion and how to analyse it.',
-    back: 'Projectile motion is the motion of an object launched into the air, subject only to gravity. Analyse by resolving into horizontal and vertical components: Horizontal: constant velocity (no acceleration, neglecting air resistance), x = u cos θ × t. Vertical: uniform acceleration g, use SUVAT equations with a = −9.81 m s⁻¹. The two components are independent — horizontal motion does not affect vertical motion.',
+    back: 'Projectile motion is the motion of an object launched into the air, subject only to gravity. Analyse by resolving into horizontal and vertical components: Horizontal: constant velocity (no acceleration, neglecting air resistance), x = u cos θ × t. Vertical: uniform acceleration g, use SUVAT equations with a = −9.81 m s⁻¹. The two components are independent, horizontal motion does not affect vertical motion.',
     tags: ['kinematics', 'projectile motion'],
     difficulty: 'medium',
   },
@@ -147,7 +147,7 @@ export const flashcard4 = [
   {
     id: 'ib-phys-kinematics-020',
     front: 'Explain the effect of air resistance on projectile motion.',
-    back: 'With air resistance: horizontal velocity is NOT constant (decreases over time). Vertical acceleration is NOT exactly g (drag reduces net downward force). Path is NOT a perfect parabola — the descent is steeper than the ascent. Range and max height are both reduced. Symmetry of ascent and descent is lost. For IB calculations, air resistance is usually neglected unless stated.',
+    back: 'With air resistance: horizontal velocity is NOT constant (decreases over time). Vertical acceleration is NOT exactly g (drag reduces net downward force). Path is NOT a perfect parabola, the descent is steeper than the ascent. Range and max height are both reduced. Symmetry of ascent and descent is lost. For IB calculations, air resistance is usually neglected unless stated.',
     tags: ['kinematics', 'projectile motion', 'air resistance'],
     difficulty: 'hard',
   },

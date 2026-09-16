@@ -233,15 +233,15 @@ Homogeneous equation: $a\dfrac{d^2y}{dx^2} + b\dfrac{dy}{dx} + cy = 0$
 
 **Auxiliary equation:** $am^2 + bm + c = 0$
 
-**Case 1 — Distinct real roots $m_1, m_2$:**
+**Case 1, Distinct real roots $m_1, m_2$:**
 
 $$y = Ae^{m_1 x} + Be^{m_2 x}$$
 
-**Case 2 — Repeated root $m$:**
+**Case 2, Repeated root $m$:**
 
 $$y = (Ax + B)e^{mx}$$
 
-**Case 3 — Complex roots $\alpha \pm i\beta$:**
+**Case 3, Complex roots $\alpha \pm i\beta$:**
 
 $$y = e^{\alpha x}(A\cos\beta x + B\sin\beta x)$$
 

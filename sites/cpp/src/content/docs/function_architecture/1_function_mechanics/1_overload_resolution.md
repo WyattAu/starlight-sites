@@ -23,7 +23,7 @@ categories:
 
 C++ function resolution is not a simple name match. The compiler performs a multi-phase search
 Through namespaces, ranks candidate functions against a strict hierarchy of conversion ranks, and
-Selects a single best viable function — or rejects the call as ambiguous.
+Selects a single best viable function, or rejects the call as ambiguous.
 
 ## 1.1 Name Lookup [N4950 §6.5.4]
 
@@ -50,7 +50,7 @@ void print(int) { std::cout << "int\n"; }
 
 int main() {
     lib::S s;
-    print(s);  // ADL finds lib::print — even though lib:: is not in scope
+    print(s);  // ADL finds lib::print, even though lib:: is not in scope
     print(42); // Unqualified lookup finds ::print(int)
 }
 ```
@@ -117,7 +117,7 @@ namespace N {
 
 int main() {
     N::S s;
-    process(s);  // ADL finds N::process<T> — T deduced as N::S
+    process(s);  // ADL finds N::process<T>, T deduced as N::S
     // Even if another process() exists in the global namespace,
     // N::process is a viable candidate via ADL
 }
@@ -138,7 +138,7 @@ namespace N {
 
 int main() {
     N::X x;
-    (f)(x);  // ADL is suppressed — only ordinary unqualified lookup
+    (f)(x);  // ADL is suppressed, only ordinary unqualified lookup
              // N::f is NOT found unless using-directive is present
 }
 ```
@@ -244,7 +244,7 @@ void f(const int&) { std::cout << "const int&\n"; }
 int main() {
     int x = 42;
     f(x);        // int& wins: identity on the referred type (no qualification conversion)
-                 // const int& would require adding const — ranked lower
+                 // const int& would require adding const, ranked lower
     const int cx = 10;
     f(cx);       // const int&: only viable candidate (int& cannot bind to const)
 }
@@ -325,7 +325,7 @@ void g(double, int) { std::cout << "double, int\n"; }
 int main() {
     g(42, 3.14);   // OK: g(int, double) is better
     g(3.14, 42);   // OK: g(double, int) is better
-    // g(42, 42);   // ERROR: ambiguous — g(int, int) matches both equally
+    // g(42, 42);   // ERROR: ambiguous, g(int, int) matches both equally
     //   g(int, double):  int→int (exact), int→double (promotion)
     //   g(double, int):  int→double (promotion), int→int (exact)
     //   Neither is strictly better → ambiguity
@@ -387,7 +387,7 @@ int main() {
 ```
 
 :::caution
-Idiom — defining the operator as a friend inside the class — restricts the operator to being found
+Idiom, defining the operator as a friend inside the class, restricts the operator to being found
 Only via ADL, preventing unintended overloads:
 
 ```cpp
@@ -489,7 +489,7 @@ void take(const int& r)  { std::cout << "const lvalue ref\n"; }
 int main() {
     take(42);       // rvalue ref (better: no qualification conversion needed)
     int x = 10;
-    // take(x);     // ERROR: int&& cannot bind to lvalue — no viable candidate with int&&
+    // take(x);     // ERROR: int&& cannot bind to lvalue, no viable candidate with int&&
     const int& cr = x;
     take(cr);       // const lvalue ref (int&& cannot bind to const lvalue)
 }
@@ -668,7 +668,7 @@ int main() {
     // g(B{}, 42);   // AMBIGUOUS:
     //   g(A, int):   B→A (derived-to-base), int→int (exact)
     //   g(B, double): B→B (exact), int→double (promotion)
-    //   Neither is strictly better — ambiguity
+    //   Neither is strictly better, ambiguity
 }
 ```
 
@@ -746,7 +746,7 @@ namespace lib {
 }
 ```
 
-With the hidden friend idiom, `lib::swap` is only found via ADL — it is not found by unqualified or
+With the hidden friend idiom, `lib::swap` is only found via ADL, it is not found by unqualified or
 Qualified lookup. This means:
 
 ```cpp
@@ -757,10 +757,10 @@ Qualified lookup. This means:
 int main() {
     lib::Widget a{1}, b{2};
 
-    // ADL finds lib::swap — correct, uses the efficient member-aware swap
+    // ADL finds lib::swap, correct, uses the efficient member-aware swap
     swap(a, b);
 
-    // Qualified lookup finds std::swap — may be less efficient
+    // Qualified lookup finds std::swap, may be less efficient
     std::swap(a, b);
 }
 ```
@@ -787,7 +787,7 @@ Function from being found when it should not be, reducing the chance of unintend
 Resolution:
 
 ```cpp
-// NOT a hidden friend — found by unqualified lookup even without ADL
+// NOT a hidden friend, found by unqualified lookup even without ADL
 namespace lib {
     struct Widget {
         int value;
@@ -795,7 +795,7 @@ namespace lib {
     void swap(Widget& a, Widget& b);  // declaration visible to unqualified lookup
 }
 
-// Hidden friend — found ONLY via ADL
+// Hidden friend, found ONLY via ADL
 namespace lib {
     struct Widget {
         int value;
@@ -824,7 +824,7 @@ Class type is present.
 
 Access control (public, protected, private) is applied **after** overload resolution. A candidate
 Function that is the best match by conversion ranking is selected, and only then is its access
-Checked. If it is inaccessible, the program is ill-formed — but the compiler does not fall back to a
+Checked. If it is inaccessible, the program is ill-formed, but the compiler does not fall back to a
 Less-preferred accessible candidate:
 
 ```cpp

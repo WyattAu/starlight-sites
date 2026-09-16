@@ -50,15 +50,15 @@ sources:
 
 Database systems provide mechanisms for the structured storage, retrieval, and management of data. The relational model, introduced by E.F. Codd, organises data into tables (relations) with well-defined schemas, enabling data integrity and efficient querying through structured query language (SQL). Understanding database design principles is essential for building systems that manage large volumes of data reliably.
 
-Every application with persistent data — social media platforms, e-commerce websites, banking systems, healthcare records, scientific databases — relies on database systems. The principles you learn here apply whether you are building a small personal project or managing data for millions of users.
+Every application with persistent data, social media platforms, e-commerce websites, banking systems, healthcare records, scientific databases, relies on database systems. The principles you learn here apply whether you are building a small personal project or managing data for millions of users.
 
 ## Intuition
 
-**A library with a card catalogue:** A database is like a library — the relational model organises books (data) into shelves (tables), the card catalogue (indexes) helps you find books quickly, and the librarian (transactions) ensures no two people check out the same book simultaneously.
+**A library with a card catalogue:** A database is like a library, the relational model organises books (data) into shelves (tables), the card catalogue (indexes) helps you find books quickly, and the librarian (transactions) ensures no two people check out the same book simultaneously.
 
-**Why it matters:** Every app with persistent data — social media, e-commerce, banking — relies on databases. Understanding normalisation prevents data corruption, indexing makes queries fast, and transactions keep data consistent even under concurrent access.
+**Why it matters:** Every app with persistent data, social media, e-commerce, banking, relies on databases. Understanding normalisation prevents data corruption, indexing makes queries fast, and transactions keep data consistent even under concurrent access.
 
-**The key insight:** Database design is about balancing redundancy against performance — normalise to eliminate anomalies, but denormalise strategically for speed when needed.
+**The key insight:** Database design is about balancing redundancy against performance, normalise to eliminate anomalies, but denormalise strategically for speed when needed.
 
 ## Key Concepts
 
@@ -74,15 +74,15 @@ The relational model represents data as tuples (rows) in relations (tables). Eac
 - The order of attributes is irrelevant (conceptually)
 
 **Keys in the relational model:**
-- **Superkey** — A set of attributes that uniquely identifies each tuple
-- **Candidate key** — A minimal superkey (no proper subset is also a superkey)
-- **Primary key** — The candidate key chosen to identify tuples
-- **Foreign key** — An attribute (or set of attributes) that references the primary key of another relation, establishing a link between tables
+- **Superkey**, A set of attributes that uniquely identifies each tuple
+- **Candidate key**, A minimal superkey (no proper subset is also a superkey)
+- **Primary key**, The candidate key chosen to identify tuples
+- **Foreign key**, An attribute (or set of attributes) that references the primary key of another relation, establishing a link between tables
 
 **Integrity constraints:**
-- **Entity integrity** — The primary key of a relation cannot be NULL
-- **Referential integrity** — Every foreign key value must either match a primary key value in the referenced relation or be NULL
-- **Domain constraints** — Each attribute value must be from the attribute's domain
+- **Entity integrity**, The primary key of a relation cannot be NULL
+- **Referential integrity**, Every foreign key value must either match a primary key value in the referenced relation or be NULL
+- **Domain constraints**, Each attribute value must be from the attribute's domain
 
 ### SQL: Structured Query Language
 
@@ -126,20 +126,20 @@ DELETE FROM enrollments WHERE enrollment_id = 42;
 ```
 
 **Key SQL concepts:**
-- **Joins** — Combine rows from two or more tables based on a related column (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)
-- **Subqueries** — Queries nested within other queries
-- **Aggregation** — GROUP BY with aggregate functions (COUNT, SUM, AVG, MAX, MIN)
-- **Views** — Virtual tables defined by a query
-- **Indexes** — Data structures that speed up data retrieval
+- **Joins**, Combine rows from two or more tables based on a related column (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN)
+- **Subqueries**, Queries nested within other queries
+- **Aggregation**, GROUP BY with aggregate functions (COUNT, SUM, AVG, MAX, MIN)
+- **Views**, Virtual tables defined by a query
+- **Indexes**, Data structures that speed up data retrieval
 
 ### Normalisation
 
 Normalisation is the systematic process of organising tables to minimise redundancy and dependency. The goal is to isolate data so that one fact is stored in exactly one place.
 
 **Anomalies that normalisation prevents:**
-- **Insertion anomaly** — Cannot insert data about one entity without unrelated data about another
-- **Update anomaly** — Changing one piece of data requires updating multiple rows
-- **Deletion anomaly** — Deleting one row accidentally deletes other important data
+- **Insertion anomaly**, Cannot insert data about one entity without unrelated data about another
+- **Update anomaly**, Changing one piece of data requires updating multiple rows
+- **Deletion anomaly**, Deleting one row accidentally deletes other important data
 
 **Normal forms:**
 
@@ -181,10 +181,10 @@ Departments(department_id, department_name)
 An index is a data structure that provides fast access to rows in a table based on the values of one or more columns. Without an index, the database must scan every row (full table scan) to find matching rows.
 
 **Types of indexes:**
-- **Primary index** — Created on the primary key; entries are sorted by the key
-- **Secondary index** — Created on non-key columns; may contain duplicates
-- **Composite index** — Created on multiple columns; useful for queries that filter on multiple columns
-- **Unique index** — Enforces uniqueness of the indexed column(s)
+- **Primary index**, Created on the primary key; entries are sorted by the key
+- **Secondary index**, Created on non-key columns; may contain duplicates
+- **Composite index**, Created on multiple columns; useful for queries that filter on multiple columns
+- **Unique index**, Enforces uniqueness of the indexed column(s)
 
 **B-tree indexes:** The most common index structure. B-trees maintain sorted data and allow searches, insertions, and deletions in O(log n) time. They are balanced, meaning all leaf nodes are at the same depth, ensuring consistent performance.
 
@@ -204,10 +204,10 @@ An index is a data structure that provides fast access to rows in a table based 
 A transaction is a logical unit of work that consists of one or more SQL operations. Transactions ensure that databases remain consistent even when multiple operations are performed simultaneously.
 
 **ACID properties:**
-- **Atomicity** — All operations in a transaction complete successfully, or none of them do. If any operation fails, the entire transaction is rolled back.
-- **Consistency** — A transaction transforms the database from one consistent state to another. All integrity constraints are satisfied after the transaction.
-- **Isolation** — Concurrent transactions do not interfere with each other. The result of executing transactions concurrently should be the same as executing them sequentially.
-- **Durability** — Once a transaction is committed, its effects are permanent even in the event of system failure.
+- **Atomicity**, All operations in a transaction complete successfully, or none of them do. If any operation fails, the entire transaction is rolled back.
+- **Consistency**, A transaction transforms the database from one consistent state to another. All integrity constraints are satisfied after the transaction.
+- **Isolation**, Concurrent transactions do not interfere with each other. The result of executing transactions concurrently should be the same as executing them sequentially.
+- **Durability**, Once a transaction is committed, its effects are permanent even in the event of system failure.
 
 **Example transaction:**
 ```sql
@@ -223,20 +223,20 @@ COMMIT;
 ```
 
 **Concurrency control:**
-- **Locking** — Pessimistic approach. Transactions acquire locks on data before modifying it. Two-phase locking (2PL) ensures serialisability.
-- **Multi-version concurrency control (MVCC)** — Each transaction sees a snapshot of the database at a point in time. Readers do not block writers, and writers do not block readers.
-- **Timestamp ordering** — Transactions are ordered by timestamps, and operations that violate the order are rejected.
+- **Locking**, Pessimistic approach. Transactions acquire locks on data before modifying it. Two-phase locking (2PL) ensures serialisability.
+- **Multi-version concurrency control (MVCC)**, Each transaction sees a snapshot of the database at a point in time. Readers do not block writers, and writers do not block readers.
+- **Timestamp ordering**, Transactions are ordered by timestamps, and operations that violate the order are rejected.
 
 ### Query Optimisation
 
 The query optimiser determines the most efficient way to execute a SQL query. Given a SQL statement, there are often multiple possible execution plans, and the optimiser selects the one with the lowest estimated cost.
 
 **Key optimisation techniques:**
-- **Index selection** — Choosing which index to use for each table access
-- **Join ordering** — Determining the order in which to join tables
-- **Join algorithms** — Nested loop join, hash join, merge join
-- **Predicate pushdown** — Applying filters as early as possible to reduce the amount of data processed
-- **Projection pushdown** — Selecting only needed columns to reduce data transfer
+- **Index selection**, Choosing which index to use for each table access
+- **Join ordering**, Determining the order in which to join tables
+- **Join algorithms**, Nested loop join, hash join, merge join
+- **Predicate pushdown**, Applying filters as early as possible to reduce the amount of data processed
+- **Projection pushdown**, Selecting only needed columns to reduce data transfer
 
 **Cost models:** The optimiser estimates the cost of each operation based on statistics about the data (table sizes, value distributions, index selectivity). Understanding these statistics helps you write more efficient queries.
 
@@ -244,10 +244,10 @@ The query optimiser determines the most efficient way to execute a SQL query. Gi
 
 NoSQL databases provide alternatives to the relational model for specific use cases:
 
-- **Document stores** (MongoDB, CouchDB) — Store JSON-like documents. Flexible schema, good for hierarchical data.
-- **Key-value stores** (Redis, DynamoDB) — Simple key-value pairs. Very fast, good for caching and session storage.
-- **Column-family stores** (Cassandra, HBase) — Store data in columns rather than rows. Good for analytical queries on large datasets.
-- **Graph databases** (Neo4j, Amazon Neptune) — Store data as nodes and edges. Excellent for relationship-heavy data (social networks, recommendation engines).
+- **Document stores** (MongoDB, CouchDB), Store JSON-like documents. Flexible schema, good for hierarchical data.
+- **Key-value stores** (Redis, DynamoDB), Simple key-value pairs. Very fast, good for caching and session storage.
+- **Column-family stores** (Cassandra, HBase), Store data in columns rather than rows. Good for analytical queries on large datasets.
+- **Graph databases** (Neo4j, Amazon Neptune), Store data as nodes and edges. Excellent for relationship-heavy data (social networks, recommendation engines).
 
 **When to use NoSQL:**
 - Schema is highly variable or evolves rapidly
@@ -266,10 +266,10 @@ NoSQL databases provide alternatives to the relational model for specific use ca
 Distributed databases spread data across multiple machines, providing scalability, fault tolerance, and geographic proximity to users.
 
 **Key concepts:**
-- **Replication** — Storing copies of data on multiple nodes for fault tolerance
-- **Sharding** — Partitioning data across multiple nodes for scalability
-- **CAP theorem** — A distributed system can provide at most two of: Consistency, Availability, Partition tolerance
-- **Consistency models** — Strong consistency (all reads return the most recent write) vs eventual consistency (reads may return stale data temporarily)
+- **Replication**, Storing copies of data on multiple nodes for fault tolerance
+- **Sharding**, Partitioning data across multiple nodes for scalability
+- **CAP theorem**, A distributed system can provide at most two of: Consistency, Availability, Partition tolerance
+- **Consistency models**, Strong consistency (all reads return the most recent write) vs eventual consistency (reads may return stale data temporarily)
 
 ## Contents
 
@@ -350,7 +350,7 @@ Each section includes:
 
 - **Confusing primary keys with foreign keys:** A primary key uniquely identifies each row in a table; a foreign key references a primary key in another table. Mixing them up leads to incorrect joins and referential integrity violations.
 - **Normalising too aggressively:** Normalisation reduces redundancy but can require expensive joins for common queries. Over-normalised schemas hurt read performance. Sometimes denormalisation is the right trade-off for read-heavy workloads.
-- **Ignoring NULL semantics:** NULL is not a value — it represents unknown or missing data. Comparisons with NULL using `=` or `!=` return NULL (not TRUE or FALSE). Use `IS NULL` and `IS NOT NULL` instead.
+- **Ignoring NULL semantics:** NULL is not a value, it represents unknown or missing data. Comparisons with NULL using `=` or `!=` return NULL (not TRUE or FALSE). Use `IS NULL` and `IS NOT NULL` instead.
 - **Forgetting that transactions are not free:** Every transaction incurs overhead (logging, locking, commit). Batching small transactions into larger ones can improve throughput significantly, but at the cost of longer lock holding times.
 - **Creating too many indexes:** Each index speeds up reads but slows down writes. A table with 20 indexes may be significantly slower for INSERT and UPDATE operations than a table with 2-3 well-chosen indexes. Analyse your query patterns before creating indexes.
 - **Not using EXPLAIN:** Most database systems provide an EXPLAIN command that shows the execution plan for a query. Use it to understand how your queries are being processed and whether indexes are being used.

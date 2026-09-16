@@ -1,7 +1,7 @@
 ---
 
 title: "Reaction Mechanisms"
-description: "Bimolecular nucleophilic substitution — a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble"
+description: "Bimolecular nucleophilic substitution, a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble"
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -23,7 +23,7 @@ categories:
 
 ### 1.1 SN2 Mechanism
 
-**Definition 1 (S$\_\text{N}$2):** Bimolecular nucleophilic substitution — a single concerted step
+**Definition 1 (S$\_\text{N}$2):** Bimolecular nucleophilic substitution, a single concerted step
 with backside attack.
 
 $$\text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-$$
@@ -42,7 +42,7 @@ $$v = k[\text{Nu}^-][\text{R–LG}]$$
 
 ### 1.2 SN1 Mechanism
 
-**Definition 2 (S$\_\text{N}$1):** Unimolecular nucleophilic substitution — two steps via a
+**Definition 2 (S$\_\text{N}$1):** Unimolecular nucleophilic substitution, two steps via a
 carbocation intermediate.
 
 $$\text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
@@ -109,7 +109,7 @@ it $\text{H}_2\text{O}$.
 
 ### 2.1 E2 Mechanism
 
-**Definition 5 (E2):** Bimolecular elimination — concerted removal of HX.
+**Definition 5 (E2):** Bimolecular elimination, concerted removal of HX.
 
 $$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-$$
 
@@ -122,7 +122,7 @@ $$\text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \tex
 
 ### 2.2 E1 Mechanism
 
-**Definition 6 (E1):** Unimolecular elimination — carbocation intermediate, then deprotonation.
+**Definition 6 (E1):** Unimolecular elimination, carbocation intermediate, then deprotonation.
 
 $$\text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}$$
 $$\text{R}^+ \to \text{alkene} + \text{H}^+$$
@@ -135,7 +135,7 @@ $$\text{R}^+ \to \text{alkene} + \text{H}^+$$
 
 ### 2.3 E1cB Mechanism
 
-**Definition 7 (E1cB):** Elimination, unimolecular, conjugate base — deprotonation first, then
+**Definition 7 (E1cB):** Elimination, unimolecular, conjugate base, deprotonation first, then
 leaving group departs.
 
 $$\text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-$$
@@ -435,7 +435,7 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 | Structure and Bonding        | WyattsNotes | [View](structure-and-bonding)                |
 | Synthesis                    | WyattsNotes | [View](synthesis)                            |
 | Spectroscopy                 | WyattsNotes | [View](spectroscopy)                         |
-| Organic Chemistry — MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
+| Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

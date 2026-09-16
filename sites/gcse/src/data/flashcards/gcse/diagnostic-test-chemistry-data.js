@@ -98,7 +98,7 @@ export const questions = [
     options: ['2 g/dm3', '5 g/dm3', '10 g/dm3', '20 g/dm3'],
     correctIndex: 0,
     explanation:
-      'Concentration = mass / volume = 10g / 0.5dm3 = 20 g/dm3. Wait — 500cm3 = 0.5dm3, so 10/0.5 = 20 g/dm3.',
+      'Concentration = mass / volume = 10g / 0.5dm3 = 20 g/dm3. Wait, 500cm3 = 0.5dm3, so 10/0.5 = 20 g/dm3.',
   },
   {
     id: 'gcse-chem-d11',

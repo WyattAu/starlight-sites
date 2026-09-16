@@ -396,7 +396,7 @@ shows the complexity of the issue and still arrives at a clear conclusion.
 
 **Why it matters:** Strong writing skills are essential for academic success, professional communication, and personal expression.
 
-**The key insight:** The most powerful writing engages the reader's senses — describing what characters see, hear, smell, taste, and feel creates immersive experiences.
+**The key insight:** The most powerful writing engages the reader's senses, describing what characters see, hear, smell, taste, and feel creates immersive experiences.
 
 
 ```mermaid

@@ -37,7 +37,7 @@ That will be available in the future. The caller can:
 - **Poll** with `wait_for(duration)` or `wait_until(time_point)`Which return the readiness status
   without blocking indefinitely.
 
-`std::future` is **move-only** — it cannot be copied. After `get()` is called, the future is
+`std::future` is **move-only**, it cannot be copied. After `get()` is called, the future is
 Invalidated (subsequent calls to `get()` throw `std::future_error` with
 `std::future_errc::no_state`).
 
@@ -87,7 +87,7 @@ Policy controls execution:
 | Policy                                                  | Behavior                                                       |
 | :------------------------------------------------------ | :------------------------------------------------------------- |
 | `std::launch::async`                                    | Runs on a new thread (or thread pool); guaranteed asynchronous |
-| `std::launch::deferred`                                 | Lazy — runs when `get()` is called on the calling thread       |
+| `std::launch::deferred`                                 | Lazy, runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
 
 :::caution
@@ -122,7 +122,7 @@ JavaScript `Promise.then()` or Rust"s `Future`C++ `std::future`:
 - Cannot be cancelled.
 - Is not a coroutine awaitable (no `operator co_await`).
 
-This is why C++20 coroutines are essential for real-world asynchronous programming — they provide
+This is why C++20 coroutines are essential for real-world asynchronous programming, they provide
 The composability that `std::future` lacks. Libraries like `cppcoro` (now archived) and the proposed
 `std::execution` (P2300) aim to bridge this gap.
 
@@ -554,11 +554,11 @@ Manual `stop_token` integration as shown above is the recommended approach.
 :::
 ## Intuition
 
-**A future is like a receipt for a pizza order:** You order a pizza (start an async task), get a receipt (the future), and go do other things. When the pizza is ready, you present your receipt and get the pizza (call `.get()` on the future). The promise is the kitchen's side — it's what they use to actually put the pizza in the box and hand it to you. The problem is, `.get()` blocks — you stand at the counter waiting, which defeats the purpose of ordering ahead.
+**A future is like a receipt for a pizza order:** You order a pizza (start an async task), get a receipt (the future), and go do other things. When the pizza is ready, you present your receipt and get the pizza (call `.get()` on the future). The promise is the kitchen's side, it's what they use to actually put the pizza in the box and hand it to you. The problem is, `.get()` blocks, you stand at the counter waiting, which defeats the purpose of ordering ahead.
 
-**Why it matters:** `std::future` is C++'s original async primitive, but it has a critical limitation: no composability. You can't chain futures like JavaScript promises or Rust futures. This is why C++20 coroutines with custom task types are the modern approach — they compose logically and avoid the blocking `.get()` problem.
+**Why it matters:** `std::future` is C++'s original async primitive, but it has a critical limitation: no composability. You can't chain futures like JavaScript promises or Rust futures. This is why C++20 coroutines with custom task types are the modern approach, they compose logically and avoid the blocking `.get()` problem.
 
-**The key insight:** `std::future` is blocking by design — for composable async workflows, use coroutines with custom task types instead.
+**The key insight:** `std::future` is blocking by design, for composable async workflows, use coroutines with custom task types instead.
 
 
 ```mermaid

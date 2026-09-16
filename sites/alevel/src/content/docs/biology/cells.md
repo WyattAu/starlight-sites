@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**Cells are like tiny factories — each with specialized departments working together to keep the organism alive.**
+**Cells are like tiny factories, each with specialized departments working together to keep the organism alive.**
 
 ## Cells
 

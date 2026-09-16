@@ -11,7 +11,7 @@ export const flashcards1 = [
   },
   {
     front: 'Sola Fide',
-    back: 'Luther\'s doctrine of "faith alone" — salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
+    back: 'Luther\'s doctrine of "faith alone", salvation comes through faith in Christ, not through good works or purchase of indulgences. Derived from Romans 1:17. Became a foundational principle of Protestant theology.',
     difficulty: 'medium',
   },
   {
@@ -29,7 +29,7 @@ export const flashcards1 = [
 export const flashcards2 = [
   {
     front: 'Peace of Augsburg (1555)',
-    back: 'Treaty establishing the principle of cuius regio, eius religio — each ruler determined the religion of their territory (Catholic or Lutheran). Excluded Calvinism. Attempted to resolve religious conflict within the Holy Roman Empire.',
+    back: 'Treaty establishing the principle of cuius regio, eius religio, each ruler determined the religion of their territory (Catholic or Lutheran). Excluded Calvinism. Attempted to resolve religious conflict within the Holy Roman Empire.',
     difficulty: 'medium',
   },
   {

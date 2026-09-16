@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Demand, Supply, and Markets — Diagnostic Tests
+## Demand, Supply, and Markets, Diagnostic Tests
 
 ## Unit Tests
 
@@ -599,11 +599,11 @@ flowchart TD
 
 ## Intuition
 
-**A tug-of-war between buyers and sellers:** Supply and demand is like a dance — when buyers want more (demand rises), prices go up; when sellers offer more (supply rises), prices go down. Equilibrium is where they meet.
+**A tug-of-war between buyers and sellers:** Supply and demand is like a dance, when buyers want more (demand rises), prices go up; when sellers offer more (supply rises), prices go down. Equilibrium is where they meet.
 
 **Why it matters:** From gas prices to housing markets, supply and demand determine what gets produced, in what quantity, and at what price.
 
-**The key insight:** Elasticity measures sensitivity — a small price change causes a big quantity change when demand is elastic, and barely any change when it's inelastic.
+**The key insight:** Elasticity measures sensitivity, a small price change causes a big quantity change when demand is elastic, and barely any change when it's inelastic.
 
 ## Common Pitfalls
 

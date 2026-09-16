@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Stoichiometry is like chemical accounting — balancing equations ensures atoms are neither created nor destroyed:** The mole concept connects atomic-scale reactions to measurable quantities, enabling precise chemical calculations
+**Stoichiometry is like chemical accounting, balancing equations ensures atoms are neither created nor destroyed:** The mole concept connects atomic-scale reactions to measurable quantities, enabling precise chemical calculations
 
 **Why it matters:** Stoichiometry is the foundation of quantitative chemistry, essential for pharmaceuticals, industry, and research
 

@@ -18,7 +18,7 @@ description: "Netfilter is the Linux kernel subsystem that provides network pack
 ## Netfilter Framework
 
 Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other
-Packet manipulation. It is the foundation for all Linux firewall tools — iptables, nftables,
+Packet manipulation. It is the foundation for all Linux firewall tools, iptables, nftables,
 Firewalld, and ufw are all frontends to Netfilter.
 
 ### Hooks
@@ -246,16 +246,16 @@ cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ### NAT Types
 
 ```bash
-# SNAT — Source NAT (change source IP for outgoing packets)
+# SNAT, Source NAT (change source IP for outgoing packets)
 iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j SNAT --to-source 203.0.113.1
 
-# MASQUERADE — SNAT with auto-detection of outgoing IP (for dynamic IPs)
+# MASQUERADE, SNAT with auto-detection of outgoing IP (for dynamic IPs)
 iptables -t nat -A POSTROUTING -s 10.0.0.0/24 -o eth0 -j MASQUERADE
 
-# DNAT — Destination NAT (redirect incoming packets to internal host)
+# DNAT, Destination NAT (redirect incoming packets to internal host)
 iptables -t nat -A PREROUTING -d 203.0.113.1 -p tcp --dport 80 -j DNAT --to-destination 10.0.0.10:80
 
-# REDIRECT — redirect to local port
+# REDIRECT, redirect to local port
 iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 8080
 
 # Port forwarding (external:80 to internal:8080)
@@ -293,13 +293,13 @@ iptables -A INPUT -p tcp --dport 22 -m conntrack --ctstate NEW \
     -m limit --limit 10/minute --limit-burst 5 -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -j DROP
 
-# Using recent module — block after 4 failed attempts in 60 seconds
+# Using recent module, block after 4 failed attempts in 60 seconds
 iptables -A INPUT -p tcp --dport 22 -m conntrack --ctstate NEW \
     -m recent --set --name SSH
 iptables -A INPUT -p tcp --dport 22 -m conntrack --ctstate NEW \
     -m recent --update --seconds 60 --hitcount 4 --rttl --name SSH -j DROP
 
-# Using hashlimit — limit per source IP
+# Using hashlimit, limit per source IP
 iptables -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW \
     -m hashlimit --hashlimit-above 100/sec --hashlimit-mode srcip \
     --hashlimit-name http_limit --hashlimit-burst 200 -j DROP
@@ -461,15 +461,15 @@ Provides a zone-based configuration model.
 
 ```text
 Zones define trust levels:
-  drop      — all incoming packets dropped, only outgoing
-  block     — incoming rejected (ICMP error), only established
-  public    — don't trust, selected incoming connections
-  external  — masquerading enabled, selected incoming
-  dmz       — limited access from public
-  work      — mostly trusted, selected incoming
-  home      — mostly trusted, most incoming
-  internal  — fully trusted, all incoming
-  trusted   — all connections accepted
+  drop, all incoming packets dropped, only outgoing
+  block, incoming rejected (ICMP error), only established
+  public, don't trust, selected incoming connections
+  external, masquerading enabled, selected incoming
+  dmz, limited access from public
+  work, mostly trusted, selected incoming
+  home, mostly trusted, most incoming
+  internal, fully trusted, all incoming
+  trusted, all connections accepted
 ```
 
 ### Commands
@@ -585,7 +585,7 @@ ufw allow from 10.0.0.50 to any port 3306
 ufw delete allow http
 ufw delete allow from 10.0.0.0/24 to any port 22
 
-# Limit (rate limiting — useful for SSH)
+# Limit (rate limiting, useful for SSH)
 ufw limit ssh
 # Blocks if more than 6 connections in 30 seconds
 
@@ -649,7 +649,7 @@ iptables -P OUTPUT ACCEPT
 ### SSH Hardening
 
 ```bash
-# iptables — limit SSH to specific network and rate-limit
+# iptables, limit SSH to specific network and rate-limit
 iptables -A INPUT -p tcp --dport 22 -s 10.0.0.0/24 -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -m conntrack --ctstate NEW \
     -m recent --set --name ssh
@@ -718,11 +718,11 @@ iptables -P OUTPUT ACCEPT
 ### Pitfall: Rule Order Matters
 
 ```bash
-# WRONG — DROP comes before ACCEPT, so SSH is blocked
+# WRONG, DROP comes before ACCEPT, so SSH is blocked
 iptables -A INPUT -p tcp --dport 22 -j DROP
 iptables -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
 
-# CORRECT — ACCEPT comes before DROP
+# CORRECT, ACCEPT comes before DROP
 iptables -A INPUT -s 10.0.0.0/24 -p tcp --dport 22 -j ACCEPT
 iptables -A INPUT -p tcp --dport 22 -j DROP
 
@@ -744,7 +744,7 @@ apt-get install iptables-persistent
 iptables-save > /etc/sysconfig/iptables
 # Or use firewalld/nftables which persist automatically
 
-# nftables — save ruleset
+# nftables, save ruleset
 nft list ruleset > /etc/nftables.conf
 ```
 
@@ -779,11 +779,11 @@ iptables -A OUTPUT -o lo -j ACCEPT
 ### Pitfall: REJECT vs DROP
 
 ```bash
-# DROP — silently discard (no response)
+# DROP, silently discard (no response)
 #   Pro: harder to scan/discover services
 #   Con: clients hang until timeout
 
-# REJECT — send ICMP port unreachable
+# REJECT, send ICMP port unreachable
 #   Pro: clients get immediate feedback
 #   Con: reveals that a host exists and has a firewall
 
@@ -902,16 +902,16 @@ nft add rule inet firewall input iif lo accept
 nft add rule inet firewall input ct state established,related accept
 nft add rule inet firewall input ct state invalid drop
 
-# DMZ zone — allow web traffic from anywhere
+# DMZ zone, allow web traffic from anywhere
 nft add rule inet firewall input ip saddr @dmz_hosts tcp dport @dmz_ports accept
 
-# Internal zone — allow from internal hosts only
+# Internal zone, allow from internal hosts only
 nft add rule inet firewall input ip saddr @internal_hosts tcp dport @internal_ports accept
 
-# Management zone — allow SSH from management hosts only
+# Management zone, allow SSH from management hosts only
 nft add rule inet firewall input ip saddr @mgmt_hosts tcp dport 22 accept
 
-# Forward chain — zone isolation
+# Forward chain, zone isolation
 nft add chain inet firewall forward { type filter hook forward priority 0 \; policy drop \; }
 nft add rule inet firewall forward ct state established,related accept
 

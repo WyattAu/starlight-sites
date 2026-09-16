@@ -153,7 +153,7 @@ function generateRSS(config, pages, baseUrl) {
   const homeDate = new Date(today)
   homeDate.setUTCDate(homeDate.getUTCDate() - items.length)
   const homeItem = `    <item>
-      <title>${escapeXml(config.title)} — Complete Guide</title>
+      <title>${escapeXml(config.title)}, Complete Guide</title>
       <link>${baseUrl}</link>
       <description>${escapeXml(config.description)}</description>
       <pubDate>${formatDateRFC822(homeDate)}</pubDate>
@@ -163,7 +163,7 @@ function generateRSS(config, pages, baseUrl) {
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wyatt's Notes — ${escapeXml(config.title)}</title>
+    <title>Wyatt's Notes, ${escapeXml(config.title)}</title>
     <link>${baseUrl}</link>
     <description>${escapeXml(config.description)}</description>
     <language>en</language>
@@ -171,7 +171,7 @@ function generateRSS(config, pages, baseUrl) {
     <atom:link href="${baseUrl}/rss.xml" rel="self" type="application/rss+xml"/>
     <image>
       <url>${baseUrl}/favicon.svg</url>
-      <title>Wyatt's Notes — ${escapeXml(config.title)}</title>
+      <title>Wyatt's Notes, ${escapeXml(config.title)}</title>
       <link>${baseUrl}</link>
     </image>
 ${itemsXml}

@@ -38,7 +38,7 @@ flowchart TD
 - Radius-edge relations: SC: $a = 2r$; BCC: $a = \frac{4r}{\sqrt{3}}$; FCC: $a = \frac{4r}{\sqrt{2}}$
 - Density: $\rho = \frac{ZM}{N_A a^3}$
 
-## Worked Example 1 — Number of Atoms per Unit Cell
+## Worked Example 1, Number of Atoms per Unit Cell
 
 **Problem:** An element crystallises in a BCC unit cell with edge length $a = 3.0 \, \text{\AA}$. If the molar mass is $52 \, \text{g/mol}$, find the density of the crystal.
 
@@ -55,7 +55,7 @@ Density:
 $$\rho = \frac{ZM}{N_A a^3} = \frac{2 \times 52}{6.022 \times 10^{23} \times 27 \times 10^{-24}}$$
 $$= \frac{104}{16.2594} \approx 6.40 \, \text{g/cm}^3$$
 
-## Worked Example 2 — Packing Efficiency of FCC
+## Worked Example 2, Packing Efficiency of FCC
 
 **Problem:** Show that the packing efficiency of an FCC unit cell is approximately 74%.
 
@@ -75,7 +75,7 @@ $$V_{atoms} = 4 \times \frac{4}{3}\pi r^3 = \frac{16}{3}\pi r^3$$
 Packing efficiency:
 $$\text{PE} = \frac{\frac{16}{3}\pi r^3}{16\sqrt{2}r^3} \times 100\% = \frac{\pi}{3\sqrt{2}} \times 100\% \approx \frac{3.1416}{4.2426} \times 100\% \approx 74.05\%$$
 
-## Worked Example 3 — Radius of an Atom from Unit Cell Data
+## Worked Example 3, Radius of an Atom from Unit Cell Data
 
 **Problem:** Iron crystallises in a BCC structure with density $7.86 \, \text{g/cm}^3$. The molar mass of Fe is $56 \, \text{g/mol}$. Find the atomic radius.
 
@@ -114,7 +114,7 @@ $$r = \frac{a\sqrt{3}}{4} = \frac{2.87 \times 1.732}{4} = \frac{4.972}{4} \appro
   - FCC: $a = \frac{4r}{\sqrt{2}}$
 - Number of atoms: SC = 1, BCC = 2, FCC = 4
 
-## Worked Example 4 — Packing Efficiency of BCC
+## Worked Example 4, Packing Efficiency of BCC
 
 **Problem:** Show that the packing efficiency of a BCC unit cell is approximately 68%.
 
@@ -140,7 +140,7 @@ $$\text{PE} = \frac{3.1416 \times 1.732}{8} \times 100\% = \frac{5.441}{8} \time
 
 **Common mistake:** Forgetting that in BCC, atoms touch along the body diagonal ($\sqrt{3}a$), not along the edge.
 
-## Worked Example 5 — Void Calculations
+## Worked Example 5, Void Calculations
 
 **Problem:** In an FCC unit cell of a metal with atomic radius $r$, what is the radius of the largest tetrahedral void that can fit in the structure?
 
@@ -156,7 +156,7 @@ $$r_{void} = 0.225 \times 1.25 = 0.281 \, \text{\AA}$$
 
 **Common mistake:** Confusing tetrahedral voids (radius ratio 0.225) with octahedral voids (radius ratio 0.414).
 
-## Worked Example 6 — Crystal System Identification
+## Worked Example 6, Crystal System Identification
 
 **Problem:** A compound has a unit cell with $a = b \neq c$ and $\alpha = \beta = \gamma = 90°$. What crystal system does it belong to?
 

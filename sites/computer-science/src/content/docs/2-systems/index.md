@@ -49,11 +49,11 @@ Computer systems encompasses the hardware and software infrastructure that enabl
 
 ## Intuition
 
-**A city infrastructure:** Systems are like a city's infrastructure — the OS is the city council allocating resources, the architecture is the road network, concurrency is managing traffic at intersections, and networking connects cities together. Without coordination, chaos ensues.
+**A city infrastructure:** Systems are like a city's infrastructure, the OS is the city council allocating resources, the architecture is the road network, concurrency is managing traffic at intersections, and networking connects cities together. Without coordination, chaos ensues.
 
 **Why it matters:** Every application runs on a system. Understanding how memory is managed, how processes share resources, and how networks transmit data is essential for building reliable, efficient software.
 
-**The key insight:** Systems are built on layers of abstraction — each layer hides complexity from the one above, enabling you to reason about high-level problems without drowning in hardware details.
+**The key insight:** Systems are built on layers of abstraction, each layer hides complexity from the one above, enabling you to reason about high-level problems without drowning in hardware details.
 
 ## Key Concepts
 

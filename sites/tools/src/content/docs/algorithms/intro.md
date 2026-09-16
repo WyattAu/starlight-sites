@@ -63,23 +63,23 @@ Or amortised constant-time operations. These trade-offs are the substance of sys
 
 This subject assumes familiarity with:
 
-- **Logarithms** — $O(\log n)$ is the most important complexity class you will encounter. You need
+- **Logarithms**, $O(\log n)$ is the most important complexity class you will encounter. You need
   to be comfortable with the algebraic identities: $\log(ab) = \log a + \log b$
   $\log(a^b) =
  b \log a$, and the change of base formula.
-- **Summations** — Many algorithm analyses reduce to evaluating sums. Know the closed forms for
+- **Summations**, Many algorithm analyses reduce to evaluating sums. Know the closed forms for
   $\sum_{i=1}^{n} i = n(n+1)/2$, $\sum_{i=1}^{n} i^2 = n(n+1)(2n+1)/6$ And the geometric series
   $\sum_{i=0}^{k} r^i = (r^{k+1} - 1)/(r - 1)$.
-- **Recurrence relations** — Divide-and-conquer algorithms produce recurrences like $T(n) = 2T(n/2)
+- **Recurrence relations**, Divide-and-conquer algorithms produce recurrences like $T(n) = 2T(n/2)
 - O(n)$. The Master Theorem provides closed-form solutions for a broad class of these.
-- **Proof techniques** — Induction, contradiction, and construction are used throughout to prove
+- **Proof techniques**, Induction, contradiction, and construction are used throughout to prove
   correctness and bounds.
 
 ## What This Subject Covers
 
 | Chapter                      | Focus                                                                    | Key Algorithms                    |
 | ---------------------------- | ------------------------------------------------------------------------ | --------------------------------- |
-| Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness | —                                 |
+| Complexity Analysis          | Asymptotic notation, Master Theorem, amortised analysis, NP-completeness |,                                 |
 | Arrays and Strings           | Two pointers, sliding window, prefix sums, hashing, string matching      | Rabin-Karp, KMP                   |
 | Linked Lists, Stacks, Queues | Linear structures, monotonic structures, union-find                      | Floyd"s cycle detection           |
 | Trees and Graphs             | BSTs, balanced trees, heaps, tries, graph traversal, topological sort    | BFS, DFS                          |
@@ -90,7 +90,7 @@ This subject assumes familiarity with:
 ## How to Use These Notes
 
 These notes are written for systems engineers who need to understand algorithms at the level
-Required to make informed design decisions — not just pass an interview. Each chapter includes
+Required to make informed design decisions, not just pass an interview. Each chapter includes
 Complexity analysis, practical implementation considerations, and a "Common Pitfalls" section drawn
 From real production failures.
 

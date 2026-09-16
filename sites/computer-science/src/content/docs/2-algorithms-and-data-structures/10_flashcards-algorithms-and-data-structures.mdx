@@ -35,13 +35,13 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-Data structures are **organised ways to store and access data**. The choice of data structure determines the efficiency of operations — a linked list is great for insertion but poor for random access; an array is the opposite.
+Data structures are **organised ways to store and access data**. The choice of data structure determines the efficiency of operations, a linked list is great for insertion but poor for random access; an array is the opposite.
 
 **Array vs linked list intuition:** Arrays give O(1) random access but O(n) insertion (shifting elements). Linked lists give O(1) insertion at a known position but O(n) access (traversal). Use arrays when you need fast lookups; use linked lists when you need frequent insertions/deletions.
 
-**Tree intuition:** Binary search trees maintain sorted order while allowing O(log n) search, insert, and delete — if the tree is balanced. An unbalanced BST degenerates into a linked list with O(n) operations. Self-balancing trees (AVL, Red-Black) guarantee O(log n) by restructuring after each modification.
+**Tree intuition:** Binary search trees maintain sorted order while allowing O(log n) search, insert, and delete, if the tree is balanced. An unbalanced BST degenerates into a linked list with O(n) operations. Self-balancing trees (AVL, Red-Black) guarantee O(log n) by restructuring after each modification.
 
-**Hash table intuition:** Hash tables map keys to array indices using a hash function. Average-case O(1) operations depend on a good hash function that distributes keys uniformly. Collisions (two keys mapping to the same index) degrade performance — chaining and open addressing are two resolution strategies.
+**Hash table intuition:** Hash tables map keys to array indices using a hash function. Average-case O(1) operations depend on a good hash function that distributes keys uniformly. Collisions (two keys mapping to the same index) degrade performance, chaining and open addressing are two resolution strategies.
 
 ---
 

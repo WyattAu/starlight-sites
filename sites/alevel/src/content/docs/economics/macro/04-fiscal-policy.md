@@ -65,12 +65,12 @@ And supplementary target).
 $$G = G_{current} + G_{capital}$$
 
 Only $G$ in the AD equation ($AD = C + I + G + (X - M)$) represents spending on goods and services.
-Transfer payments are not directly part of $G$ — they affect $AD$ indirectly through their effect on
+Transfer payments are not directly part of $G$, they affect $AD$ indirectly through their effect on
 Disposable income and hence consumption ($C$).
 
 :::caution
 They affect $C$Not $G$ directly. However, exam questions sometimes use "government spending" loosely
-— always clarify What is meant.
+- always clarify What is meant.
 :::
 ### 2.2 Government Spending as a Share of GDP
 
@@ -154,7 +154,7 @@ Income):
 ATR falls with income because higher earners save a larger proportion of income. ✓ $\blacksquare$
 
 :::tip
-The ATR at different income levels. Never just state the marginal rate — a tax can have increasing
+The ATR at different income levels. Never just state the marginal rate, a tax can have increasing
 Marginal rates but still be regressive in practice (e.g., if there are generous allowances for high
 Earners).
 :::
@@ -202,7 +202,7 @@ GDP is also large.
 
 :::caution
 _flow_ (per year), While the debt is a _stock_ (accumulated). Reducing the deficit does _not_ reduce
-the debt — it Merely slows the rate at which debt grows. Only a surplus reduces the debt.
+the debt, it Merely slows the rate at which debt grows. Only a surplus reduces the debt.
 :::
 ### 4.2 Debt Dynamics
 
@@ -214,7 +214,7 @@ Where $r$ is the average interest rate on government debt and $g$ is the GDP gro
 
 **Key insight**: If $g > r$The debt-to-GDP ratio can fall even with a primary deficit (before
 Interest payments), because GDP is growing faster than the debt stock. If $r > g$Debt dynamics are
-Unstable — the debt ratio grows unless offset by primary surpluses.
+Unstable, the debt ratio grows unless offset by primary surpluses.
 
 ### 4.3 Sustainability
 
@@ -293,7 +293,7 @@ Of $\Delta G$ on AD.
 
 ### 6.3 Types of Crowding Out
 
-**Financial crowding out**: the mechanism described above — government borrowing raises interest
+**Financial crowding out**: the mechanism described above, government borrowing raises interest
 Rates, reducing private investment.
 
 $$\Delta I = -\frac{1}{MPS} \cdot \Delta G \quad \mathrm{(full crowding out in extreme case)}$$
@@ -430,7 +430,7 @@ Deficit to pay the expected future taxes:
 
 $$\Delta G \mathrm{ (deficit-financed)} \Rightarrow \Delta S_{private} = \Delta G \Rightarrow \Delta C = 0$$
 
-Therefore, the multiplier is zero — fiscal policy is completely ineffective.
+Therefore, the multiplier is zero, fiscal policy is completely ineffective.
 
 _Critique._ Ricardian equivalence requires:
 
@@ -439,7 +439,7 @@ _Critique._ Ricardian equivalence requires:
 - Lump-sum taxes (not distortionary)
 - Rational expectations
 
-These assumptions are unrealistic. Empirical evidence suggests partial Ricardian effects at best —
+These assumptions are unrealistic. Empirical evidence suggests partial Ricardian effects at best,
 Fiscal policy does affect AD, but the multiplier may be smaller than predicted by the simple
 Keynesian model.
 
@@ -498,7 +498,7 @@ Two approaches.
 
 <details>
 <summary>Hint</summary>
-(a) £20,000: Tax = $0.20 \times (20,000 - 12,570) = 0.20 \times 7,430 = £1,486$. ATR = $1,486/20,000 = 7.4\%$. (b) £60,000: Tax = $0.20 \times 37,700 + 0.40 \times 9,730 = 7,540 + 3,892 = £11,432$. ATR = $11,432/60,000 = 19.1\%$. (c) £150,000: Tax = $0.20 \times 37,700 + 0.40 \times 74,870 + 0.45 \times 24,860 = 7,540 + 29,948 + 11,187 = £48,675$. ATR = $48,675/150,000 = 32.5\%$. Yes, progressive — ATR rises with income.
+(a) £20,000: Tax = $0.20 \times (20,000 - 12,570) = 0.20 \times 7,430 = £1,486$. ATR = $1,486/20,000 = 7.4\%$. (b) £60,000: Tax = $0.20 \times 37,700 + 0.40 \times 9,730 = 7,540 + 3,892 = £11,432$. ATR = $11,432/60,000 = 19.1\%$. (c) £150,000: Tax = $0.20 \times 37,700 + 0.40 \times 74,870 + 0.45 \times 24,860 = 7,540 + 29,948 + 11,187 = £48,675$. ATR = $48,675/150,000 = 32.5\%$. Yes, progressive, ATR rises with income.
 </details>
 
 **Problem 3.** Explain why VAT is considered regressive despite being charged at a flat rate. Use a
@@ -517,7 +517,7 @@ Private investment, and (d) inflation.
 
 <details>
 <summary>Hint</summary>
-(a) SR: AD shifts right, but at full employment SRAS is vertical or very steep, so most of the effect is on prices not output. LR: no change in output (LRAS vertical). (b) Government borrowing increases demand for loanable funds → interest rates rise. (c) Private investment falls due to higher interest rates (financial crowding out). Since investment is interest-elastic, the fall is significant — potentially full crowding out. (d) Inflation rises due to demand-pull pressure. The policy is ineffective at raising output and harmful for investment and inflation. This illustrates the Classical critique of fiscal policy.
+(a) SR: AD shifts right, but at full employment SRAS is vertical or very steep, so most of the effect is on prices not output. LR: no change in output (LRAS vertical). (b) Government borrowing increases demand for loanable funds → interest rates rise. (c) Private investment falls due to higher interest rates (financial crowding out). Since investment is interest-elastic, the fall is significant, potentially full crowding out. (d) Inflation rises due to demand-pull pressure. The policy is ineffective at raising output and harmful for investment and inflation. This illustrates the Classical critique of fiscal policy.
 </details>
 
 **Problem 5.** "Automatic stabilisers are superior to discretionary fiscal policy." Evaluate this
@@ -525,7 +525,7 @@ Statement.
 
 <details>
 <summary>Hint</summary>
-Arguments for: (1) No time lags — operate immediately as the cycle turns. (2) No political bias — not subject to electoral manipulation. (3) Automatically reverse, avoiding pro-cyclical policy. Arguments against: (1) Limited scope — can only operate through existing tax/benefit structures. (2) Cannot target specific problems (e.g., regional unemployment, structural issues). (3) May not be sufficient for severe recessions (the 2008 crisis required discretionary stimulus). (4) The strength of automatic stabilisers varies across countries (stronger in Nordic countries with generous welfare states). Best answer: automatic stabilisers are the first line of defence; discretionary policy is needed for exceptional circumstances. *Revision: see [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply).*
+Arguments for: (1) No time lags, operate immediately as the cycle turns. (2) No political bias, not subject to electoral manipulation. (3) Automatically reverse, avoiding pro-cyclical policy. Arguments against: (1) Limited scope, can only operate through existing tax/benefit structures. (2) Cannot target specific problems (e.g., regional unemployment, structural issues). (3) May not be sufficient for severe recessions (the 2008 crisis required discretionary stimulus). (4) The strength of automatic stabilisers varies across countries (stronger in Nordic countries with generous welfare states). Best answer: automatic stabilisers are the first line of defence; discretionary policy is needed for exceptional circumstances. *Revision: see [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply).*
 </details>
 
 **Problem 6.** The national debt is £2.7 trillion and GDP is £3.0 trillion. Interest payments on the
@@ -551,7 +551,7 @@ Not fully hold in practice?
 
 <details>
 <summary>Hint</summary>
-Ricardian equivalence (Barro, 1974): households anticipate future tax liabilities from current government borrowing, so they save the full amount of a deficit-financed tax cut → no change in consumption → multiplier is zero. Why it fails in practice: (1) **Liquidity constraints** — poor households cannot borrow against future income, so a tax cut raises current consumption. (2) **Myopia** — households do not fully anticipate future taxes. (3) **Finite lives** — if taxpayers do not care about future generations, they will not save for taxes they won't pay. (4) **Distortionary taxes** — future taxes create deadweight loss, so the equivalence is not exact. (5) **Uncertainty** — households may not know when or how future taxes will be raised. Empirical evidence: consumption responds to tax cuts, suggesting partial but not full Ricardian equivalence. *Revision: see [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply).*
+Ricardian equivalence (Barro, 1974): households anticipate future tax liabilities from current government borrowing, so they save the full amount of a deficit-financed tax cut → no change in consumption → multiplier is zero. Why it fails in practice: (1) **Liquidity constraints**, poor households cannot borrow against future income, so a tax cut raises current consumption. (2) **Myopia**, households do not fully anticipate future taxes. (3) **Finite lives**, if taxpayers do not care about future generations, they will not save for taxes they won't pay. (4) **Distortionary taxes**, future taxes create deadweight loss, so the equivalence is not exact. (5) **Uncertainty**, households may not know when or how future taxes will be raised. Empirical evidence: consumption responds to tax cuts, suggesting partial but not full Ricardian equivalence. *Revision: see [Aggregate Demand and Aggregate Supply](02-aggregate-demand-and-supply).*
 </details>
 
 **Problem 9.** The government is considering two options to stimulate the economy: (A) increase
@@ -561,7 +561,7 @@ Have greater long-run benefits? (c) Evaluate the trade-offs.
 
 <details>
 <summary>Hint</summary>
-$k = 1/(0.3 + 0.15 + 0.1) = 1/0.55 = 1.82$. (a) Option A: $\Delta Y = 1.82 \times 80 = £145.5$Bn. Option B: initial consumption boost $= 0.7 \times 80 = £56$Bn. $\Delta Y = 1.82 \times 56 = £101.9$Bn. Option A has a larger impact (£145.5bn vs £101.9bn). (b) Option B might be better long-term if it incentivises work and investment. But Option A (infrastructure) also has long-run supply-side benefits — better transport raises productivity, shifting LRAS right. (c) Trade-offs: Option A has higher multiplier but adds to debt and may suffer from implementation lags. Option B is faster to implement and may improve work incentives but has a smaller multiplier. The best choice depends on the economic context.
+$k = 1/(0.3 + 0.15 + 0.1) = 1/0.55 = 1.82$. (a) Option A: $\Delta Y = 1.82 \times 80 = £145.5$Bn. Option B: initial consumption boost $= 0.7 \times 80 = £56$Bn. $\Delta Y = 1.82 \times 56 = £101.9$Bn. Option A has a larger impact (£145.5bn vs £101.9bn). (b) Option B might be better long-term if it incentivises work and investment. But Option A (infrastructure) also has long-run supply-side benefits, better transport raises productivity, shifting LRAS right. (c) Trade-offs: Option A has higher multiplier but adds to debt and may suffer from implementation lags. Option B is faster to implement and may improve work incentives but has a smaller multiplier. The best choice depends on the economic context.
 </details>
 
 **Problem 10.** "Fiscal policy was ineffective during the 2008 financial crisis because of crowding
@@ -569,7 +569,7 @@ Out." Evaluate this statement.
 
 <details>
 <summary>Hint</summary>
-Partially false. Crowding out was limited during 2008–09 because: (1) The economy was in deep recession with large output gap → idle resources available. (2) Interest rates were cut to near zero (the zero lower bound) → central bank accommodated fiscal expansion by keeping $r$ low. (3) Private investment was already depressed ( pessimism) → crowding out was minimal. However: (1) The UK's high MPM (~0.3) reduced the multiplier. (2) Some financial crowding out occurred as government borrowing increased. (3) Confidence effects may have amplified or dampened the policy. The effectiveness of fiscal policy was moderate — sufficient to prevent a deeper recession but not enough to deliver a rapid recovery. *Revision: see [Macroeconomic Performance](01-macroeconomic-performance) for data on UK GDP and unemployment post-2008.*
+Partially false. Crowding out was limited during 2008–09 because: (1) The economy was in deep recession with large output gap → idle resources available. (2) Interest rates were cut to near zero (the zero lower bound) → central bank accommodated fiscal expansion by keeping $r$ low. (3) Private investment was already depressed ( pessimism) → crowding out was minimal. However: (1) The UK's high MPM (~0.3) reduced the multiplier. (2) Some financial crowding out occurred as government borrowing increased. (3) Confidence effects may have amplified or dampened the policy. The effectiveness of fiscal policy was moderate, sufficient to prevent a deeper recession but not enough to deliver a rapid recovery. *Revision: see [Macroeconomic Performance](01-macroeconomic-performance) for data on UK GDP and unemployment post-2008.*
 </details>
 
 :::danger
@@ -1056,8 +1056,8 @@ each approach.
 
 ## Intuition
 
-Fiscal policy is the government's most direct lever on the economy — it's the ability to spend money or collect less of it, right now, to change how much people and businesses are buying. Think of it like a thermostat for the economy: when things are too cold (recession), the government turns up the heat by spending more or cutting taxes; when things are overheating (inflation), it turns the heat down by spending less or raising taxes. The key insight is that government spending doesn't just add one pound to the economy — it circulates. When the government builds a road, the construction workers get paid, they spend that money at shops, the shops hire more staff, and so on. This ripple effect is the multiplier, and it's why fiscal policy can have a much larger impact than its initial size suggests.
+Fiscal policy is the government's most direct lever on the economy, it's the ability to spend money or collect less of it, right now, to change how much people and businesses are buying. Think of it like a thermostat for the economy: when things are too cold (recession), the government turns up the heat by spending more or cutting taxes; when things are overheating (inflation), it turns the heat down by spending less or raising taxes. The key insight is that government spending doesn't just add one pound to the economy, it circulates. When the government builds a road, the construction workers get paid, they spend that money at shops, the shops hire more staff, and so on. This ripple effect is the multiplier, and it's why fiscal policy can have a much larger impact than its initial size suggests.
 
-But the thermostat isn't perfect. It takes time to recognise when the economy needs heating or cooling, time to agree on what to do, and time for the policy to actually work. By the time you've fitted a new radiator, the weather may have changed. This is the lag problem, and it means fiscal policy can sometimes end up making things worse — stimulating an economy that's already recovering, or tightening when a recession is just beginning. There's also the crowding out problem: when the government borrows to fund its spending, it competes with private firms for loans, pushing up interest rates and potentially cancelling out some of the stimulus. The size of this problem depends on how much spare capacity the economy has — in a deep recession with idle workers and factories, crowding out is minimal, but at full employment it can be severe.
+But the thermostat isn't perfect. It takes time to recognise when the economy needs heating or cooling, time to agree on what to do, and time for the policy to actually work. By the time you've fitted a new radiator, the weather may have changed. This is the lag problem, and it means fiscal policy can sometimes end up making things worse, stimulating an economy that's already recovering, or tightening when a recession is just beginning. There's also the crowding out problem: when the government borrows to fund its spending, it competes with private firms for loans, pushing up interest rates and potentially cancelling out some of the stimulus. The size of this problem depends on how much spare capacity the economy has, in a deep recession with idle workers and factories, crowding out is minimal, but at full employment it can be severe.
 
-The deepest question in fiscal policy is about debt. Borrowing today means someone has to pay tomorrow. The key relationship is between the interest rate on government debt and the economy's growth rate. If the economy grows faster than the interest on the debt, the debt burden shrinks over time even without running a surplus — like a company whose profits grow faster than its loan interest. But if interest rates exceed growth, the debt snowball can become unsustainable. This is why the composition of spending matters enormously: borrowing to build roads and schools that boost future growth is very different from borrowing to fund day-to-day consumption. The first makes future repayment easier; the second just pushes the problem forward.
+The deepest question in fiscal policy is about debt. Borrowing today means someone has to pay tomorrow. The key relationship is between the interest rate on government debt and the economy's growth rate. If the economy grows faster than the interest on the debt, the debt burden shrinks over time even without running a surplus, like a company whose profits grow faster than its loan interest. But if interest rates exceed growth, the debt snowball can become unsustainable. This is why the composition of spending matters enormously: borrowing to build roads and schools that boost future growth is very different from borrowing to fund day-to-day consumption. The first makes future repayment easier; the second just pushes the problem forward.

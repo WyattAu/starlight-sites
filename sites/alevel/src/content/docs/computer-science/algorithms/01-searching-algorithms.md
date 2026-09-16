@@ -145,7 +145,7 @@ $$n + 1 \leq 2^{h+1} - 1 \implies h \geq \lceil \log_2(n + 2) \rceil - 1 = \Omeg
 $\square$
 
 :::caution
-Gives incorrect results. Also, beware of integer overflow when computing `mid = (low + high) // 2` —
+Gives incorrect results. Also, beware of integer overflow when computing `mid = (low + high) // 2`
 Use `mid = low + (high - low) // 2` for safety.
 :::
 <details>
@@ -167,7 +167,7 @@ Result: index 3. ✓
 | 1         | 0   | 6    | 3   | 7      | 7 > 6, high = 2       |
 | 2         | 0   | 2    | 1   | 3      | 3 < 6, low = 2        |
 | 3         | 2   | 2    | 2   | 5      | 5 < 6, low = 3        |
-| 4         | 3   | 2    | —   | —      | low > high, return -1 |
+| 4         | 3   | 2    |,   |,      | low > high, return -1 |
 
 Result: -1 (not found). ✓
 
@@ -273,7 +273,7 @@ Total comparisons: 8. Return -1.
 | 2         | 5   | 9    | 7   | 56     | 56 > 25, high = 6 |
 | 3         | 5   | 6    | 5   | 23     | 23 < 25, low = 6  |
 | 4         | 6   | 6    | 6   | 38     | 38 > 25, high = 5 |
-| 5         | 6   | 5    | —   | —      | low > high → -1   |
+| 5         | 6   | 5    |,   |,      | low > high → -1   |
 
 4 comparisons. Result: -1.
 
@@ -302,7 +302,7 @@ Binary search requires $O(1)$ access to the middle element (A[mid]). In a singly
 Accessing the $k$-th element requires traversing $k$ nodes from the head, which is $O(k)$. Finding
 The middle of a list of $n$ elements takes $O(n/2) = O(n)$ time, eliminating the benefit of halving.
 
-Alternative: **Jump list / Skip list** — a data structure with multiple levels of linked lists that
+Alternative: **Jump list / Skip list**, a data structure with multiple levels of linked lists that
 Allows $O(\log n)$ search by "skipping" ahead at higher levels, analogous to binary search.
 
 </details>
@@ -447,7 +447,7 @@ The value 5 is not in the array, so the algorithm must check every single elemen
 | 9    | 8     | 90       | 90 ≠ 5     | 9     |
 
 9 comparisons are made. The value 5 is not found, so the algorithm returns -1. This is the worst
-Case for an array of 9 elements — every element must be checked.
+Case for an array of 9 elements, every element must be checked.
 
 </details>
 
@@ -495,7 +495,7 @@ And then terminate with low > high.
 | 1         | 0   | 7    | 3   | 14     | 14 < 15, low = 4   |
 | 2         | 4   | 7    | 5   | 22     | 22 > 15, high = 4  |
 | 3         | 4   | 4    | 4   | 18     | 18 > 15, high = 3  |
-| 4         | 4   | 3    | —   | —      | low > high, return |
+| 4         | 4   | 3    |,   |,      | low > high, return |
 
 4 comparisons are made. The value 15 is not in the array, so the algorithm returns -1.
 
@@ -551,7 +551,7 @@ The binary search worst case.
 $\lfloor \log_2(500\,000) \rfloor + 1 = \lfloor 18.93 \rfloor + 1 = 19$ comparisons. Time
 Complexity: $O(\log n)$.
 
-Binary search is dramatically more efficient — at most 19 comparisons versus 500,000 for linear
+Binary search is dramatically more efficient, at most 19 comparisons versus 500,000 for linear
 Search, an improvement factor of approximately 26,000×. Since the data is already sorted, there is
 No additional preprocessing cost.
 
@@ -687,14 +687,14 @@ Binary search requires at most $\lfloor \log_2(20\,000) \rfloor + 1 = 15$ compar
 20,000 for linear search. This is efficient and appropriate since no preprocessing is needed.
 
 **(b) Linear search.** The list of 50 recently returned books is unsorted and small. Linear search
-Takes at most 50 comparisons — negligible cost. Sorting first would cost $O(50 \log 50) \approx 282$
+Takes at most 50 comparisons, negligible cost. Sorting first would cost $O(50 \log 50) \approx 282$
 Operations, which exceeds the 50 comparisons needed for a single search. For a single check, linear
 Search is optimal. If many repeated searches were needed, sorting first and using binary search (7
 Comparisons max) would become worthwhile after approximately 6 searches ($282 / 50 \approx 5.6$).
 
 **(c) Binary search.** The price catalogue is sorted by ISBN with random access. Binary search finds
 The ISBN in $O(\log 20\,000) \approx 15$ comparisons, then retrieves the price at that index in
-$O(1)$. Linear search would require $O(20\,000)$ comparisons — unnecessary when the data is already
+$O(1)$. Linear search would require $O(20\,000)$ comparisons, unnecessary when the data is already
 Sorted.
 
 **Summary:**
@@ -732,7 +732,7 @@ Sorted.
 
 2. **Confusing the mid calculation and causing integer overflow.** Computing `mid = (low + high) // 2` can overflow in languages with fixed-width integers when `low + high > INT_MAX`. The safe alternative is `mid = low + (high - low) // 2`.
 
-3. **Forgetting that binary search on a linked list is not O(log n).** Binary search requires O(1) random access to the middle element. Linked lists require O(n) traversal to reach the middle, making binary search O(n) — no better than linear search.
+3. **Forgetting that binary search on a linked list is not O(log n).** Binary search requires O(1) random access to the middle element. Linked lists require O(n) traversal to reach the middle, making binary search O(n), no better than linear search.
 
 4. **Not understanding why the worst case for linear search is Ω(n).** An adversary can place the target at the last position checked or declare it absent. Any algorithm that doesn't check all n positions can be fooled. This is a lower bound, not just an observation.
 
@@ -762,8 +762,8 @@ linked above.
 
 ## Intuition
 
-Searching is one of the most fundamental operations in computer science, and the two classic approaches — linear and binary search — illustrate a core trade-off: simplicity versus speed. Linear search is the obvious strategy: start at the beginning and check every item until you find what you are looking for. It works on any collection, sorted or not, but it is slow for large datasets because you might have to look at every single element. Binary search, by contrast, exploits order. By repeatedly halving the search space, it narrows down the target in logarithmic time — for a million items, it needs at most 20 comparisons instead of a million.
+Searching is one of the most fundamental operations in computer science, and the two classic approaches, linear and binary search, illustrate a core trade-off: simplicity versus speed. Linear search is the obvious strategy: start at the beginning and check every item until you find what you are looking for. It works on any collection, sorted or not, but it is slow for large datasets because you might have to look at every single element. Binary search, by contrast, exploits order. By repeatedly halving the search space, it narrows down the target in logarithmic time, for a million items, it needs at most 20 comparisons instead of a million.
 
-The key insight behind binary search is the power of eliminating half the possibilities at each step. Imagine looking up a word in a dictionary: you open it roughly in the middle, see whether your word comes before or after, and immediately discard half the pages. You repeat this until you find the word. This "divide and conquer" principle appears throughout computer science, from sorting algorithms to tree traversals. The catch is that binary search only works on sorted data, so if your data is not already ordered, you must pay the cost of sorting first — a decision that depends on how many searches you plan to perform.
+The key insight behind binary search is the power of eliminating half the possibilities at each step. Imagine looking up a word in a dictionary: you open it roughly in the middle, see whether your word comes before or after, and immediately discard half the pages. You repeat this until you find the word. This "divide and conquer" principle appears throughout computer science, from sorting algorithms to tree traversals. The catch is that binary search only works on sorted data, so if your data is not already ordered, you must pay the cost of sorting first, a decision that depends on how many searches you plan to perform.
 
-In practice, the choice between algorithms depends on context. For small datasets, the overhead of binary search's index management may not be worth it — linear search is simpler and fast enough. For large, frequently searched datasets, binary search (or its variants like interpolation search) is dramatically faster. Real-world systems often use hash tables for O(1) average-case lookups when exact matching is needed, or balanced binary search trees when both searching and ordered traversal are required. Understanding these trade-offs — data size, whether data is sorted, the cost of preprocessing, and the pattern of access — is what lets you choose the right tool for the job.
+In practice, the choice between algorithms depends on context. For small datasets, the overhead of binary search's index management may not be worth it, linear search is simpler and fast enough. For large, frequently searched datasets, binary search (or its variants like interpolation search) is dramatically faster. Real-world systems often use hash tables for O(1) average-case lookups when exact matching is needed, or balanced binary search trees when both searching and ordered traversal are required. Understanding these trade-offs, data size, whether data is sorted, the cost of preprocessing, and the pattern of access, is what lets you choose the right tool for the job.

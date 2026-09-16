@@ -606,8 +606,8 @@ Records provide named fields for data types:
 -- Basic record type
 data Person = Person
   { personName :: String
-  , personAge  :: Int
-  , personEmail :: String
+personAge  :: Int
+personEmail :: String
   }
   deriving (Show, Eq)
 
@@ -615,8 +615,8 @@ data Person = Person
 alice :: Person
 alice = Person
   { personName = "Alice"
-  , personAge  = 30
-  , personEmail = "alice@example.com"
+personAge  = 30
+personEmail = "alice@example.com"
   }
 
 -- Record field access (automatically generated)
@@ -901,8 +901,8 @@ prettyPrint indent (JObj kvs) =
 json :: JValue
 json = JObj
   [ ("name", JStr "Alice")
-  , ("age", JNum 30)
-  , ("scores", JArr [JNum 95, JNum 87, JNum 92])
+("age", JNum 30)
+("scores", JArr [JNum 95, JNum 87, JNum 92])
   ]
 
 -- countElements json => 3

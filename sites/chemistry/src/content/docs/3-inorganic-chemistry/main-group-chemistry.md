@@ -41,7 +41,7 @@ categories:
 
 **Hydrides:** $\text{MH}$ (ionic, salt-like). Used as reducing agents.
 
-**Carbonates:** $\text{M}_2\text{CO}_3$ — thermal stability increases down the group.
+**Carbonates:** $\text{M}_2\text{CO}_3$, thermal stability increases down the group.
 
 $$\text{Li}_2\text{CO}_3 \xrightarrow{\Delta} \text{Li}_2\text{O} + \text{CO}_2$$
 
@@ -426,7 +426,7 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 | Atomic Structure         | WyattsNotes | [View](atomic-structure-and-periodicity)    |
 | Coordination Chemistry   | WyattsNotes | [View](coordination-chemistry)             |
 | Solid-State Chemistry    | WyattsNotes | [View](solid-state-chemistry)              |
-| Main-Group Chemistry — MIT 5.04 | MIT OCW | [View](https://ocw.mit.edu/courses/5-04-principles-of-inorganic-chemistry-ii-fall-2008/) |
+| Main-Group Chemistry, MIT 5.04 | MIT OCW | [View](https://ocw.mit.edu/courses/5-04-principles-of-inorganic-chemistry-ii-fall-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

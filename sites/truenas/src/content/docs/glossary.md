@@ -1,6 +1,6 @@
 ---
-title: "TrueNAS Glossary — Key Terms and Definitions"
-description: "Study notes for TrueNAS Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "TrueNAS Glossary, Key Terms and Definitions"
+description: "Study notes for TrueNAS Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -69,7 +69,7 @@ tags: [glossary]
 
 **Vdev (Virtual Device)**: A group of disks in a pool. The basic building block of ZFS pools.
 
-**Metadata**: Data describing data — file names, permissions, timestamps, directory structure.
+**Metadata**: Data describing data, file names, permissions, timestamps, directory structure.
 
 **Record Size**: The maximum size of a single block written to disk. Default 128 KB; tune for workload.
 

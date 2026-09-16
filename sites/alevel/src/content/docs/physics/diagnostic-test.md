@@ -20,7 +20,7 @@ categories:
 }
 </script>
 
-## A Level Physics — Diagnostic Test
+## A Level Physics, Diagnostic Test
 
 :::note
 Questions. Each question has an answer and a revision redirect. Time allowed: 90 minutes.
@@ -341,11 +341,11 @@ M $= 103$ nm.
 
 <details>
 <summary>Q33. Explain what is meant by the binding energy per nucleon and why iron-56 is the most stable nucleus.</summary>
-**Answer.** The binding energy per nucleon is the total binding energy divided by the mass number —
+**Answer.** The binding energy per nucleon is the total binding energy divided by the mass number,
 The average energy needed to remove one nucleon. Iron-56 has the highest binding energy per nucleon
 ($\sim 8.8$ MeV), meaning it requires the most energy per nucleon to disassemble. This corresponds
 To the maximum nuclear stability. Nuclei lighter than iron release energy by fusion; nuclei heavier
-Release energy by fission — both processes move towards the iron peak.
+Release energy by fission, both processes move towards the iron peak.
 
 <b>If you get this wrong, revise:</b>
 [Nuclear Energy](nuclear-physics/02-nuclear-energy)
@@ -504,7 +504,7 @@ $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
 ## Intuition
 
-**Physics describes the fundamental rules of the universe — from the tiniest particles to the vastness of space.**
+**Physics describes the fundamental rules of the universe, from the tiniest particles to the vastness of space.**
 
 ## Summary
 

@@ -364,7 +364,7 @@ When evaluating a source, consider:
 
 > Source A is valuable because it was written by [person/role] who had direct experience of [event].
 > This means it provides a [first-hand/contemporary] perspective on [specific detail]. However, it
-> is limited because [reason — e.g. It reflects a particular political bias, it was written after >
+> is limited because [reason, e.g. It reflects a particular political bias, it was written after >
 >
 > > the event, it only represents one viewpoint].
 
@@ -379,7 +379,7 @@ Your response:
 3. **Conclusion:** Summarise your judgement, referencing the overall weight of evidence.
 
 **Exam tip:** Do not summarise each source in turn. The highest marks go to responses that
-**synthesise** — drawing connections, identifying patterns of agreement and disagreement, and using
+**synthesise**, drawing connections, identifying patterns of agreement and disagreement, and using
 Own knowledge to fill gaps.
 
 ---
@@ -415,7 +415,7 @@ A strong Paper 2 essay follows this structure:
 **Introduction (3-4 sentences):**
 
 - Brief context (1 sentence).
-- Direct answer to the question — your thesis (1-2 sentences).
+- Direct answer to the question, your thesis (1-2 sentences).
 - Outline of your argument (1 sentence).
 
 **Body paragraphs (4-5 paragraphs):**
@@ -423,7 +423,7 @@ A strong Paper 2 essay follows this structure:
 - Each paragraph addresses **one factor** or **one aspect** of the argument.
 - **Topic sentence** links back to the question.
 - **Specific evidence:** dates, names, events, statistics, quotations.
-- **Analysis:** Explain how the evidence supports your argument. Do not just describe — analyse
+- **Analysis:** Explain how the evidence supports your argument. Do not just describe, analyse
   significance, causation, or consequence.
 - **Counter-argument:** Acknowledge alternative viewpoints before reinforcing your position.
 
@@ -435,13 +435,13 @@ A strong Paper 2 essay follows this structure:
 
 ### Common Paper 2 Question Types
 
-- **"To what extent..."** — Requires a balanced argument weighing multiple factors before reaching a
+- **"To what extent..."**, Requires a balanced argument weighing multiple factors before reaching a
   judgement.
-- **"Analyse the causes of..."** — Distinguish between long-term and short-term causes; categorise
+- **"Analyse the causes of..."**, Distinguish between long-term and short-term causes; categorise
   by type (political, economic, social, ideological).
-- **"Compare and contrast..."** — Identify both similarities and differences; explain _why_ they
+- **"Compare and contrast..."**, Identify both similarities and differences; explain _why_ they
   exist.
-- **"Assess the significance of..."** — Evaluate the impact using criteria such as scale, duration,
+- **"Assess the significance of..."**, Evaluate the impact using criteria such as scale, duration,
   and turning-point status.
 
 ---
@@ -505,11 +505,11 @@ Research project of up to 2,200 words.
 
 A good research question:
 
-- Is **specific and focused** — not too broad ("What caused WWII?") but not too narrow ("What colour
+- Is **specific and focused**, not too broad ("What caused WWII?") but not too narrow ("What colour
   uniform did soldiers wear at X battle?").
-- Allows for **debate and analysis** — not a simple yes/no question.
-- Is **manageable** within the word limit — you can address it adequately in 1,500 words.
-- Has **accessible sources** — ensure sufficient primary and secondary sources are available.
+- Allows for **debate and analysis**, not a simple yes/no question.
+- Is **manageable** within the word limit, you can address it adequately in 1,500 words.
+- Has **accessible sources**, ensure sufficient primary and secondary sources are available.
 
 **Examples of good research questions:**
 
@@ -523,9 +523,9 @@ A good research question:
 When evaluating sources, go beyond surface-level observations. Consider:
 
 - **Who** wrote it? What was their position, nationality, political alignment?
-- **When** was it written? Proximity to events matters — but so does hindsight.
+- **When** was it written? Proximity to events matters, but so does hindsight.
 - **Why** was it written? Official documents serve different purposes than personal memoirs.
-- **What** does it say — and what does it **not** say? Silences and omissions are as significant as
+- **What** does it say, and what does it **not** say? Silences and omissions are as significant as
   explicit statements.
 
 ---
@@ -548,7 +548,7 @@ Essays.
 
 - **Intentionalists** argue that historical outcomes result from the deliberate decisions and
   intentions of individuals (e.g. Hitler's intentions were the primary cause of the Holocaust).
-- **Structuralists** argue that historical outcomes result from broader structural forces — economic
+- **Structuralists** argue that historical outcomes result from broader structural forces, economic
   conditions, institutional pressures, social movements (e.g. The Holocaust was the product of
   bureaucratic momentum and wartime conditions, not a pre-existing plan).
 
@@ -563,7 +563,7 @@ Essays.
 - Revisionist historians challenge established or orthodox interpretations of events.
 - Often emerge when new evidence becomes available (e.g. The opening of Soviet archives after 1991
   reshaped Cold War historiography).
-- Revisionism is not inherently "correct" — it represents a departure from the dominant narrative.
+- Revisionism is not inherently "correct", it represents a departure from the dominant narrative.
 
 ### Post-Revisionism
 

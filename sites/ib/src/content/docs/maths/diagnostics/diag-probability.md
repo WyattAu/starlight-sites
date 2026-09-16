@@ -15,11 +15,11 @@ tableOfContents: false
 }
 </script>
 
-## Probability — Diagnostic Tests
+## Probability, Diagnostic Tests
 
 ## Intuition
 
-**Probability is like a weather forecast for uncertainty — it quantifies how likely events are, from coin flips to complex systems:** Probability theory provides a rigorous framework for reasoning about uncertainty, turning vague intuition into precise calculation
+**Probability is like a weather forecast for uncertainty, it quantifies how likely events are, from coin flips to complex systems:** Probability theory provides a rigorous framework for reasoning about uncertainty, turning vague intuition into precise calculation
 
 **Why it matters:** From gambling odds to medical diagnoses to climate models, probability governs how we make decisions under uncertainty
 
@@ -61,7 +61,7 @@ verifying it. In fact:
 
 $$P(A \cap B) = \frac{5}{14} \neq \frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$$
 
-So $A$ and $B$ are **not** independent. The fact that $P(B) = P(A)$ is coincidental — it does not
+So $A$ and $B$ are **not** independent. The fact that $P(B) = P(A)$ is coincidental, it does not
 imply independence. The correct test for independence is $P(A \cap B) = P(A)P(B)$Not
 $P(B|A) = P(B)$.
 

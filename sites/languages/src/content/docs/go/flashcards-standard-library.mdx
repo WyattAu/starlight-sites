@@ -15,7 +15,7 @@ import { flashcardData } from '@/data/flashcards/go/flashcards-standard-library-
 
 ## Go Standard Library Flashcards
 
-25 flashcards covering key packages in the Go standard library — fmt, strings, io, net/http,
+25 flashcards covering key packages in the Go standard library, fmt, strings, io, net/http,
 encoding/json, and os.
 
 ---
@@ -36,13 +36,13 @@ encoding/json, and os.
 
 ## Intuition
 
-Go's standard library is remarkably complete — `fmt` handles formatted I/O, `strings` provides text manipulation, `io` defines the foundational `Reader`/`Writer` interfaces that compose like Unix pipes, `net/http` offers a production-ready HTTP server and client, `encoding/json` handles JSON marshalling/unmarshalling, and `os` interacts with the operating system. The key philosophy: small, composable interfaces that snap together. Go's standard library is intentionally minimal — it provides the building blocks, not the entire framework.
+Go's standard library is remarkably complete, `fmt` handles formatted I/O, `strings` provides text manipulation, `io` defines the foundational `Reader`/`Writer` interfaces that compose like Unix pipes, `net/http` offers a production-ready HTTP server and client, `encoding/json` handles JSON marshalling/unmarshalling, and `os` interacts with the operating system. The key philosophy: small, composable interfaces that snap together. Go's standard library is intentionally minimal, it provides the building blocks, not the entire framework.
 
 ## Common Pitfalls
 
-- **Goroutine leaks**: Starting goroutines without a cancellation mechanism (context or done channel) — they run forever, consuming memory. Always use `context.Context` for cancellation.
-- **Map concurrency**: Maps in Go are not safe for concurrent read/write — using them from multiple goroutines without a mutex causes a runtime panic. Use `sync.Map` or wrap with `sync.RWMutex`.
-- **Defer evaluation timing**: `defer` arguments are evaluated when the `defer` statement executes, not when the deferred function runs — this often surprises developers with pointer semantics.
+- **Goroutine leaks**: Starting goroutines without a cancellation mechanism (context or done channel), they run forever, consuming memory. Always use `context.Context` for cancellation.
+- **Map concurrency**: Maps in Go are not safe for concurrent read/write, using them from multiple goroutines without a mutex causes a runtime panic. Use `sync.Map` or wrap with `sync.RWMutex`.
+- **Defer evaluation timing**: `defer` arguments are evaluated when the `defer` statement executes, not when the deferred function runs, this often surprises developers with pointer semantics.
 - **Error wrapping**: `fmt.Errorf("context: %w", err)` wraps errors; `%v` does not. Unwrapping with `errors.Is` and `errors.As` requires `%w`.
 - **String vs []byte**: `string` is immutable; `[]byte` is mutable. Converting between them copies data. `unsafe.Pointer` can avoid copying but is unsafe.
 

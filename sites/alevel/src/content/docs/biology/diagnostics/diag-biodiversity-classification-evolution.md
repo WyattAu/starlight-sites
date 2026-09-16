@@ -28,9 +28,9 @@ flowchart TD
 
 ## Intuition
 
-**Evolution is like a family tree that stretches back millions of years — branching, adapting, and sometimes going extinct.**
+**Evolution is like a family tree that stretches back millions of years, branching, adapting, and sometimes going extinct.**
 
-## Biodiversity, Classification and Evolution — Diagnostic Tests
+## Biodiversity, Classification and Evolution, Diagnostic Tests
 
 ## Unit Tests
 
@@ -81,7 +81,7 @@ Expected number of heterozygous moths: $$0.42 \times 500 = 210$$
 (d) The change in allele frequency ($b$ decreasing from 0.30 to 0.20) is **not consistent with
 Hardy-Weinberg equilibrium**, which predicts that allele frequencies remain constant from generation
 to generation in the absence of evolutionary forces. A possible mechanism for this change is
-**natural selection** — if dark moths ($BB$ or $Bb$) have a selective advantage over light moths
+**natural selection**, if dark moths ($BB$ or $Bb$) have a selective advantage over light moths
 ($bb$) in the environment (e.g., better camouflage against dark tree bark, making them less visible
 to predators), then the $B$ allele would increase in frequency and the $b$ allele would decrease.
 Other possible mechanisms include **genetic drift** (if the population is small), **gene flow**
@@ -99,7 +99,7 @@ preferentially mate with other dark moths).
 }
 </script>
 
-### UT-2: Speciation — Allopatric vs Sympatric
+### UT-2: Speciation, Allopatric vs Sympatric
 
 **Question:**
 
@@ -124,7 +124,7 @@ barrier (e.g., mountain range, river, ocean), preventing gene flow between them.
 evolve independently and accumulate genetic differences until they can no longer interbreed to
 produce fertile offspring.
 
-**Sympatric speciation** occurs without geographical separation — populations within the same
+**Sympatric speciation** occurs without geographical separation, populations within the same
 geographic area become reproductively isolated and diverge into separate species. This is rarer and
 involves mechanisms such as polyploidy (in plants), behavioural isolation, ecological niche
 specialisation, or sexual selection.
@@ -155,12 +155,12 @@ conditions, different selection pressures, and different mutations. Over many ge
 selection favours different alleles in each population, and genetic drift causes random changes in
 allele frequencies. Mutations that arise in one population do not spread to the other. Eventually,
 the populations diverge so much genetically that if they were brought back together, they would not
-be able to interbreed to produce fertile offspring — they have become separate species. The key
+be able to interbreed to produce fertile offspring, they have become separate species. The key
 point is that **geographical isolation leads to reproductive isolation** as a consequence of
 independent evolution.
 
 (d) **Polyploidy** is a condition in which an organism has more than two complete sets of
-chromosomes (e.g., tetraploid — 4n). Polyploidy can arise from errors in meiosis (e.g., failure of
+chromosomes (e.g., tetraploid, 4n). Polyploidy can arise from errors in meiosis (e.g., failure of
 chromosomes to separate during anaphase, producing diploid gametes instead of haploid gametes). If a
 diploid gamete fuses with a normal haploid gamete, the resulting offspring is triploid (3n), which
 is sterile. However, if two diploid gametes fuse, the offspring is tetraploid (4n) and may be
@@ -215,7 +215,7 @@ why morphological classification alone can be misleading.
 $\rightarrow$ Phylum $\rightarrow$ Class $\rightarrow$ Order $\rightarrow$ Family $\rightarrow$
 Genus $\rightarrow$ Species**
 
-A standardised system (binomial nomenclature — two-part Latin name: genus + species, e.g., _Homo
+A standardised system (binomial nomenclature, two-part Latin name: genus + species, e.g., _Homo
 sapiens_) is used because: (1) it provides a universal language that all scientists worldwide can
 understand, avoiding confusion caused by common names that vary between languages and regions; (2)
 it allows clear and unambiguous communication about organisms; (3) it reflects evolutionary
@@ -244,7 +244,7 @@ genes to estimate the time since two species diverged from a common ancestor.
 
 **Amino acid sequence comparison**: Similarly, the sequence of amino acids in a protein (e.g.,
 cytochrome c, haemoglobin) can be compared between species. Because the amino acid sequence is
-determined by the DNA sequence (via transcription and translation), the same principle applies —
+determined by the DNA sequence (via transcription and translation), the same principle applies,
 more similar amino acid sequences indicate closer evolutionary relationships. Protein comparison has
 the advantage that some proteins (e.g., cytochrome c) are highly conserved across many species,
 allowing comparisons across very distantly related organisms.
@@ -252,7 +252,7 @@ allowing comparisons across very distantly related organisms.
 (d) If two insect species are morphologically identical but have significantly different DNA
 sequences in a conserved gene (a gene that changes very slowly over evolutionary time), this
 suggests that they are **not closely related** despite their similar appearance. They likely evolved
-similar morphologies independently through **convergent evolution** — similar environmental
+similar morphologies independently through **convergent evolution**, similar environmental
 pressures led to the evolution of similar adaptations (analogous structures) in unrelated lineages.
 This demonstrates why morphological classification alone can be misleading: similar appearances can
 result from convergent evolution rather than shared ancestry (homology). Molecular evidence (DNA and
@@ -339,10 +339,10 @@ HGT. The unnecessary use of antibiotics is one of the strongest drivers of resis
 
 (d) According to the Hardy-Weinberg principle, allele frequencies remain constant in the absence of
 evolutionary forces. In the absence of antibiotics, the resistance gene may carry a **metabolic
-cost** — the bacteria must expend energy to produce the resistance mechanism (e.g., an altered
+cost**, the bacteria must expend energy to produce the resistance mechanism (e.g., an altered
 penicillin-binding protein encoded by **mecA**) that provides no benefit without the antibiotic.
 This means resistant bacteria are at a slight selective **disadvantage** compared to susceptible
-bacteria — they grow more slowly or are outcompeted. Natural selection will therefore **decrease**
+bacteria, they grow more slowly or are outcompeted. Natural selection will therefore **decrease**
 the frequency of the resistance gene in the population (susceptible bacteria have higher fitness
 without the antibiotic). In Hardy-Weinberg terms, the resistance allele has a lower fitness
 coefficient, and selection acts against it, reducing its frequency until it may be lost from the
@@ -415,15 +415,15 @@ similarity between species, and state which method provides more detailed inform
 Likely evolutionary tree (branching pattern, closest to most distant):
 
 ```
-Human --- D (0 differences — possibly same species or extremely close relative)
+Human --- D (0 differences, possibly same species or extremely close relative)
   |
-  |-- A (2 differences — very close)
+  |-- A (2 differences, very close)
   |
-  |-- B (5 differences — moderately close)
+  |-- B (5 differences, moderately close)
   |
-  |-- C (12 differences — more distant)
+  |-- C (12 differences, more distant)
   |
-  |-- E (25 differences — most distant)
+  |-- E (25 differences, most distant)
 ```
 
 Species D is most closely related to humans (identical sequence), followed by A, then B, C, and E.
@@ -439,7 +439,7 @@ determinants) on human cytochrome c. When these antibodies are mixed with serum 
 species, they will bind to that species" cytochrome c **if and only if** it has similar epitopes. A
 **stronger antibody-antigen reaction** (more precipitate formed, stronger agglutination, or stronger
 signal in an ELISA) indicates greater similarity between the two cytochrome c proteins, because more
-antibodies are able to bind. Greater protein similarity indicates closer evolutionary relationship —
+antibodies are able to bind. Greater protein similarity indicates closer evolutionary relationship,
 the two species shared a more recent common ancestor, so their cytochrome c has had less time to
 accumulate mutational differences.
 
@@ -489,8 +489,8 @@ index rather than counting the number of species.
 (c) The following data were collected using quadrats in each reserve:
 
 Reserve X: Species A (50 individuals), Species B (30), Species C (10), Species D (5), Species E (5)
-— 100 individuals total, 5 species. Reserve Y: Species F (20), Species G (20), Species H (20),
-Species I (20), Species J (20) — 100 individuals total, 5 species.
+- 100 individuals total, 5 species. Reserve Y: Species F (20), Species G (20), Species H (20),
+Species I (20), Species J (20), 100 individuals total, 5 species.
 
 Calculate Simpson's Diversity Index ($D$) for each reserve using
 $D = 1 - \sum\left(\frac{n}{N}\right)^2$ and determine which reserve has higher biodiversity.
@@ -501,19 +501,19 @@ describe how **inbreeding** can threaten the survival of small, isolated populat
 **Solution:**
 
 (a) **Species richness** is the number of different species present in a habitat (a simple count).
-**Species evenness** is a measure of how evenly individuals are distributed among the species —
+**Species evenness** is a measure of how evenly individuals are distributed among the species,
 whether the community is dominated by one or a few species, or whether all species have similar
 abundances.
 
 Both are needed because two habitats can have the same species richness but very different
 biodiversity. For example, a habitat with 5 species where one species makes up 95% of individuals
 has lower biodiversity than a habitat with 5 species where each makes up approximately 20%. Species
-richness alone does not capture this difference — evenness provides the additional information
+richness alone does not capture this difference, evenness provides the additional information
 needed.
 
 (b) **Simpson's Diversity Index**: $D = 1 - \sum\left(\frac{n}{N}\right)^2$Where $n$ is the number
 of individuals of a particular species and $N$ is the total number of individuals of all species.
-$D$ ranges from 0 (no diversity — only one species present) to approaching 1 (maximum diversity —
+$D$ ranges from 0 (no diversity, only one species present) to approaching 1 (maximum diversity,
 many species, all equally abundant).
 
 The advantage of using an index rather than counting species (species richness) is that the index

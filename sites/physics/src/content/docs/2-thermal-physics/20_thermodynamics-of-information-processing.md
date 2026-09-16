@@ -101,7 +101,7 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Common Pitfalls
 
-1. **Landauer's bound is a lower bound, not an operating point:** Real devices dissipate 5--6 orders of magnitude more than $k_B T \ln 2$. The bound applies only to logically irreversible operations — reversible operations can in principle dissipate arbitrarily little.
+1. **Landauer's bound is a lower bound, not an operating point:** Real devices dissipate 5--6 orders of magnitude more than $k_B T \ln 2$. The bound applies only to logically irreversible operations, reversible operations can in principle dissipate arbitrarily little.
 2. **Information is not physical, but its representation is:** The Shannon entropy of a message has no physical units until it is encoded in a physical system (spins, charges, photons). The thermodynamic cost is tied to the physical representation, not the abstract information.
 3. **Measurement requires energy dissipation:** Acquiring information about a system requires interaction, which disturbs the system. The minimum energy cost of a measurement is related to the distinguishability of the measured states.
 4. **Maxwell's demon does not violate the second law:** The demon's memory must be reset, and this erasure exactly compensates the apparent entropy decrease of the gas. The total entropy of the universe never decreases.
@@ -118,7 +118,7 @@ The Landauer limit is $\ln 2 \approx 0.693\,k_B T$. The flip-flop operates $\sim
 
 ### Connections to Other Topics
 
-- **Statistical mechanics:** The Gibbs paradox resolves when identical particle distinguishability is accounted for — information about which particle is which is not physical for identical quantum particles.
+- **Statistical mechanics:** The Gibbs paradox resolves when identical particle distinguishability is accounted for, information about which particle is which is not physical for identical quantum particles.
 - **Quantum information:** The Landauer bound extends to quantum systems: erasing a qubit costs at least $k_B T \ln 2$, but quantum superposition allows some computations to be more efficient per bit erased.
 - **Biology:** Molecular machines operate in the presence of thermal noise. The minimum energy required to maintain a nonequilibrium steady state (e.g., a concentration gradient) is set by information-theoretic bounds.
 - **Computer architecture:** The gap between Landauer's limit and CMOS practice motivates research into reversible computing, adiabatic logic, and neuromorphic architectures that approach the thermodynamic limit.

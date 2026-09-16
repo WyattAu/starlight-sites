@@ -1,5 +1,5 @@
 ---
-title: "Professional Certification Glossary — IT Terms"
+title: "Professional Certification Glossary, IT Terms"
 description: "Comprehensive glossary of professional IT certification terms covering AWS, CompTIA, Cisco, Microsoft, and cloud computing certifications."
 date: 2026-07-24
 tags: [glossary]

@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Chemical Bonding — Diagnostic Tests
+## Chemical Bonding, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Chemical bonds are like handshakes — atoms share or transfer electrons to form stable partnerships:** Bond type (ionic, covalent, metallic) determines physical properties like melting point, conductivity, and solubility
+**Chemical bonds are like handshakes, atoms share or transfer electrons to form stable partnerships:** Bond type (ionic, covalent, metallic) determines physical properties like melting point, conductivity, and solubility
 
 **Why it matters:** Chemical bonding explains why substances have the properties they do and how new materials can be designed
 

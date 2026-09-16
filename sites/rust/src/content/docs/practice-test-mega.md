@@ -1,5 +1,5 @@
 ---
-title: "Rust Programming Practice Test — 30 Problems"
+title: "Rust Programming Practice Test, 30 Problems"
 description: "30 Rust programming problems covering Ownership, Lifetimes, Traits, Async, and Error Handling. Code analysis and debugging with detailed explanations."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## Rust Programming Practice Test — 30 Problems
+## Rust Programming Practice Test, 30 Problems
 
 This practice test covers 30 problems across five major domains of Rust programming: Ownership and Borrowing, Lifetimes, Traits and Generics, Async Programming, and Error Handling. Each problem tests code analysis, debugging, and understanding of Rust's safety guarantees. Work through all problems before checking the answer key.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Code analysis and debugging — trace the output, identify errors, or select the correct implementation
+- **Format:** Code analysis and debugging, trace the output, identify errors, or select the correct implementation
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Trace code by hand.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any problems you got wrong.
@@ -47,7 +47,7 @@ This practice test covers 30 problems across five major domains of Rust programm
 
 ## Ownership and Borrowing (P1–P7)
 
-### P1 — Move Semantics
+### P1, Move Semantics
 
 What is the output of the following code?
 
@@ -62,7 +62,7 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `hello hello` |
-| B | Compiler error — value used after move |
+| B | Compiler error, value used after move |
 | C | Runtime error |
 | D | `hello` |
 | E | Undefined behaviour |
@@ -71,11 +71,11 @@ fn main() {
 
 `let s2 = s1` moves the `String` from `s1` to `s2`. After the move, `s1` is no longer valid. The `println!` tries to use `s1`, which has been moved. Rust's borrow checker catches this at compile time: "value used here after move".
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P2 — Copy Types
+### P2, Copy Types
 
 What is the output?
 
@@ -90,7 +90,7 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `5 5` |
-| B | Compiler error — value used after move |
+| B | Compiler error, value used after move |
 | C | Runtime error |
 | D | `5` |
 | E | Undefined behaviour |
@@ -99,11 +99,11 @@ fn main() {
 
 `i32` implements `Copy`, so `let y = x` copies the value rather than moving it. Both `x` and `y` are valid after the assignment. `Copy` types are bitwise-copied and always remain valid after assignment.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P3 — Mutable References
+### P3, Mutable References
 
 What is the output?
 
@@ -132,11 +132,11 @@ fn main() {
 
 `val` starts at 10. `add_one` takes a mutable reference and increments the value. First call: `val` becomes 11. Second call: `val` becomes 12. Mutable references allow modifying the borrowed value through dereferencing.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P4 — Borrowing Rules Violation
+### P4, Borrowing Rules Violation
 
 What is the output?
 
@@ -156,19 +156,19 @@ fn main() {
 | --- | --- |
 | A | `hello hello hello world` |
 | B | `hello hello world` |
-| C | Compiler error — cannot borrow as mutable while immutable references exist |
+| C | Compiler error, cannot borrow as mutable while immutable references exist |
 | D | Runtime panic |
 | E | `hello world` |
 
 **Correct: B** (index 1)
 
-The immutable references `r1` and `r2` are used in the first `println!` and then go out of scope (NLL — non-lexical lifetimes). After that, `r3` can take a mutable borrow. The first print outputs "hello hello", the second outputs "hello world". The borrow checker is satisfied because `r1` and `r2` are no longer used when `r3` is created.
+The immutable references `r1` and `r2` are used in the first `println!` and then go out of scope (NLL, non-lexical lifetimes). After that, `r3` can take a mutable borrow. The first print outputs "hello hello", the second outputs "hello world". The borrow checker is satisfied because `r1` and `r2` are no longer used when `r3` is created.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P5 — String Slices
+### P5, String Slices
 
 What is the output?
 
@@ -202,11 +202,11 @@ fn main() {
 
 `first_word` takes a string slice (`&str`) and finds the first space. It returns a slice from the start to the space index. "hello world" has a space at index 5, so it returns `&sentence[0..5]` which is "hello". String slices are references to a portion of a string's data.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P6 — Self-referential Structs
+### P6, Self-referential Structs
 
 Why can you not store a reference to a field within the same struct?
 
@@ -222,11 +222,11 @@ Why can you not store a reference to a field within the same struct?
 
 If a struct contained a reference to one of its own fields, moving the struct would invalidate the reference (the field's address changes). The borrow checker prevents this by refusing self-referential structs. Solutions include using `Box`, `Rc`, `Pin`, or splitting into separate allocations.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — Clone and Ownership
+### P7, Clone and Ownership
 
 What is the output?
 
@@ -242,22 +242,22 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `hello hello hello` |
-| B | Compiler error — `s1` used after move |
+| B | Compiler error, `s1` used after move |
 | C | `hello` |
 | D | Runtime error |
 | E | `hello hello` |
 
 **Correct: B** (index 1)
 
-`clone()` creates a deep copy — `s2` gets its own independent `String`. However, `let s3 = s1` still moves `s1`. After the move, `s1` is invalid. The `println!` fails because `s1` has been moved into `s3`.
+`clone()` creates a deep copy, `s2` gets its own independent `String`. However, `let s3 = s1` still moves `s1`. After the move, `s1` is invalid. The `println!` fails because `s1` has been moved into `s3`.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Lifetimes (P8–P12)
 
-### P8 — Lifetime Elision
+### P8, Lifetime Elision
 
 What is the lifetime of the return value in this function?
 
@@ -279,11 +279,11 @@ fn first_char(s: &str) -> &str {
 
 Lifetime elision rules apply: when there is exactly one input reference, its lifetime is assigned to all output references. The compiler treats this as `fn first_char<'a>(s: &'a str) -> &'a str`. The return value lives as long as the input.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P9 — Explicit Lifetime Annotations
+### P9, Explicit Lifetime Annotations
 
 What is the output?
 
@@ -307,19 +307,19 @@ fn main() {
 | --- | --- |
 | A | `long string` |
 | B | `hi` |
-| C | Compiler error — `s2` does not live long enough |
+| C | Compiler error, `s2` does not live long enough |
 | D | Runtime error |
 | E | `long string hi` |
 
 **Correct: C** (index 2)
 
-The lifetime `'a` is constrained to the shorter of the two input lifetimes. `s2` lives only in the inner block, so `'a` is the inner block's lifetime. `result` is assigned in the inner block but used after it ends — `result` outlives `'a`. The borrow checker rejects this.
+The lifetime `'a` is constrained to the shorter of the two input lifetimes. `s2` lives only in the inner block, so `'a` is the inner block's lifetime. `result` is assigned in the inner block but used after it ends, `result` outlives `'a`. The borrow checker rejects this.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P10 — 'static Lifetime
+### P10, 'static Lifetime
 
 Which statement about `'static` is correct?
 
@@ -333,13 +333,13 @@ Which statement about `'static` is correct?
 
 **Correct: A** (index 0)
 
-`'static` means the reference is valid for the entire program duration. String literals (`"hello"`) have `'static` lifetimes because they are embedded in the binary. Trait objects can have `'static` bounds. Do not use `'static` to silence lifetime errors — it indicates the data truly lives forever.
+`'static` means the reference is valid for the entire program duration. String literals (`"hello"`) have `'static` lifetimes because they are embedded in the binary. Trait objects can have `'static` bounds. Do not use `'static` to silence lifetime errors, it indicates the data truly lives forever.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P11 — Lifetime in Structs
+### P11, Lifetime in Structs
 
 What is the output?
 
@@ -362,7 +362,7 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `Call me Ishmael. Some years ago...` |
-| B | Compiler error — `excerpt` does not live long enough |
+| B | Compiler error, `excerpt` does not live long enough |
 | C | Runtime error |
 | D | `excerpt` |
 | E | Empty string |
@@ -371,11 +371,11 @@ fn main() {
 
 `Excerpt` borrows `novel` with lifetime `'a`. The `excerpt` struct is created and its `text` field is copied into `first_sentence` (a `&str` reference). `excerpt` is dropped at the end of the inner block, but `first_sentence` still references `novel`, which lives long enough. The borrow checker allows this because `first_sentence` borrows from `novel` directly.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P12 — Higher-Ranked Trait Bounds
+### P12, Higher-Ranked Trait Bounds
 
 What does `for<'a> Fn(&'a str) -> &'a str` mean?
 
@@ -389,15 +389,15 @@ What does `for<'a> Fn(&'a str) -> &'a str` mean?
 
 **Correct: B** (index 1)
 
-Higher-ranked trait bounds (`for<'a>`) mean the function must work for all possible lifetimes, not just one specific one. This is used when passing closures that borrow references — the closure must be valid regardless of the input reference's lifetime. It is Rust's way of expressing "for any lifetime you give me, I can handle it."
+Higher-ranked trait bounds (`for<'a>`) mean the function must work for all possible lifetimes, not just one specific one. This is used when passing closures that borrow references, the closure must be valid regardless of the input reference's lifetime. It is Rust's way of expressing "for any lifetime you give me, I can handle it."
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Traits and Generics (P13–P19)
 
-### P13 — Trait Bounds
+### P13, Trait Bounds
 
 What is the output?
 
@@ -418,7 +418,7 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `42 hello 3.14` |
-| B | Compiler error — `Display` not implemented |
+| B | Compiler error, `Display` not implemented |
 | C | `42` |
 | D | Runtime error |
 | E | `hello` |
@@ -427,11 +427,11 @@ fn main() {
 
 The generic function `print_it` accepts any type `T` that implements `Display`. `i32`, `&str`, and `f64` all implement `Display`. The compiler generates specialised code for each concrete type. All three calls print their argument.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P14 — Default Methods
+### P14, Default Methods
 
 What is the output?
 
@@ -468,11 +468,11 @@ fn main() {
 
 `Greet` provides a default `greet` method returning "Hello!". `User` overrides it to return a personalised greeting. The `impl Greet for User` block provides a custom implementation, so calling `u.greet()` uses the override, not the default.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P15 — Trait Objects vs Generics
+### P15, Trait Objects vs Generics
 
 What is the key difference between `dyn Trait` and generic `T: Trait`?
 
@@ -486,13 +486,13 @@ What is the key difference between `dyn Trait` and generic `T: Trait`?
 
 **Correct: C** (index 2)
 
-Generics are monomorphized — the compiler generates type-specific code at compile time, producing zero-overhead abstractions. Trait objects (`dyn Trait`) use dynamic dispatch via a vtable — the method to call is determined at runtime, adding a small overhead. Trait objects enable heterogeneous collections; generics do not.
+Generics are monomorphized, the compiler generates type-specific code at compile time, producing zero-overhead abstractions. Trait objects (`dyn Trait`) use dynamic dispatch via a vtable, the method to call is determined at runtime, adding a small overhead. Trait objects enable heterogeneous collections; generics do not.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P16 — Associated Types
+### P16, Associated Types
 
 What is the output?
 
@@ -529,11 +529,11 @@ fn main() {
 
 Associated types define a type relationship: `Container` has an `Item` type. `Wrapper` specifies `Item = i32`. The `get` method returns `&i32`, which is `&self.0` = `&42`. The macro `println!("{}", ...)` dereferences and prints `42`.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P17 — Blanket Implementations
+### P17, Blanket Implementations
 
 Which statement about blanket implementations is correct?
 
@@ -547,13 +547,13 @@ Which statement about blanket implementations is correct?
 
 **Correct: B** (index 1)
 
-A blanket implementation provides a trait for all types that meet certain criteria: `impl<T: Display> ToString for T { ... }`. This gives every `Display` type a `to_string()` method. Blanket implementations cannot be overridden — they apply globally.
+A blanket implementation provides a trait for all types that meet certain criteria: `impl<T: Display> ToString for T { ... }`. This gives every `Display` type a `to_string()` method. Blanket implementations cannot be overridden, they apply globally.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P18 — Orphan Rule
+### P18, Orphan Rule
 
 Why does Rust enforce the orphan rule?
 
@@ -567,13 +567,13 @@ Why does Rust enforce the orphan rule?
 
 **Correct: B** (index 1)
 
-The orphan rule states: you can implement a trait for a type only if either the trait or the type is defined in the current crate. This prevents conflicting implementations — without it, two crates could implement the same trait for the same type differently, creating ambiguity.
+The orphan rule states: you can implement a trait for a type only if either the trait or the type is defined in the current crate. This prevents conflicting implementations, without it, two crates could implement the same trait for the same type differently, creating ambiguity.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P19 — PhantomData
+### P19, PhantomData
 
 What is `PhantomData` used for?
 
@@ -589,13 +589,13 @@ What is `PhantomData` used for?
 
 `PhantomData<T>` tells the compiler that the type logically "owns" or "uses" a `T`, even though it contains no `T` data. It is used for variance annotations, drop check, and lifetime enforcement. It has zero size at runtime.
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
 ## Async Programming (P20–P24)
 
-### P20 — Async/Await Basics
+### P20, Async/Await Basics
 
 What is the output?
 
@@ -614,7 +614,7 @@ async fn main() {
 | # | Option |
 | --- | --- |
 | A | `hello` |
-| B | Nothing — the future is never polled |
+| B | Nothing, the future is never polled |
 | C | Compiler error |
 | D | Runtime panic |
 | E | `Future { output: String }` |
@@ -623,11 +623,11 @@ async fn main() {
 
 `hello()` returns a future. `.await` drives the future to completion, running it on the Tokio runtime. The future returns `String::from("hello")`. `result` is `String::from("hello")`, which is printed.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P21 — Future Laziness
+### P21, Future Laziness
 
 What happens when you call an async function without `.await`?
 
@@ -645,20 +645,20 @@ fn main() {
 | # | Option |
 | --- | --- |
 | A | `working` is printed and 42 is returned |
-| B | Nothing happens — the future is created but never polled |
-| C | Compiler error — must await async functions |
+| B | Nothing happens, the future is created but never polled |
+| C | Compiler error, must await async functions |
 | D | Runtime error |
 | E | `working` is printed but nothing is returned |
 
 **Correct: B** (index 1)
 
-Async functions are lazy — calling `do_work()` creates a future but does not execute the body. The future must be `.await`ed or explicitly polled to run. The compiler allows this (the future is dropped immediately), and "working" is never printed.
+Async functions are lazy, calling `do_work()` creates a future but does not execute the body. The future must be `.await`ed or explicitly polled to run. The compiler allows this (the future is dropped immediately), and "working" is never printed.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P22 — tokio::spawn
+### P22, tokio::spawn
 
 What is the output?
 
@@ -680,7 +680,7 @@ async fn main() {
 | # | Option |
 | --- | --- |
 | A | `task done` |
-| B | Nothing — the task runs in the background and is never joined |
+| B | Nothing, the task runs in the background and is never joined |
 | C | Compiler error |
 | D | Runtime panic |
 | E | `handle` |
@@ -689,11 +689,11 @@ async fn main() {
 
 `tokio::spawn` launches an async task on the runtime. `handle.await` waits for the task to complete and returns its result. The task sleeps 10ms, then returns "task done". `unwrap()` extracts the value from the `Result`. The output is "task done".
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P23 — Select Macro
+### P23, Select Macro
 
 What does `tokio::select!` do?
 
@@ -709,11 +709,11 @@ What does `tokio::select!` do?
 
 `tokio::select!` concurrently polls multiple futures. When the first future completes, its branch executes and the other futures are dropped. This is useful for implementing timeouts, cancellation, or handling whichever of several events happens first.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P24 — Send and Sync Traits
+### P24, Send and Sync Traits
 
 Which statement about `Send` and `Sync` is correct?
 
@@ -727,15 +727,15 @@ Which statement about `Send` and `Sync` is correct?
 
 **Correct: C** (index 2)
 
-`Send` means `T` can be transferred to another thread (all fields are also `Send`). `Sync` means `&T` can be shared between threads (all fields are also `Sync`). Types like `Rc` are neither `Send` nor `Sync` (not thread-safe). `Arc` is both. These are marker traits — they have no methods.
+`Send` means `T` can be transferred to another thread (all fields are also `Send`). `Sync` means `&T` can be shared between threads (all fields are also `Sync`). Types like `Rc` are neither `Send` nor `Sync` (not thread-safe). `Arc` is both. These are marker traits, they have no methods.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Error Handling (P25–P30)
 
-### P25 — Result and the ? Operator
+### P25, Result and the ? Operator
 
 What is the output?
 
@@ -767,11 +767,11 @@ fn main() {
 
 `?` propagates the error if `read_to_string` fails. Since "nonexistent.txt" does not exist, `read_to_string` returns `Err(io::Error)`. The `?` operator returns early with that error. The `match` in `main` hits the `Err` arm, printing the error message.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P26 — Option and Pattern Matching
+### P26, Option and Pattern Matching
 
 What is the output?
 
@@ -801,11 +801,11 @@ fn main() {
 
 `find` returns `Some(&n)` for the first element satisfying the predicate. The first even number is 4. `Some(4)` matches the `Some` arm, printing "found: 4".
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P27 — Unwrap vs Expect
+### P27, Unwrap vs Expect
 
 What is the difference between `unwrap()` and `expect()`?
 
@@ -821,11 +821,11 @@ What is the difference between `unwrap()` and `expect()`?
 
 Both panic on `Err` or `None`. `unwrap()` panics with "called `Result::unwrap()` on an `Err` value". `expect("msg")` panics with "msg: called `Result::unwrap()` on an `Err` value". Use `expect()` in production code to provide meaningful panic messages.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P28 — Custom Error Types
+### P28, Custom Error Types
 
 What is the idiomatic way to create a custom error type in Rust?
 
@@ -841,11 +841,11 @@ What is the idiomatic way to create a custom error type in Rust?
 
 Idiomatic Rust uses enums for error types. Each variant represents a different failure mode. The `thiserror` crate derives `std::error::Error`, `Display`, and `From` automatically. For application-level errors, `anyhow` provides a dynamic error type. Never use `panic!` for recoverable errors.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P29 — Error Conversion with From
+### P29, Error Conversion with From
 
 What does the `?` operator do with error types?
 
@@ -861,11 +861,11 @@ What does the `?` operator do with error types?
 
 When `?` encounters an error, it calls `From::from` to convert between error types. If a function returns `Result<T, MyError>` and an inner call returns `Result<T, io::Error>`, the `?` operator converts `io::Error` into `MyError` via the `From` impl. This enables clean error propagation across different error types.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P30 — Try-From and Fallible Conversions
+### P30, Try-From and Fallible Conversions
 
 What is the output?
 
@@ -908,7 +908,7 @@ fn main() {
 
 `TryFrom` defines fallible conversions. `Score::try_from(85)` succeeds (85 is in 0..=100), returning `Ok(Score { value: 85 })`. `Score::try_from(150)` fails (150 > 100), returning `Err("invalid score: 150")`. The `Debug` output shows both results.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
@@ -946,13 +946,13 @@ fn main() {
 
 ## Cross-References
 
-- **[Ownership and Borrowing](https://rust.wyattau.com/hub)** — Move semantics, references, and the borrow checker
-- **[Lifetimes](https://rust.wyattau.com/hub)** — Lifetime annotations, elision, and the `'static` lifetime
-- **[Traits and Generics](https://rust.wyattau.com/hub)** — Trait bounds, monomorphization, and trait objects
-- **[Error Handling](https://rust.wyattau.com/hub)** — Result, Option, and the `?` operator
-- **[Async Programming](https://rust.wyattau.com/hub)** — Futures, Tokio, and async patterns
-- **[Systems Programming](https://rust.wyattau.com/hub)** — Unsafe Rust, FFI, and memory layout
-- **[Computer Science](https://computer-science.wyattau.com/hub)** — Algorithms and data structures that apply to Rust
+- **[Ownership and Borrowing](https://rust.wyattau.com/hub)**, Move semantics, references, and the borrow checker
+- **[Lifetimes](https://rust.wyattau.com/hub)**, Lifetime annotations, elision, and the `'static` lifetime
+- **[Traits and Generics](https://rust.wyattau.com/hub)**, Trait bounds, monomorphization, and trait objects
+- **[Error Handling](https://rust.wyattau.com/hub)**, Result, Option, and the `?` operator
+- **[Async Programming](https://rust.wyattau.com/hub)**, Futures, Tokio, and async patterns
+- **[Systems Programming](https://rust.wyattau.com/hub)**, Unsafe Rust, FFI, and memory layout
+- **[Computer Science](https://computer-science.wyattau.com/hub)**, Algorithms and data structures that apply to Rust
 
 ---
 
@@ -961,8 +961,8 @@ fn main() {
 1. **Trace ownership by hand.** Follow each value through moves, borrows, and drops. The borrow checker is strict but predictable.
 2. **Know the lifetime rules.** Every reference has a lifetime. The compiler infers most; understand when annotations are needed.
 3. **Understand the "why".** Rust's design (ownership, lifetimes, no null) has clear rationale for preventing memory bugs at compile time.
-4. **Practise reading compiler errors.** Rust's error messages are exceptionally helpful — learn to extract the key information.
-5. **Retake after one week.** Ownership and lifetimes require rewiring your mental model — spaced repetition is essential.
+4. **Practise reading compiler errors.** Rust's error messages are exceptionally helpful, learn to extract the key information.
+5. **Retake after one week.** Ownership and lifetimes require rewiring your mental model, spaced repetition is essential.
 
 ---
 

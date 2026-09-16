@@ -29,7 +29,7 @@ flowchart TD
 
 ## Intuition
 
-**Plate tectonics is like a giant jigsaw puzzle — Earth’s crust is broken into pieces that move, collide, and reshape the planet.**
+**Plate tectonics is like a giant jigsaw puzzle, Earth’s crust is broken into pieces that move, collide, and reshape the planet.**
 
 ## Diagnostic Test: Tectonics
 
@@ -179,7 +179,7 @@ flowchart TD
 
 ## Common Mistakes
 
-**Confusing the Richter scale with a linear scale:** The Richter scale is logarithmic — each whole number increase represents approximately 10 times the amplitude and 32 times the energy released. A magnitude 7 earthquake is not "slightly worse" than a magnitude 6; it releases about 32 times more energy. Students often treat the scale as linear.
+**Confusing the Richter scale with a linear scale:** The Richter scale is logarithmic, each whole number increase represents approximately 10 times the amplitude and 32 times the energy released. A magnitude 7 earthquake is not "slightly worse" than a magnitude 6; it releases about 32 times more energy. Students often treat the scale as linear.
 
 **Confusing destructive and constructive plate boundaries:** Constructive (divergent) boundaries create new crust as plates move apart (e.g., Mid-Atlantic Ridge). Destructive (convergent) boundaries destroy crust as one plate subducts beneath another (e.g., Pacific Plate under the Philippine Plate). The terminology refers to what happens to the crust, not whether the boundary is "good" or "bad."
 

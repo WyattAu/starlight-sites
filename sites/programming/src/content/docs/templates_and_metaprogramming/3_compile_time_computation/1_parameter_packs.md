@@ -197,9 +197,9 @@ public:
 
     void run_all() const {
         // Each call resolves via the appropriate base
-        (void(Printer::print), ...);   // only compiles if Printer is in Mixins...
-        (void(Logger::log), ...);
-        (void(Serializer::serialize), ...);
+        (void(Printer::print)...);   // only compiles if Printer is in Mixins...
+        (void(Logger::log)...);
+        (void(Serializer::serialize)...);
     }
 };
 
@@ -308,7 +308,7 @@ Substitutes each pack element into the pattern and produces a comma-separated li
 // 1. Function argument expansion: f(args...)
 template <typename... Args>
 void call_print(Args... args) {
-    ((std::cout << args << "\n"), ...);
+    ((std::cout << args << "\n")...);
 }
 
 // 2. Template argument expansion: Tuple<Types...>
@@ -391,7 +391,7 @@ struct is_integral_pred : std::is_integral<T> {};
 // Pattern 3: Recursive tuple for_each
 template <typename Fn, typename Tuple, std::size_t... Is>
 void tuple_for_each_impl(Fn&& fn, Tuple&& t, std::index_sequence<Is...>) {
-    (fn(std::get<Is>(std::forward<Tuple>(t))), ...);
+    (fn(std::get<Is>(std::forward<Tuple>(t)))...);
 }
 
 template <typename Fn, typename... Ts>
@@ -439,7 +439,7 @@ auto sum_fold(Args... args) {
 template <typename... Args>
 void print_fold(Args&&... args) {
     std::string sep;
-    ((std::cout << std::exchange(sep, ", ") << args), ...);
+    ((std::cout << std::exchange(sep, ", ") << args)...);
     std::cout << "\n";
 }
 
@@ -451,11 +451,11 @@ int main() {
 
 ## Intuition
 
-**Parameter packs are like a bag of types:** Instead of writing separate template parameters for each type (`T1, T2, T3`), you pack them all into one bag (`Types...`). It's like the difference between carrying three separate grocery bags and one big bag with everything inside. The `...` syntax expands the pack — `Types...` becomes `T1, T2, T3`. You can access individual elements with `std::tuple_element`, iterate with fold expressions, or use `sizeof...(Types)` to count them.
+**Parameter packs are like a bag of types:** Instead of writing separate template parameters for each type (`T1, T2, T3`), you pack them all into one bag (`Types...`). It's like the difference between carrying three separate grocery bags and one big bag with everything inside. The `...` syntax expands the pack, `Types...` becomes `T1, T2, T3`. You can access individual elements with `std::tuple_element`, iterate with fold expressions, or use `sizeof...(Types)` to count them.
 
-**Why it matters:** Parameter packs enable variadic templates — functions and classes that accept any number of arguments. This is the foundation of `std::make_unique`, `std::tuple`, `std::variant`, and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
+**Why it matters:** Parameter packs enable variadic templates, functions and classes that accept any number of arguments. This is the foundation of `std::make_unique`, `std::tuple`, `std::variant`, and many other modern C++ features. Without parameter packs, you'd need to write separate overloads for each number of arguments (like the old `printf` approach).
 
-**The key insight:** Parameter packs expand at compile time — the compiler generates separate code for each element in the pack, which is why variadic templates are zero-cost abstractions.
+**The key insight:** Parameter packs expand at compile time, the compiler generates separate code for each element in the pack, which is why variadic templates are zero-cost abstractions.
 
 ## Common Pitfalls
 

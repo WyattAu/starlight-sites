@@ -2,21 +2,21 @@ export const flashcard1 = [
   {
     id: 'kinematics-1',
     front: 'What is the difference between displacement and distance?',
-    back: 'Distance is a scalar — the total path length travelled (always positive). Displacement is a vector — the straight-line separation from start to finish, including direction. Distance ≥ |displacement|. Example: running one lap of a 400 m track: distance = 400 m, displacement = 0 m.',
+    back: 'Distance is a scalar, the total path length travelled (always positive). Displacement is a vector, the straight-line separation from start to finish, including direction. Distance ≥ |displacement|. Example: running one lap of a 400 m track: distance = 400 m, displacement = 0 m.',
     tags: ['kinematics', 'vectors'],
     difficulty: 'easy',
   },
   {
     id: 'kinematics-2',
     front: 'What is the difference between velocity and speed?',
-    back: 'Speed is a scalar — the rate of change of distance (magnitude only). Velocity is a vector — the rate of change of displacement, including direction. Speed = |velocity| only if motion is in a straight line in one direction. Units: both m s⁻¹.',
+    back: 'Speed is a scalar, the rate of change of distance (magnitude only). Velocity is a vector, the rate of change of displacement, including direction. Speed = |velocity| only if motion is in a straight line in one direction. Units: both m s⁻¹.',
     tags: ['kinematics', 'vectors'],
     difficulty: 'easy',
   },
   {
     id: 'kinematics-3',
     front: 'Define acceleration and state its units.',
-    back: 'Acceleration is the rate of change of velocity with respect to time: a = Δv/Δt. It is a vector — direction matters. Units: m s⁻². Negative acceleration means deceleration (slowing down) if in the same direction as velocity, or accelerating in the opposite direction.',
+    back: 'Acceleration is the rate of change of velocity with respect to time: a = Δv/Δt. It is a vector, direction matters. Units: m s⁻². Negative acceleration means deceleration (slowing down) if in the same direction as velocity, or accelerating in the opposite direction.',
     tags: ['kinematics', 'acceleration'],
     difficulty: 'easy',
   },
@@ -30,7 +30,7 @@ export const flashcard1 = [
   {
     id: 'dynamics-1',
     front: 'State Newton’s three laws of motion.',
-    back: '1st: An object remains at rest or moves at constant velocity unless acted on by a net external force (inertia). 2nd: F = ma — net force equals mass times acceleration. 3rd: If A exerts force F on B, then B exerts force −F on A (action-reaction pair).',
+    back: '1st: An object remains at rest or moves at constant velocity unless acted on by a net external force (inertia). 2nd: F = ma, net force equals mass times acceleration. 3rd: If A exerts force F on B, then B exerts force −F on A (action-reaction pair).',
     tags: ['dynamics', 'Newton’s laws'],
     difficulty: 'easy',
   },
@@ -78,7 +78,7 @@ export const flashcard3 = [
   {
     id: 'energy-3',
     front: 'Define gravitational potential energy and its formula near Earth’s surface.',
-    back: "Gravitational PE is the energy stored due to an object\'s position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary — only ΔE_p matters.",
+    back: "Gravitational PE is the energy stored due to an object\'s position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary, only ΔE_p matters.",
     tags: ['work and energy', 'potential energy'],
     difficulty: 'easy',
   },
@@ -99,14 +99,14 @@ export const flashcard3 = [
   {
     id: 'momentum-2',
     front: 'State the law of conservation of momentum.',
-    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force — internal forces between colliding objects cancel by Newton\'s 3rd law.',
+    back: 'In a closed system with no external forces, total momentum is conserved: m₁u₁ + m₂u₂ = m₁v₁ + m₂v₂. This applies to all types of collisions (elastic, inelastic, explosions). "Closed system" means no net external force, internal forces between colliding objects cancel by Newton\'s 3rd law.',
     tags: ['momentum', 'conservation'],
     difficulty: 'medium',
   },
   {
     id: 'momentum-3',
     front: 'Compare elastic and inelastic collisions.',
-    back: 'Elastic: both momentum AND kinetic energy are conserved (objects bounce off). Inelastic: momentum is conserved but kinetic energy is NOT — some KE is converted to heat/sound/deformation. Perfectly inelastic: objects stick together (maximum KE loss). All real collisions are at least partially inelastic.',
+    back: 'Elastic: both momentum AND kinetic energy are conserved (objects bounce off). Inelastic: momentum is conserved but kinetic energy is NOT, some KE is converted to heat/sound/deformation. Perfectly inelastic: objects stick together (maximum KE loss). All real collisions are at least partially inelastic.',
     tags: ['momentum', 'collisions'],
     difficulty: 'hard',
   },
@@ -130,7 +130,7 @@ export const flashcard4 = [
   {
     id: 'circular-2',
     front: 'Define centripetal force and explain why it is not a "new" force.',
-    back: 'F_c = mv²/r = mω²r. Centripetal force is the NET force directed towards the centre — it is provided by existing forces (tension, friction, gravity, normal force). It is NOT a separate force. For a car turning: F_c = friction. For a satellite: F_c = gravity. For a conical pendulum: F_c = horizontal component of tension.',
+    back: 'F_c = mv²/r = mω²r. Centripetal force is the NET force directed towards the centre, it is provided by existing forces (tension, friction, gravity, normal force). It is NOT a separate force. For a car turning: F_c = friction. For a satellite: F_c = gravity. For a conical pendulum: F_c = horizontal component of tension.',
     tags: ['circular motion', 'centripetal force'],
     difficulty: 'hard',
   },

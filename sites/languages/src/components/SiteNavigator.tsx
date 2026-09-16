@@ -1,5 +1,5 @@
 /**
- * SiteNavigator.tsx — Consolidated site navigator (replaces 3 implementations)
+ * SiteNavigator.tsx, Consolidated site navigator (replaces 3 implementations)
  *
  * Features:
  * - Modal overlay with backdrop

@@ -210,7 +210,7 @@ Would give $\mathrm{pH} = 2.00$.
 
 ### Common Pitfalls
 
-- A buffer cannot withstand addition of large amounts of strong acid or base — it has finite
+- A buffer cannot withstand addition of large amounts of strong acid or base, it has finite
   capacity.
 - The Henderson-Hasselbalch equation assumes concentrations equal activities (valid for dilute
   solutions).
@@ -432,7 +432,7 @@ $$
 
 - $K_{sp}$ expressions do **not** include the concentration of the solid.
 - Solids and pure liquids are excluded from equilibrium expressions.
-- The common ion effect does not change $K_{sp}$ itself — it shifts the equilibrium position.
+- The common ion effect does not change $K_{sp}$ itself, it shifts the equilibrium position.
 
 ---
 
@@ -952,13 +952,13 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Intuition
 
-Acids and bases are about proton transfer. An acid is a proton donor; a base is a proton acceptor. The strength of an acid depends on how readily it gives up its proton — strong acids dissociate completely, weak acids only partially. pH is the logarithmic measure of hydrogen ion concentration, so each unit change in pH represents a tenfold change in acidity.
+Acids and bases are about proton transfer. An acid is a proton donor; a base is a proton acceptor. The strength of an acid depends on how readily it gives up its proton, strong acids dissociate completely, weak acids only partially. pH is the logarithmic measure of hydrogen ion concentration, so each unit change in pH represents a tenfold change in acidity.
 
-Buffer solutions resist pH changes by having both an acid and its conjugate base present. When you add acid, the conjugate base neutralizes it. When you add base, the acid neutralizes it. This is why blood maintains pH 7.4 despite metabolic acids being constantly produced. Titration curves show the pH change as base is added to acid — the steep part near the equivalence point is where the indicator changes color. The Henderson-Hasselbalch equation ($\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]}$) connects pH to the ratio of conjugate base to acid.
+Buffer solutions resist pH changes by having both an acid and its conjugate base present. When you add acid, the conjugate base neutralizes it. When you add base, the acid neutralizes it. This is why blood maintains pH 7.4 despite metabolic acids being constantly produced. Titration curves show the pH change as base is added to acid, the steep part near the equivalence point is where the indicator changes color. The Henderson-Hasselbalch equation ($\text{pH} = \text{p}K_a + \log\frac{[\text{A}^-]}{[\text{HA}]}$) connects pH to the ratio of conjugate base to acid.
 
 ## Common Mistakes
 
-1. **Confusing strong/weak with concentrated/diluted.** A strong acid dissociates completely in water regardless of concentration; a weak acid only partially dissociates. A dilute strong acid has a higher pH than a concentrated strong acid, but a dilute weak acid may have a similar pH to a concentrated weak acid. These are independent dimensions — strength is about extent of dissociation, concentration is about amount per unit volume.
+1. **Confusing strong/weak with concentrated/diluted.** A strong acid dissociates completely in water regardless of concentration; a weak acid only partially dissociates. A dilute strong acid has a higher pH than a concentrated strong acid, but a dilute weak acid may have a similar pH to a concentrated weak acid. These are independent dimensions, strength is about extent of dissociation, concentration is about amount per unit volume.
 
 2. **Misidentifying the equivalence point pH.** For a strong acid–strong base titration, the equivalence point is at pH 7. For a weak acid–strong base titration, the equivalence point is above pH 7 (basic) because the conjugate base of the weak acid hydrolyses. For a weak base–strong acid titration, it is below pH 7. Students often assume pH 7 always.
 

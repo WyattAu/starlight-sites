@@ -242,7 +242,7 @@ struct Serializer {
             oss << "(";
             std::apply([this](const auto&... elems) {
                 bool first = true;
-                ((serialize(elems), oss << (first ? (first = false, "") : ", ")), ...);
+                ((serialize(elems), oss << (first ? (first = false, "") : ", "))...);
             }, value);
             oss << ")";
         } else {

@@ -17,11 +17,11 @@ description: "General Open Source Contribution notes covering key definitions, c
 
 ## Intuition
 
-**Contributing to the commons:** Open source is like contributing to a public park — everyone benefits from the improvements you make, and you build a reputation as someone who gives back to the community that built the tools you use every day.
+**Contributing to the commons:** Open source is like contributing to a public park, everyone benefits from the improvements you make, and you build a reputation as someone who gives back to the community that built the tools you use every day.
 
 **Why it matters:** Contributing to open source builds real-world skills, creates a public portfolio, connects you with experienced developers, and can lead to job opportunities. It also makes the tools you depend on better for everyone.
 
-**The key insight:** Start small — fixing a typo in documentation, improving an error message, or adding a test are all valuable contributions that maintainers appreciate and that get your foot in the door.
+**The key insight:** Start small, fixing a typo in documentation, improving an error message, or adding a test are all valuable contributions that maintainers appreciate and that get your foot in the door.
 
 ## Why Contribute to Open Source
 
@@ -488,7 +488,7 @@ Read CONTRIBUTING.md before your first contribution.
 
 Submitting a PR and then not responding to review feedback for weeks is a negative signal.
 Maintainers may close stale PRs. If you cannot address feedback promptly, communicate that (e.g., "I
-Will address this next week — currently traveling").
+Will address this next week, currently traveling").
 
 ### Taking Rejection Personally
 
@@ -575,12 +575,12 @@ Start with tests and work up to understand the implementation:
 git rebase -i HEAD~5
 
 # Common operations:
-# pick    — Keep the commit as-is
-# reword  — Edit the commit message
-# squash  — Combine with the previous commit
-# fixup   — Squash (keeping previous commit message)
-# drop    — Remove the commit
-# edit    — Pause rebase to amend the commit
+# pick, Keep the commit as-is
+# reword, Edit the commit message
+# squash, Combine with the previous commit
+# fixup, Squash (keeping previous commit message)
+# drop, Remove the commit
+# edit, Pause rebase to amend the commit
 ```
 
 ### Cherry-Picking
@@ -708,14 +708,14 @@ If your PR is closed without merge:
 ### The "Not Good Enough" Trap
 
 Many potential contributors believe their code is "not good enough" to submit. This is a cognitive
-Bias — everyone's code has room for improvement. Submit imperfect code and let the review process
+Bias, everyone's code has room for improvement. Submit imperfect code and let the review process
 Improve it. A beginner's PR with one issue fixed is infinitely more valuable than a perfect PR that
 Was never submitted.
 
 ### Contributing Only to Fix Your Own Bugs
 
 If you use an open source project and find a bug, fix it and submit a PR. This is the most natural
-Way to start contributing — you are already motivated by your own use case. The maintainer will
+Way to start contributing, you are already motivated by your own use case. The maintainer will
 Appreciate the fix regardless of your experience level.
 
 ### Ignoring Non-Code Contributions

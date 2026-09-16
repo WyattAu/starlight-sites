@@ -37,7 +37,7 @@ A class follows the RAII pattern when:
    held; destruction always releases it.
 
 This binding of resource lifetime to object lifetime is the single most important idiom in C++. It
-Is not a language feature — it is a convention that the language"s destructor semantics make natural
+Is not a language feature, it is a convention that the language"s destructor semantics make natural
 And safe [N4950 §11.4.7].
 
 ## 1.2 Stack Unwinding Guarantee
@@ -125,7 +125,7 @@ MutexLock. They are the standard library's RAII wrappers for mutexes.
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
-Instead of hand-rolled wrappers is preferred — they are well-tested, well-documented, and handle
+Instead of hand-rolled wrappers is preferred, they are well-tested, well-documented, and handle
 Edge cases you might forget.
 
 ### `std::lock_guard` and `std::scoped_lock`
@@ -338,7 +338,7 @@ public:
 
     ScopeGuard(ScopeGuard&& other) noexcept
         : func_(std::move(other.func_))
-        , active_(other.active_)
+active_(other.active_)
     {
         other.active_ = false;
     }
@@ -404,7 +404,7 @@ void transfer(Account& from, Account& to, int amount) {
     // both mutexes. No deadlock, no leaked lock.
     std::scoped_lock lock(from.mtx, to.mtx);
     from.debit(amount);   // might throw
-    to.credit(amount);    // might throw — but debit already succeeded
+    to.credit(amount);    // might throw, but debit already succeeded
     // Strong guarantee violated: if credit throws, debit is not rolled back.
     // Fix: use a journal/log that is committed only after both succeed.
 }
@@ -416,7 +416,7 @@ RAII and garbage collection (GC) solve related but different problems:
 
 | Property                      | RAII                                | Garbage Collection                                                         |
 | ----------------------------- | ----------------------------------- | -------------------------------------------------------------------------- |
-| **Deterministic destruction** | Yes — destructor runs at scope exit | No — finalizer runs at GC's discretion                                     |
+| **Deterministic destruction** | Yes, destructor runs at scope exit | No, finalizer runs at GC's discretion                                     |
 | **Resource types**            | All (memory, files, sockets, locks) | Memory only (finalizers are unreliable for other resources)                |
 | **Performance**               | Zero overhead (compile-time)        | Runtime overhead (pause times, GC threads)                                 |
 | **Memory leaks**              | Impossible with correct RAII        | Possible (unreferenced but unreachable objects, reference counting cycles) |
@@ -454,7 +454,7 @@ The standard library provides RAII wrappers for most common resources:
 
 **Forgetting to delete copy constructor and assignment operator.** RAII types that own a resource
 Must be non-copyable (or implement deep copy). If you allow copying, two objects will try to release
-The same resource — double-free or double-close. Always `= delete` the copy operations unless you
+The same resource, double-free or double-close. Always `= delete` the copy operations unless you
 Have a deliberate deep-copy strategy:
 
 ```cpp
@@ -469,20 +469,20 @@ public:
 ```
 
 **Forgetting virtual destructors in polymorphic hierarchies.** If you delete a derived object
-Through a base pointer and the base class destructor is not `virtual`Only the base destructor runs —
+Through a base pointer and the base class destructor is not `virtual`Only the base destructor runs,
 the derived destructor is never called, and derived resources leak [N4950 §11.4.7]:
 
 ```cpp
 class Base {
 public:
     ~Base() { /* releases base resources */ }
-    // NOT virtual — derived destructors won't run when deleted via Base*
+    // NOT virtual, derived destructors won't run when deleted via Base*
 };
 
 class Derived : public Base {
     std::unique_ptr<int[]> data_;
 public:
-    ~Derived() { /* releases data_ — BUT THIS NEVER RUNS via Base* delete */ }
+    ~Derived() { /* releases data_, BUT THIS NEVER RUNS via Base* delete */ }
 };
 
 void leak() {

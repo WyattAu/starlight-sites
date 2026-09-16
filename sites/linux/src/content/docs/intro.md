@@ -17,7 +17,7 @@ description: "Study notes for Introduction to Linux with worked examples, practi
 ## What is Linux
 
 Linux is a **Unix-like operating system kernel** first released by Linus Torvalds in 1991. When
-People say "Linux" in practice, they almost always mean a **Linux distribution** — the kernel
+People say "Linux" in practice, they almost always mean a **Linux distribution**, the kernel
 Bundled with GNU userland, init systems, package managers, and thousands of user-space utilities.
 The kernel itself is just one component; the rest of the system is what makes it usable.
 
@@ -52,7 +52,7 @@ graph TD
 
 The Linux kernel is a **monolithic kernel** with loadable modules. Unlike microkernels (Mach, MINIX)
 Which move most services into user space, Linux runs device drivers, file system implementations,
-And network protocols in kernel mode. This design trades fault isolation for performance — a buggy
+And network protocols in kernel mode. This design trades fault isolation for performance, a buggy
 Driver can crash the kernel, but system call overhead is minimal because there is no user-kernel
 Context switch for kernel-internal operations.
 
@@ -62,7 +62,7 @@ Key subsystems:
 | --------------------- | ------------------------------------------------------ |
 | **Process Scheduler** | CFS (Completely Fair Scheduler), real-time scheduling  |
 | **Memory Management** | Virtual memory, page tables, SLUB/SLAB allocators, OOM |
-| **VFS**               | Virtual File System — abstracts file system operations |
+| **VFS**               | Virtual File System, abstracts file system operations |
 | **Network Stack**     | TCP/IP, netfilter, routing, socket layer               |
 | **Device Model**      | `sysfs``udev`Driver model, `kobject` hierarchy         |
 | **IPC**               | Pipes, shared memory, signals, `epoll``eventfd`        |
@@ -108,11 +108,11 @@ Linux is the dominant operating system in every infrastructure domain you will e
   built on cgroups, namespaces, and overlayfs.
 - **Networking**: Linux routing, netfilter, and BPF power the majority of the world"s routers and
   firewalls.
-- **Embedded and IoT**: Android, OpenWrt, Yocto — all Linux underneath.
+- **Embedded and IoT**: Android, OpenWrt, Yocto, all Linux underneath.
 - **High-performance computing**: 100% of the TOP500 supercomputers run Linux.
 
-Understanding Linux at the systems level — how processes are scheduled, how memory is managed, how
-The network stack processes packets, how file systems journal writes — is not academic. It is the
+Understanding Linux at the systems level, how processes are scheduled, how memory is managed, how
+The network stack processes packets, how file systems journal writes, is not academic. It is the
 Difference between "restarting the service fixed it" and understanding _why_ it failed and
 Preventing recurrence.
 
@@ -136,7 +136,7 @@ This section covers the core Linux competencies expected of a systems engineer:
 7. **Package Management**. APT, DNF, Nix, dependency resolution
    ([package-management](./07-package-management/package-management))
 
-Editing files). The focus is on depth — understanding _how_ things work, not just _what_ commands to
+Editing files). The focus is on depth, understanding _how_ things work, not just _what_ commands to
 Run.
 
 ## Intuition
@@ -145,7 +145,7 @@ Run.
 
 **Why it matters:** Linux skills are among the most sought-after in IT. The command line, file system hierarchy, and process management concepts transfer across all Unix-like systems.
 
-**The key insight:** Linux follows the Unix philosophy — small, focused tools that do one thing well, combined via pipes to build complex workflows.
+**The key insight:** Linux follows the Unix philosophy, small, focused tools that do one thing well, combined via pipes to build complex workflows.
 
 ## Summary
 

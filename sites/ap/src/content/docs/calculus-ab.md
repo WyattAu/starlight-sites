@@ -420,7 +420,7 @@ $$
 5. **Verify answers graphically.** On the calculator-active section, use your calculator to sketch
    graphs and check that your analytical results (extrema, inflection points, intercepts) match.
 6. **Do not leave blanks.** Even if you cannot complete a problem, write down relevant formulas,
-   diagrams, or reasoning — partial credit may be awarded.
+   diagrams, or reasoning, partial credit may be awarded.
 7. **Time management.** Spend roughly 15 minutes per free-response question. If stuck, move on and
    return later.
 
@@ -456,7 +456,7 @@ $$
 | Differential Equations      | Separable equations, slope fields, exponential growth/decay                                         |
 
 The AP Calculus AB exam tests your ability to apply these concepts in both multiple-choice and
-free-response formats. Focus on understanding why each rule works — the AP exam rewards conceptual
+free-response formats. Focus on understanding why each rule works, the AP exam rewards conceptual
 understanding as much as mechanical computation. Practise past papers under timed conditions and
 review every mistake to build confidence and accuracy.
 

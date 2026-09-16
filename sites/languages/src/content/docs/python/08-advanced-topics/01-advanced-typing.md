@@ -19,7 +19,7 @@ categories:
 }
 </script>
 
-## `@overload` — Multiple Signatures for One Function
+## `@overload`Multiple Signatures for One Function
 
 Python is dynamically typed: a single function object can be called with any combination of
 Arguments. But type checkers need to know what types are acceptable and what the return type is for
@@ -438,7 +438,7 @@ Parameters, their types, defaults, and whether they can be passed by position or
 And `P.kwargs` are synthetic types that let you express "accepts the same positional and keyword
 Arguments as `P`."
 
-### `Concatenate[P, T]` — Appending Parameters
+### `Concatenate[P, T]`Appending Parameters
 
 Some decorators need to add parameters to the wrapped function's signature. `Concatenate` lets you
 Prepend or append type parameters to a `ParamSpec`:
@@ -850,7 +850,7 @@ def process(action: Literal["create", "delete"]) -> None:
         reveal_type(action)  # Literal["delete"]
 ```
 
-### `cast()` — Explicit Type Assertion
+### `cast()`Explicit Type Assertion
 
 `typing.cast()` tells the type checker "trust me, this value is of type `T`." It performs **no
 Runtime check**. At runtime, `cast` is a no-op that returns its argument unchanged:

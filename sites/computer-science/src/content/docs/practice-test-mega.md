@@ -1,5 +1,5 @@
 ---
-title: "Computer Science Practice Test — 30 Problems"
+title: "Computer Science Practice Test, 30 Problems"
 description: "30 computer science problems covering Algorithms, Data Structures, Theory of Computation, and Databases. Multiple choice and coding problems with detailed explanations."
 date: 2026-07-24
 tags:
@@ -22,14 +22,14 @@ categories:
 }
 </script>
 
-## Computer Science Practice Test — 30 Problems
+## Computer Science Practice Test, 30 Problems
 
 This practice test covers 30 problems across four major domains of computer science: Algorithms, Data Structures, Theory of Computation, and Databases. Each problem tests conceptual understanding, analytical reasoning, and practical problem-solving. Work through all problems before checking the answer key.
 
 ## Instructions
 
 - **Time limit:** 90 minutes (3 minutes per problem)
-- **Format:** Multiple choice and coding — select the best answer or write pseudocode/code
+- **Format:** Multiple choice and coding, select the best answer or write pseudocode/code
 - **Marking:** 1 mark per problem, 30 marks total
 - **Conditions:** Attempt without notes. Write code on paper.
 - **After the test:** Check the answer key at the bottom. Study the explanations for any problems you got wrong.
@@ -46,7 +46,7 @@ This practice test covers 30 problems across four major domains of computer scie
 
 ## Algorithms (P1–P8)
 
-### P1 — Time Complexity
+### P1, Time Complexity
 
 What is the time complexity of the following function?
 
@@ -73,13 +73,13 @@ def mystery(n):
 
 **Correct: B** (index 1)
 
-The outer loop runs $O(\log n)$ times (doubling $i$ each time). The inner loop runs $O(\log n)$ times (halving $j$ each time). Total: $O(\log n) \times O(\log n) = O(\log^2 n)$. Wait — the inner loop resets $j = n$ each time, so it runs $O(\log n)$ iterations. But $n$ is constant within the inner loop. So total iterations: $\sum_{k=0}^{\log n} \log n = O(\log^2 n)$.
+The outer loop runs $O(\log n)$ times (doubling $i$ each time). The inner loop runs $O(\log n)$ times (halving $j$ each time). Total: $O(\log n) \times O(\log n) = O(\log^2 n)$. Wait, the inner loop resets $j = n$ each time, so it runs $O(\log n)$ iterations. But $n$ is constant within the inner loop. So total iterations: $\sum_{k=0}^{\log n} \log n = O(\log^2 n)$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P2 — Divide and Conquer
+### P2, Divide and Conquer
 
 In a merge sort, what is the recurrence relation for the number of comparisons in the worst case?
 
@@ -95,11 +95,11 @@ In a merge sort, what is the recurrence relation for the number of comparisons i
 
 Merge sort divides the array into two halves ($2T(n/2)$) and merges them in $O(n)$ comparisons. The recurrence $T(n) = 2T(n/2) + n$ solves to $O(n \log n)$ by the Master Theorem.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P3 — Graph Algorithms
+### P3, Graph Algorithms
 
 Which algorithm finds the shortest path from a single source to all vertices in a graph with non-negative edge weights?
 
@@ -115,11 +115,11 @@ Which algorithm finds the shortest path from a single source to all vertices in 
 
 Dijkstra's algorithm efficiently computes single-source shortest paths for non-negative weights in $O((V+E)\log V)$ using a priority queue. Bellman-Ford handles negative weights but is slower. Floyd-Warshall computes all-pairs shortest paths.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P4 — Dynamic Programming
+### P4, Dynamic Programming
 
 The Fibonacci sequence can be computed in $O(n)$ time using dynamic programming. What is the space complexity if only the last two values are stored?
 
@@ -135,11 +135,11 @@ The Fibonacci sequence can be computed in $O(n)$ time using dynamic programming.
 
 By storing only the two most recent Fibonacci numbers (previous and current), we use constant space $O(1)$ regardless of $n$. We iterate from 2 to $n$, updating these two values at each step.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P5 — Greedy Algorithms
+### P5, Greedy Algorithms
 
 The activity selection problem (selecting the maximum number of non-overlapping activities) can be solved greedily by:
 
@@ -155,11 +155,11 @@ The activity selection problem (selecting the maximum number of non-overlapping 
 
 The greedy strategy of always choosing the next activity with the earliest finish time yields an optimal solution. This maximises the remaining time for subsequent activities. The algorithm runs in $O(n \log n)$ after sorting by finish time.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P6 — NP-Completeness
+### P6, NP-Completeness
 
 Which of the following problems is NP-complete?
 
@@ -175,11 +175,11 @@ Which of the following problems is NP-complete?
 
 The decision version of TSP ("Is there a tour of length ≤ k?") is NP-complete. It is in NP (a certificate is a tour, verifiable in polynomial time) and NP-hard (by reduction from Hamiltonian cycle). The other problems are all solvable in polynomial time.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P7 — String Algorithms
+### P7, String Algorithms
 
 The Knuth-Morris-Pratt (KMP) algorithm achieves string matching in $O(n + m)$ time by:
 
@@ -195,11 +195,11 @@ The Knuth-Morris-Pratt (KMP) algorithm achieves string matching in $O(n + m)$ ti
 
 KMP preprocesses the pattern to build a failure (prefix) function that tells us the longest proper prefix of the pattern that is also a suffix. When a mismatch occurs, the algorithm uses this function to skip ahead rather than backtracking, achieving linear time.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P8 — Amortised Analysis
+### P8, Amortised Analysis
 
 What is the amortised cost per operation for dynamic array insertion (amortised via doubling)?
 
@@ -215,13 +215,13 @@ What is the amortised cost per operation for dynamic array insertion (amortised 
 
 Although a single resize costs $O(n)$, it happens only when the array doubles in size. Over $n$ insertions, the total cost is $n + 2 + 4 + \cdots + n = O(n)$, giving an amortised cost of $O(1)$ per insertion (via the accounting or potential method).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Data Structures (P9–P16)
 
-### P9 — Binary Search Trees
+### P9, Binary Search Trees
 
 What is the worst-case time complexity for searching in a binary search tree?
 
@@ -237,11 +237,11 @@ What is the worst-case time complexity for searching in a binary search tree?
 
 A degenerate (skewed) BST can have height $n$, making search $O(n)$. Balanced BSTs (AVL, Red-Black) guarantee $O(\log n)$. The worst case occurs when elements are inserted in sorted order.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P10 — Hash Tables
+### P10, Hash Tables
 
 The expected time complexity of search in a hash table with chaining and a good hash function is:
 
@@ -257,11 +257,11 @@ The expected time complexity of search in a hash table with chaining and a good 
 
 With a good hash function and load factor $\alpha = n/m$, expected search time is $O(1 + \alpha) = O(1)$ when the load factor is bounded. However, the worst case (all keys hash to the same bucket) is $O(n)$.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P11 — Heaps
+### P11, Heaps
 
 In a min-heap with $n$ elements, what is the time complexity of extracting the minimum element?
 
@@ -275,13 +275,13 @@ In a min-heap with $n$ elements, what is the time complexity of extracting the m
 
 **Correct: B** (index 1)
 
-Extracting the minimum removes the root ($O(1)$ to find it) and then restores the heap property by sifting down, which takes $O(\log n)$ — the height of the heap.
+Extracting the minimum removes the root ($O(1)$ to find it) and then restores the heap property by sifting down, which takes $O(\log n)$, the height of the heap.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P12 — Graph Representations
+### P12, Graph Representations
 
 For a sparse graph with $V$ vertices and $E$ edges where $E \ll V^2$, which representation is most space-efficient?
 
@@ -297,11 +297,11 @@ For a sparse graph with $V$ vertices and $E$ edges where $E \ll V^2$, which repr
 
 An adjacency list uses $O(V + E)$ space, while an adjacency matrix uses $O(V^2)$. For sparse graphs where $E = O(V)$, the adjacency list is significantly more space-efficient.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P13 — Balanced Trees
+### P13, Balanced Trees
 
 An AVL tree maintains balance by ensuring that the height difference between left and right subtrees of any node is at most:
 
@@ -317,11 +317,11 @@ An AVL tree maintains balance by ensuring that the height difference between lef
 
 The AVL balance condition requires that for every node, $|h(\text{left}) - h(\text{right})| \leq 1$. Violations trigger rotations (single or double) to restore balance, guaranteeing $O(\log n)$ operations.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P14 — Bloom Filters
+### P14, Bloom Filters
 
 A Bloom filter is a probabilistic data structure that:
 
@@ -337,11 +337,11 @@ A Bloom filter is a probabilistic data structure that:
 
 A Bloom filter can definitively say an element is not in the set (no false negatives), but may incorrectly report an element as present (false positives). It uses a bit array with multiple hash functions, requiring sub-linear space.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P15 — Union-Find
+### P15, Union-Find
 
 The union-find (disjoint set) data structure with union by rank and path compression has an amortised time complexity of approximately:
 
@@ -357,11 +357,11 @@ The union-find (disjoint set) data structure with union by rank and path compres
 
 With both optimisations, the amortised cost per operation is $O(\alpha(n))$, where $\alpha(n)$ is the extremely slowly growing inverse Ackermann function (effectively ≤ 5 for all practical values of $n$).
 
-`hard` — 1 mark
+`hard`1 mark
 
 ---
 
-### P16 — Tries
+### P16, Tries
 
 In a trie (prefix tree), what is the worst-case time complexity for searching a string of length $m$?
 
@@ -377,13 +377,13 @@ In a trie (prefix tree), what is the worst-case time complexity for searching a 
 
 A trie searches character by character along a path of length $m$, giving $O(m)$ time regardless of how many strings are stored. This is independent of $n$, making it ideal for prefix-based searches.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Theory of Computation (P17–P23)
 
-### P17 — Regular Languages
+### P17, Regular Languages
 
 Which of the following languages is NOT regular?
 
@@ -399,11 +399,11 @@ Which of the following languages is NOT regular?
 
 $\{a^n b^n \mid n \geq 0\}$ is the classic non-regular language, proved by the pumping lemma. A finite automaton cannot count arbitrarily many $a$s and then match them against $b$s. All other options describe regular languages.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P18 — Context-Free Languages
+### P18, Context-Free Languages
 
 Which of the following is a context-free language but not regular?
 
@@ -419,11 +419,11 @@ Which of the following is a context-free language but not regular?
 
 $\{a^n b^n\}$ and $\{ww^R\}$ (palindromes) are both context-free (generated by context-free grammars) but not regular. $\{a^n b^n c^n\}$ is not context-free (proved by the pumping lemma for CFLs).
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P19 — Turing Machines
+### P19, Turing Machines
 
 The Church-Turing thesis states that:
 
@@ -439,11 +439,11 @@ The Church-Turing thesis states that:
 
 The Church-Turing thesis posits that any function that is "effectively computable" (by any intuitive means) is computable by a Turing machine. It is a thesis (not a theorem) because it equates an informal notion of computability with a formal one.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P20 — Decidability
+### P20, Decidability
 
 Which of the following problems is decidable?
 
@@ -459,11 +459,11 @@ Which of the following problems is decidable?
 
 Membership in a regular language is decidable: construct the corresponding DFA and simulate it on the input string. The halting problem (A) and CFL equivalence (B) are undecidable.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P21 — P vs NP
+### P21, P vs NP
 
 If P = NP, which of the following would be true?
 
@@ -477,13 +477,13 @@ If P = NP, which of the following would be true?
 
 **Correct: A** (index 0)
 
-If P = NP, every language in NP (including NP-complete problems) would have a polynomial-time algorithm. This would break most modern cryptography (which relies on the hardness of problems like factoring). NP-complete problems would still exist — they'd just be solvable in polynomial time.
+If P = NP, every language in NP (including NP-complete problems) would have a polynomial-time algorithm. This would break most modern cryptography (which relies on the hardness of problems like factoring). NP-complete problems would still exist, they'd just be solvable in polynomial time.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P22 — Finite Automata
+### P22, Finite Automata
 
 How many states are needed in the minimal DFA for the language $\{w \in \{0,1\}^* \mid w \text{ represents a number divisible by 3 in binary}\}$?
 
@@ -499,11 +499,11 @@ How many states are needed in the minimal DFA for the language $\{w \in \{0,1\}^
 
 The remainders modulo 3 partition the set of binary strings into 3 equivalence classes: remainder 0, 1, and 2. The minimal DFA has 3 states, one for each remainder. Transitions update the remainder based on the current bit.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P23 — Complexity Classes
+### P23, Complexity Classes
 
 Which complexity class contains all problems solvable by a deterministic Turing machine in $O(2^n)$ time?
 
@@ -519,13 +519,13 @@ Which complexity class contains all problems solvable by a deterministic Turing 
 
 EXPTIME is the class of problems solvable in $O(2^{p(n)})$ time for some polynomial $p(n)$. The class R (recursive) is the class of all decidable languages, which is broader. P and PSPACE are subsets of EXPTIME.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
 ## Databases (P24–P30)
 
-### P24 — Relational Model
+### P24, Relational Model
 
 In the relational model, a relation (table) is formally defined as a:
 
@@ -541,11 +541,11 @@ In the relational model, a relation (table) is formally defined as a:
 
 In the formal relational model (based on set theory), a relation is a set of tuples. Sets do not contain duplicates. SQL uses bags (multisets), but the theoretical model uses sets.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P25 — Normal Forms
+### P25, Normal Forms
 
 A relation is in Third Normal Form (3NF) if:
 
@@ -561,11 +561,11 @@ A relation is in Third Normal Form (3NF) if:
 
 3NF requires: (1) the relation is in 2NF (no partial dependencies), and (2) no non-key attribute is transitively dependent on the primary key. BCNF is stricter: every determinant must be a candidate key.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P26 — SQL
+### P26, SQL
 
 What is the result of the following SQL query?
 
@@ -582,17 +582,17 @@ HAVING COUNT(*) > 5;
 | B | Only departments with more than 5 employees |
 | C | The total number of employees |
 | D | The department with the most employees |
-| E | An error — GROUP BY and HAVING cannot be used together |
+| E | An error, GROUP BY and HAVING cannot be used together |
 
 **Correct: B** (index 1)
 
 The `GROUP BY` groups rows by department. `COUNT(*)` counts employees per group. `HAVING COUNT(*) > 5` filters to only include groups (departments) with more than 5 employees. The `WHERE` clause filters rows before grouping; `HAVING` filters groups after.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P27 — ACID Properties
+### P27, ACID Properties
 
 Which ACID property ensures that a transaction is treated as a single, indivisible unit?
 
@@ -608,11 +608,11 @@ Which ACID property ensures that a transaction is treated as a single, indivisib
 
 Atomicity ensures that all operations in a transaction complete successfully, or none are applied ("all or nothing"). Consistency ensures the database moves from one valid state to another. Isolation ensures concurrent transactions don't interfere. Durability ensures committed data persists.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
-### P28 — Indexing
+### P28, Indexing
 
 A B-tree index is particularly efficient for:
 
@@ -628,11 +628,11 @@ A B-tree index is particularly efficient for:
 
 B-trees maintain sorted order and support efficient range queries ($>$, $<$, BETWEEN) because leaf nodes are linked. Hash indexes are faster for exact matches but cannot handle range queries. B-trees are the standard index for relational databases.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P29 — Transactions
+### P29, Transactions
 
 In a database system, a "dirty read" occurs when:
 
@@ -648,11 +648,11 @@ In a database system, a "dirty read" occurs when:
 
 A dirty read happens when Transaction A reads data modified by Transaction B, but Transaction B has not yet committed. If B rolls back, A has read data that never officially existed. The READ COMMITTED isolation level prevents dirty reads.
 
-`medium` — 1 mark
+`medium`1 mark
 
 ---
 
-### P30 — Joins
+### P30, Joins
 
 In a LEFT JOIN between tables A and B, which of the following is true?
 
@@ -668,7 +668,7 @@ In a LEFT JOIN between tables A and B, which of the following is true?
 
 A LEFT JOIN returns all rows from the left table (A) and matched rows from the right table (B). Where there is no match in B, NULL values are returned for B's columns. An INNER JOIN returns only matching rows.
 
-`easy` — 1 mark
+`easy`1 mark
 
 ---
 
@@ -706,12 +706,12 @@ A LEFT JOIN returns all rows from the left table (A) and matched rows from the r
 
 ## Cross-References
 
-- **[Algorithms and Data Structures](algorithms-and-data-structures)** — Sorting, searching, graphs, trees, and complexity analysis
-- **[Theory of Computation](theory-of-computation)** — Automata, formal languages, decidability, and complexity
-- **[Databases](databases)** — Relational model, SQL, normalisation, indexing, and transactions
-- **[Discrete Mathematics](discrete-mathematics)** — Logic, sets, graph theory, and combinatorics
-- **[Operating Systems](operating-systems)** — Processes, memory management, and file systems
-- **[Discrete Mathematics Practice](practice-discrete-math)** — Additional discrete math exercises
+- **[Algorithms and Data Structures](algorithms-and-data-structures)**, Sorting, searching, graphs, trees, and complexity analysis
+- **[Theory of Computation](theory-of-computation)**, Automata, formal languages, decidability, and complexity
+- **[Databases](databases)**, Relational model, SQL, normalisation, indexing, and transactions
+- **[Discrete Mathematics](discrete-mathematics)**, Logic, sets, graph theory, and combinatorics
+- **[Operating Systems](operating-systems)**, Processes, memory management, and file systems
+- **[Discrete Mathematics Practice](practice-discrete-math)**, Additional discrete math exercises
 
 ---
 
@@ -719,9 +719,9 @@ A LEFT JOIN returns all rows from the left table (A) and matched rows from the r
 
 1. **Work through the code.** For algorithm questions, trace through the code with small inputs rather than guessing the complexity.
 2. **Draw diagrams.** For data structures, sketch the tree, heap, or graph to visualise the problem.
-3. **Know the definitions.** Theory questions test precise definitions — study the formal statements.
+3. **Know the definitions.** Theory questions test precise definitions, study the formal statements.
 4. **Practise SQL by hand.** Write out the result sets for query questions rather than relying on intuition.
-5. **Retake after one week.** Computer science concepts build on each other — spaced repetition ensures strong foundations.
+5. **Retake after one week.** Computer science concepts build on each other, spaced repetition ensures strong foundations.
 
 ---
 

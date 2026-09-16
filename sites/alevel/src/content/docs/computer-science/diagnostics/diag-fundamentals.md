@@ -30,7 +30,7 @@ flowchart TD
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
 
-## Fundamentals — Diagnostic Tests
+## Fundamentals, Diagnostic Tests
 
 ## Unit Tests
 
@@ -334,7 +334,7 @@ Maximum propagation delay: $44\text{ ns}$.
 
 ## Common Mistakes
 
-**Confusing AND, OR, and XOR gates in truth tables:** AND outputs 1 only when both inputs are 1. OR outputs 1 when at least one input is 1. XOR outputs 1 when inputs are different. Students often mix up OR and XOR, or forget that NAND is the complement of AND. Memorise the truth tables — they are the foundation of all digital logic.
+**Confusing AND, OR, and XOR gates in truth tables:** AND outputs 1 only when both inputs are 1. OR outputs 1 when at least one input is 1. XOR outputs 1 when inputs are different. Students often mix up OR and XOR, or forget that NAND is the complement of AND. Memorise the truth tables, they are the foundation of all digital logic.
 
 **Forgetting that processors fetch-execute in a cycle:** The fetch-decode-execute cycle repeats for every instruction. Students sometimes describe it as a one-time process. Each instruction goes through: fetch from memory, decode the opcode, execute the operation, store the result, then increment the program counter and fetch the next instruction.
 

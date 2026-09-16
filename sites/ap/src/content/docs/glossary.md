@@ -1,6 +1,6 @@
 ---
-title: "AP Exam Glossary — Key Terms Across All Subjects"
-description: "Study notes for AP Exam Glossary — Key Terms Across All Subjects with worked examples, practice problems, and key concepts for exam preparation."
+title: "AP Exam Glossary, Key Terms Across All Subjects"
+description: "Study notes for AP Exam Glossary, Key Terms Across All Subjects with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---

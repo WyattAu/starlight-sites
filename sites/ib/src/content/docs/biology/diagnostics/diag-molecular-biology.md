@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Molecular Biology — Diagnostic Tests
+## Molecular Biology, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Molecular biology is like reverse-engineering life — understanding DNA, RNA, and proteins reveals how cells read and execute genetic instructions:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
+**Molecular biology is like reverse-engineering life, understanding DNA, RNA, and proteins reveals how cells read and execute genetic instructions:** The central dogma (DNA → RNA → protein) describes how genetic information flows from storage to function
 
 **Why it matters:** Molecular biology underpins biotechnology, genetic engineering, and understanding genetic diseases
 
@@ -38,7 +38,7 @@ flowchart TD
 
 ## Unit Tests
 
-### UT-1: DNA Replication — Leading and Lagging Strand
+### UT-1: DNA Replication, Leading and Lagging Strand
 
 **Question:** A bacterial chromosome is a circular DNA molecule of $4600000\ \text{bp}$ with a
 single origin of replication. DNA polymerase III synthesises DNA at $1000\ \text{bp s}^{-1}$.
@@ -79,7 +79,7 @@ overall rate of nucleotide incorporation on the lagging strand matches the fork 
 }
 </script>
 
-### UT-2: Transcription and Translation — Central Dogma
+### UT-2: Transcription and Translation, Central Dogma
 
 **Question:** The template strand of a gene has the sequence: 3'-TAC-AAA-TGC-CTA-GCA-5'. Write: (a)
 the mRNA sequence, (b) the amino acid sequence using the genetic code, (c) the coding (sense) strand

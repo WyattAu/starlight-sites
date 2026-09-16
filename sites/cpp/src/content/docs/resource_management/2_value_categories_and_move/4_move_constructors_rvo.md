@@ -31,7 +31,7 @@ Efficient algorithms.
 ## 6.1 Move Constructor: `T(T&& other)`
 
 The move constructor transfers ownership of resources from `other` to the newly constructed object.
-After the move, `other` is left in a **valid but unspecified state** — it must be destructible and
+After the move, `other` is left in a **valid but unspecified state**, it must be destructible and
 Assignable, but its value is not guaranteed [N4950 S11.4.5.3].
 
 ```cpp
@@ -106,7 +106,7 @@ We can prove this requirement from first principles by examining what the Standa
    end of its scope. Since the Standard mandates destruction of all objects regardless of their
    value state, the destructor must handle the moved-from state without error.
 3. Assignment to a moved-from object must work because the Standard requires that the object is
-   "valid" — meaning it can participate in any operation defined for its type, including assignment.
+   "valid", meaning it can participate in any operation defined for its type, including assignment.
 4. "Unspecified" means the implementation (or the type's author) chooses the state, but the program
    must not assume any particular value. The only guarantees are destructibility and assignability.
 
@@ -233,7 +233,7 @@ int main() {
 
 The critical lesson: **declaring any of the Rule-of-Five special member functions suppresses the
 Implicit generation of the others** (with some exceptions for the copy operations when a destructor
-Is declared). This is why the Rule of Five exists — if you manually manage resources in one
+Is declared). This is why the Rule of Five exists, if you manually manage resources in one
 Operation, you must manually manage them in all five.
 
 ## 6.2 Move Assignment Operator
@@ -343,14 +343,14 @@ The object is left in an inconsistent state. The solution is either:
    construction).
 
 For resource-owning types, move assignment should always be `noexcept` because moving Involves only
-pointer swaps and integer assignments — none of which can throw.
+pointer swaps and integer assignments, none of which can throw.
 
 ## 6.3 `noexcept` on Move Operations
 
 Marking move constructors and move assignment operators `noexcept` is **critical** for performance.
 Standard library containers (e.g., `std::vector``std::unordered_map`) use `noexcept` move Operations
 to provide the **strong exception guarantee** during reallocation. If the move Constructor is not
-`noexcept`Containers fall back to copying — negating the benefit of move Semantics [N4950
+`noexcept`Containers fall back to copying, negating the benefit of move Semantics [N4950
 S16.4.5.2.6].
 
 ```cpp
@@ -389,7 +389,7 @@ void container_demo() {
 ```
 
 :::caution
-Genuinely can throw (which is rare — moving should only perform pointer swaps and assignments). The
+Genuinely can throw (which is rare, moving should only perform pointer swaps and assignments). The
 `std::is_nothrow_move_constructible_v<T>` type trait is used by standard containers to select
 Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
@@ -414,9 +414,9 @@ Member function. The interaction between these rules produces the "Rule of Five"
 | :--------------- | :----------------- | :----------------- | :------------------- | :------------------- |
 | Nothing          | Yes                | Yes                | Yes                  | Yes                  |
 | Destructor only  | Yes                | **No**             | Yes                  | **No**               |
-| Copy ctor only   | —                  | **No**             | **No**               | **No**               |
-| Move ctor only   | Deleted            | —                  | Deleted              | Deleted              |
-| Move assign only | Deleted            | Deleted            | Deleted              | —                    |
+| Copy ctor only   |,                  | **No**             | **No**               | **No**               |
+| Move ctor only   | Deleted            |,                  | Deleted              | Deleted              |
+| Move assign only | Deleted            | Deleted            | Deleted              |,                    |
 
 Key observations from this table:
 
@@ -480,16 +480,16 @@ public:
     // 3. Copy constructor
     Resource(const Resource& other)
         : data_(other.size_ ? new int[other.size_] : nullptr)
-        , size_(other.size_)
-        , capacity_(other.size_) {
+size_(other.size_)
+capacity_(other.size_) {
         std::copy(other.data_, other.data_ + size_, data_);
     }
 
     // 4. Move constructor
     Resource(Resource&& other) noexcept
         : data_(other.data_)
-        , size_(other.size_)
-        , capacity_(other.capacity_) {
+size_(other.size_)
+capacity_(other.capacity_) {
         other.data_ = nullptr;
         other.size_ = 0;
         other.capacity_ = 0;
@@ -624,11 +624,11 @@ int main() {
 
 ## Intuition
 
-**Efficient transfers:** Move constructors are like handing over a house key — you give the key to someone else, you no longer have access to the house. RVO eliminates even this copy.
+**Efficient transfers:** Move constructors are like handing over a house key, you give the key to someone else, you no longer have access to the house. RVO eliminates even this copy.
 
 **Why it matters:** Move semantics enable efficient transfer of resources, and RVO eliminates unnecessary copies entirely.
 
-**The key insight:** Move is an optimization for when you're about to destroy the source anyway — it's a "last chance to reuse" optimization.
+**The key insight:** Move is an optimization for when you're about to destroy the source anyway, it's a "last chance to reuse" optimization.
 
 ## Common Pitfalls
 
@@ -705,7 +705,7 @@ int main() {
 ## 7.1 `std::swap` and Move Semantics
 
 `std::swap` is the canonical example of move semantics in action. Prior to C++11, `std::swap` used
-Three copies. Since C++11, it uses three moves — which for resource-owning types means three pointer
+Three copies. Since C++11, it uses three moves, which for resource-owning types means three pointer
 Swaps instead of three deep copies [N4950 S16.4.3.3].
 
 ```cpp
@@ -723,8 +723,8 @@ constexpr void swap(T& a, T& b) noexcept(
 ```
 
 For a `Buffer` class with a move constructor and move assignment operator, `std::swap` performs
-Three pointer swaps and three size assignments — **O(1)** regardless of buffer size. Without move
-Semantics, it would perform three deep copies — **O(n)**.
+Three pointer swaps and three size assignments, **O(1)** regardless of buffer size. Without move
+Semantics, it would perform three deep copies, **O(n)**.
 
 ## 7.2 Custom Swap for a Resource-Owning Class
 

@@ -140,7 +140,7 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
 
 - **Forgetting to transform boundary conditions when using Laplace transforms.** The Laplace
   transform incorporates initial conditions at $t = 0$. If the problem has boundary conditions at
-  $t = 0$ and $t = L$, the Laplace transform may not be the right tool — consider using Fourier
+  $t = 0$ and $t = L$, the Laplace transform may not be the right tool, consider using Fourier
   series or separation of variables instead.
 
 - **Applying the method of undetermined coefficients when the forcing term is not of the right

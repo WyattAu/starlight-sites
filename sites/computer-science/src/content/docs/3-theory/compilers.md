@@ -373,7 +373,7 @@ UNIFY(t1, t2):
     if t1 == t2: return
     if t1 is type variable and t1 not in t2: substitute(t1, t2)
     if t2 is type variable and t2 not in t1: substitute(t2, t1)
-    if t1 = T(s1,...,sn) and t2 = T(s1,...,sm) and n == m:
+    if t1 = T(s1...,sn) and t2 = T(s1...,sm) and n == m:
         for i = 1 to n: UNIFY(si, ti)
     else: error "type mismatch"
 ```
@@ -450,7 +450,7 @@ After SSA:
 
 **Dominance:** Node $d$ dominates node $n$ if every path from entry to $n$ passes through $d$.
 
-**Dominance frontier:** The set of nodes where dominance ends — exactly where $\phi$-functions are
+**Dominance frontier:** The set of nodes where dominance ends, exactly where $\phi$-functions are
 placed.
 
 ```

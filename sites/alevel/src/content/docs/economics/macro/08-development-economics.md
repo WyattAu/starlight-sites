@@ -36,7 +36,7 @@ flowchart TD
 > **Info:** Board Coverage Edexcel P1, P3 | CIE P2, P4
 Development economics studies how nations transform from low-income, less-productive economies into
 High-income, modern economies. It is distinct from mainstream macroeconomics because it must grapple
-With institutional failure, poverty traps, and structural transformation — problems that are largely
+With institutional failure, poverty traps, and structural transformation, problems that are largely
 Absent in advanced economies.
 
 ## 1. What is Development?
@@ -46,7 +46,7 @@ Political, and social well-being of its people. It encompasses not just growth i
 Improvements in health, education, living standards, and political freedom.
 
 **Definition.** **Economic growth** is an increase in a country"s real GDP or real GDP per capita.
-Growth is a **necessary but not sufficient** condition for development — a country can grow without
+Growth is a **necessary but not sufficient** condition for development, a country can grow without
 Developing if the gains accrue to a small elite.
 
 **Key distinction:**
@@ -66,12 +66,12 @@ Always use multiple indicators.
 
 ### 2.1 Economic Indicators
 
-**GDP per capita** — total output divided by population. Adjusted for purchasing power Parity (PPP)
+**GDP per capita**, total output divided by population. Adjusted for purchasing power Parity (PPP)
 to account for differences in price levels between countries.
 
 $$\mathrm{GDP per capita (PPP)} = \frac{\mathrm{GDP (PPP)}}{\mathrm{Population}}$$
 
-**GNI per capita** — GDP plus net income from abroad (remittances, profits from overseas
+**GNI per capita**, GDP plus net income from abroad (remittances, profits from overseas
 Investments). The World Bank uses GNI per capita to classify countries:
 
 | Classification | GNI per capita (2024) |
@@ -103,7 +103,7 @@ $$0 \leq \mathrm{HDI} \leq 1$$
 ### 2.3 Income Inequality: The Gini Coefficient
 
 **Definition.** The **Gini coefficient** measures income inequality within a country. It ranges from
-$0$ (perfect equality — everyone has the same income) to $1$ (perfect inequality — one person has
+$0$ (perfect equality, everyone has the same income) to $1$ (perfect inequality, one person has
 All the income).
 
 The Gini coefficient is derived from the **Lorenz curve**, which plots the cumulative share of
@@ -158,7 +158,7 @@ $$\frac{Y}{L} = A \cdot f\left(\frac{K}{L}\right)$$
 **Sources of growth:**
 
 1. **Capital accumulation** ($\Delta K$): investment in physical capital (machinery, infrastructure,
-   buildings). Subject to diminishing returns — each additional unit of capital produces less output
+   buildings). Subject to diminishing returns, each additional unit of capital produces less output
    than the last.
 2. **Labour force growth** ($\Delta L$): increases in population or labour force participation.
 3. **Technological progress** ($\Delta A$): improvements in knowledge, techniques, and efficiency.
@@ -230,7 +230,7 @@ Africa needs $93$ billion per year in infrastructure investment.
 ### 4.4 Demographic Challenges
 
 High population growth can outpace economic growth, leading to falling GDP per capita. Many
-Developing countries have a **youth bulge** — a large proportion of young people — which can be a
+Developing countries have a **youth bulge**, a large proportion of young people, which can be a
 Demographic dividend (if jobs are created) or a source of instability (if not).
 
 ### 4.5 Other Barriers
@@ -323,7 +323,7 @@ Multilaterally (through the World Bank, IMF, UN).
 To low-income individuals who lack access to traditional banking. Pioneered by Muhammad Yunus
 (Grameen Bank, Bangladesh, Nobel Prize 2006).
 
-Microfinance targets entrepreneurs — women — who need small amounts of capital to start or Expand
+Microfinance targets entrepreneurs, women, who need small amounts of capital to start or Expand
 businesses (e.g., buying a sewing machine, seeds, a market stall).
 
 ## 6. Trade and Development
@@ -332,8 +332,8 @@ businesses (e.g., buying a sewing machine, seeds, a market stall).
 
 Developing countries have a comparative advantage in:
 
-- Primary commodities (agriculture, minerals, oil) — abundant land and natural resources.
-- Labour-intensive manufactured goods (textiles, clothing, assembly) — abundant low-cost labour.
+- Primary commodities (agriculture, minerals, oil), abundant land and natural resources.
+- Labour-intensive manufactured goods (textiles, clothing, assembly), abundant low-cost labour.
 
 ### 6.2 The Prebisch-Singer Hypothesis
 

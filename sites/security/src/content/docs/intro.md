@@ -23,8 +23,8 @@ Concern alongside reliability, performance, and correctness.
 
 The modern threat landscape is defined by scale and sophistication. Nation-state actors operate with
 Resources that rival the budgets of the organizations they target. Organized crime groups monetize
-Access through ransomware, data exfiltration, and credential resale. Insider threats — whether
-Malicious or negligent — account for a significant fraction of breaches. Supply chain attacks
+Access through ransomware, data exfiltration, and credential resale. Insider threats, whether
+Malicious or negligent, account for a significant fraction of breaches. Supply chain attacks
 Compromise trusted software to reach thousands of downstream victims simultaneously.
 
 The cost of failure is material. The average data breach costs organizations millions of USD, and
@@ -34,7 +34,7 @@ Incident.
 ## Security as a Systems Engineering Discipline
 
 Security failures are almost always systems failures. A buffer overflow in a C library, a
-Misconfigured S3 bucket, an overly permissive IAM policy, a leaked JWT secret — these are not crypto
+Misconfigured S3 bucket, an overly permissive IAM policy, a leaked JWT secret, these are not crypto
 Problems or network problems or application problems. They are systems problems that manifest at a
 Particular layer.
 
@@ -64,7 +64,7 @@ That the failure of any one mechanism does not result in total compromise. A web
 Protected by WAF, input validation, parameterized queries, and least-privilege database credentials
 Is resilient in ways that an application relying on any single one of those controls is not.
 
-The key insight is **independence** — controls must fail independently. Two firewalls from the same
+The key insight is **independence**, controls must fail independently. Two firewalls from the same
 Vendor with the same rule set are not two independent controls.
 
 ## The Security Mindset
@@ -73,7 +73,7 @@ Security engineering requires a particular mindset: assume components fail, assu
 Drift, assume attackers have more information than you think, and assume that what you do not
 Explicitly deny is permitted.
 
-This is adversarial thinking — not paranoia, but disciplined skepticism. The question is not "does
+This is adversarial thinking, not paranoia, but disciplined skepticism. The question is not "does
 This work?" but "what happens when this is used in ways I did not intend?"
 
 ## Scope of This Section

@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## International Trade and Finance — Diagnostic Tests
+## International Trade and Finance, Diagnostic Tests
 
 ## Unit Tests
 
@@ -242,11 +242,11 @@ flowchart TD
 
 ## Intuition
 
-**Trading for mutual gain:** International trade is like a potluck dinner — everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.
+**Trading for mutual gain:** International trade is like a potluck dinner, everyone brings what they're best at making, and everyone eats better than if they tried to cook everything themselves. Comparative advantage, not absolute advantage, drives the gains.
 
 **Why it matters:** Trade policies affect everything from job availability to product prices. Understanding comparative advantage explains why countries specialize and trade.
 
-**The key insight:** A country can benefit from trade even if it's worse at producing everything — what matters is relative efficiency, not absolute efficiency.
+**The key insight:** A country can benefit from trade even if it's worse at producing everything, what matters is relative efficiency, not absolute efficiency.
 
 ## Additional DSE Exam-Style Questions
 

@@ -38,7 +38,7 @@ To the CPU, and sequential execution of instructions.
 ### Key Property: Stored Program Concept
 
 Both instructions and data reside in the same memory. The CPU fetches instructions from memory,
-Decodes them, and executes them. This is the **stored program concept** — the machine can modify its
+Decodes them, and executes them. This is the **stored program concept**, the machine can modify its
 Own instructions (though modern systems prevent this for security).
 
 <hr />
@@ -78,7 +78,7 @@ The ALU performs:
 - **Comparison operations:** equal, less than, greater than
 - **Bitwise operations:** shift, rotate
 
-The ALU is a combinational circuit — it has no internal state. It takes inputs from registers and
+The ALU is a combinational circuit, it has no internal state. It takes inputs from registers and
 Produces outputs that are written back to registers.
 
 ### Control Unit (CU)
@@ -244,7 +244,7 @@ Each memory block maps to exactly one cache line.
 $$\mathrm{Cache line} = \mathrm{Block address} \bmod (\mathrm{Number of cache lines})$$
 
 - **Advantage:** Simple, fast lookup
-- **Disadvantage:** Conflict misses — two frequently used blocks mapping to the same line evict each
+- **Disadvantage:** Conflict misses, two frequently used blocks mapping to the same line evict each
   other
 
 #### Fully Associative Mapping
@@ -301,8 +301,8 @@ addresses using a **page table**.
 The TLB is a small, fast cache of recently used page table entries. It avoids the overhead of a full
 Page table lookup for every memory access.
 
-- **TLB hit:** Translation found in TLB — fast (1–2 cycles)
-- **TLB miss:** Must consult page table — slow (10–100 cycles)
+- **TLB hit:** Translation found in TLB, fast (1–2 cycles)
+- **TLB miss:** Must consult page table, slow (10–100 cycles)
 
 ### Page Fault
 

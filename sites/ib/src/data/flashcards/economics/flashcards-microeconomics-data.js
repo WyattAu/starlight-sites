@@ -41,7 +41,7 @@ export const flashcard2 = [
   {
     id: 'ms-3',
     front: 'What is an oligopoly and what is its most distinctive feature?',
-    back: "A market dominated by a few large firms with high barriers to entry. The most distinctive feature is interdependence — each firm’s decisions (price, output, advertising) directly affect and are affected by rivals' actions. This leads to strategic behaviour, price rigidity (kinked demand curve), and potential collusion.",
+    back: "A market dominated by a few large firms with high barriers to entry. The most distinctive feature is interdependence, each firm’s decisions (price, output, advertising) directly affect and are affected by rivals' actions. This leads to strategic behaviour, price rigidity (kinked demand curve), and potential collusion.",
     tags: ['market-structures'],
     difficulty: 'medium',
   },
@@ -55,7 +55,7 @@ export const flashcard2 = [
   {
     id: 'mf-2',
     front: 'Define a public good and explain why the free market fails to provide it.',
-    back: 'A public good is non-excludable (cannot prevent non-payers from consuming) and non-rivalrous (one person’s consumption does not reduce availability for others). The free market underprovides because of the free-rider problem — rational individuals will not pay, knowing they can consume for free.',
+    back: 'A public good is non-excludable (cannot prevent non-payers from consuming) and non-rivalrous (one person’s consumption does not reduce availability for others). The free market underprovides because of the free-rider problem, rational individuals will not pay, knowing they can consume for free.',
     tags: ['market-failure'],
     difficulty: 'medium',
   },

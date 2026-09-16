@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**English literature explores the human experience through language — words painting pictures of life.**
+**English literature explores the human experience through language, words painting pictures of life.**
 
 ## The Great Gatsby
 
@@ -89,7 +89,7 @@ The final line, "So we beat on, boats against the current, borne back ceaselessl
 
 ## Class and Wealth in 1920s America
 
-Fitzgerald distinguishes between established wealth (East Egg), new money (West Egg), and poverty (the Valley of Ashes). Tom and Daisy Buchanan represent old money: their wealth is inherited, effortless, and shielded from consequence. Their carelessness is explicit: "They were careless people, Tom and Daisy—they smashed up things and creatures and then retreated back into their money."
+Fitzgerald distinguishes between established wealth (East Egg), new money (West Egg), and poverty (the Valley of Ashes). Tom and Daisy Buchanan represent old money: their wealth is inherited, effortless, and shielded from consequence. Their carelessness is explicit: "They were careless people, Tom and Daisy–they smashed up things and creatures and then retreated back into their money."
 
 Gatsby's new money cannot purchase the social legitimacy that old money provides. His mansion, his parties, and his shirts are performances of wealth that fail to convince the Buchanans. Jordan Baker articulates this class rigidity when she recalls that Gatsby "had a lot of wild parties" but was not accepted by the East Egg establishment.
 
@@ -100,9 +100,9 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 | Quotation | Significance |
 | ----------- | ------------- |
 | "So we beat on, boats against the current, borne back ceaselessly into the past" | Final line: universalises the futility of the American Dream |
-| "I hope she'll be a fool—that's the best thing a girl can be in this world, a beautiful little fool" | Daisy's cynicism about women's roles; patriarchal society |
+| "I hope she'll be a fool–that's the best thing a girl can be in this world, a beautiful little fool" | Daisy's cynicism about women's roles; patriarchal society |
 | "He had come a long way to this blue lawn, and his dream must have seemed so close that he could hardly fail to grasp it" | Gatsby's proximity to and distance from his dream |
-| "They were careless people, Tom and Daisy—they smashed up things and creatures" | Moral bankruptcy of the wealthy |
+| "They were careless people, Tom and Daisy–they smashed up things and creatures" | Moral bankruptcy of the wealthy |
 | "I hope she'll be a fool" | Daisy's awareness of her own constrained agency |
 
 ## Exam-Style Questions
@@ -122,11 +122,11 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 
 ## Common Mistakes
 
-**Reading the green light as a simple symbol with one fixed meaning:** The green light at the end of Daisy's dock operates on multiple levels — hope, the American Dream, the unattainable past, class aspiration. Reducing it to a single meaning ("it represents the American Dream") misses the layered ambiguity that makes the symbol powerful. Discuss how its meaning shifts across the novel.
+**Reading the green light as a simple symbol with one fixed meaning:** The green light at the end of Daisy's dock operates on multiple levels, hope, the American Dream, the unattainable past, class aspiration. Reducing it to a single meaning ("it represents the American Dream") misses the layered ambiguity that makes the symbol powerful. Discuss how its meaning shifts across the novel.
 
 **Conflating Gatsby's dream with the American Dream uncritically:** Gatsby's personal obsession with Daisy mirrors the broader American Dream, but the novel also critiques both. Gatsby's dream is built on criminal wealth and self-invention; the American Dream promises merit-based success. The parallel invites critique, not identification. Consider how Fitzgerald uses Gatsby to expose the hollowness of the Dream.
 
-**Forgetting that Nick is an unreliable narrator:** Nick claims to be "one of the few honest people" he has ever known, yet his account is full of contradictions, omissions, and self-justifications. His judgement of other characters reflects his own values and blind spots. Always question what Nick tells you — the novel's meaning often lies in the gap between his account and the truth.
+**Forgetting that Nick is an unreliable narrator:** Nick claims to be "one of the few honest people" he has ever known, yet his account is full of contradictions, omissions, and self-justifications. His judgement of other characters reflects his own values and blind spots. Always question what Nick tells you, the novel's meaning often lies in the gap between his account and the truth.
 
 ## See Also
 

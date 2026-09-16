@@ -55,7 +55,7 @@ flowchart TD
 
 ## Why This Guide Exists
 
-TrueNAS is the leading open-source storage operating system, powering everything from home media servers to enterprise-grade storage arrays. Built on ZFS — the most advanced filesystem available — TrueNAS provides data integrity, snapshotting, replication, and sharing capabilities that rival commercial storage solutions costing many times more.
+TrueNAS is the leading open-source storage operating system, powering everything from home media servers to enterprise-grade storage arrays. Built on ZFS, the most advanced filesystem available, TrueNAS provides data integrity, snapshotting, replication, and sharing capabilities that rival commercial storage solutions costing many times more.
 
 This hub page maps every resource on this site. Whether you are setting up your first NAS, migrating from another storage platform, or optimising an existing TrueNAS deployment, the guides below give you the knowledge to configure, maintain, and troubleshoot your system with confidence. The guides cover both TrueNAS CORE (FreeBSD-based) and TrueNAS SCALE (Linux-based), highlighting where the platforms differ.
 
@@ -115,23 +115,23 @@ ZFS (Zettabyte File System) is the foundation of TrueNAS. Understanding ZFS is e
 
 ### ZFS Concepts
 
-- **Pool (zpool)** — the top-level storage container; made up of one or more virtual devices (vdevs)
-- **Dataset** — a logical division within a pool; similar to a partition but more flexible
-- **Zvol** — a block device exported from a pool; used for iSCSI and VM storage
-- **Snapshot** — a point-in-time, read-only copy of a dataset; nearly instant to create
-- **Scrub** — a data integrity check that reads all blocks and verifies checksums
-- **Resilver** — the process of rebuilding a degraded vdev after replacing a failed disk
-- **RAIDZ** — ZFS's RAID implementation; RAIDZ1, RAIDZ2, and RAIDZ3 provide 1, 2, or 3 disk redundancy
+- **Pool (zpool)**, the top-level storage container; made up of one or more virtual devices (vdevs)
+- **Dataset**, a logical division within a pool; similar to a partition but more flexible
+- **Zvol**, a block device exported from a pool; used for iSCSI and VM storage
+- **Snapshot**, a point-in-time, read-only copy of a dataset; nearly instant to create
+- **Scrub**, a data integrity check that reads all blocks and verifies checksums
+- **Resilver**, the process of rebuilding a degraded vdev after replacing a failed disk
+- **RAIDZ**, ZFS's RAID implementation; RAIDZ1, RAIDZ2, and RAIDZ3 provide 1, 2, or 3 disk redundancy
 
 ### Pool Layouts
 
 ```
-Single Disk        — no redundancy, maximum capacity
-Mirror (RAID 1)    — 2-way or 3-way mirror; best performance, 50% capacity
-RAIDZ1             — single parity; tolerates 1 disk failure
-RAIDZ2             — double parity; tolerates 2 disk failures
-RAIDZ3             — triple parity; tolerates 3 disk failures
-Stripe of Mirrors  — mirrors striped together; excellent performance and redundancy
+Single Disk, no redundancy, maximum capacity
+Mirror (RAID 1), 2-way or 3-way mirror; best performance, 50% capacity
+RAIDZ1, single parity; tolerates 1 disk failure
+RAIDZ2, double parity; tolerates 2 disk failures
+RAIDZ3, triple parity; tolerates 3 disk failures
+Stripe of Mirrors, mirrors striped together; excellent performance and redundancy
 ```
 
 ### Recommended Layouts
@@ -148,12 +148,12 @@ Stripe of Mirrors  — mirrors striped together; excellent performance and redun
 
 Datasets are ZFS's most powerful feature for storage management. Each dataset can have independent:
 
-- **Quotas** — limit disk usage per dataset
-- **Reservations** — guarantee minimum disk space
-- **Compression** — algorithm and level (lz4, zstd, gzip)
-- **Deduplication** — remove duplicate blocks (memory-intensive)
-- **Snapshot policy** — automatic snapshots at defined intervals
-- **Replication target** — where snapshots are sent
+- **Quotas**, limit disk usage per dataset
+- **Reservations**, guarantee minimum disk space
+- **Compression**, algorithm and level (lz4, zstd, gzip)
+- **Deduplication**, remove duplicate blocks (memory-intensive)
+- **Snapshot policy**, automatic snapshots at defined intervals
+- **Replication target**, where snapshots are sent
 
 ### Key ZFS Commands
 
@@ -178,12 +178,12 @@ Setting up TrueNAS correctly from the start prevents headaches later.
 
 ### Hardware Requirements
 
-- **CPU** — 64-bit processor; 2+ cores for basic use, 4+ for apps and VMs
-- **RAM** — 8 GB minimum; 1 GB per TB of storage recommended; ECC RAM preferred
-- **Boot device** — SSD (32 GB+); avoid USB boot drives for reliability
-- **Storage drives** — NAS-rated drives (WD Red, Seagate IronWolf) for always-on use
-- **Network** — Gigabit Ethernet minimum; 10GbE for high-performance needs
-- **HBA** — Host Bus Adapter for connecting multiple drives; LSI HBAs are well-supported
+- **CPU**, 64-bit processor; 2+ cores for basic use, 4+ for apps and VMs
+- **RAM**, 8 GB minimum; 1 GB per TB of storage recommended; ECC RAM preferred
+- **Boot device**, SSD (32 GB+); avoid USB boot drives for reliability
+- **Storage drives**, NAS-rated drives (WD Red, Seagate IronWolf) for always-on use
+- **Network**, Gigabit Ethernet minimum; 10GbE for high-performance needs
+- **HBA**, Host Bus Adapter for connecting multiple drives; LSI HBAs are well-supported
 
 ### Installation Steps
 
@@ -198,11 +198,11 @@ Setting up TrueNAS correctly from the start prevents headaches later.
 
 After installation, configure:
 
-- **Network** — set a static IP address
-- **Time zone** — important for accurate logs and snapshots
-- **Email** — for alert notifications
-- **Root password** — change the default immediately
-- **Updates** — check for and apply the latest updates
+- **Network**, set a static IP address
+- **Time zone**, important for accurate logs and snapshots
+- **Email**, for alert notifications
+- **Root password**, change the default immediately
+- **Updates**, check for and apply the latest updates
 
 ---
 
@@ -214,8 +214,8 @@ TrueNAS supports multiple sharing protocols for different use cases.
 
 SMB is the most commonly used protocol for file sharing. TrueNAS provides two options:
 
-- **Unix shares** — simple SMB shares with POSIX permissions
-- **Windows ACL shares** — full Windows Access Control List support
+- **Unix shares**, simple SMB shares with POSIX permissions
+- **Windows ACL shares**, full Windows Access Control List support
 
 **Configuration steps:**
 
@@ -247,10 +247,10 @@ Legacy Apple file sharing. SMB is now preferred for macOS.
 
 TrueNAS permissions follow the POSIX model (CORE) or can use Windows ACLs (SCALE):
 
-- **Owner** — the user who owns the file
-- **Group** — the group that owns the file
-- **Access mode** — read, write, execute for owner, group, and others
-- **ACLs** — fine-grained permissions for specific users and groups
+- **Owner**, the user who owns the file
+- **Group**, the group that owns the file
+- **Access mode**, read, write, execute for owner, group, and others
+- **ACLs**, fine-grained permissions for specific users and groups
 
 ---
 
@@ -321,13 +321,13 @@ SCALE uses Kubernetes (via k3s) to manage containerised applications.
 
 **Popular apps:**
 
-- **Plex Media Server** — media streaming and library management
-- **Nextcloud** — self-hosted cloud storage and collaboration
-- **Pi-hole** — network-wide DNS ad blocking
-- **Portainer** — Docker container management UI
-- **Transmission/qBittorrent** — download management
-- **Jellyfin** — open-source media server
-- **Emby** — media server with transcoding
+- **Plex Media Server**, media streaming and library management
+- **Nextcloud**, self-hosted cloud storage and collaboration
+- **Pi-hole**, network-wide DNS ad blocking
+- **Portainer**, Docker container management UI
+- **Transmission/qBittorrent**, download management
+- **Jellyfin**, open-source media server
+- **Emby**, media server with transcoding
 
 **Installing apps:**
 
@@ -358,10 +358,10 @@ Monitoring your TrueNAS system ensures you catch problems before they cause data
 
 TrueNAS provides dashboards for:
 
-- **System** — CPU, memory, disk usage, and uptime
-- **Network** — interface traffic, connections, and latency
-- **Storage** — pool usage, I/O, and disk health
-- **Services** — status of SMB, NFS, and other services
+- **System**, CPU, memory, disk usage, and uptime
+- **Network**, interface traffic, connections, and latency
+- **Storage**, pool usage, I/O, and disk health
+- **Services**, status of SMB, NFS, and other services
 
 ### SMART Monitoring
 
@@ -394,9 +394,9 @@ TrueNAS can send alerts via:
 
 For advanced monitoring, integrate with:
 
-- **Grafana + Prometheus** — visual dashboards and metrics
-- **Netdata** — real-time performance monitoring
-- **Zabbix** — enterprise monitoring platform
+- **Grafana + Prometheus**, visual dashboards and metrics
+- **Netdata**, real-time performance monitoring
+- **Zabbix**, enterprise monitoring platform
 
 ---
 
@@ -406,11 +406,11 @@ Optimising TrueNAS performance involves tuning ZFS, network, and hardware settin
 
 ### ZFS Tuning
 
-- **Record size** — match to workload (128 KB default; 1 MB for large files, 4 KB for databases)
-- **Compression** — lz4 is fast with minimal CPU overhead; zstd offers better ratios
-- **ARC size** — ZFS uses RAM for caching; more RAM = better read performance
-- **Sync writes** — synchronous writes ensure data is on disk before acknowledging; use `sync=standard` or `sync=always` based on data criticality
-- **Dataset record size** — tune per-dataset for specific workloads
+- **Record size**, match to workload (128 KB default; 1 MB for large files, 4 KB for databases)
+- **Compression**, lz4 is fast with minimal CPU overhead; zstd offers better ratios
+- **ARC size**, ZFS uses RAM for caching; more RAM = better read performance
+- **Sync writes**, synchronous writes ensure data is on disk before acknowledging; use `sync=standard` or `sync=always` based on data criticality
+- **Dataset record size**, tune per-dataset for specific workloads
 
 ### Network Tuning
 
@@ -466,12 +466,12 @@ Securing your TrueNAS system protects your data from unauthorised access and thr
 
 TrueNAS administration connects to several other areas of IT:
 
-- **[Linux Administration](https://linux.wyattau.com/hub)** — Linux fundamentals relevant to TrueNAS SCALE
-- **[Networking](https://networking.wyattau.com/hub)** — network configuration, VLANs, and troubleshooting
-- **[Security](https://security.wyattau.com/hub)** — security hardening and vulnerability assessment
-- **[Performance Tuning](https://tuning.wyattau.com/hub)** — system-level optimisation techniques
-- **[Databases](https://databases.wyattau.com/hub)** — database storage and backup strategies
-- **[Docker and Kubernetes](https://tools.wyattau.com/kubernetes-docker)** — containerisation for TrueNAS SCALE apps
+- **[Linux Administration](https://linux.wyattau.com/hub)**, Linux fundamentals relevant to TrueNAS SCALE
+- **[Networking](https://networking.wyattau.com/hub)**, network configuration, VLANs, and troubleshooting
+- **[Security](https://security.wyattau.com/hub)**, security hardening and vulnerability assessment
+- **[Performance Tuning](https://tuning.wyattau.com/hub)**, system-level optimisation techniques
+- **[Databases](https://databases.wyattau.com/hub)**, database storage and backup strategies
+- **[Docker and Kubernetes](https://tools.wyattau.com/kubernetes-docker)**, containerisation for TrueNAS SCALE apps
 
 ---
 

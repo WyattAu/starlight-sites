@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## States of Matter — Diagnostic Tests
+## States of Matter, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**States of matter are like different dance formations — solid (rigid), liquid (flowing), gas (free), plasma (ionized):** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact
+**States of matter are like different dance formations, solid (rigid), liquid (flowing), gas (free), plasma (ionized):** Phase transitions occur when thermal energy overcomes intermolecular forces, changing how particles interact
 
 **Why it matters:** Understanding states of matter explains weather, cooking, refrigeration, and industrial processes
 

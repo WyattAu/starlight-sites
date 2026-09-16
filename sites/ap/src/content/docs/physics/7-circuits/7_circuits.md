@@ -322,15 +322,15 @@ reduces the Voltage across the measured component.
 
 ## Intuition
 
-Circuits are **networks of energy transfer** — charges gain energy from batteries (EMF sources) and lose it in resistors (dissipated as heat). Kirchhoff's laws are just conservation of charge and energy applied to circuit loops.
+Circuits are **networks of energy transfer**, charges gain energy from batteries (EMF sources) and lose it in resistors (dissipated as heat). Kirchhoff's laws are just conservation of charge and energy applied to circuit loops.
 
 **Ohm's law intuition:** $V = IR$ says that pushing more voltage through a resistor produces more current, but the resistor pushes back proportionally. It's like water pressure (voltage) pushing water (current) through a pipe with friction (resistance). Thinner pipe = more resistance = less flow for the same pressure.
 
-**Series vs parallel intuition:** In series, the same current flows through all components — like water flowing through pipes connected end-to-end. Voltage divides among them. In parallel, the same voltage appears across all components — like pipes branching from the same source. Current divides among them.
+**Series vs parallel intuition:** In series, the same current flows through all components, like water flowing through pipes connected end-to-end. Voltage divides among them. In parallel, the same voltage appears across all components, like pipes branching from the same source. Current divides among them.
 
-**RC circuit intuition:** A capacitor charges exponentially — fast at first (when it's empty and "wants" charge), then slower as it fills. The time constant $\tau = RC$ tells you how fast: after one $\tau$, it's 63% charged; after $5\tau$, it's effectively full. The resistor controls the *rate*; the capacitor and voltage determine the *final charge*.
+**RC circuit intuition:** A capacitor charges exponentially, fast at first (when it's empty and "wants" charge), then slower as it fills. The time constant $\tau = RC$ tells you how fast: after one $\tau$, it's 63% charged; after $5\tau$, it's effectively full. The resistor controls the *rate*; the capacitor and voltage determine the *final charge*.
 
-**Energy insight:** When charging a capacitor through a resistor, exactly half the energy from the battery is stored in the capacitor and half is dissipated as heat in the resistor — regardless of the resistance value. This is a fundamental result, not a coincidence.
+**Energy insight:** When charging a capacitor through a resistor, exactly half the energy from the battery is stored in the capacitor and half is dissipated as heat in the resistor, regardless of the resistance value. This is a fundamental result, not a coincidence.
 
 ## Common Pitfalls
 
@@ -490,5 +490,5 @@ linked above.
 
 - **[Electrostatics](../6-electrostatics/6_electrostatics):** Understanding electric fields and potential is essential for circuit analysis.
 - **[Work, Energy, and Power](../3-work-energy-power/3_work-energy-power):** Electrical power and energy dissipation in resistors follow the same power formulas.
-- **[Magnetism](../8-magnetism/8_magnetism):** Changing currents create magnetic fields — the bridge between circuits and magnetism.
-- **[AP Calculus — Differential Equations](../../maths/4-differential-equations/4_differential-equations):** RC and LR circuits are governed by first-order differential equations; charging and discharging capacitors follow exponential solutions derived from calculus.
+- **[Magnetism](../8-magnetism/8_magnetism):** Changing currents create magnetic fields, the bridge between circuits and magnetism.
+- **[AP Calculus, Differential Equations](../../maths/4-differential-equations/4_differential-equations):** RC and LR circuits are governed by first-order differential equations; charging and discharging capacitors follow exponential solutions derived from calculus.

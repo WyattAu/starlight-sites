@@ -540,7 +540,7 @@ gem 'puma', '~> 6.0'
 gem 'bootsnap', require: false
 
 # Gems used only in specific environments
-group :development, :test do
+group :development:test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'pry-rails'

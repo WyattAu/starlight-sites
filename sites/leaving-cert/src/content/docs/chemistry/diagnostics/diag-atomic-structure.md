@@ -360,7 +360,7 @@ expected properties. The element has not yet been synthesised, so the claim rema
 
 **Why it matters:** Understanding atomic structure explains the periodic table's organisation, why elements in the same group behave similarly, and how chemical bonds form.
 
-**The key insight:** The periodic table is a map of electron configurations — each row adds a new electron shell, and each column shares the same valence electron arrangement.
+**The key insight:** The periodic table is a map of electron configurations, each row adds a new electron shell, and each column shares the same valence electron arrangement.
 
 
 ```mermaid

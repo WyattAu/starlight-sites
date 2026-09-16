@@ -57,7 +57,7 @@ Optics studies the behavior of light, including reflection, refraction, diffract
 - Critical angle: $\sin\theta_c = \frac{n_2}{n_1}$ (for total internal reflection)
 - Young's double slit: fringe width $\beta = \frac{\lambda D}{d}$
 
-## Worked Example 1 — Mirror Equation
+## Worked Example 1, Mirror Equation
 
 **Problem:** An object is placed 30 cm in front of a concave mirror of focal length 15 cm. Find the image position and magnification.
 
@@ -83,7 +83,7 @@ The image is real, inverted, and the same size as the object.
 
 **Common mistake:** Forgetting the sign convention. For mirrors, $f$ is negative for concave mirrors (when the object is outside the focal point).
 
-## Worked Example 2 — Lens Equation
+## Worked Example 2, Lens Equation
 
 **Problem:** A convex lens of focal length 20 cm forms a real image at 60 cm from the lens. Find the object distance and magnification.
 
@@ -109,7 +109,7 @@ The image is real, inverted, and twice the size of the object.
 
 **Common mistake:** Using the mirror equation for lenses. The lens equation has a minus sign between $1/v$ and $1/u$.
 
-## Worked Example 3 — Total Internal Reflection
+## Worked Example 3, Total Internal Reflection
 
 **Problem:** A ray of light travels from glass ($n = 1.5$) to air. Find the critical angle for total internal reflection.
 
@@ -150,18 +150,18 @@ A real image is formed where light rays actually converge and can be projected o
 
 ## Intuition
 
-**Light follows the rules of geometry — until it doesn't:** Geometric optics treats light as rays that bounce off mirrors and bend through lenses, following simple rules like "angle in equals angle out" for reflection. Think of a mirror as a perfect rebounder — every ray bounces at the same angle it arrived. Lenses are like traffic controllers for light — they bend rays so they converge (convex lens) or diverge (concave lens), focusing images onto screens or into your eyes. Wave optics reveals that light also behaves as a wave, producing interference patterns like ripples overlapping in a pond.
+**Light follows the rules of geometry, until it doesn't:** Geometric optics treats light as rays that bounce off mirrors and bend through lenses, following simple rules like "angle in equals angle out" for reflection. Think of a mirror as a perfect rebounder, every ray bounces at the same angle it arrived. Lenses are like traffic controllers for light, they bend rays so they converge (convex lens) or diverge (concave lens), focusing images onto screens or into your eyes. Wave optics reveals that light also behaves as a wave, producing interference patterns like ripples overlapping in a pond.
 
 **Why it matters:** Optics is the science behind eyeglasses, cameras, microscopes, telescopes, fiber optics, and laser surgery. Understanding how light bends and reflects lets us design instruments that extend human vision from the microscopic to the cosmic scale.
 
-**The key insight:** The sign convention in optics isn't arbitrary — it encodes the physics of real vs. virtual images and ensures the mirror and lens equations work universally, but you must apply it consistently or you'll get nonsensical results.
+**The key insight:** The sign convention in optics isn't arbitrary, it encodes the physics of real vs. virtual images and ensures the mirror and lens equations work universally, but you must apply it consistently or you'll get nonsensical results.
 
 ## Common Exam Patterns
 
 ## Cross-References
 
 - **[Electrostatics](../electrostatics/index):** Electric fields influence the propagation of light through materials (electro-optic effects), connecting optics to electrostatics.
-- **[Magnetic Effects](../magnetic-effects/index):** Electromagnetic theory unifies optics with electricity and magnetism — light is an electromagnetic wave.
+- **[Magnetic Effects](../magnetic-effects/index):** Electromagnetic theory unifies optics with electricity and magnetism, light is an electromagnetic wave.
 - **[Dual Nature](../dual-nature/index):** Wave optics (interference, diffraction) reveals light's wave nature, while the photoelectric effect shows its particle nature.
 - **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** Calculus is used to derive lens equations and analyze ray paths mathematically.
 

@@ -29,7 +29,7 @@ flowchart TD
 
 ## Intuition
 
-**Streetcar is like a pressure cooker — Williams traps his characters in a small apartment where tensions simmer and explode:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South
+**Streetcar is like a pressure cooker, Williams traps his characters in a small apartment where tensions simmer and explode:** Williams uses Blanche's fragile illusions against Stanley's brutal realism to explore the conflict between old and new South
 
 **Why it matters:** Understanding this play reveals themes of desire, delusion, and the American Dream that remain relevant today
 

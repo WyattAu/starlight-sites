@@ -52,47 +52,47 @@ common pitfalls, and exam-style problems.
 
 ## Intuition
 
-**Computer science is the science of problem-solving — it teaches us how to break complex problems into manageable steps:** Computational thinking — abstraction, decomposition, and algorithmic thinking — applies to problems far beyond programming
+**Computer science is the science of problem-solving, it teaches us how to break complex problems into manageable steps:** Computational thinking, abstraction, decomposition, and algorithmic thinking, applies to problems far beyond programming
 
 **Why it matters:** Computer science literacy is essential in the digital age, regardless of your career path
 
-**The key insight:** Computational thinking — abstraction, decomposition, and algorithmic thinking — applies to problems far beyond programming
+**The key insight:** Computational thinking, abstraction, decomposition, and algorithmic thinking, applies to problems far beyond programming
 
 ## Core Topics
 
 ### System Fundamentals
 
 - **[Abstraction and Data Management](./5-abstract-data-structures/1_abstraction-and-data-management)**
-  — Abstraction, data models, and information management
-- **[System Design](./1-system-fundamentals/1_system-design)** — System architecture, design
+Abstraction, data models, and information management
+- **[System Design](./1-system-fundamentals/1_system-design)**, System architecture, design
   methodologies, and UML
-- **[System in Organizations](./1-system-fundamentals/2_system-organization)** — IT systems in
+- **[System in Organizations](./1-system-fundamentals/2_system-organization)**, IT systems in
   business, social and ethical considerations
-- **[Computer Organizations](./2-computer-organization/1_computer-organization)** — Computer
+- **[Computer Organizations](./2-computer-organization/1_computer-organization)**, Computer
   architecture, processors, memory, and input/output systems
 
 ### Data Structures and Algorithms
 
 - **[Algorithms and Data Structures](./4-computational-thinking/2_algorithms-and-data-structures)**
-  — Sorting, searching, linked lists, stacks, queues, trees, and graphs
-- **[Boolean Logic](./4-computational-thinking/1_boolean-logic)** — Logic gates, truth tables, and
+Sorting, searching, linked lists, stacks, queues, trees, and graphs
+- **[Boolean Logic](./4-computational-thinking/1_boolean-logic)**, Logic gates, truth tables, and
   Boolean algebra
 
 ### Programming
 
-- **[Programming Fundamentals](./7-control/1_programming-fundamentals)** — Variables, control
+- **[Programming Fundamentals](./7-control/1_programming-fundamentals)**, Variables, control
   structures, functions, and object-oriented concepts
 
 ### Networks and Databases
 
-- **[Networks](./3-networks/1_networks)** — Network topologies, protocols, encryption, and data
+- **[Networks](./3-networks/1_networks)**, Network topologies, protocols, encryption, and data
   transmission
-- **[Databases](./6-resource-management/1_databases)** — Relational databases, SQL, and data
+- **[Databases](./6-resource-management/1_databases)**, Relational databases, SQL, and data
   modelling
 
 ### Options
 
-- **[OOP (JETS)](./8-object-oriented-programming/1_object-oriented-programming)** — Object-oriented
+- **[OOP (JETS)](./8-object-oriented-programming/1_object-oriented-programming)**, Object-oriented
   programming option topic
 
 ## Related Content

@@ -24,13 +24,13 @@ categories:
 Dart 2.12 introduced sound null safety. This is not a nullable annotation system bolted onto an
 Existing type system. It is a fundamental rewrite of the type hierarchy: `Null` is a subtype of
 Every type, but only of nullable types. The compiler and runtime together guarantee that a
-Non-nullable variable never holds `null` at runtime. This guarantee is **sound** — it holds across
+Non-nullable variable never holds `null` at runtime. This guarantee is **sound**, it holds across
 Function boundaries, class hierarchies, generic instantiations, and asynchronous code paths.
 
 ### Sound vs Unsounded Null Safety
 
 **Definition.** Soundness (in the type-theoretic sense) means: if the type checker accepts a
-Program, no runtime type error related to null dereference can occur. The guarantee is global — it
+Program, no runtime type error related to null dereference can occur. The guarantee is global, it
 Does not depend on the programmer annotating every variable correctly, because the type checker
 Enforces consistency at all boundaries.
 
@@ -40,7 +40,7 @@ Boundaries) means the compiler can miss cases. A variable declared non-nullable 
 Safety is sound because:
 
 1. `Null` is a proper subtype, not a special sentinel value.
-2. Generic types are reified — `List<int>` and `List<int?>` are distinct at runtime.
+2. Generic types are reified, `List<int>` and `List<int?>` are distinct at runtime.
 3. Flow analysis is global across function boundaries (within compilation units).
 4. The runtime enforces null checks at trusted boundaries (e.g., native FFI).
 
@@ -67,15 +67,15 @@ List<String>? maybeNames = null;   // nullable list reference
 non-nullable types. `Object?` is the top type.
 
 ```
-Never        (bottom — no values inhabit this type)
+Never        (bottom, no values inhabit this type)
   |
   Null        (only value is null)
   |
-  int, String, ... (non-nullable types)
+  int, String... (non-nullable types)
   |
   Object      (supertype of all non-nullable types)
   |
-  Object?     (top type — every value is an Object?)
+  Object?     (top type, every value is an Object?)
 ```
 
 ### Null Assertion Operator (`!`)
@@ -101,7 +101,7 @@ void example() {
 // Safe: you just checked for null
 String? name = getName();
 if (name != null) {
-  // Flow analysis promotes name to String here — ! is unnecessary
+  // Flow analysis promotes name to String here, ! is unnecessary
   print(name.length);
 }
 
@@ -127,7 +127,7 @@ String first = external.first!;  // Crashes if first element is null
 
 :::caution
 Promote the type via flow analysis, remove the `!`. If it cannot, prefer a guard or default value.
-The `!` operator is a code smell in production code — it means you are bypassing the safety system.
+The `!` operator is a code smell in production code, it means you are bypassing the safety system.
 
 ### Late Initialization
 
@@ -172,13 +172,13 @@ class Config {
 ```
 
 `late final` allows exactly one assignment. After assignment, the field behaves like a `final` field
-— any subsequent assignment throws at runtime. This is the correct pattern for computed properties
+- any subsequent assignment throws at runtime. This is the correct pattern for computed properties
 That are expensive and should be cached.
 
 #### `late` for Lazy Initialization
 
 When `late` is applied to a top-level or instance variable with an initializer, the initializer runs
-Lazily — on first access, not at declaration time.
+Lazily, on first access, not at declaration time.
 
 ```dart
 // The expensive computation runs only when heavyResource is first accessed
@@ -232,7 +232,7 @@ Final value of the left-hand side.
 ```dart
 String? name;
 name ??= 'default';  // name is now 'default'
-name ??= 'other';    // name remains 'default' — assignment skipped
+name ??= 'other';    // name remains 'default', assignment skipped
 
 // Useful for lazy initialization of mutable fields
 class Lazy {
@@ -247,7 +247,7 @@ Returns `null` if the receiver is `null`Otherwise accesses the member.
 
 ```dart
 String? name;
-int? length = name?.length;  // null — name is null
+int? length = name?.length;  // null, name is null
 
 String? upper = name?.toUpperCase();  // null
 
@@ -284,7 +284,7 @@ Required named parameters (which must be provided by the caller).
 ```dart
 // Before null safety: optional named parameters could be null
 void oldStyle({String name}) {
-  // name could be null — no compile-time guarantee
+  // name could be null, no compile-time guarantee
 }
 
 // After null safety: required enforces non-null at call site
@@ -299,7 +299,7 @@ void withDefault({String name = 'unknown', int age = 0}) {
 
 // Optional nullable
 void optionalNullable({String? name}) {
-  // name may be null — caller can omit or pass null
+  // name may be null, caller can omit or pass null
 }
 ```
 
@@ -308,7 +308,7 @@ The `required` keyword is orthogonal to nullability. A required parameter can ha
 Types to enforce that the caller provides a value.
 
 ```dart
-// required with nullable type — caller must pass something (including null)
+// required with nullable type, caller must pass something (including null)
 void example({required String? name}) {
   // name is nullable, but caller cannot omit it
 }
@@ -350,7 +350,7 @@ String describe(Object value) {
 int eval(Expr expr) => switch (expr) {
   IntLiteral(value: final v) => v,
   AddExpr(left: final l, right: final r) => eval(l) + eval(r),
-  // No default needed — Never return from exhaustive handler
+  // No default needed, Never return from exhaustive handler
 };
 ```
 
@@ -393,9 +393,9 @@ class Example {
   }
 }
 
-// 3. Across function boundaries — no promotion
+// 3. Across function boundaries, no promotion
 String? getName() => 'Dart';
-// getName() returns String? — the caller cannot assume non-null
+// getName() returns String?, the caller cannot assume non-null
 // even if the implementation always returns non-null
 ```
 :::
@@ -537,7 +537,7 @@ Value, it is sign-extended to 64 bits. Always be aware of the C type's range whe
 ### Pointers
 
 **Definition.** `Pointer<T>` represents a memory address pointing to a value of type `T`. It is the
-FFI equivalent of a C pointer (`T*`). Pointers are opaque addresses — they have no built-in bounds
+FFI equivalent of a C pointer (`T*`). Pointers are opaque addresses, they have no built-in bounds
 Checking.
 
 #### Allocation and Deallocation
@@ -788,7 +788,7 @@ final dartResult = result.toDartString();
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
 :::
 :::caution
-Method allocates a new Dart `String` object — it does not take ownership of the C memory. If C
+Method allocates a new Dart `String` object, it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
 
 ### Arrays
@@ -893,7 +893,7 @@ Remain responsive. Always offload potentially long-running native calls to a com
 ### Isolate Architecture
 
 **Definition.** An isolate is Dart's unit of concurrency. Each isolate has its own memory heap,
-Event loop, and thread of execution. Isolates do not share memory — communication between them is
+Event loop, and thread of execution. Isolates do not share memory, communication between them is
 Strictly via message passing through ports.
 
 This is fundamentally different from threads in Java, C++, or Go. In those languages, threads share
@@ -1052,7 +1052,7 @@ class _Request {
 :::
 :::caution
 Receive them in that order. However, messages sent from different isolates to the same port may be
-Interleaved — there is no global ordering guarantee across multiple senders.
+Interleaved, there is no global ordering guarantee across multiple senders.
 
 ### Event Loop Model
 
@@ -1225,7 +1225,7 @@ Is available in Chrome 119+, Firefox 120+, and Safari 17.4+. Older browsers fall
 ### Extension Types (Dart 3)
 
 **Definition.** Extension types (introduced in Dart 3) allow you to define a compile-time wrapper
-Around an existing type. The wrapper has zero runtime overhead — it is erased at compile time. The
+Around an existing type. The wrapper has zero runtime overhead, it is erased at compile time. The
 Extension type's methods are resolved statically and dispatch to the underlying representation's
 API.
 
@@ -1240,7 +1240,7 @@ extension type EmailAddress(String value) {
   String get domain => value.split('@').last;
 }
 
-// Usage — these are distinct types at compile time
+// Usage, these are distinct types at compile time
 void processUser(UserId id, EmailAddress email) {
   print('User ${id.formatted}, domain: ${email.domain}');
 }
@@ -1297,7 +1297,7 @@ Type's method wins.
 
 **Definition.** Sealed classes restrict which classes can extend or implement them. The set of
 Subtypes is known at compile time and must be defined in the same library. This enables exhaustive
-Pattern matching — the compiler knows all possible subtypes and can verify that all cases are
+Pattern matching, the compiler knows all possible subtypes and can verify that all cases are
 Handled.
 
 ```dart
@@ -1320,12 +1320,12 @@ class MulExpr extends Expr {
   MulExpr(this.left, this.right);
 }
 
-// Exhaustive — compiler verifies all subtypes are handled
+// Exhaustive, compiler verifies all subtypes are handled
 int eval(Expr expr) => switch (expr) {
   IntLiteral(:final value) => value,
-  AddExpr(:final left, :final right) => eval(left) + eval(right),
-  MulExpr(:final left, :final right) => eval(left) * eval(right),
-  // No default needed — sealed ensures exhaustiveness
+  AddExpr(:final left:final right) => eval(left) + eval(right),
+  MulExpr(:final left:final right) => eval(left) * eval(right),
+  // No default needed, sealed ensures exhaustiveness
 };
 ```
 
@@ -1365,7 +1365,7 @@ print(entry.value);   // 42
 
 // Destructuring
 final (x, y) = (10, 20);
-final (:name, :age) = (name: "Bob'', age: 25);
+final (:name:age) = (name: "Bob'', age: 25);
 ```
 
 Records are value types. Two records with the same fields are equal:
@@ -1435,7 +1435,7 @@ class Rectangle extends Shape {
 String describe(Shape shape) => switch (shape) {
   Circle(:final radius) when radius > 10 => 'large circle (r=$radius)',
   Circle(:final radius) => 'circle (r=$radius)',
-  Rectangle(:final width, :final height) => 'rect ${width}x$height',
+  Rectangle(:final width:final height) => 'rect ${width}x$height',
 };
 
 // Record destructuring
@@ -1534,7 +1534,7 @@ Does not detect use-after-free.
 // DANGEROUS: pointer used after free
 final ptr = malloc<Int32>();
 malloc.free(ptr);
-print(ptr.value);  // Undefined behavior — memory may have been reused
+print(ptr.value);  // Undefined behavior, memory may have been reused
 
 // DANGEROUS: pointer outlives the isolate that allocated it
 Pointer<Int32> globalPtr;

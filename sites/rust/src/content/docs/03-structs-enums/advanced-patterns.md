@@ -29,7 +29,7 @@ flowchart TD
 ## Newtype Pattern
 
 The newtype pattern wraps an existing type in a tuple struct, creating a distinct type with the same
-Memory representation. This provides type safety without runtime overhead — the compiler eliminates
+Memory representation. This provides type safety without runtime overhead, the compiler eliminates
 The wrapper after optimization.
 
 ### Type Safety Through Wrapping
@@ -456,7 +456,7 @@ struct Point {
 }
 
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
-let p2 = Point { y: 5.0, ..p1 };
+let p2 = Point { y: 5.0..p1 };
 // p2.x == 1.0, p2.y == 5.0, p2.z == 3.0
 ```
 
@@ -464,7 +464,7 @@ Struct update syntax moves the remaining fields. After `..p1``p1` is partially m
 
 ```rust
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
-let p2 = Point { y: 5.0, ..p1 };
+let p2 = Point { y: 5.0..p1 };
 // println!("{:?}", p1);  // ERROR: p1 partially moved
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```

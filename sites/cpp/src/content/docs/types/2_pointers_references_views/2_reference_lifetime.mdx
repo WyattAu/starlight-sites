@@ -126,7 +126,7 @@ Pointers. Since the compiler can assume a reference is always valid, it can:
 #include <iostream>
 
 int transform(int& ref) \{
-    // Compiler assumes ref is valid — no null check needed
+    // Compiler assumes ref is valid, no null check needed
     return ref * 2;
 \}
 
@@ -288,7 +288,7 @@ int main() \{
 
 This works because the prvalue materialization happens at the call site, and the reference binding
 To the materialized temporary extends its lifetime. However, if the function returns a reference to
-A **local variable** (not a temporary), it is always UB — no lifetime extension can save it.
+A **local variable** (not a temporary), it is always UB, no lifetime extension can save it.
 
 ## 4. `std::reference_wrapper`
 
@@ -457,11 +457,11 @@ This confirms that binding to a sub-object of a temporary does not extend the te
 
 ## Intuition
 
-**Safe references:** Reference lifetime rules ensure references don't outlive the objects they point to — like a library card that expires when you leave the library.
+**Safe references:** Reference lifetime rules ensure references don't outlive the objects they point to, like a library card that expires when you leave the library.
 
 **Why it matters:** Understanding reference lifetime prevents dangling references and undefined behavior.
 
-**The key insight:** Temporary objects are destroyed at the end of the full expression — this is when their references become dangling.
+**The key insight:** Temporary objects are destroyed at the end of the full expression, this is when their references become dangling.
 
 ## Common Pitfalls
 
@@ -480,12 +480,12 @@ int& dangling() \{
 int& dangling_hidden() \{
     int local = 42;
     int& ref = local;
-    return ref;  // Compiler may not warn — the reference masks the local
+    return ref;  // Compiler may not warn, the reference masks the local
 \}
 
 int main() \{
     int& r = dangling();  // Dangling reference
-    std::cout << r << "\n";  // UB — may print 42, may crash, may print garbage
+    std::cout << r << "\n";  // UB, may print 42, may crash, may print garbage
     return 0;
 \}
 ```
@@ -515,7 +515,7 @@ int main() \{
     \{
         std::string temp = "temporary";
         obs = new Observer(temp);
-        // temp goes out of scope here — obs->name_ is dangling
+        // temp goes out of scope here, obs->name_ is dangling
     \}
     obs->report();  // UB
     delete obs;
@@ -554,7 +554,7 @@ int main() \{
 
 This works because the range-based for loop is specified to bind the range expression to a
 Reference, triggering lifetime extension [N4950 §8.7.1]. However, this only works for the direct
-Range expression — not for function calls that return references to temporaries.
+Range expression, not for function calls that return references to temporaries.
 
 ### Pitfall 4: Structured Bindings and References
 
@@ -583,7 +583,7 @@ int main() \{
 
 ### Pitfall 5: References and `std::move`
 
-`std::move` does not move anything — it casts to an rvalue reference. Binding an rvalue reference to
+`std::move` does not move anything, it casts to an rvalue reference. Binding an rvalue reference to
 A named variable does not destroy the original:
 
 ```cpp

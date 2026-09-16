@@ -78,17 +78,17 @@ Dart is an object-oriented language with C-style syntax. It supports classes, in
 
 ### Topic Notes
 
-- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types) — var, final, const, late, and type inference
-- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow) — if/else, switch, for/while loops, and collections
-- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) — optional parameters, named parameters, arrow functions, and closures
-- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects) — constructors, inheritance, mixins, and abstract classes
-- [Collections](../../../../kotlin/src/content/docs/intermediate/collections) — List, Set, Map, and collection operators
+- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types), var, final, const, late, and type inference
+- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow), if/else, switch, for/while loops, and collections
+- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), optional parameters, named parameters, arrow functions, and closures
+- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects), constructors, inheritance, mixins, and abstract classes
+- [Collections](../../../../kotlin/src/content/docs/intermediate/collections), List, Set, Map, and collection operators
 
 ### Key Concepts
 
-**final vs const** — `final` variables can be assigned once and cannot be changed after initialization. `const` variables are compile-time constants. Use `const` for values known at compile time and `final` for values determined at runtime.
+**final vs const**, `final` variables can be assigned once and cannot be changed after initialization. `const` variables are compile-time constants. Use `const` for values known at compile time and `final` for values determined at runtime.
 
-**Named parameters** — Dart functions support named parameters with curly braces: `void greet({required String name, int age = 25})`. Named parameters improve readability at call sites and make optional parameters natural.
+**Named parameters**, Dart functions support named parameters with curly braces: `void greet({required String name, int age = 25})`. Named parameters improve readability at call sites and make optional parameters natural.
 
 **Mixins** enable code reuse without inheritance. A mixin defines methods and properties that can be mixed into classes. Use `with` to apply a mixin: `class MyWidget extends StatefulWidget with AnimationMixin`. Mixins solve the diamond problem that multiple inheritance creates.
 
@@ -100,14 +100,14 @@ Dart's sound null safety ensures that non-nullable types can never contain null.
 
 ### Topic Notes
 
-- [Nullable Types](03-null-safety/01-nullable-types) — the `?` operator, null-aware operators, and late variables
-- [Sound Null Safety](03-null-safety/02-sound-null-safety) — how Dart's type system tracks nullability
-- [Type Promotion](03-null-safety/03-type-promotion) — how the compiler narrows types based on null checks
-- [Null Safety Migration](03-null-safety/04-null-safety-migration) — migrating pre-null-safety code
+- [Nullable Types](03-null-safety/01-nullable-types), the `?` operator, null-aware operators, and late variables
+- [Sound Null Safety](03-null-safety/02-sound-null-safety), how Dart's type system tracks nullability
+- [Type Promotion](03-null-safety/03-type-promotion), how the compiler narrows types based on null checks
+- [Null Safety Migration](03-null-safety/04-null-safety-migration), migrating pre-null-safety code
 
 ### Key Concepts
 
-**Nullable vs non-nullable** — `String` can never be null. `String?` can be null. The compiler enforces this distinction, requiring you to handle null cases before using a nullable value. This eliminates the billion-dollar mistake.
+**Nullable vs non-nullable**, `String` can never be null. `String?` can be null. The compiler enforces this distinction, requiring you to handle null cases before using a nullable value. This eliminates the billion-dollar mistake.
 
 **Null-aware operators** provide concise null handling. `?.` (safe access), `??` (default value), `??=` (null-aware assignment), and `!` (assert non-null). These operators replace verbose null checks.
 
@@ -121,10 +121,10 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 ### Topic Notes
 
-- [Futures](../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/5_futures_promises) — Future, async/await, and error handling
-- [Streams](../../../../java/src/content/docs/05-streams/01-streams-api) — Stream, StreamController, and stream operators
-- [Isolates](04-asynchronous/03-isolates) — concurrent execution without shared memory
-- [Async Patterns](04-asynchronous/04-async-patterns) — parallel requests, debouncing, and throttling
+- [Futures](../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/5_futures_promises), Future, async/await, and error handling
+- [Streams](../../../../java/src/content/docs/05-streams/01-streams-api), Stream, StreamController, and stream operators
+- [Isolates](04-asynchronous/03-isolates), concurrent execution without shared memory
+- [Async Patterns](04-asynchronous/04-async-patterns), parallel requests, debouncing, and throttling
 
 ### Key Concepts
 
@@ -142,15 +142,15 @@ Flutter is Google's UI toolkit for building cross-platform applications from a s
 
 ### Topic Notes
 
-- [Flutter Basics](05-flutter/01-flutter-basics) — MaterialApp, Scaffold, runApp, and the widget tree
-- [Navigation](09-flutter-fundamentals/01-navigation) — Navigator, named routes, and push/pop
-- [Platform Integration](11-networking-and-data/01-platform-integration) — platform channels, plugins, and native code
-- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) — unit tests, widget tests, and integration tests
-- [Performance](../../../../alevel/src/content/docs/economics/macro/01-macroeconomic-performance) — DevTools, profiling, and optimization
+- [Flutter Basics](05-flutter/01-flutter-basics), MaterialApp, Scaffold, runApp, and the widget tree
+- [Navigation](09-flutter-fundamentals/01-navigation), Navigator, named routes, and push/pop
+- [Platform Integration](11-networking-and-data/01-platform-integration), platform channels, plugins, and native code
+- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), unit tests, widget tests, and integration tests
+- [Performance](../../../../alevel/src/content/docs/economics/macro/01-macroeconomic-performance), DevTools, profiling, and optimization
 
 ### Key Concepts
 
-**The widget tree** is Flutter's core abstraction. Everything in Flutter is a widget — buttons, text, layouts, and even padding. Widgets are immutable and describe what the UI should look like for a given configuration. Flutter rebuilds the widget tree when state changes.
+**The widget tree** is Flutter's core abstraction. Everything in Flutter is a widget, buttons, text, layouts, and even padding. Widgets are immutable and describe what the UI should look like for a given configuration. Flutter rebuilds the widget tree when state changes.
 
 **Hot reload** enables rapid iteration. Changes to the code are reflected in the running application without restarting. Hot reload preserves state, allowing you to see the effect of changes immediately.
 
@@ -164,15 +164,15 @@ Flutter's widget system is the foundation of every UI. Widgets are divided into 
 
 ### Topic Notes
 
-- [StatelessWidget](06-widgets/01-stateless-widget) — creating, composing, and returning widgets
-- [StatefulWidget](06-widgets/02-stateful-widget) — lifecycle, setState, and state management
-- [Layout Widgets](06-widgets/03-layout-widgets) — Row, Column, Stack, and Flex
-- [Common Widgets](06-widgets/04-common-widgets) — Text, Image, Container, and Card
-- [Custom Widgets](06-widgets/05-custom-widgets) — building reusable components and custom painters
+- [StatelessWidget](06-widgets/01-stateless-widget), creating, composing, and returning widgets
+- [StatefulWidget](06-widgets/02-stateful-widget), lifecycle, setState, and state management
+- [Layout Widgets](06-widgets/03-layout-widgets), Row, Column, Stack, and Flex
+- [Common Widgets](06-widgets/04-common-widgets), Text, Image, Container, and Card
+- [Custom Widgets](06-widgets/05-custom-widgets), building reusable components and custom painters
 
 ### Key Concepts
 
-**StatelessWidget** is immutable. It takes configuration through its constructor and returns a widget tree in `build()`. Use StatelessWidget for UI that does not change — labels, icons, and decorative elements.
+**StatelessWidget** is immutable. It takes configuration through its constructor and returns a widget tree in `build()`. Use StatelessWidget for UI that does not change, labels, icons, and decorative elements.
 
 **StatefulWidget** has mutable state managed by a `State` object. The `setState()` method triggers a rebuild. The lifecycle includes `initState()`, `build()`, `dispose()`, and `didUpdateWidget()`. Use StatefulWidget for UI that responds to user input, data changes, or animations.
 
@@ -186,10 +186,10 @@ State management is one of the most important architectural decisions in a Flutt
 
 ### Topic Notes
 
-- [Provider](07-state-management/01-provider) — ChangeNotifier, ProxyProvider, and Consumer
-- [Riverpod](07-state-management/02-riverpod) — Provider, StateProvider, and modern dependency injection
-- [BLoC](../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) — Business Logic Component, events, and streams
-- [Other Approaches](../../../../ib/src/content/docs/psychology/approaches) — GetX, MobX, and Redux
+- [Provider](07-state-management/01-provider), ChangeNotifier, ProxyProvider, and Consumer
+- [Riverpod](07-state-management/02-riverpod), Provider, StateProvider, and modern dependency injection
+- [BLoC](../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks), Business Logic Component, events, and streams
+- [Other Approaches](../../../../ib/src/content/docs/psychology/approaches), GetX, MobX, and Redux
 
 ### Key Concepts
 
@@ -208,7 +208,7 @@ Dart and Flutter are approachable. Follow this progression to build competence s
 ### Stage 1: Dart Foundations (Weeks 1–3)
 
 - Learn variables, types, control flow, and functions
-- Understand null safety — nullable types, late variables, and null-aware operators
+- Understand null safety, nullable types, late variables, and null-aware operators
 - Write small Dart programs using classes and collections
 
 ### Stage 2: Async and Streams (Weeks 4–5)
@@ -220,12 +220,12 @@ Dart and Flutter are approachable. Follow this progression to build competence s
 ### Stage 3: Flutter Basics (Weeks 6–9)
 
 - Build simple apps with StatelessWidget and StatefulWidget
-- Learn the layout system — Row, Column, Stack, and Flex
+- Learn the layout system, Row, Column, Stack, and Flex
 - Study navigation and platform integration
 
 ### Stage 4: State Management and Production (Weeks 10–14)
 
-- Choose a state management approach — Provider, Riverpod, or BLoC
+- Choose a state management approach, Provider, Riverpod, or BLoC
 - Build a complete application with navigation, state, and API integration
 - Study testing, performance, and deployment
 
@@ -235,11 +235,11 @@ Dart and Flutter are approachable. Follow this progression to build competence s
 
 Wyatt's Notes is a network of interconnected programming and study sites:
 
-- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)** — Kotlin is another language for mobile development via Android
-- **[Swift Programming Guide](https://swift.wyattau.com/hub)** — Swift is the language for native iOS development
-- **[TypeScript Programming Guide](https://typescript.wyattau.com/hub)** — TypeScript is relevant for Flutter web and desktop deployment
-- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)** — algorithms and data structures that apply to Dart and Flutter
-- **[Database Design Guide](https://databases.wyattau.com/hub)** — relevant for Flutter applications with local or remote databases
+- **[Kotlin Programming Guide](https://kotlin.wyattau.com/hub)**, Kotlin is another language for mobile development via Android
+- **[Swift Programming Guide](https://swift.wyattau.com/hub)**, Swift is the language for native iOS development
+- **[TypeScript Programming Guide](https://typescript.wyattau.com/hub)**, TypeScript is relevant for Flutter web and desktop deployment
+- **[Computer Science Study Guide](https://computer-science.wyattau.com/hub)**, algorithms and data structures that apply to Dart and Flutter
+- **[Database Design Guide](https://databases.wyattau.com/hub)**, relevant for Flutter applications with local or remote databases
 
 ---
 
@@ -255,7 +255,7 @@ Flutter trades native performance and access for cross-platform consistency and 
 
 ### What is the difference between StatelessWidget and StatefulWidget?
 
-StatelessWidget is immutable — it has no mutable state and rebuilds only when its parent rebuilds. StatefulWidget has a State object that persists across rebuilds. Use StatefulWidget when the widget needs to change over time — in response to user input, data changes, or animations.
+StatelessWidget is immutable, it has no mutable state and rebuilds only when its parent rebuilds. StatefulWidget has a State object that persists across rebuilds. Use StatefulWidget when the widget needs to change over time, in response to user input, data changes, or animations.
 
 ### Do I need to learn Swift for Flutter?
 
@@ -263,7 +263,7 @@ No. Flutter compiles to native code for iOS, so you do not need Swift for most F
 
 ### What state management should I use?
 
-For new projects, start with Riverpod — it is modern, compile-safe, and scales well. For existing projects, Provider is well-established. For large applications with complex state, BLoC provides explicit, testable architecture. Start simple and migrate if you outgrow your current approach.
+For new projects, start with Riverpod, it is modern, compile-safe, and scales well. For existing projects, Provider is well-established. For large applications with complex state, BLoC provides explicit, testable architecture. Start simple and migrate if you outgrow your current approach.
 
 ### How do I deploy a Flutter app?
 

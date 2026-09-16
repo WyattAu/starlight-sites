@@ -40,7 +40,7 @@ export const flashcard2 = [
   {
     id: 'atomic-structure-006',
     front: 'How does a mass spectrometer work? Describe the key stages.',
-    back: '1) Ionization: sample vaporized and bombarded with electrons to form positive ions (M → M⁺ + e⁻). 2) Acceleration: ions accelerated by electric field (all gain the same kinetic energy). 3) Deflection: ions deflected by magnetic field — lighter ions deflected more (r ∝ √(m/z)). 4) Detection: ions hit detector, producing a current proportional to abundance.',
+    back: '1) Ionization: sample vaporized and bombarded with electrons to form positive ions (M → M⁺ + e⁻). 2) Acceleration: ions accelerated by electric field (all gain the same kinetic energy). 3) Deflection: ions deflected by magnetic field, lighter ions deflected more (r ∝ √(m/z)). 4) Detection: ions hit detector, producing a current proportional to abundance.',
     tags: ['mass spectrometry'],
     difficulty: 'medium',
   },
@@ -79,7 +79,7 @@ export const flashcard3 = [
   {
     id: 'atomic-structure-011',
     front: 'Explain the difference between emission and absorption spectra.',
-    back: 'Emission spectrum: produced when excited electrons fall to lower energy levels, emitting photons at specific wavelengths — observed as bright lines on a dark background (line spectrum). Absorption spectrum: produced when atoms absorb photons of specific energies, promoting electrons to higher levels — observed as dark lines on a continuous spectrum. Both are characteristic of each element.',
+    back: 'Emission spectrum: produced when excited electrons fall to lower energy levels, emitting photons at specific wavelengths, observed as bright lines on a dark background (line spectrum). Absorption spectrum: produced when atoms absorb photons of specific energies, promoting electrons to higher levels, observed as dark lines on a continuous spectrum. Both are characteristic of each element.',
     tags: ['emission spectra', 'absorption spectra'],
     difficulty: 'medium',
   },
@@ -93,7 +93,7 @@ export const flashcard3 = [
   {
     id: 'atomic-structure-013',
     front: 'State the trends in first ionization energy across Period 2 and explain the anomalies.',
-    back: "General trend: increases across the period (increasing nuclear charge, same shielding). Anomalies: Be to B — drop because B’s outer electron is in a 2p orbital (higher energy, further from nucleus, easier to remove). N to O — drop because O\'s extra electron pairs in a 2p orbital, experiencing electron-electron repulsion (less energy needed to remove a paired electron).",
+    back: "General trend: increases across the period (increasing nuclear charge, same shielding). Anomalies: Be to B, drop because B’s outer electron is in a 2p orbital (higher energy, further from nucleus, easier to remove). N to O, drop because O\'s extra electron pairs in a 2p orbital, experiencing electron-electron repulsion (less energy needed to remove a paired electron).",
     tags: ['ionization energy', 'periodic trends'],
     difficulty: 'medium',
   },

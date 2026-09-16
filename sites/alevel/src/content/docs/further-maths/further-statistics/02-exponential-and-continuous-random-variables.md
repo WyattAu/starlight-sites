@@ -70,7 +70,7 @@ Probabilities are found by integration:
 $$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
 
 :::caution
-$P(a \leq X \leq b) = P(a < X < b)$ — the inequalities at individual points do not matter.
+$P(a \leq X \leq b) = P(a < X < b)$, the inequalities at individual points do not matter.
 :::
 ### 1.2 Cumulative distribution function
 
@@ -202,7 +202,7 @@ This uses $P(X > x) = 1 - F(x) = e^{-\lambda x}$.
 :::note
 Exponentially distributed lifetime has been working for $s$ hours, the remaining lifetime has the
 Same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
-Effect — which is why it is more appropriate for electronic components than mechanical ones.
+Effect, which is why it is more appropriate for electronic components than mechanical ones.
 :::
 ### 2.6 Link to Poisson processes
 
@@ -300,7 +300,7 @@ $P(0.5 < X < 2) = (1-e^{-4}) - (1-e^{-1}) = e^{-1} - e^{-4} \approx 0.3679 - 0.0
 90th percentile:
 $F(x) = 0.9 \implies 1 - e^{-2x} = 0.9 \implies x = -\dfrac{\ln(0.1)}{2} \approx 1.151$.
 
-**If you get this wrong, revise:** [Percentiles](#27-percentiles) — Section 2.7.
+**If you get this wrong, revise:** [Percentiles](#27-percentiles), Section 2.7.
 
 </details>
 
@@ -320,7 +320,7 @@ $\mathrm{Var}(X) = 2.4 - 1.5^2 = 2.4 - 2.25 = 0.15$.
 Median:
 $\int_0^m \dfrac{3x^2}{8}\,dx = 0.5 \implies \dfrac{m^3}{8} = 0.5 \implies m = \sqrt[3]{4} \approx 1.587$.
 
-**If you get this wrong, revise:** [Median, mode, and quartiles](#15-median-mode-and-quartiles) —
+**If you get this wrong, revise:** [Median, mode, and quartiles](#15-median-mode-and-quartiles),
 Section 1.5.
 
 </details>
@@ -336,7 +336,7 @@ $P(X > s+t \mid X > s) = \dfrac{P(X > s+t)}{P(X > s)} = \dfrac{e^{-\lambda(s+t)}
 
 This uses the survival function $P(X > x) = e^{-\lambda x}$.
 
-**If you get this wrong, revise:** [The memoryless property](#25-the-memoryless-property) — Section
+**If you get this wrong, revise:** [The memoryless property](#25-the-memoryless-property), Section
 2.5.
 
 </details>
@@ -352,7 +352,7 @@ The inter-arrival time $T \sim \mathrm{Exp}(4)$ (rate in hours).
 
 $P(T > 0.5) = e^{-4 \times 0.5} = e^{-2} \approx 0.1353$.
 
-**If you get this wrong, revise:** [Link to Poisson processes](#26-link-to-poisson-processes) —
+**If you get this wrong, revise:** [Link to Poisson processes](#26-link-to-poisson-processes),
 Section 2.6.
 
 </details>
@@ -372,7 +372,7 @@ $E(X^2) = \dfrac{1}{2}\left[\dfrac{x^4}{4}\right]_0^2 = \dfrac{1}{2}\cdot 4 = 2$
 
 $\mathrm{Var}(X) = 2 - \left(\dfrac{4}{3}\right)^2 = 2 - \dfrac{16}{9} = \dfrac{2}{9}$.
 
-**If you get this wrong, revise:** [Expected value](#13-expected-value) — Section 1.3.
+**If you get this wrong, revise:** [Expected value](#13-expected-value), Section 1.3.
 
 </details>
 
@@ -385,7 +385,7 @@ The lifetime of a light bulb follows $X \sim \mathrm{Exp}(0.01)$ (in hours). Giv
 <summary>Solution 6</summary>
 By the memoryless property: $P(X > 500+200 \mid X > 500) = P(X > 200) = e^{-0.01 \times 200} = e^{-2} \approx 0.1353$.
 
-**If you get this wrong, revise:** [The memoryless property](#25-the-memoryless-property) — Section
+**If you get this wrong, revise:** [The memoryless property](#25-the-memoryless-property), Section
 2.5.
 
 </details>
@@ -405,7 +405,7 @@ Upper quartile:
 $F(Q_3) = 0.75 \implies \dfrac{Q_3^3}{27} = 0.75 \implies Q_3^3 = 20.25 \implies Q_3 \approx 2.725$.
 
 **If you get this wrong, revise:**
-[Cumulative distribution function](#12-cumulative-distribution-function) — Section 1.2.
+[Cumulative distribution function](#12-cumulative-distribution-function), Section 1.2.
 
 </details>
 
@@ -424,7 +424,7 @@ $E(X) = \left[-xe^{-\lambda x}\right]_0^{\infty} + \int_0^{\infty}e^{-\lambda x}
 $\blacksquare$
 
 **If you get this wrong, revise:**
-[Proof that $E(X) = \frac{1}{\lambda}$](#23-proof-that-ex--frac1lambda) — Section 2.3.
+[Proof that $E(X) = \frac{1}{\lambda}$](#23-proof-that-ex--frac1lambda), Section 2.3.
 
 </details>
 
@@ -441,7 +441,7 @@ $P(1/12 < T < 1/4) = F(1/4) - F(1/12) = (1-e^{-1.5}) - (1-e^{-0.5}) = e^{-0.5} -
 
 $\approx 0.6065 - 0.2231 = 0.3834$.
 
-**If you get this wrong, revise:** [Link to Poisson processes](#26-link-to-poisson-processes) —
+**If you get this wrong, revise:** [Link to Poisson processes](#26-link-to-poisson-processes),
 Section 2.6.
 
 </details>
@@ -463,7 +463,7 @@ $\mathrm{Var}(X) = \dfrac{2}{3} - \left(\dfrac{4}{5}\right)^2 = \dfrac{2}{3} - \
 
 Mode: $f(x) = 4x^3$ is increasing on $[0,1]$ So the mode is at $x = 1$.
 
-**If you get this wrong, revise:** [Median, mode, and quartiles](#15-median-mode-and-quartiles) —
+**If you get this wrong, revise:** [Median, mode, and quartiles](#15-median-mode-and-quartiles),
 Section 1.5.
 
 </details>
@@ -619,7 +619,7 @@ $$E(X) = p\,E(X_1) + (1-p)\,E(X_2)$$
 
 $$\mathrm{Var}(X) = p\,\mathrm{Var}(X_1) + (1-p)\,\mathrm{Var}(X_2) + p(1-p)[E(X_1) - E(X_2)]^2$$
 
-The variance formula includes an extra term from the difference in means — this is the law of total
+The variance formula includes an extra term from the difference in means, this is the law of total
 Variance.
 
 ### 8.2 Worked example
@@ -643,11 +643,11 @@ $\approx 0.2575 + 0.2456 = 0.5031$.
 
 ### Confusing PDF with CDF
 
-The PDF $f(x)$ gives the **density** of probability at $x$. It is not a probability itself — $f(x)$
+The PDF $f(x)$ gives the **density** of probability at $x$. It is not a probability itself, $f(x)$
 Can be greater than 1. The CDF $F(x)$ gives the **accumulated** probability up to $x$ And always
 Satisfies $0 \leq F(x) \leq 1$.
 
-Common error: writing $P(X = a) = f(a)$ for a continuous RV. This is wrong — $P(X = a) = 0$ always.
+Common error: writing $P(X = a) = f(a)$ for a continuous RV. This is wrong, $P(X = a) = 0$ always.
 Probabilities are areas under the PDF, not values of the PDF.
 
 ### Discrete vs continuous probability
@@ -801,7 +801,7 @@ $\lambda = \dfrac{1}{200} = 0.005$.
 
 $P(T > 100) = e^{-0.005 \times 100} = e^{-0.5} = \boxed{0.607}$ (3 s.f.).
 
-### Example 8.2: Continuous uniform — conditional probability
+### Example 8.2: Continuous uniform, conditional probability
 
 **Problem.** $X \sim \mathrm{U}(0, 10)$. Find $P(X > 6 \mid X > 3)$.
 

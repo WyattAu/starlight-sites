@@ -72,7 +72,7 @@ $2na = 2\sum x_i \implies a = \dfrac{\sum x_i}{n} = \bar{x}$.
 Check: $\dfrac{d^2S}{da^2} = 2n \gt 0$ So this is a minimum. $\blacksquare$
 
 **Intuition.** The mean is the "centre of mass" of the data. It is the single value that best
-Represents all the data points in the sense of least squares — no other value produces a smaller
+Represents all the data points in the sense of least squares, no other value produces a smaller
 Total squared error. This is why the mean is the foundation of regression and estimation theory.
 
 ### 1.3 Median
@@ -252,7 +252,7 @@ Median lies between them.
 
 ## 7. Outliers in Depth
 
-### 7.1 The IQR method — mild and extreme outliers
+### 7.1 The IQR method, mild and extreme outliers
 
 As introduced in Section 3.3, the $1.5 \times \mathrm{IQR}$ rule defines fences. Some boards further
 Distinguish between mild and extreme outliers:
@@ -290,7 +290,7 @@ scale to the standard Z-score for normally distributed data.
 
 <hr />
 
-## 8. Box Plots — Drawing and Interpreting
+## 8. Box Plots, Drawing and Interpreting
 
 ### 8.1 Drawing a box plot
 
@@ -441,7 +441,7 @@ Median: average of 4th and 5th values = $(5+5)/2 = 5$.
 
 Mode: 5 (appears twice).
 
-**If you get this wrong, revise:** [Measures of Central Tendency](#1-measures-of-central-tendency) —
+**If you get this wrong, revise:** [Measures of Central Tendency](#1-measures-of-central-tendency),
 Section 1.
 
 </details>
@@ -461,7 +461,7 @@ $\sigma^2 = 284/8 - 5.5^2 = 35.5 - 30.25 = 5.25$.
 
 $\sigma = \sqrt{5.25} \approx 2.29$.
 
-**If you get this wrong, revise:** [Computational Formula](#22-computational-formula) — Section 2.2.
+**If you get this wrong, revise:** [Computational Formula](#22-computational-formula), Section 2.2.
 
 </details>
 
@@ -476,7 +476,7 @@ $\bar{y} = (\bar{x} - 100)/5 = 12 \implies \bar{x} - 100 = 60 \implies \bar{x} =
 
 $\sigma_y = \sigma_x/5 = 3 \implies \sigma_x = 15$.
 
-**If you get this wrong, revise:** [Coding Data](#4-coding-data) — Section 4.
+**If you get this wrong, revise:** [Coding Data](#4-coding-data), Section 4.
 
 </details>
 
@@ -498,7 +498,7 @@ Lower fence: $4 - 1.5(12) = -14$. Upper fence: $16 + 1.5(12) = 34$.
 
 All values are within $[-14, 34]$ So no outliers.
 
-**If you get this wrong, revise:** [Quartiles, IQR, and Box Plots](#3-quartiles-iqr-and-box-plots) —
+**If you get this wrong, revise:** [Quartiles, IQR, and Box Plots](#3-quartiles-iqr-and-box-plots),
 Section 3.
 
 </details>
@@ -527,7 +527,7 @@ $\sum fx^2 = 0 + 7 + 20 + 27 + 32 = 86$.
 
 $\sigma^2 = 86/20 - 1.7^2 = 4.3 - 2.89 = 1.41$.
 
-**If you get this wrong, revise:** [Frequency Tables](#51-discrete-frequency-data) — Section 5.1.
+**If you get this wrong, revise:** [Frequency Tables](#51-discrete-frequency-data), Section 5.1.
 
 </details>
 
@@ -540,7 +540,7 @@ Prove that $\displaystyle\sum_{i=1}^{n}(x_i - \bar{x}) = 0$.
 <summary>Solution 6</summary>
 $$\sum(x_i - \bar{x}) = \sum x_i - n\bar{x} = \sum x_i - n \cdot \frac{\sum x_i}{n} = \sum x_i - \sum x_i = 0 \quad \blacksquare$$
 
-**If you get this wrong, revise:** [Mean](#11-mean) — Section 1.1.
+**If you get this wrong, revise:** [Mean](#11-mean), Section 1.1.
 
 </details>
 
@@ -554,7 +554,7 @@ Two datasets A and B have the same mean but A has standard deviation 5 while B h
 Both datasets are centred at the same point (same mean), but dataset A is more spread out (larger standard deviation). The values in A are more dispersed from the mean, while B's values cluster more tightly around the mean.
 
 **If you get this wrong, revise:**
-[Variance and Standard Deviation](#2-variance-and-standard-deviation) — Section 2.
+[Variance and Standard Deviation](#2-variance-and-standard-deviation), Section 2.
 
 </details>
 
@@ -569,7 +569,7 @@ $\sigma^2 = 360/10 = 36$ So $\sigma = 6$.
 
 $s^2 = 360/9 = 40$.
 
-**If you get this wrong, revise:** [Sample Variance](#23-sample-variance) — Section 2.3.
+**If you get this wrong, revise:** [Sample Variance](#23-sample-variance), Section 2.3.
 
 </details>
 
@@ -585,7 +585,7 @@ Multiplying by 3 scales mean by 3: mean becomes 45. SD scales by 3: SD becomes 1
 
 New mean = 45, new SD = 12.
 
-**If you get this wrong, revise:** [Coding Data](#4-coding-data) — Section 4.2.
+**If you get this wrong, revise:** [Coding Data](#4-coding-data), Section 4.2.
 
 </details>
 
@@ -596,9 +596,9 @@ Explain why the median is preferred to the mean for measuring average income in 
 
 <details>
 <summary>Solution 10</summary>
-Income distributions are right-skewed — a small number of very high earners pull the mean upward. The median, being the middle value, is unaffected by extreme values and gives a more representative "typical" income. For example, if one billionaire lives in a village of 1000 people earning $30\,000$The mean would be vastly inflated while the median would remain close to $30\,000$.
+Income distributions are right-skewed, a small number of very high earners pull the mean upward. The median, being the middle value, is unaffected by extreme values and gives a more representative "typical" income. For example, if one billionaire lives in a village of 1000 people earning $30\,000$The mean would be vastly inflated while the median would remain close to $30\,000$.
 
-**If you get this wrong, revise:** [Comparing Measures](#15-comparing-measures) — Section 1.5.
+**If you get this wrong, revise:** [Comparing Measures](#15-comparing-measures), Section 1.5.
 
 </details>
 
@@ -628,7 +628,7 @@ $$S_1 = \frac{3(9.67 - 7)}{7.49} = \frac{3 \times 2.67}{7.49} = \frac{8.01}{7.49
 Since $S_1 \gt 0$The distribution is positively skewed. This is consistent with the right tail
 Produced by the value 28.
 
-**If you get this wrong, revise:** [Skewness](#6-skewness) — Section 6.
+**If you get this wrong, revise:** [Skewness](#6-skewness), Section 6.
 
 </details>
 
@@ -650,7 +650,7 @@ Since $7 \gt 6$ (and there is an outlier at 42 on the upper side), the distribut
 Skewed, though only slightly so from the quartiles alone.
 
 **If you get this wrong, revise:**
-[Box Plots — Drawing and Interpreting](#8-box-plots--drawing-and-interpreting) — Section 8.
+[Box Plots, Drawing and Interpreting](#8-box-plots--drawing-and-interpreting), Section 8.
 
 </details>
 
@@ -686,7 +686,7 @@ Comparison:
 3. **Shape**: Both distributions are roughly symmetric. Class B extends further in both directions.
 4. **Outliers**: No obvious outliers in either class.
 
-**If you get this wrong, revise:** [Comparing Distributions](#9-comparing-distributions) —
+**If you get this wrong, revise:** [Comparing Distributions](#9-comparing-distributions),
 Section 9.
 
 </details>
@@ -726,7 +726,7 @@ $$Q_3 = 30 + \left(45 - 23\right) \cdot \frac{10}{22} = 30 + 22 \cdot \frac{10}{
 $\mathrm{IQR} = Q_3 - Q_1 = 40 - 24.67 = 15.33$.
 
 **If you get this wrong, revise:**
-[Interpolation from Grouped Data](#10-interpolation-from-grouped-data) — Section 10.
+[Interpolation from Grouped Data](#10-interpolation-from-grouped-data), Section 10.
 
 </details>
 
@@ -745,7 +745,7 @@ $$M = \frac{0.6745(48 - 12)}{4} = \frac{0.6745 \times 36}{4} = \frac{24.282}{4} 
 
 Since $|M| = 6.07 \gt 3.5$The value 48 is classified as an outlier by the modified z-score Method.
 
-**If you get this wrong, revise:** [Outliers in Depth](#7-outliers-in-depth) — Section 7.2.
+**If you get this wrong, revise:** [Outliers in Depth](#7-outliers-in-depth), Section 7.2.
 
 </details>
 
@@ -767,7 +767,7 @@ $L = 50$$c_f = 32$$f = 14$$w = 10$.
 $$Q_3 = 50 + \left(60 - 32\right) \cdot \frac{10}{14} = 50 + 28 \cdot \frac{10}{14} = 50 + \frac{280}{14} = 50 + 20 = 70$$
 
 **If you get this wrong, revise:**
-[Interpolation from Grouped Data](#10-interpolation-from-grouped-data) — Section 10.1.
+[Interpolation from Grouped Data](#10-interpolation-from-grouped-data), Section 10.1.
 
 </details>
 
@@ -800,7 +800,7 @@ Both coefficients are positive, so they agree on positive skew. However, $S_1$ i
 Because the mean (11.67) is strongly pulled by the outlier 45, whereas $S_2$ depends only on the
 Quartiles, which are less affected by that extreme value.
 
-**If you get this wrong, revise:** [Skewness](#6-skewness) — Section 6.
+**If you get this wrong, revise:** [Skewness](#6-skewness), Section 6.
 
 </details>
 
@@ -840,6 +840,6 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Correlation and Regression](../statistics/02-correlation-and-regression) — The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
-- [Probability](../statistics/03-probability) — Probability distributions provide the theoretical basis for understanding data variation.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing) — Summary statistics from this topic feed directly into significance tests and confidence intervals.
+- [Correlation and Regression](../statistics/02-correlation-and-regression), The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
+- [Probability](../statistics/03-probability), Probability distributions provide the theoretical basis for understanding data variation.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing), Summary statistics from this topic feed directly into significance tests and confidence intervals.

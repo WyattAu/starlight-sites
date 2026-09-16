@@ -391,9 +391,9 @@ flowchart TD
 
 ## Intuition
 
-Rotational motion is the **mirror image of linear motion** — every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence — it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
+Rotational motion is the **mirror image of linear motion**, every linear concept has a rotational analogue. Replace $x$ with $\theta$, $v$ with $\omega$, $a$ with $\alpha$, $m$ with $I$, and $F$ with $\tau$. The equations are identical in form. This isn't a coincidence, it reflects the fact that rotation is one-dimensional motion in the angular coordinate.
 
-**Moment of inertia intuition:** Just as mass resists linear acceleration, moment of inertia ($I$) resists angular acceleration. But unlike mass, $I$ depends on _how the mass is distributed relative to the axis_. A hollow cylinder has more $I$ than a solid one of the same mass because its mass is farther from the axis. This is why a figure skater spins faster when pulling in her arms — she reduces $I$, and angular momentum conservation forces $\omega$ to increase.
+**Moment of inertia intuition:** Just as mass resists linear acceleration, moment of inertia ($I$) resists angular acceleration. But unlike mass, $I$ depends on _how the mass is distributed relative to the axis_. A hollow cylinder has more $I$ than a solid one of the same mass because its mass is farther from the axis. This is why a figure skater spins faster when pulling in her arms, she reduces $I$, and angular momentum conservation forces $\omega$ to increase.
 
 **Rolling intuition:** When a ball rolls without slipping, its kinetic energy splits between translation ($\frac{1}{2}mv^2$) and rotation ($\frac{1}{2}I\omega^2$). Objects with more mass near the rim (hollow cylinder) put more energy into rotation and less into translation, so they roll slower down an incline than solid objects.
 
@@ -930,4 +930,4 @@ Conservation: $L_f = L_i$$I_f\omega_f = 2.4$$\omega_f = 2.4/0.33 = 7.27 \mathrm{
 - [Newton's Laws](../2-newtons-laws/2_newtons-laws) -- Rotational dynamics extends Newton's second law to torque and angular acceleration.
 - [Work, Energy, and Power](../3-work-energy-power/3_work-energy-power) -- Rotational kinetic energy and rotational work parallel the translational concepts.
 - [Momentum and Impulse](../4-momentum-and-impulse/4_momentum-and-impulse) -- Angular momentum conservation connects rotational motion to the conservation principles.
-- **[AP Calculus — Integrals](../../maths/3-integrals/3_integrals):** Moment of inertia and rotational work are computed via integrals over continuous mass distributions, applying integration to rotational systems.
+- **[AP Calculus, Integrals](../../maths/3-integrals/3_integrals):** Moment of inertia and rotational work are computed via integrals over continuous mass distributions, applying integration to rotational systems.

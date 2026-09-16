@@ -18,7 +18,7 @@ categories: [ib-economics]
 
 ## Intuition
 
-**Descriptive statistics is like a photographer's toolkit — it captures and presents data through measures of central tendency and dispersion:** Statistics summarize complex data into digestible forms, but always consider what the numbers leave out
+**Descriptive statistics is like a photographer's toolkit, it captures and presents data through measures of central tendency and dispersion:** Statistics summarize complex data into digestible forms, but always consider what the numbers leave out
 
 **Why it matters:** Statistical literacy is essential for interpreting economic data, research findings, and media reports
 

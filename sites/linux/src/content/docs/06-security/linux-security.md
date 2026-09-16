@@ -25,7 +25,7 @@ Associated permissions.
 
 | File              | Purpose                                                         |
 | ----------------- | --------------------------------------------------------------- |
-| `/etc/passwd`     | User accounts (UID, home dir, shell — password in shadow)       |
+| `/etc/passwd`     | User accounts (UID, home dir, shell, password in shadow)       |
 | `/etc/shadow`     | Password hashes and aging (readable by root only)               |
 | `/etc/group`      | Group definitions (GID, members)                                |
 | `/etc/gshadow`    | Group password hashes (readable by root only)                   |
@@ -75,12 +75,12 @@ Administration.
 
 | UID   | Name         | Description                                      |
 | ----- | ------------ | ------------------------------------------------ |
-| 0     | root         | Superuser — unrestricted access to all resources |
+| 0     | root         | Superuser, unrestricted access to all resources |
 | 1     | daemon       | System daemons                                   |
 | 65534 | nobody       | Unprivileged user (used for NFS, some services)  |
 | -1    | (4294967295) | `nobody` on some systems, overflow of 32-bit UID |
 
-### NSS — Name Service Switch
+### NSS, Name Service Switch
 
 The Name Service Switch (`/etc/nsswitch.conf`) determines the order of lookup for user/group/host
 Information:
@@ -95,7 +95,7 @@ hosts:      files dns
 This means: look in local files first (`/etc/passwd`), then consult SSSD (for LDAP/AD). The order
 Matters for performance and fallback behavior.
 
-## PAM — Pluggable Authentication Modules
+## PAM, Pluggable Authentication Modules
 
 PAM provides a modular authentication framework. Applications do not implement authentication
 Themselves; they delegate to PAM via the `libpam` library. Configuration is stored in `/etc/pam.d/`
@@ -126,25 +126,25 @@ Or `/etc/pam.conf`.
 ```text
 # /etc/pam.d/sshd
 
-# 1. Auth — verify identity
+# 1. Auth, verify identity
 auth    required    pam_sepermit.so
 auth    required    pam_env.so
 auth    sufficient  pam_unix.so try_first_pass
 auth    requisite   pam_succeed_if.so uid >= 1000 quiet_success
 auth    required    pam_deny.so
 
-# 2. Account — check account validity
+# 2. Account, check account validity
 account required   pam_unix.so
 account sufficient pam_localuser.so
 account sufficient pam_succeed_if.so uid &lt; 1000 quiet
 account required   pam_permit.so
 
-# 3. Password — enforce password policy
+# 3. Password, enforce password policy
 password requisite  pam_pwquality.so retry=3 authtok_type=
 password sufficient pam_unix.so sha512 shadow nullok try_first_pass use_authtok
 password required   pam_deny.so
 
-# 4. Session — set up session
+# 4. Session, set up session
 session optional    pam_keyinit.so revoke
 session required    pam_limits.so
 session [success=1 default=ignore] pam_succeed_if.so service in crond quiet use_uid
@@ -208,7 +208,7 @@ Granting a process full root access, you can grant only the specific capabilitie
 | ---------------------- | ------------------------------------------------------ |
 | `CAP_NET_BIND_SERVICE` | Bind to privileged ports (&lt; 1024)                   |
 | `CAP_NET_RAW`          | Use raw and packet sockets (ping, capture)             |
-| `CAP_SYS_ADMIN`        | Broad administrative capability (avoid — too powerful) |
+| `CAP_SYS_ADMIN`        | Broad administrative capability (avoid, too powerful) |
 | `CAP_SYS_PTRACE`       | Trace processes (ptrace, strace)                       |
 | `CAP_SYS_CHROOT`       | Use `chroot(2)`                                        |
 | `CAP_SETUID`           | Change user ID                                         |
@@ -343,11 +343,11 @@ setsebool httpd_can_network_connect 1
 setsebool -P httpd_can_network_connect 1
 
 # Common booleans:
-# httpd_can_network_connect     — allow Apache to connect to network
-# httpd_can_network_connect_db  — allow Apache to connect to databases
-# httpd_read_user_content       — allow Apache to read user home dirs
-# sshd_permit_root_login        — allow root login via SSH
-# ftpd_full_access              — allow full FTP access
+# httpd_can_network_connect, allow Apache to connect to network
+# httpd_can_network_connect_db, allow Apache to connect to databases
+# httpd_read_user_content, allow Apache to read user home dirs
+# sshd_permit_root_login, allow root login via SSH
+# ftpd_full_access, allow full FTP access
 ```
 
 ### SELinux Troubleshooting
@@ -370,10 +370,10 @@ grep "denied" /var/log/audit/audit.log
 sealert -l &lt;audit-event-id&gt;
 
 # Common fixes:
-# restorecon -Rv /path/          — fix file context
-# setsebool -P boolean 1         — enable required boolean
-# semanage fcontext -a -t type "/path(/.*)?"  — add permanent context rule
-# semanage port -a -t type -p tcp 8080  — allow service to bind port
+# restorecon -Rv /path/, fix file context
+# setsebool -P boolean 1, enable required boolean
+# semanage fcontext -a -t type "/path(/.*)?", add permanent context rule
+# semanage port -a -t type -p tcp 8080, allow service to bind port
 ```
 
 ### SELinux Policy Types
@@ -381,7 +381,7 @@ sealert -l &lt;audit-event-id&gt;
 | Policy     | Description                                                  |
 | ---------- | ------------------------------------------------------------ |
 | `targeted` | Confines specific system services (httpd, mysqld, etc.)      |
-| `mls`      | Multi-Level Security — mandatory for classified environments |
+| `mls`      | Multi-Level Security, mandatory for classified environments |
 | `minimum`  | Minimal policy for embedded systems                          |
 
 ## AppArmor
@@ -458,7 +458,7 @@ apparmor_parser -r /etc/apparmor.d/*
 | --------------- | ---------------------------------------- | ------------------------------------- |
 | **Model**       | Label-based (security context on inodes) | Path-based (profiles reference paths) |
 | **Policy**      | Policy compiled from TE rules            | Profiles as plain text                |
-| **Learning**    | Strict — must write policy explicitly    | Can generate profiles from log data   |
+| **Learning**    | Strict, must write policy explicitly    | Can generate profiles from log data   |
 | **Complexity**  | Higher learning curve                    | Simpler to configure                  |
 | **Default on**  | RHEL, Fedora, CentOS, Debian             | Ubuntu, SUSE                          |
 | **Granularity** | Finer (type enforcement)                 | Coarser (path matching)               |
@@ -483,7 +483,7 @@ BPF (Berkeley Packet Filter), it provides fine-grained syscall filtering.
 # Docker uses seccomp profiles by default
 docker run --rm --security-opt seccomp=default.json nginx
 
-# Use unconfined (no seccomp — NOT recommended for production)
+# Use unconfined (no seccomp, NOT recommended for production)
 docker run --rm --security-opt seccomp=unconfined nginx
 
 # Custom seccomp profile
@@ -637,7 +637,7 @@ kernel.dmesg_restrict = 1
 kernel.core_pattern = |/bin/false
 fs.suid_dumpable = 0
 
-# ASLR (Address Space Layout Randomization) — already enabled by default
+# ASLR (Address Space Layout Randomization), already enabled by default
 kernel.randomize_va_space = 2
 
 # Restrict loading kernel modules (if not needed)
@@ -647,7 +647,7 @@ kernel.modules_disabled = 1    # cannot be reversed without reboot!
 ## SSH Hardening
 
 ```bash
-# /etc/ssh/sshd_config — recommended settings
+# /etc/ssh/sshd_config, recommended settings
 
 # Protocol and authentication
 Protocol 2
@@ -725,7 +725,7 @@ To granting near-root access. Always use more specific capabilities:
 # WRONG
 setcap cap_sys_admin=+ep /usr/bin/myapp
 
-# CORRECT — use specific capabilities
+# CORRECT, use specific capabilities
 setcap cap_net_bind_service=+ep /usr/bin/myapp
 ```
 
@@ -735,11 +735,11 @@ PAM processes modules in the order they appear. A `sufficient` module early in t
 Short-circuit the entire auth process:
 
 ```text
-# WRONG — pam_unix.so is sufficient, so pam_faillock is never reached
+# WRONG, pam_unix.so is sufficient, so pam_faillock is never reached
 auth    sufficient  pam_unix.so
 auth    required    pam_faillock.so
 
-# CORRECT — check faillock first
+# CORRECT, check faillock first
 auth    required    pam_faillock.so preauth
 auth    sufficient  pam_unix.so
 auth    required    pam_faillock.so authfail
@@ -751,10 +751,10 @@ auth    required    pam_faillock.so authfail
 Reboots:
 
 ```bash
-# WRONG — rules lost on reboot
+# WRONG, rules lost on reboot
 auditctl -w /etc/passwd -p rwxa -k identity
 
-# CORRECT — persistent rule in /etc/audit/rules.d/audit.rules
+# CORRECT, persistent rule in /etc/audit/rules.d/audit.rules
 echo "-w /etc/passwd -p rwxa -k identity" >> /etc/audit/rules.d/audit.rules
 ```
 

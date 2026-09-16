@@ -1,7 +1,7 @@
 ---
 
 title: "Classes and Inheritance"
-description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as Interfaces."
+description: "Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct, classes themselves serve as Interfaces."
 date: 2025-07-20T10:00:00.000Z
 tags:
   - dart
@@ -22,7 +22,7 @@ categories:
 ## Class Fundamentals
 
 Dart is an **object-oriented language with single inheritance**. Every class implicitly extends
-`Object`. Unlike Java, Dart has no interfaces as a separate construct — classes themselves serve as
+`Object`. Unlike Java, Dart has no interfaces as a separate construct, classes themselves serve as
 Interfaces.
 
 ### Class Declaration
@@ -141,7 +141,7 @@ class Rectangle {
 ```
 
 :::tip
-More efficient — they initialize fields directly, while the constructor body runs after all fields
+More efficient, they initialize fields directly, while the constructor body runs after all fields
 Have been initialized (to their default values first).
 
 ## Inheritance
@@ -179,7 +179,7 @@ Contain implementation:
 
 ```dart
 abstract class Shape {
-  // Abstract method (no implementation — subclasses must override)
+  // Abstract method (no implementation, subclasses must override)
   double area();
 
   // Concrete method (subclasses inherit)
@@ -373,11 +373,11 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 
 ## Intuition
 
-**Classes are blueprints, mixins are plug-and-play upgrades:** In Dart, `extends` gives you a single family tree — one parent, inherited traits. `implements` is a contract: "I promise to have these methods, but I'll write them myself." Mixins are the third option: grab-bag capabilities you snap onto any class without inheritance, like adding a USB device to a computer. Every class implicitly defines an interface, so any class can serve as a contract for another — no separate `interface` keyword needed.
+**Classes are blueprints, mixins are plug-and-play upgrades:** In Dart, `extends` gives you a single family tree, one parent, inherited traits. `implements` is a contract: "I promise to have these methods, but I'll write them myself." Mixins are the third option: grab-bag capabilities you snap onto any class without inheritance, like adding a USB device to a computer. Every class implicitly defines an interface, so any class can serve as a contract for another, no separate `interface` keyword needed.
 
 **Why it matters:** Single inheritance keeps the hierarchy simple, mixins prevent the "diamond problem," and implicit interfaces mean you can write test doubles for any class without designing for testability upfront.
 
-**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability — choose the right one for each design problem.
+**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
 
 ## Common Pitfalls
 

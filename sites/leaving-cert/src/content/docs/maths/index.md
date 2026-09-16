@@ -92,11 +92,11 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 ## Intuition
 
-**Mathematics is the language of pattern and structure:** From counting to calculus, mathematics provides tools for describing relationships, making predictions, and solving problems. It is not about memorising procedures — it is about understanding relationships.
+**Mathematics is the language of pattern and structure:** From counting to calculus, mathematics provides tools for describing relationships, making predictions, and solving problems. It is not about memorising procedures, it is about understanding relationships.
 
 **Why it matters:** Mathematical skills are essential for science, engineering, economics, and informed decision-making in everyday life.
 
-**The key insight:** Mathematics is cumulative — each topic builds on previous ones. A solid foundation in algebra and functions makes calculus and statistics much more accessible.
+**The key insight:** Mathematics is cumulative, each topic builds on previous ones. A solid foundation in algebra and functions makes calculus and statistics much more accessible.
 
 ## Summary
 

@@ -33,7 +33,7 @@ Hash, producing a $2^{160}$ address space.
 | Property             | Value                                       |
 | -------------------- | ------------------------------------------- |
 | Output size          | 160 bits (20 bytes, 40 hex characters)      |
-| Collision resistance | $2^{80}$ (theoretical) — broken in practice |
+| Collision resistance | $2^{80}$ (theoretical), broken in practice |
 | Preimage resistance  | $2^{160}$ (unbroken)                        |
 | Speed                | Fast (hardware-accelerated on modern CPUs)  |
 
@@ -159,7 +159,7 @@ Far-reaching:
 | **Garbage collection**    | Unreachable objects can be safely deleted without affecting reachable objects |
 
 The trade-off is that Git cannot efficiently store files that change slightly and frequently (e.g.,
-Large binary files, databases). This is why Git LFS exists — it stores the large file content
+Large binary files, databases). This is why Git LFS exists, it stores the large file content
 Outside the object store and tracks only a pointer.
 
 ## Common Pitfalls

@@ -508,11 +508,11 @@ flowchart TD
 
 ## Intuition
 
-**Java's engine room:** The JVM is like a factory — class loaders bring in blueprints (classes), the garbage collector cleans up waste, and memory management keeps everything running smoothly.
+**Java's engine room:** The JVM is like a factory, class loaders bring in blueprints (classes), the garbage collector cleans up waste, and memory management keeps everything running smoothly.
 
 **Why it matters:** Understanding JVM internals helps you write more efficient code and diagnose performance problems in production systems.
 
-**The key insight:** Garbage collection is automatic but not free — understanding when and how it runs helps you write memory-efficient code.
+**The key insight:** Garbage collection is automatic but not free, understanding when and how it runs helps you write memory-efficient code.
 
 ## Common Pitfalls
 

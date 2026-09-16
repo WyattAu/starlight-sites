@@ -39,13 +39,13 @@ essay planning under pressure, and structuring high-quality responses in limited
 
 Unseen analysis assesses your ability to:
 
-- **Read closely** — Attend to language, form, and structure at the level of individual words and
+- **Read closely**, Attend to language, form, and structure at the level of individual words and
   phrases
-- **Think critically** — Construct an argument about how the text creates meaning
-- **Work under pressure** — Make efficient decisions about what to analyse and what to omit
-- **Apply knowledge** — Use literary terminology accurately and purposefully
-- **Engage with context** — Make reasonable inferences about the text"s period, genre, and concerns
-- **Write fluently** — Produce well-structured analytical prose in limited time
+- **Think critically**, Construct an argument about how the text creates meaning
+- **Work under pressure**, Make efficient decisions about what to analyse and what to omit
+- **Apply knowledge**, Use literary terminology accurately and purposefully
+- **Engage with context**, Make reasonable inferences about the text"s period, genre, and concerns
+- **Write fluently**, Produce well-structured analytical prose in limited time
 
 ### Types of Unseen Texts
 
@@ -74,11 +74,11 @@ Approaching an unseen text requires a specific mindset:
 
 Read the text once without annotating. Focus on:
 
-- **What is happening?** — Identify the subject matter and situation
-- **Who is speaking?** — Determine the narrative voice or persona
-- **What is the tone?** — Is it urgent, reflective, bitter, joyful, ambiguous?
-- **What is the overall structure?** — How many stanzas, paragraphs, or sections?
-- **What is the text's central concern?** — What idea or emotion drives it?
+- **What is happening?**, Identify the subject matter and situation
+- **Who is speaking?**, Determine the narrative voice or persona
+- **What is the tone?**, Is it urgent, reflective, bitter, joyful, ambiguous?
+- **What is the overall structure?**, How many stanzas, paragraphs, or sections?
+- **What is the text's central concern?**, What idea or emotion drives it?
 
 #### Stage 2: Annotation (3-5 minutes)
 
@@ -103,10 +103,10 @@ Plan your essay before writing. A quick plan prevents rambling and ensures struc
 ```
 Thesis: [One sentence stating your argument about the text]
 
-Paragraph 1: [Topic] — Key quotation: "..."
-Paragraph 2: [Topic] — Key quotation: "..."
-Paragraph 3: [Topic] — Key quotation: "..."
-Paragraph 4: [Topic] — Key quotation: "..."
+Paragraph 1: [Topic], Key quotation: "..."
+Paragraph 2: [Topic], Key quotation: "..."
+Paragraph 3: [Topic], Key quotation: "..."
+Paragraph 4: [Topic], Key quotation: "..."
 
 Conclusion: [What does the text achieve?]
 ```
@@ -115,9 +115,9 @@ Conclusion: [What does the text achieve?]
 
 Write your essay following the plan. Key principles:
 
-- **Introduction** — Briefly establish the text's subject, form, and your thesis
-- **Body paragraphs** — Each paragraph should focus on one feature and develop your argument
-- **Conclusion** — Draw your points together into a final evaluative statement
+- **Introduction**, Briefly establish the text's subject, form, and your thesis
+- **Body paragraphs**, Each paragraph should focus on one feature and develop your argument
+- **Conclusion**, Draw your points together into a final evaluative statement
 
 #### Stage 5: Checking (2-3 minutes)
 
@@ -158,11 +158,11 @@ Quickly identifying form gives you an immediate analytical framework:
 
 Use different coloured pens or highlighters to mark different features:
 
-- **Pink / Red** — Imagery and figurative language
-- **Blue** — Structural features (sentence length, stanza breaks, punctuation)
-- **Green** — Sound devices (alliteration, assonance, rhyme)
-- **Yellow** — Key quotations you plan to use in your essay
-- **Orange** — Tone and attitude shifts
+- **Pink / Red**, Imagery and figurative language
+- **Blue**, Structural features (sentence length, stanza breaks, punctuation)
+- **Green**, Sound devices (alliteration, assonance, rhyme)
+- **Yellow**, Key quotations you plan to use in your essay
+- **Orange**, Tone and attitude shifts
 
 ### The Margin Method
 
@@ -313,7 +313,7 @@ complete the essay. A conclusion, even a brief one, is better than an unfinished
 
 ## Worked Examples
 
-### Example 1: Unseen Poetry — "The Road Not Taken" (Robert Frost)
+### Example 1: Unseen Poetry, "The Road Not Taken" (Robert Frost)
 
 **Question:** Analyse how the poet presents the theme of choice.
 
@@ -321,7 +321,7 @@ complete the essay. A conclusion, even a brief one, is better than an unfinished
 
 Frost's poem is structured as a first-person reflection on a moment of choice: two paths diverging
 in a wood. The regular rhyme scheme (ABAAB) and iambic tetrameter create a measured, contemplative
-rhythm that mirrors the speaker's deliberation. However, the meter is not perfectly regular — small
+rhythm that mirrors the speaker's deliberation. However, the meter is not perfectly regular, small
 variations create a sense of hesitation that parallels the speaker's uncertainty.
 
 The central metaphor of the "two roads" represents the choices life presents. The speaker's claim
@@ -329,7 +329,7 @@ that he took "the one less traveled by" is complicated by the admission that "th
 Had worn them really about the same." This contradiction is the poem's most significant feature: the
 speaker acknowledges that both paths were equally worn, yet in the final stanza constructs a
 narrative of having chosen the less popular route. The sigh in the final stanza ("I shall be telling
-this with a sigh") is ambiguous — it could suggest regret, relief, or the weariness of storytelling
+this with a sigh") is ambiguous, it could suggest regret, relief, or the weariness of storytelling
 itself.
 
 The poem's tone shifts across its four stanzas. The first two stanzas are observational and
@@ -338,7 +338,7 @@ projects into the future with a "this has made all the difference" that the poem
 undermines. This structural progression from observation to projection reveals how we construct
 narratives of choice after the fact, assigning significance to arbitrary decisions.
 
-### Example 2: Unseen Prose — Extract from _Rebecca_ (Daphne du Maurier)
+### Example 2: Unseen Prose, Extract from _Rebecca_ (Daphne du Maurier)
 
 **Question:** Analyse how the writer creates atmosphere in this extract.
 
@@ -355,16 +355,16 @@ undercurrent of menace beneath the surface beauty.
 The narrative voice is first-person and deeply subjective. The narrator's passivity is established
 through verbs of observation rather than action: "I saw," "I noticed," "I watched." She is a
 spectator in this world, overwhelmed by its scale and certainty. The long, complex sentences mirror
-the winding drive to the house, creating a sense of inevitability — the reader, like the narrator,
+the winding drive to the house, creating a sense of inevitability, the reader, like the narrator,
 is drawn inexorably towards Manderley.
 
 The description of the house itself uses the semantic field of domination: "dominated," "massive,"
 "towering." The building is personified as a sentient presence, "watching" the narrator's approach.
 This reverses the expected power dynamic: rather than the narrator looking at the house, the house
-looks at her. The atmosphere is one of Gothic entrapment — the narrator is entering a space that
+looks at her. The atmosphere is one of Gothic entrapment, the narrator is entering a space that
 already possesses a history and identity independent of her, and against which she seems powerless.
 
-The final sentence's reference to "the smell of the sea" introduces an element of the sublime —
+The final sentence's reference to "the smell of the sea" introduces an element of the sublime,
 nature at its most vast and uncontrollable. This olfactory detail grounds the passage in sensory
 experience while also suggesting the presence of something beyond the narrator's comprehension. The
 sea, associated throughout the novel with Rebecca's death, functions as a foreshadowing detail that
@@ -372,7 +372,7 @@ the first-time reader cannot yet fully interpret.
 
 ## Intuition
 
-**Literary analysis is like being a detective — looking for clues in the text to uncover deeper meanings.**
+**Literary analysis is like being a detective, looking for clues in the text to uncover deeper meanings.**
 
 
 ```mermaid
@@ -391,7 +391,7 @@ flowchart TD
 - Follow a structured process: read, annotate, plan, write, check
 - Use systematic annotation (colour-coding, margin notes, or grids) to capture your observations
   efficiently
-- Plan your essay before writing — a 5-minute plan saves time overall
+- Plan your essay before writing, a 5-minute plan saves time overall
 - Be selective: choose the most analytically significant features rather than trying to cover
   everything
 - Always link techniques to effects and embed short quotations into your analysis

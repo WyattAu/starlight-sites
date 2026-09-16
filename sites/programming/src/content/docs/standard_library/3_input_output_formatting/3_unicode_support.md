@@ -311,7 +311,7 @@ void utf16_utf32_literals() {
 
 UTF-16 is a variable-width encoding where characters in the Basic Multilingual Plane (BMP,
 U+0000..U+FFFF) are represented as a single 16-bit code unit, and supplementary characters
-(U+10000..U+10FFFF) use **surrogate pairs** — two 16-bit code units in the range `0xD800..0xDFFF`.
+(U+10000..U+10FFFF) use **surrogate pairs**, two 16-bit code units in the range `0xD800..0xDFFF`.
 This means `std::u16string::size()` does **not** return the code point count when the string
 Contains supplementary characters.
 
@@ -358,7 +358,7 @@ std::u32string utf8_to_utf32(std::string_view utf8) {
             code_point = (code_point << 6) | (utf8[i + 3] & 0x3F);
             i += 4;
         } else {
-            // Invalid lead byte — skip
+            // Invalid lead byte, skip
             ++i;
             continue;
         }
@@ -453,7 +453,7 @@ And `i`And turns the superscript `²` into `2`).
 // Simplified NFC normalization check (conceptual)
 // In production, use ICU's unorm2_normalize or utf8proc's utf8proc_NFC
 bool is_nfc(std::string_view utf8) {
-    // This is a placeholder — true NFC normalization requires a full Unicode database
+    // This is a placeholder, true NFC normalization requires a full Unicode database
     // that maps every combining character sequence to its composed form.
     //
     // The actual algorithm:
@@ -475,7 +475,7 @@ void normalization_pitfall() {
     std::cout << "NFD bytes: " << nfd_form.size() << "\n";   // 5
 
     std::cout << "Byte-equal: " << (nfc_form == nfd_form ? "yes" : "no") << "\n";
-    // Byte-equal: no — they are NOT the same string!
+    // Byte-equal: no, they are NOT the same string!
 
     // Direct string comparison will incorrectly say they differ.
     // Always normalize both sides before comparison.
@@ -594,11 +594,11 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
 
 ## Intuition
 
-**Unicode is like a universal alphabet:** Instead of each country having its own character set (ASCII for English, JIS for Japanese, GB for Chinese), Unicode assigns a unique number (code point) to every character in every writing system. UTF-8, UTF-16, and UTF-32 are different ways to encode those numbers into bytes — like writing the same phone number in different formats (with area code, without, with country code). UTF-8 is the most common because it's backward-compatible with ASCII and uses the fewest bytes for English text.
+**Unicode is like a universal alphabet:** Instead of each country having its own character set (ASCII for English, JIS for Japanese, GB for Chinese), Unicode assigns a unique number (code point) to every character in every writing system. UTF-8, UTF-16, and UTF-32 are different ways to encode those numbers into bytes, like writing the same phone number in different formats (with area code, without, with country code). UTF-8 is the most common because it's backward-compatible with ASCII and uses the fewest bytes for English text.
 
 **Why it matters:** Unicode support is essential for any software that handles international text. Without it, you get garbled text, security vulnerabilities (buffer overflows from incorrect encoding), and broken search functionality. The C++ standard library provides `std::codecvt` and `std::wstring_convert` (deprecated in C++17) for encoding conversions, but the best practice is to use UTF-8 everywhere and convert at the boundaries.
 
-**The key insight:** UTF-8 is the best default encoding — it's backward-compatible with ASCII, uses the fewest bytes for English, and is the de facto standard for the web and modern systems.
+**The key insight:** UTF-8 is the best default encoding, it's backward-compatible with ASCII, uses the fewest bytes for English, and is the de facto standard for the web and modern systems.
 
 
 ```mermaid

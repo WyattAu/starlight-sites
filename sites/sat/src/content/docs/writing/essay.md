@@ -33,9 +33,9 @@ SAT writing study notes - Essay
 
 - **Thesis Statement**: a clear, specific claim that the essay supports. In most cases one or two sentences at the end of the introduction.
 - **Evidence**: specific examples, data, or quotations that support the thesis. Strong essays use multiple types of evidence.
-- **Analysis**: explaining how evidence supports the thesis. Don't just list evidence — explain its significance.
+- **Analysis**: explaining how evidence supports the thesis. Don't just list evidence, explain its significance.
 - **Organisation**: clear introduction, body paragraphs with topic sentences, and conclusion. Each body paragraph focuses on one supporting point.
-- **Transitions**: words and phrases that connect ideas between sentences and paragraphs — "however," "for example," "in contrast."
+- **Transitions**: words and phrases that connect ideas between sentences and paragraphs, "however," "for example," "in contrast."
 - **Counterargument**: acknowledging and refuting opposing views strengthens your argument.
 - **Style**: varied sentence structure, precise vocabulary, and appropriate tone for the audience.
 
@@ -80,7 +80,7 @@ Step 3: Thesis: "Schools should require community service because it builds char
 
 **Solution:**
 Step 1 (Evidence): "A 2013 study in Science found that reading literary fiction significantly improved participants' scores on tests measuring empathy and social perception."
-Step 2 (Analysis): "This study demonstrates that fiction does not merely entertain — it actively trains readers to understand others' perspectives. By inhabiting characters' inner lives, readers practise the cognitive skill of perspective-taking, which transfers to real-world social interactions."
+Step 2 (Analysis): "This study demonstrates that fiction does not merely entertain, it actively trains readers to understand others' perspectives. By inhabiting characters' inner lives, readers practise the cognitive skill of perspective-taking, which transfers to real-world social interactions."
 
 **Key insight:** Evidence without analysis is just a list. Always explain WHY the evidence supports your claim.
 
@@ -101,7 +101,7 @@ Step 2 (Analysis): "This study demonstrates that fiction does not merely enterta
 
 **Solution:**
 Step 1 (Counterargument): "Critics argue that uniforms suppress individuality and self-expression."
-Step 2 (Rebuttal): "However, uniforms do not eliminate self-expression — they redirect it. Students express individuality through accessories, hairstyles, and activities. Moreover, uniforms reduce socioeconomic visibility, decreasing bullying based on clothing."
+Step 2 (Rebuttal): "However, uniforms do not eliminate self-expression, they redirect it. Students express individuality through accessories, hairstyles, and activities. Moreover, uniforms reduce socioeconomic visibility, decreasing bullying based on clothing."
 
 **Key insight:** Acknowledging the strongest counterargument and refuting it makes your argument more persuasive than ignoring opposing views.
 
@@ -118,7 +118,7 @@ Step 2 (Rebuttal): "However, uniforms do not eliminate self-expression — they 
 
 ## Intuition
 
-The SAT essay is an argument about an argument — you are analysing how the author builds their case. Think of yourself as a film critic reviewing a documentary: you are not agreeing or disagreeing with the content, you are evaluating how effectively the filmmaker tells the story. Evidence is the evidence the author uses — statistics, examples, anecdotes. Reasoning is how they connect that evidence to their claim — the logical bridges they build. Style is the language they choose — whether they use formal language, emotional appeals, or rhetorical questions to persuade you. The strongest essays identify not just what the author says but how they say it and why it works.
+The SAT essay is an argument about an argument, you are analysing how the author builds their case. Think of yourself as a film critic reviewing a documentary: you are not agreeing or disagreeing with the content, you are evaluating how effectively the filmmaker tells the story. Evidence is the evidence the author uses, statistics, examples, anecdotes. Reasoning is how they connect that evidence to their claim, the logical bridges they build. Style is the language they choose, whether they use formal language, emotional appeals, or rhetorical questions to persuade you. The strongest essays identify not just what the author says but how they say it and why it works.
 
 ## Common Mistakes
 

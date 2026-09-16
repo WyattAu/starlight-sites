@@ -59,7 +59,7 @@ Matrices are rectangular arrays of numbers used to represent linear transformati
 - Properties: $(AB)^T = B^T A^T$, $(AB)^{-1} = B^{-1}A^{-1}$, $(A^T)^{-1} = (A^{-1})^T$
 - A square matrix is singular if $\det(A) = 0$ and non-singular if $\det(A) \neq 0$
 
-## Worked Example 1 — Matrix Multiplication
+## Worked Example 1, Matrix Multiplication
 
 **Problem:** If $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$, find $AB$.
 
@@ -69,7 +69,7 @@ $$AB = \begin{pmatrix} 1 \cdot 5 + 2 \cdot 7 & 1 \cdot 6 + 2 \cdot 8 \\ 3 \cdot 
 
 **Common mistake:** Assuming $AB = BA$. Matrix multiplication is not commutative. as a rule, $AB \neq BA$.
 
-## Worked Example 2 — Finding the Inverse
+## Worked Example 2, Finding the Inverse
 
 **Problem:** Find the inverse of $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$.
 
@@ -83,7 +83,7 @@ $$A^{-1} = \frac{1}{\det(A)} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \f
 
 **Common mistake:** Forgetting the negative sign when computing the determinant. The formula is $ad - bc$, not $bc - ad$.
 
-## Worked Example 3 — Solving a System Using Matrices
+## Worked Example 3, Solving a System Using Matrices
 
 **Problem:** Solve the system:
 $$x + 2y = 5$$
@@ -101,7 +101,7 @@ $$x = -2(5) + 1(11) = 1, \quad y = 1.5(5) - 0.5(11) = 2$$
 
 **Common mistake:** Not checking if the determinant is zero before finding the inverse. If $\det(A) = 0$, the matrix is singular and has no inverse.
 
-## Worked Example 4 — Properties of Transpose
+## Worked Example 4, Properties of Transpose
 
 **Problem:** If $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$ and $B = \begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix}$, verify that $(AB)^T = B^T A^T$.
 

@@ -200,7 +200,7 @@ flowchart TD
 
 ## Intuition
 
-Functional analysis extends linear algebra to infinite dimensions. A normed space is a vector space where you can measure the "size" of vectors, and a Banach space is one where Cauchy sequences converge — the space has no "holes." Think of it as doing linear algebra with functions instead of finite arrays. The dual space contains all continuous linear functionals: machines that take in a vector and return a number. Boundedness and continuity coincide for linear maps, a fact that fails in nonlinear settings. The key challenge of infinite dimensions is that bounded sequences need not have convergent subsequences — compactness becomes a rare and precious property, requiring special conditions like reflexivity.
+Functional analysis extends linear algebra to infinite dimensions. A normed space is a vector space where you can measure the "size" of vectors, and a Banach space is one where Cauchy sequences converge, the space has no "holes." Think of it as doing linear algebra with functions instead of finite arrays. The dual space contains all continuous linear functionals: machines that take in a vector and return a number. Boundedness and continuity coincide for linear maps, a fact that fails in nonlinear settings. The key challenge of infinite dimensions is that bounded sequences need not have convergent subsequences, compactness becomes a rare and precious property, requiring special conditions like reflexivity.
 
 ### 1.13 Common Mistakes
 

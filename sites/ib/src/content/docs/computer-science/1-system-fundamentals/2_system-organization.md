@@ -20,7 +20,7 @@ categories:
 
 ## Intuition
 
-**System organization is like a company's org chart — it defines how components interact, communicate, and share responsibilities:** Modular design, clear interfaces, and separation of concerns are the principles that make complex systems manageable
+**System organization is like a company's org chart, it defines how components interact, communicate, and share responsibilities:** Modular design, clear interfaces, and separation of concerns are the principles that make complex systems manageable
 
 **Why it matters:** Understanding system organization helps developers build maintainable software and collaborate effectively
 

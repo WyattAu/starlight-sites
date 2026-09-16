@@ -46,25 +46,25 @@ to prepare you for both the multiple-choice and free-response sections.
 
 ## Topics Covered
 
-- **Kinematics** — displacement, velocity, acceleration, projectile motion, free-fall, motion
+- **Kinematics**, displacement, velocity, acceleration, projectile motion, free-fall, motion
   graphs, vector components
-- **Newton's Laws** — force, mass, acceleration, friction, inclined planes, tension, systems of
+- **Newton's Laws**, force, mass, acceleration, friction, inclined planes, tension, systems of
   objects, free-body diagrams
-- **Work, Energy, and Power** — work-energy theorem, kinetic and potential energy, conservation of
+- **Work, Energy, and Power**, work-energy theorem, kinetic and potential energy, conservation of
   energy, power, conservative vs non-conservative forces
-- **Momentum and Impulse** — linear momentum, impulse-momentum theorem, conservation of momentum,
+- **Momentum and Impulse**, linear momentum, impulse-momentum theorem, conservation of momentum,
   elastic and inelastic collisions, centre of mass
-- **Rotational Motion** — torque, angular momentum, moment of inertia, rotational kinematics,
+- **Rotational Motion**, torque, angular momentum, moment of inertia, rotational kinematics,
   rolling motion, angular energy
-- **Electrostatics** — Coulomb's law, electric fields, electric potential, Gauss's law, conductors
+- **Electrostatics**, Coulomb's law, electric fields, electric potential, Gauss's law, conductors
   and insulators
-- **Circuits** — Ohm's law, Kirchhoff's rules, series and parallel circuits, capacitors, RC circuits
-- **Magnetism** — magnetic fields, Biot-Savart law, Ampere's law, Faraday's law, inductance, Lenz's
+- **Circuits**, Ohm's law, Kirchhoff's rules, series and parallel circuits, capacitors, RC circuits
+- **Magnetism**, magnetic fields, Biot-Savart law, Ampere's law, Faraday's law, inductance, Lenz's
   law
 
 ## Study Tips
 
-- Always start free-response problems with a free-body diagram or circuit diagram — it earns points
+- Always start free-response problems with a free-body diagram or circuit diagram, it earns points
   and helps organise your thinking
 - Check units at every step; dimensional analysis is a powerful tool for catching mistakes on the AP
   exam
@@ -76,7 +76,7 @@ to prepare you for both the multiple-choice and free-response sections.
   answers often earn more points
 - Keep a formula sheet organised by topic and annotate it with the conditions under which each
   equation is valid
-- Work on translating word problems into mathematical setups — identifying the correct approach is
+- Work on translating word problems into mathematical setups, identifying the correct approach is
   often the hardest step
 - Review vector operations (cross product, dot product) frequently as they are fundamental to both
   mechanics and electromagnetism
@@ -94,7 +94,7 @@ linked above.
 
 ## Intuition
 
-AP Physics C is fundamentally about one question: **what happens when you push, pull, spin, or electrify something, and why?** The entire course splits into two halves — Mechanics (how objects move) and Electricity & Magnetism (how charges and fields interact) — connected by the same mathematical language: calculus.
+AP Physics C is fundamentally about one question: **what happens when you push, pull, spin, or electrify something, and why?** The entire course splits into two halves, Mechanics (how objects move) and Electricity & Magnetism (how charges and fields interact), connected by the same mathematical language: calculus.
 
 **The mechanics chain:** Forces cause acceleration (Newton's 2nd law). Work done by forces changes energy (work-energy theorem). The same ideas extend to rotation: torque causes angular acceleration, and rotational energy complements translational energy. Momentum conservation gives you a shortcut when forces are internal or unknown.
 
@@ -149,7 +149,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- **[AP Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Physics C requires calculus — derivatives for instantaneous rates, integrals for work and accumulation.
+- **[AP Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Physics C requires calculus, derivatives for instantaneous rates, integrals for work and accumulation.
 - **[AP Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry):** Thermodynamics and atomic structure appear in both physics and chemistry.
 - **[AP Biology](../../../../../gcse/src/content/docs/biology):** Biophysics applications include fluid dynamics, optics, and biomechanics.
-- **[Computer Science — Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Computational physics uses numerical algorithms (Euler method, Runge-Kutta) to solve differential equations that model physical systems.
+- **[Computer Science, Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Computational physics uses numerical algorithms (Euler method, Runge-Kutta) to solve differential equations that model physical systems.

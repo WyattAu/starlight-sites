@@ -33,12 +33,12 @@ Algorithm analysis determines efficiency without implementation. Asymptotic nota
 
 Big-O notation describes the upper bound of an algorithm's growth rate. It answers: "In the worst case, how fast does the running time grow as input size increases?"
 
-- **O(1)** — Constant time: array access, hash table lookup
-- **O(log n)** — Logarithmic: binary search
-- **O(n)** — Linear: single loop through data
-- **O(n log n)** — Linearithmic: efficient sorting (merge sort, heap sort)
-- **O(n²)** — Quadratic: nested loops (bubble sort, selection sort)
-- **O(2ⁿ)** — Exponential: brute-force subsets
+- **O(1)**, Constant time: array access, hash table lookup
+- **O(log n)**, Logarithmic: binary search
+- **O(n)**, Linear: single loop through data
+- **O(n log n)**, Linearithmic: efficient sorting (merge sort, heap sort)
+- **O(n²)**, Quadratic: nested loops (bubble sort, selection sort)
+- **O(2ⁿ)**, Exponential: brute-force subsets
 
 **Key insight:** Only the dominant term matters. O(3n² + 5n + 100) = O(n²). Constants are dropped because Big-O describes growth *rate*, not exact runtime.
 
@@ -60,7 +60,7 @@ Using more memory can make an algorithm faster, and vice versa:
 
 ## Common Mistakes
 
-**Confusing Big-O with exact running time:** Big-O describes growth rate, not exact time. O(n²) could be 1000n² or 0.001n² — both are O(n²). Don't assume O(n²) is always slower than O(n).
+**Confusing Big-O with exact running time:** Big-O describes growth rate, not exact time. O(n²) could be 1000n² or 0.001n², both are O(n²). Don't assume O(n²) is always slower than O(n).
 
 **Forgetting that space complexity matters:** An algorithm with O(1) space may be preferred over O(n) space even if time complexity is similar. Memory is a finite resource.
 

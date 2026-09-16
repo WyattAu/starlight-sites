@@ -23,7 +23,7 @@ flowchart TD
 
 ## Complete University Chemistry Study Guide
 
-Chemistry is the central science, connecting physics, biology, mathematics, and engineering. University-level chemistry builds on the foundations laid in secondary school, introducing greater depth, rigour, and mathematical sophistication. This hub organises the three major branches of chemistry — Physical Chemistry, Organic Chemistry, and Inorganic Chemistry — into a coherent study plan, with dedicated sections on laboratory skills and interdisciplinary connections.
+Chemistry is the central science, connecting physics, biology, mathematics, and engineering. University-level chemistry builds on the foundations laid in secondary school, introducing greater depth, rigour, and mathematical sophistication. This hub organises the three major branches of chemistry, Physical Chemistry, Organic Chemistry, and Inorganic Chemistry, into a coherent study plan, with dedicated sections on laboratory skills and interdisciplinary connections.
 
 Whether you are beginning your first year or preparing for advanced coursework, the guides below give you the conceptual framework, problem-solving techniques, and practical skills to succeed.
 
@@ -92,7 +92,7 @@ Organic molecules are defined by their carbon skeletons and functional groups. Y
 
 ### Reaction Mechanisms
 
-Organic chemistry is best understood through mechanisms — the step-by-step sequences by which reactions occur. You will learn to draw curved arrows, identify nucleophiles and electrophiles, and classify reactions by type:
+Organic chemistry is best understood through mechanisms, the step-by-step sequences by which reactions occur. You will learn to draw curved arrows, identify nucleophiles and electrophiles, and classify reactions by type:
 
 - **Substitution reactions** (SN1 and SN2)
 - **Elimination reactions** (E1 and E2)
@@ -123,7 +123,7 @@ Inorganic chemistry covers all elements except carbon, including metals, mineral
 
 ### Coordination Chemistry
 
-Coordination chemistry deals with metal complexes — metal centres surrounded by ligands. You will study:
+Coordination chemistry deals with metal complexes, metal centres surrounded by ligands. You will study:
 
 - **Ligand types** (monodentate, polydentate, chelating)
 - **Crystal field theory** and ligand field theory
@@ -194,10 +194,10 @@ Chemistry problems require both conceptual understanding and mathematical fluenc
 
 Chemistry connects deeply with other sciences. Exploring these connections strengthens your understanding:
 
-- **[Physics](https://physics.wyattau.com)** — Physical chemistry draws directly from thermodynamics, quantum mechanics, and statistical mechanics. A strong physics background enhances your understanding of energy, waves, and atomic structure.
-- **[Mathematics](https://mathematics.wyattau.com)** — Calculus, linear algebra, and differential equations are essential tools in physical chemistry. Mathematical fluency enables you to derive relationships and solve complex problems.
-- **[Biology](https://ib.wyattau.com)** — Biochemistry and organic chemistry form the chemical basis of biology. Understanding molecular structure and reactivity explains enzyme function, DNA replication, and metabolic pathways.
-- **[AP Resources](https://ap.wyattau.com)** — AP Chemistry provides a bridge from secondary school to university-level study.
+- **[Physics](https://physics.wyattau.com)**, Physical chemistry draws directly from thermodynamics, quantum mechanics, and statistical mechanics. A strong physics background enhances your understanding of energy, waves, and atomic structure.
+- **[Mathematics](https://mathematics.wyattau.com)**, Calculus, linear algebra, and differential equations are essential tools in physical chemistry. Mathematical fluency enables you to derive relationships and solve complex problems.
+- **[Biology](https://ib.wyattau.com)**, Biochemistry and organic chemistry form the chemical basis of biology. Understanding molecular structure and reactivity explains enzyme function, DNA replication, and metabolic pathways.
+- **[AP Resources](https://ap.wyattau.com)**, AP Chemistry provides a bridge from secondary school to university-level study.
 
 ## Frequently Asked Questions
 
@@ -231,4 +231,4 @@ Physical chemistry applies physics to understand chemical systems through mathem
 
 ### How do I improve my problem-solving in chemistry?
 
-Practise regularly and systematically. Work through textbook problems, past exams, and sample questions. When you get a problem wrong, analyse your error — was it a conceptual misunderstanding, a mathematical mistake, or a misreading of the question? Keep a log of recurring errors and review them before exams. Study with peers and explain your reasoning to others.
+Practise regularly and systematically. Work through textbook problems, past exams, and sample questions. When you get a problem wrong, analyse your error, was it a conceptual misunderstanding, a mathematical mistake, or a misreading of the question? Keep a log of recurring errors and review them before exams. Study with peers and explain your reasoning to others.

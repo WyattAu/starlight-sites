@@ -30,9 +30,9 @@ flowchart TD
 
 ## Intuition
 
-Context-free languages extend regular languages by adding **memory through a stack**. This enables matching nested structures: balanced parentheses, matching begin/end blocks in programming languages, and arithmetic expressions. A pushdown automaton is essentially a finite automaton with a stack — it can count, but only one thing at a time.
+Context-free languages extend regular languages by adding **memory through a stack**. This enables matching nested structures: balanced parentheses, matching begin/end blocks in programming languages, and arithmetic expressions. A pushdown automaton is essentially a finite automaton with a stack, it can count, but only one thing at a time.
 
-**CFG intuition:** A context-free grammar describes a language through recursive rules. The rule `S → aSb | ε` says "an S is an 'a', then another S, then a 'b', or nothing." This generates the language `{aⁿbⁿ : n ≥ 0}` — equal numbers of a's and b's. The key property is that each rule has a single non-terminal on the left side, making the language "context-free" — the rule applies regardless of surrounding symbols.
+**CFG intuition:** A context-free grammar describes a language through recursive rules. The rule `S → aSb | ε` says "an S is an 'a', then another S, then a 'b', or nothing." This generates the language `{aⁿbⁿ : n ≥ 0}`equal numbers of a's and b's. The key property is that each rule has a single non-terminal on the left side, making the language "context-free", the rule applies regardless of surrounding symbols.
 
 **CFL vs regular intuition:** Regular languages can't count or match (e.g., can't recognise `{aⁿbⁿ}`). CFLs can count to arbitrary depth using the stack. But CFLs can't count in two directions simultaneously (e.g., can't recognise `{aⁿbⁿcⁿ}`). Each level of the Chomsky hierarchy adds a specific kind of memory.
 
@@ -237,14 +237,14 @@ Middle is reached, then pop and compare with the remaining input.
 **Transitions:**
 
 - Push phase ($q_0$):
-- $(q_0, 0, \varepsilon) \to (q_0, 0)$ — push `0`.
-- $(q_0, 1, \varepsilon) \to (q_0, 1)$ — push `1`.
-- $(q_0, \varepsilon, \varepsilon) \to (q_1, \varepsilon)$ — guess the midpoint.
+- $(q_0, 0, \varepsilon) \to (q_0, 0)$, push `0`.
+- $(q_0, 1, \varepsilon) \to (q_0, 1)$, push `1`.
+- $(q_0, \varepsilon, \varepsilon) \to (q_1, \varepsilon)$, guess the midpoint.
 
 - Pop phase ($q_1$):
-- $(q_1, 0, 0) \to (q_1, \varepsilon)$ — match `0`.
-- $(q_1, 1, 1) \to (q_1, \varepsilon)$ — match `1`.
-- $(q_1, \varepsilon, \varepsilon) \to (q_2, \varepsilon)$ — accept if stack empty and input
+- $(q_1, 0, 0) \to (q_1, \varepsilon)$, match `0`.
+- $(q_1, 1, 1) \to (q_1, \varepsilon)$, match `1`.
+- $(q_1, \varepsilon, \varepsilon) \to (q_2, \varepsilon)$, accept if stack empty and input
   consumed.
 
 **Accept:** $\{q_2\}$.
@@ -382,7 +382,7 @@ String: $w = ba$.
 
 - $T[1,2]$: split at $k = 1$. Check all pairs $(X \in T[1,1], Y \in T[2,2])$:
 - $X = B, Y = A$: $S \to BA$? No. $B \to BA$? No. $A \to BA$? No. $C \to BA$? No.
-- $X = B, Y = C$: $S \to BC$? Yes — add $S$.
+- $X = B, Y = C$: $S \to BC$? Yes, add $S$.
 - $X = B, Y = A$: already checked. So $T[1,2] = \{S\}$.
 
 Since $S \in T[1,2]$The string $ba$ is **in** $L(G)$. The parse tree is $S \to BC$ Where $B \to b$
@@ -403,6 +403,6 @@ and $C \to a$.
 
 3. **Assuming CFLs are closed under intersection.** Context-free languages are not closed under intersection. The classic counterexample is $\{a^n b^n c^m\} \cap \{a^m b^n c^n\} = \{a^n b^n c^n\}$, which is not context-free. This is a key difference from regular languages, which are closed under intersection.
 
-4. **Treating ambiguity as a mere inconvenience.** An ambiguous grammar can generate the same string via two different parse trees, leading to different interpretations. This is not just a cosmetic problem — it means the grammar does not uniquely determine the structure of inputs, which causes real issues in parsers and compilers.
+4. **Treating ambiguity as a mere inconvenience.** An ambiguous grammar can generate the same string via two different parse trees, leading to different interpretations. This is not just a cosmetic problem, it means the grammar does not uniquely determine the structure of inputs, which causes real issues in parsers and compilers.
 
 5. **Forgetting that CFLs cannot express "matching" across three or more positions.** A CFL can match pairs (e.g., $\{a^n b^n\}$) but not triples (e.g., $\{a^n b^n c^n\}$). This limitation arises because pushdown automata have only one stack, which can track one counter but not two independent counters simultaneously.

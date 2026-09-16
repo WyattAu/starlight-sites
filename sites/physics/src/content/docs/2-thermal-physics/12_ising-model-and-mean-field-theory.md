@@ -122,7 +122,7 @@ The specific heat:
 
 $$c = \frac{\partial u}{\partial T} = \frac{J^2}{k_B T^2}\text{sech}^2\!\left(\frac{J}{k_B T}\right)$$
 
-This is a smooth function with no singularity — confirming no phase transition in 1D.
+This is a smooth function with no singularity, confirming no phase transition in 1D.
 
 </details>
 
@@ -143,8 +143,8 @@ correlation length.
 **2D Ising exact values:** $\beta = 1/8$, $\gamma = 7/4$, $\alpha = 0$ (log), $\nu = 1$.
 
 Mean-field theory is exact above the upper critical dimension ($d > 4$) but gives incorrect exponents
-for $d < 4$. The exponents depend only on dimensionality and symmetry — not on microscopic details
-— a property called **universality**.
+for $d < 4$. The exponents depend only on dimensionality and symmetry, not on microscopic details
+- a property called **universality**.
 
 ### 12.5 Key Relationships
 

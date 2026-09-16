@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Cell Biology — Diagnostic Tests
+## Cell Biology, Diagnostic Tests
 
 ## Unit Tests
 
@@ -222,11 +222,11 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 
 ## Intuition
 
-**Life's building blocks:** Cells are like tiny factories — each organelle has a specific job, and together they keep the cell alive. Microscopes reveal this hidden world.
+**Life's building blocks:** Cells are like tiny factories, each organelle has a specific job, and together they keep the cell alive. Microscopes reveal this hidden world.
 
 **Why it matters:** From understanding diseases to growing organs, cell biology is the foundation of modern medicine and biotechnology.
 
-**The key insight:** Cell size is limited by the surface area to volume ratio — as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
+**The key insight:** Cell size is limited by the surface area to volume ratio, as cells grow, they need more membrane relative to their volume to exchange materials efficiently.
 
 
 ```mermaid

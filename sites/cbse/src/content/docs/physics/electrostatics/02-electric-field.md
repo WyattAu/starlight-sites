@@ -38,7 +38,7 @@ flowchart TD
 - Relation between field and force: $\vec{F} = q\vec{E}$
 - Electric field inside a uniformly charged non-conducting sphere: $E = \frac{kQr}{R^3}$ (for $r < R$)
 
-## Worked Example 1 — Electric Field Due to a Point Charge
+## Worked Example 1, Electric Field Due to a Point Charge
 
 **Problem:** Find the electric field at a point 0.3 m from a charge of $+8 \, \mu\text{C}$.
 
@@ -49,7 +49,7 @@ $$= 8 \times 10^5 \, \text{N/C}$$
 
 The field points radially outward from the positive charge.
 
-## Worked Example 2 — Electric Field Due to Multiple Charges
+## Worked Example 2, Electric Field Due to Multiple Charges
 
 **Problem:** Two charges $q_1 = +4 \, \mu\text{C}$ and $q_2 = -4 \, \mu\text{C}$ are placed at $(0, +0.05)$ m and $(0, -0.05)$ m respectively. Find the electric field at a point on the $x$-axis at $x = 0.2$ m.
 
@@ -68,7 +68,7 @@ $$E_{net} = 2E_1\cos\theta = 2 \times 8.47 \times 10^5 \times 0.971 \approx 1.64
 
 The direction is along $+x$ (from positive to negative).
 
-## Worked Example 3 — Electric Field Inside a Uniformly Charged Sphere
+## Worked Example 3, Electric Field Inside a Uniformly Charged Sphere
 
 **Problem:** A uniformly charged non-conducting sphere of radius 0.1 m has total charge $Q = 10 \, \mu\text{C}$. Find the electric field at $r = 0.06$ m from the centre.
 
@@ -78,7 +78,7 @@ For $r < R$:
 $$E = \frac{kQr}{R^3} = \frac{9 \times 10^9 \times 10 \times 10^{-6} \times 0.06}{(0.1)^3}$$
 $$= \frac{9 \times 10^9 \times 6 \times 10^{-7}}{10^{-3}} = \frac{5400}{10^{-3}} = 5.4 \times 10^6 \, \text{N/C}$$
 
-## Worked Example 4 — Electric Field Due to a Charged Ring
+## Worked Example 4, Electric Field Due to a Charged Ring
 
 **Problem:** A ring of radius 0.15 m carries a total charge of $5 \, \mu\text{C}$. Find the electric field at a point on its axis at a distance of 0.2 m from the centre.
 
@@ -95,7 +95,7 @@ $$= \frac{9000}{0.015625} = 5.76 \times 10^5 \, \text{N/C}$$
 
 **Common mistake:** Forgetting that the field on the axis of a ring is maximum at $x = R/\sqrt{2}$, not at the centre (where it is zero).
 
-## Worked Example 5 — Electric Field and Force on a Charge
+## Worked Example 5, Electric Field and Force on a Charge
 
 **Problem:** A charge of $+3 \, \mu\text{C}$ is placed at a point where the electric field is $2 \times 10^5 \, \text{N/C}$ directed to the right. Find the force on the charge.
 
@@ -127,7 +127,7 @@ The force is in the same direction as the field (to the right) because the charg
 - Force on charge: $\vec{F} = q\vec{E}$
 - Torque on dipole: $\vec{\tau} = \vec{p} \times \vec{E}$, $\tau = pE\sin\theta$
 
-## Worked Example 6 — Electric Field Lines
+## Worked Example 6, Electric Field Lines
 
 **Problem:** Describe the electric field lines for (a) a positive point charge, (b) an electric dipole, and (c) two equal positive charges.
 
@@ -141,7 +141,7 @@ The force is in the same direction as the field (to the right) because the charg
 
 **Common mistake:** Field lines never cross each other. The density of field lines represents the strength of the field.
 
-## Worked Example 7 — Electric Field of a Line Charge
+## Worked Example 7, Electric Field of a Line Charge
 
 **Problem:** A long straight wire has a uniform linear charge density $\lambda = 5 \times 10^{-8} \, \text{C/m}$. Find the electric field at a distance of 0.1 m from the wire.
 
@@ -168,19 +168,19 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 
 ## Intuition
 
-**A field is the influence a charge sends out into space:** An electric field is like the "influence zone" around a charge — it tells you how strong a force would be if you placed a test charge at that point. Field lines are like weather maps for electricity: they show direction (where a positive charge would be pushed) and density (closer lines mean stronger field). Near a point charge, field lines radiate outward like spokes of a wheel; for a dipole, they curve from positive to negative like iron filings around bar magnets.
+**A field is the influence a charge sends out into space:** An electric field is like the "influence zone" around a charge, it tells you how strong a force would be if you placed a test charge at that point. Field lines are like weather maps for electricity: they show direction (where a positive charge would be pushed) and density (closer lines mean stronger field). Near a point charge, field lines radiate outward like spokes of a wheel; for a dipole, they curve from positive to negative like iron filings around bar magnets.
 
 **Why it matters:** Electric fields explain how your phone communicates wirelessly (electromagnetic fields), how capacitors store energy (uniform fields between plates), and how lightning forms (enormous fields in thunderclouds). Without understanding fields, we couldn't design any electronic device.
 
-**The key insight:** Electric field is a vector at every point in space — it has both magnitude and direction. This means you must add fields as vectors (with components), not just as numbers, which is why symmetric charge distributions make calculations much simpler.
+**The key insight:** Electric field is a vector at every point in space, it has both magnitude and direction. This means you must add fields as vectors (with components), not just as numbers, which is why symmetric charge distributions make calculations much simpler.
 
 ## Common Exam Patterns
 
 ## Cross-References
 
-- **[Electric Charge (01-electric-charge)](01-electric-charge):** Electric fields are created by charges — understanding Coulomb's law is prerequisite to understanding field calculations.
+- **[Electric Charge (01-electric-charge)](01-electric-charge):** Electric fields are created by charges, understanding Coulomb's law is prerequisite to understanding field calculations.
 - **[Electrostatics](../../../../../../typescript/src/content/docs/index):** Gauss's law and electric potential are closely linked to the electric field concept.
-- **[Current Electricity](../current-electricity/index):** Electric fields drive current through conductors — connecting static fields to dynamic flow.
+- **[Current Electricity](../current-electricity/index):** Electric fields drive current through conductors, connecting static fields to dynamic flow.
 - **[Magnetic Effects](../magnetic-effects/index):** Moving charges produce magnetic fields, extending the electric field concept to magnetism.
 
 ### Mistake 3: Forgetting that electric field is a vector and must be added as such

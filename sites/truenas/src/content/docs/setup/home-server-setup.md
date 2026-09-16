@@ -45,7 +45,7 @@ Point, but in practice:
 - **Sweet spot**: 64 GB DDR4 ECC UDIMMs (two 32 GB sticks) on a Supermicro or ASRock Rack board
 
 Do not run ZFS with less than 8 GB. The ARC (Adaptive Replacement Cache) will starve and performance
-Will tank. ECC RAM is recommended but not mandatory — ZFS has its own checksumming at the block
+Will tank. ECC RAM is recommended but not mandatory, ZFS has its own checksumming at the block
 Level.
 
 ### Storage Drives
@@ -73,7 +73,7 @@ Key considerations:
 ### Motherboard and Chassis
 
 - **IPMI**: Strongly recommended. Supermicro X11SCA-F or similar boards with IPMI let you manage the
-  server headless — remote console, power control, sensor monitoring. Without IPMI you need a
+  server headless, remote console, power control, sensor monitoring. Without IPMI you need a
   display and keyboard attached.
 - **SATA ports**: Ensure enough ports for current drives plus expansion. A 6-port HBA card (LSI
   9211-8i flashed to IT mode) is cheap and gives you 8 SAS/SATA ports.
@@ -86,12 +86,12 @@ A UPS is non-negotiable for a ZFS NAS. Power loss during a write can corrupt the
 
 - CyberPower CP1500PFCLCD or APC Back-UPS Pro 1500
 - Must support USB HID signaling (not just serial)
-- Use NUT (Network UPS Tools) — TrueNAS has built-in NUT support
+- Use NUT (Network UPS Tools), TrueNAS has built-in NUT support
 
 ## Software and Images
 
 - [Rufus](https://rufus.ie/en/) or [Balena Etcher](https://balena.io/etcher/) for writing the ISO
-- [TrueNAS SCALE ISO](https://www.truenas.com/download-truenas-community-edition/) — use the latest
+- [TrueNAS SCALE ISO](https://www.truenas.com/download-truenas-community-edition/), use the latest
   stable release, not beta/nightly
 
 ## Installation Procedure
@@ -152,7 +152,7 @@ Important ZFS pool design rules:
 - **You can add VDEVs** to a pool (striping across them), but you **cannot remove** a VDEV from a
   pool
 - A pool"s IOPS is determined by the slowest VDEV
-- Plan your pool layout carefully — resizing later is limited
+- Plan your pool layout carefully, resizing later is limited
 
 ### Dataset Creation
 
@@ -199,8 +199,8 @@ zfs list -o name,used,avail,refer,mountpoint
 1. Navigate to **Credentials > Local Users** and click **Add**
 2. Create a user for each person who needs access, or create role-based users:
 
-- `media_user` — read-only access to media shares
-- `admin_user` — read-write access to everything
+- `media_user`read-only access to media shares
+- `admin_user`read-write access to everything
 
 1. Navigate to **Credentials > Local Groups** and create groups as needed
 2. Assign users to groups
@@ -439,7 +439,7 @@ Never skip scrubs. A monthly scrub schedule is the minimum for data integrity as
 
 ZFS identifies drives by GUID, not by /dev/sdX names. This means drive reordering does not affect
 Pool import. However, if you are using a USB enclosure, drives may enumerate differently. Always use
-The TrueNAS web UI for pool management — never manually import with `zpool import` unless you know
+The TrueNAS web UI for pool management, never manually import with `zpool import` unless you know
 Exactly what you are doing.
 
 </details>

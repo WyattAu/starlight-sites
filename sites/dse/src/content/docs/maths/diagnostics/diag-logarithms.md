@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Logarithms — Diagnostic Tests
+## Logarithms, Diagnostic Tests
 
 ## Unit Tests
 
@@ -560,11 +560,11 @@ flowchart TD
 
 ## Intuition
 
-**Asking "how many times?":** A logarithm asks "how many times must I multiply this base to get that number?" — it's the inverse of exponentiation, like asking "what power gives me this result?"
+**Asking "how many times?":** A logarithm asks "how many times must I multiply this base to get that number?", it's the inverse of exponentiation, like asking "what power gives me this result?"
 
-**Why it matters:** Logarithms compress enormous ranges — earthquakes, pH, sound intensity — into manageable scales. They turn multiplication into addition, making complex calculations simpler.
+**Why it matters:** Logarithms compress enormous ranges, earthquakes, pH, sound intensity, into manageable scales. They turn multiplication into addition, making complex calculations simpler.
 
-**The key insight:** log(a) + log(b) = log(ab), not log(a+b) — logarithms turn multiplication into addition, not addition into something else.
+**The key insight:** log(a) + log(b) = log(ab), not log(a+b), logarithms turn multiplication into addition, not addition into something else.
 
 ## Common Pitfalls
 

@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Cryptography"
-description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself — it is a tool that, when correctly"
+description: "Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself, it is a tool that, when correctly"
 
 ---
 
@@ -18,7 +18,7 @@ description: "Cryptography is the mathematical science of securing communication
 ## Foundations
 
 Cryptography is the mathematical science of securing communication and data. It is not a security
-Solution by itself — it is a tool that, when correctly applied within a secure system, provides
+Solution by itself, it is a tool that, when correctly applied within a secure system, provides
 Confidentiality, integrity, authentication, and non-repudiation.
 
 ### Cryptographic Primitives
@@ -85,7 +85,7 @@ Block 3 + Key → Ciphertext Block 3
 ```
 
 **Do not use ECB.** Identical plaintext blocks produce identical ciphertext blocks, revealing
-Patterns in the data. The classic demonstration is encrypting an image — ECB preserves visual
+Patterns in the data. The classic demonstration is encrypting an image, ECB preserves visual
 Structure completely.
 
 #### Cipher Block Chaining (CBC)
@@ -134,7 +134,7 @@ Undetectable. Always combine with a MAC.
 #### Galois/Counter Mode (GCM)
 
 GCM combines CTR mode encryption with Galois field authentication, providing both confidentiality
-And integrity (AEAD — Authenticated Encryption with Associated Data).
+And integrity (AEAD, Authenticated Encryption with Associated Data).
 
 ```
 Plaintext → CTR Encryption → Ciphertext
@@ -438,7 +438,7 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 ```
 :::
 :::caution
-Vulnerable to timing attacks — it returns as soon as it finds a mismatch, leaking information about
+Vulnerable to timing attacks, it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
 
 ### Poly1305
@@ -758,7 +758,7 @@ Per second. Use bcrypt (cost 12+), scrypt, or Argon2id for password storage.
 
 ### Pitfall 4: Reusing Nonces/IVs
 
-In GCM mode, nonce reuse is catastrophic — it enables both forgeries and plaintext recovery. In CTR
+In GCM mode, nonce reuse is catastrophic, it enables both forgeries and plaintext recovery. In CTR
 Mode, nonce reuse leaks XOR of plaintexts. Always use a unique nonce per encryption operation.
 
 ### Pitfall 5: Ignoring Certificate Validation

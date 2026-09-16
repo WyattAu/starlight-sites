@@ -89,7 +89,7 @@ The occupation left a lasting legacy on Hong Kong's identity. The experience of 
 
 ## Intuition
 
-The Pacific War was a collision between an industrialising Japan seeking resources and a Western colonial order that controlled them. Japan's strategy was like a boxer who knocks out opponents quickly before their superior endurance kicks in — Pearl Harbor was a first-round knockout attempt against the United States. The Battle of Hong Kong showed the vulnerability of colonial outposts that were never designed to be defended alone. The occupation years reveal how power structures collapse when the coloniser becomes the colonised — familiar hierarchies were overturned as Japanese soldiers replaced British administrators overnight.
+The Pacific War was a collision between an industrialising Japan seeking resources and a Western colonial order that controlled them. Japan's strategy was like a boxer who knocks out opponents quickly before their superior endurance kicks in, Pearl Harbor was a first-round knockout attempt against the United States. The Battle of Hong Kong showed the vulnerability of colonial outposts that were never designed to be defended alone. The occupation years reveal how power structures collapse when the coloniser becomes the colonised, familiar hierarchies were overturned as Japanese soldiers replaced British administrators overnight.
 
 ## Exam Tips
 

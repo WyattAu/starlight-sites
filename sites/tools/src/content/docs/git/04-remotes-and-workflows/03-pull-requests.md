@@ -1,7 +1,7 @@
 ---
 
 title: "Pull Requests"
-description: "A pull request (PR) — called a in GitLab — is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local"
+description: "A pull request (PR), called a in GitLab, is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local"
 date: 2025-06-03T15:00:00.000Z
 tags:
   - git
@@ -24,15 +24,15 @@ categories:
 
 ## Intuition
 
-**A formal code review process:** Pull requests are like submitting a proposal to a committee — you present your changes, colleagues review them, discuss improvements, and only then does the change get approved and merged. It turns solo coding into a team activity.
+**A formal code review process:** Pull requests are like submitting a proposal to a committee, you present your changes, colleagues review them, discuss improvements, and only then does the change get approved and merged. It turns solo coding into a team activity.
 
 **Why it matters:** PRs are the gatekeeper of code quality. They catch bugs before they reach production, spread knowledge across the team, and create a permanent record of why changes were made.
 
-**The key insight:** Good PR descriptions save hours of review time — explaining *what* changed, *why* it changed, and *how* to test it transforms a review from guesswork into a focused discussion.
+**The key insight:** Good PR descriptions save hours of review time, explaining *what* changed, *why* it changed, and *how* to test it transforms a review from guesswork into a focused discussion.
 
 ## What is a Pull Request
 
-A pull request (PR) — called a **merge request** in GitLab — is a proposal to merge a branch into
+A pull request (PR), called a **merge request** in GitLab, is a proposal to merge a branch into
 another branch, accompanied by a code review discussion. While `git merge` is a local operation, a
 pull request is a **platform feature** (GitHub, GitLab, Gitea) that adds:
 
@@ -144,7 +144,7 @@ When reviewing a PR, focus on:
 
 | Bad                      | Good                                                                   |
 | ------------------------ | ---------------------------------------------------------------------- |
-| "This is wrong"          | "This condition is inverted — `x < 0` should be `x >= 0`"              |
+| "This is wrong"          | "This condition is inverted, `x < 0` should be `x >= 0`"              |
 | "Use a better algorithm" | "A binary search would reduce this from $O(n)$ to $O(\log n)$"         |
 | "This is hard to read"   | "Extract this into a named function `is_valid_email` with a docstring" |
 
@@ -234,7 +234,7 @@ the entire feature.
 git revert <squash-commit-hash>
 ```
 
-Single commit — straightforward revert.
+Single commit, straightforward revert.
 
 ## PR Etiquette
 

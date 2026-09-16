@@ -160,7 +160,7 @@ $$S_n(1 - r) = a(1 - r^n)$$
 $$S_n = \frac{a(1 - r^n)}{1 - r} \quad \blacksquare$$
 
 _Intuition (Self-Similarity)._ Multiplying the sum by $r$ shifts every term one position to the
-Right. The original sum and the shifted sum overlap almost completely — the difference is just the
+Right. The original sum and the shifted sum overlap almost completely, the difference is just the
 First term minus the new last term. This "shift and subtract" idea is the same principle behind many
 Iterative algorithms.
 
@@ -304,7 +304,7 @@ Minimum value is 4, achieved at $x = 2$.
 
 <hr />
 
-## 7. Sigma Notation — Method of Differences
+## 7. Sigma Notation, Method of Differences
 
 **Definition.** A _telescoping sum_ is a series where most terms cancel when written out, leaving
 Only a few terms at the beginning and end.
@@ -877,8 +877,8 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions) — Algebraic manipulation and partial fractions are essential for the method of differences.
-- [Proof](13-proof) — Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
-- [Functions](05-functions) — Exponential and logarithmic functions arise in the analysis of geometric series convergence.
-- [Equations and Inequalities](03-equations-and-inequalities) — Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
+- [Algebraic Expressions](01-algebraic-expressions), Algebraic manipulation and partial fractions are essential for the method of differences.
+- [Proof](13-proof), Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
+- [Functions](05-functions), Exponential and logarithmic functions arise in the analysis of geometric series convergence.
+- [Equations and Inequalities](03-equations-and-inequalities), Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
 :::

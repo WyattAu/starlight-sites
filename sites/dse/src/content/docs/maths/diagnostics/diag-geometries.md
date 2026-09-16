@@ -14,13 +14,13 @@ tableOfContents: false
 }
 </script>
 
-## Geometries — Diagnostic Tests
+## Geometries, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for geometries.
 
-### UT-1: Circle Theorems — Angle at Centre
+### UT-1: Circle Theorems, Angle at Centre
 
 **Question:**
 
@@ -109,7 +109,7 @@ $\angle B + \angle D = 180° \implies \angle D = 145°$.
 }
 </script>
 
-### UT-4: Vector Geometry — Collinearity
+### UT-4: Vector Geometry, Collinearity
 
 **Question:**
 
@@ -555,11 +555,11 @@ flowchart TD
 
 ## Intuition
 
-**A playground of shapes:** Geometry is like a detective story — you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.
+**A playground of shapes:** Geometry is like a detective story, you use clues (angles, lengths, parallel lines) to prove facts about shapes. Circle theorems are the "secret rules" that govern how angles and lines behave around circles.
 
 **Why it matters:** From architecture to navigation, geometry helps you calculate distances, prove designs work, and understand spatial relationships that are invisible to the naked eye.
 
-**The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc — this single fact unlocks dozens of problems.
+**The key insight:** In circle geometry, the angle at the center is always double the angle at the circumference when subtended by the same arc, this single fact unlocks dozens of problems.
 
 ## Common Pitfalls
 

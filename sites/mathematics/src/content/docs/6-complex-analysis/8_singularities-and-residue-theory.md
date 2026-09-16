@@ -173,7 +173,7 @@ flowchart TD
 
 ## Intuition
 
-Singularities are points where a holomorphic function misbehaves — it either blows up, has a limit, or oscillates infinitely. The Laurent series decomposes a function near a singularity into a regular part (non-negative powers) and a principal part (negative powers). The residue is the coefficient of $1/(z - z_0)$, and it captures the "amount of singularity" in a precise sense. The residue theorem says that the integral around a closed curve equals $2\pi i$ times the sum of residues inside — integrating around a singularity picks up a topological quantity that depends only on what is inside, not on the exact path. This converts hard integration problems into bookkeeping.
+Singularities are points where a holomorphic function misbehaves, it either blows up, has a limit, or oscillates infinitely. The Laurent series decomposes a function near a singularity into a regular part (non-negative powers) and a principal part (negative powers). The residue is the coefficient of $1/(z - z_0)$, and it captures the "amount of singularity" in a precise sense. The residue theorem says that the integral around a closed curve equals $2\pi i$ times the sum of residues inside, integrating around a singularity picks up a topological quantity that depends only on what is inside, not on the exact path. This converts hard integration problems into bookkeeping.
 
 ### 8.8 Common Mistakes
 

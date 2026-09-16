@@ -276,8 +276,8 @@ nested :: ((Int, Int), String)
 nested = ((1, 2), "nested")
 
 -- Tuple type constructor
--- (,) :: a -> b -> (a, b)
--- (,,) :: a -> b -> c -> (a, b, c)
+-- () :: a -> b -> (a, b)
+-- () :: a -> b -> c -> (a, b, c)
 ```
 
 ### Tuple Operations
@@ -392,8 +392,8 @@ elem :: (Eq a) => a -> [a] -> Bool
 ['A'..'Z']      -- => "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 -- Infinite ranges (safe because of laziness)
-naturals = [0..]           -- [0, 1, 2, 3, ...]
-evens = [0, 2..]           -- [0, 2, 4, 6, ...]
+naturals = [0..]           -- [0, 1, 2, 3...]
+evens = [0, 2..]           -- [0, 2, 4, 6...]
 ```
 
 ### List Comprehensions
@@ -421,11 +421,11 @@ pythagorean :: [(Int, Int, Int)]
 pythagorean =
   [ (a, b, c)
   | c <- [1..50]
-  , b <- [1..c]
-  , a <- [1..b]
-  , a^2 + b^2 == c^2
+b <- [1..c]
+a <- [1..b]
+a^2 + b^2 == c^2
   ]
--- => [(3,4,5), (6,8,10), (5,12,13), (9,12,15), ...]
+-- => [(3,4,5), (6,8,10), (5,12,13), (9,12,15)...]
 ```
 
 ### Comprehension Transformations
@@ -504,7 +504,7 @@ doubleAndInc = (+1) . (*2)
 -- 9: !! (index)
 -- 8: *, /, `div`, `mod`
 -- 7: +, -
--- 6: ++, :, (comparisons)
+-- 6: ++:, (comparisons)
 -- 5: ==, /=, <, >, <=, >=
 -- 4: &&, $, $!
 -- 3: ||, ^^
@@ -670,7 +670,7 @@ filter (/= ' ') "h e l l o" -- => "hello"
 
 ```haskell
 -- foldr :: (a -> b -> b) -> b -> [a] -> b
--- foldr f z [x1, x2, ..., xn] = x1 `f` (x2 `f` (... (xn `f` z)))
+-- foldr f z [x1, x2..., xn] = x1 `f` (x2 `f` (... (xn `f` z)))
 foldr :: (a -> b -> b) -> b -> [a] -> b
 foldr _ z []     = z
 foldr f z (x:xs) = f x (foldr f z xs)
@@ -691,7 +691,7 @@ foldr (:) [] [1, 2, 3]    -- => 1 : (2 : (3 : [])) = [1, 2, 3]
 
 ```haskell
 -- foldl :: (b -> a -> b) -> b -> [a] -> b
--- foldl f z [x1, x2, ..., xn] = (...((z `f` x1) `f` x2)...) `f` xn
+-- foldl f z [x1, x2..., xn] = (...((z `f` x1) `f` x2)...) `f` xn
 foldl :: (b -> a -> b) -> b -> [a] -> b
 foldl _ acc []     = acc
 foldl f acc (x:xs) = foldl f (f acc x) xs
@@ -747,7 +747,7 @@ scanr (+) 0 [1, 2, 3, 4]  -- => [10, 9, 7, 4, 0]
 
 -- Useful for fibonacci-like sequences
 fibs = scanl (+) 0 (1 : fibs)
--- => [0, 1, 1, 2, 3, 5, 8, 13, ...]
+-- => [0, 1, 1, 2, 3, 5, 8, 13...]
 ```
 
 ### zipWith and friends

@@ -226,7 +226,7 @@ Algorithms. The pattern is: `algorithm(range, predicate, projection)`. The predi
 
 When an algorithm like `std::ranges::sort` receives a projection, the comparison is effectively
 Rewritten as `comp(proj(elem1), proj(elem2))` for every pair of elements compared. The projection is
-Applied lazily — it is not stored or cached. This means:
+Applied lazily, it is not stored or cached. This means:
 
 1. The projection is called **every time** an element is accessed by the algorithm, not once per
    element.
@@ -352,7 +352,7 @@ int main() {
         {"Phone", 0.2},
     };
 
-    // Using std::identity explicitly — predicate receives the full element
+    // Using std::identity explicitly, predicate receives the full element
     auto heavy = std::ranges::find_if(
         items,
         [](const Item& item) { return item.weight &gt; 1.0; },
@@ -528,14 +528,14 @@ struct Pair {
 int main() {
     std::vector<Pair> data = {{3, 1}, {1, 3}, {2, 2}};
 
-    // Sort by .b member — the Pair objects are reordered, not transformed
+    // Sort by .b member, the Pair objects are reordered, not transformed
     std::ranges::sort(data, std::ranges::less{}, &Pair::b);
 
     for (const auto& p : data) {
         std::cout << "(" << p.a << ", " << p.b << ") ";
     }
     // Output: (3, 1) (2, 2) (1, 3)
-    // The .a values follow their .b values — the WHOLE object is moved
+    // The .a values follow their .b values, the WHOLE object is moved
 }
 ```
 

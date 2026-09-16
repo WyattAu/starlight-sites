@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Statistics — Diagnostic Tests
+## Statistics, Diagnostic Tests
 
 ## Unit Tests
 
@@ -247,11 +247,11 @@ $P(\text{exactly 2 red in 3) = \frac{\binom{15}{2} \times \binom{21}{1}}{\binom{
 
 ## Intuition
 
-**Data tells stories:** Statistics is like being a detective — you collect clues (data), analyze patterns, and draw conclusions. Mean, median, and mode are different ways to summarize the center of a dataset.
+**Data tells stories:** Statistics is like being a detective, you collect clues (data), analyze patterns, and draw conclusions. Mean, median, and mode are different ways to summarize the center of a dataset.
 
 **Why it matters:** From polling data to medical research, statistics helps you make sense of information. Understanding statistics helps you evaluate claims and make informed decisions.
 
-**The key insight:** Correlation doesn't imply causation — just because two things happen together doesn't mean one causes the other.
+**The key insight:** Correlation doesn't imply causation, just because two things happen together doesn't mean one causes the other.
 
 
 ```mermaid

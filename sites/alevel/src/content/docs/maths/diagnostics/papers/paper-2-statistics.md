@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Paper 2 — Statistics
+## Paper 2, Statistics
 
 **Time allowed:** 75 minutes **Total marks:** 50 **Topics covered:** All 5 statistics topics
 
@@ -32,7 +32,7 @@ tableOfContents: false
 
 ## Instructions
 
-Answer all questions. Calculators are permitted. Show all working — marks are awarded for method as
+Answer all questions. Calculators are permitted. Show all working, marks are awarded for method as
 well as final answer.
 
 ---
@@ -48,7 +48,7 @@ well as final answer.
 
 ## Questions
 
-### Q1 [10 marks] — Data Representation
+### Q1 [10 marks], Data Representation
 
 The frequency distribution below shows the daily commuting times (in minutes) for 200 employees at a
 large company:
@@ -72,7 +72,7 @@ marks]
 whether this claim is supported by the data, carefully distinguishing between the class with the
 highest frequency and the class with the highest frequency density. [3 marks]
 
-### Q2 [10 marks] — Correlation and Regression
+### Q2 [10 marks], Correlation and Regression
 
 An economist collects data on the annual income (in thousands of pounds) and annual savings (in
 hundreds of pounds) for 7 households:
@@ -93,7 +93,7 @@ changed." Determine whether this claim is correct, and explain your reasoning. [
 Spearman's rank coefficient, and state one scenario where Spearman's rank would be preferred. [2
 marks]
 
-### Q3 [10 marks] — Probability
+### Q3 [10 marks], Probability
 
 A medical test for a disease has the following characteristics:
 
@@ -117,7 +117,7 @@ same. [3 marks]
 $\mathrm{P}(\text{disease} \mid \text{positive}) \neq \mathrm{P}(\text{positive} \mid \text{disease})$ And
 state the condition under which they would be equal. [2 marks]
 
-### Q4 [10 marks] — Statistical Distributions
+### Q4 [10 marks], Statistical Distributions
 
 For each of the following scenarios, determine whether the binomial distribution $B(n, p)$ is
 appropriate. If it is, state the values of $n$ and $p$. If it is not, identify which binomial
@@ -140,7 +140,7 @@ number of times a 6 is rolled in the first 50 rolls. [2 marks]
 questions, she knows the answer. For the last 5, she guesses randomly. $V$ is the total number of
 correct answers. [2 marks]
 
-### Q5 [10 marks] — Hypothesis Testing
+### Q5 [10 marks], Hypothesis Testing
 
 A researcher tests whether a new drug reduces blood pressure. Under the null hypothesis $H_0$: the
 drug has no effect, so the change in blood pressure $X \sim N(0, 15^2)$. The alternative hypothesis
@@ -176,7 +176,7 @@ effect size (mean reduction) is the same. [2 marks]
 
 ## Solutions
 
-### Q1 — Solution
+### Q1, Solution
 
 **(a)** The class widths are not equal: 10, 10, 15, 25, and 30 minutes respectively. When bars are
 drawn with equal width, the area of each bar is proportional to the frequency, but the **height**
@@ -233,7 +233,7 @@ class width of the 35--60 minute class inflates its frequency.
 }
 </script>
 
-### Q2 — Solution
+### Q2, Solution
 
 **(a)** We need $\sum x$$\sum y$$\sum x^2$$\sum y^2$$\sum xy$.
 
@@ -314,7 +314,7 @@ Spearman's rank would be preferred when:
 }
 </script>
 
-### Q3 — Solution
+### Q3, Solution
 
 **(a)** Let $D$ = "person has the disease" and $+$ = "test is positive".
 
@@ -385,7 +385,7 @@ hold.
 }
 </script>
 
-### Q4 — Solution
+### Q4, Solution
 
 **(a)** The binomial distribution is **NOT** appropriate. The condition violated is **independence
 of trials**: since balls are drawn without replacement, the probability of drawing a red ball
@@ -444,7 +444,7 @@ and $V_2 \sim B(5, 0.25)$. Then $V = 5 + V_2$ and $V_2 \sim B(5, 0.25)$.
 }
 </script>
 
-### Q5 — Solution
+### Q5, Solution
 
 **(a)** Under $H_0$: $\bar{X} \sim N\left(0, \frac{15^2}{25}\right) = N(0, 9)$ So
 $\sigma_{\bar{X}} = 3$.
@@ -534,7 +534,7 @@ statistically significant result.
 
 ## Intuition
 
-**Statistics is like a detective story — gathering data, looking for patterns, and drawing conclusions.**
+**Statistics is like a detective story, gathering data, looking for patterns, and drawing conclusions.**
 
 
 ```mermaid

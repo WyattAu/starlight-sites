@@ -23,7 +23,7 @@ description: "Algorithms Sorting Algorithms notes covering key definitions, core
 | ------------ | ------------------------------------------------------- | ------------------------------------------------------------ |
 | **Stable**   | Equal elements retain their relative order              | Preserves secondary sort keys, needed for multi-key sorting  |
 | **In-place** | Uses $O(1)$ extra memory (or $O(\log n)$ for recursion) | Critical when memory is constrained                          |
-| **Adaptive** | Runs faster on partially sorted input                   | Common in practice — incremental updates, nearly-sorted logs |
+| **Adaptive** | Runs faster on partially sorted input                   | Common in practice, incremental updates, nearly-sorted logs |
 | **Online**   | Can sort elements as they arrive                        | Streaming scenarios where the full input is not available    |
 
 ### Comparison Model
@@ -46,7 +46,7 @@ In their final position.
 ```python
 def bubble_sort(arr):
     """
-    Bubble sort — adjacent swap.
+    Bubble sort, adjacent swap.
     Time: O(n^2) worst/average, O(n) best (already sorted with early termination)
     Space: O(1)
     Stable: Yes
@@ -73,7 +73,7 @@ Find the minimum element in the unsorted portion and swap it into place.
 ```python
 def selection_sort(arr):
     """
-    Selection sort — find minimum, swap.
+    Selection sort, find minimum, swap.
     Time: O(n^2) all cases
     Space: O(1)
     Stable: No (swapping can change relative order of equal elements)
@@ -88,7 +88,7 @@ def selection_sort(arr):
     return arr
 ```
 
-Selection sort makes exactly $n(n-1)/2$ comparisons regardless of input — it is never adaptive. Its
+Selection sort makes exactly $n(n-1)/2$ comparisons regardless of input, it is never adaptive. Its
 Only advantage is that it does at most $n$ swaps, which matters when writes are expensive (e.g.,
 Flash memory with limited write cycles).
 
@@ -99,7 +99,7 @@ Build the sorted array one element at a time by inserting each element into its 
 ```python
 def insertion_sort(arr):
     """
-    Insertion sort — insert each element into sorted prefix.
+    Insertion sort, insert each element into sorted prefix.
     Time: O(n^2) worst/average, O(n) best (already sorted)
     Space: O(1)
     Stable: Yes
@@ -125,9 +125,9 @@ Divide the array in half, recursively sort each half, then merge the two sorted 
 ```python
 def merge_sort(arr):
     """
-    Merge sort — divide and conquer.
+    Merge sort, divide and conquer.
     Time: O(n log n) all cases
-    Space: O(n) — auxiliary array for merging
+    Space: O(n), auxiliary array for merging
     Stable: Yes
     """
     if len(arr) <= 1:
@@ -169,7 +169,7 @@ def quicksort(arr, low=0, high=None):
     """
     Quicksort with Hoare partition scheme.
     Time: O(n log n) average, O(n^2) worst
-    Space: O(log n) — recursion stack (average)
+    Space: O(log n), recursion stack (average)
     Stable: No
     """
     if high is None:
@@ -231,9 +231,9 @@ Build a max-heap from the array, then repeatedly extract the maximum and place i
 ```python
 def heapsort(arr):
     """
-    Heapsort — build max-heap, extract max repeatedly.
+    Heapsort, build max-heap, extract max repeatedly.
     Time: O(n log n) worst/average/best
-    Space: O(1) — true in-place
+    Space: O(1), true in-place
     Stable: No
     """
     n = len(arr)
@@ -351,7 +351,7 @@ def radix_sort_lsd(arr):
     if not arr:
         return arr
     max_val = max(arr)
-    exp = 1  # 1, 10, 100, ...
+    exp = 1  # 1, 10, 100...
 
     while max_val // exp > 0:
         _counting_sort_by_digit(arr, exp)
@@ -421,7 +421,7 @@ Elements and sorting each bucket takes $O((n/k)^2)$Giving total $O(n + k \cdot (
 $k = \Theta(n)$.
 
 **When it degrades:** When all elements fall into a single bucket, it degrades to the bucket's
-Internal sort — $O(n^2)$ with insertion sort.
+Internal sort, $O(n^2)$ with insertion sort.
 
 ## External Sorting
 
@@ -491,7 +491,7 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 
 ### Why TimSort Is Fast in Practice
 
-- **Adaptive:** Exploits existing order. On already-sorted data, it runs in $O(n)$ — just one pass
+- **Adaptive:** Exploits existing order. On already-sorted data, it runs in $O(n)$, just one pass
   to identify the single run.
 - **Cache-friendly:** Merge operations work on contiguous memory regions.
 - **Stable:** Preserves the relative order of equal elements.
@@ -616,7 +616,7 @@ using counting sort, or use radix sort instead.
 
 Merge sort and quicksort recurse until the subarray has 1 element. For small subarrays (e.g., 10-50
 Elements), the overhead of recursion exceeds the benefit of divide-and-conquer. Switch to insertion
-Sort for small subarrays — this is what every production sort implementation does.
+Sort for small subarrays, this is what every production sort implementation does.
 
 ### 6. Merge Sort Array Copies
 
@@ -660,7 +660,7 @@ def parallel_merge_sort(arr, depth=0, max_depth=3):
 ### Parallel Quicksort
 
 Quicksort can also be parallelised by processing partitions independently. The challenge is load
-Balancing — if the pivot splits unevenly, one processor gets much more work.
+Balancing, if the pivot splits unevenly, one processor gets much more work.
 
 ### Sample Sort
 
@@ -748,7 +748,7 @@ Before $b$ in the input. During the merge step, when we compare $a$ and $b$:
 2. If $a$ and $b$ are in the same half, stability is preserved by the recursive invariant
 
 This inductive argument proves that merge sort is stable. Quicksort is unstable because the
-Partition operation does not preserve the relative order of equal elements — an element swapped from
+Partition operation does not preserve the relative order of equal elements, an element swapped from
 The left side of the pivot may pass over an equal element on the right side.
 
 ## Sorting Network Lower Bounds
@@ -803,7 +803,7 @@ Step 2: Sort by salary (stable sort):
 ```
 
 Within each department, employees are now sorted by salary. If the second sort were unstable, the
-Department ordering could be destroyed — a Marketing employee might end up between Engineering
+Department ordering could be destroyed, a Marketing employee might end up between Engineering
 Employees.
 
 ### Making an Unstable Sort Stable
@@ -933,7 +933,7 @@ A comparison-based sorting algorithm can be modelled as a binary decision tree:
 ### Tightness
 
 Merge sort, heapsort, and quicksort (average case) all achieve $O(n \log n)$ So the lower bound is
-Tight — you cannot do asymptotically better with comparisons alone.
+Tight, you cannot do asymptotically better with comparisons alone.
 
 ### Information-Theoretic Argument
 
@@ -952,8 +952,8 @@ Trace the bubble sort algorithm on the array `[5, 1, 4, 2, 8]`.
 
 **Solution:**
 
-Pass 1: `[1, 4, 2, 5, 8]` — 4 swaps (5 bubbled right) Pass 2: `[1, 2, 4, 5, 8]` — 2 swaps Pass 3:
-`[1, 2, 4, 5, 8]` — 0 swaps (sorted, algorithm terminates)
+Pass 1: `[1, 4, 2, 5, 8]`4 swaps (5 bubbled right) Pass 2: `[1, 2, 4, 5, 8]`2 swaps Pass 3:
+`[1, 2, 4, 5, 8]`0 swaps (sorted, algorithm terminates)
 
 Time complexity: $O(n^2)$ worst case, $O(n)$ best case (already sorted with optimisation).
 :::
@@ -966,8 +966,8 @@ Time complexity: $O(n^2)$ worst case, $O(n)$ best case (already sorted with opti
 
 ## Intuition
 
-Sorting is the most fundamental algorithmic building block — it prestructures data so that subsequent operations (searching, merging, deduplication) become efficient. The theoretical lower bound of O(n log n) for comparison-based sorts comes from an information-theoretic argument: distinguishing among n! permutations requires at least log₂(n!) ≈ n log n bits of information, and each comparison provides at most one bit. Merge sort and heapsort achieve this bound in the worst case, while quicksort achieves it on average. The choice between them comes down to practical trade-offs: quicksort is fastest in practice due to cache locality, but has O(n²) worst case; heapsort guarantees O(n log n) but is slower due to poor cache behavior.
+Sorting is the most fundamental algorithmic building block, it prestructures data so that subsequent operations (searching, merging, deduplication) become efficient. The theoretical lower bound of O(n log n) for comparison-based sorts comes from an information-theoretic argument: distinguishing among n! permutations requires at least log₂(n!) ≈ n log n bits of information, and each comparison provides at most one bit. Merge sort and heapsort achieve this bound in the worst case, while quicksort achieves it on average. The choice between them comes down to practical trade-offs: quicksort is fastest in practice due to cache locality, but has O(n²) worst case; heapsort guarantees O(n log n) but is slower due to poor cache behavior.
 
-The real insight in modern sorting is that no single algorithm is best for all inputs. TimSort (used in Python, Java, and Rust) exploits existing order in the data — on already-sorted input it runs in O(n), just scanning for runs. Introsort (used in C++ std::sort) starts with quicksort and switches to heapsort if recursion gets too deep, combining quicksort's speed with heapsort's worst-case guarantee. Non-comparison sorts like counting sort and radix sort bypass the n log n lower bound entirely by exploiting properties of the data (small integer ranges or fixed-width keys), achieving O(n) time at the cost of additional memory.
+The real insight in modern sorting is that no single algorithm is best for all inputs. TimSort (used in Python, Java, and Rust) exploits existing order in the data, on already-sorted input it runs in O(n), just scanning for runs. Introsort (used in C++ std::sort) starts with quicksort and switches to heapsort if recursion gets too deep, combining quicksort's speed with heapsort's worst-case guarantee. Non-comparison sorts like counting sort and radix sort bypass the n log n lower bound entirely by exploiting properties of the data (small integer ranges or fixed-width keys), achieving O(n) time at the cost of additional memory.
 
 Stability matters more than most developers realize. A stable sort preserves the relative order of equal elements, which is essential when sorting by multiple keys. If you sort employees by salary first and then by department, an unstable second sort could destroy the salary ordering within each department. The practical rule: when sorting records by multiple fields, sort by the least significant key first using a stable sort, then by more significant keys. Alternatively, use a compound comparison key that encodes all sort criteria in a single comparison.

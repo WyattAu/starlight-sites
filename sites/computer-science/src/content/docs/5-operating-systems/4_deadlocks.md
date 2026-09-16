@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-Deadlock is a **circular wait** — two or more processes are each holding a resource the other needs, and neither will release what they have. Think of a traffic jam at a four-way intersection where each car refuses to back up. The critical insight is that deadlock is not about a single resource being busy; it's about a *cycle* of dependencies.
+Deadlock is a **circular wait**, two or more processes are each holding a resource the other needs, and neither will release what they have. Think of a traffic jam at a four-way intersection where each car refuses to back up. The critical insight is that deadlock is not about a single resource being busy; it's about a *cycle* of dependencies.
 
 **Why the four conditions matter:** All four Coffman conditions (mutual exclusion, hold-and-wait, no preemption, circular wait) must hold simultaneously for deadlock to occur. Breaking *any one* condition prevents deadlock. Resource ordering (preventing circular wait) and allowing preemption are the most practical strategies.
 
@@ -112,7 +112,7 @@ $(2,0,0)$New $A = (5,3,2)$. Then $P_3$: $\mathrm{Need} = (0,1,1) \leq (5,3,2)$. 
 processes can complete: system is **safe**.
 
 <details>
-<summary>Worked Example 4.1 — Banker's Algorithm Step-by-Step</summary>
+<summary>Worked Example 4.1, Banker's Algorithm Step-by-Step</summary>
 
 Given the state above, suppose $P_1$ requests $(1,0,2)$.
 
@@ -146,7 +146,7 @@ $\langle P_1, P_3, P_4, P_0, P_2 \rangle$.
 </details>
 
 <details>
-<summary>Worked Example 4.2 — Unsafe State Detection</summary>
+<summary>Worked Example 4.2, Unsafe State Detection</summary>
 
 Suppose instead $P_0$ requests $(0,2,0)$ in the original state.
 
@@ -157,10 +157,10 @@ Suppose instead $P_0$ requests $(0,2,0)$ in the original state.
 *Step 3:* Pretend to allocate. New $A = (3,1,2)$, $\mathrm{Need_0} = (7,2,3)$.
 
 *Step 4:* Safety check. No process can execute: $P_1$ needs $(1,2,2)$ but only $(3,1,2)$ available
-(second component insufficient). $P_3$ needs $(0,1,1) \leq (3,1,2)$ — OK, execute $P_3$:
-$A = (5,2,3)$. Then $P_1$: $(1,2,2) \leq (5,2,3)$ — OK, execute: $A = (7,2,3)$. But now $P_0$ needs
-$(7,2,3)$ — exact match, execute: $A = (7,3,3)$. $P_4$: $(4,3,1) \leq (7,3,3)$ — OK, execute:
-$A = (7,3,5)$. $P_2$: $(6,0,0) \leq (7,3,5)$ — OK.
+(second component insufficient). $P_3$ needs $(0,1,1) \leq (3,1,2)$, OK, execute $P_3$:
+$A = (5,2,3)$. Then $P_1$: $(1,2,2) \leq (5,2,3)$, OK, execute: $A = (7,2,3)$. But now $P_0$ needs
+$(7,2,3)$, exact match, execute: $A = (7,3,3)$. $P_4$: $(4,3,1) \leq (7,3,3)$, OK, execute:
+$A = (7,3,5)$. $P_2$: $(6,0,0) \leq (7,3,5)$, OK.
 
 Safe sequence: $\langle P_3, P_1, P_0, P_4, P_2 \rangle$. The request is **granted**.
 
@@ -196,7 +196,7 @@ Allow deadlocks to occur, then detect and recover.
 3. **Checkpoint and rollback:** Periodically save process state; restore on deadlock.
 
 <details>
-<summary>Worked Example 4.3 — Deadlock Detection</summary>
+<summary>Worked Example 4.3, Deadlock Detection</summary>
 
 Three processes and one resource type with 10 instances:
 

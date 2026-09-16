@@ -585,11 +585,11 @@ Undigested and acts as dietary fibre.
 
 ## Intuition
 
-**Carbon's versatility:** Carbon atoms can chain together in countless ways — like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
+**Carbon's versatility:** Carbon atoms can chain together in countless ways, like LEGO bricks that snap together to form infinite structures. Alkanes are saturated (full of hydrogen); alkenes have double bonds that can react.
 
 **Why it matters:** From plastics to proteins, carbon chemistry is the basis of organic life and modern materials. Understanding reactions lets you predict how molecules behave.
 
-**The key insight:** Functional groups determine reactivity — an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
+**The key insight:** Functional groups determine reactivity, an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
 
 ## Common Pitfalls
 
@@ -670,7 +670,7 @@ $$2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}$$
 **Problem 2:** Draw and name all the structural isomers of $\mathrm{C_3H_6O}$ that are aldehydes or
 Ketones.
 
-_If you get this wrong, revise: Isomerism — Functional Group Isomerism_
+_If you get this wrong, revise: Isomerism, Functional Group Isomerism_
 
 <details>
 <summary>Solution</summary>
@@ -696,7 +696,7 @@ Observation: The reddish-brown colour of bromine water is decolourised.
 **Problem 4:** Write the equation for the esterification of ethanol with propanoic acid. Name the
 Ester product.
 
-_If you get this wrong, revise: Esters — Formation and Naming_
+_If you get this wrong, revise: Esters, Formation and Naming_
 
 <details>
 <summary>Solution</summary>
@@ -741,7 +741,7 @@ acids).
 **Problem 7:** Write the equation for the reaction of ethanoic acid with sodium carbonate. State the
 Observation.
 
-_If you get this wrong, revise: Carboxylic Acids — Reactions_
+_If you get this wrong, revise: Carboxylic Acids, Reactions_
 
 <details>
 <summary>Solution</summary>
@@ -790,7 +790,7 @@ Propanoate, would not be acidic and would not react with sodium to produce hydro
 **Problem 10:** Explain why the boiling point of propan-1-ol ($97^\circ\mathrm{C}$) is much higher
 Than that of propane ($-42^\circ\mathrm{C}$), even though propane has a similar molar mass.
 
-_If you get this wrong, revise: Alcohols — Properties and Intermolecular Forces_
+_If you get this wrong, revise: Alcohols, Properties and Intermolecular Forces_
 
 <details>
 <summary>Solution</summary>

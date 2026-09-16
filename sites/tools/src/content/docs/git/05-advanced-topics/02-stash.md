@@ -1,7 +1,7 @@
 ---
 
 title: "Stash | Tools - Wyatt's Notes"
-description: "temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism —"
+description: "temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism,"
 date: 2025-06-03T09:00:00.000Z
 tags:
   - git
@@ -35,7 +35,7 @@ flowchart TD
 ## What is Stash
 
 `git stash` temporarily shelves changes in your working directory and index, restoring your
-repository to a clean state (matching HEAD). It is a stack-based mechanism — you can push multiple
+repository to a clean state (matching HEAD). It is a stack-based mechanism, you can push multiple
 stashes and pop them in LIFO order.
 
 ### When to Use Stash

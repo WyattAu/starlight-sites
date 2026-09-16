@@ -482,7 +482,7 @@ $P(A \cap B) = P(A) + P(B) - P(A \cup B) = 0.4 + 0.5 - 0.7 = 0.2$.
 
 $P(A|B) = P(A \cap B)/P(B) = 0.2/0.5 = 0.4$.
 
-**If you get this wrong, revise:** [Addition Rule](#22-addition-rule) — Section 2.2.
+**If you get this wrong, revise:** [Addition Rule](#22-addition-rule), Section 2.2.
 
 </details>
 
@@ -506,7 +506,7 @@ $P(D|T^+) = \dfrac{P(T^+|D)P(D)}{P(T^+)} = \dfrac{0.0099}{0.0198} = 0.5$.
 Even with a 99% accurate test, a positive result means only a 50% chance of actually having the
 Disease, because the disease is so rare.
 
-**If you get this wrong, revise:** [Bayes' Theorem](#4-bayes-theorem) — Section 4.
+**If you get this wrong, revise:** [Bayes' Theorem](#4-bayes-theorem), Section 4.
 
 </details>
 
@@ -520,7 +520,7 @@ Prove that if $A$ and $B$ are independent, then so are $A$ and $B'$.
 $P(A \cap B') = P(A) - P(A \cap B) = P(A) - P(A)P(B)$ (by independence)
 $= P[A](1 - P(B)) = P(A)P(B')$. $\blacksquare$
 
-**If you get this wrong, revise:** [Independence](#5-independence) — Section 5.
+**If you get this wrong, revise:** [Independence](#5-independence), Section 5.
 
 </details>
 
@@ -537,7 +537,7 @@ Ways to get one of each colour: $\binom{4}{1}\binom{3}{1}\binom{2}{1} = 4 \times
 
 $P = 24/84 = 2/7$.
 
-**If you get this wrong, revise:** [Counting Principles](#7-counting-principles) — Section 7.
+**If you get this wrong, revise:** [Counting Principles](#7-counting-principles), Section 7.
 
 </details>
 
@@ -553,7 +553,7 @@ By the inclusion-exclusion principle:
 $$P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)$$
 $$= 0.3 + 0.4 + 0.5 - 0.1 - 0.15 - 0.2 + 0.05 = 0.8$$
 
-**If you get this wrong, revise:** [Addition Rule](#22-addition-rule) — Section 2.2.
+**If you get this wrong, revise:** [Addition Rule](#22-addition-rule), Section 2.2.
 
 </details>
 
@@ -568,7 +568,7 @@ $\Omega = \{HH, HT, TH, TT\}$. $A = \{\mathrm{at least one heads}\} = \{HH, HT, 
 
 $P(B|A) = P(B \cap A)/P(A) = P(B)/P(A) = (1/4)/(3/4) = 1/3$.
 
-**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability) —
+**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability),
 Section 3.
 
 </details>
@@ -586,7 +586,7 @@ $P(A) = 3/6 = 1/2$$P(B) = 3/6 = 1/2$$P(A \cap B) = 2/6 = 1/3$.
 
 $P(A)P(B) = 1/4 \neq 1/3 = P(A \cap B)$. So $A$ and $B$ are **not** independent.
 
-**If you get this wrong, revise:** [Independence](#5-independence) — Section 5.
+**If you get this wrong, revise:** [Independence](#5-independence), Section 5.
 
 </details>
 
@@ -601,7 +601,7 @@ $P(M) = 0.6$$P(P) = 0.4$$P(M \cap P) = 0.25$.
 
 $P(M|P) = P(M \cap P)/P(P) = 0.25/0.4 = 0.625$.
 
-**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability) —
+**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability),
 Section 3.
 
 </details>
@@ -617,7 +617,7 @@ First two non-defective, third defective:
 
 $$P = \frac{7}{10} \times \frac{6}{9} \times \frac{3}{8} = \frac{7 \times 6 \times 3}{720} = \frac{126}{720} = \frac{7}{40}$$
 
-**If you get this wrong, revise:** [Tree Diagrams](#62-tree-diagrams) — Section 6.2.
+**If you get this wrong, revise:** [Tree Diagrams](#62-tree-diagrams), Section 6.2.
 
 </details>
 
@@ -633,7 +633,7 @@ This is a binomial scenario: $X \sim B(20, 0.05)$.
 $P(X=1) = \binom{20}{1}(0.05)^1(0.95)^{19} = 20 \times 0.05 \times 0.95^{19} \approx 0.3774$.
 
 **If you get this wrong, revise:**
-[Binomial Distribution](04-statistical-distributions.md#2-the-binomial-distribution) — Statistical
+[Binomial Distribution](04-statistical-distributions.md#2-the-binomial-distribution), Statistical
 Distributions chapter.
 
 </details>
@@ -649,7 +649,7 @@ By De Morgan's law: $(A \cup B')' = A' \cap B$.
 
 So $P(A \cup B') = 1 - P((A \cup B')') = 1 - P(A' \cap B)$. $\blacksquare$
 
-**If you get this wrong, revise:** [Complement Rule](#21-complement-rule) — Section 2.1.
+**If you get this wrong, revise:** [Complement Rule](#21-complement-rule), Section 2.1.
 
 </details>
 
@@ -668,7 +668,7 @@ Total flushes: $4 \times 1287 = 5148$.
 
 $P(\mathrm{flush}) = 5148/2598960 \approx 0.00198 \approx 0.2\%$.
 
-**If you get this wrong, revise:** [Counting Principles](#7-counting-principles) — Section 7.
+**If you get this wrong, revise:** [Counting Principles](#7-counting-principles), Section 7.
 
 </details>
 
@@ -688,7 +688,7 @@ $$E(X^2) = \sum_{x=1}^{5} x^2 \cdot \frac{x}{15} = \frac{1 + 8 + 27 + 64 + 125}{
 $$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = 15 - \frac{121}{9} = \frac{135 - 121}{9} = \frac{14}{9}$$
 
 **If you get this wrong, revise:**
-[Discrete Random Variables](#10-discrete-random-variables-and-probability-mass-functions) —
+[Discrete Random Variables](#10-discrete-random-variables-and-probability-mass-functions),
 Section 10.
 
 </details>
@@ -705,7 +705,7 @@ We need the first two draws to be blue and the third to be red:
 $$P = \frac{6}{10} \times \frac{5}{9} \times \frac{4}{8} = \frac{120}{720} = \frac{1}{6}$$
 
 **If you get this wrong, revise:**
-[Multi-Stage Experiments](#9-multi-stage-experiments-and-tree-diagrams) — Section 9.
+[Multi-Stage Experiments](#9-multi-stage-experiments-and-tree-diagrams), Section 9.
 
 </details>
 
@@ -730,7 +730,7 @@ $$P\!\left(\bigcup_{i=1}^{k+1} A_i\right) = P\!\left(\bigcup_{i=1}^{k} A_i\right
 
 $$\leq \sum_{i=1}^{k} P(A_i) + P(A_{k+1}) = \sum_{i=1}^{k+1} P(A_i). \quad \blacksquare$$
 
-**If you get this wrong, revise:** [Basic Probability Results](#2-basic-probability-results) —
+**If you get this wrong, revise:** [Basic Probability Results](#2-basic-probability-results),
 Section 2.
 
 </details>
@@ -748,7 +748,7 @@ $P(T \cup C) = P(T) + P(C) - P(T \cap C) = 0.7 + 0.5 - 0.35 = 0.85$.
 
 $$P(T \cap C \mid T \cup C) = \frac{P(T \cap C)}{P(T \cup C)} = \frac{0.35}{0.85} = \frac{7}{17} \approx 0.412$$
 
-**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability) —
+**If you get this wrong, revise:** [Conditional Probability](#3-conditional-probability),
 Section 3.
 
 </details>
@@ -764,7 +764,7 @@ Let $A$ = "at least one head". Then $A'$ = "no heads" = "all tails".
 
 $$P(A) = 1 - P(A') = 1 - \left(\frac{1}{2}\right)^5 = 1 - \frac{1}{32} = \frac{31}{32}$$
 
-**If you get this wrong, revise:** [Complement Rule](#21-complement-rule) — Section 2.1.
+**If you get this wrong, revise:** [Complement Rule](#21-complement-rule), Section 2.1.
 
 </details>
 
@@ -786,8 +786,8 @@ $$P(A|B) = \frac{P(A \cap B)}{P(B)} = \frac{0.24}{0.52} = \frac{6}{13} \approx 0
 Check independence: $P(A)P(B) = 0.6 \times 0.52 = 0.312 \neq 0.24 = P(A \cap B)$. So $A$ and $B$ are
 **not** independent.
 
-**If you get this wrong, revise:** [Bayes' Theorem](#4-bayes-theorem) — Section 4, and
-[Independence](#5-independence) — Section 5.
+**If you get this wrong, revise:** [Bayes' Theorem](#4-bayes-theorem), Section 4, and
+[Independence](#5-independence), Section 5.
 
 </details>
 
@@ -823,7 +823,7 @@ $[0,1)$ contributes probability $1/4$ spread over a continuum, confirming this i
 Discrete distribution.
 
 **If you get this wrong, revise:**
-[Discrete Random Variables](#10-discrete-random-variables-and-probability-mass-functions) —
+[Discrete Random Variables](#10-discrete-random-variables-and-probability-mass-functions),
 Section 10.
 
 </details>
@@ -844,7 +844,7 @@ By Bayes' theorem:
 
 $$P(M_3|D) = \frac{P(D|M_3)P(M_3)}{P(D)} = \frac{0.05 \times 0.2}{0.029} = \frac{0.01}{0.029} = \frac{10}{29} \approx 0.345$$
 
-**If you get this wrong, revise:** [Extended Bayes' Theorem](#44-extended-bayes-theorem) — Section
+**If you get this wrong, revise:** [Extended Bayes' Theorem](#44-extended-bayes-theorem), Section
 4.4.
 
 </details>
@@ -884,7 +884,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Data Representation](../statistics/01-data-representation) — Frequency tables and grouped data from this topic form the empirical basis for probability models.
-- [Correlation and Regression](../statistics/02-correlation-and-regression) — Conditional probability underpins the interpretation of regression and correlation analysis.
-- [Statistical Distributions](04-statistical-distributions) — The binomial and Poisson distributions extend probability theory to counting and rare events.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing) — Probability theory provides the p-values and significance levels used in hypothesis testing.
+- [Data Representation](../statistics/01-data-representation), Frequency tables and grouped data from this topic form the empirical basis for probability models.
+- [Correlation and Regression](../statistics/02-correlation-and-regression), Conditional probability underpins the interpretation of regression and correlation analysis.
+- [Statistical Distributions](04-statistical-distributions), The binomial and Poisson distributions extend probability theory to counting and rare events.
+- [Hypothesis Testing](../statistics/05-hypothesis-testing), Probability theory provides the p-values and significance levels used in hypothesis testing.

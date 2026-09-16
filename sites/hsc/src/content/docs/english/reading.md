@@ -136,7 +136,7 @@ Step 1: Identify the technique: Personification (fog described as a cat) and vis
 
 Step 2: Explain the literal meaning: Fog arrives quietly and gradually
 
-Step 3: Explain the figurative meaning: The simile compares fog to a cat — both are quiet, stealthy, and move without warning. The image of "little cat feet" suggests delicacy and softness.
+Step 3: Explain the figurative meaning: The simile compares fog to a cat, both are quiet, stealthy, and move without warning. The image of "little cat feet" suggests delicacy and softness.
 
 Step 4: Connect to theme: This reflects the theme of nature's quiet beauty and the way natural phenomena can be observed with wonder and appreciation.
 
@@ -172,11 +172,11 @@ Step 5: Conclusion: The journal article is more reliable for academic purposes, 
 
 ## Intuition
 
-**Reading comprehension is active engagement with text:** Effective reading is not passive — it involves questioning, analysing, and evaluating what you read. Understanding an author's purpose, audience, and technique deepens your comprehension.
+**Reading comprehension is active engagement with text:** Effective reading is not passive, it involves questioning, analysing, and evaluating what you read. Understanding an author's purpose, audience, and technique deepens your comprehension.
 
 **Why it matters:** Strong reading skills are essential for academic success across all subjects, professional communication, and informed citizenship.
 
-**The key insight:** Authors make deliberate choices about language, structure, and form — identifying these choices reveals deeper meaning beyond the surface content.
+**The key insight:** Authors make deliberate choices about language, structure, and form, identifying these choices reveals deeper meaning beyond the surface content.
 
 ## Common Mistakes
 

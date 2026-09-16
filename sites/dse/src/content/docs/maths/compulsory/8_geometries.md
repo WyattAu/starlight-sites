@@ -442,7 +442,7 @@ $$
 </details>
 <summary>Examples</summary>
 - Distance between $A(1, 2, 3)$ and $B(4, 6, -3)$: $d = \sqrt{3^2 + 4^2 + (-6)^2} = \sqrt{9 + 16 + 36} = \sqrt{61}$
-- Show that $A(0, 0, 0)$$B(1, 0, 0)$$C(0, 1, 0)$$D(0, 0, 1)$ form a **trirectangular tetrahedron**: $AB = AC = AD = 1$ (edges from the origin) and $BC = BD = CD = \sqrt{2}$ (edges of the base triangle $BCD$). It is not a regular tetrahedron — a regular tetrahedron would require all six edges to be equal. For a regular tetrahedron, use vertices such as $(1,1,1)$$(1,-1,-1)$$(-1,1,-1)$$(-1,-1,1)$.
+- Show that $A(0, 0, 0)$$B(1, 0, 0)$$C(0, 1, 0)$$D(0, 0, 1)$ form a **trirectangular tetrahedron**: $AB = AC = AD = 1$ (edges from the origin) and $BC = BD = CD = \sqrt{2}$ (edges of the base triangle $BCD$). It is not a regular tetrahedron, a regular tetrahedron would require all six edges to be equal. For a regular tetrahedron, use vertices such as $(1,1,1)$$(1,-1,-1)$$(-1,1,-1)$$(-1,-1,1)$.
 
 ### Equation of a Plane
 

@@ -151,7 +151,7 @@ print(triple(5))   # 15
 print(double(10))  # 20
 
 print(type(double))  # <class 'function'>
-print(double.__closure__)  # (<cell at 0x...: int object at 0x...>,)
+print(double.__closure__)  # (<cell at 0x...: int object at 0x...>)
 ```
 
 `multiplier` does not compute a result -- it **manufactures a function**. The returned `inner`
@@ -333,7 +333,7 @@ def make_adder(n: int):
 
 add_five = make_adder(5)
 
-print(add_five.__closure__)      # (<cell at 0x...: int object at 0x...>,)
+print(add_five.__closure__)      # (<cell at 0x...: int object at 0x...>)
 print(add_five.__closure__[0].cell_contents)  # 5
 print(type(add_five.__closure__[0]))          # <class 'cell'>
 ```
@@ -341,7 +341,7 @@ print(type(add_five.__closure__[0]))          # <class 'cell'>
 The `__code__` attribute of the function tells you which variables are free:
 
 ```python
-print(add_five.__code__.co_freevars)  # ('n',)
+print(add_five.__code__.co_freevars)  # ('n')
 ```
 
 This is how CPython implements closures: free variables are not stored as local variables in the

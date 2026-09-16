@@ -28,13 +28,13 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 ## Intuition
 
-Real analysis is where calculus gets rigorous — every epsilon, every delta, every limit is precisely defined. The supremum (least upper bound) axiom is the foundation: every non-empty set of real numbers bounded above has a least upper bound. Compactness generalises "closed and bounded" to abstract spaces. Convergence means sequences settle down to a limit, and continuity means small changes in input produce small changes in output — all quantified with ε-δ definitions. The key insight is that real analysis provides the logical foundation for all of calculus.
+Real analysis is where calculus gets rigorous, every epsilon, every delta, every limit is precisely defined. The supremum (least upper bound) axiom is the foundation: every non-empty set of real numbers bounded above has a least upper bound. Compactness generalises "closed and bounded" to abstract spaces. Convergence means sequences settle down to a limit, and continuity means small changes in input produce small changes in output, all quantified with ε-δ definitions. The key insight is that real analysis provides the logical foundation for all of calculus.
 
 ## Common Pitfalls
 
-- **Compact ≠ closed and bounded**: In ℝⁿ, closed and bounded sets are compact (Heine-Borel), but as a rule metric spaces this equivalence fails — the set \{1/n : n ∈ ℕ\} ∪ \{0\} is compact but not closed and bounded in some metric spaces.
-- **Uniform vs pointwise convergence**: A sequence of continuous functions can converge pointwise to a discontinuous function — uniform convergence preserves continuity, but pointwise convergence does not.
-- **Riemann vs Lebesgue integration**: Not every bounded function with infinitely many discontinuities is Riemann integrable — Lebesgue integration extends the class of integrable functions significantly.
+- **Compact ≠ closed and bounded**: In ℝⁿ, closed and bounded sets are compact (Heine-Borel), but as a rule metric spaces this equivalence fails, the set \{1/n : n ∈ ℕ\} ∪ \{0\} is compact but not closed and bounded in some metric spaces.
+- **Uniform vs pointwise convergence**: A sequence of continuous functions can converge pointwise to a discontinuous function, uniform convergence preserves continuity, but pointwise convergence does not.
+- **Riemann vs Lebesgue integration**: Not every bounded function with infinitely many discontinuities is Riemann integrable, Lebesgue integration extends the class of integrable functions significantly.
 - **Forgetting the direction of inequalities in proofs**: In ε-δ proofs, the choice of δ often depends on ε. Getting the inequality direction wrong invalidates the proof.
 - **Confusing convergence of sequences with convergence of series**: A sequence (aₙ) converges if the terms approach a limit; a series Σaₙ converges if the partial sums converge. These are different concepts.
 

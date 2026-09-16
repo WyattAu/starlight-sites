@@ -33,7 +33,7 @@ No language is universally best. Each language makes different trade-offs betwee
 
 Python is a dynamically typed, interpreted language with a focus on readability and simplicity. Its clean syntax and extensive standard library make it one of the most popular languages for beginners, data science, web development, and automation.
 
-**Paradigms:** Multi-paradigm — procedural, object-oriented, functional
+**Paradigms:** Multi-paradigm, procedural, object-oriented, functional
 
 **Type system:** Dynamic, strong typing
 
@@ -83,7 +83,7 @@ Read more: [Java Study Guide](https://java.wyattau.com).
 
 C++ is a statically typed, compiled language that provides low-level memory access while supporting high-level abstractions. It is the language of choice for performance-critical systems, game engines, operating systems, and embedded software.
 
-**Paradigms:** Multi-paradigm — procedural, object-oriented, generic, functional
+**Paradigms:** Multi-paradigm, procedural, object-oriented, generic, functional
 
 **Type system:** Static, strong typing
 
@@ -109,7 +109,7 @@ Read more: [C++ Study Guide](https://cpp.wyattau.com).
 
 Rust is a statically typed, compiled language focused on memory safety without garbage collection. Its ownership system prevents data races, null pointer dereferences, and buffer overflows at compile time.
 
-**Paradigms:** Multi-paradigm — procedural, functional, concurrent
+**Paradigms:** Multi-paradigm, procedural, functional, concurrent
 
 **Type system:** Static, strong typing with ownership and borrowing
 
@@ -161,7 +161,7 @@ Read more: [Go Study Guide](https://go.wyattau.com).
 
 TypeScript is a statically typed superset of JavaScript that adds optional type annotations. It compiles to JavaScript and runs anywhere JavaScript runs, making it the dominant language for large-scale web development.
 
-**Paradigms:** Multi-paradigm — imperative, object-oriented, functional
+**Paradigms:** Multi-paradigm, imperative, object-oriented, functional
 
 **Type system:** Static, structural typing (optional at first, then enforced)
 
@@ -170,7 +170,7 @@ TypeScript is a statically typed superset of JavaScript that adds optional type 
 - Type safety without leaving the JavaScript ecosystem
 - Excellent tooling with editor support and autocompletion
 - Catches errors at compile time that JavaScript catches at runtime
-- Gradual adoption — add types incrementally to existing JS codebases
+- Gradual adoption, add types incrementally to existing JS codebases
 
 **Key weaknesses:**
 
@@ -187,7 +187,7 @@ Read more: [TypeScript Study Guide](https://typescript.wyattau.com).
 
 Kotlin is a statically typed, modern language that runs on the JVM. It is Google's preferred language for Android development and offers concise syntax with powerful features.
 
-**Paradigms:** Multi-paradigm — object-oriented, functional
+**Paradigms:** Multi-paradigm, object-oriented, functional
 
 **Type system:** Static, strong typing with smart casts and type inference
 
@@ -213,7 +213,7 @@ Read more: [Kotlin Study Guide](https://kotlin.wyattau.com).
 
 Swift is a statically typed, compiled language designed by Apple for iOS, macOS, watchOS, and tvOS development. It replaces Objective-C as the primary language for Apple platform development.
 
-**Paradigms:** Multi-paradigm — imperative, object-oriented, functional
+**Paradigms:** Multi-paradigm, imperative, object-oriented, functional
 
 **Type system:** Static, strong typing with type inference
 
@@ -239,7 +239,7 @@ Read more: [Swift Study Guide](https://swift.wyattau.com).
 
 Dart is a statically typed, compiled language developed by Google. It is the primary language for Flutter, a cross-platform UI framework for building mobile, web, and desktop applications from a single codebase.
 
-**Paradigms:** Multi-paradigm — imperative, object-oriented, functional
+**Paradigms:** Multi-paradigm, imperative, object-oriented, functional
 
 **Type system:** Static, strong typing with sound null safety
 
@@ -265,7 +265,7 @@ Read more: [Dart Study Guide](https://dart.wyattau.com).
 
 Ruby is a dynamically typed, interpreted language optimised for programmer happiness. Its elegant syntax and powerful metaproductivity features made it famous through the Ruby on Rails web framework.
 
-**Paradigms:** Multi-paradigm — imperative, object-oriented, functional
+**Paradigms:** Multi-paradigm, imperative, object-oriented, functional
 
 **Type system:** Dynamic, strong typing
 
@@ -447,17 +447,17 @@ Use this decision tree to narrow down which language matches your goals and inte
 
 Before committing to a language, evaluate:
 
-- **Community size** — A large community means more resources, Stack Overflow answers, and libraries.
-- **Package ecosystem** — Check the availability of libraries for your specific domain.
-- **Tooling** — Good editors, debuggers, linters, and formatters make a language more productive.
-- **Documentation** — Official documentation quality varies significantly between languages.
-- **Longevity** — Established languages with corporate backing tend to have longer lifespans.
+- **Community size**, A large community means more resources, Stack Overflow answers, and libraries.
+- **Package ecosystem**, Check the availability of libraries for your specific domain.
+- **Tooling**, Good editors, debuggers, linters, and formatters make a language more productive.
+- **Documentation**, Official documentation quality varies significantly between languages.
+- **Longevity**, Established languages with corporate backing tend to have longer lifespans.
 
 ## Frequently Asked Questions
 
 ### How many languages should I learn?
 
-Focus on one language until you are proficient, then branch out. Deep knowledge of one language — including its standard library, ecosystem, and idioms — is more valuable than shallow familiarity with many. Once you are comfortable, learning a second language in a different paradigm (imperative to functional, for example) broadens your thinking.
+Focus on one language until you are proficient, then branch out. Deep knowledge of one language, including its standard library, ecosystem, and idioms, is more valuable than shallow familiarity with many. Once you are comfortable, learning a second language in a different paradigm (imperative to functional, for example) broadens your thinking.
 
 ### Can I learn two languages simultaneously?
 
@@ -485,7 +485,7 @@ Python is the dominant language for AI and machine learning. The ecosystem (NumP
 
 ### How do I stay current with language trends?
 
-Follow language release notes, community blogs, and conference talks. Participate in open source projects to see how languages are used in practice. The TIOBE Index and Stack Overflow Developer Survey provide data on language popularity and trends. However, do not chase trends — the fundamentals of programming transcend any single language.
+Follow language release notes, community blogs, and conference talks. Participate in open source projects to see how languages are used in practice. The TIOBE Index and Stack Overflow Developer Survey provide data on language popularity and trends. However, do not chase trends, the fundamentals of programming transcend any single language.
 
 ### What about emerging languages?
 
@@ -493,7 +493,7 @@ Emerging languages like Zig, V, and Mojo offer interesting features but lack the
 
 ### How does knowing multiple languages help my career?
 
-Knowing multiple languages makes you a more versatile engineer. You can choose the best tool for each problem, understand trade-offs between different approaches, and communicate with teams working in different technologies. Employers value engineers who can learn new languages quickly — a skill that comes from having learned several.
+Knowing multiple languages makes you a more versatile engineer. You can choose the best tool for each problem, understand trade-offs between different approaches, and communicate with teams working in different technologies. Employers value engineers who can learn new languages quickly, a skill that comes from having learned several.
 
 ## See Also
 

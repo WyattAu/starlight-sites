@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Plant biology is like studying green energy systems — plants capture sunlight, absorb water, and convert CO₂ into food and oxygen:** Plant structure and function are optimized for photosynthesis, water transport, and reproduction
+**Plant biology is like studying green energy systems, plants capture sunlight, absorb water, and convert CO₂ into food and oxygen:** Plant structure and function are optimized for photosynthesis, water transport, and reproduction
 
 **Why it matters:** Understanding plant biology is crucial for agriculture, ecology, and addressing climate change
 

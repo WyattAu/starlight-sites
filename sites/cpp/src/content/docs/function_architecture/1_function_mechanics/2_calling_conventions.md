@@ -82,7 +82,7 @@ extern "C" int64_t add_seven(int64_t a, int64_t b, int64_t c, int64_t d,
 ### Register and Stack Interleaving
 
 Integer and floating-point arguments use separate register banks. This means the register assignment
-Does not follow argument order in a single sequence — the two banks are tracked independently:
+Does not follow argument order in a single sequence, the two banks are tracked independently:
 
 ```cpp
 // void interleaved(int a, double b, int c, double d, int e, double f, int g, double h);
@@ -90,7 +90,7 @@ Does not follow argument order in a single sequence — the two banks are tracke
 // INTEGER bank: a→RDI, c→RSI, e→RDX, g→RCX  (4 of 6 INTEGER registers used)
 // SSE bank:     b→XMM0, d→XMM1, f→XMM2, h→XMM3  (4 of 8 SSE registers used)
 //
-// No stack arguments — both banks have sufficient capacity.
+// No stack arguments, both banks have sufficient capacity.
 ```
 
 ## 2.2 Return Values
@@ -134,7 +134,7 @@ extern "C" __m128 add_vec4(__m128 a, __m128 b) {
 
 SIMD types smaller than or equal to 16 bytes are classified as SSE and passed/returned in XMM
 Registers. Types larger than 16 bytes (`__m256``__m512`) are classified as MEMORY on the System V
-ABI, despite fitting in YMM/ZMM registers — the ABI has not been updated to reflect AVX/AVX-512
+ABI, despite fitting in YMM/ZMM registers, the ABI has not been updated to reflect AVX/AVX-512
 Register passing.
 
 ## 2.3 Stack Frame Layout
@@ -212,7 +212,7 @@ Instruction.
 
 ## 2.4 The Red Zone
 
-The System V ABI reserves **128 bytes below RSP** (the "red zone") for use by **leaf functions** —
+The System V ABI reserves **128 bytes below RSP** (the "red zone") for use by **leaf functions**,
 Functions that do not call any other functions. A leaf function may use this space for local
 Variables without modifying RSP, avoiding the overhead of stack pointer manipulation.
 
@@ -336,7 +336,7 @@ Ellipsis. Under Microsoft x64, `va_list` is a simple pointer that walks the stac
 #include <cstdio>
 
 // This function compiles on both ABIs but the underlying mechanism differs:
-void print_args(int count, ...) {
+void print_args(int count...) {
     va_list ap;
     va_start(ap, count);
 
@@ -394,7 +394,7 @@ extern "C" __stdcall int MessageBoxA(void* hwnd, const char* text,
                                       const char* caption, unsigned int type);
 
 // The __cdecl is default on MSVC x86, but explicit for clarity:
-extern "C" __cdecl int printf(const char* fmt, ...);
+extern "C" __cdecl int printf(const char* fmt...);
 ```
 
 ### System V: Explicit Attributes
@@ -513,7 +513,7 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 1. By the Intel SDM, `movaps` requires a 16-byte aligned memory operand. If the effective address is
    not divisible by 16, a `#GP` (General Protection) exception is generated.
 2. After `CALL``RSP ≡ 8 (mod 16)`. If the callee stores a local variable at `[rsp]` and then loads
-   it with `movaps`The address is 8 mod 16 — fault.
+   it with `movaps`The address is 8 mod 16, fault.
 3. The prologue must adjust RSP by at least 8 bytes to restore 16-byte alignment: `sub rsp, 8` (or
    `push rbp`Which subtracts 8). QED.
 
@@ -549,10 +549,10 @@ For specific argument values or compiler optimization levels.
 
 ```cpp
 // Example: calling convention mismatch
-// bad.h — declares the function with wrong prototype
+// bad.h, declares the function with wrong prototype
 extern "C" int process_data(int a, int b);  // two int arguments
 
-// library.c — actual implementation (compiled with different compiler/ABI)
+// library.c, actual implementation (compiled with different compiler/ABI)
 int process_data(long a, long b, long c) {  // three long arguments
     return a + b + c;
 }
@@ -604,7 +604,7 @@ extern "C" LargeStruct return_large();
 
 ### Workaround for Mixed Classification
 
-The mixed-classification rule (`IntAndFloat`) is a frequent source of surprise — a small struct that
+The mixed-classification rule (`IntAndFloat`) is a frequent source of surprise, a small struct that
 "should" fit in registers is forced onto the stack because its eightbytes span two register classes.
 The fix is to rearrange fields so that all INTEGER fields are contiguous and all SSE fields are
 Contiguous, though this conflicts with natural alignment preferences:
@@ -617,7 +617,7 @@ struct IntAndFloatFixed { // 8 bytes, pure INTEGER + padding → still MEMORY
 
 // Practical workaround: pass members individually
 extern "C" int process_mixed_separate(int32_t a, float b);
-// a → EDI (INTEGER), b → XMM0 (SSE) — no mixed classification issue
+// a → EDI (INTEGER), b → XMM0 (SSE), no mixed classification issue
 ```
 
 ### Returning Large Structs: The Hidden Pointer Mechanism
@@ -646,7 +646,7 @@ Elision in C++17.
 
 Named Return Value Optimization (NRVO) and Return Value Optimization (RVO) [N4950 §11.9.6] eliminate
 The copy/move of return values. Under the System V ABI, this means the caller passes a hidden
-Pointer to the destination storage, and the callee constructs directly into it — bypassing the
+Pointer to the destination storage, and the callee constructs directly into it, bypassing the
 Return-value register entirely.
 
 ```cpp
@@ -668,12 +668,12 @@ Buffer make_buffer_guaranteed() {
 ```
 
 Without RVO/NRVO, returning a large struct by value would require constructing into a local
-Temporary, then copying to the caller's frame via the hidden pointer — doubling the construction
+Temporary, then copying to the caller's frame via the hidden pointer, doubling the construction
 Cost. NRVO is not guaranteed (the compiler may decline it if there are multiple return paths with
 Different named variables), but RVO for prvalues is mandatory since C++17.
 
 Note that C++ compilers on x86-64 generally ignore 32-bit-specific calling convention attributes
-(`__cdecl``__stdcall``__fastcall`) — they either warn or silently treat them as the platform ABI.
+(`__cdecl``__stdcall``__fastcall`), they either warn or silently treat them as the platform ABI.
 These attributes are only meaningful on x86-32 where multiple calling conventions coexisted.
 
 ## 2.12 Variadic Functions and the ABI
@@ -718,11 +718,11 @@ Register arguments must be written to memory before the callee can access them.
 
 ## Intuition
 
-**Function call mechanics:** Calling conventions are like telephone protocols — they define how arguments are passed, who cleans up the stack, and how return values are delivered.
+**Function call mechanics:** Calling conventions are like telephone protocols, they define how arguments are passed, who cleans up the stack, and how return values are delivered.
 
 **Why it matters:** Understanding calling conventions helps you interface with C libraries, optimize performance, and debug low-level issues.
 
-**The key insight:** The default calling convention varies by platform — understanding it is essential for cross-platform code and FFI.
+**The key insight:** The default calling convention varies by platform, understanding it is essential for cross-platform code and FFI.
 
 ## Common Pitfalls
 

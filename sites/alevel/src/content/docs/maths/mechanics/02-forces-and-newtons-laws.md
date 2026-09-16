@@ -569,7 +569,7 @@ Since $30 \gt 19.6$The body slides. Friction $= 19.6\,\mathrm{N}$ (opposing moti
 $F_{\mathrm{net}} = 30 - 19.6 = 10.4\,\mathrm{N}$.
 $a = F_{\mathrm{net}}/m = 10.4/5 = 2.08\,\mathrm{m/s}^2$.
 
-**If you get this wrong, revise:** [Friction](#4-friction) — Section 4.
+**If you get this wrong, revise:** [Friction](#4-friction), Section 4.
 
 </details>
 
@@ -583,7 +583,7 @@ A block of mass $8\,\mathrm{kg}$ rests on a smooth plane inclined at $30^\circ$ 
 Along the plane: $P = mg\sin 30° = 8(9.8)(0.5) = 39.2\,\mathrm{N}$.
 
 **If you get this wrong, revise:**
-[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane) — Section 3.2.
+[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane), Section 3.2.
 
 </details>
 
@@ -599,7 +599,7 @@ For $6\,\mathrm{kg}$: $6g - T = 6a$. For $4\,\mathrm{kg}$: $T - 4g = 4a$.
 Adding: $2g = 10a \implies a = g/5 = 1.96\,\mathrm{m/s}^2$.
 $T = 4(1.96 + 9.8) = 4(11.76) = 47.04\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Connected Particles](#5-connected-particles) — Section 5.
+**If you get this wrong, revise:** [Connected Particles](#5-connected-particles), Section 5.
 
 </details>
 
@@ -614,7 +614,7 @@ $R = 10g = 98\,\mathrm{N}$. $F_{\max} = 0.3(98) = 29.4\,\mathrm{N}$.
 
 Minimum force $= 29.4\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [The Friction Model](#41-the-friction-model) — Section 4.1.
+**If you get this wrong, revise:** [The Friction Model](#41-the-friction-model), Section 4.1.
 
 </details>
 
@@ -632,7 +632,7 @@ Force down slope: $mg\sin 40° = 5(9.8)(0.643) = 31.49\,\mathrm{N}$.
 Since $31.49 \gt 9.38$The block slides. $a = (31.49 - 9.38)/5 = 22.11/5 = 4.42\,\mathrm{m/s}^2$.
 
 **If you get this wrong, revise:**
-[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane) — Section 3.2.
+[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane), Section 3.2.
 
 </details>
 
@@ -647,7 +647,7 @@ For $5\,\mathrm{kg}$: $5g - T = 5a$. For $2\,\mathrm{kg}$ (horizontal): $T = 2a$
 
 $5g - 2a = 5a \implies 5g = 7a \implies a = 5g/7 = 7\,\mathrm{m/s}^2$. $T = 2(7) = 14\,\mathrm{N}$.
 
-**If you get this wrong, revise:** [Connected Particles](#5-connected-particles) — Section 5.
+**If you get this wrong, revise:** [Connected Particles](#5-connected-particles), Section 5.
 
 </details>
 
@@ -663,7 +663,7 @@ $F_{\max} = 0.5(16.9) = 8.45\,\mathrm{N}$.
 Horizontal: $25\cos 30° - 8.45 = 3a \implies 21.65 - 8.45 = 3a \implies a = 4.4\,\mathrm{m/s}^2$.
 
 **If you get this wrong, revise:** [Free Body Diagrams](#3-free-body-diagrams-and-resolving-forces)
-— Section 3.
+- Section 3.
 
 </details>
 
@@ -678,7 +678,7 @@ Total mass $= 570\,\mathrm{kg}$. $T - 570g = 570(2) \implies T = 570(9.8+2) = 57
 
 Person: $R - 70g = 70(2) \implies R = 70(11.8) = 826\,\mathrm{N}$ (apparent weight).
 
-**If you get this wrong, revise:** [Newton's Second Law](#12-newtons-second-law) — Section 1.2.
+**If you get this wrong, revise:** [Newton's Second Law](#12-newtons-second-law), Section 1.2.
 
 </details>
 
@@ -693,7 +693,7 @@ $3mg - T = 3ma$, $T - mg = ma$. Adding: $2mg = 4ma \implies a = g/2$.
 
 $s = \tfrac{1}{2}at^2 \implies 2 = \tfrac{1}{2}(g/2)t^2 \implies t^2 = 8/g \implies t = \sqrt{8/9.8} \approx 0.904\,\mathrm{s}$.
 
-**If you get this wrong, revise:** [Connected Particles](#5-connected-particles) — Section 5.
+**If you get this wrong, revise:** [Connected Particles](#5-connected-particles), Section 5.
 
 </details>
 
@@ -709,7 +709,7 @@ $a = g(\sin 35° - \mu\cos 35°) = 9.8(0.574 - 0.2 \times 0.819) = 9.8(0.574 - 0
 $v^2 = u^2 + 2as = 0 + 2(4.02)(10) = 80.4 \implies v \approx 8.97\,\mathrm{m/s}$.
 
 **If you get this wrong, revise:**
-[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane) — Section 3.2.
+[Resolving on an Inclined Plane](#32-resolving-on-an-inclined-plane), Section 3.2.
 
 </details>
 
@@ -728,7 +728,7 @@ Equilibrium: $mg\sin\alpha = \mu mg\cos\alpha \implies \tan\alpha = \mu$.
 
 The critical angle is the angle of friction: $\tan\lambda = \mu$. $\blacksquare$
 
-**If you get this wrong, revise:** [Angle of Friction](#43-angle-of-friction) — Section 4.3.
+**If you get this wrong, revise:** [Angle of Friction](#43-angle-of-friction), Section 4.3.
 
 </details>
 
@@ -749,7 +749,7 @@ $22.49 - 19.6 - 2a = 4a \implies 2.89 = 6a \implies a = 0.482\,\mathrm{m/s}^2$.
 
 The $4\,\mathrm{kg}$ block accelerates down the slope.
 
-**If you get this wrong, revise:** [Connected Particles](#5-connected-particles) — Section 5.
+**If you get this wrong, revise:** [Connected Particles](#5-connected-particles), Section 5.
 
 </details>
 
@@ -771,7 +771,7 @@ $0.7373P = 23.52$
 $P = 31.9\,\mathrm{N}$ (2 d.p.)
 
 **If you get this wrong, revise:**
-[Friction -- Detailed Treatment](#8-friction----detailed-treatment) — Section 8.2.
+[Friction -- Detailed Treatment](#8-friction----detailed-treatment), Section 8.2.
 
 </details>
 
@@ -801,7 +801,7 @@ $T_1 = \frac{5g \times 0.7071}{0.9659} = \frac{34.65}{0.9659} \approx 35.9\,\mat
 
 $T_2 = \frac{5g \times 0.8660}{0.9659} = \frac{42.43}{0.9659} \approx 43.9\,\mathrm{N}$
 
-**If you get this wrong, revise:** [Lami's Theorem](#113-lamis-theorem) — Section 11.3.
+**If you get this wrong, revise:** [Lami's Theorem](#113-lamis-theorem), Section 11.3.
 
 </details>
 
@@ -826,7 +826,7 @@ $80 - 39.37 - 19.66 = 7a$
 $20.97 = 7a \implies a \approx 3.00\,\mathrm{m/s}^2$
 
 **If you get this wrong, revise:**
-[Inclined Planes with Friction](#10-inclined-planes-with-friction) — Section 10.3.
+[Inclined Planes with Friction](#10-inclined-planes-with-friction), Section 10.3.
 
 </details>
 
@@ -854,7 +854,7 @@ $T = 2(9.8 - 0.98) = 2(8.82) = 17.64\,\mathrm{N}$.
 
 **If you get this wrong, revise:**
 [Particle on a table with a pulley -- rough surface](#93-particle-on-a-table-with-a-pulley----rough-surface)
-— Section 9.3.
+- Section 9.3.
 
 </details>
 
@@ -885,7 +885,7 @@ $\sqrt{H_A^2 + V_A^2} = \sqrt{103.3^2 + 113.3^2} = \sqrt{10670.9 + 12836.9} = \s
 Angle below horizontal: $\arctan(V_A/H_A) = \arctan(113.3/103.3) \approx 47.6^\circ$.
 
 **If you get this wrong, revise:** [Beam in Equilibrium](#115-worked-example----beam-in-equilibrium)
-— Section 11.5.
+- Section 11.5.
 
 </details>
 
@@ -920,7 +920,7 @@ Insufficient to overcome both gravity and friction.
 
 **If you get this wrong, revise:**
 [Block on an inclined plane with a horizontal applied force](#104-block-on-an-inclined-plane-with-a-horizontal-applied-force)
-— Section 10.4.
+- Section 10.4.
 
 </details>
 
@@ -946,7 +946,7 @@ Note that $W$ and $R$ are not a Third Law pair: they are different types of forc
 Contact) and both act on the book.
 
 **If you get this wrong, revise:**
-[Newton's Third Law -- Detailed Treatment](#7-newtons-third-law----detailed-treatment) — Section 7.
+[Newton's Third Law -- Detailed Treatment](#7-newtons-third-law----detailed-treatment), Section 7.
 
 </details>
 
@@ -1009,7 +1009,7 @@ $T = 3g = 29.4\,\mathrm{N}$ And friction $= T - 5g\sin 30° = 29.4 - 24.5 = 4.9\
 $\lt \mu R = 16.99\,\mathrm{N}$Confirming equilibrium).
 
 **If you get this wrong, revise:**
-[Friction and the direction of motion](#84-friction-and-the-direction-of-motion) — Section 8.4.
+[Friction and the direction of motion](#84-friction-and-the-direction-of-motion), Section 8.4.
 
 </details>
 

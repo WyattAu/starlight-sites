@@ -56,7 +56,7 @@ Electrochemistry deals with the relationship between electrical energy and chemi
 - Faraday's laws of electrolysis relate mass deposited to charge passed
 - Molar conductivity $\Lambda_m$ varies with concentration for weak electrolytes
 
-## Worked Example 1 — Galvanic Cell Potential
+## Worked Example 1, Galvanic Cell Potential
 
 **Problem:** A galvanic cell is constructed with a Zn/Zn$^{2+}$ half-cell ($E^\circ = -0.76$ V) and a Cu/Cu$^{2+}$ half-cell ($E^\circ = +0.34$ V). Calculate the standard cell potential and write the cell reaction.
 
@@ -74,7 +74,7 @@ $$E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}} = 0.
 
 **Common mistake:** Forgetting to subtract the anode potential. The formula is $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$, not directly the sum of the two potentials.
 
-## Worked Example 2 — Nernst Equation Application
+## Worked Example 2, Nernst Equation Application
 
 **Problem:** For the cell Zn | Zn$^{2+}$ (0.01 M) || Cu$^{2+}$ (1.0 M) | Cu at 298 K, calculate the cell potential. ($E^\circ_{\text{cell}} = 1.10$ V)
 
@@ -91,7 +91,7 @@ $$E = 1.10 - \frac{0.0592}{2} \log(0.01) = 1.10 - 0.0296 \times (-2) = 1.10 + 0.
 
 **Common mistake:** Using $n = 1$ instead of $n = 2$. The number of electrons transferred in the balanced equation is 2, so $n = 2$.
 
-## Worked Example 3 — Faraday's Law of Electrolysis
+## Worked Example 3, Faraday's Law of Electrolysis
 
 **Problem:** How long does it take to deposit 2.0 g of copper from a CuSO$_4$ solution using a current of 2.0 A? (Molar mass of Cu = 63.5 g/mol, $F = 96{,}485$ C/mol)
 
@@ -129,7 +129,7 @@ $$t = \frac{Q}{I} = \frac{6{,}078}{2.0} = 3{,}039 \text{ s} \approx 50.6 \text{ 
 - Molar conductivity: $\Lambda_m = \frac{\kappa}{c}$
 - Relation between conductivity and cell constant: $\kappa = \frac{1}{R} \times \frac{l}{A}$
 
-## Worked Example 4 — Electrolysis with Multiple Ions
+## Worked Example 4, Electrolysis with Multiple Ions
 
 **Problem:** An aqueous solution of CuSO$_4$ is electrolyzed using inert electrodes. What products are formed at each electrode? If 2.0 A current is passed for 30 minutes, what mass of each product is deposited? (Molar masses: Cu = 63.5 g/mol, O = 16.0 g/mol)
 
@@ -151,7 +151,7 @@ Mass of O$_2$ produced: $m_{\text{O}_2} = \frac{0.0373}{4} \times 32 = 0.298$ g
 
 **Common mistake:** Forgetting that water is oxidized at the anode, not SO$_4^{2-}$. The sulfate ion is not oxidized under normal conditions.
 
-## Worked Example 5 — Conductivity Calculation
+## Worked Example 5, Conductivity Calculation
 
 **Problem:** A conductivity cell has electrodes of area 4.0 cm$^2$ and separation 0.80 cm. When filled with 0.01 M KCl solution ($\kappa = 1.41 \times 10^{-3}$ S/cm), the resistance is 141 ohms. Calculate the cell constant and the molar conductivity.
 
@@ -165,7 +165,7 @@ Molar conductivity: $\Lambda_m = \frac{\kappa}{c} = \frac{1.42 \times 10^{-3}}{0
 
 **Common mistake:** Forgetting to convert units. Molar conductivity is in standard practice expressed in S cm$^2$ mol$^{-1}$, requiring concentration in mol/cm$^3$ or careful unit conversion.
 
-## Worked Example 6 — Gibbs Free Energy and Cell Potential
+## Worked Example 6, Gibbs Free Energy and Cell Potential
 
 **Problem:** Calculate the Gibbs free energy change for the reaction Zn + Cu$^{2+}$ $\rightarrow$ Zn$^{2+}$ + Cu at 298 K if $E_{\text{cell}} = 1.10$ V. Is the reaction spontaneous?
 
@@ -199,15 +199,15 @@ Since $\Delta G < 0$, the reaction is spontaneous.
 
 ## Intuition
 
-**Electrochemistry bridges chemistry and electricity:** A galvanic cell is like an electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage — a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
+**Electrochemistry bridges chemistry and electricity:** A galvanic cell is like an electron pump: a spontaneous chemical reaction pushes electrons through an external wire, creating current. The anode is where oxidation happens (electrons leave), and the cathode is where reduction happens (electrons arrive). The Nernst equation tells us that concentration affects voltage, a battery runs down because its reactants get used up. Electrolysis reverses the process: you force electrons in the opposite direction to drive a non-spontaneous reaction, like splitting water into hydrogen and oxygen using electricity.
 
-**Why it matters:** Electrochemistry powers your phone battery, protects bridges from rust through cathodic protection, produces the aluminum cans you drink from, and underlies how your neurons fire. It's the bridge between chemical energy and electrical energy — two of the most useful forms of energy in the modern world.
+**Why it matters:** Electrochemistry powers your phone battery, protects bridges from rust through cathodic protection, produces the aluminum cans you drink from, and underlies how your neurons fire. It's the bridge between chemical energy and electrical energy, two of the most useful forms of energy in the modern world.
 
 **The key insight:** A positive cell potential means a spontaneous reaction (ΔG < 0), connecting thermodynamics to electricity in a single elegant equation: ΔG = −nFE.
 
 ## Cross-References
 
-- **[Chemical Kinetics](../chemical-kinetics/index):** Reaction rates and activation energy — electrochemistry tells you whether a reaction happens, kinetics tells you how fast.
+- **[Chemical Kinetics](../chemical-kinetics/index):** Reaction rates and activation energy, electrochemistry tells you whether a reaction happens, kinetics tells you how fast.
 - **[Solutions](../solutions/index):** Concentration affects cell potential through the Nernst equation, linking solution chemistry to electrochemistry.
 - **[Current Electricity (Physics)](../../physics/current-electricity/index):** The flow of electrons in circuits connects electrochemical concepts to electrical measurements.
 - **[D-Block Elements](../d-block/index):** Transition metals are used as electrodes and catalysts in electrochemical cells, connecting coordination chemistry to redox processes.

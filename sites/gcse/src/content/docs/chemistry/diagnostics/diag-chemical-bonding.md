@@ -281,7 +281,7 @@ layers structural integrity) and weak inter-layer forces (which allow the layers
 
 **Why it matters:** Bonding determines whether a substance is a conductor, a gas, or a crystal. From DNA's double helix to diamond's hardness, bonding explains material properties.
 
-**The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces — chain reaction from atomic scale to macroscopic properties.
+**The key insight:** Molecular shape (VSEPR) determines polarity, and polarity determines intermolecular forces, chain reaction from atomic scale to macroscopic properties.
 
 
 ```mermaid

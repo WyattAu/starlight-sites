@@ -64,7 +64,7 @@ The atom, radioactivity, nuclear energy, the photoelectric effect, and particle 
 
 ## Study Tips
 
-Show all working precisely — SEC marks are awarded for correct method steps. Derive formulae from
+Show all working precisely, SEC marks are awarded for correct method steps. Derive formulae from
 first principles where possible. Pay close attention to definitions, which must be exact for full
 marks.
 
@@ -95,9 +95,9 @@ most recent SEC documentation for definitive syllabus and assessment requirement
 
 **Physics explains the fundamental laws of nature:** From the motion of planets to the behaviour of light, physics seeks to understand the rules that govern the universe. It combines mathematical modelling with experimental testing.
 
-**Why it matters:** Physics principles drive technological innovation — from electricity generation to medical imaging to telecommunications.
+**Why it matters:** Physics principles drive technological innovation, from electricity generation to medical imaging to telecommunications.
 
-**The key insight:** Physics is about building and testing models — simplifying complex reality into mathematical descriptions that predict observable behaviour.
+**The key insight:** Physics is about building and testing models, simplifying complex reality into mathematical descriptions that predict observable behaviour.
 
 ## Summary
 

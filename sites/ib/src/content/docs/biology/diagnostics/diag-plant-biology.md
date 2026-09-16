@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Plant Biology — Diagnostic Tests
+## Plant Biology, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Plant biology is like studying solar-powered factories — plants convert light energy into chemical energy through photosynthesis:** Plant structure (roots, stems, leaves) is optimized for resource capture — water, minerals, light, and CO₂
+**Plant biology is like studying solar-powered factories, plants convert light energy into chemical energy through photosynthesis:** Plant structure (roots, stems, leaves) is optimized for resource capture, water, minerals, light, and CO₂
 
 **Why it matters:** Understanding plant biology is essential for agriculture, ecology, and addressing food security challenges
 
-**The key insight:** Plant structure (roots, stems, leaves) is optimized for resource capture — water, minerals, light, and CO₂
+**The key insight:** Plant structure (roots, stems, leaves) is optimized for resource capture, water, minerals, light, and CO₂
 
 ## Unit Tests
 

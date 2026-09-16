@@ -20,7 +20,7 @@ description: "Study notes for Assessment | IB - Wyatt's Notes with worked exampl
 
 ## Intuition
 
-**CS assessment is like a code review — it evaluates not just whether your code works, but how well it's designed and documented:** Effective CS assessment tests understanding of concepts, not just memorization of syntax
+**CS assessment is like a code review, it evaluates not just whether your code works, but how well it's designed and documented:** Effective CS assessment tests understanding of concepts, not just memorization of syntax
 
 **Why it matters:** Good assessment prepares students for real-world software development, where quality matters as much as functionality
 
@@ -38,7 +38,7 @@ description: "Study notes for Assessment | IB - Wyatt's Notes with worked exampl
 
 | 4 | Skills usage | n/a | n/a | 9 | 9 | | n/a | Weighting | $0.45$ | $0.25$ | $0.3$ | 1 |
 
-## Paper 1 — Written Response
+## Paper 1, Written Response
 
 Paper 1 is a **2-hour** examination (SL) or **2 hours 15 minutes** (HL) that tests knowledge and
 Understanding of the core syllabus.
@@ -65,7 +65,7 @@ Understanding of the core syllabus.
 ### Common pitfalls
 
 - Writing everything you know about a topic instead of answering the specific question asked.
-- Confusing SL and HL content — only use HL material in Paper 1 if you are an HL student and the
+- Confusing SL and HL content, only use HL material in Paper 1 if you are an HL student and the
   question targets HL objectives.
 - Leaving diagrams unlabeled. Every diagram must have a title and clear labels.
 
@@ -78,7 +78,7 @@ Understanding of the core syllabus.
 - Use the mark allocation as a guide for depth. A 2-mark question needs a brief answer; a 10-mark
   question needs a structured essay with examples.
 
-## Paper 2 — Problem Solving
+## Paper 2, Problem Solving
 
 Paper 2 is a **1-hour** examination (SL) or **1 hour 45 minutes** (HL) focused on applying
 Computational thinking to unseen problems.
@@ -151,7 +151,7 @@ def two_largest(data):
     return largest, second
 ```
 
-> **Exam tip**: Always consider edge cases — empty lists, single-element lists, lists with all
+> **Exam tip**: Always consider edge cases, empty lists, single-element lists, lists with all
 > identical values. State your assumptions .
 
 ## Internal Assessment (IA)
@@ -174,7 +174,7 @@ Client-identified problem.
 ### Planning (Criterion A)
 
 - Identify a defined **client** and a genuine problem they face.
-- The problem must have a **computational** solution — avoid trivial projects.
+- The problem must have a **computational** solution, avoid trivial projects.
 - Define the **success criteria** (at least 3 measurable criteria the solution must meet).
 - Justify why the chosen techniques (e.g., programming language, data structures) are appropriate.
 
@@ -190,7 +190,7 @@ Client-identified problem.
 - Test against your **success criteria** from Criterion A.
 - Include **user feedback** from your client.
 - Discuss **limitations** of your solution and suggest improvements.
-- Be honest — examiners value genuine self-reflection over hollow praise.
+- Be honest, examiners value genuine self-reflection over hollow praise.
 
 ### Common IA mistakes
 
@@ -293,7 +293,7 @@ Rent storage space from providers such as AWS, Google Cloud, or Microsoft Azure 
 Basis. Small businesses that previously could not afford enterprise-grade infrastructure can now
 Access the same capabilities.
 
-**Explanation**: This cost reduction is achieved through economies of scale — cloud providers serve
+**Explanation**: This cost reduction is achieved through economies of scale, cloud providers serve
 Millions of customers and can spread infrastructure costs across them. Additionally, the cloud model
 Converts capital expenditure (buying hardware) into operational expenditure (monthly subscription),
 Improving cash flow.
@@ -324,7 +324,7 @@ Non-compliance.
 
 ## Common Mistakes by Criterion
 
-### Paper 1 — Knowledge and Understanding
+### Paper 1, Knowledge and Understanding
 
 - Vague definitions that lack precision (e.g., defining "algorithm" as "a way to solve a problem"
   without mentioning finiteness or step-by-step nature).
@@ -332,14 +332,14 @@ Non-compliance.
   with "interpretation").
 - Failing to use examples to illustrate definitions.
 
-### Paper 2 — Application and Problem Solving
+### Paper 2, Application and Problem Solving
 
 - Not reading the scenario carefully and missing key details.
 - Writing code that is syntactically correct but logically flawed.
 - Not testing algorithms with appropriate test data.
 - Missing edge cases in algorithm design.
 
-### IA — Internal Assessment
+### IA, Internal Assessment
 
 - Choosing a project that lacks a genuine client need.
 - Writing a solution overview that is too vague (Criterion B).

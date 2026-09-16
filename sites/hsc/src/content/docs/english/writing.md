@@ -116,7 +116,7 @@ flowchart TD
 
 **Solution:**
 
-"In an age dominated by digital distractions, school libraries remain indispensable sanctuaries of learning. They provide equal access to information regardless of socioeconomic background, fostering intellectual curiosity and critical thinking. Research consistently demonstrates that students with regular library access achieve higher academic outcomes and develop stronger research skills. Moreover, libraries cultivate a love of reading — a habit that transcends academic achievement and enriches personal development. To underfund school libraries is to undermine the very foundation of education itself."
+"In an age dominated by digital distractions, school libraries remain indispensable sanctuaries of learning. They provide equal access to information regardless of socioeconomic background, fostering intellectual curiosity and critical thinking. Research consistently demonstrates that students with regular library access achieve higher academic outcomes and develop stronger research skills. Moreover, libraries cultivate a love of reading, a habit that transcends academic achievement and enriches personal development. To underfund school libraries is to undermine the very foundation of education itself."
 
 **Answer:** The paragraph uses evidence-based reasoning, inclusive language ("sanctuaries," "fostering"), and a strong concluding statement to persuade.
 
@@ -126,7 +126,7 @@ flowchart TD
 
 **Solution:**
 
-"The author presents isolation as both a physical and psychological condition through the protagonist's deliberate withdrawal from society. In Chapter 5, the description of the character's 'deliberate solitude' and 'unwillingness to engage' demonstrates a conscious rejection of human connection. This isolation is further reinforced through the recurring motif of locked doors and closed windows, symbolising the character's emotional barriers. The author's use of claustrophobic imagery — 'walls closing in,' 'air thick with silence' — creates a sense of entrapment that suggests isolation is not freedom but imprisonment. This portrayal ultimately argues that genuine human connection is essential for psychological wellbeing."
+"The author presents isolation as both a physical and psychological condition through the protagonist's deliberate withdrawal from society. In Chapter 5, the description of the character's 'deliberate solitude' and 'unwillingness to engage' demonstrates a conscious rejection of human connection. This isolation is further reinforced through the recurring motif of locked doors and closed windows, symbolising the character's emotional barriers. The author's use of claustrophobic imagery, 'walls closing in,' 'air thick with silence', creates a sense of entrapment that suggests isolation is not freedom but imprisonment. This portrayal ultimately argues that genuine human connection is essential for psychological wellbeing."
 
 **Answer:** The paragraph follows PEEL: Point (isolation as physical and psychological), Evidence (Chapter 5 quote), Explanation (symbolism analysis), Link (broader theme).
 
@@ -148,18 +148,18 @@ Writing is a transferable skill essential for academic success, professional com
 
 1. In creative writing, use sensory details (sight, sound, smell, touch, taste) to create atmosphere
 2. In analytical writing, always use the present tense when discussing texts
-3. Vary sentence length for effect — short sentences for emphasis, longer for complexity
-4. Leave time to proofread — errors in spelling and grammar cost marks
+3. Vary sentence length for effect, short sentences for emphasis, longer for complexity
+4. Leave time to proofread, errors in spelling and grammar cost marks
 
 ## More Worked Examples
 
-### Example 7: Creative Writing — Building Tension
+### Example 7: Creative Writing, Building Tension
 
 **Problem:** Write a 150-word passage that builds tension through pacing and imagery.
 
 **Solution:**
 
-"The corridor stretched ahead, fluorescent lights flickering in staccato bursts. Each step echoed against linoleum, too loud in the silence. She counted doors: three, four, five. The fifth was ajar. Through the gap, a sliver of amber light cut across the floor. She pressed her palm against the wood. It yielded with a groan. Inside, the desk lamp cast long shadows across scattered papers. A chair faced the window, its back to her. Someone was sitting in it — motionless, waiting. She opened her mouth to speak, but the words dissolved. The chair creaked. A hand reached for the lamp. Click."
+"The corridor stretched ahead, fluorescent lights flickering in staccato bursts. Each step echoed against linoleum, too loud in the silence. She counted doors: three, four, five. The fifth was ajar. Through the gap, a sliver of amber light cut across the floor. She pressed her palm against the wood. It yielded with a groan. Inside, the desk lamp cast long shadows across scattered papers. A chair faced the window, its back to her. Someone was sitting in it, motionless, waiting. She opened her mouth to speak, but the words dissolved. The chair creaked. A hand reached for the lamp. Click."
 
 **Answer:** The passage uses short sentences, sensory detail, and strategic punctuation to build tension progressively, culminating in an ambiguous cliffhanger.
 
@@ -169,7 +169,7 @@ Writing is a transferable skill essential for academic success, professional com
 
 **Solution:**
 
-"In an era of rising student debt, cryptocurrency volatility, and widening economic inequality, financial literacy has become an essential life skill rather than a peripheral concern. Yet most secondary school curricula remain silent on the practical knowledge students need to navigate the financial world — from understanding compound interest to evaluating investment risks. This silence perpetuates a cycle of financial disadvantage, disproportionately affecting students from lower socioeconomic backgrounds. Schools must integrate financial literacy into the core curriculum, not as an elective but as a fundamental component of education that equips students for the economic realities of the twenty-first century."
+"In an era of rising student debt, cryptocurrency volatility, and widening economic inequality, financial literacy has become an essential life skill rather than a peripheral concern. Yet most secondary school curricula remain silent on the practical knowledge students need to navigate the financial world, from understanding compound interest to evaluating investment risks. This silence perpetuates a cycle of financial disadvantage, disproportionately affecting students from lower socioeconomic backgrounds. Schools must integrate financial literacy into the core curriculum, not as an elective but as a fundamental component of education that equips students for the economic realities of the twenty-first century."
 
 **Answer:** The introduction establishes context (financial challenges), identifies the problem (curriculum gap), and presents a clear thesis (financial literacy must be core).
 
@@ -206,11 +206,11 @@ In analytical paragraphs, students often describe what happens in the text witho
 
 ## Intuition
 
-Writing is fundamentally about communication — translating the thoughts in your head into words on a page that produce the intended effect in another person's mind. Good writing doesn't happen by accident; it follows structural patterns that have been refined over centuries. The PEEL paragraph structure (Point, Evidence, Explanation, Link) is not an arbitrary formula — it mirrors how humans logically process arguments. We first need to know what you're claiming, then see the proof, then understand why the proof supports the claim, and finally see why it matters. When you write "show don't tell," you're exploiting the fact that concrete sensory details activate richer mental representations than abstract statements.
+Writing is fundamentally about communication, translating the thoughts in your head into words on a page that produce the intended effect in another person's mind. Good writing doesn't happen by accident; it follows structural patterns that have been refined over centuries. The PEEL paragraph structure (Point, Evidence, Explanation, Link) is not an arbitrary formula, it mirrors how humans logically process arguments. We first need to know what you're claiming, then see the proof, then understand why the proof supports the claim, and finally see why it matters. When you write "show don't tell," you're exploiting the fact that concrete sensory details activate richer mental representations than abstract statements.
 
-The different modes of writing — creative, persuasive, analytical — are really just variations on the same skill: controlling the reader's experience. In creative writing, you're creating a vivid mental movie. In persuasive writing, you're guiding someone toward a conclusion while making them feel it was their own idea. In analytical writing, you're demonstrating that you can see beneath the surface of a text. The common thread is that you're always making deliberate choices about what to include, what to emphasise, and what tone to strike. Every sentence should serve a purpose — if it doesn't advance your argument or develop your narrative, it's working against you.
+The different modes of writing, creative, persuasive, analytical, are really just variations on the same skill: controlling the reader's experience. In creative writing, you're creating a vivid mental movie. In persuasive writing, you're guiding someone toward a conclusion while making them feel it was their own idea. In analytical writing, you're demonstrating that you can see beneath the surface of a text. The common thread is that you're always making deliberate choices about what to include, what to emphasise, and what tone to strike. Every sentence should serve a purpose, if it doesn't advance your argument or develop your narrative, it's working against you.
 
-For HSC English specifically, the marking criteria reward precision and sophistication. A Band 6 response doesn't just identify techniques — it explains how they create meaning in context. The difference between "the author uses metaphor" and "the author's extended metaphor of decay mirrors the protagonist's psychological deterioration" is the difference between describing and analysing. Train yourself to close the loop: every observation about technique must connect back to theme, character, or the composer's purpose.
+For HSC English specifically, the marking criteria reward precision and sophistication. A Band 6 response doesn't just identify techniques, it explains how they create meaning in context. The difference between "the author uses metaphor" and "the author's extended metaphor of decay mirrors the protagonist's psychological deterioration" is the difference between describing and analysing. Train yourself to close the loop: every observation about technique must connect back to theme, character, or the composer's purpose.
 
 
 ## Advanced Content

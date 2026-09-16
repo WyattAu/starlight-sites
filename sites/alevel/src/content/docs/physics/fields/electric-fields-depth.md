@@ -301,7 +301,7 @@ $$\boxed{q = \frac{mg}{E}}$$
 The mass is found from the terminal velocity (using Stokes' law for the drag force in air). Millikan
 Found that all measured charges were integer multiples of $e = 1.60 \times 10^{-19}$ C.
 
-**Significance.** This experiment proved that charge is quantised — it comes in discrete packets of
+**Significance.** This experiment proved that charge is quantised, it comes in discrete packets of
 Size $e$.
 
 ## 9. Capacitance and Stored Energy

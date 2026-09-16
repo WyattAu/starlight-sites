@@ -178,7 +178,7 @@ scp file server.example.com:/tmp/   # also reuses
 ### ssh-keygen
 
 ```bash
-# Generate Ed25519 key (recommended — small, fast, secure)
+# Generate Ed25519 key (recommended, small, fast, secure)
 ssh-keygen -t ed25519 -C "user@workstation"
 ssh-keygen -t ed25519 -a 100 -C "user@workstation"   # 100 KDF rounds
 
@@ -191,7 +191,7 @@ ssh-keygen -t ecdsa -b 521 -C "user@workstation"
 # Specify output file
 ssh-keygen -t ed25519 -f ~/.ssh/id_github -C "github-key"
 
-# Generate key with no passphrase (for automation — use with caution)
+# Generate key with no passphrase (for automation, use with caution)
 ssh-keygen -t ed25519 -f ~/.ssh/id_deploy -N ""
 
 # Change passphrase on existing key
@@ -211,12 +211,12 @@ ssh-keygen -lv -f ~/.ssh/id_ed25519.pub
 
 ```text
 OpenSSH (default):
-  id_ed25519        — private key (OpenSSH format)
-  id_ed25519.pub    — public key (single line)
+  id_ed25519, private key (OpenSSH format)
+  id_ed25519.pub, public key (single line)
 
 PEM (legacy):
-  id_rsa            — "BEGIN RSA PRIVATE KEY" (PEM format)
-  id_rsa.pub        — public key
+  id_rsa, "BEGIN RSA PRIVATE KEY" (PEM format)
+  id_rsa.pub, public key
 
 PKCS8:
   Convert with: ssh-keygen -p -f id_rsa -m PEM   # to PEM
@@ -237,7 +237,7 @@ RSA keys:
 ### authorized_keys
 
 ```text
-# ~/.ssh/authorized_keys — one public key per line
+# ~/.ssh/authorized_keys, one public key per line
 # Format: [options] key-type base64-key [comment]
 
 # Restrict key to specific command
@@ -619,9 +619,9 @@ ssh-keygen -s /etc/ssh/ca_key \
     -V +52w \
     ~/.ssh/id_ed25519.pub
 
-# -I  — certificate identity (logged)
-# -n  — valid principals (usernames this cert can authenticate as)
-# -V  — validity period (+52w = 52 weeks)
+# -I, certificate identity (logged)
+# -n, valid principals (usernames this cert can authenticate as)
+# -V, validity period (+52w = 52 weeks)
 
 # Deploy the certificate (id_ed25519-cert.pub) alongside the private key
 scp id_ed25519-cert.pub user@server:~/.ssh/
@@ -649,7 +649,7 @@ Host *.example.com
 ## Security Hardening Checklist
 
 ```ini
-# /etc/ssh/sshd_config — hardened configuration
+# /etc/ssh/sshd_config, hardened configuration
 
 # Disable password authentication
 PasswordAuthentication no
@@ -819,14 +819,14 @@ ssh-keyscan server.example.com >> ~/.ssh/known_hosts
 # The FIRST matching Host or Match block wins
 # More specific patterns should come FIRST
 
-# WRONG — broad pattern matches first
+# WRONG, broad pattern matches first
 Host *
     IdentityFile ~/.ssh/id_default
 
 Host github.com
     IdentityFile ~/.ssh/id_github   # NEVER reached because * matched first
 
-# CORRECT — specific patterns first
+# CORRECT, specific patterns first
 Host github.com
     IdentityFile ~/.ssh/id_github
 

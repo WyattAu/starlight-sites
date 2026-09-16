@@ -50,7 +50,7 @@ Would expect from a truly random distribution.
 def uniformity_test(hash_func, keys, num_buckets):
     """
     Test hash function uniformity with chi-squared statistic.
-    Returns (chi_squared, p_value) — high p_value means good uniformity.
+    Returns (chi_squared, p_value), high p_value means good uniformity.
     """
     import math
 
@@ -130,7 +130,7 @@ def polynomial_hash(s, p=31, mod=(1 << 64)):
 
 :::note
 This is adequate for hash tables but unsuitable for cryptographic purposes. The choice of 31 is
-Historical and largely arbitrary — any odd prime works reasonably well.
+Historical and largely arbitrary, any odd prime works reasonably well.
 
 ### FNV-1a
 
@@ -331,7 +331,7 @@ class LinearProbingHashTable:
                 return True
 ```
 
-**Primary clustering**: linear probing suffers from primary clustering — when a cluster of occupied
+**Primary clustering**: linear probing suffers from primary clustering, when a cluster of occupied
 Slots forms, new keys that hash into or near the cluster extend it. The expected number of probes
 For an unsuccessful search with linear probing is approximately
 $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
@@ -341,7 +341,7 @@ $\frac{1}{2}(1 + \frac{1}{(1-\alpha)^2})$.
 $$h(k, i) = (h'(k) + c_1 \cdot i + c_2 \cdot i^2) \bmod m$$
 
 Reduces primary clustering by probing at increasing distances. However, it can suffer from
-**secondary clustering** — keys that hash to the same initial slot follow the same probe sequence.
+**secondary clustering**, keys that hash to the same initial slot follow the same probe sequence.
 
 **Guarantee of finding an empty slot**: if the table size $m$ is prime and the load factor is less
 Than 0.5, quadratic probing with $c_1 = c_2 = 1/2$ will always find an empty slot.
@@ -595,7 +595,7 @@ distribution and reduces the variance in key assignment.
 ### Load Balancing Properties
 
 When adding or removing a node, only the keys in the affected arc are remapped. With $n$ nodes and
-$k$ keys, the expected number of keys remapped when one node is added or removed is $k/n$ —
+$k$ keys, the expected number of keys remapped when one node is added or removed is $k/n$,
 Regardless of the total number of nodes. This is far better than modulo hashing, which remaps
 $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
 :::
@@ -741,7 +741,7 @@ class CountMinSketch:
 ## HyperLogLog
 
 HyperLogLog is a probabilistic algorithm for estimating the cardinality (number of distinct
-Elements) of a set using very little memory — 12 KB for an error rate of about 0.8%.
+Elements) of a set using very little memory, 12 KB for an error rate of about 0.8%.
 
 ### Algorithm
 
@@ -815,9 +815,9 @@ class HyperLogLog:
 | Property             | Non-Cryptographic                 | Cryptographic                                            |
 | -------------------- | --------------------------------- | -------------------------------------------------------- |
 | Speed                | Very fast (GB/s)                  | Slower (hundreds of MB/s)                                |
-| Preimage resistance  | No                                | Yes — given $h(x)$Hard to find $x$                       |
-| Second preimage      | No                                | Yes — given $x$Hard to find $y \ne x$ with $h(y) = h(x)$ |
-| Collision resistance | Weak                              | Yes — hard to find $x, y$ with $h(x) = h(y)$             |
+| Preimage resistance  | No                                | Yes, given $h(x)$Hard to find $x$                       |
+| Second preimage      | No                                | Yes, given $x$Hard to find $y \ne x$ with $h(y) = h(x)$ |
+| Collision resistance | Weak                              | Yes, hard to find $x, y$ with $h(x) = h(y)$             |
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
 :::
@@ -882,7 +882,7 @@ def resize(old_table, new_capacity):
 **Why geometric resizing gives amortised $O(1)$**: if the table grows by factor $c$ when it reaches
 Load factor $\alpha$The cost of resizing is $O(n)$ but it only happens every $O(n)$ insertions. Over
 a sequence of $n$ insertions, the total resize cost is
-$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$Giving $O(c)$ amortised per insertion — a constant.
+$O(n) + O(n/c) + O(n/c^2) + \ldots = O(cn)$Giving $O(c)$ amortised per insertion, a constant.
 
 ## Common Pitfalls
 
@@ -921,7 +921,7 @@ Avalanche properties, or test your hash function against your actual data distri
 
 ### 6. Not Handling the Tombstone Problem in Open Addressing
 
-When deleting from an open-addressing table, you cannot clear the slot — doing so breaks the Probe
+When deleting from an open-addressing table, you cannot clear the slot, doing so breaks the Probe
 chain for elements that were inserted after the deleted element. You must use a "tombstone" Marker
 (as shown in the linear probing implementation above) and periodically clean up tombstones During
 resize.
@@ -979,8 +979,8 @@ linked above.
 
 ## Intuition
 
-Hash tables solve the fundamental problem of mapping keys to values with O(1) average-case lookup, insert, and delete. The idea is simple: a hash function converts a key into an array index, and you store the value at that index. The challenge is collisions — two different keys hashing to the same index. Separate chaining (each bucket holds a list) and open addressing (probe for the next empty slot) are the two main strategies. The load factor (elements/buckets) controls performance: keep it below 0.75 and operations stay O(1) amortized. When the load factor gets too high, you resize the table (in standard practice doubling it) and rehash everything — this is O(n) but happens rarely enough that the amortized cost per insert is still O(1).
+Hash tables solve the fundamental problem of mapping keys to values with O(1) average-case lookup, insert, and delete. The idea is simple: a hash function converts a key into an array index, and you store the value at that index. The challenge is collisions, two different keys hashing to the same index. Separate chaining (each bucket holds a list) and open addressing (probe for the next empty slot) are the two main strategies. The load factor (elements/buckets) controls performance: keep it below 0.75 and operations stay O(1) amortized. When the load factor gets too high, you resize the table (in standard practice doubling it) and rehash everything, this is O(n) but happens rarely enough that the amortized cost per insert is still O(1).
 
-Probabilistic hash-based structures trade accuracy for space efficiency. A bloom filter uses a bit array and multiple hash functions to test set membership with configurable false positive rates — it can say "definitely not in the set" or "probably in the set" but never "definitely in the set." Count-min sketch estimates frequencies by maintaining multiple counter arrays, always overestimating but never by more than a predictable amount. HyperLogLog estimates the number of distinct elements in a stream using just kilobytes of memory by tracking the position of the leftmost 1-bit in hash values. These structures are invaluable in distributed systems where exact answers require too much memory or network communication.
+Probabilistic hash-based structures trade accuracy for space efficiency. A bloom filter uses a bit array and multiple hash functions to test set membership with configurable false positive rates, it can say "definitely not in the set" or "probably in the set" but never "definitely in the set." Count-min sketch estimates frequencies by maintaining multiple counter arrays, always overestimating but never by more than a predictable amount. HyperLogLog estimates the number of distinct elements in a stream using just kilobytes of memory by tracking the position of the leftmost 1-bit in hash values. These structures are invaluable in distributed systems where exact answers require too much memory or network communication.
 
 Consistent hashing solves the distributed systems problem of mapping keys to servers with minimal redistribution when servers are added or removed. Instead of modulo hashing (which remaps nearly all keys when the server count changes), consistent hashing places both keys and servers on a ring. Each key maps to the nearest server clockwise. Virtual nodes (multiple positions per physical server) ensure even distribution. This is how DynamoDB, Cassandra, and content delivery networks distribute data across thousands of servers while minimizing the disruption when scaling up or down.

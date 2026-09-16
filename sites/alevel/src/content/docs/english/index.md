@@ -50,7 +50,7 @@ sources:
 
 ## Intuition
 
-**English literature explores the human experience through language — words painting pictures of life.**
+**English literature explores the human experience through language, words painting pictures of life.**
 
 ## A-Level English
 
@@ -73,11 +73,11 @@ writing, and deep engagement with texts across periods and genres.
 
 A-Level English is offered by several exam boards, each with slightly different requirements:
 
-- **AQA** — Papers on literary genres, texts in shared contexts, and independent critical study
-- **OCR** — Components on drama and poetry, comparative and contextual study, and literature
+- **AQA**, Papers on literary genres, texts in shared contexts, and independent critical study
+- **OCR**, Components on drama and poetry, comparative and contextual study, and literature
   post-1900
-- **Edexcel** — Papers on drama, poetry, prose, and coursework
-- **CCEA** — Components on Shakespeare, the novel, poetry, and unseen texts
+- **Edexcel**, Papers on drama, poetry, prose, and coursework
+- **CCEA**, Components on Shakespeare, the novel, poetry, and unseen texts
 
 While this guide is designed to support any board, always check your specific specification for set
 texts and assessment objectives.

@@ -18,7 +18,7 @@ tags:
 
 ## Intuition
 
-**Advanced redox is like reading the economy of electrons — electrode potentials predict whether reactions will occur spontaneously:** The electrochemical series ranks elements by their tendency to lose or gain electrons, predicting reaction direction
+**Advanced redox is like reading the economy of electrons, electrode potentials predict whether reactions will occur spontaneously:** The electrochemical series ranks elements by their tendency to lose or gain electrons, predicting reaction direction
 
 **Why it matters:** Electrochemistry powers batteries, fuel cells, and corrosion protection, making it vital for energy technology
 
@@ -85,7 +85,7 @@ E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ
 $$
 
 :::note
-<strong>Example — Daniell Cell</strong>
+<strong>Example, Daniell Cell</strong>
 $$
 \mathrm{Zn} \mid \mathrm{Zn}^{2+} \parallel \mathrm{Cu}^{2+} \mid \mathrm{Cu}
 $$
@@ -111,7 +111,7 @@ Value, the stronger the reducing agent.
 
 ### Common Pitfalls
 
-- Always subtract $E_{\mathrm{anode}}^\circ$ from $E_{\mathrm{cathode}}^\circ$ — never reverse the
+- Always subtract $E_{\mathrm{anode}}^\circ$ from $E_{\mathrm{cathode}}^\circ$, never reverse the
   sign of a reduction potential.
 - $E^\circ$ values are intensive properties: they do not depend on the stoichiometric coefficients.
 - The SHE is the reference, not necessarily the actual anode or cathode.
@@ -260,7 +260,7 @@ $$
 | Oxygen                      | Otherwise (from water oxidation)      |
 :::
 :::note
-<strong>Example — Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes</strong>
+<strong>Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes</strong>
 Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
 Water's $-0.83\mathrm{ V}$)
 
@@ -274,7 +274,7 @@ The solution becomes acidic as $\mathrm{H}^+$ accumulates at the anode.
 No water present, so only the ions from the salt are discharged.
 :::
 :::note
-<strong>Example — Molten $\mathrm{NaCl}$</strong>
+<strong>Example, Molten $\mathrm{NaCl}$</strong>
 Cathode: $\mathrm{Na}^+ + e^- \to \mathrm{Na}(l)$
 
 Anode: $2\mathrm{Cl}^- \to \mathrm{Cl}_2(g) + 2e^-$
@@ -536,7 +536,7 @@ production.
 
 </details>
 
-**Worked Example: Faraday's Law — Time to Deposit a Metal**
+**Worked Example: Faraday's Law, Time to Deposit a Metal**
 
 How long must a current of $3.50\mathrm{ A}$ be passed through $\mathrm{AgNO}_3$ solution to deposit
 $0.500\mathrm{ g}$ of silver on the cathode?
@@ -652,7 +652,7 @@ toward equilibrium.
 
 - **Reversing $E^\circ$ values incorrectly:** When identifying the anode, the half-reaction is
   written as oxidation, but the $E^\circ$ value used in the $E_{\mathrm{cell}}^\circ$ calculation is
-  always the reduction potential. Never flip the sign of a reduction potential — just subtract
+  always the reduction potential. Never flip the sign of a reduction potential, just subtract
   $E_{\mathrm{anode}}^\circ$ from $E_{\mathrm{cathode}}^\circ$.
 
 - **Multiplying $E^\circ$ by stoichiometric coefficients:** $E^\circ$ is an intensive property.

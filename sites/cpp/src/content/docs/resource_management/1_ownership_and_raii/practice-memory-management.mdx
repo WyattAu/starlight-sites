@@ -12,11 +12,11 @@ import PracticeProblem from "@components/PracticeProblem";
 
 ## Intuition
 
-**Learning through practice:** Practice problems are like training drills — they help you apply knowledge and identify areas that need more study.
+**Learning through practice:** Practice problems are like training drills, they help you apply knowledge and identify areas that need more study.
 
 **Why it matters:** Regular practice builds confidence and reveals patterns in how concepts are tested. Each problem reinforces key programming concepts.
 
-**The key insight:** Making mistakes during practice is valuable — each error points to a concept that needs clarification.
+**The key insight:** Making mistakes during practice is valuable, each error points to a concept that needs clarification.
 
 ## C++ -- Memory Management Practice
 
@@ -231,9 +231,9 @@ review the explanation.
 
 **Mixing new[] with delete (or new with delete[]):** Using `delete` on memory allocated with `new[]` (or vice versa) is undefined behaviour. The runtime may call the wrong number of destructors and corrupt heap metadata. Always match allocation form with deallocation form, or better yet, use std::vector or std::array instead of raw new[].
 
-**Returning a reference to a local variable:** A function that returns `int&` to a stack-local variable creates a dangling reference — the local is destroyed when the function returns, and the reference points to invalid memory. This is undefined behaviour that may appear to work in debug builds but crash in release. Return by value or use heap allocation with smart pointers.
+**Returning a reference to a local variable:** A function that returns `int&` to a stack-local variable creates a dangling reference, the local is destroyed when the function returns, and the reference points to invalid memory. This is undefined behaviour that may appear to work in debug builds but crash in release. Return by value or use heap allocation with smart pointers.
 
-**Forgetting that shared_ptr copies share the same control block:** Two shared_ptr instances pointing to the same object share a reference count. Resetting one does not free the object if the other still exists. This is correct behaviour but can be confusing — if you need exclusive ownership, use unique_ptr instead.
+**Forgetting that shared_ptr copies share the same control block:** Two shared_ptr instances pointing to the same object share a reference count. Resetting one does not free the object if the other still exists. This is correct behaviour but can be confusing, if you need exclusive ownership, use unique_ptr instead.
 
 ## Cross-References
 

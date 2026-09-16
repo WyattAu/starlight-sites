@@ -16,7 +16,7 @@ const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'))
 
 // MD036: Emphasis-as-heading (`**Problem:**`, `**Definition:**`) is a
 // deliberate style in math/CS educational notes. markdownlint 0.49
-// doesn't support a "exclude" list for specific patterns — disable.
+// doesn't support a "exclude" list for specific patterns, disable.
 config.MD036 = false
 
 // MD060: Table-column alignment style (mixed aligned/unaligned columns).
@@ -30,7 +30,7 @@ config.MD060 = false
 config.MD024 = false
 
 // MD055: Table pipe style (consistent use of `|`). Fires on tables
-// that omit trailing pipes — the majority of existing tables.
+// that omit trailing pipes, the majority of existing tables.
 config.MD055 = false
 
 // MD049: Emphasis style (`*` vs `_`). Most content uses `*` for bold

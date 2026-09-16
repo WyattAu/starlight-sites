@@ -66,7 +66,7 @@ def insert_head(head, value):
     return new_node
 ```
 
-**Complexity:** $O(1)$ — only pointer reassignment.
+**Complexity:** $O(1)$, only pointer reassignment.
 
 **Correctness.** The new node's `next` points to the old head, so no elements are lost. The new node
 Becomes the new head, which is correct by definition of insertion at head. $\square$
@@ -85,7 +85,7 @@ def insert_tail(head, value):
     return head
 ```
 
-**Complexity:** $O(n)$ — must traverse to the last node.
+**Complexity:** $O(n)$, must traverse to the last node.
 
 #### Insert at Position $k$
 
@@ -104,7 +104,7 @@ def insert_at(head, value, k):
     return head
 ```
 
-**Complexity:** $O(k)$ — traverse $k$ nodes to find the insertion point.
+**Complexity:** $O(k)$, traverse $k$ nodes to find the insertion point.
 
 ### Deletion
 
@@ -135,7 +135,7 @@ def delete_value(head, value):
     return head
 ```
 
-**Complexity:** $O(n)$ — worst case, traverse the entire list.
+**Complexity:** $O(n)$, worst case, traverse the entire list.
 
 ### Search
 
@@ -304,7 +304,7 @@ def insert_sorted_with_sentinel(sentinel, value):
     current.next = new_node
 ```
 
-**Advantage:** No special case for inserting into an empty list — the sentinel always exists, and
+**Advantage:** No special case for inserting into an empty list, the sentinel always exists, and
 Its `next` points to the first real node (or `None` if the list is empty).
 
 <hr />
@@ -356,7 +356,7 @@ Deleting the last node of a doubly linked list (with a tail pointer) takes $O(1)
 <summary>Answer</summary>
 
 In a singly linked list, to delete the last node you need to modify the `next` pointer of the
-**second-to-last** node. But you cannot go backwards — you must traverse from the head to find it,
+**second-to-last** node. But you cannot go backwards, you must traverse from the head to find it,
 Which takes $O(n)$.
 
 In a doubly linked list with a tail pointer, the last node has a `prev` pointer directly to the
@@ -644,7 +644,7 @@ Absent).
 - Visit node 4: data = 8, 8 ≠ 9
 - `current.next` is None → not found, return -1
 
-Nodes visited: **4** (all nodes). This is the worst case for a list of 4 elements — $O(n)$.
+Nodes visited: **4** (all nodes). This is the worst case for a list of 4 elements, $O(n)$.
 
 </details>
 
@@ -666,9 +666,9 @@ Whether you can go backwards in a singly linked list.
 | Operation                            | Singly                                          | Doubly                                   |
 | ------------------------------------ | ----------------------------------------------- | ---------------------------------------- |
 | (a) Memory per node                  | $O(d + p)$ (1 pointer)                          | $O(d + 2p)$ (2 pointers)                 |
-| (b) Insert at tail (no tail pointer) | $O(n)$ — traverse to end                        | $O(n)$ — must still traverse from head   |
-| (c) Insert before a given node       | $O(n)$ — traverse from head to find predecessor | $O(1)$ — use `node.prev`                 |
-| (d) Delete a given node (reference)  | $O(n)$ — need predecessor to update its `next`  | $O(1)$ — use `node.prev` and `node.next` |
+| (b) Insert at tail (no tail pointer) | $O(n)$, traverse to end                        | $O(n)$, must still traverse from head   |
+| (c) Insert before a given node       | $O(n)$, traverse from head to find predecessor | $O(1)$, use `node.prev`                 |
+| (d) Delete a given node (reference)  | $O(n)$, need predecessor to update its `next`  | $O(1)$, use `node.prev` and `node.next` |
 
 Where $d$ is data size and $p$ is pointer size. The doubly linked list uses more memory per node (an
 Extra pointer) but provides $O(1)$ insertion before and deletion of a known node.
@@ -694,7 +694,7 @@ A **doubly linked list** is the better choice.
 
 The "skip backward" operation requires moving from the current song to the previous song. In a
 Singly linked list, there is no `prev` pointer, so going backward would require traversing from the
-Head — $O(n)$ per backward skip. In a doubly linked list, `current.prev` gives the previous song in
+Head, $O(n)$ per backward skip. In a doubly linked list, `current.prev` gives the previous song in
 $O(1)$.
 
 Other operations:
@@ -801,7 +801,7 @@ ENDPROCEDURE
 - Non-empty case: the old tail's `next` now points to the new node (linking it in). The `tail`
   pointer is updated to the new node. The list grows by one element at the end. ✓
 
-Time complexity: $O(1)$ — no traversal needed because the tail pointer is available.
+Time complexity: $O(1)$, no traversal needed because the tail pointer is available.
 
 </details>
 
@@ -828,20 +828,20 @@ Required operations and their complexities:
 | Operation         | Dynamic Array                                     | Singly Linked List                           |
 | ----------------- | ------------------------------------------------- | -------------------------------------------- |
 | Add to end        | $O(1)$ amortised                                  | $O(1)$ with tail pointer                     |
-| Remove from front | $O(n)$ — shift all elements                       | $O(1)$ — update head pointer                 |
-| Move to front     | $O(n)$ — remove from middle + shift + insert at 0 | $O(n)$ — find node, remove, reinsert at head |
+| Remove from front | $O(n)$, shift all elements                       | $O(1)$, update head pointer                 |
+| Move to front     | $O(n)$, remove from middle + shift + insert at 0 | $O(n)$, find node, remove, reinsert at head |
 
 **Analysis:**
 
 The singly linked list is the better choice. The critical operation is **remove from front**, which
 The linked list handles in $O(1)$ ( set `head = head.next`), while the dynamic array requires
-Shifting all remaining elements — $O(n)$ where $n$ could be hundreds of patients.
+Shifting all remaining elements, $O(n)$ where $n$ could be hundreds of patients.
 
 Both structures require $O(n)$ for "move to front" (must find the patient first), but the linked
 List's removal step is simpler (just pointer updates, no shifting). The linked list also handles
 "add to end" in $O(1)$ with a tail pointer.
 
-The dynamic array's advantage of $O(1)$ random access is irrelevant here — patients are always
+The dynamic array's advantage of $O(1)$ random access is irrelevant here, patients are always
 Processed in queue order. The linked list's lack of contiguous memory is not a concern since we are
 Not doing traversal-heavy work.
 

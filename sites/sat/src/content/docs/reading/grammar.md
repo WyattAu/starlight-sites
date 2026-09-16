@@ -58,7 +58,7 @@ SAT reading study notes - Grammar
 
 **Solution:**
 Step 1: The participial phrase "Running quickly" should modify the subject performing the action
-Step 2: The subject is "the finish line" — a finish line cannot run
+Step 2: The subject is "the finish line", a finish line cannot run
 Step 3: Correct: "Running quickly, the runner reached the finish line"
 
 ---
@@ -103,7 +103,7 @@ Step 1: With "neither...nor," the verb agrees with the **nearer** subject
 Step 2: "the teacher" is nearer and is singular
 Step 3: Correct: "Neither the students nor the teacher **was** aware of the change"
 
-**Key insight:** "Neither...nor" and "either...or" follow proximity agreement — the verb matches the subject closest to it.
+**Key insight:** "Neither...nor" and "either...or" follow proximity agreement, the verb matches the subject closest to it.
 
 ---
 
@@ -118,7 +118,7 @@ Step 3: Correct: "Neither the students nor the teacher **was** aware of the chan
 
 ## Intuition
 
-Grammar is the infrastructure of communication — like the electrical wiring in a house, you only notice it when something goes wrong. Subject-verb agreement is the matching of the subject to the verb, like making sure the key fits the lock. Pronoun reference is ensuring every "he" and "she" points to the right person — like labelling files so you can find them later. Modifier placement is about keeping related words together — a misplaced modifier is like putting the key to the front door in the kitchen drawer. The SAT tests whether you can spot these structural problems and fix them.
+Grammar is the infrastructure of communication, like the electrical wiring in a house, you only notice it when something goes wrong. Subject-verb agreement is the matching of the subject to the verb, like making sure the key fits the lock. Pronoun reference is ensuring every "he" and "she" points to the right person, like labelling files so you can find them later. Modifier placement is about keeping related words together, a misplaced modifier is like putting the key to the front door in the kitchen drawer. The SAT tests whether you can spot these structural problems and fix them.
 
 ## Common Mistakes
 

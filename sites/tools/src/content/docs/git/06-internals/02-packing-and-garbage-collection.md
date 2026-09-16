@@ -44,8 +44,8 @@ When you run `git add` or `git commit`Git creates objects as individual zlib-com
 
 **Performance characteristics**:
 
-- Creation: $O(1)$ — just write a file.
-- Lookup: $O(\log n)$ — filesystem directory lookup (first 2 hex chars) + file read.
+- Creation: $O(1)$, just write a file.
+- Lookup: $O(\log n)$, filesystem directory lookup (first 2 hex chars) + file read.
 - Storage: Each object is compressed independently. No delta compression between objects.
 - Overhead: Each file consumes a filesystem inode and a disk block (minimum 4 KB, even for small
   objects).
@@ -119,7 +119,7 @@ hash. The index is a sorted binary table:
 
 ### 3. Unreachable and Pruned Objects
 
-An object is **unreachable** if no reference (branch, tag, HEAD, reflog, stash) points to it —
+An object is **unreachable** if no reference (branch, tag, HEAD, reflog, stash) points to it,
 directly or transitively (through a tree or commit chain).
 
 ```bash

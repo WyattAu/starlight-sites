@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Organic Chemistry — Diagnostic Tests
+## Organic Chemistry, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Organic chemistry is like LEGO for carbon — carbon atoms link together in chains and rings to create millions of compounds:** Functional groups are the reactive parts of organic molecules — understanding them allows prediction of chemical behavior
+**Organic chemistry is like LEGO for carbon, carbon atoms link together in chains and rings to create millions of compounds:** Functional groups are the reactive parts of organic molecules, understanding them allows prediction of chemical behavior
 
 **Why it matters:** Organic chemistry underlies pharmaceuticals, plastics, food science, and the chemistry of life
 
-**The key insight:** Functional groups are the reactive parts of organic molecules — understanding them allows prediction of chemical behavior
+**The key insight:** Functional groups are the reactive parts of organic molecules, understanding them allows prediction of chemical behavior
 
 ## Unit Tests
 

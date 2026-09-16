@@ -30,7 +30,7 @@ flowchart TD
 
 **Magnetic fields are like invisible dancers that exert forces on moving charges, creating elegant patterns.**
 
-## Magnetic Fields — Diagnostic Tests
+## Magnetic Fields, Diagnostic Tests
 
 ## Unit Tests
 
@@ -144,7 +144,7 @@ In eV: $E_k = 1.336 \times 10^{-14}/(1.60 \times 10^{-19}) = 83500\,\text{eV} = 
 }
 </script>
 
-### UT-3: Electromagnetic Induction — Faraday's and Lenz's Laws
+### UT-3: Electromagnetic Induction, Faraday's and Lenz's Laws
 
 **Question:**
 

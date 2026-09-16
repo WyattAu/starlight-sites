@@ -50,7 +50,7 @@ The represented value is:
 $$(-1)^S \times 1.M \times 2^{E - 127}$$
 
 Where $1.M$ denotes the binary number $1 + \sum_{i=1}^{23} m_i \cdot 2^{-i}$. The leading 1 is
-**implicit** — it is not stored but always assumed (for normalised numbers). This is called the
+**implicit**, it is not stored but always assumed (for normalised numbers). This is called the
 **hidden bit convention**.
 
 ### Deriving the Range
@@ -582,7 +582,7 @@ False
 True
 ```
 
-To check for NaN, use `math.isnan(x)` — never use `x == float('nan')`.
+To check for NaN, use `math.isnan(x)`never use `x == float('nan')`.
 
 <hr />
 
@@ -695,7 +695,7 @@ Are the results different?
 <summary>Answer</summary>
 
 `1.0 / 0.0` produces $+\infty$. This represents mathematical division where a non-zero quantity is
-Divided by zero — the result tends to infinity.
+Divided by zero, the result tends to infinity.
 
 `0.0 / 0.0` produces NaN. This represents an indeterminate form: the limit depends on how both
 Numerator and denominator approach zero (e.g., $\lim_{x \to 0} x/x = 1$ but

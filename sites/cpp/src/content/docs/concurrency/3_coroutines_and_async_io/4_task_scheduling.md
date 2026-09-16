@@ -39,7 +39,7 @@ coroutine, and a thread pool executor for scheduling coroutines across threads.
 ## Task Concept
 
 A **task** is a coroutine that produces a result asynchronously. Unlike a generator (which produces
-Many values), a task produces exactly one result upon completion. The task coroutine is Lazy — it
+Many values), a task produces exactly one result upon completion. The task coroutine is Lazy, it
 does not begin executing until someone calls `resume()` or an executor schedules it.
 
 The minimal interface for a task is:
@@ -62,13 +62,13 @@ Races on non-atomic variables.
 1. A data race requires two conflicting accesses from different threads that are not ordered by
    happens-before [N4950 §6.9.4.1].
 2. In a cooperative scheduler, each thread runs at most one coroutine at a time. There is no
-   preemption — a coroutine runs until it explicitly suspends.
+   preemption, a coroutine runs until it explicitly suspends.
 3. Within a single coroutine, all accesses are sequenced (the coroutine is a single thread of
    execution).
 4. Two coroutines running on different threads access shared data only through explicit
    synchronization (mutexes, atomics) because the scheduler provides no implicit sharing mechanism.
 5. If shared data is accessed without synchronization, the accesses are from different threads and
-   are not ordered by happens-before — this is a data race. But this is a _programmer error_, not a
+   are not ordered by happens-before, this is a data race. But this is a _programmer error_, not a
    scheduler error.
 6. The scheduler itself does not introduce concurrency between coroutines on the same thread, so it
    does not introduce data races.
@@ -251,13 +251,13 @@ int main() {
 | C#         | `async``await`                  | ThreadPool / IOCP                | `CancellationToken`     | `try/catch`           |
 
 C++ is unique in providing **no built-in executor or event loop**. The coroutine machinery is
-Deliberately low-level — the standard provides only the suspension/resumption primitives, and
+Deliberately low-level, the standard provides only the suspension/resumption primitives, and
 Scheduling is entirely the programmer"s or library's responsibility.
 
 ## Structured Concurrency: `when_all` / `when_any`
 
 **Structured concurrency** is the principle that every concurrent operation should have a
-Well-defined lifetime — all child tasks must complete (or be cancelled) before the parent scope
+Well-defined lifetime, all child tasks must complete (or be cancelled) before the parent scope
 Exits. C++ does not yet have a standard `when_all` or `when_any` primitive, but these are common
 Library patterns.
 

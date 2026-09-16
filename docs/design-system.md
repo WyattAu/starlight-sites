@@ -1,6 +1,6 @@
 ---
 title: "Design System"
-description: "Complete guide to the Wyatt's Notes design system — tokens, themes, components, and patterns."
+description: "Complete guide to the Wyatt's Notes design system, tokens, themes, components, and patterns."
 ---
 
 # Design System

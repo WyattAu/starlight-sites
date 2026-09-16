@@ -213,11 +213,11 @@ flowchart TD
 
 Statistical inference is about **drawing conclusions about a population from a sample** while quantifying how confident you should be. The two main tools are confidence intervals (estimation) and hypothesis testing (decision-making).
 
-**Confidence interval intuition:** A 95% confidence interval means that if we repeated the sampling process many times, about 95% of the intervals would contain the true parameter. It does NOT mean there's a 95% probability the parameter is in this specific interval — the parameter is fixed, and the interval is random.
+**Confidence interval intuition:** A 95% confidence interval means that if we repeated the sampling process many times, about 95% of the intervals would contain the true parameter. It does NOT mean there's a 95% probability the parameter is in this specific interval, the parameter is fixed, and the interval is random.
 
-**Hypothesis testing intuition:** We start by assuming the null hypothesis is true (innocent until proven guilty). We then ask: "If the null were true, how likely is it that we'd see data this extreme?" If the answer is very unlikely (small p-value), we reject the null. The p-value is NOT the probability the null is true — it's the probability of the data given the null.
+**Hypothesis testing intuition:** We start by assuming the null hypothesis is true (innocent until proven guilty). We then ask: "If the null were true, how likely is it that we'd see data this extreme?" If the answer is very unlikely (small p-value), we reject the null. The p-value is NOT the probability the null is true, it's the probability of the data given the null.
 
-**Type I vs Type II errors:** Type I (false positive) means rejecting a true null hypothesis. Type II (false negative) means failing to reject a false null hypothesis. You can't reduce both simultaneously — lowering the significance level reduces Type I errors but increases Type II errors.
+**Type I vs Type II errors:** Type I (false positive) means rejecting a true null hypothesis. Type II (false negative) means failing to reject a false null hypothesis. You can't reduce both simultaneously, lowering the significance level reduces Type I errors but increases Type II errors.
 
 **The power of a test:** Power = $1 - P(\text{Type II error})$. the answer varies based on on the effect size, sample size, significance level, and variability. Larger samples and larger effects are easier to detect.
 

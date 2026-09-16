@@ -942,7 +942,7 @@ With one firm but perfectly contestable conditions.
 
 **Why it matters:** From Uber to local restaurants, market structure determines pricing power, innovation, and consumer welfare. Antitrust laws exist to prevent harmful monopolies.
 
-**The key insight:** In the long run, perfectly competitive firms earn zero economic profit — entry of new firms drives prices down to average cost.
+**The key insight:** In the long run, perfectly competitive firms earn zero economic profit, entry of new firms drives prices down to average cost.
 
 ## Common Pitfalls
 
@@ -1507,7 +1507,7 @@ are More price-sensitive, so the monopolist charges them less.
 
 If you get this wrong, revise: [Price Discrimination](#price-discrimination)
 
-### Problem 5: Game Theory — Nash Equilibrium
+### Problem 5: Game Theory, Nash Equilibrium
 
 Two firms, Alpha and Beta, compete on advertising spend. Each can choose High or Low advertising.
 The Payoff matrix (annual profit in USD million):

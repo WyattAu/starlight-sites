@@ -14,7 +14,7 @@ tableOfContents: false
 }
 </script>
 
-## Polynomials — Diagnostic Tests
+## Polynomials, Diagnostic Tests
 
 ## Unit Tests
 
@@ -599,11 +599,11 @@ flowchart TD
 
 ## Intuition
 
-**A factory assembly line:** Polynomials are like expressions built from repeated operations — the factor theorem tells you which "ingredients" (factors) go into making the polynomial, and division strips away known factors to find what's left.
+**A factory assembly line:** Polynomials are like expressions built from repeated operations, the factor theorem tells you which "ingredients" (factors) go into making the polynomial, and division strips away known factors to find what's left.
 
 **Why it matters:** Factoring polynomials is the backbone of solving equations, simplifying expressions, and understanding function behavior. Vieta's formulas connect roots to coefficients without solving.
 
-**The key insight:** (x - a) is a factor if and only if P(a) = 0 — this simple test replaces long division and reveals hidden structure.
+**The key insight:** (x - a) is a factor if and only if P(a) = 0, this simple test replaces long division and reveals hidden structure.
 
 ## Common Pitfalls
 

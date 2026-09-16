@@ -32,22 +32,22 @@ Subclasses handle specific data sources and sinks.
 
 ```
 InputStream (abstract)
-├── FileInputStream        — reads bytes from a file
-├── ByteArrayInputStream   — reads from a byte[] in memory
-├── BufferedInputStream    — wraps another InputStream with buffering
-├── DataInputStream        — reads primitive types (int, long, double, etc.)
-├── ObjectInputStream      — deserializes Java objects
-├── FilterInputStream      — base class for decorator streams
-└── PipedInputStream       — reads from a PipedOutputStream (inter-thread)
+├── FileInputStream, reads bytes from a file
+├── ByteArrayInputStream, reads from a byte[] in memory
+├── BufferedInputStream, wraps another InputStream with buffering
+├── DataInputStream, reads primitive types (int, long, double, etc.)
+├── ObjectInputStream, deserializes Java objects
+├── FilterInputStream, base class for decorator streams
+└── PipedInputStream, reads from a PipedOutputStream (inter-thread)
 
 OutputStream (abstract)
-├── FileOutputStream       — writes bytes to a file
-├── ByteArrayOutputStream  — writes to a byte[] in memory
-├── BufferedOutputStream   — wraps another OutputStream with buffering
-├── DataOutputStream       — writes primitive types
-├── ObjectOutputStream     — serializes Java objects
-├── FilterOutputStream     — base class for decorator streams
-└── PipedOutputStream      — writes to a PipedInputStream (inter-thread)
+├── FileOutputStream, writes bytes to a file
+├── ByteArrayOutputStream, writes to a byte[] in memory
+├── BufferedOutputStream, wraps another OutputStream with buffering
+├── DataOutputStream, writes primitive types
+├── ObjectOutputStream, serializes Java objects
+├── FilterOutputStream, base class for decorator streams
+└── PipedOutputStream, writes to a PipedInputStream (inter-thread)
 ```
 
 The core contract is minimal: `read()` (one byte), `read(byte[])``read(byte[], off, len)` for Input,
@@ -90,22 +90,22 @@ Encoding is the platform default charset, which is a source of subtle bugs.
 
 ```
 Reader (abstract)
-├── InputStreamReader  — bridges InputStream → Reader (charset conversion)
-├── FileReader          — convenience: InputStreamReader wrapping FileInputStream
-├── BufferedReader      — adds readLine() and buffering
-├── StringReader        — reads from a String in memory
-├── CharArrayReader     — reads from a char[] in memory
-├── PipedReader         — reads from a PipedWriter
-└── FilterReader        — base class for decorator readers
+├── InputStreamReader, bridges InputStream → Reader (charset conversion)
+├── FileReader, convenience: InputStreamReader wrapping FileInputStream
+├── BufferedReader, adds readLine() and buffering
+├── StringReader, reads from a String in memory
+├── CharArrayReader, reads from a char[] in memory
+├── PipedReader, reads from a PipedWriter
+└── FilterReader, base class for decorator readers
 
 Writer (abstract)
-├── OutputStreamWriter  — bridges Writer → OutputStream (charset conversion)
-├── FileWriter          — convenience: OutputStreamWriter wrapping FileOutputStream
-├── BufferedWriter      — adds newLine() and buffering
-├── StringWriter        — writes to a StringBuffer in memory
-├── CharArrayWriter     — writes to a char[] in memory
-├── PipedWriter         — writes to a PipedReader
-└── FilterWriter        — base class for decorator writers
+├── OutputStreamWriter, bridges Writer → OutputStream (charset conversion)
+├── FileWriter, convenience: OutputStreamWriter wrapping FileOutputStream
+├── BufferedWriter, adds newLine() and buffering
+├── StringWriter, writes to a StringBuffer in memory
+├── CharArrayWriter, writes to a char[] in memory
+├── PipedWriter, writes to a PipedReader
+└── FilterWriter, base class for decorator writers
 ```
 
 **Always specify the charset explicitly.** Since JDK 11, `FileReader` and `FileWriter` accept a
@@ -290,7 +290,7 @@ Single JVM or integrating with legacy APIs.
 }
 </script>
 
-## NIO.2 (java.nio.file) — The Path API
+## NIO.2 (java.nio.file), The Path API
 
 NIO.2, introduced in JDK 7 (JSR 203), is a modern file API that addresses the deficiencies of
 `java.io.File`. The core types are `Path``Paths`And `Files`.
@@ -405,7 +405,7 @@ Files. For large files, use `Files.lines()` or `BufferedReader`.
 // Copy a file
 Files.copy(src, dst, StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES);
 
-// Copy a directory (non-recursive — only copies the directory entry)
+// Copy a directory (non-recursive, only copies the directory entry)
 Files.copy(srcDir, dstDir);
 
 // Move (rename) a file
@@ -784,7 +784,7 @@ try (SocketChannel channel = SocketChannel.open()) {
 ```
 
 ```java
-// Non-blocking server (simplified — use Selector for real code)
+// Non-blocking server (simplified, use Selector for real code)
 try (ServerSocketChannel server = ServerSocketChannel.open()) {
     server.bind(new InetSocketAddress(8080));
     server.configureBlocking(false);
@@ -863,9 +863,9 @@ try (Selector selector = Selector.open();
 
 Key concepts:
 
-- **interestOps()** — the operations you registered for (modifiable at any time).
-- **readyOps()** — the operations currently ready (checked by `isAcceptable()``isReadable()` etc.).
-- **attachment()** — arbitrary per-connection state (e.g., an output buffer).
+- **interestOps()**, the operations you registered for (modifiable at any time).
+- **readyOps()**, the operations currently ready (checked by `isAcceptable()``isReadable()` etc.).
+- **attachment()**, arbitrary per-connection state (e.g., an output buffer).
 
 **Common Pitfalls:**
 
@@ -978,7 +978,7 @@ Register a shutdown hook as a fallback.
 
 ### File Locking
 
-`FileLock` provides advisory locking — it only prevents other processes that also use `FileLock`. A
+`FileLock` provides advisory locking, it only prevents other processes that also use `FileLock`. A
 Process that ignores the lock can still read or write.
 
 ```java
@@ -1037,11 +1037,11 @@ flowchart TD
 
 ## Intuition
 
-**Data highways:** I/O is like a postal system — streams are the roads that data travels on, and NIO uses channels and buffers for faster, more efficient delivery.
+**Data highways:** I/O is like a postal system, streams are the roads that data travels on, and NIO uses channels and buffers for faster, more efficient delivery.
 
 **Why it matters:** Efficient I/O is crucial for performance in networked applications. Understanding streams and NIO helps you design scalable systems.
 
-**The key insight:** NIO's non-blocking nature means one thread can handle many connections — this is the foundation of modern web servers.
+**The key insight:** NIO's non-blocking nature means one thread can handle many connections, this is the foundation of modern web servers.
 
 ## Common Pitfalls Summary
 

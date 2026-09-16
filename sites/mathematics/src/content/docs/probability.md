@@ -494,7 +494,7 @@ $\blacksquare$
 
 ## Intuition
 
-Probability quantifies uncertainty. The expected value is not a value you expect to see — it is the long-run average if you repeated the experiment forever. Variance measures how spread out the outcomes are around that average. Conditional probability is the mechanism for updating beliefs: given new evidence, you restrict to the subset of outcomes consistent with that evidence and renormalise. The law of total probability says you can compute any probability by conditioning on a partition of the sample space and averaging. Generating functions encode an entire distribution as a single function, turning convolutions of random variables into products of functions — a powerful algebraic shortcut.
+Probability quantifies uncertainty. The expected value is not a value you expect to see, it is the long-run average if you repeated the experiment forever. Variance measures how spread out the outcomes are around that average. Conditional probability is the mechanism for updating beliefs: given new evidence, you restrict to the subset of outcomes consistent with that evidence and renormalise. The law of total probability says you can compute any probability by conditioning on a partition of the sample space and averaging. Generating functions encode an entire distribution as a single function, turning convolutions of random variables into products of functions, a powerful algebraic shortcut.
 
 
 ```mermaid
@@ -524,7 +524,7 @@ flowchart TD
 | Probability and Statistics     | WyattsNotes | [View](probability-and-statistics) |
 | Real Analysis                  | WyattsNotes | [View](real-analysis)              |
 | Differential Equations         | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)     |
-| Probability — Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
+| Probability, Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

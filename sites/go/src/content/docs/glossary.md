@@ -1,6 +1,6 @@
 ---
-title: "Go Glossary — Key Terms and Definitions"
-description: "Study notes for Go Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Go Glossary, Key Terms and Definitions"
+description: "Study notes for Go Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -99,7 +99,7 @@ func divide(a, b float64) (result float64, err error) {
 }
 ```
 
-**Multiple Return Values**: Functions commonly return `(result, error)` — the caller checks the error.
+**Multiple Return Values**: Functions commonly return `(result, error)`the caller checks the error.
 
 **Variadic Function**: Accepts a variable number of arguments: `func sum(nums ...int) int`.
 
@@ -111,7 +111,7 @@ func divide(a, b float64) (result float64, err error) {
 
 ## Interfaces
 
-**Interface**: A set of methods that a type must implement. Interfaces are satisfied implicitly — no `implements` keyword needed.
+**Interface**: A set of methods that a type must implement. Interfaces are satisfied implicitly, no `implements` keyword needed.
 
 ```go
 type Writer interface {
@@ -121,13 +121,13 @@ type Writer interface {
 
 **Implicit Satisfaction**: A type implements an interface by having the required methods, without explicitly declaring the relationship.
 
-**Empty Interface (`interface{}` or `any`)**: Accepts any type. Use sparingly — it sacrifices type safety.
+**Empty Interface (`interface{}` or `any`)**: Accepts any type. Use sparingly, it sacrifices type safety.
 
 **Type Assertion**: Extracts the concrete type from an interface value: `s := i.(string)`.
 
 **Type Switch**: Switches on the type of an interface value: `switch v := i.(type) { case string: ... }`.
 
-**Small Interfaces**: Go convention — interfaces like `io.Reader` and `io.Writer` with a single method are easier to satisfy and compose.
+**Small Interfaces**: Go convention, interfaces like `io.Reader` and `io.Writer` with a single method are easier to satisfy and compose.
 
 ## Concurrency
 
@@ -183,7 +183,7 @@ value := <-ch
 
 **Middleware**: A function that wraps HTTP handlers, handling cross-cutting concerns like logging and authentication.
 
-**Goroutine-per-Request**: Go's concurrency model for web servers — each request runs in its own goroutine.
+**Goroutine-per-Request**: Go's concurrency model for web servers, each request runs in its own goroutine.
 
 ## Testing
 

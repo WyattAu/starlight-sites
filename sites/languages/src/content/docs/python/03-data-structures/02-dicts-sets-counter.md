@@ -96,7 +96,7 @@ for i in range(100):
     d[i] = i
     if i < 6:
         print(f"n={i}, table_size={len(d)}, sizeof={sys.getsizeof(d)}")
-## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232, ...
+## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232...
 # The table grows in discrete jumps
 ```
 
@@ -105,9 +105,9 @@ for i in range(100):
 Before Python 3.6, dicts stored entries in a single sparse array. This wasted memory because most
 Slots were empty. The compact dict design splits the structure into:
 
-- An **indices array** — a sparse array of `int8``int16``int32`Or `int64` indices (sized based on
+- An **indices array**, a sparse array of `int8``int16``int32`Or `int64` indices (sized based on
   table size).
-- A **dense entries array** — a compact array of `(hash, key, value)` triples.
+- A **dense entries array**, a compact array of `(hash, key, value)` triples.
 
 This saves 20-25% memory for typical dicts and guarantees insertion-order preservation as a side
 Effect.
@@ -144,7 +144,7 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 
 :::caution
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
-Consider order — only `OrderedDict` equality is order-sensitive.
+Consider order, only `OrderedDict` equality is order-sensitive.
 :::
 ### LRU Cache with OrderedDict
 
@@ -175,7 +175,7 @@ cache.put("b", 2)
 cache.put("c", 3)
 cache.put("d", 4)  # Evicts "a"
 print(cache.get("b"))  # 2
-print(list(cache.cache.keys()))  # ['c', 'd', 'b'] — "b" moved to end
+print(list(cache.cache.keys()))  # ['c', 'd', 'b'], "b" moved to end
 ```
 
 `functools.lru_cache` uses the same approach internally.
@@ -264,7 +264,7 @@ c = Counter("abracadabra")
 print(c)  # Counter({'a': 5, 'b': 2, 'r': 2, 'c': 1, 'd': 1})
 print(c.most_common(2))  # [('a', 5), ('b', 2)]
 print(c["a"])  # 5
-print(c["z"])  # 0 — missing keys return 0, not KeyError
+print(c["z"])  # 0, missing keys return 0, not KeyError
 ```
 
 ### Counter Arithmetic
@@ -279,13 +279,13 @@ c1 = Counter(a=3, b=1, c=5)
 c2 = Counter(a=1, b=2, d=3)
 
 print(c1 + c2)    # Counter({'c': 5, 'a': 4, 'b': 3, 'd': 3})
-print(c1 - c2)    # Counter({'a': 2, 'c': 5}) — negative counts dropped
-print(c1 & c2)    # Counter({'a': 1, 'b': 1}) — min of each
-print(c1 | c2)    # Counter({'c': 5, 'a': 3, 'b': 2, 'd': 3}) — max of each
+print(c1 - c2)    # Counter({'a': 2, 'c': 5}), negative counts dropped
+print(c1 & c2)    # Counter({'a': 1, 'b': 1}), min of each
+print(c1 | c2)    # Counter({'c': 5, 'a': 3, 'b': 2, 'd': 3}), max of each
 
 # Unary operations
-print(+Counter(a=3, b=-1))  # Counter({'a': 3}) — removes zero/negative
-print(-Counter(a=3, b=-1))  # Counter({'b': 1}) — negates, removes zero/negative
+print(+Counter(a=3, b=-1))  # Counter({'a': 3}), removes zero/negative
+print(-Counter(a=3, b=-1))  # Counter({'b': 1}), negates, removes zero/negative
 ```
 
 ### Frequency Analysis
@@ -349,7 +349,7 @@ config = ChainMap(cli_args, env_config, defaults)
 print(config["timeout"])  # 60 (from env_config)
 print(config["retries"])  # 5 (from cli_args)
 print(config["debug"])    # True (from env_config)
-print(config["port"])     # KeyError — not in any mapping
+print(config["port"])     # KeyError, not in any mapping
 ```
 
 ### ChainMap with Context Managers
@@ -390,9 +390,9 @@ Python sets are implemented using the same compact hash table design as dicts, b
 
 ```python
 s = {1, 2, 3, 4, 5}
-print(s.add(6))    # None — adds 6
-print(s.discard(6)) # None — removes 6 if present
-print(s.remove(6))  # KeyError — raises if not present
+print(s.add(6))    # None, adds 6
+print(s.discard(6)) # None, removes 6 if present
+print(s.remove(6))  # KeyError, raises if not present
 ```
 
 Set operations have the following average-case complexities:
@@ -413,7 +413,7 @@ Set operations have the following average-case complexities:
 
 ```python
 fs = frozenset([1, 2, 3])
-d = {fs: "found"}           # Valid — frozenset is hashable
+d = {fs: "found"}           # Valid, frozenset is hashable
 s = {fs, frozenset([4, 5])} # Valid
 
 # Regular sets cannot be dict keys
@@ -427,13 +427,13 @@ s = {fs, frozenset([4, 5])} # Valid
 a = {1, 2, 3, 4, 5}
 b = {4, 5, 6, 7, 8}
 
-print(a | b)   # {1, 2, 3, 4, 5, 6, 7, 8} — union
-print(a & b)   # {4, 5} — intersection
-print(a - b)   # {1, 2, 3} — difference
-print(a ^ b)   # {1, 2, 3, 6, 7, 8} — symmetric difference
-print(a <= b)  # False — a is not a subset of b
-print(a >= b)  # False — a is not a superset of b
-print(a < a)   # False — a is not a proper subset of itself
+print(a | b)   # {1, 2, 3, 4, 5, 6, 7, 8}, union
+print(a & b)   # {4, 5}, intersection
+print(a - b)   # {1, 2, 3}, difference
+print(a ^ b)   # {1, 2, 3, 6, 7, 8}, symmetric difference
+print(a <= b)  # False, a is not a subset of b
+print(a >= b)  # False, a is not a superset of b
+print(a < a)   # False, a is not a proper subset of itself
 ```
 
 Set comprehensions are often more readable than set operations:
@@ -611,15 +611,15 @@ import bisect
 
 data = [10, 20, 30, 40, 50]
 
-# bisect_right (alias: bisect) — insertion point after existing entries
+# bisect_right (alias: bisect), insertion point after existing entries
 pos = bisect.bisect_right(data, 30)
-print(pos)  # 3 — would insert after the existing 30
+print(pos)  # 3, would insert after the existing 30
 bisect.insort_right(data, 30)
 print(data)  # [10, 20, 30, 30, 40, 50]
 
-# bisect_left — insertion point before existing entries
+# bisect_left, insertion point before existing entries
 pos = bisect.bisect_left(data, 30)
-print(pos)  # 2 — would insert before the first 30
+print(pos)  # 2, would insert before the first 30
 bisect.insort_left(data, 25)
 print(data)  # [10, 20, 25, 30, 30, 40, 50]
 ```
@@ -740,7 +740,7 @@ Invariant may be violated. Either use immutable data or call `heapq.heapify()` a
 :::
 ## Intuition
 
-A dictionary is a book with tabs — you open directly to the right page without flipping through every one. The hash function turns your key into a page number, and if two keys collide, you just check the next few pages until you find the right one. Counter is like a tally sheet — it counts occurrences of each item automatically. defaultdict is a dictionary that never says "I don't know" — it creates a default value when you ask for something missing. ChainMap is a stack of dictionaries where the top one shadows the ones below, perfect for layered configuration where command-line args override environment variables which override defaults. The hash table is the most important data structure in Python because dicts, sets, and even object attribute lookup all use it.
+A dictionary is a book with tabs, you open directly to the right page without flipping through every one. The hash function turns your key into a page number, and if two keys collide, you just check the next few pages until you find the right one. Counter is like a tally sheet, it counts occurrences of each item automatically. defaultdict is a dictionary that never says "I don't know", it creates a default value when you ask for something missing. ChainMap is a stack of dictionaries where the top one shadows the ones below, perfect for layered configuration where command-line args override environment variables which override defaults. The hash table is the most important data structure in Python because dicts, sets, and even object attribute lookup all use it.
 
 ## Common Pitfalls
 
@@ -767,7 +767,7 @@ def append_to(element, target=[]):
     return target
 
 print(append_to(1))  # [1]
-print(append_to(2))  # [1, 2] — the same list persists across calls
+print(append_to(2))  # [1, 2], the same list persists across calls
 
 # CORRECT
 def append_to(element, target=None):
@@ -781,7 +781,7 @@ def append_to(element, target=None):
 
 ```python
 d = {}
-d[(1, 2)] = "ok"        # Works — tuples of immutables are hashable
+d[(1, 2)] = "ok"        # Works, tuples of immutables are hashable
 d[[1, 2]] = "fail"      # TypeError: unhashable type: "list''
 d[{1, 2}] = "fail"      # TypeError: unhashable type: "set'
 d[frozenset({1, 2})] = "ok"  # Works
@@ -795,11 +795,11 @@ from collections import Counter
 c = Counter(a=5)
 c.subtract({"a": 10})
 print(c)  # Counter({'a': -5})
-print(c["a"])  # -5 — negative count is accessible
+print(c["a"])  # -5, negative count is accessible
 
 # But arithmetic operations drop negatives
 c2 = Counter(a=5) - Counter(a=10)
-print(c2)   # Counter() — empty! negative counts removed
+print(c2)   # Counter(), empty! negative counts removed
 print(c2["a"])  # 0
 ```
 
@@ -811,8 +811,8 @@ from collections import ChainMap
 defaults = {"timeout": 30}
 config = ChainMap({}, defaults)
 config["timeout"] = 60
-print(defaults["timeout"])  # 30 — unchanged
-print(config.maps[0])       # {'timeout': 60} — only first dict modified
+print(defaults["timeout"])  # 30, unchanged
+print(config.maps[0])       # {'timeout': 60}, only first dict modified
 ```
 
 ### 6. Set Operations Return New Sets
@@ -821,7 +821,7 @@ print(config.maps[0])       # {'timeout': 60} — only first dict modified
 a = {1, 2, 3}
 b = {2, 3, 4}
 
-a &= b  # In-place — modifies a
+a &= b  # In-place, modifies a
 print(a)  # {2, 3}
 
 # But:
@@ -841,14 +841,14 @@ from collections import defaultdict
 
 d = defaultdict(list)
 
-# Typo in key name — silently creates empty list instead of erroring
+# Typo in key name, silently creates empty list instead of erroring
 if d["usrname"]:
     print("has username")
-print(d)  # defaultdict(..., {'usrname': []}) — typo created a key
+print(d)  # defaultdict(..., {'usrname': []}), typo created a key
 
 # With regular dict, you get a clear KeyError
 d2 = {}
-# if d2["usrname"]:  # KeyError: 'usrname' — catches the typo
+# if d2["usrname"]:  # KeyError: 'usrname', catches the typo
 ```
 
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
@@ -888,7 +888,7 @@ linked above.
 
 ## Cross-References
 
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections) — Lists and tuples are the ordered sequences that complement the mapping and set types covered here.
-- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables) — Hashability requirements for dict keys and set members depend on the immutability and type system concepts from fundamentals.
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow) — Dict and set comprehensions extend the comprehension syntax introduced in the control flow chapter.
-- [Python Internals](../02-fundamentals/05-python-internals) — Hash table internals, string interning, and the compact dict design are implementation details of CPython's memory model.
+- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), Lists and tuples are the ordered sequences that complement the mapping and set types covered here.
+- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables), Hashability requirements for dict keys and set members depend on the immutability and type system concepts from fundamentals.
+- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), Dict and set comprehensions extend the comprehension syntax introduced in the control flow chapter.
+- [Python Internals](../02-fundamentals/05-python-internals), Hash table internals, string interning, and the compact dict design are implementation details of CPython's memory model.

@@ -179,7 +179,7 @@ $$\text{R–MgBr} + \text{R}'_2\text{C}=O \to \text{R}'_2\text{C(OMgBr)R} \xrigh
 | Ester              | Tertiary alcohol   |
 | CO$_2$             | Carboxylic acid    |
 
-**Limitations:** Grignard reagents are strong bases — incompatible with acidic protons (OH, NH,
+**Limitations:** Grignard reagents are strong bases, incompatible with acidic protons (OH, NH,
 $\equiv$CH). They also react with epoxides (ring opening).
 
 ### 4.2 Wittig Reaction
@@ -441,7 +441,7 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 | Structure and Bonding    | WyattsNotes | [View](structure-and-bonding)              |
 | Reaction Mechanisms      | WyattsNotes | [View](reaction-mechanisms)                |
 | Spectroscopy             | WyattsNotes | [View](spectroscopy)                       |
-| Organic Synthesis — MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
+| Organic Synthesis, MIT 5.34 | MIT OCW | [View](https://ocw.mit.edu/courses/5-34-advanced-organic-chemistry-spring-2003/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

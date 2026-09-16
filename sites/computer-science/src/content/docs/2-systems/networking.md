@@ -400,7 +400,7 @@ TCP_SLOW_START():
 | -------------------- | -------------- | ------------------------- |
 | Slow start           | Exponential    | Connection start, timeout |
 | Congestion avoidance | Linear         | cwnd ≥ ssthresh           |
-| Fast recovery        | —              | 3 duplicate ACKs          |
+| Fast recovery        |,              | 3 duplicate ACKs          |
 | Timeout (RTO)        | Reset to 1 MSS | Timeout                   |
 
 ## 6. Application Layer

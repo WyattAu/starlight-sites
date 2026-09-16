@@ -28,15 +28,15 @@ flowchart TD
 
 ## Intuition
 
-**Mathematics is the language of patterns and logic — a tool for describing relationships and solving problems.**
+**Mathematics is the language of patterns and logic, a tool for describing relationships and solving problems.**
 
-## Proof — Diagnostic Tests
+## Proof, Diagnostic Tests
 
 ## Unit Tests
 
 > Tests edge cases, boundary conditions, and common misconceptions for proof.
 
-### UT-1: Proof by Contradiction — $\sqrt{2}$ is Irrational
+### UT-1: Proof by Contradiction, $\sqrt{2}$ is Irrational
 
 **Question:**
 
@@ -111,7 +111,7 @@ Both $p$ and $q$ divisible by 3 contradicts $\gcd(p,q) = 1$. Therefore $\sqrt{3}
 }
 </script>
 
-### UT-2: Proof by Induction — Base Case Errors
+### UT-2: Proof by Induction, Base Case Errors
 
 **Question:**
 

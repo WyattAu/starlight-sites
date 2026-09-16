@@ -193,12 +193,12 @@ will undergo distortion to remove the degeneracy.
 
 ### 6.2 Octahedral Jahn-Teller Distortion
 
-**High-spin $d^4$** ($t_{2g}^3\,e_g^1$): One electron in $e_g$ — the complex elongates along one
+**High-spin $d^4$** ($t_{2g}^3\,e_g^1$): One electron in $e_g$, the complex elongates along one
 axis to lower the energy of the singly occupied orbital.
 
-**Low-spin $d^7$** ($t_{2g}^6\,e_g^1$): Same $e_g$ degeneracy — elongation.
+**Low-spin $d^7$** ($t_{2g}^6\,e_g^1$): Same $e_g$ degeneracy, elongation.
 
-**$d^9$** ($t_{2g}^6\,e_g^3$): One hole in $e_g$ — strong Jahn-Teller effect (e.g., Cu$^{2+}$).
+**$d^9$** ($t_{2g}^6\,e_g^3$): One hole in $e_g$, strong Jahn-Teller effect (e.g., Cu$^{2+}$).
 
 **Examples:**
 
@@ -434,7 +434,7 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 | Atomic Structure                  | WyattsNotes | [View](atomic-structure-and-periodicity)                       |
 | Main-Group Chemistry              | WyattsNotes | [View](main-group-chemistry)                                   |
 | Solid-State Chemistry             | WyattsNotes | [View](solid-state-chemistry)                                  |
-| Coordination Chemistry — MIT 5.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-03-principles-of-inorganic-chemistry-iii-fall-2005/) |
+| Coordination Chemistry, MIT 5.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-03-principles-of-inorganic-chemistry-iii-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)

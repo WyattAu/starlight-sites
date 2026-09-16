@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Channels and Message Passing"
-description: "Channels implement the actor model — concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each"
+description: "Channels implement the actor model, concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each"
 
 ---
 
@@ -17,7 +17,7 @@ description: "Channels implement the actor model — concurrent tasks communicat
 
 ## Channel Fundamentals
 
-Channels implement the actor model — concurrent tasks communicate by sending messages rather than
+Channels implement the actor model, concurrent tasks communicate by sending messages rather than
 Sharing memory. Rust provides several channel types, each optimized for different communication
 Patterns. The sender and receiver are separate endpoints; messages are moved from sender to
 Receiver, transferring ownership.
@@ -47,7 +47,7 @@ let (tx, rx) = mpsc::channel();
 thread::spawn(move || {
     let val = String::from("hello");
     tx.send(val).unwrap();
-    // val is moved — no longer accessible here
+    // val is moved, no longer accessible here
 });
 
 let received = rx.recv().unwrap();
@@ -87,8 +87,8 @@ When all senders are dropped, `recv()` returns `Err` and the iterator terminates
 ```rust
 use std::sync::mpsc;
 
-let (tx, rx) = mpsc::channel();          // unbounded — grows as needed
-let (tx, rx) = mpsc::sync_channel(10);   // bounded — capacity 10
+let (tx, rx) = mpsc::channel();          // unbounded, grows as needed
+let (tx, rx) = mpsc::sync_channel(10);   // bounded, capacity 10
 ```
 
 ### Send and Recv Semantics
@@ -128,8 +128,8 @@ async fn main() {
 ```rust
 use tokio::sync::mpsc;
 
-let (tx, rx) = mpsc::channel(32);       // bounded — capacity 32
-let (tx, rx) = mpsc::unbounded_channel(); // unbounded — grows as needed
+let (tx, rx) = mpsc::channel(32);       // bounded, capacity 32
+let (tx, rx) = mpsc::unbounded_channel(); // unbounded, grows as needed
 ```
 
 :::caution
@@ -179,7 +179,7 @@ async fn main() {
 }
 ```
 
-Oneshot channels are zero-cost — they use a single slot with no buffer. They are ideal for
+Oneshot channels are zero-cost, they use a single slot with no buffer. They are ideal for
 Request-response patterns where each request gets exactly one response.
 
 ### Oneshot as a Cancellation Token
@@ -248,7 +248,7 @@ async fn main() {
 - Each `subscribe()` creates a new receiver
 - Receivers that lag behind (buffer full) receive `RecvError::Lagged(n)` indicating how many
   messages were skipped
-- The sender does NOT wait for receivers — messages are fire-and-forget
+- The sender does NOT wait for receivers, messages are fire-and-forget
 - The buffer is per-channel, not per-receiver
 
 ```rust
@@ -268,7 +268,7 @@ assert_eq!(rx.recv().await.unwrap(), 3);
 ## Watch Channels
 
 Watch channels broadcast the latest value to all receivers. Unlike broadcast, watch retains only the
-Most recent value — there is no message queue:
+Most recent value, there is no message queue:
 
 ```rust
 use tokio::sync::watch;
@@ -306,7 +306,7 @@ async fn main() {
 | ------------ | ---------------------- | ----------------------- |
 | Messages     | Single latest value    | All messages in a queue |
 | Buffer       | 1 (always)             | Configurable            |
-| Lag handling | No lag — always latest | `RecvError::Lagged`     |
+| Lag handling | No lag, always latest | `RecvError::Lagged`     |
 | Use case     | Configuration updates  | Event streams, logs     |
 
 ## Channel Patterns
@@ -375,7 +375,7 @@ async fn main() {
 
 ### Backpressure
 
-Bounded channels provide backpressure — when the buffer is full, `send()` blocks (or Awaits) until
+Bounded channels provide backpressure, when the buffer is full, `send()` blocks (or Awaits) until
 the receiver consumes a message:
 
 ```rust
@@ -567,11 +567,11 @@ match rx.try_recv() {
 
 | Buffer Size | Behavior                                          |
 | ----------- | ------------------------------------------------- |
-| 0           | Synchronous handoff — sender waits for receiver   |
-| 1           | Minimal buffering — good for ping-pong            |
-| 10-100      | General purpose — balances throughput and latency |
-| 1000+       | High throughput — producers rarely block          |
-| Unbounded   | No backpressure — risk of memory exhaustion       |
+| 0           | Synchronous handoff, sender waits for receiver   |
+| 1           | Minimal buffering, good for ping-pong            |
+| 10-100      | General purpose, balances throughput and latency |
+| 1000+       | High throughput, producers rarely block          |
+| Unbounded   | No backpressure, risk of memory exhaustion       |
 
 ### Throughput Considerations
 
@@ -580,10 +580,10 @@ Often. However, larger buffers increase memory usage and latency (messages sit i
 Before being processed).
 
 ```rust
-// High-throughput scenario — large buffer
+// High-throughput scenario, large buffer
 let (tx, rx) = mpsc::channel(10_000);
 
-// Low-latency scenario — small buffer
+// Low-latency scenario, small buffer
 let (tx, rx) = mpsc::channel(1);
 ```
 

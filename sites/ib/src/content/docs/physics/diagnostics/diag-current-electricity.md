@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Current Electricity — Diagnostic Tests
+## Current Electricity, Diagnostic Tests
 
 
 ```mermaid
@@ -30,7 +30,7 @@ flowchart TD
 
 ## Intuition
 
-**Electric current is like water flowing through pipes — voltage is the water pressure, resistance is pipe narrowness, and current is the flow rate:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit
+**Electric current is like water flowing through pipes, voltage is the water pressure, resistance is pipe narrowness, and current is the flow rate:** Ohm's law (V = IR) captures the fundamental relationship between electrical pressure, flow, and opposition in a circuit
 
 **Why it matters:** Every electronic device, from your phone to power grids, relies on controlling the flow of electrons through circuits
 

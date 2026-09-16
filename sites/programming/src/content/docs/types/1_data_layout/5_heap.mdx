@@ -1,7 +1,7 @@
 ---
 
 title: "Heap | Programming - Wyatt's Notes"
-description: "The heap is the Wild West of memory — vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor"
+description: "The heap is the Wild West of memory, vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor"
 date: 2025-12-13T05:06:47.303Z
 tags:
   - cpp
@@ -600,7 +600,7 @@ Resources (`std::pmr`)**.
 
 ## Intuition
 
-The heap is the Wild West of memory — vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor belt, the heap is a scattered collection of free blocks that must be found, claimed, and later returned. Virtual memory is the illusion that gives each process its own private continent, even though physical RAM is shared. Page tables are the translation maps that turn virtual addresses into physical ones. When you allocate on the heap, the allocator searches its free lists like a real estate agent looking for available lots — and when you deallocate, you are returning the lot to the market.
+The heap is the Wild West of memory, vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor belt, the heap is a scattered collection of free blocks that must be found, claimed, and later returned. Virtual memory is the illusion that gives each process its own private continent, even though physical RAM is shared. Page tables are the translation maps that turn virtual addresses into physical ones. When you allocate on the heap, the allocator searches its free lists like a real estate agent looking for available lots, and when you deallocate, you are returning the lot to the market.
 
 ## Common Pitfalls
 
@@ -667,7 +667,7 @@ void mmap_demo(const char* path) \{
                        PROT_READ, MAP_PRIVATE, fd, 0);
     if (addr == MAP_FAILED) \{ close(fd); return; \}
 
-    // Access file contents as memory — no explicit read() needed
+    // Access file contents as memory, no explicit read() needed
     auto* data = static_cast<const std::byte*>(addr);
     std::cout << "Mapped " << sb.st_size << " bytes\n";
 

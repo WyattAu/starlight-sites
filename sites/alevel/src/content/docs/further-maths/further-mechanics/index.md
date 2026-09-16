@@ -58,31 +58,31 @@ with momentum conservation.
 
 ### Projectile Motion
 
-- **2D kinematics** — resolving velocity into horizontal and vertical components
-- **Trajectory equation** — deriving $y = x\tan\theta - \frac{gx^2}{2v^2\cos^2\theta}$
-- **Range and maximum height** — proofs using SUVAT equations
-- **Motion on inclined planes** — resolving along and perpendicular to the slope
-- **Vectors and parametric approaches** — using
+- **2D kinematics**, resolving velocity into horizontal and vertical components
+- **Trajectory equation**, deriving $y = x\tan\theta - \frac{gx^2}{2v^2\cos^2\theta}$
+- **Range and maximum height**, proofs using SUVAT equations
+- **Motion on inclined planes**, resolving along and perpendicular to the slope
+- **Vectors and parametric approaches**, using
   $\mathbf{r}(t) = \mathbf{r}_0 + \mathbf{v}_0 t + \frac{1}{2}\mathbf{g}t^2$
 
 ### Circular Motion
 
-- **Angular velocity and angular acceleration** — $\omega = \dot{\theta}$, $\alpha = \ddot{\theta}$
-- **Centripetal acceleration** — $a = \frac{v^2}{r} = r\omega^2$; derivation from first principles
-- **Horizontal and vertical circles** — analysing forces at different positions
-- **Banked tracks and conical pendulums** — resolving forces in rotated frames
-- **Energy methods** — combining conservation of energy with circular motion constraints
+- **Angular velocity and angular acceleration**, $\omega = \dot{\theta}$, $\alpha = \ddot{\theta}$
+- **Centripetal acceleration**, $a = \frac{v^2}{r} = r\omega^2$; derivation from first principles
+- **Horizontal and vertical circles**, analysing forces at different positions
+- **Banked tracks and conical pendulums**, resolving forces in rotated frames
+- **Energy methods**, combining conservation of energy with circular motion constraints
 
 ### Centres of Mass and Elastic Collisions
 
-- **Centres of mass** — laminae, solid bodies, composite shapes; integration methods for continuous
+- **Centres of mass**, laminae, solid bodies, composite shapes; integration methods for continuous
   distributions
-- **Toppling vs. sliding** — determining the critical angle for stability
-- **Momentum and impulse** — $\mathbf{I} = m\Delta\mathbf{v}$; vector and scalar forms
-- **Coefficient of restitution** — $e = \frac{v_B - v_A}{u_A - u_B}$; perfectly elastic ($e=1$) and
+- **Toppling vs. sliding**, determining the critical angle for stability
+- **Momentum and impulse**, $\mathbf{I} = m\Delta\mathbf{v}$; vector and scalar forms
+- **Coefficient of restitution**, $e = \frac{v_B - v_A}{u_A - u_B}$; perfectly elastic ($e=1$) and
   perfectly inelastic ($e=0$) collisions
-- **Oblique collisions** — resolving perpendicular and parallel to the line of centres
-- **Energy in collisions** — kinetic energy lost; when and why conservation fails
+- **Oblique collisions**, resolving perpendicular and parallel to the line of centres
+- **Energy in collisions**, kinetic energy lost; when and why conservation fails
 
 ## Study Tips
 

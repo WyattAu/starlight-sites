@@ -23,11 +23,11 @@ categories:
 
 ## Intuition
 
-**When two people edit the same sentence:** Merge conflicts are like two people editing the same paragraph in a document simultaneously — Git can not automatically decide which version is correct, so it asks you to choose or combine them manually.
+**When two people edit the same sentence:** Merge conflicts are like two people editing the same paragraph in a document simultaneously, Git can not automatically decide which version is correct, so it asks you to choose or combine them manually.
 
 **Why it matters:** Conflicts are inevitable in team projects. Understanding how to resolve them quickly and correctly prevents lost work, corrupted merges, and frustrated developers.
 
-**The key insight:** The best way to handle conflicts is to prevent them — small, frequent merges reduce the likelihood of conflicts, and good communication about who is working on what avoids overlapping changes.
+**The key insight:** The best way to handle conflicts is to prevent them, small, frequent merges reduce the likelihood of conflicts, and good communication about who is working on what avoids overlapping changes.
 
 ## Understanding Conflicts
 
@@ -98,7 +98,7 @@ be helpful for understanding what changed on both sides.
 
 ### Strategy 1: Manual Resolution
 
-The most common approach — edit the file to produce the correct result:
+The most common approach, edit the file to produce the correct result:
 
 ```c
 // After manual resolution:

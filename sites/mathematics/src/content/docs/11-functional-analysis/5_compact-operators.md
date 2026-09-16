@@ -157,7 +157,7 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
   $(H - z)^{-1}$ are often compact. The spectral theorem for compact operators underlies the
   solution of the Schrodinger equation for bound states.
 - **Differential equations:** The inverse of a differential operator with compact resolvent (e.g.,
-  $-\Delta + V$ on a bounded domain) is compact, ensuring discrete spectrum — the basis for
+  $-\Delta + V$ on a bounded domain) is compact, ensuring discrete spectrum, the basis for
   Sturm-Liouville theory.
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).

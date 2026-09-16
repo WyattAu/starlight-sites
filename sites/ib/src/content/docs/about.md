@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes IB resources — experience, expertise, and credentials behind the International Baccalaureate study materials."
+description: "About Wyatt's Notes IB resources, experience, expertise, and credentials behind the International Baccalaureate study materials."
 tags:
   - about
   - ib
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — IB
+## About Wyatt's Notes, IB
 
 Wyatt's Notes delivers thorough study materials for the International Baccalaureate (IB) Diploma Programme. The IB is a globally recognised pre-university qualification emphasising critical thinking, intercultural understanding, and academic rigour across six subject groups.
 
@@ -17,7 +17,7 @@ Wyatt's Notes delivers thorough study materials for the International Baccalaure
 
 These notes are developed by **Wyatt**, an educator and content creator with expertise in the IB curriculum framework. Every topic map directly to the IB subject guides, covering both Standard Level (SL) and Higher Level (HL) requirements where applicable.
 
-Content is designed to address the specific demands of IB assessment — including internal assessments (IA), the Extended Essay, and Theory of Knowledge (TOK). Materials emphasise the IB's approach to learning (ATL) skills such as research, thinking, and communication.
+Content is designed to address the specific demands of IB assessment, including internal assessments (IA), the Extended Essay, and Theory of Knowledge (TOK). Materials emphasise the IB's approach to learning (ATL) skills such as research, thinking, and communication.
 
 ### What You'll Find
 
@@ -32,9 +32,9 @@ Wyatt develops resources across multiple international curricula, enabling compa
 
 ## Related Sites
 
-- **[DSE](https://dse.wyattau.com)** — Hong Kong DSE exam preparation resources
-- **[A-Level](https://alevel.wyattau.com)** — UK A-Level qualification materials
-- **[SAT](https://sat.wyattau.com)** — US standardised test preparation
+- **[DSE](https://dse.wyattau.com)**, Hong Kong DSE exam preparation resources
+- **[A-Level](https://alevel.wyattau.com)**, UK A-Level qualification materials
+- **[SAT](https://sat.wyattau.com)**, US standardised test preparation
 
 ## Explore the Site
 
@@ -57,17 +57,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -83,10 +83,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 
@@ -95,7 +95,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [IB Notes](./)
-- [Complete IB Study Guide — All Subjects & Papers](./hub)
+- [Complete IB Study Guide, All Subjects & Papers](./hub)
 - [IB Theory of Knowledge (TOK)](./ib-theory-of-knowledge)
 
 

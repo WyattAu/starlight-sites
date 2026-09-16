@@ -150,7 +150,7 @@ The **ABA problem** occurs in lock-free algorithms when a value changes from $A$
 $A$ between a thread's load and its CAS. The CAS succeeds because the value is still $A$ But the
 Intermediate change may have invalidated invariants:
 
-$$\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds — incorrectly$$
+$$\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly$$
 
 `compare_exchange_weak` may fail spuriously (return `false` even when the expected value matches),
 Which can help in some ABA scenarios but does not fully solve the problem. Full solutions include:
@@ -342,7 +342,7 @@ void memory_order_overview() {
 
 :::caution
 ordering correctly is Extremely complex and was found to have specification issues. Do not use
-`memory_order_consume` — Use `memory_order_acquire` instead.
+`memory_order_consume`Use `memory_order_acquire` instead.
 :::
 ## `compare_exchange` in Detail
 
@@ -350,7 +350,7 @@ The CAS operation is the foundation of most lock-free algorithms. `compare_excha
 `compare_exchange_strong` differ in one key aspect [N4950 §31.7.2]:
 
 - **`compare_exchange_strong`**: Fails **only** if the current value does not equal `expected`.
-- **`compare_exchange_weak`**: May fail **spuriously** — returns `false` even when the value equals
+- **`compare_exchange_weak`**: May fail **spuriously**, returns `false` even when the value equals
   `expected`. This allows the implementation to use LL/SC (Load-Linked/Store-Conditional)
   instructions on architectures that support them (e.g., ARM, PowerPC).
 
@@ -415,7 +415,7 @@ if (ptr.compare_exchange_weak(
 ## `std::atomic_wait` and `std::atomic_notify` (C++20)
 
 C++20 introduced `wait()``notify_one()`And `notify_all()` on `std::atomic` objects [N4950 §31.7.2].
-These provide an efficient waiting mechanism that does not spin — the OS puts the thread To sleep
+These provide an efficient waiting mechanism that does not spin, the OS puts the thread To sleep
 until notification arrives:
 
 ```cpp
@@ -508,7 +508,7 @@ all modern Hardware. Check `std::atomic&lt;bool&gt;::is_always_lock_free` at com
 ## `std::atomic&lt;shared_ptr&gt;` and `std::atomic&lt;weak_ptr&gt;` (C++20)
 
 C++20 provides atomic specializations for `std::shared_ptr` and `std::weak_ptr` [N4950 §31.7.1].
-These are **not** lock-free — they use an internal mutex. They exist because reference counting
+These are **not** lock-free, they use an internal mutex. They exist because reference counting
 Operations on `shared_ptr` are not atomic, and a data race on the control block is UB:
 
 ```cpp
@@ -544,7 +544,7 @@ state.
 :::
 ## Tagged Pointers for ABA Prevention
 
-A practical approach to solving the ABA problem is to use a tagged pointer — combine the pointer
+A practical approach to solving the ABA problem is to use a tagged pointer, combine the pointer
 With a monotonically increasing counter in a single 64-bit atomic:
 
 ```cpp
@@ -634,7 +634,7 @@ tag Alongside the pointer, or use hazard pointers.
    `release`/`acquire` pairs for flag-based synchronization.
 
 2. **Forgetting that `compare_exchange_weak` can fail spuriously:** Always use
-   `compare_exchange_weak` inside a loop. The spurious failure is not an error — it is an
+   `compare_exchange_weak` inside a loop. The spurious failure is not an error, it is an
    implementation artifact of LL/SC instructions on some architectures. Never assume a single
    `compare_exchange_weak` succeeds.
 

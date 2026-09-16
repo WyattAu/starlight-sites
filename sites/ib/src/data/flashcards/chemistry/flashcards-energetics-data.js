@@ -31,7 +31,7 @@ export const flashcard1 = [
   {
     id: 'energetics-005',
     front: 'What is Hess’s Law and how is it used to calculate enthalpy changes?',
-    back: "Hess\'s Law: the total enthalpy change for a reaction is independent of the route taken — it depends only on the initial and final states. Used by constructing alternative pathways using known enthalpy values. Two common methods: 1) Using ΔHf° values: ΔHrxn = ΣΔHf°(products) − ΣΔHf°(reactants). 2) Using ΔHc° values: ΔHrxn = ΣΔHc°(reactants) − ΣΔHc°(products).",
+    back: "Hess\'s Law: the total enthalpy change for a reaction is independent of the route taken, it depends only on the initial and final states. Used by constructing alternative pathways using known enthalpy values. Two common methods: 1) Using ΔHf° values: ΔHrxn = ΣΔHf°(products) − ΣΔHf°(reactants). 2) Using ΔHc° values: ΔHrxn = ΣΔHc°(reactants) − ΣΔHc°(products).",
     tags: ['Hess’s Law'],
     difficulty: 'easy',
   },
@@ -41,7 +41,7 @@ export const flashcard2 = [
   {
     id: 'energetics-006',
     front: 'Describe the calorimetry experiment to determine the enthalpy of combustion of a fuel.',
-    back: 'A known mass of fuel is burned to heat a known volume of water. Measure the temperature change of the water. Use q = mcΔT to calculate heat absorbed by water (c = 4.18 J g⁻¹ K⁻¹ for water). Divide by moles of fuel burned to get ΔHc. Assumptions: all heat from combustion transfers to water (significant error in practice — heat lost to surroundings), no incomplete combustion, constant density of water (1 g/mL).',
+    back: 'A known mass of fuel is burned to heat a known volume of water. Measure the temperature change of the water. Use q = mcΔT to calculate heat absorbed by water (c = 4.18 J g⁻¹ K⁻¹ for water). Divide by moles of fuel burned to get ΔHc. Assumptions: all heat from combustion transfers to water (significant error in practice, heat lost to surroundings), no incomplete combustion, constant density of water (1 g/mL).',
     tags: ['calorimetry'],
     difficulty: 'medium',
   },
@@ -80,7 +80,7 @@ export const flashcard3 = [
   {
     id: 'energetics-011',
     front: 'Why do bond enthalpy calculations differ from experimental (Hess’s Law) values?',
-    back: "Bond enthalpy calculations use mean values averaged over different molecules, whereas the actual bond strength varies depending on the molecular environment. Additionally, bond enthalpy data are for gaseous state only — state changes (e.g. solid → gas) are not accounted for. The difference is typically 5–10 kJ/mol but can be larger for reactions involving liquids or solids. Hess\'s Law gives more accurate results.",
+    back: "Bond enthalpy calculations use mean values averaged over different molecules, whereas the actual bond strength varies depending on the molecular environment. Additionally, bond enthalpy data are for gaseous state only, state changes (e.g. solid → gas) are not accounted for. The difference is typically 5–10 kJ/mol but can be larger for reactions involving liquids or solids. Hess\'s Law gives more accurate results.",
     tags: ['bond enthalpies', 'Hess’s Law', 'errors'],
     difficulty: 'medium',
   },
@@ -102,7 +102,7 @@ export const flashcard3 = [
     id: 'energetics-014',
     front:
       'Explain the first and second electron affinities and why the second electron affinity is endothermic.',
-    back: 'First electron affinity: enthalpy change when one electron is added to a gaseous atom. Usually exothermic (e.g. Cl(g) + e⁻ → Cl⁻(g), ΔH = −349 kJ/mol — attractive force between nucleus and added electron). Second electron affinity: adding an electron to a negative ion (e.g. O⁻(g) + e⁻ → O²⁻(g)). Endothermic (+798 kJ/mol) because the incoming electron is repelled by the already negative ion — energy is required to overcome this repulsion.',
+    back: 'First electron affinity: enthalpy change when one electron is added to a gaseous atom. Usually exothermic (e.g. Cl(g) + e⁻ → Cl⁻(g), ΔH = −349 kJ/mol, attractive force between nucleus and added electron). Second electron affinity: adding an electron to a negative ion (e.g. O⁻(g) + e⁻ → O²⁻(g)). Endothermic (+798 kJ/mol) because the incoming electron is repelled by the already negative ion, energy is required to overcome this repulsion.',
     tags: ['Born-Haber cycles', 'electron affinity'],
     difficulty: 'hard',
   },
@@ -142,7 +142,7 @@ export const flashcard4 = [
   {
     id: 'energetics-019',
     front: 'How does the standard Gibbs free energy relate to the equilibrium constant (K)?',
-    back: 'ΔG° = −RT ln K, where R = 8.31 J K⁻¹ mol⁻¹ and T is temperature in Kelvin. When ΔG° < 0: ln K > 0, so K > 1 (products favoured at equilibrium). When ΔG° > 0: ln K < 0, so K < 1 (reactants favoured at equilibrium). When ΔG° = 0: K = 1 (equilibrium lies halfway). This equation connects thermodynamics with equilibrium chemistry — a negative ΔG° means the reaction will proceed substantially to products.',
+    back: 'ΔG° = −RT ln K, where R = 8.31 J K⁻¹ mol⁻¹ and T is temperature in Kelvin. When ΔG° < 0: ln K > 0, so K > 1 (products favoured at equilibrium). When ΔG° > 0: ln K < 0, so K < 1 (reactants favoured at equilibrium). When ΔG° = 0: K = 1 (equilibrium lies halfway). This equation connects thermodynamics with equilibrium chemistry, a negative ΔG° means the reaction will proceed substantially to products.',
     tags: ['Gibbs free energy', 'equilibrium'],
     difficulty: 'hard',
   },

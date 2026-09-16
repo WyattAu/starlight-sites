@@ -165,7 +165,7 @@ class TypedEmitter<Events extends EventMap> \{
     this.listeners[event]!.push(listener);
   \}
 
-  emit<K extends keyof Events>(event: K, ...args: Events[K]): void \{
+  emit<K extends keyof Events>(event: K...args: Events[K]): void \{
     this.listeners[event]?.forEach((fn) => fn(...args));
   \}
 
@@ -202,11 +202,11 @@ emitter.emit("purchase", 29.99, "item-7");
 
 **Why it matters:** Generics are essential for writing reusable, type-safe libraries and data structures.
 
-**The key insight:** Generic constraints (extends) let you require that type parameters have specific properties — this provides flexibility while maintaining type safety.
+**The key insight:** Generic constraints (extends) let you require that type parameters have specific properties, this provides flexibility while maintaining type safety.
 
 ## Common Mistakes
 
-**Using generics when union types suffice:** `function f<T>(x: T): T` is often overkill. If the function doesnt need to be generic, use a union type or overload instead. Generics add complexity — use them only when you need type-parameterised behavior.
+**Using generics when union types suffice:** `function f<T>(x: T): T` is often overkill. If the function doesnt need to be generic, use a union type or overload instead. Generics add complexity, use them only when you need type-parameterised behavior.
 
 **Confusing generic constraints with inheritance:** `T extends Shape` means T must satisfy the Shape interface. It does not mean T inherits from Shape. Constraints narrow what types are acceptable.
 

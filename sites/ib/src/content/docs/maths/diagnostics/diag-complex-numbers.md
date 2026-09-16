@@ -15,7 +15,7 @@ tableOfContents: false
 }
 </script>
 
-## Complex Numbers — Diagnostic Tests
+## Complex Numbers, Diagnostic Tests
 
 
 ```mermaid
@@ -30,11 +30,11 @@ flowchart TD
 
 ## Intuition
 
-**Complex numbers are like a 2D number system — they extend the number line into a plane, where the real part is horizontal and the imaginary part is vertical:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
+**Complex numbers are like a 2D number system, they extend the number line into a plane, where the real part is horizontal and the imaginary part is vertical:** The imaginary unit i (where i² = -1) isn't imaginary at all, it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
 
 **Why it matters:** Complex numbers are essential in electrical engineering, quantum mechanics, and solving equations that real numbers alone cannot handle
 
-**The key insight:** The imaginary unit i (where i² = -1) isn't imaginary at all — it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
+**The key insight:** The imaginary unit i (where i² = -1) isn't imaginary at all, it's a mathematical tool that makes impossible operations possible and reveals hidden structure in equations
 
 ## Unit Tests
 
@@ -92,7 +92,7 @@ outside $(-\pi, \pi]$ to the principal range.
 }
 </script>
 
-### UT-2: Polar Form Conversion — Wrong Quadrant
+### UT-2: Polar Form Conversion, Wrong Quadrant
 
 **Question:**
 
@@ -114,7 +114,7 @@ concludes that $\arg(z) = \frac{\pi}{3}$.
 
 **(a)** The point $(-1, -\sqrt{3})$ lies in the **third quadrant** (both coordinates negative). The
 student used $\arctan\!\left(\frac{b}{a}\right) = \arctan\!\left(\frac{-\sqrt{3}}{-1}\right)$Which
-gives $\frac{\pi}{3}$ — a first-quadrant angle. The $\arctan$ function always returns values in
+gives $\frac{\pi}{3}$, a first-quadrant angle. The $\arctan$ function always returns values in
 $(-\frac{\pi}{2}, \frac{\pi}{2})$ So it cannot distinguish between first and third quadrants.
 
 **(b)** In the third quadrant:

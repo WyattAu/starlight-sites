@@ -2025,7 +2025,7 @@ For oxygen diffusing across the alveolar membrane:
 
 ## Intuition
 
-**Biology studies life in all its forms — from microscopic cells to entire ecosystems.**
+**Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
 
 ```mermaid

@@ -139,7 +139,7 @@ For water near $100^\circ$C, using $L = 2.26 \times 10^6$ J/kg, $\Delta v = 1.67
 
 $$P(T) \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln\left(\frac{T}{373.15}\right) \text{ Pa}$$
 
-At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln(1.00268) \approx 1.049 \times 10^5$ Pa, or about 1.036 atm — consistent with the linear approximation of 0.036 atm/K.
+At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \times 10^6 \cdot \ln(1.00268) \approx 1.049 \times 10^5$ Pa, or about 1.036 atm, consistent with the linear approximation of 0.036 atm/K.
 
 ## Key Relationships
 

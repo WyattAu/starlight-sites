@@ -1,7 +1,7 @@
 ---
 title: "About This Site"
 date: 2026-07-24
-description: "About Wyatt's Notes DSE preparation resources — experience, expertise, and credentials behind the Hong Kong DSE exam materials."
+description: "About Wyatt's Notes DSE preparation resources, experience, expertise, and credentials behind the Hong Kong DSE exam materials."
 tags:
   - about
   - dse
@@ -9,7 +9,7 @@ categories:
   - about
 ---
 
-## About Wyatt's Notes — DSE
+## About Wyatt's Notes, DSE
 
 Wyatt's Notes provides comprehensive study materials for the Hong Kong Diploma of Secondary Education (DSE) examination. The DSE is the standardised exam taken by all Hong Kong students at the end of secondary school, determining university admissions and future pathways.
 
@@ -17,7 +17,7 @@ Wyatt's Notes provides comprehensive study materials for the Hong Kong Diploma o
 
 These notes are created by **Wyatt**, an educator and content developer with deep familiarity with the Hong Kong education system and assessment frameworks. Every topic is aligned to the HKEAA (Hong Kong Examinations and Assessment Authority) curriculum specifications, ensuring direct relevance to your exams.
 
-The materials are continuously refined based on past paper analysis, examiner reports, and feedback from students across Hong Kong. Content is structured to build understanding progressively — from core concepts to advanced application — matching the cognitive demands of DSE papers at Levels 4–5**.
+The materials are continuously refined based on past paper analysis, examiner reports, and feedback from students across Hong Kong. Content is structured to build understanding progressively, from core concepts to advanced application, matching the cognitive demands of DSE papers at Levels 4–5**.
 
 ### What You'll Find
 
@@ -32,9 +32,9 @@ Wyatt holds qualifications across multiple educational frameworks and develops r
 
 ## Related Sites
 
-- **[IB](https://ib.wyattau.com)** — International Baccalaureate programme resources
-- **[GCSE](https://gcse.wyattau.com)** — UK GCSE qualification materials
-- **[AP](https://ap.wyattau.com)** — US Advanced Placement course notes
+- **[IB](https://ib.wyattau.com)**, International Baccalaureate programme resources
+- **[GCSE](https://gcse.wyattau.com)**, UK GCSE qualification materials
+- **[AP](https://ap.wyattau.com)**, US Advanced Placement course notes
 
 ## Explore the Site
 
@@ -56,17 +56,17 @@ Each topic includes detailed explanations, worked examples, and practice problem
 
 ## How to Use These Notes
 
-1. **Start with fundamentals** — begin with the core topics before moving to advanced material
-2. **Work through examples** — every concept includes worked examples with step-by-step solutions
-3. **Test yourself** — use the practice problems and diagnostic tests to identify knowledge gaps
-4. **Cross-reference** — related topics on other sites in the Wyatt's Notes network provide additional perspectives
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
 
 ## Study Resources
 
-- **Flashcards** — spaced repetition flashcards for key concepts and formulas
-- **Practice Problems** — graded problems from basic to advanced
-- **Diagnostic Tests** — identify your strengths and weaknesses
-- **Worked Examples** — step-by-step solutions to common problems
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
 
 ## Textbooks and References
 
@@ -82,10 +82,10 @@ Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, com
 
 ## Related Sites
 
-- **[Mathematics](https://mathematics.wyattau.com)** — University-level mathematics
-- **[Physics](https://physics.wyattau.com)** — University-level physics
-- **[Computer Science](https://computer-science.wyattau.com)** — Algorithms, data structures, and theory
-- **[Programming](https://programming.wyattau.com)** — Programming fundamentals and practice
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
 
 ## Contact
 
@@ -94,7 +94,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [DSE Notes](./)
-- [Complete DSE Study Guide — Everything You Need to Pass](./hub)
+- [Complete DSE Study Guide, Everything You Need to Pass](./hub)
 - [Cell Biology](./biology/1-cell-biology)
 
 

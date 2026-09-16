@@ -1006,7 +1006,7 @@ In eukaryotes, the primary transcript (pre-mRNA) undergoes three modifications:
 
 ## Common Mistakes
 
-1. **Confusing leading and lagging strand synthesis.** The leading strand is synthesised continuously in the 5' → 3' direction towards the replication fork. The lagging strand is synthesised discontinuously in the 5' → 3' direction away from the fork, in Okazaki fragments. Both strands are synthesised in the 5' → 3' direction — the difference is the direction relative to the fork.
+1. **Confusing leading and lagging strand synthesis.** The leading strand is synthesised continuously in the 5' → 3' direction towards the replication fork. The lagging strand is synthesised discontinuously in the 5' → 3' direction away from the fork, in Okazaki fragments. Both strands are synthesised in the 5' → 3' direction, the difference is the direction relative to the fork.
 
 2. **Confusing transcription and translation.** Transcription produces mRNA from a DNA template in the nucleus. Translation produces a polypeptide from mRNA on ribosomes in the cytoplasm. Students often mix up which process occurs where and what the product is.
 

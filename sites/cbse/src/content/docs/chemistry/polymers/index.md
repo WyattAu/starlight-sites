@@ -60,7 +60,7 @@ Polymers are large molecules made of repeating structural units (monomers). This
 - Elastomers: flexible polymers with weak intermolecular forces
 - Fibres: strong polymers with hydrogen bonding
 
-## Worked Example 1 — Identifying Monomers
+## Worked Example 1, Identifying Monomers
 
 **Problem:** Identify the monomer(s) for the following polymer:
 
@@ -79,7 +79,7 @@ The monomers are hexamethylenediamine and adipic acid, which react with loss of 
 
 **Common mistake:** Not recognizing that condensation polymers are formed from two different monomers. Nylon-6,6 has two monomers, while nylon-6 has only one (caprolactam).
 
-## Worked Example 2 — Polymerization Reaction
+## Worked Example 2, Polymerization Reaction
 
 **Problem:** Write the polymerization reaction for the formation of PVC (polyvinyl chloride).
 
@@ -95,7 +95,7 @@ The double bond opens and monomers add end-to-end.
 
 **Common mistake:** Drawing the polymer with double bonds still present. In addition polymerization, the double bond becomes a single bond.
 
-## Worked Example 3 — Biodegradable Polymer
+## Worked Example 3, Biodegradable Polymer
 
 **Problem:** What is PHBV? Why is it considered biodegradable?
 
@@ -125,11 +125,11 @@ Polymers are everywhere: clothing, packaging, electronics, medical devices, and 
 
 ## Intuition
 
-**Long chains built from small repeating units:** Think of polymers like a paper chain — you start with small paper clips (monomers) and link them end-to-end to make a long chain. Addition polymerization is like snapping LEGO bricks together with no waste, while condensation polymerization is like gluing beads together with a drop of water squeezed out at each joint. The properties of the final material depend on how long the chain is, how it branches, and whether chains are cross-linked.
+**Long chains built from small repeating units:** Think of polymers like a paper chain, you start with small paper clips (monomers) and link them end-to-end to make a long chain. Addition polymerization is like snapping LEGO bricks together with no waste, while condensation polymerization is like gluing beads together with a drop of water squeezed out at each joint. The properties of the final material depend on how long the chain is, how it branches, and whether chains are cross-linked.
 
-**Why it matters:** Polymers are the materials of modern life — your phone case (silicone), your clothes (nylon, polyester), your food packaging (polyethylene), and even your body (proteins, DNA) are all polymers. Understanding polymer chemistry means understanding why some plastics are flexible while others are rigid, and why some biodegrade while others persist for centuries.
+**Why it matters:** Polymers are the materials of modern life, your phone case (silicone), your clothes (nylon, polyester), your food packaging (polyethylene), and even your body (proteins, DNA) are all polymers. Understanding polymer chemistry means understanding why some plastics are flexible while others are rigid, and why some biodegrade while others persist for centuries.
 
-**The key insight:** The difference between addition and condensation polymerization isn't just mechanism — it determines whether you get a pure polymer or a polymer with functional groups that can be further modified.
+**The key insight:** The difference between addition and condensation polymerization isn't just mechanism, it determines whether you get a pure polymer or a polymer with functional groups that can be further modified.
 
 ## Common Exam Patterns
 
@@ -149,7 +149,7 @@ Polymers are everywhere: clothing, packaging, electronics, medical devices, and 
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index):** Natural polymers (proteins, cellulose, DNA) are the biological counterparts of synthetic polymers — both use condensation or addition mechanisms.
+- **[Biomolecules](../biomolecules/index):** Natural polymers (proteins, cellulose, DNA) are the biological counterparts of synthetic polymers, both use condensation or addition mechanisms.
 - **[Surface Chemistry](../surface-chemistry/index):** Polymer surfaces interact with adsorbates, and polymer colloids are important in surface chemistry applications.
-- **[Haloalkanes](../haloalkanes/index):** Vinyl chloride (a haloalkane) is the monomer for PVC — connecting organic halide chemistry to polymer synthesis.
+- **[Haloalkanes](../haloalkanes/index):** Vinyl chloride (a haloalkane) is the monomer for PVC, connecting organic halide chemistry to polymer synthesis.
 - **[D-Block Elements](../d-block/index):** Ziegler-Natta catalysts (using Ti or Zr compounds) are essential for producing stereoregular polymers like polypropylene.

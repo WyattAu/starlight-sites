@@ -88,7 +88,7 @@ Step 2: Circle diameter = 10, so radius = 5
 Step 3: Circle area = $\pi(5)^2 = 25\pi \approx 78.54$
 Step 4: Shaded area = $100 - 25\pi \approx 21.46$
 
-**Key insight:** "Inscribed" means the circle touches all four sides — its diameter equals the square's side length.
+**Key insight:** "Inscribed" means the circle touches all four sides, its diameter equals the square's side length.
 
 ---
 
@@ -125,7 +125,7 @@ Step 3: Area scales by $k^2 = 4$, so DEF area = $6 \times 4 = 24$
 
 ## Intuition
 
-Geometry is the language of shapes and space. Angles are the conversation between lines — they tell you how steep a roof is or how sharp a turn is. Area is the amount of paint you would need to cover a surface; volume is the amount of water a container can hold. The Pythagorean theorem is the relationship between the sides of a right triangle — it tells you that if you know two sides, the third is determined. Coordinate geometry connects algebra to shapes, turning visual problems into equations you can solve. Transformations — rotations, reflections, translations — are like moving furniture in a room: the furniture stays the same, but its position changes.
+Geometry is the language of shapes and space. Angles are the conversation between lines, they tell you how steep a roof is or how sharp a turn is. Area is the amount of paint you would need to cover a surface; volume is the amount of water a container can hold. The Pythagorean theorem is the relationship between the sides of a right triangle, it tells you that if you know two sides, the third is determined. Coordinate geometry connects algebra to shapes, turning visual problems into equations you can solve. Transformations, rotations, reflections, translations, are like moving furniture in a room: the furniture stays the same, but its position changes.
 
 ## Common Mistakes
 

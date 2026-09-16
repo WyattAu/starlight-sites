@@ -1,6 +1,6 @@
 ---
-title: "Haskell Glossary — Key Terms and Definitions"
-description: "Study notes for Haskell Glossary — Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
+title: "Haskell Glossary, Key Terms and Definitions"
+description: "Study notes for Haskell Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation."
 date: 2026-07-24
 tags: [glossary]
 ---
@@ -11,11 +11,11 @@ tags: [glossary]
 
 **Pure Function**: A function that always returns the same output for the same input and has no side effects.
 
-**Side Effect**: Any interaction with the outside world — I/O, mutable state, network requests. Isolated in the IO monad in Haskell.
+**Side Effect**: Any interaction with the outside world, I/O, mutable state, network requests. Isolated in the IO monad in Haskell.
 
 **Lazy Evaluation**: Expressions are not evaluated until their values are needed. Enables infinite data structures and eliminates unnecessary computation.
 
-**Strict Evaluation**: The opposite of laziness — expressions are evaluated immediately. Haskell can be made strict with `seq` or bang patterns.
+**Strict Evaluation**: The opposite of laziness, expressions are evaluated immediately. Haskell can be made strict with `seq` or bang patterns.
 
 **Expression**: Everything in Haskell is an expression that evaluates to a value. There are no statements.
 
@@ -39,7 +39,7 @@ main = do
 
 **Monomorphic Type**: A type with no type variables, fully specified: `Int`, `Bool`.
 
-**Algebraic Data Type (ADT)**: A type defined by combining other types — sum types (alternatives) and product types (combinations).
+**Algebraic Data Type (ADT)**: A type defined by combining other types, sum types (alternatives) and product types (combinations).
 
 **Sum Type**: A type with multiple constructors (OR): `data Shape = Circle Double | Rectangle Double Double`.
 
@@ -51,7 +51,7 @@ main = do
 
 ## Type Classes
 
-**Type Class**: Defines an interface for groups of types. Similar to interfaces but more powerful — supports ad-hoc polymorphism.
+**Type Class**: Defines an interface for groups of types. Similar to interfaces but more powerful, supports ad-hoc polymorphism.
 
 **Instance**: A type is an instance of a type class if it implements the class's methods.
 
@@ -127,7 +127,7 @@ main = do
 
 **Bind (>>=)**: Chains monadic computations, threading the context through.
 
-**IO Monad**: Describes side effects as values. Actions are descriptions, not executions — the runtime executes them.
+**IO Monad**: Describes side effects as values. Actions are descriptions, not executions, the runtime executes them.
 
 **Maybe Monad**: Represents computations that might fail: `Just value` or `Nothing`.
 

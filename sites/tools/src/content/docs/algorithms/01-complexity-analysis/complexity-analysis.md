@@ -17,14 +17,14 @@ description: "A system that handles 1,000 requests per second at USD 10,000 per 
 
 :::note
 <strong>Historical Context</strong>
-Complexity analysis as a formal discipline emerged from two threads. Alan Turing's 1936 paper on computability established the theoretical foundation — the Turing machine as a model of computation. In the 1960s, Robert Tarjan and John Hopcroft developed formal complexity classes (P, NP, PSPACE). Donald Knuth's *The Art of Computer Programming* (1968) pioneered the systematic analysis of algorithm efficiency, introducing Big-O notation into mainstream CS. The Cook-Levin theorem (1971) established NP-completeness, connecting complexity theory to the most important open problem in mathematics: P vs NP. Today, complexity analysis is essential for every software engineer — it determines whether a system can handle 10,000 or 10,000,000 requests, and whether a database query takes 10 milliseconds or 10 minutes.
+Complexity analysis as a formal discipline emerged from two threads. Alan Turing's 1936 paper on computability established the theoretical foundation, the Turing machine as a model of computation. In the 1960s, Robert Tarjan and John Hopcroft developed formal complexity classes (P, NP, PSPACE). Donald Knuth's *The Art of Computer Programming* (1968) pioneered the systematic analysis of algorithm efficiency, introducing Big-O notation into mainstream CS. The Cook-Levin theorem (1971) established NP-completeness, connecting complexity theory to the most important open problem in mathematics: P vs NP. Today, complexity analysis is essential for every software engineer, it determines whether a system can handle 10,000 or 10,000,000 requests, and whether a database query takes 10 milliseconds or 10 minutes.
 :::
 ## Why Complexity Analysis Matters
 
 A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is
 Fundamentally different from one that handles 10 requests per second at the same cost. The
 Difference is almost always algorithmic: the data structure, the traversal strategy, the caching
-Policy. Before you optimise constants, before you add hardware, before you profile — understand the
+Policy. Before you optimise constants, before you add hardware, before you profile, understand the
 Asymptotic behaviour of your algorithm.
 
 Complexity analysis gives you a language for reasoning about how an algorithm scales. It abstracts
@@ -67,7 +67,7 @@ Clever your implementation, the algorithm will take at least $c \cdot n \log n$ 
 ### Big-Theta: Tight Bound
 
 $\Theta(g(n))$ is the intersection: $f(n) \in \Theta(g(n))$ if and only if $f(n) \in O(g(n))$ and
-$f(n) \in \Omega(g(n))$. This is the **tight bound** — the function grows at exactly the same rate
+$f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exactly the same rate
 As $g(n)$Up to constant factors.
 
 $$0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0$$
@@ -83,7 +83,7 @@ $f(n) = o(g(n))$ means $f(n)$ grows strictly slower than $g(n)$:
 $$\lim_{n \to \infty} \frac{f(n)}{g(n)} = 0$$
 
 Similarly, $f(n) = \omega(g(n))$ means $f(n)$ grows strictly faster. These are strict versions of
-Big-O and Big-Omega respectively — they exclude the equality case.
+Big-O and Big-Omega respectively, they exclude the equality case.
 
 | Notation       | Meaning                                      | Intuition          |
 | -------------- | -------------------------------------------- | ------------------ |
@@ -97,14 +97,14 @@ Big-O and Big-Omega respectively — they exclude the equality case.
 
 ```mermaid
 graph TD
-    O1["O(1) — Constant"]
-    Ologn["O(log n) — Logarithmic"]
-    On["O(n) — Linear"]
-    Onlogn["O(n log n) — Linearithmic"]
-    On2["O(n²) — Quadratic"]
-    On3["O(n³) — Cubic"]
-    O2n["O(2^n) — Exponential"]
-    Onf["O(n!) — Factorial"]
+    O1["O(1), Constant"]
+    Ologn["O(log n), Logarithmic"]
+    On["O(n), Linear"]
+    Onlogn["O(n log n), Linearithmic"]
+    On2["O(n²), Quadratic"]
+    On3["O(n³), Cubic"]
+    O2n["O(2^n), Exponential"]
+    Onf["O(n!), Factorial"]
 
     O1 --> Ologn
     Ologn --> On
@@ -209,7 +209,7 @@ The work is the same at each level of the recursion tree.
 
 - $a = 2$, $b = 2$ So $c_{crit} = \log_2 2 = 1$
 - $f(n) = O(n) = \Theta(n^1 \log^0 n)$ So $k = 0$
-- $T(n) = \Theta(n \log n)$ — this is merge sort
+- $T(n) = \Theta(n \log n)$, this is merge sort
 
 ### Case 3: Work Dominated by Root
 
@@ -225,7 +225,7 @@ The combine step dominates the recursive work.
 
 - $a = 2$, $b = 2$ So $c_{crit} = 1$
 - $f(n) = O(n^2) = \Omega(n^{1+1})$ So $\epsilon = 1$
-- Regularity: $2 \cdot (n/2)^2 = n^2/2 \le 0.5 \cdot n^2$ — satisfied
+- Regularity: $2 \cdot (n/2)^2 = n^2/2 \le 0.5 \cdot n^2$, satisfied
 - $T(n) = \Theta(n^2)$
 
 ```python
@@ -399,7 +399,7 @@ Any comparison-based sorting algorithm requires $\Omega(n \log n)$ comparisons i
 - A binary tree of height $h$ has at most $2^h$ leaves
 - Therefore: $2^h \ge n!$ So $h \ge \log_2(n!) = \Omega(n \log n)$ (by Stirling's approximation)
 
-This is why non-comparison sorts (counting sort, radix sort) can beat $O(n \log n)$ — they do not
+This is why non-comparison sorts (counting sort, radix sort) can beat $O(n \log n)$, they do not
 Compare elements pairwise, so the decision tree argument does not apply.
 
 ### Element Uniqueness Lower Bound
@@ -518,7 +518,7 @@ Conditional moves (`cmov` instructions) and branchless implementations can elimi
 Penalties for small inner loops:
 
 ```python
-# Branchless max (conceptual — actual implementation uses cmov)
+# Branchless max (conceptual, actual implementation uses cmov)
 def branchless_max(a, b):
     # mask = (a - b) >> 31  (sign bit: 1 if a < b, 0 otherwise)
     # result = a ^ ((a ^ b) & mask)
@@ -536,7 +536,7 @@ to justify it as a tight bound.
 ### 2. Ignoring the Input Distribution
 
 Worst-case analysis is essential for guarantees, but average-case analysis matters for real
-Performance. Quicksort is $O(n^2)$ worst case but $O(n \log n)$ average case with a small constant —
+Performance. Quicksort is $O(n^2)$ worst case but $O(n \log n)$ average case with a small constant,
 This is why it is the default sort in most standard libraries (with introsort fallback).
 
 ### 3. Forgetting About Space
@@ -666,7 +666,7 @@ Vitter, 1988) counts:
 The gap between internal and external memory complexity is why B-trees exist: a binary tree search
 Does $O(\log_2 N)$ I/Os (one per level), while a B-tree search does $O(\log_B N)$ I/Os. For
 $N =
-10^9$ and $B = 100$, binary tree needs ~30 I/Os while B-tree needs ~5 I/Os — a 6x improvement.
+10^9$ and $B = 100$, binary tree needs ~30 I/Os while B-tree needs ~5 I/Os, a 6x improvement.
 
 ### Amortised Analysis: Splay Trees
 
@@ -683,8 +683,8 @@ Non-negative and is $O(n \log n)$ for an $n$-node tree.
 
 **Key properties:**
 
-- No balance information stored — simpler implementation
-- Access pattern adapts to workload — frequently accessed nodes move near the root
+- No balance information stored, simpler implementation
+- Access pattern adapts to workload, frequently accessed nodes move near the root
 - Static optimality theorem: splay trees perform within a constant factor of the optimal static tree
   for any access sequence
 - Working set theorem: if an item is accessed $t$ times and there are $l$ distinct items accessed
@@ -751,12 +751,12 @@ Does $cn$ work. Total: $O(n \log n)$.
 
 Some algorithms reduce the problem size by a constant rather than a factor.
 
-**Example:** Binary search — $T(n) = T(n/2) + O(1)$
+**Example:** Binary search, $T(n) = T(n/2) + O(1)$
 
 This is a degenerate case of the Master Theorem with $a = 1$, $b = 2$: $c_{crit} = \log_2 1 = 0$
 $f(n) = O(1) = O(n^0)$ So Case 2 gives $T(n) = O(\log n)$.
 
-**Example:** Euclidean GCD — $T(a, b) = T(b, a \bmod b) + O(1)$
+**Example:** Euclidean GCD, $T(a, b) = T(b, a \bmod b) + O(1)$
 
 The Euclidean GCD terminates in $O(\log \min(a, b))$ steps. This follows from Lamé's theorem: the
 Number of steps is at most 5 times the number of digits in the smaller number.

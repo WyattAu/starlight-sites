@@ -24,15 +24,15 @@ description: "is the most used class in the Java platform. It is Implements And 
 
 ### Immutability
 
-Once constructed, a `String` object cannot be modified. Every "mutating" operation — `substring`
-`concat``replace``toUpperCase``trim` — returns a **new** `String` object. The original remains
+Once constructed, a `String` object cannot be modified. Every "mutating" operation, `substring`
+`concat``replace``toUpperCase``trim`returns a **new** `String` object. The original remains
 Unchanged. This is not a suggestion; the `String` class has no public mutating methods, and the
 Backing `byte[]` (the `value` field) is private.
 
 ```java
 String original = "hello";
 String upper = original.toUpperCase();
-System.out.println(original); // "hello" — unchanged
+System.out.println(original); // "hello", unchanged
 System.out.println(upper);    // "HELLO"
 System.out.println(original == upper); // false
 ```
@@ -41,7 +41,7 @@ Immutability is enforced by design:
 
 - All fields are `private final`.
 - No method on `String` modifies internal state.
-- The class is `final` — you cannot subclass it to introduce mutability.
+- The class is `final`you cannot subclass it to introduce mutability.
 
 **Why immutable?** Thread safety without synchronization, safe sharing across threads, secure use as
 `HashMap` keys and `HashSet` elements (hash code is cached at construction and never changes), and
@@ -56,11 +56,11 @@ Variables assigned the same literal may be the **same object** at runtime:
 ```java
 String a = "hello";
 String b = "hello";
-System.out.println(a == b); // true — same object from the pool
+System.out.println(a == b); // true, same object from the pool
 
 String c = new String("hello");
-System.out.println(a == c); // false — new object on the heap
-System.out.println(a.equals(c)); // true — same content
+System.out.println(a == c); // false, new object on the heap
+System.out.println(a.equals(c)); // true, same content
 ```
 
 The `new String(...)` constructor always creates a new object on the heap, bypassing the pool. This
@@ -85,16 +85,16 @@ Intern only strings that appear frequently and have bounded cardinality.
 :::
 ### Compact Strings (JDK 9+)
 
-Before JDK 9, every `String` stored its characters in a `char[]` — 2 bytes per character. JDK 9
+Before JDK 9, every `String` stored its characters in a `char[]`2 bytes per character. JDK 9
 Introduced **compact strings** (`-XX:+CompactStrings`Enabled by default since JDK 9). If all
 Characters fit in the LATIN1 range (code points 0-255), the string uses a `byte[]` with 1 byte per
 Character. If any character exceeds LATIN1, it switches to UTF-16 encoding (2 bytes per character).
 This reduces memory usage by roughly 50% for most real-world strings.
 
 ```java
-// LATIN1 encoding — 1 byte per char
+// LATIN1 encoding, 1 byte per char
 String latin1 = "Hello, World!";
-// UTF-16 encoding — 2 bytes per char (contains 世, U+4E16, outside LATIN1 range)
+// UTF-16 encoding, 2 bytes per char (contains 世, U+4E16, outside LATIN1 range)
 String utf16 = "世界";
 ```
 
@@ -114,27 +114,27 @@ Encoding is used; it is determined automatically at construction time.
 
 ### When to Use Each
 
-**`String`** — Use for values that do not change. Literals, constants, method return values for
+**`String`**, Use for values that do not change. Literals, constants, method return values for
 Immutable data, keys in maps, and any case where immutability is desired. The JVM"s escape analysis
 And JIT can sometimes optimize string concatenation into `StringBuilder` automatically.
 
-**`StringBuilder`** — Use for building strings in a single thread. This covers the vast majority of
+**`StringBuilder`**, Use for building strings in a single thread. This covers the vast majority of
 Use cases: constructing SQL queries, building JSON, accumulating log messages, reading file
 Contents.
 
-**`StringBuffer`** — Use only when multiple threads need to append to the same buffer concurrently.
+**`StringBuffer`**, Use only when multiple threads need to append to the same buffer concurrently.
 This is rare. In practice, you almost always want `StringBuilder` and handle thread safety at a
 Higher level.
 
 ```java
-// BAD — creates many intermediate String objects
+// BAD, creates many intermediate String objects
 String result = "";
 for (int i = 0; i < 1000; i++) {
     result += "item" + i + ",";
 }
 // Each += creates a new StringBuilder, appends, and creates a new String
 
-// GOOD — single StringBuilder
+// GOOD, single StringBuilder
 StringBuilder sb = new StringBuilder(10000); // pre-size if you know the approximate length
 for (int i = 0; i < 1000; i++) {
     sb.append("item").append(i).append(',');
@@ -149,10 +149,10 @@ Operations at compile time (JLS §15.18.1). However, this optimization only appl
 Expression**:
 
 ```java
-// Single expression — compiler optimizes to one StringBuilder
+// Single expression, compiler optimizes to one StringBuilder
 String s = a + b + c + d;
 
-// Loop — each iteration creates a new StringBuilder (pre-JDK 9)
+// Loop, each iteration creates a new StringBuilder (pre-JDK 9)
 // JDK 9+ uses invokedynamic with StringConcatFactory for better performance
 String s = "";
 for (String part : parts) {
@@ -259,8 +259,8 @@ String[] parts = COMMA.split(csv);
 
 ```java
 String s = "  Hello, World!  ";
-s.trim();     // "Hello, World!" — removes ASCII whitespace (<= U+0020)
-s.strip();    // "Hello, World!" — removes Unicode whitespace (JDK 11+)
+s.trim();     // "Hello, World!", removes ASCII whitespace (<= U+0020)
+s.strip();    // "Hello, World!", removes Unicode whitespace (JDK 11+)
 s.stripLeading();  // "Hello, World!  "
 s.stripTrailing(); // "  Hello, World!"
 s.stripIndent();   // removes incidental indentation (JDK 15+)
@@ -310,7 +310,7 @@ char[] chars = Character.toChars(0x1F600); // 😀 (surrogate pair)
 ### Code Points vs `char`
 
 Java's `char` is a UTF-16 code unit (16 bits). Characters outside the Basic Multilingual Plane (BMP)
-— emoji, rare CJK characters, mathematical symbols — require **surrogate pairs** (two `char`
+- emoji, rare CJK characters, mathematical symbols, require **surrogate pairs** (two `char`
 Values). Working with `char` directly on such strings will produce incorrect results. Use code point
 APIs instead:
 
@@ -405,13 +405,13 @@ if (m.matches()) {
 Compiling a `Pattern` is expensive. Always compile once and reuse:
 
 ```java
-// BAD — compiles on every call
+// BAD, compiles on every call
 public boolean isValidEmail(String input) {
     return input.matches("[\\w.+-]+@[\\w-]+\\.[\\w.]+");
     // String.matches() compiles and discards the pattern every time
 }
 
-// GOOD — compile once
+// GOOD, compile once
 private static final Pattern EMAIL_PATTERN =
     Pattern.compile("[\\w.+-]+@[\\w-]+\\.[\\w.]+");
 
@@ -455,14 +455,14 @@ SortedMap&lt;String, Charset&gt; available = Charset.availableCharsets();
 
 ```java
 // PITFALL: using platform default charset
-byte[] bytes = "Hello".getBytes(); // uses platform default — non-portable
+byte[] bytes = "Hello".getBytes(); // uses platform default, non-portable
 String s = new String(bytes);      // same problem
 
 // PITFALL: silent replacement of unencodable characters
 CharsetEncoder encoder = StandardCharsets.ISO_8859_1.newEncoder()
     .onMalformedInput(CodingErrorAction.REPLACE)
     .onUnmappableCharacter(CodingErrorAction.REPLACE);
-// "€" becomes "?" in ISO-8859-1 — data loss with no error
+// "€" becomes "?" in ISO-8859-1, data loss with no error
 
 // SAFE: fail on encoding errors
 CharsetEncoder strict = StandardCharsets.UTF_8.newEncoder()
@@ -482,7 +482,7 @@ Default) if you use `getBytes()` or `new String(byte[])` without an explicit cha
 `String.format` uses `Formatter` internally and supports format specifiers similar to `printf` in C:
 
 ```java
-String s = String.format("Name: %s, Age: %d, Balance: $%,.2f", "Alice", 30, 12345.678);
+String s = String.format("Name: %s, Age: %d, Balance: $%.2f", "Alice", 30, 12345.678);
 // "Name: Alice, Age: 30, Balance: $12,345.68"
 ```
 
@@ -516,7 +516,7 @@ String result = MessageFormat.format(pattern, new Date(), "Alice", 3);
 ### `formatted` Method (JDK 15+)
 
 ```java
-// Instance method on String — cleaner syntax
+// Instance method on String, cleaner syntax
 String template = "Hello, %s! You have %d new messages.";
 String result = template.formatted("Alice", 5);
 ```
@@ -528,13 +528,13 @@ But should not be used in new code. It does not support regex, cannot handle emp
 No way to limit splits.
 
 ```java
-// LEGACY — do not use
+// LEGACY, do not use
 StringTokenizer st = new StringTokenizer("one,two,three", ",");
 while (st.hasMoreTokens()) {
     System.out.println(st.nextToken());
 }
 
-// MODERN — use split or Pattern
+// MODERN, use split or Pattern
 String[] parts = "one,two,three".split(",");
 ```
 
@@ -698,18 +698,18 @@ String stripped2 = stripDiacritics("Ñoño"); // "Nono"
 
 ## Intuition
 
-**Text as data:** Strings are like sequences of characters — Java treats them as objects with useful methods for searching, splitting, and transforming text.
+**Text as data:** Strings are like sequences of characters, Java treats them as objects with useful methods for searching, splitting, and transforming text.
 
 **Why it matters:** Text processing is fundamental to almost every program. Understanding String operations helps you manipulate data effectively.
 
-**The key insight:** Strings are immutable in Java — every operation creates a new String, which is why StringBuilder is better for concatenation in loops.
+**The key insight:** Strings are immutable in Java, every operation creates a new String, which is why StringBuilder is better for concatenation in loops.
 
 ## Common Pitfalls
 
 ### Comparing Strings with `==`
 
 ```java
-// BUG — compares references, not content
+// BUG, compares references, not content
 if (userInput == "admin") { ... }
 
 // CORRECT
@@ -720,13 +720,13 @@ if ("admin".equals(userInput)) { ... }
 ### Concatenation in Loops
 
 ```java
-// BAD — O(n^2) due to array copies
+// BAD, O(n^2) due to array copies
 String result = "";
 for (String word : words) {
     result += word;
 }
 
-// GOOD — O(n)
+// GOOD, O(n)
 StringBuilder sb = new StringBuilder(totalLength);
 for (String word : words) {
     sb.append(word);
@@ -737,7 +737,7 @@ String result = sb.toString();
 ### Forgetting to Handle `null`
 
 ```java
-// BUG — throws NullPointerException if input is null
+// BUG, throws NullPointerException if input is null
 input.trim();
 
 // SAFE
@@ -761,7 +761,7 @@ The characters into a new array.
 ### Regex Backtracking Catastrophe
 
 ```java
-// DANGEROUS — catastrophic backtracking on input like "aaaaaaaaaaaaaaaaaaaaaaaaX"
+// DANGEROUS, catastrophic backtracking on input like "aaaaaaaaaaaaaaaaaaaaaaaaX"
 Pattern p = Pattern.compile("(a+)+b");
 p.matcher("aaaaaaaaaaaaaaaaaaaaaaaaX").find(); // takes exponential time
 
@@ -772,11 +772,11 @@ p.matcher("aaaaaaaaaaaaaaaaaaaaaaaaX").find(); // takes exponential time
 ### Platform-Default Charset
 
 ```java
-// BUG — behavior varies across platforms
+// BUG, behavior varies across platforms
 byte[] bytes = str.getBytes();
 String decoded = new String(bytes);
 
-// FIX — always specify charset
+// FIX, always specify charset
 byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
 String decoded = new String(bytes, StandardCharsets.UTF_8);
 ```
@@ -784,7 +784,7 @@ String decoded = new String(bytes, StandardCharsets.UTF_8);
 ### Using `new String(String)` Constructor
 
 ```java
-// POINTLESS — creates a new object that is equal to the original but is not pooled
+// POINTLESS, creates a new object that is equal to the original but is not pooled
 String s = new String("hello");
 
 // This is almost always wrong. Just use the literal:
@@ -794,10 +794,10 @@ String s = "hello";
 ### Ignoring Locale in `toUpperCase`/`toLowerCase`
 
 ```java
-// BUG — Turkish locale has special casing rules
+// BUG, Turkish locale has special casing rules
 String upper = "title".toUpperCase(); // "TITLE" in most locales, "TİTLE" in Turkish
 
-// SAFE — specify locale
+// SAFE, specify locale
 String upper = "title".toUpperCase(Locale.ROOT);
 ```
 
@@ -819,19 +819,19 @@ Pattern.compile("\\d+").matcher(input).find(); // true
 
 `String` caches its hash code on first computation (stored in the `hash` field, initialized to 0).
 Subsequent calls to `hashCode()` return the cached value. This makes `String` efficient as a
-`HashMap` key — the hash is computed once and reused for every lookup.
+`HashMap` key, the hash is computed once and reused for every lookup.
 
 ```java
 String s = "hello world";
 int h1 = s.hashCode(); // computed
-int h2 = s.hashCode(); // returned from cache — no recomputation
+int h2 = s.hashCode(); // returned from cache, no recomputation
 System.out.println(h1 == h2); // true
 ```
 
 ### String Layout in Memory (JDK 9+ Compact Strings)
 
 Before JDK 9, `String` stored characters in a `char[]` (2 bytes per character). JDK 9 introduced
-Compact strings — the backing storage is now `byte[]` with a `coder` flag:
+Compact strings, the backing storage is now `byte[]` with a `coder` flag:
 
 ```
 String object layout:
@@ -850,12 +850,12 @@ Since JDK 7u6, `substring` copies the relevant character range into a new `byte[
 Substring shared the backing array with the original string, which could cause memory leaks:
 
 ```java
-// JDK 7u6+ — safe, copies data
+// JDK 7u6+, safe, copies data
 String large = "a".repeat(1_000_000) + "important";
 String small = large.substring(1_000_000);
-// small has its own byte[] of length 9 — large can be GC'd
+// small has its own byte[] of length 9, large can be GC'd
 
-// Pre-JDK 7u6 — dangerous, shared backing array
+// Pre-JDK 7u6, dangerous, shared backing array
 // small held a reference to large's entire char[] (1,000,009 chars)
 // large could NOT be GC'd because small kept its char[] alive
 ```
@@ -863,7 +863,7 @@ String small = large.substring(1_000_000);
 ### `String.valueOf` vs `toString`
 
 ```java
-// String.valueOf handles null — returns "null"
+// String.valueOf handles null, returns "null"
 String s1 = String.valueOf(null); // "null"
 String s2 = String.valueOf(optionalObject); // "null" if optionalObject is null
 
@@ -899,7 +899,7 @@ System.out.println(header);
 ### `String.stripIndent` and `String.indent` (JDK 12+)
 
 ```java
-// stripIndent — removes common leading whitespace
+// stripIndent, removes common leading whitespace
 String raw = """
         line 1
             line 2
@@ -908,7 +908,7 @@ String raw = """
 String stripped = raw.stripIndent();
 // "line 1\n    line 2\nline 3\n"
 
-// indent — adds leading whitespace
+// indent, adds leading whitespace
 String indented = "line 1\nline 2".indent(4);
 // "    line 1\n    line 2\n"
 ```
@@ -948,7 +948,7 @@ List<String> lines = text.lines().collect(Collectors.toList());
 
 // Contrast with isEmpty
 "".isEmpty();       // true
-"   ".isEmpty();    // false — contains whitespace characters
+"   ".isEmpty();    // false, contains whitespace characters
 ```
 
 

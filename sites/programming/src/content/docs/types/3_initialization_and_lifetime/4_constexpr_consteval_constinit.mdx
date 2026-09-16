@@ -336,7 +336,7 @@ std::string s3 = to_string(std::string("hello"));  // uses string branch
 template<typename... Args>
 void print_all(const Args&... args) \{
     if constexpr (sizeof...(args) > 0) \{
-        ((std::cout << args << " "), ...);
+        ((std::cout << args << " ")...);
     \}
 \}
 ```

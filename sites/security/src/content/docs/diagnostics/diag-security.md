@@ -245,7 +245,7 @@ flowchart TD
 
 **Why it matters:** Security vulnerabilities can be exploited to steal data, disrupt services, and cause financial damage.
 
-**The key insight:** The most dangerous vulnerabilities are often the simplest — weak passwords, unpatched software, and misconfigured services cause more breaches than sophisticated attacks.
+**The key insight:** The most dangerous vulnerabilities are often the simplest, weak passwords, unpatched software, and misconfigured services cause more breaches than sophisticated attacks.
 
 ## Common Mistakes
 

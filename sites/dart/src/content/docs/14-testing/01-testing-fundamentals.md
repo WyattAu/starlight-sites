@@ -23,7 +23,7 @@ categories:
 
 Testing is not a phase that comes after development. It is a structural property of the codebase
 That determines whether you can safely change it. The absence of tests does not mean you are moving
-Faster — it means every change is a gamble with unknown odds.
+Faster, it means every change is a gamble with unknown odds.
 
 ### Regression Prevention
 
@@ -34,7 +34,7 @@ Tests act as a contract that the system must continue to satisfy after every cha
 
 ### Documentation
 
-A test describes the expected behavior of a unit in a form that cannot go out of date — if the test
+A test describes the expected behavior of a unit in a form that cannot go out of date, if the test
 Passes, the behavior matches the description; if it fails, either the behavior changed or the test
 Needs updating. This is more reliable than comments, which have no mechanism to signal staleness.
 
@@ -49,7 +49,7 @@ These design problems while they are still cheap to fix.
 
 Refactoring is the process of changing the internal structure of code without changing its external
 Behavior. Without tests, you have no way to verify that behavior is preserved. With tests, you can
-Restructure, rename, split, and merge with confidence — the tests tell you immediately if you broke
+Restructure, rename, split, and merge with confidence, the tests tell you immediately if you broke
 Something.
 
 ### Types of Testing
@@ -63,10 +63,10 @@ Something.
 
 Unit tests are the foundation. They are fast, deterministic, and cheap to maintain. Widget tests add
 Coverage for the UI layer. Integration tests validate that units compose correctly. End-to-end tests
-Are the most expensive and should be used sparingly — they catch issues that lower-level tests miss,
+Are the most expensive and should be used sparingly, they catch issues that lower-level tests miss,
 But they are slow, flaky, and hard to debug.
 
-The testing pyramid is not a suggestion — it is a cost optimization. A project with 1000 unit tests,
+The testing pyramid is not a suggestion, it is a cost optimization. A project with 1000 unit tests,
 100 widget tests, and 10 integration tests will outperform a project with 10 unit tests and 100
 Integration tests in both defect detection and developer velocity.
 
@@ -80,7 +80,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-For Flutter projects, the `flutter_test` package is the equivalent — it re-exports `test` and adds
+For Flutter projects, the `flutter_test` package is the equivalent, it re-exports `test` and adds
 Flutter-specific bindings:
 
 ```yaml
@@ -107,7 +107,7 @@ test/
       token_store_test.dart
 ```
 
-Each file under test is suffixed with `_test.dart`. The test runner discovers tests by convention —
+Each file under test is suffixed with `_test.dart`. The test runner discovers tests by convention,
 No registration is required.
 
 ### The Core API
@@ -183,7 +183,7 @@ group('Database Integration', () {
 
 `setUpAll` is for resources that are expensive to create (database connections, HTTP servers, test
 Fixtures). `setUp` is for resetting state between tests. Never share mutable state across tests
-Without resetting it — tests must be independent and order-invariant.
+Without resetting it, tests must be independent and order-invariant.
 
 ### expect and the Matcher System
 
@@ -198,7 +198,7 @@ expect(actual, equals(expected));
 //   Actual: <actual value>
 ```
 
-The matcher system is composable — you can negate, combine, and nest matchers:
+The matcher system is composable, you can negate, combine, and nest matchers:
 
 ```dart
 expect(list, isNot(isEmpty));
@@ -213,7 +213,7 @@ expect(value, allOf(isA<int>(), greaterThan(0), lessThan(100)));
 expect(42, equals(42));
 expect(a, isNot(equals(b)));
 
-// Identity — checks if two references point to the same object
+// Identity, checks if two references point to the same object
 final obj = Object();
 expect(obj, same(obj));       // Passes
 expect(obj, same(Object()));  // Fails
@@ -247,7 +247,7 @@ expect(value, isA<User>().having((u) => u.name, 'name', 'Alice'));
 ```
 
 `isA<T>()` checks `value is T` at runtime. The `.having()` combinator lets you assert properties of
-The matched object — the second argument is a description used in failure messages.
+The matched object, the second argument is a description used in failure messages.
 
 ### Numeric Comparisons
 
@@ -259,7 +259,7 @@ expect(5, lessThanOrEqualTo(5));
 expect(3.14, closeTo(3.0, 0.2));  // |actual - expected| <= delta
 ```
 
-`closeTo` is essential for floating-point comparisons. Never use `equals` for doubles — rounding
+`closeTo` is essential for floating-point comparisons. Never use `equals` for doubles, rounding
 Errors will cause flaky tests.
 
 ### Collections
@@ -382,7 +382,7 @@ expect('hello', HasLength(greaterThan(0)));
 
 ### Testing Pure Functions
 
-Pure functions are the easiest to test — no dependencies, no side effects, no setup. Input goes in,
+Pure functions are the easiest to test, no dependencies, no side effects, no setup. Input goes in,
 Output comes out:
 
 ```dart
@@ -535,7 +535,7 @@ When a test is doing too much in one phase.
 ### Test Organization
 
 Mirror the source structure. If `lib/src/orders/order_service.dart` contains `OrderService`The Test
-lives at `test/src/orders/order_service_test.dart`. This is not just convention — it makes
+lives at `test/src/orders/order_service_test.dart`. This is not just convention, it makes
 Navigation trivial when the directory tree is the same in both `lib/` and `test/`.
 
 Within a test file, use `group()` to organize by method, then by scenario:
@@ -775,7 +775,7 @@ test('fetches data from API', () async {
 ```
 
 If the Future completes with an error and no `try/catch` wraps it, the test fails with the error
-Message and stack trace. This is correct behavior — the test framework catches the error for you:
+Message and stack trace. This is correct behavior, the test framework catches the error for you:
 
 ```dart
 test('propagates API errors', () async {
@@ -836,7 +836,7 @@ expectLater(stream, emitsError(anything));
 // Never emits (stream completes empty)
 expectLater(stream, neverEmits(anything));
 
-// Combining — emits 1, then 2, then any error, then done
+// Combining, emits 1, then 2, then any error, then done
 expectLater(
   stream,
   emitsInOrder([1, 2, emitsError(anything), emitsDone]),
@@ -869,10 +869,10 @@ test('debounce fires after 500ms of inactivity', () {
     debounced(2);
     debounced(3);
 
-    // No calls yet — debounce period has not elapsed
+    // No calls yet, debounce period has not elapsed
     expect(callLog, isEmpty);
 
-    // Advance time by 499ms — still within debounce window
+    // Advance time by 499ms, still within debounce window
     fakeAsync.elapse(const Duration(milliseconds: 499));
     expect(callLog, isEmpty);
 
@@ -1033,7 +1033,7 @@ dart test --coverage=coverage
 flutter test --coverage
 ```
 
-This produces `coverage/lcov.info` — a machine-readable file listing every line in your source code
+This produces `coverage/lcov.info`a machine-readable file listing every line in your source code
 And whether it was executed during the test run.
 
 ### Viewing Coverage with genhtml
@@ -1102,7 +1102,7 @@ test('divide does not crash', () {
 });
 ```
 
-Branch coverage is more informative than line coverage — it measures whether each conditional branch
+Branch coverage is more informative than line coverage, it measures whether each conditional branch
 Was taken. Some tools support this, but the Dart ecosystem's support is limited. Focus on line
 Coverage as a floor and supplement with manual review of assertion quality.
 
@@ -1125,8 +1125,8 @@ Platform.
 
 ### dart test vs flutter test
 
-- `dart test` — runs pure Dart tests (no Flutter SDK). Use for packages, servers, CLI tools.
-- `flutter test` — runs Flutter-aware tests (includes widget testing, golden tests). Use for Flutter
+- `dart test`runs pure Dart tests (no Flutter SDK). Use for packages, servers, CLI tools.
+- `flutter test`runs Flutter-aware tests (includes widget testing, golden tests). Use for Flutter
   apps and packages that depend on Flutter.
 
 ### Filtering Tests
@@ -1174,7 +1174,7 @@ flutter test -j 2
 flutter test -j 1
 ```
 
-Tests must be independent — they must not share mutable state, depend on execution order, or compete
+Tests must be independent, they must not share mutable state, depend on execution order, or compete
 For external resources (ports, files). If tests fail under parallelism but pass sequentially, you
 Have a test isolation bug.
 
@@ -1242,13 +1242,13 @@ timeout: 60s
 ### 1. Testing Implementation Instead of Behavior
 
 ```dart
-// WRONG — couples test to internal implementation
+// WRONG, couples test to internal implementation
 test('adds item to _items list', () {
   cart.addItem(item);
   expect(cart._items, contains(item)); // Accessing private field
 });
 
-// CORRECT — tests the observable behavior
+// CORRECT, tests the observable behavior
 test('total increases when item is added', () {
   cart.addItem(Item(price: 10.0));
   expect(cart.total, equals(10.0));
@@ -1261,7 +1261,7 @@ Survive refactoring.
 ### 2. Tests That Depend on Execution Order
 
 ```dart
-// WRONG — test B depends on test A having run
+// WRONG, test B depends on test A having run
 test('A: creates user', () async {
   await service.createUser('alice');
 });
@@ -1271,7 +1271,7 @@ test('B: fetches user created by A', () async {
   expect(user, isNotNull); // Fails if run alone or in different order
 });
 
-// CORRECT — each test sets up its own state
+// CORRECT, each test sets up its own state
 test('fetches existing user', () async {
   await service.createUser('alice');
   final user = await service.fetchUser('alice');
@@ -1282,7 +1282,7 @@ test('fetches existing user', () async {
 ### 3. Over-Mocking
 
 ```dart
-// WRONG — the mock is so complex it duplicates the real implementation
+// WRONG, the mock is so complex it duplicates the real implementation
 when(repo.findById(any)).thenAnswer((invocation) {
   final id = invocation.positionalArguments[0] as String;
   if (id == '123') return Future.value(User(id: "123'', name: "Alice'));
@@ -1290,7 +1290,7 @@ when(repo.findById(any)).thenAnswer((invocation) {
   return Future.value(null);
 });
 
-// CORRECT — use a simple in-memory fake or limit the stub to what the test needs
+// CORRECT, use a simple in-memory fake or limit the stub to what the test needs
 when(repo.findById('123'))
     .thenAnswer((_) async => User(id: "123'', name: "Alice'));
 ```
@@ -1300,12 +1300,12 @@ If your mock setup is longer than the test body, you are testing the mock, not t
 ### 4. Ignoring Async Errors
 
 ```dart
-// WRONG — the async error in the Future is silently lost
+// WRONG, the async error in the Future is silently lost
 test('handles error', () async {
-  service.doWork(); // Returns Future — not awaited, no error handling
+  service.doWork(); // Returns Future, not awaited, no error handling
 });
 
-// CORRECT — await or use expectLater
+// CORRECT, await or use expectLater
 test('handles error', () async {
   await expectLater(
     service.doWork(),
@@ -1317,23 +1317,23 @@ test('handles error', () async {
 ### 5. Floating-Point Equality
 
 ```dart
-// WRONG — floating-point rounding will cause intermittent failures
+// WRONG, floating-point rounding will cause intermittent failures
 expect(0.1 + 0.2, equals(0.3)); // Fails: 0.30000000000000004 != 0.3
 
-// CORRECT — use closeTo with an appropriate tolerance
+// CORRECT, use closeTo with an appropriate tolerance
 expect(0.1 + 0.2, closeTo(0.3, 1e-10));
 ```
 
 ### 6. Tests That Pass Vacuously
 
 ```dart
-// WRONG — the assertion always passes
+// WRONG, the assertion always passes
 test('user is valid', () {
   final user = User(name: "Alice'', age: 30);
   expect(user, isNotNull); // Trivially true for any non-null object
 });
 
-// CORRECT — assert meaningful properties
+// CORRECT, assert meaningful properties
 test("user has correct name and age', () {
   final user = User(name: "Alice'', age: 30);
   expect(user.name, equals("Alice'));
@@ -1344,7 +1344,7 @@ test("user has correct name and age', () {
 ### 7. Shared Mutable State Across Tests
 
 ```dart
-// WRONG — static state leaks between tests
+// WRONG, static state leaks between tests
 class Config {
   static String environment = 'test';
 }
@@ -1358,13 +1358,13 @@ test('B: expects default environment', () {
   expect(Config.environment, equals('test')); // Fails if A runs first
 });
 
-// CORRECT — reset in setUp or use instance-based state
+// CORRECT, reset in setUp or use instance-based state
 ```
 
 ### 8. Not Using FakeAsync for Timer-Dependent Tests
 
 ```dart
-// WRONG — real timeout makes test slow and flaky
+// WRONG, real timeout makes test slow and flaky
 test('debounce works', () async {
   final callLog = <int>[];
   final debounced = debounce(callLog.add, Duration(seconds: 1));
@@ -1374,7 +1374,7 @@ test('debounce works', () async {
   expect(callLog, equals([2]));
 }, timeout: Timeout(Duration(seconds: 5)));
 
-// CORRECT — deterministic with FakeAsync
+// CORRECT, deterministic with FakeAsync
 test('debounce works', () {
   FakeAsync().run((fake) {
     final callLog = <int>[];
@@ -1393,7 +1393,7 @@ test('debounce works', () {
 
 Golden tests compare widget rendering against a saved image. When you intentionally change the UI,
 The golden test fails until you update the baseline. Forgetting to update leads to red tests that
-Everyone ignores — at which point the golden test has zero value. Run
+Everyone ignores, at which point the golden test has zero value. Run
 `flutter test --update-goldens` when you intentionally change the UI, and review the diff carefully.
 
 ### 10. Coverage as a Vanity Metric

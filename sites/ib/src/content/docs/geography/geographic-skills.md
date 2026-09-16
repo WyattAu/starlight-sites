@@ -18,7 +18,7 @@ description: "Study notes for Geographic Skills with worked examples, practice p
 
 ## Intuition
 
-**Geographic skills are like a toolkit for understanding the world — maps, data analysis, and fieldwork are your essential tools:** Geography combines spatial thinking with real-world observation to understand patterns, processes, and connections
+**Geographic skills are like a toolkit for understanding the world, maps, data analysis, and fieldwork are your essential tools:** Geography combines spatial thinking with real-world observation to understand patterns, processes, and connections
 
 **Why it matters:** Geographic skills are essential for informed citizenship, environmental stewardship, and professional practice in many fields
 

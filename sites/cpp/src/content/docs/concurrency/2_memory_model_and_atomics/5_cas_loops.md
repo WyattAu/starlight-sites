@@ -69,7 +69,7 @@ spurious Failure).
 :::
 ## When Weak CAS Is Preferable
 
-On some architectures (notably ARMv8 using LL/SC — Load-Linked/Store-Conditional),
+On some architectures (notably ARMv8 using LL/SC, Load-Linked/Store-Conditional),
 `compare_exchange_weak` maps directly to the hardware instruction and can be implemented without a
 Retry loop in the runtime library. `compare_exchange_strong` may require the implementation to
 Insert a retry loop, making it slightly more expensive.
@@ -84,7 +84,7 @@ while (!atomic_var.compare_exchange_weak(expected, desired,
 }
 
 // Strong CAS would retry internally on spurious failure, then the loop
-// retries again — wasted work.
+// retries again, wasted work.
 ```
 
 ## Linearizability of CAS-Based Data Structures
@@ -459,7 +459,7 @@ public:
             // If it was true, someone else holds the lock.
             // The acquire semantics synchronize-with the release in unlock().
             while (locked_.load(std::memory_order_relaxed)) {
-                // Wait without acquiring — reduces bus traffic
+                // Wait without acquiring, reduces bus traffic
 #if defined(__x86_64__)
                 __builtin_ia32_pause();  // CPU hint to reduce power and bus contention
 #endif
@@ -502,7 +502,7 @@ int main() {
 
 The `exchange` operation is a special case of CAS that always succeeds (it sets the new value and
 Returns the old one). It is used here instead of `compare_exchange_weak` because we don't need to
-Conditionally update — we always want to set `locked_` to `true`.
+Conditionally update, we always want to set `locked_` to `true`.
 
 ### `std::atomic_flag`: The Lock-Free Building Block
 
@@ -586,7 +586,7 @@ public:
                             new_node,
                             std::memory_order_release,
                             std::memory_order_relaxed)) {
-                        // Successfully linked — try to swing tail (ok if it fails,
+                        // Successfully linked, try to swing tail (ok if it fails,
                         // another thread will do it)
                         tail_.compare_exchange_weak(
                             old_tail,
@@ -596,7 +596,7 @@ public:
                         return;
                     }
                 } else {
-                    // Tail is lagging — help advance it
+                    // Tail is lagging, help advance it
                     tail_.compare_exchange_weak(
                         old_tail,
                         next,
@@ -672,7 +672,7 @@ int main() {
 ```
 
 The sentinel node pattern avoids the ABA problem for the head pointer because the head never moves
-Backward — it always advances from one dummy node to the next. The old dummy node is deleted after
+Backward, it always advances from one dummy node to the next. The old dummy node is deleted after
 The head swings, so it can never be recycled and re-inserted. The tail pointer may lag behind
 (requiring the "help advance" code), but this does not affect correctness.
 
@@ -722,10 +722,10 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 | Operation | Stack (top → bottom) | Popped |
 | --------- | -------------------- | ------ |
-| push(5)   | [5]                  | —      |
-| push(3)   | [3, 5]               | —      |
+| push(5)   | [5]                  |,      |
+| push(3)   | [3, 5]               |,      |
 | pop()     | [5]                  | 3      |
-| push(8)   | [8, 5]               | —      |
+| push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
 

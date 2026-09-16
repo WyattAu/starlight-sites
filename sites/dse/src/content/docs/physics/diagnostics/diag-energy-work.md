@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Energy and Work — Diagnostic Tests
+## Energy and Work, Diagnostic Tests
 
 ## Unit Tests
 

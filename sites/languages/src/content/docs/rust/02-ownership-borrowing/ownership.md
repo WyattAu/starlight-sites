@@ -16,7 +16,7 @@ description: "Rust' s memory management rests on three rules enforced at compile
 
 :::note
 <strong>Historical Context</strong>
-Rust's ownership system was designed by Graydon Hoare at Mozilla Research (announced 2010, 1.0 in 2015). The key insight — memory safety enforced at compile time without a garbage collector — drew on Cyclone (1998) for region-based memory, MLton for lifetime tracking in functional languages, and Mozilla's own experience with C++ security vulnerabilities. The same affine-type mechanism for resource tracking appears in linear logic (Girard, 1987) and session types (Honda, 1993), connecting Rust's practical design to deep theoretical foundations.
+Rust's ownership system was designed by Graydon Hoare at Mozilla Research (announced 2010, 1.0 in 2015). The key insight, memory safety enforced at compile time without a garbage collector, drew on Cyclone (1998) for region-based memory, MLton for lifetime tracking in functional languages, and Mozilla's own experience with C++ security vulnerabilities. The same affine-type mechanism for resource tracking appears in linear logic (Girard, 1987) and session types (Honda, 1993), connecting Rust's practical design to deep theoretical foundations.
 :::
 ## The Ownership Rules
 
@@ -28,19 +28,19 @@ Rust's memory management rests on three rules enforced at compile time:
    (`&mut T`) to a value at any point in its lifetime.
 
 These rules are checked by the borrow checker, which operates on MIR (Mid-level Intermediate
-Representation). The borrow checker does not exist at runtime — there is zero overhead for ownership
+Representation). The borrow checker does not exist at runtime, there is zero overhead for ownership
 Tracking in the compiled binary.
 
 ```rust
 fn main() {
     let s1 = String::from("hello");
-    let s2 = s1;  // s1 is MOVED to s2 — s1 is no longer valid
+    let s2 = s1;  // s1 is MOVED to s2, s1 is no longer valid
     // println!("{}", s1);  // ERROR: value borrowed after move
-    println!("{}", s2);     // OK — s2 owns the data
+    println!("{}", s2);     // OK, s2 owns the data
 }
 ```
 
-The move is a compile-time transfer of ownership. No memory is copied — only the pointer, length,
+The move is a compile-time transfer of ownership. No memory is copied, only the pointer, length,
 And capacity (24 bytes for `String` on 64-bit) are copied. The original binding is invalidated.
 
 ## Move Semantics
@@ -55,7 +55,7 @@ Types are divided into two categories based on whether assignment copies or move
 | Move types   | `String``Vec<T>``Box<T>``File`User-defined structs (unless `Copy`) | Assignment transfers ownership |
 
 A type implements `Copy` if and only if every bit pattern of its memory representation is a valid
-Value. This is why types containing heap pointers (like `String`) cannot be `Copy` — a bitwise copy
+Value. This is why types containing heap pointers (like `String`) cannot be `Copy`a bitwise copy
 Would create two owners of the same heap allocation.
 
 ### The `Copy` Trait
@@ -68,7 +68,7 @@ struct Point {
 }
 
 let p1 = Point { x: 1.0, y: 2.0 };
-let p2 = p1;  // p1 is COPIED — both p1 and p2 are valid
+let p2 = p1;  // p1 is COPIED, both p1 and p2 are valid
 println!("{} {}", p1.x, p2.y);  // OK
 ```
 
@@ -83,7 +83,7 @@ Types that cannot be `Copy`:
 
 ### Partial Moves
 
-Structs can be partially moved — individual fields can be moved out while other fields remain valid:
+Structs can be partially moved, individual fields can be moved out while other fields remain valid:
 
 ```rust
 struct Person {
@@ -98,7 +98,7 @@ let person = Person {
 
 let name = person.name;  // name is moved out of person
 // println!("{:?}", person);  // ERROR: person partially moved
-println!("{}", person.age);   // OK — age is Copy, was never moved
+println!("{}", person.age);   // OK, age is Copy, was never moved
 ```
 
 After a partial move, the struct itself is no longer usable as a whole, but its `Copy` fields remain
@@ -130,7 +130,7 @@ fn borrows(s: &String) {
 fn main() {
     let s = String::from("hello");
     borrows(&s);
-    println!("{}", s);  // OK — s was borrowed, not moved
+    println!("{}", s);  // OK, s was borrowed, not moved
 }
 ```
 
@@ -161,7 +161,7 @@ let s = String::from("hello");
 let r1 = &s;
 let r2 = &s;
 let r3 = &s;
-println!("{} {} {}", r1, r2, r3);  // OK — multiple immutable borrows
+println!("{} {} {}", r1, r2, r3);  // OK, multiple immutable borrows
 ```
 
 ### Mutable References
@@ -189,7 +189,7 @@ let r1 = &s;       // immutable borrow starts
 println!("{}", r1); // r1 used here
 // r1's borrow ends here (NLL)
 
-let r2 = &mut s;   // OK — r1 is no longer in scope
+let r2 = &mut s;   // OK, r1 is no longer in scope
 r2.push_str(", world");
 println!("{}", r2);
 ```
@@ -207,11 +207,11 @@ fn dangle() -> &String {
 
 fn no_dangle() -> String {
     let s = String::from("hello");
-    s  // OK — ownership is transferred to the caller
+    s  // OK, ownership is transferred to the caller
 }
 ```
 
-The compiler error is: `missing lifetime specifier` — it is telling you that it cannot prove the
+The compiler error is: `missing lifetime specifier`it is telling you that it cannot prove the
 Reference will outlive its referent.
 
 ### Reference Rules Summary
@@ -285,7 +285,7 @@ impl Foo {
 Lifetimes can have bounds, just like type parameters:
 
 ```rust
-// 'b must outlive 'a — 'b is at least as long as 'a
+// 'b must outlive 'a, 'b is at least as long as 'a
 fn print<'a, 'b: "a>(x: &''b str, y: &"a str) {
     println!("{} {}", x, y);
 }
@@ -311,13 +311,13 @@ let first_sentence;
     first_sentence = Excerpt { part: &words[..i] };
     // Excerpt<'a> where 'a is the lifetime of words
 }
-// first_sentence is invalid here — words was dropped
+// first_sentence is invalid here, words was dropped
 ```
 
 ### Function Lifetimes
 
 Lifetimes in function signatures establish relationships between input and output references. The
-Compiler does not change the actual lifetimes — it only verifies that the constraints are satisfied.
+Compiler does not change the actual lifetimes, it only verifies that the constraints are satisfied.
 
 ```rust
 // The returned reference lives as long as the shorter of the two inputs
@@ -350,7 +350,7 @@ String literals and values explicitly annotated with `'static`.
 Lifetimes are covariant in their position. Given `'a: "b` (a outlives b), `&''a T` is a subtype of
 `&"b T`. This means a longer-lived reference can be used where a shorter-lived one is expected.
 
-For `&mut T`Lifetimes are **invariant** — you cannot substitute a `&'a mut T` where a `&'b mut T` Is
+For `&mut T`Lifetimes are **invariant**, you cannot substitute a `&'a mut T` where a `&'b mut T` Is
 expected, even if `'a: "b`. This prevents soundness issues with mutable aliasing.
 
 ```rust
@@ -380,7 +380,7 @@ counter.set(counter.get() + 1);
 assert_eq!(counter.get(), 1);
 ```
 
-`Cell<T>` does not allow borrowing the inner value — you can only copy it out or replace it. This
+`Cell<T>` does not allow borrowing the inner value, you can only copy it out or replace it. This
 Means there is no risk of creating a dangling reference to the interior.
 
 ### `RefCell<T>`
@@ -394,12 +394,12 @@ use std::cell::RefCell;
 let data = RefCell::new(vec![1, 2, 3]);
 
 let borrow1 = data.borrow();      // immutable borrow (Ref&lt;Vec&lt;i32&gt;&gt;)
-let borrow2 = data.borrow();      // OK — multiple immutable borrows
+let borrow2 = data.borrow();      // OK, multiple immutable borrows
 
 // let borrow3 = data.borrow_mut();  // PANIC: already borrowed immutably
 drop(borrow1);
 drop(borrow2);
-let borrow3 = data.borrow_mut();  // OK — all previous borrows dropped
+let borrow3 = data.borrow_mut();  // OK, all previous borrows dropped
 borrow3.push(4);
 ```
 :::
@@ -464,9 +464,9 @@ Platform-specific memory barriers).
 
 ## `Rc` and `Arc`
 
-### `Rc<T>` — Reference Counted
+### `Rc<T>`Reference Counted
 
-`Rc<T>` enables multiple ownership of the same data via reference counting. It is single-threaded —
+`Rc<T>` enables multiple ownership of the same data via reference counting. It is single-threaded,
 The compiler will prevent you from sending an `Rc` across thread boundaries.
 
 ```rust
@@ -477,7 +477,7 @@ let b = Rc::clone(&a);  // increments ref count (NOT a deep clone)
 let c = Rc::clone(&a);  // ref count is now 3
 
 assert_eq!(Rc::strong_count(&a), 3);
-println!("{}", a);  // OK — all three bindings are valid
+println!("{}", a);  // OK, all three bindings are valid
 ```
 
 When the last `Rc` is dropped, the inner value is deallocated. `Rc` is not `Send` or `Sync`So the
@@ -498,7 +498,7 @@ data.borrow_mut().push(4);
 assert_eq!(data2.borrow().len(), 4);
 ```
 
-### `Arc<T>` — Atomic Reference Counted
+### `Arc<T>`Atomic Reference Counted
 
 `Arc<T>` is the thread-safe equivalent of `Rc<T>`. It uses atomic operations for reference counting,
 Making it `Send` and `Sync`. `Arc` is the foundation of shared ownership in concurrent Rust.
@@ -586,12 +586,12 @@ Outlive the value being borrowed:
 ```rust
 let mut v = vec![1, 2, 3, 4, 5];
 
-// This works — we borrow the vector immutably for the iteration
+// This works, we borrow the vector immutably for the iteration
 for item in &v {
     println!("{}", item);
 }
 
-// This works — we borrow the vector mutably, but each item is borrowed
+// This works, we borrow the vector mutably, but each item is borrowed
 // for a single iteration
 for item in &mut v {
     *item += 1;
@@ -649,7 +649,7 @@ let mut s = String::from("hello");
 let r = &mut s;
 
 push(r);       // reborrow: r is temporarily borrowed by push
-println!("{}", r);  // OK — the reborrow ended, r is valid again
+println!("{}", r);  // OK, the reborrow ended, r is valid again
 ```
 
 Without reborrows, the above code would fail because `push(r)` would move `r`Making it unusable
@@ -767,7 +767,7 @@ fn filter_map(vec: &mut Vec<i32>) {
 
 9. **Confusing `'a` lifetime names with actual lifetimes.** The name `'a` is just a placeholder. The
    compiler substitutes the actual lifetime at each call site. Two functions using `'a` in their
-   signatures do not necessarily share the same lifetime — the compiler resolves each independently.
+   signatures do not necessarily share the same lifetime, the compiler resolves each independently.
 
 10. **Not understanding NLL.** If the borrow checker rejects your code, check whether the borrow is
     actually needed past the point where the compiler thinks it ends. Often, adding an explicit
@@ -780,16 +780,16 @@ graph TD
     A[Need to access data?] --> B{Read only?}
     B -->|Yes| C{Single reference?}
     B -->|No| D{Single mutable reference?}
-    C -->|Yes| E[Use &amp;T — immutable borrow]
+    C -->|Yes| E[Use &amp;T, immutable borrow]
     C -->|No| F{All borrows immutable?}
     F -->|Yes| E
     F -->|No| G[ERROR: cannot mix &amp;T and &amp;mut T]
-    D -->|Yes| H[Use &amp;mut T — mutable borrow]
+    D -->|Yes| H[Use &amp;mut T, mutable borrow]
     D -->|No| I[ERROR: cannot have multiple &amp;mut T]
     E --> J{Does the borrow outlive the value?}
     H --> J
     J -->|Yes| K[ERROR: dangling reference]
-    J -->|No| L[OK — borrow is valid]
+    J -->|No| L[OK, borrow is valid]
 ```
 
 ## Lifetime Bounds in Generics
@@ -798,7 +798,7 @@ Lifetimes interact with generics in ways that can be subtle. When a generic type
 Bounded by a lifetime, it constrains which concrete types can be used:
 
 ```rust
-// T must outlive 'a — T must be a type that can be borrowed for 'a
+// T must outlive 'a, T must be a type that can be borrowed for 'a
 fn process<'a, T: "a>(value: &''a T) -> &"a T {
     value
 }
@@ -903,7 +903,7 @@ use bumpalo::Bump;
 let arena = Bump::new();
 let a = arena.alloc("hello");
 let b = arena.alloc("world");
-// a and b have the same lifetime — references between them are valid
+// a and b have the same lifetime, references between them are valid
 ```
 
 **Pin-based approach** for async state machines:
@@ -932,7 +932,7 @@ Shorter-lived one when you only read through it.
 fn takes_short<'a>(r: &'a str) {}
 
 let long: &'static str = "hello";
-takes_short(long);  // OK — 'static can be shortened to 'a
+takes_short(long);  // OK, 'static can be shortened to 'a
 ```
 
 ### Invariance (Mutable Contexts)
@@ -947,7 +947,7 @@ fn takes_short_mut<'a>(r: &'a mut i32) {}
 
 let mut x: i32 = 42;
 let r: &'static mut i32 = unsafe { &mut *Box::into_raw(Box::new(x)) };
-// takes_short_mut(r);  // ERROR — &'static mut i32 cannot be shortened to &'a mut i32
+// takes_short_mut(r);  // ERROR, &'static mut i32 cannot be shortened to &'a mut i32
 ```
 
 ### Function Types and Variance
@@ -967,7 +967,7 @@ struct Context<'a> {
 }
 
 // The compiler ensures that Context is dropped before the data it references
-// This is automatic — you do not need to write anything special
+// This is automatic, you do not need to write anything special
 ```
 
 The drop checker can be overly conservative. If your struct contains a raw pointer that does not

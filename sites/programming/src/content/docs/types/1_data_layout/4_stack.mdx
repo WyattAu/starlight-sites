@@ -1,7 +1,7 @@
 ---
 
 title: "Stack | Programming - Wyatt's Notes"
-description: "The stack is like a stack of plates in a cafeteria — you can only add or remove from the top, and you do it in constant time. When a function is called, a new"
+description: "The stack is like a stack of plates in a cafeteria, you can only add or remove from the top, and you do it in constant time. When a function is called, a new"
 date: 2025-12-13T04:07:38.177Z
 tags:
   - cpp
@@ -248,7 +248,7 @@ Every thread receives a fixed-size stack at creation time. The default size vari
 
 Stack overflow is not catchable via C++ exceptions. When the stack pointer crosses the guard page at
 The bottom of the stack region, the OS delivers a `SIGSEGV` (Linux/macOS) or a `STACK_OVERFLOW`
-Exception (Windows). These are fatal signals — there is no recovery.
+Exception (Windows). These are fatal signals, there is no recovery.
 
 ```cpp
 #include <cstdio>
@@ -581,7 +581,7 @@ void* stack_size_example(void*) \{
 
 ## Intuition
 
-The stack is like a stack of plates in a cafeteria — you can only add or remove from the top, and you do it in constant time. When a function is called, a new plate is placed on top with all its local variables; when it returns, that plate is removed. This is why stack allocation is so fast — it is just moving a pointer. But the stack has a fixed size (in most cases a few megabytes), so you cannot put infinitely many plates on it — that is a stack overflow. The heap is like a warehouse with unlimited space, but finding and claiming space there takes more effort because the warehouse manager must search for a free spot.
+The stack is like a stack of plates in a cafeteria, you can only add or remove from the top, and you do it in constant time. When a function is called, a new plate is placed on top with all its local variables; when it returns, that plate is removed. This is why stack allocation is so fast, it is just moving a pointer. But the stack has a fixed size (in most cases a few megabytes), so you cannot put infinitely many plates on it, that is a stack overflow. The heap is like a warehouse with unlimited space, but finding and claiming space there takes more effort because the warehouse manager must search for a free spot.
 
 ## Common Pitfalls
 
@@ -591,7 +591,7 @@ Allocating large arrays on the stack can cause stack overflow even without recur
 
 ```cpp
 void bad_function() \{
-    double matrix[1000][1000];  // 8 MB — exceeds default 8 MB stack
+    double matrix[1000][1000];  // 8 MB, exceeds default 8 MB stack
     // Stack overflow immediately on entry
 \}
 ```

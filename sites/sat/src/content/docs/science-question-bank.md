@@ -495,7 +495,7 @@ The acceleration is the slope of the velocity–time graph:
 
 $$a = \frac{\Delta v}{\Delta t} = \frac{9.8 - 0}{1 - 0} = 9.8 \text{ m/s}^2$$
 
-(Checking: $\frac{39.2}{4} = 9.8$ — consistent throughout.)
+(Checking: $\frac{39.2}{4} = 9.8$, consistent throughout.)
 
 Distance in the first 3 seconds (area under the velocity–time graph, or using
 $s = \frac{1}{2}at^2$):

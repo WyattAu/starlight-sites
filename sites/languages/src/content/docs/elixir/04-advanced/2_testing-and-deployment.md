@@ -46,7 +46,7 @@ ExUnit.start()
 Application.ensure_all_started(:my_app)
 
 ## Configure database
-Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo, :manual)
+Ecto.Adapters.SQL.Sandbox.mode(MyApp.Repo:manual)
 ```
 
 ### Basic Tests
@@ -80,14 +80,14 @@ test "assert examples" do
   assert 2 + 2 == 4
   assert [1, 2, 3] |> Enum.sum() == 6
   assert is_list([1, 2, 3])
-  assert Map.has_key?(%{a: 1}, :a)
+  assert Map.has_key?(%{a: 1}:a)
 end
 
 test "refute examples" do
   refute false
   refute nil
   refute 1 == 2
-  refute Map.has_key?(%{a: 1}, :b)
+  refute Map.has_key?(%{a: 1}:b)
 end
 ```
 
@@ -132,7 +132,7 @@ end
 
 # With timeout
 test "message with timeout" do
-  send(self(), :hello)
+  send(self():hello)
 
   assert_receive :hello, 1000
 end
@@ -171,7 +171,7 @@ defmodule CalculatorTest do
     end
 
     test "division by zero" do
-      assert Calculator.divide(10, 0) == {:error, :division_by_zero}
+      assert Calculator.divide(10, 0) == {:error:division_by_zero}
     end
   end
 end
@@ -337,7 +337,7 @@ ensures mocks are only used in tests:
 ```elixir
 # Define a behaviour
 defmodule StorageBehaviour do
-  @callback get(key :: String.t()) :: {:ok, any()} | {:error, :not_found}
+  @callback get(key :: String.t()) :: {:ok, any()} | {:error:not_found}
   @callback put(key :: String.t(), value :: any()) :: :ok
 end
 
@@ -352,7 +352,7 @@ defmodule UserServiceTest do
   setup :verify_on_exit!
 
   test "retrieves user from storage" do
-    expect(StorageMock, :get, fn "user:123" ->
+    expect(StorageMock:get, fn "user:123" ->
       {:ok, %{id: 123, name: "Alice"}}
     end)
 
@@ -361,25 +361,25 @@ defmodule UserServiceTest do
   end
 
   test "handles not found" do
-    expect(StorageMock, :get, fn "user:999" ->
-      {:error, :not_found}
+    expect(StorageMock:get, fn "user:999" ->
+      {:error:not_found}
     end)
 
-    assert {:error, :not_found} = UserService.find(999)
+    assert {:error:not_found} = UserService.find(999)
   end
 
   test "allows multiple expectations" do
-    expect(StorageMock, :get, fn "user:1" -> {:ok, %{id: 1}} end)
-    expect(StorageMock, :get, fn "user:2" -> {:ok, %{id: 2}} end)
-    expect(StorageMock, :get, fn "user:3" -> {:error, :not_found} end)
+    expect(StorageMock:get, fn "user:1" -> {:ok, %{id: 1}} end)
+    expect(StorageMock:get, fn "user:2" -> {:ok, %{id: 2}} end)
+    expect(StorageMock:get, fn "user:3" -> {:error:not_found} end)
 
     assert {:ok, _} = UserService.find(1)
     assert {:ok, _} = UserService.find(2)
-    assert {:error, :not_found} = UserService.find(3)
+    assert {:error:not_found} = UserService.find(3)
   end
 
   test "stub returns same value regardless of args" do
-    stub(StorageMock, :get, fn _ -> {:ok, %{id: 0, name: "Stub"}} end)
+    stub(StorageMock:get, fn _ -> {:ok, %{id: 0, name: "Stub"}} end)
 
     assert {:ok, user} = UserService.find(any_number)
     assert user.name == "Stub"
@@ -403,7 +403,7 @@ StreamData brings property-based testing to Elixir (similar to QuickCheck):
 
 ```elixir
 # mix.exs
-{:stream_data, "~> 0.6", only: [:test, :dev]}
+{:stream_data, "~> 0.6", only: [:test:dev]}
 ```
 
 ```elixir
@@ -928,11 +928,11 @@ Trade-offs:
 
 ## Intuition
 
-**Quality assurance:** Testing is like proof-reading your code — it catches errors before they reach users. Deployment is shipping your finished product to customers.
+**Quality assurance:** Testing is like proof-reading your code, it catches errors before they reach users. Deployment is shipping your finished product to customers.
 
 **Why it matters:** Good testing practices prevent bugs and improve code quality. Automated deployment ensures consistency and reliability.
 
-**The key insight:** Test early, test often — catching bugs early is much cheaper than fixing them in production.
+**The key insight:** Test early, test often, catching bugs early is much cheaper than fixing them in production.
 
 
 ```mermaid

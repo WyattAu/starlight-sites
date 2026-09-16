@@ -348,7 +348,7 @@ int main() {
     std::vector<int> v = {5, 3, 1, 4, 2};
     std::sort(v.begin(), v.end());  // OK: vector iterators are random-access
 
-    // std::list has bidirectional iterators — cannot use std::sort directly
+    // std::list has bidirectional iterators, cannot use std::sort directly
     std::list<int> l = {5, 3, 1, 4, 2};
     // std::sort(l.begin(), l.end());  // ERROR: list::iterator is not RandomAccessIterator
 
@@ -521,7 +521,7 @@ int main() {
 
 ### Pitfall 3: Off-by-One with `end()`
 
-The `end()` iterator points **past the last element** — it is not dereferenceable:
+The `end()` iterator points **past the last element**, it is not dereferenceable:
 
 ```cpp
 #include <vector>

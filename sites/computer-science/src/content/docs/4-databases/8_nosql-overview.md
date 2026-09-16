@@ -144,7 +144,7 @@ flowchart TD
 
 ## Intuition
 
-NoSQL databases are like different types of filing cabinets. Document stores are folders with loose papers — each document can have a different structure. Key-value stores are like coat check tickets — you give a key and get back whatever you stored. Column-family stores are like spreadsheets where each row can have different columns. Graph databases are like mind maps, where relationships are first-class citizens. The CAP theorem is the law of physics for distributed systems — you can only pick two out of three: Consistency (everyone sees the same data), Availability (everyone can always read and write), and Partition tolerance (the system survives network failures). Since network partitions are unavoidable, you must choose between consistency and availability during a partition.
+NoSQL databases are like different types of filing cabinets. Document stores are folders with loose papers, each document can have a different structure. Key-value stores are like coat check tickets, you give a key and get back whatever you stored. Column-family stores are like spreadsheets where each row can have different columns. Graph databases are like mind maps, where relationships are first-class citizens. The CAP theorem is the law of physics for distributed systems, you can only pick two out of three: Consistency (everyone sees the same data), Availability (everyone can always read and write), and Partition tolerance (the system survives network failures). Since network partitions are unavoidable, you must choose between consistency and availability during a partition.
 
 ## See Also
 

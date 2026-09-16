@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Processes and Signals"
-description: "Every running program in Linux is a — an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The"
+description: "Every running program in Linux is a, an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The"
 
 ---
 
@@ -17,7 +17,7 @@ description: "Every running program in Linux is a — an instance of an executin
 
 ## Process Lifecycle
 
-Every running program in Linux is a **process** — an instance of an executing program with its own
+Every running program in Linux is a **process**, an instance of an executing program with its own
 Virtual address space, file descriptors, and execution context. The kernel manages processes through
 A `task_struct` (in `include/linux/sched.h`), which tracks PID, state, scheduling priority, open
 Files, signal handlers, and more.
@@ -44,7 +44,7 @@ sequenceDiagram
 
 #### `fork(2)`
 
-`fork` creates a new process by duplicating the calling process. The child is an exact copy — same
+`fork` creates a new process by duplicating the calling process. The child is an exact copy, same
 Code, same data, same open file descriptors, same signal dispositions. The only difference is the
 Return value (parent gets child PID, child gets 0).
 
@@ -82,13 +82,13 @@ perror("execve");
 exit(1);
 ```
 
-Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe` — they differ in how Arguments
+Variants of `exec`: `execl``execlp``execle``execv``execvp``execvpe`they differ in how Arguments
 and environment are passed.
 
 #### `wait(2)` / `waitpid(2)`
 
 A parent must call `wait` (or `waitpid`) to collect the child's exit status. If a child terminates
-And the parent does not wait, the child becomes a **zombie** (state `Z`) — it retains its PID and
+And the parent does not wait, the child becomes a **zombie** (state `Z`), it retains its PID and
 Exit status in the kernel's process table until the parent waits.
 
 ```c
@@ -211,7 +211,7 @@ User-space processes.
 | `SIGSEGV` | 11     | Core dump      | Segmentation fault                             |
 | `SIGPIPE` | 13     | Terminate      | Broken pipe (write to closed pipe)             |
 | `SIGALRM` | 14     | Terminate      | Alarm clock (from `alarm()`)                   |
-| `SIGTERM` | 15     | Terminate      | Termination (polite kill — default for `kill`) |
+| `SIGTERM` | 15     | Terminate      | Termination (polite kill, default for `kill`) |
 | `SIGUSR1` | 10     | Terminate      | User-defined signal 1                          |
 | `SIGUSR2` | 12     | Terminate      | User-defined signal 2                          |
 | `SIGCHLD` | 17     | Ignore         | Child process status changed                   |
@@ -226,9 +226,9 @@ User-space processes.
 Linux supports real-time signals (signals 32-64, or `SIGRTMIN` to `SIGRTMAX`). Unlike standard
 Signals, real-time signals:
 
-- Are **queued** — multiple instances of the same signal are delivered (standard signals collapse
+- Are **queued**, multiple instances of the same signal are delivered (standard signals collapse
   into one)
-- Have a **defined delivery order** — lower-numbered signals are delivered first
+- Have a **defined delivery order**, lower-numbered signals are delivered first
 - Can carry **additional data** (`sigqueue(2)` sends a `union sigval` with the signal)
 - Are guaranteed to be delivered in FIFO order within the same signal number
 
@@ -261,10 +261,10 @@ int main() {
 ### Signal Handling
 
 ```c
-// Method 1: signal() — simple but has issues across implementations
+// Method 1: signal(), simple but has issues across implementations
 signal(SIGTERM, handler);
 
-// Method 2: sigaction() — POSIX, recommended
+// Method 2: sigaction(), POSIX, recommended
 struct sigaction sa;
 sa.sa_handler = handler;        // or sa.sa_sigaction for SA_SIGINFO
 sigemptyset(&amp;sa.sa_mask);
@@ -287,7 +287,7 @@ void sigterm_handler(int sig) {
     _exit(0);
 }
 
-// WRONG — printf is not async-signal-safe
+// WRONG, printf is not async-signal-safe
 void bad_handler(int sig) {
     printf("Caught signal %d\n", sig);  // undefined behavior!
 }
@@ -302,7 +302,7 @@ kill 1234
 # Send specific signal
 kill -SIGTERM 1234
 kill -15 1234
-kill -9 1234      # SIGKILL — cannot be caught
+kill -9 1234      # SIGKILL, cannot be caught
 
 # Send signal to all processes in a process group
 kill -- -1234     # negative PID = process group
@@ -326,7 +326,7 @@ Writer. The default action is to terminate the writer process. This is a common 
 Process death in pipelines:
 
 ```c
-// Ignore SIGPIPE — write() will return EPIPE instead
+// Ignore SIGPIPE, write() will return EPIPE instead
 signal(SIGPIPE, SIG_IGN);
 
 // Or in shell:
@@ -335,12 +335,12 @@ trap '' PIPE
 
 ## Process Monitoring
 
-### `ps` — Process Status
+### `ps`Process Status
 
 ```bash
 # Common usage patterns
-ps aux                    # BSD style — all processes, user-oriented
-ps -ef                    # System V style — all processes
+ps aux                    # BSD style, all processes, user-oriented
+ps -ef                    # System V style, all processes
 ps -eo pid,ppid,user,%cpu,%mem,stat,start,time,comm  # custom columns
 
 # Filter by user
@@ -361,28 +361,28 @@ ps -T -p $PID            # threads of a specific process
 ### `top` / `htop`
 
 ```bash
-# top — basic process monitor
+# top, basic process monitor
 top                       # default (sort by CPU)
 top -o %MEM               # sort by memory
 top -d 2                  # refresh every 2 seconds
 top -p 1234               # monitor specific PID
 top -u www-data           # specific user
 
-# htop — interactive process monitor (better UX)
+# htop, interactive process monitor (better UX)
 htop                      # interactive mode
 htop -p 1234,5678         # specific PIDs
 htop -s PERCENT_MEM       # sort by memory
 
 # Inside top:
-# M — sort by memory
-# P — sort by CPU
-# k — kill process
-# r — renice process
-# f — add/remove columns
-# 1 — toggle per-CPU view
+# M, sort by memory
+# P, sort by CPU
+# k, kill process
+# r, renice process
+# f, add/remove columns
+# 1, toggle per-CPU view
 ```
 
-### `/proc/PID` — Process Filesystem
+### `/proc/PID`Process Filesystem
 
 ```bash
 # Essential /proc/PID entries
@@ -428,7 +428,7 @@ pkill -TERM -f "nginx: worker"
 
 ## Scheduling and Priorities
 
-### CFS — Completely Fair Scheduler
+### CFS, Completely Fair Scheduler
 
 The Linux kernel's default scheduler for normal (non-real-time) processes is the **Completely Fair
 Scheduler** (CFS). CFS uses a red-black tree to track the "virtual runtime" (`vruntime`) of each
@@ -450,15 +450,15 @@ nice -n 10 command
 renice -n 5 -p 1234
 renice -n -10 -u www-data      # change for all processes of a user
 
-# ionice — I/O priority (affects block I/O scheduling)
+# ionice, I/O priority (affects block I/O scheduling)
 ionice -c 2 -n 7 command        # best-effort, lowest priority
 ionice -c 3 command             # idle (only uses I/O when no one else is)
 
 # I/O class:
-# 0 (none)     — no priority
-# 1 (realtime) — highest priority (root only)
-# 2 (best-effort) — default, priority 0-7
-# 3 (idle)     — only uses I/O when system is idle
+# 0 (none), no priority
+# 1 (realtime), highest priority (root only)
+# 2 (best-effort), default, priority 0-7
+# 3 (idle), only uses I/O when system is idle
 ```
 
 ### Real-Time Scheduling Policies
@@ -573,7 +573,7 @@ Limits are inherited by child processes.
 ulimit -a
 
 # Common limits
-ulimit -n          # open files (nofile) — default in most cases 1024
+ulimit -n          # open files (nofile), default in most cases 1024
 ulimit -u          # max user processes (nproc)
 ulimit -v          # virtual memory size (as)
 ulimit -f          # file size (fsize)
@@ -632,7 +632,7 @@ Default: 32768 on 32-bit, 4194304 on 64-bit), new processes cannot be created.
 
 ## Process Tracing
 
-### `strace` — System Call Tracer
+### `strace`System Call Tracer
 
 ```bash
 # Trace a command
@@ -662,7 +662,7 @@ strace -o trace.log command
 strace -c command
 ```
 
-### `ltrace` — Library Call Tracer
+### `ltrace`Library Call Tracer
 
 ```bash
 # Trace library calls
@@ -708,7 +708,7 @@ trap 'wait' EXIT
 A fork bomb is a process that creates copies of itself exponentially:
 
 ```bash
-# DO NOT RUN THIS — it will crash the system
+# DO NOT RUN THIS, it will crash the system
 :(){ :|:& };:
 
 # The same, expanded:
@@ -740,7 +740,7 @@ fi
 ### Pitfall: Orphan Processes and PID 1
 
 When a parent process dies, its children are reparented to PID 1 (init) or the nearest subreaper
-(systemd on modern systems). PID 1 has special responsibilities — it must reap all orphaned zombies.
+(systemd on modern systems). PID 1 has special responsibilities, it must reap all orphaned zombies.
 If you write a custom init or container entrypoint, you must handle this:
 
 ```bash

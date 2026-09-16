@@ -320,7 +320,7 @@ Zinc is higher in the reactivity series than copper, so zinc is more readily oxi
 **Problem 1:** How many significant figures should the answer to the following calculation be given
 To? $0.150 \times 24.0 / 0.100$
 
-_If you get this wrong, revise: Examination Tips — Significant Figures_
+_If you get this wrong, revise: Examination Tips, Significant Figures_
 
 <details>
 <summary>Solution</summary>
@@ -333,7 +333,7 @@ The result is $36.0$. All three values have 3 significant figures, so the answer
 **Problem 2:** State the colour of the precipitate formed when aqueous sodium hydroxide is added to
 A solution containing $\mathrm{Fe^{3+}}$ ions.
 
-_If you get this wrong, revise: Examination Tips — Colours of Common Ions_
+_If you get this wrong, revise: Examination Tips, Colours of Common Ions_
 
 <details>
 <summary>Solution</summary>
@@ -356,9 +356,9 @@ _If you get this wrong, revise: Compulsory Topics Overview_
 <details>
 <summary>Solution</summary>
 
-(a) **II. Chemical Bonding** — giant covalent structures (b) **III. Stoichiometry and Mole Concept**
-— percentage yield (c) **IV. Acids, Bases, and Salts** — neutralisation and ionic equations (d) **I.
-Atomic Structure and Periodic Table** — ionisation energy trends
+(a) **II. Chemical Bonding**, giant covalent structures (b) **III. Stoichiometry and Mole Concept**
+- percentage yield (c) **IV. Acids, Bases, and Salts**, neutralisation and ionic equations (d) **I.
+Atomic Structure and Periodic Table**, ionisation energy trends
 
 </details>
 
@@ -366,7 +366,7 @@ Atomic Structure and Periodic Table** — ionisation energy trends
 Copper deposited when a current of $2.00 \mathrm{ A}$ is passed through $\mathrm{CuSO_4}(aq)$ for
 30.0 minutes.
 
-_If you get this wrong, revise: VI. Redox and Electrochemistry — Electrolysis_
+_If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis_
 
 <details>
 <summary>Solution</summary>
@@ -386,7 +386,7 @@ $$m(\mathrm{Cu}) = 0.0187 \times 63.5 = 1.18 \mathrm{ g}$$
 **Problem 5:** Explain why the first ionisation energy of magnesium is higher than that of sodium,
 But lower than that of aluminium.
 
-_If you get this wrong, revise: I. Atomic Structure and Periodic Table — Ionisation Energy_
+_If you get this wrong, revise: I. Atomic Structure and Periodic Table, Ionisation Energy_
 
 <details>
 <summary>Solution</summary>
@@ -407,7 +407,7 @@ So: IE(Na) $\lt$ IE(Mg) $\gt$ IE(Al).
 **Problem 6:** State two differences between a strong acid and a weak acid of the same
 Concentration, and explain each difference.
 
-_If you get this wrong, revise: IV. Acids, Bases, and Salts — Strong and Weak Acids_
+_If you get this wrong, revise: IV. Acids, Bases, and Salts, Strong and Weak Acids_
 
 <details>
 <summary>Solution</summary>
@@ -426,7 +426,7 @@ _If you get this wrong, revise: IV. Acids, Bases, and Salts — Strong and Weak 
 is $42.0 \mathrm{ g/mol}$. Determine its molecular formula and identify the homologous series It
 belongs to.
 
-_If you get this wrong, revise: VII. Carbon Chemistry — Homologous Series_
+_If you get this wrong, revise: VII. Carbon Chemistry, Homologous Series_
 
 <details>
 <summary>Solution</summary>
@@ -451,7 +451,7 @@ This is **propene**, an **alkene** (homologous series with general formula $\mat
 **Problem 8:** Explain the difference between an exothermic reaction and an endothermic reaction in
 Terms of enthalpy change ($\Delta H$), and give one example of each.
 
-_If you get this wrong, revise: V. Rate of Reaction and Energetics — Enthalpy Changes_
+_If you get this wrong, revise: V. Rate of Reaction and Energetics, Enthalpy Changes_
 
 <details>
 <summary>Solution</summary>
@@ -472,7 +472,7 @@ $$\mathrm{CaCO_3} \to \mathrm{CaO} + \mathrm{CO_2} \quad \Delta H = +178 \mathrm
 Produced at the cathode rather than sodium, and why chlorine is produced at the anode rather than
 Oxygen.
 
-_If you get this wrong, revise: VI. Redox and Electrochemistry — Electrolysis (Aqueous)_
+_If you get this wrong, revise: VI. Redox and Electrochemistry, Electrolysis (Aqueous)_
 
 <details>
 <summary>Solution</summary>
@@ -492,7 +492,7 @@ $2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-$.
 $0.100 \mathrm{ mol/dm^3}$ sodium hydroxide. The average titre is $16.7 \mathrm{ cm^3}$. Calculate
 the concentration of the ethanoic acid and state whether it is a strong or weak acid.
 
-_If you get this wrong, revise: IV. Acids, Bases, and Salts and III. Stoichiometry — Titration_
+_If you get this wrong, revise: IV. Acids, Bases, and Salts and III. Stoichiometry, Titration_
 
 <details>
 <summary>Solution</summary>
@@ -507,18 +507,18 @@ $$n(\mathrm{CH_3COOH}) = 1.67 \times 10^{-3} \mathrm{ mol}$$
 
 $$c(\mathrm{CH_3COOH}) = \frac{1.67 \times 10^{-3}}{0.0250} = 0.0668 \mathrm{ mol/dm^3}$$
 
-Ethanoic acid is a **weak acid** — it only partially dissociates in aqueous solution, producing a
+Ethanoic acid is a **weak acid**, it only partially dissociates in aqueous solution, producing a
 Lower concentration of $\mathrm{H^+}$ ions than a strong acid of the same concentration would.
 
 </details>
 
 ## Intuition
 
-**A chemistry roadmap:** DSE Chemistry covers the essential building blocks of matter and how they interact — from atomic structure to organic reactions. Each topic builds on the previous one.
+**A chemistry roadmap:** DSE Chemistry covers the essential building blocks of matter and how they interact, from atomic structure to organic reactions. Each topic builds on the previous one.
 
-**Why it matters:** Chemistry explains the material world — from why rust forms to how medicines work. Understanding chemistry helps you make sense of everyday phenomena.
+**Why it matters:** Chemistry explains the material world, from why rust forms to how medicines work. Understanding chemistry helps you make sense of everyday phenomena.
 
-**The key insight:** Chemical reactions are about rearranging atoms — the same atoms exist before and after, just in different combinations.
+**The key insight:** Chemical reactions are about rearranging atoms, the same atoms exist before and after, just in different combinations.
 
 ## Common Pitfalls
 

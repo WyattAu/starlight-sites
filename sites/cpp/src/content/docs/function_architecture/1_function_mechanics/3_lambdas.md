@@ -1,7 +1,7 @@
 ---
 
-title: Lambda Expressions — Capture Layouts and Closure Types
-description: "A lambda expression produces a — an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic"
+title: Lambda Expressions, Capture Layouts and Closure Types
+description: "A lambda expression produces a, an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic"
 date: 2026-04-03T00:00:00.000Z
 tags:
   - Cpp
@@ -21,13 +21,13 @@ categories:
 
 ## Lambda Expressions: Capture Layouts and Closure Types
 
-A lambda expression produces a **closure object** — an unnamed object of an unnamed class type (the
+A lambda expression produces a **closure object**, an unnamed object of an unnamed class type (the
 Closure type). This section covers lambda syntax, capture modes, generic lambdas, stateful lambda
 Lifetime issues, and the overhead of type erasure via `std::function`.
 
 ## 3.1 Syntax and Structure [N4950 §8.1.5]
 
-A lambda expression produces a **closure object** — an unnamed object of an unnamed class type (the
+A lambda expression produces a **closure object**, an unnamed object of an unnamed class type (the
 Closure type). The closure type contains:
 
 - A public inline `operator()` corresponding to the lambda"s parameters and body.
@@ -162,7 +162,7 @@ int main() {
         return *p;
     };
     std::cout << use_ptr() << '\n';  // 42
-    // ptr is now nullptr — ownership moved into the closure
+    // ptr is now nullptr, ownership moved into the closure
 
     // Expression capture: compute a derived value at capture time
     std::vector<int> data = {1, 2, 3, 4, 5};
@@ -203,7 +203,7 @@ int main() {
 }
 ```
 
-Note that `[key, value]` alone in the capture list does NOT work for structured bindings — you must
+Note that `[key, value]` alone in the capture list does NOT work for structured bindings, you must
 Use init-capture syntax `[k = key, v = value]`.
 
 ## 3.3 Mutable Lambdas
@@ -224,7 +224,7 @@ int main() {
     std::cout << inc() << '\n';  // 1
     std::cout << inc() << '\n';  // 2
     std::cout << inc() << '\n';  // 3
-    std::cout << counter << '\n'; // 0 — the original is unchanged
+    std::cout << counter << '\n'; // 0, the original is unchanged
 
     // Without mutable, this would not compile:
     // auto inc_const = [counter]() { return ++counter; };
@@ -352,7 +352,7 @@ Pass custom comparators and predicates.
 ## 3.5 Stateful Lambdas and Lifetime Issues
 
 A lambda that captures by reference holds references to local variables. If the lambda outlives
-Those variables (e.g., by being returned or stored), the references become dangling — undefined
+Those variables (e.g., by being returned or stored), the references become dangling, undefined
 Behavior.
 
 ```cpp
@@ -375,11 +375,11 @@ std::function<int(int)> make_multiplier_good(int factor) {
 
 int main() {
     auto good = make_multiplier_good(5);
-    std::cout << good(10) << '\n';  // 50 — safe, factor is stored by value
+    std::cout << good(10) << '\n';  // 50, safe, factor is stored by value
 
     int f = 5;
     auto bad = make_multiplier_bad(f);
-    std::cout << bad(10) << '\n';   // 50 — works here, but fragile
+    std::cout << bad(10) << '\n';   // 50, works here, but fragile
     // After f goes out of scope, calling bad() is undefined behavior
 }
 ```
@@ -521,11 +521,11 @@ heap-allocated:
 #include <cstdint>
 
 int main() {
-    // Small closure (8 bytes: one int) — fits in SBO, no heap allocation
+    // Small closure (8 bytes: one int), fits in SBO, no heap allocation
     auto small = [x = 42]() { return x; };
     std::function<int()> f_small = small;
 
-    // Large closure (64 bytes: 8 ints) — heap allocated on most implementations
+    // Large closure (64 bytes: 8 ints), heap allocated on most implementations
     auto large = [a = 1, b = 2, c = 3, d = 4, e = 5, f = 6, g = 7, h = 8]() {
         return a + b + c + d + e + f + g + h;
     };
@@ -607,11 +607,11 @@ int main() {
 
 ## Intuition
 
-**Inline functions:** Lambdas are like anonymous functions — they let you define small functions inline, capturing variables from their surroundings.
+**Inline functions:** Lambdas are like anonymous functions, they let you define small functions inline, capturing variables from their surroundings.
 
 **Why it matters:** Lambdas make code more concise and expressive, especially for callbacks, algorithms, and functional-style programming.
 
-**The key insight:** Captures are how lambdas access variables from their enclosing scope — [=] captures by value, [&] captures by reference.
+**The key insight:** Captures are how lambdas access variables from their enclosing scope, [=] captures by value, [&] captures by reference.
 
 ## Common Pitfalls
 
@@ -652,7 +652,7 @@ int main() {
     std::vector<int> v(5);
     // std::for_each may copy the lambda multiple times internally
     std::for_each(v.begin(), v.end(), counter);
-    // count may not be 5 — depends on implementation's copy count
+    // count may not be 5, depends on implementation's copy count
 
     // Fix: use std::ref to pass by reference
     count = 0;
@@ -696,7 +696,7 @@ flowchart TD
 
 ## Summary
 
-This topic covers the fundamental principles of lambda expressions — capture layouts and closure
+This topic covers the fundamental principles of lambda expressions, capture layouts and closure
 types, including the key equations, experimental methods, and applications relevant to the
 specification.
 

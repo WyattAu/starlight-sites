@@ -37,7 +37,7 @@ That will be available in the future. The caller can:
 - **Poll** with `wait_for(duration)` or `wait_until(time_point)`Which return the readiness status
   without blocking indefinitely.
 
-`std::future` is **move-only** — it cannot be copied. After `get()` is called, the future is
+`std::future` is **move-only**, it cannot be copied. After `get()` is called, the future is
 Invalidated (subsequent calls to `get()` throw `std::future_error` with
 `std::future_errc::no_state`).
 
@@ -87,7 +87,7 @@ Policy controls execution:
 | Policy                                                  | Behavior                                                       |
 | :------------------------------------------------------ | :------------------------------------------------------------- |
 | `std::launch::async`                                    | Runs on a new thread (or thread pool); guaranteed asynchronous |
-| `std::launch::deferred`                                 | Lazy — runs when `get()` is called on the calling thread       |
+| `std::launch::deferred`                                 | Lazy, runs when `get()` is called on the calling thread       |
 | `std::launch::async \| std::launch::deferred` (default) | Implementation chooses (may be either)                         |
 
 :::caution
@@ -122,7 +122,7 @@ JavaScript `Promise.then()` or Rust"s `Future`C++ `std::future`:
 - Cannot be cancelled.
 - Is not a coroutine awaitable (no `operator co_await`).
 
-This is why C++20 coroutines are essential for real-world asynchronous programming — they provide
+This is why C++20 coroutines are essential for real-world asynchronous programming, they provide
 The composability that `std::future` lacks. Libraries like `cppcoro` (now archived) and the proposed
 `std::execution` (P2300) aim to bridge this gap.
 

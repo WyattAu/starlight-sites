@@ -61,7 +61,7 @@ Solid state chemistry covers the structure of crystalline solids, unit cells, pa
 - Schottky defect: missing cation-anion pair (creates vacancies)
 - Frenkel defect: cation displaced to interstitial site
 
-## Worked Example 1 — Unit Cell Calculations
+## Worked Example 1, Unit Cell Calculations
 
 **Problem:** An element has BCC structure with edge length $3 \times 10^{-8} \, \text{cm}$. Calculate its density if the atomic mass is $93 \, \text{g/mol}$.
 
@@ -77,7 +77,7 @@ $$= \frac{186}{162.594} = 1.144 \, \text{g/cm}^3$$
 
 **Common mistake:** Using $Z = 1$ for BCC instead of $Z = 2$. In BCC, there is 1 atom from corners ($8 \times 1/8$) + 1 from body centre = 2.
 
-## Worked Example 2 — Packing Efficiency
+## Worked Example 2, Packing Efficiency
 
 **Problem:** Calculate the packing efficiency of FCC.
 
@@ -97,7 +97,7 @@ $$\eta = \frac{V_{\text{atoms}}}{V_{\text{cell}}} = \frac{\frac{16}{3}\pi r^3}{1
 
 **Common mistake:** Using $a = 2r$ for FCC. In FCC, atoms touch along the face diagonal, so $\sqrt{2}a = 4r$.
 
-## Worked Example 3 — Defects
+## Worked Example 3, Defects
 
 **Problem:** Explain why $\text{NaCl}$ shows Schottky defects while $\text{AgCl}$ shows Frenkel defects.
 
@@ -129,9 +129,9 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 
 ## Intuition
 
-**Atoms are lazy packers — they fill space as efficiently as possible:** Imagine stacking oranges at a grocery store. You'd logically arrange them so each orange touches as many neighbors as possible, minimizing gaps. This is exactly what atoms do in metals and ionic solids — they pack to maximize coordination number and minimize wasted space.
+**Atoms are lazy packers, they fill space as efficiently as possible:** Imagine stacking oranges at a grocery store. You'd logically arrange them so each orange touches as many neighbors as possible, minimizing gaps. This is exactly what atoms do in metals and ionic solids, they pack to maximize coordination number and minimize wasted space.
 
-**Why it matters:** Crystal structure determines material properties — conductivity, hardness, melting point, and brittleness all depend on how atoms are arranged. Understanding packing helps predict why copper is ductile while ceramics are brittle, and why semiconductors have band gaps.
+**Why it matters:** Crystal structure determines material properties, conductivity, hardness, melting point, and brittleness all depend on how atoms are arranged. Understanding packing helps predict why copper is ductile while ceramics are brittle, and why semiconductors have band gaps.
 
 **The key insight:** The density formula ρ = ZM/(Nₐa³) connects the microscopic world (unit cell geometry) to the macroscopic world (measurable density), bridging atomic-scale structure to bulk material properties.
 

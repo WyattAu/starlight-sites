@@ -75,7 +75,7 @@ Longer. C-SCAN treats the disk as a circular queue, ensuring every request is se
 Full sweep. $\blacksquare$
 
 <details>
-<summary>Worked Example 7.1 — Disk Scheduling Comparison</summary>
+<summary>Worked Example 7.1, Disk Scheduling Comparison</summary>
 
 Disk with 200 cylinders (0--199). Request queue (sorted): 98, 183, 37, 122, 14, 124, 65, 67. Current
 head position: 53, moving toward higher cylinders.
@@ -147,7 +147,7 @@ flowchart TD
 
 ## Intuition
 
-I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute — simple but wasteful. Interrupts are like a doorbell — the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service — the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room — data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.
+I/O systems are the nervous system connecting the CPU to the outside world. Polling is like checking the mailbox every minute, simple but wasteful. Interrupts are like a doorbell, the device signals when it needs attention, and the CPU drops what it is doing to respond. DMA is like hiring a delivery service, the device transfers data directly to memory without bothering the CPU for every byte. Buffering is the waiting room, data is collected in a holding area before being processed in bulk, smoothing out the mismatch between fast producers and slow consumers.
 
 ## Cross-References
 

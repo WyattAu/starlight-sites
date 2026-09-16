@@ -52,11 +52,11 @@ An operating system (OS) is system software that manages computer hardware and s
 
 ## Intuition
 
-**A hotel manager for your computer:** An OS is like a hotel manager — it分配s rooms (memory), manages guests (processes), handles check-in/check-out (scheduling), and ensures no guest wanders into another's room (protection). Without it, your computer would be chaos.
+**A hotel manager for your computer:** An OS is like a hotel manager, it分配s rooms (memory), manages guests (processes), handles check-in/check-out (scheduling), and ensures no guest wanders into another's room (protection). Without it, your computer would be chaos.
 
-**Why it matters:** The OS is the invisible layer that makes your computer usable — it manages hardware so you don't have to write raw memory addresses or manually switch between programs. Understanding it explains why programs crash, why memory matters, and how virtualisation works.
+**Why it matters:** The OS is the invisible layer that makes your computer usable, it manages hardware so you don't have to write raw memory addresses or manually switch between programs. Understanding it explains why programs crash, why memory matters, and how virtualisation works.
 
-**The key insight:** The OS abstracts away hardware complexity through layers of indirection — virtual memory, process abstraction, and file systems all create the illusion of infinite, safe, organised resources.
+**The key insight:** The OS abstracts away hardware complexity through layers of indirection, virtual memory, process abstraction, and file systems all create the illusion of infinite, safe, organised resources.
 
 ## Key Concepts
 

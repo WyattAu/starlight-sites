@@ -45,11 +45,11 @@ JavaScript is a dynamically-typed language: variables can hold any type of value
 
 TypeScript solves these problems by adding a type system that is checked at compile time. The benefits include:
 
-1. **Early error detection** — Type errors are caught before the code runs
-2. **Better IDE support** — Autocompletion, inline documentation, and refactoring tools work reliably
-3. **Self-documenting code** — Type annotations serve as documentation that never goes out of date
-4. **Safer refactoring** — The compiler verifies that changes do not break existing code
-5. **Improved collaboration** — Types communicate intent clearly between team members
+1. **Early error detection**, Type errors are caught before the code runs
+2. **Better IDE support**, Autocompletion, inline documentation, and refactoring tools work reliably
+3. **Self-documenting code**, Type annotations serve as documentation that never goes out of date
+4. **Safer refactoring**, The compiler verifies that changes do not break existing code
+5. **Improved collaboration**, Types communicate intent clearly between team members
 
 ## Intuition: What TypeScript Really Is
 
@@ -67,20 +67,20 @@ TypeScript provides several basic types that map to JavaScript's runtime types:
 
 TypeScript supports all JavaScript primitive types with dedicated type keywords:
 
-- `string` — Text values. Example: `let name: string = "Alice";`
-- `number` — All numeric values (integers and floats). Example: `let age: number = 25;`
-- `boolean` — True or false. Example: `let active: boolean = true;`
-- `null` and `undefined` — Absence of value. Example: `let x: null = null;`
-- `bigint` — Arbitrary-precision integers. Example: `let big: bigint = 100n;`
-- `symbol` — Unique identifiers. Example: `let sym: symbol = Symbol("key");`
+- `string`Text values. Example: `let name: string = "Alice";`
+- `number`All numeric values (integers and floats). Example: `let age: number = 25;`
+- `boolean`True or false. Example: `let active: boolean = true;`
+- `null` and `undefined`Absence of value. Example: `let x: null = null;`
+- `bigint`Arbitrary-precision integers. Example: `let big: bigint = 100n;`
+- `symbol`Unique identifiers. Example: `let sym: symbol = Symbol("key");`
 
 ### Arrays
 
 Arrays can be typed using either the element type followed by square brackets or the generic `Array` syntax:
 
-- `number[]` — An array of numbers
-- `Array<string>` — An array of strings (generic syntax)
-- `readonly number[]` — A readonly array that cannot be modified after creation
+- `number[]`An array of numbers
+- `Array<string>`An array of strings (generic syntax)
+- `readonly number[]`A readonly array that cannot be modified after creation
 
 Readonly arrays are useful for representing immutable data. Methods like `push`, `pop`, and `splice` are not available on readonly arrays, which prevents accidental modification.
 
@@ -88,9 +88,9 @@ Readonly arrays are useful for representing immutable data. Methods like `push`,
 
 Tuples are fixed-length arrays where each position has a specific type. They are useful for representing structured data with a known shape:
 
-- `[string, number]` — First element is a string, second is a number
-- `[string, number?]` — Second element is optional
-- `[string, ...number[]]` — A string followed by any number of numbers
+- `[string, number]`First element is a string, second is a number
+- `[string, number?]`Second element is optional
+- `[string, ...number[]]`A string followed by any number of numbers
 
 Tuples are commonly used as return types for functions that return multiple values, or as elements in data structures where the position of each element carries meaning.
 
@@ -164,21 +164,21 @@ Generics allow you to write functions, classes, and interfaces that work with an
 
 A generic function accepts a type parameter (conventionally `T`) that is determined by the caller:
 
-- `function identity<T>(x: T): T { return x; }` — Returns whatever type it receives
-- `function first<T>(arr: T[]): T | undefined { return arr[0]; }` — Returns the first element of any array
+- `function identity<T>(x: T): T { return x; }`Returns whatever type it receives
+- `function first<T>(arr: T[]): T | undefined { return arr[0]; }`Returns the first element of any array
 
 ### Generic Constraints
 
 You can constrain generic types to objects with specific properties using the `extends` keyword:
 
-- `function getLength<T extends { length: number }>(x: T): number { return x.length; }` — Only accepts types with a `length` property
+- `function getLength<T extends { length: number }>(x: T): number { return x.length; }`Only accepts types with a `length` property
 
 ### Generic Classes and Interfaces
 
 Classes and interfaces can also be generic. This is commonly used for data structures:
 
-- `class Stack<T> { private items: T[] = []; push(item: T): void { ... } }` — A type-safe stack that works with any type
-- `interface Repository<T> { findById(id: string): T | null; save(entity: T): void; }` — A generic interface for data access
+- `class Stack<T> { private items: T[] = []; push(item: T): void { ... } }`A type-safe stack that works with any type
+- `interface Repository<T> { findById(id: string): T | null; save(entity: T): void; }`A generic interface for data access
 
 ## Advanced Types
 
@@ -186,11 +186,11 @@ Classes and interfaces can also be generic. This is commonly used for data struc
 
 Mapped types transform existing types by iterating over their properties. TypeScript provides several built-in mapped types:
 
-- `Partial<T>` — Makes all properties optional
-- `Required<T>` — Makes all properties required
-- `Readonly<T>` — Makes all properties readonly
-- `Pick<T, K>` — Extracts a subset of properties
-- `Omit<T, K>` — Removes specific properties
+- `Partial<T>`Makes all properties optional
+- `Required<T>`Makes all properties required
+- `Readonly<T>`Makes all properties readonly
+- `Pick<T, K>`Extracts a subset of properties
+- `Omit<T, K>`Removes specific properties
 
 ### Conditional Types
 
@@ -200,54 +200,54 @@ Conditional types create types based on conditions. They use the syntax `T exten
 
 Template literal types create string types from patterns. They are useful for type-safe string manipulation:
 
-- `type EventName = ${"click" | "focus" | "blur"}` — Creates `"click" | "focus" | "blur"`
-- `type CSSProperty = ${"margin" | "padding"}-${"top" | "bottom" | "left" | "right"}` — Creates all combinations
+- `type EventName = ${"click" | "focus" | "blur"}`Creates `"click" | "focus" | "blur"`
+- `type CSSProperty = ${"margin" | "padding"}-${"top" | "bottom" | "left" | "right"}`Creates all combinations
 
 ### Enums
 
 Enums define a set of named constants. They are useful for representing a fixed set of choices:
 
-- Numeric enums: `enum Direction { Up, Down, Left, Right }` — Values auto-increment from 0
-- String enums: `enum Color { Red = "red", Green = "green", Blue = "blue" }` — Explicit string values
-- Const enums: `const enum Status { Active, Inactive }` — Inlined at compile time for better performance
+- Numeric enums: `enum Direction { Up, Down, Left, Right }`Values auto-increment from 0
+- String enums: `enum Color { Red = "red", Green = "green", Blue = "blue" }`Explicit string values
+- Const enums: `const enum Status { Active, Inactive }`Inlined at compile time for better performance
 
 ### Modules and Namespaces
 
 TypeScript uses ES modules as its module system:
 
-- `export` and `import` — Named exports and default exports work as in JavaScript
-- `import type` — Import only the type, erased at compile time
-- `namespace` — Group related declarations (less common in modern TypeScript)
+- `export` and `import`Named exports and default exports work as in JavaScript
+- `import type`Import only the type, erased at compile time
+- `namespace`Group related declarations (less common in modern TypeScript)
 
 ## Classes
 
 TypeScript classes extend JavaScript classes with access modifiers, abstract members, and property declarations:
 
-- `public` — Accessible from anywhere (default)
-- `private` — Accessible only within the class
-- `protected` — Accessible within the class and its subclasses
-- `readonly` — Can only be assigned in the constructor
+- `public`Accessible from anywhere (default)
+- `private`Accessible only within the class
+- `protected`Accessible within the class and its subclasses
+- `readonly`Can only be assigned in the constructor
 
 ### Abstract Classes
 
 Abstract classes cannot be instantiated directly. They serve as base classes that define a common interface and shared implementation for related classes:
 
-- `abstract class Shape { abstract area(): number; }` — Declares a required method
-- `class Circle extends Shape { area() { return Math.PI * this.radius ** 2; } }` — Implements the abstract method
+- `abstract class Shape { abstract area(): number; }`Declares a required method
+- `class Circle extends Shape { area() { return Math.PI * this.radius ** 2; } }`Implements the abstract method
 
 ### Property Declarations
 
 TypeScript allows you to declare class properties with their types directly in the constructor parameters using parameter properties:
 
-- `constructor(public name: string, private age: number) {}` — Creates and initializes properties automatically
+- `constructor(public name: string, private age: number) {}`Creates and initializes properties automatically
 
 ## Error Handling
 
 TypeScript provides several patterns for handling errors:
 
-- `try/catch/finally` — Standard JavaScript error handling with typed catch parameters
-- `Result<T, E>` — A functional pattern that represents success or failure without exceptions
-- Discriminated unions — Use union types with a `kind` or `status` field to represent error states in the type system
+- `try/catch/finally`Standard JavaScript error handling with typed catch parameters
+- `Result<T, E>`A functional pattern that represents success or failure without exceptions
+- Discriminated unions, Use union types with a `kind` or `status` field to represent error states in the type system
 
 The key principle is to make error states explicit in the type system rather than relying on runtime checks or exceptions alone.
 
@@ -257,21 +257,21 @@ The key principle is to make error states explicit in the type system rather tha
 
 The TypeScript configuration file controls how the compiler processes your code. Key options include:
 
-- `target` — The JavaScript version to emit (ES5, ES2015, ES2020, ESNext)
-- `module` — The module system (CommonJS, ESNext, NodeNext)
-- `strict` — Enables all strict type-checking options
-- `outDir` — The output directory for compiled files
-- `rootDir` — The root directory of source files
-- `include` and `exclude` — Which files to compile
+- `target`The JavaScript version to emit (ES5, ES2015, ES2020, ESNext)
+- `module`The module system (CommonJS, ESNext, NodeNext)
+- `strict`Enables all strict type-checking options
+- `outDir`The output directory for compiled files
+- `rootDir`The root directory of source files
+- `include` and `exclude`Which files to compile
 
 ### Compiler Options
 
-- `strict: true` — Enables all strict checks (recommended for new projects)
-- `noImplicitAny` — Errors on variables without explicit types
-- `strictNullChecks` — Makes null and undefined distinct types
-- `noUnusedLocals` — Errors on unused local variables
-- `noUnusedParameters` — Errors on unused function parameters
-- `noFallthroughCasesInSwitch` — Errors on fallthrough switch cases
+- `strict: true`Enables all strict checks (recommended for new projects)
+- `noImplicitAny`Errors on variables without explicit types
+- `strictNullChecks`Makes null and undefined distinct types
+- `noUnusedLocals`Errors on unused local variables
+- `noUnusedParameters`Errors on unused function parameters
+- `noFallthroughCasesInSwitch`Errors on fallthrough switch cases
 
 ## TypeScript with React
 
@@ -285,19 +285,19 @@ TypeScript and React work together to provide type-safe component development:
 
 ## Study Tips for TypeScript
 
-1. **Start with strict mode** — Enable `strict: true` in tsconfig.json from the beginning. It catches more errors and teaches you better TypeScript habits.
+1. **Start with strict mode**, Enable `strict: true` in tsconfig.json from the beginning. It catches more errors and teaches you better TypeScript habits.
 
-2. **Type as you go** — Add types to new code immediately. Do not leave typing for later. Retroactive typing is much harder than writing types from the start.
+2. **Type as you go**, Add types to new code immediately. Do not leave typing for later. Retroactive typing is much harder than writing types from the start.
 
-3. **Use the type inference** — TypeScript can often infer types from usage. You do not always need explicit annotations. Let the compiler do the work when the type is obvious.
+3. **Use the type inference**, TypeScript can often infer types from usage. You do not always need explicit annotations. Let the compiler do the work when the type is obvious.
 
-4. **Learn the utility types** — `Partial`, `Required`, `Pick`, `Omit`, `Record`, `Exclude`, `Extract` — these save you from writing repetitive type definitions.
+4. **Learn the utility types**, `Partial`, `Required`, `Pick`, `Omit`, `Record`, `Exclude`, `Extract`these save you from writing repetitive type definitions.
 
-5. **Read error messages carefully** — TypeScript error messages are descriptive and often tell you exactly what is wrong. Learn to parse them.
+5. **Read error messages carefully**, TypeScript error messages are descriptive and often tell you exactly what is wrong. Learn to parse them.
 
-6. **Use `any` as a last resort** — `any` disables type checking for a value. It is sometimes necessary during migration, but overuse defeats the purpose of TypeScript.
+6. **Use `any` as a last resort**, `any` disables type checking for a value. It is sometimes necessary during migration, but overuse defeats the purpose of TypeScript.
 
-7. **Practise with real projects** — The best way to learn TypeScript is to convert an existing JavaScript project or start a new project with TypeScript from the beginning.
+7. **Practise with real projects**, The best way to learn TypeScript is to convert an existing JavaScript project or start a new project with TypeScript from the beginning.
 
 ## Common Mistakes in TypeScript
 
@@ -322,9 +322,9 @@ TypeScript and React work together to provide type-safe component development:
 
 ## Further Reading
 
-- *Programming TypeScript* by Boris Cherny — Comprehensive guide to TypeScript
-- *Effective TypeScript* by Dan Vanderkam — 62 specific ways to improve your TypeScript
-- TypeScript official handbook (typescriptlang.org/docs/handbook) — The definitive reference
-- *TypeScript in 50 Lessons* by Stefan Baumgartner — Practical TypeScript patterns
+- *Programming TypeScript* by Boris Cherny, Comprehensive guide to TypeScript
+- *Effective TypeScript* by Dan Vanderkam, 62 specific ways to improve your TypeScript
+- TypeScript official handbook (typescriptlang.org/docs/handbook), The definitive reference
+- *TypeScript in 50 Lessons* by Stefan Baumgartner, Practical TypeScript patterns
 
 Keep practising and reviewing to master this topic.

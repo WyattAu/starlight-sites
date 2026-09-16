@@ -24,11 +24,11 @@ critically and use quantitative indicators alongside qualitative evidence.
 
 ## Intuition
 
-**Economic development is like a ladder — countries climb from subsistence agriculture to industrial production to service economies:** Development is not just about wealth — it encompasses health, education, governance, and quality of life
+**Economic development is like a ladder, countries climb from subsistence agriculture to industrial production to service economies:** Development is not just about wealth, it encompasses health, education, governance, and quality of life
 
 **Why it matters:** Understanding economic development helps explain global inequality and guides policies for poverty reduction
 
-**The key insight:** Development is not just about wealth — it encompasses health, education, governance, and quality of life
+**The key insight:** Development is not just about wealth, it encompasses health, education, governance, and quality of life
 
 ## Contents
 

@@ -33,7 +33,7 @@ flowchart TD
 
 ## Intuition
 
-**English literature explores the human experience through language — words painting pictures of life.**
+**English literature explores the human experience through language, words painting pictures of life.**
 
 ## Coursework Guide
 
@@ -76,7 +76,7 @@ Check your exam board's specification for the most current requirements, as thes
 Select texts that:
 
 1. **Offer thematic richness**: Choose texts with sufficient depth and ambiguity to sustain 2500-3000 words of analysis. Avoid texts that are too simple or too opaque for sustained critical engagement.
-2. **Permit genuine comparison**: If the NEA is comparative, the texts must share a meaningful connection—not merely a superficial thematic link but a structural, formal, or contextual relationship that rewards analytical exploration.
+2. **Permit genuine comparison**: If the NEA is comparative, the texts must share a meaningful connection–not merely a superficial thematic link but a structural, formal, or contextual relationship that rewards analytical exploration.
 3. **Have available criticism**: Ensure there is a range of critical material accessible for both texts. University libraries, JSTOR, and academic databases are primary sources.
 4. **Align with your interests**: Sustained independent study requires genuine engagement. Choose texts that provoke your curiosity.
 
@@ -186,7 +186,7 @@ Eliot, George. "The Female Novelist." _Selected Essays_, edited by Newton Arvin,
 
 The following excerpt demonstrates the quality of analysis expected at the top mark bands:
 
-> Brontë's use of first-person narration in _Jane Eyre_ establishes a paradox of self-presentation: Jane's voice is simultaneously intimate and strategic, inviting the reader's sympathy while carefully constructing a version of events that serves her rhetorical purpose. When Jane declares, "I am no bird; and no net ensnares me," the negation performs the very autonomy it describes; she defines herself through refusal, asserting agency through what she is not (Brontë 87). Rhys's Antoinette, by contrast, is denied this rhetorical sovereignty. Her narrative in _Wide Sargasso Sea_ is fragmented, discontinuous, and ultimately supplanted by Rochester's authoritative voice. Where Jane constructs a coherent self through language, Antoinette's identity dissolves: "I saw myself in the looking-glass... I am a ghost now" (Rhys 105). This contrast reveals how both writers use narrative voice to explore the extent to which selfhood is constituted through language—and how the power to narrate one's own story is never equally distributed.
+> Brontë's use of first-person narration in _Jane Eyre_ establishes a paradox of self-presentation: Jane's voice is simultaneously intimate and strategic, inviting the reader's sympathy while carefully constructing a version of events that serves her rhetorical purpose. When Jane declares, "I am no bird; and no net ensnares me," the negation performs the very autonomy it describes; she defines herself through refusal, asserting agency through what she is not (Brontë 87). Rhys's Antoinette, by contrast, is denied this rhetorical sovereignty. Her narrative in _Wide Sargasso Sea_ is fragmented, discontinuous, and ultimately supplanted by Rochester's authoritative voice. Where Jane constructs a coherent self through language, Antoinette's identity dissolves: "I saw myself in the looking-glass... I am a ghost now" (Rhys 105). This contrast reveals how both writers use narrative voice to explore the extent to which selfhood is constituted through language–and how the power to narrate one's own story is never equally distributed.
 
 This excerpt integrates close reading (language analysis), context (narrative theory), and comparison (both texts) within a single sustained argument.
 

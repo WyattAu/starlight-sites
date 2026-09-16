@@ -118,7 +118,7 @@ The fluctuation-dissipation theorem unifies these: the Einstein relation and Joh
 
 - **Applying the FDT only to equilibrium systems.** The standard FDT assumes the system is in thermal equilibrium. **Fix:** For non-equilibrium steady states, use generalised fluctuation-dissipation relations that include additional correlation terms.
 - **Confusing white noise with infinite power.** Johnson-Nyquist noise is white only up to $f \sim k_BT/h \approx 6$ THz at 300 K; above this, quantum effects cut off the spectrum. **Fix:** Use $S_V(f) = 4k_BTR \cdot [\hbar f/(k_BT)]/[\exp(\hbar f/k_BT) - 1]$ for the quantum-corrected spectrum.
-- **Assuming Jarzynski equality only applies to slow processes.** The equality holds for arbitrarily fast (even instantaneous) processes. **Fix:** The work distribution for a fast process has large tails, but the exponential average still equals $e^{-\beta\Delta F}$ — verify with the two-level example.
+- **Assuming Jarzynski equality only applies to slow processes.** The equality holds for arbitrarily fast (even instantaneous) processes. **Fix:** The work distribution for a fast process has large tails, but the exponential average still equals $e^{-\beta\Delta F}$, verify with the two-level example.
 - **Forgetting to take the exponential average in experiments.** The average $\langle e^{-\beta W}\rangle$ is dominated by rare trajectories with negative work, requiring many samples to converge. **Fix:** Use Bennett's acceptance ratio or Hummer-Szabo estimator for better convergence.
 
 ### 19.7 Applications

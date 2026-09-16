@@ -18,7 +18,7 @@ description: "Study notes for Carbon Cycle and Sequestration with worked example
 
 ## Intuition
 
-**The carbon cycle is like a global carbon budget — carbon moves between atmosphere, oceans, plants, and soil in a delicate balance:** Human activities have disrupted the carbon cycle by releasing stored carbon faster than natural processes can absorb it
+**The carbon cycle is like a global carbon budget, carbon moves between atmosphere, oceans, plants, and soil in a delicate balance:** Human activities have disrupted the carbon cycle by releasing stored carbon faster than natural processes can absorb it
 
 **Why it matters:** Understanding the carbon cycle is crucial for addressing climate change through emissions reduction and carbon sequestration strategies
 

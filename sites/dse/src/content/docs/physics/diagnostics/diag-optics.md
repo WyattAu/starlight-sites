@@ -25,7 +25,7 @@ flowchart TD
     D --> G[Real-world usage]
 ```
 
-## Optics — Diagnostic Tests
+## Optics, Diagnostic Tests
 
 ## Unit Tests
 

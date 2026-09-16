@@ -121,10 +121,10 @@ for (const file of files) {
   const findings = scanFile(file)
   for (const f of findings) {
     if (f.confidence === 'high') {
-      console.error(`HIGH  ${f.file}:${f.line} — ${f.label}`)
+      console.error(`HIGH  ${f.file}:${f.line}, ${f.label}`)
       highCount++
     } else {
-      console.error(`MED   ${f.file}:${f.line} — ${f.label}`)
+      console.error(`MED   ${f.file}:${f.line}, ${f.label}`)
       mediumCount++
     }
   }

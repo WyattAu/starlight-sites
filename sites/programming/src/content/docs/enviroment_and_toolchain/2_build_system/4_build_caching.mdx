@@ -52,7 +52,7 @@ Compilation** for unchanged units.
 
 - **Architecture:** Content-addressable cache with remote backends.
 - **Mechanism:** Bazel builds include caching as a first-class concept. The `bazel-remote` project
-  provides a gRPC/HTTP cache server. Bazel's caching is fine-grained — it caches individual build
+  provides a gRPC/HTTP cache server. Bazel's caching is fine-grained, it caches individual build
   actions, not just compiler invocations.
 
 ### Comparison Table
@@ -424,8 +424,8 @@ max cache size                      10.0 GB
 
 Key fields:
 
-- **cache hit (direct):** Direct mode hit — fastest path, no preprocessing.
-- **cache hit (preprocessed):** Preprocessed mode hit — slower but still avoids compilation.
+- **cache hit (direct):** Direct mode hit, fastest path, no preprocessing.
+- **cache hit (preprocessed):** Preprocessed mode hit, slower but still avoids compilation.
 - **cache miss:** Input was not in cache, full compilation occurred.
 - **cache hit ratio:** Below 80% suggests something is defeating the cache (see pitfalls).
 
@@ -599,7 +599,7 @@ Available sloppiness options:
 - `include_file_mtime`: Ignore header modification time changes.
 - `pch_defines`: Ignore differences in precompiled header defines.
 - `locale`: Ignore locale settings (affects string literals in some locales).
-- `system_headers`: Don't hash system headers (risky — system header updates won't invalidate
+- `system_headers`: Don't hash system headers (risky, system header updates won't invalidate
   cache).
 
 ### When to Use Sloppiness

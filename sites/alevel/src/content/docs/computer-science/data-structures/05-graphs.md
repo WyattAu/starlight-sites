@@ -42,7 +42,7 @@ $E \subseteq V \times V$.
 | Path       | Sequence of vertices where consecutive vertices are adjacent |
 | Cycle      | Path that starts and ends at the same vertex                 |
 | Connected  | There is a path between every pair of vertices               |
-| DAG        | Directed Acyclic Graph — a directed graph with no cycles     |
+| DAG        | Directed Acyclic Graph, a directed graph with no cycles     |
 
 **Theorem (Handshaking Lemma).** The sum of all vertex degrees equals $2|E|$.
 
@@ -160,7 +160,7 @@ inductive hypothesis or a previous BFS level). So $v$ is at distance exactly $d 
 Discovered at that distance. No vertex can be discovered at distance $\gt d + 1$ through $u$ Since
 each edge adds exactly 1 to the path length. $\square$
 
-**Complexity:** $O(V + E)$ — each vertex is visited once, each edge is examined at most twice (once
+**Complexity:** $O(V + E)$, each vertex is visited once, each edge is examined at most twice (once
 From each endpoint in undirected graphs).
 
 ### 3.2 Depth-First Search (DFS)
@@ -180,7 +180,7 @@ def dfs(graph, start):
     dfs_visit(start)
 ```
 
-**Complexity:** $O(V + E)$ — same analysis as BFS.
+**Complexity:** $O(V + E)$, same analysis as BFS.
 
 ### BFS vs DFS
 
@@ -245,7 +245,7 @@ The first vertex on $P$ not in $S$ And let $y$ be the predecessor of $x$ on $P$ 
 $$\mathrm{dist}[x] \leq \mathrm{dist}[y] + w(y, x) = d(s, y) + w(y, x) = d(s, x) \leq d(s, u) < \mathrm{dist}[u]$$
 
 Since $\mathrm{dist}[x] \lt \mathrm{dist}[u]$, $x$ would have been extracted from the priority Queue
-before $u$ — contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
+before $u$, contradiction. Therefore $\mathrm{dist}[u] = d(s, u)$. $\square$
 
 **Complexity:** With a binary heap: $O((V + E) \log V)$. Each vertex is extracted once ($O(\log V)$
 Each), and each edge causes at most one decrease-key ($O(\log V)$ each).
@@ -314,7 +314,7 @@ def kruskal(graph):
 ```
 
 **Correctness.** Kruskal's algorithm is correct by the cut property. When an edge $e$ is added, the
-Vertices it connects are in different components — this defines a cut where $e$ is the minimum
+Vertices it connects are in different components, this defines a cut where $e$ is the minimum
 Crossing edge (since edges are processed in sorted order). By the cut property, $e$ belongs to some
 MST.
 
@@ -412,11 +412,11 @@ Vertices are visited and their distances.
 
 | Step | Dequeue | Visit   | Neighbours                  | Queue (front→rear) | Distances     |
 | ---- | ------- | ------- | --------------------------- | ------------------ | ------------- |
-| 0    | —       | —       | —                           | [A]                | A:0           |
+| 0    |,       |,       |,                           | [A]                | A:0           |
 | 1    | A       | B, C, D | B, C, D                     | [B, C, D]          | B:1, C:1, D:1 |
-| 2    | B       | A, C    | A (visited)                 | [C, D]             | —             |
-| 3    | C       | A, B, D | A, B (visited), D (visited) | [D]                | —             |
-| 4    | D       | C, A    | C, A (visited)              | []                 | —             |
+| 2    | B       | A, C    | A (visited)                 | [C, D]             |,             |
+| 3    | C       | A, B, D | A, B (visited), D (visited) | [D]                |,             |
+| 4    | D       | C, A    | C, A (visited)              | []                 |,             |
 
 Visit order: A, B, C, D. Distances: A:0, B:1, C:1, D:1.
 
@@ -430,7 +430,7 @@ Weighted graph. Edges: A→B (4), A→C (2), B→C (1), B→D (5), C→B (1), C�
 
 | Step | Extract | dist[A] | dist[B] | dist[C] | dist[D] | dist[E] |
 | ---- | ------- | ------- | ------- | ------- | ------- | ------- |
-| 0    | —       | 0       | ∞       | ∞       | ∞       | ∞       |
+| 0    |,       | 0       | ∞       | ∞       | ∞       | ∞       |
 | 1    | A (0)   | 0       | 4       | 2       | ∞       | ∞       |
 | 2    | C (2)   | 0       | 3       | 2       | 10      | 12      |
 | 3    | B (3)   | 0       | 3       | 2       | 8       | 12      |
@@ -454,7 +454,7 @@ Sorted edges: B-C (1), A-C (2), D-E (3), A-B (4), B-D (5), C-D (8)
 | B-C  | 1      | Yes                | `{B-C}`                |
 | A-C  | 2      | Yes                | `{B-C, A-C}`           |
 | D-E  | 3      | Yes                | `{B-C, A-C, D-E}`      |
-| A-B  | 4      | No (cycle A-B-C-A) | —                      |
+| A-B  | 4      | No (cycle A-B-C-A) |,                      |
 | B-D  | 5      | Yes                | `{B-C, A-C, D-E, B-D}` |
 
 MST weight: $1 + 2 + 3 + 5 = 11$. 4 edges for 5 vertices. ✓
@@ -502,7 +502,7 @@ By the Handshaking Lemma: sum of degrees = $2|E| = 2 \times 9 = 18$.
 
 The graph is not necessarily connected. For example, it could consist of a $K_4$ (complete graph on
 4 vertices, 6 edges) plus a path of 3 vertices (2 edges) plus an isolated vertex, totalling
-$6 + 2 = 8$ edges — but we need 9 edges. A valid disconnected example: $K_4$ (6 edges) + a triangle
+$6 + 2 = 8$ edges, but we need 9 edges. A valid disconnected example: $K_4$ (6 edges) + a triangle
 (3 edges) = 9 edges, 7 vertices... That's too many. Actually, 6 vertices: $K_4$ (6 edges, 4
 Vertices) + an edge between the remaining 2 vertices (1 edge) + 2 more edges within the remaining 2
 Vertices is impossible. Let me reconsider: 6 vertices, 9 edges. Minimum edges for connected = 5
@@ -542,7 +542,7 @@ $$S \xrightarrow{1} A \xrightarrow{2} B \xrightarrow{1} C, \quad S \xrightarrow{
 
 | Step | Extract | dist[S] | dist[A]  | dist[B]  | dist[C]  |
 | ---- | ------- | ------- | -------- | -------- | -------- |
-| 0    | —       | 0       | $\infty$ | $\infty$ | $\infty$ |
+| 0    |,       | 0       | $\infty$ | $\infty$ | $\infty$ |
 | 1    | S (0)   | 0       | 1        | $\infty$ | 4        |
 | 2    | A (1)   | 0       | 1        | 3        | 4        |
 | 3    | B (3)   | 0       | 1        | **3**    | 4        |
@@ -606,7 +606,7 @@ Base case: $n = 1$. A single vertex has 0 edges. $0 = 1 - 1$. ✓
 
 Inductive step: Assume all trees with $k$ vertices have $k - 1$ edges. Consider a tree $T$ with
 $k + 1$ vertices. Since $T$ has at least 2 vertices (for $k \geq 1$), it has at least one leaf $v$
-(a tree with $\geq 2$ vertices always has a leaf — otherwise every vertex has degree $\geq 1$ And
+(a tree with $\geq 2$ vertices always has a leaf, otherwise every vertex has degree $\geq 1$ And
 With no cycles, we'd need $\geq n$ edges, contradicting $|E| = n - 1$). Remove leaf $v$ and its
 Single incident edge. The resulting graph $T'$ is still a tree (removing a leaf cannot create a
 Cycle, and $T'$ is still connected since $v$ was only connected to one vertex). $T'$ has $k$

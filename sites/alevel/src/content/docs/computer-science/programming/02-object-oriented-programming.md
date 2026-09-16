@@ -1,7 +1,7 @@
 ---
 
 title: "Object-Oriented Programming"
-description: "A is a blueprint (template) that defines the structure and behaviour of objects. An is an of a class — a concrete entity with specific values for the"
+description: "A is a blueprint (template) that defines the structure and behaviour of objects. An is an of a class, a concrete entity with specific values for the"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -25,7 +25,7 @@ categories:
 ### Definition
 
 A **class** is a blueprint (template) that defines the structure and behaviour of objects. An
-**object** is an **instance** of a class — a concrete entity with specific values for the attributes
+**object** is an **instance** of a class, a concrete entity with specific values for the attributes
 Defined by the class.
 
 ### Python Implementation
@@ -425,7 +425,7 @@ The actual type of the object:
 - For the `Rectangle`: calls `Rectangle.area()` → $3 \times 4 = 12$
 - For the `Circle`: calls `Circle.area()` → $\pi \times 25 \approx 78.54$
 
-The same interface (`area()`) produces different behaviour for different types — this is **run-time
+The same interface (`area()`) produces different behaviour for different types, this is **run-time
 Polymorphism** (also called **dynamic dispatch**).
 
 </details>
@@ -558,7 +558,7 @@ class AreaCalculator:
         return sum(s.area() for s in shapes)
 ```
 
-Adding a new shape requires only adding a new class — no modification to existing code.
+Adding a new shape requires only adding a new class, no modification to existing code.
 
 </details>
 
@@ -594,7 +594,7 @@ B
 (<class 'D'>, <class 'B'>, <class 'C'>, <class 'A'>, <class 'object'>)
 ```
 
-Python uses **C3 Linearization** (MRO — Method Resolution Order) to determine the order in which
+Python uses **C3 Linearization** (MRO, Method Resolution Order) to determine the order in which
 Base classes are searched for methods. For `D(B, C)`:
 
 1. `D` itself → no `greet`

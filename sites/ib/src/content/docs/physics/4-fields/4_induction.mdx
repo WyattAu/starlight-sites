@@ -80,7 +80,7 @@ Lenz's law states that the direction of the induced EMF (and hence the induced c
 It **opposes the change** in magnetic flux that produced it. This is the origin of the negative sign
 In Faraday's law.
 
-The law is a consequence of **conservation of energy** — if the induced current reinforced the
+The law is a consequence of **conservation of energy**, if the induced current reinforced the
 Change in flux, it would create a runaway effect producing infinite energy.
 
 ### Determining the Direction of Induced Current
@@ -239,10 +239,10 @@ Provides a constant current and constant flux, so no EMF is induced.
 
 Real transformers have losses due to:
 
-- **Eddy currents** in the iron core — reduced by laminating the core
-- **Hysteresis losses** — energy lost as the core is magnetised and demagnetised repeatedly
+- **Eddy currents** in the iron core, reduced by laminating the core
+- **Hysteresis losses**, energy lost as the core is magnetised and demagnetised repeatedly
 - **Resistive heating** in the coils ($I^2R$ losses)
-- **Flux leakage** — not all magnetic flux links both coils
+- **Flux leakage**, not all magnetic flux links both coils
 
 Efficiency:
 
@@ -314,7 +314,7 @@ flowchart TD
 | Faraday's law      | $\epsilon = -N\frac{\Delta\Phi_B}{\Delta t}$ | V           |
 | Motional EMF       | $\epsilon = Blv\sin\theta$                   | V           |
 | Peak AC EMF        | $\epsilon_0 = NBA\omega$                     | V           |
-| Transformer ratio  | $\frac{V_s}{V_p} = \frac{N_s}{N_p}$          | —           |
+| Transformer ratio  | $\frac{V_s}{V_p} = \frac{N_s}{N_p}$          |,           |
 | Energy in inductor | $E = \frac{1}{2}LI^2$                        | J           |
 
 :::tip
@@ -337,7 +337,7 @@ Determine the direction of the induced current in the coil.
 1. The north pole approaches the left end of the solenoid, so the flux through the coil (directed to
    the right, towards the south pole of the magnet inside the coil) is **increasing**.
 2. By Lenz's law, the induced current creates a magnetic field that **opposes** this increase. The
-   induced field inside the coil points to the **left** — making the left end of the coil a **north
+   induced field inside the coil points to the **left**, making the left end of the coil a **north
    pole** to repel the approaching magnet.
 3. Using the right-hand grip rule (fingers curl in the direction of current, thumb points to the
    induced north pole), when viewed from the left end the current flows **counter-clockwise**.
@@ -359,7 +359,7 @@ $$
 \epsilon = N\frac\{\Delta\Phi_B\}\{\Delta t\} = 50 \times \frac\{4.0 \times 10^\{-3\}\}\{0.20\} = 1.0\mathrm\{ V\}
 $$
 
-Note that here $B$ is constant and the flux changes because the **area** changes — Faraday's law
+Note that here $B$ is constant and the flux changes because the **area** changes, Faraday's law
 Applies equally to $\Delta A$ as to $\Delta B$.
 
 ### Worked Example 6: EMF in a Coil Being Pulled Out of a Field
@@ -396,7 +396,7 @@ $V_p = 240\mathrm{ V}$. The output power measured at the secondary is $1140\math
 
 (c) $\eta = 1140/1200 \times 100\% = 95.0\%$
 
-### Worked Example 8: Power Transmission — Step-Up Then Step-Down
+### Worked Example 8: Power Transmission, Step-Up Then Step-Down
 
 **Problem:** A power station generates $500\mathrm{ kW}$ at $5000\mathrm{ V}$. The power is
 Transmitted through cables of total resistance $10\,\Omega$.
@@ -427,7 +427,7 @@ $$
 I' = \frac\{P\}\{V'\} = \frac\{500\,000\}\{50\,000\} = 10\mathrm\{ A\}, \quad P'_\{\mathrm\{loss\}\} = (10)^2(10) = 1000\mathrm\{ W\} = 1.0\mathrm\{ kW\}
 $$
 
-The loss drops from $100\mathrm{ kW}$ to $1.0\mathrm{ kW}$ — a factor of 100, since
+The loss drops from $100\mathrm{ kW}$ to $1.0\mathrm{ kW}$, a factor of 100, since
 $P_{\mathrm{loss}} \propto I^2$ and the current was reduced by a factor of 10.
 
 ---
@@ -450,7 +450,7 @@ In stationary conductors in oscillating fields.
 **Electromagnetic braking.** When a conducting disc spins between the poles of a magnet, eddy
 Currents in the disc create a magnetic field opposing the rotation. The resulting braking torque is
 Proportional to the angular speed, so the braking force is largest at high speed and decreases
-Smoothly to zero — providing smooth, wear-free braking. This principle is used in trains,
+Smoothly to zero, providing smooth, wear-free braking. This principle is used in trains,
 Amusement-park rides, and some exercise equipment.
 
 **Induction heating.** A high-frequency alternating magnetic field induces eddy currents in a
@@ -531,7 +531,7 @@ Where $R$ is the total resistance of the motor windings.
 ### Startup vs Operating Speed
 
 - **At startup** ($\omega = 0$): $\epsilon_{\mathrm{back}} = 0$ So $I = V_{\mathrm{supply}}/R$. This
-  is the **maximum current** — it can be very large if $R$ is small, which is why motors often use a
+  is the **maximum current**, it can be very large if $R$ is small, which is why motors often use a
   **starter resistor** or electronic speed controller to limit initial current.
 - **At operating speed**: the back EMF increases with $\omega$ (since $\epsilon_{\mathrm{back}}$ is
   proportional to the rate of change of flux), reducing the net voltage and hence the current. The
@@ -560,7 +560,7 @@ Calculate: (a) the back EMF, (b) the mechanical power output, (c) the current at
 
 (b) $P_{\mathrm{mech}} = \epsilon_{\mathrm{back}} \cdot I = (100)(5.0) = 500\mathrm{ W}$
 
-(c) At startup, $\epsilon_{\mathrm{back}} = 0$ So $I_{\mathrm{startup}} = 120/4.0 = 30\mathrm{ A}$ —
+(c) At startup, $\epsilon_{\mathrm{back}} = 0$ So $I_{\mathrm{startup}} = 120/4.0 = 30\mathrm{ A}$,
 six times the operating current, confirming the need for startup protection.
 
 ---
@@ -757,7 +757,7 @@ Efficiency of the transmission system.
 (c) $\eta = (2.0 \times 10^6 - 5000)/(2.0 \times 10^6) = 99.75\%$
 
 Without transformers the current would be $500\mathrm{ A}$Giving
-$P_{\mathrm{loss}} = 2.0\mathrm{ MW}$ — all power would be lost.
+$P_{\mathrm{loss}} = 2.0\mathrm{ MW}$, all power would be lost.
 
 </details>
 
