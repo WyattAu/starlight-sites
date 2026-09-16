@@ -27,6 +27,9 @@ export default defineConfig({
         'Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models.',
 
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

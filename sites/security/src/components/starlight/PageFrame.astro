@@ -1,0 +1,176 @@
+---
+/**
+ * PageFrame override — wraps every page inside <body>.
+ *
+ * - Landing pages (docs entry `index` with the splash template) render a
+ *   full-bleed subject landing: the site Header, the SubjectHero Ken Burns
+ *   hero, a sidebar-derived TopicGrid, then the stock content flow (which
+ *   provides the markdown prose and the Footer) inside <slot />.
+ * - Every other page falls through to Starlight's stock PageFrame.
+ *
+ * The stock Hero component is overridden to render nothing (see Hero.astro)
+ * so the hero frontmatter can drive SubjectHero here without Starlight also
+ * rendering its own hero panel.
+ */
+import PageFrame from '@astrojs/starlight/components/PageFrame.astro'
+import Header from './Header.astro'
+import SubjectHero from '../SubjectHero.astro'
+import TopicGrid from '../TopicGrid.astro'
+
+const { starlightRoute } = Astro.locals
+const { entry } = starlightRoute
+
+const isLanding =
+  entry.id === 'index' && entry.data.template === 'splash'
+
+const title = entry.data.title
+const tagline = entry.data.hero?.tagline || entry.data.description
+const actions = entry.data.hero?.actions ?? []
+
+interface TopicCard {
+  title: string
+  description?: string
+  href: string
+}
+
+const UTILITY_LABEL = /^(about|glossary|study hub|practice test|practice-test)$/i
+
+function flattenSidebar(entries: any[]): TopicCard[] {
+  const cards: TopicCard[] = []
+  for (const e of entries) {
+    if (e.type === 'link') {
+      if (!UTILITY_LABEL.test(e.label)) cards.push({ title: e.label, href: e.href })
+    } else if (e.type === 'group') {
+      const first = e.entries.find((c: any) => c.type === 'link')
+      if (first) {
+        cards.push({
+          title: e.label,
+          href: first.href,
+          description: `${e.entries.length} ${e.entries.length === 1 ? 'topic' : 'topics'}`,
+        })
+      }
+    }
+  }
+  return cards
+}
+
+const topics = flattenSidebar(starlightRoute.sidebar ?? [])
+---
+
+{
+  isLanding ? (
+    <div class="page sl-flex landing">
+      <header class="landing-header">
+        <Header />
+      </header>
+      <div class="main-frame landing-frame">
+        <SubjectHero title={title} tagline={tagline} image="/img/hero/library.avif" imageAlt="">
+          {actions.length > 0 && (
+            <div class="landing-cta" slot="actions">
+              {actions.map((a) => (
+                <a class="landing-cta__btn" href={a.link}>
+                  {a.text}
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              ))}
+            </div>
+          )}
+        </SubjectHero>
+        {topics.length > 0 && (
+          <section class="landing-topics" aria-label="Topics">
+            <div class="landing-topics__inner">
+              <p class="landing-kicker reveal">Browse the library</p>
+              <h2 class="landing-heading">Study topics</h2>
+              <TopicGrid topics={topics} columns={3} />
+            </div>
+          </section>
+        )}
+        <slot />
+      </div>
+    </div>
+  ) : (
+    <PageFrame>
+      <slot name="header" slot="header" />
+      <slot name="sidebar" slot="sidebar" />
+      <slot />
+    </PageFrame>
+  )
+}
+
+<style>
+  /* Landing-only styles — scoped to the .landing wrapper rendered above. */
+  .landing-header {
+    position: fixed;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    z-index: var(--sl-z-index-navbar);
+    width: 100%;
+    height: var(--sl-nav-height);
+    padding: var(--sl-nav-pad-y) var(--sl-nav-pad-x);
+    background-color: var(--sl-color-bg-nav);
+    border-bottom: 1px solid var(--sl-color-hairline-shade);
+  }
+  .landing .landing-frame {
+    padding-top: var(--sl-nav-height);
+    padding-inline-start: 0;
+  }
+  .landing-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    justify-content: center;
+    margin-top: 1.75rem;
+  }
+  .landing-cta__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.6rem;
+    border: 1px solid rgba(247, 243, 234, 0.35);
+    background: rgba(247, 243, 234, 0.08);
+    color: #f7f3ea;
+    font-family: var(--ea-font-mono);
+    font-size: var(--ea-size-small);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:
+      background 0.3s var(--ea-ease),
+      border-color 0.3s var(--ea-ease),
+      transform 0.3s var(--ea-ease);
+  }
+  .landing-cta__btn:hover {
+    background: rgba(247, 243, 234, 0.16);
+    border-color: rgba(247, 243, 234, 0.6);
+    transform: translateY(-2px);
+  }
+  .landing-topics {
+    padding: var(--ea-space-section) 1.5rem;
+  }
+  .landing-topics__inner {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+  .landing-kicker {
+    font-family: var(--ea-font-mono);
+    font-size: var(--ea-size-micro);
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ea-gold);
+    margin: 0 0 0.6rem;
+  }
+  .landing-heading {
+    font-family: var(--ea-font-display);
+    font-weight: 300;
+    font-size: var(--ea-size-h1);
+    letter-spacing: -0.02em;
+    color: var(--wn-text, var(--ea-text));
+    margin: 0 0 2rem;
+  }
+  /* Keep the stock prose panel readable below the full-width grid. */
+  .landing :global(.content-panel .sl-container) {
+    max-width: var(--wn-content-width, 720px);
+  }
+</style>
+

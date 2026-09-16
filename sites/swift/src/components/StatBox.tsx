@@ -4,6 +4,9 @@
  * Displays a labeled value with optional highlight and color coding.
  */
 
+import type { JSX } from 'solid-js'
+import { Show } from 'solid-js'
+
 interface StatBoxProps {
   label: string
   value: string | number

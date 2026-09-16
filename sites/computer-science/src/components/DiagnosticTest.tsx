@@ -265,7 +265,7 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
         totalQuestions: props.questions.length,
         answered: getAskedIds().size,
         elapsed: getElapsed(),
-        score: results.score,
+        score: results.overallScore,
       })
       setShowResults(true)
       props.onComplete(results)

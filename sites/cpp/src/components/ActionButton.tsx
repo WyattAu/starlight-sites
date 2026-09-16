@@ -6,7 +6,7 @@
  * States: default, hover, active, disabled, loading
  */
 
-import { Show } from 'solid-js'
+import { Show, type JSX } from 'solid-js'
 
 interface ActionButtonProps {
   variant?: 'primary' | 'secondary' | 'danger' | 'ghost'

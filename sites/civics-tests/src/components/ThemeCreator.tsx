@@ -77,9 +77,12 @@ export default function ThemeCreator(props: ThemeCreatorProps) {
       const accentMatch = css.match(/--sl-color-accent:\s*(#[0-9a-fA-F]{6})/)
       const bgMatch = css.match(/--wn-bg:\s*(#[0-9a-fA-F]{6})/)
       const textMatch = css.match(/--wn-text:\s*(#[0-9a-fA-F]{6})/)
-      if (accentMatch) setColors(c => ({ ...c, accent: accentMatch[1] }))
-      if (bgMatch) setColors(c => ({ ...c, bg: bgMatch[1] }))
-      if (textMatch) setColors(c => ({ ...c, text: textMatch[1] }))
+      const accent = accentMatch?.[1]
+      const bg = bgMatch?.[1]
+      const text = textMatch?.[1]
+      if (accent) setColors(c => ({ ...c, accent }))
+      if (bg) setColors(c => ({ ...c, bg }))
+      if (text) setColors(c => ({ ...c, text }))
       setShowImport(false)
     } catch {}
   }
@@ -158,7 +161,7 @@ export default function ThemeCreator(props: ThemeCreatorProps) {
               <h3 style={{ color: colors().text }}>Preview</h3>
               <p>This is how your theme will look.</p>
               <code style={{ background: colors().bgElevated, color: colors().text }}>const theme = "custom"</code>
-              <div style={{ background: colors().bgElevated, border: `1px solid ${colors().border}`, padding: '1rem', borderRadius: '10px' }}>
+              <div style={{ background: colors().bgElevated, border: `1px solid ${colors().border}`, padding: '1rem', 'border-radius': '10px' }}>
                 <strong style={{ color: colors().accent }}>Card Title</strong>
                 <p style={{ color: colors().textMuted }}>Muted text content.</p>
               </div>

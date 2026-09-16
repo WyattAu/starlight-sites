@@ -133,29 +133,8 @@ const breadcrumbItems = buildBreadcrumbs(id, siteTitle);
 
 <!-- Page speed: preload critical assets (only for ES modules) -->
 
-<script>
-  (function() {
-    try {
-      const saved = localStorage.getItem('wn-theme');
-      if (saved && ['dark','light','sepia','contrast','nord','dracula','monokai','ayu-mirage','solarized','papercolor'].includes(saved)) {
-        document.documentElement.setAttribute('data-theme', saved);
-      }
-      const fs = localStorage.getItem('wn-font-size');
-      if (fs) document.documentElement.style.setProperty('--wn-font-size-scale', fs);
-      const lh = localStorage.getItem('wn-line-height');
-      if (lh) document.documentElement.style.setProperty('--wn-line-height', lh);
-      const cw = localStorage.getItem('wn-content-width');
-      if (cw) document.documentElement.style.setProperty('--wn-content-width', cw);
-      const ff = localStorage.getItem('wn-font-family');
-      if (ff === 'serif') document.documentElement.style.setProperty('--wn-font-body', '"Merriweather", Georgia, serif');
-      else if (ff === 'mono') document.documentElement.style.setProperty('--wn-font-body', '"JetBrains Mono", "Fira Code", monospace');
-      const j = localStorage.getItem('wn-justify');
-      if (j) document.documentElement.setAttribute('data-justify', j);
-      const rm = localStorage.getItem('wn-reduce-motion');
-      if (rm) document.documentElement.setAttribute('data-reduce-motion', rm);
-    } catch(e) {}
-  })();
-</script>
+<!-- Theme + reading preferences are applied by the ThemeProvider override
+     (inline in <head>, before first paint, re-applied on astro:after-swap). -->
 
 <!-- SEO Meta Tags -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />

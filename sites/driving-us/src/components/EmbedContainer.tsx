@@ -5,7 +5,7 @@
  * and responsive aspect ratio preservation.
  */
 
-import { Show } from 'solid-js'
+import { Show, type JSX } from 'solid-js'
 
 interface EmbedContainerProps {
   title: string

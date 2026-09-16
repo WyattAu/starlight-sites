@@ -23,6 +23,9 @@ export default defineConfig({
         'Free Scottish Highers study notes, revision guide, and exam preparation with worked examples for Biology, Chemistry, Physics, Maths, and Computer Science.',
 
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

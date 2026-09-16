@@ -63,6 +63,9 @@ const PUBLIC_FILES = [
   ['shared/public/wasm/starlight_widgets_bg.wasm', 'public/wasm/starlight_widgets_bg.wasm'],
   ['shared/public/favicon.svg', 'public/favicon.svg'],
   ['shared/public/logo-nav.svg', 'public/logo-nav.svg'],
+  ['shared/public/img/hero/library.avif', 'public/img/hero/library.avif'],
+  ['shared/public/img/hero/library.webp', 'public/img/hero/library.webp'],
+  ['shared/public/img/hero/library.jpg', 'public/img/hero/library.jpg'],
   ['shared/public/js/scroll-reveal.js', 'public/js/scroll-reveal.js'],
 ]
 

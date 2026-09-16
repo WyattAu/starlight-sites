@@ -24,6 +24,9 @@ export default defineConfig({
         'Free A-Level study notes, revision guide, and exam preparation with worked examples covering AQA, OCR, and Edexcel exam boards.',
 
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

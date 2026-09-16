@@ -52,8 +52,9 @@ export default function SiteNavigator(props: SiteNavigatorProps) {
         break
       case 'Enter':
         e.preventDefault()
-        if (items[selectedIndex()]) {
-          window.location.href = items[selectedIndex()].url
+        const selected = items[selectedIndex()]
+        if (selected) {
+          window.location.href = selected.url
         }
         break
       case 'Escape':
@@ -97,7 +98,7 @@ export default function SiteNavigator(props: SiteNavigatorProps) {
 
             <For each={categories}>
               {(cat) => (
-                <Show when={groupedSites()[cat]?.length > 0}>
+                <Show when={(groupedSites()[cat]?.length ?? 0) > 0}>
                   <div class="site-nav-category">
                     <div class="site-nav-cat-header">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

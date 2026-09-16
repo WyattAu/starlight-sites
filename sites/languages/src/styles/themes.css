@@ -1,6 +1,51 @@
-/* === Theme Palettes (10 themes) === */
-/* Each theme defines WN variables (bg, text, border, elevation) and
- * SL variables (Starlight color system) plus per-theme component overrides. */
+/* === Theme Palettes (11 themes) === */
+/* Each theme defines WN variables (bg, text, border, elevation), SL
+ * variables (Starlight color system), and EA mappings (shared design
+ * tokens) so every component family follows the active theme. */
+
+/* --- 0. Paper (design-system default) --- */
+[data-theme="paper"] {
+  --wn-bg: #f5f1e8;
+  --wn-bg-elevated: #f0ebdf;
+  --wn-bg-card: #fef9f2;
+  --wn-bg-hover: #ede7da;
+  --wn-text: #1a1815;
+  --wn-text-muted: #5c554d;
+  --wn-text-dim: #8a7f74;
+  --wn-border: rgba(23, 21, 18, 0.15);
+  --wn-border-light: #e8e2d4;
+  --wn-overlay: rgba(23, 21, 18, 0.45);
+  --wn-glow: rgba(176, 141, 87, 0.15);
+
+  --sl-color-accent: #8c2f2f;
+  --sl-color-accent-low: rgba(140, 47, 47, 0.08);
+  --sl-color-accent-high: #6f2424;
+  --sl-color-bg: #f5f1e8;
+  --sl-color-bg-nav: #f0ebdf;
+  --sl-color-bg-sidebar: #f5f1e8;
+  --sl-color-bg-inline-code: #ede7da;
+  --sl-color-bg-hairline: #ede7da;
+  --sl-color-hairline-light: #ede7da;
+  --sl-color-hairline-shade: #fef9f2;
+  --sl-color-text: #1a1815;
+  --sl-color-text-accent: #8c2f2f;
+  --sl-color-text-invert: #f5f1e8;
+  --sl-color-gray-1: #1a1815;
+  --sl-color-gray-2: #443e36;
+  --sl-color-gray-3: #5c554d;
+  --sl-color-gray-4: #8a7f74;
+  --sl-color-gray-5: #b3a995;
+  --sl-color-gray-6: #d8d0be;
+  --sl-color-gray-7: #ede7da;
+  --sl-color-gray-8: #f0ebdf;
+  --sl-color-black: #f5f1e8;
+  --sl-color-white: #1a1815;
+
+  --wn-elevation-1: 0 1px 3px rgba(23, 21, 18, 0.06), 0 1px 2px rgba(23, 21, 18, 0.04);
+  --wn-elevation-2: 0 4px 8px rgba(23, 21, 18, 0.08), 0 2px 4px rgba(23, 21, 18, 0.06);
+  --wn-elevation-3: 0 12px 24px rgba(23, 21, 18, 0.1), 0 4px 8px rgba(23, 21, 18, 0.08);
+  --wn-elevation-4: 0 24px 48px rgba(23, 21, 18, 0.14), 0 8px 16px rgba(23, 21, 18, 0.1);
+}
 
 /* --- 1. Cinematic Dark --- */
 [data-theme="dark"] {
@@ -39,6 +84,24 @@
   --sl-color-gray-8: #12121a;
   --sl-color-black: #0a0a0f;
   --sl-color-white: #e8e8ed;
+
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #fbbf24;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
 
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
@@ -84,6 +147,23 @@
   --sl-color-black: #f5f2ed;
   --sl-color-white: #1a1a1a;
 
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
+
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.06);
   --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.08);
@@ -127,6 +207,23 @@
   --sl-color-gray-8: #f8efd8;
   --sl-color-black: #fbf3e0;
   --sl-color-white: #5b4636;
+
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
 
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -172,6 +269,24 @@
   --sl-color-black: #000000;
   --sl-color-white: #ffffff;
 
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #ffcc66;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
+
   --wn-elevation-1: 0 1px 3px rgba(255, 255, 255, 0.12), 0 1px 2px rgba(255, 255, 255, 0.08);
   --wn-elevation-2: 0 4px 8px rgba(255, 255, 255, 0.14), 0 2px 4px rgba(255, 255, 255, 0.1);
   --wn-elevation-3: 0 12px 24px rgba(255, 255, 255, 0.16), 0 4px 8px rgba(255, 255, 255, 0.12);
@@ -215,6 +330,24 @@
   --sl-color-gray-8: #2e3440;
   --sl-color-black: #2e3440;
   --sl-color-white: #d8dee9;
+
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #ebcb8b;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
 
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
@@ -260,6 +393,24 @@
   --sl-color-black: #282a36;
   --sl-color-white: #f8f8f2;
 
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #f1fa8c;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
+
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
   --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.65), 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -303,6 +454,23 @@
   --sl-color-gray-8: #eee8d5;
   --sl-color-black: #fdf6e3;
   --sl-color-white: #586e75;
+
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
 
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.06);
@@ -348,6 +516,24 @@
   --sl-color-black: #272822;
   --sl-color-white: #f8f8f2;
 
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #f9f871;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
+
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
   --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.65), 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -391,6 +577,24 @@
   --sl-color-gray-8: #222838;
   --sl-color-black: #1f2430;
   --sl-color-white: #d4d4d4;
+
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-gold: #ffcc66;
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
 
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
@@ -436,6 +640,23 @@
   --sl-color-black: #eeeeee;
   --sl-color-white: #444444;
 
+  /* Design-token bridge: shared design components follow this theme */
+  --ea-surface: var(--wn-bg);
+  --ea-surface-warm: var(--wn-bg-elevated);
+  --ea-surface-card: var(--wn-bg-card);
+  --ea-surface-hover: var(--wn-bg-hover);
+  --ea-text: var(--wn-text);
+  --ea-text-muted: var(--wn-text-muted);
+  --ea-text-dim: var(--wn-text-dim);
+  --ea-text-inverse: var(--sl-color-text-invert);
+  --ea-accent: var(--sl-color-accent);
+  --ea-accent-low: var(--sl-color-accent-low);
+  --ea-accent-deep: var(--sl-color-accent-high);
+  --ea-hairline-color: var(--wn-border);
+  --ea-shadow-sm: var(--wn-elevation-1);
+  --ea-shadow-md: var(--wn-elevation-2);
+  --ea-shadow-lg: var(--wn-elevation-3);
+
   --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
   --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.06);
   --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.08);
@@ -465,6 +686,7 @@
   --sl-color-red-high: hsl(339, 82%, 87%);
 }
 
+[data-theme="paper"],
 [data-theme="light"],
 [data-theme="sepia"],
 [data-theme="solarized"],

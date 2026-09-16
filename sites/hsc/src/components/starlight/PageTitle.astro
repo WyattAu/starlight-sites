@@ -2,6 +2,10 @@
 const { starlightRoute } = Astro.locals;
 const { entry, id } = starlightRoute;
 
+// Landing pages render the SubjectHero headline in PageFrame — no
+// breadcrumbs or duplicate <h1> here.
+const isLanding = id === 'index' && entry.data.template === 'splash';
+
 // PAGE_TITLE_ID is '_top' — hardcoded to avoid import resolution issues in overrides
 const PAGE_TITLE_ID = '_top';
 
@@ -41,6 +45,7 @@ function buildBreadcrumbs(id: string, siteTitle: string) {
 const breadcrumbs = buildBreadcrumbs(id, siteTitle);
 ---
 
+{isLanding ? null : (
 <nav aria-label="Breadcrumb" class="breadcrumbs">
   <ol>
     {breadcrumbs.map((item, index) => (
@@ -65,6 +70,7 @@ const breadcrumbs = buildBreadcrumbs(id, siteTitle);
 </nav>
 
 <h1 id={PAGE_TITLE_ID}>{entry.data.title}</h1>
+)}
 
 <style>
   .breadcrumbs {

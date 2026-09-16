@@ -94,10 +94,11 @@ export default function SearchModal(props: SearchModalProps) {
         break
       case 'Enter':
         e.preventDefault()
-        if (items[selectedIndex()]) {
+        const selected = items[selectedIndex()]
+        if (selected) {
           saveRecent(query())
-          props.onSelect?.(items[selectedIndex()])
-          window.location.href = items[selectedIndex()].url
+          props.onSelect?.(selected)
+          window.location.href = selected.url
         }
         break
       case 'Escape':

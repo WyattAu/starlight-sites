@@ -14,6 +14,7 @@ interface SkeletonProps {
   variant?: 'text' | 'circular' | 'rectangular'
   animation?: 'pulse' | 'wave' | 'none'
   class?: string
+  style?: Record<string, string>
 }
 
 export default function Skeleton(props: SkeletonProps) {

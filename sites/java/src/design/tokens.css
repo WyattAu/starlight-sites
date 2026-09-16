@@ -62,7 +62,8 @@
   --ea-duration-reveal: 1.1s;
 
   /* --- Borders --- */
-  --ea-hairline: 1px solid rgba(23, 21, 18, 0.12);
+  --ea-hairline-color: rgba(23, 21, 18, 0.15);
+  --ea-hairline: 1px solid var(--ea-hairline-color);
   --ea-hairline-strong: 1px solid rgba(23, 21, 18, 0.2);
   --ea-radius: 0;
 
@@ -92,7 +93,8 @@
   --ea-text-muted: #8888a0;
   --ea-text-dim: #5a5a70;
   --ea-text-inverse: #0a0a0f;
-  --ea-hairline: 1px solid rgba(232, 232, 237, 0.1);
+  --ea-hairline-color: rgba(232, 232, 237, 0.14);
+  --ea-hairline: 1px solid var(--ea-hairline-color);
   --ea-hairline-strong: 1px solid rgba(232, 232, 237, 0.18);
   --ea-accent-low: rgba(255, 107, 53, 0.1);
   --ea-gold: #fbbf24;
@@ -103,28 +105,37 @@
 }
 
 /* ============================================================
-   LEGACY THEME BRIDGE
-   Maps old --wn-* and --sl-color-* custom properties to the
-   new token system so existing components keep working.
+   DEFAULT THEME CONTRACT (paper)
+   The ivory/ink design palette is the default `paper` theme.
+   `:root` maps the legacy --wn-* variables and Starlight's
+   --sl-color-* system onto the design tokens so both variable
+   families agree. Per-theme palettes in themes.css override
+   these at [data-theme] level — never the other way around.
    ============================================================ */
-[data-theme="paper"],
-[data-theme="dark"],
-[data-theme="light"],
-[data-theme="sepia"],
-[data-theme="contrast"],
-[data-theme="nord"],
-[data-theme="dracula"],
-[data-theme="monokai"],
-[data-theme="ayu-mirage"],
-[data-theme="solarized"],
-[data-theme="papercolor"] {
+:root {
   --wn-bg: var(--ea-surface);
+  --wn-bg-elevated: var(--ea-surface-warm);
   --wn-bg-card: var(--ea-surface-card);
   --wn-bg-hover: var(--ea-surface-hover);
   --wn-text: var(--ea-text);
   --wn-text-muted: var(--ea-text-muted);
   --wn-text-dim: var(--ea-text-dim);
-  --wn-border: var(--ea-hairline);
+  --wn-border: var(--ea-hairline-color);
+  --wn-border-light: #e8e2d4;
+  --wn-overlay: rgba(23, 21, 18, 0.45);
+  --wn-glow: var(--ea-gold-dim);
+
   --sl-color-accent: var(--ea-accent);
+  --sl-color-accent-low: var(--ea-accent-low);
+  --sl-color-accent-high: var(--ea-accent-deep);
+  --sl-color-bg: var(--ea-surface);
+  --sl-color-bg-nav: var(--ea-surface-warm);
+  --sl-color-bg-sidebar: var(--ea-surface);
+  --sl-color-bg-inline-code: var(--ea-surface-hover);
+  --sl-color-bg-hairline: var(--ea-surface-hover);
+  --sl-color-hairline-light: var(--ea-surface-hover);
+  --sl-color-hairline-shade: var(--ea-surface-card);
   --sl-color-text: var(--ea-text);
+  --sl-color-text-accent: var(--ea-accent);
+  --sl-color-text-invert: var(--ea-text-inverse);
 }

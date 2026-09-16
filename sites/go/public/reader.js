@@ -38,6 +38,7 @@
   ]
 
   const THEMES = [
+    { value: 'paper', label: 'Paper', icon: '#book' },
     { value: 'dark', label: 'Dark', icon: '#moon' },
     { value: 'light', label: 'Light', icon: '#sun' },
     { value: 'sepia', label: 'Sepia', icon: '#book' },
@@ -73,7 +74,7 @@
   })()
 
   const STORAGE_DEFAULTS = {
-    [LS_KEYS.THEME]: 'dark',
+    [LS_KEYS.THEME]: 'paper',
     [LS_KEYS.FONT_SIZE]: '1',
     [LS_KEYS.LINE_HEIGHT]: '1.7',
     [LS_KEYS.CONTENT_WIDTH]: '48rem',
@@ -1349,4 +1350,17 @@
 
   applyAllSettings()
   updateUI()
+
+  // ─── View-transition resilience (ClientRouter) ───────────────────────────
+  // Astro's ClientRouter swaps <html> attributes and <body> content on
+  // client-side navigation, which wipes the theme, the reading prefs, and
+  // this UI. Re-apply both after every swap.
+
+  document.addEventListener('astro:after-swap', () => {
+    applyAllSettings()
+    closePanel()
+    if (!document.getElementById('wn-reader') && document.body) {
+      document.body.appendChild(container)
+    }
+  })
 })()

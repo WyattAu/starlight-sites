@@ -27,6 +27,9 @@ export default defineConfig({
         'Deep C++ systems programming notes covering ownership, RAII, templates, concurrency, and build systems.',
 
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

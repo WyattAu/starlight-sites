@@ -26,6 +26,9 @@ export default defineConfig({
       description:
         'Complete US driving test preparation covering DMV written test, road test, and driving rules by state.',
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

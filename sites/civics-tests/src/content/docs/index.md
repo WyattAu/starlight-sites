@@ -1,4 +1,5 @@
 ---
+template: splash
 
 sources:
   - text: Standard textbook reference

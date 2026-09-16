@@ -25,6 +25,9 @@ export default defineConfig({
       expressiveCode: { themes: ['dracula', 'github-light'] },
       description: 'Complete preparation for civics and citizenship tests across countries.',
       components: {
+        PageFrame: './src/components/starlight/PageFrame.astro',
+        Hero: './src/components/starlight/Hero.astro',
+        ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
         PageTitle: './src/components/starlight/PageTitle.astro',
         SiteTitle: './src/components/starlight/SiteTitle.astro',

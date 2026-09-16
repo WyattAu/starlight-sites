@@ -106,8 +106,14 @@ const {
 </style>
 
 <script>
-  // Activate reveal animations on load
-  document.querySelectorAll('.subject-hero .reveal, .subject-hero .reveal-line').forEach(el => {
-    el.classList.add('revealed');
-  });
+  // Activate reveal animations. astro:page-load fires on initial load and
+  // after every ClientRouter view-transition swap, so heroes revealed on
+  // pages reached via client-side navigation animate correctly.
+  function revealSubjectHero() {
+    document.querySelectorAll('.subject-hero .reveal, .subject-hero .reveal-line').forEach(el => {
+      el.classList.add('revealed');
+    });
+  }
+  revealSubjectHero();
+  document.addEventListener('astro:page-load', revealSubjectHero);
 </script>

@@ -46,8 +46,10 @@ export default function ErrorBoundary(props: ErrorBoundaryProps) {
   return (
     <SolidErrorBoundary
       fallback={props.fallback || defaultFallback}
-      onError={(error) => {
-        captureClientError(error, props.component || 'ErrorBoundary')
+      {...{
+        onError: (error: unknown) => {
+          captureClientError(error instanceof Error ? error : String(error), props.component || 'ErrorBoundary')
+        },
       }}
     >
       {props.children}

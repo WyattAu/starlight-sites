@@ -20,11 +20,11 @@ html {
 
 /* Typography */
 body {
-  font-family: var(--ea-font-body);
-  font-size: var(--ea-size-body);
-  line-height: var(--wn-line-height);
-  color: var(--ea-text);
-  background: var(--ea-surface);
+  font-family: var(--wn-font-body, var(--ea-font-body));
+  font-size: calc(var(--ea-size-body) * var(--wn-font-size-scale, 1));
+  line-height: var(--wn-line-height, 1.7);
+  color: var(--wn-text, var(--ea-text));
+  background: var(--wn-bg, var(--ea-surface));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  color: var(--ea-text);
+  color: var(--wn-text, var(--ea-text));
   text-wrap: balance;
 }
 

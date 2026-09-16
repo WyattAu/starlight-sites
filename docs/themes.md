@@ -1,16 +1,17 @@
 ---
 title: "Themes"
-description: "Complete guide to themes in Wyatt's Notes — creating, customizing, and using all 10 themes."
+description: "Complete guide to themes in Wyatt's Notes — creating, customizing, and using all 11 themes."
 ---
 
 # Themes
 
-Wyatt's Notes includes 10 complete themes, each with 34+ CSS variables for full customization.
+Wyatt's Notes includes 11 complete themes, each with 34+ CSS variables for full customization.
 
 ## Available Themes
 
 | Theme | Style | Accent | Best For |
 |-------|-------|--------|----------|
+| **Paper** (default) | Ivory/Ink Editorial | #8c2f2f | Default design-system palette |
 | **Dark** | Cinematic Dark | #ff8c4a | Night reading, reduced eye strain |
 | **Light** | Warm Paper Light | #ff6b35 | Day reading, printing |
 | **Sepia** | EPUB Sepia | #c97b3a | Extended reading, e-reader feel |

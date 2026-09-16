@@ -1,0 +1,57 @@
+---
+/**
+ * ThemeProvider override — Wyatt's Notes theme engine.
+ *
+ * Replaces Starlight's light/dark bootstrap with the full wn-theme
+ * system (11 palettes + reading preferences), shared with reader.js:
+ *
+ *   - Runs synchronously in <head> (no FOUC) on every page load.
+ *   - Re-applies state on `astro:after-swap` so ClientRouter view
+ *     transitions cannot wipe the theme or reading prefs.
+ *   - Defaults to `paper` (the shared design-system palette).
+ *   - localStorage keys are identical to reader.js, so changes made
+ *     in either UI are reflected by the other.
+ */
+---
+
+<script is:inline>
+  (function () {
+    var THEMES = [
+      'paper', 'dark', 'light', 'sepia', 'contrast', 'nord',
+      'dracula', 'monokai', 'ayu-mirage', 'solarized', 'papercolor',
+    ];
+
+    function apply() {
+      var root = document.documentElement;
+      try {
+        var theme = localStorage.getItem('wn-theme');
+        root.setAttribute('data-theme', THEMES.indexOf(theme) >= 0 ? theme : 'paper');
+
+        var fs = localStorage.getItem('wn-font-size');
+        if (fs) root.style.setProperty('--wn-font-size-scale', fs);
+        var lh = localStorage.getItem('wn-line-height');
+        if (lh) root.style.setProperty('--wn-line-height', lh);
+        var cw = localStorage.getItem('wn-content-width');
+        if (cw) root.style.setProperty('--wn-content-width', cw);
+        var ff = localStorage.getItem('wn-font-family');
+        if (ff === 'serif') root.style.setProperty('--wn-font-body', '"Merriweather", Georgia, serif');
+        else if (ff === 'mono') root.style.setProperty('--wn-font-body', '"JetBrains Mono", "Fira Code", monospace');
+        else root.style.removeProperty('--wn-font-body');
+        var j = localStorage.getItem('wn-justify');
+        root.setAttribute('data-justify', j || 'false');
+        var rm = localStorage.getItem('wn-reduce-motion');
+        root.setAttribute('data-reduce-motion', rm || 'false');
+      } catch (e) {
+        root.setAttribute('data-theme', 'paper');
+      }
+    }
+
+    // Starlight API surface — ThemeSelect et al. call updatePickers().
+    window.StarlightThemeProvider = {
+      updatePickers: function () {},
+    };
+
+    apply();
+    document.addEventListener('astro:after-swap', apply);
+  })();
+</script>
