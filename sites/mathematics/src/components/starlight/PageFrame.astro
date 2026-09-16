@@ -22,7 +22,7 @@ const { starlightRoute } = Astro.locals
 const { entry } = starlightRoute
 
 const isLanding =
-  entry.id === 'index' && entry.data.template === 'splash'
+  (entry.id === '' || entry.id === 'index') && entry.data.template === 'splash'
 
 const title = entry.data.title
 const tagline = entry.data.hero?.tagline || entry.data.description || ''
