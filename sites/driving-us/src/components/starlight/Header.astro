@@ -18,7 +18,10 @@ const title = starlightRoute?.siteTitle || "Notes"
     <div class="sl-flex header-progress print:hidden">
       <ProgressBadge client:idle />
       <ThemeCreator client:idle />
-      <ReviewQueueHost client:idle />
+      <!-- ReviewQueueHost pulls in Kobalte's Dialog, which cannot render on
+           the server (solid ssrSpread throws on function props). It renders
+           nothing until opened, so client-only mounting costs nothing. -->
+      <ReviewQueueHost client:only="solid-js" />
     </div>
     <div class="sl-flex print:hidden">
       <div id="custom-search">
