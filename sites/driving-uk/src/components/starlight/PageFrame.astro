@@ -17,6 +17,7 @@ import Header from './Header.astro'
 import SubjectHero from '../SubjectHero.astro'
 import TopicGrid from '../TopicGrid.astro'
 import ProgressPanel from '../ProgressPanel.tsx'
+import ThemeCreator from '../ThemeCreator.tsx'
 
 const { starlightRoute } = Astro.locals
 const { entry } = starlightRoute
@@ -94,6 +95,10 @@ const topics = flattenSidebar(starlightRoute.sidebar ?? [])
     <PageFrame>
       <slot name="header" slot="header" />
       <slot name="sidebar" slot="sidebar" />
+      {/* Renders nothing until the reader panel's Custom chip opens it, so
+          the custom-theme creator is reachable on every doc page even
+          though the Header override is not wired for doc pages. */}
+      <ThemeCreator client:idle />
       <slot />
     </PageFrame>
   )
