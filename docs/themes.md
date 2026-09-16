@@ -178,18 +178,7 @@ gray-8: Background
 
 ## Testing Themes
 
-Use the ThemePreview component to compare themes side-by-side:
-
-```tsx
-import ThemePreview from '../components/ThemePreview'
-
-<ThemePreview open={showPreview} onOpenChange={setShowPreview} />
-```
-
-Use the ThemeCreator to build custom themes with WCAG validation:
-
-```tsx
-import ThemeCreator from '../components/ThemeCreator'
-
-<ThemeCreator open={showCreator} onOpenChange={setShowCreator} />
-```
+Use the built-in ThemeCreator (reader panel > Theme > Custom) to build a
+custom palette with live WCAG AA contrast validation. Applying it sets
+`data-theme="custom"` with inline design tokens; the ThemeProvider
+re-applies it across view transitions.

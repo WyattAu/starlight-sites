@@ -308,6 +308,21 @@
     '.wn-chip:hover { border-color: var(--sl-color-accent, #ff6b35); color: var(--wn-text, #e8e8ed); }',
     '.wn-chip.active { background: var(--sl-color-accent, #ff6b35); border-color: var(--sl-color-accent, #ff6b35); color: white; font-weight: 600; }',
 
+    /* Progress section */
+    '#wn-progress-stats { display: flex; gap: 8px; }',
+    '#wn-progress-stat { flex: 1; text-align: center; padding: 10px 6px; border-radius: 12px; border: 1px solid var(--wn-border, #2a2a3a); background: var(--wn-bg-card, #1a1a24); }',
+    '#wn-progress-stat .stat-value { display: block; font-size: 1.15rem; font-weight: 700; color: var(--wn-text, #e8e8ed); }',
+    '#wn-progress-stat .stat-label { display: block; font-size: 0.68rem; color: var(--wn-text-muted, #8888a0); margin-top: 2px; }',
+    '#wn-progress-stat.clickable { cursor: pointer; }',
+    '#wn-progress-stat.clickable:hover { border-color: var(--sl-color-accent, #ff6b35); }',
+
+    /* Sidebar mastery dots */
+    '.wn-mastery-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-inline-start: 6px; vertical-align: middle; background: var(--wn-border-light, #3a3a4a); }',
+    '.wn-mastery-dot[data-tier="1"] { background: #e74c3c; }',
+    '.wn-mastery-dot[data-tier="2"] { background: #f39c12; }',
+    '.wn-mastery-dot[data-tier="3"] { background: #2ecc71; }',
+    '.wn-mastery-dot[data-tier="4"] { background: var(--sl-color-accent, #ff6b35); }',
+
     /* Font size slider */
     '.wn-slider-row { display: flex; align-items: center; gap: 12px; }',
     '.wn-slider { flex: 1; -webkit-appearance: none; appearance: none; height: 6px; border-radius: 3px; background: var(--wn-border, #2a2a3a); outline: none; }',
@@ -387,6 +402,16 @@
   // Body
   var body = el('div', { id: 'wn-panel-body' })
 
+  // Progress (due cards, streak, topics practised) — hidden until data exists
+  var progressGroup = el('div', { class: 'wn-setting', id: 'wn-progress-group' })
+  progressGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Progress')))
+  var progressRow = el('div', { id: 'wn-progress-stats' })
+  progressRow.appendChild(buildProgressStat('due', 'due for review', true))
+  progressRow.appendChild(buildProgressStat('streak', 'day streak', false))
+  progressRow.appendChild(buildProgressStat('topics', 'topics practised', false))
+  progressGroup.appendChild(progressRow)
+  body.appendChild(progressGroup)
+
   // Locale switcher
   var localeGroup = el('div', { class: 'wn-setting' })
   localeGroup.appendChild(el('span', { class: 'wn-setting-label' }).appendChild(text('Language')))
@@ -420,6 +445,16 @@
     btn.appendChild(text(t.label))
     themeRow.appendChild(btn)
   })
+  // Custom theme chip — opens the ThemeCreator island in the header.
+  var customChip = el('button', {
+    class: 'wn-chip',
+    dataset: { value: 'custom' },
+    onclick: () => {
+      document.dispatchEvent(new CustomEvent('wn:open-theme-creator'))
+    },
+  })
+  customChip.appendChild(text('Custom'))
+  themeRow.appendChild(customChip)
   themeGroup.appendChild(themeRow)
   body.appendChild(themeGroup)
 
@@ -675,6 +710,161 @@
   if (document.readyState === 'complete') wrapTables()
   else document.addEventListener('DOMContentLoaded', wrapTables)
 
+  // ─── Progress & Mastery (vanilla mirrors of the TS storage contract) ──────
+
+  const PRACTICE_PREFIX = 'wn-practice-'
+  const SPACED_REP_PREFIX = 'wyattsnotes-spaced-rep-'
+  const RECENT_TOPICS_KEY = 'wn-recent-topics'
+
+  function countDueCards() {
+    var due = 0
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var key = localStorage.key(i)
+        if (!key || key.indexOf(SPACED_REP_PREFIX) !== 0) continue
+        var data = JSON.parse(localStorage.getItem(key) || '{}')
+        var states = data.cardStates || {}
+        for (var id in states) {
+          if (states[id] && states[id].nextReview <= Date.now()) due++
+        }
+      }
+    } catch (e) { /* non-fatal */ }
+    return due
+  }
+
+  function countPracticedTopics() {
+    var n = 0
+    try {
+      for (var i = 0; i < localStorage.length; i++) {
+        var key = localStorage.key(i)
+        if (key && key.indexOf(PRACTICE_PREFIX) === 0) n++
+      }
+    } catch (e) { /* non-fatal */ }
+    return n
+  }
+
+  function buildProgressStat(kind, label, clickable) {
+    var stat = el('div', {
+      id: 'wn-progress-stat-' + kind,
+      class: clickable ? 'clickable' : '',
+    })
+    if (clickable) {
+      stat.setAttribute('role', 'button')
+      stat.setAttribute('tabindex', '0')
+      var open = function () {
+        document.dispatchEvent(new CustomEvent('wn:open-review'))
+      }
+      stat.addEventListener('click', open)
+      stat.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') open()
+      })
+    }
+    var value = el('span', { class: 'stat-value' })
+    value.appendChild(text('0'))
+    stat.appendChild(value)
+    var lbl = el('span', { class: 'stat-label' })
+    lbl.appendChild(text(label))
+    stat.appendChild(lbl)
+    return stat
+  }
+
+  function streakDays() {
+    try {
+      var dates = JSON.parse(localStorage.getItem('wn-streak') || '[]')
+      var uniq = Array.from(new Set(dates)).sort().reverse()
+      if (uniq.length === 0) return 0
+      var fmt = function (d) { return d.toISOString().slice(0, 10) }
+      var today = new Date()
+      var yesterday = new Date(Date.now() - 86400000)
+      var anchor = null
+      if (uniq[0] === fmt(today)) anchor = today
+      else if (uniq[0] === fmt(yesterday)) anchor = yesterday
+      else return 0
+      var streak = 0
+      for (var i = 0; i < uniq.length; i++) {
+        var check = new Date(anchor.getTime() - i * 86400000)
+        if (uniq[i] === fmt(check)) streak++
+        else break
+      }
+      return streak
+    } catch (e) {
+      return 0
+    }
+  }
+
+  function refreshProgressPanel() {
+    var due = document.getElementById('wn-progress-stat-due')
+    var streakEl = document.getElementById('wn-progress-stat-streak')
+    var topics = document.getElementById('wn-progress-stat-topics')
+    if (!due || !streakEl || !topics) return
+    var streakDates = []
+    try {
+      streakDates = JSON.parse(localStorage.getItem('wn-streak') || '[]')
+    } catch (e) { streakDates = [] }
+    var dueCount = countDueCards()
+    var practiced = countPracticedTopics()
+    var setVal = function (elm, v) {
+      var span = elm.querySelector('.stat-value')
+      if (span) span.textContent = String(v)
+    }
+    setVal(due, dueCount)
+    setVal(streakEl, streakDays())
+    setVal(topics, practiced)
+    var group = document.getElementById('wn-progress-group')
+    if (group) group.style.display = (dueCount > 0 || practiced > 0 || streakDates.length > 0) ? '' : 'none'
+  }
+
+  function trackRecentTopic() {
+    try {
+      var path = location.pathname
+      if (!path || path === '/') return
+      var title = document.title.split('|')[0].trim()
+      var list = []
+      try {
+        list = JSON.parse(localStorage.getItem(RECENT_TOPICS_KEY) || '[]')
+      } catch (e) { list = [] }
+      list = list.filter(function (t) { return t && t.p !== path })
+      list.unshift({ p: path, t: title, ts: Date.now() })
+      localStorage.setItem(RECENT_TOPICS_KEY, JSON.stringify(list.slice(0, 8)))
+    } catch (e) { /* non-fatal */ }
+  }
+
+  function tierForPath(path) {
+    try {
+      var raw = localStorage.getItem(PRACTICE_PREFIX + path)
+      if (!raw) return null
+      var s = JSON.parse(raw)
+      if (!s || !s.attempts) return null
+      var acc = s.correct / s.attempts
+      if (acc < 0.6) return 1
+      if (s.attempts >= 5 && acc >= 0.9) return 4
+      if (acc >= 0.8 && s.attempts >= 3) return 3
+      return 2
+    } catch (e) {
+      return null
+    }
+  }
+
+  function decorateSidebar() {
+    var links = document.querySelectorAll('#starlight__sidebar a[href], .sidebar-content a[href]')
+    links.forEach(function (a) {
+      var existing = a.querySelector('.wn-mastery-dot')
+      var href = a.getAttribute('href') || ''
+      var tier = tierForPath(href)
+      if (tier === null) {
+        if (existing) existing.remove()
+        return
+      }
+      if (!existing) {
+        existing = document.createElement('span')
+        existing.className = 'wn-mastery-dot'
+        existing.setAttribute('aria-hidden', 'true')
+        a.appendChild(existing)
+      }
+      existing.setAttribute('data-tier', String(tier))
+    })
+  }
+
   // ─── State & Actions ──────────────────────────────────────────────────────
 
   function togglePanel() {
@@ -688,6 +878,7 @@
     overlay.classList.add('open')
     fab.classList.add('active')
     updateUI()
+    refreshProgressPanel()
   }
 
   function closePanel() {
@@ -1362,5 +1553,19 @@
     if (!document.getElementById('wn-reader') && document.body) {
       document.body.appendChild(container)
     }
+    trackRecentTopic()
+    decorateSidebar()
+    refreshProgressPanel()
   })
+
+  // Track visits + decorate sidebar mastery dots on first load too.
+  if (document.readyState === 'complete') {
+    trackRecentTopic()
+    decorateSidebar()
+  } else {
+    document.addEventListener('DOMContentLoaded', () => {
+      trackRecentTopic()
+      decorateSidebar()
+    })
+  }
 })()

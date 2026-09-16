@@ -120,6 +120,12 @@ jobs:
       - name: TypeScript typecheck (shared/)
         run: bun run typecheck
 
+      - name: Astro component typecheck (canary proxy site)
+        # Advisory until the 37-error pre-existing baseline in legacy
+        # components (Search, DiagnosticTest, SiteNavigator) is cleaned up.
+        continue-on-error: true
+        run: cd sites/tools && bunx astro check
+
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 10

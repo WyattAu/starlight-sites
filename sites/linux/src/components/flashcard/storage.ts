@@ -161,3 +161,88 @@ export function listDecks(): string[] {
   }
   return decks
 }
+
+/* ---- Deck content registry (wn-deck-<deckId>) ----
+ *
+ * SM-2 state (STORAGE_PREFIX above) only stores scheduling data, so a
+ * GLOBAL review queue has no card content to show for decks whose page
+ * is not currently open. FlashcardDeck registers its card content here
+ * on mount; ReviewQueueHost reads the registry to review any deck from
+ * anywhere on the site.
+ */
+
+const DECK_REGISTRY_PREFIX = 'wn-deck-'
+
+export interface RegisteredCard {
+  id: string
+  front: string
+  back: string
+  tags?: string[]
+}
+
+export interface DeckRegistration {
+  deckId: string
+  registeredAt: number
+  cards: RegisteredCard[]
+}
+
+/** Synthesize a stable per-page deck id when MDX does not pass one.
+ *  Most decks historically fell back to 'undefined', sharing one bucket;
+ *  path-based ids keep per-page decks isolated going forward. */
+export function resolveDeckId(deckId: string | undefined, path?: string): string {
+  if (deckId && deckId !== 'unknown' && deckId !== 'undefined') return deckId
+  const p = path ?? (typeof location !== 'undefined' ? location.pathname : '/unknown/')
+  return `deck::${p}`
+}
+
+export function registerDeckContent(
+  deckId: string,
+  cards: ReadonlyArray<RegisteredCard>,
+  now: number = Date.now(),
+): void {
+  if (typeof localStorage === 'undefined' || !deckId || cards.length === 0) return
+  const key = DECK_REGISTRY_PREFIX + deckId
+  const normalized = JSON.stringify([...cards])
+  try {
+    const raw = localStorage.getItem(key)
+    if (raw) {
+      try {
+        const existing = JSON.parse(raw) as DeckRegistration
+        // Identical content: keep the original registration untouched so
+        // registeredAt stays meaningful and we avoid write churn on mount.
+        if (existing?.deckId === deckId && JSON.stringify(existing.cards) === normalized) return
+      } catch {
+        /* fall through and overwrite the corrupted entry */
+      }
+    }
+    const next: DeckRegistration = { deckId, registeredAt: now, cards: [...cards] }
+    localStorage.setItem(key, JSON.stringify(next))
+  } catch {
+    /* quota exceeded -- silently fail */
+  }
+}
+
+export function getRegisteredDecks(): DeckRegistration[] {
+  if (typeof localStorage === 'undefined') return []
+  const out: DeckRegistration[] = []
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i)
+    if (!key?.startsWith(DECK_REGISTRY_PREFIX)) continue
+    try {
+      const parsed = JSON.parse(localStorage.getItem(key) ?? '') as DeckRegistration
+      if (parsed?.deckId && Array.isArray(parsed.cards)) out.push(parsed)
+    } catch {
+      /* corrupted entry -- skip */
+    }
+  }
+  return out
+}
+
+export function removeDeckRegistration(deckId: string): void {
+  if (typeof localStorage === 'undefined') return
+  try {
+    localStorage.removeItem(DECK_REGISTRY_PREFIX + deckId)
+  } catch {
+    /* silently fail */
+  }
+}

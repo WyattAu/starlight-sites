@@ -3,6 +3,7 @@ import { createSignal, For } from 'solid-js'
 import type { Difficulty } from '../utils/colors'
 import { escapeHtml } from '../utils/escape'
 import { sanitizeHtml } from '../utils/sanitize'
+import { recordPracticeOutcome } from './practice/store'
 import ErrorBoundary from './ErrorBoundary'
 import QuestionDialog from './QuestionDialog'
 
@@ -96,10 +97,22 @@ function PracticeProblemItem(props: {
     }
   }
 
-  const handleSubmit = () => {
-    if (selected() !== null) {
-      setSubmitted(true)
+  const submit = () => {
+    if (selected() === null || submitted()) return
+    const correct = selected() === props.correctAnswer
+    setSubmitted(true)
+    // Mastery tracking: outcomes are keyed by page path and persisted to
+    // localStorage. Failures must never break the practice UX.
+    try {
+      recordPracticeOutcome(window.location.pathname, correct)
+      document.dispatchEvent(new CustomEvent('wn:progress-changed'))
+    } catch {
+      /* non-fatal */
     }
+  }
+
+  const handleSubmit = () => {
+    submit()
   }
 
   const difficultyColor = () => {

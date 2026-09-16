@@ -97,27 +97,14 @@ Legacy inline search (being replaced by SearchModal).
 
 ## Theme Components
 
-### ThemePreview
-
-Live theme preview with comparison.
-
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| open | boolean | - | Modal visibility |
-| onOpenChange | (open: boolean) => void | - | Visibility change handler |
-
-Features: Side-by-side comparison, contrast ratio display, all 10 themes.
-
 ### ThemeCreator
 
-Custom theme creator with WCAG validation.
+Custom theme builder, mounted globally in the header and opened via the
+reader panel's "Custom" theme chip (`wn:open-theme-creator` event).
 
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| open | boolean | - | Modal visibility |
-| onOpenChange | (open: boolean) => void | - | Visibility change handler |
-
-Features: Color pickers, live preview, WCAG AA validation, export/import CSS.
+Features: Color pickers, live WCAG AA contrast validation, applies via
+inline design tokens persisted to `wn-custom-theme` (theme value
+`custom`), reset to Paper.
 
 ## Layout Components
 

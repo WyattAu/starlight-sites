@@ -1,36 +1,46 @@
 /**
- * ThemeCreator.tsx — Custom theme creator with WCAG validation
+ * ThemeCreator — custom theme builder with WCAG AA validation.
  *
- * Features:
- * - Color picker for accent, bg, text colors
- * - Real-time WCAG AA validation
- * - Live preview of changes
- * - Export as CSS custom properties
- * - Import from CSS file
- * - Reset to defaults
+ * Mounted once in the shared Header override (client:idle); opens via
+ * the `wn:open-theme-creator` custom event, dispatched by the reader
+ * panel's "Custom" theme chip.
+ *
+ * Applying a theme:
+ *   1. Persists the palette to `wn-custom-theme` (localStorage).
+ *   2. Sets `wn-theme=custom` so the ThemeProvider/reader persist it.
+ *   3. Sets the --ea-* design tokens inline on <html>, which cascade
+ *      through the :root paper contract into --wn-* and --sl-color-*.
+ * Inline styles beat any stylesheet, so custom survives every theme
+ * block and is re-applied by ThemeProvider on view-transition swaps.
  */
 
-import { createSignal, createEffect, Show } from 'solid-js'
+import { createEffect, createSignal, onCleanup, onMount, Show } from 'solid-js'
 
-interface ThemeCreatorProps {
-  open: boolean
-  onOpenChange: (open: boolean) => void
+interface CustomColors {
+  accent: string
+  bg: string
+  bgElevated: string
+  text: string
+  textMuted: string
+  border: string
 }
 
-const DEFAULT_COLORS = {
-  accent: '#ff6b35',
-  bg: '#0a0a0f',
-  bgElevated: '#12121a',
-  text: '#e8e8ed',
-  textMuted: '#8888a0',
-  border: '#2a2a3a',
+const CUSTOM_THEME_KEY = 'wn-custom-theme'
+
+const DEFAULT_COLORS: CustomColors = {
+  accent: '#8c2f2f',
+  bg: '#f5f1e8',
+  bgElevated: '#fef9f2',
+  text: '#1a1815',
+  textMuted: '#5c554d',
+  border: '#d8d0be',
 }
 
 function getLuminance(hex: string): number {
   const r = parseInt(hex.slice(1, 3), 16) / 255
   const g = parseInt(hex.slice(3, 5), 16) / 255
   const b = parseInt(hex.slice(5, 7), 16) / 255
-  const toLinear = (c: number) => c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4)
+  const toLinear = (c: number) => (c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4)
   return 0.2126 * toLinear(r) + 0.7152 * toLinear(g) + 0.0722 * toLinear(b)
 }
 
@@ -44,161 +54,238 @@ function isWCAAPass(ratio: number, isLargeText: boolean): boolean {
   return isLargeText ? ratio >= 3 : ratio >= 4.5
 }
 
-export default function ThemeCreator(props: ThemeCreatorProps) {
-  const [colors, setColors] = createSignal({ ...DEFAULT_COLORS })
-  const [showImport, setShowImport] = createSignal(false)
-  const [importValue, setImportValue] = createSignal('')
+function hexAlpha(hex: string, alpha: string): string {
+  return hex + alpha
+}
+
+export function applyCustomThemeColors(colors: CustomColors): void {
+  const s = document.documentElement.style
+  s.setProperty('--ea-accent', colors.accent)
+  s.setProperty('--ea-accent-deep', colors.accent)
+  s.setProperty('--ea-accent-low', hexAlpha(colors.accent, '1a'))
+  s.setProperty('--ea-surface', colors.bg)
+  s.setProperty('--ea-surface-warm', colors.bgElevated)
+  s.setProperty('--ea-surface-card', colors.bgElevated)
+  s.setProperty('--ea-surface-hover', colors.bgElevated)
+  s.setProperty('--ea-text', colors.text)
+  s.setProperty('--ea-text-muted', colors.textMuted)
+  s.setProperty('--ea-text-dim', colors.textMuted)
+  s.setProperty('--ea-text-inverse', colors.bg)
+  s.setProperty('--ea-hairline-color', colors.border)
+}
+
+export function clearCustomThemeColors(): void {
+  const s = document.documentElement.style
+  const props = [
+    '--ea-accent',
+    '--ea-accent-deep',
+    '--ea-accent-low',
+    '--ea-surface',
+    '--ea-surface-warm',
+    '--ea-surface-card',
+    '--ea-surface-hover',
+    '--ea-text',
+    '--ea-text-muted',
+    '--ea-text-dim',
+    '--ea-text-inverse',
+    '--ea-hairline-color',
+  ]
+  for (const p of props) s.removeProperty(p)
+}
+
+function loadStoredColors(): CustomColors | null {
+  try {
+    const raw = localStorage.getItem(CUSTOM_THEME_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as CustomColors
+    if (typeof parsed?.bg !== 'string') return null
+    return parsed
+  } catch {
+    return null
+  }
+}
+
+export default function ThemeCreator() {
+  const [open, setOpen] = createSignal(false)
+  const [colors, setColors] = createSignal<CustomColors>({ ...DEFAULT_COLORS })
+
+  // Opens via the reader panel's "Custom" theme chip.
+  const openFromEvent = () => setOpen(true)
+  onMount(() => {
+    document.addEventListener('wn:open-theme-creator', openFromEvent)
+    onCleanup(() => document.removeEventListener('wn:open-theme-creator', openFromEvent))
+  })
+
+  createEffect(() => {
+    if (open()) {
+      const stored = loadStoredColors()
+      if (stored) setColors(stored)
+    }
+  })
 
   const textOnBg = () => getContrastRatio(colors().text, colors().bg)
   const mutedOnBg = () => getContrastRatio(colors().textMuted, colors().bg)
   const accentOnBg = () => getContrastRatio(colors().accent, colors().bg)
 
-  const exportCSS = () => {
-    const css = `:root {
-  --sl-color-accent: ${colors().accent};
-  --wn-bg: ${colors().bg};
-  --wn-bg-elevated: ${colors().bgElevated};
-  --wn-text: ${colors().text};
-  --wn-text-muted: ${colors().textMuted};
-  --wn-border: ${colors().border};
-}`
-    const blob = new Blob([css], { type: 'text/css' })
-    const url = URL.createObjectURL(blob)
-    const a = document.createElement('a')
-    a.href = url
-    a.download = 'custom-theme.css'
-    a.click()
-    URL.revokeObjectURL(url)
+  const apply = () => {
+    try {
+      localStorage.setItem(CUSTOM_THEME_KEY, JSON.stringify(colors()))
+      localStorage.setItem('wn-theme', 'custom')
+      applyCustomThemeColors(colors())
+      document.documentElement.setAttribute('data-theme', 'custom')
+      document.dispatchEvent(new CustomEvent('wn:theme-changed'))
+      document.dispatchEvent(new CustomEvent('wn:progress-changed'))
+      setOpen(false)
+    } catch {
+      /* non-fatal */
+    }
   }
 
-  const importCSS = () => {
+  const reset = () => {
     try {
-      const css = importValue()
-      const accentMatch = css.match(/--sl-color-accent:\s*(#[0-9a-fA-F]{6})/)
-      const bgMatch = css.match(/--wn-bg:\s*(#[0-9a-fA-F]{6})/)
-      const textMatch = css.match(/--wn-text:\s*(#[0-9a-fA-F]{6})/)
-      const accent = accentMatch?.[1]
-      const bg = bgMatch?.[1]
-      const text = textMatch?.[1]
-      if (accent) setColors(c => ({ ...c, accent }))
-      if (bg) setColors(c => ({ ...c, bg }))
-      if (text) setColors(c => ({ ...c, text }))
-      setShowImport(false)
-    } catch {}
+      localStorage.removeItem(CUSTOM_THEME_KEY)
+      localStorage.setItem('wn-theme', 'paper')
+      clearCustomThemeColors()
+      document.documentElement.setAttribute('data-theme', 'paper')
+      document.dispatchEvent(new CustomEvent('wn:theme-changed'))
+    } catch {
+      /* non-fatal */
+    }
+  }
+
+  const usingCustom = () => {
+    try {
+      return localStorage.getItem('wn-theme') === 'custom'
+    } catch {
+      return false
+    }
   }
 
   return (
-    <Show when={props.open}>
-      <div class="theme-creator-backdrop" onClick={() => props.onOpenChange(false)}>
-        <div class="theme-creator-modal" onClick={(e) => e.stopPropagation()}>
+    <Show when={open()}>
+      <div
+        class="theme-creator-backdrop"
+        role="presentation"
+        onClick={() => setOpen(false)}
+        onKeyDown={e => {
+          if (e.key === 'Escape') setOpen(false)
+        }}
+      >
+        <div
+          class="theme-creator-modal"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Custom theme creator"
+          onClick={e => e.stopPropagation()}
+        >
           <div class="theme-creator-header">
-            <h2>Theme Creator</h2>
-            <button type="button" class="theme-creator-close" aria-label="Close theme creator" onClick={() => props.onOpenChange(false)}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 6 6 18" /><path d="m6 6 12 12" />
+            <h2>Custom Theme</h2>
+            <button
+              type="button"
+              class="theme-creator-close"
+              aria-label="Close theme creator"
+              onClick={() => setOpen(false)}
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                aria-hidden="true"
+              >
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
               </svg>
             </button>
           </div>
 
           <div class="theme-creator-body">
             <div class="theme-creator-pickers">
-              <div class="theme-creator-field">
-                <label>Accent Color</label>
-                <input type="color" value={colors().accent} onInput={(e) => setColors(c => ({ ...c, accent: e.currentTarget.value }))} />
-                <span>{colors().accent}</span>
-              </div>
-              <div class="theme-creator-field">
-                <label>Background</label>
-                <input type="color" value={colors().bg} onInput={(e) => setColors(c => ({ ...c, bg: e.currentTarget.value }))} />
-                <span>{colors().bg}</span>
-              </div>
-              <div class="theme-creator-field">
-                <label>Elevated Background</label>
-                <input type="color" value={colors().bgElevated} onInput={(e) => setColors(c => ({ ...c, bgElevated: e.currentTarget.value }))} />
-                <span>{colors().bgElevated}</span>
-              </div>
-              <div class="theme-creator-field">
-                <label>Text Color</label>
-                <input type="color" value={colors().text} onInput={(e) => setColors(c => ({ ...c, text: e.currentTarget.value }))} />
-                <span>{colors().text}</span>
-              </div>
-              <div class="theme-creator-field">
-                <label>Muted Text</label>
-                <input type="color" value={colors().textMuted} onInput={(e) => setColors(c => ({ ...c, textMuted: e.currentTarget.value }))} />
-                <span>{colors().textMuted}</span>
-              </div>
-              <div class="theme-creator-field">
-                <label>Border</label>
-                <input type="color" value={colors().border} onInput={(e) => setColors(c => ({ ...c, border: e.currentTarget.value }))} />
-                <span>{colors().border}</span>
-              </div>
+              <ForColor
+                label="Accent Color"
+                value={colors().accent}
+                onChange={v => setColors(c => ({ ...c, accent: v }))}
+              />
+              <ForColor
+                label="Background"
+                value={colors().bg}
+                onChange={v => setColors(c => ({ ...c, bg: v }))}
+              />
+              <ForColor
+                label="Card Background"
+                value={colors().bgElevated}
+                onChange={v => setColors(c => ({ ...c, bgElevated: v }))}
+              />
+              <ForColor
+                label="Text"
+                value={colors().text}
+                onChange={v => setColors(c => ({ ...c, text: v }))}
+              />
+              <ForColor
+                label="Muted Text"
+                value={colors().textMuted}
+                onChange={v => setColors(c => ({ ...c, textMuted: v }))}
+              />
+              <ForColor
+                label="Border"
+                value={colors().border}
+                onChange={v => setColors(c => ({ ...c, border: v }))}
+              />
             </div>
 
             <div class="theme-creator-contrast">
-              <h3>WCAG AA Contrast Ratios</h3>
+              <h3>WCAG AA Contrast</h3>
               <div class="contrast-row">
-                <span>Text on Background:</span>
+                <span>Text on background</span>
                 <span class={isWCAAPass(textOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {textOnBg().toFixed(1)}:1 {isWCAAPass(textOnBg(), false) ? '[PASS]' : '[FAIL]'}
+                  {textOnBg().toFixed(1)}:1 {isWCAAPass(textOnBg(), false) ? 'PASS' : 'FAIL'}
                 </span>
               </div>
               <div class="contrast-row">
-                <span>Muted on Background:</span>
+                <span>Muted text on background</span>
                 <span class={isWCAAPass(mutedOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {mutedOnBg().toFixed(1)}:1 {isWCAAPass(mutedOnBg(), false) ? '[PASS]' : '[FAIL]'}
+                  {mutedOnBg().toFixed(1)}:1 {isWCAAPass(mutedOnBg(), false) ? 'PASS' : 'FAIL'}
                 </span>
               </div>
               <div class="contrast-row">
-                <span>Accent on Background:</span>
-                <span class={isWCAAPass(accentOnBg(), false) ? 'contrast-pass' : 'contrast-fail'}>
-                  {accentOnBg().toFixed(1)}:1 {isWCAAPass(accentOnBg(), false) ? '[PASS]' : '[FAIL]'}
+                <span>Accent on background</span>
+                <span class={isWCAAPass(accentOnBg(), true) ? 'contrast-pass' : 'contrast-fail'}>
+                  {accentOnBg().toFixed(1)}:1 {isWCAAPass(accentOnBg(), true) ? 'PASS' : 'FAIL'}
                 </span>
-              </div>
-            </div>
-
-            <div class="theme-creator-preview" data-theme="dark"
-              style={{ background: colors().bg, color: colors().text }}>
-              <h3 style={{ color: colors().text }}>Preview</h3>
-              <p>This is how your theme will look.</p>
-              <code style={{ background: colors().bgElevated, color: colors().text }}>const theme = "custom"</code>
-              <div style={{ background: colors().bgElevated, border: `1px solid ${colors().border}`, padding: '1rem', 'border-radius': '10px' }}>
-                <strong style={{ color: colors().accent }}>Card Title</strong>
-                <p style={{ color: colors().textMuted }}>Muted text content.</p>
               </div>
             </div>
           </div>
 
           <div class="theme-creator-footer">
-            <button class="action-btn action-btn-secondary action-btn-md" onClick={() => setColors({ ...DEFAULT_COLORS })}>
-              Reset
-            </button>
-            <button class="action-btn action-btn-secondary action-btn-md" onClick={() => setShowImport(true)}>
-              Import
-            </button>
-            <button class="action-btn action-btn-primary action-btn-md" onClick={exportCSS}>
-              Export CSS
+            <Show when={usingCustom()}>
+              <button type="button" class="theme-creator-reset" onClick={reset}>
+                Reset to Paper
+              </button>
+            </Show>
+            <button type="button" class="theme-creator-apply" onClick={apply}>
+              Apply Theme
             </button>
           </div>
-
-          <Show when={showImport()}>
-            <div class="theme-creator-import">
-              <textarea
-                placeholder="Paste CSS custom properties here..."
-                value={importValue()}
-                onInput={(e) => setImportValue(e.currentTarget.value)}
-              />
-              <div class="theme-creator-import-actions">
-                <button class="action-btn action-btn-secondary action-btn-sm" onClick={() => setShowImport(false)}>
-                  Cancel
-                </button>
-                <button class="action-btn action-btn-primary action-btn-sm" onClick={importCSS}>
-                  Import
-                </button>
-              </div>
-            </div>
-          </Show>
         </div>
       </div>
     </Show>
+  )
+}
+
+function ForColor(props: { label: string; value: string; onChange: (v: string) => void }) {
+  const inputId = `theme-creator-${props.label.toLowerCase().replace(/[^a-z]+/g, '-')}`
+  return (
+    <div class="theme-creator-field">
+      <label for={inputId}>{props.label}</label>
+      <input
+        id={inputId}
+        type="color"
+        value={props.value}
+        onInput={e => props.onChange(e.currentTarget.value)}
+      />
+      <span>{props.value}</span>
+    </div>
   )
 }

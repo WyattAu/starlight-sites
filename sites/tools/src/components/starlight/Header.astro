@@ -1,4 +1,8 @@
 ---
+import ProgressBadge from '../ProgressBadge.tsx'
+import ReviewQueueHost from '../ReviewQueueHost.tsx'
+import ThemeCreator from '../ThemeCreator.tsx'
+
 const { starlightRoute } = Astro.locals
 const title = starlightRoute?.siteTitle || "Notes"
 ---
@@ -10,6 +14,11 @@ const title = starlightRoute?.siteTitle || "Notes"
         <img src="/favicon.svg" alt="Site icon" role="presentation" width="22" height="22" class="site-title-icon" loading="eager">
         <span>{title}</span>
       </a>
+    </div>
+    <div class="sl-flex header-progress print:hidden">
+      <ProgressBadge client:idle />
+      <ThemeCreator client:idle />
+      <ReviewQueueHost client:idle />
     </div>
     <div class="sl-flex print:hidden">
       <div id="custom-search">

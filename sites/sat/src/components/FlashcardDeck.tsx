@@ -36,6 +36,8 @@ import {
   getLongestStreak,
   getStreak,
   loadDeck,
+  registerDeckContent,
+  resolveDeckId,
   saveDeck,
 } from './flashcard/storage'
 import ReviewQueue from './ReviewQueue'
@@ -136,7 +138,14 @@ function createPrefersReducedMotion() {
 }
 
 export default function FlashcardDeck(props: FlashcardDeckProps) {
-  const [getDeckData, setDeckData] = createSignal<DeckData | null>(loadDeck(props.deckId))
+  // Most MDX usages do not pass deckId; synthesize a stable per-page id so
+  // decks don't share one storage bucket. client:only guarantees `location`.
+  const resolvedDeckId = resolveDeckId(props.deckId)
+  // Register card content so the global ReviewQueueHost can offer this
+  // deck for review from any page on the site.
+  registerDeckContent(resolvedDeckId, props.cards)
+
+  const [getDeckData, setDeckData] = createSignal<DeckData | null>(loadDeck(resolvedDeckId))
   const [getView, setView] = createSignal<View>('deck')
   const [getFlipped, setFlipped] = createSignal(false)
   const [getCurrentIndex, setCurrentIndex] = createSignal(0)
@@ -146,7 +155,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
 
   const reviewQueueDecks = createMemo(() => {
     if (props.decks && props.decks.length > 0) return props.decks
-    return [{ deckId: props.deckId, cards: props.cards }]
+    return [{ deckId: resolvedDeckId, cards: props.cards }]
   })
 
   const globalDueCount = createMemo(() => {
@@ -206,8 +215,13 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
   const totalReviews = createMemo(() => getDeckData()?.reviewHistory.length ?? 0)
 
   const persistData = (next: DeckData) => {
-    saveDeck(props.deckId, next)
+    saveDeck(resolvedDeckId, next)
     setDeckData(next)
+    try {
+      document.dispatchEvent(new CustomEvent('wn:progress-changed'))
+    } catch {
+      /* non-fatal */
+    }
   }
 
   const startReview = () => {
@@ -251,7 +265,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
       action: 'rate',
       rating,
       cardId,
-      deckId: props.deckId || 'unknown',
+      deckId: resolvedDeckId,
       streak: newStreak,
     })
 
@@ -281,7 +295,7 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = `${props.deckId}-progress.json`
+    a.download = `${resolvedDeckId.replace(/[^a-z0-9-]+/gi, '-')}-progress.json`
     a.click()
     URL.revokeObjectURL(url)
     showToast('success', 'Progress exported')

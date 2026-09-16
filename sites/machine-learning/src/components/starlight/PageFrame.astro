@@ -16,6 +16,7 @@ import PageFrame from '@astrojs/starlight/components/PageFrame.astro'
 import Header from './Header.astro'
 import SubjectHero from '../SubjectHero.astro'
 import TopicGrid from '../TopicGrid.astro'
+import ProgressPanel from '../ProgressPanel.tsx'
 
 const { starlightRoute } = Astro.locals
 const { entry } = starlightRoute
@@ -24,7 +25,7 @@ const isLanding =
   entry.id === 'index' && entry.data.template === 'splash'
 
 const title = entry.data.title
-const tagline = entry.data.hero?.tagline || entry.data.description
+const tagline = entry.data.hero?.tagline || entry.data.description || ''
 const actions = entry.data.hero?.actions ?? []
 
 interface TopicCard {
@@ -76,6 +77,7 @@ const topics = flattenSidebar(starlightRoute.sidebar ?? [])
             </div>
           )}
         </SubjectHero>
+        <ProgressPanel client:idle />
         {topics.length > 0 && (
           <section class="landing-topics" aria-label="Topics">
             <div class="landing-topics__inner">

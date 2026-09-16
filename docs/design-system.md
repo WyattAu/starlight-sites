@@ -143,25 +143,18 @@ import SearchModal from '../components/SearchModal'
 
 ### ThemeCreator
 
-Custom theme creator with WCAG validation.
+Custom theme creator with WCAG AA validation. Mounted globally in the
+header; opens from the reader panel's "Custom" theme chip
+(`wn:open-theme-creator`). Applying persists the palette to
+`wn-custom-theme` and sets `data-theme="custom"`.
 
-```tsx
-import ThemeCreator from '../components/ThemeCreator'
+Features: Color pickers, live WCAG AA contrast validation, apply/reset.
 
-<ThemeCreator open={isOpen} onOpenChange={setIsOpen} />
-```
+### ThemeCreator (custom themes)
 
-Features: Color pickers, live preview, WCAG AA validation, export/import CSS.
-
-### ThemePreview
-
-Live theme preview with comparison.
-
-```tsx
-import ThemePreview from '../components/ThemePreview'
-
-<ThemePreview open={isOpen} onOpenChange={setIsOpen} />
-```
+Applying a custom theme sets `data-theme="custom"` with inline `--ea-*`
+tokens, which cascade through the :root paper contract into `--wn-*` and
+`--sl-color-*`. No per-theme CSS block is needed.
 
 Features: Side-by-side comparison, contrast ratio display, all 10 themes.
 

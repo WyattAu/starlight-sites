@@ -17,15 +17,55 @@
 <script is:inline>
   (function () {
     var THEMES = [
-      'paper', 'dark', 'light', 'sepia', 'contrast', 'nord',
+      'paper', 'custom', 'dark', 'light', 'sepia', 'contrast', 'nord',
       'dracula', 'monokai', 'ayu-mirage', 'solarized', 'papercolor',
     ];
+
+    var CUSTOM_PROPS = [
+      ['--ea-accent', 'accent'],
+      ['--ea-accent-deep', 'accent'],
+      ['--ea-surface', 'bg'],
+      ['--ea-surface-warm', 'bgElevated'],
+      ['--ea-surface-card', 'bgElevated'],
+      ['--ea-surface-hover', 'bgElevated'],
+      ['--ea-text', 'text'],
+      ['--ea-text-muted', 'textMuted'],
+      ['--ea-text-dim', 'textMuted'],
+      ['--ea-text-inverse', 'bg'],
+      ['--ea-hairline-color', 'border'],
+    ];
+
+    function applyCustomColors(root, colors) {
+      if (!colors || typeof colors.bg !== 'string') return;
+      for (var i = 0; i < CUSTOM_PROPS.length; i++) {
+        var v = colors[CUSTOM_PROPS[i][1]];
+        if (typeof v === 'string') root.style.setProperty(CUSTOM_PROPS[i][0], v);
+      }
+      root.style.setProperty('--ea-accent-low', colors.accent + '1a');
+    }
+
+    function clearCustomColors(root) {
+      for (var i = 0; i < CUSTOM_PROPS.length; i++) root.style.removeProperty(CUSTOM_PROPS[i][0]);
+      root.style.removeProperty('--ea-accent-low');
+    }
 
     function apply() {
       var root = document.documentElement;
       try {
         var theme = localStorage.getItem('wn-theme');
-        root.setAttribute('data-theme', THEMES.indexOf(theme) >= 0 ? theme : 'paper');
+        if (THEMES.indexOf(theme) < 0) theme = 'paper';
+        root.setAttribute('data-theme', theme);
+
+        if (theme === 'custom') {
+          var raw = localStorage.getItem('wn-custom-theme');
+          if (raw) {
+            try { applyCustomColors(root, JSON.parse(raw)); } catch (e) { root.setAttribute('data-theme', 'paper'); }
+          } else {
+            root.setAttribute('data-theme', 'paper');
+          }
+        } else {
+          clearCustomColors(root);
+        }
 
         var fs = localStorage.getItem('wn-font-size');
         if (fs) root.style.setProperty('--wn-font-size-scale', fs);
