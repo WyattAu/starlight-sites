@@ -292,6 +292,7 @@ $$
 individual probabilities, subtract all pairwise intersections, add back all triple Intersections,
 and so on, alternating signs.
 :::
+
 ## Conditional Probability
 
 ### Definition
@@ -506,6 +507,7 @@ Independent.
 Separately and compare. Do not assume independence from the problem description -- it must be
 Verified or explicitly stated.
 :::
+
 ## Bayes' Theorem
 
 ### Statement
@@ -1061,7 +1063,6 @@ denominator cannot be zero).
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
    > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
-
 
 ```mermaid
 flowchart TD

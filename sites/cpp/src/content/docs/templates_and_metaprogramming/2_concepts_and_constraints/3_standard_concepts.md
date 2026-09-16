@@ -79,6 +79,7 @@ Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_pt
 but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
 These concepts are the vocabulary types of generic programming.
 :::
+
 ## Understanding `std::derived_from` vs `std::is_base_of`
 
 `std::derived_from<D, B>` is stricter than `std::is_base_of_v<B, D>`:
@@ -386,6 +387,7 @@ Prefer `std::ranges::range` over manually checking `begin()`/`end()`. Prefer
 `std::ranges::range_value_t<R>` over `typename R::value_type` (it works with proxy iterators). Range
 Concepts are defined in `<ranges>` [N4950 §26.2] and compose with the concepts in `<concepts>`.
 :::
+
 ## Range Concepts
 
 The `<ranges>` header provides concepts that operate on ranges (pairs of iterators and sentinels)
@@ -559,7 +561,6 @@ void process(T val) {
 
 The fix is to place the more specific overload first, since `std::signed_integral<T>` subsumes
 `std::integral<T>` (every signed integral is an integral, but not vice versa).
-
 
 ```mermaid
 flowchart TD

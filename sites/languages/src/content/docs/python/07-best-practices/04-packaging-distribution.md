@@ -128,6 +128,7 @@ branch = true
 Scattered across `setup.py``setup.cfg`And `setup.cfg`/`pyproject.toml`. The new standard
 Consolidates everything into one file.
 :::
+
 ## setup.py Legacy vs pyproject.toml
 
 ### Legacy setup.py
@@ -177,6 +178,7 @@ where = ["src"]
 `setup.py` file can still exist for complex build logic that cannot be expressed declaratively, but
 Most projects do not need it.
 :::
+
 ## setuptools
 
 ### setup.cfg (Complementary)
@@ -317,6 +319,7 @@ requests==2.31.0 \
 Installed package matches exactly what you tested. Without hashes, a compromised PyPI mirror could
 Serve malicious packages.
 :::
+
 ## Virtual Environments
 
 ### venv
@@ -367,6 +370,7 @@ conda env create -f environment.yml
 `--system-site-packages` or faster creation. Use `conda` when you need non-Python dependencies
 (e.g., CUDA, MKL).
 :::
+
 ## Dependency Management
 
 ### pip
@@ -489,6 +493,7 @@ The project root, Python may import the local package instead of the installed o
 Forces you to install the package before testing, catching missing dependencies and incorrect
 Packaging.
 :::
+
 ## Entry Points
 
 ### console_scripts
@@ -582,6 +587,7 @@ prune tests
 :::tip
 `MANIFEST.in`. Only use it when you need to include files that setuptools cannot auto-discover.
 :::
+
 ## Versioning
 
 ### Semantic Versioning
@@ -976,7 +982,6 @@ pip install twine
 twine check dist/*
 # Also verify the name is available on https://pypi.org
 ```
-
 
 ```mermaid
 flowchart TD

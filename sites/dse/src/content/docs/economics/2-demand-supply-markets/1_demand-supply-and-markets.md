@@ -66,6 +66,7 @@ As the price of a good increases, the quantity demanded decreases, and vice vers
 :::tip
 Any other factor causes a **shift** of the curve. DSE exams frequently test this distinction.
 :::
+
 ### Individual Demand vs Market Demand
 
 Market demand is the horizontal sum of all individual demands at each price level.
@@ -246,6 +247,7 @@ $$\mathrm{Total Revenue (TR)} = P \times Q$$
 :::tip
 Price if demand is inelastic. This is a very common exam question.
 :::
+
 ### Worked Example 3
 
 The price of a good increases from USD 50 to USD 60. Quantity demanded falls from 200 to 160 units.
@@ -555,7 +557,6 @@ Loss.
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[1_Demand Supply And Markets] --> B[Key Concepts]
@@ -799,6 +800,7 @@ Maximum profit: TR - TC = 250 - 185 = USD 65.
 :::caution
 lower total Revenue.
 :::
+
 :::danger
 - **Confusing a change in demand with a change in quantity demanded:** A change in quantity demanded
   is caused by a price change and is a MOVEMENT ALONG the demand curve. A change in demand is caused
@@ -820,6 +822,7 @@ lower total Revenue.
   shifts supply RIGHT (downward), decreasing price and increasing quantity. The burden of a tax is
   shared between consumers and producers depending on the price elasticity of demand and supply.
 :::
+
 ## National Income Accounting
 
 ### Measuring National Income

@@ -322,6 +322,7 @@ In the worst case. $\square$
 :::note
 sort, counting Sort) can beat $O(n \log n)$ but have restrictions on key types.
 :::
+
 <hr />
 
 ## Problem Set
@@ -575,7 +576,6 @@ For revision on data structures used in sorting, see
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

@@ -26,8 +26,8 @@ Window chains that give window functions their full power.
 ```sql
 function_name([arguments]) OVER (
     [window_name]
-    [PARTITION BY partition_expr...]
-    [ORDER BY sort_expr [ASC|DESC] [NULLS {FIRST|LAST}]...]
+    [PARTITION BY partition_expr, ...]
+    [ORDER BY sort_expr [ASC|DESC] [NULLS {FIRST|LAST}], ...]
     [frame_clause]
 )
 ```
@@ -393,6 +393,7 @@ FROM employees e
 CROSS JOIN LATERAL jsonb_each_text(e.attributes) AS kv;
 ```
 :::
+
 :::note
 `FROM generate_series(1, 10)`). You only need the explicit keyword when the subquery references
 Outer columns.
@@ -530,6 +531,7 @@ REFRESH MATERIALIZED VIEW mv_daily_sales_summary;
 REFRESH MATERIALIZED VIEW CONCURRENTLY mv_daily_sales_summary;
 ```
 :::
+
 :::caution
 `UNIQUE` index. Without a unique index, only non-concurrent refresh is available, which acquires an
 `ACCESS EXCLUSIVE` lock for the duration of the refresh.
@@ -951,6 +953,7 @@ SELECT * FROM orders WHERE order_date >= '2024-01-01';
 SELECT * FROM large_table GROUP BY category;
 ```
 :::
+
 :::caution
 Appropriate indexes, or rewrite the query. Hints become stale when data distributions change and can
 Degrade performance over time.
@@ -1080,6 +1083,7 @@ VALUES ('Widget', 29.99, 0.20, 'A high-quality widget for industrial use');
 | Stored  | On disk  | Low       | Higher     | Yes       |
 | Virtual | Computed | Higher    | Low        | No        |
 :::
+
 :::note
 The SQL standard but not yet implemented. Other databases like MySQL and SQL Server support both.
 
@@ -1130,6 +1134,7 @@ CREATE TABLE orders (
 SELECT * FROM orders WHERE status >= 'shipped';
 ```
 :::
+
 :::caution
 `ALTER TYPE ... ADD VALUE`Which cannot run inside a transaction in PostgreSQL 12+. Renaming or
 Removing values is not straightforward. For rapidly changing sets of states, use a lookup table with

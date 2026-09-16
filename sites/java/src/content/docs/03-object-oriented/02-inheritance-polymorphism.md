@@ -505,6 +505,7 @@ void resize(Rectangle r, int w, int h) {
 Structural subtyping. Just because a class can be made to extend another does not mean it should. If
 A subclass must violate the superclass's contract to work correctly, use composition instead.
 :::
+
 ## SOLID Principles Overview
 
 | Principle                     | Guideline                                                           |
@@ -743,6 +744,7 @@ if (r instanceof Rectangle(
 Record components. You can use `var` for type inference or specify the exact type. The number of
 Pattern components must match the number of record components.
 :::
+
 ## Common Pitfalls
 
 ### Forgetting `super()` in Constructor

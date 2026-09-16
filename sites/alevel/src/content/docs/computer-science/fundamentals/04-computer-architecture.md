@@ -1,7 +1,7 @@
 ---
 
 title: "Computer Architecture"
-description: "The , proposed by John Von Neumann in 1945, is characterised by a single Unified memory space that stores both data and instructions, a single set of buses"
+description: "The, proposed by John Von Neumann in 1945, is characterised by a single Unified memory space that stores both data and instructions, a single set of buses"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - ComputerScience
@@ -65,6 +65,7 @@ Its own bus.
 Cache is split into instruction cache and data cache (Harvard), while main memory is unified (Von
 Neumann).
 :::
+
 <hr />
 
 ## 3. CPU Components
@@ -106,6 +107,7 @@ The CU orchestrates the fetch-decode-execute cycle by generating control signals
 - **CIE** uses: PC, MAR, MDR, ACC, IR, B (B register as temporary)
 - **OCR** uses: PC, MAR, MDR, ACC, CIR, and may reference index registers
 :::
+
 **General Purpose Registers (GPRs):** Additional registers for temporary storage during computation.
 The number varies by architecture (e.g., ARM has 16, x86-64 has 16).
 
@@ -387,6 +389,7 @@ Cycles. Emphasis on hardware complexity.
 :::note
 RISC-like Internal micro-operations).
 :::
+
 <hr />
 
 ## Problem Set
@@ -639,7 +642,6 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

@@ -369,7 +369,7 @@ Widget* arr = new Widget[10];
 delete[] arr;  // must use delete[] for arrays
 
 // What delete[] actually does:
-// 1. Calls ~Widget() on arr[9], arr[8]..., arr[0] (reverse order)
+// 1. Calls ~Widget() on arr[9], arr[8], ..., arr[0] (reverse order)
 // 2. Calls operator delete[](arr) to free the memory
 ```
 
@@ -488,7 +488,6 @@ Config global_config;
 
 The Construct On First Use idiom also solves the destruction order problem: function-local statics
 Are destroyed in reverse order of their **first access**, not their declaration.
-
 
 ```mermaid
 flowchart TD

@@ -394,6 +394,7 @@ individual lookups.
 Red-black trees are used in the Linux kernel (for `CFS` scheduler, `mm` memory management), Java's
 `TreeMap`/`TreeSet`C++ `std::map`/`std::set`And many other standard library implementations.
 :::
+
 :::note
 Insertions and deletions are frequent (schedulers, event queues). In practice, the difference is
 Small for most workloads.
@@ -609,6 +610,7 @@ class GraphMatrix:
 | Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
 :::
+
 :::note
 Networks). Use adjacency matrices for dense graphs (fully connected or nearly so) or when you need
 $O(1)$ edge existence checks.

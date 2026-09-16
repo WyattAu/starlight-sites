@@ -102,6 +102,7 @@ DROP CONSTRAINT:
 ALTER TABLE employees DROP CONSTRAINT chk_salary_range;
 ```
 :::
+
 :::caution
 To the table for the duration of the operation. On large tables, adding a column with a default
 Value or changing a column type can take hours. Use `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL`
@@ -177,6 +178,7 @@ SET salary = (
 WHERE e.emp_id = 42;
 ```
 :::
+
 :::caution
 Same `WHERE` clause first to verify which rows will be affected. Consider wrapping destructive
 Updates in a transaction with a `SAVEPOINT` so you can roll back if the results are wrong.
@@ -273,6 +275,7 @@ Logical operators:
 WHERE (salary > 100000 OR department_id = 1) AND hire_date >= '2022-01-01'
 ```
 :::
+
 :::caution
 `WHERE column = NULL` never matches any rows. Use `IS NULL` and `IS NOT NULL`. Similarly,
 `NULL AND TRUE` is `NULL``NULL OR FALSE` is `NULL`And `NOT NULL` is `NULL`. This three-valued Logic
@@ -303,6 +306,7 @@ ORDER BY order_id
 LIMIT 20;
 ```
 :::
+
 :::tip
 Offsets (e.g., `OFFSET 100000`), this is slow because the database still processes 100,000 rows. Use
 Keyset pagination (also called seek pagination) instead:
@@ -417,6 +421,7 @@ WHERE e.salary > (
 );
 ```
 :::
+
 :::caution
 Tables, this is $O(n)$ subquery executions. Rewrite as a join or a window function when possible:
 
@@ -468,6 +473,7 @@ WHERE department_id NOT IN (SELECT dept_id FROM departments);
 -- Use NOT EXISTS instead when NULLs are possible.
 ```
 :::
+
 :::caution
 Evaluates to `x != 1 AND x != 2 AND x != NULL`And `x != NULL` is `NULL` (not `TRUE`). Always use
 `NOT EXISTS` instead of `NOT IN` when the subquery might return NULL values.
@@ -525,6 +531,7 @@ MIN(column)       -- minimum non-NULL value
 MAX(column)       -- maximum non-NULL value
 ```
 :::
+
 :::note
 Treat NULL as zero, use `AVG(COALESCE(salary, 0))`But understand that this changes the semantics:
 NULL means "unknown," not "zero."
@@ -660,6 +667,7 @@ SELECT emp_id, department_id, hire_date,
 FROM employees;
 ```
 :::
+
 :::caution
 `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`Which includes all peers (rows with the same
 ORDER BY value). This means `SUM(amount) OVER (ORDER BY date)` gives a running total that includes
@@ -736,6 +744,7 @@ graph TD
     M2 --> E3["Frank (90)<br/>depth: 3"]
 ```
 :::
+
 :::caution
 Or the process runs out of memory). Always include a depth counter or a visited set. MySQL limits
 Recursion depth to 100 by default (`cte_max_recursion_depth`). PostgreSQL has no recursion depth
@@ -804,6 +813,7 @@ WHERE commission_rate IS DISTINCT FROM 0;
 -- Returns rows where commission_rate is NULL or different from 0
 ```
 :::
+
 :::tip
 Division-by-zero errors: `ratio = a / NULLIF(b, 0)` returns NULL instead of raising an error when
 `b` is zero.

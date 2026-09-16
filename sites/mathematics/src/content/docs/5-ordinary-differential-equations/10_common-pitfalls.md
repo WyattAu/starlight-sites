@@ -21,41 +21,51 @@ description: "Overlaps with the homogeneous solution. For Guessing fails Because
 Overlaps with the homogeneous solution. For $y"' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
 :::
+
 :::caution
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
 :::
+
 :::caution
 Separate, check whether $h(y) = 0$ gives any valid solutions. For example, solving $y' = y^2$ by
 Separating gives $y = -1/(x + C)$ But misses the solution $y = 0$.
 :::
+
 :::caution
 Of continuity. At jump discontinuities, it converges to the midpoint of the jump. The Gibbs
 Phenomenon causes overshoots near jumps that do not vanish as more terms are added.
 :::
+
 :::caution
 Determine the eigenvalues. Using the wrong boundary conditions (e.g., Neumann instead of Dirichlet)
 Leads to a completely different set of eigenfunctions and eigenvalues.
 :::
+
 :::caution
 $y' = x^2 + y^2$ have no closed-form solution in terms of elementary functions. Numerical methods
 (Euler, Runge-Kutta) may be necessary.
 :::
+
 :::caution
 Valid for hyperbolic critical points (no eigenvalues on the imaginary axis). If eigenvalues lie on
 The imaginary axis, the nonlinear system can behave very differently from its linearization.
 :::
+
 :::caution
 Partial fraction decomposition is correct before inverting term-by-term. A common error is
 Forgetting to include all powers of irreducible quadratic factors.
 :::
+
 :::caution
 with complex $r = \alpha \pm i\beta$ gives solutions involving $\cos(\beta \ln x)$ and
 $\sin(\beta \ln x)$Not $\cos(\beta x)$ and $\sin(\beta x)$.
 :::
+
 :::caution
 Necessarily mean the solutions are linearly dependent. For linear ODEs with continuous coefficients,
 $W \equiv 0$ everywhere or $W \neq 0$ everywhere. Check Abel's identity.
 :::
+
 ### 9.9 Worked Example: Lyapunov Function
 
 **Problem.** Show that $(0, 0)$ is asymptotically stable for the system $x' = -x - y^3$,
@@ -152,7 +162,6 @@ boundary is chosen so that Trajectories point inward). $\blacksquare$
   of the complementary solution (transient) and particular solution (steady-state). When studying
   long-term behaviour, focus on the particular solution, but remember that the transient may be
   significant at early times.
-
 
 ```mermaid
 flowchart TD

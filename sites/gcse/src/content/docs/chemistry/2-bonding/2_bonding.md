@@ -265,6 +265,7 @@ Melts or boils, NOT the covalent bonds within the molecules. Covalent bonds are 
 Are only weak forces between molecules. Breaking covalent bonds would decompose the molecule into
 Atoms -- this does not happen during melting or boiling.
 :::
+
 The distinction between intramolecular bonds (within molecules) and intermolecular forces (between
 Molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
@@ -527,6 +528,7 @@ Given the type of bonding, you should be able to predict:
 Formed, and the process is reversible. The identity of the substance does not change; only the
 Arrangement and energy of its particles.
 :::
+
 ### 5.3 Heating and Cooling Curves
 
 A heating curve for a pure substance shows:
@@ -896,7 +898,6 @@ the appropriate terminology.
 Multi-step problems in Bonding often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
 
 ```mermaid
 flowchart TD

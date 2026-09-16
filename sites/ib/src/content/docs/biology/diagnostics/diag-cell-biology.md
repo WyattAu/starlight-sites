@@ -17,7 +17,6 @@ tableOfContents: false
 
 ## Cell Biology, Diagnostic Tests
 
-
 ```mermaid
 flowchart TD
     A[Diag Cell Biology] --> B[Key Concepts]
@@ -115,7 +114,7 @@ structure allows sequential processing steps in an assembly-line fashion.
 ### UT-3: Fluid Mosaic Model and Membrane Transport
 
 **Question:** Describe the fluid mosaic model of membrane structure. Explain why small non-polar
-molecules (e.g., $\text{O}_2$, $\text{CO}_2$) can diffuse across the membrane , while ions (e.g.,
+molecules (e.g., $\text{O}_2$, $\text{CO}_2$) can diffuse across the membrane, while ions (e.g.,
 $\text{Na}^+$) require transport proteins. Include the roles of cholesterol and integral proteins.
 
 **Solution:**
@@ -173,7 +172,7 @@ regardless of external signals.
 - M checkpoint (spindle assembly checkpoint): ensures all chromosomes are properly attached to
   spindle fibres before anaphase.
 
-(d) Multiple mutations are required because cells have redundant tumour suppressor mechanisms. ,
+(d) Multiple mutations are required because cells have redundant tumour suppressor mechanisms.,
 cancer requires: activation of at least one oncogene, inactivation of at least one tumour suppressor
 gene (e.g., p53, Rb), and mutations enabling angiogenesis and metastasis. A single mutation is
 insufficient because the remaining checkpoints can still halt division or trigger apoptosis.

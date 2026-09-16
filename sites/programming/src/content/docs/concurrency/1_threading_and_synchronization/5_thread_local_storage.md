@@ -297,6 +297,7 @@ This means:
 :::tip
 optimize this Automatically, but explicit caching can help in complex functions.
 :::
+
 ## Initialization Ordering Across Threads
 
 ### Proof: When Does `thread_local` Initialization Occur?
@@ -572,6 +573,7 @@ The new module and running its initializers lazily.
 pointer obtained Before the unload), the behavior is undefined. The standard does not define safe
 unloading semantics For TLS [N4950 §6.7.3].
 :::
+
 ### TLS Slot Exhaustion
 
 POSIX systems limit the number of TLS slots per process via `PTHREAD_KEYS_MAX` ( 1024). Each
@@ -800,7 +802,6 @@ int main() {
 This pattern provides fast bump-pointer allocation within each thread, completely eliminating
 Allocator contention. The trade-off is that individual deallocations are not supported, only bulk
 Deallocation of the entire pool.
-
 
 ```mermaid
 flowchart TD

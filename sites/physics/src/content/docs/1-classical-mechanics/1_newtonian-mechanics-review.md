@@ -20,8 +20,7 @@ sources:
 }
 </script>
 
-:::note
-<strong>Historical Context</strong>
+:::note[Historical Context]
 Newton's three laws, published in the *Principia Mathematica* (1687), unified terrestrial and celestial mechanics for the first time. Before Newton, the motion of planets was described by Kepler's empirical laws, and falling objects by Galileo's experiments, but there was no single framework connecting them. Newton's second law ($\mathbf{F} = m\mathbf{a}$) provided that framework. Leibniz developed the calculus independently, providing the mathematical tools Newton needed for the derivations. Euler later reformulated mechanics in terms of energy and the Lagrangian, which became the foundation for modern theoretical physics. The Coriolis and centrifugal terms in non-inertial frames were worked out by Gaspard-Gustave de Coriolis (1835) and are essential for understanding rotating reference frames in engineering and meteorology.
 :::
 
@@ -352,7 +351,6 @@ Kinetic friction opposes the direction of motion relative to the surface, not th
 
 **Mistake 3: Forgetting that Newton's third law pairs act on different objects**
 The action-reaction pair in Newton's third law always acts on different objects. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A. These forces do not cancel because they act on different bodies. A frequent mistake is adding action-reaction forces together and concluding the net force is zero.
-
 
 ```mermaid
 flowchart TD

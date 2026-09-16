@@ -27,9 +27,9 @@ tags: [glossary]
 
 ## Data Types
 
-**Atom**: A constant whose name is its value: `:ok`, `:error`, `:not_found`. Lightweight and fast to compare.
+**Atom**: A constant whose name is its value: `:ok``:error``:not_found`. Lightweight and fast to compare.
 
-**Tuple**: An ordered, fixed-size collection of values: `{:ok, data}`, `{:error, reason}`.
+**Tuple**: An ordered, fixed-size collection of values: `{:ok, data}``{:error, reason}`.
 
 **List**: A singly-linked list, immutable. `[1, 2, 3]`. Good for prepending, poor for random access.
 
@@ -90,7 +90,7 @@ end
 data |> fetch() |> parse() |> save()
 ```
 
-**Private Function**: Defined with `defp`, callable only within the same module.
+**Private Function**: Defined with `defp`callable only within the same module.
 
 ## Modules and Attributes
 
@@ -146,7 +146,7 @@ data |> fetch() |> parse() |> save()
 
 **Supervision Tree**: A hierarchy of supervisors and workers providing fault tolerance through the "let it crash" philosophy.
 
-**Behaviour**: An interface contract (like `GenServer`, `GenEvent`, `GenStateMachine`) that modules can implement.
+**Behaviour**: An interface contract (like `GenServer``GenEvent``GenStateMachine`) that modules can implement.
 
 **ETS (Erlang Term Storage)**: An in-memory key-value store supporting concurrent access.
 

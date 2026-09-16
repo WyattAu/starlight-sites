@@ -275,6 +275,7 @@ Total size: 12 bytes (not 7).
   access files)
 - **Edexcel** covers arrays and records with pseudocode implementations
 :::
+
 <hr />
 
 ## 5. Bounds Checking
@@ -289,6 +290,7 @@ Overflow** vulnerability.
 `A[-1]` or `A[n]` compiles but causes undefined behaviour. Python, Java, and C# perform automatic
 Bounds checking.
 :::
+
 <hr />
 
 ## 6. Arrays of Records
@@ -780,7 +782,6 @@ The optimal choice.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

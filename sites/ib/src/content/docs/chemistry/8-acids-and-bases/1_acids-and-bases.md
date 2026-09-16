@@ -62,11 +62,12 @@ $$
 | Examples (bases)          | NaOH, KOH, Ba(OH)$_2$           | NH$_3$CH$_3$COO$^-$CO$_3^{2-}$   |
 
 :::caution
-<strong>Exam Tip H$_2$SO$_4$ is a diprotic acid. The first dissociation is complete (strong),</strong>
+Exam Tip H$_2$SO$_4$ is a diprotic acid. The first dissociation is complete (strong),
 But the second dissociation is partial (weak):
 $\mathrm{HSO}_4^- \rightleftharpoons \mathrm{H}^+ + \mathrm{SO}_4^{2-}$ with
 $K_a \approx 1.0 \times 10^{-2}$.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -362,11 +363,12 @@ $K_w$ is **temperature dependent**:
 | 100                      | $5.13 \times 10^{-13}$ |
 
 :::caution
-<strong>Exam Tip At $50\degree\mathrm{C}$Pure water has $\mathrm{pH} = 6.63$ (not 7). This is</strong>
+Exam Tip At $50\degree\mathrm{C}$Pure water has $\mathrm{pH} = 6.63$ (not 7). This is
 Because $K_w$ is larger, so $[\mathrm{H}^+] = [\mathrm{OH}^-] = \sqrt{K_w} \gt 10^{-7}$. The water
 Is still **neutral** because $[\mathrm{H}^+] = [\mathrm{OH}^-]$. Neutral does not always mean pH =
 7; on temperature.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1123,7 +1125,6 @@ Note: The second and third dissociations contribute negligible H$^+$ since $K_{a
   [Acids, Bases & Buffers](https://alevel.wyattau.com/docs/chemistry/acids-bases)
 - **DSE Acids, Bases, and Salts:**
   [Acids, Bases, and Salts](https://dse.wyattau.com/docs/dse/chemistry/5-acids-bases)
-
 
 ```mermaid
 flowchart TD

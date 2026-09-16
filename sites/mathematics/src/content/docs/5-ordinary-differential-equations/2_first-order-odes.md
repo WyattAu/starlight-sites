@@ -286,6 +286,7 @@ $\frac{x^2}{2} + y^2 = C$. These are ellipses.
 :::caution
 $h(y) = 0$. Always check whether $h(y) = 0$ yields valid solutions before dividing.
 :::
+
 :::caution
 $y' = e^{x^2} + \sin(y^2)$ cannot be solved by elementary methods and require numerical Techniques.
 :::
@@ -362,7 +363,6 @@ with exponential growth, transitions to logistic growth as $P$ approaches $K$, a
 $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal. $\blacksquare$
 
 </details>
-
 
 ```mermaid
 flowchart TD

@@ -381,6 +381,7 @@ def dijkstra(n, graph, source):
     return dist
 ```
 :::
+
 :::caution
 Unprocessed vertex may exist. Use Bellman-Ford ($O(VE)$) for graphs with negative weights but no
 Negative cycles.

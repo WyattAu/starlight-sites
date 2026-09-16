@@ -6,7 +6,6 @@ description: "Problem: Build a product card widget that composes an image, title
 sidebar_position: 50
 ---
 
-
 ## Flutter Practice
 
 5 exercises covering widget composition, state management, async data loading, custom animations, and navigation.
@@ -406,7 +405,7 @@ class AnimationDemoPage extends StatelessWidget \{
 \}
 ```
 
-**Solution:** `AnimatedContainer` implicitly animates changes to `width`, `height`, `color`, and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
+**Solution:** `AnimatedContainer` implicitly animates changes to `width``height``color`and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
 
 ---
 
@@ -537,9 +536,9 @@ class SettingsPage extends StatelessWidget \{
 
 **Calling `setState` after `dispose`:** If an async operation completes after the widget is disposed, calling `setState` throws a error. Always check `mounted` before calling `setState` in async callbacks, or cancel subscriptions in `dispose`.
 
-**Building the entire UI in `initState`:** `initState` should only perform one-time setup (subscriptions, controllers). The UI must be built in `build`, which is called whenever state changes. Putting UI logic in `initState` means it never updates.
+**Building the entire UI in `initState`:** `initState` should only perform one-time setup (subscriptions, controllers). The UI must be built in `build`which is called whenever state changes. Putting UI logic in `initState` means it never updates.
 
-**Forgetting to dispose controllers and subscriptions:** `TextEditingController`, `AnimationController`, `StreamSubscription`, and `Timer` all hold resources. Failing to call `dispose()` on them causes memory leaks. Always pair `initState` subscriptions with `dispose` cleanup.
+**Forgetting to dispose controllers and subscriptions:** `TextEditingController``AnimationController``StreamSubscription`and `Timer` all hold resources. Failing to call `dispose()` on them causes memory leaks. Always pair `initState` subscriptions with `dispose` cleanup.
 
 ## See Also
 

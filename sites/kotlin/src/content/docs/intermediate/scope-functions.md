@@ -6,7 +6,7 @@ tags:
   - Kotlin
 categories:
   - Kotlin
-description: "Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions (, , , , ) and one coroutine-specific"
+description: "Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions ( ) and one coroutine-specific"
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -21,7 +21,7 @@ description: "Scope functions execute a block of code within the context of an o
 ## Introduction
 
 Scope functions execute a block of code within the context of an object. Kotlin provides five
-built-in scope functions (`let`, `apply`, `run`, `also`, `with`) and one coroutine-specific function
+built-in scope functions (`let``apply``run``also``with`) and one coroutine-specific function
 (`withContext`). They differ in two dimensions: whether the block receives the object as `this`
 (receiver) or as `it` (argument), and what the block returns (the object itself or the block"s
 result).
@@ -282,7 +282,7 @@ used only when thread or context changes are needed.
 Use the following decision process:
 
 - **Do you need to return the object itself?** Use `apply` or `also`.
-- **Do you need to return the block result?** Use `let`, `run`, or `with`.
+- **Do you need to return the block result?** Use `let``run`or `with`.
 - **Do you prefer `this` or `it` context?** Use `this` for frequent member access, `it` when you
   want to shadow the outer scope or keep the lambda short.
 
@@ -361,7 +361,6 @@ val server = ServerBuilder()
 - **Confusing `run` (extension) with `run` (non-extension).** The non-extension `run` has no
   receiver and is used as a grouping mechanism. The extension `run` operates on an object and is
   used to compute a result.
-
 
 ```mermaid
 flowchart TD

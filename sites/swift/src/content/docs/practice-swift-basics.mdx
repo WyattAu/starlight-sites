@@ -9,7 +9,6 @@ categories:
   - Swift
 ---
 
-
 import PracticeProblem from "@components/PracticeProblem";
 
 ## Swift -- Interactive Practice
@@ -23,13 +22,13 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What is the type of `let value = 3.14` in Swift?"} options={['Float', 'Double', 'Decimal', 'NSNumber']} correctAnswer={1} explanation={"Floating-point literals without a type annotation default to `Double` (64-bit) in Swift. Use `let value: Float = 3.14` for a 32-bit float."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"What does `typealias StringPair = (String, String)` create?"} options={[ 'A new class', 'An alias for any two-element tuple of Strings', 'A new struct with two String properties', 'A dictionary with String keys and values', ]} correctAnswer={1} explanation={"A `typealias` creates an alternative name for an existing type. `StringPair` is directly another name for `(String, String)`, a tuple of two strings."} difficulty="easy"  />
+<PracticeProblem client:only="solid-js" question={"What does `typealias StringPair = (String, String)` create?"} options={[ 'A new class', 'An alias for any two-element tuple of Strings', 'A new struct with two String properties', 'A dictionary with String keys and values', ]} correctAnswer={1} explanation={"A `typealias` creates an alternative name for an existing type. `StringPair` is directly another name for `(String, String)`a tuple of two strings."} difficulty="easy"  />
 
 ---
 
 ### Optionals
 
-<PracticeProblem client:only="solid-js" question={"What is the value of `let result: Int? = nil ?? 42`?"} options={['nil', '42', 'Compile error', 'Runtime crash']} correctAnswer={1} explanation={"The nil coalescing operator `??` unwraps the left side. Since it is `nil`, the default value `42` is used. The result type is `Int` (not optional)."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"What is the value of `let result: Int? = nil ?? 42`?"} options={['nil', '42', 'Compile error', 'Runtime crash']} correctAnswer={1} explanation={"The nil coalescing operator `??` unwraps the left side. Since it is `nil`the default value `42` is used. The result type is `Int` (not optional)."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question='Which statement correctly safely unwraps an optional `let name: String? = "Alice"`?' options={['let n = name!', 'if let n = name { }', 'let n: String = name', 'name.bind { n in }']} correctAnswer={1} explanation="`if let` (optional binding) safely unwraps without crashing. `!` force-unwraps and crashes if nil. Direct assignment from optional to non-optional is a compile error." difficulty="easy"  />
 
@@ -55,7 +54,7 @@ the explanation.
 
 <PracticeProblem client:only="solid-js" question={"What is the output of the following code? `struct Point { var x: Int }; var a = Point(x: 1); var b = a; b.x = 2; print(a.x)`"} options={['2','nil','1','Compile error']} correctAnswer={2} explanation={"Structs are value types. Assigning `a` to `b` creates a copy. Modifying `b.x` does not affect `a`. This is different from classes, which share the same reference."} difficulty="easy"  />
 
-<PracticeProblem client:only="solid-js" question={"In the statement `do { try riskyOp() } catch NetworkError.timeout { } catch { }`, what does the bare `catch` block handle?"} options={[ 'Only `NetworkError.timeout`', 'Only non-NetworkError errors', 'Any error not caught by previous catch blocks', 'Nothing -- it is unreachable', ]} correctAnswer={2} explanation={"A bare `catch` acts as a catch-all for any error not matched by preceding specific `catch` patterns. It must be the last catch block."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"In the statement `do { try riskyOp() } catch NetworkError.timeout { } catch { }`what does the bare `catch` block handle?"} options={[ 'Only `NetworkError.timeout`', 'Only non-NetworkError errors', 'Any error not caught by previous catch blocks', 'Nothing -- it is unreachable', ]} correctAnswer={2} explanation={"A bare `catch` acts as a catch-all for any error not matched by preceding specific `catch` patterns. It must be the last catch block."} difficulty="medium"  />
 
 ## Intuition
 
@@ -79,6 +78,27 @@ the explanation.
 - [Swift Basics Flashcards](./flashcards-swift-basics)
 - [SwiftUI Practice](./practice-swiftui)
 
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Detailed Content
 
@@ -102,7 +122,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -124,30 +143,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 
 ## Detailed Content
 

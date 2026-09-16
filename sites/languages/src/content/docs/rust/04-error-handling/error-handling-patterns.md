@@ -741,9 +741,9 @@ impl ErrorKind {
     fn is_retryable(&self) -> bool {
         match self {
             ErrorKind::Client { .. } => false,
-            ErrorKind::Server { retry_after: Some(_).. } => true,
-            ErrorKind::Server { code.. } => *code >= 500,
-            ErrorKind::Network { retryable.. } => *retryable,
+            ErrorKind::Server { retry_after: Some(_), .. } => true,
+            ErrorKind::Server { code, .. } => *code >= 500,
+            ErrorKind::Network { retryable, .. } => *retryable,
             ErrorKind::Validation { .. } => false,
             ErrorKind::Internal { .. } => false,
         }
@@ -751,10 +751,10 @@ impl ErrorKind {
 
     fn user_message(&self) -> String {
         match self {
-            ErrorKind::Client { message.. } => message.clone(),
-            ErrorKind::Server { message.. } => message.clone(),
+            ErrorKind::Client { message, .. } => message.clone(),
+            ErrorKind::Server { message, .. } => message.clone(),
             ErrorKind::Network { .. } => "network error".to_string(),
-            ErrorKind::Validation { message.. } => message.clone(),
+            ErrorKind::Validation { message, .. } => message.clone(),
             ErrorKind::Internal { .. } => "internal error".to_string(),
         }
     }
@@ -792,8 +792,8 @@ impl AppError {
 
     fn http_status(&self) -> u16 {
         match &self.kind {
-            ErrorKind::Client { code.. } => *code,
-            ErrorKind::Server { code.. } => *code,
+            ErrorKind::Client { code, .. } => *code,
+            ErrorKind::Server { code, .. } => *code,
             ErrorKind::Network { .. } => 502,
             ErrorKind::Validation { .. } => 400,
             ErrorKind::Internal { .. } => 500,
@@ -1008,6 +1008,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Error handling patterns in Rust build on Result and Option to create robust applications. The map_err function transforms error types without unwrapping. and_then chains operations that might fail. The anyhow crate provides dynamic error types for applications, while thiserror facilitates library error types. Combining these patterns with the ? operator creates clean error propagation that the compiler verifies exhaustively.

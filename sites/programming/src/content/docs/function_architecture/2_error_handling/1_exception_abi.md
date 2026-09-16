@@ -45,6 +45,7 @@ the `.eh_frame` / `.gcc_except_table` ELF sections on Linux):
 :::note
 Exception is thrown. The tables are consulted only during unwinding.
 :::
+
 ### Alternative Exception Models
 
 | Model                       | Description                                                         | Normal-Path Cost            | Platforms                 |
@@ -257,6 +258,7 @@ $\square$
 :::tip
 Errors. This confirms that exception-neutral code has zero overhead in the normal path.
 :::
+
 ## 1.5 Performance Comparison: Throw/Catch vs Error Codes
 
 | Metric           | Exception (throw path)            | Error-code check            |
@@ -703,7 +705,6 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

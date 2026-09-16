@@ -24,6 +24,7 @@ Complex numbers, loci in the Argand diagram, and Euler's formula.
 :::note
 Difficult to prove in real analysis become straightforward when extended to the complex plane.
 :::
+
 <hr />
 
 ## 1. Modulus-Argument Form
@@ -314,6 +315,7 @@ $$z = \ln 2 + i\!\left(\frac{\pi}{3} + 2k\pi\right), \quad k \in \mathbb{Z}$$
 :::caution
 The form $e^z = w$ have infinitely many solutions. Always include the general solution with $2k\pi$.
 :::
+
 <hr />
 
 ## 5. Practice Problems
@@ -1194,7 +1196,6 @@ $\blacksquare$
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

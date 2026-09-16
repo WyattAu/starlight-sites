@@ -91,6 +91,7 @@ result.unwrap();        // 10, panics on Err
 result.expect("parse should succeed"); // 10, panics with message on Err
 ```
 :::
+
 :::tip
 Value should exist and makes debugging easier when the panic occurs.
 
@@ -849,7 +850,6 @@ fn handle_error(err: &dyn Error) {
     every `Result` is verbose and error-prone. The `?` operator is the idiomatic way to propagate
     errors. Use `match` only when you need to handle specific error variants differently.
 
-
 ```mermaid
 flowchart TD
     A[Error Handling] --> B[Key Concepts]
@@ -881,6 +881,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Rust uses Result<T, E> instead of exceptions. The ? operator propagates errors up the call stack concisely. Option<T> handles nullable values without null pointer exceptions. This explicit error handling makes failure paths visible in function signatures, forcing callers to handle errors. The type system ensures you cannot accidentally ignore a Result, and the compiler guides you toward proper error recovery patterns.

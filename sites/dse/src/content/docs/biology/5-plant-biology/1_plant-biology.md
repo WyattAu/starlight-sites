@@ -163,6 +163,7 @@ Can bind $\mathrm{O}_2$ instead of $\mathrm{CO}_2$ (oxygenase activity), which d
 Glucose and wastes energy. This is more significant at high temperatures and low $\mathrm{CO}_2$
 Concentrations. C4 and CAM plants have evolved mechanisms to minimise photorespiration.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -392,6 +393,7 @@ Transport in tall trees. Root pressure alone can only push water a few metres. T
 Theory is the dominant mechanism in tall plants. Root pressure is supplementary and is only
 Significant in small plants or under conditions of low transpiration.
 :::
+
 ### Phloem Structure and Function
 
 Phloem transports organic solutes (primarily sucrose) from source to sink.
@@ -757,6 +759,7 @@ Shoots versus roots. In shoots, auxin promotes elongation (high concentration si
 Roots, auxin inhibits elongation (low concentration side grows more). This is why shoots bend
 Towards light but roots bend away from it when auxin redistributes.
 :::
+
 ### Auxin and Gibberellin Interactions
 
 | Feature            | Auxin (IAA)                          | Gibberellin (GA)                                    |
@@ -1274,6 +1277,7 @@ plants are really "short-night plants," and short-day plants are really "long-ni
 was demonstrated by interrupting the dark period with a brief flash of light, which prevents
 short-day plants from flowering but promotes flowering in long-day plants.
 :::
+
 ### Phytochrome
 
 Photoperiodism is controlled by a pigment called **phytochrome**, which exists in two
@@ -1972,7 +1976,6 @@ in shortest supply (the **limiting factor**).
 | Vascular bundles in stem | Scattered                                    | Arranged in a ring                                |
 | Root system              | Fibrous root system                          | Tap root system                                   |
 | Examples                 | Grasses, wheat, rice, maize, lilies, orchids | Beans, peas, sunflowers, roses, oak trees, apples |
-
 
 ```mermaid
 flowchart TD

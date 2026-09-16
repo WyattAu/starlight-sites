@@ -54,8 +54,7 @@ $$
 Compare experiments where only one concentration changes. If doubling [A] doubles the rate, the
 Reaction is first order in A. If doubling [A] quadruples the rate, it is second order in A.
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Determine the rate law from the following data for $2\mathrm{A + \mathrm{B \to \mathrm{C$:
 
 | Experiment | [A] (M) | [B] (M) | Initial Rate (M/s) |
@@ -138,8 +137,8 @@ $$
 | First  | $\ln[\mathrm{A]$ vs $t$ | $-k$  |
 | Second | $1/[\mathrm{A]$ vs $t$  | $k$   |
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 The decomposition of $\mathrm{N_2\mathrm{O_5$ is first order with
 $k = 5.0 \times 10^{-4} \mathrm{ s^{-1}$. How long does it take for 80% of a $0.500 \mathrm{ M$
 Sample to decompose?
@@ -198,8 +197,8 @@ The slowest step in the mechanism determines the overall rate law.
 3. If a fast equilibrium precedes the slow step, use the equilibrium approximation to express
    intermediates in terms of reactants.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 The reaction $2\mathrm{NO_2 + \mathrm{F_2 \to 2\mathrm{NO_2\mathrm{F$ has the experimental rate Law
 $\mathrm{Rate = k[\mathrm{NO_2][\mathrm{F_2]$.
 
@@ -264,8 +263,8 @@ Constant $k$ but is not consumed in the reaction.
 - **Homogeneous catalyst:** same phase as the reactants.
 - **Heterogeneous catalyst:** different phase ( a solid surface).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A reaction has $k = 3.0 \times 10^{-3} \mathrm{ s^{-1}$ at $300 \mathrm{ K$ and
 $k = 2.4 \times 10^{-2} \mathrm{ s^{-1}$ at $350 \mathrm{ K$. Find $E_a$.
 
@@ -330,8 +329,8 @@ Where $\Delta n = (\mathrm{moles gaseous products) - (\mathrm{moles gaseous reac
 Pure solids and pure liquids are not included in the equilibrium expression because their activities
 Are constant (equal to 1).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Write the equilibrium expression for:
 
 $$
@@ -377,8 +376,8 @@ If a stress is applied to a system at equilibrium, the system shifts to countera
 
 **Key point:** Only temperature changes affect the value of $K$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 For the endothermic reaction $\mathrm{N_2\mathrm{O_4(g) \rightleftharpoons 2\mathrm{NO_2(g)$ Predict
 the effect of:
 
@@ -390,8 +389,8 @@ the effect of:
 
 ICE (Initial, Change, Equilibrium) tables organize the calculation of equilibrium concentrations.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 For $\mathrm{H_2(g) + \mathrm{I_2(g) \rightleftharpoons 2\mathrm{HI(g)$ with $K_c = 50.5$ at
 $448^\circ\mathrm{C$:
 
@@ -479,8 +478,8 @@ Compare $Q_{sp}$ with $K_{sp}$:
 - $Q_{sp} = K_{sp}$: saturated, at equilibrium
 - $Q_{sp} \gt K_{sp}$: precipitate forms
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Will a precipitate form when $50.0 \mathrm{ mL$ of $0.0010 \mathrm{ M  \mathrm{Pb(NO_3)_2$ is Mixed
 with $50.0 \mathrm{ mL$ of $0.0020 \mathrm{ M  \mathrm{NaCl$?
 $K_{sp}(\mathrm{PbCl_2) = 1.7 \times 10^{-5}$.
@@ -517,7 +516,6 @@ Compare with solubility in pure water:
 $s_0 = \sqrt{1.7 \times 10^{-10}} = 1.3 \times 10^{-5} \mathrm{ M$.
 
 The common ion effect reduces solubility by a factor of about 7,600.
-
 
 ```mermaid
 flowchart TD

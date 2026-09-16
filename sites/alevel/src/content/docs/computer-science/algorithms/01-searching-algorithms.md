@@ -148,6 +148,7 @@ $\square$
 Gives incorrect results. Also, beware of integer overflow when computing `mid = (low + high) // 2`
 Use `mid = low + (high - low) // 2` for safety.
 :::
+
 <details>
 <summary>Example: Trace binary search for x = 7 in [1, 3, 5, 7, 9, 11, 13]</summary>
 
@@ -193,6 +194,7 @@ Sorted data and may require trace tables. **CIE (9618)** requires linear search 
 With pseudocode. **OCR (A)** requires linear and binary search; may also cover hash-based searching.
 **Edexcel** covers linear and binary search algorithms.
 :::
+
 <hr />
 
 ## 3. Comparison of Search Algorithms
@@ -234,6 +236,7 @@ Binary search can be used to find a threshold in a continuous or discrete answer
 :::tip
 And trace through the algorithm step by step. Show the low, high, mid values at each iteration.
 :::
+
 <hr />
 
 ## Problem Set
@@ -737,7 +740,6 @@ Sorted.
 4. **Not understanding why the worst case for linear search is Ω(n).** An adversary can place the target at the last position checked or declare it absent. Any algorithm that doesn't check all n positions can be fooled. This is a lower bound, not just an observation.
 
 5. **Miscounting comparisons in binary search traces.** Each iteration of binary search involves exactly one comparison (A[mid] vs target). Students sometimes count multiple comparisons per iteration or forget that the loop termination condition itself is a comparison.
-
 
 ```mermaid
 flowchart TD

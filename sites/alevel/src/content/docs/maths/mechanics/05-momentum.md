@@ -1,6 +1,5 @@
 ---
 
-
 title: "Momentum"
 description: "Study notes for Momentum | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ------------------------------ | | AQA | Paper 1 | Momentum, impulse, collisions | | Edexcel | P1 |"
@@ -34,6 +33,7 @@ categories:
 :::note
 Signs.
 :::
+
 <hr />
 
 ## 1. Linear Momentum
@@ -234,6 +234,7 @@ This is particularly useful for oblique impacts where the impulse acts in a spec
 :::note
 how much Momentum a force transfers over a given time interval.
 :::
+
 <hr />
 
 ## 7. Conservation of Momentum in Two Dimensions
@@ -406,6 +407,7 @@ $$\tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\ta
 the angle of Incidence. Equality holds only when $e = 1$ (perfectly elastic), recovering the law of
 reflection.
 :::
+
 Special cases:
 
 - $e = 1$: $\beta = \alpha$ (angle of incidence equals angle of reflection).
@@ -932,7 +934,6 @@ building a personal test matrix.
 
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
-
 
 ```mermaid
 flowchart TD

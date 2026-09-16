@@ -17,7 +17,6 @@ categories: [Mathematics]
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Probability Depth] --> B[Key Concepts]
@@ -36,6 +35,7 @@ Probability, independence, Venn diagrams, tree diagrams, and Bayes" theorem.
 :::note
 events Explicitly before writing any equations.
 :::
+
 <hr />
 
 ## 1. Conditional Probability
@@ -134,6 +134,7 @@ So even with a positive test, there is only about an 8.8% chance of having the d
 false positives far Exceeds the number of true positives. This is the **base rate fallacy** --
 ignoring the prior Probability of the condition.
 :::
+
 ### 2.4 Worked example: factory with three machines
 
 **Problem.** A factory has three machines producing bolts. Machine 1 produces 50%, Machine 2

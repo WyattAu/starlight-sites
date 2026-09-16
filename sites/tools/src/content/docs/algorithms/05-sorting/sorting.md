@@ -351,7 +351,7 @@ def radix_sort_lsd(arr):
     if not arr:
         return arr
     max_val = max(arr)
-    exp = 1  # 1, 10, 100...
+    exp = 1  # 1, 10, 100, ...
 
     while max_val // exp > 0:
         _counting_sort_by_digit(arr, exp)

@@ -7,7 +7,6 @@ description: "The statement guarantees that setup and teardown code runs, even i
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -566,7 +565,7 @@ import time
 import random
 
 @contextmanager
-def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception)):
+def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception,)):
     last_exc = None
     for attempt in range(max_attempts):
         try:
@@ -580,7 +579,7 @@ def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception)):
     raise last_exc
 
 # Usage
-with retry(max_attempts=3, exceptions=(ConnectionError)):
+with retry(max_attempts=3, exceptions=(ConnectionError,)):
     response = requests.get("https://api.example.com/data")
 ```
 

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Correlation and Regression"
 description: "Study notes for Correlation and Regression | A-Level with worked examples and practice questions."
 ---------- | ------- | ----------------------------------- | | AQA | Paper 1 | PMCC, regression lines | | Edexcel | P1 |"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "02 Correlation And Regression", "url": "https://alevel.wyattau.com/maths/statistics/02-correlation-and-regression"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -45,6 +43,7 @@ flowchart TD
 :::note
 Must be able to interpret these and understand their limitations.
 :::
+
 <hr />
 
 ## 1. Pearson's Product Moment Correlation Coefficient (PMCC)
@@ -72,6 +71,7 @@ $$S_{xy} = \sum(x_i-\bar{x})(y_i-\bar{y}) = \sum x_i y_i - n\bar{x}\bar{y}$$
 :::caution
 They are both influenced by a third (confounding) variable, or by coincidence.
 :::
+
 ### 1.3 Real-World Applications
 
 **Economics:** GDP per capita and life expectancy across countries show $r \approx 0.7$ to $0.85$.
@@ -200,6 +200,7 @@ Properties:
 Range of the data). **Extrapolation** (predicting outside the data range) is unreliable because the
 Linear relationship may not hold.
 :::
+
 ### 5.3 Regression of $y$ on $x$ vs. $x$ on $y$
 
 The regression line of $y$ on $x$ minimises vertical residuals ($y_i - \hat{y}_i$). The regression

@@ -70,6 +70,7 @@ int main() {
 They must be declared in the same namespace as the primary template. If you fully specialize a
 Function template, you must specialize every overload that participates in overload resolution.
 :::
+
 ### Full Specialization of Function Templates
 
 Function templates can be fully specialized, but this is rarely recommended because overloading
@@ -457,8 +458,8 @@ struct ContainerInfo<T, std::list> {
 };
 
 int main() {
-    ContainerInfo<int, std::vector>::print();  // std::vector (contiguous...)
-    ContainerInfo<int, std::list>::print();    // std::list (doubly-linked...)
+    ContainerInfo<int, std::vector>::print();  // std::vector (contiguous, ...)
+    ContainerInfo<int, std::list>::print();    // std::list (doubly-linked, ...)
     ContainerInfo<int, std::deque>::print();   // generic container
 }
 ```
@@ -740,6 +741,7 @@ int main() {
 Enclosing class template. Member templates can only be **fully** specialized. If you need partial
 Specialization of a member, you must partially specialize the entire class.
 :::
+
 ## Common Errors with Ambiguity
 
 ### Ambiguous Partial Specializations

@@ -169,7 +169,7 @@ defmacro define_functions(names) do
 end
 
 require MyMacros
-MyMacros.define_functions([:foo:bar:baz])
+MyMacros.define_functions([:foo, :bar, :baz])
 # Expands to:
 # def foo(), do: :foo
 # def bar(), do: :bar
@@ -270,9 +270,9 @@ Prefer regular functions when:
 # Good macro use: DSL
 defmigration "create_users" do
   create_table "users" do
-    add :name:string, null: false
-    add :email:string, null: false
-    add :age:integer, default: 0
+    add :name, :string, null: false
+    add :email, :string, null: false
+    add :age, :integer, default: 0
     timestamps()
   end
 end
@@ -390,7 +390,7 @@ Validates that a quoted expression is a valid AST:
 iex> Macro.validate(quote do: 1 + 2)
 :ok
 iex> Macro.validate({:bad, 1, 2, 3})
-{:error:invalid_ast}
+{:error, :invalid_ast}
 ```
 
 ## Compile-Time vs Runtime
@@ -461,7 +461,7 @@ defmodule LoggerBackend do
   end
 
   defmacro __before_compile__(env) do
-    module_functions = Module.definitions_in(env.module:def)
+    module_functions = Module.definitions_in(env.module, :def)
     count = length(module_functions)
 
     quote do
@@ -592,13 +592,13 @@ require RecordDef
 RecordDef.defrecord(User, name: "Unknown", age: 0)
 
 # Generates:
-# defstruct [:name:age]
+# defstruct [:name, :age]
 # def new(attrs \\ []), do: struct(__MODULE__, attrs)
 # def get(record, key), do: Map.get(record, key)
-# def name(record), do: Map.get(record:name, "Unknown")
-# def set_name(record, value), do: Map.put(record:name, value)
-# def age(record), do: Map.get(record:age, 0)
-# def set_age(record, value), do: Map.put(record:age, value)
+# def name(record), do: Map.get(record, :name, "Unknown")
+# def set_name(record, value), do: Map.put(record, :name, value)
+# def age(record), do: Map.get(record, :age, 0)
+# def set_age(record, value), do: Map.put(record, :age, value)
 ```
 
 ### Assertion Macro
@@ -726,7 +726,6 @@ Protocol.consolidate(Size, [List, Map, Tuple])
 
 Consolidation is the default in production builds. It eliminates the dispatch overhead of looking up
 implementations at runtime.
-
 
 ```mermaid
 flowchart TD

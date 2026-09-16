@@ -40,6 +40,7 @@ Is the order relation defined in [N4950 §6.9.4.1].
 potentially Eliminating loads, stores, or reordering operations in ways that are surprising and
 Non-deterministic.
 :::
+
 ## Undefined Behavior of Data Races
 
 The consequences of a data race include but are not limited to [N4950 §6.9.4.2]:
@@ -79,6 +80,7 @@ Threads. A race condition can occur even with proper synchronization (e.g., two 
 to work correctly Depending on the platform and compiler flags. Never write code like this in
 production.
 :::
+
 ```cpp
 #include <iostream>
 #include <thread>
@@ -287,6 +289,7 @@ void increment_b(int iterations) {
 :::tip
 lines, use `alignas(128)` and adjust the padding accordingly.
 :::
+
 ### Contended vs Uncontended Locks
 
 An **uncontended** lock (no thread is waiting) costs ~25–50 cycles on x86. A **contended** lock
@@ -361,6 +364,7 @@ On ARM, POWER, and RISC-V, these orderings emit explicit memory barrier instruct
 cost. Always measure Before optimizing memory orderings, `memory_order_seq_cst` is the safest
 default.
 :::
+
 ## Practical Data Race Bug and Fix
 
 Consider a real-world pattern: a lazily-initialized singleton accessed from multiple threads.
@@ -519,7 +523,6 @@ public:
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

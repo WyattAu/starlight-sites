@@ -17,7 +17,6 @@ description: "Regular Languages: comprehensive educational content notes with pr
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[2_Regular Languages] --> B[Key Concepts]
@@ -404,6 +403,7 @@ and $D_2$ accept $w$I.e., $w \in L_1 \cap L_2$. $\blacksquare$
 **Theorem 2.7.** If $L_1$ is regular and $L_2$ is not regular, then $L_1 \cap L_2$ may or may not be
 Regular. Closure properties do not apply when one operand is non-regular.
 :::
+
 ## Cross-References
 
 - [Context-Free Languages](./3_context-free-languages) -- Regular languages are a subset of context-free languages, forming the simplest level of the Chomsky hierarchy.

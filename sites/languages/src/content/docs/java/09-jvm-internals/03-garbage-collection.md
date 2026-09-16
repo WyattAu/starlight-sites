@@ -2,7 +2,7 @@
 
 date: 2026-07-23T21:57:32+01:00
 title: "Garbage Collection"
-description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through , starting from a"
+description: "An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through, starting from a"
 
 ---
 
@@ -601,6 +601,7 @@ java -XX:+UseZGC -XX:MaxRAMPercentage=75.0 -jar app.jar
 The same container image to work with different memory limits without rebuilding. A value of 70-80%
 Is typical, leaving room for metaspace, native memory, and off-heap buffers.
 :::
+
 ### Native Memory Tracking
 
 The JVM's heap is only part of the total memory used by a Java process. Native memory includes
@@ -670,6 +671,7 @@ After making changes, compare GC logs before and after. Look for:
 Analysis. JFR has near-zero overhead and can be enabled in production:
 `-XX:StartFlightRecording=duration=60s,filename=recording.jfr`
 :::
+
 ## GC Internals: Detailed Algorithms
 
 ### Mark-Sweep-Compact (Serial and Parallel)
@@ -828,7 +830,6 @@ linked above.
 - **[Types and Variables](../02-fundamentals/01-types-and-variables):** Object lifecycle and reference types that GC manages.
 - **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive):** Thread-safe memory access and GC pause impact on concurrent applications.
 - **[I/O and NIO](../10-io-nio/01-io-nio):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
-
 
 ```mermaid
 flowchart TD

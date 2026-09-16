@@ -232,6 +232,7 @@ than in traditional company-town settings.
 examined the Gig economy in the context of labour market flexibility. Edexcel often links the gig
 economy to Wider debates about competition and regulation.
 :::
+
 ### 4.7 Evaluation of Monopsony Theory
 
 The monopsony model provides a powerful corrective to the competitive assumption that workers are
@@ -338,6 +339,7 @@ The net effect of trade unions on economic welfare is ambiguous and context-depe
 marks. Edexcel (Theme 3) links trade unions to broader debates about government intervention. OCR
 may ask about the Impact of declining union membership on wage inequality.
 :::
+
 ## 6. Minimum Wage
 
 ### 6.1 Competitive Market Model
@@ -368,6 +370,7 @@ Perfectly competitive labour markets. Under monopsony (e.g., large employers in 
 Professional sports leagues), a minimum wage can increase employment. Always state the market
 Structure.
 :::
+
 ### 6.3 Real-World Evidence on Minimum Wages
 
 The empirical debate over minimum wages has been one of the most contested in labour economics:
@@ -418,6 +421,7 @@ Pay gap (an average difference across the economy) and equal pay (a legal requir
 Work). OCR (A) may link the gender pay gap to human capital theory and occupational segregation. CIE
 Has examined the effectiveness of government policies to reduce the gender pay gap.
 :::
+
 ### 6.5 Evaluation of Minimum Wage Policy
 
 Minimum wage policy involves trade-offs that must be carefully evaluated:
@@ -521,6 +525,7 @@ Participation is always economically beneficial. CIE (9708) links human capital 
 In macro contexts. OCR often examines the limitations of human capital theory in explaining
 Persistent wage inequalities.
 :::
+
 ## 8. Labour Market Discrimination
 
 ### 8.1 Definition
@@ -590,6 +595,7 @@ The UK Gender Pay Gap Reporting Regulations (2017). Edexcel often links discrimi
 Intervention policies. OCR may examine whether legislation alone is sufficient to eliminate
 Discrimination.
 :::
+
 ## 9. Critical Evaluation
 
 ### Strengths of the Neoclassical Labour Market Model
@@ -615,6 +621,7 @@ Debate. Edexcel covers human capital and migration effects on labour markets. CI
 About wage determination in different market structures. OCR (A) emphasises labour market
 Flexibility and government intervention.
 :::
+
 ## 10. Problem Set
 
 **Problem 1.** A firm operates in a perfectly competitive product market with $P = £10$ and has a
@@ -1366,7 +1373,6 @@ may drive platforms underground or offshore, leaving workers with no protection 
 
 4. Using circular reasoning by assuming the conclusion when evaluating economic policy
    effectiveness.
-
 
 ```mermaid
 flowchart TD

@@ -172,6 +172,7 @@ UUID=abc12345-6789-def0-1234-567890abcdef  /mnt/data  ext4  defaults  0  2
 PARTUUID=12345678-1234-1234-1234-123456789abc  /mnt/data  ext4  defaults  0  2
 ```
 :::
+
 :::note
 Table itself (not the filesystem), so it survives filesystem recreation and works on raw partitions.
 Modern distributions use PARTUUID in their default fstab entries.
@@ -232,6 +233,7 @@ parted /dev/sdb --script set 1 boot on
 parted /dev/sdb --script align-check optimal 1
 ```
 :::
+
 :::caution
 `blockdev --rereadpt` after running parted scripts, or reboot.
 
@@ -451,6 +453,7 @@ tune2fs -c 0 /dev/sda1       # ext4: set max mount count to 0 (disable)
 tune2fs -i 0 /dev/sda1       # ext4: set interval to 0 (disable)
 ```
 :::
+
 :::caution
 A live mounted filesystem will cause corruption. The only exception is `/` (root), which can be
 Checked at boot time by setting the `pass` field in `/etc/fstab` to 1.
@@ -536,6 +539,7 @@ tune2fs -o journal_data_ordered /dev/sda1  # ordered (default)
 tune2fs -o journal_data_writeback /dev/sda1 # writeback
 ```
 :::
+
 :::note
 Used for databases requiring absolute data integrity guarantees. `writeback` mode is marginally
 Faster but can leave stale data in files after a crash (zero-length files can appear to have old
@@ -562,7 +566,7 @@ Physical Disks / Partitions
   Logical Volumes (LV)      <-- lvcreate
         |
         v
-  Filesystem (ext4, XFS...)  <-- mkfs
+  Filesystem (ext4, XFS, ...)  <-- mkfs
 ```
 
 **Physical Volume (PV):** A partition or whole disk that has been initialized for LVM use. Each PV
@@ -620,6 +624,7 @@ A typical production layout:
   LV "lv_backup" = 60 GiB from vg_data (with 20 GiB free in VG)
 ```
 :::
+
 :::note
 Provides a layer of protection, if LVM metadata is corrupted, partition boundaries remain visible
 To non-LVM tools for recovery.
@@ -762,6 +767,7 @@ lvextend --resizefs -L +50G /dev/vg_data/lv_mysql    # ext4 only
 lvextend -r -L +50G /dev/vg_data/lv_mysql             # -r = --resizefs
 ```
 :::
+
 :::caution
 Common source of errors. The `lvextend -r` shortcut does not work with XFS.
 
@@ -791,6 +797,7 @@ lvreduce --resizefs -L 50G /dev/vg_data/lv_logs  # does both steps (checks first
 mount /dev/vg_data/lv_logs /mnt/logs
 ```
 :::
+
 :::caution
 Shrinking. XFS and Btrfs **cannot** be shrunk at all. Always have a backup before shrinking any
 Filesystem.
@@ -861,6 +868,7 @@ lvs -o name,lv_attr,snap_percent,origin
 # The snapshot is dropped automatically, and the CoW LV becomes a regular LV
 ```
 :::
+
 :::caution
 Back. Monitor `snap_percent` closely. Overestimate the CoW size, unused CoW space is wasted but
 Safe; CoW space that is too small is catastrophic. A good rule of thumb is 10-20% of the origin LV
@@ -898,6 +906,7 @@ lvconvert --merge /dev/vg_data/lv_mysql_snap
 lvs -a -o+origin,merge_failed
 ```
 :::
+
 :::caution
 Was created. All changes since the snapshot are lost. The snapshot itself is deleted after a
 Successful merge.
@@ -1060,6 +1069,7 @@ systemctl enable --now lvm2-monitor
 lvextend -L +50G /dev/vg_data/thinpool
 ```
 :::
+
 :::caution
 Corrupt, and recovery is difficult. Always monitor thin pool usage with alerting. Set
 `thin_pool_autoextend_threshold` in `/etc/lvm/lvm.conf` to 70-80% as a safety net, but do not rely
@@ -1197,6 +1207,7 @@ mdadm --create /dev/md0 --level=1 --raid-devices=2 \
     --metadata=1.2 /dev/sdb1 /dev/sdc1
 ```
 :::
+
 :::note
 Places metadata at the 4 KiB offset, avoiding conflicts with partition tables and making it easy to
 Use whole disks as array members.
@@ -1256,6 +1267,7 @@ swapon /swapfile
 swapon --show
 ```
 :::
+
 :::caution
 And the file must not be copy-on-write. Use `chattr +C` on the containing directory before creating
 The swap file, or place it on a dedicated non-CoW subvolume. On some Btrfs configurations, swap
@@ -1315,6 +1327,7 @@ zramctl
 # swap-priority = 100
 ```
 :::
+
 :::note
 Systems with ample RAM, zram adds CPU overhead for compression/decompression with little benefit.
 Use disk swap (or no swap) on systems with 16+ GiB of RAM.
@@ -1735,6 +1748,7 @@ WRONG ORDER (will corrupt data):
   2. resize2fs /dev/vg/lv 50G        (too late. Filesystem metadata may be beyond LV boundary)
 ```
 :::
+
 :::caution
 Correct order. Never run `lvreduce` without `--resizefs` unless you know exactly what you are doing.
 

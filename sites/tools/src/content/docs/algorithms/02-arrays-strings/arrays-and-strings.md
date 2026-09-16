@@ -268,6 +268,7 @@ def longest_substring_without_repeats(s):
     return max_length
 ```
 :::
+
 :::note
 Nor `right` ever moves backward. This is what gives the $O(n)$ time bound: each element is added to
 And removed from the window at most once.
@@ -456,6 +457,7 @@ def murmurhash3_mix(key: int) -> int:
     return key
 ```
 :::
+
 :::caution
 Randomisation by default via `PYTHONHASHSEED`). This is a security measure against HashDoS attacks.
 For persistent hashing (e.g., on-disk hash tables), use `hashlib` or a deterministic hash function.
@@ -883,7 +885,6 @@ Arbitrary precision, but in C/C++/Java, use `long long`/`long`).
 In sliding window problems, "at most k distinct elements" requires shrinking the window when the
 Count exceeds $k$While "exactly k distinct elements" requires maintaining two windows (one for at
 Most $k$ and one for at most $k-1$). Conflating these leads to incorrect solutions.
-
 
 ```mermaid
 flowchart TD

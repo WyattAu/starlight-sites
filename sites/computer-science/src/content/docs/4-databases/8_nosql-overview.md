@@ -121,6 +121,7 @@ databases now support SQL-like Query languages (e.g., Cassandra CQL). The choice
 and NoSQL depends on the Workload, not on a blanket preference. Relational databases remain the best
 choice for strongly Structured data with complex queries and transactional requirements.
 :::
+
 ### 8.7 Key Relationships
 
 | Feature | Document Store | Key-Value | Graph | Column-Family |
@@ -130,7 +131,6 @@ choice for strongly Structured data with complex queries and transactional requi
 | Horizontal scaling | Good | Excellent | Moderate | Excellent |
 | Join support | None | None | Native | None |
 | Best for | Content mgmt | Caching | Relations | Time-series |
-
 
 ```mermaid
 flowchart TD
@@ -162,7 +162,6 @@ NoSQL databases are like different types of filing cabinets. Document stores are
 4. **Ignoring schema design in document stores.** Embedding vs. referencing is a critical design decision. Embedding all related data in a single document leads to unbounded document growth and update anomalies. Referencing requires additional queries but keeps documents bounded and updates localised.
 
 5. **Overlooking tunable consistency.** Many NoSQL systems (e.g., Cassandra, DynamoDB) offer tunable consistency levels per operation. Using strong consistency everywhere negates the availability benefits, while using eventual consistency everywhere risks stale reads. Choose the consistency level appropriate for each operation.
-
 
 ## Advanced Content
 

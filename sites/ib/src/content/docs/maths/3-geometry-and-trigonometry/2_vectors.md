@@ -446,6 +446,7 @@ $$
 Your answer by substituting the point back into both equations. Common errors include sign mistakes
 In the cross product and forgetting to take the absolute value in distance formulas.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -797,7 +798,6 @@ $\overrightarrow{AC} = 2\overrightarrow{AB}$ So $\overrightarrow{AC} = k\overrig
 $k = 2$. Since one vector is a scalar multiple of the other, the points are collinear.
 
 </details>
-
 
 ```mermaid
 flowchart TD

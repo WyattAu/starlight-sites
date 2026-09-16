@@ -227,6 +227,7 @@ $\blacksquare$
 common mistake is to use a Discharged assumption in a later step. Each discharged assumption is only
 valid within the scope Indicated by the rule that discharges it.
 :::
+
 ### 1.6 CNF and DNF
 
 A **literal** is a propositional variable or its negation. A **clause** is a disjunction of
@@ -287,6 +288,7 @@ This is in CNF.
 formula with $n$ terms can Produce up to $2^n$ clauses when converted to CNF. This exponential
 growth underlies the hardness Of many satisfiability problems.
 :::
+
 ### 1.7 Resolution
 
 The **resolution rule** is a single inference rule that is refutation-complete for propositional
@@ -347,6 +349,7 @@ AI planning. Modern solvers routinely handle instances with millions of variable
 it is true under _some_ Assignment; it is _valid_ (a tautology) if true under _all_ assignments.
 Checking validity is Co-NP-complete, not NP-complete.
 :::
+
 ## 2. Sets, Relations, and Functions
 
 ### 2.1 Sets
@@ -1195,6 +1198,7 @@ Unused edges, find a subtour, and splice it in. Repeat until all edges are used.
 whereas Euler Paths/circuits can be determined in polynomial time using the degree condition. Do not
 confuse the two.
 :::
+
 ### 5.7 Matching Theory
 
 A **matching** $M$ in a graph $G = (V, E)$ is a set of pairwise disjoint edges (no two share an
@@ -1397,6 +1401,7 @@ $G(x) = \frac{1}{1-2x} - \frac{1}{1-x}$Giving $a_n = 2^n - 1$. $\blacksquare$
 any $x \neq 0$. Convergence Is irrelevant for combinatorial applications -- the series is
 manipulated algebraically.
 :::
+
 ### 6.5 The Master Theorem
 
 The Master Theorem provides asymptotic solutions to recurrences of the form

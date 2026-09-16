@@ -222,6 +222,7 @@ int main() {
 Algorithms. The pattern is: `algorithm(range, predicate, projection)`. The predicate receives the
 **projected** value, not the original element.
 :::
+
 ### Projection Mechanics: What Happens Under the Hood
 
 When an algorithm like `std::ranges::sort` receives a projection, the comparison is effectively
@@ -567,7 +568,6 @@ int main() {
 - [Range Adaptors, Views, Composition](./2_range_adaptors)
 - [Range Materialization](./4_range_materialization)
 - [Parallel Algorithms](./5_parallel_algorithms)
-
 
 ```mermaid
 flowchart TD

@@ -66,6 +66,7 @@ Cold War. Instead, it functioned as a lens through which both sides interpreted 
 Actions, often amplifying mistrust and escalating tensions beyond what objective strategic interests
 Alone would have produced.
 :::
+
 The ideological clash manifested in diametrically opposed visions of the post-war international
 Order. The United States favoured an open, multilateral economic system based on free trade and
 Self-determination -- a vision embodied in the Bretton Woods institutions (the International
@@ -159,6 +160,7 @@ Vigilant containment of Russian expansive tendencies." Kennan later argued that 
 Primarily for political and economic containment, not the militarised version that American policy
 Ultimately adopted.
 :::
+
 ### 1.4 The Marshall Plan (1947)
 
 The European Recovery Program, commonly known as the Marshall Plan, was announced by Secretary of
@@ -1123,6 +1125,7 @@ after another. Instead, integrate historiographical analysis into your argument,
 or challenge specific points. The best essays will demonstrate that you understand not only What
 each school argues but why it argues it -- and what evidence supports or undermines its claims.
 :::
+
 :::danger
 - **Presenting the Cold War as a simple US vs USSR binary:** The Cold War involved multiple actors
   -- China, Cuba, European allies, the Non-Aligned Movement, and proxy states in the Third World. IB
@@ -1144,6 +1147,7 @@ each school argues but why it argues it -- and what evidence supports or undermi
   conclusion -- what evidence did they prioritise? What evidence did they dismiss? How does their
   perspective challenge or complement other interpretations?
 :::
+
 ## Exam Preparation: Key Essay Questions
 
 The following questions reflect the types of prompts that may appear on IB History HL Paper 3:
@@ -1177,7 +1181,6 @@ His reforms.
 
 4. Presenting a one-sided argument without considering alternative interpretations or
    counter-evidence.
-
 
 ```mermaid
 flowchart TD

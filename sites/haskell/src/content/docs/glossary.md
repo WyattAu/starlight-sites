@@ -37,7 +37,7 @@ main = do
 
 **Parametric Polymorphism**: A function with type variables works for any type: `id :: a -> a`.
 
-**Monomorphic Type**: A type with no type variables, fully specified: `Int`, `Bool`.
+**Monomorphic Type**: A type with no type variables, fully specified: `Int``Bool`.
 
 **Algebraic Data Type (ADT)**: A type defined by combining other types, sum types (alternatives) and product types (combinations).
 
@@ -59,13 +59,13 @@ main = do
 
 **Eq**: The type class for equality comparison, providing `==` and `/=`.
 
-**Ord**: The type class for ordering, providing `<`, `>`, `compare`.
+**Ord**: The type class for ordering, providing `<``>``compare`.
 
 **Show**: The type class for string representation, providing `show`.
 
 **Read**: The type class for parsing strings, providing `read`.
 
-**Num**: The type class for numeric types, providing `+`, `-`, `*`.
+**Num**: The type class for numeric types, providing `+``-``*`.
 
 **Functor**: A type class for types that can be mapped over: `fmap :: (a -> b) -> f a -> f b`.
 
@@ -87,7 +87,7 @@ main = do
 
 **Currying**: Every function takes exactly one argument and returns one result. Multi-argument functions are chains of single-argument functions.
 
-**Higher-Order Function**: A function that takes or returns functions: `map`, `filter`, `fold`.
+**Higher-Order Function**: A function that takes or returns functions: `map``filter``fold`.
 
 **Composition**: Combining functions with `(.)`: `(f . g) x = f (g x)`.
 
@@ -147,9 +147,9 @@ main = do
 
 **Applicative Functor**: Applying functions in a context: `pure f <*> x`. More general than Monad.
 
-**Monoid**: A type with an associative binary operation and an identity element: `Sum`, `Product`, `Any`, `All`.
+**Monoid**: A type with an associative binary operation and an identity element: `Sum``Product``Any``All`.
 
-**Fold**: A function that reduces a structure to a single value: `foldr`, `foldl`, `foldMap`.
+**Fold**: A function that reduces a structure to a single value: `foldr``foldl``foldMap`.
 
 **Lens**: A composable accessor for focusing on parts of nested data structures.
 

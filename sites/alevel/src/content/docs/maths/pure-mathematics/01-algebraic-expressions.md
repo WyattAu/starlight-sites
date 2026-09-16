@@ -1,6 +1,5 @@
 ---
 
-
 title: "Algebraic Expressions"
 description: "Study notes for Algebraic Expressions | A-Level with worked examples and practice questions."
 ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Surds, indices, polynomials, factor"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "01 Algebraic Expressions", "url": "https://alevel.wyattau.com/maths/pure-mathematics/01-algebraic-expressions"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -91,6 +89,7 @@ $$
 $\frac{a + b\sqrt{c}}{d} \neq \frac{a}{d} + b\sqrt{\frac{c}{d}}$ . Always
 distribute the Denominator correctly.
 :::
+
 ### 1.2 Irrationality of $\sqrt{2}$
 
 **Theorem.** $\sqrt{2}$ is irrational.
@@ -335,6 +334,7 @@ $$\frac{ab + ac}{ad + ae} = \frac{a(b + c)}{a(d + e)} = \frac{b + c}{d + e}$$
 In the denominator is a factor of the whole expression, but the $x$ in the numerator is only one
 Term.
 :::
+
 ### 6.2 Addition and Subtraction
 
 Find a common denominator, then combine:

@@ -58,6 +58,7 @@ Radius of $\sim 10^{-10}$ m).
 :::caution
 strong nuclear force Has a very short range).
 :::
+
 ## 2. Nuclear Structure
 
 The nucleus contains **protons** and **neutrons** (collectively, **nucleons**).
@@ -204,6 +205,7 @@ No change in $A$ or $Z$. Weakly ionising, highly penetrating (requires thick lea
 :::caution
 decay.
 :::
+
 ## 6. Exponential Decay Law and Half-Life
 
 ### Derivation
@@ -444,7 +446,6 @@ $\lambda t = \ln 16 = 4\ln 2$. $t = 4\ln 2/\lambda = 4t_{1/2} = 4 \times 8.04 = 
 
 6. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
-
 
 ```mermaid
 flowchart TD

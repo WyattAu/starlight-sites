@@ -18,7 +18,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[1_Databases] --> B[Key Concepts]
@@ -631,6 +630,7 @@ DELETE FROM Student WHERE studentID = 2;
 :::caution
 TABLE Student deletes both the data and the table structure. Be certain which one you intend.
 :::
+
 ### Queries: SELECT
 
 The SELECT statement retrieves data from one or more tables.

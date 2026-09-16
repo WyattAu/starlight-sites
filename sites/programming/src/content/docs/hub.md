@@ -40,7 +40,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -247,15 +246,15 @@ The C++ standard library provides containers, algorithms, iterators, and utiliti
 
 ### Containers and Allocators
 
-- [Sequence Containers](standard_library/1_containers_and_allocators/1_sequence_containers), `vector`, `deque`, `list`, `forward_list`, `array`
-- [Associative Containers](standard_library/1_containers_and_allocators/2_associative_containers), `set`, `map`, `multiset`, `multimap`
+- [Sequence Containers](standard_library/1_containers_and_allocators/1_sequence_containers), `vector``deque``list``forward_list``array`
+- [Associative Containers](standard_library/1_containers_and_allocators/2_associative_containers), `set``map``multiset``multimap`
 - [Iterators](standard_library/1_containers_and_allocators/3_iterators), iterator categories, traits, and adaptor patterns
 - [Polymorphic Memory Resources](standard_library/1_containers_and_allocators/4_pmr), custom allocators and memory pools
 
 ### Algorithms and Ranges
 
 - [Iterator-Sentinel Pairs](standard_library/2_algorithms_and_ranges/1_iterator_sentinel), the modern iterator model
-- [Range Adaptors](standard_library/2_algorithms_and_ranges/2_range_adaptors), `views::filter`, `views::transform`, and composition
+- [Range Adaptors](standard_library/2_algorithms_and_ranges/2_range_adaptors), `views::filter``views::transform`and composition
 - [Projections](standard_library/2_algorithms_and_ranges/3_projections), C++23 projections for sorting and algorithms
 - [Range Materialization](standard_library/2_algorithms_and_ranges/4_range_materialization), `ranges::to` and range constructors
 - [Parallel Algorithms](standard_library/2_algorithms_and_ranges/5_parallel_algorithms), `std::execution::par` and GPU execution
@@ -264,7 +263,7 @@ The C++ standard library provides containers, algorithms, iterators, and utiliti
 
 - [Stream Buffers](standard_library/3_input_output_formatting/1_stream_buffers), the underlying buffer model for I/O streams
 - [Type-Safe Formatting](standard_library/3_input_output_formatting/2_type_safe_formatting), C++20 `std::format`
-- [Unicode Support](standard_library/3_input_output_formatting/3_unicode_support), `char8_t`, `char16_t`, and encoding
+- [Unicode Support](standard_library/3_input_output_formatting/3_unicode_support), `char8_t``char16_t`and encoding
 
 ### System Utilities
 
@@ -283,7 +282,7 @@ C++ concurrency covers threads, synchronisation primitives, the memory model, at
 
 - [Threads and jthread](concurrency/1_threading_and_synchronization/1_threads_jthread), `std::thread` and C++20 `std::jthread`
 - [Data Races](concurrency/1_threading_and_synchronization/2_data_races), what they are, why they happen, and how to detect them
-- [Mutexes and Deadlocks](concurrency/1_threading_and_synchronization/3_mutexes_deadlocks), `std::mutex`, `std::lock_guard`, and deadlock prevention
+- [Mutexes and Deadlocks](concurrency/1_threading_and_synchronization/3_mutexes_deadlocks), `std::mutex``std::lock_guard`and deadlock prevention
 - [Condition Variables](concurrency/1_threading_and_synchronization/4_condition_variables), `std::condition_variable` and wait patterns
 - [Thread-Local Storage](concurrency/1_threading_and_synchronization/5_thread_local_storage), `thread_local` and its costs
 
@@ -292,7 +291,7 @@ C++ concurrency covers threads, synchronisation primitives, the memory model, at
 - [Instruction Reordering](concurrency/2_memory_model_and_atomics/1_instruction_reordering), compiler and hardware reordering
 - [Cache Coherency](concurrency/2_memory_model_and_atomics/2_cache_coherency), how multi-core systems maintain consistency
 - [Atomic Operations](concurrency/2_memory_model_and_atomics/3_atomic_operations), `std::atomic` and atomic operations
-- [Memory Orderings](concurrency/2_memory_model_and_atomics/4_memory_orderings), `relaxed`, `acquire`, `release`, `seq_cst`
+- [Memory Orderings](concurrency/2_memory_model_and_atomics/4_memory_orderings), `relaxed``acquire``release``seq_cst`
 - [CAS Loops](concurrency/2_memory_model_and_atomics/5_cas_loops), compare-and-swap patterns for lock-free programming
 
 ### Coroutines and Async I/O
@@ -312,10 +311,10 @@ Functions are the building blocks of C++ programs. This section covers overload 
 ### Function Mechanics
 
 - [Overload Resolution](function_architecture/1_function_mechanics/1_overload_resolution), how the compiler selects the best function
-- [Calling Conventions](function_architecture/1_function_mechanics/2_calling_conventions), `__cdecl`, `__stdcall`, and the impact on ABI
+- [Calling Conventions](function_architecture/1_function_mechanics/2_calling_conventions), `__cdecl``__stdcall`and the impact on ABI
 - [Lambdas](function_architecture/1_function_mechanics/3_lambdas), closure types, capture lists, and generic lambdas
-- [Type Erasure](function_architecture/1_function_mechanics/4_type_erasure), `std::function`, virtual dispatch, and the pattern
-- [C Interop](function_architecture/1_function_mechanics/5_c_interop), `extern "C"`, ABI compatibility, and calling C from C++
+- [Type Erasure](function_architecture/1_function_mechanics/4_type_erasure), `std::function`virtual dispatch, and the pattern
+- [C Interop](function_architecture/1_function_mechanics/5_c_interop), `extern "C"`ABI compatibility, and calling C from C++
 
 ### Error Handling
 

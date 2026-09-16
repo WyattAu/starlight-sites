@@ -231,6 +231,7 @@ def dll_delete(node):
 - **OCR (A)** links linked lists to stack and queue implementations (dynamic data structures)
 - **Edexcel** covers basic singly linked list operations
 :::
+
 <hr />
 
 ## 4. Linked Lists vs Arrays
@@ -268,6 +269,7 @@ Cycles vs ~1 cycle for a cache hit. $\square$
 - Unknown or highly variable size
 - When random access is not needed
 :::
+
 <hr />
 
 ## 5. Circular Linked List
@@ -867,7 +869,6 @@ Operation in a busy A&E department.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

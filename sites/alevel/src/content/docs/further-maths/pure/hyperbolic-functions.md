@@ -17,7 +17,6 @@ categories: [Mathematics]
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hyperbolic Functions] --> B[Key Concepts]
@@ -41,6 +40,7 @@ Calculus.
 Rather than circles. They arise in many areas including differential equations, special Relativity,
 and catenary curves.
 :::
+
 <hr />
 
 ## 1. Definitions
@@ -326,6 +326,7 @@ Involving $\sqrt{x^2 + a^2}$. Similarly, $x = a\cosh u$ handles $\sqrt{x^2 - a^2
 $x = a\tanh u$ handles expressions with $a^2 - x^2$. The choice of substitution mirrors the
 Trigonometric substitutions but is often simpler algebraically.
 :::
+
 <hr />
 
 ## 5. Practice Problems
@@ -464,6 +465,7 @@ Integrating again: $y = a\cosh\!\left(\dfrac{x}{a}\right) + C$. $\blacksquare$
    result involves $\operatorname{arcoth}$ (or an alternative logarithmic form), not
    $\operatorname{artanh}$. Check the domain of the integrand carefully.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -908,6 +910,7 @@ So $\ln 3 - \ln 2 = \operatorname{artanh}(1/5)$.
    and hyperbolic forms. When boundary conditions involve $y(0)$ and $y'(0)$The hyperbolic form
    $y = A\cosh x + B\sinh x$ is often more convenient since $\cosh 0 = 1$ and $\sinh 0 = 0$.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -125,6 +125,7 @@ The staging area is a deliberate design decision that enables several workflows:
 3. **Merge machinery**: The three-way merge algorithm operates on three trees. The base commit,
    "ours," and "theirs." The index holds the merge result before it is committed.
 :::
+
 :::tip
 tracked modified files) or `git commit --amend --no-edit` (adds all staged changes to the previous
 commit). Some developers prefer `git add -A && git commit` as a single workflow step.
@@ -213,6 +214,7 @@ flowchart TB
     C1 -.-> C4
 ```
 :::
+
 :::caution
 with `git status` and `git stash` if you want to preserve your work.
 
@@ -286,6 +288,7 @@ COMMIT=$(git commit-tree $TREE -p HEAD -m "message")
 git update-ref refs/heads/main $COMMIT
 ```
 :::
+
 :::note
 and enables scripting. When a porcelain command does something unexpected, breaking it down into
 plumbing steps reveals exactly what happened.
@@ -316,7 +319,7 @@ linked above.
 
 ## Intuition
 
-Git's three trees are the working directory (your desk), the staging area (your outbox), and the repository (the archive). When you `git add`, you move changes from the desk to the outbox. When you `git commit`, you file the outbox into the archive. This three-stage process lets you craft commits carefully: you can stage some changes and leave others, creating clean, logical commits. Understanding these trees is the foundation for every Git operation.
+Git's three trees are the working directory (your desk), the staging area (your outbox), and the repository (the archive). When you `git add`you move changes from the desk to the outbox. When you `git commit`you file the outbox into the archive. This three-stage process lets you craft commits carefully: you can stage some changes and leave others, creating clean, logical commits. Understanding these trees is the foundation for every Git operation.
 
 ## Cross-References
 

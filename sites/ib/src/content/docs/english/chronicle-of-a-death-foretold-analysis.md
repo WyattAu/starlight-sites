@@ -927,6 +927,7 @@ Single, objective truth.
 :::note
 Ability to analyse specific textual detail is essential.
 :::
+
 **Opening sentence:** "On the day they were going to kill him, Santiago Nasar got up at five-thirty
 In the morning to wait for the boat the bishop was coming on."
 
@@ -975,6 +976,7 @@ Literary feature (narrative structure, imagery, irony) and tracing its operation
 Passages. Avoid plot summary; instead, analyse specific textual details and explain how they
 Contribute to the novel's overall meaning.
 :::
+
 :::danger
 - **Treating the narrative structure as straightforward chronology:** The novel opens with the
   announcement of Santiago Nasar's death and then works backward and forward in time. Students often
@@ -1095,7 +1097,6 @@ Following pairings are especially productive:
    not stand alone.
 
 4. Ignoring context. Always consider the social, historical, and literary context of the text.
-
 
 ```mermaid
 flowchart TD

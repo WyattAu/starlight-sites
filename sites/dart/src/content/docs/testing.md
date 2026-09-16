@@ -32,7 +32,7 @@ dev_dependencies:
   test: ^1.25.0
 ```
 
-The core API consists of three functions: `test`, `group`, and `expect`.
+The core API consists of three functions: `test``group`and `expect`.
 
 ```dart
 import "package:test/test.dart';
@@ -93,7 +93,7 @@ void main() {
 ### Matchers
 
 The `expect` function pairs a value with a matcher. Matchers are composable, they can be nested,
-combined with `allOf`, `anyOf`, and negated with `isNot`.
+combined with `allOf``anyOf`and negated with `isNot`.
 
 ```dart
 import 'package:test/test.dart';
@@ -293,7 +293,7 @@ await tester.pumpAndSettle(); // Wait for all animations to complete
 
 ### Testing Async Widgets
 
-Widgets that depend on `FutureBuilder`, `StreamBuilder`, or async initialization require explicit
+Widgets that depend on `FutureBuilder``StreamBuilder`or async initialization require explicit
 pumping to advance through loading states.
 
 ```dart
@@ -736,7 +736,7 @@ testWidgets('navigates to detail on tap', (tester) async {
 
 4. **Test interdependence.** Tests that depend on order, shared mutable state, or external services
    fail unpredictably. Each test must set up its own state and clean up after itself. Use `setUp`
-   and `tearDown`, not global variables.
+   and `tearDown`not global variables.
 
 5. **Golden test flakiness on CI.** Different machines render differently. Pin font versions, use a
    containerized environment, or run golden tests only on a single platform in CI. Accept a small
@@ -749,7 +749,6 @@ testWidgets('navigates to detail on tap', (tester) async {
 7. **Coverage without quality.** A high coverage number from low-quality tests provides a false
    sense of security. A single well-structured test that exercises a real edge case is worth more
    than ten tests that assert nothing meaningful.
-
 
 ```mermaid
 flowchart TD

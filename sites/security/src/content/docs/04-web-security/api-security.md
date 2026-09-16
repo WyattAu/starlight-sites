@@ -273,6 +273,7 @@ Retry-After: 30
 | Sliding window | Yes      | Yes    | Precise, memory-intensive          |
 | Fixed window   | Yes      | Yes    | Simple, burst at window boundaries |
 :::
+
 :::note
 Unauthenticated. Unauthenticated rate limits should be stricter to prevent abuse.
 
@@ -414,7 +415,7 @@ def list_orders():
     else:
         orders = db.query(
             "SELECT * FROM orders ORDER BY id LIMIT %s",
-            (limit)
+            (limit,)
         )
 
     next_cursor = orders[-1]['id'] if orders else None
@@ -632,7 +633,6 @@ Credential stuffing attacks. Rate limit all authentication endpoints.
 Stack traces reveal implementation details (framework, library versions, file paths) that help
 Attackers craft targeted exploits. Return generic error messages in production; log details
 Server-side.
-
 
 ```mermaid
 flowchart TD

@@ -282,6 +282,7 @@ Per insertion: $O(1)$. $\square$
 - **OCR (A)** requires hash tables with collision resolution using linear probing and rehashing
 - **Edexcel** covers hash tables and collision resolution methods
 :::
+
 <hr />
 
 ## Problem Set
@@ -890,7 +891,6 @@ Available for insertion.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

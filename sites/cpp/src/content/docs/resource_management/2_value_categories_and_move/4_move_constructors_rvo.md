@@ -11,7 +11,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -394,6 +393,7 @@ Genuinely can throw (which is rare, moving should only perform pointer swaps and
 Between move and copy during reallocation. If your move is not `noexcept`Your types will be Silently
 copied in containers, which can be a severe performance regression.
 :::
+
 ### How `std::vector` Uses `noexcept` Move
 
 The `std::vector` reallocation strategy is defined in [N4950 S16.4.5.2.6]. If the move constructor
@@ -480,16 +480,16 @@ public:
     // 3. Copy constructor
     Resource(const Resource& other)
         : data_(other.size_ ? new int[other.size_] : nullptr)
-size_(other.size_)
-capacity_(other.size_) {
+        , size_(other.size_)
+        , capacity_(other.size_) {
         std::copy(other.data_, other.data_ + size_, data_);
     }
 
     // 4. Move constructor
     Resource(Resource&& other) noexcept
         : data_(other.data_)
-size_(other.size_)
-capacity_(other.capacity_) {
+        , size_(other.size_)
+        , capacity_(other.capacity_) {
         other.data_ = nullptr;
         other.size_ = 0;
         other.capacity_ = 0;
@@ -803,6 +803,7 @@ After swap:  a.size=2000, b.size=1000
 Individual members. This ensures that if a member type has a custom `swap`It is found via ADL, While
 falling back to `std::swap` for types that do not.
 :::
+
 ## 7.3 Swap as a Building Block
 
 `swap` is used extensively as a building block for other operations:

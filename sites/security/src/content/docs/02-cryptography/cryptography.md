@@ -247,6 +247,7 @@ The most commonly used curves:
 | Ed25519           | 256 bits | Digital signatures                | RFC 8032            |
 | Curve25519        | 256 bits | Modern alternative to NIST curves | Daniel J. Bernstein |
 :::
+
 :::note
 Generation that was not fully transparent (though no backdoor has been found), and
 Curve25519/Ed25519 have simpler, faster implementations with fewer side-channel risks.
@@ -437,6 +438,7 @@ mac = hmac.new(key, message, hashlib.sha256).hexdigest()
 # Verify: hmac.compare_digest(mac, received_mac)
 ```
 :::
+
 :::caution
 Vulnerable to timing attacks, it returns as soon as it finds a mismatch, leaking information about
 How many bytes of the MAC are correct.
@@ -551,6 +553,7 @@ key = hashlib.pbkdf2_hmac(
 )
 ```
 :::
+
 :::caution
 Argon2id or scrypt. Use PBKDF2 only for compatibility with existing systems. For new systems, use
 Argon2id.
@@ -698,6 +701,7 @@ Nonces, IVs, and salts.
 | RDRAND/RDSEED         | Moderate        | Intel/AMD    |
 | Hardware TRNG         | High            | HSMs, TPMs   |
 :::
+
 :::caution
 Predictable values (often timestamps). Use platform CSPRNGs: `/dev/urandom` on Unix,
 `CryptGenRandom` on Windows, or language-specific secure random APIs (`secrets` in Python,
@@ -733,6 +737,7 @@ NIST has standardized the following post-quantum algorithms:
 3. **Crypto agility**: Design systems so algorithms can be swapped without protocol changes
 4. **Key sizes**: AES-256 and SHA-384 provide sufficient security against Grover's algorithm
 :::
+
 :::note
 To decrypt it when quantum computers become available. Organizations with long-term confidentiality
 Requirements (government, healthcare, financial) should begin PQC migration planning now.
@@ -778,6 +783,7 @@ Without forward secrecy (ephemeral Diffie-Hellman), compromise of the server's p
 Compromises all past sessions. TLS 1.3 mandates forward secrecy, but TLS 1.2 with RSA key exchange
 Does not provide it. Ensure your cipher suites use ECDHE or DHE.
 :::
+
 :::note
 SP 800-38D (GCM), NIST SP 800-132 (PBKDF2), NIST FIPS 203/204/205 (Post-Quantum), RFC 8446 (TLS
 1.3), RFC 8017 (RSA), RFC 8032 (EdDSA), RFC 7748 (Curve25519), RFC 5869 (HKDF).
@@ -807,6 +813,7 @@ Cryptography is the science of securing information through mathematical transfo
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

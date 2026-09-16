@@ -52,6 +52,7 @@ Supply-side policies and requires evaluation of both. AQA emphasises the effect 
 Policies on the Phillips curve. Edexcel links supply-side policy to productivity and
 Competitiveness.
 :::
+
 ## 2. Market-Oriented Supply-Side Policies
 
 These policies work through **incentives and competition**, reducing government intervention to
@@ -104,6 +105,7 @@ Suggest the UK may be closer to $t^*$ due to capital mobility.
 than the Laffer Curve explicitly, though it can be used in evaluation. OCR includes the Laffer curve
 in the context Of fiscal policy.
 :::
+
 **Evaluation of tax reform.** The effectiveness of tax cuts as a supply-side tool depends on several
 Factors. First, the **elasticity of the tax base** matters, if workers and firms are highly
 Responsive to tax rates (e.g., high-skilled workers who can emigrate), tax cuts will have a larger
@@ -185,6 +187,7 @@ Of the period.
 Market-oriented policies. AQA and CIE may expect examples but do not mandate specific knowledge of
 The Thatcher era.
 :::
+
 ### 2.4 Competition Policy
 
 Laws and institutions that prevent anti-competitive behaviour:
@@ -257,6 +260,7 @@ Investing more in education without reforming how it is delivered yields diminis
 example but Rewards specificity. AQA does not mandate particular policy knowledge but values
 well-explained Real-world examples. OCR (H460) links education policy to labour market outcomes.
 :::
+
 ### 3.2 Investment in Infrastructure
 
 Public investment in transport, broadband, energy, and communications:
@@ -340,6 +344,7 @@ Supply-side approaches. CIE (9708) rewards discussion of how different instituti
 Affect policy effectiveness. OCR (H460) may ask students to compare UK policy with other countries.
 The Nordic model is a strong evaluative point for any board.
 :::
+
 ## 4. Evaluation of Supply-Side Policies
 
 ### 4.1 Comparison: Market-Oriented vs Interventionist
@@ -385,6 +390,7 @@ Scenario requiring analysis of both. CIE (9708) Paper 4 essays frequently requir
 Discussion. OCR (H460) emphasises the role of government in correcting market failure through
 Supply-side policy. All boards reward nuanced answers that recognise context matters.
 :::
+
 ### 4.2 Supply-Side vs Demand-Side Policy
 
 | Feature          | Demand-side                        | Supply-side                              |
@@ -403,6 +409,7 @@ Substitutes.
 To work. An economy in a deep recession needs immediate demand-side stimulus, not just long-run
 Supply-side reforms. But sustained growth requires both. Always reference the time horizon.
 :::
+
 ### 4.3 Supply-Side Effects on the Phillips Curve
 
 Supply-side policies that reduce the natural rate of unemployment ($u^*$) or increase productivity
@@ -468,6 +475,7 @@ $$\mathrm{Net benefit of supply-side policy} = \mathrm{Efficiency gain} - \mathr
 However, the overall impact depends on [contextual factor]. Therefore, [judgement]." This "however,
 Therefore" structure is what examiners look for in Level 4 (AQA) or Band A (CIE) responses.
 :::
+
 ## 5. Measuring the Impact of Supply-Side Policies
 
 ### 5.1 Productivity Growth
@@ -527,6 +535,7 @@ Reforms that learn from international best practice.
 more Persuasive than abstract arguments. But always acknowledge differences in context, policies
 that Work in one country may not transfer directly.
 :::
+
 ## 6. Problem Set
 
 **Problem 1.** Explain, using AD/AS analysis, how a successful supply-side policy would affect (a)
@@ -1288,7 +1297,6 @@ imbalances were addressed.
 ## Intuition
 
 **Economic policy is like tuning an engine, adjusting levers to keep the economy running smoothly.**
-
 
 ```mermaid
 flowchart TD

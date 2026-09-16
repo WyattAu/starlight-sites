@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[03 Chi Squared Tests] --> B[Key Concepts]
@@ -50,6 +49,7 @@ Deviates significantly from expected values. It has two main applications: testi
 On percentages or proportions. Always check the conditions (expected frequency $\geq 5$) before
 Applying the test. The formula booklet provides the chi-squared distribution table.
 :::
+
 <hr />
 
 ## 1. The Chi-Squared Distribution
@@ -260,6 +260,7 @@ There is strong evidence that age group and preferred news source are not indepe
 :::caution
 Frequencies. The test relies on the multinomial distribution, which requires count data.
 :::
+
 <hr />
 
 ## Problems

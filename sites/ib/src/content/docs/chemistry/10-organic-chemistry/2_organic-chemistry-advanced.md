@@ -286,8 +286,7 @@ $$
 \mathrm{diol} + \mathrm{dicarboxylic acid} \to \mathrm{polyester} + \mathrm{H}_2\mathrm{O}
 $$
 
-:::note
-<strong>Example, PET (polyethylene terephthalate)</strong>
+:::note[Example, PET (polyethylene terephthalate)]
 Monomers: ethane-1,2-diol and benzene-1,4-dicarboxylic acid.
 
 $$
@@ -304,8 +303,8 @@ $$
 \mathrm{diamine} + \mathrm{dicarboxylic acid} \to \mathrm{polyamide} + \mathrm{H}_2\mathrm{O}
 $$
 :::
-:::note
-<strong>Example, Nylon-6,6</strong>
+
+:::note[Example, Nylon-6,6]
 Monomers: hexane-1,6-diamine and hexanedioic acid.
 
 $$
@@ -871,7 +870,6 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
 - **Stoichiometry of polymer reactions** → Review
   [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../gcse/src/content/docs/chemistry/8-organic-chemistry/8_organic-chemistry)
-
 
 ```mermaid
 flowchart TD

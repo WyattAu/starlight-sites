@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -106,7 +105,7 @@ Lifetimes are Rust's way of tracking reference validity. Every reference has a l
 
 ### Key Concepts
 
-**Lifetime elision**, The compiler applies rules to infer lifetimes in function signatures. Each input reference gets its own lifetime. If there is exactly one input lifetime, it is assigned to all output lifetimes. If there are multiple input lifetimes and one is `&self` or `&mut self`, the self lifetime is assigned to outputs.
+**Lifetime elision**, The compiler applies rules to infer lifetimes in function signatures. Each input reference gets its own lifetime. If there is exactly one input lifetime, it is assigned to all output lifetimes. If there are multiple input lifetimes and one is `&self` or `&mut self`the self lifetime is assigned to outputs.
 
 **The `'static` lifetime** means the reference lives for the entire program. String literals have `'static` lifetimes because they are embedded in the binary. Do not use `'static` as a workaround for lifetime issues, understand what the lifetime is actually expressing.
 
@@ -170,7 +169,7 @@ Rust handles errors with `Result<T, E>` and `Option<T>`no exceptions. `Result` r
 
 ### Key Concepts
 
-**Result<T, E>** is the core error type. `Ok(value)` represents success. `Err(error)` represents failure. Functions that can fail return `Result`, and the caller must handle both cases. The `?` operator short-circuits on error, propagating it up the call stack.
+**Result<T, E>** is the core error type. `Ok(value)` represents success. `Err(error)` represents failure. Functions that can fail return `Result`and the caller must handle both cases. The `?` operator short-circuits on error, propagating it up the call stack.
 
 **Option<T>** represents an optional value. `Some(value)` means the value is present. `None` means it is absent. Option replaces null in other languages. The `?` operator works with Option too, it returns `None` early if the value is absent.
 
@@ -184,7 +183,7 @@ Rust's async/await provides asynchronous programming with zero-cost abstractions
 
 ### Topic Notes
 
-- [Async Basics](07-async/01-async-basics), async fn.await, and the Future trait
+- [Async Basics](07-async/01-async-basics), async fn, .await, and the Future trait
 - [Async Runtime](07-async/02-async-runtime), Tokio, async-std, and the executor model
 - [Streams and Async Traits](07-async/03-streams-and-async-traits), Stream trait, async streams, and async in traits
 - [Concurrency Patterns](../../../../java/src/content/docs/06-concurrency/01-concurrency), tokio::spawn, join!, select!, and channels

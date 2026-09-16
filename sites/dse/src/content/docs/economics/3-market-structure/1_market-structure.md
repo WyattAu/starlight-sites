@@ -1248,7 +1248,7 @@ Period to keep it operating. This illustrates the regulatory dilemma of natural 
 `2Q^2 - 40Q + 200 = 0`. `Q^2 - 20Q + 100 = 0`. `(Q - 10)^2 = 0`. `Q = 10`. `P = 30`.
 
 This is the same as the unregulated outcome in this particular example because the monopolist
-Happens to earn normal profit at `Q = 10`. , `P = ATC` regulation would yield a different Result
+Happens to earn normal profit at `Q = 10`., `P = ATC` regulation would yield a different Result
 from unregulated monopoly.
 
 </details>
@@ -2072,7 +2072,6 @@ If you get this wrong, revise:
 [Price Discrimination and Regulation](#price-discrimination-and-regulation)
 
 </details>
-
 
 ```mermaid
 flowchart TD

@@ -309,7 +309,7 @@ t1.Equal(t2)  // true
    `2006-01-02 15:04:05`. Using other values (e.g., `2015-01-02`) causes incorrect parsing.
 
 4. **Comparing times with ==.** Use `t1.Equal(t2)` instead. Two `time.Time` values in different
-   locations representing the same instant are not `==`, but `Equal` returns `true`.
+   locations representing the same instant are not `==`but `Equal` returns `true`.
 
 5. **Leaking timers and tickers.** `time.NewTimer` and `time.NewTicker` create resources that must
    be stopped. Failing to call `Stop()` leaks a goroutine. Always use `defer`.
@@ -325,7 +325,6 @@ t1.Equal(t2)  // true
 loc, _ := time.LoadLocation("America/New_York")
 t, _ := time.ParseInLocation("2006-01-02 15:04", "2026-05-30 14:30", loc)
 ```
-
 
 ```mermaid
 flowchart TD

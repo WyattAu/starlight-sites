@@ -167,6 +167,7 @@ Sum: 4613732
 the iteration step, each `++it` call on the adapted view will advance the underlying generator By
 one element.
 :::
+
 ## Intuition
 
 **A generator is like a vending machine that dispenses values one at a time:** Instead of computing all values upfront (like a function that returns a vector), a generator computes values lazily, one per `co_yield`. It's like a vending machine that makes one snack when you press the button, then goes back to sleep until you press again. This is perfect for sequences that are expensive to compute or infinite (like Fibonacci numbers).
@@ -442,6 +443,7 @@ int main() {
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
 Allocator support to allow custom allocation strategies.
 :::
+
 ## Practical Example: State Machine Generator
 
 ```cpp
@@ -525,7 +527,6 @@ int main() {
   reference parameter), the referenced object must outlive the generator.
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
-
 
 ```mermaid
 flowchart TD

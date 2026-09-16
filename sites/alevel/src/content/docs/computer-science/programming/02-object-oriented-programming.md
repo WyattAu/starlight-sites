@@ -101,6 +101,7 @@ class Student:
 :::tip
 (preventing invalid states) and implementation flexibility.
 :::
+
 <hr />
 
 ## 3. Inheritance
@@ -224,6 +225,7 @@ Principles; may require implementation in a specific language (Python/Pascal). *
 Class definitions with attributes and methods; constructor/destructor understanding. **Edexcel**
 Covers OOP with pseudocode; emphasises encapsulation and data hiding.
 :::
+
 <hr />
 
 ## 5. Abstract Classes and Interfaces
@@ -722,7 +724,6 @@ For revision on programming fundamentals, see
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

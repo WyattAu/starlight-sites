@@ -7,7 +7,6 @@ description: "Rust' s module provides a 1:1 mapping to OS threads. Each thread g
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -364,6 +363,7 @@ fn reader() {
 }
 ```
 :::
+
 :::caution
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
 Correct visibility semantics. Use `SeqCst` when you are unsure, it is the safest but slowest
@@ -664,6 +664,7 @@ async fn main() {
 }
 ```
 :::
+
 :::caution
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
@@ -821,6 +822,7 @@ async fn main() {
 }
 ```
 :::
+
 :::caution
 Blocks the entire OS thread, preventing other async tasks from running. Use `tokio::sync::Mutex` for
 Async contexts. However, if the critical section is short and does not contain any `.await`A
@@ -857,6 +859,7 @@ unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
 :::
+
 :::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove

@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[08 Development Economics] --> B[Key Concepts]
@@ -62,6 +61,7 @@ Per capita (driven by oil) but low HDI (0.59) due to extreme inequality. Convers
 A moderate GDP per capita but high HDI (0.81) due to strong public services and political stability.
 Always use multiple indicators.
 :::
+
 ## 2. Indicators of Development
 
 ### 2.1 Economic Indicators
@@ -141,6 +141,7 @@ Different development indicators, including the HDI and Gini coefficient. **Edex
 Per capita and HDI as measures of living standards, and may ask you to compare indicators across
 Countries.
 :::
+
 ## 3. Causes of Economic Growth
 
 ### 3.1 Solow Growth Model (Overview)

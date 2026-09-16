@@ -201,6 +201,7 @@ int main() {
 `std::terminate()` is called [N4950 §14.7]. Marking a destructor `noexcept(false)` does not make it
 Safe to throw from a destructor during unwinding.
 :::
+
 ## 3.5 Conditional `noexcept`
 
 The `noexcept` specifier accepts a constant expression:
@@ -430,7 +431,7 @@ noexcept is a contract that says "this function will not throw." It is part of t
 
 ## Intuition
 
-**`noexcept` is like a safety certification:** When you mark a function `noexcept`, you're telling the compiler and the runtime "I guarantee this function won't throw." The compiler can use this to generate faster code (no exception handling overhead), and the runtime can call `std::terminate` immediately if an exception does escape (instead of unwinding the stack). It's like signing a contract, if you break it (throw from a `noexcept` function), the consequences are severe (program termination).
+**`noexcept` is like a safety certification:** When you mark a function `noexcept`you're telling the compiler and the runtime "I guarantee this function won't throw." The compiler can use this to generate faster code (no exception handling overhead), and the runtime can call `std::terminate` immediately if an exception does escape (instead of unwinding the stack). It's like signing a contract, if you break it (throw from a `noexcept` function), the consequences are severe (program termination).
 
 **Why it matters:** `noexcept` is not just a performance optimization, it's a design tool. Move constructors should be `noexcept` because the standard library uses it to decide whether to move or copy during reallocation. `noexcept` on move operations can mean the difference between O(n) copies and O(1) moves.
 
@@ -567,7 +568,6 @@ int main() {
 - [The Itanium Exception ABI](1_exception_abi)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

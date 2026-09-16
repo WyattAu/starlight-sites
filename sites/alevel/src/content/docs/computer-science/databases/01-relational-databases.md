@@ -270,6 +270,7 @@ It).
   boards), and ER diagrams
 - **Edexcel** covers SQL fundamentals and basic normalisation
 :::
+
 <hr />
 
 ## 4. ACID Properties
@@ -1154,7 +1155,6 @@ Example result:
 
 4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
-
 
 ```mermaid
 flowchart TD

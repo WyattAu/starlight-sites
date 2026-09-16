@@ -1,6 +1,5 @@
 ---
 
-
 title: Atomic Structure and Periodicity
 description: "Study notes for Atomic Structure and Periodicity with worked examples and practice questions."
 ----------- | -------------------------------------------------------------------- | | Dalton | Atomic theory: all matter"
@@ -201,8 +200,7 @@ The stability of half-filled and fully filled d subshells arises from exchange e
 With parallel spins in different orbitals are slightly lower in energy than paired electrons. A
 Half-filled ($d^5$) or fully filled ($d^{10}$) subshell maximises this exchange energy.
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Write the electron configuration for Fe ($Z = 26$).
 
 $$
@@ -309,8 +307,8 @@ For absorption: $n_i \lt n_f$ (photon absorbed).
 The convergence of lines towards the series limit corresponds to transitions from $n = \infty$ to
 $n_f$Where the energy difference approaches a maximum value.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Calculate the wavelength of light emitted when an electron in hydrogen drops from $n = 4$ to
 $n = 2$.
 
@@ -589,7 +587,6 @@ Which is higher in energy and more effectively shielded than the s subshell of G
 The decrease from Group 15 to Group 16 occurs because the Group 16 electron pairs with another
 Electron in the same p orbital, creating electron-electron repulsion (pairing energy) that offsets
 The increase in $Z_{\mathrm{eff}$.
-
 
 ```mermaid
 flowchart TD

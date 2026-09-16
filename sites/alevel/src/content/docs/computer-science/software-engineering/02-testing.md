@@ -110,6 +110,7 @@ Requirements.
   between requirements and tests
 - **Edexcel** covers testing types and test data design
 :::
+
 <hr />
 
 ## 3. Black-Box Testing
@@ -844,7 +845,6 @@ Pull request, and run the full suite nightly.
 4. **Forgetting edge cases in test design.** Always test: empty input, single element, already sorted data, maximum size, negative numbers, and boundary values. Off-by-one errors are among the most common bugs and are caught by boundary value analysis.
 
 5. **Writing tests that depend on execution order.** Each test should set up its own state and clean up after itself. Tests that depend on previous tests produce false passes (a bug masked by a prior test) or false failures (a test fails because a previous test didn't clean up).
-
 
 ```mermaid
 flowchart TD

@@ -17,7 +17,6 @@ description: "The of a deterministic TM on input is the number of steps takes be
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[6_Complexity Theory] --> B[Key Concepts]
@@ -480,6 +479,7 @@ A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
 :::
+
 ## Cross-References
 
 - [Turing Machines](./4_turing-machines) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.

@@ -152,7 +152,7 @@ Regular expressions over alphabet $\Sigma$:
 
 ```
 DFA_TO_RE(DFA):
-    rename states q1, q2..., qn
+    rename states q1, q2, ..., qn
     add new start state qs and new accept state qf
     for each pair (qi, qj), eliminate states one by one
     update transition labels using state elimination formula:
@@ -512,7 +512,6 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 
 **Problem:** Write a CFG that generates the language L = {a^n b^n c^n : n >= 1}.
 **Solution:** S -> aBC. B -> aBB (this ensures more a's push B’s onto the middle). C -> cD. D -> cDD (this ensures more c's match). B -> b (terminal). D -> d (terminal). Wait -- this generates a^n b^n c^m which is wrong. The language a^n b^n c^n is not context-free (proven by the pumping lemma for CFLs). No CFG exists for this language. This is a common exam trick question.
-
 
 ```mermaid
 flowchart TD

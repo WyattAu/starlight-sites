@@ -53,6 +53,7 @@ Consider:
   hand-written parser is often faster and more readable.
 - **RE2:** Google's regex library with guaranteed linear-time matching.
 :::
+
 ### `std::regex_match` and `std::regex_search`
 
 ```cpp
@@ -136,6 +137,7 @@ void regex_replace_demo() {
 :::note
 groups, and `$$` is a literal `$`. These are defined in [N4950 §30.9.4].
 :::
+
 ### Email Validation with Regex
 
 ```cpp
@@ -230,6 +232,7 @@ void catastrophic_backtracking_demo() {
 Exponential backtracking on inputs that nearly match. If you must use them, set a timeout or use a
 Library with guaranteed linear-time matching (RE2, hyperscan).
 :::
+
 ### Regex Grammars and Flags
 
 `std::regex` supports multiple regex grammars selectable via the `std::regex::flag_type` bitmask
@@ -389,11 +392,11 @@ int main() {
 int main() {
     std::string multi_line = "line1\nline2\nline3";
 
-    // Without match_any. does not match newline
+    // Without match_any, . does not match newline
     std::regex dot_all("line.line");
     std::cout << std::regex_search(multi_line, dot_all) << "\n";  // 0 (false)
 
-    // With match_any. matches newline
+    // With match_any, . matches newline
     std::cout << std::regex_search(multi_line, dot_all, std::regex_constants::match_any) << "\n";  // 1 (true)
 }
 ```
@@ -559,7 +562,6 @@ Index `-1`.
 - [Filesystem Library](./1_filesystem)
 - [Chrono Library](./2_chrono)
 - [Random Number Generation](./3_random_numbers)
-
 
 ```mermaid
 flowchart TD

@@ -93,6 +93,7 @@ Proteins, and PCR-based methods to quantify allele variation.
 giving a more accurate Measure of diversity. A community dominated by one species with many rare
 species has low diversity Despite high richness.
 :::
+
 ### 1.5 Sampling Methods
 
 Sampling is necessary because it is impractical to count every organism. Key principles:
@@ -169,6 +170,7 @@ Reptiles, and amphibians). **Analogous structures** perform a similar function b
 Evolutionary origins (e.g., the wings of insects and birds). Only homologous structures are
 Informative for cladistics.
 :::
+
 ## 3. Evolution
 
 ### 3.1 Natural Selection
@@ -307,6 +309,7 @@ Occurring. It describes the theoretical conditions under which allele frequencie
 If a population deviates from H-W, this is evidence that evolutionary forces (selection, drift, gene
 Flow, mutation, non-random mating) are acting.
 :::
+
 ## 5. Genetic Drift and Gene Flow
 
 ### 5.1 Genetic Drift
@@ -354,6 +357,7 @@ barrier), populations Diverge and may eventually become separate species.
 standard of fitness. What is advantageous in one environment may be disadvantageous in another.
 Genetic drift produces Changes without regard to fitness at all.
 :::
+
 ## 6. Molecular Clocks and Phylogenetics
 
 ### 6.1 The Molecular Clock Concept
@@ -478,6 +482,7 @@ Hardy-Weinberg data, Students often incorrectly use $\mathrm{df} = n - 1$ (where
 of genotypes). The Correct formula accounts for the fact that allele frequencies are estimated from
 the data, reducing the Degrees of freedom further. For a two-allele system, $\mathrm{df} = 1$.
 :::
+
 ## 8. Classification: The Five Kingdom System and Beyond
 
 ### 8.1 Whittaker's Five-Kingdom System
@@ -1616,6 +1621,7 @@ conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 ## 26. Investigating Variation
 
 ### 26.1 Mean, Standard Deviation, and Standard Error
@@ -2066,7 +2072,6 @@ A dichotomous key is a tool used to identify organisms based on a series of pair
 ## Intuition
 
 **Evolution is like a family tree that stretches back millions of years, branching, adapting, and sometimes going extinct.**
-
 
 ```mermaid
 flowchart TD

@@ -930,7 +930,7 @@ Understanding by attempting to explain a concept in simple terms.
 1. **Choose a concept:** Pick something you recently learned or think you understand.
 2. **Explain it :** Write or speak an explanation as if teaching a junior engineer. Use plain
    language. Avoid jargon unless you can define it immediately.
-3. **Identify gaps:** When you struggle to explain something , you have found a gap in your
+3. **Identify gaps:** When you struggle to explain something, you have found a gap in your
    understanding. Go back to the source material.
 4. **Simplify and use analogies:** Refine the explanation until a non-expert could follow it.
 

@@ -472,7 +472,7 @@ IO :: * -> *
 
 -- Kind * -> * -> *: type constructors taking two arguments
 Either :: * -> * -> *
-() :: * -> * -> *
+(,) :: * -> * -> *
 Map :: * -> * -> *
 
 -- With DataKinds, data constructors become kinds
@@ -641,7 +641,7 @@ main = putStrLn $(
 -- Lenses via Template Haskell (lens package)
 data Person = Person
   { _name :: String
-_age  :: Int
+  , _age  :: Int
   }
 
 -- This generates name, age lenses
@@ -650,7 +650,6 @@ _age  :: Int
 -- JSON serialization via Template Haskell
 -- deriveJSON defaultOptions ''Person
 ```
-
 
 ```mermaid
 flowchart TD

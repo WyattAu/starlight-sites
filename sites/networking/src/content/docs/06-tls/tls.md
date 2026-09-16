@@ -138,6 +138,7 @@ Client                              Server
   |==== Encrypted Application Data ===|
 ```
 :::
+
 :::caution
 Replay it to the server. Do not use 0-RTT for non-idempotent requests (POST, PUT, DELETE). The
 Server should only accept 0-RTT data for idempotent operations (GET) and must implement replay
@@ -329,6 +330,7 @@ The client must have the Root CA in its trust store. The server must send the fu
 Intermediate) during the TLS handshake. If intermediate certificates are missing, clients that do
 Not already have them cached will fail to validate the chain.
 :::
+
 :::caution
 Server's certificate chain. The server must send the complete chain (excluding the root). Test with:
 
@@ -511,6 +513,7 @@ Handshake. The server's long-term key (from its certificate) is only used for au
 | ECDHE + P-256  | Yes             | Good balance                     |
 | ECDHE + X25519 | Yes             | Best performance                 |
 :::
+
 :::caution
 Forward secrecy. If you are still using TLS 1.2, ensure you use ECDHE cipher suites (`TLS_ECDHE_*`).
 
@@ -956,7 +959,6 @@ When TLS connections fail, check in this order:
 7. **HSTS:** Check the `Strict-Transport-Security` response header
 8. **Mixed content:** Ensure no HTTP resources are loaded from HTTPS pages
 
-
 ```mermaid
 flowchart TD
     A[Tls] --> B[Key Concepts]
@@ -988,6 +990,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 TLS is the security guard of the internet. When you connect to a website, the TLS handshake is like showing your ID at a secure building - the server proves its identity (certificate), you agree on a secret language (cipher suite), and then all your conversations are encrypted. The certificate chain is like a chain of trust - your browser trusts root CAs, which sign intermediate CAs, which sign the server's certificate. If any link breaks, trust fails. TLS 1.3 is like upgrading from a 3-step verification to a 2-step process - faster but equally secure. The key insight is that TLS protects against three threats: eavesdropping (encryption), tampering (MAC), and impersonation (certificates).

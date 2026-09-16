@@ -147,6 +147,7 @@ int main() {
 Pass it to a non-range API, or decouple its lifetime from the source. The cost is $O(n)$ for the
 Materialization, but you gain ownership and stability.
 :::
+
 ### Materialization with Different Containers
 
 `std::ranges::to` works with any container that satisfies the `ranges::to` constraints [N4950
@@ -531,6 +532,7 @@ int main() {
 Some views (like `std::views::filter`) are not borrowing views --- they cannot outlive their source.
 Always ensure the source outlives the view when materializing.
 :::
+
 #### Double Materialization Cost
 
 Calling `std::ranges::to` on an already-materialized container copies the data. If you already have
@@ -805,7 +807,6 @@ int main() {
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
 
 ```mermaid
 flowchart TD

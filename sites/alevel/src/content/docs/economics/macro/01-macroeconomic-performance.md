@@ -62,6 +62,7 @@ Adjust market prices to factor costs. $\blacksquare$
 now include estimates Of the shadow economy). This means GDP underestimates total economic activity,
 particularly in Countries with large informal sectors.
 :::
+
 ### 1.3 Real vs Nominal GDP
 
 **Nominal GDP** is measured at current prices. **Real GDP** adjusts for price changes using a price
@@ -119,6 +120,7 @@ economies. OCR Requires understanding of the difference between **GDP** (output 
 **GNI** (income Earned by nationals, including net income from abroad). GNI is particularly relevant
 for countries Like the Philippines or India, where remittances are a large share of national income.
 :::
+
 ### 1.7 Evaluation: GDP as a Performance Indicator
 
 When evaluating GDP as a measure of economic performance, consider the following:
@@ -201,6 +203,7 @@ to focus on CPI alone but may ask about measurement issues more broadly. OCR may
 implications of Using RPI for index-linked bonds, since RPI overstates inflation, bondholders
 receive higher Payments, increasing government debt costs.
 :::
+
 ### 2.3 Causes of Inflation
 
 **Demand-pull inflation**: caused by excess aggregate demand.
@@ -266,6 +269,7 @@ students with a Data-response question featuring inflation statistics from a spe
 has previously Examined the role of supply-side shocks in causing stagflation (rising inflation with
 falling Output).
 :::
+
 ### 2.6 Evaluation: The Costs of Inflation
 
 When evaluating the costs of inflation, context matters enormously:
@@ -354,6 +358,7 @@ causing Real-wage unemployment. CIE (9708) uses the term "demand-deficient" rath
 and may Ask about hysteresis. OCR has examined the relationship between structural unemployment and
 regional Policy in the UK.
 :::
+
 ### 3.3 Costs of Unemployment
 
 1. **Lost output**: the output gap $Y_{fe} - Y_{actual}$ represents goods and services that could
@@ -397,6 +402,7 @@ Intervention in the labour market. OCR has examined the distinction between unem
 Economic inactivity, which is highly relevant to the COVID case (furloughed workers were technically
 Employed, not unemployed or inactive).
 :::
+
 ### 3.5 Evaluation: Unemployment Statistics
 
 When interpreting unemployment data, be aware of several issues:
@@ -463,6 +469,7 @@ Financial accounts (borrowing from abroad or selling assets).
 the Relationship between the current account and the exchange rate. OCR has examined the
 Marshall-Lerner Condition and the J-curve effect in the context of current account adjustment.
 :::
+
 ### 4.3 Real-World Application: The UK's Persistent Current Account Deficit
 
 The UK has run a current account deficit in almost every year since 1984. As of 2023, the deficit
@@ -566,6 +573,7 @@ Inflation and unemployment data and ask students to interpret it using Phillips 
 Has examined the role of supply shocks in causing stagflation and the breakdown of the simple
 Phillips curve relationship.
 :::
+
 ### 5.5 Evaluation: The Phillips Curve Trade-Off
 
 When evaluating the Phillips curve as a policy tool:
@@ -609,6 +617,7 @@ These objectives often conflict:
 :::tip
 account Balance. Examiners reward application of theory to real data.
 :::
+
 ### 6.1 Evaluation: Conflicts Between Macroeconomic Objectives
 
 A strong evaluation paragraph in an A Level economics essay will follow a **"on the one Hand... On
@@ -639,6 +648,7 @@ CIE (9708) Data-response questions (Part b, 8 marks; Part c, 12 marks) require a
 evaluation of Extract data. OCR's Component 3 requires a 20-mark essay with a clear conclusion. All
 boards reward The use of real-world data and counterarguments.
 :::
+
 ## 7. Problem Set
 
 **Problem 1.** An economy produces three goods: apples, bread, and computers. In the base year
@@ -1372,7 +1382,6 @@ better on liveability indicators.
 
 4. Confusing nominal and real values. Always adjust for inflation when comparing monetary values
    across time.
-
 
 ```mermaid
 flowchart TD

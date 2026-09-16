@@ -1,6 +1,5 @@
 ---
 
-
 title: "Numerical Methods"
 description: "Study notes for Numerical Methods | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ------------------------------------------------------ | | AQA | Paper 2 | Sign change, iteration,"
@@ -34,6 +33,7 @@ categories:
 :::note
 Must know when each method is applicable and its limitations.
 :::
+
 <hr />
 
 ## 1. Locating Roots: Sign Change
@@ -55,6 +55,7 @@ $f(-1) = f(1) = 1$ (no sign change), but there is a root at $x = 0$. Additionall
 Could arise from a **discontinuity** rather than a root: $f(x) = 1/x$ has $f(-1) = -1$ and
 $f(1) = 1$ But no root.
 :::
+
 **Intuition.** The sign change theorem is the Intermediate Value Theorem applied to the special case
 Of crossing zero. If you walk from a point below sea level to one above sea level, you must cross
 Sea level at some point, provided the ground is continuous (no teleporting).
@@ -110,6 +111,7 @@ Different rearrangements of $f(x) = 0$ give different $g(x)$ And some converge w
 $g'(x)$ at the root and show $|g'(\alpha)| \lt 1$. If asked why a rearrangement fails, show
 $|g'(\alpha)| \gt 1$.
 :::
+
 ### 2.4 Geometric interpretation
 
 The fixed-point iteration $x_{n+1} = g(x_n)$ can be visualised using the cobweb diagram. Plot
@@ -357,6 +359,7 @@ Better than linear ones.
 :::tip
 Number. Simpson's rule is exact for cubics (since the error depends on $f^{(4)}$).
 :::
+
 <hr />
 
 ## 6. Comparison of Methods
@@ -402,6 +405,7 @@ In practice, numerical software often combines methods:
 Well-behaved. Fixed-point iteration is useful when the problem gives a contraction Mapping.
 Bisection is the reliable fallback when nothing else is guaranteed to work.
 :::
+
 ### 7.3 Cost comparison
 
 | Method         | Cost per step | Convergence rate          | Total cost to reach tolerance $\varepsilon$ |
@@ -872,7 +876,6 @@ building a personal test matrix.
 
 4. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
-
 
 ```mermaid
 flowchart TD

@@ -116,6 +116,7 @@ Questions are included throughout.
 Questions. For Higher Level students, pay particular attention to the proofs and derivations, as
 These frequently appear on the examination.
 :::
+
 ## State Examinations Commission (SEC)
 
 The SEC is the statutory body responsible for the development, administration, and accreditation of
@@ -126,6 +127,7 @@ Resources for revision.
 :::note
 Through past papers under timed conditions is one of the most effective preparation strategies.
 :::
+
 ## Summary
 
 The key principles covered in this topic are linked in the sub-pages above. Focus on understanding

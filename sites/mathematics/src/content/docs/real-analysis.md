@@ -189,6 +189,7 @@ Extended to $\mathbb{R}$ for analysis.
 $\sup(S)$ need not belong to $S$. For example, $\sup\{1/n : n \in \mathbb{N}\} = 1$Which belongs to
 the set, but $\sup(0, 1) = 1$Which does not belong to $(0, 1)$.
 :::
+
 ## 2. Sequences and Limits
 
 ### 2.1 Convergence
@@ -414,6 +415,7 @@ the sequence. For Example, $a_n = (-1)^n$ has $\limsup = 1$ and $\liminf = -1$ B
 and $\inf\{a_n\} = -1$ happen to agree in this case. However, for $a_n = 1/n$, $\sup = 1$ but
 $\limsup = 0$.
 :::
+
 ## 3. Series
 
 ### 3.1 Definitions and Convergence
@@ -618,6 +620,7 @@ _If you get this wrong, revise:_ Section 3.5 (Cauchy Condensation Test).
 cases, try the comparison Test, integral test, or other methods. For example, $\sum 1/n$ diverges
 (harmonic series) and $\sum 1/n^2$ converges, but both give a ratio test limit of 1.
 :::
+
 ## 4. Continuity
 
 ### 4.1 Limits of Functions
@@ -870,6 +873,7 @@ requires a **closed and bounded** Interval. Also, a function can be uniformly co
 unbounded domain (e.g., $f(x) = \sqrt{x}$ On $[0, \infty)$) --- boundedness of the domain is
 sufficient but not necessary.
 :::
+
 ## 5. Differentiability
 
 ### 5.1 The Derivative
@@ -1124,6 +1128,7 @@ incorrect results. Always Verify the indeterminate form before applying the rule
 rule requires that the Limit of the quotient of derivatives exists; if it does not exist
 (oscillates), the original limit May still exist.
 :::
+
 ## 6. Riemann Integration
 
 ### 6.1 Definition
@@ -1411,6 +1416,7 @@ limit. Also, conditional Convergence of improper integrals behaves differently f
 convergence: rearranging the "terms" (subintervals) of a conditionally convergent improper integral
 can change its value.
 :::
+
 ## 7. Sequences and Series of Functions
 
 ### 7.1 Pointwise Convergence
@@ -2182,6 +2188,7 @@ Real analysis is the art of making calculus rigorous. The central idea is that l
 | Multivariable Calculus     | WyattsNotes | [View](multivariable-calculus)          |
 | Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

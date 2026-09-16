@@ -906,6 +906,7 @@ Before adding a dependency, evaluate it:
 | **MSRV**                  | README or `Cargo.toml` `rust-version` field                 |
 | **Audit**                 | `cargo audit`known CVEs                                  |
 :::
+
 :::caution
 Chain attacks, and licensing issues. Minimize your dependency tree. Audit regularly with
 `cargo audit`. For security-critical projects, consider `cargo-vet` (supply chain verification).
@@ -955,7 +956,6 @@ Chain attacks, and licensing issues. Minimize your dependency tree. Audit regula
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
-
 
 ```mermaid
 flowchart TD

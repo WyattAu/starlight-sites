@@ -954,6 +954,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Traits define shared behavior as interfaces, while generics enable code that works with multiple types. Trait bounds constrain generics to types that implement specific traits. Static dispatch (monomorphization) generates specialized code for each concrete type, while dynamic dispatch (trait objects) uses vtables for runtime polymorphism. The orphan rule prevents implementing foreign traits on foreign types, maintaining coherence across the ecosystem.

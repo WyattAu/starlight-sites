@@ -648,11 +648,11 @@ final extended = [...base, 4, 5]; // [1, 2, 3, 4, 5]
 
 final setA = {1, 2, 3};
 final setB = {3, 4, 5};
-final union = {...setA...setB}; // {1, 2, 3, 4, 5}
+final union = {...setA, ...setB}; // {1, 2, 3, 4, 5}
 
 final defaults = {'theme': "light'', "lang': "en''};
 final userPrefs = {"theme': "dark''};
-final config = {...defaults...userPrefs}; // {"theme': "dark'', "lang': "en''}
+final config = {...defaults, ...userPrefs}; // {"theme': "dark'', "lang': "en''}
 ```
 
 ### Null-Aware Spreads
@@ -661,7 +661,7 @@ The `...?` operator spreads only if the expression is non-null. If null, it inse
 
 ```dart
 List<int>? maybeList = someCondition ? [1, 2, 3] : null;
-final result = [0...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
+final result = [0, ...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
 ```
 
 Without `...?`A null spread throws at runtime. Always use `...?` when the spread source might be
@@ -1042,7 +1042,6 @@ map.containsKey('nonexistent'); // false, the key does not exist
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
 You need to distinguish between "key absent" and "key present with null value."
-
 
 ```mermaid
 flowchart TD

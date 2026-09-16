@@ -45,6 +45,7 @@ Of AD).
 :::note
 wealth Effects. OCR may ask students to evaluate which channel is most significant in practice.
 :::
+
 We derive this from three channels:
 
 **1. Wealth effect (Pigou effect):** A higher price level reduces the real value of money balances
@@ -139,6 +140,7 @@ imperfect Information model. OCR expects students to compare sticky-wage and sti
 New Classical economists (AQA Unit 4, CIE Paper 4) argue that SRAS is vertical even in the short run
 Because rational agents anticipate price changes, this is the policy ineffectiveness proposition.
 :::
+
 **Real-world example, sticky wages in action.** During the COVID-19 pandemic, many UK workers
 Remained on fixed-wage contracts even as the price level rose due to supply chain disruptions. The
 Real wage ($w/P$) fell, making labour relatively cheaper for firms. However, because lockdowns
@@ -165,6 +167,7 @@ Curve becoming vertical at full employment, this is the _Keynesian AS curve_ and
 In CIE mark schemes. OCR expects students to explain _why_ LRAS is vertical using the classical
 Dichotomy or factor mobility arguments.
 :::
+
 #### Derivation of the LRAS from the Production Function
 
 Potential output is determined by the aggregate production function:
@@ -330,6 +333,7 @@ Discuss whether the economy can be left to self-correct. In all cases, examiners
 Argumentation: acknowledge the theoretical mechanism but critically assess its practical
 Limitations.
 :::
+
 ## 4. The Multiplier
 
 ### 4.1 Definition and Derivation
@@ -409,6 +413,7 @@ multiplier. Edexcel (9EC0) Paper 2 expects students to calculate the multiplier 
 effectiveness. CIE (9708) Paper 3 may ask students to calculate the multiplier from given data and
 discuss why it Differs across countries.
 :::
+
 ## 5. The Accelerator Effect
 
 The **accelerator** links investment to changes in output:
@@ -466,14 +471,17 @@ Within the context of specific policy discussions (e.g., "Evaluate the view that
 The most effective way to increase AD"). Edexcel (9EC0) Paper 3 may ask students to compare AD/AS
 With alternative models such as the Phillips Curve.
 :::
+
 :::caution
 Curves. "An increase in the price level reduces AD" is WRONG, it causes a movement along the AD
 Curve. "An increase in consumer confidence increases AD" is CORRECT, it shifts the AD curve.
 :::
+
 :::note
 (9708) requires detailed diagrammatic analysis of equilibrium and shifts. AQA focuses on the
 Multiplier and its policy implications.
 :::
+
 ## 7. Problem Set
 
 **Problem 1.** An economy has the following: MPC = 0.75, MPT = 0.15, MPM = 0.10. (a) Calculate the
@@ -669,6 +677,7 @@ Demands, creating a wage-price spiral.
   equilibrium point. The LRAS is fixed at potential output Y\* regardless of where short-run
   equilibrium happens to be. If SR equilibrium is to the left of LRAS, there is a recessionary gap.
 :::
+
 ## Common Mistakes
 
 1. **Confusing shifts with movements along AD/SRAS.** An increase in the price level does NOT shift the AD curve, it causes a movement along it. Only changes in the components of AD (C, I, G, X-M) at a given price level shift the curve. This is the single most common exam error.
@@ -1173,7 +1182,6 @@ the financing method (tax-funded vs debt-funded).
 
 4. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic
    scenarios.
-
 
 ```mermaid
 flowchart TD

@@ -583,6 +583,7 @@ sysctl -w net.netfilter.nf_conntrack_tcp_timeout_established=600
 cat /proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established
 ```
 :::
+
 :::caution
 `nf_conntrack: table full, dropping packet` messages in dmesg. This is a common cause of seemingly
 Random connection failures on firewalls and NAT gateways. Monitor `nf_conntrack_count` vs
@@ -857,7 +858,6 @@ When correlating captures from multiple points, ensure all systems are synchroni
 Skew of even 1 second can make correlation impossible for fast interactions. Use `ntpq -p` to verify
 NTP synchronization before starting a multi-point capture.
 
-
 ```mermaid
 flowchart TD
     A[Traffic Analysis] --> B[Key Concepts]
@@ -889,6 +889,7 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Traffic analysis is like wiretapping a phone system to understand what conversations are happening. A SPAN port is like putting a splitter on a phone line so you can listen in without cutting the connection. A TAP is like a professional recording device that sits inline and captures everything perfectly. The challenge is that modern traffic is mostly encrypted (TLS), so you see the envelope (metadata) but not the letter (content). NetFlow is like keeping a phone log - you record who called whom, when, and for how long, but not what was said. The key insight is that metadata alone is incredibly powerful for troubleshooting and security, even without decrypting the content.

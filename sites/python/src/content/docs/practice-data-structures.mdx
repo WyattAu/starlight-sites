@@ -2,10 +2,9 @@
 
 date: 2026-07-23T22:34:31+01:00
 title: "Data Structures Practice"
-description: "Implement both a stack and a queue using a single `Deque` class with `push`, `pop`, `enqueue`, and `dequeue` operations."
+description: "Implement both a stack and a queue using a single `Deque` class with `push``pop``enqueue`and `dequeue` operations."
 sidebar_position: 51
 ---
-
 
 ## Data Structures Practice
 
@@ -22,7 +21,6 @@ class Node:
         self.val = val
         self.next = next
 
-
 def reverse_list(head: Node | None) -> Node | None:
     prev = None
     current = head
@@ -32,7 +30,6 @@ def reverse_list(head: Node | None) -> Node | None:
         prev = current
         current = next_node
     return prev
-
 
 def to_list(head: Node | None) -> list[int]:
     result = []
@@ -58,18 +55,15 @@ class TreeNode:
         self.left = left
         self.right = right
 
-
 def inorder(root: TreeNode | None) -> list[int]:
     if not root:
         return []
     return inorder(root.left) + [root.val] + inorder(root.right)
 
-
 def preorder(root: TreeNode | None) -> list[int]:
     if not root:
         return []
     return [root.val] + preorder(root.left) + preorder(root.right)
-
 
 def postorder(root: TreeNode | None) -> list[int]:
     if not root:
@@ -82,7 +76,7 @@ def postorder(root: TreeNode | None) -> list[int]:
 ## Exercise 3: Hash Map Implementation
 
 **Problem:**
-Implement a hash map with separate chaining for collision resolution. Support `put`, `get`, and `remove`.
+Implement a hash map with separate chaining for collision resolution. Support `put``get`and `remove`.
 
 **Hint:** Use a list of buckets, each bucket being a list of key-value pairs.
 
@@ -129,13 +123,12 @@ class HashMap:
 ## Exercise 4: Stack and Queue Implementation
 
 **Problem:**
-Implement both a stack and a queue using a single `Deque` class with `push`, `pop`, `enqueue`, and `dequeue` operations.
+Implement both a stack and a queue using a single `Deque` class with `push``pop``enqueue`and `dequeue` operations.
 
 **Hint:** A doubly linked list or `collections.deque` can serve as the underlying structure.
 
 ```python
 from collections import deque
-
 
 class Stack:
     def __init__(self):
@@ -156,7 +149,6 @@ class Stack:
 
     def is_empty(self) -> bool:
         return len(self._data) == 0
-
 
 class Queue:
     def __init__(self):
@@ -184,7 +176,7 @@ class Queue:
 ## Exercise 5: Heap Operations
 
 **Problem:**
-Implement a min-heap with `insert`, `extract_min`, and `peek` operations.
+Implement a min-heap with `insert``extract_min`and `peek` operations.
 
 **Hint:** Use an array and maintain the heap property by bubbling up and down.
 

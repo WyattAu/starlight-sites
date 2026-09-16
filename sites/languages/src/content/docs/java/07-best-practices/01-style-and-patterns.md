@@ -136,6 +136,7 @@ For declaring names.
 Constitutes a valid identifier. Unicode characters are permitted, but ASCII identifiers are the de
 Facto standard.
 :::
+
 ## Code Organization
 
 ### Package Structure
@@ -179,6 +180,7 @@ apart in the tree.
 :::tip
 Contexts. For small projects or libraries, layer-first packaging remains acceptable.
 :::
+
 ### Class Structure
 
 The conventional ordering of members within a class, as recommended by the Google Java Style Guide:
@@ -290,6 +292,7 @@ Incremental compilation, and configuration avoidance yield measurable performanc
 The Kotlin DSL provides type safety and IDE autocompletion. Use Maven when integrating with legacy
 Enterprise infrastructure that requires it, or when team familiarity makes the trade-off clear.
 :::
+
 ### Dependency Management
 
 #### Dependency Scopes
@@ -485,6 +488,7 @@ Many responsibilities. Restructure the code rather than adding more mocks. Tests
 Extensively tend to be brittle: they break when implementation details change even when the
 Externally observable behavior is correct.
 :::
+
 ## Logging
 
 ### java.util.logging (JUL)
@@ -566,6 +570,7 @@ Unconditionally, wasting CPU cycles and allocating objects that are immediately 
 Adding external dependencies is undesirable. Never use `System.out.println` for logging in
 Production code; it cannot be filtered by log level, redirected to files, or formatted consistently.
 :::
+
 ## Design Patterns
 
 ### Singleton
@@ -605,6 +610,7 @@ That represent business domain concepts, because a global mutable singleton is e
 Global variable that makes testing difficult and introduces hidden coupling between unrelated parts
 Of the codebase.
 :::
+
 ### Factory
 
 The Factory pattern encapsulates object creation behind an interface, decoupling the client from the
@@ -1366,7 +1372,6 @@ Tight.
 
 4. Writing pseudocode that is too language-specific rather than using standard algorithmic
    constructs.
-
 
 ```mermaid
 flowchart TD

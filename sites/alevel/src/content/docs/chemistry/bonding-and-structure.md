@@ -948,7 +948,6 @@ self-marking and building a personal test matrix.
 
 **Chemical bonds are like握手, atoms sharing or transferring electrons to become more stable.**
 
-
 ```mermaid
 flowchart TD
     A[Bonding And Structure] --> B[Key Concepts]
@@ -975,6 +974,7 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 :::
+
 ## Cross-References
 
 - [Chemistry](../chemistry)

@@ -108,6 +108,7 @@ supersymmetric extensions (MSSM) That the additional superpartner contributions 
 functions bring the three couplings to Near-convergence. This convergence is often cited as indirect
 evidence for supersymmetry.
 :::
+
 ### 6.4 Key Relationships
 
 - The beta function encodes how a coupling changes with energy scale.
@@ -152,7 +153,6 @@ The coupling decreases from 0.118 to 0.114, consistent with asymptotic freedom. 
 
 </details>
 
-
 ```mermaid
 flowchart TD
     A[6_Running Coupling Constants] --> B[Key Concepts]
@@ -177,7 +177,6 @@ Coupling constants are not truly constant: they change with energy scale through
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
-
 
 ## Advanced Content
 

@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[01 Astrophysics] --> B[Key Concepts]
@@ -198,6 +197,7 @@ Appear redder.
 - **OCR (A)** includes parallax, standard candles, and black body radiation in the Turning Points
   option.
 :::
+
 ## 2. Stellar Evolution
 
 ### Star Formation
@@ -336,6 +336,7 @@ The Sun compressed into a sphere smaller than a small city.
 - **OCR (A)** covers neutron stars and black holes, including the Schwarzschild radius derivation,
   in the Turning Points option.
 :::
+
 ## 3. Cosmology
 
 ### Olbers' Paradox
@@ -452,6 +453,7 @@ $$1 + z = \frac{a_{\mathrm{now}}}{a_{\mathrm{then}}}$$
 - **Edexcel** includes the Doppler effect for electromagnetic radiation and redshift calculations.
 - **OCR (A)** covers Olbers' paradox and its resolution in the Turning Points option.
 :::
+
 ## 4. Telescopes and Observational Astronomy
 
 ### Refracting Telescopes
@@ -605,6 +607,7 @@ Parabolic dishes.
 - **OCR (A)** covers radio telescopes and the comparison of ground-based and space-based
   observatories.
 :::
+
 ## 5. Problems
 
 **Problem 1.** A star has a parallax angle of $0.05''$. Calculate its distance in parsecs and

@@ -460,6 +460,7 @@ RSASHA256(
 6. Validate algorithm (reject `alg: none`Reject algorithm substitution)
 7. Check token revocation if applicable (blacklist, short expiry)
 :::
+
 :::caution
 From `RS256` to `HS256`. If the server uses the RSA public key as the HMAC secret (which some
 Libraries do by default), the attacker can forge tokens. Always explicitly specify the expected
@@ -807,6 +808,7 @@ And government agencies.
 | InCommon            | Academic/research      | University single sign-on across services |
 | eduGAIN             | Research and education | Cross-border federated access             |
 :::
+
 :::note
 Management), RFC 6749 (OAuth 2.0), RFC 7636 (PKCE), RFC 7519 (JWT), RFC 7515 (JWS), RFC 6238 (TOTP),
 RFC 8446 (TLS 1.3), OWASP Authentication Cheat Sheet, FIDO2 (W3C WebAuthn + CTAP2).
@@ -836,6 +838,7 @@ Authentication answers the question "who are you?" while authorization answers "
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

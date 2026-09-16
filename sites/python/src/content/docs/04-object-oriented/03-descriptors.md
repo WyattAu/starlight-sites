@@ -209,6 +209,7 @@ e.result = "override"  # Replaces the cached value
 del e.result  # Removes from instance dict, next access recomputes
 ```
 :::
+
 ## classmethod and staticmethod
 
 Both are implemented as descriptors.
@@ -296,6 +297,7 @@ class StaticMethod:
 When you need the class (e.g., for alternative constructors). Use a regular method when you need the
 Instance.
 :::
+
 ## \_\_slots\_\_
 
 `__slots__` replaces the instance `__dict__` with a fixed set of attribute descriptors, saving
@@ -357,10 +359,10 @@ Have many instances.
 
 ```python
 class Base:
-    __slots__ = ("x")
+    __slots__ = ("x",)
 
 class Child(Base):
-    __slots__ = ("y")  # Inherits x from Base, adds y
+    __slots__ = ("y",)  # Inherits x from Base, adds y
 
 c = Child()
 c.x = 1
@@ -379,6 +381,7 @@ f.dynamic = "allowed"  # Stored in __dict__
 :::caution
 Work correctly. Always test serialization with your chosen protocol when using `__slots__`.
 :::
+
 ## \_\_getattr\_\_ and \_\_getattribute\_\_
 
 These two methods control attribute access but have very different behaviors:
@@ -430,6 +433,7 @@ print(s.x)        # Works
 for any attribute access within the method. Using `self.name` Will cause infinite recursion because
 it triggers `__getattribute__` again.
 :::
+
 ## \_\_setattr\_\_ and \_\_delattr\_\_
 
 ### **setattr**
@@ -474,6 +478,7 @@ pa.version = "1.0"
 :::caution
 `object.__delattr__(self, name)` within these methods.
 :::
+
 ## \_\_dir\_\_
 
 The `__dir__` method customizes the output of `dir()` and tab-completion in interactive shells:
@@ -535,6 +540,7 @@ print(v1 >= v2)  # False (generated)
 :::caution
 Performance-critical code, implement all six comparison methods explicitly.
 :::
+
 ### functools.singledispatchmethod
 
 `@singledispatchmethod` (Python 3.8+) provides method overloading based on the type of the first
@@ -820,10 +826,10 @@ obj2 = pickle.loads(data)
 
 ```python
 class A:
-    __slots__ = ("x")
+    __slots__ = ("x",)
 
 class B:
-    __slots__ = ("y")
+    __slots__ = ("y",)
 
 # class C(A, B):  # TypeError: multiple bases have instance lay-out conflict
 #     pass
@@ -833,13 +839,13 @@ class Base:
     __slots__ = ()
 
 class A(Base):
-    __slots__ = ("x")
+    __slots__ = ("x",)
 
 class B(Base):
-    __slots__ = ("y")
+    __slots__ = ("y",)
 
 class C(A, B):  # Works, both inherit from Base
-    __slots__ = ("z")
+    __slots__ = ("z",)
 ```
 
 ### 5. Infinite Recursion in **getattribute**

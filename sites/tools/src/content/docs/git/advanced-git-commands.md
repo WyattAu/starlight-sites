@@ -25,7 +25,7 @@ Repository integrity, and multi-tree management.
 
 ## Intuition
 
-**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect`, `git stash`, and `git worktree` solve specific problems that basic Git cannot handle efficiently.
+**Power tools for Git experts:** Advanced Git commands are like power tools in a workshop, you do not need them every day, but when you do, they save hours of manual work. Commands like `git bisect``git stash`and `git worktree` solve specific problems that basic Git cannot handle efficiently.
 
 **Why it matters:** These commands solve real-world problems, `git bisect` finds the exact commit that introduced a bug in minutes instead of hours, `git stash` lets you context-switch without losing work, and `git worktree` lets you work on multiple branches simultaneously.
 
@@ -189,6 +189,7 @@ git filter-branch --all -- --no-replace-objects
 git filter-repo --replace-refs delete-no-add
 ```
 :::
+
 :::caution
 History. If the replacement changes commit hashes, downstream branches may break. Coordinate with
 Your team before pushing replacement refs.
@@ -435,6 +436,7 @@ to O(n log n) by using a balanced BST. Benchmarked on 10M records:
 - BST: 0.3s" HEAD
 ```
 :::
+
 :::caution
 Access to `refs/notes/commits` can modify notes. Do not rely on notes for security-critical
 Metadata.
@@ -607,6 +609,7 @@ $ git describe --exclude '*-rc*' --exclude '*-beta*'
 v2.3.1-5-ga3f2b1c
 ```
 :::
+
 :::note
 `git tag <name>` without `-a` or `-s`) are ignored unless you pass `--tags`. This is a deliberate
 Design choice: annotated tags carry metadata (tagger, date, message) that makes them suitable for
@@ -734,6 +737,7 @@ The `text` attribute controls CRLF/LF conversion:
 *.sh text eol=lf
 ```
 :::
+
 :::note
 (not binary). Using `* text=auto eol=lf` in the root `.gitattributes` is the recommended practice
 For cross-platform projects. It normalizes committed files to LF while letting Windows developers
@@ -905,6 +909,7 @@ $ git check-attr binary -- image.png
 image.png: binary: set
 ```
 :::
+
 :::caution
 Line endings. After adding or modifying `.gitattributes`You must re-normalize existing files:
 
@@ -985,6 +990,7 @@ git config -f .gitmodules submodule.libs/repo.branch main
 git submodule update --remote libs/repo
 ```
 :::
+
 :::note
 Branch name. The tracking branch tells `git submodule update --remote` which branch to fetch From.
 
@@ -1014,6 +1020,7 @@ rm -rf .git/modules/libs/repo
 git commit -m "Remove libs/repo submodule"
 ```
 :::
+
 :::caution
 configuration in `.gitmodules` and `.git/modules/`. This causes errors for anyone cloning the
 Repository. Always follow the full removal procedure.
@@ -1172,6 +1179,7 @@ $ git bundle create build-$CI_BUILD_ID.bundle HEAD
 $ git bundle verify build-1234.bundle
 ```
 :::
+
 :::caution
 And tags, always use `--all`. If you need to include unreachable objects (e.g., dangling commits),
 Use `git bundle create repo.bundle --all --reflog`.
@@ -1355,6 +1363,7 @@ $ make -C ../build-v2.4 release
 | `core.bare` must be unset for main worktree         | Bare repos can only have linked worktrees, not a main worktree  |
 | `git init` and `git clone` create the main worktree | You cannot convert a standalone repo into a linked worktree     |
 :::
+
 :::caution
 `git worktree remove`Git leaves stale administrative files. Run `git worktree prune` to clean them
 Up. The branch that was checked out in the deleted worktree may remain locked until you prune.
@@ -1491,6 +1500,7 @@ $ git reflog expire --expire=now --all
 $ git reflog expire --expire=2026-01-01 --all
 ```
 :::
+
 :::caution
 Collection from reclaiming objects referenced only by the reflog. Over time, this can significantly
 Increase repository size. For large repositories, consider a reasonable expiry period (e.g., 365
@@ -1641,6 +1651,7 @@ $ git fsck --full 2>&1 | grep "corrupt\|missing" | while read _ _ hash; do
 $ git update-ref -d refs/heads/broken-branch
 ```
 :::
+
 :::caution
 Methodically: identify, back up, then repair. If the `.git` directory itself is corrupted (e.g.,
 From disk failure), restore from backup before attempting Git-level repairs.
@@ -1767,6 +1778,7 @@ $ cp -r .git/rr-cache/ /path/to/other-clone/.git/rr-cache/
 | `rerere.autoupdate` | `false` | Automatically stage the recorded resolution |
 | `rerere.autogc`     | `true`  | Run `git gc` on rr-cache when it gets large |
 :::
+
 :::note
 Conflict context changes even slightly, `rerere` will not match and you will need to resolve
 Manually. The resolution is then recorded for future use.
@@ -1954,6 +1966,7 @@ $ git am --continue
 $ git am --abort
 ```
 :::
+
 :::caution
 Information (not author) will be different. If you need to preserve exact commit hashes, use
 `git cherry-pick` or `git merge` instead.
@@ -1995,9 +2008,11 @@ $ git config sendemail.sendmailcmd /usr/sbin/sendmail
 $ git config sendemail.from "Your Name <your-email@example.com>"
 ```
 :::
+
 :::note
 Security settings. Other providers may have similar requirements.
 :::
+
 ### Basic Usage
 
 ```bash
@@ -2141,6 +2156,7 @@ $ git diff main -- src/file.c   # Diff between branch "main" and file "src/file.
 $ git diff -- main src/file.c   # Diff between two commits/files (ambiguous without context)
 ```
 :::
+
 :::caution
 `git restore` for files. These modern commands eliminate the ambiguity that `git checkout` suffers
 From.
@@ -2188,6 +2204,7 @@ $ git add libs/json
 $ git commit -m "Update json submodule to latest"
 ```
 :::
+
 :::caution
 Explicitly run `git submodule update --init --recursive` after pulling. Configure
 `submodule.recurse` to automate this:
@@ -2257,6 +2274,7 @@ $ git push --force-with-lease origin feature
 | `git push --force-with-lease`  | Only overwrites if the remote ref matches your tracking branch                        |
 | `git push --force-if-includes` | Like force-with-lease, but also checks that your local branch includes the remote tip |
 :::
+
 :::caution
 Your local history. Any collaborator who has based work on those commits will encounter conflicts.
 Always prefer `--force-with-lease` unless you are certain you are the only person working on the
@@ -2319,7 +2337,6 @@ $ git commit
 The `binary` merge driver marks the file as unmergeable, and Git will keep whichever version Was
 last modified (based on the merge strategy). This avoids generating conflict markers in binary
 Files.
-
 
 ```mermaid
 flowchart TD

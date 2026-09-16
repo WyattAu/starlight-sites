@@ -214,6 +214,7 @@ $\blacksquare$
 common mistake is to use a Discharged assumption in a later step. Each discharged assumption is only
 valid within the scope Indicated by the rule that discharges it.
 :::
+
 ### 1.6 CNF and DNF
 
 A **literal** is a propositional variable or its negation. A **clause** is a disjunction of
@@ -274,6 +275,7 @@ This is in CNF.
 formula with $n$ terms can Produce up to $2^n$ clauses when converted to CNF. This exponential
 growth underlies the hardness Of many satisfiability problems.
 :::
+
 ### 1.7 Resolution
 
 The **resolution rule** is a single inference rule that is refutation-complete for propositional

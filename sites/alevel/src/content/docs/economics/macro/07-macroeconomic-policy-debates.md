@@ -1,7 +1,7 @@
 ---
 
 title: "Macroeconomic Policy Debates"
-description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight: , and there is no automatic Mechanism ensuring"
+description: "Keynes (1936, _General Theory_) challenged the classical view that markets always clear. His central Insight:, and there is no automatic Mechanism ensuring"
 date: 2025-06-02T16:25:28.480Z
 tags:
   - Economics
@@ -79,6 +79,7 @@ $$\pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y$$
 Them to contrast Keynesian and monetarist perspectives. Edexcel requires students to discuss the
 "battle of the economists" in the context of policy debates.
 :::
+
 ### 1.4 Evaluation: The Keynesian-Monetarist Debate in Practice
 
 In practice, modern macroeconomic policy represents a **synthesis** of both views. The post-2008
@@ -217,6 +218,7 @@ objectives. OCR (Paper 3) may ask students to compare different monetary policy 
 (9708) Paper 4 Expects students to evaluate the relative merits of rules vs discretion with
 reference to specific Country examples.
 :::
+
 ## 3. The Lucas Critique
 
 ### 3.1 Statement
@@ -460,6 +462,7 @@ Employment) and that the only constraint is inflation. It does not claim that un
 Harmless. However, the practical difficulty of knowing when inflation will emerge makes MMT's policy
 Prescriptions risky.
 :::
+
 ### 5.3 Exam Technique: Evaluating Policy Frameworks
 
 When evaluating any macroeconomic policy framework (inflation targeting, MMT, fiscal rules), use the
@@ -535,6 +538,7 @@ Trade-offs. OCR may ask about the role of the Treasury and `` `{BoE}` `` in coor
 Paper 4 frequently asks students to assess whether government intervention can achieve multiple
 Macroeconomic objectives simultaneously.
 :::
+
 ## 7. Nominal GDP Targeting: An Alternative Framework
 
 ### 7.1 Concept
@@ -1405,7 +1409,6 @@ inflation target, triggering a gilt market crisis and forcing a policy reversal.
 
 4. Neglecting to consider the ceteris paribus assumption when analysing multi-variable economic
    scenarios.
-
 
 ```mermaid
 flowchart TD

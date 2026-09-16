@@ -65,6 +65,7 @@ BaseException
 `Exception`. This means `except Exception:` does not catch them, which is Correct, since you
 generally do not want to catch system-level signals.
 :::
+
 ### Catching by Hierarchy
 
 ```python
@@ -159,6 +160,7 @@ print(repr(e))  # ServerError("db.example.com', 5432, 'connection refused')
 `self.args` and used by the default `__str__` implementation. Omitting this breaks exception
 Chaining and logging.
 :::
+
 ## EAFP vs LBYL
 
 ### EAFP: Easier to Ask Forgiveness than Permission
@@ -228,6 +230,7 @@ except FileNotFoundError:
 
 ```
 :::
+
 ## try/except Patterns
 
 ### Bare except Anti-Pattern
@@ -311,6 +314,7 @@ def process_file(path):
 That must happen regardless. Avoid putting logic in `finally` that might raise exceptions, as it
 Masks the original exception.
 :::
+
 ## Exception Handling in Generators
 
 ### Generator close() and throw()
@@ -494,6 +498,7 @@ asyncio.run(main())
 :::note
 Propagates state through `asyncio.TaskGroup` and `Task` creation.
 :::
+
 ## Assertions
 
 ### assert Statement
@@ -526,6 +531,7 @@ if not user.is_authenticated:
     raise PermissionError("User must be authenticated")
 ```
 :::
+
 ### pytest and Assertions
 
 ```python
@@ -695,7 +701,7 @@ class AuthenticationError(UnrecoverableError):
 import time
 import random
 
-def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableError)):
+def retry(func, max_retries=3, base_delay=1.0, retryable_exceptions=(RetryableError,)):
     last_exception = None
     for attempt in range(max_retries):
         try:
@@ -845,7 +851,6 @@ finally:
     except Exception as e:
         logger.error("Cleanup failed: %s", e)
 ```
-
 
 ```mermaid
 flowchart TD

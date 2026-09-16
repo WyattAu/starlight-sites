@@ -25,6 +25,7 @@ Transformations, and an introduction to eigenvalues and eigenvectors.
 :::note
 Transformations, and many applications in science and engineering.
 :::
+
 <hr />
 
 ## 1. Matrix Operations
@@ -49,7 +50,7 @@ Matrix multiplication is:
 
 - **Associative:** $(AB)C = A(BC)$.
 - **Distributive over addition:** $A(B + C) = AB + AC$.
-- **NOT commutative:** , $AB \neq BA$.
+- **NOT commutative:**, $AB \neq BA$.
 
 **Proof that matrix multiplication is not commutative.** Consider:
 
@@ -304,6 +305,7 @@ Since $D^n$ is the diagonal matrix with each eigenvalue raised to the power $n$.
 Has a full set of linearly independent eigenvectors. A matrix with repeated eigenvalues may or may
 Not be diagonalisable.
 :::
+
 <hr />
 
 ## 6. Practice Problems
@@ -1173,7 +1175,6 @@ $= \dfrac{1}{3}\begin{pmatrix}3125&32\\3125&-64\end{pmatrix}\begin{pmatrix}2&1\\
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

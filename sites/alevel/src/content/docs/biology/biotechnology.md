@@ -384,6 +384,7 @@ Concentration $= \frac{0.40}{1.0} \times 50 = 20\ \mu\mathrm{g\ mL^{-1}}$.
 DNA, RNA, protein) may help. Students also frequently forget that PCR does not require living
 organisms or bacterial cells -- it is an entirely in vitro technique.
 :::
+
 ## Practice Problems
 
 <details>
@@ -850,6 +851,7 @@ selectively stimulate the growth and activity of beneficial gut bacteria.
 should not be taken simultaneously with antibiotics (the antibiotic would kill the probiotic
 bacteria).
 :::
+
 ## 17. Genetically Modified Organisms: Case Studies
 
 ### 17.1 Bt Cotton
@@ -1143,6 +1145,7 @@ degradation may produce toxic intermediates; may be slower than physical removal
 }
 </script>
 :::
+
 :::tip
 ## 25. Ethical Frameworks for Biotechnology Decisions
 
@@ -1208,6 +1211,7 @@ When evaluating a biotechnology application, consider:
 }
 </script>
 :::
+
 :::tip
 ## 22. CRISPR-Cas9: Mechanism and Applications in Detail
 
@@ -2336,7 +2340,6 @@ vitamin A) in the endosperm of the rice grain. It was developed to address vitam
 ## Intuition
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
-
 
 ```mermaid
 flowchart TD

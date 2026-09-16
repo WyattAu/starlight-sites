@@ -944,6 +944,7 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Cooling](../05-cooling-systems/cooling) - How GPU thermal design and cooling solutions affect boost clock behavior

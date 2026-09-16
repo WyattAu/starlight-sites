@@ -1,7 +1,7 @@
 ---
 
 title: "Chemical Kinetics"
-description: "For the reaction , the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "For the reaction, the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 date: 2026-05-31T00:00:00.000Z
 tags:
   - Chemistry
@@ -13,7 +13,6 @@ sources:
   - text: "Atkins, P., & de Paula, J. (2014). Atkins' Physical Chemistry (10th ed.). Oxford University Press."
   - text: "Chang, R., & Goldsby, K. A. (2016). Chemistry (12th ed.). McGraw-Hill."
 import Citations from '@components/Citations.astro'
-
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -454,7 +453,6 @@ intermediates. Can measure rate constants up to $\sim 10^{12}$ s$^{-1}$.
    $E_a = \Delta^{\ddagger} H^\circ + RT$. **Fix:** For reactions in solution,
    $E_a \approx \Delta^{\ddagger} H^\circ$, but in the gas phase the $RT$ term matters at high
    temperatures.
-
 
 ```mermaid
 flowchart TD

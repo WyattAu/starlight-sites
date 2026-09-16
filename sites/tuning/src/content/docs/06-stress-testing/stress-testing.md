@@ -145,6 +145,7 @@ sudo apt install intel-mkl
 30–50%. This can push VRMs and PSU beyond their rated capacity. Only use Linpack for brief thermal
 Profiling (5–10 minutes), not for extended stability testing.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -327,6 +328,7 @@ sudo badblocks -sv /dev/sdX
 :::caution
 Unpartitioned drives or drives whose data you have backed up.
 :::
+
 ### CrystalDiskMark
 
 CrystalDiskMark (Windows) provides an easy GUI for sequential and random I/O testing:
@@ -980,7 +982,6 @@ When adding used hardware (CPU, RAM, GPU) to an existing system, run a focused b
 - **Used RAM:** MemTest86 for 8 passes + TestMem5 for 2 hours.
 - **Used GPU:** FurMark for 30 minutes + CUDA memtest for 1 hour.
 - **Used SSD/HDD:** SMART long test + badblocks non-destructive read test.
-
 
 ```mermaid
 flowchart TD

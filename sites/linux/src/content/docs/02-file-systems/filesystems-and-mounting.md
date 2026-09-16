@@ -428,6 +428,7 @@ btrfs scrub start /mnt/btrfs
 btrfs scrub status /mnt/btrfs
 ```
 :::
+
 :::caution
 Btrfs documentation recommends against using RAID 5/6 in production. Use RAID 1 or RAID 10 instead.
 
@@ -460,7 +461,7 @@ sequenceDiagram
     participant Daemon as FUSE Daemon (User Space)
     participant Storage as Backing Storage
 
-    App->>VFS: read("/mnt/fuse/file.txt"...)
+    App->>VFS: read("/mnt/fuse/file.txt", ...)
     VFS->>Kernel: fuse_read()
     Kernel->>Daemon: FUSE_READ request
     Daemon->>Storage: Actual I/O

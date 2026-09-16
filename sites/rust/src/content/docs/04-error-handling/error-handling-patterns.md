@@ -741,9 +741,9 @@ impl ErrorKind {
     fn is_retryable(&self) -> bool {
         match self {
             ErrorKind::Client { .. } => false,
-            ErrorKind::Server { retry_after: Some(_).. } => true,
-            ErrorKind::Server { code.. } => *code >= 500,
-            ErrorKind::Network { retryable.. } => *retryable,
+            ErrorKind::Server { retry_after: Some(_), .. } => true,
+            ErrorKind::Server { code, .. } => *code >= 500,
+            ErrorKind::Network { retryable, .. } => *retryable,
             ErrorKind::Validation { .. } => false,
             ErrorKind::Internal { .. } => false,
         }
@@ -751,10 +751,10 @@ impl ErrorKind {
 
     fn user_message(&self) -> String {
         match self {
-            ErrorKind::Client { message.. } => message.clone(),
-            ErrorKind::Server { message.. } => message.clone(),
+            ErrorKind::Client { message, .. } => message.clone(),
+            ErrorKind::Server { message, .. } => message.clone(),
             ErrorKind::Network { .. } => "network error".to_string(),
-            ErrorKind::Validation { message.. } => message.clone(),
+            ErrorKind::Validation { message, .. } => message.clone(),
             ErrorKind::Internal { .. } => "internal error".to_string(),
         }
     }
@@ -792,8 +792,8 @@ impl AppError {
 
     fn http_status(&self) -> u16 {
         match &self.kind {
-            ErrorKind::Client { code.. } => *code,
-            ErrorKind::Server { code.. } => *code,
+            ErrorKind::Client { code, .. } => *code,
+            ErrorKind::Server { code, .. } => *code,
             ErrorKind::Network { .. } => 502,
             ErrorKind::Validation { .. } => 400,
             ErrorKind::Internal { .. } => 500,

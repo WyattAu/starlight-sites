@@ -1,7 +1,7 @@
 ---
 
 title: CMake Targets Properties and Generator Expressions
-description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g., ). This approach prevents modularity and leaks"
+description: "Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.). This approach prevents modularity and leaks"
 date: 2025-12-10T05:41:36.284Z
 tags:
   - cpp
@@ -40,7 +40,7 @@ add_executable(App main.cpp)
 ## 2. Static Library: Compiles into .a (Linux) or .lib (Windows)
 add_library(MathStatic STATIC math.cpp)
 
-# 3. Shared Library: Compiles into .so (Linux).dylib (macOS), or .dll (Windows)
+# 3. Shared Library: Compiles into .so (Linux), .dylib (macOS), or .dll (Windows)
 add_library(MathShared SHARED math.cpp)
 
 # 4. Interface Library: A collection of properties/headers (No source files)
@@ -629,7 +629,6 @@ target_include_directories(Engine PUBLIC include)
 ```
 
 The `target_*` commands handle transitive propagation correctly; `set_target_properties` does not.
-
 
 ```mermaid
 flowchart TD

@@ -188,6 +188,7 @@ T1: UPDATE accounts SET balance = balance - 100 WHERE id = 1;
 -- PostgreSQL detects the conflict and aborts T1
 ```
 :::
+
 :::caution
 Another committed transaction will fail with a serialization error. Your application must catch this
 Error and retry the transaction. This is by design -- it is the price of snapshot isolation.
@@ -293,6 +294,7 @@ SELECT pg_advisory_try_lock(12345);  -- returns TRUE if acquired, FALSE if not
 SELECT pg_advisory_unlock(12345);    -- releases the lock
 ```
 :::
+
 :::tip
 Workers can safely `SELECT ... FOR UPDATE SKIP LOCKED` from the same table without deadlocking. Each
 Worker gets a different row, and rows that are already being processed are skipped.
@@ -466,6 +468,7 @@ COMMIT;
 -- The employee insert is committed, the wrong department update is rolled back
 ```
 :::
+
 :::caution
 Tight loops (e.g., one savepoint per row in a batch). Instead, batch your operations and use a
 Single savepoint for the entire batch.
@@ -537,6 +540,7 @@ Systems prefer:
 3. **Outbox pattern:** write business data and outgoing events to the same local transaction; a
    background process publishes the events
 :::
+
 :::tip
 Network round-trips, coordinator overhead, blocking on failure) and operational complexity (recovery
 Procedures, heuristic outcomes) make it a last resort. Prefer sagas for most distributed workflows.
@@ -847,6 +851,7 @@ SELECT * FROM documents;  -- Only sees tenant 42's documents
 COMMIT;
 ```
 :::
+
 :::caution
 Generated, so the planner does not know the effective row count. This can lead to suboptimal plans.
 Use `SET LOCAL` within a transaction to scope the security context correctly.

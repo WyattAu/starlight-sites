@@ -79,6 +79,7 @@ Equality. `int``double`And `std::string` are all `std::regular`. `std::unique_pt
 but not `std::regular` (not copyable). `std::mutex` is neither `std::movable` nor `std::copyable`.
 These concepts are the vocabulary types of generic programming.
 :::
+
 ## Understanding `std::derived_from` vs `std::is_base_of`
 
 `std::derived_from<D, B>` is stricter than `std::is_base_of_v<B, D>`:
@@ -386,6 +387,7 @@ Prefer `std::ranges::range` over manually checking `begin()`/`end()`. Prefer
 `std::ranges::range_value_t<R>` over `typename R::value_type` (it works with proxy iterators). Range
 Concepts are defined in `<ranges>` [N4950 §26.2] and compose with the concepts in `<concepts>`.
 :::
+
 ## Range Concepts
 
 The `<ranges>` header provides concepts that operate on ranges (pairs of iterators and sentinels)
@@ -465,7 +467,7 @@ int main() {
 
 ## Intuition
 
-**Standard concepts are like a vocabulary of requirements:** Instead of inventing your own constraints, you use a standard vocabulary that other C++ programmers understand. `std::integral` means "any integer type," `std::floating_point` means "any floating-point type," `std::copyable` means "can be copied safely." It's like a shared language, when you write `template<std::integral T>`, every C++ programmer knows exactly what that means.
+**Standard concepts are like a vocabulary of requirements:** Instead of inventing your own constraints, you use a standard vocabulary that other C++ programmers understand. `std::integral` means "any integer type," `std::floating_point` means "any floating-point type," `std::copyable` means "can be copied safely." It's like a shared language, when you write `template<std::integral T>`every C++ programmer knows exactly what that means.
 
 **Why it matters:** Standard concepts provide a common vocabulary for constraining templates. Instead of writing custom SFINAE or `enable_if` for common patterns, you use the standard concepts. This makes your code more readable, more maintainable, and more likely to interoperate with other libraries. The standard concepts are also optimized for compiler error messages, they give clear, concise error messages when constraints are not satisfied.
 
@@ -563,7 +565,6 @@ void process(T val) {
 
 The fix is to place the more specific overload first, since `std::signed_integral<T>` subsumes
 `std::integral<T>` (every signed integral is an integral, but not vice versa).
-
 
 ```mermaid
 flowchart TD

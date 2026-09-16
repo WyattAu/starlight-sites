@@ -35,6 +35,7 @@ description: "Study notes for Chemistry - Acids, Bases, and Electrochemistry wit
 :::note
 The proton donor and proton acceptor in acid-base reactions.
 :::
+
 ### Conjugate Acid-Base Pairs
 
 When an acid donates a proton, the remaining species is its conjugate base. When a base accepts a
@@ -58,6 +59,7 @@ $$\mathrm{HA} + \mathrm{B} \rightleftharpoons \mathrm{A}^- + \mathrm{BH}^+$$
 :::caution
 dilute solution of a Strong acid can have a higher pH than a concentrated solution of a weak acid.
 :::
+
 ### Common Strong Acids and Bases
 
 **Strong acids:** $\mathrm{HCl}$$\mathrm{HBr}$$\mathrm{HI}$$\mathrm{HNO}_3$
@@ -140,6 +142,7 @@ $$\mathrm{pH} = -\log_{10}(1.34 \times 10^{-3}) = 2.87$$
 the degree Of ionisation is small ( when $K_a \lt 10^{-4}$). This simplification is valid for most
 DSE-level problems.
 :::
+
 ### Worked Example: pH After Dilution
 
 A solution of $\mathrm{HCl}$ has $\mathrm{pH} = 2.00$. If $10.0 \mathrm{ cm^3}$ of this solution is
@@ -451,6 +454,7 @@ Halides ($\mathrm{Cl}^-$$\mathrm{Br}^-$$\mathrm{I}^-$): The halogen is discharge
 :::caution
 $\mathrm{OH}^-$ may be Preferentially discharged.
 :::
+
 ### Worked Example 9
 
 Describe the electrolysis of concentrated aqueous $\mathrm{NaCl}$ using carbon electrodes.
@@ -624,7 +628,6 @@ The electrochemical series ranks half-reactions by their standard electrode pote
 **Why it matters:** From stomach acid to blood buffers, acid-base chemistry keeps biological systems alive. Understanding pH helps design medicines, treat water, and control industrial processes.
 
 **The key insight:** Buffers resist pH change by absorbing or releasing protons, they're the body's way of maintaining equilibrium despite constant disturbances.
-
 
 ```mermaid
 flowchart TD

@@ -345,6 +345,7 @@ Flutter provides `compute()` for running functions in isolates:
 final result = await compute(expensiveFunction, inputData);
 ```
 :::
+
 :::caution
 Between isolates. For large data transfers, use `Isolate.exit()` (Dart 2.19+) to transfer ownership
 Instead of copying.

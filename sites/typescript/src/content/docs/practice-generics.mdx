@@ -6,7 +6,6 @@ description: "Generics let you write code that works with any type: Instead of w
 sidebar_position: 50
 ---
 
-
 ## Generics Practice
 
 ## Exercise 1: Generic Types
@@ -165,7 +164,7 @@ class TypedEmitter<Events extends EventMap> \{
     this.listeners[event]!.push(listener);
   \}
 
-  emit<K extends keyof Events>(event: K...args: Events[K]): void \{
+  emit<K extends keyof Events>(event: K, ...args: Events[K]): void \{
     this.listeners[event]?.forEach((fn) => fn(...args));
   \}
 

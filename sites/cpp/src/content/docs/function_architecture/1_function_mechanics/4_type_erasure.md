@@ -188,6 +188,7 @@ int main() {
 16 bytes. Libc++ (Clang) uses 24 bytes (on 64-bit). If avoiding heap allocation is critical, prefer
 Passing lambdas as template parameters or using auto.
 :::
+
 ### SBO Threshold Across Implementations
 
 | Implementation  | SBO Size | Notes                               |
@@ -280,6 +281,7 @@ int main() {
 Owns exclusive resources (file handles, network connections, GPU buffers). It enables zero-overhead
 Move semantics where `std::function` would force a costly shared_ptr wrapping.
 :::
+
 ### `std::move_only_function` with `noexcept` Qualification
 
 `std::move_only_function` supports specifying `noexcept` on the callable signature:
@@ -529,8 +531,8 @@ public:
 
     Task(Task&& other) noexcept
         : invoke_(other.invoke_)
-move_(other.move_)
-destroy_(other.destroy_)
+        , move_(other.move_)
+        , destroy_(other.destroy_)
     {
         if (move_) {
             move_(buffer_, other.buffer_);
@@ -624,7 +626,7 @@ public:
         requires std::is_invocable_r_v<R, F&, Args...>
     FunctionRef(F& f) noexcept
         : obj_(reinterpret_cast<void*>(std::addressof(f)))
-invoke_([](void* obj, Args... args) -> R {
+        , invoke_([](void* obj, Args... args) -> R {
             return (*reinterpret_cast<F*>(obj))(std::forward<Args>(args)...);
           })
     {}
@@ -720,7 +722,6 @@ Or pass lambdas as template parameters.
 Standard containers require copyable elements (unless you use move-only containers or
 `std::vector<std::unique_ptr<std::move_only_function<...>>>`). Plan your data structures accordingly
 When using move-only callables.
-
 
 ```mermaid
 flowchart TD

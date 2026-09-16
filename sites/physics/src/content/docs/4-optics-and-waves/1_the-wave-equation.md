@@ -5,7 +5,7 @@ title: "The Wave Equation"
 tags:
   - Physics
   - University
-description: "In vacuum, with no sources (, ), Maxwell' s equations give: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "In vacuum, with no sources ( ), Maxwell' s equations give: Comprehensive educational content coverage with definitions, worked examples, and practice problems."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -288,7 +288,6 @@ packet envelope and equals The energy transport velocity in lossless media. Howe
 equal to the signal velocity In regions of weak, normal dispersion. Near absorption resonances,
 $v_g$ can exceed $c$ or become Negative, this does not violate causality, since the true signal
 velocity (front velocity) never Exceeds $c$.
-
 
 ```mermaid
 flowchart TD

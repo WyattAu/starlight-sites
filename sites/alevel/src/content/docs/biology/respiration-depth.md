@@ -144,6 +144,7 @@ phosphorylation.
 specify the net yield. Also, glycolysis produces 2 molecules of pyruvate, 2 NADH, and 2
 $\mathrm{H_2O}$ (not just ATP).
 :::
+
 ## 3. The Link Reaction
 
 ### 3.1 Mechanism
@@ -252,6 +253,7 @@ large quantities of NADH and $\mathrm{FADH_2}$ that feed into oxidative phosphor
 majority of ATP from aerobic respiration comes from oxidative phosphorylation, not from the Krebs
 cycle.
 :::
+
 ## 5. Oxidative Phosphorylation
 
 ### 5.1 Overview
@@ -362,6 +364,7 @@ specifically as the final electron acceptor in the electron transport chain. The
 synthesised by ATP synthase, driven by the proton gradient. Oxygen"s role is to keep the electron
 transport chain flowing so that the proton gradient is maintained.
 :::
+
 ## 6. Anaerobic Respiration
 
 ### 6.1 Anaerobic Respiration in Animals (Lactate Fermentation)
@@ -530,6 +533,7 @@ Rate of $\mathrm{O_2}$ consumption $= \frac{0.022}{10} = 0.0022\ \mathrm{cm^3\ m
 expansion or contraction, which can be mistaken for respiration. All respirometer measurements must
 be conducted in a temperature-controlled water bath with an appropriate control.
 :::
+
 ## Practice Problems
 
 <details>
@@ -877,6 +881,7 @@ oxidise the lactate that accumulated due to anaerobic respiration. The volume of
 consumed during exercise (from aerobic respiration) is not part of the oxygen debt -- it has already
 been "paid."
 :::
+
 ## 14. Mitochondrial Structure and Adaptations
 
 ### 14.1 Mitochondrial Anatomy
@@ -1055,6 +1060,7 @@ subsequently yields approximately 5 ATP via oxidative phosphorylation. Similarly
 produces no ATP directly -- it produces 2 GTP (which are equivalent to ATP) and 6 NADH + 2
 $\mathrm{FADH_2}$.
 :::
+
 ## 22. Exercise Physiology: Respiration in Practice
 
 ### 22.1 The Oxygen Debt Revisited
@@ -1200,6 +1206,7 @@ However, over geological time scales, imbalances have occurred:
 }
 </script>
 :::
+
 :::tip
 ## 18. The Krebs Cycle: Detailed Mechanism
 
@@ -1495,12 +1502,14 @@ post-exercise oxygen consumption, EPOC**).
 | Oligomycin                | ATP synthase (Complex V)          | Blocks the proton channel in ATP synthase, preventing ATP synthesis                                                                                                                           | Antibiotic                                                                             |
 | DNP (2,4-dinitrophenol)   | Uncouples ETC from ATP synthesis  | Carries protons across the inner mitochondrial membrane, dissipating the proton gradient as heat. ETC continues (even faster than normal) but no ATP is produced. Energy is released as heat. | Historically used as a weight-loss drug (dangerous: hyperthermia, death)               |
 :::
+
 :::caution
 inhibitor (e.g., cyanide) stops the ETC entirely, so no ATP is produced and $\mathrm{O_2}$
 consumption drops. An uncoupler (e.g., DNP) allows the ETC to continue (so $\mathrm{O_2}$
 consumption increases) but prevents ATP synthesis. The difference is that inhibitors block electron
 flow, while uncouplers dissipate the proton gradient.
 :::
+
 ### 23.2 Effect of Cyanide on Respiration: A Worked Example
 
 If cyanide is added to a suspension of mitochondria respiring on pyruvate:
@@ -1829,6 +1838,7 @@ The Cori cycle describes the recycling of lactate between muscles and the liver:
 making glucose than the muscles gain from breaking it down. The benefit is that it prevents
 dangerous lactate accumulation in the blood and recycles carbon skeletons.
 :::
+
 ## 31. Respiratory Quotient (RQ)
 
 ### 31.1 Definition and Calculation
@@ -2212,6 +2222,7 @@ is transported to the liver, converted back to glucose, and returned to the musc
 }
 </script>
 :::
+
 :::tip
 ## Common Pitfalls
 
@@ -2258,7 +2269,6 @@ $$\text{Rate} = \frac{0.01884}{15} = 0.00126\ \mathrm{cm^3\ min^{-1}}$$
 
 $\blacksquare$
 
-
 ```mermaid
 flowchart TD
     A[Respiration Depth] --> B[Key Concepts]
@@ -2281,6 +2291,7 @@ flowchart TD
   carbohydrates $\approx 1.0$, lipids $\approx 0.7$, proteins $\approx 0.8$.
 - PFK is the key regulatory enzyme of glycolysis, inhibited by ATP and citrate, activated by AMP.
 :::
+
 ## Cross-References
 
 - [Biology](../biology)

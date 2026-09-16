@@ -46,7 +46,7 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 - If no match is found, the member object is ignored entirely.
 
 :::danger
-<strong>The Archive Order Trap Because static libraries are searched only to resolve _currently</strong>
+The Archive Order Trap Because static libraries are searched only to resolve _currently
 
 Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` must appear **before**
 `LibB` in the linker command.
@@ -54,6 +54,7 @@ Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` mus
 - Correct: `clang++ main.o -lA -lB`
 - Incorrect: `clang++ main.o -lB -lA` (Linker fails: Symbols in A are undefined).
 :::
+
 ### Weak vs. Strong vs. Common Symbols
 
 The linker classifies symbols into three categories that determine how duplicates are handled:
@@ -297,11 +298,12 @@ endif()
 ```
 
 :::caution
-<strong>ICF can break programs that compare function pointers for identity. If `f()` and `g()`</strong>
+ICF can break programs that compare function pointers for identity. If `f()` and `g()`
 
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
 This is rare but possible. Use `-Wl,--icf=safe` to fold only functions with identical relocations.
 :::
+
 ## 4. Static vs. Shared Libraries
 
 ### Static Libraries (`.a` / `.lib`)
@@ -742,7 +744,7 @@ Symbol is provided by the original library and can be called from within the wra
 Does not require modifying the original source code.
 
 :::caution
-<strong>`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by</strong>
+`--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by
 
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
 Or compile the wrapped TU separately without LTO.
@@ -753,7 +755,6 @@ Or compile the wrapped TU separately without LTO.
 - [Binary Formats](4_binary_formats)
 - [Symbol Visibility](2_symbol_visibility)
 - [Preprocessing and the AST](1_preprocessing_ast_object)
-
 
 ```mermaid
 flowchart TD

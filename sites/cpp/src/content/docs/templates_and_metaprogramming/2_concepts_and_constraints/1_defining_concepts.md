@@ -158,6 +158,7 @@ Not. Concepts are also required to be `true` for all substitutions --- a concept
 Some argument is well-formed, whereas a `static_assert(false)` in the concept body would be
 Ill-formed.
 :::
+
 ## Requires-Expressions
 
 A **requires-expression** is the primary building block for expressing constraints on types [N4950
@@ -366,6 +367,7 @@ They are incomparable. This means `!C` cannot be used to establish a partial ord
 Overloads, which limits its usefulness in overload resolution. Prefer using a positive constraint on
 An alternative overload instead of negating a constraint.
 :::
+
 ## Standard Library Concepts Overview
 
 The C++20 standard library provides a comprehensive set of concepts in the `<concepts>` header
@@ -747,7 +749,7 @@ void print(auto&& value) {
 }
 
 void print_all(const auto&... args) {
-    (print(args)...);
+    (print(args), ...);
 }
 
 int main() {

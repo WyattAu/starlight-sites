@@ -89,10 +89,10 @@ systemctl enable --now crond
 ```bash
 # Step values
 */15 * * * *      # every 15 minutes
-1-31/2 * * * *    # every other day of the month (1,3,5...,31)
+1-31/2 * * * *    # every other day of the month (1,3,5,...,31)
 
 # Range with step
-0 6-18/2 * * *   # every 2 hours from 6 AM to 6 PM (6,8,10...,18)
+0 6-18/2 * * *   # every 2 hours from 6 AM to 6 PM (6,8,10,...,18)
 
 # Day of week with day of month (both must match)
 0 0 15 * 1       # 15th of the month AND Monday (not common)
@@ -664,7 +664,7 @@ MAILTO=""
 /etc/cron.d/maintenance.cron
 /etc/cron.d/job~
 
-# CORRECT, no dots in filename (except .dpkg-old.dpkg-dist, etc.)
+# CORRECT, no dots in filename (except .dpkg-old, .dpkg-dist, etc.)
 /etc/cron.d/mybackup
 /etc/cron.d/maintenance
 ```
@@ -938,7 +938,6 @@ done
 # OnCalendar=*-*-* *:*:00/5
 # AccuracySec=1s
 ```
-
 
 ```mermaid
 flowchart TD

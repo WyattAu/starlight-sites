@@ -304,6 +304,7 @@ $f = \bar{A}\bar{B} + \bar{B}C + AB$
   adder circuits
 - **Edexcel** covers truth tables, logic gates, and Boolean algebra
 :::
+
 <hr />
 
 ## 4. Logic Gate Diagrams
@@ -323,6 +324,7 @@ Standard symbols:
 3. Work rightward, one gate at a time
 4. Label all intermediate and output signals
 :::
+
 <hr />
 
 ## 5. Adder Circuits
@@ -455,6 +457,7 @@ D-type flip-flops are the fundamental building blocks of:
 :::tip
 Larger group, and 0 otherwise. This minimises the expression.
 :::
+
 <hr />
 
 ## Problem Set
@@ -822,7 +825,6 @@ Covered. ✓
 
 4. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way
    around.
-
 
 ```mermaid
 flowchart TD

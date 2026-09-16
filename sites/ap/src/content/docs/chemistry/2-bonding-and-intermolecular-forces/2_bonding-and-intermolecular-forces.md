@@ -119,8 +119,7 @@ The best Lewis structure minimises formal charges and places negative formal cha
 Electronegative atoms. If formal charges must be non-zero, adjacent atoms should not carry the same
 Sign charge.
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Draw the Lewis structure for $\mathrm{SO_4^{2-}$ with formal charges.
 
 Total valence electrons: $6 + 4(6) + 2 = 32$.
@@ -159,8 +158,8 @@ Bond on a different oxygen.
 When multiple Lewis structures (resonance structures) are possible, the actual molecule is a hybrid
 Of all resonance forms. The actual bond order is the average.
 :::
-:::note
-<strong>Example: Ozone</strong>
+
+:::note[Example: Ozone]
 $\mathrm{O_3$ has two equivalent resonance structures:
 
 $$
@@ -295,16 +294,16 @@ Like boiling point, melting point, and solubility.
 - **Hydrogen bonding** is responsible for anomalously high boiling points of water, ammonia, and
   hydrogen fluoride compared to other hydrides in their groups.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Explain the boiling point trend: $\mathrm{CH_4$ ($-161^\circ\mathrm{C$) $\lt$ $\mathrm{SiH_4$
 ($-112^\circ\mathrm{C$) $\lt$ $\mathrm{GeH_4$ ($-88^\circ\mathrm{C$).
 
 All are nonpolar (tetrahedral), so only LDFs are present. As molar mass increases, electron clouds
 Become more polarizable, LDFs strengthen, and boiling point increases.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Explain why $\mathrm{H_2\mathrm{O$ ($100^\circ\mathrm{C$) has a much higher boiling point than
 $\mathrm{H_2\mathrm{S$ ($-60^\circ\mathrm{C$) despite having a lower molar mass.
 
@@ -572,7 +571,6 @@ The C-O bond in methanol is polar covalent with approximately 18% ionic characte
 
 This table shows that hydrogen bonding produces dramatically higher boiling points than Other IMF
 types for similar molar masses.
-
 
 ```mermaid
 flowchart TD

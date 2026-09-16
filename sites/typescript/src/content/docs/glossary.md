@@ -31,9 +31,9 @@ tags: [glossary]
 
 ## Primitive and Literal Types
 
-**Primitive Types**: `string`, `number`, `boolean`, `null`, `undefined`, `symbol`, `bigint`.
+**Primitive Types**: `string``number``boolean``null``undefined``symbol``bigint`.
 
-**Literal Types**: Types narrowed to specific values: `"hello"`, `42`, `true`.
+**Literal Types**: Types narrowed to specific values: `"hello"``42``true`.
 
 **String Literal Type**: A type restricted to specific strings: `type Direction = "up" | "down" | "left" | "right"`.
 
@@ -59,7 +59,7 @@ type Result =
 
 **Intersection Type (&)**: A value must satisfy all combined types: `TypeA & TypeB`.
 
-**Type Narrowing**: The compiler narrows types based on control flow, `typeof`, `instanceof`, `in`, and discriminated unions.
+**Type Narrowing**: The compiler narrows types based on control flow, `typeof``instanceof``in`and discriminated unions.
 
 **Type Guard**: A function that narrows types: `function isString(x: unknown): x is string { return typeof x === "string" }`.
 
@@ -163,9 +163,9 @@ interface User {
 
 **Component Props**: Typing component properties with interfaces: `interface Props { name: string }`.
 
-**Typing Hooks**: `useState<string>("")`, `useRef<HTMLInputElement>(null)`.
+**Typing Hooks**: `useState<string>("")``useRef<HTMLInputElement>(null)`.
 
-**Event Handlers**: `React.ChangeEvent<HTMLInputElement>`, `React.MouseEvent<HTMLButtonElement>`.
+**Event Handlers**: `React.ChangeEvent<HTMLInputElement>``React.MouseEvent<HTMLButtonElement>`.
 
 **Children Type**: `PropsWithChildren<Props>` or `React.ReactNode` for children prop.
 

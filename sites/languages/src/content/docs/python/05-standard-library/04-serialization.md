@@ -107,6 +107,7 @@ print(type(data["created"]))  # <class 'datetime.datetime'>
 :::note
 `int``float``bool`And `None`. Everything else requires custom encoding.
 :::
+
 ### JSON Performance
 
 ```python
@@ -184,12 +185,13 @@ import os
 
 class Malicious:
     def __reduce__(self):
-        return (os.system, ("rm -rf /"))
+        return (os.system, ("rm -rf /",))
 
 # pickle.dumps(Malicious()) creates a payload that runs rm -rf /
 # pickle.loads(payload) would execute it
 ```
 :::
+
 ### cloudpickle
 
 The standard `pickle` cannot serialize lambda functions, dynamically defined classes, or objects
@@ -228,7 +230,7 @@ class Config:
 
     def __reduce__(self):
         # Return (callable, args), pickle will call Config(*args)
-        return (Config, (self.path))
+        return (Config, (self.path,))
 
 c = Config("/etc/app/config.yaml")
 data = pickle.dumps(c)
@@ -278,6 +280,7 @@ Arbitrary Python objects, including calls to `subprocess.Popen` or `os.system`:
 
 `yaml.safe_load()` only parses standard YAML types: scalars, sequences, mappings.
 :::
+
 ### Custom Tags with Safe Loader
 
 ```python
@@ -382,6 +385,7 @@ role = "readonly"
 Human-readable data, and pickle only for Python-internal serialization where security is not a
 Concern.
 :::
+
 ## CSV
 
 The `csv` module handles reading and writing CSV files.
@@ -829,7 +833,7 @@ print(config.host)  # db.example.com
 
 # Serialize to dict
 d = config.model_dump()
-print(d)  # {'host': "db.example.com'', "port': 5432, 'timeout': 30.0...}
+print(d)  # {'host': "db.example.com'', "port': 5432, 'timeout': 30.0, ...}
 
 # Serialize to JSON
 json_str = config.model_dump_json()
@@ -919,7 +923,6 @@ print(d_json["status"])    # "active" (string value)
 print(d_json["timestamp"]) # "2025-01-15T00:00:00" (ISO string)
 ```
 
-
 ```mermaid
 flowchart TD
     A[04 Serialization] --> B[Key Concepts]
@@ -955,6 +958,7 @@ Serialization is translation: converting Python objects into formats that can be
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Essential Modules](./01-essential-modules): Covers the core Python modules that provide foundational functionality, including data structures used in serialization.

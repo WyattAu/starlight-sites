@@ -311,7 +311,6 @@ $\blacksquare$
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[2_Linear Independence Span Basis And Dimension] --> B[Key Concepts]
@@ -328,5 +327,6 @@ flowchart TD
 - **[Matrices](3_matrices)**: The rank of a matrix equals the dimension of its column space, connecting matrix theory to basis theory.
 - **[Systems of Linear Equations](4_systems-of-linear-equations)**: The solution space of a homogeneous system is a subspace whose dimension is determined by rank-nullity.
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

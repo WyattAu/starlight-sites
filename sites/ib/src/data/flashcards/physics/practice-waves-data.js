@@ -80,8 +80,8 @@ export const practiceQuestions = [
     question:
       'For destructive interference to occur between two coherent\nsources, the path difference must be:',
     options: [
-      'A) nλ (where n = 0, 1, 2...)',
-      'B) (n + 0.5)λ\n(where n = 0, 1, 2...)',
+      'A) nλ (where n = 0, 1, 2, ...)',
+      'B) (n + 0.5)λ\n(where n = 0, 1, 2, ...)',
       'C) 2nλ',
       'D) Zero only',
     ],

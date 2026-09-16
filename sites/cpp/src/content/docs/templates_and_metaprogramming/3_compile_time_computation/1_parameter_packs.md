@@ -141,6 +141,7 @@ int main() {
 Perfect forwarding pattern (`Args&&... args` with `std::forward<Args>(args)...`) is one of the most
 Important idioms in modern C++ template programming.
 :::
+
 ## Variadic Class Templates
 
 Parameter packs are not limited to function templates. A **variadic class template** accepts a pack
@@ -197,9 +198,9 @@ public:
 
     void run_all() const {
         // Each call resolves via the appropriate base
-        (void(Printer::print)...);   // only compiles if Printer is in Mixins...
-        (void(Logger::log)...);
-        (void(Serializer::serialize)...);
+        (void(Printer::print), ...);   // only compiles if Printer is in Mixins...
+        (void(Logger::log), ...);
+        (void(Serializer::serialize), ...);
     }
 };
 
@@ -308,7 +309,7 @@ Substitutes each pack element into the pattern and produces a comma-separated li
 // 1. Function argument expansion: f(args...)
 template <typename... Args>
 void call_print(Args... args) {
-    ((std::cout << args << "\n")...);
+    ((std::cout << args << "\n"), ...);
 }
 
 // 2. Template argument expansion: Tuple<Types...>
@@ -391,7 +392,7 @@ struct is_integral_pred : std::is_integral<T> {};
 // Pattern 3: Recursive tuple for_each
 template <typename Fn, typename Tuple, std::size_t... Is>
 void tuple_for_each_impl(Fn&& fn, Tuple&& t, std::index_sequence<Is...>) {
-    (fn(std::get<Is>(std::forward<Tuple>(t)))...);
+    (fn(std::get<Is>(std::forward<Tuple>(t))), ...);
 }
 
 template <typename Fn, typename... Ts>
@@ -439,7 +440,7 @@ auto sum_fold(Args... args) {
 template <typename... Args>
 void print_fold(Args&&... args) {
     std::string sep;
-    ((std::cout << std::exchange(sep, ", ") << args)...);
+    ((std::cout << std::exchange(sep, ", ") << args), ...);
     std::cout << "\n";
 }
 
@@ -586,7 +587,6 @@ int main() {
 - [Type Traits and Static Reflection Patterns](./4_type_traits)
 - [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction)
 - [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation)
-
 
 ```mermaid
 flowchart TD

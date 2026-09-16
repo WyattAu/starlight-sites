@@ -95,6 +95,7 @@ void collapsing_demo() {
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
 :::
+
 ## 4.1 Distinguishing Forwarding References from Rvalue References
 
 The syntax `T&&` has two distinct meanings depending on context:
@@ -166,6 +167,7 @@ void not_forwarding() {
 a forwarding reference, it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
 :::
+
 ## 4.3 `std::forward<T>(x)`Perfect Forwarding
 
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
@@ -284,6 +286,7 @@ Library. Without forwarding references and `std::forward`These functions would b
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
 Combinatorial explosion.
 :::
+
 ## See Also
 
 - [Value Taxonomy](1_value_taxonomy)
@@ -388,6 +391,7 @@ void range_for_forwarding() {
 To write generic range-based for loops that work with both lvalue and rvalue ranges, and with proxy
 Iterators that return prvalues (like `std::vector<bool>`).
 :::
+
 ## 5.3 `std::forward` Implementation Detail
 
 `std::forward<T>(x)` is implemented as a `static_cast`:
@@ -548,6 +552,7 @@ Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Arg
 Always store by value, or `std::forward_as_tuple(args...)` which explicitly stores references with
 The same lifetime concerns documented.
 :::
+
 ## 5.6 Forwarding in Class Templates
 
 Forwarding references work in class template constructors, but with a subtlety: the forwarding
@@ -637,7 +642,7 @@ void move_vs_forward() {
     // Forwarding: use std::forward
     auto make_vec = [](auto&&... args) {
         std::vector<std::string> v;
-        (v.emplace_back(std::forward<decltype(args)>(args))...);
+        (v.emplace_back(std::forward<decltype(args)>(args)), ...);
         return v;
     };
 
@@ -679,7 +684,6 @@ void move_vs_forward() {
    reference type, you return a reference to a parameter, which may dangle if the caller passed a
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local, which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
-
 
 ```mermaid
 flowchart TD
@@ -725,7 +729,7 @@ something valid.
 This matters because of `std::forward` and perfect forwarding. When you write a generic function
 that takes `T&&`, the type `T` can be either an lvalue reference or a non-reference depending on
 what the caller passes. If they pass an lvalue, `T` is deduced as `int&`, and `int& &&` collapses
-back to `int&`preserving the lvalue-ness. If they pass an rvalue, `T` is `int`, and `int&&`
+back to `int&`preserving the lvalue-ness. If they pass an rvalue, `T` is `int`and `int&&`
 stays an rvalue reference. `std::forward<T>()` then casts the argument back to exactly what it
 was originally, enabling efficient parameter forwarding through layers of function calls.
 

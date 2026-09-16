@@ -62,6 +62,7 @@ hash(("a", "b"))   # depends on hash("a") ^ hash("b") with rotation
 :::note
 This is a security measure against hash DoS attacks. Set `PYTHONHASHSEED=0` to disable.
 :::
+
 ### Collision Resolution: Open Addressing
 
 When two keys hash to the same slot, CPython probes the next slot using a linear probing scheme with
@@ -96,7 +97,7 @@ for i in range(100):
     d[i] = i
     if i < 6:
         print(f"n={i}, table_size={len(d)}, sizeof={sys.getsizeof(d)}")
-## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232...
+## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232, ...
 # The table grows in discrete jumps
 ```
 
@@ -146,6 +147,7 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
 Consider order, only `OrderedDict` equality is order-sensitive.
 :::
+
 ### LRU Cache with OrderedDict
 
 ```python
@@ -230,6 +232,7 @@ def to_regular_dict(d):
     return d
 ```
 :::
+
 ### Practical Examples
 
 ```python
@@ -332,6 +335,7 @@ class Counter(dict):
         return 0
 ```
 :::
+
 ## ChainMap
 
 `collections.ChainMap` groups multiple dicts into a single view. Lookups search each mapping in
@@ -374,6 +378,7 @@ Per-request overrides.
 :::caution
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
 :::
+
 ```python
 config = ChainMap({"timeout": 30}, {"timeout": 60})
 config["timeout"] = 10
@@ -524,6 +529,7 @@ del d["port"]             # Deleting 'port'
 methods bypass your Python-level overrides. `UserDict` stores data in an internal `dict` Attribute
 (`self.data`), so all access goes through your Python methods.
 :::
+
 ```python
 from collections import UserList
 
@@ -650,6 +656,7 @@ print([e[1] for e in events])
 :::tip
 Shift elements). For frequent insertions, consider `heapq` or a balanced tree structure.
 :::
+
 ## heapq Module
 
 `heapq` provides a min-heap implementation using a regular Python list. The heap invariant is:
@@ -738,6 +745,7 @@ print(pq.pop())  # low priority task
 :::caution
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
 :::
+
 ## Intuition
 
 A dictionary is a book with tabs, you open directly to the right page without flipping through every one. The hash function turns your key into a page number, and if two keys collide, you just check the next few pages until you find the right one. Counter is like a tally sheet, it counts occurrences of each item automatically. defaultdict is a dictionary that never says "I don't know", it creates a default value when you ask for something missing. ChainMap is a stack of dictionaries where the top one shadows the ones below, perfect for layered configuration where command-line args override environment variables which override defaults. The hash table is the most important data structure in Python because dicts, sets, and even object attribute lookup all use it.
@@ -853,7 +861,6 @@ d2 = {}
 
 Use `defaultdict` when you intentionally want default values. For configuration or structured data
 Access, prefer regular dicts to catch typos early.
-
 
 ```mermaid
 flowchart TD

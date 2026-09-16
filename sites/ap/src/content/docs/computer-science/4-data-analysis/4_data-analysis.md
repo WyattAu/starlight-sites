@@ -111,8 +111,7 @@ for (int r = 0; r < grid.length; r++) {
 }
 ```
 
-:::note
-<strong>Example: Row and Column Sums</strong>
+:::note[Example: Row and Column Sums]
 ```java
 public static int[] rowSums(int[][] grid) {
     int[] sums = new int[grid.length];
@@ -125,8 +124,8 @@ public static int[] rowSums(int[][] grid) {
 }
 ```
 :::
-:::note
-<strong>Example: Transpose a Matrix</strong>
+
+:::note[Example: Transpose a Matrix]
 ```java
 public static int[][] transpose(int[][] matrix) {
     int rows = matrix.length;
@@ -188,8 +187,8 @@ s = s.toUpperCase();
 **Why immutability matters.** Because strings are immutable, Java can share string literals. If two
 Variables hold the same string literal, they may point to the same object in memory.
 :::
-:::note
-<strong>Example: Reversing a String</strong>
+
+:::note[Example: Reversing a String]
 ```java
 public static String reverse(String s) {
     String result = "";
@@ -210,6 +209,7 @@ public static String reverseEfficient(String s) {
 }
 ```
 :::
+
 ## Data Analysis Concepts (CED Unit 3)
 
 ### Processing Data
@@ -346,6 +346,7 @@ for (String name : names) {
 :::caution
 During iteration. Use an Iterator or iterate backwards with an index.
 :::
+
 ```java
 for (int i = names.size() - 1; i >= 0; i--) {
     if (names.get(i).length() < 3) {
@@ -930,7 +931,6 @@ Other examples include camera model, software version, and thumbnail previews. U
 metadata before sharing photos online.
 
 </details>
-
 
 ```mermaid
 flowchart TD

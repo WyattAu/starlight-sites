@@ -435,6 +435,7 @@ Euler's method can produce wildly inaccurate results for stiff equations or when
 too Large. Always check whether the approximation is reasonable by comparing with qualitative
 behaviour Of the DE (equilibrium, asymptotes, periodicity).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -716,12 +717,12 @@ Differential Equations with other IB mathematics topics to test synthesis under 
 See for instructions on self-marking
 and building a personal test matrix.
 :::
+
 | Topic                    | Site       | Link                                                                                                                  |
 | ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------- |
 | [Differential Equations] | A-Level    | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/further-maths/pure-mathematics/07-differential-equations) |
 | [Differential Equations] | IB         | [View](https://ib.wyattau.com/docs/ib/maths/5-calculus/5_differential-equations)                                      |
 | [Differential Equations] | University | [View](https://mathematics.wyattau.com/)    |
-
 
 ```mermaid
 flowchart TD

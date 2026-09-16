@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "Storage Tuning"
 description: "Study notes for Storage Tuning - Wyatt's Notes with worked examples and practice questions."
@@ -158,6 +157,7 @@ Dramatically as data must be folded from SLC into the TLC/QLC area.
 MB/s to under 200 MB/s. This is a fundamental limitation of QLC NAND, not a defect. Avoid QLC SSDs
 For write-heavy workloads (video editing, database, OS drive).
 :::
+
 ### Wear Leveling
 
 SSD controllers implement wear leveling to distribute write operations evenly across all NAND
@@ -228,6 +228,7 @@ sudo systemctl start fstrim.timer
 :::caution
 Property controls TRIM behavior.
 :::
+
 ### Over-Provisioning
 
 Over-provisioning (OP) reserves a portion of the NAND capacity for the SSD controller"s use. This
@@ -293,6 +294,7 @@ ZFS eliminates many traditional RAID problems:
 The storage pool. Hardware RAID hides the disks behind a virtual block device, which prevents ZFS
 From performing its error detection and correction.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -644,6 +646,7 @@ sudo nvme fw-download /dev/nvme0n1 --fw=/path/to/firmware.bin --save
 Drive. Ensure the update process is not interrupted (connect the drive to a UPS, close all
 Applications accessing the drive).
 :::
+
 ## Deep Dive: I/O Scheduler Internals
 
 ### mq-deadline Scheduler
@@ -996,6 +999,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Memory Tuning](../02-memory-tuning/memory-tuning) - How RAM and storage interact in caching and virtual memory performance

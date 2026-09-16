@@ -604,8 +604,8 @@ Records provide named fields for data types:
 -- Basic record type
 data Person = Person
   { personName :: String
-personAge  :: Int
-personEmail :: String
+  , personAge  :: Int
+  , personEmail :: String
   }
   deriving (Show, Eq)
 
@@ -613,8 +613,8 @@ personEmail :: String
 alice :: Person
 alice = Person
   { personName = "Alice"
-personAge  = 30
-personEmail = "alice@example.com"
+  , personAge  = 30
+  , personEmail = "alice@example.com"
   }
 
 -- Record field access (automatically generated)
@@ -710,7 +710,6 @@ myReverse = go []
     go acc []     = acc
     go acc (x:xs) = go (x : acc) xs
 ```
-
 
 ```mermaid
 flowchart TD

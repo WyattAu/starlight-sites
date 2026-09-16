@@ -323,6 +323,7 @@ directly use light, it is dependent on the products of the light-dependent react
 $\mathrm{NADPH}$), which cease in the dark. In practice, the Calvin cycle stops within seconds of
 placing a plant in darkness because ATP and $\mathrm{NADPH}$ are rapidly depleted.
 :::
+
 ## 6. Limiting Factors
 
 ### 6.1 Principle of Limiting Factors
@@ -475,6 +476,7 @@ in the mesophyll cells. The $\mathrm{C_4}$ pathway is a supplementary $\mathrm{C
 mechanism that feeds $\mathrm{CO_2}$ into the Calvin cycle. Both pathways are present and operate
 together.
 :::
+
 ## 8. Practical Investigations
 
 ### 8.1 Measuring the Rate of Photosynthesis
@@ -828,6 +830,7 @@ become limiting.
 intensity. Light intensity follows the inverse square law ($I \propto 1/d^2$), so the rate vs.
 Distance graph is non-linear. Always convert distances to light intensity values before plotting.
 :::
+
 ## 13. The Global Carbon Cycle and Photosynthesis
 
 ### 13.1 Photosynthesis as a Carbon Sink
@@ -1070,6 +1073,7 @@ $\mathrm{CO_2}$ concentration and the curve has plateaued, the limiting factor i
 temperature (whichever is held constant). Always identify which factor is being manipulated and
 which are held constant.
 :::
+
 ## 23. Investigating Factors Affecting the Rate of Photosynthesis
 
 ### 23.1 Using Hydrogencarbonate Indicator: Detailed Method
@@ -1201,6 +1205,7 @@ Daily electricity cost $= 139 \times \pounds 0.15 = \pounds 20.85$.
 }
 </script>
 :::
+
 :::tip
 ## 18. The Chloroplast: Structure and Adaptations
 
@@ -1456,6 +1461,7 @@ TP produced in the Calvin cycle has several fates:
 6. **Converted to amino acids** by combining with nitrogen (from $\mathrm{NO_3^-}$ or
    $\mathrm{NH_4^+}$) in a process called nitrogen assimilation.
 :::
+
 :::caution
 fact, the Calvin cycle produces TP (a 3-carbon compound), which must then be converted to glucose
 (6C) by joining two TP molecules. Only some TP molecules are exported from the chloroplast; the rest
@@ -2339,6 +2345,7 @@ in shortest supply. At any given moment, only one factor limits the rate of phot
 }
 </script>
 :::
+
 :::tip
 ## Common Pitfalls
 
@@ -2419,6 +2426,7 @@ flowchart LR
 - Chloroplast structure (grana, thylakoids, stroma) is adapted to maximise light absorption and
   enzyme concentration.
 :::
+
 ## Cross-References
 
 - [Biology](../biology)

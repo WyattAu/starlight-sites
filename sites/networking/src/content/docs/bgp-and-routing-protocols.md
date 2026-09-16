@@ -114,6 +114,7 @@ Unreachable.
 Implementations under different names (route preference, distance, or trust value). The numeric
 Values may differ.
 :::
+
 When two routes for the same prefix have the same AD, the router compares metrics. When both AD and
 Metric match, the router may load-balance (equal-cost or unequal-cost, depending on the protocol).
 
@@ -141,6 +142,7 @@ ip route 192.168.2.0 255.255.255.0 Ethernet0/1
 Ethernet) requires proxy ARP to function correctly, which can cause unexpected behavior. Prefer
 Next-hop addresses on multi-access links.
 :::
+
 ### Default Routes
 
 A default route (also called a gateway of last resort) matches any destination not found in the
@@ -337,6 +339,7 @@ Calculations:
 Area topology causes excessive SPF recalculations, large routing tables, and slow convergence. Keep
 Areas small, limit the number of ABRs, and avoid transit areas.
 :::
+
 ### OSPF Cost Metric
 
 OSPF cost is calculated as `reference bandwidth / interface bandwidth`. The default reference
@@ -391,6 +394,7 @@ interface Ethernet0/0
 Behavior. On hub-and-spoke topologies, ensure the hub has the highest priority and all spokes have
 Priority 0. Otherwise, a spoke might win the DR election, breaking routing.
 :::
+
 ### OSPF Configuration
 
 ```
@@ -526,6 +530,7 @@ By default, only K1 (bandwidth) and K3 (delay) are enabled (K1=1, K2=0, K3=1, K4
 :::note
 Traffic, causing the metric to change constantly and leading to route flapping and instability.
 :::
+
 ### Feasible Successors and DUAL
 
 **Definition.** The **Feasible Distance** (FD) is the total metric to reach a destination via the
@@ -613,6 +618,7 @@ interface Loopback0
 `update-source Loopback0` and `next-hop-self`. For eBGP sessions, use directly connected interfaces
 (unless you are using multihop, which requires `ebgp-multihop`).
 :::
+
 ### NLRI
 
 **Definition.** **Network Layer Reachability Information** (NLRI) is the set of IP prefixes that a
@@ -773,6 +779,7 @@ Prefix (208.65.153.0/24) by advertising a more specific route, redirecting globa
 Pakistan. In 2018, attackers hijacked Amazon's NS1 prefix to intercept cryptocurrency DNS traffic.
 Implement RPKI validation and prefix filtering on all BGP sessions.
 :::
+
 ## Route Redistribution
 
 ### Overview
@@ -1186,6 +1193,7 @@ show logging | include OSPF|BGP
 Carefully, and always use `terminal monitor` and specific debug filters. Disable debug with
 `undebug all` as soon as you have the information you need.
 :::
+
 ```
 debug ip routing
 debug ip ospf adj
@@ -1283,7 +1291,6 @@ interface Serial0/0.1 multipoint
 
 This is particularly relevant for RIP and EIGRP, which rely on split horizon for loop prevention.
 OSPF and IS-IS are not affected because they are link-state protocols.
-
 
 ```mermaid
 flowchart TD

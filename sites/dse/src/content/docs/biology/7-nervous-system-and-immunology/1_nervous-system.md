@@ -1007,6 +1007,7 @@ nervous system topics within the DSE specification.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1233,7 +1234,6 @@ LTP is the cellular basis of learning and memory:
 - GABA is the main inhibitory neurotransmitter, NOT the main excitatory one (that is glutamate)
 - Synaptic transmission is always in one direction: presynaptic $\rightarrow$ postsynaptic (because
   only the presynaptic terminal has synaptic vesicles containing neurotransmitter)
-
 
 ```mermaid
 flowchart TD

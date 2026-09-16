@@ -350,6 +350,7 @@ FROM orders
 GROUP BY region, order_date;
 ```
 :::
+
 :::note
 PostgreSQL's visibility information is stored in the heap. To maximize index-only scan efficiency,
 Keep indexed columns NOT NULL where possible, or run `VACUUM` regularly to keep visibility map
@@ -410,6 +411,7 @@ CREATE INDEX idx_orders_monthly ON orders (DATE_TRUNC('month', order_date));
 SELECT * FROM orders WHERE DATE_TRUNC('month', order_date) = '2024-01-01';
 ```
 :::
+
 :::caution
 `WHERE lower(email) = 'alice@example.com'` uses the index, but
 `WHERE email ILIKE 'alice@example.com'` does not. Use functional indexes consistently.
@@ -514,6 +516,7 @@ server_idle_timeout = 600
 | `transaction` | Connection returned to pool after each transaction | Most web applications (default choice) |
 | `statement`   | Connection returned to pool after each statement   | Very high concurrency, stateless       |
 :::
+
 :::caution
 For transaction-scoped settings, or use `search_path` in `pgbouncer.ini` with
 `extra_float_digits = 3`.
@@ -555,6 +558,7 @@ SET plan_cache_mode = force_generic_plan;
 SET plan_cache_mode = auto;
 ```
 :::
+
 :::note
 Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
 
@@ -846,6 +850,7 @@ CLUSTER orders USING idx_orders_customer_date;
 -- Or use pg_repack for online reorganization
 ```
 :::
+
 :::note
 Performance for that index but degrades it for other indexes. Use `CLUSTER` on the index that
 Corresponds to the most common access pattern.
@@ -927,6 +932,7 @@ WHERE o.created_at >= '2024-01-01';
 -- Look for: "Append" node containing "Join" nodes per partition pair
 ```
 :::
+
 :::caution
 Bounds. If the partitioning schemes do not align, the optimizer falls back to joining the entire
 Tables.

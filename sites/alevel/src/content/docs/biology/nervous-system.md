@@ -74,6 +74,7 @@ conduction), which is much faster than continuous propagation. The speed increas
 membrane needs to be depolarised, and the local current flows further ahead to depolarise the next
 node.
 :::
+
 ## 2. Resting Potential
 
 ### 2.1 Establishing the Resting Potential
@@ -256,6 +257,7 @@ channels, which is what causes the change in membrane potential. The specificity
 neurotransmitter-receptor binding is what determines whether the synapse is excitatory or
 inhibitory.
 :::
+
 ## 5. Neurotransmitters
 
 ### 5.1 Acetylcholine
@@ -357,6 +359,7 @@ not require brain processing to occur, but the brain receives sensory informatio
 via ascending tracts. This allows the brain to modify the response if necessary (e.g., suppressing
 the withdrawal reflex if you are carrying something hot).
 :::
+
 ## 7. Sensory Receptors
 
 ### 7.1 Pacinian Corpuscles
@@ -1127,6 +1130,7 @@ initiated.
 trigger an action potential. If the membrane depolarises to $-60\ \mathrm{mV}$ (above resting but
 below threshold), no action potential is fired.
 :::
+
 ## 25. Reflex Arcs: Detailed Mechanisms
 
 ### 25.1 Components of a Reflex Arc
@@ -1283,6 +1287,7 @@ II fibres).
 }
 </script>
 :::
+
 :::tip
 ## 21. Synaptic Transmission: Detailed Mechanism
 
@@ -2352,6 +2357,7 @@ so no light is detected.
 }
 </script>
 :::
+
 :::tip
 ## Common Pitfalls
 
@@ -2370,6 +2376,7 @@ so no light is detected.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 $$
 $$
 
@@ -2378,7 +2385,6 @@ $$
 - [Biology](../biology)
 - [Cells](cells)
 - [Genetics and DNA](genetics-and-dna)
-
 
 ```mermaid
 flowchart TD

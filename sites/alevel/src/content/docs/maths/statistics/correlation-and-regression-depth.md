@@ -26,6 +26,7 @@ Correlation, least squares regression, and residual analysis.
 it Does not capture non-linear relationships. Always plot your data before interpreting correlation
 Values.
 :::
+
 <hr />
 
 ## 1. Scatter Diagrams
@@ -62,6 +63,7 @@ An **outlier** is a data point that lies far from the general pattern. Outliers 
 :::caution
 coefficient. Always examine Your scatter diagram before relying on numerical measures.
 :::
+
 <hr />
 
 ## 2. Product Moment Correlation Coefficient (PMCC)
@@ -437,7 +439,6 @@ $\sum d_i^2 = 1 + 0.25 + 1 + 0.25 + 0 = 2.5$.
 $$r_s = 1 - \frac{6 \times 2.5}{5 \times 24} = 1 - \frac{15}{120} = 1 - 0.125 = 0.875$$
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

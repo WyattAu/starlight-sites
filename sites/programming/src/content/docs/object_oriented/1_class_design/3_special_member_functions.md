@@ -58,6 +58,7 @@ Constructor and move assignment are **not** implicitly declared. In C++14 and la
 True, the Standard was not changed. The critical point: declaring a destructor suppresses implicit
 Move generation.
 :::
+
 ## 3.3 `= default` and `= delete`
 
 The `= default` specifier explicitly requests the compiler-generated default implementation [N4950
@@ -173,8 +174,8 @@ public:
 
     Buffer(const Buffer& other)
         : data_(new char[other.capacity_])
-size_(other.size_)
-capacity_(other.capacity_)
+        , size_(other.size_)
+        , capacity_(other.capacity_)
     {
         std::memcpy(data_, other.data_, other.size_);
     }
@@ -191,8 +192,8 @@ capacity_(other.capacity_)
 
     Buffer(Buffer&& other) noexcept
         : data_(other.data_)
-size_(other.size_)
-capacity_(other.capacity_)
+        , size_(other.size_)
+        , capacity_(other.capacity_)
     {
         other.data_ = nullptr;
         other.size_ = 0;
@@ -677,7 +678,6 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

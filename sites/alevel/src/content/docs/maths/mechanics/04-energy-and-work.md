@@ -1,6 +1,5 @@
 ---
 
-
 title: "Energy and Work"
 description: "Study notes for Energy and Work | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ---------------------------------- | | AQA | Paper 1 | Work, energy, power | | Edexcel | P1 | Similar | |"
@@ -34,6 +33,7 @@ categories:
 :::note
 Final states matter (no time information needed).
 :::
+
 <hr />
 
 ## 1. Work Done
@@ -657,7 +657,6 @@ building a personal test matrix.
 
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
-
 
 ```mermaid
 flowchart TD

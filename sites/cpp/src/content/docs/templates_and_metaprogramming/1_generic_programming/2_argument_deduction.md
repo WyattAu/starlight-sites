@@ -215,6 +215,7 @@ Following are **not** forwarding references:
 - `T&amp;&amp;` in a class template member function where T is the class template parameter
 - `const T&amp;&amp;` (the `const` prevents the forwarding reference interpretation)
 :::
+
 ### Array-to-Pointer and Function-to-Pointer Decay
 
 Arrays and functions decay to pointers during deduction unless the parameter is a reference:
@@ -340,6 +341,7 @@ int main() {
 The class template both participate in deduction and produce conflicting results, deduction fails
 [N4950 S16.3.1.7].
 :::
+
 ### CTAD Rules [N4950 S16.3.1.3]
 
 The CTAD process follows a specific algorithm:

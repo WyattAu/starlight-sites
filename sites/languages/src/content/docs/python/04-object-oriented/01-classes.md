@@ -230,6 +230,7 @@ class Math:
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
 Not need either, making it static is a signal to readers and static analysis tools.
 :::
+
 :::note
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
@@ -486,6 +487,7 @@ class EnhancedUser(JsonMixin, CsvMixin, User):
 This ordering ensures that mixin methods can override or wrap the primary class's methods, and that
 `super()` calls propagate through the mixins before reaching the primary class.
 :::
+
 :::danger
 Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
@@ -620,6 +622,7 @@ Returning `NotImplemented` (not `False`) when the other operand has an incompati
 Python to try the reflected operation on the other operand. Returning `False` would prevent this
 Fallback.
 :::
+
 :::danger
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
@@ -806,6 +809,7 @@ print(p.x)  # 1
 p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 ```
 :::
+
 :::danger
 1. Instances cannot have attributes not listed in `__slots__` (no dynamic attribute assignment).
 2. Each class in an inheritance hierarchy must define its own `__slots__`. If a base class omits
@@ -816,13 +820,13 @@ p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 
 ```python
 class Base:
-    __slots__ = ("id")
+    __slots__ = ("id",)
 
 class Child(Base):
-    __slots__ = ("name")
+    __slots__ = ("name",)
 
 class Grandchild(Child):
-    __slots__ = ("age")
+    __slots__ = ("age",)
 
 g = Grandchild()
 g.id = 1
@@ -1030,7 +1034,7 @@ Of these mechanisms addresses a separate concern, and they compose without confl
 
 ## Intuition
 
-A class is a blueprint, and each instance is a house built from that blueprint. The blueprint itself is not a house, it is a plan that tells you what rooms to build. When you call `__init__`, you are furnishing the house with specific furniture. `self` is the address of the house, every method needs to know which house it is working on. Inheritance is like extending a blueprint: a Dog blueprint adds barking to the Animal blueprint. Multiple inheritance is like combining blueprints from two parents, powerful but risky if both blueprints define the same room differently. Descriptors are the magic behind properties, they intercept attribute access and can compute values on the fly, turning a simple attribute into a gatekeeper.
+A class is a blueprint, and each instance is a house built from that blueprint. The blueprint itself is not a house, it is a plan that tells you what rooms to build. When you call `__init__`you are furnishing the house with specific furniture. `self` is the address of the house, every method needs to know which house it is working on. Inheritance is like extending a blueprint: a Dog blueprint adds barking to the Animal blueprint. Multiple inheritance is like combining blueprints from two parents, powerful but risky if both blueprints define the same room differently. Descriptors are the magic behind properties, they intercept attribute access and can compute values on the fly, turning a simple attribute into a gatekeeper.
 
 ## Common Pitfalls
 
@@ -1056,6 +1060,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Metaclasses](./02-metaclasses): Extends class creation by customizing the class creation process itself, building on the class fundamentals covered here.

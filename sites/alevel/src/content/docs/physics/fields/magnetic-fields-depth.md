@@ -63,6 +63,7 @@ $$\boxed{F = Bqv}$$
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
 Change the speed of a charged particle, only its direction.
 :::
+
 ## 3. Circular Motion in a Magnetic Field
 
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
@@ -170,6 +171,7 @@ Work must be done to maintain the flux change, and this work appears as electric
 :::tip
 rule to find The induced current direction.
 :::
+
 ### Motional e.m.f.
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:
@@ -483,7 +485,6 @@ $$Bev = \frac{mv^2}{r} \implies r = \frac{mv}{Be}$$
 $$r = \frac{9.11 \times 10^{-31} \times 2 \times 10^6}{0.05 \times 1.6 \times 10^{-19}} = \frac{1.822 \times 10^{-24}}{8 \times 10^{-21}} = 2.28 \times 10^{-4}\ \mathrm{m} = 0.228\ \mathrm{mm}$$
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

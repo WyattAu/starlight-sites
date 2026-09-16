@@ -198,6 +198,7 @@ int main() {
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
 :::
+
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading)
@@ -302,7 +303,7 @@ struct std::formatter<std::tuple<Ts...>, char> {
         std::apply([&](const auto&... args) {
             bool first = true;
             ((out = std::format_to(out, "{}{}",
-                first ? (first = false, "") : ", ", args))...);
+                first ? (first = false, "") : ", ", args)), ...);
         }, t);
         return std::format_to(out, ")");
     }
@@ -554,7 +555,6 @@ std::formatter specialisation is like teaching std::format how to print your cus
 - **Format specifiers in `std::formatter` for `std::optional`.** C++23 provides a built-in formatter
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
-
 
 ```mermaid
 flowchart TD

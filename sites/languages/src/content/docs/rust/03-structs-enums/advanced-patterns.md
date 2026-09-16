@@ -445,7 +445,7 @@ struct Point {
 }
 
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
-let p2 = Point { y: 5.0..p1 };
+let p2 = Point { y: 5.0, ..p1 };
 // p2.x == 1.0, p2.y == 5.0, p2.z == 3.0
 ```
 
@@ -453,11 +453,12 @@ Struct update syntax moves the remaining fields. After `..p1``p1` is partially m
 
 ```rust
 let p1 = Point { x: 1.0, y: 2.0, z: 3.0 };
-let p2 = Point { y: 5.0..p1 };
+let p2 = Point { y: 5.0, ..p1 };
 // println!("{:?}", p1);  // ERROR: p1 partially moved
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 :::
+
 :::caution
 Heap-allocated types, those are moved (not copied) into the new struct. After the spread, the
 Original struct is no longer usable in its entirety.
@@ -477,7 +478,7 @@ let Point { x: a, y: b } = p;
 assert_eq!(a, 1.0);
 assert_eq!(b, 2.0);
 
-let Point { x.. } = p;
+let Point { x, .. } = p;
 assert_eq!(x, 1.0);
 ```
 
@@ -665,7 +666,7 @@ impl ConnectionState {
     }
 
     fn retry(&mut self) {
-        if let ConnectionState::Connecting { attempts.. } = self {
+        if let ConnectionState::Connecting { attempts, .. } = self {
             *attempts += 1;
         }
     }
@@ -1098,6 +1099,7 @@ $\blacksquare$
   fields.
 - Type-state pattern moves validation to compile time by encoding state in generic type parameters.
 :::
+
 ## Intuition
 
 Advanced Rust patterns leverage the type system for compile-time safety. Builder patterns use method chaining to construct complex objects step by step. The newtype pattern wraps existing types to add semantic meaning without runtime cost. Pattern matching with destructuring extracts data from enums and structs concisely. These patterns combine with ownership and lifetimes to create abstractions that are both flexible and memory-safe without garbage collection.

@@ -80,6 +80,7 @@ Measurement or environmental variability.
 Scatter) but inaccurate (systematic error), or accurate (close to true value) but imprecise (large
 Scatter). Neither is sufficient alone.
 :::
+
 ## 2. Uncertainty Analysis
 
 ### Absolute, Fractional, and Percentage Uncertainty
@@ -216,6 +217,7 @@ Many physical relationships can be linearised by choosing appropriate variables:
 Gradient, first find the gradient uncertainty using the worst line method, then divide by the
 Best-fit gradient and multiply by 100%.
 :::
+
 ## Problem Set
 
 <details>
@@ -645,7 +647,6 @@ Result: $n = 1.500 \pm 0.010$.
 <b>If you get this wrong, revise:</b> [Propagation of Uncertainty](#propagation-of-uncertainty)
 
 </details>
-
 
 ```mermaid
 flowchart TD

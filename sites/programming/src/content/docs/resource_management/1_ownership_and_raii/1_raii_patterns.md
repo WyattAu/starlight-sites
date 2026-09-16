@@ -97,6 +97,7 @@ void process_file(const char* path) {
 :::note
 The `finally`. This is the mechanism that enables exception-safe code without manual cleanup.
 :::
+
 ## 1.3 MutexLock Example
 
 ```cpp
@@ -122,6 +123,7 @@ void thread_safe_operation(std::mutex& mtx) {
 :::tip
 MutexLock. They are the standard library's RAII wrappers for mutexes.
 :::
+
 ## 1.4 Standard Library RAII Wrappers
 
 The C++ standard library provides RAII wrappers for the most common resource types. Using these
@@ -268,6 +270,7 @@ private:
 The moved-from `Socket` has `fd_ == -1`So its destructor is a no-op. This is the standard pattern
 For move-only RAII types that wrap non-copyable OS resources [N4950 §11.4.7].
 :::
+
 ## 1.6 Database Connection Wrapper
 
 Database connections are another resource that benefits from RAII. A connection that is not
@@ -338,7 +341,7 @@ public:
 
     ScopeGuard(ScopeGuard&& other) noexcept
         : func_(std::move(other.func_))
-active_(other.active_)
+        , active_(other.active_)
     {
         other.active_ = false;
     }
@@ -431,6 +434,7 @@ Duration are destroyed in reverse order of construction when the scope exits, wh
 Of control or by exception propagation [N4950 §6.7.2]. This is a language guarantee, not a
 Convention.
 :::
+
 ## 1.10 RAII Rule of Thumb
 
 **Every resource acquisition should be wrapped in an RAII type.** If you write a raw call to `new`
@@ -458,7 +462,7 @@ RAII is the idea that resource lifetime should be tied to object lifetime, like 
 
 **RAII is like a hotel checkout system:** When you check in (acquire a resource), you get a key card. When you check out (go out of scope), you return the key card (release the resource). If you forget to return the key card, the hotel has a problem (resource leak). RAII ensures the key card is returned automatically, the destructor runs when the object goes out of scope, even if an exception is thrown. This is the C++ way: tie resource lifetime to object lifetime, and let the compiler manage cleanup.
 
-**Why it matters:** RAII is the most important C++ idiom. It eliminates resource leaks, exception safety issues, and manual cleanup code. Every resource, memory, files, locks, network connections, should be managed by an RAII wrapper. The standard library provides `unique_ptr`, `shared_ptr`, `lock_guard`, `fstream`and others, all RAII wrappers.
+**Why it matters:** RAII is the most important C++ idiom. It eliminates resource leaks, exception safety issues, and manual cleanup code. Every resource, memory, files, locks, network connections, should be managed by an RAII wrapper. The standard library provides `unique_ptr``shared_ptr``lock_guard``fstream`and others, all RAII wrappers.
 
 **The key insight:** RAII ties resource lifetime to object lifetime, acquire in the constructor, release in the destructor, and the compiler handles the rest.
 
@@ -548,7 +552,6 @@ public:
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

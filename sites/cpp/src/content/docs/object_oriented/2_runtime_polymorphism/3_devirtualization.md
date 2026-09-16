@@ -233,6 +233,7 @@ int main() {
 - Use PGO for hot code paths where the dynamic type distribution is predictable.
 - Compile with `-O2` or `-O3` (required for most devirtualization passes).
 :::
+
 ## 3.6 Devirtualization Barriers
 
 Even with optimization enabled, devirtualization can fail in many real-world scenarios.
@@ -394,6 +395,7 @@ cl /O2 /GL main.cpp factory.cpp /link /LTCG
 For CI builds, consider using ThinLTO (`-flto=thin` on Clang), which performs parallel LTO with
 Lower memory usage at the cost of slightly less aggressive optimization.
 :::
+
 ## 3.8 `final` and Its Effect on vtable Layout
 
 The `final` specifier does not change the vtable layout itself -- the vtable still exists and the
@@ -743,7 +745,6 @@ Devirtualization is the compiler's detective work: it looks at the code and figu
 - [Virtual Functions and vtables](./1_vtables)
 - [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
 - [Deducing This and CRTP](./5_deducing_this_crtp)
-
 
 ```mermaid
 flowchart TD

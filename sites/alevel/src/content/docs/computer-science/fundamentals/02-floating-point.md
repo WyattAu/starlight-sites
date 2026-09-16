@@ -209,6 +209,7 @@ $\epsilon = 2^{-23} \approx 1.19 \times 10^{-7}$.
 :::caution
 $|a - b| \lt \epsilon$ for some tolerance.
 :::
+
 <hr />
 
 ## 5. CIE Simplified 8-Bit Floating Point
@@ -218,6 +219,7 @@ $|a - b| \lt \epsilon$ for some tolerance.
 - 4 exponent bits (excess-8, i.e., bias = 8)
 - 3 mantissa bits
 :::
+
 **Format:** `S EEEE MMM`
 
 **Decoding:** $(-1)^S \times 0.MMM \times 2^{E - 8}$
@@ -772,7 +774,6 @@ Precision.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

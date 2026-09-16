@@ -17,7 +17,6 @@ description: "The class of decision problems solvable in polynomial time by a de
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[6_Advanced Topics] --> B[Key Concepts]
@@ -401,6 +400,7 @@ $\blacksquare$
 
 </details>
 :::
+
 ## Cross-References
 
 - [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithm design uses amortised analysis and potential methods beyond basic complexity.

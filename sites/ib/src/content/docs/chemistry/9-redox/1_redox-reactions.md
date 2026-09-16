@@ -6,7 +6,7 @@ tags:
   - IB
 categories:
   - ib
-description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a , the oxidation state equals the charge (e.g., Na ="
+description: "1. The oxidation state of an element in its standard state is (e.g., Na(s), Cl(g), S(s), O(g)). 2. For a, the oxidation state equals the charge (e.g., Na ="
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -511,10 +511,11 @@ Anion and water compete for oxidation at the anode.
 **At the cathode (from water):** $2\mathrm{H}_2\mathrm{O} + 2e^- \to \mathrm{H}_2 + 2\mathrm{OH}^-$
 
 :::caution
-<strong>Exam Tip The rules above are simplified. In reality, the product at an electrode depends</strong>
+Exam Tip The rules above are simplified. In reality, the product at an electrode depends
 On the relative electrode potentials and concentrations (overpotential effects). For IB exams, use
 The rules as stated.
 :::
+
 ### Faraday"s Laws
 
 **Faraday's First Law:** The amount of substance produced at an electrode is directly proportional
@@ -677,7 +678,7 @@ $\mathrm{Fe}_2\mathrm{O}_3 \cdot n\mathrm{H}_2\mathrm{O}$.
 | **Electrochemical protection**              | Applying a negative voltage to the iron structure | Makes the iron the cathode, preventing its oxidation                                                                  |
 
 :::caution
-<strong>Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and</strong>
+Exam Tip The key distinction: **galvanising** (Zn coating) provides both barrier and
 Sacrificial protection. **Tin plating** provides only barrier protection and actually accelerates
 Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe becomes the anode.
 
@@ -692,6 +693,7 @@ Rusting if the coating is damaged, because Sn is less reactive than Fe and Fe be
 }
 </script>
 :::
+
 ## Fuel Cells
 
 A fuel cell converts the chemical energy of a fuel ( H$_2$) directly into electrical energy. Unlike
@@ -1107,7 +1109,6 @@ The OH$^-$ at the cathode is consumed by this acid.
   [Electrochemistry](https://alevel.wyattau.com/docs/chemistry/electrochemistry)
 - **DSE Redox and Electrochemistry:**
   [Redox and Electrochemistry](https://dse.wyattau.com/docs/dse/chemistry/6-redox-and-electrochemistry)
-
 
 ```mermaid
 flowchart TD

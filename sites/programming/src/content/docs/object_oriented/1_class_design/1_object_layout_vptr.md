@@ -72,6 +72,7 @@ Type, and all non-static data members with the same access control is a **standa
 [N4950 §11.4.1]. Such classes have a well-defined, portable memory layout and are compatible with C
 Structs.
 :::
+
 ## 1.2 The `this` Pointer [N4950 §11.4.3.2]
 
 Every non-static member function receives an implicit first parameter: a pointer to the object on
@@ -184,6 +185,7 @@ static_assert(sizeof(Derived) == sizeof(int));
 `std::allocator&lt;T&gt;` is an empty class, and `std::vector&lt;T, std::allocator&lt;T&gt;&gt;`
 inherits from it privately so that the allocator Storage costs nothing.
 :::
+
 ### EBO Limitations
 
 EBO cannot be applied when:
@@ -655,7 +657,6 @@ struct Combined : EmptyBase<struct A>, EmptyBase<struct B> {
 };
 static_assert(sizeof(Combined) == sizeof(int));  // EBO applies for both
 ```
-
 
 ```mermaid
 flowchart TD

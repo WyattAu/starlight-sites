@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[01 Projectile Motion] --> B[Key Concepts]
@@ -55,6 +54,7 @@ Determined.
 Acceleration is $g = 9.8\,\mathrm{m s}^{-2}$ acting vertically downward. Take care with sign
 Conventions, define upward as positive at the start and be consistent.
 :::
+
 <hr />
 
 ## 1. Equations of Motion
@@ -162,6 +162,7 @@ $R_{\max} = \dfrac{V^2}{g}$. $\blacksquare$
 Both produce $R = \dfrac{V^2\sin 2\theta}{g}$. However, the trajectories are different,
 The steeper angle gives a higher but shorter arc.
 :::
+
 <hr />
 
 ## 4. Projection on Inclined Planes

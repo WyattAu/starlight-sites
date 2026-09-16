@@ -132,6 +132,7 @@ int main() {
 To insert only if the key is absent, avoiding unnecessary construction of the value [N4950
 §22.4.4.4].
 :::
+
 ```cpp
 #include <map>
 #include <string>
@@ -399,6 +400,7 @@ int main() {
 Hash to the same bucket). If adversarial inputs are a concern, consider hash functions resistant to
 Collision attacks, or use `std::map` for guaranteed $O(\log n)$ worst-case.
 :::
+
 ### `std::map` Heterogeneous Lookup (C++14)
 
 By default, `std::map::find``std::map::count`And `std::map::lower_bound` accept `const Key&` and
@@ -767,7 +769,6 @@ For performance-critical code where ordered iteration is not needed, consider al
 
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
-
 
 ```mermaid
 flowchart TD

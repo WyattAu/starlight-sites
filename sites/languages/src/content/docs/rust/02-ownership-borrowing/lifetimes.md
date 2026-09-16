@@ -991,6 +991,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Lifetimes are Rust's way of tracking how long references remain valid. Every reference has a lifetime that the compiler infers or you annotate explicitly. Lifetime elision rules reduce boilerplate in common patterns. The 'static lifetime means a reference lives for the entire program duration. Lifetimes prevent dangling references by ensuring data outlives the pointers that reference it, and they enable safe borrowing across function boundaries without runtime checks.

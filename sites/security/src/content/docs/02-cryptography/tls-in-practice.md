@@ -1,6 +1,5 @@
 ---
 
-
 date: 2026-07-23T21:57:32+01:00
 title: "TLS in Practice"
 description: "Study notes for TLS in Practice | Security - Wyatt's Notes with worked examples and practice questions."
@@ -297,6 +296,7 @@ chown root:root server.key
 openssl rsa -in server-encrypted.key -out server.key
 ```
 :::
+
 :::caution
 Manager, Azure Key Vault) or a provisioning tool (Ansible Vault, SOPS) to manage private keys.
 Automated certificate management with certbot or a cloud provider reduces the risk of manual key
@@ -459,6 +459,7 @@ ssl_early_data on;
 # - Use a single-use token to detect replays
 ```
 :::
+
 :::caution
 0-RTT for idempotent, safe-to-replay requests (e.g., GET requests, non-critical analytics). Never
 Use 0-RTT for authentication, payment, or state-changing requests.

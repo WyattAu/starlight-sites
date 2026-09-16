@@ -113,6 +113,7 @@ $$
 Mandates that the vptr is at offset 0 within the object (before any data members). MSVC uses a
 Similar but incompatible layout on Windows.
 :::
+
 ### Vtable Structure Diagram
 
 For a class hierarchy:
@@ -328,6 +329,7 @@ Branch prediction accuracy, and whether the compiler can **devirtualize** the ca
 [Devirtualization](./3_devirtualization)). With `-O2` or `-O3`Modern compilers may eliminate The
 virtual dispatch entirely if the dynamic type is provable.
 :::
+
 ## 1.5 The `final` Keyword
 
 The `final` specifier has two uses [N4950 S11.7.4]:
@@ -396,6 +398,7 @@ struct Wrong : Base {
 :::tip
 Virtual function. This eliminates an entire class of bugs caused by signature mismatches.
 :::
+
 ## 1.7 Virtual Dispatch During Construction and Destruction
 
 A critical and often surprising rule: **virtual calls from constructors and destructors do not
@@ -477,6 +480,7 @@ Behavior** [N4950 S11.9.3]. The pure virtual function has no definition to dispa
 Definition is not called). Some implementations call the pure virtual handler and terminate the
 Program.
 :::
+
 ## 1.8 NVI (Non-Virtual Interface) Pattern
 
 The **Non-Virtual Interface** pattern makes all public member functions non-virtual and delegates to
@@ -739,7 +743,6 @@ Has no data members. This is the fundamental cost of runtime polymorphism.
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

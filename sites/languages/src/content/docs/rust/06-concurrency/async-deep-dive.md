@@ -129,7 +129,7 @@ impl<'a> Future for FetchDataFuture<'a> {
                         Poll::Pending => return Poll::Pending,
                     }
                 }
-                State2 { future.. } => {
+                State2 { future, .. } => {
                     match Pin::new(future).poll(cx) {
                         Poll::Ready(Ok(body)) => {
                             *self = Resolved;
@@ -939,6 +939,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Async Rust compiles to state machines that yield control at await points. The Future trait defines the async contract: poll returns Ready when complete or Pending when waiting. Executors like tokio drive futures to completion. Pin prevents self-referential structs from moving in memory. This zero-cost abstraction generates code comparable to hand-written state machines, with the compiler optimizing away the async machinery.

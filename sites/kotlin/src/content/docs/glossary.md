@@ -27,7 +27,7 @@ tags: [glossary]
 
 **Non-Nullable Type**: A type that can never hold `null`. `String` is non-nullable; the compiler enforces this at compile time.
 
-**Nullable Type**: A type that can hold `null`, denoted with `?`: `String?` can be null.
+**Nullable Type**: A type that can hold `null`denoted with `?`: `String?` can be null.
 
 **Safe Call Operator (?.)**: Chains property access that short-circuits on null: `user?.address?.city` returns null if any part is null.
 
@@ -41,7 +41,7 @@ tags: [glossary]
 
 ## Data Types
 
-**Data Class**: A class that automatically generates `equals()`, `hashCode()`, `toString()`, `copy()`, and destructuring functions from constructor parameters.
+**Data Class**: A class that automatically generates `equals()``hashCode()``toString()``copy()`and destructuring functions from constructor parameters.
 
 ```kotlin
 data class User(val name: String, val age: Int)
@@ -82,7 +82,7 @@ when (x) {
 
 ## Functions
 
-**Function**: Defined with `fun`, supporting default parameters, named arguments, and single-expression bodies.
+**Function**: Defined with `fun`supporting default parameters, named arguments, and single-expression bodies.
 
 ```kotlin
 fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
@@ -108,7 +108,7 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 
 **Function Type**: Represents a function signature: `(Int, Int) -> Int` for a function taking two Ints and returning an Int.
 
-**Scope Functions**: `let`, `run`, `apply`, `also`, and `with` provide concise object operations with different return values and context references.
+**Scope Functions**: `let``run``apply``also`and `with` provide concise object operations with different return values and context references.
 
 **Trailing Lambda**: When the last parameter is a lambda, it can be written outside the parentheses: `list.map { it * 2 }`.
 
@@ -132,7 +132,7 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 
 **Structured Concurrency**: Coroutines launched in a scope are completed before the scope is cancelled, preventing leaked coroutines.
 
-**Flow**: A cold asynchronous stream that produces values on demand, supporting operators like `map`, `filter`, and `combine`.
+**Flow**: A cold asynchronous stream that produces values on demand, supporting operators like `map``filter`and `combine`.
 
 **Dispatcher**: Determines which thread pool a coroutine runs on: `Dispatchers.Main` for UI, `Dispatchers.IO` for I/O, `Dispatchers.Default` for CPU work.
 

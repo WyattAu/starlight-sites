@@ -404,6 +404,7 @@ $$\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}$$
 - **Operational complexity:** each shard is a separate database instance with its own backups,
   monitoring, and failover
 :::
+
 :::tip
 Connection pooling can handle millions of queries per hour. Only shard when you have exhausted
 Vertical scaling and single-node optimisations.
@@ -512,6 +513,7 @@ For large tables, `ALTER TABLE` can lock the table for hours. Strategies:
 - `ALTER TABLE ... ADD COLUMN ... DEFAULT NULL` (metadata-only in PG 11+)
 - Use `pg_partman` for partitioning without downtime
 :::
+
 :::caution
 Microservice architectures, check all services, not just the one you are deploying. A column used by
 A reporting service or a data pipeline can cause silent failures if dropped.
@@ -651,6 +653,7 @@ recovery_target_action = 'promote'
 - **Store backups offsite:** a backup on the same server is useless if the server fails.
 - **Encrypt backups:** database backups contain sensitive data.
 :::
+
 :::caution
 Tests and measure the actual time to recover. The most common backup failure mode is discovering
 That the backup is corrupted or incomplete when you need it most.
@@ -740,6 +743,7 @@ ALTER SYSTEM SET primary_conninfo = 'host=new-primary port=5432';
 SELECT pg_reload_conf();
 ```
 :::
+
 :::caution
 It is still the leader, but the replicas have already promoted one of their own). Always use a
 Consensus-based coordination system (Patroni + etcd) rather than custom scripts.

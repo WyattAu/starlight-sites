@@ -117,6 +117,7 @@ Allocation cost is amortized over many I/O calls, and the avoidance of heap-to-n
 Improves throughput. Use heap buffers for short-lived buffers where allocation speed matters more
 Than I/O throughput.
 :::
+
 ### `get` and `put` Operations
 
 ```java
@@ -225,6 +226,7 @@ try (FileChannel src = FileChannel.open(Path.of("source.bin"), StandardOpenOptio
 Number transferred). Loop until the return value is zero or an exception is thrown. On Linux with
 Ext4/xfs, the entire transfer completes in a single system call.
 :::
+
 ### File Locking
 
 `FileLock` provides advisory locking on files. Advisory means the lock is only enforced if all
@@ -260,6 +262,7 @@ Acquire overlapping exclusive locks on the same file, the second `lock()` call t
 `OverlappingFileLockException`. Use `tryLock()` for non-blocking acquisition. Locks are
 Automatically released when the channel is closed or the JVM exits.
 :::
+
 ### Socket Channels
 
 ```java
@@ -438,6 +441,7 @@ while (buf.hasRemaining()) {
 May return fewer bytes than requested, and a single `write()` may accept fewer bytes than provided.
 Always check the return value and manage the buffer position accordingly.
 :::
+
 ## `AsynchronousFileChannel`
 
 Introduced in JDK 7, `AsynchronousFileChannel` provides asynchronous file I/O operations. It
@@ -498,6 +502,7 @@ try (AsynchronousFileChannel channel = AsynchronousFileChannel.open(
 Thread pool. By default, this is the JVM-wide default `ForkJoinPool`. You can provide a custom
 `ExecutorService` via `AsynchronousFileChannel.open(path, options, executor)`.
 :::
+
 ## `Path` and `Files` Utility Classes
 
 ### `Path`
@@ -624,6 +629,7 @@ Memory. On 64-bit JVMs, the limit is the available virtual address space. Closin
 Does not immediately unmap the buffer, the mapped memory is released when the `MappedByteBuffer`
 Object is GC'd, which may be delayed.
 :::
+
 ## Intuition
 
 **Data highways:** NIO is like a postal system with express lanes, selectors let one thread manage many channels, making it ideal for high-performance servers.
@@ -959,7 +965,6 @@ private static void processBuffer(ByteBuffer buffer) {
     }
 }
 ```
-
 
 ```mermaid
 flowchart TD

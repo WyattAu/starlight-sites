@@ -12,7 +12,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -1388,6 +1387,7 @@ Critical exponents. In 1D, it predicts a phase transition at $T_c = Jz/k_B$Where
 Solution shows no transition at $T \gt 0$. Mean-field theory is only reliable in high dimensions
 (where fluctuations are small) or for long-range interactions.
 :::
+
 ## 15. The Microcanonical Ensemble
 
 ### 15.1 Definition and Fundamental Postulate
@@ -2022,16 +2022,19 @@ We can verify with the Clausius-Clapeyron equation if $\Delta V$ is known.
 Grand canonical ensemble ($\mu VT$) for open systems. For macroscopic systems in equilibrium, all
 Ensembles give the same thermodynamic results, but they differ in their fluctuation predictions.
 :::
+
 :::caution
 _quadratic_ degrees of freedom. Vibrational modes contribute $k_B T$ (not $k_B T/2$) because they
 Have both kinetic and potential energy terms. Electronic and rotational degrees of freedom may be
 "frozen out" at low temperatures when $k_B T$ is much less than the level spacing.
 :::
+
 :::caution
 Distinguishable. Always include the $1/N!$ factor in the partition function for identical particles.
 This is not an optional correction, it is required by quantum mechanics (indistinguishability of
 Identical particles) and ensures that entropy is extensive.
 :::
+
 ## 13. Nonequilibrium Thermodynamics
 
 ### 13.1 Entropy Production and the Second Law

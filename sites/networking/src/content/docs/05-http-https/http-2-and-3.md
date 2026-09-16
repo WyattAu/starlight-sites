@@ -146,6 +146,7 @@ Client                                          Server
   |<-- DATA [stream 4]: JS body -------------------|
 ```
 :::
+
 :::caution
 The rationale: caching is more effective (the client can predict what it needs based on the HTML),
 Push is hard to get right (pushing resources the client already has cached wastes bandwidth), and
@@ -170,6 +171,7 @@ weight:12  weight:20
 In this example, stream 1 gets twice the bandwidth of stream 3 (weight 32 vs 16). Within stream 1's
 Subtree, stream 7 gets more bandwidth than stream 5 (weight 20 vs 12).
 :::
+
 :::caution
 Often underwhelming. Most implementations use simple FIFO ordering. Do not rely on stream priority
 For critical performance optimization.
@@ -659,6 +661,7 @@ Result: streams 1, 3, 5 are processed normally
         streams 7, 9 may have been partially processed and should be retried
 ```
 :::
+
 :::note
 Sender should continue processing streams with IDs less than or equal to `last_stream_id`. Only new
 Streams with IDs greater than `last_stream_id` are rejected.
@@ -688,6 +691,7 @@ effective_window = min(connection_window, stream_window)
 The default initial window size is 65,535 bytes (65535 = 2^16 - 1). This can be changed via the
 SETTINGS frame's INITIAL_WINDOW_SIZE parameter.
 :::
+
 :::caution
 With their current window size. This can lead to confusion during the transition period.
 
@@ -896,7 +900,6 @@ A stream in the `closed` state no longer exists on the endpoint. However, the pe
 Stream is closed if the close frame is lost. The endpoint must be prepared to receive frames for a
 Closed stream for a short time window (the maximum of the idle timeout and 3 RTTs).
 
-
 ```mermaid
 flowchart TD
     A[Http 2 And 3] --> B[Key Concepts]
@@ -928,6 +931,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 HTTP/2 is like upgrading from a single-lane road to a multi-lane highway. HTTP/1.1 forces all requests to wait in line (head-of-line blocking), while HTTP/2 lets multiple requests travel simultaneously in separate lanes (streams) on the same connection. Header compression is like using abbreviations for frequently used phrases - instead of repeating the full address every time, you use a short code. HTTP/3 goes further by replacing the road entirely - QUIC runs over UDP, eliminating TCP's requirement that all packets arrive in order. This is like switching from a convoy system (where a slow truck blocks everyone) to independent delivery drones that can take different paths. The key insight is that these versions improve transport mechanics without changing HTTP semantics.

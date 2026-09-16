@@ -599,7 +599,7 @@ Returning all rows.
    code.
 
 ```python
-cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input))
+cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 ```
 
 1. **Input validation:** Reject or sanitise input that does not match expected patterns (e.g., email
@@ -612,6 +612,7 @@ cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input))
 defence against SQL injection. Use parameterised queries instead. Escape-based defences are fragile
 and have been bypassed by Encoding tricks (e.g., multibyte character exploits).
 :::
+
 ### 3.10 Query Optimisation Basics
 
 The SQL query optimiser automatically selects an execution plan, but understanding the basics helps
@@ -886,6 +887,7 @@ dependency (3NF violation). A Partial dependency involves a **proper subset** of
 determining a non-prime attribute. A transitive dependency involves a non-key attribute determining
 another non-prime attribute.
 :::
+
 ### 4.5 Multivalued Dependencies and 4NF
 
 A **multivalued dependency (MVD)** $X \twoheadrightarrow Y$ holds on relation $R$ if for any two

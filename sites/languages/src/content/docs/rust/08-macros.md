@@ -134,7 +134,7 @@ Separator and `rep` is one of:
 ```rust
 macro_rules! count_args {
     () => { 0usize };
-    ($first:tt $( $rest:tt)*) => {
+    ($first:tt $(, $rest:tt)*) => {
         1usize + count_args!($($rest),*)
     };
 }
@@ -148,7 +148,7 @@ The separator can be any token. Common separators are `,` (comma) and `;` (semic
 
 ```rust
 macro_rules! vector {
-    ($($elem:expr),* $()?) => {
+    ($($elem:expr),* $(,)?) => {
         {
             let mut v = Vec::new();
             $( v.push($elem); )*
@@ -170,7 +170,7 @@ Iteration of the outer one:
 
 ```rust
 macro_rules! matrix {
-    ($([$($elem:expr),+]),+ $()?) => {
+    ($([$($elem:expr),+]),+ $(,)?) => {
         {
             vec![
                 $(
@@ -270,7 +270,7 @@ macro_rules! vec {
     ($elem:expr; $n:expr) => {
         std::vec::from_elem($elem, $n)
     };
-    ($($x:expr),+ $()?) => {
+    ($($x:expr),+ $(,)?) => {
         <[_]>::into_vec(Box::new([$($x),+]))
     };
     () => {
@@ -307,7 +307,7 @@ Captures everything as token trees and passes them through to `format_args!`.
 
 ```rust
 macro_rules! assert_eq {
-    ($left:expr, $right:expr $()?) => ({
+    ($left:expr, $right:expr $(,)?) => ({
         match (&$left, &$right) {
             (left_val, right_val) => {
                 if !(*left_val == *right_val) {
@@ -355,6 +355,7 @@ macro_rules! my_assert {
 }
 ```
 :::
+
 :::note
 Definition appears. This means a macro defined in a submodule is accessible as
 `my_crate::my_assert!`Not `my_crate::submodule::my_assert!`. This is a historical design decision
@@ -375,7 +376,7 @@ Macro scoping in Rust has changed over editions. As of edition 2021:
 // In crate `helper`
 #[macro_export]
 macro_rules! make_map {
-    ($($key:expr => $val:expr),+ $()?) => {
+    ($($key:expr => $val:expr),+ $(,)?) => {
         {
             let mut m = $crate::HashMap::new();
             $(
@@ -1082,6 +1083,7 @@ pub fn sql(input: TokenStream) -> TokenStream {
 let (query, params) = sql!("SELECT * FROM users WHERE id = $1 AND name = $2", user_id, name);
 ```
 :::
+
 :::caution
 Validate parameter bindings at compile time, and generate type-safe code. Libraries like `sqlx` with
 Its `query!` macro provide this level of sophistication.
@@ -1635,7 +1637,6 @@ Names that include parts of the input.
 | `cargo-expand`          | Tool to view macro expansions                              |
 | `trybuild`              | Test harness for proc macro compile-fail tests             |
 | `insta`                 | Snapshot testing (useful for proc macro output)            |
-
 
 ```mermaid
 flowchart TD

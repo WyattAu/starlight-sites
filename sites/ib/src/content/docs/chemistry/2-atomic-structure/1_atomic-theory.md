@@ -261,8 +261,7 @@ $$
 \mathrm{radial nodes} = n - l - 1
 $$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 For the $3p$ orbital ($n = 3$$l = 1$):
 
 - Total nodes $= 2$
@@ -299,8 +298,9 @@ Where $S$ is the shielding constant estimated by Slater's rules.
 
 5. $n - 2$ and lower: each contributes $1.00$.
 :::
+
 :::note
-<strong>Example, $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)</strong>
+Example, $Z_{\mathrm{eff}}$ for a $4s$ electron in potassium ($Z = 19$)
 Configuration: $(1s)^2(2s,2p)^8(3s,3p)^8(4s)^1$
 
 - Same group ($4s$): $0$ other electrons
@@ -361,8 +361,8 @@ $$
 
 This reveals the number of valence electrons.
 :::
-:::note
-<strong>Example, Silicon ($Z = 14$)</strong>
+
+:::note[Example, Silicon ($Z = 14$)]
 $IE_1 = 787$$IE_2 = 1577$$IE_3 = 3228$$IE_4 = 4356$$IE_5 = 16091\mathrm{ kJ/mol}$
 
 The large jump from $IE_4$ to $IE_5$ indicates 4 valence electrons, consistent with silicon
@@ -823,7 +823,6 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
   [..../11-measurement-and-data-processing/1_measurement-and-data-processing](../11-measurement-and-data-processing/1_measurement-and-data-processing)
 - **Redox half-equations and oxidation states** → Review
   [..../9-redox/2_redox-advanced](../9-redox/2_redox-advanced)
-
 
 ```mermaid
 flowchart TD

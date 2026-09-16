@@ -273,6 +273,7 @@ Both texts depend heavily on dramatic irony:
 Between the texts. Stronger essays move beyond surface comparisons to explore how formal differences
 (novella vs play) shape the reader's experience of shared themes.
 :::
+
 ## Truth and Memory
 
 Both texts interrogate the reliability of truth and the way communities construct, suppress, and
@@ -341,6 +342,7 @@ Both authors destabilise the concept of objective truth through their narrative 
 Fragmented journalism and Williams's subjective staging both prevent the audience from ever grasping
 A complete, objective account, and this is precisely the point.
 :::
+
 ## Character Comparison: Eunice/Steve vs Clotilde Armenta
 
 ### The Bystander Figure
@@ -655,7 +657,6 @@ Audience's understanding of the central themes?"
    necessarily tight.
 
 4. Confusing authentication (who you are) with authorisation (what you can do) in security contexts.
-
 
 ```mermaid
 flowchart TD

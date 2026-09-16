@@ -63,6 +63,7 @@ Contribution). ADL adds the namespace `std` to the search set, where `operator<<
 Call to `operator<<``operator==`Or a custom swap function would require explicit namespace
 Qualification, breaking generic programming.
 :::
+
 ## 1.2 ADL in Detail [N4950 §6.5.4.2]
 
 For each argument in a function call, the following namespaces and classes are added to the lookup
@@ -399,6 +400,7 @@ struct Vec3 {
 };
 ```
 :::
+
 ## 1.7 Implicit Conversion Sequences in Depth
 
 An **implicit conversion sequence** (ICS) is the sequence of conversions the compiler applies to

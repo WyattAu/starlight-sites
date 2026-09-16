@@ -67,12 +67,12 @@ with defined relationships, and on **SQL** as the language for manipulating that
 
 ### SQL
 
-- **DDL (Data Definition Language)**, `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE` with constraints
-  (`PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`, `CHECK`)
-- **DML (Data Manipulation Language)**, `SELECT`, `INSERT`, `UPDATE`, `DELETE`
-- **Queries**, `WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, aggregate functions (`COUNT`, `SUM`,
-  `AVG`, `MIN`, `MAX`)
-- **Joins**, `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`; understanding what rows each returns
+- **DDL (Data Definition Language)**, `CREATE TABLE``ALTER TABLE``DROP TABLE` with constraints
+  (`PRIMARY KEY``FOREIGN KEY``NOT NULL``UNIQUE``CHECK`)
+- **DML (Data Manipulation Language)**, `SELECT``INSERT``UPDATE``DELETE`
+- **Queries**, `WHERE``ORDER BY``GROUP BY``HAVING`aggregate functions (`COUNT``SUM`
+  `AVG``MIN``MAX`)
+- **Joins**, `INNER JOIN``LEFT JOIN``RIGHT JOIN`; understanding what rows each returns
 - **Subqueries**, nested `SELECT` statements
 
 ### Transaction Processing

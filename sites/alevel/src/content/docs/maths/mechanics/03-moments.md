@@ -1,6 +1,5 @@
 ---
 
-
 title: "Moments"
 description: "Study notes for Moments | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ----------------------------- | | AQA | Paper 1 | Moments, equilibrium, tilting | | Edexcel | P1 |"
@@ -34,6 +33,7 @@ categories:
 :::note
 moments, and include the direction (clockwise/anticlockwise) of each moment.
 :::
+
 <hr />
 
 ## 1. Definition of a Moment
@@ -115,6 +115,7 @@ $R_{\mathrm{left}}$ decreases, the bridge load redistributes continuously.
 Clever point (often where an unknown force acts) can simplify calculations by eliminating that
 Unknown from the moment equation.
 :::
+
 <hr />
 
 ## 3. Equilibrium Conditions
@@ -228,6 +229,7 @@ Steeper ($\theta$ increases), $\cot\theta$ decreases and less friction is needed
 The wall. This changes the vertical equilibrium to $R_g + F_w = W$ and adds complexity to the moment
 Equation. Always read the question carefully to determine whether the wall is smooth or rough.
 :::
+
 ### 3.2.4 Ladder with a person on it
 
 When a person of weight $P$ stands on the ladder at a fraction $\alpha$ of the way up (distance
@@ -301,6 +303,7 @@ If you assume a rod is in tension and get a negative answer, the rod is in compr
 :::note
 unknown forces, Since you can only write two equilibrium equations per joint.
 :::
+
 <hr />
 
 ## 4. Centre of Mass
@@ -433,6 +436,7 @@ Since $125 \lt 200$The block **topples first** at $P = 125\,\mathrm{N}$.
 :::note
 occurs First, which matches our calculation.
 :::
+
 <hr />
 
 ## Problem Set
@@ -848,6 +852,7 @@ with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Intuition
 
 Moments measure the turning effect of a force about a point, like how pushing a door near its edge is more effective than pushing near the hinge. The principle of moments states that balance occurs when clockwise and anticlockwise turning effects cancel. Centre of mass is the average position of all mass, the point where gravity effectively acts. Frameworks distribute forces through members in tension or compression, and ladders against walls combine moments with friction to create stability problems that test all equilibrium conditions simultaneously.
@@ -865,7 +870,6 @@ Moments measure the turning effect of a force about a point, like how pushing a 
 
 4. Incorrectly applying $\vec{F} = m\vec{a}$ when forces are not collinear. Resolve into components
    first.
-
 
 ```mermaid
 flowchart TD

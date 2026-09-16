@@ -394,6 +394,7 @@ New species arise without geographic separation. Mechanisms include:
 interrupted, Describe the different selection pressures on each population, and explain how
 reproductive Isolation arises.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -728,6 +729,7 @@ Triple bond in $\mathrm{N}_2$ is very strong and requires significant energy to 
 nitrogen in the Form of nitrate ($\mathrm{NO}_3^-$) or ammonium ($\mathrm{NH}_4^+$) ions through
 their roots. Atmospheric nitrogen must first be fixed by bacteria or lightning.
 :::
+
 ### The Water Cycle
 
 The water cycle describes the continuous movement of water between the atmosphere, land, and oceans,
@@ -1583,7 +1585,6 @@ Higher biodiversity generally leads to greater ecosystem stability:
 - **Species richness and species diversity are NOT the same thing.** Species richness is a simple
   count of the number of species. Species diversity (e.g., Simpson's Diversity Index) takes both
   species richness AND evenness (relative abundance of each species) into account\*\* :::
-
 
 ```mermaid
 flowchart TD

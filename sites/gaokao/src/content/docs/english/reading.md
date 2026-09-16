@@ -128,7 +128,7 @@ D. totally indifferent
 
 **解答：**
 
-步骤1：分析作者态度, 既提到benefits也提到drawbacks
+步骤1：分析作者态度,既提到benefits也提到drawbacks
 
 步骤2：作者没有完全否定AI，也没有完全肯定
 
@@ -192,11 +192,11 @@ D. It has reduced its workforce significantly
 
 **解答：**
 
-步骤1：分析原文信息, 经济低迷中收入增长15%
+步骤1：分析原文信息,经济低迷中收入增长15%
 
 步骤2：CEO将增长归因于数字化转型和亚洲市场扩张
 
-步骤3：推理, 公司在困难时期仍能增长，说明成功适应了挑战
+步骤3：推理,公司在困难时期仍能增长，说明成功适应了挑战
 
 步骤4：排除A（"abandoned"太绝对）、C（与原文相反）、D（文中未提及裁员）
 
@@ -217,7 +217,7 @@ D. problem-solution
 
 **解答：**
 
-步骤1：分析段落内容, 先讲智能手机的好处，再讲坏处
+步骤1：分析段落内容,先讲智能手机的好处，再讲坏处
 
 步骤2：关键词"on the positive side"和"however"表示对比
 
@@ -247,7 +247,7 @@ D. problem-solution
 
 ## 更多典型例题
 
-### 例题7：推理判断题, 作者态度
+### 例题7：推理判断题,作者态度
 
 **题目：** Read the following passage and answer the question.
 
@@ -262,7 +262,7 @@ D. Indifferent
 
 **解答：**
 
-步骤1：分析作者观点, 作者既提到优点（accessibility and flexibility）也提到缺点（lack of interaction, digital divide）。
+步骤1：分析作者观点,作者既提到优点（accessibility and flexibility）也提到缺点（lack of interaction, digital divide）。
 
 步骤2：关键句"The truth likely lies somewhere in between"表明作者采取平衡立场。
 
@@ -274,7 +274,7 @@ D. Indifferent
 
 **考试技巧：** 作者态度题要避免选择极端选项（entirely, strongly, completely），除非原文有明确的极端表述。高考阅读中，作者通常持平衡、客观的态度。
 
-### 例题8：细节理解题, 数据推理
+### 例题8：细节理解题,数据推理
 
 **题目：** Read the following passage and answer the question.
 
@@ -301,7 +301,7 @@ D. 7.8 hours
 
 **常见错误：** 注意"at the same rate"是指增长率相同，而不是增长量相同。30%的增长率意味着乘以1.3。
 
-### 例题9：文章结构分析, 论证方法
+### 例题9：文章结构分析,论证方法
 
 **题目：** What argumentative method does the author primarily use in the following paragraph?
 
@@ -314,7 +314,7 @@ D. Problem-solution
 
 **解答：**
 
-步骤1：分析段落结构, 先提出论点（reading improves academic performance），再举例论证。
+步骤1：分析段落结构,先提出论点（reading improves academic performance），再举例论证。
 
 步骤2：关键词"For instance"和"Moreover"表明作者在举例支持论点。
 
@@ -326,7 +326,7 @@ D. Problem-solution
 
 **考试技巧：** 识别论证方法要注意信号词：for example, for instance（举例）；therefore, thus（因果）；on the other hand（对比）；the solution is（问题解决）。
 
-### 例题10：细节理解题, 推理计算
+### 例题10：细节理解题,推理计算
 
 **题目：** Read the following passage and answer the question.
 
@@ -355,7 +355,7 @@ D. 175.0%
 
 **常见错误：** 百分比增长的基数是原始值，不是新值。$\dfrac{350 - 200}{200}$，不是 $\dfrac{350 - 200}{350}$。
 
-### 例题11：推理判断题, 隐含信息
+### 例题11：推理判断题,隐含信息
 
 **题目：** Read the following passage and answer the question.
 
@@ -370,11 +370,11 @@ D. The government should ban traditional vehicles
 
 **解答：**
 
-步骤1：分析原文, 政府推广电动车，但采用率低，消费者认为初始成本高
+步骤1：分析原文,政府推广电动车，但采用率低，消费者认为初始成本高
 
-步骤2：专家观点, 电动车的总拥有成本实际上低于传统汽车
+步骤2：专家观点,电动车的总拥有成本实际上低于传统汽车
 
-步骤3：推理, 专家认为长期节省超过初始成本
+步骤3：推理,专家认为长期节省超过初始成本
 
 步骤4：排除A（专家说的是总成本，不是购买价格）、B（专家没有说消费者不理性）、D（专家没有说应该禁止）
 
@@ -382,7 +382,7 @@ D. The government should ban traditional vehicles
 
 **考试技巧：** 推理题要基于文中信息，不能过度推断。专家观点通常比较客观，避免极端选项。
 
-### 例题12：词义猜测题, 语境推断
+### 例题12：词义猜测题,语境推断
 
 **题目：** Read the following passage and answer the question.
 
@@ -397,7 +397,7 @@ D. confusion
 
 **解答：**
 
-步骤1：分析上下文, 公民怀疑政策的有效性，有人称之为"政治姿态"
+步骤1：分析上下文,公民怀疑政策的有效性，有人称之为"政治姿态"
 
 步骤2：关键词"doubt"（怀疑）和"mere political gesture"（仅仅是政治姿态）
 
@@ -408,7 +408,6 @@ D. confusion
 **答案：** B
 
 **考试技巧：** 词义猜测题要利用上下文线索，特别是同义词、反义词或解释性短语。
-
 
 ```mermaid
 flowchart TD

@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -130,7 +129,7 @@ Kotlin treats functions as first-class citizens. You can pass functions as argum
 
 **Higher-order functions** accept functions as parameters or return functions. They are the foundation of Kotlin's functional style, `list.map { it.toUpperCase() }` transforms each element using a lambda.
 
-**Scope functions** (`let`, `run`, `apply`, `also`, `with`) provide concise ways to work with objects. Each returns a different value and binds `this` or `it` differently. Use `apply` for object configuration, `let` for null checks and transformations, and `also` for side effects.
+**Scope functions** (`let``run``apply``also``with`) provide concise ways to work with objects. Each returns a different value and binds `this` or `it` differently. Use `apply` for object configuration, `let` for null checks and transformations, and `also` for side effects.
 
 **Sequences** enable lazy evaluation for collections. Instead of creating intermediate lists for each transformation, sequences process elements one at a time. This reduces memory allocation and improves performance for large data sets.
 
@@ -154,7 +153,7 @@ Coroutines are Kotlin's solution to asynchronous and concurrent programming. The
 
 **Structured concurrency** ensures that coroutines launched in a scope are completed before the scope is cancelled. This prevents leaked coroutines and simplifies lifecycle management. Use `viewModelScope` in Android and `CoroutineScope` in backend applications.
 
-**Flow** is Kotlin's cold asynchronous stream. It produces values on demand and supports backpressure. Operators like `map`, `filter`, `transform`, and `combine` enable composable data pipelines.
+**Flow** is Kotlin's cold asynchronous stream. It produces values on demand and supports backpressure. Operators like `map``filter``transform`and `combine` enable composable data pipelines.
 
 ---
 
@@ -176,7 +175,7 @@ Kotlin is the preferred language for Android development. Jetpack Compose, the m
 
 **State hoisting** moves state up to the parent composable, making child composables stateless and reusable. The pattern passes state down as parameters and events up as callbacks. This improves testability and reusability.
 
-**ViewModel** survives configuration changes (like screen rotation) and holds UI-related data. It exposes state through `StateFlow` or `MutableState`, and Compose collects this state to recompose the UI.
+**ViewModel** survives configuration changes (like screen rotation) and holds UI-related data. It exposes state through `StateFlow` or `MutableState`and Compose collects this state to recompose the UI.
 
 ---
 
@@ -194,7 +193,7 @@ Kotlin and Spring Boot integrate seamlessly. Spring Boot provides first-class Ko
 
 ### Key Concepts
 
-**Kotlin data classes** integrate naturally with JPA entities and DTOs. Spring Data JPA can generate queries from method names on repository interfaces, and Kotlin data classes provide concise entity definitions with automatic `equals()`, `hashCode()`, and `copy()`.
+**Kotlin data classes** integrate naturally with JPA entities and DTOs. Spring Data JPA can generate queries from method names on repository interfaces, and Kotlin data classes provide concise entity definitions with automatic `equals()``hashCode()`and `copy()`.
 
 **MockK** is a mocking library designed for Kotlin. It supports mocking final classes (which Java mocking libraries cannot), provides a Kotlin-idiomatic DSL, and integrates with Spring's test context.
 
@@ -266,7 +265,7 @@ Absolutely. Kotlin with Spring Boot is a popular combination for backend develop
 
 ### How do I manage Kotlin dependencies?
 
-Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projects. Define dependencies in `build.gradle.kts` using the `implementation`, `testImplementation`, and `kapt`/`ksp` configurations. The Kotlin Multiplatform plugin handles shared code across platforms.
+Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projects. Define dependencies in `build.gradle.kts` using the `implementation``testImplementation`and `kapt`/`ksp` configurations. The Kotlin Multiplatform plugin handles shared code across platforms.
 
 ---
 

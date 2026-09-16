@@ -839,6 +839,7 @@ print(Role.ADMIN == "admin")  # True
 - Use `StrEnum` (Python 3.11+) when members represent string constants that are also used in
   serialization or string comparisons.
 :::
+
 :::danger
 Single process, using `is` for comparison is a fragile pattern that does not work correctly across
 Pickling, multiprocess serialization, or when the enum is re-imported.
@@ -875,6 +876,7 @@ def process_item(item_id: int) -> None:
     logger.warning("Item %d has deprecated field", item_id)
 ```
 :::
+
 :::note
 Formatting until it determines that the message will actually be emitted. With f-strings, the string
 Is always constructed even if the log level is filtered out.
@@ -1031,6 +1033,7 @@ eastern = timezone(timedelta(hours=-4))
 print(aware.astimezone(eastern))  # 2025-06-04 10:00:00-04:00
 ```
 :::
+
 :::danger
 Timestamps that will be stored, transmitted, or compared across systems. Naive datetimes are
 Acceptable only for purely local display or when the timezone context is obvious and unambiguous

@@ -410,6 +410,7 @@ WHERE created_at >= '2024-01-01' AND created_at &lt; '2024-07-01';
 -- Parameters from prepared statements may prevent pruning
 ```
 :::
+
 :::caution
 Constraint across all partitions is not supported. Instead, use `UNIQUE(order_id, created_at)` or
 Enforce uniqueness at the application level.
@@ -790,6 +791,7 @@ SELECT * FROM cron.job_run_details ORDER BY start_time DESC LIMIT 20;
 SELECT cron.unschedule('nightly-vacuum');
 ```
 :::
+
 :::note
 Context of the database where pg_cron is installed. Cross-database scheduling is not supported.
 
@@ -916,6 +918,7 @@ Each table gets its own topic.
 Events include: before/after images, operation type, transaction metadata.
 ```
 :::
+
 :::caution
 Stops or falls behind, WAL accumulates on disk, potentially filling the storage. Monitor slot lag:
 
@@ -1079,7 +1082,6 @@ LIMIT 10;
 sub-second lookups on large corpora.
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

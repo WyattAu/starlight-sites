@@ -9,7 +9,6 @@ tags:
 
 ---
 
-
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/rust/flashcards-rust-basics-data.js';
 
@@ -28,9 +27,9 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 
 - **Borrow checker fights**: Trying to mutate data while an immutable borrow is still in scope, the compiler rejects this to prevent data races. Restructure your code to limit borrow lifetimes.
 - **Clone overuse**: Calling `.clone()` to satisfy the borrow checker avoids the real issue, understand when to use owned vs borrowed data, and consider `Rc<T>` or `Arc<T>` for shared ownership.
-- **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime, handle errors with `?`, `match`, or `if let` instead.
+- **Unwrap panics**: Using `.unwrap()` on a `Result::Err` or `Option::None` panics at runtime, handle errors with `?``match`or `if let` instead.
 - **Lifetime annotation confusion**: Forgetting that struct fields containing references need lifetime parameters, the compiler requires explicit lifetimes to prove references are valid.
-- **Iterator laziness**: Many iterator methods are lazy, calling `.map()` or `.filter()` without consuming the iterator (with `.collect()`, `.sum()`, etc.) does nothing. Always ensure you consume the iterator.
+- **Iterator laziness**: Many iterator methods are lazy, calling `.map()` or `.filter()` without consuming the iterator (with `.collect()``.sum()`etc.) does nothing. Always ensure you consume the iterator.
 
 ## Study Tips
 
@@ -50,6 +49,27 @@ Rust achieves memory safety without a garbage collector through its ownership sy
 - **[Site Home](../../):** Main landing page for rust notes.
 - **[Practice](../../practice-*):** Practice problems for revision.
 
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Detailed Content
 
@@ -73,7 +93,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -96,7 +115,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -118,30 +136,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 
 ## Detailed Content
 

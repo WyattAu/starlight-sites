@@ -20,7 +20,7 @@ description: "Study notes for Development Environment Setup with worked examples
 
 **Why it matters:** The tools you use daily have an outsized impact on your productivity. A fast terminal, a well-configured editor, and efficient shell aliases can save hours per week compared to slow, unconfigured defaults.
 
-**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat`, `fzf`, and `neovim` to display syntax highlighting and special characters correctly.
+**The key insight:** GPU-accelerated terminals render text faster and support true colour and Unicode, this is not just cosmetic; it enables tools like `bat``fzf`and `neovim` to display syntax highlighting and special characters correctly.
 
 ## Terminal Emulators
 
@@ -354,7 +354,7 @@ Ctrl+B, d               # Detach from session
 Ctrl+B, c               # Create new window
 Ctrl+B, n               # Next window
 Ctrl+B, p               # Previous window
-Ctrl+B,               # Rename window
+Ctrl+B, ,               # Rename window
 
 # Panes
 Ctrl+B, %               # Vertical split
@@ -916,7 +916,6 @@ build:
         npm run build; \
     fi
 ```
-
 
 ```mermaid
 flowchart TD

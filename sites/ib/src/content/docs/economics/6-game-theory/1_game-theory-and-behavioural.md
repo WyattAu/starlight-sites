@@ -841,7 +841,7 @@ valuations.
 
 ### Revenue Equivalence Theorem
 
-The revenue equivalence theorem states that , all standard auction Formats (English, Dutch,
+The revenue equivalence theorem states that, all standard auction Formats (English, Dutch,
 first-price sealed-bid, second-price sealed-bid) yield the same Expected revenue for the seller and
 the same expected surplus for the buyer with the highest Valuation.
 
@@ -2688,7 +2688,6 @@ equilibrium (no run) coexists with the inefficient equilibrium (run).
 
 **Policy solution:** deposit insurance (FDIC in the US) eliminates the incentive to run by
 Guaranteeing deposits. This changes the payoff structure, eliminating the run equilibrium.
-
 
 ```mermaid
 flowchart TD

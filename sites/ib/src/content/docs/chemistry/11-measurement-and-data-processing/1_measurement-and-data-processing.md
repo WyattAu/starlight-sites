@@ -56,8 +56,7 @@ $$
 \%u = \frac{\Delta x}{x} \times 100\%
 $$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 A burette reading of $24.50\mathrm{ cm}^3$ with smallest division $0.1\mathrm{ cm}^3$:
 
 $$
@@ -88,8 +87,8 @@ $$
 \%\mathrm{u}(a^n) = n \times \%\mathrm{u}(a)
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 The density of a sphere: $\rho = \dfrac{m}{\frac{4}{3}\pi r^3}$
 
 Given $m = 5.00 \pm 0.01\mathrm{ g}$ and $r = 1.00 \pm 0.01\mathrm{ cm}$:
@@ -152,8 +151,8 @@ $$
 | Logarithms              | Number of decimal places in result = sig figs in argument                |
 | Antilogarithms          | Number of sig figs in result = decimal places in argument                |
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 $$
 12.11 + 0.3 = 12.4 \quad \mathrm{(one decimal place)}
 $$
@@ -279,8 +278,8 @@ Used to confirm identity by comparison with a reference spectrum.
 3. Check $1700$--$1750\mathrm{ cm}^{-1}$ for C=O.
 4. Use the fingerprint region to confirm.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 An unknown compound shows: broad absorption at $3300\mathrm{ cm}^{-1}$Sharp absorption at
 $1700\mathrm{ cm}^{-1}$ And a C--O stretch at $1200\mathrm{ cm}^{-1}$. This is consistent with a
 Carboxylic acid.
@@ -458,8 +457,8 @@ Peaks appear at known positions:
 4. **$\mathrm{^{13}C}$ NMR**: Determine the number of carbon environments.
 5. Assemble the structural fragments and propose a structure consistent with all data.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A compound has molecular ion $\mathrm{M}^+ = 88$. IR shows a strong broad peak at
 $3000$--$2500\mathrm{ cm}^{-1}$ and a strong peak at $1710\mathrm{ cm}^{-1}$. $\mathrm{^1H}$ NMR:
 $\delta\ 1.2\ (t,\ 3\mathrm{H})$, $\delta\ 2.6\ (q,\ 2\mathrm{H})$ $\delta\ 11.0\ (s,\ 1\mathrm{H})$.
@@ -946,7 +945,6 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
   [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
 - **Equilibrium constant expressions** → Review
   [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
-
 
 ```mermaid
 flowchart TD

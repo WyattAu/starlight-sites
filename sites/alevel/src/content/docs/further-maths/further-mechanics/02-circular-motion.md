@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[02 Circular Motion] --> B[Key Concepts]
@@ -54,6 +53,7 @@ Determine unknown forces.
 (tension, friction, normal reaction, weight) directed towards the centre of the circle. Never
 Include "centripetal force" on a free body diagram.
 :::
+
 <hr />
 
 ## 1. Angular Quantities

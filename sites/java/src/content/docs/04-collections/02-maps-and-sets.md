@@ -80,6 +80,7 @@ Map<String, Integer> map = new HashMap<>((int) (1000 / 0.75f) + 1);
 :::caution
 `ConcurrentHashMap` for concurrent access.
 :::
+
 ### `LinkedHashMap`
 
 Extends `HashMap` and maintains a doubly-linked list running through all entries. Iteration order is
@@ -316,6 +317,7 @@ workPlusWeekend.addAll(weekend);
 Single `long` (for enums with up to 64 values) or a `long[]` (for larger enums). All operations are
 Simple bit manipulations.
 :::
+
 ## Set Operations
 
 Java does not provide built-in union, intersection, or difference operators on sets, but the methods
@@ -390,6 +392,7 @@ public class Person {
 `List.equals` compares element-by-element and `List.hashCode` depends on all elements. If you modify
 A list after using it as a key, the map will no longer find it. Use immutable collections as keys.
 :::
+
 ### `Objects.hash` and `Arrays.hashCode`
 
 ```java
@@ -498,6 +501,7 @@ Set<String> immutableSet = Set.copyOf(mutableSet);
 `NullPointerException`. This is by design, nulls in collections are a common source of bugs, and
 The immutable factories enforce non-null.
 :::
+
 ### Unmodifiable Wrappers
 
 JDK 8 and earlier provide unmodifiable wrappers via `Collections`:
@@ -556,6 +560,7 @@ Iteration requires external synchronization:
 `synchronized (syncList) { for (String s : syncList) { ... } }`. For better concurrency, use
 `CopyOnWriteArrayList`.
 :::
+
 ## Collection Design Patterns
 
 ### Multimap (Map of Lists)
@@ -842,6 +847,7 @@ System.out.println(metadata.size()); // possibly 0
 as the GC discovers that a key is weakly reachable. If you need size-bounded caching, use
 `LinkedHashMap` with `removeEldestEntry` or a dedicated cache library like Caffeine.
 :::
+
 ### Sorted Collection Views
 
 `Collections` provides unmodifiable sorted views:

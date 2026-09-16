@@ -44,7 +44,7 @@ pid = spawn(fn -> IO.puts("Hello from process") end)
 #PID<0.123.0>
 
 ## spawn/3 - takes module, function name, and arguments list
-pid = spawn(SomeModule:some_function, [arg1, arg2])
+pid = spawn(SomeModule, :some_function, [arg1, arg2])
 
 # The spawned process runs independently
 spawn(fn ->
@@ -63,7 +63,7 @@ and matched with `receive` blocks:
 ```elixir
 defmodule Messenger do
   def start do
-    pid = spawn(__MODULE__:loop, [])
+    pid = spawn(__MODULE__, :loop, [])
     pid
   end
 
@@ -74,7 +74,7 @@ defmodule Messenger do
         loop()
 
       {:ping, from} ->
-        send(from:pong)
+        send(from, :pong)
         loop()
 
       :stop ->
@@ -90,7 +90,7 @@ send(pid, {:ping, self()})
 receive do
   :pong -> IO.puts("Got pong!")
 end
-send(pid:stop)
+send(pid, :stop)
 ```
 
 ### receive with after (Timeout)
@@ -104,7 +104,7 @@ receive do
     {:error, reason}
 after
   5000 ->
-    {:error:timeout}
+    {:error, :timeout}
 end
 ```
 
@@ -130,16 +130,16 @@ pid = self()
 
 # Process information
 Process.info(pid)
-# Returns map with :status:memory:message_queue_len:reductions, etc.
+# Returns map with :status, :memory, :message_queue_len, :reductions, etc.
 
-Process.info(pid:status)
+Process.info(pid, :status)
 # :running | :waiting | :runnable | :exiting
 
-Process.info(pid, [:memory:message_queue_len])
+Process.info(pid, [:memory, :message_queue_len])
 # [memory: 4186, message_queue_len: 0]
 
 # Register a process with a name
-Process.register(pid:my_server)
+Process.register(pid, :my_server)
 Process.whereis(:my_server)
 # #PID<0.123.0>
 
@@ -148,24 +148,24 @@ Process.alive?(pid)
 # true or false
 
 # Send a message
-Process.send(pid:hello, [])
+Process.send(pid, :hello, [])
 # Third argument is options (empty list = no options)
 
 # Send after a delay
-Process.send_after(pid:check, 5000)
+Process.send_after(pid, :check, 5000)
 # Returns a timer reference for cancellation
 
 # Kill a process (non-violent)
-Process.exit(pid:shutdown)
+Process.exit(pid, :shutdown)
 
 # Kill a process (violent - sends exit signal)
-Process.exit(pid:kill)
+Process.exit(pid, :kill)
 
 # Get process dictionary (process-local storage)
 Process.put(:key, "value")
 Process.get(:key)
 # "value"
-Process.get(:missing:default)
+Process.get(:missing, :default)
 # :default
 Process.delete(:key)
 
@@ -213,9 +213,9 @@ message is sent to the monitoring process. The monitoring process does NOT crash
 end)
 
 receive do
-  {:DOWN, ^ref:process, ^pid, reason} ->
+  {:DOWN, ^ref, :process, ^pid, reason} ->
     IO.puts("Process #{inspect(pid)} exited: #{inspect(reason)}")
-    # {:DOWN, #Reference<...>:process, #PID<...>, {:error...}}
+    # {:DOWN, #Reference<...>, :process, #PID<...>, {:error, ...}}
 end
 ```
 
@@ -252,11 +252,11 @@ defmodule Stack do
   end
 
   def pop do
-    GenServer.call(__MODULE__:pop)
+    GenServer.call(__MODULE__, :pop)
   end
 
   def peek do
-    GenServer.call(__MODULE__:peek)
+    GenServer.call(__MODULE__, :peek)
   end
 
   # Server Callbacks
@@ -268,12 +268,12 @@ defmodule Stack do
 
   @impl true
   def handle_call({:push, item}, _from, state) do
-    {:reply:ok, [item | state]}
+    {:reply, :ok, [item | state]}
   end
 
   @impl true
   def handle_call(:pop, _from, []) do
-    {:reply, {:error:empty}, []}
+    {:reply, {:error, :empty}, []}
   end
 
   @impl true
@@ -288,7 +288,7 @@ defmodule Stack do
 
   @impl true
   def handle_call(:peek, _from, []) do
-    {:reply, {:error:empty}, []}
+    {:reply, {:error, :empty}, []}
   end
 
   @impl true
@@ -319,7 +319,7 @@ end
 
 ```elixir
 # call - synchronous (blocks until reply)
-{:ok, item} = GenServer.call(server_pid:pop)
+{:ok, item} = GenServer.call(server_pid, :pop)
 # The caller waits for {:reply, reply, new_state}
 
 # cast - asynchronous (returns :ok immediately)
@@ -327,7 +327,7 @@ GenServer.cast(server_pid, {:push, 42})
 # Returns :ok immediately, does not wait for processing
 
 # call with timeout
-GenServer.call(server_pid:pop, 5000)
+GenServer.call(server_pid, :pop, 5000)
 # Raises :timeout if no reply within 5000ms
 
 # Using GenServer in a module
@@ -335,16 +335,16 @@ defmodule Counter do
   use GenServer
 
   def start_link(opts \\ []) do
-    name = Keyword.get(opts:name, __MODULE__)
+    name = Keyword.get(opts, :name, __MODULE__)
     GenServer.start_link(__MODULE__, 0, name: name)
   end
 
   def increment(pid \\ __MODULE__) do
-    GenServer.cast(pid:increment)
+    GenServer.cast(pid, :increment)
   end
 
   def get(pid \\ __MODULE__) do
-    GenServer.call(pid:get)
+    GenServer.call(pid, :get)
   end
 
   @impl true
@@ -371,7 +371,7 @@ def handle_info({:schedule, task}, state) do
 end
 
 @impl true
-def handle_info({:DOWN, _ref:process, _pid, _reason}, state) do
+def handle_info({:DOWN, _ref, :process, _pid, _reason}, state) do
   {:noreply, cleanup(state)}
 end
 
@@ -418,7 +418,7 @@ Each child process has a specification that defines how it should be started and
 # Using a full child spec map
 %{
   id: MyApp.Worker,
-  start: {MyApp.Worker:start_link, [[]]},
+  start: {MyApp.Worker, :start_link, [[]]},
   restart: :permanent,
   shutdown: 5000,
   type: :worker,
@@ -769,7 +769,7 @@ defmodule TaskManager do
   use GenServer
 
   def start_link(opts \\ []) do
-    name = Keyword.get(opts:name, __MODULE__)
+    name = Keyword.get(opts, :name, __MODULE__)
     GenServer.start_link(__MODULE__, %{}, name: name)
   end
 
@@ -782,7 +782,7 @@ defmodule TaskManager do
   end
 
   def list_tasks(manager \\ __MODULE__) do
-    GenServer.call(manager:list)
+    GenServer.call(manager, :list)
   end
 
   @impl true
@@ -800,12 +800,12 @@ defmodule TaskManager do
   def handle_call({:complete, id}, _from, state) do
     case Map.get(state.tasks, id) do
       nil ->
-        {:reply, {:error:not_found}, state}
+        {:reply, {:error, :not_found}, state}
 
       task ->
         updated = %{task | status: :completed}
         new_tasks = Map.put(state.tasks, id, updated)
-        {:reply:ok, %{state | tasks: new_tasks}}
+        {:reply, :ok, %{state | tasks: new_tasks}}
     end
   end
 
@@ -842,7 +842,6 @@ end
 **Why it matters:** OTP transforms concurrency from "manage shared state carefully" to "let things crash and restart from known-good state." This is why Erlang/Elixir systems can run for years without downtime, failures are expected, isolated, and automatically recovered.
 
 **The key insight:** Supervision trees turn failure from a catastrophe into a routine event, each process is disposable, and the system's reliability comes from the restart strategy, not from preventing crashes.
-
 
 ```mermaid
 flowchart TD

@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[02 Exponential And Continuous Random Variables] --> B[Key Concepts]
@@ -54,6 +53,7 @@ Interval.
 Both are memoryless. The Poisson process links all three distributions: Poisson counts events,
 Exponential measures inter-arrival times, and geometric counts trials until the first event.
 :::
+
 <hr />
 
 ## 1. Continuous Random Variables
@@ -72,6 +72,7 @@ $$P(a \leq X \leq b) = \int_a^b f(x)\,dx$$
 :::caution
 $P(a \leq X \leq b) = P(a < X < b)$, the inequalities at individual points do not matter.
 :::
+
 ### 1.2 Cumulative distribution function
 
 **Definition.** The **cumulative distribution function** (CDF) is
@@ -204,6 +205,7 @@ Exponentially distributed lifetime has been working for $s$ hours, the remaining
 Same distribution as a brand new component. This means exponential lifetimes imply no "wear out"
 Effect, which is why it is more appropriate for electronic components than mechanical ones.
 :::
+
 ### 2.6 Link to Poisson processes
 
 A **Poisson process** with rate $\lambda$ satisfies:

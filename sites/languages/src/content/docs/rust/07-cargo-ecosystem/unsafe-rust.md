@@ -212,6 +212,7 @@ unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
 :::
+
 :::danger
 Only do this when you can rigorously prove thread safety. This requires that the raw Pointer is only
 accessed through a synchronization mechanism (mutex, atomic, etc.) that the compiler Cannot see.
@@ -248,7 +249,7 @@ extern "C" {
     fn abs(input: i32) -> i32;
     fn malloc(size: usize) -> *mut u8;
     fn free(ptr: *mut u8);
-    fn printf(format: *const i8...) -> i32;
+    fn printf(format: *const i8, ...) -> i32;
 }
 
 fn main() {
@@ -462,6 +463,7 @@ impl<'a> Interner<'a> {
 }
 ```
 :::
+
 :::danger
 A lifetime tied to the arena, which is correct as long as the arena outlives all interned
 References. If the arena is dropped while interned references exist, they become dangling.
@@ -659,6 +661,7 @@ impl Buffer {
 }
 ```
 :::
+
 :::danger
 Byte of the `MaybeUninit` has been written to before calling `assume_init()`. Use `write_bytes`
 Individual `write()` calls, or `ptr::copy_nonoverlapping` to initialize the memory.
@@ -925,6 +928,7 @@ When reviewing code that uses `unsafe`Verify:
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Unsafe Rust lets you bypass the borrow checker's guarantees when you can prove safety manually. Raw pointers, unsafe function calls, and trait implementations require unsafe blocks. FFI (Foreign Function Interface) uses unsafe to call C code. The key insight is that unsafe does not disable the type system; it adds five additional capabilities that the compiler cannot verify automatically. Properly encapsulated unsafe code behind safe abstractions maintains the overall safety guarantee.

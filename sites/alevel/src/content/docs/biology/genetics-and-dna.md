@@ -77,6 +77,7 @@ Strand. It cannot initiate synthesis de novo -- it requires a pre-existing $3'-\
 Which is provided by the RNA primer. Students often forget to mention primase and primers when
 Describing replication.
 :::
+
 ## 2. Protein Synthesis
 
 ### 2.1 Transcription
@@ -174,6 +175,7 @@ Are neutral (silent mutations, mutations in non-coding DNA). Some are harmful (c
 Disorders), and a few are beneficial (provide the variation upon which natural selection acts). The
 Harmful mutations are eliminated by selection; beneficial ones may increase in frequency.
 :::
+
 ## 4. Meiosis
 
 ### 4.1 Purpose and Overview
@@ -296,6 +298,7 @@ Co-dominance, both alleles produce their full product (both A and B antigens are
 Incomplete dominance, the heterozygote produces less of the dominant product (an intermediate
 Phenotype). The genetic ratios for both are 1:2:1, but the phenotypic expression differs.
 :::
+
 ## 6. Gene Expression and Epigenetics
 
 ### 6.1 Gene Regulation
@@ -354,6 +357,7 @@ Sequence itself. Mutations are permanent changes to the nucleotide sequence. Epi
 Passed to daughter cells during mitosis (and meiosis), but they can also be removed by Environmental
 changes.
 :::
+
 ## 7. Genetic Technology
 
 ### 7.1 The Polymerase Chain Reaction (PCR)
@@ -436,6 +440,7 @@ does not Involve bacteria or modification of living organisms -- it is an in vit
 gel Electrophoresis, and DNA sequencing are analytical techniques, while recombinant DNA technology
 involves The creation of genetically modified organisms (GMOs).
 :::
+
 ## 8. Advanced Genetic Crosses
 
 ### 8.1 Epistasis
@@ -496,6 +501,7 @@ cross. If the genes are linked, the observed ratio will deviate from 9:3:3:1, wi
 parental Phenotypes and a deficit of recombinant phenotypes. Always check whether the genes are on
 the same Chromosome before applying Mendel's second law.
 :::
+
 ### 8.3 Sex Determination
 
 In mammals, sex is determined by the sex chromosomes: XX = female, XY = male. The SRY gene on the Y
@@ -1295,6 +1301,7 @@ reversible (unlike mutations). However, epigenetic changes can be inherited thro
 (mitosis) and, in rare cases, across generations (transgenerational epigenetic inheritance). Genetic
 mutations are permanent changes to the DNA sequence itself.
 :::
+
 ## 20. Genetic Disorders: Detailed Analysis
 
 ### 20.1 Cystic Fibrosis (CF)
@@ -1552,6 +1559,7 @@ and DNA with other biology topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 ## 24. Genetic Screening and Counselling
 
 ### 24.1 Genetic Screening Programmes
@@ -2064,7 +2072,6 @@ specific positions.
 
 6. Writing vague answers without specific biological terminology. Use precise terms (e.g.,
    'phospholipid bilayer' not 'membrane').
-
 
 ```mermaid
 flowchart TD

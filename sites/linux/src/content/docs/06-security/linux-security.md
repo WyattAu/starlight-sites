@@ -256,6 +256,7 @@ CapabilityBoundingSet=CAP_NET_BIND_SERVICE CAP_NET_RAW
 NoNewPrivileges=yes
 ```
 :::
+
 :::tip
 Is especially dangerous as it encompasses many sub-capabilities. Use more specific capabilities
 Whenever possible.
@@ -805,7 +806,6 @@ grep root /etc/passwd
 `setenforce 0` changes the mode only for the running system. After a reboot, the system returns to
 The mode specified in `/etc/selinux/config`. Do not rely on `setenforce` for persistent
 Configuration changes.
-
 
 ```mermaid
 flowchart TD

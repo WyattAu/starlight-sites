@@ -58,7 +58,7 @@ data Color = Red | Green | Blue
 ```
 
 The `deriving` clause works by generating boilerplate code at compile time. It is available for
-these standard type classes: `Eq`, `Ord`, `Enum`, `Bounded`, `Show`, `Read`.
+these standard type classes: `Eq``Ord``Enum``Bounded``Show``Read`.
 
 ## Show and Read
 
@@ -655,7 +655,7 @@ The relationship between these three type classes is:
 
 $$\text{Functor} \subset \text{Applicative} \subset \text{Monad}$$
 
-Every `Monad` is an `Applicative`, and every `Applicative` is a `Functor`. However, there are useful
+Every `Monad` is an `Applicative`and every `Applicative` is a `Functor`. However, there are useful
 types that are `Functor` or `Applicative` but not `Monad`:
 
 ```haskell
@@ -705,7 +705,6 @@ class Hashable a where
   hashWithSalt salt x = salt `combine` hash x
   -- Minimal complete definition: hash
 ```
-
 
 ```mermaid
 flowchart TD
@@ -829,7 +828,7 @@ main = do
 -- Email: alice@example.com
 ```
 
-**Explanation:** `MaybeT IO` stacks `Maybe` on top of `IO`. The `do` notation sequences operations that may fail at each step. If any `MaybeT` action returns `Nothing`, the entire computation short-circuits. `lift` would be used to embed plain `IO` actions inside `MaybeT IO`.
+**Explanation:** `MaybeT IO` stacks `Maybe` on top of `IO`. The `do` notation sequences operations that may fail at each step. If any `MaybeT` action returns `Nothing`the entire computation short-circuits. `lift` would be used to embed plain `IO` actions inside `MaybeT IO`.
 
 ---
 
@@ -875,8 +874,8 @@ instance FromConfig Bool where
 config :: Map.Map String String
 config = Map.fromList
   [ ("host", "localhost")
-("port", "8080")
-("debug", "true")
+  , ("port", "8080")
+  , ("debug", "true")
   ]
 
 getHost :: Either String String
@@ -895,7 +894,7 @@ getDebug = fromConfig config "debug"  -- Right True
 
 **Confusing type class instances with type class definitions.** A type class defines an interface (like `Eq`), while an instance makes a specific type implement that interface (like `instance Eq Bool`). Students often mix up the `class` keyword (which defines the interface) with the `instance` keyword (which provides an implementation).
 
-**Using `show` on values without a `Show` instance.** The `show` function requires the `Show` type class. If a type does not derive or implement `Show`, calling `show` on it produces a compilation error. Always check that the type has a `Show` instance before using `show` or `print`.
+**Using `show` on values without a `Show` instance.** The `show` function requires the `Show` type class. If a type does not derive or implement `Show`calling `show` on it produces a compilation error. Always check that the type has a `Show` instance before using `show` or `print`.
 
 **Forgetting that type class constraints propagate through function signatures.** Writing `f :: Eq a => a -> a -> Bool` means the function works for any type with an `Eq` instance. Students sometimes omit the constraint, then wonder why the compiler complains about `==` being undefined for their type.
 

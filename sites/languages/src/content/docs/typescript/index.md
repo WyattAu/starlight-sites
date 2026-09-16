@@ -291,7 +291,7 @@ TypeScript and React work together to provide type-safe component development:
 
 3. **Use the type inference**, TypeScript can often infer types from usage. You do not always need explicit annotations. Let the compiler do the work when the type is obvious.
 
-4. **Learn the utility types**, `Partial`, `Required`, `Pick`, `Omit`, `Record`, `Exclude`, `Extract`these save you from writing repetitive type definitions.
+4. **Learn the utility types**, `Partial``Required``Pick``Omit``Record``Exclude``Extract`these save you from writing repetitive type definitions.
 
 5. **Read error messages carefully**, TypeScript error messages are descriptive and often tell you exactly what is wrong. Learn to parse them.
 

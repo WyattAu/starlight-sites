@@ -157,7 +157,7 @@ handling completes the picture with robust failure modes.
 
 ### Move vs Copy Decision Tree
 
-1. Is the type cheap to copy (e.g., `int`, `span`)? → Copy by value.
+1. Is the type cheap to copy (e.g., `int``span`)? → Copy by value.
 2. Is ownership being transferred? → `std::move` into a `unique_ptr`.
 3. Is the argument only read? → Pass by `const&`.
 4. Is the argument stored? → Pass by value and move internally (`T param` then
@@ -174,6 +174,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Related Topics
 
 - [Rust Ownership and Borrowing](https://languages.wyattau.com/rust/ownership/), Rust"s compile-time ownership model as an alternative to C++ manual resource management.

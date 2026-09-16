@@ -95,9 +95,10 @@ Every device is connected to every other device (full mesh) or to multiple devic
 | Failure impact | High fault tolerance; data can route around failed connections                                             |
 
 :::caution
-<strong>Exam Tip In exam questions, always discuss both advantages AND disadvantages of each</strong>
+Exam Tip In exam questions, always discuss both advantages AND disadvantages of each
 Topology. Star is the most common in modern LANs due to ease of management and fault isolation.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -291,6 +292,7 @@ document.getElementById(''myButton").onclick = function () {
 :::note
 Fundamental principle of web development.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -438,10 +440,11 @@ To register a domain:
 | **Cellular** (4G/5G) | Mobile network                        | 100 Mbps (4G) -- 10 Gbps (5G)     | km-scale         | Various               |
 
 :::caution
-<strong>Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the</strong>
+Exam Tip Fibre optics is immune to electromagnetic interference (EMI), supports the
 Highest bandwidth and longest distances, but is the most expensive and difficult to install. Twisted
 Pair is the cheapest but has the lowest bandwidth and is susceptible to EMI.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -582,10 +585,11 @@ The OSI (Open Systems Interconnection) model has 7 layers:
 | Data Link, Physical                | Network Access (Link) |
 
 :::caution
-<strong>Exam Tip Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll</strong>
+Exam Tip Memorise the OSI layers from top to bottom using mnemonics. Common one: **A**ll
 **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing (Application, Presentation, Session,
 Transport, Network, Data Link, Physical).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1146,7 +1150,6 @@ Internet -- Modem -- Router -- Central Switch
 - **Ethernet cables:** Physical transmission medium carrying data between devices.
 
 </details>
-
 
 ```mermaid
 flowchart TD

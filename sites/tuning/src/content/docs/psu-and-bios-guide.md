@@ -90,6 +90,7 @@ Efficiency is not constant across the load range. Typical efficiency curves show
 The PSU"s rated capacity. This places you near peak efficiency while maintaining headroom for
 Transient spikes.
 :::
+
 ### 80 PLUS Certification
 
 The 80 PLUS program certifies PSU efficiency at 20%, 50%, and 100% of rated load at 115 V AC (230 V
@@ -130,6 +131,7 @@ The ATX power supply specification is maintained by Intel. Key versions include:
 RTX 5090) that can draw extremely high transient loads. Non-ATX 3.0 units may trigger OPP during
 These transients, causing system shutdowns under load.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -173,6 +175,7 @@ while another hits its limit.
 Designs are preferred in enterprise and server environments where cable management and fault
 Isolation are critical. The quality of the PSU matters far more than the rail configuration.
 :::
+
 ### Connectors
 
 | Connector    | Pins      | Use                                             | Max Current (per spec)    |
@@ -190,6 +193,7 @@ Isolation are critical. The quality of the PSU matters far more than the rail co
 Resistance of cheap adapters can cause excessive voltage drop and heating at the SATA end. This is a
 Documented fire hazard. Use native SATA connectors or replace the PSU.
 :::
+
 ### Modular vs Non-Modular vs Semi-Modular
 
 - **Non-modular (fixed-cable):** All cables are permanently attached. Maximum reliability (fewer
@@ -278,6 +282,7 @@ Capacitor lifespan. This is why PSU temperature rating and fan curves matter.
 Transient response have likely degraded. For high-end systems, consider replacing PSUs older than
 7--8 years, especially if they use non-Japanese capacitors.
 :::
+
 ### Headroom Recommendations
 
 The standard recommendation is 20--30% headroom above calculated peak power draw. This provides
@@ -400,6 +405,7 @@ Group-regulated PSUs unsuitable for modern systems where the load is almost enti
 Rail (CPU, GPU, fans, pumps). With group regulation, the lightly-loaded +3.3 V and +5 V rails will
 Have their voltages pushed out of specification, potentially damaging connected devices.
 :::
+
 ### Active PFC vs Passive PFC
 
 **Power Factor Correction (PFC)** aligns the current draw waveform with the voltage waveform,
@@ -469,6 +475,7 @@ Too many GPU power cables to the same rail segment, OCP may trigger even though 
 Capacity has not been exceeded. Distributing cables across different rail segments (or using a
 Single-rail unit) resolves this.
 :::
+
 ### OPP (Over Power Protection)
 
 **Definition.** OPP shuts down the PSU when total output power exceeds a safe threshold, 110--130%
@@ -501,6 +508,7 @@ That monitor each rail for sudden current surges characteristic of short circuit
 This indicates a genuine fault, either a short circuit in a component, a damaged cable, or a
 Failing PSU. Continued operation risks fire and total system destruction.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -673,6 +681,7 @@ And DMI buses diverge from their specifications. Use the multiplier for CPU over
 Memory ratio for RAM overclocking. Reserve BCLK adjustments for fine-tuning when the multiplier
 Limits have been reached.
 :::
+
 ### FCLK (Infinity Fabric)
 
 **Definition.** On AMD Zen 2, Zen 3, and Zen 4 platforms, FCLK is the clock speed of the Infinity
@@ -752,6 +761,7 @@ More CPU subsystems (clocks, core voltage, cache) to reduce power consumption wh
 Frequency transitions that can cause instability during stress tests. For daily use, enable them,
 The power savings are significant (10--40 W at idle on modern CPUs).
 :::
+
 ### EIST / SpeedStep
 
 Intel SpeedStep Technology (EIST) allows the CPU to dynamically adjust its clock multiplier and
@@ -807,6 +817,7 @@ to DDR4-2666, or DDR5-4800), regardless of the kit's rated capability.
 Manual enabling. Memory running on XMP/EXPO is technically overclocked, though the manufacturer has
 Validated the kit at those settings.
 :::
+
 ### Frequency
 
 Memory frequency is expressed in MT/s (mega-transfers per second), which for DDR (double data rate)
@@ -869,6 +880,7 @@ Kits specify 1.40--1.45 V in their XMP profiles. For daily use, keep VDIMM at or
 Rated XMP voltage. The absolute maximum recommended by most memory manufacturers is 1.50 V, but
 Longevity at that voltage is not guaranteed.
 :::
+
 ### Memory Training
 
 **Definition.** Memory training is the process by which the BIOS/UEFI and memory controller
@@ -902,6 +914,7 @@ The memory controller frequency.
 only when running DDR5-6400 or higher, and even then the improvement depends on the Application.
 Always benchmark both configurations.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -947,6 +960,7 @@ reach 5--15% in certain titles. Not all games benefit.
 :::note
 4G Decoding is also enabled, as ReBAR requires it.
 :::
+
 ### PCIe Lane Allocation
 
 On platforms with limited PCIe lanes (e.g., Intel H670/B660 with 20 lanes vs Z690 with 24 lanes),
@@ -1004,6 +1018,7 @@ Windows Storage Spaces) and ties the array to the specific platform.
 Gain over a single NVMe SSD is marginal in most consumer workloads. Use RAID 0 only for scratch
 Space or workloads where the data is disposable and rebuildable.
 :::
+
 ### SATA Mode
 
 - **AHCI (Advanced Host Controller Interface):** The standard SATA mode. Supports NCQ (Native
@@ -1017,6 +1032,7 @@ Space or workloads where the data is disposable and rebuildable.
 Driver is tied to the SATA mode selected during installation. If you need to change SATA mode,
 Reinstall the OS or pre-load the appropriate driver before switching.
 :::
+
 ### Boot Order
 
 The boot order determines which storage device the firmware attempts to boot from. UEFI specifies
@@ -1034,6 +1050,7 @@ Common boot order configurations:
 Entries can be added, removed, and reordered. Hard drive boot entries are specific to partitions,
 Not physical drives. Removing a drive does not leave a stale boot entry (unlike legacy BIOS).
 :::
+
 ### CSM (Compatibility Support Module)
 
 **Definition.** CSM provides legacy BIOS compatibility for booting operating systems that require
@@ -1076,6 +1093,7 @@ Device passthrough.
 Virtualization support. Some boards group these under a single "Virtualization" toggle; others
 Expose them individually.
 :::
+
 ### USB Configuration
 
 Key USB settings in BIOS:
@@ -1223,6 +1241,7 @@ Full load. This provides thermal headroom for ambient temperature fluctuations a
 Cooling system is not operating at its limit. If you cannot keep temperatures below 85 C, your
 Overclock is limited by cooling, not silicon.
 :::
+
 ### Silicon Lottery
 
 **Definition.** Silicon lottery refers to the natural variation in overclocking potential between
@@ -1292,6 +1311,7 @@ Profiles, and RAID configurations. RAID arrays configured through the chipset ar
 Data remains), but the RAID metadata may need to be re-imported. Document your settings before
 Clearing CMOS.
 :::
+
 ### No-Post Debugging
 
 A "no-post" condition is when the system powers on but does not complete POST (Power-On Self-Test),
@@ -1449,7 +1469,6 @@ The PSU is like the heart of the system. It pumps power (electricity) to every c
 
 BIOS settings are like the instructions in a user manual. They tell the hardware how to behave before the operating system takes over. Changing BIOS settings is like rewriting the manual: you can unlock features the manufacturer disabled, but you must understand what you are changing.
 
-
 ```mermaid
 flowchart TD
     A[Psu And Bios Guide] --> B[Key Concepts]
@@ -1481,6 +1500,7 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Undervolting and Overclocking](undervolting-and-overclocking) - How BIOS settings control voltage regulation and power delivery

@@ -83,6 +83,7 @@ When ZFS reads a block, it:
 Changed after pool creation. `edonr` is the fastest on hardware with SSE4.2+ support and provides
 Excellent collision resistance.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -153,6 +154,7 @@ Set at pool creation time and cannot be changed afterward.
 With 4 KB physical sectors causes read-modify-write amplification, devastating performance. On
 TrueNAS, the default `ashift` is 12, which is correct for virtually all modern drives.
 :::
+
 ### Pool Creation Examples
 
 ```bash
@@ -230,6 +232,7 @@ Variable-size blocks up to this maximum. The optimal recordsize depends on the w
 Retain their original block sizes. To benefit from a recordsize change, you must rewrite the data
 (e.g., copy files to a new dataset with the desired recordsize).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -364,6 +367,7 @@ Synchronous write can lose acknowledged data, violating the sync guarantee. Inte
 Persistent memory is the gold standard for SLOG devices. Enterprise NVMe SSDs with PLP are also
 Acceptable. Consumer NVMe SSDs without PLP should not be used as SLOG devices.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -421,6 +425,7 @@ zpool status tank
 RAIDZ1 pool, all data is lost. For RAIDZ2, you can tolerate a second failure. Always monitor
 Resilver progress and ensure the pool is healthy before and after.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -780,6 +785,7 @@ zfs rollback -rf tank/data@daily-2024-01-10
 :::caution
 Target snapshot. Use `zfs clone` instead if you want to preserve the current state.
 :::
+
 ## ZFS Send/Receive Advanced Usage
 
 ### Raw Send for Encrypted Datasets
@@ -1091,6 +1097,7 @@ ZFS is not just a filesystem but a complete storage management system that combi
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Sharing and Permissions](../02-sharing-and-permissions/sharing-and-permissions) -- ZFS datasets are shared through protocols like SMB and NFS, connecting pool management to file access.

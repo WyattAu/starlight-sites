@@ -453,8 +453,8 @@ Enables type-safe manipulation of function parameter lists and tuple concatenati
 ```ts
 type Arr = readonly any[];
 
-function concat<T extends Arr, U extends Arr>(a: T, b: U): [...T...U] {
-  return [...a...b];
+function concat<T extends Arr, U extends Arr>(a: T, b: U): [...T, ...U] {
+  return [...a, ...b];
 }
 
 const result = concat([1, 2] as const, ['a', 'b'] as const);
@@ -465,8 +465,8 @@ The type of `result` is `readonly [1, 2, "a", "b"]`.
 ### Tail and Head Extraction
 
 ```ts
-type Head<T extends any[]> = T extends [infer H...any[]] ? H : never;
-type Tail<T extends any[]> = T extends [any...infer Rest] ? Rest : [];
+type Head<T extends any[]> = T extends [infer H, ...any[]] ? H : never;
+type Tail<T extends any[]> = T extends [any, ...infer Rest] ? Rest : [];
 
 type H = Head<[1, 2, 3]>;
 type T = Tail<[1, 2, 3]>;
@@ -492,7 +492,7 @@ const combined = pipe(double, stringify);
 
 ```ts
 type Push<T extends any[], V> = [...T, V];
-type Prepend<T extends any[], V> = [V...T];
+type Prepend<T extends any[], V> = [V, ...T];
 
 type A = Push<[1, 2], 3>;
 type B = Prepend<[1, 2], 0>;
@@ -582,7 +582,7 @@ type RequiredConfig = {
 
 ```ts
 type Split<S extends string, D extends string> = S extends `${infer Head}${D}${infer Tail}`
-  ? [Head...Split<Tail, D>]
+  ? [Head, ...Split<Tail, D>]
   : [S];
 
 type Parts = Split<'a-b-c', '-'>;
@@ -596,7 +596,7 @@ type Join<T extends string[], D extends string> = T extends []
   ? ''
   : T extends [infer Only]
     ? string & Only
-    : T extends [infer Head...infer Rest]
+    : T extends [infer Head, ...infer Rest]
       ? `${string & Head}${D}${Join<Rest extends string[] ? Rest : [string & Rest], D>}`
       : string;
 
@@ -678,7 +678,7 @@ type Sum = 7;
 
 ```ts
 type Subtract<A extends number, B extends number> =
-  BuildTuple<A> extends [...BuildTuple<B>...infer Rest]
+  BuildTuple<A> extends [...BuildTuple<B>, ...infer Rest]
     ? Rest['length'] extends infer R extends number
       ? R
       : never
@@ -692,7 +692,7 @@ type Diff = 4;
 
 ```ts
 type GreaterThan<A extends number, B extends number> =
-  BuildTuple<A> extends [...BuildTuple<B>...any[]] ? true : false;
+  BuildTuple<A> extends [...BuildTuple<B>, ...any[]] ? true : false;
 
 type A = GreaterThan<5, 3>;
 type B = GreaterThan<3, 5>;
@@ -829,7 +829,6 @@ function isUSD(value: number): value is USD {
 
 This assertion is true because the brand is erased. For meaningful runtime validation, add Actual
 checks.
-
 
 ```mermaid
 flowchart TD

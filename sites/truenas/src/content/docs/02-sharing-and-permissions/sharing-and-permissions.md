@@ -696,6 +696,7 @@ For user home directories:
 Authentication and authorization checks. Use it only for public read-only shares (e.g., a shared
 Software repository).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -806,6 +807,7 @@ smbstatus -b | head -30
 
 The `Dialect` column should show `SMB3_11` or higher for encrypted connections.
 :::
+
 ## NFSv4.2 Features
 
 NFSv4.2 introduces several features that improve performance and usability compared to NFSv4.1 and
@@ -866,6 +868,7 @@ mount -t nfs4 -o minorversion=2,pnfs truenas.local:/mnt/tank/data /mnt/nfs
 Can increase latency for small random I/O. For mixed workloads, 1MB is a reasonable default. For
 Metadata-heavy workloads (mail servers, source code repositories), consider 128K or 256K.
 :::
+
 ## iSCSI Target Configuration Deep Dive
 
 ISCSI provides block-level storage access over Ethernet, which is essential for VMware ESXi,
@@ -901,6 +904,7 @@ midclt call iscsi.portal.create '{
 Other services introduces latency and packet loss that directly impacts storage performance. If
 Possible, use a separate VLAN or physical network for iSCSI.
 :::
+
 ### Extent Configuration
 
 An extent maps a ZFS volume (zvol) to the iSCSI target:
@@ -947,6 +951,7 @@ midclt call iscsi.initiatorgroup.update 1 '{
 Configuration when possible, as it masks the secret. Never expose CHAP credentials in scripts
 Checked into version control.
 :::
+
 ## Windows ACL Delegation Examples
 
 When integrating TrueNAS with Active Directory, you can delegate permission management to non-admin
@@ -1035,6 +1040,7 @@ Have permissions that SMB clients cannot interpret (POSIX vs Windows ACL mapping
 Replication or rsync pipeline to synchronize content. Alternatively, use SMB exclusively with
 Windows ACL support enabled.
 :::
+
 ### Not Setting Up DNS Properly
 
 ISCSI and NFS performance degrades significantly when the client cannot resolve the server's
@@ -1048,7 +1054,6 @@ host 10.0.0.10
 # Both should return consistent results
 # If using /etc/hosts, ensure entries exist on both client and server
 ```
-
 
 ```mermaid
 flowchart TD

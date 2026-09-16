@@ -104,6 +104,7 @@ Concatenation, and Kleene star.
   understanding of decidability
 - **Edexcel** covers finite state machines and basic automata theory
 :::
+
 <hr />
 
 ## 3. Regular Expressions
@@ -608,7 +609,6 @@ For revision on algorithms and complexity, see
 4. **Confusing P with NP.** P is the class of problems solvable in polynomial time. NP is the class whose YES-instances can be verified in polynomial time. P ⊆ NP, but whether P = NP is unknown. NP-complete problems are in NP but not known to be in P.
 
 5. **Drawing NFA transitions incorrectly.** An NFA can have multiple transitions for the same input symbol from a single state, and can have ε-transitions (changing state without consuming input). DFAs have exactly one transition per symbol per state.
-
 
 ```mermaid
 flowchart TD

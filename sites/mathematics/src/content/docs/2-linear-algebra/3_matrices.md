@@ -330,7 +330,6 @@ factor of 57. $\blacksquare$
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[3_Matrices] --> B[Key Concepts]
@@ -347,5 +346,6 @@ flowchart TD
 - **[Systems of Linear Equations](4_systems-of-linear-equations)**: Gaussian elimination transforms matrices into row echelon form to solve linear systems.
 - **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

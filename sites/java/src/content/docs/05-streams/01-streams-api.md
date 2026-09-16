@@ -75,9 +75,9 @@ Streams are lazy for three reasons:
 ```java
 // Lazy evaluation in action -- only 3 elements are ever processed
 // even though the source could be infinite
-IntStream.iterate(1, n -> n + 1)       // infinite: 1, 2, 3, 4...
-    .filter(n -> n % 2 == 0)           // lazy: 2, 4, 6...
-    .map(n -> n * n)                   // lazy: 4, 16, 36...
+IntStream.iterate(1, n -> n + 1)       // infinite: 1, 2, 3, 4, ...
+    .filter(n -> n % 2 == 0)           // lazy: 2, 4, 6, ...
+    .map(n -> n * n)                   // lazy: 4, 16, 36, ...
     .limit(3)                          // short-circuiting: takes only 3
     .forEach(System.out::println);     // terminal: triggers the pipeline
 // Output: 4, 16, 36
@@ -358,6 +358,7 @@ List<Integer> unique = Stream.of(1, 2, 2, 3, 1, 4, 3)
 streams with expensive `equals()`/`hashCode()` implementations, this can be costly. Consider whether
 `distinct()` is necessary or whether you can eliminate duplicates at the source.
 :::
+
 ### sorted
 
 Returns a stream sorted according to natural order or a provided `Comparator`. This is a
@@ -405,6 +406,7 @@ contract, which states that intermediate operations should be free of side effec
 in parallel streams, `peek()` may be called from multiple threads simultaneously, making any side
 effect unsafe without synchronization.
 :::
+
 ### limit
 
 Truncates the stream to at most `maxSize` elements. This is a **short-circuiting stateful**
@@ -453,6 +455,7 @@ elements in encounter order. For **unordered** streams (e.g., `HashSet.parallelS
 behavior is nondeterministic -- different elements may be taken or dropped on different runs because
 the encounter order is not defined.
 :::
+
 ## Terminal Operations
 
 Terminal operations trigger the processing of the entire pipeline and produce a result or a side
@@ -518,6 +521,7 @@ String concatenated = Stream.of("a", "b", "c")
 streams, because partial results may be combined in any order. The identity value must also satisfy
 `identity op x == x` for all x.
 :::
+
 ### count
 
 Returns the number of elements in the stream.
@@ -587,6 +591,7 @@ element that the parallel worker encounters first, without the synchronization o
 maintaining encounter order. Use `findAny()` when you do not care about which element is returned --
 it is faster in parallel streams because it avoids ordering constraints.
 :::
+
 ### toArray
 
 Converts the stream elements into an array.
@@ -661,6 +666,7 @@ LinkedHashMap<String, Integer> ordered = people.stream()
 function is provided. This is a common source of runtime exceptions. Always provide a merge function
 if duplicate keys are possible, or use `groupingBy` when multiple values per key are expected.
 :::
+
 ### joining
 
 Concatenates stream elements into a single `String`.
@@ -736,6 +742,7 @@ Map<Boolean, Long> counts = names.stream()
 boolean predicate. `partitioningBy` always creates both map entries (true and false), even if one
 group is empty. `groupingBy` only creates entries for groups that have at least one element.
 :::
+
 ### counting / summingInt / averagingInt
 
 Reduction collectors for numeric aggregates.
@@ -972,6 +979,7 @@ String result3 = opt.orElseThrow();  // throws NoSuchElementException
 String result4 = opt.orElseThrow(() -> new IllegalArgumentException("not found"));
 ```
 :::
+
 :::danger
 always evaluates `defaultValue`Even if the `Optional` is present. `orElseGet(supplier)` only invokes
 the supplier when the `Optional` is empty.
@@ -984,6 +992,7 @@ String result = opt.orElse(computeExpensiveDefault());
 String result = opt.orElseGet(() -> computeExpensiveDefault());
 ```
 :::
+
 ### Transforming Values
 
 ```java

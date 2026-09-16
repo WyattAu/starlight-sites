@@ -171,6 +171,7 @@ Physical:     [Bits on wire]
 - TCP: HTTP, HTTPS, FTP, SMTP, SSH
 - UDP: DNS, DHCP, TFTP, online gaming, video streaming, VoIP
 :::
+
 ### TCP Three-Way Handshake
 
 1. **SYN:** Client → Server: "I want to connect"
@@ -760,7 +761,6 @@ And sends the frame there.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

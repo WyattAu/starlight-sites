@@ -209,6 +209,7 @@ Reentrancy prevents certain deadlock patterns and allows the optimistic read mec
 Used with `Condition` or in `synchronized`-style patterns. Convert to a `ReadWriteLock` view via
 `asReadLock()` / `asWriteLock()` if needed.
 :::
+
 ## Condition
 
 `Condition` (from `java.util.concurrent.locks`) provides `await`/`signal` semantics similar to
@@ -262,6 +263,7 @@ public class BoundedBuffer<T> {
 Wake without a `signal`. The loop re-checks the condition. This is mandated by the Javadoc for
 `Object.wait` and `Condition.await`.
 :::
+
 ### Fair vs Non-fair Conditions
 
 The fairness of `Condition` follows the fairness of its associated `ReentrantLock`. A fair lock"s
@@ -452,6 +454,7 @@ long total = wordCounts.reduceValuesToLong(4, Long::longValue, 0, Long::sum);
 And `null` values. This is a deliberate design decision, `null` is ambiguous in concurrent contexts
 (does `get(key)` returning `null` mean "key not found" or "value is null"?).
 :::
+
 ### `ConcurrentLinkedQueue`
 
 An unbounded, thread-safe, FIFO queue based on a linked list. Uses lock-free CAS for all operations.
@@ -488,6 +491,7 @@ listeners.add(newListener);
 :::caution
 Iterator operates on a snapshot and does not reflect modifications made during iteration.
 :::
+
 ### Blocking Queues
 
 Blocking queues are designed for producer-consumer patterns. `put` blocks when full, `take` blocks
@@ -679,6 +683,7 @@ public void doGet(HttpServletRequest req, HttpServletResponse resp) {
 :::caution
 `finally` block. Threads are reused; stale values from a previous task will leak into the next task.
 :::
+
 ## Deadlock
 
 ### Prevention with Lock Ordering

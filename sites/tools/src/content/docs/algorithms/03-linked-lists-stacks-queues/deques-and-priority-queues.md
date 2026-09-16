@@ -265,6 +265,7 @@ def heapify(arr):
     return arr
 ```
 :::
+
 :::tip
 $O(h)$. There are at most $\lceil n / 2^{h+1} \rceil$ nodes at height $h$. The total cost is
 $\sum_{h=0}^{\lfloor \log n \rfloor} \lceil n / 2^{h+1} \rceil \cdot O(h) = O(n \sum_{h=0}^{\infty} h / 2^{h}) = O(n)$.
@@ -696,6 +697,7 @@ Times relative to `extract_min`. In practice:
 | Prim (sparse)     | $O((V+E) \log V)$ | $O(V \log V + E)$   | Binary heap      |
 | Prim (dense)      | $O(V^2 \log V)$   | $O(V^2)$            | Fibonacci heap   |
 :::
+
 :::caution
 Heaps (or 4-ary heaps) are almost always faster in practice. Pairing heaps are a simpler alternative
 That achieves the same amortised bounds for most operations.

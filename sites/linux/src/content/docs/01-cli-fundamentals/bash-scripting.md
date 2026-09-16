@@ -312,6 +312,7 @@ calculate() {
 }
 ```
 :::
+
 :::caution
 Scope. This is one of the most common sources of bash script bugs.
 
@@ -546,7 +547,7 @@ echo "${str/%foo/QUX}"           # foo bar foo baz QUX (end)
 ```bash
 str="Hello World"
 echo "${str^^}"          # HELLO WORLD (all uppercase)
-echo "${str,}"          # hello world (all lowercase)
+echo "${str,,}"          # hello world (all lowercase)
 echo "${str^}"           # Hello world (first character uppercase)
 echo "${str,}"           # hello World (first character lowercase)
 
@@ -764,6 +765,7 @@ trap 'echo "ERROR: line $LINENO, command: $BASH_COMMAND, exit: $?"' ERR
 false
 ```
 :::
+
 :::caution
 `pipefail`The trap fires for the failing command, not the pipeline as a whole. Avoid relying on
 `ERR` trap in complex pipelines, explicit error checking is more reliable.
@@ -1171,7 +1173,6 @@ ls "$files"  # passes literal "*.txt" to ls
 files=(*.txt)
 ls "${files[@]}"
 ```
-
 
 ```mermaid
 flowchart TD

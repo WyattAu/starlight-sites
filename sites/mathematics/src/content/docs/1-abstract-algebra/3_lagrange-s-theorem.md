@@ -124,6 +124,7 @@ $|H||K| = |HK| \cdot |H \cap K|$. $\blacksquare$
 subgroup when $H$ or $K$ is normal. In that case, $|HK| = |H||K|/|H \cap K|$ also divides $|G|$ by
 Lagrange.
 :::
+
 ### 3.6 Common Pitfalls
 
 - **Confusing index with order.** The index $[G:H]$ is the number of cosets, not the order of $H$.
@@ -201,7 +202,6 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 - **Number theory:** Fermat's Little Theorem and Euler's Theorem underpin RSA encryption and primality testing.
 - **Coding theory:** The structure of cosets of subgroups in finite groups is used in linear codes and syndrome decoding.
 - **Computational group theory:** Lagrange's Theorem bounds the search space when testing subgroup membership; the index determines the number of coset representatives needed.
-
 
 ```mermaid
 flowchart TD

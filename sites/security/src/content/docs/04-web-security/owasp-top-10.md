@@ -26,7 +26,7 @@ Act outside their intended permissions.
 ## VULNERABLE: Any user can access any order by changing the ID
 @app.route("/api/orders/<order_id>')
 def get_order(order_id):
-    order = db.query("SELECT * FROM orders WHERE id = %s", (order_id))
+    order = db.query("SELECT * FROM orders WHERE id = %s", (order_id,))
     return jsonify(order)
 
 ## SAFE: Verify the user owns the resource
@@ -194,7 +194,7 @@ cursor.execute(f"SELECT * FROM users WHERE id = {user_id} AND SUBSTRING(password
 cursor.execute(f"SELECT * FROM users WHERE id = {user_id}; IF SUBSTRING(password,1,1)='a' WAITFOR DELAY '0:0:5'")
 
 # SAFE: parameterized query
-cursor.execute("SELECT * FROM users WHERE id = %s", (user_id))
+cursor.execute("SELECT * FROM users WHERE id = %s", (user_id,))
 ```
 
 ### NoSQL Injection
@@ -677,7 +677,6 @@ OWASP Top 10 is a awareness document, not a compliance checklist. It does not co
 Vulnerabilities. Supplement with ASVS (Application Security Verification Standard), threat modeling,
 And regular penetration testing.
 
-
 ```mermaid
 flowchart TD
     A[Owasp Top 10] --> B[Key Concepts]
@@ -713,6 +712,7 @@ The OWASP Top 10 represents the most critical web application security risks. Th
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

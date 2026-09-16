@@ -67,6 +67,7 @@ $$G = 1 - 2B$$
 :::note
 - Denmark: 0.28 | Germany: 0.31 | UK: 0.35 | USA: 0.40 | Brazil: 0.52 | South Africa: 0.63
 :::
+
 ### 1.3 Limitations of the Gini Coefficient
 
 1. **Insensitive to changes at different parts of the distribution**: a transfer from a rich person
@@ -225,6 +226,7 @@ Exists some $t^* \in (0, 1)$ that maximises revenue.
 $t^*$ lies. Most empirical estimates for developed economies suggest that income tax rates are below
 The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 :::
+
 ### 5.3 Evaluating the Trade-Off
 
 **Arguments that equity and efficiency can be complementary:**
@@ -247,6 +249,7 @@ The revenue-maximising rate, meaning tax cuts would _reduce_ revenue.
 Reduce inequality?), efficiency (does it create disincentives?), equity (is it fair?), fiscal cost
 (can the government afford it?), and unintended consequences (does it create poverty traps?).
 :::
+
 ## 6. Critical Evaluation
 
 ### Strengths of Redistributive Policies
@@ -271,6 +274,7 @@ Coefficient, including calculations. Edexcel emphasises poverty measures and gov
 Covers inequality in the context of development economics. OCR (A) links distribution to market
 Failure and government intervention.
 :::
+
 ## 7. Formal Derivations
 
 ### 7.1 Derivation of the Gini Coefficient from the Lorenz Curve
@@ -1259,7 +1263,6 @@ These experiments suggest that UBI is most effective in developing countries (wh
 transfer represents a large share of income) and less transformative in developed countries (where
 it is too small to replace existing welfare systems). The political economy challenge is that the
 level of UBI needed to replace existing benefits in developed countries is fiscally very expensive.
-
 
 ```mermaid
 flowchart TD

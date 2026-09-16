@@ -42,6 +42,7 @@ Interface.
 `FindFirstFileW`Etc.). The interface is the same on both platforms, but some features are only
 Available on one (e.g., file permissions are more expressive on POSIX).
 :::
+
 ### `std::filesystem::path`
 
 `std::filesystem::path` is a portable path type that stores a sequence of path components and
@@ -123,6 +124,7 @@ Filesystem. `fs::canonical()` resolves them by actually querying the filesystem 
 Path does not exist). Use `lexically_normal()` for string-level cleanup, `canonical()` when you need
 The true absolute path.
 :::
+
 ### Directory Iterators
 
 The library provides two directory iterators [N4950 §30.10.11]:
@@ -163,6 +165,7 @@ Directory returns `is_symlink() == true` but also `is_directory() == true` (sinc
 Follows symlinks by default). Use `fs::directory_options::follow_directory_symlink` to follow
 Symlinks into directories, but be careful of symlink cycles.
 :::
+
 ### Recursive Directory Listing
 
 ```cpp
@@ -223,6 +226,7 @@ Directories that the current process lacks permission to read. Without this opti
 Like `/home` or `/tmp` where some subdirectories may have restricted permissions [N4950
 §30.10.11.1].
 :::
+
 ### File Operations
 
 The `std::filesystem` namespace provides free functions for common file operations [N4950
@@ -290,6 +294,7 @@ void file_operations_demo(const fs::path& work_dir) {
 Confirmation. Never call it with a path derived from untrusted user input without validation. Unlike
 `rm -rf`There is no "trash" or "undo" mechanism.
 :::
+
 ## See Also
 
 - [Chrono Library](./2_chrono)
@@ -334,6 +339,7 @@ Nanoseconds (Windows FILETIME), while on POSIX it used 1-second resolution (`sta
 C++20 improves this, but portability issues remain for sub-second precision. Always test on your
 Target platforms.
 :::
+
 ### Permissions
 
 File permissions on `std::filesystem` are modeled as a bitmask of `fs::perms` enumerators [N4950
@@ -384,6 +390,7 @@ void permissions_demo(const fs::path& file) {
 :::caution
 Permissions are not supported. The `owner_exec` permission is not meaningful on Windows.
 :::
+
 ### Symbolic Links
 
 `std::filesystem` distinguishes between the symlink itself and its target [N4950 §30.10.10]:
@@ -537,6 +544,7 @@ void error_handling_demo() {
 (e.g., checking if a file exists by trying to open it). Exception-based error handling has overhead
 From stack unwinding, while error codes do not.
 :::
+
 ### Temporary Files and Atomic Write Patterns
 
 A common pattern for safe file writing is to write to a temporary file, then atomically rename it:
@@ -615,7 +623,6 @@ void atomic_write(const fs::path& target, std::string_view content) {
 **Why it matters:** The filesystem library eliminates platform-specific code for file operations. Instead of writing `#ifdef _WIN32` blocks, you write `std::filesystem::exists(path)` and it works everywhere. It also provides safe error handling with `std::error_code` instead of exceptions, and supports operations like recursive directory traversal, path manipulation, and file metadata queries.
 
 **The key insight:** `std::filesystem` provides platform-independent file operations, write once, run on any OS.
-
 
 ```mermaid
 flowchart TD

@@ -27,17 +27,17 @@ specific course, please refer to the IB Computer Science notes on this site for 
 - **Syntax and semantics**, primitive types, operators, control flow, arrays
 - **Object-oriented programming**, classes, objects, inheritance, polymorphism, interfaces,
   abstract classes
-- **Exception handling**, checked vs. unchecked exceptions, `try`/`catch`/`finally`, custom
+- **Exception handling**, checked vs. unchecked exceptions, `try`/`catch`/`finally`custom
   exceptions
 - **Generics**, type parameters, bounded types, wildcards, type erasure
 
 ### Standard Library
 
-- **Collections Framework**, `List` (`ArrayList`, `LinkedList`), `Set` (`HashSet`, `TreeSet`),
-  `Map` (`HashMap`, `TreeMap`); choosing the right collection
-- **Streams API**, functional-style operations on collections: `filter`, `map`, `reduce`, `collect`
+- **Collections Framework**, `List` (`ArrayList``LinkedList`), `Set` (`HashSet``TreeSet`),
+  `Map` (`HashMap``TreeMap`); choosing the right collection
+- **Streams API**, functional-style operations on collections: `filter``map``reduce``collect`
 - **I/O**, byte streams, character streams, buffered I/O, NIO
-- **Concurrency**, `Thread`, `Runnable`, `ExecutorService`, `synchronized`, `java.util.concurrent`
+- **Concurrency**, `Thread``Runnable``ExecutorService``synchronized``java.util.concurrent`
 
 ### Best Practices
 
@@ -162,7 +162,6 @@ Java is the language of "write once, run anywhere." It compiles to bytecode that
 - [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
 - [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
 - [Collections Framework](../../../../../java/src/content/docs/04-collections/01-collections-framework)
-
 
 ## Advanced Content
 

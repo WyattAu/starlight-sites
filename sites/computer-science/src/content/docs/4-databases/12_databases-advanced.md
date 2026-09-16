@@ -137,8 +137,8 @@ collapsing rows (unlike GROUP BY).
 
 ```sql
 FUNCTION(args) OVER (
-    [PARTITION BY col1, col2...]
-    [ORDER BY col3, col4...]
+    [PARTITION BY col1, col2, ...]
+    [ORDER BY col3, col4, ...]
     [frame_clause]
 )
 ```
@@ -262,6 +262,7 @@ SELECT * FROM reachable WHERE depth <= 5;
 Always include a cycle check (e.g., tracking the path or visited nodes) or a depth limit. PostgreSQL
 supports the `CYCLE` clause for automatic cycle detection.
 :::
+
 ## 3. Advanced Normalisation
 
 ### 3.1 Join Dependencies and Fifth Normal Form (5NF)
@@ -517,6 +518,7 @@ acyclic, and by Theorem 5.1, the schedule is conflict-serialisable. $\blacksquar
 not be necessary: there exist conflict-serialisable schedules that cannot be produced by any 2PL
 protocol.
 :::
+
 ### 5.4 Multi-Version Concurrency Control (MVCC)
 
 MVCC maintains multiple versions of each data item, allowing readers to access a consistent snapshot

@@ -129,7 +129,7 @@ print(sum(nums))
 
 **Correct: B** (index 1)
 
-Generator expressions are consumed once and exhausted. `sum(nums)` iterates through all values (0+1+4+9+16 = 30). After the first `sum`, the generator is exhausted. The second `sum` sees an empty generator and returns 0.
+Generator expressions are consumed once and exhausted. `sum(nums)` iterates through all values (0+1+4+9+16 = 30). After the first `sum`the generator is exhausted. The second `sum` sees an empty generator and returns 0.
 
 `medium`1 mark
 
@@ -277,7 +277,7 @@ print(a is c)
 
 **Correct: C** (index 2)
 
-Python interns small strings and string literals, `a` and `b` reference the same interned object, so `a is b` is `True`. `c` is constructed at runtime via `join`, creating a new string object. Even though `c` has the same content, it is a different object, so `a is c` is `False`.
+Python interns small strings and string literals, `a` and `b` reference the same interned object, so `a is b` is `True`. `c` is constructed at runtime via `join`creating a new string object. Even though `c` has the same content, it is a different object, so `a is c` is `False`.
 
 `medium`1 mark
 
@@ -493,7 +493,7 @@ D().greet()
 
 **Correct: B** (index 1)
 
-Python uses C3 linearization (Method Resolution Order). For `D(B, C)`, the MRO is D -> B -> C -> A. `D().greet()` looks up `greet` in MRO order. `B` has `greet`, so it prints "B". This is Python's solution to the diamond problem.
+Python uses C3 linearization (Method Resolution Order). For `D(B, C)`the MRO is D -> B -> C -> A. `D().greet()` looks up `greet` in MRO order. `B` has `greet`so it prints "B". This is Python's solution to the diamond problem.
 
 `medium`1 mark
 
@@ -618,7 +618,7 @@ print(c.area())
 
 **Correct: A** (index 0)
 
-`Shape` is abstract because it has an `@abstractmethod`. Uncommenting `s = Shape()` would raise `TypeError` because you cannot instantiate abstract classes. `Circle` implements `area()`, so `Circle(5).area()` returns 78.5.
+`Shape` is abstract because it has an `@abstractmethod`. Uncommenting `s = Shape()` would raise `TypeError` because you cannot instantiate abstract classes. `Circle` implements `area()`so `Circle(5).area()` returns 78.5.
 
 `easy`1 mark
 
@@ -672,7 +672,7 @@ What does a metaclass control?
 
 **Correct: B** (index 1)
 
-A metaclass is the "class of a class", it controls how classes are created. When Python encounters `class Foo(metaclass=MyMeta)`, it calls `MyMeta('Foo', bases, namespace)`. Metaclasses can modify the class namespace, enforce invariants, register classes, or inject methods. They are used by frameworks like Django ORM, SQLAlchemy, and Pydantic.
+A metaclass is the "class of a class", it controls how classes are created. When Python encounters `class Foo(metaclass=MyMeta)`it calls `MyMeta('Foo', bases, namespace)`. Metaclasses can modify the class namespace, enforce invariants, register classes, or inject methods. They are used by frameworks like Django ORM, SQLAlchemy, and Pydantic.
 
 `medium`1 mark
 
@@ -724,7 +724,7 @@ print(result)
 
 **Correct: B** (index 1)
 
-`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`, then `b`, then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap`, `chain` does not flatten nested structures.
+`chain` concatenates iterables into a single iterator. `chain(a, b, c)` produces elements from `a`then `b`then `c` in sequence. Converting to a list gives `[1, 2, 3, 4, 5]`. Unlike `flatMap``chain` does not flatten nested structures.
 
 `easy`1 mark
 
@@ -809,7 +809,7 @@ except ValueError as e:
 
 **Correct: A** (index 0)
 
-`type(e).__mro__` prints the Method Resolution Order for `ValueError`. The MRO shows the inheritance chain: `ValueError` -> `Exception` -> `BaseException` -> `object`. This demonstrates that `ValueError` is a subclass of `Exception`, which is a subclass of `BaseException`.
+`type(e).__mro__` prints the Method Resolution Order for `ValueError`. The MRO shows the inheritance chain: `ValueError` -> `Exception` -> `BaseException` -> `object`. This demonstrates that `ValueError` is a subclass of `Exception`which is a subclass of `BaseException`.
 
 `medium`1 mark
 

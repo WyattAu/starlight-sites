@@ -277,6 +277,7 @@ $ git merge --abort
 | Rename conflicts (file renamed differently on each branch) | Manually resolve: pick one name, apply changes from both sides    |
 | Large-scale conflicts (hundreds of files)                  | Consider rebasing instead, or `git merge --abort` and re-evaluate |
 :::
+
 :::tip
 ```bash
 $ git config --global merge.tool vscode

@@ -117,7 +117,7 @@ auto serialize(const T& value)
     -> std::enable_if_t<
         std::is_same_v<T, std::string>
         || (std::is_array_v<T> && std::is_same_v<std::remove_extent_t<T>, char>)
-std::string> {
+       , std::string> {
     return std::string{value};
 }
 
@@ -137,6 +137,7 @@ Function signatures hard to read. In C++17 and later, prefer `if constexpr` for 
 Branching inside function bodies. In C++20, prefer **concepts** and **constraints** [N4950 §13.7.7]
 For the clearest syntax.
 :::
+
 ## Tag Dispatch
 
 **Tag dispatch** is a SFINAE technique that uses tag types to select overloads at compile time
@@ -302,6 +303,7 @@ Handle multiple type categories. Prefer `std::enable_if` (or better, C++20 conce
 Implementations should be entirely separate overloads. The `if constexpr` approach is generally
 Easier to read, debug, and maintain.
 :::
+
 ## Comparison: Tag Dispatch vs `if constexpr` vs Concepts
 
 ```cpp
@@ -524,7 +526,7 @@ $$
 
 template<typename Tuple, typename Func, std::size_t... Is>
 void for_each_impl(Tuple&& t, Func&& f, std::index_sequence<Is...>) {
-    (f(std::get<Is>(std::forward<Tuple>(t)))...);
+    (f(std::get<Is>(std::forward<Tuple>(t))), ...);
 }
 
 template<typename Tuple, typename Func>
@@ -588,6 +590,7 @@ The idiomatic way to iterate over a tuple at compile time. Without `index_sequen
 To iterate over a tuple's elements in a generic function, because tuples do not have a
 Runtime-iterable interface.
 :::
+
 ## Unrolling a Tuple with `index_sequence`
 
 The following example demonstrates a more advanced use of `index_sequence` --- extracting specific
@@ -748,6 +751,7 @@ Min version: 2.99.99
 Utility that unpacks a tuple as arguments to a callable. It is implemented using the same
 `index_sequence` pattern shown above. Prefer `std::apply` over writing your own unpacking code.
 :::
+
 ## Reflection Preview (C++26)
 
 ### `std::meta::info` and `std::meta::value` (C++26)
@@ -773,6 +777,7 @@ The key operations include:
 Finalized. The examples below follow the direction of P2996R9, which is the leading proposal.
 Compiler support may vary. Check the latest compiler documentation for current support.
 :::
+
 ### Code Example: Aggregate Introspection Pattern
 
 The following example demonstrates the intended C++26 reflection pattern for iterating over
@@ -912,6 +917,7 @@ Constraints, Boost.PFR is a practical, header-only solution that requires no cod
 Macro registration. For more complex types, wait for C++26 reflection or use a library like Magic
 Enum for enums.
 :::
+
 ### Comparison: Current Approaches to Compile-Time Introspection
 
 | Approach                              | C++ Version       | Limitations                     | Overhead     |
@@ -940,9 +946,9 @@ Introspected).
 
 ## Intuition
 
-**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type, `std::is_integral<int>::value` is `true`, `std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming, they let you make decisions at compile time based on type properties.
+**Type traits are like a checklist for types:** Instead of asking "is this type an integer?" at runtime, you ask at compile time: `std::is_integral_v<T>`. It's like having a checklist that the compiler fills out for each type, `std::is_integral<int>::value` is `true``std::is_integral<double>::value` is `false`. Type traits are the building blocks of template metaprogramming, they let you make decisions at compile time based on type properties.
 
-**Why it matters:** Type traits are essential for writing generic code that behaves differently for different types. Instead of writing separate functions for `int` and `double`, you write one function that checks `std::is_integral_v<T>` at compile time. They're also the foundation of concepts, `if constexpr`and SFINAE, all of which rely on compile-time type queries.
+**Why it matters:** Type traits are essential for writing generic code that behaves differently for different types. Instead of writing separate functions for `int` and `double`you write one function that checks `std::is_integral_v<T>` at compile time. They're also the foundation of concepts, `if constexpr`and SFINAE, all of which rely on compile-time type queries.
 
 **The key insight:** Type traits query type properties at compile time, they're the building blocks of template metaprogramming and enable compile-time decisions based on type properties.
 
@@ -958,7 +964,6 @@ Introspected).
 
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
-
 
 ```mermaid
 flowchart TD

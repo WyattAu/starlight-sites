@@ -540,7 +540,7 @@ gem 'puma', '~> 6.0'
 gem 'bootsnap', require: false
 
 # Gems used only in specific environments
-group :development:test do
+group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'pry-rails'
@@ -813,7 +813,7 @@ config.database do
 end
 
 puts config.to_h
-# => {:database=>{:host=>"localhost":port=>5432}}
+# => {:database=>{:host=>"localhost", :port=>5432}}
 ```
 
 **Explanation:** `instance_eval` runs the block in the context of the Config instance, so `host` and `port` calls inside the block invoke the Config methods directly. This pattern is the foundation of Rails configuration DSLs. The block provides a clean, declarative syntax while the class handles the implementation.

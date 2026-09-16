@@ -400,6 +400,7 @@ Malicious artifacts, and addressing the vulnerability that allowed the compromis
 6. **Update firewall rules**: Block any attacker infrastructure (C2 servers, exfil endpoints)
 7. **Verify integrity**: Compare critical files against known-good versions or checksums
 :::
+
 :::caution
 Created backdoors that survive apparent cleanup. The safest approach is to rebuild affected systems
 From known-good images rather than attempting in-place cleanup.
@@ -554,7 +555,7 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 # Sort and analyze
 # Look for files created/modified during the incident window
 # Look for files in unusual locations
-# Look for files with suspicious extensions (.php.jsp.exe in web directories)
+# Look for files with suspicious extensions (.php, .jsp, .exe in web directories)
 ```
 
 ## Common Incident Types
@@ -632,6 +633,7 @@ mactime -b /tmp/body.txt > /tmp/timeline.csv
 | CCPA       | "Expeditious"                             | California Attorney General         |
 | NIS2 (EU)  | 24 hours (early warning), 72 hours (full) | National CSIRT                      |
 :::
+
 :::caution
 Notify within the required timeframe can result in significant fines on top of the incident's direct
 Costs. GDPR fines for late notification can reach 10 million EUR or 2% of global annual revenue.
@@ -833,6 +835,7 @@ What you can do: [specific actions for the user]
 For more information: [contact details, FAQ link]
 ```
 :::
+
 :::note
 800-86 (Guide to Integrating Forensic Techniques into Incident Response), NIST SP 800-83 (Guide to
 Malware Incident Prevention and Handling), RFC 3227 (Guidelines for Evidence Collection and

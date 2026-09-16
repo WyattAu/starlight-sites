@@ -370,7 +370,7 @@ Define:
 ### Basic Linker Script Syntax
 
 ```ld
-/* minimal.ld -- Place .text at 0x10000.data after it */
+/* minimal.ld -- Place .text at 0x10000, .data after it */
 ENTRY(_start)
 SECTIONS
 \{
@@ -761,7 +761,6 @@ target_link_options(app PRIVATE
     "LINKER:-Map,$\{CMAKE_BINARY_DIR\}/app.map"
 )
 ```
-
 
 ```mermaid
 flowchart TD

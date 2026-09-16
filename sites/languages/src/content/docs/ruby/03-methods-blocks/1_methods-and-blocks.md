@@ -19,7 +19,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[1_Methods And Blocks] --> B[Key Concepts]
@@ -178,7 +177,7 @@ end
 ```ruby
 # Splat operator * collects remaining positional arguments into an array
 def sum(*numbers)
-  numbers.reduce(0:+)
+  numbers.reduce(0, :+)
 end
 
 sum(1, 2, 3)          # => 6
@@ -222,7 +221,7 @@ end
 
 flexible(1, 2, 3, a: "x", b: "y")
 # Args: [1, 2, 3]
-# Kwargs: {:a=>"x":b=>"y"}
+# Kwargs: {:a=>"x", :b=>"y"}
 ```
 
 ### Method Aliasing and Overriding
@@ -602,7 +601,7 @@ bound2.call(5, 6)  # => 11
 add_method.name        # => :add
 add_method.owner       # => Calculator
 add_method.receiver    # => #<Calculator:...>
-add_method.parameters   # => [[:req:a], [:req:b]]
+add_method.parameters   # => [[:req, :a], [:req, :b]]
 add_method.source_location  # => ["/path/to/file.rb", 2]
 
 # Convert Method to Proc
@@ -625,7 +624,7 @@ add_proc = add_method.to_proc
 ```ruby
 class Person
   # Dynamic method definitions
-  [:name:email:phone].each do |field|
+  [:name, :email, :phone].each do |field|
     define_method(field) { instance_variable_get("@#{field}") }
     define_method("#{field}=") { |value| instance_variable_set("@#{field}", value) }
   end
@@ -675,7 +674,7 @@ class Model
 end
 
 class User < Model
-  attributes :name:email:age
+  attributes :name, :email, :age
 end
 
 u = User.new(name: "Alice", email: "a@b.com")

@@ -686,7 +686,7 @@ class Base:
     pass  # No __slots__ -- instances have __dict__
 
 class Child(Base):
-    __slots__ = ("x")  # Ineffective! Instances still have __dict__ from Base
+    __slots__ = ("x",)  # Ineffective! Instances still have __dict__ from Base
 
 c = Child()
 c.y = 10  # Works -- __dict__ exists from Base
@@ -697,10 +697,10 @@ c.y = 10  # Works -- __dict__ exists from Base
 
 ```python
 class Base:
-    __slots__ = ("a")
+    __slots__ = ("a",)
 
 class Child(Base):
-    __slots__ = ("b")
+    __slots__ = ("b",)
 
 c = Child()
 c.a = 1  # OK (from Base's slots)
@@ -784,7 +784,6 @@ Parallelism). Multi-threaded I/O-bound code sees minimal change (I/O already rel
 As of Python 3.13, the free-threaded build is experimental and not recommended for production. Many
 Popular packages (NumPy, Pandas, etc.) do not yet fully support it. The expectation is that by
 Python 3.15-3.16, free-threading will be production-ready and the GIL will be optional by default.
-
 
 ```mermaid
 flowchart TD

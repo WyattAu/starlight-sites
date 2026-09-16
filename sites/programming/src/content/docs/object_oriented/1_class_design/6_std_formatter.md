@@ -198,6 +198,7 @@ int main() {
 `std::variant<Ts...>`And other standard library types, reducing the need for custom Specializations
 .
 :::
+
 ## Intuition
 
 **`std::formatter` is like a custom paint job for your types:** The `<format>` library knows how to print built-in types (int, string, etc.), but for your custom types, you need to teach it how. A `std::formatter<T>` specialization is like giving the library a recipe: "when you see a `Point`, format it as `(x, y)`." The format specifiers (like `:d` for decimal or `:x` for hex) are like custom flags that control the output.
@@ -312,7 +313,7 @@ struct std::formatter<std::tuple<Ts...>, char> {
         std::apply([&](const auto&... args) {
             bool first = true;
             ((out = std::format_to(out, "{}{}",
-                first ? (first = false, "") : ", ", args))...);
+                first ? (first = false, "") : ", ", args)), ...);
         }, t);
         return std::format_to(out, ")");
     }
@@ -560,7 +561,6 @@ int main() {
 - **Format specifiers in `std::formatter` for `std::optional`.** C++23 provides a built-in formatter
   for `std::optional<T>` that delegates to `T`'s formatter. Do not specialize `std::formatter` for
   `std::optional` yourself unless you have a specific reason.
-
 
 ```mermaid
 flowchart TD

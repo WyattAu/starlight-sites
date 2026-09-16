@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Diag Data Structures] --> B[Key Concepts]
@@ -226,14 +225,14 @@ Result: 7.
 | ----- | -------------------------------------------- | -------------- | ------------------ |
 | (     | Push                                         | [(]            |                    |
 | A     | Output                                       | [(]            | A                  |
-| +     | Push                                         | [(, +]         | A                  |
-| B     | Output                                       | [(, +]         | A B                |
+| +     | Push                                         | [( +]         | A                  |
+| B     | Output                                       | [( +]         | A B                |
 | )     | Pop until (                                  | []             | A B +              |
 | \*    | Push                                         | [*]            | A B +              |
 | (     | Push                                         | [*, (]         | A B +              |
 | C     | Output                                       | [*, (]         | A B + C            |
-| -     | Push                                         | [*, (, -]      | A B + C            |
-| D     | Output                                       | [*, (, -]      | A B + C D          |
+| -     | Push                                         | [*, ( -]      | A B + C            |
+| D     | Output                                       | [*, ( -]      | A B + C D          |
 | )     | Pop until (                                  | [*]            | A B + C D -        |
 | /     | Pop \* (same precedence, left-assoc), push / | [/]            | A B + C D - \*     |
 | E     | Output                                       | [/]            | A B + C D - \* E   |

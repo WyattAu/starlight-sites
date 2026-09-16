@@ -7,7 +7,6 @@ tags: [TypeScript, Flashcards]
 
 ---
 
-
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/typescript/flashcards-typescript-basics-data.js';
 
@@ -20,11 +19,11 @@ integration. Press Space to flip, rate 1-4.
 
 ## Intuition
 
-TypeScript adds a compile-time type layer on top of JavaScript, the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type disables type checking entirely, it's an escape hatch, not a feature.
+TypeScript adds a compile-time type layer on top of JavaScript, the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial``Pick``Omit``Record`) let you transform existing types without defining new ones. The `any` type disables type checking entirely, it's an escape hatch, not a feature.
 
 ## Common Pitfalls
 
-- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string"), type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
+- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string"), type guards (`typeof``instanceof`custom predicates) actually check at runtime.
 - **Enum gotchas**: Numeric enums allow reverse mapping and can be assigned any number without a compile error, prefer string enums or union types for safety.
 - **Generic constraints**: Forgetting to constrain generic types, `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
 - **Structural typing surprises**: TypeScript uses structural typing, not nominal, two unrelated types with the same shape are compatible. This can mask design errors.
@@ -36,7 +35,7 @@ TypeScript adds a compile-time type layer on top of JavaScript, the types exist 
 - **Write type-first code:** Define the types first, then implement the function. This reveals design issues before you write any logic.
 - **Use the TypeScript playground:** The official playground (typescriptlang.org/play) lets you experiment with types interactively and see the compiled JavaScript output.
 - **Practise generic constraints:** Write functions that work with any type but enforce specific capabilities (e.g., `T extends { length: number }`). This builds understanding of generic power.
-- **Study the utility types:** `Partial`, `Pick`, `Omit`, `Record`, and `Readonly` are used constantly in real codebases. Understanding when to use each one is essential.
+- **Study the utility types:** `Partial``Pick``Omit``Record`and `Readonly` are used constantly in real codebases. Understanding when to use each one is essential.
 
 ## Advanced Topics
 
@@ -52,6 +51,27 @@ TypeScript adds a compile-time type layer on top of JavaScript, the types exist 
 - **[Site Home](../../):** Main landing page for typescript notes.
 - **[Practice](../../practice-*):** Practice problems for revision.
 
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Detailed Content
 
@@ -75,7 +95,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -98,7 +117,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -120,30 +138,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 
 ## Detailed Content
 

@@ -2,10 +2,9 @@
 
 date: 2026-07-24T02:00:35+01:00
 title: "Type Classes Practice"
-description: "Problem: Define a `Describable` type class with a `describe` method. Implement it for three types: `Color`, `Shape`, and `Priority`. Then write a function that"
+description: "Problem: Define a `Describable` type class with a `describe` method. Implement it for three types: `Color``Shape`and `Priority`. Then write a function that"
 sidebar_position: 50
 ---
-
 
 ## Type Classes Practice
 
@@ -15,7 +14,7 @@ sidebar_position: 50
 
 ### Exercise 1: Custom Type Classes
 
-**Problem:** Define a `Describable` type class with a `describe` method. Implement it for three types: `Color`, `Shape`, and `Priority`. Then write a function that takes any `Describable` value and returns a formatted description string.
+**Problem:** Define a `Describable` type class with a `describe` method. Implement it for three types: `Color``Shape`and `Priority`. Then write a function that takes any `Describable` value and returns a formatted description string.
 
 ```haskell
 \{-# LANGUAGE DeriveGeneric #-\}
@@ -62,7 +61,7 @@ formatDescription x =
 
 ### Exercise 2: Functor, Applicative, Monad
 
-**Problem:** Implement `Functor`, `Applicative`, and `Monad` instances for a custom `Validation` type that accumulates errors instead of short-circuiting. Demonstrate that it differs from `Either` behavior.
+**Problem:** Implement `Functor``Applicative`and `Monad` instances for a custom `Validation` type that accumulates errors instead of short-circuiting. Demonstrate that it differs from `Either` behavior.
 
 ```haskell
 data Validation e a
@@ -99,7 +98,7 @@ validateEmail email
 
 data UserForm = UserForm
   \{ ufAge   :: Int
-ufEmail :: String
+  , ufEmail :: String
   \} deriving (Show)
 
 validateUserForm :: Int -> String -> Validation [String] UserForm
@@ -122,8 +121,8 @@ import Control.Monad.IO.Class
 
 data Config = Config
   \{ cfgDatabaseUrl :: String
-cfgMaxRetries  :: Int
-cfgDebug       :: Bool
+  , cfgMaxRetries  :: Int
+  , cfgDebug       :: Bool
   \} deriving (Show)
 
 data AppError
@@ -170,8 +169,8 @@ main :: IO ()
 main = do
   let config = Config
         \{ cfgDatabaseUrl = "postgres://localhost/mydb"
-cfgMaxRetries  = 3
-cfgDebug       = True
+        , cfgMaxRetries  = 3
+        , cfgDebug       = True
         \}
 
   result <- runApp config $ do
@@ -191,7 +190,7 @@ cfgDebug       = True
 
 ### Exercise 4: Type Families
 
-**Problem:** Define a type family `Element` that maps a container type to its element type. Implement it for `List`, `Maybe`, and a custom `Pair` type. Write a generic function that works with any container that has an `Element` type family instance.
+**Problem:** Define a type family `Element` that maps a container type to its element type. Implement it for `List``Maybe`and a custom `Pair` type. Write a generic function that works with any container that has an `Element` type family instance.
 
 ```haskell
 \{-# LANGUAGE TypeFamilies #-\}
@@ -236,7 +235,7 @@ filterContainer pred c =
   foldr (\x acc -> if pred x then insert x acc else acc) empty (toList c)
 ```
 
-**Solution:** The `Element` type family associates each container type with its element type. `Container` provides a uniform interface: `empty`, `insert`, `toList`. `sumContainer` works with any `Container` whose elements are `Num`. `filterContainer` preserves the container type while filtering elements. Type families enable more expressive type-level programming than simple type classes.
+**Solution:** The `Element` type family associates each container type with its element type. `Container` provides a uniform interface: `empty``insert``toList`. `sumContainer` works with any `Container` whose elements are `Num`. `filterContainer` preserves the container type while filtering elements. Type families enable more expressive type-level programming than simple type classes.
 
 ---
 
@@ -288,7 +287,7 @@ example3 :: Int
 example3 = eval (If (Equal (LitInt 5) (LitInt 5)) (LitInt 10) (LitInt 20))
 ```
 
-**Solution:** The GADT syntax `Expr a where` gives each constructor a specific return type. `Add :: Expr Int -> Expr Int -> Expr Int` ensures you cannot add booleans. The type checker rejects expressions like `Add (LitBool True) (LitInt 1)` at compile time. `eval` pattern matches and returns the correct type for each constructor. `If` is polymorphic in `a`, allowing any expression type in both branches.
+**Solution:** The GADT syntax `Expr a where` gives each constructor a specific return type. `Add :: Expr Int -> Expr Int -> Expr Int` ensures you cannot add booleans. The type checker rejects expressions like `Add (LitBool True) (LitInt 1)` at compile time. `eval` pattern matches and returns the correct type for each constructor. `If` is polymorphic in `a`allowing any expression type in both branches.
 
 ## Intuition
 

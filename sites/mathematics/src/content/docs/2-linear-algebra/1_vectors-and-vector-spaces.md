@@ -319,11 +319,9 @@ The connection to function spaces is where the abstraction pays off most. In qua
 }
 </script>
 
-:::tip
-<strong>Research Connections</strong>
+:::tip[Research Connections]
 Vector spaces are the foundation of quantum computing: qubits exist in a 2-dimensional complex vector space, and quantum gates are unitary linear transformations. Google's quantum supremacy experiment (2019, Sycamore processor) demonstrated a computation in a 53-qubit vector space that would take classical supercomputers ~10,000 years. Current research includes: quantum error correction (surface codes on stabiliser codes), topological quantum computing (Majorana fermions), and the intersection of linear algebra with machine learning (neural network weight spaces, kernel methods, dimensionality reduction via SVD/PCA).
 :::
-
 
 ```mermaid
 flowchart TD

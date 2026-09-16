@@ -147,6 +147,7 @@ int main() {
 Pass it to a non-range API, or decouple its lifetime from the source. The cost is $O(n)$ for the
 Materialization, but you gain ownership and stability.
 :::
+
 ### Materialization with Different Containers
 
 `std::ranges::to` works with any container that satisfies the `ranges::to` constraints [N4950
@@ -531,6 +532,7 @@ int main() {
 Some views (like `std::views::filter`) are not borrowing views --- they cannot outlive their source.
 Always ensure the source outlives the view when materializing.
 :::
+
 #### Double Materialization Cost
 
 Calling `std::ranges::to` on an already-materialized container copies the data. If you already have
@@ -788,7 +790,7 @@ int main() {
 
 ## Intuition
 
-**Range materialization is like cooking a recipe:** Range adaptors create a recipe (lazy pipeline of transformations), but you can't eat a recipe, you need to actually cook it (materialize). Materialization converts the lazy range into a concrete container (`std::vector`, `std::list`etc.) that you can iterate over multiple times, store, and pass around. It's like the difference between a recipe card and the actual dish, one describes what to do, the other is the result.
+**Range materialization is like cooking a recipe:** Range adaptors create a recipe (lazy pipeline of transformations), but you can't eat a recipe, you need to actually cook it (materialize). Materialization converts the lazy range into a concrete container (`std::vector``std::list`etc.) that you can iterate over multiple times, store, and pass around. It's like the difference between a recipe card and the actual dish, one describes what to do, the other is the result.
 
 **Why it matters:** Materialization is the bridge between lazy ranges and concrete data. Without it, range adaptors would be useless, you'd compute values but never be able to store them. Materialization triggers the actual computation, evaluates all the transformations, and produces a container. The choice of container matters: `std::ranges::to<std::vector>()` is in most cases the right default.
 
@@ -818,7 +820,6 @@ int main() {
 
 4. Misunderstanding the difference between a stack (LIFO) and a queue (FIFO) in data structure
    applications.
-
 
 ```mermaid
 flowchart TD

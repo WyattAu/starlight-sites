@@ -55,6 +55,7 @@ That environmental factors can influence gene expression across generations with
 Sequence itself. This is sometimes mistakenly conflated with Lamarckism, but epigenetic changes are
 Reversible and do not create new alleles.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -132,6 +133,7 @@ If it were purely deleterious.
 Survive. Resistance arises from random pre-existing mutations; the antibiotic selects for Resistant
 individuals. The mutation occurs regardless of the antibiotic's presence.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -211,6 +213,7 @@ $$q = \frac{400}{1000} = 0.4$$
 $q$ from $q^2$ (the homozygous recessive frequency), and then $p$ from $p = 1 - q$. The heterozygote
 Frequency $2pq$ is the one most students miscalculate -- do not assume it equals $p + q$.
 :::
+
 ### Genetic Drift
 
 **Definition.** Genetic drift is the random fluctuation of allele frequencies in a population due to
@@ -274,6 +277,7 @@ Approximately 30-70% of flowering plant species are polyploid. In the DSE, quest
 Speciation focus on allopatric speciation, but you should be able to explain polyploidy as A
 mechanism of sympatric speciation in plants.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -436,6 +440,7 @@ Female alive. Many other women lived at the same time, but their matrilineal lin
 Out at some point. The Y-chromosomal Adam (the most recent common paternal ancestor) lived
 Approximately 200,000-300,000 years ago, and the two individuals were not contemporaries.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -585,6 +590,7 @@ Three idealised types:
 Intermediate patterns. When interpreting DSE exam questions, look for the general shape rather than
 Trying to force a perfect classification.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -743,6 +749,7 @@ $$\mathrm{Energy available at level } n = 0.1^n \times \mathrm{Energy at produce
 Energy-efficient than warm-blooded ones. In DSE calculations, use 10% unless the question specifies
 Otherwise.
 :::
+
 ### Nutrient Cycles
 
 Nutrients cycle between biotic and abiotic components of ecosystems. Unlike energy, nutrients are
@@ -859,6 +866,7 @@ $$\mathrm{NPP} = \mathrm{energy stored in plant biomass}$$
 :::note
 wet and dry Seasons, total precipitation. Match these to the biome descriptions above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -976,6 +984,7 @@ Major causes (often remembered by the acronym HIPPO):
 :::caution
 levels. Both terms can Appear in the same question.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1068,6 +1077,7 @@ Where $O$ = observed frequency and $E$ = expected frequency. Compare the calcula
 Critical value at the appropriate degrees of freedom ($df = \mathrm{number of categories} - 1$) and
 Significance level ( $p = 0.05$).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1268,7 +1278,6 @@ slow-release fertilisers).
 **Why it matters:** From conservation to climate change, ecology explains how ecosystems function and how human activities affect them.
 
 **The key insight:** Energy flows through ecosystems in one direction (sun → producers → consumers), but nutrients cycle endlessly.
-
 
 ```mermaid
 flowchart TD

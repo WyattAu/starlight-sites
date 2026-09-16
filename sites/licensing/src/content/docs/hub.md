@@ -42,7 +42,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -462,7 +461,7 @@ Technically, no, the code is copyrighted by default. But without a license, no o
 
 ### How do I check the licenses of my dependencies?
 
-Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses`, `pip show`, `cargo metadata`). CI/CD pipelines can automate this checking.
+Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses``pip show``cargo metadata`). CI/CD pipelines can automate this checking.
 
 ---
 
@@ -492,7 +491,6 @@ Worked examples demonstrate how to apply the concepts to solve problems.
 
 Consult the recommended textbooks and additional resources.
 
-
 ## Summary
 
 This topic provides comprehensive coverage of the subject matter.
@@ -509,13 +507,11 @@ This topic provides comprehensive coverage of the subject matter.
 2. Complete the practice problems
 3. Explore related topics in other sections
 
-
 ## Practice Tips
 
 - Review this material regularly
 - Apply concepts to real scenarios
 - Connect with related topics
-
 
 ## Key Points
 
@@ -523,13 +519,11 @@ This topic provides comprehensive coverage of the subject matter.
 - Apply concepts to real scenarios
 - Connect with related topics
 
-
 ## Final Notes
 
 - Understanding this topic is important for software licensing
 - Review the key concepts and practice regularly
 - Connect with other licensing topics for a complete understanding
-
 
 ## Summary
 

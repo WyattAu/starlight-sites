@@ -9,7 +9,6 @@ categories:
   - Ruby
 ---
 
-
 import PracticeProblem from "@components/PracticeProblem";
 
 ## Intuition
@@ -55,7 +54,7 @@ the explanation.
 
 ### Control Flow and Exceptions
 
-<PracticeProblem client:only="solid-js" question={"In `begin; risky; rescue => e; raise; end`, what does `raise` without arguments in the rescue block do?"} options={[ 'Re-raises the caught exception preserving the original backtrace', 'Raises a new RuntimeError', 'Raises ArgumentError', 'Does nothing (no-op)', ]} correctAnswer={0} explanation={"raise without arguments inside a rescue block re-raises the current exception. The original exception object and its backtrace are preserved. This is the idiomatic way to re-raise after logging or partial handling."} difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={"In `begin; risky; rescue => e; raise; end`what does `raise` without arguments in the rescue block do?"} options={[ 'Re-raises the caught exception preserving the original backtrace', 'Raises a new RuntimeError', 'Raises ArgumentError', 'Does nothing (no-op)', ]} correctAnswer={0} explanation={"raise without arguments inside a rescue block re-raises the current exception. The original exception object and its backtrace are preserved. This is the idiomatic way to re-raise after logging or partial handling."} difficulty="medium"  />
 
 <PracticeProblem client:only="solid-js" question={"What does `[1, 2, 3].each { |n| return n if n == 2 }` return from the enclosing method?"} options={[ '2 (returns from the method, not just the block)', '1 (returns nil, since each returns the array)', 'NoMethodError', 'break is required instead of return', ]} correctAnswer={0} explanation={"return inside a block returns from the enclosing method, not just from the block. So if this block is inside a method, that method returns 2 immediately. Use next to skip iterations or break to exit the block only."} difficulty="hard"  />
 
@@ -78,6 +77,25 @@ the explanation.
 
 **Assuming `return` exits the block:** `return` inside a block exits the enclosing method, not just the block. Use `next` to skip an iteration or `break` to exit the block early.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -99,6 +117,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -120,6 +157,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -141,7 +197,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -162,7 +217,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -182,70 +236,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 
 ## Advanced Content
 

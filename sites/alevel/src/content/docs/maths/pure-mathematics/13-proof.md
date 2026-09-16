@@ -1,6 +1,5 @@
 ---
 
-
 title: "Proof | A-Level - Wyatt's Notes"
 description: "Study notes for Proof | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ------------------------------------------------------------- | | AQA | Paper 1 | Proof by deduction,"
@@ -32,8 +31,9 @@ categories:
 | CIE (9709) | P1, P2, P3 | Various methods across papers                                 |
 
 :::note
-Method and execute it , with every step justified.
+Method and execute it, with every step justified.
 :::
+
 <hr />
 
 ## 1. Proof by Deduction
@@ -194,6 +194,7 @@ To prove a statement $P(n)$ for all integers $n \geq n_0$:
 $P(m)$ with $m \gt n_0$ is false, then the set $\{m : P(m) \mathrm{ is false}\}$ has a least
 element, Contradicting the inductive step.
 :::
+
 ### 5.2 Sum of the first $n$ integers
 
 **Theorem.** $\displaystyle\sum_{r=1}^{n} r = \frac{n(n+1)}{2}$ for all $n \in \mathbb{N}$.
@@ -571,7 +572,6 @@ Proof is the process of converting mathematical truth into certainty through log
 
 4. Forgetting the $+c$ constant of integration in indefinite integrals, or misusing boundary
    conditions in definite integrals.
-
 
 ```mermaid
 flowchart TD

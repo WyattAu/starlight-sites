@@ -229,6 +229,7 @@ Variables without modifying RSP, avoiding the overhead of stack pointer manipula
 Signal handlers and interrupt contexts may clobber the red zone. Compiler flags like `-mno-red-zone`
 (used in OS kernels and JIT compilers) disable this optimization.
 :::
+
 ```cpp
 // Leaf function: no CALL instruction, may use the red zone
 // $ g++ -O2 -S -o - redzone.cpp | grep -A5 'leaf_fn: "
@@ -336,7 +337,7 @@ Ellipsis. Under Microsoft x64, `va_list` is a simple pointer that walks the stac
 #include <cstdio>
 
 // This function compiles on both ABIs but the underlying mechanism differs:
-void print_args(int count...) {
+void print_args(int count, ...) {
     va_list ap;
     va_start(ap, count);
 
@@ -394,7 +395,7 @@ extern "C" __stdcall int MessageBoxA(void* hwnd, const char* text,
                                       const char* caption, unsigned int type);
 
 // The __cdecl is default on MSVC x86, but explicit for clarity:
-extern "C" __cdecl int printf(const char* fmt...);
+extern "C" __cdecl int printf(const char* fmt, ...);
 ```
 
 ### System V: Explicit Attributes
@@ -521,6 +522,7 @@ extern "C" long takes_seven(long a, long b, long c, long d,
 Alignment). If you see a `SIGSEGV` inside a function that uses SIMD, check for stack misalignment.
 Compiler flags like `-mstackrealign` (MSVC) or `-mno-sse` (GCC) can help diagnose these issues.
 :::
+
 ## 2.9 Debugging Calling Convention Mismatches
 
 A calling convention mismatch occurs when the caller and callee disagree on how arguments are
@@ -753,7 +755,6 @@ Register arguments must be written to memory before the callee can access them.
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

@@ -127,6 +127,7 @@ void spanbuf_demo() {
 Fixed-size pre-allocated buffer (e.g., a network packet buffer or embedded flash region). It avoids
 Heap allocation entirely.
 :::
+
 ### Locale Facets
 
 A **locale** in C++ is a collection of **facets**, polymorphic classes that encapsulate cultural
@@ -184,6 +185,7 @@ void locale_facet_demo() {
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
 :::
+
 ### Custom Stream Buffer
 
 The power of the stream buffer abstraction is that you can derive from `std::streambuf` to redirect
@@ -269,10 +271,12 @@ Output (example):
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
 The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 :::
+
 :::caution
 `std::flush` and `std::endl`. If you only override `overflow()`Manually flushed output (via
 `std::flush`) will not reach your sink.
 :::
+
 ### Connecting Stream Buffers to Streams
 
 A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
@@ -421,6 +425,7 @@ I/O-heavy code. Each flush results in a `write()` system call, which is orders o
 Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
 :::
+
 ### `std::ios::sync_with_stdio`
 
 `std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
@@ -456,6 +461,7 @@ Effect is irreversible once any standard stream has been used). This is a common
 Competitive programming for fast I/O, but it is dangerous in library code because it affects the
 Entire process. Never call it in a library.
 :::
+
 ### Custom Input Stream Buffer
 
 The following example implements a stream buffer that reads from a fixed memory buffer (similar to
@@ -547,6 +553,7 @@ void seek_demo() {
 Standard permits them to use separate positions. For maximum portability, always call `clear()`
 Before seeking after a failed read, and avoid mixing reads and writes without an intervening seek.
 :::
+
 ### Manipulators and Stream State
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:
@@ -624,7 +631,6 @@ void stream_state_demo() {
 
 4. Not making connections between different topics within the subject to build a coherent
    understanding.
-
 
 ```mermaid
 flowchart TD

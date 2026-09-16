@@ -111,6 +111,7 @@ smaller Solid angle, and these two effects cancel exactly. $\square$
 :::caution
 varies slightly with Latitude even at sea level.
 :::
+
 ### Field Strength at Altitude
 
 At height $h$ above a planet of radius $R$ and surface field $g_0$:
@@ -209,6 +210,7 @@ m s$^{-1}$ $= 5.02$ km s$^{-1}$.
 Projectile. A 1 kg ball and a $10^6$ kg rocket both need the same speed. However, the required
 kinetic Energy $E_k = \frac{1}{2}mv_e^2$ scales with mass.
 :::
+
 ## 5. Orbital Mechanics
 
 ### Circular Orbit Equations
@@ -540,7 +542,6 @@ $$\frac{1}{2}mv_{\mathrm{esc}}^2 = \frac{GMm}{R} \implies v_{\mathrm{esc}} = \sq
 $$v_{\mathrm{esc}} = \sqrt{\frac{2 \times 6.67 \times 10^{-11} \times 5.97 \times 10^{24}}{6.37 \times 10^6}} = \sqrt{1.25 \times 10^8} \approx 11.2\ \mathrm{km\,s^{-1}}$$
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

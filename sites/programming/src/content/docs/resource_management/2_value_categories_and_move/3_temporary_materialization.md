@@ -376,6 +376,7 @@ Returning a function parameter, or by certain compiler flags. Always write code 
 If NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
 :::
+
 ## Intuition
 
 **Temporary materialization is like a recipe becoming a cake:** A prvalue is the recipe, it describes what to build but doesn't exist as a physical object. Materialization is the baking process, it creates a temporary object (the cake) from the prvalue. This happens when you bind a reference to a prvalue (like `const int& x = 5`), access a member of a prvalue (like `std::string("hello").size()`), or use a prvalue where an lvalue is needed.
@@ -465,6 +466,7 @@ Extension**.
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
 Does **not** propagate.
 :::
+
 ```cpp
 #include <iostream>
 
@@ -793,7 +795,6 @@ Temporary materialization is the bridge between abstract recipes and real object
   pessimizing. The prvalue `T{args}` would directly initialize the return slot (guaranteed elision),
   but `std::move(T{args})` produces an xvalue, forcing materialization and a move. Just write
   `return T{args};`.
-
 
 ```mermaid
 flowchart TD

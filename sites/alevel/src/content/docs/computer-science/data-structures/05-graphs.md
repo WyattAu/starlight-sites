@@ -115,6 +115,7 @@ class Graph:
 - **OCR (A)** requires adjacency matrix/list; Dijkstra's, Kruskal's, and Prim's algorithms
 - **Edexcel** covers basic graph representations and traversals
 :::
+
 <hr />
 
 ## 3. Graph Traversals
@@ -672,7 +673,6 @@ For revision on algorithms, see
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

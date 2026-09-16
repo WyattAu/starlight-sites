@@ -628,7 +628,7 @@ bugs:
 
 ```elixir
 # Add to mix.exs deps
-{:credo, "~> 1.7", only: [:dev:test], runtime: false}
+{:credo, "~> 1.7", only: [:dev, :test], runtime: false}
 
 # Run Credo
 mix credo

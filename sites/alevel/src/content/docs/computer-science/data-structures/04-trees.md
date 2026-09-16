@@ -350,6 +350,7 @@ To guarantee $O(\log n)$ operations, we need **balanced** BSTs:
 :::note
 and red-black trees are mentioned for context but not examined in detail.
 :::
+
 <hr />
 
 ## Problem Set
@@ -1018,7 +1019,6 @@ Height of the tree = **3**.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

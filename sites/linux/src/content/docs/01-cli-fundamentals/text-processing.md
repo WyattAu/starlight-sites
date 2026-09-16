@@ -563,10 +563,10 @@ jq '.version = "2.0.0"' package.json > tmp.json && mv tmp.json package.json
 jq -s '.[0] * .[1]' defaults.json overrides.json
 
 # Convert JSON to CSV
-jq -r '.[] | [.name.email.age] | @csv' data.json
+jq -r '.[] | [.name, .email, .age] | @csv' data.json
 
 # Convert JSON to TSV
-jq -r '.[] | [.name.email.age] | @tsv' data.json
+jq -r '.[] | [.name, .email, .age] | @tsv' data.json
 
 # Process JSON lines (ndjson)
 jq -c '.items[]' large.json  # compact output, one object per line
@@ -860,6 +860,7 @@ awk -F, "{print $1 "\t" $3}' data.csv
 awk '{for(i=3;i<=NF;i++) printf "%s%s", $i, (i<NF?OFS:"\n")}' data.txt
 ```
 :::
+
 :::note
 Large files. Use `awk` when you need conditional logic, field manipulation, or aggregation.
 
@@ -1039,7 +1040,6 @@ sed -i 's/old/new/g' /readonly/file.txt  # may fail
 # Fix: write to a temp directory
 sed "s/old/new/g" /readonly/file.txt > /tmp/file.txt && sudo cp /tmp/file.txt /readonly/file.txt
 ```
-
 
 ```mermaid
 flowchart TD

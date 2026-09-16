@@ -16,7 +16,6 @@ description: "Gabriel Garcia Marquez is a leftist and critic of authoritarianism
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Chronicle Of A Death Foretold] --> B[Key Concepts]
@@ -342,6 +341,7 @@ Culture.
 Journalistic) as well as the content. The way the story is told is as important as what happens.
 Consider how Marquez uses the reader's knowledge of the ending to create dramatic irony throughout.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -860,6 +860,7 @@ Essay in 55 minutes. For HL, aim for 100 minutes to allow for integration of a t
 [ib-english-assessment-and-techniques](./ib-english-assessment-and-techniques) for detailed time
 Management strategies.
 :::
+
 :::danger
 - **Reducing characters to stereotypes:** Santiago Nasar is not an innocent victim, and the Vicario
   brothers are not brutal murderers. Each character has motivations that reflect broader social

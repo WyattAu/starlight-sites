@@ -290,6 +290,7 @@ Discriminatory pricing. AQA Paper 2 frequently features questions on the ethics 
 Price discrimination. OCR (A) may ask about the conditions necessary for each type of price
 Discrimination to be feasible.
 :::
+
 #### Natural Monopoly
 
 A natural monopoly exists where LRAC falls continuously over the relevant output range (strong
@@ -309,6 +310,7 @@ regulator allows cost-plus pricing. CIE (9708) often asks students to compare **
 Regulation** using efficiency criteria. OCR (A) focuses on the principal-agent problem between
 Regulator and firm (information asymmetry).
 :::
+
 **Real-world example: UK water industry.** Thames Water and other regional water companies are
 Natural monopolies covering specific geographic areas, it would be deeply inefficient to run
 Multiple pipe networks through the same streets. Ofwat regulates prices using the RPI-X formula
@@ -428,6 +430,7 @@ Payoff matrix and identify dominant strategies. OCR (A) has recently included qu
 The prisoner's dilemma applies to real-world oligopolies where firms can communicate, a key
 Evaluation point.
 :::
+
 #### Kinked Demand Curve Model (Sweezy, 1939)
 
 Assumptions:
@@ -521,6 +524,7 @@ One firm but behaves as if competitive due to the threat of entry. AQA Paper 1 h
 Questions on the extent to which UK supermarket markets are contestable. OCR (A) requires
 Understanding of sunk costs as the key barrier to contestability.
 :::
+
 ## 5. Comparative Table of Market Structures
 
 | Feature                   | Perfect Competition      | Monopoly             | Monopolistic Competition  | Oligopoly                  |
@@ -544,6 +548,7 @@ Affect **consumer and producer surplus**. CIE (9708) expects students to draw di
 Structure and annotate efficiency losses. OCR (A) frequently asks about **real-world markets that
 Fall between categories** (e.g., is Amazon a monopoly or oligopoly?).
 :::
+
 ## 6. Critical Evaluation
 
 ### Strengths of the Structure-Conduct-Performance Framework
@@ -612,11 +617,13 @@ Points. CIE (9708) does not formally require behavioural economics but rewards s
 Satisficing as an alternative objective. Edexcel includes the principal-agent problem in its
 Specification for market failure topics.
 :::
+
 :::note
 Structure, including short-run and long-run equilibrium diagrams. AQA and Edexcel emphasise
 Evaluation of real-world examples. OCR (A) often asks about the relationship between market
 Structure and efficiency.
 :::
+
 ## 7. Problem Set
 
 **Problem 1.** A firm has total cost $TC = 100 + 20Q - 5Q^2 + Q^3/3$. Find (a) the output at which
@@ -1266,7 +1273,6 @@ limitations of price cap regulation when the X factor is set too generously.
 
 4. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
-
 
 ```mermaid
 flowchart TD

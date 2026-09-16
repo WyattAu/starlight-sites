@@ -27,6 +27,7 @@ Mandatory across all four major A-Level boards. AQA and OCR tend to ask structur
 Requiring you to apply legislation to scenarios. CIE and Edexcel favour longer-essay style responses
 Evaluating the impact of technology on society.
 :::
+
 ### Definition
 
 **Definition.** **Law** is a system of rules enforced by a sovereign state through institutions such
@@ -57,6 +58,7 @@ Cultures, whereas laws aim for consistency within a jurisdiction.
 Scenario. "Legal" means identify the specific Act and explain how it applies. "Ethical" means apply
 An ethical framework or professional code. Do not confuse the two.
 :::
+
 ### Why This Matters for Computer Scientists
 
 Software systems process personal data, make automated decisions, control physical infrastructure,
@@ -80,6 +82,7 @@ These frameworks because:
 Knowledge. CIE does not specify UK legislation but expects awareness of computer misuse laws
 Generally.
 :::
+
 **Definition.** The **Computer Misuse Act 1990** (CMA) is a UK Act of Parliament that criminalises
 Unauthorised access to computer systems and unauthorised modification of computer material. It was
 Amended by the Police and Justice Act 2006 (adding Sections 3A, 3ZA-3ZC) and the Serious Crime
@@ -115,11 +118,13 @@ Act 2015.
 Not need to have damaged or stolen anything. Merely guessing a password and gaining entry is
 Sufficient for conviction. Distinguish s.1 (access only) from s.3 (impairment/damage).
 :::
+
 ### 2.2 Data Protection Act 2018 and UK GDPR
 
 :::note
 Tested piece of legislation across all boards.
 :::
+
 **Definition.** The **Data Protection Act 2018** (DPA 2018) is the UK's implementation of the EU
 General Data Protection Regulation (GDPR). Following Brexit, the UK operates under "UK GDPR" which
 Mirrors the EU GDPR with minor differences. Together, the DPA 2018 and UK GDPR form the UK's data
@@ -205,11 +210,13 @@ Processor. The controller decides _why_ and _how_ data is processed; the process
 Processing on the controller's behalf. Both have obligations under UK GDPR, but the controller bears
 Primary responsibility.
 :::
+
 ### 2.3 Copyright, Designs and Patents Act 1988
 
 :::note
 Under its "Impacts of Computing" topic. CIE expects general understanding of software copyright.
 :::
+
 **Definition.** The **Copyright, Designs and Patents Act 1988** (CDPA) is the primary UK legislation
 Governing intellectual property rights. It grants creators automatic protection of their original
 Works from the moment of creation, without requiring registration.
@@ -338,6 +345,7 @@ Government.
 "Ethical, Legal, and Environmental Impacts" topic. Edexcel covers discrimination in automated
 Systems.
 :::
+
 **Definition.** The **Equality Act 2010** consolidates previous anti-discrimination legislation (
 Including the Race Relations Act, Sex Discrimination Act, and Disability Discrimination Act). It
 Prohibits discrimination on nine "protected characteristics":
@@ -554,6 +562,7 @@ The key virtues include: honesty, justice, courage, temperance, prudence, compas
 The framework, explain its core principle, and then apply it to the specific case. Stating "it is
 wrong" without grounding your answer in a framework will not score well.
 :::
+
 ### 3.5 Professional Codes of Conduct
 
 #### BCS Code of Conduct
@@ -716,6 +725,7 @@ Generally impossible to satisfy multiple fairness definitions simultaneously whe
 Between groups. This means that choosing a fairness definition is itself an ethical decision, not a
 Purely technical one.
 :::
+
 #### Mitigation Strategies
 
 1. **Pre-processing:** Modify the training data to reduce bias (re-sampling, re-weighting, removing
@@ -1443,7 +1453,6 @@ Continuous integration, responsible disclosure of vulnerabilities).
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

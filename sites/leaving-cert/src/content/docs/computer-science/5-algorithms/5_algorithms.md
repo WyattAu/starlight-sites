@@ -830,7 +830,6 @@ while x > 0:
    2 digits, 1-6 digits).
 8. Explain the difference between backtracking and divide and conquer. Give an example of each.
 
-
 ```mermaid
 flowchart TD
     A[5_Algorithms] --> B[Key Concepts]
@@ -857,6 +856,7 @@ practical implementation, and key applications.
 Understanding these concepts thoroughly is essential for both examinations and practical
 programming, and requires both theoretical knowledge and hands-on practice.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

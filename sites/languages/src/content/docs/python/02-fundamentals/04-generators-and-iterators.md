@@ -142,7 +142,6 @@ class FibonacciIterable:
     def __iter__(self):
         return FibonacciIterator(self._limit)
 
-
 class FibonacciIterator:
     """An iterator for the Fibonacci sequence."""
 
@@ -210,7 +209,6 @@ class FloatRange:
     def __iter__(self):
         return _FloatRangeIterator(self._start, self._stop, self._step)
 
-
 class _FloatRangeIterator:
     def __init__(self, start: float, stop: float, step: float):
         self._current = start
@@ -227,7 +225,6 @@ class _FloatRangeIterator:
         value = self._current
         self._current += self._step
         return value
-
 
 for f in FloatRange(0.0, 1.0, 0.2):
     print(f"{f:.1f}", end=" ")
@@ -294,7 +291,6 @@ def count_to(n: int):
         i += 1
     print("Generator exhausted")
 
-
 gen = count_to(3)       # Nothing is printed yet -- the function body has NOT run
 print(type(gen))        # <class 'generator'>
 
@@ -352,7 +348,6 @@ def first_n_evens(n: int):
     for i in range(n):
         yield i * 2
     return f"Generated {n} even numbers"
-
 
 gen = first_n_evens(3)
 print(list(gen))  # [0, 2, 4]
@@ -536,7 +531,6 @@ class TreeNode:
     def __repr__(self):
         return f"TreeNode({self.value})"
 
-
 def inorder_traversal(node):
     """Recursive inorder traversal using yield from."""
     if node is None:
@@ -544,7 +538,6 @@ def inorder_traversal(node):
     yield from inorder_traversal(node.left)
     yield node.value
     yield from inorder_traversal(node.right)
-
 
 # Build a tree:
 #       4
@@ -575,7 +568,6 @@ def flatten(nested):
             yield from flatten(item)
         else:
             yield item
-
 
 data = [1, [2, 3, [4, 5]], 6, [7, [8, [9]]]]
 print(list(flatten(data)))  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -609,7 +601,6 @@ def accumulator():
             break
         total += received
     return total
-
 
 gen = accumulator()
 
@@ -656,14 +647,11 @@ def stateful_processor():
             yield buffer[:]  # yield the final buffer
             break
 
-
 class ResetSignal(Exception):
     pass
 
-
 class EndSignal(Exception):
     pass
-
 
 gen = stateful_processor()
 next(gen)               # prime
@@ -695,7 +683,6 @@ def resource_holder():
         release_resource()
         print("Resource released")
 
-
 gen = resource_holder()
 next(gen)       # "Resource acquired", yields resource
 gen.close()     # "Resource released"
@@ -722,7 +709,6 @@ def auto_prime(generator_func):
         return gen
     return wrapper
 
-
 @auto_prime
 def running_average():
     """Maintains a running average, receiving new values via send()."""
@@ -737,7 +723,6 @@ def running_average():
         count += 1
         average = total / count
     return average
-
 
 avg = running_average()
 print(avg.send(10))  # 10.0
@@ -755,20 +740,18 @@ As needed:
 
 ```python
 def natural_numbers():
-    """The infinite sequence 0, 1, 2, 3..."""
+    """The infinite sequence 0, 1, 2, 3, ..."""
     n = 0
     while True:
         yield n
         n += 1
 
-
 def fibonacci():
-    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8..."""
+    """The infinite Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, ..."""
     a, b = 0, 1
     while True:
         yield a
         a, b = b, a + b
-
 
 def primes():
     """Infinite prime number generator using trial division."""
@@ -783,7 +766,6 @@ def primes():
                 composites.setdefault(p + q, []).append(p)
             del composites[q]
         q += 1
-
 
 from itertools import islice
 
@@ -813,13 +795,11 @@ LOG_PATTERN = re.compile(
     r'"(?P<method>\S+) (?P<path>\S+) \S+" (?P<status>\d+) (?P<size>\d+)'
 )
 
-
 def read_lines(filepath: str) -> Iterator[str]:
     """Read a file line by line without loading it all into memory."""
     with open(filepath) as f:
         for line in f:
             yield line.rstrip("\n")
-
 
 def filter_errors(lines: Iterator[str]) -> Iterator[str]:
     """Keep only lines with HTTP 5xx status codes."""
@@ -828,7 +808,6 @@ def filter_errors(lines: Iterator[str]) -> Iterator[str]:
         if match and match.group("status").startswith("5"):
             yield line
 
-
 def extract_paths(lines: Iterator[str]) -> Iterator[str]:
     """Extract the URL path from each log line."""
     for line in lines:
@@ -836,14 +815,12 @@ def extract_paths(lines: Iterator[str]) -> Iterator[str]:
         if match:
             yield match.group("path")
 
-
 def count_distinct(paths: Iterator[str]) -> dict[str, int]:
     """Count occurrences of each distinct path."""
     counts: dict[str, int] = {}
     for path in paths:
         counts[path] = counts.get(path, 0) + 1
     return counts
-
 
 pipeline = count_distinct(extract_paths(filter_errors(read_lines("access.log"))))
 print(pipeline)
@@ -919,7 +896,6 @@ def http_response_parser():
 
     return {"status": status_line, "headers": headers, "body": "\n".join(body_lines)}
 
-
 parser = http_response_parser()
 next(parser)  # prime: ("status", None)
 
@@ -990,7 +966,6 @@ def simple_tokenizer():
             else:
                 yield ("UNKNOWN", ch)
                 i += 1
-
 
 # Usage:
 tok = simple_tokenizer()
@@ -1137,7 +1112,7 @@ Ask these questions in order:
 ```python
 # Generator to list: materialize
 gen = (x ** 2 for x in range(100))
-lst = list(gen)  # [0, 1, 4, 9, 16...]
+lst = list(gen)  # [0, 1, 4, 9, 16, ...]
 
 # List to generator: wrap in a generator expression or use iter()
 lst = [1, 2, 3, 4, 5]
@@ -1227,7 +1202,6 @@ def compute():
     yield 2
     return "done"
 
-
 gen = compute()
 print(list(gen))  # [1, 2]  -- the return value is silently discarded
 
@@ -1235,7 +1209,6 @@ print(list(gen))  # [1, 2]  -- the return value is silently discarded
 def delegator():
     result = yield from compute()
     print(f"Sub-generator returned: {result}")
-
 
 list(delegator())  # prints "Sub-generator returned: done", returns [None]
 ```
@@ -1278,11 +1251,9 @@ def inner():
     val = yield "inner: waiting"
     yield f"inner: received {val}"
 
-
 def outer():
     result = yield from inner()
     yield f"outer: inner returned {result}"
-
 
 gen = outer()
 print(next(gen))          # "inner: waiting"  (priming)
@@ -1346,12 +1317,10 @@ def db_transaction(connection):
     else:
         tx.commit()
 
-
 # This works correctly -- contextmanager ensures cleanup
 with db_transaction(conn) as tx:
     tx.execute("INSERT INTO ...")
     # If an exception occurs here, rollback() is called automatically
-
 
 # This is dangerous -- generator cleanup depends on GC
 def unsafe_file_reader(path):
@@ -1378,7 +1347,6 @@ Consumed.
 
 For more on `contextlib.contextmanager`See
 [Essential Modules](../05-standard-library/01-essential-modules).
-
 
 ```mermaid
 flowchart TD

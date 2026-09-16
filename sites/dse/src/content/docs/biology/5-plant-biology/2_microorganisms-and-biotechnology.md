@@ -1531,17 +1531,17 @@ nutrient-rich compost that can be used as fertiliser. Regular turning of the hea
   population
 - **Bt crops produce the Bt toxin protein, NOT live bacteria.** The plant cells synthesise the Bt
   protein from the inserted bacterial gene. When an insect eats the plant tissue, the toxin is
-  activated in the insect's alkaline gut and kills the insect by forming pores in its gut lining**
-  :::tip
-<strong>Diagnostic Test</strong>
-:::tip Tip Ready to test your understanding of **Microorganisms and Biotechnology\*\*? The contains the
-  hardest questions within the DSE specification for this topic, each with a full worked solution.
+  activated in the insect's alkaline gut and kills the insect by forming pores in its gut lining
+:::tip[Diagnostic test]
+Ready to test your understanding of **Microorganisms and Biotechnology**? This contains the
+hardest questions within the DSE specification for this topic, each with a full worked solution.
 
 **Unit tests** probe edge cases and common misconceptions. **Integration tests** combine
 Microorganisms and Biotechnology with other biology topics to test synthesis under exam conditions.
 
-See for instructions on
-self-marking and building a personal test matrix.
+See the [practice test](/practice-test-mega/) for instructions on self-marking and building a
+personal test matrix.
+:::
 
 ---
 
@@ -1700,7 +1700,6 @@ contamination of cultures and protect the operator from potentially pathogenic o
   because they facilitate the joining of DNA fragments from different sources\*\*
 - **In bioremediation, "in situ" means treating the pollution on-site, NOT in a laboratory or
   bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\* :::
-
 
 ```mermaid
 flowchart TD

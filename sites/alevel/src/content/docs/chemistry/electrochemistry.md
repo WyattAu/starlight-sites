@@ -1010,7 +1010,6 @@ self-marking and building a personal test matrix.
 
 **Electrochemistry is like a conversation between electricity and chemistry, electrons flowing to create or consume reactions.**
 
-
 ```mermaid
 flowchart TD
     A[Electrochemistry] --> B[Key Concepts]
@@ -1042,6 +1041,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Chemistry](../chemistry)

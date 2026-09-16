@@ -455,6 +455,7 @@ Is still needed when the constraint depends on the **function's return type** in
 Be expressed as a simple boolean predicate, or when working with C++17 or earlier codebases.
 However, for new C++20 code, concepts should be the default choice for template constraints.
 :::
+
 ## Common Pitfalls
 
 ### 1. SFINAE on Dependent Names Requires `typename`
@@ -561,7 +562,6 @@ int main() {
 - [Constraint Subsumption and Overload Resolution](./2_constraint_subsumption)
 - [Standard Library Concepts](./3_standard_concepts)
 - [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits)
-
 
 ```mermaid
 flowchart TD

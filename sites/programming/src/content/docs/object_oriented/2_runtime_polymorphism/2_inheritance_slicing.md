@@ -80,6 +80,7 @@ int main() {
 Adjustment stubs) to correct the `this` pointer when dispatching virtual calls through non-primary
 Bases.
 :::
+
 ## 2.2 Object Slicing
 
 Object slicing occurs when a derived object is copied into a base-class object by value. Only the
@@ -164,6 +165,7 @@ set to `Animal`'s vtable, so `a.speak()` dispatches to `Animal::speak`. The `Dog
 :::caution
 (`Animal&` / `const Animal&`) to preserve the dynamic type.
 :::
+
 ## 2.3 Slicing in Containers
 
 One of the most common sources of slicing is storing polymorphic objects in `std::vector` by value.
@@ -307,6 +309,7 @@ Causing resource leaks. With `GoodBase`The virtual dispatch mechanism selects
 Class is designed to be a polymorphic base class, always declare `virtual ~Base() = default;` (or
 Provide a virtual destructor with a body).
 :::
+
 ### Destructor Chaining Order
 
 When a `Derived` object is destroyed through a `Base*` with a virtual destructor:
@@ -448,6 +451,7 @@ private:
 Convention borrowed from COM and C#. It is not mandated by the Standard. Alternatives include
 Suffixes like `-able` (e.g., `Serializable`).
 :::
+
 ## 2.7 Virtual Inheritance and the Diamond Problem
 
 When two base classes each inherit from the same base, a **diamond inheritance** pattern arises.
@@ -522,6 +526,7 @@ Extra indirection through the vbase offset table. Construction order is also aff
 Bases are constructed by the most-derived class, before any non-virtual base classes [N4950
 S11.9.3]. Avoid virtual inheritance unless the diamond pattern is genuinely needed.
 :::
+
 ## 2.8 `override``final`And Name Hiding
 
 A derived class member function with the **same name** as a base class function **hides** all base
@@ -570,6 +575,7 @@ Other overloads are still hidden.
 Add `using Base::function_name;` in the derived class to avoid accidentally hiding sibling
 Overloads. The `override` keyword catches signature mismatches but does not prevent hiding.
 :::
+
 ## 2.9 Slicing and Return Values
 
 Object slicing also occurs when returning by value. A function that returns `Base` will slice any
@@ -784,7 +790,6 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

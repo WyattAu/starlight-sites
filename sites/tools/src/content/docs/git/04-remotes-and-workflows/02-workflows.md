@@ -240,6 +240,7 @@ $ git branch -d hotfix/fix-crash
 - Projects where releases require significant preparation (version bumps, changelogs, release notes)
 - Regulated environments where release audit trails are required
 :::
+
 :::caution
 Development is simpler and more effective. Only adopt Git Flow if you genuinely need release
 Branches and hotfix workflows.
@@ -335,6 +336,7 @@ BREAKING CHANGE: The parser now returns an error instead of silently
 accepting empty input. Update callers to handle ParseError.
 ```
 :::
+
 :::tip
 In CI:
 
@@ -366,6 +368,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[03 Market Failure] --> B[Key Concepts]
@@ -48,6 +47,7 @@ Is not maximised.
 :::caution
 could make at least One person better off without making anyone worse off (Pareto improvement).
 :::
+
 ## 2. Types of Market Failure
 
 :::note
@@ -57,6 +57,7 @@ Consumer/producer surplus, deadweight loss, and cost-benefit analysis. **OCR (A)
 Failure directly to government intervention and expects evaluation of whether intervention improves
 Outcomes.
 :::
+
 ### 2.1 Externalities
 
 We define an **externality** as a cost or benefit arising from production or consumption that
@@ -257,6 +258,7 @@ Intervention alongside cost-benefit analysis and requires understanding of when 
 Fail. **OCR (A)** emphasises the link between market failure and government failure, requiring
 Students to evaluate whether intervention worsens outcomes.
 :::
+
 ### 4.1 Pigouvian Taxation
 
 For a negative externality, the optimal **Pigouvian tax** equals the marginal external cost at the
@@ -355,6 +357,7 @@ Market failure worsens the outcome.
 :::tip
 the market, on the relative severity of market failure vs government failure in each specific case.
 :::
+
 ## 6. Critical Evaluation
 
 ### Merit and Demerit Goods

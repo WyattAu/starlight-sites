@@ -270,7 +270,7 @@ A current account deficit is unsustainable if financed by:
 **Disadvantages:**
 
 1. **Profit repatriation**: a significant share of MNC profits flows back to the home country,
-   reducing the net benefit of capital inflows. , profit outflows exceed new FDI inflows
+   reducing the net benefit of capital inflows., profit outflows exceed new FDI inflows
 2. **Crowding out**: MNCs may outcompete domestic firms through superior technology, scale, and
    marketing, leading to consolidation and reduced domestic entrepreneurship
 3. **Environmental degradation**: weak environmental regulations in host countries may attract
@@ -559,7 +559,6 @@ Empirical estimates of $\beta$ are mixed:
   financial asset purchases)
 - Ignoring the relationship between the current account and the savings-investment gap
   ($CA = S - I$)
-
 
 ```mermaid
 flowchart TD

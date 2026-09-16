@@ -389,8 +389,8 @@ $$
 \begin`\{pmatrix}` x \\ y \end`\{pmatrix}` = \frac{1}{ad - bc} \begin`\{pmatrix}` d & -b \\ -c & a \end`\{pmatrix}` \begin`\{pmatrix}` e \\ f \end`\{pmatrix}` = \frac{1}{ad - bc} \begin`\{pmatrix}` de - bf \\ -ce + af \end`\{pmatrix}`
 $$
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -735,8 +735,8 @@ Can have three distinct real roots, one repeated and one distinct real root, or 
 Two complex conjugate roots. Since the IB course works over $\mathbb{R}$Only real eigenvalues and
 Eigenvectors are considered.
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -842,8 +842,8 @@ Case.
 This transforms the problem of computing $A^k$ (which would require $k-1$ matrix multiplications)
 Into computing three matrix products, which is dramatically more efficient.
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -905,8 +905,8 @@ Augmented matrix to row echelon form (REF) or reduced row echelon form (RREF).
 - If $\mathrm{rank}(A) = \mathrm{rank}([A \mid \mathbf{b}]) \lt n$: infinitely many solutions.
 - If $\mathrm{rank}(A) \lt \mathrm{rank}([A \mid \mathbf{b}])$: no solution (inconsistent system).
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -954,6 +954,7 @@ $$
 
 Where $A_i$ is the matrix $A$ with column $i$ replaced by the vector $\mathbf{b}$.
 :::
+
 :::caution
 Computation compared to $O(n^3)$ for Gaussian elimination), but it is theoretically important and
 Frequently appears in examination questions for $2 \times 2$ and $3 \times 3$ systems.
@@ -979,8 +980,8 @@ $$
 The key matrix $K$ must be invertible modulo 26, which requires $\det(K)$ to be coprime to 26 (i.e.
 $\gcd(\det(K), 26) = 1$).
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -1060,8 +1061,8 @@ For a regular Markov chain (one where some power of $P$ has all positive entries
 Distribution exists, is unique, and is independent of the initial state. The eigenvalue $1$ is
 Always the largest eigenvalue of a stochastic matrix (by the Perron-Frobenius theorem).
 :::
-:::note
-<strong>Examples</strong>
+
+:::note[Examples]
 <details>
 <summary>Expand</summary>
 
@@ -1096,6 +1097,7 @@ $\lambda_2^k \to 0$ and the system converges to the eigenvector for $\lambda_1 =
 
 </details>
 :::
+
 :::danger
 - **Confusing matrix multiplication order:** Matrix multiplication is NOT commutative: AB is
   generally not equal to BA. When applying a transformation matrix to a point, the ORDER matters.
@@ -1160,7 +1162,6 @@ That can be chosen orthonormal.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Maths", "url": "https://ib.wyattau.com/maths"}, {"name": "3 Geometry And Trigonometry", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry"}, {"name": "3_matrices And Transformations", "url": "https://ib.wyattau.com/maths/3-geometry-and-trigonometry/3_matrices-and-transformations"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

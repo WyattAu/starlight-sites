@@ -106,6 +106,7 @@ The shell performs the following steps before executing a command:
 11. **Redirection**: Set up I/O redirections.
 12. **Command execution**: Execute the command using the resolved path.
 :::
+
 :::caution
 Means `VAR="*.txt"` followed by `ls $VAR` will expand to `ls *.txt` and then glob-expand. If there
 Are no matching files, the shell behavior depends on the `nullglob` option.
@@ -182,6 +183,7 @@ dmesg | grep -i error | sort | uniq -c | sort -rn | head -20
 command 2>&1 1>&3 | process_stderr 3>&1 1>&2 | process_stdout
 ```
 :::
+
 :::note
 Via `/proc/sys/fs/pipe-max-size`). When the buffer is full, the writing process blocks until the
 Reader consumes data. For high-throughput pipelines, this can be a bottleneck.
@@ -270,6 +272,7 @@ shopt -s nocaseglob
 ls *.TXT  # matches file.txt, FILE.TXT, etc.
 ```
 :::
+
 :::caution
 The original Unix glob behavior, you must explicitly use `.*` or enable `dotglob` with
 `shopt -s dotglob`.
@@ -476,7 +479,7 @@ echo "${VAR/%pattern/replacement}"
 echo "${VAR^^}"
 
 # Convert to lowercase (bash 4.0+)
-echo "${VAR,}"
+echo "${VAR,,}"
 ```
 
 ### Common Environment Files
@@ -657,6 +660,7 @@ set -euo pipefail
 #     (without this, only the last command's exit status matters)
 ```
 :::
+
 :::caution
 It does not fire for commands whose exit status is tested (e.g., `if ! command; then`). If you need
 Fine-grained error handling, use explicit error checking with `$?` or `trap`.

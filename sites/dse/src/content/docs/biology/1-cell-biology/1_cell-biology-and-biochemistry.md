@@ -163,6 +163,7 @@ The cell membrane (plasma membrane) is a phospholipid bilayer with embedded prot
 But restricts others. Small, non-polar molecules (e.g., $\mathrm{O}_2$, $\mathrm{CO}_2$) diffuse
 Through , while large or charged molecules require transport proteins.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -430,6 +431,7 @@ Fit. This lowers the activation energy of the reaction.
 Cannot regain its function. This is different from a temporary decrease in activity at sub-optimal
 Conditions.
 :::
+
 ### Worked Example 1
 
 An enzyme has an optimum temperature of $40^\circ\mathrm{C}$. At $20^\circ\mathrm{C}$The reaction
@@ -519,6 +521,7 @@ For each glucose molecule (two turns of the cycle):
 :::note
 Glycolysis into the mitochondria. Many textbooks now quote approximately 30-32 ATP per glucose.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -580,7 +583,6 @@ Takes 6 $\mathrm{CO}_2$ molecules to produce 1 molecule of glucose (6C).
 **Why it matters:** From diagnosing diseases to understanding genetics, cell biology is the foundation of modern medicine and biotechnology.
 
 **The key insight:** Structure determines function, the shape of a protein determines what it does, and mutations that change shape can cause disease.
-
 
 ```mermaid
 flowchart TD
@@ -1030,6 +1032,7 @@ When a ligand binds to a cell-surface receptor, it triggers a cascade of intrace
 Second messenger molecules, each of which can activate many enzyme molecules, creating a large
 Response from a small stimulus.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1854,6 +1857,7 @@ Translation is the process of synthesising a polypeptide chain from the mRNA cod
 **One gene, one polypeptide (generally):** Each gene codes for a specific polypeptide chain. The
 sequence of codons on the mRNA determines the sequence of amino acids in the polypeptide.
 :::
+
 :::tip
 questions within the DSE specification for this topic, each with a full worked solution.
 

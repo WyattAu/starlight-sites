@@ -118,8 +118,7 @@ Since $a_n = S_n - S_{n-1}$We get $a_n \to L - L = 0$.
 **Caution:** If $\displaystyle\lim_{n \to \infty} a_n = 0$The test is inconclusive. The series may
 Converge or diverge. The harmonic series $\sum \frac{1}{n}$ is the canonical counterexample.
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Does $\displaystyle\sum_{n=1}^{\infty} \frac{n}{n+1}$ converge?
 
 $$
@@ -168,8 +167,8 @@ $$
 
 When $|r| \lt 1$, $r^n \to 0$ So $S_n \to \frac{a}{1 - r}$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{3}{2^n}$.
 
 Rewrite as $\displaystyle\sum_{n=1}^{\infty} 3\left(\frac{1}{2}\right)^n$. Here $a = \frac{3}{2}$
@@ -183,8 +182,8 @@ $$
 
 Every repeating decimal can be expressed as a rational number using geometric series.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Express $0.\overline{37}$ as a fraction.
 
 $$
@@ -201,8 +200,8 @@ $$
 
 A telescoping series has terms that cancel in pairs when the partial sum is expanded.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Evaluate $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
 
 Use partial fractions: $\displaystyle\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$.
@@ -305,8 +304,8 @@ $$
 The case $0 \lt L \lt \infty$ is the most commonly used: it says the two series have the "same order
 Of magnitude," so they share the same convergence behavior.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2 + 1}$ converges.
 
 Compare with $\displaystyle\sum \frac{1}{n^2}$ (a convergent $p$-series with $p = 2$):
@@ -350,8 +349,8 @@ Ratio tends to simplify dramatically.
 Large $n$ the terms behave like a geometric series with ratio $L$ And geometric series converge When
 the ratio is less than 1.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{n!}{10^n}$ converges.
 
 $$
@@ -360,8 +359,8 @@ $$
 
 Since $L = \infty \gt 1$The series diverges.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Determine whether $\displaystyle\sum_{n=1}^{\infty} \frac{2^n}{n!}$ converges.
 
 $$
@@ -397,8 +396,8 @@ $$
 That is, the error is bounded by the first omitted term. This is remarkably useful: you can control
 The error by counting terms.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 How many terms of $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^{n-1}}{n}$ are needed to approximate
 The sum with error less than $0.001$?
 
@@ -424,8 +423,8 @@ $\sum a_n = \sum (a_n + |a_n|) - \sum |a_n|$ converges as the difference of two 
 To any real number, or to diverge. This is not true for absolutely convergent series, whose sum is
 Invariant under rearrangement.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Classify $\displaystyle\sum_{n=1}^{\infty} \frac{(-1)^n}{n}$.
 
 The alternating series converges by the alternating series test.
@@ -460,8 +459,8 @@ Convergence**:
 | $R = \infty$         | $(-\infty, \infty)$                 |
 | $0 \lt R \lt \infty$ | Check endpoints of $(a - R, a + R)$ |
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the interval of convergence for $\displaystyle\sum_{n=0}^{\infty} \frac{(x - 2)^n}{n!}$.
 
 Apply the ratio test:
@@ -473,8 +472,8 @@ $$
 Since $L = 0 \lt 1$ for all $x$The series converges for all real numbers. The interval of
 Convergence is $(-\infty, \infty)$ with $R = \infty$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the interval of convergence for $\displaystyle\sum_{n=1}^{\infty} \frac{(x-1)^n}{n}$.
 
 $$
@@ -562,8 +561,8 @@ $$
 
 Where $M$ is an upper bound for $|f^{(n+1)}(z)|$ for $z$ between $a$ and $x$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Use the Maclaurin series for $e^x$ to approximate $e^{0.1}$ with error less than $10^{-8}$.
 
 $$
@@ -593,8 +592,8 @@ $$
 You do not need to compute derivatives from scratch every time. If you know the series for $e^u$ You
 can substitute $u = -x^2$ to get the series for $e^{-x^2}$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the Maclaurin series for $\cos(x^2)$.
 
 Substitute $u = x^2$ into the series for $\cos u$:
@@ -616,8 +615,8 @@ $$
 
 Where $c_n = \sum_{k=0}^{n} a_k b_{n-k}$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the Maclaurin series for $e^x \sin x$ up to the $x^5$ term.
 
 $$
@@ -636,8 +635,8 @@ $$
 
 ### Integration of Power Series
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the Maclaurin series for $\ln(1 + x)$ by integrating the geometric series.
 
 $$
@@ -654,6 +653,7 @@ $$
 \ln(1 + x) = \sum_{n=0}^{\infty} \frac{(-1)^n x^{n+1}}{n+1} = \sum_{n=1}^{\infty} \frac{(-1)^{n-1} x^n}{n}, \quad |x| \lt 1
 $$
 :::
+
 ## Common Pitfalls
 
 1. **Confusing sequences and series.** A sequence is a list; a series is a sum. A convergent

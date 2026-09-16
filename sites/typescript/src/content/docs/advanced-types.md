@@ -91,7 +91,7 @@ TypeScript 4.7+ supports constrained `infer` declarations using `infer R extends
 the inferred type at the point of inference:
 
 ```ts
-type FirstString<T> = T extends [infer F extends string...any[]] ? F : never;
+type FirstString<T> = T extends [infer F extends string, ...any[]] ? F : never;
 
 type A = FirstString<['hello', 'world']>;
 type A = 'hello';
@@ -258,7 +258,7 @@ type L = Last<[1, 2, 3]>;
 ### Type-Safe `concat` with Exact Tuple Preservation
 
 ```ts
-type Concat<T extends readonly any[], U extends readonly any[]> = [...T...U];
+type Concat<T extends readonly any[], U extends readonly any[]> = [...T, ...U];
 
 type A = Concat<[1, 2], [true, false]>;
 type B = Concat<readonly [1], readonly [2, 3]>;
@@ -274,14 +274,14 @@ type Pipe<Fns extends readonly any[]> = Fns extends readonly [
   (arg: infer A) => infer B,
   ...infer Rest,
 ]
-  ? Rest extends readonly [(arg: B) => any...any[]]
+  ? Rest extends readonly [(arg: B) => any, ...any[]]
     ? Pipe<Rest> extends (arg: infer C) => infer D
       ? (arg: A) => D
       : never
     : (arg: A) => B
   : never;
 
-function pipe<Fns extends readonly [(...args: any[]) => any...Array<(arg: any) => any>]>(
+function pipe<Fns extends readonly [(...args: any[]) => any, ...Array<(arg: any) => any>]>(
   ...fns: Fns & Pipe<Fns> extends (arg: any) => any ? Fns : [{ error: "Functions do not compose'' }]
 ): Pipe<Fns> {
   return ((value: any) => fns.reduce((v, fn) => fn(v), value)) as any;
@@ -297,7 +297,7 @@ const result = pipe(
 ### Variable-Length Argument Preservation
 
 ```ts
-type Reverse<T extends any[]> = T extends [infer First...infer Rest]
+type Reverse<T extends any[]> = T extends [infer First, ...infer Rest]
   ? [...Reverse<Rest>, First]
   : [];
 
@@ -384,7 +384,7 @@ type BuildTuple<N extends number, T extends any[] = []> = T['length'] extends N
   ? T
   : BuildTuple<N, [...T, any]>;
 
-type Multiply<A extends number, B extends number> = [...BuildTuple<A>] extends [any...infer Rest]
+type Multiply<A extends number, B extends number> = [...BuildTuple<A>] extends [any, ...infer Rest]
   ? Rest['length'] extends infer R extends number
     ? B extends 0
       ? 0
@@ -400,7 +400,7 @@ type Add<A extends number, B extends number> = [
   : never;
 
 type Subtract<A extends number, B extends number> =
-  BuildTuple<A> extends [...BuildTuple<B>...infer Rest]
+  BuildTuple<A> extends [...BuildTuple<B>, ...infer Rest]
     ? Rest['length'] extends infer R extends number
       ? R
       : never
@@ -421,7 +421,7 @@ type Fibonacci<
   ? Current['length'] extends infer R extends number
     ? R
     : never
-  : Fibonacci<N, [...Current...Prev], Current>;
+  : Fibonacci<N, [...Current, ...Prev], Current>;
 
 type F5 = Fibonacci<7>;
 type F5 = 13;
@@ -911,7 +911,7 @@ Use `keyof T & string` when only string keys are expected.
 Without `as const`, TypeScript widens array literals to regular arrays:
 
 ```ts
-function tail<T extends any[]>(arr: T): T extends [any...infer Rest] ? Rest : never {
+function tail<T extends any[]>(arr: T): T extends [any, ...infer Rest] ? Rest : never {
   return arr.slice(1) as any;
 }
 
@@ -1026,7 +1026,6 @@ This version is an error because the object literal is directly assigned.
    (~9999) for values above about 1000.
 4. **Forgetting that keyof includes symbol keys.** keyof T returns string | number | symbol for most
    objects. Use keyof T & string for string-only keys.
-
 
 ```mermaid
 flowchart TD

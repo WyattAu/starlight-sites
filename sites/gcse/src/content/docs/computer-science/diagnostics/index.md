@@ -9,7 +9,6 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-
 This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.
 
 # Diagnostics
@@ -156,7 +155,7 @@ An **algorithm** is a step-by-step procedure for solving a problem. In computer 
 
 **Control structures:**
 - **Sequence**, Instructions executed one after another
-- **Selection**, `if`, `elif`/`else`choose which path to take based on a condition
+- **Selection**, `if``elif`/`else`choose which path to take based on a condition
 - **Iteration**, `for` loop (count-controlled), `while` loop (condition-controlled)
 
 **Functions:**
@@ -241,7 +240,6 @@ For deeper understanding, consult the recommended textbooks and additional resou
 - *Computer Science: A Concise Introduction* by David Cohen, Clear explanations of fundamental concepts
 - *Hello World! Computer Programming for Kids and Other Beginners* by Warren and Carter Sande, Accessible introduction to programming
 - CS Unplugged (csunplugged.org), Activities for learning computer science without a computer
-
 
 ## Overview
 

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Network Security"
 description: "Study notes for Network Security | A-Level - Wyatt's Notes with worked examples and practice questions."
 ------------------ | -------------------------------------------------------------------- | | Malware | Malicious software"
@@ -245,6 +244,7 @@ Traffic based on predetermined security rules.
   and network security protocols
 - **Edexcel** covers network security fundamentals including encryption and firewalls
 :::
+
 <hr />
 
 ## Problem Set
@@ -688,7 +688,6 @@ Final rule should be "deny all", anything not explicitly permitted is blocked.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

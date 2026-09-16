@@ -186,7 +186,7 @@ let reversed = names.sorted(by: { (a: String, b: String) -> Bool in
 // Implicit returns from single-expression closures
 let sorted = names.sorted(by: { a, b in a > b })
 
-// Shorthand argument names ($0, $1...)
+// Shorthand argument names ($0, $1, ...)
 let shortest = names.sorted(by: { $0.count < $1.count })
 
 // Operator methods as closures
@@ -691,7 +691,6 @@ var m = Matrix(rows: 3, cols: 3)
 m[0, 1] = 5.0
 print(m[0, 1])  // 5.0
 ```
-
 
 ```mermaid
 flowchart TD

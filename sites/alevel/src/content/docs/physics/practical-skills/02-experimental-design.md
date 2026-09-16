@@ -68,6 +68,7 @@ Independent variable.
 :::caution
 Mnemonic: "I change the **I**ndependent variable, and I measure the **D**ependent variable."
 :::
+
 ### Control Variables in Depth
 
 Control variables are often the most neglected part of experimental design, yet failing to control
@@ -88,6 +89,7 @@ To the independent variable or the uncontrolled factor.
 :::note
 Paper 5 Q1 (Planning)
 :::
+
 - **AQA** and **Edexcel** tend to ask students to identify variables from a given method. Practice
   reading a method description and extracting all three types.
 - **OCR (A)** PAG activities require students to write a full risk assessment, so control variables
@@ -202,6 +204,7 @@ $$\boxed{\mathrm{True value} = \mathrm{measured value} \pm \mathrm{uncertainty}}
 :::caution
 (consistent) but invalid (measuring the wrong thing), or valid but inaccurate (systematic error).
 :::
+
 ## 2. Planning an Experiment
 
 When asked to design an experiment, address:
@@ -373,6 +376,7 @@ When asked to write a risk assessment, structure your answer as follows:
 Hazards exist. Examiners award marks for identifying the _most significant_ hazards and providing
 Specific, practical control measures. "Be careful" is never an acceptable control measure.
 :::
+
 ## 5. Evaluating Experiments
 
 When asked to evaluate an experiment:
@@ -463,6 +467,7 @@ When a graph is plotted, check:
 Instead of "use a more accurate instrument", say "use a micrometer instead of a ruler to measure the
 Wire diameter, reducing the uncertainty from $\pm 0.5$ mm to $\pm 0.005$ mm."
 :::
+
 :::danger
 - **Stating "repeat and average" without explaining why:** saying you will repeat readings is
   insufficient. You must explain that repeating and averaging REDUCES THE EFFECT OF RANDOM ERRORS.
@@ -724,7 +729,6 @@ Eliminate human reaction time entirely.
 
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
-
 
 ```mermaid
 flowchart TD

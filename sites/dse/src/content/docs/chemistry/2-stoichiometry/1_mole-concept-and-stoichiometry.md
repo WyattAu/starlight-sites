@@ -47,6 +47,7 @@ $$M_r(\mathrm{NaCl}) = 23.0 + 35.5 = 58.5$$
 :::note
 Mg = 24.3, Al = 27.0, S = 32.1, Cl = 35.5, K = 39.1, Ca = 40.1, Fe = 55.8, Cu = 63.5, Zn = 65.4.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -102,6 +103,7 @@ Where $V_m$ = 22.4 dm$^3$/mol (STP) or 24.0 dm$^3$/mol (RTP).
 :::caution
 Volume is one of the most common errors in DSE stoichiometry questions.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -987,7 +989,6 @@ Fractions. The correct simplest integer ratio is indeed 8:16:3, giving
 $\mathrm{C}_8\mathrm{H}_{16}\mathrm{O}_3$.
 
 </details>
-
 
 ```mermaid
 flowchart TD

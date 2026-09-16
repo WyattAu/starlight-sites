@@ -508,6 +508,7 @@ def suffix_array_search(s, sa, pattern):
     return (-1, -1)
 ```
 :::
+
 :::tip
 Memory (an array of integers vs a tree of objects) and are easier to implement. The LCP array
 Enables efficient computation of longest common substrings and other string problems.

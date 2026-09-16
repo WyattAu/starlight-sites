@@ -349,6 +349,7 @@ int main() {
 `std::find_if` all accept callable objects, and generic lambdas provide the most ergonomic way to
 Pass custom comparators and predicates.
 :::
+
 ## 3.5 Stateful Lambdas and Lifetime Issues
 
 A lambda that captures by reference holds references to local variables. If the lambda outlives
@@ -682,7 +683,6 @@ struct Handler {
     int member_ = 0;
 };
 ```
-
 
 ```mermaid
 flowchart TD

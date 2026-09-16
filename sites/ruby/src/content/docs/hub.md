@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -88,9 +87,9 @@ Ruby's fundamentals are designed for simplicity and expressiveness. Everything i
 
 **Everything is an object**, In Ruby, integers have methods, strings have methods, and even `nil` has methods. This makes the language consistent, you can call methods on anything. `5.times { puts "hello" }` is valid Ruby.
 
-**Symbols** are immutable, interned strings. They are frequently used as hash keys and method names because they are memory-efficient and fast to compare. Symbols are written with a colon prefix: `:name`, `:status`.
+**Symbols** are immutable, interned strings. They are frequently used as hash keys and method names because they are memory-efficient and fast to compare. Symbols are written with a colon prefix: `:name``:status`.
 
-**Iterators** replace traditional for loops. Ruby's `each`, `map`, `select`, and `reject` methods are more expressive and less error-prone than index-based loops. Ruby encourages functional-style iteration over imperative loops.
+**Iterators** replace traditional for loops. Ruby's `each``map``select`and `reject` methods are more expressive and less error-prone than index-based loops. Ruby encourages functional-style iteration over imperative loops.
 
 ---
 
@@ -112,7 +111,7 @@ Ruby is a pure object-oriented language. Every value is an object, and every ope
 
 **Duck typing**, In Ruby, you do not care about an object's type, only whether it responds to the methods you need. If an object quacks like a duck, it is treated as a duck. This enables flexible, loosely-coupled designs.
 
-**Attr accessors**, `attr_reader`, `attr_writer`, and `attr_accessor` generate getter and setter methods automatically. They eliminate the boilerplate of manual method definitions for simple property access.
+**Attr accessors**, `attr_reader``attr_writer`and `attr_accessor` generate getter and setter methods automatically. They eliminate the boilerplate of manual method definitions for simple property access.
 
 ---
 
@@ -150,7 +149,7 @@ Ruby has a strong testing culture. RSpec is the most popular testing framework, 
 
 ### Key Concepts
 
-**RSpec** uses a `describe`/`it` structure for organizing tests. `expect(value).to eq(expected)` asserts the expected result. RSpec matchers provide readable assertions: `be_nil`, `include`, `have_attributes`.
+**RSpec** uses a `describe`/`it` structure for organizing tests. `expect(value).to eq(expected)` asserts the expected result. RSpec matchers provide readable assertions: `be_nil``include``have_attributes`.
 
 **Test doubles** replace real objects in tests. Stubs return predefined values. Mocks verify that methods were called. They isolate the code under test from external dependencies, databases, APIs, and file systems.
 
@@ -174,7 +173,7 @@ Ruby on Rails is a full-stack web framework that emphasizes convention over conf
 
 **Convention over configuration**, Rails makes assumptions about file names, database table names, and routing. A model named `Post` maps to the `posts` table. This eliminates configuration boilerplate and keeps code organized.
 
-**Active Record** is Rails' ORM (Object-Relational Mapper). Each model class maps to a database table. Associations (`has_many`, `belongs_to`, `has_and_belongs_to_many`) define relationships. Validations ensure data integrity at the model level.
+**Active Record** is Rails' ORM (Object-Relational Mapper). Each model class maps to a database table. Associations (`has_many``belongs_to``has_and_belongs_to_many`) define relationships. Validations ensure data integrity at the model level.
 
 **Migrations** are version-controlled database schema changes. `rails generate migration AddEmailToUsers email:string` creates a migration that adds an email column to the users table. Migrations are reversible and can be applied or rolled back.
 

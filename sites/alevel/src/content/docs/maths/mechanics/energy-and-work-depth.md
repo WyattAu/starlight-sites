@@ -26,6 +26,7 @@ Energy, and elastic potential energy with proofs and applications.
 approach Requires solving differential equations, an energy approach may give the answer in a single
 step.
 :::
+
 <hr />
 
 ## 1. Work Done by a Force
@@ -238,6 +239,7 @@ illustrates the importance of knowing the track geometry.
 velocity directly. Remember To take the square root to find speed, and always check that the result
 is physically meaningful (i.e., the quantity under the square root must be non-negative).
 :::
+
 <hr />
 
 ## 6. Power
@@ -551,7 +553,6 @@ $\blacksquare$
 ## Intuition
 
 Work and energy are two ways of describing the same thing: a force pushing an object through space is like money changing hands. When you do work on a box by pushing it up a ramp, you are transferring energy from your muscles into the box's gravitational potential bank account. Friction is like a tax collector who takes a cut at every step, converting useful energy into heat that you cannot get back. Conservation of energy is the universe's balanced ledger: the total never changes, it only moves between accounts. The power equation P = Fv tells you how fast you are making deposits.
-
 
 ```mermaid
 flowchart TD

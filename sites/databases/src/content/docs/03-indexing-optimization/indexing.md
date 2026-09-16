@@ -230,6 +230,7 @@ CREATE INDEX idx_transactions_large ON transactions (account_id, created_at)
     WHERE amount >= 10000;
 ```
 :::
+
 :::tip
 Filter on a condition (e.g., `status = 'active'`), a partial index can be 10-100x smaller than a
 Full index while providing the same query performance. The key insight: **do not index data your
@@ -597,6 +598,7 @@ Pool modes:
 | `transaction` | Server connection held only for the duration of a transaction (recommended)                   |
 | `statement`   | Server connection returned to pool after each statement (limited, breaks prepared statements) |
 :::
+
 :::tip
 Client connections to share a small pool of server connections ( 25-100). The caveat: Prepared
 statements that are scoped to a server connection may not work as expected, because a Subsequent
@@ -689,6 +691,7 @@ REFRESH MATERIALIZED VIEW daily_revenue;
 REFRESH MATERIALIZED VIEW CONCURRENTLY daily_revenue;
 ```
 :::
+
 :::note
 Refreshes by scanning the new data and updating existing rows, which is slower than a full refresh
 But does not block concurrent reads.
@@ -762,6 +765,7 @@ EXECUTE get_orders_by_customer(42, 'completed');
 DEALLOCATE get_orders_by_customer;
 ```
 :::
+
 :::caution
 The generic plan does not use the specific parameter values for planning, which can lead to
 Suboptimal plans if the parameter values significantly affect selectivity (e.g., a status column

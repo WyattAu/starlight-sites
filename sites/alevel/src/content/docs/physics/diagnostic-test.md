@@ -25,6 +25,7 @@ categories:
 :::note
 Questions. Each question has an answer and a revision redirect. Time allowed: 90 minutes.
 :::
+
 ## Section A: Mechanics (Questions 1–5)
 
 <details>

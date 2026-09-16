@@ -259,8 +259,7 @@ For all $n \ge n_0$.
 
 **Rule 3:** Drop constants and lower-order terms. $O(3n^2 + 5n + 100) = O(n^2)$.
 
-:::note
-<strong>Example 1</strong>
+:::note[Example 1]
 ```java
 for (int i = 0; i < n; i++) {
     for (int j = 0; j < n; j++) {
@@ -271,8 +270,8 @@ for (int i = 0; i < n; i++) {
 
 Total: $O(n) \times O(n) = O(n^2)$.
 :::
-:::note
-<strong>Example 2</strong>
+
+:::note[Example 2]
 ```java
 for (int i = 0; i < n; i++) {
     System.out.println(i);
@@ -864,7 +863,6 @@ Using $C(n) = 2C(n/2) + n - 1$: $C(1)=0$$C(2)=1$$C(4)=5$$C(8)=17$. Maximum 17 co
 
 </details>
 
-
 ```mermaid
 flowchart TD
     A[3_Algorithms And Programming] --> B[Key Concepts]
@@ -896,6 +894,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Algorithm design applies the decomposition and pattern recognition principles of computational thinking.

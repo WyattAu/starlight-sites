@@ -1066,7 +1066,6 @@ Kinetics with other chemistry topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 
-
 ```mermaid
 flowchart TD
     A[Kinetics] --> B[Key Concepts]
@@ -1098,6 +1097,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Common Mistakes
 
 1. **Conflating order with stoichiometry.** The orders in the rate equation must be determined experimentally. They cannot be read from the balanced equation. A reaction with stoichiometry A + 2B → C may have rate = k[A]²[B], the orders are independent of the coefficients.

@@ -55,6 +55,7 @@ Enables the compiler to parse it and verify that every `{}` field has a correspo
 The correct type. Runtime-computed format strings are not supported by `std::format` (use
 `std::vformat` for runtime format strings, at the cost of losing compile-time checking).
 :::
+
 ### Format Specification Syntax
 
 The full format specification grammar [N4950 §22.14.2] for a replacement field `{...}` is:
@@ -168,6 +169,7 @@ void width_precision_demo() {
 Argument IDs with dynamic width/precision can lead to confusing index errors. When using dynamic
 Width/precision, keep the argument ordering simple.
 :::
+
 #### Type Specifiers
 
 | Type      | Meaning                          | Example                                      |
@@ -304,10 +306,12 @@ But means it does not synchronize with `std::cout` by default. Avoid mixing
 `std::print(stdout, ...)` and `std::cout` in the same program without calling
 `std::ios_base::sync_with_stdio(true)` first.
 :::
+
 :::caution
 `std::print` from multiple threads can produce interleaved output. Use `std::print(stderr, ...)` for
 Error messages (stderr is unbuffered) or protect stdout with a mutex.
 :::
+
 ### Custom Type Formatter
 
 To make a user-defined type work with `std::format`You must specialize `std::formatter&lt;T>` for
@@ -448,11 +452,13 @@ To the standard format specification parsing logic. If your custom type needs to
 Standard specification set (width, fill, alignment), parse the standard spec first with the base
 Class's `parse()`Then check for your custom specifiers.
 :::
+
 :::caution
 Find it. However, adding declarations to namespace `std` is technically undefined behavior unless it
 Is a **template specialization** of a standard library template [N4950 §16.5.4.2.1]. Specializing
 `std::formatter` is explicitly permitted.
 :::
+
 ### Runtime Format Strings with `std::vformat`
 
 When the format string must be computed at runtime (e.g., loaded from a configuration file or user
@@ -734,7 +740,6 @@ int main() {
 **Why it matters:** `std::format` replaces the unsafe `printf` family with compile-time checked formatting. It's faster (no parsing at runtime), safer (type mismatches are compile errors), and extensible (you can add formatters for your own types). It's the modern C++ way to format strings.
 
 **The key insight:** `std::format` parses format strings at compile time, type mismatches are caught before the program runs, eliminating undefined behavior.
-
 
 ```mermaid
 flowchart TD

@@ -18,7 +18,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Tls Internals] --> B[Key Concepts]
@@ -523,6 +522,7 @@ Static RSA private key. If an attacker records the handshake and later obtains t
 | PSK only      | No              |
 | PSK + (EC)DHE | Yes             |
 :::
+
 :::caution
 Alone or in combination with PSK. Static RSA key exchange is not available in TLS 1.3.
 
@@ -682,7 +682,7 @@ Server -> Client (encrypted):
   CertificateRequest {
     certificate_request_context: ...,
     extensions: {
-      signature_algorithms: [rsa_pss_rsae_sha256, ecdsa_secp256r1_sha256...],
+      signature_algorithms: [rsa_pss_rsae_sha256, ecdsa_secp256r1_sha256, ...],
       certificate_authorities: [DER-encoded CA DNs]
     }
   }
@@ -731,6 +731,7 @@ For repeat connections where latency is critical.
 openssl s_client -connect example.com:443 -tls1_3 -early_data /tmp/request.txt
 ```
 :::
+
 :::caution
 Operations. Common safe uses: GET requests, database reads, cache lookups. Unsafe: POST, PUT,
 DELETE, financial transactions.
@@ -889,6 +890,7 @@ Content-Security-Policy: upgrade-insecure-requests
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 TLS is like a secure diplomatic pouch system. The handshake is like two ambassadors meeting, verifying each other's credentials (certificates), and agreeing on a secret code (shared secret) for their correspondence. The record layer is like the pouch itself - it wraps messages so eavesdroppers cannot read them and tamperers cannot modify them. TLS 1.3 simplified the handshake from two round trips to one, like speeding up the credential verification process. The key insight is that TLS provides confidentiality (encryption), integrity (MAC), and authentication (certificates) - the three pillars of secure communication. Perfect forward secrecy ensures that even if a server's private key is compromised later, past sessions remain secure.

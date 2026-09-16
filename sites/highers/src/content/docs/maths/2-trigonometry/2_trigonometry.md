@@ -823,7 +823,6 @@ See the examples integrated throughout the sections above.
 
 16. Express $\cos 4\theta$ in terms of $\cos\theta$ using double angle formulae.
 
-
 ```mermaid
 flowchart TD
     A[2_Trigonometry] --> B[Key Concepts]
@@ -850,6 +849,7 @@ including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 :::
+
 ## Cross-References
 
 - [Algebra and Functions](../1-algebra-functions/1_algebra-functions) -- Trigonometric functions are transcendental functions that extend the concept of function beyond polynomials.

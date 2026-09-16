@@ -48,8 +48,7 @@ $$
 V = r\omega = \frac{2\pi r}{T} = 2\pi rf
 $$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 A CD rotates at $200\mathrm{ rpm}$. Find the angular velocity in rad/s and the linear speed of a
 Point $5\mathrm{ cm}$ from the centre.
 
@@ -94,8 +93,8 @@ Always directed toward the centre of the circular path (radially inward).
   by Newton"s first law.
 - The word "centripetal" means "centre-seeking."
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 Centripetal force is NOT a new force, it is the NET force toward the centre provided by existing
 Forces (gravity, tension, friction, normal force, etc.). Never include "centripetal force" as a
 Separate force on a free-body diagram.
@@ -172,8 +171,8 @@ The radius: $r = L\sin\theta$
 
 The period: $T_p = 2\pi\sqrt{\dfrac{L\cos\theta}{g}}$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A $0.5\mathrm{ kg}$ mass on a string of length $1\mathrm{ m}$ moves in a horizontal circle at
 $3\mathrm{ m/s}$. Find the angle the string makes with the vertical and the tension.
 
@@ -263,8 +262,8 @@ $$
 V_{\mathrm{bottom}} = \sqrt{5gr}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A $0.3\mathrm{ kg}$ ball on a string of length $0.8\mathrm{ m}$ is swung in a vertical circle. Find
 The minimum speed at the bottom for the ball to complete the circle.
 
@@ -358,8 +357,8 @@ For an object in **static equilibrium**:
 
 The second condition must hold about ANY axis.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A uniform beam of mass $10\mathrm{ kg}$ and length $4\mathrm{ m}$ is supported at its ends. A
 $20\mathrm{ kg}$ mass hangs $1\mathrm{ m}$ from the left end. Find the support forces.
 
@@ -477,8 +476,8 @@ $$
 - **Diving**: Tucking reduces $I$Increasing angular velocity for flips.
 - **Figure skater**: Extending arms increases $I$Decreasing $\omega$ for a controlled landing.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A figure skater with arms extended has $I = 4.5\mathrm{ kg}\cdot\mathrm{m}^2$ and spins at
 $2\mathrm{ rad/s}$. She pulls her arms in, reducing $I$ to $1.5\mathrm{ kg}\cdot\mathrm{m}^2$. Find
 Her new angular velocity.
@@ -550,8 +549,8 @@ $$
 V = \sqrt{\frac{2gh}{1 + \frac{I}{Mr^2}}}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Compare the speeds of a solid sphere, a hollow sphere, and a solid cylinder rolling down the same
 Incline from the same height.
 
@@ -731,7 +730,6 @@ She can complete 1 full somersault and is partway through a second.
 
 Rotational motion is linear motion wearing a disguise. Every linear equation has a rotational twin: force becomes torque, mass becomes moment of inertia, and velocity becomes angular velocity. Moment of inertia is like rotational mass, but the answer varies based on on how far the mass is spread from the axis, which is why a figure skater spins faster with arms tucked in. Centripetal acceleration is the constant inward tug that keeps objects on circular paths, like a ball on a string that must always be pulled toward the center or the string breaks. Energy conservation links the top and bottom of a vertical circle, telling you exactly how fast you must go.
 
-
 ```mermaid
 flowchart TD
     A[4_Rotational Motion] --> B[Key Concepts]
@@ -755,8 +753,8 @@ flowchart TD
 | Rotational kinetic energy        | $E_k = \dfrac{1}{2}I\omega^2$             |
 | Conservation of angular momentum | $I_1\omega_1 = I_2\omega_2$               |
 :::
-:::tip
-<strong>Exam Strategy</strong>
+
+:::tip[Exam Strategy]
 For circular motion problems, always draw a free-body diagram and identify which force(s) provide
 The centripetal force. For vertical circle problems, use energy conservation to relate speeds at
 Different points. For torque problems, identify the pivot and calculate the moment arm.
@@ -794,8 +792,8 @@ $$
 \theta = \frac{1}{2}(\omega_0 + \omega)t
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A flywheel starts from rest and accelerates uniformly at $2\mathrm{ rad/s}^2$ for $5\mathrm{ s}$.
 
 **(a)** Find the angular velocity after $5\mathrm{ s}$.
@@ -820,6 +818,7 @@ $$
 V = r\omega = 0.3 \times 10 = 3.0\mathrm{ m/s}
 $$
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

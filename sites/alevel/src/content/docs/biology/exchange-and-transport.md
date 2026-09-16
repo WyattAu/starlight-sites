@@ -117,6 +117,7 @@ $500 \times 15 = 7500\ \mathrm{cm^3\ min^{-1}}$.
 ($\approx 4500\ \mathrm{cm^3}$). Residual volume is the air remaining in the lungs after maximum
 Exhalation ($\approx 1500\ \mathrm{cm^3}$).
 :::
+
 ## 3. Gas Exchange in Other Organisms
 
 ### 3.1 Insects: The Tracheal System
@@ -224,6 +225,7 @@ diffusion, and some Solutes appear to move bidirectionally, which the model does
 current Consensus is that mass flow is the primary mechanism but is supplemented by cytoplasmic
 streaming And active transport.
 :::
+
 ### 4.3 Transpiration
 
 Transpiration is the evaporation and loss of water vapour from the aerial parts of a plant,
@@ -294,6 +296,7 @@ Pressure to open the SL valves); aortic pressure peaks during ejection and falls
 :::caution
 towards the arteries at The top of the heart.
 :::
+
 ### 5.4 Cardiac Output
 
 $$\mathrm{Cardiac\ output} = \mathrm{stroke\ volume} \times \mathrm{heart\ rate}$$
@@ -447,6 +450,7 @@ coefficient in air is Approximately four orders of magnitude larger than in wate
 consequence of the kinetic theory Of gases: gas molecules travel further between collisions in a gas
 than in a liquid.
 :::
+
 ## 8. Water Potential Calculations
 
 ### 8.1 Osmosis and Water Potential
@@ -524,6 +528,7 @@ solute potential Of the solution, not the cell. The cell's solute potential is o
 value at equilibrium When $\Psi_p = 0$. In a turgid cell, $\Psi_p > 0$ and $\Psi_{\mathrm{cell}}$ is
 less negative than $\Psi_s$.
 :::
+
 ## 9. Detailed Cardiac Cycle and Pressure Curves
 
 ### 9.1 Pressure Relationships
@@ -604,6 +609,7 @@ approximately the right answer, The correct approach is to calculate the cardiac
 state separately and then compare, as Shown above. This avoids rounding errors and is
 methodologically correct.
 :::
+
 ## 10. The Chloride Shift and Bicarbonate Buffer System
 
 ### 10.1 Mechanism of $\mathrm{CO_2}$ Transport in Detail
@@ -639,6 +645,7 @@ the same way That $\mathrm{O_2}$ does. $\mathrm{CO_2}$ binds to the amino groups
 chains (forming Carbaminohaemoglobin), not to the haem groups. $\mathrm{O_2}$ binds to the iron in
 the haem groups. These are distinct binding sites and mechanisms.
 :::
+
 ## Practice Problems
 
 <details>
@@ -1027,6 +1034,7 @@ foetal Hb, low temperature, low $\mathrm{CO_2}$). **R**ight = **R**eleases $\mat
 readily (low affinity, e.g., adult Hb in muscle, high temperature, high $\mathrm{CO_2}$High
 2,3-BPG).
 :::
+
 ## 15. Plant Transport: Advanced Topics
 
 ### 15.1 Xylem Structure and Adaptations
@@ -1501,6 +1509,7 @@ and Transport with other biology topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 ## 22. Adaptations to Extreme Environments
 
 ### 22.1 High Altitude Adaptations
@@ -1691,6 +1700,7 @@ direction. Equilibrium is reached quickly and no further diffusion occurs. In co
 exchange, a gradient is maintained along the entire length, maximising diffusion. Always specify
 countercurrent in your answers about fish gills.
 :::
+
 ## 28. Gas Exchange in Insects
 
 ### 28.1 The Tracheal System
@@ -2026,7 +2036,6 @@ For oxygen diffusing across the alveolar membrane:
 ## Intuition
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
-
 
 ```mermaid
 flowchart TD

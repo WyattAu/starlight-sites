@@ -11,7 +11,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -232,6 +231,7 @@ class Math:
 Static methods receive no implicit arguments. They cannot access `self` or `cls`. If a method does
 Not need either, making it static is a signal to readers and static analysis tools.
 :::
+
 :::note
 Be overridden in a subclass and dispatch to the correct class via `cls`. A static method cannot --
 It is a plain function that happens to live in a class namespace.
@@ -488,6 +488,7 @@ class EnhancedUser(JsonMixin, CsvMixin, User):
 This ordering ensures that mixin methods can override or wrap the primary class's methods, and that
 `super()` calls propagate through the mixins before reaching the primary class.
 :::
+
 :::danger
 Class does not account for cooperative initialization. If you use mixins with `__init__`Every Class
 in the hierarchy must use `super().__init__()` and accept `*args, **kwargs` to pass through
@@ -622,6 +623,7 @@ Returning `NotImplemented` (not `False`) when the other operand has an incompati
 Python to try the reflected operation on the other operand. Returning `False` would prevent this
 Fallback.
 :::
+
 :::danger
 And unusable in sets or as dict keys. If you need hashability, you must define `__hash__`
 Explicitly. The invariant is: if `a == b`Then `hash(a) == hash(b)`. Violating this causes silent
@@ -808,6 +810,7 @@ print(p.x)  # 1
 p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 ```
 :::
+
 :::danger
 1. Instances cannot have attributes not listed in `__slots__` (no dynamic attribute assignment).
 2. Each class in an inheritance hierarchy must define its own `__slots__`. If a base class omits
@@ -818,13 +821,13 @@ p.z = 3    # AttributeError: "DensePoint'' object has no attribute "z'
 
 ```python
 class Base:
-    __slots__ = ("id")
+    __slots__ = ("id",)
 
 class Child(Base):
-    __slots__ = ("name")
+    __slots__ = ("name",)
 
 class Grandchild(Child):
-    __slots__ = ("age")
+    __slots__ = ("age",)
 
 g = Grandchild()
 g.id = 1

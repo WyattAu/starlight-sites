@@ -48,6 +48,7 @@ print(s1 is s2)  # True
 Overridden. Use cases include: singletons, immutable types that need pre-initialization validation,
 And subclassing immutable built-in types like `str` and `int`.
 :::
+
 ### \_\_repr\_\_ and \_\_str\_\_
 
 ```python
@@ -133,6 +134,7 @@ print(versions[v2])  # "stable"
 unhashable. If you define `__hash__` without `__eq__`Objects may compare equal but hash Differently,
 breaking dict and set invariants.
 :::
+
 ### Rich Comparison
 
 ```python
@@ -532,6 +534,7 @@ c += Counter(5)  # Counter with value 20
 `c = c + other`. This creates a new object. Define `__iadd__` when you want in-place mutation for
 Performance.
 :::
+
 ## Bitwise Protocols
 
 ```python
@@ -788,6 +791,7 @@ print(mk in s)  # May be False, hash changed but position didn't
 :::danger
 Use immutable snapshots or compute hash from immutable attributes.
 :::
+
 ### 5. \_\_del\_\_ and Circular References
 
 ```python

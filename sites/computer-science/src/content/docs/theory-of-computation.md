@@ -472,6 +472,7 @@ valid decompositions lead To a contradiction. A single decomposition that works 
 disprove the lemma. The converse of the pumping lemma is false: if a language satisfies the pumping
 condition, it is Not necessarily regular.
 :::
+
 ### 2.7 Closure Properties of Regular Languages
 
 Regular languages are closed under:
@@ -1193,6 +1194,7 @@ $A_{\mathrm{TM}}$. The case $\emptyset \in P$ is similar. $\blacksquare$
 properties of the **machine** $M$ itself. For example, "Does $M$ halt within 100 steps on input $w$?" is a property Of $M$'s behaviour, not of $L(M)$ And is in fact decidable (just simulate for 100
 steps).
 :::
+
 ### 5.5 Post Correspondence Problem
 
 **Definition.** An instance of the **Post Correspondence Problem (PCP)** consists of two lists of
@@ -1277,6 +1279,7 @@ undecidable (contrapositive of "if $B$ is decidable then $A$ is decidable"). Rev
 gives a valid implication ("if $B \leq_m A$ and $A$ is undecidable, then...") that tells us nothing
 about $B$.
 :::
+
 ## 6. Complexity Theory
 
 ### 6.1 Time Complexity
@@ -1723,6 +1726,7 @@ A common error is confusing "NP-hard" with "NP-complete": NP-hard means at least
 problems, but the problem Itself might not be in NP (e.g., the halting problem is NP-hard but
 undecidable).
 :::
+
 ## 7. Problem Set
 
 ### 7.1 Regular Languages

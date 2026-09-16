@@ -17,7 +17,6 @@ description: "Decidability: comprehensive educational content notes with precise
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[5_Decidability] --> B[Key Concepts]
@@ -249,7 +248,7 @@ if $q \in O$ and `0` if $q \notin O$. The oracle answers in one step.
 $P^B = NP^B$.
 
 This result (Baker--Gill--Solovay, 1975) shows that resolving $P \stackrel{?}{=} NP$ will require
-Non-relativising techniques.../1-number-and-algebra/3_proof-and-logic methods that do not carry
+Non-relativising techniques, .../1-number-and-algebra/3_proof-and-logic methods that do not carry
 over in the presence of oracles.
 
 **The Turing jump.** Given a language $A$Define the **halting problem relative to $A$**:
@@ -263,6 +262,7 @@ The arithmetical hierarchy is defined by iterating the jump: $\emptyset^{(0)} = 
 $\emptyset^{(n+1)} = (\emptyset^{(n)})'$. Each jump produces a strictly more difficult problem,
 Yielding an infinite hierarchy of undecidability.
 :::
+
 :::caution
 prove $B$ is undecidable Using a reduction from a known undecidable problem $A$You need
 $A \leq_m B$Not $B \leq_m A$. Remember: if $A \leq_m B$ and $A$ is undecidable, then $B$ is

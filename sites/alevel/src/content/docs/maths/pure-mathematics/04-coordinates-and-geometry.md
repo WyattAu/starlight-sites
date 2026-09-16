@@ -1,6 +1,5 @@
 ---
 
-
 title: "Coordinates and Geometry"
 description: "Study notes for Coordinates and Geometry | A-Level with worked examples and practice questions."
 ---------- | ------- | ---------------------------------------- | | AQA | Paper 1 | Straight lines, circles | | Edexcel | P1 |"
@@ -351,6 +350,7 @@ $$d = \frac{|3(5) + 4(-2) - 10|}{\sqrt{9 + 16}} = \frac{|15 - 8 - 10|}{\sqrt{25}
 :::note
 $ax_0 + by_0 + c$ tells you which side of the line the point lies on.
 :::
+
 <hr />
 
 ## 7. Intersection of Two Circles
@@ -426,6 +426,7 @@ System in $D$ and $E$. Solve for $D$ and $E$ Then substitute back to find $F$.
 :::caution
 gradient between the first Two points equals the gradient between the second two.
 :::
+
 <details>
 <summary>Worked example</summary>
 Find the equation of the circle through $A(1, 2)$, $B(3, 4)$ And $C(5, 2)$.
@@ -973,7 +974,6 @@ building a personal test matrix.
 - [Equations and Inequalities](03-equations-and-inequalities), Simultaneous equations and discriminant analysis determine intersections of lines and circles.
 - [Vectors](12-vectors), The vector equation of a line and the dot product are applied in coordinate geometry proofs.
 - [Trigonometry](08-trigonometry), Parametric equations of a circle use sine and cosine functions from trigonometry.
-
 
 ```mermaid
 flowchart TD

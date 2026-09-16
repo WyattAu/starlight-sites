@@ -1000,6 +1000,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc channels allow multiple producers but single consumption. Crossbeam provides multi-producer multi-consumer channels with better performance. Messages are moved through channels, transferring ownership and preventing shared state. This pattern logically serializes access to shared resources without locks, and the type system ensures messages cannot be used after being sent.

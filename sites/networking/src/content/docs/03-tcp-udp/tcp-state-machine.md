@@ -299,6 +299,7 @@ sysctl -w net.ipv4.tcp_tw_reuse=1
 sysctl -w net.ipv4.tcp_tw_recycle=1
 ```
 :::
+
 :::caution
 Loss for clients behind NAT because it relied on timestamps to track per-host connection state, and
 NAT multiplexed many clients onto the same source IP. Do NOT use it.
@@ -315,6 +316,7 @@ ling.l_linger = 0;
 setsockopt(fd, SOL_SOCKET, SO_LINGER, &ling, sizeof(ling));
 ```
 :::
+
 :::caution
 "Connection reset by peer" instead of a clean EOF. Use this only for connections where you are
 Certain the peer handles RST correctly, and never for connections where data integrity matters
@@ -532,6 +534,7 @@ sysctl -w net.ipv4.tcp_keepalive_probes=6
 | Configurability | System-wide (sysctl)         | Per-connection (app code) |
 | Failure signal  | `ECONNRESET` or `ETIMEDOUT`  | Application-defined       |
 :::
+
 :::tip
 Keepalone alone is too slow for most server applications. A 2-hour dead connection detection is
 Unacceptable for a database connection pool.
@@ -796,6 +799,7 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
 sysctl -w net.core.default_qdisc=fq    # Fair Queuing recommended with BBR
 ```
 :::
+
 :::tip
 You are using BBR, consider BBR v2 if your kernel supports it. BBR v1 can be unfair to loss-based
 Congestion control algorithms (CUBIC) in shared environments.

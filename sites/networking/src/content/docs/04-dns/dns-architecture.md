@@ -308,6 +308,7 @@ Entire zone by following NSEC chains). NSEC is simpler and more efficient.
 **NSEC3** uses hashed names instead of plaintext names. The resolver cannot enumerate the zone
 Because the names are hashed. NSEC3 is recommended for zones that want to prevent zone enumeration.
 :::
+
 :::note
 Brute-force the hashes for common names. NSEC3 with opt-out (unsigned delegations are not covered)
 Provides weaker security but better performance for large zones.
@@ -642,6 +643,7 @@ Mitigations:
 - **0x20 encoding:** Randomize the case of the query name. The response must match the case, making
   forgery harder.
 :::
+
 :::caution
 Randomization was widely deployed, an attacker could poison any resolver within seconds. All modern
 Resolvers implement source port randomization and DNSSEC validation.
@@ -735,6 +737,7 @@ kdig @https://dns.google example.com +https
 | Detection          | Easy to detect/block  | Hard to detect/block         |
 | Client support     | Android, iOS, Linux   | Browsers, curl, most OS      |
 :::
+
 :::caution
 Content filtering. Users can configure their browsers to use an external DoH resolver (e.g.,
 `dns.google``cloudflare-dns.com`), making it impossible for IT to enforce DNS-based policies. Some
@@ -794,6 +797,7 @@ Client's location, not the resolver's location.
 dig +subnet=192.168.1.0/24 www.example.com @8.8.8.8
 ```
 :::
+
 :::caution
 Privacy-focused resolvers (Cloudflare 1.1.1.1, Quad9) zero out ECS by default or randomize it. If
 You operate an authoritative server behind a CDN, ensure ECS is configured correctly -- incorrect
@@ -836,7 +840,6 @@ Advertisements.
 dig @ns1.example.com example.com SOA +timeout=2 +tries=1
 echo $?    # 0 = success, non-zero = failure
 ```
-
 
 ```mermaid
 flowchart TD

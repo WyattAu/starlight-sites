@@ -112,6 +112,7 @@ Pressure.
 unchanged. Adding An inert gas at constant total pressure does shift equilibrium towards the side
 with more moles of Gas, because the partial pressures of the reacting gases decrease.
 :::
+
 #### Change in Temperature
 
 | Change               | System Response | Position of Equilibrium                  |
@@ -422,6 +423,7 @@ $$\mathrm{H}_2\mathrm{S}_2\mathrm{O}_{7(l)} + \mathrm{H}_2\mathrm{O}_{(l)} \to 2
 And would produce a corrosive mist of $\mathrm{H}_2\mathrm{SO}_4$ droplets that is difficult to
 Condense.
 :::
+
 ### Le Chatelier's Principle in the Contact Process
 
 - Higher pressure would favour $\mathrm{SO}_3$ (3 mol gas to 2 mol gas), but the improvement is
@@ -1028,7 +1030,6 @@ $$K = e^{2.179} = 8.84$$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "4 Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium"}, {"name": "1_chemical Equilibrium", "url": "https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

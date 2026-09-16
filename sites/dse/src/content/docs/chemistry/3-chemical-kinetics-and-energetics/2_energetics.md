@@ -265,6 +265,7 @@ $$\Delta H \approx \sum (\mathrm{bonds broken}) - \sum (\mathrm{bonds formed})$$
 Give good estimates. For reactions involving liquids or aqueous solutions, additional energy changes
 (vaporisation, dissolution) are not accounted for, so the estimate is less accurate.
 :::
+
 **Worked example 4:** Estimate $\Delta H$ for the combustion of methane using bond enthalpies.
 
 $$\mathrm{CH}_{4(g)} + 2\mathrm{O}_{2(g)} \to \mathrm{CO}_{2(g)} + 2\mathrm{H}_2\mathrm{O}_{(g)}$$
@@ -467,6 +468,7 @@ $$\Delta H_{\mathrm{latt}} = -411 - 377 = -788 \mathrm{ kJ/mol}$$
 :::note
 Charged ions come together.
 :::
+
 **Worked example 8:** Calculate the lattice energy of $\mathrm{MgO}$ given:
 
 - $\Delta H_{\mathrm{at}}^\circ(\mathrm{Mg}) = +148 \mathrm{ kJ/mol}$
@@ -986,7 +988,6 @@ $\Delta H = -5.936 / 0.100 = -59.4 \mathrm{ kJ/mol}$
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "2_energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

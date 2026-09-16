@@ -62,7 +62,7 @@ for A-Level, with a focus on writing clear, correct, and maintainable code.
 ### Programming Constructs
 
 - **Sequence, selection, iteration**, the three fundamental control structures
-- **Conditional statements**, `IF...THEN...ELSE`, `CASE`/`SWITCH`
+- **Conditional statements**, `IF...THEN...ELSE``CASE`/`SWITCH`
 - **Loops**, `FOR` (count-controlled), `WHILE` (condition-controlled), `DO...UNTIL` (post-tested)
 - **Nested constructs**, combining selection and iteration for complex logic
 

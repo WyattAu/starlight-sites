@@ -254,7 +254,6 @@ $f(-2) = (-2)^2 = 4$$f(0) = 2(0) + 1 = 1$$f(3) = 2(3) + 1 = 7$$f(5) = 10 - 5 = 5
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[2_Functions Advanced] --> B[Key Concepts]
@@ -549,7 +548,7 @@ Since $f^{-1} = f$The function is self-inverse.
    codomain must equal the range for $f$ to be bijective. In DSE problems, the codomain is assumed
    to be the range unless stated otherwise.
 
-7. **Forgetting that $f \circ g$ and $g \circ f$ differ.** , $f \circ g \neq g \circ f$. Always
+7. **Forgetting that $f \circ g$ and $g \circ f$ differ.**, $f \circ g \neq g \circ f$. Always
    compute each separately and check domains independently.
 
 8. **Piecewise function boundary values.** At the boundary between two pieces, always check which
@@ -1037,6 +1036,7 @@ $\blacksquare$
   holes, not asymptotes.
 - Use sign charts for rational inequalities; include or exclude endpoints based on strictness.
 :::
+
 ## Related Topics
 
 - [Linear Algebra: Vector Spaces](https://mathematics.wyattau.com/), Generalisation of functions to vector-space morphisms.

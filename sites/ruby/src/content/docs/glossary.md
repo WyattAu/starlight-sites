@@ -67,7 +67,7 @@ tags: [glossary]
 
 ```ruby
 class Dog
-  attr_accessor :name:breed
+  attr_accessor :name, :breed
 
   def initialize(name, breed)
     @name = name
@@ -86,7 +86,7 @@ end
 
 **Initialize**: The constructor method, called when `new` is used to create an object.
 
-**Inheritance**: A class inherits from a superclass using `<`, gaining its methods and attributes.
+**Inheritance**: A class inherits from a superclass using `<`gaining its methods and attributes.
 
 **Superclass**: The parent class from which another class inherits.
 
@@ -178,7 +178,7 @@ end
 
 **Send**: Calls a method by name: `object.send(:method_name, args)`.
 
-**Reflection**: Examining the structure and behavior of objects at runtime: `object.class`, `object.methods`.
+**Reflection**: Examining the structure and behavior of objects at runtime: `object.class``object.methods`.
 
 **DSL (Domain-Specific Language)**: Using Ruby's metaprogramming to create expressive, domain-specific syntax.
 

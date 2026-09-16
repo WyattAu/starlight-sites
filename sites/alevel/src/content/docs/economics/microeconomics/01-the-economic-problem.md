@@ -38,6 +38,7 @@ Want could be satisfied simultaneously and there would be no need to choose, all
 The start of the syllabus. CIE (9708) Paper 1 frequently opens with MCQs testing precise definitions
 Of scarcity and opportunity cost.
 :::
+
 ### 1.2 Choice
 
 **Choice** is the act of selecting among alternative uses of scarce resources. Given scarcity, every
@@ -59,6 +60,7 @@ Only the single best one that was rejected.
 spend £10 on a book When your next-best option is a film ticket costing £10, the opportunity cost is
 the film ticket, Not the book, not the £10 itself, and not the film ticket _plus_ a coffee.
 :::
+
 <details>
 <summary>Example</summary>
 A student has 3 hours of free time. Their options, ranked by preference:
@@ -128,6 +130,7 @@ bounded Rationality, heuristics, and framing effects undermine the assumption of
 Maximisation. CIE (9708) focuses more narrowly on the formal optimisation framework in Paper 2 essay
 Questions.
 :::
+
 ## 2. The Production Possibility Frontier
 
 ### 2.1 Derivation
@@ -170,6 +173,7 @@ Rare but possible if there are economies of scale.
 may ask For a formal derivation or for students to identify the shape from a production function.
 OCR tends To focus more on the _policy implications_ of PPF shifts.
 :::
+
 #### Evaluation of PPF Assumptions
 
 The standard PPF model rests on several simplifying assumptions that limit its real-world
@@ -319,6 +323,7 @@ Expects students to evaluate when government intervention improves outcomes. OCR
 Students to apply economic systems to contemporary issues such as climate change. CIE (9708) Paper 2
 Essay questions frequently ask students to assess the relative merits of different economic systems.
 :::
+
 ## 3. Positive vs Normative Economics
 
 ### 3.1 Definitions
@@ -348,6 +353,7 @@ The positive-normative distinction is fundamental because:
 Words: _should, ought, fair, unfair, too much, too little, best, worst_. These signal normative
 Statements.
 :::
+
 <details>
 <summary>Example: Classification</summary>
 Classify each statement:
@@ -377,6 +383,7 @@ Positive-normative distinction, with 2-4 mark MCQs or short-answer questions ask
 classify statements. CIE (9708) may embed the distinction within longer essay questions. OCR often
 asks students to identify the positive and normative components within a single policy Argument.
 :::
+
 ## 4. Factors of Production
 
 We define the four factors of production:
@@ -399,6 +406,7 @@ Topic of scarcity and choice. CIE (9708) expects students to distinguish between
 Understand the concept of factor mobility. OCR (H460) may ask students to explain how changes in the
 Quantity or quality of a factor of production affect the PPF.
 :::
+
 ## 5. Specialisation and Division of Labour
 
 **Specialisation** occurs when individuals, firms, or countries concentrate on producing a narrow
@@ -453,6 +461,7 @@ Focusing on the efficiency gains within firms. CIE (9708) Paper 2 may ask studen
 Effects of specialisation on an economy. OCR (H460) often links specialisation to broader questions
 About globalisation and its discontents.
 :::
+
 ## 6. Critical Evaluation
 
 ### Strengths of the PPF Model
@@ -474,6 +483,7 @@ E.g., "Using a PPF diagram, explain how a country might reallocate resources fro
 Capital goods and evaluate the consequences." Focus on the trade-off between current consumption and
 Future growth.
 :::
+
 #### Additional Evaluation Points
 
 - **Dynamic efficiency**: The PPF is a static model, it captures a snapshot in time. In reality,
@@ -656,6 +666,7 @@ This question requires evaluating the assumptions of rational choice theory agai
   represent productive inefficiency (resources are employed but misallocated -- e.g., highly skilled
   workers doing unskilled tasks). Not all inefficiency is due to unemployment.
 :::
+
 ## Common Mistakes
 
 1. **Defining opportunity cost as "everything you give up."** Opportunity cost is the value of the _next-best_ alternative only, not the sum of all alternatives. If you spend £10 on a book when your next-best option is a £10 film ticket, the opportunity cost is the film ticket alone, not the film ticket plus a coffee.
@@ -985,7 +996,6 @@ consumer goods at any given level of capital goods production.
 
 4. Using circular reasoning by assuming the conclusion when evaluating economic policy
    effectiveness.
-
 
 ```mermaid
 flowchart TD

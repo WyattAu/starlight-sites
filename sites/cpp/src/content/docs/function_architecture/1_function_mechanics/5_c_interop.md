@@ -335,6 +335,7 @@ extern "C" {
 System V ABI). On platforms with divergent C/C++ ABIs, use `void*` handles and pass data through
 C-compatible types only.
 :::
+
 ## 5.4 ABI Boundaries: Name Mangling and Layout
 
 At a C/C++ boundary, several ABI properties must align:
@@ -505,6 +506,7 @@ static_assert(sizeof(NetworkHeader) == 7);  // 1 + 4 + 2 = 7, no padding
 Misaligned access on strict-alignment architectures (ARM, SPARC). Use with caution and document the
 Rationale.
 :::
+
 ## 5.6 Dynamic Library Loading with `dlfcn.h`
 
 POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared libraries at Runtime.
@@ -770,7 +772,6 @@ Static initialization order problem entirely.
 **Why it matters:** Many system libraries and APIs are written in C. Understanding C interop lets you leverage existing code and interface with system-level functionality.
 
 **The key insight:** extern "C" disables name mangling, making C++ functions callable from C code.
-
 
 ```mermaid
 flowchart TD

@@ -74,8 +74,7 @@ $$
 P(A \cup B) = P(A) + P(B)
 $$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 In a class of 40 students, 25 play football, 18 play basketball, and 8 play both. Find the
 Probability that a randomly selected student plays at least one sport.
 
@@ -118,8 +117,8 @@ $$
 P(A \cap B) = P(A) \cdot P(B|A) = P(B) \cdot P(A|B)
 $$
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 Independence is NOT the same as mutual exclusivity. In fact, if two events are both mutually
 Exclusive and both have non-zero probability, they CANNOT be independent (since
 $P(A \cap B) = 0 \neq P(A) \cdot P(B)$).
@@ -153,8 +152,8 @@ $$
 P(A|B) = P(A)
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A bag contains 5 red and 3 blue marbles. Two marbles are drawn without replacement. Find the
 Probability that both are red.
 
@@ -166,8 +165,8 @@ $$
 
 Tree diagrams are useful for multi-stage experiments. Multiply along branches, add between branches.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A box contains 4 defective and 6 non-defective items. Two items are drawn without replacement. Find
 The probability that exactly one is defective.
 
@@ -212,8 +211,8 @@ $$
 The denominator $P(B) = \displaystyle\sum_{i=1}^{n} P(B|A_i) \cdot P(A_i)$ is the **law of total
 Probability**.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A factory has three machines producing items. Machine `A` produces 50% of items with 2% defect rate.
 Machine `B` produces 30% with 3% defect rate. Machine `C` produces 20% with 1% defect rate. An item
 Is found to be defective. What is the probability it came from machine `B`?
@@ -241,8 +240,8 @@ $$
 P(\mathrm{disease}|\mathrm{positive}) = \frac{0.01 \times 0.99}{0.0594} = \frac{0.0099}{0.0594} \approx 0.167
 $$
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 This result (approximately 16.7%) is counterintuitively low. Always work through Bayes' theorem
 Carefully rather than relying on intuition for conditional probability questions.
 
@@ -311,8 +310,8 @@ $$
 \mathrm{Var}(X + Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A random variable $X$ has the following probability distribution:
 
 | $x$        | 0   | 1   | 2   | 3   |
@@ -379,8 +378,8 @@ $$
 \sigma = \sqrt{np(1-p)}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A fair coin is tossed 10 times. Find the probability of getting exactly 6 heads.
 
 $X \sim B(10, 0.5)$.
@@ -389,8 +388,8 @@ $$
 P(X = 6) = \binom{10}{6}(0.5)^6(0.5)^4 = 210 \times (0.5)^{10} = \frac{210}{1024} \approx 0.205
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A multiple-choice test has 20 questions, each with 5 options. A student guesses all answers. Find
 The probability of getting at least 10 correct.
 
@@ -410,8 +409,8 @@ $$
 
 Most questions require using the cumulative binomial function on a GDC.
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 For binomial probability questions, always state the distribution : "$X \sim B(n, p)$ Where...". Use
 your GDC for calculations involving large $n$ or cumulative probabilities.
 
@@ -450,8 +449,8 @@ $$
 P(X \lt a) = P\!\left(Z \lt \frac{a - \mu}{\sigma}\right)
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Given $X \sim N(50, 16)$Find $P(45 \lt X \lt 55)$.
 
 $\mu = 50$, $\sigma = 4$.
@@ -474,8 +473,8 @@ $$
 
 Where $z_p$ is the $p$-th percentile of the standard normal.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Heights of a population follow $N(170, 64)$ (in cm). Find the height that is at the 90th percentile.
 
 $\mu = 170$, $\sigma = 8$.
@@ -505,8 +504,8 @@ $$
 AX + b \sim N(a\mu_X + b, a^2\sigma_X^2)
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 The weight of a parcel is $X \sim N(2, 0.04)$ kg. The packaging adds $Y \sim N(0.3, 0.01)$ kg. Find
 The probability that the total exceeds 2.5 kg.
 
@@ -566,8 +565,8 @@ $$
 \int_{-\infty}^{m} f(x)\,dx = 0.5
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A continuous random variable $X$ has PDF $f(x) = 2x$ for $0 \le x \le 1$.
 
 Verify it is a valid PDF:
@@ -721,7 +720,6 @@ Since $f(x) = \dfrac{3x^2}{8}$ is increasing on $[0, 2]$The mode is $x = 2$.
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[1_Probability] --> B[Key Concepts]
@@ -746,8 +744,8 @@ flowchart TD
 | Bayes' theorem          | $P(A\|B) = \dfrac{P(B\|A) \cdot P(A)}{P(B)}$ |
 | Standardisation         | $Z = \dfrac{X - \mu}{\sigma}$                |
 :::
-:::tip
-<strong>Exam Strategy</strong>
+
+:::tip[Exam Strategy]
 Always define your random variable at the start of probability questions. For normal Distribution
 problems, draw a sketch of the bell curve and shade the relevant area. For binomial Problems, verify
 the four conditions before applying the formula.
@@ -779,8 +777,8 @@ $$
 E(X) = \lambda, \quad \mathrm{Var}(X) = \lambda
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A call centre receives an average of 4 calls per minute. Find the probability of receiving exactly 6
 Calls in a minute.
 
@@ -802,8 +800,8 @@ $$
 E(X) = \frac{1}{p}, \quad \mathrm{Var}(X) = \frac{1-p}{p^2}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A die is rolled until a 6 appears. Find the probability that it takes exactly 4 rolls.
 
 $$
@@ -845,8 +843,8 @@ $$
 ^nC_r = \binom{n}{r} = \frac{n!}{r!(n-r)!}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A committee of 4 is to be chosen from 7 men and 5 women. How many committees have at least 2 women?
 
 Total ways $= \dbinom{12}{4} = 495$.
@@ -857,6 +855,7 @@ Ways with 1 woman: $\dbinom{5}{1}\dbinom{7}{3} = 5 \times 35 = 175$.
 
 Ways with at least 2 women $= 495 - 35 - 175 = 285$.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

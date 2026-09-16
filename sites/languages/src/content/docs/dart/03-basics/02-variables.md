@@ -58,6 +58,7 @@ dynamic number = 22;
 :::tip
 `var` or explicit typing.
 :::
+
 ### Mutation Specifier
 
 #### `final` specifier
@@ -178,6 +179,7 @@ Should be avoided.
 
 ### Built-in Data Types
 :::
+
 :::caution
 #### Number Types
 
@@ -185,9 +187,11 @@ Only two number types exists in Dart, `int` and `double`. `int` represents 64-bi
 Platforms, but is limited to 53-bit precision when compiled to JavaScript. `double` follows the IEEE
 754 standard and is also 64 bits.
 :::
+
 :::note
 `abs()``floor()`Etc. Note that `num``double``int` cannot be extended.
 :::
+
 #### String Literals
 
 Only one String type exists in Dart, `String`Which holds a sequence of characters specify in UTF-16
@@ -338,6 +342,7 @@ print(counter()); // 1
 print(counter()); // 2
 ```
 :::
+
 :::tip
 Order-independent, which reduces call-site errors and makes refactoring easier.
 
@@ -367,11 +372,11 @@ growable.addAll([2, 3]);
 // Spread operator (Dart 2.3+)
 var front = [1, 2, 3];
 var back = [6, 7, 8];
-var combined = [...front, 4, 5...back]; // [1, 2, 3, 4, 5, 6, 7, 8]
+var combined = [...front, 4, 5, ...back]; // [1, 2, 3, 4, 5, 6, 7, 8]
 
 // Null-aware spread
 List<int>? maybeList = null;
-var withNull = [0...?maybeList, 9]; // [0, 9]
+var withNull = [0, ...?maybeList, 9]; // [0, 9]
 
 // Collection if/for
 var even = [for (var i = 0; i < 10; i++) if (i % 2 == 0) i]; // [0, 2, 4, 6, 8]
@@ -390,6 +395,7 @@ numbers.indexOf(3);                 // 2
 numbers.sublist(1, 3);             // [2, 3]
 ```
 :::
+
 :::caution
 with `.toList()`:
 
@@ -475,6 +481,7 @@ ages.putIfAbsent('New', () => computeAge());
 var doubled = ages.map((k, v) => MapEntry(k, v * 2));
 ```
 :::
+
 :::tip
 Classes for structured data. When you must use `Map<String, dynamic>` (e.g., JSON deserialization),
 Validate the types at runtime.
@@ -497,6 +504,7 @@ import 'dart:mirrors';
 // MirrorSystem.getName(symbol) → String
 ```
 :::
+
 :::note
 Arbitrary text. They are used internally by the Dart VM for optimization and reflection, and are
 Exposed via the `dart:mirrors` library. Most application developers will never create symbols
@@ -523,7 +531,6 @@ Directly.
 
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
-
 
 ```mermaid
 flowchart TD

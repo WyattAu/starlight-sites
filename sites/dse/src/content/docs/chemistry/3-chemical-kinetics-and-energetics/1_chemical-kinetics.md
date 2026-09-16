@@ -74,6 +74,7 @@ Rate is expressed in mol dm$^{-3}$ s$^{-1}$ (change in concentration per unit ti
 Mass change occurs. Also, ensure the reaction does not produce heat that would affect the balance
 Reading.
 :::
+
 ### Concentration-Time Graphs
 
 For reactants: concentration decreases over time (negative gradient).
@@ -217,6 +218,7 @@ Energy $\geq E_a$ (the new, lower activation energy), so the rate increases.
 :::note
 Shape remains the same at the same temperature.
 :::
+
 ### Key DSE Exam Points
 
 - The Maxwell-Boltzmann curve **never** touches the x-axis.
@@ -1085,7 +1087,6 @@ Powdering the solid increases surface area, further increasing the rate.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Chemistry", "url": "https://dse.wyattau.com/chemistry"}, {"name": "3 Chemical Kinetics And Energetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics"}, {"name": "1_chemical Kinetics", "url": "https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

@@ -368,6 +368,7 @@ Prevents NRVO from applying (because `std::move(local)` is an xvalue, not a name
 And forces a move. Let the compiler apply NRVO or implicit move automatically. The only correct use
 Of `std::move` in a return statement is when returning a member variable or a function parameter.
 :::
+
 ### Decision Table: RVO Applicability
 
 | Return Expression                           | Type Match? | RVO (Guaranteed)? | NRVO (Optional)? | Fallback       |
@@ -504,6 +505,7 @@ Constructed in place (RVO), moved between scopes (move constructors), and swappe
 Copies are the exception, not the rule. Understanding the fallback chain (RVO → NRVO → implicit move
 → copy) is essential for writing code that is both correct and efficient.
 :::
+
 ## 8.6 RVO in Other Contexts
 
 Guaranteed copy elision (C++17 RVO) applies not only to `return` statements but also to variable
@@ -955,7 +957,6 @@ Is correct.
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

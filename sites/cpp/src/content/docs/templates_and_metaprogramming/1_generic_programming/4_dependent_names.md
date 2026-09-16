@@ -77,6 +77,7 @@ Access members of the base class. Without `this->`The name is non-dependent and 
 1, where the base class members are invisible. This is the single most common two-phase lookup bug
 [N4950 S13.8.3].
 :::
+
 ### When Is a Name Dependent?
 
 The standard defines precisely when a name is dependent [N4950 S13.8.3/1]. A name is dependent if
@@ -316,6 +317,7 @@ Template compilation errors. Always use `typename` before a qualified dependent 
 To use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
 Syntactic requirement --- it does not change the generated code.
 :::
+
 ### Where `typename` Is Required vs Not
 
 | Context                                             | `typename` Required? | Reason                                 |
@@ -823,7 +825,6 @@ Dependent names are names that depend on a template parameter, and the compiler 
 - [Explicit and Partial Specialization](./3_specialization)
 - [Explicit Instantiation and Extern Templates](./5_explicit_instantiation)
 - [Argument Deduction (Class and Function)](./2_argument_deduction)
-
 
 ```mermaid
 flowchart TD

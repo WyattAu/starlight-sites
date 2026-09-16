@@ -495,6 +495,7 @@ Maven supports version ranges, but they are a source of non-reproducible builds.
 Works today may break tomorrow when a new compatible version is published. Pin exact versions and
 Update them deliberately through dependency review.
 :::
+
 ## Multi-Module Projects
 
 ### Maven Multi-Module
@@ -604,6 +605,7 @@ Aggregation point and a source of shared configuration. In Gradle, the `settings
 Declares which modules belong to the build, and shared configuration is applied through convention
 Plugins or the `subprojects` block.
 :::
+
 ## Common Pitfalls
 
 ### Dependency Hell, Version Conflicts
@@ -986,7 +988,6 @@ The wrapper downloads the specified Gradle distribution to `~/.gradle/wrapper/di
 Different developers (and CI agents) may have different versions installed, leading to "works on my
 Machine" build failures. Pin the wrapper version in version control and update it deliberately
 Through a PR.
-
 
 ```mermaid
 flowchart TD

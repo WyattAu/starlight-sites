@@ -51,6 +51,7 @@ Undergoes **permanent (plastic) deformation**.
 the limit of Proportionality. Between these two points the material still returns to its original
 shape, but $F$ And $\Delta x$ are no longer linearly related.
 :::
+
 ### Springs in Series and Parallel
 
 For two springs with spring constants $k_1$ and $k_2$:
@@ -99,6 +100,7 @@ Strain is dimensionless (a ratio). It is often expressed as a percentage.
 tensile Loading. **OCR (A)** may ask about compressive stress-strain behaviour of brittle materials
 like Concrete.
 :::
+
 ## 3. Young's Modulus
 
 **Definition.** The **Young's modulus** $E$ of a material is the ratio of tensile stress to tensile
@@ -127,6 +129,7 @@ Under tensile loading. It has units of Pa (same as stress, since strain is dimen
 **tougher** (absorbs more energy before breaking) because it can undergo much larger strains.
 Stiffness and strength are different properties.
 :::
+
 ### Measuring Young's Modulus
 
 A standard experiment uses a wire clamped at one end with masses hung from the other:
@@ -234,6 +237,7 @@ quantitative analysis of Stress-strain graphs including calculating the area und
 (energy). **CIE** may ask you to Sketch stress-strain curves for different material types and
 identify specific points. **OCR (A)** Links material properties to engineering applications.
 :::
+
 ## 5. Elastic Potential Energy
 
 **Definition.** **Elastic potential energy** (or elastic strain energy) is the energy stored in a
@@ -275,6 +279,7 @@ $\square$
 proportionality, the energy Stored is the area under the actual (non-linear) force-extension curve,
 which must be found by Integration or by counting squares.
 :::
+
 ## 6. Material Properties Comparison
 
 ### Metals
@@ -380,6 +385,7 @@ Roofing.
 :::note
 Application-style questions about engineering materials.
 :::
+
 ## Problems
 
 <details>
@@ -573,6 +579,7 @@ of Materials with other physics topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 :::danger
 - **Confusing stress, strain, and Young's modulus:** Stress is force per unit AREA (Pa = N/m
   squared), not force per unit length. Strain is the ratio of extension to ORIGINAL length
@@ -594,6 +601,7 @@ self-marking and building a personal test matrix.
   is where the material actually fractures (which may be lower if the material necks). They are not
   always the same.
 :::
+
 ## Common Pitfalls
 
 1. Confusing displacement with distance, or velocity with speed, particularly in graphs and
@@ -612,7 +620,6 @@ self-marking and building a personal test matrix.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-
 
 ```mermaid
 flowchart TD

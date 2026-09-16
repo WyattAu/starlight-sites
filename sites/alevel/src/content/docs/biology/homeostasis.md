@@ -93,6 +93,7 @@ opposes changes and maintains stability (the most common mechanism in homeostasi
 feedback amplifies changes and destabilises the system. In examination answers, always specify which
 type of feedback is operating and explain why.
 :::
+
 ## 2. Blood Glucose Regulation
 
 ### 2.1 Normal Blood Glucose Concentration
@@ -209,6 +210,7 @@ does not perform this conversion itself -- it is a signalling molecule that stim
 muscle cells to perform glycogenesis via enzyme activation. The insulin binds to receptors on the
 cell surface and triggers a signalling cascade that activates the relevant enzymes.
 :::
+
 ## 3. Temperature Regulation (Thermoregulation)
 
 ### 3.1 The Hypothalamus
@@ -865,6 +867,7 @@ imprecise. Insulin stimulates the enzyme glycogen synthase (via dephosphorylatio
 GLUT4 translocation, which increases glucose uptake into cells. Glycogen synthase catalyses the
 conversion. Always specify the enzyme or the cellular mechanism, not just the hormone.
 :::
+
 ## 13. Control of Blood Sugar: Molecular Mechanisms
 
 ### 13.1 Insulin Signalling Cascade
@@ -1081,6 +1084,7 @@ concentration gradient (dialysis fluid has no urea). No active transport is invo
 own kidneys use both diffusion and active transport; the dialysis machine relies solely on diffusion
 and ultrafiltration.
 :::
+
 ## 24. Communicable and Non-Communicable Diseases
 
 ### 24.1 Types of Disease
@@ -1191,6 +1195,7 @@ change), and nutrients (amino acids, minerals) are reabsorbed into the stem and 
 }
 </script>
 :::
+
 :::tip
 ## 21. Plant Growth Substances: Quantitative Investigations
 
@@ -1291,6 +1296,7 @@ $50\ \mu\mathrm{mol\ L^{-1}}$). Causes:
 }
 </script>
 :::
+
 :::tip
 ## 17. Thermoregulation in Ectotherms
 
@@ -1536,12 +1542,14 @@ temperature):
 | **Low** (fasting/exercise)                      | $\alpha$ cells secrete glucagon                         | Glucagon binds to G-protein coupled receptors on liver cells; activates adenylate cyclase $\to$ cAMP $\to$ protein kinase A; activates glycogen phosphorylase; activates phosphoenolpyruvate carboxykinase (PEPCK) for gluconeogenesis | Glycogenolysis stimulated; gluconeogenesis stimulated; blood glucose rises                                           |
 | **Normal** ($\approx 5\ \mathrm{mmol\ L^{-1}}$) | Both $\alpha$ and $\beta$ cells are relatively inactive | Basal insulin secretion maintains glucose homeostasis                                                                                                                                                                                  | Blood glucose remains stable                                                                                         |
 :::
+
 :::caution
 glycogen in all cells. Insulin promotes glucose uptake primarily in muscle and adipose tissue (via
 GLUT4). The liver does not require insulin for glucose uptake (it uses GLUT2, which is
 insulin-independent). Insulin acts on the liver primarily to stimulate glycogenesis and inhibit
 glycogenolysis and gluconeogenesis.
 :::
+
 ### 23.4 Adrenal Glands and Stress Response
 
 The adrenal glands sit on top of the kidneys and have two distinct regions:
@@ -1610,6 +1618,7 @@ fact, ADH makes the kidneys produce less, more concentrated urine by increasing 
 in the collecting ducts. Without ADH (e.g., in diabetes insipidus), large volumes of dilute urine
 are produced.
 :::
+
 ## 25. Plant Hormones: Detailed Analysis
 
 ### 25.1 Auxin (IAA)
@@ -2317,7 +2326,6 @@ responses (drought, cold, salinity) and seed dormancy.
 ## Intuition
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
-
 
 ```mermaid
 flowchart TD

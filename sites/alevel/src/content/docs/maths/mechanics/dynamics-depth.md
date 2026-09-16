@@ -26,6 +26,7 @@ friction, Inclined planes, momentum, and impulse.
 document. Always draw a clear diagram showing all forces acting on each body before writing any
 equations.
 :::
+
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -80,6 +81,7 @@ $$R - mg = ma$$
 there is no vertical Acceleration. In an accelerating lift, on an inclined plane, or in circular
 motion, $R$ differs From $mg$.
 :::
+
 <hr />
 
 ## 2. Connected Particles
@@ -191,6 +193,7 @@ $T = 5(g - a) = 5(9.8 - 0.754) = 45.23\;\mathrm{N}$
 assumption about which Direction the system moves. If the resulting acceleration is negative, your
 assumption was wrong And the system moves the other way.
 :::
+
 <hr />
 
 ## 4. Friction
@@ -356,6 +359,7 @@ $$v_2 = -3 + 5 = 2\;\mathrm{m\,s^{-1}}$$
 speed of approach Is $|u_1 - u_2|$ and the speed of separation is $|v_2 - v_1|$ But the signs in the
 formula must Be consistent with your chosen positive direction.
 :::
+
 <hr />
 
 ## 6. Newton's Third Law Applications
@@ -569,7 +573,6 @@ $= \frac{1}{2}(2)(0.64) + \frac{1}{2}(3)(51.84) = 0.64 + 77.76 = 78.4\ \mathrm{J
 Energy lost $= 100 - 78.4 = 21.6\ \mathrm{J}$.
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

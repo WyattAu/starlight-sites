@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[02 Matrices] --> B[Key Concepts]
@@ -89,6 +88,7 @@ $\mathbf{A} \in M_{m \times n}(\mathbb{R})$.
 :::caution
 The rightmost matrix is applied first.
 :::
+
 <hr />
 
 ## 2. Determinants
@@ -182,6 +182,7 @@ $$\mathbf{B} = \mathbf{B}\mathbf{I} = \mathbf{B}(\mathbf{AC}) = (\mathbf{BA})\ma
 :::tip
 Catches sign errors and arithmetic mistakes immediately.
 :::
+
 <details>
 <summary>Worked Example: $3\times3$ inverse</summary>
 
@@ -312,10 +313,12 @@ is represented by $\mathbf{BA}$ (rightmost applied first).
 From a reflection followed by a rotation. The combined matrix is $\mathbf{BA}$ (not $\mathbf{AB}$)
 When $\mathbf{A}$ is applied first.
 :::
+
 :::tip
 Application. If the question says "reflect then rotate," compute
 $\mathbf{R}_{\mathrm{rot}} \times \mathbf{R}_{\mathrm{ref}}$.
 :::
+
 <details>
 <summary>Worked Example: Combined transformation</summary>
 
@@ -341,6 +344,7 @@ Transformation.
 :::note
 On 2D but may include basic $3\times3$ determinant and inverse calculations.
 :::
+
 ### 6.1 Rotations in 3D
 
 **Rotation about the $x$-axis by angle $\theta$:**
@@ -903,7 +907,7 @@ $\mathbf{A}^{-1} = \dfrac{1}{-1}\begin{pmatrix}1&2&-2\\-1&-2&1\\-1&-1&1\end{pmat
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Assuming all matrices are diagonalisable                                    | Check geometric multiplicity equals algebraic multiplicity for each eigenvalue |
 | Forgetting that $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$       | The order reverses                                                             |
-| Computing $\det(\mathbf{A}+\mathbf{B}) = \det(\mathbf{A})+\det(\mathbf{B})$ | , $\det(\mathbf{A}+\mathbf{B}) \neq \det(\mathbf{A})+\det(\mathbf{B})$         |
+| Computing $\det(\mathbf{A}+\mathbf{B}) = \det(\mathbf{A})+\det(\mathbf{B})$ |, $\det(\mathbf{A}+\mathbf{B}) \neq \det(\mathbf{A})+\det(\mathbf{B})$         |
 | Mixing up row and column operations                                         | Column operations change the determinant differently from row operations       |
 
 ---

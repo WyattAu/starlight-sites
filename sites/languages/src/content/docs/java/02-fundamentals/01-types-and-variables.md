@@ -59,6 +59,7 @@ Runtime data areas.
 [JLS §17.4](https://docs.oracle.com/javase/specs/jls/se21/html/jls-17.html#jls-17.4) specifies the
 Memory model, which governs how threads interact through shared memory.
 :::
+
 ### Where Variables Live
 
 ```java
@@ -98,6 +99,7 @@ Types and their values.
 [JLS §4.2.3](https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html#jls-4.2.3) specifies
 Floating-point types and IEEE 754 conformance.
 :::
+
 ### Integral Types
 
 Java's integral types are **two's complement** signed integers. The `byte``short``int`And `long`
@@ -154,6 +156,7 @@ System.out.println(0.1 + 0.2 == 0.3); // false
 :::caution
 Or `Double.compare(a, b)` instead. For monetary calculations, always use `BigDecimal`.
 :::
+
 ```java
 BigDecimal price = new BigDecimal("19.99");
 BigDecimal tax = new BigDecimal("0.07");
@@ -238,6 +241,7 @@ System.out.println(c.equals(d)); // true  (same value)
 Not value. The cache makes `==` work for small values by coincidence, creating subtle bugs that only
 Appear in production with larger values.
 :::
+
 ### Performance Implications of Autoboxing
 
 ```java
@@ -288,6 +292,7 @@ overloaded(boxed);  // prints "Integer", reference matches reference
 :::danger
 Or you are working with a generic API that requires reference types.
 :::
+
 ## Strings
 
 ### Immutability
@@ -382,6 +387,7 @@ String literals.
 Boxing conversion, including the requirement that strings computed from constant expressions are
 Interned.
 :::
+
 ### Design Decision: Why the String Pool Exists
 
 The string pool exists to **reduce memory consumption** and **enable fast equality comparison via
@@ -417,6 +423,7 @@ Thread-safe mutable string building (which is almost never). The synchronization
 Unnecessary in the vast majority of use cases, and `StringBuffer` is essentially a legacy class
 Retained for backward compatibility.
 :::
+
 ## Arrays
 
 ### Array Basics
@@ -426,8 +433,8 @@ However, unlike regular objects, their structure is defined by the JVM specifica
 file.
 
 ```java
-int[] primitives = new int[10];       // zero-initialized: [0, 0, 0...]
-String[] references = new String[5];  // null-initialized: [null, null...]
+int[] primitives = new int[10];       // zero-initialized: [0, 0, 0, ...]
+String[] references = new String[5];  // null-initialized: [null, null, ...]
 
 // Array initialization
 int[] fib = {0, 1, 1, 2, 3, 5, 8, 13};
@@ -457,6 +464,7 @@ On every assignment to an array element to prevent type corruption. This check h
 Performance cost. Generic collections (`List<Integer>`) are **invariant**, which is type-safe at
 Compile time and requires no runtime checks.
 :::
+
 ### Arrays vs ArrayList
 
 | Aspect           | `int[]`                                     | `ArrayList<Integer>`                          |
@@ -515,6 +523,7 @@ var boxed = (Integer) 42; // inferred: Integer
 Readability, not brevity. Prefer explicit types when the initializer is complex, when the type
 Carries important semantic information, or when the inferred type might be surprising.
 :::
+
 ## Type Promotion and Casting
 
 ### Implicit Type Promotion (Widening)
@@ -555,6 +564,7 @@ int code = c + 1;          // code = 66
 `long` value will lose low-order bits when converted to `float`. This is technically legal but often
 Surprising.
 :::
+
 ### Explicit Casting (Narrowing)
 
 Narrowing conversions (e.g., `long` to `int``double` to `float`) may lose information and require An
@@ -675,6 +685,7 @@ if (obj instanceof String s && !s.isEmpty()) {
 Semantics. If `obj instanceof String s` is `false`The right side of `&&` is never evaluated, so `s`
 cannot be used unsafely. The compiler verifies this using a concept called "flow analysis."
 :::
+
 ## Records (Java 14+)
 
 Records ([JEP 395](https://openjdk.org/jeps/395), standardized in Java 16) provide a compact syntax
@@ -728,6 +739,7 @@ record NamedPoint(int x, int y, String name) implements Comparable<NamedPoint> {
 Fields are always `final`. Records are best suited for data carriers where immutability and
 Structural equality are desired. They are not a replacement for mutable domain objects or entities.
 :::
+
 ## Sealed Classes (Java 17+)
 
 Sealed classes ([JEP 409](https://openjdk.org/jeps/409), standardized in Java 17) restrict which
@@ -838,8 +850,8 @@ value class ComplexNumber {
 
 // Array of value types, flat layout, no per-element object headers
 ComplexNumber[] points = new ComplexNumber[1000];
-// Memory layout: [real0, imag0, real1, imag1...], 16 bytes per element
-// vs. reference array: [ptr0, ptr1...] + 1000 separate heap objects
+// Memory layout: [real0, imag0, real1, imag1, ...], 16 bytes per element
+// vs. reference array: [ptr0, ptr1, ...] + 1000 separate heap objects
 ```
 
 :::note

@@ -363,6 +363,7 @@ const nonce = crypto.randomBytes(16).toString('base64');
 // </script>
 ```
 :::
+
 :::caution
 Protection. Use nonces or hashes for inline scripts, and move JavaScript to external files.
 `'unsafe-eval'` is equally dangerous and should also be avoided.
@@ -487,6 +488,7 @@ def is_safe_url(url):
     return parsed.hostname in ALLOWED_HOSTS
 ```
 :::
+
 :::caution
 (`http://%31%32%37%2e%30%2e%30%2e%31/`), DNS rebinding (resolves to internal IP on second lookup),
 And redirect chains. Validate after DNS resolution, not before.
@@ -794,6 +796,7 @@ curl -sI https://example.com | grep -iE \
   "strict-transport|content-security|x-frame|x-content-type|referrer-policy|permissions-policy"
 ```
 :::
+
 :::note
 Level 3 (W3C Recommendation), CORS (W3C Recommendation), RFC 6265 (HTTP Cookies), RFC 7231 (HTTP/1.1
 Semantics), RFC 9110 (HTTP Semantics).
@@ -823,6 +826,7 @@ Web security is the practice of protecting web applications from attacks that ex
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

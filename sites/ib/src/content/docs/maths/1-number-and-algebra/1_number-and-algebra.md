@@ -370,6 +370,7 @@ $\blacksquare$
 :::caution
 $$S_n = \frac{n}{2}(2u_1 + (n-1)d) = \frac{n}{2}(u_1 + u_n)$$
 :::
+
 ### Geometric Sequences
 
 A geometric sequence has a constant **common ratio** $r$ between consecutive terms:
@@ -750,7 +751,6 @@ Algebra with other IB mathematics topics to test synthesis under exam conditions
 
 See for instructions on self-marking
 and building a personal test matrix.
-
 
 ```mermaid
 flowchart TD

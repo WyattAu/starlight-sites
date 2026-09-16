@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -85,9 +84,9 @@ Core Java covers the language fundamentals that every Java developer must master
 
 ### Key Concepts
 
-**Reference vs. primitive types** is the first distinction every Java developer must understand. Primitives (`int`, `double`, `boolean`) store values directly on the stack. Reference types store pointers to objects on the heap. Understanding this distinction explains why `==` compares references but `.equals()` compares content.
+**Reference vs. primitive types** is the first distinction every Java developer must understand. Primitives (`int``double``boolean`) store values directly on the stack. Reference types store pointers to objects on the heap. Understanding this distinction explains why `==` compares references but `.equals()` compares content.
 
-**Generics** enable type-safe collections and methods without sacrificing type information at compile time. Type erasure means generic type parameters are removed at runtime, you cannot use `instanceof` with generic types or create generic arrays. Bounded wildcards (`? extends T`, `? super T`) enable flexible API design.
+**Generics** enable type-safe collections and methods without sacrificing type information at compile time. Type erasure means generic type parameters are removed at runtime, you cannot use `instanceof` with generic types or create generic arrays. Bounded wildcards (`? extends T``? super T`) enable flexible API design.
 
 **Try-with-resources** ensures that resources implementing `AutoCloseable` are properly closed after use. The `try` block acquires the resource, and the runtime guarantees `close()` is called even if an exception is thrown.
 
@@ -107,7 +106,7 @@ Java is fundamentally an object-oriented language. Understanding class design, i
 
 ### Key Concepts
 
-**Records** (Java 14+) are immutable data classes that automatically generate constructors, accessors, `equals()`, `hashCode()`, and `toString()`. They eliminate the boilerplate of traditional Java data classes and are ideal for value objects, DTOs, and data transfer.
+**Records** (Java 14+) are immutable data classes that automatically generate constructors, accessors, `equals()``hashCode()`and `toString()`. They eliminate the boilerplate of traditional Java data classes and are ideal for value objects, DTOs, and data transfer.
 
 **Sealed classes** restrict which classes can extend a base class, enabling exhaustive pattern matching in switch expressions. They provide a middle ground between enums (fixed set of constants) and open inheritance.
 
@@ -133,7 +132,7 @@ The Java Collections Framework provides the data structures and algorithms that 
 
 **HashMap** stores key-value pairs using a hash table. It provides O(1) average-case lookup, insertion, and deletion. The key's `hashCode()` and `equals()` methods determine bucket placement and key identity. HashMap permits one null key and multiple null values.
 
-**TreeMap** stores key-value pairs in sorted order using a red-black tree. It provides O(log n) operations and supports range queries with `subMap()`, `headMap()`, and `tailMap()`. Use TreeMap when you need sorted iteration or efficient range queries.
+**TreeMap** stores key-value pairs in sorted order using a red-black tree. It provides O(log n) operations and supports range queries with `subMap()``headMap()`and `tailMap()`. Use TreeMap when you need sorted iteration or efficient range queries.
 
 ---
 
@@ -153,7 +152,7 @@ Java's concurrency model is one of its greatest strengths. The language provides
 
 **Virtual threads** (Java 21+) are lightweight threads managed by the JVM, not the OS. They enable millions of concurrent threads, making blocking I/O patterns practical at scale. Virtual threads dramatically simplify concurrent programming by allowing developers to use blocking code without the performance penalty.
 
-**CompletableFuture** provides a composable API for asynchronous programming. Chain transformations, combine results, and handle errors using methods like `thenApply()`, `thenCompose()`, and `exceptionally()`. It is Java's answer to promises and futures in other languages.
+**CompletableFuture** provides a composable API for asynchronous programming. Chain transformations, combine results, and handle errors using methods like `thenApply()``thenCompose()`and `exceptionally()`. It is Java's answer to promises and futures in other languages.
 
 **The Java Memory Model** defines the rules for visibility and ordering of memory operations across threads. The `volatile` keyword guarantees visibility and ordering for individual variables. `synchronized` blocks provide mutual exclusion and memory barriers. Understanding the memory model is essential for writing correct concurrent code.
 
@@ -177,7 +176,7 @@ Spring is the dominant framework for building Java applications. Spring Boot sim
 
 **Auto-configuration** is what makes Spring Boot magical. Based on the dependencies on the classpath, Spring Boot configures your application with sensible defaults. You can override these defaults through properties files, environment variables, or configuration classes.
 
-**Spring Data JPA** eliminates boilerplate repository code. Define an interface extending `JpaRepository`, and Spring automatically generates the implementation, including standard CRUD operations and derived query methods from method names.
+**Spring Data JPA** eliminates boilerplate repository code. Define an interface extending `JpaRepository`and Spring automatically generates the implementation, including standard CRUD operations and derived query methods from method names.
 
 ---
 

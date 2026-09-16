@@ -54,7 +54,7 @@ Annotations (your code)
   Builders (packages like freezed, json_serializable)
         |
         v
-  Generated files (.g.dart.freezed.dart.gr.dart)
+  Generated files (.g.dart, .freezed.dart, .gr.dart)
 ```
 
 ---
@@ -286,7 +286,7 @@ void handleResult(NetworkResult<User> result) {
   switch (result) {
     case Success(:final data):
       print('User: ${data.name}');
-    case Failure(:final error:final statusCode):
+    case Failure(:final error, :final statusCode):
       print('Error $statusCode: $error');
     case Loading():
       print('Loading...');
@@ -1129,7 +1129,6 @@ class User with _$User {
   factory User.fromJson(Map<String, dynamic> json) => _$UserFromJson(json);
 }
 ```
-
 
 ```mermaid
 flowchart TD

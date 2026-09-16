@@ -1,6 +1,5 @@
 ---
 
-
 title: "Binomial Expansion"
 description: "Study notes for Binomial Expansion | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------------------------------- | | AQA | Paper 1, 2 | Binomial"
@@ -34,6 +33,7 @@ categories:
 :::note
 Memorise it.
 :::
+
 <hr />
 
 ## 1. Pascal"s Triangle
@@ -423,6 +423,7 @@ $$\left|\frac{bx}{a}\right| \lt 1 \quad \mathrm{i.e.,} \quad |x| \lt \left|\frac
 :::caution
 Routinely deducted for omitting this.
 :::
+
 ### 8.2 Product of Two Expansions
 
 When a question asks for the expansion of a product of two binomial expressions, such as
@@ -928,7 +929,6 @@ building a personal test matrix.
 
 4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
-
 
 ```mermaid
 flowchart TD

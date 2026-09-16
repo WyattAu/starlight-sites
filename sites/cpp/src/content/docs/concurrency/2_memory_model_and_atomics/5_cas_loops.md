@@ -67,6 +67,7 @@ To recompute `desired` and retry.
 failed due to A value mismatch (e.g., when you want to take a different action on real failure vs
 spurious Failure).
 :::
+
 ## When Weak CAS Is Preferable
 
 On some architectures (notably ARMv8 using LL/SC, Load-Linked/Store-Conditional),
@@ -196,6 +197,7 @@ Release) are visible to the thread that performs the destruction. The release se
 The destruction itself is visible to other threads. The `fetch_sub` return value is checked against
 1 (not 0) because `fetch_sub` returns the **old** value [N4950 §31.7.2].
 :::
+
 ## CAS Loop Idioms Summary
 
 | Pattern                    | Description                            | Use Case                       |
@@ -209,6 +211,7 @@ The destruction itself is visible to other threads. The `fetch_sub` return value
 Failed CAS. The `compare_exchange_weak` function automatically updates `expected` to the current
 Value on failure, so you can use it directly in the next iteration"s computation.
 :::
+
 ## Lock-Free Stack Push and Pop
 
 A lock-free stack demonstrates the two most common CAS loop patterns: insert (push) and remove
@@ -715,7 +718,7 @@ The head swings, so it can never be recycled and re-inserted. The tail pointer m
 
 **Example 1: Stack operations**
 
-Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`, `push(8)`, `pop()`,
+Trace the following operations on an empty stack: `push(5)``push(3)``pop()``push(8)``pop()`
 `pop()`.
 
 **Solution:**
@@ -728,7 +731,6 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 | push(8)   | [8, 5]               |,      |
 | pop()     | [5]                  | 8      |
 | pop()     | []                   | 5      |
-
 
 ```mermaid
 flowchart TD

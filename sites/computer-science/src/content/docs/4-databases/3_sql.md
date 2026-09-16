@@ -293,7 +293,7 @@ Returning all rows.
    code.
 
 ```python
-cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input))
+cursor.execute("SELECT * FROM Student WHERE name = %s", (user_input,))
 ```
 
 1. **Input validation:** Reject or sanitise input that does not match expected patterns (e.g., email
@@ -378,7 +378,6 @@ Use nested-loop index joins to find matching enrolments and students, avoiding f
 
 </details>
 :::
-
 
 ```mermaid
 flowchart TD

@@ -73,6 +73,7 @@ Fixed-seed PRNG, producing the same sequence on every run. This was a well-known
 MinGW-w64 (with GCC 9+) uses the proper OS entropy source. If you need guaranteed non-deterministic
 Seeds on all platforms, read from `/dev/urandom` (POSIX) or `BCryptGenRandom` (Windows) directly.
 :::
+
 ### Distributions
 
 Distributions transform the engine's raw output into values drawn from a specific statistical
@@ -168,6 +169,7 @@ Initialization algorithm has known weaknesses when given a single 32-bit seed, s
 Initial state may have low entropy. Using `seed_seq` with multiple entropy sources produces a better
 Initial state.
 :::
+
 ### Sampling from Normal Distribution
 
 ```cpp
@@ -185,7 +187,7 @@ struct Histogram {
 
     explicit Histogram(double lo, double hi, int num_bins)
         : bins(num_bins)
-counts(num_bins, 0) {
+        , counts(num_bins, 0) {
         double step = (hi - lo) / num_bins;
         for (int i = 0; i < num_bins; ++i) {
             bins[i] = {lo + i * step, lo + (i + 1) * step};
@@ -285,6 +287,7 @@ Expected stdd: 1
 Uniform random numbers into normally distributed values [N4950 §29.6.4.4]. This method produces
 Values in pairs, so the distribution object may cache one value internally for efficiency.
 :::
+
 ## See Also
 
 - [Filesystem Library](./1_filesystem)
@@ -338,6 +341,7 @@ This serialization is essential for:
 Library implementations. GCC libstdc++ and Clang libc++ may produce different binary formats. Use
 Only the same implementation for save/restore.
 :::
+
 ### `std::random_device` Implementation Details
 
 `std::random_device` is the standard library's interface to OS-provided entropy [N4950 §29.6.5.3]:
@@ -370,6 +374,7 @@ void random_device_props() {
 Is truly non-deterministic. A return of 0.0 means "entropy estimate not available," NOT "no
 Entropy." Do not use this value to decide whether the device is secure.
 :::
+
 ### `std::seed_seq` and Initialization Quality
 
 The Mersenne Twister's standard initialization (`mt19937(seed)`) takes a single 32-bit seed and
@@ -471,6 +476,7 @@ void discrete_distribution_demo() {
 :::note
 sampled many Times with the same weights [N4950 §29.6.4.5].
 :::
+
 ### Poisson and Exponential Distributions
 
 These distributions model event arrival processes and are essential for simulation:
@@ -561,6 +567,7 @@ void engine_benchmark() {
 `random_device` may make An OS syscall for every call, which is orders of magnitude slower than a
 PRNG.
 :::
+
 ### Common Pitfalls
 
 1. **Seeding `mt19937` with a single 32-bit value:** The engine has 2496 bytes of state. A single
@@ -606,7 +613,6 @@ PRNG.
 **Why it matters:** The C++ random library replaces the old `rand()`/`srand()` with a modern, type-safe, and statistically sound approach. `rand()` has known flaws (poor distribution, global state, limited range), while the chrono library provides engines with long periods, well-documented distributions, and per-instance state (no global variables).
 
 **The key insight:** The engine produces a deterministic sequence; the distribution transforms it into the statistical distribution you need, don't use `rand()`.
-
 
 ```mermaid
 flowchart TD

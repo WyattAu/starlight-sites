@@ -23,6 +23,7 @@ categories:
 :::note
 Of these concepts within their networking modules.
 :::
+
 ## 1. The Internet and the World Wide Web
 
 ### The Internet vs the Web
@@ -443,7 +444,7 @@ This returns all users because `'1'='1'` is always true.
 **Prevention:** Parameterised queries treat input as data, not executable SQL:
 
 ```python
-cursor.execute("SELECT * FROM users WHERE username = %s", (username))
+cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
 ```
 
 ### Cross-Site Request Forgery (CSRF)
@@ -611,7 +612,7 @@ This returns all users. The `--` comments out the rest of the query.
 **Fix with parameterised queries:**
 
 ```python
-cursor.execute("SELECT * FROM users WHERE username = %s", (username))
+cursor.execute("SELECT * FROM users WHERE username = %s", (username,))
 ```
 
 The database treats the input as a literal string, not executable SQL.
@@ -683,7 +684,6 @@ Boundary.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

@@ -73,8 +73,7 @@ $$
 D\vec{F} = I\, d\vec{l} \times \vec{B}
 $$
 
-:::note
-<strong>Example: Force on a semicircular wire</strong>
+:::note[Example: Force on a semicircular wire]
 A semicircular wire of radius $R$ carries current $I$ in a uniform magnetic field $\vec{B}$ directed
 Into the page. The straight ends of the wire are along the diameter.
 
@@ -193,8 +192,9 @@ $$
 
 Valid for $a < r < b$.
 :::
+
 :::note
-<strong>Example: Thick conductor with non-uniform current density</strong>
+Example: Thick conductor with non-uniform current density
 A long cylindrical conductor of radius $R$ carries current $I$ with current density $J(r) = J_0 r/R$
 for $0 \le r \le R$. Find $B$ inside and outside.
 
@@ -261,8 +261,9 @@ $$
 \mathcal{E} = \int_0^L E\, dl = \int_0^L vB\, dl = BLv
 $$
 :::
+
 :::note
-<strong>Example: Rotating loop in a magnetic field</strong>
+Example: Rotating loop in a magnetic field
 A rectangular loop of area $A$ with $N$ turns rotates with angular velocity $\omega$ in a uniform
 Magnetic field $B$. The flux through the loop is:
 
@@ -278,8 +279,9 @@ $$
 
 Where $\mathcal{E}_0 = NBA\omega$ is the peak EMF. This is the principle behind AC generators.
 :::
+
 :::note
-<strong>Example: Induced EMF in a changing field</strong>
+Example: Induced EMF in a changing field
 A circular loop of radius $r = 0.1$ m is in a region where the magnetic field increases as
 $B(t) = (0.5 + 0.2t)$ T. The loop has resistance $R = 2\,\Omega$. Find the induced current.
 
@@ -411,8 +413,8 @@ $$
 U_{\text{total} = \frac{Q_0^2}{2C} = \frac{1}{2}LI_0^2
 $$
 :::
-:::note
-<strong>Example: LC circuit energy analysis</strong>
+
+:::note[Example: LC circuit energy analysis]
 An LC circuit has $L = 10$ mH and $C = 100\,\mu\text{F$. The capacitor is initially charged to
 $Q_0 = 50\,\mu\text{C$. Find (a) the oscillation frequency, (b) the maximum current, and (c) the
 Charge when the current is half its maximum value.
@@ -458,8 +460,9 @@ $$
 I_d = \epsilon_0 \frac{d\Phi_E}{dt}
 $$
 :::
+
 :::note
-<strong>Example: Displacement current in a charging capacitor</strong>
+Example: Displacement current in a charging capacitor
 A parallel plate capacitor with plate area $A$ and separation $d$ is being charged by a current $I$.
 Find the magnetic field at distance $r$ from the axis between the plates ($r < R_{\text{plate}$).
 
@@ -697,7 +700,6 @@ $$I_d = \epsilon_0 \frac{d\Phi_E}{dt} = \epsilon_0 \frac{d}{dt}(E \cdot \pi R^2)
 $$\frac{dE}{dt} = \frac{I_d}{\epsilon_0 \pi R^2} = \frac{3}{(8.854 \times 10^{-12})\pi(0.05)^2} = \frac{3}{6.95 \times 10^{-14}} = 4.32 \times 10^{13}\,\text{V/m\cdot\text{s$$
 
 </details>
-
 
 ```mermaid
 flowchart TD

@@ -12,7 +12,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -298,6 +297,7 @@ a per-operation worst-case bound. A single operation can still be expensive (e.g
 dynamic array costs $O(n)$). Amortised bounds are meaningful only when the sequence length is not
 bounded by a constant.
 :::
+
 ## 2. Fundamental Data Structures
 
 ### 2.1 Arrays and Linked Lists
@@ -821,6 +821,7 @@ asymptotically slower. Use adjacency matrices for dense graphs ($E \approx V^2$)
 for sparse graphs ($E \ll V^2$). For example, BFS with an adjacency matrix takes $O(V^2)$ but with
 adjacency lists takes $O(V + E)$.
 :::
+
 ## 3. Sorting Algorithms
 
 ### 3.1 Merge Sort
@@ -1055,6 +1056,7 @@ sorting. Non-comparison sorts Like radix sort can achieve $O(n)$ time for intege
 range. However, non-comparison sorts sacrifice generality: they depend on the structure of the keys
 and cannot sort arbitrary objects.
 :::
+
 ### 3.8 Comparison of Sorting Algorithms
 
 | Algorithm     | Best          | Average       | Worst         | Space       | Stable |
@@ -1588,6 +1590,7 @@ simple path_ problem does not: the longest simple path from $u$ to $v$ may not c
 simple path from $u$ to an intermediate vertex $w$Because the subpath might share vertices with the
 rest of the path, creating a non-simple path.
 :::
+
 ### 5.4 Common Patterns
 
 **1D DP.** $dp[i]$ depends on $dp[j]$ for $j < i$. Example: Fibonacci, longest increasing

@@ -201,6 +201,7 @@ int main() {
 `std::terminate()` is called [N4950 §14.7]. Marking a destructor `noexcept(false)` does not make it
 Safe to throw from a destructor during unwinding.
 :::
+
 ## 3.5 Conditional `noexcept`
 
 The `noexcept` specifier accepts a constant expression:
@@ -561,7 +562,6 @@ int main() {
 
 - [Exception Safety Guarantees](2_exception_safety)
 - [The Itanium Exception ABI](1_exception_abi)
-
 
 ```mermaid
 flowchart TD

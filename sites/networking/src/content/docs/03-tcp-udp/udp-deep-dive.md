@@ -423,6 +423,7 @@ ping -M do -s 1472 example.com    # Maximum for standard Ethernet (1500 - 20 IP 
 ip route get 8.8.8.8
 ```
 :::
+
 :::caution
 Fails, the sender never learns the correct MTU and silently drops packets. This is one of the most
 Insidious networking problems because the connection appears to work for small packets but fails for
@@ -499,6 +500,7 @@ On repeat connections, QUIC can send application data in the first flight (0-RTT
 Cached session ticket from a previous connection to derive the encryption keys immediately, without
 Waiting for the server's handshake response.
 :::
+
 :::caution
 The server. Applications must not use 0-RTT for non-idempotent operations (POST requests, financial
 Transactions).
@@ -822,7 +824,6 @@ Udp: InDatagrams NoPorts InErrors OutDatagrams RcvbufErrors SndbufErrors InCsumE
 # Watch UDP error counters in real-time
 watch -n 1 'cat /proc/net/snmp | grep Udp'
 ```
-
 
 ```mermaid
 flowchart TD

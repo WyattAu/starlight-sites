@@ -7,7 +7,6 @@ description: "Python dicts are hash tables. CPython implements them using a comb
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -64,6 +63,7 @@ hash(("a", "b"))   # depends on hash("a") ^ hash("b") with rotation
 :::note
 This is a security measure against hash DoS attacks. Set `PYTHONHASHSEED=0` to disable.
 :::
+
 ### Collision Resolution: Open Addressing
 
 When two keys hash to the same slot, CPython probes the next slot using a linear probing scheme with
@@ -98,7 +98,7 @@ for i in range(100):
     d[i] = i
     if i < 6:
         print(f"n={i}, table_size={len(d)}, sizeof={sys.getsizeof(d)}")
-## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232...
+## Sizes grow at approximately: 64, 64, 64, 64, 64, 232, 232, ...
 # The table grows in discrete jumps
 ```
 
@@ -148,6 +148,7 @@ Since Python 3.7, regular `dict` also preserves insertion order. The differences
 `OrderedDict([(1,2),(3,4)]) != OrderedDict([(3,4),(1,2)])`. Regular `dict` equality does **not**
 Consider order, only `OrderedDict` equality is order-sensitive.
 :::
+
 ### LRU Cache with OrderedDict
 
 ```python
@@ -232,6 +233,7 @@ def to_regular_dict(d):
     return d
 ```
 :::
+
 ### Practical Examples
 
 ```python
@@ -334,6 +336,7 @@ class Counter(dict):
         return 0
 ```
 :::
+
 ## ChainMap
 
 `collections.ChainMap` groups multiple dicts into a single view. Lookups search each mapping in
@@ -376,6 +379,7 @@ Per-request overrides.
 :::caution
 Layer, access it via `config.maps[0]``config.maps[1]`Etc.
 :::
+
 ```python
 config = ChainMap({"timeout": 30}, {"timeout": 60})
 config["timeout"] = 10
@@ -526,6 +530,7 @@ del d["port"]             # Deleting 'port'
 methods bypass your Python-level overrides. `UserDict` stores data in an internal `dict` Attribute
 (`self.data`), so all access goes through your Python methods.
 :::
+
 ```python
 from collections import UserList
 
@@ -652,6 +657,7 @@ print([e[1] for e in events])
 :::tip
 Shift elements). For frequent insertions, consider `heapq` or a balanced tree structure.
 :::
+
 ## heapq Module
 
 `heapq` provides a min-heap implementation using a regular Python list. The heap invariant is:
@@ -740,6 +746,7 @@ print(pq.pop())  # low priority task
 :::caution
 Invariant may be violated. Either use immutable data or call `heapq.heapify()` after modifications.
 :::
+
 ## Common Pitfalls
 
 ### 1. Mutating a Dict While Iterating

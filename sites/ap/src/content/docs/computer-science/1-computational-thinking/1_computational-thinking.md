@@ -132,8 +132,7 @@ Data abstraction separates the interface (what operations are available) from th
 
 In Java, this is achieved through classes: private fields with public getters/setters and methods.
 
-:::note
-<strong>Example: Java</strong>
+:::note[Example: Java]
 ```java
 public class Rectangle {
     private double width;
@@ -159,6 +158,7 @@ The caller uses `getArea()` and `getPerimeter()` without knowing that `width` an
 Stored as doubles. The implementation could be changed to store different data (e.g., coordinates of
 Corners) without affecting any code that uses this class.
 :::
+
 ### Information Hiding
 
 Information hiding is the principle that the internal details of a module should be hidden from
@@ -248,6 +248,7 @@ REPEAT UNTIL (condition)
 :::caution
 Is checked. This differs from a `WHILE` loop, which is a pre-test loop.
 :::
+
 **FOR EACH:**
 
 ```
@@ -281,8 +282,8 @@ LENGTH(list)
 :::caution
 `list[0]`. This differs from Java, Python, and most programming languages.
 :::
-:::note
-<strong>Example: Finding the Maximum</strong>
+
+:::note[Example: Finding the Maximum]
 ```
 PROCEDURE findMax(list)
 {
@@ -303,8 +304,8 @@ Examined so far." Initially, max = list[1], the largest of the first element. Wh
 compared, if it is larger, max is updated; otherwise, max remains the largest. By induction, After
 all elements are examined, max is the largest in the entire list. $\blacksquare$
 :::
-:::note
-<strong>Example: Finding the Second Largest</strong>
+
+:::note[Example: Finding the Second Largest]
 ```
 PROCEDURE findSecondLargest(list)
 {
@@ -340,8 +341,8 @@ PROCEDURE findSecondLargest(list)
 
 **Time complexity:** $O(n)$ -- single pass through the list.
 :::
-:::note
-<strong>Example: Linear Search (AP CSP)</strong>
+
+:::note[Example: Linear Search (AP CSP)]
 ```
 PROCEDURE linearSearch(list, target)
 {
@@ -359,8 +360,8 @@ PROCEDURE linearSearch(list, target)
 Note: AP CSP pseudocode returns 0 (not -1) to indicate "not found", because index 0 is not a valid
 Position in 1-based indexing.
 :::
-:::note
-<strong>Example: Binary Search (AP CSP)</strong>
+
+:::note[Example: Binary Search (AP CSP)]
 ```
 PROCEDURE binarySearch(list, target)
 {
@@ -392,8 +393,8 @@ PROCEDURE binarySearch(list, target)
 **Complexity analysis.** Each iteration halves the search space, so the maximum number of iterations
 Is $\lceil \log_2 n \rceil$. Time complexity: $O(\log n)$.
 :::
-:::note
-<strong>Example: Counting Occurrences</strong>
+
+:::note[Example: Counting Occurrences]
 ```
 PROCEDURE countOccurrences(list, value)
 {
@@ -411,8 +412,8 @@ PROCEDURE countOccurrences(list, value)
 
 **Time complexity:** $O(n)$ -- examines each element once.
 :::
-:::note
-<strong>Example: Reversing a List</strong>
+
+:::note[Example: Reversing a List]
 ```
 PROCEDURE reverseList(list)
 {
@@ -1029,7 +1030,6 @@ This decomposition separates concerns: file I/O, string processing, counting, an
 maximum.
 
 </details>
-
 
 ```mermaid
 flowchart TD

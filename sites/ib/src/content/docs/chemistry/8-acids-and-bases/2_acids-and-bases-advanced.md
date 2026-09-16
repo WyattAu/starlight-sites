@@ -27,8 +27,7 @@ $$
 [\mathrm{H}^+] = 2 \times [\mathrm{acid}]
 $$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 $0.050\mathrm{ M}$ $\mathrm{H}_2\mathrm{SO}_4$ (assuming complete first dissociation and significant
 Second dissociation):
 
@@ -75,8 +74,8 @@ $$
 X^2 + K_a x - K_a c_0 = 0
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Calculate the $\mathrm{pH}$ of $0.010\mathrm{ M}$ ethanoic acid ($K_a = 1.8 \times 10^{-5}$).
 
 Using the approximation:
@@ -146,8 +145,8 @@ $\mathrm{pH} = \mathrm{p}K_a$. A buffer is effective within $\pm 1$ unit of its 
 
 ### Preparing a Buffer
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Prepare an ethanoic acid/sodium ethanoate buffer with $\mathrm{pH} = 5.00$. Given
 $\mathrm{p}K_a = 4.76$.
 
@@ -187,8 +186,8 @@ $$
 [\mathrm{A}^-]_{\mathrm{new}} = [\mathrm{A}^-]_{\mathrm{old}} + [\mathrm{OH}^-]_{\mathrm{added}}
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 A buffer contains $0.10\mathrm{ M}$ $\mathrm{CH}_3\mathrm{COOH}$ and $0.10\mathrm{ M}$
 $\mathrm{CH}_3\mathrm{COO}^-$ ($\mathrm{pH} = 4.76$). Add $0.01\mathrm{ mol}$ of $\mathrm{HCl}$ to
 $1.0\mathrm{ L}$ of buffer.
@@ -375,8 +374,8 @@ $K_{sp}$ is the equilibrium constant for the dissolution of a solid. It is tempe
 
 ### Solubility Calculations
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Calculate the solubility of $\mathrm{AgCl}$ in $\mathrm{g/L}$.
 
 $$
@@ -399,8 +398,8 @@ $$
 
 Adding a common ion **decreases** the solubility of a sparingly soluble salt.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Calculate the solubility of $\mathrm{AgCl}$ in $0.10\mathrm{ M}$ $\mathrm{NaCl}$.
 
 $$
@@ -904,7 +903,6 @@ A suitable indicator: phenolphthalein (8.3--10.0).
   [..../11-measurement-and-data-processing/1_measurement-and-data-processing](../11-measurement-and-data-processing/1_measurement-and-data-processing)
 - **Electron configurations and ion formation** → Review
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
-
 
 ```mermaid
 flowchart TD

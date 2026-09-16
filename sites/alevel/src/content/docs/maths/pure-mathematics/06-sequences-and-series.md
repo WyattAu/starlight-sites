@@ -1,6 +1,5 @@
 ---
 
-
 title: "Sequences and Series"
 description: "Study notes for Sequences and Series | A-Level with worked examples and practice questions."
 ---------- | ---------- | -------------------------------------------------------------------- | | AQA | Paper 1, 2 | Arithmetic"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "06 Sequences And Series", "url": "https://alevel.wyattau.com/maths/pure-mathematics/06-sequences-and-series"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -193,6 +191,7 @@ If $r = -1$: $S_n = a - a + a - a + \cdots$Which oscillates and does not converg
 :::caution
 Formula when $|r| \geq 1$Which gives nonsense.
 :::
+
 <details>
 <summary>Example</summary>
 Find the sum to infinity of $1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$
@@ -379,6 +378,7 @@ $$= \frac{3}{4} - \frac{2n + 3}{2(n+1)(n+2)}$$
 Identify the cancellation pattern before simplifying. Be especially careful when the "gap" in the
 Denominator is larger than 1 (e.g., $k(k+2)$), as not all terms cancel in a simple pairwise fashion.
 :::
+
 <hr />
 
 ## 8. Arithmetic-Geometric Sequences

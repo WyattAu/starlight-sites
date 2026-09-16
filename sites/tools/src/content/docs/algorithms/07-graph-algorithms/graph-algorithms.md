@@ -317,7 +317,7 @@ def prim(n, graph):
     Prim's MST algorithm using adjacency list.
     Time: O((V + E) log V) with binary heap
     Space: O(V + E)
-    graph: adjacency list {vertex: [(neighbour, weight)...]}
+    graph: adjacency list {vertex: [(neighbour, weight), ...]}
     """
     import heapq
     visited = [False] * n
@@ -346,6 +346,7 @@ def prim(n, graph):
 | Prim                  | $O((V+E) \log V)$ | Dense graphs      | Priority queue |
 | Prim (Fibonacci heap) | $O(E + V \log V)$ | Very dense graphs | Fibonacci heap |
 :::
+
 :::note
 At $O(E + V \log V)$. For sparse graphs ($E \approx V$), Kruskal's is simpler and equally fast.
 
@@ -1003,7 +1004,6 @@ def two_sat(n_vars, clauses):
 The key theorem: a 2-SAT formula is satisfiable if and only if no variable and its negation are in
 The same strongly connected component. This gives a linear-time algorithm for a problem that is
 NP-hard for 3-SAT.
-
 
 ```mermaid
 flowchart TD

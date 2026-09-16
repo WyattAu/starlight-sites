@@ -323,6 +323,7 @@ When a query returns `NXDOMAIN` (name does not exist) or `NODATA` (name exists b
 Requested type), the response is cached for the SOA minimum TTL. This prevents repeated queries for
 Non-existent names from hammering authoritative servers.
 :::
+
 :::caution
 SOA minimum to 86400 (1 day) and delete a subdomain, resolvers will cache the `NXDOMAIN` for up to 1
 Day. Reduce the SOA minimum TTL before making changes, then increase it after propagation.
@@ -526,6 +527,7 @@ resolvectl status
 resolvectl query example.com
 ```
 :::
+
 :::caution
 You configure DNS manually in `/etc/resolv.conf`Your changes may be overwritten. To use custom DNS
 Servers, configure them via `systemd-resolved` or NetworkManager.

@@ -135,6 +135,7 @@ Negation is $\neg C \vee \neg D$I.e., "$f$ is either not continuous or not diffe
 "$f$ is continuous and differentiable" is NOT "$f$ is not continuous and not differentiable", that
 Is too strong.
 :::
+
 ### 1.5 The Contrapositive
 
 For any implication $P \implies Q$The **contrapositive** is $\neg Q \implies \neg P$.
@@ -221,6 +222,7 @@ Backbone of epsilon-delta definitions in analysis.
 :::caution
 same sequence but With each quantifier flipped.
 :::
+
 <details>
 <summary>Worked Example: Negate $\forall n \in \mathbb{Z}^+, \; \exists p \mathrm{ prime}, \; p \gt n$</summary>
 
@@ -311,6 +313,7 @@ Does not exist..." or "there are no...").
 :::note
 Middle ($P \vee \neg P$ must be true).
 :::
+
 **Worked Example, $\sqrt{2}$ is irrational:**
 
 Assume $\sqrt{2}$ is rational. Then $\sqrt{2} = \frac{a}{b}$ where $a, b \in \mathbb{Z}^+$
@@ -334,6 +337,7 @@ Therefore our assumption is false, and $\sqrt{2}$ is irrational.
 :::note
 $a^2$ is Even, $a$ cannot be odd, so $a$ is even.
 :::
+
 <details>
 <summary>Exercise: Prove that $\sqrt{3}$ is irrational.</summary>
 
@@ -378,6 +382,7 @@ Is even.
 that $n^2$ is Both even and odd). But the contrapositive .../1-number-and-algebra/3_proof-and-logic
 is cleaner, it is a direct .../1-number-and-algebra/3_proof-and-logic of the equivalent Statement.
 :::
+
 <details>
 <summary>Exercise: Prove that if $3n + 2$ is odd, then $n$ is odd (by contrapositive).</summary>
 
@@ -505,6 +510,7 @@ Case $P(j)$ where $j \lt k$.
 By the other. But strong induction can make certain .../1-number-and-algebra/3_proof-and-logics much
 more natural. Use it when the Inductive step needs to reference cases earlier than just $k$.
 :::
+
 **Worked Example, Every integer $n \ge 2$ is a product of primes:**
 
 Let $P(n)$: "$n$ is a product of primes (possibly a single prime)."
@@ -581,6 +587,7 @@ When $n = 41$: $41^2 - 41 + 41 = 41^2 = 1681$Which is composite ($41 \times 41$)
 :::tip
 disprove it requires only one Counterexample. This asymmetry is fundamental to mathematical logic.
 :::
+
 <details>
 <summary>Exercise: Disprove: "For all positive integers $a$ and $b$$\gcd(a+b, a-b) = \gcd(a, b)$."</summary>
 
@@ -662,6 +669,7 @@ Therefore, there are infinitely many primes. $\blacksquare$
 .../1-number-and-algebra/3_proof-and-logic only Requires that $N$ has SOME prime factor not in the
 list.
 :::
+
 ### 3.3 $\log_2{3}$ is Irrational
 
 **Theorem:** $\log_2{3}$ is irrational.
@@ -761,6 +769,7 @@ Since $mx + ny \in \mathbb{Z}$$d \mid (ax + by)$. $\blacksquare$
 Called a **linear combination** of $a$ and $b$. The greatest common divisor $\gcd(a, b)$ can always
 Be expressed as a linear combination of $a$ and $b$ (Bezout's identity).
 :::
+
 ### 3.6 Inequality Proofs
 
 **AM-GM Inequality (two variables):** For $a, b \ge 0$:
@@ -882,6 +891,7 @@ Therefore $n \mid (ac - bd)$ So $ac \equiv bd \pmod{n}$. $\blacksquare$
 conclude $a \equiv b \pmod{n}$ if $\gcd(c, n) = 1$. For example, $6 \equiv 0 \pmod{3}$ and
 $3 \equiv 0 \pmod{3}$ But $\frac{6}{3} = 2 \not\equiv \frac{0}{0}$ (undefined).
 :::
+
 <details>
 <summary>Worked Example: Find the last two digits of $7^{100}$.</summary>
 
@@ -1089,6 +1099,7 @@ proving.
 Look convincing. Always verify that your .../1-number-and-algebra/3_proof-and-logic does not contain
 the conclusion as an unstated Assumption.
 :::
+
 ### 5.2 Assuming the Conclusion
 
 Related to circular reasoning, this occurs when you "work backwards" from the conclusion without
@@ -1130,6 +1141,7 @@ Entirely.)
 :::caution
 $Q$" is "$P$ AND not $Q$."
 :::
+
 ### 5.4 Induction Base Case Errors
 
 **The pitfall:** Skipping the base case or proving the wrong base case.
@@ -1188,6 +1200,7 @@ induction unless the structure Of the problem requires strong induction.
 $n! = n \cdot (n-1)!$), use weak induction. If on earlier terms (like $F_n = F_{n-1} + F_{n-2}$),
 use strong induction.
 :::
+
 ### 5.6 Confusing Converse with Contrapositive
 
 | Original                    | $P \implies Q$           |
@@ -1225,6 +1238,7 @@ Different from "There exists a person who is the mother of everyone." The negati
 There exists y" is "there exists x such that for every y", quantifiers flip but their order is
 Preserved.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1311,8 +1325,7 @@ Transitivity of divisibility, $n \mid (a-b)$. Therefore $a \equiv b \pmod{n}$.
 }
 </script>
 
-:::tip
-<strong>Diagnostic Test</strong>
+:::tip[Diagnostic Test]
 :::tip Diagnostic Test Ready to test your understanding of **Proof and Logic**? The
 contains the hardest questions within the IB specification for this topic, each with a full worked
 solution.
@@ -1337,7 +1350,6 @@ $$\log_3[(x+1)(x-1)] = 2$$
 $$(x+1)(x-1) = 3^2 = 9$$
 
 $$x^2 - 1 = 9 \implies x^2 = 10 \implies x = \sqrt{10}$$ (since $x > 1$)
-
 
 ```mermaid
 flowchart TD

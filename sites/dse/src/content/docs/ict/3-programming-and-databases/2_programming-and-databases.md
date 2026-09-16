@@ -41,6 +41,7 @@ MAX_STUDENTS = 40
 :::note
 constants improves code readability and reduces errors.
 :::
+
 ### Input and Output
 
 ```python
@@ -181,6 +182,7 @@ while True:
 Will eventually become False. A common mistake is forgetting to update the loop variable inside the
 Loop body.
 :::
+
 ### Worked Example 1
 
 Write a program to find the largest of three numbers.
@@ -290,6 +292,7 @@ print("Total:", total)  # Output: Total: 30
 :::tip
 Instead, pass values as parameters and return results.
 :::
+
 ### Worked Example 3
 
 Write a function to calculate the factorial of a number.
@@ -560,6 +563,7 @@ with open("data.txt", "r") as file:
 - `"a"`: append (adds to existing content)
 - `"r+"`: read and write
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -662,6 +666,7 @@ Normalisation is the process of organising data to minimise redundancy and depen
 :::tip
 Nothing but the key.
 :::
+
 ### Worked Example 5
 
 Convert the following unnormalised data to 3NF.
@@ -761,6 +766,7 @@ WHERE Score < 50;
 :::caution
 ALL records in the table. Always double-check your WHERE clause before executing.
 :::
+
 ### Data Query Language (DQL)
 
 **Basic SELECT:**
@@ -940,7 +946,6 @@ Verification ensures that data entered matches the original source.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "dse", "url": "https://dse.wyattau.com"}, {"name": "Ict", "url": "https://dse.wyattau.com/ict"}, {"name": "3 Programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases"}, {"name": "2_programming And Databases", "url": "https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -1438,6 +1443,7 @@ iterates through the array again to count scores above average, and outputs both
   another table, establishing a relationship. A field can be both a primary key in its own table and
   a foreign key referencing another table.
 :::
+
 ## Intuition
 
 Databases are the filing cabinets of the digital world, organizing data so it can be retrieved efficiently. A well-designed database avoids duplication the way a good library avoids stocking multiple copies of the same book on the same shelf. Querying a database is like asking a librarian a question: the more specific your question, the faster the answer. The relationship between tables is the web of connections that allows you to cross-reference information, like following footnotes from one source to another.

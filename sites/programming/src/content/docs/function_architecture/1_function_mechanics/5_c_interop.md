@@ -335,6 +335,7 @@ extern "C" {
 System V ABI). On platforms with divergent C/C++ ABIs, use `void*` handles and pass data through
 C-compatible types only.
 :::
+
 ## 5.4 ABI Boundaries: Name Mangling and Layout
 
 At a C/C++ boundary, several ABI properties must align:
@@ -505,6 +506,7 @@ static_assert(sizeof(NetworkHeader) == 7);  // 1 + 4 + 2 = 7, no padding
 Misaligned access on strict-alignment architectures (ARM, SPARC). Use with caution and document the
 Rationale.
 :::
+
 ## 5.6 Dynamic Library Loading with `dlfcn.h`
 
 POSIX systems provide `dlopen``dlsym``dlclose`And `dlerror` for loading shared libraries at Runtime.
@@ -773,7 +775,6 @@ Static initialization order problem entirely.
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

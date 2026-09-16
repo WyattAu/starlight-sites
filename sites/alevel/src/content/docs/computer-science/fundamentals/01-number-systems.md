@@ -293,6 +293,7 @@ Result: $1011_2 = -5$ in two's complement. But $6 + 5 = 11$Which is outside the 
 - **CIE:** Requires two's complement for 8-bit numbers specifically.
 - **OCR:** Requires understanding of sign and magnitude as well as two's complement.
 :::
+
 <hr />
 
 ## 4. Fixed-Point Binary Representation
@@ -363,6 +364,7 @@ The codes $1010$ through $1111$ are **invalid** in BCD.
 :::caution
 Is $00010010_2$NOT $1100_2$.
 :::
+
 <hr />
 
 ## 6. Character Encoding
@@ -449,6 +451,7 @@ Magnitude.
 2. Addition requires different logic depending on the signs
 3. The range is asymmetric
 :::
+
 <hr />
 
 ## Problem Set
@@ -700,7 +703,6 @@ Both inputs are negative and the result is negative, so no overflow.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

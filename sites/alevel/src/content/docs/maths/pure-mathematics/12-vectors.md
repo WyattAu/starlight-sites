@@ -1,6 +1,5 @@
 ---
 
-
 title: "Vectors"
 description: "Study notes for Vectors | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | -------------------------------------------------- | | AQA | Paper 1, 2 | 2D vectors in P1; 3D"
@@ -34,6 +33,7 @@ categories:
 :::note
 And converting between column and $\mathbf{i},\mathbf{j},\mathbf{k}$ notation.
 :::
+
 <hr />
 
 ## 1. Vectors in 2D and 3D
@@ -220,6 +220,7 @@ In 2D, eliminating $t$: $\dfrac{x - a_1}{b_1} = \dfrac{y - a_2}{b_2}$.
 multiple of the Direction. Always check your answer gives a point and direction consistent with the
 question.
 :::
+
 ### 5.4 Vector equation of a line in 3D
 
 The vector equation of a line in 3D has the same form as in 2D, but now operates in three
@@ -235,6 +236,7 @@ $$x = x_0 + td_1, \quad y = y_0 + td_2, \quad z = z_0 + td_3$$
 :::tip
 $\overrightarrow{BA}$ --- both give the same line.
 :::
+
 **Example.** Find the vector equation of the line through $P(2, -1, 3)$ and $Q(5, 1, -2)$.
 
 Direction: $\overrightarrow{PQ} = \begin{pmatrix}3\\2\\-5\end{pmatrix}$.
@@ -309,6 +311,7 @@ Distance.
 The cross-product formula is listed here for reference and is examined on CIE P3 and some OCR
 Papers.
 :::
+
 **Example using the dot-product method.** Find the distance from $P(4, 1, -1)$ to the line
 $\mathbf{r} = \begin{pmatrix}1\\0\\2\end{pmatrix} + t\begin{pmatrix}2\\1\\-1\end{pmatrix}$.
 
@@ -438,6 +441,7 @@ $\overrightarrow{AD} = \overrightarrow{BC}$).
 Magnitude. To show a **rectangle**, show that adjacent sides are perpendicular. A **square**
 Requires both conditions.
 :::
+
 ### 10.4 Using vectors in geometric proofs
 
 Many geometry problems can be solved elegantly using vectors. The general strategy is:
@@ -841,6 +845,7 @@ with other pure mathematics topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Common Pitfalls
 
 1. Confusing position vectors with direction vectors. Position vectors point from the origin.
@@ -864,7 +869,6 @@ building a personal test matrix.
 - [Proof](13-proof), Vector methods provide elegant alternative proofs for geometric results such as collinearity and perpendicularity.
 - [Trigonometry](08-trigonometry), The angle between two vectors uses the cosine rule and direction cosines from trigonometry.
 - [Mechanics](../../../../../../hsc/src/content/docs/physics/mechanics), Velocity and acceleration vectors in mechanics are particular applications of the vector concept.
-
 
 ```mermaid
 flowchart TD

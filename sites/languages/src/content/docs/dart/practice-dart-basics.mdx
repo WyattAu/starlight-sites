@@ -9,8 +9,6 @@ categories:
   - Dart
 ---
 
-
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills, they help you apply knowledge and identify areas that need more study.
@@ -40,7 +38,6 @@ D. It compiles successfully',
 
 **Answer: A**, With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 
-
 **Q2. What is the type of `List\&lt;int&gt;? numbers = [1, 2, 3];`?**
 
 A. The variable is of type `List\&lt;int&gt;?` and currently holds a non-null `List\&lt;int&gt;`
@@ -51,7 +48,7 @@ D. It is of type `dynamic`',
 &lt;details&gt;
 &lt;summary&gt;Show answer, A&lt;/summary&gt;
 
-**Answer: A**, `List&lt;int>?` is a nullable list type. The variable `numbers` can hold either a `List\&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List\&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
+**Answer: A**, `List&lt;int>?` is a nullable list type. The variable `numbers` can hold either a `List\&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List\&lt;int&gt;`so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 
 &lt;/details&gt;
 
@@ -65,8 +62,7 @@ D. Set
 &lt;details&gt;
 &lt;summary&gt;Show answer, D&lt;/summary&gt;
 
-**Answer: D**, A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
-
+**Answer: D**, A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union``intersection``difference`).
 
 ---
 
@@ -84,7 +80,6 @@ D. Compilation error
 
 **Answer: B**, `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 
-
 **Q5. Given `Future\&lt;String&gt; fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
 A. `String`
@@ -92,9 +87,7 @@ B. `dynamic`
 C. `void`
 D. `Future\&lt;String&gt;`
 
-
-**Answer: D**, Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future\&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
-
+**Answer: D**, Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future\&lt;String&gt;`not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 
 ---
 
@@ -112,7 +105,6 @@ D. switch (r) \{ case Result(): ... \}',
 
 **Answer: A**, Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 
-
 **Q7. In Dart 3 records, how do you access the first positional field of `var record = ('Alice', 30);`?**
 
 A. record[0]
@@ -123,8 +115,7 @@ D. record.0
 &lt;details&gt;
 &lt;summary&gt;Show answer, B&lt;/summary&gt;
 
-**Answer: B**, Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
-
+**Answer: B**, Record positional fields are accessed via `$1``$2``$3`etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 
 ---
 
@@ -137,8 +128,7 @@ A. &quot;Prints 'walking' -- Walker's method is mixed into Person&quot;, 'Throws
 &lt;details&gt;
 &lt;summary&gt;Show answer, A&lt;/summary&gt;
 
-**Answer: A**, Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`, its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
-
+**Answer: A**, Mixins inject their method implementations into the class that uses them. `Person` gains the `walk()` method from `Walker`. If `Person` also defines `walk()`its own method takes precedence (override). If `Animal` defines `walk()` and `Walker` also defines it, the mixin's linearization order determines which wins -- mixins applied later have higher priority.
 
 **Q1. What happens when you declare `String name;` in a Dart file with null safety enabled?**
 
@@ -151,7 +141,6 @@ D. It compiles successfully',
 - With null safety enabled, all non-nullable variables must be initialized at declaration. `String name;` without an initializer or `late` keyword produces a compilation error. To fix: initialize it (`String name = 'Alice';`), make it nullable (`String? name;`), or defer with `late` (`late String name;`).
 *Difficulty: hard*
 
-
 **Q2. What is the type of `List&lt;int&gt;? numbers = [1, 2, 3];`?**
 
 A. The variable is of type `List&lt;int&gt;?` and currently holds a non-null `List&lt;int&gt;`
@@ -162,7 +151,6 @@ D. It is of type `dynamic`',
 **Answer: A**
 - `List&lt;int&gt;?` is a nullable list type. The variable `numbers` can hold either a `List&lt;int&gt;` or `null`. The initializer `[1, 2, 3]` is a valid `List&lt;int&gt;`, so it compiles. The `?` does not make the list elements nullable -- only the list reference itself can be null.
 *Difficulty: medium*
-
 
 **Q3. Which Dart collection type guarantees uniqueness of elements?**
 
@@ -175,7 +163,6 @@ D. Set
 - A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union`, `intersection`, `difference`).
 *Difficulty: hard*
 
-
 **Q4. What does `Stream.fromIterable([1, 2, 3]).listen((value) => print(value * 2))` output?**
 
 A. 246
@@ -186,7 +173,6 @@ D. Compilation error
 **Answer: B**
 - `Stream.fromIterable` creates a single-subscription stream that emits each element of the iterable as a separate event. The listener multiplies each value by 2: 1*2=2, 2*2=4, 3*2=6. Events are delivered asynchronously but in order for synchronous iterables. After emitting all three, the stream completes.
 *Difficulty: hard*
-
 
 **Q5. Given `Future&lt;String&gt; fetchName() async \{ await Future.delayed(Duration(seconds: 1)); return 'Alice'; \}`, what is the type of `var result = fetchName();`?**
 
@@ -199,7 +185,6 @@ D. `Future&lt;String&gt;`
 - Calling an async function without `await` returns the Future immediately without waiting for it to complete. `var result = fetchName();` gives `result` the type `Future&lt;String&gt;`, not `String`. To get the String value, you must `await` it: `var result = await fetchName();` which yields type `String`.
 *Difficulty: medium*
 
-
 **Q6. Given `sealed class Result \{\} class Success extends Result \{\} class Failure extends Result \{\}`, which switch expression is exhaustive without a default case?**
 
 A. switch (r) \{ case Success(): ... case Failure(): ... \}
@@ -207,7 +192,6 @@ A. switch (r) \{ case Success(): ... case Failure(): ... \}
 **Answer: A**
 - Sealed classes restrict subtypes to a known finite set. The compiler knows `Result` has exactly two subtypes: `Success` and `Failure`. A switch covering both is exhaustive -- no default needed. This is the primary benefit of sealed classes: safe, compile-time-verified exhaustive pattern matching.
 *Difficulty: medium*
-
 
 **Q7. In Dart 3 records, how do you access the first positional field of `var record = ('Alice', 30);`?**
 
@@ -220,7 +204,6 @@ D. record.0
 - Record positional fields are accessed via `$1`, `$2`, `$3`, etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 *Difficulty: medium*
 
-
 **Q8. During Dart null safety migration, which approach does the Dart team recommend as the primary strategy?**
 
 A. Analyze existing code, add `?` where nulls are intended, remove unnecessary `!`, and use `late` for lazily initialized fields
@@ -231,7 +214,6 @@ D. Rewrite the project from scratch with null safety from day one',
 **Answer: A**
 - The recommended migration flow: 1) Enable null safety incrementally with `// @dart=2.12` or per-package. 2) Run the migration tool (`dart fix --apply`). 3) Review: add `?` where nulls are intentional, replace `!` with proper null checks, use `late` for fields initialized in `initState` or constructors. 4) Run analysis (`dart analyze`) to find remaining issues. 5) Remove `!` operators one by one -- each removed operator is a safety improvement.
 *Difficulty: hard*
-
 
 **Q9. In a Flutter StatefulWidget, which lifecycle method should you use to initialize data that depends on `BuildContext` or to subscribe to a stream?**
 

@@ -137,6 +137,7 @@ Gao-Rexford conditions ensure convergence: (1) routes are ranked by customer-pro
 relationships, (2) an AS never prefers a route through a peer over a route through a customer, and
 (3) an AS never exports routes learned from one peer to another peer.
 :::
+
 ### 1.3 Route Aggregation
 
 Route aggregation (supernetting) reduces the size of routing tables by combining multiple routes
@@ -299,6 +300,7 @@ the client's 0-RTT data can replay it to the server. Applications must ensure th
 are idempotent (safe to execute multiple times). The server can reject 0-RTT for non-idempotent
 operations.
 :::
+
 ## 3. Network Performance Analysis
 
 ### 3.1 Queueing Theory Basics
@@ -1375,6 +1377,7 @@ flowchart TD
 - IP addressing and subnetting: CIDR notation, variable-length subnet masking.
 - Routing: distance vector (RIP), link state (OSPF), path vector (BGP).
 :::
+
 ## Cross-References
 
 - [Network Models](./1_network-models) -- Advanced networking topics extend the OSI and TCP/IP models discussed in the fundamentals.

@@ -184,6 +184,7 @@ Multiple threads. The standard imposes specific requirements [N4950 §25.5.1]:
 
 Violating these rules results in **undefined behavior**.
 :::
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -321,6 +322,7 @@ Reproducibility.** Floating-point addition is not associative (e.g.,
 `(0.1 + 0.2) + 0.3 != 0.1 + (0.2 + 0.3)` in IEEE 754). Use `std::accumulate` for deterministic
 Floating-point results, or use compensated summation (Kahan summation) for accuracy.
 :::
+
 ### Proof of Deterministic Results with `std::reduce`
 
 **Theorem.** `std::reduce` with `par` policy produces bit-identical results to `std::accumulate` if
@@ -797,7 +799,6 @@ Parallel-capable algorithms.
 
 4. Mixing up Big O, Big $\Omega$, and Big $\Theta$ notation. Big O is an upper bound, not
    necessarily tight.
-
 
 ```mermaid
 flowchart TD

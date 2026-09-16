@@ -9,8 +9,6 @@ categories:
   - Python
 ---
 
-
-
 ## Intuition
 
 **Learning through practice:** Practice problems are like training drills, they help you apply knowledge and identify areas that need more study.
@@ -84,7 +82,7 @@ Step 4: Use `@decorator` syntax to apply
 Step 1: `with` statement calls `__enter__` when entering the block and `__exit__` when leaving
 Step 2: If an exception occurs, `__exit__` is still called (guaranteed cleanup)
 Step 3: File is automatically closed even if an exception occurs
-Step 4: Without `with`, you need try/finally to ensure the file is closed
+Step 4: Without `with`you need try/finally to ensure the file is closed
 
 ```python
 # Without context manager (error-prone):
@@ -148,7 +146,7 @@ D. [1, 2]
 <details>
 <summary>Show answer, D</summary>
 
-**Answer: D**, Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+**Answer: D**, Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)``b` is `[1]`. After `f(2)``b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 
 </details>
 
@@ -170,7 +168,7 @@ D. Local, Enclosed, Generic, Built-in',
 
 ## Object-Oriented Programming
 
-**Q5. Given `class A: x = 1` and `class B(A): pass`, what does `B.x` return?**
+**Q5. Given `class A: x = 1` and `class B(A): pass`what does `B.x` return?**
 
 A. 1
 B. AttributeError
@@ -241,7 +239,7 @@ A. ZeroDivisionError is raised and not caught', &quot;'caught' is printed&quot;,
 <details>
 <summary>Show answer, A</summary>
 
-**Answer: A**, Dividing by zero raises `ZeroDivisionError`, which is a subclass of `ArithmeticError` and `Exception`, but NOT of `ValueError`. Since the `except` clause only catches `ValueError`, the exception propagates uncaught. The program would terminate with a traceback unless caught by an outer handler.
+**Answer: A**, Dividing by zero raises `ZeroDivisionError`which is a subclass of `ArithmeticError` and `Exception`but NOT of `ValueError`. Since the `except` clause only catches `ValueError`the exception propagates uncaught. The program would terminate with a traceback unless caught by an outer handler.
 
 </details>
 
@@ -259,7 +257,7 @@ D. It returns None',
 <details>
 <summary>Show answer, A</summary>
 
-**Answer: A**, Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+**Answer: A**, Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()``asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 
 </details>
 
@@ -273,7 +271,7 @@ D. It adds type checking to attributes x and y',
 <details>
 <summary>Show answer, A</summary>
 
-**Answer: A**, `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
+**Answer: A**, `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
 
 </details>
 
@@ -283,7 +281,6 @@ D. It adds type checking to attributes x and y',
 - **[Python Interactive Practice](../../../../../ib/src/content/docs/mathematics/practice-interactive):** Advanced practice with async and functional patterns.
 - **[Packaging and Distribution](07-best-practices/04-packaging-distribution):** Package management and distribution best practices.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -304,7 +301,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -324,7 +320,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 
 ## Advanced Content
 
@@ -357,7 +352,6 @@ D. SyntaxError
 - `type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.
 *Difficulty: medium*
 
-
 **Q2. Which of the following is a mutable built-in type in Python?**
 
 A. list
@@ -369,7 +363,6 @@ D. tuple
 - Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.
 *Difficulty: medium*
 
-
 **Q3. What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?**
 
 A. [1], [2]
@@ -378,9 +371,8 @@ C. TypeError
 D. [1, 2]
 
 **Answer: D**
-- Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+- Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)``b` is `[1]`. After `f(2)``b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 *Difficulty: medium*
-
 
 **Q4. What does the LEGB rule stand for in Python variable resolution?**
 
@@ -393,8 +385,7 @@ D. Local, Enclosed, Generic, Built-in',
 - Python resolves variable names using the LEGB scope order: Local (inside the current function), Enclosing (in enclosing functions for nested functions), Global (module level), and Built-in (the `builtins` module). The first match in this order is used.
 *Difficulty: medium*
 
-
-**Q5. Given `class A: x = 1` and `class B(A): pass`, what does `B.x` return?**
+**Q5. Given `class A: x = 1` and `class B(A): pass`what does `B.x` return?**
 
 A. 1
 B. AttributeError
@@ -404,7 +395,6 @@ D. 0
 **Answer: A**
 - Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.
 *Difficulty: medium*
-
 
 **Q6. What is the MRO of `class D(B, C)` where `class B(A)` and `class C(A)`?**
 
@@ -417,7 +407,6 @@ D. D, B, C, A, object
 - Python uses C3 linearization for MRO. It respects the left-to-right order of base classes (`B` before `C`) while ensuring each class appears only once. The result is `D -> B -> C -> A -> object`. You can verify with `D.__mro__` or `D.mro()`.
 *Difficulty: medium*
 
-
 **Q7. What does `@functools.lru_cache(maxsize=2)` do when applied to a recursive function?**
 
 A. Caches up to 2 most recent distinct call results, eliminating redundant computation
@@ -428,7 +417,6 @@ D. Raises an error when the cache is full',
 **Answer: A**
 - The LRU (Least Recently Used) cache stores up to `maxsize` distinct argument-result pairs. When the cache is full, the least recently used entry is evicted. For recursive functions like Fibonacci, this transforms exponential time complexity into linear by avoiding recomputation of subproblems.
 *Difficulty: medium*
-
 
 **Q8. What happens when a generator function uses `return value` instead of `yield`?**
 
@@ -441,7 +429,6 @@ D. It raises SyntaxError',
 - In a generator function, `return value` raises `StopIteration(value)` to signal the generator is exhausted. The `value` is attached to the exception and can be retrieved via the return value of `next()` (using a try/except StopIteration) or by capturing it from `yield from`. The generator cannot be resumed after `return`.
 *Difficulty: hard*
 
-
 **Q9. What happens when you call an `async def` function without using `await`?**
 
 A. It returns a coroutine object without executing the function body
@@ -450,9 +437,8 @@ C. It raises SyntaxError
 D. It returns None',
 
 **Answer: A**
-- Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()`, `asyncio.create_task()`, or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+- Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()``asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 *Difficulty: hard*
-
 
 **Q10. What is the effect of defining `__slots__ = ('x', 'y')` on a class?**
 
@@ -462,6 +448,6 @@ C. It enables multiple inheritance
 D. It adds type checking to attributes x and y',
 
 **Answer: A**
-- `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`, catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
+- `__slots__` tells the metaclass to allocate fixed attribute descriptors instead of a per-instance `__dict__`. This reduces memory overhead significantly for classes with many instances. Instances cannot have attributes not listed in `__slots__`catching typos at runtime. All classes in the hierarchy must define `__slots__` for the full benefit.
 *Difficulty: hard*
 

@@ -102,6 +102,7 @@ The precise figure varies ( 80%--90% is lost, 10%--20% is transferred). The key 
 loss is substantial and cumulative, which is why food chains are short. The lost energy is Not
 "wasted" -- it is dissipated as heat according to the second law of thermodynamics.
 :::
+
 ## 2. Populations
 
 ### 2.1 Population Growth
@@ -405,6 +406,7 @@ To withstand and recover from disturbances.
 conserves the entire Ecosystem and evolutionary processes, but ex situ is essential as a backup for
 species whose habitat Has been destroyed or whose population is too small to survive in the wild.
 :::
+
 ## 8. Quantitative Ecology
 
 ### 8.1 Calculating Net Primary Production
@@ -488,6 +490,7 @@ The ecological Efficiency between trophic levels is the fraction of energy at on
 incorporated into Biomass at the next level ( 10--20%), not the fraction of total solar radiation
 captured by Producers ( less than 3%).
 :::
+
 ## 9. Advanced Nutrient Cycle Analysis
 
 ### 9.1 Quantifying the Nitrogen Cycle
@@ -603,6 +606,7 @@ Estimated population size $= 400$ woodlice.
 events. If Organisms are born, die, migrate in, or migrate out between samples, the estimate will be
 inaccurate. If no marked individuals are recaptured ($n_3 = 0$), the method fails entirely.
 :::
+
 ## 11. Climate Change and Ocean Acidification
 
 ### 11.1 Ocean Acidification: Quantitative Analysis
@@ -2032,7 +2036,6 @@ impossible to address with traditional field methods alone.
 
 **Ecology is like a web of relationships, every organism depends on others in a delicate balance.**
 
-
 ```mermaid
 flowchart TD
     A[Ecology] --> B[Key Concepts]
@@ -2049,6 +2052,7 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 :::
+
 ## Cross-References
 
 - [Biology](../biology)

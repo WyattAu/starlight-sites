@@ -17,7 +17,6 @@ description: 'Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Co
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[8_Virtualization] --> B[Key Concepts]
@@ -146,6 +145,7 @@ hardware support, the shadow page table overhead is eliminated. $\blacksquare$
 vulnerability can potentially Compromise all containers on a host. For strong multi-tenant
 isolation, VMs are preferred.
 :::
+
 ### 8.9 Worked Example: Comparing Virtualisation Overheads
 
 **Problem.** A host runs 20 web server instances. Each instance uses 256 MB RAM and 0.5 CPU cores
@@ -157,7 +157,6 @@ adds 256 MB application + negligible OS overhead ($\sim 5$ MB per container), to
 $512 + 20 \times 261 \approx 5.73$ GB RAM. Containers use 63% less RAM in this scenario, enabling
 higher density on the same hardware. However, if instances run untrusted workloads, VMs provide
 stronger isolation. $\blacksquare$
-
 
 ## Advanced Content
 

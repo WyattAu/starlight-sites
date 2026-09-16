@@ -476,6 +476,7 @@ Values (e.g., one for gzip, one for br).
 Vary: Accept-Encoding, Origin
 ```
 :::
+
 :::caution
 Is never cached. If `Vary` omits a header that affects the response (e.g., `Vary: Accept-Encoding`
 But the response varies by `Origin`), the wrong content may be served to different users.
@@ -504,6 +505,7 @@ Set-Cookie: session_id=abc123; Path=/; Secure; HttpOnly; SameSite=Strict; Max-Ag
 | `Max-Age=3600`        | Expires in 3600 seconds                           |
 | `Expires=...`         | Absolute expiration date                          |
 :::
+
 :::caution
 attacks to steal session tokens. Failing to set `SameSite` allows CSRF attacks.
 
@@ -856,6 +858,7 @@ WebSocket frames have a 2-14 byte header (depending on payload length) and suppo
 Ping/pong keepalive, and close handshake. The connection is secured by using `wss://` (WebSocket
 Over TLS).
 :::
+
 :::caution
 You need persistent, low-latency, bidirectional communication. For periodic updates, Server- Sent
 Events (SSE) are simpler and work over standard HTTP.

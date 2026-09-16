@@ -121,6 +121,7 @@ void expired_demo() {
 `expired()` and using the object, the object could be destroyed by another thread between the check
 And the access. Always use `lock()` instead, which atomically checks and returns a `shared_ptr`.
 :::
+
 ### Formal Correctness: `expired()` vs `lock()` in Concurrent Code
 
 **Claim:** `expired()` followed by access through a previously obtained raw pointer is a TOCTOU
@@ -377,6 +378,7 @@ root
 `shared_ptr`. If the object is stack-allocated or managed by a `unique_ptr`Calling
 `shared_from_this()` is undefined behavior.
 :::
+
 ## 4.6 `weak_ptr` as Observer in the Observer Pattern
 
 `weak_ptr` is the standard way to implement the observer (publish-subscribe) pattern without
@@ -489,6 +491,7 @@ Attempts to subscribe or unsubscribe, it will deadlock. To avoid this, copy the 
 Iterating, or use a recursive mutex. Alternatively, collect callbacks into a local vector under the
 Lock, then invoke them after releasing the lock.
 :::
+
 ## 4.7 `weak_ptr` with `shared_ptr::reset()`
 
 When a `shared_ptr` is reset, the `weak_ptr` does not become invalid immediately, it Observes that
@@ -800,6 +803,7 @@ Primary owner (e.g., a data loader) produces `shared_ptr` values, and the cache 
 References to avoid extending their lifetime. This is common in image loaders, texture caches in
 Game engines, and database connection pools.
 :::
+
 ## 4.13 Proof: `weak_ptr` Does Not Extend Object Lifetime
 
 **Claim:** Creating or destroying a `weak_ptr` never affects whether the managed object is alive.
@@ -923,7 +927,6 @@ A weak_ptr is a non-owning observer, like a security camera that watches a share
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

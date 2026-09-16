@@ -7,7 +7,6 @@ tags:
   - ib
 ---
 
-
 import DesmosGraph from "@components/DesmosGraph";
 
 ## Function Notation
@@ -48,16 +47,15 @@ The domain of a real-valued function is restricted by:
 2. **Square roots** must have non-negative arguments: $g(x) \ge 0$
 3. **Logarithms** must have positive arguments: $g(x) \gt 0$
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Find the domain of $\displaystyle f(x) = \frac{1}{\sqrt{x-2}}$.
 
 We need $x - 2 \gt 0$ (strictly positive since it is in the denominator).
 
 Domain: $x \gt 2$Or $(2, \infty)$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the domain of $\displaystyle f(x) = \ln(x+3) + \sqrt{5-x}$.
 
 From $\ln(x+3)$: $x + 3 \gt 0 \implies x \gt -3$.
@@ -74,8 +72,8 @@ To find the range, consider the domain and the behaviour of the function:
 - Consider the graph: what $y$-values are achieved?
 - Check for horizontal asymptotes and extrema.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the range of $f(x) = x^2 - 4x + 3$.
 
 Completing the square: $f(x) = (x-2)^2 - 1$.
@@ -102,8 +100,8 @@ This means: first apply $g$ to $x$ Then apply $f$ to the result.
 
 $f \circ g \neq g \circ f$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Given $f(x) = 2x + 1$ and $g(x) = x^2$:
 
 $$
@@ -121,8 +119,8 @@ $f \circ g \neq g \circ f$.
 The domain of $f \circ g$ consists of all $x$ in the domain of $g$ such that $g(x)$ is in the domain
 Of $f$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Given $f(x) = \sqrt{x}$ and $g(x) = x - 5$Find the domain of $f \circ g$.
 
 $$
@@ -158,8 +156,8 @@ Intersects the graph more than once.
 3. Solve for $y$.
 4. Replace $y$ with $f^{-1}(x)$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the inverse of $f(x) = \dfrac{2x + 3}{x - 1}$.
 
 $$
@@ -205,8 +203,8 @@ The graph of $y = f^{-1}(x)$ is the reflection of $y = f(x)$ in the line $y = x$
 Functions that are not one-to-one on their natural domain can have inverses if their domain is
 Restricted.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 $f(x) = x^2$ is not one-to-one on $\mathbb{R}$ But $f: [0, \infty) \to [0, \infty)$ defined by
 $f(x) = x^2$ has inverse $f^{-1}(x) = \sqrt{x}$.
 
@@ -231,8 +229,8 @@ Given $y = f(x)$:
 | Reflection in $y$-axis              | Flips horizontally            | $y = f(-x)$                        |
 | Reflection in $y = x$               | Swaps $x$ and $y$             | $y = f^{-1}(x)$                    |
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 Horizontal transformations are often counterintuitive. $f(x - 2)$ shifts the graph to the **right**
 By 2 (not left). $f(2x)$ compresses horizontally by a factor of $\dfrac{1}{2}$ (not stretches).
 
@@ -246,8 +244,8 @@ When combining transformations, apply in this order:
 4. Vertical stretches/compressions
 5. Vertical translations (shifts up/down)
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Describe the sequence of transformations that maps $f(x) = x^2$ to $g(x) = 2(x-3)^2 + 1$.
 
 Starting from $f(x) = x^2$:
@@ -291,8 +289,8 @@ For rational functions $\dfrac{P(x)}{Q(x)}$:
   $y = \dfrac{\mathrm{leading coefficient of } P}{\mathrm{leading coefficient of } Q}$.
 - If $\deg P = \deg Q + 1$: oblique asymptote (found by polynomial division).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the asymptotes of $\displaystyle f(x) = \frac{2x + 1}{x - 3}$.
 
 **Vertical asymptote**: $x - 3 = 0 \implies x = 3$.
@@ -317,8 +315,8 @@ $(x - a)$ is a factor of $P(x)$ if and only if $P(a) = 0$.
 
 When $P(x)$ is divided by $(x - a)$The remainder is $P(a)$.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the remainder when $P(x) = 2x^3 - 3x^2 + 5x - 7$ is divided by $(x + 2)$.
 
 $$
@@ -335,8 +333,8 @@ If $P(x) = a_n x^n + \cdots + a_0$ has integer coefficients, then any rational r
 - $p$ divides $a_0$
 - $q$ divides $a_n$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find all roots of $P(x) = 2x^3 - x^2 - 13x - 6$.
 
 Possible rational roots: $\pm 1, \pm 2, \pm 3, \pm 6, \pm \dfrac{1}{2}, \pm \dfrac{3}{2}$.
@@ -359,8 +357,8 @@ Roots: $x = 3$$x = -\dfrac{1}{2}$$x = -2$.
 
 **Long division** and **synthetic division** are two methods for dividing polynomials.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Divide $x^3 + 2x^2 - 5x - 6$ by $(x + 1)$ using synthetic division.
 
 ```text
@@ -400,16 +398,16 @@ $$
 Ax + b \gt 0 \implies x \gt -\frac\{b\}\{a\} \quad (\mathrm\{if \} a \gt 0)
 $$
 :::
-:::caution
-<strong>Exam Tip</strong>
+
+:::caution[Exam Tip]
 When multiplying or dividing an inequality by a negative number, **reverse** the inequality sign.
 
 ### Quadratic Inequalities
 
 Factorise the quadratic and use a sign diagram (or test points in each interval).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Solve $x^2 - 5x + 6 \le 0$.
 
 $$
@@ -430,8 +428,8 @@ $$
 |ax + b| \ge c \iff ax + b \le -c \quad \mathrm\{or\} \quad ax + b \ge c
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Solve $|2x - 3| \lt 5$.
 
 $$
@@ -469,8 +467,8 @@ Solution: $(-1, 4)$.
 
 A line and a parabola can intersect at 0, 1, or 2 points.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Solve simultaneously: $y = x^2 - 4x + 3$ and $y = 2x - 3$.
 
 Substitute: $2x - 3 = x^2 - 4x + 3$.
@@ -505,8 +503,8 @@ The graph of $y = |x|$ is V-shaped, with the vertex at the origin.
 
 Square both sides or use the definition casewise.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Solve $|x - 2| = 3x - 1$.
 
 Since $|x - 2| \ge 0$We need $3x - 1 \ge 0 \implies x \ge \dfrac{1}{3}$.
@@ -644,7 +642,6 @@ From (2): $b = -10$.
 
 ---
 
-
 ```mermaid
 flowchart TD
     A[1_Functionsx] --> B[Key Concepts]
@@ -668,8 +665,8 @@ flowchart TD
 | Even function      | $f(-x) = f(x)$Symmetric about $y$-axis          |
 | Odd function       | $f(-x) = -f(x)$Rotational symmetry about origin |
 :::
-:::tip
-<strong>Exam Strategy</strong>
+
+:::tip[Exam Strategy]
 For function questions, always check the domain. When finding inverses, state the domain of the
 Inverse explicitly. For transformation questions, identify each transformation step by step from the
 Inside out.
@@ -705,8 +702,8 @@ Asymptote at $y = 0$.
 
 ### Reciprocal of Quadratic Functions
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Sketch the graph of $y = \dfrac{1}{x^2 - 4}$.
 
 Vertical asymptotes at $x = 2$ and $x = -2$ (zeros of denominator).
@@ -745,8 +742,8 @@ $$
 When $\deg P = \deg Q + 1$Divide $P$ by $Q$ using polynomial division. The quotient (without
 Remainder) gives the oblique asymptote.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Find the asymptotes of $\displaystyle f(x) = \frac{x^2 + 1}{x - 1}$.
 
 Vertical asymptote: $x = 1$.
@@ -771,8 +768,8 @@ A piecewise function is defined by different expressions over different interval
 
 Check that the function value equals the left-hand and right-hand limits at the boundary points.
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Is the following function continuous at $x = 2$?
 
 $$
@@ -788,6 +785,7 @@ $\lim_{x \to 2^+} f(x) = 3(2) - 2 = 4$.
 Since the left-hand limit, right-hand limit, and function value all equal 4, the function is
 Continuous at $x = 2$.
 :::
+
 ---
 
 ## Additional Exam-Style Questions
@@ -887,7 +885,7 @@ For the A-Level treatment of this topic, see
 ---
 
 :::tip
-<strong>Diagnostic Test Ready to test your understanding of **Functions and Equations**? The contains the hardest</strong>
+Diagnostic Test Ready to test your understanding of **Functions and Equations**? The contains the hardest
 
 questions within the IB specification for this topic, each with a full worked solution.
 

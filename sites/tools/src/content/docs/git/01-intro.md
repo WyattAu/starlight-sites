@@ -108,6 +108,7 @@ Contributors on dial-up connections needed to work efficiently.
 | Learning curve       | Steep                              | Moderate                      | Shallow                   | Steep                     |
 | Binary file handling | Poor (use Git LFS)                 | Poor (use Largefiles)         | Good                      | Good                      |
 :::
+
 :::tip
 [Git LFS](https://git-lfs.github.com/) or [Git Annex](https://git-annex.branchable.com/). Vanilla
 Git is optimized for text files.

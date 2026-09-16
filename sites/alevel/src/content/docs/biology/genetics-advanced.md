@@ -106,6 +106,7 @@ interaction between **alleles at the same locus** (one allele masks another at t
 Epistasis is an interaction between **genes at different loci** (one gene masks or modifies another
 gene). They are fundamentally different genetic phenomena.
 :::
+
 ## 2. Genetic Linkage and Crossing Over
 
 ### 2.1 Linkage
@@ -664,6 +665,7 @@ operates **within a single gene locus** (alleles of the same gene), while epista
 **between different gene loci**. When the dihybrid cross ratio deviates from 9:3:3:1, epistasis is
 the likely explanation, not dominance.
 :::
+
 ## 10. Genetic Linkage and Chromosome Mapping
 
 ### 10.1 Two-Point Cross Mapping
@@ -982,6 +984,7 @@ heritability of that trait in an individual. Heritability is a population-level 
 heritability for height does not mean that a tall individual's height is "80% genetic" -- it means
 that 80% of the variation in height across the population is due to genetic differences.
 :::
+
 ## 16. Pedigree Analysis: Advanced Problems
 
 ### 16.1 X-Linked Dominant Inheritance
@@ -1140,6 +1143,7 @@ The differences arise from differences in gene regulation (when, where, and how 
 expressed), not from differences in the genes themselves. This is a key principle of evolutionary
 developmental biology (evo-devo).
 :::
+
 ## 19. Selection Coefficients and Fitness
 
 ### 19.1 Measuring the Strength of Selection
@@ -1338,12 +1342,14 @@ Even after a protein is synthesised, its activity can be regulated:
 | Proteolytic cleavage  | Activates a pro-protein by cutting it                                               | Proinsulin $\to$ insulin; trypsinogen $\to$ trypsin           |
 | Allosteric regulation | Effector molecule binds at a site other than the active site, changing conformation | Haemoglobin (2,3-BPG binding reduces $\mathrm{O_2}$ affinity) |
 :::
+
 :::caution
 term is outdated and misleading. While most non-coding DNA does not code for proteins, it includes
 regulatory elements (promoters, enhancers, silencers), non-coding RNAs (miRNA, lncRNA, snRNA),
 telomeres, centromeres, and origins of replication -- all of which have important functions. The
 correct term is "non-coding DNA."
 :::
+
 ## 19. Quantitative Genetics and Population Genetics Calculations
 
 ### 19.1 Hardy-Weinberg Equilibrium: Advanced Problems
@@ -2273,7 +2279,6 @@ Purple ($C\_P\_$): $\frac{9}{16} \times 160 = 90$.
 White ($ccP\_$, $C\_pp$, $ccpp$): $\frac{7}{16} \times 160 = 70$.
 
 Ratio: **90 purple : 70 white**. $\blacksquare$
-
 
 ```mermaid
 flowchart TD

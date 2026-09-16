@@ -336,7 +336,7 @@ std::string s3 = to_string(std::string("hello"));  // uses string branch
 template<typename... Args>
 void print_all(const Args&... args) \{
     if constexpr (sizeof...(args) > 0) \{
-        ((std::cout << args << " ")...);
+        ((std::cout << args << " "), ...);
     \}
 \}
 ```
@@ -554,7 +554,6 @@ struct S2 \{
   construction
 - **Module 10 (Ownership and RAII)**: RAII and constexpr destructors
 - **Module 13 (Error Handling)**: `static_assert` as a compile-time error mechanism
-
 
 ```mermaid
 flowchart TD

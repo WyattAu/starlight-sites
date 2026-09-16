@@ -9,7 +9,6 @@ categories:
   - Go
 ---
 
-
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/go/flashcards-standard-library-data.js';
 
@@ -22,7 +21,7 @@ encoding/json, and os.
 
 ## Intuition
 
-Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader`, `Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
+Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader``Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
 
 ## Common Pitfalls
 
@@ -34,7 +33,7 @@ Go's standard library is deliberately comprehensive, the language philosophy bat
 
 ## Study Tips
 
-- **Read the standard library source:** Go's standard library is well-documented and readable. Reading `fmt`, `strings`, and `io` source code teaches idiomatic Go patterns.
+- **Read the standard library source:** Go's standard library is well-documented and readable. Reading `fmt``strings`and `io` source code teaches idiomatic Go patterns.
 - **Use `go doc` and `godoc`:** Run `go doc fmt.Println` or `godoc -http=:6060` to browse documentation offline. The standard library docs are comprehensive.
 - **Practice error handling patterns:** Write functions that return `(T, error)` and handle each error explicitly. This builds the discipline that prevents silent failures in production.
 - **Write HTTP servers with net/http:** Build a simple REST API using only the standard library. This demonstrates Go's approach to web development without external dependencies.
@@ -52,6 +51,27 @@ Go's standard library is deliberately comprehensive, the language philosophy bat
 - **[Net/HTTP](standard-library/net-http):** HTTP client and server implementations using the standard library.
 - **[Strings and Time](standard-library/strings-and-time):** String manipulation and time handling utilities.
 
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
 ## Detailed Content
 
@@ -75,7 +95,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -98,7 +117,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -120,30 +138,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
-
-## Detailed Content
-
-This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
-
-### Core Concepts
-
-Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
-
-### Worked Examples
-
-Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
-
-### Common Mistakes
-
-- Rushing through foundational material
-- Not practising problems after reading
-- Failing to connect concepts across topics
-
-### Further Reading
-
-Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 
 ## Detailed Content
 

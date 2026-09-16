@@ -71,7 +71,7 @@ Never        (bottom, no values inhabit this type)
   |
   Null        (only value is null)
   |
-  int, String... (non-nullable types)
+  int, String, ... (non-nullable types)
   |
   Object      (supertype of all non-nullable types)
   |
@@ -195,10 +195,12 @@ class Service {
 }
 ```
 :::
+
 :::caution
 Initialization, always use `late final`. A bare `late` field is mutable and can be reassigned
 Arbitrarily after its first initialization.
 :::
+
 :::caution
 Initialization paths and one path forgets to initialize the `late` field, you get a
 `LateInitializationError` at runtime with no compile-time warning.
@@ -399,6 +401,7 @@ String? getName() => 'Dart';
 // even if the implementation always returns non-null
 ```
 :::
+
 :::caution
 Local is captured by a closure that could be invoked after the variable is nulled, the type checker
 Will not promote it inside the closure.
@@ -530,6 +533,7 @@ Types:
 | `NativeFunction<T>` | function pointer                  | N/A          | platform     |
 | `Pointer<T>`        | `T*`                              | `Pointer<T>` | platform     |
 :::
+
 :::note
 VM. When passing an `Int8` value, the Dart `int` is truncated to 8 bits. When reading an `Int8`
 Value, it is sign-extended to 64 bits. Always be aware of the C type's range when working with FFI.
@@ -585,6 +589,7 @@ print(ptr.elementAt(2).value);  // 30
 final bytePtr = ptr.cast<Uint8>();  // reinterpret as byte array
 ```
 :::
+
 :::caution
 Collector. Every `malloc` must have a corresponding `malloc.free`Or you leak native memory. Unlike
 Dart objects, there is no finalizer that automatically frees native memory. Use `using` from
@@ -713,6 +718,7 @@ callback.close();
 | `NativeCallable.listener`     | Any thread can call  | Exceptions become unhandled errors | Callbacks from any thread   |
 | `NativeCallable.isolateLocal` | Only calling isolate | Exceptions propagate to caller     | Callbacks from same isolate |
 :::
+
 :::caution
 Leaks native resources. The callable is valid only while the `NativeCallable` object is alive.
 
@@ -730,6 +736,7 @@ final callbackPointer = Pointer.fromFunction<DartCallbackFn>(
 nativeSetCallback(callbackPointer);
 ```
 :::
+
 :::caution
 Code calls the callback from a different thread, the behavior is undefined and may crash. Use
 `NativeCallable.listener` for cross-thread callbacks.
@@ -787,6 +794,7 @@ final dartResult = result.toDartString();
 | `ptr.toDartString()`          | C to Dart | UTF-8 (auto-detected length) |
 | `ptr.toDartString(length: n)` | C to Dart | UTF-8 (fixed length)         |
 :::
+
 :::caution
 Method allocates a new Dart `String` object, it does not take ownership of the C memory. If C
 Allocated the string, you must free it with C's deallocator, not Dart's `malloc.free`.
@@ -854,6 +862,7 @@ external Pointer<Void> nativeMalloc(int size);
 external void nativeFree(Pointer<Void> ptr);
 ```
 :::
+
 :::note
 Than `DynamicLibrary.lookup` and produces cleaner code. It requires Dart 3.3+ and native platforms
 (AOT or JIT).
@@ -884,6 +893,7 @@ void main() async {
 }
 ```
 :::
+
 :::caution
 Remain responsive. Always offload potentially long-running native calls to a compute isolate via
 `Isolate.run`.
@@ -1050,6 +1060,7 @@ class _Request {
 }
 ```
 :::
+
 :::caution
 Receive them in that order. However, messages sent from different isolates to the same port may be
 Interleaved, there is no global ordering guarantee across multiple senders.
@@ -1217,6 +1228,7 @@ Binary is compact and loads quickly. However, every call from WASM to JavaScript
 Has overhead. For DOM-heavy applications, this overhead can dominate. For compute-heavy applications
 (e.g., image processing, cryptography, simulations), the performance gain is significant.
 :::
+
 :::note
 Is available in Chrome 119+, Firefox 120+, and Safari 17.4+. Older browsers fall back to dart2js.
 
@@ -1323,8 +1335,8 @@ class MulExpr extends Expr {
 // Exhaustive, compiler verifies all subtypes are handled
 int eval(Expr expr) => switch (expr) {
   IntLiteral(:final value) => value,
-  AddExpr(:final left:final right) => eval(left) + eval(right),
-  MulExpr(:final left:final right) => eval(left) * eval(right),
+  AddExpr(:final left, :final right) => eval(left) + eval(right),
+  MulExpr(:final left, :final right) => eval(left) * eval(right),
   // No default needed, sealed ensures exhaustiveness
 };
 ```
@@ -1365,7 +1377,7 @@ print(entry.value);   // 42
 
 // Destructuring
 final (x, y) = (10, 20);
-final (:name:age) = (name: "Bob'', age: 25);
+final (:name, :age) = (name: "Bob'', age: 25);
 ```
 
 Records are value types. Two records with the same fields are equal:
@@ -1435,7 +1447,7 @@ class Rectangle extends Shape {
 String describe(Shape shape) => switch (shape) {
   Circle(:final radius) when radius > 10 => 'large circle (r=$radius)',
   Circle(:final radius) => 'circle (r=$radius)',
-  Rectangle(:final width:final height) => 'rect ${width}x$height',
+  Rectangle(:final width, :final height) => 'rect ${width}x$height',
 };
 
 // Record destructuring
@@ -1690,7 +1702,6 @@ void worker(SendPort sendPort) {
 Not all Dart objects can be sent between isolates. Sendable objects include: primitives, `String`
 `List` and `Map` of sendable elements, `SendPort``TransferableTypedData`And `Capability`. Non-
 Sendable objects include: closures, `Socket``HttpClient``File``Isolate`And most `dart:io` Types.
-
 
 ```mermaid
 flowchart TD

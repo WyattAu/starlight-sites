@@ -79,6 +79,7 @@ Grants the embedded page the same privileges as the parent page.
 User-controlled or untrusted. Together they allow the embedded page to strip its own sandbox
 Restrictions via JavaScript.
 :::
+
 For trusted embeds like Godbolt and Dartpad, `sandbox="allow-scripts allow-same-origin"` is
 Acceptable because both services are well-known and operate over HTTPS.
 
@@ -370,7 +371,6 @@ https://dartpad.dev/embed-inline.html?id=<gist-id>&split=<ratio>&theme=<dark|lig
 Note that Dartpad's theme does not inherit from the parent page. It must be set explicitly in the
 URL. If the site supports dark mode toggling, the Dartpad theme will not switch dynamically without
 JavaScript intervention.
-
 
 ```mermaid
 flowchart TD

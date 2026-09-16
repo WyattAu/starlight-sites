@@ -69,6 +69,7 @@ if (a > 0) {
 :::caution
 Eliminates the dangling else ambiguity entirely and prevents bugs when statements are added later.
 :::
+
 ## The switch Statement
 
 ### Traditional switch (Java 1.0+)
@@ -119,6 +120,7 @@ Declared in one `case` scope leak into subsequent cases, and the entire construc
 Statement-oriented (it cannot produce a value). These flaws motivated the introduction of switch
 Expressions.
 :::
+
 ### Switch Expressions (Java 14+)
 
 Switch expressions ([JEP 361](https://openjdk.org/jeps/361), standardized in Java 14) transform
@@ -310,6 +312,7 @@ for (Iterator<String> it = names.iterator(); it.hasNext(); ) {
 The traditional for loop. Additionally, the enhanced for loop does not allow modification of the
 Collection during iteration (any structural modification throws `ConcurrentModificationException`).
 :::
+
 ### while and do-while
 
 ```java
@@ -334,6 +337,7 @@ Loop body must run before the condition can be evaluated (e.g., reading input be
 [JLS §14.13](https://docs.oracle.com/javase/specs/jls/se21/html/jls-14.html#jls-14.13) defines the
 `do` statement.
 :::
+
 ## break, continue, and Labeled Statements
 
 ### Unlabeled break and continue
@@ -392,6 +396,7 @@ Prefixing it with `label:`. The label is only useful when referenced by a `break
 Loop and switch statements can be the target of `break`And only loops can be the target of
 `continue`.
 :::
+
 ## Exception Handling
 
 ### The Exception Hierarchy
@@ -447,6 +452,7 @@ graph TD
 [JLS §11.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-11.html#jls-11.1) defines the
 Throwable hierarchy and the distinction between unchecked and checked exceptions.
 :::
+
 **Throwable** -- The root of the exception hierarchy. It carries a detail message and an optional
 Cause (for chaining). Only instances of `Throwable` (or subclasses) can be thrown by `throw` or
 Caught by `catch`.
@@ -581,6 +587,7 @@ try {
 `finally` replaces the original exception. This silently swallows the original error. Always ensure
 `finally` blocks cannot throw exceptions.
 :::
+
 ```java
 // Dangerous: finally block that can throw
 try {
@@ -669,6 +676,7 @@ Narrows this to `IOException`. Any resource that needs cleanup should implement 
 Compiler generates the equivalent of a `finally` block that calls `close()` on each declared
 Resource in reverse order.
 :::
+
 ### Custom Exceptions
 
 ```java
@@ -794,6 +802,7 @@ class SafeDataSource implements DataSource {
 Checked exceptions that are broader than those declared in the supertype method. It can declare the
 Same exceptions, narrower exceptions (subtypes), or no checked exceptions at all.
 :::
+
 ## Assertions
 
 The `assert` statement
@@ -866,6 +875,7 @@ In production, leading to silent data corruption. Use `Objects.requireNonNull()`
 with `IllegalArgumentException`Or framework-level validation (like `jakarta.validation`) For input
 validation.
 :::
+
 ## Varargs (Variable Arity Parameters)
 
 Varargs ([JLS §8.4.1](https://docs.oracle.com/javase/specs/jls/se21/html/jls-8.html#jls-8.4.1))
@@ -925,6 +935,7 @@ Arguments in an array.
 Type-safe. Use `@SafeVarargs` on methods that do not store the varargs array or pass it to untrusted
 Code.
 :::
+
 ```java
 // Heap pollution example
 static <T> List<T> asList(T... items) {
@@ -1015,6 +1026,7 @@ String example = """
 To a `String` literal with `\n``\t`And `\"` escape sequences. Text blocks are primarily Syntactic
 convenience -- they do not introduce a new type.
 :::
+
 ## Summary of Control Flow Design Principles
 
 1. **Explicit boolean conditions** eliminate an entire class of bugs common in C-style languages.

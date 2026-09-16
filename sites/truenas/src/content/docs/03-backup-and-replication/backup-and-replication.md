@@ -34,6 +34,7 @@ ZFS makes this rule easy to implement:
 :::caution
 3-2-1-1-0: 3 copies, 2 media, 1 offsite, 1 air-gapped (disconnected), 0 errors (verified restores).
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -632,6 +633,7 @@ Store encryption keys in a secure, offsite location:
 :::danger
 Irrecoverable. There is no backdoor. Always have a verified backup of the key.
 :::
+
 ## Backup Monitoring and Alerting
 
 ### TrueNAS Backup Alert Configuration
@@ -767,6 +769,7 @@ zfs send tank/data@snap1 | mbuffer -W 300 -s 128k -m 1G 10.0.0.20:9090
 mbuffer -s 128k -m 1G -I 9090 | zfs recv backup/data
 ```
 :::
+
 ## Monthly and Quarterly Verification Procedures
 
 A backup that has never been tested is not a backup. Establish a regular verification cadence to
@@ -1066,6 +1069,7 @@ midclt call cloudsync.update 1 '{
 Encryption keys in multiple secure locations: a password manager, a hardware security key, and a
 Printed copy in a physical safe. Never store encryption keys alongside the backups themselves.
 :::
+
 ### Compliance Considerations
 
 For environments subject to regulatory requirements (GDPR, HIPAA, SOC 2), document your backup and

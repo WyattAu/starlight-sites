@@ -69,6 +69,7 @@ Metadata) and may enable further optimizations. However, it also makes `dynamic_
 Unavailable for polymorphic types. Disabling RTTI does **not** eliminate the vtable or vptr --
 Virtual dispatch still works.
 :::
+
 ## 4.2 `dynamic_cast<T*>(ptr)` -- Safe Downcast
 
 `dynamic_cast<T*>(ptr)` converts a base-class pointer to a derived-class pointer. If the cast is
@@ -196,6 +197,7 @@ Cast failed: std::bad_cast
 Exception is the only way to signal failure. This is why `dynamic_cast` on pointers is generally
 Preferred -- it allows the caller to check for failure without exception overhead.
 :::
+
 ## 4.4 `typeid` Operator
 
 The `typeid` operator [N4950 S7.6.1.8] returns a `const std::type_info&` describing the **dynamic
@@ -255,6 +257,7 @@ Key points:
 Useful for debugging but should not be parsed or compared. Use `std::type_index` for type
 Comparisons.
 :::
+
 ## 4.5 RTTI and `dynamic_cast` for the Visitor Pattern
 
 When a traditional double-dispatch visitor is overkill, `dynamic_cast` chains can serve as a simpler
@@ -357,6 +360,7 @@ For small, stable type hierarchies. However, adding a new derived type requires 
 Existing types, and adding a new type doesn't modify existing visitors (it only requires extending
 The visitor interface).
 :::
+
 ## 4.6 `dynamic_cast` with Multiple and Virtual Inheritance
 
 When multiple or virtual inheritance is involved, `dynamic_cast` performs a more complex traversal
@@ -788,7 +792,6 @@ Type tags.
 - [Virtual Functions and vtables](./1_vtables)
 - [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
 - [Devirtualization and Final Specifiers](./3_devirtualization)
-
 
 ```mermaid
 flowchart TD

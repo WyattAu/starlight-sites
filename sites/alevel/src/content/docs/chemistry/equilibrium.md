@@ -1042,7 +1042,6 @@ self-marking and building a personal test matrix.
 
 **Chemical equilibrium is like a busy restaurant, dishes are constantly being prepared and eaten, but the overall number of plates stays the same.**
 
-
 ```mermaid
 flowchart TD
     A[Equilibrium] --> B[Key Concepts]
@@ -1074,6 +1073,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Chemistry](../chemistry)

@@ -269,6 +269,7 @@ flowchart TD
     H --> I
 ```
 :::
+
 :::note
 the `match` block is skipped entirely -- it does not raise an error. This differs from Rust's
 `match`Which requires exhaustiveness at compile time.
@@ -354,7 +355,7 @@ for i, word in enumerate(words):
 
 # Custom start index
 for i, word in enumerate(words, start=1):
-    print(f"{i}: {word}")  # 1: apple, 2: banana...
+    print(f"{i}: {word}")  # 1: apple, 2: banana, ...
 ```
 
 ### `zip`
@@ -396,7 +397,7 @@ print(list(islice(range(100), 5, 10)))
 
 # cycle: infinite repetition
 # for item in cycle(["A", "B", "C"]):
-#     print(item)  # A, B, C, A, B, C...
+#     print(item)  # A, B, C, A, B, C, ...
 
 # repeat: repeat a single value
 print(list(repeat(42, 3)))
@@ -446,6 +447,7 @@ def converge_pi(target_error: float = 1e-5) -> float:
         estimate = new_estimate
 ```
 :::
+
 :::caution
 (server main loops, event loops), an accidental infinite loop freezes the program. Always ensure
 There is a reachable termination condition.
@@ -539,6 +541,7 @@ flat = [element for row in matrix for element in row]
 The execution order of nested comprehensions follows the same left-to-right reading order as nested
 `for` loops. The first `for` is the outer loop, the second `for` is the inner loop.
 :::
+
 :::caution
 Expressions. A comprehension over a billion-element range would consume all available memory.
 
@@ -597,9 +600,10 @@ max_root = max(math.sqrt(x) for x in range(100))
 result = (x for x in range(100) if x % 2 == 0)
 result = (x * 2 for x in result)
 result = (x + 1 for x in result)
-print(list(result))  # [1, 5, 9, 13...]
+print(list(result))  # [1, 5, 9, 13, ...]
 ```
 :::
+
 :::tip
 `sum(x**2 for x in range(100))` is valid. The generator expression syntax
 `(x**2 for x in range(100))` is required in all other contexts.
@@ -652,6 +656,7 @@ if (match := pattern.search(text)) and match.group(1).isdigit():
 The walrus operator has lower precedence than most operators but higher than commas. Parentheses are
 Required in comprehensions and `if`/`while` conditions.
 :::
+
 :::caution
 Computation or awkward workarounds. It harms clarity when it makes a single line do too much. The
 Guiding principle: use it when it eliminates a clear redundancy, not just to save a line.
@@ -739,6 +744,7 @@ flowchart TD
     VE --> JE["JSONDecodeError"]
 ```
 :::
+
 :::caution
 Or `except Exception` without careful consideration. Catching too broadly masks real errors and
 Makes debugging extremely difficult. Catch the most specific exception possible.
@@ -852,6 +858,7 @@ def binary_search(arr: list[int], target: int) -> int:
     return -1
 ```
 :::
+
 :::caution
 Input validation or security checks. Use explicit `if/raise` for conditions that must be checked in
 Production.
@@ -1014,6 +1021,7 @@ class ReliableCleanup:
         self.close()
 ```
 :::
+
 :::tip
 Other resource that requires explicit cleanup. Never rely on `__del__` or the garbage collector for
 Resource management.

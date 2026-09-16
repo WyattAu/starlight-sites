@@ -107,6 +107,7 @@ class LinkedListStack:
 :::tip
 $O(1)$ time. Pushing at the tail would require traversal.
 :::
+
 <hr />
 
 ## 2. Queues (FIFO)
@@ -202,6 +203,7 @@ class LinkedListQueue:
   implementations
 - **Edexcel** covers stack and queue ADTs with pseudocode
 :::
+
 <hr />
 
 ## 3. Applications of Stacks
@@ -321,8 +323,8 @@ Verification: $5 + ((1 + 2) \times 4) - 3 = 5 + 12 - 3 = 14$ ✓
 | ----- | -------------- | -------------- | ----------------------------- |
 | (     |                | (              | Push (                        |
 | 3     | 3              | (              | Enqueue 3                     |
-| +     | 3              | (, +           | Push + (precedence, ( blocks) |
-| 4     | 3, 4           | (, +           | Enqueue 4                     |
+| +     | 3              | ( +           | Push + (precedence, ( blocks) |
+| 4     | 3, 4           | ( +           | Enqueue 4                     |
 | )     | 3, 4, +        |                | Pop until (                   |
 | \*    | 3, 4, +        | \*             | Push \*                       |
 | 5     | 3, 4, +, 5     | \*             | Enqueue 5                     |
@@ -970,7 +972,6 @@ Handled, unfair and violating the FIFO service guarantee.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

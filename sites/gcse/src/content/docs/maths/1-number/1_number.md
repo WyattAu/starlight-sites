@@ -25,6 +25,7 @@ categories:
 :::note
 1
 :::
+
 ## 1. Types of Number
 
 ### 1.1 The Number System
@@ -82,6 +83,7 @@ $\blacksquare$
 $\sqrt{2} \times \sqrt{2} = 2$. The sum of two irrational numbers can also be rational:
 $(1 + \sqrt{2}) + (1 - \sqrt{2}) = 2$.
 :::
+
 ### 1.2 Prime Numbers and Factorisation
 
 **Definition.** A **prime number** is a natural number greater than 1 that has exactly two factors:
@@ -253,6 +255,7 @@ After the increase: $102 \times 1.15 = 117.30$ pounds.
 :::caution
 Second percentage is applied to a smaller base.
 :::
+
 **Theorem.** A percentage increase of $P\%$ followed by a percentage decrease of $P\%$ (or vice
 Versa) always results in a net decrease. The net effect is a decrease of $\frac{P^2}{100}\%$.
 
@@ -442,6 +445,7 @@ Bounds for width: $5.15 \leq w \lt 5.20$
 :::caution
 Positive quantities).
 :::
+
 **Worked Example (Higher Tier).** $x = 6.3$ and $y = 2.7$Both correct to 1 decimal place. Find the
 Lower bound of $\frac{x}{y}$.
 
@@ -763,7 +767,6 @@ the appropriate terminology.
 Multi-step problems in Number often combine two or more concepts. Break the problem down: identify
 what you need to find, recall the relevant formula or principle, substitute values, and state your
 answer with correct units or formatting.
-
 
 ```mermaid
 flowchart TD

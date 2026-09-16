@@ -1,6 +1,5 @@
 ---
 
-
 title: "Computing Systems"
 description: "Study notes for Computing Systems | AP - Wyatt's Notes with worked examples and practice questions."
 ---------------- | ---------------------------------------------- | | CPU | Executes instructions, performs calculations | | RAM"
@@ -86,8 +85,7 @@ For an $n$-bit number:
 
 **Negation:** Flip all bits and add 1.
 
-:::note
-<strong>Example</strong>
+:::note[Example]
 Represent $-42$ in 8-bit two's complement.
 
 $42$ in binary: $00101010$.
@@ -261,8 +259,8 @@ Columns 4 and 7 are identical. $\blacksquare$
 Any Boolean function can be implemented using only NAND gates or only NOR gates (functional
 Completeness).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Implement XOR using AND, OR, and NOT gates.
 
 $A \oplus B = (A \cdot \bar{B}) + (\bar{A} \cdot B)$
@@ -924,7 +922,6 @@ NOT operations.
 
 </details>
 
-
 ```mermaid
 flowchart TD
     A[2_Computing Systems] --> B[Key Concepts]
@@ -956,6 +953,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Abstraction and decomposition principles guide how computing systems are designed and organised.

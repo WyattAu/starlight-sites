@@ -376,6 +376,7 @@ Returning a function parameter, or by certain compiler flags. Always write code 
 If NRVO fails, which means ensuring your move constructor is correct (or your copy constructor, as
 A fallback).
 :::
+
 ## See Also
 
 - [Value Taxonomy](1_value_taxonomy)
@@ -453,6 +454,7 @@ Extension**.
 The prvalue is passed through an intermediate function or stored in a member, lifetime extension
 Does **not** propagate.
 :::
+
 ```cpp
 #include <iostream>
 

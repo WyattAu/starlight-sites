@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[01 Poisson And Geometric Distributions] --> B[Key Concepts]
@@ -55,6 +54,7 @@ And how to carry out hypothesis testing with discrete distributions. The geometr
 Two common conventions for the support: $r = 1, 2, 3, \ldots$ (number of trials) or
 $r = 0, 1, 2, \ldots$ (number of failures). AQA uses $r = 1, 2, \ldots$.
 :::
+
 <hr />
 
 ## 1. The Poisson Distribution
@@ -265,6 +265,7 @@ $$
 :::note
 You were starting fresh. The process "forgets" its history.
 :::
+
 ### 2.5 Cumulative distribution function
 
 $$P(X \leq r) = 1 - q^r = 1 - (1-p)^r$$
@@ -321,6 +322,7 @@ Before applying the Poisson distribution, verify:
 :::caution
 $np > 5$ and $n(1-p) > 5$.
 :::
+
 <hr />
 
 ## Problems

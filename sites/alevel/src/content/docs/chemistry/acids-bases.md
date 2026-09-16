@@ -1267,7 +1267,6 @@ self-marking and building a personal test matrix.
 
 **Acids and bases are like opposite personalities, one gives protons, the other accepts them, creating balance.**
 
-
 ```mermaid
 flowchart TD
     A[Acids Bases] --> B[Key Concepts]
@@ -1299,6 +1298,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Chemistry](../chemistry)

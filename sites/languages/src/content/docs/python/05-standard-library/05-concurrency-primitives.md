@@ -95,6 +95,7 @@ r.join()  # Wait for regular thread
 :::caution
 Locks, close files, or flush buffers. Use them only for non-critical background tasks.
 :::
+
 ## Lock and RLock
 
 ### Lock (Mutex)
@@ -112,8 +113,8 @@ def increment(n):
             counter += 1
 
 threads = [
-    threading.Thread(target=increment, args=(100000)),
-    threading.Thread(target=increment, args=(100000)),
+    threading.Thread(target=increment, args=(100000,)),
+    threading.Thread(target=increment, args=(100000,)),
 ]
 
 for t in threads:
@@ -156,6 +157,7 @@ outer()  # Works fine, RLock allows same thread to re-acquire
 :::caution
 thread must call `release()` the same number of times it called `acquire()`.
 :::
+
 ## Semaphore, Event, Condition, Barrier
 
 ### Semaphore
@@ -173,7 +175,7 @@ def access_resource(thread_id):
         time.sleep(2)
     print(f"Thread {thread_id} released")
 
-threads = [threading.Thread(target=access_resource, args=(i)) for i in range(6)]
+threads = [threading.Thread(target=access_resource, args=(i,)) for i in range(6)]
 for t in threads:
     t.start()
 for t in threads:
@@ -197,8 +199,8 @@ def setter():
     print("Setting event")
     event.set()
 
-w1 = threading.Thread(target=waiter, args=("W1"))
-w2 = threading.Thread(target=waiter, args=("W2"))
+w1 = threading.Thread(target=waiter, args=("W1",))
+w2 = threading.Thread(target=waiter, args=("W2",))
 s = threading.Thread(target=setter)
 
 w1.start()
@@ -264,7 +266,7 @@ def phase(thread_id):
     barrier.wait()
     print(f"Thread {thread_id} done")
 
-threads = [threading.Thread(target=phase, args=(i)) for i in range(3)]
+threads = [threading.Thread(target=phase, args=(i,)) for i in range(3)]
 for t in threads:
     t.start()
 for t in threads:
@@ -294,6 +296,7 @@ if __name__ == "__main__":
 Parent process memory (copy-on-write). On Windows, it uses `spawn()`Which re-imports the module.
 Always protect entry points with `if __name__ == "__main__"` to avoid infinite recursion on Windows.
 :::
+
 ### Process
 
 ```python
@@ -310,7 +313,7 @@ if __name__ == "__main__":
     start = time.time()
     processes = []
     for i in range(4):
-        p = multiprocessing.Process(target=compute, args=(10_000_000))
+        p = multiprocessing.Process(target=compute, args=(10_000_000,))
         processes.append(p)
         p.start()
     for p in processes:
@@ -389,8 +392,8 @@ def receiver(conn):
 
 if __name__ == "__main__":
     parent_conn, child_conn = multiprocessing.Pipe()
-    p1 = multiprocessing.Process(target=sender, args=(child_conn))
-    p2 = multiprocessing.Process(target=receiver, args=(parent_conn))
+    p1 = multiprocessing.Process(target=sender, args=(child_conn,))
+    p2 = multiprocessing.Process(target=receiver, args=(parent_conn,))
 
     p1.start()
     p2.start()
@@ -401,6 +404,7 @@ if __name__ == "__main__":
 :::note
 Communication by default. For one-way communication, use `duplex=False`.
 :::
+
 ## concurrent.futures
 
 `concurrent.futures` provides a high-level interface for asynchronously executing callables using
@@ -713,7 +717,7 @@ def consumer(worker_id):
             break
 
 producers = [threading.Thread(target=producer) for _ in range(2)]
-consumers = [threading.Thread(target=consumer, args=(i)) for i in range(5)]
+consumers = [threading.Thread(target=consumer, args=(i,)) for i in range(5)]
 
 for p in producers: p.start()
 time.sleep(0.1)
@@ -905,14 +909,13 @@ def noisy_worker(thread_id):
     for _ in range(100):
         print(f"[{thread_id}] message")
 
-threads = [threading.Thread(target=noisy_worker, args=(i)) for i in range(5)]
+threads = [threading.Thread(target=noisy_worker, args=(i,)) for i in range(5)]
 for t in threads: t.start()
 for t in threads: t.join()
 # Output may have garbled lines like: [1] mes[2] message
 ```
 
 Use a `threading.Lock()` around `print()` calls or use the `logging` module which is thread-safe.
-
 
 ```mermaid
 flowchart TD
@@ -945,6 +948,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Serialization](./04-serialization): Shows how to serialize and deserialize data for inter-process communication in multiprocessing scenarios.

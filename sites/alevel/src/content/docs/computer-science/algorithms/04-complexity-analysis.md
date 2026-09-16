@@ -94,6 +94,7 @@ Focuses on time complexity. **CIE (9618)** covers Big-O, Big-Theta, and Big-Omeg
 Space complexity analysis. **OCR (A)** requires Big-O notation; may require comparison of algorithm
 Performance. **Edexcel** covers time and space complexity with Big-O notation.
 :::
+
 <hr />
 
 ## 3. Best, Average, and Worst Case
@@ -120,6 +121,7 @@ Where $P(I)$ is the probability of input $I$.
 :::caution
 Not be uniformly distributed. Always state the distribution assumption when discussing average case.
 :::
+
 <hr />
 
 ## 4. Analyzing Recursive Algorithms
@@ -835,7 +837,6 @@ Complexity for large inputs.
 
 4. Confusing an algorithm with a program. An algorithm is a step-by-step procedure, not its
    implementation in code.
-
 
 ```mermaid
 flowchart TD

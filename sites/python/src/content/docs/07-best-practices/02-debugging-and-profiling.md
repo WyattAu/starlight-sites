@@ -905,7 +905,7 @@ def long_running_task():
             current_mb = memory_usage(-1, interval=0.1, timeout=0.001)[0]
             print(f"Iteration {i}: {current_mb:.1f} MiB")
 
-mem_history = memory_usage((long_running_task), interval=0.5)
+mem_history = memory_usage((long_running_task,), interval=0.5)
 ```
 
 `memory_usage()` returns a list of RSS measurements sampled at the specified interval (in seconds).
@@ -1276,7 +1276,6 @@ That are immediately discarded (because the log level is likely INFO or above in
 `%s` version defers formatting to the logging framework, which only interpolates the string if the
 Message passes the log level filter. This is not a micro-optimization, it is the difference between
 A function that runs in 1 second and one that runs in 10 seconds.
-
 
 ```mermaid
 flowchart TD

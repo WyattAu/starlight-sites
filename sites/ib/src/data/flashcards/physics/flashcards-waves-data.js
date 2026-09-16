@@ -61,7 +61,7 @@ export const flashcard2 = [
   {
     id: 'ib-phys-waves-009',
     front: 'State the conditions for constructive and destructive interference.',
-    back: 'Two coherent sources needed (same frequency, constant phase relationship). Constructive interference: path difference = nλ (n = 0, 1, 2...). Waves arrive in phase, amplitudes add. Bright fringe (light) or loud sound. Destructive interference: path difference = (n + ½)λ (n = 0, 1, 2...). Waves arrive out of phase (half wavelength), amplitudes cancel. Dark fringe or silence.',
+    back: 'Two coherent sources needed (same frequency, constant phase relationship). Constructive interference: path difference = nλ (n = 0, 1, 2, ...). Waves arrive in phase, amplitudes add. Bright fringe (light) or loud sound. Destructive interference: path difference = (n + ½)λ (n = 0, 1, 2, ...). Waves arrive out of phase (half wavelength), amplitudes cancel. Dark fringe or silence.',
     tags: ['waves', 'interference'],
     difficulty: 'medium',
   },
@@ -116,7 +116,7 @@ export const flashcard4 = [
   {
     id: 'ib-phys-waves-016',
     front: 'Explain the single-slit diffraction pattern.',
-    back: 'When light passes through a single slit of width a, a diffraction pattern forms: bright central maximum (twice as wide as secondary maxima) with alternating dark and bright fringes on either side. Dark fringes (minima): a sin θ = nλ (n = ±1, ±2...). Central maximum width = 2λD/a. Secondary maxima are much dimmer. Narrower slit → wider pattern. Diffraction explains the limits of resolution.',
+    back: 'When light passes through a single slit of width a, a diffraction pattern forms: bright central maximum (twice as wide as secondary maxima) with alternating dark and bright fringes on either side. Dark fringes (minima): a sin θ = nλ (n = ±1, ±2, ...). Central maximum width = 2λD/a. Secondary maxima are much dimmer. Narrower slit → wider pattern. Diffraction explains the limits of resolution.',
     tags: ['waves', 'diffraction'],
     difficulty: 'hard',
   },
@@ -130,7 +130,7 @@ export const flashcard4 = [
   {
     id: 'ib-phys-waves-018',
     front: 'Compare the first harmonic of open and closed pipes.',
-    back: 'Open pipe (both ends open): antinodes at both ends. λ₁ = 2L, f₁ = v/(2L). All harmonics present: n = 1, 2, 3... Closed pipe (one end open, one closed): antinode at open end, node at closed end. λ₁ = 4L, f₁ = v/(4L). Only ODD harmonics present: n = 1, 3, 5... A closed pipe produces a fundamental frequency one octave lower than an open pipe of the same length.',
+    back: 'Open pipe (both ends open): antinodes at both ends. λ₁ = 2L, f₁ = v/(2L). All harmonics present: n = 1, 2, 3, ... Closed pipe (one end open, one closed): antinode at open end, node at closed end. λ₁ = 4L, f₁ = v/(4L). Only ODD harmonics present: n = 1, 3, 5, ... A closed pipe produces a fundamental frequency one octave lower than an open pipe of the same length.',
     tags: ['waves', 'standing waves', 'sound'],
     difficulty: 'hard',
   },

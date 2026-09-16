@@ -386,7 +386,7 @@ Is the error truly exceptional (should rarely happen)?
 +-- No  --> Is C++23 available?
             +-- Yes --> std::expected<T, E>
             +-- No  --> Multiple error types?
-                        +-- Yes --> std::variant<T, E1, E2...>
+                        +-- Yes --> std::variant<T, E1, E2, ...>
                         +-- No  --> std::optional<T> or error codes
 ```
 
@@ -461,8 +461,8 @@ struct Widget {
 
     Widget()
         : a{"a"}
-b{"b"}
-c{"c"}
+        , b{"b"}
+        , c{"c"}
     {
         std::cout << "  Widget fully constructed\n";
         throw std::runtime_error{"construction failed"};
@@ -491,6 +491,7 @@ int main() {
 :::tip
 Error codes cannot be returned from a constructor.
 :::
+
 ### The "Destructor Must Never Throw" Rule
 
 If a destructor throws during stack unwinding (i.e., while another exception is already in flight),
@@ -589,6 +590,7 @@ int main() {
 Make the destructor `noexcept` and ensure cleanup operations are themselves `noexcept`. Use RAII
 Wrappers that handle errors internally rather than propagating them from destructors.
 :::
+
 ### Summary
 
 | Mechanism       | C++ Version | Error Richness    | Overhead (no error) | Composability            |

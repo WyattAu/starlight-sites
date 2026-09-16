@@ -60,6 +60,7 @@ def approx_equal(a, b, epsilon=1e-9):
     return abs(a - b) < epsilon
 ```
 :::
+
 <hr />
 
 ## 2. Pointers and References
@@ -134,6 +135,7 @@ Codes (e.g., UTF-8 or UTF-16).
 :::caution
 `s[0] = 'x'` raises a `TypeError`. Use `s = 'x' + s[1:]` to create a new string.
 :::
+
 ### String Immutability
 
 Strings are immutable for several reasons:
@@ -150,6 +152,7 @@ Capacity calculations. **OCR (A)** requires character encoding, image representa
 Representation with specific detail on compression (lossy vs lossless). **Edexcel** covers data
 Representation fundamentals including number systems and character encoding.
 :::
+
 <hr />
 
 ## 4. File Handling
@@ -553,7 +556,6 @@ For revision on number representation, see
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

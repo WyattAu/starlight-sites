@@ -37,13 +37,13 @@ Any other TU.
 
 - _Enforcement:_ Linker Error ("Multiple Definition" / "Symbol already defined").
 
-:::danger
-<strong>The ODR Violation Trap If two different TUs define the same class/struct `Foo` (e.g., via</strong>
-
-Copy-pasted headers), but the definitions differ (e.g., different member order or types), the linker
-**may not detect this**. This is **Undefined Behavior**. The runtime may crash or corrupt memory
-Because code in TU 'A' assumes one memory layout while code in TU 'B' assumes another.
+:::danger[The ODR Violation Trap]
+If two different TUs define the same class/struct `Foo` (e.g., via copy-pasted headers), but the
+definitions differ (e.g., different member order or types), the linker **may not detect this**. This
+is **Undefined Behavior**. The runtime may crash or corrupt memory, because code in TU `A` assumes
+one memory layout while code in TU `B` assumes another.
 :::
+
 ## Linkage Types
 
 Linkage describes how a name interacts across translation unit boundaries.
@@ -506,7 +506,6 @@ Behavior** and manifests as corrupted floating-point values or subtle numerical 
 - **Not checking symbol tables after refactoring.** After removing a function or renaming a class,
   check `nm -C libmylib.so` to verify that stale symbols are not being exported. Stale exports
   increase binary size and can confuse consumers who accidentally use deprecated symbols.
-
 
 ```mermaid
 flowchart TD

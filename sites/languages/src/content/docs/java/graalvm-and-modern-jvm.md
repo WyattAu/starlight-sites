@@ -49,6 +49,7 @@ As a standard JDK component. You no longer need a separate GraalVM distribution 
 Images. The Graal JIT compiler has been available as an experimental tier-4 compiler in OpenJDK
 Since JDK 10.
 :::
+
 ## The Graal Compiler
 
 ### Graal JIT vs C2 JIT
@@ -289,6 +290,7 @@ native-image --initialize-at-build-time=com.example.Config \
              -jar myapp.jar
 ```
 :::
+
 ### Conditional Feature Analysis
 
 GraalVM native image supports conditional features through feature classes that hook into the build
@@ -372,6 +374,7 @@ Release. For I/O-bound server applications, native image now matches or exceeds 
 For most practical workloads. The gap is most noticeable in CPU-bound, long-running processes where
 HotSpot's adaptive optimization has time to produce highly specialized code.
 :::
+
 ## Foreign Function and Memory API (Project Panama)
 
 ### Overview
@@ -554,7 +557,7 @@ public class LibCurlExample {
             FunctionDescriptor.of(ValueLayout.ADDRESS)
         );
 
-        // curl_easy_setopt(CURL*, CURLoption...) -> CURLcode
+        // curl_easy_setopt(CURL*, CURLoption, ...) -> CURLcode
         MethodHandle curlEasySetopt = LINKER.downcallHandle(
             CURL.lookup("curl_easy_setopt").orElseThrow(),
             FunctionDescriptor.of(
@@ -611,6 +614,7 @@ If misused. These methods perform bounds checks and null checks, but cannot prev
 Behavior (e.g., passing a freed segment to a native function). The `@Restricted` annotation serves
 As a warning: you are leaving the safety guarantees of the Java platform.
 :::
+
 ## Foreign Memory Access
 
 ### Arena-Based Memory Management
@@ -806,6 +810,7 @@ public class OffHeapRingBuffer {
 Closed in the constructor, making the segment inaccessible. In practice, the arena must outlive the
 Data structure. Use a shared arena or hold a reference to the arena as a field.
 :::
+
 ## Vector API (Incubator)
 
 ### Overview
@@ -902,6 +907,7 @@ Architectures, with the JIT compiler selecting the appropriate instructions at r
 :::note
 Still in incubator status as of JDK 23. The API surface may change before final standardization.
 :::
+
 ## Virtual Threads (Project Loom)
 
 Virtual threads are covered in depth in
@@ -1024,6 +1030,7 @@ Considered equal.
 :::note
 Before finalization. The examples below reflect the current preview state.
 :::
+
 ### Identity Classes vs Value Classes
 
 | Property            | Identity Class (today) | Value Class (Valhalla)       |
@@ -1136,6 +1143,7 @@ native-image --version
 GraalVM distribution. Install a JDK that includes native-image support (look for "GraalVM" in the
 Vendor name when using SDKMAN, or download from the GraalVM GitHub releases).
 :::
+
 ### Building a Native Image: Step by Step
 
 **Step 1**: Create a simple Java application:
@@ -1453,7 +1461,6 @@ Need additional configuration.
 
 - Native image requires Visual Studio Build Tools with the C++ workload.
 - The FFM API uses `LoadLibrary`/`GetProcAddress`. DLLs must be on `PATH`.
-
 
 ```mermaid
 flowchart TD

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Equations and Inequalities"
 description: "Study notes for Equations and Inequalities | A-Level with worked examples and practice questions."
 ---------- | ------- | ------------------------------------------- | | AQA | Paper 1 | Simultaneous equations, inequalities | |"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/maths/pure-mathematics"}, {"name": "03 Equations And Inequalities", "url": "https://alevel.wyattau.com/maths/pure-mathematics/03-equations-and-inequalities"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -175,6 +173,7 @@ Inequality.
 :::caution
 multiplier before Proceeding.
 :::
+
 ### 3.2 Quadratic Inequalities
 
 See [Quadratics](02-quadratics), Section 6.
@@ -360,6 +359,7 @@ So $f(x) = (x - 1)(2x - 1)(x + 2)$.
 :::tip
 $f(x) = x^n + \cdots + c$The possible rational roots are $\pm 1, \pm 2, \ldots$ (factors of $c$).
 :::
+
 <hr />
 
 ## 7. Systems of Three Linear Equations
@@ -512,6 +512,7 @@ No real solution from this case.
 :::caution
 preserves the Direction since $a \lt b$ implies $a^2 \lt b^2$ for $a, b \geq 0$.
 :::
+
 <hr />
 
 ## 9. Absolute Value (Modulus) Properties
@@ -964,6 +965,7 @@ and Inequalities with other pure mathematics topics to test synthesis under exam
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Common Pitfalls
 
 1. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator

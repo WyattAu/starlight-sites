@@ -25,6 +25,7 @@ Projectile motion in two dimensions, and the calculus approach to variable accel
 :::note
 the SUVAT equations and basic calculus definitions of velocity and acceleration.
 :::
+
 <hr />
 
 ## 1. Equations of Motion (SUVAT) -- Rigorous Derivation
@@ -105,6 +106,7 @@ $$s_{\mathrm{total}} = 36 + 24 = 60\;\mathrm{m}$$
 becomes the initial velocity Of the next**. Forgetting this connection is the most frequent error in
 multi-stage kinematics Problems.
 :::
+
 <hr />
 
 ## 2. Free Fall Under Gravity
@@ -155,6 +157,7 @@ The negative sign confirms downward motion. Speed $= 16.3\;\mathrm{m\,s^{-1}}$ (
 $-2 = 15t - 4.9t^2$Giving $t \approx 3.15\;\mathrm{s}$. This is **not** $2 \times t_{\mathrm{max}}$
 Because the ball was thrown from a height, not from ground level.
 :::
+
 <hr />
 
 ## 3. Projectile Motion
@@ -243,6 +246,7 @@ The ball travels approximately $62.0\;\mathrm{m}$ horizontally.
 trajectory is **not** Symmetric. The time of ascent is less than the time of descent, and the
 landing angle is steeper Than the launch angle.
 :::
+
 <hr />
 
 ## 4. Two-Dimensional Motion with Non-Perpendicular Components
@@ -524,7 +528,6 @@ $\blacksquare$
 ## Intuition
 
 Kinematics is the language of motion stripped bare of its causes. Imagine filming a car and then rewinding the tape: the SUVAT equations let you predict every frame of that journey without asking why the engine is running. Projectile motion is a beautiful illusion of independence: a ball thrown sideways falls at the same rate as one dropped straight down, because horizontal and vertical worlds do not interfere. The calculus approach reveals that acceleration is velocity's rate of change, just as velocity is position's rate of change, forming a chain of derivatives that connects position to motion to the forces that cause it.
-
 
 ```mermaid
 flowchart TD

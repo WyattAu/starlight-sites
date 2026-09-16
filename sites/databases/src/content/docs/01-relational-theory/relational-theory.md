@@ -10,7 +10,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -90,6 +89,7 @@ CREATE DOMAIN email_domain AS VARCHAR(255)
   CHECK (VALUE ~ '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$');
 ```
 :::
+
 :::tip
 Attach `CHECK` constraints directly to columns. Using domains centralises validation logic and
 Prevents inconsistency across tables.
@@ -202,6 +202,7 @@ Combines every tuple from one relation with every tuple from another. Denoted $R
 SELECT * FROM Employee CROSS JOIN Department;
 ```
 :::
+
 :::caution
 With millions of rows, an accidental Cartesian product (missing JOIN condition) will produce
 Trillions of rows and exhaust memory.
@@ -394,6 +395,7 @@ Satisfies 1NF:
 | 1          | Chemistry  |
 ```
 :::
+
 :::note
 To query individual elements or enforce referential integrity on array elements, model them as
 Separate rows.
@@ -460,6 +462,7 @@ Fix: split into:
   StudentInstructor(student, instructor)
 ```
 :::
+
 :::caution
 Relation from the decomposed relations without losing information). In such cases, staying in 3NF is
 The practical compromise.
@@ -531,6 +534,7 @@ Denormalised:
   - More storage consumed
 ```
 :::
+
 :::tip
 Denormalise specific bottlenecks. Premature denormalisation creates maintenance burden that is far
 More expensive than the joins it eliminates.

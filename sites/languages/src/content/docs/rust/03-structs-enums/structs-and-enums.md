@@ -670,6 +670,7 @@ struct User {
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
 :::
+
 :::caution
 Struct, the derived ordering changes. Deriving `Ord` on a struct with a `f64` field will fail
 Because `f64` does not implement `Ord`. Use a custom implementation or wrap the field in the
@@ -924,7 +925,6 @@ let opt: Option<i32> = res.ok(); // Some(42)
     are not types, they are constructors. Use the full enum type and pattern match inside the
     function body, or use a newtype wrapper around the variant.
 
-
 ```mermaid
 flowchart TD
     A[Structs And Enums] --> B[Key Concepts]
@@ -956,6 +956,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Structs group related data under named fields, while enums represent variants where exactly one variant is active at a time. Rust enums are algebraic data types: each variant can carry different data, enabling pattern matching that the compiler verifies for exhaustiveness. Structs are value types that move on assignment unless they implement Copy. Methods are defined in impl blocks, and associated functions (like constructors) are called with :: syntax.

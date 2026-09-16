@@ -245,6 +245,7 @@ The load factor is $\alpha = n / m$ where $n$ is the number of elements and $m$ 
 | Successful search (average)       | $O(1 + \alpha / 2)$ comparisons |
 | With chaining and $\alpha \lt{1}$ | $O(1)$ amortised per operation  |
 :::
+
 :::caution
 $\alpha \le 0.75$ (the default for Java `HashMap` and Python `dict`). When $\alpha$ exceeds the
 Threshold, resize the table and rehash all elements.
@@ -599,6 +600,7 @@ $k$ keys, the expected number of keys remapped when one node is added or removed
 Regardless of the total number of nodes. This is far better than modulo hashing, which remaps
 $k \cdot (1 - 1/(n+1)) \approx k$ keys when going from $n$ to $n+1$ nodes.
 :::
+
 :::tip
 Databases. The standard number of virtual nodes is 150, which gives less than 10% imbalance with
 High probability.
@@ -671,6 +673,7 @@ $$m = -\frac{n \ln p}{(\ln 2)^2} \quad k = \frac{m}{n} \ln 2$$
 | 0.1%                | 14.4             | 10             |
 | 0.01%               | 19.2             | 14             |
 :::
+
 :::caution
 Affecting other elements. If you need deletion, use a counting bloom filter (each position stores a
 Counter instead of a single bit) or a cuckoo filter.
@@ -821,6 +824,7 @@ class HyperLogLog:
 | Examples             | FNV, MurmurHash, xxHash, CityHash | SHA-256, SHA-3, BLAKE3                                   |
 | Use case             | Hash tables, fingerprints         | Passwords, signatures, TLS                               |
 :::
+
 :::note
 Are necessary only when an adversary can choose inputs (e.g., hash DoS attacks). Python switched
 From a simple hash to SipHash (a cryptographic hash) in Python 3.4+ specifically to prevent hash
@@ -937,7 +941,6 @@ Filter correctly and monitor the actual false positive rate in production.
 Use a bloom filter for membership testing (set membership), count-min sketch for frequency
 Estimation, and HyperLogLog for cardinality estimation. Each is optimised for a different query type
 And cannot substitute for another.
-
 
 ```mermaid
 flowchart TD

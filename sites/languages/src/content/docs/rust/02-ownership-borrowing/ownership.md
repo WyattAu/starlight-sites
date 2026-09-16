@@ -14,10 +14,10 @@ description: "Rust' s memory management rests on three rules enforced at compile
 }
 </script>
 
-:::note
-<strong>Historical Context</strong>
+:::note[Historical Context]
 Rust's ownership system was designed by Graydon Hoare at Mozilla Research (announced 2010, 1.0 in 2015). The key insight, memory safety enforced at compile time without a garbage collector, drew on Cyclone (1998) for region-based memory, MLton for lifetime tracking in functional languages, and Mozilla's own experience with C++ security vulnerabilities. The same affine-type mechanism for resource tracking appears in linear logic (Girard, 1987) and session types (Honda, 1993), connecting Rust's practical design to deep theoretical foundations.
 :::
+
 ## The Ownership Rules
 
 Rust's memory management rests on three rules enforced at compile time:
@@ -403,6 +403,7 @@ let borrow3 = data.borrow_mut();  // OK, all previous borrows dropped
 borrow3.push(4);
 ```
 :::
+
 :::caution
 Immutable borrow is active will panic. This trades compile-time safety for runtime flexibility. Use
 `try_borrow()` and `try_borrow_mut()` to get `Result` instead of panicking.
@@ -458,6 +459,7 @@ impl Counter {
 }
 ```
 :::
+
 :::danger
 Behavior. Only do this if you can prove that mutation is properly synchronized (e.g., via atomics or
 Platform-specific memory barriers).
@@ -995,6 +997,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Rust's ownership system enforces three rules at compile time: each value has exactly one owner, ownership transfers on assignment (move), and you can have either many immutable references or one mutable reference. The borrow checker operates on MIR with zero runtime cost. Move semantics transfer the pointer without copying heap data, while the Copy trait marks types that duplicate on assignment. This eliminates garbage collection overhead while preventing dangling pointers and data races.

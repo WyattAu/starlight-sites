@@ -76,7 +76,7 @@ governed.
 
 Urbanisation rates vary significantly between regions:
 
-| Region            | Urban Population (% , 2023) | Key Features                                                         |
+| Region            | Urban Population (%, 2023) | Key Features                                                         |
 | ----------------- | --------------------------- | -------------------------------------------------------------------- |
 | **North America** | ~83%                        | Highly urbanised; suburban sprawl dominant                           |
 | **Latin America** | ~82%                        | Rapid urbanisation; large informal settlements (favelas)             |
@@ -542,7 +542,6 @@ nights.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Geography", "url": "https://alevel.wyattau.com/geography"}, {"name": "2 Human Geography", "url": "https://alevel.wyattau.com/geography/2-human-geography"}, {"name": "3_contemporary Urban Environments", "url": "https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

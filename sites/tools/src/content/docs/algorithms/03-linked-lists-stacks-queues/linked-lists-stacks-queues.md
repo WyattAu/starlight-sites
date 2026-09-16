@@ -14,10 +14,10 @@ description: "A singly linked list is a sequence of nodes where each node contai
 }
 </script>
 
-:::note
-<strong>Historical Context</strong>
+:::note[Historical Context]
 The linked list was first described by Hans Peter Luhn at IBM (1953). The concept appeared earlier in Konrad Zuse's Plankalkül (1948). Stacks and queues were formalised by Dijkstra in his 1960 ALGOL 60 paper. The AVL tree was invented by Adelson-Velsky and Landis (1962). These structures underpin every standard library. Understanding them at the implementation level separates systems programmers from application programmers.
 :::
+
 ## Intuition
 
 **Building blocks of all data structures:** Linked lists, stacks, and queues are like the atoms of data structures, almost every complex data structure is built from these primitives. Linked lists give dynamic sizing, stacks enforce LIFO order, and queues enforce FIFO order.
@@ -298,6 +298,7 @@ class SkipList:
             update[i].forward[i] = new_node
 ```
 :::
+
 :::note
 Kernel (for process address space management). They are preferred over balanced BSTs in these
 Contexts because they are simpler to implement correctly in concurrent settings, insertion and
@@ -349,7 +350,7 @@ Which can then be evaluated with a simple stack-based algorithm.
 ```python
 def evaluate_expression(expr):
     """
-    Evaluate a simple arithmetic expression with +, -, *, /, ( ).
+    Evaluate a simple arithmetic expression with +, -, *, /, (, ).
     Time: O(n), Space: O(n)
     """
     def precedence(op):
@@ -472,6 +473,7 @@ class CircularQueue:
         return self.count
 ```
 :::
+
 :::note
 Queues, audio playback buffers, log rotation, producer-consumer patterns, and pipe implementations.
 The key advantage is that enqueue and dequeue never require memory allocation or copying, they just
@@ -663,6 +665,7 @@ def sliding_window_maximum(arr, k):
     return result
 ```
 :::
+
 :::note
 Maximum of any future window that includes the current element. Removing them from the deque
 Maintains the invariant that the deque contains a decreasing sequence of values, and the maximum is
@@ -801,7 +804,6 @@ Standard binary heaps do not support efficient decrease-key operations (common i
 Algorithm). The workaround, insert a new entry and ignore stale entries, works but increases the
 Heap size. For algorithms that require frequent decrease-key, a Fibonacci heap provides $O(1)$
 Amortised decrease-key, but has large constant factors and is rarely used in practice.
-
 
 ```mermaid
 flowchart TD

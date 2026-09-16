@@ -28,6 +28,7 @@ From trade and limitations of the comparative advantage model. **Edexcel** empha
 Analysis of trade flows and the UK"s trade relationships. **OCR (A)** covers trade theory alongside
 The impact of MNCs and requires evaluation of trade policies.
 :::
+
 ### 1.1 Absolute vs Comparative Advantage
 
 **Absolute advantage**: a country can produce more of a good with the same resources than another
@@ -98,6 +99,7 @@ Both are strictly better off. $\blacksquare$
 show Specialisation increases world output, (4) show a mutually beneficial exchange rate. Use a
 numerical Example.
 :::
+
 ### 1.3 Limitations of the Ricardian Model
 
 1. **Constant returns to scale**: assumes constant opportunity costs (linear PPF). In reality,
@@ -160,6 +162,7 @@ Buy the same quantity of imports as in 2020.
 abroad), consumers Benefit from lower prices. Conversely, an improvement caused by a fall in export
 volumes (due to Declining competitiveness) may actually reflect economic weakness.
 :::
+
 ## 3. Exchange Rates
 
 :::note
@@ -168,6 +171,7 @@ payments. **Edexcel** emphasises the UK context including Brexit impacts on trad
 **OCR (A)** Links exchange rates to macroeconomic policy objectives and requires evaluation of
 intervention.
 :::
+
 ### 3.1 Definition
 
 The **exchange rate** is the price of one currency in terms of another.
@@ -291,6 +295,7 @@ $$CA \mathrm{ falls initially, then rises above the starting level}$$
 (Marshall-Lerner, CA Improves). Draw the J-curve diagram. State the Marshall-Lerner condition
 explicitly.
 :::
+
 ## 5. Globalisation
 
 ### 5.1 Definition
@@ -372,6 +377,7 @@ War, reshoring) reflects these tensions.
 political freedom, (3) it Is biased toward market activity (excludes subsistence farming, unpaid
 work). Always use multiple Indicators.
 :::
+
 ### 6.2 Barriers to Economic Development
 
 1. **Poverty trap**: low income → low savings → low investment → low growth → low income (vicious
@@ -1188,7 +1194,6 @@ deterioration.
 
 4. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
-
 
 ```mermaid
 flowchart TD

@@ -454,7 +454,7 @@ end
 [1, 2, 3, 4, 5].reduce(0) { |sum, n| sum + n }
 # => 15
 
-[1, 2, 3, 4, 5].reduce(1:*)
+[1, 2, 3, 4, 5].reduce(1, :*)
 # => 120 (product using symbol shorthand)
 
 # group_by -- group by key
@@ -478,8 +478,8 @@ end
 # => [[1,2], [2,3], [3,4]]
 
 # cycle -- repeat endlessly
-[:a:b].cycle.take(6)
-# => [:a:b:a:b:a:b]
+[:a, :b].cycle.take(6)
+# => [:a, :b, :a, :b, :a, :b]
 
 # zip -- combine multiple arrays
 [1, 2, 3].zip([4, 5, 6])
@@ -855,7 +855,7 @@ class ApplicationError < StandardError; end
 
 # Specific exceptions
 class ValidationError < ApplicationError
-  attr_reader :field:value
+  attr_reader :field, :value
 
   def initialize(message = "Validation failed", field: nil, value: nil)
     @field = field
@@ -865,7 +865,7 @@ class ValidationError < ApplicationError
 end
 
 class NotFoundError < ApplicationError
-  attr_reader :resource:id
+  attr_reader :resource, :id
 
   def initialize(message = "Resource not found", resource: nil, id: nil)
     @resource = resource
@@ -1151,7 +1151,6 @@ debug &&= false  # debug is still false, no change
   timeout = ENV.fetch("TIMEOUT", 30).to_i
   mode = ENV.key?("DEBUG") ? :debug : :production
 ```
-
 
 ```mermaid
 flowchart TD

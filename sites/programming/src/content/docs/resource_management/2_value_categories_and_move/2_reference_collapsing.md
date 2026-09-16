@@ -95,6 +95,7 @@ void collapsing_demo() {
 Always produce `T&&`Which cannot accept lvalues. Collapsing allows `T&&` to become `T&` when an
 Lvalue is passed, making perfect forwarding possible.
 :::
+
 ## 4.1 Distinguishing Forwarding References from Rvalue References
 
 The syntax `T&&` has two distinct meanings depending on context:
@@ -166,6 +167,7 @@ void not_forwarding() {
 a forwarding reference, it becomes a plain rvalue reference. The forwarding reference Deduction
 requires that `T` be a freshly deduced, unconstrained type parameter.
 :::
+
 ## 4.3 `std::forward<T>(x)`Perfect Forwarding
 
 `std::forward<T>(x)` casts `x` to `T&&`. Combined with reference collapsing, this preserves the
@@ -284,11 +286,12 @@ Library. Without forwarding references and `std::forward`These functions would b
 Their arguments or require separate overloads for every combination of lvalue/rvalue parameters, a
 Combinatorial explosion.
 :::
+
 ## Intuition
 
-**Reference collapsing is like a Russian nesting doll:** When you have a reference to a reference (`T& &`), the compiler collapses it into a single reference (`T&`). It's like a nesting doll, no matter how many layers you add, the outer shell is still just a doll. The rules are simple: `T& &` → `T&`, `T& &&` → `T&`, `T&& &` → `T&`, `T&& &&` → `T&&`. Only `T&& &&` preserves the rvalue reference, everything else collapses to an lvalue reference.
+**Reference collapsing is like a Russian nesting doll:** When you have a reference to a reference (`T& &`), the compiler collapses it into a single reference (`T&`). It's like a nesting doll, no matter how many layers you add, the outer shell is still just a doll. The rules are simple: `T& &` → `T&``T& &&` → `T&``T&& &` → `T&``T&& &&` → `T&&`. Only `T&& &&` preserves the rvalue reference, everything else collapses to an lvalue reference.
 
-**Why it matters:** Reference collapsing is the mechanism behind `std::forward` and perfect forwarding. When you write `template<typename T> void f(T&& x)`, the `T&&` is a "forwarding reference", it preserves the value category of the argument. If you pass an lvalue, `T` is `T&` and `T&&` collapses to `T&`. If you pass an rvalue, `T` is `T` and `T&&` stays `T&&`. This is how a single template function can forward arguments correctly.
+**Why it matters:** Reference collapsing is the mechanism behind `std::forward` and perfect forwarding. When you write `template<typename T> void f(T&& x)`the `T&&` is a "forwarding reference", it preserves the value category of the argument. If you pass an lvalue, `T` is `T&` and `T&&` collapses to `T&`. If you pass an rvalue, `T` is `T` and `T&&` stays `T&&`. This is how a single template function can forward arguments correctly.
 
 **The key insight:** `T&&` in a template is a forwarding reference, not an rvalue reference, reference collapsing rules make it preserve the value category of the argument.
 
@@ -399,6 +402,7 @@ void range_for_forwarding() {
 To write generic range-based for loops that work with both lvalue and rvalue ranges, and with proxy
 Iterators that return prvalues (like `std::vector<bool>`).
 :::
+
 ## 5.3 `std::forward` Implementation Detail
 
 `std::forward<T>(x)` is implemented as a `static_cast`:
@@ -559,6 +563,7 @@ Stored as references. For safe capture, use `std::make_tuple(std::decay_t&lt;Arg
 Always store by value, or `std::forward_as_tuple(args...)` which explicitly stores references with
 The same lifetime concerns documented.
 :::
+
 ## 5.6 Forwarding in Class Templates
 
 Forwarding references work in class template constructors, but with a subtlety: the forwarding
@@ -648,7 +653,7 @@ void move_vs_forward() {
     // Forwarding: use std::forward
     auto make_vec = [](auto&&... args) {
         std::vector<std::string> v;
-        (v.emplace_back(std::forward<decltype(args)>(args))...);
+        (v.emplace_back(std::forward<decltype(args)>(args)), ...);
         return v;
     };
 
@@ -694,7 +699,6 @@ Reference collapsing is the rulebook for what happens when you layer references 
    reference type, you return a reference to a parameter, which may dangle if the caller passed a
    temporary. If `T` is a non-reference type, you return an rvalue reference to a local, which
    always dangles. Return by value instead and let NRVO or move semantics handle it.
-
 
 ```mermaid
 flowchart TD

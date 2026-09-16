@@ -208,6 +208,7 @@ Speed. Uses workshops, focus groups, and iterative user testing.
   appropriate
 - **Edexcel** covers SDLC phases and development methodologies
 :::
+
 <hr />
 
 ## 7. UML Diagrams
@@ -716,7 +717,6 @@ Date.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

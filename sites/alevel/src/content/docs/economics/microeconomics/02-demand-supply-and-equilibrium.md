@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[02 Demand Supply And Equilibrium] --> B[Key Concepts]
@@ -109,6 +108,7 @@ At each price, we add up the quantities demanded by all consumers.
 Demanded" means a _movement along the curve_ due to a price change. These are fundamentally
 Different. Examiners penalise imprecise language.
 :::
+
 ## 2. Supply
 
 ### 2.1 Definition
@@ -185,6 +185,7 @@ Framework:
 3. State the new equilibrium price and quantity
 4. Evaluate: what if both curves shift simultaneously?
 :::
+
 ### 3.2 Price Mechanism (The Invisible Hand)
 
 The price mechanism is the process by which prices adjust to equate demand and supply, thereby

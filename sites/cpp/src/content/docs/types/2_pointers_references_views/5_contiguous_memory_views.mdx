@@ -193,7 +193,7 @@ void send_packet(int fd, std::span<const std::byte> data) \{
     write(fd, data.data(), data.size());
 \}
 
-PacketHeader hdr\{.magic = 0xDEADBEEF.type = 1.flags = 0\};
+PacketHeader hdr\{.magic = 0xDEADBEEF, .type = 1, .flags = 0\};
 send_packet(fd, std::as_bytes(std::span\{&hdr, 1\}));
 ```
 
@@ -555,7 +555,6 @@ Policies.
 **Why it matters:** Contiguous memory views enable efficient algorithms and safe interfaces, especially for string and array processing.
 
 **The key insight:** std::string_view is non-owning, it doesn't manage the memory, so the underlying data must outlive the view.
-
 
 ```mermaid
 flowchart TD

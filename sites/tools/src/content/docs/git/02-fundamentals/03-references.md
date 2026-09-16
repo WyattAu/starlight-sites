@@ -22,7 +22,7 @@ categories:
 
 ## Intuition
 
-**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main`, `HEAD`, and `v1.0` to navigate the commit graph.
+**Name tags for commits:** References are like name tags stuck on specific commits, without them, commits are just anonymous blobs of data identified only by hash. References give you human-friendly names like `main``HEAD`and `v1.0` to navigate the commit graph.
 
 **Why it matters:** Without references, you would need to remember 40-character SHA-1 hashes to do anything in Git. References make the history navigable and enable workflows like feature branches and releases.
 
@@ -242,6 +242,7 @@ $ git push origin :feature-login
 $ git push origin +main:main
 ```
 :::
+
 :::caution
 Based work on the old commits, they will encounter conflicts. Only force push to branches that you
 Exclusively own (feature branches, personal forks). Never force push `main` in a shared repository.

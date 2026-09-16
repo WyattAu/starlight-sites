@@ -1037,6 +1037,7 @@ Is required. Merge sort guarantees $O(n \log n)$ but uses extra space. Quick sor
 Practice but has a worst case of $O(n^2)$. Insertion sort is unbeatable for small or nearly sorted
 Arrays.
 :::
+
 ## Data Structures
 
 ### Arrays
@@ -1972,6 +1973,7 @@ Permutation generation, the naive traveling salesman solution.
 :::caution
 $n \log_2 n \approx 20000000$Which is 20 times larger than $n$.
 :::
+
 ### Space Complexity
 
 Space complexity measures the amount of memory an algorithm uses as a function of the input size.
@@ -2347,6 +2349,7 @@ queue (FIFO) would undo the oldest action first, which is incorrect.
 operations. Ensure preconditions are checked (e.g., do not pop from an empty stack). The choice of
 underlying Data structure (array vs linked list) should be stated and justified.
 :::
+
 ## Problem Set
 
 ### Problem 1: Linear Search Trace

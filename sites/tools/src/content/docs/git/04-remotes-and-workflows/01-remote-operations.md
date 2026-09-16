@@ -125,6 +125,7 @@ $ git remote set-url origin git@github.com:user/repo.git
 | **HTTPS** | `https://github.com/user/repo.git` | Token / password | Public repos, CI/CD, firewalled environments |
 | **SSH**   | `git@github.com:user/repo.git`     | SSH key          | Frequent pushes, personal development        |
 :::
+
 :::tip
 to inject tokens as environment variables). GitHub recommends HTTPS for all new repositories.
 
@@ -218,6 +219,7 @@ gitGraph
     commit id: "E'"
 ```
 :::
+
 :::caution
 those commits to a shared branch. If you have, see the
 [Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing#the-golden-rule-of-rebasing).
@@ -290,6 +292,7 @@ flowchart LR
     style D1 fill:#ffcdd2
 ```
 :::
+
 :::caution
 - **`--force-with-lease`**: Only overwrites if the remote has not changed since your last fetch.
   **Always prefer this over `--force`.**
@@ -459,6 +462,7 @@ each approach.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

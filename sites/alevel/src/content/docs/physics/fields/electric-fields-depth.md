@@ -165,6 +165,7 @@ A practical method uses conducting paper with electrodes painted on:
 :::caution
 only the component Tangent to the surface is zero.
 :::
+
 ## 5. Motion of Charged Particles in Uniform Fields
 
 ### Parabolic Trajectory
@@ -255,6 +256,7 @@ Plates, closer spacing, and lower acceleration voltage.
 (which determines beam speed) with the deflection voltage $V_d$ (which determines deflection). The
 Deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{acc}}$.
 :::
+
 ## 7. Electric Fields of Extended Charge Distributions
 
 ### Field on the Axis of a Charged Ring
@@ -496,7 +498,6 @@ $$F = \frac{8.99 \times 10^9 \times 15 \times 10^{-18}}{0.01} = \frac{134.85 \ti
 The force is attractive (opposite charges).
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

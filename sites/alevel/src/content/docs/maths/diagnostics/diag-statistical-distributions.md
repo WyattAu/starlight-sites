@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Diag Statistical Distributions] --> B[Key Concepts]
@@ -305,7 +304,7 @@ A supermarket claims that exactly 30% of its customers use reusable bags. An env
 believes the true proportion is higher and surveys 20 randomly selected customers. They find that 9
 of the 20 customers use reusable bags.
 
-**(a)** Stating your hypotheses , carry out a hypothesis test at the 5% significance level to
+**(a)** Stating your hypotheses, carry out a hypothesis test at the 5% significance level to
 determine whether there is evidence that the proportion of customers using reusable bags is greater
 than 30%.
 

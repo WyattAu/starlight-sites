@@ -77,7 +77,7 @@ int main() {
 
 **Correct: A** (index 0)
 
-The innermost `x = 30` shadows the outer `x = 20`, which shadows the global `x = 10`. The inner block prints 30. After the block, the local `x = 20` is restored. `::x` explicitly refers to the global variable (10).
+The innermost `x = 30` shadows the outer `x = 20`which shadows the global `x = 10`. The inner block prints 30. After the block, the local `x = 20` is restored. `::x` explicitly refers to the global variable (10).
 
 `easy`1 mark
 
@@ -166,7 +166,7 @@ int main() {
 
 **Correct: B** (index 1)
 
-The reference `a` aliases `x`, so `a = 100` modifies `x` to 100. The pointer `b` points to `y`, so `*b = 200` modifies `y` to 200. Both modifications are visible in `main()`.
+The reference `a` aliases `x`so `a = 100` modifies `x` to 100. The pointer `b` points to `y`so `*b = 200` modifies `y` to 200. Both modifications are visible in `main()`.
 
 `easy`1 mark
 
@@ -223,7 +223,7 @@ int main() {
 
 **Correct: A** (index 0)
 
-Template argument deduction deduces `T` as `int`, `double`, and `char` from the arguments. `maximum(3,7)` returns 7, `maximum(3.5,2.1)` returns 3.5, and `maximum('a','z')` returns 'z'. The `char` is printed as the character 'z'.
+Template argument deduction deduces `T` as `int``double`and `char` from the arguments. `maximum(3,7)` returns 7, `maximum(3.5,2.1)` returns 3.5, and `maximum('a','z')` returns 'z'. The `char` is printed as the character 'z'.
 
 `easy`1 mark
 
@@ -249,7 +249,7 @@ And what is the output of `SQUARE(3 + 1)`?
 
 **Correct: C** (index 2)
 
-The macro performs textual substitution: `SQUARE(3 + 1)` becomes `3 + 1 * 3 + 1 = 3 + 3 + 1 = 7`. Wait: `3 + 1 * 3 + 1 = 3 + 3 + 1 = 7`. Hmm, let me recalculate: `3 + 1 * 3 + 1`by precedence, `1 * 3 = 3`, then `3 + 3 + 1 = 7`. So the answer is B (7). But the intended "gotcha" answer is that it evaluates to `3 + 1 * 3 + 1 = 7` instead of `(3+1)*(3+1) = 16`. The correct answer is B.
+The macro performs textual substitution: `SQUARE(3 + 1)` becomes `3 + 1 * 3 + 1 = 3 + 3 + 1 = 7`. Wait: `3 + 1 * 3 + 1 = 3 + 3 + 1 = 7`. Hmm, let me recalculate: `3 + 1 * 3 + 1`by precedence, `1 * 3 = 3`then `3 + 3 + 1 = 7`. So the answer is B (7). But the intended "gotcha" answer is that it evaluates to `3 + 1 * 3 + 1 = 7` instead of `(3+1)*(3+1) = 16`. The correct answer is B.
 
 `medium`1 mark
 
@@ -639,7 +639,7 @@ Which iterator category supports random access?
 
 **Correct: D** (index 3)
 
-Random access iterators (like those of `std::vector` and `std::deque`) support `it + n`, `it - n`, `it1 - it2`, and `it[n]`allowing jumps to any position in constant time. Bidirectional iterators only support `++` and `--`.
+Random access iterators (like those of `std::vector` and `std::deque`) support `it + n``it - n``it1 - it2`and `it[n]`allowing jumps to any position in constant time. Bidirectional iterators only support `++` and `--`.
 
 `easy`1 mark
 
@@ -749,7 +749,7 @@ int main() {
 
 **Correct: A** (index 0)
 
-`s.replace(1, 3, "i")` replaces 3 characters starting at position 1 ("ell") with "i". Result: `h` + `i` + `o` = `"hio"`. Wait: `s = "hello"`, positions 0–4. `replace(1, 3, "i")` replaces characters at positions 1, 2, 3 ("ell") with "i". Result: `"hio"`. This isn't among the options. The closest is D (`"hil"`) if the replacement is "il". The intended answer is likely A (`"hill"`) if the replace is `replace(1, 3, "i")` on `"hello"` → `"hio"`. Given the options, A is the most likely intended answer if the example was meant to be `replace(1, 2, "i")` on `"hello"` → `"hio"`. The intended answer is A.
+`s.replace(1, 3, "i")` replaces 3 characters starting at position 1 ("ell") with "i". Result: `h` + `i` + `o` = `"hio"`. Wait: `s = "hello"`positions 0–4. `replace(1, 3, "i")` replaces characters at positions 1, 2, 3 ("ell") with "i". Result: `"hio"`. This isn't among the options. The closest is D (`"hil"`) if the replacement is "il". The intended answer is likely A (`"hill"`) if the replace is `replace(1, 3, "i")` on `"hello"` → `"hio"`. Given the options, A is the most likely intended answer if the example was meant to be `replace(1, 2, "i")` on `"hello"` → `"hio"`. The intended answer is A.
 
 `medium`1 mark
 

@@ -105,6 +105,7 @@ single mechanism is Insufficient. A determined attacker who can read memory can 
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
 :::
+
 ### 9.4 Privilege Separation in Practice
 
 Privilege separation divides a program into components running at different privilege levels, limiting
@@ -123,7 +124,7 @@ the damage from any single vulnerability.
 1. Fork a child process before performing any privileged operations.
 2. Drop all capabilities in the parent (monitor) using `prctl(PR_CAP_AMBIENT, PR_CAP_AMBIENT_DROP_ALL)`.
 3. Restrict IPC to a minimal set of verified message types.
-4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve`, `mount`).
+4. Use `seccomp` filters in the monitor to block dangerous syscalls (e.g., `execve``mount`).
 
 **Common privilege separation violations:**
 
@@ -144,7 +145,6 @@ the damage from any single vulnerability.
 | CFI | Validates indirect branch targets | Control-flow hijacking | Overhead; imprecise in some implementations |
 | Privilege separation | Limits damage from compromised components | Full system compromise | Complexity; IPC design errors |
 | Least privilege | Reduces attack surface | Unauthorised access | Requires careful capability analysis |
-
 
 ```mermaid
 flowchart TD

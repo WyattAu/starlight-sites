@@ -285,7 +285,7 @@ Algorithm to compute $F_{min}$:
 ```text
 1. START with F.
 2. DECOMPOSE right sides:
-   Replace each X -> {A₁, A₂..., Aₙ} with X -> A₁, X -> A₂..., X -> Aₙ.
+   Replace each X -> {A₁, A₂, ..., Aₙ} with X -> A₁, X -> A₂, ..., X -> Aₙ.
 3. REMOVE redundant FDs:
    For each FD f in F:
      Temporarily remove f from F.
@@ -339,6 +339,7 @@ Step 3: Remove redundant attributes:
   Final minimal cover: {A -> C, C -> B}
 ```
 :::
+
 :::caution
 This is expected. Different minimal covers may lead to different decompositions, but all are
 Correct.
@@ -380,6 +381,7 @@ Satisfies 1NF:
 | 2          | Bob   | Chemistry|
 ```
 :::
+
 :::note
 1NF. This is a pragmatic extension. Use these types when the array is opaque data that you never
 Need to query or join on individually. If you need to query individual elements or enforce
@@ -396,6 +398,7 @@ A **non-prime attribute** is an attribute that does not belong to any candidate 
 Dependency** exists when a non-prime attribute depends on only a proper subset of a candidate key
 (rather than the entire key).
 :::
+
 :::caution
 Attributes). If every candidate key of $R$ is a single attribute, then $R$ is automatically in 2NF
 Whenever it is in 1NF, because there is no proper subset of a single-attribute key.
@@ -535,6 +538,7 @@ BCNF decomposition:
     This dependency cannot be checked on R1 or R2 alone without joining them.
 ```
 :::
+
 :::caution
 Decomposition is lossless (you can reconstruct the original data) but not dependency-preserving (the
 Constraint that a student has one instructor per course cannot be enforced on either decomposed
@@ -583,6 +587,7 @@ Decomposition:
   EmployeeLanguage(emp_id, language)  -- key: {emp_id, language}
 ```
 :::
+
 :::note
 when a single entity has multiple independent multi-valued attributes. If you see a Table where
 adding a row requires adding $m \times n$ rows (for $m$ values of one attribute and $n$ Values of
@@ -964,6 +969,7 @@ BCNF decomposition:
   But the duplication involves only prime attributes, so it is bounded.
 ```
 :::
+
 :::note
 Decomposition loses dependency preservation. If it does, and the lost dependency is important for
 Data integrity, stay in 3NF. If the lost dependency is trivial or can be enforced through
@@ -1020,6 +1026,7 @@ With surrogate key:
   But you still need UNIQUE(order_id, product_id) to prevent duplicates.
 ```
 :::
+
 :::caution
 Violations (transitive dependencies) and BCNF violations can still occur. You still need to identify
 And model functional dependencies correctly.
@@ -1147,6 +1154,7 @@ REFRESH MATERIALIZED VIEW order_summary;
 | Query speed          | Fewer JOINs, simpler queries, potentially covering indexes                        |
 | Complexity           | More code to maintain, more failure modes to test                                 |
 :::
+
 :::caution
 Mechanism to keep it consistent. If you denormalize, you must have a concrete strategy for
 Consistency: database triggers, application-level event handlers, or periodic reconciliation jobs.

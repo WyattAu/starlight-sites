@@ -75,7 +75,7 @@ Differential Equations
 │   ├── By order
 │   │   ├── First-order: y' = f(x, y)
 │   │   ├── Second-order: y'' = f(x, y, y')
-│   │   └── n-th order: y^(n) = f(x, y..., y^(n-1))
+│   │   └── n-th order: y^(n) = f(x, y, ..., y^(n-1))
 │   ├── By linearity
 │   │   ├── Linear: a_n(x)y^(n) + ... + a_0(x)y = g(x)
 │   │   │   ├── Homogeneous (g = 0)
@@ -129,7 +129,7 @@ $B^2 - 4AC = -4 \lt 0$ (elliptic). $\blacksquare$
 | --- | --- | --- | --- | --- |
 | $y' + 3y = 0$ | 1 | Yes | Yes | Linear, constant coeff. |
 | $y'' + y = \sin t$ | 2 | Yes | No | Linear, constant coeff. |
-| $y' = y^2$ | 1 | No | - | Nonlinear |
+| $y' = y^2$ | 1 | No |, | Nonlinear |
 | $x^2 y'' + xy' + (x^2-n^2)y = 0$ | 2 | Yes | Yes | Bessel's equation |
 | $u_t = \alpha^2 u_{xx}$ | 2 | Yes | Yes | Heat equation (PDE) |
 
@@ -156,7 +156,6 @@ Differential equations describe how things change. An ODE relates a function to 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -176,7 +175,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 
 ## Advanced Content
 

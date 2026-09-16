@@ -950,6 +950,7 @@ def mos_algorithm(arr, queries):
     return results
 ```
 :::
+
 :::tip
 Blocks, compared to the standard $O((n+q)\sqrt{n})$. The Hilbert curve maps 2D coordinates to 1D in
 A way that preserves locality better than block-based sorting.
@@ -1042,7 +1043,7 @@ applying these mathematical techniques.
 
 ### Example 1: Segment Tree Range Sum Query
 
-**Problem.** Given array `[2, 5, 1, 4, 9, 3]`, build a segment tree and answer the range sum query
+**Problem.** Given array `[2, 5, 1, 4, 9, 3]`build a segment tree and answer the range sum query
 for indices 1 to 4.
 
 **Solution.**

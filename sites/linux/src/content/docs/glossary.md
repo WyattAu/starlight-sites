@@ -31,7 +31,7 @@ sudo apt update
 sudo -u www-data whoami
 ```
 
-**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd`, `nginx`, `systemd`).
+**Daemon**: A background process that runs without user interaction, providing system services (e.g., `sshd``nginx``systemd`).
 
 **Service**: A daemon managed by the init system (systemd), which can be started, stopped, and enabled at boot.
 

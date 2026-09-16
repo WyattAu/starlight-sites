@@ -348,7 +348,7 @@ for score in scores.values {
 
 // Transforming
 let names = Array(scores.keys.sorted())       // ["Alice", "Bob", "Dave"]
-let doubledScores = scores.mapValues { $0 * 2 }  // ["Alice": 196, "Bob": 174...]
+let doubledScores = scores.mapValues { $0 * 2 }  // ["Alice": 196, "Bob": 174, ...]
 
 // Merging
 var defaults = ["theme": "light", "fontSize": 14]
@@ -469,7 +469,7 @@ for i in stride(from: 0, to: 10, by: 2) {
 }
 
 for i in stride(from: 10, through: 0, by: -1) {
-    print(i)              // 10, 9..., 0
+    print(i)              // 10, 9, ..., 0
 }
 
 // While loop
@@ -679,7 +679,6 @@ let handler: CompletionHandler = { result in
     }
 }
 ```
-
 
 ```mermaid
 flowchart TD

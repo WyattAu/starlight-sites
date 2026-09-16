@@ -109,6 +109,7 @@ It spills onto the motherboard contacts or pins. It also reacts with aluminum, c
 Only use liquid metal on nickel-plated or copper surfaces. Apply a conformal coating (nail polish)
 Around the IHS to contain spills.
 :::
+
 ### When to Repaste
 
 - **Every 2–3 years** for standard paste under moderate loads.
@@ -258,6 +259,7 @@ AIO coolers have finite lifespans. Common failure modes:
 :::caution
 A threshold ( 1000 RPM). A dead pump with active fans will cook a CPU in minutes under Load.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1025,7 +1027,6 @@ Modern CPUs can spike to high temperatures (20–30 °C above average) for brief
 Load transitions. These spikes are caused by the CPU ramping from a low P-state to a high P-state
 Before the cooling system can respond. They are normal and not cause for concern as long as average
 Temperatures remain within safe limits.
-
 
 ```mermaid
 flowchart TD

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Data Representation"
 description: "Study notes for Data Representation | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | --------------------------------------------- | | AQA | Paper 1 | Measures of location and spread, coding"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "01 Data Representation", "url": "https://alevel.wyattau.com/maths/statistics/01-data-representation"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -45,6 +43,7 @@ flowchart TD
 :::note
 Population variance formula (dividing by $n$). Edexcel and OCR use $n-1$ for sample data.
 :::
+
 <hr />
 
 ## 1. Measures of Central Tendency
@@ -124,6 +123,7 @@ $$
 :::tip
 Remember: "mean of squares minus square of mean."
 :::
+
 ### 2.3 Sample variance
 
 For sample data, the **unbiased estimator** of the population variance is
@@ -191,6 +191,7 @@ Hence $\sigma_y = \sigma_x/|c|$. $\blacksquare$
 Find the mean and standard deviation, then decode back. Remember: adding a constant shifts the mean
 But does not affect the spread.
 :::
+
 <hr />
 
 ## 5. Frequency Tables and Grouped Data
@@ -237,6 +238,7 @@ $$S_2 = \frac{Q_3 + Q_1 - 2Q_2}{Q_3 - Q_1}$$
 :::note
 calculated. Both Give the same sign of skewness but may differ in magnitude.
 :::
+
 ### 6.3 Relationship between measures of central tendency
 
 For a unimodal distribution:
@@ -281,6 +283,7 @@ An observation is flagged as an outlier if $|M_i| \gt 3.5$.
 $0.75$-quantile of the Standard normal distribution, so the modified z-score is on a comparable
 scale to the standard Z-score for normally distributed data.
 :::
+
 ### 7.3 Choosing an outlier method
 
 | Method             | Strengths                                         | Limitations                             |
@@ -306,6 +309,7 @@ To construct a box plot:
 :::caution
 the minimum and Maximum of the dataset.
 :::
+
 ### 8.2 Interpreting skewness from a box plot
 
 Compare the distances from $Q_2$ to each quartile:
@@ -328,6 +332,7 @@ When two or more box plots are drawn on the same scale, compare:
 :::caution
 addressing how the spreads Compare.
 :::
+
 <hr />
 
 ## 9. Comparing Distributions
@@ -363,6 +368,7 @@ Of each group. To compare two distributions:
 :::tip
 cumulative Frequency for a given $x$-value.
 :::
+
 ### 9.3 Structuring a comparison
 
 When asked to compare two distributions in an exam, structure your response around four points:
@@ -422,6 +428,7 @@ $$Q_2 = 20 + \left(23.5 - 17\right) \cdot \frac{10}{18} = 20 + 6.5 \cdot \frac{1
 :::note
 the class.
 :::
+
 <hr />
 
 ## Problem Set
@@ -824,6 +831,7 @@ Representation with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both

@@ -155,6 +155,7 @@ the vasodilation and increased permeability characteristic of inflammation. Anti
 later by B cells as part of the adaptive immune response and are not involved in the initial
 inflammatory cascade.
 :::
+
 ### 2.4 The Complement System
 
 The complement system is a collection of approximately 20 plasma proteins that enhance (complement)
@@ -246,6 +247,7 @@ re-exposure to the same antigen.
 They do not. T killer cells induce apoptosis in infected host cells. Phagocytosis is carried out by
 phagocytes (neutrophils and macrophages), not by T killer cells.
 :::
+
 ## 4. Adaptive Immunity: The Humoral Response
 
 ### 4.1 B Lymphocytes and Antibodies
@@ -370,6 +372,7 @@ kill pathogens directly. They mark pathogens for destruction by other mechanisms
 complement lysis, neutralisation of toxins). The antibody itself is a signalling molecule that tags
 the pathogen and triggers other components of the immune system.
 :::
+
 ## 6. Autoimmune Diseases
 
 ### 6.1 Mechanism of Autoimmunity
@@ -465,6 +468,7 @@ immune system to produce antibodies and memory cells. Passive immunity (e.g., ma
 crossing the placenta, or injection of pre-made antibodies) provides temporary protection but does
 not create memory cells.
 :::
+
 ## 8. ELISA (Enzyme-Linked Immunosorbent Assay)
 
 ### 8.1 Principle
@@ -519,6 +523,7 @@ antibody, not by the antigen itself. Students sometimes write that "the antigen 
 enzyme on the secondary antibody converts the substrate to a coloured product; the intensity of
 colour indicates how much antigen-antibody complex is present.
 :::
+
 ## 9. Monoclonal Antibodies
 
 ### 9.1 Production of Monoclonal Antibodies (Hybridoma Method)
@@ -1253,6 +1258,7 @@ cells) with antigens (molecules that trigger an immune response). Remember: **An
 by the immune system in response to an **Antigen**. Antibodies are Y-shaped proteins; antigens can
 be proteins, polysaccharides, or other molecules on the surface of pathogens.
 :::
+
 ## 26. The Inflammatory Response: Detailed Mechanism
 
 ### 26.1 Steps of Inflammation
@@ -1463,12 +1469,14 @@ $$\text{Herd immunity threshold} = 1 - \frac{1}{R_0}$$
 | Seasonal influenza | 1.5--3 | 33--67%                 |
 | Diphtheria         | 4--6   | 75--83%                 |
 :::
+
 :::caution
 immunity reduces the probability of transmission but does not eliminate risk entirely. Non-immune
 individuals (too young for vaccination, immunocompromised, vaccine contraindications) can still be
 infected if exposed. Additionally, immunity can wane over time, and new variants may partially
 escape existing immunity.
 :::
+
 ### 26.4 Antigenic Variation and Vaccine Challenges
 
 Some pathogens evade immune memory through antigenic variation:
@@ -1903,6 +1911,7 @@ the body's own tissues:
 2 diabetes is metabolic (insulin resistance). Do not confuse them. Also, coeliac disease is an
 autoimmune condition triggered by gluten, not a food allergy.
 :::
+
 ## 37. Vaccination in Detail
 
 ### 37.1 Types of Vaccines
@@ -2325,7 +2334,6 @@ inactive form.
 ## Intuition
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
-
 
 ```mermaid
 flowchart TD

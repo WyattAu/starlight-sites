@@ -1,6 +1,5 @@
 ---
 
-
 template: splash
 date: 2026-07-23T22:34:31+01:00
 title: "Programming Notes"
@@ -19,8 +18,6 @@ hero:
       icon: right-arrow
       variant: primary
 ---
-
-
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
@@ -165,7 +162,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 
 **Forgetting rule of zero/three/five:** If your class manages a resource, define or delete the copy constructor, copy assignment, move constructor, and move assignment. If it does not, the compiler-generated defaults may silently cause double-free bugs or shallow copies of owned resources.
 
-**Using raw `new`/`delete` instead of RAII:** Manual memory management with `new` and `delete` is error-prone, exceptions, early returns, and forgotten cleanup cause leaks and dangling pointers. Use smart pointers (`std::unique_ptr`, `std::shared_ptr`) and stack allocation to bind resource lifetime to scope.
+**Using raw `new`/`delete` instead of RAII:** Manual memory management with `new` and `delete` is error-prone, exceptions, early returns, and forgotten cleanup cause leaks and dangling pointers. Use smart pointers (`std::unique_ptr``std::shared_ptr`) and stack allocation to bind resource lifetime to scope.
 
 **Assuming `std::move` moves data:** `std::move` casts an lvalue to an rvalue reference, it does not itself move anything. The actual move happens in the move constructor or move assignment operator of the target type. Misusing `std::move` on objects after they have been moved-from leads to undefined or surprising behaviour.
 

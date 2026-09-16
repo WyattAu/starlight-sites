@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Diag Hypothesis Testing] --> B[Key Concepts]
@@ -647,7 +646,7 @@ A psychologist investigates the relationship between hours of sleep ($S$) and re
 ms) for a random sample of 15 adults. She calculates the product moment correlation coefficient to
 be $r = -0.52$.
 
-**(a)** Stating your hypotheses , test at the 5% significance level whether there is evidence of a
+**(a)** Stating your hypotheses, test at the 5% significance level whether there is evidence of a
 negative correlation between hours of sleep and reaction time. The critical value for a one-tailed
 test with $n = 15$ at the 5% level is $-0.441$.
 

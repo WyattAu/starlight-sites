@@ -187,6 +187,7 @@ Use `@TestInstance(Lifecycle.PER_CLASS)` to create a single instance shared acro
 This allows non-static `@BeforeAll`/`@AfterAll` methods, but tests share instance state, which can
 Cause interference.
 :::
+
 ### Parameterized Tests
 
 Parameterized tests run the same test logic with different inputs, eliminating test method
@@ -412,6 +413,7 @@ System.out.println(spyList.get(0));   // "real" (real method called)
 Calls the real method to get the return value before stubbing, which can have side effects or throw
 Exceptions.
 :::
+
 ## Integration Testing
 
 ### Spring Boot Test Context
@@ -918,7 +920,6 @@ void shouldWriteToTempFile() throws IOException {
     // tempDir is automatically cleaned up after the test
 }
 ```
-
 
 ```mermaid
 flowchart TD

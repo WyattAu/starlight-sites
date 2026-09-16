@@ -300,6 +300,7 @@ def unbounded_knapsack(weights, values, capacity):
     return dp[capacity]
 ```
 :::
+
 :::note
 - **0/1 knapsack:** iterate $w$ from $W$ down to $weight_i$ (reverse), prevents using the same item
   twice in one iteration
@@ -940,7 +941,6 @@ DP is applicable when a problem has these characteristics:
 - The problem requires an exact sequence, not just a value (reconstruction may be needed)
 - Greedy works (the greedy choice property holds)
 - The problem is on a tree/graph with no obvious DP state (may need tree/graph-specific techniques)
-
 
 ```mermaid
 flowchart TD

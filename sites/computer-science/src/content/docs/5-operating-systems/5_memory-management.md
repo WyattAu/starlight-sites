@@ -17,7 +17,6 @@ description: "Memory divided into fixed-size partitions at boot. Internal fragme
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[5_Memory Management] --> B[Key Concepts]
@@ -392,6 +391,7 @@ Just that page.
 - `fork()` becomes nearly $O(1)$ instead of $O(n)$ where $n$ is the number of pages.
 - If the child immediately calls `exec()`No copies are ever made.
 :::
+
 ## Cross-References
 
 - [Process Management](./2_process_management) -- Each process has its own address space managed by the operating system's memory management subsystem.

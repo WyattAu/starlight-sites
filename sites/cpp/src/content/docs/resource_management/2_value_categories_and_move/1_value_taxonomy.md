@@ -82,6 +82,7 @@ Are materialized, which enabled guaranteed copy elision [N4950 S8.4.4].
 Whether temporary lifetime extension applies. Understanding value categories is essential to
 Understanding why move semantics work.
 :::
+
 ## 2.1 lvalue
 
 An expression is an lvalue if it [N4950 S7.2.1]:
@@ -187,6 +188,7 @@ With reference qualifiers preserved, which is how the `static_assert` tests abov
 Extra parentheses, `decltype(e)` strips references. This distinction is critical when writing type
 Traits or SFINAE constraints.
 :::
+
 ## See Also
 
 - [Reference Collapsing and Forwarding References](2_reference_collapsing)

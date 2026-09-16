@@ -134,6 +134,7 @@ writes the reference after constructing the object, the JIT compiler may reorder
 `holder` before the writes to the object's fields during construction. This is not theoretical -- it
 has been observed in practice on x86, ARM, and every major architecture.
 :::
+
 ## Threads
 
 ### Thread Creation: Runnable and Callable
@@ -234,6 +235,7 @@ CPU core" and "ready to execute but waiting for CPU time." The JVM delegates sch
 operating system, and the OS distinguishes between these two conditions (running vs. Runnable in the
 OS run queue). From the JVM's perspective, both are `RUNNABLE`.
 :::
+
 ## Synchronized
 
 ### Intrinsic Locks (Monitors)
@@ -355,6 +357,7 @@ public class BoundedBuffer<V> {
 called. The condition must be re-checked after every wakeup. This is not a theoretical concern; it
 is mandated by the POSIX specification and the JLS.
 :::
+
 ## Volatile
 
 The `volatile` keyword provides a lighter-weight synchronization mechanism than `synchronized`. A
@@ -477,6 +480,7 @@ for every submitted task when the pool is saturated, which means a sudden burst 
 creates 100,000 OS threads and almost certainly crashes the JVM with an
 `OutOfMemoryError: unable to create new native thread`. Always use a bounded pool.
 :::
+
 ### ThreadPoolExecutor: The Complete Picture
 
 `Executors` factory methods are thin wrappers around `ThreadPoolExecutor`. Understanding the
@@ -678,6 +682,7 @@ reflects the state of the map at some point during or since the creation of the 
 never throw `ConcurrentModificationException` and is guaranteed to see each element at most once,
 but it may miss elements that were added after the iterator was created.
 :::
+
 ### CopyOnWriteArrayList
 
 `CopyOnWriteArrayList` creates a new copy of the underlying array on every write operation. Reads
@@ -835,6 +840,7 @@ triggers a cache coherence protocol invalidation on the cache line holding the a
 which can cause severe performance degradation. In extreme cases, a lock-based approach can
 outperform lock-free CAS.
 :::
+
 ## Explicit Locks
 
 ### ReentrantLock
@@ -925,6 +931,7 @@ the read lock cannot acquire the write lock (it will deadlock). A thread holding
 acquire the read lock (downgrade), but a thread holding the read lock cannot upgrade to the write
 lock.
 :::
+
 ### StampedLock
 
 `StampedLock`Introduced in JDK 8, provides an optimistic read mode that does not block writers. It
@@ -967,6 +974,7 @@ public class StampedLockCache<K, V> {
 will cause an `IllegalMonitorStateException`. Additionally, `StampedLock` does not support
 `Condition` variables.
 :::
+
 ## Synchronizers
 
 ### Semaphore
@@ -1015,6 +1023,7 @@ System.out.println("All services initialized");
 :::note
 reusable version, use `CyclicBarrier`.
 :::
+
 ### CyclicBarrier
 
 A `CyclicBarrier` allows a set of threads to all wait for each other to reach a common barrier
@@ -1041,6 +1050,7 @@ for (int i = 0; i < 4; i++) {
 **broken** and all other waiting threads receive a `BrokenBarrierException`. The barrier must be
 explicitly reset via `barrier.reset()` before it can be used again.
 :::
+
 ## Virtual Threads (Java 21+)
 
 ### Why Virtual Threads Change Everything
@@ -1220,6 +1230,7 @@ structure (the scope is lexically scoped via try-with-resources).
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Classes and Objects](../03-object-oriented/01-classes) -- Synchronized methods and blocks use object monitors to control concurrent access.

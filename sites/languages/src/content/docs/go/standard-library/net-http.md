@@ -48,7 +48,7 @@ func main() {
 }
 ```
 
-- The second argument to `ListenAndServe` is an `http.Handler`. When `nil`, the default
+- The second argument to `ListenAndServe` is an `http.Handler`. When `nil`the default
   `http.DefaultServeMux` is used.
 - `ListenAndServe` blocks until an error occurs (e.g., port already in use).
 - The address string uses the form `host:port` (`":8080"` binds to all interfaces).
@@ -197,7 +197,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-`http.Error` sets `Content-Type: text/plain; charset=utf-8`, the status code, and writes the Message
+`http.Error` sets `Content-Type: text/plain; charset=utf-8`the status code, and writes the Message
 as the body.
 
 ## JSON API
@@ -472,7 +472,7 @@ func main() {
 
 - `http.FileServer` serves files from a directory.
 - `http.StripPrefix` removes the prefix from the request path before passing it to the file server.
-- Without `StripPrefix`, the file server would look for `./assets/static/style.css` instead of
+- Without `StripPrefix`the file server would look for `./assets/static/style.css` instead of
   `./assets/style.css`.
 
 ### Single File
@@ -562,7 +562,7 @@ Downstream operations.
 
 ## Intuition
 
-**HTTP handlers are stateless factory workers:** Each request spawns a goroutine and hands it to a handler, a worker who reads the order (request), assembles the product (response), and throws away the instructions. Middleware is the assembly line: logging wraps the station to record timing, auth wraps it to check credentials, recovery wraps it with a safety net. `http.Handler` is the contract every worker signs, one method, `ServeHTTP`, takes an order and writes a result.
+**HTTP handlers are stateless factory workers:** Each request spawns a goroutine and hands it to a handler, a worker who reads the order (request), assembles the product (response), and throws away the instructions. Middleware is the assembly line: logging wraps the station to record timing, auth wraps it to check credentials, recovery wraps it with a safety net. `http.Handler` is the contract every worker signs, one method, `ServeHTTP`takes an order and writes a result.
 
 **Why it matters:** Go's `net/http` is the standard library's killer feature, a production-grade HTTP server with connection pooling, TLS, graceful shutdown, and HTTP/2, all without external dependencies. Understanding the middleware chain and timeout hierarchy prevents the most common production issues.
 
@@ -580,7 +580,7 @@ Downstream operations.
    as the second argument registers routes on the global `http.DefaultServeMux`. Any package can
    Register routes on it. Use `http.NewServeMux()` to create an isolated router.
 
-4. **No timeouts on the server.** Without `ReadTimeout`, `WriteTimeout`, and `IdleTimeout`, a single
+4. **No timeouts on the server.** Without `ReadTimeout``WriteTimeout`and `IdleTimeout`a single
    Slow client can hold a goroutine forever. Always configure timeouts in production.
 
 5. **Blocking in handlers.** Handlers run in their own goroutines, but blocking calls (e.g.,
@@ -592,7 +592,6 @@ Downstream operations.
 
 7. **Not checking request body errors.** `r.Body` is a stream. If the client disconnects
    mid-request, Reading from `r.Body` returns an error. Always check errors from `r.Body` reads.
-
 
 ```mermaid
 flowchart TD

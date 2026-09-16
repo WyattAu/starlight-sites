@@ -581,7 +581,6 @@ WHERE account_id = 1 AND balance >= 100;
 -- Check result count: 1 = success, 0 = insufficient funds
 ```
 
-
 ```mermaid
 flowchart TD
     A[Locking And Deadlocks] --> B[Key Concepts]
@@ -670,6 +669,7 @@ ROLLBACK TO SAVEPOINT sp1;
 COMMIT;
 ```
 :::
+
 :::caution
 Advisory locks. Advisory locks are always held until the transaction ends or explicitly released,
 Regardless of savepoints.

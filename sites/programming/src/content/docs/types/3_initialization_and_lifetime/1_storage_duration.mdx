@@ -369,7 +369,7 @@ Widget* arr = new Widget[10];
 delete[] arr;  // must use delete[] for arrays
 
 // What delete[] actually does:
-// 1. Calls ~Widget() on arr[9], arr[8]..., arr[0] (reverse order)
+// 1. Calls ~Widget() on arr[9], arr[8], ..., arr[0] (reverse order)
 // 2. Calls operator delete[](arr) to free the memory
 ```
 
@@ -549,7 +549,6 @@ Use the `nothrow` variant when exceptions are undesirable.
   binding
 - **Module 10 (Ownership and RAII)**: RAII pattern for managing dynamic storage duration
 - **Module 13 (Error Handling)**: Exception safety during object construction and destruction
-
 
 ```mermaid
 flowchart TD

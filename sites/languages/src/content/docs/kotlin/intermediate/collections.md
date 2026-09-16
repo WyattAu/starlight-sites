@@ -279,7 +279,7 @@ Processed:
 
 ```kotlin
 list.asSequence().filter { ... }.map { ... }.take(5)
-// Processes: element 1 (filter -> map), element 2... until 5 collected
+// Processes: element 1 (filter -> map), element 2, ... until 5 collected
 ```
 
 ### When to Use Sequences
@@ -293,7 +293,7 @@ list.asSequence().filter { ... }.map { ... }.take(5)
 ```kotlin
 val seq1 = listOf(1, 2, 3).asSequence()
 val seq2 = sequenceOf(1, 2, 3)
-val seq3 = generateSequence(1) { it * 2 }  // 1, 2, 4, 8, 16... (lazy, infinite)
+val seq3 = generateSequence(1) { it * 2 }  // 1, 2, 4, 8, 16, ... (lazy, infinite)
 val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..99
 ```
 
@@ -313,7 +313,6 @@ val seq4 = generateSequence(seed = 0) { if (it < 100) it + 1 else null }  // 0..
 ## Intuition
 
 Collections are containers for groups of related data. Lists store ordered sequences, sets enforce uniqueness, and maps store key-value pairs. Kotlin's collection hierarchy separates read-only from mutable interfaces, making it clear at the type level whether a collection can be modified. Transformation operations like map, filter, and fold let you express data pipelines declaratively, treating collections as streams to be shaped rather than loops to be managed.
-
 
 ```mermaid
 flowchart TD

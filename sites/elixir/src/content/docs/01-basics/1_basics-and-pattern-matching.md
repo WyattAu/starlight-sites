@@ -11,7 +11,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -230,8 +229,8 @@ iex> [0 | [1, 2, 3]]
 [0, 1, 2, 3]
 
 # Lists can contain mixed types
-iex> [1, "two":three, [4]]
-[1, "two":three, [4]]
+iex> [1, "two", :three, [4]]
+[1, "two", :three, [4]]
 
 # List functions
 iex> Enum.each([1, 2, 3], fn x -> IO.puts(x) end)
@@ -277,14 +276,14 @@ are commonly used for returning multiple values and for tagged tuples (`{:ok, va
 ```elixir
 iex> {:ok, 42}
 {:ok, 42}
-iex> {:error:not_found}
-{:error:not_found}
-iex> elem({:a:b:c}, 0)
+iex> {:error, :not_found}
+{:error, :not_found}
+iex> elem({:a, :b, :c}, 0)
 :a
-iex> elem({:a:b:c}, 1)
+iex> elem({:a, :b, :c}, 1)
 :b
-iex> put_elem({:a:b:c}, 1:x)
-{:a:x:c}
+iex> put_elem({:a, :b, :c}, 1, :x)
+{:a, :x, :c}
 iex> tuple_size({1, 2, 3})
 3
 
@@ -321,7 +320,7 @@ iex> m[:missing]
 nil
 
 # Map updates (creates a new map)
-iex> Map.put(m:age, 31)
+iex> Map.put(m, :age, 31)
 %{name: "Alice", age: 31}
 iex> %{m | age: 31}
 %{name: "Alice", age: 31}
@@ -329,22 +328,22 @@ iex> %{m | age: 31}
 
 # Map functions
 iex> Map.keys(%{a: 1, b: 2})
-[:a:b]
+[:a, :b]
 iex> Map.values(%{a: 1, b: 2})
 [1, 2]
-iex> Map.has_key?(%{a: 1}:a)
+iex> Map.has_key?(%{a: 1}, :a)
 true
-iex> Map.delete(%{a: 1, b: 2}:a)
+iex> Map.delete(%{a: 1, b: 2}, :a)
 %{b: 2}
 iex> Map.merge(%{a: 1}, %{b: 2})
 %{a: 1, b: 2}
-iex> Map.get(%{a: 1}:a:default)
+iex> Map.get(%{a: 1}, :a, :default)
 1
-iex> Map.get(%{a: 1}:b:default)
+iex> Map.get(%{a: 1}, :b, :default)
 :default
 iex> Map.new([{:a, 1}, {:b, 2}])
 %{a: 1, b: 2}
-iex> Map.update(%{a: 1}:a, 0, &(&1 + 10))
+iex> Map.update(%{a: 1}, :a, 0, &(&1 + 10))
 %{a: 11}
 ```
 
@@ -358,23 +357,23 @@ iex> [name: "Alice", age: 30]
 [name: "Alice", age: 30]
 iex> is_list([name: "Alice"])
 true
-iex> Keyword.get([name: "Alice", age: 30]:name)
+iex> Keyword.get([name: "Alice", age: 30], :name)
 "Alice"
-iex> Keyword.put([name: "Alice"]:age, 30)
+iex> Keyword.put([name: "Alice"], :age, 30)
 [name: "Alice", age: 30]
-iex> Keyword.has_key?([name: "Alice"]:name)
+iex> Keyword.has_key?([name: "Alice"], :name)
 true
-iex> Keyword.delete([name: "Alice", age: 30]:age)
+iex> Keyword.delete([name: "Alice", age: 30], :age)
 [name: "Alice"]
 iex> Keyword.values([name: "Alice", age: 30])
 ["Alice", 30]
 iex> Keyword.keys([name: "Alice", age: 30])
-[:name:age]
+[:name, :age]
 
 # Duplicate keys
 iex> kw = [a: 1, a: 2, a: 3]
 [a: 1, a: 2, a: 3]
-iex> Keyword.get_values(kw:a)
+iex> Keyword.get_values(kw, :a)
 [1, 2, 3]
 
 # Pattern matching on keyword lists
@@ -424,7 +423,7 @@ iex> pid = self()
 #PID<0.123.0>
 iex> is_pid(pid)
 true
-iex> send(pid:hello)
+iex> send(pid, :hello)
 :hello
 
 # Spawning a process returns its PID
@@ -582,13 +581,13 @@ defmodule Example do
   def process({:error, _} = err), do: err
 
   # guard with multiple conditions
-  def safe_divide(_num, denom) when denom == 0, do: {:error:division_by_zero}
+  def safe_divide(_num, denom) when denom == 0, do: {:error, :division_by_zero}
   def safe_divide(num, denom), do: {:ok, num / denom}
 
   # in guard (membership check)
-  def handle_status(status) when status in [:ok:success:complete], do: :done
-  def handle_status(status) when status in [:error:failed], do: :failed
-  def handle_status(status) when status in [:pending:waiting], do: :waiting
+  def handle_status(status) when status in [:ok, :success, :complete], do: :done
+  def handle_status(status) when status in [:error, :failed], do: :failed
+  def handle_status(status) when status in [:pending, :waiting], do: :waiting
 end
 ```
 
@@ -671,8 +670,8 @@ with {:ok, user} <- fetch_user(id),
      {:ok, profile} <- fetch_profile(user) do
   %{user: user, posts: posts, profile: profile}
 else
-  {:error:not_found} -> {:error:user_not_found}
-  {:error, _reason} -> {:error:fetch_failed}
+  {:error, :not_found} -> {:error, :user_not_found}
+  {:error, _reason} -> {:error, :fetch_failed}
   error -> {:error, error}
 end
 
@@ -683,7 +682,7 @@ with {:ok, user} <- fetch_user(id),
      count > 0 do
   {:ok, %{user: user, post_count: count}}
 else
-  _ -> {:error:no_posts}
+  _ -> {:error, :no_posts}
 end
 ```
 
@@ -799,7 +798,7 @@ Creates a list of strings:
 ["apple", "banana", "cherry"]
 
 ~w(apple banana cherry)a
-[:apple:banana:cherry]   # 'a' modifier: atoms
+[:apple, :banana, :cherry]   # 'a' modifier: atoms
 
 ~w(1 2 3)c
 [1, 2, 3]                    # 'c' modifier: charlist
@@ -1012,7 +1011,6 @@ Understanding immutability's performance characteristics:
 3. **Undo/redo**: Keep old versions of data for free
 4. **Caching**: Results of pure functions can be safely cached
 5. **Testing**: No setup/teardown needed for state mutation
-
 
 ```mermaid
 flowchart TD

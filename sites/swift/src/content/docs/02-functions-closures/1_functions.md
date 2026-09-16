@@ -186,7 +186,7 @@ let reversed = names.sorted(by: { (a: String, b: String) -> Bool in
 // Implicit returns from single-expression closures
 let sorted = names.sorted(by: { a, b in a > b })
 
-// Shorthand argument names ($0, $1...)
+// Shorthand argument names ($0, $1, ...)
 let shortest = names.sorted(by: { $0.count < $1.count })
 
 // Operator methods as closures
@@ -838,7 +838,6 @@ emitter.emit("login", "Bob")
 ```
 
 **Explanation:** The generic `EventType` parameter allows the emitter to be keyed by any hashable type (strings, enums, etc.). Each handler is stored with a unique string ID for later removal. The internal storage uses `(Any) -> Void` with type casting, providing type safety at the public API boundary while maintaining flexibility internally.
-
 
 ```mermaid
 flowchart TD

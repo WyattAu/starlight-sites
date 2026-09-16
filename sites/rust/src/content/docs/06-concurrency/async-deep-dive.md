@@ -129,7 +129,7 @@ impl<'a> Future for FetchDataFuture<'a> {
                         Poll::Pending => return Poll::Pending,
                     }
                 }
-                State2 { future.. } => {
+                State2 { future, .. } => {
                     match Pin::new(future).poll(cx) {
                         Poll::Ready(Ok(body)) => {
                             *self = Resolved;

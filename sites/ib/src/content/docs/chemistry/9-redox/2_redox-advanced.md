@@ -84,8 +84,7 @@ $$
 E_{\mathrm{cell}}^\circ = E_{\mathrm{cathode}}^\circ - E_{\mathrm{anode}}^\circ
 $$
 
-:::note
-<strong>Example, Daniell Cell</strong>
+:::note[Example, Daniell Cell]
 $$
 \mathrm{Zn} \mid \mathrm{Zn}^{2+} \parallel \mathrm{Cu}^{2+} \mid \mathrm{Cu}
 $$
@@ -163,8 +162,8 @@ $$
 E_{\mathrm{cell}}^\circ = \frac`\{RT}``\{nF}`\ln K = \frac{0.0592}{n}\log K
 $$
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 For the Daniell cell: $E_{\mathrm{cell}}^\circ = 1.10\mathrm{ V}$, $n = 2$.
 
 $$
@@ -218,8 +217,8 @@ Where:
 **Second law**: The masses of different substances produced by the same charge are proportional to
 Their equivalent masses ($M/n$).
 :::
-:::note
-<strong>Example</strong>
+
+:::note[Example]
 Calculate the mass of copper deposited when a current of $2.00\mathrm{ A}$ is passed through
 $\mathrm{CuSO}_4$ solution for $30.0$ minutes.
 
@@ -259,8 +258,9 @@ $$
 | Halogen (Cl$_2$Br$_2$I$_2$) | If halide ions present (except F$^-$) |
 | Oxygen                      | Otherwise (from water oxidation)      |
 :::
+
 :::note
-<strong>Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes</strong>
+Example, Electrolysis of $\mathrm{CuSO}_4$(aq) with inert electrodes
 Cathode: $\mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}$ ($E^\circ = +0.34\mathrm{ V}$More positive than
 Water's $-0.83\mathrm{ V}$)
 
@@ -273,8 +273,8 @@ The solution becomes acidic as $\mathrm{H}^+$ accumulates at the anode.
 
 No water present, so only the ions from the salt are discharged.
 :::
-:::note
-<strong>Example, Molten $\mathrm{NaCl}$</strong>
+
+:::note[Example, Molten $\mathrm{NaCl}$]
 Cathode: $\mathrm{Na}^+ + e^- \to \mathrm{Na}(l)$
 
 Anode: $2\mathrm{Cl}^- \to \mathrm{Cl}_2(g) + 2e^-$
@@ -1009,7 +1009,6 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
   [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
 - **Acids, bases, and pH** → Review
   [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
-
 
 ```mermaid
 flowchart TD

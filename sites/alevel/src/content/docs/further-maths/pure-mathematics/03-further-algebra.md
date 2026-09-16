@@ -360,6 +360,7 @@ $$= \frac{(k+1)^2[k^2 + 4(k+1)]}{4} = \frac{(k+1)^2(k+2)^2}{4} = \left[\frac{(k+
 :::note
 Differences. AQA covers summation in the context of mathematical induction.
 :::
+
 <hr />
 
 ## 7. Summary of Key Results
@@ -792,7 +793,6 @@ Similarly: $y = \dfrac{5}{3}$ and $z = \dfrac{1}{6}$.
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Further Maths", "url": "https://alevel.wyattau.com/further-maths"}, {"name": "Pure Mathematics", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics"}, {"name": "03 Further Algebra", "url": "https://alevel.wyattau.com/further-maths/pure-mathematics/03-further-algebra"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD

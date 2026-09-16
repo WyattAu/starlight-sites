@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -130,7 +129,7 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 **Futures** represent a pending result. `async/await` provides synchronous-looking syntax for asynchronous operations. The `await` keyword pauses execution until the Future completes. `try/catch` handles errors in async functions.
 
-**Streams** deliver asynchronous sequences of values. A Stream can be listened to with `.listen()`. Stream operators (`map`, `filter`, `transform`) process events. Streams are used for real-time data: WebSocket messages, sensor readings, and user input.
+**Streams** deliver asynchronous sequences of values. A Stream can be listened to with `.listen()`. Stream operators (`map``filter``transform`) process events. Streams are used for real-time data: WebSocket messages, sensor readings, and user input.
 
 **Isolates** provide concurrent execution without shared memory. Each isolate has its own memory and event loop. Communication between isolates uses message passing. Isolates prevent data races and enable parallel computation on multiple cores.
 
@@ -174,7 +173,7 @@ Flutter's widget system is the foundation of every UI. Widgets are divided into 
 
 **StatelessWidget** is immutable. It takes configuration through its constructor and returns a widget tree in `build()`. Use StatelessWidget for UI that does not change, labels, icons, and decorative elements.
 
-**StatefulWidget** has mutable state managed by a `State` object. The `setState()` method triggers a rebuild. The lifecycle includes `initState()`, `build()`, `dispose()`, and `didUpdateWidget()`. Use StatefulWidget for UI that responds to user input, data changes, or animations.
+**StatefulWidget** has mutable state managed by a `State` object. The `setState()` method triggers a rebuild. The lifecycle includes `initState()``build()``dispose()`and `didUpdateWidget()`. Use StatefulWidget for UI that responds to user input, data changes, or animations.
 
 **Layout widgets** control how children are positioned. `Row` and `Column` arrange children horizontally and vertically. `Stack` layers children on top of each other. `Flex` provides flexible layout with expanded and flexible widgets.
 

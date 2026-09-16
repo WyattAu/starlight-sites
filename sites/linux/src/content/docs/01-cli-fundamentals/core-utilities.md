@@ -393,6 +393,7 @@ find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
 | `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
 | `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
 :::
+
 :::caution
 Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
 Handle these cases correctly.
@@ -586,6 +587,7 @@ rsync -av --partial --progress /source/large_file /dest/
 rsync -av --bwlimit=1000 /source/ user@host:/dest/
 ```
 :::
+
 :::tip
 `/source` means "source directory itself". The difference is whether the source directory name is
 Created in the destination.
@@ -668,6 +670,7 @@ chmod +t /tmp
 chmod 4755 /usr/local/bin/custom_tool
 ```
 :::
+
 :::caution
 Can be used for privilege escalation. Audit SUID files regularly:
 

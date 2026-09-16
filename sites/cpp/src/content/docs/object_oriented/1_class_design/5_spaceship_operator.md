@@ -184,6 +184,7 @@ int main() {
 Comparison. For performance-critical code, implement a locale-aware character-by-character
 Comparison that avoids allocation.
 :::
+
 ## See Also
 
 - [Operator Overloading](./4_operator_overloading)
@@ -296,8 +297,8 @@ struct CaseInsensitiveString {
 
     std::weak_ordering operator<=>(const CaseInsensitiveString& other) const {
         std::string a = data, b = other.data;
-        std::transform(a.begin(), a.end(), a.begin()::tolower);
-        std::transform(b.begin(), b.end(), b.begin()::tolower);
+        std::transform(a.begin(), a.end(), a.begin(), ::tolower);
+        std::transform(b.begin(), b.end(), b.begin(), ::tolower);
         if (a < b) return std::weak_ordering::less;
         if (a > b) return std::weak_ordering::greater;
         return std::weak_ordering::equivalent;
@@ -538,7 +539,6 @@ The spaceship operator <=> is a three-way comparison that returns a category tel
 - **Forgetting `<compare>` header.** `std::strong_ordering``std::weak_ordering`And
   `std::partial_ordering` are defined in `<compare>`. Forgetting to include it causes compilation
   errors.
-
 
 ```mermaid
 flowchart TD

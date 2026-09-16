@@ -124,6 +124,7 @@ sorted.sort_by(|a, b| a.total_cmp(b));
 // [1.0, 2.0, inf, NaN]
 ```
 :::
+
 ## Boolean Type
 
 `bool` is one byte, not one bit. This is because every byte in memory must be addressable, and a
@@ -155,6 +156,7 @@ assert_eq!(std::mem::size_of::<char>(), 4);
 Multiple `char` values. For text processing, work with `&str` slices and the `unicode-segmentation`
 Crate.
 :::
+
 ### `char` vs `u8`
 
 A `u8` holds a byte value (0–255). A `char` holds a Unicode scalar value (0–1,114,111, excluding
@@ -589,6 +591,7 @@ fn increment() {
 :::caution
 Requires `unsafe` blocks to access. Prefer `static` with `Mutex``AtomicUsize`Or `OnceLock` Instead.
 :::
+
 ## Type Aliases
 
 Type aliases create an alias for an existing type. They do not create a new type, the alias is
@@ -663,7 +666,7 @@ Rust supports destructuring for tuples, arrays, structs, and enums:
 let (a, b, c) = (1, 2.0, "three");
 
 // Array destructuring
-let [first, second..] = [1, 2, 3, 4, 5];
+let [first, second, ..] = [1, 2, 3, 4, 5];
 
 // Struct destructuring
 struct Point { x: f64, y: f64 }
@@ -674,7 +677,7 @@ let Point { x, y } = p;
 let Point { x: a, y: b } = p;
 
 // Struct destructuring with ignore
-let Point { x.. } = p;
+let Point { x, .. } = p;
 
 // Enum destructuring
 enum Shape {
@@ -740,6 +743,7 @@ let z: i8 = 128i32 as i8;       // -128 (wraps)
 Float-to-integer casts saturates: NaN and out-of-range values become 0 (for unsigned) or the minimum
 Value (for signed). This behavior is documented in the reference but surprises people coming from C.
 :::
+
 ### Safe Conversions with `TryFrom`/`TryInto`
 
 For fallible conversions that return `Result`:

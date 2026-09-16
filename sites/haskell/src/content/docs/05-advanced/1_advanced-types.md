@@ -472,7 +472,7 @@ IO :: * -> *
 
 -- Kind * -> * -> *: type constructors taking two arguments
 Either :: * -> * -> *
-() :: * -> * -> *
+(,) :: * -> * -> *
 Map :: * -> * -> *
 
 -- With DataKinds, data constructors become kinds
@@ -641,7 +641,7 @@ main = putStrLn $(
 -- Lenses via Template Haskell (lens package)
 data Person = Person
   { _name :: String
-_age  :: Int
+  , _age  :: Int
   }
 
 -- This generates name, age lenses
@@ -662,7 +662,6 @@ _age  :: Int
 6. **Keep type-level programming simple**: complex type-level code is hard to debug and understand.
 7. **Document kind signatures** when working with DataKinds.
 8. **Use Template Haskell sparingly**: it can make code harder to read and debug.
-
 
 ```mermaid
 flowchart TD

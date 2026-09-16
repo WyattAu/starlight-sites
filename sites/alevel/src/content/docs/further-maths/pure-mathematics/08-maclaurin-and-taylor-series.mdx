@@ -11,7 +11,6 @@ categories:
 
 ---
 
-
 import DesmosGraph from "@components/DesmosGraph";
 
 ## Intuition
@@ -36,11 +35,12 @@ Adjust the parameters in the graph above to explore the relationships between va
 | CIE     | P2      | Maclaurin series; expansion of compound functions; range of validity           |
 
 :::note
-<strong>All boards require the standard Maclaurin series. Edexcel and CIE additionally require</strong>
+All boards require the standard Maclaurin series. Edexcel and CIE additionally require
 
 Taylor series about $x = a$. The formula booklet lists the standard Maclaurin series, you must be
 Able to derive them and apply them.
 :::
+
 <hr />
 
 ## 1. Maclaurin Series
@@ -334,8 +334,7 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 
 ## 6. Key Results and Pitfalls
 
-:::caution
-<strong>**Common errors:**</strong>
+:::caution[**Common errors:**]
 
 1. **Wrong coefficients.** The Maclaurin coefficient of $x^n$ is $\dfrac{f^{(n)}(0)}{n!}$Not
    $f^{(n)}(0)$. Always divide by the factorial.
@@ -350,8 +349,8 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 4. **Sign errors in alternating series.** $\sin x$ and $\cos x$ have alternating signs:
    $\sin x = x - \dfrac{x^3}{6} + \cdots$ (not $x + \dfrac{x^3}{6} + \cdots$).
 :::
-:::tip
-<strong>**Exam strategy:**</strong>
+
+:::tip[**Exam strategy:**]
 
 - Memorise the six standard series. Derive others from them by substitution and algebra.
 - For compound functions ($e^{x^2}\sin x$), multiply series term by term and collect like powers.
@@ -359,6 +358,7 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 - To find a Maclaurin series efficiently, compute successive derivatives at $x = 0$ and look for the
   pattern.
 :::
+
 <hr />
 
 ## Problems
@@ -1161,7 +1161,6 @@ So $\displaystyle\sum_{n=1}^{\infty} n x^n = \frac{x}{(1-x)^2}$.
 At $x = 1/2$: $S = \dfrac{1/2}{(1/2)^2} = \dfrac{1/2}{1/4} = 2$. $\blacksquare$
 
 </details>
-
 
 ```mermaid
 flowchart TD

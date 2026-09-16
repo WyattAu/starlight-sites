@@ -362,6 +362,7 @@ fn reader() {
 }
 ```
 :::
+
 :::caution
 Where one thread's write must be visible to another thread's read. Use `Release`/`Acquire` pairs for
 Correct visibility semantics. Use `SeqCst` when you are unsure, it is the safest but slowest
@@ -662,6 +663,7 @@ async fn main() {
 }
 ```
 :::
+
 :::caution
 Restructure your code to recreate the futures. This is a common source of confusion for developers
 Coming from JavaScript's `Promise.race`.
@@ -819,6 +821,7 @@ async fn main() {
 }
 ```
 :::
+
 :::caution
 Blocks the entire OS thread, preventing other async tasks from running. Use `tokio::sync::Mutex` for
 Async contexts. However, if the critical section is short and does not contain any `.await`A
@@ -855,6 +858,7 @@ unsafe impl Send for MyType {}
 unsafe impl Sync for MyType {}
 ```
 :::
+
 :::danger
 Automatic analysis is wrong and that your type is actually safe to send/share across threads. If
 Your assertion is wrong, you have undefined behavior. Only do this when you can rigorously prove
@@ -902,7 +906,6 @@ Cannot see).
     If you need to retry a branch, you must restructure your code to loop and recreate the future.
     Consider using `tokio::select!` with a loop pattern for repeated selection.
 
-
 ```mermaid
 flowchart TD
     A[Concurrency] --> B[Key Concepts]
@@ -934,6 +937,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 Rust's concurrency safety comes from its ownership system extended to threads. The Send marker trait indicates a type can be transferred between threads, while Sync indicates it can be shared. Channels provide message-passing concurrency, and Arc<Mutex<T>> enables shared mutable state. The compiler prevents data races at compile time without runtime overhead, catching threading bugs that other languages only find during testing.

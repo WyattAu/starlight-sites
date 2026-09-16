@@ -86,11 +86,12 @@ clang++ -std=c++23 -stdlib=libstdc++ main.cpp
 ```
 
 :::caution
-<strong>Library Availability On Linux, using `-stdlib=libc++` requires the installation of</strong>
+Library Availability On Linux, using `-stdlib=libc++` requires the installation of
 
 Specific library packages (e.g., `libc++-dev` and `libc++abi-dev` on Debian/Ubuntu). If these are
 Missing, the linker will fail to find symbols.
 :::
+
 ## Application Binary Interface (ABI)
 
 The Application Binary Interface (ABI) defines how data structures and routines are accessed in
@@ -457,11 +458,12 @@ Stability since GCC 5.1.
 | MSVC 2019 $\leftrightarrow$ MSVC 2022                      |             | MSVC STL aims for ABI stability, but not guaranteed  |
 
 :::caution
-<strong>Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same</strong>
+Mixing Clang and GCC on Linux with the same `libstdc++` is generally safe for the same
 
 C++ standard version. However, some ABI-affecting flags (like `-D_GLIBCXX_USE_CXX11_ABI`) must be
 Consistent across all object files in the final binary.
 :::
+
 ## MSVC ABI Differences
 
 MSVC uses a different C++ ABI from the Itanium ABI used by GCC/Clang. Key differences:
@@ -538,7 +540,7 @@ Providing ABI versioning without API changes:
 
 int main() \{
     // User code sees std::string
-    // But the mangled symbol is std::__cxx11::basic_string<char...>
+    // But the mangled symbol is std::__cxx11::basic_string<char, ...>
     std::string s = "hello";
     std::cout << s << "\n";
 \}
@@ -558,7 +560,7 @@ Inline namespace symbols.
 ```bash
 # Inspect the inline namespaces in libc++
 nm -C /usr/lib/libc++.so | grep basic_string
-# Output includes: std::__1::basic_string<char...>
+# Output includes: std::__1::basic_string<char, ...>
 # The __1 is the inline namespace (ABI version 1)
 ```
 
@@ -571,7 +573,7 @@ Consider the following simplified representation of how `libstdc++` implements t
 namespace std \{
     // Legacy ABI (inline namespace removed, so symbols mangle as std::basic_string)
     inline namespace __cxx11 \{
-        template&lt;typename CharT...&gt;
+        template&lt;typename CharT, ...&gt;
         class basic_string \{ /* SSO implementation */ \};
     \}
 \}
@@ -641,7 +643,7 @@ readelf -d app
 # Show symbol version requirements
 readelf -V app
 
-# Show section headers (verify .text.rodata.data sizes)
+# Show section headers (verify .text, .rodata, .data sizes)
 readelf -S app
 ```
 
@@ -723,7 +725,6 @@ When distributing a C++ library that must work across platforms, verify the foll
 - **[Compiler Explorer (godbolt.org)](https://godbolt.org)** -- Online tool for inspecting compiler
   output (assembly, AST, preprocessed source) across multiple compilers. Essential for verifying
   that compiler flags produce the expected code generation.
-
 
 ```mermaid
 flowchart TD

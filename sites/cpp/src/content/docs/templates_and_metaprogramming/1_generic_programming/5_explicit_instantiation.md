@@ -87,6 +87,7 @@ int main() {
 file. This reduces compilation time and binary size without sacrificing the flexibility of
 Templates.
 :::
+
 ## Formal Semantics: Declaration vs Definition [N4950 §13.9.2]
 
 The C++ Standard distinguishes two forms of explicit instantiation that have fundamentally different
@@ -481,6 +482,7 @@ Instantiation.
 `fmt_inst.h`) or a Silent fallback to implicit instantiation (if the full header is also included).
 Always add both the Declaration and the definition in the same commit.
 :::
+
 ## Library Design Patterns with Explicit Instantiation
 
 ### Pattern 1: The Facade Header
@@ -784,7 +786,6 @@ export template class DataBuffer<double>;
 - [Dependent Names and Two-Phase Lookup](./4_dependent_names)
 - [Template Argument Deduction and CTAD](./2_argument_deduction)
 - [SFINAE and Partial Specialization](./3_specialization)
-
 
 ```mermaid
 flowchart TD

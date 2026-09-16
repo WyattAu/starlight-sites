@@ -574,6 +574,7 @@ echo 1 | sudo tee /sys/devices/system/cpu/smt/active
 Physical core limit before disabling it. Some applications are licensed per logical core and will
 Not work correctly with SMT disabled.
 :::
+
 ### Security Considerations
 
 SMT has been implicated in several side-channel attacks (Spectre variants, MDS, L1TF). For
@@ -749,6 +750,7 @@ Microcode updates can change CPU behavior in ways that affect performance measur
 A new microcode revision can invalidate months of tuning work if it changes turbo behavior or adds
 Mitigation overhead.
 :::
+
 ### Forcing Microcode Reload
 
 On Linux, you can trigger a late microcode reload (without reboot) if you have updated the microcode
@@ -822,6 +824,7 @@ echo $PID > /sys/fs/cgroup/batch_jobs/cgroup.procs
 Cores have identical capabilities. ITD primarily benefits client and workstation platforms with
 Big.LITTLE-style heterogeneous core layouts.
 :::
+
 ## AMD Precision Boost Overdrive 2
 
 AMD's PBO2 (also called Curve Optimizer) allows per-core undervolting/overvolting by applying a
@@ -884,6 +887,7 @@ Architecture) errors on Windows or Machine Check Exceptions (MCE) on Linux. Thes
 Data corruption. Always verify stability with both compute tests (Prime95, stress-ng) and memory
 Tests (memtester) when changing voltage offsets.
 :::
+
 ## Interpreting turbostat Output
 
 `turbostat` is the single most useful tool for real-time CPU frequency, power, and thermal
@@ -1102,6 +1106,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Undervolting and Overclocking](../undervolting-and-overclocking) - How CPU voltage and frequency curves are tuned for performance

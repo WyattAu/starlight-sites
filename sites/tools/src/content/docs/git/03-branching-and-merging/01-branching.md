@@ -202,6 +202,7 @@ Consistent branch naming is essential for project hygiene. Common conventions:
 | `release/<version>`              | Release preparation                                |
 | `experiment/<description>`       | Experimental work                                  |
 :::
+
 :::tip
 branch to a remote branch with the same name. This prevents accidental pushes to the wrong branch.
 

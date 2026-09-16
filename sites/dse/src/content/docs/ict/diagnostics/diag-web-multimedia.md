@@ -184,7 +184,6 @@ impaired users can read content.
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Diag Web Multimedia] --> B[Key Concepts]
@@ -354,7 +353,7 @@ external domains. (3) Loading resources (images, styles, fonts) from untrusted s
 
 **Confusing HTML structure with CSS presentation:** HTML defines content structure (headings, paragraphs). CSS defines appearance (colours, layout). Don't use HTML tags for styling when CSS exists.
 
-**Forgetting that responsive design requires viewport meta tag:** Without `<meta name="viewport" content="width=device-width, initial-scale=1">`, mobile devices render pages at desktop width and zoom out.
+**Forgetting that responsive design requires viewport meta tag:** Without `<meta name="viewport" content="width=device-width, initial-scale=1">`mobile devices render pages at desktop width and zoom out.
 
 **Mixing up lossy and lossless image formats:** JPEG is lossy (compression degrades quality). PNG is lossless (preserves all data). Use JPEG for photos, PNG for graphics requiring transparency or sharp edges.
 

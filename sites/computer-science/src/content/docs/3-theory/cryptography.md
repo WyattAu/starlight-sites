@@ -197,7 +197,7 @@ Based on the **Diffie-Hellman** problem in cyclic groups.
 ```
 ELGAMAL_KEYGEN():
     choose prime p, generator g of Z_p*
-    choose private key x in {2..., p-2}
+    choose private key x in {2, ..., p-2}
     public key y = g^x mod p
 ```
 
@@ -270,7 +270,7 @@ Build a fixed-output hash from a compression function:
 ```
 MERKLE_DAMGARD(message, IV):
     pad message to multiple of block size
-    break into blocks M_1, M_2..., M_k
+    break into blocks M_1, M_2, ..., M_k
     H_0 = IV
     for i = 1 to k:
         H_i = f(H_{i-1}, M_i)   // compression function
@@ -544,7 +544,6 @@ ML-KEM_DECAP(sk, c):
 
 **Problem:** Alice and Bob agree on prime p=23 and generator g=5. Alice chooses private a=6, Bob chooses private b=15. Calculate their shared secret.
 **Solution:** Alice sends A = g^a mod p = 5^6 mod 23 = 15625 mod 23 = 8. Bob sends B = g^b mod p = 5^15 mod 23. 5^2=2, 5^4=4, 5^8=16, 5^15=16*4*2*5 mod 23 = 640 mod 23 = 19. Shared secret (Alice): B^a mod p = 19^6 mod 23 = 47045881 mod 23 = 2. Shared secret (Bob): A^b mod p = 8^15 mod 23 = 2. Both compute the same shared secret: 2.
-
 
 ```mermaid
 flowchart TD

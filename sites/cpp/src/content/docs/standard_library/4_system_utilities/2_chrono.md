@@ -65,6 +65,7 @@ The standard defines three clocks [N4950 §29.5.7]:
 Synchronization, manual correction). **Never use `system_clock` for measuring elapsed time**, it
 Can produce negative durations. Use `steady_clock` for all elapsed-time measurements.
 :::
+
 ### Durations
 
 A `std::chrono::duration&lt;Rep, Period>` represents a time span where `Rep` is the arithmetic type
@@ -120,6 +121,7 @@ void duration_arithmetic() {
 `std::chrono::floor&lt;D>()``std::chrono::ceil&lt;D>()`Or `std::chrono::round&lt;D>()` (C++17) For
 rounding conversions. These are declared in `<chrono>` [N4950 §29.5.4].
 :::
+
 ### Measuring Elapsed Time
 
 ```cpp
@@ -159,7 +161,7 @@ class Timer {
 public:
     explicit Timer(std::string label = "")
         : start_(std::chrono::steady_clock::now())
-label_(std::move(label)) {}
+        , label_(std::move(label)) {}
 
     ~Timer() {
         auto elapsed = std::chrono::steady_clock::now() - start_;
@@ -184,6 +186,7 @@ void timer_class_demo() {
 Correctly even when the scope is exited via an exception. This pattern is used in many C++
 Benchmarking and logging frameworks.
 :::
+
 ### Calendar and Timezone Support (C++20)
 
 C++20 added calendar types and timezone support to `<chrono>` [N4950 §29.8]:
@@ -290,6 +293,7 @@ void format_time_demo() {
 Provide a minimal built-in database. Call `std::chrono::reload_tzdb()` to reload the database after
 A system update.
 :::
+
 ## See Also
 
 - [Filesystem Library](./1_filesystem)
@@ -376,6 +380,7 @@ Preserved. But `std::common_type_t<seconds, milliseconds>` is `milliseconds` bec
 Has a finer period. The common type always has the **shortest** (finest) period among the inputs
 [N4950 §29.5.3].
 :::
+
 ### Duration Literals and User-Defined Literals
 
 C++14 introduced `operator""` literals for `std::chrono` durations [N4950 §29.5.3.2]:
@@ -476,6 +481,7 @@ void time_t_conversion() {
 2038-01-19 cannot be represented (the Year 2038 problem). Modern 64-bit systems use a 64-bit
 `time_t`.
 :::
+
 ### C++20 Calendar: `year_month_day` Arithmetic
 
 C++20's calendar types support natural date arithmetic that handles month rollover, leap years, and
@@ -521,6 +527,7 @@ void calendar_arithmetic() {
 Rule: if the resulting day is out of range (e.g., January 31 + 1 month = February 31), the day is
 Clamped to the last valid day of the resulting month. This behavior is defined in [N4950 §29.8.6].
 :::
+
 ### C++20 Time-of-Day: `hh_mm_ss`
 
 The `hh_mm_ss` class [N4950 §29.8.3] represents a time of day extracted from a duration:
@@ -573,6 +580,7 @@ void sleep_demo() {
 Duration is a lower bound, not a guarantee. For high-precision timing (sub-millisecond), use
 Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 :::
+
 ### Common Pitfalls
 
 1. **Using `system_clock` for measuring elapsed time:** `system_clock` can jump backwards (NTP
@@ -610,7 +618,6 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 4. Focusing only on content knowledge without developing exam technique and question-answering
    skills.
-
 
 ```mermaid
 flowchart TD

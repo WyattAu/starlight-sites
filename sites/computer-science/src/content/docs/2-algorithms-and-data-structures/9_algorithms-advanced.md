@@ -1701,6 +1701,7 @@ flowchart TD
 - Data structures: arrays, linked lists, stacks, queues, trees, hash tables, heaps, graphs.
 - Amortised analysis: dynamic arrays $O(1)$ amortised append; splay trees $O(\log n)$ amortised.
 :::
+
 ## Cross-References
 
 - [Algorithm Analysis](./1_algorithm-analysis) -- Advanced algorithms build on the complexity analysis foundations of Big-O notation and asymptotic analysis.

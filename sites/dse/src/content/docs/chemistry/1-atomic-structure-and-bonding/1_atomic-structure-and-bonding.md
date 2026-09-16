@@ -63,6 +63,7 @@ A mass spectrometer separates ions based on their mass-to-charge ratio ($m/z$). 
 :::note
 Relative abundance. For singly charged ions, $m/z$ equals the relative isotopic mass.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -96,6 +97,7 @@ $$1s \lt 2s \lt 2p \lt 3s \lt 3p \lt 4s \lt 3d \lt 4p \lt 5s \lt 4d \lt 5p \lt 6
 :::caution
 electrons are in the $3d$ subshell.
 :::
+
 ### Pauli Exclusion Principle
 
 Each orbital can hold a maximum of 2 electrons with opposite spins.
@@ -125,6 +127,7 @@ For transition metals, use the noble gas core notation:
 :::tip
 extra Stability.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -327,6 +330,7 @@ Possible.
 :::note
 The nucleus. This reduces bond angles from the ideal values.
 :::
+
 ### Worked Example 5
 
 Predict the shape and bond angle of $\mathrm{NH}_3$.
@@ -509,7 +513,6 @@ Examples: steel (Fe + C), brass (Cu + Zn), bronze (Cu + Sn), solder (Sn + Pb)
 
 **The key insight:** Ionisation energy increases across a period because nuclear charge increases while shielding stays roughly constant, electrons are held more tightly.
 
-
 ```mermaid
 flowchart TD
     A[1_Atomic Structure And Bonding] --> B[Key Concepts]
@@ -673,6 +676,7 @@ $$\Delta H = (1652 + 996) - (1490 + 1852) = 2648 - 3342 = -694 \mathrm{ kJ/mol}$
 :::caution
 reactions involving liquids Or solids because they only account for gaseous state bonds.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1032,6 +1036,7 @@ $$\mathrm{Bond order} = \frac{1}{2}(\mathrm{bonding electrons} - \mathrm{antibon
 :::note
 In antibonding orbitals), which cannot be explained by simple Lewis structures.
 :::
+
 :::danger
 - **Confusing atomic number with mass number:** Atomic number (proton number) defines the element
   and equals the number of protons. Mass number equals protons PLUS neutrons. Isotopes of the same

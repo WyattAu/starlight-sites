@@ -429,9 +429,8 @@ slog.Info("user logged in", "username", username, "ip", ip)
    services, wrap the handler with a buffered writer or use an async handler to avoid blocking.
 
 7. **Using math/rand/v1.** The old `math/rand` package requires manual seeding and is deprecated.
-   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN`, `rand.N`, and other
+   Use `math/rand/v2` (Go 1.22+) which is auto-seeded and provides `rand.IntN``rand.N`and other
    improvements.
-
 
 ```mermaid
 flowchart TD

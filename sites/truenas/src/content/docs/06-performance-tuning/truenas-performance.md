@@ -114,6 +114,7 @@ Write time and cannot be changed afterward.
 Their original block size. To benefit from a recordsize change, rewrite the data by copying files to
 A new dataset.
 :::
+
 ### Impact of recordsize on Performance
 
 Incorrect recordsize causes read amplification:
@@ -217,6 +218,7 @@ $$
 Exceeds the space savings from deduplication. Use compression (lz4/zstd) instead, it provides
 Meaningful space savings with no memory cost.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -351,6 +353,7 @@ ifconfig igb0 | grep mtu
 Clients. A single device with MTU 1500 in the path will cause fragmentation, which is worse than
 Standard frames. Only enable jumbo frames if you control the entire network path.
 :::
+
 ### Link Aggregation (LACP)
 
 Link aggregation (LACP, IEEE 802.3ad) bonds multiple network interfaces into a single logical
@@ -443,6 +446,7 @@ L2ARC extends the ARC to SSD storage:
 Identity and prevent ZFS from performing its error detection, self-healing, and direct disk
 Management. Flash RAID controllers to IT mode (LSI 9211-8i, LSI 9300-8i) or buy pre-flashed HBAs.
 :::
+
 ### Pool Layout Optimization
 
 **Optimal pool layout for general use:**
@@ -913,6 +917,7 @@ Is at risk. Always mirror special vdevs and use high-endurance NVMe drives rated
 Workloads. Check the DWPD (Drive Writes Per Day) rating and ensure it meets your projected metadata
 Write volume.
 :::
+
 ### Optimizing Recordsize Per Dataset
 
 The `recordsize` property controls the maximum block size ZFS uses for files. Matching recordsize to
@@ -942,6 +947,7 @@ zfs get all tank/postgres/data | grep -E "recordsize|primarycache|logbias|compre
 Until they are rewritten. To reblock existing data, copy files to a new dataset with the desired
 Recordsize.
 :::
+
 ## Monitoring ARC Statistics
 
 The Adaptive Replacement Cache (ARC) is ZFS's primary caching mechanism. Monitoring ARC hit rates
@@ -1000,6 +1006,7 @@ echo "options zfs zfs_arc_max=123480309760" > /etc/modprobe.d/zfs.conf
 And the ZFS prefetch cache. Never set it above 90% of physical RAM, and monitor swap usage after
 Changes. If the system begins swapping, reduce `zfs_arc_max` immediately.
 :::
+
 ### L2ARC Configuration
 
 L2ARC (Level 2 ARC) uses a dedicated SSD as a second-tier cache. It stores ARC evictions and can

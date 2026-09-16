@@ -728,7 +728,7 @@ func fetchWithFallback(id: Int) async -> Result<User, DataError> {
         do {
             let user = try await fetchUser(id: id)
             return .success(user)
-        } catch let error as URLError where [.timedOut.networkConnectionLost].contains(error.code) {
+        } catch let error as URLError where [.timedOut, .networkConnectionLost].contains(error.code) {
             lastError = error
             try? await Task.sleep(nanoseconds: UInt64(pow(2.0, Double(attempt)) * 500_000_000))
             continue
@@ -753,7 +753,6 @@ case .failure(let error): showError(error.localizedDescription)
 ```
 
 **Explanation:** The retry loop handles transient network errors with exponential backoff. Non-transient errors fail immediately via `.permanent`. After exhausting retries, the function attempts a cache fallback, returning `.fallbackUsed` to indicate degraded data. The `Result` type makes all three outcomes explicit and composable.
-
 
 ```mermaid
 flowchart TD

@@ -142,6 +142,7 @@ void utf8_code_point_iteration() {
 Arrays. This is a **breaking change** if your code passed `u8"..."` to APIs expecting `const char*`.
 Use `-fno-char8_t` on GCC/Clang to revert to the C++17 behavior during migration.
 :::
+
 ### Unicode Text Processing Challenges
 
 The C++ standard library provides minimal support for Unicode text processing beyond the
@@ -164,6 +165,7 @@ Count, or grapheme cluster count. There is no standard library function to count
 Grapheme clusters. For production Unicode text processing, use a library like ICU, libunifex, or
 `std::text` (proposed for standardization).
 :::
+
 #### String Length and Iteration
 
 ```cpp
@@ -235,6 +237,7 @@ void unicode_sorting_problem() {
 - **Text segmentation:** Use ICU's `BreakIterator` for grapheme cluster, word, and sentence
   boundaries.
 :::
+
 ### Encoding in Stream I/O
 
 `std::fstream` and `std::ifstream`/`std::ofstream` use the stream buffer's `std::codecvt` facet to
@@ -282,6 +285,7 @@ void write_utf8_file(const std::filesystem::path& path, std::string_view content
 Text mode performs CRLF ↔ LF translation, which corrupts binary data but is harmless for UTF-8 text
 (unless the text contains lone `0x0A` or `0x0D` bytes that are not line endings).
 :::
+
 ### UTF-16 and UTF-32 String Literals
 
 In addition to UTF-8, C++ provides `u` (UTF-16) and `U` (UTF-32) string literal prefixes [N4950
@@ -414,6 +418,7 @@ Production implementation must reject overlong encodings (e.g., encoding `U+0000
 Surrogate code points (`U+D800..U+DFFF`), and code points exceeding `U+10FFFF`. The ICU library's
 `ucnv_convert` or the `utf8proc` library handle all these cases correctly.
 :::
+
 ### Overlong Encodings and Security Implications
 
 An **overlong encoding** is a multi-byte UTF-8 sequence that encodes a code point that could have
@@ -491,6 +496,7 @@ as map keys. Two strings that display identically may have different byte repres
 differ in normalization form. This is a common source of bugs in database lookups, file Search, and
 authentication systems.
 :::
+
 ### BOM (Byte Order Mark) Handling
 
 The BOM is the code point `U+FEFF` encoded at the start of a text stream to signal the byte order:
@@ -595,7 +601,6 @@ The relationship between `char``char8_t`And the execution encoding is subtle and
 
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
-
 
 ```mermaid
 flowchart TD

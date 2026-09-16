@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -88,7 +87,7 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 **Pattern matching with `=`**, The match operator destructures data. `{a, b} = {1, 2}` binds `a` to 1 and `b` to 2. Pattern matching is used in function heads, case expressions, and with chains. It is the primary way to handle different data shapes.
 
-**Atoms** are constants whose name is their value. `:ok`, `:error`, `:not_found`atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
+**Atoms** are constants whose name is their value. `:ok``:error``:not_found`atoms are lightweight and fast to compare. They are commonly used as tags, keys, and enum values.
 
 **The `with` construct** chains operations that may fail. Each step is pattern-matched against the expected success case. If any step does not match, the non-matching value is returned. `with {:ok, data} <- fetch(url), {:ok, parsed} <- parse(data), do: {:ok, parsed}`.
 
@@ -109,7 +108,7 @@ Elixir is a functional language, functions are first-class citizens, data is imm
 
 **The pipe operator `|>`** passes the result of the left expression as the first argument to the right function. `data |> fetch() |> parse() |> save()` reads top-to-bottom, left-to-right. Pipelines make Elixir code highly readable.
 
-**Enum module** provides powerful functions for working with collections. `Enum.map`, `Enum.filter`, `Enum.reduce`, `Enum.flat_map`, and `Enum.group_by` cover most collection operations. The Stream module provides lazy evaluation for large datasets.
+**Enum module** provides powerful functions for working with collections. `Enum.map``Enum.filter``Enum.reduce``Enum.flat_map`and `Enum.group_by` cover most collection operations. The Stream module provides lazy evaluation for large datasets.
 
 **Protocols** enable polymorphism through protocol dispatch. A protocol defines a set of functions. Types implement the protocol by providing implementations. Protocols dispatch on the type of the first argument at runtime.
 

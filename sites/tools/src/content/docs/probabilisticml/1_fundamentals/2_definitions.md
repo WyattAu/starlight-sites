@@ -62,6 +62,7 @@ everywhere, not everywhere. It becomes a true **norm** only after quotienting by
 relation to obtain $L^p$. This distinction ensures $L^p$ is a Banach space by identifying functions
 that differ only on null sets.
 :::
+
 ## Topology and Metric Spaces
 
 ### Topology
@@ -239,6 +240,7 @@ Why condition 3 is necessary: countable unions are required to handle limits, fo
 when we analyze a sequence of events $\lim_{n\to \infty} A_n$. Without closure under countable
 unions, probabilities cannot be assign to limits of random variables.
 :::
+
 ### Sub-$\sigma$-algebra
 
 Given a measurable space $(\Omega, \mathcal{F})$A collection
@@ -314,11 +316,13 @@ $\{x \in \Omega : f(x) \neq g(x)\} \subseteq N$. This bypasses the need to assum
 measurable and introduces the concept of measure space completeness (see _Completeness of a Measure
 Space_ below).
 :::
+
 :::note
 **Terminology Note:** When the measure $\mu$ is a probability measure $P$, "almost everywhere"
 (a.e.) is conventionally called "almost surely" (a.s.). We write $f = g$ a.s. or $f = g$ $P$-a.e.
 interchangeably.
 :::
+
 ### Completeness of a Measure Space
 
 A measure space $(\Omega, \mathcal{F}, \mu)$ is **complete** if every subset
@@ -441,6 +445,7 @@ Where $| \cdot |$ denotes the **cardinality** (number of elements) of the set, n
 In statistical contexts, if $X_1, \dots, X_n$ are random elements, $\hat{P}_n$ becomes a
 random measure mapping $\omega \mapsto \frac{1}{n}\sum \delta_{X_i(\omega)}$.
 :::
+
 ### Support of a Measure
 
 Given a Borel probability measure $\mu$ on a topological space $(S, \tau)$, the support of
@@ -473,6 +478,7 @@ $\mu \in \mathcal{M}_1(S)$.
 The notation $\mathcal{M}_1$ emphasizes that these are probability
 measures (total mass 1), as opposed to general measures with arbitrary mass.
 :::
+
 ### Probability Space
 
 A probability space is a tuple $(\Omega, \mathcal{F}, P)$, where
@@ -589,6 +595,7 @@ $$
 unconditional independence $X \perp Y$, contrasting with conditional independence $X \perp Y \mid Z$.
 For the independence of $n$ events, "mutual independence" is the standard terminology.
 :::
+
 ### Conditional Independence
 
 Given that event $C \in \mathcal{F}$ holds, event
@@ -746,6 +753,7 @@ specifically use **non-negative simple functions** where $\alpha_i \in [0, \inft
 General simple functions (allowing negative coefficients) are used in the final step of the integral
 construction.
 :::
+
 ### Lebesgue Integral
 
 This is an integral constructed from $3$ steps:
@@ -772,6 +780,7 @@ This is an integral constructed from $3$ steps:
   $\pm\infty$), but $f$ is **not integrable**.
 - If both $\int f^+ = \infty$ and $\int f^- = \infty$: The integral is **undefined**.
 :::
+
 ### Expectation (Real-valued)
 
 For a real-valued random variable $X: \Omega \to \mathbb{R}$. The expectation
@@ -890,6 +899,7 @@ is Lebesgue integrable: $$\int_\Omega \lVert X(\omega) \rVert \, d\mu(\omega) < 
 characteristic criterion for Bochner integrability and is formally stated in the _Bochner Integral_
 definition below.
 :::
+
 ### Fubini-Tonelli Theorem
 
 Let $(\Omega_1, \mathcal{F}_1, \mu_1)$ and
@@ -1134,6 +1144,7 @@ and $X$ to be defined on the **same** probability space. In contrast, weak conve
 in distribution) allows random variables to exist on entirely different probability spaces as long
 as they map to the same target metric space.
 :::
+
 ### Weak Convergence
 
 Let $X_n, X$ be random elements in a metric space $S$. $X_n$ converges weakly to $X$, denoted
@@ -1222,6 +1233,7 @@ characteristic function is defined as $\varphi_X(t) = \mathbb{E}\left[ e^{i t(X)
 where $t: B \to \mathbb{R}$ is a continuous linear functional. For Hilbert spaces, the
 Riesz Representation Theorem identifies $B^*$ with $B$, recovering the inner product formulation.
 :::
+
 ### Levy's Continuity Theorem
 
 Let $X_n$ be random variables with characteristic functions $\varphi_n(t)$.
@@ -1246,6 +1258,7 @@ Minimization (ERM) where we search for the _minimum_ across a hypothesis class
 $\mathcal{H}$, we need the **Uniform Law of Large Numbers (ULLN)** to prevent overfitting.
 See Glivenko-Cantelli theorem.
 :::
+
 ### Central Limit Theorem (CLT)
 
 Let $X_1, X_2, \dots$ be i.i.d. Random variables with mean $\mu$ and finite covariance $\Sigma$.
@@ -1610,6 +1623,7 @@ space) where addition and scalar multiplication are defined, enabling the Bochne
 general metric spaces, the Fréchet mean is defined via the minimization formulation above, which
 does not require linear structure.
 :::
+
 ## Statistical Models and Information Geometry
 
 ### Parameter Space
@@ -1815,6 +1829,7 @@ This motivates the use of alternative divergences that **are** proper metrics:
 - **Wasserstein Metric:** A true metric with meaningful gradients even for disjoint supports.
 - **Jensen-Shannon Divergence:** Symmetric and bounded; $\sqrt{D_{JS}}$ is a true metric.
 :::
+
 ### Jensen-Shannon Divergence
 
 The Jensen-Shannon Divergence (JSD) is a symmetrized and smoothed version of KL divergence:
@@ -1894,6 +1909,7 @@ is equivalent to minimizing KL divergence since $H(P)$ is constant with respect 
    which is always non-negative.
 3. In ML, cross-entropy is computed directly as $-\log q(x)$ without explicitly computing $H(P)$.
 :::
+
 ### Information Projection (I-Projection) vs. Moment Projection (M-Projection)
 
 Given a distribution $P$ and a family of distributions $\mathcal{Q}$:
@@ -2116,7 +2132,6 @@ $\mathcal{M}$.
 
 4. Memorising content without understanding the underlying principles. This leads to poor
    application in unfamiliar contexts.
-
 
 ```mermaid
 flowchart TD

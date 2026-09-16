@@ -446,12 +446,13 @@ End immediately; the CRT must unwind the environment.
    control to the kernel.
 
 :::caution
-<strong>`std::terminate` vs `std::exit` If an exception escapes `main`Or an unjoinable</strong>
+`std::terminate` vs `std::exit` If an exception escapes `main`Or an unjoinable
 
 `std::thread` is destroyed, the CRT calls `std::terminate`. This calls `std::abort`Which kills the
 Process **without** running static destructors or file buffer flushing. This often results in
 Truncated logs or corrupted data files.
 :::
+
 ### `std::exit` vs `std::quick_exit` vs `std::_Exit`
 
 Per [N4950 S18.5], the C++ standard provides three termination functions with distinct semantics:
@@ -572,11 +573,12 @@ Destructors run during the normal termination sequence. On Windows, the mechanis
 `DLL_THREAD_DETACH`.
 
 :::caution
-<strong>Dynamic TLS has a significant first-access penalty (guard variable check, potential</strong>
+Dynamic TLS has a significant first-access penalty (guard variable check, potential
 
 Initialization, destructor registration). On hot paths, prefer static TLS (constant initialization)
 Or pass data explicitly via function parameters.
 :::
+
 ## DSO Constructor and Destructor Ordering
 
 When a program links against shared libraries (`.so` on Linux, `.dll` on Windows), each DSO has its
@@ -600,11 +602,12 @@ Another DSO -- if the DSO ordering is wrong, the dependency may not yet be const
 Access rather than load time.
 
 :::caution
-<strong>`LD_PRELOAD` interposes symbols but does not change `.init_array` ordering. A preloaded</strong>
+`LD_PRELOAD` interposes symbols but does not change `.init_array` ordering. A preloaded
 
 Library's constructors still run in dependency order relative to other DSOs. If the preloaded
 Library depends on symbols from the main executable, those symbols may not yet be initialized.
 :::
+
 ## The `main` Function Signature and Return Value
 
 The C++ standard specifies two valid signatures for `main` [N4950 S6.6.1]:
@@ -661,12 +664,13 @@ The heap is initialized during `__libc_start_main` (glibc) or `mainCRTStartup` (
 `.init_array` processing. This ensures that global constructors can safely use `new`/`malloc`.
 
 :::caution
-<strong>The heap is **not** thread-safe at initialization time. If a global constructor spawns a</strong>
+The heap is **not** thread-safe at initialization time. If a global constructor spawns a
 
 Thread that allocates memory, the thread may encounter a partially-initialized heap. In practice,
 This is safe on glibc and MSVC because the heap is fully initialized before `.init_array`
 Processing, but it is a theoretical concern on custom CRTs.
 :::
+
 ### `operator new` and the CRT
 
 C++ `operator new` ultimately calls `malloc` (or a CRT-specific allocator). The CRT provides the
@@ -728,7 +732,7 @@ Diagram in the startup sequence section). The CRT constructs `envp` from this da
 `main` on platforms that support it.
 
 :::note
-<strong>Per [N4950 S6.6.1], the `main` function signature with `char* envp[]` as a third parameter</strong>
+Per [N4950 S6.6.1], the `main` function signature with `char* envp[]` as a third parameter
 
 Is a common extension but not standard C++. Portable code should use `std::getenv()` instead.
 
@@ -738,7 +742,6 @@ Is a common extension but not standard C++. Portable code should use `std::geten
 - [Binary Formats](../1_translation/4_binary_formats)
 - [Binary Module Interfaces (BMI)](2_bmi)
 - [Header Units](3_header_unit)
-
 
 ```mermaid
 flowchart TD

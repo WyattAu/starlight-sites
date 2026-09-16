@@ -180,7 +180,7 @@ lst[-5:-2]     # [5, 6, 7]
 
 # Slice assignment (modifies in place)
 lst[2:5] = [20, 30, 40]  # [0, 1, 20, 30, 40, 5, 6, 7, 8, 9]
-lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20...]
+lst[1:1] = [10, 11]      # insert without replacing: [0, 10, 11, 1, 20, ...]
 del lst[2:4]              # delete slice
 ```
 
@@ -375,6 +375,7 @@ for i in range(20):
 # Multiple keys may map to the same initial slot, resolved by linear probing
 ```
 :::
+
 :::caution
 (`hash(a) == hash(b)`). If you define `__eq__` on a class, you must also define `__hash__`Or set
 `__hash__ = None` to make the object unhashable (the default when `__eq__` is defined without
@@ -420,7 +421,7 @@ values = d.values()
 items = d.items()
 
 print("a" in keys)    # True (O(1) -- checks the dict, not the view)
-print((1) in values) # True (Python 3.10+)
+print((1,) in values) # True (Python 3.10+)
 print(("b", 2) in items)  # True
 
 # Views reflect mutations
@@ -480,6 +481,7 @@ d2 = {"b": 2, "a": 1}
 print(d1 == d2)    # True (order does not matter)
 ```
 :::
+
 :::note
 Memory-efficient and faster for most operations.
 
@@ -611,6 +613,7 @@ print(c1 | c2)   # Counter({'a': 3, 'b': 2}) -- max(c1[x], c2[x])
 print(list(Counter(a=3, b=0, c=-1).elements()))  # ['a', 'a', 'a']
 ```
 :::
+
 :::tip
 `c.most_common(n)` to get only the top n, which is more efficient than sorting the entire counter.
 
@@ -644,6 +647,7 @@ nested["user1"]["clicks"] = 7
 The default factory is called with **no arguments**, so `list``int``set`And `dict` all work
 Directly. For custom defaults, use a lambda or a named function.
 :::
+
 :::caution
 This calls `dict()` once and passes the resulting empty dict as the factory. The correct form is
 `defaultdict(dict)` or `defaultdict(list)` -- without parentheses.
@@ -730,6 +734,7 @@ new_context = combined.new_child({"color": "green"})
 print(new_context["color"])  # "green"
 ```
 :::
+
 :::note
 Underlying dict are immediately visible through the `ChainMap`. Lookups are O(k) where k is the
 Number of mappings, since each mapping is checked in order.
@@ -932,13 +937,14 @@ while tasks:
 # Handling ties with a tiebreaker
 import itertools
 
-counter = itertools.count()  # 0, 1, 2...
+counter = itertools.count()  # 0, 1, 2, ...
 tasks = []
 heapq.heappush(tasks, (2, next(counter), "task A"))
 heapq.heappush(tasks, (2, next(counter), "task B"))
 heapq.heappush(tasks, (1, next(counter), "task C"))
 ```
 :::
+
 :::caution
 (priorities) are equal, Python compares the second elements. If the second elements are not
 Comparable (e.g., two different types), this raises `TypeError`. The tiebreaker pattern using an

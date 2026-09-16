@@ -15,7 +15,6 @@ tableOfContents: false
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Diag Electrochemistry] --> B[Key Concepts]
@@ -326,7 +325,7 @@ $$t = \frac{Q}{I} = \frac{96.6}{0.200} = 483\,\text{s} = 8.05\,\text{min}$$
 - $2\text{H}_2\text{O}(l) \to \text{O}_2(g) + 4\text{H}^+(aq) + 4e^-$
 - $2\text{Cl}^- \to \text{Cl}_2(g) + 2e^-$ (if chloride present, which it is not specified here)
 
-Since the anions present are sulfate (from the salts, ) and the cations are being reduced at the
+Since the anions present are sulfate (from the salts) and the cations are being reduced at the
 cathode, the species oxidised at the anode is **water**, producing **oxygen gas**:
 
 $$2\text{H}_2\text{O}(l) \to \text{O}_2(g) + 4\text{H}^+(aq) + 4e^-$$

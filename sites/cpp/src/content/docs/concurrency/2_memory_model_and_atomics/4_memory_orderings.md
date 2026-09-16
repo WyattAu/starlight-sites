@@ -91,6 +91,7 @@ int main() {
 :::tip
 and stores Use `stlr` (or `ldr`/`str` with `relaxed` semantics depending on the ARM version).
 :::
+
 ### When Relaxed Is Insufficient: The Message Passing Idiom
 
 Relaxed atomics are insufficient when one thread writes data and another thread reads it based on a
@@ -206,6 +207,7 @@ On some implementations. On ARM, `seq_cst` operations use `dmb ish` barriers.
 :::note
 Performance-critical code, consider using weaker orderings where appropriate.
 :::
+
 ### The Store Buffering Problem (Why seq_cst Is Needed)
 
 Even with acquire/release, the following scenario can produce unexpected results:
@@ -353,6 +355,7 @@ require `MFENCE`). On ARM and POWER, acquire and release require explicit barrie
 the Performance difference between relaxed and acquire/release is significant on those
 architectures.
 :::
+
 ### Hardware Memory Models
 
 Understanding why the ordering costs differ requires understanding the underlying hardware memory
@@ -435,6 +438,7 @@ Discouraged in favor of direct memory ordering on atomic loads and stores.
 useful when Interfacing with hardware or when the atomic operation itself is performed by
 non-standard means.
 :::
+
 ## `memory_order_consume`: The Problematic Ordering
 
 `memory_order_consume` was intended to optimize cases where data dependency ordering is sufficient
@@ -516,7 +520,6 @@ Issues like lost updates. A `seq_cst` `fetch_add` is still needed for atomic inc
 // CORRECT: atomic RMW
 // counter.fetch_add(1, memory_order_seq_cst);
 ```
-
 
 ```mermaid
 flowchart TD

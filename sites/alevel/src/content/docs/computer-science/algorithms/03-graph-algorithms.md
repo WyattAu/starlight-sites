@@ -154,6 +154,7 @@ To a non-MST vertex.
 (A)** requires Dijkstra's, Prim's, and Kruskal's algorithms with step-by-step tracing. **Edexcel**
 Covers basic graph traversal (BFS, DFS) and shortest path.
 :::
+
 <hr />
 
 ## 4. Travelling Salesman Problem (TSP)
@@ -911,7 +912,6 @@ which may differ from the MST. These are different optimisation problems with di
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

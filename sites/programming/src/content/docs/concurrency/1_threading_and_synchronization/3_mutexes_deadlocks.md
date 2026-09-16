@@ -167,6 +167,7 @@ public:
 :::tip
 interfacing With recursive code structures that you cannot refactor.
 :::
+
 ## `std::timed_mutex`
 
 `std::timed_mutex` [N4950 §31.4.3.3.3] extends `std::mutex` with two additional methods:
@@ -511,6 +512,7 @@ In turn. If any lock attempt fails, it unlocks all previously acquired mutexes a
 Guarantees that all threads acquire the set of mutexes in the same order, preventing circular wait
 [N4950 §31.4.4.2.2].
 :::
+
 ## Reader-Writer Lock for a Thread-Safe Cache
 
 ```cpp
@@ -622,6 +624,7 @@ Would silently discard the existing value.
 Locking. Prefer `std::shared_lock` for read-only access and `std::unique_lock` for write access. On
 POSIX systems, this maps to `pthread_rwlock_t`.
 :::
+
 ## Intuition
 
 **A mutex is like a bathroom key:** Only one person can hold the key at a time, and only the person holding the key can use the bathroom. If someone else wants to use it, they must wait until the key is returned. A deadlock is when two people each hold one key and refuse to release it until they get the other, neither can proceed. The `std::scoped_lock` is like a rule that says "always pick up both keys at once, or neither", it prevents the circular wait that causes deadlocks.
@@ -713,7 +716,6 @@ int main() {
 `std::call_once` guarantees that the callable is invoked exactly once, even if multiple threads call
 `get_expensive()` concurrently. Internally, it uses a combination of atomic flags and a mutex, but
 The fast path (already initialized) is a single atomic load.
-
 
 ```mermaid
 flowchart TD

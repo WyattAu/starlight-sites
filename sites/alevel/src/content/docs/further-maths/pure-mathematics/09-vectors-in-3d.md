@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[09 Vectors In 3D] --> B[Key Concepts]
@@ -50,6 +49,7 @@ Tools are essential for geometry, mechanics, and physics at university level.
 Scalar triple product for volumes. CIE places particular emphasis on intersections of lines and
 Planes.
 :::
+
 <hr />
 
 ## 1. Review of A Level Vectors
@@ -184,6 +184,7 @@ $\mathbf{b}$ And its direction is given by the right-hand rule.
 :::caution
 Only defined in 3D.
 :::
+
 <hr />
 
 ## 5. Equation of a Line in 3D

@@ -6,7 +6,6 @@ description: "TypeScript patterns solve common design problems: Discriminated un
 sidebar_position: 51
 ---
 
-
 ## Design Patterns Practice
 
 ## Exercise 1: Singleton
@@ -129,7 +128,7 @@ class QuickSort<T> implements SortStrategy<T> \{
     const pivot = data[0];
     const left = data.slice(1).filter((x) => x <= pivot);
     const right = data.slice(1).filter((x) => x > pivot);
-    return [...this.sort(left), pivot...this.sort(right)];
+    return [...this.sort(left), pivot, ...this.sort(right)];
   \}
 \}
 

@@ -32,6 +32,7 @@ categories:
 :::note
 Diagram determines the quality of your solution.
 :::
+
 <hr />
 
 ## 1. Newton's Laws of Motion
@@ -65,6 +66,7 @@ And are the same type of force.
 Normal reaction from the table are **not** a Third Law pair (both act on the book). The Third Law
 Pair of the weight is the gravitational pull of the book on the Earth.
 :::
+
 <hr />
 
 ## 2. Types of Forces
@@ -279,6 +281,7 @@ $$P = \frac{\mu mg}{\cos\theta + \mu\sin\theta}$$
 Friction. Applying a force at an angle **downward** increases $R$ and increases the maximum
 Friction.
 :::
+
 ### 8.3 Connected particles on rough surfaces
 
 When two particles are connected by a string and one or both surfaces are rough, friction must be
@@ -368,6 +371,7 @@ $$a = \frac{(m_2 - \mu m_1)g}{m_1 + m_2}$$
 :::caution
 not at its maximum; instead $F = m_2 g$ (friction balances the hanging weight) and $T = m_2 g$.
 :::
+
 ### 9.4 Two particles on inclined planes with a pulley
 
 Two particles of masses $m_1$ and $m_2$ are placed on two inclined planes with angles $\alpha$ and
@@ -441,6 +445,7 @@ $$a = \frac{P}{m} - g(\sin\alpha - \mu\cos\alpha)$$
 :::tip
 acts.
 :::
+
 ### 10.4 Block on an inclined plane with a horizontal applied force
 
 A horizontal force $P$ is applied to a block on a rough inclined plane at angle $\alpha$.
@@ -465,6 +470,7 @@ $$P = \frac{mg(\sin\alpha + \mu\cos\alpha)}{\cos\alpha - \mu\sin\alpha}$$
 :::caution
 block into the Surface).
 :::
+
 <hr />
 
 ## 11. Equilibrium of Rigid Bodies
@@ -1033,6 +1039,7 @@ Newton's Laws with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Intuition
 
 Forces are pushes and pulls that change motion. Free body diagrams are like detective sketches showing every suspect (force) acting on a single object. Resolving forces is breaking diagonal pushes into horizontal and vertical components, like separating a suitcase pull into forward and downward parts. Friction opposes sliding and grows up to a maximum that depends on how hard surfaces press together. Connected particles share acceleration through tension, and the principle of moments ensures rotational balance just as force balance ensures translational equilibrium.
@@ -1050,7 +1057,6 @@ Forces are pushes and pulls that change motion. Free body diagrams are like dete
 
 4. Neglecting air resistance or assuming ideal conditions when the question specifies a real-world
    scenario.
-
 
 ```mermaid
 flowchart TD

@@ -89,6 +89,7 @@ Photosynthesis produces ATP, which drives potassium ion ($K^+$) pumps. Potassium
 Guard cells, lowering their water potential. Water follows by osmosis, making the cells turgid and
 Opening the stomata.
 :::
+
 ### Root Structure (OL/HL)
 
 **Functions:** anchorage, absorption of water and minerals, and storage (in some species such as
@@ -301,6 +302,7 @@ Only a tiny fraction reaches a stigma, but the sheer volume ensures successful r
 Insect-pollinated flowers produce less pollen but it is often larger and stickier to adhere to
 Pollinators.
 :::
+
 ### Fertilisation (OL/HL)
 
 1. Pollen grain lands on the stigma and germinates, absorbing sugars and water.
@@ -532,7 +534,6 @@ Directions in response to the same gravitational stimulus.
    transport).
 8. **Root hair cells vs root hairs** -- a root hair is a single extension of one epidermal cell.
    Root hairs are found in the zone of maturation, not the zone of cell division.
-
 
 ```mermaid
 flowchart TD

@@ -242,6 +242,7 @@ Second FIN enters the `LAST-ACK` state. After sending the final ACK, the first e
    destination IP, destination port). The 2MSL wait ensures that any delayed segments from the old
    connection have been delivered or dropped.
 :::
+
 :::note
 That rapidly opens and closes connections (e.g., an HTTP/1.1 server without keep-alive) accumulates
 Connections in TIME-WAIT on the client side. If the client exhausts its ephemeral port space, new

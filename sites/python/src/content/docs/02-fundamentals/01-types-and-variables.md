@@ -227,6 +227,7 @@ b = 257
 print(a is b)   # False (not interned)
 ```
 :::
+
 :::caution
 Interning range is a CPython implementation detail, not a language guarantee.
 
@@ -251,6 +252,7 @@ Decimals would require software emulation, making all numeric computation orders
 Slower. The pragmatic choice is to use hardware floats by default and provide `decimal` and
 `fractions` modules for cases that require exact arithmetic.
 :::
+
 :::tip
 (exact rational arithmetic). Never use `float` for money.
 
@@ -355,6 +357,7 @@ print(s)             # "hello"
    characters are ASCII, avoiding per-character encoding overhead. This optimization is only safe
    because strings cannot change.
 :::
+
 :::caution
 The entire string. Use `''.join(iterable)` for linear-time concatenation.
 
@@ -463,6 +466,7 @@ s.rstrip()     # "  Hello, World!"
 "HELLO".isupper()   # True
 ```
 :::
+
 :::tip
 Handle edge cases (empty strings, prefix longer than string) correctly.
 
@@ -613,6 +617,7 @@ print(add_item("a"))  # ["a"]
 print(add_item("b"))  # ["b"]  -- fresh list each time
 ```
 :::
+
 :::caution
 Default arguments. The pattern `def f(arg=None): if arg is None: arg = ...` is the standard
 Solution.
@@ -946,6 +951,7 @@ def make_counter():
     return increment
 ```
 :::
+
 :::caution
 Difficult to test and reason about. Prefer passing state explicitly through function parameters or
 Using classes.

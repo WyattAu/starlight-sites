@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -132,7 +131,7 @@ Generics enable you to write code that works with any type while preserving type
 
 **Generic constraints**, `function getProperty<T, K extends keyof T>(obj: T, key: K): T[K]` constrains K to be a key of T. This provides type-safe property access while maintaining generality.
 
-**Utility type generics**, Most utility types are generic: `Partial<T>`, `Required<T>`, `Pick<T, K>`, `Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
+**Utility type generics**, Most utility types are generic: `Partial<T>``Required<T>``Pick<T, K>``Omit<T, K>`. Understanding how generics work is essential for using these types effectively.
 
 ---
 
@@ -153,7 +152,7 @@ TypeScript provides built-in utility types that transform and manipulate types. 
 
 **Pick and Omit**, `Pick<T, "name" | "age">` extracts specific properties. `Omit<T, "password">` removes specific properties. These are essential for API request/response types.
 
-**Conditional types**, `T extends U ? X : Y` evaluates to X if T extends U, otherwise Y. Combined with `infer`, conditional types enable powerful type transformations: extracting return types, unwrapping promise types, and flattening union types.
+**Conditional types**, `T extends U ? X : Y` evaluates to X if T extends U, otherwise Y. Combined with `infer`conditional types enable powerful type transformations: extracting return types, unwrapping promise types, and flattening union types.
 
 ---
 

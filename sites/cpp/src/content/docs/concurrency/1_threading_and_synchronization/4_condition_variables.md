@@ -506,6 +506,7 @@ int main() {
 `std::barrier` when you need reusable phase synchronization. `std::latch` is ideal for
 Startup/shutdown patterns and fork-join parallelism [N4950 §31.4.4.3].
 :::
+
 ## `std::flex_barrier` (C++20 Alternative)
 
 C++20's `std::barrier` with a completion function that returns the next phase's expected count
@@ -637,7 +638,6 @@ auto worker_safe = [&b](int id) {
     b.arrive_and_wait();
 };
 ```
-
 
 ```mermaid
 flowchart TD

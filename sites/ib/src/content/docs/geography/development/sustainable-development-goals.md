@@ -193,7 +193,7 @@ Effective implementation of the SDGs requires strong governance, institutional c
 Coherence. Many developing countries face governance challenges (corruption, weak institutions,
 Political instability, conflict) that constrain their ability to pursue the goals.
 
-**Policy incoherence.** , government policies in one sector undermine progress in Others.
+**Policy incoherence.**, government policies in one sector undermine progress in Others.
 Agricultural subsidies that incentivise intensive farming may increase food production (SDG 2) but
 degrade water quality (SDG 6), reduce biodiversity (SDG 15), and increase greenhouse gas Emissions
 (SDG 13). Trade policies that reduce tariffs may increase economic growth (SDG 8) but Undermine
@@ -302,7 +302,6 @@ For related topics, see [./measuring-development](./measuring-development) and
 
 4. Losing marks by not showing sufficient working. Always write out each step, especially in proof
    questions.
-
 
 ```mermaid
 flowchart TD

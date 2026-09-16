@@ -571,6 +571,7 @@ class RBTree:
 | Delete performance   | Slower (more rotations) | Faster                     |
 | Standard library use | `std::map` (GCC)        | Java `TreeMap`Linux kernel |
 :::
+
 :::tip
 And deletions are frequent (scheduler, event queues). In practice, the performance difference is
 Small for most workloads.
@@ -751,6 +752,7 @@ def bplus_range_query(tree, low, high):
     return result
 ```
 :::
+
 :::note
 Oracle). PostgreSQL uses B+ trees as the default index type. MySQL InnoDB uses a variant where the
 Leaf pages form a doubly-linked list, enabling both forward and backward scans.
@@ -939,6 +941,7 @@ class Treap:
         return root
 ```
 :::
+
 :::note
 Equivalent to a randomly built BST. The expected depth of any node is at most
 $2 \ln n \approx 1.39 \log_2 n$. Treaps are simpler to implement than AVL or red-black trees.

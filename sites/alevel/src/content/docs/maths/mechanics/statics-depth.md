@@ -26,6 +26,7 @@ Frameworks with a rigorous, proof-based approach.
 Approach -- drawing the diagram, listing forces, choosing a pivot -- is more reliable than
 Intuition.
 :::
+
 <hr />
 
 ## 1. Moments
@@ -75,6 +76,7 @@ $$R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}$$
 :::caution
 the line of action of the Force to the pivot point, not just the distance along the beam.
 :::
+
 <hr />
 
 ## 2. Equilibrium of a Rigid Body
@@ -210,6 +212,7 @@ $$\bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \appro
 method: treat the removed Section as having negative area. The formula remains the same but with
 negative contributions from The removed part.
 :::
+
 <hr />
 
 ## 4. Ladder Problems
@@ -274,6 +277,7 @@ The minimum angle is approximately $51.3^\circ$.
 point where two Unknown forces act) to eliminate as many unknowns as possible from the moment
 equation.
 :::
+
 <hr />
 
 ## 5. Frameworks
@@ -491,7 +495,6 @@ $$\bar{x} = \frac{96 \times 6 - 9\pi \times 4}{96 - 9\pi} = \frac{576 - 113.1}{6
 By symmetry of the cut, $\bar{y} = 4\ \mathrm{cm}$.
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

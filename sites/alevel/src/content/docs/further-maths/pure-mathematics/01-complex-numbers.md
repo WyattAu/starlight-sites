@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[01 Complex Numbers] --> B[Key Concepts]
@@ -347,10 +346,12 @@ Exam questions often require describing a _region_ defined by combining loci, su
 :::caution
 Regions, be careful about whether boundaries are included (solid line) or excluded (dashed line).
 :::
+
 :::tip
 Common exam technique: identify the boundary (circle, line, half-line), then determine which side of
 The boundary is included by testing a point.
 :::
+
 <details>
 <summary>Worked Example: Describing a locus algebraically</summary>
 
@@ -444,6 +445,7 @@ $w$-plane.
 :::note
 Edexcel and OCR cover this topic with less depth. CIE focuses more on loci than on transformations.
 :::
+
 <hr />
 
 ## 7. Summary of Key Results

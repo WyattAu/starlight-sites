@@ -204,6 +204,7 @@ the range of frequencies The channel can carry; bit rate is the number of bits t
 second. Shannon's theorem Relates the maximum bit rate to bandwidth and SNR, but they are not
 interchangeable.
 :::
+
 ### 2.3 Multiplexing
 
 **Frequency-Division Multiplexing (FDM).** Divide bandwidth into non-overlapping frequency bands.
@@ -973,6 +974,7 @@ ICMP "Fragmentation Needed" and the sender reduces packet size. Preferred over f
 addresses and is valid for Point-to-point links with no network or broadcast address. A `/32` is a
 single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes of `/30` or shorter.
 :::
+
 ## 5. Transport Layer
 
 ### 5.1 UDP
@@ -1197,6 +1199,7 @@ Where $\mathrm{RTT_m}$ = measured RTT, $\alpha = 1/8$, $\beta = 1/4$. Initial RT
 :::caution
 The ACK could correspond To either the original or the retransmission (retransmission ambiguity).
 :::
+
 <details>
 <summary>Worked Example: RTT Estimation</summary>
 
@@ -1474,6 +1477,7 @@ Per second. $\blacksquare$
 is used for zone Transfers, responses exceeding 512 bytes, and DNSSEC. The switch to TCP was
 formalised in RFC 7766.
 :::
+
 ## 7. Network Security
 
 ### 7.1 Symmetric Encryption
@@ -1804,7 +1808,7 @@ _Hint:_ Total data = 630 KB = 5.04 Mb. Transmission time = 5.04 / 10 = 0.504 s.
 
 ### Example 1: IP Addressing and Subnet Mask
 
-**Problem.** Given IP `192.168.10.130` with subnet mask `255.255.255.192`, find the network address,
+**Problem.** Given IP `192.168.10.130` with subnet mask `255.255.255.192`find the network address,
 broadcast address, and usable host range.
 
 **Solution.** Mask `/26` means 64 addresses per subnet.

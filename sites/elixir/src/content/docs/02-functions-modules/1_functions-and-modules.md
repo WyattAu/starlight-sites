@@ -295,7 +295,7 @@ defmodule MyApp.Calculator do
 
   @doc false
   defp validate_input(n) when is_number(n), do: :ok
-  defp validate_input(_), do: {:error:not_a_number}
+  defp validate_input(_), do: {:error, :not_a_number}
 end
 ```
 
@@ -318,12 +318,12 @@ defmodule Config do
   @before_compile MyApp.Logger
 
   # Accumulating attribute
-  Module.register_attribute(__MODULE__:handlers, accumulate: true)
+  Module.register_attribute(__MODULE__, :handlers, accumulate: true)
 
   @handlers :json
   @handlers :xml
 
-  def handlers, do: @handlers  # [:json:xml]
+  def handlers, do: @handlers  # [:json, :xml]
 end
 ```
 
@@ -443,8 +443,8 @@ Structs are maps with a fixed set of fields, default values, and compile-time ty
 defmodule User do
   @moduledoc "Represents a user in the system"
 
-  @enforce_keys [:id:name]
-  defstruct [:id:name:email, age: 0, role: :guest]
+  @enforce_keys [:id, :name]
+  defstruct [:id, :name, :email, age: 0, role: :guest]
 end
 
 # Creating structs
@@ -491,7 +491,7 @@ false
 
 # Map-like operations on structs
 iex> Map.keys(%User{id: 1, name: "A"})
-[:id:name:email:age:role]
+[:id, :name, :email, :age, :role]
 
 # Structs are maps under the hood
 iex> %User{}.__struct__
@@ -554,7 +554,7 @@ iex> Size.size([1, 2, 3])
 3
 iex> Size.size(%{a: 1, b: 2})
 2
-iex> Size.size({:a:b:c})
+iex> Size.size({:a, :b, :c})
 3
 
 # Derive protocol for structs
@@ -589,7 +589,7 @@ Structs can automatically implement protocols using `@derive`:
 ```elixir
 defmodule Point do
   @derive [Inspect, String.Chars]
-  defstruct [:x:y]
+  defstruct [:x, :y]
 
   defimpl String.Chars, for: Point do
     def to_string(%Point{x: x, y: y}), do: "(#{x}, #{y})"
@@ -614,7 +614,7 @@ defmodule Storage do
 
   @callback init(opts :: keyword()) :: {:ok, state :: term()} | error()
   @callback put(state :: term(), key(), value()) :: {:ok, term()} | error()
-  @callback get(state :: term(), key()) :: {:ok, value()} | {:error:not_found}
+  @callback get(state :: term(), key()) :: {:ok, value()} | {:error, :not_found}
   @callback delete(state :: term(), key()) :: {:ok, term()} | error()
   @callback list(state :: term()) :: [key()]
 end
@@ -636,7 +636,7 @@ defmodule MemoryStorage do
   def get(state, key) do
     case Map.fetch(state, key) do
       {:ok, value} -> {:ok, value}
-      :error -> {:error:not_found}
+      :error -> {:error, :not_found}
     end
   end
 
@@ -702,8 +702,8 @@ defmodule Math do
   @spec add(number(), number()) :: number()
   def add(a, b), do: a + b
 
-  @spec safe_div(number(), number()) :: {:ok, float()} | {:error:division_by_zero}
-  def safe_div(_num, 0), do: {:error:division_by_zero}
+  @spec safe_div(number(), number()) :: {:ok, float()} | {:error, :division_by_zero}
+  def safe_div(_num, 0), do: {:error, :division_by_zero}
   def safe_div(num, denom), do: {:ok, num / denom}
 
   @spec classify(number()) :: :positive | :zero | :negative
@@ -711,11 +711,11 @@ defmodule Math do
   def classify(0), do: :zero
   def classify(_n), do: :negative
 
-  @spec fetch(map(), any()) :: {:ok, any()} | {:error:not_found}
+  @spec fetch(map(), any()) :: {:ok, any()} | {:error, :not_found}
   def fetch(map, key) do
     case Map.fetch(map, key) do
       {:ok, value} -> {:ok, value}
-      :error -> {:error:not_found}
+      :error -> {:error, :not_found}
     end
   end
 end
@@ -730,7 +730,7 @@ end
 
 # Atomic types
 @spec atoms() :: atom() | boolean() | nil
-# atom() includes all atoms, including :true:false:nil
+# atom() includes all atoms, including :true, :false, :nil
 
 # Numbers
 @spec nums() :: number() | integer() | float() | neg_integer() | non_neg_integer() | pos_integer()
@@ -766,8 +766,8 @@ iex> for x <- [1, 2, 3], do: x * 2
 [2, 4, 6]
 
 # Multiple generators
-iex> for x <- [1, 2], y <- [:a:b], do: {x, y}
-[{1:a}, {1:b}, {2:a}, {2:b}}
+iex> for x <- [1, 2], y <- [:a, :b], do: {x, y}
+[{1, :a}, {1, :b}, {2, :a}, {2, :b}}
 
 # With filter
 iex> for x <- 1..10, rem(x, 2) == 0, do: x
@@ -804,7 +804,7 @@ for {_key, value} <- %{a: 1, b: 2, c: 3}, value > 1, into: [], do: value
 ```elixir
 # Defining a custom exception
 defmodule MyApp.Error do
-  defexception [:message:code]
+  defexception [:message, :code]
 
   @impl true
   def message(%{message: msg, code: code}) do
@@ -841,7 +841,7 @@ In Elixir, exceptions are used sparingly. The preferred pattern is to return `{:
 # Preferred pattern
 case File.read("data.txt") do
   {:ok, content} -> process(content)
-  {:error:enoent} -> IO.puts("File not found")
+  {:error, :enoent} -> IO.puts("File not found")
   {:error, reason} -> IO.puts("Error: #{reason}")
 end
 
@@ -852,7 +852,6 @@ rescue
   _ -> :error
 end
 ```
-
 
 ```mermaid
 flowchart TD

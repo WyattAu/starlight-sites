@@ -813,6 +813,7 @@ Malware C2 communication, data exfiltration via DNS tunneling, or phishing domai
 | Queries to TLDs not in use   | Malware C2, suspicious resolution         | TLD distribution analysis      |
 | Late-night DNS activity      | Compromised host beaconing                | Time-based query analysis      |
 :::
+
 :::note
 Architecture), RFC 6014 (DNSSEC Operational Practices), RFC 7208 (SPF), RFC 6376 (DKIM), RFC 7489
 (DMARC), RFC 8446 (TLS 1.3), RFC 8484 (DNS over HTTPS), IEEE 802.1X (Port-Based Network Access

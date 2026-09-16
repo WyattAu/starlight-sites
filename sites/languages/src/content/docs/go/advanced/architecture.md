@@ -531,7 +531,7 @@ go test -tags=integration ./...
 
 ## Intuition
 
-**Project layout is a city plan, not a prison:** Go's project conventions (`cmd/`, `internal/`, `pkg/`) are like zoning laws, they help developers navigate by convention, not enforcement (except `internal/`, which is legally locked). The `internal/` directory is like a private building with keycard access: only code inside your module can use it. `pkg/` is the public park: anyone can visit.
+**Project layout is a city plan, not a prison:** Go's project conventions (`cmd/``internal/``pkg/`) are like zoning laws, they help developers navigate by convention, not enforcement (except `internal/`which is legally locked). The `internal/` directory is like a private building with keycard access: only code inside your module can use it. `pkg/` is the public park: anyone can visit.
 
 **Why it matters:** A good project layout lets new team members find code by intuition. The `internal/` package boundary enforces encapsulation at the toolchain level, you literally cannot import it from outside your module, preventing accidental coupling.
 
@@ -563,7 +563,6 @@ go test -tags=integration ./...
 7. **Not using t.Cleanup in tests.** `defer` in tests only runs when the test function returns.
    `t.Cleanup` runs after the test and all its subtests finish, making it the correct choice for
    resource teardown.
-
 
 ```mermaid
 flowchart TD

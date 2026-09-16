@@ -21,7 +21,7 @@ A Java class is a template that defines the structure and behavior of objects. E
 Declaration in Java ultimately inherits from `java.lang.Object`Either explicitly or implicitly.
 
 ```java
-[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2...] {
+[access_modifier] [final | abstract] class ClassName [extends SuperClass] [implements Interface1, Interface2, ...] {
     // fields
     // constructors
     // methods
@@ -51,6 +51,7 @@ public final class ImmutableList<E> extends AbstractList<E> implements List<E>, 
 Declarations. The top-level class can be `public` or package-private (no modifier). Only one
 `public` class per compilation unit (.java file) is permitted.
 :::
+
 A class body can contain: field declarations, method declarations, constructors, static and instance
 Initializer blocks, nested class and interface declarations, and enum declarations.
 
@@ -250,11 +251,13 @@ Package can access a `protected` member only through `this` or a reference of th
 Type. It cannot access the `protected` member through a reference of the superclass type, even if
 The actual object is an instance of the subclass.
 :::
+
 :::note
 [JLS §6.6](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6) defines access
 Control in exhaustive detail. The rules for `protected` are specified in
 [JLS §6.6.2](https://docs.oracle.com/javase/specs/jls/se21/html/jls-6.html#jls-6.6.2).
 :::
+
 ## Fields and Methods
 
 ### Instance Fields
@@ -342,6 +345,7 @@ public class Config {
 Shared across all threads and all instances of the class. This is the source of countless
 Concurrency bugs in web applications.
 :::
+
 ## Final Classes and Methods
 
 ### Final Classes
@@ -437,6 +441,7 @@ public class Circle extends Shape {
 Abstract classes. An abstract class must be declared `abstract` if it has any abstract methods, but
 A class can be declared `abstract` even with no abstract methods (to prevent direct instantiation).
 :::
+
 ## Interfaces
 
 An interface declares a contract that implementing classes must fulfill. Unlike abstract classes, an
@@ -742,6 +747,7 @@ Implicit reference to its enclosing instance, which can prevent garbage collecti
 Object and creates a coupling that makes testing harder. Use a member inner class only when it
 Genuinely needs to access the enclosing instance's state.
 :::
+
 ## Inheritance
 
 ### IS-A and HAS-A Relationships
@@ -907,6 +913,7 @@ c.classify();     // "Child"  -- compile-time type is Child
 Depends on the declared type of the variable rather than the actual object. If you need polymorphic
 Behavior, use instance methods.
 :::
+
 ### Covariant Return Types
 
 Since Java 5, an overriding method can return a subtype of the return type declared in the
@@ -1036,6 +1043,7 @@ state in a way that changes `equals()` or `hashCode()`The collection will behave
 object may become "lost" in the wrong bucket. Always use immutable objects as hash keys, or Ensure
 that fields used in `equals()`/`hashCode()` are never modified after insertion.
 :::
+
 ### clone()
 
 The `clone()` method is intended to create a field-for-field copy of an object. However, its design
@@ -1084,6 +1092,7 @@ Awkward: you must call `super.clone()` (which checks runtime type), then manuall
 Fields. Most experts recommend using copy constructors or static factory methods instead. Josh Bloch
 (Effective Java) recommends against using `clone()`.
 :::
+
 ### finalize()
 
 The `finalize()` method is called by the garbage collector before an object's memory is reclaimed.
@@ -1233,6 +1242,7 @@ Declarations. Enum constants are implicitly `public static final`. Enum types im
 `java.lang.Enum` and cannot be instantiated with `new`. Enum types are implicitly `final` unless
 They have constant-specific class bodies.
 :::
+
 ## Generics Basics
 
 Generics allow you to parameterize types -- classes, interfaces, and methods can operate on types

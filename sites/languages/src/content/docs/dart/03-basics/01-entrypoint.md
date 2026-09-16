@@ -417,7 +417,7 @@ final description = switch (value) {
   [] => 'empty',
   [var single] => 'single: $single',
   [var first, var second] => 'pair: $first, $second',
-  [var first...var rest] => 'first: $first, rest: $rest',
+  [var first, ...var rest] => 'first: $first, rest: $rest',
 };
 ```
 
@@ -454,7 +454,6 @@ Write `final status = name ? "exists' : 'missing';`that is a compile error.
 - **Using `late` without guaranteeing initialization**: `late` defers the runtime check. If you
   access a `late` variable before it is set, you get a `LateInitializationError`. This is a runtime
   crash, not a compile-time error.
-
 
 ```mermaid
 flowchart TD

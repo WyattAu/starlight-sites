@@ -33,6 +33,7 @@ Statistics is the science of **analysing data to draw conclusions**. The key ins
 :::note
 WJEC Unit 2
 :::
+
 ## 1. Data Collection
 
 ### 1.1 Types of Data
@@ -86,6 +87,7 @@ A sample is **biased** if it does not fairly represent the population. Sources o
 :::caution
 Only one school is still biased if you want to draw conclusions about all schools in the country.
 :::
+
 ## 2. Averages and Measures of Central Tendency
 
 ### 2.1 Mean, Median, and Mode
@@ -303,6 +305,7 @@ On each side.
 :::caution
 Factor, or by coincidence.
 :::
+
 ### 4.5 Interpolation and Extrapolation
 
 - **Interpolation:** Estimating values within the range of the data. Generally reliable.
@@ -631,6 +634,7 @@ Roughly equal numbers of points on each side. It can be used to make predictions
 :::caution
 Observed values.
 :::
+
 ### 9.7 Frequency Polygons
 
 A frequency polygon is created by plotting the class midpoint against the frequency density (for
@@ -747,7 +751,6 @@ the appropriate terminology.
 Multi-step problems in Statistics often combine two or more concepts. Break the problem down:
 identify what you need to find, recall the relevant formula or principle, substitute values, and
 state your answer with correct units or formatting.
-
 
 ```mermaid
 flowchart TD

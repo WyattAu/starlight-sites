@@ -1,6 +1,5 @@
 ---
 
-
 title: "Differentiation"
 description: "Study notes for Differentiation | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------------------------------- | | AQA | Paper 1, 2 | First"
@@ -12,7 +11,6 @@ categories:
   - Maths
 
 ---
-
 
 import DesmosGraph from "@components/DesmosGraph";
 
@@ -34,10 +32,11 @@ import DesmosGraph from "@components/DesmosGraph";
 | CIE (9709) | P1, P2, P3 | Basic differentiation in P1; product/quotient/chain in P2/P3     |
 
 :::note
-<strong>The formula booklet lists derivatives of standard functions. You must know how to apply the</strong>
+The formula booklet lists derivatives of standard functions. You must know how to apply the
 
 Product, quotient, and chain rules, and how to find stationary points.
 :::
+
 <hr />
 
 ## 1. The Derivative from First Principles
@@ -55,10 +54,11 @@ Line through the points $(x, f(x))$ and $(x+h, f(x+h))$. As $h \to 0$This secant
 Tangent, so $f'(x)$ is the gradient of the tangent at $x$.
 
 :::note
-<strong>Info There. Continuity is necessary but not sufficient, $f(x) = |x|$ is continuous at $x=0$</strong>
+Info There. Continuity is necessary but not sufficient, $f(x) = |x|$ is continuous at $x=0$
 
 but not Differentiable.
 :::
+
 <hr />
 
 ## 2. Derivative of $x^n$ from First Principles
@@ -139,10 +139,11 @@ By the chain rule, $\dfrac{d}{dx}(v^{-1}) = -v^{-2}\dfrac{dv}{dx}$:
 $$= \frac{1}{v}\frac{du}{dx} - \frac{u}{v^2}\frac{dv}{dx} = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^2} \quad \blacksquare$$
 
 :::caution
-<strong>The quotient rule has a **minus** sign in the numerator: $v\,u' - u\,v'$. Getting this</strong>
+The quotient rule has a **minus** sign in the numerator: $v\,u' - u\,v'$. Getting this
 
 The wrong way around is one of the most common errors in A Level mathematics.
 :::
+
 <hr />
 
 ## 5. The Chain Rule
@@ -262,10 +263,11 @@ $$f(x) - f(a) \approx \frac{f''(a)}{2}(x-a)^2$$
 - If $f''(a) = 0$: the test is inconclusive; use a nature table or higher derivatives.
 
 :::caution
-<strong>Warning Point could still be a maximum, minimum, or inflection. Always use a nature table</strong>
+Warning Point could still be a maximum, minimum, or inflection. Always use a nature table
 
 (checking the sign Of $f'$ on either side) if the second derivative test is inconclusive.
 :::
+
 \{/* prettier-ignore */\}
 <DesmosGraph client:only="solid-js" title="Function, Derivative, and Tangent Line" expressions={["f(x)=x^3-6x^2+9x+1", "f'(x)=3x^2-12x+9"]} width={800} height={500} /> Observe how the Derivative relates to the gradient
 of the tangent line. Move the point along the curve to see how The tangent changes slope, and note
@@ -311,10 +313,11 @@ For $x \gt 1$: $(x-1) \gt 0$ and $(x+1) \gt 0$ So $f'(x) \gt 0$. Hence $f$ is st
 $x \gt 1$.
 
 :::tip
-<strong>Tip Inequality. When asked to "show that a function is increasing", verify that $f'(x) \gt 0$</strong>
+Tip Inequality. When asked to "show that a function is increasing", verify that $f'(x) \gt 0$
 
 (or $\geq 0$) on the given interval.
 :::
+
 <hr />
 
 ## 10. Points of Inflection
@@ -323,10 +326,11 @@ A **point of inflection** is where the curve changes concavity (from concave up 
 Vice versa). This occurs where $f''(x) = 0$ and the sign of $f''(x)$ changes.
 
 :::caution
-<strong>Warning Point of inflection at $x = 0$ But $f'(0) = 0$ in this case. Consider</strong>
+Warning Point of inflection at $x = 0$ But $f'(0) = 0$ in this case. Consider
 
 $f(x) = x^3 + x$: $f''(x) = 6x = 0$ at $x = 0$Giving a point of inflection, but $f'(0) = 1 \neq 0$.
 :::
+
 <hr />
 
 ## 11. Differentiation of Parametric Equations
@@ -622,7 +626,7 @@ Section 8.
 ---
 
 :::tip
-<strong>Tip Ready to test your understanding of **Differentiation**? The contains the hardest</strong>
+Tip Ready to test your understanding of **Differentiation**? The contains the hardest
 
 questions within the A-Level specification for this topic, each with a full worked solution.
 
@@ -649,7 +653,6 @@ building a personal test matrix.
 
 6. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
-
 
 ```mermaid
 flowchart TD

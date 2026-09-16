@@ -116,6 +116,7 @@ S13.8.3]. If a better overload of `g` is declared _after_ the template definitio
 Be found. This is the single most surprising aspect of two-phase lookup and a frequent source of
 Bugs.
 :::
+
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
@@ -247,6 +248,7 @@ S13.8.2/6]. The compiler may silently use the primary template instead. This is 
 Insidious bugs in template code: the program compiles, links, and runs, but produces wrong results.
 Always define specializations before any potential point of use.
 :::
+
 ### Instantiation Point Bugs
 
 The POI rules interact with header inclusion order in subtle ways. A specialization declared in a

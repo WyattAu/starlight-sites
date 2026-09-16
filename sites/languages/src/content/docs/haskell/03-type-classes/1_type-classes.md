@@ -58,7 +58,7 @@ data Color = Red | Green | Blue
 ```
 
 The `deriving` clause works by generating boilerplate code at compile time. It is available for
-these standard type classes: `Eq`, `Ord`, `Enum`, `Bounded`, `Show`, `Read`.
+these standard type classes: `Eq``Ord``Enum``Bounded``Show``Read`.
 
 ## Show and Read
 
@@ -655,7 +655,7 @@ The relationship between these three type classes is:
 
 $$\text{Functor} \subset \text{Applicative} \subset \text{Monad}$$
 
-Every `Monad` is an `Applicative`, and every `Applicative` is a `Functor`. However, there are useful
+Every `Monad` is an `Applicative`and every `Applicative` is a `Functor`. However, there are useful
 types that are `Functor` or `Applicative` but not `Monad`:
 
 ```haskell
@@ -686,7 +686,6 @@ types that are `Functor` or `Applicative` but not `Monad`:
 -- But Functors and Applicatives can exist without Monad
 -- They are more general (less powerful but more widely applicable)
 ```
-
 
 ```mermaid
 flowchart TD

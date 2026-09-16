@@ -217,6 +217,7 @@ Application:
 - **Binary:** Efficient for binary protocols (Protocol Buffers, MessagePack, custom binary formats).
   No base64 encoding overhead.
 :::
+
 :::caution
 Binary frames (which are for non-text data). If you are sending JSON, use text frames.
 
@@ -265,6 +266,7 @@ Client                              Server
 If the sender does not receive a pong within a reasonable timeout, the connection is considered dead
 And should be closed.
 :::
+
 :::caution
 Frequent pings add overhead without meaningful benefit. Some servers limit the rate of control
 Frames and will close the connection if pings are too frequent.
@@ -323,6 +325,7 @@ Parameters:
 - **client_no_context_takeover:** Client does not reuse LZ77 context between messages
 - **server_no_context_takeover:** Server does not reuse LZ77 context between messages
 :::
+
 :::caution
 100 bytes), the compression overhead may exceed the savings. Benchmark with your actual message
 Sizes before enabling. For high-frequency, small-message applications (gaming, financial tickers),
@@ -487,6 +490,7 @@ const wss = new WebSocketServer({
 });
 ```
 :::
+
 :::caution
 Automatically by the browser during the HTTP upgrade request, so cookie-based authentication alone
 Is insufficient -- a malicious site can initiate a WebSocket connection to your server with the
@@ -825,6 +829,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Intuition
 
 WebSockets are like a phone call versus sending letters. HTTP is like sending letters back and forth - each message requires a new request and response. WebSockets are like picking up the phone - once connected, either party can speak at any time without waiting for the other to finish. The upgrade handshake is like calling someone and asking "Can we switch from letters to a phone call?" The server agrees, and from then on, the connection stays open for instant two-way communication. This is essential for real-time applications like chat, gaming, and live feeds where you need immediate updates without the overhead of establishing a new connection for each message.

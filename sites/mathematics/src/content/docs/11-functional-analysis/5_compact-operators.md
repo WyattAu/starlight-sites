@@ -5,7 +5,7 @@ title: "Compact Operators"
 tags:
   - Mathematics
   - University
-description: 'A linear operator is if the image of the closed unit ball, , is relatively compa Comprehensive educational content coverage with definitions and practice proble'
+description: 'A linear operator is if the image of the closed unit ball, is relatively compa Comprehensive educational content coverage with definitions and practice proble'
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -100,7 +100,6 @@ $\lambda \neq 0$. Then exactly one of the following holds:
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
-
 ```mermaid
 flowchart TD
     A[5_Compact Operators] --> B[Key Concepts]
@@ -161,7 +160,6 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
   Sturm-Liouville theory.
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).
-
 
 ## Advanced Content
 

@@ -507,7 +507,7 @@ journalctl _COMM=sshd -o verbose | grep "OBJECT_SYSTEMD_UNIT"
 
 # Export specific fields as CSV
 journalctl -u nginx --since today -o json | \
-    jq -r '[.__REALTIME_TIMESTAMP._PID.MESSAGE] | @csv'
+    jq -r '[.__REALTIME_TIMESTAMP, ._PID, .MESSAGE] | @csv'
 ```
 
 ## Log Forwarding

@@ -242,6 +242,7 @@ All deadlines satisfied.
 task set with $U > n(2^{1/n} - 1)$ may still be schedulable under RMS. The response time analysis
 (RTA) provides a necessary and sufficient test but is more complex to compute.
 :::
+
 ## 2. Advanced Memory Management
 
 ### 2.1 Multi-Level Page Tables
@@ -421,6 +422,7 @@ and RISC-V. Code that works correctly on x86-64 may fail on ARM due to reorderin
 synchronisation primitives (mutexes, atomic operations with explicit ordering) rather than relying
 on the hardware memory model.
 :::
+
 <details>
 <summary>Worked Example: Double-Checked Locking with Memory Ordering</summary>
 
@@ -1404,6 +1406,7 @@ flowchart TD
 - File systems: directory structure, allocation methods (contiguous, linked, indexed).
 - Synchronisation: semaphores, monitors, critical sections; Peterson's algorithm for two processes.
 :::
+
 ## Cross-References
 
 - [Process Management](./2_process_management) -- Advanced scheduling and concurrency control extend the basic process management concepts.

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Hypothesis Testing"
 description: "Study notes for Hypothesis Testing | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial tests in P1; normal tests in"
@@ -34,6 +33,7 @@ categories:
 :::note
 Statistic, critical value/region, comparison, and conclusion in context.
 :::
+
 <hr />
 
 ## 1. Hypotheses
@@ -57,6 +57,7 @@ Directional prediction **before** seeing the data.
 Direction) is a form of $p$-hacking and is statistically invalid. The tail direction must be decided
 Before the experiment.
 :::
+
 <hr />
 
 ## 2. Critical Values and Significance Levels
@@ -192,6 +193,7 @@ Test statistic: $z = \dfrac{\hat{p} - p_0}{\sqrt{p_0(1-p_0)/n}}$.
 Data does not provide sufficient evidence against $H_0$. The test may lack power (sample too small,
 Effect too weak).
 :::
+
 <hr />
 
 ## 8. One-Tailed vs Two-Tailed Tests in Depth
@@ -241,6 +243,7 @@ Two-tailed test ($|1.80| \lt 1.960$).
 Test at the same $\alpha$Because the significance "budget" is split between two tails. A Two-tailed
 test at $\alpha = 0.05$ corresponds roughly to two one-tailed tests each at $\alpha = 0.025$.
 :::
+
 ### 8.3 Effect on power
 
 For the same $\alpha$A one-tailed test has **greater power** than a two-tailed test against an
@@ -314,6 +317,7 @@ Intervals would contain the true value of $\theta$.
 In the interval. The parameter $\theta$ is fixed; it either is or is not in the interval. The 95%
 Refers to the long-run proportion of intervals (across many repeated samples) that capture $\theta$.
 :::
+
 ### 10.2 95% confidence interval for a population proportion
 
 For large $n$ where $n\hat{p} \gt 5$ and $n(1 - \hat{p}) \gt 5$The sample proportion $\hat{p}$ Is
@@ -387,6 +391,7 @@ The smaller the $p$-value, the stronger the evidence against $H_0$:
 - The $p$-value depends on sample size: with a very large sample, even small effects can produce
   tiny $p$-values.
 :::
+
 ### 11.5 Worked example
 
 **Example.** A factory produces components with mean length 50 mm. A sample of 40 components gives
@@ -801,7 +806,6 @@ building a personal test matrix.
 - [Statistical Distributions](04-statistical-distributions), Binomial and normal distributions provide the test statistics for hypothesis testing.
 - [Data Representation](../statistics/01-data-representation), Summary statistics from data representation are the inputs for significance tests and confidence intervals.
 - [Correlation and Regression](../statistics/02-correlation-and-regression), Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
-
 
 ```mermaid
 flowchart TD

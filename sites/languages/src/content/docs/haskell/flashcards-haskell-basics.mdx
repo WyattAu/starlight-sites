@@ -9,7 +9,6 @@ categories:
   - Haskell
 ---
 
-
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basics-data.js';
 
@@ -23,15 +22,15 @@ import { flashcardData } from '@/data/flashcards/haskell/flashcards-haskell-basi
 
 - **Pure Functions**: no side effects; same input always produces same output. This makes reasoning and testing trivial but requires monads for I/O.
 
-- **Lazy Evaluation**: expressions are evaluated only when needed. Infinite data structures are possible: `ones = 1 : ones`. Strictness annotations (`seq`, `!`) force evaluation.
+- **Lazy Evaluation**: expressions are evaluated only when needed. Infinite data structures are possible: `ones = 1 : ones`. Strictness annotations (`seq``!`) force evaluation.
 
-- **Type Classes**: ad-hoc polymorphism. `Eq`, `Ord`, `Show`, `Read`, `Num` are standard type classes. Custom type classes define interfaces for new types.
+- **Type Classes**: ad-hoc polymorphism. `Eq``Ord``Show``Read``Num` are standard type classes. Custom type classes define interfaces for new types.
 
 - **Algebraic Data Types**: `data Shape = Circle Double | Rectangle Double Double`. Sum types (OR) and product types (AND). Pattern matching exhaustively handles all constructors.
 
-- **Monads**: `IO`, `Maybe`, `List`, `State`. `>>=` (bind) chains effectful computations. `do` notation provides imperative-looking syntax for monadic code.
+- **Monads**: `IO``Maybe``List``State`. `>>=` (bind) chains effectful computations. `do` notation provides imperative-looking syntax for monadic code.
 
-- **Higher-Order Functions**: functions that take or return functions. `map`, `filter`, `foldr` are the building blocks of functional programming.
+- **Higher-Order Functions**: functions that take or return functions. `map``filter``foldr` are the building blocks of functional programming.
 
 ## Intuition
 
@@ -42,7 +41,7 @@ Haskell is a purely functional language where expressions are evaluated lazily (
 - **Infinite recursion**: Writing a base case that never triggers, the function recurses forever, building up the stack until it overflows. Always ensure the base case is reachable.
 - **Off-by-one in infinite lists**: Defining `[1..]` produces an infinite list, this is fine if consumed lazily but can hang if forced into a strict context (e.g., `length [1..]` never terminates).
 - **Type class ambiguity**: When a function uses a type class that has multiple instances for a type, Haskell cannot infer which one to use, add a type annotation to resolve the ambiguity.
-- **Forgetting strictness**: Lazy evaluation can cause space leaks. Use `seq`, `BangPatterns`, or strict data types to control when evaluation happens.
+- **Forgetting strictness**: Lazy evaluation can cause space leaks. Use `seq``BangPatterns`or strict data types to control when evaluation happens.
 - **Confusing `=` with `==`**: `=` is assignment (in `let`/`where`); `==` is equality comparison (from `Eq` class). Using one instead of the other causes parse errors.
 
 ---
@@ -56,6 +55,25 @@ Haskell is a purely functional language where expressions are evaluated lazily (
 - **[Monads and Functors](../../../../../haskell/src/content/docs/04-monads/1_monads-and-functors):** Monad transformers and effect management covered in the flashcards.
 - **[Rust Traits](../rust/flashcards-rust-basics):** Rust's trait system provides similar type-level abstractions to Haskell's type classes.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -77,6 +95,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -98,6 +135,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -119,7 +175,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -140,7 +195,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -160,70 +214,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 
 ## Advanced Content
 

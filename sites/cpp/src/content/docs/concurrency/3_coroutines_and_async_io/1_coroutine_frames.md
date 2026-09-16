@@ -19,7 +19,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[1_Coroutine_Frames] --> B[Key Concepts]
@@ -114,6 +113,7 @@ Compiler generates a `promise_type` lookup, allocates a coroutine frame, and tra
 Body into a state machine. The `promise_type` member alias tells the compiler which promise type to
 Use [N4950 §9.5.2].
 :::
+
 ## Stackless vs Stackful Coroutines
 
 C++ chose **stackless coroutines**, the coroutine frame is a single heap-allocated block, not a
@@ -254,7 +254,7 @@ The frame layout is :
 +---------------------------+
 | int c                     |  (may be stored)
 +---------------------------+
-| coroutine state index     |  (enum: 0, 1, 2..., done)
+| coroutine state index     |  (enum: 0, 1, 2, ..., done)
 +---------------------------+
 | padding                   |
 +---------------------------+
@@ -345,6 +345,7 @@ _permits_ it. In practice, most major compilers (GCC 12+, Clang 16+, MSVC 19.30+
 Allocation in simple cases, but for complex promise types or when the handle escapes, heap
 Allocation occurs. Always profile if allocation overhead is a concern.
 :::
+
 ### Heap Allocation Elision (HALO)
 
 **Heap Allocation Elision Optimization** (HALO) is a compiler optimization that avoids heap

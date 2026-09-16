@@ -135,6 +135,7 @@ Non-discarded path is still subject to all normal C++ rules. Be careful with sid
 `if constexpr` branches --- a discarded branch that would have had a side effect does not execute,
 But a taken branch with a side effect does execute at runtime.
 :::
+
 ## Type-Safe `to_string` with `if constexpr`
 
 Before `if constexpr`Writing a type-safe string conversion function required either specialization
@@ -242,7 +243,7 @@ struct Serializer {
             oss << "(";
             std::apply([this](const auto&... elems) {
                 bool first = true;
-                ((serialize(elems), oss << (first ? (first = false, "") : ", "))...);
+                ((serialize(elems), oss << (first ? (first = false, "") : ", ")), ...);
             }, value);
             oss << ")";
         } else {
@@ -288,6 +289,7 @@ Logic in a single function body, avoids code duplication, and is easier to maint
 Is still necessary when different types require fundamentally different function signatures or
 Return types.
 :::
+
 ## `constexpr` Functions
 
 A `constexpr` function [N4950 §7.7] is a function that **may** be evaluated at compile time. If all
@@ -409,6 +411,7 @@ Computation and should never appear in the generated binary. `consteval` functio
 With a non-constant argument (because the `consteval` function would fail its compile-time
 Requirement).
 :::
+
 ## `constinit` --- Compile-Time Initialization (C++20)
 
 The `constinit` specifier [N4950 §6.6.3] guarantees that a variable with static or thread storage
@@ -547,6 +550,7 @@ Evaluation. The result of a `constexpr` function must not contain heap allocatio
 A local variable in a constexpr context, but you cannot return a heap-allocated vector and use it as
 A template argument. C++23 relaxes this further for non-transient allocations in some contexts.
 :::
+
 ## `consteval` for Compile-Time String Parsing
 
 ```cpp
@@ -620,7 +624,6 @@ key: "key'', value: "value'
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
-
 
 ```mermaid
 flowchart TD

@@ -6,7 +6,6 @@ description: "Study notes for Ruby with worked examples, practice problems, and 
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -34,7 +33,7 @@ Ruby's elegant syntax and powerful metaprogramming features make it ideal for ra
 
 ## How to Get Started
 
-Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }`, `[1,2,3].map { |n| n * 2 }`, and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
+Install Ruby via rbenv (<https://github.com/rbenv/rbenv>) or your system package manager. Open IRB (Interactive Ruby) and experiment with the basics: `5.times { puts "Hello" }``[1,2,3].map { |n| n * 2 }`and defining classes with `attr_accessor`. The "Ruby in 20 Minutes" tutorial (ruby-lang.org) is an excellent starting point. Build a small project, a command-line tool or a simple web app with Sinatra, to apply what you learn.
 
 Browse the content using the sidebar navigation on the left.
 
@@ -44,7 +43,7 @@ Browse the content using the sidebar navigation on the left.
 
 **Why it matters:** Ruby powers Rails, one of the most productive web frameworks. Ruby's emphasis on convention over configuration enabled rapid web application development.
 
-**The key insight:** Ruby's blocks and iterators provide a clean alternative to loops, iterating over collections with .each.map, and .select is more readable than traditional for loops.
+**The key insight:** Ruby's blocks and iterators provide a clean alternative to loops, iterating over collections with .each, .map, and .select is more readable than traditional for loops.
 
 ## Study Approach
 
@@ -100,7 +99,6 @@ end
 - **[Site Home](../../):** Main landing page for ruby notes.
 - **[Practice](../../practice-*):** Practice problems for revision.
 
-
 ## Detailed Content
 
 This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
@@ -122,7 +120,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
-
 
 ## Detailed Content
 

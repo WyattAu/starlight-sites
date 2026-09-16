@@ -373,7 +373,7 @@ UNIFY(t1, t2):
     if t1 == t2: return
     if t1 is type variable and t1 not in t2: substitute(t1, t2)
     if t2 is type variable and t2 not in t1: substitute(t2, t1)
-    if t1 = T(s1...,sn) and t2 = T(s1...,sm) and n == m:
+    if t1 = T(s1,...,sn) and t2 = T(s1,...,sm) and n == m:
         for i = 1 to n: UNIFY(si, ti)
     else: error "type mismatch"
 ```
@@ -713,7 +713,6 @@ with FIRST(E'), entries for FOLLOW symbols map to the epsilon production.
 c - d; t3 = t1_ t2; x = t3. The three-address code uses temporary variables t1, t2, t3. Each
 instruction has at most one operator on the right side. A basic block contains these four
 instructions in sequence.
-
 
 ```mermaid
 flowchart TD

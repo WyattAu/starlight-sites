@@ -73,16 +73,18 @@ $$
 Docusaurus supports admonition callouts using triple-colon syntax:
 
 ```md
-:::note
-<strong>Note</strong>
+
+:::note[Note]
 This is a note block.
 :::
+
 > **Tip:** This is a tip block.
 > **Caution:** This is a warning block.
-:::danger
-<strong>Danger</strong>
+
+:::danger[Danger]
 This is a danger block.
 :::
+
 ```
 
 Custom titles are supported: `:::info[Custom Title]`
@@ -94,7 +96,7 @@ Standard markdown tables use pipe-delimited rows with a header separator:
 | Feature   | Supported | Notes                                         |
 | --------- | --------- | --------------------------------------------- |
 | Basic     | Yes       | Pipe-delimited with `---` separator           |
-| Alignment | Yes       | `:---`, `:---:`, `---:` for left/center/right |
+| Alignment | Yes       | `:---``:---:``---:` for left/center/right |
 | Colspan   | No        | Not supported in standard markdown; use HTML  |
 
 ### Nested Lists and Checklists

@@ -1,6 +1,5 @@
 ---
 
-
 title: "Probability"
 description: "Study notes for Probability | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ------------------------------------------------- | | AQA | Paper 1, 2 | Basic probability in P1;"
@@ -21,7 +20,6 @@ categories:
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "alevel", "url": "https://alevel.wyattau.com"}, {"name": "Maths", "url": "https://alevel.wyattau.com/maths"}, {"name": "Statistics", "url": "https://alevel.wyattau.com/maths/statistics"}, {"name": "03 Probability", "url": "https://alevel.wyattau.com/maths/statistics/03-probability"}]
 }
 </script>
-
 
 ```mermaid
 flowchart TD
@@ -45,6 +43,7 @@ flowchart TD
 :::note
 and draw a diagram before calculating.
 :::
+
 <hr />
 
 ## 1. Kolmogorov"s Axioms
@@ -173,6 +172,7 @@ $$P(B_k|A) = \frac{P(A|B_k)P(B_k)}{\sum_{i=1}^{n}P(A|B_i)P(B_i)}$$
 Positive, what is the probability the patient actually has the disease?" Always define events and
 identify what is given ($P(A|B)$) versus what is sought ($P(B|A)$).
 :::
+
 <hr />
 
 ## 5. Independence
@@ -201,6 +201,7 @@ Probability of $A$ is the same whether or not $B$ has happened.
 :::caution
 independent (since $P(A \cap B) = 0 \neq P(A)P(B)$).
 :::
+
 ### 5.3 Pairwise and mutual independence
 
 **Definition.** Events $A_1, A_2, \ldots, A_n$ are **mutually independent** if for every subset
@@ -217,6 +218,7 @@ $A$ = "first toss is heads", $B$ = "second toss is heads", $C$ = "both tosses ar
 $A$, $B$, $C$ are pairwise independent but not mutually independent since
 $P(A \cap B \cap C) = 0 \neq P(A)P(B)P(C) = 1/8$.
 :::
+
 <hr />
 
 ## 6. Venn Diagrams and Tree Diagrams
@@ -467,6 +469,7 @@ $$\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = \tfrac{85}{6} - \tfrac{49}{4} = \tfrac{1
 :::note
 concentrated around the Centre.
 :::
+
 <hr />
 
 ## Problem Set
@@ -869,6 +872,7 @@ with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Common Pitfalls
 
 1. Incorrectly applying integration by parts by choosing $u$ and $\frac{dv}{dx}$ the wrong way

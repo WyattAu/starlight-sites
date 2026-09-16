@@ -83,6 +83,7 @@ System.out.println(s1 == s2); // true
 Billions of unique strings (e.g., every URL your crawler visits) will cause `OutOfMemoryError`.
 Intern only strings that appear frequently and have bounded cardinality.
 :::
+
 ### Compact Strings (JDK 9+)
 
 Before JDK 9, every `String` stored its characters in a `char[]`2 bytes per character. JDK 9
@@ -230,6 +231,7 @@ String sub = s.substring(7, 12); // "World"
 Could cause memory leaks (the original large string could not be GC'd if a small substring was
 Retained). Since JDK 7u6, `substring` copies the relevant portion into a new `char[]`.
 :::
+
 ### Split and Join
 
 ```java
@@ -329,6 +331,7 @@ emoji.codePoints().forEach(cp -> {
 :::caution
 Pairs. Use `codePoints()``codePointAt()`Or iterate with `Character.isHighSurrogate` checks.
 :::
+
 ## Regular Expressions
 
 Java's regex engine is in `java.util.regex`. The two primary classes are `Pattern` (compiled
@@ -475,6 +478,7 @@ Setting. A program that works on Linux (UTF-8 default) will mangle data on Windo
 Default) if you use `getBytes()` or `new String(byte[])` without an explicit charset. Always use
 `StandardCharsets.UTF_8` or a specific `Charset` constant.
 :::
+
 ## String Formatting
 
 ### `String.format`
@@ -482,7 +486,7 @@ Default) if you use `getBytes()` or `new String(byte[])` without an explicit cha
 `String.format` uses `Formatter` internally and supports format specifiers similar to `printf` in C:
 
 ```java
-String s = String.format("Name: %s, Age: %d, Balance: $%.2f", "Alice", 30, 12345.678);
+String s = String.format("Name: %s, Age: %d, Balance: $%,.2f", "Alice", 30, 12345.678);
 // "Name: Alice, Age: 30, Balance: $12,345.68"
 ```
 
@@ -950,7 +954,6 @@ List<String> lines = text.lines().collect(Collectors.toList());
 "".isEmpty();       // true
 "   ".isEmpty();    // false, contains whitespace characters
 ```
-
 
 ```mermaid
 flowchart TD

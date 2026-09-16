@@ -564,7 +564,7 @@ import time
 import random
 
 @contextmanager
-def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception)):
+def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception,)):
     last_exc = None
     for attempt in range(max_attempts):
         try:
@@ -578,7 +578,7 @@ def retry(max_attempts=3, base_delay=1.0, exceptions=(Exception)):
     raise last_exc
 
 # Usage
-with retry(max_attempts=3, exceptions=(ConnectionError)):
+with retry(max_attempts=3, exceptions=(ConnectionError,)):
     response = requests.get("https://api.example.com/data")
 ```
 
@@ -850,7 +850,6 @@ async with get_resource():
     pass
 ```
 
-
 ```mermaid
 flowchart TD
     A[03 Context Managers] --> B[Key Concepts]
@@ -886,6 +885,7 @@ Context managers are like restaurant reservations: you book a table (open a reso
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Advanced Typing](./01-advanced-typing): Extends Python's type system with protocols and generics, which can be used to type context managers more precisely.

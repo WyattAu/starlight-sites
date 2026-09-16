@@ -400,6 +400,7 @@ Operation less penalizing.
 Permanent damage to the DRAM chips. Even 1.45 V should only be used with active cooling on the
 DIMMs.
 :::
+
 ### Stability Testing After Changes
 
 | Test                         | Duration       | What It Catches                          |
@@ -520,6 +521,7 @@ echo always | sudo tee /sys/kernel/mm/transparent_hugepage/enabled
 The kernel's khugepaged daemon defragmenting memory in the background. Database vendors recommend
 Setting THP to `madvise` or `never`.
 :::
+
 ### Huge Pages
 
 Static huge pages are pre-allocated at boot time and cannot be swapped out. They are used by
@@ -1094,7 +1096,6 @@ If four-DIMM stability is poor:
 - Relax secondary timings (tFAW, tRRD).
 - Ensure DIMMs in slots A2/B2 match and DIMMs in A1/B1 match.
 
-
 ```mermaid
 flowchart TD
     A[Memory Tuning] --> B[Key Concepts]
@@ -1126,6 +1127,7 @@ programming, and requires both theoretical knowledge and hands-on practice.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [CPU Fundamentals](../01-cpu-tuning/cpu-fundamentals) - How memory controllers and IMC settings interact with CPU performance

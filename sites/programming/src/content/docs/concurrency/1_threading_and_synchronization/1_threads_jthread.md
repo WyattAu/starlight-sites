@@ -91,6 +91,7 @@ int main() {
 :::tip
 waiting rather Than computing.
 :::
+
 ## Joining and Detaching
 
 A `std::thread` object is in one of two states relative to an OS thread [N4950 §31.4.4.1.2]:
@@ -107,6 +108,7 @@ A `std::thread` object is in one of two states relative to an OS thread [N4950 �
 :::caution
 [N4950 §31.4.4.1.3]. Always ensure a thread is either joined or detached before destruction.
 :::
+
 ## RAII-Based Thread Guard
 
 Before C++20's `std::jthread`A common pattern was to write an RAII wrapper that joins in its
@@ -195,6 +197,7 @@ int main() {
 :::note
 [N4950 §31.4.4.4.2].
 :::
+
 ## Thread-Safe Worker Pool with `jthread` + `stop_token`
 
 The following example implements a simple thread pool using `std::jthread` for automatic lifecycle
@@ -342,6 +345,7 @@ void native_handle_demo() {
 documentation for your standard Library implementation. Code using `native_handle()` is inherently
 non-portable.
 :::
+
 ## Thread Arguments and Race Conditions
 
 Arguments to `std::thread` are passed by value (moved or copied) into the new thread's stack. This
@@ -382,6 +386,7 @@ void race_condition_demo() {
 thread accesses it, the Copy is safe. However, if you explicitly pass `std::ref` or `std::cref`You
 bypass this protection And must ensure the referenced object outlives the thread.
 :::
+
 ## `std::jthread` with Return Value via `std::promise`
 
 `std::jthread`'s callable does not return a value directly. To get a return value from a thread, use
@@ -427,6 +432,7 @@ void promise_future_demo() {
 completes. However, detached threads are hard to reason about, you cannot join them, and they may
 outlive `main()`Causing undefined behavior. Prefer joining whenever possible.
 :::
+
 ## `std::stop_callback`Reactive Cancellation
 
 `std::stop_callback` registers a callback that is invoked when `stop_requested()` becomes true
@@ -464,6 +470,7 @@ void stop_callback_demo() {
 the `stop_callback` Object outlives the expected stop request. The callback itself is invoked
 synchronously from the Thread that calls `request_stop()`Not from the worker thread.
 :::
+
 ## Thread Stack Size
 
 Each OS thread has a stack with a default size that varies by platform:
@@ -500,6 +507,7 @@ void stack_size_info() {
 with deep recursion Or large local variables in thread functions. Use heap allocation for large
 buffers, not stack Allocation.
 :::
+
 ## `std::jthread` Constructor Variants
 
 `std::jthread` supports several constructor forms [N4950 §31.4.4.4.1]:
@@ -561,7 +569,6 @@ void constructor_variants() {
 6. **Thread function exceptions:** If an exception escapes the thread's callable, `std::terminate()`
    is called. Use `std::promise` to transport exceptions to the joining thread, or catch all
    exceptions inside the thread function and store them.
-
 
 ```mermaid
 flowchart TD

@@ -277,7 +277,6 @@ The Cauchy-Schwarz inequality is the foundation: it says the "correlation" betwe
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[7_Inner Product Spaces] --> B[Key Concepts]
@@ -294,5 +293,6 @@ flowchart TD
 - **[Vectors and Vector Spaces](1_vectors-and-vector-spaces)**: Inner product spaces are vector spaces equipped with an inner product that generalises the dot product.
 - **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD decomposes a matrix using orthonormal bases derived from inner products on $A^T A$ and $AA^T$.
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

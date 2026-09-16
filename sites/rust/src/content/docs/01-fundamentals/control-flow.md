@@ -530,12 +530,12 @@ struct Point3D { x: f64, y: f64, z: f64 }
 let p = Point3D { x: 1.0, y: 2.0, z: 3.0 };
 
 match p {
-    Point3D { x.. } => println!("x is {}", x),
+    Point3D { x, .. } => println!("x is {}", x),
 }
 
 let origin = (0, 0, 0);
 match origin {
-    (0..) => println!("x is zero"),
+    (0, ..) => println!("x is zero"),
     _ => {}
 }
 ```
@@ -588,7 +588,7 @@ match points {
 let arr = [1, 2, 3, 4, 5];
 
 match arr {
-    [first, second..] => {
+    [first, second, ..] => {
         println!("first: {}, second: {}", first, second);
     }
     [] => {
@@ -600,7 +600,7 @@ match arr {
 let slice = &[1, 2, 3, 4, 5];
 match slice {
     [1, 2, rest @ ..] => println!("starts with 1,2, rest: {:?}", rest),
-    [1.., 5] => println!("starts with 1, ends with 5"),
+    [1, .., 5] => println!("starts with 1, ends with 5"),
     _ => println!("other"),
 }
 ```

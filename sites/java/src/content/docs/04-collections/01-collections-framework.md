@@ -71,6 +71,7 @@ Different: collections are groups of elements, while maps are groups of key-valu
 `Map` into the `Collection` hierarchy would have required either contrived semantics or a separate
 Parallel hierarchy for map entries.
 :::
+
 ## The Iterable Interface
 
 `Iterable<T>` is the root of the collection type hierarchy. Any object implementing `Iterable<T>`
@@ -267,6 +268,7 @@ Bulk. Furthermore, each `LinkedList` node requires an extra object allocation (1
 For the object header, plus three reference fields), so a `LinkedList` with N elements uses
 Significantly more memory than an `ArrayList` with the same elements.
 :::
+
 `ArrayList` also implements the `RandomAccess` marker interface, which signals that it supports fast
 Random access. Generic algorithms in `Collections` check for this interface to choose between
 Iteration-based and index-based algorithms:
@@ -397,6 +399,7 @@ Representation, making the entire set occupy just 16 bytes (object header + long
 With more than 64 constants, it uses a `long[]`. All bulk operations (`containsAll``retainAll` Etc.)
 are implemented as bitwise AND, OR, and NOT operations on the bit vectors.
 :::
+
 ### Set Implementation Comparison
 
 | Feature                       | HashSet     | LinkedHashSet   | TreeSet                        | EnumSet                |
@@ -528,6 +531,7 @@ Because a larger table distributes keys across more buckets and may resolve the 
 The overhead of tree nodes. Only when the table already has at least 64 entries does it actually
 Convert the linked list to a red-black tree.
 :::
+
 #### Load Factor and Capacity
 
 The **load factor** (default 0.75) determines when the table is resized. When
@@ -621,6 +625,7 @@ Node X makes X's right child Y the new root of the subtree, with X becoming Y's 
 Former left child becoming X's right child. Rotations preserve the binary search tree property
 (in-order traversal yields sorted order) while changing the tree's shape to reduce height.
 :::
+
 ```java
 // Range operations are efficient in TreeMap because they leverage the sorted structure
 NavigableMap<Integer, String> scores = new TreeMap<>();
@@ -688,6 +693,7 @@ Cache in a concurrent environment requires external synchronization or a wrapper
 `Collections.synchronizedMap()`. For high-concurrency LRU caches, consider `Caffeine` or
 `Guava Cache` instead.
 :::
+
 ### ConcurrentHashMap
 
 `ConcurrentHashMap<K,V>` is a thread-safe Map designed for high concurrency. Unlike `Hashtable` or
@@ -726,6 +732,7 @@ Key is absent" or "the key maps to null." In a single-threaded map, you can disa
 By prohibiting null values, `ConcurrentHashMap` ensures that `get()` returning `null` unambiguously
 means "the key is absent."
 :::
+
 ### Map Implementation Comparison
 
 | Feature            | HashMap                    | LinkedHashMap             | TreeMap        | ConcurrentHashMap                |
@@ -777,6 +784,7 @@ Structure while the iterator is active and will throw `ConcurrentModificationExc
 `Iterator.remove()` instead, which updates the iterator's internal state and the expected
 Modification count atomically.
 :::
+
 ### ListIterator
 
 `ListIterator<E>` extends `Iterator<E>` with bidirectional traversal and the ability to modify the
@@ -834,6 +842,7 @@ Happens in the iterator, not via synchronization. The exception is thrown when t
 Detected, not when it occurs. In a concurrent setting without external synchronization, a fail-fast
 Exception should be used to **detect bugs**, not as a correctness mechanism.
 :::
+
 ### Fail-Safe Iterators
 
 Iterators from `java.util.concurrent` collections (e.g., `ConcurrentHashMap.KeySetView.iterator()`)
@@ -944,6 +953,7 @@ Defines a comparison strategy (many orderings for the same type). Use `Comparabl
 Natural, obvious ordering. Use `Comparator` when you need alternative orderings or when you cannot
 Modify the class to implement `Comparable`.
 :::
+
 Both `compareTo()` and `compare()` must satisfy the same contract as `equals()`:
 
 1. **sgn(compare(x, y)) == -sgn(compare(y, x))** (antisymmetry)
@@ -958,6 +968,7 @@ Equality, not `equals()`. If the comparator is inconsistent with `equals()`The s
 `Set` contract (it may contain elements that are equal according to `equals()` but have Different
 comparison results).
 :::
+
 ## Collections Utility Class
 
 `java.util.Collections` provides static methods that operate on or return collections. It is the
@@ -985,6 +996,7 @@ Collections.binarySearch(numbers, 3, Comparator.naturalOrder());
 To the same ordering used for the search. Passing a list sorted by natural ordering but searching
 With a custom `Comparator` will produce incorrect results without any exception.
 :::
+
 ### Unmodifiable Wrappers
 
 ```java
@@ -1020,6 +1032,7 @@ High-concurrency scenarios. Every method call acquires the monitor lock on the w
 Even reads block each other. For read-heavy workloads, `ConcurrentHashMap` with its lock-free reads
 And fine-grained write locking provides far better throughput.
 :::
+
 ### Other Utility Methods
 
 ```java
@@ -1114,6 +1127,7 @@ Passing null throws `NullPointerException`. This is a deliberate design choice: 
 source of bugs, and immutable collections that cannot contain nulls are easier to Reason about. Use
 `Collections.singletonList(null)` or a mutable collection if nulls are required.
 :::
+
 The internal implementation uses compact field-based storage for small sizes. For example,
 `List.of("A", "B")` creates an instance of `ListN` (or for very small lists, `List12``ListN1` Etc.)
 that stores elements in `final` fields rather than in an array. This reduces memory overhead And

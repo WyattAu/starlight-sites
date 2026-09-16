@@ -59,7 +59,7 @@ s[0:5]          # "Hello"
 f"Name: {name}" # f-string formatting
 ```
 
-**Boolean (bool)**: A data type with two values: `True` and `False`, used for logical operations.
+**Boolean (bool)**: A data type with two values: `True` and `False`used for logical operations.
 
 **None**: Python's null value, representing the absence of a value or a function with no return statement.
 
@@ -375,7 +375,7 @@ class Circle:
         self._radius = value
 ```
 
-**Dataclass**: A class decorator that automatically generates special methods like `__init__`, `__repr__`, and `__eq__` (Python 3.7+).
+**Dataclass**: A class decorator that automatically generates special methods like `__init__``__repr__`and `__eq__` (Python 3.7+).
 
 ```python
 from dataclasses import dataclass
@@ -412,7 +412,7 @@ except Exception as e:
     print(f"Unexpected error: {e}")
 ```
 
-**Finally Block**: Code that always executes after `try-except`, regardless of whether an exception occurred.
+**Finally Block**: Code that always executes after `try-except`regardless of whether an exception occurred.
 
 ```python
 try:
@@ -486,7 +486,7 @@ now = datetime.now()
 formatted = now.strftime("%Y-%m-%d %H:%M:%S")
 ```
 
-**collections Module**: Provides specialized container types like `Counter`, `defaultdict`, `deque`, and `namedtuple`.
+**collections Module**: Provides specialized container types like `Counter``defaultdict``deque`and `namedtuple`.
 
 ```python
 from collections import Counter, defaultdict
@@ -507,11 +507,11 @@ combos = itertools.combinations([1, 2, 3], 2)
 
 **Context Manager Protocol**: The `__enter__` and `__exit__` methods that enable objects to work with the `with` statement.
 
-**Descriptor Protocol**: The `__get__`, `__set__`, and `__delete__` methods that enable attribute access customization.
+**Descriptor Protocol**: The `__get__``__set__`and `__delete__` methods that enable attribute access customization.
 
 **Metaclass**: A class that defines how other classes are constructed, with `type` being the default metaclass.
 
-**Coroutine**: A function that can pause and resume execution using `async` and `await`, enabling asynchronous programming.
+**Coroutine**: A function that can pause and resume execution using `async` and `await`enabling asynchronous programming.
 
 ```python
 async def fetch_data():

@@ -286,6 +286,7 @@ $y(t) = 6 \cdot \frac{t^2 e^{3t}}{2!} = 3t^2 e^{3t}$. $\blacksquare$
 :::caution
 conditions are built into the transform. Forgetting them leads to incorrect solutions.
 :::
+
 :::caution
 written as $u_c(t)f(t - c)$ not $u_c(t)f(t)$. The function $f$ must be shifted by the same Amount as
 the step.
@@ -370,7 +371,6 @@ If $f$ and $\partial f/\partial y$ are continuous, one shows by induction that $
 uniformly Cauchy on some interval $[x_0 - h, x_0 + h]$Hence converges uniformly to a function
 $\phi$. Passing to the limit in the integral equation shows $\phi$ satisfies the ODE. Uniqueness
 follows From the **Gronwall inequality** applied to the difference of two solutions.
-
 
 ```mermaid
 flowchart TD

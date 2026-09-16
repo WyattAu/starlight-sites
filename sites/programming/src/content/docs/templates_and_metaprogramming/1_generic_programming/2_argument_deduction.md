@@ -215,6 +215,7 @@ Following are **not** forwarding references:
 - `T&amp;&amp;` in a class template member function where T is the class template parameter
 - `const T&amp;&amp;` (the `const` prevents the forwarding reference interpretation)
 :::
+
 ### Array-to-Pointer and Function-to-Pointer Decay
 
 Arrays and functions decay to pointers during deduction unless the parameter is a reference:
@@ -340,6 +341,7 @@ int main() {
 The class template both participate in deduction and produce conflicting results, deduction fails
 [N4950 S16.3.1.7].
 :::
+
 ### CTAD Rules [N4950 S16.3.1.3]
 
 The CTAD process follows a specific algorithm:
@@ -825,7 +827,7 @@ int main() {
 
 ## Intuition
 
-**Template argument deduction is like a detective figuring out the suspect:** The compiler looks at the function arguments and deduces the template parameters, like a detective looking at evidence and deducing the culprit. If you call `max(3, 5)`, the compiler deduces `T = int`. If you call `max(3.0, 5.0)`, it deduces `T = double`. The deduction rules are like the detective's reasoning process, they follow a strict hierarchy of rules to figure out the most specific type.
+**Template argument deduction is like a detective figuring out the suspect:** The compiler looks at the function arguments and deduces the template parameters, like a detective looking at evidence and deducing the culprit. If you call `max(3, 5)`the compiler deduces `T = int`. If you call `max(3.0, 5.0)`it deduces `T = double`. The deduction rules are like the detective's reasoning process, they follow a strict hierarchy of rules to figure out the most specific type.
 
 **Why it matters:** Deduction lets you call templates without explicitly specifying template arguments, `max(3, 5)` instead of `max<int>(3, 5)`. But deduction can fail or produce unexpected results if the arguments are ambiguous. Understanding the deduction rules (including the new C++17 rules for class template argument deduction) is essential for writing usable templates.
 
@@ -873,7 +875,6 @@ int main() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

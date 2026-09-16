@@ -127,7 +127,7 @@ SJF:
 
 **Optimal** (minimizes average waiting time), but requires knowing burst times in advance.
 
-**Shortest Remaining Time First (SRTF):** Preemptive version–when a new process arrives with shorter
+**Shortest Remaining Time First (SRTF):** Preemptive version,when a new process arrives with shorter
 remaining time, preempt current process.
 
 ### 2.4 Round Robin (RR)
@@ -166,7 +166,7 @@ PRIORITY_SCHEDULE(ready_queue):
 
 ```
 MLFQ:
-    maintain multiple queues Q0, Q1..., Qn
+    maintain multiple queues Q0, Q1, ..., Qn
     Q0: highest priority, RR with quantum q0
     Q1: lower priority, RR with quantum q1 = 2*q0
     ...
@@ -407,7 +407,7 @@ that each $P_i$ can obtain all needed resources and terminate.
 BANKERS(Available, Max, Allocation, Need):
     // Need[i] = Max[i] - Allocation[i]
     Work = Available
-    Finish = [false..., false]
+    Finish = [false, ..., false]
 
     repeat:
         found = false
@@ -694,7 +694,6 @@ Allocation: P1=(7,4,3), P2=(1,2,2), P3=(6,0,0), P4=(0,1,1), P5=(4,3,1). Availabl
 be satisfied: Available + P2 alloc = (3,3,2)+(2,0,0) = (5,3,2). Then P4: (5,3,2)+(2,1,1)=(7,4,3).
 Then P1: (7,4,3)+(0,1,0)=(7,5,3). Then P3: (7,5,3)+(3,0,2)=(10,5,5). Then P5. Safe sequence: P2, P4,
 P1, P3, P5.
-
 
 ```mermaid
 flowchart TD

@@ -66,6 +66,7 @@ Complete dominance, (c) no gene interaction, and (d) no linkage. Real organisms 
 One or more of these assumptions. The DSE syllabus expects you to recognise when Mendelian ratios do
 Not hold and to explain why.
 :::
+
 ### Monohybrid Crosses
 
 A monohybrid cross involves a single pair of contrasting traits.
@@ -261,6 +262,7 @@ Three alleles exist at the I locus:
 Genotype. An individual always carries exactly two alleles. The phrase "multiple alleles" refers to
 The gene pool of the entire population, not to a single organism.
 :::
+
 **Worked calculation:**
 
 A woman with blood group A (whose father was blood group O) has a child with a man who is blood
@@ -441,6 +443,7 @@ When constructing genetic diagrams for DSE examinations, follow these convention
 need to show All individual genotypes. For X-linked crosses, always use a Punnett square since the
 gamete Combinations differ between males and females.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1360,6 +1363,7 @@ exposures affect gene expression and disease risk across generations. However, e
 should NOT be confused with Lamarckian inheritance of acquired characteristics -- the DNA sequence
 itself is unchanged.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -1795,7 +1799,6 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
 - **DNA profiling compares the NUMBER OF REPEATS at specific loci, NOT the sequence of bases.** The
   bases in the repeat are the same between individuals; what varies is how many times the repeat
   occurs\*\* :::
-
 
 ```mermaid
 flowchart TD

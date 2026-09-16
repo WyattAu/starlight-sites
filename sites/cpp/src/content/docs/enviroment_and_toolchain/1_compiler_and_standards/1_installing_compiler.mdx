@@ -233,7 +233,7 @@ Create a file named `test.cpp`:
 int main() \{
     // Test C++20/23 feature: Designated Initializers and Ranges
     struct Config \{ int id; float value; \};
-    Config cfg\{ .id = 1.value = 3.14f \};
+    Config cfg\{ .id = 1, .value = 3.14f \};
 
     std::vector<int> data = \{1, 2, 3, 4, 5\};
 
@@ -256,10 +256,11 @@ clang++ -std=c++23 -O3 test.cpp -o infra_test
 ```
 
 :::caution
-<strong>If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest</strong>
+If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest
 
 Visual Studio 2022 installed.
 :::
+
 **Success Criteria:**
 
 1. No compilation errors or warnings.
@@ -800,7 +801,6 @@ if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
     validate_compiler("Clang" "clang++")
 endif()
 ```
-
 
 ```mermaid
 flowchart TD

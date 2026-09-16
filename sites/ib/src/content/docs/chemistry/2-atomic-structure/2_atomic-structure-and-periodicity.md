@@ -84,10 +84,9 @@ $$
 A_r = \sum_{i} (\mathrm{isotope mass})_i \times (\mathrm{fractional abundance})_i
 $$
 
-:::note
-<strong>Example, Chlorine</strong>
-Chlorine has two occurring isotopes: $\mathrm{Cl}$-35 ($75.77\%$Mass $\approx 34.97\mathrm{ u}$) and
-$\mathrm{Cl}$-37 ($24.23\%$Mass $\approx 36.97\mathrm{ u}$).
+:::note[Example, Chlorine]
+Chlorine has two occurring isotopes: $\mathrm{Cl}$-35 ($75.77\%$ mass $\approx 34.97\mathrm{ u}$) and
+$\mathrm{Cl}$-37 ($24.23\%$ mass $\approx 36.97\mathrm{ u}$).
 
 $$
 A_r = (34.97 \times 0.7577) + (36.97 \times 0.2423) = 26.50 + 8.96 = 35.46
@@ -166,11 +165,10 @@ Each electron in an atom is described by four quantum numbers:
 
 The number of orbitals in a subshell is $2l + 1$.
 :::
-:::note
-<strong>Example, Quantum numbers for a $3p$ electron</strong>
-For the $3p$ subshell: $n = 3$, $l = 1$$m_l = -1, 0, +1$$m_s = \pm\frac{1}{2}$
+:::note[Example: Quantum numbers for a $3p$ electron]
+For the $3p$ subshell: $n = 3$, $l = 1$, $m_l = -1, 0, +1$, $m_s = \pm\frac{1}{2}$.
 
-This gives three $p$-orbitals ($p_x$$p_y$$p_z$), each holding two electrons, for a total of six $3p$
+This gives three $p$-orbitals ($p_x$, $p_y$, $p_z$), each holding two electrons, for a total of six $3p$
 electrons.
 
 ### Electron Configuration Principles
@@ -339,8 +337,7 @@ Nuclei of adjacent atoms in the solid or liquid), which is significantly larger 
 | Ionic radius increases down a group         | Additional shells                                                    |
 | Across a period, ions decrease in size      | Isoelectronic series: same number of electrons, increasing $Z$       |
 :::
-:::note
-<strong>Example, Isoelectronic series</strong>
+:::note[Example, Isoelectronic series]
 $\mathrm{O}^{2-} \gt \mathrm{F}^- \gt \mathrm{Na}^+ \gt \mathrm{Mg}^{2+} \gt \mathrm{Al}^{3+}$
 
 All have the neon configuration ($1s^2\, 2s^2\, 2p^6$$10$ electrons). The nuclear charge increases
@@ -379,8 +376,7 @@ $$
 A large jump in successive ionization energies indicates the removal of an electron from a new inner
 Shell. This reveals the electron configuration.
 :::
-:::note
-<strong>Example, Aluminium</strong>
+:::note[Example, Aluminium]
 For aluminium ($1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$):
 
 - $IE_1 = 578\mathrm{ kJ/mol}$ (removes $3p$ electron)
@@ -389,6 +385,7 @@ For aluminium ($1s^2\, 2s^2\, 2p^6\, 3s^2\, 3p^1$):
 - $IE_4 = 11577\mathrm{ kJ/mol}$ (removes $2p$ electron, large jump!)
 
 The jump from $IE_3$ to $IE_4$ confirms that aluminium has three valence electrons.
+:::
 
 ### Electron Affinity
 
@@ -968,8 +965,7 @@ A mass spectrum plots **relative abundance** (y-axis) against **$m/z$** (x-axis)
 For a single element, the mass spectrum shows peaks at each isotope's mass, with heights
 Proportional to natural abundance.
 :::
-:::note
-<strong>Example, Boron</strong>
+:::note[Example, Boron]
 Boron has two isotopes: $\mathrm{B}$-10 ($19.9\%$) and $\mathrm{B}$-11 ($80.1\%$).
 
 The mass spectrum shows peaks at $m/z = 10$ and $m/z = 11$ with relative heights in the ratio
@@ -1014,8 +1010,7 @@ For molecules containing chlorine or bromine, the isotope patterns are distincti
 A molecule with one chlorine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $3:1$ ratio. A
 Molecule with one bromine atom shows an $\mathrm{M}$ and $\mathrm{M}+2$ peak in a $1:1$ ratio.
 :::
-:::note
-<strong>Example, Chlorobenzene</strong>
+:::note[Example, Chlorobenzene]
 Chlorobenzene ($\mathrm{C}_6\mathrm{H}_5\mathrm{Cl}$) shows:
 
 - $\mathrm{M}^+$ at $m/z = 112$ ($\mathrm{C}_6\mathrm{H}_5^{35}\mathrm{Cl}$)
@@ -1072,7 +1067,7 @@ Many-electron atom.
 1. Electrons in shells **$n-2$ or lower** contribute $1.00$ each.
 :::
 :::note
-<strong>Example, $Z_{\mathrm{eff}}$ for a $3p$ electron in chlorine ($Z = 17$)</strong>
+Example, $Z_{\mathrm{eff}}$ for a $3p$ electron in chlorine ($Z = 17$)
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^7$
 
 For a $3p$ electron:
@@ -1086,7 +1081,7 @@ $$ S = 2.10 + 6.80 + 2.00 = 10.90 $$
 $$ Z\_{\mathrm{eff}} = 17 - 10.90 = 6.10 $$
 :::
 :::note
-<strong>Example, $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)</strong>
+Example, $Z_{\mathrm{eff}}$ for a $3d$ electron in scandium ($Z = 21$)
 Configuration: $(1s)^2(2s, 2p)^8(3s, 3p)^8(3d)^1(4s)^2$
 
 For the $3d$ electron:
@@ -1145,7 +1140,7 @@ Where $R_H = 1.097 \times 10^7\mathrm{ m}^{-1}$ is the Rydberg constant, $n_i$ i
 Level, and $n_f$ is the final energy level ($n_i \gt n_f$ for emission).
 :::
 :::note
-<strong>Example, Wavelength of the first Balmer line</strong>
+Example, Wavelength of the first Balmer line
 For the transition $n = 3 \to n = 2$:
 
 $$
@@ -1471,20 +1466,17 @@ Electromagnetic spectrum (blue-violet). (2 marks)
 }
 </script>
 :::
-:::note
-<strong>IB Exam Tip</strong>
+:::note[IB Exam Tip]
 When answering "explain" questions about periodic trends, always reference **effective nuclear
 Charge** and **shielding**. The marking scheme expects these terms. A two-mark explanation requires
 The trend statement AND the reasoning.
 :::
-:::caution
-<strong>Common Mistake</strong>
+:::caution[Common Mistake]
 When writing electron configurations for transition metal ions, always remove electrons from the
 $ns$ orbital first (highest principal quantum number), NOT from the $(n-1)d$ orbital. So
 $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
 :::
-:::caution
-<strong>Common Mistake</strong>
+:::caution[Common Mistake]
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
 Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
 $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a larger atomic radius
@@ -1640,7 +1632,6 @@ For the A-Level treatment of this topic, see
 
 4. Confusing the terms 'molar' and 'molecular'. Molar refers to per mole ($\text{mol}^{-1}$), while
    molecular refers to individual molecules.
-
 
 ```mermaid
 flowchart TD

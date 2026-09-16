@@ -212,7 +212,7 @@ $200/2000 \times 100\% = 10\%$.
 metabolic processes (movement, maintaining body temperature, digestion). This energy is lost as
 heat. (2) **Excretion and egestion:** Not all food is digested and absorbed; some passes through as
 waste. (3) **Incomplete consumption:** Not all available biomass is eaten (bones, roots, etc.). (4)
-**Excretion:** Some absorbed energy is lost in urine. , only about 10% of energy is transferred to
+**Excretion:** Some absorbed energy is lost in urine., only about 10% of energy is transferred to
 the next trophic level.
 
 (d) With approximately 10% efficiency at each transfer, the energy available decreases
@@ -227,7 +227,6 @@ sustain another trophic level.
 **Why it matters:** Understanding energy transfer explains why food chains are short, why decomposers matter, and how ecosystems sustain themselves.
 
 **The key insight:** Only about 10% of energy transfers between trophic levels, the rest is lost as heat through respiration.
-
 
 ```mermaid
 flowchart TD

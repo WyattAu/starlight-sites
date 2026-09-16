@@ -823,6 +823,7 @@ Physical access trumps almost all technical controls. An attacker with physical 
 Can boot from a live USB, modify the bootloader, install a hardware keylogger, or steal the Drive.
 Server room access controls, visitor logging, and hardware security modules (HSMs) are not Optional.
 :::
+
 :::note
 Architecture), ISO/IEC 27001 (Information Security Management), OWASP Testing Guide v4, MITRE ATT&CK
 Framework, CISA Known Exploited Vulnerabilities Catalog, ISO/IEC 27005 (Risk Management).
@@ -848,6 +849,7 @@ for mastery of this topic.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->

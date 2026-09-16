@@ -264,6 +264,7 @@ the case where the node to be deleted has two children. In this case, one must f
 from its original position. The successor always has at most one child, simplifying the actual
 removal.
 :::
+
 ### 1.2 B-Trees and B+ Trees
 
 #### 1.2.1 B-Trees
@@ -441,6 +442,7 @@ A B-tree of order $m$ has maximum $m$ children per internal node, which means
 $t = \lceil m/2 \rceil$. A B-tree of minimum degree $t$ has maximum $2t - 1$ keys per node. Always
 verify which convention the question or textbook uses.
 :::
+
 ### 1.3 Tries and Prefix Trees
 
 A **trie** (from "retrieval") is a tree data structure for storing strings. Each node represents a
@@ -933,6 +935,7 @@ in practice due to the overhead of maintaining the root list, marking nodes, and
 this reason, binary heaps (or pairing heaps) are often preferred in practice despite worse
 theoretical amortised bounds for decrease-key.
 :::
+
 ### 2.3 Pairing Heaps
 
 A **pairing heap** is a simplified alternative to Fibonacci heaps. It is a single min-heap-ordered
@@ -1324,6 +1327,7 @@ violate timing constraints. For real-time applications, use data structures with
 (e.g., balanced BSTs instead of splay trees, or dynamic arrays with geometric resizing only when
 safe).
 :::
+
 **Theorem 7.1.** There exist sequences of operations where any data structure supporting dynamic
 array operations must pay $\Omega(\log n)$ per operation in the worst case (cell-probe model lower
 bound).

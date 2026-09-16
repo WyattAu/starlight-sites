@@ -24,8 +24,8 @@ categories:
 Building command-line interfaces in Python is not a "pick one and go" decision. The standard library
 Gives you `sys.argv` (bare metal) and `argparse` (batteries-included), while third-party libraries
 Like `click` and `typer` offer increasingly ergonomic abstractions. Each layer trades control for
-Convenience. Understanding what happens beneath the abstractions–how arguments are parsed, how types
-Are coerced, how errors are surfaced–matters when your tool runs in production, in CI pipelines, on
+Convenience. Understanding what happens beneath the abstractions,how arguments are parsed, how types
+Are coerced, how errors are surfaced,matters when your tool runs in production, in CI pipelines, on
 Windows terminals with broken encodings, or under `set -e` where non-zero exits kill the entire
 Script.
 
@@ -36,7 +36,7 @@ But _why_ the mechanism exists and where it breaks.
 ## sys.argv Basics
 
 `sys.argv` is a list of strings passed to the Python interpreter. It is the lowest-level argument
-Interface available–no parsing, no validation, no help text. You get exactly what the shell gave
+Interface available,no parsing, no validation, no help text. You get exactly what the shell gave
 You, split on whitespace according to the shell"s own rules.
 
 ```python
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     main()
 ```
 
-**Index 0 is always the script name.** This is the path as the OS resolved it–not necessarily how
+**Index 0 is always the script name.** This is the path as the OS resolved it,not necessarily how
 The user invoked it. If the user runs `python ./scripts/build.py``sys.argv[0]` is
 `./scripts/build.py`. If they run `python -m mypackage``sys.argv[0]` is the path to the resolved
 Module file. If the interpreter is invoked with `-c``sys.argv[0]` is `'-c'`.
@@ -69,7 +69,7 @@ Expansion, or a wrapper script that injects extra positional arguments.
 - No type coercion. Everything is a string. `sys.argv[1]` is `"42"`Not `42`.
 - No help generation. You write it yourself or your users read source.
 - No flag handling. `-v` and `--verbose` are just positional strings you must manually detect.
-- No validation. Bounds checking, enum membership, file existence–all manual.
+- No validation. Bounds checking, enum membership, file existence,all manual.
 - No shell completion. You get none.
 
 For throwaway scripts and one-liners, `sys.argv` is fine. For anything a human or CI pipeline will
@@ -79,7 +79,7 @@ Use repeatedly, use a real parser.
 
 `argparse` is the standard library's argument parsing module. It is comprehensive, well-tested, and
 Has zero dependencies. It handles positional arguments, optional flags, type coercion, defaults,
-Mutually exclusive groups, subcommands, and help formatting. The API is verbose but explicit–every
+Mutually exclusive groups, subcommands, and help formatting. The API is verbose but explicit,every
 Behavior is opt-in.
 
 ### ArgumentParser
@@ -104,7 +104,7 @@ Key constructor parameters:
   newlines (the default `HelpFormatter` reflows text).
 - `formatter_class`: controls how help text is wrapped. `RawDescriptionHelpFormatter` prevents
   reflow; `ArgumentDefaultsHelpFormatter` appends default values to help strings.
-- `parents`: accepts a list of `ArgumentParser` instances whose arguments are copied in–useful for
+- `parents`: accepts a list of `ArgumentParser` instances whose arguments are copied in,useful for
   shared argument sets across subcommands.
 - `argument_default`: sets a global default for all arguments that don't specify their own.
 - `exit_on_error`: (3.9+) if `False``parse_args()` raises `ArgumentError` instead of calling
@@ -119,7 +119,7 @@ parser.add_argument("input", help="Path to the input file")
 parser.add_argument("output", help="Path to the output file")
 ```
 
-Positional arguments are required by default. The order matters–they are bound to their position in
+Positional arguments are required by default. The order matters,they are bound to their position in
 The command line, not their name.
 
 ### Optional Arguments
@@ -230,7 +230,7 @@ elif args.command == "test":
 ```
 
 `required=True` (3.7+) ensures a subcommand is always provided. Without it, omitting the subcommand
-Yields `args.command = None` and no error–the parser silently succeeds with all subcommand-specific
+Yields `args.command = None` and no error,the parser silently succeeds with all subcommand-specific
 Attributes unset. This is a common source of `AttributeError` bugs.
 
 Subparsers do **not** inherit the parent's `ArgumentParser.exit_on_error` setting in Python < 3.9.
@@ -381,7 +381,7 @@ Critical for CI pipelines where ANSI escape codes corrupt log files.
 3. **Built-in prompts.** `prompt=True` in `@click.option()` gives you an interactive prompt with no
    extra code. Argparse has no prompt support.
 4. **Context management.** Click's `Context` object carries state, configuration, and resource
-   cleanup across subcommands. Argparse has no equivalent–you manage state yourself.
+   cleanup across subcommands. Argparse has no equivalent,you manage state yourself.
 5. **Testing.** `click.testing.CliRunner` invokes your command in-process and captures output, exit
    codes, and exceptions. Testing argparse requires mocking `sys.argv` and capturing
    `sys.stdout`/`sys.stderr`.
@@ -529,14 +529,14 @@ def status():
 ### Why typer over click
 
 1. **Type safety.** Mypy and other static analyzers understand your CLI function's signature. With
-   click, the decorator-based API obscures types–mypy sees `def hello(count, name)` and has no idea
+   click, the decorator-based API obscures types,mypy sees `def hello(count, name)` and has no idea
    what types `count` and `name` are.
 2. **Less code.** Typer infers option names, types, and defaults from annotations. Click requires
    explicit `@click.option("--name", type=str, default="...")` for each parameter.
 3. **Editor support.** IDEs provide autocomplete and type checking on the annotated function. The
    click equivalent requires reading decorator documentation.
 4. **Same runtime.** Typer compiles to click commands. The runtime behavior, error handling, and
-   testing story are identical to click. You are not giving up click's maturity–you are getting a
+   testing story are identical to click. You are not giving up click's maturity,you are getting a
    better interface to it.
 
 The tradeoff: typer requires Python 3.7+ (practically 3.9+ for comfortable `Annotated` usage). For
@@ -556,7 +556,7 @@ mypackage/
 └── core.py
 ```
 
-Running `python -m mypackage` executes `mypackage/__main__.py`. This is not magic–Python looks for
+Running `python -m mypackage` executes `mypackage/__main__.py`. This is not magic,Python looks for
 `__main__.py` inside the named package and runs it with `__name__` set to `"__main__"` and
 `__package__` set to `"mypackage"`.
 
@@ -801,7 +801,7 @@ table.add_column("Uptime", justify="right")
 table.add_row("api-gateway", "v2.14.3", "[green]Running[/green]", "14d 6h")
 table.add_row("auth-service", "v1.8.0", "[green]Running[/green]", "14d 6h")
 table.add_row("worker-pool", "v3.1.2", "[yellow]Degraded[/yellow]", "2h 13m")
-table.add_row("scheduler", "v1.0.0", "[red]Stopped[/red]", ",")
+table.add_row("scheduler", "v1.0.0", "[red]Stopped[/red]", "—")
 
 console.print(table)
 ```
@@ -864,7 +864,7 @@ console.print(tree)
 
 Use `click.echo()` for simple status messages, prompts, and output that should remain
 Plain-text-compatible (piped to files, processed by other tools). Use `rich` for display output
-Where formatting enhances readability (tables, progress, structured data). They coexist well–rich
+Where formatting enhances readability (tables, progress, structured data). They coexist well,rich
 Writes to stderr for progress, click.echo writes to stdout for data output.
 
 ## Common Patterns
@@ -1131,7 +1131,7 @@ def build(ctx):
 If your tool reads a config file, connects to a database, and then discovers that a required
 Argument is invalid, the user has already waited for the config load and connection. Validate all
 Inputs at parse time, before any side effects occur. This is where `type=` in argparse/click and
-Type annotations in typer earn their value–they reject bad input before your function runs.
+Type annotations in typer earn their value,they reject bad input before your function runs.
 
 ### Assuming stdout Is a Terminal
 
@@ -1163,7 +1163,6 @@ subparsers = parser.add_subparsers(dest="command", required=True)
 
 This fails fast with a clear "required: expected at least one argument" message instead of a
 Traceback inside your own code.
-
 
 ```mermaid
 flowchart TD

@@ -95,6 +95,7 @@ $$
 \end`\{aligned}`
 $$
 :::
+
 ### Centripetal Force
 
 The centripetal force is any force applied on a mass towards the center ($-\bm{\hat{r}}$), leading
@@ -113,6 +114,7 @@ $$
 \end`\{aligned}`
 $$
 :::
+
 ### Angular Position
 
 The angular position ($\theta$) of a [rigid body](#rigid-body) is a representation of the object"s
@@ -162,6 +164,7 @@ The measure of a solid body's resistance to [angular acceleration](#angular-acce
 Geometry as a system of discrete particles, as well as moment of inertia that is determined by
 Closed-form expressions.
 :::
+
 ### Angular Momentum
 
 The angular momentum ($L$) is the product of [moment of inertia $I$](#moment-of-inertia) and
@@ -192,6 +195,7 @@ $$
 \end`\{aligned}`
 $$
 :::
+
 ## Wrap Up
 
 ### A.1 Kinematics & A.2 Forces and Momentum
@@ -813,7 +817,6 @@ $a = \frac{5}{7}g\sin\theta$.
 ## Intuition
 
 Momentum is the physics of collisions, and it obeys one of the universe's most unbreakable rules: what goes in must come out. Imagine two billiard balls on a frictionless table: the total momentum before the crash equals the total after, no exceptions. Centripetal force is not a new force but a job description for whatever force happens to be pulling an object inward, whether it is gravity holding a planet in orbit or friction keeping a car on a curve. Angular momentum conservation explains why an ice skater spins faster when pulling in her arms, much like a figure skater gathering speed before a jump.
-
 
 ```mermaid
 flowchart TD

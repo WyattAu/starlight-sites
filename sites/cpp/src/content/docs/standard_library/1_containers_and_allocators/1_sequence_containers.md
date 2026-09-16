@@ -178,6 +178,7 @@ int main() {
 The exact growth factor is implementation-defined. A factor of 2 is common, and some implementations
 (e.g., Facebook's folly) use 1.5 to reduce peak memory usage.
 :::
+
 ### Iterator, Pointer, and Reference Invalidation Rules
 
 Reallocation invalidates all iterators, pointers, and references to elements of the vector [N4950
@@ -245,6 +246,7 @@ int main() {
 Invalidated. Dereferencing them is undefined behavior. Use `reserve()` proactively if you need
 Stable iterators.
 :::
+
 ### `std::deque`: Segment-Based Memory, No Reallocation
 
 `std::deque` (double-ended queue) is a sequence container that supports $O(1)$ insertion and
@@ -316,6 +318,7 @@ int main() {
 Only need efficient insertion at the end, as `std::vector` has better cache locality and lower
 Memory overhead per element.
 :::
+
 Invalidation rules for `std::deque` differ from `std::vector` [N4950 §22.3.8.4 Table 77]:
 
 | Operation                  | Iterator                                     | Pointer | Reference |
@@ -391,6 +394,7 @@ int main() {
 Nodes between containers. The spliced elements' iterators, pointers, and references remain valid and
 Now refer to the same elements within the destination container [N4950 §22.3.9.5].
 :::
+
 ### `std::array`: Fixed-Size, Zero Overhead
 
 `std::array` is a fixed-size container that wraps a C-style array with the standard container

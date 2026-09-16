@@ -367,7 +367,6 @@ $\blacksquare$
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[5_Eigenvalues And Eigenvectors] --> B[Key Concepts]
@@ -384,5 +383,6 @@ flowchart TD
 - **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD relates singular values to eigenvalues of $A^T A$ and provides a diagonal-like decomposition for non-square matrices.
 - **[Inner Product Spaces](7_inner-product-spaces)**: The spectral theorem for symmetric matrices guarantees an orthonormal basis of eigenvectors.
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

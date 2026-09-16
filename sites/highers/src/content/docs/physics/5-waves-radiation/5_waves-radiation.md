@@ -315,7 +315,6 @@ Background radiation comes from:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[5_Waves Radiation] --> B[Key Concepts]
@@ -581,6 +580,7 @@ So the second secondary maximum has about $1.6\%$ of the central maximum intensi
 $\approx 1.6\%$Third $\approx 0.8\%$ of $I_0$. Most of the diffracted light energy is concentrated
 In the central maximum.
 :::
+
 ### Example 22: Radioactive Dating
 
 A sample of ancient wood contains $25\%$ of the original carbon-14. Given that the half-life of
@@ -628,6 +628,7 @@ $$L_{\mathrm{total} = 10 \log_{10}(3 \times 10^8) = 10 \times (8 + \log_{10} 3) 
 $3 \mathrm{ dB$ (since $10\log_{10} 2 \approx 3$). Ten times as many sources gives
 $+10 \mathrm{ dB$. This Logarithmic behaviour surprises many students.
 :::
+
 ## Common Pitfalls Extended
 
 ### Pitfall 6: Confusing Activity, Count Rate, and Decay Constant
@@ -787,6 +788,7 @@ Where $\tau$ is the dead time.
 5. Explain the principles of a gamma camera used in medical imaging. Describe how the collimator,
     scintillator crystal, photomultiplier tubes, and computer work together to produce an image.
 :::
+
 ## Cross-References
 
 - [Electricity](../3-electricity/3_electricity) -- Electromagnetic waves are produced by oscillating charges, connecting wave theory to electricity.

@@ -123,6 +123,7 @@ void spanbuf_demo() {
 Fixed-size pre-allocated buffer (e.g., a network packet buffer or embedded flash region). It avoids
 Heap allocation entirely.
 :::
+
 ### Locale Facets
 
 A **locale** in C++ is a collection of **facets**, polymorphic classes that encapsulate cultural
@@ -180,6 +181,7 @@ void locale_facet_demo() {
 Standard: `std::locale::global()` modifies a global variable and is not safe to call concurrently
 [N4950 §30.3.1.3].
 :::
+
 ### Custom Stream Buffer
 
 The power of the stream buffer abstraction is that you can derive from `std::streambuf` to redirect
@@ -265,10 +267,12 @@ Output (example):
 Each character written to the stream. Buffering the line and flushing on `\n` gives you control over
 The output format. For thread-safe logging, wrap the `sputn` call in a mutex.
 :::
+
 :::caution
 `std::flush` and `std::endl`. If you only override `overflow()`Manually flushed output (via
 `std::flush`) will not reach your sink.
 :::
+
 ### Connecting Stream Buffers to Streams
 
 A stream (`std::istream``std::ostream`) does not own its stream buffer. You can redirect a stream To
@@ -419,6 +423,7 @@ I/O-heavy code. Each flush results in a `write()` system call, which is orders o
 Than writing to the in-memory buffer. Only use unitbuf for logging where immediate visibility is
 Critical.
 :::
+
 ### `std::ios::sync_with_stdio`
 
 `std::ios::sync_with_stdio(false)` decouples C++ streams from C stdio (`printf``scanf``fread`
@@ -454,6 +459,7 @@ Effect is irreversible once any standard stream has been used). This is a common
 Competitive programming for fast I/O, but it is dangerous in library code because it affects the
 Entire process. Never call it in a library.
 :::
+
 ### Custom Input Stream Buffer
 
 The following example implements a stream buffer that reads from a fixed memory buffer (similar to
@@ -545,6 +551,7 @@ void seek_demo() {
 Standard permits them to use separate positions. For maximum portability, always call `clear()`
 Before seeking after a failed read, and avoid mixing reads and writes without an intervening seek.
 :::
+
 ### Manipulators and Stream State
 
 The stream state is controlled by a bitmask of `std::ios::iostate` flags [N4950 §30.4.3]:
@@ -625,12 +632,11 @@ void stream_state_demo() {
 
 ## Intuition
 
-**Stream buffers are like water pipes:** The stream (`std::cout`, `std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
+**Stream buffers are like water pipes:** The stream (`std::cout``std::ifstream`) is like the faucet, you turn it on and water flows. The stream buffer is like the pipe behind the wall, it actually carries the water from the source to the faucet. You rarely interact with stream buffers directly, but they're doing all the work. A custom stream buffer is like installing a water filter, the water still flows through the same faucet, but the pipe behind the wall processes it differently.
 
 **Why it matters:** Stream buffers separate the interface (stream operations like `<<` and `>>`) from the implementation (where the data actually comes from or goes to). This lets you redirect `std::cout` to a file, a network socket, or a custom buffer without changing any code that writes to `std::cout`. It's the Strategy pattern applied to I/O.
 
 **The key insight:** Stream buffers separate I/O interface from implementation, you can redirect `std::cout` to anywhere by replacing its stream buffer.
-
 
 ```mermaid
 flowchart TD

@@ -872,6 +872,7 @@ antigens, attacking the body's own tissues.
 | Monoclonal antibodies   | Targeted antibodies that block specific immune pathways (e.g., anti-TNF-alpha for rheumatoid arthritis) |
 | Plasmapheresis          | Filtering blood to remove autoantibodies and immune complexes                                           |
 :::
+
 :::tip
 which covers immune system topics within the DSE specification.
 
@@ -1266,7 +1267,6 @@ which process is being described.
 1. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
    > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
-
 
 ```mermaid
 flowchart TD

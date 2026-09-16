@@ -77,6 +77,7 @@ Access members of the base class. Without `this->`The name is non-dependent and 
 1, where the base class members are invisible. This is the single most common two-phase lookup bug
 [N4950 S13.8.3].
 :::
+
 ### When Is a Name Dependent?
 
 The standard defines precisely when a name is dependent [N4950 S13.8.3/1]. A name is dependent if
@@ -316,6 +317,7 @@ Template compilation errors. Always use `typename` before a qualified dependent 
 To use as a type, unless you are in a base class specifier or mem-initializer. This is a purely
 Syntactic requirement --- it does not change the generated code.
 :::
+
 ### Where `typename` Is Required vs Not
 
 | Context                                             | `typename` Required? | Reason                                 |
@@ -784,9 +786,9 @@ void good() {
 
 ## Intuition
 
-**Dependent names are like foreign words in a sentence:** When you read "the cat sat on the mat," you know "cat" and "mat" are nouns. But when you read "the `T::value` sat on the `T::type`," you can't tell what `T::value` and `T::type` are until you know what `T` is. The `typename` keyword is like a dictionary, it tells the compiler "treat this as a type, not a value." Without it, the compiler assumes `T::value` is a value, which can cause parsing errors.
+**Dependent names are like foreign words in a sentence:** When you read "the cat sat on the mat," you know "cat" and "mat" are nouns. But when you read "the `T::value` sat on the `T::type`" you can't tell what `T::value` and `T::type` are until you know what `T` is. The `typename` keyword is like a dictionary, it tells the compiler "treat this as a type, not a value." Without it, the compiler assumes `T::value` is a value, which can cause parsing errors.
 
-**Why it matters:** Dependent names are one of the most confusing aspects of C++ templates. Without `typename`, the compiler misparses the code. With `template` (for dependent template names), you tell the compiler that `<` is a less-than operator, not the start of template arguments. Getting this wrong causes cryptic error messages that are hard to debug.
+**Why it matters:** Dependent names are one of the most confusing aspects of C++ templates. Without `typename`the compiler misparses the code. With `template` (for dependent template names), you tell the compiler that `<` is a less-than operator, not the start of template arguments. Getting this wrong causes cryptic error messages that are hard to debug.
 
 **The key insight:** Use `typename` before dependent types and `template` before dependent template names, without them, the compiler misparses the code.
 
@@ -831,7 +833,6 @@ void good() {
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
-
 
 ```mermaid
 flowchart TD

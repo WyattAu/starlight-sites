@@ -482,6 +482,7 @@ chrt -r 80 command             # SCHED_RR, priority 80
 chrt -d 1000000 5000000 200000 command  # runtime, deadline, period (ns)
 ```
 :::
+
 :::caution
 Consume 100% CPU and lock out all other processes, including the kernel's management threads. Use
 Only for well-understood, bounded workloads (audio processing, industrial control).
@@ -599,6 +600,7 @@ ulimit -u 4096     # increase max processes
 | Who can set | Any process (up to hard limit) | Root (can lower from any value)         |
 | Per-process | Yes                            | Yes                                     |
 :::
+
 :::caution
 NOT apply to services started by systemd. For systemd services, configure limits in the unit file Or
 systemd's override mechanism (`systemctl edit`).

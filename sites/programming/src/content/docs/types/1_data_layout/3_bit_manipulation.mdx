@@ -134,7 +134,7 @@ static_assert(sizeof(Dense) == 8);
 static_assert(sizeof(Padded) == sizeof(Dense));
 
 // Both types have the same size and are trivially copyable
-auto d = std::bit_cast<Dense>(Padded\{.a = 1.b = 42\});
+auto d = std::bit_cast<Dense>(Padded\{.a = 1, .b = 42\});
 // d.pad1, d.pad2, d.pad3 contain whatever was in the padding of Padded
 ```
 
@@ -513,7 +513,7 @@ class BloomFilter \{
 public:
     BloomFilter(size_t expected_count, double fp_rate)
         : bits_((expected_count * static_cast<size_t>(-std::log2(fp_rate)) + 63) / 64, 0)
-num_hashes_(static_cast<size_t>(-std::log2(fp_rate)))
+        , num_hashes_(static_cast<size_t>(-std::log2(fp_rate)))
     \{\}
 
     void insert(std::string_view key) \{
@@ -637,7 +637,6 @@ Accidental truncation or zero-extension. If you need to convert between differen
 Never assume the host endianness when serializing data. Always convert to a known byte order
 (network byte order / big endian) before writing to a wire format, and convert back on read.
 `std::byteswap` makes this trivial.
-
 
 ```mermaid
 flowchart TD

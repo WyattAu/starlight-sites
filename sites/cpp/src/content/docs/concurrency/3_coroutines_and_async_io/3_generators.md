@@ -167,6 +167,7 @@ Sum: 4613732
 the iteration step, each `++it` call on the adapted view will advance the underlying generator By
 one element.
 :::
+
 ## See Also
 
 - [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames)
@@ -430,6 +431,7 @@ int main() {
 Microsecond-latency systems, this can be a concern. C++26 is expected to add `std::generator` with
 Allocator support to allow custom allocation strategies.
 :::
+
 ## Practical Example: State Machine Generator
 
 ```cpp
@@ -513,7 +515,6 @@ int main() {
   reference parameter), the referenced object must outlive the generator.
 - **Range adaptor eager materialization.** Some range adaptors (like `std::views::reverse`) may need
   to buffer elements, defeating the lazy evaluation benefit of generators.
-
 
 ```mermaid
 flowchart TD

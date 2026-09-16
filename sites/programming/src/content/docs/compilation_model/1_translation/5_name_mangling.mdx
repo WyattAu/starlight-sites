@@ -191,11 +191,12 @@ nm -C ./app | awk '\{ print length, $0 \}' | sort -rn | head -20
 ```
 
 :::note
-<strong>Return Types The Itanium ABI generally does **not** encode the return type of a function, as</strong>
+Return Types The Itanium ABI generally does **not** encode the return type of a function, as
 
 C++ does not support overloading based solely on return type. Exception: Template functions and
 `auto` return type deduction may trigger return type encoding.
 :::
+
 ## 3. The Microsoft ABI (MSVC)
 
 The Microsoft Visual C++ compiler uses a proprietary mangling scheme. It is significantly more
@@ -304,11 +305,12 @@ c_library_register_callback(my_callback);
 ```
 
 :::caution
-<strong>Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A</strong>
+Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A
 
 Function pointer of type `extern "C"` and one of type C++ linkage are different types, even if they
 Have the same parameter and return types. Passing one where the other is expected is UB.
 :::
+
 ## 5. Inspection and Demangling Tools
 
 You rarely decode mangled names manually. Use the toolchain utilities to translate them.
@@ -652,7 +654,7 @@ Another. The mangled names differ, and the linker reports an undefined reference
 Ensure the `noexcept` specification is consistent across all declarations.
 
 :::caution
-<strong>In C++17, `noexcept` became part of the type system. This means function pointer types</strong>
+In C++17, `noexcept` became part of the type system. This means function pointer types
 
 Are different if their `noexcept` specification differs. A `void(*)(int)` and a
 `void(*)(int) noexcept` are different types and cannot be implicitly converted.
@@ -745,7 +747,6 @@ Symbol table.
 - [Binary Formats](4_binary_formats)
 - [Symbol Visibility](2_symbol_visibility)
 - [Preprocessing and the AST](1_preprocessing_ast_object)
-
 
 ```mermaid
 flowchart TD

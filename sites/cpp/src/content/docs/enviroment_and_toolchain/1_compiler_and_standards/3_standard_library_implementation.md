@@ -138,6 +138,7 @@ namespace std {
 `std::string`" because the application is looking for `std::__cxx11::string`But the library Provides
 `std::string`.
 :::
+
 ### The `std::list` ABI Change
 
 The C++11 standard required `std::list::size()` to be $O(1)$ [N4950 S23.4.5.5]. The legacy
@@ -776,7 +777,6 @@ extern "C" {
 - [Cross-compilation Toolchains](4_crosscompilation_toolchains) -- Choosing the right standard
   library for cross-compilation
 - [Linker Configuration](5_linker_configuration) -- Linking against the standard library
-
 
 ```mermaid
 flowchart TD

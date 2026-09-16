@@ -205,6 +205,7 @@ umask 0077     # owner only (private)
 echo 'umask 0027' >> ~/.profile
 ```
 :::
+
 :::caution
 Tighten permissions on existing files, use `chmod` explicitly. Also, `umask` only removes bits, it
 Never adds execute permission to files, which is why `touch newfile` creates files with 0666 &
@@ -309,6 +310,7 @@ find / -perm -4000 -type f ! -user root -exec ls -la {} \; 2>/dev/null
 chmod u-s /path/to/binary
 ```
 :::
+
 :::danger
 Itself would need setuid. Instead, use a compiled wrapper or sudo. A setuid shell script is a
 Privilege escalation vulnerability.
@@ -558,6 +560,7 @@ chattr -R +A /srv/data/
 lsattr -R /srv/data/
 ```
 :::
+
 :::caution
 Management. Ansible, Puppet, and similar tools may fail silently when trying to modify immutable
 Files. Always ensure configuration management systems can remove the immutable bit before making
@@ -629,6 +632,7 @@ flowchart TD
     K -->|No| F
 ```
 :::
+
 :::note
 Specific first), owning group or named groups, mask, other. The first matching entry that grants or
 Denies the requested access determines the result. The mask limits the maximum effective permissions
@@ -706,6 +710,7 @@ find / -perm -4000 ! -user root -type f 2>/dev/null
 find / -perm -4000 -type f ! -perm -u+s -writable 2>/dev/null
 ```
 :::
+
 :::danger
 Malicious code, and it will execute with the file owner's privileges. Regularly audit setuid and
 Setgid binaries, and remove the setuid/setgid bit from any binary that does not strictly require it.

@@ -302,6 +302,7 @@ mixin Persistable on Serializable {
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
 :::
+
 :::tip
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
@@ -335,6 +336,7 @@ print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
 :::
+
 :::caution
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 

@@ -744,7 +744,7 @@ interface PolymorphicProps<T extends ElementType> {
 type Props<T extends ElementType> = PolymorphicProps<T> &
   Omit<ComponentPropsWithoutRef<T>, keyof PolymorphicProps<T>>;
 
-function Text<T extends ElementType = 'span'>({ as, children...rest }: Props<T>) {
+function Text<T extends ElementType = 'span'>({ as, children, ...rest }: Props<T>) {
   const Component = as ?? 'span';
   return <Component {...rest}>{children}</Component>;
 }
@@ -819,7 +819,6 @@ interface Good {
   children: React.ReactNode;
 }
 ```
-
 
 ```mermaid
 flowchart TD

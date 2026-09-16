@@ -1,6 +1,5 @@
 ---
 
-
 title: "Quadratics"
 description: "Study notes for Quadratics | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ------------------------------------------------- | | AQA | Paper 1 | Completing the square,"
@@ -12,7 +11,6 @@ categories:
   - Maths
 
 ---
-
 
 import DesmosGraph from "@components/DesmosGraph";
 
@@ -141,15 +139,17 @@ Form. Every step is reversible, so the formula is necessary and sufficient: it g
 And no extraneous ones.
 
 :::note
-<strong>Edexcel provides the quadratic formula in the formula booklet. AQA and OCR (A) do not, you</strong>
+Edexcel provides the quadratic formula in the formula booklet. AQA and OCR (A) do not, you
 
 Must memorise it.
 :::
+
 :::tip
-<strong>Before applying the formula, check whether the equation can be solved more by Factorisation.</strong>
+Before applying the formula, check whether the equation can be solved more by Factorisation.
 
 Always check the discriminant first.
 :::
+
 <hr />
 
 ## 4. The Discriminant
@@ -205,7 +205,7 @@ $f\left(-\frac{b}{2a}\right) = -\frac{\Delta}{4a}$. Therefore:
 <DesmosGraph client:only="solid-js" title="Quadratic Graph and the Discriminant" expressions={["a*x^2+b*x+c"]} width={800}
 height={500} />
 
-Adjust sliders `a`, `b`, `c` to see how the quadratic $y = ax^2 + bx + c$ changes. Observe how the
+Adjust sliders `a``b``c` to see how the quadratic $y = ax^2 + bx + c$ changes. Observe how the
 discriminant $\Delta = b^2 - 4ac$ determines whether the curve crosses, touches, or misses the
 $x$-axis.
 
@@ -298,11 +298,12 @@ Quadratic across the real line.
 3. Read off the regions where the quadratic is positive or negative.
 
 :::caution
-<strong>A critical error in inequalities: when multiplying or dividing both sides by a negative</strong>
+A critical error in inequalities: when multiplying or dividing both sides by a negative
 
 Number, you must **reverse** the inequality sign. This is because multiplication by $-1$ is
 Order-reversing: if $a < b$ Then $-a > -b$.
 :::
+
 **Theorem.** If $m < 0$ and $a < b$ Then $ma > mb$.
 
 _Proof._ From $a < b$We have $b - a > 0$. Since $m < 0$ and $b - a > 0$Their product $m(b - a) < 0$.
@@ -434,11 +435,12 @@ The discriminant is positive, confirming two intersection points, which correspo
 To the line cutting the parabola twice.
 
 :::tip
-<strong>The discriminant of the resulting quadratic tells you the number of intersection points</strong>
+The discriminant of the resulting quadratic tells you the number of intersection points
 
 Between a line and a parabola: $\Delta > 0$ means 2 intersections, $\Delta = 0$ means tangent,
 $\Delta < 0$ means no intersection.
 :::
+
 <hr />
 
 ## 8. Quadratics in Disguise
@@ -462,11 +464,12 @@ to the quadratic $az^2 + bz + c = 0$.
 | $a\left(x + \frac{1}{x}\right)^2 + b\left(x + \frac{1}{x}\right) + c = 0$ | $z = x + \frac{1}{x}$ | $az^2 + bz + c = 0$ |
 
 :::caution
-<strong>After solving the reduced quadratic for $z$You must substitute back to find $x$. Discard</strong>
+After solving the reduced quadratic for $z$You must substitute back to find $x$. Discard
 
 any values of $z$ that are incompatible with the substitution (e.g., $z = x^2$ requires $z \geq 0$,
 $z = p^x$ requires $z > 0$). Always verify solutions in the original equation.
 :::
+
 <details>
 <summary>Example</summary>
 Solve $x^4 - 13x^2 + 36 = 0$.
@@ -688,11 +691,12 @@ Equations involving $\sqrt{f(x)}$ can sometimes be reduced to quadratics by isol
 And squaring both sides.
 
 :::caution
-<strong>Squaring both sides of an equation is **not reversible**, it can introduce extraneous</strong>
+Squaring both sides of an equation is **not reversible**, it can introduce extraneous
 
 Solutions. You must always substitute every candidate solution back into the **original** equation
 To verify it.
 :::
+
 <details>
 <summary>Example</summary>
 Solve $\sqrt{2x + 1} = x - 1$.
@@ -1083,7 +1087,7 @@ Solution: $\theta \in \left\{\frac{\pi}{6}, \frac{5\pi}{6}\right\}$.
 ---
 
 :::tip
-<strong>Diagnostic Test Ready to test your understanding of **Quadratics**? The contains the hardest questions</strong>
+Diagnostic Test Ready to test your understanding of **Quadratics**? The contains the hardest questions
 
 within the A-Level specification for this topic, each with a full worked solution.
 
@@ -1106,7 +1110,6 @@ building a personal test matrix.
 
 4. Rounding too early in multi-step calculations. Carry full precision through and round only the
    final answer.
-
 
 ```mermaid
 flowchart TD

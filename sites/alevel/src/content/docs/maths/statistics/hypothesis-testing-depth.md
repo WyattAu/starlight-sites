@@ -26,6 +26,7 @@ And critical regions.
 :::note
 based on Sample evidence. It provides a principled framework for quantifying uncertainty.
 :::
+
 <hr />
 
 ## 1. The Hypothesis Testing Framework
@@ -74,6 +75,7 @@ test statistic exceeds $c$Reject $H_0$.
 $H_0$; we merely fail To find sufficient evidence against it. The conclusion should always be stated
 carefully.
 :::
+
 <hr />
 
 ## 2. Type I and Type II Errors
@@ -432,7 +434,6 @@ Since $1.75 < 2.326$, we do not reject $H_0$. There is insufficient evidence tha
 increased.
 
 $\blacksquare$
-
 
 ```mermaid
 flowchart TD

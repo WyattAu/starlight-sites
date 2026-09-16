@@ -56,6 +56,7 @@ $\phi(x) = 0$ everywhere, Which is not normalisable. Furthermore, $E_1 > 0$ (zer
 direct consequence of The uncertainty principle: confining the particle to a finite region requires
 kinetic energy.
 :::
+
 ### 5.2 The Quantum Harmonic Oscillator
 
 $V(x) = \frac{1}{2}m\omega^2 x^2$.
@@ -333,6 +334,7 @@ Penetration decreases exponentially with barrier width and height.
 forbidden region with Exponentially decreasing amplitude. The particle's energy is $E \lt V_0$
 throughout.
 :::
+
 **Example 5.2.** An electron with $E = 5$ eV approaches a barrier of height $V_0 = 10$ eV and Width
 $a = 0.5$ nm. Calculate $T$.
 
@@ -358,7 +360,6 @@ A sharp tip and a conducting surface. Electrons tunnel across the gap, producing
 Depends exponentially on the tip-surface distance: $I \propto e^{-2\kappa d}$. This allows atomic-
 Resolution imaging of surfaces, as a change in distance of $0.1$ nm changes the current by a factor
 Of about 10.
-
 
 ```mermaid
 flowchart TD

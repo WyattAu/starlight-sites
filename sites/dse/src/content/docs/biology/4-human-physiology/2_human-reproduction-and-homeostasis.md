@@ -261,6 +261,7 @@ Concentrations, oestrogen inhibits the pituitary (negative feedback). At high co
 Sustained for approximately 36 hours, oestrogen stimulates the pituitary (positive feedback),
 Causing the LH surge. The DSE frequently tests this distinction.
 :::
+
 ### Worked Example: Hormone Levels at Day 20
 
 A blood test shows the following hormone levels in a 28-day menstrual cycle:
@@ -395,6 +396,7 @@ Carry oxygenated blood. The naming is based on direction of flow relative to the
 Carry blood away from the heart, veins carry blood towards it. The umbilical arteries carry blood
 Away from the foetal heart.
 :::
+
 **Worked Example**
 
 A pregnant woman's blood glucose is consistently elevated at 200 mg/100 cm cubed due to uncontrolled
@@ -476,6 +478,7 @@ The term "negative" refers to the fact that the response opposes (negates) the o
 Point is a target value, and the actual value fluctuates within narrow limits around it. In DSE exam
 Answers, write "maintained within narrow limits" rather than "kept exactly constant."
 :::
+
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -657,6 +660,7 @@ Which is used directly by the muscle for respiration. Muscle lacks the enzyme gl
 Which is required to convert glucose-6-phosphate to free glucose. The DSE often tests this
 Distinction.
 :::
+
 **Worked Example**
 
 A student runs a 400-metre sprint. During the race, her blood glucose initially rises slightly, then
@@ -1921,7 +1925,6 @@ under 35; decreasing to less than 5% for women over 42).
 - **Adrenaline is produced by the adrenal MEDULLA (not cortex); cortisol is produced by the adrenal
   CORTEX (not medulla).** The adrenal medulla is stimulated by the sympathetic nervous system
   (fight-or-flight); the adrenal cortex is stimulated by ACTH from the anterior pituitary\*\* :::
-
 
 ```mermaid
 flowchart TD

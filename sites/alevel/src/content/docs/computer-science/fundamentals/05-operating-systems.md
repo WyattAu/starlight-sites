@@ -83,6 +83,7 @@ Application.
 **OCR (A)** focus on batch, real-time, and desktop/mobile. **CIE** covers real-time and distributed
 Systems in particular depth.
 :::
+
 <hr />
 
 ## 2. Process Management
@@ -258,6 +259,7 @@ If offset $\ge$ limit, a segmentation fault is raised.
 Segmentation. **Edexcel** focuses primarily on paging. **CIE** covers paging with address
 Translation in detail.
 :::
+
 ### TLB (Translation Lookaside Buffer)
 
 The TLB is a small, fast hardware cache that stores recent virtual-to-physical address translations.
@@ -426,6 +428,7 @@ The OS must manage updates to itself and installed software. Key concerns:
 :::note
 Management. **OCR (A)** and **CIE** may cover this under broader system security topics.
 :::
+
 ### Malware Protection
 
 The OS provides mechanisms to defend against malicious software:
@@ -742,7 +745,6 @@ The same file, and the owner can modify the ACL to add or revoke permissions at 
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

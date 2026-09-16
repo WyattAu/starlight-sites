@@ -5,7 +5,7 @@ title: "Measurable Functions"
 tags:
   - Mathematics
   - University
-description: 'Let and be measurable spaces. A function is if for every . When , we equip with . Comprehensive educational content coverage with definitions and practice problems.'
+description: 'Let and be measurable spaces. A function is if for every . When, we equip with . Comprehensive educational content coverage with definitions and practice problems.'
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -149,7 +149,6 @@ $\mu(A_n) \to \mu(A)$. This is continuity from above.
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)
 
-
 ```mermaid
 flowchart TD
     A[5_Measurable Functions] --> B[Key Concepts]
@@ -188,7 +187,6 @@ Egorov's theorem states that pointwise a.e.\ convergence implies uniform converg
 
 **Mistake 3: Assuming that measurable functions are continuous or have nice properties**
 Measurable functions can be highly discontinuous -- in fact, a function is measurable if and only if it is a pointwise limit of simple functions. Students sometimes assume measurability implies continuity or boundedness, which is false. The indicator function of the rationals is measurable but discontinuous everywhere.
-
 
 ## Advanced Content
 

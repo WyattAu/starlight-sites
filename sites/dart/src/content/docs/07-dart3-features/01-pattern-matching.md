@@ -522,7 +522,7 @@ class Point {
 }
 
 // Destructure by field name
-final Point(:x:y) = Point(3.0, 4.0);
+final Point(:x, :y) = Point(3.0, 4.0);
 print('x: $x, y: $y');
 
 // Equivalent to:
@@ -569,7 +569,7 @@ class Person {
 }
 
 // Named getters only, positional constructor params don't matter
-final Person(:name:age) = Person('Alice', 30);
+final Person(:name, :age) = Person('Alice', 30);
 
 // This is NOT valid (no positional object pattern):
 // final Person(name, age) = Person('Alice', 30); // ERROR
@@ -617,14 +617,14 @@ print('$a, $b, $c'); // 1, 2, 3
 The rest pattern matches zero or more remaining elements:
 
 ```dart
-final [first...rest] = [1, 2, 3, 4, 5];
+final [first, ...rest] = [1, 2, 3, 4, 5];
 print(first); // 1
 print(rest);  // [2, 3, 4, 5]
 
 final [...all] = [1, 2, 3];
 print(all); // [1, 2, 3]
 
-final [first...middle, last] = [1, 2, 3, 4, 5];
+final [first, ...middle, last] = [1, 2, 3, 4, 5];
 print(first);  // 1
 print(middle); // [2, 3, 4]
 print(last);   // 5
@@ -664,7 +664,7 @@ String describeList(List&lt;int&gt; list) => switch (list) {
   [] => 'empty',
   [_] => 'singleton',
   [_, _] => 'pair',
-  [_, _...] => 'three or more',
+  [_, _, ...] => 'three or more',
 };
 ```
 
@@ -710,7 +710,7 @@ String describeConfig(Map&lt;String, dynamic&gt; config) => switch (config) {
 Map values can be matched with sub-patterns:
 
 ```dart
-final {'user': {'name': var name, 'roles': [String role...]}} = data;
+final {'user': {'name': var name, 'roles': [String role, ...]}} = data;
 print('User $name has role $role');
 ```
 
@@ -757,7 +757,7 @@ final ({String name, int age}) = (name: "Alice'', age: 30);
 print("Name: $name, Age: $age');
 
 // Shorthand, ':name' binds variable 'name' from getter 'name'
-final (:name:age) = (name: "Alice'', age: 30);
+final (:name, :age) = (name: "Alice'', age: 30);
 ```
 
 ### Mixed Positional and Named
@@ -936,7 +936,7 @@ for (final (number, word) in records) {
 ```dart
 final config = {'host': "localhost'', "port': "8080'', "debug': "true''};
 
-for (final MapEntry(:key:value) in config.entries) {
+for (final MapEntry(:key, :value) in config.entries) {
   print("$key = $value');
 }
 ```
@@ -993,7 +993,7 @@ for (final {"name': String name, 'role': String role} in users) {
 final [a, b] = someList; // What if the list has != 2 elements?
 
 // OK, irrefutable pattern (rest element makes it always match)
-final [a, b...rest] = someList;
+final [a, b, ...rest] = someList;
 ```
 
 This is the single most common mistake. The compiler catches it, but the error message can be
@@ -1065,11 +1065,11 @@ From the same library. They access the getter, not the underlying field.
 
 ```dart
 // The rest pattern captures everything between the surrounding patterns
-final [first...middle, last] = [1, 2, 3, 4, 5];
+final [first, ...middle, last] = [1, 2, 3, 4, 5];
 // first = 1, middle = [2, 3, 4], last = 5
 
 // You cannot have two rest patterns
-// final [...start, _...end] = list; // ERROR, at most one rest
+// final [...start, _, ...end] = list; // ERROR, at most one rest
 ```
 
 ### 6. Null-Check Pattern Does Not Bind in Else
@@ -1169,7 +1169,6 @@ if (map case {1: var one}) {
 }
 // if (map case {'1': var one}) { } // ERROR, String key for int-keyed map
 ```
-
 
 ```mermaid
 flowchart TD

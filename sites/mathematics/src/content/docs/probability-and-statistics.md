@@ -210,6 +210,7 @@ $P(\mathrm{disease} \mid \mathrm{positive})$ Is much lower than
 $P(\mathrm{positive} \mid \mathrm{disease})$ due to low base rates. Always apply Bayes' Theorem
 rigorously.
 :::
+
 ## 2. Random Variables
 
 ### 2.1 Definition
@@ -862,6 +863,7 @@ $$\mathrm{Var}(X) = \frac{91}{6} - \left(\frac{7}{2}\right)^2 = \frac{91}{6} - \
 variance is always non-negative, so if you Obtain a negative value, you have made an arithmetic
 error.
 :::
+
 ## 5. Joint Distributions
 
 ### 5.1 Joint PDF and CDF
@@ -1064,7 +1066,7 @@ $$\lim_{n \to \infty} P(|X_n - X| \gt \varepsilon) = 0$$
 $\lim_{n \to \infty} F_{X_n}(x) = F_X(x)$ at all Continuity points of $F_X$.
 
 _Remark._ Convergence in probability implies convergence in distribution. The converse does not hold
-, But does hold when the limit is a constant.
+But does hold when the limit is a constant.
 
 **Proposition 6.1.** If $X_n \xrightarrow{p} c$ (a constant), then $X_n \xrightarrow{d} c$.
 
@@ -1396,6 +1398,7 @@ $$\hat{\lambda} \pm 1.96 \cdot \frac{\hat{\lambda}}{\sqrt{n}}$$
 $\hat{\sigma}^2 = \frac{1}{n}\sum (X_i - \bar{X})^2$ For the normal variance is biased; the unbiased
 estimator uses $n - 1$ in the denominator.
 :::
+
 ## 8. Hypothesis Testing
 
 ### 8.1 Framework
@@ -1613,6 +1616,7 @@ recovers the Z-test. $\blacksquare$
 only provides evidence against $H_0$; absence of evidence is not evidence of absence. The
 distinction is critical in scientific Reasoning.
 :::
+
 ## 9. Problem Set
 
 **Problem 1.** Let $A, B, C$ be events with $P(A) = 0.4$, $P(B) = 0.5$, $P(C) = 0.3$,

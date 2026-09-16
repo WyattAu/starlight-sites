@@ -11,7 +11,6 @@ categories:
 
 ---
 
-
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Capacitance
@@ -126,10 +125,11 @@ $V = V_1 + V_2 + \cdots = Q/C_1 + Q/C_2 + \cdots = Q(1/C_1 + 1/C_2 + \cdots)$. S
 $V = Q/C_{\mathrm{total}}$: $1/C_{\mathrm{total}} = 1/C_1 + 1/C_2 + \cdots$ $\square$
 
 :::caution
-<strong>Common Pitfall Note the "mirror" relationship with resistors: capacitors in parallel add</strong>
+Common Pitfall Note the "mirror" relationship with resistors: capacitors in parallel add
 
 (like resistors in series), and capacitors in series add reciprocally (like resistors in parallel).
 :::
+
 ## 5. RC Circuits: Charging
 
 Consider a capacitor $C$ charged through a resistor $R$ from a supply of e.m.f. $\mathcal{E}$.
@@ -225,11 +225,12 @@ Limits the charging current, and a large capacitance requires more charge, both 
 Needed. After $5\tau$The capacitor is effectively fully charged or discharged.
 
 :::tip
-<strong>Tip At which the curve reaches 63.2% of its final value. For discharging, find the time at</strong>
+Tip At which the curve reaches 63.2% of its final value. For discharging, find the time at
 
 which the Curve drops to 36.8% of its initial value. Alternatively, find the time at which the
 tangent at $t = 0$ intersects the final value line.
 :::
+
 ## 8. Dielectrics in Detail
 
 ### Polarisation Mechanism
@@ -353,11 +354,12 @@ $$V_{\mathrm{max}} = E_{\mathrm{breakdown}} \cdot d$$
 | Barium titanate | 1200 -- 10000   | 3                           |
 
 :::caution
-<strong>Common Pitfall A high $\varepsilon_r$ does not imply high dielectric strength. Water has</strong>
+Common Pitfall A high $\varepsilon_r$ does not imply high dielectric strength. Water has
 
 An enormous $\varepsilon_r = 80$ but a very low breakdown voltage ($\approx 65$ V/mm), so water is a
 Poor practical dielectric for high-voltage capacitors despite its high permittivity.
 :::
+
 ### Effect of Dielectric on Energy Stored
 
 Two distinct cases must be considered:
@@ -381,11 +383,12 @@ The additional energy comes from the battery, which supplies extra charge
 $Q' = (\varepsilon_r - 1)CV$ to the plates.
 
 :::tip
-<strong>Exam Technique When a question asks about inserting a dielectric, always check whether the</strong>
+Exam Technique When a question asks about inserting a dielectric, always check whether the
 
 Capacitor is isolated or connected to a supply. This completely determines whether $Q$ or $V$ is
 Held constant, and therefore whether energy increases or decreases.
 :::
+
 ## 9. Charge Sharing Between Capacitors
 
 ### Setup
@@ -445,10 +448,11 @@ Electromagnetic radiation. The "missing" energy is accounted for by Joule heatin
 Losses.
 
 :::caution
-<strong>Warning But the system loses energy to the surroundings. Never assume $E_i = E_f$ when</strong>
+Warning But the system loses energy to the surroundings. Never assume $E_i = E_f$ when
 
 solving Charge-sharing problems.
 :::
+
 ### Worked Example
 
 A $10\,\mu$F capacitor is charged to $100$ V and then connected to an uncharged $30\,\mu$F
@@ -596,12 +600,13 @@ $$C = -\frac{1}{mR}$$
   of $C$.
 
 :::tip
-<strong>Exam Technique When asked to determine $C$ from a discharge curve, always take the natural</strong>
+Exam Technique When asked to determine $C$ from a discharge curve, always take the natural
 
 Log of the voltage values and plot $\ln(V)$ vs $t$. Do NOT attempt to fit an exponential curve
 Directly. The gradient gives you $-1/(RC)$ And since $R$ is known, you extract $C$. Show the
 Log-linear transformation explicitly.
 :::
+
 ### Method 2: Repeating Capacitor (Ballistic Galvanometer)
 
 A **ballistic galvanometer** measures total charge passing through it. If a capacitor $C$ is charged
@@ -943,7 +948,7 @@ $C = (7.2 \pm 1.4) \times 10^{-4}$ F.
 ---
 
 :::tip
-<strong>Diagnostic Test Ready to test your understanding of **Capacitance**? The contains the hardest questions</strong>
+Diagnostic Test Ready to test your understanding of **Capacitance**? The contains the hardest questions
 
 within the A-Level specification for this topic, each with a full worked solution.
 
@@ -953,8 +958,8 @@ with other physics topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
-:::danger
-<strong>Common Pitfalls</strong>
+
+:::danger[Common Pitfalls]
 
 - **Assuming charge is shared equally between capacitors in series:** In series, all capacitors
   store the SAME charge, not equal charge. The total charge stored is NOT Q1 + Q2 -- it is the
@@ -975,6 +980,7 @@ self-marking and building a personal test matrix.
   overlapping area), not the total area of both plates. If plates have different areas, use the
   smaller area. Also, d is the separation between plates, not the thickness of a plate.
 :::
+
 ## Common Pitfalls
 
 1. Rounding intermediate answers too early, which compounds errors in multi-step calculations.
@@ -987,7 +993,6 @@ self-marking and building a personal test matrix.
 
 4. Forgetting to include units in final answers, especially when working with derived units like
    $\text{N}\,\text{kg}^{-1}\,\text{m}^2$.
-
 
 ```mermaid
 flowchart TD

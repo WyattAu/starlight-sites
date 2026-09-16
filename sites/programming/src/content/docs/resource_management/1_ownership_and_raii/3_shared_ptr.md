@@ -75,6 +75,7 @@ std::shared_ptr<int> p1(raw);
 std::shared_ptr<int> p2(raw);  // BUG: second control block, double-free!
 ```
 :::
+
 ### Reference Count State Machine
 
 The control block implements a two-counter state machine. Let $s$ denote `strong_count` and $w$
@@ -227,6 +228,7 @@ Syscalls). However, the control block and object share the same memory block, so
 Control block cannot be freed until **all** `weak_ptr` references are also gone. For very large
 Objects with long-lived `weak_ptr` observers, this can delay deallocation.
 :::
+
 ### Quantitative Allocation Overhead
 
 Consider a managed object of size $N$ bytes on x86_64:
@@ -358,6 +360,7 @@ For increment and `memory_order_acq_rel` for decrement instead of `seq_cst`Which
 The standard only requires that the control block operations do not race with each other. The
 Stronger `seq_cst` default is a conservative choice that implementations may relax.
 :::
+
 ## 3.5 Custom Deleters
 
 `shared_ptr` supports custom deleters, allowing it to manage resources beyond simple `new`/`delete`:
@@ -508,6 +511,7 @@ If another thread might modify the object concurrently. COW is safe only in sing
 Or with external synchronization. `std::string` implementations have moved away from COW for this
 Reason.
 :::
+
 ## 3.8 `sizeof(shared_ptr)` Across Implementations
 
 | Implementation                | `sizeof(shared_ptr&lt;T&gt;)` | Notes              |
@@ -536,6 +540,7 @@ Matters in memory-constrained applications or when storing many pointers in cont
 Reach for `shared_ptr` when you genuinely need shared ownership. Premature use of `shared_ptr` is a
 Common source of performance bugs in C++ codebases.
 :::
+
 ## 3.10 `enable_shared_from_this`: Internal Mechanics
 
 `std::enable_shared_from_this&lt;T&gt;` solves the problem of safely obtaining a `shared_ptr` to
@@ -627,6 +632,7 @@ Stack-allocated object or one owned by `unique_ptr`) is undefined behavior. The 
 when dereferenced causes undefined behavior. Some implementations throw `std::bad_weak_ptr` in Debug
 mode to catch this error early.
 :::
+
 ## 3.11 Aliasing Constructor: Formal Semantics
 
 The aliasing constructor creates a `shared_ptr` that shares **ownership** with one `shared_ptr` but
@@ -781,7 +787,6 @@ int main() {
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

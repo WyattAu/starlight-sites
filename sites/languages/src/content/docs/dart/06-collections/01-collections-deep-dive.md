@@ -648,11 +648,11 @@ final extended = [...base, 4, 5]; // [1, 2, 3, 4, 5]
 
 final setA = {1, 2, 3};
 final setB = {3, 4, 5};
-final union = {...setA...setB}; // {1, 2, 3, 4, 5}
+final union = {...setA, ...setB}; // {1, 2, 3, 4, 5}
 
 final defaults = {'theme': "light'', "lang': "en''};
 final userPrefs = {"theme': "dark''};
-final config = {...defaults...userPrefs}; // {"theme': "dark'', "lang': "en''}
+final config = {...defaults, ...userPrefs}; // {"theme': "dark'', "lang': "en''}
 ```
 
 ### Null-Aware Spreads
@@ -661,7 +661,7 @@ The `...?` operator spreads only if the expression is non-null. If null, it inse
 
 ```dart
 List<int>? maybeList = someCondition ? [1, 2, 3] : null;
-final result = [0...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
+final result = [0, ...?maybeList, 4]; // [0, 1, 2, 3, 4] or [0, 4]
 ```
 
 Without `...?`A null spread throws at runtime. Always use `...?` when the spread source might be
@@ -884,9 +884,9 @@ For very large datasets where memory is a concern, `List` is the most compact op
 
 ## Intuition
 
-**Collections are different shaped containers for different jobs:** `List` is an ordered bookshelf, you know exactly where each book is by its position. `Set` is a bag of marbles, no duplicates, and you can quickly check "do I already have this one?" `Map` is a filing cabinet, you look up folders by name, not by position. `Iterable` is a recipe, it describes *how* to produce ingredients but doesn't cook anything until you actually ask for the food (`toList()`, `forEach()`).
+**Collections are different shaped containers for different jobs:** `List` is an ordered bookshelf, you know exactly where each book is by its position. `Set` is a bag of marbles, no duplicates, and you can quickly check "do I already have this one?" `Map` is a filing cabinet, you look up folders by name, not by position. `Iterable` is a recipe, it describes *how* to produce ingredients but doesn't cook anything until you actually ask for the food (`toList()``forEach()`).
 
-**Why it matters:** Dart's lazy iterables (`map`, `where`, `expand`) are like reading a recipe without cooking, you compose the steps for free, and only pay the cost when you actually execute. This makes chained transformations on large datasets efficient by avoiding intermediate collections.
+**Why it matters:** Dart's lazy iterables (`map``where``expand`) are like reading a recipe without cooking, you compose the steps for free, and only pay the cost when you actually execute. This makes chained transformations on large datasets efficient by avoiding intermediate collections.
 
 **The key insight:** Choose your collection by what operation you need most: index access → `List`, uniqueness → `Set`, key lookup → `Map`. Mixing them up leads to O(n²) where O(1) was available.
 
@@ -1050,7 +1050,6 @@ map.containsKey('nonexistent'); // false, the key does not exist
 
 This ambiguity is inherent to any map type that allows null values. Always use `containsKey()` when
 You need to distinguish between "key absent" and "key present with null value."
-
 
 ```mermaid
 flowchart TD

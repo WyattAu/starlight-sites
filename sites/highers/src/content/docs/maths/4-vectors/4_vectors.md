@@ -687,7 +687,7 @@ See the examples integrated throughout the sections above.
 1. **Confusing scalar and vector products:** The scalar product gives a scalar (number); the vector
    product gives a vector perpendicular to both inputs.
 
-2. **Matrix multiplication is not commutative:** , $AB \neq BA$. Always multiply in the specified
+2. **Matrix multiplication is not commutative:**, $AB \neq BA$. Always multiply in the specified
    order.
 
 3. **Dimension mismatch:** You can only multiply an $m \times n$ matrix by an $n \times p$ matrix.
@@ -770,7 +770,6 @@ $$2x + y - z = 8$$ $$x - y + 3z = 1$$ $$3x + 2y + z = 11$$
 
 8. Reflect the point $(2, 5)$ in the line $y = x$ using a matrix method. Verify your answer
     geometrically.
-
 
 ```mermaid
 flowchart TD

@@ -12,7 +12,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -405,6 +404,7 @@ $\blacksquare$
 :::tip
 whose Columns are those vectors. If $\det \neq 0$They form a basis; if $\det = 0$They do not.
 :::
+
 **Problem.** Let $V = \mathcal{P}_3(\mathbb{R})$ (polynomials of degree at most 3). Find the
 dimension Of the subspace $W = \{p \in \mathcal{P}_3 : p(1) = p(-1) = 0\}$.
 
@@ -655,6 +655,7 @@ $\blacksquare$
 meaningful determinant for an $m \times n$ matrix with $m \neq n$. Do not confuse
 $\det(AB) = \det(A)\det(B)$ with a Non-existent formula for non-square matrices.
 :::
+
 ### 3.8 Worked Example: Determinant via Row Reduction (Efficient Method)
 
 **Problem.** Compute $\det(A)$ where
@@ -1160,6 +1161,7 @@ $A = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}$ has Eigenvalue $\lambda = 1$ 
 multiplicity 2 but geometric multiplicity 1. It has only one Linearly independent eigenvector and is
 not diagonalisable.
 :::
+
 ### 5.8 Worked Example: Spectral Decomposition of a Symmetric Matrix
 
 **Problem.** Orthogonally diagonalise the symmetric matrix
@@ -1592,6 +1594,7 @@ $\blacksquare$
 the input vectors are Linearly dependent, one of the $\mathbf{u}_k$ will be the zero vector, and the
 process will fail (attempting to divide by zero in the normalisation step).
 :::
+
 ### 7.8 Worked Example: Orthogonal Projection onto a Plane
 
 **Problem.** Find the orthogonal projection of $\mathbf{v} = (3, -1, 2)$ onto the plane $W$ spanned

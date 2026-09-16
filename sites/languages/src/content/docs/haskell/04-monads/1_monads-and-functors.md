@@ -335,8 +335,8 @@ type App = Reader AppEnv
 
 data AppEnv = AppEnv
   { envDbConn :: String
-envLogger :: String -> IO ()
-envPort   :: Int
+  , envLogger :: String -> IO ()
+  , envPort   :: Int
   }
 
 handleRequest :: String -> App String
@@ -388,7 +388,7 @@ factorialLog n = do
 -- Running the Writer
 runFactorial :: (Integer, [String])
 runFactorial = runWriter (factorialLog 5)
--- => (120, ["Computing 5!", "Computing 4!"..., "Base case: 0! = 1"])
+-- => (120, ["Computing 5!", "Computing 4!", ..., "Base case: 0! = 1"])
 ```
 
 ### Writer with Different Monoids
@@ -667,7 +667,6 @@ associativity = do
 | `Writer w` | Logging         | Accumulate log messages alongside results  |
 | `[]`       | Non-determinism | Multiple possible results                  |
 | `Identity` | No effect       | The simplest monad, wraps a plain value    |
-
 
 ```mermaid
 flowchart TD

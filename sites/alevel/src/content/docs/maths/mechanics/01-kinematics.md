@@ -1,6 +1,5 @@
 ---
 
-
 title: "Kinematics"
 description: "Study notes for Kinematics | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ------- | ------------------------------ | | AQA | Paper 1 | 1D kinematics, projectiles | | Edexcel | P1 | Similar"
@@ -34,6 +33,7 @@ categories:
 :::note
 Equation and apply it to multi-stage problems.
 :::
+
 <hr />
 
 ## 1. Fundamental Quantities
@@ -106,6 +106,7 @@ $$s = \tfrac{1}{2}(u+v)t \implies v = \frac{2s}{t} - u \quad \mathrm{(useful whe
 Constant acceleration $a = dv/dt$Using the initial conditions $v(0) = u$ and $s(0) = 0$. Memorising
 the derivation means you can recover any formula you forget.
 :::
+
 ### 2.2 Summary
 
 | Equation                   | Variables    | Missing |
@@ -118,6 +119,7 @@ the derivation means you can recover any formula you forget.
 :::tip
 Known quantities and the unknown. Draw a diagram with positive direction marked.
 :::
+
 <hr />
 
 ## 3. Motion Graphs
@@ -174,6 +176,7 @@ Straight-line $v$-$t$ graph, the acceleration is constant and equals the gradien
 $10\,\mathrm{m}$ backwards, its displacement is $0$ but its total distance is $20\,\mathrm{m}$. On a
 $v$-$t$ graph, the signed areas cancel (displacement), but the unsigned areas add (distance).
 :::
+
 ### 3.6 Worked example: graphs
 
 A particle moves so that its displacement $s$ metres from a fixed point $O$ at time $t$ seconds is
@@ -299,6 +302,7 @@ The horizontal range is then $R = v\cos\theta \cdot t$.
 Ground, and the angle for maximum range is **less** than $45^\circ$ (derived via calculus, but
 Beyond the core syllabus).
 :::
+
 <hr />
 
 ## 5. Variable Acceleration
@@ -822,6 +826,7 @@ with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Intuition
 
 Kinematics describes motion without considering its causes. The SUVAT equations are relationships between position, velocity, acceleration, and time that emerge from integrating constant acceleration. Motion graphs translate algebra into geometry: the gradient of a displacement graph gives velocity, and the area under a velocity graph gives displacement. Projectiles separate into independent horizontal and vertical motions, like watching a ball roll off a table while simultaneously dropping another straight down. Variable acceleration requires calculus because the simple geometric relationships no longer hold.
@@ -838,7 +843,6 @@ Kinematics describes motion without considering its causes. The SUVAT equations 
 
 4. Confusing displacement with distance, or velocity with speed, particularly in graphs and
    calculations.
-
 
 ```mermaid
 flowchart TD

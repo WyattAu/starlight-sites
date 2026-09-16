@@ -302,6 +302,7 @@ mixin Persistable on Serializable {
 | Can have constructors   | Yes               | No (if mixin)           | No                        |
 | Use case                | Is-a relationship | Has-capability contract | Code reuse across classes |
 :::
+
 :::tip
 Single inheritance chain. Use `implements` for polymorphism (defining a contract). Use `extends` for
 True is-a relationships.
@@ -335,6 +336,7 @@ print(a == b);     // false
 print(a.dot(b));   // 11.0
 ```
 :::
+
 :::caution
 same hash code. Use `Object.hash()` or `Object.hashAll()` for combining multiple values.
 
@@ -367,6 +369,7 @@ extension ListX<T> on List<T> {
 }
 ```
 :::
+
 :::note
 Syntactic sugar for static function calls. This means they cannot be used polymorphically (a
 `dynamic` variable won't have access to extension methods).
@@ -377,7 +380,7 @@ Syntactic sugar for static function calls. This means they cannot be used polymo
 
 **Why it matters:** Single inheritance keeps the hierarchy simple, mixins prevent the "diamond problem," and implicit interfaces mean you can write test doubles for any class without designing for testability upfront.
 
-**The key insight:** Dart's three mechanisms (`extends`, `implements`, `with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
+**The key insight:** Dart's three mechanisms (`extends``implements``with`) map to three distinct relationships: is-a, has-contract, and has-capability, choose the right one for each design problem.
 
 ## Common Pitfalls
 

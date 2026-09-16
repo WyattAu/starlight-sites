@@ -37,7 +37,7 @@ tags: [glossary]
 
 **Contributor License Agreement (CLA)**: A legal agreement contributors sign granting the project maintainer rights to relicense their contributions.
 
-**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT`, `Apache-2.0`, `GPL-3.0-only`), used in package metadata.
+**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT``Apache-2.0``GPL-3.0-only`), used in package metadata.
 
 ## Further Resources
 
@@ -79,7 +79,6 @@ Return to the [Licensing Hub](/hub/) for license comparisons, or explore [Tools]
 
 See the Licensing Hub for per-license comparison tables and the Tools section for scanners that automate compliance checks.
 
-
 ## Additional Licenses and Models
 
 **BSL (Boost Software License)**: A permissive license similar to MIT with an explicit patent grant and no attribution requirement in binaries.
@@ -117,7 +116,6 @@ See the Licensing Hub for per-license comparison tables and the Tools section fo
 **Installation Information**: GPLv3's requirement to provide build/install instructions when conveying object code for consumer devices.
 
 **Termination and Cure**: GPLv3's provision allowing licensees who violate terms to regain the license automatically if they cure within 30 days, a first-offence forgiveness clause.
-
 
 ## Quick Reference Table
 

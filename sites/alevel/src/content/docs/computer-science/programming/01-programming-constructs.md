@@ -58,6 +58,7 @@ z = str(42)        # z = "42"
 :::caution
 `round(3.9)` for rounding.
 :::
+
 <hr />
 
 ## 2. Selection (Conditional Statements)
@@ -164,6 +165,7 @@ Function definitions with parameters. **OCR (A)** uses OCR-specific pseudocode f
 Local and global variable scope understanding. **Edexcel** uses pseudocode similar to Python-style;
 Requires subroutines with parameters.
 :::
+
 <hr />
 
 ## 4. Recursion
@@ -935,7 +937,6 @@ Now each call that omits `target` gets a fresh empty list.
 ## Intuition
 
 **This topic explores fundamental concepts that shape our understanding of the world.**
-
 
 ```mermaid
 flowchart TD

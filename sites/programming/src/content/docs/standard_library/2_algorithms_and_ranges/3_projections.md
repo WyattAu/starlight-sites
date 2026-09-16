@@ -222,6 +222,7 @@ int main() {
 Algorithms. The pattern is: `algorithm(range, predicate, projection)`. The predicate receives the
 **projected** value, not the original element.
 :::
+
 ### Projection Mechanics: What Happens Under the Hood
 
 When an algorithm like `std::ranges::sort` receives a projection, the comparison is effectively
@@ -482,7 +483,7 @@ For these algorithms, use `std::views::transform` as a preprocessing step instea
 
 **Projections are like custom sort keys:** Instead of sorting the actual objects, you sort based on a transformed version of each object. It's like sorting students by their GPA instead of their names, the projection function extracts the GPA from each student object, and the algorithm sorts based on that. The projection is applied before the comparison, so you can sort by any attribute without modifying the original objects.
 
-**Why it matters:** Projections eliminate the need for custom comparators in most cases. Instead of writing a lambda that compares `a.name < b.name`, you can project with `&Person::name` and let the default comparator handle it. This is cleaner, more composable, and less error-prone. C++20 ranges algorithms all support projections.
+**Why it matters:** Projections eliminate the need for custom comparators in most cases. Instead of writing a lambda that compares `a.name < b.name`you can project with `&Person::name` and let the default comparator handle it. This is cleaner, more composable, and less error-prone. C++20 ranges algorithms all support projections.
 
 **The key insight:** Projections transform elements before comparison, instead of custom comparators, project the attribute you want to sort by.
 
@@ -580,7 +581,6 @@ int main() {
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

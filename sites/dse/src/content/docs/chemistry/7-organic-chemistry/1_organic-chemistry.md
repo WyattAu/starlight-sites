@@ -198,6 +198,7 @@ $$\mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}$$
 $\mathrm{CCl}_4$ Because the substitution can continue on the same carbon atom. Controlling the
 ratio of methane to Chlorine influences the proportion of products.
 :::
+
 #### Cracking of Hydrocarbons
 
 **Cracking** is the process of breaking down large hydrocarbon molecules into smaller, more useful
@@ -255,6 +256,7 @@ Together) based on the atomic number of substituents:
 Formula but different spatial arrangements of atoms. For E/Z isomerism to occur, each carbon of the
 C=C must have two different substituents.
 :::
+
 #### Physical Properties
 
 Alkenes have physical properties similar to alkanes of comparable molecular mass:
@@ -312,6 +314,7 @@ In smaller amounts.
 :::tip
 Gets the additional H.
 :::
+
 #### Industrial Importance of Alkenes
 
 Alkenes are the raw materials for the polymer industry:
@@ -491,6 +494,7 @@ Product: phenylethanone (acetophenone).
 Electron-withdrawing groups (e.g., $-\mathrm{NO}_2$) because these deactivate the ring towards
 Electrophilic attack.
 :::
+
 ### Worked Example: Predicting EAS Products
 
 Predict the products when benzene undergoes (a) chlorination with $\mathrm{Cl_2}/\mathrm{AlCl_3}$ And
@@ -847,6 +851,7 @@ $$n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n
 :::tip
 Outside. Include enough of the structure to show the pattern ( at least two Repeating units).
 :::
+
 ### 4.2 Condensation Polymerisation
 
 In condensation polymerisation, monomers join together with the elimination of a small molecule (
@@ -984,6 +989,7 @@ Reduction is the addition of hydrogen or removal of oxygen.
 :::note
 reactive and can Reduce carboxylic acids, esters, and amides.
 :::
+
 ### 5.3 Hydrolysis of Esters
 
 See Section 3.3 for detailed mechanisms.
@@ -1519,7 +1525,6 @@ Alternatives include:
 **Why it matters:** From medicines to plastics, organic chemistry underpins modern life. Understanding functional groups and reactions lets you design and predict molecule behavior.
 
 **The key insight:** Functional groups determine reactivity, an alcohol reacts differently from an alkene because the functional group changes the electron distribution.
-
 
 ```mermaid
 flowchart TD

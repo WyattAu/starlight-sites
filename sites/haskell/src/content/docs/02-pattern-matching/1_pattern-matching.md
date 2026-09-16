@@ -11,7 +11,6 @@ categories:
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -606,8 +605,8 @@ Records provide named fields for data types:
 -- Basic record type
 data Person = Person
   { personName :: String
-personAge  :: Int
-personEmail :: String
+  , personAge  :: Int
+  , personEmail :: String
   }
   deriving (Show, Eq)
 
@@ -615,8 +614,8 @@ personEmail :: String
 alice :: Person
 alice = Person
   { personName = "Alice"
-personAge  = 30
-personEmail = "alice@example.com"
+  , personAge  = 30
+  , personEmail = "alice@example.com"
   }
 
 -- Record field access (automatically generated)
@@ -726,7 +725,6 @@ myReverse = go []
 6. **Use `case` when matching on computed values**: Function equations match only on arguments.
 7. **Consider `-Wincomplete-patterns`**: GHC flag that turns incomplete pattern warnings into
    errors.
-
 
 ```mermaid
 flowchart TD
@@ -901,8 +899,8 @@ prettyPrint indent (JObj kvs) =
 json :: JValue
 json = JObj
   [ ("name", JStr "Alice")
-("age", JNum 30)
-("scores", JArr [JNum 95, JNum 87, JNum 92])
+  , ("age", JNum 30)
+  , ("scores", JArr [JNum 95, JNum 87, JNum 92])
   ]
 
 -- countElements json => 3

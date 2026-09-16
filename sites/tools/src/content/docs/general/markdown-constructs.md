@@ -238,6 +238,7 @@ Print("hello")
 Admonitions are the preferred way to call out important information:
 
 ```md
+
 :::note
 > **Tip:** This is a tip.
 
@@ -261,6 +262,7 @@ They can also be collapsible (Docusaurus 3):
 ```md
 :::note[Click to expand] Hidden content that is revealed on click.
 :::
+
 ```
 
 ### Tabs
@@ -355,6 +357,7 @@ Hidden content here.
 :::caution
 issues in Docusaurus.
 :::
+
 ### MDX Import Statements
 
 Since Docusaurus processes `.md` files as MDX, you can import React components:

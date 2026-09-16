@@ -52,7 +52,7 @@ A single attention head learns one type of relationship. Multi-head attention ru
 attention operations in parallel with different learned projections, then concatenates the results:
 
 ```
-MultiHead(Q, K, V) = Concat(head_1..., head_h) * W_O
+MultiHead(Q, K, V) = Concat(head_1, ..., head_h) * W_O
 where head_i = Attention(Q * W_Q_i, K * W_K_i, V * W_V_i)
 ```
 
@@ -622,7 +622,6 @@ $$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
 4. **Overfitting the validation set through extensive hyperparameter search.** Running thousands of
    configurations against the same validation set implicitly fits to it. Use nested cross-validation
    or a separate test set.
-
 
 ```mermaid
 flowchart TD

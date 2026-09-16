@@ -289,6 +289,7 @@ occupy only 32 Bytes (fitting in a single cache line), while the padded counters
 cache lines). The padded version will be significantly faster due to the elimination of false
 sharing.
 :::
+
 ## Padding and Alignment to Prevent False Sharing
 
 The standard technique is to pad variables so that each one occupies its own cache line using
@@ -440,6 +441,7 @@ Parameters:
 :::caution
 prefetching. The Hardware prefetcher is often better than manual prefetching for simple patterns.
 :::
+
 ## Write Propagation and Visibility
 
 When a core writes to a cache line in Modified state, other cores do not immediately see the new
@@ -851,7 +853,6 @@ Eliminating false sharing entirely. The total is computed by summing all shards.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

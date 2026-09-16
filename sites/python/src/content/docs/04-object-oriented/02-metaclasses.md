@@ -89,7 +89,7 @@ Relationship between `type` and `object` is the foundation of Python's object mo
 ```python
 MyClass = type(
     "MyClass",       # __name__
-    (object),       # __bases__
+    (object,),       # __bases__
     {                # namespace dict
         "x": 10,
         "get_x": lambda self: self.x,
@@ -915,7 +915,7 @@ linked above.
 
 ## Intuition
 
-Metaclasses are classes of classes: just as a class defines how instances behave, a metaclass defines how classes behave. Think of a metaclass as a factory that produces factories. When you write `class Foo(metaclass=MyMeta)`, Python calls `MyMeta('Foo', bases, namespace)` to create the class. Use cases include enforcing coding standards, auto-registering classes, or modifying class attributes at creation time. Most Python code never needs metaclasses; decorators or `__init_subclass__` are simpler alternatives.
+Metaclasses are classes of classes: just as a class defines how instances behave, a metaclass defines how classes behave. Think of a metaclass as a factory that produces factories. When you write `class Foo(metaclass=MyMeta)`Python calls `MyMeta('Foo', bases, namespace)` to create the class. Use cases include enforcing coding standards, auto-registering classes, or modifying class attributes at creation time. Most Python code never needs metaclasses; decorators or `__init_subclass__` are simpler alternatives.
 
 ## Cross-References
 

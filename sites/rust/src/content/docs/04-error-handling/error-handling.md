@@ -7,7 +7,6 @@ description: "Rust divides errors into two categories: (bugs) and (expected Fail
 ---
 import Citations from '@components/Citations.astro'
 
-
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
@@ -93,6 +92,7 @@ result.unwrap();        // 10, panics on Err
 result.expect("parse should succeed"); // 10, panics with message on Err
 ```
 :::
+
 :::tip
 Value should exist and makes debugging easier when the panic occurs.
 

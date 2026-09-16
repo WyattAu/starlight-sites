@@ -330,7 +330,6 @@ limit. Also, conditional Convergence of improper integrals behaves differently f
 convergence: rearranging the "terms" (subintervals) of a conditionally convergent improper integral
 can change its value.
 
-
 ```mermaid
 flowchart TD
     A[6_Riemann Integration] --> B[Key Concepts]
@@ -347,6 +346,7 @@ flowchart TD
 - **[Differentiability](5_differentiability)**: The fundamental theorem of calculus connects the Riemann integral with antiderivatives and differentiation.
 - **[Lebesgue Integration](../10-measure-theory/6_lebesgue-integration)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
 :::
+
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

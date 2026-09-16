@@ -1,6 +1,5 @@
 ---
 
-
 title: "Functions"
 description: "Study notes for Functions | A-Level - Wyatt's Notes with worked examples and practice questions."
 ---------- | ---------- | ------------------------------------------------ | | AQA | Paper 1, 2 | Functions, composition,"
@@ -257,6 +256,7 @@ $\blacksquare$
 :::caution
 $f(ax)$ stretches by $\frac{1}{a}$ (not $a$). This is the single most common error in this topic.
 :::
+
 ### 5.4 Combined Transformations
 
 When multiple transformations are applied, the order matters. The convention is:
@@ -432,6 +432,7 @@ Vertical transformations interact differently.
 :::caution
 "absorbs" part of the shift. This is the single most common error in transformation problems.
 :::
+
 <details>
 <summary>Example</summary>
 Describe the transformations mapping $y = x^2$ to $y = 3(2x - 4)^2 + 5$.
@@ -789,7 +790,6 @@ building a personal test matrix.
 
 4. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
-
 
 ```mermaid
 flowchart TD

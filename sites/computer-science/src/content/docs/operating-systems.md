@@ -619,6 +619,7 @@ void philosopher(int i) {
 condition variables. Spurious Wakeups can cause `pthread_cond_wait()` to return without the
 condition being signalled. The loop Re-checks the condition after every wakeup.
 :::
+
 ## 4. Deadlocks
 
 ### 4.1 Definition and Necessary Conditions
@@ -1117,6 +1118,7 @@ And no global ordering of references.
 :::caution
 more memory does not always Reduce page faults for non-stack algorithms.
 :::
+
 ### 5.8 Thrashing
 
 **Thrashing** occurs when a process spends more time paging than executing. This happens when the
@@ -1557,6 +1559,7 @@ clusters.
 vulnerability can potentially Compromise all containers on a host. For strong multi-tenant
 isolation, VMs are preferred.
 :::
+
 ## 9. Security
 
 ### 9.1 Access Control
@@ -1647,6 +1650,7 @@ single mechanism is Insufficient. A determined attacker who can read memory can 
 format string Vulnerability can leak canary values; and JIT compilers require
 writable-and-executable pages.
 :::
+
 ## 10. Problem Set
 
 <details>

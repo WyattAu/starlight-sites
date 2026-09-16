@@ -489,6 +489,7 @@ Is longer.
 :::caution
 Results.
 :::
+
 ### z-test for a Proportion (HL)
 
 **Example:** A coin is tossed 200 times and lands on heads 115 times. Test at the 5% significance
@@ -747,6 +748,7 @@ $$
 :::tip
 If it mentions "out of $n$ trials," think Binomial.
 :::
+
 ### 8.6 Relationship Between Distributions
 
 The three main distributions covered in this topic are connected:
@@ -769,7 +771,6 @@ $$
 
 This is why a coin tossed many times gives a proportion of heads close to 0.5, even if short
 Sequences may deviate significantly.
-
 
 ```mermaid
 flowchart TD

@@ -42,7 +42,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -242,7 +241,7 @@ CI automatically builds and tests code every time a change is pushed to the repo
 **CI pipeline stages:**
 
 1. **Checkout**, pull the latest code
-2. **Install dependencies**, `npm install`, `pip install`, `cargo build`
+2. **Install dependencies**, `npm install``pip install``cargo build`
 3. **Lint**, check code style and catch common errors
 4. **Build**, compile or bundle the application
 5. **Test**, run unit, integration, and E2E tests
@@ -430,7 +429,7 @@ Developer productivity is about managing attention, not just time.
 
 - Learn shell scripting (bash, zsh)
 - Master keyboard shortcuts in your terminal
-- Use tools like `fzf`, `ripgrep`, and `fd` for fast file searching
+- Use tools like `fzf``ripgrep`and `fd` for fast file searching
 - Customise your shell prompt for context (git branch, exit status)
 
 ### Editor Mastery

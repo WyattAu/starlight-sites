@@ -1,6 +1,5 @@
 ---
 
-
 title: "Statistical Distributions"
 description: "Study notes for Statistical Distributions | A-Level with worked examples and practice questions."
 ---------- | ---------- | ---------------------------------------- | | AQA | Paper 1, 2 | Binomial and normal in P1; Poisson in"
@@ -35,6 +34,7 @@ categories:
 Distributions, and the normal distribution function. You must know when to use each distribution and
 How to find probabilities.
 :::
+
 <hr />
 
 ## 1. Discrete Random Variables
@@ -188,6 +188,7 @@ $P(X \leq k) \approx P\!\left(Z \lt \frac{k + 0.5 - np}{\sqrt{np(1-p)}}\right)$.
 :::caution
 inequality Direction.
 :::
+
 <hr />
 
 ## 4. The Poisson Distribution
@@ -274,6 +275,7 @@ Radioactive decays per second, and cars passing a checkpoint per minute.
 :::tip
 bursts, the Poisson model is not appropriate.
 :::
+
 ### 4.7 Poisson approximation to the Binomial
 
 **Practical rule.** When $n \gt 50$ and $p \lt 0.1$We may approximate $B(n, p)$ by
@@ -294,6 +296,7 @@ The approximation improves as $n$ increases and $p$ decreases while $\lambda = n
 approximations are Complementary: Poisson handles the case of many trials with rare success, while
 normal handles the Case of many trials with moderate success probability.
 :::
+
 <hr />
 
 ## 5. Choosing the Right Distribution
@@ -349,6 +352,7 @@ Note how the terms $2abE(X)$ and $b^2$ cancel between $E(Y^2)$ and $[E(Y)]^2$.
 $a$ (a scale change) affects variance, and it does so by a factor of $a^2$. This is why variance is
 Measured in **squared units** of the original variable.
 :::
+
 ### 6.4 Effect on standard deviation
 
 Since $\mathrm{Var}(Y) = a^2\mathrm{Var}(X)$Taking square roots gives:
@@ -697,6 +701,7 @@ Distributions with other topics to test synthesis under exam conditions.
 See for instructions on self-marking and
 building a personal test matrix.
 :::
+
 ## Common Pitfalls
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
@@ -709,7 +714,6 @@ building a personal test matrix.
 
 4. Confusing the domain and range of functions, or not considering restrictions (e.g., denominator
    cannot be zero).
-
 
 ```mermaid
 flowchart TD

@@ -7,7 +7,6 @@ tags: [TypeScript, Flashcards]
 
 ---
 
-
 import FlashcardDeck from "@components/FlashcardDeck";
 import { flashcardData } from '@/data/flashcards/typescript/flashcards-typescript-basics-data.js';
 
@@ -32,11 +31,11 @@ integration. Press Space to flip, rate 1-4.
 
 ## Intuition
 
-TypeScript adds a compile-time type layer on top of JavaScript, the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial`, `Pick`, `Omit`, `Record`) let you transform existing types without defining new ones. The `any` type is an escape hatch that disables type checking, using it is admitting defeat. TypeScript's type system is Turing-complete: you can compute types at compile time, enabling powerful type-level abstractions.
+TypeScript adds a compile-time type layer on top of JavaScript, the types exist only during development and are erased when the code runs. Generics let you write functions that work with any type while preserving type safety. Utility types (`Partial``Pick``Omit``Record`) let you transform existing types without defining new ones. The `any` type is an escape hatch that disables type checking, using it is admitting defeat. TypeScript's type system is Turing-complete: you can compute types at compile time, enabling powerful type-level abstractions.
 
 ## Common Pitfalls
 
-- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string"), type guards (`typeof`, `instanceof`, custom predicates) actually check at runtime.
+- **Type assertion vs type guard**: `as` assertions lie to the compiler ("trust me, this is a string"), type guards (`typeof``instanceof`custom predicates) actually check at runtime.
 - **Enum gotchas**: Numeric enums in TypeScript allow reverse mapping and can be assigned any number without a compile error, prefer string enums or union types.
 - **Generic constraints**: Forgetting to constrain generic types, `T` can be anything, so you can't call methods on it without a constraint like `T extends SomeInterface`.
 - **Structural vs nominal typing**: TypeScript uses structural typing, two types are compatible if their structures match, even if they have different names. This can cause unexpected compatibility.
@@ -53,6 +52,25 @@ TypeScript adds a compile-time type layer on top of JavaScript, the types exist 
 - **[Dart Variables](../../../../../dart/src/content/docs/03-basics/02-variables):** Type system fundamentals compared across languages.
 - **[Rust Traits](../rust/flashcards-rust-basics):** Rust's trait system provides similar type-level abstractions to TypeScript interfaces.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -74,6 +92,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -95,6 +132,25 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
 
 ## Advanced Content
 
@@ -116,7 +172,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -137,7 +192,6 @@ This material connects to current research and advanced applications in the fiel
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
@@ -157,70 +211,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
-
-## Advanced Content
-
-This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
-
-### Derivations and Proofs
-
-Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
-
-### Extended Examples
-
-Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
-
-### Research Connections
-
-This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
-
-### Prerequisites
-
-Ensure you have mastered the prerequisite material before attempting this advanced content.
-
 
 ## Advanced Content
 

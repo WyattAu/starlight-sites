@@ -4,7 +4,7 @@ date: 2026-07-23T21:57:32+01:00
 title: "Common Pitfalls"
 tags:
   - University Maths
-description: "1. False. Only finite intersections are guaranteed. Counterexample: in , , which Comprehensive educational content coverage with definitions and practice problems."
+description: "1. False. Only finite intersections are guaranteed. Counterexample: in, which Comprehensive educational content coverage with definitions and practice problems."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -156,7 +156,6 @@ infinitely often, contradicting continuity. $\blacksquare$
     compactification $X^* = X \cup \{\infty\}$ is Hausdorff if and only if $X$ is locally compact
     and Hausdorff. For example, the one-point compactification of $\mathbb{Q}$ is not Hausdorff
     because $\mathbb{Q}$ is not locally compact.
-
 
 ```mermaid
 flowchart TD

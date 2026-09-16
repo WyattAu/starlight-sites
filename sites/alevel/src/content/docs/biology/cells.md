@@ -20,7 +20,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Cells] --> B[Key Concepts]
@@ -92,6 +91,7 @@ Much larger the image appears; resolution is the ability to distinguish two clos
 As separate. Increasing magnification without increasing resolution produces a larger but blurry
 Image -- no additional detail is revealed.
 :::
+
 ### 1.3 Cell Fractionation
 
 Cell fractionation is the process of breaking open cells and separating organelles by differential
@@ -140,6 +140,7 @@ Measure sedimentation rate during centrifugation -- not molecular weight. Svedbe
 Additive: $50\mathrm{S} + 30\mathrm{S} = 70\mathrm{S}$ is a coincidence of sedimentation rates, not
 Molecular masses.
 :::
+
 ### 2.2 Prokaryotic Cell Structure
 
 Prokaryotic cells possess several structures not found in eukaryotes:
@@ -226,6 +227,7 @@ Enzymes (lipases, proteases, nucleases) optimised for pH $\approx 5$. They funct
 With hydrolytic activity. However, plant cells also have a large permanent vacuole, which is a
 Distinct structure with different functions (turgor, storage, waste isolation).
 :::
+
 ### 3.6 Other Organelles
 
 - **Ribosomes**: $80\mathrm{S}$ in cytoplasm, $70\mathrm{S}$ in mitochondria and chloroplasts. Sites
@@ -363,6 +365,7 @@ Reproduction.
 :::caution
 the time mitosis Starts, each chromosome already consists of two identical sister chromatids.
 :::
+
 ### 6.2 The Cell Cycle
 
 The cell cycle consists of:
@@ -444,6 +447,7 @@ magnification formula. Always convert both image size and actual size to the sam
 error is to leave the answer In mm when the question asks for $\mu\mathrm{m}$. Write down the
 conversion explicitly to avoid losing Marks.
 :::
+
 ## 8. Endocytosis and Exocytosis
 
 ### 8.1 Mechanism of Endocytosis
@@ -489,6 +493,7 @@ diffusion. They are Not. Both are active processes requiring ATP. They involve b
 large quantities of Material in membrane-bound vesicles, which is fundamentally different from the
 passive movement of Individual molecules through the bilayer.
 :::
+
 ## 9. Osmosis and Water Potential Calculations
 
 ### 9.1 Quantifying Water Potential
@@ -553,6 +558,7 @@ do not -- The rigid cell wall exerts an inward pressure (wall pressure) that opp
 entry once Turgidity is reached. Only animal cells (which lack cell walls) burst in hypotonic
 solutions.
 :::
+
 ## 10. The Cell Cycle in Detail
 
 ### 10.1 Checkpoint Control
@@ -610,6 +616,7 @@ multistep Process requiring the accumulation of several mutations in genes regul
 cycle, DNA repair, And apoptosis. A single mutation in a proto-oncogene or tumour suppressor gene is
 necessary but not Sufficient for malignancy.
 :::
+
 ## 11. Meiosis: Overview and Comparison with Mitosis
 
 ### 11.1 Key Differences
@@ -681,6 +688,7 @@ cells can Form a complete organism including placenta and umbilical cord; plurip
 all body cell Types but not extra-embryonic tissues. Only the zygote and very early embryonic cells
 are totipotent.
 :::
+
 ## Practice Problems
 
 <details>
@@ -1073,6 +1081,7 @@ cell wall." Penicillin does not break down existing peptidoglycan. It prevents t
 cross-links during cell wall synthesis. The cell wall weakens because it cannot be repaired or
 expanded, and the bacterium lyses due to the inward osmotic pressure (water entering by osmosis).
 :::
+
 ## 18. Viruses: Structure, Replication, and Defence
 
 ### 18.1 Viral Structure
@@ -1495,6 +1504,7 @@ direct left-right asymmetry during development).
 }
 </script>
 :::
+
 :::tip
 the A-Level specification for this topic, each with a full worked solution.
 
@@ -1504,6 +1514,7 @@ other biology topics to test synthesis under exam conditions.
 See for instructions on
 self-marking and building a personal test matrix.
 :::
+
 ## 24. Viruses: Structure and Replication
 
 ### 24.1 Virus Structure

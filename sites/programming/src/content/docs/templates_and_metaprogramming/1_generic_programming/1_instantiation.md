@@ -116,6 +116,7 @@ S13.8.3]. If a better overload of `g` is declared _after_ the template definitio
 Be found. This is the single most surprising aspect of two-phase lookup and a frequent source of
 Bugs.
 :::
+
 ### Formal Justification for Two-Phase Lookup
 
 The standard mandates two-phase lookup [N4950 S13.8.3] to preserve a well-defined separation between
@@ -247,6 +248,7 @@ S13.8.2/6]. The compiler may silently use the primary template instead. This is 
 Insidious bugs in template code: the program compiles, links, and runs, but produces wrong results.
 Always define specializations before any potential point of use.
 :::
+
 ### Instantiation Point Bugs
 
 The POI rules interact with header inclusion order in subtle ways. A specialization declared in a
@@ -793,7 +795,7 @@ increases code size and can degrade instruction cache performance.
 
 ## Intuition
 
-**Template instantiation is like a cookie cutter:** The template is the cookie cutter shape, and the types are the dough. When you write `vector<int>`, you're pressing the "int" dough through the "vector" cookie cutter, and out comes a concrete `vector<int>` class. The compiler generates a new class for each unique combination of template arguments, like making different cookies with the same cutter but different dough. This is why templates are "zero-cost abstractions", the generated code is exactly what you'd write by hand.
+**Template instantiation is like a cookie cutter:** The template is the cookie cutter shape, and the types are the dough. When you write `vector<int>`you're pressing the "int" dough through the "vector" cookie cutter, and out comes a concrete `vector<int>` class. The compiler generates a new class for each unique combination of template arguments, like making different cookies with the same cutter but different dough. This is why templates are "zero-cost abstractions", the generated code is exactly what you'd write by hand.
 
 **Why it matters:** Template instantiation is the mechanism that makes generic programming work. Understanding it explains why templates must be in headers (the compiler needs to see the full definition to instantiate), why error messages are cryptic (they reference the template, not the instantiation), and why explicit instantiation can reduce compile times (the compiler only generates code once, not in every translation unit).
 
@@ -921,7 +923,6 @@ public:
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)
-
 
 ```mermaid
 flowchart TD

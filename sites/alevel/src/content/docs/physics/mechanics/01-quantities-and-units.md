@@ -125,6 +125,7 @@ Therefore $T = k\sqrt{l/g}$. Full analysis reveals $k = 2\pi$.
 :::tip
 Habit of verifying dimensions for every formula you derive in an exam.
 :::
+
 ## 3. SI Prefixes
 
 | Prefix | Symbol | Factor     |
@@ -180,6 +181,7 @@ $$|\mathbf{F}| = \sqrt{F_x^2 + F_y^2}$$
 :::caution
 Repeatable; an accurate measurement is close to the true value. You can have one without the other.
 :::
+
 ### Absolute, Fractional, and Percentage Uncertainty
 
 **Definition.** If a quantity is measured as $x \pm \Delta x$ Then:
@@ -274,6 +276,7 @@ Trailing zero implies precision we do not have.
 :::tip
 S$^{-2}$ (round the uncertainty to 1 s.f. And match the result). This is what examiners expect.
 :::
+
 ## 6. Determining Uncertainty from Repeated Measurements
 
 When $n$ repeated measurements $x_1, x_2, \ldots, x_n$ are taken of the same quantity:
@@ -487,6 +490,7 @@ Interpreting measurements correctly.
 The values of $c$$h$$e$$k_B$$N_A$ And $\Delta\nu_{Cs}$ are now exact defined quantities, While the
 unit values are derived from them.
 :::
+
 ## 9. Dimensional Analysis: Extended Worked Examples
 
 ### 9.1 Checking Formula Validity

@@ -933,7 +933,6 @@ self-marking and building a personal test matrix.
 
 **Organic chemistry is like a vast city of carbon-based molecules, each with unique structures and personalities.**
 
-
 ```mermaid
 flowchart TD
     A[Organic Chemistry] --> B[Key Concepts]
@@ -965,6 +964,7 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
 ## Cross-References
 
 - [Chemistry](../chemistry)

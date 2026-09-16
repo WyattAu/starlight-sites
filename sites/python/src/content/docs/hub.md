@@ -41,7 +41,6 @@ categories:
 }
 </script>
 
-
 ```mermaid
 flowchart TD
     A[Hub] --> B[Key Concepts]
@@ -141,7 +140,7 @@ Python supports object-oriented programming through classes, inheritance, and pr
 
 **Duck typing** means "if it walks like a duck and quacks like a duck, it is a duck." Python does not check types, it checks whether an object has the methods and attributes you use. This makes Python extremely flexible but requires clear documentation and testing.
 
-**Special methods** (also called dunder methods) define how objects behave with Python's built-in operations. `__len__` defines the result of `len()`, `__getitem__` defines indexing with `[]`, and `__eq__` defines equality with `==`. Implementing these methods makes your classes integrate naturally with Python's syntax.
+**Special methods** (also called dunder methods) define how objects behave with Python's built-in operations. `__len__` defines the result of `len()``__getitem__` defines indexing with `[]`and `__eq__` defines equality with `==`. Implementing these methods makes your classes integrate naturally with Python's syntax.
 
 **Metaclasses** control how classes are created. They are rarely needed in application code but are essential for understanding frameworks like Django ORM, SQLAlchemy, and Pydantic. A metaclass intercepts class definition and can modify the class before it is created.
 
@@ -161,9 +160,9 @@ Python's standard library is one of its greatest strengths. It provides modules 
 
 ### Key Concepts
 
-**`pathlib`** provides an object-oriented interface to the file system. Instead of manipulating strings with `os.path.join`, you use `Path` objects with `/` operators: `path / "subdir" / "file.txt"`. It is more readable and less error-prone.
+**`pathlib`** provides an object-oriented interface to the file system. Instead of manipulating strings with `os.path.join`you use `Path` objects with `/` operators: `path / "subdir" / "file.txt"`. It is more readable and less error-prone.
 
-**`itertools`** provides iterator building blocks, `chain`, `groupby`, `product`, `combinations`, `permutations`, and more. These functions enable elegant, memory-efficient data processing pipelines.
+**`itertools`** provides iterator building blocks, `chain``groupby``product``combinations``permutations`and more. These functions enable elegant, memory-efficient data processing pipelines.
 
 **`functools`** provides higher-order functions, `lru_cache` for memoization, `partial` for partial function application, `reduce` for cumulative operations, and `total_ordering` for generating comparison methods.
 
@@ -204,7 +203,7 @@ Writing correct Python code is not enough, you must write code that is readable,
 
 **EAFP over LBYL**: Python prefers "Easier to Ask Forgiveness than Permission" (try/except) over "Look Before You Leap" (if checks). This is more Pythonic and often more efficient because it avoids redundant checks.
 
-**Virtual environments** isolate project dependencies. Always use a virtual environment (or conda environment) to avoid dependency conflicts between projects. Tools like `venv`, `poetry`, and `uv` manage environments automatically.
+**Virtual environments** isolate project dependencies. Always use a virtual environment (or conda environment) to avoid dependency conflicts between projects. Tools like `venv``poetry`and `uv` manage environments automatically.
 
 ---
 
@@ -295,7 +294,7 @@ For web development, learn FastAPI (modern, async, type-hinted) or Django (batte
 
 ### How do I manage dependencies?
 
-Use a virtual environment for each project. Tools like `poetry`, `uv`, or `pip-tools` manage dependencies and lock versions. Never install packages globally, it leads to dependency conflicts.
+Use a virtual environment for each project. Tools like `poetry``uv`or `pip-tools` manage dependencies and lock versions. Never install packages globally, it leads to dependency conflicts.
 
 ---
 
