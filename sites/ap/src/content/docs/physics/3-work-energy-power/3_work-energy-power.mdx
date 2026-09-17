@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Work (CED Unit 4)
@@ -58,7 +60,7 @@ $[W] = \mathrm\{N \cdot \mathrm\{m = (\mathrm\{kg \cdot \mathrm\{m/s^2) \cdot \m
 This is the same as the dimensions of kinetic energy $\frac{1}{2}mv^2$Confirming that work and
 Energy are the same physical quantity.
 
-:::note[Example]
+<Aside type="note" title="Example">
 A person pushes a $50 \mathrm{ N$ crate across a floor for $4.0 \mathrm{ m$ at an angle of
 $30^\circ$ below horizontal. The coefficient of kinetic friction is $\mu_k = 0.3$. Find the work
 Done by each force and the net work.
@@ -117,9 +119,9 @@ Kinematic quantity) without requiring knowledge of the path taken. You do not ne
 Acceleration, the time, or the detailed trajectory. You only need the initial and final speeds and
 The forces involved. This makes it far more efficient than using Newton's second law for many
 Problems.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A $2.0 \mathrm{ kg$ block initially at rest is pushed by a $12 \mathrm{ N$ horizontal force across A
 frictionless surface for $5.0 \mathrm{ m$. Find its final speed.
 
@@ -208,9 +210,9 @@ W_\{\mathrm\{nc\} = \Delta K + \Delta U = E_f - E_i
 $$
 
 Where $W_{\mathrm{nc}$ is the work done by non-conservative forces (like friction).
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A roller coaster car starts from rest at height $h = 20 \mathrm{ m$Goes through a loop of radius
 $6.0 \mathrm{ m$ And reaches a second hill of height $12 \mathrm{ m$. Find the speed at the top Of
 the loop (neglecting friction).
@@ -228,9 +230,9 @@ $$
 $$
 196 = \frac\{1\}\{2\}v_f^2 + 117.6 \implies \frac\{1\}\{2\}v_f^2 = 78.4 \implies v_f = \sqrt\{156.8\} \approx 12.5 \mathrm\{ m/s
 $$
-:::
+</Aside>
 
-:::note[Example: With Friction]
+<Aside type="note" title="Example: With Friction">
 A $3.0 \mathrm{ kg$ block slides down a $30^\circ$ incline of length $5.0 \mathrm{ m$ from rest. The
 coefficient of kinetic friction is $\mu_k = 0.2$. Find the speed at the bottom.
 
@@ -271,9 +273,9 @@ Average power: $P_{\mathrm{avg} = W/t = \Delta E / t$.
 Instantaneous power: $P(t) = \vec{F}(t) \cdot \vec{v}(t)$.
 
 When the force and velocity are not constant, average and instantaneous power differ.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A $1200 \mathrm{ kg$ car accelerates from rest to $25 \mathrm{ m/s$ in 8.0 s on a level road. If The
 engine provides constant power, what is that power?
 
@@ -282,7 +284,7 @@ engine provides constant power, what is that power?
 $$
 P = \frac\{W\}\{t\} = \frac\{\Delta K\}\{t\} = \frac\{\frac\{1\}\{2\}(1200)(25)^2\}\{8.0\} = \frac\{375000\}\{8.0\} = 46875 \mathrm\{ W \approx 46.9 \mathrm\{ kW
 $$
-:::
+</Aside>
 
 ### Power at Constant Speed Up an Incline
 
@@ -631,11 +633,11 @@ $$F_{\mathrm{total resist}(30) = 1440 + 200 = 1640 \mathrm{ N$$
 The car cannot maintain $30 \mathrm{ m/s$ with the same driving force -- air resistance increases
 Too rapidly.
 
-:::note
+<Aside type="note">
 Info Air density, $C_D$ is the drag coefficient, and $A$ is the cross-sectional area. This
 
 quadratic Dependence on velocity is why fuel consumption increases dramatically at high speeds.
-:::
+</Aside>
 
 ### Example 17: Energy in a Mass-Spring System with Gravity
 

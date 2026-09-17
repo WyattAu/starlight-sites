@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 
 ```mermaid
@@ -47,11 +49,11 @@ Adjust the parameters in the graph above to explore the relationships between va
 | OCR (A)    | Paper 1 | Definitions and basic identities                           |
 | CIE (9231) | P2      | Full coverage including logarithmic forms of inverses      |
 
-:::note
+<Aside type="note">
 The formula booklet lists hyperbolic identities and the logarithmic forms of the inverse
 
 Hyperbolic functions. CIE requires the derivation of these logarithmic forms.
-:::
+</Aside>
 
 <hr />
 
@@ -74,11 +76,11 @@ $$\boxed{\tanh x = \frac{\sinh x}{\cosh x} = \frac{e^x - e^{-x}}{e^x + e^{-x}}}$
 
 $$\mathrm{sech}\,x = \frac{1}{\cosh x}, \qquad \mathrm{cosech}\,x = \frac{1}{\sinh x}, \qquad \coth\,x = \frac{\cosh x}{\sinh x}$$
 
-:::caution
+<Aside type="caution">
 Note the spelling: $\cosh$, $\sinh$, $\tanh$ are standard abbreviations. The reciprocals
 
 Use $\mathrm{sech}$ (not $\mathrm{sec h}$), $\mathrm{cosech}$ (not $\mathrm{csch}$), and $\coth$.
-:::
+</Aside>
 
 ### 1.3 Domain and range
 
@@ -169,11 +171,11 @@ $\sinh^2$ term flips sign.)
 $\cos 2x = \cos^2 x - \sin^2 x \xrightarrow{\mathrm{Osborn}} \cosh 2x = \cosh^2 x + \sinh^2 x$. (The
 $\sinh^2$ term flips sign, turning $-$ into $+$.)
 
-:::tip
+<Aside type="tip">
 Osborn's rule is a useful mnemonic but should not replace understanding. Always verify
 
 Identities by direct computation from the exponential definitions when in doubt.
-:::
+</Aside>
 
 <hr />
 
@@ -323,12 +325,12 @@ $$\int \mathrm{sech}^2\,x\,dx = \tanh x + C$$
 
 $$\int \tanh x\,dx = \ln(\cosh x) + C$$
 
-:::tip
+<Aside type="tip">
 When you encounter an integral of the form $\dfrac{1}{\sqrt{x^2+a^2}}$ or
 
 $\dfrac{1}{\sqrt{x^2-a^2}}$The inverse hyperbolic functions provide the most elegant
 Answer. CIE and Edexcel FP2 frequently test these.
-:::
+</Aside>
 
 <hr />
 

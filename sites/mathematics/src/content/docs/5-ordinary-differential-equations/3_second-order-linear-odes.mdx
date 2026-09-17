@@ -8,6 +8,8 @@ tags:
 description: "Second-Order Linear ODEs: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems."
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 
 ### 3.1 General Theory
@@ -452,20 +454,20 @@ $y = t\sin(3t)$. $\blacksquare$
 
 </details>
 
-:::caution
+<Aside type="caution">
 Common Pitfall When using undetermined coefficients, always check whether your guess
 
 Overlaps with the homogeneous solution. For $y'' - 4y = e^{2x}$Guessing $y_p = Ae^{2x}$ fails
 Because $e^{2x}$ satisfies the homogeneous equation. You must use $y_p = Axe^{2x}$ instead.
-:::
+</Aside>
 
-:::caution
+<Aside type="caution">
 Common Pitfall For Euler-Cauchy equations, the substitution $y = x^r$ only works for
 
 $x > 0$. For $x < 0$Substitute $x = -e^t$ or use $y = (-x)^r$.
-:::
+</Aside>
 
-:::caution
+<Aside type="caution">
 Common Pitfall Variation of parameters always works but can lead to difficult integrals.
 
 If the forcing term $g(x)$ is a polynomial, exponential, sine, or cosine (or products of these),
@@ -519,7 +521,7 @@ $= -\frac{(x+1)e^x}{4} - \frac{(3x-1)e^x}{36} = e^x\left(-\frac{9(x+1)}{36} - \f
 $y = c_1 e^{2x} + c_2 e^{-2x} - \frac{(x+2)e^x}{9}$. $\blacksquare$
 
 </details>
-:::
+</Aside>
 
 ```mermaid
 flowchart TD

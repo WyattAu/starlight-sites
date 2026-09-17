@@ -7,6 +7,8 @@ tags:
 description: "A (stationary wave) is formed by the superposition of two waves of the same Frequency travelling in opposite directions. Unlike a travelling wave, a"
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 
 ## Standing Waves
@@ -484,8 +486,7 @@ $$\Delta\phi = \frac{2\pi}{\lambda}\,\Delta x$$
 | $0, \lambda, 2\lambda, \ldots$  | $0, 2\pi, 4\pi, \ldots$ | Constructive |
 | $\lambda/2, 3\lambda/2, \ldots$ | $\pi, 3\pi, \ldots$     | Destructive  |
 
-:::caution[Common Pitfall]
-
+<Aside type="caution" title="Common Pitfall">
 In double-slit calculations, do not confuse the slit separation $d$ with the slit width $a$. The
 Fringe spacing is determined by $d$; the envelope of the diffraction pattern is determined by $a$.
 The overall intensity pattern is the product of the double-slit interference pattern and the
@@ -562,7 +563,7 @@ linked above.
 **Confusing diffraction with interference:** Diffraction is the bending of waves around obstacles or through openings. Interference is the superposition of two or more waves. Diffraction causes the spreading that allows interference to occur, but they're different phenomena.
 
 **Forgetting that intensity is proportional to amplitude squared:** When two waves interfere constructively, the resultant amplitude is $2A$, so intensity is $4I_0$ (not $2I_0$). Students often forget the squared relationship.
-:::
+</Aside>
 
 ## See Also
 

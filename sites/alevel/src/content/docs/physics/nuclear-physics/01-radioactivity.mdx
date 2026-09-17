@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Radioactivity
@@ -106,11 +108,11 @@ $$\prescript{A}{Z}\mathrm X^* \to \prescript{A}{Z}\mathrm X + \gamma$$
 No change in $A$ or $Z$. Gamma rays are weakly ionising but highly penetrating (stopped by thick
 Lead or concrete).
 
-:::caution
+<Aside type="caution">
 Common Pitfall In $\beta^-$ decay, the mass number $A$ does not change, only the atomic
 
 Number changes. A neutron becomes a proton, so the total nucleon count is unchanged.
-:::
+</Aside>
 
 > **Info:** Board Coverage AQA Paper 2 | Edexcel CP3 | OCR (A) Paper 2 | CIE P4
 | Requirement                  | AQA         | Edexcel     | OCR (A)     | CIE      |
@@ -185,16 +187,15 @@ $$\boxed{t_{1/2} = \frac{\ln 2}{\lambda}}$$
 $N = N_0/2^n$. The decay is exponential, the activity is always proportional to the number of
 Remaining nuclei, so it decreases exponentially.
 
-:::tip
+<Aside type="tip">
 Tip Straight line with gradient $=-\lambda$. The half-life can be found by finding the time
 
 for the Activity to halve at any point on the curve.
-:::
+</Aside>
 
 ### Radiation Detection
 
-:::note[Info]
-
+<Aside type="note" title="Info">
 #### Geiger-Muller Tube
 
 The Geiger-Muller (GM) tube is the most common radiation detector. It consists of a thin-walled
@@ -223,14 +224,14 @@ Sources of background radiation include:
 - **Ground and building materials**, occurring radioactive isotopes such as $^{40}\mathrm K$ and
   $^{238}\mathrm U$.
 - **Food and drink**, trace amounts of $^{40}\mathrm K$ and $^{14}\mathrm C$.
-:::
+</Aside>
 
-:::caution
+<Aside type="caution">
 Warning Because: (1) the detector only intercepts a fraction of emitted radiation (solid
 
 angle factor), and (2) not all radiation that enters the tube produces a count (detection efficiency
 is 1-2% For gamma rays). Never assume count rate equals activity.
-:::
+</Aside>
 
 #### Scintillation Detector
 
@@ -257,12 +258,12 @@ $$\ln A = \ln A_0 - \lambda t$$
 
 The gradient of the straight line gives $-\lambda$ And then $t_{1/2} = \ln 2 / \lambda$.
 
-:::tip
+<Aside type="tip">
 Exam Technique When describing an experimental method for determining half-life, always
 
 Mention: (1) measuring background count rate first, (2) subtracting it from all readings, (3) taking
 Readings at regular intervals, and (4) using a log-linear graph for greater accuracy.
-:::
+</Aside>
 
 #### Practical Considerations
 
@@ -272,12 +273,12 @@ Readings at regular intervals, and (4) using a log-linear graph for greater accu
   known mass of the isotope and use $A = \lambda N$ where $N$ is calculated from the mass and
   Avogadro's number.
 
-:::note
+<Aside type="note">
 Board Coverage AQA requires the graphical method; Edexcel and OCR (A) additionally require
 
 Discussion of uncertainties and the effect of dead time on accuracy; CIE requires the logarithmic
 Method.
-:::
+</Aside>
 
 ## Problem Set
 
@@ -455,19 +456,18 @@ Each daughter has the same activity as the parent. This has practical importance
 Protection: the activity of radon-222 (a daughter of $^{238}\mathrm U$) in buildings is sustained
 By the essentially constant uranium in the ground beneath.
 
-:::caution
+<Aside type="caution">
 Warning Only when the parent is much longer-lived than all daughters. If a short-lived
 
 daughter precedes a Long-lived daughter, the long-lived daughter accumulates and can become the
 dominant radiological Hazard.
-:::
+</Aside>
 
 ## 5. Applications of Radioactivity
 
 ### Carbon-14 Dating
 
-:::note[Info]
-
+<Aside type="note" title="Info">
 Living organisms continuously exchange carbon with the atmosphere, maintaining a constant ratio of
 $^{14}\mathrm C$ to $^{12}\mathrm C$. Cosmic rays produce neutrons in the upper atmosphere, Which
 react with nitrogen-14:
@@ -505,13 +505,13 @@ Radioactive isotopes are used both diagnostically and therapeutically:
 Activity to fall to half its initial value, combining both physical decay and biological clearance:
 
 $$\frac{1}{t_{\mathrm{eff}}} = \frac{1}{t_{\mathrm{physical}}} + \frac{1}{t_{\mathrm{biological}}}$$
-:::
+</Aside>
 
-:::note
+<Aside type="note">
 Board Coverage The effective half-life is required by Edexcel and OCR (A) but is not
 
 Explicitly tested by AQA or CIE at A Level.
-:::
+</Aside>
 
 ## 6. Case Studies
 
@@ -549,13 +549,13 @@ Key differences from Chernobyl:
 Both disasters demonstrate that understanding half-lives is critical for predicting contamination
 Timelines and informing public health responses.
 
-:::tip
+<Aside type="tip">
 Exam Application When asked to evaluate the risks from a nuclear incident, consider: (1)
 
 Which isotopes were released, (2) their half-lives, (3) how they enter the body (inhalation,
 Ingestion, external exposure), and (4) the type of radiation emitted (alpha is most dangerous
 Internally, gamma externally).
-:::
+</Aside>
 
 ## Additional Problems
 
@@ -636,7 +636,7 @@ Equilibrium value over several radon half-lives (approximately 20-40 days).
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Radioactivity**? The contains the hardest
 
 questions within the A-Level specification for this topic, each with a full worked solution.
@@ -646,10 +646,9 @@ Radioactivity with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
-:::danger[Common Pitfalls]
-
+<Aside type="danger" title="Common Pitfalls">
 - **Confusing alpha, beta, and gamma radiation properties:** Alpha particles are helium nuclei (2
   protons, 2 neutrons) -- they are heavy, positively charged, and stopped by paper. Beta particles
   are fast electrons -- they are light, negatively charged, and stopped by aluminium. Gamma rays are
@@ -722,7 +721,7 @@ linked above.
 **Confusing activity with count rate:** Activity is the total decays per second (Bq). Count rate is what the detector measures (always less than activity due to detector efficiency and geometry). Students often use them interchangeably.
 
 **Forgetting that half-life is constant:** The half-life of a radioactive substance is constant regardless of the initial amount. After one half-life, 50% remains; after two, 25%; after three, 12.5%. The decay rate depends on the current amount, not the original amount.
-:::
+</Aside>
 
 ## Cross-References
 

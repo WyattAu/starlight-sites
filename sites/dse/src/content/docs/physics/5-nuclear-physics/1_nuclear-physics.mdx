@@ -8,6 +8,8 @@ tags:
 categories: "- DSE - Physics"
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Intuition
@@ -75,11 +77,11 @@ Examples:
 - Isobars: $\prescript{40}{20}\mathrm{Ca}$ and $\prescript{40}{18}\mathrm{Ar}$
 - Isotones: $\prescript{14}{6}\mathrm C$ and $\prescript{15}{7}\mathrm N$ (both have $N = 8$)
 
-:::note
+<Aside type="note">
 In DSE exams, isotopes share the same chemical symbol and chemical behaviour. Only nuclear
 
 Reactions can distinguish between isotopes of the same element.
-:::
+</Aside>
 
 ### Nuclear Forces
 
@@ -227,12 +229,12 @@ Every nuclear decay must satisfy:
 5. **Conservation of momentum**: linear momentum is conserved
 6. **Conservation of lepton number**: total lepton number is conserved
 
-:::caution
+<Aside type="caution">
 Warning Equations. While DSE exams sometimes omit them for simplicity, always check
 
 whether the question Requires them. Also, ensure $A$ and $Z$ balance on both sides of every decay
 equation.
-:::
+</Aside>
 
 ### Worked Example: Balancing Decay Equations
 
@@ -349,12 +351,12 @@ The half-life is then:
 
 $$t_{1/2} = \frac{\ln 2}{\lvert\mathrm{slope}\rvert}$$
 
-:::note
+<Aside type="note">
 Info Plot, remember the slope is negative: $\lvert\mathrm{slope}\rvert = \lambda$. Always
 
 check the axes carefully -- count rate is proportional to activity but is lower due to detector
 efficiency.
-:::
+</Aside>
 
 ### Relationship Between Activity and Mass
 
@@ -368,7 +370,7 @@ The activity is then:
 
 $$A = \lambda N = \frac{\lambda m N_A}{M} = \frac{m N_A \ln 2}{M t_{1/2}}$$
 
-:::caution
+<Aside type="caution">
 Warning Detected by a particular instrument). The count rate is always less than or equal
 
 to the activity Because:
@@ -376,7 +378,7 @@ to the activity Because:
 - The detector only captures a fraction of emitted radiation (solid angle)
 - Not all radiation reaches the detector (absorption by air, source holder)
 - The detector has less than 100% efficiency
-:::
+</Aside>
 
 ---
 
@@ -582,12 +584,12 @@ For the D-T fusion reaction:
 
 $$Q = [m(\prescript{2}{1}\mathrm H) + m(\prescript{3}{1}\mathrm H) - m(\prescript{4}{2}\mathrm{He}) - m(\prescript{1}{0}\mathrm n)]c^2 = 17.6 \mathrm{ MeV}$$
 
-:::note
+<Aside type="note">
 In DSE calculations, always convert masses to the same units (preferably u) before computing
 
 The Q-value. Use $1 \mathrm{ u} = 931.5 \mathrm{ MeV}/c^2$ for the energy conversion. Remember that
 The Q-value is shared among all products as kinetic energy (and possibly photons).
-:::
+</Aside>
 
 ---
 
@@ -699,12 +701,12 @@ Semiconductor material (e.g., silicon or germanium).
 | Cloud chamber         | Alpha, beta, gamma         | Limited            | Visualises tracks                 | Bulky, requires careful setup     |
 | Semiconductor         | Alpha, beta, gamma, X-rays | Yes (excellent)    | Best energy resolution, compact   | Expensive, often requires cooling |
 
-:::note
+<Aside type="note">
 In DSE exams, the GM tube is the most important detector. Know its construction, operation
 
 Principle, dead time, and limitations. Be prepared to explain why a GM tube cannot distinguish
 Between alpha and beta radiation.
-:::
+</Aside>
 
 ---
 
@@ -801,13 +803,13 @@ $$\mathrm{HVT} = \frac{\ln 2}{\mu}$$
 
 Where $\mu$ is the linear attenuation coefficient.
 
-:::caution
+<Aside type="caution">
 Never use lead shielding for beta radiation. High-Z materials like lead produce
 
 Bremsstrahlung (breaking radiation) when beta particles decelerate rapidly, creating X-rays that are
 More penetrating than the original beta particles. Use aluminium or perspex for beta shielding
 Instead.
-:::
+</Aside>
 
 ---
 
@@ -982,12 +984,12 @@ Given a decay equation, identify the missing particle. Check:
 - Account for background radiation by subtracting the background count rate
 - Understand sources of error: statistical fluctuations, dead time, geometry, absorption
 
-:::note
+<Aside type="note">
 Info Calculations and explanations. In Paper 2, it appears as multiple-choice questions
 
 testing concepts, Definitions, and quick calculations. Practise balancing decay equations and
 calculating binding Energy -- these are high-frequency topics.
-:::
+</Aside>
 
 ### Key Formulae Summary
 
@@ -1131,12 +1133,12 @@ $$t = \frac{2.303}{1.209 \times 10^{-4}} = 19,040 \mathrm{ years}$$
 
 The ancient wood is approximately $19,000$ years old.
 
-:::note
+<Aside type="note">
 Info Many half-lives correspond to this fraction. $2^n = 10$ gives
 
 $n = \frac{\ln 10}{\ln 2} = 3.32$ Half-lives. So $t = 3.32 \times 5730 = 19,024$ years. Both methods
 give the same result.
-:::
+</Aside>
 
 ### Worked Example 5: Nuclear Fission Energy
 
@@ -1330,12 +1332,12 @@ $$\Delta m = Z \cdot m(\prescript{1}{1}\mathrm H) + N \cdot m_n - m(\prescript{A
 
 Where $m(\prescript{1}{1}\mathrm H)$ is the atomic mass of hydrogen (proton + electron).
 
-:::caution
+<Aside type="caution">
 Warning Atomic masses are provided. Mixing the two conventions will lead to incorrect
 
 results. When in Doubt, use atomic masses (the more common convention in exam questions) and note
 that the electron Masses approximately cancel.
-:::
+</Aside>
 
 ### Mistake 8: Assuming All Radiation Is Equally Harmful
 
@@ -1672,7 +1674,7 @@ For the A-Level treatment of this topic, see
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Nuclear Physics**? The contains the hardest questions
 
 within the DSE specification for this topic, each with a full worked solution.
@@ -2077,4 +2079,4 @@ each approach.
 - [Mechanics](../1-mechanics/2_mechanics-depth) -- Conservation of momentum applies to nuclear reactions and radioactive decay.
 - [Genetics](../../biology/3-genetics/1_genetics) -- Radiation-induced mutations link nuclear physics to genetic variation.
 - [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- Radioactive isotopes are used in carbon dating organic compounds.
-:::
+</Aside>

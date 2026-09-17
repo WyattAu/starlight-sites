@@ -9,6 +9,8 @@ categories:
   - cpp
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 Linkers were originally designed for C and Fortran, languages where function names are unique
@@ -190,12 +192,12 @@ Can exceed 1000 characters.
 nm -C ./app | awk '\{ print length, $0 \}' | sort -rn | head -20
 ```
 
-:::note
+<Aside type="note">
 Return Types The Itanium ABI generally does **not** encode the return type of a function, as
 
 C++ does not support overloading based solely on return type. Exception: Template functions and
 `auto` return type deduction may trigger return type encoding.
-:::
+</Aside>
 
 ## 3. The Microsoft ABI (MSVC)
 
@@ -304,12 +306,12 @@ extern "C" void my_callback(int value) \{
 c_library_register_callback(my_callback);
 ```
 
-:::caution
+<Aside type="caution">
 Mixing function pointers with different linkage is undefined behavior [N4950 S10.5 p7]. A
 
 Function pointer of type `extern "C"` and one of type C++ linkage are different types, even if they
 Have the same parameter and return types. Passing one where the other is expected is UB.
-:::
+</Aside>
 
 ## 5. Inspection and Demangling Tools
 
@@ -661,7 +663,7 @@ This can cause subtle linker errors when a function is declared `noexcept` in on
 Another. The mangled names differ, and the linker reports an undefined reference. The fix is to
 Ensure the `noexcept` specification is consistent across all declarations.
 
-:::caution
+<Aside type="caution">
 In C++17, `noexcept` became part of the type system. This means function pointer types
 
 Are different if their `noexcept` specification differs. A `void(*)(int)` and a
@@ -786,4 +788,4 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
+</Aside>

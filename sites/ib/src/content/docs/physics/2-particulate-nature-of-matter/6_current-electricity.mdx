@@ -9,6 +9,8 @@ categories:
   - ib
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## 1. Electric Fields
@@ -42,7 +44,7 @@ Where $\hat{r}_{12}$ is the unit vector pointing from $q_1$ to $q_2$. Like charg
 Repulsive force (positive $F$ along $\hat{r}_{12}$), and unlike charges produce an attractive force
 (negative $F$I.e. Anti-parallel to $\hat{r}_{12}$).
 
-:::note
+<Aside type="note">
 Data Booklet Reference Both forms appear in the IB data booklet:
 $$
 F = \frac\{q_1 q_2\}\{4\pi\varepsilon_0 r^2\}
@@ -51,7 +53,7 @@ $$
 $$
 E = \frac\{q\}\{4\pi\varepsilon_0 r^2\}
 $$
-:::
+</Aside>
 
 ### 1.2 Electric Field Strength
 
@@ -156,7 +158,7 @@ $$
 
 Where $L$ is the length of the plates.
 
-:::tip
+<Aside type="tip">
 Electron vs Proton Deflection For the same field and entry speed, a proton is deflected
 $m_p/m_e \approx 1836$ times less than an electron. The direction of deflection is opposite for
 Opposite charges.
@@ -200,7 +202,7 @@ Less than the half-separation of $10\mathrm{ mm}$The electron exits the plates w
 Them.
 
 </details>
-:::
+</Aside>
 
 ---
 
@@ -250,7 +252,7 @@ $$
 I = \frac\{\Delta Q\}\{\Delta t\} = nAev_d
 $$
 
-:::note
+<Aside type="note">
 Typical Values For copper, $n \approx 8.5 \times 10^{28}\mathrm{ m}^{-3}$. For a
 $1\mathrm{ mm}^2$ copper wire carrying $1\mathrm{ A}$The drift velocity is:
 
@@ -299,7 +301,7 @@ Number of electrons:
 $$n_e = \frac{Q}{e} = \frac{60}{1.6 \times 10^{-19}} = 3.75 \times 10^{20}$$
 
 </details>
-:::
+</Aside>
 
 ### 2.3 Potential Difference and Electromotive Force
 
@@ -356,11 +358,11 @@ $\Omega\,\mathrm m$.
 The inverse quantity is conductivity: $\sigma = 1/\rho$With SI unit $\mathrm{S m}^{-1}$ (siemens Per
 metre).
 
-:::note[Data Booklet Resistivity Values Copper:]
+<Aside type="note" title="Data Booklet Resistivity Values Copper:">
 $\rho \approx 1.7 \times 10^{-8}\,\Omega\,\mathrm m$. Nichrome (alloy):
 $\rho \approx 1.1 \times 10^{-6}\,\Omega\,\mathrm m$. Semiconductors: $\rho$ spans many orders of
 Magnitude.
-:::
+</Aside>
 
 ### 3.3 Factors Affecting Resistance
 
@@ -785,11 +787,11 @@ $$
 P_\{\max\} = \frac\{\varepsilon^2\}\{4r\}
 $$
 
-:::caution
+<Aside type="caution">
 Efficiency at Maximum Power At $R_L = r$The efficiency is only 50% (half the power is
 Dissipated in the internal resistance). In power distribution systems, $R_L \gt r$ is preferred for
 Higher efficiency, even though less total power is delivered.
-:::
+</Aside>
 
 ### 5.4 Battery Configurations
 
@@ -987,12 +989,12 @@ $$
 
 Which is always less than $R$. The measured p.d. Is lower than the true p.d.
 
-:::tip
+<Aside type="tip">
 Minimising Measurement Error For ammeters: use instruments with the smallest possible
 Internal resistance. For voltmeters: use instruments with the largest possible internal resistance.
 A voltmeter is considered sufficiently ideal if $R_V \gt 100R$Where $R$ is the resistance across
 Which it is connected.
-:::
+</Aside>
 
 ### 7.3 Galvanometer as Ammeter and Voltmeter
 
@@ -1168,7 +1170,7 @@ Series to prevent excessive current when the diode conducts.
 
 ## 11. Summary of Key Equations
 
-:::note
+<Aside type="note">
 IB Physics Data Booklet, Topic 5 The following are the key equations for current
 Electricity found in the IB Physics data booklet:
 
@@ -1184,7 +1186,7 @@ Electricity found in the IB Physics data booklet:
 | Internal resistance              | $V = \varepsilon - Ir$                                      |
 | Potential divider                | $V_{\mathrm{out}} = V_{\mathrm{in}} \dfrac{R_2}{R_1 + R_2}$ |
 | Wheatstone bridge                | $\dfrac{R_1}{R_2} = \dfrac{R_3}{R_4}$                       |
-:::
+</Aside>
 
 ---
 
@@ -1547,7 +1549,7 @@ Current when first switched on (cold) than during normal operation.
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Current Electricity**? The contains the hardest
 
 questions within the IB specification for this topic, each with a full worked solution.
@@ -1557,7 +1559,7 @@ Electricity with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
 ## Worked Examples
 

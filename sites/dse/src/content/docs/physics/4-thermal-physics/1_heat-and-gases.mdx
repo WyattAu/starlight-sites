@@ -8,6 +8,8 @@ tags:
 categories: "- DSE - Physics"
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Intuition
@@ -627,12 +629,12 @@ $$T(t) = T_s + (T_0 - T_s)e^{-t/\tau}$$
 
 Where $\tau = C / (hA)$ is the time constant.
 
-:::note
+<Aside type="note">
 Info Radiation is not the dominant mechanism. At large temperature differences, the $T^4$
 
 dependence of Radiation becomes significant and the cooling is faster than predicted by Newton's
 law.
-:::
+</Aside>
 
 ---
 
@@ -1469,7 +1471,7 @@ For the A-Level treatment of this topic, see
 
 ---
 
-:::tip
+<Aside type="tip">
 Tip Ready to test your understanding of **Heat and Gases**? The contains the hardest questions
 
 within the DSE specification for this topic, each with a full worked solution.
@@ -1479,7 +1481,7 @@ Gases with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
 ---
 

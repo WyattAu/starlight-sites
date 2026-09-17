@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Oscillations
@@ -166,11 +168,11 @@ This is SHM in the variable $\theta$ with angular frequency $\omega = \sqrt{g/L}
 
 $$\boxed{T = 2\pi\sqrt{\frac{L}{g}}}$$
 
-:::caution
+<Aside type="caution">
 Common Pitfall The period of a simple pendulum is **independent of mass** and
 
 **independent of amplitude** (for small oscillations). These are classic exam questions.
-:::
+</Aside>
 
 ## 6. Phase Relationships
 
@@ -221,12 +223,12 @@ Maximised.
 (aeroelastic resonance), tuning a radio (LC circuit resonance), MRI machines (nuclear magnetic
 Resonance).
 
-:::tip
+<Aside type="tip">
 Exam Technique In exam questions about damping and resonance, remember: more damping $\to$
 
 Lower maximum amplitude $\to$ broader resonance curve. Less damping $\to$ higher peak $\to$ narrower
 Curve.
-:::
+</Aside>
 
 ## Problem Set
 
@@ -414,11 +416,11 @@ $T = 0.5$ s). KE varies as $\cos(8\pi t)$Giving a frequency of $4$ Hz, exactly d
 Displacement cycle, KE reaches its maximum twice: once as the mass passes through equilibrium moving
 Left, and once moving right.
 
-:::tip
+<Aside type="tip">
 Tip At twice the displacement frequency, exactly out of phase, oscillating between $0$ and
 
 $E_{\mathrm{total}}$. Their sum is a horizontal line at $E_{\mathrm{total}}$.
-:::
+</Aside>
 
 ## 10. Damping, Time Constant and Displacement-Time Graphs
 
@@ -480,12 +482,12 @@ $$E(t) = E_0 \, e^{-t/\tau_E}$$
 Where $\tau_E = \tau/2 = m/b$. Energy is lost twice as fast as the amplitude decays, since
 $E \propto A^2$.
 
-:::caution
+<Aside type="caution">
 Warning Fastest overall. A lightly damped system passes through equilibrium sooner but
 
 overshoots. Heavy Damping is slower than critical, adding more damping beyond the critical value
 makes the system **slower**, not faster.
-:::
+</Aside>
 
 **Application.** Car shock absorbers are designed to be critically damped: after hitting a bump, the
 Car body returns to equilibrium as quickly as possible without bouncing up and down.
@@ -541,12 +543,12 @@ Molecules, efficiently transferring energy and heating food.
 **MRI scanners:** Protons in body tissue resonate at specific radio frequencies in a strong magnetic
 Field, enabling detailed internal imaging without ionising radiation.
 
-:::tip
+<Aside type="tip">
 Tip Slightly below $f_0$. Less damping $\to$ higher, sharper peak closer to $f_0$. When
 
 sketching Resonance curves for different damping levels, always label the natural frequency $f_0$
 and show the Amplitude axis .
-:::
+</Aside>
 
 ## 12. Phasor Diagrams for SHM
 
@@ -691,7 +693,7 @@ $x = 0$), the velocity phasor is horizontal, giving a maximum projection of $\pm
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Oscillations**? The contains the hardest questions
 
 within the A-Level specification for this topic, each with a full worked solution.
@@ -701,10 +703,9 @@ Oscillations with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
-:::danger[Common Pitfalls]
-
+<Aside type="danger" title="Common Pitfalls">
 - **Confusing angular frequency omega with frequency f:** Angular frequency omega = 2 _pi_ f = 2 _
   pi / T. They are different quantities with different units (rad/s vs Hz). Substituting f where
   omega is needed (or vice versa) in equations like x = A cos(omega_ t) will give completely wrong
@@ -756,7 +757,7 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
+</Aside>
 
 ## Cross-References
 

@@ -9,6 +9,8 @@ categories:
   - cpp
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 To develop in C++, a strictly compliant toolchain is required. The following details the
@@ -255,11 +257,11 @@ clang++ -std=c++23 -O3 test.cpp -o infra_test
 ./infra_test
 ```
 
-:::caution
+<Aside type="caution">
 If you are using MSVC, replace `clang++` with `cl.exe` and ensure you have the latest
 
 Visual Studio 2022 installed.
-:::
+</Aside>
 
 **Success Criteria:**
 

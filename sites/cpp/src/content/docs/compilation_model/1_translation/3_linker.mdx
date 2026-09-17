@@ -9,6 +9,8 @@ categories:
   - cpp
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
 The Linker (`ld, lld, link.exe`) is the final architect of the binary. While the compiler works In
@@ -45,7 +47,7 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 - If a match is found, that specific member object is extracted and added to **E**.
 - If no match is found, the member object is ignored entirely.
 
-:::danger
+<Aside type="danger">
 The Archive Order Trap Because static libraries are searched only to resolve _currently
 
 Pending_ undefined symbols, order matters. If `LibA` depends on `LibB, LibA` must appear **before**
@@ -53,7 +55,7 @@ Pending_ undefined symbols, order matters. If `LibA` depends on `LibB, LibA` mus
 
 - Correct: `clang++ main.o -lA -lB`
 - Incorrect: `clang++ main.o -lB -lA` (Linker fails: Symbols in A are undefined).
-:::
+</Aside>
 
 ### Weak vs. Strong vs. Common Symbols
 
@@ -297,12 +299,12 @@ if(CMAKE_CXX_COMPILER_ID MATCHES "Clang|GNU")
 endif()
 ```
 
-:::caution
+<Aside type="caution">
 ICF can break programs that compare function pointers for identity. If `f()` and `g()`
 
 Are folded into the same address, `&f == &g` becomes `true` even though they are distinct functions.
 This is rare but possible. Use `-Wl,--icf=safe` to fold only functions with identical relocations.
-:::
+</Aside>
 
 ## 4. Static vs. Shared Libraries
 
@@ -751,7 +753,7 @@ The linker rewrites every call to `malloc` to call `__wrap_malloc` instead. The 
 Symbol is provided by the original library and can be called from within the wrapper. This mechanism
 Does not require modifying the original source code.
 
-:::caution
+<Aside type="caution">
 `--wrap` operates at the symbol level, not the function level. If `malloc` is inlined by
 
 The compiler, the wrapper will not intercept the inlined call. Use `-fno-inline` on the wrapping TU
@@ -794,4 +796,4 @@ for mastery of this topic.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
+</Aside>

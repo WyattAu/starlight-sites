@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Displacement, Velocity, and Acceleration (CED Unit 1)
@@ -120,7 +122,7 @@ $$
 
 This equation is useful because it relates velocity and displacement without requiring the time.
 
-:::note[Example]
+<Aside type="note" title="Example">
 A car accelerates uniformly from rest at $3.0 \mathrm{ m/s^2$ for 5.0 s. Find the distance traveled.
 
 $$
@@ -173,9 +175,9 @@ Ground (if air resistance is negligible). This is because the motion is symmetri
 The time to rise equals the time to fall, and the speed at any height on the way up equals the speed
 At the same height on the way down. The symmetry is a direct consequence of the equations being
 Quadratic in $t$.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A ball is thrown upward from ground level with initial velocity $20 \mathrm{ m/s$. Find the maximum
 Height and the total time in the air.
 
@@ -269,9 +271,9 @@ $$
 
 This is a quadratic in $x$ So the trajectory is a parabola. The negative coefficient of $x^2$
 Confirms that the parabola opens downward.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A projectile is launched at $50 \mathrm{ m/s$ at $37^\circ$ above horizontal from ground level. Find
 The range and maximum height.
 
@@ -369,9 +371,9 @@ $\vec{a}_c \cdot \vec{v} = 0$The power delivered is $P = \vec{F} \cdot \vec{v} =
 energy $\frac{1}{2}mv^2$ is constant. The speed does not change; only the direction of the Velocity
 vector changes. This is why "centripetal" means "centre-seeking" -- the acceleration always Points
 toward the center, never along the velocity.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A car rounds a curve of radius 50 m at $15 \mathrm{ m/s$. What is its centripetal acceleration?
 
 $$
@@ -399,9 +401,9 @@ $$
 When $a(t)$ or $v(t)$ is given graphically rather than analytically, the displacement can be found
 By computing the area under the $v$-vs-$t$ curve. For non-linear curves, this requires numerical
 Integration (counting squares, the trapezoidal rule, or Simpson's rule).
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 The velocity of a particle is $v(t) = 3t^2 - 6t + 2 \mathrm{ m/s$. Find the displacement from
 $t = 0$ To $t = 3$ s and the acceleration at $t = 2$ s.
 
@@ -455,9 +457,9 @@ $$
 
 Where $\alpha$ is the angle of the particle's velocity in frame $S'$ and $\beta$ is the angle of
 Frame $S'$ relative to frame $S$.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A boat heads directly across a river 100 m wide at $4 \mathrm{ m/s$ relative to the water. The river
 Flows at $3 \mathrm{ m/s$. How far downstream does the boat land?
 
@@ -470,7 +472,7 @@ $$
 Time to cross: $\displaystyle t = \frac{100}{4} = 25 \mathrm{ s$.
 
 Downstream distance: $d = 3 \times 25 = 75 \mathrm{ m$.
-:::
+</Aside>
 
 ### Crossing the River Perpendicular to the Bank
 
@@ -759,7 +761,7 @@ $$a(t) = 3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t - 1)(t - 3)$$
 At $t = 0$: $a = 9 \mathrm{ m/s^2$ (speeding up) At $t = 3$: $a = 3(9 - 12 + 3) = 0 \mathrm{ m/s^2$
 (momentarily stationary, inflection point)
 
-:::note
+<Aside type="note">
 Even though the particle is stationary at $t = 3 \mathrm{ s$The acceleration is also zero
 
 There, so the particle does not reverse direction. Compare this to projectile motion at the top of
@@ -975,7 +977,7 @@ Velocity across river: $5\cos\theta = 5 \times 0.8 = 4 \mathrm{ m/s$. Time to cr
 $100 / 4 = 25 \mathrm{ s$.
 
 </details>
-:::
+</Aside>
 
 ## Cross-References
 

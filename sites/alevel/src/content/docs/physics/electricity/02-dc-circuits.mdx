@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## DC Circuits
@@ -65,12 +67,12 @@ $$\frac{W_{\mathrm{gained}}}{Q} = \frac{W_{\mathrm{lost}}}{Q} \implies \sum \mat
 
 $\square$
 
-:::tip
+<Aside type="tip">
 Exam Technique When applying Kirchhoff's second law, choose a direction around the loop and
 
 Stick to it. E.m.f.s are positive if they drive current in your chosen direction; p.d.s are positive
 If current flows through the resistor in your chosen direction.
-:::
+</Aside>
 
 ## 2. Series and Parallel Resistors
 
@@ -146,12 +148,12 @@ Light intensity:
 
 $$V_{\mathrm{out}} = V_{\mathrm{in}} \cdot \frac{R_{\mathrm{sensor}}}{R_{\mathrm{fixed}} + R_{\mathrm{sensor}}}$$
 
-:::caution
+<Aside type="caution">
 Common Pitfall A potential divider circuit loaded by connecting a component across $R_2$
 
 Changes the effective resistance. The simple divider formula no longer applies, you must
 Recalculate the parallel combination of $R_2$ and the load.
-:::
+</Aside>
 
 ## 4. Internal Resistance
 
@@ -300,11 +302,11 @@ balance.
 
 </details>
 
-:::caution
+<Aside type="caution">
 Warning Current is exactly zero. If the bridge is unbalanced, you must use Kirchhoff's
 
 laws (or Thevenin Analysis) to find the galvanometer current.
-:::
+</Aside>
 
 ## 7. Norton's Theorem
 
@@ -336,12 +338,12 @@ Current $= V_{\mathrm{Th}}/R_{\mathrm{Th}}$. For the Norton equivalent: short-ci
 $= I_N$Open-circuit voltage $= I_N R_N$. For equivalence: $I_N = V_{\mathrm{Th}}/R_{\mathrm{Th}}$
 And $R_N = R_{\mathrm{Th}}$. $\square$
 
-:::tip
+<Aside type="tip">
 Exam Technique Source transformations are useful for simplifying circuits step by step.
 
 Convert a voltage source with series resistance to a Norton equivalent, combine parallel current
 Sources, then convert back.
-:::
+</Aside>
 
 ## 8. Multi-Loop Circuit Analysis
 
@@ -449,11 +451,11 @@ Note the very small shunt resistance, most current bypasses the galvanometer.
 
 </details>
 
-:::caution
+<Aside type="caution">
 Warning The circuit it is measuring. Always ensure $R_V \gg R_{\mathrm{circuit}}$ (rule
 
 of thumb: $R_V \gt 10 \times R_{\mathrm{circuit}}$ for less than 10% loading error).
-:::
+</Aside>
 
 ## Problem Set
 
@@ -765,7 +767,7 @@ $S = R \times 60/40 = 10 \times 1.5 = 15\,\Omega$.
 
 ---
 
-:::tip
+<Aside type="tip">
 Tip Ready to test your understanding of **DC Circuits**? The contains the hardest questions
 
 within the A-Level specification for this topic, each with a full worked solution.
@@ -775,10 +777,9 @@ with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
-:::danger[Danger]
-
+<Aside type="danger" title="Danger">
 - **Applying Kirchhoff's second law incorrectly to parallel circuits:** The sum of p.d.s around ANY
   closed loop equals the sum of e.m.f.s. In a parallel circuit, each branch is a separate loop. The
   p.d. Across each parallel branch equals the e.m.f. Of the supply, not a fraction of it.
@@ -795,7 +796,7 @@ self-marking and building a personal test matrix.
 - **Misapplying the potential divider formula:** V_out = V_in \* R2 / (R1 + R2) only works for two
   resistors in series with no load connected. If a load resistance is connected across R2, the
   effective resistance of the parallel combination must be used instead.
-:::
+</Aside>
 
 ## Common Pitfalls
 

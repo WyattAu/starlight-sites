@@ -7,6 +7,8 @@ tags:
   - ib
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 import PhetSimulation from '@components/PhetSimulation';
 
@@ -66,12 +68,12 @@ Where:
 - $a$ = acceleration
 - $t$ = time
 
-:::caution[Exam Tip]
+<Aside type="caution" title="Exam Tip">
 SUVAT equations ONLY apply when acceleration is constant. If acceleration varies, you must use
 Calculus or other methods.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A car accelerates from rest at $2\mathrm{ m/s}^2$ for $6$ seconds. Find the distance travelled.
 
 $u = 0$, $a = 2$, $t = 6$.
@@ -79,9 +81,9 @@ $u = 0$, $a = 2$, $t = 6$.
 $$
 S = ut + \frac\{1\}\{2\}at^2 = 0 + \frac\{1\}\{2\}(2)(36) = 36\mathrm\{ m\}
 $$
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A ball is thrown vertically upward at $15\mathrm{ m/s}$. Find the maximum height reached and the
 Time to reach it.
 
@@ -142,9 +144,9 @@ At that point.
 
 The displacement is the area under the velocity-time graph. For areas below the time axis, the
 Contribution is negative.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A car travels at $20\mathrm{ m/s}$ for $5\mathrm{ s}$ Then decelerates uniformly to rest in
 $4\mathrm{ s}$.
 
@@ -194,9 +196,9 @@ $$
 $$
 T = 2\pi\sqrt\{\frac\{L\}\{g\}\} \implies g = \frac\{4\pi^2 L\}\{T^2\}
 $$
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 An object is dropped from a height of $45\mathrm{ m}$. Find the speed just before it hits the
 Ground.
 
@@ -299,9 +301,9 @@ $$
 
 For complementary angles $\theta$ and $(90\degree - \theta)$The range is the same (but the
 Trajectories differ in height).
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A ball is thrown at $20\mathrm{ m/s}$ at $30\degree$ above the horizontal from ground level.
 
 **Time of flight**:
@@ -366,9 +368,9 @@ Air resistance:
 - Reduces the maximum height.
 - Makes the descent steeper than the ascent.
 - Changes the trajectory from parabolic to asymmetric.
-:::
+</Aside>
 
-:::caution[Exam Tip]
+<Aside type="caution" title="Exam Tip">
 In IB Physics, unless stated otherwise, ignore air resistance in calculations. When asked to
 Describe the effect qualitatively, remember that air resistance always opposes motion and reduces
 The range and maximum height of projectiles.
@@ -504,9 +506,9 @@ flowchart TD
 | $s = ut + \frac{1}{2}at^2$ | No final velocity needed |
 | $v^2 = u^2 + 2as$          | No time needed           |
 | $s = \frac{1}{2}(u+v)t$    | No acceleration needed   |
-:::
+</Aside>
 
-:::tip[Exam Strategy]
+<Aside type="tip" title="Exam Strategy">
 For projectile problems, always resolve into horizontal and vertical components. Solve the vertical
 Motion first ( to find time), then use that time for the horizontal motion. Draw a clear Diagram
 showing the velocity components.
@@ -527,9 +529,9 @@ $$
 
 **River crossing problems**: A boat must cross a river with a current. The boat's velocity relative
 To the ground is the vector sum of its velocity in still water and the river current.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A boat can travel at $4\mathrm{ m/s}$ in still water. It needs to cross a river $100\mathrm{ m}$
 Wide flowing at $3\mathrm{ m/s}$.
 
@@ -572,9 +574,9 @@ And conversely:
 $$
 V = \frac`\{ds}, \{dt}`\quad a = \frac`\{dv}, \{dt}` = \frac\{d^2s\}\{dt^2\}
 $$
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A particle moves with acceleration $a = 6t\mathrm{ m/s}^2$. At $t = 0$, $v = 2\mathrm{ m/s}$ and
 $s = 0$.
 
@@ -621,9 +623,9 @@ The total stopping distance of a vehicle consists of:
 2. **Braking distance**: distance travelled while braking. $$d_{\mathrm{brake}} = \frac{v^2}{2a}$$
 
 Total stopping distance $= d_{\mathrm{think}} + d_{\mathrm{brake}}$.
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A car travels at $30\mathrm{ m/s}$ ($108\mathrm{ km/h}$). The driver's reaction time is
 $0.7\mathrm{ s}$ and the maximum deceleration is $8\mathrm{ m/s}^2$.
 
@@ -758,9 +760,9 @@ The displacement from $t_1$ to $t_2$ is:
 $$
 \Delta\vec\{r\} = \vec\{r\}(t_2) - \vec\{r\}(t_1)
 $$
-:::
+</Aside>
 
-:::note[Example]
+<Aside type="note" title="Example">
 A particle moves with position vector $\vec{r}(t) = (2t^2 - 3t)\hat{i} + (t^3 - 4)\hat{j}$ metres.
 
 **(a)** Find the velocity at $t = 2\mathrm{ s}$.
@@ -782,7 +784,7 @@ $$
 The acceleration is not constant (depends on $t$).
 
 At $t = 2$: $\vec{a} = 4\hat{i} + 12\hat{j}\mathrm{ m/s}^2$.
-:::
+</Aside>
 
 ---
 
@@ -902,7 +904,7 @@ For the A-Level treatment of this topic, see
 
 ---
 
-:::tip
+<Aside type="tip">
 Tip Ready to test your understanding of **Kinematics**? The contains the hardest questions
 
 within the IB specification for this topic, each with a full worked solution.
@@ -939,7 +941,7 @@ self-marking and building a personal test matrix.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
+</Aside>
 
 $$
 $$

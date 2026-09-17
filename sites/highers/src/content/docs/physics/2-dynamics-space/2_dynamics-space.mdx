@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Dynamics and Space
@@ -522,12 +524,12 @@ $$\Delta v_2 = v_2 - v_a = 2443 - 1042 = 1401 \mathrm{ m/s$$
 
 $$\Delta v_{\mathrm{total} = 2690 + 1401 = 4091 \mathrm{ m/s \approx 4.1 \mathrm{ km/s$$
 
-:::note
+<Aside type="note">
 Hohmann transfers are the most fuel-efficient two-impulse transfer between coplanar circular
 
 Orbits. In practice, mission designers often use three-impulse bi-elliptic transfers when the ratio
 $r_2/r_1$ is very large (greater than about 11.94).
-:::
+</Aside>
 
 ### Example 22: Stellar Parallax and Distance
 
@@ -554,12 +556,12 @@ $$1 \mathrm{ pc = 3.086 \times 10^{16} \mathrm{ m$$
 
 $$d = 12.99 \times 3.086 \times 10^{16} = 4.01 \times 10^{17} \mathrm{ m$$
 
-:::caution
+<Aside type="caution">
 The Gaia space telescope can measure parallaxes down to about $10 \mathrm{ \mu\mathrm{as$
 
 (microarcseconds), corresponding to distances of about $100 \mathrm{ kpc$. Ground-based observations
 Are limited to parallaxes above about $0.01 \mathrm{ arcseconds$.
-:::
+</Aside>
 
 ### Example 23: Gravitational Potential Energy in Orbit Changes
 
@@ -582,12 +584,12 @@ $$\Delta E = E_2 - E_1 = -1.327 \times 10^{10} - (-1.421 \times 10^{10}) = 9.4 \
 The total energy becomes less negative (increases), so energy must be supplied:
 $\Delta E = 9.4 \times 10^8 \mathrm{ J$.
 
-:::note
+<Aside type="note">
 Counter-, when a satellite fires its engines forward to speed up, it moves to a Higher orbit
 
 where it actually travels _slower_. The kinetic energy decreases, but the gravitational Potential
 energy increases by more than the kinetic energy decreases.
-:::
+</Aside>
 
 ## Common Pitfalls Extended
 
@@ -687,13 +689,13 @@ $$d = 63.1 \mathrm{ pc$$
 
 $$d = 63.1 \times 3.26 = 205.7 \mathrm{ ly$$
 
-:::note
+<Aside type="note">
 The apparent magnitude scale is logarithmic and inverted: a difference of 5 magnitudes
 
 Corresponds to a brightness ratio of exactly 100. Each magnitude step represents a factor of
 $100^{1/5} \approx 2.512$ in brightness. A magnitude 1 star is $2.512^5 = 100$ times brighter than a
 Magnitude 6 star.
-:::
+</Aside>
 
 ### Example 28: Gravitational Field Strength Inside a Planet
 

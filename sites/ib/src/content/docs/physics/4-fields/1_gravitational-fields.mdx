@@ -7,6 +7,8 @@ tags:
   - ib
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Point Mass
@@ -120,7 +122,7 @@ $m_1, m_2$: The mass of the two point masses
 $r$: The separation distance between the point mass, where bodies approximated to point masses are
 Measured from the center
 
-:::note
+<Aside type="note">
 The IB uses the Newton's Universal Law of Gravitation published in 1687, where the equation
 
 Only describes the magnitude of the force, the vector form is required to describe the force
@@ -134,13 +136,13 @@ $$
 $$
 
 This describes the force in the inverse direction as the displacement vector from $m_1$
-:::
+</Aside>
 
-:::caution
+<Aside type="caution">
 IB extends Newton's Law of Universal Gravitation to include spherical masses with uniform
 
 Density by assuming to be point mass.
-:::
+</Aside>
 
 ## Gravitational Field
 
@@ -323,12 +325,12 @@ $$
 Orbital speed is the required speed for an object to remain in stable orbit around a barycenter or a
 Center of a body with significantly more mass.
 
-:::caution
+<Aside type="caution">
 In IB, only the cases of orbiting a body with significantly more mass is present. The IB
 
 Also assume all orbits to be circular instead of elliptic as stated by
 [Keplar's First Law](#first-law).
-:::
+</Aside>
 
 In a stable circular orbit, equivalent force in the opposite direction is required to balance the
 [centripetal force](../1-space-time-and-motion/5_forces-and-momentum#centripetal-force) $F_c$ of
@@ -344,7 +346,7 @@ $$
 \end`\{aligned}`
 $$
 
-:::note
+<Aside type="note">
 IB does only consider the magnitude of orbital velocity, therefore, the equation above is
 
 The one written in the formula booklet. The angle of orbital velocity is dependent on the angular
@@ -364,7 +366,7 @@ $$
  \bm\{\hat\{\theta\}\} = - \sin \theta \hat\{i\} + \cos \theta \hat\{j\}
 \end`\{aligned}`
 $$
-:::
+</Aside>
 
 ## Viscous Drag in Atmosphere
 
@@ -406,11 +408,11 @@ $$
 \end`\{aligned}`
 $$
 
-:::note
+<Aside type="note">
 Since $\frac{4\pi^2}{GM}$ is constant for a given central body, this reduces to
 
 $T^2 \propto r^3$. For elliptical orbits, replace $r$ with semi-major axis $a$.
-:::
+</Aside>
 
 ## Gravitational Field Inside a Spherical Shell
 
@@ -426,11 +428,11 @@ Qualitatively: for any point $P$ inside, the shell can be divided into pairs of 
 Elements. A near-side element pulls more strongly (inverse-square law), but the corresponding
 Far-side element has more mass (larger solid angle). These effects cancel exactly.
 
-:::caution
+<Aside type="caution">
 The IB requires only qualitative understanding of the shell theorem. A full
 
 ../1-number-and-algebra/3_proof-and-logic Requires integration over the spherical shell.
-:::
+</Aside>
 
 ### Field Inside a Solid Sphere
 
@@ -878,7 +880,7 @@ $$
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Gravitational Fields**? The contains the hardest
 
 questions within the IB specification for this topic, each with a full worked solution.
@@ -921,7 +923,7 @@ and past paper questions, is essential for success in examinations.
 | ---------------------- | ------- | ------------------------------------------------------------------------------------------------------ |
 | [Gravitational Fields] | A-Level | [View](https://alevel-maths-physics.wyattau.com/docs/alevel/physics/mechanics/08-gravitational-fields) |
 | [Gravitational Fields] | IB      | [View](https://ib.wyattau.com/docs/ib/physics/4-fields/1_gravitational-fields)                         |
-:::
+</Aside>
 
 ## Intuition
 

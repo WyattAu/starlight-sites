@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 
 ## Intuition
@@ -34,12 +36,12 @@ Adjust the parameters in the graph above to explore the relationships between va
 | OCR (A) | Paper 1 | Maclaurin series; standard series; applications                                |
 | CIE     | P2      | Maclaurin series; expansion of compound functions; range of validity           |
 
-:::note
+<Aside type="note">
 All boards require the standard Maclaurin series. Edexcel and CIE additionally require
 
 Taylor series about $x = a$. The formula booklet lists the standard Maclaurin series, you must be
 Able to derive them and apply them.
-:::
+</Aside>
 
 <hr />
 
@@ -334,8 +336,7 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 
 ## 6. Key Results and Pitfalls
 
-:::caution[**Common errors:**]
-
+<Aside type="caution" title="**Common errors:**">
 1. **Wrong coefficients.** The Maclaurin coefficient of $x^n$ is $\dfrac{f^{(n)}(0)}{n!}$Not
    $f^{(n)}(0)$. Always divide by the factorial.
 
@@ -348,16 +349,15 @@ Gives more information (higher-order terms) than applying L'Hôpital's rule repe
 
 4. **Sign errors in alternating series.** $\sin x$ and $\cos x$ have alternating signs:
    $\sin x = x - \dfrac{x^3}{6} + \cdots$ (not $x + \dfrac{x^3}{6} + \cdots$).
-:::
+</Aside>
 
-:::tip[**Exam strategy:**]
-
+<Aside type="tip" title="**Exam strategy:**">
 - Memorise the six standard series. Derive others from them by substitution and algebra.
 - For compound functions ($e^{x^2}\sin x$), multiply series term by term and collect like powers.
 - Always state the range of validity when asked.
 - To find a Maclaurin series efficiently, compute successive derivatives at $x = 0$ and look for the
   pattern.
-:::
+</Aside>
 
 <hr />
 

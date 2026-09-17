@@ -4,6 +4,8 @@ title: "Physics - Mechanics"
 description: "Kinematics is the study of motion without considering the forces that cause it. It describes the Motion of objects using displacement, velocity, and"
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Intuition
@@ -54,11 +56,11 @@ Where:
 - $s$ = displacement
 - $t$ = time
 
-:::note
+<Aside type="note">
 These equations are only valid for **uniform acceleration**. When acceleration varies,
 
 Calculus or graphical methods must be used.
-:::
+</Aside>
 
 ### Worked Example 1
 
@@ -140,11 +142,11 @@ $$g \approx 9.81 \mathrm{ m/s}^2$$
 
 The acceleration is **downward** regardless of whether the object is moving up or down.
 
-:::caution
+<Aside type="caution">
 Air resistance is neglected in ideal free-fall problems unless the question explicitly
 
 States otherwise.
-:::
+</Aside>
 
 ### Worked Example 3
 
@@ -544,11 +546,11 @@ Magnitude of the average force is $1500 \mathrm{ N}$.
 **Perfectly inelastic collision:** The objects stick together after collision (maximum kinetic
 Energy loss).
 
-:::note
+<Aside type="note">
 Momentum is **always** conserved in collisions (provided no external forces act). Kinetic
 
 Energy is only conserved in perfectly elastic collisions.
-:::
+</Aside>
 
 ### Worked Example 10
 
@@ -640,11 +642,11 @@ The centripetal force required is:
 
 $$F_c = \frac{mv^2}{r} = m\omega^2 r$$
 
-:::caution
+<Aside type="caution">
 Warning Directed towards the centre of the circle. It is provided by gravity, tension,
 
 friction, normal Reaction, or a combination of these.
-:::
+</Aside>
 
 ### Worked Example 12
 
@@ -753,12 +755,12 @@ Orbital period:
 
 $$T = \frac{2\pi r}{v} = 2\pi\sqrt{\frac{r^3}{GM}}$$
 
-:::note
+<Aside type="note">
 Geostationary satellites orbit at the same rate as the Earth's rotation (period = 24 hours),
 
 Remaining above the same point on the equator. They orbit at approximately $42,300 \mathrm{ km}$
 From the centre of the Earth.
-:::
+</Aside>
 
 ### Worked Example 14
 
@@ -932,11 +934,11 @@ For a mass-spring system: $T = 2\pi\sqrt{\frac{m}{k}}$
 
 For a simple pendulum (small angle approximation): $T = 2\pi\sqrt{\frac{L}{g}}$
 
-:::note
+<Aside type="note">
 The period of SHM is independent of amplitude (isochronous). This is why pendulum clocks
 
 Keep consistent time even as the swing gradually decreases.
-:::
+</Aside>
 
 ### Worked Example 15
 
@@ -1314,7 +1316,7 @@ Functions of displacement._
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Mechanics**? The contains the hardest questions
 
 within the DSE specification for this topic, each with a full worked solution.
@@ -1324,10 +1326,9 @@ with other physics topics to test synthesis under exam conditions.
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
-:::danger[Common Pitfalls]
-
+<Aside type="danger" title="Common Pitfalls">
 - **Forgetting to resolve forces into components:** When an object is on an inclined plane, the
   weight (mg) must be resolved into components parallel to and perpendicular to the surface. The
   component parallel to the slope is mg sin(theta) and perpendicular is mg cos(theta). Students
@@ -1736,4 +1737,4 @@ Minimum coefficient of static friction: $\mu_s = 0.51$.
 - [Nuclear Physics](../5-nuclear-physics/1_nuclear-physics) -- Conservation of momentum is essential for analysing nuclear reactions and particle collisions.
 - [Human Physiology](../../biology/4-human-physiology/1_human-physiology) -- Biomechanics and forces in the human body apply Newton's laws to biological systems.
 - [Money and Banking](../../economics/8-money-and-banking/1_money-and-banking) -- Economic concepts of cost and benefit relate to the work-energy principles in mechanics.
-:::
+</Aside>

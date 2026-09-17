@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import DesmosGraph from "@components/DesmosGraph";
 
 ## Calculus
@@ -453,12 +455,12 @@ $$
 | $\sin x$      | $-\cos x + C$             |
 | $\sec^2 x$    | $\tan x + C$              |
 
-:::note
+<Aside type="note">
 The absolute value in $\int \frac{1}{x}\,dx = \ln|x| + C$ is essential. It accounts for the
 
 Fact that $\frac{d}{dx}[\ln x] = \frac{1}{x}$ for $x > 0$ and
 $\frac{d}{dx}[\ln(-x)] = \frac{-1}{-x} = \frac{1}{x}$ for $x < 0$.
-:::
+</Aside>
 
 ### Definite Integration (OL/HL)
 
@@ -483,11 +485,11 @@ $$
 A = \int_a^b |f(x)| \, dx
 $$
 
-:::caution
+<Aside type="caution">
 If the curve crosses the $x$-axis between $a$ and $b$Split the integral and take the
 
 Absolute value of each part. The integral itself gives the signed area.
-:::
+</Aside>
 
 **Example (OL):** Find the area enclosed by $y = x^2$The $x$-axis, $x = 0$ And $x = 3$.
 

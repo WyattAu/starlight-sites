@@ -11,6 +11,8 @@ categories:
 
 ---
 
+import Aside from '@astrojs/starlight/components/Aside.astro';
+
 import PhetSimulation from "@components/PhetSimulation";
 
 ## Work, Energy and Power
@@ -188,12 +190,12 @@ Twice the speed requires **four times** the braking distance. This quadratic dep
 Consequence of energy conservation: kinetic energy scales as $v^2$ So removing that energy requires
 Friction to act over a distance proportional to $v^2$.
 
-:::caution
+<Aside type="caution">
 Warning Never lost -- it is transferred from mechanical to thermal (internal) energy. The
 
 total energy of The closed system is always conserved. Only **mechanical** energy ($E_k + E_p$)
 decreases.
-:::
+</Aside>
 
 <details>
 <summary>Example: Braking distance comparison</summary>
@@ -245,13 +247,13 @@ $$\boxed{P_{\mathrm{avg}} = \frac{F(u + v)}{2}}$$
 This is useful because it relates power to the initial and final velocities directly, without
 Needing to know the distance or time separately.
 
-:::tip
+<Aside type="tip">
 Exam Technique When asked for "the power developed by the engine" as a car accelerates,
 
 Specify whether you mean instantaneous power ($P = Fv$) or average power ($P = Fs/t$). The
 Instantaneous power at the end of the acceleration is $Fv_{\mathrm{final}}$While the average power
 Over the whole acceleration is $F(u+v)/2$.
-:::
+</Aside>
 
 **Definition.** The **efficiency** of an energy transfer is:
 
@@ -607,7 +609,7 @@ Period: $T = 2\pi/\omega = 2\pi/12.6 = 0.499$ s.
 
 ---
 
-:::tip
+<Aside type="tip">
 Diagnostic Test Ready to test your understanding of **Work, Energy and Power**? The contains the hardest
 
 questions within the A-Level specification for this topic, each with a full worked solution.
@@ -617,10 +619,9 @@ Energy and Power with other physics topics to test synthesis under exam conditio
 
 See for instructions on
 self-marking and building a personal test matrix.
-:::
+</Aside>
 
-:::danger[Common Pitfalls]
-
+<Aside type="danger" title="Common Pitfalls">
 - **Confusing work done on an object with work done by gravity:** Work done by gravity when an
   object falls is POSITIVE (force and displacement are in the same direction). Work done AGAINST
   gravity when lifting is NEGATIVE. When using energy conservation, gravitational PE LOSS equals
@@ -639,7 +640,7 @@ self-marking and building a personal test matrix.
 - **Confusing power and energy:** Power is the RATE of doing work (P = W/t = Fv), measured in watts.
   Energy is the total work done or transferred, measured in joules. A machine that is twice as
   powerful delivers the same energy in half the time, not twice the energy.
-:::
+</Aside>
 
 ## Common Pitfalls
 
