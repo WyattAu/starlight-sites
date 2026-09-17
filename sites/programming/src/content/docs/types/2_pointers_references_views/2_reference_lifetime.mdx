@@ -292,7 +292,7 @@ A **local variable** (not a temporary), it is always UB, no lifetime extension c
 
 ## 4. `std::reference_wrapper`
 
-Standard containers (`std::vector``std::array`) require elements to be **Assignable**. Because C++
+Standard containers (`std::vector, std::array`) require elements to be **Assignable**. Because C++
 References cannot be reseated, `std::vector<int&>` is ill-formed.
 
 To store references in containers, the architecture requires `std::reference_wrapper<T>`Found in

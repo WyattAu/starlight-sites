@@ -23,7 +23,7 @@ C++'s type system determines what operations are valid on every expression, it's
 
 ## Common Pitfalls
 
-- **Implicit conversions**: C++ will silently convert between numeric types (`int` to `float``double` to `int`), potentially losing precision, use `static_cast` explicitly or `[[nodiscard]]` with narrow checks.
+- **Implicit conversions**: C++ will silently convert between numeric types (`int` to `float, double` to `int`), potentially losing precision, use `static_cast` explicitly or `[[nodiscard]]` with narrow checks.
 - **Undefined behaviour from strict aliasing**: Accessing an object through a pointer of an incompatible type (e.g., casting `int*` to `float*`) violates the strict aliasing rule and can cause unpredictable results.
 - **Const casting away constness**: Removing `const` with `const_cast` and then modifying the object is undefined behaviour if the original object was declared `const`.
 

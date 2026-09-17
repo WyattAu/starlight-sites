@@ -38,7 +38,7 @@ Kotlin is a modern JVM language that combines object-oriented and functional pro
 ## Common Pitfalls
 
 - **`var` vs `val` misuse**: Using `var` when `val` suffices makes code harder to reason about, prefer immutability and only use `var` when reassignment is truly needed.
-- **Scope function confusion**: `let``run``with``apply`and `also` differ in context object (`this` vs `it`) and return value, mixing them up leads to unreadable code.
+- **Scope function confusion**: `let, run, with, apply`and `also` differ in context object (`this` vs `it`) and return value, mixing them up leads to unreadable code.
 - **Coroutine dispatcher selection**: Running CPU-bound work on `Dispatchers.Main` freezes the UI; running IO-bound work on `Dispatchers.Default` wastes CPU threads, match the dispatcher to the work type.
 - **Confusing `is` and `as`**: `is` checks type (with smart cast); `as` casts (throws ClassCastException on failure). Use `as?` for safe casting.
 - **Inline function overhead**: `inline` eliminates lambda allocation but can increase code size. Use `noinline` for parameters that shouldn't be inlined.

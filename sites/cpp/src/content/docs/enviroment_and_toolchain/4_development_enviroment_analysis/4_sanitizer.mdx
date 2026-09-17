@@ -383,7 +383,7 @@ WARNING: ThreadSanitizer: data race (pid=12345)
 
 ### TSan and std::atomic
 
-TSan correctly handles `std::atomic` operations, it recognizes that `load``store`And
+TSan correctly handles `std::atomic` operations, it recognizes that `load, store`And
 `compare_exchange` are synchronization points. A race on an atomic variable with
 `memory_order_relaxed` is still flagged if the intent is synchronization:
 

@@ -564,8 +564,8 @@ time clang-tidy -p build/ src/main.cpp --checks='bugprone-*,modernize-*' 2>&1
 time clang-tidy -p build/ src/main.cpp --checks='bugprone-*,modernize-*,clang-analyzer-*' 2>&1
 ```
 
-In practice, splitting analysis into a fast path (`bugprone-*``modernize-*``readability-*`) that
-Runs on every commit and a slow path (`clang-analyzer-*``cppcoreguidelines-pro-bounds-*`) that Runs
+In practice, splitting analysis into a fast path (`bugprone-*, modernize-*, readability-*`) that
+Runs on every commit and a slow path (`clang-analyzer-*, cppcoreguidelines-pro-bounds-*`) that Runs
 nightly provides the best developer experience.
 
 ## 14. Clang-Tidy Autofix Infrastructure

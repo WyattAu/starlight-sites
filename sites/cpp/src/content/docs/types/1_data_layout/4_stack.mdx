@@ -48,7 +48,7 @@ The platform's ABI (Application Binary Interface).
 
 When `Caller()` invokes `Callee()`:
 
-1. **Argument Passing:** Arguments are placed in registers (`RDI``RSI``RDX`...) or pushed onto the
+1. **Argument Passing:** Arguments are placed in registers (`RDI, RSI, RDX`...) or pushed onto the
    stack if registers are exhausted.
 2. **The Call Instruction:** The CPU pushes the **Return Address** (the current value of `RIP`) onto
    the stack and jumps to the `Callee`.
@@ -241,7 +241,7 @@ Every thread receives a fixed-size stack at creation time. The default size vari
 | Platform      | Default Stack Size                    | Configuration Mechanism                             |
 | :------------ | :------------------------------------ | :-------------------------------------------------- |
 | Linux (glibc) | 8 MB                                  | `ulimit -s` (soft limit), `setrlimit(RLIMIT_STACK)` |
-| macOS         | 8 MB (main thread), 512 KB (pthreads) | `ulimit -s``pthread_attr_setstacksize`              |
+| macOS         | 8 MB (main thread), 512 KB (pthreads) | `ulimit -s, pthread_attr_setstacksize`              |
 | Windows       | 1 MB                                  | `/STACK:reserve,commit` linker flag                 |
 
 ### Detecting Stack Exhaustion

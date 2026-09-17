@@ -27,7 +27,7 @@ Is discouraged with Docusaurus, use
 [Adobe remark-gridtables](https://github.com/adobe/remark-gridtables) instead.~~ Remark Grid tables
 Seems to be broken at the moment, the following does not seem to work:
 
-````
+`, `
 +----+----+
 | A  | B  |
 +----+----+
@@ -53,7 +53,7 @@ Seems to be broken at the moment, the following does not seem to work:
 +========+=========:+======+
 | footer |    cells |      |
 +--------+----------+------+
-````
+`, `
 
 ### Code Snippets
 
@@ -96,7 +96,7 @@ Standard markdown tables use pipe-delimited rows with a header separator:
 | Feature   | Supported | Notes                                         |
 | --------- | --------- | --------------------------------------------- |
 | Basic     | Yes       | Pipe-delimited with `---` separator           |
-| Alignment | Yes       | `:---``:---:``---:` for left/center/right |
+| Alignment | Yes       | `:---, :---:, ---:` for left/center/right |
 | Colspan   | No        | Not supported in standard markdown; use HTML  |
 
 ### Nested Lists and Checklists
@@ -114,14 +114,14 @@ Standard markdown tables use pipe-delimited rows with a header separator:
 
 Docusaurus renders Mermaid diagrams inside fenced code blocks tagged with `mermaid`:
 
-````md
+`, `md
 ```mermaid
 graph TD
     A[Start] --> B\{Decision\}
     B -->|Yes| C[Action A]
     B -->|No| D[Action B]
 ```
-````
+`, `
 
 Supported diagram types include flowcharts, sequence diagrams, class diagrams, state diagrams, Gantt
 charts, pie charts, and git graphs.

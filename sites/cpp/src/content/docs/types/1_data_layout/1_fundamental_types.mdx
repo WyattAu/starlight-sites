@@ -54,10 +54,10 @@ The most dangerous divergence is `long`.
 ### Architectural Solution: Fixed-Width Integers (`<cstdint>`)
 
 For binary layouts, network protocols, or file formats, **never** use fundamental types (`int`
-`short``long`). Use fixed-width aliases.
+`short, long`). Use fixed-width aliases.
 
-- `int32_t``uint32_t`: Exact 32-bit width (Two's complement).
-- `int64_t``uint64_t`: Exact 64-bit width.
+- `int32_t, uint32_t`: Exact 32-bit width (Two's complement).
+- `int64_t, uint64_t`: Exact 64-bit width.
 - `intptr_t`: An integer large enough to hold a pointer (matches `void*` width).
 
 ## Special Systems Types
@@ -72,7 +72,7 @@ Ambiguous (is it text or data?).
 
 - **Definition:** `enum class byte : unsigned char {};`
 - **Behavior:** It is not an arithmetic type. You cannot do `byte + 1`. You can only perform bitwise
-  operations (`|``&``^``<<``>>`).
+  operations (`|, &, ^, <<, >>`).
 - **Usage:** Strictly for raw memory buffers and binary I/O.
 
 ### 2. `size_t`
@@ -111,7 +111,7 @@ While C++ does not strictly mandate IEEE 754, practically all supported hardware
 
 - `float`: IEEE 754 binary32 (1 sign, 8 exponent, 23 mantissa).
 - `double`: IEEE 754 binary64 (1 sign, 11 exponent, 52 mantissa).
-- **C++23 Extended Types:** `<stdfloat>` introduces `std::float16_t``std::float128_t`And
+- **C++23 Extended Types:** `<stdfloat>` introduces `std::float16_t, std::float128_t`And
   `std::bfloat16_t` (Brain Floating Point), enabling interoperability with AI accelerators and GPU
   storage formats.
 
@@ -202,7 +202,7 @@ Mapping mathematical integers to fixed-width hardware registers introduces overf
 **Behavior:** **Undefined Behavior (UB).** The compiler assumes signed overflow _never happens_.
 This allows optimizations like `if (x + 1 > x)` $\to$ `true`.
 
-- If `x` is `INT_MAX``x + 1` overflows. If the hardware wraps, the check fails. If the compiler
+- If `x` is `INT_MAX, x + 1` overflows. If the hardware wraps, the check fails. If the compiler
   optimized the check away, security vulnerabilities occur.
 
 ### Unsigned Integer Overflow
@@ -489,9 +489,9 @@ int main() \{
 The C++ standard defines specific **integral promotion** rules [N4950 §7.3.7]:
 
 - `bool` → `int`
-- `char``signed char``unsigned char``char8_t` → `int` (if `int` can represent all values)
+- `char, signed char, unsigned char, char8_t` → `int` (if `int` can represent all values)
 - `short` → `int` (if `int` can represent all values)
-- `wchar_t``char16_t``char32_t``char8_t` → the first of `int``unsigned int``long` `unsigned long`
+- `wchar_t, char16_t, char32_t, char8_t` → the first of `int, unsigned int, long` `unsigned long`
   that can represent all values
 These promotions occur before arithmetic operations and can cause surprising results:
 
@@ -523,11 +523,11 @@ int main() \{
 ## Common Pitfalls
 
 - **Using `int` or `long` for binary protocol fields.** The size of `int` and `long` varies across
-  platforms. Always use `<cstdint>` fixed-width types (`uint32_t``int64_t`Etc.) for network
+  platforms. Always use `<cstdint>` fixed-width types (`uint32_t, int64_t`Etc.) for network
   protocols, file formats, and shared memory structures.
 - **Signed integer overflow UB.** The compiler assumes signed overflow never happens and optimizes
   based on this assumption. Use `-fsanitize=signed-integer-overflow` during testing to catch these
-  at runtime. For production code, use `std::cmp_less``std::cmp_greater`And `std::in_range<T>` from
+  at runtime. For production code, use `std::cmp_less, std::cmp_greater`And `std::in_range<T>` from
   `<utility>` (C++20).
 - **Comparing floating-point values with `==`.** Due to rounding errors, two floating-point
   computations that should produce the same result may differ by tiny amounts. Use an epsilon

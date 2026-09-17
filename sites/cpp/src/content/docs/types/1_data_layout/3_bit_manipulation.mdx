@@ -343,7 +343,7 @@ Enum masks.
 ### `std::bitset<N>`
 
 - **Storage:** Fixed size at compile time.
-- **Interface:** Provides `test()``set()``flip()`. Bounds checked.
+- **Interface:** Provides `test(), set(), flip()`. Bounds checked.
 - **Pros:** Safe, readable (`b[5] = true`), prints to streams.
 - **Cons:** Not copyable in all implementations (though is). Cannot be iterated by hardware
   instructions (`popcount` on bitset is slower than on `uint64_t`).
@@ -351,7 +351,7 @@ Enum masks.
 ### Raw Integer Masks (`enum class`)
 
 - **Storage:** `uint8_t` to `uint64_t`.
-- **Interface:** Bitwise operators `|``&``^``~`.
+- **Interface:** Bitwise operators `|, &, ^, ~`.
 - **Pros:** Fits directly in registers. Compatible with C APIs. Fastest possible performance using
   `<bit>` intrinsics.
 - **Cons:** Manual management of bit positions.

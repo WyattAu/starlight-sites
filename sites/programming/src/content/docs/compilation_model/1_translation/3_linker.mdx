@@ -11,7 +11,7 @@ categories:
 
 import { Tabs, TabItem } from "@astrojs/starlight/components";
 
-The Linker (`ld``lld``link.exe`) is the final architect of the binary. While the compiler works In
+The Linker (`ld, lld, link.exe`) is the final architect of the binary. While the compiler works In
 isolation on Translation Units (TUs), generating "relocatable object files," the linker is
 Responsible for fusing these fragments into a coherent executable memory map.
 
@@ -48,7 +48,7 @@ As the linker scans inputs (objects and libraries) from **left to right** on the
 :::danger
 The Archive Order Trap Because static libraries are searched only to resolve _currently
 
-Pending_ undefined symbols, order matters. If `LibA` depends on `LibB``LibA` must appear **before**
+Pending_ undefined symbols, order matters. If `LibA` depends on `LibB, LibA` must appear **before**
 `LibB` in the linker command.
 
 - Correct: `clang++ main.o -lA -lB`
@@ -105,7 +105,7 @@ Ordinary weak symbols instead.
 
 ### Symbol Visibility
 
-Symbol visibility controls which symbols are exported from shared libraries (`.so``.dll`). This
+Symbol visibility controls which symbols are exported from shared libraries (`.so, .dll`). This
 Affects both dynamic linking and name mangling.
 
 | Visibility    | ELF Flag                                   | Meaning                                               |

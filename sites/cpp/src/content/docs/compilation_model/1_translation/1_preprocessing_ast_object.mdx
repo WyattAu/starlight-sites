@@ -62,7 +62,7 @@ Validates the code against the C++ Language Standard.
 
 ### 1. Lexical Analysis (Tokenization)
 
-The source stream is converted into a sequence of tokens (`kw_int``identifier_main``l_paren`
+The source stream is converted into a sequence of tokens (`kw_int, identifier_main, l_paren`
 `r_paren`).
 
 ### 2. Syntax and Semantic Analysis
@@ -343,7 +343,7 @@ int main() \{
 ```
 
 **Important:** Never use `__cplusplus` alone to detect compiler features. Use feature-test macros
-Defined by the standard (e.g., `__cpp_constexpr``__cpp_concepts`):
+Defined by the standard (e.g., `__cpp_constexpr, __cpp_concepts`):
 
 ```cpp
 #if __cpp_concepts >= 201907L
@@ -450,7 +450,7 @@ c++filt _ZN4math3addEii
 ### LLVM IR Structure
 
 LLVM IR is a typed, SSA-based assembly language. Every value is computed exactly once and assigned
-To a register (`%0``%1`Etc.). This makes dataflow analysis trivial for the optimizer.
+To a register (`%0, %1`Etc.). This makes dataflow analysis trivial for the optimizer.
 
 ```cpp
 // sum.cpp
@@ -472,7 +472,7 @@ Key IR concepts visible in the output:
 | :----------- | :---------------------------------------------------- |
 | Function     | `define i32 @sum(i32 %n)`                             |
 | SSA register | `%0 = add i32 %total.0, %i.0`                         |
-| Basic block  | `entry:``for.body:``for.end:`                         |
+| Basic block  | `entry:, for.body:, for.end:`                         |
 | PHI node     | `%total.0 = phi i32 [ 0, %entry ], [ %1, %for.body ]` |
 | Branch       | `br i1 %cmp, label %for.body, label %for.end`         |
 At `-O2`The optimizer may recognize this as a closed-form formula and emit a multiplication Instead
@@ -529,7 +529,7 @@ Writing it into the appropriate location in the machine code.
 ### Common Object File Pitfalls
 
 - **Debug builds without `-g` produce useless backtraces.** The compiler emits DWARF debug info
-  (`.debug_info``.debug_line`) only when `-g` is specified. Without it, `gdb` and `addr2line` cannot
+  (`.debug_info, .debug_line`) only when `-g` is specified. Without it, `gdb` and `addr2line` cannot
   map addresses to source lines.
 - **Not using `-fPIC` for shared library code.** Position-Independent Code generates PC-relative
   addressing instead of absolute addressing. Without it, the loader must perform text relocations

@@ -18,7 +18,7 @@ Binary Interface (ABI) compatibility across different standard library implement
 
 ## Compiler Invocation Standards
 
-To utilize C++23 features (such as `std::expected``std::print`Or `std::ranges::to`), specific Flags
+To utilize C++23 features (such as `std::expected, std::print`Or `std::ranges::to`), specific Flags
 must be passed to the compiler driver.
 
 ### ISO Standard Flags
@@ -111,7 +111,7 @@ Specification is necessary for diagnosing ABI breakage.
 
 ### The Linkage Rule
 
-**Rule:** All object files (`.o``.obj`) and static libraries (`.a``.lib`) linked into a single
+**Rule:** All object files (`.o, .obj`) and static libraries (`.a, .lib`) linked into a single
 Executable **must** be compiled with a compatible ABI.
 
 Violating this results in Linker Errors (best case) or runtime memory corruption (worst case).
@@ -278,13 +278,13 @@ This configuration automatically translates to:
 
 C++11 introduced the most significant set of changes since the original standard. Key features:
 
-- `auto` type deduction, range-based for loops, `nullptr``enum class`
-- Move semantics (`std::move``std::forward`Rvalue references)
-- Smart pointers (`std::unique_ptr``std::shared_ptr``std::weak_ptr`)
-- Lambda expressions, `std::function``std::bind`
-- `constexpr``static_assert``decltype`
+- `auto` type deduction, range-based for loops, `nullptr, enum class`
+- Move semantics (`std::move, std::forward`Rvalue references)
+- Smart pointers (`std::unique_ptr, std::shared_ptr, std::weak_ptr`)
+- Lambda expressions, `std::function, std::bind`
+- `constexpr, static_assert, decltype`
 - Variadic templates, template aliases
-- `<thread>``<mutex>``<condition_variable>``<future>`
+- `<thread>, <mutex>, <condition_variable>, <future>`
 - Uniform initialization (`{}` syntax), `std::initializer_list`
 
 ### C++14, Bug Fixes and Refinements
@@ -292,7 +292,7 @@ C++11 introduced the most significant set of changes since the original standard
 Incremental improvements over C++11:
 
 - Generic lambdas (`auto` parameters), captured-by-move lambdas
-- `std::make_unique``std::exchange``std::integer_sequence`
+- `std::make_unique, std::exchange, std::integer_sequence`
 - Return type deduction (`auto f() { return 42; }`)
 - Relaxed `constexpr` (allows loops, local variables)
 - `[[deprecated]]` attribute, variable templates
@@ -300,28 +300,28 @@ Incremental improvements over C++11:
 ### C++17, Major New Features
 
 - Structured bindings (`auto [a, b] = pair;`)
-- `std::optional``std::variant``std::any`
-- `std::filesystem``std::string_view`
+- `std::optional, std::variant, std::any`
+- `std::filesystem, std::string_view`
 - `if constexpr`Fold expressions, `std::apply`
 - Guaranteed copy elision (prvalues are not objects until materialized)
-- `std::invoke``std::byte`Nested namespaces (`A::B::C`)
-- `__has_include``<charconv>` (`std::from_chars``std::to_chars`)
+- `std::invoke, std::byte`Nested namespaces (`A::B::C`)
+- `__has_include, <charconv>` (`std::from_chars, std::to_chars`)
 
 ### C++20, The "Big Four"
 
 - Concepts (`template&lt;std::integral T&gt;`), requires clauses
-- Ranges (`std::views::filter``std::views::transform`Range adapters)
-- Coroutines (`co_await``co_yield``co_return`)
-- Modules (`export module foo;``import foo;`)
+- Ranges (`std::views::filter, std::views::transform`Range adapters)
+- Coroutines (`co_await, co_yield, co_return`)
+- Modules (`export module foo;, import foo;`)
 
 Also: Three-way comparison (`<=>`), `std::format`Designated initializers, `std::span`
 `std::jthread`Calendar/time zone libraries.
 
 ### C++23, Refinements and Completeness
 
-- `std::print``std::println` (free-function formatting)
+- `std::print, std::println` (free-function formatting)
 - `std::expected&lt;T, E&gt;` (error handling without exceptions)
-- `std::flat_map``std::flat_set` (sorted associative containers using contiguous storage)
+- `std::flat_map, std::flat_set` (sorted associative containers using contiguous storage)
 - `std::mdspan` (multidimensional view)
 - `std::move_only_function`
 - `#embed` directive (binary resource inclusion)
@@ -516,7 +516,7 @@ Calling convention [MSVC x64 ABI] respectively.
 - **Forgetting to set `CMAKE_CXX_EXTENSIONS OFF`.** Without this, CMake defaults to GNU extensions,
   which may introduce non-portable constructs.
 - **Passing C++ types across `extern "C"` boundaries.** `extern "C"` suppresses name mangling but
-  does not change the calling convention for C++ class types. Passing `std::string``std::vector` or
+  does not change the calling convention for C++ class types. Passing `std::string, std::vector` or
   any non-POD type through an `extern "C"` function is undefined behavior if the caller and callee
   use different standard library ABIs. Use opaque handles or plain C types at ABI boundaries.
 - **ABI version drift in long-lived projects.** If a library is compiled once with GCC 5 and never
@@ -579,7 +579,7 @@ namespace std \{
 \}
 ```
 
-When `_GLIBCXX_USE_CXX11_ABI=1``basic_string` is defined inside `std::__cxx11`. The mangled name For
+When `_GLIBCXX_USE_CXX11_ABI=1, basic_string` is defined inside `std::__cxx11`. The mangled name For
 `std::string` becomes `_ZNSt7__cxx11basic_stringIcSt11char_traitsIcESaIcEE` (includes the `__cxx11`
 tag). When `_GLIBCXX_USE_CXX11_ABI=0`The `basic_string` definition is placed directly in `std`And
 the mangled name omits the `__cxx11` component.
@@ -696,7 +696,7 @@ Differs between implementations.
 When distributing a C++ library that must work across platforms, verify the following:
 
 - [ ] All object files use the same C++ standard version (or compatible versions).
-- [ ] All object files use the same standard library implementation (`libstdc++``libc++`Or MSVC
+- [ ] All object files use the same standard library implementation (`libstdc++, libc++`Or MSVC
       STL).
 - [ ] The `_GLIBCXX_USE_CXX11_ABI` macro is consistent across all compilation units (GCC only).
 - [ ] No GNU extensions are used in public headers (or extensions are enabled uniformly).

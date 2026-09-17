@@ -27,7 +27,7 @@ The reference environment for this course is **Clang 16+** and **CMake 3.25+**.
   proper UTF-8 locale support, and binary compatibility with modern Windows system libraries.
 - **Ninja:** A small build system with a focus on speed, designed to replace Make.
 - **Target Triple:** A string of the form `<arch>-<vendor>-<os>-<env>` that uniquely identifies a
-  compilation target (e.g., `x86_64-pc-linux-gnu``aarch64-apple-darwin22`). The compiler driver uses
+  compilation target (e.g., `x86_64-pc-linux-gnu, aarch64-apple-darwin22`). The compiler driver uses
   this to select the correct code generator and default library paths [N4950 §6.7.1].
 
 ## Installation Guide
@@ -518,7 +518,7 @@ Level with the Itanium ABI. You cannot link a `.obj` produced by MSVC with a `.o
 ### Why `-stdlib=` Matters for ABI
 
 When Clang is used on Linux, it defaults to GCC's `libstdc++`. Switching to `libc++` changes the
-Standard library ABI. The two libraries implement `std::string``std::vector`And other types with
+Standard library ABI. The two libraries implement `std::string, std::vector`And other types with
 Different memory layouts:
 
 ```cpp
@@ -562,7 +562,7 @@ Deeper treatment of ABI breakage scenarios.
 
 ### Pitfall 1: MSYS2 Environment Confusion
 
-MSYS2 provides three environments: `MSYS``MINGW64`And `UCRT64`. The `MSYS` environment uses
+MSYS2 provides three environments: `MSYS, MINGW64`And `UCRT64`. The `MSYS` environment uses
 Cygwin-style POSIX emulation and is **not** suitable for native Windows compilation. The `MINGW64`
 Environment links against the legacy `msvcrt.dll`. Always use `UCRT64` for modern C++ development.
 
@@ -583,7 +583,7 @@ clang++ --version
 ### Pitfall 3: Inconsistent C++ Standard Between Build and Runtime
 
 If you compile with `-std=c++23` but link against a C++ runtime library built for C++17, you may get
-Linker errors for missing symbols (e.g., `std::format``std::print`). Ensure the C++ standard Library
+Linker errors for missing symbols (e.g., `std::format, std::print`). Ensure the C++ standard Library
 version matches the compiler's standard mode.
 
 ### Pitfall 4: Missing `libstdc++` or `libc++` on Linux

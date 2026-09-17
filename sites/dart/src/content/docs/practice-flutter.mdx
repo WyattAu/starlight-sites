@@ -405,7 +405,7 @@ class AnimationDemoPage extends StatelessWidget \{
 \}
 ```
 
-**Solution:** `AnimatedContainer` implicitly animates changes to `width``height``color`and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
+**Solution:** `AnimatedContainer` implicitly animates changes to `width, height, color`and `borderRadius` over 400ms with `Curves.easeInOut`. `GestureDetector.onTap` toggles `_expanded` via `setState`. `Transform.rotate` adds a rotation effect. The `SingleTickerProviderStateMixin` is included for potential explicit animation extensions.
 
 ---
 
@@ -538,7 +538,7 @@ class SettingsPage extends StatelessWidget \{
 
 **Building the entire UI in `initState`:** `initState` should only perform one-time setup (subscriptions, controllers). The UI must be built in `build`which is called whenever state changes. Putting UI logic in `initState` means it never updates.
 
-**Forgetting to dispose controllers and subscriptions:** `TextEditingController``AnimationController``StreamSubscription`and `Timer` all hold resources. Failing to call `dispose()` on them causes memory leaks. Always pair `initState` subscriptions with `dispose` cleanup.
+**Forgetting to dispose controllers and subscriptions:** `TextEditingController, AnimationController, StreamSubscription`and `Timer` all hold resources. Failing to call `dispose()` on them causes memory leaks. Always pair `initState` subscriptions with `dispose` cleanup.
 
 ## See Also
 

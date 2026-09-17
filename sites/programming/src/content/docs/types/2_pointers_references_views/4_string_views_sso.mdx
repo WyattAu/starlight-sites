@@ -246,7 +246,7 @@ Condition 2 is violated when:
 
 - The owning `std::string` (or other container) is destroyed.
 - The owning `std::string` is modified in a way that triggers reallocation (e.g., `resize`
-  `append``insert``push_back` when `size() == capacity()`).
+  `append, insert, push_back` when `size() == capacity()`).
 - The owning `std::string` is moved from (the moved-from string may be empty, invalidating the
   pointer).
 

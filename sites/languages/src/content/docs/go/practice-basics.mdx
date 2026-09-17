@@ -47,7 +47,7 @@ explanation.
 
 ## Common Mistakes
 
-**Forgetting that `defer` arguments are evaluated immediately:** In `defer fmt.Println(x)``x` is evaluated at the defer statement, not when the deferred call runs. Use a closure `defer func() { fmt.Println(x) }()` to capture the current value.
+**Forgetting that `defer` arguments are evaluated immediately:** In `defer fmt.Println(x), x` is evaluated at the defer statement, not when the deferred call runs. Use a closure `defer func() { fmt.Println(x) }()` to capture the current value.
 
 **Using `select` without a `default` case:** A `select` with no ready cases and no `default` blocks forever. Always include a `default` if you need non-blocking channel operations.
 

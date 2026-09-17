@@ -513,7 +513,7 @@ When modernizing a codebase to C++23 modules:
 ## 10. BMI Caching and Reproducibility
 
 Header unit BMIs are subject to the same caching and invalidation rules as named module BMIs. The
-Cache key includes the compiler version, flags (`-std=c++23``-D...`), and the full transitive
+Cache key includes the compiler version, flags (`-std=c++23, -D...`), and the full transitive
 Include chain. However, header unit BMIs have an additional complication: **preprocessor state
 Matters**.
 
@@ -630,7 +630,7 @@ The scanner distinguishes between named module imports (`type: "module"`) and he
 (`type: "header-unit"`). For header units, the build system must:
 
 1. Compile the header into a BMI before any TU that imports it.
-2. Pass the BMI path to the consumer via compiler-specific flags (`-fmodule-file``/headerUnit`).
+2. Pass the BMI path to the consumer via compiler-specific flags (`-fmodule-file, /headerUnit`).
 3. Track the header unit BMI as a build edge in the dependency graph.
 
 This additional complexity is why header unit support requires build system integration (CMake

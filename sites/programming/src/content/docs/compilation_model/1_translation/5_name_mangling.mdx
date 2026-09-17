@@ -56,7 +56,7 @@ Per the Itanium C++ ABI, the following entities are mangled:
 - Top-level functions (including member functions, static member functions).
 - Global variables with external or module linkage.
 - Template instantiations (both function and class templates).
-- Virtual table entries (`_ZTV``_ZTI` for RTTI).
+- Virtual table entries (`_ZTV, _ZTI` for RTTI).
 - Typeinfo structures for `typeid` support.
 - Guard variables for static local initialization (`_ZGV`).
 
@@ -99,7 +99,7 @@ namespace net \{
 ### Substitution Compression
 
 A critical optimization in the Itanium ABI is **substitution**. When a name appears multiple times
-In a mangled symbol, subsequent occurrences are replaced with a reference (`S_``S0_``S1_` Etc.).
+In a mangled symbol, subsequent occurrences are replaced with a reference (`S_, S0_, S1_` Etc.).
 This prevents mangled names from growing exponentially for deeply nested types.
 
 Consider:
@@ -147,7 +147,7 @@ Step by step through `_ZNSt6vectorIiSaIiEE9push_backERKi`:
 2. `N` -- begin nested name
 3. `St` -- `std::` namespace (special encoding)
 4. `6vector` -- "vector" (6 chars)
-5. `IiSaIiEE` -- template args: `int``std::allocator&lt;int&gt;`
+5. `IiSaIiEE` -- template args: `int, std::allocator&lt;int&gt;`
 6. `9push_back` -- "push_back" (9 chars)
 7. `E` -- end nested name
 8. `RKi` -- `int const&` (return type not encoded for non-template functions)
@@ -205,7 +205,7 @@ Conventions).
 
 ### Structure
 
-The pattern generally begins with `?` and relies on special characters (`@``$`) as delimiters.
+The pattern generally begins with `?` and relies on special characters (`@, $`) as delimiters.
 
 Consider the same function:
 
@@ -224,7 +224,7 @@ namespace net \{
 3. `@`: Delimiter.
 4. `Socket@net`: Scope (reversed order: Class, then Namespace).
 5. `@@`: End of scope list.
-6. `QEAA`: Access qualifiers (public/private) and calling convention (e.g., `__cdecl``__stdcall`).
+6. `QEAA`: Access qualifiers (public/private) and calling convention (e.g., `__cdecl, __stdcall`).
 7. `X`: Return type (`void`). **Note: MSVC encodes return types.**
 8. `H`: First argument `int`.
 9. `_N`: Second argument `bool`.
@@ -240,7 +240,7 @@ namespace net \{
 | **Calling conv.**  | Not encoded            | Encoded (`A` = cdecl, `G` = stdcall) |
 | **Scope order**    | Outermost to innermost | Innermost to outermost (reversed)    |
 | **Namespace std**  | `St`                   | `?A` or `std@@`                      |
-| **Substitutions**  | `S_``S0_`Etc.          | Not used (names encoded in full)     |
+| **Substitutions**  | `S_, S0_`Etc.          | Not used (names encoded in full)     |
 
 ## 4. Disabling Mangling (`extern "C"`)
 
@@ -449,7 +449,7 @@ Mangled name will differ, causing the linker error.
 
 ## 7. RTTI and `type_info` Name Mangling
 
-RTTI (`typeid``dynamic_cast`) relies on mangled names internally. The `std::type_info::name()`
+RTTI (`typeid, dynamic_cast`) relies on mangled names internally. The `std::type_info::name()`
 Member function returns a **compiler-specific, mangled representation** of the type name:
 
 ```cpp
@@ -489,7 +489,7 @@ int main() \{
 
 ### Mangling in Debug Builds
 
-In debug builds (`-g``-O0`), the compiler emits additional DWARF debug information (`.debug_info`
+In debug builds (`-g, -O0`), the compiler emits additional DWARF debug information (`.debug_info`
 Sections) that contains the demangled names. However, the symbol table still contains mangled names.
 The DWARF info allows debuggers (GDB, LLDB) to map mangled symbols back to their source-level names.
 
@@ -675,7 +675,7 @@ When encountering an obscure linker error involving a mangled name, follow this 
 
 - Is the function declared in the TU that references it?
 - Is the correct `extern "C"` linkage specified (if applicable)?
-- Are the parameter types an exact match (including `const``&``&&`)?
+- Are the parameter types an exact match (including `const, &, &&`)?
 - Is the `noexcept` specification consistent?
 
 1. **Check the library/object file** that should provide the symbol:

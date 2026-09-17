@@ -1,7 +1,7 @@
 ---
 
 title: Go Standard Library Flashcards
-description: "- fmt Package: `fmt.Printf``fmt.Sprintf``fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates"
+description: "- fmt Package: `fmt.Printf, fmt.Sprintf, fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates"
 date: 2026-05-31
 tags:
   - Go
@@ -21,17 +21,17 @@ encoding/json, and os.
 
 ### Additional Flashcard Topics
 
-- **fmt Package**: `fmt.Printf``fmt.Sprintf``fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates formatted errors.
+- **fmt Package**: `fmt.Printf, fmt.Sprintf, fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates formatted errors.
 
-- **strings Package**: `strings.Contains``strings.Split``strings.Join``strings.TrimSpace`. `strings.Builder` for efficient string concatenation.
+- **strings Package**: `strings.Contains, strings.Split, strings.Join, strings.TrimSpace`. `strings.Builder` for efficient string concatenation.
 
 - **io Package**: `io.Reader` and `io.Writer` are the foundational interfaces. `io.Copy(dst, src)` streams data. `io.TeeReader` splits a reader into two.
 
 - **net/http Package**: `http.ListenAndServe(":8080", nil)` starts a server. `http.HandleFunc` registers route handlers. `http.Client` with timeouts for production use.
 
-- **encoding/json Package**: `json.Marshal`/`json.Unmarshal` for JSON. Struct tags control field names: `` `json:"name,omitempty"` ``. `json.RawMessage` for deferred parsing.
+- **encoding/json Package**: `json.Marshal`/`json.Unmarshal` for JSON. Struct tags control field names: ,  `json:"name,omitempty"` , . `json.RawMessage` for deferred parsing.
 
-- **os Package**: `os.Args``os.Getenv``os.Open``os.Create`. `os.Exit` terminates the program. `os.Signal` handles OS signals.
+- **os Package**: `os.Args, os.Getenv, os.Open, os.Create`. `os.Exit` terminates the program. `os.Signal` handles OS signals.
 
 ## Intuition
 

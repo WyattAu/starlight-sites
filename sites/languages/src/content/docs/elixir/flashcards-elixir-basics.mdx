@@ -20,13 +20,13 @@ import { flashcardData } from '@/data/flashcards/elixir/flashcards-elixir-basics
 
 ### Additional Flashcard Topics
 
-- **Pattern Matching**: `case``with`function heads. `{:ok, value} = {:ok, 42}` binds `value` to 42. Pin operator `^` matches existing values.
+- **Pattern Matching**: `case, with`function heads. `{:ok, value} = {:ok, 42}` binds `value` to 42. Pin operator `^` matches existing values.
 
 - **Pipe Operator**: `|>` passes the result of the left side as the first argument to the right. Enables readable function chains: `data |> parse() |> transform() |> save()`.
 
-- **OTP GenServer**: `handle_call``handle_cast``handle_info`. GenServer is a stateful process with a synchronous request/reply interface.
+- **OTP GenServer**: `handle_call, handle_cast, handle_info`. GenServer is a stateful process with a synchronous request/reply interface.
 
-- **Supervision Trees**: supervisors restart failed processes. Strategies: `:one_for_one``:one_for_all``:rest_for_one`. "Let it crash" philosophy.
+- **Supervision Trees**: supervisors restart failed processes. Strategies: `:one_for_one, :one_for_all, :rest_for_one`. "Let it crash" philosophy.
 
 - **Concurrency**: processes are lightweight (not OS threads). Message passing with `send`/`receive`. Elixir processes are isolated, one crash doesn't affect others.
 

@@ -21,7 +21,7 @@ encoding/json, and os.
 
 ## Intuition
 
-Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader``Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
+Go's standard library is deliberately comprehensive, the language philosophy batteries included. `fmt` is formatted I/O (like C's printf), `strings` handles text manipulation, `io` defines the fundamental interfaces (`Reader, Writer`) that compose like pipelines, and `net/http` provides a production-ready HTTP server and client. The key insight is that Go interfaces are satisfied implicitly: any type with the right methods automatically implements the interface, no `implements` keyword needed.
 
 ## Common Pitfalls
 
@@ -33,7 +33,7 @@ Go's standard library is deliberately comprehensive, the language philosophy bat
 
 ## Study Tips
 
-- **Read the standard library source:** Go's standard library is well-documented and readable. Reading `fmt``strings`and `io` source code teaches idiomatic Go patterns.
+- **Read the standard library source:** Go's standard library is well-documented and readable. Reading `fmt, strings`and `io` source code teaches idiomatic Go patterns.
 - **Use `go doc` and `godoc`:** Run `go doc fmt.Println` or `godoc -http=:6060` to browse documentation offline. The standard library docs are comprehensive.
 - **Practice error handling patterns:** Write functions that return `(T, error)` and handle each error explicitly. This builds the discipline that prevents silent failures in production.
 - **Write HTTP servers with net/http:** Build a simple REST API using only the standard library. This demonstrates Go's approach to web development without external dependencies.

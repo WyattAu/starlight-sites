@@ -724,7 +724,7 @@ The following conditions must hold for reproducible builds:
    inputs. Use `-frandom-seed=0` to disable randomization in GCC/Clang.
 2. **Deterministic file ordering:** Filesystem iteration order must not affect the build. Use
    `-DCMAKE_EXPORT_COMPILE_COMMANDS=ON` to ensure deterministic TU ordering.
-3. **No timestamps in output:** Avoid `__TIME__``__DATE__`And similar macros. Use build-system-
+3. **No timestamps in output:** Avoid `__TIME__, __DATE__`And similar macros. Use build-system-
    provided version definitions.
 4. **No absolute paths in debug info:** Use `-fdebug-prefix-map` and `-fmacro-prefix-map`.
 5. **Same compiler version:** All cache participants must use the exact same compiler version.

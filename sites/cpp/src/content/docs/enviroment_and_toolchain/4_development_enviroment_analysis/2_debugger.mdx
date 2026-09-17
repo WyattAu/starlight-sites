@@ -26,7 +26,7 @@ The format of debug information depends on the platform and toolchain.
 
 - **Format:** A standardized debugging data format.
 - **Storage:**
-- **Embedded:** By default, GCC and Clang embed DWARF sections (`.debug_info``.debug_line`) directly
+- **Embedded:** By default, GCC and Clang embed DWARF sections (`.debug_info, .debug_line`) directly
   into the final executable or shared library.
 - **Split (dwp/dSYM):** For release builds or to reduce binary size, symbols can be separated.
 - **Linux:** `.debug` files (via `objcopy --only-keep-debug`).
@@ -489,7 +489,7 @@ clang++ -g -O1 -fsanitize=thread main.cpp -o app_tsan
 
 ## Debug Info and Optimization Interaction
 
-Debugging optimized binaries (`-O2``-O3`) is fundamentally harder than debugging unoptimized
+Debugging optimized binaries (`-O2, -O3`) is fundamentally harder than debugging unoptimized
 Binaries (`-O0`) because the compiler transforms the code in ways that break the 1:1 mapping between
 Source lines and machine instructions.
 

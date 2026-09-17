@@ -143,7 +143,7 @@ struct Logger \{
 Logger global_logger;  // dynamic initialization
 ```
 
-If `logger.cpp` is initialized before `config.cpp``global_logger`'s constructor calls `get_config()`
+If `logger.cpp` is initialized before `config.cpp, global_logger`'s constructor calls `get_config()`
 before `Config::instance` is constructed. The behavior is undefined.
 
 #### The Construct On First Use Idiom
@@ -233,8 +233,8 @@ making it nearly as fast as regular variable access. However:
 
 ## Dynamic Storage Duration
 
-Dynamic storage duration is obtained through allocation functions (`new``operator new``malloc`) And
-released through deallocation functions (`delete``operator delete``free`).
+Dynamic storage duration is obtained through allocation functions (`new, operator new, malloc`) And
+released through deallocation functions (`delete, operator delete, free`).
 
 ### new and delete
 

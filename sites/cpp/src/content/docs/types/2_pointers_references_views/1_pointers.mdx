@@ -291,8 +291,8 @@ void process(Forward* p);  // OK: parameter declaration does not require complet
 
 | Type                    | Arithmetic | Dereference | sizeof       | Implicitly Convertible To   |
 | :---------------------- | :--------- | :---------- | :----------- | :-------------------------- |
-| `T*` (object pointer)   | Yes        | Yes         | Platform ptr | `void*``const void*`        |
-| `const T*`              | Yes        | Yes (r/o)   | Platform ptr | `void*``const void*`        |
+| `T*` (object pointer)   | Yes        | Yes         | Platform ptr | `void*, const void*`        |
+| `const T*`              | Yes        | Yes (r/o)   | Platform ptr | `void*, const void*`        |
 | `void*`                 | No         | No          | Platform ptr | (none)                      |
 | `T(*)()` (function ptr) | No         | Yes (call)  | Platform ptr | `void(*)()`                 |
 | `T C::*` (member ptr)   | No         | With object | 2x ptr size  | (none, requires object)    |
@@ -326,9 +326,9 @@ void caller() \{
 
 Array decay does not occur in the following contexts [N4950 §7.3.3]:
 
-1. As the operand of `sizeof``sizeof(arr)` yields the total array size.
-2. As the operand of `decltype``decltype(arr)` yields the array type.
-3. As the operand of `alignof``alignof(arr)` yields the array alignment.
+1. As the operand of `sizeof, sizeof(arr)` yields the total array size.
+2. As the operand of `decltype, decltype(arr)` yields the array type.
+3. As the operand of `alignof, alignof(arr)` yields the array alignment.
 4. When bound to a reference, `void f(int (&arr)[N])` preserves the array type.
 5. When initializing a reference, `int (&ref)[10] = arr`.
 
@@ -576,7 +576,7 @@ Similar to one of the following [N4950 §6.8.4.4]:
 1. The dynamic type of the object.
 2. A cv-qualified version of the dynamic type.
 3. A type that is the signed or unsigned variant of the dynamic type.
-4. A type that is `char``unsigned char`Or `std::byte` (byte access is always allowed).
+4. A type that is `char, unsigned char`Or `std::byte` (byte access is always allowed).
 5. An aggregate or union type that contains one of the above types among its members.
 
 ### Violation Example
@@ -620,10 +620,10 @@ Every type `T` has an alignment requirement, `alignof(T)`Which is a power-of-two
 
 | Type                  | Typical Alignment | Notes                           |
 | :-------------------- | :---------------- | :------------------------------ |
-| `char``int8_t`        | 1                 | Any address                     |
-| `int16_t``short`      | 2                 | Even address                    |
-| `int32_t``int``float` | 4                 | 4-byte aligned                  |
-| `int64_t``double`     | 8                 | 8-byte aligned                  |
+| `char, int8_t`        | 1                 | Any address                     |
+| `int16_t, short`      | 2                 | Even address                    |
+| `int32_t, int, float` | 4                 | 4-byte aligned                  |
+| `int64_t, double`     | 8                 | 8-byte aligned                  |
 | `__int128`            | 16                | 16-byte aligned                 |
 | `__m128`              | 16                | SSE requirement                 |
 | `__m256`              | 32                | AVX requirement                 |
@@ -755,8 +755,8 @@ Classes of bugs by construction.
 
 ### Comparing Pointers from Different Arrays
 
-Comparing relational operators (`&lt;``&gt;``&lt;=``&gt;=`) on pointers that do not point into The
-same array is undefined behavior [N4950 §7.6.9]. Equality operators (`==``!=`) are always
+Comparing relational operators (`&lt;, &gt;, &lt;=, &gt;=`) on pointers that do not point into The
+same array is undefined behavior [N4950 §7.6.9]. Equality operators (`==, !=`) are always
 Well-defined:
 
 ```cpp

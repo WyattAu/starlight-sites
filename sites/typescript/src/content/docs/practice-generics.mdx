@@ -115,7 +115,7 @@ type ReadonlyConfig = DeepReadonly<Config>;
 **Problem:**
 Create template literal types for CSS event names (`onClick`, `onFocus`) and route parameter extraction.
 
-**Hint:** Use template literal patterns like `` `on$\{Capitalize<E>\}` `` and string inference.
+**Hint:** Use template literal patterns like ,  `on$\{Capitalize<E>\}` ,  and string inference.
 
 ```typescript
 type EventName<E extends string> = `on${Capitalize<E>}`;

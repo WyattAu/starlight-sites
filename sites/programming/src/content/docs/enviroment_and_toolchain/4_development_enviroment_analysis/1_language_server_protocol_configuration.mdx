@@ -286,7 +286,7 @@ Implements **Include What You Use (IWYU)** logic.
 
 ### The Problem
 
-If you use `std::string`Should the editor insert `#include <string>``<string_view>`Or `<iosfwd>`? If
+If you use `std::string`Should the editor insert `#include <string>, <string_view>`Or `<iosfwd>`? If
 `std::string` is actually defined in `<bits/basic_string.h>`Inserting that path is Technically
 correct but architecturally wrong.
 
@@ -360,7 +360,7 @@ std::vector<int> v(|/*count*/|, |/*value*/|);
 
 Go-to-definition requires clangd to resolve a symbol reference to its declaration. The algorithm:
 
-1. Locate the AST node under the cursor (a `DeclRefExpr``MemberExpr``TypeLoc`Etc.).
+1. Locate the AST node under the cursor (a `DeclRefExpr, MemberExpr, TypeLoc`Etc.).
 2. Walk the AST to find the referenced `NamedDecl`.
 3. If the `NamedDecl` is a `UsingDecl` or `UsingShadowDecl`Resolve to the underlying declaration.
 4. Return the source location of the declaration.
@@ -450,7 +450,7 @@ Generated header directory, or ensure the build directory is created before open
 Your editor.
 
 **Multiple Compilation Databases:** If you have preset-specific build directories (e.g.,
-`build/debug``build/release`), clangd can only use one at a time. Use a symlink at the project Root
+`build/debug, build/release`), clangd can only use one at a time. Use a symlink at the project Root
 to point to the active configuration:
 
 ```bash
@@ -538,7 +538,7 @@ The `--completion-style` flag controls how clangd presents completions:
 
 ### Diagnostics Suppression
 
-Clangd respects `// NOLINT``// NOLINTNEXTLINE`And `#pragma clang diagnostic` directives. For
+Clangd respects `// NOLINT, // NOLINTNEXTLINE`And `#pragma clang diagnostic` directives. For
 Project-wide suppression, use the `.clangd` configuration:
 
 ```yaml
@@ -658,7 +658,7 @@ The `.clang-tidy` file. Key integration points:
 When you type, clangd re-runs the configured clang-tidy checks on the affected region. This means:
 
 - Enabling expensive checks (`clang-analyzer-*`) in clangd will cause noticeable typing lag.
-- Fast checks (`modernize-*``bugprone-*`) add negligible latency.
+- Fast checks (`modernize-*, bugprone-*`) add negligible latency.
 - The `.clangd` `Diagnostics.ClangTidy` section allows enabling a subset of checks for IDE use while
   running the full suite in CI.
 

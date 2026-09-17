@@ -28,16 +28,16 @@ Critically for C++, orchestrating the construction of global objects.
 The CRT implements services that the C++ standard library relies on but that are not part of the
 Language itself:
 
-- **Memory allocation:** The implementation of `malloc``free``operator new`And `operator delete`
+- **Memory allocation:** The implementation of `malloc, free, operator new`And `operator delete`
   (ultimately backed by `brk`/`mmap` on Linux or `VirtualAlloc` on Windows).
 - **Thread support:** `pthread_create` on Linux, `CreateThread` on Windows. `std::thread` is built
   on top of these.
-- **File I/O:** `fopen``fread``fwrite` wrap system calls (`open``read``write`).
-- **Signal handling:** `signal()``raise()` provide POSIX signal semantics.
+- **File I/O:** `fopen, fread, fwrite` wrap system calls (`open, read, write`).
+- **Signal handling:** `signal(), raise()` provide POSIX signal semantics.
 - **Exception infrastructure:** Stack unwinding for C++ exceptions requires CRT support
-  (`__cxa_begin_catch``__cxa_throw` on Itanium ABI platforms).
+  (`__cxa_begin_catch, __cxa_throw` on Itanium ABI platforms).
 - **Locale and ctype:** Character classification, numeric formatting, and locale management.
-- **Exit and cleanup:** `atexit``exit``abort`And the termination sequence.
+- **Exit and cleanup:** `atexit, exit, abort`And the termination sequence.
 
 ## The Physical Entry Point
 
@@ -77,7 +77,7 @@ The full startup path on Linux (glibc) is:
 - **`.init_array` processing:** Each function pointer in `.init_array` is called. This is where C++
   global constructors execute.
 
-1. **`main()` is called** with `argc``argv`And `envp`.
+1. **`main()` is called** with `argc, argv`And `envp`.
 2. **Return from `main`:** The return value is passed to `exit()`Triggering the termination
    sequence.
 
@@ -182,7 +182,7 @@ Translation Units is unspecified**.
 - `FileA.cpp`: Defines `int x = 42;`
 - `FileB.cpp`: Defines `int y = x + 1;`
 
-If the linker arranges `FileB` to initialize before `FileA``y` will be initialized to garbage (or
+If the linker arranges `FileB` to initialize before `FileA, y` will be initialized to garbage (or
 Zero) + 1, not 43.
 
 ### Proof: Static Initialization Order Across TUs Is Unspecified
@@ -284,7 +284,7 @@ int main() \{
 Glibc is the most common CRT on Linux. Key characteristics:
 
 - Dynamic linking by default (libc.so.6).
-- `_start` in `crt1.o``__libc_start_main` in libc.so.
+- `_start` in `crt1.o, __libc_start_main` in libc.so.
 - Thread-local storage via `tls_setup` in `ld.so`.
 - Robust `dlopen`/`dlsym` for dynamic loading.
 
@@ -342,14 +342,14 @@ Platforms.
 Only a minimal subset of the language is available:
 
 - No `main()` required (a custom entry point may be used).
-- No dynamic memory allocation (no `new``delete``malloc`).
+- No dynamic memory allocation (no `new, delete, malloc`).
 - No exceptions (no `try`/`catch`No `throw`).
 - No RTTI (no `dynamic_cast`No `typeid`).
-- Only these standard library headers are required: `&lt;cstddef&gt;``&lt;cfloat&gt;`
-  `&lt;climits&gt;``&lt;cstdalign&gt;``&lt;cstdarg&gt;``&lt;cstdbool&gt;``&lt;cstdlib&gt;` (only
-  `abort``atexit``at_quick_exit``exit``quick_exit``_Exit`), `&lt;cstdint&gt;`
-  `&lt;cstdio&gt;``&lt;cstring&gt;``&lt;ctime&gt;``&lt;type_traits&gt;``&lt;limits&gt;`
-  `&lt;new&gt;` (placement new only), `&lt;initializer_list&gt;``&lt;ciso646&gt;`.
+- Only these standard library headers are required: `&lt;cstddef&gt;, &lt;cfloat&gt;`
+  `&lt;climits&gt;, &lt;cstdalign&gt;, &lt;cstdarg&gt;, &lt;cstdbool&gt;, &lt;cstdlib&gt;` (only
+  `abort, atexit, at_quick_exit, exit, quick_exit, _Exit`), `&lt;cstdint&gt;`
+  `&lt;cstdio&gt;, &lt;cstring&gt;, &lt;ctime&gt;, &lt;type_traits&gt;, &lt;limits&gt;`
+  `&lt;new&gt;` (placement new only), `&lt;initializer_list&gt;, &lt;ciso646&gt;`.
 
 Per [N4950 S6.9.1 p4], in a freestanding environment, the startup and termination semantics are
 Implementation-defined. There is no guarantee that `.init_array` is processed or that `atexit`
@@ -473,7 +473,7 @@ Recommended alternative to `abort` when you need to skip destructors intentional
 On Linux, the CRT is almost always linked dynamically (`glibc`). On Windows, MSVC offers a choice
 That profoundly affects architecture.
 
-### 1. Dynamic Linking (`/MD``/MDd`)
+### 1. Dynamic Linking (`/MD, /MDd`)
 
 - **Mechanism:** The executable relies on `VCRUNTIME140.DLL` and `UCRTBASE.DLL` present on the
   system.
@@ -481,7 +481,7 @@ That profoundly affects architecture.
   shared across DLL boundaries.
 - **Cons:** "DLL Hell" (missing redistributables).
 
-### 2. Static Linking (`/MT``/MTd`)
+### 2. Static Linking (`/MT, /MTd`)
 
 - **Mechanism:** The CRT code is copied directly into the `.exe`.
 - **Pros:** Standalone executable (no dependencies).
@@ -531,7 +531,7 @@ CLI tools and short-lived microservices.
   Profile with `LD_DEBUG=statistics` and minimize.
 - **Freestanding without `-nostdlib`:** Using `-ffreestanding` alone still links the CRT. Use
   `-nostdlib` and provide your own `_start` for true freestanding.
-- **Using `std::quick_exit` without registering handlers:** Unlike `std::exit``quick_exit` does not
+- **Using `std::quick_exit` without registering handlers:** Unlike `std::exit, quick_exit` does not
   run static destructors or flush streams. If you use it, register any necessary cleanup with
   `std::at_quick_exit`.
 - **Assuming the stack is initialized in freestanding environments:** The kernel initializes the
@@ -699,7 +699,7 @@ Linker resolves it to a single definition.
 ## Signal Handling and the CRT
 
 The CRT provides the interface between POSIX/OS signals and C++ exception handling. When a signal is
-Delivered (e.g., `SIGSEGV``SIGFPE`), the CRT's signal handler may:
+Delivered (e.g., `SIGSEGV, SIGFPE`), the CRT's signal handler may:
 
 1. **Translate to C++ exception:** Some CRTs translate signals like `SIGFPE` (divide by zero) into
    C++ exceptions, allowing `try`/`catch` to handle hardware faults.

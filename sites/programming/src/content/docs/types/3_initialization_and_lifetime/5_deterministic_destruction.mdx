@@ -45,9 +45,9 @@ public:
 2. **`delete` expression**: The pointed-to object is destroyed before deallocation.
 3. **Program termination**: Static and thread-local objects destroyed in reverse order of
    construction.
-4. **Container operations**: `vector::erase``vector::clear``map::erase` destroy the removed
+4. **Container operations**: `vector::erase, vector::clear, map::erase` destroy the removed
    elements.
-5. **Algorithm operations**: `std::destroy``std::destroy_n``std::destroy_at`.
+5. **Algorithm operations**: `std::destroy, std::destroy_n, std::destroy_at`.
 
 ### The Reverse-Construction-Order Guarantee
 
@@ -392,7 +392,7 @@ Value v = std::string("hello");
 // ~string called automatically when v is assigned a different type or destroyed
 ```
 
-## `std::destroy_at``std::destroy``std::destroy_n`
+## `std::destroy_at, std::destroy, std::destroy_n`
 
 C++17 introduced standardized destruction algorithms [N4950 §20.10.3]:
 

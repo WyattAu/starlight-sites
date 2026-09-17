@@ -125,7 +125,7 @@ Preserved through the span interface.
 
 ## 5. Subviews and Splitting
 
-`std::span` provides `first()``last()`And `subspan()` for creating views into subsets of the Data.
+`std::span` provides `first(), last()`And `subspan()` for creating views into subsets of the Data.
 These operations return new `span` objects and are **O(1)**, no data is copied.
 
 ```cpp
@@ -253,7 +253,7 @@ ssize_t read_into(int fd, std::span<std::byte> buf) \{
 | Copyable                   | No (decays)    | Yes                | Yes ( copyable)                         |
 | Dynamic sizing             | No             | No                 | Yes                                     |
 | Bounds checking            | No             | `.at()`            | `.at()` (C++26 `operator[]` is checked) |
-| Slicing                    | No             | No                 | Yes (`first``last``subspan`)            |
+| Slicing                    | No             | No                 | Yes (`first, last, subspan`)            |
 
 ## 8. Range-For Integration
 
@@ -543,7 +543,7 @@ Policies.
 ## See Also
 
 - **Module 8: String Views and SSO**, `std::string_view` as the character-specific specialization.
-- **Module 7: Data Layout**, Contiguity, alignment, `sizeof``std::byte`.
+- **Module 7: Data Layout**, Contiguity, alignment, `sizeof, std::byte`.
 - **Module 8: Pointers and References**, Array decay, `std::nullptr_t`Pointer arithmetic.
 - **`std::span`**, [N4950 §22.7.3], C++20.
 - **`std::mdspan`**, [N4950 §22.7.4], C++23 (multi-dimensional views).

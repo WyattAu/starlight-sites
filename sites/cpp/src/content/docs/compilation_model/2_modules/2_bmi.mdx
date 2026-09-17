@@ -265,7 +265,7 @@ This information is used to construct the DAG that determines compilation order.
 Build systems cache BMIs to avoid redundant recompilation. The cache key includes:
 
 - The source file content hash.
-- Compiler version and flags (`-std=c++23``-DDEBUG``-O2`).
+- Compiler version and flags (`-std=c++23, -DDEBUG, -O2`).
 - The BMIs of all imported modules (transitive dependencies).
 
 If any of these inputs change, the BMI is invalidated and all downstream importers must be
@@ -298,7 +298,7 @@ Recursion in the preprocessor (caught only by include guards) or subtle ODR viol
 1. **Ephemeral Nature:** BMIs are transient build artifacts (like `.o` files). They should never be
    distributed, version controlled, or installed to `/usr/include`.
 2. **Configuration Dependency:** A BMI is tied to the specific flags used to build it. Changing
-   `-std=c++23``-DDEBUG`Or even `-O3` invalidates the BMI, requiring a rebuild of the entire module
+   `-std=c++23, -DDEBUG`Or even `-O3` invalidates the BMI, requiring a rebuild of the entire module
    subgraph.
 3. **Two-Phase Compilation:** To maximize parallelism, build systems often split module compilation
    into two steps:
@@ -552,7 +552,7 @@ Implications:
 2. **NFS/shared filesystem builds:** BMI files are accessed frequently during compilation (read by
    downstream TUs). On NFS mounts, the latency of reading large BMIs can dominate build time. Prefer
    local builds or SSD-backed shared storage.
-3. **`.gitignore` hygiene:** BMI files (`.pcm``.ifc``.gcm`) must never be committed. Add them to
+3. **`.gitignore` hygiene:** BMI files (`.pcm, .ifc, .gcm`) must never be committed. Add them to
    `.gitignore` and verify they are not tracked with `git ls-files '*.pcm'`.
 
 ## 9. BMI and Template Instantiation Boundaries

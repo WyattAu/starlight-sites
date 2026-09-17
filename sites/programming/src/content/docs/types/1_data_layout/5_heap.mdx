@@ -90,7 +90,7 @@ Wasting RAM on unused capacity.
 If syscalls operate on 4KB pages, why can we `new int` (4 bytes)?
 
 The C++ runtime includes a **User-Space Allocator** (implementations include glibc `ptmalloc`
-`jemalloc``tcmalloc`Or MSVC Heap). This component acts as a middleman.
+`jemalloc, tcmalloc`Or MSVC Heap). This component acts as a middleman.
 
 ### Architecture of an Allocator
 
@@ -330,7 +330,7 @@ void pool_demo() \{
 ## 9. The C++ Allocator Interface [N4950 S9.4]
 
 C++ standard containers parameterize their memory management through the **Allocator** concept
-[N4950 §9.4]. An allocator is a class type that provides `allocate``deallocate``construct`And
+[N4950 §9.4]. An allocator is a class type that provides `allocate, deallocate, construct`And
 `destroy` member functions. The standard provides `std::allocator<T>` as the default.
 
 ### Proof of Allocator Requirements
@@ -363,7 +363,7 @@ The following member types and functions, with the specified semantics [N4950 §
    (like PMR allocators), this is `true` only if they share the same resource.
 
 7. **Propagation traits**: `propagate_on_container_copy_assignment`
-   `propagate_on_container_move_assignment``propagate_on_container_swap`And `is_always_equal`
+   `propagate_on_container_move_assignment, propagate_on_container_swap`And `is_always_equal`
    control how allocators are transferred when containers are copied, moved, or swapped. These are
    critical for correctness with stateful allocators. QED.
 

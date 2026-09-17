@@ -27,7 +27,7 @@ import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flash
 
 **Templates are like cookie cutters for code:** The template is the cutter shape, and the types are the dough. When you write `std::vector<int>`you press the "int" dough through the "vector" cutter, and out comes a concrete `vector<int>` class. The compiler generates a new class for each unique combination of template arguments, like making different cookies with the same cutter but different dough. This is why templates are "zero-cost abstractions", the generated code is exactly what you'd write by hand. Concepts are like labeling the cutter, "this cutter works with dough types X, Y, and Z", so the compiler can give better error messages when you try to use the wrong dough.
 
-**Why it matters:** Templates enable generic programming, writing code that works with any type. This is the foundation of the C++ standard library (`std::vector``std::sort``std::map`) and modern C++ techniques (concepts, ranges, constexpr). Understanding templates is essential for writing reusable, type-safe, and efficient code.
+**Why it matters:** Templates enable generic programming, writing code that works with any type. This is the foundation of the C++ standard library (`std::vector, std::sort, std::map`) and modern C++ techniques (concepts, ranges, constexpr). Understanding templates is essential for writing reusable, type-safe, and efficient code.
 
 **The key insight:** Templates are blueprints, not code, the compiler generates concrete code for each type combination. Concepts make template constraints readable and give clear error messages when constraints are not satisfied.
 

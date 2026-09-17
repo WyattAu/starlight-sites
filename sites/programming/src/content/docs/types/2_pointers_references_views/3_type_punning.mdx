@@ -58,7 +58,7 @@ C++17). Informally:
 >   non-static data members (including, recursively, an element or non-static data member of a
 >   subaggregate or contained union),
 > - a type that is a (possibly cv-qualified) base class type of the dynamic type,
-> - a `char``unsigned char`Or `std::byte` type.
+> - a `char, unsigned char`Or `std::byte` type.
 
 ### Formal Statement and Proof That `reinterpret_cast` Punning Is UB
 
@@ -741,7 +741,7 @@ representations can be meaningfully reinterpreted.
 
 ### Pitfall 3: Assuming `char*` Aliasing Applies to `signed char*`
 
-Only `char``unsigned char`And `std::byte` have the universal aliasing exemption. `signed char` Is
+Only `char, unsigned char`And `std::byte` have the universal aliasing exemption. `signed char` Is
 listed in the Standard, but historically some compilers only exempted `unsigned char`. In C++23, All
 three are explicitly listed. For maximum portability on pre-C++23 compilers, prefer `unsigned char`
 or `std::byte`.

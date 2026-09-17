@@ -264,7 +264,7 @@ The linker encounters an object file, it adds all defined symbols to its table a
 Undefined symbols. If a subsequent object file or library provides a definition for a
 Previously-undefined symbol, the reference is patched.
 This ordering dependency is the root cause of the classic "undefined reference" error when linking
-Against static libraries. If library `A` depends on library `B``A` must appear before `B` on the
+Against static libraries. If library `A` depends on library `B, A` must appear before `B` on the
 Command line.
 
 ```cmake
@@ -606,7 +606,7 @@ clang++ -mcmodel=large ...
   your binary to GOT overwrite attacks.
 - **Mixing static and dynamic C++ runtime libraries.** On Linux, if one library links `libstdc++`
   statically and another dynamically, you get two copies of the C++ runtime with separate global
-  state. This causes crashes in `dynamic_cast``typeid`And exception handling. Use
+  state. This causes crashes in `dynamic_cast, typeid`And exception handling. Use
   `-static-libgcc -static-libstdc++` consistently or not at all.
 - **Not specifying `CMAKE_EXE_LINKER_FLAGS` correctly for LLD.** On some systems, `lld` is installed
   as `ld.lld` but not in the PATH. Use `CMAKE_LINKER` to specify the absolute path.

@@ -214,7 +214,7 @@ Never both simultaneously.
 - `.text` is Executable but not Writable.
 - `.data` and `.bss` are Writable but not Executable.
 - **Implication:** You cannot generate code at runtime (JIT) in standard C++ without utilizing
-  specific OS APIs (`mmap``VirtualAlloc`) to explicitly request `RWX` pages, which is flagged by
+  specific OS APIs (`mmap, VirtualAlloc`) to explicitly request `RWX` pages, which is flagged by
   security software.
 
 ### 2. Static Initialization Order Fiasco
@@ -256,7 +256,7 @@ Key fields in the ELF header:
 | Field         | Description                                                           |
 | :------------ | :-------------------------------------------------------------------- |
 | `e_type`      | `ET_EXEC` (executable), `ET_DYN` (shared/PIE), `ET_REL` (object file) |
-| `e_machine`   | Target ISA: `x86-64``AArch64``RISC-V`Etc.                             |
+| `e_machine`   | Target ISA: `x86-64, AArch64, RISC-V`Etc.                             |
 | `e_phoff`     | Byte offset to the Program Header Table (loader view)                 |
 | `e_shoff`     | Byte offset to the Section Header Table (linker view)                 |
 | `e_phentsize` | Size of each Program Header entry                                     |
@@ -282,7 +282,7 @@ readelf -lS ./app
 ```
 
 A single `PT_LOAD` segment contains multiple sections. For example, the read-only Executable segment
-might contain `.text``.rodata`And `.eh_frame` sections.
+might contain `.text, .rodata`And `.eh_frame` sections.
 
 ### ELF Layout Diagram
 
@@ -402,7 +402,7 @@ readelf --dyn-syms ./app | grep -c "GLOBAL.*DEFAULT"
 
 ### Relocation Entries
 
-Relocation entries (`.rela.text``.rela.dyn``.rela.plt`) tell the linker where to patch addresses In
+Relocation entries (`.rela.text, .rela.dyn, .rela.plt`) tell the linker where to patch addresses In
 the binary. There are two types:
 
 1. **`.rela.text`** (section relocations): Applied at static link time by the linker. Used to
@@ -589,8 +589,8 @@ Segments:
 
 | Mach-O Segment | Sections                                | Permissions | Content                                       |
 | :------------- | :-------------------------------------- | :---------- | :-------------------------------------------- |
-| `__TEXT`       | `__text``__stubs``__cstring``__const`   | R-X         | Code, read-only data                          |
-| `__DATA`       | `__data``__bss``__la_symbol_ptr``__got` | RW-         | Writable data, GOT                            |
+| `__TEXT`       | `__text, __stubs, __cstring, __const`   | R-X         | Code, read-only data                          |
+| `__DATA`       | `__data, __bss, __la_symbol_ptr, __got` | RW-         | Writable data, GOT                            |
 | `__LINKEDIT`   | (linker metadata)                       | R--         | Symbol table, string table, relocations       |
 | `__PAGEZERO`   | (none)                                  | ---         | Null page (catches null pointer dereferences) |
 
@@ -669,7 +669,7 @@ Debug information storage differs significantly across the three binary formats:
 | **Format**        | DWARF 4/5            | CodeView                | DWARF 4/5                            |
 | **Strippable**    | Yes (`strip`)        | Always external         | Yes (`strip`) or `.dSYM`             |
 | **Size overhead** | 5-10x binary size    | 0 (separate file)       | 5-10x binary size                    |
-| **Tooling**       | `gdb``lldb``readelf` | `Visual Studio``WinDbg` | `lldb``dsymutil`                     |
+| **Tooling**       | `gdb, lldb, readelf` | `Visual Studio, WinDbg` | `lldb, dsymutil`                     |
 
 ### DWARF Version Progression
 

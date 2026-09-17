@@ -62,7 +62,7 @@ D. Set
 &lt;details&gt;
 &lt;summary&gt;Show answer, D&lt;/summary&gt;
 
-**Answer: D**, A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union``intersection``difference`).
+**Answer: D**, A `Set` is an unordered collection of unique elements backed by a hash table. Adding a duplicate element is silently ignored: `\{'a', 'b', 'a'\}` becomes `\{'a', 'b'\}`. Use `Set` for fast O(1) membership checks (`contains`), deduplication (`Set.from(list).toList()`), and mathematical set operations (`union, intersection, difference`).
 
 ---
 
@@ -115,7 +115,7 @@ D. record.0
 &lt;details&gt;
 &lt;summary&gt;Show answer, B&lt;/summary&gt;
 
-**Answer: B**, Record positional fields are accessed via `$1``$2``$3`etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
+**Answer: B**, Record positional fields are accessed via `$1, $2, $3`etc. (1-indexed). Named fields use dot notation: `var (name, age) = record;` for destructuring, or `record.$1` returns 'Alice' and `record.$2` returns 30. The `$` prefix distinguishes record fields from regular properties.
 
 ---
 

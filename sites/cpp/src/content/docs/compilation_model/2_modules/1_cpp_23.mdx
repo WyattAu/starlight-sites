@@ -172,7 +172,7 @@ void use_allocator() \{
 
 ## 4. The Global Module Fragment (GMF)
 
-The C++ ecosystem relies heavily on legacy headers (`<unistd.h>``<windows.h>`). Modules provide a
+The C++ ecosystem relies heavily on legacy headers (`<unistd.h>, <windows.h>`). Modules provide a
 Mechanism called the **Global Module Fragment** to safely include these headers without
 Contaminating the module's symbol table or exporting macros unintentionally.
 
@@ -227,7 +227,7 @@ Modules fundamentally change the build dependency graph.
 
 1. **Scanning:** The build system (CMake/Ninja) must scan source files _before_ compilation to
    discover module names and dependencies. Implicit file-to-target mapping is no longer sufficient.
-2. **Ordering:** If `B.cppm` imports `A.cppm``A` must be compiled (to generate the BMI) before `B`
+2. **Ordering:** If `B.cppm` imports `A.cppm, A` must be compiled (to generate the BMI) before `B`
    can be compiled. This serialization eliminates parallel compilation of dependent interfaces,
    though Implementation Units can still compile in parallel.
 
@@ -408,7 +408,7 @@ module;
 export module WinWrapper;
 ```
 
-1. **Predefined macros** (compiler-defined macros like `__FILE__``__LINE__``NDEBUG`) are always
+1. **Predefined macros** (compiler-defined macros like `__FILE__, __LINE__, NDEBUG`) are always
    available regardless of modules. These are not affected by the module boundary because they are
    injected by the compiler, not the preprocessor in the traditional sense.
 

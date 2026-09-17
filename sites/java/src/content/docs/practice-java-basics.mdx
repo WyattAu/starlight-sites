@@ -115,7 +115,7 @@ By length: \{3=[Bob, Eve], 5=[Alice], 7=[Charlie, David]\}
 Long names: 3
 ```
 
-**Key insight:** Streams provide a declarative way to process collections. Intermediate operations (`filter``map`) are lazy. Terminal operations (`collect``reduce``count`) trigger processing.
+**Key insight:** Streams provide a declarative way to process collections. Intermediate operations (`filter, map`) are lazy. Terminal operations (`collect, reduce, count`) trigger processing.
 
 ---
 
@@ -255,7 +255,7 @@ Hello World
 
 <PracticeProblem client:only="solid-js" question={`Given \`List.of(2, 1, 3).stream().map(x -> x * x).filter(x -> x > 3).collect(Collectors.toList())\`, what is the result?`} options={['[1, 4, 9]','[4, 9]','[9]','[4]']} correctAnswer={1} explanation="The stream maps each element to its square: [4, 1, 9]. Then`filter(x -> x > 3)` keeps only 4 and 9, producing [4, 9]. Streams are lazy and process elements one at a time through the pipeline. The `collect` terminal operation triggers the entire pipeline and gathers results into a list." difficulty="medium"  />
 
-<PracticeProblem client:only="solid-js" question={`Which of the following is a terminal operation?`} options={['filter','map','sorted','collect']} correctAnswer={3} explanation="Terminal operations produce a result and close the Stream pipeline. `collect``forEach``reduce``count``toArray``findFirst`and `anyMatch` are all terminal operations. `filter``map``sorted``distinct`and `flatMap` are intermediate operations that return a new Stream and are lazy -- they do not execute until a terminal operation is invoked." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`Which of the following is a terminal operation?`} options={['filter','map','sorted','collect']} correctAnswer={3} explanation="Terminal operations produce a result and close the Stream pipeline. `collect`, `forEach`, `reduce`, `count`, `toArray`, `findFirst`and `anyMatch` are all terminal operations. `filter`, `map`, `sorted`, `distinct`and `flatMap` are intermediate operations that return a new Stream and are lazy -- they do not execute until a terminal operation is invoked." difficulty="medium"  />
 
 ---
 
@@ -267,7 +267,7 @@ Hello World
 
 ### Generics
 
-<PracticeProblem client:only="solid-js" question={`Why does the following code fail to compile?\n\`\`\`\nList<String> strings = new ArrayList<>();\nList<Object> objects = strings;\n\`\`\``} options={[ 'Generics are invariant -- List<String> is not a subtype of List<Object>', 'ArrayList<String> cannot be assigned to List<String>', 'The diamond operator is not allowed here', 'String is not a subtype of Object', ]} correctAnswer={0} explanation="Java generics are invariant:`List<String>` is not a subtype of `List<Object>`even though`String` is a subtype of `Object`. If this were allowed, you could add an`Integer` to a `List<String>` through the `List<Object>`reference, breaking type safety. Use wildcards (`List<? extends Object>`) for covariance or`List<? super String>` for contravariance." difficulty="medium"  />
+<PracticeProblem client:only="solid-js" question={`Why does the following code fail to compile?\n\`\`\`\nList<String> strings = new ArrayList<>();\nList<Object> objects = strings;\n\`\`\`, `} options={[ 'Generics are invariant -- List<String> is not a subtype of List<Object>', 'ArrayList<String> cannot be assigned to List<String>', 'The diamond operator is not allowed here', 'String is not a subtype of Object', ]} correctAnswer={0} explanation="Java generics are invariant:`List<String>` is not a subtype of `List<Object>`even though`String` is a subtype of `Object`. If this were allowed, you could add an`Integer` to a `List<String>` through the `List<Object>`reference, breaking type safety. Use wildcards (`List<? extends Object>`) for covariance or`List<? super String>` for contravariance." difficulty="medium"  />
 
 ---
 

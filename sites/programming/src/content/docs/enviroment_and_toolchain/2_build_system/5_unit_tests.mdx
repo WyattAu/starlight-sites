@@ -330,7 +330,7 @@ INSTANTIATE_TEST_SUITE_P(
 ```
 
 With `gtest_discover_tests`Each instantiation appears as a separate test in CTest:
-`PrimeNumbers/PrimeTest.ReturnsCorrectResult/0``PrimeNumbers/PrimeTest.ReturnsCorrectResult/1` Etc.
+`PrimeNumbers/PrimeTest.ReturnsCorrectResult/0, PrimeNumbers/PrimeTest.ReturnsCorrectResult/1` Etc.
 
 ## CMake Test Properties
 
@@ -585,7 +585,7 @@ Is unavoidable, use generous timeouts and mark the test as flaky in CI.
 
 If the test binary fails to execute during the discovery phase (e.g., missing shared library at
 Runtime), CMake configuration fails. Ensure all runtime dependencies (`.so`/`.dll` files) are
-Findable via `LD_LIBRARY_PATH``PATH`Or `CMAKE_INSTALL_RPATH`.
+Findable via `LD_LIBRARY_PATH, PATH`Or `CMAKE_INSTALL_RPATH`.
 
 ### 5. Catch2 v2 to v3 Migration
 

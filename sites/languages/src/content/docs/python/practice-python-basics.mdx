@@ -146,7 +146,7 @@ D. [1, 2]
 <details>
 <summary>Show answer, D</summary>
 
-**Answer: D**, Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)``b` is `[1]`. After `f(2)``b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+**Answer: D**, Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1), b` is `[1]`. After `f(2), b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 
 </details>
 
@@ -257,7 +257,7 @@ D. It returns None',
 <details>
 <summary>Show answer, A</summary>
 
-**Answer: A**, Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()``asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+**Answer: A**, Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run(), asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 
 </details>
 
@@ -371,7 +371,7 @@ C. TypeError
 D. [1, 2]
 
 **Answer: D**
-- Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)``b` is `[1]`. After `f(2)``b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
+- Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1), b` is `[1]`. After `f(2), b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.
 *Difficulty: medium*
 
 **Q4. What does the LEGB rule stand for in Python variable resolution?**
@@ -437,7 +437,7 @@ C. It raises SyntaxError
 D. It returns None',
 
 **Answer: A**
-- Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run()``asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
+- Calling an `async def` function does not execute its body. It creates and returns a coroutine object. To actually run the coroutine, you must `await` it inside another async function, or schedule it with `asyncio.run(), asyncio.create_task()`or `asyncio.gather()`. The coroutine must be awaited or scheduled exactly once.
 *Difficulty: hard*
 
 **Q10. What is the effect of defining `__slots__ = ('x', 'y')` on a class?**
