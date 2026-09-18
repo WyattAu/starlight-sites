@@ -658,8 +658,13 @@ jobs:
     # ADR-014: if a deploy wave failed after sites started changing, trigger
     # the rollback workflow automatically (redeploy of last-good-deploy).
     # Skipped when only the gate failed -- no site changed, nothing to undo.
+    # A SKIPPED deploy-rollout is also legitimate: the path filter found no
+    # changed sites in this push, so there is nothing to roll back either.
     needs: [deploy-canary, deploy-rollout, update-search-index]
-    if: failure() && github.ref == 'refs/heads/main'
+    if: >-
+      failure() &&
+      github.ref == 'refs/heads/main' &&
+      needs.deploy-rollout.result != 'skipped'
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
