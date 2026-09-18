@@ -13,7 +13,9 @@
 const { starlightRoute } = Astro.locals;
 const { entry } = starlightRoute;
 
-const sources = entry?.data?.sources;
+// `sources` is custom frontmatter not present in Starlight's generated
+// entry type, hence the narrow cast.
+const sources = (entry?.data as { sources?: Array<{ text: string }> } | undefined)?.sources;
 if (!sources || sources.length === 0) return null;
 ---
 

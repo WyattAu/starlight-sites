@@ -101,7 +101,7 @@ export const flashcard3 = [
   },
   {
     id: 'abn-14',
-    front: "Explain Ellis’s ABC model of depression and Seligman\'s learned helplessness theory.",
+    front: "Explain Ellis’s ABC model of depression and Seligman's learned helplessness theory.",
     back: 'Ellis (1962) -- ABC model: Activating event (A) leads to Belief (B) which leads to Consequence (C). Depression is caused by irrational beliefs (e.g. "I must be perfect") about activating events, not the events themselves. Therapy (REBT) challenges irrational beliefs. Seligman (1975) -- learned helplessness: individuals who experience uncontrollable negative events learn that their actions have no effect, leading to passivity, low motivation, and depressive symptoms. Expressed through attributional style: attributing failures to internal, stable, global causes (pessimistic explanatory style). Evidence: Abramson et al. (1978) reformulated the model.',
     tags: ['depression', 'cognitive', 'Ellis', 'Seligman', 'learned-helplessness'],
     difficulty: 'hard',

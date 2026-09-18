@@ -78,7 +78,7 @@ export const flashcard3 = [
   {
     id: 'energy-3',
     front: 'Define gravitational potential energy and its formula near Earth’s surface.',
-    back: "Gravitational PE is the energy stored due to an object\'s position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary, only ΔE_p matters.",
+    back: "Gravitational PE is the energy stored due to an object's position in a gravitational field: E_p = mgh (near surface, uniform field). m = mass, g = gravitational field strength (~9.81 m s⁻²), h = height above reference level. It is a scalar. Reference level (h=0) is arbitrary, only ΔE_p matters.",
     tags: ['work and energy', 'potential energy'],
     difficulty: 'easy',
   },

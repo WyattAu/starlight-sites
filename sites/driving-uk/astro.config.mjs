@@ -27,6 +27,7 @@ export default defineConfig({
         'Complete UK driving test preparation covering theory test, hazard perception, and practical driving test.',
       components: {
         PageFrame: './src/components/starlight/PageFrame.astro',
+        Header: './src/components/starlight/Header.astro',
         Hero: './src/components/starlight/Hero.astro',
         ThemeProvider: './src/components/starlight/ThemeProvider.astro',
         Head: './src/components/starlight/Head.astro',
@@ -78,8 +79,8 @@ export default defineConfig({
           attrs: {
             rel: 'stylesheet',
             href: 'https://cdn.jsdelivr.net/npm/katex@0.16.44/dist/katex.min.css',
-              integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
-              crossorigin: 'anonymous',
+            integrity: 'sha384-irXK0JiCGinqGL+slwVklbhJetrjczNwaP2lANewD8lKAs9n61SbQ3As28iSqXUE',
+            crossorigin: 'anonymous',
           },
         },
         {
@@ -108,7 +109,13 @@ export default defineConfig({
         },
         { tag: 'script', attrs: { src: '/page-search.js', defer: true } },
       ],
-      customCss: ['./src/styles/custom.css', './src/styles/design-system.css', './src/styles/themes.css', './src/styles/components.css', './src/styles/utilities.css'],
+      customCss: [
+        './src/styles/custom.css',
+        './src/styles/design-system.css',
+        './src/styles/themes.css',
+        './src/styles/components.css',
+        './src/styles/utilities.css',
+      ],
     }),
     mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] }),
     solidJs(),

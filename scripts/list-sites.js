@@ -31,6 +31,29 @@ switch (arg) {
   case '--slugs':
     console.log(JSON.stringify(astroSites()))
     break
+  case '--changed-from-file': {
+    // Reads a newline-separated list of changed file paths (from
+    // `git diff --name-only`) and reports which Astro sites are affected.
+    // Any change OUTSIDE sites/<slug>/ (shared assets, scripts, workflows,
+    // fixtures, root configs) forces every site -- those trees feed all of
+    // them. Output: {"force": bool, "slugs": ["a","b",...]}
+    const fs = require('node:fs')
+    const file = process.argv[3]
+    if (!file) {
+      console.error('usage: list-sites.js --changed-from-file <path>')
+      process.exit(1)
+    }
+    const paths = fs.readFileSync(file, 'utf8').split('\n').filter(Boolean)
+    const forcePaths = paths.filter(p => !p.startsWith('sites/') || /^sites\/[^/]+\/$/.test(p))
+    const slugs = new Set()
+    for (const p of paths) {
+      const m = p.match(/^sites\/([^/]+)\//)
+      if (m && m[1] !== 'main' && astroSites().includes(m[1])) slugs.add(m[1])
+    }
+    if (forcePaths.length > 0) for (const s of astroSites()) slugs.add(s)
+    console.log(JSON.stringify({ force: forcePaths.length > 0, slugs: [...slugs].sort() }))
+    break
+  }
   case '--all':
     console.log(JSON.stringify(allSites()))
     break
@@ -46,7 +69,7 @@ switch (arg) {
   }
   case '--canary-matrix': {
     const meta = siteMeta()
-    const include = canarySites().map((site) => ({
+    const include = canarySites().map(site => ({
       site,
       project: meta[site].project,
       url: meta[site].url,
@@ -56,7 +79,7 @@ switch (arg) {
   }
   case '--rollout-matrix': {
     const meta = siteMeta()
-    const include = rolloutSites().map((site) => ({
+    const include = rolloutSites().map(site => ({
       site,
       project: meta[site].project,
       url: meta[site].url,
@@ -78,6 +101,8 @@ switch (arg) {
     break
   }
   default:
-    console.error('usage: list-sites.js --slugs | --all | --ci-matrix | --canary-matrix | --rollout-matrix | --preview-matrix | --urls')
+    console.error(
+      'usage: list-sites.js --slugs | --all | --ci-matrix | --canary-matrix | --rollout-matrix | --preview-matrix | --urls',
+    )
     process.exit(2)
 }

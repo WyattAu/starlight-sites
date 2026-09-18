@@ -1,8 +1,10 @@
 // Fast MDX JSX-expression validator: extracts { ... } attribute expressions
 // and parses each with acorn, reproduces @mdx-js/rollup expression errors
 // without running the Vite build.
-import { createRequire } from 'module'
-import { readFileSync } from 'fs'
+
+import { readFileSync } from 'node:fs'
+import { createRequire } from 'node:module'
+
 const require = createRequire(import.meta.url)
 const acorn = require('../node_modules/.bun/acorn@8.16.0/node_modules/acorn/dist/acorn.mjs')
 const jsx = require('../node_modules/.bun/acorn-jsx@5.3.2+ed870fa5b9aaeac5/node_modules/acorn-jsx/index.js')
@@ -23,7 +25,10 @@ while ((m = attrRe.exec(src)) !== null) {
   while (i < src.length && depth > 0) {
     const c = src[i]
     if (inStr) {
-      if (c === '\\') { i += 2; continue }
+      if (c === '\\') {
+        i += 2
+        continue
+      }
       if (c === inStr) inStr = null
     } else if (c === '"' || c === "'" || c === '`') {
       inStr = c

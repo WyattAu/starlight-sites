@@ -163,6 +163,8 @@ export default function ThemeCreator() {
 
   return (
     <Show when={open()}>
+      {/* biome-ignore lint/a11y/noStaticElementInteractions: backdrop dismiss; Escape and the close button serve keyboard users */}
+      {/* biome-ignore lint/a11y/useKeyWithClickEvents: Escape closes via the key handler below */}
       <div
         class="theme-creator-backdrop"
         role="presentation"
@@ -177,6 +179,7 @@ export default function ThemeCreator() {
           aria-modal="true"
           aria-label="Custom theme creator"
           onClick={e => e.stopPropagation()}
+          onKeyDown={e => e.stopPropagation()}
         >
           <div class="theme-creator-header">
             <h2>Custom Theme</h2>

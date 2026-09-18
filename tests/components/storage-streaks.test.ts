@@ -30,8 +30,7 @@ const localStorageMock = (() => {
 
 vi.stubGlobal('localStorage', localStorageMock)
 
-const isoDaysAgo = (n: number) =>
-  new Date(Date.now() - n * 86400000).toISOString().slice(0, 10)
+const isoDaysAgo = (n: number) => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10)
 
 function seedDates(dates: string[]) {
   localStorage.setItem('wn-streak', JSON.stringify(dates))
@@ -142,7 +141,12 @@ describe('Global streak tracking', () => {
     it('sums review history across decks', () => {
       localStorage.setItem(
         'wyattsnotes-spaced-rep-a',
-        JSON.stringify({ cardStates: {}, reviewHistory: [{}, {}, {}], lastStudyDate: null, streak: 0 }),
+        JSON.stringify({
+          cardStates: {},
+          reviewHistory: [{}, {}, {}],
+          lastStudyDate: null,
+          streak: 0,
+        }),
       )
       localStorage.setItem(
         'wyattsnotes-spaced-rep-b',

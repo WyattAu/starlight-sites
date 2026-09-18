@@ -2,10 +2,11 @@
 // Captures unhandled errors and sends them to /api/track for observability.
 // @ts-check
 
-const SEARCH_API = typeof window !== 'undefined'
-  // @ts-ignore, custom global for testing
-  ? (window.__SEARCH_API || 'https://search.wyattau.com/api')
-  : 'https://search.wyattau.com/api'
+const SEARCH_API =
+  typeof window !== 'undefined'
+    ? // @ts-expect-error, custom global for testing
+      window.__SEARCH_API || 'https://search.wyattau.com/api'
+    : 'https://search.wyattau.com/api'
 
 /**
  * Report a client-side error to the search API.
@@ -41,14 +42,20 @@ export function captureClientError(error: Error | string, component = 'unknown',
  */
 export function installGlobalErrorCapture() {
   if (typeof window === 'undefined') return
-  window.onerror = (message: string | Event, source?: string, lineno?: number, colno?: number, error?: Error) => {
+  window.onerror = (
+    message: string | Event,
+    source?: string,
+    lineno?: number,
+    colno?: number,
+    error?: Error,
+  ) => {
     captureClientError(
       error || new Error(String(message)),
       `window.onerror:${lineno}:${colno}`,
       source || '',
     )
   }
-  window.addEventListener('unhandledrejection', (event) => {
+  window.addEventListener('unhandledrejection', event => {
     captureClientError(
       event.reason instanceof Error ? event.reason : new Error(String(event.reason)),
       'unhandledrejection',

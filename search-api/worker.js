@@ -41,7 +41,8 @@ export default {
     // but allow * for static assets (page-search.js, cross-site-search.js)
     // since they are injected into third-party pages via script tags.
     const origin = request.headers.get('origin') || ''
-    const isWyattauOrigin = origin.endsWith('.wyattau.com') || origin === 'https://wyattsnotes.wyattau.com'
+    const isWyattauOrigin =
+      origin.endsWith('.wyattau.com') || origin === 'https://wyattsnotes.wyattau.com'
     const corsOrigin = isWyattauOrigin ? origin : '*'
     const corsHeaders = {
       'Access-Control-Allow-Origin': corsOrigin,

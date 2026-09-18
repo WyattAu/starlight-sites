@@ -16,7 +16,7 @@ const siteTitle = starlightRoute?.siteTitle || "Notes";
 // e.g. "physics/1-mechanics/1_forces-and-motion" → [{label: "Home", href: "/"}, {label: "Physics", href: "/physics/"}, {label: "Forces and Motion"}]
 function buildBreadcrumbs(id: string, siteTitle: string) {
   const parts = id.split('/').filter(Boolean);
-  const crumbs = [{ label: 'Home', href: '/' }];
+  const crumbs: Array<{ label: string; href?: string }> = [{ label: 'Home', href: '/' }];
 
   // Add site name as second breadcrumb
   const hostname = Astro.url.hostname;
@@ -27,7 +27,7 @@ function buildBreadcrumbs(id: string, siteTitle: string) {
   for (let i = 0; i < parts.length; i++) {
     path += `/${parts[i]}`;
     const isLast = i === parts.length - 1;
-    // Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
+// Convert slug to readable label: "1_forces-and-motion" → "Forces and Motion"
     const label = parts[i]
       .replace(/^\d+-/, '')        // Remove leading number prefix
       .replace(/^\d+_/, '')        // Remove leading number_ prefix

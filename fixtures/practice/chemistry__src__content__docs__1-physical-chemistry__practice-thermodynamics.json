@@ -26,12 +26,7 @@
     },
     {
       "question": "For the reaction $\\text{H}_2(g) + \\text{I}_2(g) \\rightleftharpoons 2\\text{HI}(g)$ at equilibrium with $K_p = 50.0$, if the initial partial pressures of $\\text{H}_2$ and $\\text{I}_2$ are both 0.10$ bar and no HI is present, what is the equilibrium partial pressure of HI?",
-      "options": [
-        "0.155 bar",
-        "0.100 bar",
-        "0.200 bar",
-        "0.050 bar"
-      ],
+      "options": ["0.155 bar", "0.100 bar", "0.200 bar", "0.050 bar"],
       "correctAnswer": 0,
       "explanation": "$K_p = \\frac{(p_{\\text{HI}})^2}{p_{\\text{H}*2} \\cdot p*{\\text{I}*2}} = 50.0$. Let $x$ = amount of HI formed. Then $p*{\\text{H}*2} = p*{\\text{I}*2} = 0.10 - x/2$ and $p*{\\text{HI}} = x$. So $\\frac{x^2}{(0.10-x/2)^2} = 50.0$, giving $\\frac{x}{0.10-x/2} = \\sqrt{50} \\approx 7.07$, so $x = 0.707(0.10-x/2) = 0.0707 - 0.354x$, thus $1.354x = 0.0707$, $x \\approx 0.0522$ bar. But let me re-check: $x/(0.10 - 0.5x) = 7.07$, $x = 0.707 - 3.535x$, $4.535x = 0.707$, $x = 0.156$ bar.",
       "difficulty": "hard"

@@ -7,8 +7,7 @@ const { starlightRoute } = Astro.locals
 const title = starlightRoute?.siteTitle || "Notes"
 ---
 
-<header class="header">
-  <div class="sl-flex header">
+<div class="sl-flex header-inner">
     <div class="sl-flex title-wrapper">
       <a href="/" class="site-title-logo">
         <img src="/favicon.svg" alt="Site icon" role="presentation" width="22" height="22" class="site-title-icon" loading="eager">
@@ -95,7 +94,7 @@ const title = starlightRoute?.siteTitle || "Notes"
       <slot />
     </div>
   </div>
-</header>
+</div>
 
 <script is:inline>
 (function(){

@@ -11,7 +11,7 @@
  * - Full accessibility (ARIA labels, focus management)
  */
 
-import { createSignal, createEffect, For, Show, onCleanup } from 'solid-js'
+import { createEffect, createSignal, For, onCleanup, Show } from 'solid-js'
 
 interface SearchResult {
   title: string
@@ -52,7 +52,9 @@ export default function SearchModal(props: SearchModalProps) {
     if (!q.trim()) return
     const updated = [q, ...recentSearches().filter(r => r !== q)].slice(0, MAX_RECENT)
     setRecentSearches(updated)
-    try { localStorage.setItem(RECENT_KEY, JSON.stringify(updated)) } catch {}
+    try {
+      localStorage.setItem(RECENT_KEY, JSON.stringify(updated))
+    } catch {}
   }
 
   // Debounced search
@@ -92,7 +94,7 @@ export default function SearchModal(props: SearchModalProps) {
         e.preventDefault()
         setSelectedIndex(i => Math.max(i - 1, 0))
         break
-      case 'Enter':
+      case 'Enter': {
         e.preventDefault()
         const selected = items[selectedIndex()]
         if (selected) {
@@ -101,9 +103,12 @@ export default function SearchModal(props: SearchModalProps) {
           window.location.href = selected.url
         }
         break
+      }
       case 'Escape':
         e.preventDefault()
         props.onOpenChange(false)
+        break
+      default:
         break
     }
   }
@@ -136,13 +141,24 @@ export default function SearchModal(props: SearchModalProps) {
       <div
         class="search-modal-backdrop"
         onClick={handleBackdropClick}
+        onKeyDown={e => {
+          if (e.key === 'Escape') props.onOpenChange?.(false)
+        }}
         role="dialog"
         aria-label="Search"
         aria-modal="true"
       >
         <div class="search-modal">
           <div class="search-modal-header">
-            <svg class="search-modal-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg
+              class="search-modal-icon"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
               <circle cx="11" cy="11" r="8" />
               <path d="m21 21-4.35-4.35" />
             </svg>
@@ -151,7 +167,7 @@ export default function SearchModal(props: SearchModalProps) {
               class="search-modal-input"
               placeholder="Search all sites..."
               value={query()}
-              onInput={(e) => setQuery(e.currentTarget.value)}
+              onInput={e => setQuery(e.currentTarget.value)}
               onKeyDown={handleKeyDown}
               autofocus
             />
@@ -203,8 +219,9 @@ export default function SearchModal(props: SearchModalProps) {
               <div class="search-recent">
                 <div class="search-recent-header">Recent searches</div>
                 <For each={recentSearches()}>
-                  {(recent) => (
+                  {recent => (
                     <button
+                      type="button"
                       class="search-recent-item"
                       onClick={() => setQuery(recent)}
                     >

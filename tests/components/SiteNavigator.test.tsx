@@ -1,5 +1,5 @@
-import { describe, expect, it, vi, beforeEach } from 'vitest'
-import { render, screen, fireEvent } from '@solidjs/testing-library'
+import { fireEvent, render, screen } from '@solidjs/testing-library'
+import { beforeEach, describe, expect, it, vi } from 'vitest'
 import SiteNavigator from '../../shared/components/SiteNavigator'
 
 describe('SiteNavigator', () => {
@@ -39,10 +39,10 @@ describe('SiteNavigator', () => {
 
   it('filters sites based on input', async () => {
     render(() => <SiteNavigator open={true} onOpenChange={() => {}} />)
-    
+
     const filterInput = screen.getByPlaceholderText('Filter sites...')
     fireEvent.input(filterInput, { target: { value: 'python' } })
-    
+
     // Python should be visible
     expect(screen.getByText('Python')).toBeTruthy()
   })
@@ -50,24 +50,24 @@ describe('SiteNavigator', () => {
   it('calls onOpenChange when close button clicked', () => {
     const onOpenChange = vi.fn()
     render(() => <SiteNavigator open={true} onOpenChange={onOpenChange} />)
-    
+
     const closeButton = document.querySelector('.site-nav-close')
     if (closeButton) {
       fireEvent.click(closeButton)
     }
-    
+
     expect(onOpenChange).toHaveBeenCalledWith(false)
   })
 
   it('calls onOpenChange when backdrop clicked', () => {
     const onOpenChange = vi.fn()
     render(() => <SiteNavigator open={true} onOpenChange={onOpenChange} />)
-    
+
     const backdrop = document.querySelector('.site-nav-backdrop')
     if (backdrop) {
       fireEvent.click(backdrop)
     }
-    
+
     expect(onOpenChange).toHaveBeenCalledWith(false)
   })
 })

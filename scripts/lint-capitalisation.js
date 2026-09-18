@@ -14,7 +14,7 @@ import { execSync } from 'node:child_process'
 
 const result = execSync(
   "grep -rn '\\$Then \\|\\$So \\|\\$And \\|\\$But ' sites/*/src/content/docs/ || true",
-  { encoding: 'utf-8', cwd: process.cwd() }
+  { encoding: 'utf-8', cwd: process.cwd() },
 )
 
 const matches = result.trim().split('\n').filter(Boolean)

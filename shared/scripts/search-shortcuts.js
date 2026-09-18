@@ -5,7 +5,7 @@
  * / opens search when no input is focused.
  */
 
-(function() {
+;(() => {
   function isInputFocused() {
     const el = document.activeElement
     return el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable)
@@ -16,7 +16,7 @@
     document.dispatchEvent(new CustomEvent('wn:open-search'))
   }
 
-  document.addEventListener('keydown', (e) => {
+  document.addEventListener('keydown', e => {
     // Cmd+K / Ctrl+K
     if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
       e.preventDefault()

@@ -58,12 +58,7 @@
     },
     {
       "question": "In a poem about war, the writer describes soldiers' boots as 'ground down to whispers.' What technique is being used here?",
-      "options": [
-        "Metaphor",
-        "Simile",
-        "Hyperbole",
-        "Alliteration"
-      ],
+      "options": ["Metaphor", "Simile", "Hyperbole", "Alliteration"],
       "correctAnswer": 0,
       "explanation": "The phrase describes the boots as 'whispers,' directly stating they are something else without using 'like' or 'as.' This is a metaphor, comparing the worn-down state of the boots to whispers to convey silence, exhaustion, and the wearing down of the soldiers themselves. A simile would use 'like' or 'as' for the comparison. Hyperbole is deliberate exaggeration, and alliteration is repetition of initial consonant sounds.",
       "difficulty": "hard"

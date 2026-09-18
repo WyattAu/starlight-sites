@@ -208,7 +208,7 @@ async function handleHealth(env, corsHeaders) {
 
 async function handleErrors(env, corsHeaders) {
   // Surface recent client errors from KV for dashboard visibility.
-  const keys = await env.SEARCH_KV?.list({ prefix: 'track:', limit: 100 }) || { keys: [] }
+  const keys = (await env.SEARCH_KV?.list({ prefix: 'track:', limit: 100 })) || { keys: [] }
   const errors = []
   for (const key of keys.keys) {
     if (!key.name.includes('client_error')) continue

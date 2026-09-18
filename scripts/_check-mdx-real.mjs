@@ -1,6 +1,7 @@
 // Replicates the Astro MDX pipeline: mdx() integration receives remarkMath.
+
+import { readFileSync } from 'node:fs'
 import { compile } from '../node_modules/.bun/@astrojs+mdx@6.0.3+ea99d0d19699dbc0/node_modules/@mdx-js/mdx/index.js'
-import { readFileSync } from 'fs'
 
 const file = process.argv[2]
 const src = readFileSync(file, 'utf8')

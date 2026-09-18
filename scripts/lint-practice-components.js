@@ -45,7 +45,7 @@ function lintLine(line) {
   const hits = []
   for (const [ruleId, re] of RULES) {
     // Fresh regex per call so lastIndex state never leaks across calls.
-    const fresh = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g')
+    const fresh = new RegExp(re.source, re.flags.includes('g') ? re.flags : `${re.flags}g`)
     if (fresh.test(line)) hits.push(ruleId)
   }
   return hits
@@ -54,9 +54,9 @@ function lintLine(line) {
 function lintContent(content) {
   const violations = []
   content.split('\n').forEach((line, idx) => {
-    for (const [ruleId, description] of lintLine(line).map((id) => [
+    for (const [ruleId, description] of lintLine(line).map(id => [
       id,
-      RULES.find((r) => r[0] === id)[2],
+      RULES.find(r => r[0] === id)[2],
     ])) {
       violations.push({ line: idx + 1, ruleId, description })
     }
@@ -94,9 +94,7 @@ function main() {
     const content = fs.readFileSync(file, 'utf-8')
     for (const v of lintContent(content)) {
       total++
-      console.log(
-        `  ${path.relative(ROOT, file)}:${v.line}  [${v.ruleId}] ${v.description}`,
-      )
+      console.log(`  ${path.relative(ROOT, file)}:${v.line}  [${v.ruleId}] ${v.description}`)
     }
   }
   if (total > 0) {

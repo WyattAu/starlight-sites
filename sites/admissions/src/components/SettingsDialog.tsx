@@ -1,7 +1,7 @@
 import * as RadioGroup from '@kobalte/core/radio-group'
 import * as Slider from '@kobalte/core/slider'
 import * as Switch from '@kobalte/core/switch'
-import { createEffect, createSignal, onCleanup, type JSX } from 'solid-js'
+import { createEffect, createSignal, type JSX, onCleanup } from 'solid-js'
 import { t } from '../i18n/config'
 import BaseDialog from './BaseDialog'
 
@@ -87,7 +87,10 @@ export default function SettingsDialog(props: SettingsDialogProps) {
     html.style.setProperty('--wn-font-size-scale', String(fs))
     html.style.setProperty('--wn-line-height', lh)
     html.style.setProperty('--wn-content-width', cw)
-    html.style.setProperty('--wn-font-body', FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans ?? 'sans-serif')
+    html.style.setProperty(
+      '--wn-font-body',
+      FONT_FAMILY_MAP[ff] ?? FONT_FAMILY_MAP.sans ?? 'sans-serif',
+    )
     html.setAttribute('data-justify', String(j))
     html.setAttribute('data-reduce-motion', String(rm))
     html.style.setProperty('--wn-font-weight', fw)

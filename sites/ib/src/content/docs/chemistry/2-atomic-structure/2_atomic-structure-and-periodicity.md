@@ -1480,9 +1480,10 @@ $\mathrm{Fe}^{3+}$ is $[\mathrm{Ar}]\, 3d^5$Not $[\mathrm{Ar}]\, 4s^2\, 3d^3$.
 Do not confuse atomic radius trends with ionic radius trends. When comparing ionic radii within an
 Isoelectronic series, the ion with the largest nuclear charge has the smallest radius. For example,
 $\mathrm{Na}^+$ is smaller than $\mathrm{F}^-$ even though $\mathrm{Na}$ has a larger atomic radius
-Than $\mathrm{F}$.
+than $\mathrm{F}$.
+:::
 
-:::danger
+:::danger[Common confusions]
 - **Confusing first ionisation energy with electronegativity:** First ionisation energy is the
   energy required to REMOVE the outermost electron from a gaseous atom. Electronegativity is the
   ability of an atom to ATTRACT electrons in a covalent bond. Both generally increase across a
@@ -1493,6 +1494,7 @@ Than $\mathrm{F}$.
   down a group because the outermost electron is in a higher energy shell, FURTHER from the nucleus
   and more shielded by inner electrons. The increased distance and shielding outweigh the increased
   nuclear charge. Students often mention only one factor when both are needed.
+:::
 
 - **Confusing periodic trends across a period:** Across a period, atomic radius DECREASES
   (increasing nuclear charge pulls electrons closer), first ionisation energy generally INCREASES,

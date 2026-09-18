@@ -721,14 +721,16 @@
     try {
       for (var i = 0; i < localStorage.length; i++) {
         var key = localStorage.key(i)
-        if (!key || key.indexOf(SPACED_REP_PREFIX) !== 0) continue
+        if (key?.indexOf(SPACED_REP_PREFIX) !== 0) continue
         var data = JSON.parse(localStorage.getItem(key) || '{}')
         var states = data.cardStates || {}
         for (var id in states) {
           if (states[id] && states[id].nextReview <= Date.now()) due++
         }
       }
-    } catch (e) { /* non-fatal */ }
+    } catch (e) {
+      /* non-fatal */
+    }
     return due
   }
 
@@ -739,23 +741,25 @@
         var key = localStorage.key(i)
         if (key && key.indexOf(PRACTICE_PREFIX) === 0) n++
       }
-    } catch (e) { /* non-fatal */ }
+    } catch (e) {
+      /* non-fatal */
+    }
     return n
   }
 
   function buildProgressStat(kind, label, clickable) {
     var stat = el('div', {
-      id: 'wn-progress-stat-' + kind,
+      id: `wn-progress-stat-${kind}`,
       class: clickable ? 'clickable' : '',
     })
     if (clickable) {
       stat.setAttribute('role', 'button')
       stat.setAttribute('tabindex', '0')
-      var open = function () {
+      var open = () => {
         document.dispatchEvent(new CustomEvent('wn:open-review'))
       }
       stat.addEventListener('click', open)
-      stat.addEventListener('keydown', function (e) {
+      stat.addEventListener('keydown', e => {
         if (e.key === 'Enter' || e.key === ' ') open()
       })
     }
@@ -773,7 +777,7 @@
       var dates = JSON.parse(localStorage.getItem('wn-streak') || '[]')
       var uniq = Array.from(new Set(dates)).sort().reverse()
       if (uniq.length === 0) return 0
-      var fmt = function (d) { return d.toISOString().slice(0, 10) }
+      var fmt = d => d.toISOString().slice(0, 10)
       var today = new Date()
       var yesterday = new Date(Date.now() - 86400000)
       var anchor = null
@@ -800,10 +804,12 @@
     var streakDates = []
     try {
       streakDates = JSON.parse(localStorage.getItem('wn-streak') || '[]')
-    } catch (e) { streakDates = [] }
+    } catch (e) {
+      streakDates = []
+    }
     var dueCount = countDueCards()
     var practiced = countPracticedTopics()
-    var setVal = function (elm, v) {
+    var setVal = (elm, v) => {
       var span = elm.querySelector('.stat-value')
       if (span) span.textContent = String(v)
     }
@@ -811,7 +817,8 @@
     setVal(streakEl, streakDays())
     setVal(topics, practiced)
     var group = document.getElementById('wn-progress-group')
-    if (group) group.style.display = (dueCount > 0 || practiced > 0 || streakDates.length > 0) ? '' : 'none'
+    if (group)
+      group.style.display = dueCount > 0 || practiced > 0 || streakDates.length > 0 ? '' : 'none'
   }
 
   function trackRecentTopic() {
@@ -822,11 +829,15 @@
       var list = []
       try {
         list = JSON.parse(localStorage.getItem(RECENT_TOPICS_KEY) || '[]')
-      } catch (e) { list = [] }
-      list = list.filter(function (t) { return t && t.p !== path })
+      } catch (e) {
+        list = []
+      }
+      list = list.filter(t => t && t.p !== path)
       list.unshift({ p: path, t: title, ts: Date.now() })
       localStorage.setItem(RECENT_TOPICS_KEY, JSON.stringify(list.slice(0, 8)))
-    } catch (e) { /* non-fatal */ }
+    } catch (e) {
+      /* non-fatal */
+    }
   }
 
   function tierForPath(path) {
@@ -834,7 +845,7 @@
       var raw = localStorage.getItem(PRACTICE_PREFIX + path)
       if (!raw) return null
       var s = JSON.parse(raw)
-      if (!s || !s.attempts) return null
+      if (!s?.attempts) return null
       var acc = s.correct / s.attempts
       if (acc < 0.6) return 1
       if (s.attempts >= 5 && acc >= 0.9) return 4
@@ -847,7 +858,7 @@
 
   function decorateSidebar() {
     var links = document.querySelectorAll('#starlight__sidebar a[href], .sidebar-content a[href]')
-    links.forEach(function (a) {
+    links.forEach(a => {
       var existing = a.querySelector('.wn-mastery-dot')
       var href = a.getAttribute('href') || ''
       var tier = tierForPath(href)

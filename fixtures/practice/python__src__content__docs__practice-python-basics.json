@@ -2,36 +2,21 @@
   "questions": [
     {
       "question": "What is the output of `type([1, 2, 3]) == type((1, 2, 3))`?",
-      "options": [
-        "False",
-        "True",
-        "TypeError",
-        "SyntaxError"
-      ],
+      "options": ["False", "True", "TypeError", "SyntaxError"],
       "correctAnswer": 0,
       "explanation": "`type([1, 2, 3])` is `<class 'list'>` and `type((1, 2, 3))` is `<class 'tuple'>`. These are different types, so `==` returns `False`. Lists use square brackets and tuples use parentheses.",
       "difficulty": "medium"
     },
     {
       "question": "Which of the following is a mutable built-in type in Python?",
-      "options": [
-        "str",
-        "list",
-        "int",
-        "tuple"
-      ],
+      "options": ["str", "list", "int", "tuple"],
       "correctAnswer": 1,
       "explanation": "Lists are mutable -- you can append, remove, or modify elements in place. Strings, integers, and tuples are all immutable: any operation that appears to modify them actually creates a new object.",
       "difficulty": "medium"
     },
     {
       "question": "What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?",
-      "options": [
-        "[1], [2]",
-        "[1, 2]",
-        "[2]",
-        "TypeError"
-      ],
+      "options": ["[1], [2]", "[1, 2]", "[2]", "TypeError"],
       "correctAnswer": 1,
       "explanation": "Mutable default arguments are evaluated once at function definition time and shared across all calls. After `f(1)`, `b` is `[1]`. After `f(2)`, `b` is `[1, 2]`. The function returns `[1, 2]` on the second call. Use `None` as the default and create the list inside the function body to avoid this.",
       "difficulty": "medium"
@@ -50,12 +35,7 @@
     },
     {
       "question": "Given `class A: x = 1` and `class B(A): pass`, what does `B.x` return?",
-      "options": [
-        "AttributeError",
-        "None",
-        "1",
-        "0"
-      ],
+      "options": ["AttributeError", "None", "1", "0"],
       "correctAnswer": 2,
       "explanation": "Class attributes are inherited. `B.x` is not found in `B`'s namespace, so Python looks up the MRO and finds `x = 1` in `A`. Assigning `B.x = 2` afterwards would shadow the inherited attribute without modifying `A.x`.",
       "difficulty": "medium"

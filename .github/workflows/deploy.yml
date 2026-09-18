@@ -29,10 +29,14 @@ jobs:
     timeout-minutes: 3
     outputs:
       canary: ${{ steps.sites.outputs.canary }}
-      rollout: ${{ steps.sites.outputs.rollout }}
+      rollout: ${{ steps.filter.outputs.rollout }}
       all: ${{ steps.sites.outputs.all }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history so changed-site detection can diff against the
+          # last-good-deploy tag.
+          fetch-depth: 0
 
       - name: Derive canary and rollout matrices from sites/ directory
         id: sites
@@ -40,6 +44,52 @@ jobs:
           echo "canary=$(node scripts/list-sites.js --canary-matrix)" >> "$GITHUB_OUTPUT"
           echo "rollout=$(node scripts/list-sites.js --rollout-matrix)" >> "$GITHUB_OUTPUT"
           echo "all=$(node scripts/list-sites.js --all)" >> "$GITHUB_OUTPUT"
+
+      - name: Detect sites changed since last good deploy
+        id: changed
+        run: |
+          # Compare against the last successfully deployed commit so a
+          # sequence of pushes each only rebuilds what is still stale.
+          BASE="refs/remotes/origin/last-good-deploy"
+          if git rev-parse --verify --quiet "$BASE" > /dev/null 2>&1; then
+            BASE=$(git rev-parse "$BASE")
+          elif [ -n "${{ github.event.before }}" ]; then
+            BASE="${{ github.event.before }}"
+          else
+            BASE=""
+          fi
+
+          if [ -z "$BASE" ] || ! git cat-file -e "$BASE" 2>/dev/null; then
+            echo "No comparison base -- deploying everything."
+            echo "force=true" >> "$GITHUB_OUTPUT"
+            echo "slugs=[]" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          git diff --name-only "$BASE" "${{ github.sha }}" -- sites/ shared/ scripts/ search-api/ fixtures/ package.json bun.lock .github/workflows/deploy.yml > /tmp/changed-paths.txt || true
+          echo "Changed paths: $(wc -l < /tmp/changed-paths.txt)"
+          node scripts/list-sites.js --changed-from-file /tmp/changed-paths.txt > /tmp/changed-sites.json
+          cat /tmp/changed-sites.json
+          echo "force=$(node -e "console.log(JSON.parse(require('fs').readFileSync('/tmp/changed-sites.json','utf8')).force)")" >> "$GITHUB_OUTPUT"
+          echo "slugs=$(node -e "console.log(JSON.stringify(JSON.parse(require('fs').readFileSync('/tmp/changed-sites.json','utf8')).slugs))")" >> "$GITHUB_OUTPUT"
+
+      - name: Filter rollout matrix to changed sites
+        id: filter
+        env:
+          FORCE: ${{ steps.changed.outputs.force }}
+          SLUGS: ${{ steps.changed.outputs.slugs }}
+        run: |
+          # Force (shared/infra change, first deploy, unknown base) keeps the
+          # full rollout; otherwise only changed sites are rebuilt. The two
+          # canary sites always run their own wave regardless.
+          node -e "
+            const rollout = $(node scripts/list-sites.js --rollout-matrix);
+            const slugs = new Set(JSON.parse(process.env.SLUGS || '[]'));
+            const force = process.env.FORCE === 'true';
+            const filtered = force ? rollout : rollout.filter(s => slugs.has(s.site));
+            require('fs').writeFileSync(process.env.GITHUB_OUTPUT, 'rollout=' + JSON.stringify(filtered) + '\n');
+            console.log('rollout sites: ' + filtered.length + ' of ' + rollout.length);
+          "
 
   # Gate: production deployments must not proceed unless the full quality
   # suite (lint + no-emoji + sync integrity + tests) passes.
@@ -66,8 +116,23 @@ jobs:
       - name: No-emoji lint
         run: node scripts/lint-no-emoji.js
 
+      - name: Biome lint and format check
+        run: bunx biome check .
+
+      - name: Aside directive lint
+        run: node scripts/lint-asides.js
+
+      - name: MDX parse gate
+        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
+
       - name: PracticeProblem corruption lint
         run: node scripts/lint-practice-components.js
+
+      - name: Aside directive lint
+        run: node scripts/lint-asides.js
+
+      - name: MDX parse gate
+        run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
       - name: Content validation
         run: node scripts/lint-content.js
@@ -257,6 +322,29 @@ jobs:
           echo "::warning::Site $url did not return 200 within 5 minutes (last status: $status)"
           echo "This is expected for new sites — custom domain may need Cloudflare Dashboard config."
 
+      - name: Verify deployment freshness (content nonce)
+        # A 200 on the site URL can be served by a stale production build.
+        # A content-hashed asset from THIS build's dist can only exist on
+        # the new deployment -- 404 means the deploy did not promote.
+        run: |
+          asset=$(grep -oE '/_astro/[A-Za-z0-9._-]+\.(css|js)' sites/${{ matrix.site }}/dist/index.html | head -1)
+          if [ -z "$asset" ]; then
+            echo "::warning::No hashed asset found in dist/index.html -- skipping freshness check"
+            exit 0
+          fi
+          deadline=$(( $(date +%s) + 240 ))
+          code="000"
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
+            [ "$code" = "200" ] && break
+            sleep 15
+          done
+          if [ "$code" != "200" ]; then
+            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
+            exit 1
+          fi
+          echo "Freshness verified: $asset -> 200"
+
       - name: Summary
         if: always()
         run: |
@@ -383,6 +471,29 @@ jobs:
           done
           echo "::warning::Site $url did not return 200 within 5 minutes (last status: $status)"
           echo "This is expected for new sites — custom domain may need Cloudflare Dashboard config."
+
+      - name: Verify deployment freshness (content nonce)
+        # A 200 on the site URL can be served by a stale production build.
+        # A content-hashed asset from THIS build's dist can only exist on
+        # the new deployment -- 404 means the deploy did not promote.
+        run: |
+          asset=$(grep -oE '/_astro/[A-Za-z0-9._-]+\.(css|js)' sites/${{ matrix.site }}/dist/index.html | head -1)
+          if [ -z "$asset" ]; then
+            echo "::warning::No hashed asset found in dist/index.html -- skipping freshness check"
+            exit 0
+          fi
+          deadline=$(( $(date +%s) + 240 ))
+          code="000"
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "${{ matrix.url }}$asset" 2>/dev/null || echo "000")
+            [ "$code" = "200" ] && break
+            sleep 15
+          done
+          if [ "$code" != "200" ]; then
+            echo "::error::Freshness check failed: $asset -> $code (stale deployment?)"
+            exit 1
+          fi
+          echo "Freshness verified: $asset -> 200"
 
       - name: Summary
         if: always()

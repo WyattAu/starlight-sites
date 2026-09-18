@@ -5,10 +5,21 @@
  * Uses axe-core for automated accessibility testing.
  */
 
-import { test, expect } from '@playwright/test'
 import AxeBuilder from '@axe-core/playwright'
+import { expect, test } from '@playwright/test'
 
-const THEMES = ['dark', 'light', 'sepia', 'contrast', 'nord', 'dracula', 'solarized', 'monokai', 'ayu-mirage', 'papercolor']
+const THEMES = [
+  'dark',
+  'light',
+  'sepia',
+  'contrast',
+  'nord',
+  'dracula',
+  'solarized',
+  'monokai',
+  'ayu-mirage',
+  'papercolor',
+]
 
 const TEST_PAGES = [
   { name: 'physics', url: 'https://physics.wyattau.com/' },
@@ -26,7 +37,7 @@ for (const page of TEST_PAGES) {
         await page.waitForLoadState('networkidle')
 
         // Set theme
-        await page.evaluate((t) => {
+        await page.evaluate(t => {
           document.documentElement.setAttribute('data-theme', t)
         }, theme)
 
@@ -40,11 +51,7 @@ for (const page of TEST_PAGES) {
 
         // Log violations for debugging
         if (results.violations.length > 0) {
-          console.log(`\n=== ${page.name} (${theme}) violations ===`)
-          for (const violation of results.violations) {
-            console.log(`  ${violation.id}: ${violation.description}`)
-            console.log(`    Impact: ${violation.impact}`)
-            console.log(`    Nodes: ${violation.nodes.length}`)
+          for (const _violation of results.violations) {
           }
         }
 

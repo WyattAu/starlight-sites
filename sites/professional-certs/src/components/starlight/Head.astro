@@ -1,9 +1,9 @@
 ---
 import ClientRouter from "astro/components/ClientRouter.astro"
-import JsonLd from './JsonLd.astro'
-import SiteNavigator from './SiteNavigator.astro'
-import ServiceWorker from './ServiceWorker.astro'
 import ErrorCapture from './ErrorCapture.astro'
+import JsonLd from './JsonLd.astro'
+import ServiceWorker from './ServiceWorker.astro'
+import SiteNavigator from './SiteNavigator.astro'
 
 const { starlightRoute } = Astro.locals;
 const { entry, head, id } = starlightRoute;
@@ -18,9 +18,16 @@ const pageUrl = Astro.url.href;
 // Get the current date for schema fallback
 const currentDate = new Date().toISOString();
 
-// Use frontmatter dates if available, otherwise fallback to current date
-const datePublished = entry?.data?.datePublished || entry?.data?.date || currentDate;
-const dateModified = entry?.data?.dateModified || entry?.data?.date || currentDate;
+// Use frontmatter dates if available, otherwise fallback to current date.
+// `date`/`datePublished`/`dateModified` are content frontmatter fields not
+// present in Starlight's generated entry type, hence the narrow cast.
+const frontmatterDates = entry?.data as {
+  datePublished?: string
+  dateModified?: string
+  date?: string
+}
+const datePublished = frontmatterDates.datePublished || frontmatterDates.date || currentDate;
+const dateModified = frontmatterDates.dateModified || frontmatterDates.date || currentDate;
 
 // Determine the site name from the URL
 const urlParts = new URL(pageUrl).hostname.split('.');

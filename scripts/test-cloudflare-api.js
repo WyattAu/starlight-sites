@@ -16,13 +16,15 @@ async function testAPI() {
     const resp = await fetch(
       `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/storage/kv/namespaces`,
       {
-        headers: { Authorization: `Bearer ${CF_API_TOKEN}` }
-      }
+        headers: { Authorization: `Bearer ${CF_API_TOKEN}` },
+      },
     )
     const data = await resp.json()
     if (data.success) {
       console.log('API access OK. KV namespaces:', data.result?.length || 0)
-      data.result?.forEach(ns => console.log(`  ${ns.id} - ${ns.title}`))
+      data.result?.forEach(ns => {
+        console.log(`  ${ns.id} - ${ns.title}`)
+      })
     } else {
       console.log('API error:', JSON.stringify(data.errors))
     }

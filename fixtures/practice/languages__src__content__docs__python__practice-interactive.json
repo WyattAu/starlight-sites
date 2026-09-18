@@ -2,72 +2,42 @@
   "questions": [
     {
       "question": "What does `list(map(lambda x: x",
-      "options": [
-        "[1, 4, 9, 16, 25]",
-        "[0, 1, 4, 9, 16]",
-        "[0, 2, 4, 6, 8]",
-        "[1, 2, 3, 4, 5]"
-      ],
+      "options": ["[1, 4, 9, 16, 25]", "[0, 1, 4, 9, 16]", "[0, 2, 4, 6, 8]", "[1, 2, 3, 4, 5]"],
       "correctAnswer": 1,
       "explanation": "range(5) produces [0, 1, 2, 3, 4]. Mapping x² gives [0, 1, 4, 9, 16].\"",
       "difficulty": "easy"
     },
     {
       "question": "What is the time complexity of checking membership (`x in lst`) in a Python list?",
-      "options": [
-        "O(1)",
-        "O(log n)",
-        "O(n)",
-        "O(n log n)"
-      ],
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
       "correctAnswer": 2,
       "explanation": "Lists use a linear search for membership tests, which is O(n). For O(1) lookups, use a set or dict.\"",
       "difficulty": "medium"
     },
     {
       "question": "What does `{'a': 1, 'b': 2}.get('c', 3)` return?",
-      "options": [
-        "None",
-        "KeyError",
-        "3",
-        "False"
-      ],
+      "options": ["None", "KeyError", "3", "False"],
       "correctAnswer": 2,
       "explanation": "dict.get(key, default) returns the default value (3) when the key ('c') is not found.\"",
       "difficulty": "medium"
     },
     {
       "question": "What is printed by `print([x for x in range(10) if x % 3 == 0])`?",
-      "options": [
-        "[3, 6, 9]",
-        "[1, 2, 3, 4, 5, 6]",
-        "[0, 3, 6, 9]",
-        "[0, 1, 2, 3]"
-      ],
+      "options": ["[3, 6, 9]", "[1, 2, 3, 4, 5, 6]", "[0, 3, 6, 9]", "[0, 1, 2, 3]"],
       "correctAnswer": 2,
       "explanation": "The list comprehension filters for numbers divisible by 3: 0, 3, 6, 9.\"",
       "difficulty": "easy"
     },
     {
       "question": "What does `def f(a, b=[]): b.append(a); return b` return when called as `f(1); f(2)`?",
-      "options": [
-        "[1], [2]",
-        "[1, 2]",
-        "[1, 2], [1, 2]",
-        "TypeError"
-      ],
+      "options": ["[1], [2]", "[1, 2]", "[1, 2], [1, 2]", "TypeError"],
       "correctAnswer": 1,
       "explanation": "Mutable default arguments are shared across calls. After f(1), b = [1]. After f(2), b = [1, 2]. This is a common Python gotcha.\"",
       "difficulty": "medium"
     },
     {
       "question": "Which sorting algorithm does Python's built-in `sorted()` use?",
-      "options": [
-        "Quicksort",
-        "Merge sort (Timsort)",
-        "Heap sort",
-        "Bubble sort"
-      ],
+      "options": ["Quicksort", "Merge sort (Timsort)", "Heap sort", "Bubble sort"],
       "correctAnswer": 1,
       "explanation": "Python uses Timsort, a hybrid of merge sort and insertion sort. It is stable and has O(n log n) worst-case time complexity.\"",
       "difficulty": "medium"
@@ -98,12 +68,7 @@
     },
     {
       "question": "What is the output of `[i * j for i in range(3) for j in range(3) if i != j]`?",
-      "options": [
-        "[2, 6]",
-        "[0, 0, 2, 0, 6]",
-        "[0, 2, 0, 6]",
-        "IndexError"
-      ],
+      "options": ["[2, 6]", "[0, 0, 2, 0, 6]", "[0, 2, 0, 6]", "IndexError"],
       "correctAnswer": 1,
       "explanation": "The nested comprehension iterates all pairs (i,j) from 0-2, filters out i==j, and multiplies the remaining pairs: 0*1=0, 0*2=0, 1*0=0, 1*2=2, 2*0=0, 2*1=2. Result: [0, 0, 2, 0, 6].\"",
       "difficulty": "medium"

@@ -140,7 +140,7 @@ function canarySites() {
     'tools', // KaTeX/mermaid remark pipeline variant
   ]
   const dirs = new Set(siteDirs())
-  const ghosts = subset.filter((s) => !dirs.has(s))
+  const ghosts = subset.filter(s => !dirs.has(s))
   if (ghosts.length > 0) {
     throw new Error(`canary subset references non-existent sites: ${ghosts.join(', ')}`)
   }
@@ -153,7 +153,7 @@ function canarySites() {
  */
 function rolloutSites() {
   const canary = new Set(canarySites())
-  return astroSites().filter((s) => !canary.has(s))
+  return astroSites().filter(s => !canary.has(s))
 }
 
 module.exports = {

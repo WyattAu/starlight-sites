@@ -42,7 +42,7 @@ describe('JSON-LD SEO/E-E-A-T generators', () => {
   })
 
   describe('generateOrganizationSchema', () => {
-    it('defaults to Wyatt\'s Notes identity', () => {
+    it("defaults to Wyatt's Notes identity", () => {
       const schema = generateOrganizationSchema()
       expect(schema['@type']).toBe('Organization')
       expect(schema.name).toBe("Wyatt's Notes")

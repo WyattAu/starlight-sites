@@ -1,8 +1,8 @@
 import { fireEvent, render, screen, waitFor } from '@solidjs/testing-library'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import ReviewQueue from '../../shared/components/ReviewQueue'
 import type { Flashcard } from '../../shared/components/FlashcardDeck'
 import { createDefaultState } from '../../shared/components/flashcard/sm2'
+import ReviewQueue from '../../shared/components/ReviewQueue'
 
 // Mock localStorage
 const localStorageMock = (() => {
@@ -55,10 +55,7 @@ describe('ReviewQueue', () => {
 
   it('shows the due count and an enabled start button when cards are due', () => {
     // Fresh default states have nextReview in the past, so all cards are due.
-    localStorage.setItem(
-      'wyattsnotes-spaced-rep-maths',
-      JSON.stringify(deckData(['c1', 'c2'])),
-    )
+    localStorage.setItem('wyattsnotes-spaced-rep-maths', JSON.stringify(deckData(['c1', 'c2'])))
     renderQueue([{ deckId: 'maths', cards: [card('c1', 'Q1'), card('c2', 'Q2')] }])
     expect(screen.getByText('2')).toBeTruthy()
     const start = screen.getByRole('button', { name: /start/i })
@@ -76,10 +73,7 @@ describe('ReviewQueue', () => {
   })
 
   it('reviews a card, persists the SM-2 update, and advances', async () => {
-    localStorage.setItem(
-      'wyattsnotes-spaced-rep-maths',
-      JSON.stringify(deckData(['c1', 'c2'])),
-    )
+    localStorage.setItem('wyattsnotes-spaced-rep-maths', JSON.stringify(deckData(['c1', 'c2'])))
     renderQueue([{ deckId: 'maths', cards: [card('c1', 'Q1'), card('c2', 'Q2')] }])
 
     fireEvent.click(screen.getByRole('button', { name: /start/i }))

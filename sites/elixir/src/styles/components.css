@@ -298,10 +298,18 @@
   color: inherit;
 }
 
-[data-theme="sepia"] .katex { color: #5b4636; }
-[data-theme="light"] .katex { color: #1a1a1a; }
-[data-theme="solarized"] .katex { color: #657b83; }
-[data-theme="papercolor"] .katex { color: #444444; }
+[data-theme="sepia"] .katex {
+  color: #5b4636;
+}
+[data-theme="light"] .katex {
+  color: #1a1a1a;
+}
+[data-theme="solarized"] .katex {
+  color: #657b83;
+}
+[data-theme="papercolor"] .katex {
+  color: #444444;
+}
 
 /* Image dimming */
 [data-theme="dark"] .sl-markdown-content img:not([src*=".svg"]),
@@ -327,47 +335,141 @@
 }
 
 /* Reader panel per theme */
-[data-theme="sepia"] #wn-panel { background: #fef7e8; border-color: #e8dcc8; }
-[data-theme="sepia"] #wn-panel-header { border-color: #e8dcc8; }
-[data-theme="sepia"] .wn-chip { border-color: #d8ccb8; color: #8b7355; }
-[data-theme="sepia"] .wn-chip.active { background: #c97b3a; color: white; }
+[data-theme="sepia"] #wn-panel {
+  background: #fef7e8;
+  border-color: #e8dcc8;
+}
+[data-theme="sepia"] #wn-panel-header {
+  border-color: #e8dcc8;
+}
+[data-theme="sepia"] .wn-chip {
+  border-color: #d8ccb8;
+  color: #8b7355;
+}
+[data-theme="sepia"] .wn-chip.active {
+  background: #c97b3a;
+  color: white;
+}
 
-[data-theme="contrast"] #wn-panel { background: #000; border-color: #fff; }
-[data-theme="contrast"] .wn-chip { border-color: #fff; color: #fff; }
-[data-theme="contrast"] .wn-chip.active { background: #fff; color: #000; }
+[data-theme="contrast"] #wn-panel {
+  background: #000;
+  border-color: #fff;
+}
+[data-theme="contrast"] .wn-chip {
+  border-color: #fff;
+  color: #fff;
+}
+[data-theme="contrast"] .wn-chip.active {
+  background: #fff;
+  color: #000;
+}
 
-[data-theme="solarized"] #wn-panel { background: #eee8d5; border-color: #93a1a1; }
-[data-theme="solarized"] .wn-chip { border-color: #b8b8a0; color: #657b83; }
-[data-theme="solarized"] .wn-chip.active { background: #268bd2; color: white; }
+[data-theme="solarized"] #wn-panel {
+  background: #eee8d5;
+  border-color: #93a1a1;
+}
+[data-theme="solarized"] .wn-chip {
+  border-color: #b8b8a0;
+  color: #657b83;
+}
+[data-theme="solarized"] .wn-chip.active {
+  background: #268bd2;
+  color: white;
+}
 
-[data-theme="nord"] #wn-panel { background: #3b4252; border-color: #4c566a; }
-[data-theme="nord"] .wn-chip { border-color: #4c566a; color: #d8dee9; }
-[data-theme="nord"] .wn-chip.active { background: #88c0d0; color: #2e3440; }
+[data-theme="nord"] #wn-panel {
+  background: #3b4252;
+  border-color: #4c566a;
+}
+[data-theme="nord"] .wn-chip {
+  border-color: #4c566a;
+  color: #d8dee9;
+}
+[data-theme="nord"] .wn-chip.active {
+  background: #88c0d0;
+  color: #2e3440;
+}
 
-[data-theme="dracula"] #wn-panel { background: #44475a; border-color: #6272a4; }
-[data-theme="dracula"] .wn-chip { border-color: #6272a4; color: #f8f8f2; }
-[data-theme="dracula"] .wn-chip.active { background: #bd93f9; color: #282a36; }
+[data-theme="dracula"] #wn-panel {
+  background: #44475a;
+  border-color: #6272a4;
+}
+[data-theme="dracula"] .wn-chip {
+  border-color: #6272a4;
+  color: #f8f8f2;
+}
+[data-theme="dracula"] .wn-chip.active {
+  background: #bd93f9;
+  color: #282a36;
+}
 
-[data-theme="monokai"] #wn-panel { background: #383830; border-color: #49483e; }
-[data-theme="monokai"] .wn-chip { border-color: #49483e; color: #f8f8f2; }
-[data-theme="monokai"] .wn-chip.active { background: #a6e22e; color: #272822; }
+[data-theme="monokai"] #wn-panel {
+  background: #383830;
+  border-color: #49483e;
+}
+[data-theme="monokai"] .wn-chip {
+  border-color: #49483e;
+  color: #f8f8f2;
+}
+[data-theme="monokai"] .wn-chip.active {
+  background: #a6e22e;
+  color: #272822;
+}
 
-[data-theme="ayu-mirage"] #wn-panel { background: #2a3040; border-color: #3a4150; }
-[data-theme="ayu-mirage"] .wn-chip { border-color: #3a4150; color: #d4d4d4; }
-[data-theme="ayu-mirage"] .wn-chip.active { background: #ffcc66; color: #1f2430; }
+[data-theme="ayu-mirage"] #wn-panel {
+  background: #2a3040;
+  border-color: #3a4150;
+}
+[data-theme="ayu-mirage"] .wn-chip {
+  border-color: #3a4150;
+  color: #d4d4d4;
+}
+[data-theme="ayu-mirage"] .wn-chip.active {
+  background: #ffcc66;
+  color: #1f2430;
+}
 
-[data-theme="dark"] #wn-panel { background: #12121a; border-color: #2a2a3a; }
-[data-theme="dark"] .wn-chip { border-color: #2a2a3a; color: #e8e8ed; }
-[data-theme="dark"] .wn-chip.active { background: #ff8c4a; color: #0a0a0f; }
+[data-theme="dark"] #wn-panel {
+  background: #12121a;
+  border-color: #2a2a3a;
+}
+[data-theme="dark"] .wn-chip {
+  border-color: #2a2a3a;
+  color: #e8e8ed;
+}
+[data-theme="dark"] .wn-chip.active {
+  background: #ff8c4a;
+  color: #0a0a0f;
+}
 
-[data-theme="light"] #wn-panel { background: #ffffff; border-color: #ddd8d0; }
-[data-theme="light"] .wn-chip { border-color: #ddd8d0; color: #1a1a1a; }
-[data-theme="light"] .wn-chip.active { background: #ff6b35; color: #ffffff; }
+[data-theme="light"] #wn-panel {
+  background: #ffffff;
+  border-color: #ddd8d0;
+}
+[data-theme="light"] .wn-chip {
+  border-color: #ddd8d0;
+  color: #1a1a1a;
+}
+[data-theme="light"] .wn-chip.active {
+  background: #ff6b35;
+  color: #ffffff;
+}
 
-[data-theme="papercolor"] #wn-panel { background: #ffffff; border-color: #d0d0d0; }
-[data-theme="papercolor"] #wn-panel-header { border-color: #d0d0d0; }
-[data-theme="papercolor"] .wn-chip { border-color: #a0a0a0; color: #666666; }
-[data-theme="papercolor"] .wn-chip.active { background: #005f87; color: white; }
+[data-theme="papercolor"] #wn-panel {
+  background: #ffffff;
+  border-color: #d0d0d0;
+}
+[data-theme="papercolor"] #wn-panel-header {
+  border-color: #d0d0d0;
+}
+[data-theme="papercolor"] .wn-chip {
+  border-color: #a0a0a0;
+  color: #666666;
+}
+[data-theme="papercolor"] .wn-chip.active {
+  background: #005f87;
+  color: white;
+}
 
 /* Hide Starlight's built-in theme toggle */
 starlight-theme-select,
@@ -483,7 +585,7 @@ header starlight-theme-select,
 }
 
 .skeleton-pulse::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: linear-gradient(90deg, transparent, var(--wn-skeleton-shine), transparent);
@@ -491,8 +593,12 @@ header starlight-theme-select,
 }
 
 @keyframes skeleton-shimmer {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 /* Search results */
@@ -558,7 +664,7 @@ header starlight-theme-select,
 }
 .search-empty-hint {
   font-size: 0.85rem;
-  margin-top: 0.5rem !important;
+  margin-top: 0.5rem;
 }
 
 /* Recent searches */

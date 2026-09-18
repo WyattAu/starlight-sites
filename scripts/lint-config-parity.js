@@ -35,7 +35,10 @@ const REQUIRED_HEAD = [
   { needle: "name: 'theme-color'", label: 'theme-color meta' },
   { needle: '/fonts/Inter-latin.woff2', label: 'Inter font preload' },
   { needle: '/fonts/JetBrainsMono-latin.woff2', label: 'JetBrainsMono font preload' },
-  { needle: "rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net'", label: 'jsDelivr dns-prefetch' },
+  {
+    needle: "rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net'",
+    label: 'jsDelivr dns-prefetch',
+  },
   { needle: 'katex.min.css', label: 'KaTeX stylesheet' },
   { needle: "src: '/cross-site-search.js'", label: 'cross-site search script' },
   { needle: "src: '/page-search.js'", label: 'page search script' },
@@ -44,18 +47,30 @@ const REQUIRED_HEAD = [
 
 // Required markdown/build pipeline fragments.
 const REQUIRED_PIPELINE = [
-  { needle: 'mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] })', label: 'MDX with math plugins' },
+  {
+    needle: 'mdx({ remarkPlugins: [remarkMath], rehypePlugins: [rehypeKatex] })',
+    label: 'MDX with math plugins',
+  },
   { needle: 'sitemap()', label: '@astrojs/sitemap' },
   { needle: 'compress()', label: 'astro-compress' },
-  { needle: 'remarkPlugins: [remarkMath, clientOnlyDirectives]', label: 'markdown remark pipeline' },
+  {
+    needle: 'remarkPlugins: [remarkMath, clientOnlyDirectives]',
+    label: 'markdown remark pipeline',
+  },
   { needle: 'rehypePlugins: [rehypeKatex, lazyImages]', label: 'markdown rehype pipeline' },
   { needle: 'tailwindcss()', label: 'tailwind vite plugin' },
 ]
 
 // Shared integrations must be imported from shared/, never vendored per-site.
 const REQUIRED_IMPORTS = [
-  { needle: "from '../../shared/integrations/client-only-directives'", label: 'client-only-directives from shared/' },
-  { needle: "from '../../shared/integrations/lazy-images/index.mjs'", label: 'lazy-images from shared/' },
+  {
+    needle: "from '../../shared/integrations/client-only-directives'",
+    label: 'client-only-directives from shared/',
+  },
+  {
+    needle: "from '../../shared/integrations/lazy-images/index.mjs'",
+    label: 'lazy-images from shared/',
+  },
 ]
 
 const errors = []
@@ -86,9 +101,7 @@ function check(siteId, configPath) {
   for (const m of katexMatches) {
     const version = m.slice('katex@'.length, -1)
     if (version !== CANONICAL_KATEX_VERSION) {
-      errors.push(
-        `${siteId}: katex pinned at ${version}, canonical is ${CANONICAL_KATEX_VERSION}`,
-      )
+      errors.push(`${siteId}: katex pinned at ${version}, canonical is ${CANONICAL_KATEX_VERSION}`)
     }
   }
 
@@ -106,13 +119,13 @@ function main() {
   const sites = fs
     .readdirSync(SITES_DIR, { withFileTypes: true })
     .filter(
-      (e) =>
+      e =>
         e.isDirectory() &&
         e.name !== 'node_modules' &&
         e.name !== 'main' && // landing page: not a Starlight docs site
         fs.existsSync(path.join(SITES_DIR, e.name, 'astro.config.mjs')),
     )
-    .map((e) => e.name)
+    .map(e => e.name)
     .sort()
 
   for (const site of sites) {

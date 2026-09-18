@@ -40,7 +40,7 @@ config.MD049 = { style: 'asterisk' }
 // MD029: Ordered list prefix style (1. vs 1. vs 1).
 config.MD029 = { style: 'ordered' }
 
-fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2) + '\n')
+fs.writeFileSync(CONFIG_PATH, `${JSON.stringify(config, null, 2)}\n`)
 
 console.log('Updated .markdownlint.json with content-appropriate config decisions:')
 console.log('  MD024 disabled (legitimate repeated subsections)')

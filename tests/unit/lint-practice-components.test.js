@@ -20,9 +20,7 @@ const ROOT = path.join(__dirname, '..', '..')
 
 describe('lintLine detection', () => {
   it('flags the swallowed-options corruption', () => {
-    const hits = lintLine(
-      'question={"What is 2+2?&quot; options={[\'3\', \'4\']} correctAnswer={1}',
-    )
+    const hits = lintLine("question={\"What is 2+2?&quot; options={['3', '4']} correctAnswer={1}")
     assert.ok(hits.includes('swallowed-options'))
   })
 

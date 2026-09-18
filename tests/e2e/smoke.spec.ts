@@ -6,16 +6,7 @@
  */
 import { expect, test } from '@playwright/test'
 
-const SITE_IDS = [
-  'dse',
-  'ib',
-  'alevel',
-  'python',
-  'physics',
-  'programming',
-  'languages',
-  'tools',
-]
+const SITE_IDS = ['dse', 'ib', 'alevel', 'python', 'physics', 'programming', 'languages', 'tools']
 
 for (const siteId of SITE_IDS) {
   test.describe(`${siteId}`, () => {

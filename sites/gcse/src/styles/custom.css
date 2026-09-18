@@ -1473,10 +1473,10 @@ body::after {
   .reveal,
   .reveal-stagger > *,
   .wn-hero-image {
-    animation: none !important;
-    transition: none !important;
-    opacity: 1 !important;
-    transform: none !important;
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
   }
 }
 
@@ -1942,11 +1942,11 @@ body.wn-nav-hidden nav:not(#wn-reader *) {
 .starlight-nav,
 header {
   backdrop-filter: blur(12px) saturate(180%);
-  background: rgba(10, 10, 15, 0.8) !important;
+  background: rgba(10, 10, 15, 0.8);
 }
 
 [data-theme="light"] header {
-  background: rgba(245, 242, 237, 0.8) !important;
+  background: rgba(245, 242, 237, 0.8);
 }
 
 /* === Typography Hierarchy Upgrade === */
@@ -2011,9 +2011,10 @@ th {
 
 /* === Amoebic Hover States === */
 .amoebic-hover {
-  transition: border-radius 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
-              transform 0.3s ease,
-              box-shadow 0.3s ease;
+  transition:
+    border-radius 0.4s cubic-bezier(0.34, 1.56, 0.64, 1),
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 .amoebic-hover:hover {
   border-radius: 20% 40% 30% 50%;
@@ -2026,7 +2027,7 @@ th {
   position: relative;
 }
 .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -2041,28 +2042,41 @@ th {
 }
 
 /* Bouncy button hover */
-.btn, button {
-  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.2s ease;
+.btn,
+button {
+  transition:
+    transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.2s ease;
 }
-.btn:hover, button:hover {
+.btn:hover,
+button:hover {
   transform: scale(1.05);
 }
-.btn:active, button:active {
+.btn:active,
+button:active {
   transform: scale(0.95);
 }
 
 /* === Loading Skeleton States === */
 .skeleton {
-  background: linear-gradient(90deg, var(--wn-bg-card) 25%, var(--wn-bg-hover) 50%, var(--wn-bg-card) 75%);
+  background: linear-gradient(
+    90deg,
+    var(--wn-bg-card) 25%,
+    var(--wn-bg-hover) 50%,
+    var(--wn-bg-card) 75%
+  );
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s ease-in-out infinite;
   border-radius: 4px;
 }
 
 @keyframes skeleton-shimmer {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 .skeleton-text {
@@ -2123,7 +2137,9 @@ th {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Respect reduced motion */

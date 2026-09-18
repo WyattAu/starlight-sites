@@ -11,8 +11,8 @@ const CF_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN
 const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID
 
 console.log('KV_NAMESPACE_ID:', KV_NAMESPACE_ID ? 'set' : 'MISSING')
-console.log('CF_API_TOKEN:', CF_API_TOKEN ? 'set (' + CF_API_TOKEN.length + ' chars)' : 'MISSING')
-console.log('CF_ACCOUNT_ID:', CF_ACCOUNT_ID ? 'set (' + CF_ACCOUNT_ID.length + ' chars)' : 'MISSING')
+console.log('CF_API_TOKEN:', CF_API_TOKEN ? `set (${CF_API_TOKEN.length} chars)` : 'MISSING')
+console.log('CF_ACCOUNT_ID:', CF_ACCOUNT_ID ? `set (${CF_ACCOUNT_ID.length} chars)` : 'MISSING')
 
 if (!KV_NAMESPACE_ID || !CF_API_TOKEN || !CF_ACCOUNT_ID) {
   console.error('Missing required environment variables')
@@ -25,10 +25,10 @@ async function uploadToKV() {
     console.error('merged-index.json not found at', indexPath)
     process.exit(1)
   }
-  
+
   const indexContent = fs.readFileSync(indexPath)
   console.log('Index file size:', indexContent.length, 'bytes')
-  
+
   console.log('Uploading merged-index to KV...')
   const indexResp = await fetch(
     `https://api.cloudflare.com/client/v4/accounts/${CF_ACCOUNT_ID}/storage/kv/namespaces/${KV_NAMESPACE_ID}/values/merged-index`,
@@ -36,21 +36,23 @@ async function uploadToKV() {
       method: 'PUT',
       headers: { Authorization: `Bearer ${CF_API_TOKEN}` },
       body: indexContent,
-    }
+    },
   )
 
   const indexResult = await indexResp.json()
   if (!indexResult.success) {
     const code = indexResult.errors?.[0]?.code
     if (code === 10048) {
-      console.error('KV daily write quota exhausted (code 10048). The upload will succeed after the UTC midnight quota reset. Skipping with exit 0 so the deploy is not marked failed.')
+      console.error(
+        'KV daily write quota exhausted (code 10048). The upload will succeed after the UTC midnight quota reset. Skipping with exit 0 so the deploy is not marked failed.',
+      )
       process.exit(0)
     }
     console.error('Index upload failed:', JSON.stringify(indexResult.errors))
     process.exit(1)
   }
   console.log('Index uploaded successfully')
-  
+
   // Upload metadata
   const index = JSON.parse(indexContent)
   const metadataResp = await fetch(
@@ -59,9 +61,9 @@ async function uploadToKV() {
       method: 'PUT',
       headers: { Authorization: `Bearer ${CF_API_TOKEN}` },
       body: JSON.stringify(index.metadata),
-    }
+    },
   )
-  
+
   const metadataResult = await metadataResp.json()
   if (!metadataResult.success) {
     console.error('Metadata upload failed:', JSON.stringify(metadataResult.errors))

@@ -55,7 +55,12 @@ export function SkeletonGroup(props: SkeletonGroupProps) {
   const rows = () => props.rows || 3
 
   return (
-    <div class={`skeleton-group ${props.class || ''}`} aria-busy="true" aria-label="Loading...">
+    <div
+      class={`skeleton-group ${props.class || ''}`}
+      role="status"
+      aria-busy="true"
+      aria-label="Loading..."
+    >
       {Array.from({ length: rows() }, (_, i) => (
         <Skeleton
           variant="rectangular"

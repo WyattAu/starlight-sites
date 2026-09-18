@@ -13,7 +13,7 @@ const { siteMeta } = require('./lib/sites.cjs')
 const meta = siteMeta()
 const sites = Object.keys(meta)
 
-const TEMPLATE = (slug) => `User-agent: *
+const TEMPLATE = slug => `User-agent: *
 Allow: /
 
 # Block utility/service worker paths
@@ -47,7 +47,9 @@ for (const slug of sites) {
 // Also update main landing page
 const mainPath = path.join(ROOT, 'sites', 'main', 'public', 'robots.txt')
 if (fs.existsSync(mainPath)) {
-  fs.writeFileSync(mainPath, `User-agent: *
+  fs.writeFileSync(
+    mainPath,
+    `User-agent: *
 Allow: /
 
 Disallow: /api/
@@ -64,7 +66,8 @@ Allow: /docs/
 Sitemap: https://wyattsnotes.wyattau.com/sitemap-index.xml
 
 Crawl-delay: 1
-`)
+`,
+  )
   updated++
 }
 

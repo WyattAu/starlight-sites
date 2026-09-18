@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
 import { render } from '@solidjs/testing-library'
+import { describe, expect, it } from 'vitest'
 import ToastProvider from '../../shared/components/ToastProvider'
 
 describe('ToastProvider', () => {

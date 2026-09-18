@@ -50,7 +50,9 @@ async function fetchSiteIndex(site) {
   try {
     const sitemapResp = await fetchWithRetry(`${site.url}/sitemap-0.xml`)
     if (!sitemapResp.ok) {
-      console.warn(`[index] ${site.id}: sitemap fetch failed (HTTP ${sitemapResp.status}) -- site dropped from index`)
+      console.warn(
+        `[index] ${site.id}: sitemap fetch failed (HTTP ${sitemapResp.status}) -- site dropped from index`,
+      )
       return []
     }
 
@@ -138,7 +140,9 @@ async function fetchSiteIndex(site) {
     console.log(`[index] ${site.id}: ${urls.length} urls, ${entries.length} entries`)
     return entries
   } catch (err) {
-    console.warn(`[index] ${site.id}: crawl failed (${err && err.message ? err.message : err}) -- site dropped from index`)
+    console.warn(
+      `[index] ${site.id}: crawl failed (${err?.message ? err.message : err}) -- site dropped from index`,
+    )
     return []
   }
 }
@@ -165,7 +169,9 @@ async function buildIndex() {
       `::warning::${dropped.length}/${SITES.length} sites produced zero search entries: ${dropped.map(s => s.id).join(', ')}`,
     )
   }
-  console.log(`[index] merged ${allEntries.length} entries from ${Object.keys(perSite).length}/${SITES.length} sites in ${elapsed}s`)
+  console.log(
+    `[index] merged ${allEntries.length} entries from ${Object.keys(perSite).length}/${SITES.length} sites in ${elapsed}s`,
+  )
 
   // Create metadata
   const metadata = {

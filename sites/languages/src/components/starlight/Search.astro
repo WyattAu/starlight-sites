@@ -55,46 +55,57 @@
 <script>
 (function() {
   var SEARCH_API = 'https://search.wyattau.com/api'
-  var input = document.getElementById('custom-search-input')
-  var results = document.getElementById('custom-search-results')
+  const input = document.getElementById('custom-search-input') as HTMLInputElement | null
+  const results = document.getElementById('custom-search-results') as HTMLDivElement | null
   if (!input || !results) return
 
-  var debounceTimer = null
+  const inputEl = input
+  const resultsEl = results
 
-  input.addEventListener('input', function() {
-    clearTimeout(debounceTimer)
-    var q = input.value.trim()
-    if (q.length < 2) { results.classList.remove('active'); return }
+  var debounceTimer: ReturnType<typeof setTimeout> | null = null
+
+  inputEl.addEventListener('input', function() {
+    clearTimeout(debounceTimer as unknown as number)
+    var q = inputEl.value.trim()
+    if (q.length < 2) { resultsEl.classList.remove('active'); return }
     debounceTimer = setTimeout(function() { search(q) }, 300)
   })
 
-  input.addEventListener('focus', function() {
-    if (input.value.trim().length >= 2) results.classList.add('active')
+  inputEl.addEventListener('focus', function() {
+    if (inputEl.value.trim().length >= 2) resultsEl.classList.add('active')
   })
 
   document.addEventListener('click', function(e) {
-    if (!e.target.closest('#custom-search')) results.classList.remove('active')
+    var target = e.target as HTMLElement | null
+    if (!target || !target.closest('#custom-search')) resultsEl.classList.remove('active')
   })
 
-  input.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') results.classList.remove('active')
+  inputEl.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') resultsEl.classList.remove('active')
   })
 
-  function search(query) {
-    results.innerHTML = '<div class="search-footer">Searching...</div>'
-    results.classList.add('active')
+  function search(query: string) {
+    resultsEl.innerHTML = '<div class="search-footer">Searching...</div>'
+    resultsEl.classList.add('active')
     fetch(SEARCH_API + '/search?q=' + encodeURIComponent(query) + '&limit=8')
       .then(function(r) { return r.json() })
       .then(function(data) { renderResults(data) })
-      .catch(function() { results.innerHTML = '<div class="search-footer">Search unavailable</div>' })
+      .catch(function() { resultsEl.innerHTML = '<div class="search-footer">Search unavailable</div>' })
   }
 
-  function renderResults(data) {
+  interface SearchResultItem {
+    url: string
+    siteColor: string
+    siteName: string
+    title: string
+  }
+
+  function renderResults(data: { results?: SearchResultItem[] }) {
     if (!data.results || data.results.length === 0) {
-      results.innerHTML = '<div class="search-footer">No results</div>'
+      resultsEl.innerHTML = '<div class="search-footer">No results</div>'
       return
     }
-    results.innerHTML = data.results.map(function(r) {
+    resultsEl.innerHTML = data.results.map(function(r) {
       var url = new URL(r.url)
       var path = url.pathname.replace(/\/$/, '') || '/'
       return '<a class="search-result" href="' + r.url + '" target="_blank" rel="noopener">' +
@@ -104,7 +115,7 @@
     }).join('')
   }
 
-  function escapeHtml(str) {
+  function escapeHtml(str: string) {
     if (!str) return ''
     var d = document.createElement('div')
     d.textContent = str

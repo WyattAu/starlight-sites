@@ -5,9 +5,20 @@
  * Captures screenshots and compares against baseline.
  */
 
-import { test, expect } from '@playwright/test'
+import { expect, test } from '@playwright/test'
 
-const THEMES = ['dark', 'light', 'sepia', 'contrast', 'nord', 'dracula', 'solarized', 'monokai', 'ayu-mirage', 'papercolor']
+const THEMES = [
+  'dark',
+  'light',
+  'sepia',
+  'contrast',
+  'nord',
+  'dracula',
+  'solarized',
+  'monokai',
+  'ayu-mirage',
+  'papercolor',
+]
 
 const TEST_PAGES = [
   { name: 'physics', url: 'https://physics.wyattau.com/' },
@@ -25,7 +36,7 @@ for (const page of TEST_PAGES) {
         await p.waitForLoadState('networkidle')
 
         // Set theme
-        await p.evaluate((t) => {
+        await p.evaluate(t => {
           document.documentElement.setAttribute('data-theme', t)
         }, theme)
 

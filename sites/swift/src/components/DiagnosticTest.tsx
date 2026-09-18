@@ -403,83 +403,83 @@ export default function DiagnosticTest(props: DiagnosticTestProps) {
   return (
     <ErrorBoundary component="DiagnosticTest">
       <QuestionDialog
-      open={true}
-      onOpenChange={() => {}}
-      title={`Question ${progress() + 1} of ${maxQ}`}
-    >
-      <div class="mb-4 flex items-center justify-between text-emphasis-700 text-sm">
-        <span>{formatTime(getElapsed())}</span>
-        <span class="font-variant-numeric:tabular-nums">
-          {q.topic} - Difficulty {q.difficulty}
-        </span>
-      </div>
-
-      <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
-
-      <RadioGroup.Root
-        value={selectedValue()}
-        onChange={value => handleSelect(Number(value))}
-        orientation="vertical"
-        class="mb-5 flex flex-col gap-2"
-        aria-label="Answer options"
-        onKeyDown={handleRadioKeyDown}
+        open={true}
+        onOpenChange={() => {}}
+        title={`Question ${progress() + 1} of ${maxQ}`}
       >
-        <For each={q.options}>
-          {(opt, i) => (
-            <RadioGroup.Item value={String(i())} disabled={getSubmitted()}>
-              <RadioGroup.ItemControl
-                class={`flex cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-base transition-all ${
-                  getSubmitted()
-                    ? i() === q.correctIndex
-                      ? 'border-success bg-success/10'
-                      : getSelected() === i()
-                        ? 'border-error bg-error/10'
-                        : 'border-emphasis-200 bg-transparent'
-                    : getSelected() === i()
-                      ? 'border-accent bg-accent/5'
-                      : 'border-emphasis-300 bg-transparent hover:border-accent'
-                }`}
-              >
-                <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emphasis-100 font-bold text-sm">
-                  {LABELS[i()]}
-                </span>
-                <span class="flex-1">{opt}</span>
-              </RadioGroup.ItemControl>
-              <RadioGroup.ItemInput aria-label={`${LABELS[i()]}: ${String(opt)}`} />
-            </RadioGroup.Item>
-          )}
-        </For>
-      </RadioGroup.Root>
-
-      <Show when={getSubmitted()}>
-        <div class="mb-5 rounded-lg bg-emphasis-100 p-4 text-base leading-relaxed">
-          <strong>Explanation:</strong>
-          <div innerHTML={sanitizeHtml(q.explanation)} />
+        <div class="mb-4 flex items-center justify-between text-emphasis-700 text-sm">
+          <span>{formatTime(getElapsed())}</span>
+          <span class="font-variant-numeric:tabular-nums">
+            {q.topic} - Difficulty {q.difficulty}
+          </span>
         </div>
-      </Show>
 
-      <div class="flex justify-center">
-        <Show when={!getSubmitted()}>
-          <button
-            type="button"
-            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white disabled:cursor-not-allowed disabled:opacity-50"
-            disabled={getSelected() === null}
-            onClick={handleSubmit}
-          >
-            {t('diagnostic.submit')}
-          </button>
-        </Show>
+        <p class="mt-2 mb-5 text-lg leading-relaxed">{q.question}</p>
+
+        <RadioGroup.Root
+          value={selectedValue()}
+          onChange={value => handleSelect(Number(value))}
+          orientation="vertical"
+          class="mb-5 flex flex-col gap-2"
+          aria-label="Answer options"
+          onKeyDown={handleRadioKeyDown}
+        >
+          <For each={q.options}>
+            {(opt, i) => (
+              <RadioGroup.Item value={String(i())} disabled={getSubmitted()}>
+                <RadioGroup.ItemControl
+                  class={`flex cursor-pointer items-center gap-3 rounded-lg border-2 px-4 py-3 text-left text-base transition-all ${
+                    getSubmitted()
+                      ? i() === q.correctIndex
+                        ? 'border-success bg-success/10'
+                        : getSelected() === i()
+                          ? 'border-error bg-error/10'
+                          : 'border-emphasis-200 bg-transparent'
+                      : getSelected() === i()
+                        ? 'border-accent bg-accent/5'
+                        : 'border-emphasis-300 bg-transparent hover:border-accent'
+                  }`}
+                >
+                  <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-emphasis-100 font-bold text-sm">
+                    {LABELS[i()]}
+                  </span>
+                  <span class="flex-1">{opt}</span>
+                </RadioGroup.ItemControl>
+                <RadioGroup.ItemInput aria-label={`${LABELS[i()]}: ${String(opt)}`} />
+              </RadioGroup.Item>
+            )}
+          </For>
+        </RadioGroup.Root>
+
         <Show when={getSubmitted()}>
-          <button
-            type="button"
-            class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white"
-            onClick={handleNext}
-          >
-            {isComplete() ? t('diagnostic.view_results') : t('diagnostic.next')}
-          </button>
+          <div class="mb-5 rounded-lg bg-emphasis-100 p-4 text-base leading-relaxed">
+            <strong>Explanation:</strong>
+            <div innerHTML={sanitizeHtml(q.explanation)} />
+          </div>
         </Show>
-      </div>
-    </QuestionDialog>
+
+        <div class="flex justify-center">
+          <Show when={!getSubmitted()}>
+            <button
+              type="button"
+              class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white disabled:cursor-not-allowed disabled:opacity-50"
+              disabled={getSelected() === null}
+              onClick={handleSubmit}
+            >
+              {t('diagnostic.submit')}
+            </button>
+          </Show>
+          <Show when={getSubmitted()}>
+            <button
+              type="button"
+              class="cursor-pointer rounded-lg border-none bg-primary px-6 py-2.5 font-semibold text-base text-white"
+              onClick={handleNext}
+            >
+              {isComplete() ? t('diagnostic.view_results') : t('diagnostic.next')}
+            </button>
+          </Show>
+        </div>
+      </QuestionDialog>
     </ErrorBoundary>
   )
 }

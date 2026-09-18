@@ -122,7 +122,17 @@ export default function DesmosGraph(props: DesmosGraphProps) {
         return
       }
 
-      const Desmos = window.Desmos
+      // Desmos is loaded externally via a script tag; its API is not typed.
+      const Desmos = (
+        window as unknown as {
+          Desmos: {
+            GraphingCalculator: (
+              el: HTMLElement,
+              opts: Record<string, unknown>,
+            ) => { setExpression: (opts: Record<string, unknown>) => void; destroy: () => void }
+          }
+        }
+      ).Desmos
 
       if (!Desmos) {
         return

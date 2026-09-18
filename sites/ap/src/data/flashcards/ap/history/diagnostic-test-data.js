@@ -128,7 +128,7 @@ export const questions = [
     ],
     correctIndex: 2,
     explanation:
-      "Lincoln’s Emancipation Proclamation (issued January 1, 1863) declared free all enslaved people in areas currently in rebellion against the Union. It did NOT free enslaved people in the border states (Maryland, Delaware, Kentucky, Missouri) that remained in the Union, nor in areas of the Confederacy already under Union control. The proclamation was a wartime measure under Lincoln\'s authority as commander-in-chief, and its practical effect depended on Union military advances. It transformed the Civil War into a war for freedom as well as union.",
+      "Lincoln’s Emancipation Proclamation (issued January 1, 1863) declared free all enslaved people in areas currently in rebellion against the Union. It did NOT free enslaved people in the border states (Maryland, Delaware, Kentucky, Missouri) that remained in the Union, nor in areas of the Confederacy already under Union control. The proclamation was a wartime measure under Lincoln's authority as commander-in-chief, and its practical effect depended on Union military advances. It transformed the Civil War into a war for freedom as well as union.",
   },
   {
     id: 'cw2',
@@ -190,7 +190,7 @@ export const questions = [
     ],
     correctIndex: 1,
     explanation:
-      "The Populist (People\'s) Party emerged primarily from the economic distress of Southern and Western farmers who faced declining crop prices, rising railroad shipping rates, high interest rates, and mounting debt. Populists advocated for government regulation of railroads, a graduated income tax, free silver (increasing the money supply to cause inflation and ease debt burdens), and direct election of senators. While the party declined after the 1896 election, many of its reforms were later adopted by the Progressive movement.",
+      "The Populist (People's) Party emerged primarily from the economic distress of Southern and Western farmers who faced declining crop prices, rising railroad shipping rates, high interest rates, and mounting debt. Populists advocated for government regulation of railroads, a graduated income tax, free silver (increasing the money supply to cause inflation and ease debt burdens), and direct election of senators. While the party declined after the 1896 election, many of its reforms were later adopted by the Progressive movement.",
   },
   {
     id: 'gw3',

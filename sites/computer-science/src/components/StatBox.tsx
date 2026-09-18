@@ -29,7 +29,7 @@ export default function StatBox(props: StatBoxProps) {
   return (
     <div class={classes()}>
       <Show when={props.icon}>
-        <span class="stat-box-icon">{props.icon!()}</span>
+        <span class="stat-box-icon">{props.icon?.()}</span>
       </Show>
       <span class="stat-box-label">{props.label}</span>
       <span class="stat-box-value">{props.value}</span>

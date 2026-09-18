@@ -5,7 +5,7 @@
  * and responsive aspect ratio preservation.
  */
 
-import { Show, type JSX } from 'solid-js'
+import { type JSX, Show } from 'solid-js'
 
 interface EmbedContainerProps {
   title: string
@@ -40,10 +40,7 @@ export default function EmbedContainer(props: EmbedContainerProps) {
           </a>
         </Show>
       </div>
-      <div
-        class="embed-container-body"
-        style={{ 'padding-bottom': aspectRatio() }}
-      >
+      <div class="embed-container-body" style={{ 'padding-bottom': aspectRatio() }}>
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}>
           {props.children()}
         </div>

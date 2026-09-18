@@ -9,10 +9,10 @@
  * Usage: node scripts/generate-diagram-prompts.js [--top N]
  */
 
-import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 
-const TOP_N = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--top') || '50')
+const TOP_N = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--top') || '50', 10)
 const SITES_DIR = join(import.meta.dirname, '..', 'sites')
 
 function findContentFiles(dir) {

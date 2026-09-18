@@ -7,7 +7,14 @@ import SettingsDialog from '../../shared/components/SettingsDialog'
 // the radio/switch controls and all effects under test stay real.
 vi.mock('@kobalte/core/slider', () => {
   const Root = (props: Record<string, unknown>) => (
-    <div role="slider" aria-label={String(props['aria-label'] ?? '')}>
+    <div
+      role="slider"
+      tabIndex={0}
+      aria-label={String(props['aria-label'] ?? '')}
+      aria-valuenow={Number(props['aria-valuenow'] ?? 0)}
+      aria-valuemin={Number(props['aria-valuemin'] ?? 0)}
+      aria-valuemax={Number(props['aria-valuemax'] ?? 100)}
+    >
       {(props.children ?? null) as never}
     </div>
   )
@@ -15,7 +22,12 @@ vi.mock('@kobalte/core/slider', () => {
     void props
     return <div data-mocked={tag} />
   }
-  return { Root, Track: passthrough('track'), Fill: passthrough('fill'), Thumb: passthrough('thumb') }
+  return {
+    Root,
+    Track: passthrough('track'),
+    Fill: passthrough('fill'),
+    Thumb: passthrough('thumb'),
+  }
 })
 
 // Mock localStorage
@@ -103,17 +115,13 @@ describe('SettingsDialog', () => {
   it('rejects an invalid stored content width (falls back to 48rem)', async () => {
     localStorage.setItem('wn-content-width', '999rem')
     renderDialog()
-    await waitFor(() =>
-      expect(html().style.getPropertyValue('--wn-content-width')).toBe('48rem'),
-    )
+    await waitFor(() => expect(html().style.getPropertyValue('--wn-content-width')).toBe('48rem'))
   })
 
   it('rejects an invalid stored font family (falls back to sans)', async () => {
     localStorage.setItem('wn-font-family', 'comic-sans')
     renderDialog()
-    await waitFor(() =>
-      expect(html().style.getPropertyValue('--wn-font-body')).toContain('Inter'),
-    )
+    await waitFor(() => expect(html().style.getPropertyValue('--wn-font-body')).toContain('Inter'))
   })
 
   // Note: the radio-group interaction path (onChange -> setTheme) is not
@@ -166,7 +174,17 @@ describe('SettingsDialog', () => {
   it('renders all ten theme options', async () => {
     renderDialog()
     await waitFor(() => expect(html().getAttribute('data-theme')).toBe('dark'))
-    for (const name of ['Dark', 'Light', 'Sepia', 'Nord', 'Dracula', 'Monokai', 'Ayu Mirage', 'Solarized', 'Papercolor']) {
+    for (const name of [
+      'Dark',
+      'Light',
+      'Sepia',
+      'Nord',
+      'Dracula',
+      'Monokai',
+      'Ayu Mirage',
+      'Solarized',
+      'Papercolor',
+    ]) {
       expect(screen.getByText(name)).toBeTruthy()
     }
   })

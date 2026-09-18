@@ -8,17 +8,17 @@
  * Usage: node scripts/generate-expansion-prompts.js [--top N]
  */
 
-import { readFileSync, readdirSync, statSync } from 'node:fs'
+import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 
-const TOP_N = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--top') || '50')
+const TOP_N = parseInt(process.argv.find((_, i, a) => a[i - 1] === '--top') || '50', 10)
 const SITES_DIR = join(import.meta.dirname, '..', 'sites')
 
 const TIER_MINIMUMS = {
-  1: 30,   // Landing/index pages
-  2: 80,   // Standard topic pages
-  3: 120,  // Depth pages (2+ worked examples, 3+ pitfalls)
-  4: 150,  // University advanced (every theorem proved)
+  1: 30, // Landing/index pages
+  2: 80, // Standard topic pages
+  3: 120, // Depth pages (2+ worked examples, 3+ pitfalls)
+  4: 150, // University advanced (every theorem proved)
 }
 
 function inferTier(filePath, lineCount) {
@@ -47,7 +47,8 @@ function getMissingSections(content) {
   if (!/## (Common Pitfalls?|Pitfalls?)/.test(content)) missing.push('Common Pitfalls (3+)')
   if (!/## Summary/.test(content)) missing.push('Summary')
   if (!/## Cross-References/.test(content)) missing.push('Cross-References')
-  if (!/## (Key )?Relationships?/.test(content) && !/\|.*\|.*\|/.test(content)) missing.push('Relationship table')
+  if (!/## (Key )?Relationships?/.test(content) && !/\|.*\|.*\|/.test(content))
+    missing.push('Relationship table')
   return missing
 }
 
@@ -90,7 +91,9 @@ console.log(`Found ${pages.length} pages below tier minimums.\n`)
 console.log(`Top ${TOP_N} pages to expand (sorted by shortage):\n`)
 
 for (const page of pages.slice(0, TOP_N)) {
-  console.log(`  ${page.lines}/${page.minLines} lines (-${page.shortage}) | Tier ${page.tier} | ${page.site}`)
+  console.log(
+    `  ${page.lines}/${page.minLines} lines (-${page.shortage}) | Tier ${page.tier} | ${page.site}`,
+  )
   console.log(`    ${page.file}`)
   console.log(`    Title: ${page.title}`)
   if (page.missing.length) {

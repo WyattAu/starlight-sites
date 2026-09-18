@@ -33,7 +33,8 @@
       "complexity": {
         "noUselessFragments": "warn",
         "noUselessTypeConstraint": "warn",
-        "useFlatMap": "warn"
+        "useFlatMap": "warn",
+        "noImportantStyles": "warn"
       },
       "correctness": {
         "noUnusedImports": "error",
@@ -58,7 +59,8 @@
         "useDefaultSwitchClause": "warn",
         "useForOf": "warn",
         "useNodejsImportProtocol": "warn",
-        "useShorthandAssign": "warn"
+        "useShorthandAssign": "warn",
+        "noDescendingSpecificity": "warn"
       },
       "a11y": {
         "useSemanticElements": "off",
@@ -199,6 +201,38 @@
         "rules": {
           "a11y": {
             "noSvgWithoutTitle": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": [
+        "sites/**/public/reader.js",
+        "sites/**/public/site-nav.js",
+        "sites/**/public/page-search.js",
+        "sites/**/public/cross-site-search.js",
+        "sites/**/public/sw.js"
+      ],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noInnerDeclarations": "off"
+          },
+          "style": {
+            "useTemplate": "warn"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.css"],
+      "linter": {
+        "rules": {
+          "complexity": {
+            "noImportantStyles": "warn"
+          },
+          "style": {
+            "noDescendingSpecificity": "warn"
           }
         }
       }

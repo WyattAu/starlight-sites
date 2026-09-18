@@ -1707,6 +1707,7 @@ html {
 .ea-hero {
   position: relative;
   min-height: 100vh;
+  /* biome-ignore lint/suspicious/noDuplicateProperties: svh is a progressive enhancement of vh for mobile browsers */
   min-height: 100svh;
   display: grid;
   align-content: center;
@@ -1736,8 +1737,12 @@ html {
   }
 }
 .ea-hero-scrim {
-  background:
-    linear-gradient(180deg, rgba(23, 21, 18, 0.62) 0%, rgba(23, 21, 18, 0.32) 42%, rgba(23, 21, 18, 0.72) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(23, 21, 18, 0.62) 0%,
+    rgba(23, 21, 18, 0.32) 42%,
+    rgba(23, 21, 18, 0.72) 100%
+  );
 }
 .ea-hero-content {
   position: relative;
@@ -2252,10 +2257,10 @@ html {
   .reveal,
   .reveal-line > span,
   .reveal-img {
-    transition: none !important;
-    opacity: 1 !important;
-    transform: none !important;
-    clip-path: none !important;
+    transition: none;
+    opacity: 1;
+    transform: none;
+    clip-path: none;
   }
   .ea-follow {
     display: none;

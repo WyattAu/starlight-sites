@@ -120,6 +120,6 @@ describe('resolveDeckId', () => {
   })
 
   it('falls back to location.pathname', () => {
-    expect(resolveDeckId(undefined)).toBe('deck::' + location.pathname)
+    expect(resolveDeckId(undefined)).toBe(`deck::${location.pathname}`)
   })
 })

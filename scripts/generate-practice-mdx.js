@@ -65,13 +65,13 @@ function validate(fixture) {
     }
   })
   if (errors.length) {
-    throw new Error('Fixture validation failed:\n  ' + errors.join('\n  '))
+    throw new Error(`Fixture validation failed:\n  ${errors.join('\n  ')}`)
   }
 }
 
 function buildTag(q, client) {
   const question = jsString(q.question.trim())
-  const options = q.options.map((o) => `"${jsString(o.trim())}"`).join(', ')
+  const options = q.options.map(o => `"${jsString(o.trim())}"`).join(', ')
   const explanation = jsString(q.explanation.trim())
   const difficulty = q.difficulty || 'medium'
   return (
@@ -85,7 +85,7 @@ function buildTag(q, client) {
 
 function buildBlocks(fixture) {
   const client = fixture.client || 'solid-js'
-  return fixture.questions.map((q, i) => buildTag(q, client)).join('\n\n')
+  return fixture.questions.map((q, _i) => buildTag(q, client)).join('\n\n')
 }
 
 function main() {
@@ -102,7 +102,7 @@ function main() {
   const blocks = buildBlocks(fixture)
 
   if (!outputArg) {
-    process.stdout.write(blocks + '\n')
+    process.stdout.write(`${blocks}\n`)
     return
   }
 
@@ -113,7 +113,7 @@ function main() {
     const firstTag = existing.indexOf('<PracticeProblem')
     if (firstTag !== -1) {
       const prefix = existing.slice(0, firstTag)
-      fs.writeFileSync(outputArg, prefix + blocks + '\n')
+      fs.writeFileSync(outputArg, `${prefix + blocks}\n`)
       console.log(`Replaced ${fixture.questions.length} questions in ${outputArg}`)
       return
     }

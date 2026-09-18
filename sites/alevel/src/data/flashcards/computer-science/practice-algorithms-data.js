@@ -103,7 +103,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "Kruskal’s and Prim\'s algorithms both find MSTs using greedy approaches. Kruskal’s sorts all edges by weight and adds the cheapest edge that does not create a\ncycle (checked using union-find). Prim\'s starts from an arbitrary vertex and repeatedly adds the cheapest edge connecting the growing tree to a vertex outside it. Both guarantee an MST with total weight sum equal to the minimum possible. Kruskal’s is O(E log E) due to sorting; Prim\'s with a binary heap is O(E log V).",
+      "Kruskal’s and Prim's algorithms both find MSTs using greedy approaches. Kruskal’s sorts all edges by weight and adds the cheapest edge that does not create a\ncycle (checked using union-find). Prim's starts from an arbitrary vertex and repeatedly adds the cheapest edge connecting the growing tree to a vertex outside it. Both guarantee an MST with total weight sum equal to the minimum possible. Kruskal’s is O(E log E) due to sorting; Prim's with a binary heap is O(E log V).",
   },
   {
     question:
@@ -165,7 +165,7 @@ export const practiceQuestions = [
     ],
     correct: 1,
     explanation:
-      "A greedy algorithm\nmakes the best local choice at each step without reconsidering. It is efficient (often O(n log n) or\nO(n)) but does NOT always find the global optimum. Greedy works for: Dijkstra’s shortest path, Huffman coding, fractional knapsack, minimum spanning tree (Kruskal\'s/Prim\'s). Greedy fails for: 0/1 knapsack, travelling salesman problem, some scheduling problems. Greedy algorithms require proof that the greedy choice leads to an optimal solution (greedy-choice property).",
+      "A greedy algorithm\nmakes the best local choice at each step without reconsidering. It is efficient (often O(n log n) or\nO(n)) but does NOT always find the global optimum. Greedy works for: Dijkstra’s shortest path, Huffman coding, fractional knapsack, minimum spanning tree (Kruskal's/Prim's). Greedy fails for: 0/1 knapsack, travelling salesman problem, some scheduling problems. Greedy algorithms require proof that the greedy choice leads to an optimal solution (greedy-choice property).",
   },
   {
     question:

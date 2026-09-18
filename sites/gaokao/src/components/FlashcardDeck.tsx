@@ -361,75 +361,75 @@ export default function FlashcardDeck(props: FlashcardDeckProps) {
         aria-label={props.title ? `Flashcard deck: ${props.title}` : 'Flashcard deck'}
         class="mx-auto my-6 max-w-[600px] rounded-xl border-2 border-emphasis-300 bg-surface p-6 font-sans text-base"
       >
-      <ReviewQueue
-        open={getReviewQueueOpen()}
-        onOpenChange={setReviewQueueOpen}
-        decks={reviewQueueDecks()}
-      />
-
-      {getView() === 'deck' && (
-        <DeckView
-          title={props.title}
-          description={props.description}
-          cards={props.cards}
-          dueCards={dueCards()}
-          masteredCount={masteredCount()}
-          streak={streak()}
-          masteryBreakdown={masteryBreakdown()}
-          masteryPercent={masteryPercent()}
-          startReview={startReview}
-          setView={setView}
-          onOpenReviewQueue={() => setReviewQueueOpen(true)}
-          globalDueCount={globalDueCount()}
+        <ReviewQueue
+          open={getReviewQueueOpen()}
+          onOpenChange={setReviewQueueOpen}
+          decks={reviewQueueDecks()}
         />
-      )}
 
-      {getView() === 'review' && (
-        <ReviewView
-          currentCard={currentCard()}
-          currentIndex={getCurrentIndex()}
-          dueQueueLength={getDueQueue().length}
-          flipped={getFlipped()}
-          setFlipped={setFlipped}
-          handleRate={handleRate}
-          setView={setView}
-          setDueQueue={setDueQueue}
-          prefersReducedMotion={prefersReducedMotion()}
-        />
-      )}
+        {getView() === 'deck' && (
+          <DeckView
+            title={props.title}
+            description={props.description}
+            cards={props.cards}
+            dueCards={dueCards()}
+            masteredCount={masteredCount()}
+            streak={streak()}
+            masteryBreakdown={masteryBreakdown()}
+            masteryPercent={masteryPercent()}
+            startReview={startReview}
+            setView={setView}
+            onOpenReviewQueue={() => setReviewQueueOpen(true)}
+            globalDueCount={globalDueCount()}
+          />
+        )}
 
-      {getView() === 'stats' && (
-        <StatsView
-          masteredCount={masteredCount()}
-          masteryBreakdown={masteryBreakdown()}
-          streak={streak()}
-          totalReviews={totalReviews()}
-          avgEase={avgEase()}
-          globalStreak={getStreak()}
-          longestStreak={getLongestStreak()}
-          setView={setView}
-        />
-      )}
+        {getView() === 'review' && (
+          <ReviewView
+            currentCard={currentCard()}
+            currentIndex={getCurrentIndex()}
+            dueQueueLength={getDueQueue().length}
+            flipped={getFlipped()}
+            setFlipped={setFlipped}
+            handleRate={handleRate}
+            setView={setView}
+            setDueQueue={setDueQueue}
+            prefersReducedMotion={prefersReducedMotion()}
+          />
+        )}
 
-      {getView() === 'settings' && (
-        <SettingsDialog
-          open={getView() === 'settings'}
-          onOpenChange={open => {
-            if (!open) setView('deck')
-          }}
-          title={t('settings.title')}
-        >
-          <div class="flex flex-col gap-3">
-            <ActionButton label={t('flashcard.export')} onClick={handleExport} />
-            <ActionButton label={t('flashcard.import')} onClick={handleImport} />
-            <ActionButton label={t('flashcard.reset')} onClick={handleReset} danger />
-          </div>
-          <div class="mt-5">
-            <ActionButton label={t('flashcard.close')} onClick={() => setView('deck')} />
-          </div>
-        </SettingsDialog>
-      )}
-    </section>
+        {getView() === 'stats' && (
+          <StatsView
+            masteredCount={masteredCount()}
+            masteryBreakdown={masteryBreakdown()}
+            streak={streak()}
+            totalReviews={totalReviews()}
+            avgEase={avgEase()}
+            globalStreak={getStreak()}
+            longestStreak={getLongestStreak()}
+            setView={setView}
+          />
+        )}
+
+        {getView() === 'settings' && (
+          <SettingsDialog
+            open={getView() === 'settings'}
+            onOpenChange={open => {
+              if (!open) setView('deck')
+            }}
+            title={t('settings.title')}
+          >
+            <div class="flex flex-col gap-3">
+              <ActionButton label={t('flashcard.export')} onClick={handleExport} />
+              <ActionButton label={t('flashcard.import')} onClick={handleImport} />
+              <ActionButton label={t('flashcard.reset')} onClick={handleReset} danger />
+            </div>
+            <div class="mt-5">
+              <ActionButton label={t('flashcard.close')} onClick={() => setView('deck')} />
+            </div>
+          </SettingsDialog>
+        )}
+      </section>
     </ErrorBoundary>
   )
 }

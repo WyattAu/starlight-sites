@@ -309,10 +309,7 @@ describe('Search Worker (mocked KV)', () => {
       const { astroSites } = require('../../scripts/lib/sites.cjs')
       const { status, body } = await callWorker(worker, '/api/sites', { env: freshEnv() })
       assert.strictEqual(status, 200)
-      assert.deepStrictEqual(
-        body.sites.map(s => s.id).sort(),
-        [...astroSites()].sort(),
-      )
+      assert.deepStrictEqual(body.sites.map(s => s.id).sort(), [...astroSites()].sort())
     })
   })
 

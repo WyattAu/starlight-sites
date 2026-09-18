@@ -6,7 +6,7 @@
  * States: default, hover, active, disabled, loading
  */
 
-import { Show, type JSX } from 'solid-js'
+import { type JSX, Show } from 'solid-js'
 
 interface ActionButtonProps {
   variant?: 'primary' | 'secondary' | 'danger' | 'ghost'
@@ -41,7 +41,7 @@ export default function ActionButton(props: ActionButtonProps) {
       disabled={props.disabled || props.loading}
     >
       <Show when={props.icon && !props.loading}>
-        <span class="action-btn-icon">{props.icon!()}</span>
+        <span class="action-btn-icon">{props.icon?.()}</span>
       </Show>
       {props.children}
     </button>
