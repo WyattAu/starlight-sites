@@ -69,7 +69,7 @@ This hub page maps every resource on this site. The guides cover the essential t
 - [Algorithms and Data Structures](#algorithms-and-data-structures)
 - [General Productivity](#general-productivity)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

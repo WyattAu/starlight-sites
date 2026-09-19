@@ -826,6 +826,6 @@ linked above.
 
 ## Cross-References
 
-- [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) explains how rewritten history must be force-pushed to update remote repositories.
-- [Git Objects](/tools/git/02-fundamentals/02-git-objects) covers the object model that filter-repo rewrites when removing or modifying commits.
-- [Reflog](/tools/git/05-advanced-topics/01-reflog) provides a safety net for recovering references after history rewriting operations.
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) explains how rewritten history must be force-pushed to update remote repositories.
+- [Git Objects](/git/02-fundamentals/02-git-objects/) covers the object model that filter-repo rewrites when removing or modifying commits.
+- [Reflog](/git/05-advanced-topics/01-reflog/) provides a safety net for recovering references after history rewriting operations.

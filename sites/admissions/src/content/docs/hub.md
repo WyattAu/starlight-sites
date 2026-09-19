@@ -71,7 +71,7 @@ This hub page maps every resource on this site. Whether you are applying to US u
 - [Financial Aid and Scholarships](#financial-aid-and-scholarships)
 - [Decision-Making](#decision-making)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

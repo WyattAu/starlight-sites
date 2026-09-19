@@ -69,7 +69,7 @@ These notes follow the standard undergraduate physics curriculum: from Newtonian
 - [Particle Physics and Cosmology](#particle-physics-and-cosmology)
 - [Cross-Site Resources](#cross-site-resources)
 - [Problem-Solving Strategy](#problem-solving-strategy)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

@@ -2069,7 +2069,7 @@ environmental objectives. The HK Electric Scheme of Control includes provisions 
 ensure fairness.
 
 If you get this wrong, revise:
-[Price Discrimination and Regulation](#price-discrimination-and-regulation)
+[Price Discrimination and Regulation](/economics/3-market-structure/1_market-structure/)
 
 </details>
 

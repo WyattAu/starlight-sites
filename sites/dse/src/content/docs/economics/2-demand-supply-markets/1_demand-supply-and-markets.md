@@ -1426,7 +1426,7 @@ are included, the effective price may exceed the free market rent, making tenant
 a key insight of the economic analysis of rent control: the nominal price falls, but the total cost
 (including non-monetary costs) may rise.
 
-If you get this wrong, revise: [Price Controls and Welfare](#price-controls-and-welfare)
+If you get this wrong, revise: [Price Controls and Welfare](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
 
 ## Common Pitfalls
 

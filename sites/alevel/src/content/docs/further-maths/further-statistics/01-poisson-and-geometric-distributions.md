@@ -509,7 +509,7 @@ $E(X^2) = E(X(X-1)) + E(X) = \dfrac{2q}{p^2} + \dfrac{1}{p} = \dfrac{2q+p}{p^2} 
 $\mathrm{Var}(X) = \dfrac{2-p}{p^2} - \dfrac{1}{p^2} = \dfrac{1-p}{p^2}$. $\blacksquare$
 
 **If you get this wrong, revise:**
-[Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$](#23-proof-that-mathrmvarx--frac1-pp2), Section
+[Proof that $\mathrm{Var}(X) = \frac{1-p}{p^2}$](/further-maths/further-statistics/01-poisson-and-geometric-distributions/), Section
 2.3.
 
 </details>

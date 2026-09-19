@@ -489,7 +489,7 @@ observed exactly. $\chi^2 = 0$. The population is in perfect Hardy-Weinberg equi
 (c) Not applicable -- the population is in equilibrium.
 
 <b>If you get this wrong, revise:</b>
-[Population Genetics: Hardy-Weinberg Extended](#4-population-genetics-hardy-weinberg-extended)
+[Population Genetics: Hardy-Weinberg Extended](/biology/genetics-advanced/)
 
 </details>
 

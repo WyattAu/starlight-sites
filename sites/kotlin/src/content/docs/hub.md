@@ -67,7 +67,7 @@ This hub page maps every resource on this site. The learning path takes you from
 - [Spring Boot with Kotlin](#spring-boot-with-kotlin)
 - [Learning Path](#learning-path)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

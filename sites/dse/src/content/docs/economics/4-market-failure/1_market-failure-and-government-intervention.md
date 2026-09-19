@@ -1419,7 +1419,7 @@ Conservation Department has explored ITQ systems as part of its fisheries manage
 
 </details>
 
-If you get this wrong, revise: [Common Resources](#common-resources)
+If you get this wrong, revise: [Common Resources](/economics/4-market-failure/1_market-failure-and-government-intervention/)
 
 ### Problem 12: Information Asymmetry and Warranties
 

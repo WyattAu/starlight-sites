@@ -864,6 +864,6 @@ linked above.
 
 ## Cross-References
 
-- [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) covers the clone and fetch commands that sparse checkout and partial clone modify.
-- [Git Objects](/tools/git/02-fundamentals/02-git-objects) explains the object storage model that partial clone selectively downloads.
-- [Branching](/tools/git/03-branching-and-merging/01-branching) shows how sparse checkout works with branch-specific directory filtering.
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) covers the clone and fetch commands that sparse checkout and partial clone modify.
+- [Git Objects](/git/02-fundamentals/02-git-objects/) explains the object storage model that partial clone selectively downloads.
+- [Branching](/git/03-branching-and-merging/01-branching/) shows how sparse checkout works with branch-specific directory filtering.

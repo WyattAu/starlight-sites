@@ -63,7 +63,7 @@ This hub page maps every resource on this site, organised by subject, with study
 - [Mathematics](#mathematics)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

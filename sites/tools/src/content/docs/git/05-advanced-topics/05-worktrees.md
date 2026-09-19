@@ -285,5 +285,5 @@ Worktrees are like having multiple desks in the same office. Instead of clearing
 
 ## Cross-References
 
-- [Stash](/tools/git/05-advanced-topics/02-stash) - The simpler alternative for brief interruptions
-- [Submodules](/tools/git/05-advanced-topics/04-submodules) - How submodules interact with worktrees
+- [Stash](/git/05-advanced-topics/02-stash/) - The simpler alternative for brief interruptions
+- [Submodules](/git/05-advanced-topics/04-submodules/) - How submodules interact with worktrees

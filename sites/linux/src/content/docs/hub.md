@@ -72,7 +72,7 @@ This hub page maps every resource on this site. The guides cover the core compet
 - [Package Management](#package-management)
 - [LVM and Disk Partitioning](#lvm-and-disk-partitioning)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

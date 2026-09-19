@@ -1715,7 +1715,7 @@ _composition_ of growth matters. Policymakers should use multiple indicators (GD
 environmental quality indices) and pursue growth strategies that decouple economic activity from
 environmental damage.
 
-If you get this wrong, revise: [Green GDP and Sustainability](#green-gdp-and-sustainability)
+If you get this wrong, revise: [Green GDP and Sustainability](/economics/5-macroeconomic-indicators/1_national-income/)
 
 </details>
 

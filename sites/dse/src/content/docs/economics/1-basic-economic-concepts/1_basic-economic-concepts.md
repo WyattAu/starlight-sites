@@ -1522,7 +1522,7 @@ advantage.
 
 </details>
 
-If you get this wrong, revise: [Specialisation and Trade](#specialisation-and-trade)
+If you get this wrong, revise: [Specialisation and Trade](/economics/1-basic-economic-concepts/1_basic-economic-concepts/)
 
 ### Problem 12: Opportunity Cost in Everyday Decision-Making
 

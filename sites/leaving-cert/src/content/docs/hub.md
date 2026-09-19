@@ -66,7 +66,7 @@ This hub page links every resource on this site, organised by subject, with stud
 - [Physics](#physics)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

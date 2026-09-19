@@ -68,7 +68,7 @@ Every topic below links to detailed notes, practice questions, flashcards, and d
 - [Exam Board Alignment](#exam-board-alignment)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

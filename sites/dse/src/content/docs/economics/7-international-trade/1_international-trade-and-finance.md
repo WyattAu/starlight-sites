@@ -1704,7 +1704,7 @@ EP outperforms ISI because: (1) international competition forces efficiency; (2)
 markets enables scale economies; (3) export earnings provide foreign exchange; (4) EP is
 self-correcting (uncompetitive firms fail), while ISI rewards inefficiency.
 
-If you get this wrong, revise: [Development Strategies](#development-strategies)
+If you get this wrong, revise: [Development Strategies](/economics/7-international-trade/1_international-trade-and-finance/)
 
 </details>
 

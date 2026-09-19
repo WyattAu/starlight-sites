@@ -657,7 +657,7 @@ Since $7 \gt 6$ (and there is an outlier at 42 on the upper side), the distribut
 Skewed, though only slightly so from the quartiles alone.
 
 **If you get this wrong, revise:**
-[Box Plots, Drawing and Interpreting](#8-box-plots--drawing-and-interpreting), Section 8.
+[Box Plots, Drawing and Interpreting](/maths/statistics/01-data-representation/), Section 8.
 
 </details>
 

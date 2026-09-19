@@ -747,7 +747,7 @@ For $(-2, 5)$: new point is
 $\left(\frac{-2+1}{3}, 2 \times 5 + 4\right) = \left(-\frac{1}{3}, 14\right)$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Transformation order](#10-transformation-order--why-it-matters)
+<b>If you get this wrong, revise:</b> [Transformation order](/maths/pure-mathematics/05-functions/)
 
 ---
 

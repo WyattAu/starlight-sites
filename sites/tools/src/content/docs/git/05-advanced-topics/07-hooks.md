@@ -967,6 +967,6 @@ linked above.
 
 ## Cross-References
 
-- [Commit Signing](/tools/git/05-advanced-topics/08-commit-signing) extends hooks by adding cryptographic verification to the commit process that hooks can enforce.
-- [Cherry-Pick](/tools/git/05-advanced-topics/06-cherry-pick) selectively applies commits where hooks may trigger on the newly applied changes.
-- [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) shows how hooks interact with server-side workflows during push and receive operations.
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/) extends hooks by adding cryptographic verification to the commit process that hooks can enforce.
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/) selectively applies commits where hooks may trigger on the newly applied changes.
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how hooks interact with server-side workflows during push and receive operations.

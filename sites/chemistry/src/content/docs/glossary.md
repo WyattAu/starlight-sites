@@ -188,7 +188,7 @@ graph TD
 
 **Lipid**: A diverse group of organic compounds insoluble in water but soluble in organic solvents. Includes fats, oils, and waxes.
 
-**Nucleic Acid**: A polymer of nucleotides that stores and transmits genetic information. Types: DNA and [RNA](#rna-ribonucleic-acid).
+**Nucleic Acid**: A polymer of nucleotides that stores and transmits genetic information. Types: DNA and [RNA](/glossary/).
 
 **Protein**: A polymer of amino acids linked by peptide bonds. Performs structural, enzymatic, transport, and regulatory functions.
 

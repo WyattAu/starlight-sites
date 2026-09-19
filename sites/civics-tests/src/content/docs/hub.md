@@ -70,7 +70,7 @@ This hub page maps every resource on this site, organised by the civics test cat
 - [The Naturalisation Process](#the-naturalisation-process)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

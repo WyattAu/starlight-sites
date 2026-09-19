@@ -434,7 +434,7 @@ $f(x) = x^3 - 2x - 5$. $f(2) = 8-4-5 = -1 \lt 0$$f(3) = 27-6-5 = 16 \gt 0$.
 Since $f$ is continuous and changes sign on $[2,3]$By the sign change theorem there is a root in
 $(2,3)$.
 
-**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change), Section
+**If you get this wrong, revise:** [Sign Change Theorem](/maths/pure-mathematics/14-numerical-methods/), Section
 1.1.
 
 </details>
@@ -526,7 +526,7 @@ $f(x) \to \infty$ as $x \to \pm\infty$ So $f(x) = 0$ has exactly two roots.
 $f(0) = 1 \gt 0$$f(1) = e-3 \lt 0$: root in $(0,1)$. $f(1) \lt 0$$f(2) = e^2-6 \gt 0$: Root in
 $(1,2)$.
 
-**If you get this wrong, revise:** [Sign Change Theorem](#1-locating-roots-sign-change), Section 1.
+**If you get this wrong, revise:** [Sign Change Theorem](/maths/pure-mathematics/14-numerical-methods/), Section 1.
 
 </details>
 

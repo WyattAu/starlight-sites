@@ -1730,7 +1730,7 @@ diminishes and may eventually turn negative.
    technology). Encourage fintech innovation (digital payments, peer-to-peer lending, robo-advisors)
    to challenge incumbents.
 
-If you get this wrong, revise: [Financial Development](#financial-development)
+If you get this wrong, revise: [Financial Development](/economics/8-money-and-banking/1_money-and-banking/)
 
 </details>
 

@@ -632,7 +632,7 @@ Then $E(X^2) = E(X(X-1)) + E(X) = n(n-1)p^2 + np$.
 $\mathrm{Var}(X) = E(X^2) - [E(X)]^2 = n(n-1)p^2 + np - n^2p^2 = np - np^2 = np(1-p)$.
 
 **If you get this wrong, revise:**
-[Direct derivation of $\mathrm{Var}(X) = np(1-p)$ from the PMF](#26-direct-derivation-of-mathrmvarx--np1-p-from-the-pmf)
+[Direct derivation of $\mathrm{Var}(X) = np(1-p)$ from the PMF](/maths/statistics/04-statistical-distributions/)
 - Section 2.6.
 
 </details>

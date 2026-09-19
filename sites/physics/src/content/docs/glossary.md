@@ -91,7 +91,7 @@ tags: [glossary]
 
 **Gauss's Law**: The net electric flux through a closed surface equals the enclosed charge divided by ε₀: ∮**E**·d**A** = Q_enc/ε₀.
 
-**Inductance**: The property of a circuit that opposes changes in current, measured in henries (H). Related: [Inductor](#inductor).
+**Inductance**: The property of a circuit that opposes changes in current, measured in henries (H). Related: [Inductor](/glossary/).
 
 **Inductor**: A component that stores energy in a magnetic field when current flows through it. Induced EMF: ε = -L(dI/dt).
 

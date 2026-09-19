@@ -248,6 +248,6 @@ Git is a time machine for your code. Every commit is a snapshot you can return t
 
 ## Cross-References
 
-- [Git Fundamentals](/tools/git/02-fundamentals/01-the-three-trees)
-- [Branching and Merging](/tools/git/03-branching-and-merging/01-branching)
+- [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/)
+- [Branching and Merging](/git/03-branching-and-merging/01-branching/)
 - [Advanced Git Commands](/git/advanced-git-commands/)

@@ -361,7 +361,7 @@ $\nu = 4 - 1 - 1 = 2$. Critical value: $\chi^2_{0.05,\,2} = 5.991$.
 $6.204 > 5.991$: **reject** $H_0$. Evidence the data does not follow Poisson.
 
 **If you get this wrong, revise:**
-[Worked example: Poisson goodness of fit](#26-worked-example-poisson-goodness-of-fit), Section 2.6.
+[Worked example: Poisson goodness of fit](/further-maths/further-statistics/03-chi-squared-tests/), Section 2.6.
 
 </details>
 

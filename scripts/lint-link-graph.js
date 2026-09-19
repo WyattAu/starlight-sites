@@ -211,7 +211,32 @@ for (const [site, { pages }] of Object.entries(sites)) {
             }
           }
 
-          // 2) repo-relative to another site's content
+          // 2) same-directory numeric-prefix match:
+          //    /economics/macro/aggregate-demand-and-supply
+          //    -> /economics/macro/02-aggregate-demand-and-supply/
+          if (!fixHref && pathPart.startsWith('/')) {
+            const tDir = pathPart.slice(0, pathPart.lastIndexOf('/'))
+            const tSlug = pathPart.slice(pathPart.lastIndexOf('/') + 1)
+            const prefixRe = new RegExp(`^${tDir}/\\d+-${tSlug}/$`)
+            const matches = [...sites[site].urlPathSet].filter(u => prefixRe.test(u))
+            if (matches.length === 1) {
+              fixHref = matches[0] + fragment
+              fixNote = 'numeric-prefix match'
+            }
+          }
+
+          // 3) unique same-slug match elsewhere in the site
+          if (!fixHref && pathPart.startsWith('/')) {
+            const tSlug = pathPart.slice(pathPart.lastIndexOf('/') + 1)
+            const slugRe = new RegExp(`/${tSlug}/$`)
+            const matches = [...sites[site].urlPathSet].filter(u => slugRe.test(u))
+            if (matches.length === 1) {
+              fixHref = matches[0] + fragment
+              fixNote = 'unique slug match'
+            }
+          }
+
+          // 4) repo-relative to another site's content
           if (!fixHref) {
             const suggestion = suggestCrossSite(pathPart || href)
             if (suggestion) {
@@ -250,7 +275,25 @@ for (const [site, { pages }] of Object.entries(sites)) {
           const anchorOk =
             targetPage.anchors.has(frag) || targetPage.anchors.has(resolved.fragment.toLowerCase())
           if (!anchorOk) {
-            broken.push({ site, urlPath, href, cls: 'missing-anchor' })
+            // The page exists but the fragment does not. Linking to the
+            // page without the fragment is strictly better than a dead
+            // anchor -- strip it (fix mode) or report (report mode).
+            if (FIX) {
+              const escHref = href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+              const reMd = new RegExp(`(\\]\\()${escHref}(\\))`, 'g')
+              const reHref = new RegExp(`(href=["'])${escHref}(["'])`, 'g')
+              let fixed = text.replace(reMd, `$1${resolved.urlPath}$2`)
+              if (fixed === text) fixed = text.replace(reHref, `$1${resolved.urlPath}$2`)
+              if (fixed !== text) {
+                fs.writeFileSync(page.abs, fixed)
+                rewritten++
+                console.error(`fragment stripped: ${site}:${urlPath} :: ${href} => ${resolved.urlPath}`)
+              } else {
+                broken.push({ site, urlPath, href, cls: 'missing-anchor' })
+              }
+            } else {
+              broken.push({ site, urlPath, href, cls: 'missing-anchor' })
+            }
           }
         }
       }

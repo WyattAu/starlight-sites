@@ -69,7 +69,7 @@ This hub page maps every resource on this site, organised by test section, with 
 - [Behind-the-Wheel Test](#behind-the-wheel-test)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

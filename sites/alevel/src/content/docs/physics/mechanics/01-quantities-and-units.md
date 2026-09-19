@@ -371,7 +371,7 @@ Rule), $\frac{0.02}{5.00} = 0.004$.
 Total fractional uncertainty: $0.0033 + 0.0833 + 0.004 = 0.0907$.
 $\Delta\rho = 6.63 \times 0.0907 = 0.60$ g cm$^{-3}$. Result: $\rho = 6.6 \pm 0.6$ g cm$^{-3}$.
 
-<b>If you get this wrong, revise:</b> [Rule 3: Powers](#rule-3-powers)
+<b>If you get this wrong, revise:</b> [Rule 3: Powers](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 
@@ -467,7 +467,7 @@ $c^{1/2}$).
 Total: $0.10 + 0.033 + 0.0167 = 0.150$. Percentage uncertainty: 15.0%.
 $\Delta Q = 16.0 \times 0.150 = 2.4$. Result: $Q = 16.0 \pm 2.4$ (15%).
 
-<b>If you get this wrong, revise:</b> [Rule 3: Powers](#rule-3-powers)
+<b>If you get this wrong, revise:</b> [Rule 3: Powers](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 
@@ -749,7 +749,7 @@ $\Delta E_k = 0.768 \times 0.0583 = 0.045$ J.
 
 Result: $E_k = 0.77 \pm 0.04$ J.
 
-<b>If you get this wrong, revise:</b> [Rule 3: Powers](#rule-3-powers)
+<b>If you get this wrong, revise:</b> [Rule 3: Powers](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 
@@ -771,7 +771,7 @@ Result: $g = 9.4 \pm 0.6$ m s$^{-2}$.
 The accepted value $9.81$ m s$^{-2}$ falls within the range $9.4 \pm 0.6$ (i.e., $8.8$ to $10.0$ m
 S$^{-2}$), so the result is consistent with the accepted value. $\square$
 
-<b>If you get this wrong, revise:</b> [Rule 3: Powers](#rule-3-powers)
+<b>If you get this wrong, revise:</b> [Rule 3: Powers](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 

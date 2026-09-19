@@ -69,7 +69,7 @@ graph TD
 
 **Inflection Point**: A point where the concavity of a function changes. Occurs where f''(x) = 0 or f''(x) is undefined and changes sign.
 
-**Integral**: The limit of a Riemann sum representing the area under a curve: ∫ₐᵇ f(x)dx = lim[n→∞] Σf(xᵢ)Δx. See also [Antiderivative](#antiderivative).
+**Integral**: The limit of a Riemann sum representing the area under a curve: ∫ₐᵇ f(x)dx = lim[n→∞] Σf(xᵢ)Δx. See also [Antiderivative](/glossary/).
 
 **Integration**: The process of finding integrals. Methods include substitution, integration by parts, partial fractions, and trigonometric substitution.
 

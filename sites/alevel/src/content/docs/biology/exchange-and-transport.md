@@ -792,7 +792,7 @@ modest for Simple diffusion ($Q_{10} \approx 1.2$--$1.4$) compared with enzyme-c
 Enzyme rates so temperature-sensitive.
 
 <b>If you get this wrong, revise:</b>
-[Quantitative Gas Exchange: Fick's Law Applications](#7-quantitative-gas-exchange-ficks-law-applications)
+[Quantitative Gas Exchange: Fick's Law Applications](/biology/exchange-and-transport/)
 
 </details>
 

@@ -2544,7 +2544,7 @@ Order: $O(\log n) \lt O(n) \lt O(n \log n) \lt O(n^2) \lt O(n^3) \lt O(2^n)$.
 </details>
 
 _If you get this wrong, revise:
-[Big-O Notation: Formal Definition](#big-o-notation-formal-definition)_
+[Big-O Notation: Formal Definition](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)_
 
 ### Problem 10: Linked List Insertion and Deletion
 

@@ -448,7 +448,7 @@ $3^a$ is odd and $5^b$ is odd, so no immediate parity contradiction. But: $3^a$ 
 3s and also only 5s (by the Fundamental Theorem of Arithmetic, prime factorisation is unique).
 Contradiction. $\blacksquare$
 
-**If you get this wrong, revise:** [$\log_2 3$ is irrational](#24-log_2-3-is-irrational), Section
+**If you get this wrong, revise:** [$\log_2 3$ is irrational](/maths/pure-mathematics/13-proof/), Section
 2.4.
 
 </details>

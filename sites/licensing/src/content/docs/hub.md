@@ -69,7 +69,7 @@ This hub page maps every resource on this site. The guides cover the major open-
 - [License Compliance](#license-compliance)
 - [Common Licensing Scenarios](#common-licensing-scenarios)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

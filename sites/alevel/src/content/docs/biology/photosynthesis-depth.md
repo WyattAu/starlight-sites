@@ -613,7 +613,7 @@ environments (e.g., tropical grasslands) and have higher overall photosynthetic 
 are adapted to arid environments (e.g., deserts) and have very high water-use efficiency but low
 photosynthetic rates.
 
-<b>If you get this wrong, revise:</b> [C4 and CAM Plants](#7-c3-c4-and-cam-plants)
+<b>If you get this wrong, revise:</b> [C4 and CAM Plants](/biology/photosynthesis-depth/)
 
 </details>
 

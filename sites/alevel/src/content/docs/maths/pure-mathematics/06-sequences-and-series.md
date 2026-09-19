@@ -760,7 +760,7 @@ After cancellation, surviving terms:
 $$= \frac{1}{2} + \frac{1}{3} - \frac{1}{n+2} - \frac{1}{n+3} = \frac{5}{6} - \frac{2n + 5}{(n+2)(n+3)}$$
 
 </details>
-<b>If you get this wrong, revise:</b> [Method of differences](#7-sigma-notation--method-of-differences)
+<b>If you get this wrong, revise:</b> [Method of differences](/maths/pure-mathematics/06-sequences-and-series/)
 
 <hr />
 

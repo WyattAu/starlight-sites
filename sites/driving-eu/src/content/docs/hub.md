@@ -69,7 +69,7 @@ This hub page maps every resource on this site, organised by the key knowledge a
 - [Cross-Border Driving](#cross-border-driving)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

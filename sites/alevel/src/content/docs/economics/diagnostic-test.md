@@ -514,7 +514,7 @@ Policy was the wrong response." Evaluate this statement.
 <summary>Answer</summary>
 Supply-side factors: COVID supply chain disruptions, labour shortages, Ukraine war → energy prices surged → cost-push inflation (SRAS shifted left). Monetary policy (raising rates) reduces AD, which helps inflation but deepens the output gap.<br />
 However: (1) **Demand also surged**, fiscal stimulus, pent-up demand, savings glut from lockdowns → AD shifted right → demand-pull inflation. The inflation was BOTH demand and supply driven. (2) **Second-round effects**: initial supply shocks raised prices → workers demanded higher wages → wage-price spiral → inflation became embedded in expectations. Monetary policy was needed to anchor expectations. (3) **Central bank credibility**: failing to respond would have de-anchored expectations, making inflation harder to control later. (4) **Alternative**: supply-side policy (remove supply bottlenecks) would address the root cause but is too slow. (5) **Cost of inaction**: once inflation expectations rise, the cost of disinflation (higher unemployment) is much greater (Volcker recession, 1980–82). Conclusion: monetary tightening was necessary despite supply-side causes, to prevent inflation from becoming entrenched.
-<i>Revision: [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/) and [Aggregate Demand and Aggregate Supply](/economics/macro/aggregate-demand-and-supply)</i>
+<i>Revision: [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/) and [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)</i>
 </details>
 
 **Q42.** Compare the effectiveness of fiscal policy and monetary policy in (a) a deep recession with
@@ -551,7 +551,7 @@ Implications for macroeconomic policy?
 **Natural rate hypothesis** (Friedman/Phelps): unemployment always returns to $u^*$ after a shock, cyclical unemployment is temporary. **Hysteresis** (Blanchard & Summers, 1986): prolonged cyclical unemployment can become structural, raising the natural rate itself.<br />
 **Mechanisms**: (1) Long-term unemployed workers lose skills and motivation → employability falls → $u_{structural}$ rises. (2) Firms reduce investment during recessions → capital stock shrinks → productive capacity falls. (3) Workers become discouraged and leave the labour force → labour force shrinks. (4) Insider-outsider theory: employed "insiders" set wages that prevent the unemployed "outsiders" from bidding down wages.<br />
 **Policy implications**: (1) "Leave it to the market" is dangerous, allowing deep recessions causes permanent damage. (2) Active fiscal and monetary policy is justified even on supply-side grounds (preventing hysteresis). (3) Active labour market policies (retraining, job search assistance) are essential. (4) The output gap is not self-correcting, it can become permanent. (5) There is no stable long-run Phillips curve, the natural rate is endogenous.
-<i>Revision: [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) and [Macroeconomic Policy Debates](/economics/macro/macroeconomic-policy-debates)</i>
+<i>Revision: [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/) and [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)</i>
 </details>
 
 **Q45.** "The UK's decision to leave the EU has reduced its long-run economic growth rate." Evaluate

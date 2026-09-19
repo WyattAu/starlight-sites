@@ -1088,5 +1088,5 @@ linked above.
 
 - [Types and Variables](/rust/01-fundamentals/types-and-variables/): Provides the foundation of Rust's type system, which is essential for understanding pattern matching and control flow expressions.
 - [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/): Explains Rust's memory safety guarantees that enable fearless control flow without runtime checks.
-- [Structs and Enums](/rust/structs-enums): Shows how to define the data types that pattern matching operates on, including enums with associated data.
+- [Structs and Enums](/rust/03-structs-enums/): Shows how to define the data types that pattern matching operates on, including enums with associated data.
 - [Error Handling](https://dart.wyattau.com/08-error-handling/): Builds on pattern matching with Result and Option types for robust error handling in control flow.

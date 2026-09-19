@@ -72,7 +72,7 @@ This hub page maps every resource on this site. The guides cover every subsystem
 - [Power Supply Considerations](#power-supply-considerations)
 - [Undervolting and Overclocking](#undervolting-and-overclocking)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

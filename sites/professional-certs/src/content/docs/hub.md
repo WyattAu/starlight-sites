@@ -72,7 +72,7 @@ This hub page maps every resource on this site, organised by vendor and certific
 - [Exam Preparation Strategies](#exam-preparation-strategies)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

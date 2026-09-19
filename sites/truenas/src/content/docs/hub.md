@@ -71,7 +71,7 @@ This hub page maps every resource on this site. Whether you are setting up your 
 - [Performance Tuning](#performance-tuning)
 - [Security](#security)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

@@ -620,7 +620,7 @@ with some carbohydrate. This is expected during seed germination, where stored l
 carbohydrates are both mobilised.
 
 <b>If you get this wrong, revise:</b> [Respiratory Quotient](#72-respiratory-quotient-rq) and
-[Practical Investigations](#9-practical-investigations-the-respirometer)
+[Practical Investigations](/biology/respiration-depth/)
 
 </details>
 

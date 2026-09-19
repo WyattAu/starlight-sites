@@ -82,6 +82,10 @@ jobs:
         continue-on-error: true
         run: node --max-old-space-size=1024 scripts/lint-link-graph.js
 
+      - name: Boilerplate fingerprint (advisory -- de-boilerplating worklist)
+        continue-on-error: true
+        run: node scripts/lint-boilerplate.js
+
       - name: Content validation
         run: node scripts/lint-content.js
 

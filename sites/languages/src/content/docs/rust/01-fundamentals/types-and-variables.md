@@ -866,5 +866,5 @@ linked above.
 
 - [Control Flow and Pattern Matching](/rust/01-fundamentals/control-flow/): Shows how to use variables and types in conditional expressions and pattern matching constructs.
 - [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/): Explains how variable ownership and borrowing rules enforce memory safety at compile time.
-- [Structs and Enums](/rust/structs-enums): Demonstrates how to create custom types using the primitive types and variables covered here.
+- [Structs and Enums](/rust/03-structs-enums/): Demonstrates how to create custom types using the primitive types and variables covered here.
 - [Traits and Generics](https://kotlin.wyattau.com/intermediate/generics/): Extends the type system with polymorphism and shared behaviour across different types.

@@ -426,7 +426,7 @@ $E(X) = \left[-xe^{-\lambda x}\right]_0^{\infty} + \int_0^{\infty}e^{-\lambda x}
 $\blacksquare$
 
 **If you get this wrong, revise:**
-[Proof that $E(X) = \frac{1}{\lambda}$](#23-proof-that-ex--frac1lambda), Section 2.3.
+[Proof that $E(X) = \frac{1}{\lambda}$](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/), Section 2.3.
 
 </details>
 

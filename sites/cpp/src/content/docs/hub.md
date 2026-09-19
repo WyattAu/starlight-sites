@@ -69,7 +69,7 @@ These notes cover modern C++ (C++20/23), the version of the language used in pro
 - [Environment and Toolchain](#environment-and-toolchain)
 - [Learning Path](#learning-path)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

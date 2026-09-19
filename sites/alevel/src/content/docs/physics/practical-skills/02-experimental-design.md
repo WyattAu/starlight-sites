@@ -681,7 +681,7 @@ Extension is measured from a fixed reference, not the moving clamp. The experime
 The wire obeys Hooke's law throughout the range used.
 
 <b>If you get this wrong, revise:</b>
-[Worked Example: Planning an Experiment to Determine `g`](#worked-example-planning-an-experiment-to-determine-g)
+[Worked Example: Planning an Experiment to Determine `g`](/physics/practical-skills/02-experimental-design/)
 
 </details>
 

@@ -72,7 +72,7 @@ Whether you are preparing for Paper 1, Paper 2, or the internal assessments, thi
 - [Theory of Knowledge (TOK)](#theory-of-knowledge-tok)
 - [IB Study Strategy](#ib-study-strategy)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

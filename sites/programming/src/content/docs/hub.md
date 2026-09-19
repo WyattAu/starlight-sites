@@ -67,7 +67,7 @@ These notes cover modern C++ (C++20/23), the version of the language used in pro
 - [Concurrency](#concurrency)
 - [Function Architecture](#function-architecture)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

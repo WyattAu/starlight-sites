@@ -518,7 +518,7 @@ cardiac output. This increases blood flow to the lungs for gas exchange and to t
 $\mathrm{O_2}$ delivery. Both responses are negative feedback mechanisms.
 
 <b>If you get this wrong, revise:</b>
-[Control of Blood PCO2 and pH](#6-control-of-blood-pco2-and-ph)
+[Control of Blood PCO2 and pH](/biology/homeostasis/)
 
 </details>
 

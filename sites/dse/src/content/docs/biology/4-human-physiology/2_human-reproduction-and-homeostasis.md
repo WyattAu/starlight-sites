@@ -1394,7 +1394,7 @@ dangerous.
    complications emphasise the importance of maintaining blood glucose within the normal range
    through proper insulin therapy.
 
-**If you get this wrong, revise:** [Diabetes Mellitus](#diabetes-mellitus) and
+**If you get this wrong, revise:** [Diabetes Mellitus](/biology/4-human-physiology/2_human-reproduction-and-homeostasis/) and
 [Negative Feedback Loop for Blood Glucose](#negative-feedback-loop-for-blood-glucose)
 
 </details>

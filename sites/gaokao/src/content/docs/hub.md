@@ -69,7 +69,7 @@ This guide exists because preparing for the Gaokao requires more than memorising
 - [Study Plans and Timelines](#study-plans-and-timelines)
 - [Exam Strategies](#exam-strategies)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

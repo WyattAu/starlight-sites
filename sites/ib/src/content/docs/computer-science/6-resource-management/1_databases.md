@@ -1561,7 +1561,7 @@ Result:
 
 </details>
 
-_If you get this wrong, revise: [SELECT Queries](#queries-select)_
+_If you get this wrong, revise: [SELECT Queries](/computer-science/6-resource-management/1_databases/)_
 
 ---
 

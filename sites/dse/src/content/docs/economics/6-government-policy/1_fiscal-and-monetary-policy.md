@@ -1509,7 +1509,7 @@ _Limitations:_
 
 </details>
 
-If you get this wrong, revise: [Supply-Side Policy](#supply-side-policy)
+If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 
 ```mermaid

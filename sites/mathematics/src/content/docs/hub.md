@@ -74,7 +74,7 @@ This hub page maps every resource on this site. The prerequisite map shows you e
 - [Differential Geometry](#differential-geometry)
 - [Cross-Site Resources](#cross-site-resources)
 - [Proof Techniques](#proof-techniques)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

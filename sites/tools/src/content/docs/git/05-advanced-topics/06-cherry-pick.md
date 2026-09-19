@@ -724,6 +724,6 @@ linked above.
 
 ## Cross-References
 
-- [Remote Operations](/tools/git/04-remotes-and-workflows/01-remote-operations) shows how cherry-picked commits are pushed to shared branches after selective application.
-- [Branching](/tools/git/03-branching-and-merging/01-branching) provides the branch context in which cherry-pick operations target specific commits.
-- [Conflict Resolution](/tools/git/03-branching-and-merging/04-conflict-resolution) addresses the merge conflicts that can arise when cherry-picked commits overlap with other changes.
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how cherry-picked commits are pushed to shared branches after selective application.
+- [Branching](/git/03-branching-and-merging/01-branching/) provides the branch context in which cherry-pick operations target specific commits.
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/) addresses the merge conflicts that can arise when cherry-picked commits overlap with other changes.

@@ -69,7 +69,7 @@ This hub page maps every resource on this site. The guides cover the mathematica
 - [Advanced Topics](#advanced-topics)
 - [Practical Implementation](#practical-implementation)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

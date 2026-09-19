@@ -64,7 +64,7 @@ This hub page maps every resource on this site, organised by section, with study
 - [Test-Taking Strategies](#test-taking-strategies)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

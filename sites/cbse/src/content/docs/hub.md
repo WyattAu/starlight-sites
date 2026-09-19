@@ -66,7 +66,7 @@ This hub page maps every resource on this site, organised by subject, with study
 - [Recommended Study Plan](#recommended-study-plan)
 - [JEE/NEET Preparation](#jee-neet-preparation)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 

@@ -69,7 +69,7 @@ Every topic below links to detailed notes, practice questions, flashcards, and d
 - [Physics](#physics)
 - [Recommended Study Plan](#recommended-study-plan)
 - [Cross-Site Resources](#cross-site-resources)
-- [FAQ](#faq)
+- [FAQ](/hub/)
 
 ---
 
