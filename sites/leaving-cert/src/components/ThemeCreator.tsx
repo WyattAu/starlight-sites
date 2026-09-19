@@ -163,11 +163,9 @@ export default function ThemeCreator() {
 
   return (
     <Show when={open()}>
-      {/* biome-ignore lint/a11y/noStaticElementInteractions: backdrop dismiss; Escape and the close button serve keyboard users */}
-      {/* biome-ignore lint/a11y/useKeyWithClickEvents: Escape closes via the key handler below */}
+      {/* biome-ignore lint/a11y/noStaticElementInteractions: click-to-dismiss backdrop; keyboard users close via Escape and the close button */}
       <div
         class="theme-creator-backdrop"
-        role="presentation"
         onClick={() => setOpen(false)}
         onKeyDown={e => {
           if (e.key === 'Escape') setOpen(false)

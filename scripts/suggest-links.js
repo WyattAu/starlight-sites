@@ -20,14 +20,16 @@ const SITES_DIR = path.join(ROOT, 'sites')
 const MAX_SUGGESTIONS = Number(process.argv[2] || 3)
 
 const STOP = new Set(
-  'the a an and or of in on for to with by from as is are was were be been at it its this that these those how what why when who which notes guide guide-revision revision level paper papers'.split(' '),
+  'the a an and or of in on for to with by from as is are was were be been at it its this that these those how what why when who which notes guide guide-revision revision level paper papers'.split(
+    ' ',
+  ),
 )
 
 function titleCase(dir) {
   return dir
     .replace(/^\d+[_-]/, '')
     .replace(/[-_]/g, ' ')
-    .replace(/\b\w/g, (c) => c.toUpperCase())
+    .replace(/\b\w/g, c => c.toUpperCase())
 }
 
 function* walkMd(dir) {
@@ -49,7 +51,7 @@ function terms(text) {
       .toLowerCase()
       .replace(/[^a-z0-9\s]/g, ' ')
       .split(/\s+/)
-      .filter((w) => w.length > 3 && !STOP.has(w)),
+      .filter(w => w.length > 3 && !STOP.has(w)),
   )
 }
 
@@ -106,14 +108,16 @@ for (const p of pages) {
 
 // ── suggestions ──────────────────────────────────────────────────────────
 
-const weak = pages.filter((p) => (p.inbound || 0) <= 1 && !/\/(glossary|about|hub|404|search)\/?$/.test(p.urlPath))
+const weak = pages.filter(
+  p => (p.inbound || 0) <= 1 && !/\/(glossary|about|hub|404|search)\/?$/.test(p.urlPath),
+)
 const suggestions = []
 
 for (const page of weak) {
   const candidates = []
   for (const other of pages) {
     if (other === page || other.site !== page.site) continue
-    const overlap = [...page.terms].filter((t) => other.terms.has(t))
+    const overlap = [...page.terms].filter(t => other.terms.has(t))
     if (overlap.length >= 2) candidates.push({ other, overlap: overlap.length })
   }
   candidates.sort((a, b) => b.overlap - a.overlap)
@@ -132,7 +136,9 @@ console.log('')
 for (const s of suggestions.slice(0, 30)) {
   console.log(`${s.page.site}.wyattau.com${s.page.urlPath} (inbound: ${s.page.inbound || 0})`)
   for (const l of s.links) {
-    console.log(`    -> link to ${l.other.site}.wyattau.com${l.other.urlPath} [${l.other.title}] (shared terms: ${l.overlap})`)
+    console.log(
+      `    -> link to ${l.other.site}.wyattau.com${l.other.urlPath} [${l.other.title}] (shared terms: ${l.overlap})`,
+    )
   }
 }
 if (suggestions.length > 30) console.log(`...and ${suggestions.length - 30} more pages`)

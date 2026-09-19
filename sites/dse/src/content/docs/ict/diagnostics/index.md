@@ -35,7 +35,7 @@ This section provides study materials and resources for diagnostics. If Diagnost
 
 ## Study Approach
 
-Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
+If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

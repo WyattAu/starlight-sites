@@ -5564,7 +5564,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Work through Human Body alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -15732,7 +15732,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -15808,7 +15808,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Revision works best in one direction here: read Databases, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -25137,7 +25137,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Mechanics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

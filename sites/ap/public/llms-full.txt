@@ -9193,7 +9193,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+If Heredity feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -12852,7 +12852,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Study Approach
 
-The Chemistry section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+If Thermodynamics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -22695,7 +22695,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Study Approach
 
-The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Argument needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -34263,7 +34263,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Rotational Motion needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -34339,7 +34339,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Electrostatics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts
@@ -34415,7 +34415,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Circuits needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

@@ -71,9 +71,9 @@ function headingsOf(absPath) {
 
 function pageUrlPath(rel) {
   const noExt = rel.replace(/\.mdx?$/, '')
-  if (noExt.endsWith('/index')) return '/' + noExt.slice(0, -'/index'.length) + '/'
+  if (noExt.endsWith('/index')) return `${noExt.slice(0, -'/index'.length)}/`
   if (noExt === 'index') return '/'
-  return '/' + noExt + '/'
+  return `/${noExt}/`
 }
 
 // ── build the page index ──────────────────────────────────────────────────
@@ -142,7 +142,7 @@ function suggestCrossSite(pathPart) {
   if (!repo) return null
   const other = repo[1]
   const p = `/${repo[2].replace(/\.mdx?$/, '')}${repo[2].includes('.') ? '' : '/'}`
-  if (sites[other] && sites[other].urlPathSet.has(p)) {
+  if (sites[other]?.urlPathSet.has(p)) {
     return { site: other, urlPath: p }
   }
   return null
@@ -195,7 +195,7 @@ for (const [site, { pages }] of Object.entries(sites)) {
           }
           if (pathPart && !pathPart.startsWith('/')) {
             for (let depth = segs.length; depth >= 0; depth--) {
-              const base = '/' + segs.slice(0, depth).join('/') + (depth > 0 ? '/' : '')
+              const base = `/${segs.slice(0, depth).join('/')}${depth > 0 ? '/' : ''}`
               const candPath = stripTrailingSlash(new URL(pathPart, `https://x${base}`).pathname)
               let found = null
               for (const c of [candPath, `${candPath}/`]) {

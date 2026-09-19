@@ -55,7 +55,7 @@ function frontmatter(text) {
       !out[key].endsWith('.') &&
       !/^\s*-\s/.test(line)
     ) {
-      out[key] += ' ' + line.trim()
+      out[key] += ` ${line.trim()}`
     }
   }
   return out
@@ -144,7 +144,7 @@ for (const slug of Object.keys(meta.sites)) {
   )
   lines.push('')
   const siteIndex = pages.find(p => p.urlPath === '/')
-  if (siteIndex && siteIndex.description) {
+  if (siteIndex?.description) {
     lines.push(siteIndex.description)
     lines.push('')
   }
@@ -171,9 +171,11 @@ for (const slug of Object.keys(meta.sites)) {
   full.push('> Each page is preceded by its canonical URL.')
   full.push('')
   for (const section of sections) {
-    full.push(`## ${section === 'General' ? 'Overview' : section.replace(/^\d+[_-]/, '').replace(/\b\w/g, (c) => c.toUpperCase())}`)
+    full.push(
+      `## ${section === 'General' ? 'Overview' : section.replace(/^\d+[_-]/, '').replace(/\b\w/g, c => c.toUpperCase())}`,
+    )
     full.push('')
-    for (const p of pages.filter((pp) => pp.section === section)) {
+    for (const p of pages.filter(pp => pp.section === section)) {
       const u = p.urlPath === '/' ? `${url}/` : `${url}${p.urlPath}`
       full.push('---')
       full.push('')

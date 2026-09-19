@@ -29,7 +29,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Study Approach
 
-The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

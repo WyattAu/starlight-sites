@@ -28,7 +28,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the diagnostic tests to find out whether Multicellular needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

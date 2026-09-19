@@ -28,7 +28,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

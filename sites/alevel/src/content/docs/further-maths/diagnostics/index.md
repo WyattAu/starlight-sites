@@ -37,7 +37,7 @@ This section provides study materials and resources for diagnostics. The Further
 
 ## Study Approach
 
-Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
+The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

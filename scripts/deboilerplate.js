@@ -76,7 +76,7 @@ function siteSections(slug) {
 }
 
 function siteDisplayName(slug) {
-  return (meta.sites[slug] && meta.sites[slug].name) || slug
+  return meta.sites[slug]?.name || slug
 }
 
 // ── pass 1: fingerprint (same detection as lint-boilerplate) ─────────────
@@ -89,7 +89,11 @@ for (const site of fs.readdirSync(SITES_DIR)) {
   if (!fs.existsSync(docs)) continue
   for (const file of walkMd(docs)) {
     const base = path.basename(file, path.extname(file))
-    if (!/^(index|intro|hub|about)$/.test(base) && !/\/(intro|index)\//.test(file.split(path.sep).join('/'))) continue
+    if (
+      !/^(index|intro|hub|about)$/.test(base) &&
+      !/\/(intro|index)\//.test(file.split(path.sep).join('/'))
+    )
+      continue
     const text = fs.readFileSync(file, 'utf8')
     const body = text.slice(frontmatterEnd(text))
     pagesScanned++
@@ -135,7 +139,11 @@ for (const site of fs.readdirSync(SITES_DIR)) {
 
   for (const file of walkMd(docs)) {
     const base = path.basename(file, path.extname(file))
-    if (!/^(index|intro|hub|about)$/.test(base) && !/\/(intro|index)\//.test(file.split(path.sep).join('/'))) continue
+    if (
+      !/^(index|intro|hub|about)$/.test(base) &&
+      !/\/(intro|index)\//.test(file.split(path.sep).join('/'))
+    )
+      continue
     const text = fs.readFileSync(file, 'utf8')
     const body = text.slice(frontmatterEnd(text))
     const raws = rawSentences(body)
@@ -144,7 +152,8 @@ for (const site of fs.readdirSync(SITES_DIR)) {
     // section = first path directory
     const relForCtx = path.relative(docs, file).split(path.sep).join('/')
     const firstDir = relForCtx.includes('/') ? relForCtx.split('/')[0] : ''
-    const sectionPretty = firstDir && firstDir !== 'index' ? prettySection(firstDir) : siteDisplayName(site)
+    const sectionPretty =
+      firstDir && firstDir !== 'index' ? prettySection(firstDir) : siteDisplayName(site)
     const pageTitle = (fmTitle(text) || base.replace(/[-_]/g, ' ')).replace(/["']/g, '')
     const seed = relForCtx.length
     const generated = generatedSentences(site, pageTitle, sectionPretty, seed)

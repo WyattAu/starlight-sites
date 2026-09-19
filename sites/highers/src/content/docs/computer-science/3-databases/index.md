@@ -29,7 +29,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Revision works best in one direction here: read Databases, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

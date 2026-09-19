@@ -37,13 +37,27 @@ interface TopicCard {
 
 const UTILITY_LABEL = /^(about|glossary|study hub|practice test|practice-test)$/i
 
-function flattenSidebar(entries: any[]): TopicCard[] {
+interface SidebarLink {
+  type: 'link'
+  label: string
+  href: string
+}
+
+interface SidebarGroup {
+  type: 'group'
+  label: string
+  entries: SidebarEntry[]
+}
+
+type SidebarEntry = SidebarLink | SidebarGroup
+
+function flattenSidebar(entries: SidebarEntry[]): TopicCard[] {
   const cards: TopicCard[] = []
   for (const e of entries) {
     if (e.type === 'link') {
       if (!UTILITY_LABEL.test(e.label)) cards.push({ title: e.label, href: e.href })
     } else if (e.type === 'group') {
-      const first = e.entries.find((c: any) => c.type === 'link')
+      const first = e.entries.find(c => c.type === 'link')
       if (first) {
         cards.push({
           title: e.label,
