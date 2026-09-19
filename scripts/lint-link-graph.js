@@ -287,7 +287,9 @@ for (const [site, { pages }] of Object.entries(sites)) {
               if (fixed !== text) {
                 fs.writeFileSync(page.abs, fixed)
                 rewritten++
-                console.error(`fragment stripped: ${site}:${urlPath} :: ${href} => ${resolved.urlPath}`)
+                console.error(
+                  `fragment stripped: ${site}:${urlPath} :: ${href} => ${resolved.urlPath}`,
+                )
               } else {
                 broken.push({ site, urlPath, href, cls: 'missing-anchor' })
               }

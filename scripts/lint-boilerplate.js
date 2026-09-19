@@ -50,7 +50,10 @@ function firstSentences(body, count) {
     .filter(l => !/^\s*(#|\||```|:|-|\*|\d+\.|<|>)/.test(l))
     .join(' ')
   const sentences = prose.split(/(?<=[.!?])\s+/)
-  return sentences.slice(0, count).map(s => normalize(s)).filter(s => s.split(' ').length >= 5)
+  return sentences
+    .slice(0, count)
+    .map(s => normalize(s))
+    .filter(s => s.split(' ').length >= 5)
 }
 
 const fingerprint = new Map() // normalized sentence -> [{site, path, raw}]
