@@ -1233,6 +1233,6 @@ linked above.
 
 ## Cross-References
 
-- [Classes and Objects](../03-object-oriented/01-classes) -- Synchronized methods and blocks use object monitors to control concurrent access.
-- [Collections Framework](../04-collections/01-collections-framework) -- Thread-safe collections like ConcurrentHashMap provide concurrent access without external synchronization.
-- [Streams API](../05-streams/01-streams-api) -- Parallel streams use the ForkJoinPool to process collections concurrently.
+- [Classes and Objects](/java/03-object-oriented/01-classes/) -- Synchronized methods and blocks use object monitors to control concurrent access.
+- [Collections Framework](/java/04-collections/01-collections-framework/) -- Thread-safe collections like ConcurrentHashMap provide concurrent access without external synchronization.
+- [Streams API](/java/05-streams/01-streams-api/) -- Parallel streams use the ForkJoinPool to process collections concurrently.

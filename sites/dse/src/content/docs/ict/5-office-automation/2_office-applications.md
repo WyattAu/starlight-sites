@@ -22,7 +22,7 @@ categories: "- DSE - ICT"
 Advanced spreadsheet functions like VLOOKUP and INDEX-MATCH enable relational data lookups within flat spreadsheet structures, bridging the gap between simple grids and database queries. Conditional formatting visualises data patterns through colour, and pivot tables summarise large datasets dynamically. Database normalisation eliminates redundancy by organising data into related tables, while SQL provides a declarative language for querying. Understanding these advanced techniques transforms spreadsheets from simple calculators into powerful data analysis platforms.
 
 This document extends the spreadsheet, database, and office automation topics in
-[../5-office-automation/1_office-automation](../5-office-automation/1_office-automation) with
+[../5-office-automation/1_office-automation](/ict/5-office-automation/1_office-automation/) with
 advanced Spreadsheet functions, deeper database operations, and detailed coverage of presentation
 software and Desktop publishing for the DSE ICT practical examination.
 
@@ -1182,6 +1182,6 @@ linked above.
 
 ## Cross-References
 
-- [Office Automation](1_office-automation) provides the overview of office automation tools and their deployment in workplace settings.
-- [System Lifecycle](../6-system-lifecycle/1_system-lifecycle) covers how office applications are selected, implemented, and maintained within an organisation.
-- [Data Representation](../1-data-representation/1_data-representation) explains how office applications store and process different data formats.
+- [Office Automation](/ict/5-office-automation/1_office-automation/) provides the overview of office automation tools and their deployment in workplace settings.
+- [System Lifecycle](/ict/6-system-lifecycle/1_system-lifecycle/) covers how office applications are selected, implemented, and maintained within an organisation.
+- [Data Representation](/ict/1-data-representation/1_data-representation/) explains how office applications store and process different data formats.

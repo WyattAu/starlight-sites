@@ -2249,9 +2249,9 @@ flowchart TD
 
 | Topic                          | Site        | Link                                                          |
 | ------------------------------ | ----------- | ------------------------------------------------------------- |
-| Advanced Operating Systems     | WyattsNotes | [View](5-operating-systems/11_operating-systems-advanced) |
-| Computer Networks              | WyattsNotes | [View](computer-networks)          |
-| Databases                      | WyattsNotes | [View](2-systems/databases)                  |
+| Advanced Operating Systems     | WyattsNotes | [View](/5-operating-systems/11_operating-systems-advanced/) |
+| Computer Networks              | WyattsNotes | [View](/computer-networks/)          |
+| Databases                      | WyattsNotes | [View](/2-systems/databases/)                  |
 | Operating Systems, MIT 6.S081 | MIT         | [View](https://pdos.csail.mit.edu/6.828/2021/schedule.html)   |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

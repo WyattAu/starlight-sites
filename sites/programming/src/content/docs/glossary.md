@@ -373,8 +373,8 @@ graph TD
 
 ## Related Terms
 
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [Python Glossary](glossary) for Python-specific terms
-- See [C++ Glossary](glossary) for C++ specific concepts
-- See [Java Glossary](glossary) for Java-specific concepts
-- See [Rust Glossary](glossary) for Rust-specific concepts
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Python Glossary](/glossary/) for Python-specific terms
+- See [C++ Glossary](/glossary/) for C++ specific concepts
+- See [Java Glossary](/glossary/) for Java-specific concepts
+- See [Rust Glossary](/glossary/) for Rust-specific concepts

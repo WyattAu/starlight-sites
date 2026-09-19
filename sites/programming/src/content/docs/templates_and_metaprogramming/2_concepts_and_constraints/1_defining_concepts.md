@@ -905,9 +905,9 @@ Constrained template parameter.
 
 ## See Also
 
-- [Constraint Subsumption and Overload Resolution](./2_constraint_subsumption)
-- [Standard Library Concepts](./3_standard_concepts)
-- [SFINAE vs Concepts](./4_sfinae_vs_concepts)
+- [Constraint Subsumption and Overload Resolution](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+- [SFINAE vs Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -588,5 +588,5 @@ flowchart TD
 ## See Also
 
 - [Human Geography](./)
-- [Changing Places](./1_changing-places)
-- [Global Systems and Governance](./2_global-systems)
+- [Changing Places](/geography/2-human-geography/1_changing-places/)
+- [Global Systems and Governance](/geography/2-human-geography/2_global-systems/)

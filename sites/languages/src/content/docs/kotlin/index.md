@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Kotlin Basics](./flashcards-kotlin-basics)
-- [Intro](./intro)
-- [Practice Kotlin Basics](./practice-kotlin-basics)
-- [Practice Null Safety](./practice-null-safety)
+- [Flashcards Kotlin Basics](/kotlin/flashcards-kotlin-basics/)
+- [Intro](/kotlin/intro/)
+- [Practice Kotlin Basics](/kotlin/practice-kotlin-basics/)
+- [Practice Null Safety](/kotlin/practice-null-safety/)
 
 ## Learning Objectives
 

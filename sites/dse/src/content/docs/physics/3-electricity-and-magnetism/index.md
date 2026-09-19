@@ -18,9 +18,9 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_electrical Circuits](./1_electrical-circuits)
-- [2_electricity And Magnetism](./2_electricity-and-magnetism)
-- [3_magnetism And Electromagnetism](./3_magnetism-and-electromagnetism)
+- [1_electrical Circuits](/physics/3-electricity-and-magnetism/1_electrical-circuits/)
+- [2_electricity And Magnetism](/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/)
+- [3_magnetism And Electromagnetism](/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/)
 
 ## Learning Objectives
 

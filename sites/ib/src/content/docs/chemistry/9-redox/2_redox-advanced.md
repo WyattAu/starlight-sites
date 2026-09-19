@@ -1000,15 +1000,15 @@ $E_{\mathrm{cell}}^\circ = 1.23\;\mathrm{V}$ And calculate the voltage efficienc
 ## If You Get These Wrong, Revise
 
 - **Oxidation numbers and balancing redox equations** → Review
-  [..../9-redox/1_redox-reactions](../9-redox/1_redox-reactions)
+  [..../9-redox/1_redox-reactions](/chemistry/9-redox/1_redox-reactions/)
 - **Equilibrium and the equilibrium constant** → Review
-  [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
+  [..../7-equilibrium/1_equilibrium](/chemistry/7-equilibrium/1_equilibrium/)
 - **Thermodynamics and Gibbs free energy** → Review
-  [..../5-energetics/1_thermochemistry](../5-energetics/1_thermochemistry)
+  [..../5-energetics/1_thermochemistry](/chemistry/5-energetics/1_thermochemistry/)
 - **Atomic structure and electron configurations** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Acids, bases, and pH** → Review
-  [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
+  [..../8-acids-and-bases/2_acids-and-bases-advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
 
 ```mermaid
 flowchart TD

@@ -698,9 +698,9 @@ ghc -O2 -threaded -rtsopts -with-rtsopts=-N MyProgram.hs
 
 ## Cross-References
 
-- **[Monads and Functors](../04-monads/1_monads-and-functors):** IO monad and monad transformers used for concurrent effect management.
-- **[Types and Functions](../01-basics/1_types-and-functions):** Function composition and higher-order functions in parallel strategies.
-- **[Advanced Types](./1_advanced-types):** Phantom types and GADTs for type-safe concurrent data structures.
+- **[Monads and Functors](/haskell/04-monads/1_monads-and-functors/):** IO monad and monad transformers used for concurrent effect management.
+- **[Types and Functions](/haskell/01-basics/1_types-and-functions/):** Function composition and higher-order functions in parallel strategies.
+- **[Advanced Types](/haskell/05-advanced/1_advanced-types/):** Phantom types and GADTs for type-safe concurrent data structures.
 
 ## Common Mistakes
 

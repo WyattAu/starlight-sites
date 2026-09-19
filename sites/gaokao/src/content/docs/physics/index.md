@@ -18,9 +18,9 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Electricity](./electricity)
-- [Mechanics](./mechanics)
-- [Optics](./optics)
+- [Electricity](/physics/electricity/)
+- [Mechanics](/physics/mechanics/)
+- [Optics](/physics/optics/)
 
 ## Learning Objectives
 

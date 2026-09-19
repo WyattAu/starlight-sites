@@ -1168,5 +1168,5 @@ linked above.
 ## See Also
 
 - [Acids And Bases](./)
-- [Acids and Bases (Advanced)](./2_acids-and-bases-advanced)
-- [IB Chemistry](..)
+- [Acids and Bases (Advanced)](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
+- [IB Chemistry](/)

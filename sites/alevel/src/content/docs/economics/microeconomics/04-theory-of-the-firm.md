@@ -1293,7 +1293,7 @@ each approach.
 
 ## Cross-References
 
-- [Market Failure](03-market-failure) covers externalities and government intervention that constrain firm behaviour and market outcomes.
-- [Labour Markets](05-labour-markets) applies the monopsony and minimum wage models that extend the theory of the firm to factor markets.
-- [The Financial Sector](../macro/03-the-financial-sector) explains how interest rates and monetary policy affect firms' cost of borrowing and investment decisions.
-- [Demand, Supply and Equilibrium](02-demand-supply-and-equilibrium) provides the demand and cost foundations used throughout the theory of the firm analysis.
+- [Market Failure](/economics/microeconomics/03-market-failure/) covers externalities and government intervention that constrain firm behaviour and market outcomes.
+- [Labour Markets](/economics/microeconomics/05-labour-markets/) applies the monopsony and minimum wage models that extend the theory of the firm to factor markets.
+- [The Financial Sector](/economics/macro/03-the-financial-sector/) explains how interest rates and monetary policy affect firms' cost of borrowing and investment decisions.
+- [Demand, Supply and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/) provides the demand and cost foundations used throughout the theory of the firm analysis.

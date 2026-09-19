@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Swift Basics](./flashcards-swift-basics)
-- [Practice Swift Basics](./practice-swift-basics)
+- [Flashcards Swift Basics](/swift/flashcards-swift-basics/)
+- [Practice Swift Basics](/swift/practice-swift-basics/)
 
 ## Learning Objectives
 

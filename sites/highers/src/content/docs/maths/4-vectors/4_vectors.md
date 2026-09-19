@@ -799,6 +799,6 @@ applying these mathematical techniques.
 
 ## Cross-References
 
-- [Algebra and Functions](../1-algebra-functions/1_algebra-functions) -- Vector operations use algebraic techniques including dot product and cross product.
-- [Trigonometry](../2-trigonometry/2_trigonometry) -- Angles between vectors are calculated using trigonometric relationships and the dot product formula.
-- [Mechanics](../../physics/1-mechanics/1_mechanics) -- Forces, displacement, and velocity are vector quantities analysed using vector algebra.
+- [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Vector operations use algebraic techniques including dot product and cross product.
+- [Trigonometry](/maths/2-trigonometry/2_trigonometry/) -- Angles between vectors are calculated using trigonometric relationships and the dot product formula.
+- [Mechanics](/physics/1-mechanics/1_mechanics/) -- Forces, displacement, and velocity are vector quantities analysed using vector algebra.

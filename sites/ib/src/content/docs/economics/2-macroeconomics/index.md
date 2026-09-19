@@ -18,10 +18,10 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [National Income](./1-national-income)
-- [Fiscal Policy](./2-fiscal-policy)
-- [Monetary Policy](./3-monetary-policy)
-- [Supply Side Policy](./4-supply-side-policy)
+- [National Income](/economics/2-macroeconomics/1-national-income/)
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
+- [Monetary Policy](/economics/2-macroeconomics/3-monetary-policy/)
+- [Supply Side Policy](/economics/2-macroeconomics/4-supply-side-policy/)
 
 ## Learning Objectives
 

@@ -747,5 +747,5 @@ linked above.
 ## See Also
 
 - [1_threading_and_synchronization](./)
-- [Thread Execution (std::jthread) and Hardware Mapping](./1_threads_jthread)
-- [Data Races and Critical Sections](./2_data_races)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)

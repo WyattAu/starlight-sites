@@ -796,7 +796,7 @@ Computer science is about solving problems through computation. Hardware provide
 
 ## Cross-References
 
-- [2 Hardware](computer-science/2-hardware/2_hardware)
-- [3 Networks](computer-science/3-networks/3_networks)
-- [Biology](biology)
-- [2 Organisation](biology/2-organisation/2_organisation)
+- [2 Hardware](/computer-science/2-hardware/2_hardware/)
+- [3 Networks](/computer-science/3-networks/3_networks/)
+- [Biology](/biology/)
+- [2 Organisation](/biology/2-organisation/2_organisation/)

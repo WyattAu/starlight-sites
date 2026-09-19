@@ -142,9 +142,9 @@ Network models are the organisational charts of data communication. The OSI mode
 
 ## Cross-References
 
-- [Physical Layer](2_physical-layer)
-- [Network Layer](4_network-layer)
-- [Transport Layer](5_transport-layer)
+- [Physical Layer](/3-computer-networks/2_physical-layer/)
+- [Network Layer](/3-computer-networks/4_network-layer/)
+- [Transport Layer](/3-computer-networks/5_transport-layer/)
 
 
 ## Advanced Content

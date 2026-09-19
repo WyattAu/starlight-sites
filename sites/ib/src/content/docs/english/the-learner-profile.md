@@ -334,5 +334,5 @@ Use this audit to identify areas for growth and to set goals for the remainder o
 ## See Also
 
 - [English](./)
-- [A Streetcar Named Desire](./a-street-car-named-desire)
-- [Chronicle of a Death Foretold, Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

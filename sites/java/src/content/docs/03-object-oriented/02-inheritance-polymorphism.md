@@ -939,7 +939,7 @@ Inheritance establishes an is-a relationship where a subclass inherits fields an
 
 ## Cross-References
 
-- [Classes and Inheritance](01-classes) -- class declarations and access modifiers
-- [Streams API](../05-streams/01-streams-api) -- functional interfaces and lambdas
-- [Concurrency](../06-concurrency/01-concurrency) -- thread safety and synchronization
+- [Classes and Inheritance](/03-object-oriented/01-classes/) -- class declarations and access modifiers
+- [Streams API](/05-streams/01-streams-api/) -- functional interfaces and lambdas
+- [Concurrency](/06-concurrency/01-concurrency/) -- thread safety and synchronization
 :::

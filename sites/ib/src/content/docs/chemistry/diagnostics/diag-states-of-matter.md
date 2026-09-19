@@ -230,6 +230,6 @@ forces) to change state, making all phase transitions require enormous energy in
 
 ## Cross-References
 
-- **[Atomic Structure](../flashcards-atomic-structure):** Atomic structure determines bonding
-- **[Energetics](../flashcards-energetics):** Energy changes are fundamental
-- **[Equilibrium](../flashcards-kinetics-equilibrium):** Equilibrium is a core topic
+- **[Atomic Structure](/chemistry/flashcards-atomic-structure/):** Atomic structure determines bonding
+- **[Energetics](/chemistry/flashcards-energetics/):** Energy changes are fundamental
+- **[Equilibrium](/chemistry/flashcards-kinetics-equilibrium/):** Equilibrium is a core topic

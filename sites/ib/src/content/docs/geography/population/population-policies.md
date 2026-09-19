@@ -247,9 +247,9 @@ Ethics (were reproductive rights respected?).
 
 </details>
 
-For related topics, see [./demographic-transition-model](./demographic-transition-model) and
-[./migration-theories-and-patterns](./migration-theories-and-patterns). The parent topic page is at
-[../population-distribution](../population-distribution).
+For related topics, see [./demographic-transition-model](/geography/population/demographic-transition-model/) and
+[./migration-theories-and-patterns](/geography/population/migration-theories-and-patterns/). The parent topic page is at
+[../population-distribution](/geography/population-distribution/).
 
 ## Intuition
 

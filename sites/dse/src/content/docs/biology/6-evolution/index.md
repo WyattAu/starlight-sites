@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_evolution](./1_evolution)
+- [1_evolution](/biology/6-evolution/1_evolution/)
 
 ## Learning Objectives
 

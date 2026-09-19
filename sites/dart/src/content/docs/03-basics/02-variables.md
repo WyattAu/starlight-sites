@@ -311,7 +311,7 @@ Cannot be extended.
 #### Functions
 
 Functions in Dart are first-class objects, they can be assigned to variables, passed as arguments,
-And returned from other functions. See [Function Mechanics](./01-entrypoint) for the entry point
+And returned from other functions. See [Function Mechanics](/03-basics/01-entrypoint/) for the entry point
 Discussion.
 
 ```dart

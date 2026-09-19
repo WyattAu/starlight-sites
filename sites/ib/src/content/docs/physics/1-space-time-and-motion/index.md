@@ -18,11 +18,11 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_kinematics](./1_kinematics)
-- [2_dynamics](./2_dynamics)
-- [3_energy](./3_energy)
-- [4_rotational Motion](./4_rotational-motion)
-- [5_forces And Momentum](./5_forces-and-momentum)
+- [1_kinematics](/physics/1-space-time-and-motion/1_kinematics/)
+- [2_dynamics](/physics/1-space-time-and-motion/2_dynamics/)
+- [3_energy](/physics/1-space-time-and-motion/3_energy/)
+- [4_rotational Motion](/physics/1-space-time-and-motion/4_rotational-motion/)
+- [5_forces And Momentum](/physics/1-space-time-and-motion/5_forces-and-momentum/)
 
 ## Learning Objectives
 

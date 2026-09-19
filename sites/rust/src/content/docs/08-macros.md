@@ -1683,6 +1683,6 @@ import { Citation } from "@components/Citations.astro"
 
 ## Cross-References
 
-- [Cargo and Ecosystem](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/cargo-and-ecosystem)
-- [Traits and Generics](../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)
-- [Unsafe Rust](../../../../languages/src/content/docs/rust/07-cargo-ecosystem/unsafe-rust)
+- [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
+- [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+- [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/)

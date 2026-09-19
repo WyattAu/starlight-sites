@@ -291,5 +291,5 @@ linked above.
 
 ## Cross-References
 
-- **[Cell Biology](./diag-cell-biology):** Cell division and DNA structure.
-- **[Organisation](./diag-organisation):** Body systems and their functions.
+- **[Cell Biology](/biology/diagnostics/diag-cell-biology/):** Cell division and DNA structure.
+- **[Organisation](/biology/diagnostics/diag-organisation/):** Body systems and their functions.

@@ -849,6 +849,6 @@ DNS is the internet's phone book: it translates human-readable names (google.com
 
 ## Cross-References
 
-- [DNS Architecture](dns-architecture)
-- [HTTP](../05-http-https/http)
-- [IP Addressing](../02-ip-addressing/ip-addressing)
+- [DNS Architecture](/04-dns/dns-architecture/)
+- [HTTP](/05-http-https/http/)
+- [IP Addressing](/02-ip-addressing/ip-addressing/)

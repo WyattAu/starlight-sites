@@ -1130,6 +1130,6 @@ linked above.
 
 ## Cross-References
 
-- [CPU Fundamentals](../01-cpu-tuning/cpu-fundamentals) - How memory controllers and IMC settings interact with CPU performance
-- [Stress Testing](../06-stress-testing/stress-testing) - How memory stress tests validate XMP/EXPO profile stability
-- [Undervolting and Overclocking](../undervolting-and-overclocking) - How memory voltage and timing adjustments affect system stability
+- [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - How memory controllers and IMC settings interact with CPU performance
+- [Stress Testing](/06-stress-testing/stress-testing/) - How memory stress tests validate XMP/EXPO profile stability
+- [Undervolting and Overclocking](/undervolting-and-overclocking/) - How memory voltage and timing adjustments affect system stability

@@ -163,8 +163,8 @@ $\blacksquare$
 ## See Also
 
 - [Electromagnetism](./)
-- [Radiation from Accelerating Charges](./10_radiation-from-accelerating-charges)
-- [Advanced Electrodynamics](./11_advanced-electrodynamics)
+- [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
 
 
 ## Advanced Content

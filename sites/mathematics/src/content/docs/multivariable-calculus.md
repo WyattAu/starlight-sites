@@ -2109,9 +2109,9 @@ flowchart TD
 
 | Topic                              | Site        | Link                                                                          |
 | ---------------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Real Analysis                      | WyattsNotes | [View](real-analysis)                            |
-| Linear Algebra                     | WyattsNotes | [View](linear-algebra)                           |
-| Differential Equations             | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)                   |
+| Real Analysis                      | WyattsNotes | [View](/real-analysis/)                            |
+| Linear Algebra                     | WyattsNotes | [View](/linear-algebra/)                           |
+| Differential Equations             | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)                   |
 | Multivariable Calculus, MIT 18.02 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/) |
 :::
 

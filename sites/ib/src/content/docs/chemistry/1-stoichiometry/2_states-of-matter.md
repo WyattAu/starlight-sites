@@ -997,15 +997,15 @@ what minimum temperature can the substance be liquefied by pressure alone?
 ## If You Get These Wrong, Revise
 
 - **Atomic structure and electron configuration** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Bonding and intermolecular forces in depth** → Review
-  [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
+  [..../4-chemical-bonding/2_chemical-bonding-advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
 - **Thermodynamics (energy changes in state transitions)** → Review
-  [..../5-energetics/1_thermochemistry](../5-energetics/1_thermochemistry)
+  [..../5-energetics/1_thermochemistry](/chemistry/5-energetics/1_thermochemistry/)
 - **Stoichiometry and the mole concept** → Review
-  [..../1-stoichiometry/1_stoichiometric-relationships](../1-stoichiometry/1_stoichiometric-relationships)
+  [..../1-stoichiometry/1_stoichiometric-relationships](/chemistry/1-stoichiometry/1_stoichiometric-relationships/)
 - **Periodic trends affecting physical properties** → Review
-  [..../3-periodicity/1_periodicity](../3-periodicity/1_periodicity)
+  [..../3-periodicity/1_periodicity](/chemistry/3-periodicity/1_periodicity/)
 
 
 ```mermaid

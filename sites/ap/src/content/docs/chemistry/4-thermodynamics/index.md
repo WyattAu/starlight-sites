@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [4_thermodynamics](./4_thermodynamics)
+- [4_thermodynamics](/chemistry/4-thermodynamics/4_thermodynamics/)
 
 ## Learning Objectives
 

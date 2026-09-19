@@ -18,13 +18,13 @@ This section provides study materials and resources for 1_ownership_and_raii. Br
 
 ## Topics
 
-- [1_raii_patterns](./1_raii_patterns)
-- [2_unique_ptr](./2_unique_ptr)
-- [3_shared_ptr](./3_shared_ptr)
-- [4_weak_ptr](./4_weak_ptr)
-- [5_custom_deleters](./5_custom_deleters)
-- [Flashcards Memory Management](./flashcards-memory-management)
-- [Practice Memory Management](./practice-memory-management)
+- [1_raii_patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [2_unique_ptr](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [3_shared_ptr](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [4_weak_ptr](/resource_management/1_ownership_and_raii/4_weak_ptr/)
+- [5_custom_deleters](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Flashcards Memory Management](/resource_management/1_ownership_and_raii/flashcards-memory-management/)
+- [Practice Memory Management](/resource_management/1_ownership_and_raii/practice-memory-management/)
 
 ## Learning Objectives
 

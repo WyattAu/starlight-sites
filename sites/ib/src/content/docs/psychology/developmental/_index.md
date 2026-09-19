@@ -21,11 +21,11 @@ with a focus on attachment, cognitive development, and adolescence.
 
 ## Pages
 
-- [Attachment Theory](./attachment-theory) -- Bowlby"s theory, Ainsworth's Strange Situation, types
+- [Attachment Theory](/psychology/developmental/attachment-theory/) -- Bowlby"s theory, Ainsworth's Strange Situation, types
   of attachment, and cross-cultural variations.
-- [Cognitive Development](./cognitive-development) -- Piaget's stages, Vygotsky's sociocultural
+- [Cognitive Development](/psychology/developmental/cognitive-development/) -- Piaget's stages, Vygotsky's sociocultural
   theory, and their implications for education.
-- [Adolescent Development](./adolescent-development) -- physical, cognitive, and social changes
+- [Adolescent Development](/psychology/developmental/adolescent-development/) -- physical, cognitive, and social changes
   during adolescence, identity formation, and risk-taking behaviour.
 
 ## Overview
@@ -141,9 +141,9 @@ explanation and empirical evaluation.
 
 | Topic                  | Link                                                             |
 | ---------------------- | ---------------------------------------------------------------- |
-| Attachment Theory      | [View](attachment-theory)      |
-| Cognitive Development  | [View](cognitive-development)  |
-| Adolescent Development | [View](adolescent-development) |
+| Attachment Theory      | [View](/psychology/developmental/attachment-theory/)      |
+| Cognitive Development  | [View](/psychology/developmental/cognitive-development/)  |
+| Adolescent Development | [View](/psychology/developmental/adolescent-development/) |
 
 ## Intuition
 

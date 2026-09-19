@@ -879,8 +879,8 @@ linked above.
 
 ## Cross-References
 
-- [Bash Scripting](bash-scripting) -- Shell variables, control flow, and functions are the building blocks of bash scripts.
-- [I/O Redirection](../03-process-management/io-redirection) -- Shell features like pipes and redirection are fundamental to command composition.
-- [Core Utilities](core-utilities) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
-- [Processes and Signals](../03-process-management/processes-and-signals) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Shell variables, control flow, and functions are the building blocks of bash scripts.
+- [I/O Redirection](/03-process-management/io-redirection/) -- Shell features like pipes and redirection are fundamental to command composition.
+- [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
+- [Processes and Signals](/03-process-management/processes-and-signals/) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
 :::

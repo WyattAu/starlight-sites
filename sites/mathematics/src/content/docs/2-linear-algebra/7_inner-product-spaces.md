@@ -289,9 +289,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors)**: The spectral theorem for symmetric matrices guarantees an orthonormal eigenbasis, which is an inner product space concept.
-- **[Vectors and Vector Spaces](1_vectors-and-vector-spaces)**: Inner product spaces are vector spaces equipped with an inner product that generalises the dot product.
-- **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD decomposes a matrix using orthonormal bases derived from inner products on $A^T A$ and $AA^T$.
+- **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: The spectral theorem for symmetric matrices guarantees an orthonormal eigenbasis, which is an inner product space concept.
+- **[Vectors and Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/)**: Inner product spaces are vector spaces equipped with an inner product that generalises the dot product.
+- **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD decomposes a matrix using orthonormal bases derived from inner products on $A^T A$ and $AA^T$.
 :::
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

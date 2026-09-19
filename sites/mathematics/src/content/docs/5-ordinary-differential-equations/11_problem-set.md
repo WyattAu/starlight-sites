@@ -537,5 +537,5 @@ flowchart TD
 ## See Also
 
 - [Differential Equations](./)
-- [Introduction and Classification](./1_introduction-and-classification)
-- [Common Pitfalls](./10_common-pitfalls)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)

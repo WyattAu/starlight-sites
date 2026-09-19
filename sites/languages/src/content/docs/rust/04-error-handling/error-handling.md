@@ -896,5 +896,5 @@ Rust uses Result<T, E> instead of exceptions. The ? operator propagates errors u
 ## See Also
 
 - [Error Handling](./)
-- [Error Handling Patterns](./error-handling-patterns)
-- [Rust](..)
+- [Error Handling Patterns](/rust/04-error-handling/error-handling-patterns/)
+- [Rust](/)

@@ -1056,6 +1056,6 @@ Python's control flow is built on the idea that code should read like prose. `if
 
 ## Cross-References
 
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
-- [Generators and Iterators](../../../../../languages/src/content/docs/python/02-fundamentals/04-generators-and-iterators)
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+- [Generators and Iterators](https://languages.wyattau.com/python/02-fundamentals/04-generators-and-iterators/)

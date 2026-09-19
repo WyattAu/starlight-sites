@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_error Handling](./1_error-handling)
-- [2_concurrency](./2_concurrency)
+- [1_error Handling](/swift/04-advanced/1_error-handling/)
+- [2_concurrency](/swift/04-advanced/2_concurrency/)
 
 ## Learning Objectives
 

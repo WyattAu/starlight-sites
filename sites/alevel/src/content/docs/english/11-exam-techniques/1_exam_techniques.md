@@ -186,8 +186,8 @@ Apply these techniques to a timed response. Choose one of the following and writ
 ## See Also
 
 - [Exam Techniques](./)
-- [A-Level English](..)
-- [Analytical Techniques](../../chemistry/organic-chemistry/analytical-techniques)
+- [A-Level English](/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)
 
 ## Advanced Content
 

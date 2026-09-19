@@ -921,5 +921,5 @@ linked above.
 ## See Also
 
 - [Arrays Strings](./)
-- [Hashing and Hash Tables](./hashing-and-hash-tables)
-- [Algorithms](..)
+- [Hashing and Hash Tables](/algorithms/02-arrays-strings/hashing-and-hash-tables/)
+- [Algorithms](/)

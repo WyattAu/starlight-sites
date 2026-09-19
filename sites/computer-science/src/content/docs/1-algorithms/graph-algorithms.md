@@ -561,9 +561,9 @@ Graphs model relationships between entities. BFS explores level by level, findin
 
 | Topic             | Link                                                        |
 | ----------------- | ----------------------------------------------------------- |
-| Algorithm Design  | [View](algorithm-design)  |
-| Data Structures   | [View](data-structures)   |
-| Complexity Theory | [View](complexity-theory) |
+| Algorithm Design  | [View](/1-algorithms/algorithm-design/)  |
+| Data Structures   | [View](/1-algorithms/data-structures/)   |
+| Complexity Theory | [View](/1-algorithms/complexity-theory/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -199,8 +199,8 @@ value := <-ch
 
 ## Related Terms
 
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Rust Glossary](glossary) for systems language comparison
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [Linux Glossary](glossary) for Go on Linux
-- See [Databases Glossary](glossary) for Go database access
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Rust Glossary](/glossary/) for systems language comparison
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Linux Glossary](/glossary/) for Go on Linux
+- See [Databases Glossary](/glossary/) for Go database access

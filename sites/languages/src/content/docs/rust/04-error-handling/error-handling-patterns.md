@@ -1023,5 +1023,5 @@ Error handling patterns in Rust build on Result and Option to create robust appl
 ## See Also
 
 - [Error Handling](./)
-- [Error Handling](./error-handling)
-- [Rust](..)
+- [Error Handling](/rust/04-error-handling/error-handling/)
+- [Rust](/)

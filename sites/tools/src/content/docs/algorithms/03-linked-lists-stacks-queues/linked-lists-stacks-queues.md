@@ -839,6 +839,6 @@ linked above.
 
 ## Cross-References
 
-- **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables):** Covers hash-based data structures that provide O(1) average-case operations compared to linear structures.
-- **[Sorting Algorithms](../05-sorting/sorting):** Sorting techniques that can be applied to linked lists and arrays.
-- **[Dynamic Programming](../06-dynamic-programming/dynamic-programming):** Explores recursive problem-solving that builds on stack and queue concepts.
+- **[Hashing and Hash Tables](/algorithms/02-arrays-strings/hashing-and-hash-tables/):** Covers hash-based data structures that provide O(1) average-case operations compared to linear structures.
+- **[Sorting Algorithms](/algorithms/05-sorting/sorting/):** Sorting techniques that can be applied to linked lists and arrays.
+- **[Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/):** Explores recursive problem-solving that builds on stack and queue concepts.

@@ -288,9 +288,9 @@ int main() {
 
 ## See Also
 
-- [Data Races and Critical Sections](./2_data_races)
-- [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks)
-- [Condition Variables, Latches, and Barriers](./4_condition_variables)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
 
 ## Thread Identifier and Native Handle
 
@@ -596,6 +596,6 @@ C++ threads are OS-level execution contexts. `std::thread` spawns a new thread, 
 
 ## Cross-References
 
-- [Mutexes and Deadlocks](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks)
-- [Condition Variables](../../../../../../programming/src/content/docs/concurrency/1_threading_and_synchronization/4_condition_variables)
-- [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations)
+- [Mutexes and Deadlocks](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Condition Variables](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/)

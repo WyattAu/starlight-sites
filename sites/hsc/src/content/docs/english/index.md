@@ -18,8 +18,8 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [Reading](./reading)
-- [Writing](./writing)
+- [Reading](/english/reading/)
+- [Writing](/english/writing/)
 
 ## Learning Objectives
 

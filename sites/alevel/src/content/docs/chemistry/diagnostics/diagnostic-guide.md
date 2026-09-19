@@ -281,8 +281,8 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
-- [Alkanes and Alkenes -- Diagnostic Tests](./diag-alkanes-alkenes)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Alkanes and Alkenes -- Diagnostic Tests](/chemistry/diagnostics/diag-alkanes-alkenes/)
 
 ```mermaid
 graph TD

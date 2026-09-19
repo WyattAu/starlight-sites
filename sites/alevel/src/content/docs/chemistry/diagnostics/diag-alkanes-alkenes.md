@@ -497,5 +497,5 @@ The mixture is **ethene** ($\mathrm{C}_2\mathrm{H}_4$) and **butane**
 ## See Also
 
 - [Diagnostics](./)
-- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
-- [Atomic Structure and Periodicity -- Diagnostic Tests](./diag-atomic-structure)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)

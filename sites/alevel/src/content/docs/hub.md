@@ -16,22 +16,22 @@ A-Levels are the standard qualifications for university entry in the UK, taken b
 ### Available Subjects
 
 #### Sciences
-- **[Biology](./biology/)**, Cell biology, genetics, ecology, human physiology, evolution, and microbiology
-- **[Chemistry](./chemistry/)**, Physical, organic, and inorganic chemistry with practical skills
-- **[Physics](./physics/)**, Mechanics, waves, electricity, fields, nuclear physics, and thermal physics
+- **[Biology](/biology/)**, Cell biology, genetics, ecology, human physiology, evolution, and microbiology
+- **[Chemistry](/chemistry/)**, Physical, organic, and inorganic chemistry with practical skills
+- **[Physics](/physics/)**, Mechanics, waves, electricity, fields, nuclear physics, and thermal physics
 
 #### Mathematics
-- **[Mathematics](./maths/)**, Pure mathematics, mechanics, and statistics
-- **[Further Maths](./further-maths/)**, Further pure, further mechanics, and further statistics
+- **[Mathematics](/maths/)**, Pure mathematics, mechanics, and statistics
+- **[Further Maths](/further-maths/)**, Further pure, further mechanics, and further statistics
 
 #### Humanities
-- **[Economics](./economics/)**, Microeconomics, macroeconomics, and economic principles
-- **[English](./english/)**, Language and literature analysis
-- **[Geography](./geography/)**, Physical and human geography
-- **[History](./history/)**, British and world history
+- **[Economics](/economics/)**, Microeconomics, macroeconomics, and economic principles
+- **[English](/english/)**, Language and literature analysis
+- **[Geography](/geography/)**, Physical and human geography
+- **[History](/history/)**, British and world history
 
 #### Technology
-- **[Computer Science](./computer-science/)**, Programming, algorithms, data structures, and theory
+- **[Computer Science](/computer-science/)**, Programming, algorithms, data structures, and theory
 
 ### Study Recommendations
 

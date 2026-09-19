@@ -802,10 +802,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Probability](../statistics/03-probability), The probability theory and distributions used as test statistics are developed in the probability topic.
-- [Statistical Distributions](04-statistical-distributions), Binomial and normal distributions provide the test statistics for hypothesis testing.
-- [Data Representation](../statistics/01-data-representation), Summary statistics from data representation are the inputs for significance tests and confidence intervals.
-- [Correlation and Regression](../statistics/02-correlation-and-regression), Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
+- [Probability](/maths/statistics/03-probability/), The probability theory and distributions used as test statistics are developed in the probability topic.
+- [Statistical Distributions](/maths/statistics/04-statistical-distributions/), Binomial and normal distributions provide the test statistics for hypothesis testing.
+- [Data Representation](/maths/statistics/01-data-representation/), Summary statistics from data representation are the inputs for significance tests and confidence intervals.
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/), Hypothesis tests on PMCC and regression coefficients use the methods from this topic.
 
 ```mermaid
 flowchart TD

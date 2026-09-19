@@ -458,5 +458,5 @@ molecules (1 mark).
 ## See Also
 
 - [Diagnostics](./)
-- [Atomic Structure and Periodicity -- Diagnostic Tests](./diag-atomic-structure)
-- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)

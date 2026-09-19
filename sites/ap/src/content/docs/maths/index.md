@@ -36,11 +36,11 @@ exam. The content follows the College Board"s course framework and mathematical 
 
 ## Topics
 
-- **[1. Limits and Continuity](1-limits-and-continuity/1_limits-and-continuity)**
-- **[2. Derivatives](2-derivatives/2_derivatives)**
-- **[3. Integrals](3-integrals/3_integrals)**
-- **[4. Differential Equations](4-differential-equations/4_differential-equations)**
-- **[5. Sequences and Series](5-sequences-and-series/5_sequences-and-series)**
+- **[1. Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/)**
+- **[2. Derivatives](/maths/2-derivatives/2_derivatives/)**
+- **[3. Integrals](/maths/3-integrals/3_integrals/)**
+- **[4. Differential Equations](/maths/4-differential-equations/4_differential-equations/)**
+- **[5. Sequences and Series](/maths/5-sequences-and-series/5_sequences-and-series/)**
 
 ## Topics Covered
 
@@ -149,7 +149,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- **[AP Physics](../../../../../ib/src/content/docs/physics/physics):** Calculus is essential for Physics C, kinematics, work, and circuits all require derivatives and integrals.
-- **[AP Statistics](../../../../../alevel/src/content/docs/further-maths/flashcards-further-statistics):** Probability and distributions in statistics use concepts from calculus.
-- **[AP Computer Science](../../../../../ib/src/content/docs/computer-science/computer-science):** Algorithm analysis uses limits and series to describe time complexity.
+- **[AP Physics](https://ib.wyattau.com/physics/physics/):** Calculus is essential for Physics C, kinematics, work, and circuits all require derivatives and integrals.
+- **[AP Statistics](https://alevel.wyattau.com/further-maths/flashcards-further-statistics/):** Probability and distributions in statistics use concepts from calculus.
+- **[AP Computer Science](https://ib.wyattau.com/computer-science/computer-science/):** Algorithm analysis uses limits and series to describe time complexity.
 - **[Computer Science, Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Asymptotic analysis of algorithms relies on the same limit and series concepts used in calculus, Big-O notation is formalised using limits.

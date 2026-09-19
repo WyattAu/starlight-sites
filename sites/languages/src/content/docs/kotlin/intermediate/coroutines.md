@@ -374,7 +374,7 @@ linked above.
 
 ## Cross-References
 
-- [Coroutines Advanced](../../../../../../kotlin/src/content/docs/intermediate/coroutines-advanced), Flow error handling, StateFlow, SharedFlow, and testing patterns extend the coroutine basics covered here.
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), Flow operators (map, filter, fold) mirror collection transformation operations; sequences provide lazy evaluation.
-- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics), Deferred<T>, Flow<T>, and Channel<T> use generic type parameters with variance annotations.
-- [Delegation and Result](../../../../../../kotlin/src/content/docs/intermediate/delegation-and-result), Property delegation and the Result type complement coroutine patterns for state management and error handling.
+- [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), Flow error handling, StateFlow, SharedFlow, and testing patterns extend the coroutine basics covered here.
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/), Flow operators (map, filter, fold) mirror collection transformation operations; sequences provide lazy evaluation.
+- [Generics](https://kotlin.wyattau.com/intermediate/generics/), Deferred<T>, Flow<T>, and Channel<T> use generic type parameters with variance annotations.
+- [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Property delegation and the Result type complement coroutine patterns for state management and error handling.

@@ -55,39 +55,39 @@ revision and drill practice.
 
 ## Algebra and Functions
 
-- **[Functions](../../../../../languages/src/content/docs/typescript/functions)** -- Domain and range, function notation, linear functions,
+- **[Functions](https://languages.wyattau.com/typescript/functions/)** -- Domain and range, function notation, linear functions,
   quadratic functions, and graph sketching techniques
-- **[Functions (Advanced)](compulsory/2_functions-advanced)** -- Composite functions, inverse
+- **[Functions (Advanced)](/maths/compulsory/2_functions-advanced/)** -- Composite functions, inverse
   functions, exponential functions, logarithmic functions, and function transformations
-- **[Quadratics](compulsory/3_quadratics)** -- Factorisation, completing the square, quadratic
+- **[Quadratics](/maths/compulsory/3_quadratics/)** -- Factorisation, completing the square, quadratic
   formula, discriminant, and graphs of quadratic functions
-- **[Polynomials](compulsory/4_polynomials)** -- Polynomial division, factor theorem, remainder
+- **[Polynomials](/maths/compulsory/4_polynomials/)** -- Polynomial division, factor theorem, remainder
   theorem, roots of equations, and polynomial graphs
-- **[Inequalities](compulsory/5_inequalities)** -- Linear inequalities, quadratic inequalities,
+- **[Inequalities](/maths/compulsory/5_inequalities/)** -- Linear inequalities, quadratic inequalities,
   absolute value inequalities, systems of inequalities, and optimisation problems
-- **[Sequences and Series](./compulsory/6_sequences-and-series)** -- Arithmetic sequences, geometric
+- **[Sequences and Series](/maths/compulsory/6_sequences-and-series/)** -- Arithmetic sequences, geometric
   sequences, series summation, sigma notation, and convergence tests
-- **[Logarithms](./compulsory/7_logarithmics)** -- Logarithmic laws, solving exponential and logarithmic
+- **[Logarithms](/maths/compulsory/7_logarithmics/)** -- Logarithmic laws, solving exponential and logarithmic
   equations, change of base formula, and real-world applications
 
 ## Geometry and Trigonometry
 
-- **[Coordinate Geometry](compulsory/9_coordinate-geometry)** -- Straight lines, circles, equations
+- **[Coordinate Geometry](/maths/compulsory/9_coordinate-geometry/)** -- Straight lines, circles, equations
   of curves, distance formula, midpoint formula, and locus problems
-- **[Trigonometry](../../../../../highers/src/content/docs/maths/2-trigonometry/2_trigonometry)** -- Trigonometric ratios, sine and cosine rules,
+- **[Trigonometry](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/)** -- Trigonometric ratios, sine and cosine rules,
   trigonometric identities, solving equations, and 3D problems
-- **[Geometries](compulsory/8_geometries)** -- 2D and 3D geometry, circle theorems, trigonometric
+- **[Geometries](/maths/compulsory/8_geometries/)** -- 2D and 3D geometry, circle theorems, trigonometric
   identities, vector geometry, and coordinate ./1-number-and-algebra/3_proof-and-logics
 
 ## Probability and Statistics
 
-- **[Probability](../../../../../alevel/src/content/docs/maths/statistics/03-probability)** -- Sample spaces, events, conditional probability,
+- **[Probability](https://alevel.wyattau.com/maths/statistics/03-probability/)** -- Sample spaces, events, conditional probability,
   addition and multiplication rules, and probability distributions
-- **[Dispersion](../../../../../physics/src/content/docs/4-optics-and-waves/11_dispersion)** -- Range, interquartile range, variance, standard
+- **[Dispersion](https://physics.wyattau.com/4-optics-and-waves/11_dispersion/)** -- Range, interquartile range, variance, standard
   deviation, and box-and-whisker plots
-- **[Combinatorics](./compulsory/../compulsory/13_permutations-and-combinations)** -- Permutations,
+- **[Combinatorics](/maths/compulsory/13_permutations-and-combinations/)** -- Permutations,
   combinations, counting principles, binomial theorem, and probability applications
-- **[Permutations and Combinations](compulsory/13_permutations-and-combinations)** -- Factorial
+- **[Permutations and Combinations](/maths/compulsory/13_permutations-and-combinations/)** -- Factorial
   notation, arrangement problems, selection problems, and the binomial expansion
 
 ## Related Content

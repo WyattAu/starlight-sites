@@ -342,9 +342,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
-- **[Systems of Linear Equations](4_systems-of-linear-equations)**: Gaussian elimination transforms matrices into row echelon form to solve linear systems.
-- **[Singular Value Decomposition](8_singular-value-decomposition)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
+- **[Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)**: Eigenvalues are the roots of the characteristic polynomial defined via determinants.
+- **[Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)**: Gaussian elimination transforms matrices into row echelon form to solve linear systems.
+- **[Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)**: The SVD factorises any matrix using its singular values, generalising the eigendecomposition.
 :::
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

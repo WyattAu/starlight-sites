@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_periodicity](./1_periodicity)
+- [1_periodicity](/chemistry/3-periodicity/1_periodicity/)
 
 ## Learning Objectives
 

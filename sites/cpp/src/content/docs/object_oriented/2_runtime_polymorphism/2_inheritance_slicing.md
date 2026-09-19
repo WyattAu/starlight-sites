@@ -779,9 +779,9 @@ Additional vptrs (from multiple inheritance), and virtual base pointers all add 
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables)
-- [Devirtualization and Final Specifiers](./3_devirtualization)
-- [RTTI, dynamic_cast, and typeid](./4_rtti_dynamic_cast)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
 
 ```mermaid
 flowchart TD

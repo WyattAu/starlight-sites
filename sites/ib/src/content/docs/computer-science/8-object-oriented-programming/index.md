@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_object Oriented Programming](./1_object-oriented-programming)
+- [1_object Oriented Programming](/computer-science/8-object-oriented-programming/1_object-oriented-programming/)
 
 ## Learning Objectives
 

@@ -1151,5 +1151,5 @@ linked above.
 ## See Also
 
 - [Redox](./)
-- [Redox Reactions (Advanced)](./2_redox-advanced)
-- [Electrochemistry](./3_electrochemistry)
+- [Redox Reactions (Advanced)](/chemistry/9-redox/2_redox-advanced/)
+- [Electrochemistry](/chemistry/9-redox/3_electrochemistry/)

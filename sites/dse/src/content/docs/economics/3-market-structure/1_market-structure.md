@@ -39,7 +39,7 @@ The continuum of market structures runs from perfect competition (maximum compet
 
 This file assumes familiarity with cost curves (`TC``ATC``AVC``MC`) and revenue curves (`TR`
 `AR``MR`) from
-[../2-demand-supply-markets/1_demand-supply-and-markets](../2-demand-supply-markets/1_demand-supply-and-markets).
+[../2-demand-supply-markets/1_demand-supply-and-markets](/economics/2-demand-supply-markets/1_demand-supply-and-markets/).
 
 ---
 

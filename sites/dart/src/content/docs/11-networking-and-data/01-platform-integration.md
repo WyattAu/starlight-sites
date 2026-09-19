@@ -1348,6 +1348,6 @@ linked above.
 
 ## Cross-References
 
-- [Async and Futures](../05-async/01-async-and-futures) -- Network requests return Futures, making asynchronous programming essential for HTTP calls.
-- [Error Handling](../08-error-handling) -- Network errors require proper exception handling to manage timeouts, connection failures, and invalid responses.
-- [FFI and Advanced](../09-ffi-and-advanced) -- Platform channels can use FFI for direct native code integration alongside HTTP-based communication.
+- [Async and Futures](/05-async/01-async-and-futures/) -- Network requests return Futures, making asynchronous programming essential for HTTP calls.
+- [Error Handling](/08-error-handling/) -- Network errors require proper exception handling to manage timeouts, connection failures, and invalid responses.
+- [FFI and Advanced](/09-ffi-and-advanced/) -- Platform channels can use FFI for direct native code integration alongside HTTP-based communication.

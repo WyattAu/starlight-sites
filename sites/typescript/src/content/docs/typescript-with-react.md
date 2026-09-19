@@ -859,6 +859,6 @@ linked above.
 
 ## Cross-References
 
-- [Types and Annotations](types-and-annotations) - How TypeScript's type system models React component props and state
-- [Generics](generics) - How generic components and hooks enable reusable typed UI patterns
-- [Functions](functions) - How typed event handlers and callbacks structure React component logic
+- [Types and Annotations](/types-and-annotations/) - How TypeScript's type system models React component props and state
+- [Generics](/generics/) - How generic components and hooks enable reusable typed UI patterns
+- [Functions](/functions/) - How typed event handlers and callbacks structure React component logic

@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Collections Framework](./01-collections-framework)
-- [Maps And Sets](./02-maps-and-sets)
+- [Collections Framework](/java/04-collections/01-collections-framework/)
+- [Maps And Sets](/java/04-collections/02-maps-and-sets/)
 
 ## Learning Objectives
 

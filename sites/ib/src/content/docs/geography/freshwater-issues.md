@@ -33,11 +33,11 @@ relevance.
 
 ## Contents
 
-- [Drainage Basins and Hydrology](./freshwater/drainage-basins-and-hydrology) -- the hydrological
+- [Drainage Basins and Hydrology](/geography/freshwater/drainage-basins-and-hydrology/) -- the hydrological
   cycle, drainage basin systems, and river processes.
-- [Water Scarcity and Management](./freshwater/water-scarcity-and-management) -- causes of water
+- [Water Scarcity and Management](/geography/freshwater/water-scarcity-and-management/) -- causes of water
   scarcity, supply and demand management strategies.
-- [Flood Management](./freshwater/flood-management) -- flood causes, impacts, and management
+- [Flood Management](/geography/freshwater/flood-management/) -- flood causes, impacts, and management
   approaches including hard and soft engineering.
 
 ## Key Definitions

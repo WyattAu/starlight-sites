@@ -1069,5 +1069,5 @@ Computer science is about solving problems efficiently. Algorithms are like reci
 
 ## Cross-References
 
-- [Data Analysis](../../../../../../sat/src/content/docs/mathematics/data-analysis)
-- [Algorithms](../../../../../../alevel/src/content/docs/computer-science/algorithms/01-searching-algorithms)
+- [Data Analysis](https://sat.wyattau.com/mathematics/data-analysis/)
+- [Algorithms](https://alevel.wyattau.com/computer-science/algorithms/01-searching-algorithms/)

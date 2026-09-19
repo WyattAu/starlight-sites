@@ -526,5 +526,5 @@ $t = 5$Both are positive, so the particle is speeding up.
 ## See Also
 
 - [Diagnostics](./)
-- [Differentiation -- Diagnostic Tests](./diag-differentiation)
-- [Functions -- Diagnostic Tests](./diag-functions)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

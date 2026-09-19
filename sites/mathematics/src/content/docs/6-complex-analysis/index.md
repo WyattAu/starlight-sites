@@ -50,21 +50,21 @@ sources:
 
 ## Contents
 
-1. [Complex Numbers Review](1_complex-numbers-review)
-2. [Complex Functions and Analyticity](2_complex-functions-and-analyticity)
-3. [The Cauchy-Riemann Equations](3_the-cauchy-riemann-equations)
-4. [Complex Integration](4_complex-integration)
-5. [Cauchy"s Theorem](5_cauchy-s-theorem)
-6. [Cauchy's Integral Formula](6_cauchy-s-integral-formula)
-7. [Taylor and Laurent Series](7_taylor-and-laurent-series)
-8. [Singularities and Residue Theory](8_singularities-and-residue-theory)
-9. [Applications of Contour Integration](9_applications-of-contour-integration)
-10. [Conformal Mappings](10_conformal-mappings)
-11. [Liouville's Theorem and the Maximum Modulus Principle](11_liouville-s-theorem-and-the-maximum-modulus-principle)
-12. [Argument Principle and Rouché's Theorem](12_argument-principle-and-rouch-s-theorem)
-13. [Analytic Continuation](13_analytic-continuation)
-14. [Common Pitfalls](14_common-pitfalls)
-15. [Problem Set](15_problem-set)
+1. [Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)
+2. [Complex Functions and Analyticity](/6-complex-analysis/2_complex-functions-and-analyticity/)
+3. [The Cauchy-Riemann Equations](/6-complex-analysis/3_the-cauchy-riemann-equations/)
+4. [Complex Integration](/6-complex-analysis/4_complex-integration/)
+5. [Cauchy"s Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+6. [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+7. [Taylor and Laurent Series](/6-complex-analysis/7_taylor-and-laurent-series/)
+8. [Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)
+9. [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+10. [Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)
+11. [Liouville's Theorem and the Maximum Modulus Principle](/6-complex-analysis/11_liouville-s-theorem-and-the-maximum-modulus-principle/)
+12. [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+13. [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+14. [Common Pitfalls](/6-complex-analysis/14_common-pitfalls/)
+15. [Problem Set](/6-complex-analysis/15_problem-set/)
 
 ## Overview
 

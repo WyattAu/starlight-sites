@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Error Handling](./error-handling)
-- [Generics](./generics)
-- [Interfaces](./interfaces)
+- [Error Handling](/go/intermediate/error-handling/)
+- [Generics](/go/intermediate/generics/)
+- [Interfaces](/go/intermediate/interfaces/)
 
 ## Learning Objectives
 

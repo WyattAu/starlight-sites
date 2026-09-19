@@ -386,5 +386,5 @@ correct integral accounts for the linear variation.
 ## See Also
 
 - [Diagnostics](./)
-- [Wave Properties -- Diagnostic Tests](./diag-wave-properties)
-- [Capacitance -- Diagnostic Tests](./diag-capacitance)
+- [Wave Properties -- Diagnostic Tests](/physics/diagnostics/diag-wave-properties/)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)

@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Records Sealed Patterns](./01-records-sealed-patterns)
-- [Virtual Threads Structured Concurrency](./02-virtual-threads-structured-concurrency)
+- [Records Sealed Patterns](/java/08-modern-java/01-records-sealed-patterns/)
+- [Virtual Threads Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency/)
 
 ## Learning Objectives
 

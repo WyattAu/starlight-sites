@@ -164,6 +164,6 @@ Rust is a systems programming language that gives you the control of C without t
 
 ## Cross-References
 
-- [Ownership and Borrowing](../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)
-- [Traits and Generics](../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)
-- [Error Handling](../../../../dart/src/content/docs/08-error-handling)
+- [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+- [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+- [Error Handling](https://dart.wyattau.com/08-error-handling/)

@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_instantiation](./1_instantiation)
-- [2_argument_deduction](./2_argument_deduction)
-- [3_specialization](./3_specialization)
-- [4_dependent_names](./4_dependent_names)
-- [5_explicit_instantiation](./5_explicit_instantiation)
+- [1_instantiation](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
+- [2_argument_deduction](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [3_specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [4_dependent_names](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [5_explicit_instantiation](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
 
 ## Learning Objectives
 

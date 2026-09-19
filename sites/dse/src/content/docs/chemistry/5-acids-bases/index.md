@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_acids Bases And Electrochemistry](./1_acids-bases-and-electrochemistry)
+- [1_acids Bases And Electrochemistry](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)
 
 ## Learning Objectives
 

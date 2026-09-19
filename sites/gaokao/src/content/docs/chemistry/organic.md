@@ -375,9 +375,9 @@ Functional groups are like personality traits. An alcohol group is like someone 
 
 ## Cross-References
 
-- [Inorganic Chemistry](../../../../../hsc/src/content/docs/chemistry/inorganic) - Inorganic reaction principles that provide context for organic reaction mechanisms
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Mathematical modeling of reaction rates and yield in organic synthesis
-- [English Reading](../chinese/reading) - Reading comprehension strategies that help analyze complex chemistry problems
+- [Inorganic Chemistry](https://hsc.wyattau.com/chemistry/inorganic/) - Inorganic reaction principles that provide context for organic reaction mechanisms
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Mathematical modeling of reaction rates and yield in organic synthesis
+- [English Reading](/chinese/reading/) - Reading comprehension strategies that help analyze complex chemistry problems
 
 ## Common Mistakes
 

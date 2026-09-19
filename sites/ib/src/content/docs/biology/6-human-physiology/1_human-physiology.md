@@ -906,14 +906,14 @@ In a person who has been drinking large volumes of water versus a person who is 
 ## If You Get These Wrong, Revise
 
 - **Cell membrane and transport mechanisms** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **DNA and gene expression** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Enzymes and metabolism** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
-- **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
+- **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Plant hormones and transport** --> Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/)
 
 ---
 
@@ -1694,18 +1694,18 @@ the presence and absence Of ADH.
 ## Cross-References to Related Topics
 
 - **Cell membrane and transport**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane proteins,
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane proteins,
   osmosis, and active transport.
 - **Gas exchange and haemoglobin**: Review
-  [../1_human-physiology](./1_human-physiology) for the
+  [../1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for the
   oxygen dissociation curve (within this document).
 - **Nervous system and heart regulation**: Review
-  [../8-nervous-system-and-immunology/1_nervous-system](../8-nervous-system-and-immunology/1_nervous-system)
+  [../8-nervous-system-and-immunology/1_nervous-system](/biology/8-nervous-system-and-immunology/1_nervous-system/)
   for autonomic control of heart rate and reflex arcs.
 - **Immunology and defence**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for fever, inflammation, and antibody production.
-- **Metabolism and ATP**: Review [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism)
+- **Metabolism and ATP**: Review [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/)
   for cellular respiration and energy production in tissues.
 
 ---

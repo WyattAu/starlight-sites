@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_chemistry Of Life](./1_chemistry-of-life)
+- [1_chemistry Of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/)
 
 ## Learning Objectives
 

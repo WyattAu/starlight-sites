@@ -326,7 +326,7 @@ int main() {
 
 :::caution
 Branch prediction accuracy, and whether the compiler can **devirtualize** the call (see
-[Devirtualization](./3_devirtualization)). With `-O2` or `-O3`Modern compilers may eliminate The
+[Devirtualization](/object_oriented/2_runtime_polymorphism/3_devirtualization/)). With `-O2` or `-O3`Modern compilers may eliminate The
 virtual dispatch entirely if the dynamic type is provable.
 :::
 
@@ -732,9 +732,9 @@ Has no data members. This is the fundamental cost of runtime polymorphism.
 
 ## See Also
 
-- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
-- [Devirtualization and Final Specifiers](./3_devirtualization)
-- [Deducing This and CRTP](./5_deducing_this_crtp)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
 
 ```mermaid
 flowchart TD

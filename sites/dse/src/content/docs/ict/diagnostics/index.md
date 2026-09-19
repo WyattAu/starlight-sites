@@ -18,14 +18,14 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Topics
 
-- [Diag Computer Systems](./diag-computer-systems)
-- [Diag Data Representation](./diag-data-representation)
-- [Diag Internet Data Communications](./diag-internet-data-communications)
-- [Diag Network Security Social Implications](./diag-network-security-social-implications)
-- [Diag Office Automation](./diag-office-automation)
-- [Diag Programming Databases](./diag-programming-databases)
-- [Diag Web Multimedia](./diag-web-multimedia)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Computer Systems](/ict/diagnostics/diag-computer-systems/)
+- [Diag Data Representation](/ict/diagnostics/diag-data-representation/)
+- [Diag Internet Data Communications](/ict/diagnostics/diag-internet-data-communications/)
+- [Diag Network Security Social Implications](/ict/diagnostics/diag-network-security-social-implications/)
+- [Diag Office Automation](/ict/diagnostics/diag-office-automation/)
+- [Diag Programming Databases](/ict/diagnostics/diag-programming-databases/)
+- [Diag Web Multimedia](/ict/diagnostics/diag-web-multimedia/)
+- [Diagnostic Guide](/ict/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

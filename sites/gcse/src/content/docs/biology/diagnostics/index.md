@@ -18,12 +18,12 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [Diag Bioenergetics](./diag-bioenergetics)
-- [Diag Cell Biology](./diag-cell-biology)
-- [Diag Ecology](./diag-ecology)
-- [Diag Inheritance Variation Evolution](./diag-inheritance-variation-evolution)
-- [Diag Organisation](./diag-organisation)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Bioenergetics](/biology/diagnostics/diag-bioenergetics/)
+- [Diag Cell Biology](/biology/diagnostics/diag-cell-biology/)
+- [Diag Ecology](/biology/diagnostics/diag-ecology/)
+- [Diag Inheritance Variation Evolution](/biology/diagnostics/diag-inheritance-variation-evolution/)
+- [Diag Organisation](/biology/diagnostics/diag-organisation/)
+- [Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

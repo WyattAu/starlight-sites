@@ -96,8 +96,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Python](./)
-- [Python Flashcards: Fundamentals](./flashcards-python-basics)
-- [Complete Python Programming Study Guide](./hub)
+- [Python Flashcards: Fundamentals](/flashcards-python-basics/)
+- [Complete Python Programming Study Guide](/hub/)
 
 
 ## Detailed Content

@@ -64,14 +64,14 @@ The TCP/IP model defines four layers: link, internet, transport, and application
 
 ## Contents
 
-1. [Network Models](1_network-models)
-2. [Physical Layer](2_physical-layer)
-3. [Data Link Layer](3_data-link-layer)
-4. [Network Layer](4_network-layer)
-5. [Transport Layer](5_transport-layer)
-6. [Application Layer](6_application-layer)
-7. [Network Security](7_network-security)
-8. [Problem Set](8_problem-set)
+1. [Network Models](/3-computer-networks/1_network-models/)
+2. [Physical Layer](/3-computer-networks/2_physical-layer/)
+3. [Data Link Layer](/3-computer-networks/3_data-link-layer/)
+4. [Network Layer](/3-computer-networks/4_network-layer/)
+5. [Transport Layer](/3-computer-networks/5_transport-layer/)
+6. [Application Layer](/3-computer-networks/6_application-layer/)
+7. [Network Security](/3-computer-networks/7_network-security/)
+8. [Problem Set](/3-computer-networks/8_problem-set/)
 
 ## Overview
 
@@ -119,7 +119,7 @@ Each section includes:
 ## Cross-References
 
 - **[Systems](../../../../../typescript/src/content/docs/index):** Computer architecture and operating systems that networking relies on.
-- **[Network Security](./7_network-security):** TLS, encryption, and authentication protocols.
+- **[Network Security](/3-computer-networks/7_network-security/):** TLS, encryption, and authentication protocols.
 - **[Databases](../../../../../typescript/src/content/docs/index):** Distributed databases that depend on network communication.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [3_algorithms And Programming](./3_algorithms-and-programming)
+- [3_algorithms And Programming](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/)
 
 ## Learning Objectives
 

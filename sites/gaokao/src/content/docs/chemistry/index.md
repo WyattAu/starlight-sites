@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Inorganic](./inorganic)
-- [Organic](./organic)
+- [Inorganic](/chemistry/inorganic/)
+- [Organic](/chemistry/organic/)
 
 ## Learning Objectives
 

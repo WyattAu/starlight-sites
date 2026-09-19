@@ -925,6 +925,6 @@ struct ItemListView: View {
 
 ## Cross-References
 
-- [Classes and Structs](../03-oop/1_classes-and-structs) - How actors extend the class model for safe concurrent access
-- [Error Handling](1_error-handling) - How async functions use try/catch for error propagation
-- [Functions](../02-functions-closures/1_functions) - How async/await changes function signatures and closure patterns
+- [Classes and Structs](/03-oop/1_classes-and-structs/) - How actors extend the class model for safe concurrent access
+- [Error Handling](/04-advanced/1_error-handling/) - How async functions use try/catch for error propagation
+- [Functions](/02-functions-closures/1_functions/) - How async/await changes function signatures and closure patterns

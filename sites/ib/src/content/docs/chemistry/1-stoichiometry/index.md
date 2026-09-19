@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_stoichiometric Relationships](./1_stoichiometric-relationships)
-- [2_states Of Matter](./2_states-of-matter)
+- [1_stoichiometric Relationships](/chemistry/1-stoichiometry/1_stoichiometric-relationships/)
+- [2_states Of Matter](/chemistry/1-stoichiometry/2_states-of-matter/)
 
 ## Learning Objectives
 

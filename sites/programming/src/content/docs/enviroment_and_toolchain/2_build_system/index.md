@@ -18,12 +18,12 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_cmake_targets_properties_generator](./1_cmake_targets_properties_generator)
-- [2_ninja_and_parallelism](./2_ninja_and_parallelism)
-- [3_cmake_presets_and_toolchain_files](./3_cmake_presets_and_toolchain_files)
-- [4_build_caching](./4_build_caching)
-- [5_unit_tests](./5_unit_tests)
-- [6_code_coverage](./6_code_coverage)
+- [1_cmake_targets_properties_generator](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
+- [2_ninja_and_parallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
+- [3_cmake_presets_and_toolchain_files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [4_build_caching](/enviroment_and_toolchain/2_build_system/4_build_caching/)
+- [5_unit_tests](/enviroment_and_toolchain/2_build_system/5_unit_tests/)
+- [6_code_coverage](/enviroment_and_toolchain/2_build_system/6_code_coverage/)
 
 ## Learning Objectives
 

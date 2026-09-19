@@ -186,5 +186,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [General](./)
-- [Markdown & MDX Constructs](./markdown-constructs)
-- [Developer Tools & Knowledge](..)
+- [Markdown & MDX Constructs](/general/markdown-constructs/)
+- [Developer Tools & Knowledge](/)

@@ -540,5 +540,5 @@ without undermining the free-market efficiency that has driven Hong Kong's prosp
 ## See Also
 
 - [Diagnostics](./)
-- [International Trade and Finance -- Diagnostic Tests](./diag-international-trade)
-- [Market Failure and Government Intervention -- Diagnostic Tests](./diag-market-failure)
+- [International Trade and Finance -- Diagnostic Tests](/economics/diagnostics/diag-international-trade/)
+- [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)

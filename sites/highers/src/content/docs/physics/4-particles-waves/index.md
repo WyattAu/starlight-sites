@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [4_particles Waves](./4_particles-waves)
+- [4_particles Waves](/physics/4-particles-waves/4_particles-waves/)
 
 ## Learning Objectives
 

@@ -856,6 +856,6 @@ The OSI model is a conceptual map of network communication: seven layers, each w
 
 ## Cross-References
 
-- [IP Addressing](../02-ip-addressing/ip-addressing)
-- [TCP and UDP](../03-tcp-udp/tcp-and-udp)
-- [DNS](../04-dns/dns)
+- [IP Addressing](/02-ip-addressing/ip-addressing/)
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
+- [DNS](/04-dns/dns/)

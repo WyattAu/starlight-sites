@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_equilibrium](./1_equilibrium)
+- [1_equilibrium](/chemistry/7-equilibrium/1_equilibrium/)
 
 ## Learning Objectives
 

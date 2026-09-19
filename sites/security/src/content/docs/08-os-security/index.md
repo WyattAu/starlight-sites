@@ -18,7 +18,7 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Os Security](./os-security)
+- [Os Security](/08-os-security/os-security/)
 
 ## Learning Objectives
 

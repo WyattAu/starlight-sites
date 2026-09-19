@@ -99,8 +99,8 @@ A developing hazard is something that:
 ## See Also
 
 - [Theory Test](./)
-- [Multiple Choice Questions](./multiple-choice)
-- [Road Rules](./road-rules)
+- [Multiple Choice Questions](/theory-test/multiple-choice/)
+- [Road Rules](/theory-test/road-rules/)
 
 
 ## Advanced Content

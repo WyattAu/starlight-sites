@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_pointers](./1_pointers)
-- [2_reference_lifetime](./2_reference_lifetime)
-- [3_type_punning](./3_type_punning)
-- [4_string_views_sso](./4_string_views_sso)
-- [5_contiguous_memory_views](./5_contiguous_memory_views)
+- [1_pointers](/types/2_pointers_references_views/1_pointers/)
+- [2_reference_lifetime](/types/2_pointers_references_views/2_reference_lifetime/)
+- [3_type_punning](/types/2_pointers_references_views/3_type_punning/)
+- [4_string_views_sso](/types/2_pointers_references_views/4_string_views_sso/)
+- [5_contiguous_memory_views](/types/2_pointers_references_views/5_contiguous_memory_views/)
 
 ## Learning Objectives
 

@@ -321,6 +321,6 @@ Go modules are dependency management made simple. The go.mod file is a manifest 
 
 ## Cross-References
 
-- [Project Architecture](architecture) -- directory layout and patterns
-- [Arrays, Slices, and Maps](../basics/arrays-slices-maps) -- core data structures
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- Go's type system
+- [Project Architecture](/advanced/architecture/) -- directory layout and patterns
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- core data structures
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- Go's type system

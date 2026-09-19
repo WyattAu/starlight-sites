@@ -261,8 +261,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Programming Glossary](glossary) for programming fundamentals
-- See [Linux Glossary](glossary) for Linux administration
-- See [Networking Glossary](glossary) for network concepts
-- See [Security Glossary](glossary) for security practices
-- See [Databases Glossary](glossary) for database tools
+- See [Programming Glossary](/glossary/) for programming fundamentals
+- See [Linux Glossary](/glossary/) for Linux administration
+- See [Networking Glossary](/glossary/) for network concepts
+- See [Security Glossary](/glossary/) for security practices
+- See [Databases Glossary](/glossary/) for database tools

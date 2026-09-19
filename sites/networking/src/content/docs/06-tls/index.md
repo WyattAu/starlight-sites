@@ -18,8 +18,8 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Tls Internals](./tls-internals)
-- [Tls](./tls)
+- [Tls Internals](/06-tls/tls-internals/)
+- [Tls](/06-tls/tls/)
 
 ## Learning Objectives
 

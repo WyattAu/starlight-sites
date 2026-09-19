@@ -563,6 +563,6 @@ numbers.
 
 ## Cross-References
 
-- **[Pure Mathematics](../flashcards-pure-mathematics):** Pure maths covers algebra, calculus, and functions
-- **[Mechanics](../practice-mechanics):** Mechanics applies maths to physical problems
-- **[Statistics](../../further-maths/flashcards-further-statistics):** Statistics develops data analysis methods
+- **[Pure Mathematics](/maths/flashcards-pure-mathematics/):** Pure maths covers algebra, calculus, and functions
+- **[Mechanics](/maths/practice-mechanics/):** Mechanics applies maths to physical problems
+- **[Statistics](/further-maths/flashcards-further-statistics/):** Statistics develops data analysis methods

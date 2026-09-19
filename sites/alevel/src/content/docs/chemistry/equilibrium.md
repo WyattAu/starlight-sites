@@ -204,7 +204,7 @@ $$
 \ln\left(\frac{K_2}{K_1}\right) = -\frac{\Delta H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)
 $$
 
-This is analogous to the Arrhenius equation (see [Chemical Kinetics](../../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics)).
+This is analogous to the Arrhenius equation (see [Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/)).
 
 **Worked Example.** For the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$$\Delta H^\circ = +58.0\,\mathrm{kJ/mol}$
@@ -497,7 +497,7 @@ $$
 
 This is a specific application of the general principle that
 $K_\mathrm{forward} \times K_\mathrm{reverse} = 1$ for a pair of conjugate reactions. See
-[Acids, Bases and Buffers](./acids-bases) for the full treatment.
+[Acids, Bases and Buffers](/chemistry/acids-bases/) for the full treatment.
 
 ## Practice Problems
 
@@ -1077,5 +1077,5 @@ linked above.
 ## Cross-References
 
 - [Chemistry](../chemistry)
-- [Atomic Structure](atomic-structure)
-- [Organic Chemistry](organic-chemistry)
+- [Atomic Structure](/chemistry/atomic-structure/)
+- [Organic Chemistry](/chemistry/organic-chemistry/)

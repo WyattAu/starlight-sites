@@ -45,8 +45,8 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [UK Driving Test](./)
-- [Practical Test](./practical-test)
-- [Theory Test](./theory-test)
+- [Practical Test](/practical-test/)
+- [Theory Test](/theory-test/)
 
 
 ## Detailed Content

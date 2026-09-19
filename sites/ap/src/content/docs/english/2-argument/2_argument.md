@@ -240,5 +240,5 @@ Literature is a window into human experience across time and culture. Analysing 
 
 ## Cross-References
 
-- [Rhetorical Analysis](../1-rhetorical-analysis/1_rhetorical-analysis)
-- [Literary Analysis](../../../../../../alevel/src/content/docs/english/1-literary-analysis/1_literary-analysis)
+- [Rhetorical Analysis](/english/1-rhetorical-analysis/1_rhetorical-analysis/)
+- [Literary Analysis](https://alevel.wyattau.com/english/1-literary-analysis/1_literary-analysis/)

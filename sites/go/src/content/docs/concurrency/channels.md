@@ -406,6 +406,6 @@ Channels are typed message pipes that connect goroutines. An unbuffered channel 
 
 ## Cross-References
 
-- [Goroutines and Synchronization](goroutines) -- lightweight threads and mutexes
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- first-class functions used in goroutines
-- [Networking](../../../../../computer-science/src/content/docs/2-systems/networking) -- context propagation in HTTP handlers
+- [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight threads and mutexes
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions used in goroutines
+- [Networking](https://computer-science.wyattau.com/2-systems/networking/) -- context propagation in HTTP handlers

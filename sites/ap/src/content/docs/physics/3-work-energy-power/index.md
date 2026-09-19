@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [3_work Energy Power](./3_work-energy-power)
+- [3_work Energy Power](/physics/3-work-energy-power/3_work-energy-power/)
 
 ## Learning Objectives
 

@@ -297,9 +297,9 @@ low. For Longer critical sections, prefer `std::mutex` which blocks the thread a
 
 ## See Also
 
-- [Memory Orderings](./4_memory_orderings)
-- [Compare-and-Swap (CAS) Loops](./5_cas_loops)
-- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -220,6 +220,6 @@ This is a straight line: the perpendicular bisector of the segment joining $(1, 
 
 ## Cross-References
 
-- **[Complex Numbers](../pure/complex-numbers):** Complex numbers extend the real number system
-- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics
+- **[Complex Numbers](/further-maths/pure/complex-numbers/):** Complex numbers extend the real number system
+- **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
+- **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics

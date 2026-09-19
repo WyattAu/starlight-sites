@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [5_analytical](./5_analytical)
+- [5_analytical](/chemistry/5-analytical/5_analytical/)
 
 ## Learning Objectives
 

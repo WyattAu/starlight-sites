@@ -633,5 +633,5 @@ Swift's error handling is explicit and type-safe. Functions marked with throws c
 ## See Also
 
 - [Advanced](./)
-- [Concurrency](./2_concurrency)
-- [Swift](..)
+- [Concurrency](/swift/04-advanced/2_concurrency/)
+- [Swift](/)

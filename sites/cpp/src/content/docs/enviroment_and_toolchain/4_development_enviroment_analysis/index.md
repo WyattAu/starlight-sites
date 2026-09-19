@@ -18,10 +18,10 @@ This section provides study materials and resources for 4_development_enviroment
 
 ## Topics
 
-- [1_language_server_protocol_configuration](./1_language_server_protocol_configuration)
-- [2_debugger](./2_debugger)
-- [3_static_analysis](./3_static_analysis)
-- [4_sanitizer](./4_sanitizer)
+- [1_language_server_protocol_configuration](/enviroment_and_toolchain/4_development_enviroment_analysis/1_language_server_protocol_configuration/)
+- [2_debugger](/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger/)
+- [3_static_analysis](/enviroment_and_toolchain/4_development_enviroment_analysis/3_static_analysis/)
+- [4_sanitizer](/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/)
 
 ## Learning Objectives
 

@@ -793,9 +793,9 @@ Also inherits from `Base`Allowing access to `b.value_` would violate encapsulati
 
 ## See Also
 
-- [Object Layout and the vptr](./1_object_layout_vptr)
-- [Operator Overloading](./4_operator_overloading)
-- [Deducing This and CRTP](../2_runtime_polymorphism/5_deducing_this_crtp)
+- [Object Layout and the vptr](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -18,15 +18,15 @@ This section provides study materials and resources for geography. Browse the to
 
 ## Topics
 
-- [Agriculture](./agriculture)
-- [Climate](./climate)
-- [Economic Development](./economic-development)
-- [Flashcards Geography](./flashcards-geography)
-- [Intro](./intro)
-- [Population](./population)
-- [Practice Geography](./practice-geography)
-- [Resources](./resources)
-- [Urbanization](./urbanization)
+- [Agriculture](/geography/agriculture/)
+- [Climate](/geography/climate/)
+- [Economic Development](/geography/economic-development/)
+- [Flashcards Geography](/geography/flashcards-geography/)
+- [Intro](/geography/intro/)
+- [Population](/geography/population/)
+- [Practice Geography](/geography/practice-geography/)
+- [Resources](/geography/resources/)
+- [Urbanization](/geography/urbanization/)
 
 ## Learning Objectives
 

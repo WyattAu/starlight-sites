@@ -1297,6 +1297,6 @@ Email protocols follow a postal system analogy. SMTP is like dropping a letter a
 
 ## Cross-References
 
-- [HTTP](../05-http-https/http) - How HTTP underlies many application protocols including REST APIs and web-based email
-- [TLS](../06-tls/tls) - How TLS secures email and application protocol transmissions
-- [DNS](../07-network-tools/network-tools) - How DNS resolution supports email MX records and application service discovery
+- [HTTP](/05-http-https/http/) - How HTTP underlies many application protocols including REST APIs and web-based email
+- [TLS](/06-tls/tls/) - How TLS secures email and application protocol transmissions
+- [DNS](/07-network-tools/network-tools/) - How DNS resolution supports email MX records and application service discovery

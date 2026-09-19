@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_databases](./1_databases)
+- [1_databases](/computer-science/6-resource-management/1_databases/)
 
 ## Learning Objectives
 

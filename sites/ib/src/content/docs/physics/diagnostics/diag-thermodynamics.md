@@ -454,5 +454,5 @@ the RMS speed by a factor of $\sqrt{2}$.
 ## See Also
 
 - [Diagnostics](./)
-- [Dynamics -- Diagnostic Tests](./diag-dynamics)
-- [Energy and Conservation -- Diagnostic Tests](./diag-energy)
+- [Dynamics -- Diagnostic Tests](/physics/diagnostics/diag-dynamics/)
+- [Energy and Conservation -- Diagnostic Tests](/physics/diagnostics/diag-energy/)

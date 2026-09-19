@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_demand Supply And Markets](./1_demand-supply-and-markets)
+- [1_demand Supply And Markets](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
 
 ## Learning Objectives
 

@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_acids And Bases](./1_acids-and-bases)
-- [2_acids And Bases Advanced](./2_acids-and-bases-advanced)
+- [1_acids And Bases](/chemistry/8-acids-and-bases/1_acids-and-bases/)
+- [2_acids And Bases Advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
 
 ## Learning Objectives
 

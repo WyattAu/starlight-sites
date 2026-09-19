@@ -318,5 +318,5 @@ Essay writing in history is like building a legal case: you need a clear thesis 
 ## See Also
 
 - [History](./)
-- [20th Century China](./20th-century-china)
-- [Authoritarian States](./authoritarian-states)
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)

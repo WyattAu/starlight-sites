@@ -60,11 +60,11 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Topics
 
-- **[1. Fundamentals](1-fundamentals/1_fundamentals)**
-- **[2. Hardware](2-hardware/2_hardware)**
-- **[3. Networks](3-networks/3_networks)**
-- **[4. Algorithms](4-algorithms/4_algorithms)**
-- **[5. Programming](5-programming/5_programming)**
+- **[1. Fundamentals](/computer-science/1-fundamentals/1_fundamentals/)**
+- **[2. Hardware](/computer-science/2-hardware/2_hardware/)**
+- **[3. Networks](/computer-science/3-networks/3_networks/)**
+- **[4. Algorithms](/computer-science/4-algorithms/4_algorithms/)**
+- **[5. Programming](/computer-science/5-programming/5_programming/)**
 
 ## Topics Covered
 

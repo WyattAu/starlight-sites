@@ -809,5 +809,5 @@ linked above.
 ## See Also
 
 - [Fundamentals](./)
-- [Number Systems](./01-number-systems)
-- [Boolean Algebra](./03-boolean-algebra)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)
+- [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)

@@ -61,13 +61,13 @@ writing, and deep engagement with texts across periods and genres.
 
 | Section | Topic                                                             | Description                                                       |
 | ------- | ----------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1       | [Literary Analysis](1-literary-analysis/1_literary-analysis)       | Close reading, critical approaches, and literary devices          |
-| 2       | [Poetry](2-poetry/1_poetry-analysis)                    | Form, meter, imagery, sound devices, and anthology study          |
-| 3       | [Prose](3-prose/1_prose-analysis)                      | Narrative voice, character, setting, theme, and genre             |
-| 4       | [Drama](4-drama/1_drama-analysis)                      | Stagecraft, dramatic structure, dialogue, and theatrical context  |
-| 5       | [Shakespeare](5-shakespeare/1_shakespeare)                   | Language, themes, historical context, and critical interpretation |
-| 6       | [Comparative Analysis](6-comparative-analysis/1_comparative-analysis) | Comparing texts thematically, structurally, and contextually      |
-| 7       | [Unseen Texts](7-unseen-texts/1_unseen-text-analysis)         | Timed analysis strategies and annotation techniques               |
+| 1       | [Literary Analysis](/english/1-literary-analysis/1_literary-analysis/)       | Close reading, critical approaches, and literary devices          |
+| 2       | [Poetry](/english/2-poetry/1_poetry-analysis/)                    | Form, meter, imagery, sound devices, and anthology study          |
+| 3       | [Prose](/english/3-prose/1_prose-analysis/)                      | Narrative voice, character, setting, theme, and genre             |
+| 4       | [Drama](/english/4-drama/1_drama-analysis/)                      | Stagecraft, dramatic structure, dialogue, and theatrical context  |
+| 5       | [Shakespeare](/english/5-shakespeare/1_shakespeare/)                   | Language, themes, historical context, and critical interpretation |
+| 6       | [Comparative Analysis](/english/6-comparative-analysis/1_comparative-analysis/) | Comparing texts thematically, structurally, and contextually      |
+| 7       | [Unseen Texts](/english/7-unseen-texts/1_unseen-text-analysis/)         | Timed analysis strategies and annotation techniques               |
 
 ## Exam Boards
 

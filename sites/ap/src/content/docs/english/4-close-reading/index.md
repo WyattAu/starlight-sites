@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [4_close Reading](./4_close-reading)
+- [4_close Reading](/english/4-close-reading/4_close-reading/)
 
 ## Learning Objectives
 

@@ -899,6 +899,6 @@ Living organisms are remarkably organised systems. Cells function as factories w
 
 ## Cross-References
 
-- [Cell Structure and Function](../2-cell-structure-and-function/2_cell-structure-and-function)
-- [Heredity](../4-heredity/4_heredity)
-- [Natural Selection](../5-natural-selection/5_natural-selection)
+- [Cell Structure and Function](/biology/2-cell-structure-and-function/2_cell-structure-and-function/)
+- [Heredity](/biology/4-heredity/4_heredity/)
+- [Natural Selection](/biology/5-natural-selection/5_natural-selection/)

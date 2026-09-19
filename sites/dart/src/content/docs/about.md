@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Dart](./)
-- [Introduction to Dart & Flutter](./01-intro)
-- [Best Practices](./04-best-practices)
+- [Introduction to Dart & Flutter](/01-intro/)
+- [Best Practices](/04-best-practices/)
 
 
 ## Detailed Content

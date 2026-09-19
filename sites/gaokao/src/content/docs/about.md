@@ -93,8 +93,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Gaokao](./)
-- [Gaokao Flashcards: Mathematics](./flashcards-mathematics)
-- [Introduction to Gaokao Notes](./intro)
+- [Gaokao Flashcards: Mathematics](/flashcards-mathematics/)
+- [Introduction to Gaokao Notes](/intro/)
 
 
 ## Detailed Content

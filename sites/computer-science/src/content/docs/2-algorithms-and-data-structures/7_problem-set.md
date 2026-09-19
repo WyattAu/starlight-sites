@@ -197,5 +197,5 @@ TSP cost (since optimal TSP minus one edge is a spanning tree).
 ## See Also
 
 - [Algorithms and Data Structures](./)
-- [Algorithm Analysis](./1_algorithm_analysis)
-- [Algorithm Analysis](./1_algorithm-analysis)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm_analysis/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/)

@@ -1,0 +1,76 @@
+# Networking — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Computer networking from fundamentals to administration: OSI and TCP/IP models, routing and switching, DNS, DHCP, HTTP/HTTPS, firewall configuration, VPNs,
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Osi-Model
+
+- [OSI and TCP/IP Models](https://networking.wyattau.com/01-osi-model/osi-and-tcp-ip/): Network reference models provide a structured vocabulary for discussing protocol behavior. They are Not implementations -- they are abstractions that help
+- [Osi Model](https://networking.wyattau.com/01-osi-model/): This section covers osi model concepts, definitions, and applications with worked examples and practice problems.
+
+## Ip-Addressing
+
+- [Ip Addressing](https://networking.wyattau.com/02-ip-addressing/): This section covers ip addressing concepts, definitions, and applications with worked examples and practice problems.
+- [IP Addressing](https://networking.wyattau.com/02-ip-addressing/ip-addressing/): IP addressing is the mechanism by which hosts are identified and located on an IP network. Every Networked device must have an IP address to participate in
+- [Subnetting Workshop](https://networking.wyattau.com/02-ip-addressing/subnetting-workshop/): Subnetting Workshop notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and revision.
+
+## Tcp-Udp
+
+- [TCP and UDP](https://networking.wyattau.com/03-tcp-udp/tcp-and-udp/): The transport layer provides end-to-end communication services between processes on different hosts. Two protocols dominate: TCP (reliable,
+- [TCP State Machine](https://networking.wyattau.com/03-tcp-udp/tcp-state-machine/): The TCP connection state machine (defined in RFC 793, with updates in RFC 1122) is one of the most Precisely specified protocol behaviors in all of
+- [Tcp Udp](https://networking.wyattau.com/03-tcp-udp/): This section covers tcp udp concepts, definitions, and applications with worked examples and practice problems.
+- [UDP Deep Dive](https://networking.wyattau.com/03-tcp-udp/udp-deep-dive/): UDP (User Datagram Protocol, RFC 768) is the simplest transport-layer protocol in the TCP/IP suite: An 8-byte header, no handshake, no state, no guarantees.
+
+## Dns
+
+- [Dns | Networking - Wyatt's Notes](https://networking.wyattau.com/04-dns/): This section covers dns concepts, definitions, and applications with worked examples and practice problems.
+- [DNS | Networking - Wyatt's Notes](https://networking.wyattau.com/04-dns/dns/): Study notes for DNS with worked examples, practice problems, and key concepts for exam preparation.
+- [DNS Architecture and Operations](https://networking.wyattau.com/04-dns/dns-architecture/): DNS infrastructure is the backbone of Internet naming. Beyond the recursive resolution process Covered in the DNS fundamentals document, this deep dive
+
+## Http-Https
+
+- [HTTP | Networking - Wyatt's Notes](https://networking.wyattau.com/05-http-https/http/): HTTP (Hypertext Transfer Protocol) is the application-layer protocol that powers the World Wide Web. Originally designed for retrieving hypertext documents
+- [Http Https](https://networking.wyattau.com/05-http-https/): This section covers http https concepts, definitions, and applications with worked examples and practice problems.
+- [HTTP/2 and HTTP/3](https://networking.wyattau.com/05-http-https/http-2-and-3/): HTTP/2 (RFC 9113) and HTTP/3 (RFC 9114) are the modern versions of the Hypertext Transfer Protocol. HTTP/2 brought binary framing, multiplexing, and header
+- [WebSockets](https://networking.wyattau.com/05-http-https/websockets/): WebSockets (RFC 6455) provide full-duplex, bidirectional communication over a single TCP connection. Unlike HTTP, which follows a request-response model,
+
+## Tls
+
+- [Tls | Networking - Wyatt's Notes](https://networking.wyattau.com/06-tls/): This section covers tls concepts, definitions, and applications with worked examples and practice problems.
+- [TLS | Networking - Wyatt's Notes](https://networking.wyattau.com/06-tls/tls/): Transport Layer Security (TLS) provides encryption, authentication, and integrity for data Transmitted over a network. TLS is the successor to Secure
+- [TLS Internals](https://networking.wyattau.com/06-tls/tls-internals/): This document goes deeper into TLS internals than the TLS fundamentals document, covering the record Layer architecture, detailed handshake message formats
+
+## Network-Tools
+
+- [Network Tools](https://networking.wyattau.com/07-network-tools/): This section covers network tools concepts, definitions, and applications with worked examples and practice problems.
+- [Network Tools](https://networking.wyattau.com/07-network-tools/network-tools/): Network troubleshooting is a systematic process of isolating and identifying the root cause of Connectivity, performance, or security issues. This section
+- [Traffic Analysis](https://networking.wyattau.com/07-network-tools/traffic-analysis/): Network traffic analysis is the process of capturing, examining, and interpreting network traffic to Troubleshoot problems, detect anomalies, optimize
+
+## Layer2
+
+- [Layer 2 and Ethernet](https://networking.wyattau.com/08-layer2/layer2-and-ethernet/): Study notes for Layer 2 and Ethernet with worked examples, practice problems, and key concepts for exam preparation.
+- [Layer2 | Networking - Wyatt's Notes](https://networking.wyattau.com/08-layer2/): This section covers layer2 concepts, definitions, and applications with worked examples and practice problems.
+
+## Wireless
+
+- [Wireless](https://networking.wyattau.com/09-wireless/): This section covers wireless concepts, definitions, and applications with worked examples and practice problems.
+- [Wireless Networking](https://networking.wyattau.com/09-wireless/wireless-networking/): Study notes for Wireless Networking with worked examples, practice problems, and key concepts for exam preparation.
+
+## Email-And-App-Protocols
+
+- [Email And App Protocols](https://networking.wyattau.com/10-email-and-app-protocols/): This section covers email and app protocols concepts, definitions, and applications with worked examples and practice problems.
+- [Email and Application Protocols](https://networking.wyattau.com/10-email-and-app-protocols/email-and-application-protocols/): Electronic mail and application-layer protocols form the backbone of human communication over the Internet. This document examines the architecture,
+
+## Overview
+
+- [About This Site](https://networking.wyattau.com/about/): About Wyatt's Notes Networking resources, experience, expertise, and credentials behind computer networking study materials.
+- [BGP and Routing Protocols](https://networking.wyattau.com/bgp-and-routing-protocols/): Routing is the process of selecting a path across a network for traffic to travel from a source to a Destination. Every packet your systems send -- whether
+- [Complete Computer Networking Study Guide](https://networking.wyattau.com/hub/): Study notes for Complete Computer Networking Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Computer Networking Glossary, Key Terms and Definitions](https://networking.wyattau.com/glossary/): CSMA/CD (Carrier Sense Multiple Access with Collision Detection): A protocol used in Ethernet networks to manage data transmission and handle collisions.
+- [Computer Networking Practice Test, 30 Problems](https://networking.wyattau.com/practice-test-mega/): 30 computer networking problems covering OSI Model, TCP/IP, Routing, and Security. Multiple choice and scenario analysis with detailed explanations.
+- [Introduction to Networking](https://networking.wyattau.com/intro/): Every system you operate, deploy, or debug depends on networking. A container cannot reach its Database, a service returns 502 errors, DNS resolution stalls
+- [Networking](https://networking.wyattau.com/): Computer networking from fundamentals to administration: OSI and TCP/IP models, routing and switching, DNS, DHCP, HTTP/HTTPS, firewall configuration, VPNs,
+- [Networking: Practice Problems](https://networking.wyattau.com/practice-networking/): 12 practice problems covering fundamental networking concepts: OSI model, TCP/IP, DNS, HTTP, subnetting, and network security.

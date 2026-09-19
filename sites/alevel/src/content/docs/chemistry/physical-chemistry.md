@@ -528,5 +528,5 @@ linked above.
 ## See Also
 
 - [Chemistry](./)
-- [A-Level Chemistry](./chemistry)
-- [A-Level Chemistry Flashcards: Physical Chemistry](./flashcards-physical-chemistry)
+- [A-Level Chemistry](/chemistry/chemistry/)
+- [A-Level Chemistry Flashcards: Physical Chemistry](/chemistry/flashcards-physical-chemistry/)

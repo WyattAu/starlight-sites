@@ -76,7 +76,7 @@ func TestStack(t *testing.T) {
 `t.Helper()` marks a function as a test helper. Failures report the calling line, not the helper:
 
 ```go
-func assertEqual[T comparable](../../../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing) {
+func assertEqual[T comparable](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/) {
     t.Helper()
     if got != want {
         t.Errorf("got %v, want %v", got, want)
@@ -419,6 +419,6 @@ linked above.
 
 ## Cross-References
 
-- **[Interfaces](../intermediate/interfaces):** Interface-based mock design for test doubles.
-- **[Error Handling](../intermediate/error-handling):** Error wrapping and inspection patterns used in test assertions.
-- **[net/http](../standard-library/net-http):** HTTP handler testing with httptest and middleware chains.
+- **[Interfaces](/go/intermediate/interfaces/):** Interface-based mock design for test doubles.
+- **[Error Handling](/go/intermediate/error-handling/):** Error wrapping and inspection patterns used in test assertions.
+- **[net/http](/go/standard-library/net-http/):** HTTP handler testing with httptest and middleware chains.

@@ -221,5 +221,5 @@ linked above.
 
 ## Cross-References
 
-- **[Energy](./diag-energy):** Energy transfers and conservation.
-- **[Forces](./diag-forces):** Forces and motion.
+- **[Energy](/physics/diagnostics/diag-energy/):** Energy transfers and conservation.
+- **[Forces](/physics/diagnostics/diag-forces/):** Forces and motion.

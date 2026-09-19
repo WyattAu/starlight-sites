@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [8_magnetism](./8_magnetism)
+- [8_magnetism](/physics/8-magnetism/8_magnetism/)
 
 ## Learning Objectives
 

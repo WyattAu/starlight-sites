@@ -18,10 +18,10 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_gravitational Fields](./1_gravitational-fields)
-- [2_electric And Magnetic Fields](./2_electric-and-magnetic-fields)
-- [3_motion In Electromagnetic Fields](./3_motion-in-electromagnetic-fields)
-- [4_induction](./4_induction)
+- [1_gravitational Fields](/physics/4-fields/1_gravitational-fields/)
+- [2_electric And Magnetic Fields](/physics/4-fields/2_electric-and-magnetic-fields/)
+- [3_motion In Electromagnetic Fields](/physics/4-fields/3_motion-in-electromagnetic-fields/)
+- [4_induction](/physics/4-fields/4_induction/)
 
 ## Learning Objectives
 

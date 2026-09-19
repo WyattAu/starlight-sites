@@ -147,11 +147,11 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [University Physics Glossary](../../../../typescript/src/content/docs/glossary) for deeper physics coverage
-- See [University Mathematics Glossary](../../../../typescript/src/content/docs/glossary) for deeper mathematics
-- See [University Chemistry Glossary](../../../../typescript/src/content/docs/glossary) for deeper chemistry
-- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals
-- See [University Admissions Glossary](../../../../typescript/src/content/docs/glossary) for university application process
+- See [University Physics Glossary](https://typescript.wyattau.com/glossary/) for deeper physics coverage
+- See [University Mathematics Glossary](https://typescript.wyattau.com/glossary/) for deeper mathematics
+- See [University Chemistry Glossary](https://typescript.wyattau.com/glossary/) for deeper chemistry
+- See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals
+- See [University Admissions Glossary](https://typescript.wyattau.com/glossary/) for university application process
 
 
 ## Practical and Internal Assessment

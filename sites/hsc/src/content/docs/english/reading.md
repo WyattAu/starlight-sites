@@ -201,10 +201,10 @@ HSC examiners reward essays that acknowledge complexity and alternative readings
 
 ## Cross-References
 
-- [Writing](../english/writing) -- Essay and creative writing techniques apply the analytical skills developed through close reading.
-- [Algebra](../mathematics/algebra) -- Logical reasoning and structured argumentation in reading mirror algebraic proof techniques.
-- [Mechanics](../physics/mechanics) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
-- [Intro](../intro) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
+- [Writing](/english/writing/) -- Essay and creative writing techniques apply the analytical skills developed through close reading.
+- [Algebra](/mathematics/algebra/) -- Logical reasoning and structured argumentation in reading mirror algebraic proof techniques.
+- [Mechanics](/physics/mechanics/) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
+- [Intro](/intro/) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
 
 
 ## Advanced Content

@@ -24,7 +24,7 @@ categories:
 
 A complete single-page revision guide covering the full GCSE Mathematics specification. Each
 section contains key concepts, worked methods, and essential facts. Use this alongside the
-[full topic pages](maths/) for detailed proofs and further practice.
+[full topic pages](/maths/) for detailed proofs and further practice.
 
 ---
 
@@ -538,6 +538,6 @@ GCSE Mathematics covers number (fractions, decimals, percentages, ratio, standar
 
 ## Cross-References
 
-- **[Practice Maths](maths/practice-maths):** Interactive practice problems covering number, algebra, geometry, and statistics.
-- **[Maths Question Bank](maths-question-bank):** Additional practice questions organized by topic.
-- **[Chemistry](chemistry/):** Chemistry notes that use mathematical skills for quantitative calculations.
+- **[Practice Maths](/maths/practice-maths/):** Interactive practice problems covering number, algebra, geometry, and statistics.
+- **[Maths Question Bank](/maths-question-bank/):** Additional practice questions organized by topic.
+- **[Chemistry](/chemistry/):** Chemistry notes that use mathematical skills for quantitative calculations.

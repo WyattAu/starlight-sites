@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Elixir](./)
-- [Elixir Flashcards (Basics)](./flashcards-elixir-basics)
-- [Elixir Practice (Basics)](./practice-elixir-basics)
+- [Elixir Flashcards (Basics)](/flashcards-elixir-basics/)
+- [Elixir Practice (Basics)](/practice-elixir-basics/)
 
 
 ## Detailed Content

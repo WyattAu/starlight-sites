@@ -790,10 +790,10 @@ int main() {
 
 ## See Also
 
-- [Range Adaptors, Views, Composition](./2_range_adaptors)
-- [Projections and Callable Objects](./3_projections)
-- [Iterator-Sentinel Model](./1_iterator_sentinel)
-- [Parallel Algorithms](./5_parallel_algorithms)
+- [Range Adaptors, Views, Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
 
 ## Common Pitfalls
 

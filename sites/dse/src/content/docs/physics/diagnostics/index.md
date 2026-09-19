@@ -18,17 +18,17 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Diag Electrical Circuits](./diag-electrical-circuits)
-- [Diag Electricity Magnetism](./diag-electricity-magnetism)
-- [Diag Energy Work](./diag-energy-work)
-- [Diag Forces Motion](./diag-forces-motion)
-- [Diag Heat Gases](./diag-heat-gases)
-- [Diag Mechanics](./diag-mechanics)
-- [Diag Nuclear Physics](./diag-nuclear-physics)
-- [Diag Optics](./diag-optics)
-- [Diag Waves Optics](./diag-waves-optics)
-- [Diag Waves Sound](./diag-waves-sound)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Electrical Circuits](/physics/diagnostics/diag-electrical-circuits/)
+- [Diag Electricity Magnetism](/physics/diagnostics/diag-electricity-magnetism/)
+- [Diag Energy Work](/physics/diagnostics/diag-energy-work/)
+- [Diag Forces Motion](/physics/diagnostics/diag-forces-motion/)
+- [Diag Heat Gases](/physics/diagnostics/diag-heat-gases/)
+- [Diag Mechanics](/physics/diagnostics/diag-mechanics/)
+- [Diag Nuclear Physics](/physics/diagnostics/diag-nuclear-physics/)
+- [Diag Optics](/physics/diagnostics/diag-optics/)
+- [Diag Waves Optics](/physics/diagnostics/diag-waves-optics/)
+- [Diag Waves Sound](/physics/diagnostics/diag-waves-sound/)
+- [Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

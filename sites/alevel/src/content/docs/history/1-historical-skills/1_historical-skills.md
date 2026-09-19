@@ -284,4 +284,4 @@ topic in the specification.
 ## See Also
 
 - [Historical Skills](./)
-- [A-Level History](..)
+- [A-Level History](/)

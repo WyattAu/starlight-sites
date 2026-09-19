@@ -961,5 +961,5 @@ linked above.
 ## See Also
 
 - [Trees Graphs](./)
-- [Binary Search Trees and Balanced Trees](./binary-search-trees)
-- [Tries and String Algorithms](./trie-and-pattern-matching)
+- [Binary Search Trees and Balanced Trees](/algorithms/04-trees-graphs/binary-search-trees/)
+- [Tries and String Algorithms](/algorithms/04-trees-graphs/trie-and-pattern-matching/)

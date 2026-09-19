@@ -884,5 +884,5 @@ TypeScript's type system is your compile-time documentation. Primitives like str
 ## See Also
 
 - [Typescript](./)
-- [advanced types](./advanced-types)
-- [Enums and Modules](./enums-and-modules)
+- [advanced types](/typescript/advanced-types/)
+- [Enums and Modules](/typescript/enums-and-modules/)

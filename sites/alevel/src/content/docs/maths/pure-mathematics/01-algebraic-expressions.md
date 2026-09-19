@@ -164,7 +164,7 @@ $$
 
 The extension to rational and real exponents requires more sophisticated machinery (continuity
 Arguments and the exponential function), which we develop in
-[Exponentials and Logarithms](09-exponentials-and-logarithms).
+[Exponentials and Logarithms](/maths/pure-mathematics/09-exponentials-and-logarithms/).
 
 _Intuition._ Exponentiation is repeated multiplication, so multiplying two powers of the same base
 Adds the counts. Just as $3 \times 5$ counts $3 + 5$ groups of size 1, $a^3 \cdot a^5$ counts
@@ -582,7 +582,7 @@ $$
 Discriminant: $\Delta = 9 - 20 = -11 < 0$. No real solutions.
 
 </details>
-<b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions) and [Quadratics](02-quadratics)
+<b>If you get this wrong, revise:</b> [Algebraic fractions](#6-simplifying-algebraic-fractions) and [Quadratics](/maths/pure-mathematics/02-quadratics/)
 
 <hr />
 
@@ -665,7 +665,7 @@ $k = 6$: gives $x^2 + 6x + 9 = (x + 3)^2$ ✓
 $k = -2$: gives $x^2 - 2x + 1 = (x - 1)^2$ ✓
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratics](02-quadratics)
+<b>If you get this wrong, revise:</b> [Quadratics](/maths/pure-mathematics/02-quadratics/)
 
 ---
 
@@ -703,7 +703,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Quadratics](02-quadratics), Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
-- [Equations and Inequalities](03-equations-and-inequalities), The factor theorem and polynomial division are applied to solving simultaneous equations.
-- [Sequences and Series](06-sequences-and-series), Summation notation and algebraic manipulation are essential for working with series.
+- [Quadratics](/maths/pure-mathematics/02-quadratics/), Quadratic equations are solved using the factorisation and completing-the-square methods introduced here.
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/), The factor theorem and polynomial division are applied to solving simultaneous equations.
+- [Sequences and Series](/maths/pure-mathematics/06-sequences-and-series/), Summation notation and algebraic manipulation are essential for working with series.
 :::

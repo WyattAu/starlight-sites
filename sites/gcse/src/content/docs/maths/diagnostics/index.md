@@ -18,12 +18,12 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Topics
 
-- [Diag Algebra](./diag-algebra)
-- [Diag Geometry](./diag-geometry)
-- [Diag Number](./diag-number)
-- [Diag Ratio Proportion](./diag-ratio-proportion)
-- [Diag Statistics](./diag-statistics)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Algebra](/maths/diagnostics/diag-algebra/)
+- [Diag Geometry](/maths/diagnostics/diag-geometry/)
+- [Diag Number](/maths/diagnostics/diag-number/)
+- [Diag Ratio Proportion](/maths/diagnostics/diag-ratio-proportion/)
+- [Diag Statistics](/maths/diagnostics/diag-statistics/)
+- [Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

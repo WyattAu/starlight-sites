@@ -224,5 +224,5 @@ extremely energetically unfavourable to form $\text{Na}^{2+}$.
 ## See Also
 
 - [Diagnostics](./)
-- [Acids and Bases -- Diagnostic Tests](./diag-acids-bases)
-- [Chemical Bonding -- Diagnostic Tests](./diag-chemical-bonding)
+- [Acids and Bases -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Chemical Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-chemical-bonding/)

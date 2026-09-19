@@ -874,9 +874,9 @@ linked above.
 
 ## Cross-References
 
-- [Boolean Logic](../../computer-science/4-computational-thinking/1_boolean-logic) applies logical reasoning to digital circuits and computer science contexts.
-- [Proof and Logics](../1-number-and-algebra/3_proof-and-logic) provides the mathematical proof techniques that use logical arguments as their foundation.
-- [Algorithms and Data Structures](../../computer-science/4-computational-thinking/2_algorithms-and-data-structures) uses logical reasoning to design and analyse algorithmic solutions.
+- [Boolean Logic](/computer-science/4-computational-thinking/1_boolean-logic/) applies logical reasoning to digital circuits and computer science contexts.
+- [Proof and Logics](/maths/1-number-and-algebra/3_proof-and-logic/) provides the mathematical proof techniques that use logical arguments as their foundation.
+- [Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/) uses logical reasoning to design and analyse algorithmic solutions.
 
 ---
 

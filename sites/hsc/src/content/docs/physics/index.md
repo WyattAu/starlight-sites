@@ -18,8 +18,8 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Mechanics](./mechanics)
-- [Waves](./waves)
+- [Mechanics](/physics/mechanics/)
+- [Waves](/physics/waves/)
 
 ## Learning Objectives
 

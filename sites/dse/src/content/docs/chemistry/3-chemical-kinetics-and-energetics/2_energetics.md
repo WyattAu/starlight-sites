@@ -1031,5 +1031,5 @@ $$\Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}$$
 ## See Also
 
 - [Chemical Kinetics And Energetics](./)
-- [Chemistry - Chemical Kinetics](./1_chemical-kinetics)
-- [DSE Chemistry](..)
+- [Chemistry - Chemical Kinetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)
+- [DSE Chemistry](/)

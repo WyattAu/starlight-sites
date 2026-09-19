@@ -1,0 +1,311 @@
+# Languages — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models across Dart, Go, Rust, Python, and more.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://languages.wyattau.com/about/): About Wyatt's Notes Programming Languages resources, experience, expertise, and credentials behind programming language comparison study materials.
+- [Programming Language Comparison Guide](https://languages.wyattau.com/hub/): Study notes for Programming Language Comparison Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Programming Languages](https://languages.wyattau.com/): Comparative programming language notes covering syntax, paradigms, type systems, and concurrency models across Dart, Go, Rust, Python, and more.
+- [Programming Languages Glossary, Key Terms](https://languages.wyattau.com/glossary/): Cross-language programming terminology: static vs dynamic typing, memory management models, concurrency primitives, and compilation strategies shared across modern languages.
+
+## Dart
+
+- [Async | Languages - Wyatt's Notes](https://languages.wyattau.com/dart/05-async/): This section covers async concepts, definitions, and applications with worked examples and practice problems.
+- [Async and Futures](https://languages.wyattau.com/dart/05-async/01-async-and-futures/): Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses, the single thread processes Events from a queue,
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/dart/03-basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Best Practices](https://languages.wyattau.com/dart/04-best-practices/): - Always enable null safety (). - Avoid usage of and declaration, always use or explicit typing. - Follow the order of >> >> with no nullability specifier
+- [Class Modifiers](https://languages.wyattau.com/dart/07-dart3-features/03-class-modifiers/): Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,
+- [Classes and Inheritance](https://languages.wyattau.com/dart/04-object-oriented/01-classes-and-inheritance/): Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct, classes themselves serve as Interfaces.
+- [Code Generation](https://languages.wyattau.com/dart/13-code-generation/): Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time.
+- [Collections](https://languages.wyattau.com/dart/06-collections/): This section covers collections concepts, definitions, and applications with worked examples and practice problems.
+- [Collections Deep Dive](https://languages.wyattau.com/dart/06-collections/01-collections-deep-dive/): Study notes for Collections Deep Dive with worked examples, practice problems, and key concepts for exam preparation.
+- [Dart | Languages - Wyatt's Notes](https://languages.wyattau.com/dart/): This section covers dart concepts, definitions, and applications with worked examples and practice problems.
+- [Dart Flashcards: Fundamentals](https://languages.wyattau.com/dart/flashcards-dart-basics/): 30 interactive flashcards covering core Dart concepts from null safety to Dart 3 features and Flutter basics. Press Space to flip, rate 1-4.
+- [Dart Practice (Fundamentals)](https://languages.wyattau.com/dart/practice-dart-basics/): 10 auto-graded practice problems covering core Dart concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble
+- [Dart3 Features](https://languages.wyattau.com/dart/07-dart3-features/): This section covers dart3 features concepts, definitions, and applications with worked examples and practice problems.
+- [Dependency Injection](https://languages.wyattau.com/dart/12-dependency-injection/): Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This
+- [Development Enviroment](https://languages.wyattau.com/dart/02-setup/02-dev-enviroment/): Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is
+- [Entry Point](https://languages.wyattau.com/dart/03-basics/01-entrypoint/): When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble
+- [Error Handling](https://languages.wyattau.com/dart/08-error-handling/): Dart draws a sharp line between two families of throwable objects: and . This is not a stylistic preference -- it is a semantic contract. means something wen
+- [FFI and Advanced Topics](https://languages.wyattau.com/dart/09-ffi-and-advanced/): Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
+- [Flutter Fundamentals](https://languages.wyattau.com/dart/09-flutter-fundamentals/): This section covers flutter fundamentals concepts, definitions, and applications with worked examples and practice problems.
+- [Installation](https://languages.wyattau.com/dart/02-setup/01-installation/): My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble
+- [Introduction to Dart & Flutter](https://languages.wyattau.com/dart/01-intro/): This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble
+- [Navigation](https://languages.wyattau.com/dart/09-flutter-fundamentals/01-navigation/): Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way
+- [Networking And Data](https://languages.wyattau.com/dart/11-networking-and-data/): This section covers networking and data concepts, definitions, and applications with worked examples and practice problems.
+- [Object Oriented](https://languages.wyattau.com/dart/04-object-oriented/): This section covers object oriented concepts, definitions, and applications with worked examples and practice problems.
+- [Pattern Matching](https://languages.wyattau.com/dart/07-dart3-features/01-pattern-matching/): Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a
+- [Platform Integration](https://languages.wyattau.com/dart/11-networking-and-data/01-platform-integration/): Study notes for Platform Integration with worked examples, practice problems, and key concepts for exam preparation.
+- [Sealed Classes](https://languages.wyattau.com/dart/07-dart3-features/02-sealed-classes/): Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the
+- [Setup | Languages - Wyatt's Notes](https://languages.wyattau.com/dart/02-setup/): This section covers setup concepts, definitions, and applications with worked examples and practice problems.
+- [State Management](https://languages.wyattau.com/dart/10-state-management/01-state-management/): Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce
+- [State Management](https://languages.wyattau.com/dart/10-state-management/): This section covers state management concepts, definitions, and applications with worked examples and practice problems.
+- [testing](https://languages.wyattau.com/dart/testing/): Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most
+- [Testing](https://languages.wyattau.com/dart/14-testing/): This section covers testing concepts, definitions, and applications with worked examples and practice problems.
+- [Testing Fundamentals](https://languages.wyattau.com/dart/14-testing/01-testing-fundamentals/): Testing is not a phase that comes after development. It is a structural property of the codebase That determines whether you can safely change it. The
+- [Variables](https://languages.wyattau.com/dart/03-basics/02-variables/): Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble
+- [Widgets and Lifecycle](https://languages.wyattau.com/dart/09-flutter-fundamentals/02-widgets-and-lifecycle/): Study notes for Widgets and Lifecycle with worked examples, practice problems, and key concepts for exam preparation.
+
+## Elixir
+
+- [Advanced](https://languages.wyattau.com/elixir/04-advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/elixir/01-basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Basics and Pattern Matching](https://languages.wyattau.com/elixir/01-basics/1_basics-and-pattern-matching/): Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code.
+- [Concurrency](https://languages.wyattau.com/elixir/03-concurrency/): This section covers concurrency concepts, definitions, and applications with worked examples and practice problems.
+- [Concurrency and OTP](https://languages.wyattau.com/elixir/03-concurrency/1_concurrency-otp/): Study notes for Concurrency and OTP with worked examples, practice problems, and key concepts for exam preparation.
+- [Elixir | Languages - Wyatt's Notes](https://languages.wyattau.com/elixir/): This section covers elixir concepts, definitions, and applications with worked examples and practice problems.
+- [Elixir Flashcards (Basics)](https://languages.wyattau.com/elixir/flashcards-elixir-basics/): 30 flashcards covering core Elixir concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.
+- [Elixir Practice (Basics)](https://languages.wyattau.com/elixir/practice-elixir-basics/): 10 auto-graded practice problems covering core Elixir concepts. Select an answer Comprehensive educational content coverage with definitions and practice proble
+- [Functions and Modules](https://languages.wyattau.com/elixir/02-functions-modules/1_functions-and-modules/): Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).
+- [Functions Modules](https://languages.wyattau.com/elixir/02-functions-modules/): This section covers functions modules concepts, definitions, and applications with worked examples and practice problems.
+- [Intro | Languages - Wyatt's Notes](https://languages.wyattau.com/elixir/00-intro/): This section covers intro concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Elixir](https://languages.wyattau.com/elixir/00-intro/1_elixir-intro/): Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the
+- [Metaprogramming](https://languages.wyattau.com/elixir/04-advanced/1_metaprogramming/): Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,
+- [Testing and Deployment](https://languages.wyattau.com/elixir/04-advanced/2_testing-and-deployment/): ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and
+
+## Go
+
+- [Advanced](https://languages.wyattau.com/go/advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Arrays, Slices, and Maps](https://languages.wyattau.com/go/basics/arrays-slices-maps/): Arrays are fixed-length, homogeneous sequences. The length is part of the type - Comprehensive educational content coverage with definitions and practice proble
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/go/basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Channels and Concurrency Patterns](https://languages.wyattau.com/go/concurrency/channels/): Unbuffered channels synchronize sender and receiver: both must be ready at the same time. Buffered Channels allow the sender to proceed up to the buffer
+- [Concurrency](https://languages.wyattau.com/go/concurrency/): This section covers concurrency concepts, definitions, and applications with worked examples and practice problems.
+- [Control Flow](https://languages.wyattau.com/go/basics/control-flow/): Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation.
+- [Error Handling](https://languages.wyattau.com/go/intermediate/error-handling/): Study notes for Error Handling with worked examples, practice problems, and key concepts for exam preparation.
+- [Functions](https://languages.wyattau.com/go/basics/functions/): Go functions are first-class values. The basic syntax: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
+- [Generics](https://languages.wyattau.com/go/intermediate/generics/): Go 1.18 (released March 2022) added generics via type parameters. Generics allow you to write Functions and types that abstract over different concrete
+- [Go Basics Practice (Interactive)](https://languages.wyattau.com/go/practice-basics/): 8 auto-graded practice problems covering core Go concepts. Select an answer, sub Comprehensive educational content coverage with definitions and practice proble
+- [go project architecture](https://languages.wyattau.com/go/advanced/architecture/): Go does not mandate a project layout, but community conventions have emerged. Th Comprehensive educational content coverage with definitions and practice proble
+- [Go Standard Library Flashcards](https://languages.wyattau.com/go/flashcards-standard-library/): - fmt Package: `fmt.Printf, fmt.Sprintf, fmt.Errorf`. Format verbs: `%v` (default), `%+v` (struct fields), `%#v` (Go syntax), `%T` (type). `Errorf` creates
+- [Goroutines and Synchronization](https://languages.wyattau.com/go/concurrency/goroutines/): A goroutine is a lightweight thread managed by the Go runtime. Goroutines are multiplexed onto a Small number of OS threads (default: GOMAXPROCS, equal to
+- [Interfaces](https://languages.wyattau.com/go/intermediate/interfaces/): An interface in Go defines a set of method signatures. A type satisfies an interface by implementing All of its methods. There is no explicit declaration --
+- [Intermediate](https://languages.wyattau.com/go/intermediate/): This section covers intermediate concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Go](https://languages.wyattau.com/go/intro/): Go Introduction to Go notes covering key definitions, core concepts, worked examples, and practice questions for focused study and examination practice.
+- [math, sort, and log/slog](https://languages.wyattau.com/go/standard-library/math-sort-log/): The package provides basic constants and mathematical functions for floating-poi Comprehensive educational content coverage with definitions and practice proble
+- [Modules and Packages](https://languages.wyattau.com/go/advanced/modules-and-packages/): Every Go file belongs to a package, declared at the top of the file. A directory contains one Package. Executables use ; libraries use any other name.
+- [net/http](https://languages.wyattau.com/go/standard-library/net-http/): Go' s package provides everything needed to build HTTP servers and clients. It ships With the standard library -- no frameworks, no external dependencies.
+- [Networking](https://languages.wyattau.com/go/advanced/networking/): The package provides TCP support via and : Comprehensive educational content coverage with definitions, worked examples, and practice problems.
+- [Pointers and Memory](https://languages.wyattau.com/go/advanced/pointers-and-memory/): Go has pointers, but no pointer arithmetic (except via ). Pointers hold the memo Comprehensive educational content coverage with definitions and practice proble
+- [race conditions](https://languages.wyattau.com/go/concurrency/race-conditions/): A data race occurs when two goroutines access the same variable concurrently, at least one of them writes, and there is no synchronization to order the
+- [Reflection](https://languages.wyattau.com/go/advanced/reflection/): The package provides runtime type introspection and manipulation. It allows programs to Examine types, inspect struct fields, call methods by name, and
+- [Standard Library](https://languages.wyattau.com/go/standard-library/): This section covers standard library concepts, definitions, and applications with worked examples and practice problems.
+- [Standard Library I/O](https://languages.wyattau.com/go/standard-library/io/): The package defines the fundamental I/O interfaces that permeate Go' s standard l Comprehensive educational content coverage with definitions and practice pr
+- [strings and time](https://languages.wyattau.com/go/standard-library/strings-and-time/): The package provides functions for manipulating UTF-8 encoded strings. Strings in Go are immutable byte slices -- all operations return new strings rather
+- [Testing](https://languages.wyattau.com/go/advanced/testing/): Go has a built-in testing framework. Test files are named and the build system excludes them from production binaries. Test functions have the signature .
+- [Types and Variables](https://languages.wyattau.com/go/basics/types-and-variables/): Go provides signed and unsigned integers at standard widths: Comprehensive educational content coverage with definitions and practice problems.
+
+## Haskell
+
+- [Advanced](https://languages.wyattau.com/haskell/05-advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Advanced Types](https://languages.wyattau.com/haskell/05-advanced/1_advanced-types/): Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/haskell/01-basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Concurrency](https://languages.wyattau.com/haskell/05-advanced/2_concurrency/): means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once
+- [Haskell](https://languages.wyattau.com/haskell/): This section covers haskell concepts, definitions, and applications with worked examples and practice problems.
+- [Haskell Flashcards (Basics)](https://languages.wyattau.com/haskell/flashcards-haskell-basics/): 30 flashcards covering core Haskell concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.
+- [Haskell Practice (Basics)](https://languages.wyattau.com/haskell/practice-haskell-basics/): 10 auto-graded practice problems covering core Haskell concepts. Select an answe Comprehensive educational content coverage with definitions and practice proble
+- [Intro | Languages - Wyatt's Notes](https://languages.wyattau.com/haskell/00-intro/): This section covers intro concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Haskell](https://languages.wyattau.com/haskell/00-intro/1_haskell-intro/): Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional
+- [Monads | Languages - Wyatt's Notes](https://languages.wyattau.com/haskell/04-monads/): This section covers monads concepts, definitions, and applications with worked examples and practice problems.
+- [Monads and Functors](https://languages.wyattau.com/haskell/04-monads/1_monads-and-functors/): A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain
+- [Pattern Matching](https://languages.wyattau.com/haskell/02-pattern-matching/1_pattern-matching/): Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in
+- [Pattern Matching](https://languages.wyattau.com/haskell/02-pattern-matching/): This section covers pattern matching concepts, definitions, and applications with worked examples and practice problems.
+- [Type Classes](https://languages.wyattau.com/haskell/03-type-classes/1_type-classes/): Type classes are Haskell' s mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types
+- [Type Classes](https://languages.wyattau.com/haskell/03-type-classes/): This section covers type classes concepts, definitions, and applications with worked examples and practice problems.
+- [Types and Functions](https://languages.wyattau.com/haskell/01-basics/1_types-and-functions/): Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every
+
+## Java
+
+- [Annotations and Reflection](https://languages.wyattau.com/java/11-generics-reflection/02-annotations-reflection/): (JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration
+- [Best Practices](https://languages.wyattau.com/java/07-best-practices/): This section covers best practices concepts, definitions, and applications with worked examples and practice problems.
+- [Build Tools](https://languages.wyattau.com/java/13-build-tools/): This section covers build tools concepts, definitions, and applications with worked examples and practice problems.
+- [Build Tools and Dependency Management](https://languages.wyattau.com/java/13-build-tools/build-tools/): Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble
+- [Class Loading and Memory Model](https://languages.wyattau.com/java/09-jvm-internals/01-class-loading-memory/): Study notes for Class Loading and Memory Model with worked examples, practice problems, and key concepts for exam preparation.
+- [Classes and Inheritance](https://languages.wyattau.com/java/03-object-oriented/01-classes/): Study notes for Classes and Inheritance with worked examples, practice problems, and key concepts for exam preparation.
+- [Collections](https://languages.wyattau.com/java/04-collections/): This section covers collections concepts, definitions, and applications with worked examples and practice problems.
+- [Collections Framework](https://languages.wyattau.com/java/04-collections/01-collections-framework/): Study notes for Collections Framework with worked examples, practice problems, and key concepts for exam preparation.
+- [Concurrency](https://languages.wyattau.com/java/06-concurrency/01-concurrency/): Study notes for Concurrency with worked examples, practice problems, and key concepts for exam preparation.
+- [Concurrency](https://languages.wyattau.com/java/06-concurrency/): This section covers concurrency concepts, definitions, and applications with worked examples and practice problems.
+- [Concurrency Deep Dive](https://languages.wyattau.com/java/06-concurrency/02-concurrency-deep-dive/): provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition
+- [Control Flow](https://languages.wyattau.com/java/02-fundamentals/02-control-flow/): Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation.
+- [Exception Handling](https://languages.wyattau.com/java/12-exceptions/01-exceptions/): Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException
+- [Exceptions](https://languages.wyattau.com/java/12-exceptions/): This section covers exceptions concepts, definitions, and applications with worked examples and practice problems.
+- [Fundamentals](https://languages.wyattau.com/java/02-fundamentals/): This section covers fundamentals concepts, definitions, and applications with worked examples and practice problems.
+- [Garbage Collection](https://languages.wyattau.com/java/09-jvm-internals/03-garbage-collection/): An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through, starting from a
+- [Generics and Type Erasure](https://languages.wyattau.com/java/11-generics-reflection/01-generics/): Before generics (JDK 5, 2004), the Java collections API worked with . Every retrieval Required a cast, and the compiler could not verify that you were
+- [Generics Reflection](https://languages.wyattau.com/java/11-generics-reflection/): This section covers generics reflection concepts, definitions, and applications with worked examples and practice problems.
+- [GraalVM and Modern JVM](https://languages.wyattau.com/java/graalvm-and-modern-jvm/): GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image
+- [I/O, NIO, and the Path API](https://languages.wyattau.com/java/10-io-nio/01-io-nio/): Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
+- [Inheritance and Polymorphism](https://languages.wyattau.com/java/03-object-oriented/02-inheritance-polymorphism/): Study notes for Inheritance and Polymorphism with worked examples, practice problems, and key concepts for exam preparation.
+- [Introduction to Java](https://languages.wyattau.com/java/intro/): Java Introduction to Java notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.
+- [Io Nio | Languages - Wyatt's Notes](https://languages.wyattau.com/java/10-io-nio/): This section covers io nio concepts, definitions, and applications with worked examples and practice problems.
+- [Java | Languages - Wyatt's Notes](https://languages.wyattau.com/java/): This section covers java concepts, definitions, and applications with worked examples and practice problems.
+- [Java Fundamentals Flashcards](https://languages.wyattau.com/java/flashcards-java-basics/): Java Fundamentals Flashcards: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Java Fundamentals Practice (Interactive)](https://languages.wyattau.com/java/practice-java-basics/): 10 auto-graded practice problems covering Java fundamentals. Select an answer, s Comprehensive educational content coverage with definitions and practice proble
+- [Java OOP Practice (Interactive)](https://languages.wyattau.com/java/practice-oop/): 8 auto-graded practice problems covering Java OOP concepts. Select an answer, su Comprehensive educational content coverage with definitions and practice proble
+- [JIT Compilation and Deoptimization](https://languages.wyattau.com/java/09-jvm-internals/02-jit-compilation/): Study notes for JIT Compilation and Deoptimization with worked examples, practice problems, and key concepts for exam preparation.
+- [Jvm Internals](https://languages.wyattau.com/java/09-jvm-internals/): This section covers jvm internals concepts, definitions, and applications with worked examples and practice problems.
+- [Maps and Sets](https://languages.wyattau.com/java/04-collections/02-maps-and-sets/): maps keys to values. It is not part of the hierarchy, it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can
+- [Modern Java](https://languages.wyattau.com/java/08-modern-java/): This section covers modern java concepts, definitions, and applications with worked examples and practice problems.
+- [NIO Deep Dive](https://languages.wyattau.com/java/10-io-nio/02-nio-deep-dive/): (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O
+- [Object Oriented](https://languages.wyattau.com/java/03-object-oriented/): This section covers object oriented concepts, definitions, and applications with worked examples and practice problems.
+- [Records, Sealed Classes, and Pattern Matching](https://languages.wyattau.com/java/08-modern-java/01-records-sealed-patterns/): Study notes for Records, Sealed Classes, and Pattern Matching with worked examples, practice problems, and key concepts for exam preparation.
+- [Streams](https://languages.wyattau.com/java/05-streams/): This section covers streams concepts, definitions, and applications with worked examples and practice problems.
+- [Streams API](https://languages.wyattau.com/java/05-streams/01-streams-api/): Study notes for Streams API with worked examples, practice problems, and key concepts for exam preparation.
+- [Strings and Text Processing](https://languages.wyattau.com/java/02-fundamentals/03-strings/): is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in
+- [Style and Patterns](https://languages.wyattau.com/java/07-best-practices/01-style-and-patterns/): Study notes for Style and Patterns with worked examples, practice problems, and key concepts for exam preparation.
+- [Testing](https://languages.wyattau.com/java/14-testing/): This section covers testing concepts, definitions, and applications with worked examples and practice problems.
+- [Testing in Java](https://languages.wyattau.com/java/14-testing/testing/): JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble
+- [Types and Variables](https://languages.wyattau.com/java/02-fundamentals/01-types-and-variables/): Study notes for Types and Variables with worked examples, practice problems, and key concepts for exam preparation.
+- [Virtual Threads and Structured Concurrency](https://languages.wyattau.com/java/08-modern-java/02-virtual-threads-structured-concurrency/): Study notes for Virtual Threads and Structured Concurrency with worked examples, practice problems, and key concepts for exam preparation.
+
+## Kotlin
+
+- [Advanced](https://languages.wyattau.com/kotlin/advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/kotlin/basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Classes and Objects](https://languages.wyattau.com/kotlin/basics/classes-and-objects/): Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble
+- [Collections](https://languages.wyattau.com/kotlin/intermediate/collections/): Kotlin' s collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems.
+- [Control Flow](https://languages.wyattau.com/kotlin/basics/control-flow/): In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble
+- [Coroutines](https://languages.wyattau.com/kotlin/intermediate/coroutines/): Coroutines are Kotlin' s mechanism for asynchronous programming. They are lightweight -- a coroutine Suspends instead of blocking a thread, allowing a small
+- [coroutines advanced](https://languages.wyattau.com/kotlin/intermediate/coroutines-advanced/): This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured
+- [delegation and result](https://languages.wyattau.com/kotlin/intermediate/delegation-and-result/): Property delegation transfers the getter and setter logic to a delegate object using the keyword. The delegate must provide (and for mutable properties).
+- [Functions](https://languages.wyattau.com/kotlin/basics/functions/): Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble
+- [Generics](https://languages.wyattau.com/kotlin/intermediate/generics/): Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type
+- [Intermediate](https://languages.wyattau.com/kotlin/intermediate/): This section covers intermediate concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Kotlin](https://languages.wyattau.com/kotlin/intro/): Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.
+- [Java Interoperability](https://languages.wyattau.com/kotlin/advanced/interoperability/): Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language.
+- [Kotlin | Languages - Wyatt's Notes](https://languages.wyattau.com/kotlin/): This section covers kotlin concepts, definitions, and applications with worked examples and practice problems.
+- [Kotlin Fundamentals Flashcards](https://languages.wyattau.com/kotlin/flashcards-kotlin-basics/): 30 interactive flashcards covering core Kotlin concepts from null safety to inline functions. Press Space to flip, rate 1-4.
+- [Kotlin Fundamentals Practice (Interactive)](https://languages.wyattau.com/kotlin/practice-kotlin-basics/): 10 auto-graded practice problems covering Kotlin fundamentals. Select an answer, Comprehensive educational content coverage with definitions and practice proble
+- [Kotlin Null Safety Practice (Interactive)](https://languages.wyattau.com/kotlin/practice-null-safety/): 8 auto-graded practice problems covering Kotlin null safety, scope functions, sealed classes, and coroutines. Select an answer, submit, and review the
+- [Metaprogramming](https://languages.wyattau.com/kotlin/advanced/metaprogramming/): Reflection allows inspection of classes, functions, properties, and annotations at runtime. Kotlin Reflection requires an additional dependency.
+- [Null Safety Deep Dive](https://languages.wyattau.com/kotlin/advanced/null-safety-deep-dive/): Kotlin' s type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice pr
+- [scope functions](https://languages.wyattau.com/kotlin/intermediate/scope-functions/): Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions (, , , , ) and one coroutine-specific
+- [Testing](https://languages.wyattau.com/kotlin/advanced/testing/): Study notes for Testing with worked examples, practice problems, and key concepts for exam preparation.
+- [Types and Variables](https://languages.wyattau.com/kotlin/basics/types-and-variables/): declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems.
+
+## Python
+
+- [Advanced Topics](https://languages.wyattau.com/python/08-advanced-topics/): This section covers advanced topics concepts, definitions, and applications with worked examples and practice problems.
+- [Advanced Type System](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/): Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.
+- [Async | Languages - Wyatt's Notes](https://languages.wyattau.com/python/06-async/): This section covers async concepts, definitions, and applications with worked examples and practice problems.
+- [Async and Await](https://languages.wyattau.com/python/06-async/01-async-await/): Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision.
+- [Best Practices](https://languages.wyattau.com/python/07-best-practices/): This section covers best practices concepts, definitions, and applications with worked examples and practice problems.
+- [Classes and Inheritance](https://languages.wyattau.com/python/04-object-oriented/01-classes/): In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when
+- [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/): Study notes for CLI Tools with worked examples, practice problems, and key concepts for exam preparation.
+- [Collections](https://languages.wyattau.com/python/03-data-structures/01-collections/): Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks.
+- [Concurrency Primitives](https://languages.wyattau.com/python/05-standard-library/05-concurrency-primitives/): The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform' s native threading implementation (pthreads on
+- [Context Managers and the with Statement](https://languages.wyattau.com/python/08-advanced-topics/03-context-managers/): The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource
+- [Control Flow](https://languages.wyattau.com/python/02-fundamentals/02-control-flow/): Python' s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks.
+- [Data Structures](https://languages.wyattau.com/python/03-data-structures/): This section covers data structures concepts, definitions, and applications with worked examples and practice problems.
+- [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/): Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration
+- [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/): Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does
+- [Descriptors and Properties](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/): Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or .
+- [Dicts, Sets, and Collections Deep Dive](https://languages.wyattau.com/python/03-data-structures/02-dicts-sets-counter/): Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in
+- [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/): Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.
+- [Essential Modules](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/): The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths.
+- [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/): is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for
+- [Functions, Closures, and Decorators](https://languages.wyattau.com/python/02-fundamentals/03-functions/): In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no
+- [Fundamentals](https://languages.wyattau.com/python/02-fundamentals/): This section covers fundamentals concepts, definitions, and applications with worked examples and practice problems.
+- [Generators and Iterators](https://languages.wyattau.com/python/02-fundamentals/04-generators-and-iterators/): Python' s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython
+- [Introduction to Python](https://languages.wyattau.com/python/intro/): Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision.
+- [Metaclasses and Class Creation](https://languages.wyattau.com/python/04-object-oriented/02-metaclasses/): The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is
+- [Modules and Packages](https://languages.wyattau.com/python/02-fundamentals/06-modules-and-packages/): The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical
+- [Object Oriented](https://languages.wyattau.com/python/04-object-oriented/): This section covers object oriented concepts, definitions, and applications with worked examples and practice problems.
+- [Packaging and Distribution](https://languages.wyattau.com/python/07-best-practices/04-packaging-distribution/): is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata).
+- [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/): Python' s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not
+- [Python | Languages - Wyatt's Notes](https://languages.wyattau.com/python/): This section covers python concepts, definitions, and applications with worked examples and practice problems.
+- [Python Flashcards: Fundamentals](https://languages.wyattau.com/python/flashcards-python-basics/): 30 interactive flashcards covering core Python concepts from types and control flow to metaclasses and the GIL. Press Space to flip, rate 1-4.
+- [Python Internals](https://languages.wyattau.com/python/02-fundamentals/05-python-internals/): CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say
+- [Python Practice (Fundamentals)](https://languages.wyattau.com/python/practice-python-basics/): Python Practice (Fundamentals): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Python Practice (Interactive)](https://languages.wyattau.com/python/practice-interactive/): 8 auto-graded practice problems covering core Python concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble
+- [Serialization and Data Formats](https://languages.wyattau.com/python/05-standard-library/04-serialization/): The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.
+- [Standard Library](https://languages.wyattau.com/python/05-standard-library/): This section covers standard library concepts, definitions, and applications with worked examples and practice problems.
+- [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/): Study notes for Style and Idioms with worked examples, practice problems, and key concepts for exam preparation.
+- [Types and Variables](https://languages.wyattau.com/python/02-fundamentals/01-types-and-variables/): Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble
+
+## Ruby
+
+- [Advanced](https://languages.wyattau.com/ruby/05-advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/ruby/01-basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Concurrency](https://languages.wyattau.com/ruby/05-advanced/2_concurrency/): Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has
+- [Control Flow](https://languages.wyattau.com/ruby/02-control-flow/1_control-flow/): Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation.
+- [Control Flow](https://languages.wyattau.com/ruby/02-control-flow/): This section covers control flow concepts, definitions, and applications with worked examples and practice problems.
+- [Intro | Languages - Wyatt's Notes](https://languages.wyattau.com/ruby/00-intro/): This section covers intro concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Ruby](https://languages.wyattau.com/ruby/00-intro/1_ruby-intro/): Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro
+- [Metaprogramming](https://languages.wyattau.com/ruby/05-advanced/1_metaprogramming/): Study notes for Metaprogramming with worked examples, practice problems, and key concepts for exam preparation.
+- [Methods and Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/): Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Methods Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/): This section covers methods blocks concepts, definitions, and applications with worked examples and practice problems.
+- [Object-Oriented Programming](https://languages.wyattau.com/ruby/04-oop/1_oop/): class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems.
+- [Ruby | Languages - Wyatt's Notes](https://languages.wyattau.com/ruby/): This section covers ruby concepts, definitions, and applications with worked examples and practice problems.
+- [Ruby Flashcards (Basics)](https://languages.wyattau.com/ruby/flashcards-ruby-basics/): 30 flashcards covering core Ruby concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.
+- [Ruby Practice (Basics)](https://languages.wyattau.com/ruby/practice-ruby-basics/): 10 auto-graded practice problems covering core Ruby concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble
+- [Variables and Types](https://languages.wyattau.com/ruby/01-basics/1_variables-and-types/): Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,
+
+## Rust
+
+- [Advanced Struct and Enum Patterns](https://languages.wyattau.com/rust/03-structs-enums/advanced-patterns/): Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.
+- [Async Deep Dive](https://languages.wyattau.com/rust/06-concurrency/async-deep-dive/): Study notes for Async Deep Dive with worked examples, practice problems, and key concepts for exam preparation.
+- [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/): is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble
+- [Cargo Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/): This section covers cargo ecosystem concepts, definitions, and applications with worked examples and practice problems.
+- [Channels and Message Passing](https://languages.wyattau.com/rust/06-concurrency/channels-and-message-passing/): Channels implement the actor model, concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each
+- [Concurrency](https://languages.wyattau.com/rust/06-concurrency/concurrency/): Rust' s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating
+- [Concurrency](https://languages.wyattau.com/rust/06-concurrency/): This section covers concurrency concepts, definitions, and applications with worked examples and practice problems.
+- [Control Flow and Pattern Matching](https://languages.wyattau.com/rust/01-fundamentals/control-flow/): Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression, it
+- [Error Handling](https://languages.wyattau.com/rust/04-error-handling/error-handling/): Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.
+- [Error Handling](https://languages.wyattau.com/rust/04-error-handling/): This section covers error handling concepts, definitions, and applications with worked examples and practice problems.
+- [Error Handling Patterns](https://languages.wyattau.com/rust/04-error-handling/error-handling-patterns/): Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across
+- [Fundamentals](https://languages.wyattau.com/rust/01-fundamentals/): This section covers fundamentals concepts, definitions, and applications with worked examples and practice problems.
+- [Interior Mutability](https://languages.wyattau.com/rust/02-ownership-borrowing/interior-mutability/): Rust' s borrowing rules state that a shared reference () is immutable, you cannot modify the Data through it. This is a compile-time guarantee that prevents
+- [Introduction to Rust](https://languages.wyattau.com/rust/intro/): Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery.
+- [Lifetimes](https://languages.wyattau.com/rust/02-ownership-borrowing/lifetimes/): Rust' s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference
+- [Macros | Languages - Wyatt's Notes](https://languages.wyattau.com/rust/08-macros/): Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,
+- [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/): Rust' s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems.
+- [Ownership Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/): This section covers ownership borrowing concepts, definitions, and applications with worked examples and practice problems.
+- [Rust | Languages - Wyatt's Notes](https://languages.wyattau.com/rust/): This section covers rust concepts, definitions, and applications with worked examples and practice problems.
+- [Rust Flashcards: Fundamentals](https://languages.wyattau.com/rust/flashcards-rust-basics/): 30 interactive flashcards covering core Rust concepts from ownership and borrowing to macros and unsafe. Press Space to flip, rate 1-4.
+- [Rust Ownership Practice (Interactive)](https://languages.wyattau.com/rust/practice-ownership/): 8 auto-graded practice problems covering Rust ownership, lifetimes, references, and smart pointers. Select an answer, submit, and review the explanation.
+- [Rust Practice (Basics)](https://languages.wyattau.com/rust/practice-rust-basics/): 10 auto-graded practice problems covering core Rust concepts from ownership to concurrency. Select an answer, submit, and review the explanation.
+- [Structs and Enums](https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums/): Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition
+- [Structs Enums](https://languages.wyattau.com/rust/03-structs-enums/): This section covers structs enums concepts, definitions, and applications with worked examples and practice problems.
+- [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/): Traits are Rust' s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are
+- [Traits Generics](https://languages.wyattau.com/rust/05-traits-generics/): This section covers traits generics concepts, definitions, and applications with worked examples and practice problems.
+- [Types and Variables](https://languages.wyattau.com/rust/01-fundamentals/types-and-variables/): Study notes for Types and Variables with worked examples, practice problems, and key concepts for exam preparation.
+- [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/): The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem
+
+## Swift
+
+- [Advanced](https://languages.wyattau.com/swift/04-advanced/): This section covers advanced concepts, definitions, and applications with worked examples and practice problems.
+- [Basics | Languages - Wyatt's Notes](https://languages.wyattau.com/swift/01-basics/): This section covers basics concepts, definitions, and applications with worked examples and practice problems.
+- [Classes and Structs](https://languages.wyattau.com/swift/03-oop/1_classes-and-structs/): Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble
+- [Concurrency](https://languages.wyattau.com/swift/04-advanced/2_concurrency/): Swift' s concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This
+- [Error Handling](https://languages.wyattau.com/swift/04-advanced/1_error-handling/): Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error.
+- [Functions](https://languages.wyattau.com/swift/02-functions-closures/1_functions/): Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,
+- [Functions Closures](https://languages.wyattau.com/swift/02-functions-closures/): This section covers functions closures concepts, definitions, and applications with worked examples and practice problems.
+- [Intro | Languages - Wyatt's Notes](https://languages.wyattau.com/swift/00-intro/): This section covers intro concepts, definitions, and applications with worked examples and practice problems.
+- [Introduction to Swift](https://languages.wyattau.com/swift/00-intro/1_swift-intro/): Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be
+- [Swift | Languages - Wyatt's Notes](https://languages.wyattau.com/swift/): This section covers swift concepts, definitions, and applications with worked examples and practice problems.
+- [Swift Flashcards (Basics)](https://languages.wyattau.com/swift/flashcards-swift-basics/): 30 flashcards covering core Swift concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.
+- [Swift Practice (Basics)](https://languages.wyattau.com/swift/practice-swift-basics/): 10 auto-graded practice problems covering core Swift concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble
+- [Variables and Types](https://languages.wyattau.com/swift/01-basics/1_variables-and-types/): Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble
+
+## Typescript
+
+- [Advanced Patterns](https://languages.wyattau.com/typescript/advanced-patterns/): Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.
+- [advanced types](https://languages.wyattau.com/typescript/advanced-types/): and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble
+- [Classes](https://languages.wyattau.com/typescript/classes/): A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be
+- [Enums and Modules](https://languages.wyattau.com/typescript/enums-and-modules/): Numeric enums assign auto-incrementing integer values to their members. By default, the first member Has value And each subsequent member increments by .
+- [Error Handling](https://languages.wyattau.com/typescript/error-handling/): The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a
+- [Functions](https://languages.wyattau.com/typescript/functions/): Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the
+- [Generics](https://languages.wyattau.com/typescript/generics/): Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or
+- [Tooling and Configuration](https://languages.wyattau.com/typescript/tooling-and-configuration/): Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references.
+- [Types and Annotations](https://languages.wyattau.com/typescript/types-and-annotations/): TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble
+- [TypeScript](https://languages.wyattau.com/typescript/): This section covers TypeScript concepts, definitions, and applications with worked examples and practice problems.
+- [TypeScript -- Course Overview](https://languages.wyattau.com/typescript/typescript/): TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a
+- [TypeScript Fundamentals Flashcards](https://languages.wyattau.com/typescript/flashcards-typescript-basics/): 30 interactive flashcards covering core TypeScript concepts from the type system to React integration. Press Space to flip, rate 1-4.
+- [TypeScript Fundamentals Practice (Interactive)](https://languages.wyattau.com/typescript/practice-typescript-basics/): 10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and review the explanation.
+- [TypeScript with React](https://languages.wyattau.com/typescript/typescript-with-react/): Study notes for TypeScript with React with worked examples, practice problems, and key concepts for exam preparation.

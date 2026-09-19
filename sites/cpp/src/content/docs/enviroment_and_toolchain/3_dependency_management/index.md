@@ -18,12 +18,12 @@ This section provides study materials and resources for 3_dependency_management.
 
 ## Topics
 
-- [1_dependency_architectures_models](./1_dependency_architectures_models)
-- [2_cpm](./2_cpm)
-- [3_vcpkg](./3_vcpkg)
-- [4_conan](./4_conan)
-- [5_property_propagation](./5_property_propagation)
-- [6_binary_caching](./6_binary_caching)
+- [1_dependency_architectures_models](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [2_cpm](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [3_vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/)
+- [4_conan](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [5_property_propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
+- [6_binary_caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
 
 ## Learning Objectives
 

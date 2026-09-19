@@ -987,6 +987,6 @@ Python variables are like labelled boxes: the label (name) points to a box (obje
 
 ## Cross-References
 
-- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow)
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
-- [Data Structures](../../../../../kotlin/src/content/docs/intermediate/collections)
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+- [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)

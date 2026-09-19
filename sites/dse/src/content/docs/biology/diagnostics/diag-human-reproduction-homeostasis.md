@@ -479,5 +479,5 @@ mobilise energy reserves rapidly.
 ## See Also
 
 - [Diagnostics](./)
-- [Human Physiology -- Diagnostic Tests](./diag-human-physiology)
-- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
+- [Human Physiology -- Diagnostic Tests](/biology/diagnostics/diag-human-physiology/)
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)

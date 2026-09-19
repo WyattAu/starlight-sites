@@ -820,13 +820,13 @@ the Resulting zygote and endosperm after fertilisation.
 ## If You Get These Wrong, Revise
 
 - **Cell structure and membrane transport** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Photosynthesis and biochemistry** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
-- **Genetics and meiosis** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
+- **Genetics and meiosis** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Human physiology -- gas exchange** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
-- **Ecosystems and energy flow** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
+- **Ecosystems and energy flow** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
 
 ---
 
@@ -1679,18 +1679,18 @@ adaptations, Including the role of specific hormones and osmoprotectants.
 ## Cross-References to Related Topics
 
 - **Cell membrane and transport**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane structure,
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane structure,
   osmosis, and active transport.
 - **Enzymes and protein structure**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   enzyme kinetics and protein folding.
 - **Photosynthesis and light reactions**: Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism) for light absorption, electron
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/) for light absorption, electron
   transport, and the Calvin cycle.
 - **Genetics and gene expression**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for transcription factors
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for transcription factors
   and gene regulation in plant development.
-- **Ecology and biomes**: Review [.../4-ecology/1_ecology](../4-ecology/1_ecology) for plant
+- **Ecology and biomes**: Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/) for plant
   adaptations to different biomes and ecosystems.
 
 ---

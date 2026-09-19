@@ -174,5 +174,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Algebra -- Diagnostic Tests](./diag-algebra)
-- [Geometry -- Diagnostic Tests](./diag-geometry)
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)

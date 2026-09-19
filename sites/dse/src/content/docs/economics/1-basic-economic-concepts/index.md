@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_basic Economic Concepts](./1_basic-economic-concepts)
+- [1_basic Economic Concepts](/economics/1-basic-economic-concepts/1_basic-economic-concepts/)
 
 ## Learning Objectives
 

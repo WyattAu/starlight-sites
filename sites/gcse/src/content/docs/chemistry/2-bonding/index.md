@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [2_bonding](./2_bonding)
+- [2_bonding](/chemistry/2-bonding/2_bonding/)
 
 ## Learning Objectives
 

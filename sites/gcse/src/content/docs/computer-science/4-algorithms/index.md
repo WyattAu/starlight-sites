@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [4_algorithms](./4_algorithms)
+- [4_algorithms](/computer-science/4-algorithms/4_algorithms/)
 
 ## Learning Objectives
 

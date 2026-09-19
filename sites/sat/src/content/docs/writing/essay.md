@@ -130,9 +130,9 @@ The SAT essay is an argument about an argument, you are analysing how the author
 
 ## Cross-References
 
-- [Language](./language) -- Essay writing applies the same rhetorical analysis skills tested in the writing and language section.
-- [Reading Comprehension](../reading/comprehension) -- Analysing evidence in reading passages provides practice for constructing evidence-based arguments in essays.
-- [Data Analysis](../mathematics/data-analysis) -- Using data and statistics as evidence in essays requires understanding of data interpretation.
+- [Language](/writing/language/) -- Essay writing applies the same rhetorical analysis skills tested in the writing and language section.
+- [Reading Comprehension](/reading/comprehension/) -- Analysing evidence in reading passages provides practice for constructing evidence-based arguments in essays.
+- [Data Analysis](/mathematics/data-analysis/) -- Using data and statistics as evidence in essays requires understanding of data interpretation.
 
 
 ## Advanced Content

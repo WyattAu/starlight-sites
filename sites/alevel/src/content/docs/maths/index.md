@@ -18,13 +18,13 @@ This section provides study materials and resources for maths. Browse the topics
 
 ## Topics
 
-- [Diagnostic Guide](./diagnostic-guide)
-- [Diagnostic Test](./diagnostic-test)
-- [Flashcards Pure Mathematics](./flashcards-pure-mathematics)
-- [Maths](./maths)
-- [Practice Mechanics](./practice-mechanics)
-- [Practice Pure Mathematics](./practice-pure-mathematics)
-- [Practice Statistics](./practice-statistics)
+- [Diagnostic Guide](/maths/diagnostic-guide/)
+- [Diagnostic Test](/maths/diagnostic-test/)
+- [Flashcards Pure Mathematics](/maths/flashcards-pure-mathematics/)
+- [Maths](/maths/maths/)
+- [Practice Mechanics](/maths/practice-mechanics/)
+- [Practice Pure Mathematics](/maths/practice-pure-mathematics/)
+- [Practice Statistics](/maths/practice-statistics/)
 
 ## Learning Objectives
 

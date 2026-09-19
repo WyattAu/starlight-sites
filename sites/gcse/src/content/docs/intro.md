@@ -54,17 +54,17 @@ Understand.
 
 ## Subjects
 
-- **[English Literature](english)** -- Shakespeare, the 19th-century novel, modern texts and poetry,
+- **[English Literature](/english/)** -- Shakespeare, the 19th-century novel, modern texts and poetry,
   and essay writing
-- **[Mathematics](maths/1-number/1_number)** -- Number, algebra, geometry, statistics, and ratio,
+- **[Mathematics](/maths/1-number/1_number/)** -- Number, algebra, geometry, statistics, and ratio,
   proportion, and rates of change
-- **[Physics](physics/1-energy/1_energy)** -- Energy, forces, waves, electricity, and magnetism and
+- **[Physics](/physics/1-energy/1_energy/)** -- Energy, forces, waves, electricity, and magnetism and
   electromagnetism
-- **[Chemistry](chemistry/1-atomic-structure/1_atomic-structure)** -- Atomic structure, bonding,
+- **[Chemistry](/chemistry/1-atomic-structure/1_atomic-structure/)** -- Atomic structure, bonding,
   chemical reactions, quantitative chemistry, and organic chemistry
-- **[Biology](biology/1-cell-biology/1_cell-biology)** -- Cell biology, organisation, bioenergetics,
+- **[Biology](/biology/1-cell-biology/1_cell-biology/)** -- Cell biology, organisation, bioenergetics,
   inheritance, variation and evolution, and ecology
-- **[Computer Science](computer-science/4-algorithms/4_algorithms)** -- Algorithms, programming,
+- **[Computer Science](/computer-science/4-algorithms/4_algorithms/)** -- Algorithms, programming,
   data representation, computer systems, and networks
 
 ## Summary

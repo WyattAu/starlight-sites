@@ -701,13 +701,13 @@ Always prefer arrow syntax unless you deliberately need fall-through.
 
 ## See Also
 
-- [Concurrency](../06-concurrency/01-concurrency) -- pattern matching and sealed classes
+- [Concurrency](/06-concurrency/01-concurrency/) -- pattern matching and sealed classes
   integrate with concurrent data structures
-- [Collections Framework](../04-collections/01-collections-framework) -- records as collection
+- [Collections Framework](/04-collections/01-collections-framework/) -- records as collection
   element types
-- [Style and Patterns](../07-best-practices/01-style-and-patterns) -- when to use records vs
+- [Style and Patterns](/07-best-practices/01-style-and-patterns/) -- when to use records vs
   regular classes in production code
-- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency)
+- [Virtual Threads and Structured Concurrency](/08-modern-java/02-virtual-threads-structured-concurrency/)
   -- modern concurrency features
 
 
@@ -748,6 +748,6 @@ Records are concise data carriers where the compiler generates the constructor, 
 
 ## Cross-References
 
-- [Classes and Inheritance](../03-object-oriented/01-classes) -- class declarations and Object methods
-- [Inheritance and Polymorphism](../03-object-oriented/02-inheritance-polymorphism) -- abstract classes and interfaces
-- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow) -- switch expressions and pattern matching
+- [Classes and Inheritance](/03-object-oriented/01-classes/) -- class declarations and Object methods
+- [Inheritance and Polymorphism](/03-object-oriented/02-inheritance-polymorphism/) -- abstract classes and interfaces
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/) -- switch expressions and pattern matching

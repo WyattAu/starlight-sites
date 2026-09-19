@@ -944,6 +944,6 @@ Computer science combines mathematical logic with engineering实践. Algorithms 
 
 ## Cross-References
 
-- [Computational Thinking](../1-computational-thinking/1_computational-thinking)
-- [Data Analysis](../../../../../../sat/src/content/docs/mathematics/data-analysis)
-- [Algorithms](../../../../../../alevel/src/content/docs/computer-science/algorithms/01-searching-algorithms)
+- [Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/)
+- [Data Analysis](https://sat.wyattau.com/mathematics/data-analysis/)
+- [Algorithms](https://alevel.wyattau.com/computer-science/algorithms/01-searching-algorithms/)

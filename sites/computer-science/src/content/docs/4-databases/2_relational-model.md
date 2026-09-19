@@ -275,5 +275,5 @@ The relational model organizes data into tables with rows and columns, like a sp
 ## See Also
 
 - [Database Systems](./)
-- [Introduction to Database Systems](./1_introduction-to-database-systems)
-- [Problem Set](./10_problem-set)
+- [Introduction to Database Systems](/4-databases/1_introduction-to-database-systems/)
+- [Problem Set](/4-databases/10_problem-set/)

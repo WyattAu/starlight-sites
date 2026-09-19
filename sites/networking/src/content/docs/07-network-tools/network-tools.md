@@ -1089,6 +1089,6 @@ Network troubleshooting is like detective work - you follow clues from the physi
 
 ## Cross-References
 
-- [Traffic Analysis](traffic-analysis) - Deep packet inspection and protocol analysis techniques
-- [Layer 2 and Ethernet](../08-layer2/layer2-and-ethernet) - How network tools operate at the data link layer
-- [TLS](../06-tls/tls) - How encryption affects the visibility of network traffic to diagnostic tools
+- [Traffic Analysis](/07-network-tools/traffic-analysis/) - Deep packet inspection and protocol analysis techniques
+- [Layer 2 and Ethernet](/08-layer2/layer2-and-ethernet/) - How network tools operate at the data link layer
+- [TLS](/06-tls/tls/) - How encryption affects the visibility of network traffic to diagnostic tools

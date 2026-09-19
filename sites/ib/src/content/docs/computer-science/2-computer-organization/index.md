@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_computer Organization](./1_computer-organization)
+- [1_computer Organization](/computer-science/2-computer-organization/1_computer-organization/)
 
 ## Learning Objectives
 

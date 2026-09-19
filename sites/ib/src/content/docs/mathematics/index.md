@@ -18,8 +18,8 @@ This section covers essential mathematical techniques and theories. These founda
 
 ## Topics
 
-- [Analysis And Approaches Question Bank](./analysis-and-approaches-question-bank)
-- [Practice Interactive](./practice-interactive)
+- [Analysis And Approaches Question Bank](/mathematics/analysis-and-approaches-question-bank/)
+- [Practice Interactive](/mathematics/practice-interactive/)
 
 ## Learning Objectives
 

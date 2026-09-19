@@ -672,10 +672,10 @@ std::unique_ptr<int> make_value_alt() {
 
 ## See Also
 
-- [RAII Patterns](1_raii_patterns)
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
-- [Weak References (std::weak_ptr)](4_weak_ptr)
-- [Common Pitfalls](5_custom_deleters)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Weak References (std::weak_ptr)](/resource_management/1_ownership_and_raii/4_weak_ptr/)
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
 
 ```mermaid
 flowchart TD

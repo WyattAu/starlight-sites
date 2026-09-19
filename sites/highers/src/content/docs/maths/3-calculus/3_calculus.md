@@ -795,4 +795,4 @@ applying these mathematical techniques.
 ## See Also
 
 - [Calculus](./)
-- [Scottish Highers Mathematics](..)
+- [Scottish Highers Mathematics](/)

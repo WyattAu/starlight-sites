@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_rhetorical Analysis](./1_rhetorical-analysis)
+- [1_rhetorical Analysis](/english/1-rhetorical-analysis/1_rhetorical-analysis/)
 
 ## Learning Objectives
 

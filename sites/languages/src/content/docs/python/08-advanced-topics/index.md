@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Advanced Typing](./01-advanced-typing)
-- [Data Validation](./02-data-validation)
-- [Context Managers](./03-context-managers)
-- [Protocols Dunder Methods](./04-protocols-dunder-methods)
+- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+- [Context Managers](/python/08-advanced-topics/03-context-managers/)
+- [Protocols Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)
 
 ## Learning Objectives
 

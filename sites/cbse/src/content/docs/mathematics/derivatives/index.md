@@ -230,9 +230,9 @@ A derivative measures how fast something changes at a single instant. Think of i
 
 ## Cross-References
 
-- [Integrals](../../../../../../ap/src/content/docs/maths/3-integrals/3_integrals) -- the reverse of differentiation
-- [Matrices](../../../../../../alevel/src/content/docs/further-maths/pure-mathematics/02-matrices) -- linear algebra foundations
-- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- applications of derivatives in mechanics
+- [Integrals](https://ap.wyattau.com/maths/3-integrals/3_integrals/) -- the reverse of differentiation
+- [Matrices](https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices/) -- linear algebra foundations
+- [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- applications of derivatives in mechanics
 
 ## Common Mistakes
 

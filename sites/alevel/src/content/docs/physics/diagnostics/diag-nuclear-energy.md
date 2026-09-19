@@ -408,5 +408,5 @@ timescales.
 ## See Also
 
 - [Diagnostics](./)
-- [Work, Energy and Power -- Diagnostic Tests](./diag-work-energy-power)
-- [Capacitance -- Diagnostic Tests](./diag-capacitance)
+- [Work, Energy and Power -- Diagnostic Tests](/physics/diagnostics/diag-work-energy-power/)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)

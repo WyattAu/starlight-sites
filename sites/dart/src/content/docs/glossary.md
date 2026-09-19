@@ -185,8 +185,8 @@ Future<String> fetchData() async {
 
 ## Related Terms
 
-- See [Kotlin Glossary](../../../../typescript/src/content/docs/glossary) for mobile development comparison
-- See [Swift Glossary](../../../../typescript/src/content/docs/glossary) for iOS development comparison
-- See [TypeScript Glossary](../../../../typescript/src/content/docs/glossary) for web development comparison
-- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for general programming concepts
-- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals
+- See [Kotlin Glossary](https://typescript.wyattau.com/glossary/) for mobile development comparison
+- See [Swift Glossary](https://typescript.wyattau.com/glossary/) for iOS development comparison
+- See [TypeScript Glossary](https://typescript.wyattau.com/glossary/) for web development comparison
+- See [Programming Glossary](https://typescript.wyattau.com/glossary/) for general programming concepts
+- See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals

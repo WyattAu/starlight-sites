@@ -795,14 +795,14 @@ Function. Use the concept of surface-area-to-volume ratio in your explanation.
 
 ## If You Get These Wrong, Revise
 
-- **Mitosis and meiosis phases** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+- **Mitosis and meiosis phases** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **DNA replication and chromosome structure** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Membrane transport and ATP use** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 - **Osmosis and water potential** --> Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
-- **Evolution and natural selection** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/)
+- **Evolution and natural selection** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
 
 ---
 
@@ -1505,7 +1505,7 @@ different subsets of Genes. This is controlled by:
    factors establish cell-type-specific gene expression programmes.
 2. **Epigenetic modifications**: DNA methylation and histone modifications create heritable patterns
    of gene activation/silencing that are maintained through cell division (see
-   [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced)).
+   [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/)).
 3. **External signals**: growth factors, hormones, and cell-cell interactions (e.g., Notch
    signalling) activate intracellular signalling cascades that modulate transcription factor
    activity.
@@ -1553,18 +1553,18 @@ activation Of new transcription factors and the silencing of genes for alternati
 ## Cross-References to Related Topics
 
 - **Membrane transport and proteins**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   membrane protein structure and fluid mosaic model.
 - **Enzymes and metabolism**: Review
-  [../2_metabolism](./2_metabolism) for ATP, respiration, and
+  [../2_metabolism](/biology/1-cell-biology/2_metabolism/) for ATP, respiration, and
   photosynthesis in organelles.
-- **Cell division and meiosis**: Review [.../3-genetics/1_genetics](../3-genetics/1_genetics) for
+- **Cell division and meiosis**: Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/) for
   meiosis and genetic recombination.
 - **DNA replication in organelles**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for mitochondrial DNA
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for mitochondrial DNA
   replication and inheritance.
 - **Immune cells and phagocytosis**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for specialised cell types of the immune system.
 
 ---

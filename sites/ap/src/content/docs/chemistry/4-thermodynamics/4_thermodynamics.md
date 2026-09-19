@@ -889,8 +889,8 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 
 ## Cross-References
 
-- [Mechanics](../../../../../../hsc/src/content/docs/physics/mechanics)
-- [Waves](../../../../../../hsc/src/content/docs/physics/waves)
-- [Electricity](../../../../../../gaokao/src/content/docs/physics/electricity)
-- [Fields](../../../../../../alevel/src/content/docs/physics/diagnostics/diag-electric-fields)
-- **[AP Physics, Work, Energy, and Power](../../../../../../alevel/src/content/docs/physics/mechanics/04-work-energy-power):** The work-energy theorem from physics underpins enthalpy and internal energy calculations in thermodynamics.
+- [Mechanics](https://hsc.wyattau.com/physics/mechanics/)
+- [Waves](https://hsc.wyattau.com/physics/waves/)
+- [Electricity](https://gaokao.wyattau.com/physics/electricity/)
+- [Fields](https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields/)
+- **[AP Physics, Work, Energy, and Power](https://alevel.wyattau.com/physics/mechanics/04-work-energy-power/):** The work-energy theorem from physics underpins enthalpy and internal energy calculations in thermodynamics.

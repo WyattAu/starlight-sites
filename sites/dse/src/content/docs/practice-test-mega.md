@@ -1051,11 +1051,11 @@ Supply-side policies aim to increase the productive capacity of the economy. Red
 
 ## Cross-References
 
-- **[Biology](biology)**, Detailed notes on cell biology, genetics, ecology, and human physiology
-- **[Chemistry](chemistry)**, Atomic structure, bonding, energetics, and organic chemistry
-- **[Physics](physics)**, Mechanics, waves, electricity, and nuclear physics
-- **[Mathematics](maths/compulsory/2_functions-advanced)**, Functions, algebra, coordinate geometry, and probability
-- **[Economics](economics)**, Microeconomics, macroeconomics, and international trade
+- **[Biology](/biology/)**, Detailed notes on cell biology, genetics, ecology, and human physiology
+- **[Chemistry](/chemistry/)**, Atomic structure, bonding, energetics, and organic chemistry
+- **[Physics](/physics/)**, Mechanics, waves, electricity, and nuclear physics
+- **[Mathematics](/maths/compulsory/2_functions-advanced/)**, Functions, algebra, coordinate geometry, and probability
+- **[Economics](/economics/)**, Microeconomics, macroeconomics, and international trade
 
 ---
 

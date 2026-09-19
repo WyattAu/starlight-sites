@@ -349,5 +349,5 @@ This is the minimum non-zero thickness for destructive reflection of $550\,\text
 ## See Also
 
 - [Diagnostics](./)
-- [Capacitance -- Diagnostic Tests](./diag-capacitance)
-- [Circular Motion -- Diagnostic Tests](./diag-circular-motion)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)

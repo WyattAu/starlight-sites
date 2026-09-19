@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Exceptions](./01-exceptions)
+- [Exceptions](/java/12-exceptions/01-exceptions/)
 
 ## Learning Objectives
 

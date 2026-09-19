@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [2_dynamics Space](./2_dynamics-space)
+- [2_dynamics Space](/physics/2-dynamics-space/2_dynamics-space/)
 
 ## Learning Objectives
 

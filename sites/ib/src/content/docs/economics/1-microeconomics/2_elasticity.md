@@ -188,5 +188,5 @@ flowchart TD
 ## See Also
 
 - [Microeconomics](./)
-- [Supply and Demand](./1_supply-and-demand)
-- [Market Failure](./3-market-failure)
+- [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/)
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)

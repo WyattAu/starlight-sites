@@ -36,31 +36,31 @@ understanding of chemical principles.
 
 Atomic models, electron configuration, periodic trends, and radioactivity.
 
-→ **[Full notes](1-atomic-structure/1_atomic-structure)**
+→ **[Full notes](/chemistry/1-atomic-structure/1_atomic-structure/)**
 
 ### Bonding
 
 Ionic, covalent, and metallic bonding, intermolecular forces, and molecular geometry.
 
-→ **[Full notes](2-bonding/2_bonding)**
+→ **[Full notes](/chemistry/2-bonding/2_bonding/)**
 
 ### Stoichiometry & Formulae
 
 Mole calculations, balanced equations, empirical formulae, and gas laws.
 
-→ **[Full notes](3-stoichiometry/3_stoichiometry)**
+→ **[Full notes](/chemistry/3-stoichiometry/3_stoichiometry/)**
 
 ### Acids, Bases & Salts
 
 pH, indicators, neutralisation, salt preparation, and buffer solutions.
 
-→ **[Full notes](4-acids-bases/4_acids-bases)**
+→ **[Full notes](/chemistry/4-acids-bases/4_acids-bases/)**
 
 ### Organic Chemistry
 
 Hydrocarbons, functional groups, reaction mechanisms, and organic analysis.
 
-→ **[Full notes](5-organic/5_organic)**
+→ **[Full notes](/chemistry/5-organic/5_organic/)**
 
 ## Study Tips
 
@@ -195,7 +195,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 
 ## Cross-References
 
-- [1 Atomic Structure](1-atomic-structure/1_atomic-structure)
-- [2 Bonding](2-bonding/2_bonding)
-- [1 Cell](biology/1-cell/1_cell)
-- [2 Ecology](biology/2-ecology/2_ecology)
+- [1 Atomic Structure](/chemistry/1-atomic-structure/1_atomic-structure/)
+- [2 Bonding](/chemistry/2-bonding/2_bonding/)
+- [1 Cell](/biology/1-cell/1_cell/)
+- [2 Ecology](/biology/2-ecology/2_ecology/)

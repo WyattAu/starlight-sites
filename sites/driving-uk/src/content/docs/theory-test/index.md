@@ -19,9 +19,9 @@ This section covers driving theory and practical knowledge required for the driv
 ## Topics
 
 - [Hazard Perception](./hazard-perception)
-- [Multiple Choice](./multiple-choice)
-- [Road Rules](./road-rules)
-- [Traffic Signs](./traffic-signs)
+- [Multiple Choice](/theory-test/multiple-choice/)
+- [Road Rules](/theory-test/road-rules/)
+- [Traffic Signs](/theory-test/traffic-signs/)
 
 ## Learning Objectives
 

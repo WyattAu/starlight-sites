@@ -189,6 +189,6 @@ DSE Geography is the study of why the world looks the way it does and how it is 
 
 ## Cross-References
 
-- [Biology](../../../../../gcse/src/content/docs/biology)
-- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
-- [Economics](../../../../../alevel/src/content/docs/economics/economics)
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
+- [Economics](https://alevel.wyattau.com/economics/economics/)

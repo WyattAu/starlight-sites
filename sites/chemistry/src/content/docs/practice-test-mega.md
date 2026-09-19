@@ -691,9 +691,9 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 
 ## Cross-References
 
-- **[Physical Chemistry](1-physical-chemistry)**, Thermodynamics, kinetics, quantum chemistry, spectroscopy, and electrochemistry
-- **[Organic Chemistry](2-organic-chemistry)**, Reaction mechanisms, stereochemistry, carbonyl chemistry, and spectroscopy
-- **[Inorganic Chemistry](3-inorganic-chemistry)**, Coordination chemistry, crystal field theory, organometallics, and bioinorganic chemistry
+- **[Physical Chemistry](/1-physical-chemistry/)**, Thermodynamics, kinetics, quantum chemistry, spectroscopy, and electrochemistry
+- **[Organic Chemistry](/2-organic-chemistry/)**, Reaction mechanisms, stereochemistry, carbonyl chemistry, and spectroscopy
+- **[Inorganic Chemistry](/3-inorganic-chemistry/)**, Coordination chemistry, crystal field theory, organometallics, and bioinorganic chemistry
 
 ---
 

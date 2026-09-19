@@ -894,5 +894,5 @@ Functions and modules are the organizational backbone of Elixir:
 ## See Also
 
 - [Functions Modules](./)
-- [Elixir](..)
-- [Modules and Packages](../../go/advanced/modules-and-packages)
+- [Elixir](/)
+- [Modules and Packages](/go/advanced/modules-and-packages/)

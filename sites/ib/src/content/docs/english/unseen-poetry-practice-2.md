@@ -245,6 +245,6 @@ If you are preparing for HL Paper 1, also review your response against the compa
 
 ## Cross-References
 
-- **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
-- **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
-- **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis
+- **[Poetry Analysis](/english/poetry-analysis-guide/):** Literary analysis develops through study
+- **[Comparative Analysis](/english/comparitives/chronicle-streetcar/):** Comparing texts builds analytical skills
+- **[Flashcards](/english/flashcards-poetry/):** Literary terms support analysis

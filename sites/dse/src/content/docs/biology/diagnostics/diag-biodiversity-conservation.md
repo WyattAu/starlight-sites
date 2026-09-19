@@ -454,5 +454,5 @@ fishing quotas.)
 ## See Also
 
 - [Diagnostics](./)
-- [Evolution and Ecology -- Diagnostic Tests](./diag-evolution-ecology)
-- [Genetics -- Diagnostic Tests](./diag-genetics)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)

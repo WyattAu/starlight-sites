@@ -453,11 +453,11 @@ This combined approach can reduce a 45-minute CI build to under 2 minutes for in
 
 ## See Also
 
-- [Dependency Resolution](1_dependency_architectures_models), How package managers resolve
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/), How package managers resolve
   version graphs
-- [vcpkg](3_vcpkg), Binary caching configuration for vcpkg
-- [Build Caching](../2_build_system/4_build_caching), CMake and build-system-level caching
-- [Code Coverage](../2_build_system/6_code_coverage), Instrumented builds (should not be cached)
+- [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/), Binary caching configuration for vcpkg
+- [Build Caching](/enviroment_and_toolchain/2_build_system/4_build_caching/), CMake and build-system-level caching
+- [Code Coverage](/enviroment_and_toolchain/2_build_system/6_code_coverage/), Instrumented builds (should not be cached)
 
 
 ```mermaid

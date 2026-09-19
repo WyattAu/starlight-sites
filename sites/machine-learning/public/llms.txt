@@ -1,0 +1,22 @@
+# Machine Learning — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Machine learning fundamentals through advanced topics: supervised learning (regression, classification), unsupervised learning (clustering, dimensionality
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://machine-learning.wyattau.com/about/): About Wyatt's Notes Machine Learning resources, experience, expertise, and credentials behind machine learning study materials.
+- [advanced topics](https://machine-learning.wyattau.com/advanced-topics/): Attention mechanisms allow a model to focus on different parts of an input sequence when producing each element of an output. This capability, selectively
+- [Machine Learning](https://machine-learning.wyattau.com/): Machine learning fundamentals through advanced topics: supervised learning (regression, classification), unsupervised learning (clustering, dimensionality
+- [Machine Learning](https://machine-learning.wyattau.com/intro/): Study notes for Machine Learning with worked examples, practice problems, and key concepts for exam preparation.
+- [Machine Learning Deep Dive](https://machine-learning.wyattau.com/machine-learning-deep-dive/): Comprehensive machine learning guide covering algorithms, neural networks, and practical applications.
+- [Machine Learning Fundamentals Study Guide](https://machine-learning.wyattau.com/hub/): Study notes for Machine Learning Fundamentals Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Machine Learning Glossary, Key Terms and Definitions](https://machine-learning.wyattau.com/glossary/): Study notes for Machine Learning Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [ML Fundamentals Practice](https://machine-learning.wyattau.com/practice-ml-fundamentals/): 15 practice questions covering supervised and unsupervised learning, bias-variance tradeoff, cross-validation, gradient descent, overfitting, and feature
+
+## Diagnostics
+
+- [Diagnostic Test: Machine Learning](https://machine-learning.wyattau.com/diagnostics/diag-ml/): Diagnostic test notes for machine-learning Diagnostic Test: Machine Learning covering key concepts, worked examples, and practice problems for exam preparation.

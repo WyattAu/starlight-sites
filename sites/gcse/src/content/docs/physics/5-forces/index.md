@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [5_forces](./5_forces)
+- [5_forces](/physics/5-forces/5_forces/)
 
 ## Learning Objectives
 

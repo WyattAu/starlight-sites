@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [6_electrostatics](./6_electrostatics)
+- [6_electrostatics](/physics/6-electrostatics/6_electrostatics/)
 
 ## Learning Objectives
 

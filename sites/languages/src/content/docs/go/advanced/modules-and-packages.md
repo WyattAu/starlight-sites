@@ -326,5 +326,5 @@ linked above.
 ## See Also
 
 - [Advanced](./)
-- [Pointers and Memory](./pointers-and-memory)
-- [go project architecture](./architecture)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [go project architecture](/go/advanced/architecture/)

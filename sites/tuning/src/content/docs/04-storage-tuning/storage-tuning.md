@@ -1002,6 +1002,6 @@ linked above.
 
 ## Cross-References
 
-- [Memory Tuning](../02-memory-tuning/memory-tuning) - How RAM and storage interact in caching and virtual memory performance
-- [CPU Fundamentals](../01-cpu-tuning/cpu-fundamentals) - How CPU queue depth and I/O scheduling affect storage throughput
-- [PSU and BIOS Guide](../psu-and-bios-guide) - How BIOS NVMe and SATA configuration affects storage performance
+- [Memory Tuning](/02-memory-tuning/memory-tuning/) - How RAM and storage interact in caching and virtual memory performance
+- [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - How CPU queue depth and I/O scheduling affect storage throughput
+- [PSU and BIOS Guide](/psu-and-bios-guide/) - How BIOS NVMe and SATA configuration affects storage performance

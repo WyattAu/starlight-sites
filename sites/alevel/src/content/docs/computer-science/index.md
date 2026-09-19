@@ -18,16 +18,16 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [Computer Science](./computer-science)
-- [Diagnostic Test](./diagnostic-test)
-- [Flashcards Algorithms](./flashcards-algorithms)
-- [Flashcards Data Structures](./flashcards-data-structures)
-- [Flashcards Fundamentals](./flashcards-fundamentals)
-- [Flashcards Networks](./flashcards-networks)
-- [Flashcards Programming](./flashcards-programming)
-- [Flashcards Theory Of Computation](./flashcards-theory-of-computation)
-- [Practice Algorithms](./practice-algorithms)
-- [Practice Data Structures](./practice-data-structures)
+- [Computer Science](/computer-science/computer-science/)
+- [Diagnostic Test](/computer-science/diagnostic-test/)
+- [Flashcards Algorithms](/computer-science/flashcards-algorithms/)
+- [Flashcards Data Structures](/computer-science/flashcards-data-structures/)
+- [Flashcards Fundamentals](/computer-science/flashcards-fundamentals/)
+- [Flashcards Networks](/computer-science/flashcards-networks/)
+- [Flashcards Programming](/computer-science/flashcards-programming/)
+- [Flashcards Theory Of Computation](/computer-science/flashcards-theory-of-computation/)
+- [Practice Algorithms](/computer-science/practice-algorithms/)
+- [Practice Data Structures](/computer-science/practice-data-structures/)
 
 ## Learning Objectives
 

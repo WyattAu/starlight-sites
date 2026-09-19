@@ -363,6 +363,6 @@ Go's type system is strict about explicit conversions -- you cannot accidentally
 
 ## Cross-References
 
-- [Arrays, Slices, and Maps](arrays-slices-maps) -- collection types and zero values
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- closures and type conversions
-- [Pointers and Memory](../advanced/pointers-and-memory) -- escape analysis and heap allocation
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- collection types and zero values
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- closures and type conversions
+- [Pointers and Memory](/advanced/pointers-and-memory/) -- escape analysis and heap allocation

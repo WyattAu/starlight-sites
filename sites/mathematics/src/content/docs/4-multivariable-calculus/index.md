@@ -64,12 +64,12 @@ proved rather than assumed.
 
 ## Contents
 
-1. [Partial Derivatives](1_partial-derivatives)
-2. [Multiple Integrals](2_multiple-integrals)
-3. [Vector Calculus](3_vector-calculus)
-4. [Optimization](4_optimization)
-5. [Curves and Surfaces](5_curves-and-surfaces)
-6. [Problem Set](6_problem-set)
+1. [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+2. [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+3. [Vector Calculus](/4-multivariable-calculus/3_vector-calculus/)
+4. [Optimization](/4-multivariable-calculus/4_optimization/)
+5. [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+6. [Problem Set](/4-multivariable-calculus/6_problem-set/)
 
 ## Overview
 

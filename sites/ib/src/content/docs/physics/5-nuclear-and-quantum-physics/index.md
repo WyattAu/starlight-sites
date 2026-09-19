@@ -18,8 +18,8 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_quantum And Nuclear Physics](./1_quantum-and-nuclear-physics)
-- [9_wrap Up](./9_wrap-up)
+- [1_quantum And Nuclear Physics](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/)
+- [9_wrap Up](/physics/5-nuclear-and-quantum-physics/9_wrap-up/)
 
 ## Learning Objectives
 

@@ -147,8 +147,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms
-- See [Driving EU Glossary](../../../../typescript/src/content/docs/glossary) for European driving regulations
+- See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
+- See [Driving EU Glossary](https://typescript.wyattau.com/glossary/) for European driving regulations
 
 
 ## Licensing Terms

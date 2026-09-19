@@ -18,7 +18,7 @@ categories: "- DSE - ICT"
 </script>
 
 This document extends the foundational data representation topics in
-[../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems) with deeper
+[../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/) with deeper
 technical treatment of number systems, Character encoding mechanisms, compression algorithms, file
 format specifications, and error Detection/correction techniques.
 
@@ -36,7 +36,7 @@ format specifications, and error Detection/correction techniques.
 ## Number Systems -- Extended Coverage
 
 The binary, hexadecimal, and BCD systems are covered in
-[../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems). This section
+[../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This section
 introduces the octal system and binary arithmetic.
 
 ### Octal (Base 8)
@@ -269,7 +269,7 @@ In hex: $1\ 1000\ 0001\ 1010\ 1000\ 0000\ 0000\ 0000\ 0000 = \mathrm{C0D40000}_{
 ## Character Encoding -- Deep Dive
 
 Basic ASCII and Unicode properties are covered in
-[../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems). This Section
+[../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This Section
 examines the internal mechanics of encoding schemes.
 
 ### ASCII Design Properties
@@ -390,7 +390,7 @@ UTF-8: `E4 B8 AD`
 ## Image Representation -- Extended Coverage
 
 Basic image concepts (pixels, resolution, colour depth, bitmap vs vector, file size calculation) are
-In [../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems). This
+In [../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This
 section covers colour models and file format Internals.
 
 ### Colour Models
@@ -552,7 +552,7 @@ Supported.
 ## Sound Representation -- Extended Coverage
 
 Basic sound digitisation concepts are in
-[../2-computer-systems/1_computer-systems](../2-computer-systems/1_computer-systems). This section
+[../2-computer-systems/1_computer-systems](/ict/2-computer-systems/1_computer-systems/). This section
 Covers audio file formats and compression.
 
 ### Audio File Formats
@@ -1473,6 +1473,6 @@ linked above.
 
 ## Cross-References
 
-- **[Computer Systems](../diagnostics/diag-computer-systems):** Data representation is fundamental
-- **[Programming](../diagnostics/diag-programming-databases):** Programming uses data
-- **[Networking](../diagnostics/diag-data-representation):** Networks transmit data
+- **[Computer Systems](/ict/diagnostics/diag-computer-systems/):** Data representation is fundamental
+- **[Programming](/ict/diagnostics/diag-programming-databases/):** Programming uses data
+- **[Networking](/ict/diagnostics/diag-data-representation/):** Networks transmit data

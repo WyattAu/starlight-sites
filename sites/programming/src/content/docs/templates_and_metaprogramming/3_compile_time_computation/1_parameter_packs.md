@@ -418,7 +418,7 @@ int main() {
 ## Fold Expressions: The Modern Alternative
 
 C++17 fold expressions replace most recursive template patterns with a single line of code. For
-Details, see [Fold Expressions and Pack Expansion](./2_fold_expressions).
+Details, see [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/).
 
 ```cpp
 #include <iostream>
@@ -586,11 +586,11 @@ int main() {
 
 ## See Also
 
-- [Fold Expressions and Pack Expansion](./2_fold_expressions)
-- [Compile-Time Branching (if constexpr)](./3_if_constexpr)
-- [Type Traits and Static Reflection Patterns](./4_type_traits)
-- [Argument Deduction (Class and Function)](../1_generic_programming/2_argument_deduction)
-- [Template Instantiation, Monomorphization, and Code Bloat](../1_generic_programming/1_instantiation)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Compile-Time Branching (if constexpr)](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -896,6 +896,6 @@ flowchart TD
 
 ## Cross-References
 
-- [Control Flow](../../../../../languages/src/content/docs/ruby/02-control-flow/1_control-flow) - How conditionals and loops use Ruby's truthy/falsy evaluation
-- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks interact with method arguments and variable scope
-- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - How every value in Ruby is an object with methods and class hierarchy
+- [Control Flow](https://languages.wyattau.com/ruby/02-control-flow/1_control-flow/) - How conditionals and loops use Ruby's truthy/falsy evaluation
+- [Methods and Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/) - How blocks interact with method arguments and variable scope
+- [OOP](https://languages.wyattau.com/ruby/04-oop/1_oop/) - How every value in Ruby is an object with methods and class hierarchy

@@ -196,8 +196,8 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Arrays and Records](./01-arrays-and-records)
-- [Linked Lists](./02-linked-lists)
+- [Arrays and Records](/computer-science/data-structures/01-arrays-and-records/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)
 
 ```mermaid
 graph TD

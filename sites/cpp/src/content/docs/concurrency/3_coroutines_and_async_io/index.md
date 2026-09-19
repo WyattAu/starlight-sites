@@ -18,11 +18,11 @@ This section provides study materials and resources for 3_coroutines_and_async_i
 
 ## Topics
 
-- [1_coroutine_frames](./1_coroutine_frames)
-- [2_promise_awaiter](./2_promise_awaiter)
-- [3_generators](./3_generators)
-- [4_task_scheduling](./4_task_scheduling)
-- [5_futures_promises](./5_futures_promises)
+- [1_coroutine_frames](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [2_promise_awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [3_generators](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [4_task_scheduling](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
+- [5_futures_promises](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
 
 ## Learning Objectives
 

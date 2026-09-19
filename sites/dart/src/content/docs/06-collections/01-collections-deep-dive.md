@@ -1080,6 +1080,6 @@ Dart collections are built on three core types: List for ordered indexed access,
 
 ## Cross-References
 
-- [Variables](../03-basics/02-variables) -- List, Set, and Map literals
-- [Async and Futures](../05-async/01-async-and-futures) -- Stream as an async collection
-- [Pattern Matching](../07-dart3-features/01-pattern-matching) -- list and map pattern destructuring
+- [Variables](/03-basics/02-variables/) -- List, Set, and Map literals
+- [Async and Futures](/05-async/01-async-and-futures/) -- Stream as an async collection
+- [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- list and map pattern destructuring

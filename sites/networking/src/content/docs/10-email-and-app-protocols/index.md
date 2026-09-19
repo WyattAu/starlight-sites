@@ -18,7 +18,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Email And Application Protocols](./email-and-application-protocols)
+- [Email And Application Protocols](/10-email-and-app-protocols/email-and-application-protocols/)
 
 ## Learning Objectives
 

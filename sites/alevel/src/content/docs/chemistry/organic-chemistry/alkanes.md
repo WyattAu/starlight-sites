@@ -972,6 +972,6 @@ linked above.
 
 ## Cross-References
 
-- **[Alkenes](alkenes):** Alkanes can be cracked to produce alkenes
-- **[Alcohols](alcohols):** Alkanes undergo free radical substitution to form halogenoalkanes
-- **[Organic Introduction](introduction):** Alkanes are the simplest organic compounds
+- **[Alkenes](/chemistry/organic-chemistry/alkenes/):** Alkanes can be cracked to produce alkenes
+- **[Alcohols](/chemistry/organic-chemistry/alcohols/):** Alkanes undergo free radical substitution to form halogenoalkanes
+- **[Organic Introduction](/chemistry/organic-chemistry/introduction/):** Alkanes are the simplest organic compounds

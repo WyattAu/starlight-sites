@@ -18,13 +18,13 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [Diag Biodiversity Classification Evolution](./diag-biodiversity-classification-evolution)
-- [Diag Biological Molecules](./diag-biological-molecules)
-- [Diag Cells](./diag-cells)
-- [Diag Ecology](./diag-ecology)
-- [Diag Exchange Transport](./diag-exchange-transport)
-- [Diag Genetics Dna](./diag-genetics-dna)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Biodiversity Classification Evolution](/biology/diagnostics/diag-biodiversity-classification-evolution/)
+- [Diag Biological Molecules](/biology/diagnostics/diag-biological-molecules/)
+- [Diag Cells](/biology/diagnostics/diag-cells/)
+- [Diag Ecology](/biology/diagnostics/diag-ecology/)
+- [Diag Exchange Transport](/biology/diagnostics/diag-exchange-transport/)
+- [Diag Genetics Dna](/biology/diagnostics/diag-genetics-dna/)
+- [Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

@@ -711,5 +711,5 @@ linked above.
 ## See Also
 
 - [Object Oriented Programming](./)
-- [IB Computer Science](..)
-- [Programming Fundamentals](../7-control/1_programming-fundamentals)
+- [IB Computer Science](/)
+- [Programming Fundamentals](/computer-science/7-control/1_programming-fundamentals/)

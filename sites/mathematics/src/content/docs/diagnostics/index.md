@@ -18,7 +18,7 @@ This section covers essential mathematical techniques and theories. These founda
 
 ## Topics
 
-- [Diag Linear Algebra](./diag-linear-algebra)
+- [Diag Linear Algebra](/diagnostics/diag-linear-algebra/)
 
 ## Learning Objectives
 

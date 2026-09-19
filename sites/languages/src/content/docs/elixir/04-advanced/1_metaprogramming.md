@@ -762,8 +762,8 @@ Elixir's metaprogramming system is powerful but should be used judiciously:
 
 ## Cross-References
 
-- **[Basics and Pattern Matching](../01-basics/1_basics-and-pattern-matching):** Pattern matching used in macro dispatch and guard clauses.
-- **[Elixir Introduction](../00-intro/1_elixir-intro):** Language overview covering the functional paradigm macros extend.
+- **[Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching/):** Pattern matching used in macro dispatch and guard clauses.
+- **[Elixir Introduction](/elixir/00-intro/1_elixir-intro/):** Language overview covering the functional paradigm macros extend.
 
 ## Common Mistakes
 

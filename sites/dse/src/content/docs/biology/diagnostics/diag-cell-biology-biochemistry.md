@@ -468,5 +468,5 @@ contamination of the product.)
 ## See Also
 
 - [Diagnostics](./)
-- [Plant Biology -- Diagnostic Tests](./diag-plant-biology)
-- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
+- [Plant Biology -- Diagnostic Tests](/biology/diagnostics/diag-plant-biology/)
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)

@@ -21,11 +21,11 @@ including the brain, neurotransmitters, hormones, and genetics.
 
 ## Pages
 
-- [Brain Imaging Techniques](./brain-imaging-techniques) -- fMRI, PET, EEG, TMS, and lesion studies,
+- [Brain Imaging Techniques](/psychology/biological/brain-imaging-techniques/) -- fMRI, PET, EEG, TMS, and lesion studies,
   including their strengths, limitations, and ethical considerations.
-- [Genetics and Behaviour](./genetics-and-behaviour) -- genetic inheritance, twin studies, adoption
+- [Genetics and Behaviour](/psychology/biological/genetics-and-behaviour/) -- genetic inheritance, twin studies, adoption
   studies, and the nature-nurture debate.
-- [Neuroplasticity and Neurotransmission](./neuroplasticity-and-neurotransmission) -- synaptic
+- [Neuroplasticity and Neurotransmission](/psychology/biological/neuroplasticity-and-neurotransmission/) -- synaptic
   transmission, neurotransmitters, neural plasticity, and their implications for behaviour.
 
 ## Overview
@@ -146,9 +146,9 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
 
 
 ## Advanced Content

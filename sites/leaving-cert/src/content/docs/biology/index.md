@@ -36,31 +36,31 @@ significant emphasis on mandatory practical activities.
 
 Cell structure, membrane transport, cell division, enzymes, and respiration.
 
-→ **[Full notes](1-cell/1_cell)**
+→ **[Full notes](/biology/1-cell/1_cell/)**
 
 ### Ecology
 
 Ecosystems, food webs, nutrient cycles, population dynamics, and human impact.
 
-→ **[Full notes](2-ecology/2_ecology)**
+→ **[Full notes](/biology/2-ecology/2_ecology/)**
 
 ### Genetics & Evolution
 
 Mendelian genetics, DNA, mutations, natural selection, and evidence for evolution.
 
-→ **[Full notes](3-genetics/3_genetics)**
+→ **[Full notes](/biology/3-genetics/3_genetics/)**
 
 ### Plant Biology
 
 Plant structure, photosynthesis, transport, reproduction, and plant responses.
 
-→ **[Full notes](4-plant-biology/4_plant-biology)**
+→ **[Full notes](/biology/4-plant-biology/4_plant-biology/)**
 
 ### Human Body Systems
 
 Digestive, circulatory, respiratory, nervous, endocrine, and excretory systems.
 
-→ **[Full notes](5-human-body/5_human-body)**
+→ **[Full notes](/biology/5-human-body/5_human-body/)**
 
 ## Study Tips
 
@@ -195,7 +195,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 
 ## Cross-References
 
-- [1 Cell](1-cell/1_cell)
-- [2 Ecology](2-ecology/2_ecology)
-- [1 Atomic Structure](chemistry/1-atomic-structure/1_atomic-structure)
-- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [1 Cell](/biology/1-cell/1_cell/)
+- [2 Ecology](/biology/2-ecology/2_ecology/)
+- [1 Atomic Structure](/chemistry/1-atomic-structure/1_atomic-structure/)
+- [2 Bonding](/chemistry/2-bonding/2_bonding/)

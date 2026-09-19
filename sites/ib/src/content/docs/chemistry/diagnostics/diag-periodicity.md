@@ -224,5 +224,5 @@ weak acid and HCl is a strong acid.
 ## See Also
 
 - [Diagnostics](./)
-- [Measurement and Data Processing -- Diagnostic Tests](./diag-measurement)
-- [Redox Reactions -- Diagnostic Tests](./diag-redox)
+- [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)
+- [Redox Reactions -- Diagnostic Tests](/chemistry/diagnostics/diag-redox/)

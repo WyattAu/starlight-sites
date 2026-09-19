@@ -45,7 +45,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [EU Driving Test](./)
-- [Theory Test](./theory-test)
+- [Theory Test](/theory-test/)
 
 
 ## Detailed Content

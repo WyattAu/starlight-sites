@@ -192,8 +192,8 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 
 ## Related Terms
 
-- See [Java Glossary](glossary) for JVM comparison
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [TypeScript Glossary](glossary) for another statically-typed language
-- See [Swift Glossary](glossary) for mobile development comparison
+- See [Java Glossary](/glossary/) for JVM comparison
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [TypeScript Glossary](/glossary/) for another statically-typed language
+- See [Swift Glossary](/glossary/) for mobile development comparison

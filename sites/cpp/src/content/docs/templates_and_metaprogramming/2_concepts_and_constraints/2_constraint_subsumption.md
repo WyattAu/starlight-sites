@@ -1001,5 +1001,5 @@ linked above.
 ## See Also
 
 - [2_concepts_and_constraints](./)
-- [Defining Concepts and Requires Clauses](./1_defining_concepts)
-- [Standard Library Concepts](./3_standard_concepts)
+- [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)

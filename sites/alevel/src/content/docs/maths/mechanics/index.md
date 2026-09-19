@@ -201,5 +201,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Maths](..)
-- [Kinematics](./01-kinematics)
-- [Moments](./03-moments)
+- [Kinematics](/maths/mechanics/01-kinematics/)
+- [Moments](/maths/mechanics/03-moments/)

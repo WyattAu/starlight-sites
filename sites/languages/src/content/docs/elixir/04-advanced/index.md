@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_metaprogramming](./1_metaprogramming)
-- [2_testing And Deployment](./2_testing-and-deployment)
+- [1_metaprogramming](/elixir/04-advanced/1_metaprogramming/)
+- [2_testing And Deployment](/elixir/04-advanced/2_testing-and-deployment/)
 
 ## Learning Objectives
 

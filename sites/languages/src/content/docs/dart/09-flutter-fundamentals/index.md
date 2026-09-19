@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Navigation](./01-navigation)
-- [Widgets And Lifecycle](./02-widgets-and-lifecycle)
+- [Navigation](/dart/09-flutter-fundamentals/01-navigation/)
+- [Widgets And Lifecycle](/dart/09-flutter-fundamentals/02-widgets-and-lifecycle/)
 
 ## Learning Objectives
 

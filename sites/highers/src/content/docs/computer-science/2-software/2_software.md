@@ -841,6 +841,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Hardware](../../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware) provides the physical platform that software executes on, including processor and memory architecture.
-- [Databases](../../../../../../leaving-cert/src/content/docs/computer-science/3-databases/3_databases) covers data management software that is a key application of software engineering principles.
-- [Algorithms](../4-algorithms/4_algorithms) defines the computational procedures that software implements to solve problems efficiently.
+- [Hardware](https://leaving-cert.wyattau.com/computer-science/1-hardware/1_hardware/) provides the physical platform that software executes on, including processor and memory architecture.
+- [Databases](https://leaving-cert.wyattau.com/computer-science/3-databases/3_databases/) covers data management software that is a key application of software engineering principles.
+- [Algorithms](/computer-science/4-algorithms/4_algorithms/) defines the computational procedures that software implements to solve problems efficiently.

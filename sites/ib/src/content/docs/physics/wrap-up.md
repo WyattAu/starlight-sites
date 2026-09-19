@@ -23,11 +23,11 @@ strategies for final revision.
 
 | Theme                                 | Key Topics                                                         | Full Notes                                                               |
 | :------------------------------------ | :----------------------------------------------------------------- | :----------------------------------------------------------------------- |
-| A -- Space, Time, and Motion          | Kinematics, dynamics, work and energy, momentum, rotational motion | [Mechanics](./1-space-time-and-motion/1_kinematics)                      |
-| B -- The Particulate Nature of Matter | Thermodynamics, atomic physics, current electricity                | [Matter](./2-particulate-nature-of-matter/1_thermodynamics)              |
-| C -- Wave Behaviour                   | SHM, wave properties, wave phenomena                               | [Waves](./3-wave-behaviour/1_simple-harmonic-motion)                     |
-| D -- Fields                           | Gravitational fields, electric and magnetic fields                 | [Fields](./4-fields/1_gravitational-fields)                              |
-| E -- Nuclear and Quantum Physics      | Quantum physics, radioactive decay, structure of the atom          | [Nuclear](./5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics) |
+| A -- Space, Time, and Motion          | Kinematics, dynamics, work and energy, momentum, rotational motion | [Mechanics](/physics/1-space-time-and-motion/1_kinematics/)                      |
+| B -- The Particulate Nature of Matter | Thermodynamics, atomic physics, current electricity                | [Matter](/physics/2-particulate-nature-of-matter/1_thermodynamics/)              |
+| C -- Wave Behaviour                   | SHM, wave properties, wave phenomena                               | [Waves](/physics/3-wave-behaviour/1_simple-harmonic-motion/)                     |
+| D -- Fields                           | Gravitational fields, electric and magnetic fields                 | [Fields](/physics/4-fields/1_gravitational-fields/)                              |
+| E -- Nuclear and Quantum Physics      | Quantum physics, radioactive decay, structure of the atom          | [Nuclear](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/) |
 
 ## Review Strategies
 
@@ -250,6 +250,6 @@ linked above.
 
 ## Cross-References
 
-- [Syllabus](../maths/Syllabus) details the complete IB Physics content requirements that this wrap-up consolidates.
-- [Mechanics](../../../../../ap/src/content/docs/physics/1-kinematics/1_kinematics) covers Thematic Area A on space, time, and motion.
-- [Fields](4-fields/1_gravitational-fields) covers Thematic Area D on gravitational, electric, and magnetic fields.
+- [Syllabus](/maths/Syllabus/) details the complete IB Physics content requirements that this wrap-up consolidates.
+- [Mechanics](https://ap.wyattau.com/physics/1-kinematics/1_kinematics/) covers Thematic Area A on space, time, and motion.
+- [Fields](/physics/4-fields/1_gravitational-fields/) covers Thematic Area D on gravitational, electric, and magnetic fields.

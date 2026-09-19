@@ -364,6 +364,6 @@ same amount of energy would be lost (as radiation rather than heat).
 
 ## Cross-References
 
-- **[Mechanics](../flashcards-mechanics-waves):** Mechanics covers motion, forces, and energy
-- **[Waves](../flashcards-mechanics-waves):** Waves transfer energy through oscillations
-- **[Electricity](../flashcards-electricity-fields):** Electricity covers circuits and fields
+- **[Mechanics](/physics/flashcards-mechanics-waves/):** Mechanics covers motion, forces, and energy
+- **[Waves](/physics/flashcards-mechanics-waves/):** Waves transfer energy through oscillations
+- **[Electricity](/physics/flashcards-electricity-fields/):** Electricity covers circuits and fields

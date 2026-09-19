@@ -801,4 +801,4 @@ applying these mathematical techniques.
 ## See Also
 
 - [Probability Statistics](./)
-- [Irish LC Mathematics](..)
+- [Irish LC Mathematics](/)

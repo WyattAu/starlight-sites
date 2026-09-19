@@ -37,11 +37,11 @@ attention to cultural variation in symptom expression and help-seeking behaviour
 
 ## Contents
 
-- [Anxiety Disorders](./abnormal/anxiety-disorders) -- phobias and OCD, including biological,
+- [Anxiety Disorders](/psychology/abnormal/anxiety-disorders/) -- phobias and OCD, including biological,
   behavioural, and cognitive explanations and treatments.
-- [Depression](./abnormal/depression) -- biological, cognitive, and sociocultural explanations of
+- [Depression](/psychology/abnormal/depression/) -- biological, cognitive, and sociocultural explanations of
   depression and approaches to treatment.
-- [Treatment Evaluation](./abnormal/treatment-evaluation) -- evaluating the effectiveness,
+- [Treatment Evaluation](/psychology/abnormal/treatment-evaluation/) -- evaluating the effectiveness,
   appropriateness, and ethical considerations of psychological treatments.
 
 ## Key Concepts
@@ -199,6 +199,6 @@ The mind works like an information processing system. Perception filters raw sen
 
 ## Cross-References
 
-- [Research Methods](research-methods)
-- [Approaches in Psychology](approaches)
-- [Biopsychology](../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

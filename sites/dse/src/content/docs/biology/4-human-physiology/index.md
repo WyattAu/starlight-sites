@@ -18,9 +18,9 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_human Physiology](./1_human-physiology)
-- [2_human Reproduction And Homeostasis](./2_human-reproduction-and-homeostasis)
-- [3_homeostasis](./3_homeostasis)
+- [1_human Physiology](/biology/4-human-physiology/1_human-physiology/)
+- [2_human Reproduction And Homeostasis](/biology/4-human-physiology/2_human-reproduction-and-homeostasis/)
+- [3_homeostasis](/biology/4-human-physiology/3_homeostasis/)
 
 ## Learning Objectives
 

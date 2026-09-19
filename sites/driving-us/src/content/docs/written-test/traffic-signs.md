@@ -114,7 +114,7 @@ What does this sign mean? (Stop Sign)
 ## See Also
 
 - [Written Test](./)
-- [US Driving Test](..)
+- [US Driving Test](/)
 
 
 ## Advanced Content

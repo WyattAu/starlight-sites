@@ -211,8 +211,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [GCSE Glossary](glossary) for comparable UK qualifications
-- See [A-Level Glossary](glossary) for the next level
-- See [IB Glossary](glossary) for the International Baccalaureate
-- See [University Physics Glossary](glossary) for deeper physics coverage
-- See [Mathematics Glossary](glossary) for university-level mathematics
+- See [GCSE Glossary](/glossary/) for comparable UK qualifications
+- See [A-Level Glossary](/glossary/) for the next level
+- See [IB Glossary](/glossary/) for the International Baccalaureate
+- See [University Physics Glossary](/glossary/) for deeper physics coverage
+- See [Mathematics Glossary](/glossary/) for university-level mathematics

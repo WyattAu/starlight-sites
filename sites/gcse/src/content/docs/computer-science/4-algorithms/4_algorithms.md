@@ -772,5 +772,5 @@ programming, and requires both theoretical knowledge and hands-on practice.
 ## See Also
 
 - [Algorithms](./)
-- [GCSE Computer Science](..)
-- [Algorithms -- Diagnostic Tests](../diagnostics/diag-algorithms)
+- [GCSE Computer Science](/)
+- [Algorithms -- Diagnostic Tests](/computer-science/diagnostics/diag-algorithms/)

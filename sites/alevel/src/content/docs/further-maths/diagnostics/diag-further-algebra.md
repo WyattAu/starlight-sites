@@ -221,6 +221,6 @@ $\{0, 1, -1\}$.
 
 ## Cross-References
 
-- **[Further Algebra](../pure-mathematics/03-further-algebra):** Further algebra includes matrices and complex numbers
-- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics
+- **[Further Algebra](/further-maths/pure-mathematics/03-further-algebra/):** Further algebra includes matrices and complex numbers
+- **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
+- **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics

@@ -801,9 +801,9 @@ int main() {
 
 ## See Also
 
-- [Algebraic Error Handling, std::optional and std::variant](4_optional_variant)
-- [The noexcept Specifier](3_noexcept)
-- [Exception Safety Guarantees](2_exception_safety)
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
 
 ```mermaid
 flowchart TD

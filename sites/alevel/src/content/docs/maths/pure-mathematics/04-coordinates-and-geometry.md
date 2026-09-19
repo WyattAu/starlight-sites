@@ -601,7 +601,7 @@ $$x = \frac{4}{5} + 1 = \frac{9}{5}$$
 Intersection: $\left(\frac{9}{5}, \frac{4}{5}\right)$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Linear simultaneous equations](./03-equations-and-inequalities)
+<b>If you get this wrong, revise:</b> [Linear simultaneous equations](/maths/pure-mathematics/03-equations-and-inequalities/)
 
 <hr />
 
@@ -970,10 +970,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions), Completing the square and factorisation are used to find centres and radii of circles.
-- [Equations and Inequalities](03-equations-and-inequalities), Simultaneous equations and discriminant analysis determine intersections of lines and circles.
-- [Vectors](12-vectors), The vector equation of a line and the dot product are applied in coordinate geometry proofs.
-- [Trigonometry](08-trigonometry), Parametric equations of a circle use sine and cosine functions from trigonometry.
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/), Completing the square and factorisation are used to find centres and radii of circles.
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/), Simultaneous equations and discriminant analysis determine intersections of lines and circles.
+- [Vectors](/maths/pure-mathematics/12-vectors/), The vector equation of a line and the dot product are applied in coordinate geometry proofs.
+- [Trigonometry](/maths/pure-mathematics/08-trigonometry/), Parametric equations of a circle use sine and cosine functions from trigonometry.
 
 ```mermaid
 flowchart TD

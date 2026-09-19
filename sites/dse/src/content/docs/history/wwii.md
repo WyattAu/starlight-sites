@@ -101,9 +101,9 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 
 ## Cross-References
 
-- **[Cold War](../history/diagnostics/diag-cold-war):** WWII led to the Cold War
-- **[Modern China](../history/diagnostics/diag-modern-china):** Hong Kong's history is linked to China
-- **[WWII](../history/diagnostics/diag-wwii):** WWII shaped modern history
+- **[Cold War](/history/diagnostics/diag-cold-war/):** WWII led to the Cold War
+- **[Modern China](/history/diagnostics/diag-modern-china/):** Hong Kong's history is linked to China
+- **[WWII](/history/diagnostics/diag-wwii/):** WWII shaped modern history
 
 ## Common Mistakes
 

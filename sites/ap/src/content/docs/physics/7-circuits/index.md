@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [7_circuits](./7_circuits)
+- [7_circuits](/physics/7-circuits/7_circuits/)
 
 ## Learning Objectives
 

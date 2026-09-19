@@ -536,8 +536,8 @@ $\mathrm{Compressed} = 30.9 \div 2 \approx 15.45 \mathrm{ GB}$
 </details>
 
 For revision on number representation, see
-[Number Systems](../fundamentals/01-number-systems) and
-[Floating Point](../fundamentals/02-floating-point).
+[Number Systems](/computer-science/fundamentals/01-number-systems/) and
+[Floating Point](/computer-science/fundamentals/02-floating-point/).
 
 ## Common Pitfalls
 
@@ -580,6 +580,6 @@ linked above.
 
 ## Cross-References
 
-- **[Number Systems](../fundamentals/01-number-systems):** Data representation uses binary
-- **[Programming Constructs](01-programming-constructs):** Data types determine operations
-- **[Boolean Algebra](../fundamentals/03-boolean-algebra):** Boolean types implement logical values
+- **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Data representation uses binary
+- **[Programming Constructs](/computer-science/programming/01-programming-constructs/):** Data types determine operations
+- **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Boolean types implement logical values

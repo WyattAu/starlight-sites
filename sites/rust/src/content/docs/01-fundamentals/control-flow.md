@@ -1086,6 +1086,6 @@ Control flow in Rust is expression-oriented: almost everything returns a value. 
 
 ## Cross-References
 
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
-- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums)
-- [Error Handling](../../../../../dart/src/content/docs/08-error-handling)
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
+- [Structs and Enums](https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums/)
+- [Error Handling](https://dart.wyattau.com/08-error-handling/)

@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [IB Notes](./)
-- [Complete IB Study Guide, All Subjects & Papers](./hub)
-- [IB Theory of Knowledge (TOK)](./ib-theory-of-knowledge)
+- [Complete IB Study Guide, All Subjects & Papers](/hub/)
+- [IB Theory of Knowledge (TOK)](/ib-theory-of-knowledge/)
 
 
 ## Detailed Content

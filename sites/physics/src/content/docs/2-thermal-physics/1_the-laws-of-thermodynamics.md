@@ -185,9 +185,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Statistical Mechanics](2_statistical-mechanics)**: Statistical mechanics derives the laws of thermodynamics from microscopic probabilities and the partition function.
-- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble)**: The grand canonical ensemble extends statistical mechanics to open systems where particle number fluctuates.
-- **[Phase Transitions](10_phase-transitions)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
+- **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: Statistical mechanics derives the laws of thermodynamics from microscopic probabilities and the partition function.
+- **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The grand canonical ensemble extends statistical mechanics to open systems where particle number fluctuates.
+- **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Phase transitions involve discontinuities in thermodynamic quantities and are classified using the framework of the laws of thermodynamics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

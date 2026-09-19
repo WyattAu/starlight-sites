@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Style And Patterns](./01-style-and-patterns)
+- [Style And Patterns](/java/07-best-practices/01-style-and-patterns/)
 
 ## Learning Objectives
 

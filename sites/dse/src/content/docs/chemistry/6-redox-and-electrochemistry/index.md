@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_redox And Electrochemistry](./1_redox-and-electrochemistry)
+- [1_redox And Electrochemistry](/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/)
 
 ## Learning Objectives
 

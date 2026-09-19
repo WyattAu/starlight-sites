@@ -376,6 +376,6 @@ within a few time constants.
 
 ## Cross-References
 
-- **[Mechanics](diag-mechanics):** Mechanics covers forces and motion
-- **[Waves](diag-waves-sound):** Waves transfer energy
-- **[Electricity](diag-electrical-circuits):** Electricity covers circuits
+- **[Mechanics](/physics/diagnostics/diag-mechanics/):** Mechanics covers forces and motion
+- **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves transfer energy
+- **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Electricity covers circuits

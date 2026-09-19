@@ -1702,5 +1702,5 @@ Data management is about organising information efficiently. A database stores d
 ## See Also
 
 - [Abstract Data Structures](./)
-- [IB Computer Science](..)
-- [Measurement and Data Processing](../../chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing)
+- [IB Computer Science](/)
+- [Measurement and Data Processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)

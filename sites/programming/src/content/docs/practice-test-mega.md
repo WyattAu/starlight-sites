@@ -809,8 +809,8 @@ What does `std::function` provide?
 
 ## Cross-References
 
-- **[Object-Oriented Programming](object_oriented)**, Classes, inheritance, polymorphism, and design patterns
-- **[Resource Management](resource_management)**, Memory allocation, smart pointers, and RAII
+- **[Object-Oriented Programming](/object_oriented/)**, Classes, inheritance, polymorphism, and design patterns
+- **[Resource Management](/resource_management/)**, Memory allocation, smart pointers, and RAII
 - **[Concurrency](concurrency)**, Threads, mutexes, and concurrent programming
 - **[Compilation Model](compilation_model)**, Preprocessing, compilation, and linking
 - **[Environment and Toolchain](enviroment_and_toolchain)**, Build systems, debuggers, and compilers

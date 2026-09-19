@@ -195,7 +195,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Algorithms Course](../../../../alevel/src/content/docs/computer-science/algorithms/01-searching-algorithms)
-- [Data Structures Tutorial](1-algorithms/data-structures)
-- [Database Design Guide](2-systems/databases)
-- [Network Fundamentals](../../../../alevel/src/content/docs/computer-science/diagnostics/diag-networks)
+- [Algorithms Course](https://alevel.wyattau.com/computer-science/algorithms/01-searching-algorithms/)
+- [Data Structures Tutorial](/1-algorithms/data-structures/)
+- [Database Design Guide](/2-systems/databases/)
+- [Network Fundamentals](https://alevel.wyattau.com/computer-science/diagnostics/diag-networks/)

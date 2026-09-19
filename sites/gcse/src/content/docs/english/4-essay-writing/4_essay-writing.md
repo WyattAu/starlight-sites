@@ -600,5 +600,5 @@ performance in this area.
 ## See Also
 
 - [Essay Writing](./)
-- [GCSE English Literature](..)
-- [Creative Writing -- Diagnostic Tests](../diagnostics/diag-creative-writing)
+- [GCSE English Literature](/english/)
+- [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)

@@ -18,7 +18,7 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Security Fundamentals](./security-fundamentals)
+- [Security Fundamentals](/01-security-fundamentals/security-fundamentals/)
 
 ## Learning Objectives
 

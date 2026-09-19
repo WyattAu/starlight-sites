@@ -61,7 +61,7 @@ Databases underpin virtually every digital system, from banking and healthcare t
 ## Cross-References
 
 - **[SQL Fundamentals](./2-sql-fundamentals)**: Learn the language used to interact with databases
-- **[Networks](../../../../../../alevel/src/content/docs/computer-science/diagnostics/diag-networks)**: How databases are accessed across networks
+- **[Networks](https://alevel.wyattau.com/computer-science/diagnostics/diag-networks/)**: How databases are accessed across networks
 - **[Data Security](./4-data-security)**: Protecting database contents from unauthorised access
 
 ## Common Mistakes

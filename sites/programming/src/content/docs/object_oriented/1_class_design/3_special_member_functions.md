@@ -672,8 +672,8 @@ int main() {
 
 ## See Also
 
-- [Access Control and Friendship](./2_access_control)
-- [Operator Overloading](./4_operator_overloading)
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

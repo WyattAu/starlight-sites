@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Security](./)
-- [Complete Cybersecurity Study Guide](./hub)
-- [Introduction to Security](./intro)
+- [Complete Cybersecurity Study Guide](/hub/)
+- [Introduction to Security](/intro/)
 
 
 ## Detailed Content

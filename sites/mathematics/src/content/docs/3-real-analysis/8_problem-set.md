@@ -526,10 +526,10 @@ flowchart TD
 
 | Topic                      | Site        | Link                                                                 |
 | -------------------------- | ----------- | -------------------------------------------------------------------- |
-| Real Analysis (Overview)   | WyattsNotes | [View](../real-analysis)                   |
-| Complex Analysis           | WyattsNotes | [View](../complex-analysis)                |
-| Multivariable Calculus     | WyattsNotes | [View](../multivariable-calculus)          |
-| Differential Equations     | WyattsNotes | [View](../../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)          |
+| Real Analysis (Overview)   | WyattsNotes | [View](/real-analysis/)                   |
+| Complex Analysis           | WyattsNotes | [View](/complex-analysis/)                |
+| Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)          |
+| Differential Equations     | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)          |
 | Real Analysis, MIT 18.100 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-100a-real-analysis-fall-2020/) |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

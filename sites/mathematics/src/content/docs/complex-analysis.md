@@ -2051,9 +2051,9 @@ flowchart TD
 
 | Topic                        | Site        | Link                                                                                     |
 | ---------------------------- | ----------- | ---------------------------------------------------------------------------------------- |
-| Real Analysis                | WyattsNotes | [View](real-analysis)                                       |
-| Multivariable Calculus       | WyattsNotes | [View](multivariable-calculus)                              |
-| Differential Equations       | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)                              |
+| Real Analysis                | WyattsNotes | [View](/real-analysis/)                                       |
+| Multivariable Calculus       | WyattsNotes | [View](/multivariable-calculus/)                              |
+| Differential Equations       | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)                              |
 | Complex Analysis, MIT 18.04 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-04-complex-variables-with-applications-fall-2003/) |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

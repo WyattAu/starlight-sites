@@ -618,5 +618,5 @@ power.
 ## See Also
 
 - [Diagnostics](./)
-- [Market Failure and Government Intervention -- Diagnostic Tests](./diag-market-failure)
-- [International Trade and Finance -- Diagnostic Tests](./diag-international-trade)
+- [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [International Trade and Finance -- Diagnostic Tests](/economics/diagnostics/diag-international-trade/)

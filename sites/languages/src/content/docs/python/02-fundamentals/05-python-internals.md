@@ -716,7 +716,7 @@ c.c = 3  # AttributeError
 
 The Global Interpreter Lock is a mutex that protects access to CPython's internal state. Only the
 Thread holding the GIL can execute Python bytecode or manipulate Python objects. See
-[the async chapter](../06-async/01-async-await) for a detailed treatment of the concurrency
+[the async chapter](/python/06-async/01-async-await/) for a detailed treatment of the concurrency
 Implications. This section focuses on the implementation details.
 
 ### How the GIL Is Implemented
@@ -897,7 +897,7 @@ linked above.
 
 ## Cross-References
 
-- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables), The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
-- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter), Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/), The PyObject header, reference counting, and type dispatch explain why dynamic typing has a runtime cost.
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/), List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
+- [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.

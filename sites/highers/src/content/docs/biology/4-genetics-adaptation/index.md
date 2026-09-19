@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [4_genetics Adaptation](./4_genetics-adaptation)
+- [4_genetics Adaptation](/biology/4-genetics-adaptation/4_genetics-adaptation/)
 
 ## Learning Objectives
 

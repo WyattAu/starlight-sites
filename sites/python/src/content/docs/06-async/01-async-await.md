@@ -1029,6 +1029,6 @@ Async/await is Python's way of handling concurrency without threads. An async fu
 
 ## Cross-References
 
-- [Concurrency Primitives](../../../../../languages/src/content/docs/python/05-standard-library/05-concurrency-primitives)
-- [Generators and Iterators](../../../../../languages/src/content/docs/python/02-fundamentals/04-generators-and-iterators)
-- [Error Handling Patterns](../../../../../languages/src/content/docs/python/07-best-practices/03-error-handling-patterns)
+- [Concurrency Primitives](https://languages.wyattau.com/python/05-standard-library/05-concurrency-primitives/)
+- [Generators and Iterators](https://languages.wyattau.com/python/02-fundamentals/04-generators-and-iterators/)
+- [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)

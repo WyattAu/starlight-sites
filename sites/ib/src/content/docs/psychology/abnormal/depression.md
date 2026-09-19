@@ -259,7 +259,7 @@ Combination approaches showed the greatest improvement.
 
 </details>
 
-For an overview of abnormal psychology topics, see [Abnormal Psychology](../abnormal-psychology).
+For an overview of abnormal psychology topics, see [Abnormal Psychology](/psychology/abnormal-psychology/).
 
 ## Common Pitfalls
 
@@ -301,6 +301,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

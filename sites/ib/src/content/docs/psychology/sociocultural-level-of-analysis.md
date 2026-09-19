@@ -36,11 +36,11 @@ generalisability of BLOA and CLOA findings.
 
 ## Contents
 
-- [Social Identity Theory](./sociocultural/social-identity-theory) -- social identity, in-groups and
+- [Social Identity Theory](/psychology/sociocultural/social-identity-theory/) -- social identity, in-groups and
   out-groups, social comparison, and the consequences of social categorisation.
-- [Cultural Norms and Attitudes](./sociocultural/cultural-norms-and-attritudes) -- cultural
+- [Cultural Norms and Attitudes](/psychology/sociocultural/cultural-norms-and-attritudes/) -- cultural
   dimensions, individualism-collectivism, enculturation, and cultural norms.
-- [Prejudice and Discrimination](./sociocultural/prejudice-and-discrimination) -- origins of
+- [Prejudice and Discrimination](/psychology/sociocultural/prejudice-and-discrimination/) -- origins of
   prejudice, stereotyping, scapegoating theory, and strategies for reducing prejudice.
 
 ## Key Concepts
@@ -198,9 +198,9 @@ perspectives.
 
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
-| Social Identity Theory       | [View](sociocultural/social-identity-theory)        |
-| Cultural Norms and Attitudes | [View](sociocultural/cultural-norms-and-attritudes) |
-| Prejudice and Discrimination | [View](sociocultural/prejudice-and-discrimination)  |
+| Social Identity Theory       | [View](/psychology/sociocultural/social-identity-theory/)        |
+| Cultural Norms and Attitudes | [View](/psychology/sociocultural/cultural-norms-and-attritudes/) |
+| Prejudice and Discrimination | [View](/psychology/sociocultural/prejudice-and-discrimination/)  |
 
 ## Intuition
 

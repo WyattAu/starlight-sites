@@ -2717,10 +2717,10 @@ success in this subject.
 
 ## Cross-References
 
-- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Oligopoly market structures are directly analysed using game-theoretic models like the prisoner's dilemma.
-- [International Trade](../3-international-economics/1-trade) -- Strategic trade policy and trade negotiations between countries are applications of game theory.
-- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Behavioural economics challenges the rational actor assumption underlying traditional supply-side analysis.
-- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Empirical evidence in behavioural economics relies on statistical methods for analysing decision-making data.
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/) -- Oligopoly market structures are directly analysed using game-theoretic models like the prisoner's dilemma.
+- [International Trade](/economics/3-international-economics/1-trade/) -- Strategic trade policy and trade negotiations between countries are applications of game theory.
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/) -- Behavioural economics challenges the rational actor assumption underlying traditional supply-side analysis.
+- [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/) -- Empirical evidence in behavioural economics relies on statistical methods for analysing decision-making data.
 
 ---
 

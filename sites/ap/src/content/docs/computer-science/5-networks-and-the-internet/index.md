@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [5_networks And The Internet](./5_networks-and-the-internet)
+- [5_networks And The Internet](/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/)
 
 ## Learning Objectives
 

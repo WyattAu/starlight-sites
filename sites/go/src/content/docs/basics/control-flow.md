@@ -434,6 +434,6 @@ Go's control flow is deliberately simple. There is only one loop construct (for)
 
 ## Cross-References
 
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- closures and deferred calls
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- zero values and scope
-- [Goroutines and Synchronization](../concurrency/goroutines) -- concurrent execution
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- closures and deferred calls
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- zero values and scope
+- [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrent execution

@@ -1150,5 +1150,5 @@ linked above.
 ## See Also
 
 - [Organic Chemistry](./)
-- [Organic Chemistry (Advanced)](./2_organic-chemistry-advanced)
-- [IB Chemistry](..)
+- [Organic Chemistry (Advanced)](/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/)
+- [IB Chemistry](/)

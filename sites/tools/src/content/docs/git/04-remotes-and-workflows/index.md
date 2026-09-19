@@ -18,11 +18,11 @@ This section provides study materials and resources for remotes and workflows. B
 
 ## Topics
 
-- [Remote Operations](./01-remote-operations)
-- [Workflows](./02-workflows)
-- [Pull Requests](./03-pull-requests)
-- [Transfer Protocols And Auth](./04-transfer-protocols-and-auth)
-- [Github Actions Ci Cd Patterns](./05-github-actions-ci-cd-patterns)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Workflows](/git/04-remotes-and-workflows/02-workflows/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Transfer Protocols And Auth](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
+- [Github Actions Ci Cd Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
 
 ## Learning Objectives
 

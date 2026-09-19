@@ -18,7 +18,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Wireless Networking](./wireless-networking)
+- [Wireless Networking](/09-wireless/wireless-networking/)
 
 ## Learning Objectives
 

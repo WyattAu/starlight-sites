@@ -543,7 +543,7 @@ The coupled reaction is spontaneous because the overall $\Delta G^\circ$ is nega
 ### Born-Haber Cycles (Recap)
 
 Born-Haber cycles apply Hess's Law to ionic compound formation. They are covered in detail in
-[Born-Haber Cycles](./born-haber-cycles).
+[Born-Haber Cycles](/chemistry/physical-chemistry-extra/born-haber-cycles/).
 
 ### Enthalpy-Entropy Compensation
 
@@ -872,6 +872,6 @@ and past paper questions, is essential for success in examinations.
 
 ## Cross-References
 
-- **[Equilibrium](../diagnostics/diag-equilibrium):** Gibbs energy determines equilibrium position
-- **[Kinetics](../diagnostics/diag-kinetics):** Thermodynamics and kinetics together determine reaction outcomes
-- **[Thermodynamics](../diagnostics/diag-thermodynamics):** Entropy and Gibbs energy are core thermodynamic concepts
+- **[Equilibrium](/chemistry/diagnostics/diag-equilibrium/):** Gibbs energy determines equilibrium position
+- **[Kinetics](/chemistry/diagnostics/diag-kinetics/):** Thermodynamics and kinetics together determine reaction outcomes
+- **[Thermodynamics](/chemistry/diagnostics/diag-thermodynamics/):** Entropy and Gibbs energy are core thermodynamic concepts

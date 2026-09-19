@@ -24,7 +24,7 @@ Office automation tools transform raw data into information through structured m
 This document covers spreadsheet concepts, database usage from an end-user perspective, word
 Processing, presentation software, application integration, and macro basics. Database design and
 SQL are covered in depth in
-[../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
+[../3-programming-and-databases/2_programming-and-databases](/ict/3-programming-and-databases/2_programming-and-databases/).
 
 ---
 
@@ -310,7 +310,7 @@ Manual sorting.
 ## Database Concepts -- End-User Perspective
 
 Relational database design, ER diagrams, normalisation, and SQL are covered in
-[../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
+[../3-programming-and-databases/2_programming-and-databases](/ict/3-programming-and-databases/2_programming-and-databases/).
 This section covers database usage From the perspective of an end-user interacting with a DBMS
 application (e.g., Microsoft Access).
 
@@ -972,6 +972,6 @@ linked above.
 
 ## Cross-References
 
-- [System Lifecycle](../6-system-lifecycle/1_system-lifecycle) explains the planning and implementation processes used to deploy office automation systems.
-- [Web Development and Multimedia](../7-web-and-multimedia/1_web-development-and-multimedia) covers more advanced computing applications that build on office automation skills.
-- [Data Representation](../1-data-representation/1_data-representation) provides the foundational data concepts that office automation software processes and stores.
+- [System Lifecycle](/ict/6-system-lifecycle/1_system-lifecycle/) explains the planning and implementation processes used to deploy office automation systems.
+- [Web Development and Multimedia](/ict/7-web-and-multimedia/1_web-development-and-multimedia/) covers more advanced computing applications that build on office automation skills.
+- [Data Representation](/ict/1-data-representation/1_data-representation/) provides the foundational data concepts that office automation software processes and stores.

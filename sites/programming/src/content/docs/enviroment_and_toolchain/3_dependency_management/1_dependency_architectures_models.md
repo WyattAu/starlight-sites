@@ -732,12 +732,12 @@ Dependencies change rarely. Build caching for internal dependencies requires a d
 
 ## See Also
 
-- [CPM.cmake](2_cpm)
-- [vcpkg](3_vcpkg)
-- [Conan](4_conan)
-- [Binary Caching](6_binary_caching)
-- [Property Propagation](5_property_propagation)
-- [Cross-compilation Toolchains](../1_compiler_and_standards/4_crosscompilation_toolchains)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [vcpkg](/enviroment_and_toolchain/3_dependency_management/3_vcpkg/)
+- [Conan](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
+- [Cross-compilation Toolchains](/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/)
 
 
 ```mermaid

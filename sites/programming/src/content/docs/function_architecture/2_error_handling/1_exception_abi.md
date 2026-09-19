@@ -698,8 +698,8 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 
 ## See Also
 
-- [Exception Safety Guarantees](2_exception_safety)
-- [The noexcept Specifier](3_noexcept)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

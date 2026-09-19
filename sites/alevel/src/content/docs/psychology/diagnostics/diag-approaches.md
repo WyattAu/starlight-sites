@@ -164,9 +164,9 @@ sidebar_position: 40
 
 ## Cross-References
 
-- **[Memory](../flashcards-memory):** Approaches explain cognitive processes
-- **[Social Influence](../practice-social-influence):** Social influence theories use approaches
-- **[Research Methods](../../../../../../ib/src/content/docs/psychology/research-methods):** Each approach uses specific methods
+- **[Memory](/psychology/flashcards-memory/):** Approaches explain cognitive processes
+- **[Social Influence](/psychology/practice-social-influence/):** Social influence theories use approaches
+- **[Research Methods](https://ib.wyattau.com/psychology/research-methods/):** Each approach uses specific methods
 
 
 ```mermaid

@@ -817,10 +817,10 @@ int main() {
 
 ## See Also
 
-- [Iterator-Sentinel Model](./1_iterator_sentinel)
-- [Projections and Callable Objects](./3_projections)
-- [Range Materialization](./4_range_materialization)
-- [Parallel Algorithms](./5_parallel_algorithms)
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Materialization](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
 
 ## Common Pitfalls
 

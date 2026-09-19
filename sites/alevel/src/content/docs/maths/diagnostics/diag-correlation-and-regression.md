@@ -653,5 +653,5 @@ A more principled approach:
 ## See Also
 
 - [Diagnostics](./)
-- [Coordinates and Geometry -- Diagnostic Tests](./diag-coordinates-and-geometry)
-- [Energy and Work -- Diagnostic Tests](./diag-energy-and-work)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Energy and Work -- Diagnostic Tests](/maths/diagnostics/diag-energy-and-work/)

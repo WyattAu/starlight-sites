@@ -96,7 +96,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 - [Physics](./)
 - [Physics](./)
-- [Classical Mechanics Flashcards](./classical-mechanics-flashcards)
+- [Classical Mechanics Flashcards](/classical-mechanics-flashcards/)
 
 
 ## Detailed Content

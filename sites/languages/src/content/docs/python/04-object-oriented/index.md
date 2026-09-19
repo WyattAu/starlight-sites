@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Classes](./01-classes)
-- [Metaclasses](./02-metaclasses)
-- [Descriptors](./03-descriptors)
+- [Classes](/python/04-object-oriented/01-classes/)
+- [Metaclasses](/python/04-object-oriented/02-metaclasses/)
+- [Descriptors](/python/04-object-oriented/03-descriptors/)
 
 ## Learning Objectives
 

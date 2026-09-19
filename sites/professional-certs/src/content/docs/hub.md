@@ -83,7 +83,7 @@ Amazon Web Services offers certifications across cloud architecture, operations,
 ### Topic Notes
 
 - [AWS Certification Overview](aws) -- the certification landscape, exam formats, and renewal requirements
-- [Cloud Practitioner](aws/cloud-practitioner) -- the entry-level certification covering AWS cloud fundamentals
+- [Cloud Practitioner](/aws/cloud-practitioner/) -- the entry-level certification covering AWS cloud fundamentals
 - [Solutions Architect Associate](aws/solutions-architect-associate) -- designing distributed systems on AWS
 - [Developer Associate](aws/developer-associate) -- developing and deploying AWS-based applications
 - [SysOps Administrator Associate](aws/sysops-associate) -- operating and managing workloads on AWS
@@ -116,7 +116,7 @@ CompTIA (Computing Technology Industry Association) offers vendor-neutral certif
 - [Network+](comptia/network-plus) -- networking concepts, infrastructure, and troubleshooting
 - [Security+](comptia/security-plus) -- cybersecurity concepts, threats, and risk management
 - [CySA+](comptia/cybersecurity-analyst) -- behavioural analytics and threat detection
-- [PenTest+](../../../../security/src/content/docs/pentesting-and-attacks) -- penetration testing and vulnerability assessment
+- [PenTest+](https://security.wyattau.com/pentesting-and-attacks/) -- penetration testing and vulnerability assessment
 - [Cloud+](comptia/cloud-plus) -- cloud computing concepts and virtualisation
 
 ### Practice and Review
@@ -194,7 +194,7 @@ Beyond the major vendors, several other certifications are valuable in specific 
 ### Topic Notes
 
 - [Google Cloud Certifications](other/google-cloud) -- GCP Associate Cloud Engineer, Professional Cloud Architect
-- [Kubernetes (CKA/CKAD)](../../../../tools/src/content/docs/kubernetes-docker) -- Certified Kubernetes Administrator and Application Developer
+- [Kubernetes (CKA/CKAD)](https://tools.wyattau.com/kubernetes-docker/) -- Certified Kubernetes Administrator and Application Developer
 - [Terraform (HashiCorp)](other/terraform) -- HashiCorp Certified Terraform Associate
 - [ITIL](other/itil) -- IT service management certifications
 - [Certified Information Systems Security Professional (CISSP)](other/cissp) -- the premier cybersecurity certification

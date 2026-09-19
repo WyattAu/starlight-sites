@@ -806,8 +806,8 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Algebra](../../maths/2-algebra/2_algebra) -- Binary and hexadecimal number systems require understanding of base conversion and place value.
-- [Atomic Structure](../../chemistry/1-atomic-structure/1_atomic-structure) -- Understanding atoms and electron configuration provides context for how computers store data.
-- [Cell Biology](../../biology/1-cell-biology/1_cell-biology) -- Data storage in biological systems like DNA parallels digital data representation.
-- [Ratio and Proportion](../../maths/3-ratio-proportion/3_ratio-proportion) -- Memory addressing and data scaling involve proportional relationships.
+- [Algebra](/maths/2-algebra/2_algebra/) -- Binary and hexadecimal number systems require understanding of base conversion and place value.
+- [Atomic Structure](/chemistry/1-atomic-structure/1_atomic-structure/) -- Understanding atoms and electron configuration provides context for how computers store data.
+- [Cell Biology](/biology/1-cell-biology/1_cell-biology/) -- Data storage in biological systems like DNA parallels digital data representation.
+- [Ratio and Proportion](/maths/3-ratio-proportion/3_ratio-proportion/) -- Memory addressing and data scaling involve proportional relationships.
 :::

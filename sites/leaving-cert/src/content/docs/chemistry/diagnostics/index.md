@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Diag Atomic Structure](./diag-atomic-structure)
+- [Diag Atomic Structure](/chemistry/diagnostics/diag-atomic-structure/)
 
 ## Learning Objectives
 

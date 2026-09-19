@@ -767,6 +767,6 @@ See the examples integrated throughout the sections above.
 
 ## Cross-References
 
-- [Programming](../2-programming/2_programming) covers the languages and techniques used to interact with and manipulate database systems.
-- [Hardware](../1-hardware/1_hardware) explains the storage infrastructure that databases rely on for persistent data management.
-- [Networks](../4-networks/4_networks) covers the distributed systems architecture that enables networked database access.
+- [Programming](/computer-science/2-programming/2_programming/) covers the languages and techniques used to interact with and manipulate database systems.
+- [Hardware](/computer-science/1-hardware/1_hardware/) explains the storage infrastructure that databases rely on for persistent data management.
+- [Networks](/computer-science/4-networks/4_networks/) covers the distributed systems architecture that enables networked database access.

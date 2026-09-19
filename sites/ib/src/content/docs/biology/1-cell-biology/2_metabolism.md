@@ -1002,14 +1002,14 @@ Absorption spectrum are similar but not identical.
 ## If You Get These Wrong, Revise
 
 - **Molecular biology -- protein structure** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Cell biology -- membrane transport** --> Review
-  [../1_cell-biology](./1_cell-biology)
+  [../1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Plant biology -- transpiration and transport** --> Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/)
 - **Human physiology -- gas exchange** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
-- **Genetics -- enzyme genes** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
+- **Genetics -- enzyme genes** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 
 ---
 
@@ -1502,22 +1502,22 @@ because:
 ## Cross-References to Related Topics
 
 - **Enzyme structure and function**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   protein structure, active sites, and enzyme classification.
 - **Membrane transport and proton gradients**: Review
-  [../1_cell-biology](./1_cell-biology) for membrane structure and
+  [../1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane structure and
   transport proteins.
 - **Plant transport and transpiration**: Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology) for stomatal regulation
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/) for stomatal regulation
   and transpiration efficiency.
 - **Gas exchange and haemoglobin**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for
   respiratory physiology and oxygen transport.
 - **ATP and cellular energy**: Review
-  [../1_cell-biology](./1_cell-biology) for mitochondria structure
+  [../1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for mitochondria structure
   and ATP synthase.
 - **Gene regulation of metabolic enzymes**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for operon regulation of
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for operon regulation of
   metabolic pathways.
 
 ---

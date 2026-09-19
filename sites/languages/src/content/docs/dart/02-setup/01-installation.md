@@ -482,8 +482,8 @@ linked above.
 
 ## Cross-References
 
-- **[Introduction to Dart](../01-intro):** Provides the language overview and motivation before diving into setup.
-- **[Entry Point](../03-basics/01-entrypoint):** First code you run after installation, the `main()` function.
-- **[Best Practices](../04-best-practices):** Configuration and tooling best practices once your environment is ready.
-- **[Error Handling](../08-error-handling):** Error handling setup and crash reporting integration for production apps.
+- **[Introduction to Dart](/dart/01-intro/):** Provides the language overview and motivation before diving into setup.
+- **[Entry Point](/dart/03-basics/01-entrypoint/):** First code you run after installation, the `main()` function.
+- **[Best Practices](/dart/04-best-practices/):** Configuration and tooling best practices once your environment is ready.
+- **[Error Handling](/dart/08-error-handling/):** Error handling setup and crash reporting integration for production apps.
 :::

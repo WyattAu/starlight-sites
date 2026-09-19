@@ -279,6 +279,6 @@ each approach.
 
 ## Cross-References
 
-- [Algebra](../../../../sat/src/content/docs/mathematics/algebra) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
-- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Fundamental function types and transformations that underpin many exam problems
-- [Inorganic Chemistry](../../../../hsc/src/content/docs/chemistry/inorganic) - Essential inorganic chemistry topics including equilibrium and electrochemistry
+- [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Fundamental function types and transformations that underpin many exam problems
+- [Inorganic Chemistry](https://hsc.wyattau.com/chemistry/inorganic/) - Essential inorganic chemistry topics including equilibrium and electrochemistry

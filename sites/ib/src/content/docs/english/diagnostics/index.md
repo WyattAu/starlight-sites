@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [Diag Poetry Analysis](./diag-poetry-analysis)
+- [Diag Poetry Analysis](/english/diagnostics/diag-poetry-analysis/)
 
 ## Learning Objectives
 

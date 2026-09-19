@@ -98,7 +98,7 @@ and blunt-end fragments.
 ### 2.1 Standard PCR
 
 PCR amplifies a specific DNA sequence in vitro. For details of the basic mechanism, see
-[Genetics and DNA](genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna/).
 
 ### 2.2 Quantitative PCR (qPCR)
 
@@ -141,7 +141,7 @@ transcriptomes.
 ### 3.1 DNA Gel Electrophoresis
 
 DNA fragments are separated by size through an agarose gel under an electric field. For details, see
-[Genetics and DNA](genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna/).
 
 ### 3.2 Protein Electrophoresis (SDS-PAGE)
 
@@ -169,7 +169,7 @@ molecular mass:
 ### 4.1 Sanger Sequencing (Chain-Termination Method)
 
 Developed by Frederick Sanger (1977). For details, see
-[Genetics and DNA](genetics-and-dna).
+[Genetics and DNA](/biology/genetics-and-dna/).
 
 ### 4.2 Next-Generation Sequencing (NGS)
 
@@ -2359,8 +2359,8 @@ each approach.
 
 ## Cross-References
 
-- [Genetics and DNA](genetics-and-dna) -- Understanding DNA structure and replication is essential for grasping how restriction enzymes and vectors work in recombinant DNA technology.
-- [Advanced Genetics](genetics-advanced) -- Epistasis and linkage analysis complement the gene manipulation techniques discussed in biotechnology.
-- [Cells](cells) -- Cell structure and membrane transport are relevant to understanding how transformed cells take up foreign DNA.
-- [Ecology](ecology) -- Environmental impacts of genetically modified organisms connect biotechnology to broader ecological considerations.
+- [Genetics and DNA](/biology/genetics-and-dna/) -- Understanding DNA structure and replication is essential for grasping how restriction enzymes and vectors work in recombinant DNA technology.
+- [Advanced Genetics](/biology/genetics-advanced/) -- Epistasis and linkage analysis complement the gene manipulation techniques discussed in biotechnology.
+- [Cells](/biology/cells/) -- Cell structure and membrane transport are relevant to understanding how transformed cells take up foreign DNA.
+- [Ecology](/biology/ecology/) -- Environmental impacts of genetically modified organisms connect biotechnology to broader ecological considerations.
 :::

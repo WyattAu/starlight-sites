@@ -18,11 +18,11 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Macros](./08-macros)
-- [Flashcards Rust Basics](./flashcards-rust-basics)
-- [Intro](./intro)
-- [Practice Ownership](./practice-ownership)
-- [Practice Rust Basics](./practice-rust-basics)
+- [Macros](/rust/08-macros/)
+- [Flashcards Rust Basics](/rust/flashcards-rust-basics/)
+- [Intro](/rust/intro/)
+- [Practice Ownership](/rust/practice-ownership/)
+- [Practice Rust Basics](/rust/practice-rust-basics/)
 
 ## Learning Objectives
 

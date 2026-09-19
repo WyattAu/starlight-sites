@@ -18,8 +18,8 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_system Design](./1_system-design)
-- [2_system Organization](./2_system-organization)
+- [1_system Design](/computer-science/1-system-fundamentals/1_system-design/)
+- [2_system Organization](/computer-science/1-system-fundamentals/2_system-organization/)
 
 ## Learning Objectives
 

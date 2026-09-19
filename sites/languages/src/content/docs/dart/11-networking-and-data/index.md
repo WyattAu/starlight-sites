@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Platform Integration](./01-platform-integration)
+- [Platform Integration](/dart/11-networking-and-data/01-platform-integration/)
 
 ## Learning Objectives
 

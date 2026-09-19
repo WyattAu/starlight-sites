@@ -160,5 +160,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Complex Numbers -- Diagnostic Tests](./diag-complex-numbers)
-- [Differential Equations -- Diagnostic Tests](./diag-differential-equations)
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)

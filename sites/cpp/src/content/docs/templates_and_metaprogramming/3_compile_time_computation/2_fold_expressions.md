@@ -892,9 +892,9 @@ int main() {
 
 ## See Also
 
-- [Parameter Packs and Variadic Templates](./1_parameter_packs)
-- [Compile-Time Branching (if constexpr)](./3_if_constexpr)
-- [Type Traits and Static Reflection Patterns](./4_type_traits)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Compile-Time Branching (if constexpr)](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 ```mermaid
 flowchart TD

@@ -847,5 +847,5 @@ Network security operates like a medieval castle with multiple defensive layers.
 
 ## Cross-References
 
-- [Malware Analysis](09-malware-analysis/malware-analysis)
-- [Os Security](08-os-security/os-security)
+- [Malware Analysis](/09-malware-analysis/malware-analysis/)
+- [Os Security](/08-os-security/os-security/)

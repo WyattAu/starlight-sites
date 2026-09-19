@@ -911,7 +911,7 @@ Still in incubator status as of JDK 23. The API surface may change before final 
 ## Virtual Threads (Project Loom)
 
 Virtual threads are covered in depth in
-[Virtual Threads and Structured Concurrency](./08-modern-java/02-virtual-threads-structured-concurrency).
+[Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -956,7 +956,7 @@ try { socket.read(buffer); } finally { lock.unlock(); }
 ## Structured Concurrency (Preview)
 
 Structured concurrency is covered in depth in
-[Virtual Threads and Structured Concurrency](./08-modern-java/02-virtual-threads-structured-concurrency).
+[Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -986,7 +986,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 ## Record Patterns and Pattern Matching
 
 Record patterns and pattern matching for switch are covered in depth in
-[Records, Sealed Classes, and Pattern Matching](./08-modern-java/01-records-sealed-patterns).
+[Records, Sealed Classes, and Pattern Matching](/java/08-modern-java/01-records-sealed-patterns/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -1495,8 +1495,8 @@ linked above.
 
 ## Cross-References
 
-- [Java Classes and Inheritance](03-object-oriented/01-classes) -- Object-oriented design is fundamental to both standard JVM and GraalVM applications.
-- [Java Concurrency](../../../../../java/src/content/docs/06-concurrency/01-concurrency) -- Thread management and memory models are relevant to understanding GraalVM's runtime behaviour.
-- [Rust Ownership](../rust/02-ownership-borrowing) -- Rust's memory safety model offers an alternative to garbage collection for native interop.
-- [Dart FFI](../dart/09-ffi-and-advanced) -- Both GraalVM and Dart FFI address the challenge of native code interoperability.
+- [Java Classes and Inheritance](/java/03-object-oriented/01-classes/) -- Object-oriented design is fundamental to both standard JVM and GraalVM applications.
+- [Java Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/) -- Thread management and memory models are relevant to understanding GraalVM's runtime behaviour.
+- [Rust Ownership](/rust/02-ownership-borrowing/) -- Rust's memory safety model offers an alternative to garbage collection for native interop.
+- [Dart FFI](/dart/09-ffi-and-advanced/) -- Both GraalVM and Dart FFI address the challenge of native code interoperability.
 :::

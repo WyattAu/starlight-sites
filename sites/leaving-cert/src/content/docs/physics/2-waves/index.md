@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [2_waves](./2_waves)
+- [2_waves](/physics/2-waves/2_waves/)
 
 ## Learning Objectives
 

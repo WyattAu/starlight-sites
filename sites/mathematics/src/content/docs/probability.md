@@ -521,9 +521,9 @@ flowchart TD
 
 | Topic                          | Site        | Link                                                            |
 | ------------------------------ | ----------- | --------------------------------------------------------------- |
-| Probability and Statistics     | WyattsNotes | [View](probability-and-statistics) |
-| Real Analysis                  | WyattsNotes | [View](real-analysis)              |
-| Differential Equations         | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations)     |
+| Probability and Statistics     | WyattsNotes | [View](/probability-and-statistics/) |
+| Real Analysis                  | WyattsNotes | [View](/real-analysis/)              |
+| Differential Equations         | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/)     |
 | Probability, Harvard Stat 110 | Harvard     | [View](https://stat110.com/)                                    |
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

@@ -382,9 +382,9 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 
 | Topic                         | Site        | Link                                                               |
 | ----------------------------- | ----------- | ------------------------------------------------------------------ |
-| Quantum Chemistry             | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)               |
-| Coordination Chemistry        | WyattsNotes | [View](coordination-chemistry)          |
-| Main-Group Chemistry          | WyattsNotes | [View](main-group-chemistry)            |
+| Quantum Chemistry             | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)               |
+| Coordination Chemistry        | WyattsNotes | [View](/3-inorganic-chemistry/coordination-chemistry/)          |
+| Main-Group Chemistry          | WyattsNotes | [View](/3-inorganic-chemistry/main-group-chemistry/)            |
 | Atomic Structure, LibreTexts | LibreTexts  | [View](https://chem.libretexts.org/Bookshelves/General_Chemistry/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

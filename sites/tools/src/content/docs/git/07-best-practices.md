@@ -346,5 +346,5 @@ linked above.
 ## See Also
 
 - [Git](./)
-- [Introduction to Git](./01-intro)
-- [Advanced Git Commands](./advanced-git-commands)
+- [Introduction to Git](/git/01-intro/)
+- [Advanced Git Commands](/git/advanced-git-commands/)

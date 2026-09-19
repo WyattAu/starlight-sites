@@ -166,10 +166,10 @@ The pitfalls in abstract algebra arise from treating algebraic structures as if 
 
 ## Cross-References
 
-- [Polynomial Rings](10_polynomial-rings) -- Misapplying Eisenstein's criterion and confusing irreducibility over $\mathbb{Q}$ with irreducibility over $\mathbb{Z}$ are frequent errors addressed here.
-- [Lagrange's Theorem](3_lagrange-s-theorem) -- Assuming the converse of Lagrange's theorem and confusing index with order are common group-theory mistakes.
-- [The Sylow Theorems](7_the-sylow-theorems) -- Miscounting Sylow subgroups and forgetting the congruence conditions are pitfalls that arise from incomplete application of Sylow theory.
-- [Euclidean Domains, PIDs, and UFDs](11_euclidean-domains-pids-and-ufds) -- Confusing irreducibles with primes and assuming every PID is Euclidean are ring-theory errors covered in this chapter.
+- [Polynomial Rings](/1-abstract-algebra/10_polynomial-rings/) -- Misapplying Eisenstein's criterion and confusing irreducibility over $\mathbb{Q}$ with irreducibility over $\mathbb{Z}$ are frequent errors addressed here.
+- [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- Assuming the converse of Lagrange's theorem and confusing index with order are common group-theory mistakes.
+- [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Miscounting Sylow subgroups and forgetting the congruence conditions are pitfalls that arise from incomplete application of Sylow theory.
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- Confusing irreducibles with primes and assuming every PID is Euclidean are ring-theory errors covered in this chapter.
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)

@@ -2170,9 +2170,9 @@ flowchart TD
 
 | Topic                                 | Site        | Link                                                            |
 | ------------------------------------- | ----------- | --------------------------------------------------------------- |
-| Probability and Statistics (Overview) | WyattsNotes | [View](../probability-and-statistics) |
-| Probability                           | WyattsNotes | [View](../../../../../alevel/src/content/docs/maths/statistics/03-probability)                |
-| Real Analysis                         | WyattsNotes | [View](../real-analysis)              |
+| Probability and Statistics (Overview) | WyattsNotes | [View](/probability-and-statistics/) |
+| Probability                           | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)                |
+| Real Analysis                         | WyattsNotes | [View](/real-analysis/)              |
 | Probability, Harvard Stat 110        | Harvard     | [View](https://stat110.com/)                                    |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

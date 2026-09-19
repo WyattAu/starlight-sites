@@ -207,7 +207,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Networking Fundamentals Guide](../../../../alevel/src/content/docs/computer-science/diagnostics/diag-fundamentals)
-- [TCP/IP Deep Dive](01-osi-model/osi-and-tcp-ip)
-- [Network Security Overview](../../../../alevel/src/content/docs/computer-science/networks/02-network-security)
+- [Networking Fundamentals Guide](https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals/)
+- [TCP/IP Deep Dive](/01-osi-model/osi-and-tcp-ip/)
+- [Network Security Overview](https://alevel.wyattau.com/computer-science/networks/02-network-security/)
 - [Troubleshooting Guide](/networking/troubleshooting/)

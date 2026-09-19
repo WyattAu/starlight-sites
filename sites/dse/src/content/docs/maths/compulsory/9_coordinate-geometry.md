@@ -779,9 +779,9 @@ The equation of the common chord is $6x - 8y + 23 = 0$.
 ## Cross-References
 
 - **Quadratics:** The discriminant is used to determine the nature of circle-line intersections. See
-  [Quadratics](3_quadratics).
+  [Quadratics](/maths/compulsory/3_quadratics/).
 - **Functions:** Transformations of graphs apply equally to circles and lines. See
-  [Functions Advanced](2_functions-advanced).
+  [Functions Advanced](/maths/compulsory/2_functions-advanced/).
 - **Trigonometry:** The angle between two lines uses the tangent formula, which connects to
   trigonometric identities.
 

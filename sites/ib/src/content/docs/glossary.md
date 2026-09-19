@@ -157,7 +157,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [IB Diploma Overview](../../../../computer-science/src/content/docs/4-databases/8_nosql-overview)
+- [IB Diploma Overview](https://computer-science.wyattau.com/4-databases/8_nosql-overview/)
 - [Subject Guides](/ib/subjects/)
 - [TOK Resources](/ib/tok/)
-- [Extended Essay Guide](../../../../sat/src/content/docs/writing/essay)
+- [Extended Essay Guide](https://sat.wyattau.com/writing/essay/)

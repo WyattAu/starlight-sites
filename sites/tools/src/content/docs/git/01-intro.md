@@ -75,7 +75,7 @@ This design choice has deep implications:
 
 The cost is that Git's object store can appear larger than a delta-based store for repositories with
 Very large files that change frequently. This is why Git added the packfile format (see
-[Internals: Packing and Garbage Collection](./06-internals/02-packing-and-garbage-collection)) to
+[Internals: Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)) to
 Compress objects using delta compression between similar objects.
 
 ### 3. Strong Integrity Guarantees
@@ -137,7 +137,7 @@ git config --global init.defaultBranch main
 # Editor for commit messages and interactive rebase
 git config --global core.editor "vim"
 
-# Default pull strategy: rebase instead of merge (see [Remotes](./04-remotes-and-workflows/01-remote-operations))
+# Default pull strategy: rebase instead of merge (see [Remotes](/git/04-remotes-and-workflows/01-remote-operations/))
 git config --global pull.rebase true
 
 # Credential helper, avoids typing passwords repeatedly
@@ -197,7 +197,7 @@ flowchart TB
 
 These three areas, **working directory**, **index**, and **repository**, form the foundation of
 Every Git operation. Understanding the transitions between them is essential. See
-[The Three Trees](./02-fundamentals/01-the-three-trees) for a deep dive.
+[The Three Trees](/git/02-fundamentals/01-the-three-trees/) for a deep dive.
 
 ## Guide Structure
 
@@ -205,12 +205,12 @@ This guide is organized into the following sections:
 
 | Section                                                                     | Content                                                   |
 | --------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [Fundamentals](./02-fundamentals/01-the-three-trees)                     | Three-tree architecture, Git objects, references          |
-| [Branching and Merging](./03-branching-and-merging/01-branching)         | Branches, merge strategies, rebasing, conflict resolution |
-| [Remotes and Workflows](./04-remotes-and-workflows/01-remote-operations) | Remote operations, branching strategies, pull requests    |
-| [Advanced Topics](./05-advanced-topics/01-reflog)                        | Reflog, stash, bisect, submodules, worktrees              |
-| [Internals](./06-internals/01-git-directory-structure)                   | `.git` directory layout, pack files, hashing algorithm    |
-| [Others](./Others/gitea-on-truenas)                                      | Self-hosting, commit history removal                      |
+| [Fundamentals](/git/02-fundamentals/01-the-three-trees/)                     | Three-tree architecture, Git objects, references          |
+| [Branching and Merging](/git/03-branching-and-merging/01-branching/)         | Branches, merge strategies, rebasing, conflict resolution |
+| [Remotes and Workflows](/git/04-remotes-and-workflows/01-remote-operations/) | Remote operations, branching strategies, pull requests    |
+| [Advanced Topics](/git/05-advanced-topics/01-reflog/)                        | Reflog, stash, bisect, submodules, worktrees              |
+| [Internals](/git/06-internals/01-git-directory-structure/)                   | `.git` directory layout, pack files, hashing algorithm    |
+| [Others](/git/Others/gitea-on-truenas/)                                      | Self-hosting, commit history removal                      |
 
 ## Common Pitfalls
 
@@ -250,4 +250,4 @@ Git is a time machine for your code. Every commit is a snapshot you can return t
 
 - [Git Fundamentals](/tools/git/02-fundamentals/01-the-three-trees)
 - [Branching and Merging](/tools/git/03-branching-and-merging/01-branching)
-- [Advanced Git Commands](advanced-git-commands)
+- [Advanced Git Commands](/git/advanced-git-commands/)

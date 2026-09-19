@@ -228,7 +228,7 @@ This licensing section is divided into two parts:
 - **This page**, conceptual foundations: what licensing is, why it matters, the spectrum of license
   types, the philosophical and practical differences between copyleft and permissive approaches, and
   the terminology you need to understand license texts.
-- **[Software Licensing](software-licensing)**, a detailed reference covering specific licenses
+- **[Software Licensing](/licensing/software-licensing/)**, a detailed reference covering specific licenses
   (AGPLv3, GPLv3, LGPLv3, GPLv2, MPL 2.0, MIT, Apache 2.0, BSD 2/3-Clause, ISC, 0BSD, CC0,
   Unlicense, WTFPL, BSL, SSPL), compliance obligations for distribution, linking, containers, and
   SaaS, practical guidance for dependency auditing, a comparison table across all major dimensions,
@@ -256,4 +256,4 @@ Software licensing is like setting the rules for a public park. By default, the 
 
 ## Cross-References
 
-- [Software Licensing](software-licensing) - Detailed reference for specific licenses and compliance obligations
+- [Software Licensing](/licensing/software-licensing/) - Detailed reference for specific licenses and compliance obligations

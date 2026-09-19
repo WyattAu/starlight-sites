@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [6_waves](./6_waves)
+- [6_waves](/physics/6-waves/6_waves/)
 
 ## Learning Objectives
 

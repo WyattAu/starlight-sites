@@ -211,8 +211,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Mathematics Glossary](../../../../typescript/src/content/docs/glossary) for mathematical foundations
-- See [Chemistry Glossary](../../../../typescript/src/content/docs/glossary) for detailed chemistry terms
-- See [Physics Glossary](../../../../typescript/src/content/docs/glossary) for advanced physics concepts
-- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for technology terms
-- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for computational thinking
+- See [Mathematics Glossary](https://typescript.wyattau.com/glossary/) for mathematical foundations
+- See [Chemistry Glossary](https://typescript.wyattau.com/glossary/) for detailed chemistry terms
+- See [Physics Glossary](https://typescript.wyattau.com/glossary/) for advanced physics concepts
+- See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for technology terms
+- See [Programming Glossary](https://typescript.wyattau.com/glossary/) for computational thinking

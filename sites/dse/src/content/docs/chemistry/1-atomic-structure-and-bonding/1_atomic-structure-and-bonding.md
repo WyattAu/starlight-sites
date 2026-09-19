@@ -1540,5 +1540,5 @@ These factors combine to give helium the highest first ionisation energy of all 
 ## See Also
 
 - [Atomic Structure And Bonding](./)
-- [DSE Chemistry](..)
-- [Chemistry - Atomic Structure and Bonding](../atomic-structure-and-bonding)
+- [DSE Chemistry](/)
+- [Chemistry - Atomic Structure and Bonding](/chemistry/atomic-structure-and-bonding/)

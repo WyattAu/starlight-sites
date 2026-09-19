@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_storage_duration](./1_storage_duration)
-- [2_uniform_initialization](./2_uniform_initialization)
-- [3_aggregate_initialization](./3_aggregate_initialization)
-- [4_constexpr_consteval_constinit](./4_constexpr_consteval_constinit)
-- [5_deterministic_destruction](./5_deterministic_destruction)
+- [1_storage_duration](/types/3_initialization_and_lifetime/1_storage_duration/)
+- [2_uniform_initialization](/types/3_initialization_and_lifetime/2_uniform_initialization/)
+- [3_aggregate_initialization](/types/3_initialization_and_lifetime/3_aggregate_initialization/)
+- [4_constexpr_consteval_constinit](/types/3_initialization_and_lifetime/4_constexpr_consteval_constinit/)
+- [5_deterministic_destruction](/types/3_initialization_and_lifetime/5_deterministic_destruction/)
 
 ## Learning Objectives
 

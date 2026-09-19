@@ -1,0 +1,57 @@
+# Rust — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Rust is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Fundamentals
+
+- [Control Flow and Pattern Matching](https://rust.wyattau.com/01-fundamentals/control-flow/): Rust' s expression does not require parentheses around the condition, but braces around the body Are mandatory. Unlike C or Java, is an expression, it
+- [Types and Variables](https://rust.wyattau.com/01-fundamentals/types-and-variables/): Study notes for Types and Variables with worked examples, practice problems, and key concepts for exam preparation.
+
+## Ownership-Borrowing
+
+- [Interior Mutability](https://rust.wyattau.com/02-ownership-borrowing/interior-mutability/): Rust' s borrowing rules state that a shared reference () is immutable, you cannot modify the Data through it. This is a compile-time guarantee that prevents
+- [Lifetimes](https://rust.wyattau.com/02-ownership-borrowing/lifetimes/): Rust' s borrow checker must ensure that every reference is valid for its entire use. Without lifetime Annotations, the compiler cannot prove that a reference
+- [Ownership and Borrowing](https://rust.wyattau.com/02-ownership-borrowing/ownership/): Rust' s memory management rests on three rules enforced at compile time: Comprehensive educational content coverage with definitions and practice problems.
+
+## Structs-Enums
+
+- [Advanced Struct and Enum Patterns](https://rust.wyattau.com/03-structs-enums/advanced-patterns/): Rust Advanced Struct and Enum Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.
+- [Structs and Enums](https://rust.wyattau.com/03-structs-enums/structs-and-enums/): Structs are the primary mechanism for defining custom types in Rust. Unlike classes in C++ or Java, Structs in Rust do not support inheritance. Composition
+
+## Error-Handling
+
+- [Error Handling](https://rust.wyattau.com/04-error-handling/error-handling/): Rust divides errors into two categories: (bugs) and (expected Failures). Comprehensive educational content coverage with definitions and practice problems.
+- [Error Handling Patterns](https://rust.wyattau.com/04-error-handling/error-handling-patterns/): Rust treats errors as values, not exceptions. This is a fundamental design choice: errors are not Special control flow mechanisms that can jump across
+
+## Traits-Generics
+
+- [Traits and Generics](https://rust.wyattau.com/05-traits-generics/traits-and-generics/): Traits are Rust' s answer to interfaces, type classes, and concepts. They define shared behavior that Types can implement. Unlike inheritance, traits are
+
+## Concurrency
+
+- [Async Deep Dive](https://rust.wyattau.com/06-concurrency/async-deep-dive/): Study notes for Async Deep Dive with worked examples, practice problems, and key concepts for exam preparation.
+- [Channels and Message Passing](https://rust.wyattau.com/06-concurrency/channels-and-message-passing/): Channels implement the actor model, concurrent tasks communicate by sending messages rather than Sharing memory. Rust provides several channel types, each
+- [Concurrency](https://rust.wyattau.com/06-concurrency/concurrency/): Rust' s module provides a 1:1 mapping to OS threads. Each thread gets its own stack (default 8 MB on Linux, configurable) and is scheduled by the operating
+
+## Cargo-Ecosystem
+
+- [Cargo and Ecosystem](https://rust.wyattau.com/07-cargo-ecosystem/cargo-and-ecosystem/): is the manifest file that defines everything about your Rust project. It uses TO Comprehensive educational content coverage with definitions and practice proble
+- [Unsafe Rust](https://rust.wyattau.com/07-cargo-ecosystem/unsafe-rust/): The keyword grants access to five capabilities that the compiler cannot verify: Comprehensive educational content coverage with definitions and practice problem
+
+## Overview
+
+- [About This Site](https://rust.wyattau.com/about/): Wyatt's Notes provides thorough study materials for Rust programming. These notes cover ownership and borrowing, the type system, async programming, and
+- [Async Practice](https://rust.wyattau.com/practice-async/): Rust's async/await enables efficient asynchronous programming: Futures in Rust are zero-cost abstractions, they compile to state machines with no heap
+- [Complete Rust Programming Study Guide](https://rust.wyattau.com/hub/): Study notes for Complete Rust Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Introduction to Rust](https://rust.wyattau.com/intro/): Rust Introduction to Rust notes covering key definitions, core concepts, worked examples, and practice questions for clear exam preparation and mastery.
+- [Macros | Rust - Wyatt's Notes](https://rust.wyattau.com/08-macros/): Macros in Rust are a metaprogramming mechanism that operates on the abstract syntax tree (AST) Rather than on values. They expand at compile time,
+- [Ownership Practice](https://rust.wyattau.com/practice-ownership/): Implement a fixed-size array wrapper that provides safe indexing with bounds checking, backed by unsafe code internally.
+- [Rust - Wyatt's Notes](https://rust.wyattau.com/): Rust is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+- [Rust Flashcards: Fundamentals](https://rust.wyattau.com/flashcards-rust-basics/): 20 interactive flashcards covering core Rust concepts from ownership and borrowing to macros and unsafe. Press Space to flip, rate 1-4.
+- [Rust Glossary, Key Terms and Definitions](https://rust.wyattau.com/glossary/): Study notes for Rust Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [Rust Practice (Basics)](https://rust.wyattau.com/practice-rust-basics/): 10 auto-graded practice problems covering core Rust concepts from ownership to concurrency. Select an answer, submit, and review the explanation.
+- [Rust Programming Practice Test, 30 Problems](https://rust.wyattau.com/practice-test-mega/): 30 Rust programming problems covering Ownership, Lifetimes, Traits, Async, and Error Handling. Code analysis and debugging with detailed explanations.

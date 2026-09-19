@@ -93,8 +93,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Licensing](./)
-- [Licensing](./intro)
-- [Open Source Licenses](./osi-licenses)
+- [Licensing](/intro/)
+- [Open Source Licenses](/osi-licenses/)
 
 
 ## Detailed Content

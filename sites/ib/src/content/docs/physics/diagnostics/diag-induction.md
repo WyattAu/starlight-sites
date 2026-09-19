@@ -380,5 +380,5 @@ current. There is no resonance in a purely RL circuit.
 ## See Also
 
 - [Diagnostics](./)
-- [Dynamics -- Diagnostic Tests](./diag-dynamics)
-- [Energy and Conservation -- Diagnostic Tests](./diag-energy)
+- [Dynamics -- Diagnostic Tests](/physics/diagnostics/diag-dynamics/)
+- [Energy and Conservation -- Diagnostic Tests](/physics/diagnostics/diag-energy/)

@@ -81,17 +81,17 @@ This work?" but "what happens when this is used in ways I did not intend?"
 This section covers the core security competencies expected of a systems engineer:
 
 1. **Security Fundamentals**. CIA triad, threat modeling, risk assessment, least privilege
-   ([security-fundamentals](./01-security-fundamentals/security-fundamentals))
+   ([security-fundamentals](/01-security-fundamentals/security-fundamentals/))
 2. **Cryptography**. Symmetric/asymmetric encryption, hashing, PKI, TLS
-   ([cryptography](./02-cryptography/cryptography))
+   ([cryptography](/02-cryptography/cryptography/))
 3. **Authentication and Authorization**. Passwords, MFA, OAuth 2.0, JWT, RBAC/ABAC
-   ([authentication](./03-authentication/authentication))
+   ([authentication](/03-authentication/authentication/))
 4. **Web Security**. XSS, CSRF, injection, CORS, CSP, OWASP Top 10
-   ([web-security](./04-web-security/web-security))
+   ([web-security](/04-web-security/web-security/))
 5. **Network Security**. Firewalls, VPNs, zero trust, DNS security, SIEM
-   ([network-security](./05-network-security/network-security))
+   ([network-security](/05-network-security/network-security/))
 6. **Incident Response**. NIST IR lifecycle, forensics, containment, post-mortem
-   ([incident-response](./06-incident-response/incident-response))
+   ([incident-response](/06-incident-response/incident-response/))
 
 :::tip
 Administration. The focus is on understanding how security controls work at the implementation level
@@ -180,6 +180,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [Security Fundamentals](01-security-fundamentals/security-fundamentals) provides the core concepts and principles that this introduction to cybersecurity builds upon.
-- [Cryptography](02-cryptography/cryptography) covers the mathematical foundations of the security mechanisms introduced here.
-- [Pentesting and Attacks](pentesting-and-attacks) extends this introduction into offensive security techniques and vulnerability assessment.
+- [Security Fundamentals](/01-security-fundamentals/security-fundamentals/) provides the core concepts and principles that this introduction to cybersecurity builds upon.
+- [Cryptography](/02-cryptography/cryptography/) covers the mathematical foundations of the security mechanisms introduced here.
+- [Pentesting and Attacks](/pentesting-and-attacks/) extends this introduction into offensive security techniques and vulnerability assessment.

@@ -525,13 +525,13 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 
 ## Cross-References
 
-- [Mechanics](../mechanics)
-- [Waves](../waves)
-- [Electricity](../electricity)
-- [Fields](../fields)
+- [Mechanics](/physics/mechanics/)
+- [Waves](/physics/waves/)
+- [Electricity](/physics/electricity/)
+- [Fields](/physics/fields/)
 
 ## Cross-References
 
 - [Physics](../../physics)
-- [Mechanics](../mechanics)
-- [Fields](../fields)
+- [Mechanics](/physics/mechanics/)
+- [Fields](/physics/fields/)

@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_abstraction And Data Management](./1_abstraction-and-data-management)
+- [1_abstraction And Data Management](/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/)
 
 ## Learning Objectives
 

@@ -1211,6 +1211,6 @@ linked above.
 
 ## Cross-References
 
-- [Sealed Classes](./02-sealed-classes) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
-- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Pattern matching on objects uses destructuring to extract fields from class instances.
-- [Error Handling](../08-error-handling) -- Pattern matching provides type-safe error handling through exhaustive case analysis.
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
+- [Object-Oriented Programming](/dart/04-object-oriented/01-classes-and-inheritance/) -- Pattern matching on objects uses destructuring to extract fields from class instances.
+- [Error Handling](/dart/08-error-handling/) -- Pattern matching provides type-safe error handling through exhaustive case analysis.

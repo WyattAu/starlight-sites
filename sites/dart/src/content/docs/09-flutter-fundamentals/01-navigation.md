@@ -1415,6 +1415,6 @@ linked above.
 
 ## Cross-References
 
-- [Widgets and Lifecycle](./02-widgets-and-lifecycle) -- Navigation pushes and pops widget trees, connecting route management to the widget lifecycle.
-- [State Management](../10-state-management/01-state-management) -- Navigation state must be preserved across routes, linking route management to application state.
-- [Async and Futures](../05-async/01-async-and-futures) -- Named routes and asynchronous route loading use Futures for lazy initialization.
+- [Widgets and Lifecycle](/09-flutter-fundamentals/02-widgets-and-lifecycle/) -- Navigation pushes and pops widget trees, connecting route management to the widget lifecycle.
+- [State Management](/10-state-management/01-state-management/) -- Navigation state must be preserved across routes, linking route management to application state.
+- [Async and Futures](/05-async/01-async-and-futures/) -- Named routes and asynchronous route loading use Futures for lazy initialization.

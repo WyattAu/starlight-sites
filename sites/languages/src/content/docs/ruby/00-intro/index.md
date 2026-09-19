@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_ruby Intro](./1_ruby-intro)
+- [1_ruby Intro](/ruby/00-intro/1_ruby-intro/)
 
 ## Learning Objectives
 

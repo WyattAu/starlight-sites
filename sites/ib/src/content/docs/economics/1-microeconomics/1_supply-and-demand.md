@@ -673,5 +673,5 @@ flowchart TD
 ## See Also
 
 - [Microeconomics](./)
-- [Elasticity](./2_elasticity)
-- [Market Failure](./3-market-failure)
+- [Elasticity](/economics/1-microeconomics/2_elasticity/)
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)

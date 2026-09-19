@@ -816,8 +816,8 @@ applying these mathematical techniques.
 
 ## Cross-References
 
-- [Algebra](../2-algebra/2_algebra) -- Ratio and proportion problems are often solved using algebraic equations and substitution.
-- [Geometry and Measure](../../../../../../sat/src/content/docs/mathematics/geometry) -- Scale drawings and similar triangles use ratio and proportion concepts.
-- [Forces](../../physics/5-forces/5_forces) -- Calculating forces and acceleration involves proportional relationships between mass and force.
-- [Cell Biology](../../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology) -- Dilution ratios and concentration calculations in biology require proportion skills.
+- [Algebra](/maths/2-algebra/2_algebra/) -- Ratio and proportion problems are often solved using algebraic equations and substitution.
+- [Geometry and Measure](https://sat.wyattau.com/mathematics/geometry/) -- Scale drawings and similar triangles use ratio and proportion concepts.
+- [Forces](/physics/5-forces/5_forces/) -- Calculating forces and acceleration involves proportional relationships between mass and force.
+- [Cell Biology](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/) -- Dilution ratios and concentration calculations in biology require proportion skills.
 :::

@@ -1293,8 +1293,8 @@ $\blacksquare$
 
 ## Cross-References
 
-- [Normalization](../01-relational-theory/normalization) - How normal forms reduce redundancy and prevent update anomalies in relational schemas
-- [Indexing](../03-indexing-optimization/indexing) - How indexes accelerate the queries built with advanced SQL techniques
-- [Query Optimization](../03-indexing-optimization/query-optimization) - How the cost-based optimizer evaluates execution plans for complex SQL
-- [Transactions](../04-transactions/transactions) - How transaction isolation levels affect concurrent SQL operations
+- [Normalization](/01-relational-theory/normalization/) - How normal forms reduce redundancy and prevent update anomalies in relational schemas
+- [Indexing](/03-indexing-optimization/indexing/) - How indexes accelerate the queries built with advanced SQL techniques
+- [Query Optimization](/03-indexing-optimization/query-optimization/) - How the cost-based optimizer evaluates execution plans for complex SQL
+- [Transactions](/04-transactions/transactions/) - How transaction isolation levels affect concurrent SQL operations
 :::

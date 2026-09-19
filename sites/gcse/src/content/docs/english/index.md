@@ -112,8 +112,8 @@ a whole-text question, depending on the board.
 
 The skills assessed are close reading of literary language, sustained argument, and the integration
 Of contextual knowledge into literary analysis. See the dedicated guides on
-[Shakespeare](1-shakespeare/1_shakespeare) and the
-[19th-Century Novel](2-19th-century-novel/2_19th-century-novel) for detailed treatment Of these
+[Shakespeare](/english/1-shakespeare/1_shakespeare/) and the
+[19th-Century Novel](/english/2-19th-century-novel/2_19th-century-novel/) for detailed treatment Of these
 components.
 
 ## Paper 2: Modern Texts and Poetry
@@ -128,7 +128,7 @@ Or "Love and Relationships" clusters. Edexcel specifies a collection organised b
 Prescribes a pre-1900 poetry anthology studied alongside Shakespeare in Paper 1. WJEC/Eduqas has its
 Own anthology of Welsh and English-language poetry.
 
-See the guide on [Modern Texts and Poetry](3-modern-texts-and-poetry/3_modern-texts-and-poetry) for
+See the guide on [Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/) for
 full coverage.
 
 ## Key Skills
@@ -144,7 +144,7 @@ Happens; it explains how the text communicates its meanings.
 
 GCSE English Literature demands sustained, discursive essays. Students must construct an argument
 With a clear thesis, support it with precisely chosen textual evidence, and analyse that evidence
-Using appropriate literary terminology. The [Essay Writing](4-essay-writing/4_essay-writing) guide
+Using appropriate literary terminology. The [Essay Writing](/english/4-essay-writing/4_essay-writing/) guide
 provides Comprehensive frameworks for structuring and writing examination essays.
 
 ### Comparison
@@ -173,13 +173,13 @@ Specification for precise details.
 
 ## Topics
 
-- **[Shakespeare](1-shakespeare/1_shakespeare)** -- Context, language, key plays, critical
+- **[Shakespeare](/english/1-shakespeare/1_shakespeare/)** -- Context, language, key plays, critical
   approaches, and analysis frameworks
-- **[The 19th-Century Novel](2-19th-century-novel/2_19th-century-novel)** -- Genre, context,
+- **[The 19th-Century Novel](/english/2-19th-century-novel/2_19th-century-novel/)** -- Genre, context,
   narrative technique, characterisation, and set texts
-- **[Modern Texts and Poetry](3-modern-texts-and-poetry/3_modern-texts-and-poetry)** -- Modern drama
+- **[Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/)** -- Modern drama
   and prose, poetic technique, anthology poetry, and unseen poetry
-- **[Essay Writing](4-essay-writing/4_essay-writing)** -- Paragraph structures, assessment
+- **[Essay Writing](/english/4-essay-writing/4_essay-writing/)** -- Paragraph structures, assessment
   objectives, timing strategies, and worked examples
 
 ## Common Pitfalls
@@ -205,6 +205,6 @@ linked above.
 
 ## Cross-References
 
-- **[Shakespeare](1-shakespeare/1_shakespeare):** Detailed notes on Shakespearean drama analysis and techniques.
-- **[Modern Texts and Poetry](3-modern-texts-and-poetry/3_modern-texts-and-poetry):** Covers modern literature and poetry analysis methods.
-- **[Practice English](practice-english):** Interactive practice problems covering literary analysis and essay writing.
+- **[Shakespeare](/english/1-shakespeare/1_shakespeare/):** Detailed notes on Shakespearean drama analysis and techniques.
+- **[Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/):** Covers modern literature and poetry analysis methods.
+- **[Practice English](/english/practice-english/):** Interactive practice problems covering literary analysis and essay writing.

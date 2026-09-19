@@ -18,8 +18,8 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_genetics](./1_genetics)
-- [2_genetics Advanced](./2_genetics-advanced)
+- [1_genetics](/biology/3-genetics/1_genetics/)
+- [2_genetics Advanced](/biology/3-genetics/2_genetics-advanced/)
 
 ## Learning Objectives
 

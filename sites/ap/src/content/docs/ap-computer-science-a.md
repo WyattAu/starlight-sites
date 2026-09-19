@@ -516,5 +516,5 @@ A) O(n)  B) O(log n)  C) O(n²)  D) O(1)
 ## See Also
 
 - [AP](./)
-- [AP Computer Science Principles](./ap-computer-science-principles)
-- [About This Site](./about)
+- [AP Computer Science Principles](/ap-computer-science-principles/)
+- [About This Site](/about/)

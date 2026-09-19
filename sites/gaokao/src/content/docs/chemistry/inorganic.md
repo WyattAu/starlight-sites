@@ -375,6 +375,6 @@ In a galvanic cell, oxidation occurs at the anode and reduction at the cathode. 
 
 ## Cross-References
 
-- [Organic Chemistry](../../../../../hsc/src/content/docs/chemistry/organic) - Organic reaction types and functional group conversions that complement inorganic principles
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - How equilibrium constants and rate equations use function concepts
-- [Algebra](../../../../../sat/src/content/docs/mathematics/algebra) - Algebraic manipulation skills needed for stoichiometry and concentration calculations
+- [Organic Chemistry](https://hsc.wyattau.com/chemistry/organic/) - Organic reaction types and functional group conversions that complement inorganic principles
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - How equilibrium constants and rate equations use function concepts
+- [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Algebraic manipulation skills needed for stoichiometry and concentration calculations

@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_elixir Intro](./1_elixir-intro)
+- [1_elixir Intro](/elixir/00-intro/1_elixir-intro/)
 
 ## Learning Objectives
 

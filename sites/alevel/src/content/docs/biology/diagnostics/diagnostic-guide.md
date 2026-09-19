@@ -136,8 +136,8 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Biodiversity, Classification and Evolution -- Diagnostic Tests](./diag-biodiversity-classification-evolution)
-- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
+- [Biodiversity, Classification and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-classification-evolution/)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
 
 ```mermaid
 graph TD

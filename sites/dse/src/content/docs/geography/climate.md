@@ -240,5 +240,5 @@ Climate is the personality of a place, it determines what grows, what people wea
 ## See Also
 
 - [Geography](./)
-- [Agricultural Systems and Food Security](./agriculture)
-- [Industrial Location and Economic Development](./economic-development)
+- [Agricultural Systems and Food Security](/geography/agriculture/)
+- [Industrial Location and Economic Development](/geography/economic-development/)

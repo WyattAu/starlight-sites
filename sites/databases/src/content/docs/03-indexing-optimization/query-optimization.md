@@ -966,10 +966,10 @@ FROM pg_stats WHERE tablename = 'orders';
 
 ## Cross-References
 
-- [Indexing and Optimization](indexing) - How B-tree, GIN, and BRIN indexes affect the cost model and plan selection
-- [PostgreSQL Advanced](../05-nosql/postgresql-advanced) - How pg_stat_statements and auto_explain identify optimization opportunities
-- [Database Design](../06-database-design/database-design) - How schema design choices influence query execution plans
-- [Transactions and Concurrency](../04-transactions/transactions) - How isolation levels affect parallel query execution and join strategies
+- [Indexing and Optimization](/03-indexing-optimization/indexing/) - How B-tree, GIN, and BRIN indexes affect the cost model and plan selection
+- [PostgreSQL Advanced](/05-nosql/postgresql-advanced/) - How pg_stat_statements and auto_explain identify optimization opportunities
+- [Database Design](/06-database-design/database-design/) - How schema design choices influence query execution plans
+- [Transactions and Concurrency](/04-transactions/transactions/) - How isolation levels affect parallel query execution and join strategies
 
 ## Worked Examples
 

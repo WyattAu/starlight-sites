@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_market Structure](./1_market-structure)
+- [1_market Structure](/economics/3-market-structure/1_market-structure/)
 
 ## Learning Objectives
 

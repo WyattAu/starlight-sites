@@ -607,5 +607,5 @@ linked above.
 ## See Also
 
 - [Setup](./)
-- [Setting Up Home Server](./home-server-setup)
-- [Network Proxy](./network-proxy)
+- [Setting Up Home Server](/setup/home-server-setup/)
+- [Network Proxy](/setup/network-proxy/)

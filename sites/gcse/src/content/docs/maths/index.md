@@ -60,11 +60,11 @@ and organised by topic for easy navigation.
 
 ## Topics
 
-- **[1. Number](1-number/1_number)**
-- **[2. Algebra](2-algebra/2_algebra)**
-- **[3. Ratio, Proportion & Rates of Change](3-ratio-proportion/3_ratio-proportion)**
-- **[4. Geometry](4-geometry/4_geometry)**
-- **[6. Statistics](6-statistics/6_statistics)**
+- **[1. Number](/maths/1-number/1_number/)**
+- **[2. Algebra](/maths/2-algebra/2_algebra/)**
+- **[3. Ratio, Proportion & Rates of Change](/maths/3-ratio-proportion/3_ratio-proportion/)**
+- **[4. Geometry](/maths/4-geometry/4_geometry/)**
+- **[6. Statistics](/maths/6-statistics/6_statistics/)**
 
 ## Topics Covered
 

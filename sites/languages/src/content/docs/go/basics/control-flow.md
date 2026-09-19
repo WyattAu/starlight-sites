@@ -438,5 +438,5 @@ linked above.
 ## See Also
 
 - [Basics](./)
-- [Arrays, Slices, and Maps](./arrays-slices-maps)
-- [Functions](./functions)
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Functions](/go/basics/functions/)

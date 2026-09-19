@@ -18,14 +18,14 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Diagnostic Test](./diagnostic-test)
-- [Flashcards Electricity Fields](./flashcards-electricity-fields)
-- [Flashcards Mechanics Waves](./flashcards-mechanics-waves)
-- [Flashcards Nuclear Astrophysics](./flashcards-nuclear-astrophysics)
-- [Physics](./physics)
-- [Practice Electricity Fields](./practice-electricity-fields)
-- [Practice Mechanics Waves](./practice-mechanics-waves)
-- [Practice Nuclear Astrophysics](./practice-nuclear-astrophysics)
+- [Diagnostic Test](/physics/diagnostic-test/)
+- [Flashcards Electricity Fields](/physics/flashcards-electricity-fields/)
+- [Flashcards Mechanics Waves](/physics/flashcards-mechanics-waves/)
+- [Flashcards Nuclear Astrophysics](/physics/flashcards-nuclear-astrophysics/)
+- [Physics](/physics/physics/)
+- [Practice Electricity Fields](/physics/practice-electricity-fields/)
+- [Practice Mechanics Waves](/physics/practice-mechanics-waves/)
+- [Practice Nuclear Astrophysics](/physics/practice-nuclear-astrophysics/)
 
 ## Learning Objectives
 

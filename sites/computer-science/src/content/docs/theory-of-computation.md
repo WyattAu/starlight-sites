@@ -1932,9 +1932,9 @@ flowchart TD
 
 | Topic                              | Site        | Link                                                                         |
 | ---------------------------------- | ----------- | ---------------------------------------------------------------------------- |
-| Discrete Mathematics               | WyattsNotes | [View](discrete-mathematics)                      |
-| Algorithms and Data Structures     | WyattsNotes | [View](algorithms-and-data-structures)            |
-| Advanced Algorithms                | WyattsNotes | [View](2-algorithms-and-data-structures/9_algorithms-advanced)                       |
+| Discrete Mathematics               | WyattsNotes | [View](/discrete-mathematics/)                      |
+| Algorithms and Data Structures     | WyattsNotes | [View](/algorithms-and-data-structures/)            |
+| Advanced Algorithms                | WyattsNotes | [View](/2-algorithms-and-data-structures/9_algorithms-advanced/)                       |
 | Theory of Computation, MIT 18.404 | MIT         | [View](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

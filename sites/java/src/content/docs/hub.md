@@ -76,11 +76,11 @@ Core Java covers the language fundamentals that every Java developer must master
 
 ### Topic Notes
 
-- [Types and Variables](02-fundamentals/01-types-and-variables), primitive types, reference types, boxing, and type conversion
-- [Control Flow](02-fundamentals/02-control-flow), if/else, switch expressions, for/while loops, and pattern matching
+- [Types and Variables](/02-fundamentals/01-types-and-variables/), primitive types, reference types, boxing, and type conversion
+- [Control Flow](/02-fundamentals/02-control-flow/), if/else, switch expressions, for/while loops, and pattern matching
 - [Methods and Scope](02-fundamentals/03-methods-and-scope), parameter passing, method overloading, and variable scope
-- [Exceptions](12-exceptions/01-exceptions), checked vs unchecked exceptions, try-with-resources, and exception hierarchies
-- [Generics](../../../../kotlin/src/content/docs/intermediate/generics), type parameters, bounded types, wildcards, and type erasure
+- [Exceptions](/12-exceptions/01-exceptions/), checked vs unchecked exceptions, try-with-resources, and exception hierarchies
+- [Generics](https://kotlin.wyattau.com/intermediate/generics/), type parameters, bounded types, wildcards, and type erasure
 
 ### Key Concepts
 
@@ -98,10 +98,10 @@ Java is fundamentally an object-oriented language. Understanding class design, i
 
 ### Topic Notes
 
-- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects), constructors, fields, methods, and the `this` reference
+- [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/), constructors, fields, methods, and the `this` reference
 - [Inheritance and Polymorphism](03-oop/02-inheritance-and-polymorphism), extends, method overriding, super, and dynamic dispatch
-- [Interfaces and Abstract Classes](../../../../go/src/content/docs/intermediate/interfaces), interface design, default methods, and the IS-A relationship
-- [Sealed Classes and Records](../../../../dart/src/content/docs/07-dart3-features/02-sealed-classes), Java 17+ features for modeling closed hierarchies and immutable data
+- [Interfaces and Abstract Classes](https://go.wyattau.com/intermediate/interfaces/), interface design, default methods, and the IS-A relationship
+- [Sealed Classes and Records](https://dart.wyattau.com/07-dart3-features/02-sealed-classes/), Java 17+ features for modeling closed hierarchies and immutable data
 - [Design Principles](03-oop/05-design-principles), SOLID principles, composition over inheritance, and clean code practices
 
 ### Key Concepts
@@ -120,11 +120,11 @@ The Java Collections Framework provides the data structures and algorithms that 
 
 ### Topic Notes
 
-- [Collection Interfaces](../../../../go/src/content/docs/intermediate/interfaces), Collection, List, Set, Map, and their contracts
+- [Collection Interfaces](https://go.wyattau.com/intermediate/interfaces/), Collection, List, Set, Map, and their contracts
 - [Implementations](04-collections/02-implementations), ArrayList, LinkedList, HashMap, TreeMap, HashSet, and when to use each
 - [Iterators and Streams](04-collections/03-iterators-and-streams), Iterator, ListIterator, the Stream API, and lazy evaluation
-- [Concurrency-Safe Collections](06-concurrency/01-concurrency), ConcurrentHashMap, CopyOnWriteArrayList, and blocking queues
-- [Sorting and Searching](../../../../tools/src/content/docs/algorithms/05-sorting/sorting), Comparable, Comparator, Collections.sort, and Arrays.sort
+- [Concurrency-Safe Collections](/06-concurrency/01-concurrency/), ConcurrentHashMap, CopyOnWriteArrayList, and blocking queues
+- [Sorting and Searching](https://tools.wyattau.com/algorithms/05-sorting/sorting/), Comparable, Comparator, Collections.sort, and Arrays.sort
 
 ### Key Concepts
 
@@ -146,7 +146,7 @@ Java's concurrency model is one of its greatest strengths. The language provides
 - [Synchronized and Locks](05-concurrency/02-synchronized-and-locks), intrinsic locks, ReentrantLock, ReadWriteLock, and deadlock prevention
 - [Atomics and Memory Model](05-concurrency/03-atomics-and-memory-model), volatile, AtomicReference, happens-before, and memory ordering
 - [Executor Framework](05-concurrency/04-executor-framework), thread pools, ScheduledExecutorService, and CompletableFuture
-- [Virtual Threads](08-modern-java/02-virtual-threads-structured-concurrency), Project Loom, structured concurrency, and lightweight threading
+- [Virtual Threads](/08-modern-java/02-virtual-threads-structured-concurrency/), Project Loom, structured concurrency, and lightweight threading
 
 ### Key Concepts
 
@@ -168,7 +168,7 @@ Spring is the dominant framework for building Java applications. Spring Boot sim
 - [Spring MVC](06-spring/02-spring-mvc), controllers, request mapping, validation, and REST APIs
 - [Spring Data](06-spring/03-spring-data), repositories, JPA, query methods, and transactions
 - [Spring Security](06-spring/04-spring-security), authentication, authorization, and JWT
-- [Testing in Spring](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), @SpringBootTest, MockMvc, and TestContainers
+- [Testing in Spring](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), @SpringBootTest, MockMvc, and TestContainers
 
 ### Key Concepts
 

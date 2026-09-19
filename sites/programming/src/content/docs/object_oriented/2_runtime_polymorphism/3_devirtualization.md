@@ -746,9 +746,9 @@ Intended effect.
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables)
-- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
-- [Deducing This and CRTP](./5_deducing_this_crtp)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

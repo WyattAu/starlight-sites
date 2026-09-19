@@ -692,5 +692,5 @@ The key challenge is weighting: which goods matter most? The Laspeyres index use
 ## See Also
 
 - [Quantitative Economics](./)
-- [IB Economics](..)
-- [Descriptive Statistics](./1-descriptive-statistics)
+- [IB Economics](/)
+- [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/)

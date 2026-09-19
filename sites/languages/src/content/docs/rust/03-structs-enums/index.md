@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Advanced Patterns](./advanced-patterns)
-- [Structs And Enums](./structs-and-enums)
+- [Advanced Patterns](/rust/03-structs-enums/advanced-patterns/)
+- [Structs And Enums](/rust/03-structs-enums/structs-and-enums/)
 
 ## Learning Objectives
 

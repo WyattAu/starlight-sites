@@ -229,5 +229,5 @@ linked above.
 
 ## Cross-References
 
-- **[Algebra](./diag-algebra):** Equations and expressions.
-- **[Number](./diag-number):** Number operations and calculations.
+- **[Algebra](/maths/diagnostics/diag-algebra/):** Equations and expressions.
+- **[Number](/maths/diagnostics/diag-number/):** Number operations and calculations.

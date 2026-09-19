@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [3_multicellular](./3_multicellular)
+- [3_multicellular](/biology/3-multicellular/3_multicellular/)
 
 ## Learning Objectives
 

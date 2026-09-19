@@ -467,6 +467,6 @@ the effector muscle. [5 marks]
 
 ## Cross-References
 
-- **[Cell Biology](../cell-biology):** Cell biology supports physiology
-- **[Genetics](../../../../../../alevel/src/content/docs/biology/diagnostics/diag-genetics-dna):** Genetics underpins biotechnology
-- **[Ecology](../../../../../../alevel/src/content/docs/biology/ecology):** Ecology studies organism interactions
+- **[Cell Biology](/biology/cell-biology/):** Cell biology supports physiology
+- **[Genetics](https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna/):** Genetics underpins biotechnology
+- **[Ecology](https://alevel.wyattau.com/biology/ecology/):** Ecology studies organism interactions

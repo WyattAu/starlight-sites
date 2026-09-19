@@ -376,5 +376,5 @@ linked above.
 ## See Also
 
 - [Basics](./)
-- [Arrays, Slices, and Maps](./arrays-slices-maps)
-- [Control Flow](./control-flow)
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)

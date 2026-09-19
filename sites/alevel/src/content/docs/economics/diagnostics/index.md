@@ -18,11 +18,11 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Diag Demand Supply](./diag-demand-supply)
-- [Diag Macroeconomic Policy](./diag-macroeconomic-policy)
-- [Diag Market Failure](./diag-market-failure)
-- [Diag Theory Of The Firm](./diag-theory-of-the-firm)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Demand Supply](/economics/diagnostics/diag-demand-supply/)
+- [Diag Macroeconomic Policy](/economics/diagnostics/diag-macroeconomic-policy/)
+- [Diag Market Failure](/economics/diagnostics/diag-market-failure/)
+- [Diag Theory Of The Firm](/economics/diagnostics/diag-theory-of-the-firm/)
+- [Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

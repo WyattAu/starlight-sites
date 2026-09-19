@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [4_data Analysis](./4_data-analysis)
+- [4_data Analysis](/computer-science/4-data-analysis/4_data-analysis/)
 
 ## Learning Objectives
 

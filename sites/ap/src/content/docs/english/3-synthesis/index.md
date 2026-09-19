@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [3_synthesis](./3_synthesis)
+- [3_synthesis](/english/3-synthesis/3_synthesis/)
 
 ## Learning Objectives
 

@@ -18,8 +18,8 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Descriptive Statistics](./1-descriptive-statistics)
-- [Index Numbers](./2-index-numbers)
+- [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/)
+- [Index Numbers](/economics/5-quantitative-economics/2-index-numbers/)
 
 ## Learning Objectives
 

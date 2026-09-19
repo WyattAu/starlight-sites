@@ -189,7 +189,7 @@ graph TD
 
 ## Related Resources
 
-- [Algebra Tutorials](../../../../sat/src/content/docs/mathematics/algebra)
-- [Calculus Guide](../../../../hsc/src/content/docs/mathematics/calculus)
-- [Linear Algebra Course](linear-algebra)
-- [Probability Problems](probability)
+- [Algebra Tutorials](https://sat.wyattau.com/mathematics/algebra/)
+- [Calculus Guide](https://hsc.wyattau.com/mathematics/calculus/)
+- [Linear Algebra Course](/linear-algebra/)
+- [Probability Problems](/probability/)

@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Error Handling Patterns](./error-handling-patterns)
-- [Error Handling](./error-handling)
+- [Error Handling Patterns](/rust/04-error-handling/error-handling-patterns/)
+- [Error Handling](/rust/04-error-handling/error-handling/)
 
 ## Learning Objectives
 

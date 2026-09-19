@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [4_chemical Changes](./4_chemical-changes)
+- [4_chemical Changes](/chemistry/4-chemical-changes/4_chemical-changes/)
 
 ## Learning Objectives
 

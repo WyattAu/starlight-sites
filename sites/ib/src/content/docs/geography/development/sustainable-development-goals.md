@@ -286,9 +286,9 @@ Might be managed.
 
 </details>
 
-For related topics, see [./measuring-development](./measuring-development) and
-[./trade-and-aid](./trade-and-aid). The parent topic page is at
-[../economic-development](../economic-development).
+For related topics, see [./measuring-development](/geography/development/measuring-development/) and
+[./trade-and-aid](/geography/development/trade-and-aid/). The parent topic page is at
+[../economic-development](/geography/economic-development/).
 
 ## Common Pitfalls
 

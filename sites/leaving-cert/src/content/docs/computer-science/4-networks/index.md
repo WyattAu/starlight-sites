@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [4_networks](./4_networks)
+- [4_networks](/computer-science/4-networks/4_networks/)
 
 ## Learning Objectives
 

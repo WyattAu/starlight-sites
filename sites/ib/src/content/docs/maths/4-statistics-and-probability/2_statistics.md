@@ -1053,5 +1053,5 @@ linked above.
 ## See Also
 
 - [Statistics And Probability](./)
-- [Probability](./1_probability)
-- [Probability Distributions](./3_probability-distributions)
+- [Probability](/maths/4-statistics-and-probability/1_probability/)
+- [Probability Distributions](/maths/4-statistics-and-probability/3_probability-distributions/)

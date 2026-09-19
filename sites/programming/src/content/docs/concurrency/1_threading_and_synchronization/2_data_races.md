@@ -517,9 +517,9 @@ public:
 
 ## See Also
 
-- [Thread Execution (std::jthread) and Hardware Mapping](./1_threads_jthread)
-- [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks)
-- [Atomic Operations and Lock-Free Programming](../2_memory_model_and_atomics/3_atomic_operations)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

@@ -211,5 +211,5 @@ Sampling and experimentation are about **collecting data that leads to valid con
 ## Cross-References
 
 - **[Exploring Data](../1-exploring-data/1_exploring_data):** Understanding data types and distributions is essential before designing studies.
-- **[Probability](../3-probability/3_probability):** Random sampling and experimental design rely on probability concepts.
+- **[Probability](/statistics/3-probability/3_probability/):** Random sampling and experimental design rely on probability concepts.
 - **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** The quality of inference depends entirely on how well the study was designed.

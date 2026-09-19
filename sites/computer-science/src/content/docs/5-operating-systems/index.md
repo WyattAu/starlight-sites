@@ -64,16 +64,16 @@ Process management involves scheduling algorithms that determine which process e
 
 ## Contents
 
-1. [Introduction to Operating Systems](1_introduction-to-operating-systems)
-2. [Process Management](2_process-management)
-3. [Synchronisation](3_synchronisation)
-4. [Deadlocks](4_deadlocks)
-5. [Memory Management](5_memory-management)
-6. [File Systems](6_file-systems)
-7. [I/O Systems](7_i-o-systems)
-8. [Virtualization](8_virtualization)
-9. [Security](9_security)
-10. [Problem Set](10_problem-set)
+1. [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)
+2. [Process Management](/5-operating-systems/2_process-management/)
+3. [Synchronisation](/5-operating-systems/3_synchronisation/)
+4. [Deadlocks](/5-operating-systems/4_deadlocks/)
+5. [Memory Management](/5-operating-systems/5_memory-management/)
+6. [File Systems](/5-operating-systems/6_file-systems/)
+7. [I/O Systems](/5-operating-systems/7_i-o-systems/)
+8. [Virtualization](/5-operating-systems/8_virtualization/)
+9. [Security](/5-operating-systems/9_security/)
+10. [Problem Set](/5-operating-systems/10_problem-set/)
 
 ## Overview
 

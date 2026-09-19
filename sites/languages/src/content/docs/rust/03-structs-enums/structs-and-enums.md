@@ -971,5 +971,5 @@ Structs group related data under named fields, while enums represent variants wh
 ## See Also
 
 - [Structs Enums](./)
-- [Advanced Struct and Enum Patterns](./advanced-patterns)
-- [Rust](..)
+- [Advanced Struct and Enum Patterns](/rust/03-structs-enums/advanced-patterns/)
+- [Rust](/)

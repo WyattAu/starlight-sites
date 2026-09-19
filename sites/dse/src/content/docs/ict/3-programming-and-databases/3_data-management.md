@@ -20,7 +20,7 @@ categories: "- DSE - ICT"
 This document covers data management topics for the DSE ICT examination, including data structures,
 Database models, data integrity, security, privacy legislation, backup strategies, big data, and
 data Ethics. Database design and SQL are covered in
-[../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
+[../3-programming-and-databases/2_programming-and-databases](/ict/3-programming-and-databases/2_programming-and-databases/).
 
 ---
 

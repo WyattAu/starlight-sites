@@ -585,5 +585,5 @@ $\frac{1}{2}$. If it asks for the probability among all children, the answer is 
 ## See Also
 
 - [Diagnostics](./)
-- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
-- [Evolution and Ecology -- Diagnostic Tests](./diag-evolution-ecology)
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)

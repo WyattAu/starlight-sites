@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Generics](./01-generics)
-- [Annotations Reflection](./02-annotations-reflection)
+- [Generics](/java/11-generics-reflection/01-generics/)
+- [Annotations Reflection](/java/11-generics-reflection/02-annotations-reflection/)
 
 ## Learning Objectives
 

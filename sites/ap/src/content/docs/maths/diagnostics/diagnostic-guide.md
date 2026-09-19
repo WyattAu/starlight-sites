@@ -233,8 +233,8 @@ Diagnostics are **stress tests** for your understanding. Unlike practice exams t
 
 ## Cross-References
 
-- **[Limits and Continuity](../1-limits-and-continuity/1_limits-and-continuity):** The foundation, start here if diagnostics reveal gaps in limit understanding.
-- **[Derivatives](../2-derivatives/2_derivatives):** Chain rule, implicit differentiation, and related rates diagnostics.
-- **[Integrals](../3-integrals/3_integrals):** FTC, Riemann sums, and integration technique diagnostics.
-- **[Differential Equations](../4-differential-equations/4_differential-equations):** Separation of variables, logistic growth, and Euler's method diagnostics.
-- **[Sequences and Series](../5-sequences-and-series/5_sequences-and-series):** Convergence tests and Taylor series diagnostics (BC only).
+- **[Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/):** The foundation, start here if diagnostics reveal gaps in limit understanding.
+- **[Derivatives](/maths/2-derivatives/2_derivatives/):** Chain rule, implicit differentiation, and related rates diagnostics.
+- **[Integrals](/maths/3-integrals/3_integrals/):** FTC, Riemann sums, and integration technique diagnostics.
+- **[Differential Equations](/maths/4-differential-equations/4_differential-equations/):** Separation of variables, logistic growth, and Euler's method diagnostics.
+- **[Sequences and Series](/maths/5-sequences-and-series/5_sequences-and-series/):** Convergence tests and Taylor series diagnostics (BC only).

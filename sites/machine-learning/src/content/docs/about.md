@@ -46,8 +46,8 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [Machine Learning](./)
-- [advanced topics](./advanced-topics)
-- [Machine Learning](./intro)
+- [advanced topics](/advanced-topics/)
+- [Machine Learning](/intro/)
 
 
 ## Detailed Content

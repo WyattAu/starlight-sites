@@ -798,5 +798,5 @@ applying these mathematical techniques.
 ## See Also
 
 - [Number](./)
-- [GCSE Maths](..)
-- [Number -- Diagnostic Tests](../diagnostics/diag-number)
+- [GCSE Maths](/maths/)
+- [Number -- Diagnostic Tests](/maths/diagnostics/diag-number/)

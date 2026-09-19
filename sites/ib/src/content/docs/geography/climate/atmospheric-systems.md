@@ -263,9 +263,9 @@ And provide specific case studies with data.
 
 </details>
 
-For related topics, see [./carbon-cycle-and-sequestration](./carbon-cycle-and-sequestration) and
-[./climate-adaptation-and-mitigation](./climate-adaptation-and-mitigation). The parent topic page is
-At [../climate-change](../climate-change).
+For related topics, see [./carbon-cycle-and-sequestration](/geography/climate/carbon-cycle-and-sequestration/) and
+[./climate-adaptation-and-mitigation](/geography/climate/climate-adaptation-and-mitigation/). The parent topic page is
+At [../climate-change](/geography/climate-change/).
 
 ## Common Pitfalls
 

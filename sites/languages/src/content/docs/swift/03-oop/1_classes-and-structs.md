@@ -798,5 +798,5 @@ Swift's choice between structs and classes is a fundamental design decision. Str
 ## See Also
 
 - [Oop](./)
-- [Swift](..)
-- [Classes and Inheritance](../../dart/04-object-oriented/01-classes-and-inheritance)
+- [Swift](/)
+- [Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/)

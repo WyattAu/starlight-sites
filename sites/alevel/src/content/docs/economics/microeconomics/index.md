@@ -201,5 +201,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Economics](..)
-- [The Economic Problem](./01-the-economic-problem)
-- [Demand, Supply and Equilibrium](./02-demand-supply-and-equilibrium)
+- [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)
+- [Demand, Supply and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)

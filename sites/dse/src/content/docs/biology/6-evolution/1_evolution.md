@@ -1449,5 +1449,5 @@ linked above.
 ## See Also
 
 - [Evolution](./)
-- [DSE Biology](..)
-- [Evolution and Ecology -- Diagnostic Tests](../diagnostics/diag-evolution-ecology)
+- [DSE Biology](/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)

@@ -18,12 +18,12 @@ This section provides study materials and resources for calculus. Browse the top
 
 ## Topics
 
-- [1_limits And Continuity](./1_limits-and-continuity)
-- [2_differentiation](./2_differentiation)
-- [3_integration Techniques](./3_integration-techniques)
-- [4_integration](./4_integration)
-- [5_differential Equations](./5_differential-equations)
-- [6_sequences And Series](./6_sequences-and-series)
+- [1_limits And Continuity](/maths/5-calculus/1_limits-and-continuity/)
+- [2_differentiation](/maths/5-calculus/2_differentiation/)
+- [3_integration Techniques](/maths/5-calculus/3_integration-techniques/)
+- [4_integration](/maths/5-calculus/4_integration/)
+- [5_differential Equations](/maths/5-calculus/5_differential-equations/)
+- [6_sequences And Series](/maths/5-calculus/6_sequences-and-series/)
 
 ## Learning Objectives
 

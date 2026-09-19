@@ -36,32 +36,32 @@ science degrees.
 
 Kinematics, forces, energy, power, projectiles, and Newton"s laws of motion.
 
-→ **[Full notes](../../../../../leaving-cert/src/content/docs/physics/1-mechanics/1_mechanics)**
+→ **[Full notes](https://leaving-cert.wyattau.com/physics/1-mechanics/1_mechanics/)**
 
 ### Dynamics & Space
 
 Momentum, impulse, collisions, gravitation, orbital mechanics, and space physics.
 
-→ **[Full notes](2-dynamics-space/2_dynamics-space)**
+→ **[Full notes](/physics/2-dynamics-space/2_dynamics-space/)**
 
 ### Electricity
 
 Circuit analysis, Ohm's law, power, internal resistance, AC circuits, and semiconductor behaviour.
 
-→ **[Full notes](../../../../../leaving-cert/src/content/docs/physics/3-electricity/3_electricity)**
+→ **[Full notes](https://leaving-cert.wyattau.com/physics/3-electricity/3_electricity/)**
 
 ### Particles & Waves
 
 Wave properties, refraction, diffraction, interference, the photoelectric effect, and particle
 physics.
 
-→ **[Full notes](4-particles-waves/4_particles-waves)**
+→ **[Full notes](/physics/4-particles-waves/4_particles-waves/)**
 
 ### Waves & Radiation
 
 Electromagnetic spectrum, nuclear radiation, half-life, nuclear reactions, and dosimetry.
 
-→ **[Full notes](5-waves-radiation/5_waves-radiation)**
+→ **[Full notes](/physics/5-waves-radiation/5_waves-radiation/)**
 
 ## Study Tips
 

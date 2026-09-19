@@ -997,17 +997,17 @@ $\boxed{\lambda = 2 \text{ and } \lambda = 3}$
 ### 11.1 Matrices and complex numbers
 
 Complex eigenvalues lead to rotation-scaling transformations. See
-[Complex Numbers](../pure/complex-numbers).
+[Complex Numbers](/further-maths/pure/complex-numbers/).
 
 ### 11.2 Matrices and vectors
 
 The cross product can be written as a matrix multiplication. See
-[Vectors in 3D](../../maths/pure-mathematics/12-vectors).
+[Vectors in 3D](/maths/pure-mathematics/12-vectors/).
 
 ### 11.3 Matrices and further algebra
 
 Cayley--Hamilton connects matrices to polynomial algebra. See
-[Further Algebra](03-further-algebra).
+[Further Algebra](/further-maths/pure-mathematics/03-further-algebra/).
 
 ---
 
@@ -1274,7 +1274,7 @@ $$
 
 ## Cross-References
 
-- [Complex Numbers](./01-complex-numbers) -- Complex eigenvalues lead to rotation-scaling transformations, connecting matrix theory to the geometry of complex arithmetic.
-- [Further Algebra](./03-further-algebra) -- The Cayley-Hamilton theorem links matrices to polynomial algebra through the characteristic equation.
-- [Further Calculus](./04-further-calculus) -- Matrix methods underpin systems of differential equations solved using eigenvalues and eigenvectors.
-- [Vectors in 3D](./09-vectors-in-3d) -- The cross product can be written as a matrix multiplication, connecting vector algebra to linear transformations.
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/) -- Complex eigenvalues lead to rotation-scaling transformations, connecting matrix theory to the geometry of complex arithmetic.
+- [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/) -- The Cayley-Hamilton theorem links matrices to polynomial algebra through the characteristic equation.
+- [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) -- Matrix methods underpin systems of differential equations solved using eigenvalues and eigenvectors.
+- [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/) -- The cross product can be written as a matrix multiplication, connecting vector algebra to linear transformations.

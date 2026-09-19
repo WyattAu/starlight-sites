@@ -1072,5 +1072,5 @@ linked above.
 ## See Also
 
 - [Organic Chemistry](./)
-- [Alcohols](./alcohols)
-- [Alkanes](./alkanes)
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)

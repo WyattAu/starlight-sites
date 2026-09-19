@@ -524,5 +524,5 @@ instead of or in addition to wide vessels, as tracheids are more resistant to ca
 ## See Also
 
 - [Diagnostics](./)
-- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
-- [Cells -- Diagnostic Tests](./diag-cells)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
+- [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)

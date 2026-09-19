@@ -321,10 +321,10 @@ $$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \f
 
 ## Cross-References
 
-- [Algebra](../mathematics/algebra) -- Quadratic equations and logarithmic functions from algebra are prerequisites for many calculus techniques.
-- [Mechanics](../physics/mechanics) -- Kinematics uses derivatives and integrals to describe motion, directly applying calculus to physics.
-- [Waves](../physics/waves) -- Wave equations involve trigonometric differentiation and integration used throughout this topic.
-- [Organic](../chemistry/organic) -- Reaction rate equations in organic chemistry use exponential and logarithmic functions from calculus.
+- [Algebra](/mathematics/algebra/) -- Quadratic equations and logarithmic functions from algebra are prerequisites for many calculus techniques.
+- [Mechanics](/physics/mechanics/) -- Kinematics uses derivatives and integrals to describe motion, directly applying calculus to physics.
+- [Waves](/physics/waves/) -- Wave equations involve trigonometric differentiation and integration used throughout this topic.
+- [Organic](/chemistry/organic/) -- Reaction rate equations in organic chemistry use exponential and logarithmic functions from calculus.
 
 ## Intuition
 

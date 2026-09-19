@@ -510,5 +510,5 @@ By periodicity: $x = \frac{\pi}{4} + 2n\pi$ for $n \in \mathbb{Z}$.
 ## See Also
 
 - [Diagnostics](./)
-- [Differentiation -- Diagnostic Tests](./diag-differentiation)
-- [Functions -- Diagnostic Tests](./diag-functions)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

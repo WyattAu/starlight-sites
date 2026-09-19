@@ -148,9 +148,9 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 
 ## Cross-References
 
-- [Geometry](./geometry) -- Algebraic techniques are used to solve geometric problems including coordinate geometry and equations of circles.
-- [Data Analysis](./data-analysis) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
-- [Reading Comprehension](../reading/comprehension) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
+- [Geometry](/mathematics/geometry/) -- Algebraic techniques are used to solve geometric problems including coordinate geometry and equations of circles.
+- [Data Analysis](/mathematics/data-analysis/) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
+- [Reading Comprehension](/reading/comprehension/) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
 
 
 ## Advanced Content

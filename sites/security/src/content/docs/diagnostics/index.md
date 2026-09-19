@@ -18,7 +18,7 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Diag Security](./diag-security)
+- [Diag Security](/diagnostics/diag-security/)
 
 ## Learning Objectives
 

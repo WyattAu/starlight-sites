@@ -1646,5 +1646,5 @@ Think of the production possibility frontier (PPF) as a visual representation of
 ## See Also
 
 - [Basic Economic Concepts](./)
-- [DSE Economics](..)
-- [Basic Economic Concepts -- Diagnostic Tests](../diagnostics/diag-basic-economic-concepts)
+- [DSE Economics](/)
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)

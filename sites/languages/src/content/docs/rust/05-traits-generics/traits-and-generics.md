@@ -969,5 +969,5 @@ Traits define shared behavior as interfaces, while generics enable code that wor
 ## See Also
 
 - [Traits Generics](./)
-- [Rust](..)
-- [Classes and Inheritance](../../dart/04-object-oriented/01-classes-and-inheritance)
+- [Rust](/)
+- [Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/)

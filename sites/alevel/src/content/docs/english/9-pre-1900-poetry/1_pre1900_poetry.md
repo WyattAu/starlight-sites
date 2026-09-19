@@ -147,8 +147,8 @@ Effective close reading of poetry requires attention to:
 ## See Also
 
 - [Pre 1900 Poetry](./)
-- [A-Level English](..)
-- [Poetry Analysis](../2-poetry/1_poetry-analysis)
+- [A-Level English](/)
+- [Poetry Analysis](/english/2-poetry/1_poetry-analysis/)
 
 
 ## Advanced Content

@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [2_heat Matter](./2_heat-matter)
+- [2_heat Matter](/chemistry/2-heat-matter/2_heat-matter/)
 
 ## Learning Objectives
 

@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [3_cellular Energetics](./3_cellular-energetics)
+- [3_cellular Energetics](/biology/3-cellular-energetics/3_cellular-energetics/)
 
 ## Learning Objectives
 

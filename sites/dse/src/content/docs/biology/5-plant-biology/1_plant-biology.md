@@ -2013,8 +2013,8 @@ linked above.
 
 ## Cross-References
 
-- [Human Physiology](../4-human-physiology/1_human-physiology) -- Photosynthesis provides the glucose and oxygen that sustain human respiration and metabolism.
-- [Genetics](../3-genetics/1_genetics) -- Plant breeding and genetic modification of crops connect genetics to plant biology.
-- [Organic Chemistry](../../chemistry/7-organic-chemistry/1_organic-chemistry) -- Carbon fixation in photosynthesis and the synthesis of organic molecules in plants.
-- [Heat and Gases](../../physics/4-thermal-physics/1_heat-and-gases) -- Transpiration involves water evaporation and gas exchange, applying thermal physics concepts.
+- [Human Physiology](/biology/4-human-physiology/1_human-physiology/) -- Photosynthesis provides the glucose and oxygen that sustain human respiration and metabolism.
+- [Genetics](/biology/3-genetics/1_genetics/) -- Plant breeding and genetic modification of crops connect genetics to plant biology.
+- [Organic Chemistry](/chemistry/7-organic-chemistry/1_organic-chemistry/) -- Carbon fixation in photosynthesis and the synthesis of organic molecules in plants.
+- [Heat and Gases](/physics/4-thermal-physics/1_heat-and-gases/) -- Transpiration involves water evaporation and gas exchange, applying thermal physics concepts.
 :::

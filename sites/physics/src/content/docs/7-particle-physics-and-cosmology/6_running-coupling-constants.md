@@ -169,10 +169,10 @@ Coupling constants are not truly constant: they change with energy scale through
 
 ## Cross-References
 
-- **[The Standard Model](1_the-standard-model)**: The three gauge couplings of the Standard Model run with energy according to the renormalisation group equations.
-- **[Group Theory in Particle Physics](5_group-theory-in-particle-physics)**: The beta function coefficients depend on the group-theoretic factors of SU(3), SU(2), and U(1).
-- **[Beyond the Standard Model](9_beyond-the-standard-model)**: Gauge coupling unification requires new physics such as supersymmetry to bring the three couplings to convergence.
-- **[Advanced Topics in Particle Physics](11_advanced-topics-in-particle-physics)**: Deep inelastic scattering and the DGLAP equations measure the running of the strong coupling constant.
+- **[The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)**: The three gauge couplings of the Standard Model run with energy according to the renormalisation group equations.
+- **[Group Theory in Particle Physics](/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/)**: The beta function coefficients depend on the group-theoretic factors of SU(3), SU(2), and U(1).
+- **[Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)**: Gauge coupling unification requires new physics such as supersymmetry to bring the three couplings to convergence.
+- **[Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)**: Deep inelastic scattering and the DGLAP equations measure the running of the strong coupling constant.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

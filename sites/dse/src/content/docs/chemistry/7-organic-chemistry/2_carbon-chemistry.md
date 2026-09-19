@@ -835,5 +835,5 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 ## See Also
 
 - [Organic Chemistry](./)
-- [Organic Chemistry](./1_organic-chemistry)
-- [DSE Chemistry](..)
+- [Organic Chemistry](/chemistry/7-organic-chemistry/1_organic-chemistry/)
+- [DSE Chemistry](/)

@@ -18,10 +18,10 @@ This section provides study materials and resources for sociocultural. Browse th
 
 ## Topics
 
-- [_index](./_index)
-- [Cultural Norms And Attritudes](./cultural-norms-and-attritudes)
-- [Prejudice And Discrimination](./prejudice-and-discrimination)
-- [Social Identity Theory](./social-identity-theory)
+- [_index](/psychology/sociocultural/_index/)
+- [Cultural Norms And Attritudes](/psychology/sociocultural/cultural-norms-and-attritudes/)
+- [Prejudice And Discrimination](/psychology/sociocultural/prejudice-and-discrimination/)
+- [Social Identity Theory](/psychology/sociocultural/social-identity-theory/)
 
 ## Learning Objectives
 

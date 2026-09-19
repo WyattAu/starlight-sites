@@ -958,10 +958,10 @@ COMMIT;
 
 ## Cross-References
 
-- [Transactions and Concurrency](transactions) - How isolation levels determine which lock behaviors are necessary
-- [Indexing and Optimization](../03-indexing-optimization/indexing) - How index scans interact with row-level locks during concurrent updates
-- [Query Optimization](../03-indexing-optimization/query-optimization) - How the planner chooses between lock strategies for parallel queries
-- [Schema Migrations](../06-database-design/migrations) - How DDL operations acquire locks that can block application queries
+- [Transactions and Concurrency](/04-transactions/transactions/) - How isolation levels determine which lock behaviors are necessary
+- [Indexing and Optimization](/03-indexing-optimization/indexing/) - How index scans interact with row-level locks during concurrent updates
+- [Query Optimization](/03-indexing-optimization/query-optimization/) - How the planner chooses between lock strategies for parallel queries
+- [Schema Migrations](/06-database-design/migrations/) - How DDL operations acquire locks that can block application queries
 
 ## Worked Examples
 

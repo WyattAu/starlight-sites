@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [4_organic](./4_organic)
+- [4_organic](/chemistry/4-organic/4_organic/)
 
 ## Learning Objectives
 

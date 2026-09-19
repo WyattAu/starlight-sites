@@ -21,8 +21,8 @@ categories:
 Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the
 DSE compulsory syllabus, we focus on discrete probability spaces, combinatorial counting,
 Conditional probability, and independence. This page connects to
-[Permutations and Combinations](13_permutations-and-combinations)
-For counting techniques and [Dispersion](12_dispersion) for the statistical interpretation of
+[Permutations and Combinations](/maths/compulsory/13_permutations-and-combinations/)
+For counting techniques and [Dispersion](/maths/compulsory/12_dispersion/) for the statistical interpretation of
 Probability distributions.
 
 ## Notations
@@ -64,7 +64,7 @@ $$
 $$
 
 This definition reduces probability to a counting problem and directly connects to the techniques in
-[../compulsory/13_permutations-and-combinations](../compulsory/13_permutations-and-combinations)).
+[../compulsory/13_permutations-and-combinations](/maths/compulsory/13_permutations-and-combinations/)).
 
 <details>
 <summary>Example</summary>
@@ -263,7 +263,7 @@ $$
 
 When outcomes are equally likely, dividing both sides by $|S|$ yields the general addition rule. The
 Full inclusion-exclusion principle extends to $n$ sets and is covered in
-[../compulsory/13_permutations-and-combinations](../compulsory/13_permutations-and-combinations)).
+[../compulsory/13_permutations-and-combinations](/maths/compulsory/13_permutations-and-combinations/)).
 
 </details>
 <summary>DSE-style Example</summary>

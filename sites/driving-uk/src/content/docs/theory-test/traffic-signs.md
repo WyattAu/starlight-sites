@@ -113,8 +113,8 @@ What does this sign mean? (No Entry)
 ## See Also
 
 - [Theory Test](./)
-- [Hazard Perception](./hazard-perception)
-- [Multiple Choice Questions](./multiple-choice)
+- [Hazard Perception](/theory-test/hazard-perception/)
+- [Multiple Choice Questions](/theory-test/multiple-choice/)
 
 
 ## Advanced Content

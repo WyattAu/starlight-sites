@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_organic Chemistry](./1_organic-chemistry)
-- [2_carbon Chemistry](./2_carbon-chemistry)
+- [1_organic Chemistry](/chemistry/7-organic-chemistry/1_organic-chemistry/)
+- [2_carbon Chemistry](/chemistry/7-organic-chemistry/2_carbon-chemistry/)
 
 ## Learning Objectives
 

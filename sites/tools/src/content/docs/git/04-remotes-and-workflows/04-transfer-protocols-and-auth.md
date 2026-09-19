@@ -838,7 +838,7 @@ $ echo "!id_*.pub" >> .gitignore   # Allow public keys
 ```
 
 If a private key was committed, treat it as a full security incident: rotate the key on all hosting
-Platforms, revoke the old public key, and use [filter-repo](../05-advanced-topics/10-filter-repo)
+Platforms, revoke the old public key, and use [filter-repo](/git/05-advanced-topics/10-filter-repo/)
 To remove it from history.
 
 ### Using git-credential-store on Shared Machines
@@ -964,6 +964,6 @@ linked above.
 
 ## Cross-References
 
-- **[Remote Operations](01-remote-operations):** Core remote commands like push, pull, and fetch that use these protocols.
-- **[Workflows](02-workflows):** Team collaboration workflows that rely on remote access and authentication.
-- **[Pull Requests](03-pull-requests):** Code review process that uses remote repositories and access controls.
+- **[Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/):** Core remote commands like push, pull, and fetch that use these protocols.
+- **[Workflows](/git/04-remotes-and-workflows/02-workflows/):** Team collaboration workflows that rely on remote access and authentication.
+- **[Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/):** Code review process that uses remote repositories and access controls.

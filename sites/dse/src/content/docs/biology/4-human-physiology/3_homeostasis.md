@@ -1287,5 +1287,5 @@ linked above.
 ## See Also
 
 - [Human Physiology](./)
-- [Human Physiology](./1_human-physiology)
-- [Human Reproduction and Homeostasis](./2_human-reproduction-and-homeostasis)
+- [Human Physiology](/biology/4-human-physiology/1_human-physiology/)
+- [Human Reproduction and Homeostasis](/biology/4-human-physiology/2_human-reproduction-and-homeostasis/)

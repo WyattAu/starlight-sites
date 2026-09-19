@@ -18,8 +18,8 @@ This section covers essential mathematical techniques and theories. These founda
 
 ## Topics
 
-- [Algebra](./algebra)
-- [Calculus](./calculus)
+- [Algebra](/mathematics/algebra/)
+- [Calculus](/mathematics/calculus/)
 
 ## Learning Objectives
 

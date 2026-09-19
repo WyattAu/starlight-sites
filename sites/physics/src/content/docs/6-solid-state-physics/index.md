@@ -50,22 +50,22 @@ sources:
 
 ## Contents
 
-1. [Crystal Structures](1_crystal-structures)
-2. [Reciprocal Lattice](2_reciprocal-lattice)
-3. [Diffraction](3_diffraction)
-4. [Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)
-5. [Electronic Band Structure](5_electronic-band-structure)
-6. [Semiconductors](6_semiconductors)
-7. [Superconductivity](7_superconductivity)
-8. [Transport Properties](8_transport-properties)
-9. [Defects in Crystals](9_defects-in-crystals)
-10. [Magnetism in Solids](10_magnetism-in-solids)
-11. [Problem Set](11_problem-set)
-12. [Advanced Topics in Superconductivity](12_advanced-topics-in-superconductivity)
-13. [Topological Insulators and Semimetals](13_topological-insulators-and-semimetals)
-14. [Many-Body Physics in Solids](14_many-body-physics-in-solids)
-15. [Advanced Semiconductor Physics](15_advanced-semiconductor-physics)
-16. [Advanced Semiconductor Physics (Continued)](16_advanced-semiconductor-physics-continued)
+1. [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+2. [Reciprocal Lattice](/6-solid-state-physics/2_reciprocal-lattice/)
+3. [Diffraction](/6-solid-state-physics/3_diffraction/)
+4. [Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)
+5. [Electronic Band Structure](/6-solid-state-physics/5_electronic-band-structure/)
+6. [Semiconductors](/6-solid-state-physics/6_semiconductors/)
+7. [Superconductivity](/6-solid-state-physics/7_superconductivity/)
+8. [Transport Properties](/6-solid-state-physics/8_transport-properties/)
+9. [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)
+10. [Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)
+11. [Problem Set](/6-solid-state-physics/11_problem-set/)
+12. [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+13. [Topological Insulators and Semimetals](/6-solid-state-physics/13_topological-insulators-and-semimetals/)
+14. [Many-Body Physics in Solids](/6-solid-state-physics/14_many-body-physics-in-solids/)
+15. [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+16. [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
 
 ## Overview
 

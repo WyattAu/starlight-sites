@@ -17,20 +17,20 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Diag Acids Bases](./diag-acids-bases)
-- [Diag Alkanes Alkenes](./diag-alkanes-alkenes)
-- [Diag Atomic Structure](./diag-atomic-structure)
-- [Diag Bonding Structure](./diag-bonding-structure)
-- [Diag Carbonyl Arenes Amines](./diag-carbonyl-arenes-amines)
-- [Diag Electrochemistry](./diag-electrochemistry)
-- [Diag Equilibrium](./diag-equilibrium)
-- [Diag Halogenoalkanes Alcohols](./diag-halogenoalkanes-alcohols)
-- [Diag Kinetics](./diag-kinetics)
-- [Diag Organic Introduction](./diag-organic-introduction)
-- [Diag Quantitative Chemistry](./diag-quantitative-chemistry)
-- [Diag Thermodynamics](./diag-thermodynamics)
-- [Diag Transition Metals](./diag-transition-metals)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Acids Bases](/chemistry/diagnostics/diag-acids-bases/)
+- [Diag Alkanes Alkenes](/chemistry/diagnostics/diag-alkanes-alkenes/)
+- [Diag Atomic Structure](/chemistry/diagnostics/diag-atomic-structure/)
+- [Diag Bonding Structure](/chemistry/diagnostics/diag-bonding-structure/)
+- [Diag Carbonyl Arenes Amines](/chemistry/diagnostics/diag-carbonyl-arenes-amines/)
+- [Diag Electrochemistry](/chemistry/diagnostics/diag-electrochemistry/)
+- [Diag Equilibrium](/chemistry/diagnostics/diag-equilibrium/)
+- [Diag Halogenoalkanes Alcohols](/chemistry/diagnostics/diag-halogenoalkanes-alcohols/)
+- [Diag Kinetics](/chemistry/diagnostics/diag-kinetics/)
+- [Diag Organic Introduction](/chemistry/diagnostics/diag-organic-introduction/)
+- [Diag Quantitative Chemistry](/chemistry/diagnostics/diag-quantitative-chemistry/)
+- [Diag Thermodynamics](/chemistry/diagnostics/diag-thermodynamics/)
+- [Diag Transition Metals](/chemistry/diagnostics/diag-transition-metals/)
+- [Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
 
 
 ## Overview

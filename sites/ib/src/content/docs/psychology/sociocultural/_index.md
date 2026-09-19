@@ -21,11 +21,11 @@ and cultural context influence behaviour.
 
 ## Pages
 
-- [Social Identity Theory](./social-identity-theory) -- social identity, in-groups and out-groups,
+- [Social Identity Theory](/psychology/sociocultural/social-identity-theory/) -- social identity, in-groups and out-groups,
   social comparison, and the consequences of social categorisation.
-- [Cultural Norms and Attitudes](./cultural-norms-and-attritudes) -- cultural dimensions,
+- [Cultural Norms and Attitudes](/psychology/sociocultural/cultural-norms-and-attritudes/) -- cultural dimensions,
   individualism-collectivism, enculturation, and cultural norms.
-- [Prejudice and Discrimination](./prejudice-and-discrimination) -- origins of prejudice,
+- [Prejudice and Discrimination](/psychology/sociocultural/prejudice-and-discrimination/) -- origins of prejudice,
   stereotyping, scapegoating theory, and strategies for reducing prejudice.
 
 ## Overview
@@ -136,9 +136,9 @@ superordinate goals, and recategorisation.
 
 | Topic                        | Link                                                                    |
 | ---------------------------- | ----------------------------------------------------------------------- |
-| Social Identity Theory       | [View](social-identity-theory)        |
-| Cultural Norms and Attitudes | [View](cultural-norms-and-attritudes) |
-| Prejudice and Discrimination | [View](prejudice-and-discrimination)  |
+| Social Identity Theory       | [View](/psychology/sociocultural/social-identity-theory/)        |
+| Cultural Norms and Attitudes | [View](/psychology/sociocultural/cultural-norms-and-attritudes/) |
+| Prejudice and Discrimination | [View](/psychology/sociocultural/prejudice-and-discrimination/)  |
 
 ## Intuition
 

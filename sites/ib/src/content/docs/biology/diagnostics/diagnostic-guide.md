@@ -167,5 +167,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Cell Biology -- Diagnostic Tests](./diag-cell-biology)
-- [Ecology -- Diagnostic Tests](./diag-ecology)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)

@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Streams Api](./01-streams-api)
+- [Streams Api](/java/05-streams/01-streams-api/)
 
 ## Learning Objectives
 

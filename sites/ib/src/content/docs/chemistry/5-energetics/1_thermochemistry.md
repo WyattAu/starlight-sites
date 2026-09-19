@@ -1116,4 +1116,4 @@ linked above.
 ## See Also
 
 - [Energetics](./)
-- [IB Chemistry](..)
+- [IB Chemistry](/)

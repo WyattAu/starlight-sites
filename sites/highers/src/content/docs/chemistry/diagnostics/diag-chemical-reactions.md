@@ -381,5 +381,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Scottish Highers Chemistry](..)
-- [Cell Biology -- Diagnostic Tests](../../biology/diagnostics/diag-cell-biology)
+- [Scottish Highers Chemistry](/)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)

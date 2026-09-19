@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_variables And Types](./1_variables-and-types)
+- [1_variables And Types](/ruby/01-basics/1_variables-and-types/)
 
 ## Learning Objectives
 

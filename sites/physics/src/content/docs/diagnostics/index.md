@@ -20,7 +20,7 @@ Physics diagnostics are designed to identify gaps in your understanding before y
 
 ## Topics
 
-- [Diag Mechanics](./diag-mechanics)
+- [Diag Mechanics](/diagnostics/diag-mechanics/)
 
 ## What Are Physics Diagnostics?
 

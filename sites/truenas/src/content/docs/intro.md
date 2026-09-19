@@ -156,6 +156,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [Home Server Setup](./setup/home-server-setup) -- The installation guide walks through initial configuration after understanding TrueNAS concepts.
-- [ZFS Deep Dive](./01-zfs/zfs-deep-dive) -- ZFS is the foundation storage technology underlying all TrueNAS data management.
-- [Sharing and Permissions](./02-sharing-and-permissions/sharing-and-permissions) -- Setting up shares is the primary way to access files stored on TrueNAS.
+- [Home Server Setup](/setup/home-server-setup/) -- The installation guide walks through initial configuration after understanding TrueNAS concepts.
+- [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- ZFS is the foundation storage technology underlying all TrueNAS data management.
+- [Sharing and Permissions](/02-sharing-and-permissions/sharing-and-permissions/) -- Setting up shares is the primary way to access files stored on TrueNAS.

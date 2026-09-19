@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_control Flow](./1_control-flow)
+- [1_control Flow](/ruby/02-control-flow/1_control-flow/)
 
 ## Learning Objectives
 

@@ -22,7 +22,7 @@ The demos in this section use WebAssembly-powered interactive tools that run dir
 
 ## Topics
 
-- [Wasm Interactive](./wasm-interactive)
+- [Wasm Interactive](/demos/wasm-interactive/)
 
 ## Why Interactive Demos Matter in Mathematics
 

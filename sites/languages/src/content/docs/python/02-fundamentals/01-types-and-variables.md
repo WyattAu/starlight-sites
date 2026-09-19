@@ -986,8 +986,8 @@ linked above.
 
 ## Cross-References
 
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), Truthiness rules and short-circuit evaluation govern how booleans behave in conditional expressions and loops.
-- [Collections](../../../../../../kotlin/src/content/docs/intermediate/collections), Lists, tuples, and dicts are the primary data structures whose type properties depend on mutability and hashability.
-- [Python Internals](05-python-internals), Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
-- [Dicts, Sets, and Collections Deep Dive](../03-data-structures/02-dicts-sets-counter), The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), Truthiness rules and short-circuit evaluation govern how booleans behave in conditional expressions and loops.
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/), Lists, tuples, and dicts are the primary data structures whose type properties depend on mutability and hashability.
+- [Python Internals](/python/02-fundamentals/05-python-internals/), Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
+- [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
 :::

@@ -647,5 +647,5 @@ do not change.
 ## See Also
 
 - [Machine Learning](./)
-- [About This Site](./about)
-- [Machine Learning](./intro)
+- [About This Site](/about/)
+- [Machine Learning](/intro/)

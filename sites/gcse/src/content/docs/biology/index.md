@@ -60,11 +60,11 @@ national curriculum and organised by topic for easy navigation.
 
 ## Topics
 
-- **[1. Cell Biology](1-cell-biology/1_cell-biology)**
-- **[2. Organisation](2-organisation/2_organisation)**
-- **[4. Bioenergetics](4-bioenergetics/4_bioenergetics)**
-- **[6. Inheritance, Variation & Evolution](6-inheritance-variation-evolution/6_inheritance-variation-evolution)**
-- **[7. Ecology](7-ecology/7_ecology)**
+- **[1. Cell Biology](/biology/1-cell-biology/1_cell-biology/)**
+- **[2. Organisation](/biology/2-organisation/2_organisation/)**
+- **[4. Bioenergetics](/biology/4-bioenergetics/4_bioenergetics/)**
+- **[6. Inheritance, Variation & Evolution](/biology/6-inheritance-variation-evolution/6_inheritance-variation-evolution/)**
+- **[7. Ecology](/biology/7-ecology/7_ecology/)**
 
 ## Topics Covered
 
@@ -167,6 +167,6 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 ## Cross-References
 
 - [Biology](biology)
-- [2 Organisation](2-organisation/2_organisation)
+- [2 Organisation](/biology/2-organisation/2_organisation/)
 - [Chemistry](chemistry)
 - [2 Bonding](chemistry/2-bonding/2_bonding)

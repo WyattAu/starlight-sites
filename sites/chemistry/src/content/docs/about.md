@@ -102,7 +102,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 - [Chemistry](./)
 - [Chemistry](./)
-- [Complete University Chemistry Study Guide](./hub)
+- [Complete University Chemistry Study Guide](/hub/)
 
 
 ## Detailed Content

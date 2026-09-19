@@ -865,10 +865,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Coordinates and Geometry](04-coordinates-and-geometry), The distance formula, perpendicular lines, and circle equations are expressed using vector notation.
-- [Proof](13-proof), Vector methods provide elegant alternative proofs for geometric results such as collinearity and perpendicularity.
-- [Trigonometry](08-trigonometry), The angle between two vectors uses the cosine rule and direction cosines from trigonometry.
-- [Mechanics](../../../../../../hsc/src/content/docs/physics/mechanics), Velocity and acceleration vectors in mechanics are particular applications of the vector concept.
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/), The distance formula, perpendicular lines, and circle equations are expressed using vector notation.
+- [Proof](/maths/pure-mathematics/13-proof/), Vector methods provide elegant alternative proofs for geometric results such as collinearity and perpendicularity.
+- [Trigonometry](/maths/pure-mathematics/08-trigonometry/), The angle between two vectors uses the cosine rule and direction cosines from trigonometry.
+- [Mechanics](https://hsc.wyattau.com/physics/mechanics/), Velocity and acceleration vectors in mechanics are particular applications of the vector concept.
 
 ```mermaid
 flowchart TD

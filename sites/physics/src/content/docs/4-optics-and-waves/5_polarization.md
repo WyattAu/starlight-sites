@@ -232,9 +232,9 @@ Polarization describes the orientation of a light wave's electric field oscillat
 
 ## Cross-References
 
-- **[Fresnel Equations](./10_fresnel-equations)**: Derives the reflection and transmission coefficients that depend on polarisation, including Brewster's angle where p-polarised light has zero reflection.
-- **[Geometric Optics](./6_geometric-optics)**: Provides the ray-tracing framework for understanding polarisation by reflection and Brewster windows.
-- **[Coherence](./8_coherence)**: Partially polarised light is described by the mutual coherence function, connecting polarisation to the coherence theory of partially polarised fields.
+- **[Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)**: Derives the reflection and transmission coefficients that depend on polarisation, including Brewster's angle where p-polarised light has zero reflection.
+- **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Provides the ray-tracing framework for understanding polarisation by reflection and Brewster windows.
+- **[Coherence](/4-optics-and-waves/8_coherence/)**: Partially polarised light is described by the mutual coherence function, connecting polarisation to the coherence theory of partially polarised fields.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 

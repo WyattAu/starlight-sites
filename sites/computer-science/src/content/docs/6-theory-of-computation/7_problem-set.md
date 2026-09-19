@@ -216,5 +216,5 @@ flowchart TD
 ## See Also
 
 - [Theory of Computation](./)
-- [Introduction](./1_introduction)
-- [Regular Languages](./2_regular-languages)
+- [Introduction](/6-theory-of-computation/1_introduction/)
+- [Regular Languages](/6-theory-of-computation/2_regular-languages/)

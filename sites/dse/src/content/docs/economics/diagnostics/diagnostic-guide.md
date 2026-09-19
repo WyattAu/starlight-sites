@@ -389,5 +389,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Basic Economic Concepts -- Diagnostic Tests](./diag-basic-economic-concepts)
-- [Demand, Supply, and Markets -- Diagnostic Tests](./diag-demand-supply-markets)
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)

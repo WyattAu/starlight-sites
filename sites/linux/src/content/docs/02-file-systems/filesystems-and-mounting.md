@@ -795,8 +795,8 @@ linked above.
 
 ## Cross-References
 
-- [File Permissions and ACLs](file-permissions) -- File systems enforce permission bits; understanding mounting is essential for managing permissions across partitions.
-- [LVM and Disk Partitioning](../lvm-and-disk-partitioning) -- LVM creates logical volumes that are formatted with file systems and mounted.
-- [Core Utilities](../01-cli-fundamentals/core-utilities) -- Commands like mount, df, and du are essential for file system management.
-- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Automating mount operations and file system checks is done through bash scripts.
+- [File Permissions and ACLs](/02-file-systems/file-permissions/) -- File systems enforce permission bits; understanding mounting is essential for managing permissions across partitions.
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/) -- LVM creates logical volumes that are formatted with file systems and mounted.
+- [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Commands like mount, df, and du are essential for file system management.
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Automating mount operations and file system checks is done through bash scripts.
 :::

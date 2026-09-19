@@ -46,7 +46,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [Language Proficiency Tests](./)
-- [Cefr Levels](./cefr-levels)
+- [Cefr Levels](/cefr-levels/)
 
 
 ## Detailed Content

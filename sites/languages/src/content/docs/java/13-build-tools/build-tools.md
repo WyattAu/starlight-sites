@@ -1028,5 +1028,5 @@ linked above.
 ## See Also
 
 - [Build Tools](./)
-- [Java](..)
-- [CLI Tools](../../python/05-standard-library/03-cli-tools)
+- [Java](/)
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)

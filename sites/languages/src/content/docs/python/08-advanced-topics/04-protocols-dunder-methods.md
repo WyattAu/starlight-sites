@@ -897,7 +897,7 @@ linked above.
 
 ## Cross-References
 
-- [Advanced Typing](./01-advanced-typing): Shows how to use protocols to define structural subtyping and type hints for custom classes.
-- [Data Validation](./02-data-validation): Demonstrates how to use dunder methods like **init** and **post_init** for data validation in dataclasses.
-- [Context Managers](./03-context-managers): Explores the **enter** and **exit** dunder methods that define the context manager protocol.
-- [Object-Oriented Programming](../../../../../../alevel/src/content/docs/computer-science/programming/02-object-oriented-programming): Builds on these dunder methods to create more expressive and Pythonic classes.
+- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing/): Shows how to use protocols to define structural subtyping and type hints for custom classes.
+- [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how to use dunder methods like **init** and **post_init** for data validation in dataclasses.
+- [Context Managers](/python/08-advanced-topics/03-context-managers/): Explores the **enter** and **exit** dunder methods that define the context manager protocol.
+- [Object-Oriented Programming](https://alevel.wyattau.com/computer-science/programming/02-object-oriented-programming/): Builds on these dunder methods to create more expressive and Pythonic classes.

@@ -473,8 +473,8 @@ linked above.
 
 ## Cross-References
 
-- **[Error Handling](../08-error-handling):** Try-catch patterns for Future errors and zone error handlers.
-- **[Entry Point](../03-basics/01-entrypoint):** How the event loop initializes from `main()`.
-- **[Variables](../03-basics/02-variables):** Nullable and late variables in asynchronous code.
-- **[Best Practices](../04-best-practices):** Recommended patterns for async/await and isolate usage.
+- **[Error Handling](/dart/08-error-handling/):** Try-catch patterns for Future errors and zone error handlers.
+- **[Entry Point](/dart/03-basics/01-entrypoint/):** How the event loop initializes from `main()`.
+- **[Variables](/dart/03-basics/02-variables/):** Nullable and late variables in asynchronous code.
+- **[Best Practices](/dart/04-best-practices/):** Recommended patterns for async/await and isolate usage.
 :::

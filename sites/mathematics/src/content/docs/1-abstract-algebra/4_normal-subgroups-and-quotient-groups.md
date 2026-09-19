@@ -159,9 +159,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Lagrange's Theorem](3_lagrange-s-theorem)**: Lagrange's theorem constrains the index of a normal subgroup and the order of the quotient group.
-- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems)**: The first isomorphism theorem shows that every quotient group arises from a homomorphism.
-- **[Groups](1_groups)**: The group axioms underpin the construction of normal subgroups and quotient groups.
+- **[Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)**: Lagrange's theorem constrains the index of a normal subgroup and the order of the quotient group.
+- **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: The first isomorphism theorem shows that every quotient group arises from a homomorphism.
+- **[Groups](/1-abstract-algebra/1_groups/)**: The group axioms underpin the construction of normal subgroups and quotient groups.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

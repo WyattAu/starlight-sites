@@ -18,9 +18,9 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Api Security](./api-security)
-- [Owasp Top 10](./owasp-top-10)
-- [Web Security](./web-security)
+- [Api Security](/04-web-security/api-security/)
+- [Owasp Top 10](/04-web-security/owasp-top-10/)
+- [Web Security](/04-web-security/web-security/)
 
 ## Learning Objectives
 

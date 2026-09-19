@@ -1406,5 +1406,5 @@ linked above.
 ## See Also
 
 - [Chemical Bonding](./)
-- [Chemical Bonding (Advanced)](./2_chemical-bonding-advanced)
-- [IB Chemistry](..)
+- [Chemical Bonding (Advanced)](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
+- [IB Chemistry](/)

@@ -37,11 +37,11 @@ course framework and big ideas.
 
 ## Topics
 
-- **[1. Computational Thinking](1-computational-thinking/1_computational-thinking)**
-- **[2. Computing Systems](2-computing-systems/2_computing-systems)**
-- **[3. Algorithms and Programming](3-algorithms-and-programming/3_algorithms-and-programming)**
-- **[4. Data Analysis](4-data-analysis/4_data-analysis)**
-- **[5. Networks and the Internet](5-networks-and-the-internet/5_networks-and-the-internet)**
+- **[1. Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/)**
+- **[2. Computing Systems](/computer-science/2-computing-systems/2_computing-systems/)**
+- **[3. Algorithms and Programming](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/)**
+- **[4. Data Analysis](/computer-science/4-data-analysis/4_data-analysis/)**
+- **[5. Networks and the Internet](/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/)**
 
 ## Topics Covered
 
@@ -146,6 +146,6 @@ The digital world runs on algorithms and data. From search engines to social med
 
 ## Cross-References
 
-- [Computational Thinking](1-computational-thinking/1_computational-thinking)
-- [Data Analysis](../../../../../sat/src/content/docs/mathematics/data-analysis)
-- [Algorithms](../../../../../alevel/src/content/docs/computer-science/algorithms/01-searching-algorithms)
+- [Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/)
+- [Data Analysis](https://sat.wyattau.com/mathematics/data-analysis/)
+- [Algorithms](https://alevel.wyattau.com/computer-science/algorithms/01-searching-algorithms/)

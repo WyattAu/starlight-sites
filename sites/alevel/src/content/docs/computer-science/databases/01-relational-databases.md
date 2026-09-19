@@ -1191,10 +1191,10 @@ linked above.
 
 ## Cross-References
 
-- [Algorithms and Complexity](../algorithms/04-complexity-analysis) -- Query performance depends on algorithmic complexity, connecting database operations to computational efficiency.
-- [Data Structures](../data-structures/04-trees) -- B-trees and hash indexes underpin database indexing, linking data structure choice to query speed.
-- [Programming Constructs](../programming/01-programming-constructs) -- SQL programming constructs like variables and loops parallel general programming concepts.
-- [Number Systems](../fundamentals/01-number-systems) -- Data types and storage formats depend on binary representation and number system conversions.
+- [Algorithms and Complexity](/computer-science/algorithms/04-complexity-analysis/) -- Query performance depends on algorithmic complexity, connecting database operations to computational efficiency.
+- [Data Structures](/computer-science/data-structures/04-trees/) -- B-trees and hash indexes underpin database indexing, linking data structure choice to query speed.
+- [Programming Constructs](/computer-science/programming/01-programming-constructs/) -- SQL programming constructs like variables and loops parallel general programming concepts.
+- [Number Systems](/computer-science/fundamentals/01-number-systems/) -- Data types and storage formats depend on binary representation and number system conversions.
 
 ## Intuition
 

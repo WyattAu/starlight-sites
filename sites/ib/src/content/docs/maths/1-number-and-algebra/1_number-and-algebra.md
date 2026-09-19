@@ -786,5 +786,5 @@ linked above.
 ## See Also
 
 - [Number And Algebra](./)
-- [Proof and Logic](./3_proof-and-logic)
-- [Complex Numbers](./2_complex-numbers)
+- [Proof and Logic](/maths/1-number-and-algebra/3_proof-and-logic/)
+- [Complex Numbers](/maths/1-number-and-algebra/2_complex-numbers/)

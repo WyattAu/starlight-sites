@@ -1063,16 +1063,16 @@ The diathesis-stress model proposes that psychological disorders arise from an i
 
 ## Cross-References
 
-- **[Biology](biology)**, Cell biology, molecular biology, genetics, ecology, and human physiology
-- **[Chemistry](chemistry)**, Stoichiometry, atomic structure, bonding, energetics, and organic chemistry
-- **[Physics](physics)**, Mechanics, waves, electricity, quantum physics, and thermal physics
-- **[Mathematics](maths)**, Number and algebra, functions, calculus, statistics, and geometry
-- **[Economics](economics)**, Microeconomics, macroeconomics, international economics, and development
-- **[Geography](geography)**, Climate change, population, urbanisation, and resources
-- **[History](history)**, Cold War, authoritarian states, and decolonisation
-- **[English](english)**, Literary analysis, rhetoric, and poetry
-- **[Computer Science](computer-science)**, Algorithms, data representation, networks, and OOP
-- **[Psychology](psychology)**, Biological, cognitive, developmental, social, and abnormal psychology
+- **[Biology](/biology/)**, Cell biology, molecular biology, genetics, ecology, and human physiology
+- **[Chemistry](/chemistry/)**, Stoichiometry, atomic structure, bonding, energetics, and organic chemistry
+- **[Physics](/physics/)**, Mechanics, waves, electricity, quantum physics, and thermal physics
+- **[Mathematics](/maths/)**, Number and algebra, functions, calculus, statistics, and geometry
+- **[Economics](/economics/)**, Microeconomics, macroeconomics, international economics, and development
+- **[Geography](/geography/)**, Climate change, population, urbanisation, and resources
+- **[History](/history/)**, Cold War, authoritarian states, and decolonisation
+- **[English](/english/)**, Literary analysis, rhetoric, and poetry
+- **[Computer Science](/computer-science/)**, Algorithms, data representation, networks, and OOP
+- **[Psychology](/psychology/)**, Biological, cognitive, developmental, social, and abnormal psychology
 
 ---
 

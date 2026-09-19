@@ -59,61 +59,61 @@ through to advanced topics.
 
 ## Atomic Structure and Bonding
 
-- **[Atomic Structure and Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)**
+- **[Atomic Structure and Bonding](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)**
   -- Atomic structure, electron configurations, periodic trends, ionic bonding, covalent bonding,
   and intermolecular forces
-- **[Atomic Structure and Periodic Table](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)**
+- **[Atomic Structure and Periodic Table](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)**
   -- Subatomic particles, electron configuration, periodic trends, and group properties
-- **[Atomic Structure](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** --
+- **[Atomic Structure](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)** --
   Subatomic particles, atomic models, electron configuration, isotopes, and mass spectrometry
-- **[Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** -- Ionic bonding,
+- **[Bonding](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)** -- Ionic bonding,
   covalent bonding, metallic bonding, intermolecular forces, and physical property predictions
-- **[Chemical Bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)** -- Ionic
+- **[Chemical Bonding](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)** -- Ionic
   bonding, covalent bonding, giant covalent structures, metallic bonding, and intermolecular forces
 
 ## Stoichiometry and the Mole
 
-- **[Mole Concept and Stoichiometry](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
+- **[Mole Concept and Stoichiometry](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
   Relative atomic/molecular masses, the mole, Avogadro"s number, molar volume, empirical and
   molecular formulae, and volumetric analysis
-- **[Stoichiometry and Mole Concept](./2-stoichiometry/1_mole-concept-and-stoichiometry)** --
+- **[Stoichiometry and Mole Concept](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)** --
   Relative atomic mass, molar calculations, empirical formulae, concentration, and limiting reagents
 
 ## Energetics and Kinetics
 
-- **[Energetics](./3-chemical-kinetics-and-energetics/2_energetics)** -- Enthalpy changes, Hess's
+- **[Energetics](/chemistry/3-chemical-kinetics-and-energetics/2_energetics/)** -- Enthalpy changes, Hess's
   Law, bond enthalpies, calorimetry, entropy, and Gibbs free energy
-- **[Rate of Reaction and Energetics](./3-chemical-kinetics-and-energetics/1_chemical-kinetics)** --
+- **[Rate of Reaction and Energetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)** --
   Collision theory, factors affecting rate, enthalpy changes, and calorimetry
-- **[Chemical Kinetics](./3-chemical-kinetics-and-energetics/1_chemical-kinetics)** -- Rate
+- **[Chemical Kinetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)** -- Rate
   equations, order of reaction, activation energy, Maxwell-Boltzmann distribution, and the Arrhenius
   equation
 
 ## Equilibrium
 
-- **[Chemical Equilibrium](./4-equilibrium/1_chemical-equilibrium)** -- Dynamic equilibrium, Le
+- **[Chemical Equilibrium](/chemistry/4-equilibrium/1_chemical-equilibrium/)** -- Dynamic equilibrium, Le
   Chatelier's principle, equilibrium constant Kc, and equilibrium calculations
 
 ## Acids, Bases, and Electrochemistry
 
-- **[Acids, Bases, and Electrochemistry](./5-acids-bases/1_acids-bases-and-electrochemistry)** --
+- **[Acids, Bases, and Electrochemistry](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)** --
   Acid-base theories, pH calculations, salt preparation, redox reactions, electrolysis, and
   electrochemical cells
-- **[Acids, Bases, and Salts](./5-acids-bases/1_acids-bases-and-electrochemistry)** -- Properties,
+- **[Acids, Bases, and Salts](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)** -- Properties,
   pH scale, neutralisation reactions, salt preparation methods, and titration
-- **[Redox and Electrochemistry](./6-redox-and-electrochemistry/1_redox-and-electrochemistry)** --
+- **[Redox and Electrochemistry](/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/)** --
   Oxidation-reduction reactions, electrolysis, electrochemical cells, and industrial applications
 
 ## Organic Chemistry
 
-- **[Organic Chemistry](./7-organic-chemistry/1_organic-chemistry)** -- Hydrocarbons, functional
+- **[Organic Chemistry](/chemistry/7-organic-chemistry/1_organic-chemistry/)** -- Hydrocarbons, functional
   groups, reaction mechanisms, polymers, and organic synthesis
-- **[Carbon Chemistry](./7-organic-chemistry/2_carbon-chemistry)** -- Hydrocarbons, alkanes,
+- **[Carbon Chemistry](/chemistry/7-organic-chemistry/2_carbon-chemistry/)** -- Hydrocarbons, alkanes,
   alkenes, alcohols, carboxylic acids, polymers, and macromolecules
 
 ## Syllabus Overview
 
-- **[DSE Chemistry Overview](./dse-chemistry)** -- Full syllabus overview with topic coverage
+- **[DSE Chemistry Overview](/chemistry/dse-chemistry/)** -- Full syllabus overview with topic coverage
   checklist
 
 ## Related Content
@@ -166,6 +166,6 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- [Biology](../../../../../gcse/src/content/docs/biology)
-- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
-- [Economics](../../../../../alevel/src/content/docs/economics/economics)
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
+- [Economics](https://alevel.wyattau.com/economics/economics/)

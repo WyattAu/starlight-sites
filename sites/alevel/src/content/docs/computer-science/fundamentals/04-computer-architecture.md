@@ -667,5 +667,5 @@ linked above.
 ## See Also
 
 - [Fundamentals](./)
-- [Number Systems](./01-number-systems)
-- [Floating Point Representation](./02-floating-point)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)

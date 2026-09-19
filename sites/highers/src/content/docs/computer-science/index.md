@@ -36,31 +36,31 @@ design skills.
 
 Processor architecture, memory, input/output, operating systems, and system performance.
 
-→ **[Full notes](../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware)**
+→ **[Full notes](https://leaving-cert.wyattau.com/computer-science/1-hardware/1_hardware/)**
 
 ### Software Design & Development
 
 Programming constructs, software development lifecycle, testing, and modular design.
 
-→ **[Full notes](2-software/2_software)**
+→ **[Full notes](/computer-science/2-software/2_software/)**
 
 ### Database Design & Development
 
 Relational databases, SQL, normalisation, entity-relationship modelling, and data integrity.
 
-→ **[Full notes](../../../../../leaving-cert/src/content/docs/computer-science/3-databases/3_databases)**
+→ **[Full notes](https://leaving-cert.wyattau.com/computer-science/3-databases/3_databases/)**
 
 ### Algorithms & Data Structures
 
 Searching, sorting, complexity analysis, abstract data types, and algorithm design.
 
-→ **[Full notes](4-algorithms/4_algorithms)**
+→ **[Full notes](/computer-science/4-algorithms/4_algorithms/)**
 
 ### Web Design & Development
 
 HTML, CSS, JavaScript, web architecture, HTTP, and client-server model.
 
-→ **[Full notes](5-networks/5_networks)**
+→ **[Full notes](/computer-science/5-networks/5_networks/)**
 
 ## Study Tips
 

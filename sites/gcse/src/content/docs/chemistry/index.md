@@ -60,11 +60,11 @@ mapped to the national curriculum and organised by topic for easy navigation.
 
 ## Topics
 
-- **[1. Atomic Structure](1-atomic-structure/1_atomic-structure)**
-- **[2. Bonding](2-bonding/2_bonding)**
-- **[3. Quantitative Chemistry](3-quantitative-chemistry/3_quantitative-chemistry)**
-- **[4. Chemical Changes](4-chemical-changes/4_chemical-changes)**
-- **[8. Organic Chemistry](8-organic-chemistry/8_organic-chemistry)**
+- **[1. Atomic Structure](/chemistry/1-atomic-structure/1_atomic-structure/)**
+- **[2. Bonding](/chemistry/2-bonding/2_bonding/)**
+- **[3. Quantitative Chemistry](/chemistry/3-quantitative-chemistry/3_quantitative-chemistry/)**
+- **[4. Chemical Changes](/chemistry/4-chemical-changes/4_chemical-changes/)**
+- **[8. Organic Chemistry](/chemistry/8-organic-chemistry/8_organic-chemistry/)**
 
 ## Topics Covered
 
@@ -169,6 +169,6 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 ## Cross-References
 
 - [Chemistry](chemistry)
-- [2 Bonding](2-bonding/2_bonding)
+- [2 Bonding](/chemistry/2-bonding/2_bonding/)
 - [Biology](biology)
 - [2 Organisation](biology/2-organisation/2_organisation)

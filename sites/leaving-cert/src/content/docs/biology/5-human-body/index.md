@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [5_human Body](./5_human-body)
+- [5_human Body](/biology/5-human-body/5_human-body/)
 
 ## Learning Objectives
 

@@ -50,17 +50,17 @@ sources:
 
 ## Contents
 
-1. [Introduction and Classification](1_introduction-and-classification)
-2. [First-Order ODEs](2_first-order-odes)
-3. [Second-Order Linear ODEs](3_second-order-linear-odes)
-4. [Systems of ODEs](4_systems-of-odes)
-5. [Laplace Transforms](5_laplace-transforms)
-6. [Series Solutions](6_series-solutions)
-7. [Fourier Series](7_fourier-series)
-8. [Introduction to Partial Differential Equations](8_introduction-to-partial-differential-equations)
-9. [Stability and Phase Plane Analysis](9_stability-and-phase-plane-analysis)
-10. [Common Pitfalls](10_common-pitfalls)
-11. [Problem Set](11_problem-set)
+1. [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+2. [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+3. [Second-Order Linear ODEs](/5-ordinary-differential-equations/3_second-order-linear-odes/)
+4. [Systems of ODEs](/5-ordinary-differential-equations/4_systems-of-odes/)
+5. [Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/)
+6. [Series Solutions](/5-ordinary-differential-equations/6_series-solutions/)
+7. [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+8. [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)
+9. [Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)
+10. [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+11. [Problem Set](/5-ordinary-differential-equations/11_problem-set/)
 
 ## Overview
 

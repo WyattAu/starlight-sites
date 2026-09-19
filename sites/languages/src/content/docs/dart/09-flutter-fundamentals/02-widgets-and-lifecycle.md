@@ -953,5 +953,5 @@ linked above.
 ## See Also
 
 - [Flutter Fundamentals](./)
-- [Navigation](./01-navigation)
-- [Dart](..)
+- [Navigation](/dart/09-flutter-fundamentals/01-navigation/)
+- [Dart](/)

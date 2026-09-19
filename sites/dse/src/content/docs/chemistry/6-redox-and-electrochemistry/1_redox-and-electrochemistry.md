@@ -886,5 +886,5 @@ $$
 ## See Also
 
 - [Redox And Electrochemistry](./)
-- [DSE Chemistry](..)
-- [Chemistry - Acids, Bases, and Electrochemistry](../5-acids-bases/1_acids-bases-and-electrochemistry)
+- [DSE Chemistry](/)
+- [Chemistry - Acids, Bases, and Electrochemistry](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)

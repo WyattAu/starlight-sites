@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_money And Banking](./1_money-and-banking)
+- [1_money And Banking](/economics/8-money-and-banking/1_money-and-banking/)
 
 ## Learning Objectives
 

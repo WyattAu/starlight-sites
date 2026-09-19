@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_basics And Pattern Matching](./1_basics-and-pattern-matching)
+- [1_basics And Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching/)
 
 ## Learning Objectives
 

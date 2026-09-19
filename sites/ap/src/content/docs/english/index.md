@@ -162,7 +162,7 @@ The AP English Language exam consists of two sections:
 
 ## Cross-References
 
-- [Rhetorical Analysis](1-rhetorical-analysis/1_rhetorical-analysis): Develops the analytical skills needed to examine how authors use language to achieve their purposes.
-- [Argument Essay](2-argument/2_argument): Builds on close reading and analysis skills to construct persuasive arguments with evidence.
-- [Synthesis Essay](../../../../../chemistry/src/content/docs/2-organic-chemistry/synthesis): Integrates multiple sources into a coherent argument, requiring strong reading and writing skills.
-- [Close Reading](4-close-reading/4_close-reading): Strengthens your ability to analyze texts carefully, which is foundational for all AP English essay types.
+- [Rhetorical Analysis](/english/1-rhetorical-analysis/1_rhetorical-analysis/): Develops the analytical skills needed to examine how authors use language to achieve their purposes.
+- [Argument Essay](/english/2-argument/2_argument/): Builds on close reading and analysis skills to construct persuasive arguments with evidence.
+- [Synthesis Essay](https://chemistry.wyattau.com/2-organic-chemistry/synthesis/): Integrates multiple sources into a coherent argument, requiring strong reading and writing skills.
+- [Close Reading](/english/4-close-reading/4_close-reading/): Strengthens your ability to analyze texts carefully, which is foundational for all AP English essay types.

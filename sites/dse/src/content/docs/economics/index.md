@@ -59,28 +59,28 @@ curriculum structure.
 
 ## Microeconomics
 
-- **[Basic Economic Concepts](./1-basic-economic-concepts/1_basic-economic-concepts)** -- Scarcity,
+- **[Basic Economic Concepts](/economics/1-basic-economic-concepts/1_basic-economic-concepts/)** -- Scarcity,
   opportunity cost, production possibility frontier, specialisation, division of labour, and
   economic systems
-- **[Demand, Supply, and Markets](./2-demand-supply-markets/1_demand-supply-and-markets)** -- Demand
+- **[Demand, Supply, and Markets](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)** -- Demand
   and supply analysis, market equilibrium, elasticity, government intervention, and market failure
-- **[Market Failure and Government Intervention](./4-market-failure/1_market-failure-and-government-intervention)**
+- **[Market Failure and Government Intervention](/economics/4-market-failure/1_market-failure-and-government-intervention/)**
   -- Externalities, public goods, information asymmetry, taxation, and regulation
-- **[Market Structure and Theory of the Firm](./3-market-structure/1_market-structure)** -- Perfect
+- **[Market Structure and Theory of the Firm](/economics/3-market-structure/1_market-structure/)** -- Perfect
   competition, monopoly, oligopoly, monopolistic competition, and profit maximisation
 
 ## Macroeconomics
 
-- **[National Income and Macroeconomic Indicators](./5-macroeconomic-indicators/1_national-income)**
+- **[National Income and Macroeconomic Indicators](/economics/5-macroeconomic-indicators/1_national-income/)**
   -- GDP measurement, inflation, unemployment, economic growth, and living standards
-- **[Fiscal and Monetary Policy](./6-government-policy/1_fiscal-and-monetary-policy)** -- Government
+- **[Fiscal and Monetary Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)** -- Government
   spending, taxation, money supply, interest rates, inflation, and unemployment
-- **[Money and Banking](./8-money-and-banking/1_money-and-banking)** -- Functions of money, banking
+- **[Money and Banking](/economics/8-money-and-banking/1_money-and-banking/)** -- Functions of money, banking
   system, money creation, central bank roles, and monetary policy transmission
 
 ## International Economics
 
-- **[International Trade and Finance](./7-international-trade/1_international-trade-and-finance)**
+- **[International Trade and Finance](/economics/7-international-trade/1_international-trade-and-finance/)**
   -- Comparative advantage, trade policies, balance of payments, exchange rates, and trading blocs
 
 ## Related Content
@@ -173,6 +173,6 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- [Biology](../../../../../gcse/src/content/docs/biology)
-- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
-- [Economics](../../../../../alevel/src/content/docs/economics/economics)
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
+- [Economics](https://alevel.wyattau.com/economics/economics/)

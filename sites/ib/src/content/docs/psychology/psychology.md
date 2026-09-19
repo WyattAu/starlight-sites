@@ -122,13 +122,13 @@ across different areas of the course.
 
 The following pages are available:
 
-- [Biological Level of Analysis](./biological/)
+- [Biological Level of Analysis](/psychology/biological/)
 - [Cognitive Level of Analysis](./cognitive/)
-- [Sociocultural Level of Analysis](./sociocultural/)
+- [Sociocultural Level of Analysis](/psychology/sociocultural/)
 - [Abnormal Psychology](./abnormal/)
 - [Developmental Psychology](./developmental/)
-- [Research Methods](./research-methods)
-- [Qualitative Research (HL)](./qualitative-research)
+- [Research Methods](/psychology/research-methods/)
+- [Qualitative Research (HL)](/psychology/qualitative-research/)
 
 ## Common Pitfalls
 
@@ -170,6 +170,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](research-methods)
-- [Approaches in Psychology](approaches)
-- [Biopsychology](../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

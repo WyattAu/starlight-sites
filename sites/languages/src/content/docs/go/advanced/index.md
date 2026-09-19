@@ -18,12 +18,12 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Architecture](./architecture)
-- [Modules And Packages](./modules-and-packages)
-- [Networking](./networking)
-- [Pointers And Memory](./pointers-and-memory)
-- [Reflection](./reflection)
-- [Testing](./testing)
+- [Architecture](/go/advanced/architecture/)
+- [Modules And Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers And Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)
 
 ## Learning Objectives
 

@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [4_heat](./4_heat)
+- [4_heat](/physics/4-heat/4_heat/)
 
 ## Learning Objectives
 

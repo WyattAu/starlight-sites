@@ -79,11 +79,11 @@ The Highway Code is the foundation of the UK theory test. It sets out the rules,
 
 ### Topic Notes
 
-- [Highway Code Overview](highway-code), structure, editions, and what the test covers
+- [Highway Code Overview](/highway-code/), structure, editions, and what the test covers
 - [Rules for All Drivers](highway-code/all-drivers), rules 1–154 covering general driving conduct
 - [Alertness and Attitude](highway-code/alertness), awareness, concentration, and road rage prevention
 - [Safety Margins](highway-code/safety-margins), stopping distances, following distances, and space management
-- [Control](../../../../programming/src/content/docs/object_oriented/1_class_design/2_access_control), steering, braking, accelerating, and gear use
+- [Control](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/), steering, braking, accelerating, and gear use
 
 ### Practice and Review
 
@@ -103,12 +103,12 @@ The UK uses a comprehensive system of road signs governed by the Traffic Signs R
 
 ### Topic Notes
 
-- [Road Signs Overview](road-signs), categories, classification, and legal status
+- [Road Signs Overview](/road-signs/), categories, classification, and legal status
 - [Warning Signs](road-signs/warning), triangular signs alerting you to hazards ahead
 - [Regulatory Signs](road-signs/regulatory), circular signs giving orders (speed limits, no entry, etc.)
-- [Information Signs](../../../../physics/src/content/docs/2-thermal-physics/20_thermodynamics-of-information-processing), rectangular signs providing directions and guidance
+- [Information Signs](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/), rectangular signs providing directions and guidance
 - [Road Markings](road-signs/markings), centre lines, hatched areas, bus lanes, and cycle lanes
-- [Temporary Signs](../../../../alevel/src/content/docs/geography/2-human-geography/3_contemporary-urban-environments), roadworks, diversions, and contraflow systems
+- [Temporary Signs](https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments/), roadworks, diversions, and contraflow systems
 
 ### Practice and Review
 
@@ -128,9 +128,9 @@ Beyond the Highway Code, the theory test covers specific traffic regulations inc
 ### Topic Notes
 
 - [Speed Limits](rules/speed-limits), urban, rural, and motorway limits for different vehicle types
-- [Overtaking](overtaking), when you may and may not overtake, including on dual carriageways
+- [Overtaking](/overtaking/), when you may and may not overtake, including on dual carriageways
 - [Right of Way](rules/right-of-way), roundabouts, junctions, pedestrian crossings, and emergency vehicles
-- [Parking Rules](parking), legal and illegal parking, controlled zones, and penalty charges
+- [Parking Rules](/parking/), legal and illegal parking, controlled zones, and penalty charges
 - [Motorway Rules](rules/motorways), lane discipline, hard shoulder use, and smart motorway regulations
 - [Rural Roads](rules/rural-roads), single-track roads, passing places, and farm vehicles
 
@@ -152,7 +152,7 @@ The theory test includes questions about vehicle safety, the MOT, insurance requ
 ### Topic Notes
 
 - [Vehicle Checks](vehicle-safety/checks), daily checks: tyres, lights, mirrors, and fluid levels
-- [MOT and Insurance](../../../../alevel/src/content/docs/computer-science/fundamentals/06-legal-ethical-moral), legal requirements, certificate validity, and penalty for non-compliance
+- [MOT and Insurance](https://alevel.wyattau.com/computer-science/fundamentals/06-legal-ethical-moral/), legal requirements, certificate validity, and penalty for non-compliance
 - [Tyres and Tread](vehicle-safety/tyres), legal tread depth, pressure, and condition
 - [Lights and Signals](vehicle-safety/lights), using lights correctly in different conditions
 - [Emergency Procedures](vehicle-safety/emergency), breakdowns, accidents, and what to carry in the car
@@ -174,15 +174,15 @@ The hazard perception test is the second part of the theory exam. It shows you 1
 
 ### Topic Notes
 
-- [Hazard Perception Overview](theory-test/hazard-perception), test format, scoring, and the developing hazard concept
+- [Hazard Perception Overview](/theory-test/hazard-perception/), test format, scoring, and the developing hazard concept
 - [Scoring System](hazard-perception/scoring), up to 5 points per hazard, the earlier you click, the higher the score
-- [Common Hazards](../../../../mathematics/src/content/docs/1-abstract-algebra/17_common-pitfalls), pedestrians, cyclists, junctions, parked cars, and roadworks
-- [Practice Clips](../../../../admissions/src/content/docs/practice-admissions), sample video clips with timed responses
+- [Common Hazards](https://mathematics.wyattau.com/1-abstract-algebra/17_common-pitfalls/), pedestrians, cyclists, junctions, parked cars, and roadworks
+- [Practice Clips](https://admissions.wyattau.com/practice-admissions/), sample video clips with timed responses
 
 ### Practice and Review
 
 - [Hazard Perception Practice](hazard-perception/mock), simulated clips to build your observational speed
-- [Flashcards: Hazard Types](theory-test/hazard-perception)
+- [Flashcards: Hazard Types](/theory-test/hazard-perception/)
 
 ### Key Test Focus
 

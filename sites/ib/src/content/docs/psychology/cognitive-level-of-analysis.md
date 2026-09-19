@@ -36,11 +36,11 @@ translating biological inputs into behaviour that is further shaped by social co
 
 ## Contents
 
-- [Memory Models](./cognitive/memory-models) -- the multi-store model, working memory model,
+- [Memory Models](/psychology/cognitive/memory-models/) -- the multi-store model, working memory model,
   reconstructive memory, schema theory, and key supporting studies.
-- [Thinking and Decision Making](./cognitive/thinking-and-decision-making) -- heuristics, biases,
+- [Thinking and Decision Making](/psychology/cognitive/thinking-and-decision-making/) -- heuristics, biases,
   intuitive and analytical thinking, and the rationality debate.
-- [Language and Thought](./cognitive/language-and-thought) -- the Sapir-Whorf hypothesis,
+- [Language and Thought](/psychology/cognitive/language-and-thought/) -- the Sapir-Whorf hypothesis,
   bilingualism, and the relationship between language and cognition.
 
 ## Key Concepts
@@ -195,6 +195,6 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](research-methods)
-- [Approaches in Psychology](approaches)
-- [Biopsychology](../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

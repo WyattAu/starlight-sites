@@ -36,31 +36,31 @@ and mathematical content.
 
 Chemical bonding, intermolecular forces, reaction rates, equilibrium, and enthalpy changes.
 
-→ **[Full notes](1-structure-bonding/1_structure-bonding)**
+→ **[Full notes](/chemistry/1-structure-bonding/1_structure-bonding/)**
 
 ### Energy & Matter
 
 Energy changes in reactions, Hess"s law, bond enthalpies, and properties of matter.
 
-→ **[Full notes](2-heat-matter/2_heat-matter)**
+→ **[Full notes](/chemistry/2-heat-matter/2_heat-matter/)**
 
 ### Acids & Bases
 
 pH calculations, strong and weak acids, buffers, neutralisation, and titration analysis.
 
-→ **[Full notes](3-acids-bases/3_acids-bases)**
+→ **[Full notes](/chemistry/3-acids-bases/3_acids-bases/)**
 
 ### Organic Chemistry
 
 Hydrocarbons, functional groups, reaction mechanisms, isomerism, and organic synthesis.
 
-→ **[Full notes](4-organic/4_organic)**
+→ **[Full notes](/chemistry/4-organic/4_organic/)**
 
 ### Analytical Chemistry
 
 Chromatography, spectroscopy, volumetric analysis, and instrumental methods.
 
-→ **[Full notes](5-analytical/5_analytical)**
+→ **[Full notes](/chemistry/5-analytical/5_analytical/)**
 
 ## Study Tips
 
@@ -196,7 +196,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 
 ## Cross-References
 
-- [1 Structure Bonding](1-structure-bonding/1_structure-bonding)
-- [2 Heat Matter](2-heat-matter/2_heat-matter)
-- [1 Cell Biology](biology/1-cell-biology/1_cell-biology)
-- [2 Metabolism](biology/2-metabolism/2_metabolism)
+- [1 Structure Bonding](/chemistry/1-structure-bonding/1_structure-bonding/)
+- [2 Heat Matter](/chemistry/2-heat-matter/2_heat-matter/)
+- [1 Cell Biology](/biology/1-cell-biology/1_cell-biology/)
+- [2 Metabolism](/biology/2-metabolism/2_metabolism/)

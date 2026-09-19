@@ -1398,5 +1398,5 @@ linked above.
 ## See Also
 
 - [Best Practices](./)
-- [Java](..)
-- [Types and Variables](../02-fundamentals/01-types-and-variables)
+- [Java](/)
+- [Types and Variables](/02-fundamentals/01-types-and-variables/)

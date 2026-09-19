@@ -371,5 +371,5 @@ linked above.
 ## See Also
 
 - [Basics](./)
-- [Classes and Objects](./classes-and-objects)
-- [Control Flow](./control-flow)
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)

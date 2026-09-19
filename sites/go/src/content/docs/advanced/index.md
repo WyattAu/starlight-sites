@@ -18,12 +18,12 @@ This section provides study materials and resources for advanced. Browse the top
 
 ## Topics
 
-- [Architecture](./architecture)
-- [Modules And Packages](./modules-and-packages)
-- [Networking](./networking)
-- [Pointers And Memory](./pointers-and-memory)
-- [Reflection](./reflection)
-- [Testing](./testing)
+- [Architecture](/advanced/architecture/)
+- [Modules And Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers And Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)
 
 ## Learning Objectives
 

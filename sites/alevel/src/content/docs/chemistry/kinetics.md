@@ -1113,8 +1113,8 @@ linked above.
 ## Cross-References
 
 - [Chemistry](../chemistry)
-- [Atomic Structure](atomic-structure)
-- [Organic Chemistry](organic-chemistry)
+- [Atomic Structure](/chemistry/atomic-structure/)
+- [Organic Chemistry](/chemistry/organic-chemistry/)
 
 ## Intuition
 

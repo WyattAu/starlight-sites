@@ -165,7 +165,7 @@ main = do
 
 ## Related Terms
 
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Rust Glossary](glossary) for language comparison
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [Mathematics Glossary](glossary) for mathematical foundations
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Rust Glossary](/glossary/) for language comparison
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Mathematics Glossary](/glossary/) for mathematical foundations

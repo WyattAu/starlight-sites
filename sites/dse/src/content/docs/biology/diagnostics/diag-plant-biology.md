@@ -472,5 +472,5 @@ xylem sap as amino acids.
 ## See Also
 
 - [Diagnostics](./)
-- [Cell Biology and Biochemistry -- Diagnostic Tests](./diag-cell-biology-biochemistry)
-- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
+- [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)

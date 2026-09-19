@@ -131,7 +131,7 @@ Myrtle Wilson's attempt to cross class boundaries through her affair with Tom en
 ## See Also
 
 - [Great Gatsby](./)
-- [A-Level English](..)
+- [A-Level English](/)
 
 
 ## Advanced Content

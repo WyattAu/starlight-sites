@@ -909,6 +909,6 @@ Protocols are Python's structural subtyping system: if an object has the right m
 
 ## Cross-References
 
-- [Classes](../../../../../java/src/content/docs/03-object-oriented/01-classes)
-- [Descriptors](../../../../../languages/src/content/docs/python/04-object-oriented/03-descriptors)
-- [Advanced Typing](../../../../../languages/src/content/docs/python/08-advanced-topics/01-advanced-typing)
+- [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
+- [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
+- [Advanced Typing](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/)

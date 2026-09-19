@@ -246,6 +246,6 @@ linked above.
 
 ## Cross-References
 
-- **[Markdown Constructs](../markdown-constructs):** Reference guide for Markdown syntax used in these example pages.
-- **[Testing: Markdown Constructs](../testing/markdown-constructs):** Interactive testing of Markdown constructs and formatting.
-- **[Practice Algorithms](../../practice-algorithms):** Practice problems for algorithmic thinking and problem-solving.
+- **[Markdown Constructs](/general/markdown-constructs/):** Reference guide for Markdown syntax used in these example pages.
+- **[Testing: Markdown Constructs](/general/testing/markdown-constructs/):** Interactive testing of Markdown constructs and formatting.
+- **[Practice Algorithms](/practice-algorithms/):** Practice problems for algorithmic thinking and problem-solving.

@@ -246,9 +246,9 @@ As a complement to, not a substitute for, emission reduction.
 
 </details>
 
-For related topics, see [./atmospheric-systems](./atmospheric-systems) and
-[./climate-adaptation-and-mitigation](./climate-adaptation-and-mitigation). The parent topic page is
-At [../climate-change](../climate-change).
+For related topics, see [./atmospheric-systems](/geography/climate/atmospheric-systems/) and
+[./climate-adaptation-and-mitigation](/geography/climate/climate-adaptation-and-mitigation/). The parent topic page is
+At [../climate-change](/geography/climate-change/).
 
 ## Common Pitfalls
 

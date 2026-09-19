@@ -594,6 +594,6 @@ Go project architecture is about organizing code so it stays maintainable as it 
 
 ## Cross-References
 
-- [Modules and Packages](modules-and-packages) -- dependency management and versioning
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- first-class functions and closures
-- [Goroutines and Synchronization](../concurrency/goroutines) -- lightweight concurrency primitives
+- [Modules and Packages](/advanced/modules-and-packages/) -- dependency management and versioning
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions and closures
+- [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight concurrency primitives

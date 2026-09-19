@@ -812,8 +812,8 @@ linked above.
 
 ## Cross-References
 
-- [I/O Redirection](io-redirection) -- Processes communicate through file descriptors; redirection and pipes connect process I/O.
-- [Cron and Scheduling](cron-and-scheduling) -- Cron creates child processes at scheduled times; understanding process lifecycle helps with job control.
-- [Shell Basics](../01-cli-fundamentals/shell-basics) -- The shell is a process that creates and manages child processes.
-- [File Permissions](../02-file-systems/file-permissions) -- Process credentials determine which file permissions apply during execution.
+- [I/O Redirection](/03-process-management/io-redirection/) -- Processes communicate through file descriptors; redirection and pipes connect process I/O.
+- [Cron and Scheduling](/03-process-management/cron-and-scheduling/) -- Cron creates child processes at scheduled times; understanding process lifecycle helps with job control.
+- [Shell Basics](/01-cli-fundamentals/shell-basics/) -- The shell is a process that creates and manages child processes.
+- [File Permissions](/02-file-systems/file-permissions/) -- Process credentials determine which file permissions apply during execution.
 :::

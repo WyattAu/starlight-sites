@@ -221,5 +221,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Electricity -- Diagnostic Tests](./diag-electricity)
-- [Energy -- Diagnostic Tests](./diag-energy)
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)

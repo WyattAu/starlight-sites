@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [5_modern Physics](./5_modern-physics)
+- [5_modern Physics](/physics/5-modern-physics/5_modern-physics/)
 
 ## Learning Objectives
 

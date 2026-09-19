@@ -361,7 +361,7 @@ Shared concerns: the violence of honour codes, the commodification of women, and
 The individual by social forces.
 
 For a full dedicated comparative guide, see
-[chronicle-streetcar](comparitives/chronicle-streetcar).
+[chronicle-streetcar](/english/comparitives/chronicle-streetcar/).
 
 ### Honour and Reputation vs Individual Desire
 
@@ -698,7 +698,7 @@ Collective mechanisms of honour, religion, and institutional authority in Santia
 | 4         | The narrator's unreliability as mirror of collective guilt | The narrator's friendship with Santiago biases his account                 |
 
 For further guidance on Paper 2 structure and assessment criteria, see
-[ib-english-assessment-and-techniques](./ib-english-assessment-and-techniques).
+[ib-english-assessment-and-techniques](/english/ib-english-assessment-and-techniques/).
 
 ---
 
@@ -857,7 +857,7 @@ Expectations."**
 
 :::tip
 Essay in 55 minutes. For HL, aim for 100 minutes to allow for integration of a third text. See
-[ib-english-assessment-and-techniques](./ib-english-assessment-and-techniques) for detailed time
+[ib-english-assessment-and-techniques](/english/ib-english-assessment-and-techniques/) for detailed time
 Management strategies.
 :::
 
@@ -902,6 +902,6 @@ linked above.
 
 ## Cross-References
 
-- **[Poetry Analysis](../english/poetry-analysis-guide):** Literary analysis develops through study
-- **[Comparative Analysis](../english/comparitives/chronicle-streetcar):** Comparing texts builds analytical skills
-- **[Flashcards](../english/flashcards-poetry):** Literary terms support analysis
+- **[Poetry Analysis](/english/poetry-analysis-guide/):** Literary analysis develops through study
+- **[Comparative Analysis](/english/comparitives/chronicle-streetcar/):** Comparing texts builds analytical skills
+- **[Flashcards](/english/flashcards-poetry/):** Literary terms support analysis

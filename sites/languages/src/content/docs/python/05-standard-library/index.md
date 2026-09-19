@@ -18,11 +18,11 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Essential Modules](./01-essential-modules)
-- [File Io](./02-file-io)
-- [Cli Tools](./03-cli-tools)
-- [Serialization](./04-serialization)
-- [Concurrency Primitives](./05-concurrency-primitives)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File Io](/python/05-standard-library/02-file-io/)
+- [Cli Tools](/python/05-standard-library/03-cli-tools/)
+- [Serialization](/python/05-standard-library/04-serialization/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
 
 ## Learning Objectives
 

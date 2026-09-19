@@ -18,9 +18,9 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Measuring Development](./1-measuring-development)
-- [Barriers To Growth](./2-barriers-to-growth)
-- [Trade And Aid](./3-trade-and-aid)
+- [Measuring Development](/economics/4-development-economics/1-measuring-development/)
+- [Barriers To Growth](/economics/4-development-economics/2-barriers-to-growth/)
+- [Trade And Aid](/economics/4-development-economics/3-trade-and-aid/)
 
 ## Learning Objectives
 

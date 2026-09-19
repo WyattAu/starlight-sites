@@ -18,15 +18,15 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Intro](./01-intro)
-- [Best Practices](./04-best-practices)
-- [Error Handling](./08-error-handling)
-- [Ffi And Advanced](./09-ffi-and-advanced)
-- [Dependency Injection](./12-dependency-injection)
-- [Code Generation](./13-code-generation)
-- [Flashcards Dart Basics](./flashcards-dart-basics)
-- [Practice Dart Basics](./practice-dart-basics)
-- [Testing](./testing)
+- [Intro](/dart/01-intro/)
+- [Best Practices](/dart/04-best-practices/)
+- [Error Handling](/dart/08-error-handling/)
+- [Ffi And Advanced](/dart/09-ffi-and-advanced/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Code Generation](/dart/13-code-generation/)
+- [Flashcards Dart Basics](/dart/flashcards-dart-basics/)
+- [Practice Dart Basics](/dart/practice-dart-basics/)
+- [Testing](/dart/testing/)
 
 ## Learning Objectives
 

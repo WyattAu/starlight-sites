@@ -221,5 +221,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Capacitance -- Diagnostic Tests](./diag-capacitance)
-- [Circular Motion -- Diagnostic Tests](./diag-circular-motion)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)

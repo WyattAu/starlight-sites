@@ -228,9 +228,9 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 
 ## Cross-References
 
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: Basic Hamiltonian mechanics provides the foundation for understanding canonical transformations and action-angle variables.
-- **[Lagrangian Mechanics](3_lagrangian-mechanics)**: The Lagrangian formulation provides the basis for deriving the Hamiltonian and understanding variational principles.
-- **[Quantum Mechanics](../5-quantum-mechanics/2_postulates-of-quantum-mechanics)**: The Hamiltonian becomes an operator in quantum mechanics, and the correspondence principle connects classical and quantum descriptions.
+- **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: Basic Hamiltonian mechanics provides the foundation for understanding canonical transformations and action-angle variables.
+- **[Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)**: The Lagrangian formulation provides the basis for deriving the Hamiltonian and understanding variational principles.
+- **[Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)**: The Hamiltonian becomes an operator in quantum mechanics, and the correspondence principle connects classical and quantum descriptions.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

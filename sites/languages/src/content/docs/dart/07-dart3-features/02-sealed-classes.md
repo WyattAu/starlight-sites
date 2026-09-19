@@ -1131,5 +1131,5 @@ linked above.
 ## See Also
 
 - [Dart3 Features](./)
-- [Pattern Matching](./01-pattern-matching)
-- [Class Modifiers](./03-class-modifiers)
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+- [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)

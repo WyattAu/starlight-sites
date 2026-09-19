@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [GCSE](./)
-- [GCSE Biology Study Guide](./biology)
-- [GCSE Chemistry Study Guide](./chemistry)
+- [GCSE Biology Study Guide](/biology/)
+- [GCSE Chemistry Study Guide](/chemistry/)
 
 
 ## Detailed Content

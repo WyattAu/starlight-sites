@@ -34,9 +34,9 @@ Taxation), **monetary policy** (money supply and interest rates), and **supply-s
 (improving the productive capacity of the economy).
 
 This file assumes familiarity with the monetary policy tools covered in
-[../8-money-and-banking/1_money-and-banking](../8-money-and-banking/1_money-and-banking) and the
+[../8-money-and-banking/1_money-and-banking](/economics/8-money-and-banking/1_money-and-banking/) and the
 national income concepts covered in
-[../5-macroeconomic-indicators/1_national-income](../5-macroeconomic-indicators/1_national-income).
+[../5-macroeconomic-indicators/1_national-income](/economics/5-macroeconomic-indicators/1_national-income/).
 
 ---
 
@@ -340,7 +340,7 @@ Drives productivity improvements).
 Monetary policy is the central bank's use of interest rates, money supply, and other tools to
 Influence aggregate demand, inflation, and economic growth. For a detailed discussion of monetary
 Policy tools, see
-[../8-money-and-banking/1_money-and-banking](../8-money-and-banking/1_money-and-banking).
+[../8-money-and-banking/1_money-and-banking](/economics/8-money-and-banking/1_money-and-banking/).
 
 ### Expansionary Monetary Policy
 

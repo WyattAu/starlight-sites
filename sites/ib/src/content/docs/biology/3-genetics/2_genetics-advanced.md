@@ -886,15 +886,15 @@ $25$. How does this affect the probability for a random mating?
 ## If You Get These Wrong, Revise
 
 - **Molecular biology -- DNA and proteins** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Cell biology -- organelles** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Enzyme kinetics and metabolism** --> Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism)
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/)
 - **Evolution and population genetics** --> Review
-  [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution)
+  [.../5-evolution-and-biodiversity/1_evolution](/biology/5-evolution-and-biodiversity/1_evolution/)
 - **Immunology and antibodies** --> Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
 
 ---
 
@@ -1585,21 +1585,21 @@ which has multiple Isoforms with different adhesive properties.
 ## Cross-References to Related Topics
 
 - **DNA structure and mutations**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for base
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for base
   pairing, DNA structure, and mutation types.
 - **Cell division and chromosomes**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for mitosis, meiosis
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for mitosis, meiosis
   overview, and chromosome structure.
 - **Mendelian genetics and inheritance**: Review
-  [../1_genetics](./1_genetics) for monohybrid and dihybrid crosses, sex
+  [../1_genetics](/biology/3-genetics/1_genetics/) for monohybrid and dihybrid crosses, sex
   linkage.
 - **Evolution and population genetics**: Review
-  [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution) for
+  [.../5-evolution-and-biodiversity/1_evolution](/biology/5-evolution-and-biodiversity/1_evolution/) for
   Hardy-Weinberg equilibrium, selection, and genetic drift.
-- **Enzyme kinetics**: Review [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism) for
+- **Enzyme kinetics**: Review [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/) for
   Michaelis-Menten kinetics applied to restriction enzymes and polymerases.
 - **Immunology and antibody diversity**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for V(D)J recombination as a mechanism of generating diversity through DNA rearrangement.
 
 ---

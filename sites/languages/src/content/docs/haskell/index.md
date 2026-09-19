@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Haskell Basics](./flashcards-haskell-basics)
-- [Practice Haskell Basics](./practice-haskell-basics)
+- [Flashcards Haskell Basics](/haskell/flashcards-haskell-basics/)
+- [Practice Haskell Basics](/haskell/practice-haskell-basics/)
 
 ## Learning Objectives
 

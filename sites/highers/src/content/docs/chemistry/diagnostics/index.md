@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Diag Chemical Reactions](./diag-chemical-reactions)
+- [Diag Chemical Reactions](/chemistry/diagnostics/diag-chemical-reactions/)
 
 ## Learning Objectives
 

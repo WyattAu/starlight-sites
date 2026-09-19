@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [2_software](./2_software)
+- [2_software](/computer-science/2-software/2_software/)
 
 ## Learning Objectives
 

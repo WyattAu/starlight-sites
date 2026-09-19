@@ -1479,5 +1479,5 @@ The key distinction is between movements along a curve (caused by price changes)
 ## See Also
 
 - [Demand Supply Markets](./)
-- [DSE Economics](..)
-- [Demand, Supply, and Markets -- Diagnostic Tests](../diagnostics/diag-demand-supply-markets)
+- [DSE Economics](/)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)

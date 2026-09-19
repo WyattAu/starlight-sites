@@ -1,0 +1,52 @@
+# Databases — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Database administration and design notes covering relational and NoSQL systems, SQL queries, schema design, indexing, and performance tuning.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Relational-Theory
+
+- [Database Normalization](https://databases.wyattau.com/01-relational-theory/normalization/): Database normalization is the systematic process of structuring a relational schema to minimize data Redundancy and eliminate insertion, deletion, and
+- [Relational Theory](https://databases.wyattau.com/01-relational-theory/relational-theory/): Study notes for Relational Theory with worked examples, practice problems, and key concepts for exam preparation.
+
+## Sql-Fundamentals
+
+- [Advanced SQL](https://databases.wyattau.com/02-sql-fundamentals/advanced-sql/): Advanced SQL notes covering key definitions, core concepts, worked examples, and practice questions for targeted learning and effective revision.
+- [SQL Fundamentals](https://databases.wyattau.com/02-sql-fundamentals/sql/): SQL is defined by ANSI/ISO standards (SQL-86, SQL-89, SQL-92, SQL:1999, SQL:2003, SQL:2006, SQL:2008, SQL:2011, SQL:2016, SQL:2019, SQL:2023). No database
+
+## Indexing-Optimization
+
+- [Indexing and Optimization](https://databases.wyattau.com/03-indexing-optimization/indexing/): Without an index, finding a specific row in a table of rows requires a full sequential scan, Which is . A B-tree index reduces this to -- for a table of one
+- [Query Optimization](https://databases.wyattau.com/03-indexing-optimization/query-optimization/): Study notes for Query Optimization with worked examples, practice problems, and key concepts for exam preparation.
+
+## Transactions
+
+- [Locking and Deadlocks](https://databases.wyattau.com/04-transactions/locking-and-deadlocks/): PostgreSQL uses a multi-level locking system that operates at different granularities. Understanding Each lock type is essential for diagnosing performance
+- [Transactions and Concurrency](https://databases.wyattau.com/04-transactions/transactions/): ACID is the set of guarantees that a relational database transaction provides. Understanding what Each property actually guarantees -- and what it does not
+
+## Nosql
+
+- [NoSQL Databases](https://databases.wyattau.com/05-nosql/nosql/): Study notes for NoSQL Databases with worked examples, practice problems, and key concepts for exam preparation.
+- [PostgreSQL Advanced](https://databases.wyattau.com/05-nosql/postgresql-advanced/): PostgreSQL Advanced notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.
+- [Redis Deep Dive](https://databases.wyattau.com/05-nosql/redis/): Redis is a single-threaded, event-driven, in-memory data structure store. It uses I/O multiplexing (//) to handle thousands of concurrent connections on a
+
+## Database-Design
+
+- [Data Modeling Patterns](https://databases.wyattau.com/06-database-design/data-modeling/): Normalization eliminates redundancy and update anomalies, but there is a point of diminishing Returns. The decision of when to stop depends on your
+- [Database Design](https://databases.wyattau.com/06-database-design/database-design/): Database design is not a one-step activity. It is a disciplined process that moves from abstract Requirements to concrete physical implementation. Skipping
+- [Schema Migrations](https://databases.wyattau.com/06-database-design/migrations/): Schema changes in a production database are one of the highest-risk operations you perform. A bad Migration can corrupt data, cause extended downtime, or
+
+## Overview
+
+- [About This Site](https://databases.wyattau.com/about/): About Wyatt's Notes Databases resources, experience, expertise, and credentials behind database design and SQL study materials.
+- [Complete Database Design Study Guide](https://databases.wyattau.com/hub/): Study notes for Complete Database Design Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Database Design Practice](https://databases.wyattau.com/practice-database-design/): 15 practice questions covering normalization, ER modeling, SQL queries, indexing, transactions, ACID properties, and query optimization.
+- [Database Glossary, Key Terms and Definitions](https://databases.wyattau.com/glossary/): Study notes for Database Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [Databases](https://databases.wyattau.com/): Database administration and design notes covering relational and NoSQL systems, SQL queries, schema design, indexing, and performance tuning.
+- [Introduction to Databases](https://databases.wyattau.com/intro/): Every non-trivial system you build, operate, or debug depends on a database. Authentication tokens, User profiles, financial transactions, inventory counts, 
+
+## Diagnostics
+
+- [Diagnostic Test: Databases](https://databases.wyattau.com/diagnostics/diag-databases/): Diagnostic test notes for databases Diagnostic Test: Databases covering key concepts, worked examples, and practice problems for exam preparation.

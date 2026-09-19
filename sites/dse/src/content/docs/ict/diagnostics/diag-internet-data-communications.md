@@ -271,5 +271,5 @@ customers and how to mitigate each.
 ## See Also
 
 - [Diagnostics](./)
-- [Data Representation -- Diagnostic Tests](./diag-data-representation)
-- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)

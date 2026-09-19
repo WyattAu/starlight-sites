@@ -18,13 +18,13 @@ This section provides study materials and resources for further maths. Browse th
 
 ## Topics
 
-- [Flashcards Further Mechanics](./flashcards-further-mechanics)
-- [Flashcards Further Statistics](./flashcards-further-statistics)
-- [Flashcards Pure](./flashcards-pure)
-- [Further Maths](./further-maths)
-- [Practice Further Mechanics](./practice-further-mechanics)
-- [Practice Further Statistics](./practice-further-statistics)
-- [Practice Pure Mathematics](./practice-pure-mathematics)
+- [Flashcards Further Mechanics](/further-maths/flashcards-further-mechanics/)
+- [Flashcards Further Statistics](/further-maths/flashcards-further-statistics/)
+- [Flashcards Pure](/further-maths/flashcards-pure/)
+- [Further Maths](/further-maths/further-maths/)
+- [Practice Further Mechanics](/further-maths/practice-further-mechanics/)
+- [Practice Further Statistics](/further-maths/practice-further-statistics/)
+- [Practice Pure Mathematics](/further-maths/practice-pure-mathematics/)
 
 ## Learning Objectives
 

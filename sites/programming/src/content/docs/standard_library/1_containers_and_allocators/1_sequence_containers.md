@@ -760,9 +760,9 @@ extra indirection adds 2-5 cycles per access compared to vector's single Indirec
 
 ## See Also
 
-- [Associative and Unordered Containers](./2_associative_containers)
-- [Iterator Categories, Traversal, Invalidation](./3_iterators)
-- [Polymorphic Memory Resources (PMR)](./4_pmr)
+- [Associative and Unordered Containers](/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [Iterator Categories, Traversal, Invalidation](/standard_library/1_containers_and_allocators/3_iterators/)
+- [Polymorphic Memory Resources (PMR)](/standard_library/1_containers_and_allocators/4_pmr/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -401,5 +401,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Reading Fiction -- Diagnostic Tests](./diag-reading-fiction)
-- [Creative Writing -- Diagnostic Tests](./diag-creative-writing)
+- [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)
+- [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)

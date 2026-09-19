@@ -977,6 +977,6 @@ Serialization is converting objects to bytes or strings for storage or transmiss
 
 ## Cross-References
 
-- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)
-- [Data Validation](../../../../../languages/src/content/docs/python/08-advanced-topics/02-data-validation)
-- [File I/O](../../../../../languages/src/content/docs/python/05-standard-library/02-file-io)
+- [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
+- [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/)
+- [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)

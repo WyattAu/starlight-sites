@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [2_computing Systems](./2_computing-systems)
+- [2_computing Systems](/computer-science/2-computing-systems/2_computing-systems/)
 
 ## Learning Objectives
 

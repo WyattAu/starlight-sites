@@ -37,11 +37,11 @@ associated science practices.
 
 ## Topics
 
-- **[1. Atomic Structure and Periodicity](1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity)**
-- **[2. Bonding and Intermolecular Forces](2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces)**
-- **[3. Stoichiometry](3-stoichiometry/3_stoichiometry)**
-- **[4. Thermodynamics](4-thermodynamics/4_thermodynamics)**
-- **[5. Kinetics and Equilibrium](5-kinetics-and-equilibrium/5_kinetics-and-equilibrium)**
+- **[1. Atomic Structure and Periodicity](/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/)**
+- **[2. Bonding and Intermolecular Forces](/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/)**
+- **[3. Stoichiometry](/chemistry/3-stoichiometry/3_stoichiometry/)**
+- **[4. Thermodynamics](/chemistry/4-thermodynamics/4_thermodynamics/)**
+- **[5. Kinetics and Equilibrium](/chemistry/5-kinetics-and-equilibrium/5_kinetics-and-equilibrium/)**
 
 ## Topics Covered
 
@@ -146,8 +146,8 @@ The molecular world governs our everyday experience. Chemical bonds determine ma
 
 ## Cross-References
 
-- [Atomic Structure](../../../../../alevel/src/content/docs/chemistry/atomic-structure)
-- [Bonding](../../../../../alevel/src/content/docs/chemistry/bonding-and-structure)
-- [Stoichiometry](../../../../../leaving-cert/src/content/docs/chemistry/3-stoichiometry/3_stoichiometry)
-- [Thermodynamics](../../../../../alevel/src/content/docs/chemistry/thermodynamics)
-- **[AP Physics, Work, Energy, and Power](../../../../../alevel/src/content/docs/physics/mechanics/04-work-energy-power):** Thermodynamics and energy conservation are shared principles, the first law of thermodynamics is a restatement of energy conservation from physics.
+- [Atomic Structure](https://alevel.wyattau.com/chemistry/atomic-structure/)
+- [Bonding](https://alevel.wyattau.com/chemistry/bonding-and-structure/)
+- [Stoichiometry](https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry/)
+- [Thermodynamics](https://alevel.wyattau.com/chemistry/thermodynamics/)
+- **[AP Physics, Work, Energy, and Power](https://alevel.wyattau.com/physics/mechanics/04-work-energy-power/):** Thermodynamics and energy conservation are shared principles, the first law of thermodynamics is a restatement of energy conservation from physics.

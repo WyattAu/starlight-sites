@@ -1060,6 +1060,6 @@ linked above.
 
 ## Cross-References
 
-- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- ZFS pool status and scrub results are key metrics monitored for storage health.
-- [Performance Tuning](../06-performance-tuning/truenas-performance) -- Monitoring data informs performance tuning decisions by identifying bottlenecks.
-- [Backup and Replication](../03-backup-and-replication/backup-and-replication) -- Backup job completion and failures are monitored through the alerting system.
+- [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- ZFS pool status and scrub results are key metrics monitored for storage health.
+- [Performance Tuning](/06-performance-tuning/truenas-performance/) -- Monitoring data informs performance tuning decisions by identifying bottlenecks.
+- [Backup and Replication](/03-backup-and-replication/backup-and-replication/) -- Backup job completion and failures are monitored through the alerting system.

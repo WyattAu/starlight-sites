@@ -18,11 +18,11 @@ This section provides study materials and resources for 2_algorithms_and_ranges.
 
 ## Topics
 
-- [1_iterator_sentinel](./1_iterator_sentinel)
-- [2_range_adaptors](./2_range_adaptors)
-- [3_projections](./3_projections)
-- [4_range_materialization](./4_range_materialization)
-- [5_parallel_algorithms](./5_parallel_algorithms)
+- [1_iterator_sentinel](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [2_range_adaptors](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [3_projections](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [4_range_materialization](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+- [5_parallel_algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
 
 ## Learning Objectives
 

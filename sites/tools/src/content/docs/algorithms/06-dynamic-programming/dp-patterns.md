@@ -863,9 +863,9 @@ linked above.
 
 ## Cross-References
 
-- **[Dynamic Programming](dynamic-programming):** Core DP concepts including memoisation and tabulation that underpin these patterns.
-- **[Sorting Algorithms](../05-sorting/sorting):** Sorting techniques often used as preprocessing steps in DP problems.
-- **[Hashing and Hash Tables](../02-arrays-strings/hashing-and-hash-tables):** Hash-based data structures used for memoisation in top-down DP approaches.
+- **[Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/):** Core DP concepts including memoisation and tabulation that underpin these patterns.
+- **[Sorting Algorithms](/algorithms/05-sorting/sorting/):** Sorting techniques often used as preprocessing steps in DP problems.
+- **[Hashing and Hash Tables](/algorithms/02-arrays-strings/hashing-and-hash-tables/):** Hash-based data structures used for memoisation in top-down DP approaches.
 
 ## Intuition
 

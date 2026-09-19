@@ -954,5 +954,5 @@ linked above.
 ## See Also
 
 - [English](./)
-- [A Streetcar Named Desire](./a-street-car-named-desire)
-- [Chronicle of a Death Foretold, Close Reading and Analysis](./chronicle-of-a-death-foretold-analysis)
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

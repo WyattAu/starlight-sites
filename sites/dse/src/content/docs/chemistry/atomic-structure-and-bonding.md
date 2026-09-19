@@ -330,6 +330,6 @@ including melting point, conductivity, and solubility.
 
 ## Cross-References
 
-- **[Atomic Structure](../chemistry/atomic-structure-and-bonding):** Atomic structure determines bonding
-- **[Equilibrium](../../../../../alevel/src/content/docs/chemistry/equilibrium):** Equilibrium is a core topic
-- **[Organic Chemistry](../../../../../alevel/src/content/docs/chemistry/organic-chemistry):** Organic chemistry covers carbon compounds
+- **[Atomic Structure](/chemistry/atomic-structure-and-bonding/):** Atomic structure determines bonding
+- **[Equilibrium](https://alevel.wyattau.com/chemistry/equilibrium/):** Equilibrium is a core topic
+- **[Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/):** Organic chemistry covers carbon compounds

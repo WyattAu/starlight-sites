@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [4_heredity](./4_heredity)
+- [4_heredity](/biology/4-heredity/4_heredity/)
 
 ## Learning Objectives
 

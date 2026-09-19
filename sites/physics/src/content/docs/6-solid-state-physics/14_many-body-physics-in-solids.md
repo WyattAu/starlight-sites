@@ -163,10 +163,10 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 
 ## Cross-References
 
-- **[Crystal Structures](1_crystal-structures)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.
-- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Electron-phonon coupling leads to Cooper pairing in conventional superconductors and affects quasiparticle properties.
-- **[Semiconductors](6_semiconductors)**: The Fermi liquid concept and quasiparticle picture build on the semiconductor band structure framework.
-- **[Magnetism in Solids](10_magnetism-in-solids)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
+- **[Crystal Structures](/6-solid-state-physics/1_crystal-structures/)**: The lattice geometry and crystal symmetry determine the electronic band structure and the validity of the tight-binding model.
+- **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: Electron-phonon coupling leads to Cooper pairing in conventional superconductors and affects quasiparticle properties.
+- **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The Fermi liquid concept and quasiparticle picture build on the semiconductor band structure framework.
+- **[Magnetism in Solids](/6-solid-state-physics/10_magnetism-in-solids/)**: The Hubbard model and exchange interactions connect many-body physics to magnetic ordering in solids.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

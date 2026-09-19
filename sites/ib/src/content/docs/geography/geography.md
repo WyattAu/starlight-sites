@@ -140,12 +140,12 @@ structure:
 
 | Module                                               | Content                                                                    |
 | ---------------------------------------------------- | -------------------------------------------------------------------------- |
-| [Population Distribution](./population-distribution) | Demographic transition, migration, population policies, Malthus vs Boserup |
-| [Economic Development](./economic-development)       | Development indicators, theories of development, globalisation, TNCs       |
-| [Urban Environments](./urban-environments)           | Urbanisation, urban models, megacities, sustainable cities                 |
-| [Freshwater Issues](./freshwater-issues)             | Water scarcity, hydrology, flood management, water quality                 |
-| [Climate Change](./climate-change)                   | Evidence, causes, impacts, mitigation, adaptation                          |
-| [Geographic Skills](./geographic-skills)             | Map skills, data collection, statistics, GIS, fieldwork                    |
+| [Population Distribution](/geography/population-distribution/) | Demographic transition, migration, population policies, Malthus vs Boserup |
+| [Economic Development](/geography/economic-development/)       | Development indicators, theories of development, globalisation, TNCs       |
+| [Urban Environments](/geography/urban-environments/)           | Urbanisation, urban models, megacities, sustainable cities                 |
+| [Freshwater Issues](/geography/freshwater-issues/)             | Water scarcity, hydrology, flood management, water quality                 |
+| [Climate Change](/geography/climate-change/)                   | Evidence, causes, impacts, mitigation, adaptation                          |
+| [Geographic Skills](/geography/geographic-skills/)             | Map skills, data collection, statistics, GIS, fieldwork                    |
 
 These modules cover the most commonly selected optional themes and the compulsory core extension.
 Students should consult their teacher to confirm which optional themes their school has selected for
@@ -189,6 +189,6 @@ linked above.
 
 ## Cross-References
 
-- **[Climate Change](../geography/climate-change):** Climate change affects all geography
-- **[Population](../geography/population-distribution):** Population distribution is studied
-- **[Economic Development](../geography/economic-development):** Development is a core topic
+- **[Climate Change](/geography/climate-change/):** Climate change affects all geography
+- **[Population](/geography/population-distribution/):** Population distribution is studied
+- **[Economic Development](/geography/economic-development/):** Development is a core topic

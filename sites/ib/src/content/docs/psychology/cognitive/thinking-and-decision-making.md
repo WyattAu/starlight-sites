@@ -282,7 +282,7 @@ Irrationalities in everyday decision making. Key findings include:
 </details>
 
 For an overview of cognitive topics, see
-[Cognitive Level of Analysis](../cognitive-level-of-analysis).
+[Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/).
 
 ## Common Pitfalls
 
@@ -332,9 +332,9 @@ linked above.
 
 ## Cross-References
 
-- [Research Methods](../research-methods) provides the experimental methodology used to study cognitive biases and decision-making processes.
-- [Nervous System](../../../../../../dse/src/content/docs/biology/7-nervous-system-and-immunology/1_nervous-system) explains the neural mechanisms underlying perception, memory, and the cognitive processes studied in decision-making research.
-- [Cell Biology](../../biology/1-cell-biology/1_cell-biology) covers the cellular foundations of neural function that enable the cognitive processes examined in thinking and judgement.
+- [Research Methods](/psychology/research-methods/) provides the experimental methodology used to study cognitive biases and decision-making processes.
+- [Nervous System](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) explains the neural mechanisms underlying perception, memory, and the cognitive processes studied in decision-making research.
+- [Cell Biology](/biology/1-cell-biology/1_cell-biology/) covers the cellular foundations of neural function that enable the cognitive processes examined in thinking and judgement.
 
 ## Intuition
 

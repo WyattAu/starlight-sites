@@ -22,11 +22,11 @@ perspectives.
 
 ## Pages
 
-- [Anxiety Disorders](./anxiety-disorders) -- phobias and OCD, with biological, behavioural, and
+- [Anxiety Disorders](/psychology/abnormal/anxiety-disorders/) -- phobias and OCD, with biological, behavioural, and
   cognitive explanations and corresponding treatments.
-- [Depression](./depression) -- biological, cognitive, and sociocultural explanations of depressive
+- [Depression](/psychology/abnormal/depression/) -- biological, cognitive, and sociocultural explanations of depressive
   disorders and their treatments.
-- [Treatment Evaluation](./treatment-evaluation) -- evaluating effectiveness, appropriateness, and
+- [Treatment Evaluation](/psychology/abnormal/treatment-evaluation/) -- evaluating effectiveness, appropriateness, and
   ethical considerations of psychological treatments.
 
 ## Overview
@@ -153,6 +153,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

@@ -23,7 +23,7 @@ categories:
 ## Overview
 
 Git manipulates three distinct data structures, conventionally called **trees** (though "tree" is
-overloaded in Git terminology, see [Git Objects](./02-git-objects)). These are:
+overloaded in Git terminology, see [Git Objects](/git/02-fundamentals/02-git-objects/)). These are:
 
 1. **The Working Directory** (also called the **working tree**). The actual files on disk.
 2. **The Index** (also called the **staging area** or **cache**). A binary file at `.git/index`
@@ -323,6 +323,6 @@ Git's three trees are the working directory (your desk), the staging area (your 
 
 ## Cross-References
 
-- [Introduction to Git](../../zh/algorithms/intro)
+- [Introduction to Git](/zh/algorithms/intro/)
 - [Branching](/tools/git/03-branching-and-merging/01-branching)
 - [References](/tools/git/02-fundamentals/03-references)

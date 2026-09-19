@@ -270,10 +270,10 @@ $$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 
 
 ## Cross-References
 
-- [Calculus](../mathematics/calculus) -- Differentiation and integration are used to derive kinematic equations and analyse variable acceleration.
-- [Algebra](../mathematics/algebra) -- Solving systems of equations and quadratic formulas are essential for force and projectile problems.
-- [Waves](../physics/waves) -- Oscillatory motion and wave mechanics extend the principles of simple harmonic motion from mechanics.
-- [Inorganic](../chemistry/inorganic) -- Energy conservation in thermochemistry parallels the work-energy theorem in mechanics.
+- [Calculus](/mathematics/calculus/) -- Differentiation and integration are used to derive kinematic equations and analyse variable acceleration.
+- [Algebra](/mathematics/algebra/) -- Solving systems of equations and quadratic formulas are essential for force and projectile problems.
+- [Waves](/physics/waves/) -- Oscillatory motion and wave mechanics extend the principles of simple harmonic motion from mechanics.
+- [Inorganic](/chemistry/inorganic/) -- Energy conservation in thermochemistry parallels the work-energy theorem in mechanics.
 
 **Forgetting that friction opposes motion, not force direction.** Friction acts opposite to the direction of relative motion or attempted motion, not necessarily opposite to the applied force. When pushing a block up a ramp, friction acts down the ramp. When the block slides down, friction acts up the ramp. The direction changes with the motion.
 

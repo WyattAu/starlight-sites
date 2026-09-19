@@ -287,5 +287,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Bioenergetics -- Diagnostic Tests](./diag-bioenergetics)
-- [Organisation -- Diagnostic Tests](./diag-organisation)
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Organisation -- Diagnostic Tests](/biology/diagnostics/diag-organisation/)

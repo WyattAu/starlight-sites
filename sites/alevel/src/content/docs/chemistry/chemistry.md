@@ -51,25 +51,25 @@ the ten core modules to each board"s paper structure.
 
 ## Core Modules
 
-1. **[Atomic Structure & Periodicity](./atomic-structure)** -- Subatomic particles, isotopes, mass
+1. **[Atomic Structure & Periodicity](/chemistry/atomic-structure/)** -- Subatomic particles, isotopes, mass
    spectrometry, electron configuration, ionisation energies, periodic trends.
-2. **[Bonding & Structure](./bonding-and-structure)** -- Ionic, covalent, and metallic bonding;
+2. **[Bonding & Structure](/chemistry/bonding-and-structure/)** -- Ionic, covalent, and metallic bonding;
    intermolecular forces; VSEPR theory; giant covalent lattices; Born-Haber cycles.
-3. **[Quantitative Chemistry](./quantitative-chemistry)** -- The mole, stoichiometry, titrations,
+3. **[Quantitative Chemistry](/chemistry/quantitative-chemistry/)** -- The mole, stoichiometry, titrations,
    the ideal gas equation, thermochemical calculations.
-4. **[Chemical Kinetics](../../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics)** -- Rate equations, the Arrhenius equation, collision
+4. **[Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/)** -- Rate equations, the Arrhenius equation, collision
    theory, Maxwell-Boltzmann distributions, catalysis.
-5. **[Chemical Equilibrium](../../../../../dse/src/content/docs/chemistry/4-equilibrium/1_chemical-equilibrium)** -- $K_c$, $K_p$Le Chatelier's principle,
+5. **[Chemical Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/)** -- $K_c$, $K_p$Le Chatelier's principle,
    solubility products, industrial processes.
-6. **[Acids, Bases & Buffers](./acids-bases)** -- pH, $K_a$, $K_b$, $K_w$Buffer solutions, titration
+6. **[Acids, Bases & Buffers](/chemistry/acids-bases/)** -- pH, $K_a$, $K_b$, $K_w$Buffer solutions, titration
    curves, indicators.
-7. **[Thermodynamics & Energetics](./thermodynamics)** -- Hess's Law, entropy, Gibbs free energy,
+7. **[Thermodynamics & Energetics](/chemistry/thermodynamics/)** -- Hess's Law, entropy, Gibbs free energy,
    lattice enthalpy, Born-Haber cycles.
-8. **[Electrochemistry](./electrochemistry)** -- Redox, standard electrode potentials,
+8. **[Electrochemistry](/chemistry/electrochemistry/)** -- Redox, standard electrode potentials,
    electrochemical cells, electrolysis, Faraday's laws.
-9. **[Organic Chemistry](./organic-chemistry)** -- Nomenclature, mechanisms (substitution, addition,
+9. **[Organic Chemistry](/chemistry/organic-chemistry/)** -- Nomenclature, mechanisms (substitution, addition,
    elimination), spectroscopy, chromatography.
-10. **[Transition Metals & Analytical Chemistry](./transition-metals)** -- d-block chemistry,
+10. **[Transition Metals & Analytical Chemistry](/chemistry/transition-metals/)** -- d-block chemistry,
     complex ions, crystal field theory, catalysis, analytical techniques.
 
 ## Assessment Structure

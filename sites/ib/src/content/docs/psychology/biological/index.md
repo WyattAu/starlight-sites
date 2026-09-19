@@ -18,10 +18,10 @@ This section provides study materials and resources for biological. Browse the t
 
 ## Topics
 
-- [_index](./_index)
-- [Brain Imaging Techniques](./brain-imaging-techniques)
-- [Genetics And Behaviour](./genetics-and-behaviour)
-- [Neuroplasticity And Neurotransmission](./neuroplasticity-and-neurotransmission)
+- [_index](/psychology/biological/_index/)
+- [Brain Imaging Techniques](/psychology/biological/brain-imaging-techniques/)
+- [Genetics And Behaviour](/psychology/biological/genetics-and-behaviour/)
+- [Neuroplasticity And Neurotransmission](/psychology/biological/neuroplasticity-and-neurotransmission/)
 
 ## Learning Objectives
 

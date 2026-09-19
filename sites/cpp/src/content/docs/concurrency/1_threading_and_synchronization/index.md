@@ -18,11 +18,11 @@ This section provides study materials and resources for 1_threading_and_synchron
 
 ## Topics
 
-- [1_threads_jthread](./1_threads_jthread)
-- [2_data_races](./2_data_races)
-- [3_mutexes_deadlocks](./3_mutexes_deadlocks)
-- [4_condition_variables](./4_condition_variables)
-- [5_thread_local_storage](./5_thread_local_storage)
+- [1_threads_jthread](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [2_data_races](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [3_mutexes_deadlocks](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [4_condition_variables](/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [5_thread_local_storage](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
 
 ## Learning Objectives
 

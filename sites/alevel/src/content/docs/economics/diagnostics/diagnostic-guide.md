@@ -519,5 +519,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Demand, Supply, and Equilibrium -- Diagnostic Tests](./diag-demand-supply)
-- [Macroeconomic Policy -- Diagnostic Tests](./diag-macroeconomic-policy)
+- [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
+- [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)

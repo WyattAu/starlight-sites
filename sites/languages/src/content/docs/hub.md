@@ -498,5 +498,5 @@ Knowing multiple languages makes you a more versatile engineer. You can choose t
 ## See Also
 
 - [Programming Languages](./)
-- [About This Site](./about)
-- [Setup](./dart/02-setup)
+- [About This Site](/about/)
+- [Setup](/dart/02-setup/)

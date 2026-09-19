@@ -18,7 +18,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Platform Integration](./01-platform-integration)
+- [Platform Integration](/11-networking-and-data/01-platform-integration/)
 
 ## Learning Objectives
 

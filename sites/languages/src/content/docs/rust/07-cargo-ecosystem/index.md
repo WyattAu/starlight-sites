@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Cargo And Ecosystem](./cargo-and-ecosystem)
-- [Unsafe Rust](./unsafe-rust)
+- [Cargo And Ecosystem](/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust/)
 
 ## Learning Objectives
 

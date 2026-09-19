@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Testing](./testing)
+- [Testing](/java/14-testing/testing/)
 
 ## Learning Objectives
 

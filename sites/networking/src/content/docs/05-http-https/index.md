@@ -18,9 +18,9 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Http 2 And 3](./http-2-and-3)
-- [Http](./http)
-- [Websockets](./websockets)
+- [Http 2 And 3](/05-http-https/http-2-and-3/)
+- [Http](/05-http-https/http/)
+- [Websockets](/05-http-https/websockets/)
 
 ## Learning Objectives
 

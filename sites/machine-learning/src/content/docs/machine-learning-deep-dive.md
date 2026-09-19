@@ -62,8 +62,8 @@ flowchart TD
 ## See Also
 
 - [Machine Learning](./)
-- [About This Site](./about)
-- [advanced topics](./advanced-topics)
+- [About This Site](/about/)
+- [advanced topics](/advanced-topics/)
 
 ## Worked Examples
 

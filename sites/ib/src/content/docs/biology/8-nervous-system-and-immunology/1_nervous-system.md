@@ -1079,15 +1079,15 @@ lead to involuntary movements (dyskinesias).
 ## If You Get These Wrong, Revise
 
 - **Cell membrane structure and transport** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Protein structure and enzymes** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Muscle contraction and energy** --> Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism)
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/)
 - **Homeostasis and hormonal control** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 - **Immune system and neuromuscular disorders** --> Review
-  [../2_immunology](./2_immunology)
+  [../2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
 
 ---
 
@@ -1600,19 +1600,19 @@ and early Detection using biomarkers (PET imaging, cerebrospinal fluid analysis)
 ## Cross-References to Related Topics
 
 - **Cell membrane structure and ion channels**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane proteins and
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane proteins and
   fluid mosaic model.
 - **Muscle contraction and calcium**: Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism) for actin-myosin interaction and
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/) for actin-myosin interaction and
   ATP in muscle contraction.
 - **Homeostasis and feedback**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for
   thermoregulation and blood glucose homeostasis.
 - **Immune system and neuromuscular disorders**: Review
-  [../2_immunology](./2_immunology)
+  [../2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for myasthenia gravis and multiple sclerosis.
 - **Endocrine system**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for
   adrenaline, cortisol, and hormone-receptor interactions.
 
 ---

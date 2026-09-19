@@ -683,9 +683,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Types and Functions](../01-basics/1_types-and-functions):** Basic type system that advanced types extend with GADTs and type families.
-- **[Monads and Functors](../04-monads/1_monads-and-functors):** Monad transformers and effect stacking that use advanced type features.
-- **[Concurrency](./2_concurrency):** STM and async patterns that benefit from phantom type safety.
+- **[Types and Functions](/haskell/01-basics/1_types-and-functions/):** Basic type system that advanced types extend with GADTs and type families.
+- **[Monads and Functors](/haskell/04-monads/1_monads-and-functors/):** Monad transformers and effect stacking that use advanced type features.
+- **[Concurrency](/haskell/05-advanced/2_concurrency/):** STM and async patterns that benefit from phantom type safety.
 
 ## Common Mistakes
 

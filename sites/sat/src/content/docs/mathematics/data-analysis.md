@@ -132,9 +132,9 @@ Data analysis is the art of finding signal in noise. A dataset is like a crowd o
 
 ## Cross-References
 
-- [Algebra](./algebra) -- Linear regression and statistical formulas use algebraic equations to model relationships between variables.
-- [Geometry](./geometry) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
-- [Writing Language](../writing/language) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
+- [Algebra](/mathematics/algebra/) -- Linear regression and statistical formulas use algebraic equations to model relationships between variables.
+- [Geometry](/mathematics/geometry/) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
+- [Writing Language](/writing/language/) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
 
 
 ## Advanced Content

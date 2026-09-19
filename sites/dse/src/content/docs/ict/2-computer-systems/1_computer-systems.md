@@ -1085,5 +1085,5 @@ linked above.
 ## See Also
 
 - [Computer Systems](./)
-- [DSE ICT](..)
-- [Computer Systems -- Diagnostic Tests](../diagnostics/diag-computer-systems)
+- [DSE ICT](/)
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)

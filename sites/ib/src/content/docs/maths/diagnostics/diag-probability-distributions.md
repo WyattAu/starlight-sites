@@ -257,5 +257,5 @@ $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.
 ## See Also
 
 - [Diagnostics](./)
-- [Probability -- Diagnostic Tests](./diag-probability)
-- [Complex Numbers -- Diagnostic Tests](./diag-complex-numbers)
+- [Probability -- Diagnostic Tests](/maths/diagnostics/diag-probability/)
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)

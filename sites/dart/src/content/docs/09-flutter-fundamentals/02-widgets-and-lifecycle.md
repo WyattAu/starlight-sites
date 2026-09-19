@@ -952,6 +952,6 @@ linked above.
 
 ## Cross-References
 
-- [State Management](../10-state-management/01-state-management) -- Widget lifecycle methods manage state creation and disposal, connecting widget building to state patterns.
-- [Navigation](./01-navigation) -- Widget trees are pushed and popped during navigation, linking the lifecycle to route management.
-- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Widgets use inheritance and mixins to compose reusable UI components.
+- [State Management](/10-state-management/01-state-management/) -- Widget lifecycle methods manage state creation and disposal, connecting widget building to state patterns.
+- [Navigation](/09-flutter-fundamentals/01-navigation/) -- Widget trees are pushed and popped during navigation, linking the lifecycle to route management.
+- [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Widgets use inheritance and mixins to compose reusable UI components.

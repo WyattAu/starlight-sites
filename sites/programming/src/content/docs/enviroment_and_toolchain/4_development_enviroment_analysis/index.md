@@ -22,10 +22,10 @@ This section examines four critical components of a modern development environme
 
 ## Topics
 
-- [Language Server Protocol Configuration](./1_language_server_protocol_configuration)
-- [Debugger](./2_debugger)
-- [Static Analysis](./3_static_analysis)
-- [Sanitizer](./4_sanitizer)
+- [Language Server Protocol Configuration](/enviroment_and_toolchain/4_development_enviroment_analysis/1_language_server_protocol_configuration/)
+- [Debugger](/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger/)
+- [Static Analysis](/enviroment_and_toolchain/4_development_enviroment_analysis/3_static_analysis/)
+- [Sanitizer](/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/)
 
 ## Why Development Environment Analysis Matters
 

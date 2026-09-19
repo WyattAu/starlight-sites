@@ -927,9 +927,9 @@ Child.new.greet
 
 ## Cross-References
 
-- [Variables and Types](../01-basics/1_variables-and-types) defines the instance variables and data types used within object-oriented class definitions.
-- [Methods and Blocks](../03-methods-blocks/1_methods-and-blocks) covers the method definitions and block passing that are central to Ruby's OOP style.
-- [Metaprogramming](../../../../../../elixir/src/content/docs/04-advanced/1_metaprogramming) uses Ruby's OOP features to dynamically define classes and methods at runtime.
+- [Variables and Types](/ruby/01-basics/1_variables-and-types/) defines the instance variables and data types used within object-oriented class definitions.
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks/) covers the method definitions and block passing that are central to Ruby's OOP style.
+- [Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/) uses Ruby's OOP features to dynamically define classes and methods at runtime.
 
 ## Common Mistakes
 

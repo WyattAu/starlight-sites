@@ -394,5 +394,5 @@ Graph theory studies networks of vertices connected by edges. Paths, cycles, and
 ## See Also
 
 - [Discrete Mathematics](./)
-- [Propositional and Predicate Logic](./1_propositional-and-predicate-logic)
-- [Sets, Relations, and Functions](./2_sets-relations-and-functions)
+- [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)
+- [Sets, Relations, and Functions](/1-discrete-mathematics/2_sets-relations-and-functions/)

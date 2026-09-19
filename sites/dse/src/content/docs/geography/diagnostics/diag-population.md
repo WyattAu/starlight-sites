@@ -467,6 +467,6 @@ climate change to meaningfully resolve the tension between population growth and
 
 ## Cross-References
 
-- **[Population](../population):** Population dynamics are studied
-- **[Urbanization](../urbanization):** Urbanisation is a major topic
-- **[Agriculture](../agriculture):** Agriculture is linked to population
+- **[Population](/geography/population/):** Population dynamics are studied
+- **[Urbanization](/geography/urbanization/):** Urbanisation is a major topic
+- **[Agriculture](/geography/agriculture/):** Agriculture is linked to population

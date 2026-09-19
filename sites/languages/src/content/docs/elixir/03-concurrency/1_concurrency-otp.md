@@ -880,5 +880,5 @@ framework:
 ## See Also
 
 - [Concurrency](./)
-- [Elixir](..)
-- [Concurrency](../../haskell/05-advanced/2_concurrency)
+- [Elixir](/)
+- [Concurrency](/haskell/05-advanced/2_concurrency/)

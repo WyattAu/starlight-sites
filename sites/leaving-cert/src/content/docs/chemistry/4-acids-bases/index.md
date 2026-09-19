@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [4_acids Bases](./4_acids-bases)
+- [4_acids Bases](/chemistry/4-acids-bases/4_acids-bases/)
 
 ## Learning Objectives
 

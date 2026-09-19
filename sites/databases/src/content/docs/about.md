@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Databases](./)
-- [Complete Database Design Study Guide](./hub)
-- [Introduction to Databases](./intro)
+- [Complete Database Design Study Guide](/hub/)
+- [Introduction to Databases](/intro/)
 
 
 ## Detailed Content

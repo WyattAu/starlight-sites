@@ -483,7 +483,7 @@ extern template class Container<long>;
 Implicit instantiation is the most common source of code bloat because every translation unit that
 Uses `Container<int>` independently generates the same machine code. The linker then picks one copy
 And discards the rest, but all TUs still paid the compilation cost. See
-[Explicit Instantiation and Extern Templates](./5_explicit_instantiation) for the full treatment
+[Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/) for the full treatment
 Of this technique.
 
 ### Implicit vs Explicit Instantiation Trade-offs
@@ -717,7 +717,7 @@ class Wrapper {
 
 The compiler cannot determine whether `T::value_type` is a type or a static member at phase 1 of
 Lookup. The `typename` keyword tells the compiler "this is a type" [N4950 S13.8.1]. See
-[Dependent Names and Two-Phase Lookup](./4_dependent_names) for the full treatment.
+[Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/) for the full treatment.
 
 ### SFINAE vs Hard Errors
 
@@ -913,11 +913,11 @@ public:
 
 ## See Also
 
-- [Argument Deduction](./2_argument_deduction)
-- [Explicit and Partial Specialization](./3_specialization)
-- [Dependent Names and Two-Phase Lookup](./4_dependent_names)
-- [Explicit Instantiation and Extern Templates](./5_explicit_instantiation)
-- [Parameter Packs and Variadic Templates](../3_compile_time_computation/1_parameter_packs)
+- [Argument Deduction](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -943,5 +943,5 @@ Unsafe Rust lets you bypass the borrow checker's guarantees when you can prove s
 ## See Also
 
 - [Cargo Ecosystem](./)
-- [Cargo and Ecosystem](./cargo-and-ecosystem)
-- [Rust](..)
+- [Cargo and Ecosystem](/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
+- [Rust](/)

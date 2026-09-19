@@ -359,6 +359,6 @@ linked above.
 
 ## Cross-References
 
-- **[I/O](./io):** Buffered I/O and stream processing for string manipulation.
-- **[net/http](./net-http):** HTTP header parsing and time-based cache headers.
-- **[Types and Variables](../basics/types-and-variables):** String and time type fundamentals.
+- **[I/O](/go/standard-library/io/):** Buffered I/O and stream processing for string manipulation.
+- **[net/http](/go/standard-library/net-http/):** HTTP header parsing and time-based cache headers.
+- **[Types and Variables](/go/basics/types-and-variables/):** String and time type fundamentals.

@@ -809,4 +809,4 @@ applying these mathematical techniques.
 ## See Also
 
 - [Number Sequences](./)
-- [Irish LC Mathematics](..)
+- [Irish LC Mathematics](/)

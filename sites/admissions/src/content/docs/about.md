@@ -94,7 +94,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 - [Admissions Tests](./)
 - [Admissions](./)
-- [BMO Preparation](./bmo-preparation)
+- [BMO Preparation](/bmo-preparation/)
 
 
 ## Detailed Content

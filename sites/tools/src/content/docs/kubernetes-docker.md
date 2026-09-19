@@ -71,8 +71,8 @@ flowchart TD
 ## See Also
 
 - [Developer Tools & Knowledge](./)
-- [About This Site](./about)
-- [Algorithms Practice](./practice-algorithms)
+- [About This Site](/about/)
+- [Algorithms Practice](/practice-algorithms/)
 
 ## Worked Examples
 

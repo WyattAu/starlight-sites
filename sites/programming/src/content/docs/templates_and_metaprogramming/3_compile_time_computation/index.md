@@ -18,10 +18,10 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_parameter_packs](./1_parameter_packs)
-- [2_fold_expressions](./2_fold_expressions)
-- [3_if_constexpr](./3_if_constexpr)
-- [4_type_traits](./4_type_traits)
+- [1_parameter_packs](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [2_fold_expressions](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [3_if_constexpr](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [4_type_traits](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 ## Learning Objectives
 

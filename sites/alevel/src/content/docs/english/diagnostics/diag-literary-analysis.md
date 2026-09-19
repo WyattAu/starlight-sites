@@ -122,5 +122,5 @@ Answer each question. Check your answers against the key at the end.
 ## See Also
 
 - [Diagnostics](./)
-- [A-Level English](..)
-- [Literary Analysis](../1-literary-analysis/1_literary-analysis)
+- [A-Level English](/)
+- [Literary Analysis](/english/1-literary-analysis/1_literary-analysis/)

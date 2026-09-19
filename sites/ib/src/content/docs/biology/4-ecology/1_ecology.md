@@ -812,14 +812,14 @@ and explain your reasoning.
 ## If You Get These Wrong, Revise
 
 - **Cell biology and microscopy** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
-- **DNA replication and mutation** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
+- **DNA replication and mutation** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Biochemistry and enzymes** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Photosynthesis and plant transport** --> Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/)
 - **Physiology and homeostasis** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 
 ---
 
@@ -1483,18 +1483,18 @@ consequences, and evaluate One conservation strategy.
 ## Cross-References to Related Topics
 
 - **Evolution and natural selection**: Review
-  [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution) for
+  [.../5-evolution-and-biodiversity/1_evolution](/biology/5-evolution-and-biodiversity/1_evolution/) for
   adaptation, speciation, and Hardy-Weinberg equilibrium.
 - **Plant biology and transport**: Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology) for transpiration,
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/) for transpiration,
   mineral uptake, and plant responses to environment.
 - **Molecular biology and the carbon cycle**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   photosynthesis and biochemical pathways.
 - **Human physiology and environmental health**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for the
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for the
   effects of pollution on human health.
-- **Genetics and population genetics**: Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+- **Genetics and population genetics**: Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
   for allele frequency calculations and genetic drift.
 
 ---

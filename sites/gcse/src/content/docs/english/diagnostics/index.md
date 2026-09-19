@@ -18,9 +18,9 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [Diag Creative Writing](./diag-creative-writing)
-- [Diag Reading Fiction](./diag-reading-fiction)
-- [Diag Reading Nonfiction](./diag-reading-nonfiction)
+- [Diag Creative Writing](/english/diagnostics/diag-creative-writing/)
+- [Diag Reading Fiction](/english/diagnostics/diag-reading-fiction/)
+- [Diag Reading Nonfiction](/english/diagnostics/diag-reading-nonfiction/)
 
 ## Learning Objectives
 

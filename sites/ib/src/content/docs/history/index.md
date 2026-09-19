@@ -17,21 +17,21 @@ This section provides study materials and resources for history. Browse the topi
 
 ## Topics
 
-- [20th Century China](./20th-century-china)
-- [Authoritarian States](./authoritarian-states)
-- [Causes And Effects Of Wars](./causes-and-effects-of-wars)
-- [Cold War](./cold-war)
-- [Democratic States](./democratic-states)
-- [Essay Techniques](./essay-techniques)
-- [Fascism Italy](./fascism-italy)
-- [Historical Investigation And Methodology](./historical-investigation-and-methodology)
-- [History](./history)
-- [Independent Study](./independent-study)
-- [Practice History](./practice-history)
-- [Rights And Protest](./rights-and-protest)
-- [Superpower Relations](./superpower-relations)
-- [The Cold War](./the-cold-war)
-- [The Move To Global War](./the-move-to-global-war)
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes And Effects Of Wars](/history/causes-and-effects-of-wars/)
+- [Cold War](/history/cold-war/)
+- [Democratic States](/history/democratic-states/)
+- [Essay Techniques](/history/essay-techniques/)
+- [Fascism Italy](/history/fascism-italy/)
+- [Historical Investigation And Methodology](/history/historical-investigation-and-methodology/)
+- [History](/history/history/)
+- [Independent Study](/history/independent-study/)
+- [Practice History](/history/practice-history/)
+- [Rights And Protest](/history/rights-and-protest/)
+- [Superpower Relations](/history/superpower-relations/)
+- [The Cold War](/history/the-cold-war/)
+- [The Move To Global War](/history/the-move-to-global-war/)
 
 
 ## Overview

@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [3_modern Texts And Poetry](./3_modern-texts-and-poetry)
+- [3_modern Texts And Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/)
 
 ## Learning Objectives
 

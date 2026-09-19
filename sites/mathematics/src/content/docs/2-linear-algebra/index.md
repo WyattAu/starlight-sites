@@ -50,15 +50,15 @@ sources:
 
 ## Contents
 
-1. [Vectors and Vector Spaces](1_vectors-and-vector-spaces)
-2. [Linear Independence, Span, Basis, and Dimension](2_linear-independence-span-basis-and-dimension)
-3. [Matrices](3_matrices)
-4. [Systems of Linear Equations](4_systems-of-linear-equations)
-5. [Eigenvalues and Eigenvectors](5_eigenvalues-and-eigenvectors)
-6. [Linear Transformations](6_linear-transformations)
-7. [Inner Product Spaces](7_inner-product-spaces)
-8. [Singular Value Decomposition](8_singular-value-decomposition)
-9. [Problem Set](9_problem-set)
+1. [Vectors and Vector Spaces](/2-linear-algebra/1_vectors-and-vector-spaces/)
+2. [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+3. [Matrices](/2-linear-algebra/3_matrices/)
+4. [Systems of Linear Equations](/2-linear-algebra/4_systems-of-linear-equations/)
+5. [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+6. [Linear Transformations](/2-linear-algebra/6_linear-transformations/)
+7. [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+8. [Singular Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/)
+9. [Problem Set](/2-linear-algebra/9_problem-set/)
 
 ## Overview
 

@@ -1168,6 +1168,6 @@ Python's standard library is "batteries included": it ships with modules for alm
 
 ## Cross-References
 
-- [File I/O](../../../../../languages/src/content/docs/python/05-standard-library/02-file-io)
-- [CLI Tools](../../../../../languages/src/content/docs/python/05-standard-library/03-cli-tools)
-- [Modules and Packages](../../../../../go/src/content/docs/advanced/modules-and-packages)
+- [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
+- [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/)
+- [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)

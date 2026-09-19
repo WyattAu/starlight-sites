@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_haskell Intro](./1_haskell-intro)
+- [1_haskell Intro](/haskell/00-intro/1_haskell-intro/)
 
 ## Learning Objectives
 

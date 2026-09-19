@@ -997,7 +997,7 @@ Strings in Java are immutable sequences of UTF-16 code units. Every operation th
 
 ## Cross-References
 
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- String immutability and the pool
-- [Collections Framework](../04-collections/01-collections-framework) -- using Strings as keys
-- [Streams API](../05-streams/01-streams-api) -- string processing with streams
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- String immutability and the pool
+- [Collections Framework](/04-collections/01-collections-framework/) -- using Strings as keys
+- [Streams API](/05-streams/01-streams-api/) -- string processing with streams
 :::

@@ -54,51 +54,51 @@ pitfalls, and exam-style problems.
 
 ### Mechanics
 
-- **[Kinematics](./1-space-time-and-motion/1_kinematics)**, Motion, velocity, acceleration,
+- **[Kinematics](/physics/1-space-time-and-motion/1_kinematics/)**, Motion, velocity, acceleration,
   projectiles, and kinematics equations
-- **[Dynamics and Newton"s Laws](./1-space-time-and-motion/2_dynamics)**, Newton's laws, friction,
+- **[Dynamics and Newton"s Laws](/physics/1-space-time-and-motion/2_dynamics/)**, Newton's laws, friction,
   momentum, impulse, and work-energy
-- **[Energy and Conservation](./1-space-time-and-motion/3_energy)**, Kinetic energy, potential
+- **[Energy and Conservation](/physics/1-space-time-and-motion/3_energy/)**, Kinetic energy, potential
   energy, conservation of energy, and power
-- **[Rotational Motion](./1-space-time-and-motion/4_rotational-motion)**, Circular motion,
+- **[Rotational Motion](/physics/1-space-time-and-motion/4_rotational-motion/)**, Circular motion,
   centripetal acceleration, torque, and angular momentum
-- **[Forces and Momentums](./1-space-time-and-motion/5_forces-and-momentum)**, Forces and momentums
+- **[Forces and Momentums](/physics/1-space-time-and-motion/5_forces-and-momentum/)**, Forces and momentums
   in the context of space-time
 
 ### Fields
 
-- **[Gravitational Fields](./4-fields/1_gravitational-fields)**, Newton's law of gravitation,
+- **[Gravitational Fields](/physics/4-fields/1_gravitational-fields/)**, Newton's law of gravitation,
   gravitational potential, and orbital mechanics
-- **[Electric and Magnetic Fields](./4-fields/2_electric-and-magnetic-fields)**, Coulomb's law,
+- **[Electric and Magnetic Fields](/physics/4-fields/2_electric-and-magnetic-fields/)**, Coulomb's law,
   electric potential, and magnetic fields
-- **[Motion in Electromagnetic Fields](./4-fields/3_motion-in-electromagnetic-fields)**, Charged
+- **[Motion in Electromagnetic Fields](/physics/4-fields/3_motion-in-electromagnetic-fields/)**, Charged
   particle motion in electric and magnetic fields
-- **[Induction](./4-fields/4_induction)**, Electromagnetic induction, Faraday's law, and Lenz's law
+- **[Induction](/physics/4-fields/4_induction/)**, Electromagnetic induction, Faraday's law, and Lenz's law
 
 ### Waves
 
-- **[Wave Phenomena](./3-wave-behaviour/4_wave-phenomena)**, Standing waves, resonance, harmonics,
+- **[Wave Phenomena](/physics/3-wave-behaviour/4_wave-phenomena/)**, Standing waves, resonance, harmonics,
   Doppler effect, diffraction, and interference
 
 ### Thermal Physics
 
-- **[Thermodynamics](./2-particulate-nature-of-matter/1_thermodynamics)**, Heat, temperature,
+- **[Thermodynamics](/physics/2-particulate-nature-of-matter/1_thermodynamics/)**, Heat, temperature,
   internal energy, and the laws of thermodynamics
 
 ### Electricity
 
-- **[Current Electricity](./2-particulate-nature-of-matter/6_current-electricity)**, Electric
+- **[Current Electricity](/physics/2-particulate-nature-of-matter/6_current-electricity/)**, Electric
   circuits, resistance, Kirchhoff's laws, and potential dividers
 
 ## AHL / Advanced Topics
 
 ### Quantum and Nuclear Physics
 
-- **[Quantum and Nuclear Physics](./5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics)**,
+- **[Quantum and Nuclear Physics](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/)**,
   Radioactivity, nuclear reactions, and binding energy
-- **[Atomic and Nuclear Physics](./2-particulate-nature-of-matter/2_atomic-physics)**, Atomic
+- **[Atomic and Nuclear Physics](/physics/2-particulate-nature-of-matter/2_atomic-physics/)**, Atomic
   models, nuclear physics, radioactivity, and mass-energy equivalence
-- **[Quantum and Nuclear Physics (Advanced)](./5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics)**
+- **[Quantum and Nuclear Physics (Advanced)](/physics/5-nuclear-and-quantum-physics/1_quantum-and-nuclear-physics/)**
 Photoelectric effect, photon model, de Broglie wavelength, energy levels, and spectra
 
 ## Exam Resources
@@ -202,5 +202,5 @@ Physics is the study of how the universe behaves when you ask it direct question
 ## Cross-References
 
 - [Syllabus](../maths/Syllabus) provides the complete IB Physics syllabus outline with key understanding statements and equations.
-- [Wrap Up](wrap-up) offers a revision summary across all five thematic areas with exam-focused strategies.
-- [Kinematics](../../../../../ap/src/content/docs/physics/1-kinematics/1_kinematics) is the starting point for Thematic Area A covering motion, velocity, and acceleration.
+- [Wrap Up](/physics/wrap-up/) offers a revision summary across all five thematic areas with exam-focused strategies.
+- [Kinematics](https://ap.wyattau.com/physics/1-kinematics/1_kinematics/) is the starting point for Thematic Area A covering motion, velocity, and acceleration.

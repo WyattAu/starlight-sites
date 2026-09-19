@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_poetry Analysis](./1_poetry-analysis)
+- [1_poetry Analysis](/english/2-poetry/1_poetry-analysis/)
 
 ## Learning Objectives
 

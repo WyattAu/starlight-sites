@@ -1297,15 +1297,15 @@ Antibiotic treatment of streptococcal pharyngitis reduces the risk of developing
 ## If You Get These Wrong, Revise
 
 - **Cell biology and phagocytosis** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Molecular biology and protein structure** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Genetics and V(D)J recombination** --> Review
-  [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Human physiology -- circulatory system** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 - **Enzyme kinetics (ELISA)** --> Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism)
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/)
 
 ---
 
@@ -1754,18 +1754,18 @@ Antibodies; it is mediated by sensitised T cells.
 ## Cross-References to Related Topics
 
 - **Cell membrane and receptor proteins**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane protein
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane protein
   structure and signalling.
 - **Protein structure and antibodies**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   immunoglobulin structure and antigen binding.
-- **Genetics and V(D)J recombination**: Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+- **Genetics and V(D)J recombination**: Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
   for antibody diversity generation.
 - **Human physiology -- blood and circulation**: Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology) for blood
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/) for blood
   cell types and circulatory pathways.
 - **Molecular biology -- DNA technology**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for monoclonal antibody
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for monoclonal antibody
   production techniques.
 
 ---

@@ -42,9 +42,9 @@ Physics describes the fundamental laws governing the universe, from the motion o
 
 ## Cross-References
 
-- **[Classical Mechanics](1-classical-mechanics/14_flashcards-classical-mechanics)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
-- **[Electromagnetism](../../../../alevel/src/content/docs/physics/diagnostics/diag-electromagnetism-unification)**: Maxwell's equations unify electricity, magnetism, and light.
-- **[Quantum Mechanics](5-quantum-mechanics/16_flashcards-quantum-mechanics)**: Quantum theory governs behaviour at atomic and subatomic scales.
+- **[Classical Mechanics](/1-classical-mechanics/14_flashcards-classical-mechanics/)**: Newtonian and Lagrangian mechanics describe motion of macroscopic objects.
+- **[Electromagnetism](https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification/)**: Maxwell's equations unify electricity, magnetism, and light.
+- **[Quantum Mechanics](/5-quantum-mechanics/16_flashcards-quantum-mechanics/)**: Quantum theory governs behaviour at atomic and subatomic scales.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_chemical Bonding](./1_chemical-bonding)
-- [2_chemical Bonding Advanced](./2_chemical-bonding-advanced)
+- [1_chemical Bonding](/chemistry/4-chemical-bonding/1_chemical-bonding/)
+- [2_chemical Bonding Advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
 
 ## Learning Objectives
 

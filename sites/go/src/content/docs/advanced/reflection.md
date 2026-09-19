@@ -315,6 +315,6 @@ Reflection lets you inspect and manipulate types at runtime when static typing i
 
 ## Cross-References
 
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables) -- type system and conversions
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) -- first-class values and closures
-- [Goroutines and Synchronization](../concurrency/goroutines) -- concurrency primitives
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- type system and conversions
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class values and closures
+- [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrency primitives

@@ -2283,10 +2283,10 @@ flowchart TD
 
 ## Cross-References
 
-- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Market structures determine how firms respond to international competition and trade policy.
-- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Trade liberalisation is a supply-side policy that increases productive capacity through specialisation.
-- [Descriptive Statistics](../5-quantitative-economics/1-descriptive-statistics) -- Terms of trade indices and trade data require the quantitative skills covered in this topic.
-- [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Strategic trade theory applies game-theoretic models to international trade policy.
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/) -- Market structures determine how firms respond to international competition and trade policy.
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/) -- Trade liberalisation is a supply-side policy that increases productive capacity through specialisation.
+- [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/) -- Terms of trade indices and trade data require the quantitative skills covered in this topic.
+- [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural/) -- Strategic trade theory applies game-theoretic models to international trade policy.
 
 ---
 

@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [Chronicle Streetcar](./chronicle-streetcar)
+- [Chronicle Streetcar](/english/comparitives/chronicle-streetcar/)
 
 ## Learning Objectives
 

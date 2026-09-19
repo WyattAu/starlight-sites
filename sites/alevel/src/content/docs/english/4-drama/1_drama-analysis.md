@@ -318,5 +318,5 @@ flowchart TD
 ## See Also
 
 - [Drama](./)
-- [A-Level English](..)
-- [Complexity Analysis](../../computer-science/algorithms/04-complexity-analysis)
+- [A-Level English](/)
+- [Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/)

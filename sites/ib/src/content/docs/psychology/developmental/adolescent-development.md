@@ -44,7 +44,7 @@ Levels of sex hormones (testosterone in males, oestrogen and progesterone in fem
 
 ### Brain Development
 
-As discussed in [Developmental Psychology](../developmental-psychology), the adolescent brain
+As discussed in [Developmental Psychology](/psychology/developmental-psychology/), the adolescent brain
 Undergoes significant remodelling. The two key processes are:
 
 1. **Synaptic pruning:** The elimination of unused synaptic connections, refining neural circuits
@@ -270,7 +270,7 @@ Real-world risk behaviour.
 </details>
 
 For an overview of developmental topics, see
-[Developmental Psychology](../developmental-psychology).
+[Developmental Psychology](/psychology/developmental-psychology/).
 
 ## Common Pitfalls
 
@@ -312,6 +312,6 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

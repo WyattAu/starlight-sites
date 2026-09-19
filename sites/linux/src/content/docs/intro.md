@@ -121,20 +121,20 @@ Preventing recurrence.
 This section covers the core Linux competencies expected of a systems engineer:
 
 1. **CLI Fundamentals**. Shell basics and core utilities
-   ([shell-basics](./01-cli-fundamentals/shell-basics),
-   [core-utilities](./01-cli-fundamentals/core-utilities))
+   ([shell-basics](/01-cli-fundamentals/shell-basics/),
+   [core-utilities](/01-cli-fundamentals/core-utilities/))
 2. **File Systems**. VFS, ext4, XFS, Btrfs, mounting
-   ([filesystems-and-mounting](./02-file-systems/filesystems-and-mounting))
+   ([filesystems-and-mounting](/02-file-systems/filesystems-and-mounting/))
 3. **Process Management**. Process model, signals, cgroups, resource limits
-   ([processes-and-signals](./03-process-management/processes-and-signals))
+   ([processes-and-signals](/03-process-management/processes-and-signals/))
 4. **Networking**. Netfilter, namespaces, routing, troubleshooting
-   ([linux-networking](./04-networking/linux-networking))
+   ([linux-networking](/04-networking/linux-networking/))
 5. **Systemd**. Service management, timers, socket activation, hardening
-   ([systemd](./05-systemd/systemd))
+   ([systemd](/05-systemd/systemd/))
 6. **Security**. PAM, SELinux, capabilities, seccomp, audit
-   ([linux-security](./06-security/linux-security))
+   ([linux-security](/06-security/linux-security/))
 7. **Package Management**. APT, DNF, Nix, dependency resolution
-   ([package-management](./07-package-management/package-management))
+   ([package-management](/07-package-management/package-management/))
 
 Editing files). The focus is on depth, understanding _how_ things work, not just _what_ commands to
 Run.

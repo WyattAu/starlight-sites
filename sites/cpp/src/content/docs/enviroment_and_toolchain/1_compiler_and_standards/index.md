@@ -18,11 +18,11 @@ This section provides study materials and resources for 1_compiler_and_standards
 
 ## Topics
 
-- [1_installing_compiler](./1_installing_compiler)
-- [2_language_standard_and_abi_compatibility](./2_language_standard_and_abi_compatibility)
-- [3_standard_library_implementation](./3_standard_library_implementation)
-- [4_crosscompilation_toolchains](./4_crosscompilation_toolchains)
-- [5_linker_configuration](./5_linker_configuration)
+- [1_installing_compiler](/enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler/)
+- [2_language_standard_and_abi_compatibility](/enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility/)
+- [3_standard_library_implementation](/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation/)
+- [4_crosscompilation_toolchains](/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/)
+- [5_linker_configuration](/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/)
 
 ## Learning Objectives
 

@@ -1512,10 +1512,10 @@ applying these mathematical techniques.
 
 ## Cross-References
 
-- [Generators and Iterators](04-generators-and-iterators) -- Generator functions are a specialised form of closures that produce sequences lazily.
-- [Advanced Type System](../08-advanced-topics/01-advanced-typing) -- Type annotations on functions and closures enable static type checking with mypy.
-- [Decorators and Closures](03-functions) -- Decorators are functions that modify other functions, using the closure mechanics covered here.
-- [List Comprehensions](../../../../../../computer-science/src/content/docs/1-algorithms/data-structures) -- List comprehensions provide concise syntax for creating lists, while generators extend this to lazy evaluation.
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Generator functions are a specialised form of closures that produce sequences lazily.
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/) -- Type annotations on functions and closures enable static type checking with mypy.
+- [Decorators and Closures](/python/02-fundamentals/03-functions/) -- Decorators are functions that modify other functions, using the closure mechanics covered here.
+- [List Comprehensions](https://computer-science.wyattau.com/1-algorithms/data-structures/) -- List comprehensions provide concise syntax for creating lists, while generators extend this to lazy evaluation.
 
 ## Worked Examples
 

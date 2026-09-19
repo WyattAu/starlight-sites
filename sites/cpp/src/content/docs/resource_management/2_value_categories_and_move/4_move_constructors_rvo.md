@@ -944,9 +944,9 @@ Over `std::function` if copyability is not required. This avoids the internal he
 
 ## See Also
 
-- [Reference Collapsing and Forwarding References](2_reference_collapsing)
-- [Temporary Materialization](3_temporary_materialization)
-- [Return Value Optimization (RVO) and NRVO](5_return_value_optimization)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
 
 ```mermaid
 flowchart TD

@@ -816,13 +816,13 @@ $\mathrm{Co}^{2+}$ is **paramagnetic** with three unpaired electrons.
 ## If You Get These Wrong, Revise
 
 - **Chemical bonding and VSEPR geometry** → Review
-  [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
+  [..../4-chemical-bonding/2_chemical-bonding-advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
 - **Periodic trends (IE, EN, atomic radius)** → Review
-  [..../3-periodicity/1_periodicity](../3-periodicity/1_periodicity)
+  [..../3-periodicity/1_periodicity](/chemistry/3-periodicity/1_periodicity/)
 - **Spectroscopy and energy level calculations** → Review
-  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](../11-measurement-and-data-processing/1_measurement-and-data-processing)
+  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)
 - **Redox half-equations and oxidation states** → Review
-  [..../9-redox/2_redox-advanced](../9-redox/2_redox-advanced)
+  [..../9-redox/2_redox-advanced](/chemistry/9-redox/2_redox-advanced/)
 
 ```mermaid
 flowchart TD

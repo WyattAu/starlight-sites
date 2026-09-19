@@ -189,6 +189,6 @@ Database problems teach you to think about data as a structured resource that mu
 
 ## Cross-References
 
-- **[Databases Practice](./14_practice-databases):** Auto-graded database problems.
-- **[Normalisation](./4_normalisation):** Schema design and functional dependencies.
-- **[Query Optimisation](./7_query-optimisation):** Query planning and execution.
+- **[Databases Practice](/4-databases/14_practice-databases/):** Auto-graded database problems.
+- **[Normalisation](/4-databases/4_normalisation/):** Schema design and functional dependencies.
+- **[Query Optimisation](/4-databases/7_query-optimisation/):** Query planning and execution.

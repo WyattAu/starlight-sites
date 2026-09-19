@@ -1015,6 +1015,6 @@ Error handling patterns in Rust are about designing APIs that make failure modes
 
 ## Cross-References
 
-- [Error Handling](../../../../../dart/src/content/docs/08-error-handling)
-- [Traits and Generics](../../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)
-- [Cargo and Ecosystem](../../../../../languages/src/content/docs/rust/07-cargo-ecosystem/cargo-and-ecosystem)
+- [Error Handling](https://dart.wyattau.com/08-error-handling/)
+- [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+- [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/)

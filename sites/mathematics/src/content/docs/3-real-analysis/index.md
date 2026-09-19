@@ -64,14 +64,14 @@ with integration and differentiation.
 
 ## Contents
 
-1. [The Real Number System](1_the-real-number-system)
-2. [Sequences and Limits](2_sequences-and-limits)
-3. [Series](3_series)
-4. [Continuity](4_continuity)
-5. [Differentiability](5_differentiability)
-6. [Riemann Integration](6_riemann-integration)
-7. [Sequences and Series of Functions](7_sequences-and-series-of-functions)
-8. [Problem Set](8_problem-set)
+1. [The Real Number System](/3-real-analysis/1_the-real-number-system/)
+2. [Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)
+3. [Series](/3-real-analysis/3_series/)
+4. [Continuity](/3-real-analysis/4_continuity/)
+5. [Differentiability](/3-real-analysis/5_differentiability/)
+6. [Riemann Integration](/3-real-analysis/6_riemann-integration/)
+7. [Sequences and Series of Functions](/3-real-analysis/7_sequences-and-series-of-functions/)
+8. [Problem Set](/3-real-analysis/8_problem-set/)
 
 ## Overview
 

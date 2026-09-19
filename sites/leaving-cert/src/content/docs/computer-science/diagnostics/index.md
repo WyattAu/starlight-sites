@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [Diag Systems](./diag-systems)
+- [Diag Systems](/computer-science/diagnostics/diag-systems/)
 
 ## Learning Objectives
 

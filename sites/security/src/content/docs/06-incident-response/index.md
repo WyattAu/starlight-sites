@@ -18,8 +18,8 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Forensics](./forensics)
-- [Incident Response](./incident-response)
+- [Forensics](/06-incident-response/forensics/)
+- [Incident Response](/06-incident-response/incident-response/)
 
 ## Learning Objectives
 

@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Collections](./01-collections)
-- [Dicts Sets Counter](./02-dicts-sets-counter)
+- [Collections](/python/03-data-structures/01-collections/)
+- [Dicts Sets Counter](/python/03-data-structures/02-dicts-sets-counter/)
 
 ## Learning Objectives
 

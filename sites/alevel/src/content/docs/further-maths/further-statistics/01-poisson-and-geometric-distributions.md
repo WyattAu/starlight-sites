@@ -671,13 +671,13 @@ Events follows the exponential distribution $\mathrm{Exp}(\lambda)$. See
 
 The probability generating function $G_X(t) = \dfrac{pt}{1-qt}$ of the geometric distribution
 Connects to the summation of geometric series. See
-[Further Algebra](../pure-mathematics/03-further-algebra).
+[Further Algebra](/further-maths/pure-mathematics/03-further-algebra/).
 
 ### 8.3 Poisson and hypothesis testing
 
 Goodness-of-fit tests using the chi-squared statistic compare observed and expected (Poisson)
 Frequencies. See
-[Chi-Squared Tests](03-chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/).
 
 ---
 
@@ -999,7 +999,7 @@ $\lambda = np$.
 
 The chi-squared goodness-of-fit test is used to test whether data follows a Poisson or geometric
 Distribution. See
-[Chi-Squared Tests](03-chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/).
 
 ---
 
@@ -1255,6 +1255,6 @@ This converges when $|(1-p)e^t| < 1$I.e., $t < -\ln(1-p)$. $\blacksquare$
 
 ## Cross-References
 
-- [Exponential and Continuous Random Variables](./02-exponential-and-continuous-random-variables) -- The inter-arrival times of a Poisson process follow the exponential distribution, linking discrete and continuous modelling.
-- [Chi-Squared Tests](./03-chi-squared-tests) -- Goodness-of-fit tests using the chi-squared statistic compare observed frequencies with Poisson or geometric expected values.
-- [Binomial Distribution](../pure-mathematics/01-complex-numbers) -- The Poisson distribution arises as a limiting case of the binomial when n is large and p is small.
+- [Exponential and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/) -- The inter-arrival times of a Poisson process follow the exponential distribution, linking discrete and continuous modelling.
+- [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/) -- Goodness-of-fit tests using the chi-squared statistic compare observed frequencies with Poisson or geometric expected values.
+- [Binomial Distribution](/further-maths/pure-mathematics/01-complex-numbers/) -- The Poisson distribution arises as a limiting case of the binomial when n is large and p is small.

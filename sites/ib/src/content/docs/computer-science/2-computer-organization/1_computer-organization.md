@@ -871,5 +871,5 @@ linked above.
 ## See Also
 
 - [Computer Organization](./)
-- [IB Computer Science](..)
-- [System In Organizations](../1-system-fundamentals/2_system-organization)
+- [IB Computer Science](/)
+- [System In Organizations](/computer-science/1-system-fundamentals/2_system-organization/)

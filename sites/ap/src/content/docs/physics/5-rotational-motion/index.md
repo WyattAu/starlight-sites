@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [5_rotational Motion](./5_rotational-motion)
+- [5_rotational Motion](/physics/5-rotational-motion/5_rotational-motion/)
 
 ## Learning Objectives
 

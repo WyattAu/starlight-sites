@@ -1073,5 +1073,5 @@ Advanced types unlock TypeScript's type-level programming capabilities. Conditio
 ## See Also
 
 - [Typescript](./)
-- [Advanced Patterns](./advanced-patterns)
-- [Types and Annotations](./types-and-annotations)
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Types and Annotations](/typescript/types-and-annotations/)

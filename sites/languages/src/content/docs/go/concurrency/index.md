@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Channels](./channels)
-- [Goroutines](./goroutines)
-- [Race Conditions](./race-conditions)
+- [Channels](/go/concurrency/channels/)
+- [Goroutines](/go/concurrency/goroutines/)
+- [Race Conditions](/go/concurrency/race-conditions/)
 
 ## Learning Objectives
 

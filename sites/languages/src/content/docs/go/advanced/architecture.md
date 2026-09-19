@@ -598,5 +598,5 @@ linked above.
 ## See Also
 
 - [Advanced](./)
-- [Modules and Packages](./modules-and-packages)
-- [Networking](./networking)
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)

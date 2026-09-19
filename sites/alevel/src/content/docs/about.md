@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [A-Level Notes](./)
-- [Diagnostics](./biology/diagnostics)
-- [Biology](./biology)
+- [Diagnostics](/biology/diagnostics/)
+- [Biology](/biology/)
 
 
 ## Detailed Content

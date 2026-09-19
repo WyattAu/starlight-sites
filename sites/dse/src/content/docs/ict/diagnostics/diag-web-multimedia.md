@@ -360,5 +360,5 @@ external domains. (3) Loading resources (images, styles, fonts) from untrusted s
 ## See Also
 
 - [Diagnostics](./)
-- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)
-- [Data Representation -- Diagnostic Tests](./diag-data-representation)
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)

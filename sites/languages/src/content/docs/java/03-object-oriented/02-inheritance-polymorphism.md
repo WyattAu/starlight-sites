@@ -930,5 +930,5 @@ linked above.
 ## See Also
 
 - [Object Oriented](./)
-- [Classes and Inheritance](./01-classes)
-- [Java](..)
+- [Classes and Inheritance](/java/03-object-oriented/01-classes/)
+- [Java](/)

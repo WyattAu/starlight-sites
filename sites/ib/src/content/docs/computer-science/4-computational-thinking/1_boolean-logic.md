@@ -1494,5 +1494,5 @@ linked above.
 ## See Also
 
 - [Computational Thinking](./)
-- [Algorithms and Data Structures](./2_algorithms-and-data-structures)
-- [IB Computer Science](..)
+- [Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)
+- [IB Computer Science](/)

@@ -2221,5 +2221,5 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 ## See Also
 
 - [Cell Biology](./)
-- [DSE Biology](..)
-- [Cell Biology and Biochemistry -- Diagnostic Tests](../diagnostics/diag-cell-biology-biochemistry)
+- [DSE Biology](/)
+- [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)

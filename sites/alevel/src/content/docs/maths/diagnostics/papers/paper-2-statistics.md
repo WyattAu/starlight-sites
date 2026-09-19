@@ -566,5 +566,5 @@ linked above.
 ## See Also
 
 - [Papers](./)
-- [Paper 3 -- Mechanics -- Full Diagnostic Exam](./paper-3-mechanics)
-- [Paper 1 -- Pure Mathematics -- Full Diagnostic Exam](./paper-1-pure-mathematics)
+- [Paper 3 -- Mechanics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-3-mechanics/)
+- [Paper 1 -- Pure Mathematics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-1-pure-mathematics/)

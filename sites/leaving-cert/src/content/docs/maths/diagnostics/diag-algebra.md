@@ -381,7 +381,7 @@ linked above.
 
 ## Cross-References
 
-- **[Algebra](../1-algebra/1_algebra):** Full notes on equations, inequalities, sequences, and algebraic proofs.
-- **[Calculus](../2-calculus/2_calculus):** Covers differentiation and integration, which build on algebraic manipulation skills.
-- **[Practice Maths](../practice-maths):** Interactive practice problems covering algebra, calculus, geometry, and probability.
-- **[Probability and Statistics](../4-probability-statistics/4_probability-statistics):** Covers probability and statistics topics that use algebraic techniques.
+- **[Algebra](/maths/1-algebra/1_algebra/):** Full notes on equations, inequalities, sequences, and algebraic proofs.
+- **[Calculus](/maths/2-calculus/2_calculus/):** Covers differentiation and integration, which build on algebraic manipulation skills.
+- **[Practice Maths](/maths/practice-maths/):** Interactive practice problems covering algebra, calculus, geometry, and probability.
+- **[Probability and Statistics](/maths/4-probability-statistics/4_probability-statistics/):** Covers probability and statistics topics that use algebraic techniques.

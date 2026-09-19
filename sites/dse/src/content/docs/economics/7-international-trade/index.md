@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_international Trade And Finance](./1_international-trade-and-finance)
+- [1_international Trade And Finance](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ## Learning Objectives
 

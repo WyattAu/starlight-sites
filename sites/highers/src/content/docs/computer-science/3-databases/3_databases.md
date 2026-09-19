@@ -769,9 +769,9 @@ See the examples integrated throughout the sections above.
 
 ## Cross-References
 
-- [Software](../2-software/2_software) covers the software engineering principles used to design and implement database systems.
-- [Hardware](../../../../../../leaving-cert/src/content/docs/computer-science/1-hardware/1_hardware) explains the storage and processing architecture that determines database performance characteristics.
-- [Algorithms](../4-algorithms/4_algorithms) provides the sorting, searching, and graph algorithms used in database query optimisation.
+- [Software](/computer-science/2-software/2_software/) covers the software engineering principles used to design and implement database systems.
+- [Hardware](https://leaving-cert.wyattau.com/computer-science/1-hardware/1_hardware/) explains the storage and processing architecture that determines database performance characteristics.
+- [Algorithms](/computer-science/4-algorithms/4_algorithms/) provides the sorting, searching, and graph algorithms used in database query optimisation.
 
 
 ```mermaid

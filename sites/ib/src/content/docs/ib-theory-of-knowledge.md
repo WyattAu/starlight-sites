@@ -317,5 +317,5 @@ flowchart TD
 ## See Also
 
 - [IB Notes](./)
-- [About This Site](./about)
-- [Complete IB Study Guide, All Subjects & Papers](./hub)
+- [About This Site](/about/)
+- [Complete IB Study Guide, All Subjects & Papers](/hub/)

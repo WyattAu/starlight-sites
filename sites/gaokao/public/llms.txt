@@ -1,0 +1,52 @@
+# Gaokao — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Gaokao revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://gaokao.wyattau.com/about/): About Wyatt's Notes Gaokao resources, experience, expertise, and credentials behind Chinese national college entrance examination study materials.
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](https://gaokao.wyattau.com/hub/): Study notes for Complete Gaokao Study Guide, Math, Physics, Chemistry with worked examples, practice problems, and key concepts for exam preparation.
+- [Gaokao - Wyatt's Notes](https://gaokao.wyattau.com/): Gaokao revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+- [Gaokao Flashcards: Mathematics](https://gaokao.wyattau.com/flashcards-mathematics/): Gaokao Flashcards: Mathematics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Gaokao Glossary, Key Terms and Definitions](https://gaokao.wyattau.com/glossary/): Study notes for Gaokao Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [Introduction to Gaokao Notes](https://gaokao.wyattau.com/intro/): The (高考, formally the National College Entrance Examination) is the standardised examination used for university admission in China. It is widely regarded
+- [数学练习 | Gaokao - Wyatt's Notes](https://gaokao.wyattau.com/practice-mathematics/): Mathematical problem-solving is a systematic process: Every problem has a logical path to the solution. The challenge is identifying which concepts and
+
+## Chemistry
+
+- [Chemistry](https://gaokao.wyattau.com/chemistry/): This section covers chemistry concepts, definitions, and applications with worked examples and practice problems.
+- [Inorganic](https://gaokao.wyattau.com/chemistry/inorganic/): Study notes for Inorganic with worked examples, practice problems, and key concepts for exam preparation.
+- [Organic](https://gaokao.wyattau.com/chemistry/organic/): Study notes for Organic with worked examples, practice problems, and key concepts for exam preparation.
+
+## Chinese
+
+- [Reading](https://gaokao.wyattau.com/chinese/reading/): Study notes for Reading with worked examples, practice problems, and key concepts for exam preparation.
+- [Writing](https://gaokao.wyattau.com/chinese/writing/): Study notes for Writing with worked examples, practice problems, and key concepts for exam preparation.
+
+## Diagnostics
+
+- [数学诊断测试 | Gaokao - Wyatt's Notes](https://gaokao.wyattau.com/diagnostics/diag-mathematics/): Diagnostic test notes for gaokao 数学诊断测试 covering key concepts, worked examples, and practice problems for exam preparation.
+
+## English
+
+- [English](https://gaokao.wyattau.com/english/): This section covers english concepts, definitions, and applications with worked examples and practice problems.
+- [Reading](https://gaokao.wyattau.com/english/reading/): Study notes for Reading with worked examples, practice problems, and key concepts for exam preparation.
+- [Writing](https://gaokao.wyattau.com/english/writing/): Study notes for Writing with worked examples, practice problems, and key concepts for exam preparation.
+
+## Mathematics
+
+- [Algebra](https://gaokao.wyattau.com/mathematics/algebra/): Study notes for Algebra with worked examples, practice problems, and key concepts for exam preparation.
+- [Functions](https://gaokao.wyattau.com/mathematics/functions/): Study notes for Functions with worked examples, practice problems, and key concepts for exam preparation.
+- [Geometry](https://gaokao.wyattau.com/mathematics/geometry/): Study notes for Geometry with worked examples, practice problems, and key concepts for exam preparation.
+- [Mathematics](https://gaokao.wyattau.com/mathematics/): This section covers mathematics concepts, definitions, and applications with worked examples and practice problems.
+
+## Physics
+
+- [Electricity](https://gaokao.wyattau.com/physics/electricity/): Study notes for Electricity with worked examples, practice problems, and key concepts for exam preparation.
+- [Mechanics](https://gaokao.wyattau.com/physics/mechanics/): Study notes for Mechanics with worked examples, practice problems, and key concepts for exam preparation.
+- [Optics | Gaokao - Wyatt's Notes](https://gaokao.wyattau.com/physics/optics/): Study notes for Optics with worked examples, practice problems, and key concepts for exam preparation.
+- [Physics](https://gaokao.wyattau.com/physics/): This section covers physics concepts, definitions, and applications with worked examples and practice problems.

@@ -961,7 +961,7 @@ linked above.
 
 ## Cross-References
 
-- [Essential Modules](./01-essential-modules): Covers the core Python modules that provide foundational functionality, including data structures used in serialization.
-- [File I/O](./02-file-io): Shows how to read and write files, which is essential for saving and loading serialized data.
-- [CLI Tools](./03-cli-tools): Demonstrates how to use command-line interfaces to process and transform serialized data.
-- [Data Validation](../08-advanced-topics/02-data-validation): Explains how to validate serialized data using Pydantic models and other validation techniques.
+- [Essential Modules](/python/05-standard-library/01-essential-modules/): Covers the core Python modules that provide foundational functionality, including data structures used in serialization.
+- [File I/O](/python/05-standard-library/02-file-io/): Shows how to read and write files, which is essential for saving and loading serialized data.
+- [CLI Tools](/python/05-standard-library/03-cli-tools/): Demonstrates how to use command-line interfaces to process and transform serialized data.
+- [Data Validation](/python/08-advanced-topics/02-data-validation/): Explains how to validate serialized data using Pydantic models and other validation techniques.

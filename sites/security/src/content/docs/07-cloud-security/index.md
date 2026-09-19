@@ -18,7 +18,7 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Cloud Security](./cloud-security)
+- [Cloud Security](/07-cloud-security/cloud-security/)
 
 ## Learning Objectives
 

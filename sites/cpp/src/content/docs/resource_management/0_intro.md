@@ -183,5 +183,5 @@ linked above.
 ## See Also
 
 - [Resource_management](./)
-- [Programming Notes](..)
-- [1_ownership_and_raii](./1_ownership_and_raii)
+- [Programming Notes](/)
+- [1_ownership_and_raii](/resource_management/1_ownership_and_raii/)

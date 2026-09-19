@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_methods And Blocks](./1_methods-and-blocks)
+- [1_methods And Blocks](/ruby/03-methods-blocks/1_methods-and-blocks/)
 
 ## Learning Objectives
 

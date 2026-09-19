@@ -910,10 +910,10 @@ False sense of security.
 
 ## Cross-References
 
-- [Data Modeling Patterns](data-modeling) - Detailed normalization, denormalization, and hierarchical data patterns
-- [Indexing and Optimization](../03-indexing-optimization/indexing) - How index selection methodology supports the physical design phase
-- [Schema Migrations](migrations) - Tools and strategies for evolving schemas after initial design
-- [Transactions and Concurrency](../04-transactions/transactions) - How isolation levels and MVCC interact with schema design decisions
+- [Data Modeling Patterns](/06-database-design/data-modeling/) - Detailed normalization, denormalization, and hierarchical data patterns
+- [Indexing and Optimization](/03-indexing-optimization/indexing/) - How index selection methodology supports the physical design phase
+- [Schema Migrations](/06-database-design/migrations/) - Tools and strategies for evolving schemas after initial design
+- [Transactions and Concurrency](/04-transactions/transactions/) - How isolation levels and MVCC interact with schema design decisions
 
 ## Worked Examples
 

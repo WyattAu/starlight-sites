@@ -509,5 +509,5 @@ flowchart TD
 ## See Also
 
 - [Diagnostics](./)
-- [Demand, Supply, and Markets -- Diagnostic Tests](./diag-demand-supply-markets)
-- [Fiscal and Monetary Policy -- Diagnostic Tests](./diag-fiscal-monetary-policy)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)

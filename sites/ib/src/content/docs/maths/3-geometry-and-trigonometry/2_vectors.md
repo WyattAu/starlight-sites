@@ -840,5 +840,5 @@ linked above.
 ## See Also
 
 - [Geometry And Trigonometry](./)
-- [Trigonometry](./1_trigonometry)
-- [Matrices and Transformations](./3_matrices-and-transformations)
+- [Trigonometry](/maths/3-geometry-and-trigonometry/1_trigonometry/)
+- [Matrices and Transformations](/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/)

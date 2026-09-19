@@ -512,5 +512,5 @@ m/s.
 ## See Also
 
 - [Diagnostics](./)
-- [Coordinates and Geometry -- Diagnostic Tests](./diag-coordinates-and-geometry)
-- [Correlation and Regression -- Diagnostic Tests](./diag-correlation-and-regression)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Correlation and Regression -- Diagnostic Tests](/maths/diagnostics/diag-correlation-and-regression/)

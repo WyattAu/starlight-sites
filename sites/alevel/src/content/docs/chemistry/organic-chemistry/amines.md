@@ -947,5 +947,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 ## See Also
 
 - [Organic Chemistry](./)
-- [Alcohols](./alcohols)
-- [Alkanes](./alkanes)
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)

@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Born Haber Cycles](./born-haber-cycles)
-- [Entropy And Gibbs](./entropy-and-gibbs)
+- [Born Haber Cycles](/chemistry/physical-chemistry-extra/born-haber-cycles/)
+- [Entropy And Gibbs](/chemistry/physical-chemistry-extra/entropy-and-gibbs/)
 
 ## Learning Objectives
 

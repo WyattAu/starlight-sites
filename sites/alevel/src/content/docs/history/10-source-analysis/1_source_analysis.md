@@ -249,5 +249,5 @@ balanced judgement.
 ## See Also
 
 - [Source Analysis](./)
-- [A-Level History](..)
-- [Complexity Analysis](../../computer-science/algorithms/04-complexity-analysis)
+- [A-Level History](/)
+- [Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/)

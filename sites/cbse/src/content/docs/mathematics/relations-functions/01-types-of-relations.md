@@ -165,9 +165,9 @@ Relations are rules that connect elements from one set to another. A relation on
 
 ## Cross-References
 
-- [Matrices](../../../../../../alevel/src/content/docs/further-maths/pure-mathematics/02-matrices) -- matrices as representations of relations
-- [CBSE Mathematics](../../../../../../ib/src/content/docs/maths/maths) -- sets, functions, and algebra
-- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- symmetry and conservation laws
+- [Matrices](https://alevel.wyattau.com/further-maths/pure-mathematics/02-matrices/) -- matrices as representations of relations
+- [CBSE Mathematics](https://ib.wyattau.com/maths/maths/) -- sets, functions, and algebra
+- [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- symmetry and conservation laws
 
 ## Common Mistakes
 

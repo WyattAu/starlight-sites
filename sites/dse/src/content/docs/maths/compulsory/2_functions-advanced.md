@@ -25,9 +25,9 @@ This note assumes the reader is already familiar with:
 - **Linear and quadratic functions**: slopes, intercepts, vertex form, factorisation.
 - **Simple graph transformations**: translation, reflection, and scaling of $y = f(x)$.
 
-These topics are covered in the introductory [Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
+These topics are covered in the introductory [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) note. Readers who have completed the DSE compulsory mathematics core should proceed directly; others should review the introductory functions material first.
 
-This note extends the treatment of functions covered in [Functions](1_functions), focusing on
+This note extends the treatment of functions covered in [Functions](/maths/compulsory/1_functions/), focusing on
 Domain restrictions, composite and inverse functions with non-trivial domains, and graphical
 Transformations.
 
@@ -735,13 +735,13 @@ Verification: $(f \circ h)(x) = 2\!\left(x + \dfrac{3}{2}\right) - 1 = 2x + 2$. 
 
 ## Cross-References
 
-- **Basic Functions:** Foundational definitions and notation are in [Functions](1_functions).
+- **Basic Functions:** Foundational definitions and notation are in [Functions](/maths/compulsory/1_functions/).
 - **Quadratics:** Quadratic functions feature heavily in inverse function problems. See
-  [Quadratics](3_quadratics).
+  [Quadratics](/maths/compulsory/3_quadratics/).
 - **Inequalities:** Domain restrictions often involve solving inequalities. See the inequalities
   notes.
 - **Coordinate Geometry:** Graphical interpretations of functions and transformations. See
-  [Coordinate Geometry](9_coordinate-geometry).
+  [Coordinate Geometry](/maths/compulsory/9_coordinate-geometry/).
 
 ---
 

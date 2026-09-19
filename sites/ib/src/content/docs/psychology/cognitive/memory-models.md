@@ -309,7 +309,7 @@ Misleading information is introduced after a delay (when the original memory has
 </details>
 
 For an overview of cognitive topics, see
-[Cognitive Level of Analysis](../cognitive-level-of-analysis).
+[Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/).
 
 ## Common Pitfalls
 
@@ -352,6 +352,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

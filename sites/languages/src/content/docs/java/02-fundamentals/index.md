@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Types And Variables](./01-types-and-variables)
-- [Control Flow](./02-control-flow)
-- [Strings](./03-strings)
+- [Types And Variables](/java/02-fundamentals/01-types-and-variables/)
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
+- [Strings](/java/02-fundamentals/03-strings/)
 
 ## Learning Objectives
 

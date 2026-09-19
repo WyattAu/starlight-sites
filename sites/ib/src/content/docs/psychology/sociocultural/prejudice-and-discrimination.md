@@ -43,7 +43,7 @@ Prejudiced (acting on implicit biases).
 
 ### Social Identity Theory
 
-As discussed in [Social Identity Theory](./social-identity-theory), Tajfel and Turner"s theory
+As discussed in [Social Identity Theory](/psychology/sociocultural/social-identity-theory/), Tajfel and Turner"s theory
 Explains prejudice as a consequence of the need for positive social identity. People derive
 Self-esteem from their group memberships and maintain positive social identity by positively
 Differentiating their in-group from out-groups. This process leads to in-group favouritism and, in
@@ -116,7 +116,7 @@ At the cost of accuracy and fairness.
    categories are distinctive (e.g., a minority group in a majority population).
 3. **Confirmation bias:** Once a stereotype is formed, people selectively attend to, remember, and
    interpret information that confirms the stereotype, while ignoring or discounting disconfirming
-   evidence (see [Thinking and Decision Making](../cognitive/thinking-and-decision-making)).
+   evidence (see [Thinking and Decision Making](/psychology/cognitive/thinking-and-decision-making/)).
 4. **In-group homogeneity effect:** The tendency to perceive members of out-groups as more similar
    to each other than members of the in-group. This effect makes stereotypes about out-groups seem
    more valid, because out-group members are perceived as "all the same."
@@ -271,7 +271,7 @@ Intergroup bias is reduced.
 </details>
 
 For an overview of sociocultural topics, see
-[Sociocultural Level of Analysis](../sociocultural-level-of-analysis).
+[Sociocultural Level of Analysis](/psychology/sociocultural-level-of-analysis/).
 
 ## Common Pitfalls
 
@@ -314,6 +314,6 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

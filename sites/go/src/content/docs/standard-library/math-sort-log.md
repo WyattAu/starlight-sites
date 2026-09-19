@@ -466,5 +466,5 @@ linked above.
 ## See Also
 
 - [Standard Library](./)
-- [Standard Library I/O](./io)
-- [net/http](./net-http)
+- [Standard Library I/O](/standard-library/io/)
+- [net/http](/standard-library/net-http/)

@@ -227,5 +227,5 @@ linked above.
 
 ## Cross-References
 
-- **[Energy](./diag-energy):** Energy transfers and conservation.
-- **[Electricity](./diag-electricity):** Electric circuits and currents.
+- **[Energy](/physics/diagnostics/diag-energy/):** Energy transfers and conservation.
+- **[Electricity](/physics/diagnostics/diag-electricity/):** Electric circuits and currents.

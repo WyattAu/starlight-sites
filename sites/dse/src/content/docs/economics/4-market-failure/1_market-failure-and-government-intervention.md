@@ -24,9 +24,9 @@ Allocate resources in a way that maximises economic welfare. The result is a los
 (deadweight loss): society could be made better off by reallocating resources.
 
 This file assumes familiarity with supply and demand analysis from
-[../2-demand-supply-markets/1_demand-supply-and-markets](../2-demand-supply-markets/1_demand-supply-and-markets)
+[../2-demand-supply-markets/1_demand-supply-and-markets](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
 and the basic market failure overview in
-[../1-basic-economic-concepts/1_basic-economic-concepts](../1-basic-economic-concepts/1_basic-economic-concepts).
+[../1-basic-economic-concepts/1_basic-economic-concepts](/economics/1-basic-economic-concepts/1_basic-economic-concepts/).
 
 ### Types of Market Failure
 
@@ -1515,6 +1515,6 @@ linked above.
 
 ## Cross-References
 
-- **[Market Failure](../diagnostics/diag-market-failure):** Market failure is a key topic
-- **[Fiscal Policy](../diagnostics/diag-fiscal-monetary-policy):** Government policy addresses failures
-- **[Macroeconomics](../flashcards-macroeconomics):** Macroeconomics covers policy
+- **[Market Failure](/economics/diagnostics/diag-market-failure/):** Market failure is a key topic
+- **[Fiscal Policy](/economics/diagnostics/diag-fiscal-monetary-policy/):** Government policy addresses failures
+- **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers policy

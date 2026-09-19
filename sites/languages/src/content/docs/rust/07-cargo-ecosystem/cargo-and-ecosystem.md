@@ -981,5 +981,5 @@ Cargo is Rust's build system and package manager, handling compilation, dependen
 ## See Also
 
 - [Cargo Ecosystem](./)
-- [Unsafe Rust](./unsafe-rust)
-- [Rust](..)
+- [Unsafe Rust](/rust/07-cargo-ecosystem/unsafe-rust/)
+- [Rust](/)

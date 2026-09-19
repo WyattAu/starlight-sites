@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_overload_resolution](./1_overload_resolution)
-- [2_calling_conventions](./2_calling_conventions)
-- [3_lambdas](./3_lambdas)
-- [4_type_erasure](./4_type_erasure)
-- [5_c_interop](./5_c_interop)
+- [1_overload_resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [2_calling_conventions](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [3_lambdas](/function_architecture/1_function_mechanics/3_lambdas/)
+- [4_type_erasure](/function_architecture/1_function_mechanics/4_type_erasure/)
+- [5_c_interop](/function_architecture/1_function_mechanics/5_c_interop/)
 
 ## Learning Objectives
 

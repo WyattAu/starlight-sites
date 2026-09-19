@@ -1018,9 +1018,9 @@ INSERT INTO orders_2025_q1 SELECT * FROM moved;
 
 ## Cross-References
 
-- [NoSQL Databases](nosql) - How PostgreSQL extensions like JSONB and hstore compare to native document stores
-- [Indexing and Optimization](../03-indexing-optimization/indexing) - How GIN and GiST indexes power PostgreSQL extension queries
-- [Schema Migrations](../06-database-design/migrations) - Strategies for managing PostgreSQL version upgrades and extension dependencies
+- [NoSQL Databases](/05-nosql/nosql/) - How PostgreSQL extensions like JSONB and hstore compare to native document stores
+- [Indexing and Optimization](/03-indexing-optimization/indexing/) - How GIN and GiST indexes power PostgreSQL extension queries
+- [Schema Migrations](/06-database-design/migrations/) - Strategies for managing PostgreSQL version upgrades and extension dependencies
 
 ## Worked Examples
 

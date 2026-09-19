@@ -429,5 +429,5 @@ ionisation energy (1 mark).
 ## See Also
 
 - [Diagnostics](./)
-- [Bonding and Structure -- Diagnostic Tests](./diag-bonding-structure)
-- [Acids, Bases and Buffers -- Diagnostic Tests](./diag-acids-bases)
+- [Bonding and Structure -- Diagnostic Tests](/chemistry/diagnostics/diag-bonding-structure/)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)

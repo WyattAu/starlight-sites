@@ -159,8 +159,8 @@ $\blacksquare$
 ## See Also
 
 - [Optics and Wave Physics](./)
-- [The Wave Equation](./1_the-wave-equation)
-- [Fresnel Equations](./10_fresnel-equations)
+- [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
+- [Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)
 
 
 ## Advanced Content

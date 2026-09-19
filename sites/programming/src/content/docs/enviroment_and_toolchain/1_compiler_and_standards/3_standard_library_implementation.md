@@ -763,12 +763,12 @@ extern "C" {
 
 ## See Also
 
-- [Installing a Compiler](1_installing_compiler) -- Setting up GCC, Clang, or MSVC
-- [Language Standard and ABI Compatibility](2_language_standard_and_abi_compatibility) -- How ABI
+- [Installing a Compiler](/enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler/) -- Setting up GCC, Clang, or MSVC
+- [Language Standard and ABI Compatibility](/enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility/) -- How ABI
   changes across standard versions
-- [Cross-compilation Toolchains](4_crosscompilation_toolchains) -- Choosing the right standard
+- [Cross-compilation Toolchains](/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/) -- Choosing the right standard
   library for cross-compilation
-- [Linker Configuration](5_linker_configuration) -- Linking against the standard library
+- [Linker Configuration](/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/) -- Linking against the standard library
 
 ```mermaid
 flowchart TD

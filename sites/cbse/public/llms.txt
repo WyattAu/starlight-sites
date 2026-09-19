@@ -1,0 +1,77 @@
+# CBSE — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+CBSE revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://cbse.wyattau.com/about/): About Wyatt's Notes CBSE resources, experience, expertise, and credentials behind Indian CBSE board examination study materials.
+- [CBSE - Wyatt's Notes](https://cbse.wyattau.com/): CBSE revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+- [CBSE Board Exam Glossary, Key Terms](https://cbse.wyattau.com/glossary/): Comprehensive glossary of CBSE Board Exam terms covering the Indian education system, assessment, JEE, NEET, and competitive exams.
+- [CBSE Chemistry Study Guide](https://cbse.wyattau.com/chemistry/): Qualifications Chemistry.Md CBSE Chemistry Study notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.
+- [CBSE Flashcards: Chemistry Class 12](https://cbse.wyattau.com/flashcards-chemistry/): CBSE Flashcards: Chemistry Class 12: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [CBSE Flashcards: Mathematics Class 12](https://cbse.wyattau.com/flashcards-mathematics-class12/): import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/cbse/flashcards-mathematics-class12-data.js';
+- [CBSE Flashcards: Physics Class 12](https://cbse.wyattau.com/flashcards-physics-class12/): CBSE Flashcards: Physics Class 12: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [CBSE Mathematics Study Guide](https://cbse.wyattau.com/maths/): Qualifications Maths.Md CBSE Mathematics Study notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.
+- [CBSE Physics Study Guide](https://cbse.wyattau.com/physics/): This guide covers the syllabus (NCERT). It is organised by topic with key concep Comprehensive educational content coverage with definitions and practice proble
+- [CBSE Practice: Chemistry Class 12](https://cbse.wyattau.com/practice-chemistry/): 10 MCQ questions covering electrochemistry, chemical kinetics, solutions, p-block/d-block elements, and polymers from the NCERT syllabus. Select an option
+- [CBSE Practice: Mathematics Class 12](https://cbse.wyattau.com/practice-maths/): 10 MCQ questions covering calculus, matrices, probability, vectors, and relations and functions from the NCERT syllabus. Select an option to check your
+- [Complete CBSE Study Guide, Physics, Chemistry, Maths](https://cbse.wyattau.com/hub/): Study notes for Complete CBSE Study Guide, Physics, Chemistry, Maths with worked examples, practice problems, and key concepts for exam preparation.
+- [Introduction to CBSE Notes](https://cbse.wyattau.com/intro/): The is a national-level board of education in India for public and private schools, controlled and managed by the Union Government of India. It is one of
+- [Practice](https://cbse.wyattau.com/practice-physics/): Auto-generated practice questions.
+
+## Chemistry
+
+- [Alcohols, Phenols, and Ethers](https://cbse.wyattau.com/chemistry/alcohols/): This section covers alcohols, phenols, and ethers concepts, definitions, and applications with worked examples and practice problems.
+- [Aldehydes, Ketones, and Carboxylic Acids](https://cbse.wyattau.com/chemistry/aldehydes/): This section covers aldehydes, ketones, and carboxylic acids concepts, definitions, and applications with worked examples and practice problems.
+- [Amines | CBSE - Wyatt's Notes](https://cbse.wyattau.com/chemistry/amines/): This section covers amines concepts, definitions, and applications with worked examples and practice problems.
+- [Biomolecules](https://cbse.wyattau.com/chemistry/biomolecules/): This section covers biomolecules concepts, definitions, and applications with worked examples and practice problems.
+- [Carboxylic Acids](https://cbse.wyattau.com/chemistry/carboxylic-acids/): This section covers carboxylic acids concepts, definitions, and applications with worked examples and practice problems.
+- [Chemical Kinetics](https://cbse.wyattau.com/chemistry/chemical-kinetics/): This section covers chemical kinetics concepts, definitions, and applications with worked examples and practice problems.
+- [Chemistry in Everyday Life](https://cbse.wyattau.com/chemistry/chemistry-in-everyday/): This section covers chemistry in everyday life concepts, definitions, and applications with worked examples and practice problems.
+- [Colligative properties](https://cbse.wyattau.com/chemistry/solutions/01-colligative-properties/): Study notes for Colligative properties with worked examples, practice problems, and key concepts for exam preparation.
+- [Coordination Compounds](https://cbse.wyattau.com/chemistry/coordination/): This section covers coordination compounds concepts, definitions, and applications with worked examples and practice problems.
+- [Crystal structure](https://cbse.wyattau.com/chemistry/solid-state/01-crystal-structure/): Study notes for Crystal structure with worked examples, practice problems, and key concepts for exam preparation.
+- [D-Block Elements](https://cbse.wyattau.com/chemistry/d-block/): This section covers d-block elements concepts, definitions, and applications with worked examples and practice problems.
+- [Electrochemistry](https://cbse.wyattau.com/chemistry/electrochemistry/): This section covers electrochemistry concepts, definitions, and applications with worked examples and practice problems.
+- [F-Block Elements](https://cbse.wyattau.com/chemistry/f-block/): This section covers f-block elements concepts, definitions, and applications with worked examples and practice problems.
+- [Haloalkanes and Haloarenes](https://cbse.wyattau.com/chemistry/haloalkanes/): This section covers haloalkanes and haloarenes concepts, definitions, and applications with worked examples and practice problems.
+- [P-Block Elements](https://cbse.wyattau.com/chemistry/p-block/): This section covers p-block elements concepts, definitions, and applications with worked examples and practice problems.
+- [Polymers](https://cbse.wyattau.com/chemistry/polymers/): This section covers polymers concepts, definitions, and applications with worked examples and practice problems.
+- [Solid State](https://cbse.wyattau.com/chemistry/solid-state/): This section covers solid state concepts, definitions, and applications with worked examples and practice problems.
+- [Solutions](https://cbse.wyattau.com/chemistry/solutions/): This section covers solutions concepts, definitions, and applications with worked examples and practice problems.
+- [Surface Chemistry](https://cbse.wyattau.com/chemistry/surface-chemistry/): This section covers surface chemistry concepts, definitions, and applications with worked examples and practice problems.
+
+## Mathematics
+
+- [Continuity and Differentiability](https://cbse.wyattau.com/mathematics/continuity/): This section covers continuity and differentiability concepts, definitions, and applications with worked examples and practice problems.
+- [Derivatives](https://cbse.wyattau.com/mathematics/derivatives/): This section covers derivatives concepts, definitions, and applications with worked examples and practice problems.
+- [Determinants](https://cbse.wyattau.com/mathematics/determinants/): This section covers determinants concepts, definitions, and applications with worked examples and practice problems.
+- [Differential Equations](https://cbse.wyattau.com/mathematics/differential-equations/): This section covers differential equations concepts, definitions, and applications with worked examples and practice problems.
+- [Integrals](https://cbse.wyattau.com/mathematics/integrals/): This section covers integrals concepts, definitions, and applications with worked examples and practice problems.
+- [Inverse Trigonometric Functions](https://cbse.wyattau.com/mathematics/-inverse-trig/): This section covers inverse trigonometric functions concepts, definitions, and applications with worked examples and practice problems.
+- [Linear Programming](https://cbse.wyattau.com/mathematics/linear-programming/): This section covers linear programming concepts, definitions, and applications with worked examples and practice problems.
+- [Matrices](https://cbse.wyattau.com/mathematics/matrices/): This section covers matrices concepts, definitions, and applications with worked examples and practice problems.
+- [Matrix operations](https://cbse.wyattau.com/mathematics/matrices/01-matrix-operations/): Study notes for Matrix operations with worked examples, practice problems, and key concepts for exam preparation.
+- [Probability](https://cbse.wyattau.com/mathematics/probability/): This section covers probability concepts, definitions, and applications with worked examples and practice problems.
+- [Relations and Functions](https://cbse.wyattau.com/mathematics/relations-functions/): This section covers relations and functions concepts, definitions, and applications with worked examples and practice problems.
+- [Types of relations](https://cbse.wyattau.com/mathematics/relations-functions/01-types-of-relations/): Study notes for Types of relations with worked examples, practice problems, and key concepts for exam preparation.
+
+## Physics
+
+- [Atoms and Nuclei](https://cbse.wyattau.com/physics/atoms-nuclei/): This section covers atoms and nuclei concepts, definitions, and applications with worked examples and practice problems.
+- [Current Electricity](https://cbse.wyattau.com/physics/current-electricity/): This section covers current electricity concepts, definitions, and applications with worked examples and practice problems.
+- [Dual Nature of Radiation and Matter](https://cbse.wyattau.com/physics/dual-nature/): This section covers dual nature of radiation and matter concepts, definitions, and applications with worked examples and practice problems.
+- [Electric charge](https://cbse.wyattau.com/physics/electrostatics/01-electric-charge/): Study notes for Electric charge with worked examples, practice problems, and key concepts for exam preparation.
+- [Electric field](https://cbse.wyattau.com/physics/electrostatics/02-electric-field/): Study notes for Electric field with worked examples, practice problems, and key concepts for exam preparation.
+- [Electrostatics](https://cbse.wyattau.com/physics/electrostatics/): This section covers electrostatics concepts, definitions, and applications with worked examples and practice problems.
+- [Magnetic Effects of Current and Magnetism](https://cbse.wyattau.com/physics/magnetic-effects/): This section covers magnetic effects of current and magnetism concepts, definitions, and applications with worked examples and practice problems.
+- [Mechanics](https://cbse.wyattau.com/physics/mechanics/): This section covers mechanics concepts, definitions, and applications with worked examples and practice problems.
+- [Newton's Laws of Motion](https://cbse.wyattau.com/physics/mechanics/01-laws-of-motion/): Study notes for Newton's Laws of Motion with worked examples, practice problems, and key concepts for exam preparation.
+- [Optics | CBSE - Wyatt's Notes](https://cbse.wyattau.com/physics/optics/): This section covers optics concepts, definitions, and applications with worked examples and practice problems.
+- [Rotational motion](https://cbse.wyattau.com/physics/mechanics/03-rotational-motion/): Study notes for Rotational motion with worked examples, practice problems, and key concepts for exam preparation.
+- [Semiconductor Electronics](https://cbse.wyattau.com/physics/semiconductor/): This section covers semiconductor electronics concepts, definitions, and applications with worked examples and practice problems.
+- [Work energy power](https://cbse.wyattau.com/physics/mechanics/02-work-energy-power/): Study notes for Work energy power with worked examples, practice problems, and key concepts for exam preparation.

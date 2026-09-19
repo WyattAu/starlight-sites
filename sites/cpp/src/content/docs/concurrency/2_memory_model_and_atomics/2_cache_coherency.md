@@ -145,7 +145,7 @@ Implications of write-back:
   data.
 - The MESI protocol ensures that any read from another core triggers a write-back before sharing.
 - Store buffers exist between the CPU core and the L1 cache to hide write latency (see
-  [Instruction Reordering](./1_instruction_reordering)).
+  [Instruction Reordering](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)).
 
 ## Cache Line Ownership and Coherence Traffic
 
@@ -837,9 +837,9 @@ Eliminating false sharing entirely. The total is computed by summing all shards.
 
 ## See Also
 
-- [Instruction Reordering and Happens-Before](./1_instruction_reordering)
-- [Atomic Operations and Lock-Free Programming](./3_atomic_operations)
-- [Memory Orderings](./4_memory_orderings)
+- [Instruction Reordering and Happens-Before](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
 
 ```mermaid
 flowchart TD
@@ -888,5 +888,5 @@ Cache coherency is like a shared document editing system. When one person edits 
 
 ## Cross-References
 
-- [Instruction Reordering](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/1_instruction_reordering) - How compiler and CPU reordering affect memory visibility
-- [Atomic Operations](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/3_atomic_operations) - How atomic operations interact with cache coherency
+- [Instruction Reordering](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering/) - How compiler and CPU reordering affect memory visibility
+- [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/) - How atomic operations interact with cache coherency

@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_human Physiology](./1_human-physiology)
+- [1_human Physiology](/biology/6-human-physiology/1_human-physiology/)
 
 ## Learning Objectives
 

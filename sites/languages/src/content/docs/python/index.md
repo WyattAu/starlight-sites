@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Python Basics](./flashcards-python-basics)
-- [Intro](./intro)
-- [Practice Interactive](./practice-interactive)
-- [Practice Python Basics](./practice-python-basics)
+- [Flashcards Python Basics](/python/flashcards-python-basics/)
+- [Intro](/python/intro/)
+- [Practice Interactive](/python/practice-interactive/)
+- [Practice Python Basics](/python/practice-python-basics/)
 
 ## Learning Objectives
 

@@ -984,7 +984,7 @@ Of the parsing process.
 ## itertools Consumption Patterns
 
 For a full reference to the `itertools` module, see
-[Essential Modules](../05-standard-library/01-essential-modules).
+[Essential Modules](/python/05-standard-library/01-essential-modules/).
 
 ### Built-in Consumers
 
@@ -1346,7 +1346,7 @@ In a `with` statement ensures cleanup happens at the right time regardless of ho
 Consumed.
 
 For more on `contextlib.contextmanager`See
-[Essential Modules](../05-standard-library/01-essential-modules).
+[Essential Modules](/python/05-standard-library/01-essential-modules/).
 
 ```mermaid
 flowchart TD
@@ -1381,7 +1381,7 @@ linked above.
 
 ## Cross-References
 
-- [Functions, Closures, and Decorators](03-functions) -- Generators use the same closure mechanics as regular functions, with `yield` replacing `return`.
-- [List Comprehensions and Comprehension Expressions](../../../../../../computer-science/src/content/docs/1-algorithms/data-structures) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
-- [Advanced Type System](../08-advanced-topics/01-advanced-typing) -- Generic iterators and generator return types are expressible using `Iterator[T]` and `Generator[T]`.
-- [Context Managers](../08-advanced-topics/03-context-managers) -- The iterator protocol is the foundation for `with` statement resource management.
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/) -- Generators use the same closure mechanics as regular functions, with `yield` replacing `return`.
+- [List Comprehensions and Comprehension Expressions](https://computer-science.wyattau.com/1-algorithms/data-structures/) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/) -- Generic iterators and generator return types are expressible using `Iterator[T]` and `Generator[T]`.
+- [Context Managers](/python/08-advanced-topics/03-context-managers/) -- The iterator protocol is the foundation for `with` statement resource management.

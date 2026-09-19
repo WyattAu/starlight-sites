@@ -18,9 +18,9 @@ This section covers essential mathematical techniques and theories. These founda
 
 ## Topics
 
-- [Algebra](./algebra)
-- [Functions](./functions)
-- [Geometry](./geometry)
+- [Algebra](/mathematics/algebra/)
+- [Functions](/mathematics/functions/)
+- [Geometry](/mathematics/geometry/)
 
 ## Learning Objectives
 

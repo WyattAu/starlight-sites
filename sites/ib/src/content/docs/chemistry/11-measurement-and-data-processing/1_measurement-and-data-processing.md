@@ -938,13 +938,13 @@ $$E_a = 44.9 \pm 3.3\mathrm{ kJ/mol}$$
 ## If You Get These Wrong, Revise
 
 - **Atomic theory and electron configurations** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Organic chemistry spectroscopic identification** → Review
-  [..../10-organic-chemistry/2_organic-chemistry-advanced](../10-organic-chemistry/2_organic-chemistry-advanced)
+  [..../10-organic-chemistry/2_organic-chemistry-advanced](/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/)
 - **Acid-base calculations and pH** → Review
-  [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
+  [..../8-acids-and-bases/2_acids-and-bases-advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
 - **Equilibrium constant expressions** → Review
-  [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
+  [..../7-equilibrium/1_equilibrium](/chemistry/7-equilibrium/1_equilibrium/)
 
 ```mermaid
 flowchart TD

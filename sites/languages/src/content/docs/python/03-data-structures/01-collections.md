@@ -1066,8 +1066,8 @@ linked above.
 
 ## Cross-References
 
-- [Dicts, Sets, and Collections Deep Dive](02-dicts-sets-counter), Dictionaries and sets share the same hash table internals as the collections covered here.
-- [Types and Variables](../../../../../../kotlin/src/content/docs/basics/types-and-variables), Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
-- [Control Flow](../../../../../../kotlin/src/content/docs/basics/control-flow), List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
-- [Python Internals](../02-fundamentals/05-python-internals), CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
+- [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), Dictionaries and sets share the same hash table internals as the collections covered here.
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/), Understanding Python's type system and reference model is essential for grasping why lists store pointers rather than values.
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), List comprehensions and generator expressions are comprehensions that build on the loop and iteration constructs covered in control flow.
+- [Python Internals](/python/02-fundamentals/05-python-internals/), CPython's reference counting and memory model explain the performance characteristics of list append, dict lookup, and set membership.
 :::

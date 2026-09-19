@@ -18,7 +18,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Layer2 And Ethernet](./layer2-and-ethernet)
+- [Layer2 And Ethernet](/08-layer2/layer2-and-ethernet/)
 
 ## Learning Objectives
 

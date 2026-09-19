@@ -447,9 +447,9 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 
 | Topic                        | Site        | Link                                                                    |
 | ---------------------------- | ----------- | ----------------------------------------------------------------------- |
-| Reaction Mechanisms          | WyattsNotes | [View](reaction-mechanisms)                  |
-| Spectroscopy                 | WyattsNotes | [View](spectroscopy)                         |
-| Quantum Chemistry            | WyattsNotes | [View](../1-physical-chemistry/quantum-chemistry)                    |
+| Reaction Mechanisms          | WyattsNotes | [View](/2-organic-chemistry/reaction-mechanisms/)                  |
+| Spectroscopy                 | WyattsNotes | [View](/2-organic-chemistry/spectroscopy/)                         |
+| Quantum Chemistry            | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                    |
 | Organic Chemistry, MIT 5.12 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

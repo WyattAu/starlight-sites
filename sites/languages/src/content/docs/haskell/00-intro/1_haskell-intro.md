@@ -717,5 +717,5 @@ systems where correctness is critical and where concurrent operations are the no
 ## See Also
 
 - [Intro](./)
-- [Haskell](..)
-- [Introduction to Dart & Flutter](../../dart/01-intro)
+- [Haskell](/)
+- [Introduction to Dart & Flutter](/dart/01-intro/)

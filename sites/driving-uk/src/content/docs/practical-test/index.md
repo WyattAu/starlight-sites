@@ -18,7 +18,7 @@ This section covers driving theory and practical knowledge required for the driv
 
 ## Topics
 
-- [Driving Manoeuvres](./driving-manoeuvres)
+- [Driving Manoeuvres](/practical-test/driving-manoeuvres/)
 
 ## Learning Objectives
 

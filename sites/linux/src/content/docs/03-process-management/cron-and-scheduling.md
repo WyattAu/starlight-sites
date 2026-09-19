@@ -976,8 +976,8 @@ linked above.
 
 ## Cross-References
 
-- [Processes and Signals](processes-and-signals) -- Cron jobs create child processes; understanding process lifecycle helps with scheduling and monitoring.
-- [Bash Scripting](../01-cli-fundamentals/bash-scripting) -- Scheduled tasks are in standard practice bash scripts that automate system maintenance and backups.
-- [I/O Redirection and Pipes](io-redirection) -- Cron job output is often redirected to log files for monitoring and debugging.
-- [File Permissions](../02-file-systems/file-permissions) -- Crontab files and scripts require appropriate permissions for execution.
+- [Processes and Signals](/03-process-management/processes-and-signals/) -- Cron jobs create child processes; understanding process lifecycle helps with scheduling and monitoring.
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Scheduled tasks are in standard practice bash scripts that automate system maintenance and backups.
+- [I/O Redirection and Pipes](/03-process-management/io-redirection/) -- Cron job output is often redirected to log files for monitoring and debugging.
+- [File Permissions](/02-file-systems/file-permissions/) -- Crontab files and scripts require appropriate permissions for execution.
 :::

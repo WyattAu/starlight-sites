@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [2_argument](./2_argument)
+- [2_argument](/english/2-argument/2_argument/)
 
 ## Learning Objectives
 

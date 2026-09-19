@@ -397,8 +397,8 @@ SELECT id, name, email FROM users WHERE active = true;
 
 ## Related Terms
 
-- See [Programming Glossary](../../../../typescript/src/content/docs/glossary) for general programming concepts
-- See [Python Glossary](../../../../typescript/src/content/docs/glossary) for Python database libraries
-- See [Java Glossary](../../../../typescript/src/content/docs/glossary) for Java database connectivity
-- See [Machine Learning Glossary](../../../../typescript/src/content/docs/glossary) for data in ML pipelines
-- See [Computer Science Glossary](../../../../typescript/src/content/docs/glossary) for CS fundamentals
+- See [Programming Glossary](https://typescript.wyattau.com/glossary/) for general programming concepts
+- See [Python Glossary](https://typescript.wyattau.com/glossary/) for Python database libraries
+- See [Java Glossary](https://typescript.wyattau.com/glossary/) for Java database connectivity
+- See [Machine Learning Glossary](https://typescript.wyattau.com/glossary/) for data in ML pipelines
+- See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals

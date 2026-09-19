@@ -1130,5 +1130,5 @@ From Newton's apple to quantum particles, physics explains how the world works t
 ## See Also
 
 - [Nuclear And Quantum Physics](./)
-- [Wrap Up](./9_wrap-up)
-- [IB Physics](..)
+- [Wrap Up](/physics/5-nuclear-and-quantum-physics/9_wrap-up/)
+- [IB Physics](/)

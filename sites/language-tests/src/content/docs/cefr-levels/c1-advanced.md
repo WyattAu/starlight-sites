@@ -121,8 +121,8 @@ Write a formal letter of complaint or inquiry.
 ## See Also
 
 - [Cefr Levels](./)
-- [A1 Beginner](./a1-beginner)
-- [A2 Elementary Level](./a2-elementary)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [A2 Elementary Level](/cefr-levels/a2-elementary/)
 
 
 ## Advanced Content

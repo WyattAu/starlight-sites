@@ -624,5 +624,5 @@ functional insulin.
 ## See Also
 
 - [Diagnostics](./)
-- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
-- [Cells -- Diagnostic Tests](./diag-cells)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
+- [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)

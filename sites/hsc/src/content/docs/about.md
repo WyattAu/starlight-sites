@@ -93,8 +93,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [HSC](./)
-- [HSC Physics Flashcards](./flashcards-physics)
-- [Complete HSC Study Guide, Physics and Maths](./hub)
+- [HSC Physics Flashcards](/flashcards-physics/)
+- [Complete HSC Study Guide, Physics and Maths](/hub/)
 
 
 ## Detailed Content

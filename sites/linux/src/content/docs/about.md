@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Linux](./)
-- [Introduction to Linux](./intro)
-- [LVM and Disk Partitioning](./lvm-and-disk-partitioning)
+- [Introduction to Linux](/intro/)
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
 
 
 ## Detailed Content

@@ -96,8 +96,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Developer Tools & Knowledge](./)
-- [Kubernetes and Docker](./kubernetes-docker)
-- [Algorithms Practice](./practice-algorithms)
+- [Kubernetes and Docker](/kubernetes-docker/)
+- [Algorithms Practice](/practice-algorithms/)
 
 
 ## Detailed Content

@@ -54,66 +54,66 @@ pitfalls, and exam-style problems.
 
 ### Number and Algebra
 
-- **[Number and Algebra](./1-number-and-algebra/1_number-and-algebra)**, Sequences, series,
+- **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/)**, Sequences, series,
   binomial theorem, and proof by induction
-- **[Complex Numbers](1-number-and-algebra/2_complex-numbers)**, Complex arithmetic, polar form,
+- **[Complex Numbers](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic, polar form,
   and De Moivre"s theorem
-- **[Complex Numbers (Overview)](1-number-and-algebra/2_complex-numbers)**, Complex arithmetic,
+- **[Complex Numbers (Overview)](/maths/1-number-and-algebra/2_complex-numbers/)**, Complex arithmetic,
   polar form, De Moivre's theorem, and roots of unity
 
 ### Functions and Equations
 
-- **[Functions and Equations](./2-functions/1_functions)**, Functions, composite functions, inverse
+- **[Functions and Equations](/maths/2-functions/1_functions/)**, Functions, composite functions, inverse
   functions, transformations, and equations
-- **[Sequences and Series](./2-functions/2_sequences-and-series)**, Arithmetic and geometric
+- **[Sequences and Series](/maths/2-functions/2_sequences-and-series/)**, Arithmetic and geometric
   sequences and series, sigma notation, and binomial theorem
 
 ### Geometry and Trigonometry
 
-- **[Trigonometry](./3-geometry-and-trigonometry/1_trigonometry)**, Trigonometric functions,
+- **[Trigonometry](/maths/3-geometry-and-trigonometry/1_trigonometry/)**, Trigonometric functions,
   identities, equations, and the unit circle
-- **[Vectors](./3-geometry-and-trigonometry/2_vectors)**, Vector algebra and geometry in two and
+- **[Vectors](/maths/3-geometry-and-trigonometry/2_vectors/)**, Vector algebra and geometry in two and
   three dimensions
 
 ### Calculus
 
-- **[Calculus](5-calculus/1_limits-and-continuity)**, Limits, differentiation, integration, and
+- **[Calculus](/maths/5-calculus/1_limits-and-continuity/)**, Limits, differentiation, integration, and
   their applications
-- **[Differentiation](5-calculus/2_differentiation)**, Differentiation rules, techniques, and
+- **[Differentiation](/maths/5-calculus/2_differentiation/)**, Differentiation rules, techniques, and
   applications
-- **[Integration Techniques](5-calculus/3_integration-techniques)**, Integration techniques,
+- **[Integration Techniques](/maths/5-calculus/3_integration-techniques/)**, Integration techniques,
   definite integrals, area and volume, and applications
-- **[Integration](5-calculus/4_integration)**, Further integration methods and applications
-- **[Differential Equations](5-calculus/5_differential-equations)**, First order separable
+- **[Integration](/maths/5-calculus/4_integration/)**, Further integration methods and applications
+- **[Differential Equations](/maths/5-calculus/5_differential-equations/)**, First order separable
   equations, integrating factors, and second order equations
-- **[Sequences and Series (Calculus)](5-calculus/6_sequences-and-series)**, Maclaurin and Taylor
+- **[Sequences and Series (Calculus)](/maths/5-calculus/6_sequences-and-series/)**, Maclaurin and Taylor
   series, convergence, and the binomial theorem
 
 ### Probability and Statistics
 
-- **[Probability](./4-statistics-and-probability/1_probability)**, Probability theory, conditional
+- **[Probability](/maths/4-statistics-and-probability/1_probability/)**, Probability theory, conditional
   probability, Bayes' theorem, and distributions
-- **[Statistics](./4-statistics-and-probability/2_statistics)**, Descriptive statistics,
+- **[Statistics](/maths/4-statistics-and-probability/2_statistics/)**, Descriptive statistics,
   correlation, regression, and hypothesis testing
-- **[Statistics (Overview)](./4-statistics-and-probability/2_statistics)**, Descriptive statistics,
+- **[Statistics (Overview)](/maths/4-statistics-and-probability/2_statistics/)**, Descriptive statistics,
   correlation, regression, conditional probability, and permutations and combinations
 
 ### Vectors and Matrices
 
-- **[Vectors in Three Dimensions](./3-geometry-and-trigonometry/2_vectors)**, Vector operations,
+- **[Vectors in Three Dimensions](/maths/3-geometry-and-trigonometry/2_vectors/)**, Vector operations,
   dot and cross products, equations of lines and planes, and shortest distances
-- **[Matrices and Linear Transformations](3-geometry-and-trigonometry/3_matrices-and-transformations)**
+- **[Matrices and Linear Transformations](/maths/3-geometry-and-trigonometry/3_matrices-and-transformations/)**
 Matrix operations, determinants, inverses, solving systems, and eigenvalues
-- **[Complex Numbers (Advanced)](1-number-and-algebra/2_complex-numbers)**, Cartesian and polar
+- **[Complex Numbers (Advanced)](/maths/1-number-and-algebra/2_complex-numbers/)**, Cartesian and polar
   form, De Moivre's theorem, roots of unity, and Euler's formula
 
 ### Proof and Logic
 
-- **[Proof](./1-number-and-algebra/3_proof-and-logic)**, Direct proof, contradiction, induction,
+- **[Proof](/maths/1-number-and-algebra/3_proof-and-logic/)**, Direct proof, contradiction, induction,
   counterexamples, and proof by exhaustion
-- **[Proof and Logic](./1-number-and-algebra/3_proof-and-logic)**, Logical reasoning and proof
+- **[Proof and Logic](/maths/1-number-and-algebra/3_proof-and-logic/)**, Logical reasoning and proof
   techniques
-- **[Logic](./6-discrete-mathematics/1_logic)**, Propositional and predicate logic
+- **[Logic](/maths/6-discrete-mathematics/1_logic/)**, Propositional and predicate logic
 
 ## Exam Resources
 

@@ -168,5 +168,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Bioenergetics -- Diagnostic Tests](./diag-bioenergetics)
-- [Cell Biology -- Diagnostic Tests](./diag-cell-biology)
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)

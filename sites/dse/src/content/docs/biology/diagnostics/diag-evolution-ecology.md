@@ -426,5 +426,5 @@ As the population approaches the carrying capacity:
 ## See Also
 
 - [Diagnostics](./)
-- [Biodiversity and Conservation -- Diagnostic Tests](./diag-biodiversity-conservation)
-- [Genetics -- Diagnostic Tests](./diag-genetics)
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)

@@ -1114,5 +1114,5 @@ Advanced Rust patterns leverage the type system for compile-time safety. Builder
 ## See Also
 
 - [Structs Enums](./)
-- [Structs and Enums](./structs-and-enums)
-- [Rust](..)
+- [Structs and Enums](/rust/03-structs-enums/structs-and-enums/)
+- [Rust](/)

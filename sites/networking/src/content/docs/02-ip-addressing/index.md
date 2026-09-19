@@ -18,8 +18,8 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Ip Addressing](./ip-addressing)
-- [Subnetting Workshop](./subnetting-workshop)
+- [Ip Addressing](/02-ip-addressing/ip-addressing/)
+- [Subnetting Workshop](/02-ip-addressing/subnetting-workshop/)
 
 ## Learning Objectives
 

@@ -990,5 +990,5 @@ linked above.
 ## See Also
 
 - [Fundamentals](./)
-- [Types and Variables](./01-types-and-variables)
-- [Control Flow](./02-control-flow)
+- [Types and Variables](/java/02-fundamentals/01-types-and-variables/)
+- [Control Flow](/java/02-fundamentals/02-control-flow/)

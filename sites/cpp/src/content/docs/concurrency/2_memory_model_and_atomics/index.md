@@ -18,11 +18,11 @@ This section provides study materials and resources for 2_memory_model_and_atomi
 
 ## Topics
 
-- [1_instruction_reordering](./1_instruction_reordering)
-- [2_cache_coherency](./2_cache_coherency)
-- [3_atomic_operations](./3_atomic_operations)
-- [4_memory_orderings](./4_memory_orderings)
-- [5_cas_loops](./5_cas_loops)
+- [1_instruction_reordering](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [2_cache_coherency](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [3_atomic_operations](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [4_memory_orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+- [5_cas_loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
 
 ## Learning Objectives
 

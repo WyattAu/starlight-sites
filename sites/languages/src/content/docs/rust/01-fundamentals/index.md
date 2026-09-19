@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Control Flow](./control-flow)
-- [Types And Variables](./types-and-variables)
+- [Control Flow](/rust/01-fundamentals/control-flow/)
+- [Types And Variables](/rust/01-fundamentals/types-and-variables/)
 
 ## Learning Objectives
 

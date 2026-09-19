@@ -182,6 +182,6 @@ the weight of the chain below each point.
 
 ## Cross-References
 
-- **[Hyperbolic Functions](../pure/hyperbolic-functions):** Hyperbolic functions extend exponential concepts
-- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics
+- **[Hyperbolic Functions](/further-maths/pure/hyperbolic-functions/):** Hyperbolic functions extend exponential concepts
+- **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
+- **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics

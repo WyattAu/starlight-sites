@@ -18,8 +18,8 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Network Tools](./network-tools)
-- [Traffic Analysis](./traffic-analysis)
+- [Network Tools](/07-network-tools/network-tools/)
+- [Traffic Analysis](/07-network-tools/traffic-analysis/)
 
 ## Learning Objectives
 

@@ -276,7 +276,7 @@ A reverse proxy provides:
 - **TLS termination:** HTTPS for all apps with automatic certificate management (Let's Encrypt).
 - **Load balancing:** Distribute traffic across multiple app instances.
 
-Refer to the dedicated [Traefik guide](../setup/traefik) for TrueNAS Traefik configuration.
+Refer to the dedicated [Traefik guide](/setup/traefik/) for TrueNAS Traefik configuration.
 
 ---
 
@@ -1058,6 +1058,6 @@ linked above.
 
 ## Cross-References
 
-- [ZFS Deep Dive](../01-zfs/zfs-deep-dive) -- Applications store data on ZFS datasets, requiring understanding of pool configuration and performance.
-- [Sharing and Permissions](../02-sharing-and-permissions/sharing-and-permissions) -- Apps may need network shares configured to access external storage or serve files.
-- [Performance Tuning](../06-performance-tuning/truenas-performance) -- Application performance depends on storage pool configuration and system resource allocation.
+- [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- Applications store data on ZFS datasets, requiring understanding of pool configuration and performance.
+- [Sharing and Permissions](/02-sharing-and-permissions/sharing-and-permissions/) -- Apps may need network shares configured to access external storage or serve files.
+- [Performance Tuning](/06-performance-tuning/truenas-performance/) -- Application performance depends on storage pool configuration and system resource allocation.

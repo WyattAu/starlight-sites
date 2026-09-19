@@ -165,5 +165,5 @@ Key changes in Rust 2024:
 ## See Also
 
 - [Rust](./)
-- [Macros](./08-macros)
-- [Rust Flashcards: Fundamentals](./flashcards-rust-basics)
+- [Macros](/rust/08-macros/)
+- [Rust Flashcards: Fundamentals](/rust/flashcards-rust-basics/)

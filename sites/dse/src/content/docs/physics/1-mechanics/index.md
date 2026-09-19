@@ -18,9 +18,9 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_forces And Motion](./1_forces-and-motion)
-- [2_mechanics Depth](./2_mechanics-depth)
-- [3_energy And Work](./3_energy-and-work)
+- [1_forces And Motion](/physics/1-mechanics/1_forces-and-motion/)
+- [2_mechanics Depth](/physics/1-mechanics/2_mechanics-depth/)
+- [3_energy And Work](/physics/1-mechanics/3_energy-and-work/)
 
 ## Learning Objectives
 

@@ -545,9 +545,9 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 
 ## Cross-References
 
-- **[Maxwell's Equations](1_maxwell-s-equations)**: Every problem in this set originates from or feeds back into the four Maxwell equations in differential form.
-- **[Electrodynamics](4_electrodynamics)**: The continuity equation and displacement current derivations require the time-dependent field equations from electrodynamics.
-- **[Electromagnetic Waves](5_electromagnetic-waves)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
+- **[Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)**: Every problem in this set originates from or feeds back into the four Maxwell equations in differential form.
+- **[Electrodynamics](/3-electromagnetism/4_electrodynamics/)**: The continuity equation and displacement current derivations require the time-dependent field equations from electrodynamics.
+- **[Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)**: Wave propagation problems in this set build directly on the wave equation derived from Maxwell's equations.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

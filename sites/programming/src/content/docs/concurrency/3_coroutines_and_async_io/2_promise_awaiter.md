@@ -771,9 +771,9 @@ To subtle bugs where the wrong coroutine is resumed.
 
 ## See Also
 
-- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames)
-- [Generators (std::generator)](./3_generators)
-- [Task Scheduling and Executors](./4_task_scheduling)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

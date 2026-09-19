@@ -2189,9 +2189,9 @@ flowchart TD
 
 | Topic                       | Site        | Link                                                        |
 | --------------------------- | ----------- | ----------------------------------------------------------- |
-| Probability                 | WyattsNotes | [View](../../../../alevel/src/content/docs/maths/statistics/03-probability)            |
-| Real Analysis               | WyattsNotes | [View](real-analysis)          |
-| Differential Equations      | WyattsNotes | [View](../../../../alevel/src/content/docs/further-maths/pure-mathematics/07-differential-equations) |
+| Probability                 | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)            |
+| Real Analysis               | WyattsNotes | [View](/real-analysis/)          |
+| Differential Equations      | WyattsNotes | [View](https://alevel.wyattau.com/further-maths/pure-mathematics/07-differential-equations/) |
 | Statistics, Stanford CS229 | Stanford    | [View](https://cs229.stanford.edu/)                         |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

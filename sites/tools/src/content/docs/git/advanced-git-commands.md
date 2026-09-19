@@ -2439,5 +2439,5 @@ $\blacksquare$
 ## See Also
 
 - [Git](./)
-- [Introduction to Git](./01-intro)
-- [Best Practices](./07-best-practices)
+- [Introduction to Git](/git/01-intro/)
+- [Best Practices](/git/07-best-practices/)

@@ -64,13 +64,13 @@ The Chomsky hierarchy classifies formal languages by the type of automaton that 
 
 ## Contents
 
-1. [Introduction](1_introduction)
-2. [Regular Languages](2_regular-languages)
-3. [Context-Free Languages](3_context-free-languages)
-4. [Turing Machines](4_turing-machines)
-5. [Decidability](5_decidability)
-6. [Complexity Theory](6_complexity-theory)
-7. [Problem Set](7_problem-set)
+1. [Introduction](/6-theory-of-computation/1_introduction/)
+2. [Regular Languages](/6-theory-of-computation/2_regular-languages/)
+3. [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+4. [Turing Machines](/6-theory-of-computation/4_turing-machines/)
+5. [Decidability](/6-theory-of-computation/5_decidability/)
+6. [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+7. [Problem Set](/6-theory-of-computation/7_problem-set/)
 
 ## Overview
 

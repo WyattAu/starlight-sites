@@ -1943,9 +1943,9 @@ flowchart TD
 
 | Topic                          | Site        | Link                                                                    |
 | ------------------------------ | ----------- | ----------------------------------------------------------------------- |
-| Advanced Databases             | WyattsNotes | [View](4-databases/12_databases-advanced)                   |
-| Advanced SQL                   | WyattsNotes | [View](../../../../databases/src/content/docs/02-sql-fundamentals/advanced-sql) |
-| Algorithms and Data Structures | WyattsNotes | [View](algorithms-and-data-structures)       |
+| Advanced Databases             | WyattsNotes | [View](/4-databases/12_databases-advanced/)                   |
+| Advanced SQL                   | WyattsNotes | [View](https://databases.wyattau.com/02-sql-fundamentals/advanced-sql/) |
+| Algorithms and Data Structures | WyattsNotes | [View](/algorithms-and-data-structures/)       |
 | Database Systems, CMU 15-445  | CMU         | [View](https://15445.courses.cs.cmu.edu/)                               |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

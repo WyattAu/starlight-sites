@@ -907,7 +907,7 @@ linked above.
 
 ## Cross-References
 
-- [Classes](./01-classes): Provides the foundation of class creation and instance behaviour that metaclasses extend and customise.
-- [Descriptors](./03-descriptors): Explains the attribute access mechanism that metaclasses often manipulate, including **set_name** and **get**.
-- [Protocols and Dunder Methods](../08-advanced-topics/04-protocols-dunder-methods): Shows how dunder methods enable Python's data model, which metaclasses can customise at the class level.
-- [Data Validation](../08-advanced-topics/02-data-validation): Demonstrates how metaclasses can enforce validation rules during class creation.
+- [Classes](/python/04-object-oriented/01-classes/): Provides the foundation of class creation and instance behaviour that metaclasses extend and customise.
+- [Descriptors](/python/04-object-oriented/03-descriptors/): Explains the attribute access mechanism that metaclasses often manipulate, including **set_name** and **get**.
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Shows how dunder methods enable Python's data model, which metaclasses can customise at the class level.
+- [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how metaclasses can enforce validation rules during class creation.

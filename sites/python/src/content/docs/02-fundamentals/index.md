@@ -18,12 +18,12 @@ This section provides study materials and resources for fundamentals. Browse the
 
 ## Topics
 
-- [Types And Variables](./01-types-and-variables)
-- [Control Flow](./02-control-flow)
-- [Functions](./03-functions)
-- [Generators And Iterators](./04-generators-and-iterators)
-- [Python Internals](./05-python-internals)
-- [Modules And Packages](./06-modules-and-packages)
+- [Types And Variables](/02-fundamentals/01-types-and-variables/)
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions](/02-fundamentals/03-functions/)
+- [Generators And Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Python Internals](/02-fundamentals/05-python-internals/)
+- [Modules And Packages](/02-fundamentals/06-modules-and-packages/)
 
 ## Learning Objectives
 

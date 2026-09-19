@@ -1021,5 +1021,5 @@ success in this subject.
 ## See Also
 
 - [Development Economics](./)
-- [Barriers to Growth](./2-barriers-to-growth)
-- [Trade and Aid](./3-trade-and-aid)
+- [Barriers to Growth](/economics/4-development-economics/2-barriers-to-growth/)
+- [Trade and Aid](/economics/4-development-economics/3-trade-and-aid/)

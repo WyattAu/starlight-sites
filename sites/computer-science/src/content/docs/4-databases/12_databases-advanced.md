@@ -1404,9 +1404,9 @@ flowchart TD
 
 ## Cross-References
 
-- [SQL](./3_sql) -- Advanced query optimisation builds on fundamental SQL knowledge including joins and subqueries.
-- [Normalisation](./4_normalisation) -- Advanced normal forms extend the normalisation theory beyond third normal form.
-- [Transaction Management](./6_transaction-management) -- Concurrency control and recovery in advanced databases build on the ACID properties.
+- [SQL](/4-databases/3_sql/) -- Advanced query optimisation builds on fundamental SQL knowledge including joins and subqueries.
+- [Normalisation](/4-databases/4_normalisation/) -- Advanced normal forms extend the normalisation theory beyond third normal form.
+- [Transaction Management](/4-databases/6_transaction-management/) -- Concurrency control and recovery in advanced databases build on the ACID properties.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

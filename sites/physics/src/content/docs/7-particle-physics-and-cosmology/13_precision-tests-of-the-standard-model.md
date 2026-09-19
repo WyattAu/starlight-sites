@@ -185,8 +185,8 @@ flowchart TD
 ## See Also
 
 - [Particle Physics and Cosmology](./)
-- [The Standard Model](./1_the-standard-model)
-- [Beyond the Standard Model](./9_beyond-the-standard-model)
+- [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
 
 
 ## Advanced Content

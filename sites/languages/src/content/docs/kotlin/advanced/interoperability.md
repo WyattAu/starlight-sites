@@ -368,5 +368,5 @@ linked above.
 ## See Also
 
 - [Advanced](./)
-- [Metaprogramming](./metaprogramming)
-- [Null Safety Deep Dive](./null-safety-deep-dive)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)

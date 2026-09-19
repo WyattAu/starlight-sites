@@ -246,6 +246,6 @@ Resources are not just things in the ground, they are relationships between natu
 
 ## Cross-References
 
-- **[Population](../geography/population):** Population studies are central
-- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
-- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography
+- **[Population](/geography/population/):** Population studies are central
+- **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
+- **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography

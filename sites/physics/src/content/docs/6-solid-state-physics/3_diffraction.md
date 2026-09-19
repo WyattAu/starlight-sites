@@ -193,9 +193,9 @@ Diffraction occurs when waves encounter obstacles or periodic structures compara
 
 ## Cross-References
 
-- **[Crystal Structures](1_crystal-structures)**: Diffraction measures the lattice constants, symmetry, and atomic positions that define the crystal structure.
-- **[Reciprocal Lattice](2_reciprocal-lattice)**: The Laue condition for diffraction is most logically expressed in terms of reciprocal lattice vectors.
-- **[Lattice Vibrations and Phonons](4_lattice-vibrations-and-phonons)**: Inelastic neutron scattering extends diffraction to measure phonon dispersion relations.
-- **[Semiconductors](6_semiconductors)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.
+- **[Crystal Structures](/6-solid-state-physics/1_crystal-structures/)**: Diffraction measures the lattice constants, symmetry, and atomic positions that define the crystal structure.
+- **[Reciprocal Lattice](/6-solid-state-physics/2_reciprocal-lattice/)**: The Laue condition for diffraction is most logically expressed in terms of reciprocal lattice vectors.
+- **[Lattice Vibrations and Phonons](/6-solid-state-physics/4_lattice-vibrations-and-phonons/)**: Inelastic neutron scattering extends diffraction to measure phonon dispersion relations.
+- **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

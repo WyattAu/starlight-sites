@@ -1533,6 +1533,6 @@ linked above.
 
 ## Cross-References
 
-- [ZFS Deep Dive](./01-zfs/zfs-deep-dive) -- Encryption is a property of ZFS datasets, requiring understanding of ZFS pool and dataset architecture.
-- [Backup and Replication](./03-backup-and-replication/backup-and-replication) -- Encrypted datasets can be replicated, but encryption keys must be managed separately from the data.
-- [Home Server Setup](./setup/home-server-setup) -- Encryption is recommended for home servers to protect sensitive data at rest.
+- [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- Encryption is a property of ZFS datasets, requiring understanding of ZFS pool and dataset architecture.
+- [Backup and Replication](/03-backup-and-replication/backup-and-replication/) -- Encrypted datasets can be replicated, but encryption keys must be managed separately from the data.
+- [Home Server Setup](/setup/home-server-setup/) -- Encryption is recommended for home servers to protect sensitive data at rest.

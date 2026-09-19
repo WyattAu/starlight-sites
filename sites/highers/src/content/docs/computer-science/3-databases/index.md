@@ -18,8 +18,8 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [Databases](./3-databases)
-- [3_databases](./3_databases)
+- [Databases](/computer-science/3-databases/3-databases/)
+- [3_databases](/computer-science/3-databases/3_databases/)
 
 ## Learning Objectives
 

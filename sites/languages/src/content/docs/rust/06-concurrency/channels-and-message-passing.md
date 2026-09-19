@@ -1015,5 +1015,5 @@ Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc 
 ## See Also
 
 - [Concurrency](./)
-- [Async Deep Dive](./async-deep-dive)
-- [Concurrency](./concurrency)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
+- [Concurrency](/rust/06-concurrency/concurrency/)

@@ -762,8 +762,8 @@ Static initialization order problem entirely.
 
 ## See Also
 
-- [Calling Conventions and Stack Management](2_calling_conventions)
-- [Type Erasure](4_type_erasure)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Type Erasure](/function_architecture/1_function_mechanics/4_type_erasure/)
 
 ## Intuition
 

@@ -1001,6 +1001,6 @@ Maps associate keys with values, and Sets enforce uniqueness -- both rely on equ
 
 ## Cross-References
 
-- [Collections Framework](01-collections-framework) -- List, Queue, and collection hierarchy
-- [Concurrency](../06-concurrency/01-concurrency) -- ConcurrentHashMap and concurrent collections
-- [Streams API](../05-streams/01-streams-api) -- stream operations on maps and sets
+- [Collections Framework](/04-collections/01-collections-framework/) -- List, Queue, and collection hierarchy
+- [Concurrency](/06-concurrency/01-concurrency/) -- ConcurrentHashMap and concurrent collections
+- [Streams API](/05-streams/01-streams-api/) -- stream operations on maps and sets

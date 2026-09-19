@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_swift Intro](./1_swift-intro)
+- [1_swift Intro](/swift/00-intro/1_swift-intro/)
 
 ## Learning Objectives
 

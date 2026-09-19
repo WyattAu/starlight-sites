@@ -566,10 +566,10 @@ int main() {
 
 ## See Also
 
-- [Defining Concepts and Requires Clauses](./1_defining_concepts)
-- [Constraint Subsumption and Overload Resolution](./2_constraint_subsumption)
-- [Standard Library Concepts](./3_standard_concepts)
-- [Type Traits and Static Reflection Patterns](../3_compile_time_computation/4_type_traits)
+- [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [Constraint Subsumption and Overload Resolution](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -233,9 +233,9 @@ Aspect of development being discussed.
 
 </details>
 
-For related topics, see [./trade-and-aid](./trade-and-aid) and
-[./sustainable-development-goals](./sustainable-development-goals). The parent topic page is at
-[../economic-development](../economic-development).
+For related topics, see [./trade-and-aid](/geography/development/trade-and-aid/) and
+[./sustainable-development-goals](/geography/development/sustainable-development-goals/). The parent topic page is at
+[../economic-development](/geography/economic-development/).
 
 ## Common Pitfalls
 

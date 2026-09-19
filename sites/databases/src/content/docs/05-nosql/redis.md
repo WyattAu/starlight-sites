@@ -1009,9 +1009,9 @@ redis-cli MEMORY STATS  # Per-allocator stats
 
 ## Cross-References
 
-- [NoSQL Databases](nosql) - How Redis fits within the broader NoSQL ecosystem and key-value store category
-- [PostgreSQL Advanced](postgresql-advanced) - Comparison of Redis caching with PostgreSQL's pgBouncer connection pooling
-- [Transactions and Concurrency](../04-transactions/transactions) - How Redis transactions differ from traditional ACID database transactions
+- [NoSQL Databases](/05-nosql/nosql/) - How Redis fits within the broader NoSQL ecosystem and key-value store category
+- [PostgreSQL Advanced](/05-nosql/postgresql-advanced/) - Comparison of Redis caching with PostgreSQL's pgBouncer connection pooling
+- [Transactions and Concurrency](/04-transactions/transactions/) - How Redis transactions differ from traditional ACID database transactions
 
 ## Worked Examples
 

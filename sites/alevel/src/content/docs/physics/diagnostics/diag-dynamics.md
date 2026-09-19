@@ -445,5 +445,5 @@ Total lost: $3.32 + 1.71 = 5.03\,\text{J}$. Consistent.
 ## See Also
 
 - [Diagnostics](./)
-- [Capacitance -- Diagnostic Tests](./diag-capacitance)
-- [DC Circuits -- Diagnostic Tests](./diag-dc-circuits)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [DC Circuits -- Diagnostic Tests](/physics/diagnostics/diag-dc-circuits/)

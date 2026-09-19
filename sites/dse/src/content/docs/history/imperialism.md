@@ -149,8 +149,8 @@ European imperialism in Asia was like a game of Monopoly where one player keeps 
 ## See Also
 
 - [History](./)
-- [The Chinese Revolution](./chinese-revolution)
-- [The Cold War](./cold-war)
+- [The Chinese Revolution](/history/chinese-revolution/)
+- [The Cold War](/history/cold-war/)
 
 
 ## Advanced Content

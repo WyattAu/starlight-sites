@@ -371,6 +371,6 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../basics/types-and-variables):** Nullable type declarations and type inference fundamentals.
-- **[Control Flow](../basics/control-flow):** When expressions and null-safe branching patterns.
-- **[Metaprogramming](./metaprogramming):** Reflection-based null handling and contract annotations.
+- **[Types and Variables](/kotlin/basics/types-and-variables/):** Nullable type declarations and type inference fundamentals.
+- **[Control Flow](/kotlin/basics/control-flow/):** When expressions and null-safe branching patterns.
+- **[Metaprogramming](/kotlin/advanced/metaprogramming/):** Reflection-based null handling and contract annotations.

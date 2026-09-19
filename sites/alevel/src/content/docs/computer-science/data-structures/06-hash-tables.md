@@ -457,7 +457,7 @@ Hash function, table size, and collision resolution method. Justify your choices
 - Load factor < 0.7 ensures average $O(1)$ operations
 
 For revision on complexity, see
-[Complexity Analysis](../algorithms/04-complexity-analysis).
+[Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/).
 
 </details>
 
@@ -915,6 +915,6 @@ linked above.
 
 ## Cross-References
 
-- **[Number Systems](../fundamentals/01-number-systems):** Hash functions convert keys to array indices
-- **[Graphs](05-graphs):** Hash tables enable efficient graph vertex lookup
-- **[Linked Lists](02-linked-lists):** Hash collisions are resolved using linked lists
+- **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Hash functions convert keys to array indices
+- **[Graphs](/computer-science/data-structures/05-graphs/):** Hash tables enable efficient graph vertex lookup
+- **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Hash collisions are resolved using linked lists

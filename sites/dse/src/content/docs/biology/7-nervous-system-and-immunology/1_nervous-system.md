@@ -1272,5 +1272,5 @@ linked above.
 ## See Also
 
 - [Nervous System And Immunology](./)
-- [Immunology](./2_immunology)
-- [DSE Biology](..)
+- [Immunology](/biology/7-nervous-system-and-immunology/2_immunology/)
+- [DSE Biology](/)

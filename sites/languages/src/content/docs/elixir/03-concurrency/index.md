@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_concurrency Otp](./1_concurrency-otp)
+- [1_concurrency Otp](/elixir/03-concurrency/1_concurrency-otp/)
 
 ## Learning Objectives
 

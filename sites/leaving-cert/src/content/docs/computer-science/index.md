@@ -36,31 +36,31 @@ development skills.
 
 Hardware components, CPU architecture, memory management, and system software.
 
-→ **[Full notes](1-hardware/1_hardware)**
+→ **[Full notes](/computer-science/1-hardware/1_hardware/)**
 
 ### Algorithms & Programming
 
 Algorithm design, programming constructs, data structures, and debugging techniques.
 
-→ **[Full notes](2-programming/2_programming)**
+→ **[Full notes](/computer-science/2-programming/2_programming/)**
 
 ### Data & Databases
 
 Relational databases, SQL, data modelling, normalisation, and data protection.
 
-→ **[Full notes](3-databases/3_databases)**
+→ **[Full notes](/computer-science/3-databases/3_databases/)**
 
 ### Networking & Security
 
 Network topologies, protocols, cybersecurity, encryption, and data privacy.
 
-→ **[Full notes](4-networks/4_networks)**
+→ **[Full notes](/computer-science/4-networks/4_networks/)**
 
 ### Computational Thinking
 
 Problem decomposition, pattern recognition, abstraction, algorithm complexity, and AI fundamentals.
 
-→ **[Full notes](5-algorithms/5_algorithms)**
+→ **[Full notes](/computer-science/5-algorithms/5_algorithms/)**
 
 ## Study Tips
 

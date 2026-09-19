@@ -867,14 +867,14 @@ Student could modify the experiment to increase confidence in their conclusion.
 ## If You Get These Wrong, Revise
 
 - **DNA structure and replication** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Meiosis and chromosome behaviour** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
-- **Evolution and natural selection** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
+- **Evolution and natural selection** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
 - **Protein synthesis and gene expression** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
 - **Enzymes and metabolic pathways** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 
 ---
 
@@ -1535,19 +1535,19 @@ Consumer rights and practical implications.
 ## Cross-References to Related Topics
 
 - **DNA structure and mutations**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for DNA
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for DNA
   structure, base pairing, and mutation types.
 - **Advanced genetics and genetic engineering**: Review
-  [.../2_genetics-advanced](./2_genetics-advanced) for DNA technology,
+  [.../2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for DNA technology,
   CRISPR, and detailed molecular mechanisms.
 - **Evolution and population genetics**: Review
-  [.../5-evolution-and-biodiversity/1_evolution](../5-evolution-and-biodiversity/1_evolution) for
+  [.../5-evolution-and-biodiversity/1_evolution](/biology/5-evolution-and-biodiversity/1_evolution/) for
   Hardy-Weinberg equilibrium and population-level genetics.
 - **Cell biology and chromosomes**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for mitosis, meiosis, and
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for mitosis, meiosis, and
   chromosome structure.
 - **Immunology and genetics**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for antibody genetics and blood type inheritance.
 
 ---

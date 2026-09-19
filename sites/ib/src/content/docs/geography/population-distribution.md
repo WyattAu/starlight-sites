@@ -32,11 +32,11 @@ course and connects closely to themes of development, resource management, and u
 
 ## Contents
 
-- [Demographic Transition Model](./population/demographic-transition-model) -- the DTM, its stages,
+- [Demographic Transition Model](/geography/population/demographic-transition-model/) -- the DTM, its stages,
   strengths, limitations, and applicability to different countries.
-- [Migration Theories and Patterns](./population/migration-theories-and-patterns) -- causes and
+- [Migration Theories and Patterns](/geography/population/migration-theories-and-patterns/) -- causes and
   consequences of migration, push and pull factors, and migration models.
-- [Population Policies](./population/population-policies) -- pro-natalist and anti-natalist
+- [Population Policies](/geography/population/population-policies/) -- pro-natalist and anti-natalist
   policies, their effectiveness and case studies.
 
 ## Key Concepts
@@ -193,6 +193,6 @@ resource management.
 
 ## Cross-References
 
-- **[Climate Change](../geography/climate-change):** Climate change affects all geography
-- **[Population](../geography/population-distribution):** Population distribution is studied
-- **[Economic Development](../geography/economic-development):** Development is a core topic
+- **[Climate Change](/geography/climate-change/):** Climate change affects all geography
+- **[Population](/geography/population-distribution/):** Population distribution is studied
+- **[Economic Development](/geography/economic-development/):** Development is a core topic

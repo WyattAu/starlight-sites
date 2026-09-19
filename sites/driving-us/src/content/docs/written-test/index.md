@@ -18,7 +18,7 @@ This section covers driving theory and practical knowledge required for the driv
 
 ## Topics
 
-- [Traffic Signs](./traffic-signs)
+- [Traffic Signs](/written-test/traffic-signs/)
 
 ## Learning Objectives
 

@@ -253,5 +253,5 @@ linked above.
 
 ## Cross-References
 
-- **[Electricity](./diag-electricity):** Electric circuits and currents.
-- **[Forces](./diag-forces):** Forces and motion.
+- **[Electricity](/physics/diagnostics/diag-electricity/):** Electric circuits and currents.
+- **[Forces](/physics/diagnostics/diag-forces/):** Forces and motion.

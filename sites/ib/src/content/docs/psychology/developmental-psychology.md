@@ -38,11 +38,11 @@ acknowledging the contributions of the others.
 
 ## Contents
 
-- [Attachment Theory](./developmental/attachment-theory) -- Bowlby's theory, Ainsworth's Strange
+- [Attachment Theory](/psychology/developmental/attachment-theory/) -- Bowlby's theory, Ainsworth's Strange
   Situation, types of attachment, and cross-cultural variations.
-- [Cognitive Development](./developmental/cognitive-development) -- Piaget's stages, Vygotsky's
+- [Cognitive Development](/psychology/developmental/cognitive-development/) -- Piaget's stages, Vygotsky's
   sociocultural theory, and their implications for education.
-- [Adolescent Development](./developmental/adolescent-development) -- physical, cognitive, and
+- [Adolescent Development](/psychology/developmental/adolescent-development/) -- physical, cognitive, and
   social changes during adolescence, identity formation, and risk-taking behaviour.
 
 ## Key Concepts
@@ -211,9 +211,9 @@ populations.
 
 | Topic                           | Link                                                            |
 | ------------------------------- | --------------------------------------------------------------- |
-| Attachment Theory               | [View](developmental/attachment-theory)     |
-| Cognitive Development           | [View](developmental/cognitive-development) |
-| Sociocultural Level of Analysis | [View](sociocultural-level-of-analysis)     |
+| Attachment Theory               | [View](/psychology/developmental/attachment-theory/)     |
+| Cognitive Development           | [View](/psychology/developmental/cognitive-development/) |
+| Sociocultural Level of Analysis | [View](/psychology/sociocultural-level-of-analysis/)     |
 
 ## Intuition
 

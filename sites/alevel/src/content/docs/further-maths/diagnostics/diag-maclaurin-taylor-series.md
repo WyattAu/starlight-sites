@@ -204,6 +204,6 @@ oscillation decreasing.
 
 ## Cross-References
 
-- **[Maclaurin-Taylor Series](diag-maclaurin-taylor-series):** Series expansions use calculus
-- **[Further Calculus](../pure-mathematics/04-further-calculus):** Calculus underpins further mathematics
-- **[Pure Mathematics](../further-maths):** Further maths extends A-level mathematics
+- **[Maclaurin-Taylor Series](/further-maths/diagnostics/diag-maclaurin-taylor-series/):** Series expansions use calculus
+- **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
+- **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics

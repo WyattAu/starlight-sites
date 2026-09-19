@@ -32,7 +32,7 @@ Questions. Each question has an answer and a revision redirect. Time allowed: 90
 <summary>Q1. A projectile is launched at 30 m s$^{-1}$ at 60° to the horizontal. What is its maximum height? ($g = 9.81$ m s$^{-2}$)</summary>
 **Answer.** $v_y = 30\sin 60° = 25.98$ m s$^{-1}$. $h_{\max} = v_y^2/(2g) = 675/19.62 = 34.4$ m.
 
-<b>If you get this wrong, revise:</b> [Kinematics](../maths/mechanics/01-kinematics)
+<b>If you get this wrong, revise:</b> [Kinematics](/maths/mechanics/01-kinematics/)
 
 </details>
 
@@ -41,7 +41,7 @@ Questions. Each question has an answer and a revision redirect. Time allowed: 90
 **Answer.** $v_2 = \frac{2m_1 u_1}{m_1 + m_2} = \frac{2 \times 2.0 \times 5.0}{5.0} = 4.0$ m
 S$^{-1}$.
 
-<b>If you get this wrong, revise:</b> [Momentum](../maths/mechanics/05-momentum)
+<b>If you get this wrong, revise:</b> [Momentum](/maths/mechanics/05-momentum/)
 
 </details>
 
@@ -50,7 +50,7 @@ S$^{-1}$.
 **Answer.** $E = \frac{1}{2}kx^2 = \frac{1}{2} \times 200 \times 0.0025 = 0.25$ J.
 
 <b>If you get this wrong, revise:</b>
-[Work, Energy, Power](mechanics/04-work-energy-power)
+[Work, Energy, Power](/physics/mechanics/04-work-energy-power/)
 
 </details>
 
@@ -59,7 +59,7 @@ S$^{-1}$.
 **Answer.** $F = mv^2/r = 1200 \times 225/50 = 5400$ N.
 
 <b>If you get this wrong, revise:</b>
-[Circular Motion](../further-maths/further-mechanics/02-circular-motion)
+[Circular Motion](/further-maths/further-mechanics/02-circular-motion/)
 
 </details>
 
@@ -68,7 +68,7 @@ S$^{-1}$.
 **Answer.** $v_{\max} = \omega A = \frac{2\pi}{T} \times A = \frac{2\pi}{0.80} \times 0.040 = 0.314$
 M s$^{-1}$.
 
-<b>If you get this wrong, revise:</b> [Oscillations](mechanics/07-oscillations)
+<b>If you get this wrong, revise:</b> [Oscillations](/physics/mechanics/07-oscillations/)
 
 </details>
 
@@ -81,7 +81,7 @@ $\Delta w = \frac{\lambda D}{s} = \frac{580 \times 10^{-9} \times 1.5}{0.40 \tim
 M $= 2.18$ mm.
 
 <b>If you get this wrong, revise:</b>
-[Superposition and Interference](waves/02-superposition-and-interference)
+[Superposition and Interference](/physics/waves/02-superposition-and-interference/)
 
 </details>
 
@@ -90,7 +90,7 @@ M $= 2.18$ mm.
 **Answer.** After first polariser: $I = 100$ W m$^{-2}$. After second:
 $I = 100\cos^2 45° = 100 \times 0.5 = 50$ W m$^{-2}$.
 
-<b>If you get this wrong, revise:</b> [Wave Properties](waves/01-wave-properties)
+<b>If you get this wrong, revise:</b> [Wave Properties](/physics/waves/01-wave-properties/)
 
 </details>
 
@@ -99,7 +99,7 @@ $I = 100\cos^2 45° = 100 \times 0.5 = 50$ W m$^{-2}$.
 **Answer.** $n = 1/\sin 42° = 1/0.669 = 1.49$.
 
 <b>If you get this wrong, revise:</b>
-[Refraction and TIR](waves/03-refraction-and-total-internal-reflection)
+[Refraction and TIR](/physics/waves/03-refraction-and-total-internal-reflection/)
 
 </details>
 
@@ -109,7 +109,7 @@ $I = 100\cos^2 45° = 100 \times 0.5 = 50$ W m$^{-2}$.
 $f = v/\lambda = 320/0.80 = 400$ Hz.
 
 <b>If you get this wrong, revise:</b>
-[Superposition and Interference](waves/02-superposition-and-interference)
+[Superposition and Interference](/physics/waves/02-superposition-and-interference/)
 
 </details>
 
@@ -119,7 +119,7 @@ $f = v/\lambda = 320/0.80 = 400$ Hz.
 $n_{\max} = d/\lambda = 1.667 \times 10^{-6}/500 \times 10^{-9} = 3.33$. Maximum order $= 3$.
 
 <b>If you get this wrong, revise:</b>
-[Superposition and Interference](waves/02-superposition-and-interference)
+[Superposition and Interference](/physics/waves/02-superposition-and-interference/)
 
 </details>
 
@@ -129,7 +129,7 @@ $n_{\max} = d/\lambda = 1.667 \times 10^{-6}/500 \times 10^{-9} = 3.33$. Maximum
 <summary>Q11. A 6 $\Omega$ and a 3 $\Omega$ resistor are in parallel. What is the equivalent resistance?</summary>
 **Answer.** $R = \frac{6 \times 3}{6 + 3} = 2.0\,\Omega$.
 
-<b>If you get this wrong, revise:</b> [DC Circuits](electricity/02-dc-circuits)
+<b>If you get this wrong, revise:</b> [DC Circuits](/physics/electricity/02-dc-circuits/)
 
 </details>
 
@@ -139,7 +139,7 @@ $n_{\max} = d/\lambda = 1.667 \times 10^{-6}/500 \times 10^{-9} = 3.33$. Maximum
 $E = \frac{1}{2}CV^2 = \frac{1}{2} \times 47 \times 10^{-6} \times 144 = 3.38 \times 10^{-3}$ J
 $= 3.38$ mJ.
 
-<b>If you get this wrong, revise:</b> [Capacitance](electricity/03-capacitance)
+<b>If you get this wrong, revise:</b> [Capacitance](/physics/electricity/03-capacitance/)
 
 </details>
 
@@ -147,7 +147,7 @@ $= 3.38$ mJ.
 <summary>Q13. A cell of e.m.f. 9.0 V and internal resistance 1.5 $\Omega$ is connected to a 4.5 $\Omega$ load. What is the terminal p.d.?</summary>
 **Answer.** $I = 9.0/(4.5 + 1.5) = 1.5$ A. $V = \mathcal{E} - Ir = 9.0 - 1.5 \times 1.5 = 6.75$ V.
 
-<b>If you get this wrong, revise:</b> [DC Circuits](electricity/02-dc-circuits)
+<b>If you get this wrong, revise:</b> [DC Circuits](/physics/electricity/02-dc-circuits/)
 
 </details>
 
@@ -155,7 +155,7 @@ $= 3.38$ mJ.
 <summary>Q14. A 100 $\mu$F capacitor discharges through a 50 k$\Omega$ resistor. What is the time constant?</summary>
 **Answer.** $\tau = RC = 50 \times 10^3 \times 100 \times 10^{-6} = 5.0$ s.
 
-<b>If you get this wrong, revise:</b> [Capacitance](electricity/03-capacitance)
+<b>If you get this wrong, revise:</b> [Capacitance](/physics/electricity/03-capacitance/)
 
 </details>
 
@@ -165,7 +165,7 @@ $= 3.38$ mJ.
 $R = \rho L/A = 1.7 \times 10^{-8} \times 10 / 7.85 \times 10^{-7} = 0.217\,\Omega$.
 
 <b>If you get this wrong, revise:</b>
-[Current and Resistance](electricity/01-current-and-resistance)
+[Current and Resistance](/physics/electricity/01-current-and-resistance/)
 
 </details>
 
@@ -177,7 +177,7 @@ $R = \rho L/A = 1.7 \times 10^{-8} \times 10 / 7.85 \times 10^{-7} = 0.217\,\Ome
 $F = kq_1q_2/r^2 = 8.99 \times 10^9 \times 3 \times 10^{-6} \times 5 \times 10^{-6}/0.04 = 3.37$ N
 (attractive).
 
-<b>If you get this wrong, revise:</b> [Electric Fields](fields/01-electric-fields)
+<b>If you get this wrong, revise:</b> [Electric Fields](/physics/fields/01-electric-fields/)
 
 </details>
 
@@ -187,7 +187,7 @@ $F = kq_1q_2/r^2 = 8.99 \times 10^9 \times 3 \times 10^{-6} \times 5 \times 10^{
 $r = mv/(Be) = 9.11 \times 10^{-31} \times 4.0 \times 10^6/(0.50 \times 1.60 \times 10^{-19}) = 4.56 \times 10^{-5}$
 M.
 
-<b>If you get this wrong, revise:</b> [Magnetic Fields](fields/02-magnetic-fields)
+<b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
 </details>
 
@@ -195,7 +195,7 @@ M.
 <summary>Q18. A velocity selector has $E = 5.0 \times 10^5$ V m$^{-1}$ and $B = 0.20$ T. What velocity is selected?</summary>
 **Answer.** $v = E/B = 5.0 \times 10^5/0.20 = 2.5 \times 10^6$ m s$^{-1}$.
 
-<b>If you get this wrong, revise:</b> [Magnetic Fields](fields/02-magnetic-fields)
+<b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
 </details>
 
@@ -206,7 +206,7 @@ $c = 1/\sqrt{\mu_0\varepsilon_0} = 1/\sqrt{4\pi \times 10^{-7} \times 8.85 \time
 M s$^{-1}$.
 
 <b>If you get this wrong, revise:</b>
-[Electromagnetism Unification](fields/03-electromagnetism-unification)
+[Electromagnetism Unification](/physics/fields/03-electromagnetism-unification/)
 
 </details>
 
@@ -214,7 +214,7 @@ M s$^{-1}$.
 <summary>Q20. What is the electric potential at 0.05 m from a $+2\,\mu$C charge?</summary>
 **Answer.** $V = kQ/r = 8.99 \times 10^9 \times 2 \times 10^{-6}/0.05 = 3.60 \times 10^5$ V.
 
-<b>If you get this wrong, revise:</b> [Electric Fields](fields/01-electric-fields)
+<b>If you get this wrong, revise:</b> [Electric Fields](/physics/fields/01-electric-fields/)
 
 </details>
 
@@ -222,7 +222,7 @@ M s$^{-1}$.
 <summary>Q21. A coil of 150 turns experiences a flux change of 0.04 Wb in 0.02 s. What is the average induced e.m.f.?</summary>
 **Answer.** $\mathcal{E} = N\Delta\Phi/\Delta t = 150 \times 0.04/0.02 = 300$ V.
 
-<b>If you get this wrong, revise:</b> [Magnetic Fields](fields/02-magnetic-fields)
+<b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
 </details>
 
@@ -232,7 +232,7 @@ M s$^{-1}$.
 Linkage: $\mathcal{E} = -d(N\Phi)/dt$. **Lenz's law:** the direction of the induced current opposes
 The change in flux that produced it.
 
-<b>If you get this wrong, revise:</b> [Magnetic Fields](fields/02-magnetic-fields)
+<b>If you get this wrong, revise:</b> [Magnetic Fields](/physics/fields/02-magnetic-fields/)
 
 </details>
 
@@ -245,7 +245,7 @@ $v_{\mathrm{rms}} = \sqrt{3RT/M_r} = \sqrt{3 \times 8.31 \times 300/0.004} = \sq
 S$^{-1}$.
 
 <b>If you get this wrong, revise:</b>
-[Thermal Properties](thermal-physics/01-thermal-properties)
+[Thermal Properties](/physics/thermal-physics/01-thermal-properties/)
 
 </details>
 
@@ -254,7 +254,7 @@ S$^{-1}$.
 **Answer.** $V_1/T_1 = V_2/T_2$. $V_2 = 0.025 \times 450/300 = 0.0375$ m$^3$.
 
 <b>If you get this wrong, revise:</b>
-[Thermal Properties](thermal-physics/01-thermal-properties)
+[Thermal Properties](/physics/thermal-physics/01-thermal-properties/)
 
 </details>
 
@@ -265,7 +265,7 @@ $\langle E_k \rangle = \frac{3}{2}k_BT = 1.5 \times 1.381 \times 10^{-23} \times
 J.
 
 <b>If you get this wrong, revise:</b>
-[Thermal Properties](thermal-physics/01-thermal-properties)
+[Thermal Properties](/physics/thermal-physics/01-thermal-properties/)
 
 </details>
 
@@ -274,7 +274,7 @@ J.
 **Answer.** $\eta_{\mathrm{Carnot}} = 1 - T_C/T_H = 1 - 300/600 = 50\%$.
 
 <b>If you get this wrong, revise:</b>
-[Thermodynamics](../chemistry/thermodynamics)
+[Thermodynamics](/chemistry/thermodynamics/)
 
 </details>
 
@@ -283,7 +283,7 @@ J.
 **Answer.** $\Delta U = Q + W = 300 + (-100) = 200$ J. (Work done on the gas is $-100$ J.)
 
 <b>If you get this wrong, revise:</b>
-[Thermodynamics](../chemistry/thermodynamics)
+[Thermodynamics](/chemistry/thermodynamics/)
 
 </details>
 
@@ -295,7 +295,7 @@ J.
 $\prescript{14}{6}\mathrm{C} \to \prescript{14}{7}\mathrm{N} + \prescript{0}{-1}\beta^- + \bar{\nu}_e$.
 
 <b>If you get this wrong, revise:</b>
-[Radioactivity](nuclear-physics/01-radioactivity)
+[Radioactivity](/physics/nuclear-physics/01-radioactivity/)
 
 </details>
 
@@ -304,7 +304,7 @@ $\prescript{14}{6}\mathrm{C} \to \prescript{14}{7}\mathrm{N} + \prescript{0}{-1}
 **Answer.** $n = 18/6 = 3$ half-lives. Fraction remaining $= 1/2^3 = 1/8 = 0.125 = 12.5\%$.
 
 <b>If you get this wrong, revise:</b>
-[Radioactivity](nuclear-physics/01-radioactivity)
+[Radioactivity](/physics/nuclear-physics/01-radioactivity/)
 
 </details>
 
@@ -313,7 +313,7 @@ $\prescript{14}{6}\mathrm{C} \to \prescript{14}{7}\mathrm{N} + \prescript{0}{-1}
 **Answer.** $\lambda_0 = hc/\phi = 1240\,\mathrm{eV nm}/2.14\,\mathrm{eV} = 579$ nm.
 
 <b>If you get this wrong, revise:</b>
-[Quantum Physics](nuclear-physics/03-quantum-physics)
+[Quantum Physics](/physics/nuclear-physics/03-quantum-physics/)
 
 </details>
 
@@ -324,7 +324,7 @@ $\lambda = h/\sqrt{2m_e eV} = 6.63 \times 10^{-34}/\sqrt{2 \times 9.11 \times 10
 M.
 
 <b>If you get this wrong, revise:</b>
-[Quantum Physics](nuclear-physics/03-quantum-physics)
+[Quantum Physics](/physics/nuclear-physics/03-quantum-physics/)
 
 </details>
 
@@ -336,7 +336,7 @@ $\lambda = hc/\Delta E = 6.63 \times 10^{-34} \times 3.0 \times 10^8/1.934 \time
 M $= 103$ nm.
 
 <b>If you get this wrong, revise:</b>
-[Quantum Physics](nuclear-physics/03-quantum-physics)
+[Quantum Physics](/physics/nuclear-physics/03-quantum-physics/)
 
 </details>
 
@@ -349,7 +349,7 @@ To the maximum nuclear stability. Nuclei lighter than iron release energy by fus
 Release energy by fission, both processes move towards the iron peak.
 
 <b>If you get this wrong, revise:</b>
-[Nuclear Energy](nuclear-physics/02-nuclear-energy)
+[Nuclear Energy](/physics/nuclear-physics/02-nuclear-energy/)
 
 </details>
 
@@ -359,7 +359,7 @@ Release energy by fission, both processes move towards the iron peak.
 $\lambda = \ln 2/t_{1/2} = 0.693/600 = 1.16 \times 10^{-3}$ s$^{-1}$.
 
 <b>If you get this wrong, revise:</b>
-[Radioactivity](nuclear-physics/01-radioactivity)
+[Radioactivity](/physics/nuclear-physics/01-radioactivity/)
 
 </details>
 
@@ -368,7 +368,7 @@ $\lambda = \ln 2/t_{1/2} = 0.693/600 = 1.16 \times 10^{-3}$ s$^{-1}$.
 **Answer.** $E = hc/\lambda = 1240/450 = 2.76$ eV. $E_{k,\max} = 2.76 - 2.0 = 0.76$ eV.
 
 <b>If you get this wrong, revise:</b>
-[Quantum Physics](nuclear-physics/03-quantum-physics)
+[Quantum Physics](/physics/nuclear-physics/03-quantum-physics/)
 
 </details>
 
@@ -380,7 +380,7 @@ $\lambda = \ln 2/t_{1/2} = 0.693/600 = 1.16 \times 10^{-3}$ s$^{-1}$.
 Result: $4.53 \pm 0.02$ V.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -390,7 +390,7 @@ Result: $4.53 \pm 0.02$ V.
 $2(0.2/3.0) + 0.3/4.0 = 0.133 + 0.075 = 0.208 = 20.8\%$.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -402,7 +402,7 @@ In repeated readings (e.g., reaction time with a stopwatch). Systematic errors a
 Random errors affect precision.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -412,7 +412,7 @@ Random errors affect precision.
 $n$ and the $y$-intercept is $\ln a$.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -421,7 +421,7 @@ $n$ and the $y$-intercept is $\ln a$.
 **Answer.** Percentage uncertainty $= (0.3/2.5) \times 100 = 12\%$.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -432,7 +432,7 @@ And averaging reduces the effect of any local variations, giving a more represen
 Cross-sectional area.
 
 <b>If you get this wrong, revise:</b>
-[Experimental Design](practical-skills/02-experimental-design)
+[Experimental Design](/physics/practical-skills/02-experimental-design/)
 
 </details>
 
@@ -445,7 +445,7 @@ Giving $\sim 1\%$ uncertainty in the total time, which translates to $\sim 1\%$ 
 Period.
 
 <b>If you get this wrong, revise:</b>
-[Experimental Design](practical-skills/02-experimental-design)
+[Experimental Design](/physics/practical-skills/02-experimental-design/)
 
 </details>
 
@@ -455,7 +455,7 @@ Period.
 Result is consistent with the accepted value at this level of uncertainty.
 
 <b>If you get this wrong, revise:</b>
-[Measurements and Error Analysis](practical-skills/01-measurements-and-error-analysis)
+[Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
 
 </details>
 
@@ -465,7 +465,7 @@ Result is consistent with the accepted value at this level of uncertainty.
 The current is reduced by a factor of $5.0/5.5 = 0.909$An error of $\sim 9.1\%$. (The ammeter
 Should ideally have zero resistance.)
 
-<b>If you get this wrong, revise:</b> [DC Circuits](electricity/02-dc-circuits)
+<b>If you get this wrong, revise:</b> [DC Circuits](/physics/electricity/02-dc-circuits/)
 
 </details>
 
@@ -474,7 +474,7 @@ Should ideally have zero resistance.)
 **Answer.** For discharging: $I = I_0 e^{-t/RC}$ So $\ln I = \ln I_0 - t/(RC)$. Gradient
 $= -1/(RC) = -0.125$. $\tau = RC = 1/0.125 = 8.0$ s.
 
-<b>If you get this wrong, revise:</b> [Capacitance](electricity/03-capacitance)
+<b>If you get this wrong, revise:</b> [Capacitance](/physics/electricity/03-capacitance/)
 
 </details>
 
@@ -520,6 +520,6 @@ linked above.
 
 ## Cross-References
 
-- **[Mechanics](../physics/flashcards-mechanics-waves):** The diagnostic tests mechanics concepts
-- **[Waves](../physics/flashcards-mechanics-waves):** Wave properties are assessed
-- **[Electricity](../physics/flashcards-electricity-fields):** Circuit analysis is tested
+- **[Mechanics](/physics/flashcards-mechanics-waves/):** The diagnostic tests mechanics concepts
+- **[Waves](/physics/flashcards-mechanics-waves/):** Wave properties are assessed
+- **[Electricity](/physics/flashcards-electricity-fields/):** Circuit analysis is tested

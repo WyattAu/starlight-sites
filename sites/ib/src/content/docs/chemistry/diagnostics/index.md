@@ -18,15 +18,15 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Diag Acids Bases](./diag-acids-bases)
-- [Diag Atomic Structure](./diag-atomic-structure)
-- [Diag Chemical Bonding](./diag-chemical-bonding)
-- [Diag Measurement](./diag-measurement)
-- [Diag Organic Chemistry](./diag-organic-chemistry)
-- [Diag Periodicity](./diag-periodicity)
-- [Diag Redox](./diag-redox)
-- [Diag States Of Matter](./diag-states-of-matter)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Acids Bases](/chemistry/diagnostics/diag-acids-bases/)
+- [Diag Atomic Structure](/chemistry/diagnostics/diag-atomic-structure/)
+- [Diag Chemical Bonding](/chemistry/diagnostics/diag-chemical-bonding/)
+- [Diag Measurement](/chemistry/diagnostics/diag-measurement/)
+- [Diag Organic Chemistry](/chemistry/diagnostics/diag-organic-chemistry/)
+- [Diag Periodicity](/chemistry/diagnostics/diag-periodicity/)
+- [Diag Redox](/chemistry/diagnostics/diag-redox/)
+- [Diag States Of Matter](/chemistry/diagnostics/diag-states-of-matter/)
+- [Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

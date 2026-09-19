@@ -749,8 +749,8 @@ Register arguments must be written to memory before the callee can access them.
 
 ## See Also
 
-- [Overload Resolution](1_overload_resolution)
-- [C-Interop and FFI](5_c_interop)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
 
 ```mermaid
 flowchart TD

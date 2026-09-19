@@ -1535,6 +1535,6 @@ import { Citation } from "@components/Citations.astro"
 
 ## Cross-References
 
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
-- [Control Flow](../../../../../kotlin/src/content/docs/basics/control-flow)
-- [Object-Oriented Programming](../../../../../java/src/content/docs/03-object-oriented/01-classes)
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
+- [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)

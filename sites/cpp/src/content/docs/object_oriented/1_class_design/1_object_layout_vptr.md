@@ -687,6 +687,6 @@ Object layout determines how class members are arranged in memory. The compiler 
 
 ## Cross-References
 
-- [Access Control](../../../../../../programming/src/content/docs/object_oriented/1_class_design/2_access_control)
-- [Special Member Functions](../../../../../../programming/src/content/docs/object_oriented/1_class_design/3_special_member_functions)
-- [VTables](../../../../../../programming/src/content/docs/object_oriented/2_runtime_polymorphism/1_vtables)
+- [Access Control](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/)
+- [Special Member Functions](https://programming.wyattau.com/object_oriented/1_class_design/3_special_member_functions/)
+- [VTables](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/1_vtables/)

@@ -18,9 +18,9 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Dns And Dhcp](./dns-and-dhcp)
-- [Firewalls](./firewalls)
-- [Linux Networking](./linux-networking)
+- [Dns And Dhcp](/04-networking/dns-and-dhcp/)
+- [Firewalls](/04-networking/firewalls/)
+- [Linux Networking](/04-networking/linux-networking/)
 
 ## Learning Objectives
 

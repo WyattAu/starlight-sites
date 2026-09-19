@@ -719,5 +719,5 @@ Swift's type system enforces safety at compile time. Let creates immutable const
 ## See Also
 
 - [Basics](./)
-- [Swift](..)
-- [Types and Variables](../../go/basics/types-and-variables)
+- [Swift](/)
+- [Types and Variables](/go/basics/types-and-variables/)

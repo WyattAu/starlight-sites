@@ -18,13 +18,13 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [Diag Algorithms](./diag-algorithms)
-- [Diag Data Structures](./diag-data-structures)
-- [Diag Fundamentals](./diag-fundamentals)
-- [Diag Networks](./diag-networks)
-- [Diag Programming](./diag-programming)
-- [Diag Theory Of Computation](./diag-theory-of-computation)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Algorithms](/computer-science/diagnostics/diag-algorithms/)
+- [Diag Data Structures](/computer-science/diagnostics/diag-data-structures/)
+- [Diag Fundamentals](/computer-science/diagnostics/diag-fundamentals/)
+- [Diag Networks](/computer-science/diagnostics/diag-networks/)
+- [Diag Programming](/computer-science/diagnostics/diag-programming/)
+- [Diag Theory Of Computation](/computer-science/diagnostics/diag-theory-of-computation/)
+- [Diagnostic Guide](/computer-science/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

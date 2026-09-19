@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Style And Idioms](./01-style-and-idioms)
-- [Debugging And Profiling](./02-debugging-and-profiling)
-- [Error Handling Patterns](./03-error-handling-patterns)
-- [Packaging Distribution](./04-packaging-distribution)
+- [Style And Idioms](/python/07-best-practices/01-style-and-idioms/)
+- [Debugging And Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Packaging Distribution](/python/07-best-practices/04-packaging-distribution/)
 
 ## Learning Objectives
 

@@ -125,9 +125,9 @@ get` to manage dependencies and `dart analyze` to catch issues early.
 
 ## Cross-References
 
-- [Introduction to Dart](../01-intro) - Language overview
-- [Entry Point](../03-basics/01-entrypoint) - The main() function
-- [Variables and Types](../03-basics/02-variables) - Type system
+- [Introduction to Dart](/01-intro/) - Language overview
+- [Entry Point](/03-basics/01-entrypoint/) - The main() function
+- [Variables and Types](/03-basics/02-variables/) - Type system
 
 
 ## Advanced Content

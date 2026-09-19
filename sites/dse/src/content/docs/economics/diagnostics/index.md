@@ -18,15 +18,15 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Diag Basic Economic Concepts](./diag-basic-economic-concepts)
-- [Diag Demand Supply Markets](./diag-demand-supply-markets)
-- [Diag Fiscal Monetary Policy](./diag-fiscal-monetary-policy)
-- [Diag International Trade](./diag-international-trade)
-- [Diag Market Failure](./diag-market-failure)
-- [Diag Market Structure](./diag-market-structure)
-- [Diag Money Banking](./diag-money-banking)
-- [Diag National Income](./diag-national-income)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Basic Economic Concepts](/economics/diagnostics/diag-basic-economic-concepts/)
+- [Diag Demand Supply Markets](/economics/diagnostics/diag-demand-supply-markets/)
+- [Diag Fiscal Monetary Policy](/economics/diagnostics/diag-fiscal-monetary-policy/)
+- [Diag International Trade](/economics/diagnostics/diag-international-trade/)
+- [Diag Market Failure](/economics/diagnostics/diag-market-failure/)
+- [Diag Market Structure](/economics/diagnostics/diag-market-structure/)
+- [Diag Money Banking](/economics/diagnostics/diag-money-banking/)
+- [Diag National Income](/economics/diagnostics/diag-national-income/)
+- [Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

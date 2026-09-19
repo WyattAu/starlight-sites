@@ -24,7 +24,7 @@ categories:
 
 A complete single-page revision guide covering the full GCSE Chemistry specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the
-[full topic pages](chemistry/) for detailed derivations and further practice.
+[full topic pages](/chemistry/) for detailed derivations and further practice.
 
 ---
 
@@ -748,7 +748,7 @@ Chemistry explains how atoms combine to form the substances that make up everyth
 
 ## Cross-References
 
-- [Chemistry](chemistry)
-- [2 Bonding](chemistry/2-bonding/2_bonding)
-- [Biology](biology)
-- [2 Organisation](biology/2-organisation/2_organisation)
+- [Chemistry](/chemistry/)
+- [2 Bonding](/chemistry/2-bonding/2_bonding/)
+- [Biology](/biology/)
+- [2 Organisation](/biology/2-organisation/2_organisation/)

@@ -130,9 +130,9 @@ Reading comprehension is like being a detective at a crime scene, every sentence
 
 ## Cross-References
 
-- [Grammar](./grammar) -- Understanding sentence structure helps identify how authors construct arguments and present evidence.
-- [Writing Essay](../writing/essay) -- Evidence-based essay writing draws on the same analytical skills used in reading comprehension.
-- [Algebra](../mathematics/algebra) -- Interpreting data and graphs in passages requires algebraic reasoning about trends and relationships.
+- [Grammar](/reading/grammar/) -- Understanding sentence structure helps identify how authors construct arguments and present evidence.
+- [Writing Essay](/writing/essay/) -- Evidence-based essay writing draws on the same analytical skills used in reading comprehension.
+- [Algebra](/mathematics/algebra/) -- Interpreting data and graphs in passages requires algebraic reasoning about trends and relationships.
 
 
 ## Advanced Content

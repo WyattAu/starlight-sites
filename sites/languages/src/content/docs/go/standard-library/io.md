@@ -436,6 +436,6 @@ linked above.
 
 ## Cross-References
 
-- **[net/http](./net-http):** HTTP handlers and clients built on io.Reader/Writer interfaces.
-- **[Strings and Time](./strings-and-time):** String manipulation and time parsing used with I/O streams.
-- **[Channels](../concurrency/channels):** Concurrent pipeline patterns using io.Reader/Writer with goroutines.
+- **[net/http](/go/standard-library/net-http/):** HTTP handlers and clients built on io.Reader/Writer interfaces.
+- **[Strings and Time](/go/standard-library/strings-and-time/):** String manipulation and time parsing used with I/O streams.
+- **[Channels](/go/concurrency/channels/):** Concurrent pipeline patterns using io.Reader/Writer with goroutines.

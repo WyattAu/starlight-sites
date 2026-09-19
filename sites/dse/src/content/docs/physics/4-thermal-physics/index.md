@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_heat And Gases](./1_heat-and-gases)
+- [1_heat And Gases](/physics/4-thermal-physics/1_heat-and-gases/)
 
 ## Learning Objectives
 

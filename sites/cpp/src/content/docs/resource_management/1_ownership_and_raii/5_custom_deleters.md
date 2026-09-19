@@ -811,10 +811,10 @@ To debug.
 
 ## See Also
 
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
-- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)
-- [RAII Patterns](1_raii_patterns)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
 
 ## Worked Examples
 

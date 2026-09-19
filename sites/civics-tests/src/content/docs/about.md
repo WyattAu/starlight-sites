@@ -46,7 +46,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [Civics and Citizenship Tests](./)
-- [Us Citizenship](./us-citizenship)
+- [Us Citizenship](/us-citizenship/)
 
 
 ## Detailed Content

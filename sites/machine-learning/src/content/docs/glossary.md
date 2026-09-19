@@ -349,8 +349,8 @@ scores = cross_val_score(model, X, y, cv=5)
 
 ## Related Terms
 
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Python Glossary](glossary) for Python ML libraries
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [Mathematics Glossary](glossary) for statistical foundations
-- See [Databases Glossary](glossary) for data storage concepts
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Python Glossary](/glossary/) for Python ML libraries
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Mathematics Glossary](/glossary/) for statistical foundations
+- See [Databases Glossary](/glossary/) for data storage concepts

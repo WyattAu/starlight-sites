@@ -260,9 +260,9 @@ Dimensions and identify co-benefits and trade-offs.
 
 </details>
 
-For related topics, see [./atmospheric-systems](./atmospheric-systems) and
-[./carbon-cycle-and-sequestration](./carbon-cycle-and-sequestration). The parent topic page is at
-[../climate-change](../climate-change).
+For related topics, see [./atmospheric-systems](/geography/climate/atmospheric-systems/) and
+[./carbon-cycle-and-sequestration](/geography/climate/carbon-cycle-and-sequestration/). The parent topic page is at
+[../climate-change](/geography/climate-change/).
 
 ## Common Pitfalls
 

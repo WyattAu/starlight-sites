@@ -93,8 +93,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Highers](./)
-- [Scottish Highers Flashcards: Biology](./flashcards-biology)
-- [Scottish Highers Flashcards: Chemistry](./flashcards-chemistry)
+- [Scottish Highers Flashcards: Biology](/flashcards-biology/)
+- [Scottish Highers Flashcards: Chemistry](/flashcards-chemistry/)
 
 
 ## Detailed Content

@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [TrueNAS](./)
-- [Introduction to TrueNAS](./intro)
-- [TrueNAS Practice](./practice-truenas)
+- [Introduction to TrueNAS](/intro/)
+- [TrueNAS Practice](/practice-truenas/)
 
 
 ## Detailed Content

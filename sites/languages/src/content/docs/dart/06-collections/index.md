@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Collections Deep Dive](./01-collections-deep-dive)
+- [Collections Deep Dive](/dart/06-collections/01-collections-deep-dive/)
 
 ## Learning Objectives
 

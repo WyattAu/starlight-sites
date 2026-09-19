@@ -2056,5 +2056,5 @@ linked above.
 ## See Also
 
 - [Resource Management](./)
-- [IB Computer Science](..)
-- [IB CS Flashcards: Networks and Databases](../flashcards-networks-databases)
+- [IB Computer Science](/)
+- [IB CS Flashcards: Networks and Databases](/computer-science/flashcards-networks-databases/)

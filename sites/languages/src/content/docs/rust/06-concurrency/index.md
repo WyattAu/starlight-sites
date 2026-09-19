@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Async Deep Dive](./async-deep-dive)
-- [Channels And Message Passing](./channels-and-message-passing)
-- [Concurrency](./concurrency)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
+- [Channels And Message Passing](/rust/06-concurrency/channels-and-message-passing/)
+- [Concurrency](/rust/06-concurrency/concurrency/)
 
 ## Learning Objectives
 

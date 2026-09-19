@@ -602,10 +602,10 @@ functions, and applying formulas become automatic.
 
 ## Cross-References
 
-- [Reading and Writing](reading-and-writing) -- Evidence-based reasoning and careful reading of word problems are essential for both SAT sections.
-- [Algebra](mathematics/algebra) -- Detailed coverage of linear equations, quadratics, and functions extends the algebra overview here.
-- [Geometry](mathematics/geometry) -- Circle equations, coordinate geometry, and trigonometry are covered in greater depth in this topic.
-- [Data Analysis](mathematics/data-analysis) -- Statistics, probability, and data interpretation build on the Problem Solving section here.
+- [Reading and Writing](/reading-and-writing/) -- Evidence-based reasoning and careful reading of word problems are essential for both SAT sections.
+- [Algebra](/mathematics/algebra/) -- Detailed coverage of linear equations, quadratics, and functions extends the algebra overview here.
+- [Geometry](/mathematics/geometry/) -- Circle equations, coordinate geometry, and trigonometry are covered in greater depth in this topic.
+- [Data Analysis](/mathematics/data-analysis/) -- Statistics, probability, and data interpretation build on the Problem Solving section here.
 
 ## Intuition
 

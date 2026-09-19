@@ -550,5 +550,5 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 ## See Also
 
 - [Nuclear & Quantum Physics](./)
-- [Quantum Physics](./03-quantum-physics)
-- [Radioactivity](./01-radioactivity)
+- [Quantum Physics](/physics/nuclear-physics/03-quantum-physics/)
+- [Radioactivity](/physics/nuclear-physics/01-radioactivity/)

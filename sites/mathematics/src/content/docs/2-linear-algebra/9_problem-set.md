@@ -504,9 +504,9 @@ flowchart TD
 
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Linear Algebra (Overview)  | WyattsNotes | [View](../linear-algebra)                   |
-| Abstract Algebra           | WyattsNotes | [View](../abstract-algebra)                 |
-| Multivariable Calculus     | WyattsNotes | [View](../multivariable-calculus)           |
+| Linear Algebra (Overview)  | WyattsNotes | [View](/linear-algebra/)                   |
+| Abstract Algebra           | WyattsNotes | [View](/abstract-algebra/)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)           |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

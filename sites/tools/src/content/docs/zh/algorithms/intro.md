@@ -182,7 +182,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 - [Algorithms](./)
 - [Introduction to Algorithms](../../algorithms/intro)
-- [Introduction to General Notes](../../general/intro)
+- [Introduction to General Notes](/general/intro/)
 
 
 ## Advanced Content

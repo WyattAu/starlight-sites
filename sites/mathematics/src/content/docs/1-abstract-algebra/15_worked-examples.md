@@ -163,10 +163,10 @@ These are the only two possibilities, so there are exactly two groups of order $
 
 ## Cross-References
 
-- [Group Actions](6_group-actions) -- The orbit-stabilizer theorem and Burnside's lemma used in the worked examples are developed in this chapter.
-- [The Sylow Theorems](7_the-sylow-theorems) -- Sylow theory is the primary tool for the group classification arguments in several worked examples.
-- [Polynomial Rings](10_polynomial-rings) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
-- [Euclidean Domains, PIDs, and UFDs](11_euclidean-domains-pids-and-ufds) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
+- [Group Actions](/1-abstract-algebra/6_group-actions/) -- The orbit-stabilizer theorem and Burnside's lemma used in the worked examples are developed in this chapter.
+- [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Sylow theory is the primary tool for the group classification arguments in several worked examples.
+- [Polynomial Rings](/1-abstract-algebra/10_polynomial-rings/) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
 
 
 ## Advanced Content

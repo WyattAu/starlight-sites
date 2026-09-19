@@ -1099,5 +1099,5 @@ flowchart TD
 ## See Also
 
 - [Development Economics](./)
-- [Measuring Development](./1-measuring-development)
-- [Barriers to Growth](./2-barriers-to-growth)
+- [Measuring Development](/economics/4-development-economics/1-measuring-development/)
+- [Barriers to Growth](/economics/4-development-economics/2-barriers-to-growth/)

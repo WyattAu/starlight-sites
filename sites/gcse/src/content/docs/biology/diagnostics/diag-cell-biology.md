@@ -257,5 +257,5 @@ linked above.
 
 ## Cross-References
 
-- **[Bioenergetics](./diag-bioenergetics):** Energy processes within cells.
-- **[Organisation](./diag-organisation):** Cell organisation and body systems.
+- **[Bioenergetics](/biology/diagnostics/diag-bioenergetics/):** Energy processes within cells.
+- **[Organisation](/biology/diagnostics/diag-organisation/):** Cell organisation and body systems.

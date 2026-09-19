@@ -888,7 +888,7 @@ linked above.
 
 ## Cross-References
 
-- [Advanced Typing](./01-advanced-typing): Extends Python's type system with protocols and generics, which can be used to type context managers more precisely.
-- [Data Validation](./02-data-validation): Shows how to validate data within context managers, ensuring resources receive properly validated input.
-- [Protocols and Dunder Methods](./04-protocols-dunder-methods): Explains the **enter** and **exit** dunder methods that define context manager protocol.
-- [Async Context Managers](../../../../../../dart/src/content/docs/05-async/01-async-and-futures): Builds on context managers for asynchronous resource management with async with and async generators.
+- [Advanced Typing](/python/08-advanced-topics/01-advanced-typing/): Extends Python's type system with protocols and generics, which can be used to type context managers more precisely.
+- [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to validate data within context managers, ensuring resources receive properly validated input.
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Explains the **enter** and **exit** dunder methods that define context manager protocol.
+- [Async Context Managers](https://dart.wyattau.com/05-async/01-async-and-futures/): Builds on context managers for asynchronous resource management with async with and async generators.

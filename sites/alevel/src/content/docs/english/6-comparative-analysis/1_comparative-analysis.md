@@ -343,5 +343,5 @@ flowchart TD
 ## See Also
 
 - [Comparative Analysis](./)
-- [A-Level English](..)
-- [Complexity Analysis](../../computer-science/algorithms/04-complexity-analysis)
+- [A-Level English](/)
+- [Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/)

@@ -1,0 +1,47 @@
+# HSC — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+HSC revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://hsc.wyattau.com/about/): About Wyatt's Notes HSC resources, experience, expertise, and credentials behind Australian Higher School Certificate study materials.
+- [Complete HSC Study Guide, Physics and Maths](https://hsc.wyattau.com/hub/): Study notes for Complete HSC Study Guide, Physics and Maths with worked examples, practice problems, and key concepts for exam preparation.
+- [HSC - Wyatt's Notes](https://hsc.wyattau.com/): HSC revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+- [HSC Exam Glossary, Key Terms](https://hsc.wyattau.com/glossary/): Comprehensive glossary of HSC Exam terms covering the NSW education system, assessment, ATAR, scaling, and university admissions.
+- [HSC Physics Flashcards](https://hsc.wyattau.com/flashcards-physics/): QUALIFICATIONS Hsc flashcards: HSC Physics Flashcards. Comprehensive study material with definitions, examples, and assessment tools.
+- [Introduction to HSC/VCE Notes](https://hsc.wyattau.com/intro/): The and the are the two major school-leaving qualifications in Australia. They are awarded upon completion of senior secondary schooling and are the primary
+- [Mathematics Practice](https://hsc.wyattau.com/practice-mathematics/): 15 MCQ questions covering algebra, calculus, trigonometry, probability, and statistics. Select an option to check your answer and view the explanation.
+- [Physics Practice](https://hsc.wyattau.com/practice-physics/): 15 MCQ questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select an option to check your answer and view the explanation.
+
+## Chemistry
+
+- [Chemistry](https://hsc.wyattau.com/chemistry/): This section covers chemistry concepts, definitions, and applications with worked examples and practice problems.
+- [Inorganic](https://hsc.wyattau.com/chemistry/inorganic/): Study notes for Inorganic with worked examples, practice problems, and key concepts for exam preparation.
+- [Organic](https://hsc.wyattau.com/chemistry/organic/): Study notes for Organic with worked examples, practice problems, and key concepts for exam preparation.
+
+## Diagnostics
+
+- [Diagnostic Test: Mathematics](https://hsc.wyattau.com/diagnostics/diag-mathematics/): Diagnostic test notes for hsc Diagnostic Test: Mathematics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Diagnostic Test: Physics](https://hsc.wyattau.com/diagnostics/diag-physics/): Diagnostic test notes for hsc Diagnostic Test: Physics covering key concepts, worked examples, and practice problems for exam preparation.
+
+## English
+
+- [English](https://hsc.wyattau.com/english/): This section covers english concepts, definitions, and applications with worked examples and practice problems.
+- [Reading](https://hsc.wyattau.com/english/reading/): Study notes for Reading with worked examples, practice problems, and key concepts for exam preparation.
+- [Writing](https://hsc.wyattau.com/english/writing/): Study notes for Writing with worked examples, practice problems, and key concepts for exam preparation.
+
+## Mathematics
+
+- [Algebra](https://hsc.wyattau.com/mathematics/algebra/): Study notes for Algebra with worked examples, practice problems, and key concepts for exam preparation.
+- [Calculus](https://hsc.wyattau.com/mathematics/calculus/): Study notes for Calculus with worked examples, practice problems, and key concepts for exam preparation.
+- [Mathematics](https://hsc.wyattau.com/mathematics/): This section covers mathematics concepts, definitions, and applications with worked examples and practice problems.
+
+## Physics
+
+- [Mechanics](https://hsc.wyattau.com/physics/mechanics/): Study notes for Mechanics with worked examples, practice problems, and key concepts for exam preparation.
+- [Physics](https://hsc.wyattau.com/physics/): This section covers physics concepts, definitions, and applications with worked examples and practice problems.
+- [Waves | HSC - Wyatt's Notes](https://hsc.wyattau.com/physics/waves/): Study notes for Waves with worked examples, practice problems, and key concepts for exam preparation.

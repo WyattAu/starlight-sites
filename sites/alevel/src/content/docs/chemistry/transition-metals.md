@@ -331,7 +331,7 @@ accelerates.
 | $\mathrm{CO}_3^{2-}$ | Add dilute acid                                 | Effervescence, gas turns limewater milky               |
 
 For further analytical techniques (IR, MS, NMR, chromatography), see
-[Organic Chemistry](./organic-chemistry).
+[Organic Chemistry](/chemistry/organic-chemistry/).
 
 ## Magnetism in Transition Metal Complexes
 
@@ -1149,7 +1149,7 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 ## Cross-References
 
-- [Atomic Structure](./atomic-structure) -- Electronic configurations of transition metals explain their variable oxidation states and colour properties.
-- [Bonding and Structure](./bonding-and-structure) -- Coordinate bonding in complex ions extends the general theory of chemical bonding.
-- [Organic Chemistry](./organic-chemistry) -- Transition metal catalysts are essential in many organic reactions, linking inorganic and organic chemistry.
-- [Kinetics](./kinetics) -- The role of transition metals as catalysts connects directly to activation energy and reaction rate theory.
+- [Atomic Structure](/chemistry/atomic-structure/) -- Electronic configurations of transition metals explain their variable oxidation states and colour properties.
+- [Bonding and Structure](/chemistry/bonding-and-structure/) -- Coordinate bonding in complex ions extends the general theory of chemical bonding.
+- [Organic Chemistry](/chemistry/organic-chemistry/) -- Transition metal catalysts are essential in many organic reactions, linking inorganic and organic chemistry.
+- [Kinetics](/chemistry/kinetics/) -- The role of transition metals as catalysts connects directly to activation energy and reaction rate theory.

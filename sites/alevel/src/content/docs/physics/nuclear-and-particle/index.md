@@ -18,8 +18,8 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Nuclear Physics](./nuclear-physics)
-- [Particle Physics](./particle-physics)
+- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/)
+- [Particle Physics](/physics/nuclear-and-particle/particle-physics/)
 
 ## Learning Objectives
 

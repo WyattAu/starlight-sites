@@ -409,16 +409,16 @@ Association (APA). Key conventions include:
 
 - **Research methods and the biological LOA:** Experimental designs (laboratory experiments,
   quasi-experiments) and brain imaging techniques are discussed in the
-  [Biological Level of Analysis](./biological-level-of-analysis).
+  [Biological Level of Analysis](/psychology/biological-level-of-analysis/).
 - **Research methods and the cognitive LOA:** Experimental paradigms used in memory research (e.g.,
   Loftus and Palmer's leading questions, Craik and Tulving's levels of processing) are examples of
   the application of research methods discussed here.
 - **Research methods and the sociocultural LOA:** The ethical issues arising from Asch's and
   Milgram's studies are directly relevant to the discussion of ethics in this section.
 - **Research methods and abnormal psychology:** Issues of reliability and validity in psychiatric
-  diagnosis are discussed in [Abnormal Psychology](./abnormal-psychology).
+  diagnosis are discussed in [Abnormal Psychology](/psychology/abnormal-psychology/).
 - **Qualitative research:** The qualitative methods covered in
-  [Qualitative Research (HL)](./qualitative-research) complement the quantitative methods discussed
+  [Qualitative Research (HL)](/psychology/qualitative-research/) complement the quantitative methods discussed
   here.
 
 ## Common Pitfalls
@@ -468,9 +468,9 @@ linked above.
 
 ## Cross-References
 
-- [Thinking and Decision Making](cognitive/thinking-and-decision-making) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
-- [Nervous System](../../../../../dse/src/content/docs/biology/7-nervous-system-and-immunology/1_nervous-system) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
-- [Cell Biology](../biology/1-cell-biology/1_cell-biology) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
+- [Thinking and Decision Making](/psychology/cognitive/thinking-and-decision-making/) applies the research methods discussed here to study cognitive biases and judgement under uncertainty.
+- [Nervous System](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/) provides the biological basis for understanding behaviour, which is the primary subject of psychological research.
+- [Cell Biology](/biology/1-cell-biology/1_cell-biology/) covers the cellular mechanisms that underpin the biological processes studied through psychological research methods.
 
 ---
 

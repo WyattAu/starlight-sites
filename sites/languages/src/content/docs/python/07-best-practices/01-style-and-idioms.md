@@ -1347,5 +1347,5 @@ linked above.
 ## See Also
 
 - [Best Practices](./)
-- [Debugging and Profiling](./02-debugging-and-profiling)
-- [Error Handling Patterns](./03-error-handling-patterns)
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)

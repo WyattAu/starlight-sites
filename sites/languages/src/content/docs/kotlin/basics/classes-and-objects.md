@@ -426,5 +426,5 @@ linked above.
 ## See Also
 
 - [Basics](./)
-- [Types and Variables](./types-and-variables)
-- [Control Flow](./control-flow)
+- [Types and Variables](/kotlin/basics/types-and-variables/)
+- [Control Flow](/kotlin/basics/control-flow/)

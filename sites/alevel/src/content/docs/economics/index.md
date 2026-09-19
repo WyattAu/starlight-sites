@@ -18,11 +18,11 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Diagnostic Test](./diagnostic-test)
-- [Economics](./economics)
-- [Flashcards Macroeconomics](./flashcards-macroeconomics)
-- [Practice Macroeconomics](./practice-macroeconomics)
-- [Practice Microeconomics](./practice-microeconomics)
+- [Diagnostic Test](/economics/diagnostic-test/)
+- [Economics](/economics/economics/)
+- [Flashcards Macroeconomics](/economics/flashcards-macroeconomics/)
+- [Practice Macroeconomics](/economics/practice-macroeconomics/)
+- [Practice Microeconomics](/economics/practice-microeconomics/)
 
 ## Learning Objectives
 

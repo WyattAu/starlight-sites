@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Classes](./01-classes)
-- [Inheritance Polymorphism](./02-inheritance-polymorphism)
+- [Classes](/java/03-object-oriented/01-classes/)
+- [Inheritance Polymorphism](/java/03-object-oriented/02-inheritance-polymorphism/)
 
 ## Learning Objectives
 

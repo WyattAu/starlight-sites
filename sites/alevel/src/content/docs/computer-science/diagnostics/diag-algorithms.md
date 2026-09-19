@@ -334,5 +334,5 @@ variables are used regardless of $n$.
 ## See Also
 
 - [Diagnostics](./)
-- [Fundamentals -- Diagnostic Tests](./diag-fundamentals)
-- [Computer Networks -- Diagnostic Tests](./diag-networks)
+- [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)
+- [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)

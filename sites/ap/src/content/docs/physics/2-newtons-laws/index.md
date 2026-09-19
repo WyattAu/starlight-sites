@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [2_newtons Laws](./2_newtons-laws)
+- [2_newtons Laws](/physics/2-newtons-laws/2_newtons-laws/)
 
 ## Learning Objectives
 

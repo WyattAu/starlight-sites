@@ -696,9 +696,9 @@ STM (Software Transactional Memory) is like a bank transaction. You write your c
 
 ## Cross-References
 
-- [Monads and Functors](../04-monads/1_monads-and-functors) - How IO monad and STM provide the foundation for composable concurrency
-- [Types and Functions](../01-basics/1_types-and-functions) - How pure functions and immutability simplify concurrent reasoning
-- [Advanced Types](1_advanced-types) - How type-level guarantees can enforce thread safety at compile time
+- [Monads and Functors](/04-monads/1_monads-and-functors/) - How IO monad and STM provide the foundation for composable concurrency
+- [Types and Functions](/01-basics/1_types-and-functions/) - How pure functions and immutability simplify concurrent reasoning
+- [Advanced Types](/05-advanced/1_advanced-types/) - How type-level guarantees can enforce thread safety at compile time
 
 ## Common Mistakes
 

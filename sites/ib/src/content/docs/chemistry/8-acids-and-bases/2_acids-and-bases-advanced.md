@@ -896,13 +896,13 @@ A suitable indicator: phenolphthalein (8.3--10.0).
 ## If You Get These Wrong, Revise
 
 - **Equilibrium principles (Le Chatelier, $K$ expressions)** → Review
-  [..../7-equilibrium/1_equilibrium](../7-equilibrium/1_equilibrium)
+  [..../7-equilibrium/1_equilibrium](/chemistry/7-equilibrium/1_equilibrium/)
 - **Stoichiometry and mole calculations** → Review
-  [..../1-stoichiometry/1_stoichiometric-relationships](../1-stoichiometry/1_stoichiometric-relationships)
+  [..../1-stoichiometry/1_stoichiometric-relationships](/chemistry/1-stoichiometry/1_stoichiometric-relationships/)
 - **Uncertainty propagation in titrations** → Review
-  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](../11-measurement-and-data-processing/1_measurement-and-data-processing)
+  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)
 - **Electron configurations and ion formation** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 
 ```mermaid
 flowchart TD
@@ -933,9 +933,9 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- **[Equilibrium](../../../../../../alevel/src/content/docs/chemistry/equilibrium):** Acid-base equilibria involve dynamic balance
-- **[Redox](../../../../../../dse/src/content/docs/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry):** Acid-base reactions can involve redox
-- **[Energetics](../../../../../../ap/src/content/docs/biology/3-cellular-energetics/3_cellular-energetics):** Neutralisation releases enthalpy
+- **[Equilibrium](https://alevel.wyattau.com/chemistry/equilibrium/):** Acid-base equilibria involve dynamic balance
+- **[Redox](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/):** Acid-base reactions can involve redox
+- **[Energetics](https://ap.wyattau.com/biology/3-cellular-energetics/3_cellular-energetics/):** Neutralisation releases enthalpy
 
 ---
 

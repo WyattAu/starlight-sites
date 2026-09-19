@@ -179,10 +179,10 @@ A vector field assigns a direction and magnitude to every point of a manifold, l
 
 ## Cross-References
 
-- [Geodesics](6_geodesics) -- Geodesics are integral curves of specific vector fields on the tangent bundle, connecting the flow theory here to metric geometry.
-- [Differential Geometry Summary](10_summary) -- The summary consolidates the key operators (Lie derivative, exterior derivative) introduced in this chapter.
-- [Group Actions](../1-abstract-algebra/6_group-actions) -- Lie groups act on manifolds by diffeomorphisms, generalising the group action framework to continuous symmetry.
-- [Key Theorems in Functional Analysis](../11-functional-analysis/9_summary-of-key-theorems) -- The Hahn-Banach and spectral theorems provide the functional-analytic foundations for studying infinite-dimensional spaces of vector fields.
+- [Geodesics](/12-differential-geometry/6_geodesics/) -- Geodesics are integral curves of specific vector fields on the tangent bundle, connecting the flow theory here to metric geometry.
+- [Differential Geometry Summary](/12-differential-geometry/10_summary/) -- The summary consolidates the key operators (Lie derivative, exterior derivative) introduced in this chapter.
+- [Group Actions](/1-abstract-algebra/6_group-actions/) -- Lie groups act on manifolds by diffeomorphisms, generalising the group action framework to continuous symmetry.
+- [Key Theorems in Functional Analysis](/11-functional-analysis/9_summary-of-key-theorems/) -- The Hahn-Banach and spectral theorems provide the functional-analytic foundations for studying infinite-dimensional spaces of vector fields.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

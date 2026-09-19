@@ -51,45 +51,45 @@ HKEAA curriculum structure.
 
 ## Data Representation and Computer Systems
 
-- **[Data Representation](./1-data-representation/1_data-representation)** -- Binary, hexadecimal,
+- **[Data Representation](/ict/1-data-representation/1_data-representation/)** -- Binary, hexadecimal,
   character encoding, image and sound representation
-- **[Computer Systems](./2-computer-systems/1_computer-systems)** -- Hardware components, CPU
+- **[Computer Systems](/ict/2-computer-systems/1_computer-systems/)** -- Hardware components, CPU
   architecture, memory, storage, and system software
 
 ## Programming and Databases
 
-- **[Programming Fundamentals](./3-programming-and-databases/1_programming-fundamentals)** --
+- **[Programming Fundamentals](/ict/3-programming-and-databases/1_programming-fundamentals/)** --
   Variables, data types, control structures, procedures, and functions
-- **[Programming and Databases](./3-programming-and-databases/2_programming-and-databases)** --
+- **[Programming and Databases](/ict/3-programming-and-databases/2_programming-and-databases/)** --
   Arrays, file handling, SQL, database design, and normalisation
-- **[Data Management](./3-programming-and-databases/3_data-management)** -- Data organisation,
+- **[Data Management](/ict/3-programming-and-databases/3_data-management/)** -- Data organisation,
   validation, sorting, and searching algorithms
 
 ## Networking and Internet
 
-- **[Internet and Data Communications](./4-networking-and-internet/1_internet-and-data-communications)**
+- **[Internet and Data Communications](/ict/4-networking-and-internet/1_internet-and-data-communications/)**
   -- Network topologies, protocols, OSI model, and internet services
 
 ## Office Automation
 
-- **[Office Automation](./5-office-automation/1_office-automation)** -- Word processing,
+- **[Office Automation](/ict/5-office-automation/1_office-automation/)** -- Word processing,
   spreadsheets, database software, and presentation tools
-- **[Office Applications](./5-office-automation/2_office-applications)** -- Advanced features,
+- **[Office Applications](/ict/5-office-automation/2_office-applications/)** -- Advanced features,
   macros, mail merge, and integration
 
 ## System Lifecycle
 
-- **[System Lifecycle](./6-system-lifecycle/1_system-lifecycle)** -- Analysis, design,
+- **[System Lifecycle](/ict/6-system-lifecycle/1_system-lifecycle/)** -- Analysis, design,
   implementation, testing, maintenance, and documentation
 
 ## Web and Multimedia
 
-- **[Web Development and Multimedia](./7-web-and-multimedia/1_web-development-and-multimedia)** --
+- **[Web Development and Multimedia](/ict/7-web-and-multimedia/1_web-development-and-multimedia/)** --
   HTML, CSS, JavaScript, multimedia elements, and web authoring
 
 ## Network Security
 
-- **[Network Security and Social Implications](./8-network-security/1_network-security-and-social-implications)**
+- **[Network Security and Social Implications](/ict/8-network-security/1_network-security-and-social-implications/)**
   -- Security threats, encryption, data protection, and social/ethical issues
 
 ## Related Content

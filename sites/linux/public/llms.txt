@@ -1,0 +1,61 @@
+# Linux — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Linux system administration from fundamentals to advanced topics: file system management, user and group administration, networking configuration, service
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Cli-Fundamentals
+
+- [Bash Scripting](https://linux.wyattau.com/01-cli-fundamentals/bash-scripting/): if [[ condition ]]; then commands elif [[ condition ]]; then commands else comma Comprehensive educational content coverage with definitions and practice proble
+- [Core Utilities](https://linux.wyattau.com/01-cli-fundamentals/core-utilities/): GNU coreutils is the package that provides the fundamental file, shell, and text manipulation Utilities on virtually every Linux distribution. These
+- [Shell Basics](https://linux.wyattau.com/01-cli-fundamentals/shell-basics/): A shell is both an and a . When you open a terminal emulator, it spawns a shell process, Or . When you run a script with The shebang line determines which
+- [Text Processing](https://linux.wyattau.com/01-cli-fundamentals/text-processing/): Regular expressions are the backbone of text processing on Linux. Three major flavors exist, each With different capabilities and syntax.
+
+## File-Systems
+
+- [File Permissions and ACLs](https://linux.wyattau.com/02-file-systems/file-permissions/): Every file and directory on a Linux system carries a set of permission bits that control which users Can read, write, or execute it. The kernel enforces
+- [File Systems and Mounting](https://linux.wyattau.com/02-file-systems/filesystems-and-mounting/): The Virtual File System layer is the kernel abstraction that allows Linux to support multiple file System types simultaneously. Application code calls And
+
+## Process-Management
+
+- [Cron and Task Scheduling](https://linux.wyattau.com/03-process-management/cron-and-scheduling/): The cron daemon () is a time-based job scheduler that runs commands at specified times and Intervals. It wakes up every minute, checks all crontab files for
+- [I/O Redirection and Pipes](https://linux.wyattau.com/03-process-management/io-redirection/): Every Linux process starts with three standard file descriptors, and can open additional ones as Needed. File descriptors are non-negative integers
+- [Processes and Signals](https://linux.wyattau.com/03-process-management/processes-and-signals/): Every running program in Linux is a, an instance of an executing program with its own Virtual address space, file descriptors, and execution context. The
+
+## Networking
+
+- [DNS and DHCP on Linux](https://linux.wyattau.com/04-networking/dns-and-dhcp/): The traditional DNS resolver configuration file: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
+- [Linux Firewalls](https://linux.wyattau.com/04-networking/firewalls/): Netfilter is the Linux kernel subsystem that provides network packet filtering, NAT, and other Packet manipulation. It is the foundation for all Linux
+- [Linux Networking](https://linux.wyattau.com/04-networking/linux-networking/): The suite has replaced the legacy () as the Standard Linux network management toolset. It provides a consistent interface for managing Interfaces,
+- [Networking](https://linux.wyattau.com/04-networking/): This section covers networking concepts, definitions, and applications with worked examples and practice problems.
+
+## Systemd
+
+- [Journal and Logging](https://linux.wyattau.com/05-systemd/journal-and-logging/): is the central logging daemon in systemd-based systems. It collects log messages From multiple sources and stores them in a structured, indexed binary format.
+- [Systemd](https://linux.wyattau.com/05-systemd/systemd/): Systemd is a system and service manager for Linux, serving as the init system (PID 1) and providing A suite of tools for managing services, devices, mounts,
+
+## Security
+
+- [Linux Security](https://linux.wyattau.com/06-security/linux-security/): Linux security is fundamentally built on the user and group model. Every process runs under a Specific UID (user ID) and GID (group ID), and every file and
+- [Security](https://linux.wyattau.com/06-security/): This section covers security concepts, definitions, and applications with worked examples and practice problems.
+- [SSH | Linux - Wyatt's Notes](https://linux.wyattau.com/06-security/ssh/): Study notes for SSH with worked examples, practice problems, and key concepts for exam preparation.
+
+## Package-Management
+
+- [Package Management](https://linux.wyattau.com/07-package-management/package-management/): A Linux package is an archive containing compiled software, configuration files, metadata (version, Description, dependencies), and install/uninstall
+
+## Overview
+
+- [About This Site](https://linux.wyattau.com/about/): About Wyatt's Notes Linux resources, experience, expertise, and credentials behind Linux administration study materials.
+- [Introduction to Linux](https://linux.wyattau.com/intro/): Study notes for Introduction to Linux with worked examples, practice problems, and key concepts for exam preparation.
+- [Linux - Wyatt's Notes](https://linux.wyattau.com/): Linux system administration from fundamentals to advanced topics: file system management, user and group administration, networking configuration, service
+- [Linux Administration Practice](https://linux.wyattau.com/practice-linux-admin/): 15 practice questions covering file permissions, process management, networking, systemd, shell scripting, storage, and security.
+- [Linux Administration Study Guide](https://linux.wyattau.com/hub/): Study notes for Linux Administration Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Linux Glossary, Key Terms and Definitions](https://linux.wyattau.com/glossary/): Study notes for Linux Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [LVM and Disk Partitioning](https://linux.wyattau.com/lvm-and-disk-partitioning/): Linux exposes storage devices as block device files under . Block devices support random Access by fixed-size blocks ( 512 bytes or 4096 bytes), unlike
+
+## Diagnostics
+
+- [Diagnostic Test: Linux](https://linux.wyattau.com/diagnostics/diag-linux/): Diagnostic test notes for linux Diagnostic Test: Linux covering key concepts, worked examples, and practice problems for exam preparation.

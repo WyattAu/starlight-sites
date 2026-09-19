@@ -833,13 +833,13 @@ public UserData fetchUserData(String userId) throws Exception {
 
 ## See Also
 
-- [Concurrency](../06-concurrency/01-concurrency) -- traditional concurrency primitives,
+- [Concurrency](/06-concurrency/01-concurrency/) -- traditional concurrency primitives,
   `ReentrantLock``CompletableFuture`
-- [Collections Framework](../04-collections/01-collections-framework) -- thread-safe collections
+- [Collections Framework](/04-collections/01-collections-framework/) -- thread-safe collections
   for concurrent access
-- [Records, Sealed Classes, and Pattern Matching](../08-modern-java/01-records-sealed-patterns)
+- [Records, Sealed Classes, and Pattern Matching](/08-modern-java/01-records-sealed-patterns/)
   -- pattern matching used in structured concurrency
-- [Class Loading and Memory Model](../09-jvm-internals/01-class-loading-memory) -- how the JVM
+- [Class Loading and Memory Model](/09-jvm-internals/01-class-loading-memory/) -- how the JVM
   manages threads and memory
 
 
@@ -880,6 +880,6 @@ Virtual threads decouple Java-level threads from OS threads. When a virtual thre
 
 ## Cross-References
 
-- [Concurrency](../06-concurrency/01-concurrency) -- threads, synchronized, and volatile
-- [Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive) -- locks, atomics, and ForkJoin
-- [Streams API](../05-streams/01-streams-api) -- parallel streams and ForkJoinPool
+- [Concurrency](/06-concurrency/01-concurrency/) -- threads, synchronized, and volatile
+- [Concurrency Deep Dive](/06-concurrency/02-concurrency-deep-dive/) -- locks, atomics, and ForkJoin
+- [Streams API](/05-streams/01-streams-api/) -- parallel streams and ForkJoinPool

@@ -266,6 +266,6 @@ This contradiction means our assumption is false. Therefore $\sqrt{2} + \sqrt{3}
 
 ## Cross-References
 
-- **[Number and Algebra](../1-number-and-algebra/1_number-and-algebra):** Algebra is foundational
-- **[Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are central
-- **[Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus):** Calculus is a major topic
+- **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Algebra is foundational
+- **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are central
+- **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus is a major topic

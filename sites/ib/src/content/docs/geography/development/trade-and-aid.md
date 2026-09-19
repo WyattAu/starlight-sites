@@ -215,9 +215,9 @@ Studies with evidence, and avoid blanket generalisations.
 
 </details>
 
-For related topics, see [./measuring-development](./measuring-development) and
-[./sustainable-development-goals](./sustainable-development-goals). The parent topic page is at
-[../economic-development](../economic-development).
+For related topics, see [./measuring-development](/geography/development/measuring-development/) and
+[./sustainable-development-goals](/geography/development/sustainable-development-goals/). The parent topic page is at
+[../economic-development](/geography/economic-development/).
 
 ## Common Pitfalls
 

@@ -195,5 +195,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Network Fundamentals](./01-network-fundamentals)
-- [Network Security](./02-network-security)
+- [Network Fundamentals](/computer-science/networks/01-network-fundamentals/)
+- [Network Security](/computer-science/networks/02-network-security/)

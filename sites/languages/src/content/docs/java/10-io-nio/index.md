@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Io Nio](./01-io-nio)
-- [Nio Deep Dive](./02-nio-deep-dive)
+- [Io Nio](/java/10-io-nio/01-io-nio/)
+- [Nio Deep Dive](/java/10-io-nio/02-nio-deep-dive/)
 
 ## Learning Objectives
 

@@ -407,5 +407,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Reading Non-Fiction -- Diagnostic Tests](./diag-reading-nonfiction)
-- [Creative Writing -- Diagnostic Tests](./diag-creative-writing)
+- [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)
+- [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)

@@ -1,0 +1,53 @@
+# Wyatt's Notes — Free Study Notes Network
+
+> Rigorous, exam-aligned study notes for IB, A-Level, GCSE, AP, DSE, and university STEM plus programming languages and infrastructure topics. 2,860+ pages across 45 subject sites. Open-access, ad-free, no accounts, AGPLv3.
+
+Each site below exposes its own `/llms.txt` page index.
+
+## Subject Sites
+
+- [Admissions](https://admissions.wyattau.com/): https://admissions.wyattau.com/llms.txt
+- [A-Level](https://alevel.wyattau.com/): https://alevel.wyattau.com/llms.txt
+- [AP](https://ap.wyattau.com/): https://ap.wyattau.com/llms.txt
+- [CBSE](https://cbse.wyattau.com/): https://cbse.wyattau.com/llms.txt
+- [Chemistry](https://chemistry.wyattau.com/): https://chemistry.wyattau.com/llms.txt
+- [Civics Tests](https://civics-tests.wyattau.com/): https://civics-tests.wyattau.com/llms.txt
+- [Computer Science](https://computer-science.wyattau.com/): https://computer-science.wyattau.com/llms.txt
+- [C++](https://cpp.wyattau.com/): https://cpp.wyattau.com/llms.txt
+- [Dart](https://dart.wyattau.com/): https://dart.wyattau.com/llms.txt
+- [Databases](https://databases.wyattau.com/): https://databases.wyattau.com/llms.txt
+- [Driving (EU)](https://driving-eu.wyattau.com/): https://driving-eu.wyattau.com/llms.txt
+- [Driving (UK)](https://driving-uk.wyattau.com/): https://driving-uk.wyattau.com/llms.txt
+- [Driving (US)](https://driving-us.wyattau.com/): https://driving-us.wyattau.com/llms.txt
+- [DSE](https://dse.wyattau.com/): https://dse.wyattau.com/llms.txt
+- [Elixir](https://elixir.wyattau.com/): https://elixir.wyattau.com/llms.txt
+- [Gaokao](https://gaokao.wyattau.com/): https://gaokao.wyattau.com/llms.txt
+- [GCSE](https://gcse.wyattau.com/): https://gcse.wyattau.com/llms.txt
+- [Go](https://go.wyattau.com/): https://go.wyattau.com/llms.txt
+- [Haskell](https://haskell.wyattau.com/): https://haskell.wyattau.com/llms.txt
+- [Highers](https://highers.wyattau.com/): https://highers.wyattau.com/llms.txt
+- [HSC](https://hsc.wyattau.com/): https://hsc.wyattau.com/llms.txt
+- [IB](https://ib.wyattau.com/): https://ib.wyattau.com/llms.txt
+- [Java](https://java.wyattau.com/): https://java.wyattau.com/llms.txt
+- [Kotlin](https://kotlin.wyattau.com/): https://kotlin.wyattau.com/llms.txt
+- [Language Tests](https://language-tests.wyattau.com/): https://language-tests.wyattau.com/llms.txt
+- [Languages](https://languages.wyattau.com/): https://languages.wyattau.com/llms.txt
+- [Leaving Cert](https://leaving-cert.wyattau.com/): https://leaving-cert.wyattau.com/llms.txt
+- [Licensing](https://licensing.wyattau.com/): https://licensing.wyattau.com/llms.txt
+- [Linux](https://linux.wyattau.com/): https://linux.wyattau.com/llms.txt
+- [Machine Learning](https://machine-learning.wyattau.com/): https://machine-learning.wyattau.com/llms.txt
+- [Mathematics](https://mathematics.wyattau.com/): https://mathematics.wyattau.com/llms.txt
+- [Networking](https://networking.wyattau.com/): https://networking.wyattau.com/llms.txt
+- [Physics](https://physics.wyattau.com/): https://physics.wyattau.com/llms.txt
+- [Professional Certs](https://professional-certs.wyattau.com/): https://professional-certs.wyattau.com/llms.txt
+- [Programming](https://programming.wyattau.com/): https://programming.wyattau.com/llms.txt
+- [Python](https://python.wyattau.com/): https://python.wyattau.com/llms.txt
+- [Ruby](https://ruby.wyattau.com/): https://ruby.wyattau.com/llms.txt
+- [Rust](https://rust.wyattau.com/): https://rust.wyattau.com/llms.txt
+- [SAT](https://sat.wyattau.com/): https://sat.wyattau.com/llms.txt
+- [Security](https://security.wyattau.com/): https://security.wyattau.com/llms.txt
+- [Swift](https://swift.wyattau.com/): https://swift.wyattau.com/llms.txt
+- [Tools](https://tools.wyattau.com/): https://tools.wyattau.com/llms.txt
+- [TrueNAS](https://truenas.wyattau.com/): https://truenas.wyattau.com/llms.txt
+- [Tuning](https://tuning.wyattau.com/): https://tuning.wyattau.com/llms.txt
+- [TypeScript](https://typescript.wyattau.com/): https://typescript.wyattau.com/llms.txt

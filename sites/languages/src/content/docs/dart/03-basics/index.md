@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Entrypoint](./01-entrypoint)
-- [Variables](./02-variables)
+- [Entrypoint](/dart/03-basics/01-entrypoint/)
+- [Variables](/dart/03-basics/02-variables/)
 
 ## Learning Objectives
 

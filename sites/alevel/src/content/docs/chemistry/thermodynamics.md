@@ -1103,5 +1103,5 @@ $$
 ## See Also
 
 - [Chemistry](./)
-- [Acids, Bases & Buffers](./acids-bases)
-- [Atomic Structure & Periodicity](./atomic-structure)
+- [Acids, Bases & Buffers](/chemistry/acids-bases/)
+- [Atomic Structure & Periodicity](/chemistry/atomic-structure/)

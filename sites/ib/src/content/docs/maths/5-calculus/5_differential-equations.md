@@ -690,9 +690,9 @@ A differential equation is a sentence about change. It does not tell you where y
 ## Cross-References
 
 - **Integration techniques** used in solving DEs: see
-  [Integration Techniques](3_integration-techniques)
+  [Integration Techniques](/maths/5-calculus/3_integration-techniques/)
 - **Maclaurin series** arise when linearising DE solutions: see
-  [Sequences and Series](6_sequences-and-series)
+  [Sequences and Series](/maths/5-calculus/6_sequences-and-series/)
 
 For the A-Level Further Maths treatment of this topic, see
 [Differential Equations](https://alevel.wyattau.com/docs/further-maths/pure-mathematics/differential-equations).

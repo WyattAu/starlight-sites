@@ -18,8 +18,8 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_plant Biology](./1_plant-biology)
-- [2_microorganisms And Biotechnology](./2_microorganisms-and-biotechnology)
+- [1_plant Biology](/biology/5-plant-biology/1_plant-biology/)
+- [2_microorganisms And Biotechnology](/biology/5-plant-biology/2_microorganisms-and-biotechnology/)
 
 ## Learning Objectives
 

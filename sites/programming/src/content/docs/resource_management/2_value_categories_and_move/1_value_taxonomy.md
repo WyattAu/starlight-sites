@@ -191,8 +191,8 @@ Traits or SFINAE constraints.
 
 ## See Also
 
-- [Reference Collapsing and Forwarding References](2_reference_collapsing)
-- [Temporary Materialization](3_temporary_materialization)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
@@ -776,7 +776,7 @@ Outcomes.
 
 In C++17 and later, a prvalue is **materialized** into a temporary object when it needs an identity
 (address, lifetime, or to bind to a reference). After materialization, the expression becomes an
-Xvalue [N4950 S7.3.5]. See [Temporary Materialization](3_temporary_materialization) for details.
+Xvalue [N4950 S7.3.5]. See [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/) for details.
 
 ### Lvalue-to-Rvalue Conversion
 
@@ -866,10 +866,10 @@ Value categories are the bouncer at the door of memory management. An lvalue is 
 
 ## See Also
 
-- [Reference Collapsing and Forwarding References](2_reference_collapsing)
-- [Temporary Materialization](3_temporary_materialization)
-- [Move Constructors and RVO](4_move_constructors_rvo)
-- [Return Value Optimization](5_return_value_optimization)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Move Constructors and RVO](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Return Value Optimization](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
 
 ## Worked Examples
 

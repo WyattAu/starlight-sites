@@ -738,9 +738,9 @@ flowchart TD
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables)
-- [Devirtualization and Final Specifiers](./3_devirtualization)
-- [Access Control and Friendship](../1_class_design/2_access_control)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

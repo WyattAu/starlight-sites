@@ -18,15 +18,15 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Alcohols](./alcohols)
-- [Alkanes](./alkanes)
-- [Alkenes](./alkenes)
-- [Amines](./amines)
-- [Analytical Techniques](./analytical-techniques)
-- [Arenes](./arenes)
-- [Carbonyl Compounds](./carbonyl-compounds)
-- [Halogenoalkanes](./halogenoalkanes)
-- [Introduction](./introduction)
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)
+- [Alkenes](/chemistry/organic-chemistry/alkenes/)
+- [Amines](/chemistry/organic-chemistry/amines/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)
+- [Arenes](/chemistry/organic-chemistry/arenes/)
+- [Carbonyl Compounds](/chemistry/organic-chemistry/carbonyl-compounds/)
+- [Halogenoalkanes](/chemistry/organic-chemistry/halogenoalkanes/)
+- [Introduction](/chemistry/organic-chemistry/introduction/)
 
 ## Learning Objectives
 

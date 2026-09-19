@@ -402,5 +402,5 @@ linked above.
 ## See Also
 
 - [IB Computer Science](./)
-- [Computer Science](./computer-science)
-- [IB CS Flashcards: Algorithms and Data Structures](./flashcards-algorithms-data-structures)
+- [Computer Science](/computer-science/computer-science/)
+- [IB CS Flashcards: Algorithms and Data Structures](/computer-science/flashcards-algorithms-data-structures/)

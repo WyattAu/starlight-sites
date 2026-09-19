@@ -18,12 +18,12 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Collections](./collections)
-- [Coroutines Advanced](./coroutines-advanced)
-- [Coroutines](./coroutines)
-- [Delegation And Result](./delegation-and-result)
-- [Generics](./generics)
-- [Scope Functions](./scope-functions)
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines Advanced](/kotlin/intermediate/coroutines-advanced/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Delegation And Result](/kotlin/intermediate/delegation-and-result/)
+- [Generics](/kotlin/intermediate/generics/)
+- [Scope Functions](/kotlin/intermediate/scope-functions/)
 
 ## Learning Objectives
 

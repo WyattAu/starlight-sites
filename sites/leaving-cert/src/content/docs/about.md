@@ -45,8 +45,8 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [Leaving Cert](./)
-- [ILC Flashcards: Biology](./flashcards-biology)
-- [ILC Flashcards: Chemistry](./flashcards-chemistry)
+- [ILC Flashcards: Biology](/flashcards-biology/)
+- [ILC Flashcards: Chemistry](/flashcards-chemistry/)
 
 
 ## Detailed Content

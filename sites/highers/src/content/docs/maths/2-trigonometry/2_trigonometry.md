@@ -852,6 +852,6 @@ applying these mathematical techniques.
 
 ## Cross-References
 
-- [Algebra and Functions](../1-algebra-functions/1_algebra-functions) -- Trigonometric functions are transcendental functions that extend the concept of function beyond polynomials.
-- [Calculus](../3-calculus/3_calculus) -- Differentiation and integration of trigonometric functions are essential techniques in calculus.
-- [Vectors](../4-vectors/4_vectors) -- Trigonometry is used to resolve vectors into components and find angles between vectors.
+- [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Trigonometric functions are transcendental functions that extend the concept of function beyond polynomials.
+- [Calculus](/maths/3-calculus/3_calculus/) -- Differentiation and integration of trigonometric functions are essential techniques in calculus.
+- [Vectors](/maths/4-vectors/4_vectors/) -- Trigonometry is used to resolve vectors into components and find angles between vectors.

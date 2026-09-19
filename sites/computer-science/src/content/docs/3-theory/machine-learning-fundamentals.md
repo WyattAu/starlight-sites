@@ -627,8 +627,8 @@ Machine learning finds patterns in data without explicit programming. Supervised
 | Topic               | Link                                                        |
 | ------------------- | ----------------------------------------------------------- |
 | Algorithms Overview | [View](/computer-science/algorithms-overview)         |
-| Complexity Theory   | [View](../1-algorithms/complexity-theory) |
-| Algorithm Design    | [View](../1-algorithms/algorithm-design)  |
+| Complexity Theory   | [View](/1-algorithms/complexity-theory/) |
+| Algorithm Design    | [View](/1-algorithms/algorithm-design/)  |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

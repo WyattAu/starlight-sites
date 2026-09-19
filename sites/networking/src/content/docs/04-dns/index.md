@@ -18,8 +18,8 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Dns Architecture](./dns-architecture)
-- [Dns](./dns)
+- [Dns Architecture](/04-dns/dns-architecture/)
+- [Dns](/04-dns/dns/)
 
 ## Learning Objectives
 

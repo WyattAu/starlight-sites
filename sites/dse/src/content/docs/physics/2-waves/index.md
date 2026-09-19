@@ -18,9 +18,9 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_waves And Sound](./1_waves-and-sound)
-- [2_waves And Optics](./2_waves-and-optics)
-- [3_optics](./3_optics)
+- [1_waves And Sound](/physics/2-waves/1_waves-and-sound/)
+- [2_waves And Optics](/physics/2-waves/2_waves-and-optics/)
+- [3_optics](/physics/2-waves/3_optics/)
 
 ## Learning Objectives
 

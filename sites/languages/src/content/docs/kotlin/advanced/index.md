@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Interoperability](./interoperability)
-- [Metaprogramming](./metaprogramming)
-- [Null Safety Deep Dive](./null-safety-deep-dive)
-- [Testing](./testing)
+- [Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+- [Testing](/kotlin/advanced/testing/)
 
 ## Learning Objectives
 

@@ -209,6 +209,6 @@ linked above.
 
 ## Cross-References
 
-- **[Mechanics](diag-mechanics):** Diagnostics test mechanics
-- **[Waves](diag-waves-sound):** Waves are assessed
-- **[Electricity](diag-electrical-circuits):** Circuits are tested
+- **[Mechanics](/physics/diagnostics/diag-mechanics/):** Diagnostics test mechanics
+- **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves are assessed
+- **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Circuits are tested

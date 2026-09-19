@@ -210,9 +210,9 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 
 ## Cross-References
 
-- **[Quantum Statistics in Detail](15_quantum-statistics-in-detail)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.
-- **[Statistical Mechanics](2_statistical-mechanics)**: The partition function approach to statistical mechanics reduces to the classical result when the thermal wavelength is small.
-- **[The Grand Canonical Ensemble](3_the-grand-canonical-ensemble)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
+- **[Quantum Statistics in Detail](/2-thermal-physics/15_quantum-statistics-in-detail/)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.
+- **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: The partition function approach to statistical mechanics reduces to the classical result when the thermal wavelength is small.
+- **[The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/)**: The classical limit simplifies the grand partition function to recover the Maxwell-Boltzmann ideal gas.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

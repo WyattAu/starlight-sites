@@ -292,7 +292,7 @@ Faraday's first law states $m = MIt/(nF)$, where $n$ is the number of electrons 
 
 ## Cross-References
 
-- [Algebra](../mathematics/algebra) -- Logarithmic functions and matrix operations are used in electrochemistry and equilibrium calculations.
-- [Calculus](../mathematics/calculus) -- Rate equations and integrated rate laws in chemical kinetics require differentiation and integration.
-- [Organic](../chemistry/organic) -- Organic reactions involve redox processes and functional group transformations that build on inorganic principles.
-- [Mechanics](../physics/mechanics) -- Energy conservation and work-energy concepts connect thermochemistry to mechanical systems.
+- [Algebra](/mathematics/algebra/) -- Logarithmic functions and matrix operations are used in electrochemistry and equilibrium calculations.
+- [Calculus](/mathematics/calculus/) -- Rate equations and integrated rate laws in chemical kinetics require differentiation and integration.
+- [Organic](/chemistry/organic/) -- Organic reactions involve redox processes and functional group transformations that build on inorganic principles.
+- [Mechanics](/physics/mechanics/) -- Energy conservation and work-energy concepts connect thermochemistry to mechanical systems.

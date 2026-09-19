@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [DSE Notes](./)
-- [Complete DSE Study Guide, Everything You Need to Pass](./hub)
-- [Cell Biology](./biology/1-cell-biology)
+- [Complete DSE Study Guide, Everything You Need to Pass](/hub/)
+- [Cell Biology](/biology/1-cell-biology/)
 
 
 ## Detailed Content

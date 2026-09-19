@@ -150,6 +150,6 @@ Chemical kinetics is about how fast reactions happen and why. Think of activatio
 
 ## Cross-References
 
-- [Electrochemistry](../../../../../../alevel/src/content/docs/chemistry/electrochemistry) -- electron transfer rates
-- [Solutions](../../../../../../mathematics/src/content/docs/5-ordinary-differential-equations/6_series-solutions) -- concentration and reaction rates
-- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- kinetic theory and energy concepts
+- [Electrochemistry](https://alevel.wyattau.com/chemistry/electrochemistry/) -- electron transfer rates
+- [Solutions](https://mathematics.wyattau.com/5-ordinary-differential-equations/6_series-solutions/) -- concentration and reaction rates
+- [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- kinetic theory and energy concepts

@@ -152,8 +152,8 @@ Decolonisation was the process of empires dismantling themselves, sometimes volu
 ## See Also
 
 - [History](./)
-- [The Chinese Revolution](./chinese-revolution)
-- [The Cold War](./cold-war)
+- [The Chinese Revolution](/history/chinese-revolution/)
+- [The Cold War](/history/cold-war/)
 
 
 ## Advanced Content

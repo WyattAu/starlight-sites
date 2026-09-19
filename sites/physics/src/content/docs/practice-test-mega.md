@@ -1355,13 +1355,13 @@ This is four times the geometric cross section (pi*a^2). The factor of 4 arises 
 
 ## Cross-References
 
-- **[Classical Mechanics](1-classical-mechanics)**, Lagrangian, Hamiltonian, central forces, rigid body dynamics, and nonlinear dynamics
-- **[Thermal Physics](2-thermal-physics)**, Laws of thermodynamics, statistical mechanics, entropy, and phase transitions
-- **[Electromagnetism](3-electromagnetism)**, Maxwell's equations, electrostatics, magnetostatics, and electromagnetic waves
-- **[Quantum Mechanics](5-quantum-mechanics)**, Postulates, wave functions, hydrogen atom, perturbation theory, and scattering
-- **[Classical Mechanics Problem Set](1-classical-mechanics/9_problem-set)**, Additional practice problems
-- **[Electromagnetism Problem Set](3-electromagnetism/8_problem-set)**, Additional practice problems
-- **[Quantum Mechanics Problem Set](5-quantum-mechanics/9_problem-set)**, Additional practice problems
+- **[Classical Mechanics](/1-classical-mechanics/)**, Lagrangian, Hamiltonian, central forces, rigid body dynamics, and nonlinear dynamics
+- **[Thermal Physics](/2-thermal-physics/)**, Laws of thermodynamics, statistical mechanics, entropy, and phase transitions
+- **[Electromagnetism](/3-electromagnetism/)**, Maxwell's equations, electrostatics, magnetostatics, and electromagnetic waves
+- **[Quantum Mechanics](/5-quantum-mechanics/)**, Postulates, wave functions, hydrogen atom, perturbation theory, and scattering
+- **[Classical Mechanics Problem Set](/1-classical-mechanics/9_problem-set/)**, Additional practice problems
+- **[Electromagnetism Problem Set](/3-electromagnetism/8_problem-set/)**, Additional practice problems
+- **[Quantum Mechanics Problem Set](/5-quantum-mechanics/9_problem-set/)**, Additional practice problems
 
 ---
 

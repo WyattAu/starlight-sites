@@ -749,7 +749,7 @@ flowchart TD
 | -------------------------- | -------------------- | ------------------------------------------------------------------------------- |
 | STEP Past Papers           | Cambridge Assessment | [View](https://www.ocr.org.uk/qualifications/past-paper-finder/?step=1&qual=89) |
 | STEP Support Programme     | Cambridge            | [View](https://maths.org/step/)                                                 |
-| MAT Preparation            | WyattsNotes          | [View](mat-preparation)                             |
-| TMUA Preparation           | WyattsNotes          | [View](tmua-preparation)                            |
-| Calculus, Differentiation | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/10-differentiation)                           |
-| Calculus, Integration     | WyattsNotes          | [View](../../../../alevel/src/content/docs/maths/pure-mathematics/11-integration)                               |
+| MAT Preparation            | WyattsNotes          | [View](/mat-preparation/)                             |
+| TMUA Preparation           | WyattsNotes          | [View](/tmua-preparation/)                            |
+| Calculus, Differentiation | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/10-differentiation/)                           |
+| Calculus, Integration     | WyattsNotes          | [View](https://alevel.wyattau.com/maths/pure-mathematics/11-integration/)                               |

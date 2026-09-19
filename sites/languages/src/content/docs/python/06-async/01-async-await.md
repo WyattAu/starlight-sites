@@ -1029,7 +1029,7 @@ Trace the following operations on an empty stack: `push(5)`, `push(3)`, `pop()`,
 
 ## Cross-References
 
-- [Context Managers](../08-advanced-topics/03-context-managers): Shows how async context managers provide resource management for asynchronous operations.
-- [Object-Oriented Programming](../../../../../../alevel/src/content/docs/computer-science/programming/02-object-oriented-programming): Demonstrates how to create async classes with async methods and async iterators.
-- [Error Handling](../../../../../../dart/src/content/docs/08-error-handling): Explains how to handle exceptions in async code, including try/except with async context managers.
-- [Concurrency with Threading](../../../../../../gaokao/src/content/docs/chinese/reading): Compares asyncio with threading and multiprocessing for different concurrency needs.
+- [Context Managers](/python/08-advanced-topics/03-context-managers/): Shows how async context managers provide resource management for asynchronous operations.
+- [Object-Oriented Programming](https://alevel.wyattau.com/computer-science/programming/02-object-oriented-programming/): Demonstrates how to create async classes with async methods and async iterators.
+- [Error Handling](https://dart.wyattau.com/08-error-handling/): Explains how to handle exceptions in async code, including try/except with async context managers.
+- [Concurrency with Threading](https://gaokao.wyattau.com/chinese/reading/): Compares asyncio with threading and multiprocessing for different concurrency needs.

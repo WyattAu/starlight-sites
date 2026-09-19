@@ -552,5 +552,5 @@ reserves.
 ## See Also
 
 - [Diagnostics](./)
-- [Market Failure and Government Intervention -- Diagnostic Tests](./diag-market-failure)
-- [Market Structure and Theory of the Firm -- Diagnostic Tests](./diag-market-structure)
+- [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Market Structure and Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-market-structure/)

@@ -660,7 +660,7 @@ flowchart TD
 | -------------------------------- | ----------- | ----------------------------------------------------------- |
 | UKMT BMO Past Papers             | UKMT        | [View](https://ukmt.org.uk/competition/bmo)                 |
 | Art of Problem Solving BMO Forum | AoPS        | [View](https://artofproblemsolving.com/community/c3240_bmo) |
-| STEP Preparation Guide           | WyattsNotes | [View](step-preparation)        |
-| MAT Preparation Guide            | WyattsNotes | [View](mat-preparation)         |
-| Number Theory                    | WyattsNotes | [View](../../../../mathematics/src/content/docs/number-theory)          |
-| Abstract Algebra                 | WyattsNotes | [View](../../../../mathematics/src/content/docs/abstract-algebra)       |
+| STEP Preparation Guide           | WyattsNotes | [View](/step-preparation/)        |
+| MAT Preparation Guide            | WyattsNotes | [View](/mat-preparation/)         |
+| Number Theory                    | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)          |
+| Abstract Algebra                 | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)       |

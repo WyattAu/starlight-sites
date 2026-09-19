@@ -64,13 +64,13 @@ Algorithm analysis uses big-$O$ notation to describe how running time or memory 
 
 ## Contents
 
-1. [Algorithm Analysis](1_algorithm-analysis)
-2. [Fundamental Data Structures](2_fundamental-data-structures)
-3. [Sorting Algorithms](3_sorting-algorithms)
-4. [Graph Algorithms](4_graph-algorithms)
-5. [Dynamic Programming](5_dynamic-programming)
-6. [Advanced Topics](6_advanced-topics)
-7. [Problem Set](7_problem-set)
+1. [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/)
+2. [Fundamental Data Structures](/2-algorithms-and-data-structures/2_fundamental-data-structures/)
+3. [Sorting Algorithms](/2-algorithms-and-data-structures/3_sorting-algorithms/)
+4. [Graph Algorithms](/2-algorithms-and-data-structures/4_graph-algorithms/)
+5. [Dynamic Programming](/2-algorithms-and-data-structures/5_dynamic-programming/)
+6. [Advanced Topics](/2-algorithms-and-data-structures/6_advanced-topics/)
+7. [Problem Set](/2-algorithms-and-data-structures/7_problem-set/)
 
 ## Overview
 
@@ -125,8 +125,8 @@ Each section includes:
 
 ## Cross-References
 
-- **[Algorithm Analysis](./1_algorithm-analysis):** Formal complexity analysis for the algorithms studied here.
-- **[Dynamic Programming](./5_dynamic-programming):** Memoisation and tabulation patterns for optimisation problems.
+- **[Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/):** Formal complexity analysis for the algorithms studied here.
+- **[Dynamic Programming](/2-algorithms-and-data-structures/5_dynamic-programming/):** Memoisation and tabulation patterns for optimisation problems.
 - **[Systems](../../../../../typescript/src/content/docs/index):** Hardware systems that affect real-world algorithm performance.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

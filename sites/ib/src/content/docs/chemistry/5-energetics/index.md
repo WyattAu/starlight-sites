@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_thermochemistry](./1_thermochemistry)
+- [1_thermochemistry](/chemistry/5-energetics/1_thermochemistry/)
 
 ## Learning Objectives
 

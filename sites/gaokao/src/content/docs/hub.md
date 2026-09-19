@@ -109,16 +109,16 @@ Mathematics is the most heavily weighted single subject in the Gaokao. It tests 
 
 ### Core Topics
 
-- **[Sets and Logic](mathematics)**, set operations, logical connectives, and quantifiers
-- **[Functions](mathematics)**, domain, range, monotonicity, parity, and composition
-- **[Exponential and Logarithmic Functions](mathematics)**, properties, equations, and inequalities
-- **[Trigonometric Functions](mathematics)**, identities, graphs, and applications
-- **[Sequences and Series](mathematics)**, arithmetic and geometric sequences, summation formulas
-- **[Inequalities](mathematics)**, AM-GM, Cauchy-Schwarz, and methods for solving inequalities
-- **[Plane Analytic Geometry](mathematics)**, lines, circles, ellipses, hyperbolas, and parabolas
-- **[Solid Geometry](mathematics)**, volumes, surface areas, and spatial relationships
-- **[Probability and Statistics](mathematics)**, classical probability, conditional probability, and statistical measures
-- **[Derivatives and Applications](mathematics)**, differentiation rules, optimisation, and curve sketching
+- **[Sets and Logic](/mathematics/)**, set operations, logical connectives, and quantifiers
+- **[Functions](/mathematics/)**, domain, range, monotonicity, parity, and composition
+- **[Exponential and Logarithmic Functions](/mathematics/)**, properties, equations, and inequalities
+- **[Trigonometric Functions](/mathematics/)**, identities, graphs, and applications
+- **[Sequences and Series](/mathematics/)**, arithmetic and geometric sequences, summation formulas
+- **[Inequalities](/mathematics/)**, AM-GM, Cauchy-Schwarz, and methods for solving inequalities
+- **[Plane Analytic Geometry](/mathematics/)**, lines, circles, ellipses, hyperbolas, and parabolas
+- **[Solid Geometry](/mathematics/)**, volumes, surface areas, and spatial relationships
+- **[Probability and Statistics](/mathematics/)**, classical probability, conditional probability, and statistical measures
+- **[Derivatives and Applications](/mathematics/)**, differentiation rules, optimisation, and curve sketching
 
 ### Problem Types
 
@@ -146,16 +146,16 @@ Physics tests your understanding of mechanics, electromagnetism, thermodynamics,
 
 ### Core Topics
 
-- **[Kinematics](physics)**, motion in one and two dimensions, projectile motion, and relative motion
-- **[Newton's Laws](physics)**, force analysis, friction, and connected systems
-- **[Work, Energy, and Power](physics)**, kinetic energy theorem, potential energy, and conservation of energy
-- **[Momentum](physics)**, impulse, conservation of momentum, and collisions
-- **[Circular Motion and Gravitation](physics)**, centripetal force, satellite motion, and Kepler's laws
-- **[Oscillations and Waves](physics)**, simple harmonic motion, wave properties, and superposition
-- **[Electrostatics](physics)**, Coulomb's law, electric fields, and electric potential
-- **[Circuits](physics)**, Ohm's law, Kirchhoff's laws, and AC circuits
-- **[Magnetism](physics)**, magnetic fields, Lorentz force, and electromagnetic induction
-- **[Modern Physics](physics)**, photoelectric effect, atomic models, and nuclear physics
+- **[Kinematics](/physics/)**, motion in one and two dimensions, projectile motion, and relative motion
+- **[Newton's Laws](/physics/)**, force analysis, friction, and connected systems
+- **[Work, Energy, and Power](/physics/)**, kinetic energy theorem, potential energy, and conservation of energy
+- **[Momentum](/physics/)**, impulse, conservation of momentum, and collisions
+- **[Circular Motion and Gravitation](/physics/)**, centripetal force, satellite motion, and Kepler's laws
+- **[Oscillations and Waves](/physics/)**, simple harmonic motion, wave properties, and superposition
+- **[Electrostatics](/physics/)**, Coulomb's law, electric fields, and electric potential
+- **[Circuits](/physics/)**, Ohm's law, Kirchhoff's laws, and AC circuits
+- **[Magnetism](/physics/)**, magnetic fields, Lorentz force, and electromagnetic induction
+- **[Modern Physics](/physics/)**, photoelectric effect, atomic models, and nuclear physics
 
 ### Problem-Solving Approach
 
@@ -173,14 +173,14 @@ Chemistry tests inorganic chemistry, organic chemistry, physical chemistry, and 
 
 ### Core Topics
 
-- **[Stoichiometry](chemistry)**, mole concept, limiting reagents, and yield calculations
-- **[Chemical Equilibrium](chemistry)**, Le Chatelier's principle, equilibrium constants, and reaction quotients
-- **[Acids and Bases](chemistry)**, pH calculations, buffer solutions, and titration
-- **[Thermochemistry](chemistry)**, enthalpy, Hess's law, and bond energies
-- **[Electrochemistry](chemistry)**, galvanic cells, electrolysis, and Nernst equation
-- **[Inorganic Chemistry](chemistry)**, periodic trends, coordination compounds, and qualitative analysis
-- **[Organic Chemistry](chemistry)**, functional groups, reaction mechanisms, and nomenclature
-- **[Chemical Experiments](chemistry)**, common laboratory procedures, apparatus, and safety
+- **[Stoichiometry](/chemistry/)**, mole concept, limiting reagents, and yield calculations
+- **[Chemical Equilibrium](/chemistry/)**, Le Chatelier's principle, equilibrium constants, and reaction quotients
+- **[Acids and Bases](/chemistry/)**, pH calculations, buffer solutions, and titration
+- **[Thermochemistry](/chemistry/)**, enthalpy, Hess's law, and bond energies
+- **[Electrochemistry](/chemistry/)**, galvanic cells, electrolysis, and Nernst equation
+- **[Inorganic Chemistry](/chemistry/)**, periodic trends, coordination compounds, and qualitative analysis
+- **[Organic Chemistry](/chemistry/)**, functional groups, reaction mechanisms, and nomenclature
+- **[Chemical Experiments](/chemistry/)**, common laboratory procedures, apparatus, and safety
 
 ### Key Skills
 

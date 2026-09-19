@@ -199,10 +199,10 @@ In analytical paragraphs, students often describe what happens in the text witho
 
 ## Cross-References
 
-- [Reading](../english/reading) -- Close reading and analytical skills are prerequisites for effective essay and creative writing.
-- [Algebra](../mathematics/algebra) -- Logical structuring and systematic thinking in writing parallel algebraic reasoning.
-- [Mechanics](../physics/mechanics) -- Scientific report writing requires the same evidence-based structure used in English essays.
-- [Intro](../intro) -- Understanding the HSC assessment framework helps tailor writing to marking criteria.
+- [Reading](/english/reading/) -- Close reading and analytical skills are prerequisites for effective essay and creative writing.
+- [Algebra](/mathematics/algebra/) -- Logical structuring and systematic thinking in writing parallel algebraic reasoning.
+- [Mechanics](/physics/mechanics/) -- Scientific report writing requires the same evidence-based structure used in English essays.
+- [Intro](/intro/) -- Understanding the HSC assessment framework helps tailor writing to marking criteria.
 
 ## Intuition
 

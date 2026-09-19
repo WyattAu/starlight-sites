@@ -277,25 +277,25 @@ Understanding the assessment structure is like knowing the rules of a game befor
 
 ## Cross-References
 
-- **[Syllabus](Syllabus)** -- Full topic-by-topic syllabus breakdown with key understandings and
+- **[Syllabus](/physics/Syllabus/)** -- Full topic-by-topic syllabus breakdown with key understandings and
   equations.
-- **[Course Overview](physics)** -- Overview of all five themes and their sub-topics.
-- **[Wrap Up](wrap-up)** -- Practice questions and solutions covering all themes.
+- **[Course Overview](/physics/physics/)** -- Overview of all five themes and their sub-topics.
+- **[Wrap Up](/physics/wrap-up/)** -- Practice questions and solutions covering all themes.
 - **Theme A: Space, Time and Motion**
-- [Forces and Momentums](1-space-time-and-motion/5_forces-and-momentum)
+- [Forces and Momentums](/physics/1-space-time-and-motion/5_forces-and-momentum/)
 - **Theme B: The Particulate Nature of Matter**
-- [Thermodynamics](2-particulate-nature-of-matter/1_thermodynamics)
-- [Matter Behavior Wrap Up](2-particulate-nature-of-matter/9_wrap-up)
+- [Thermodynamics](/physics/2-particulate-nature-of-matter/1_thermodynamics/)
+- [Matter Behavior Wrap Up](/physics/2-particulate-nature-of-matter/9_wrap-up/)
 - **Theme C: Wave Behaviour**
-- [Simple Harmonic Motion](3-wave-behaviour/1_simple-harmonic-motion)
-- [Waves Wrap Up](3-wave-behaviour/9_wrap-up)
+- [Simple Harmonic Motion](/physics/3-wave-behaviour/1_simple-harmonic-motion/)
+- [Waves Wrap Up](/physics/3-wave-behaviour/9_wrap-up/)
 - **Theme D: Fields**
-- [Electric and Magnetic Fields](4-fields/2_electric-and-magnetic-fields)
-- [Gravitational Fields](4-fields/1_gravitational-fields)
-- [Electromagnetic Induction](4-fields/4_induction)
-- [Motion in Electromagnetic Fields](4-fields/3_motion-in-electromagnetic-fields)
+- [Electric and Magnetic Fields](/physics/4-fields/2_electric-and-magnetic-fields/)
+- [Gravitational Fields](/physics/4-fields/1_gravitational-fields/)
+- [Electromagnetic Induction](/physics/4-fields/4_induction/)
+- [Motion in Electromagnetic Fields](/physics/4-fields/3_motion-in-electromagnetic-fields/)
 - **Theme E: Nuclear and Quantum Physics**
-- [Nuclear and Quantum Wrap Up](5-nuclear-and-quantum-physics/9_wrap-up)
+- [Nuclear and Quantum Wrap Up](/physics/5-nuclear-and-quantum-physics/9_wrap-up/)
 
 ## Common Pitfalls
 

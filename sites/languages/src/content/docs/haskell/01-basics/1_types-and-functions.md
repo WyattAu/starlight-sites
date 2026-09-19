@@ -878,9 +878,9 @@ wordFrequenciesLet text =
 
 ## Cross-References
 
-- **[Pattern Matching](../02-pattern-matching/1_pattern-matching):** Extends function dispatch with structural pattern matching on data types.
-- **[Monads and Functors](../04-monads/1_monads-and-functors):** Higher-kinded abstractions built on the function composition introduced here.
-- **[Advanced Types](../05-advanced/1_advanced-types):** GADTs and type families that extend the basic type system.
+- **[Pattern Matching](/haskell/02-pattern-matching/1_pattern-matching/):** Extends function dispatch with structural pattern matching on data types.
+- **[Monads and Functors](/haskell/04-monads/1_monads-and-functors/):** Higher-kinded abstractions built on the function composition introduced here.
+- **[Advanced Types](/haskell/05-advanced/1_advanced-types/):** GADTs and type families that extend the basic type system.
 
 ## Common Mistakes
 

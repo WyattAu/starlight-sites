@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Interior Mutability](./interior-mutability)
-- [Lifetimes](./lifetimes)
-- [Ownership](./ownership)
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
+- [Ownership](/rust/02-ownership-borrowing/ownership/)
 
 ## Learning Objectives
 

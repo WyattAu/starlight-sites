@@ -301,7 +301,7 @@ Cannot be extended.
 #### Functions
 
 Functions in Dart are first-class objects, they can be assigned to variables, passed as arguments,
-And returned from other functions. See [Function Mechanics](./01-entrypoint) for the entry point
+And returned from other functions. See [Function Mechanics](/dart/03-basics/01-entrypoint/) for the entry point
 Discussion.
 
 ```dart
@@ -555,8 +555,8 @@ linked above.
 
 ## Cross-References
 
-- **[Entry Point](./01-entrypoint):** Where variables are first used inside `main()`.
-- **[Classes and Inheritance](../04-object-oriented/01-classes-and-inheritance):** How variables work as class fields with `final` and `const` specifiers.
-- **[Async and Futures](../05-async/01-async-and-futures):** Nullable and late variables in asynchronous contexts.
-- **[Best Practices](../04-best-practices):** Recommended variable specifier ordering and typing conventions.
+- **[Entry Point](/dart/03-basics/01-entrypoint/):** Where variables are first used inside `main()`.
+- **[Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/):** How variables work as class fields with `final` and `const` specifiers.
+- **[Async and Futures](/dart/05-async/01-async-and-futures/):** Nullable and late variables in asynchronous contexts.
+- **[Best Practices](/dart/04-best-practices/):** Recommended variable specifier ordering and typing conventions.
 :::

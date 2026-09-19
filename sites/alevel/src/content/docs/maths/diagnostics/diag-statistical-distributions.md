@@ -601,5 +601,5 @@ Both approaches give the same answer, confirming the result.
 ## See Also
 
 - [Diagnostics](./)
-- [Algebraic Expressions -- Diagnostic Tests](./diag-algebraic-expressions)
-- [Binomial Expansion -- Diagnostic Tests](./diag-binomial-expansion)
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)

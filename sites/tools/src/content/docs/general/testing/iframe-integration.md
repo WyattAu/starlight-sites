@@ -406,5 +406,5 @@ linked above.
 ## See Also
 
 - [Testing](./)
-- [Markdown Constructs](./markdown-constructs)
-- [General](..)
+- [Markdown Constructs](/general/testing/markdown-constructs/)
+- [General](/)

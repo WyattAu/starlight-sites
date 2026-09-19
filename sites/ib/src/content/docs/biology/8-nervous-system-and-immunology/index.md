@@ -18,8 +18,8 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_nervous System](./1_nervous-system)
-- [2_immunology](./2_immunology)
+- [1_nervous System](/biology/8-nervous-system-and-immunology/1_nervous-system/)
+- [2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
 
 ## Learning Objectives
 

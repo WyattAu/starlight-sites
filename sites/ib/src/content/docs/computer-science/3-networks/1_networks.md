@@ -798,5 +798,5 @@ linked above.
 ## See Also
 
 - [Networks](./)
-- [IB Computer Science](..)
-- [IB CS Flashcards: Networks and Databases](../flashcards-networks-databases)
+- [IB Computer Science](/)
+- [IB CS Flashcards: Networks and Databases](/computer-science/flashcards-networks-databases/)

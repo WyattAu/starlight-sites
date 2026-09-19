@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Ruby Basics](./flashcards-ruby-basics)
-- [Practice Ruby Basics](./practice-ruby-basics)
+- [Flashcards Ruby Basics](/ruby/flashcards-ruby-basics/)
+- [Practice Ruby Basics](/ruby/practice-ruby-basics/)
 
 ## Learning Objectives
 

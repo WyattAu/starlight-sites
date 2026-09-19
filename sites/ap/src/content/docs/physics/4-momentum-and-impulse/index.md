@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [4_momentum And Impulse](./4_momentum-and-impulse)
+- [4_momentum And Impulse](/physics/4-momentum-and-impulse/4_momentum-and-impulse/)
 
 ## Learning Objectives
 

@@ -203,7 +203,7 @@ gluconeogenesis.
 | Treatment          | Insulin injections essential | Diet, exercise, oral drugs, sometimes insulin |
 | Ketoacidosis risk  | High                         | Low                                           |
 
-For more on the immune system and autoimmunity, see [Immunology](immunology).
+For more on the immune system and autoimmunity, see [Immunology](/biology/immunology/).
 
 :::caution
 does not perform this conversion itself -- it is a signalling molecule that stimulates liver and
@@ -363,7 +363,7 @@ the impulse before passing it to the Bundle of His, the Purkyne tissue, and the 
 causing ventricular systole.
 
 For detailed cardiac cycle mechanics, see
-[Exchange and Transport](exchange-and-transport).
+[Exchange and Transport](/biology/exchange-and-transport/).
 
 ### 5.2 Autonomic Nervous System Control
 
@@ -2350,6 +2350,6 @@ linked above.
 
 ## Cross-References
 
-- [Biology](../biology)
-- [Cells](cells)
-- [Genetics and DNA](genetics-and-dna)
+- [Biology](/biology/)
+- [Cells](/biology/cells/)
+- [Genetics and DNA](/biology/genetics-and-dna/)

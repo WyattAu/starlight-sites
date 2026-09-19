@@ -92,8 +92,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [SAT](./)
-- [Advanced Strategies](./advanced-strategies)
-- [SAT Math Advanced Flashcards](./flashcards-math-advanced)
+- [Advanced Strategies](/advanced-strategies/)
+- [SAT Math Advanced Flashcards](/flashcards-math-advanced/)
 
 
 ## Detailed Content

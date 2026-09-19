@@ -137,8 +137,8 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Algorithms -- Diagnostic Tests](./diag-algorithms)
-- [Data Structures -- Diagnostic Tests](./diag-data-structures)
+- [Algorithms -- Diagnostic Tests](/computer-science/diagnostics/diag-algorithms/)
+- [Data Structures -- Diagnostic Tests](/computer-science/diagnostics/diag-data-structures/)
 
 ```mermaid
 graph TD

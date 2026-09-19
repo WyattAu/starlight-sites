@@ -50,11 +50,11 @@ sources:
 
 ## Contents
 
-1. [Probability Spaces](1_probability-spaces)
-2. [Random Variables](2_random-variables)
-3. [Joint Distributions and Independence](3_joint-distributions-and-independence)
-4. [Limit Theorems](4_limit-theorems)
-5. [Transformations and Convolutions](5_transformations-and-convolutions)
+1. [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+2. [Random Variables](/8-probability-and-statistics/2_random-variables/)
+3. [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+4. [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+5. [Transformations and Convolutions](/8-probability-and-statistics/5_transformations-and-convolutions/)
 
 ## Overview
 

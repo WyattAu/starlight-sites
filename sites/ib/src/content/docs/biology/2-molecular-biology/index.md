@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_molecular Biology](./1_molecular-biology)
+- [1_molecular Biology](/biology/2-molecular-biology/1_molecular-biology/)
 
 ## Learning Objectives
 

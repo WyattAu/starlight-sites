@@ -17,19 +17,19 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Diag Atomic Nuclear](./diag-atomic-nuclear)
-- [Diag Current Electricity](./diag-current-electricity)
-- [Diag Dynamics](./diag-dynamics)
-- [Diag Electric Magnetic Fields](./diag-electric-magnetic-fields)
-- [Diag Energy](./diag-energy)
-- [Diag Gravitational Fields](./diag-gravitational-fields)
-- [Diag Induction](./diag-induction)
-- [Diag Kinematics](./diag-kinematics)
-- [Diag Rotational Motion](./diag-rotational-motion)
-- [Diag Shm](./diag-shm)
-- [Diag Thermodynamics](./diag-thermodynamics)
-- [Diag Wave Properties](./diag-wave-properties)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Atomic Nuclear](/physics/diagnostics/diag-atomic-nuclear/)
+- [Diag Current Electricity](/physics/diagnostics/diag-current-electricity/)
+- [Diag Dynamics](/physics/diagnostics/diag-dynamics/)
+- [Diag Electric Magnetic Fields](/physics/diagnostics/diag-electric-magnetic-fields/)
+- [Diag Energy](/physics/diagnostics/diag-energy/)
+- [Diag Gravitational Fields](/physics/diagnostics/diag-gravitational-fields/)
+- [Diag Induction](/physics/diagnostics/diag-induction/)
+- [Diag Kinematics](/physics/diagnostics/diag-kinematics/)
+- [Diag Rotational Motion](/physics/diagnostics/diag-rotational-motion/)
+- [Diag Shm](/physics/diagnostics/diag-shm/)
+- [Diag Thermodynamics](/physics/diagnostics/diag-thermodynamics/)
+- [Diag Wave Properties](/physics/diagnostics/diag-wave-properties/)
+- [Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
 
 
 ## Overview

@@ -166,7 +166,7 @@ Behind every scientific discovery and technological innovation lies mathematics.
 
 ## Cross-References
 
-- [Algebra](../../../../../../sat/src/content/docs/mathematics/algebra)
-- [Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus)
+- [Algebra](https://sat.wyattau.com/mathematics/algebra/)
+- [Calculus](https://hsc.wyattau.com/mathematics/calculus/)
 - [Statistics](../../further-maths/flashcards-further-statistics)
-- [Trigonometry](../pure-mathematics/08-trigonometry)
+- [Trigonometry](/maths/pure-mathematics/08-trigonometry/)

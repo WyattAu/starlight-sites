@@ -209,7 +209,7 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Cybersecurity Fundamentals](../../../../alevel/src/content/docs/computer-science/diagnostics/diag-fundamentals)
-- [Cryptography Guide](../../../../computer-science/src/content/docs/3-theory/cryptography)
-- [Network Security Overview](../../../../alevel/src/content/docs/computer-science/networks/02-network-security)
-- [Incident Response Planning](06-incident-response/incident-response)
+- [Cybersecurity Fundamentals](https://alevel.wyattau.com/computer-science/diagnostics/diag-fundamentals/)
+- [Cryptography Guide](https://computer-science.wyattau.com/3-theory/cryptography/)
+- [Network Security Overview](https://alevel.wyattau.com/computer-science/networks/02-network-security/)
+- [Incident Response Planning](/06-incident-response/incident-response/)

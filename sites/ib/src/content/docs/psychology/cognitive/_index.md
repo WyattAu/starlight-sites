@@ -21,11 +21,11 @@ thinking, language, and decision making.
 
 ## Pages
 
-- [Memory Models](./memory-models) -- the multi-store model, working memory model, reconstructive
+- [Memory Models](/psychology/cognitive/memory-models/) -- the multi-store model, working memory model, reconstructive
   memory, schema theory, and key supporting studies.
-- [Thinking and Decision Making](./thinking-and-decision-making) -- heuristics, biases, intuitive
+- [Thinking and Decision Making](/psychology/cognitive/thinking-and-decision-making/) -- heuristics, biases, intuitive
   and analytical thinking, and the rationality debate.
-- [Language and Thought](./language-and-thought) -- the Sapir-Whorf hypothesis, bilingualism, and
+- [Language and Thought](/psychology/cognitive/language-and-thought/) -- the Sapir-Whorf hypothesis, bilingualism, and
   the relationship between language and cognition.
 
 ## Overview
@@ -132,9 +132,9 @@ Our minds are prediction machines, constantly building models of the world to gu
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
 
 
 ## Advanced Content

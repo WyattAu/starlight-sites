@@ -658,5 +658,5 @@ linked above.
 ## See Also
 
 - [Cryptography](./)
-- [Cryptography](./cryptography)
-- [Security](..)
+- [Cryptography](/02-cryptography/cryptography/)
+- [Security](/)

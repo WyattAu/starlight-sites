@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [2_bonding And Intermolecular Forces](./2_bonding-and-intermolecular-forces)
+- [2_bonding And Intermolecular Forces](/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/)
 
 ## Learning Objectives
 

@@ -1,0 +1,39 @@
+# Swift — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Swift is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Intro
+
+- [Introduction to Swift](https://swift.wyattau.com/00-intro/1_swift-intro/): Swift is a developed by Apple for building applications across all Apple platforms -- iOS, iPadOS, macOS, watchOS, tvOS, and visionOS. It was designed to be
+
+## Basics
+
+- [Variables and Types](https://swift.wyattau.com/01-basics/1_variables-and-types/): Swift distinguishes between (mutable) and (immutable). Prefer over whenever the  Comprehensive educational content coverage with definitions and practice proble
+
+## Functions-Closures
+
+- [Functions](https://swift.wyattau.com/02-functions-closures/1_functions/): Functions are self-contained blocks of code that perform a specific task. Swift functions are first-class citizens: they can be assigned to variables,
+
+## Oop
+
+- [Classes and Structs](https://swift.wyattau.com/03-oop/1_classes-and-structs/): Swift provides both (reference types) and (value types). The choice between them Comprehensive educational content coverage with definitions and practice proble
+
+## Advanced
+
+- [Concurrency](https://swift.wyattau.com/04-advanced/2_concurrency/): Swift' s concurrency model provides -- asynchronous tasks are organised in a hierarchy where the lifetime of child tasks is bounded by their parent. This
+- [Error Handling](https://swift.wyattau.com/04-advanced/1_error-handling/): Errors in Swift are represented by types conforming to the protocol, which is an empty protocol. Any type can be an error.
+
+## Overview
+
+- [About This Site](https://swift.wyattau.com/about/): Wyatt's Notes offers comprehensive study materials for Swift programming. These notes cover Swift's type system, protocol-oriented design, SwiftUI, and iOS
+- [Complete Swift Programming Study Guide](https://swift.wyattau.com/hub/): Study notes for Complete Swift Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Swift - Wyatt's Notes](https://swift.wyattau.com/): Swift is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+- [Swift - Wyatt's Notes](https://swift.wyattau.com/intro/): Study notes for Swift with worked examples, practice problems, and key concepts for exam preparation.
+- [Swift Basics Flashcards](https://swift.wyattau.com/flashcards-swift-basics/): Swift is designed for safety and performance, optionals force you to handle nil at compile time, value types (structs, enums) prevent shared state bugs, and
+- [Swift Glossary, Key Terms and Definitions](https://swift.wyattau.com/glossary/): Study notes for Swift Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [Swift Practice (Basics)](https://swift.wyattau.com/practice-swift-basics/): 10 auto-graded practice problems covering core Swift concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble
+- [SwiftUI Practice](https://swift.wyattau.com/practice-swiftui/): Problem: Build a reusable profile card view that composes an image, name, and bio. The view should accept all data through parameters and use a `VStack` with

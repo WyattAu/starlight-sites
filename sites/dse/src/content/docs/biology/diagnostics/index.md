@@ -18,15 +18,15 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [Diag Biodiversity Conservation](./diag-biodiversity-conservation)
-- [Diag Cell Biology Biochemistry](./diag-cell-biology-biochemistry)
-- [Diag Evolution Ecology](./diag-evolution-ecology)
-- [Diag Genetics](./diag-genetics)
-- [Diag Human Physiology](./diag-human-physiology)
-- [Diag Human Reproduction Homeostasis](./diag-human-reproduction-homeostasis)
-- [Diag Microorganisms Biotechnology](./diag-microorganisms-biotechnology)
-- [Diag Plant Biology](./diag-plant-biology)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Biodiversity Conservation](/biology/diagnostics/diag-biodiversity-conservation/)
+- [Diag Cell Biology Biochemistry](/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [Diag Evolution Ecology](/biology/diagnostics/diag-evolution-ecology/)
+- [Diag Genetics](/biology/diagnostics/diag-genetics/)
+- [Diag Human Physiology](/biology/diagnostics/diag-human-physiology/)
+- [Diag Human Reproduction Homeostasis](/biology/diagnostics/diag-human-reproduction-homeostasis/)
+- [Diag Microorganisms Biotechnology](/biology/diagnostics/diag-microorganisms-biotechnology/)
+- [Diag Plant Biology](/biology/diagnostics/diag-plant-biology/)
+- [Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

@@ -735,5 +735,5 @@ class Hashable a where
 ## See Also
 
 - [Type Classes](./)
-- [Haskell](..)
-- [Sealed Classes](../../dart/07-dart3-features/02-sealed-classes)
+- [Haskell](/)
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/)

@@ -1485,5 +1485,5 @@ $$= 1 + 10(2x) + 45(4x^2) = 1 + 20x + 180x^2$$
 ## See Also
 
 - [Statistics And Probability](./)
-- [Probability](./1_probability)
-- [Statistics](./2_statistics)
+- [Probability](/maths/4-statistics-and-probability/1_probability/)
+- [Statistics](/maths/4-statistics-and-probability/2_statistics/)

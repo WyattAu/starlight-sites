@@ -1,0 +1,24 @@
+# Language Tests — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Complete preparation for language proficiency tests from A1 to C2 levels.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site | language-tests](https://language-tests.wyattau.com/about/): About Wyatt's Notes Language Tests resources, experience, expertise, and credentials behind IELTS, TOEFL, and language proficiency test study materials.
+- [Complete Language Proficiency Test Guide, IELTS, TOEFL, and More](https://language-tests.wyattau.com/hub/): Study notes for Complete Language Proficiency Test Guide, IELTS, TOEFL, and More with worked examples, practice problems, and key concepts for exam preparation.
+- [Language Proficiency Test Glossary, IELTS, TOEFL Terms](https://language-tests.wyattau.com/glossary/): Comprehensive glossary of language proficiency test terms covering IELTS, TOEFL, TOEIC, Cambridge, and general language testing concepts.
+- [Language Proficiency Tests | language-tests](https://language-tests.wyattau.com/): Complete preparation for language proficiency tests from A1 to C2 levels.
+
+## Cefr-Levels
+
+- [A2 Elementary Level | language-tests](https://language-tests.wyattau.com/cefr-levels/a2-elementary/): The A2 level is the second level of CEFR. At this level, you can understand sentences and frequently used expressions related to areas of immediate relevance.
+- [B1 Intermediate Level | language-tests](https://language-tests.wyattau.com/cefr-levels/b1-intermediate/): The B1 level is the third level of CEFR. At this level, you can deal with most situations likely to arise while travelling and produce connected text on
+- [B2 Upper Intermediate Level | language-tests](https://language-tests.wyattau.com/cefr-levels/b2-upper-intermediate/): The B2 level is the fourth level of CEFR. At this level, you can interact with a degree of fluency and spontaneity that makes regular interaction with native
+- [C1 Advanced Level | language-tests](https://language-tests.wyattau.com/cefr-levels/c1-advanced/): The C1 level is the fifth level of CEFR. At this level, you can understand a wide range of demanding, longer texts, and recognise implicit meaning.
+- [C2 Proficiency Level | language-tests](https://language-tests.wyattau.com/cefr-levels/c2-proficiency/): The C2 level is the highest level of CEFR. At this level, you can understand with ease virtually everything heard or read.
+- [CEFR Level A1: Beginner](https://language-tests.wyattau.com/cefr-levels/a1-beginner/): Guide to CEFR level A1 beginner language proficiency including what you can do, vocabulary requirements, and preparation tips.
+- [Cefr Levels | language-tests](https://language-tests.wyattau.com/cefr-levels/): This section covers cefr levels concepts, definitions, and applications with worked examples and practice problems.

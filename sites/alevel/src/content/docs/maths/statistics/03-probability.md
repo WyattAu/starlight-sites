@@ -888,7 +888,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Data Representation](../statistics/01-data-representation), Frequency tables and grouped data from this topic form the empirical basis for probability models.
-- [Correlation and Regression](../statistics/02-correlation-and-regression), Conditional probability underpins the interpretation of regression and correlation analysis.
-- [Statistical Distributions](04-statistical-distributions), The binomial and Poisson distributions extend probability theory to counting and rare events.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing), Probability theory provides the p-values and significance levels used in hypothesis testing.
+- [Data Representation](/maths/statistics/01-data-representation/), Frequency tables and grouped data from this topic form the empirical basis for probability models.
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/), Conditional probability underpins the interpretation of regression and correlation analysis.
+- [Statistical Distributions](/maths/statistics/04-statistical-distributions/), The binomial and Poisson distributions extend probability theory to counting and rare events.
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/), Probability theory provides the p-values and significance levels used in hypothesis testing.

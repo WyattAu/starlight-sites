@@ -188,5 +188,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Further Maths](..)
-- [Projectile Motion](./01-projectile-motion)
-- [Circular Motion](./02-circular-motion)
+- [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/)
+- [Circular Motion](/further-maths/further-mechanics/02-circular-motion/)

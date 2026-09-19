@@ -215,10 +215,10 @@ flowchart TD
 
 ## Cross-References
 
-- [Group Actions](6_group-actions) -- The orbit-stabilizer theorem generalises Lagrange's theorem to group actions, linking subgroup indices to orbit sizes.
-- [The Sylow Theorems](7_the-sylow-theorems) -- Sylow's theorems refine Lagrange's theorem by guaranteeing subgroups of prime-power order and constraining their count.
-- [Classification of Groups of Small Order](16_classification-of-groups-of-small-order) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
-- [Common Pitfalls](17_common-pitfalls) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.
+- [Group Actions](/1-abstract-algebra/6_group-actions/) -- The orbit-stabilizer theorem generalises Lagrange's theorem to group actions, linking subgroup indices to orbit sizes.
+- [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Sylow's theorems refine Lagrange's theorem by guaranteeing subgroups of prime-power order and constraining their count.
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Lagrange's theorem limits the possible subgroup structure used in classifying small-order groups.
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/) -- The common pitfalls section warns against assuming the converse of Lagrange's theorem and confusing index with order.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

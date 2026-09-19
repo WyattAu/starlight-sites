@@ -209,8 +209,8 @@ int main() {
 
 ## See Also
 
-- [Operator Overloading](./4_operator_overloading)
-- [The Spaceship Operator](./5_spaceship_operator)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [The Spaceship Operator](/object_oriented/1_class_design/5_spaceship_operator/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 

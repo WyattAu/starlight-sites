@@ -880,6 +880,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Programming](../2-programming/2_programming) covers the software that runs on the hardware architectures described here.
-- [Databases](../3-databases/3_databases) explains data storage systems that rely on the hardware's memory and processing capabilities.
-- [Algorithms](../5-algorithms/5_algorithms) defines the computational methods that hardware executes through instruction sets.
+- [Programming](/computer-science/2-programming/2_programming/) covers the software that runs on the hardware architectures described here.
+- [Databases](/computer-science/3-databases/3_databases/) explains data storage systems that rely on the hardware's memory and processing capabilities.
+- [Algorithms](/computer-science/5-algorithms/5_algorithms/) defines the computational methods that hardware executes through instruction sets.

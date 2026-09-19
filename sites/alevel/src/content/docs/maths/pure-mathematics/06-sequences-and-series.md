@@ -711,7 +711,7 @@ $$
 This is the formula for $n + 1$. ✓ $\blacksquare$
 
 </details>
-<b>If you get this wrong, revise:</b> [Proof by induction](./13-proof)
+<b>If you get this wrong, revise:</b> [Proof by induction](/maths/pure-mathematics/13-proof/)
 
 <hr />
 
@@ -877,8 +877,8 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions), Algebraic manipulation and partial fractions are essential for the method of differences.
-- [Proof](13-proof), Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
-- [Functions](05-functions), Exponential and logarithmic functions arise in the analysis of geometric series convergence.
-- [Equations and Inequalities](03-equations-and-inequalities), Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/), Algebraic manipulation and partial fractions are essential for the method of differences.
+- [Proof](/maths/pure-mathematics/13-proof/), Mathematical induction is used to prove the sum formulas for arithmetic and geometric series.
+- [Functions](/maths/pure-mathematics/05-functions/), Exponential and logarithmic functions arise in the analysis of geometric series convergence.
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/), Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
 :::

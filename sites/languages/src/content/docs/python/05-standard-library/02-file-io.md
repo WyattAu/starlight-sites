@@ -1262,6 +1262,6 @@ linked above.
 
 ## Cross-References
 
-- [Essential Modules](./01-essential-modules) -- The io module builds on os.path and built-in functions for comprehensive file system interaction.
-- [Context Managers](../08-advanced-topics/03-context-managers) -- File objects support the context manager protocol for safe resource management with with statements.
-- [Generators and Iterators](../02-fundamentals/04-generators-and-iterators) -- File objects are iterators that yield lines lazily, connecting file I/O to the iterator protocol.
+- [Essential Modules](/python/05-standard-library/01-essential-modules/) -- The io module builds on os.path and built-in functions for comprehensive file system interaction.
+- [Context Managers](/python/08-advanced-topics/03-context-managers/) -- File objects support the context manager protocol for safe resource management with with statements.
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- File objects are iterators that yield lines lazily, connecting file I/O to the iterator protocol.

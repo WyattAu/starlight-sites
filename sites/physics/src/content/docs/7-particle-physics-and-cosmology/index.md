@@ -50,19 +50,19 @@ sources:
 
 ## Contents
 
-1. [The Standard Model](1_the-standard-model)
-2. [Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)
-3. [Feynman Diagrams](3_feynman-diagrams)
-4. [The Higgs Mechanism](4_the-higgs-mechanism)
-5. [Group Theory in Particle Physics](5_group-theory-in-particle-physics)
-6. [Running Coupling Constants](6_running-coupling-constants)
-7. [Big Bang Cosmology](7_big-bang-cosmology)
-8. [Neutrino Physics](8_neutrino-physics)
-9. [Beyond the Standard Model](9_beyond-the-standard-model)
-10. [Problem Set](10_problem-set)
-11. [Advanced Topics in Particle Physics](11_advanced-topics-in-particle-physics)
-12. [Advanced Topics in Cosmology](12_advanced-topics-in-cosmology)
-13. [Precision Tests of the Standard Model](13_precision-tests-of-the-standard-model)
+1. [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
+2. [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
+3. [Feynman Diagrams](/7-particle-physics-and-cosmology/3_feynman-diagrams/)
+4. [The Higgs Mechanism](/7-particle-physics-and-cosmology/4_the-higgs-mechanism/)
+5. [Group Theory in Particle Physics](/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/)
+6. [Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)
+7. [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+8. [Neutrino Physics](/7-particle-physics-and-cosmology/8_neutrino-physics/)
+9. [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+10. [Problem Set](/7-particle-physics-and-cosmology/10_problem-set/)
+11. [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+12. [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+13. [Precision Tests of the Standard Model](/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model/)
 
 ## Overview
 

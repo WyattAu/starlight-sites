@@ -191,9 +191,9 @@ tags: [glossary]
 
 - See [SAT Glossary](https://sat.wyattau.com/glossary/) for standardised testing
 - See [IB Glossary](https://ib.wyattau.com/glossary/) for IB qualification comparison
-- See [Gaokao Glossary](../../../../typescript/src/content/docs/glossary) for Chinese university admissions
-- See [Leaving Certificate Glossary](../../../../typescript/src/content/docs/glossary) for Irish university admissions
-- See [Scottish Highers Glossary](../../../../typescript/src/content/docs/glossary) for Scottish university admissions
+- See [Gaokao Glossary](https://typescript.wyattau.com/glossary/) for Chinese university admissions
+- See [Leaving Certificate Glossary](https://typescript.wyattau.com/glossary/) for Irish university admissions
+- See [Scottish Highers Glossary](https://typescript.wyattau.com/glossary/) for Scottish university admissions
 
 ```mermaid
 graph TD

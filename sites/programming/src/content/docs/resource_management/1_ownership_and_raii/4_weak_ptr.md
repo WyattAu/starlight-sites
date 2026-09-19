@@ -920,10 +920,10 @@ A weak_ptr is a non-owning observer, like a security camera that watches a share
 
 ## See Also
 
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
-- [Common Pitfalls](5_custom_deleters)
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
-- [RAII Patterns](1_raii_patterns)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

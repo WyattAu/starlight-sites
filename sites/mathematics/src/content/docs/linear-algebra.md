@@ -2477,9 +2477,9 @@ import { Citation } from "@components/Citations.astro"
 
 | Topic                      | Site        | Link                                                                  |
 | -------------------------- | ----------- | --------------------------------------------------------------------- |
-| Abstract Algebra           | WyattsNotes | [View](abstract-algebra)                 |
-| Multivariable Calculus     | WyattsNotes | [View](multivariable-calculus)           |
-| Real Analysis              | WyattsNotes | [View](real-analysis)                    |
+| Abstract Algebra           | WyattsNotes | [View](/abstract-algebra/)                 |
+| Multivariable Calculus     | WyattsNotes | [View](/multivariable-calculus/)           |
+| Real Analysis              | WyattsNotes | [View](/real-analysis/)                    |
 | Linear Algebra, MIT 18.06 | MIT OCW     | [View](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) |
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

@@ -321,7 +321,7 @@ This leads to merge conflicts when you eventually merge. To rebase your feature 
 git rebase main
 ```
 
-See [Rebasing](./03-rebasing) for the full treatment.
+See [Rebasing](/git/03-branching-and-merging/03-rebasing/) for the full treatment.
 
 ### 3. Accumulating Merged Branches
 
@@ -363,6 +363,6 @@ Branching in Git is like creating a parallel universe: you can experiment freely
 
 ## Cross-References
 
-- [Introduction to Git](../../zh/algorithms/intro)
+- [Introduction to Git](/zh/algorithms/intro/)
 - [Merging](/tools/git/03-branching-and-merging/02-merging)
 - [Git Workflows](/tools/git/04-remotes-and-workflows/02-workflows)

@@ -18,9 +18,9 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Tcp And Udp](./tcp-and-udp)
-- [Tcp State Machine](./tcp-state-machine)
-- [Udp Deep Dive](./udp-deep-dive)
+- [Tcp And Udp](/03-tcp-udp/tcp-and-udp/)
+- [Tcp State Machine](/03-tcp-udp/tcp-state-machine/)
+- [Udp Deep Dive](/03-tcp-udp/udp-deep-dive/)
 
 ## Learning Objectives
 

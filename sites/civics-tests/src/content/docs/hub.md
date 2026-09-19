@@ -90,7 +90,7 @@ The USCIS civics test is an oral examination conducted during your naturalisatio
 - [Flashcards: All 100 Questions](flashcards-civics-all)
 - [Practice Test: Random 10](practice-civics-random) -- simulated tests with random question selection
 - [Practice Test: Government Questions](practice-civics-government) -- questions grouped by category
-- [Practice Test: History Questions](../../../../ib/src/content/docs/history/history) -- questions grouped by category
+- [Practice Test: History Questions](https://ib.wyattau.com/history/history/) -- questions grouped by category
 
 ### Key Test Focus
 
@@ -104,7 +104,7 @@ The largest category of civics questions covers the structure and function of US
 
 ### Topic Notes
 
-- [The Constitution](constitution-history) -- the supreme law, the Bill of Rights, and amendments
+- [The Constitution](/constitution-history/) -- the supreme law, the Bill of Rights, and amendments
 - [The Legislative Branch](government/legislative) -- Congress, the Senate, the House of Representatives, and lawmaking
 - [The Executive Branch](government/executive) -- the President, the Cabinet, and federal agencies
 - [The Judicial Branch](government/judicial) -- the Supreme Court, federal courts, and judicial review
@@ -130,15 +130,15 @@ The civics test covers major periods and events in American history, from the co
 
 - [Colonial Period and Independence](history/colonial) -- the 13 colonies, the Declaration of Independence, and the Revolutionary War
 - [The Early Republic](history/early-republic) -- the Constitution, the Bill of Rights, and the first presidents
-- [The Civil War and Reconstruction](../../../../ib/src/content/docs/history/comparitives/spanish-civil-war-chinese-civil-war) -- slavery, the Civil War, and the 13th, 14th, and 15th amendments
-- [Industrialisation and the Progressive Era](../../../../alevel/src/content/docs/history/7-industrial-revolution/1_industrial_revolution) -- immigration, the World Wars, and economic change
+- [The Civil War and Reconstruction](https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war/) -- slavery, the Civil War, and the 13th, 14th, and 15th amendments
+- [Industrialisation and the Progressive Era](https://alevel.wyattau.com/history/7-industrial-revolution/1_industrial_revolution/) -- immigration, the World Wars, and economic change
 - [The Civil Rights Movement](history/civil-rights) -- desegregation, the Voting Rights Act, and key leaders
 - [Recent History](history/recent) -- the Cold War, the end of the 20th century, and the 21st century
 
 ### Practice and Review
 
-- [Flashcards: American History](../../../../dse/src/content/docs/history/flashcards-history)
-- [Practice Questions: History](../../../../ib/src/content/docs/history/practice-history)
+- [Flashcards: American History](https://dse.wyattau.com/history/flashcards-history/)
+- [Practice Questions: History](https://ib.wyattau.com/history/practice-history/)
 
 ### Key Test Focus
 
@@ -152,14 +152,14 @@ The integrated civics section covers US geography, national symbols, and the mea
 
 ### Topic Notes
 
-- [US Geography](../../../../ib/src/content/docs/geography/geography) -- states, borders, rivers, mountains, and the capital
+- [US Geography](https://ib.wyattau.com/geography/geography/) -- states, borders, rivers, mountains, and the capital
 - [National Symbols](symbols) -- the flag, the eagle, the Statue of Liberty, and the national anthem
 - [The Capital and States](geography/capital) -- Washington, D.C., the 50 states, and their locations
 
 ### Practice and Review
 
-- [Flashcards: Geography and Symbols](../../../../dse/src/content/docs/geography/flashcards-geography)
-- [Practice Questions: Geography](../../../../dse/src/content/docs/geography/practice-geography)
+- [Flashcards: Geography and Symbols](https://dse.wyattau.com/geography/flashcards-geography/)
+- [Practice Questions: Geography](https://dse.wyattau.com/geography/practice-geography/)
 
 ### Key Test Focus
 
@@ -194,10 +194,10 @@ The civics test covers the rights guaranteed by the Constitution and the respons
 
 ### Topic Notes
 
-- [The Bill of Rights](bill-of-rights) -- the first 10 amendments and the freedoms they protect
+- [The Bill of Rights](/bill-of-rights/) -- the first 10 amendments and the freedoms they protect
 - [Freedom of Speech and Religion](rights/freedoms) -- the First Amendment and its scope
 - [The Right to Vote](rights/voting) -- who can vote, how voting works, and voter protections
-- [Responsibilities of Citizenship](rights-and-responsibilities) -- jury duty, voting, and civic participation
+- [Responsibilities of Citizenship](/rights-and-responsibilities/) -- jury duty, voting, and civic participation
 - [Equal Protection](rights/equal-protection) -- the 14th Amendment and anti-discrimination principles
 
 ### Practice and Review
@@ -217,15 +217,15 @@ Understanding the naturalisation process helps you prepare for the interview bey
 
 ### Topic Notes
 
-- [Naturalisation Overview](naturalisation) -- eligibility, application, and the path to citizenship
+- [Naturalisation Overview](/naturalisation/) -- eligibility, application, and the path to citizenship
 - [The N-400 Application](naturalisation/n400) -- the application form, required documents, and common issues
 - [The Interview](naturalisation/interview) -- what happens during the naturalisation interview
-- [The English Test](../../../../gcse/src/content/docs/english) -- the English language component of the naturalisation test
+- [The English Test](https://gcse.wyattau.com/english/) -- the English language component of the naturalisation test
 - [The Oath of Allegiance](naturalisation/oath) -- the final step and what the oath means
 
 ### Practice and Review
 
-- [Flashcards: Naturalisation Process](naturalisation)
+- [Flashcards: Naturalisation Process](/naturalisation/)
 - [Practice Questions: Naturalisation](practice-naturalisation)
 
 ### Key Test Focus

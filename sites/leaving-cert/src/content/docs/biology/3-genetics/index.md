@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [3_genetics](./3_genetics)
+- [3_genetics](/biology/3-genetics/3_genetics/)
 
 ## Learning Objectives
 

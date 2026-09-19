@@ -496,5 +496,5 @@ flowchart TD
 ## See Also
 
 - [Complex Analysis](./)
-- [Complex Numbers Review](./1_complex-numbers-review)
-- [Conformal Mappings](./10_conformal-mappings)
+- [Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)
+- [Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)

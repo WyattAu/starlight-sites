@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [CBSE](./)
-- [CBSE Chemistry Study Guide](./chemistry)
-- [CBSE Flashcards: Chemistry Class 12](./flashcards-chemistry)
+- [CBSE Chemistry Study Guide](/chemistry/)
+- [CBSE Flashcards: Chemistry Class 12](/flashcards-chemistry/)
 
 
 ## Detailed Content

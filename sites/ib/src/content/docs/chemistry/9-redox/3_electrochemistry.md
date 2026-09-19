@@ -1792,5 +1792,5 @@ Think of standard electrode potentials as a "tendency to gain electrons." A more
 ## See Also
 
 - [Redox](./)
-- [Redox Reactions](./1_redox-reactions)
-- [Redox Reactions (Advanced)](./2_redox-advanced)
+- [Redox Reactions](/chemistry/9-redox/1_redox-reactions/)
+- [Redox Reactions (Advanced)](/chemistry/9-redox/2_redox-advanced/)

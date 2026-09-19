@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_functions And Modules](./1_functions-and-modules)
+- [1_functions And Modules](/elixir/02-functions-modules/1_functions-and-modules/)
 
 ## Learning Objectives
 

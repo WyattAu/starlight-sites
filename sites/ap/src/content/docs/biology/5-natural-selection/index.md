@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [5_natural Selection](./5_natural-selection)
+- [5_natural Selection](/biology/5-natural-selection/5_natural-selection/)
 
 ## Learning Objectives
 

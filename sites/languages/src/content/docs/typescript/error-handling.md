@@ -809,5 +809,5 @@ Error handling in TypeScript centers on the never type (the bottom type with no 
 ## See Also
 
 - [Typescript](./)
-- [Advanced Patterns](./advanced-patterns)
-- [advanced types](./advanced-types)
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [advanced types](/typescript/advanced-types/)

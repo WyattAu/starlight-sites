@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Arrays Slices Maps](./arrays-slices-maps)
-- [Control Flow](./control-flow)
-- [Functions](./functions)
-- [Types And Variables](./types-and-variables)
+- [Arrays Slices Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)
+- [Functions](/go/basics/functions/)
+- [Types And Variables](/go/basics/types-and-variables/)
 
 ## Learning Objectives
 

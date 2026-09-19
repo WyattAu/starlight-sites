@@ -137,8 +137,8 @@ Write a cover letter for a job application:
 ## See Also
 
 - [Cefr Levels](./)
-- [B2 Upper Intermediate Level](./b2-upper-intermediate)
-- [A1 Beginner](./a1-beginner)
+- [B2 Upper Intermediate Level](/cefr-levels/b2-upper-intermediate/)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
 
 
 ## Advanced Content

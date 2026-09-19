@@ -671,5 +671,5 @@ exclusive. The student has confused two fundamentally different concepts.
 ## See Also
 
 - [Diagnostics](./)
-- [Differentiation -- Diagnostic Tests](./diag-differentiation)
-- [Functions -- Diagnostic Tests](./diag-functions)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

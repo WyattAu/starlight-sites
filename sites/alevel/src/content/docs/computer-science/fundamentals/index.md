@@ -200,8 +200,8 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Number Systems](./01-number-systems)
-- [Floating Point Representation](./02-floating-point)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
 
 ```mermaid
 graph TD

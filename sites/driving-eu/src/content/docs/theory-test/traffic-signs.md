@@ -137,7 +137,7 @@ What does this sign mean? (No Entry)
 ## See Also
 
 - [Theory Test](./)
-- [EU Driving Test](..)
+- [EU Driving Test](/)
 
 
 ## Advanced Content

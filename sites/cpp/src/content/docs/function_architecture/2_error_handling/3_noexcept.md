@@ -560,8 +560,8 @@ int main() {
 
 ## See Also
 
-- [Exception Safety Guarantees](2_exception_safety)
-- [The Itanium Exception ABI](1_exception_abi)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
 
 ```mermaid
 flowchart TD

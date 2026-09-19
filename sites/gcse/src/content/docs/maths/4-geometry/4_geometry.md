@@ -780,5 +780,5 @@ applying these mathematical techniques.
 ## See Also
 
 - [Geometry](./)
-- [GCSE Maths](..)
-- [Geometry -- Diagnostic Tests](../diagnostics/diag-geometry)
+- [GCSE Maths](/maths/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)

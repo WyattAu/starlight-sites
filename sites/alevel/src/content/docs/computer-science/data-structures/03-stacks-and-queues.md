@@ -341,7 +341,7 @@ Result: `3 4 + 5 *` ✓
 ### 4.1 Breadth-First Search
 
 BFS uses a queue to explore nodes level by level (see
-[Graphs](05-graphs)).
+[Graphs](/computer-science/data-structures/05-graphs/)).
 
 ### 4.2 Print Queue / Task Scheduling
 
@@ -606,7 +606,7 @@ Operators. Each operand adds 1, each operator subtracts 1 (pops 2, pushes 1). Ne
 $n - (n - 1) = 1$. Starting from an empty stack, the final stack size is $0 + 1 = 1$. $\square$
 
 For revision on complexity analysis, see
-[Complexity Analysis](../algorithms/04-complexity-analysis).
+[Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/).
 
 </details>
 
@@ -996,6 +996,6 @@ linked above.
 
 ## Cross-References
 
-- **[Linked Lists](02-linked-lists):** Stacks can be implemented using linked lists
-- **[Graphs](05-graphs):** BFS and DFS use queue and stack structures
-- **[Number Systems](../fundamentals/01-number-systems):** Stack frames use memory addresses
+- **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Stacks can be implemented using linked lists
+- **[Graphs](/computer-science/data-structures/05-graphs/):** BFS and DFS use queue and stack structures
+- **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Stack frames use memory addresses

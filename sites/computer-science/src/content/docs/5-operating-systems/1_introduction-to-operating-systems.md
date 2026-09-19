@@ -156,9 +156,9 @@ An operating system is the government of a computer: it manages resources (CPU t
 
 ## Cross-References
 
-- [Process Management](2_process-management)
-- [Memory Management](5_memory-management)
-- [File Systems](6_file-systems)
+- [Process Management](/5-operating-systems/2_process-management/)
+- [Memory Management](/5-operating-systems/5_memory-management/)
+- [File Systems](/5-operating-systems/6_file-systems/)
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

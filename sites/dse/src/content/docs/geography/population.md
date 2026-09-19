@@ -245,6 +245,6 @@ Population is the heartbeat of a society, it tells you how young or old a place 
 
 ## Cross-References
 
-- **[Population](../geography/population):** Population studies are central
-- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
-- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography
+- **[Population](/geography/population/):** Population studies are central
+- **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
+- **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography

@@ -390,7 +390,7 @@ Kubernetes manages containerised applications across clusters of machines.
 
 **Key resources:**
 
-- [Kubernetes and Docker Guide](kubernetes-docker), practical guide to containerisation and orchestration
+- [Kubernetes and Docker Guide](/kubernetes-docker/), practical guide to containerisation and orchestration
 
 ---
 
@@ -417,7 +417,7 @@ Understanding algorithms and data structures is essential for writing efficient 
 ### Practice
 
 - [Algorithms Guide](algorithms), topic-by-topic notes with complexity analysis
-- [Algorithm Practice Problems](practice-algorithms), worked examples and challenge problems
+- [Algorithm Practice Problems](/practice-algorithms/), worked examples and challenge problems
 
 ---
 

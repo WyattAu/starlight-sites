@@ -836,6 +836,6 @@ WebSockets are like a phone call versus sending letters. HTTP is like sending le
 
 ## Cross-References
 
-- [HTTP](http) - How the WebSocket handshake upgrades from an HTTP connection
-- [HTTP/2 and HTTP/3](http-2-and-3) - How HTTP/2 Server Push and streams relate to WebSocket real-time patterns
-- [TLS](../06-tls/tls) - How WSS (WebSocket Secure) wraps WebSocket connections in TLS
+- [HTTP](/05-http-https/http/) - How the WebSocket handshake upgrades from an HTTP connection
+- [HTTP/2 and HTTP/3](/05-http-https/http-2-and-3/) - How HTTP/2 Server Push and streams relate to WebSocket real-time patterns
+- [TLS](/06-tls/tls/) - How WSS (WebSocket Secure) wraps WebSocket connections in TLS

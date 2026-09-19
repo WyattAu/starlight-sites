@@ -890,6 +890,6 @@ Error handling in Python is about being specific and recoverable. `try`/`except`
 
 ## Cross-References
 
-- [Debugging and Profiling](../../../../../languages/src/content/docs/python/07-best-practices/02-debugging-and-profiling)
-- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
+- [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
+- [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)

@@ -244,5 +244,5 @@ If you answered "no" to any of these questions, revise your response to address 
 ## See Also
 
 - [English](./)
-- [Paper 1 Unseen Practice](./paper-1-unseen-practice)
-- [Poetry Terms Flashcards](./flashcards-poetry)
+- [Paper 1 Unseen Practice](/english/paper-1-unseen-practice/)
+- [Poetry Terms Flashcards](/english/flashcards-poetry/)

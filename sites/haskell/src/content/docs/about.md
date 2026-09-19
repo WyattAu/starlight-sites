@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Haskell](./)
-- [Advanced Haskell Flashcards](./flashcards-haskell-advanced)
-- [Haskell Basics Flashcards](./flashcards-haskell-basics)
+- [Advanced Haskell Flashcards](/flashcards-haskell-advanced/)
+- [Haskell Basics Flashcards](/flashcards-haskell-basics/)
 
 
 ## Detailed Content

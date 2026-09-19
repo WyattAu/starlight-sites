@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [2_19th Century Novel](./2_19th-century-novel)
+- [2_19th Century Novel](/english/2-19th-century-novel/2_19th-century-novel/)
 
 ## Learning Objectives
 

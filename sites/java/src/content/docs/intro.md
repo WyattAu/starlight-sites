@@ -164,5 +164,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Java](./)
-- [About This Site](./about)
-- [Java Fundamentals Flashcards](./flashcards-java-basics)
+- [About This Site](/about/)
+- [Java Fundamentals Flashcards](/flashcards-java-basics/)

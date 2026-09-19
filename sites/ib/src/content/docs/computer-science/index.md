@@ -62,37 +62,37 @@ common pitfalls, and exam-style problems.
 
 ### System Fundamentals
 
-- **[Abstraction and Data Management](./5-abstract-data-structures/1_abstraction-and-data-management)**
+- **[Abstraction and Data Management](/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/)**
 Abstraction, data models, and information management
-- **[System Design](./1-system-fundamentals/1_system-design)**, System architecture, design
+- **[System Design](/computer-science/1-system-fundamentals/1_system-design/)**, System architecture, design
   methodologies, and UML
-- **[System in Organizations](./1-system-fundamentals/2_system-organization)**, IT systems in
+- **[System in Organizations](/computer-science/1-system-fundamentals/2_system-organization/)**, IT systems in
   business, social and ethical considerations
-- **[Computer Organizations](./2-computer-organization/1_computer-organization)**, Computer
+- **[Computer Organizations](/computer-science/2-computer-organization/1_computer-organization/)**, Computer
   architecture, processors, memory, and input/output systems
 
 ### Data Structures and Algorithms
 
-- **[Algorithms and Data Structures](./4-computational-thinking/2_algorithms-and-data-structures)**
+- **[Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)**
 Sorting, searching, linked lists, stacks, queues, trees, and graphs
-- **[Boolean Logic](./4-computational-thinking/1_boolean-logic)**, Logic gates, truth tables, and
+- **[Boolean Logic](/computer-science/4-computational-thinking/1_boolean-logic/)**, Logic gates, truth tables, and
   Boolean algebra
 
 ### Programming
 
-- **[Programming Fundamentals](./7-control/1_programming-fundamentals)**, Variables, control
+- **[Programming Fundamentals](/computer-science/7-control/1_programming-fundamentals/)**, Variables, control
   structures, functions, and object-oriented concepts
 
 ### Networks and Databases
 
-- **[Networks](./3-networks/1_networks)**, Network topologies, protocols, encryption, and data
+- **[Networks](/computer-science/3-networks/1_networks/)**, Network topologies, protocols, encryption, and data
   transmission
-- **[Databases](./6-resource-management/1_databases)**, Relational databases, SQL, and data
+- **[Databases](/computer-science/6-resource-management/1_databases/)**, Relational databases, SQL, and data
   modelling
 
 ### Options
 
-- **[OOP (JETS)](./8-object-oriented-programming/1_object-oriented-programming)**, Object-oriented
+- **[OOP (JETS)](/computer-science/8-object-oriented-programming/1_object-oriented-programming/)**, Object-oriented
   programming option topic
 
 ## Related Content
@@ -201,6 +201,6 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [Biology](../../../../../gcse/src/content/docs/biology)
-- [Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry)
-- [Computer Science](computer-science)
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
+- [Computer Science](/computer-science/computer-science/)

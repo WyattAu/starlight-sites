@@ -212,8 +212,8 @@ Different problem types call for different algorithmic strategies. Divide and co
 ## See Also
 
 - [Computer Science](..)
-- [Searching Algorithms](./01-searching-algorithms)
-- [Sorting Algorithms](./02-sorting-algorithms)
+- [Searching Algorithms](/computer-science/algorithms/01-searching-algorithms/)
+- [Sorting Algorithms](/computer-science/algorithms/02-sorting-algorithms/)
 
 ```mermaid
 graph TD

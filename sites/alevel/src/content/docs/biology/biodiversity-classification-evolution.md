@@ -2096,7 +2096,7 @@ linked above.
 
 ## Cross-References
 
-- [Genetics and DNA](genetics-and-dna) -- Genetic diversity underlying biodiversity arises from mutations and recombination discussed in the genetics module.
-- [Advanced Genetics](genetics-advanced) -- Population genetics and Hardy-Weinberg equilibrium provide the mathematical framework for understanding allele frequency changes.
-- [Ecology](ecology) -- Community ecology and ecosystem interactions directly relate to species diversity and ecosystem diversity.
-- [Biotechnology](biotechnology) -- Conservation genetics and DNA barcoding use biotechnology tools to measure and protect biodiversity.
+- [Genetics and DNA](/biology/genetics-and-dna/) -- Genetic diversity underlying biodiversity arises from mutations and recombination discussed in the genetics module.
+- [Advanced Genetics](/biology/genetics-advanced/) -- Population genetics and Hardy-Weinberg equilibrium provide the mathematical framework for understanding allele frequency changes.
+- [Ecology](/biology/ecology/) -- Community ecology and ecosystem interactions directly relate to species diversity and ecosystem diversity.
+- [Biotechnology](/biology/biotechnology/) -- Conservation genetics and DNA barcoding use biotechnology tools to measure and protect biodiversity.

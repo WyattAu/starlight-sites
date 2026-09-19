@@ -185,5 +185,5 @@ Pure mathematics is the language of abstraction. Complex numbers extend our numb
 ## See Also
 
 - [Further Maths](..)
-- [Complex Numbers](./01-complex-numbers)
-- [Matrices](./02-matrices)
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/)
+- [Matrices](/further-maths/pure-mathematics/02-matrices/)

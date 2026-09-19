@@ -22,12 +22,12 @@ The AP Calculus exam (whether AB or BC) tests your ability to apply calculus con
 
 ## Topics
 
-- [Diag Derivatives](./diag-derivatives)
-- [Diag Differential Equations](./diag-differential-equations)
-- [Diag Integrals](./diag-integrals)
-- [Diag Limits Continuity](./diag-limits-continuity)
-- [Diag Sequences Series](./diag-sequences-series)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Derivatives](/maths/diagnostics/diag-derivatives/)
+- [Diag Differential Equations](/maths/diagnostics/diag-differential-equations/)
+- [Diag Integrals](/maths/diagnostics/diag-integrals/)
+- [Diag Limits Continuity](/maths/diagnostics/diag-limits-continuity/)
+- [Diag Sequences Series](/maths/diagnostics/diag-sequences-series/)
+- [Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

@@ -1962,8 +1962,8 @@ linked above.
 
 ## Cross-References
 
-- [Human Physiology](1_human-physiology) -- Homeostasis mechanisms in this topic build on the organ system physiology covered in the first module.
-- [Genetics](../3-genetics/1_genetics) -- Reproduction involves meiosis and inheritance, linking reproductive biology to genetic principles.
-- [Plant Biology](../5-plant-biology/1_plant-biology) -- Plant reproduction and tropisms parallel animal reproductive and homeostatic mechanisms.
-- [Money and Banking](../../economics/8-money-and-banking/1_money-and-banking) -- Population growth and demographic change affect economic demand and labour markets.
+- [Human Physiology](/biology/4-human-physiology/1_human-physiology/) -- Homeostasis mechanisms in this topic build on the organ system physiology covered in the first module.
+- [Genetics](/biology/3-genetics/1_genetics/) -- Reproduction involves meiosis and inheritance, linking reproductive biology to genetic principles.
+- [Plant Biology](/biology/5-plant-biology/1_plant-biology/) -- Plant reproduction and tropisms parallel animal reproductive and homeostatic mechanisms.
+- [Money and Banking](/economics/8-money-and-banking/1_money-and-banking/) -- Population growth and demographic change affect economic demand and labour markets.
 :::

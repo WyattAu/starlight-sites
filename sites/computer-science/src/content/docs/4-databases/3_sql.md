@@ -403,9 +403,9 @@ SQL is the language of asking questions of data. A SELECT statement is a questio
 
 ## Cross-References
 
-- [Relational Model](./2_relational-model) -- SQL operates on the relational model, with tables corresponding to relations and rows to tuples.
-- [Normalisation](./4_normalisation) -- Well-normalised schemas produce cleaner SQL queries with fewer anomalies.
-- [Indexing](./5_indexing) -- SQL query performance depends on indexing strategies that accelerate data retrieval.
+- [Relational Model](/4-databases/2_relational-model/) -- SQL operates on the relational model, with tables corresponding to relations and rows to tuples.
+- [Normalisation](/4-databases/4_normalisation/) -- Well-normalised schemas produce cleaner SQL queries with fewer anomalies.
+- [Indexing](/4-databases/5_indexing/) -- SQL query performance depends on indexing strategies that accelerate data retrieval.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

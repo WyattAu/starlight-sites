@@ -157,5 +157,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Highers](./)
-- [About This Site](./about)
-- [Scottish Highers Flashcards: Biology](./flashcards-biology)
+- [About This Site](/about/)
+- [Scottish Highers Flashcards: Biology](/flashcards-biology/)

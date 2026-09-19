@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Diag Macroeconomics](./diag-macroeconomics)
+- [Diag Macroeconomics](/economics/diagnostics/diag-macroeconomics/)
 
 ## Learning Objectives
 

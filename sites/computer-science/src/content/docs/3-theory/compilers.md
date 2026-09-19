@@ -745,9 +745,9 @@ Compilers translate source code to machine code through phases: lexical analysis
 
 | Topic                         | Link                                                                    |
 | ----------------------------- | ----------------------------------------------------------------------- |
-| Automata and Formal Languages | [View](automata-and-formal-languages) |
-| Algorithm Design              | [View](../1-algorithms/algorithm-design)              |
-| Complexity Theory             | [View](../1-algorithms/complexity-theory)             |
+| Automata and Formal Languages | [View](/3-theory/automata-and-formal-languages/) |
+| Algorithm Design              | [View](/1-algorithms/algorithm-design/)              |
+| Complexity Theory             | [View](/1-algorithms/complexity-theory/)             |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

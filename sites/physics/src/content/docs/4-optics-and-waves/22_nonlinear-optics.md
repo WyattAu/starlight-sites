@@ -150,9 +150,9 @@ Linear optics assumes the medium's response is proportional to the applied field
 
 ## Cross-References
 
-- [Lasers](9_lasers) -- High-intensity laser light is the primary driver of nonlinear optical effects; mode-locked lasers produce the peak powers needed for SHG and Kerr lensing.
-- [Coherence Theory](20_coherence-theory-16) -- Phase matching in nonlinear crystals requires coherence between the fundamental and harmonic fields.
-- [Fourier Optics](19_fourier-optics-15) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
+- [Lasers](/4-optics-and-waves/9_lasers/) -- High-intensity laser light is the primary driver of nonlinear optical effects; mode-locked lasers produce the peak powers needed for SHG and Kerr lensing.
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/) -- Phase matching in nonlinear crystals requires coherence between the fundamental and harmonic fields.
+- [Fourier Optics](/4-optics-and-waves/19_fourier-optics-15/) -- Spatial filtering and beam propagation in nonlinear media use the Fourier transform relationship between near and far fields.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

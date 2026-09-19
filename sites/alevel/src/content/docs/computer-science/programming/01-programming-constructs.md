@@ -499,7 +499,7 @@ def countdown(n):
 </details>
 
 For revision on data structures that use recursion, see
-[Trees](../data-structures/04-trees).
+[Trees](/computer-science/data-structures/04-trees/).
 
 <hr />
 
@@ -967,6 +967,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- **[OOP](02-object-oriented-programming):** OOP extends procedural constructs
-- **[Data Structures](../data-structures/05-graphs):** Programming manipulates data structures
-- **[Algorithms](../algorithms/03-graph-algorithms):** Programming implements algorithms
+- **[OOP](/computer-science/programming/02-object-oriented-programming/):** OOP extends procedural constructs
+- **[Data Structures](/computer-science/data-structures/05-graphs/):** Programming manipulates data structures
+- **[Algorithms](/computer-science/algorithms/03-graph-algorithms/):** Programming implements algorithms

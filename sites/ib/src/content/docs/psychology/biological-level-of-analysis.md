@@ -37,11 +37,11 @@ to any IB Psychology question benefits from acknowledging this multilevel comple
 
 ## Contents
 
-- [Brain Imaging Techniques](./biological/brain-imaging-techniques) -- fMRI, PET, EEG, TMS, and
+- [Brain Imaging Techniques](/psychology/biological/brain-imaging-techniques/) -- fMRI, PET, EEG, TMS, and
   lesion studies, including their strengths, limitations, and ethical considerations.
-- [Genetics and Behaviour](./biological/genetics-and-behaviour) -- genetic inheritance, twin
+- [Genetics and Behaviour](/psychology/biological/genetics-and-behaviour/) -- genetic inheritance, twin
   studies, adoption studies, and the nature-nurture debate.
-- [Neuroplasticity and Neurotransmission](./biological/neuroplasticity-and-neurotransmission) --
+- [Neuroplasticity and Neurotransmission](/psychology/biological/neuroplasticity-and-neurotransmission/) --
   synaptic transmission, neurotransmitters, neural plasticity, and their implications for behaviour.
 
 ## Key Concepts
@@ -191,6 +191,6 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 
 ## Cross-References
 
-- [Research Methods](research-methods)
-- [Approaches in Psychology](approaches)
-- [Biopsychology](../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

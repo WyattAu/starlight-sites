@@ -224,6 +224,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Population](../geography/population):** Population studies are central
-- **[Urbanization](../geography/urbanization):** Urbanisation is a key topic
-- **[Climate](../geography/diagnostics/diag-climate):** Climate affects geography
+- **[Population](/geography/population/):** Population studies are central
+- **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
+- **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography

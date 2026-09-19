@@ -398,5 +398,5 @@ linked above.
 ## See Also
 
 - [Intermediate](./)
-- [Collections](./collections)
-- [coroutines advanced](./coroutines-advanced)
+- [Collections](/intermediate/collections/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)

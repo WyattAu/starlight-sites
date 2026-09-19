@@ -60,11 +60,11 @@ curriculum and organised by topic for easy navigation.
 
 ## Topics
 
-- **[1. Energy](1-energy/1_energy)**
-- **[2. Electricity](2-electricity/2_electricity)**
-- **[5. Forces](5-forces/5_forces)**
-- **[6. Waves](6-waves/6_waves)**
-- **[7. Magnetism & Electromagnetism](7-magnetism/7_magnetism)**
+- **[1. Energy](/physics/1-energy/1_energy/)**
+- **[2. Electricity](/physics/2-electricity/2_electricity/)**
+- **[5. Forces](/physics/5-forces/5_forces/)**
+- **[6. Waves](/physics/6-waves/6_waves/)**
+- **[7. Magnetism & Electromagnetism](/physics/7-magnetism/7_magnetism/)**
 
 ## Topics Covered
 

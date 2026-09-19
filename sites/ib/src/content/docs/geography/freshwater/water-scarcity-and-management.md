@@ -228,9 +228,9 @@ Displacement of communities, reduced flows in the lower Yangtze and Han rivers (
 Consequences including reduced fish habitat and increased saltwater intrusion in the Yangtze
 Estuary), and the perpetuation of unsustainable water consumption patterns in northern China.
 
-For related topics, see [./drainage-basins-and-hydrology](./drainage-basins-and-hydrology) and
-[./flood-management](./flood-management). The parent topic page is at
-[../freshwater-issues](../freshwater-issues).
+For related topics, see [./drainage-basins-and-hydrology](/geography/freshwater/drainage-basins-and-hydrology/) and
+[./flood-management](/geography/freshwater/flood-management/). The parent topic page is at
+[../freshwater-issues](/geography/freshwater-issues/).
 
 ## Intuition
 

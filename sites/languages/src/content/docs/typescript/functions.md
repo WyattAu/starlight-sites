@@ -645,5 +645,5 @@ Functions in TypeScript are first-class values with precise type signatures. Par
 ## See Also
 
 - [Typescript](./)
-- [Advanced Patterns](./advanced-patterns)
-- [advanced types](./advanced-types)
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [advanced types](/typescript/advanced-types/)

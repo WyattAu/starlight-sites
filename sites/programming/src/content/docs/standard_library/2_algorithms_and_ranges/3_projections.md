@@ -572,10 +572,10 @@ int main() {
 
 ## See Also
 
-- [Iterator-Sentinel Model](./1_iterator_sentinel)
-- [Range Adaptors, Views, Composition](./2_range_adaptors)
-- [Range Materialization](./4_range_materialization)
-- [Parallel Algorithms](./5_parallel_algorithms)
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Range Adaptors, Views, Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -168,5 +168,5 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 ## See Also
 
 - [Further Maths](..)
-- [Poisson and Geometric Distributions](./01-poisson-and-geometric-distributions)
-- [Exponential Distribution and Continuous Random Variables](./02-exponential-and-continuous-random-variables)
+- [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)
+- [Exponential Distribution and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)

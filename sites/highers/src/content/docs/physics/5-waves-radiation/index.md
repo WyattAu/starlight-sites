@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [5_waves Radiation](./5_waves-radiation)
+- [5_waves Radiation](/physics/5-waves-radiation/5_waves-radiation/)
 
 ## Learning Objectives
 

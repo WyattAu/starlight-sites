@@ -1079,5 +1079,5 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 ## See Also
 
 - [Equilibrium](./)
-- [DSE Chemistry](..)
-- [Chemistry - Chemical Kinetics](../3-chemical-kinetics-and-energetics/1_chemical-kinetics)
+- [DSE Chemistry](/)
+- [Chemistry - Chemical Kinetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)

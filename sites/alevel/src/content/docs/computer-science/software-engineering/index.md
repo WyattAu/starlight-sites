@@ -189,5 +189,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Software Development Lifecycle](./01-software-development-lifecycle)
-- [Testing](./02-testing)
+- [Software Development Lifecycle](/computer-science/software-engineering/01-software-development-lifecycle/)
+- [Testing](/computer-science/software-engineering/02-testing/)

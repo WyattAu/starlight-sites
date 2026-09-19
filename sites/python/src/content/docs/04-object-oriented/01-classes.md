@@ -1069,6 +1069,6 @@ Python's OOP is duck-typed: if a quacks like a duck, it is a duck. You do not ne
 
 ## Cross-References
 
-- [Metaclasses](../../../../../languages/src/content/docs/python/04-object-oriented/02-metaclasses)
-- [Descriptors](../../../../../languages/src/content/docs/python/04-object-oriented/03-descriptors)
-- [Protocols and Dunder Methods](../../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods)
+- [Metaclasses](https://languages.wyattau.com/python/04-object-oriented/02-metaclasses/)
+- [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
+- [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)

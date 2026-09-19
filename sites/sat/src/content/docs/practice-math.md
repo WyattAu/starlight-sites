@@ -1195,5 +1195,5 @@ linked above.
 ## See Also
 
 - [SAT](./)
-- [Math Flashcards](./flashcards-math)
-- [reading and writing practice](./practice-reading)
+- [Math Flashcards](/flashcards-math/)
+- [reading and writing practice](/practice-reading/)

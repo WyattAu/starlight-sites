@@ -18,7 +18,7 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [Flashcards Oop](./flashcards-oop)
+- [Flashcards Oop](/object_oriented/flashcards-oop/)
 
 ## Learning Objectives
 

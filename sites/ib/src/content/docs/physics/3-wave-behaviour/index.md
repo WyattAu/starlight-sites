@@ -18,10 +18,10 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_simple Harmonic Motion](./1_simple-harmonic-motion)
-- [2_wave Properties](./2_wave-properties)
-- [4_wave Phenomena](./4_wave-phenomena)
-- [9_wrap Up](./9_wrap-up)
+- [1_simple Harmonic Motion](/physics/3-wave-behaviour/1_simple-harmonic-motion/)
+- [2_wave Properties](/physics/3-wave-behaviour/2_wave-properties/)
+- [4_wave Phenomena](/physics/3-wave-behaviour/4_wave-phenomena/)
+- [9_wrap Up](/physics/3-wave-behaviour/9_wrap-up/)
 
 ## Learning Objectives
 

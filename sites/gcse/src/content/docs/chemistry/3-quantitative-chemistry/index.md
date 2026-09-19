@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [3_quantitative Chemistry](./3_quantitative-chemistry)
+- [3_quantitative Chemistry](/chemistry/3-quantitative-chemistry/3_quantitative-chemistry/)
 
 ## Learning Objectives
 

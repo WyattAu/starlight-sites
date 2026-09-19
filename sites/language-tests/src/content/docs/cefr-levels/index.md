@@ -18,12 +18,12 @@ This section covers language proficiency assessment across CEFR levels. These ma
 
 ## Topics
 
-- [A1 Beginner](./a1-beginner)
-- [A2 Elementary](./a2-elementary)
-- [B1 Intermediate](./b1-intermediate)
-- [B2 Upper Intermediate](./b2-upper-intermediate)
-- [C1 Advanced](./c1-advanced)
-- [C2 Proficiency](./c2-proficiency)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [A2 Elementary](/cefr-levels/a2-elementary/)
+- [B1 Intermediate](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate](/cefr-levels/b2-upper-intermediate/)
+- [C1 Advanced](/cefr-levels/c1-advanced/)
+- [C2 Proficiency](/cefr-levels/c2-proficiency/)
 
 ## Learning Objectives
 

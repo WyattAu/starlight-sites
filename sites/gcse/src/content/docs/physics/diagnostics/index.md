@@ -18,12 +18,12 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Diag Electricity](./diag-electricity)
-- [Diag Energy](./diag-energy)
-- [Diag Forces](./diag-forces)
-- [Diag Magnetism](./diag-magnetism)
-- [Diag Waves](./diag-waves)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Electricity](/physics/diagnostics/diag-electricity/)
+- [Diag Energy](/physics/diagnostics/diag-energy/)
+- [Diag Forces](/physics/diagnostics/diag-forces/)
+- [Diag Magnetism](/physics/diagnostics/diag-magnetism/)
+- [Diag Waves](/physics/diagnostics/diag-waves/)
+- [Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

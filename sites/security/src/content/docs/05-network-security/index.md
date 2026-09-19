@@ -18,8 +18,8 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Network Security](./network-security)
-- [Vpn And Tunneling](./vpn-and-tunneling)
+- [Network Security](/05-network-security/network-security/)
+- [Vpn And Tunneling](/05-network-security/vpn-and-tunneling/)
 
 ## Learning Objectives
 

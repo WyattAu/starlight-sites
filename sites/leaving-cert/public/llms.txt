@@ -1,0 +1,99 @@
+# Leaving Cert — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Leaving Cert revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://leaving-cert.wyattau.com/about/): About Wyatt's Notes Leaving Certificate resources, experience, expertise, and credentials behind the Irish Leaving Cert study materials.
+- [Complete Irish Leaving Certificate Study Guide](https://leaving-cert.wyattau.com/hub/): Study notes for Complete Irish Leaving Certificate Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [ILC Flashcards: Biology](https://leaving-cert.wyattau.com/flashcards-biology/): 20 interactive flashcards for ILC Biology. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.
+- [ILC Flashcards: Chemistry](https://leaving-cert.wyattau.com/flashcards-chemistry/): ILC Flashcards: Chemistry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [ILC Flashcards: Computer Science](https://leaving-cert.wyattau.com/flashcards-computer-science/): import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/ilc/flashcards-computer-science-data.js';
+- [ILC Flashcards: Maths](https://leaving-cert.wyattau.com/flashcards-maths/): 20 interactive flashcards for ILC Maths. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.
+- [ILC Flashcards: Physics](https://leaving-cert.wyattau.com/flashcards-physics/): 20 interactive flashcards for ILC Physics. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions and practice problems.
+- [Irish Leaving Certificate](https://leaving-cert.wyattau.com/intro/): The (Leaving Cert or LC) is the final examination of the Irish Secondary school system, administered by the (SEC). It is taken by students aged 16 to 19
+- [Irish Leaving Certificate Glossary, Key Terms](https://leaving-cert.wyattau.com/glossary/): Comprehensive glossary of Irish Leaving Certificate terms covering the examination system, grading, CAO points, subjects, and university admissions.
+- [Leaving Cert](https://leaving-cert.wyattau.com/): Leaving Cert revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+## Biology
+
+- [Biology Practice (Interactive)](https://leaving-cert.wyattau.com/biology/practice-biology/): QUALIFICATIONS Ilc practice problems: Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
+- [Cell | Leaving Cert - Wyatt's Notes](https://leaving-cert.wyattau.com/biology/1-cell/): This section covers cell concepts, definitions, and applications with worked examples and practice problems.
+- [Cell Biology](https://leaving-cert.wyattau.com/biology/1-cell/1_cell/): ILC Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for detailed review and exam preparation.
+- [Cell Biology -- Diagnostic Tests](https://leaving-cert.wyattau.com/biology/diagnostics/diag-cell-biology/): QUALIFICATIONS Ilc notes: Cell Biology -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.
+- [Diagnostics](https://leaving-cert.wyattau.com/biology/diagnostics/): Diagnostic test notes for leaving-cert Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Ecology](https://leaving-cert.wyattau.com/biology/2-ecology/2_ecology/): ILC Biology Ecology notes covering key definitions, core concepts, worked examples, and practice questions for efficient review and exam preparation.
+- [Ecology](https://leaving-cert.wyattau.com/biology/2-ecology/): This section covers ecology concepts, definitions, and applications with worked examples and practice problems.
+- [Genetics](https://leaving-cert.wyattau.com/biology/3-genetics/): This section covers genetics concepts, definitions, and applications with worked examples and practice problems.
+- [Genetics and Evolution](https://leaving-cert.wyattau.com/biology/3-genetics/3_genetics/): ILC Biology Genetics and Evolution notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
+- [Human Body](https://leaving-cert.wyattau.com/biology/5-human-body/): This section covers human body concepts, definitions, and applications with worked examples and practice problems.
+- [Human Body Systems](https://leaving-cert.wyattau.com/biology/5-human-body/5_human-body/): ILC Biology Human Body Systems notes covering key definitions, core concepts, worked examples, and practice questions for thorough review and exam preparation.
+- [Irish LC Biology](https://leaving-cert.wyattau.com/biology/): Leaving Certificate Biology explores cells, ecology, genetics, plants, and human body systems. The course covers a wide range of biological concepts from
+- [Plant Biology](https://leaving-cert.wyattau.com/biology/4-plant-biology/4_plant-biology/): This topic covers plant structure, transport in plants, reproduction, growth, and plant responses to Stimuli. Plant biology is a core area of the Irish
+- [Plant Biology](https://leaving-cert.wyattau.com/biology/4-plant-biology/): This section covers plant biology concepts, definitions, and applications with worked examples and practice problems.
+
+## Chemistry
+
+- [Acids Bases](https://leaving-cert.wyattau.com/chemistry/4-acids-bases/): This section covers acids bases concepts, definitions, and applications with worked examples and practice problems.
+- [Acids, Bases and Salt Preparation](https://leaving-cert.wyattau.com/chemistry/4-acids-bases/4_acids-bases/): This topic covers the properties of acids and bases, pH, strong and weak acids, buffers, and methods Of salt preparation. It is essential for both Ordinary
+- [Atomic Structure](https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure/): Atomic structure is the foundation of chemistry, covering the composition of atoms, electron Configuration, atomic spectra, and periodic trends.
+- [Atomic Structure](https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/): This section covers atomic structure concepts, definitions, and applications with worked examples and practice problems.
+- [Atomic Structure -- Diagnostic Tests](https://leaving-cert.wyattau.com/chemistry/diagnostics/diag-atomic-structure/): QUALIFICATIONS Ilc notes: Atomic Structure -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.
+- [Bonding](https://leaving-cert.wyattau.com/chemistry/2-bonding/2_bonding/): ILC Chemistry Bonding notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and examination practice.
+- [Bonding](https://leaving-cert.wyattau.com/chemistry/2-bonding/): This section covers bonding concepts, definitions, and applications with worked examples and practice problems.
+- [Chemistry Practice (Interactive)](https://leaving-cert.wyattau.com/chemistry/practice-chemistry/): QUALIFICATIONS Ilc practice problems: Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
+- [Diagnostics](https://leaving-cert.wyattau.com/chemistry/diagnostics/): Diagnostic test notes for leaving-cert Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Irish LC Chemistry](https://leaving-cert.wyattau.com/chemistry/): Leaving Certificate Chemistry covers atomic structure, bonding, stoichiometry, acids, bases, and organic chemistry. The course develops practical laboratory
+- [Organic](https://leaving-cert.wyattau.com/chemistry/5-organic/): This section covers organic concepts, definitions, and applications with worked examples and practice problems.
+- [Organic Chemistry](https://leaving-cert.wyattau.com/chemistry/5-organic/5_organic/): ILC Organic Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for effective revision and exam readiness.
+- [Stoichiometry](https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/): This section covers stoichiometry concepts, definitions, and applications with worked examples and practice problems.
+- [Stoichiometry and Formulae](https://leaving-cert.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry/): ILC Chemistry Stoichiometry and Formulae notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
+
+## Computer-Science
+
+- [Algorithms](https://leaving-cert.wyattau.com/computer-science/5-algorithms/): This section covers algorithms concepts, definitions, and applications with worked examples and practice problems.
+- [Algorithms and Programming](https://leaving-cert.wyattau.com/computer-science/2-programming/2_programming/): ILC Computer Science Algorithms and Programming notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
+- [Computational Thinking](https://leaving-cert.wyattau.com/computer-science/5-algorithms/5_algorithms/): Computational thinking is a problem-solving approach that involves breaking down complex problems, Identifying patterns, abstracting details, and designing
+- [Computer Science Practice (Interactive)](https://leaving-cert.wyattau.com/computer-science/practice-computer-science/): QUALIFICATIONS Ilc practice problems: Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
+- [Computer Systems](https://leaving-cert.wyattau.com/computer-science/1-hardware/1_hardware/): ILC Computer Science Computer Systems notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
+- [Computer Systems -- Diagnostic Tests](https://leaving-cert.wyattau.com/computer-science/diagnostics/diag-systems/): Computer Systems -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Data and Databases](https://leaving-cert.wyattau.com/computer-science/3-databases/3_databases/): ILC Computer Science Data and Databases notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.
+- [Databases](https://leaving-cert.wyattau.com/computer-science/3-databases/): This section covers databases concepts, definitions, and applications with worked examples and practice problems.
+- [Diagnostics](https://leaving-cert.wyattau.com/computer-science/diagnostics/): Diagnostic test notes for leaving-cert Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Hardware](https://leaving-cert.wyattau.com/computer-science/1-hardware/): This section covers hardware concepts, definitions, and applications with worked examples and practice problems.
+- [Irish LC Computer Science](https://leaving-cert.wyattau.com/computer-science/): Leaving Certificate Computer Science covers hardware, programming, databases, networking, and computational thinking. The course combines theoretical
+- [Networking and Security](https://leaving-cert.wyattau.com/computer-science/4-networks/4_networks/): ILC Computer Science Networking and Security notes covering key definitions, core concepts, worked examples, and practice questions for rigorous revision.
+- [Networks](https://leaving-cert.wyattau.com/computer-science/4-networks/): This section covers networks concepts, definitions, and applications with worked examples and practice problems.
+- [Programming](https://leaving-cert.wyattau.com/computer-science/2-programming/): This section covers programming concepts, definitions, and applications with worked examples and practice problems.
+
+## Maths
+
+- [Algebra](https://leaving-cert.wyattau.com/maths/1-algebra/1_algebra/): Algebra is a fundamental area of the Leaving Certificate Mathematics syllabus, appearing in both Paper 1 and Paper 2. This topic covers algebraic
+- [Algebra -- Diagnostic Tests](https://leaving-cert.wyattau.com/maths/diagnostics/diag-algebra/): Algebra -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Calculus](https://leaving-cert.wyattau.com/maths/2-calculus/2_calculus/): Calculus is divided into two main branches: (finding rates of change) and (finding areas and reversing differentiation). This topic is central to Paper 1 at
+- [Geometry and Trigonometry](https://leaving-cert.wyattau.com/maths/3-geometry-trig/3_geometry-trig/): Geometry and trigonometry form a significant part of the Leaving Certificate syllabus, particularly Paper 2. This topic covers coordinate geometry,
+- [Irish LC Mathematics](https://leaving-cert.wyattau.com/maths/): Leaving Certificate Mathematics is a core subject covering algebra, calculus, geometry, probability, statistics, and number theory. The course is offered at
+- [Maths Practice (Interactive)](https://leaving-cert.wyattau.com/maths/practice-maths/): QUALIFICATIONS Ilc practice problems: Maths Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
+- [Number Sets and Sequences](https://leaving-cert.wyattau.com/maths/5-number-sequences/5_number-sequences/): This topic covers number systems, set theory, sequences, series, and financial mathematics. These Concepts underpin much of the algebra and calculus in the
+- [Probability and Statistics](https://leaving-cert.wyattau.com/maths/4-probability-statistics/4_probability-statistics/): Probability and statistics appear on both papers of the Leaving Certificate Mathematics examination. This topic covers counting principles, probability
+
+## Physics
+
+- [Diagnostics](https://leaving-cert.wyattau.com/physics/diagnostics/): Diagnostic test notes for leaving-cert Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Electricity](https://leaving-cert.wyattau.com/physics/3-electricity/3_electricity/): This topic covers electric charge, current, potential difference, resistance, circuits, and Electromagnetic induction. Electricity is one of the core areas
+- [Electricity](https://leaving-cert.wyattau.com/physics/3-electricity/): This section covers electricity concepts, definitions, and applications with worked examples and practice problems.
+- [Heat | Leaving Cert - Wyatt's Notes](https://leaving-cert.wyattau.com/physics/4-heat/): This section covers heat concepts, definitions, and applications with worked examples and practice problems.
+- [Heat and Thermodynamics](https://leaving-cert.wyattau.com/physics/4-heat/4_heat/): ILC Physics Heat and Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
+- [Irish LC Physics](https://leaving-cert.wyattau.com/physics/): Leaving Certificate Physics covers mechanics, waves, electricity, heat, and modern physics. The course develops analytical and problem-solving skills
+- [Light and Waves](https://leaving-cert.wyattau.com/physics/2-waves/2_waves/): This topic covers the wave nature of light, sound, reflection, refraction, diffraction, Interference, and the electromagnetic spectrum. Waves are a major
+- [Mechanics](https://leaving-cert.wyattau.com/physics/1-mechanics/1_mechanics/): Mechanics is the study of motion and forces. It forms the largest single topic on the Leaving Certificate Physics paper and covers kinematics, dynamics,
+- [Mechanics](https://leaving-cert.wyattau.com/physics/1-mechanics/): This section covers mechanics concepts, definitions, and applications with worked examples and practice problems.
+- [Mechanics -- Diagnostic Tests](https://leaving-cert.wyattau.com/physics/diagnostics/diag-mechanics/): QUALIFICATIONS Ilc notes: Mechanics -- Diagnostic Tests. Comprehensive study material with definitions, examples, and assessment tools.
+- [Modern Physics](https://leaving-cert.wyattau.com/physics/5-modern-physics/5_modern-physics/): Modern physics covers the physics of the very small (atomic and subatomic scale) and the very fast. Key topics include the photoelectric effect, atomic
+- [Modern Physics](https://leaving-cert.wyattau.com/physics/5-modern-physics/): This section covers modern physics concepts, definitions, and applications with worked examples and practice problems.
+- [Physics Practice (Interactive)](https://leaving-cert.wyattau.com/physics/practice-physics/): QUALIFICATIONS Ilc practice problems: Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
+- [Waves | Leaving Cert - Wyatt's Notes](https://leaving-cert.wyattau.com/physics/2-waves/): This section covers waves concepts, definitions, and applications with worked examples and practice problems.

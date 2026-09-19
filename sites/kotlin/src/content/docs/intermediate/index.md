@@ -18,12 +18,12 @@ This section provides study materials and resources for intermediate. Browse the
 
 ## Topics
 
-- [Collections](./collections)
-- [Coroutines Advanced](./coroutines-advanced)
-- [Coroutines](./coroutines)
-- [Delegation And Result](./delegation-and-result)
-- [Generics](./generics)
-- [Scope Functions](./scope-functions)
+- [Collections](/intermediate/collections/)
+- [Coroutines Advanced](/intermediate/coroutines-advanced/)
+- [Coroutines](/intermediate/coroutines/)
+- [Delegation And Result](/intermediate/delegation-and-result/)
+- [Generics](/intermediate/generics/)
+- [Scope Functions](/intermediate/scope-functions/)
 
 ## Learning Objectives
 

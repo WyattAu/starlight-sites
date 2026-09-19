@@ -815,6 +815,6 @@ applying these mathematical techniques.
 
 ## Cross-References
 
-- [Algebra and Functions](../1-algebra-functions/1_algebra-functions) -- Statistical distributions are defined using algebraic functions, connecting probability to function theory.
-- [Calculus](../3-calculus/3_calculus) -- Continuous probability distributions require integration to calculate probabilities.
-- [Dynamics and Space](../../physics/2-dynamics-space/2_dynamics-space) -- Statistical methods are used to analyse experimental data in physics investigations.
+- [Algebra and Functions](/maths/1-algebra-functions/1_algebra-functions/) -- Statistical distributions are defined using algebraic functions, connecting probability to function theory.
+- [Calculus](/maths/3-calculus/3_calculus/) -- Continuous probability distributions require integration to calculate probabilities.
+- [Dynamics and Space](/physics/2-dynamics-space/2_dynamics-space/) -- Statistical methods are used to analyse experimental data in physics investigations.

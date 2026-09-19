@@ -19,7 +19,7 @@ categories: "- DSE - ICT"
 
 This document provides comprehensive coverage of programming fundamentals for the DSE ICT
 examination. Basic programming concepts and SQL are covered in
-[../3-programming-and-databases/2_programming-and-databases](../3-programming-and-databases/2_programming-and-databases).
+[../3-programming-and-databases/2_programming-and-databases](/ict/3-programming-and-databases/2_programming-and-databases/).
 This document extends those topics with Deeper treatment of algorithms, string manipulation, file
 handling, debugging, and DSE-specific exam Techniques.
 

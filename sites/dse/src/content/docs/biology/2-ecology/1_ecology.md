@@ -2081,5 +2081,5 @@ phosphates), leading to excessive algal growth.
 ## See Also
 
 - [Ecology](./)
-- [Biodiversity and Conservation](./2_biodiversity-and-conservation)
-- [DSE Biology](..)
+- [Biodiversity and Conservation](/biology/2-ecology/2_biodiversity-and-conservation/)
+- [DSE Biology](/)

@@ -18,8 +18,8 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_chemical Kinetics](./1_chemical-kinetics)
-- [2_energetics](./2_energetics)
+- [1_chemical Kinetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)
+- [2_energetics](/chemistry/3-chemical-kinetics-and-energetics/2_energetics/)
 
 ## Learning Objectives
 

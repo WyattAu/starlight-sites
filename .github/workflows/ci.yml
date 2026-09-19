@@ -75,6 +75,13 @@ jobs:
       - name: MDX parse gate (content)
         run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
+      - name: llms.txt freshness (content)
+        run: node scripts/generate-llms-txt.js --check
+
+      - name: Link graph analysis (advisory -- broken-link backlog tracked separately)
+        continue-on-error: true
+        run: node --max-old-space-size=1024 scripts/lint-link-graph.js
+
       - name: Content validation
         run: node scripts/lint-content.js
 

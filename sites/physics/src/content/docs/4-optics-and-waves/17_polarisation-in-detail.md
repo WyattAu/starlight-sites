@@ -164,9 +164,9 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 
 ## Cross-References
 
-- **[Polarization](./5_polarization)**: Introduces the fundamental polarisation states, Malus's law, and birefringence that the Jones calculus and Stokes parameters formalise.
-- **[Fresnel Equations](./10_fresnel-equations)**: The polarisation-dependent reflection and transmission coefficients at interfaces are described by the Fresnel equations.
-- **[Geometric Optics](./6_geometric-optics)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
+- **[Polarization](/4-optics-and-waves/5_polarization/)**: Introduces the fundamental polarisation states, Malus's law, and birefringence that the Jones calculus and Stokes parameters formalise.
+- **[Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)**: The polarisation-dependent reflection and transmission coefficients at interfaces are described by the Fresnel equations.
+- **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Brewster's angle and polarisation by reflection arise from the boundary conditions in the ray optics limit.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

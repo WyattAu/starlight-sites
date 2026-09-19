@@ -787,4 +787,4 @@ applying these mathematical techniques.
 ## See Also
 
 - [Geometry Trig](./)
-- [Irish LC Mathematics](..)
+- [Irish LC Mathematics](/)

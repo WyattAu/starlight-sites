@@ -771,6 +771,6 @@ $\Delta > 0$ So both are valid.
 
 ## Cross-References
 
-- **[Functions](diag-functions):** Functions are central
-- **[Quadratics](diag-quadratics):** Quadratics are a core topic
-- **[Trigonometry](diag-trigonometry):** Trigonometry is fundamental
+- **[Functions](/maths/diagnostics/diag-functions/):** Functions are central
+- **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are a core topic
+- **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is fundamental

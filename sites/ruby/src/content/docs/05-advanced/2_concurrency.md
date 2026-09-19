@@ -908,9 +908,9 @@ Fibers in Ruby are like coroutine workers who can pause and resume. A fiber is l
 
 ## Cross-References
 
-- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - How Ruby's object model and GIL constrain concurrent object access
-- [Metaprogramming](../../../../../elixir/src/content/docs/04-advanced/1_metaprogramming) - How thread safety considerations affect dynamically defined methods
-- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How blocks and procs interact with Fiber and Thread scheduling
+- [OOP](https://languages.wyattau.com/ruby/04-oop/1_oop/) - How Ruby's object model and GIL constrain concurrent object access
+- [Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/) - How thread safety considerations affect dynamically defined methods
+- [Methods and Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/) - How blocks and procs interact with Fiber and Thread scheduling
 
 ## Common Mistakes
 

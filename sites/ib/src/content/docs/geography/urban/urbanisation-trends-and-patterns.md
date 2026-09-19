@@ -254,9 +254,9 @@ Various slum upgrading and clearance programmes. However, upgrading programmes h
 For prioritising the interests of developers and affluent residents over those of existing informal
 Settlement communities.
 
-For related topics, see [./urban-environmental-quality](./urban-environmental-quality) and
-[./urban-planning-and-sustainability](./urban-planning-and-sustainability). The parent topic page is
-At [../urban-environments](../urban-environments).
+For related topics, see [./urban-environmental-quality](/geography/urban/urban-environmental-quality/) and
+[./urban-planning-and-sustainability](/geography/urban/urban-planning-and-sustainability/). The parent topic page is
+At [../urban-environments](/geography/urban-environments/).
 
 ## Intuition
 

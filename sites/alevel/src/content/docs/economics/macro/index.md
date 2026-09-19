@@ -196,5 +196,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Economics](..)
-- [Macroeconomic Performance](./01-macroeconomic-performance)
-- [Aggregate Demand and Aggregate Supply](./02-aggregate-demand-and-supply)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)

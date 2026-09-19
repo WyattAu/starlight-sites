@@ -1063,7 +1063,7 @@ linked above.
 
 ## Cross-References
 
-- [Metaclasses](./02-metaclasses): Extends class creation by customizing the class creation process itself, building on the class fundamentals covered here.
-- [Descriptors](./03-descriptors): Explains the underlying mechanism that makes properties, class methods, and static methods work.
-- [Protocols and Dunder Methods](../08-advanced-topics/04-protocols-dunder-methods): Provides deeper coverage of the dunder methods that enable Python's data model integration.
-- [Data Validation](../08-advanced-topics/02-data-validation): Shows how to use dataclasses and validators to ensure data integrity in object-oriented designs.
+- [Metaclasses](/python/04-object-oriented/02-metaclasses/): Extends class creation by customizing the class creation process itself, building on the class fundamentals covered here.
+- [Descriptors](/python/04-object-oriented/03-descriptors/): Explains the underlying mechanism that makes properties, class methods, and static methods work.
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Provides deeper coverage of the dunder methods that enable Python's data model integration.
+- [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to use dataclasses and validators to ensure data integrity in object-oriented designs.

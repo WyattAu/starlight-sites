@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [3_acids Bases](./3_acids-bases)
+- [3_acids Bases](/chemistry/3-acids-bases/3_acids-bases/)
 
 ## Learning Objectives
 

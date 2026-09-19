@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [4_plant Biology](./4_plant-biology)
+- [4_plant Biology](/biology/4-plant-biology/4_plant-biology/)
 
 ## Learning Objectives
 

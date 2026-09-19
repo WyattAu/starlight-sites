@@ -935,10 +935,10 @@ Introspected).
 
 ## See Also
 
-- [Parameter Packs and Variadic Templates](./1_parameter_packs)
-- [Fold Expressions and Pack Expansion](./2_fold_expressions)
-- [Compile-Time Branching and Constexpr Functions](./3_if_constexpr)
-- [SFINAE vs Concepts](../2_concepts_and_constraints/4_sfinae_vs_concepts)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [SFINAE vs Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -244,9 +244,9 @@ And its population is ageing rapidly. The demographic dividend has given way to 
 Burden, as the elderly dependency ratio rises and the working-age population shrinks. This
 Illustrates that the demographic dividend is a time-limited window, not a permanent condition.
 
-For related topics, see [./migration-theories-and-patterns](./migration-theories-and-patterns) and
-[./population-policies](./population-policies). The parent topic page is at
-[../population-distribution](../population-distribution).
+For related topics, see [./migration-theories-and-patterns](/geography/population/migration-theories-and-patterns/) and
+[./population-policies](/geography/population/population-policies/). The parent topic page is at
+[../population-distribution](/geography/population-distribution/).
 
 ## Intuition
 

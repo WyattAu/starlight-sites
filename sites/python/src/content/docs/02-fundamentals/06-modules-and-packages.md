@@ -1149,6 +1149,6 @@ Modules are Python's way of organising code into reusable files. Think of a modu
 
 ## Cross-References
 
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
-- [Packaging and Distribution](../../../../../languages/src/content/docs/python/07-best-practices/04-packaging-distribution)
-- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+- [Packaging and Distribution](https://languages.wyattau.com/python/07-best-practices/04-packaging-distribution/)
+- [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)

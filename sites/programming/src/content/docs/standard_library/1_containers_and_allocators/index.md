@@ -18,10 +18,10 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_sequence_containers](./1_sequence_containers)
-- [2_associative_containers](./2_associative_containers)
-- [3_iterators](./3_iterators)
-- [4_pmr](./4_pmr)
+- [1_sequence_containers](/standard_library/1_containers_and_allocators/1_sequence_containers/)
+- [2_associative_containers](/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [3_iterators](/standard_library/1_containers_and_allocators/3_iterators/)
+- [4_pmr](/standard_library/1_containers_and_allocators/4_pmr/)
 
 ## Learning Objectives
 

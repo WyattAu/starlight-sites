@@ -436,5 +436,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Reading Fiction -- Diagnostic Tests](./diag-reading-fiction)
-- [Reading Non-Fiction -- Diagnostic Tests](./diag-reading-nonfiction)
+- [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)
+- [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)

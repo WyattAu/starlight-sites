@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_pattern Matching](./1_pattern-matching)
+- [1_pattern Matching](/haskell/02-pattern-matching/1_pattern-matching/)
 
 ## Learning Objectives
 

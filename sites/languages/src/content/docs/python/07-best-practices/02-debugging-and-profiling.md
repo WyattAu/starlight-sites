@@ -1311,5 +1311,5 @@ linked above.
 ## See Also
 
 - [Best Practices](./)
-- [Style and Idioms](./01-style-and-idioms)
-- [Error Handling Patterns](./03-error-handling-patterns)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)

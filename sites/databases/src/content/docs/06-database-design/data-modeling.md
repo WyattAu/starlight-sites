@@ -754,10 +754,10 @@ Creates unnecessary complexity. Use proper columns or JSONB instead.
 
 ## Cross-References
 
-- [Database Design](database-design) - How the conceptual and logical phases of data modeling translate into physical schema implementation
-- [Indexing and Optimization](../03-indexing-optimization/indexing) - How indexing strategies interact with normalized and denormalized schema designs
-- [Transactions and Concurrency](../04-transactions/transactions) - Why ACID guarantees matter when choosing between normalization and denormalization patterns
-- [NoSQL Databases](../05-nosql/nosql) - How document stores and column-family stores model data differently from relational schemas
+- [Database Design](/06-database-design/database-design/) - How the conceptual and logical phases of data modeling translate into physical schema implementation
+- [Indexing and Optimization](/03-indexing-optimization/indexing/) - How indexing strategies interact with normalized and denormalized schema designs
+- [Transactions and Concurrency](/04-transactions/transactions/) - Why ACID guarantees matter when choosing between normalization and denormalization patterns
+- [NoSQL Databases](/05-nosql/nosql/) - How document stores and column-family stores model data differently from relational schemas
 
 ## Worked Examples
 

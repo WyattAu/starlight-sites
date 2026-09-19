@@ -1095,11 +1095,11 @@ A Type I error is rejecting a true null hypothesis (false positive). A Type II e
 
 ## Cross-References
 
-- **[AP Biology](biology)**, Cell biology, genetics, evolution, ecology, and physiology
-- **[AP Chemistry](chemistry)**, Atomic structure, bonding, stoichiometry, thermodynamics, and organic chemistry
-- **[AP Physics](physics-1)**, Mechanics, energy, momentum, rotation, and oscillations
-- **[AP Calculus AB](calculus-ab)**, Limits, derivatives, integrals, and applications
-- **[AP Statistics](statistics)**, Descriptive statistics, probability, distributions, and hypothesis testing
+- **[AP Biology](/biology/)**, Cell biology, genetics, evolution, ecology, and physiology
+- **[AP Chemistry](/chemistry/)**, Atomic structure, bonding, stoichiometry, thermodynamics, and organic chemistry
+- **[AP Physics](/physics-1/)**, Mechanics, energy, momentum, rotation, and oscillations
+- **[AP Calculus AB](/calculus-ab/)**, Limits, derivatives, integrals, and applications
+- **[AP Statistics](/statistics/)**, Descriptive statistics, probability, distributions, and hypothesis testing
 
 ---
 

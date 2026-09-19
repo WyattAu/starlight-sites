@@ -222,7 +222,7 @@ gitGraph
 
 :::caution
 those commits to a shared branch. If you have, see the
-[Golden Rule of Rebasing](../03-branching-and-merging/03-rebasing#the-golden-rule-of-rebasing).
+[Golden Rule of Rebasing](/git/03-branching-and-merging/03-rebasing/#the-golden-rule-of-rebasing).
 
 ## Push
 

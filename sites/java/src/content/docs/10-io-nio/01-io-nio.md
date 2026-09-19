@@ -1083,6 +1083,6 @@ public class Example {
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
-- **[Java Basics](../flashcards-java-basics):** Fundamental Java concepts including types and control flow.
-- **[Concurrency](../06-concurrency/01-concurrency):** Multithreading and concurrent programming.
+- **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **[Practice](../../practice-*):** Practice problems for revision.

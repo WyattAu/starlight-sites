@@ -601,6 +601,6 @@ A question bank serves as a diagnostic tool. Each question tests a specific skil
 
 ## Cross-References
 
-- **[Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Analysis covers calculus
-- **[Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are central to analysis
-- **[Number and Algebra](../maths/1-number-and-algebra/1_number-and-algebra):** Algebra underpins analysis
+- **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Analysis covers calculus
+- **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are central to analysis
+- **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Algebra underpins analysis

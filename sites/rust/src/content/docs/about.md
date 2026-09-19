@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Rust](./)
-- [Macros](./08-macros)
-- [Rust Flashcards: Fundamentals](./flashcards-rust-basics)
+- [Macros](/08-macros/)
+- [Rust Flashcards: Fundamentals](/flashcards-rust-basics/)
 
 
 ## Detailed Content

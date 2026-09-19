@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Ruby](./)
-- [Ruby Basics Flashcards](./flashcards-ruby-basics)
-- [Ruby](./intro)
+- [Ruby Basics Flashcards](/flashcards-ruby-basics/)
+- [Ruby](/intro/)
 
 
 ## Detailed Content

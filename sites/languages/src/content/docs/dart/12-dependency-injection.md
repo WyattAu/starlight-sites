@@ -1272,6 +1272,6 @@ linked above.
 
 ## Cross-References
 
-- [Object-Oriented Programming](../../../../../dart/src/content/docs/04-object-oriented/01-classes-and-inheritance) -- Dependency injection relies on interfaces and abstract classes to decouple implementations.
-- [Testing Fundamentals](../../../../../dart/src/content/docs/14-testing/01-testing-fundamentals) -- DI makes unit testing easier by allowing mock dependencies to be injected during testing.
-- [Code Generation](../../../../../dart/src/content/docs/13-code-generation) -- Code generation tools like injectable automate the creation of dependency injection wiring.
+- [Object-Oriented Programming](https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance/) -- Dependency injection relies on interfaces and abstract classes to decouple implementations.
+- [Testing Fundamentals](https://dart.wyattau.com/14-testing/01-testing-fundamentals/) -- DI makes unit testing easier by allowing mock dependencies to be injected during testing.
+- [Code Generation](https://dart.wyattau.com/13-code-generation/) -- Code generation tools like injectable automate the creation of dependency injection wiring.

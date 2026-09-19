@@ -680,5 +680,5 @@ linked above.
 ## See Also
 
 - [SAT](./)
-- [mathematics practice](./practice-math)
-- [SAT Flashcards: Reading and Writing](./flashcards-reading-writing)
+- [mathematics practice](/practice-math/)
+- [SAT Flashcards: Reading and Writing](/flashcards-reading-writing/)

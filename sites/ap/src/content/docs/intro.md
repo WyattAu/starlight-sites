@@ -31,17 +31,17 @@ These notes align to the AP Course and Exam Descriptions (CEDs) and cover the fo
 
 - **AP Calculus AB/BC** -- Limits, derivatives, integrals, differential equations, and sequences and
   series (BC only). See
-  [Limits and Continuity](maths/1-limits-and-continuity/1_limits-and-continuity).
+  [Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/).
 - **AP Physics 1/2/C** -- Mechanics, electromagnetism, thermodynamics, fluids, and modern physics.
-  See [Kinematics](physics/1-kinematics/1_kinematics).
+  See [Kinematics](/physics/1-kinematics/1_kinematics/).
 - **AP Chemistry** -- Atomic structure, bonding, stoichiometry, thermodynamics, kinetics, and
   equilibrium. See
-  [Atomic Structure and Periodicity](chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity).
+  [Atomic Structure and Periodicity](/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/).
 - **AP Biology** -- Biochemistry, cell biology, energetics, genetics, and evolution. See
-  [Chemistry of Life](biology/1-chemistry-of-life/1_chemistry-of-life).
+  [Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/).
 - **AP Computer Science A/Principles** -- Programming in Java, algorithms, data structures,
   abstraction, and the internet. See
-  [Computational Thinking](computer-science/1-computational-thinking/1_computational-thinking).
+  [Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/).
 
 ## Exam Structure
 
@@ -175,7 +175,7 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 
 ## Cross-References
 
-- [AP Biology](../../../../gcse/src/content/docs/biology): Covers the study of living organisms, including细胞结构, genetics, and evolution.
-- [AP Chemistry](../../../../alevel/src/content/docs/chemistry/chemistry): Explores matter and its interactions, including atomic structure, chemical reactions, and thermodynamics.
-- [AP Physics](../../../../ib/src/content/docs/physics/physics): Investigates the fundamental principles of matter and energy, including mechanics, electricity, and magnetism.
-- [AP Calculus](../../../../hsc/src/content/docs/mathematics/calculus): Develops mathematical skills for analysing change and motion, essential for science and engineering.
+- [AP Biology](https://gcse.wyattau.com/biology/): Covers the study of living organisms, including细胞结构, genetics, and evolution.
+- [AP Chemistry](https://alevel.wyattau.com/chemistry/chemistry/): Explores matter and its interactions, including atomic structure, chemical reactions, and thermodynamics.
+- [AP Physics](https://ib.wyattau.com/physics/physics/): Investigates the fundamental principles of matter and energy, including mechanics, electricity, and magnetism.
+- [AP Calculus](https://hsc.wyattau.com/mathematics/calculus/): Develops mathematical skills for analysing change and motion, essential for science and engineering.

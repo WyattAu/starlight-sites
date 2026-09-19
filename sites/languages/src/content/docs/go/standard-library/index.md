@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Io](./io)
-- [Math Sort Log](./math-sort-log)
-- [Net Http](./net-http)
-- [Strings And Time](./strings-and-time)
+- [Io](/go/standard-library/io/)
+- [Math Sort Log](/go/standard-library/math-sort-log/)
+- [Net Http](/go/standard-library/net-http/)
+- [Strings And Time](/go/standard-library/strings-and-time/)
 
 ## Learning Objectives
 

@@ -17,21 +17,21 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Acids Bases](./acids-bases)
-- [Atomic Structure](./atomic-structure)
-- [Bonding And Structure](./bonding-and-structure)
-- [Chemistry](./chemistry)
-- [Electrochemistry](./electrochemistry)
-- [Equilibrium](./equilibrium)
-- [Flashcards Atomic Structure](./flashcards-atomic-structure)
-- [Flashcards Physical Chemistry](./flashcards-physical-chemistry)
-- [Kinetics](./kinetics)
-- [Organic Chemistry](./organic-chemistry)
-- [Physical Chemistry](./physical-chemistry)
-- [Practice Physical Chemistry](./practice-physical-chemistry)
-- [Quantitative Chemistry](./quantitative-chemistry)
-- [Thermodynamics](./thermodynamics)
-- [Transition Metals](./transition-metals)
+- [Acids Bases](/chemistry/acids-bases/)
+- [Atomic Structure](/chemistry/atomic-structure/)
+- [Bonding And Structure](/chemistry/bonding-and-structure/)
+- [Chemistry](/chemistry/chemistry/)
+- [Electrochemistry](/chemistry/electrochemistry/)
+- [Equilibrium](/chemistry/equilibrium/)
+- [Flashcards Atomic Structure](/chemistry/flashcards-atomic-structure/)
+- [Flashcards Physical Chemistry](/chemistry/flashcards-physical-chemistry/)
+- [Kinetics](/chemistry/kinetics/)
+- [Organic Chemistry](/chemistry/organic-chemistry/)
+- [Physical Chemistry](/chemistry/physical-chemistry/)
+- [Practice Physical Chemistry](/chemistry/practice-physical-chemistry/)
+- [Quantitative Chemistry](/chemistry/quantitative-chemistry/)
+- [Thermodynamics](/chemistry/thermodynamics/)
+- [Transition Metals](/chemistry/transition-metals/)
 
 
 ## Overview

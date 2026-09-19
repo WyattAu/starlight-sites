@@ -862,7 +862,7 @@ UDP is like sending a postcard without tracking - you write the address, drop it
 
 ## Cross-References
 
-- [TCP and UDP](tcp-and-udp) - Overview comparing TCP reliability with UDP speed for different application requirements
-- [TCP State Machine](tcp-state-machine) - TCP connection states that UDP deliberately avoids for lower overhead
-- [DNS](../04-dns/dns) - Primary protocol using UDP for fast, stateless name resolution queries
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/) - Overview comparing TCP reliability with UDP speed for different application requirements
+- [TCP State Machine](/03-tcp-udp/tcp-state-machine/) - TCP connection states that UDP deliberately avoids for lower overhead
+- [DNS](/04-dns/dns/) - Primary protocol using UDP for fast, stateless name resolution queries
 :::

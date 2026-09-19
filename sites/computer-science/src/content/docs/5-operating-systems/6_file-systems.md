@@ -259,5 +259,5 @@ A file system is the librarian of storage, it keeps track of which bytes belong 
 ## See Also
 
 - [Operating Systems](./)
-- [I/O Systems](./7_i-o-systems)
-- [Introduction to Operating Systems](./1_introduction-to-operating-systems)
+- [I/O Systems](/5-operating-systems/7_i-o-systems/)
+- [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)

@@ -706,12 +706,12 @@ A LEFT JOIN returns all rows from the left table (A) and matched rows from the r
 
 ## Cross-References
 
-- **[Algorithms and Data Structures](algorithms-and-data-structures)**, Sorting, searching, graphs, trees, and complexity analysis
-- **[Theory of Computation](theory-of-computation)**, Automata, formal languages, decidability, and complexity
-- **[Databases](databases)**, Relational model, SQL, normalisation, indexing, and transactions
-- **[Discrete Mathematics](discrete-mathematics)**, Logic, sets, graph theory, and combinatorics
-- **[Operating Systems](operating-systems)**, Processes, memory management, and file systems
-- **[Discrete Mathematics Practice](practice-discrete-math)**, Additional discrete math exercises
+- **[Algorithms and Data Structures](/algorithms-and-data-structures/)**, Sorting, searching, graphs, trees, and complexity analysis
+- **[Theory of Computation](/theory-of-computation/)**, Automata, formal languages, decidability, and complexity
+- **[Databases](/databases/)**, Relational model, SQL, normalisation, indexing, and transactions
+- **[Discrete Mathematics](/discrete-mathematics/)**, Logic, sets, graph theory, and combinatorics
+- **[Operating Systems](/operating-systems/)**, Processes, memory management, and file systems
+- **[Discrete Mathematics Practice](/practice-discrete-math/)**, Additional discrete math exercises
 
 ---
 

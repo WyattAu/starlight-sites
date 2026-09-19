@@ -367,6 +367,6 @@ linked above.
 
 ## Cross-References
 
-- **[Arrays, Slices, and Maps](./arrays-slices-maps):** Collection types that build on scalar type foundations.
-- **[Interfaces](../intermediate/interfaces):** Structural typing and interface satisfaction for custom types.
-- **[Pointers and Memory](../advanced/pointers-and-memory):** Pointer semantics and escape analysis for variable storage.
+- **[Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/):** Collection types that build on scalar type foundations.
+- **[Interfaces](/go/intermediate/interfaces/):** Structural typing and interface satisfaction for custom types.
+- **[Pointers and Memory](/go/advanced/pointers-and-memory/):** Pointer semantics and escape analysis for variable storage.

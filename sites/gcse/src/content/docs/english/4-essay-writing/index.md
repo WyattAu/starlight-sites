@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [4_essay Writing](./4_essay-writing)
+- [4_essay Writing](/english/4-essay-writing/4_essay-writing/)
 
 ## Learning Objectives
 

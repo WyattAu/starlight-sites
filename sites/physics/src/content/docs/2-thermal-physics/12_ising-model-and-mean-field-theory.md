@@ -201,9 +201,9 @@ Critical exponents are universal: they depend only on the dimensionality of the 
 
 ## Cross-References
 
-- [Thermodynamic Response Functions](17_thermodynamic-response-functions) -- The susceptibility and specific heat divergences near $T_c$ are examples of the response functions analysed in that chapter.
-- [Irreversible Thermodynamics and Fluctuations](19_irreversible-thermodynamics-and-fluctuations) -- The fluctuation-dissipation theorem connects the susceptibility divergence to spin fluctuations near criticality.
-- [The Debye Model of Solids](16_the-debye-model-of-solids) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
+- [Thermodynamic Response Functions](/2-thermal-physics/17_thermodynamic-response-functions/) -- The susceptibility and specific heat divergences near $T_c$ are examples of the response functions analysed in that chapter.
+- [Irreversible Thermodynamics and Fluctuations](/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/) -- The fluctuation-dissipation theorem connects the susceptibility divergence to spin fluctuations near criticality.
+- [The Debye Model of Solids](/2-thermal-physics/16_the-debye-model-of-solids/) -- The lattice dynamics and phonon spectrum of solids provide the microscopic foundation for understanding spin-phonon coupling in magnetic materials.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

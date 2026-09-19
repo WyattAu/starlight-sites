@@ -18,10 +18,10 @@ This section provides study materials and resources for human geography. Browse 
 
 ## Topics
 
-- [1_changing Places](./1_changing-places)
-- [2_global Systems](./2_global-systems)
-- [3_contemporary Urban Environments](./3_contemporary-urban-environments)
-- [4_population And Environment](./4_population-and-environment)
+- [1_changing Places](/geography/2-human-geography/1_changing-places/)
+- [2_global Systems](/geography/2-human-geography/2_global-systems/)
+- [3_contemporary Urban Environments](/geography/2-human-geography/3_contemporary-urban-environments/)
+- [4_population And Environment](/geography/2-human-geography/4_population-and-environment/)
 
 ## Learning Objectives
 

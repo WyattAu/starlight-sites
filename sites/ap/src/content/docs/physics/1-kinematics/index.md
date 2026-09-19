@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_kinematics](./1_kinematics)
+- [1_kinematics](/physics/1-kinematics/1_kinematics/)
 
 ## Learning Objectives
 

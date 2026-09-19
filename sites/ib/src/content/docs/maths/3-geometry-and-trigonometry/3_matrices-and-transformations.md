@@ -1568,5 +1568,5 @@ linked above.
 ## See Also
 
 - [Geometry And Trigonometry](./)
-- [Trigonometry](./1_trigonometry)
-- [Vectors](./2_vectors)
+- [Trigonometry](/maths/3-geometry-and-trigonometry/1_trigonometry/)
+- [Vectors](/maths/3-geometry-and-trigonometry/2_vectors/)

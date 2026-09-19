@@ -37,11 +37,11 @@ topics.
 
 ## Topics
 
-- **[1. Chemistry of Life](1-chemistry-of-life/1_chemistry-of-life)**
-- **[2. Cell Structure and Function](2-cell-structure-and-function/2_cell-structure-and-function)**
-- **[3. Cellular Energetics](3-cellular-energetics/3_cellular-energetics)**
-- **[4. Heredity](4-heredity/4_heredity)**
-- **[5. Natural Selection](5-natural-selection/5_natural-selection)**
+- **[1. Chemistry of Life](/biology/1-chemistry-of-life/1_chemistry-of-life/)**
+- **[2. Cell Structure and Function](/biology/2-cell-structure-and-function/2_cell-structure-and-function/)**
+- **[3. Cellular Energetics](/biology/3-cellular-energetics/3_cellular-energetics/)**
+- **[4. Heredity](/biology/4-heredity/4_heredity/)**
+- **[5. Natural Selection](/biology/5-natural-selection/5_natural-selection/)**
 
 ## Topics Covered
 
@@ -146,6 +146,6 @@ Biology explores how living things work, interact, and evolve. Cells are the bas
 
 ## Cross-References
 
-- [Cell Structure and Function](2-cell-structure-and-function/2_cell-structure-and-function)
-- [Heredity](4-heredity/4_heredity)
-- [Natural Selection](5-natural-selection/5_natural-selection)
+- [Cell Structure and Function](/biology/2-cell-structure-and-function/2_cell-structure-and-function/)
+- [Heredity](/biology/4-heredity/4_heredity/)
+- [Natural Selection](/biology/5-natural-selection/5_natural-selection/)

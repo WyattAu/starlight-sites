@@ -32,11 +32,11 @@ critically and use quantitative indicators alongside qualitative evidence.
 
 ## Contents
 
-- [Measuring Development](./development/measuring-development) -- development indicators, composite
+- [Measuring Development](/geography/development/measuring-development/) -- development indicators, composite
   indices, and their limitations.
-- [Sustainable Development Goals](./development/sustainable-development-goals) -- the SDGs, their
+- [Sustainable Development Goals](/geography/development/sustainable-development-goals/) -- the SDGs, their
   targets, and progress towards achieving them.
-- [Trade and Aid](./development/trade-and-aid) -- patterns of global trade, types of aid, and their
+- [Trade and Aid](/geography/development/trade-and-aid/) -- patterns of global trade, types of aid, and their
   effectiveness in promoting development.
 
 ## Key Concepts
@@ -195,6 +195,6 @@ strategies using quantitative data and qualitative case study evidence from cont
 
 ## Cross-References
 
-- **[Climate Change](../geography/climate-change):** Climate change affects all geography
-- **[Population](../geography/population-distribution):** Population distribution is studied
-- **[Economic Development](../geography/economic-development):** Development is a core topic
+- **[Climate Change](/geography/climate-change/):** Climate change affects all geography
+- **[Population](/geography/population-distribution/):** Population distribution is studied
+- **[Economic Development](/geography/economic-development/):** Development is a core topic

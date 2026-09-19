@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Async Await](./01-async-await)
+- [Async Await](/python/06-async/01-async-await/)
 
 ## Learning Objectives
 

@@ -88,16 +88,16 @@ The International English Language Testing System (IELTS) is jointly managed by 
 
 - [IELTS Overview](ielts) -- test format, scoring, and the difference between Academic and General Training
 - [IELTS Listening](ielts/listening) -- 4 sections, 40 questions, 30 minutes plus 10 minutes transfer time
-- [IELTS Reading](../../../../gaokao/src/content/docs/chinese/reading) -- 3 passages, 40 questions, 60 minutes (Academic vs General Training differences)
-- [IELTS Writing](../../../../gaokao/src/content/docs/chinese/writing) -- Task 1 (graph description or letter) and Task 2 (essay), 60 minutes total
+- [IELTS Reading](https://gaokao.wyattau.com/chinese/reading/) -- 3 passages, 40 questions, 60 minutes (Academic vs General Training differences)
+- [IELTS Writing](https://gaokao.wyattau.com/chinese/writing/) -- Task 1 (graph description or letter) and Task 2 (essay), 60 minutes total
 - [IELTS Speaking](ielts/speaking) -- face-to-face interview in 3 parts, 11 to 14 minutes
 - [IELTS Band Scores](ielts/bands) -- how the 0 to 9 band scale works and what each score means
 
 ### Practice and Review
 
 - [Flashcards: IELTS Vocabulary](flashcards-ielts-vocabulary)
-- [Practice Questions: IELTS Reading](../../../../gaokao/src/content/docs/chinese/reading)
-- [Practice Questions: IELTS Writing](../../../../gaokao/src/content/docs/chinese/writing)
+- [Practice Questions: IELTS Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Practice Questions: IELTS Writing](https://gaokao.wyattau.com/chinese/writing/)
 - [IELTS Speaking Prompts](ielts/speaking-prompts)
 - [Mock IELTS Tests](ielts/mock)
 
@@ -114,17 +114,17 @@ The Test of English as a Foreign Language (TOEFL) iBT is administered by ETS and
 ### Topic Notes
 
 - [TOEFL iBT Overview](toefl) -- test format, scoring (0 to 120), and section structure
-- [TOEFL Reading](../../../../gaokao/src/content/docs/chinese/reading) -- 2 to 3 academic passages, 30 to 54 minutes, 10 questions per passage
+- [TOEFL Reading](https://gaokao.wyattau.com/chinese/reading/) -- 2 to 3 academic passages, 30 to 54 minutes, 10 questions per passage
 - [TOEFL Listening](toefl/listening) -- lectures and conversations, 28 to 41 minutes, 28 to 39 questions
 - [TOEFL Speaking](toefl/speaking) -- 4 integrated tasks, 17 minutes, recorded and scored by AI and human raters
-- [TOEFL Writing](../../../../gaokao/src/content/docs/chinese/writing) -- integrated writing (20 minutes) and writing for an academic discussion (10 minutes)
+- [TOEFL Writing](https://gaokao.wyattau.com/chinese/writing/) -- integrated writing (20 minutes) and writing for an academic discussion (10 minutes)
 - [TOEFL Score Guide](toefl/scores) -- section scores (0 to 30), total score (0 to 120), and institutional requirements
 
 ### Practice and Review
 
 - [Flashcards: TOEFL Vocabulary](flashcards-toefl-vocabulary)
-- [Practice Questions: TOEFL Reading](../../../../gaokao/src/content/docs/chinese/reading)
-- [Practice Questions: TOEFL Writing](../../../../gaokao/src/content/docs/chinese/writing)
+- [Practice Questions: TOEFL Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Practice Questions: TOEFL Writing](https://gaokao.wyattau.com/chinese/writing/)
 - [TOEFL Speaking Practice](toefl/speaking-practice)
 - [Mock TOEFL Tests](toefl/mock)
 
@@ -141,7 +141,7 @@ The Duolingo English Test (DET) has rapidly gained acceptance as a convenient, a
 ### Topic Notes
 
 - [DET Overview](duolingo) -- test format, scoring, and institutional acceptance
-- [DET Reading and Writing](../../../../sat/src/content/docs/flashcards-reading-writing) -- fill-in-the-blank, read-aloud, and writing samples
+- [DET Reading and Writing](https://sat.wyattau.com/flashcards-reading-writing/) -- fill-in-the-blank, read-aloud, and writing samples
 - [DET Listening and Speaking](duolingo/listening-speaking) -- audio comprehension, speaking samples, and pronunciation
 - [DET Interview Section](duolingo/interview) -- the unscored video interview and writing sample sent to institutions
 - [DET Score Guide](duolingo/scores) -- subscores, overall score, and what institutions require
@@ -173,8 +173,8 @@ Cambridge Assessment English offers a suite of qualifications at different level
 ### Practice and Review
 
 - [Flashcards: Cambridge Vocabulary](flashcards-cambridge-vocabulary)
-- [Practice Questions: Cambridge Reading](../../../../gaokao/src/content/docs/chinese/reading)
-- [Cambridge Writing Tasks](../../../../gaokao/src/content/docs/chinese/writing)
+- [Practice Questions: Cambridge Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Cambridge Writing Tasks](https://gaokao.wyattau.com/chinese/writing/)
 - [Cambridge Speaking Practice](cambridge/speaking)
 
 ### Key Test Focus
@@ -189,7 +189,7 @@ Beyond English, several major language proficiency tests exist for other languag
 
 ### Topic Notes
 
-- [DELE: Spanish](../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/5_custom_deleters) -- Diplomas de Espanol como Lengua Extranjera and its levels
+- [DELE: Spanish](https://programming.wyattau.com/resource_management/1_ownership_and_raii/5_custom_deleters/) -- Diplomas de Espanol como Lengua Extranjera and its levels
 - [DELF/DALF: French](other/delf-dalf) -- Diplome d'Etudes en Langue Francaise and Diplome Approfondi de Langue Francaise
 - [TestDaF: German](other/testdaf) -- Test Deutsch als Fremdsprache for university admission in Germany
 - [JLPT: Japanese](other/jlpt) -- Japanese Language Proficiency Test, levels N1 to N5
@@ -215,7 +215,7 @@ Reading comprehension is tested on every proficiency exam. The skills are transf
 
 ### Topic Notes
 
-- [Reading Strategies](../../../../sat/src/content/docs/advanced-strategies) -- skimming, scanning, and intensive reading techniques
+- [Reading Strategies](https://sat.wyattau.com/advanced-strategies/) -- skimming, scanning, and intensive reading techniques
 - [Academic Reading](reading/academic) -- reading journal articles, textbooks, and research papers
 - [Vocabulary in Context](reading/vocabulary) -- inferring meaning from context clues
 - [Time Management](reading/time-management) -- pacing strategies for timed reading sections
@@ -224,7 +224,7 @@ Reading comprehension is tested on every proficiency exam. The skills are transf
 ### Practice and Review
 
 - [Flashcards: Academic Vocabulary](flashcards-academic-vocabulary)
-- [Practice Questions: Reading Comprehension](../../../../sat/src/content/docs/practice-reading)
+- [Practice Questions: Reading Comprehension](https://sat.wyattau.com/practice-reading/)
 
 ---
 
@@ -234,17 +234,17 @@ Writing is often the most challenging skill to improve because it requires pract
 
 ### Topic Notes
 
-- [Essay Structure](../../../../sat/src/content/docs/writing/essay) -- introduction, body paragraphs, and conclusion
+- [Essay Structure](https://sat.wyattau.com/writing/essay/) -- introduction, body paragraphs, and conclusion
 - [Task Response](writing/task-response) -- answering the question fully and staying on topic
-- [Grammar and Accuracy](../../../../sat/src/content/docs/reading/grammar) -- common errors, sentence variety, and punctuation
-- [Coherence and Cohesion](../../../../physics/src/content/docs/4-optics-and-waves/15_coherence-theory) -- linking ideas logically with discourse markers
+- [Grammar and Accuracy](https://sat.wyattau.com/reading/grammar/) -- common errors, sentence variety, and punctuation
+- [Coherence and Cohesion](https://physics.wyattau.com/4-optics-and-waves/15_coherence-theory/) -- linking ideas logically with discourse markers
 - [Academic Writing Style](writing/academic-style) -- formal register, hedging, and paraphrasing
-- [Graph and Chart Description](../../../../alevel/src/content/docs/computer-science/data-structures/05-graphs) -- describing data for IELTS Academic Task 1
+- [Graph and Chart Description](https://alevel.wyattau.com/computer-science/data-structures/05-graphs/) -- describing data for IELTS Academic Task 1
 
 ### Practice and Review
 
 - [Writing Prompts](writing/prompts)
-- [Sample Essays](../../../../sat/src/content/docs/writing/essay) -- model answers with commentary
+- [Sample Essays](https://sat.wyattau.com/writing/essay/) -- model answers with commentary
 
 ---
 
@@ -254,7 +254,7 @@ Listening comprehension tests your ability to understand spoken English in acade
 
 ### Topic Notes
 
-- [Listening Strategies](../../../../sat/src/content/docs/advanced-strategies) -- prediction, note-taking, and signpost language
+- [Listening Strategies](https://sat.wyattau.com/advanced-strategies/) -- prediction, note-taking, and signpost language
 - [Academic Lectures](listening/lectures) -- understanding extended academic speech
 - [Conversations and Discussions](listening/conversations) -- everyday and academic dialogue
 - [Note-Taking Skills](listening/note-taking) -- how to take effective notes during lectures
@@ -273,11 +273,11 @@ Speaking is tested face-to-face (IELTS) or via recording (TOEFL, DET). Fluency, 
 
 ### Topic Notes
 
-- [Speaking Test Formats](../../../../programming/src/content/docs/compilation_model/1_translation/4_binary_formats) -- the structure of each test's speaking section
+- [Speaking Test Formats](https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats/) -- the structure of each test's speaking section
 - [Fluency and Coherence](speaking/fluency) -- speaking without excessive hesitation and linking ideas
 - [Pronunciation](speaking/pronunciation) -- clarity, intonation, and stress patterns
 - [Extending Your Answers](speaking/extending) -- how to give full, detailed responses
-- [Common Speaking Topics](../../../../computer-science/src/content/docs/2-algorithms-and-data-structures/6_advanced-topics) -- education, work, technology, environment, and culture
+- [Common Speaking Topics](https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics/) -- education, work, technology, environment, and culture
 - [Part 2 Long Turn](speaking/part2) -- the 2-minute monologue on an IELTS speaking topic
 
 ### Practice and Review

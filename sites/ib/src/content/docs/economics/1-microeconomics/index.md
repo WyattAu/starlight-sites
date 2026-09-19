@@ -18,10 +18,10 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_supply And Demand](./1_supply-and-demand)
-- [2_elasticity](./2_elasticity)
-- [Market Failure](./3-market-failure)
-- [Theory Of The Firm](./4-theory-of-the-firm)
+- [1_supply And Demand](/economics/1-microeconomics/1_supply-and-demand/)
+- [2_elasticity](/economics/1-microeconomics/2_elasticity/)
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)
+- [Theory Of The Firm](/economics/1-microeconomics/4-theory-of-the-firm/)
 
 ## Learning Objectives
 

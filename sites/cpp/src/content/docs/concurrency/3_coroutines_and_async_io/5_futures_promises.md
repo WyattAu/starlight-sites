@@ -583,9 +583,9 @@ flowchart TD
 
 ## See Also
 
-- [Task Scheduling and Executors](./4_task_scheduling)
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
-- [Stackless Coroutine Frames and Heap Allocation](./1_coroutine_frames)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
 
 ## Common Pitfalls
 
@@ -611,5 +611,5 @@ Futures and promises are like a restaurant order ticket system. When you place a
 
 ## Cross-References
 
-- [Task Scheduling](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/4_task_scheduling) - How executors schedule coroutine-based tasks
-- [Promise, Awaiter](../../../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/2_promise_awaiter) - How coroutine promise types differ from std::promise
+- [Task Scheduling](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/4_task_scheduling/) - How executors schedule coroutine-based tasks
+- [Promise, Awaiter](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter/) - How coroutine promise types differ from std::promise

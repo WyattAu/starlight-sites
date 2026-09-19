@@ -683,5 +683,5 @@ linked above.
 ## See Also
 
 - [Mechanics](./)
-- [Energy and Work (Extended)](./energy-and-work-depth)
-- [Kinematics](./01-kinematics)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Kinematics](/maths/mechanics/01-kinematics/)

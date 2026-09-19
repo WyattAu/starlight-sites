@@ -1,0 +1,48 @@
+# Driving (UK) — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Complete UK driving test preparation covering theory test, hazard perception, and practical driving test.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://driving-uk.wyattau.com/about/): About Wyatt's Notes UK Driving resources, experience, expertise, and credentials behind UK driving theory test study materials.
+- [Complete UK Driving Theory Test Study Guide](https://driving-uk.wyattau.com/hub/): Study notes for Complete UK Driving Theory Test Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Cyclist Awareness](https://driving-uk.wyattau.com/cyclist-awareness/): Study notes for Cyclist Awareness with worked examples, practice problems, and key concepts for exam preparation.
+- [Emergency Techniques](https://driving-uk.wyattau.com/emergency-techniques/): Study notes for Emergency Techniques with worked examples, practice problems, and key concepts for exam preparation.
+- [Hazard Perception](https://driving-uk.wyattau.com/hazard-perception/): Study notes for Hazard Perception with worked examples, practice problems, and key concepts for exam preparation.
+- [Highway Code](https://driving-uk.wyattau.com/highway-code/): Study notes for Highway Code with worked examples, practice problems, and key concepts for exam preparation.
+- [Junctions | Driving (UK)](https://driving-uk.wyattau.com/junctions/): Study notes for Junctions with worked examples, practice problems, and key concepts for exam preparation.
+- [Motorway Driving](https://driving-uk.wyattau.com/motorway-driving/): Study notes for Motorway Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Overtaking | Driving (UK)](https://driving-uk.wyattau.com/overtaking/): Study notes for Overtaking with worked examples, practice problems, and key concepts for exam preparation.
+- [Parking | Driving (UK)](https://driving-uk.wyattau.com/parking/): Study notes for Parking with worked examples, practice problems, and key concepts for exam preparation.
+- [Pedestrian Crossings](https://driving-uk.wyattau.com/pedestrian-crossings/): Study notes for Pedestrian Crossings with worked examples, practice problems, and key concepts for exam preparation.
+- [Road Signs | Driving (UK)](https://driving-uk.wyattau.com/road-signs/): Study notes for Road Signs with worked examples, practice problems, and key concepts for exam preparation.
+- [Roundabouts | Driving (UK)](https://driving-uk.wyattau.com/roundabouts/): Study notes for Roundabouts with worked examples, practice problems, and key concepts for exam preparation.
+- [Rural Driving](https://driving-uk.wyattau.com/rural-driving/): Study notes for Rural Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Theory Test | Driving (UK)](https://driving-uk.wyattau.com/theory-test/): Study notes for Theory Test with worked examples, practice problems, and key concepts for exam preparation.
+- [UK Driving Test](https://driving-uk.wyattau.com/): Complete UK driving test preparation covering theory test, hazard perception, and practical driving test.
+- [UK Driving Theory Glossary, Key Terms and Definitions](https://driving-uk.wyattau.com/glossary/): Comprehensive glossary of UK driving theory terms covering the Highway Code, road signs, driving rules, and vehicle safety for the DVSA theory test.
+- [Urban Driving](https://driving-uk.wyattau.com/urban-driving/): Study notes for Urban Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Vehicle Safety](https://driving-uk.wyattau.com/vehicle-safety/): Study notes for Vehicle Safety with worked examples, practice problems, and key concepts for exam preparation.
+
+## Highway-Code
+
+- [UK Highway Code: Road Signs](https://driving-uk.wyattau.com/highway-code/road-signs/): Complete guide to UK road signs including regulatory, warning, and information signs with the Highway Code classifications.
+- [UK Highway Code: Rules of the Road](https://driving-uk.wyattau.com/highway-code/rules-of-the-road/): Complete guide to UK rules of the road including speed limits, junctions, roundabouts, and pedestrian crossings.
+- [UK Motorway Driving Guide](https://driving-uk.wyattau.com/highway-code/motorway-driving/): Complete guide to UK motorway driving including joining, exiting, lane discipline, and smart motorways.
+
+## Practical-Test
+
+- [Driving Manoeuvres | driving-uk](https://driving-uk.wyattau.com/practical-test/driving-manoeuvres/): Driving Manoeuvres - Complete study guide and practice questions
+- [Practical Test](https://driving-uk.wyattau.com/practical-test/): This section covers practical test concepts, definitions, and applications with worked examples and practice problems.
+
+## Theory-Test
+
+- [Hazard Perception | driving-uk](https://driving-uk.wyattau.com/theory-test/hazard-perception/): The hazard perception test shows 14 video clips of everyday driving scenes. You need to score 44 out of 75 (59%) to pass.
+- [Multiple Choice Questions | driving-uk](https://driving-uk.wyattau.com/theory-test/multiple-choice/): Multiple Choice Questions - Complete study guide and practice questions
+- [Road Rules | driving-uk](https://driving-uk.wyattau.com/theory-test/road-rules/): Road Rules - Complete study guide and practice questions
+- [Theory Test | driving-uk](https://driving-uk.wyattau.com/theory-test/): This section covers theory test concepts, definitions, and applications with worked examples and practice problems.
+- [Traffic Signs](https://driving-uk.wyattau.com/theory-test/traffic-signs/): Traffic Signs - Complete study guide and practice questions

@@ -169,5 +169,5 @@ TypeScript is like giving JavaScript a safety net. Think of types as labels that
 ## See Also
 
 - [Typescript](./)
-- [TypeScript Fundamentals Flashcards](./flashcards-typescript-basics)
-- [TypeScript Fundamentals Practice (Interactive)](./practice-typescript-basics)
+- [TypeScript Fundamentals Flashcards](/typescript/flashcards-typescript-basics/)
+- [TypeScript Fundamentals Practice (Interactive)](/typescript/practice-typescript-basics/)

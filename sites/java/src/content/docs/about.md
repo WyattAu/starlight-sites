@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Java](./)
-- [Java Fundamentals Flashcards](./flashcards-java-basics)
-- [GraalVM and Modern JVM](./graalvm-and-modern-jvm)
+- [Java Fundamentals Flashcards](/flashcards-java-basics/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
 
 
 ## Detailed Content

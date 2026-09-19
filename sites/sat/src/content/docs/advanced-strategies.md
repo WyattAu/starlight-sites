@@ -420,4 +420,4 @@ review, and test-day simulation builds the stamina and strategy needed for peak 
 | ---------------------- | --------------------------------------------------- |
 | SAT Overview           | [View](/sat-overview)       |
 | SAT Math Strategies    | [View](/math-strategies)    |
-| SAT Reading Strategies | [View](../../../../gaokao/src/content/docs/chinese/reading) |
+| SAT Reading Strategies | [View](https://gaokao.wyattau.com/chinese/reading/) |

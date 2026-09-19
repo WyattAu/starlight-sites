@@ -829,5 +829,5 @@ linked above.
 ## See Also
 
 - [System Fundamentals](./)
-- [System In Organizations](./2_system-organization)
-- [IB Computer Science](..)
+- [System In Organizations](/computer-science/1-system-fundamentals/2_system-organization/)
+- [IB Computer Science](/)

@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Go](./)
-- [Go Standard Library Flashcards](./flashcards-standard-library)
-- [Introduction to Go](./intro)
+- [Go Standard Library Flashcards](/flashcards-standard-library/)
+- [Introduction to Go](/intro/)
 
 
 ## Detailed Content

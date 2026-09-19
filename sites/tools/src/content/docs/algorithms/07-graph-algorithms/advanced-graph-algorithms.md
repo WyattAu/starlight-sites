@@ -994,7 +994,7 @@ $\blacksquare$
 
 ## Cross-References
 
-- [Graph Algorithms](graph-algorithms) -- Dijkstra's and MST algorithms provide the foundation for the advanced techniques here.
+- [Graph Algorithms](/algorithms/07-graph-algorithms/graph-algorithms/) -- Dijkstra's and MST algorithms provide the foundation for the advanced techniques here.
 - [Dynamic Programming](../../06-dynamic-programming/01-introduction) -- Floyd-Warshall is a classic all-pairs shortest path algorithm using dynamic programming.
-- [Binary Search Trees](../04-trees-graphs/binary-search-trees) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based trees.
-- [Deques and Priority Queues](../03-linked-lists-stacks-queues/deques-and-priority-queues) -- Priority queues are essential for efficient implementations of shortest path algorithms.
+- [Binary Search Trees](/algorithms/04-trees-graphs/binary-search-trees/) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based trees.
+- [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues are essential for efficient implementations of shortest path algorithms.

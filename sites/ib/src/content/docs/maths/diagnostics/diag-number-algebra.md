@@ -364,6 +364,6 @@ Total: $5! \times 3! \times 2! = 120 \times 6 \times 2 = 1440$.
 
 ## Cross-References
 
-- **[Number and Algebra](../1-number-and-algebra/1_number-and-algebra):** Algebra is foundational
-- **[Functions](../../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions):** Functions are central
-- **[Calculus](../../../../../../hsc/src/content/docs/mathematics/calculus):** Calculus is a major topic
+- **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Algebra is foundational
+- **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are central
+- **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus is a major topic

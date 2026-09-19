@@ -749,5 +749,5 @@ Swift's concurrency model provides structured concurrency where tasks form a hie
 ## See Also
 
 - [Advanced](./)
-- [Error Handling](./1_error-handling)
-- [Swift](..)
+- [Error Handling](/swift/04-advanced/1_error-handling/)
+- [Swift](/)

@@ -22,7 +22,7 @@ categories: "- DSE - ICT"
 Network security is the practice of protecting systems and data from unauthorised access, damage, or theft. Malware taxonomy classifies threats by their behaviour: viruses need host files and user action, while worms spread autonomously across networks. Phishing exploits human trust rather than technical vulnerabilities, using social engineering to trick users into revealing credentials. Defence requires layered security measures combining technical controls like firewalls and encryption with human awareness training and organisational policies.
 
 This document extends the network security and social implications topics covered in
-[../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications)
+[../4-networking-and-internet/1_internet-and-data-communications](/ict/4-networking-and-internet/1_internet-and-data-communications/)
 with deeper analysis of Threats, security measures, legal frameworks, and professional
 considerations.
 
@@ -136,7 +136,7 @@ Legitimate users.
 ### Firewalls -- Detailed Types
 
 Basic firewall concepts are in
-[../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications).
+[../4-networking-and-internet/1_internet-and-data-communications](/ict/4-networking-and-internet/1_internet-and-data-communications/).
 
 | Type                          | OSI Layer  | Method                                                           | Speed    | Thoroughness |
 | ----------------------------- | ---------- | ---------------------------------------------------------------- | -------- | ------------ |
@@ -902,6 +902,6 @@ linked above.
 
 ## Cross-References
 
-- [Internet and Data Communications](../4-networking-and-internet/1_internet-and-data-communications) covers the network infrastructure that security measures are designed to protect.
-- [Web Development and Multimedia](../7-web-and-multimedia/1_web-development-and-multimedia) addresses the web technologies where security vulnerabilities are most commonly exploited.
-- [System Lifecycle](../6-system-lifecycle/1_system-lifecycle) incorporates security requirements into each phase of system development.
+- [Internet and Data Communications](/ict/4-networking-and-internet/1_internet-and-data-communications/) covers the network infrastructure that security measures are designed to protect.
+- [Web Development and Multimedia](/ict/7-web-and-multimedia/1_web-development-and-multimedia/) addresses the web technologies where security vulnerabilities are most commonly exploited.
+- [System Lifecycle](/ict/6-system-lifecycle/1_system-lifecycle/) incorporates security requirements into each phase of system development.

@@ -323,6 +323,6 @@ affected child is 40% per child under this model.
 
 ## Cross-References
 
-- **[Cell Biology](../flashcards-cell-biology):** Cells are the basic units of life
-- **[Genetics](../flashcards-genetics):** Genetics studies heredity and variation
-- **[Ecology](diag-ecology):** Ecology studies organism-environment interactions
+- **[Cell Biology](/biology/flashcards-cell-biology/):** Cells are the basic units of life
+- **[Genetics](/biology/flashcards-genetics/):** Genetics studies heredity and variation
+- **[Ecology](/biology/diagnostics/diag-ecology/):** Ecology studies organism-environment interactions

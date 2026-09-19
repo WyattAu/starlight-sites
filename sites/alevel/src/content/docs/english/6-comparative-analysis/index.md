@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_comparative Analysis](./1_comparative-analysis)
+- [1_comparative Analysis](/english/6-comparative-analysis/1_comparative-analysis/)
 
 ## Learning Objectives
 

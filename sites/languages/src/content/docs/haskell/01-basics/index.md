@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_types And Functions](./1_types-and-functions)
+- [1_types And Functions](/haskell/01-basics/1_types-and-functions/)
 
 ## Learning Objectives
 

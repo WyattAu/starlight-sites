@@ -393,5 +393,5 @@ linked above.
 ## See Also
 
 - [Setup](./)
-- [Installation](./01-installation)
-- [Dart](..)
+- [Installation](/dart/02-setup/01-installation/)
+- [Dart](/)

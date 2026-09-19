@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Elixir Basics](./flashcards-elixir-basics)
-- [Practice Elixir Basics](./practice-elixir-basics)
+- [Flashcards Elixir Basics](/elixir/flashcards-elixir-basics/)
+- [Practice Elixir Basics](/elixir/practice-elixir-basics/)
 
 ## Learning Objectives
 

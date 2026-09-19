@@ -24,7 +24,7 @@ categories:
 
 A complete single-page revision guide covering the full GCSE English Language specification. Each
 section contains key skills, methods, and essential advice. Use this alongside the
-[full topic pages](english/) for detailed practice and further reading.
+[full topic pages](/english/) for detailed practice and further reading.
 
 ---
 

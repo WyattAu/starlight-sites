@@ -58,19 +58,19 @@ graph TD
 
 ## Contents
 
-1. [Newtonian Mechanics Review](1_newtonian-mechanics-review)
-2. [Generalised Coordinates and Constraints](2_generalised-coordinates-and-constraints)
-3. [Lagrangian Mechanics](3_lagrangian-mechanics)
-4. [Hamiltonian Mechanics](4_hamiltonian-mechanics)
-5. [Noether"s Theorem and Conservation Laws](5_noether-s-theorem-and-conservation-laws)
-6. [Central Force Problems](6_central-force-problems)
-7. [Small Oscillations and Normal Modes](7_small-oscillations-and-normal-modes)
-8. [Rigid Body Dynamics](8_rigid-body-dynamics)
-9. [Problem Set](9_problem-set)
-10. [Rigid Body Dynamics: Advanced Topics](10_rigid-body-dynamics-advanced-topics)
-11. [Hamiltonian Mechanics: Advanced Topics](11_hamiltonian-mechanics-advanced-topics)
-12. [Nonlinear Dynamics and Chaos](12_nonlinear-dynamics-and-chaos)
-13. [Classical Field Theory](13_classical-field-theory)
+1. [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/)
+2. [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+3. [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+4. [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+5. [Noether"s Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)
+6. [Central Force Problems](/1-classical-mechanics/6_central-force-problems/)
+7. [Small Oscillations and Normal Modes](/1-classical-mechanics/7_small-oscillations-and-normal-modes/)
+8. [Rigid Body Dynamics](/1-classical-mechanics/8_rigid-body-dynamics/)
+9. [Problem Set](/1-classical-mechanics/9_problem-set/)
+10. [Rigid Body Dynamics: Advanced Topics](/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/)
+11. [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+12. [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/)
+13. [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
 
 ## Overview
 

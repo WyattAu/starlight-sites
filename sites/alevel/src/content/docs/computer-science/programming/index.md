@@ -197,5 +197,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Programming Constructs](./01-programming-constructs)
-- [Object-Oriented Programming](./02-object-oriented-programming)
+- [Programming Constructs](/computer-science/programming/01-programming-constructs/)
+- [Object-Oriented Programming](/computer-science/programming/02-object-oriented-programming/)

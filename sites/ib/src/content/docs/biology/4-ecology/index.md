@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [1_ecology](./1_ecology)
+- [1_ecology](/biology/4-ecology/1_ecology/)
 
 ## Learning Objectives
 

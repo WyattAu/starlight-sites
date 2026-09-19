@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_monads And Functors](./1_monads-and-functors)
+- [1_monads And Functors](/haskell/04-monads/1_monads-and-functors/)
 
 ## Learning Objectives
 

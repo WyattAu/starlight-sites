@@ -238,5 +238,5 @@ Recurrence relations define sequences where each term depends on previous terms.
 ## See Also
 
 - [Discrete Mathematics](./)
-- [Propositional and Predicate Logic](./1_propositional-and-predicate-logic)
-- [Sets, Relations, and Functions](./2_sets-relations-and-functions)
+- [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)
+- [Sets, Relations, and Functions](/1-discrete-mathematics/2_sets-relations-and-functions/)

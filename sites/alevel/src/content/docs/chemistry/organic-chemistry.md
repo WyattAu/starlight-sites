@@ -464,7 +464,7 @@ used for identification by comparison with reference spectra.
 
 ### Mass Spectrometry
 
-See [Atomic Structure](./atomic-structure) for the general principles. In organic chemistry,
+See [Atomic Structure](/chemistry/atomic-structure/) for the general principles. In organic chemistry,
 fragmentation patterns are diagnostic:
 
 | Fragment                | $m/z$      | Origin                                                        |
@@ -968,5 +968,5 @@ linked above.
 ## Cross-References
 
 - [Chemistry](../chemistry)
-- [Atomic Structure](atomic-structure)
-- [Organic Chemistry](organic-chemistry)
+- [Atomic Structure](/chemistry/atomic-structure/)
+- [Organic Chemistry](/chemistry/organic-chemistry/)

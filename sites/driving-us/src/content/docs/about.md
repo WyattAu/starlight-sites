@@ -46,7 +46,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [US Driving Test](./)
-- [Written Test](./written-test)
+- [Written Test](/written-test/)
 
 
 ## Detailed Content

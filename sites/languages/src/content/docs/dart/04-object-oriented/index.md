@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Classes And Inheritance](./01-classes-and-inheritance)
+- [Classes And Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/)
 
 ## Learning Objectives
 

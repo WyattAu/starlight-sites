@@ -18,8 +18,8 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [Flashcards Type System](./flashcards-type-system)
-- [Practice Types Resources](./practice-types-resources)
+- [Flashcards Type System](/types/flashcards-type-system/)
+- [Practice Types Resources](/types/practice-types-resources/)
 
 ## Learning Objectives
 

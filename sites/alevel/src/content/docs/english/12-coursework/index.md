@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_coursework](./1_coursework)
+- [1_coursework](/english/12-coursework/1_coursework/)
 
 ## Learning Objectives
 

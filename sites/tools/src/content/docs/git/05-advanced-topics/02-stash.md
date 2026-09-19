@@ -107,8 +107,8 @@ git stash pop
 
 ## Cross-References
 
-- [Git Fundamentals](../02-fundamentals/01-the-three-trees) - Basic Git commands
-- [Git Branching](../03-branching-and-merging/01-branching) - Branch management
+- [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) - Basic Git commands
+- [Git Branching](/git/03-branching-and-merging/01-branching/) - Branch management
 
 
 ## Advanced Content

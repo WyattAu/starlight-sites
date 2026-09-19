@@ -139,8 +139,8 @@ Describe your symptoms to a doctor:
 ## See Also
 
 - [Cefr Levels](./)
-- [A1 Beginner](./a1-beginner)
-- [B1 Intermediate Level](./b1-intermediate)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
 
 
 ## Advanced Content

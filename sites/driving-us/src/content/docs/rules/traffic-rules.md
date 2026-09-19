@@ -146,9 +146,9 @@ towed if parked too close.
 
 ## Cross-References
 
-- [Right-of-Way](./right-of-way) - Who goes first
-- [Signs](../signs/regulatory-signs) - Traffic signs
-- [Safe Driving](../safe-driving/defensive-driving) - Defensive driving
+- [Right-of-Way](/rules/right-of-way/) - Who goes first
+- [Signs](/signs/regulatory-signs/) - Traffic signs
+- [Safe Driving](/safe-driving/defensive-driving/) - Defensive driving
 
 
 ## Advanced Content

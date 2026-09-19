@@ -342,15 +342,15 @@ Qualitative research reports include the following sections:
 
 - **Qualitative methods and the cognitive LOA:** Thematic analysis can be used to analyse interview
   data about memory experiences or cognitive processes, complementing the experimental methods
-  discussed in the [Cognitive Level of Analysis](./cognitive-level-of-analysis).
+  discussed in the [Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/).
 - **Qualitative methods and the sociocultural LOA:** Interviews and focus groups are commonly used
   to study cultural norms, social identity, and group dynamics, as discussed in the
-  [Sociocultural Level of Analysis](./sociocultural-level-of-analysis).
+  [Sociocultural Level of Analysis](/psychology/sociocultural-level-of-analysis/).
 - **Qualitative methods and abnormal psychology:** Case studies of individuals with psychological
   disorders are a primary source of qualitative data in clinical psychology, as discussed in
-  [Abnormal Psychology](./abnormal-psychology).
+  [Abnormal Psychology](/psychology/abnormal-psychology/).
 - **Qualitative methods and research methods:** The issues of reliability and validity discussed in
-  [Research Methods](./research-methods) have qualitative equivalents (credibility, transferability,
+  [Research Methods](/psychology/research-methods/) have qualitative equivalents (credibility, transferability,
   dependability, and confirmability) that should be understood alongside the quantitative criteria.
 
 ## Common Pitfalls
@@ -394,6 +394,6 @@ Human behaviour emerges from the interaction of biological, cognitive, and socia
 
 ## Cross-References
 
-- [Research Methods](research-methods)
-- [Approaches in Psychology](approaches)
-- [Biopsychology](../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

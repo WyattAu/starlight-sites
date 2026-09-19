@@ -935,6 +935,6 @@ Unsafe Rust is the escape hatch from the borrow checker's safety guarantees. Thi
 
 ## Cross-References
 
-- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)
-- [Cargo and Ecosystem](../../../../../languages/src/content/docs/rust/07-cargo-ecosystem/cargo-and-ecosystem)
-- [Traits and Generics](../../../../../languages/src/content/docs/rust/05-traits-generics/traits-and-generics)
+- [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+- [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
+- [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)

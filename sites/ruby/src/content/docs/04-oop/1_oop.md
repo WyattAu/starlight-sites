@@ -1120,9 +1120,9 @@ end
 
 ## Cross-References
 
-- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How mixins via modules extend object behavior without inheritance
-- [Metaprogramming](../../../../../elixir/src/content/docs/04-advanced/1_metaprogramming) - How method_missing and included hooks enable dynamic class behavior
-- [Concurrency](../05-advanced/2_concurrency) - How Ruby's GIL affects object-oriented concurrent programming
+- [Methods and Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/) - How mixins via modules extend object behavior without inheritance
+- [Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/) - How method_missing and included hooks enable dynamic class behavior
+- [Concurrency](/05-advanced/2_concurrency/) - How Ruby's GIL affects object-oriented concurrent programming
 
 ## Common Mistakes
 

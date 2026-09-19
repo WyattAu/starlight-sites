@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_game Theory And Behavioural](./1_game-theory-and-behavioural)
+- [1_game Theory And Behavioural](/economics/6-game-theory/1_game-theory-and-behavioural/)
 
 ## Learning Objectives
 

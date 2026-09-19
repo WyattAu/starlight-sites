@@ -18,15 +18,15 @@ This section provides study materials and resources for history. Browse the topi
 
 ## Topics
 
-- [Chinese Revolution](./chinese-revolution)
-- [Cold War](./cold-war)
-- [Decolonisation](./decolonisation)
-- [Flashcards History](./flashcards-history)
-- [Imperialism](./imperialism)
-- [Intro](./intro)
-- [Modern Hk](./modern-hk)
-- [Practice History](./practice-history)
-- [Wwii](./wwii)
+- [Chinese Revolution](/history/chinese-revolution/)
+- [Cold War](/history/cold-war/)
+- [Decolonisation](/history/decolonisation/)
+- [Flashcards History](/history/flashcards-history/)
+- [Imperialism](/history/imperialism/)
+- [Intro](/history/intro/)
+- [Modern Hk](/history/modern-hk/)
+- [Practice History](/history/practice-history/)
+- [Wwii](/history/wwii/)
 
 ## Learning Objectives
 

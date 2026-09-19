@@ -1169,6 +1169,6 @@ linked above.
 
 ## Cross-References
 
-- [Essential Modules](../05-standard-library/01-essential-modules) provides the standard library tools like  and  used in data validation pipelines.
-- [File I/O](../05-standard-library/02-file-io) covers reading and writing validated data to persistent storage formats.
-- [CLI Tools](../05-standard-library/03-cli-tools) shows how to build command-line interfaces that accept and validate user input.
+- [Essential Modules](/python/05-standard-library/01-essential-modules/) provides the standard library tools like  and  used in data validation pipelines.
+- [File I/O](/python/05-standard-library/02-file-io/) covers reading and writing validated data to persistent storage formats.
+- [CLI Tools](/python/05-standard-library/03-cli-tools/) shows how to build command-line interfaces that accept and validate user input.

@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [5_kinetics And Equilibrium](./5_kinetics-and-equilibrium)
+- [5_kinetics And Equilibrium](/chemistry/5-kinetics-and-equilibrium/5_kinetics-and-equilibrium/)
 
 ## Learning Objectives
 

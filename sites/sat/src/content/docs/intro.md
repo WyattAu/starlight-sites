@@ -67,12 +67,12 @@ higher-scoring) Module 2.
 
 The Reading & Writing section tests comprehension, vocabulary, grammar, and logical reasoning
 through discrete passage-based questions. Questions are grouped by passage rather than by skill
-type. See [Reading & Writing](reading-and-writing) for full notes.
+type. See [Reading & Writing](/reading-and-writing/) for full notes.
 
 ### Mathematics
 
 The Mathematics section covers algebra, advanced math, geometry, trigonometry, and data analysis. A
-calculator is permitted throughout the entire section. See [Mathematics](mathematics) for full
+calculator is permitted throughout the entire section. See [Mathematics](/mathematics/) for full
 notes.
 
 ## Registration
@@ -94,7 +94,7 @@ And logical intuition that makes exam questions feel like applications of things
 understand.
 
 1. **Read the theory first.** Each section builds on previous ones. Start with
-   [Reading & Writing](reading-and-writing) and then [Mathematics](mathematics).
+   [Reading & Writing](/reading-and-writing/) and then [Mathematics](/mathematics/).
 2. **Work through the strategies.** Don"t skip them -- understanding _why_ a strategy works is what
    separates top scorers from the rest.
 3. **Attempt the problem sets.** Each topic includes multi-step problems that test deep

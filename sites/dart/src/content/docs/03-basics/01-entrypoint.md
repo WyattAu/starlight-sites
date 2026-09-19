@@ -147,9 +147,9 @@ the `args` parameter, and should contain the primary application logic.
 
 ## Cross-References
 
-- [Introduction to Dart](../01-intro) - Language overview
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions) - Function syntax and closures
-- [Variables and Types](02-variables) - Type system deep dive
+- [Introduction to Dart](/01-intro/) - Language overview
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Function syntax and closures
+- [Variables and Types](/03-basics/02-variables/) - Type system deep dive
 
 
 ## Advanced Content

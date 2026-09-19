@@ -863,13 +863,13 @@ Product: propan-2-ol ($\mathrm{CH_3CH(OH)CH_3}$). Minor elimination product: pro
 ## If You Get These Wrong, Revise
 
 - **VSEPR geometry and molecular shapes** → Review
-  [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
+  [..../4-chemical-bonding/2_chemical-bonding-advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
 - **IR, MS, and NMR spectroscopy** → Review
-  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](../11-measurement-and-data-processing/1_measurement-and-data-processing)
+  [..../11-measurement-and-data-processing/1_measurement-and-data-processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)
 - **Electron configurations and orbital theory** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Stoichiometry of polymer reactions** → Review
-  [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](../../../../../../gcse/src/content/docs/chemistry/8-organic-chemistry/8_organic-chemistry)
+  [../../../../../../qualifications/src/content/docs/gcse/chemistry/8-organic-chemistry/8_organic-chemistry.md](https://gcse.wyattau.com/chemistry/8-organic-chemistry/8_organic-chemistry/)
 
 ```mermaid
 flowchart TD

@@ -67,10 +67,10 @@ Mathematics is cumulative, each topic builds on previous ones. If you encounter 
 
 ## Cross-References
 
-- **[Abstract Algebra](abstract-algebra)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
-- **[Real Analysis](real-analysis)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
-- **[Linear Algebra](linear-algebra)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
-- **[Topology](9-topology/1_introduction-to-topology)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
+- **[Abstract Algebra](/abstract-algebra/)**: Groups, rings, and fields form the algebraic foundation for many areas of modern mathematics.
+- **[Real Analysis](/real-analysis/)**: Rigorous treatment of limits, continuity, and integration underpins calculus and its extensions.
+- **[Linear Algebra](/linear-algebra/)**: Vector spaces and linear maps are used throughout mathematics, physics, and engineering.
+- **[Topology](/9-topology/1_introduction-to-topology/)**: Topological spaces generalise notions of closeness and continuity beyond metric spaces.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

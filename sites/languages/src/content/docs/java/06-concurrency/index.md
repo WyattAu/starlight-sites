@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Concurrency](./01-concurrency)
-- [Concurrency Deep Dive](./02-concurrency-deep-dive)
+- [Concurrency](/java/06-concurrency/01-concurrency/)
+- [Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive/)
 
 ## Learning Objectives
 

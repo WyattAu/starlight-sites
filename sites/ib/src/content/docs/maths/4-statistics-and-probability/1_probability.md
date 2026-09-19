@@ -1026,5 +1026,5 @@ Think of probability as measuring the "size" of the favorable outcomes relative 
 ## See Also
 
 - [Statistics And Probability](./)
-- [Probability Distributions](./3_probability-distributions)
-- [Statistics](./2_statistics)
+- [Probability Distributions](/maths/4-statistics-and-probability/3_probability-distributions/)
+- [Statistics](/maths/4-statistics-and-probability/2_statistics/)

@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_exam_techniques](./1_exam_techniques)
+- [1_exam_techniques](/english/11-exam-techniques/1_exam_techniques/)
 
 ## Learning Objectives
 

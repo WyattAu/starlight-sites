@@ -479,7 +479,7 @@ Actors and at least five use cases.
 - Admin is associated with Manage Inventory, Generate Reports
 - Payment System is associated with Process Payment
 
-For revision on testing, see [Testing](02-testing).
+For revision on testing, see [Testing](/computer-science/software-engineering/02-testing/).
 
 </details>
 
@@ -751,6 +751,6 @@ linked above.
 
 ## Cross-References
 
-- **[OOP](../programming/02-object-oriented-programming):** OOP supports modular software design
-- **[Programming Constructs](../programming/01-programming-constructs):** SDLC requires programming skills
-- **[Data Structures](../data-structures/05-graphs):** Software engineering uses data structures
+- **[OOP](/computer-science/programming/02-object-oriented-programming/):** OOP supports modular software design
+- **[Programming Constructs](/computer-science/programming/01-programming-constructs/):** SDLC requires programming skills
+- **[Data Structures](/computer-science/data-structures/05-graphs/):** Software engineering uses data structures

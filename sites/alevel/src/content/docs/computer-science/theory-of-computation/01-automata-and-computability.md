@@ -581,7 +581,7 @@ Revolutionise computer science and mathematics, as it would imply the existence 
 Model of computation.
 
 For revision on algorithms and complexity, see
-[Complexity Analysis](../algorithms/04-complexity-analysis).
+[Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/).
 
 </details>
 

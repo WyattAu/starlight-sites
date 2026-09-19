@@ -18,17 +18,17 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [Diag Acids Bases](./diag-acids-bases)
-- [Diag Atomic Structure](./diag-atomic-structure)
-- [Diag Bonding](./diag-bonding)
-- [Diag Carbon Chemistry](./diag-carbon-chemistry)
-- [Diag Electrochemistry](./diag-electrochemistry)
-- [Diag Energetics](./diag-energetics)
-- [Diag Equilibrium](./diag-equilibrium)
-- [Diag Kinetics](./diag-kinetics)
-- [Diag Organic Chemistry](./diag-organic-chemistry)
-- [Diag Stoichiometry](./diag-stoichiometry)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Acids Bases](/chemistry/diagnostics/diag-acids-bases/)
+- [Diag Atomic Structure](/chemistry/diagnostics/diag-atomic-structure/)
+- [Diag Bonding](/chemistry/diagnostics/diag-bonding/)
+- [Diag Carbon Chemistry](/chemistry/diagnostics/diag-carbon-chemistry/)
+- [Diag Electrochemistry](/chemistry/diagnostics/diag-electrochemistry/)
+- [Diag Energetics](/chemistry/diagnostics/diag-energetics/)
+- [Diag Equilibrium](/chemistry/diagnostics/diag-equilibrium/)
+- [Diag Kinetics](/chemistry/diagnostics/diag-kinetics/)
+- [Diag Organic Chemistry](/chemistry/diagnostics/diag-organic-chemistry/)
+- [Diag Stoichiometry](/chemistry/diagnostics/diag-stoichiometry/)
+- [Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

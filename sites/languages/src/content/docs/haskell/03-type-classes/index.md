@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_type Classes](./1_type-classes)
+- [1_type Classes](/haskell/03-type-classes/1_type-classes/)
 
 ## Learning Objectives
 

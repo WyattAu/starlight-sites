@@ -1169,9 +1169,9 @@ linked above.
 
 ## Cross-References
 
-- [Collections Framework](../04-collections/01-collections-framework) -- Streams are created from collections using stream(), connecting the collections API to functional processing.
-- [Generics](../../../../../../kotlin/src/content/docs/intermediate/generics) -- Stream operations use generic type parameters for type-safe transformations and predicates.
-- [Concurrency](../06-concurrency/01-concurrency) -- Parallel streams use the ForkJoinPool for concurrent processing of large data sets.
+- [Collections Framework](/java/04-collections/01-collections-framework/) -- Streams are created from collections using stream(), connecting the collections API to functional processing.
+- [Generics](https://kotlin.wyattau.com/intermediate/generics/) -- Stream operations use generic type parameters for type-safe transformations and predicates.
+- [Concurrency](/java/06-concurrency/01-concurrency/) -- Parallel streams use the ForkJoinPool for concurrent processing of large data sets.
 
 ## Intuition
 

@@ -1024,13 +1024,13 @@ same region, construct the most parsimonious phylogenetic tree and identify the 
 
 ## If You Get These Wrong, Revise
 
-- **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+- **Genetics and inheritance** --> Review [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Molecular biology and DNA** --> Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology)
-- **Ecology and populations** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
-- **Classification and taxonomy** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/)
+- **Ecology and populations** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
+- **Classification and taxonomy** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
 - **Genetic engineering techniques** --> Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced)
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/)
 
 ---
 
@@ -1627,18 +1627,18 @@ And underlying genetic basis:
 ## Cross-References to Related Topics
 
 - **Genetics and inheritance patterns**: Review
-  [.../3-genetics/1_genetics](../3-genetics/1_genetics) for Mendelian genetics, meiosis, and
+  [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/) for Mendelian genetics, meiosis, and
   chromosome behaviour.
 - **DNA, mutations, and molecular biology**: Review
-  [.../2-molecular-biology/1_molecular-biology](../2-molecular-biology/1_molecular-biology) for
+  [.../2-molecular-biology/1_molecular-biology](/biology/2-molecular-biology/1_molecular-biology/) for
   mutation types and DNA structure.
 - **Advanced genetics and genetic engineering**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for DNA technology, PCR,
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for DNA technology, PCR,
   and genetic modification.
-- **Ecology and populations**: Review [.../4-ecology/1_ecology](../4-ecology/1_ecology) for
+- **Ecology and populations**: Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/) for
   population dynamics, communities, and biogeography.
 - **Immunology and pathogen evolution**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for coevolution of hosts and pathogens, antigenic variation.
 
 ---

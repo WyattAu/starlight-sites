@@ -18,11 +18,11 @@ This section provides study materials and resources for standard library. Browse
 
 ## Topics
 
-- [Essential Modules](./01-essential-modules)
-- [File Io](./02-file-io)
-- [Cli Tools](./03-cli-tools)
-- [Serialization](./04-serialization)
-- [Concurrency Primitives](./05-concurrency-primitives)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File Io](/05-standard-library/02-file-io/)
+- [Cli Tools](/05-standard-library/03-cli-tools/)
+- [Serialization](/05-standard-library/04-serialization/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
 
 ## Learning Objectives
 

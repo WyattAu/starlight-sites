@@ -222,5 +222,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Complex Numbers -- Diagnostic Tests](./diag-complex-numbers)
-- [Differential Equations -- Diagnostic Tests](./diag-differential-equations)
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)

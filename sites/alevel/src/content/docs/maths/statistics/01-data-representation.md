@@ -848,6 +848,6 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Correlation and Regression](../statistics/02-correlation-and-regression), The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
-- [Probability](../statistics/03-probability), Probability distributions provide the theoretical basis for understanding data variation.
-- [Hypothesis Testing](../statistics/05-hypothesis-testing), Summary statistics from this topic feed directly into significance tests and confidence intervals.
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/), The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
+- [Probability](/maths/statistics/03-probability/), Probability distributions provide the theoretical basis for understanding data variation.
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/), Summary statistics from this topic feed directly into significance tests and confidence intervals.

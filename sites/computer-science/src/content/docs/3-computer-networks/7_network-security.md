@@ -248,9 +248,9 @@ Network security is a layered defense strategy: encryption hides the message, au
 
 ## Cross-References
 
-- **[Transport Layer](./5_transport-layer):** TLS handshake and encryption.
-- **[Network Layer](./4_network-layer):** IPsec and network security.
-- **[Application Layer](./6_application-layer):** HTTPS and certificate management.
+- **[Transport Layer](/3-computer-networks/5_transport-layer/):** TLS handshake and encryption.
+- **[Network Layer](/3-computer-networks/4_network-layer/):** IPsec and network security.
+- **[Application Layer](/3-computer-networks/6_application-layer/):** HTTPS and certificate management.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

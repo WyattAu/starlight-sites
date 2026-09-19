@@ -248,9 +248,9 @@ Lower than would be expected for bare clay."
 </details>
 
 For an overview of freshwater issues and management, see
-[./water-scarcity-and-management](./water-scarcity-and-management) and
-[./flood-management](./flood-management). The parent topic page is at
-[../freshwater-issues](../freshwater-issues).
+[./water-scarcity-and-management](/geography/freshwater/water-scarcity-and-management/) and
+[./flood-management](/geography/freshwater/flood-management/). The parent topic page is at
+[../freshwater-issues](/geography/freshwater-issues/).
 
 ## Intuition
 
@@ -293,6 +293,6 @@ linked above.
 
 ## Cross-References
 
-- **[Climate Change](../climate-change):** Climate affects water systems
-- **[Population](../population-distribution):** Water affects population distribution
-- **[Economic Development](../economic-development):** Water is essential for development
+- **[Climate Change](/geography/climate-change/):** Climate affects water systems
+- **[Population](/geography/population-distribution/):** Water affects population distribution
+- **[Economic Development](/geography/economic-development/):** Water is essential for development

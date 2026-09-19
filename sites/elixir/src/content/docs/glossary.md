@@ -182,8 +182,8 @@ data |> fetch() |> parse() |> save()
 
 ## Related Terms
 
-- See [Ruby Glossary](glossary) for syntax comparison
-- See [Go Glossary](glossary) for concurrency comparison
-- See [Haskell Glossary](glossary) for functional programming comparison
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Computer Science Glossary](glossary) for CS fundamentals
+- See [Ruby Glossary](/glossary/) for syntax comparison
+- See [Go Glossary](/glossary/) for concurrency comparison
+- See [Haskell Glossary](/glossary/) for functional programming comparison
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Computer Science Glossary](/glossary/) for CS fundamentals

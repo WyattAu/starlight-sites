@@ -342,9 +342,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Continuity](4_continuity)**: The Heine-Cantor theorem guarantees that continuous functions on closed bounded intervals are uniformly continuous, which is used to prove Riemann integrability.
-- **[Differentiability](5_differentiability)**: The fundamental theorem of calculus connects the Riemann integral with antiderivatives and differentiation.
-- **[Lebesgue Integration](../10-measure-theory/6_lebesgue-integration)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
+- **[Continuity](/3-real-analysis/4_continuity/)**: The Heine-Cantor theorem guarantees that continuous functions on closed bounded intervals are uniformly continuous, which is used to prove Riemann integrability.
+- **[Differentiability](/3-real-analysis/5_differentiability/)**: The fundamental theorem of calculus connects the Riemann integral with antiderivatives and differentiation.
+- **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration generalises Riemann integration and handles functions with more complex discontinuity patterns.
 :::
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)

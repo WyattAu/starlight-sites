@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_fundamental_types](./1_fundamental_types)
-- [2_layout](./2_layout)
-- [3_bit_manipulation](./3_bit_manipulation)
-- [4_stack](./4_stack)
-- [5_heap](./5_heap)
+- [1_fundamental_types](/types/1_data_layout/1_fundamental_types/)
+- [2_layout](/types/1_data_layout/2_layout/)
+- [3_bit_manipulation](/types/1_data_layout/3_bit_manipulation/)
+- [4_stack](/types/1_data_layout/4_stack/)
+- [5_heap](/types/1_data_layout/5_heap/)
 
 ## Learning Objectives
 

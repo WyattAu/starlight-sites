@@ -585,5 +585,5 @@ flowchart TD
 ## See Also
 
 - [International Economics](./)
-- [International Trade](./1-trade)
-- [Exchange Rates](./2-exchange-rates)
+- [International Trade](/economics/3-international-economics/1-trade/)
+- [Exchange Rates](/economics/3-international-economics/2-exchange-rates/)

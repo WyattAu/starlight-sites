@@ -916,5 +916,5 @@ Biology explores how living things work, interact, and evolve. Cells are the bas
 
 ## Cross-References
 
-- [Cell Structure and Function](../2-cell-structure-and-function/2_cell-structure-and-function)
-- [Heredity](../4-heredity/4_heredity)
+- [Cell Structure and Function](/biology/2-cell-structure-and-function/2_cell-structure-and-function/)
+- [Heredity](/biology/4-heredity/4_heredity/)

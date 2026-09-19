@@ -304,8 +304,8 @@ State.
 
 ## See Also
 
-- [Type-Safe Formatting](./2_type_safe_formatting)
-- [Unicode Support](./3_unicode_support)
+- [Type-Safe Formatting](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
+- [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)
 
 ### Put Area and Get Area Pointer Model
 

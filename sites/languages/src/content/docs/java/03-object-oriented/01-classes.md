@@ -1489,8 +1489,8 @@ linked above.
 
 ## Cross-References
 
-- [Java Interfaces](../../../../../../go/src/content/docs/intermediate/interfaces) -- Interfaces define contracts that classes must implement, complementing class inheritance.
-- [Java Generics](../../../../../../kotlin/src/content/docs/intermediate/generics) -- Generic type parameters enable reusable class designs that work with multiple types.
-- [Java Concurrency](../../../../../../java/src/content/docs/06-concurrency/01-concurrency) -- Thread safety and synchronization are essential considerations for mutable class state.
-- [GraalVM and Modern JVM](../graalvm-and-modern-jvm) -- AOT compilation and native images affect how classes are loaded and instantiated.
+- [Java Interfaces](https://go.wyattau.com/intermediate/interfaces/) -- Interfaces define contracts that classes must implement, complementing class inheritance.
+- [Java Generics](https://kotlin.wyattau.com/intermediate/generics/) -- Generic type parameters enable reusable class designs that work with multiple types.
+- [Java Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/) -- Thread safety and synchronization are essential considerations for mutable class state.
+- [GraalVM and Modern JVM](/java/graalvm-and-modern-jvm/) -- AOT compilation and native images affect how classes are loaded and instantiated.
 :::

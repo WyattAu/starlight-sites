@@ -528,9 +528,9 @@ import { Citation } from "@components/Citations.astro"
 
 | Topic                      | Site        | Link                                                                          |
 | -------------------------- | ----------- | ----------------------------------------------------------------------------- |
-| Thermodynamics             | WyattsNotes | [View](../../../../../alevel/src/content/docs/chemistry/thermodynamics)                             |
-| Quantum Chemistry          | WyattsNotes | [View](quantum-chemistry)                          |
-| Statistical Mechanics      | WyattsNotes | [View](statistical-mechanics)                      |
+| Thermodynamics             | WyattsNotes | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)                             |
+| Quantum Chemistry          | WyattsNotes | [View](/1-physical-chemistry/quantum-chemistry/)                          |
+| Statistical Mechanics      | WyattsNotes | [View](/1-physical-chemistry/statistical-mechanics/)                      |
 | Enzyme Kinetics, MIT 5.60 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

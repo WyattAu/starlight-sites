@@ -249,7 +249,7 @@ Multiplication rule repeatedly:
 $$\frac{\Delta z}{z} = \underbrace{\frac{\Delta x}{x} + \frac{\Delta x}{x} + \cdots + \frac{\Delta x}{x}}_{n \mathrm{ terms}} = n \cdot \frac{\Delta x}{x}$$
 
 For negative or fractional powers, the result generalises via logarithmic differentiation (see
-[01-wave-properties](../waves/01-wave-properties) for the general propagation of error formula).
+[01-wave-properties](/physics/waves/01-wave-properties/) for the general propagation of error formula).
 $\square$
 
 #### The General Propagation of Error Formula
@@ -828,13 +828,13 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 
 ## Cross-References
 
-- [Mechanics](../mechanics)
-- [Waves](../waves)
-- [Electricity](../electricity)
-- [Fields](../fields)
+- [Mechanics](/physics/mechanics/)
+- [Waves](/physics/waves/)
+- [Electricity](/physics/electricity/)
+- [Fields](/physics/fields/)
 
 ## Cross-References
 
 - [Physics](../../physics)
-- [Mechanics](../mechanics)
-- [Fields](../fields)
+- [Mechanics](/physics/mechanics/)
+- [Fields](/physics/fields/)

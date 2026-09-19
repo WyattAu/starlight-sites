@@ -297,9 +297,9 @@ low. For Longer critical sections, prefer `std::mutex` which blocks the thread a
 
 ## See Also
 
-- [Memory Orderings](./4_memory_orderings)
-- [Compare-and-Swap (CAS) Loops](./5_cas_loops)
-- [Cache Coherency (MESI) and False Sharing](./2_cache_coherency)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
 
 ## Memory Order Arguments and Their Semantics
 
@@ -700,5 +700,5 @@ Atomic operations are like using a public restroom with an "occupied" sign. When
 
 ## Cross-References
 
-- [Cache Coherency](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/2_cache_coherency) - How CPU caches affect atomic operation performance
-- [Memory Orderings](../../../../../../programming/src/content/docs/concurrency/2_memory_model_and_atomics/4_memory_orderings) - How to control ordering guarantees for atomic operations
+- [Cache Coherency](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency/) - How CPU caches affect atomic operation performance
+- [Memory Orderings](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings/) - How to control ordering guarantees for atomic operations

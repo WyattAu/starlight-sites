@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_market Failure And Government Intervention](./1_market-failure-and-government-intervention)
+- [1_market Failure And Government Intervention](/economics/4-market-failure/1_market-failure-and-government-intervention/)
 
 ## Learning Objectives
 

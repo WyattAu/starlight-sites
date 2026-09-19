@@ -1,0 +1,44 @@
+# Haskell — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Haskell is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Intro
+
+- [Introduction to Haskell](https://haskell.wyattau.com/00-intro/1_haskell-intro/): Haskell is a programming language. It was designed by a committee of researchers in the late 1980s to serve as a common language for research in functional
+
+## Basics
+
+- [Types and Functions](https://haskell.wyattau.com/01-basics/1_types-and-functions/): Haskell has a relatively small set of built-in types, but they combine to express complex data structures. The module is automatically imported in every
+
+## Pattern-Matching
+
+- [Pattern Matching](https://haskell.wyattau.com/02-pattern-matching/1_pattern-matching/): Pattern matching is a mechanism for checking data against a pattern and deconstructing data into its components. It is one of the most powerful features in
+
+## Type-Classes
+
+- [Type Classes](https://haskell.wyattau.com/03-type-classes/1_type-classes/): Type classes are Haskell' s mechanism for -- defining interfaces that types can implement. Unlike OOP interfaces, type classes are separate from data types
+
+## Monads
+
+- [Monads and Functors](https://haskell.wyattau.com/04-monads/1_monads-and-functors/): A monad is a design pattern for structuring computations. In Haskell, a monad wraps a value in a computational context that defines how operations chain
+
+## Advanced
+
+- [Advanced Types](https://haskell.wyattau.com/05-advanced/1_advanced-types/): Algebraic data types (ADTs) in Haskell are the foundation of its type system. They combine (multiple constructors, one is chosen) and (a constructor holds
+- [Concurrency](https://haskell.wyattau.com/05-advanced/2_concurrency/): means dealing with many things at once -- structuring a program as multiple independent tasks that may interleave execution. means doing many things at once
+
+## Overview
+
+- [About This Site](https://haskell.wyattau.com/about/): About Wyatt's Notes Haskell resources, experience, expertise, and credentials behind Haskell programming study materials.
+- [Advanced Haskell Flashcards](https://haskell.wyattau.com/flashcards-haskell-advanced/): Advanced Haskell is about abstraction at the highest level. Functors, applicatives, and monads form a hierarchy of computational effects, each builds on the
+- [Complete Haskell Programming Study Guide](https://haskell.wyattau.com/hub/): Study notes for Complete Haskell Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Haskell](https://haskell.wyattau.com/): Haskell is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
+- [Haskell](https://haskell.wyattau.com/intro/): Study notes for Haskell with worked examples, practice problems, and key concepts for exam preparation.
+- [Haskell Basics Flashcards](https://haskell.wyattau.com/flashcards-haskell-basics/): Haskell is the language where \"if it compiles, it probably works.\" Pure functions guarantee that the same inputs always produce the same output, no hidden
+- [Haskell Glossary, Key Terms and Definitions](https://haskell.wyattau.com/glossary/): Study notes for Haskell Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [Haskell Practice (Basics)](https://haskell.wyattau.com/practice-haskell-basics/): 10 auto-graded practice problems covering core Haskell concepts. Select an answe Comprehensive educational content coverage with definitions and practice proble
+- [Type Classes Practice](https://haskell.wyattau.com/practice-type-classes/): Problem: Define a `Describable` type class with a `describe` method. Implement it for three types: `Color, Shape`and `Priority`. Then write a function that

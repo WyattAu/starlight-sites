@@ -254,7 +254,7 @@ Waves are energy in motion without matter following it -- think of a Mexican wav
 
 ## Cross-References
 
-- [Mechanics](../physics/mechanics) -- Simple harmonic motion is the foundation for understanding oscillatory wave behaviour.
-- [Algebra](../mathematics/algebra) -- Logarithmic functions are used in decibel calculations and sound intensity levels.
-- [Calculus](../mathematics/calculus) -- Differentiation and integration are used in wave equations and standing wave analysis.
-- [Inorganic](../chemistry/inorganic) -- Electromagnetic spectrum properties connect to atomic structure and electron transitions.
+- [Mechanics](/physics/mechanics/) -- Simple harmonic motion is the foundation for understanding oscillatory wave behaviour.
+- [Algebra](/mathematics/algebra/) -- Logarithmic functions are used in decibel calculations and sound intensity levels.
+- [Calculus](/mathematics/calculus/) -- Differentiation and integration are used in wave equations and standing wave analysis.
+- [Inorganic](/chemistry/inorganic/) -- Electromagnetic spectrum properties connect to atomic structure and electron transitions.

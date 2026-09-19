@@ -327,6 +327,6 @@ linked above.
 
 ## Cross-References
 
-- **[Error Handling](./error-handling):** The error interface and custom error type patterns.
-- **[Testing](../advanced/testing):** Interface-based mock design for unit testing.
-- **[Reflection](../advanced/reflection):** Runtime type inspection as an alternative to interface-based polymorphism.
+- **[Error Handling](/go/intermediate/error-handling/):** The error interface and custom error type patterns.
+- **[Testing](/go/advanced/testing/):** Interface-based mock design for unit testing.
+- **[Reflection](/go/advanced/reflection/):** Runtime type inspection as an alternative to interface-based polymorphism.

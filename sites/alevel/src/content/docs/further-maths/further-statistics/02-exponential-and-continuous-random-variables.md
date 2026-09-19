@@ -1015,13 +1015,13 @@ The exponential distribution models inter-arrival times in a Poisson process. Se
 ### 11.2 Continuous distributions and integration
 
 Finding CDFs, means, and variances of continuous random variables requires integration. See
-[Further Calculus](../pure-mathematics/04-further-calculus).
+[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/).
 
 ### 11.3 Normal distribution and the CLT
 
 The Central Limit Theorem connects the exponential and uniform distributions to the normal
 Distribution. See
-[Chi-Squared Tests](03-chi-squared-tests).
+[Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/).
 
 ---
 
@@ -1190,6 +1190,6 @@ This is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 
 ## Cross-References
 
-- **[Pure Mathematics](../pure-mathematics/04-further-calculus):** Continuous distributions use calculus
-- **[Further Mechanics](../further-maths):** Exponential distributions model time between events
-- **[Pure](../further-maths):** Further stats builds on pure maths foundations
+- **[Pure Mathematics](/further-maths/pure-mathematics/04-further-calculus/):** Continuous distributions use calculus
+- **[Further Mechanics](/further-maths/further-maths/):** Exponential distributions model time between events
+- **[Pure](/further-maths/further-maths/):** Further stats builds on pure maths foundations

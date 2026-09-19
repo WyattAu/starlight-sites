@@ -150,5 +150,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Acids, Bases and Salts -- Diagnostic Tests](./diag-acids-bases)
-- [Atomic Structure -- Diagnostic Tests](./diag-atomic-structure)
+- [Acids, Bases and Salts -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)

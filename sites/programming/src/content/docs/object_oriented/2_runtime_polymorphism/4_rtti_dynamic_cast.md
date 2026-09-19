@@ -789,9 +789,9 @@ Type tags.
 
 ## See Also
 
-- [Virtual Functions and vtables](./1_vtables)
-- [Inheritance, Object Slicing, and Virtual Destructors](./2_inheritance_slicing)
-- [Devirtualization and Final Specifiers](./3_devirtualization)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
 
 ```mermaid
 flowchart TD

@@ -21,19 +21,19 @@ TypeScript has become the industry standard for large-scale JavaScript developme
 
 ## Topics
 
-- [Advanced Patterns](./advanced-patterns)
-- [Advanced Types](./advanced-types)
-- [Classes](./classes)
-- [Enums And Modules](./enums-and-modules)
-- [Error Handling](./error-handling)
-- [Flashcards Typescript Basics](./flashcards-typescript-basics)
-- [Functions](./functions)
-- [Generics](./generics)
-- [Practice Typescript Basics](./practice-typescript-basics)
-- [Tooling And Configuration](./tooling-and-configuration)
-- [Types And Annotations](./types-and-annotations)
-- [Typescript With React](./typescript-with-react)
-- [Typescript](./typescript)
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Advanced Types](/typescript/advanced-types/)
+- [Classes](/typescript/classes/)
+- [Enums And Modules](/typescript/enums-and-modules/)
+- [Error Handling](/typescript/error-handling/)
+- [Flashcards Typescript Basics](/typescript/flashcards-typescript-basics/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)
+- [Practice Typescript Basics](/typescript/practice-typescript-basics/)
+- [Tooling And Configuration](/typescript/tooling-and-configuration/)
+- [Types And Annotations](/typescript/types-and-annotations/)
+- [Typescript With React](/typescript/typescript-with-react/)
+- [Typescript](/typescript/typescript/)
 
 ## Why TypeScript?
 
@@ -313,12 +313,12 @@ TypeScript and React work together to provide type-safe component development:
 
 ## Cross-References
 
-- **[Advanced Types](./advanced-types):** Deep dive into conditional types, mapped types, and template literal types
-- **[Generics](./generics):** Writing reusable, type-safe code
-- **[Functions](./functions):** Function types, overloads, and higher-order functions
-- **[Classes](./classes):** Object-oriented TypeScript with access modifiers and abstract classes
-- **[Error Handling](./error-handling):** Patterns for type-safe error handling
-- **[Tooling and Configuration](./tooling-and-configuration):** tsconfig.json and compiler options
+- **[Advanced Types](/typescript/advanced-types/):** Deep dive into conditional types, mapped types, and template literal types
+- **[Generics](/typescript/generics/):** Writing reusable, type-safe code
+- **[Functions](/typescript/functions/):** Function types, overloads, and higher-order functions
+- **[Classes](/typescript/classes/):** Object-oriented TypeScript with access modifiers and abstract classes
+- **[Error Handling](/typescript/error-handling/):** Patterns for type-safe error handling
+- **[Tooling and Configuration](/typescript/tooling-and-configuration/):** tsconfig.json and compiler options
 
 ## Further Reading
 

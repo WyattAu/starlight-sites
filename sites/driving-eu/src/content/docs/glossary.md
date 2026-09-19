@@ -129,8 +129,8 @@ tags: [glossary]
 
 ## Related Terms
 
-- See [Driving UK Glossary](../../../../typescript/src/content/docs/glossary) for UK Highway Code terms
-- See [Driving US Glossary](../../../../typescript/src/content/docs/glossary) for US DMV test terms
+- See [Driving UK Glossary](https://typescript.wyattau.com/glossary/) for UK Highway Code terms
+- See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
 
 
 ## Convention and Licensing

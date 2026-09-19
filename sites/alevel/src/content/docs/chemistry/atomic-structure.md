@@ -153,7 +153,7 @@ $$
 
 The $4s$ subshell fills before $3d$ because its energy is lower for $Z \le 20$. For $Z \gt 20$The
 energies shift and $3d$ becomes lower -- this is important for transition metals (see
-[Transition Metals](./transition-metals)).
+[Transition Metals](/chemistry/transition-metals/)).
 
 ### Pauli Exclusion Principle
 
@@ -992,5 +992,5 @@ linked above.
 ## Cross-References
 
 - [Chemistry](../chemistry)
-- [Atomic Structure](atomic-structure)
-- [Organic Chemistry](organic-chemistry)
+- [Atomic Structure](/chemistry/atomic-structure/)
+- [Organic Chemistry](/chemistry/organic-chemistry/)

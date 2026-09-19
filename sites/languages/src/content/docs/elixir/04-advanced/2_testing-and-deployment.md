@@ -970,5 +970,5 @@ Elixir provides a comprehensive testing and deployment story:
 ## See Also
 
 - [Advanced](./)
-- [Metaprogramming](./1_metaprogramming)
-- [Elixir](..)
+- [Metaprogramming](/elixir/04-advanced/1_metaprogramming/)
+- [Elixir](/)

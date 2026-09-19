@@ -889,8 +889,8 @@ Dispatch (like Java). In C++, accessibility is a post-resolution check, not a pr
 
 ## See Also
 
-- [Calling Conventions and Stack Management](2_calling_conventions)
-- [C-Interop and FFI](5_c_interop)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
 
 ```mermaid
 flowchart TD
@@ -941,6 +941,6 @@ Overload resolution is the compiler's process of choosing which function to call
 
 ## Cross-References
 
-- [Calling Conventions](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/2_calling_conventions)
-- [Lambdas](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/3_lambdas)
-- [Type Erasure](../../../../../../programming/src/content/docs/function_architecture/1_function_mechanics/4_type_erasure)
+- [Calling Conventions](https://programming.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambdas](https://programming.wyattau.com/function_architecture/1_function_mechanics/3_lambdas/)
+- [Type Erasure](https://programming.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure/)

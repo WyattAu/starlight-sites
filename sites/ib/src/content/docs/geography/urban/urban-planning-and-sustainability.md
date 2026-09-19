@@ -253,9 +253,9 @@ Consider the specific context of the case study and assess the transferability o
 
 </details>
 
-For related topics, see [./urbanisation-trends-and-patterns](./urbanisation-trends-and-patterns) and
-[./urban-environmental-quality](./urban-environmental-quality). The parent topic page is at
-[../urban-environments](../urban-environments).
+For related topics, see [./urbanisation-trends-and-patterns](/geography/urban/urbanisation-trends-and-patterns/) and
+[./urban-environmental-quality](/geography/urban/urban-environmental-quality/). The parent topic page is at
+[../urban-environments](/geography/urban-environments/).
 
 ## Intuition
 

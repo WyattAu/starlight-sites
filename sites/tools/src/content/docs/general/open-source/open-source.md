@@ -1032,4 +1032,4 @@ When working with open source contribution guide, follow a structured approach:
 ## See Also
 
 - [Open Source](./)
-- [General](..)
+- [General](/)

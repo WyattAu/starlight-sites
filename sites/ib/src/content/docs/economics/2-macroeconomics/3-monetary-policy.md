@@ -838,5 +838,5 @@ flowchart TD
 ## See Also
 
 - [Macroeconomics](./)
-- [Fiscal Policy](./2-fiscal-policy)
-- [Supply-Side Policy](./4-supply-side-policy)
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/)

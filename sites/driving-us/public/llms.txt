@@ -1,0 +1,62 @@
+# Driving (US) — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Complete US driving test preparation covering DMV written test, road test, and driving rules by state.
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://driving-us.wyattau.com/about/): About Wyatt's Notes US Driving resources, experience, expertise, and credentials behind US DMV driving test study materials.
+- [Adverse Weather](https://driving-us.wyattau.com/adverse-weather/): Study notes for Adverse Weather with worked examples, practice problems, and key concepts for exam preparation.
+- [Complete US DMV Driving Test Study Guide](https://driving-us.wyattau.com/hub/): Study notes for Complete US DMV Driving Test Study Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Defensive Driving](https://driving-us.wyattau.com/defensive-driving/): Study notes for Defensive Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Emergency Procedures](https://driving-us.wyattau.com/emergency-procedures/): Study notes for Emergency Procedures with worked examples, practice problems, and key concepts for exam preparation.
+- [Fuel Efficiency](https://driving-us.wyattau.com/fuel-efficiency/): Study notes for Fuel Efficiency with worked examples, practice problems, and key concepts for exam preparation.
+- [Highway Driving](https://driving-us.wyattau.com/highway-driving/): Study notes for Highway Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Night Driving](https://driving-us.wyattau.com/night-driving/): Study notes for Night Driving with worked examples, practice problems, and key concepts for exam preparation.
+- [Parallel Parking](https://driving-us.wyattau.com/parallel-parking/): Study notes for Parallel Parking with worked examples, practice problems, and key concepts for exam preparation.
+- [Parking Rules](https://driving-us.wyattau.com/parking-rules/): Study notes for Parking Rules with worked examples, practice problems, and key concepts for exam preparation.
+- [Right Of Way](https://driving-us.wyattau.com/right-of-way/): Study notes for Right Of Way with worked examples, practice problems, and key concepts for exam preparation.
+- [Road Signs | Driving (US)](https://driving-us.wyattau.com/road-signs/): Study notes for Road Signs with worked examples, practice problems, and key concepts for exam preparation.
+- [School Zones](https://driving-us.wyattau.com/school-zones/): Study notes for School Zones with worked examples, practice problems, and key concepts for exam preparation.
+- [Speed Limits](https://driving-us.wyattau.com/speed-limits/): Study notes for Speed Limits with worked examples, practice problems, and key concepts for exam preparation.
+- [Three Point Turn](https://driving-us.wyattau.com/three-point-turn/): Study notes for Three Point Turn with worked examples, practice problems, and key concepts for exam preparation.
+- [Traffic Rules](https://driving-us.wyattau.com/traffic-rules/): Study notes for Traffic Rules with worked examples, practice problems, and key concepts for exam preparation.
+- [US DMV Driving Test Glossary, Key Terms](https://driving-us.wyattau.com/glossary/): Comprehensive glossary of US DMV driving test terms covering road rules, signs, vehicle systems, and state licensing requirements.
+- [US Driving Test](https://driving-us.wyattau.com/): Complete US driving test preparation covering DMV written test, road test, and driving rules by state.
+- [Vehicle Maintenance](https://driving-us.wyattau.com/vehicle-maintenance/): Study notes for Vehicle Maintenance with worked examples, practice problems, and key concepts for exam preparation.
+
+## Rules
+
+- [US DUI and DWI Laws](https://driving-us.wyattau.com/rules/dui-laws/): Complete guide to US DUI and DWI laws including blood alcohol limits, penalties, and implied consent laws.
+- [US Right-of-Way Rules](https://driving-us.wyattau.com/rules/right-of-way/): Complete guide to right-of-way rules in the US including four-way stops, roundabouts, pedestrian crossings, and emergency vehicles.
+- [US Traffic Rules and Laws](https://driving-us.wyattau.com/rules/traffic-rules/): Complete guide to US traffic rules including speed limits, lane usage, turning rules, and parking regulations.
+
+## Safe-Driving
+
+- [US Defensive Driving Techniques](https://driving-us.wyattau.com/safe-driving/defensive-driving/): Complete guide to defensive driving techniques including space management, hazard perception, and fatigue prevention.
+- [US Highway Driving Guide](https://driving-us.wyattau.com/safe-driving/highway-driving/): Complete guide to US highway driving including entering, exiting, lane changes, and highway etiquette.
+
+## Signs
+
+- [Guide Signs and Service Signs: Green, Blue, and Brown Road Signs](https://driving-us.wyattau.com/signs/guide-signs/): MUTCD guide signs explained: green destination and mileage signs, blue motorist services, brown recreation areas, and route markers with their numbering logic.
+- [Pavement Markings: Lane Lines, Crosswalks, and Curb Colors Explained](https://driving-us.wyattau.com/signs/pavement-markings/): US pavement markings explained: yellow vs white lines, solid vs dashed, double-line rules, crosswalk styles, railroad markings, and curb color meanings.
+- [Traffic Signals and Arrows: Every Light Meaning and How to Respond](https://driving-us.wyattau.com/signs/traffic-signals/): Traffic signal rules explained: solid and flashing red/yellow/green, turn arrows, protected and permissive turns, ramp metering, and how to handle signal failures.
+- [US Regulatory Traffic Signs](https://driving-us.wyattau.com/signs/regulatory-signs/): Complete guide to US regulatory traffic signs including speed limits, prohibition signs, and mandatory signs with MUTCD classifications.
+- [Warning Road Signs: Yellow Diamond Signs and Their Meanings](https://driving-us.wyattau.com/signs/warning-signs/): MUTCD warning signs explained: yellow diamond shapes for curves, intersections, merges, animal crossings, and road conditions, with the driving action each requires.
+
+## State-Guides
+
+- [California DMV Permit Test Guide 2026: Ages, Test Format, and Requirements](https://driving-us.wyattau.com/state-guides/california/): California DMV driver's license guide: permit age 15.5, 46-question written test, provisional license rules, fees, and study plan for the CA DMV knowledge exam.
+- [Florida FLHSMV Permit Test Guide 2026: Ages, Test Format, and Requirements](https://driving-us.wyattau.com/state-guides/florida/): Florida learner's permit guide: TLSAE course, 50-question Class E knowledge exam, GDL night curfews, fees, and a study plan for the Florida DMV written test.
+- [New York DMV Permit Test Guide 2026: Ages, Test Format, and Requirements](https://driving-us.wyattau.com/state-guides/new-york/): New York learner's permit guide: 20-question written test, 5-hour pre-licensing course, junior license rules, fees, and a study plan for the NYS DMV exam.
+- [Texas DPS Permit Test Guide 2026: Ages, Test Format, and Requirements](https://driving-us.wyattau.com/state-guides/texas/): Texas DPS driver's license guide: permit at 15, 30-question knowledge test, ITD course, GDL phases, fees, and study plan for the Texas driving test.
+- [US DMV State Guides: Permit and License Requirements by State](https://driving-us.wyattau.com/state-guides/): State-by-state guide to US driver's permits and licenses: minimum ages, written test formats, GDL stages, fees, and official DMV handbook links for every state.
+
+## Written-Test
+
+- [US Driving Written Test Practice](https://driving-us.wyattau.com/written-test/practice-test/): Practice questions for the US driving written test covering traffic signs, rules, and safe driving.
+- [US Traffic Signs](https://driving-us.wyattau.com/written-test/traffic-signs/): US Traffic Signs - Complete study guide and practice questions
+- [Written Test](https://driving-us.wyattau.com/written-test/): This section covers written test concepts, definitions, and applications with worked examples and practice problems.

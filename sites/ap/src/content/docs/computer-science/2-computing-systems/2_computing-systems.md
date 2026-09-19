@@ -956,6 +956,6 @@ linked above.
 
 ## Cross-References
 
-- [Computational Thinking](../1-computational-thinking/1_computational-thinking) -- Abstraction and decomposition principles guide how computing systems are designed and organised.
-- [Algorithms and Programming](../3-algorithms-and-programming/3_algorithms-and-programming) -- Hardware constraints influence algorithm design, connecting system architecture to software efficiency.
-- [Data Analysis](../4-data-analysis/4_data-analysis) -- Data representation formats depend on the underlying hardware and number systems of computing systems.
+- [Computational Thinking](/computer-science/1-computational-thinking/1_computational-thinking/) -- Abstraction and decomposition principles guide how computing systems are designed and organised.
+- [Algorithms and Programming](/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/) -- Hardware constraints influence algorithm design, connecting system architecture to software efficiency.
+- [Data Analysis](/computer-science/4-data-analysis/4_data-analysis/) -- Data representation formats depend on the underlying hardware and number systems of computing systems.

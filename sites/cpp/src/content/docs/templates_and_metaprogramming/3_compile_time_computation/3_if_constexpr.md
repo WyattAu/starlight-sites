@@ -607,9 +607,9 @@ key: "key'', value: "value'
 
 ## See Also
 
-- [Parameter Packs and Variadic Templates](./1_parameter_packs)
-- [Fold Expressions and Pack Expansion](./2_fold_expressions)
-- [Type Traits and Static Reflection Patterns](./4_type_traits)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 ## Common Pitfalls
 

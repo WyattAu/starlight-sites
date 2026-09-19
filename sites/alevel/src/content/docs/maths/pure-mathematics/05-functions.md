@@ -569,7 +569,7 @@ The largest interval containing $0$ on which $f$ is strictly monotonic (hence in
 $[-1, 1]$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Injectivity](#3-inverse-functions) and [Differentiation](10-differentiation)
+<b>If you get this wrong, revise:</b> [Injectivity](#3-inverse-functions) and [Differentiation](/maths/pure-mathematics/10-differentiation/)
 
 <hr />
 
@@ -772,10 +772,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Differentiation](10-differentiation) -- Derivatives describe the rate of change of functions and are used to find stationary points and sketch graphs.
-- [Exponentials and Logarithms](09-exponentials-and-logarithms) -- The exponential and logarithmic functions are inverses of each other, a key example of function inversion.
-- [Integration](11-integration) -- Integration finds areas under function curves and reverses the process of differentiation.
-- [Sequences and Series](06-sequences-and-series) -- Sequences are functions defined on the natural numbers, linking function behaviour to series convergence.
+- [Differentiation](/maths/pure-mathematics/10-differentiation/) -- Derivatives describe the rate of change of functions and are used to find stationary points and sketch graphs.
+- [Exponentials and Logarithms](/maths/pure-mathematics/09-exponentials-and-logarithms/) -- The exponential and logarithmic functions are inverses of each other, a key example of function inversion.
+- [Integration](/maths/pure-mathematics/11-integration/) -- Integration finds areas under function curves and reverses the process of differentiation.
+- [Sequences and Series](/maths/pure-mathematics/06-sequences-and-series/) -- Sequences are functions defined on the natural numbers, linking function behaviour to series convergence.
 
 ## Common Pitfalls
 

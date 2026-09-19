@@ -218,5 +218,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Diagnostics](./)
-- [Differentiation -- Diagnostic Tests](./diag-differentiation)
-- [Integration -- Diagnostic Tests](./diag-integration)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
+- [Integration -- Diagnostic Tests](/maths/diagnostics/diag-integration/)

@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_metaprogramming](./1_metaprogramming)
-- [2_concurrency](./2_concurrency)
+- [1_metaprogramming](/ruby/05-advanced/1_metaprogramming/)
+- [2_concurrency](/ruby/05-advanced/2_concurrency/)
 
 ## Learning Objectives
 

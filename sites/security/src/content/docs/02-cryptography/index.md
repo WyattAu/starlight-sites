@@ -18,8 +18,8 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Cryptography](./cryptography)
-- [Tls In Practice](./tls-in-practice)
+- [Cryptography](/02-cryptography/cryptography/)
+- [Tls In Practice](/02-cryptography/tls-in-practice/)
 
 ## Learning Objectives
 

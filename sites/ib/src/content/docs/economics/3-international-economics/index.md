@@ -18,9 +18,9 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [Trade](./1-trade)
-- [Exchange Rates](./2-exchange-rates)
-- [Balance Of Payments](./3-balance-of-payments)
+- [Trade](/economics/3-international-economics/1-trade/)
+- [Exchange Rates](/economics/3-international-economics/2-exchange-rates/)
+- [Balance Of Payments](/economics/3-international-economics/3-balance-of-payments/)
 
 ## Learning Objectives
 

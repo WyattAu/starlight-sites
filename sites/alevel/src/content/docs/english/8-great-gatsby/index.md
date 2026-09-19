@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_great Gatsby](./1_great-gatsby)
+- [1_great Gatsby](/english/8-great-gatsby/1_great-gatsby/)
 
 ## Learning Objectives
 

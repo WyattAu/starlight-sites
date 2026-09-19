@@ -105,7 +105,7 @@ Follow the sidebar order. Each topic page contains:
 6. **Board-specific notes**. Where specifications diverge
 
 > **Prerequisite:** These notes assume full mastery of A Level Mathematics. If you have not yet
-> completed the standard maths course, start with the [Mathematics](../maths/maths) notes first.
+> completed the standard maths course, start with the [Mathematics](/maths/maths/) notes first.
 
 ## Common Pitfalls
 
@@ -160,9 +160,9 @@ linked above.
 
 ## Cross-References
 
-- **[Pure Mathematics](../further-maths/pure-mathematics/04-further-calculus):** Pure maths extends A-level topics
-- **[Further Mechanics](../further-maths/further-maths):** Mechanics applies maths to physics
-- **[Further Statistics](../further-maths/further-statistics/02-exponential-and-continuous-random-variables):** Statistics covers probability distributions
+- **[Pure Mathematics](/further-maths/pure-mathematics/04-further-calculus/):** Pure maths extends A-level topics
+- **[Further Mechanics](/further-maths/further-maths/):** Mechanics applies maths to physics
+- **[Further Statistics](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/):** Statistics covers probability distributions
 
 
 ## Advanced Content

@@ -77,11 +77,11 @@ Dart is an object-oriented language with C-style syntax. It supports classes, in
 
 ### Topic Notes
 
-- [Variables and Types](../../../../languages/src/content/docs/ruby/01-basics/1_variables-and-types), var, final, const, late, and type inference
-- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow), if/else, switch, for/while loops, and collections
-- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), optional parameters, named parameters, arrow functions, and closures
-- [Classes and Objects](../../../../kotlin/src/content/docs/basics/classes-and-objects), constructors, inheritance, mixins, and abstract classes
-- [Collections](../../../../kotlin/src/content/docs/intermediate/collections), List, Set, Map, and collection operators
+- [Variables and Types](https://languages.wyattau.com/ruby/01-basics/1_variables-and-types/), var, final, const, late, and type inference
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), if/else, switch, for/while loops, and collections
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), optional parameters, named parameters, arrow functions, and closures
+- [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/), constructors, inheritance, mixins, and abstract classes
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/), List, Set, Map, and collection operators
 
 ### Key Concepts
 
@@ -120,8 +120,8 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 ### Topic Notes
 
-- [Futures](../../../../programming/src/content/docs/concurrency/3_coroutines_and_async_io/5_futures_promises), Future, async/await, and error handling
-- [Streams](../../../../java/src/content/docs/05-streams/01-streams-api), Stream, StreamController, and stream operators
+- [Futures](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/5_futures_promises/), Future, async/await, and error handling
+- [Streams](https://java.wyattau.com/05-streams/01-streams-api/), Stream, StreamController, and stream operators
 - [Isolates](04-asynchronous/03-isolates), concurrent execution without shared memory
 - [Async Patterns](04-asynchronous/04-async-patterns), parallel requests, debouncing, and throttling
 
@@ -142,10 +142,10 @@ Flutter is Google's UI toolkit for building cross-platform applications from a s
 ### Topic Notes
 
 - [Flutter Basics](05-flutter/01-flutter-basics), MaterialApp, Scaffold, runApp, and the widget tree
-- [Navigation](09-flutter-fundamentals/01-navigation), Navigator, named routes, and push/pop
-- [Platform Integration](11-networking-and-data/01-platform-integration), platform channels, plugins, and native code
-- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), unit tests, widget tests, and integration tests
-- [Performance](../../../../alevel/src/content/docs/economics/macro/01-macroeconomic-performance), DevTools, profiling, and optimization
+- [Navigation](/09-flutter-fundamentals/01-navigation/), Navigator, named routes, and push/pop
+- [Platform Integration](/11-networking-and-data/01-platform-integration/), platform channels, plugins, and native code
+- [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), unit tests, widget tests, and integration tests
+- [Performance](https://alevel.wyattau.com/economics/macro/01-macroeconomic-performance/), DevTools, profiling, and optimization
 
 ### Key Concepts
 
@@ -187,8 +187,8 @@ State management is one of the most important architectural decisions in a Flutt
 
 - [Provider](07-state-management/01-provider), ChangeNotifier, ProxyProvider, and Consumer
 - [Riverpod](07-state-management/02-riverpod), Provider, StateProvider, and modern dependency injection
-- [BLoC](../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks), Business Logic Component, events, and streams
-- [Other Approaches](../../../../ib/src/content/docs/psychology/approaches), GetX, MobX, and Redux
+- [BLoC](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/), Business Logic Component, events, and streams
+- [Other Approaches](https://ib.wyattau.com/psychology/approaches/), GetX, MobX, and Redux
 
 ### Key Concepts
 

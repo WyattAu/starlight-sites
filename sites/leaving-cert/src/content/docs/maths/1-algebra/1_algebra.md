@@ -749,5 +749,5 @@ applying these mathematical techniques.
 ## See Also
 
 - [Algebra](./)
-- [Irish LC Mathematics](..)
-- [Algebra -- Diagnostic Tests](../diagnostics/diag-algebra)
+- [Irish LC Mathematics](/)
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)

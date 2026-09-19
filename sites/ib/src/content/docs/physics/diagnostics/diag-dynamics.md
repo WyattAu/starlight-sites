@@ -526,6 +526,6 @@ $6.0\,\text{m}\,\text{s}^{-1}$ safety threshold. The helicopter does **not** lan
 
 ## Cross-References
 
-- **[Kinematics](../flashcards-kinematics):** Kinematics describes motion
-- **[Mechanics](../flashcards-mechanics):** Mechanics covers forces and energy
-- **[Waves](../flashcards-waves):** Waves transfer energy
+- **[Kinematics](/physics/flashcards-kinematics/):** Kinematics describes motion
+- **[Mechanics](/physics/flashcards-mechanics/):** Mechanics covers forces and energy
+- **[Waves](/physics/flashcards-waves/):** Waves transfer energy

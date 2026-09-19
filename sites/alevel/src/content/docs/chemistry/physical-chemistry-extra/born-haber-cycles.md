@@ -941,5 +941,5 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 ## See Also
 
 - [Physical Chemistry Extra](./)
-- [Entropy and Gibbs Free Energy](./entropy-and-gibbs)
-- [Chemistry](..)
+- [Entropy and Gibbs Free Energy](/chemistry/physical-chemistry-extra/entropy-and-gibbs/)
+- [Chemistry](/)

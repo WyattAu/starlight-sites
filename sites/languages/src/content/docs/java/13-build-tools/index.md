@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Build Tools](./build-tools)
+- [Build Tools](/java/13-build-tools/build-tools/)
 
 ## Learning Objectives
 

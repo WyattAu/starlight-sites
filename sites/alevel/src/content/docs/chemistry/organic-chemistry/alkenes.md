@@ -36,7 +36,7 @@ $120^\circ$. The C=C bond length ($134\,\mathrm{pm}$) is shorter than the C--C s
 ($154\,\mathrm{pm}$) because the $\pi$ bond draws the atoms closer together.
 
 The $\pi$ bond restricts rotation about the C=C axis, which has two critical consequences: E/Z
-Isomerism (discussed in the [introduction](../organic-chemistry)) and the existence of a
+Isomerism (discussed in the [introduction](/chemistry/organic-chemistry/)) and the existence of a
 Substantial barrier to rotation ($\approx 270\,\mathrm{kJ/mol}$ for ethene).
 
 ### Physical Properties
@@ -884,6 +884,6 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 
 ## Cross-References
 
-- **[Alcohols](alcohols):** Alkenes undergo hydration to form alcohols
-- **[Alkanes](alkanes):** Alkenes are produced by cracking alkanes
-- **[Organic Introduction](introduction):** Alkenes contain C=C double bonds and undergo addition reactions
+- **[Alcohols](/chemistry/organic-chemistry/alcohols/):** Alkenes undergo hydration to form alcohols
+- **[Alkanes](/chemistry/organic-chemistry/alkanes/):** Alkenes are produced by cracking alkanes
+- **[Organic Introduction](/chemistry/organic-chemistry/introduction/):** Alkenes contain C=C double bonds and undergo addition reactions

@@ -35,14 +35,14 @@ to prepare you for both the multiple-choice and free-response sections.
 
 ## Topics
 
-- **[1. Kinematics](1-kinematics/1_kinematics)**
-- **[2. Newton"s Laws](2-newtons-laws/2_newtons-laws)**
-- **[3. Work, Energy, and Power](3-work-energy-power/3_work-energy-power)**
-- **[4. Momentum and Impulse](4-momentum-and-impulse/4_momentum-and-impulse)**
-- **[5. Rotational Motion](5-rotational-motion/5_rotational-motion)**
-- **[6. Electrostatics](6-electrostatics/6_electrostatics)**
-- **[7. Circuits](7-circuits/7_circuits)**
-- **[8. Magnetism](8-magnetism/8_magnetism)**
+- **[1. Kinematics](/physics/1-kinematics/1_kinematics/)**
+- **[2. Newton"s Laws](/physics/2-newtons-laws/2_newtons-laws/)**
+- **[3. Work, Energy, and Power](/physics/3-work-energy-power/3_work-energy-power/)**
+- **[4. Momentum and Impulse](/physics/4-momentum-and-impulse/4_momentum-and-impulse/)**
+- **[5. Rotational Motion](/physics/5-rotational-motion/5_rotational-motion/)**
+- **[6. Electrostatics](/physics/6-electrostatics/6_electrostatics/)**
+- **[7. Circuits](/physics/7-circuits/7_circuits/)**
+- **[8. Magnetism](/physics/8-magnetism/8_magnetism/)**
 
 ## Topics Covered
 
@@ -149,7 +149,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 
 ## Cross-References
 
-- **[AP Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Physics C requires calculus, derivatives for instantaneous rates, integrals for work and accumulation.
-- **[AP Chemistry](../../../../../alevel/src/content/docs/chemistry/chemistry):** Thermodynamics and atomic structure appear in both physics and chemistry.
-- **[AP Biology](../../../../../gcse/src/content/docs/biology):** Biophysics applications include fluid dynamics, optics, and biomechanics.
+- **[AP Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Physics C requires calculus, derivatives for instantaneous rates, integrals for work and accumulation.
+- **[AP Chemistry](https://alevel.wyattau.com/chemistry/chemistry/):** Thermodynamics and atomic structure appear in both physics and chemistry.
+- **[AP Biology](https://gcse.wyattau.com/biology/):** Biophysics applications include fluid dynamics, optics, and biomechanics.
 - **[Computer Science, Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Computational physics uses numerical algorithms (Euler method, Runge-Kutta) to solve differential equations that model physical systems.

@@ -24,7 +24,7 @@ categories:
 
 A complete single-page revision guide covering the full GCSE Physics specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the
-[full topic pages](physics/) for detailed derivations and further practice.
+[full topic pages](/physics/) for detailed derivations and further practice.
 
 ---
 

@@ -187,6 +187,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Hazards](../1-physical-geography/4_hazards):** Tectonic activity causes natural hazards
-- **[Coastal Systems](../1-physical-geography/2_coastal-systems):** Tectonics affect coastal landforms
-- **[Physical Geography](../flashcards-physical-geography):** Tectonics is a physical geography topic
+- **[Hazards](/geography/1-physical-geography/4_hazards/):** Tectonic activity causes natural hazards
+- **[Coastal Systems](/geography/1-physical-geography/2_coastal-systems/):** Tectonics affect coastal landforms
+- **[Physical Geography](/geography/flashcards-physical-geography/):** Tectonics is a physical geography topic

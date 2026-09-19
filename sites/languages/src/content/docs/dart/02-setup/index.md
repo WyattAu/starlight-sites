@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Installation](./01-installation)
-- [Dev Enviroment](./02-dev-enviroment)
+- [Installation](/dart/02-setup/01-installation/)
+- [Dev Enviroment](/dart/02-setup/02-dev-enviroment/)
 
 ## Learning Objectives
 

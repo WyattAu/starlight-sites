@@ -752,11 +752,11 @@ To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For
 
 ## Cross-References
 
-- **[Multivariable Calculus](4-multivariable-calculus)**, Multiple integration, vector calculus, Green's/Stokes'/Divergence theorems
-- **[Linear Algebra](2-linear-algebra)**, Eigenvalues, diagonalisation, inner products, quadratic forms
-- **[Abstract Algebra](1-abstract-algebra)**, Groups, rings, fields, homomorphisms, Sylow theory
-- **[Real Analysis](3-real-analysis)**, Sequences, series, continuity, differentiation, integration
-- **[Linear Algebra Practice](practice-linear-algebra)**, Additional linear algebra exercises
+- **[Multivariable Calculus](/4-multivariable-calculus/)**, Multiple integration, vector calculus, Green's/Stokes'/Divergence theorems
+- **[Linear Algebra](/2-linear-algebra/)**, Eigenvalues, diagonalisation, inner products, quadratic forms
+- **[Abstract Algebra](/1-abstract-algebra/)**, Groups, rings, fields, homomorphisms, Sylow theory
+- **[Real Analysis](/3-real-analysis/)**, Sequences, series, continuity, differentiation, integration
+- **[Linear Algebra Practice](/practice-linear-algebra/)**, Additional linear algebra exercises
 
 ---
 

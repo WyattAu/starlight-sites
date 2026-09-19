@@ -390,10 +390,10 @@ answer is grounded in the text.
 
 ## Cross-References
 
-- [Mathematics](mathematics) -- Numerical reasoning and data interpretation skills overlap with the Problem Solving domain here.
-- [Comprehension](reading/comprehension) -- Detailed strategies for command of evidence and main idea questions extend the overview here.
-- [Grammar](reading/grammar) -- Comprehensive coverage of standard English conventions builds on the writing rules outlined here.
-- [Essay](writing/essay) -- Essay writing strategies apply the analytical and organisational skills tested in Expression of Ideas.
+- [Mathematics](/mathematics/) -- Numerical reasoning and data interpretation skills overlap with the Problem Solving domain here.
+- [Comprehension](/reading/comprehension/) -- Detailed strategies for command of evidence and main idea questions extend the overview here.
+- [Grammar](/reading/grammar/) -- Comprehensive coverage of standard English conventions builds on the writing rules outlined here.
+- [Essay](/writing/essay/) -- Essay writing strategies apply the analytical and organisational skills tested in Expression of Ideas.
 
 ## Intuition
 

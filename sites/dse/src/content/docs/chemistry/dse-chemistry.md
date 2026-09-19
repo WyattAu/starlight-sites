@@ -72,7 +72,7 @@ The compulsory syllabus covers the following major areas:
 - Properties of Groups 1, 2, 17, and 18
 
 See
-[./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)
+[./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)
 For detailed notes.
 
 ### II. Chemical Bonding
@@ -84,7 +84,7 @@ For detailed notes.
 - Structures: giant ionic, simple molecular, giant covalent, metallic
 
 See
-[./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding](./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding)
+[./1-atomic-structure-and-bonding/1_atomic-structure-and-bonding](/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)
 for detailed notes.
 
 ### III. Stoichiometry and Mole Concept
@@ -98,7 +98,7 @@ for detailed notes.
 - Concentration (molarity) and titration
 
 See
-[./2-stoichiometry/1_mole-concept-and-stoichiometry](./2-stoichiometry/1_mole-concept-and-stoichiometry)
+[./2-stoichiometry/1_mole-concept-and-stoichiometry](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)
 For detailed notes.
 
 ### IV. Acids, Bases, and Salts
@@ -112,7 +112,7 @@ For detailed notes.
 - Common acids and bases
 
 See
-[./5-acids-bases/1_acids-bases-and-electrochemistry](./5-acids-bases/1_acids-bases-and-electrochemistry)
+[./5-acids-bases/1_acids-bases-and-electrochemistry](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)
 for detailed notes.
 
 ### V. Rate of Reaction and Energetics
@@ -124,7 +124,7 @@ for detailed notes.
 - Calorimetry
 
 See
-[./3-chemical-kinetics-and-energetics/1_chemical-kinetics](./3-chemical-kinetics-and-energetics/1_chemical-kinetics)
+[./3-chemical-kinetics-and-energetics/1_chemical-kinetics](/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)
 For detailed notes.
 
 ### VI. Redox and Electrochemistry
@@ -137,7 +137,7 @@ For detailed notes.
 - Electrolysis (aqueous and molten)
 
 See
-[./6-redox-and-electrochemistry/1_redox-and-electrochemistry](./6-redox-and-electrochemistry/1_redox-and-electrochemistry)
+[./6-redox-and-electrochemistry/1_redox-and-electrochemistry](/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/)
 For detailed notes.
 
 ### VII. Carbon Chemistry
@@ -149,7 +149,7 @@ For detailed notes.
 - Alcohols, carboxylic acids, and esters
 - Macromolecules: proteins, starch, cellulose, DNA
 
-See [./7-organic-chemistry/2_carbon-chemistry](./7-organic-chemistry/2_carbon-chemistry) for
+See [./7-organic-chemistry/2_carbon-chemistry](/chemistry/7-organic-chemistry/2_carbon-chemistry/) for
 detailed notes.
 
 ---

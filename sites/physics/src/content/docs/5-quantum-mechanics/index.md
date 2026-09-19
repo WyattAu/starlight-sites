@@ -58,21 +58,21 @@ graph TD
 
 ## Contents
 
-1. [Historical Motivation](1_historical-motivation)
-2. [Postulates of Quantum Mechanics](2_postulates-of-quantum-mechanics)
-3. [Wave Functions and the Schrodinger Equation](3_wave-functions-and-the-schrodinger-equation)
-4. [Operators and Observables](4_operators-and-observables)
-5. [One-Dimensional Problems](5_one-dimensional-problems)
-6. [Angular Momentum and the Hydrogen Atom](6_angular-momentum-and-the-hydrogen-atom)
-7. [Spin](7_spin)
-8. [Approximation Methods](8_approximation-methods)
-9. [Problem Set](9_problem-set)
-10. [Identical Particles and Exchange Symmetry](10_identical-particles-and-exchange-symmetry)
-11. [Variational Methods](11_variational-methods)
-12. [Time-Dependent Perturbation Theory](12_time-dependent-perturbation-theory)
-13. [Scattering Theory](13_scattering-theory)
-14. [WKB Approximation](14_wkb-approximation)
-15. [Density Functional Theory: Conceptual Overview](15_density-functional-theory-conceptual-overview)
+1. [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+2. [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)
+3. [Wave Functions and the Schrodinger Equation](/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/)
+4. [Operators and Observables](/5-quantum-mechanics/4_operators-and-observables/)
+5. [One-Dimensional Problems](/5-quantum-mechanics/5_one-dimensional-problems/)
+6. [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+7. [Spin](/5-quantum-mechanics/7_spin/)
+8. [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+9. [Problem Set](/5-quantum-mechanics/9_problem-set/)
+10. [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
+11. [Variational Methods](/5-quantum-mechanics/11_variational-methods/)
+12. [Time-Dependent Perturbation Theory](/5-quantum-mechanics/12_time-dependent-perturbation-theory/)
+13. [Scattering Theory](/5-quantum-mechanics/13_scattering-theory/)
+14. [WKB Approximation](/5-quantum-mechanics/14_wkb-approximation/)
+15. [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
 
 ## Overview
 

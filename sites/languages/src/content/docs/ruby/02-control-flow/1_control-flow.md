@@ -1179,9 +1179,9 @@ mode = ENV.key?("DEBUG") ? :debug : :production
 
 ## Cross-References
 
-- [Variables and Types](../01-basics/1_variables-and-types) defines the data types that control flow statements operate on in conditional expressions.
-- [Methods and Blocks](../03-methods-blocks/1_methods-and-blocks) shows how control flow interacts with method definitions, blocks, and iteration patterns.
-- [Object-Oriented Programming](../04-oop/1_oop) applies control flow within class methods and object behaviour.
+- [Variables and Types](/ruby/01-basics/1_variables-and-types/) defines the data types that control flow statements operate on in conditional expressions.
+- [Methods and Blocks](/ruby/03-methods-blocks/1_methods-and-blocks/) shows how control flow interacts with method definitions, blocks, and iteration patterns.
+- [Object-Oriented Programming](/ruby/04-oop/1_oop/) applies control flow within class methods and object behaviour.
 
 ## Common Mistakes
 

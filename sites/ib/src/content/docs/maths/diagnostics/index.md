@@ -17,21 +17,21 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Topics
 
-- [Diag Complex Numbers](./diag-complex-numbers)
-- [Diag Differential Equations](./diag-differential-equations)
-- [Diag Differentiation](./diag-differentiation)
-- [Diag Functions Equations](./diag-functions-equations)
-- [Diag Integration](./diag-integration)
-- [Diag Matrices](./diag-matrices)
-- [Diag Number Algebra](./diag-number-algebra)
-- [Diag Probability Distributions](./diag-probability-distributions)
-- [Diag Probability](./diag-probability)
-- [Diag Proof Logic](./diag-proof-logic)
-- [Diag Sequences Series](./diag-sequences-series)
-- [Diag Statistics](./diag-statistics)
-- [Diag Trigonometry](./diag-trigonometry)
-- [Diag Vectors](./diag-vectors)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Complex Numbers](/maths/diagnostics/diag-complex-numbers/)
+- [Diag Differential Equations](/maths/diagnostics/diag-differential-equations/)
+- [Diag Differentiation](/maths/diagnostics/diag-differentiation/)
+- [Diag Functions Equations](/maths/diagnostics/diag-functions-equations/)
+- [Diag Integration](/maths/diagnostics/diag-integration/)
+- [Diag Matrices](/maths/diagnostics/diag-matrices/)
+- [Diag Number Algebra](/maths/diagnostics/diag-number-algebra/)
+- [Diag Probability Distributions](/maths/diagnostics/diag-probability-distributions/)
+- [Diag Probability](/maths/diagnostics/diag-probability/)
+- [Diag Proof Logic](/maths/diagnostics/diag-proof-logic/)
+- [Diag Sequences Series](/maths/diagnostics/diag-sequences-series/)
+- [Diag Statistics](/maths/diagnostics/diag-statistics/)
+- [Diag Trigonometry](/maths/diagnostics/diag-trigonometry/)
+- [Diag Vectors](/maths/diagnostics/diag-vectors/)
+- [Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
 
 
 ## Overview

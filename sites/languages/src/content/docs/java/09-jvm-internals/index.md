@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Class Loading Memory](./01-class-loading-memory)
-- [Jit Compilation](./02-jit-compilation)
-- [Garbage Collection](./03-garbage-collection)
+- [Class Loading Memory](/java/09-jvm-internals/01-class-loading-memory/)
+- [Jit Compilation](/java/09-jvm-internals/02-jit-compilation/)
+- [Garbage Collection](/java/09-jvm-internals/03-garbage-collection/)
 
 ## Learning Objectives
 

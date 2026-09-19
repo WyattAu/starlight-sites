@@ -18,7 +18,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [2_metabolism](./2_metabolism)
+- [2_metabolism](/biology/2-metabolism/2_metabolism/)
 
 ## Learning Objectives
 

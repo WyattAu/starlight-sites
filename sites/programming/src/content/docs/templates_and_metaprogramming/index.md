@@ -18,7 +18,7 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [Flashcards Templates](./flashcards-templates)
+- [Flashcards Templates](/templates_and_metaprogramming/flashcards-templates/)
 
 ## Learning Objectives
 

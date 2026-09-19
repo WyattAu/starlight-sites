@@ -18,8 +18,8 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Authentication](./authentication)
-- [Oauth Deep Dive](./oauth-deep-dive)
+- [Authentication](/03-authentication/authentication/)
+- [Oauth Deep Dive](/03-authentication/oauth-deep-dive/)
 
 ## Learning Objectives
 

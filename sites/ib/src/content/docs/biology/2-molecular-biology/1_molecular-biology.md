@@ -881,14 +881,14 @@ $3.5\;\mathrm{J/(g \cdot ^\circ C)}$), calculate: (a) the mass of water evaporat
 ## If You Get These Wrong, Revise
 
 - **Cell division and chromosome structure** --> Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology)
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/)
 - **Enzymes in physiological contexts** --> Review
-  [.../6-human-physiology/1_human-physiology](../6-human-physiology/1_human-physiology)
+  [.../6-human-physiology/1_human-physiology](/biology/6-human-physiology/1_human-physiology/)
 - **Genetic inheritance and gene expression** --> Review
-  [.../3-genetics/1_genetics](../3-genetics/1_genetics)
+  [.../3-genetics/1_genetics](/biology/3-genetics/1_genetics/)
 - **Plant biochemistry and photosynthesis** --> Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology)
-- **Evolution and molecular evidence** --> Review [.../4-ecology/1_ecology](../4-ecology/1_ecology)
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/)
+- **Evolution and molecular evidence** --> Review [.../4-ecology/1_ecology](/biology/4-ecology/1_ecology/)
 
 ---
 
@@ -1641,22 +1641,22 @@ microorganisms (bacteria, protozoa) in their digestive tracts that produce cellu
 ## Cross-References to Related Topics
 
 - **Enzyme kinetics in detail**: Review
-  [.../1-cell-biology/2_metabolism](../1-cell-biology/2_metabolism) for Michaelis-Menten kinetics,
+  [.../1-cell-biology/2_metabolism](/biology/1-cell-biology/2_metabolism/) for Michaelis-Menten kinetics,
   inhibition types, and enzyme regulation.
 - **DNA replication and transcription**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for detailed mechanisms
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for detailed mechanisms
   of DNA and RNA synthesis.
 - **Cell membranes and lipids**: Review
-  [.../1-cell-biology/1_cell-biology](../1-cell-biology/1_cell-biology) for membrane structure and
+  [.../1-cell-biology/1_cell-biology](/biology/1-cell-biology/1_cell-biology/) for membrane structure and
   the fluid mosaic model.
 - **Protein synthesis**: Review
-  [..../3-genetics/2_genetics-advanced](../3-genetics/2_genetics-advanced) for translation and
+  [..../3-genetics/2_genetics-advanced](/biology/3-genetics/2_genetics-advanced/) for translation and
   post-translational modifications.
 - **Immunology and antibody structure**: Review
-  [.../8-nervous-system-and-immunology/2_immunology](../8-nervous-system-and-immunology/2_immunology)
+  [.../8-nervous-system-and-immunology/2_immunology](/biology/8-nervous-system-and-immunology/2_immunology/)
   for immunoglobulin structure and antigen-antibody interactions.
 - **Plant biology and carbohydrates**: Review
-  [.../7-plant-biology/1_plant-biology](../7-plant-biology/1_plant-biology) for cellulose, starch,
+  [.../7-plant-biology/1_plant-biology](/biology/7-plant-biology/1_plant-biology/) for cellulose, starch,
   and transport sugars.
 
 ---

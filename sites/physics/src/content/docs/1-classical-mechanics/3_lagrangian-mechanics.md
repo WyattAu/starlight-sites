@@ -342,9 +342,9 @@ natural before identifying $h$ With the total energy.
 
 ## Cross-References
 
-- **[Generalised Coordinates and Constraints](2_generalised-coordinates-and-constraints)**: Generalised coordinates and constraints provide the foundation for formulating the Lagrangian.
-- **[Hamiltonian Mechanics](4_hamiltonian-mechanics)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space and provides energy conservation.
-- **[Noether's Theorem](5_noether-s-theorem-and-conservation-laws)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
+- **[Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)**: Generalised coordinates and constraints provide the foundation for formulating the Lagrangian.
+- **[Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)**: The Hamiltonian formalism extends Lagrangian mechanics to phase space and provides energy conservation.
+- **[Noether's Theorem](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)**: Noether's theorem connects symmetries of the Lagrangian to conserved quantities.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

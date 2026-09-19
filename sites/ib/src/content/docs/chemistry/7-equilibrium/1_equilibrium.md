@@ -1113,5 +1113,5 @@ linked above.
 ## See Also
 
 - [Equilibrium](./)
-- [IB Chemistry](..)
-- [IB Chemistry Flashcards: Kinetics and Equilibrium](../flashcards-kinetics-equilibrium)
+- [IB Chemistry](/)
+- [IB Chemistry Flashcards: Kinetics and Equilibrium](/chemistry/flashcards-kinetics-equilibrium/)

@@ -1862,11 +1862,11 @@ flowchart TD
 
 | Topic                             | Site        | Link                                                                                   |
 | --------------------------------- | ----------- | -------------------------------------------------------------------------------------- |
-| Theory of Computation             | WyattsNotes | [View](theory-of-computation)                               |
-| Abstract Algebra                  | WyattsNotes | [View](../../../../mathematics/src/content/docs/abstract-algebra)                                  |
-| Number Theory                     | WyattsNotes | [View](../../../../mathematics/src/content/docs/number-theory)                                     |
+| Theory of Computation             | WyattsNotes | [View](/theory-of-computation/)                               |
+| Abstract Algebra                  | WyattsNotes | [View](https://mathematics.wyattau.com/abstract-algebra/)                                  |
+| Number Theory                     | WyattsNotes | [View](https://mathematics.wyattau.com/number-theory/)                                     |
 | Discrete Mathematics, MIT 6.042J | MIT OCW     | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
-| AP Calculus                       | AP          | [View](../../../../ib/src/content/docs/maths/maths) |
+| AP Calculus                       | AP          | [View](https://ib.wyattau.com/maths/maths/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

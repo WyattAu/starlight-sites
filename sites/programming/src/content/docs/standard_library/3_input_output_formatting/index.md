@@ -18,9 +18,9 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_stream_buffers](./1_stream_buffers)
-- [2_type_safe_formatting](./2_type_safe_formatting)
-- [3_unicode_support](./3_unicode_support)
+- [1_stream_buffers](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [2_type_safe_formatting](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
+- [3_unicode_support](/standard_library/3_input_output_formatting/3_unicode_support/)
 
 ## Learning Objectives
 

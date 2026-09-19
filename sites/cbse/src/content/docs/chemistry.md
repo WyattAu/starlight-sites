@@ -502,7 +502,7 @@ Chemistry is fundamentally about electron deals between atoms. Bonding is nature
 
 ## Cross-References
 
-- [Chemical Kinetics](../../../../chemistry/src/content/docs/1-physical-chemistry/chemical-kinetics) -- how fast reactions proceed
-- [Electrochemistry](../../../../alevel/src/content/docs/chemistry/electrochemistry) -- electron transfer as electrical energy
-- [Solutions](../../../../mathematics/src/content/docs/5-ordinary-differential-equations/6_series-solutions) -- mixing and colligative behavior
-- [CBSE Physics](../../../../ib/src/content/docs/physics/physics) -- thermodynamics and energy concepts
+- [Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/) -- how fast reactions proceed
+- [Electrochemistry](https://alevel.wyattau.com/chemistry/electrochemistry/) -- electron transfer as electrical energy
+- [Solutions](https://mathematics.wyattau.com/5-ordinary-differential-equations/6_series-solutions/) -- mixing and colligative behavior
+- [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- thermodynamics and energy concepts

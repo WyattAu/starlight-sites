@@ -2842,5 +2842,5 @@ linked above.
 ## See Also
 
 - [Computational Thinking](./)
-- [Boolean Logic](./1_boolean-logic)
-- [IB Computer Science](..)
+- [Boolean Logic](/computer-science/4-computational-thinking/1_boolean-logic/)
+- [IB Computer Science](/)

@@ -282,9 +282,9 @@ Local context.
 
 </details>
 
-For related topics, see [./drainage-basins-and-hydrology](./drainage-basins-and-hydrology) and
-[./water-scarcity-and-management](./water-scarcity-and-management). The parent topic page is at
-[../freshwater-issues](../freshwater-issues).
+For related topics, see [./drainage-basins-and-hydrology](/geography/freshwater/drainage-basins-and-hydrology/) and
+[./water-scarcity-and-management](/geography/freshwater/water-scarcity-and-management/). The parent topic page is at
+[../freshwater-issues](/geography/freshwater-issues/).
 
 ## Intuition
 

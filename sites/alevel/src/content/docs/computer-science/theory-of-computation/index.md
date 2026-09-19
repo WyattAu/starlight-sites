@@ -192,5 +192,5 @@ Practise applying these concepts under timed conditions. Focus on understanding 
 ## See Also
 
 - [Computer Science](..)
-- [Automata and Computability](./01-automata-and-computability)
+- [Automata and Computability](/computer-science/theory-of-computation/01-automata-and-computability/)
 - [Diagnostics](../../biology/diagnostics)

@@ -17,22 +17,22 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Topics
 
-- [Biodiversity Classification Evolution](./biodiversity-classification-evolution)
-- [Biological Molecules](./biological-molecules)
-- [Biotechnology](./biotechnology)
-- [Cells](./cells)
-- [Ecology](./ecology)
-- [Exchange And Transport](./exchange-and-transport)
-- [Flashcards Cell Biology](./flashcards-cell-biology)
-- [Genetics Advanced](./genetics-advanced)
-- [Genetics And Dna](./genetics-and-dna)
-- [Homeostasis](./homeostasis)
-- [Immunology](./immunology)
-- [Nervous System](./nervous-system)
-- [Photosynthesis Depth](./photosynthesis-depth)
-- [Practice Biological Molecules](./practice-biological-molecules)
-- [Practice Cell Biology](./practice-cell-biology)
-- [Respiration Depth](./respiration-depth)
+- [Biodiversity Classification Evolution](/biology/biodiversity-classification-evolution/)
+- [Biological Molecules](/biology/biological-molecules/)
+- [Biotechnology](/biology/biotechnology/)
+- [Cells](/biology/cells/)
+- [Ecology](/biology/ecology/)
+- [Exchange And Transport](/biology/exchange-and-transport/)
+- [Flashcards Cell Biology](/biology/flashcards-cell-biology/)
+- [Genetics Advanced](/biology/genetics-advanced/)
+- [Genetics And Dna](/biology/genetics-and-dna/)
+- [Homeostasis](/biology/homeostasis/)
+- [Immunology](/biology/immunology/)
+- [Nervous System](/biology/nervous-system/)
+- [Photosynthesis Depth](/biology/photosynthesis-depth/)
+- [Practice Biological Molecules](/biology/practice-biological-molecules/)
+- [Practice Cell Biology](/biology/practice-cell-biology/)
+- [Respiration Depth](/biology/respiration-depth/)
 
 
 ## Overview

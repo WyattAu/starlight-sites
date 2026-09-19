@@ -625,12 +625,12 @@ Compiled (use `-XX:+PrintCompilation`).
 
 ## See Also
 
-- [Class Loading and Memory Model](../09-jvm-internals/01-class-loading-memory) -- how class
+- [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/) -- how class
   loading and GC interact with JIT compilation
-- [Concurrency](../06-concurrency/01-concurrency) -- JIT optimization of concurrent code
-- [Virtual Threads and Structured Concurrency](../08-modern-java/02-virtual-threads-structured-concurrency)
+- [Concurrency](/java/06-concurrency/01-concurrency/) -- JIT optimization of concurrent code
+- [Virtual Threads and Structured Concurrency](/java/08-modern-java/02-virtual-threads-structured-concurrency/)
   -- JIT behavior with virtual threads
-- [Style and Patterns](../07-best-practices/01-style-and-patterns) -- writing JIT-friendly code
+- [Style and Patterns](/java/07-best-practices/01-style-and-patterns/) -- writing JIT-friendly code
 
 ## Worked Examples
 

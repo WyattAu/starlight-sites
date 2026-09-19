@@ -876,7 +876,7 @@ linked above.
 
 ## Cross-References
 
-- [Normalization](../01-relational-theory/normalization) - How normal forms shape table design and influence SQL query structure
-- [Indexing](../03-indexing-optimization/indexing) - How indexes improve the performance of SQL queries on large datasets
-- [Relational Theory](../01-relational-theory/relational-theory) - The formal foundations underlying SQL's set-based operations
+- [Normalization](/01-relational-theory/normalization/) - How normal forms shape table design and influence SQL query structure
+- [Indexing](/03-indexing-optimization/indexing/) - How indexes improve the performance of SQL queries on large datasets
+- [Relational Theory](/01-relational-theory/relational-theory/) - The formal foundations underlying SQL's set-based operations
 :::

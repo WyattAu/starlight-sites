@@ -93,8 +93,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Tuning](./)
-- [Introduction to Hardware Tuning](./intro)
-- [Performance Tuning Practice](./practice-performance-tuning)
+- [Introduction to Hardware Tuning](/intro/)
+- [Performance Tuning Practice](/practice-performance-tuning/)
 
 
 ## Detailed Content

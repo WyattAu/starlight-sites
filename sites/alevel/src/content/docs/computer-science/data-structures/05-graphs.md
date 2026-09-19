@@ -654,7 +654,7 @@ For undirected graphs, we additionally check that the back edge doesn't go to th
 </details>
 
 For revision on algorithms, see
-[Graph Algorithms](../algorithms/03-graph-algorithms).
+[Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/).
 
 ## Common Pitfalls
 
@@ -697,6 +697,6 @@ linked above.
 
 ## Cross-References
 
-- **[Graph Algorithms](../algorithms/03-graph-algorithms):** Dijkstra's and Prim's algorithms operate on graphs
-- **[Linked Lists](02-linked-lists):** Graphs can use adjacency lists with linked structures
-- **[Number Systems](../fundamentals/01-number-systems):** Graph representations use binary data
+- **[Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/):** Dijkstra's and Prim's algorithms operate on graphs
+- **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Graphs can use adjacency lists with linked structures
+- **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Graph representations use binary data

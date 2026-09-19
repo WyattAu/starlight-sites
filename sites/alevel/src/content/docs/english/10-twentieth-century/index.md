@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_twentieth_century](./1_twentieth_century)
+- [1_twentieth_century](/english/10-twentieth-century/1_twentieth_century/)
 
 ## Learning Objectives
 

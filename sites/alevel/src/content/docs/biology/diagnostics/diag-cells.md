@@ -486,5 +486,5 @@ co-transporter can be partially overcome by increasing substrate concentration.
 ## See Also
 
 - [Diagnostics](./)
-- [Ecology -- Diagnostic Tests](./diag-ecology)
-- [Biological Molecules -- Diagnostic Tests](./diag-biological-molecules)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)

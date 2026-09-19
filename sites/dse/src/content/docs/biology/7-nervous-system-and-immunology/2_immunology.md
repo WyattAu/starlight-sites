@@ -1292,6 +1292,6 @@ linked above.
 
 ## Cross-References
 
-- **[Cell Biology](../cell-biology):** Cell biology is foundational
-- **[Genetics](../../../../../../alevel/src/content/docs/biology/diagnostics/diag-genetics-dna):** Genetics studies heredity
-- **[Ecology](../../../../../../alevel/src/content/docs/biology/ecology):** Ecology studies environments
+- **[Cell Biology](/biology/cell-biology/):** Cell biology is foundational
+- **[Genetics](https://alevel.wyattau.com/biology/diagnostics/diag-genetics-dna/):** Genetics studies heredity
+- **[Ecology](https://alevel.wyattau.com/biology/ecology/):** Ecology studies environments

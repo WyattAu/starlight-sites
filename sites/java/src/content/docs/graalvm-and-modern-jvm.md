@@ -911,7 +911,7 @@ Still in incubator status as of JDK 23. The API surface may change before final 
 ## Virtual Threads (Project Loom)
 
 Virtual threads are covered in depth in
-[Virtual Threads and Structured Concurrency](./08-modern-java/02-virtual-threads-structured-concurrency).
+[Virtual Threads and Structured Concurrency](/08-modern-java/02-virtual-threads-structured-concurrency/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -956,7 +956,7 @@ try { socket.read(buffer); } finally { lock.unlock(); }
 ## Structured Concurrency (Preview)
 
 Structured concurrency is covered in depth in
-[Virtual Threads and Structured Concurrency](./08-modern-java/02-virtual-threads-structured-concurrency).
+[Virtual Threads and Structured Concurrency](/08-modern-java/02-virtual-threads-structured-concurrency/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -986,7 +986,7 @@ try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 ## Record Patterns and Pattern Matching
 
 Record patterns and pattern matching for switch are covered in depth in
-[Records, Sealed Classes, and Pattern Matching](./08-modern-java/01-records-sealed-patterns).
+[Records, Sealed Classes, and Pattern Matching](/08-modern-java/01-records-sealed-patterns/).
 This section provides a condensed reference.
 
 ### Key Facts
@@ -1505,6 +1505,6 @@ linked above.
 :::## Cross-References
 
 - **[Site Home](../../):** Main landing page for Java notes.
-- **[Java Basics](flashcards-java-basics):** Fundamental Java concepts including types and control flow.
-- **[Concurrency](06-concurrency/01-concurrency):** Multithreading and concurrent programming.
+- **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.
+- **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **[Practice](../../practice-*):** Practice problems for revision.

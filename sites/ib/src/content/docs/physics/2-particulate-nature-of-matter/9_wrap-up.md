@@ -573,6 +573,6 @@ linked above.
 
 ## Cross-References
 
-- [Thermodynamics](1_thermodynamics) provides the thermal energy concepts tested in these wrap-up problems.
-- [Atomic Physics](2_atomic-physics) covers the atomic structure knowledge required for nuclear and thermal calculations.
-- [Current Electricity](../../../../../../gaokao/src/content/docs/physics/electricity) explains the electrical concepts that complement thermal energy transfer problems.
+- [Thermodynamics](/physics/2-particulate-nature-of-matter/1_thermodynamics/) provides the thermal energy concepts tested in these wrap-up problems.
+- [Atomic Physics](/physics/2-particulate-nature-of-matter/2_atomic-physics/) covers the atomic structure knowledge required for nuclear and thermal calculations.
+- [Current Electricity](https://gaokao.wyattau.com/physics/electricity/) explains the electrical concepts that complement thermal energy transfer problems.

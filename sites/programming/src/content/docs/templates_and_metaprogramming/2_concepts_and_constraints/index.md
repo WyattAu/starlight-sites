@@ -18,10 +18,10 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_defining_concepts](./1_defining_concepts)
-- [2_constraint_subsumption](./2_constraint_subsumption)
-- [3_standard_concepts](./3_standard_concepts)
-- [4_sfinae_vs_concepts](./4_sfinae_vs_concepts)
+- [1_defining_concepts](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [2_constraint_subsumption](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [3_standard_concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+- [4_sfinae_vs_concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
 
 ## Learning Objectives
 

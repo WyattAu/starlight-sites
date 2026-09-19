@@ -359,5 +359,5 @@ linked above.
 ## See Also
 
 - [Concurrency](./)
-- [Channels and Concurrency Patterns](./channels)
-- [race conditions](./race-conditions)
+- [Channels and Concurrency Patterns](/go/concurrency/channels/)
+- [race conditions](/go/concurrency/race-conditions/)

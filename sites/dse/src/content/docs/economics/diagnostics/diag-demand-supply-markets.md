@@ -640,5 +640,5 @@ flowchart TD
 ## See Also
 
 - [Diagnostics](./)
-- [Basic Economic Concepts -- Diagnostic Tests](./diag-basic-economic-concepts)
-- [Fiscal and Monetary Policy -- Diagnostic Tests](./diag-fiscal-monetary-policy)
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)

@@ -58,19 +58,19 @@ graph TD
 
 ## Contents
 
-1. [Maxwell"s Equations](1_maxwell-s-equations)
-2. [Electrostatics](2_electrostatics)
-3. [Magnetostatics](3_magnetostatics)
-4. [Electrodynamics](4_electrodynamics)
-5. [Electromagnetic Waves](5_electromagnetic-waves)
-6. [Potentials and Gauge Transformations](6_potentials-and-gauge-transformations)
-7. [Special Relativity and Electromagnetism](7_special-relativity-and-electromagnetism)
-8. [Problem Set](8_problem-set)
-9. [Waveguides and Cavities](9_waveguides-and-cavities)
-10. [Radiation from Accelerating Charges](10_radiation-from-accelerating-charges)
-11. [Advanced Electrodynamics](11_advanced-electrodynamics)
-12. [Special Relativity and Electromagnetism](12_special-relativity-and-electromagnetism-12)
-13. [Plasma Physics: Brief Overview](13_plasma-physics-brief-overview)
+1. [Maxwell"s Equations](/3-electromagnetism/1_maxwell-s-equations/)
+2. [Electrostatics](/3-electromagnetism/2_electrostatics/)
+3. [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+4. [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+5. [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+6. [Potentials and Gauge Transformations](/3-electromagnetism/6_potentials-and-gauge-transformations/)
+7. [Special Relativity and Electromagnetism](/3-electromagnetism/7_special-relativity-and-electromagnetism/)
+8. [Problem Set](/3-electromagnetism/8_problem-set/)
+9. [Waveguides and Cavities](/3-electromagnetism/9_waveguides-and-cavities/)
+10. [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
+11. [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+12. [Special Relativity and Electromagnetism](/3-electromagnetism/12_special-relativity-and-electromagnetism-12/)
+13. [Plasma Physics: Brief Overview](/3-electromagnetism/13_plasma-physics-brief-overview/)
 
 ## Overview
 

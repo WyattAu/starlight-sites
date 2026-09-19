@@ -18,10 +18,10 @@ This section provides study materials and resources for advanced topics. Browse 
 
 ## Topics
 
-- [Advanced Typing](./01-advanced-typing)
-- [Data Validation](./02-data-validation)
-- [Context Managers](./03-context-managers)
-- [Protocols Dunder Methods](./04-protocols-dunder-methods)
+- [Advanced Typing](/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+- [Context Managers](/08-advanced-topics/03-context-managers/)
+- [Protocols Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)
 
 ## Learning Objectives
 

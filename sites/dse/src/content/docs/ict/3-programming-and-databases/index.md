@@ -18,9 +18,9 @@ This section provides study materials and resources for programming and database
 
 ## Topics
 
-- [1_programming Fundamentals](./1_programming-fundamentals)
-- [2_programming And Databases](./2_programming-and-databases)
-- [3_data Management](./3_data-management)
+- [1_programming Fundamentals](/ict/3-programming-and-databases/1_programming-fundamentals/)
+- [2_programming And Databases](/ict/3-programming-and-databases/2_programming-and-databases/)
+- [3_data Management](/ict/3-programming-and-databases/3_data-management/)
 
 ## Learning Objectives
 

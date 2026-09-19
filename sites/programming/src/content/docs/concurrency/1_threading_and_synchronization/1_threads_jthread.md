@@ -288,9 +288,9 @@ int main() {
 
 ## See Also
 
-- [Data Races and Critical Sections](./2_data_races)
-- [Mutexes, Shared Locks, and Deadlock Prevention](./3_mutexes_deadlocks)
-- [Condition Variables, Latches, and Barriers](./4_condition_variables)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/docs/operating-systems)

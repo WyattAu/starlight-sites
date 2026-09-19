@@ -79,7 +79,7 @@ The compulsory syllabus is divided into the following major areas:
 - Work, energy, and power
 - Conservation of energy and efficiency
 
-See [./1-mechanics/1_forces-and-motion](./1-mechanics/1_forces-and-motion) for detailed notes.
+See [./1-mechanics/1_forces-and-motion](/physics/1-mechanics/1_forces-and-motion/) for detailed notes.
 
 ### II. Waves
 
@@ -92,7 +92,7 @@ See [./1-mechanics/1_forces-and-motion](./1-mechanics/1_forces-and-motion) for d
 - Standing waves and resonance
 - Doppler effect
 
-See [./2-waves/1_waves-and-sound](./2-waves/1_waves-and-sound) for detailed notes.
+See [./2-waves/1_waves-and-sound](/physics/2-waves/1_waves-and-sound/) for detailed notes.
 
 ### III. Electricity and Magnetism
 
@@ -109,9 +109,9 @@ See [./2-waves/1_waves-and-sound](./2-waves/1_waves-and-sound) for detailed note
 - Domestic electricity
 
 See
-[./3-electricity-and-magnetism/1_electrical-circuits](./3-electricity-and-magnetism/1_electrical-circuits)
+[./3-electricity-and-magnetism/1_electrical-circuits](/physics/3-electricity-and-magnetism/1_electrical-circuits/)
 and
-[./3-electricity-and-magnetism/3_magnetism-and-electromagnetism](./3-electricity-and-magnetism/3_magnetism-and-electromagnetism)
+[./3-electricity-and-magnetism/3_magnetism-and-electromagnetism](/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/)
 for detailed notes.
 
 ### IV. Thermal Physics
@@ -123,7 +123,7 @@ for detailed notes.
 - Ideal gas equation
 - Kinetic theory of gases
 
-See [./4-thermal-physics/1_heat-and-gases](./4-thermal-physics/1_heat-and-gases) for detailed notes.
+See [./4-thermal-physics/1_heat-and-gases](/physics/4-thermal-physics/1_heat-and-gases/) for detailed notes.
 
 ### V. Atomic Physics
 
@@ -138,7 +138,7 @@ See [./4-thermal-physics/1_heat-and-gases](./4-thermal-physics/1_heat-and-gases)
 - Energy levels in atoms
 - Emission and absorption spectra
 
-See [./5-nuclear-physics/1_nuclear-physics](./5-nuclear-physics/1_nuclear-physics) for detailed
+See [./5-nuclear-physics/1_nuclear-physics](/physics/5-nuclear-physics/1_nuclear-physics/) for detailed
 notes.
 
 ---
@@ -779,7 +779,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 ## Cross-References
 
-- [Mechanics](../../../../../hsc/src/content/docs/physics/mechanics)
-- [Waves](../../../../../hsc/src/content/docs/physics/waves)
-- [Electricity](../../../../../gaokao/src/content/docs/physics/electricity)
-- [Fields](../../../../../alevel/src/content/docs/physics/diagnostics/diag-electric-fields)
+- [Mechanics](https://hsc.wyattau.com/physics/mechanics/)
+- [Waves](https://hsc.wyattau.com/physics/waves/)
+- [Electricity](https://gaokao.wyattau.com/physics/electricity/)
+- [Fields](https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields/)

@@ -1025,6 +1025,6 @@ Packaging turns your code into something others can install and use. `pyproject.
 
 ## Cross-References
 
-- [Modules and Packages](../../../../../go/src/content/docs/advanced/modules-and-packages)
-- [Standard Library Essentials](../../../../../languages/src/content/docs/python/05-standard-library/01-essential-modules)
-- [Style and Idioms](../../../../../languages/src/content/docs/python/07-best-practices/01-style-and-idioms)
+- [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
+- [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
+- [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)

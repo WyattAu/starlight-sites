@@ -18,7 +18,7 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [0_intro](./0_intro)
+- [0_intro](/resource_management/0_intro/)
 
 ## Learning Objectives
 

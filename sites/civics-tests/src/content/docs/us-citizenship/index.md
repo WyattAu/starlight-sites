@@ -18,8 +18,8 @@ This section covers civic knowledge, governance structures, and responsible citi
 
 ## Topics
 
-- [Civics Questions](./civics-questions)
-- [English Test](./english-test)
+- [Civics Questions](/us-citizenship/civics-questions/)
+- [English Test](/us-citizenship/english-test/)
 
 ## Learning Objectives
 

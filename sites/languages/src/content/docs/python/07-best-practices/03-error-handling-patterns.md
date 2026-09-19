@@ -895,5 +895,5 @@ linked above.
 ## See Also
 
 - [Best Practices](./)
-- [Style and Idioms](./01-style-and-idioms)
-- [Debugging and Profiling](./02-debugging-and-profiling)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)

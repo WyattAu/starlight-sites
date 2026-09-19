@@ -952,5 +952,5 @@ Rust's concurrency safety comes from its ownership system extended to threads. T
 ## See Also
 
 - [Concurrency](./)
-- [Async Deep Dive](./async-deep-dive)
-- [Channels and Message Passing](./channels-and-message-passing)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)

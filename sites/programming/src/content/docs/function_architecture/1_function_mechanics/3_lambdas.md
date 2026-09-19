@@ -718,10 +718,10 @@ linked above.
 
 ## Cross-References
 
-- **[Site Home](../../):** Main landing page for Programming notes.
-- **[Types](../../types/):** Type system fundamentals.
-- **[Resource Management](../../resource_management/):** RAII and smart pointers.
-- **[Templates](../../templates_and_metaprogramming/):** Generic programming and metaprogramming.
+- **[Site Home](/):** Main landing page for Programming notes.
+- **[Types](/types/):** Type system fundamentals.
+- **[Resource Management](/resource_management/):** RAII and smart pointers.
+- **[Templates](/templates_and_metaprogramming/):** Generic programming and metaprogramming.
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

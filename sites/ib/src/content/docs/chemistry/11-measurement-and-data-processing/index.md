@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_measurement And Data Processing](./1_measurement-and-data-processing)
+- [1_measurement And Data Processing](/chemistry/11-measurement-and-data-processing/1_measurement-and-data-processing/)
 
 ## Learning Objectives
 

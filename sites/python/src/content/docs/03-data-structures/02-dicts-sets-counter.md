@@ -909,6 +909,6 @@ Dicts are hash tables: they map keys to values with O(1) average lookup time. Th
 
 ## Cross-References
 
-- [Collections](../../../../../kotlin/src/content/docs/intermediate/collections)
-- [Types and Variables](../../../../../kotlin/src/content/docs/basics/types-and-variables)
-- [Functions](../../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions)
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/)
+- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)

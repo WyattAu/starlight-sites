@@ -786,6 +786,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Hardware](../1-hardware/1_hardware) -- Network interfaces and protocols depend on the physical hardware layer of computing systems.
-- [Software](../2-software/2_software) -- Network protocols are implemented in software, connecting hardware communication to operating system services.
-- [Databases](../3-databases/3_databases) -- Client-server database architectures rely on network protocols for data transmission.
+- [Hardware](/computer-science/1-hardware/1_hardware/) -- Network interfaces and protocols depend on the physical hardware layer of computing systems.
+- [Software](/computer-science/2-software/2_software/) -- Network protocols are implemented in software, connecting hardware communication to operating system services.
+- [Databases](/computer-science/3-databases/3_databases/) -- Client-server database architectures rely on network protocols for data transmission.

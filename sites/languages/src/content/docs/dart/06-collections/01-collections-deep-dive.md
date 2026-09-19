@@ -1085,5 +1085,5 @@ linked above.
 ## See Also
 
 - [Collections](./)
-- [Dart](..)
-- [Concurrency Deep Dive](../../java/06-concurrency/02-concurrency-deep-dive)
+- [Dart](/)
+- [Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive/)

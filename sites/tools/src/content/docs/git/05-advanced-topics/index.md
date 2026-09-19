@@ -18,18 +18,18 @@ This section provides study materials and resources for advanced topics. Browse 
 
 ## Topics
 
-- [Reflog](./01-reflog)
-- [Stash](./02-stash)
-- [Bisect](./03-bisect)
-- [Submodules](./04-submodules)
-- [Worktrees](./05-worktrees)
-- [Cherry Pick](./06-cherry-pick)
-- [Hooks](./07-hooks)
-- [Commit Signing](./08-commit-signing)
-- [Pre Commit Framework](./09-pre-commit-framework)
-- [Filter Repo](./10-filter-repo)
-- [Sparse Checkout And Partial Clone](./11-sparse-checkout-and-partial-clone)
-- [Subtrees](./12-subtrees)
+- [Reflog](/git/05-advanced-topics/01-reflog/)
+- [Stash](/git/05-advanced-topics/02-stash/)
+- [Bisect](/git/05-advanced-topics/03-bisect/)
+- [Submodules](/git/05-advanced-topics/04-submodules/)
+- [Worktrees](/git/05-advanced-topics/05-worktrees/)
+- [Cherry Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Hooks](/git/05-advanced-topics/07-hooks/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Pre Commit Framework](/git/05-advanced-topics/09-pre-commit-framework/)
+- [Filter Repo](/git/05-advanced-topics/10-filter-repo/)
+- [Sparse Checkout And Partial Clone](/git/05-advanced-topics/11-sparse-checkout-and-partial-clone/)
+- [Subtrees](/git/05-advanced-topics/12-subtrees/)
 
 ## Learning Objectives
 

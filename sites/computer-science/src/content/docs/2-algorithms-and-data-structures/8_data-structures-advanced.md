@@ -1890,5 +1890,5 @@ flowchart TD
 ## See Also
 
 - [Algorithms and Data Structures](./)
-- [Algorithms and Data Structures -- Practice Problems](./12_practice-algorithms-data-structures)
-- [Fundamental Data Structures](./2_fundamental-data-structures)
+- [Algorithms and Data Structures -- Practice Problems](/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/)
+- [Fundamental Data Structures](/2-algorithms-and-data-structures/2_fundamental-data-structures/)

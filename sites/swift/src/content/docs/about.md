@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Swift](./)
-- [Swift Basics Flashcards](./flashcards-swift-basics)
-- [Swift](./intro)
+- [Swift Basics Flashcards](/flashcards-swift-basics/)
+- [Swift](/intro/)
 
 
 ## Detailed Content

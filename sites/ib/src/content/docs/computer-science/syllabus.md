@@ -303,14 +303,14 @@ Work.
 
 ## Topic Pages
 
-- [Computer Organization](2-computer-organization/1_computer-organization) -- processor
+- [Computer Organization](/computer-science/2-computer-organization/1_computer-organization/) -- processor
   architecture, memory, and instruction cycle
-- [Networks](3-networks/1_networks) -- network models, protocols, and data transmission
-- [System Design](1-system-fundamentals/1_system-design) -- system planning, stakeholder
+- [Networks](/computer-science/3-networks/1_networks/) -- network models, protocols, and data transmission
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/) -- system planning, stakeholder
   analysis, and design methodologies
-- [System in Organization](1-system-fundamentals/2_system-organization) -- systems in context,
+- [System in Organization](/computer-science/1-system-fundamentals/2_system-organization/) -- systems in context,
   integration, and organizational impact
-- [OOP / Java](8-object-oriented-programming/1_object-oriented-programming) -- object-oriented
+- [OOP / Java](/computer-science/8-object-oriented-programming/1_object-oriented-programming/) -- object-oriented
   programming concepts and Java-specific notes
 
 ## Common Pitfalls
@@ -351,9 +351,9 @@ linked above.
 
 ## Cross-References
 
-- **[System Fundamentals](../computer-science/flashcards-system-fundamentals):** The syllabus covers fundamentals
-- **[Algorithms](../computer-science/flashcards-algorithms-data-structures):** Algorithms are a major component
-- **[Networking](../computer-science/flashcards-networks-databases):** Networks are included
+- **[System Fundamentals](/computer-science/flashcards-system-fundamentals/):** The syllabus covers fundamentals
+- **[Algorithms](/computer-science/flashcards-algorithms-data-structures/):** Algorithms are a major component
+- **[Networking](/computer-science/flashcards-networks-databases/):** Networks are included
 
 ---
 

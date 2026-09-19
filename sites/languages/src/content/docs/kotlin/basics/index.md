@@ -18,10 +18,10 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Classes And Objects](./classes-and-objects)
-- [Control Flow](./control-flow)
-- [Functions](./functions)
-- [Types And Variables](./types-and-variables)
+- [Classes And Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Functions](/kotlin/basics/functions/)
+- [Types And Variables](/kotlin/basics/types-and-variables/)
 
 ## Learning Objectives
 

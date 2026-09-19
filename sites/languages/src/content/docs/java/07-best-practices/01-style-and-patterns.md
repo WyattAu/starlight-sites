@@ -1398,5 +1398,5 @@ linked above.
 ## See Also
 
 - [Best Practices](./)
-- [Java](..)
-- [Style and Idioms](../../python/07-best-practices/01-style-and-idioms)
+- [Java](/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)

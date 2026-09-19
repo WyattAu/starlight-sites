@@ -512,5 +512,5 @@ $= 0 + 0 + 2 \cdot 6 + 6 \cdot 4 + 12 \cdot 1 = 12 + 24 + 12 = 48$. Confirmed.
 ## See Also
 
 - [Diagnostics](./)
-- [Algebraic Expressions -- Diagnostic Tests](./diag-algebraic-expressions)
-- [Data Representation -- Diagnostic Tests](./diag-data-representation)
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Data Representation -- Diagnostic Tests](/maths/diagnostics/diag-data-representation/)

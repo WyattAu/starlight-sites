@@ -18,16 +18,16 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Topics
 
-- [Diag Complex Numbers](./diag-complex-numbers)
-- [Diag Differential Equations](./diag-differential-equations)
-- [Diag Further Algebra](./diag-further-algebra)
-- [Diag Further Calculus](./diag-further-calculus)
-- [Diag Hyperbolic Functions](./diag-hyperbolic-functions)
-- [Diag Maclaurin Taylor Series](./diag-maclaurin-taylor-series)
-- [Diag Matrices](./diag-matrices)
-- [Diag Polar Coordinates](./diag-polar-coordinates)
-- [Diag Vectors 3d](./diag-vectors-3d)
-- [Diagnostic Guide](./diagnostic-guide)
+- [Diag Complex Numbers](/further-maths/diagnostics/diag-complex-numbers/)
+- [Diag Differential Equations](/further-maths/diagnostics/diag-differential-equations/)
+- [Diag Further Algebra](/further-maths/diagnostics/diag-further-algebra/)
+- [Diag Further Calculus](/further-maths/diagnostics/diag-further-calculus/)
+- [Diag Hyperbolic Functions](/further-maths/diagnostics/diag-hyperbolic-functions/)
+- [Diag Maclaurin Taylor Series](/further-maths/diagnostics/diag-maclaurin-taylor-series/)
+- [Diag Matrices](/further-maths/diagnostics/diag-matrices/)
+- [Diag Polar Coordinates](/further-maths/diagnostics/diag-polar-coordinates/)
+- [Diag Vectors 3d](/further-maths/diagnostics/diag-vectors-3d/)
+- [Diagnostic Guide](/further-maths/diagnostics/diagnostic-guide/)
 
 ## Learning Objectives
 

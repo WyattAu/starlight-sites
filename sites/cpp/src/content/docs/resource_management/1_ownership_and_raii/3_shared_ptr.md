@@ -444,7 +444,7 @@ Bob created
 ```
 
 Neither destructor runs. The fix is to break the cycle using `weak_ptr` (see
-[Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)).
+[Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)).
 
 ## 3.7 Copy-on-Write Pattern
 
@@ -772,10 +772,10 @@ int main() {
 
 ## See Also
 
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
-- [Weak Pointers and Cyclic Reference Breaking](4_weak_ptr)
-- [Common Pitfalls](5_custom_deleters)
-- [RAII Patterns](1_raii_patterns) :::
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/) :::
 
 ```mermaid
 flowchart TD

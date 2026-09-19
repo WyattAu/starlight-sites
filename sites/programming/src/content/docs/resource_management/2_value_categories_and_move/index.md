@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_value_taxonomy](./1_value_taxonomy)
-- [2_reference_collapsing](./2_reference_collapsing)
-- [3_temporary_materialization](./3_temporary_materialization)
-- [4_move_constructors_rvo](./4_move_constructors_rvo)
-- [5_return_value_optimization](./5_return_value_optimization)
+- [1_value_taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
+- [2_reference_collapsing](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [3_temporary_materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [4_move_constructors_rvo](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [5_return_value_optimization](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
 
 ## Learning Objectives
 

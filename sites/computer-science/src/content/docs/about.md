@@ -104,7 +104,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 - [Computing](./)
 - [Computing](./)
-- [Algorithms and Data Structures](./algorithms-and-data-structures)
+- [Algorithms and Data Structures](/algorithms-and-data-structures/)
 
 
 ## Detailed Content

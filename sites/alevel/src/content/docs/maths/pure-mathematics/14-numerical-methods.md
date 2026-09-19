@@ -858,10 +858,10 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Differentiation](10-differentiation) -- Newton-Raphson requires the derivative, and convergence analysis relies on Taylor's theorem from differentiation.
-- [Integration](11-integration) -- The trapezium rule and Simpson's rule are numerical approximations of definite integrals.
-- [Exponentials and Logarithms](09-exponentials-and-logarithms) -- Many root-finding problems involve exponential equations solved iteratively.
-- [Proof](13-proof) -- Convergence proofs use logical deduction techniques such as contradiction and induction.
+- [Differentiation](/maths/pure-mathematics/10-differentiation/) -- Newton-Raphson requires the derivative, and convergence analysis relies on Taylor's theorem from differentiation.
+- [Integration](/maths/pure-mathematics/11-integration/) -- The trapezium rule and Simpson's rule are numerical approximations of definite integrals.
+- [Exponentials and Logarithms](/maths/pure-mathematics/09-exponentials-and-logarithms/) -- Many root-finding problems involve exponential equations solved iteratively.
+- [Proof](/maths/pure-mathematics/13-proof/) -- Convergence proofs use logical deduction techniques such as contradiction and induction.
 
 ## Common Pitfalls
 

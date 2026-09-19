@@ -263,23 +263,23 @@ $$
 
 **Nucleophilic substitution ($\mathrm{S_N}$):** A nucleophile replaces a leaving group on a
 Saturated carbon. Two mechanisms exist: $\mathrm{S_N}2$ (concerted, bimolecular) and $\mathrm{S_N}1$
-(stepwise, unimolecular). Covered in detail in [halogenoalkanes](./halogenoalkanes).
+(stepwise, unimolecular). Covered in detail in [halogenoalkanes](/chemistry/organic-chemistry/halogenoalkanes/).
 
 **Electrophilic addition ($\mathrm{Ad}_E$):** An electrophile adds across a C=C double bond. The
 $\pi$ bond acts as a nucleophile. The mechanism proceeds via a carbocation intermediate. Covered in
-[alkenes](./alkenes).
+[alkenes](/chemistry/organic-chemistry/alkenes/).
 
 **Electrophilic aromatic substitution ($\mathrm{SE}_Ar$):** An electrophile substitutes a hydrogen
 On an aromatic ring. The aromatic system is temporarily disrupted (arenium ion intermediate) but
-Restored by loss of a proton. Covered in [arenes](./arenes).
+Restored by loss of a proton. Covered in [arenes](/chemistry/organic-chemistry/arenes/).
 
 **Nucleophilic addition ($\mathrm{Ad}_N$):** A nucleophile adds to the carbonyl carbon of an
 Aldehyde or ketone. The C=O $\pi$ bond is broken. Covered in
-[carbonyl compounds](./carbonyl-compounds).
+[carbonyl compounds](/chemistry/organic-chemistry/carbonyl-compounds/).
 
 **Elimination ($E$):** A small molecule (e.g. $\mathrm{H}_2\mathrm{O}$$\mathrm{HX}$) is removed From
 adjacent carbons to form a C=C double bond. Favoured by strong bases and high temperatures. Covered
-in [halogenoalkanes](./halogenoalkanes).
+in [halogenoalkanes](/chemistry/organic-chemistry/halogenoalkanes/).
 
 ### Curly Arrow Conventions
 
@@ -1085,9 +1085,9 @@ $$m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}$$
 
 ## Cross-References
 
-- **[Alkanes](alkanes):** Alkanes are the foundation of organic chemistry
-- **[Alkenes](alkenes):** Alkenes introduce C=C double bonds
-- **[Alcohols](alcohols):** Alcohols contain hydroxyl groups
+- **[Alkanes](/chemistry/organic-chemistry/alkanes/):** Alkanes are the foundation of organic chemistry
+- **[Alkenes](/chemistry/organic-chemistry/alkenes/):** Alkenes introduce C=C double bonds
+- **[Alcohols](/chemistry/organic-chemistry/alcohols/):** Alcohols contain hydroxyl groups
 
 ## Intuition
 

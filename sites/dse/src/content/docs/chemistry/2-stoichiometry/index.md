@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [1_mole Concept And Stoichiometry](./1_mole-concept-and-stoichiometry)
+- [1_mole Concept And Stoichiometry](/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)
 
 ## Learning Objectives
 

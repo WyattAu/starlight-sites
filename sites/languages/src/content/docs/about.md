@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Programming Languages](./)
-- [Programming Language Comparison Guide](./hub)
-- [Setup](./dart/02-setup)
+- [Programming Language Comparison Guide](/hub/)
+- [Setup](/dart/02-setup/)
 
 
 ## Detailed Content

@@ -139,11 +139,11 @@ tags: [glossary]
 
 ## Related Resources
 
-- [Mechanics Problems](../../../../hsc/src/content/docs/physics/mechanics)
-- [Thermodynamics Examples](../../../../alevel/src/content/docs/chemistry/thermodynamics)
-- [Electromagnetism Guide](../../../../alevel/src/content/docs/physics/diagnostics/diag-electromagnetism-unification)
-- [Quantum Physics Overview](../../../../alevel/src/content/docs/physics/nuclear-physics/03-quantum-physics)
-- [Relativity Introduction](3-electromagnetism/12_special-relativity-and-electromagnetism-12)
+- [Mechanics Problems](https://hsc.wyattau.com/physics/mechanics/)
+- [Thermodynamics Examples](https://alevel.wyattau.com/chemistry/thermodynamics/)
+- [Electromagnetism Guide](https://alevel.wyattau.com/physics/diagnostics/diag-electromagnetism-unification/)
+- [Quantum Physics Overview](https://alevel.wyattau.com/physics/nuclear-physics/03-quantum-physics/)
+- [Relativity Introduction](/3-electromagnetism/12_special-relativity-and-electromagnetism-12/)
 
 
 ## Detailed Content

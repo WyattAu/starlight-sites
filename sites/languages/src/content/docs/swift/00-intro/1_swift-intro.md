@@ -524,5 +524,5 @@ Swift is Apple's answer to the question: can we have C++ performance with Python
 ## See Also
 
 - [Intro](./)
-- [Swift](..)
-- [Introduction to Dart & Flutter](../../dart/01-intro)
+- [Swift](/)
+- [Introduction to Dart & Flutter](/dart/01-intro/)

@@ -1845,5 +1845,5 @@ The three basic control structures, sequence, selection, and iteration, are the 
 ## See Also
 
 - [Control](./)
-- [IB Computer Science](..)
-- [JETS](../8-object-oriented-programming/1_object-oriented-programming)
+- [IB Computer Science](/)
+- [JETS](/computer-science/8-object-oriented-programming/1_object-oriented-programming/)

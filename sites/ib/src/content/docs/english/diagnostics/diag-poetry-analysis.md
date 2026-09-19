@@ -126,5 +126,5 @@ Answer each question. Check your answers against the key at the end.
 ## See Also
 
 - [Diagnostics](./)
-- [English](..)
-- [Poetry Analysis Guide for IB English](../poetry-analysis-guide)
+- [English](/)
+- [Poetry Analysis Guide for IB English](/english/poetry-analysis-guide/)

@@ -195,8 +195,8 @@ Comparison that avoids allocation.
 
 ## See Also
 
-- [Operator Overloading](./4_operator_overloading)
-- [Custom Formatting: std::formatter](./6_std_formatter)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Custom Formatting: std::formatter](/object_oriented/1_class_design/6_std_formatter/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -855,5 +855,5 @@ linked above.
 ## See Also
 
 - [Papers](./)
-- [Paper 2 -- Statistics -- Full Diagnostic Exam](./paper-2-statistics)
-- [Paper 3 -- Mechanics -- Full Diagnostic Exam](./paper-3-mechanics)
+- [Paper 2 -- Statistics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-2-statistics/)
+- [Paper 3 -- Mechanics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-3-mechanics/)

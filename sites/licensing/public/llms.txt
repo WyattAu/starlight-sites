@@ -1,0 +1,35 @@
+# Licensing — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+Practical software licensing guidance: choosing between MIT, GPL, Apache, and other licenses; understanding copyleft vs permissive models; handling license
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Overview
+
+- [About This Site](https://licensing.wyattau.com/about/): About Wyatt's Notes Licensing resources, experience, expertise, and credentials behind software licensing study materials.
+- [Apache License](https://licensing.wyattau.com/apache-license/): Study notes for Apache License with worked examples, practice problems, and key concepts for exam preparation.
+- [Attribution](https://licensing.wyattau.com/attribution/): Study notes for Attribution with worked examples, practice problems, and key concepts for exam preparation.
+- [Compliance](https://licensing.wyattau.com/compliance/): Study notes for Compliance with worked examples, practice problems, and key concepts for exam preparation.
+- [Copyleft](https://licensing.wyattau.com/copyleft/): Study notes for Copyleft with worked examples, practice problems, and key concepts for exam preparation.
+- [Creative Commons](https://licensing.wyattau.com/creative-commons/): Study notes for Creative Commons with worked examples, practice problems, and key concepts for exam preparation.
+- [Dual Licensing](https://licensing.wyattau.com/dual-licensing/): Study notes for Dual Licensing with worked examples, practice problems, and key concepts for exam preparation.
+- [Gnu Gpl](https://licensing.wyattau.com/gnu-gpl/): Study notes for Gnu Gpl with worked examples, practice problems, and key concepts for exam preparation.
+- [License Compatibility](https://licensing.wyattau.com/license-compatibility/): Study notes for License Compatibility with worked examples, practice problems, and key concepts for exam preparation.
+- [Licensing](https://licensing.wyattau.com/): Practical software licensing guidance: choosing between MIT, GPL, Apache, and other licenses; understanding copyleft vs permissive models; handling license
+- [Licensing](https://licensing.wyattau.com/intro/): Study notes for Licensing with worked examples, practice problems, and key concepts for exam preparation.
+- [Mit License](https://licensing.wyattau.com/mit-license/): Study notes for Mit License with worked examples, practice problems, and key concepts for exam preparation.
+- [Open Source](https://licensing.wyattau.com/open-source/): Study notes for Open Source with worked examples, practice problems, and key concepts for exam preparation.
+- [Open Source Licenses | licensing](https://licensing.wyattau.com/osi-licenses/): Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place minimal restrictions on how the code can be used, they
+- [Permissive](https://licensing.wyattau.com/permissive/): Study notes for Permissive with worked examples, practice problems, and key concepts for exam preparation.
+- [Proprietary](https://licensing.wyattau.com/proprietary/): Study notes for Proprietary with worked examples, practice problems, and key concepts for exam preparation.
+- [Public Domain](https://licensing.wyattau.com/public-domain/): Study notes for Public Domain with worked examples, practice problems, and key concepts for exam preparation.
+- [Software Licenses](https://licensing.wyattau.com/software-licenses/): Study notes for Software Licenses with worked examples, practice problems, and key concepts for exam preparation.
+- [Software Licensing Glossary, Key Terms](https://licensing.wyattau.com/glossary/): Essential software licensing terminology: copyleft, permissive licenses, dual licensing, GPL, MIT, Apache, BSD, and commercial licensing models.
+- [Software Licensing Guide, GPL, MIT, Apache, BSD](https://licensing.wyattau.com/hub/): Study notes for Software Licensing Guide, GPL, MIT, Apache, BSD with worked examples, practice problems, and key concepts for exam preparation.
+- [Trade Secret](https://licensing.wyattau.com/trade-secret/): Study notes for Trade Secret with worked examples, practice problems, and key concepts for exam preparation.
+
+## Os-Licenses
+
+- [Open Source Licences Guide](https://licensing.wyattau.com/os-licenses/open-source-licenses/): Complete guide to open source licences including MIT, Apache 2.0, GPL, and BSD with comparison and use cases.

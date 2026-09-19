@@ -158,6 +158,6 @@ linked above.
 
 ## Cross-References
 
-- [Home Server Setup](./home-server-setup) -- Network proxy configuration is part of the initial server setup for internet-facing services.
-- [Apps and Services](../04-apps-and-services/apps-and-services) -- Reverse proxy services like Traefik route external traffic to internal applications.
-- [Monitoring and Alerting](../05-monitoring-and-alerting/monitoring-and-alerting) -- Proxy access logs can be monitored for security and performance insights.
+- [Home Server Setup](/setup/home-server-setup/) -- Network proxy configuration is part of the initial server setup for internet-facing services.
+- [Apps and Services](/04-apps-and-services/apps-and-services/) -- Reverse proxy services like Traefik route external traffic to internal applications.
+- [Monitoring and Alerting](/05-monitoring-and-alerting/monitoring-and-alerting/) -- Proxy access logs can be monitored for security and performance insights.

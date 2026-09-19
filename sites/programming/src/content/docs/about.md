@@ -102,8 +102,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Programming Notes](./)
-- [Complete C++ Programming Study Guide](./hub)
-- [1_translation](./compilation_model/1_translation)
+- [Complete C++ Programming Study Guide](/hub/)
+- [1_translation](/compilation_model/1_translation/)
 
 
 ## Detailed Content

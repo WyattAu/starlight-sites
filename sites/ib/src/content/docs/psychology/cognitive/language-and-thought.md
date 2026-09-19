@@ -271,7 +271,7 @@ Structured context for communication.
 </details>
 
 For an overview of cognitive topics, see
-[Cognitive Level of Analysis](../cognitive-level-of-analysis).
+[Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/).
 
 ## Common Pitfalls
 
@@ -314,6 +314,6 @@ Psychology bridges the gap between biological processes and human experience. Th
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

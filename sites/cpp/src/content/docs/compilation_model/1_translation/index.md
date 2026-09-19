@@ -18,11 +18,11 @@ This section provides study materials and resources for 1_translation. Browse th
 
 ## Topics
 
-- [1_preprocessing_ast_object](./1_preprocessing_ast_object)
-- [2_symbol_visibility](./2_symbol_visibility)
-- [3_linker](./3_linker)
-- [4_binary_formats](./4_binary_formats)
-- [5_name_mangling](./5_name_mangling)
+- [1_preprocessing_ast_object](/compilation_model/1_translation/1_preprocessing_ast_object/)
+- [2_symbol_visibility](/compilation_model/1_translation/2_symbol_visibility/)
+- [3_linker](/compilation_model/1_translation/3_linker/)
+- [4_binary_formats](/compilation_model/1_translation/4_binary_formats/)
+- [5_name_mangling](/compilation_model/1_translation/5_name_mangling/)
 
 ## Learning Objectives
 

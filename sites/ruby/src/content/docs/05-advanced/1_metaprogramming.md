@@ -1156,9 +1156,9 @@ emp.job_title  # => "Engineer"
 
 ## Cross-References
 
-- [OOP](../../../../../languages/src/content/docs/ruby/04-oop/1_oop) - How metaprogramming extends Ruby's object model with dynamic behavior
-- [Methods and Blocks](../../../../../languages/src/content/docs/ruby/03-methods-blocks/1_methods-and-blocks) - How define_method and method_missing dynamically create method dispatch
-- [Concurrency](2_concurrency) - How thread safety concerns affect metaprogrammed code
+- [OOP](https://languages.wyattau.com/ruby/04-oop/1_oop/) - How metaprogramming extends Ruby's object model with dynamic behavior
+- [Methods and Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/) - How define_method and method_missing dynamically create method dispatch
+- [Concurrency](/05-advanced/2_concurrency/) - How thread safety concerns affect metaprogrammed code
 
 ## Common Mistakes
 

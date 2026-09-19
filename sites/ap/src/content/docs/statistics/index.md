@@ -158,6 +158,6 @@ The AP Statistics exam consists of two sections:
 
 ## Cross-References
 
-- **[AP Calculus](../../../../../hsc/src/content/docs/mathematics/calculus):** Calculus provides the mathematical foundation for understanding continuous probability distributions and density functions.
-- **[AP Biology](../../../../../gcse/src/content/docs/biology):** Statistics is essential for designing experiments and analysing data in biological research.
-- **[AP Computer Science](../../../../../ib/src/content/docs/computer-science/computer-science):** Data analysis and algorithms for processing data draw on statistical concepts.
+- **[AP Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus provides the mathematical foundation for understanding continuous probability distributions and density functions.
+- **[AP Biology](https://gcse.wyattau.com/biology/):** Statistics is essential for designing experiments and analysing data in biological research.
+- **[AP Computer Science](https://ib.wyattau.com/computer-science/computer-science/):** Data analysis and algorithms for processing data draw on statistical concepts.

@@ -526,6 +526,6 @@ and the [MDX specification](https://mdxjs.com/).
 
 ## Cross-References
 
-- **[Testing: Markdown Constructs](testing/markdown-constructs):** Interactive testing of Markdown constructs and formatting.
-- **[Alleviate Back Pain](examples/alleviate-back-pain):** Example page demonstrating Markdown formatting in practice.
-- **[Crafting Ghee](examples/crafting-ghee):** Another example page with MDX components and formatting.
+- **[Testing: Markdown Constructs](/general/testing/markdown-constructs/):** Interactive testing of Markdown constructs and formatting.
+- **[Alleviate Back Pain](/general/examples/alleviate-back-pain/):** Example page demonstrating Markdown formatting in practice.
+- **[Crafting Ghee](/general/examples/crafting-ghee/):** Another example page with MDX components and formatting.

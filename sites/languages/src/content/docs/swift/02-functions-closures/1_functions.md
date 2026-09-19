@@ -731,5 +731,5 @@ Swift functions are first-class values that can be assigned to variables, passed
 ## See Also
 
 - [Functions Closures](./)
-- [Swift](..)
-- [Functions](../../go/basics/functions)
+- [Swift](/)
+- [Functions](/go/basics/functions/)

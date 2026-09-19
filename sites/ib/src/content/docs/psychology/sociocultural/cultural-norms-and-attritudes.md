@@ -249,7 +249,7 @@ Self-criticism serves as a mechanism for identifying areas where self-improvemen
 </details>
 
 For an overview of sociocultural topics, see
-[Sociocultural Level of Analysis](../sociocultural-level-of-analysis).
+[Sociocultural Level of Analysis](/psychology/sociocultural-level-of-analysis/).
 
 ## Common Pitfalls
 
@@ -293,6 +293,6 @@ The mind works like an information processing system. Perception filters raw sen
 
 ## Cross-References
 
-- [Research Methods](../research-methods)
-- [Approaches in Psychology](../approaches)
-- [Biopsychology](../../../../../../alevel/src/content/docs/psychology/7-biopsychology/1_biopsychology)
+- [Research Methods](/psychology/research-methods/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)

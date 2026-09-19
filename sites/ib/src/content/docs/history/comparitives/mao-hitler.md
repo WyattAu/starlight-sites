@@ -634,6 +634,6 @@ linked above.
 
 ## Cross-References
 
-- **[Cold War](../cold-war):** Comparative studies relate to Cold War
-- **[Authoritarian States](../authoritarian-states):** Authoritarian systems are compared
-- **[Causes and Effects](../causes-and-effects-of-wars):** Wars are compared
+- **[Cold War](/history/cold-war/):** Comparative studies relate to Cold War
+- **[Authoritarian States](/history/authoritarian-states/):** Authoritarian systems are compared
+- **[Causes and Effects](/history/causes-and-effects-of-wars/):** Wars are compared

@@ -94,8 +94,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [AP](./)
-- [AP Computer Science A](./ap-computer-science-a)
-- [AP Computer Science Principles](./ap-computer-science-principles)
+- [AP Computer Science A](/ap-computer-science-a/)
+- [AP Computer Science Principles](/ap-computer-science-principles/)
 
 
 ## Detailed Content

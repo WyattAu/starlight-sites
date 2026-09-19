@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Typescript](./)
-- [Advanced Patterns](./advanced-patterns)
-- [advanced types](./advanced-types)
+- [Advanced Patterns](/advanced-patterns/)
+- [advanced types](/advanced-types/)
 
 
 ## Detailed Content

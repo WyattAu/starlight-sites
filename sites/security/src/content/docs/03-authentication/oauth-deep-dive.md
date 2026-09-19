@@ -590,6 +590,6 @@ linked above.
 
 ## Cross-References
 
-- [Authentication](authentication) covers the foundational authentication mechanisms that OAuth extends through delegated authorisation.
-- [Web Security](../04-web-security/web-security) addresses the vulnerabilities that can arise when OAuth implementations are misconfigured.
-- [Cryptography](../../../../../computer-science/src/content/docs/3-theory/cryptography) provides the token signing and encryption methods that secure OAuth flows.
+- [Authentication](/03-authentication/authentication/) covers the foundational authentication mechanisms that OAuth extends through delegated authorisation.
+- [Web Security](/04-web-security/web-security/) addresses the vulnerabilities that can arise when OAuth implementations are misconfigured.
+- [Cryptography](https://computer-science.wyattau.com/3-theory/cryptography/) provides the token signing and encryption methods that secure OAuth flows.

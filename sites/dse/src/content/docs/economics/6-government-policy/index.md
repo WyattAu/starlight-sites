@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_fiscal And Monetary Policy](./1_fiscal-and-monetary-policy)
+- [1_fiscal And Monetary Policy](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ## Learning Objectives
 

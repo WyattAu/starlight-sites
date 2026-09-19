@@ -188,5 +188,5 @@ When you transform a random variable, its distribution changes according to how 
 ## See Also
 
 - [Probability Theory](./)
-- [Probability and Statistics](./6_probability-and-statistics)
-- [Probability Spaces](./1_probability-spaces)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)

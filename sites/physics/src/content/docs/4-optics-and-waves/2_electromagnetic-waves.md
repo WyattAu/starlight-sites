@@ -270,9 +270,9 @@ m$^{-1}$.
 
 ## Cross-References
 
-- **[Diffraction](./4_diffraction)**: Applies the wave nature of electromagnetic radiation to explain bending through apertures, building on the plane wave solutions derived here.
-- **[Polarization](./5_polarization)**: Explores the vector nature of the electric field, including linear, circular, and elliptical polarisation states.
-- **[Geometric Optics](./6_geometric-optics)**: Takes the high-frequency limit of electromagnetic wave propagation, reducing wave equations to ray tracing.
+- **[Diffraction](/4-optics-and-waves/4_diffraction/)**: Applies the wave nature of electromagnetic radiation to explain bending through apertures, building on the plane wave solutions derived here.
+- **[Polarization](/4-optics-and-waves/5_polarization/)**: Explores the vector nature of the electric field, including linear, circular, and elliptical polarisation states.
+- **[Geometric Optics](/4-optics-and-waves/6_geometric-optics/)**: Takes the high-frequency limit of electromagnetic wave propagation, reducing wave equations to ray tracing.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

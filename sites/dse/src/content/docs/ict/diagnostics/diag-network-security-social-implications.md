@@ -305,5 +305,5 @@ public awareness with the organisation's ability to protect its users.
 ## See Also
 
 - [Diagnostics](./)
-- [Computer Systems -- Diagnostic Tests](./diag-computer-systems)
-- [Data Representation -- Diagnostic Tests](./diag-data-representation)
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)

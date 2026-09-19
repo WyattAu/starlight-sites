@@ -949,5 +949,5 @@ Advanced patterns combine TypeScript's type-level features to create sophisticat
 ## See Also
 
 - [Typescript](./)
-- [advanced types](./advanced-types)
-- [Classes](./classes)
+- [advanced types](/typescript/advanced-types/)
+- [Classes](/typescript/classes/)

@@ -632,6 +632,6 @@ performance in this area.
 
 ## Cross-References
 
-- **[19th Century Novel](../2-19th-century-novel/2_19th-century-novel):** Covers prose analysis techniques that complement Shakespeare analysis.
-- **[Modern Texts and Poetry](../3-modern-texts-and-poetry/3_modern-texts-and-poetry):** Explores modern literature and poetry analysis methods.
-- **[Practice English](../practice-english):** Interactive practice problems covering literary analysis and essay writing.
+- **[19th Century Novel](/english/2-19th-century-novel/2_19th-century-novel/):** Covers prose analysis techniques that complement Shakespeare analysis.
+- **[Modern Texts and Poetry](/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/):** Explores modern literature and poetry analysis methods.
+- **[Practice English](/english/practice-english/):** Interactive practice problems covering literary analysis and essay writing.

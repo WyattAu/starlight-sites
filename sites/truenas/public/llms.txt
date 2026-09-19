@@ -1,0 +1,51 @@
+# TrueNAS — Wyatt's Notes
+
+> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
+
+TrueNAS configuration and administration: ZFS pool management, dataset and zvol creation, SMB/NFS sharing, snapshots and replication, cloud sync, user
+
+All pages are open-access, ad-free, and licensed under AGPLv3.
+
+## Zfs
+
+- [ZFS Deep Dive](https://truenas.wyattau.com/01-zfs/zfs-deep-dive/): ZFS is not a traditional filesystem. It is a combined volume manager and filesys Comprehensive educational content coverage with definitions and practice proble
+
+## Sharing-And-Permissions
+
+- [Sharing and Permissions](https://truenas.wyattau.com/02-sharing-and-permissions/sharing-and-permissions/): Server Message Block (SMB) is the primary file sharing protocol for Windows environments. TrueNAS Uses Samba to provide SMB sharing. Modern versions support
+
+## Backup-And-Replication
+
+- [Backup and Replication](https://truenas.wyattau.com/03-backup-and-replication/backup-and-replication/): The 3-2-1 rule is the minimum standard for data protection: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
+
+## Apps-And-Services
+
+- [Apps and Services](https://truenas.wyattau.com/04-apps-and-services/apps-and-services/): TrueNAS SCALE uses a Kubernetes-based application framework. Apps run as Helm charts deployed into a Lightweight Kubernetes cluster managed by TrueNAS. This
+
+## Monitoring-And-Alerting
+
+- [Monitoring and Alerting](https://truenas.wyattau.com/05-monitoring-and-alerting/monitoring-and-alerting/): The TrueNAS dashboard provides a real-time overview of system health: Comprehensive educational content coverage with definitions and practice problems.
+
+## Performance-Tuning
+
+- [TrueNAS Performance Tuning](https://truenas.wyattau.com/06-performance-tuning/truenas-performance/): The Adaptive Replacement Cache (ARC) is ZFS' s primary read cache, stored in system RAM. It uses an Algorithm that maintains two lists:
+
+## Overview
+
+- [About This Site](https://truenas.wyattau.com/about/): About Wyatt's Notes TrueNAS resources, experience, expertise, and credentials behind TrueNAS storage system study materials.
+- [Complete TrueNAS Administration Guide](https://truenas.wyattau.com/hub/): Study notes for Complete TrueNAS Administration Guide with worked examples, practice problems, and key concepts for exam preparation.
+- [Introduction to TrueNAS](https://truenas.wyattau.com/intro/): Reference for deploying and managing TrueNAS (CORE and SCALE), covering ZFS pool design, dataset Permissions, SMB/NFS sharing, snapshots, replication,
+- [TrueNAS](https://truenas.wyattau.com/): TrueNAS configuration and administration: ZFS pool management, dataset and zvol creation, SMB/NFS sharing, snapshots and replication, cloud sync, user
+- [TrueNAS Glossary, Key Terms and Definitions](https://truenas.wyattau.com/glossary/): Study notes for TrueNAS Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
+- [TrueNAS Practice](https://truenas.wyattau.com/practice-truenas/): 15 MCQ questions covering ZFS concepts, pool management, datasets, shares, snapshots, replication, and networking. Select an option to check your answer and
+- [ZFS Encryption](https://truenas.wyattau.com/zfs-encryption/): ZFS native encryption is a dataset-level encryption mechanism integrated into the ZFS storage stack, introduced in OpenZFS 0.8 (ZoL 0.8.0, FreeBSD 12.0). It
+
+## Diagnostics
+
+- [Diagnostic Test: TrueNAS](https://truenas.wyattau.com/diagnostics/diag-truenas/): Diagnostic test notes for truenas Diagnostic Test: TrueNAS covering key concepts, worked examples, and practice problems for exam preparation.
+
+## Setup
+
+- [Network Proxy](https://truenas.wyattau.com/setup/network-proxy/): - Obtain a DDNS domain (cloudflare, duckDNS, etc) - Dockge or portainer (prefered to install with custom docker compose as the app image from catalog cause
+- [Setting Up Home Server](https://truenas.wyattau.com/setup/home-server-setup/): For a homelab NAS running TrueNAS SCALE, CPU choice depends on the workload: Comprehensive educational content coverage with definitions and practice problems.
+- [Setup Traefik](https://truenas.wyattau.com/setup/traefik/): Study notes for Setup Traefik with worked examples, practice problems, and key concepts for exam preparation.

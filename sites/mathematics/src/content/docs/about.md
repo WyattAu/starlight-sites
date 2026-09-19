@@ -105,7 +105,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 - [Mathematics](./)
 - [Mathematics](./)
-- [abstract algebra](./abstract-algebra)
+- [abstract algebra](/abstract-algebra/)
 
 
 ## Detailed Content

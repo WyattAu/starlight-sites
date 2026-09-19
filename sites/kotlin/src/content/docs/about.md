@@ -96,8 +96,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Kotlin](./)
-- [Kotlin Basics Flashcards](./flashcards-kotlin-basics)
-- [Introduction to Kotlin](./intro)
+- [Kotlin Basics Flashcards](/flashcards-kotlin-basics/)
+- [Introduction to Kotlin](/intro/)
 
 
 ## Detailed Content

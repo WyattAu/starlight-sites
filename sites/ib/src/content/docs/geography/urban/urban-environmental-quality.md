@@ -247,9 +247,9 @@ Uniform; always consider spatial variation and its social distribution.
 
 </details>
 
-For related topics, see [./urbanisation-trends-and-patterns](./urbanisation-trends-and-patterns) and
-[./urban-planning-and-sustainability](./urban-planning-and-sustainability). The parent topic page is
-At [../urban-environments](../urban-environments).
+For related topics, see [./urbanisation-trends-and-patterns](/geography/urban/urbanisation-trends-and-patterns/) and
+[./urban-planning-and-sustainability](/geography/urban/urban-planning-and-sustainability/). The parent topic page is
+At [../urban-environments](/geography/urban-environments/).
 
 ## Intuition
 

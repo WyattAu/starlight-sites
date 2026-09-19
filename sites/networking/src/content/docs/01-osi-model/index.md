@@ -18,7 +18,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Topics
 
-- [Osi And Tcp Ip](./osi-and-tcp-ip)
+- [Osi And Tcp Ip](/01-osi-model/osi-and-tcp-ip/)
 
 ## Learning Objectives
 

@@ -339,6 +339,6 @@ linked above.
 
 ## Cross-References
 
-- **[Demand and Supply](../economics/diagnostics/diag-demand-supply):** Economics studies resource allocation
-- **[Macroeconomics](../economics/diagnostics/diag-macroeconomic-policy):** Macroeconomics examines economy-wide phenomena
-- **[Theory of the Firm](../economics/diagnostics/diag-theory-of-the-firm):** Microeconomics studies firm behaviour
+- **[Demand and Supply](/economics/diagnostics/diag-demand-supply/):** Economics studies resource allocation
+- **[Macroeconomics](/economics/diagnostics/diag-macroeconomic-policy/):** Macroeconomics examines economy-wide phenomena
+- **[Theory of the Firm](/economics/diagnostics/diag-theory-of-the-firm/):** Microeconomics studies firm behaviour

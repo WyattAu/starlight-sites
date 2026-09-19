@@ -449,7 +449,7 @@ The OWASP Top 10 is a standard awareness document for web application security. 
 | A10 | Server-Side Request Forgery (SSRF)         | Server coerced into accessing unintended resources     |
 
 Each of these is covered in detail in subsequent sections. See
-[Web Security](../04-web-security/web-security) for mitigation details.
+[Web Security](/04-web-security/web-security/) for mitigation details.
 
 ## CVE and CVSS
 
@@ -863,9 +863,9 @@ linked above.
 
 ## Cross-References
 
-- [Cryptography](../../../../../computer-science/src/content/docs/3-theory/cryptography) implements the mathematical foundations for achieving confidentiality, integrity, and availability.
-- [Authentication](../03-authentication/authentication) applies security principles to verify identity and control access to systems and resources.
-- [Incident Response](../06-incident-response/incident-response) operationalises security fundamentals into structured processes for handling security breaches.
+- [Cryptography](https://computer-science.wyattau.com/3-theory/cryptography/) implements the mathematical foundations for achieving confidentiality, integrity, and availability.
+- [Authentication](/03-authentication/authentication/) applies security principles to verify identity and control access to systems and resources.
+- [Incident Response](/06-incident-response/incident-response/) operationalises security fundamentals into structured processes for handling security breaches.
 
 ## Intuition
 

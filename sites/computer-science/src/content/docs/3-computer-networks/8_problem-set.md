@@ -209,5 +209,5 @@ flowchart TD
 ## See Also
 
 - [Computer Networks](./)
-- [Network Models](./1_network-models)
-- [University Computing Flashcards: Computer Networks](./10_flashcards-computer-networks)
+- [Network Models](/3-computer-networks/1_network-models/)
+- [University Computing Flashcards: Computer Networks](/3-computer-networks/10_flashcards-computer-networks/)

@@ -908,10 +908,10 @@ Calling `shared_from_this()` when you only need to observe the object:
 
 ## See Also
 
-- [Shared Ownership (std::shared_ptr) and Control Block](3_shared_ptr)
-- [Common Pitfalls](5_custom_deleters)
-- [Unique Ownership (std::unique_ptr) and EBO](2_unique_ptr)
-- [RAII Patterns](1_raii_patterns)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
 
 ```mermaid
 flowchart TD

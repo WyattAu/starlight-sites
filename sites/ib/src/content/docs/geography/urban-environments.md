@@ -32,11 +32,11 @@ addressing challenges related to housing, transport, pollution, inequality, and 
 
 ## Contents
 
-- [Urbanisation Trends and Patterns](./urban/urbanisation-trends-and-patterns) -- global
+- [Urbanisation Trends and Patterns](/geography/urban/urbanisation-trends-and-patterns/) -- global
   urbanisation trends, megacities, and the causes and consequences of urban growth.
-- [Urban Environmental Quality](./urban/urban-environmental-quality) -- urban microclimates,
+- [Urban Environmental Quality](/geography/urban/urban-environmental-quality/) -- urban microclimates,
   pollution, waste management, and environmental justice.
-- [Urban Planning and Sustainability](./urban/urban-planning-and-sustainability) -- urban models,
+- [Urban Planning and Sustainability](/geography/urban/urban-planning-and-sustainability/) -- urban models,
   sustainable city initiatives, and planning strategies.
 
 ## Overview

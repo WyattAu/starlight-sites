@@ -686,8 +686,8 @@ Removed in C++17. `std::terminate` is the only termination handler for exception
 
 ## See Also
 
-- [Exception Safety Guarantees](2_exception_safety)
-- [The noexcept Specifier](3_noexcept)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
 
 ```mermaid
 flowchart TD
@@ -727,6 +727,6 @@ Exception ABI defines how exceptions propagate across library boundaries. The It
 
 ## Cross-References
 
-- [Exception Safety](../../../../../../programming/src/content/docs/function_architecture/2_error_handling/2_exception_safety)
-- [Noexcept](../../../../../../programming/src/content/docs/function_architecture/2_error_handling/3_noexcept)
-- [RAII Patterns](../../../../../../programming/src/content/docs/resource_management/1_ownership_and_raii/1_raii_patterns)
+- [Exception Safety](https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety/)
+- [Noexcept](https://programming.wyattau.com/function_architecture/2_error_handling/3_noexcept/)
+- [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)

@@ -551,6 +551,6 @@ flowchart TD
 
 ## Cross-References
 
-- **[Momentum](05-momentum):** Kinematics describes motion
-- **[Energy and Work](energy-and-work-depth):** Kinematic equations relate to energy
-- **[Forces](statics-depth):** Forces cause acceleration
+- **[Momentum](/maths/mechanics/05-momentum/):** Kinematics describes motion
+- **[Energy and Work](/maths/mechanics/energy-and-work-depth/):** Kinematic equations relate to energy
+- **[Forces](/maths/mechanics/statics-depth/):** Forces cause acceleration

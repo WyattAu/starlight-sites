@@ -18,10 +18,10 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_thermodynamics](./1_thermodynamics)
-- [2_atomic Physics](./2_atomic-physics)
-- [6_current Electricity](./6_current-electricity)
-- [9_wrap Up](./9_wrap-up)
+- [1_thermodynamics](/physics/2-particulate-nature-of-matter/1_thermodynamics/)
+- [2_atomic Physics](/physics/2-particulate-nature-of-matter/2_atomic-physics/)
+- [6_current Electricity](/physics/2-particulate-nature-of-matter/6_current-electricity/)
+- [9_wrap Up](/physics/2-particulate-nature-of-matter/9_wrap-up/)
 
 ## Learning Objectives
 

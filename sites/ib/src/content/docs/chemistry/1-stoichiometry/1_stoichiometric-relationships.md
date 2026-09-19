@@ -1183,5 +1183,5 @@ linked above.
 ## See Also
 
 - [Stoichiometry](./)
-- [States of Matter](./2_states-of-matter)
-- [IB Chemistry](..)
+- [States of Matter](/chemistry/1-stoichiometry/2_states-of-matter/)
+- [IB Chemistry](/)

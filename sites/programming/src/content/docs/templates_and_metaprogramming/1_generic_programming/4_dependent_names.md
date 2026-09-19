@@ -825,10 +825,10 @@ void good() {
 
 ## See Also
 
-- [Template Instantiation, Monomorphization, and Code Bloat](./1_instantiation)
-- [Explicit and Partial Specialization](./3_specialization)
-- [Explicit Instantiation and Extern Templates](./5_explicit_instantiation)
-- [Argument Deduction (Class and Function)](./2_argument_deduction)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

@@ -95,8 +95,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 ## See Also
 
 - [Networking](./)
-- [BGP and Routing Protocols](./bgp-and-routing-protocols)
-- [Complete Computer Networking Study Guide](./hub)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Complete Computer Networking Study Guide](/hub/)
 
 
 ## Detailed Content

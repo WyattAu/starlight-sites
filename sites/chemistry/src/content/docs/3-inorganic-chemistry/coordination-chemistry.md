@@ -431,9 +431,9 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 
 | Topic                             | Site        | Link                                                                                      |
 | --------------------------------- | ----------- | ----------------------------------------------------------------------------------------- |
-| Atomic Structure                  | WyattsNotes | [View](atomic-structure-and-periodicity)                       |
-| Main-Group Chemistry              | WyattsNotes | [View](main-group-chemistry)                                   |
-| Solid-State Chemistry             | WyattsNotes | [View](solid-state-chemistry)                                  |
+| Atomic Structure                  | WyattsNotes | [View](/3-inorganic-chemistry/atomic-structure-and-periodicity/)                       |
+| Main-Group Chemistry              | WyattsNotes | [View](/3-inorganic-chemistry/main-group-chemistry/)                                   |
+| Solid-State Chemistry             | WyattsNotes | [View](/3-inorganic-chemistry/solid-state-chemistry/)                                  |
 | Coordination Chemistry, MIT 5.03 | MIT OCW     | [View](https://ocw.mit.edu/courses/5-03-principles-of-inorganic-chemistry-iii-fall-2005/) |
 
 - [Thermodynamics](https://physics.wyattau.com/docs/thermodynamics)

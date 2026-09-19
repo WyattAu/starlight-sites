@@ -77,11 +77,11 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 
 ### Topic Notes
 
-- [Basics](../../../../dart/src/content/docs/flashcards-dart-basics), variables, atoms, tuples, lists, and maps
-- [Pattern Matching](../../../../dart/src/content/docs/07-dart3-features/01-pattern-matching), the match operator, pin operator, and destructuring
-- [Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), named functions, anonymous functions, guards, and clauses
+- [Basics](https://dart.wyattau.com/flashcards-dart-basics/), variables, atoms, tuples, lists, and maps
+- [Pattern Matching](https://dart.wyattau.com/07-dart3-features/01-pattern-matching/), the match operator, pin operator, and destructuring
+- [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), named functions, anonymous functions, guards, and clauses
 - [Modules and Attributes](02-fundamentals/04-modules-and-attributes), module definitions, module attributes, and documentation
-- [Control Flow](../../../../kotlin/src/content/docs/basics/control-flow), case, cond, with, and do blocks
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), case, cond, with, and do blocks
 
 ### Key Concepts
 
@@ -99,10 +99,10 @@ Elixir is a functional language, functions are first-class citizens, data is imm
 
 ### Topic Notes
 
-- [Higher-Order Functions](../../../../alevel/src/content/docs/maths/pure-mathematics/05-functions), Enum.map, Enum.filter, Enum.reduce, and pipe operator
+- [Higher-Order Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), Enum.map, Enum.filter, Enum.reduce, and pipe operator
 - [Pipelines](03-functional/02-pipelines), the |> operator for chaining functions
 - [Recursion](03-functional/03-recursion), tail call optimization and recursive patterns
-- [Protocols](../../../../languages/src/content/docs/python/08-advanced-topics/04-protocols-dunder-methods), polymorphism through protocol dispatch
+- [Protocols](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/), polymorphism through protocol dispatch
 
 ### Key Concepts
 
@@ -143,7 +143,7 @@ OTP (Open Telecom Platform) is a set of libraries and behaviours for building fa
 ### Topic Notes
 
 - [OTP Overview](05-otp/01-otp-overview), what OTP provides and why it matters
-- [Application](../../../../computer-science/src/content/docs/3-computer-networks/6_application-layer), application lifecycle, configuration, and the supervision tree
+- [Application](https://computer-science.wyattau.com/3-computer-networks/6_application-layer/), application lifecycle, configuration, and the supervision tree
 - [GenStateMachine](05-otp/03-gen-state-machine), state machines with OTP
 - [ETS and Mnesia](05-otp/04-ets-and-mnesia), in-memory storage and distributed database
 
@@ -165,9 +165,9 @@ Phoenix is Elixir's web framework. It follows the MVC pattern, provides real-tim
 
 - [Phoenix Basics](06-phoenix/01-phoenix-basics), router, controllers, views, and templates
 - [Ecto and Changesets](06-phoenix/02-ecto-and-changesets), database access, schemas, and data validation
-- [Channels](../../../../go/src/content/docs/concurrency/channels), WebSocket connections, real-time updates, and presence
+- [Channels](https://go.wyattau.com/concurrency/channels/), WebSocket connections, real-time updates, and presence
 - [LiveView](06-phoenix/04-liveview), server-rendered real-time UI without JavaScript
-- [Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), controller tests, channel tests, and LiveView tests
+- [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), controller tests, channel tests, and LiveView tests
 
 ### Key Concepts
 
@@ -188,7 +188,7 @@ Elixir has excellent testing support built into the language. ExUnit is the stan
 - [ExUnit Basics](07-testing/01-exunit-basics), test modules, assertions, and test helpers
 - [Fixtures and Setup](07-testing/02-fixtures-and-setup), ExUnit.Case, setup blocks, and shared fixtures
 - [Mocking and Stubs](07-testing/03-mocking-and-stubs), Mox and behaviour-based mocking
-- [Property-Based Testing](../../../../alevel/src/content/docs/computer-science/software-engineering/02-testing), StreamData and generative testing
+- [Property-Based Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), StreamData and generative testing
 
 ### Key Concepts
 

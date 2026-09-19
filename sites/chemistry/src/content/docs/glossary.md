@@ -196,7 +196,7 @@ graph TD
 
 ## Related Resources
 
-- [Organic Chemistry Guide](../../../../hsc/src/content/docs/chemistry/organic)
-- [Physical Chemistry Concepts](../../../../alevel/src/content/docs/chemistry/flashcards-physical-chemistry)
-- [Inorganic Chemistry Overview](../../../../hsc/src/content/docs/chemistry/inorganic)
-- [Biochemistry Introduction](../../../../dse/src/content/docs/biology/1-cell-biology/1_cell-biology-and-biochemistry)
+- [Organic Chemistry Guide](https://hsc.wyattau.com/chemistry/organic/)
+- [Physical Chemistry Concepts](https://alevel.wyattau.com/chemistry/flashcards-physical-chemistry/)
+- [Inorganic Chemistry Overview](https://hsc.wyattau.com/chemistry/inorganic/)
+- [Biochemistry Introduction](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/)

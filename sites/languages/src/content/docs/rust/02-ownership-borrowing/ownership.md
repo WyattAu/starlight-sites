@@ -1012,5 +1012,5 @@ Rust's ownership system enforces three rules at compile time: each value has exa
 ## See Also
 
 - [Ownership Borrowing](./)
-- [Interior Mutability](./interior-mutability)
-- [Lifetimes](./lifetimes)
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)

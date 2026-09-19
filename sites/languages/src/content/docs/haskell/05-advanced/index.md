@@ -18,8 +18,8 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_advanced Types](./1_advanced-types)
-- [2_concurrency](./2_concurrency)
+- [1_advanced Types](/haskell/05-advanced/1_advanced-types/)
+- [2_concurrency](/haskell/05-advanced/2_concurrency/)
 
 ## Learning Objectives
 

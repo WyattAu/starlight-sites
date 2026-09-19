@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [1_mechanics](./1_mechanics)
+- [1_mechanics](/physics/1-mechanics/1_mechanics/)
 
 ## Learning Objectives
 

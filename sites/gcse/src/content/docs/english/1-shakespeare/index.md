@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_shakespeare](./1_shakespeare)
+- [1_shakespeare](/english/1-shakespeare/1_shakespeare/)
 
 ## Learning Objectives
 

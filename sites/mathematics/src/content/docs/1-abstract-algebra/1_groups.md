@@ -250,9 +250,9 @@ flowchart TD
 
 ## Cross-References
 
-- **[Subgroups](2_subgroups)**: Subgroups are subsets of a group that inherit the group structure.
-- **[Lagrange's Theorem](3_lagrange-s-theorem)**: Lagrange's theorem constrains the order of subgroups based on the order of the group.
-- **[Homomorphisms and Isomorphism Theorems](5_homomorphisms-and-isomorphism-theorems)**: Homomorphisms preserve group structure and lead to the isomorphism theorems.
+- **[Subgroups](/1-abstract-algebra/2_subgroups/)**: Subgroups are subsets of a group that inherit the group structure.
+- **[Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/)**: Lagrange's theorem constrains the order of subgroups based on the order of the group.
+- **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)**: Homomorphisms preserve group structure and lead to the isomorphism theorems.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [Diag Mechanics](./diag-mechanics)
+- [Diag Mechanics](/physics/diagnostics/diag-mechanics/)
 
 ## Learning Objectives
 

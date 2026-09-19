@@ -218,5 +218,5 @@ Transitions for clock recovery, preventing long runs of identical bits.
 ## See Also
 
 - [Computer Networks](./)
-- [Network Layer](./4_network-layer)
-- [Transport Layer](./5_transport-layer)
+- [Network Layer](/3-computer-networks/4_network-layer/)
+- [Transport Layer](/3-computer-networks/5_transport-layer/)

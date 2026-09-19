@@ -18,11 +18,11 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_vtables](./1_vtables)
-- [2_inheritance_slicing](./2_inheritance_slicing)
-- [3_devirtualization](./3_devirtualization)
-- [4_rtti_dynamic_cast](./4_rtti_dynamic_cast)
-- [5_deducing_this_crtp](./5_deducing_this_crtp)
+- [1_vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+- [2_inheritance_slicing](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [3_devirtualization](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [4_rtti_dynamic_cast](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [5_deducing_this_crtp](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
 
 ## Learning Objectives
 

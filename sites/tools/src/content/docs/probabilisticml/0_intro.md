@@ -218,5 +218,5 @@ finance.
 
 ## Cross-References
 
-- [Supervised Learning](1_fundamentals/1_supervised_learning) - The foundation of predictive modeling that probabilistic methods extend
-- [Definitions](1_fundamentals/2_definitions) - Mathematical foundations for probability and statistics
+- [Supervised Learning](/probabilisticml/1_fundamentals/1_supervised_learning/) - The foundation of predictive modeling that probabilistic methods extend
+- [Definitions](/probabilisticml/1_fundamentals/2_definitions/) - Mathematical foundations for probability and statistics

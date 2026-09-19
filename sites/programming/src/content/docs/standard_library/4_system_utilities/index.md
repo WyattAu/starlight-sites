@@ -18,10 +18,10 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_filesystem](./1_filesystem)
-- [2_chrono](./2_chrono)
-- [3_random_numbers](./3_random_numbers)
-- [4_regular_expressions](./4_regular_expressions)
+- [1_filesystem](/standard_library/4_system_utilities/1_filesystem/)
+- [2_chrono](/standard_library/4_system_utilities/2_chrono/)
+- [3_random_numbers](/standard_library/4_system_utilities/3_random_numbers/)
+- [4_regular_expressions](/standard_library/4_system_utilities/4_regular_expressions/)
 
 ## Learning Objectives
 

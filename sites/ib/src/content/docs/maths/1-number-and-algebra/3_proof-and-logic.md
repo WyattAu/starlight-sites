@@ -1378,5 +1378,5 @@ flowchart TD
 ## See Also
 
 - [Number And Algebra](./)
-- [Number and Algebra](./1_number-and-algebra)
-- [Complex Numbers](./2_complex-numbers)
+- [Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/)
+- [Complex Numbers](/maths/1-number-and-algebra/2_complex-numbers/)

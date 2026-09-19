@@ -764,9 +764,9 @@ int main() {
 
 ## See Also
 
-- [Coroutine Handle, Promise Type, and Awaiter](./2_promise_awaiter)
-- [Generators (std::generator)](./3_generators)
-- [Task Scheduling and Executors](./4_task_scheduling)
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

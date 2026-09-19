@@ -287,7 +287,7 @@ Period 7 (1890-1945) encompasses **Progressivism, two world wars, the Great Depr
 
 ## Cross-References
 
-- [Period 6 (1865-1898)](../4-period-6/4_period-6): Shows the industrialisation and social problems that the Progressive Era sought to address.
-- [AP US History Diagnostic Test](../../../../../../gcse/src/content/docs/computer-science/diagnostic-test): Tests your knowledge of the 20th century, including the world wars, Cold War, and civil rights movement.
-- [AP US History Practice](../../../../../../admissions/src/content/docs/practice-admissions): Provides practice questions on modern American history and contemporary issues.
-- [AP US History Index](../../../../../../ib/src/content/docs/history/history): Offers an overview of all periods covered in the AP US History curriculum.
+- [Period 6 (1865-1898)](/history/4-period-6/4_period-6/): Shows the industrialisation and social problems that the Progressive Era sought to address.
+- [AP US History Diagnostic Test](https://gcse.wyattau.com/computer-science/diagnostic-test/): Tests your knowledge of the 20th century, including the world wars, Cold War, and civil rights movement.
+- [AP US History Practice](https://admissions.wyattau.com/practice-admissions/): Provides practice questions on modern American history and contemporary issues.
+- [AP US History Index](https://ib.wyattau.com/history/history/): Offers an overview of all periods covered in the AP US History curriculum.

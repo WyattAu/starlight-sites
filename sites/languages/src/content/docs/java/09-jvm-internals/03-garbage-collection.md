@@ -827,9 +827,9 @@ linked above.
 
 ## Cross-References
 
-- **[Types and Variables](../02-fundamentals/01-types-and-variables):** Object lifecycle and reference types that GC manages.
-- **[Concurrency Deep Dive](../06-concurrency/02-concurrency-deep-dive):** Thread-safe memory access and GC pause impact on concurrent applications.
-- **[I/O and NIO](../10-io-nio/01-io-nio):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
+- **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Object lifecycle and reference types that GC manages.
+- **[Concurrency Deep Dive](/java/06-concurrency/02-concurrency-deep-dive/):** Thread-safe memory access and GC pause impact on concurrent applications.
+- **[I/O and NIO](/java/10-io-nio/01-io-nio/):** Memory-mapped files and direct buffers that bypass the GC-managed heap.
 
 ```mermaid
 flowchart TD

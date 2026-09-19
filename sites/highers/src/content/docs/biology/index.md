@@ -36,31 +36,31 @@ multiple scales.
 
 Cell structure, membrane transport, cell division, DNA replication, and protein synthesis.
 
-→ **[Full notes](../../../../../ib/src/content/docs/biology/1-cell-biology/1_cell-biology)**
+→ **[Full notes](https://ib.wyattau.com/biology/1-cell-biology/1_cell-biology/)**
 
 ### Metabolism & Survival
 
 Enzymes, respiration, metabolic pathways, homeostasis, and cellular energy.
 
-→ **[Full notes](2-metabolism/2_metabolism)**
+→ **[Full notes](/biology/2-metabolism/2_metabolism/)**
 
 ### Multicellular Organisms
 
 Tissue organisation, plant and animal physiology, transport systems, and reproduction.
 
-→ **[Full notes](3-multicellular/3_multicellular)**
+→ **[Full notes](/biology/3-multicellular/3_multicellular/)**
 
 ### Genetics & Adaptation
 
 Mendelian genetics, mutations, natural selection, adaptation, and population genetics.
 
-→ **[Full notes](4-genetics-adaptation/4_genetics-adaptation)**
+→ **[Full notes](/biology/4-genetics-adaptation/4_genetics-adaptation/)**
 
 ### Life on Earth
 
 Evolution, biodiversity, classification, ecosystems, and environmental biology.
 
-→ **[Full notes](5-evolution/5_evolution)**
+→ **[Full notes](/biology/5-evolution/5_evolution/)**
 
 ## Study Tips
 
@@ -196,7 +196,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 
 ## Cross-References
 
-- [1 Cell Biology](1-cell-biology/1_cell-biology)
-- [2 Metabolism](2-metabolism/2_metabolism)
-- [1 Structure Bonding](chemistry/1-structure-bonding/1_structure-bonding)
-- [2 Heat Matter](chemistry/2-heat-matter/2_heat-matter)
+- [1 Cell Biology](/biology/1-cell-biology/1_cell-biology/)
+- [2 Metabolism](/biology/2-metabolism/2_metabolism/)
+- [1 Structure Bonding](/chemistry/1-structure-bonding/1_structure-bonding/)
+- [2 Heat Matter](/chemistry/2-heat-matter/2_heat-matter/)

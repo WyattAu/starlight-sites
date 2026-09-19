@@ -1339,7 +1339,7 @@ linked above.
 
 ## Cross-References
 
-- [Dart Navigation](../09-flutter-fundamentals/01-navigation) -- Navigation and state management are deeply connected; route state must be synchronised with app state.
-- [Dart Asynchronous Programming](../../../../../../dart/src/content/docs/05-async/01-async-and-futures) -- State changes often involve async operations like network requests or database queries.
-- [Dart Widgets](../../../../../../dart/src/content/docs/09-flutter-fundamentals/02-widgets-and-lifecycle) -- Understanding widget lifecycle is essential for choosing the right state management approach.
-- [Dart Classes and Objects](../../../../../../java/src/content/docs/03-object-oriented/01-classes) -- State management solutions rely on OOP patterns for encapsulating and exposing state.
+- [Dart Navigation](/dart/09-flutter-fundamentals/01-navigation/) -- Navigation and state management are deeply connected; route state must be synchronised with app state.
+- [Dart Asynchronous Programming](https://dart.wyattau.com/05-async/01-async-and-futures/) -- State changes often involve async operations like network requests or database queries.
+- [Dart Widgets](https://dart.wyattau.com/09-flutter-fundamentals/02-widgets-and-lifecycle/) -- Understanding widget lifecycle is essential for choosing the right state management approach.
+- [Dart Classes and Objects](https://java.wyattau.com/03-object-oriented/01-classes/) -- State management solutions rely on OOP patterns for encapsulating and exposing state.

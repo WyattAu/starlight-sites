@@ -600,8 +600,8 @@ services:
 
 ## Related Terms
 
-- See [Programming Glossary](glossary) for general programming concepts
-- See [Computer Science Glossary](glossary) for CS fundamentals
-- See [Database Glossary](glossary) for Linux database administration
-- See [Networking Glossary](glossary) for network concepts
-- See [Security Glossary](glossary) for security concepts
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Database Glossary](/glossary/) for Linux database administration
+- See [Networking Glossary](/glossary/) for network concepts
+- See [Security Glossary](/glossary/) for security concepts

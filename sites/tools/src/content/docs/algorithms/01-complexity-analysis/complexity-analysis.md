@@ -871,4 +871,4 @@ Complexity theory connects to the most important open problem in mathematics: P 
 ## See Also
 
 - [Complexity Analysis](./)
-- [Algorithms](..)
+- [Algorithms](/)

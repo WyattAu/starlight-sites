@@ -148,9 +148,9 @@ Matrices are rectangular arrays that compactly represent systems of linear equat
 
 ## Cross-References
 
-- [Matrix Operations](01-matrix-operations) -- multiplication, determinant, and inverse
-- [Types of Relations](../relations-functions/01-types-of-relations) -- set theory foundations
-- [CBSE Physics](../../../../../../ib/src/content/docs/physics/physics) -- vectors and coordinate systems
+- [Matrix Operations](/mathematics/matrices/01-matrix-operations/) -- multiplication, determinant, and inverse
+- [Types of Relations](/mathematics/relations-functions/01-types-of-relations/) -- set theory foundations
+- [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- vectors and coordinate systems
 
 ## Common Mistakes
 

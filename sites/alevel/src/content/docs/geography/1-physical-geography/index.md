@@ -18,10 +18,10 @@ This section provides study materials and resources for physical geography. Brow
 
 ## Topics
 
-- [1_water And Carbon Cycles](./1_water-and-carbon-cycles)
-- [2_coastal Systems](./2_coastal-systems)
-- [3_glacial Systems](./3_glacial-systems)
-- [4_hazards](./4_hazards)
+- [1_water And Carbon Cycles](/geography/1-physical-geography/1_water-and-carbon-cycles/)
+- [2_coastal Systems](/geography/1-physical-geography/2_coastal-systems/)
+- [3_glacial Systems](/geography/1-physical-geography/3_glacial-systems/)
+- [4_hazards](/geography/1-physical-geography/4_hazards/)
 
 ## Learning Objectives
 

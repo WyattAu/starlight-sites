@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_fundamentals](./1_fundamentals)
+- [1_fundamentals](/computer-science/1-fundamentals/1_fundamentals/)
 
 ## Learning Objectives
 

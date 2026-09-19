@@ -554,10 +554,10 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 
 ## Cross-References
 
-- **[The Standard Model](1_the-standard-model)**: Particle physics determines the conditions during Big Bang nucleosynthesis and the electroweak phase transition.
-- **[Conservation Laws and Symmetries](2_conservation-laws-and-symmetries)**: Baryon number conservation and its possible violation are essential for understanding the matter-antimatter asymmetry.
-- **[Running Coupling Constants](6_running-coupling-constants)**: The running of coupling constants affects the physics of the early universe and primordial nucleosynthesis.
-- **[Advanced Topics in Cosmology](12_advanced-topics-in-cosmology)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
+- **[The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)**: Particle physics determines the conditions during Big Bang nucleosynthesis and the electroweak phase transition.
+- **[Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)**: Baryon number conservation and its possible violation are essential for understanding the matter-antimatter asymmetry.
+- **[Running Coupling Constants](/7-particle-physics-and-cosmology/6_running-coupling-constants/)**: The running of coupling constants affects the physics of the early universe and primordial nucleosynthesis.
+- **[Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)**: Dark matter halos, the Sachs-Wolfe effect, and topological defects extend the basic cosmological framework.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

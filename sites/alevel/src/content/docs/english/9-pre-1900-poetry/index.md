@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_pre1900_poetry](./1_pre1900_poetry)
+- [1_pre1900_poetry](/english/9-pre-1900-poetry/1_pre1900_poetry/)
 
 ## Learning Objectives
 

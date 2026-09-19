@@ -1067,6 +1067,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Generics](generics) - How generic constraints and type parameters compose with advanced type operators
-- [Types and Annotations](types-and-annotations) - How basic type annotations extend into conditional and mapped types
-- [Advanced Patterns](advanced-patterns) - How advanced types enable practical design patterns
+- [Generics](/generics/) - How generic constraints and type parameters compose with advanced type operators
+- [Types and Annotations](/types-and-annotations/) - How basic type annotations extend into conditional and mapped types
+- [Advanced Patterns](/advanced-patterns/) - How advanced types enable practical design patterns

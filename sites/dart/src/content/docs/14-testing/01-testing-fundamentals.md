@@ -1440,6 +1440,6 @@ linked above.
 
 ## Cross-References
 
-- [Object-Oriented Programming](./04-object-oriented/01-classes-and-inheritance) -- Test doubles and mocks use inheritance and interfaces to simulate dependencies.
-- [Async and Futures](./05-async/01-async-and-futures) -- Testing asynchronous code requires understanding Futures, streams, and the test framework's async support.
-- [Dependency Injection](../12-dependency-injection) -- Dependency injection makes code testable by allowing mock objects to replace real implementations.
+- [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Test doubles and mocks use inheritance and interfaces to simulate dependencies.
+- [Async and Futures](/05-async/01-async-and-futures/) -- Testing asynchronous code requires understanding Futures, streams, and the test framework's async support.
+- [Dependency Injection](/12-dependency-injection/) -- Dependency injection makes code testable by allowing mock objects to replace real implementations.

@@ -1057,12 +1057,12 @@ Which sentence uses the apostrophe correctly?
 
 ## Cross-References
 
-- **[Biology](biology)**, Cell biology, genetics, ecology, human biology, and plant biology
-- **[Chemistry](chemistry)**, Atomic structure, bonding, reactions, energetics, and organic chemistry
-- **[Physics](physics)**, Forces, energy, waves, electricity, magnetism, and nuclear physics
-- **[Mathematics](maths)**, Number, algebra, geometry, statistics, and probability
-- **[English](english)**, Reading comprehension, writing techniques, poetry, and grammar
-- **[Maths Question Bank](maths-question-bank)**, 20 additional maths questions organised by topic
+- **[Biology](/biology/)**, Cell biology, genetics, ecology, human biology, and plant biology
+- **[Chemistry](/chemistry/)**, Atomic structure, bonding, reactions, energetics, and organic chemistry
+- **[Physics](/physics/)**, Forces, energy, waves, electricity, magnetism, and nuclear physics
+- **[Mathematics](/maths/)**, Number, algebra, geometry, statistics, and probability
+- **[English](/english/)**, Reading comprehension, writing techniques, poetry, and grammar
+- **[Maths Question Bank](/maths-question-bank/)**, 20 additional maths questions organised by topic
 
 ---
 

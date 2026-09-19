@@ -395,5 +395,5 @@ linked above.
 ## See Also
 
 - [Intermediate](./)
-- [Collections](./collections)
-- [coroutines advanced](./coroutines-advanced)
+- [Collections](/kotlin/intermediate/collections/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)

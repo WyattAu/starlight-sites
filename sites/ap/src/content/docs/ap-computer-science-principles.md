@@ -433,5 +433,5 @@ A) O(n)  B) O(log n)  C) O(n²)  D) O(1)
 ## See Also
 
 - [AP](./)
-- [AP Computer Science A](./ap-computer-science-a)
-- [About This Site](./about)
+- [AP Computer Science A](/ap-computer-science-a/)
+- [About This Site](/about/)

@@ -18,7 +18,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Topics
 
-- [1_national Income](./1_national-income)
+- [1_national Income](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ## Learning Objectives
 

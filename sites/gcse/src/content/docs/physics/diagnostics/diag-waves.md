@@ -250,5 +250,5 @@ linked above.
 ## See Also
 
 - [Diagnostics](./)
-- [Electricity -- Diagnostic Tests](./diag-electricity)
-- [Energy -- Diagnostic Tests](./diag-energy)
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)

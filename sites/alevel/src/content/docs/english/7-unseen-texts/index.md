@@ -18,7 +18,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Topics
 
-- [1_unseen Text Analysis](./1_unseen-text-analysis)
+- [1_unseen Text Analysis](/english/7-unseen-texts/1_unseen-text-analysis/)
 
 ## Learning Objectives
 

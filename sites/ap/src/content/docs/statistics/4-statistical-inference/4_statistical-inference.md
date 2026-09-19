@@ -233,6 +233,6 @@ Statistical inference is about **drawing conclusions about a population from a s
 
 ## Cross-References
 
-- **[Probability](../3-probability/3_probability):** The Central Limit Theorem and normal distributions provide the mathematical foundation for all inference procedures.
+- **[Probability](/statistics/3-probability/3_probability/):** The Central Limit Theorem and normal distributions provide the mathematical foundation for all inference procedures.
 - **[Exploring Data](../1-exploring-data/1_exploring_data):** Understanding your data's shape and spread is essential before choosing the right inference procedure.
-- **[Regression](../5-regression/5_regression):** Confidence intervals and hypothesis tests for slope use the same inference framework.
+- **[Regression](/statistics/5-regression/5_regression/):** Confidence intervals and hypothesis tests for slope use the same inference framework.

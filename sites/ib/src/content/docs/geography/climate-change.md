@@ -33,11 +33,11 @@ geographic skills to climate data.
 
 ## Contents
 
-- [Atmospheric Systems](./climate/atmospheric-systems) -- global atmospheric circulation, energy
+- [Atmospheric Systems](/geography/climate/atmospheric-systems/) -- global atmospheric circulation, energy
   balance, and the enhanced greenhouse effect.
-- [Carbon Cycle and Sequestration](./climate/carbon-cycle-and-sequestration) -- the carbon cycle,
+- [Carbon Cycle and Sequestration](/geography/climate/carbon-cycle-and-sequestration/) -- the carbon cycle,
   carbon sinks, and carbon sequestration techniques.
-- [Climate Adaptation and Mitigation](./climate/climate-adaptation-and-mitigation) -- strategies for
+- [Climate Adaptation and Mitigation](/geography/climate/climate-adaptation-and-mitigation/) -- strategies for
   reducing vulnerability and managing the causes of climate change.
 
 ## Overview
@@ -200,6 +200,6 @@ location.
 
 ## Cross-References
 
-- **[Climate Change](../geography/climate-change):** Climate change affects all geography
-- **[Population](../geography/population-distribution):** Population distribution is studied
-- **[Economic Development](../geography/economic-development):** Development is a core topic
+- **[Climate Change](/geography/climate-change/):** Climate change affects all geography
+- **[Population](/geography/population-distribution/):** Population distribution is studied
+- **[Economic Development](/geography/economic-development/):** Development is a core topic

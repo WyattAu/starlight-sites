@@ -24,7 +24,7 @@ categories:
 
 A complete single-page revision guide covering the full GCSE Biology specification. Each section
 contains key concepts, definitions, and essential facts. Use this alongside the
-[full topic pages](biology/) for detailed derivations and further practice.
+[full topic pages](/biology/) for detailed derivations and further practice.
 
 ---
 
@@ -794,7 +794,7 @@ Biology is the study of living systems at every scale, from molecules to ecosyst
 
 ## Cross-References
 
-- [Biology](biology)
-- [2 Organisation](biology/2-organisation/2_organisation)
-- [Chemistry](chemistry)
-- [2 Bonding](chemistry/2-bonding/2_bonding)
+- [Biology](/biology/)
+- [2 Organisation](/biology/2-organisation/2_organisation/)
+- [Chemistry](/chemistry/)
+- [2 Bonding](/chemistry/2-bonding/2_bonding/)

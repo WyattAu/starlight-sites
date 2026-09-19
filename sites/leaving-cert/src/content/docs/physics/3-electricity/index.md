@@ -18,7 +18,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Topics
 
-- [3_electricity](./3_electricity)
+- [3_electricity](/physics/3-electricity/3_electricity/)
 
 ## Learning Objectives
 

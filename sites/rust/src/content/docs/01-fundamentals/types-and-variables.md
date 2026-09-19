@@ -876,6 +876,6 @@ Rust's type system is like a strict inventory manager. Every value has a precise
 
 ## Cross-References
 
-- [Control Flow and Pattern Matching](../../../../../kotlin/src/content/docs/basics/control-flow)
-- [Ownership and Borrowing](../../../../../languages/src/content/docs/rust/02-ownership-borrowing/ownership)
-- [Structs and Enums](../../../../../languages/src/content/docs/rust/03-structs-enums/structs-and-enums)
+- [Control Flow and Pattern Matching](https://kotlin.wyattau.com/basics/control-flow/)
+- [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+- [Structs and Enums](https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums/)

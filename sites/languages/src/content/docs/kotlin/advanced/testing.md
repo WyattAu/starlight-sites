@@ -508,5 +508,5 @@ linked above.
 ## See Also
 
 - [Advanced](./)
-- [Java Interoperability](./interoperability)
-- [Metaprogramming](./metaprogramming)
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)

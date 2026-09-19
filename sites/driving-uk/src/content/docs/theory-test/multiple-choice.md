@@ -153,8 +153,8 @@ d) Only when they look worn
 ## See Also
 
 - [Theory Test](./)
-- [Hazard Perception](./hazard-perception)
-- [Road Rules](./road-rules)
+- [Hazard Perception](/theory-test/hazard-perception/)
+- [Road Rules](/theory-test/road-rules/)
 
 
 ## Advanced Content

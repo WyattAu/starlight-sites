@@ -18,7 +18,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Topics
 
-- [3_stoichiometry](./3_stoichiometry)
+- [3_stoichiometry](/chemistry/3-stoichiometry/3_stoichiometry/)
 
 ## Learning Objectives
 

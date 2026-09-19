@@ -176,7 +176,7 @@ multiplier before Proceeding.
 
 ### 3.2 Quadratic Inequalities
 
-See [Quadratics](02-quadratics), Section 6.
+See [Quadratics](/maths/pure-mathematics/02-quadratics/), Section 6.
 
 ### 3.3 Inequalities Involving Fractions
 
@@ -665,7 +665,7 @@ The parabola opens upwards. It is $\leq 0$ between and including the roots:
 $$-3 \leq x \leq 5$$
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratic inequalities](02-quadratics)
+<b>If you get this wrong, revise:</b> [Quadratic inequalities](/maths/pure-mathematics/02-quadratics/)
 
 <hr />
 
@@ -745,7 +745,7 @@ Adding 3: $-2 \leq 2x \leq 8$.
 Dividing by 2: $-1 \leq x \leq 4$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Modulus function](./05-functions)
+<b>If you get this wrong, revise:</b> [Modulus function](/maths/pure-mathematics/05-functions/)
 
 <hr />
 
@@ -762,7 +762,7 @@ Verification: $x^2 - 6x + 8 = (x - 2)(x - 4) = 0$Giving roots $2$ and $4$ with s
 $8$. ✓
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratics](02-quadratics)
+<b>If you get this wrong, revise:</b> [Quadratics](/maths/pure-mathematics/02-quadratics/)
 
 <hr />
 
@@ -783,7 +783,7 @@ $x^2 = 4 \implies x = \pm 2$.
 Solutions: $x = -2, -1, 1, 2$.
 
 </details>
-<b>If you get this wrong, revise:</b> [Quadratic formula](02-quadratics)
+<b>If you get this wrong, revise:</b> [Quadratic formula](/maths/pure-mathematics/02-quadratics/)
 
 <hr />
 
@@ -982,7 +982,7 @@ building a personal test matrix.
 
 ## Cross-References
 
-- [Algebraic Expressions](01-algebraic-expressions), Factorisation and the factor theorem are used to solve polynomial equations in this topic.
-- [Quadratics](02-quadratics), Quadratic inequalities and the discriminant extend the quadratic equations covered there.
-- [Coordinates and Geometry](04-coordinates-and-geometry), Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
-- [Proof](13-proof), The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/), Factorisation and the factor theorem are used to solve polynomial equations in this topic.
+- [Quadratics](/maths/pure-mathematics/02-quadratics/), Quadratic inequalities and the discriminant extend the quadratic equations covered there.
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/), Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
+- [Proof](/maths/pure-mathematics/13-proof/), The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.

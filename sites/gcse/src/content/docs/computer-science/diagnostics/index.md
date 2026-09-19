@@ -19,8 +19,8 @@ Diagnostic tests in GCSE Computer Science help you identify which areas of the s
 
 ## Topics
 
-- [Diag Algorithms](./diag-algorithms)
-- [Diag Programming](./diag-programming)
+- [Diag Algorithms](/computer-science/diagnostics/diag-algorithms/)
+- [Diag Programming](/computer-science/diagnostics/diag-programming/)
 
 ## What Are Diagnostic Tests in Computer Science?
 

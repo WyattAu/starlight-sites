@@ -273,17 +273,17 @@ Distributed databases spread data across multiple machines, providing scalabilit
 
 ## Contents
 
-1. [Introduction to Database Systems](1_introduction-to-database-systems)
-2. [Relational Model](2_relational-model)
-3. [SQL](3_sql)
-4. [Normalisation](4_normalisation)
-5. [Indexing](5_indexing)
-6. [Transaction Management](6_transaction-management)
-7. [Query Optimisation](7_query-optimisation)
-8. [NoSQL Overview](8_nosql-overview)
-9. [Distributed Databases](9_distributed-databases)
-10. [Problem Set](10_problem-set)
-11. [Further Reading](11_further-reading)
+1. [Introduction to Database Systems](/4-databases/1_introduction-to-database-systems/)
+2. [Relational Model](/4-databases/2_relational-model/)
+3. [SQL](/4-databases/3_sql/)
+4. [Normalisation](/4-databases/4_normalisation/)
+5. [Indexing](/4-databases/5_indexing/)
+6. [Transaction Management](/4-databases/6_transaction-management/)
+7. [Query Optimisation](/4-databases/7_query-optimisation/)
+8. [NoSQL Overview](/4-databases/8_nosql-overview/)
+9. [Distributed Databases](/4-databases/9_distributed-databases/)
+10. [Problem Set](/4-databases/10_problem-set/)
+11. [Further Reading](/4-databases/11_further-reading/)
 
 ## Overview
 

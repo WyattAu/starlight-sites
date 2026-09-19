@@ -2515,7 +2515,7 @@ $
 
 ## Cross-References
 
-- [Theory of the Firm](../1-microeconomics/4-theory-of-the-firm) -- Cost and revenue analysis uses the statistical concepts of averages and marginals covered here.
-- [Supply-Side Policy](../2-macroeconomics/4-supply-side-policy) -- Economic growth measurement relies on real GDP calculations and index number techniques.
-- [Game Theory and Behavioural Economics](../6-game-theory/1_game-theory-and-behavioural) -- Empirical testing of game-theoretic predictions uses the statistical methods covered here.
-- [International Trade](../3-international-economics/1-trade) -- Terms of trade indices and trade data analysis apply the quantitative techniques in this topic.
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/) -- Cost and revenue analysis uses the statistical concepts of averages and marginals covered here.
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/) -- Economic growth measurement relies on real GDP calculations and index number techniques.
+- [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural/) -- Empirical testing of game-theoretic predictions uses the statistical methods covered here.
+- [International Trade](/economics/3-international-economics/1-trade/) -- Terms of trade indices and trade data analysis apply the quantitative techniques in this topic.

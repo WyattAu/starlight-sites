@@ -18,9 +18,9 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Pattern Matching](./01-pattern-matching)
-- [Sealed Classes](./02-sealed-classes)
-- [Class Modifiers](./03-class-modifiers)
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/)
+- [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
 
 ## Learning Objectives
 

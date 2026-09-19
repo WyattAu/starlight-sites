@@ -900,6 +900,6 @@ getDebug = fromConfig config "debug"  -- Right True
 
 ## Cross-References
 
-- [Types and Functions](../01-basics/1_types-and-functions) - How parametric polymorphism works alongside type class constraints
-- [Monads and Functors](../04-monads/1_monads-and-functors) - How Functor, Applicative, and Monad form a type class hierarchy
-- [Advanced Types](../05-advanced/1_advanced-types) - Higher-kinded types and type families that extend type class programming
+- [Types and Functions](/01-basics/1_types-and-functions/) - How parametric polymorphism works alongside type class constraints
+- [Monads and Functors](/04-monads/1_monads-and-functors/) - How Functor, Applicative, and Monad form a type class hierarchy
+- [Advanced Types](/05-advanced/1_advanced-types/) - Higher-kinded types and type families that extend type class programming

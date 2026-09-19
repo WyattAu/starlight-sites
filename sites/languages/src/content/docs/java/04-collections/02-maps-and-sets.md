@@ -990,5 +990,5 @@ linked above.
 ## See Also
 
 - [Collections](./)
-- [Collections Framework](./01-collections-framework)
-- [Java](..)
+- [Collections Framework](/java/04-collections/01-collections-framework/)
+- [Java](/)

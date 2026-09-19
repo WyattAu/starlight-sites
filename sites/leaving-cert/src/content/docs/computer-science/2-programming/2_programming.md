@@ -803,6 +803,6 @@ programming, and requires both theoretical knowledge and hands-on practice.
 
 ## Cross-References
 
-- [Hardware](../1-hardware/1_hardware) provides the physical platform that programs execute on, including CPU and memory architecture.
-- [Databases](../3-databases/3_databases) covers data persistence and retrieval that programs interact with through database queries.
-- [Algorithms](../5-algorithms/5_algorithms) defines the computational procedures that programming implementations must follow.
+- [Hardware](/computer-science/1-hardware/1_hardware/) provides the physical platform that programs execute on, including CPU and memory architecture.
+- [Databases](/computer-science/3-databases/3_databases/) covers data persistence and retrieval that programs interact with through database queries.
+- [Algorithms](/computer-science/5-algorithms/5_algorithms/) defines the computational procedures that programming implementations must follow.

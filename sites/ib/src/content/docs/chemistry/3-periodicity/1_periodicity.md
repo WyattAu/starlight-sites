@@ -976,15 +976,15 @@ of aluminium from bauxite ore via the Bayer process.
 ## If You Get These Wrong, Revise
 
 - **Electron configurations and ionization energy** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **Intermolecular forces and boiling point trends** → Review
-  [..../1-stoichiometry/2_states-of-matter](../1-stoichiometry/2_states-of-matter)
+  [..../1-stoichiometry/2_states-of-matter](/chemistry/1-stoichiometry/2_states-of-matter/)
 - **Acid-base character of oxides** → Review
-  [..../8-acids-and-bases/2_acids-and-bases-advanced](../8-acids-and-bases/2_acids-and-bases-advanced)
+  [..../8-acids-and-bases/2_acids-and-bases-advanced](/chemistry/8-acids-and-bases/2_acids-and-bases-advanced/)
 - **Oxidation states and redox reactions** → Review
-  [..../9-redox/2_redox-advanced](../9-redox/2_redox-advanced)
+  [..../9-redox/2_redox-advanced](/chemistry/9-redox/2_redox-advanced/)
 - **Bonding and structure (ionic vs covalent)** → Review
-  [..../4-chemical-bonding/2_chemical-bonding-advanced](../4-chemical-bonding/2_chemical-bonding-advanced)
+  [..../4-chemical-bonding/2_chemical-bonding-advanced](/chemistry/4-chemical-bonding/2_chemical-bonding-advanced/)
 
 
 ```mermaid

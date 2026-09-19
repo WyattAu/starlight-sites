@@ -432,5 +432,5 @@ acceleration is reduced by the factor $\frac{1}{1 + I/(mr^2)}$.
 ## See Also
 
 - [Diagnostics](./)
-- [Atomic and Nuclear Physics -- Diagnostic Tests](./diag-atomic-nuclear)
-- [Current Electricity -- Diagnostic Tests](./diag-current-electricity)
+- [Atomic and Nuclear Physics -- Diagnostic Tests](/physics/diagnostics/diag-atomic-nuclear/)
+- [Current Electricity -- Diagnostic Tests](/physics/diagnostics/diag-current-electricity/)

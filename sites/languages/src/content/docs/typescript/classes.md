@@ -815,5 +815,5 @@ TypeScript classes combine JavaScript's class syntax with compile-time type chec
 ## See Also
 
 - [Typescript](./)
-- [Advanced Patterns](./advanced-patterns)
-- [advanced types](./advanced-types)
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [advanced types](/typescript/advanced-types/)

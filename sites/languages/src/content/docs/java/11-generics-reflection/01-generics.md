@@ -935,6 +935,6 @@ linked above.
 
 ## Cross-References
 
-- **[Annotations and Reflection](./02-annotations-reflection):** Runtime type introspection and generic type resolution via reflection.
-- **[Types and Variables](../02-fundamentals/01-types-and-variables):** Type system fundamentals that generics extend with parameterization.
-- **[Testing](../14-testing/testing):** Generic test utilities and type-safe mock patterns.
+- **[Annotations and Reflection](/java/11-generics-reflection/02-annotations-reflection/):** Runtime type introspection and generic type resolution via reflection.
+- **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Type system fundamentals that generics extend with parameterization.
+- **[Testing](/java/14-testing/testing/):** Generic test utilities and type-safe mock patterns.

@@ -18,10 +18,10 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Topics
 
-- [1_cpp_23](./1_cpp_23)
-- [2_bmi](./2_bmi)
-- [3_header_unit](./3_header_unit)
-- [4_c_runtime](./4_c_runtime)
+- [1_cpp_23](/compilation_model/2_modules/1_cpp_23/)
+- [2_bmi](/compilation_model/2_modules/2_bmi/)
+- [3_header_unit](/compilation_model/2_modules/3_header_unit/)
+- [4_c_runtime](/compilation_model/2_modules/4_c_runtime/)
 
 ## Learning Objectives
 

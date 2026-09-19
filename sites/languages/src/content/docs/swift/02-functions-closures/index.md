@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [1_functions](./1_functions)
+- [1_functions](/swift/02-functions-closures/1_functions/)
 
 ## Learning Objectives
 

@@ -18,8 +18,8 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Topics
 
-- [Linux Security](./linux-security)
-- [Ssh](./ssh)
+- [Linux Security](/06-security/linux-security/)
+- [Ssh](/06-security/ssh/)
 
 ## Learning Objectives
 

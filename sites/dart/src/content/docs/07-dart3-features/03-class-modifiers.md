@@ -91,7 +91,7 @@ class MyListenable implements Listenable {
 ## `sealed`
 
 Restricts all subtyping (extend, implement, mixin) to the same library. This is covered in detail in
-[sealed-classes.md](02-sealed-classes).
+[sealed-classes.md](/07-dart3-features/02-sealed-classes/).
 
 ### Brief Recap
 
@@ -966,6 +966,6 @@ linked above.
 
 ## Cross-References
 
-- [Object-Oriented Programming](../04-object-oriented/01-classes-and-inheritance) -- Class modifiers like final, sealed, and abstract control inheritance and instantiation.
-- [Sealed Classes](./02-sealed-classes) -- The sealed modifier restricts which classes can extend a class, enabling exhaustive pattern matching.
-- [Error Handling](../08-error-handling) -- Abstract classes define error hierarchies that concrete error types implement.
+- [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Class modifiers like final, sealed, and abstract control inheritance and instantiation.
+- [Sealed Classes](/07-dart3-features/02-sealed-classes/) -- The sealed modifier restricts which classes can extend a class, enabling exhaustive pattern matching.
+- [Error Handling](/08-error-handling/) -- Abstract classes define error hierarchies that concrete error types implement.

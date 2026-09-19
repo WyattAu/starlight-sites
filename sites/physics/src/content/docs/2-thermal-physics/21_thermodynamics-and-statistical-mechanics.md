@@ -2569,5 +2569,5 @@ import { Citation } from "@components/Citations.astro"
 ## See Also
 
 - [Thermal Physics](./)
-- [Irreversible Thermodynamics and Fluctuations](./19_irreversible-thermodynamics-and-fluctuations)
-- [Statistical Mechanics](./2_statistical-mechanics)
+- [Irreversible Thermodynamics and Fluctuations](/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/)
+- [Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)

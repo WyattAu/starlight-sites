@@ -634,5 +634,5 @@ The TypeScript toolchain revolves around tsconfig.json, which controls compilati
 ## See Also
 
 - [Typescript](./)
-- [Enums and Modules](./enums-and-modules)
-- [Types and Annotations](./types-and-annotations)
+- [Enums and Modules](/typescript/enums-and-modules/)
+- [Types and Annotations](/typescript/types-and-annotations/)

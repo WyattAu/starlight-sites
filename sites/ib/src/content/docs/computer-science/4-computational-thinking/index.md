@@ -18,8 +18,8 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [1_boolean Logic](./1_boolean-logic)
-- [2_algorithms And Data Structures](./2_algorithms-and-data-structures)
+- [1_boolean Logic](/computer-science/4-computational-thinking/1_boolean-logic/)
+- [2_algorithms And Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)
 
 ## Learning Objectives
 

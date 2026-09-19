@@ -18,11 +18,11 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Flashcards Java Basics](./flashcards-java-basics)
-- [Graalvm And Modern Jvm](./graalvm-and-modern-jvm)
-- [Intro](./intro)
-- [Practice Java Basics](./practice-java-basics)
-- [Practice Oop](./practice-oop)
+- [Flashcards Java Basics](/java/flashcards-java-basics/)
+- [Graalvm And Modern Jvm](/java/graalvm-and-modern-jvm/)
+- [Intro](/java/intro/)
+- [Practice Java Basics](/java/practice-java-basics/)
+- [Practice Oop](/java/practice-oop/)
 
 ## Learning Objectives
 

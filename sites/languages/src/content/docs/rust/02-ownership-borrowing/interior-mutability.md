@@ -983,5 +983,5 @@ Interior mutability lets you modify data through a shared reference, bypassing t
 ## See Also
 
 - [Ownership Borrowing](./)
-- [Lifetimes](./lifetimes)
-- [Ownership and Borrowing](./ownership)
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)

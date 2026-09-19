@@ -543,9 +543,9 @@ Automata theory studies abstract computing models. Finite automata recognize reg
 
 | Topic | Link |
 | ------- | ------ |
-| Compilers | [View](compilers) |
-| Complexity Theory | [View](../1-algorithms/complexity-theory) |
-| Algorithm Design | [View](../1-algorithms/algorithm-design) |
+| Compilers | [View](/3-theory/compilers/) |
+| Complexity Theory | [View](/1-algorithms/complexity-theory/) |
+| Algorithm Design | [View](/1-algorithms/algorithm-design/) |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

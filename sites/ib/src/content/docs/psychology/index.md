@@ -17,25 +17,25 @@ The IB Psychology course is divided into a core component and an elective compon
 
 ## Topics
 
-- [Abnormal Psychology](./abnormal-psychology)
-- [Biological Level Of Analysis](./biological-level-of-analysis)
-- [Cognitive Level Of Analysis](./cognitive-level-of-analysis)
-- [Developmental Psychology](./developmental-psychology)
-- [Flashcards Abnormal](./flashcards-abnormal)
-- [Flashcards Biological](./flashcards-biological)
-- [Flashcards Cognitive](./flashcards-cognitive)
-- [Flashcards Developmental](./flashcards-developmental)
-- [Flashcards Qualitative](./flashcards-qualitative)
+- [Abnormal Psychology](/psychology/abnormal-psychology/)
+- [Biological Level Of Analysis](/psychology/biological-level-of-analysis/)
+- [Cognitive Level Of Analysis](/psychology/cognitive-level-of-analysis/)
+- [Developmental Psychology](/psychology/developmental-psychology/)
+- [Flashcards Abnormal](/psychology/flashcards-abnormal/)
+- [Flashcards Biological](/psychology/flashcards-biological/)
+- [Flashcards Cognitive](/psychology/flashcards-cognitive/)
+- [Flashcards Developmental](/psychology/flashcards-developmental/)
+- [Flashcards Qualitative](/psychology/flashcards-qualitative/)
 - [Flashcards Research Methods](./flashcards-review-methods)
-- [Flashcards Sociocultural](./flashcards-sociocultural)
-- [Practice Abnormal](./practice-abnormal)
-- [Practice Biological](./practice-biological)
-- [Practice Cognitive](./practice-cognitive)
-- [Practice Sociocultural](./practice-sociocultural)
-- [Psychology](./psychology)
-- [Qualitative Research](./qualitative-research)
-- [Research Methods](./research-methods)
-- [Sociocultural Level Of Analysis](./sociocultural-level-of-analysis)
+- [Flashcards Sociocultural](/psychology/flashcards-sociocultural/)
+- [Practice Abnormal](/psychology/practice-abnormal/)
+- [Practice Biological](/psychology/practice-biological/)
+- [Practice Cognitive](/psychology/practice-cognitive/)
+- [Practice Sociocultural](/psychology/practice-sociocultural/)
+- [Psychology](/psychology/psychology/)
+- [Qualitative Research](/psychology/qualitative-research/)
+- [Research Methods](/psychology/research-methods/)
+- [Sociocultural Level Of Analysis](/psychology/sociocultural-level-of-analysis/)
 
 ## IB Psychology Assessment Overview
 
@@ -255,13 +255,13 @@ A strong IB Psychology essay follows this structure:
 
 ## Cross-References
 
-- **[Abnormal Psychology](./abnormal-psychology):** Classification of psychological disorders, approaches to understanding and treating abnormality.
-- **[Biological Level of Analysis](./biological-level-of-analysis):** Neurotransmitters, brain structures, genetics, and biological research methods.
-- **[Cognitive Level of Analysis](./cognitive-level-of-analysis):** Memory models, cognitive biases, thinking, and problem-solving.
-- **[Developmental Psychology](./developmental-psychology):** Lifespan development, attachment, and cognitive growth.
-- **[Research Methods](./research-methods):** Experimental design, reliability, validity, and ethics.
-- **[Qualitative Research](./qualitative-research):** Interviews, focus groups, thematic analysis, and interpretive phenomenological analysis.
-- **[Sociocultural Level of Analysis](./sociocultural-level-of-analysis):** Conformity, obedience, social identity, and cultural influences.
+- **[Abnormal Psychology](/psychology/abnormal-psychology/):** Classification of psychological disorders, approaches to understanding and treating abnormality.
+- **[Biological Level of Analysis](/psychology/biological-level-of-analysis/):** Neurotransmitters, brain structures, genetics, and biological research methods.
+- **[Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/):** Memory models, cognitive biases, thinking, and problem-solving.
+- **[Developmental Psychology](/psychology/developmental-psychology/):** Lifespan development, attachment, and cognitive growth.
+- **[Research Methods](/psychology/research-methods/):** Experimental design, reliability, validity, and ethics.
+- **[Qualitative Research](/psychology/qualitative-research/):** Interviews, focus groups, thematic analysis, and interpretive phenomenological analysis.
+- **[Sociocultural Level of Analysis](/psychology/sociocultural-level-of-analysis/):** Conformity, obedience, social identity, and cultural influences.
 
 ## Further Reading
 

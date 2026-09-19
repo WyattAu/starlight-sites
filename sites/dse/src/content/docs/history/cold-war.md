@@ -109,8 +109,8 @@ The Cold War was a staring contest between two superpowers, each pointing nuclea
 ## See Also
 
 - [History](./)
-- [The Chinese Revolution](./chinese-revolution)
-- [Decolonisation and the Path to 1997](./decolonisation)
+- [The Chinese Revolution](/history/chinese-revolution/)
+- [Decolonisation and the Path to 1997](/history/decolonisation/)
 
 
 ## Advanced Content

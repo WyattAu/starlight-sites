@@ -18,7 +18,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Topics
 
-- [2_hardware](./2_hardware)
+- [2_hardware](/computer-science/2-hardware/2_hardware/)
 
 ## Learning Objectives
 

@@ -24,7 +24,7 @@ Web development separates concerns into three layers: HTML provides structure li
 This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting,
 Client-side vs server-side processing, multimedia applications, and user interface design. A brief
 Introduction to HTML, CSS, and JavaScript is available in
-[../4-networking-and-internet/1_internet-and-data-communications](../4-networking-and-internet/1_internet-and-data-communications).
+[../4-networking-and-internet/1_internet-and-data-communications](/ict/4-networking-and-internet/1_internet-and-data-communications/).
 
 ---
 
@@ -1196,6 +1196,6 @@ linked above.
 
 ## Cross-References
 
-- [Internet and Data Communications](../4-networking-and-internet/1_internet-and-data-communications) explains the network protocols that enable web technologies and multimedia delivery.
-- [Network Security](../8-network-security/1_network-security-and-social-implications) covers the security measures needed to protect web applications and user data.
-- [Office Automation](../5-office-automation/1_office-automation) provides the foundational computing skills that web development builds upon.
+- [Internet and Data Communications](/ict/4-networking-and-internet/1_internet-and-data-communications/) explains the network protocols that enable web technologies and multimedia delivery.
+- [Network Security](/ict/8-network-security/1_network-security-and-social-implications/) covers the security measures needed to protect web applications and user data.
+- [Office Automation](/ict/5-office-automation/1_office-automation/) provides the foundational computing skills that web development builds upon.

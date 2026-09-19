@@ -191,4 +191,4 @@ D) You need to maintain hardware
 ## See Also
 
 - [Aws](./)
-- [Professional Certifications](..)
+- [Professional Certifications](/)

@@ -1012,13 +1012,13 @@ from the value in methane.
 ## If You Get These Wrong, Revise
 
 - **Atomic structure and electron configurations** → Review
-  [..../2-atomic-structure/1_atomic-theory](../2-atomic-structure/1_atomic-theory)
+  [..../2-atomic-structure/1_atomic-theory](/chemistry/2-atomic-structure/1_atomic-theory/)
 - **States of matter and physical properties** → Review
-  [..../1-stoichiometry/2_states-of-matter](../1-stoichiometry/2_states-of-matter)
+  [..../1-stoichiometry/2_states-of-matter](/chemistry/1-stoichiometry/2_states-of-matter/)
 - **Periodic trends in electronegativity** → Review
-  [..../3-periodicity/1_periodicity](../3-periodicity/1_periodicity)
+  [..../3-periodicity/1_periodicity](/chemistry/3-periodicity/1_periodicity/)
 - **Organic molecular geometry** → Review
-  [..../10-organic-chemistry/2_organic-chemistry-advanced](../10-organic-chemistry/2_organic-chemistry-advanced)
+  [..../10-organic-chemistry/2_organic-chemistry-advanced](/chemistry/10-organic-chemistry/2_organic-chemistry-advanced/)
 
 
 ```mermaid

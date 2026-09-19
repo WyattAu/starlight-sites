@@ -18,7 +18,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Topics
 
-- [Traits And Generics](./traits-and-generics)
+- [Traits And Generics](/rust/05-traits-generics/traits-and-generics/)
 
 ## Learning Objectives
 

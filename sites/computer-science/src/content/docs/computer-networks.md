@@ -1875,9 +1875,9 @@ flowchart TD
 
 | Topic                          | Site           | Link                                                          |
 | ------------------------------ | -------------- | ------------------------------------------------------------- |
-| Advanced Computer Networks     | WyattsNotes    | [View](3-computer-networks/9_computer-networks-advanced) |
-| Operating Systems              | WyattsNotes    | [View](../../../../alevel/src/content/docs/computer-science/fundamentals/05-operating-systems)          |
-| Databases                      | WyattsNotes    | [View](2-systems/databases)                  |
+| Advanced Computer Networks     | WyattsNotes    | [View](/3-computer-networks/9_computer-networks-advanced/) |
+| Operating Systems              | WyattsNotes    | [View](https://alevel.wyattau.com/computer-science/fundamentals/05-operating-systems/)          |
+| Databases                      | WyattsNotes    | [View](/2-systems/databases/)                  |
 | Computer Networking, Stanford | Stanford CS144 | [View](https://cs144.github.io/)                              |
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)

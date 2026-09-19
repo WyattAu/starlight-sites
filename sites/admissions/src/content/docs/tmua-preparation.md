@@ -585,7 +585,7 @@ flowchart TD
 | -------------------- | ----------- | ---------------------------------------------------- |
 | TMUA Specification   | UAT         | [View](https://uat.ucl.ac.uk/tmua)                   |
 | TMUA Practice Papers | UAT         | [View](https://uat.ucl.ac.uk/tmua/practice-papers)   |
-| MAT Preparation      | WyattsNotes | [View](mat-preparation)  |
-| STEP Preparation     | WyattsNotes | [View](step-preparation) |
-| Probability          | WyattsNotes | [View](../../../../alevel/src/content/docs/maths/statistics/03-probability)     |
-| Real Analysis        | WyattsNotes | [View](../../../../mathematics/src/content/docs/real-analysis)   |
+| MAT Preparation      | WyattsNotes | [View](/mat-preparation/)  |
+| STEP Preparation     | WyattsNotes | [View](/step-preparation/) |
+| Probability          | WyattsNotes | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)     |
+| Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/real-analysis/)   |

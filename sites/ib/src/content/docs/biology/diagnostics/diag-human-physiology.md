@@ -347,5 +347,5 @@ blood cell production (polycythaemia).
 ## See Also
 
 - [Diagnostics](./)
-- [Cell Biology -- Diagnostic Tests](./diag-cell-biology)
-- [Ecology -- Diagnostic Tests](./diag-ecology)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)

@@ -1624,5 +1624,5 @@ linked above.
 ## See Also
 
 - [Ecology](./)
-- [Evolution and Ecology](./1_ecology)
-- [DSE Biology](..)
+- [Evolution and Ecology](/biology/2-ecology/1_ecology/)
+- [DSE Biology](/)
