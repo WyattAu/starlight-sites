@@ -2,45 +2,43 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Performance tuning across Linux systems: CPU scheduling, memory management, I/O optimization, network tuning, and application profiling. Practical techniques
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Cpu-Tuning
 
-- [CPU Architecture and Tuning](https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals/): A modern CPU is a superscalar, out-of-order, speculative execution engine. Understanding these Concepts is prerequisite to any meaningful tuning, because
+- [Cpu Fundamentals](https://tuning.wyattau.com/01-cpu-tuning/cpu-fundamentals/)
 
 ## Memory-Tuning
 
-- [Memory Tuning](https://tuning.wyattau.com/02-memory-tuning/memory-tuning/): DDR5 represents a fundamental shift in memory architecture. The comparison is not merely about speed, the power delivery model, signal integrity, and error
+- [Memory Tuning](https://tuning.wyattau.com/02-memory-tuning/memory-tuning/)
 
 ## Gpu-Tuning
 
-- [GPU Tuning](https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning/): NVIDIA GPUs are organized into Streaming Multiprocessors (SMs), each containing a set of CUDA cores, Shared memory, register files, and scheduling units.
+- [Gpu Tuning](https://tuning.wyattau.com/03-gpu-tuning/gpu-tuning/)
 
 ## Storage-Tuning
 
-- [Storage Tuning](https://tuning.wyattau.com/04-storage-tuning/storage-tuning/): Study notes for Storage Tuning - Wyatt's Notes with worked examples and practice questions.
+- [Storage Tuning](https://tuning.wyattau.com/04-storage-tuning/storage-tuning/)
 
 ## Cooling-Systems
 
-- [Cooling Systems](https://tuning.wyattau.com/05-cooling-systems/cooling/): Every cooling solution relies on three mechanisms of heat transfer: Comprehensive educational content coverage with definitions and practice problems.
+- [Cooling](https://tuning.wyattau.com/05-cooling-systems/cooling/)
 
 ## Stress-Testing
 
-- [Stress Testing and Validation](https://tuning.wyattau.com/06-stress-testing/stress-testing/): Stress testing serves three purposes for a systems engineer: Comprehensive educational content coverage with definitions and practice problems.
+- [Stress Testing](https://tuning.wyattau.com/06-stress-testing/stress-testing/)
 
 ## Overview
 
-- [About This Site](https://tuning.wyattau.com/about/): About Wyatt's Notes Performance Tuning resources, experience, expertise, and credentials behind performance optimisation study materials.
-- [Hardware Tuning Glossary, Key Terms](https://tuning.wyattau.com/glossary/): Performance tuning terminology: overclocking, undervolting, memory timings, thermal throttling, boost algorithms, and stability-testing concepts for CPUs, GPUs, and RAM.
-- [Introduction to Hardware Tuning](https://tuning.wyattau.com/intro/): Hardware tuning reference covering undervolting, overclocking, memory tuning, stress testing Methodology, and platform-specific considerations for Intel,
-- [Performance Tuning and Optimization Guide](https://tuning.wyattau.com/hub/): Study notes for Performance Tuning and Optimization Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Performance Tuning Practice](https://tuning.wyattau.com/practice-performance-tuning/): 15 MCQ questions covering CPU tuning, memory management, I/O optimization, network tuning, and profiling tools. Select an option to check your answer and view
-- [PSU Selection and BIOS Configuration](https://tuning.wyattau.com/psu-and-bios-guide/): A power supply unit (PSU) converts alternating current (AC) from the wall outlet into the direct Current (DC) voltages required by PC components. Wall mains
-- [Tuning - Wyatt's Notes](https://tuning.wyattau.com/): Performance tuning across Linux systems: CPU scheduling, memory management, I/O optimization, network tuning, and application profiling. Practical techniques
-- [Undervolting and Overclocking](https://tuning.wyattau.com/undervolting-and-overclocking/): Undervolting is the process of reducing the operating voltage (Vcore for CPUs and Vddc for GPUs) Supplied below the voltage level defined by the
+- [About](https://tuning.wyattau.com/about/)
+- [Glossary](https://tuning.wyattau.com/glossary/)
+- [Hub](https://tuning.wyattau.com/hub/)
+- [Index](https://tuning.wyattau.com/)
+- [Intro](https://tuning.wyattau.com/intro/)
+- [Practice Performance Tuning](https://tuning.wyattau.com/practice-performance-tuning/)
+- [Psu And Bios Guide](https://tuning.wyattau.com/psu-and-bios-guide/)
+- [Undervolting And Overclocking](https://tuning.wyattau.com/undervolting-and-overclocking/)
 
 ## Diagnostics
 
-- [Diagnostic Test: Performance Tuning](https://tuning.wyattau.com/diagnostics/diag-tuning/): Diagnostic test notes for tuning Diagnostic Test: Performance Tuning covering key concepts, worked examples, and practice problems for exam preparation.
+- [Diag Tuning](https://tuning.wyattau.com/diagnostics/diag-tuning/)

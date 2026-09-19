@@ -9,7 +9,7 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based argumentation, and awareness of historical and cultural contexts.
+This section covers literary analysis, language techniques, and critical writing skills. If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # English
 

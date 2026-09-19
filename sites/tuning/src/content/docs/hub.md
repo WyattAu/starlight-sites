@@ -57,7 +57,7 @@ flowchart TD
 
 Performance tuning is the art and science of extracting maximum capability from your hardware. Whether you are a gamer pushing frame rates higher, a content creator rendering video faster, or an engineer optimising a workstation for scientific computing, the principles are the same: understand your hardware, adjust its parameters, and verify the results with benchmarks.
 
-This hub page maps every resource on this site. The guides cover every subsystem of a modern computer, CPU, memory, GPU, storage, cooling, and power supply, with practical, tested techniques for each. Every recommendation includes the reasoning behind it, so you understand not just what to do but why it works. The goal is not to push hardware to destruction, but to find the optimal balance of performance, stability, and longevity.
+Work through the Tuning sections in order, starting with Cooling Systems and Cpu Tuning and building toward Cooling Systems, Cpu Tuning, Diagnostics, Gpu Tuning, Memory Tuning, Storage Tuning and Stress Testing, then check yourself with the practice problems for each topic. The guides cover every subsystem of a modern computer, CPU, memory, GPU, storage, cooling, and power supply, with practical, tested techniques for each. Every recommendation includes the reasoning behind it, so you understand not just what to do but why it works. The goal is not to push hardware to destruction, but to find the optimal balance of performance, stability, and longevity.
 
 ## Table of Contents
 

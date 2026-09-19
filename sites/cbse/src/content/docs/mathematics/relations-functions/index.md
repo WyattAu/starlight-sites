@@ -224,6 +224,6 @@ Students sometimes compute $(f \circ g)(x)$ as $f(x) \cdot g(x)$ instead of $f(g
 
 ## Cross-References
 
-- [Inverse Trigonometric Functions](../-inverse-trig/index) -- Inverse trigonometric functions are specific examples of inverse functions, requiring understanding of bijectivity.
-- [Matrices](../matrices/index) -- Linear transformations are functions from vectors to vectors, extending function theory to matrix algebra.
-- [Calculus](../derivatives/index) -- Derivatives measure rates of change of functions, connecting function theory to differential calculus.
+- Inverse Trigonometric Functions -- Inverse trigonometric functions are specific examples of inverse functions, requiring understanding of bijectivity.
+- Matrices -- Linear transformations are functions from vectors to vectors, extending function theory to matrix algebra.
+- Calculus -- Derivatives measure rates of change of functions, connecting function theory to differential calculus.

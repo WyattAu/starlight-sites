@@ -1010,7 +1010,7 @@ $\blacksquare$
 ### 11.1 Exponential distribution and Poisson process
 
 The exponential distribution models inter-arrival times in a Poisson process. See
-[Poisson and Geometric Distributions](/further-maths/further-statistics/poisson-geometric).
+Poisson and Geometric Distributions.
 
 ### 11.2 Continuous distributions and integration
 

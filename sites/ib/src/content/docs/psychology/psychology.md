@@ -123,10 +123,10 @@ across different areas of the course.
 The following pages are available:
 
 - [Biological Level of Analysis](/psychology/biological/)
-- [Cognitive Level of Analysis](./cognitive/)
+- Cognitive Level of Analysis
 - [Sociocultural Level of Analysis](/psychology/sociocultural/)
-- [Abnormal Psychology](./abnormal/)
-- [Developmental Psychology](./developmental/)
+- Abnormal Psychology
+- Developmental Psychology
 - [Research Methods](/psychology/research-methods/)
 - [Qualitative Research (HL)](/psychology/qualitative-research/)
 

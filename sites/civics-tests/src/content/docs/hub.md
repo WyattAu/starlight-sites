@@ -64,8 +64,8 @@ This hub page maps every resource on this site, organised by the civics test cat
 - [The Civics Test Format](#the-civics-test-format)
 - [American Government](#american-government)
 - [American History](#american-history)
-- [Integrated Civics: Geography and Symbols](#integrated-civics-geography-and-symbols)
-- [Integrated Civics: Holidays and observances](#integrated-civics-holidays-and-observances)
+- [Integrated Civics: Geography and Symbols](/hub/)
+- [Integrated Civics: Holidays and observances](/hub/)
 - [Rights and Responsibilities](#rights-and-responsibilities)
 - [The Naturalisation Process](#the-naturalisation-process)
 - [Recommended Study Plan](#recommended-study-plan)
@@ -80,16 +80,16 @@ The USCIS civics test is an oral examination conducted during your naturalisatio
 
 ### Topic Notes
 
-- [Civics Test Overview](civics-test-format) -- how the test works, what to expect, and scoring rules
-- [The 100 Questions](civics-test-format/all-questions) -- the complete list of 100 USCIS civics questions
-- [Test Day Procedures](civics-test-format/test-day) -- what to bring, how the interview works, and officer expectations
-- [Accommodations](civics-test-format/accommodations) -- provisions for disabilities, age, and long-term residency
+- Civics Test Overview -- how the test works, what to expect, and scoring rules
+- The 100 Questions -- the complete list of 100 USCIS civics questions
+- Test Day Procedures -- what to bring, how the interview works, and officer expectations
+- Accommodations -- provisions for disabilities, age, and long-term residency
 
 ### Practice and Review
 
-- [Flashcards: All 100 Questions](flashcards-civics-all)
-- [Practice Test: Random 10](practice-civics-random) -- simulated tests with random question selection
-- [Practice Test: Government Questions](practice-civics-government) -- questions grouped by category
+- Flashcards: All 100 Questions
+- Practice Test: Random 10 -- simulated tests with random question selection
+- Practice Test: Government Questions -- questions grouped by category
 - [Practice Test: History Questions](https://ib.wyattau.com/history/history/) -- questions grouped by category
 
 ### Key Test Focus
@@ -105,16 +105,16 @@ The largest category of civics questions covers the structure and function of US
 ### Topic Notes
 
 - [The Constitution](/constitution-history/) -- the supreme law, the Bill of Rights, and amendments
-- [The Legislative Branch](government/legislative) -- Congress, the Senate, the House of Representatives, and lawmaking
-- [The Executive Branch](government/executive) -- the President, the Cabinet, and federal agencies
-- [The Judicial Branch](government/judicial) -- the Supreme Court, federal courts, and judicial review
-- [Federalism](government/federalism) -- the division of power between federal and state governments
-- [Political Parties](government/parties) -- the two major parties, the election process, and the Electoral College
+- The Legislative Branch -- Congress, the Senate, the House of Representatives, and lawmaking
+- The Executive Branch -- the President, the Cabinet, and federal agencies
+- The Judicial Branch -- the Supreme Court, federal courts, and judicial review
+- Federalism -- the division of power between federal and state governments
+- Political Parties -- the two major parties, the election process, and the Electoral College
 
 ### Practice and Review
 
-- [Flashcards: American Government](flashcards-government)
-- [Practice Questions: Government](practice-government)
+- Flashcards: American Government
+- Practice Questions: Government
 
 ### Key Test Focus
 
@@ -128,12 +128,12 @@ The civics test covers major periods and events in American history, from the co
 
 ### Topic Notes
 
-- [Colonial Period and Independence](history/colonial) -- the 13 colonies, the Declaration of Independence, and the Revolutionary War
-- [The Early Republic](history/early-republic) -- the Constitution, the Bill of Rights, and the first presidents
+- Colonial Period and Independence -- the 13 colonies, the Declaration of Independence, and the Revolutionary War
+- The Early Republic -- the Constitution, the Bill of Rights, and the first presidents
 - [The Civil War and Reconstruction](https://ib.wyattau.com/history/comparitives/spanish-civil-war-chinese-civil-war/) -- slavery, the Civil War, and the 13th, 14th, and 15th amendments
 - [Industrialisation and the Progressive Era](https://alevel.wyattau.com/history/7-industrial-revolution/1_industrial_revolution/) -- immigration, the World Wars, and economic change
-- [The Civil Rights Movement](history/civil-rights) -- desegregation, the Voting Rights Act, and key leaders
-- [Recent History](history/recent) -- the Cold War, the end of the 20th century, and the 21st century
+- The Civil Rights Movement -- desegregation, the Voting Rights Act, and key leaders
+- Recent History -- the Cold War, the end of the 20th century, and the 21st century
 
 ### Practice and Review
 
@@ -153,8 +153,8 @@ The integrated civics section covers US geography, national symbols, and the mea
 ### Topic Notes
 
 - [US Geography](https://ib.wyattau.com/geography/geography/) -- states, borders, rivers, mountains, and the capital
-- [National Symbols](symbols) -- the flag, the eagle, the Statue of Liberty, and the national anthem
-- [The Capital and States](geography/capital) -- Washington, D.C., the 50 states, and their locations
+- National Symbols -- the flag, the eagle, the Statue of Liberty, and the national anthem
+- The Capital and States -- Washington, D.C., the 50 states, and their locations
 
 ### Practice and Review
 
@@ -173,14 +173,14 @@ The civics test includes questions about national holidays and their significanc
 
 ### Topic Notes
 
-- [National Holidays](holidays) -- Independence Day, Thanksgiving, Christmas, and others
-- [Federal Holidays](holidays/federal) -- the 11 federal holidays and when they are observed
-- [Historical Significance](holidays/significance) -- why each holiday matters in American history
+- National Holidays -- Independence Day, Thanksgiving, Christmas, and others
+- Federal Holidays -- the 11 federal holidays and when they are observed
+- Historical Significance -- why each holiday matters in American history
 
 ### Practice and Review
 
-- [Flashcards: Holidays](flashcards-holidays)
-- [Practice Questions: Holidays](practice-holidays)
+- Flashcards: Holidays
+- Practice Questions: Holidays
 
 ### Key Test Focus
 
@@ -195,15 +195,15 @@ The civics test covers the rights guaranteed by the Constitution and the respons
 ### Topic Notes
 
 - [The Bill of Rights](/bill-of-rights/) -- the first 10 amendments and the freedoms they protect
-- [Freedom of Speech and Religion](rights/freedoms) -- the First Amendment and its scope
-- [The Right to Vote](rights/voting) -- who can vote, how voting works, and voter protections
+- Freedom of Speech and Religion -- the First Amendment and its scope
+- The Right to Vote -- who can vote, how voting works, and voter protections
 - [Responsibilities of Citizenship](/rights-and-responsibilities/) -- jury duty, voting, and civic participation
-- [Equal Protection](rights/equal-protection) -- the 14th Amendment and anti-discrimination principles
+- Equal Protection -- the 14th Amendment and anti-discrimination principles
 
 ### Practice and Review
 
-- [Flashcards: Rights and Responsibilities](flashcards-rights)
-- [Practice Questions: Rights](practice-rights)
+- Flashcards: Rights and Responsibilities
+- Practice Questions: Rights
 
 ### Key Test Focus
 
@@ -218,15 +218,15 @@ Understanding the naturalisation process helps you prepare for the interview bey
 ### Topic Notes
 
 - [Naturalisation Overview](/naturalisation/) -- eligibility, application, and the path to citizenship
-- [The N-400 Application](naturalisation/n400) -- the application form, required documents, and common issues
-- [The Interview](naturalisation/interview) -- what happens during the naturalisation interview
+- The N-400 Application -- the application form, required documents, and common issues
+- The Interview -- what happens during the naturalisation interview
 - [The English Test](https://gcse.wyattau.com/english/) -- the English language component of the naturalisation test
-- [The Oath of Allegiance](naturalisation/oath) -- the final step and what the oath means
+- The Oath of Allegiance -- the final step and what the oath means
 
 ### Practice and Review
 
 - [Flashcards: Naturalisation Process](/naturalisation/)
-- [Practice Questions: Naturalisation](practice-naturalisation)
+- Practice Questions: Naturalisation
 
 ### Key Test Focus
 

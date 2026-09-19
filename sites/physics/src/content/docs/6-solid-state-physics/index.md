@@ -113,10 +113,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Thermal Physics](../../../../../typescript/src/content/docs/index):** Statistical mechanics of condensed matter; phonons and heat capacity require thermal physics.
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Quantum theory of solids; band theory is built on quantum mechanics.
-- **[Electromagnetism](../../../../../typescript/src/content/docs/index):** Electromagnetic properties of materials; dielectrics and conductors are electromagnetic phenomena.
-- **[Mathematics](../../../../../typescript/src/content/docs/index):** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
+- **Thermal Physics:** Statistical mechanics of condensed matter; phonons and heat capacity require thermal physics.
+- **Quantum Mechanics:** Quantum theory of solids; band theory is built on quantum mechanics.
+- **Electromagnetism:** Electromagnetic properties of materials; dielectrics and conductors are electromagnetic phenomena.
+- **Mathematics:** Fourier transforms, group theory, and linear algebra are essential mathematical tools.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

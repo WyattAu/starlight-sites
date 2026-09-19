@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: 1_threading_and_synchronization
-description: "This section provides study materials and resources for 1_threading_and_synchronization. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for 1_threading_and_synchronization. Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for 1_threading_and_synchronization. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for 1_threading_and_synchronization. Work through 1_threading_and_synchronization alongside the practice problems for Concurrency, then let the diagnostic tests tell you whether it stuck.
 
 # 1_threading_and_synchronization
 
@@ -32,7 +32,7 @@ This section provides study materials and resources for 1_threading_and_synchron
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read 1_threading_and_synchronization, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

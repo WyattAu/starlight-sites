@@ -1514,7 +1514,7 @@ use paste::paste;
 macro_rules! make_getter {
     ($name:ident, $field:ident, $ty:ty) => {
         paste! {
-            fn [<get_ $name>](&self) -> &$ty {
+            fn <get_ $name> -> &$ty {
                 &self.$field
             }
         }

@@ -29,7 +29,7 @@ This section covers cybersecurity principles, network security, and defensive st
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Security sections in order, starting with Authentication and Cloud Security and building toward Authentication, Cloud Security, Cryptography, Diagnostics, Incident Response, Malware Analysis, Network Security, Os Security, Security Fundamentals and Web Security, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

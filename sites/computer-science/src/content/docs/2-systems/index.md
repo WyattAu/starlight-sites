@@ -108,9 +108,9 @@ Each section includes:
 
 ## Cross-References
 
-- **[Operating Systems](../../../../../typescript/src/content/docs/index):** Deep dive into process management, memory, and synchronisation.
-- **[Databases](../../../../../typescript/src/content/docs/index):** Transaction management and concurrency control.
-- **[Computer Networks](../../../../../typescript/src/content/docs/index):** Network architecture and protocol design.
+- **Operating Systems:** Deep dive into process management, memory, and synchronisation.
+- **Databases:** Transaction management and concurrency control.
+- **Computer Networks:** Network architecture and protocol design.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Human Geography"
-description: "This section provides study materials and resources for human geography. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for human geography. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for human geography. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for human geography. Use the diagnostic tests to find out whether Human Geography needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Human Geography
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for human geography. Browse 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through Human Geography alongside the practice problems for Geography, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

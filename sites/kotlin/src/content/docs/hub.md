@@ -99,9 +99,9 @@ Kotlin's null safety system is one of its defining features. By distinguishing b
 
 ### Topic Notes
 
-- [Nullable Types](03-null-safety/01-nullable-types), the `?` operator, safe calls, and the !! operator
-- [Safe Casts and Let](03-null-safety/02-safe-casts-and-let), as?, let blocks, and the Elvis operator
-- [Platform Types](03-null-safety/03-platform-types), Java interop, nullability annotations, and platform type inference
+- Nullable Types, the `?` operator, safe calls, and the !! operator
+- Safe Casts and Let, as?, let blocks, and the Elvis operator
+- Platform Types, Java interop, nullability annotations, and platform type inference
 - [Nullable Collections](/intermediate/collections/), List?, List<String?>, and List<String>?
 
 ### Key Concepts
@@ -122,8 +122,8 @@ Kotlin treats functions as first-class citizens. You can pass functions as argum
 
 - [Lambdas and Higher-Order Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), lambda syntax, it keyword, and function types
 - [Standard Library Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), map, filter, reduce, fold, and let/run/apply/also
-- [Sequences and Lazy Evaluation](04-functional/03-sequences-and-lazy-evaluation), sequence builder, intermediate vs terminal operations
-- [Delegated Properties](04-functional/04-delegated-properties), lazy, observable, vetoable, and custom delegates
+- Sequences and Lazy Evaluation, sequence builder, intermediate vs terminal operations
+- Delegated Properties, lazy, observable, vetoable, and custom delegates
 
 ### Key Concepts
 
@@ -141,9 +141,9 @@ Coroutines are Kotlin's solution to asynchronous and concurrent programming. The
 
 ### Topic Notes
 
-- [Coroutine Basics](05-coroutines/01-coroutine-basics), launch, async, runBlocking, and structured concurrency
+- Coroutine Basics, launch, async, runBlocking, and structured concurrency
 - [Suspend Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), suspension points, continuation, and the suspend modifier
-- [Coroutine Context and Dispatchers](05-coroutines/03-context-and-dispatchers), Dispatchers.Main, Dispatchers.IO, and CoroutineScope
+- Coroutine Context and Dispatchers, Dispatchers.Main, Dispatchers.IO, and CoroutineScope
 - [Flow](/basics/control-flow/), cold streams, operators, and collecting values
 - [Error Handling](https://dart.wyattau.com/08-error-handling/), try/catch in coroutines, SupervisorJob, and CoroutineExceptionHandler
 
@@ -163,10 +163,10 @@ Kotlin is the preferred language for Android development. Jetpack Compose, the m
 
 ### Topic Notes
 
-- [Android Fundamentals](06-android/01-android-fundamentals), Activity, Fragment, lifecycle, and Intent
-- [Jetpack Compose](06-android/02-jetpack-compose), composables, state, recomposition, and material design
-- [ViewModel and State](06-android/03-viewmodel-and-state), ViewModel, StateFlow, and state hoisting
-- [Room Database](06-android/04-room-database), entities, DAOs, migrations, and TypeConverters
+- Android Fundamentals, Activity, Fragment, lifecycle, and Intent
+- Jetpack Compose, composables, state, recomposition, and material design
+- ViewModel and State, ViewModel, StateFlow, and state hoisting
+- Room Database, entities, DAOs, migrations, and TypeConverters
 - [Dependency Injection](https://dart.wyattau.com/12-dependency-injection/), Hilt, modules, and scoping
 
 ### Key Concepts
@@ -185,10 +185,10 @@ Kotlin and Spring Boot integrate seamlessly. Spring Boot provides first-class Ko
 
 ### Topic Notes
 
-- [Spring Boot Basics](07-spring-boot/01-spring-boot-basics), project setup, application properties, and auto-configuration
-- [REST Controllers](07-spring-boot/02-rest-controllers), request mapping, validation, and ResponseEntity
-- [Spring Data JPA](07-spring-boot/03-spring-data-jpa), repositories, queries, and Kotlin data classes
-- [Spring Security](07-spring-boot/04-spring-security), authentication, authorization, and JWT
+- Spring Boot Basics, project setup, application properties, and auto-configuration
+- REST Controllers, request mapping, validation, and ResponseEntity
+- Spring Data JPA, repositories, queries, and Kotlin data classes
+- Spring Security, authentication, authorization, and JWT
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), Kotest, MockK, and WebTestClient
 
 ### Key Concepts

@@ -2,103 +2,101 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Developer tools and foundational knowledge covering algorithms, version control, licensing, and engineering practices with worked examples.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://tools.wyattau.com/about/): Wyatt's Notes provides comprehensive study materials for development tools. These notes cover version control, build systems, containerisation, CI/CD
-- [Algorithms Practice](https://tools.wyattau.com/practice-algorithms/): Explanation: Binary search divides the search space in half with each comparison. Starting with n elements, after one comparison the remaining candidates are
-- [Developer Tools & Knowledge](https://tools.wyattau.com/): Developer tools and foundational knowledge covering algorithms, version control, licensing, and engineering practices with worked examples.
-- [Developer Tools Glossary, Key Terms and Definitions](https://tools.wyattau.com/glossary/): Study notes for Developer Tools Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Developer Tools Guide, Testing, Debugging, CI/CD](https://tools.wyattau.com/hub/): Study notes for Developer Tools Guide, Testing, Debugging, CI/CD with worked examples, practice problems, and key concepts for exam preparation.
-- [Kubernetes and Docker](https://tools.wyattau.com/kubernetes-docker/): Complete guide to container orchestration with Kubernetes and Docker for modern DevOps.
+- [About](https://tools.wyattau.com/about/)
+- [Glossary](https://tools.wyattau.com/glossary/)
+- [Hub](https://tools.wyattau.com/hub/)
+- [Index](https://tools.wyattau.com/)
+- [Kubernetes Docker](https://tools.wyattau.com/kubernetes-docker/)
+- [Practice Algorithms](https://tools.wyattau.com/practice-algorithms/)
 
 ## Algorithms
 
-- [Advanced Data Structures](https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-data-structures/): Algorithms Advanced Data Structures notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
-- [Advanced Graph Algorithms](https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-graph-algorithms/): Algorithms Advanced Graph Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.
-- [Arrays and Strings](https://tools.wyattau.com/algorithms/02-arrays-strings/arrays-and-strings/): An array is a contiguous block of memory where each element occupies a fixed number of bytes and is Indexed by an integer offset from the base address. This
-- [Binary Search Trees and Balanced Trees](https://tools.wyattau.com/algorithms/04-trees-graphs/binary-search-trees/): A binary search tree (BST) is a binary tree where every node satisfies the : for any Node with key All keys in its left subtree are strictly less than And
-- [Complexity Analysis](https://tools.wyattau.com/algorithms/01-complexity-analysis/complexity-analysis/): A system that handles 1,000 requests per second at USD 10,000 per month in compute costs is Fundamentally different from one that handles 10 requests per
-- [Deques and Priority Queues](https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/): A deque (double-ended queue) is a linear collection that supports insertion and removal at both Ends. It generalises both stacks (LIFO) and queues (FIFO).
-- [Dynamic Programming](https://tools.wyattau.com/algorithms/06-dynamic-programming/dynamic-programming/): Dynamic programming (DP) solves problems by breaking them into overlapping subproblems, solving each Subproblem once, and storing the results. Two
-- [Dynamic Programming Patterns](https://tools.wyattau.com/algorithms/06-dynamic-programming/dp-patterns/): Recognising which DP pattern applies to a problem is the key skill. This section Comprehensive educational content coverage with definitions and practice proble
-- [Graph Algorithms](https://tools.wyattau.com/algorithms/07-graph-algorithms/graph-algorithms/): Study notes for Graph Algorithms with worked examples, practice problems, and key concepts for exam preparation.
-- [Greedy Algorithms](https://tools.wyattau.com/algorithms/06-dynamic-programming/greedy-algorithms/): A greedy algorithm makes the locally optimal choice at each step, hoping this leads to a globally Optimal solution. Unlike dynamic programming, greedy
-- [Hashing and Hash Tables](https://tools.wyattau.com/algorithms/02-arrays-strings/hashing-and-hash-tables/): A hash function maps an input from a large domain to a smaller, fixed-size range Comprehensive educational content coverage with definitions and practice proble
-- [Introduction to Algorithms](https://tools.wyattau.com/algorithms/intro/): An algorithm is a finite sequence of well-defined instructions that takes an input and produces an Output. This definition is deceptively simple. In
-- [Linked Lists, Stacks, and Queues](https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/linked-lists-stacks-queues/): A singly linked list is a sequence of nodes where each node contains a value and a reference to the Next node. The list is accessed through a head pointer;
-- [Sorting Algorithms](https://tools.wyattau.com/algorithms/05-sorting/sorting/): Algorithms Sorting Algorithms notes covering key definitions, core concepts, worked examples, and practice questions for detailed study and thorough revision.
-- [Trees and Graphs](https://tools.wyattau.com/algorithms/04-trees-graphs/trees-and-graphs/): A tree is a connected, acyclic, undirected graph. In computer science, trees are Comprehensive educational content coverage with definitions and practice proble
-- [Tries and String Algorithms](https://tools.wyattau.com/algorithms/04-trees-graphs/trie-and-pattern-matching/): A trie is a tree data structure where each node represents a character of a string. The path from The root to any node spells out a prefix, and nodes marked
+- [Advanced Data Structures](https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-data-structures/)
+- [Advanced Graph Algorithms](https://tools.wyattau.com/algorithms/07-graph-algorithms/advanced-graph-algorithms/)
+- [Arrays And Strings](https://tools.wyattau.com/algorithms/02-arrays-strings/arrays-and-strings/)
+- [Binary Search Trees](https://tools.wyattau.com/algorithms/04-trees-graphs/binary-search-trees/)
+- [Complexity Analysis](https://tools.wyattau.com/algorithms/01-complexity-analysis/complexity-analysis/)
+- [Deques And Priority Queues](https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/)
+- [Dp Patterns](https://tools.wyattau.com/algorithms/06-dynamic-programming/dp-patterns/)
+- [Dynamic Programming](https://tools.wyattau.com/algorithms/06-dynamic-programming/dynamic-programming/)
+- [Graph Algorithms](https://tools.wyattau.com/algorithms/07-graph-algorithms/graph-algorithms/)
+- [Greedy Algorithms](https://tools.wyattau.com/algorithms/06-dynamic-programming/greedy-algorithms/)
+- [Hashing And Hash Tables](https://tools.wyattau.com/algorithms/02-arrays-strings/hashing-and-hash-tables/)
+- [Intro](https://tools.wyattau.com/algorithms/intro/)
+- [Linked Lists Stacks Queues](https://tools.wyattau.com/algorithms/03-linked-lists-stacks-queues/linked-lists-stacks-queues/)
+- [Sorting](https://tools.wyattau.com/algorithms/05-sorting/sorting/)
+- [Trees And Graphs](https://tools.wyattau.com/algorithms/04-trees-graphs/trees-and-graphs/)
+- [Trie And Pattern Matching](https://tools.wyattau.com/algorithms/04-trees-graphs/trie-and-pattern-matching/)
 
 ## Diagnostics
 
-- [Diagnostic Test: Algorithms](https://tools.wyattau.com/diagnostics/diag-algorithms/): Diagnostic test notes for tools Diagnostic Test: Algorithms covering key concepts, worked examples, and practice problems for exam preparation.
+- [Diag Algorithms](https://tools.wyattau.com/diagnostics/diag-algorithms/)
 
 ## General
 
-- [Alleviating Back Pain](https://tools.wyattau.com/general/examples/alleviate-back-pain/): This program is a training system designed for casuals, it is expected to be executed three times per week on non-consecutive days (e.g., Monday, Wednesday,
-- [Crafting Ghee](https://tools.wyattau.com/general/examples/crafting-ghee/): Clarifying butter to its essence: Making ghee is like refining gold, you heat butter to drive off water and milk solids, leaving behind pure butterfat with a
-- [Developer Productivity](https://tools.wyattau.com/general/productivity/productivity/): The Pomodoro Technique breaks work into 25-minute focused intervals (pomodoros) separated by 5-minute breaks, with a longer 15–30 minute break every 4
-- [Development Environment Setup](https://tools.wyattau.com/general/dev-environment/dev-environment/): Study notes for Development Environment Setup with worked examples, practice problems, and key concepts for exam preparation.
-- [Iframe Integration](https://tools.wyattau.com/general/testing/iframe-integration/): Study notes for Iframe Integration with worked examples, practice problems, and key concepts for exam preparation.
-- [Introduction to General Notes](https://tools.wyattau.com/general/intro/): This resource is created not based on any curriculum, but a amalgamation of what Comprehensive educational content coverage with definitions and practice proble
-- [Markdown & MDX Constructs](https://tools.wyattau.com/general/markdown-constructs/): Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .
-- [Markdown Constructs](https://tools.wyattau.com/general/testing/markdown-constructs/): The building blocks of documentation: Markdown constructs are like LEGO bricks for documentation, each construct (headings, tables, code blocks, asides)
-- [Open Source Contribution Guide](https://tools.wyattau.com/general/open-source/open-source/): General Open Source Contribution notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.
-- [Systems Engineering Career](https://tools.wyattau.com/general/career/career/): General Systems Engineering Career notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.
+- [Alleviate Back Pain](https://tools.wyattau.com/general/examples/alleviate-back-pain/)
+- [Career](https://tools.wyattau.com/general/career/career/)
+- [Crafting Ghee](https://tools.wyattau.com/general/examples/crafting-ghee/)
+- [Dev Environment](https://tools.wyattau.com/general/dev-environment/dev-environment/)
+- [Iframe Integration](https://tools.wyattau.com/general/testing/iframe-integration/)
+- [Intro](https://tools.wyattau.com/general/intro/)
+- [Markdown Constructs](https://tools.wyattau.com/general/testing/markdown-constructs/)
+- [Open Source](https://tools.wyattau.com/general/open-source/open-source/)
+- [Productivity](https://tools.wyattau.com/general/productivity/productivity/)
+- [Short Name # Override display name in sidebar](https://tools.wyattau.com/general/markdown-constructs/): Use through . Do not skip levels (e.g., jumping from to ). The first heading In a page body should be because Docusaurus uses the frontmatter as the .
 
 ## Git
 
-- [Advanced Git Commands](https://tools.wyattau.com/git/advanced-git-commands/): Git Advanced Git Commands notes covering key definitions, core concepts, worked examples, and practice questions for effective study and examination practice.
-- [Advanced Topics](https://tools.wyattau.com/git/05-advanced-topics/): This section provides study materials and resources for advanced topics. Browse the topics below to find the specific area you need to revise.
-- [Best Practices](https://tools.wyattau.com/git/07-best-practices/): git config --global user.name "Your Name" git config --global user.email "you@ex Comprehensive educational content coverage with definitions and practice proble
-- [Bisect | Tools - Wyatt's Notes](https://tools.wyattau.com/git/05-advanced-topics/03-bisect/): uses to find the specific commit that introduced a bug. Given a known-good commit and a known-bad commit, it checks out commits between them, narrowing the
-- [Branching](https://tools.wyattau.com/git/03-branching-and-merging/01-branching/): Branching is the mechanism that enables, multiple developers (or a single developer working on multiple features) can modify the codebase independently,
-- [Branching Strategies](https://tools.wyattau.com/git/04-remotes-and-workflows/02-workflows/): Study notes for Branching Strategies with worked examples, practice problems, and key concepts for exam preparation.
-- [Cherry-Pick](https://tools.wyattau.com/git/05-advanced-topics/06-cherry-pick/): applies the introduced by a specific commit onto the current branch as a . It does not move or copy the original commit object, it computes the patch That
-- [Commit Signing](https://tools.wyattau.com/git/05-advanced-topics/08-commit-signing/): Commit signing uses cryptographic signatures to prove that a commit was authored by the holder of a Specific private key. The signature is stored as part of
-- [Conflict Resolution](https://tools.wyattau.com/git/03-branching-and-merging/04-conflict-resolution/): Study notes for Conflict Resolution with worked examples, practice problems, and key concepts for exam preparation.
-- [Filter-Repo (History Rewriting)](https://tools.wyattau.com/git/05-advanced-topics/10-filter-repo/): is a Python-based tool for rewriting Git repository history. It is the modern, Recommended replacement for Which has been deprecated since Git 2.24
-- [Git Directory Structure](https://tools.wyattau.com/git/06-internals/01-git-directory-structure/): The directory is the heart of a Git repository. It contains all metadata, object data, configuration, and hooks. Understanding its structure is essential
-- [Git Hooks](https://tools.wyattau.com/git/05-advanced-topics/07-hooks/): Git hooks are scripts that Git executes automatically before or after specific events in the Repository lifecycle, commits, pushes, rebases, checkouts, and
-- [Git Objects](https://tools.wyattau.com/git/02-fundamentals/02-git-objects/): At its core, Git is a . It stores data as objects, each identified by the SHA-1 hash of its content. This is not a version control feature, it is the
-- [Git Subtrees](https://tools.wyattau.com/git/05-advanced-topics/12-subtrees/): merges a repository into a subdirectory of another repository. Unlike submodules, Which maintain a reference to an external repository, subtrees embed the
-- [GitHub Actions CI/CD Patterns](https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/): GitHub Actions is an event-driven continuous integration and continuous deployment (CI/CD) platform Embedded directly into GitHub repositories. Workflows
-- [Hash Algorithm](https://tools.wyattau.com/git/06-internals/03-hash-algorithm/): Since its creation, Git has used (Secure Hash Algorithm 1) to identify all objects. Every Blob, tree, commit, and tag is named by the 40-character
-- [Hosting With Gitea On TrueNAS](https://tools.wyattau.com/git/Others/gitea-on-truenas/): 1. Since there is built in support for Gitea with TrueCharts, install Gitea using . Assign a dedicated dataset (eg, ) for persistent storage. 2. Set the
-- [Introduction to Git](https://tools.wyattau.com/git/01-intro/): Git is a (DVCS) designed to track changes in source code During software development. Unlike centralized VCS (CVCS) such as Subversion or Perforce, where a
-- [Merging](https://tools.wyattau.com/git/03-branching-and-merging/02-merging/): Study notes for Merging with worked examples, practice problems, and key concepts for exam preparation.
-- [Packing and Garbage Collection](https://tools.wyattau.com/git/06-internals/02-packing-and-garbage-collection/): Packing and Garbage Collection: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Pull Requests](https://tools.wyattau.com/git/04-remotes-and-workflows/03-pull-requests/): A pull request (PR), called a in GitLab, is a proposal to merge a branch into another branch, accompanied by a code review discussion. While is a local
-- [Rebasing](https://tools.wyattau.com/git/03-branching-and-merging/03-rebasing/): Rebasing is the process of a series of commits onto a new base commit. Unlike merging, which creates a new commit with two parents, rebasing rewrites
-- [References](https://tools.wyattau.com/git/02-fundamentals/03-references/): Study notes for References with worked examples, practice problems, and key concepts for exam preparation.
-- [Reflog | Tools - Wyatt's Notes](https://tools.wyattau.com/git/05-advanced-topics/01-reflog/): Git reflog and reference logging.
-- [Remote Operations](https://tools.wyattau.com/git/04-remotes-and-workflows/01-remote-operations/): Study notes for Remote Operations with worked examples, practice problems, and key concepts for exam preparation.
-- [Remotes And Workflows](https://tools.wyattau.com/git/04-remotes-and-workflows/): This section provides study materials and resources for remotes and workflows. Browse the topics below to find the specific area you need to revise.
-- [Remove Commit History](https://tools.wyattau.com/git/Others/remove-commit-history/): - Clone Git repository - Create orphan branch - - Stage all changes - - - Delete old branch - - Rename current temp branch to main - - Force-push current
-- [Sparse Checkout and Partial Clone](https://tools.wyattau.com/git/05-advanced-topics/11-sparse-checkout-and-partial-clone/): As repositories grow into monorepos containing hundreds of thousands of files, the cost of a full Clone becomes prohibitive. The problem manifests in three
-- [Stash | Tools - Wyatt's Notes](https://tools.wyattau.com/git/05-advanced-topics/02-stash/): temporarily shelves changes in your working directory and index, restoring your repository to a clean state (matching HEAD). It is a stack-based mechanism,
-- [Submodules](https://tools.wyattau.com/git/05-advanced-topics/04-submodules/): Git submodules allow you to embed one Git repository inside another. The parent repository records a to a specific commit of the submodule repository, not
-- [The pre-commit Framework](https://tools.wyattau.com/git/05-advanced-topics/09-pre-commit-framework/): is a Python-based framework for managing and executing Git hooks in a declarative, Reproducible way. It solves the fundamental problem with raw Git hooks:
-- [The Three Trees](https://tools.wyattau.com/git/02-fundamentals/01-the-three-trees/): Study notes for The Three Trees with worked examples, practice problems, and key concepts for exam preparation.
-- [Transfer Protocols and Authentication](https://tools.wyattau.com/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/): Git communicates with remote repositories over two primary transport protocols: and . Both are widely supported by GitHub, GitLab, Bitbucket, Gitea, and
-- [Worktrees](https://tools.wyattau.com/git/05-advanced-topics/05-worktrees/): allows you to have from the same repository, each checked out to a different branch. Unlike (which temporarily shelves changes) or switching branches (which
+- [Advanced Git Commands](https://tools.wyattau.com/git/advanced-git-commands/)
+- [Best Practices](https://tools.wyattau.com/git/07-best-practices/)
+- [Bisect](https://tools.wyattau.com/git/05-advanced-topics/03-bisect/)
+- [Branching](https://tools.wyattau.com/git/03-branching-and-merging/01-branching/)
+- [Cherry Pick](https://tools.wyattau.com/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](https://tools.wyattau.com/git/05-advanced-topics/08-commit-signing/)
+- [Conflict Resolution](https://tools.wyattau.com/git/03-branching-and-merging/04-conflict-resolution/)
+- [Filter Repo](https://tools.wyattau.com/git/05-advanced-topics/10-filter-repo/)
+- [Git Directory Structure](https://tools.wyattau.com/git/06-internals/01-git-directory-structure/)
+- [Git Objects](https://tools.wyattau.com/git/02-fundamentals/02-git-objects/)
+- [Gitea On Truenas](https://tools.wyattau.com/git/Others/gitea-on-truenas/)
+- [Github Actions Ci Cd Patterns](https://tools.wyattau.com/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/): Set up Python with caching
+- [Hash Algorithm](https://tools.wyattau.com/git/06-internals/03-hash-algorithm/)
+- [Hooks](https://tools.wyattau.com/git/05-advanced-topics/07-hooks/)
+- [Index](https://tools.wyattau.com/git/04-remotes-and-workflows/)
+- [Index](https://tools.wyattau.com/git/05-advanced-topics/)
+- [Intro](https://tools.wyattau.com/git/01-intro/)
+- [Merging](https://tools.wyattau.com/git/03-branching-and-merging/02-merging/)
+- [Packing And Garbage Collection](https://tools.wyattau.com/git/06-internals/02-packing-and-garbage-collection/)
+- [Pre Commit Framework](https://tools.wyattau.com/git/05-advanced-topics/09-pre-commit-framework/)
+- [Pull Requests](https://tools.wyattau.com/git/04-remotes-and-workflows/03-pull-requests/)
+- [Rebasing](https://tools.wyattau.com/git/03-branching-and-merging/03-rebasing/)
+- [References](https://tools.wyattau.com/git/02-fundamentals/03-references/)
+- [Reflog](https://tools.wyattau.com/git/05-advanced-topics/01-reflog/)
+- [Remote Operations](https://tools.wyattau.com/git/04-remotes-and-workflows/01-remote-operations/)
+- [Remove Commit History](https://tools.wyattau.com/git/Others/remove-commit-history/)
+- [Sparse Checkout And Partial Clone](https://tools.wyattau.com/git/05-advanced-topics/11-sparse-checkout-and-partial-clone/)
+- [Stash](https://tools.wyattau.com/git/05-advanced-topics/02-stash/)
+- [Submodules](https://tools.wyattau.com/git/05-advanced-topics/04-submodules/)
+- [Subtrees](https://tools.wyattau.com/git/05-advanced-topics/12-subtrees/)
+- [The Three Trees](https://tools.wyattau.com/git/02-fundamentals/01-the-three-trees/)
+- [Transfer Protocols And Auth](https://tools.wyattau.com/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
+- [Workflows](https://tools.wyattau.com/git/04-remotes-and-workflows/02-workflows/)
+- [Worktrees](https://tools.wyattau.com/git/05-advanced-topics/05-worktrees/)
 
 ## Licensing
 
-- [Introduction to Licensing](https://tools.wyattau.com/licensing/intro/): Every piece of software you write, compile, or deploy is subject to copyright law by default. Under The Berne Convention (implemented in the US via the
-- [Software Licensing](https://tools.wyattau.com/licensing/software-licensing/): AGPLv3 is the GNU Affero General Public License version 3, published by the Free Software Foundation In 2007. It is identical to GPLv3 with one critical
+- [Intro](https://tools.wyattau.com/licensing/intro/)
+- [Software Licensing](https://tools.wyattau.com/licensing/software-licensing/)
 
 ## Probabilisticml
 
-- [Definitions](https://tools.wyattau.com/probabilisticml/1_fundamentals/2_definitions/): Measure-theoretic definitions for probabilistic ML: sigma-algebras, random elements, Lebesgue integration, convergence, kernels, information geometry.
-- [Introduction to Probabilistic ML](https://tools.wyattau.com/probabilisticml/0_intro/): Probabilistic ML treats uncertainty as a first-class object: posteriors, calibration, and Bayesian updating for predictive modelling.
-- [Supervised Learning](https://tools.wyattau.com/probabilisticml/1_fundamentals/1_supervised_learning/): Supervised learning as function approximation under loss: ERM, generalisation, and the probabilistic view via likelihood and posteriors.
+- [Definitions](https://tools.wyattau.com/probabilisticml/1_fundamentals/2_definitions/)
+- [Intro](https://tools.wyattau.com/probabilisticml/0_intro/)
+- [Supervised Learning](https://tools.wyattau.com/probabilisticml/1_fundamentals/1_supervised_learning/)
 
 ## Zh
 
-- [算法导论 | Tools - Wyatt's Notes](https://tools.wyattau.com/zh/algorithms/intro/): 算法是有限条明确定义的指令序列，接受输入并产生输出。这个定义看似简单。实际上，"产生正确答案的算法"和"产生正确答案且足够快以产生实际价值的算法"之间的差距，正 Comprehensive educational content coverage with definitions and practice proble
+- [Intro](https://tools.wyattau.com/zh/algorithms/intro/)

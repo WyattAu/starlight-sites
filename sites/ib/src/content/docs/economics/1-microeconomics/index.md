@@ -31,7 +31,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

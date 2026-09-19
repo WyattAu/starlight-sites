@@ -1282,7 +1282,7 @@ subsidy approach transfers money to consumers (lower prices) and producers (high
 prices), while the price support transfers money to producers only (through government purchases of
 surplus).
 
-If you get this wrong, revise: [Government Price Controls](#government-price-controls)
+If you get this wrong, revise: [Government Price Controls](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
 
 ### Problem 11: Tax Incidence with Different Elasticities
 
@@ -1338,7 +1338,7 @@ for taxing cigarettes, alcohol, and petrol (inelastic demand). Conversely, taxin
 demand or supply creates large DWL and is economically inefficient, though it may be justified on
 equity grounds.
 
-If you get this wrong, revise: [Tax Incidence and Elasticity](#tax-incidence-and-elasticity)
+If you get this wrong, revise: [Tax Incidence and Elasticity](/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
 
 ### Problem 12: Price Ceiling with Quality Deterioration
 

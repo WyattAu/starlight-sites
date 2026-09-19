@@ -341,7 +341,7 @@ $\frac{\Delta W}{W} = 0.025 + 0.0145 = 0.0395$ So
 $\Delta W = 41.4 \times 0.0395 \approx 1.6$ J. Result: $W = 41.4 \pm 1.6$ J (3.9% uncertainty).
 
 <b>If you get this wrong, revise:</b>
-[Rule 2: Multiplication and Division](#rule-2-multiplication-and-division)
+[Rule 2: Multiplication and Division](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 
@@ -423,7 +423,7 @@ $\frac{0.05}{6.00} = 0.0083$ and $\frac{0.02}{0.50} = 0.04$. Total: $0.0083 + 0.
 $\Delta R = 12.0 \times 0.048 = 0.58 \approx 0.6$ $\Omega$. Result: $R = 12.0 \pm 0.6$ $\Omega$.
 
 <b>If you get this wrong, revise:</b>
-[Rule 2: Multiplication and Division](#rule-2-multiplication-and-division)
+[Rule 2: Multiplication and Division](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 
@@ -711,7 +711,7 @@ $\Delta a = 4.0 \times 0.075 = 0.30$ m s$^{-2}$.
 Result: $a = 4.0 \pm 0.3$ m s$^{-2}$ (7.5%).
 
 <b>If you get this wrong, revise:</b>
-[Rule 2: Multiplication and Division](#rule-2-multiplication-and-division)
+[Rule 2: Multiplication and Division](/physics/mechanics/01-quantities-and-units/)
 
 </details>
 

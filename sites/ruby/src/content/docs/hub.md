@@ -63,7 +63,7 @@ This hub page maps every resource on this site. The learning path takes you from
 - [Object-Oriented Ruby](#object-oriented-ruby)
 - [Blocks, Procs, and Lambdas](#blocks-procs-and-lambdas)
 - [Testing](#testing)
-- [Rails Framework](#rails-framework)
+- [Rails Framework](/hub/)
 - [Metaprogramming](#metaprogramming)
 - [Learning Path](#learning-path)
 - [Cross-Site Resources](#cross-site-resources)
@@ -80,8 +80,8 @@ Ruby's fundamentals are designed for simplicity and expressiveness. Everything i
 - [Variables and Types](https://languages.wyattau.com/ruby/01-basics/1_variables-and-types/), local, instance, class, and global variables; symbols
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), if/unless, while/until, loops, and iterators
 - [Strings](https://java.wyattau.com/02-fundamentals/03-strings/), string interpolation, heredocs, and the String class
-- [Numbers and Math](02-fundamentals/04-numbers-and-math), integers, floats, BigDecimal, and math operations
-- [Arrays and Hashes](02-fundamentals/05-arrays-and-hashes), creation, access, iteration, and common methods
+- Numbers and Math, integers, floats, BigDecimal, and math operations
+- Arrays and Hashes, creation, access, iteration, and common methods
 
 ### Key Concepts
 
@@ -101,9 +101,9 @@ Ruby is a pure object-oriented language. Every value is an object, and every ope
 
 - [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/), instance variables, methods, constructors, and accessors
 - [Inheritance](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/), superclass, method lookup, and the super keyword
-- [Modules and Mixins](03-oop/03-modules-and-mixins), including modules, namespacing, and duck typing
-- [Access Control](03-oop/04-access-control), public, private, and protected methods
-- [Design Patterns](03-oop/05-design-patterns), observer, strategy, and decorator patterns in Ruby
+- Modules and Mixins, including modules, namespacing, and duck typing
+- Access Control, public, private, and protected methods
+- Design Patterns, observer, strategy, and decorator patterns in Ruby
 
 ### Key Concepts
 
@@ -122,9 +122,9 @@ Blocks, Procs, and Lambdas are Ruby's tools for passing code as arguments. They 
 ### Topic Notes
 
 - [Blocks](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/), do/end syntax, yield, and block variables
-- [Procs and Lambdas](04-blocks/02-procs-and-lambdas), Proc.new, lambda, and the differences
-- [Closures](04-blocks/03-closures), variable capture, scope, and binding
-- [Higher-Order Methods](04-blocks/04-higher-order-methods), map, select, reduce, and custom iterators
+- Procs and Lambdas, Proc.new, lambda, and the differences
+- Closures, variable capture, scope, and binding
+- Higher-Order Methods, map, select, reduce, and custom iterators
 
 ### Key Concepts
 
@@ -142,9 +142,9 @@ Ruby has a strong testing culture. RSpec is the most popular testing framework, 
 
 ### Topic Notes
 
-- [RSpec Basics](05-testing/01-rspec-basics), describe, it, expect, and matchers
-- [Test doubles](05-testing/02-test-doubles), mocks, stubs, and verifying interactions
-- [FactoryBot](05-testing/03-factory-bot), factories, sequences, and associations
+- RSpec Basics, describe, it, expect, and matchers
+- Test doubles, mocks, stubs, and verifying interactions
+- FactoryBot, factories, sequences, and associations
 - [Integration Testing](https://alevel.wyattau.com/maths/pure-mathematics/11-integration/), request specs, system specs, and Capybara
 
 ### Key Concepts
@@ -163,10 +163,10 @@ Ruby on Rails is a full-stack web framework that emphasizes convention over conf
 
 ### Topic Notes
 
-- [Rails Basics](06-rails/01-rails-basics), MVC architecture, routing, controllers, and views
-- [Active Record](06-rails/02-active-record), models, associations, validations, and migrations
-- [Action Mailer and Active Job](06-rails/03-action-mailer-and-active-job), email sending and background jobs
-- [API Mode](06-rails/04-api-mode), building JSON APIs with Rails
+- Rails Basics, MVC architecture, routing, controllers, and views
+- Active Record, models, associations, validations, and migrations
+- Action Mailer and Active Job, email sending and background jobs
+- API Mode, building JSON APIs with Rails
 - [Deployment](https://elixir.wyattau.com/04-advanced/2_testing-and-deployment/), Puma, Capistrano, and production configuration
 
 ### Key Concepts
@@ -185,9 +185,9 @@ Ruby's metaprogramming capabilities allow you to write code that writes code. Me
 
 ### Topic Notes
 
-- [Dynamic Methods](07-metaprogramming/01-dynamic-methods), define_method, method_missing, and respond_to_missing?
+- Dynamic Methods, define_method, method_missing, and respond_to_missing?
 - [Open Classes](https://java.wyattau.com/03-object-oriented/01-classes/), monkey patching and the risks
-- [DSLs](07-metaprogramming/03-dsls), building domain-specific languages with Ruby
+- DSLs, building domain-specific languages with Ruby
 - [Reflection](https://go.wyattau.com/advanced/reflection/), class, methods, instance_variables, and send
 
 ### Key Concepts

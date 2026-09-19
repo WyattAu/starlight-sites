@@ -2,37 +2,35 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Elixir is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Intro
 
-- [Introduction to Elixir](https://elixir.wyattau.com/00-intro/1_elixir-intro/): Elixir is a programming language that runs on the . It was designed to build scalable, maintainable, and fault-tolerant applications by combining the
+- [Elixir Intro](https://elixir.wyattau.com/00-intro/1_elixir-intro/)
 
 ## Basics
 
-- [Basics and Pattern Matching](https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching/): Elixir has a rich set of built-in data types. Understanding these types and their properties is fundamental to writing idiomatic Elixir code.
+- [Basics And Pattern Matching](https://elixir.wyattau.com/01-basics/1_basics-and-pattern-matching/)
 
 ## Functions-Modules
 
-- [Functions and Modules](https://elixir.wyattau.com/02-functions-modules/1_functions-and-modules/): Named functions are defined inside modules using and . They are compiled and can be called from other modules (for ) or only within the defining module (for ).
+- [Functions And Modules](https://elixir.wyattau.com/02-functions-modules/1_functions-and-modules/)
 
 ## Concurrency
 
-- [Concurrency and OTP](https://elixir.wyattau.com/03-concurrency/1_concurrency-otp/): Study notes for Concurrency and OTP with worked examples, practice problems, and key concepts for exam preparation.
+- [Concurrency Otp](https://elixir.wyattau.com/03-concurrency/1_concurrency-otp/)
 
 ## Advanced
 
-- [Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/): Metaprogramming in Elixir is the ability to write code that generates or transforms code at compile time. The primary mechanism for this is the system,
-- [Testing and Deployment](https://elixir.wyattau.com/04-advanced/2_testing-and-deployment/): ExUnit is the built-in testing framework for Elixir. It ships with the language and provides everything needed for unit testing, integration testing, and
+- [Metaprogramming](https://elixir.wyattau.com/04-advanced/1_metaprogramming/)
+- [Testing And Deployment](https://elixir.wyattau.com/04-advanced/2_testing-and-deployment/)
 
 ## Overview
 
-- [About This Site](https://elixir.wyattau.com/about/): About Wyatt's Notes Elixir resources, experience, expertise, and credentials behind Elixir programming study materials.
-- [Complete Elixir Programming Study Guide](https://elixir.wyattau.com/hub/): Study notes for Complete Elixir Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Elixir - Wyatt's Notes](https://elixir.wyattau.com/): Elixir is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Elixir Flashcards (Basics)](https://elixir.wyattau.com/flashcards-elixir-basics/): 20 flashcards covering core Elixir concepts. Tap a card to reveal the answer. Comprehensive educational content coverage with definitions and practice problems.
-- [Elixir Glossary, Key Terms and Definitions](https://elixir.wyattau.com/glossary/): Study notes for Elixir Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Elixir Practice (Basics)](https://elixir.wyattau.com/practice-elixir-basics/): 10 auto-graded practice problems covering core Elixir concepts. Select an answer Comprehensive educational content coverage with definitions and practice proble
-- [Phoenix Practice](https://elixir.wyattau.com/practice-phoenix/): 5 exercises covering LiveView patterns, PubSub broadcasting, context modules, changeset validation, and channel communication.
+- [About](https://elixir.wyattau.com/about/)
+- [Flashcards Elixir Basics](https://elixir.wyattau.com/flashcards-elixir-basics/)
+- [Glossary](https://elixir.wyattau.com/glossary/)
+- [Hub](https://elixir.wyattau.com/hub/)
+- [Index](https://elixir.wyattau.com/)
+- [Practice Elixir Basics](https://elixir.wyattau.com/practice-elixir-basics/)
+- [Practice Phoenix](https://elixir.wyattau.com/practice-phoenix/)

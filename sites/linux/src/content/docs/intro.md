@@ -165,4 +165,4 @@ linked above.
 :::## Cross-References
 
 - **[Site Home](../../):** Main landing page for linux notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.

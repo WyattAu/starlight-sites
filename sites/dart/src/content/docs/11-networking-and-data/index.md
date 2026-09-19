@@ -28,7 +28,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Dart sections in order, starting with Async and Basics and building toward Async, Basics, Collections, Dart3 Features, Flutter Fundamentals, Networking And Data, Object Oriented, Setup, State Management and Testing, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

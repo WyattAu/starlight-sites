@@ -33,7 +33,7 @@ This section covers language proficiency assessment across CEFR levels. These ma
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Language Tests sections in order, starting with Cefr Levels and Practice and building toward Cefr Levels and Practice, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

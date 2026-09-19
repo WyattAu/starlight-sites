@@ -117,9 +117,9 @@ The dual of $L^p(\mu)$ is $L^q(\mu)$ where $1/p + 1/q = 1$, but this fails for $
 
 ## Cross-References
 
-- **[Linear Algebra](../../../../../typescript/src/content/docs/index):** Vector spaces and linear operators.
-- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Foundational analysis extended by functional analysis.
-- **[Measure Theory](../../../../../typescript/src/content/docs/index):** L^p spaces and measure-theoretic foundations.
+- **Linear Algebra:** Vector spaces and linear operators.
+- **Real Analysis:** Foundational analysis extended by functional analysis.
+- **Measure Theory:** L^p spaces and measure-theoretic foundations.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

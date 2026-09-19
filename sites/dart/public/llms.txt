@@ -2,69 +2,67 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Dart is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Setup
 
-- [Development Enviroment](https://dart.wyattau.com/02-setup/02-dev-enviroment/): Virtual devices can be created by opening the command-palette and selecting And selecting . However, the performance is not Accurate and convenience is
-- [Installation](https://dart.wyattau.com/02-setup/01-installation/): My recommended IDE for Dart is modifying the text editor VSCode with Dart and Fl Comprehensive educational content coverage with definitions and practice proble
+- [Dev Enviroment](https://dart.wyattau.com/02-setup/02-dev-enviroment/)
+- [Installation](https://dart.wyattau.com/02-setup/01-installation/)
 
 ## Basics
 
-- [Entry Point](https://dart.wyattau.com/03-basics/01-entrypoint/): When the project creates an executable, the entry point of the project is locate Comprehensive educational content coverage with definitions and practice proble
-- [Variables](https://dart.wyattau.com/03-basics/02-variables/): Flutter is statically type, therefore, all types are evaluated at compile time,  Comprehensive educational content coverage with definitions and practice proble
+- [Entrypoint](https://dart.wyattau.com/03-basics/01-entrypoint/)
+- [Variables](https://dart.wyattau.com/03-basics/02-variables/)
 
 ## Object-Oriented
 
-- [Classes and Inheritance](https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance/): Dart is an . Every class implicitly extends . Unlike Java, Dart has no interfaces as a separate construct, classes themselves serve as Interfaces.
+- [Classes And Inheritance](https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance/)
 
 ## Async
 
-- [Async and Futures](https://dart.wyattau.com/05-async/01-async-and-futures/): Dart runs on a with an isolated memory model. Unlike languages with Threads (Java, C++, Rust), Dart uses, the single thread processes Events from a queue,
+- [Async And Futures](https://dart.wyattau.com/05-async/01-async-and-futures/)
 
 ## Collections
 
-- [Collections Deep Dive](https://dart.wyattau.com/06-collections/01-collections-deep-dive/): Study notes for Collections Deep Dive with worked examples, practice problems, and key concepts for exam preparation.
+- [Collections Deep Dive](https://dart.wyattau.com/06-collections/01-collections-deep-dive/)
 
 ## Dart3-Features
 
-- [Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/): Dart 3 introduces class modifiers, keywords that restrict how a class can be used by other Libraries. Before Dart 3, any class could be extended,
-- [Pattern Matching](https://dart.wyattau.com/07-dart3-features/01-pattern-matching/): Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspecting values. A Pattern is a syntactic construct that describes the of a
-- [Sealed Classes](https://dart.wyattau.com/07-dart3-features/02-sealed-classes/): Sealed classes are a language-level constraint that restricts a class hierarchy to a known, finite Set of subtypes, all of which must be declared in the
+- [Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/)
+- [Pattern Matching](https://dart.wyattau.com/07-dart3-features/01-pattern-matching/)
+- [Sealed Classes](https://dart.wyattau.com/07-dart3-features/02-sealed-classes/)
 
 ## Flutter-Fundamentals
 
-- [Navigation](https://dart.wyattau.com/09-flutter-fundamentals/01-navigation/): Navigation is the mechanism by which users move between different screens, pages, or views within a Flutter application. Every non-trivial app needs a way
-- [Widgets and Lifecycle](https://dart.wyattau.com/09-flutter-fundamentals/02-widgets-and-lifecycle/): Study notes for Widgets and Lifecycle with worked examples, practice problems, and key concepts for exam preparation.
+- [Navigation](https://dart.wyattau.com/09-flutter-fundamentals/01-navigation/)
+- [Widgets And Lifecycle](https://dart.wyattau.com/09-flutter-fundamentals/02-widgets-and-lifecycle/)
 
 ## State-Management
 
-- [State Management](https://dart.wyattau.com/10-state-management/01-state-management/): Flutter renders UI by calling on widgets. The method returns a widget tree based On the current state. When state changes, must be called again to produce
+- [State Management](https://dart.wyattau.com/10-state-management/01-state-management/)
 
 ## Networking-And-Data
 
-- [Networking And Data](https://dart.wyattau.com/11-networking-and-data/): This section covers networking and data concepts, definitions, and applications with worked examples and practice problems.
-- [Platform Integration](https://dart.wyattau.com/11-networking-and-data/01-platform-integration/): Study notes for Platform Integration with worked examples, practice problems, and key concepts for exam preparation.
+- [Index](https://dart.wyattau.com/11-networking-and-data/)
+- [Platform Integration](https://dart.wyattau.com/11-networking-and-data/01-platform-integration/)
 
 ## Testing
 
-- [Testing Fundamentals](https://dart.wyattau.com/14-testing/01-testing-fundamentals/): Testing is not a phase that comes after development. It is a structural property of the codebase That determines whether you can safely change it. The
+- [Testing Fundamentals](https://dart.wyattau.com/14-testing/01-testing-fundamentals/)
 
 ## Overview
 
-- [About This Site](https://dart.wyattau.com/about/): About Wyatt's Notes Dart resources, experience, expertise, and credentials behind Dart and Flutter programming study materials.
-- [Best Practices](https://dart.wyattau.com/04-best-practices/): - Always enable null safety (). - Avoid usage of and declaration, always use or explicit typing. - Follow the order of >> >> with no nullability specifier
-- [Code Generation](https://dart.wyattau.com/13-code-generation/): Code generation in Dart is the process of automatically producing Dart source code from annotations, Builders, and configuration at build time.
-- [Complete Dart/Flutter Programming Study Guide](https://dart.wyattau.com/hub/): Study notes for Complete Dart/Flutter Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Dart - Wyatt's Notes](https://dart.wyattau.com/): Dart is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Dart Flashcards: Fundamentals](https://dart.wyattau.com/flashcards-dart-basics/): 20 interactive flashcards covering core Dart concepts from null safety to Dart 3 features and Flutter basics. Press Space to flip, rate 1-4.
-- [Dart Glossary, Key Terms and Definitions](https://dart.wyattau.com/glossary/): Study notes for Dart Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Dart Practice (Fundamentals)](https://dart.wyattau.com/practice-dart-basics/): 10 auto-graded practice problems covering core Dart concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble
-- [Dependency Injection](https://dart.wyattau.com/12-dependency-injection/): Dependency Injection (DI) is a design pattern that implements : Instead of a class creating its own dependencies, they are provided from the outside. This
-- [Error Handling](https://dart.wyattau.com/08-error-handling/): Dart draws a sharp line between two families of throwable objects: and . This is not a stylistic preference -- it is a semantic contract. means something wen
-- [FFI and Advanced Topics](https://dart.wyattau.com/09-ffi-and-advanced/): Dart FFI and Advanced Topics notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
-- [Flutter Practice](https://dart.wyattau.com/practice-flutter/): Problem: Build a product card widget that composes an image, title, price, and an add-to-cart button. The card should be reusable and accept all data as
-- [Introduction to Dart & Flutter](https://dart.wyattau.com/01-intro/): This resource is created as a aggregation of best practices in Dart and Flutter  Comprehensive educational content coverage with definitions and practice proble
-- [testing](https://dart.wyattau.com/testing/): Unit tests validate individual functions, methods, and classes in isolation. They are the fastest tests to run, the cheapest to maintain, and the most
+- [About](https://dart.wyattau.com/about/)
+- [Best Practices](https://dart.wyattau.com/04-best-practices/)
+- [Code Generation](https://dart.wyattau.com/13-code-generation/)
+- [Dependency Injection](https://dart.wyattau.com/12-dependency-injection/)
+- [Error Handling](https://dart.wyattau.com/08-error-handling/)
+- [Ffi And Advanced](https://dart.wyattau.com/09-ffi-and-advanced/)
+- [Flashcards Dart Basics](https://dart.wyattau.com/flashcards-dart-basics/)
+- [Glossary](https://dart.wyattau.com/glossary/)
+- [Hub](https://dart.wyattau.com/hub/)
+- [Index](https://dart.wyattau.com/)
+- [Intro](https://dart.wyattau.com/01-intro/)
+- [Practice Dart Basics](https://dart.wyattau.com/practice-dart-basics/)
+- [Practice Flutter](https://dart.wyattau.com/practice-flutter/)
+- [Testing](https://dart.wyattau.com/testing/)

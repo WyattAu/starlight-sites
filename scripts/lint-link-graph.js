@@ -96,6 +96,7 @@ for (const site of fs.readdirSync(SITES_DIR)) {
 
 const broken = []
 let rewritten = 0
+let stripped = 0
 const inbound = new Map() // `${site}:${urlPath}` -> count
 let linksChecked = 0
 
@@ -244,7 +245,33 @@ for (const [site, { pages }] of Object.entries(sites)) {
               fixNote = `cross-site content link to ${suggestion.site}`
             }
           }
+
+          // 5) the slug exists on exactly one other network site ->
+          //    repoint to the canonical URL on that site
+          if (!fixHref && pathPart.startsWith('/')) {
+            const tSlug = pathPart.slice(pathPart.lastIndexOf('/') + 1)
+            const crossMatches = []
+            for (const [otherSlug, other] of Object.entries(sites)) {
+              if (otherSlug === site) continue
+              for (const c of [`/${tSlug}/`, `/${tSlug}`]) {
+                if (other.urlPathSet.has(c)) {
+                  crossMatches.push(`https://${otherSlug}.wyattau.com${c}`)
+                  break
+                }
+              }
+            }
+            if (crossMatches.length === 1) {
+              fixHref = crossMatches[0] + fragment
+              fixNote = 'unique cross-site match'
+            }
+          }
         }
+
+        // 6) unfixable dead markdown link -> strip the link, keep the
+        //    text. A dead link is worse than no link on a study site.
+        //    Never applies to fragment-only links (valid same-page anchors)
+        //    or href= attributes (stripping would drop the anchor text).
+        const stripLink = FIX && !fixHref && !href.startsWith('#')
 
         if (FIX && fixHref) {
           const escHref = href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
@@ -256,6 +283,18 @@ for (const [site, { pages }] of Object.entries(sites)) {
             fs.writeFileSync(page.abs, fixed)
             rewritten++
             console.error(`rewritten: ${site}:${urlPath} :: ${href} => ${fixHref} (${fixNote})`)
+          } else {
+            broken.push({ site, urlPath, href, cls: 'no-target' })
+          }
+        } else if (FIX && stripLink) {
+          const escHref = href.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+          const reStrip = new RegExp(`\\[([^\\]]*)\\]\\(${escHref}\\)`, 'g')
+          const fixed = text.replace(reStrip, '$1')
+          if (fixed !== text) {
+            fs.writeFileSync(page.abs, fixed)
+            rewritten++
+            stripped++
+            console.error(`stripped: ${site}:${urlPath} :: ${href} (no target anywhere)`)
           } else {
             broken.push({ site, urlPath, href, cls: 'no-target' })
           }

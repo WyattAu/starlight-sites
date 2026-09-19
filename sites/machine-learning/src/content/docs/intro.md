@@ -335,4 +335,4 @@ print(f"F1 Score:  {f1:.2f}")
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for machine-learning notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.

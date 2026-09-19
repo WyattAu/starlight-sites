@@ -10,7 +10,7 @@ sources:
   - text: Spivak - Calculus
 
 
-This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in both pure and applied contexts.
+This section covers essential mathematical techniques and theories. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
 
@@ -28,7 +28,7 @@ This section covers essential mathematical techniques and theories. These founda
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

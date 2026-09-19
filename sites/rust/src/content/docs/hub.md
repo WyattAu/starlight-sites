@@ -99,9 +99,9 @@ Lifetimes are Rust's way of tracking reference validity. Every reference has a l
 
 ### Topic Notes
 
-- [Lifetime Basics](03-lifetimes/01-lifetime-basics), lifetime elision rules, function signatures, and the 'static lifetime
+- Lifetime Basics, lifetime elision rules, function signatures, and the 'static lifetime
 - [Struct Lifetimes](https://languages.wyattau.com/rust/02-ownership-borrowing/lifetimes/), storing references in structs and the need for lifetime annotations
-- [Lifetime Bounds and Traits](03-lifetimes/03-lifetime-bounds-and-traits), where clauses, lifetime bounds, and the relationship between lifetimes and generics
+- Lifetime Bounds and Traits, where clauses, lifetime bounds, and the relationship between lifetimes and generics
 
 ### Key Concepts
 
@@ -122,7 +122,7 @@ Rust has a rich type system with structs, enums, tuples, arrays, vectors, and ha
 - [Structs](https://alevel.wyattau.com/computer-science/programming/01-programming-constructs/), field initialization, methods, associated functions, and tuple structs
 - [Enums and Pattern Matching](https://dart.wyattau.com/07-dart3-features/01-pattern-matching/), enum variants, match expressions, and destructuring
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Vec, HashMap, HashSet, and BTreeMap
-- [String Types](04-types/04-string-types), String vs &str, UTF-8, and string manipulation
+- String Types, String vs &str, UTF-8, and string manipulation
 
 ### Key Concepts
 
@@ -140,11 +140,11 @@ Traits define shared behavior. A trait is a set of methods that a type can imple
 
 ### Topic Notes
 
-- [Trait Basics](05-traits/01-trait-basics), defining traits, implementing traits, and the trait bound syntax
-- [Trait Objects](05-traits/02-trait-objects), dynamic dispatch, the dyn keyword, and object safety
+- Trait Basics, defining traits, implementing traits, and the trait bound syntax
+- Trait Objects, dynamic dispatch, the dyn keyword, and object safety
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), generic functions, structs, enums, and monomorphization
-- [Trait Features](05-traits/04-trait-features), default methods, associated types, and operator overloading
-- [Common Traits](05-traits/05-common-traits), Display, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash
+- Trait Features, default methods, associated types, and operator overloading
+- Common Traits, Display, Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash
 
 ### Key Concepts
 
@@ -162,9 +162,9 @@ Rust handles errors with `Result<T, E>` and `Option<T>`no exceptions. `Result` r
 
 ### Topic Notes
 
-- [Result and Option](06-errors/01-result-and-option), creating, pattern matching, and unwrapping
-- [The ? Operator](06-errors/02-question-mark-operator), error propagation, the From trait, and ergonomic error handling
-- [Custom Error Types](06-errors/03-custom-error-types), defining error types, the thiserror and anyhow crates
+- Result and Option, creating, pattern matching, and unwrapping
+- The ? Operator, error propagation, the From trait, and ergonomic error handling
+- Custom Error Types, defining error types, the thiserror and anyhow crates
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/), when to use unwrap, expect, and how to design error types
 
 ### Key Concepts
@@ -183,9 +183,9 @@ Rust's async/await provides asynchronous programming with zero-cost abstractions
 
 ### Topic Notes
 
-- [Async Basics](07-async/01-async-basics), async fn, .await, and the Future trait
-- [Async Runtime](07-async/02-async-runtime), Tokio, async-std, and the executor model
-- [Streams and Async Traits](07-async/03-streams-and-async-traits), Stream trait, async streams, and async in traits
+- Async Basics, async fn, .await, and the Future trait
+- Async Runtime, Tokio, async-std, and the executor model
+- Streams and Async Traits, Stream trait, async streams, and async in traits
 - [Concurrency Patterns](https://java.wyattau.com/06-concurrency/01-concurrency/), tokio::spawn, join!, select!, and channels
 
 ### Key Concepts
@@ -205,9 +205,9 @@ Rust is designed for systems programming, operating systems, device drivers, emb
 ### Topic Notes
 
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/), unsafe blocks, raw pointers, and when to use unsafe
-- [FFI and Interop](08-systems/02-ffi-and-interop), extern "C", bindgen, and calling C from Rust
-- [Memory Layout](08-systems/03-memory-layout), repr, alignment, padding, and size
-- [Embedded and No-std](08-systems/04-embedded-and-no-std), no_std, embedded Rust, and bare-metal programming
+- FFI and Interop, extern "C", bindgen, and calling C from Rust
+- Memory Layout, repr, alignment, padding, and size
+- Embedded and No-std, no_std, embedded Rust, and bare-metal programming
 
 ### Key Concepts
 

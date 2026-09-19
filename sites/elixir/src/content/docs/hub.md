@@ -80,7 +80,7 @@ Elixir's fundamentals build on functional programming principles. Everything is 
 - [Basics](https://dart.wyattau.com/flashcards-dart-basics/), variables, atoms, tuples, lists, and maps
 - [Pattern Matching](https://dart.wyattau.com/07-dart3-features/01-pattern-matching/), the match operator, pin operator, and destructuring
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), named functions, anonymous functions, guards, and clauses
-- [Modules and Attributes](02-fundamentals/04-modules-and-attributes), module definitions, module attributes, and documentation
+- Modules and Attributes, module definitions, module attributes, and documentation
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), case, cond, with, and do blocks
 
 ### Key Concepts
@@ -100,8 +100,8 @@ Elixir is a functional language, functions are first-class citizens, data is imm
 ### Topic Notes
 
 - [Higher-Order Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), Enum.map, Enum.filter, Enum.reduce, and pipe operator
-- [Pipelines](03-functional/02-pipelines), the |> operator for chaining functions
-- [Recursion](03-functional/03-recursion), tail call optimization and recursive patterns
+- Pipelines, the |> operator for chaining functions
+- Recursion, tail call optimization and recursive patterns
 - [Protocols](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/), polymorphism through protocol dispatch
 
 ### Key Concepts
@@ -120,11 +120,11 @@ Elixir's process model is its most distinctive feature. Processes are lightweigh
 
 ### Topic Notes
 
-- [Process Basics](04-processes/01-process-basics), spawn, send, receive, and process IDs
-- [GenServer](04-processes/02-genserver), the generic server behaviour for stateful processes
-- [Agent and Task](04-processes/03-agent-and-task), simple state management and concurrent tasks
-- [Supervisors](04-processes/04-supervisors), monitoring, restarting, and fault tolerance
-- [Process Communication](04-processes/05-process-communication), message passing, selective receive, and timeouts
+- Process Basics, spawn, send, receive, and process IDs
+- GenServer, the generic server behaviour for stateful processes
+- Agent and Task, simple state management and concurrent tasks
+- Supervisors, monitoring, restarting, and fault tolerance
+- Process Communication, message passing, selective receive, and timeouts
 
 ### Key Concepts
 
@@ -142,10 +142,10 @@ OTP (Open Telecom Platform) is a set of libraries and behaviours for building fa
 
 ### Topic Notes
 
-- [OTP Overview](05-otp/01-otp-overview), what OTP provides and why it matters
+- OTP Overview, what OTP provides and why it matters
 - [Application](https://computer-science.wyattau.com/3-computer-networks/6_application-layer/), application lifecycle, configuration, and the supervision tree
-- [GenStateMachine](05-otp/03-gen-state-machine), state machines with OTP
-- [ETS and Mnesia](05-otp/04-ets-and-mnesia), in-memory storage and distributed database
+- GenStateMachine, state machines with OTP
+- ETS and Mnesia, in-memory storage and distributed database
 
 ### Key Concepts
 
@@ -163,10 +163,10 @@ Phoenix is Elixir's web framework. It follows the MVC pattern, provides real-tim
 
 ### Topic Notes
 
-- [Phoenix Basics](06-phoenix/01-phoenix-basics), router, controllers, views, and templates
-- [Ecto and Changesets](06-phoenix/02-ecto-and-changesets), database access, schemas, and data validation
+- Phoenix Basics, router, controllers, views, and templates
+- Ecto and Changesets, database access, schemas, and data validation
 - [Channels](https://go.wyattau.com/concurrency/channels/), WebSocket connections, real-time updates, and presence
-- [LiveView](06-phoenix/04-liveview), server-rendered real-time UI without JavaScript
+- LiveView, server-rendered real-time UI without JavaScript
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), controller tests, channel tests, and LiveView tests
 
 ### Key Concepts
@@ -185,9 +185,9 @@ Elixir has excellent testing support built into the language. ExUnit is the stan
 
 ### Topic Notes
 
-- [ExUnit Basics](07-testing/01-exunit-basics), test modules, assertions, and test helpers
-- [Fixtures and Setup](07-testing/02-fixtures-and-setup), ExUnit.Case, setup blocks, and shared fixtures
-- [Mocking and Stubs](07-testing/03-mocking-and-stubs), Mox and behaviour-based mocking
+- ExUnit Basics, test modules, assertions, and test helpers
+- Fixtures and Setup, ExUnit.Case, setup blocks, and shared fixtures
+- Mocking and Stubs, Mox and behaviour-based mocking
 - [Property-Based Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), StreamData and generative testing
 
 ### Key Concepts

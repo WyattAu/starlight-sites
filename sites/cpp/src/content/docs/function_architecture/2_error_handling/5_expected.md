@@ -351,7 +351,7 @@ int main() {
 
 ```cpp
 std::expected<int, Err> parse_with_default(std::string_view s, int default_val) {
-    return safe_parse(s).or_else([default_val](Err) -> std::expected<int, Err> {
+    return safe_parse(s).or_else(default_val -> std::expected<int, Err> {
         return default_val;
     });
 }
@@ -749,7 +749,7 @@ std::expected<std::string, ReadErr> default_config() {
 }
 
 std::expected<std::string, ReadErr> load_config(const std::string& path) {
-    return read_config(path).or_else([](ReadErr) {
+    return read_config(path).or_else( {
         std::cout << "  config file not found, using defaults\n";
         return default_config();
     });

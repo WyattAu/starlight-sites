@@ -552,7 +552,7 @@ By the binomial theorem: $\sum_{j=0}^{n-1}\binom{n-1}{j}p^j(1-p)^{n-1-j} = [p+(1
 Therefore $E(X) = np$.
 
 **If you get this wrong, revise:**
-[Direct derivation of $E(X) = np$ from the PMF](#25-direct-derivation-of-ex--np-from-the-pmf),
+[Direct derivation of $E(X) = np$ from the PMF](/maths/statistics/04-statistical-distributions/),
 Section 2.5.
 
 </details>

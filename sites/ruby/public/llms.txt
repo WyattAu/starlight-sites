@@ -2,42 +2,40 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Ruby is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Intro
 
-- [Introduction to Ruby](https://ruby.wyattau.com/00-intro/1_ruby-intro/): Ruby is a with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write. Ruby was created by Yukihiro
+- [Ruby Intro](https://ruby.wyattau.com/00-intro/1_ruby-intro/)
 
 ## Basics
 
-- [Variables and Types](https://ruby.wyattau.com/01-basics/1_variables-and-types/): Ruby has several types of variables, each with distinct scope and purpose. Variables do not need explicit type declarations -- Ruby is dynamically typed,
+- [Variables And Types](https://ruby.wyattau.com/01-basics/1_variables-and-types/)
 
 ## Control-Flow
 
-- [Control Flow](https://ruby.wyattau.com/02-control-flow/1_control-flow/): Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation.
+- [Control Flow](https://ruby.wyattau.com/02-control-flow/1_control-flow/)
 
 ## Methods-Blocks
 
-- [Methods and Blocks](https://ruby.wyattau.com/03-methods-blocks/1_methods-and-blocks/): Methods and Blocks: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Methods And Blocks](https://ruby.wyattau.com/03-methods-blocks/1_methods-and-blocks/)
 
 ## Oop
 
-- [Object-Oriented Programming](https://ruby.wyattau.com/04-oop/1_oop/): class Person def initialize(name, age) @name = name @age = age end Comprehensive educational content coverage with definitions and practice problems.
+- [Oop](https://ruby.wyattau.com/04-oop/1_oop/)
 
 ## Advanced
 
-- [Concurrency](https://ruby.wyattau.com/05-advanced/2_concurrency/): Ruby supports both concurrency (dealing with multiple tasks at once) and parallelism (executing multiple tasks simultaneously). The concurrency model has
-- [Metaprogramming](https://ruby.wyattau.com/05-advanced/1_metaprogramming/): Study notes for Metaprogramming with worked examples, practice problems, and key concepts for exam preparation.
+- [Concurrency](https://ruby.wyattau.com/05-advanced/2_concurrency/)
+- [Metaprogramming](https://ruby.wyattau.com/05-advanced/1_metaprogramming/)
 
 ## Overview
 
-- [About This Site](https://ruby.wyattau.com/about/): Wyatt's Notes offers comprehensive study materials for Ruby programming. These notes cover Ruby's object model, metaprogramming, Rails framework, and web
-- [Complete Ruby Programming Study Guide](https://ruby.wyattau.com/hub/): Study notes for Complete Ruby Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Rails Practice](https://ruby.wyattau.com/practice-rails/): Problem: Create a fully RESTful articles controller with all seven standard actions. Include strong parameters, before_action filters, and proper HTTP status
-- [Ruby - Wyatt's Notes](https://ruby.wyattau.com/): Ruby is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Ruby - Wyatt's Notes](https://ruby.wyattau.com/intro/): Study notes for Ruby with worked examples, practice problems, and key concepts for exam preparation.
-- [Ruby Basics Flashcards](https://ruby.wyattau.com/flashcards-ruby-basics/): Ruby is a language designed for developer happiness, everything is an object, and blocks/procs/lambdas make functional patterns feel natural alongside OOP.
-- [Ruby Glossary, Key Terms and Definitions](https://ruby.wyattau.com/glossary/): Study notes for Ruby Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Ruby Practice (Basics)](https://ruby.wyattau.com/practice-ruby-basics/): 10 auto-graded practice problems covering core Ruby concepts. Select an answer,  Comprehensive educational content coverage with definitions and practice proble
+- [About](https://ruby.wyattau.com/about/)
+- [Flashcards Ruby Basics](https://ruby.wyattau.com/flashcards-ruby-basics/)
+- [Glossary](https://ruby.wyattau.com/glossary/)
+- [Hub](https://ruby.wyattau.com/hub/)
+- [Index](https://ruby.wyattau.com/)
+- [Intro](https://ruby.wyattau.com/intro/)
+- [Practice Rails](https://ruby.wyattau.com/practice-rails/)
+- [Practice Ruby Basics](https://ruby.wyattau.com/practice-ruby-basics/)

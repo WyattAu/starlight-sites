@@ -133,9 +133,9 @@ Many proofs in real analysis implicitly rely on the Archimedean property (for an
 
 ## Cross-References
 
-- **[Linear Algebra](../../../../../typescript/src/content/docs/index):** Metric spaces and normed spaces.
-- **[Multivariable Calculus](../../../../../typescript/src/content/docs/index):** Extensions to several variables.
-- **[Measure Theory](../../../../../typescript/src/content/docs/index):** Lebesgue integration extending Riemann integration.
+- **Linear Algebra:** Metric spaces and normed spaces.
+- **Multivariable Calculus:** Extensions to several variables.
+- **Measure Theory:** Lebesgue integration extending Riemann integration.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

@@ -153,17 +153,17 @@ Higher Mathematics covers algebra, trigonometry, calculus, vectors, and statisti
 ### Topic Notes
 
 - [Mathematics Overview](/maths/), course structure and assessment format
-- [Algebra and Functions](maths/1-algebra-functions), polynomials, surds, indices, and functions
-- [Trigonometry](maths/2-trigonometry), trigonometric identities, equations, and the sine/cosine rules
-- [Calculus](maths/3-calculus), differentiation, integration, and applications
-- [Vectors](maths/4-vectors), vector operations, scalar product, and equations of lines
-- [Statistics](maths/5-statistics), data analysis, probability, and normal distribution
+- Algebra and Functions, polynomials, surds, indices, and functions
+- Trigonometry, trigonometric identities, equations, and the sine/cosine rules
+- Calculus, differentiation, integration, and applications
+- Vectors, vector operations, scalar product, and equations of lines
+- Statistics, data analysis, probability, and normal distribution
 
 ### Practice and Review
 
 - [Flashcards: Mathematics](/flashcards-mathematics/)
 - [Practice Questions: Mathematics](/maths/practice-maths/)
-- [Diagnostic Quizzes](maths/diagnostics), test across all maths topics
+- Diagnostic Quizzes, test across all maths topics
 
 ### Key Exam Focus
 

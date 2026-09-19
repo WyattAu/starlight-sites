@@ -156,7 +156,7 @@ Coordination compounds are used in analytical chemistry (complexometric titratio
 
 ## Cross-References
 
-- **[D-Block Elements](../d-block/index):** Coordination chemistry is primarily d-block chemistry, understanding transition metal properties explains why certain metals form stable complexes.
-- **[P-Block Elements](../p-block/index):** Ligands like NH₃, CN⁻, and Cl⁻ are p-block compounds that coordinate to metal centers.
-- **[Electrochemistry](../electrochemistry/index):** Complex formation affects electrode potentials, the stability of coordination compounds influences redox behavior.
-- **[Biomolecules](../biomolecules/index):** Biological coordination compounds like hemoglobin (Fe²⁺ with porphyrin) and vitamin B₁₂ (Co³⁺ with corrin) are essential for life.
+- **D-Block Elements:** Coordination chemistry is primarily d-block chemistry, understanding transition metal properties explains why certain metals form stable complexes.
+- **P-Block Elements:** Ligands like NH₃, CN⁻, and Cl⁻ are p-block compounds that coordinate to metal centers.
+- **Electrochemistry:** Complex formation affects electrode potentials, the stability of coordination compounds influences redox behavior.
+- **Biomolecules:** Biological coordination compounds like hemoglobin (Fe²⁺ with porphyrin) and vitamin B₁₂ (Co³⁺ with corrin) are essential for life.

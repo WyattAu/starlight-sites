@@ -74,7 +74,7 @@ Complete preparation for professional certification exams.
 
 ## See Also
 
-- [Aws](./aws)
+- Aws
 - [About This Site](./about)
 
 Keep practising and reviewing to master this topic.

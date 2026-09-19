@@ -62,7 +62,7 @@ This hub page maps every resource on this site. The learning path takes you from
 - [Language Fundamentals](#language-fundamentals)
 - [Types and Data Structures](#types-and-data-structures)
 - [Interfaces and Polymorphism](#interfaces-and-polymorphism)
-- [Concurrency: Goroutines and Channels](#concurrency-goroutines-and-channels)
+- [Concurrency: Goroutines and Channels](/hub/)
 - [Web Services and HTTP](#web-services-and-http)
 - [Error Handling](#error-handling)
 - [Learning Path](#learning-path)
@@ -80,7 +80,7 @@ Go's fundamentals are intentionally simple. The language has fewer keywords than
 - [Variables and Types](https://languages.wyattau.com/ruby/01-basics/1_variables-and-types/), short declaration, zero values, type inference, and constants
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), if/else, for loops, switch, and defer
 - [Functions and Methods](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), multiple return values, variadic functions, and method receivers
-- [Packages and Modules](02-fundamentals/04-packages-and-modules), package organization, imports, go modules, and visibility rules
+- Packages and Modules, package organization, imports, go modules, and visibility rules
 
 ### Key Concepts
 
@@ -102,7 +102,7 @@ Go has a focused set of types: primitives, arrays, slices, maps, and structs. Th
 - [Slices](/basics/arrays-slices-maps/), underlying arrays, length vs capacity, append, and copy
 - [Maps](/basics/arrays-slices-maps/), creation, key types, zero values, and the comma-ok idiom
 - [Pointers](https://programming.wyattau.com/types/2_pointers_references_views/1_pointers/), pointer arithmetic (absent), taking addresses, and dereferencing
-- [String and Byte Types](03-types/05-string-and-byte-types), string immutability, rune type, and encoding
+- String and Byte Types, string immutability, rune type, and encoding
 
 ### Key Concepts
 
@@ -120,9 +120,9 @@ Go's interfaces are implicit, a type satisfies an interface by implementing its 
 
 ### Topic Notes
 
-- [Interface Basics](04-interfaces/01-interface-basics), interface satisfaction, the empty interface, and type assertions
-- [Interface Design](04-interfaces/02-interface-design), small interfaces, accept interfaces return structs, and the io.Reader/Writer pattern
-- [Type Switches and Embedding](04-interfaces/03-type-switches-and-embedding), type switches, interface embedding, and composing interfaces
+- Interface Basics, interface satisfaction, the empty interface, and type assertions
+- Interface Design, small interfaces, accept interfaces return structs, and the io.Reader/Writer pattern
+- Type Switches and Embedding, type switches, interface embedding, and composing interfaces
 
 ### Key Concepts
 
@@ -143,7 +143,7 @@ Go's concurrency model is its most distinctive feature. Goroutines are lightweig
 - [Goroutines](/concurrency/goroutines/), launching goroutines, WaitGroup, and the sync package
 - [Channels](/concurrency/channels/), unbuffered, buffered, direction, and the select statement
 - [Concurrency Patterns](https://java.wyattau.com/06-concurrency/01-concurrency/), fan-out/fan-in, pipelines, context cancellation, and the worker pool
-- [Sync Primitives](05-concurrency/04-sync-primitives), Mutex, RWMutex, Once, atomic operations, and sync.Map
+- Sync Primitives, Mutex, RWMutex, Once, atomic operations, and sync.Map
 - [Context](https://computer-science.wyattau.com/6-theory-of-computation/3_context-free-languages/), cancellation, deadlines, and passing values across goroutines
 
 ### Key Concepts
@@ -165,7 +165,7 @@ Go's standard library provides everything needed to build production web service
 - [HTTP Basics](https://networking.wyattau.com/05-http-https/http/), http.ListenAndServe, handlers, and the ResponseWriter
 - [Routing](https://networking.wyattau.com/bgp-and-routing-protocols/), chi router, route groups, and middleware
 - [JSON and Serialization](https://languages.wyattau.com/python/05-standard-library/04-serialization/), encoding/json, struct tags, and custom marshalers
-- [Database Access](06-web-services/04-database-access), database/sql, sqlx, and migrations
+- Database Access, database/sql, sqlx, and migrations
 - [Testing and Middleware](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), httptest, middleware chains, and integration tests
 
 ### Key Concepts
@@ -184,9 +184,9 @@ Go handles errors with return values, not exceptions. Every function that can fa
 
 ### Topic Notes
 
-- [Error Basics](07-errors/01-error-basics), the error interface, errors.New, and fmt.Errorf
-- [Error Wrapping](07-errors/02-error-wrapping), %w verb, errors.Is, errors.As, and error chains
-- [Custom Error Types](07-errors/03-custom-error-types), defining error types, sentinel errors, and the errors package
+- Error Basics, the error interface, errors.New, and fmt.Errorf
+- Error Wrapping, %w verb, errors.Is, errors.As, and error chains
+- Custom Error Types, defining error types, sentinel errors, and the errors package
 
 ### Key Concepts
 

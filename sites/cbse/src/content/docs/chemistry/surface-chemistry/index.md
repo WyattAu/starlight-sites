@@ -155,7 +155,7 @@ Surface chemistry is critical in industrial processes (Haber process, catalytic 
 
 ## Cross-References
 
-- **[Solutions](../solutions/index):** Adsorption depends on concentration of the adsorbate in solution, connecting surface chemistry to solution concepts.
-- **[Chemical Kinetics](../chemical-kinetics/index):** Catalysis speeds up reactions by providing alternative pathways, connecting surface chemistry to reaction rates.
-- **[Polymers](../polymers/index):** Polymeric colloids and polymer-surfactant interactions are important in surface chemistry applications.
-- **[Electrochemistry](../electrochemistry/index):** Electrophoresis of colloids involves electric fields, linking surface chemistry to electrochemistry.
+- **Solutions:** Adsorption depends on concentration of the adsorbate in solution, connecting surface chemistry to solution concepts.
+- **Chemical Kinetics:** Catalysis speeds up reactions by providing alternative pathways, connecting surface chemistry to reaction rates.
+- **Polymers:** Polymeric colloids and polymer-surfactant interactions are important in surface chemistry applications.
+- **Electrochemistry:** Electrophoresis of colloids involves electric fields, linking surface chemistry to electrochemistry.

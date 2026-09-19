@@ -125,10 +125,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Classical Mechanics](../../../../../typescript/src/content/docs/index):** Newtonian mechanics underlying thermodynamics; kinetic theory connects microscopic motion to temperature.
-- **[Solid State Physics](../../../../../typescript/src/content/docs/index):** Statistical mechanics of solids; phonons and electronic heat capacity require thermal physics.
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Quantum statistics and thermal properties; Fermi-Dirac and Bose-Einstein distributions are quantum.
-- **[Mathematics](../../../../../typescript/src/content/docs/index):** Probability theory and combinatorics underpin statistical mechanics.
+- **Classical Mechanics:** Newtonian mechanics underlying thermodynamics; kinetic theory connects microscopic motion to temperature.
+- **Solid State Physics:** Statistical mechanics of solids; phonons and electronic heat capacity require thermal physics.
+- **Quantum Mechanics:** Quantum statistics and thermal properties; Fermi-Dirac and Bose-Einstein distributions are quantum.
+- **Mathematics:** Probability theory and combinatorics underpin statistical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

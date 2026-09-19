@@ -69,7 +69,7 @@ $M_i = f(x_i)$ and $m_i = f(x_{i-1})$. Then:
 
 $$U(f, P_n) - L(f, P_n) = \sum_{i=1}^{n} [f(x_i) - f(x_{i-1})] \cdot \frac{b-a}{n} = [f(b) - f(a)] \cdot \frac{b-a}{n}$$
 
-Choose $n$ large enough that $[f(b) - f(a)](b-a)/n \lt \varepsilon$. $\blacksquare$
+Choose $n$ large enough that $f(b) - f(a)/n \lt \varepsilon$. $\blacksquare$
 
 **Theorem 6.4.** A bounded function with finitely many discontinuities on $[a,b]$ is Riemann
 integrable.

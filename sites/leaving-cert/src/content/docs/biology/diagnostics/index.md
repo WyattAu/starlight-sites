@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling exam questions that require application of biological principles to unfamiliar contexts.
+This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
 # Diagnostics
 
@@ -28,7 +28,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

@@ -1167,7 +1167,7 @@ CPI Overstates the true cost of living increase.
 </details>
 
 If you get this wrong, revise:
-[Measurement: Consumer Price Index (CPI)](#measurement-consumer-price-index-cpi)
+[Measurement: Consumer Price Index (CPI)](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 4: GDP vs GNP
 
@@ -1375,7 +1375,7 @@ CPI $= \frac{84\,500}{75\,000} \times 100 = 112.67$. CPI inflation $= 12.67\%$.
 
 </details>
 
-If you get this wrong, revise: [GDP Deflator vs CPI](#gdp-deflator-vs-cpi)
+If you get this wrong, revise: [GDP Deflator vs CPI](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 10: Okun's Law and the Output Gap
 
@@ -1420,7 +1420,7 @@ from unemployment data, which is more frequently available than potential GDP es
 
 </details>
 
-If you get this wrong, revise: [Okun's Law](#okuns-law)
+If you get this wrong, revise: [Okun's Law](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 11: Economic Growth Accounting
 
@@ -1477,7 +1477,7 @@ is "intensive growth," which is more sustainable in the long run but inherently 
 
 </details>
 
-If you get this wrong, revise: [Economic Growth Accounting](#economic-growth-accounting)
+If you get this wrong, revise: [Economic Growth Accounting](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 12: Measuring Development -- Beyond GDP
 
@@ -1546,7 +1546,7 @@ and the 17 goals may involve trade-offs (e.g., economic growth vs environmental 
 
 </details>
 
-If you get this wrong, revise: [Development Indicators](#development-indicators)
+If you get this wrong, revise: [Development Indicators](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ---
 
@@ -1602,7 +1602,7 @@ billion. The import leakage reduces the multiplier from 4 to 1.818.
 
 </details>
 
-If you get this wrong, revise: [Circular Flow](#circular-flow)
+If you get this wrong, revise: [Circular Flow](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 14: Misleading GDP Statistics
 
@@ -1643,7 +1643,7 @@ data are essential for assessing living standards.
 
 </details>
 
-If you get this wrong, revise: [Real vs Nominal](#real-vs-nominal)
+If you get this wrong, revise: [Real vs Nominal](/economics/5-macroeconomic-indicators/1_national-income/)
 
 ### Problem 15: The Green GDP Debate
 

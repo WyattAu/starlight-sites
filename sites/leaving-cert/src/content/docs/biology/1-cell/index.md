@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling exam questions that require application of biological principles to unfamiliar contexts.
+This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Cell
 
@@ -28,7 +28,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through index alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

@@ -1,0 +1,2641 @@
+# Machine Learning — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Overview
+
+---
+
+## About
+URL: https://machine-learning.wyattau.com/about/
+
+## About Wyatt's Notes, Machine Learning
+
+Wyatt's Notes delivers comprehensive study materials for machine learning. These notes cover supervised and unsupervised learning, neural networks, deep learning, and practical ML engineering, building the skills needed to develop and deploy intelligent systems.
+
+### Why Trust These Resources?
+
+These notes are created by **Wyatt**, an educator and content developer with expertise in machine learning and data science. Content follows a structured progression from mathematical foundations through classical ML to deep learning applications.
+
+Materials emphasise the mathematical rigour that distinguishes ML practitioners from API callers. Every algorithm is presented with its mathematical foundations, practical considerations, and the limitations that matter in real applications.
+
+### What You'll Find
+
+- **Foundations** covering linear algebra, probability, and optimization
+- **Classical ML** with regression, SVMs, trees, and ensemble methods
+- **Deep learning** covering neural networks, CNNs, RNNs, and transformers
+- **Practical ML** with feature engineering, evaluation, and deployment
+- **Specialised topics** including NLP, computer vision, and reinforcement learning
+
+### Credentials
+
+Wyatt develops resources across machine learning, mathematics, and programming, providing the interdisciplinary perspective that enhances ML materials. Content is informed by academic research, industry practice, and hands-on ML project experience.
+
+## Related Sites
+
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics notes
+- **[Python](https://python.wyattau.com)**, Python programming resources
+- **[Physics](https://physics.wyattau.com)**, University-level physics notes
+
+## Explore the Site
+
+Start with the mathematical foundations to build the understanding ML requires. Each topic progresses from theory to practical implementation. Use the practice problems to develop your ML skills through hands-on projects.
+
+Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Machine Learning](./)
+- [advanced topics](/advanced-topics/)
+- [Machine Learning](/intro/)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Advanced Topics
+URL: https://machine-learning.wyattau.com/advanced-topics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Advanced Topics", "url": "https://machine-learning.wyattau.com/advanced-topics"}]
+}
+</script>
+
+## Attention Mechanisms and Transformers
+
+Attention mechanisms allow a model to focus on different parts of an input sequence when producing
+each element of an output. This capability, selectively attending to relevant information,
+replaced recurrence as the dominant paradigm for sequence modeling.
+
+### Self-Attention
+
+Self-attention computes a weighted sum of all positions in a sequence, where the weights determine
+how much each position contributes to the representation of another position. Given an input
+sequence X, the self-attention output is:
+
+```
+Attention(Q, K, V) = softmax(Q * K^T / sqrt(d_k)) * V
+```
+
+Q (queries), K (keys), and V (values) are linear projections of the input:
+
+```
+Q = X * W_Q
+K = X * W_K
+V = X * W_V
+```
+
+Each position generates a query that is compared against all keys. The softmax normalization
+produces attention weights that sum to 1. Multiplying these weights by the values produces a
+context-aware representation for each position.
+
+### Multi-Head Attention
+
+A single attention head learns one type of relationship. Multi-head attention runs multiple
+attention operations in parallel with different learned projections, then concatenates the results:
+
+```
+MultiHead(Q, K, V) = Concat(head_1, ..., head_h) * W_O
+where head_i = Attention(Q * W_Q_i, K * W_K_i, V * W_V_i)
+```
+
+Different heads can attend to different relationships simultaneously, one head might track
+syntactic structure while another tracks semantic proximity. This is the core mechanism that gives
+transformers their expressiveness.
+
+### Positional Encoding
+
+Self-attention is permutation-invariant, it processes a set of vectors, not a sequence. Positional
+encoding injects order information. The original transformer uses sinusoidal encodings:
+
+```
+PE(pos, 2i)   = sin(pos / 10000^(2i/d_model))
+PE(pos, 2i+1) = cos(pos / 10000^(2i/d_model))
+```
+
+Learned positional embeddings are also common, a simple embedding matrix indexed by position, added
+to the token embedding. Rotary positional embeddings (RoPE) apply rotations to queries and keys
+based on position, combining absolute and relative position information.
+
+### Transformer Architecture
+
+The transformer consists of an encoder and a decoder. The encoder processes the input through
+stacked layers of multi-head self-attention and feed-forward networks with residual connections and
+layer normalization. The decoder adds masked self-attention (prevents attending to future tokens)
+and cross-attention over the encoder output.
+
+```
+Encoder layer:
+  x = x + MultiHeadAttention(x, x, x)
+  x = LayerNorm(x)
+  x = x + FeedForward(x)
+  x = LayerNorm(x)
+
+Decoder layer:
+  x = x + MaskedMultiHeadAttention(x, x, x)
+  x = LayerNorm(x)
+  x = x + MultiHeadAttention(x, encoder_output, encoder_output)
+  x = LayerNorm(x)
+  x = x + FeedForward(x)
+  x = LayerNorm(x)
+```
+
+### BERT and GPT
+
+BERT (Bidirectional Encoder Representations from Transformers) uses the encoder stack for
+understanding tasks, classification, question answering, named entity recognition. It is pretrained
+with masked language modeling (predict randomly masked tokens) and next sentence prediction.
+
+GPT (Generative Pre-trained Transformer) uses the decoder stack for generation tasks, text
+completion, dialogue, code generation. It is pretrained with causal language modeling (predict the
+next token given all previous tokens). Scaling up GPT models produced the large language model
+family that underpins modern generative AI.
+
+| Model | Architecture    | Training Objective | Primary Use   |
+| ----- | --------------- | ------------------ | ------------- |
+| BERT  | Encoder         | MLM + NSP          | Understanding |
+| GPT   | Decoder         | Causal LM          | Generation    |
+| T5    | Encoder-Decoder | Text-to-text       | Both          |
+| BART  | Encoder-Decoder | Denoising          | Both          |
+
+## Generative Models
+
+Generative models learn the distribution of training data and can produce new samples from that
+distribution. Three dominant families, VAEs, GANs, and diffusion models, approach this problem
+with different trade-offs between sample quality, diversity, and training stability.
+
+### Variational Autoencoders (VAEs)
+
+A VAE consists of an encoder that maps input to a distribution in latent space and a decoder that
+reconstructs samples from latent samples. Unlike a standard autoencoder, which maps to a fixed
+point, a VAE maps to a probability distribution. This stochasticity enables generation: sample from
+the latent prior and decode.
+
+**Encoder-decoder structure:**
+
+```
+Input x → Encoder q(z|x) → Latent z ~ N(μ, σ²) → Decoder p(x|z) → Reconstruction x̂
+```
+
+The encoder outputs mean and variance parameters. During training, the loss function is the Evidence
+Lower Bound (ELBO):
+
+```
+ELBO = E_q(z|x)[log p(x|z)] - KL(q(z|x) || p(z))
+
+Reconstruction loss (first term) encourages accurate decoding.
+KL divergence (second term) keeps latent distributions close to the prior.
+```
+
+**Key properties:**
+
+- Latent space is continuous and structured, interpolation between latent vectors produces smooth
+  transitions in output space
+- Training is stable, the loss is a single scalar with no adversarial dynamics
+- Generated samples tend to be blurry, the reconstruction objective averages over possible outputs,
+  which smooths high-frequency detail
+
+### Generative Adversarial Networks (GANs)
+
+A GAN pits two networks against each other: a generator that produces fake samples and a
+discriminator that attempts to distinguish real from fake. The generator improves by fooling the
+discriminator; the discriminator improves by not being fooled.
+
+**Minimax game:**
+
+```
+min_G max_D E_x[log D(x)] + E_z[log(1 - D(G(z))]
+
+G: minimize the discriminator"s ability to detect fakes
+D: maximize its accuracy on real vs. fake
+```
+
+At equilibrium, the generator produces samples from the true data distribution and the discriminator
+outputs 0.5 for everything.
+
+**Training challenges:**
+
+- Mode collapse, the generator produces a narrow range of outputs that fool the discriminator but
+  cover only a few modes of the data distribution
+- Training instability, the adversarial dynamics can oscillate without converging
+- Vanishing gradients for the generator when the discriminator becomes too strong too early
+
+**Architectures:**
+
+| Variant  | Contribution                  | Key Innovation                          |
+| -------- | ----------------------------- | --------------------------------------- |
+| DCGAN    | Deep convolutional GANs       | Batch norm, transposed convs            |
+| StyleGAN | Style-based generation        | Mapping network, adaptive instance norm |
+| WGAN     | Wasserstein distance training | Weight clipping / gradient penalty      |
+| CycleGAN | Unpaired image translation    | Cycle consistency loss                  |
+| Pix2Pix  | Paired image translation      | Conditional GAN with L1 loss            |
+
+StyleGAN progressively generates images through a series of style injections at different
+resolutions, enabling fine-grained control over coarse attributes (pose, face shape) and fine
+attributes (color, texture) independently.
+
+### Diffusion Models
+
+Diffusion models generate data by reversing a noise process. Forward diffusion gradually adds
+Gaussian noise to data over T steps until the signal is destroyed. The model learns to reverse this
+process: predict and remove noise at each step to recover the original data.
+
+```
+Forward: q(x_t | x_{t-1}) = N(x_t; sqrt(1-β_t) x_{t-1}, β_t I)
+Reverse: p_θ(x_{t-1} | x_t), learned neural network
+
+Training objective: predict the noise ε added at each step
+Loss = E_{x, ε, t}[||ε - ε_θ(x_t, t)||²]
+```
+
+Diffusion models produce the highest-quality samples among generative models and have become the
+foundation for image generation (Stable Diffusion, DALL-E), audio generation, and video generation.
+The cost is slow sampling, hundreds of sequential denoising steps. Techniques like DDIM and latent
+diffusion (operating in a compressed latent space) accelerate this.
+
+## Reinforcement Learning
+
+Reinforcement learning (RL) trains agents to make sequences of decisions by maximizing cumulative
+reward through trial and error. The agent interacts with an environment, receives observations and
+rewards, and learns a policy that maps states to actions.
+
+### Markov Decision Processes
+
+An MDP formalizes the RL problem as a tuple (S, A, P, R, γ):
+
+- **S**: set of states
+- **A**: set of actions
+- **P(s'|s,a)**: transition probability, probability of reaching state s' from state s after action
+  a
+- **R(s,a,s')**: reward received after transition
+- **γ**: discount factor, how much to value future rewards vs. immediate ones
+
+The objective is to find a policy π that maximizes the expected discounted return:
+
+```
+G_t = R_t + γ R_{t+1} + γ² R_{t+2} + ... = Σ γ^k R_{t+k}
+```
+
+### Value-Based Methods
+
+**Q-learning** estimates the value of each state-action pair. The Q-function Q(s,a) represents the
+expected return of taking action a in state s and following the optimal policy thereafter.
+
+```
+Q(s, a) ← Q(s, a) + α[R + γ max_a' Q(s', a') - Q(s, a)]
+```
+
+Deep Q-Networks (DQN) approximate Q(s,a) with a neural network. Key additions to make DQN stable:
+experience replay (break temporal correlation), target networks (stabilize the learning target), and
+double Q-learning (reduce overestimation).
+
+### Policy Gradient Methods
+
+Instead of learning a value function and deriving a policy, policy gradient methods directly
+optimize the policy. The gradient of the expected return with respect to the policy parameters θ:
+
+```
+∇_θ J(θ) = E[Σ_t ∇_θ log π_θ(a_t | s_t) * G_t]
+```
+
+REINFORCE is the simplest policy gradient algorithm. It samples full trajectories, computes returns,
+and updates the policy to increase probability of high-reward actions. The variance of gradient
+estimates is high, baselines, advantage functions, and actor-critic methods reduce this.
+
+### Actor-Critic Methods
+
+Actor-critic methods combine policy gradient (actor) with value estimation (critic). The critic
+provides a lower-variance estimate of the return, which the actor uses to update the policy.
+
+```
+Actor: π_θ(a|s), selects actions
+Critic: V_φ(s) or Q_φ(s,a), estimates value
+Advantage: A(s,a) = Q(s,a) - V(s), how much better an action is than average
+```
+
+**PPO (Proximal Policy Optimization)** is the current standard for policy gradient training. It
+clips the probability ratio between the new and old policy to prevent destructively large updates:
+
+```
+L(θ) = E[min(r_t(θ) * A_t, clip(r_t(θ), 1-ε, 1+ε) * A_t)]
+where r_t(θ) = π_θ(a_t | s_t) / π_{θ_old}(a_t | s_t)
+```
+
+PPO is stable, sample-efficient enough for many tasks, and parallelizable, agents collect
+experience in multiple environments simultaneously.
+
+### Applications
+
+| Domain    | Application                     | Key Challenge               |
+| --------- | ------------------------------- | --------------------------- |
+| Games     | Go (AlphaGo), Atari, Dota 2     | Massive state/action spaces |
+| Robotics  | Manipulation, locomotion        | Sim-to-real transfer        |
+| RLHF      | LLM alignment                   | Reward model accuracy       |
+| Finance   | Trading, portfolio optimization | Non-stationarity            |
+| Logistics | Routing, scheduling             | Combinatorial complexity    |
+
+RLHF (Reinforcement Learning from Human Feedback) applies RL to align language models with human
+preferences. A reward model trained on human comparisons of model outputs provides the reward signal
+that PPO uses to fine-tune the language model.
+
+## Transfer Learning
+
+Transfer learning applies knowledge gained from one task or domain to a different but related task.
+This is the dominant paradigm in modern deep learning, very few production models are trained from
+random initialization.
+
+### Fine-Tuning
+
+Fine-tuning takes a pretrained model and continues training on a new task, in most cases with a
+smaller learning rate. The model retains its general knowledge from pretraining while adapting to
+the specific task.
+
+```python
+model = PretrainedModel.from_pretrained("base-model")
+
+for param in model.parameters():
+    param.requires_grad = False  # Freeze base layers
+
+model.classifier = Linear(hidden_size, num_classes)  # Replace head
+optimizer = Adam(model.classifier.parameters(), lr=1e-4)
+```
+
+**Layer-wise learning rates**, unfreeze layers gradually during training. Lower layers (general
+features) get smaller learning rates; upper layers (task-specific features) get larger ones:
+
+```python
+optimizer = Adam([
+    {'params': model.embeddings.parameters(), 'lr': 1e-6},
+    {'params': model.encoder.parameters(), 'lr': 1e-5},
+    {'params': model.classifier.parameters(), 'lr': 1e-4},
+])
+```
+
+### Feature Extraction
+
+Feature extraction freezes the entire pretrained model and uses its intermediate representations as
+input features for a new classifier. This is effective when the downstream task is simple or the
+dataset is small.
+
+```python
+model = PretrainedModel.from_pretrained("base-model")
+model.eval()  # Disable dropout, batch norm updates
+
+features = []
+with torch.no_grad():
+    for batch in dataloader:
+        features.append(model.encoder(batch))
+```
+
+### Domain Adaptation
+
+Domain adaptation handles the case where the source and target domains differ in distribution but
+share the task. Techniques include:
+
+- **Domain adversarial training**, a gradient reversal layer trains a domain classifier while the
+  feature extractor learns to produce domain-invariant features
+- **CORAL**, aligns the second-order statistics (covariance) of source and target feature
+  distributions
+- **Self-training**, the model generates pseudo-labels for unlabeled target data and retrains on
+  them
+
+### Few-Shot Learning
+
+Few-shot learning trains models to generalize from very few examples, often 1 to 5 per class.
+Approaches:
+
+| Approach              | Mechanism                                             | Example              |
+| --------------------- | ----------------------------------------------------- | -------------------- |
+| Meta-learning         | Learn to learn, train across many tasks              | MAML, Reptile        |
+| Prototypical networks | Compare to class prototypes in embedding space        | N-way K-shot         |
+| Prompt tuning         | Adapt pretrained models with text prompts             | GPT-3 in-context     |
+| LoRA                  | Low-rank adapters for parameter-efficient fine-tuning | Rank-4 decomposition |
+
+## Model Deployment
+
+Training a model is an engineering exercise. Deploying it is an operations exercise. The gap between
+the two is where most production ML systems fail.
+
+### ONNX
+
+ONNX (Open Neural Network Exchange) is a cross-format representation for trained models. Convert a
+PyTorch or TensorFlow model to ONNX for inference in environments that do not run the training
+framework.
+
+```python
+import torch.onnx
+
+torch.onnx.export(
+    model,
+    dummy_input,
+    "model.onnx",
+    input_names=["input"],
+    output_names=["output"],
+    dynamic_axes={"input": {0: "batch_size"}},
+)
+```
+
+### TensorRT
+
+TensorRT (NVIDIA) optimizes ONNX or native models for GPU inference. It performs layer fusion,
+kernel auto-tuning, precision calibration (FP16, INT8), and memory optimization. Typical speedups
+over naive inference range from 2x to 10x.
+
+```python
+import tensorrt as trt
+
+builder = trt.Builder(trt.Logger(trt.Logger.WARNING))
+network = builder.create_network(1 << int(trt.NetworkDefinitionCreationFlag.EXPLICIT_BATCH))
+parser = trt.OnnxParser(network, trt.Logger(trt.Logger.WARNING))
+parser.parse_from_file("model.onnx")
+
+config = builder.create_builder_config()
+config.set_memory_pool_limit(trt.MemoryPoolType.WORKSPACE, 1 << 30)
+engine = builder.build_serialized_network(network, config)
+```
+
+### Model Serving
+
+Production models run behind an API that handles request routing, batching, and scaling.
+
+| Framework               | Strength                          | Use Case              |
+| ----------------------- | --------------------------------- | --------------------- |
+| TorchServe              | Native PyTorch, multi-model       | PyTorch-centric teams |
+| TensorFlow Serving      | Versioned models, gRPC            | TF-centric teams      |
+| Triton Inference Server | Multi-framework, dynamic batching | Heterogeneous fleets  |
+| BentoML                 | Python-native, easy packaging     | Rapid prototyping     |
+| vLLM                    | Optimized LLM serving             | Large language models |
+
+Key operational concerns: cold start latency (loading model weights into GPU memory), request
+batching (combining concurrent requests into a single forward pass), and hardware utilization
+(keeping GPUs fed without oversubscribing memory).
+
+### A/B Testing
+
+Deploying a new model alongside the current production model allows direct comparison on real
+traffic.
+
+```
+Metrics to track:
+- Model accuracy / business metric (conversion rate, click-through)
+- Latency (p50, p95, p99)
+- Error rate and timeout rate
+- Resource utilization (GPU memory, CPU, memory)
+```
+
+Proper A/B testing requires statistical rigor: define the metric, determine sample size, run for a
+sufficient duration, and use a significance test (t-test, chi-squared) before concluding which model
+is better.
+
+### Monitoring Drift
+
+Models degrade silently. Data drift (input distribution changes) and concept drift (the relationship
+between input and output changes) are the two primary failure modes.
+
+**Detection methods:**
+
+- **Statistical tests**, KS test, Population Stability Index, Jensen-Shannon divergence on feature
+  distributions between training and production data
+- **Performance monitoring**, track prediction quality on labeled production data; alert on
+  degradation beyond a threshold
+- **Input feature tracking**, monitor that feature distributions, null rates, and value ranges
+  remain within training-time bounds
+
+## Worked Examples
+
+### Example 1: Computing Self-Attention
+
+**Problem:** Given input sequence X with two tokens, compute self-attention with d_k = 4. Token A =
+[1, 0, 1, 0], Token B = [0, 1, 0, 1]. W_Q, W_K, W_V are identity matrices. Compute attention
+weights. **Solution:** Q = K = V = X. QK^T = [[2, 0], [0, 2]]. Divide by sqrt(4) = 2:
+[[1, 0], [0, 1]]. Softmax: [[1, 0], [0, 1]]. Output = V (identity attention). Token A attends 100%
+to itself, Token B attends 100% to itself. This occurs because orthogonal queries produce zero dot
+products.
+
+### Example 2: Fine-Tuning a Pretrained Model
+
+**Problem:** Fine-tune a BERT-base model (12 layers, hidden_size=768, 12 attention heads) for a
+binary classification task with 1000 labelled examples. **Solution:** Load the model with
+`from_pretrained`. Add a classification head: `Linear(768, 2)`. Freeze all encoder parameters. Train
+only the head with Adam (lr=1e-4) for 10 epochs. If validation loss plateaus, unfreeze the top 4
+encoder layers with lr=1e-5 and continue training. Use binary cross-entropy loss.
+
+### Example 3: PPO Update Calculation
+
+**Problem:** At time step t, the old policy assigns probability 0.3 to action a_t, and the new
+policy assigns 0.5. The advantage is A_t = 0.8. epsilon = 0.2. Compute the clipped objective.
+
+**Solution:**
+
+Step 1: Compute the probability ratio:
+$$r_t(\theta) = \frac{\pi_\theta(a_t | s_t)}{\pi_{\theta_{old}}(a_t | s_t)} = \frac{0.5}{0.3} = 1.667$$
+
+Step 2: Compute the clipped ratio:
+$$\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) = \text{clip}(1.667, 0.8, 1.2) = 1.2$$
+
+Step 3: Compute both terms:
+$$r_t(\theta) \cdot A_t = 1.667 \times 0.8 = 1.333$$
+$$\text{clip}(r_t(\theta), 0.8, 1.2) \cdot A_t = 1.2 \times 0.8 = 0.96$$
+
+Step 4: Take the minimum:
+$$L(\theta) = \min(1.333, 0.96) = 0.96$$
+
+**Answer:** The clipped objective is 0.96. The clip prevents the destructively large update.
+
+**Common mistake:** Taking the maximum instead of the minimum. PPO clips to prevent the ratio from moving too far from 1, so we take the minimum to be conservative.
+
+### Example 4: Computing Self-Attention (Detailed)
+
+**Problem:** Given a sequence of 3 tokens with d_k = 2, compute the self-attention output.
+Token A = [1, 0], Token B = [0, 1], Token C = [1, 1]. W_Q, W_K, W_V are identity matrices.
+
+**Solution:**
+
+Step 1: Compute Q, K, V (identity projections, so Q = K = V = X):
+$$Q = K = V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix}$$
+
+Step 2: Compute attention scores QK^T:
+$$QK^T = \begin{pmatrix} 1 & 0 \\ 0 & 1 \\ 1 & 1 \end{pmatrix} \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \end{pmatrix} = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 1 \\ 1 & 1 & 2 \end{pmatrix}$$
+
+Step 3: Scale by $\sqrt{d_k} = \sqrt{2}$:
+$$\frac{QK^T}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0 & 0.707 \\ 0 & 0.707 & 0.707 \\ 0.707 & 0.707 & 1.414 \end{pmatrix}$$
+
+Step 4: Apply softmax row-wise (each row sums to 1):
+Row 1: softmax([0.707, 0, 0.707]) = [0.420, 0.160, 0.420]
+Row 2: softmax([0, 0.707, 0.707]) = [0.160, 0.420, 0.420]
+Row 3: softmax([0.707, 0.707, 1.414]) = [0.211, 0.211, 0.578]
+
+Step 5: Compute output = softmax(QK^T/sqrt(d_k)) * V:
+$$\text{Output}_A = 0.420 \times [1,0] + 0.160 \times [0,1] + 0.420 \times [1,1] = [0.840, 0.580]$$
+$$\text{Output}_B = 0.160 \times [1,0] + 0.420 \times [0,1] + 0.420 \times [1,1] = [0.580, 0.840]$$
+$$\text{Output}_C = 0.211 \times [1,0] + 0.211 \times [0,1] + 0.578 \times [1,1] = [0.789, 0.789]$$
+
+**Answer:** Each token now has a context-aware representation that incorporates information from all other tokens.
+
+**Common mistake:** Forgetting to scale by sqrt(d_k). Without scaling, large dot products cause the softmax to saturate, producing nearly one-hot attention weights.
+
+### Example 5: KL Divergence in VAE Training
+
+**Problem:** A VAE encoder produces a latent distribution $q(z|x) = \mathcal{N}(0.5, 0.25)$ and the prior is $p(z) = \mathcal{N}(0, 1)$. Compute the KL divergence term.
+
+**Solution:**
+
+Step 1: KL divergence between two Gaussians $\mathcal{N}(\mu_1, \sigma_1^2)$ and $\mathcal{N}(\mu_2, \sigma_2^2)$:
+$$KL = \ln\frac{\sigma_2}{\sigma_1} + \frac{\sigma_1^2 + (\mu_1 - \mu_2)^2}{2\sigma_2^2} - \frac{1}{2}$$
+
+Step 2: Substitute $\mu_1 = 0.5$, $\sigma_1^2 = 0.25$, $\mu_2 = 0$, $\sigma_2^2 = 1$:
+$$KL = \ln\frac{1}{0.5} + \frac{0.25 + (0.5 - 0)^2}{2 \times 1} - \frac{1}{2}$$
+
+Step 3: Compute:
+$$KL = \ln 2 + \frac{0.25 + 0.25}{2} - 0.5 = 0.693 + 0.25 - 0.5 = 0.443$$
+
+**Answer:** The KL divergence is approximately 0.443 nats.
+
+**Common mistake:** Using the wrong formula for KL divergence between Gaussians. The formula involves both the mean difference and the variance ratio.
+
+### Example 6: Q-Learning Update
+
+**Problem:** In a grid world, an agent is in state $s = (2, 3)$, takes action $a = \text{right}$, receives reward $r = -1$, and transitions to state $s' = (2, 4)$. The current Q-value is $Q(s, a) = 5.0$. The learning rate is $\alpha = 0.1$, discount factor $\gamma = 0.9$, and $\max_{a'} Q(s', a') = 4.0$. Compute the updated Q-value.
+
+**Solution:**
+
+Step 1: Apply the Q-learning update rule:
+$$Q(s, a) \leftarrow Q(s, a) + \alpha[r + \gamma \max_{a'} Q(s', a') - Q(s, a)]$$
+
+Step 2: Substitute values:
+$$Q(s, a) \leftarrow 5.0 + 0.1[-1 + 0.9 \times 4.0 - 5.0]$$
+
+Step 3: Compute the temporal difference error:
+$$\delta = -1 + 3.6 - 5.0 = -2.4$$
+
+Step 4: Update:
+$$Q(s, a) \leftarrow 5.0 + 0.1 \times (-2.4) = 5.0 - 0.24 = 4.76$$
+
+**Answer:** The updated Q-value is 4.76. The negative TD error indicates the outcome was worse than expected.
+
+**Common mistake:** Forgetting to include the discount factor $\gamma$ when computing the target value. The target is $r + \gamma \max Q(s', a')$, not $r + \max Q(s', a')$.
+
+1. **Treating accuracy as the only metric.** A model that is 99.5% accurate on an imbalanced dataset
+   with a 99% majority class is performing worse than random guessing on the minority class. Use
+   precision, recall, F1, AUC-ROC, or task-specific metrics that reflect the actual cost of errors.
+
+2. **Training on test data.** Any information from the test set that leaks into the training
+   pipeline, through feature selection, hyperparameter tuning, or preprocessing, inflates
+   performance estimates and produces models that fail in deployment. Maintain strict
+   train/validation/test splits.
+
+3. **Ignoring distribution shift.** Models trained on historical data assume the future looks like
+   the past. Financial data, user behavior, and sensor data all shift over time. Monitor for drift
+   and retrain regularly.
+
+4. **Deploying without observability.** A model in production is a running service. Without latency
+   monitoring, error tracking, input validation, and prediction logging, failures are invisible
+   until users report them.
+
+5. **Overfitting to validation set during hyperparameter search.** Running hundreds of
+   hyperparameter configurations and selecting the best validation score implicitly fits to the
+   validation set. Use nested cross-validation or hold out a separate test set for final evaluation.
+
+6. **Ignoring computational cost.** A transformer model that achieves 2% higher accuracy but
+   requires 10x the compute may not be worth deploying. Consider latency, memory, energy
+   consumption, and dollar-per-inference cost alongside model quality.
+
+7. **Not versioning data and models.** A model is a function of its training data, code, and
+   hyperparameters. If you cannot reproduce the exact conditions under which a model was trained,
+   you cannot debug it, retrain it, or roll back to a previous version.
+
+## Intuition
+
+**Attention is learned relevance:** When you read a sentence, your brain automatically focuses on the words that matter for understanding each concept. Self-attention does the same thing computationally, each word learns which other words in the sequence are most relevant to its meaning. This is why transformers revolutionized NLP: they capture long-range dependencies that RNNs struggle with.
+
+**Why it matters:** Transformers power GPT, BERT, and virtually all modern language models. Understanding attention mechanisms explains how these models generate coherent text, translate languages, and answer questions. The same architecture now dominates vision, audio, and protein folding.
+
+**The key insight:** Multi-head attention lets the model track multiple types of relationships simultaneously, one head might capture syntax while another captures semantics, which is why transformers are so expressive despite their relatively simple architecture.
+
+## Common Pitfalls
+
+1. **Confusing the roles of generator and discriminator loss functions.** The generator minimizes
+   the discriminator's output, not maximizes it. The discriminator maximizes real vs. fake
+   classification accuracy. Getting this wrong produces nonsensical training loops.
+2. **Using RL without proper reward scaling.** In PPO and policy gradient methods, unnormalised
+   reward signals cause gradient explosion or vanishing. Rewards should be standardised (zero mean,
+   unit variance) before use.
+3. **Applying transfer learning without domain adaptation.** A model pretrained on ImageNet will
+   perform poorly on medical or satellite imagery without fine-tuning or domain-specific adaptation.
+4. **Overfitting the validation set through extensive hyperparameter search.** Running thousands of
+   configurations against the same validation set implicitly fits to it. Use nested cross-validation
+   or a separate test set.
+
+```mermaid
+flowchart TD
+    A[Advanced Topics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Summary
+
+Modern machine learning rests on a stack of composable building blocks. Transformers replaced
+recurrence for sequence modeling through attention. Generative models (VAEs, GANs, diffusion)
+produce high-quality samples for images, text, and audio. Reinforcement learning trains sequential
+decision-making through reward signals. Transfer learning makes pretrained models accessible for
+downstream tasks with minimal data and compute. Deployment bridges the gap between research and
+production through efficient inference runtimes, serving infrastructure, and monitoring systems. The
+field moves fast, but the fundamentals, clean data, proper evaluation, and operational discipline,
+do not change.
+
+## See Also
+
+- [Machine Learning](./)
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+
+---
+
+## Glossary
+URL: https://machine-learning.wyattau.com/glossary/
+
+## ML Fundamentals
+
+**Machine Learning (ML)**: A field of artificial intelligence where systems learn patterns from data to make decisions or predictions without being explicitly programmed.
+
+**Artificial Intelligence (AI)**: The broader field of creating intelligent systems that can perform tasks requiring human-like reasoning and decision-making.
+
+**Deep Learning**: A subset of machine learning using neural networks with many layers to learn hierarchical representations from data.
+
+**Supervised Learning**: Learning from labeled training data, where the algorithm learns to map inputs to known outputs.
+
+**Unsupervised Learning**: Learning from unlabeled data, discovering hidden patterns or groupings without predefined outputs.
+
+**Semi-Supervised Learning**: Combining a small amount of labeled data with a large amount of unlabeled data for training.
+
+**Reinforcement Learning**: Learning through trial and error with rewards or penalties, training an agent to take actions in an environment.
+
+**Self-Supervised Learning**: A type of unsupervised learning where the data provides its own supervision (e.g., predicting masked words).
+
+**Transfer Learning**: Applying knowledge learned from one task or domain to a different but related task.
+
+**Feature**: An individual measurable property or characteristic of data used as input to a model.
+
+**Label**: The output or target value that the model is trying to predict in supervised learning.
+
+**Training Data**: The dataset used to teach the model patterns and relationships.
+
+**Validation Data**: A separate dataset used to tune model hyperparameters and prevent overfitting.
+
+**Test Data**: A held-out dataset used to evaluate the final model's performance on unseen data.
+
+**Model**: A mathematical representation learned from training data that captures patterns and can make predictions.
+
+**Algorithm**: A step-by-step procedure or formula for solving a problem or learning from data.
+
+**Hyperparameter**: A configuration setting external to the model that is set before training (e.g., learning rate, number of layers).
+
+**Parameter**: A model variable learned during training (e.g., weights and biases in a neural network).
+
+**Epoch**: One complete pass through the entire training dataset during model training.
+
+**Batch**: A subset of training examples used in one iteration of model training.
+
+**Learning Rate**: A hyperparameter controlling the step size during gradient descent optimization.
+
+## Supervised Learning Algorithms
+
+**Linear Regression**: A regression algorithm modeling the relationship between input features and a continuous output using a linear function.
+
+```python
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+```
+
+**Logistic Regression**: A classification algorithm predicting the probability of a binary outcome using the sigmoid function.
+
+```python
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
+model.fit(X_train, y_train)
+```
+
+**Decision Tree**: A tree-like model making decisions based on feature values, splitting data recursively.
+
+**Random Forest**: An ensemble method combining multiple decision trees for improved accuracy and reduced overfitting.
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+```
+
+**Support Vector Machine (SVM)**: A classification algorithm finding the optimal hyperplane that maximizes the margin between classes.
+
+**k-Nearest Neighbors (k-NN)**: A classification/regression algorithm that classifies based on the majority class of the k closest training examples.
+
+**Naive Bayes**: A probabilistic classifier based on Bayes' theorem with the assumption of feature independence.
+
+**Gradient Boosting**: An ensemble method sequentially building trees, where each tree corrects errors of the previous one.
+
+```python
+from sklearn.ensemble import GradientBoostingClassifier
+model = GradientBoostingClassifier(n_estimators=100)
+model.fit(X_train, y_train)
+```
+
+**XGBoost / LightGBM / CatBoost**: Optimized implementations of gradient boosting with improved performance and features.
+
+**Neural Network**: A model composed of layers of interconnected nodes (neurons) that learn hierarchical representations.
+
+## Unsupervised Learning Algorithms
+
+**K-Means Clustering**: Partitions data into k clusters by minimizing the distance between points and their cluster centroids.
+
+```python
+from sklearn.cluster import KMeans
+kmeans = KMeans(n_clusters=3)
+labels = kmeans.fit_predict(X)
+```
+
+**Hierarchical Clustering**: Creates a tree of clusters by recursively merging or splitting groups based on distance.
+
+**DBSCAN**: A density-based clustering algorithm that groups closely packed points and marks outliers.
+
+**Principal Component Analysis (PCA)**: A dimensionality reduction technique projecting data onto orthogonal axes of maximum variance.
+
+```python
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2)
+X_reduced = pca.fit_transform(X)
+```
+
+**t-SNE**: A nonlinear dimensionality reduction technique for visualizing high-dimensional data in 2D or 3D.
+
+**Autoencoder**: A neural network that learns to compress data into a latent representation and reconstruct it.
+
+**Anomaly Detection**: Identifying unusual patterns or outliers that deviate from expected behavior.
+
+**Association Rule Learning**: Discovering interesting relationships between variables in large datasets (e.g., market basket analysis).
+
+## Neural Networks
+
+**Artificial Neural Network (ANN)**: A computing system inspired by biological neural networks, consisting of layers of interconnected nodes.
+
+**Neuron (Node)**: A processing unit in a neural network that computes a weighted sum of inputs and applies an activation function.
+
+**Layer**: A collection of neurons operating at the same level in a network (input, hidden, output layers).
+
+**Input Layer**: The first layer receiving raw data features.
+
+**Hidden Layer**: Layers between input and output that learn intermediate representations.
+
+**Output Layer**: The final layer producing the model's prediction.
+
+**Activation Function**: A nonlinear function applied to neuron outputs to introduce nonlinearity (ReLU, sigmoid, tanh).
+
+```python
+import tensorflow as tf
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+```
+
+**Weight**: A parameter adjusted during training that determines the strength of connections between neurons.
+
+**Bias**: An additional parameter added to neuron outputs to shift the activation function.
+
+**Feedforward Network**: A network where connections only flow from input to output (no cycles).
+
+**Recurrent Neural Network (RNN)**: A network with cyclic connections, processing sequential data by maintaining hidden state.
+
+**Long Short-Term Memory (LSTM)**: An RNN variant with gating mechanisms to learn long-range dependencies.
+
+**Gated Recurrent Unit (GRU)**: A simplified LSTM variant with fewer parameters, often equally effective.
+
+**Convolutional Neural Network (CNN)**: A network using convolutional layers to process grid-like data (images, audio).
+
+```python
+model = tf.keras.Sequential([
+    tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(28,28,1)),
+    tf.keras.layers.MaxPooling2D((2,2)),
+    tf.keras.layers.Flatten(),
+    tf.keras.layers.Dense(10, activation='softmax')
+])
+```
+
+**Convolutional Layer**: A layer applying filters to input data to detect local patterns.
+
+**Pooling Layer**: A layer reducing spatial dimensions by downsampling (max pooling, average pooling).
+
+**Fully Connected Layer**: A layer where each neuron connects to every neuron in the previous layer.
+
+**Transformer**: A neural network architecture using self-attention mechanisms, dominant in NLP.
+
+```python
+from transformers import AutoModel
+model = AutoModel.from_pretrained("bert-base-uncased")
+```
+
+**Self-Attention**: A mechanism allowing each position in a sequence to attend to all other positions.
+
+**Multi-Head Attention**: Running multiple attention mechanisms in parallel to capture different types of relationships.
+
+**Positional Encoding**: Adding position information to sequence elements in transformers.
+
+**Embedding Layer**: A layer mapping discrete values (words, categories) to dense vector representations.
+
+## Training and Optimization
+
+**Loss Function**: A function measuring how far the model's predictions are from the true values, guiding optimization.
+
+**Mean Squared Error (MSE)**: Average of squared differences between predicted and actual values, common for regression.
+
+**Cross-Entropy Loss**: A loss function measuring the difference between predicted probability distributions, common for classification.
+
+**Gradient Descent**: An optimization algorithm iteratively adjusting parameters in the direction of steepest descent.
+
+**Stochastic Gradient Descent (SGD)**: A variant of gradient descent using random subsets of data for each update.
+
+**Adam Optimizer**: An adaptive learning rate optimizer combining momentum and RMSProp.
+
+```python
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+```
+
+**Backpropagation**: The algorithm computing gradients of the loss with respect to each parameter using the chain rule.
+
+**Gradient Clipping**: Limiting gradient magnitude during training to prevent exploding gradients.
+
+**Batch Normalization**: A technique normalizing layer inputs to stabilize and accelerate training.
+
+**Dropout**: A regularization technique randomly deactivating neurons during training to prevent overfitting.
+
+```python
+model.add(tf.keras.layers.Dropout(0.5))
+```
+
+**Learning Rate Scheduling**: Adjusting the learning rate during training (e.g., step decay, cosine annealing).
+
+**Early Stopping**: Halting training when validation performance stops improving to prevent overfitting.
+
+**Weight Initialization**: Methods for setting initial parameter values (Xavier, He initialization).
+
+**Momentum**: An optimization technique accelerating convergence by accumulating past gradients.
+
+**Mini-Batch Training**: Training on small batches of data, balancing between full-batch and stochastic approaches.
+
+## Evaluation Metrics
+
+**Accuracy**: The proportion of correct predictions out of total predictions, suitable for balanced datasets.
+
+**Precision**: The proportion of true positive predictions out of all positive predictions made.
+
+**Recall (Sensitivity)**: The proportion of true positive predictions out of all actual positive cases.
+
+**F1 Score**: The harmonic mean of precision and recall, balancing both metrics.
+
+**Confusion Matrix**: A table showing true vs. predicted classifications (TP, TN, FP, FN).
+
+**ROC Curve**: A plot of true positive rate vs. false positive rate across classification thresholds.
+
+**AUC (Area Under the ROC Curve)**: A scalar metric summarizing classifier performance across all thresholds.
+
+**Mean Absolute Error (MAE)**: Average of absolute differences between predicted and actual values.
+
+**Root Mean Squared Error (RMSE)**: Square root of the average squared differences between predicted and actual values.
+
+**R-Squared (R2)**: The proportion of variance in the dependent variable explained by the model.
+
+**Log Loss**: A metric measuring the performance of a classifier that outputs probabilities.
+
+**Top-k Accuracy**: Accuracy considering a prediction correct if the true label is among the top k predictions.
+
+## Regularization
+
+**Regularization**: Techniques that prevent overfitting by adding constraints or penalties to the model.
+
+**L1 Regularization (Lasso)**: Adds the absolute value of weights to the loss function, encouraging sparsity.
+
+**L2 Regularization (Ridge)**: Adds the squared magnitude of weights to the loss function, preventing large weights.
+
+**Elastic Net**: Combines L1 and L2 regularization for balanced feature selection and weight shrinkage.
+
+**Data Augmentation**: Artificially increasing training data diversity through transformations (rotation, flipping, cropping).
+
+**Early Stopping**: Monitoring validation performance and stopping training when it begins to degrade.
+
+**Dropout**: Randomly deactivating a fraction of neurons during each training step to prevent co-adaptation.
+
+## ML Infrastructure and Tools
+
+**Scikit-learn**: A Python library providing simple and efficient tools for classical machine learning.
+
+```python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+```
+
+**TensorFlow**: An open-source deep learning framework developed by Google.
+
+**PyTorch**: An open-source deep learning framework developed by Meta, known for its dynamic computation graph.
+
+```python
+import torch
+model = torch.nn.Linear(10, 1)
+```
+
+**Keras**: A high-level neural network API running on top of TensorFlow.
+
+**MLflow**: An open-source platform for managing the ML lifecycle, including experimentation, deployment, and model registry.
+
+**Feature Store**: A centralized repository for storing, managing, and serving features for ML models.
+
+**MLOps**: Practices combining machine learning, DevOps, and data engineering for reliable ML system deployment.
+
+**Pipeline**: A sequence of data processing steps that can be chained together for reproducibility.
+
+```python
+from sklearn.pipeline import Pipeline
+pipe = Pipeline([('scaler', StandardScaler()), ('model', LogisticRegression())])
+pipe.fit(X_train, y_train)
+```
+
+**Cross-Validation**: A technique splitting data into k folds, training on k-1 folds and validating on the remaining fold.
+
+```python
+from sklearn.model_selection import cross_val_score
+scores = cross_val_score(model, X, y, cv=5)
+```
+
+**Hyperparameter Tuning**: The process of finding optimal hyperparameter values, using grid search, random search, or Bayesian optimization.
+
+**Model Serving**: Deploying trained models to make predictions in production environments.
+
+**Batch Inference**: Generating predictions on a collection of inputs offline rather than in real-time.
+
+**Online Inference**: Generating predictions in real-time for individual inputs as they arrive.
+
+## NLP and Computer Vision
+
+**Natural Language Processing (NLP)**: A field of AI focused on enabling computers to understand, interpret, and generate human language.
+
+**Tokenization**: Splitting text into smaller units (tokens) such as words, subwords, or characters.
+
+**Word Embedding**: A dense vector representation of a word capturing its semantic meaning (Word2Vec, GloVe, FastText).
+
+**BERT**: A bidirectional transformer pre-trained on language understanding tasks, widely used for NLP fine-tuning.
+
+**GPT (Generative Pre-trained Transformer)**: An autoregressive language model generating text by predicting the next token.
+
+**Object Detection**: Identifying and localizing objects within images, outputting bounding boxes and class labels.
+
+**Semantic Segmentation**: Assigning a class label to every pixel in an image for dense scene understanding.
+
+**Image Classification**: Assigning a single label to an entire image based on its content.
+
+**Generative Adversarial Network (GAN)**: Two neural networks (generator and discriminator) trained adversarially to generate realistic data.
+
+**Diffusion Model**: A generative model learning to denoise data progressively, producing high-quality samples.
+
+## Related Terms
+
+- See [Programming Glossary](/glossary/) for general programming concepts
+- See [Python Glossary](/glossary/) for Python ML libraries
+- See [Computer Science Glossary](/glossary/) for CS fundamentals
+- See [Mathematics Glossary](/glossary/) for statistical foundations
+- See [Databases Glossary](/glossary/) for data storage concepts
+
+---
+
+## Hub
+URL: https://machine-learning.wyattau.com/hub/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"name": "Home", "url": "https://machine-learning.wyattau.com"},
+    {"name": "Hub", "url": "https://machine-learning.wyattau.com/hub"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Machine Learning Fundamentals Study Guide",
+  "description": "Comprehensive machine learning study guide covering supervised learning, unsupervised learning, neural networks, deep learning, and model evaluation.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://machine-learning.wyattau.com"
+  },
+  "url": "https://machine-learning.wyattau.com/hub",
+  "educationalLevel": "University",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Why This Guide Exists
+
+Machine learning is the field of computer science that enables systems to learn from data and improve their performance without being explicitly programmed. It is the foundation of modern AI, from image recognition and natural language processing to recommendation systems and autonomous vehicles.
+
+Work through the Machine Learning sections in order, starting with Diagnostics and building toward Diagnostics, then check yourself with the practice problems for each topic. The guides cover the mathematical foundations, the major algorithm families, neural network architectures, and practical implementation techniques. Whether you are a student encountering machine learning for the first time, a software engineer adding ML capabilities to your applications, or a researcher exploring new frontiers, these resources provide the theory and practice you need.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Machine Learning Foundations](#machine-learning-foundations)
+- [Supervised Learning](#supervised-learning)
+- [Unsupervised Learning](#unsupervised-learning)
+- [Neural Networks and Deep Learning](#neural-networks-and-deep-learning)
+- [Model Evaluation and Validation](#model-evaluation-and-validation)
+- [Advanced Topics](#advanced-topics)
+- [Practical Implementation](#practical-implementation)
+- [Cross-Site Resources](#cross-site-resources)
+- [FAQ](/hub/)
+
+---
+
+## Prerequisites
+
+Machine learning requires a foundation in several mathematical and computational disciplines.
+
+### Mathematics
+
+- **Linear Algebra**, vectors, matrices, eigenvalues, SVD; the language of ML
+- **Calculus**, derivatives, gradients, chain rule; essential for optimisation
+- **Probability and Statistics**, distributions, Bayes' theorem, hypothesis testing
+- **Optimisation**, gradient descent, convex optimisation, Lagrange multipliers
+
+### Programming
+
+- **Python**, the dominant language for ML; NumPy, pandas, scikit-learn, PyTorch, TensorFlow
+- **Data manipulation**, loading, cleaning, transforming, and visualising data
+- **Software engineering**, version control, testing, and deployment of ML models
+
+### Key Resources
+
+- [Mathematics](https://mathematics.wyattau.com/hub), university-level mathematics covering linear algebra, real analysis, and probability
+- [Python](https://python.wyattau.com/hub), Python programming fundamentals
+- [Data Structures](https://tools.wyattau.com/algorithms), algorithms and data structures for efficient ML implementations
+
+---
+
+## Machine Learning Foundations
+
+### What Is Machine Learning?
+
+Machine learning is the study of algorithms that improve through experience. A machine learning system learns a function f that maps inputs x to outputs y, using a set of training examples {(x₁, y₁), (x₂, y₂), ..., (xₙ, yₙ)}.
+
+### Types of Machine Learning
+
+| Type | Description | Examples |
+| ------ | ------------- | ---------- |
+| Supervised Learning | Learn from labelled data | Classification, regression |
+| Unsupervised Learning | Find structure in unlabelled data | Clustering, dimensionality reduction |
+| Semi-Supervised Learning | Learn from partially labelled data | Self-training, co-training |
+| Reinforcement Learning | Learn through interaction with an environment | Game playing, robotics |
+
+### The Machine Learning Workflow
+
+1. **Data collection**, gather relevant, representative data
+2. **Data preprocessing**, clean, transform, and engineer features
+3. **Model selection**, choose an appropriate algorithm
+4. **Training**, fit the model to the training data
+5. **Evaluation**, assess performance on held-out data
+6. **Hyperparameter tuning**, optimise model settings
+7. **Deployment**, put the model into production
+8. **Monitoring**, track performance over time
+
+### Bias-Variance Tradeoff
+
+The fundamental challenge in machine learning:
+
+- **Bias**, error from overly simplistic assumptions (underfitting)
+- **Variance**, error from sensitivity to training data fluctuations (overfitting)
+- **Irreducible error**, noise inherent in the data
+
+Total error = Bias² + Variance + Irreducible error
+
+A good model balances bias and variance. Too simple → high bias. Too complex → high variance.
+
+---
+
+## Supervised Learning
+
+Supervised learning uses labelled training data to learn a mapping from inputs to outputs.
+
+### Classification
+
+Classification predicts discrete labels. The model learns a decision boundary that separates classes.
+
+**Key algorithms:**
+
+- **Logistic Regression**, linear model for binary classification
+- **Decision Trees**, hierarchical splitting based on feature values
+- **Random Forests**, ensemble of decision trees
+- **Support Vector Machines (SVM)**, maximum-margin classifiers
+- **k-Nearest Neighbours (k-NN)**, instance-based learning
+- **Naive Bayes**, probabilistic classifier based on Bayes' theorem
+- **Neural Networks**, universal function approximators
+
+### Regression
+
+Regression predicts continuous values. The model learns a function that maps inputs to real numbers.
+
+**Key algorithms:**
+
+- **Linear Regression**, modelling linear relationships
+- **Polynomial Regression**, extending linear models to non-linear relationships
+- **Ridge and Lasso Regression**, regularised linear models
+- **Support Vector Regression**, SVM adapted for regression
+- **Gradient Boosting**, sequential ensemble of weak learners
+
+### Regularisation
+
+Regularisation prevents overfitting by penalising model complexity:
+
+- **L1 (Lasso)**, adds absolute value of coefficients to the loss function; promotes sparsity
+- **L2 (Ridge)**, adds squared magnitude of coefficients; shrinks all coefficients
+- **Elastic Net**, combines L1 and L2
+- **Dropout**, randomly deactivates neurons during training (neural networks)
+- **Early stopping**, halt training when validation performance degrades
+
+---
+
+## Unsupervised Learning
+
+Unsupervised learning finds hidden structure in data without labels.
+
+### Clustering
+
+Clustering groups similar data points together.
+
+**Key algorithms:**
+
+- **k-Means**, partition data into k clusters by minimising within-cluster variance
+- **Hierarchical Clustering**, build a tree of nested clusters
+- **DBSCAN**, density-based clustering; finds clusters of arbitrary shape
+- **Gaussian Mixture Models (GMM)**, probabilistic clustering with soft assignments
+- **Mean Shift**, mode-seeking algorithm; no need to specify number of clusters
+
+### Dimensionality Reduction
+
+Dimensionality reduction projects high-dimensional data to lower dimensions while preserving structure.
+
+**Key algorithms:**
+
+- **Principal Component Analysis (PCA)**, linear projection to orthogonal axes of maximum variance
+- **t-SNE**, non-linear projection for visualisation
+- **UMAP**, uniform manifold approximation; faster and better preservation of global structure
+- **Autoencoders**, neural network-based dimensionality reduction
+- **Independent Component Analysis (ICA)**, separating mixed signals
+
+### Anomaly Detection
+
+Anomaly detection identifies unusual data points that deviate from normal patterns.
+
+- **Isolation Forest**, isolates anomalies by random partitioning
+- **One-Class SVM**, learns a boundary around normal data
+- **Local Outlier Factor**, density-based anomaly detection
+- **Autoencoders**, reconstruct normal data; high reconstruction error indicates anomalies
+
+---
+
+## Neural Networks and Deep Learning
+
+Neural networks are computational models inspired by the human brain. Deep learning uses networks with many layers to learn hierarchical representations of data.
+
+### Neural Network Fundamentals
+
+- **Neuron**, computes a weighted sum of inputs, applies an activation function
+- **Layer**, a collection of neurons; fully connected, convolutional, or recurrent
+- **Activation functions**, ReLU, sigmoid, tanh, softmax, GELU
+- **Loss function**, measures prediction error; cross-entropy, MSE, MAE
+- **Optimiser**, updates weights to minimise loss; SGD, Adam, AdamW
+
+### Feedforward Neural Networks
+
+The simplest neural network architecture. Data flows in one direction from input to output.
+
+- **Input layer**, receives features
+- **Hidden layers**, transform features through learned weights
+- **Output layer**, produces predictions
+
+### Convolutional Neural Networks (CNNs)
+
+CNNs are designed for grid-structured data (images, video). They learn spatial hierarchies of features.
+
+**Key components:**
+
+- **Convolutional layers**, apply learnable filters to extract features
+- **Pooling layers**, downsample feature maps (max pooling, average pooling)
+- **Fully connected layers**, combine features for final prediction
+
+**Architectures:** LeNet, AlexNet, VGG, ResNet, EfficientNet, Vision Transformer (ViT)
+
+### Recurrent Neural Networks (RNNs)
+
+RNNs process sequential data by maintaining hidden state across time steps.
+
+- **Vanilla RNN**, simple but suffers from vanishing gradients
+- **LSTM**, Long Short-Term Memory; uses gates to control information flow
+- **GRU**, Gated Recurrent Unit; simplified LSTM with fewer parameters
+
+### Transformers
+
+Transformers have replaced RNNs for most sequence tasks. They use self-attention to process entire sequences in parallel.
+
+**Key components:**
+
+- **Self-attention**, each position attends to all other positions
+- **Multi-head attention**, multiple parallel attention mechanisms
+- **Positional encoding**, injects sequence order information
+- **Layer normalisation**, stabilises training
+
+**Architectures:** BERT, GPT, T5, Vision Transformer, Whisper
+
+### Generative Models
+
+Generative models learn to create new data that resembles the training distribution.
+
+- **GANs (Generative Adversarial Networks)**, generator vs. discriminator
+- **VAEs (Variational Autoencoders)**, learn latent representations
+- **Diffusion Models**, iteratively denoise random noise into data
+- **Large Language Models**, autoregressive text generation (GPT, LLaMA)
+
+---
+
+## Model Evaluation and Validation
+
+Evaluating a model's performance is essential to ensure it generalises to unseen data.
+
+### Evaluation Metrics
+
+**Classification metrics:**
+
+| Metric | Description | When to Use |
+| -------- | ------------- | ------------- |
+| Accuracy | Fraction of correct predictions | Balanced classes |
+| Precision | True positives / (true + false positives) | Cost of false positives is high |
+| Recall | True positives / (true + false negatives) | Cost of false negatives is high |
+| F1 Score | Harmonic mean of precision and recall | Imbalanced classes |
+| AUC-ROC | Area under ROC curve | Ranking quality |
+| Log Loss | Probabilistic classification quality | Probabilistic outputs |
+
+**Regression metrics:**
+
+| Metric | Description |
+| -------- | ------------- |
+| MSE | Mean squared error; penalises large errors |
+| RMSE | Root mean squared error; same units as target |
+| MAE | Mean absolute error; robust to outliers |
+| R² | Proportion of variance explained |
+
+### Validation Strategies
+
+- **Hold-out set**, split data into train/validation/test
+- **k-Fold Cross-Validation**, rotate through k folds as validation
+- **Stratified k-Fold**, preserves class distribution in each fold
+- **Leave-One-Out**, each sample is a validation set; computationally expensive
+- **Time series split**, respect temporal order; no future data in training
+
+### Hyperparameter Tuning
+
+- **Grid Search**, exhaustive search over parameter grid
+- **Random Search**, sample random combinations; often more efficient
+- **Bayesian Optimisation**, model the objective function and select promising parameters
+- **Early stopping**, halt unpromising runs early
+
+---
+
+## Advanced Topics
+
+### Transfer Learning
+
+Transfer learning uses a model pre-trained on one task as the starting point for a different task. It is the foundation of modern deep learning, most practical applications use pre-trained models.
+
+- **Feature extraction**, freeze pre-trained layers; train only the head
+- **Fine-tuning**, update all layers with a small learning rate
+- **Domain adaptation**, adjust a model trained on one domain to work on another
+
+### Reinforcement Learning
+
+Reinforcement learning trains agents to make sequences of decisions by maximising cumulative reward.
+
+**Key concepts:**
+
+- **Agent**, the learner and decision maker
+- **Environment**, the world the agent interacts with
+- **State**, the current situation of the agent
+- **Action**, what the agent can do
+- **Reward**, feedback signal
+- **Policy**, the agent's strategy
+
+**Key algorithms:** Q-Learning, DQN, PPO, A3C, SAC, TD3
+
+### Natural Language Processing
+
+NLP enables machines to understand, generate, and translate human language.
+
+- **Tokenisation**, breaking text into tokens
+- **Embeddings**, dense vector representations of words or tokens
+- **Language models**, predict the next token in a sequence
+- **Named entity recognition**, identifying entities in text
+- **Sentiment analysis**, classifying text sentiment
+- **Machine translation**, translating between languages
+
+### Computer Vision
+
+Computer vision enables machines to interpret visual information.
+
+- **Image classification**, assigning labels to images
+- **Object detection**, localising and classifying objects
+- **Semantic segmentation**, classifying each pixel
+- **Instance segmentation**, distinguishing individual object instances
+- **Image generation**, creating new images from text or noise
+
+---
+
+## Practical Implementation
+
+### ML Frameworks
+
+| Framework | Language | Strengths |
+| ----------- | ---------- | ----------- |
+| PyTorch | Python | Dynamic computation graph, research-friendly |
+| TensorFlow | Python | Production deployment, TFX ecosystem |
+| JAX | Python | High-performance numerical computing |
+| scikit-learn | Python | Classical ML algorithms |
+| XGBoost | Python | Gradient boosting for tabular data |
+| Hugging Face | Python | Transformers and NLP models |
+
+### Data Preparation
+
+- **Data cleaning**, handle missing values, outliers, and inconsistencies
+- **Feature engineering**, create informative features from raw data
+- **Feature scaling**, normalise or standardise features
+- **Data augmentation**, artificially increase training data diversity
+- **Class balancing**, oversample minority classes or undersample majority classes
+
+### MLOps
+
+- **Experiment tracking**, MLflow, Weights & Biases, TensorBoard
+- **Model versioning**, track model versions and their performance
+- **Model serving**, deploy models as APIs (TorchServe, TensorFlow Serving, Triton)
+- **A/B testing**, compare model performance in production
+- **Monitoring**, detect data drift and model degradation
+
+---
+
+## Cross-Site Resources
+
+Machine learning connects to many areas of mathematics and computer science:
+
+- **[Mathematics](https://mathematics.wyattau.com/hub)**, linear algebra, probability, and optimisation foundations
+- **[Physics](https://physics.wyattau.com/hub)**, statistical mechanics informs probabilistic models
+- **[Python](https://python.wyattau.com/hub)**, the primary language for ML implementation
+- **[Developer Tools](https://tools.wyattau.com/hub)**, CI/CD and MLOps tooling
+- **[Databases](https://databases.wyattau.com/hub)**, data storage and retrieval for ML pipelines
+- **[Linux Administration](https://linux.wyattau.com/hub)**, GPU server setup and management
+
+---
+
+## Frequently Asked Questions
+
+### How do I start learning machine learning?
+
+Start with the mathematics: linear algebra, calculus, and probability. Then learn Python and its ML libraries (NumPy, pandas, scikit-learn). Work through a structured course (Andrew Ng's Machine Learning course is excellent). Implement simple models on small datasets before moving to deep learning.
+
+### Do I need a PhD to work in machine learning?
+
+No. Many ML engineers and practitioners have master's degrees or even bachelor's degrees. A PhD is valuable for research roles but not required for applied ML roles. Focus on building practical skills and a portfolio of projects.
+
+### What hardware do I need for deep learning?
+
+A GPU with at least 8 GB of VRAM is sufficient for learning (NVIDIA GTX 1080 Ti, RTX 3060, or better). Cloud platforms (Google Colab, AWS, Lambda Labs) provide GPU access without purchasing hardware. For serious training, 24 GB+ VRAM (RTX 3090, A100) is recommended.
+
+### How do I prevent overfitting?
+
+Use techniques from the bias-variance tradeoff: regularisation (L1, L2, dropout), early stopping, data augmentation, cross-validation, and simpler models. More training data is the most reliable way to reduce overfitting. Monitor validation performance during training.
+
+### What is the difference between AI, ML, and deep learning?
+
+AI is the broadest term, machines that perform tasks requiring intelligence. ML is a subset of AI, machines that learn from data. Deep learning is a subset of ML, learning with deep neural networks. All deep learning is ML, but not all ML is deep learning.
+
+### How do I deploy an ML model?
+
+Export your trained model (ONNX, TorchScript, SavedModel). Wrap it in an API (FastAPI, Flask, or specialised serving frameworks like TorchServe). Containerise with Docker. Deploy to a cloud platform (AWS SageMaker, Google Vertex AI, Azure ML). Monitor for data drift and performance degradation.
+
+---
+
+*Last updated: 24 July 2026*
+
+*Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+---
+
+## Index
+URL: https://machine-learning.wyattau.com/
+
+sources:
+  - text: Standard textbook reference
+
+
+
+## What This Site Covers
+
+Machine learning fundamentals through advanced topics: supervised learning (regression, classification), unsupervised learning (clustering, dimensionality reduction), neural networks, model evaluation, feature engineering, and deployment. Emphasis on practical implementation with Python/scikit-learn and TensorFlow.
+
+## Why This Matters
+
+Machine learning is transforming industries from healthcare to finance to autonomous systems. Understanding the mathematical foundations (linear algebra, calculus, probability), algorithm design, and practical implementation details is essential for building models that generalise beyond training data. These notes bridge theory and practice, covering both the "why" and the "how" of modern ML systems.
+
+## Getting Started
+
+Start with the mathematical foundations: linear algebra (vectors, matrices, eigenvalues), calculus (derivatives, gradients), and probability (distributions, Bayes' theorem). Then learn the core algorithms: linear regression, logistic regression, decision trees, and k-nearest neighbours. Build up to neural networks and deep learning once the fundamentals are solid.
+
+## Practical Applications
+
+- **Computer vision:** Image classification, object detection, and segmentation using CNNs and transformers. Applications include autonomous vehicles, medical imaging, and quality control.
+- **Natural language processing:** Text classification, sentiment analysis, and language generation using transformers. Applications include chatbots, translation, and content moderation.
+- **Recommendation systems:** Collaborative filtering and content-based recommendations for e-commerce, streaming, and social media platforms.
+
+## Key Topics
+
+- **Supervised Learning**, Linear models, trees, ensembles, SVMs
+- **Unsupervised Learning**, K-means, PCA, t-SNE
+- **Deep Learning**, CNNs, RNNs, transformers, attention
+- **MLOps**, Model serving, monitoring, A/B testing
+
+## Resources
+
+- Scikit-learn documentation (scikit-learn.org), Reference for classical ML algorithms
+- TensorFlow tutorials (tensorflow.org/tutorials), Hands-on deep learning guides
+- fast.ai courses (course.fast.ai), Practical deep learning for coders
+
+## Intuition
+
+**Machine learning is a subset of artificial intelligence focused on learning from data:** Rather than following explicit rules, ML systems improve their performance on tasks through experience. The field combines statistics, computer science, and domain expertise.
+
+**Why it matters:** ML is transforming industries from healthcare to finance to transportation, creating both opportunities and challenges for society.
+
+**The key insight:** Data quality matters more than model complexity, the best algorithm with bad data performs worse than a simple algorithm with good data.
+
+## Common Mistakes
+
+**Confusing training accuracy with generalisation:** A model can memorise training data (overfitting) while failing on new data. Always evaluate on a held-out test set. Training accuracy alone is misleading.
+
+**Ignoring data preprocessing:** Raw data often contains missing values, outliers, and different scales. Feeding unscaled features into gradient-based optimisers causes slow convergence or divergence. Always normalise/standardise features before training.
+
+**Assuming more data always helps:** More data helps only if the data is representative and relevant. Adding noisy or biased data can hurt performance. Data quality matters more than quantity.
+
+## Study Approach
+
+Start with the mathematical foundations before jumping into algorithms. Linear algebra, calculus, and probability are prerequisites. Then learn classical algorithms before deep learning. Always evaluate models on held-out test data.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for machine-learning notes.
+- **Practice:** Practice problems for revision.
+
+---
+
+## Intro
+URL: https://machine-learning.wyattau.com/intro/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
+
+## Introduction to Machine Learning
+
+Machine learning is a subfield of artificial intelligence that enables systems to learn from data and improve their performance without explicit programming. This site covers the mathematical foundations, algorithms, and practical considerations of modern ML.
+
+## Core Concepts
+
+### What Is Machine Learning?
+
+Machine learning algorithms identify patterns in data and use those patterns to make predictions or decisions. The three main paradigms are:
+
+- **Supervised learning:** Training on labeled data (input-output pairs) to learn a mapping function $f: X \rightarrow Y$
+- **Unsupervised learning:** Finding structure in unlabeled data (clustering, dimensionality reduction)
+- **Reinforcement learning:** Learning through trial and error by maximizing cumulative reward
+
+### The Learning Problem
+
+Given a dataset $\mathcal{D} = \{(x_i, y_i)\}_{i=1}^{n}$ where $x_i \in \mathbb{R}^d$ are features and $y_i$ are labels, find a function $h: \mathbb{R}^d \rightarrow \mathcal{Y}$ that generalizes to unseen data.
+
+The fundamental trade-off is between:
+
+- **Bias:** error from overly simplistic assumptions (underfitting)
+- **Variance:** error from sensitivity to training data fluctuations (overfitting)
+
+$$\text{Expected Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+
+### Model Evaluation
+
+**Training set / validation set / test set split:** Never evaluate on training data. Use validation for hyperparameter tuning, test set only for final reporting.
+
+**Cross-validation:** k-fold CV partitions data into k subsets, training on k-1 and validating on the remaining fold. Reduces variance of performance estimates.
+
+**Metrics:**
+
+- Classification: accuracy, precision, recall, F1-score, AUC-ROC
+- Regression: MSE, MAE, $R^2$
+
+## Supervised Learning Algorithms
+
+### Linear Regression
+
+Fits $h(x) = w^T x + b$ by minimizing mean squared error:
+
+$$\mathcal{L}(w) = \frac{1}{n} \sum_{i=1}^{n} (y_i - w^T x_i - b)^2$$
+
+Closed-form solution (normal equation): $w = (X^T X)^{-1} X^T y$
+
+**When to use:** Linear relationships, interpretable models, baseline comparisons.
+
+### Logistic Regression
+
+For binary classification, models $P(y=1|x) = \sigma(w^T x + b)$ where $\sigma(z) = \frac{1}{1+e^{-z}}$.
+
+Minimizes binary cross-entropy:
+
+$$\mathcal{L}(w) = -\frac{1}{n}\sum_{i=1}^{n} [y_i \log h(x_i) + (1-y_i)\log(1-h(x_i))]$$
+
+### Decision Trees
+
+Partitions feature space through recursive binary splits. Each internal node tests a feature, each leaf predicts a class (classification) or value (regression).
+
+**Advantages:** Interpretable, handles mixed data types, no feature scaling needed.
+**Disadvantages:** Prone to overfitting, unstable (small data changes alter tree structure).
+
+### Support Vector Machines
+
+Finds the maximum-margin hyperplane separating classes. For linearly separable data:
+
+$$\min_{w,b} \frac{1}{2}\|w\|^2 \quad \text{subject to} \quad y_i(w^T x_i + b) \geq 1$$
+
+The kernel trick extends SVMs to non-linear boundaries: $K(x_i, x_j) = \phi(x_i)^T \phi(x_j)$
+
+Common kernels: polynomial, RBF (Gaussian), sigmoid.
+
+### Ensemble Methods
+
+**Random Forest:** Bagging with decision trees. Trains multiple trees on bootstrap samples, aggregates predictions. Reduces variance.
+
+**Gradient Boosting:** Sequentially trains weak learners, each correcting the previous ensemble's errors. XGBoost, LightGBM, and CatBoost are popular implementations.
+
+## Unsupervised Learning
+
+### K-Means Clustering
+
+Partitions data into k clusters by iteratively:
+
+1. Assigning each point to the nearest centroid
+2. Recomputing centroids as cluster means
+
+Converges to a local minimum. Sensitivity to initialization addressed by k-means++.
+
+### Principal Component Analysis (PCA)
+
+Finds orthogonal directions of maximum variance. Projects data onto the top $k$ eigenvectors of the covariance matrix $\Sigma = \frac{1}{n}X^TX$.
+
+**Use cases:** Dimensionality reduction, visualization, noise reduction.
+
+### Gaussian Mixture Models (GMM)
+
+Soft clustering using $k$ Gaussian distributions. Each point has a probability of belonging to each cluster. Estimated via Expectation-Maximization (EM).
+
+## Neural Networks
+
+### Perceptron and Multi-Layer Networks
+
+A single neuron computes $y = \sigma(w^T x + b)$. Multi-layer networks (MLPs) stack layers of neurons with non-linear activations to learn complex mappings.
+
+**Common activations:** ReLU, sigmoid, tanh, softmax (output layer for classification).
+
+### Training: Backpropagation
+
+Computes gradients of the loss with respect to all parameters using the chain rule. Gradients flow backward from output to input layers.
+
+**Optimization:** Stochastic Gradient Descent (SGD) with momentum, Adam, AdaGrad, RMSprop.
+
+$$w_{t+1} = w_t - \eta \nabla_w \mathcal{L}(w_t)$$
+
+### Convolutional Neural Networks (CNNs)
+
+Specialized for grid-structured data (images). Convolutional layers apply learnable filters, pooling layers reduce spatial dimensions.
+
+Key architectures: LeNet, AlexNet, VGG, ResNet, EfficientNet.
+
+### Recurrent Neural Networks (RNNs)
+
+Process sequential data by maintaining hidden states. LSTMs and GRUs address the vanishing gradient problem through gating mechanisms.
+
+### Transformers
+
+Use self-attention to process sequences in parallel. The attention mechanism computes weighted sums of all positions:
+
+$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
+
+Transformers underpin modern language models (BERT, GPT, T5).
+
+## Practical Considerations
+
+### Feature Engineering
+
+- Normalize/standardize features (z-score, min-max scaling)
+- Handle missing values (imputation, removal)
+- Encode categorical variables (one-hot, label encoding)
+- Feature selection: filter methods, wrapper methods, embedded methods
+
+### Dealing with Imbalanced Data
+
+- Resampling: oversample minority class, undersample majority class
+- Synthetic data: SMOTE (Synthetic Minority Over-sampling Technique)
+- Cost-sensitive learning: assign higher misclassification cost to minority class
+- Evaluation: use precision-recall AUC instead of accuracy
+
+### Hyperparameter Tuning
+
+- Grid search: exhaustive search over parameter grid
+- Random search: sample parameters from distributions
+- Bayesian optimization: model the objective function and choose next evaluation points
+- Early stopping: halt training when validation performance plateaus
+
+## Common Pitfalls
+
+1. **Data leakage:** Using information from the test set during training or feature engineering
+2. **Overfitting:** Model memorizes training data but fails on new data. Mitigate with regularization, dropout, early stopping, more data
+3. **Ignoring class imbalance:** A model predicting majority class can achieve high accuracy but be useless
+4. **Not preprocessing data:** Neural networks and SVMs are sensitive to feature scales
+5. **Wrong evaluation metric:** Accuracy is misleading for imbalanced datasets
+6. **P-hacking:** Trying many models and reporting the best without accounting for multiple comparisons
+
+## Intuition
+
+**Machine learning finds patterns in data to make predictions:** Instead of programming explicit rules, ML algorithms learn patterns from data. The quality of predictions depends on the quality of data, the appropriateness of the model, and the evaluation methodology.
+
+**Why it matters:** ML powers recommendation systems, medical diagnosis, autonomous vehicles, and natural language processing. Understanding ML is essential for modern data science.
+
+**The key insight:** The bias-variance trade-off is the central challenge, simple models underfit (high bias), complex models overfit (high variance), and the best model balances both.
+
+## Summary
+
+Machine learning spans a rich landscape of algorithms and techniques. The field requires understanding both the mathematical foundations (linear algebra, probability, optimization) and practical engineering (data preprocessing, evaluation, deployment). The accompanying pages cover advanced topics including attention mechanisms, generative models, reinforcement learning, and transfer learning.
+
+## Worked Examples
+
+### Example 1: Gradient Descent for Linear Regression
+
+**Problem:** Given a dataset of house sizes (x) and prices (y), perform one step of gradient descent to update the weights of a linear model y = wx + b.
+
+```python
+## Dataset: (size in m^2, price in $1000s)
+X = [1.0, 2.0, 3.0, 4.0, 5.0]
+Y = [2.0, 4.0, 5.0, 4.0, 5.0]
+
+# Initial parameters
+w = 0.5
+b = 1.0
+learning_rate = 0.01
+n = len(X)
+
+# Forward pass: compute predictions
+predictions = [w * x + b for x in X]
+
+# Compute loss (Mean Squared Error)
+errors = [pred - y for pred, y in zip(predictions, Y)]
+mse = sum(e**2 for e in errors) / n
+print(f"Initial MSE: {mse:.4f}")
+
+# Compute gradients
+dw = (2/n) * sum(e * x for e, x in zip(errors, X))
+db = (2/n) * sum(errors)
+
+# Update parameters
+w_new = w - learning_rate * dw
+b_new = b - learning_rate * db
+
+print(f"Updated w: {w_new:.4f}, b: {b_new:.4f}")
+
+# Verify new loss
+new_predictions = [w_new * x + b_new for x in X]
+new_mse = sum((p - y)**2 for p, y in zip(new_predictions, Y)) / n
+print(f"New MSE: {new_mse:.4f}")
+```
+
+**Solution:** Initial MSE is approximately 1.64. After one gradient descent step, w decreases toward a value that better fits the data, and b adjusts to reduce bias. The new MSE should be lower than the initial, confirming the update moved in the correct direction.
+
+**Explanation:** Gradient descent computes the partial derivatives of the loss function with respect to each parameter. The gradients point in the direction of steepest ascent, so subtracting them (scaled by the learning rate) moves the parameters toward the minimum. The learning rate controls step size -- too large causes divergence, too small causes slow convergence.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
+
+### Example 2: K-Means Clustering by Hand
+
+**Problem:** Cluster the following 2D points into k=2 clusters using one iteration of K-means.
+
+```python
+import numpy as np
+
+# Points
+points = np.array([[1, 2], [1.5, 1.8], [5, 8], [8, 8], [1, 0.6], [9, 11]])
+
+# Initial centroids (chosen randomly)
+centroids = np.array([[1, 2], [8, 8]])
+
+# Step 1: Assign each point to nearest centroid
+def assign_clusters(points, centroids):
+    distances = np.linalg.norm(points[:, np.newaxis] - centroids, axis=2)
+    return np.argmin(distances, axis=1)
+
+labels = assign_clusters(points, centroids)
+print(f"Cluster assignments: {labels}")
+
+# Step 2: Recompute centroids as mean of assigned points
+new_centroids = np.array([
+    points[labels == i].mean(axis=0) for i in range(len(centroids))
+])
+print(f"New centroids: {new_centroids}")
+```
+
+**Solution:**
+
+- Cluster 0 (nearest to [1,2]): points [1,2], [1.5,1.8], [1,0.6] -> centroid becomes [1.17, 1.47]
+- Cluster 1 (nearest to [8,8]): points [5,8], [8,8], [9,11] -> centroid becomes [7.33, 9.0]
+
+**Explanation:** K-means alternates between two steps: (1) assign each point to the nearest centroid using Euclidean distance, and (2) recompute centroids as the mean of all points assigned to that cluster. After convergence, the algorithm minimises within-cluster sum of squares.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Intro", "url": "https://machine-learning.wyattau.com/intro"}]
+}
+</script>
+
+### Example 3: Precision, Recall, and F1 Score
+
+**Problem:** A binary classifier produces the following predictions on 10 samples. Compute accuracy, precision, recall, and F1 score.
+
+```python
+# Ground truth and predictions
+y_true = [1, 1, 1, 1, 1, 0, 0, 0, 0, 0]
+y_pred = [1, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+
+# Compute confusion matrix components
+tp = sum(1 for t, p in zip(y_true, y_pred) if t == 1 and p == 1)
+fp = sum(1 for t, p in zip(y_true, y_pred) if t == 0 and p == 1)
+tn = sum(1 for t, p in zip(y_true, y_pred) if t == 0 and p == 0)
+fn = sum(1 for t, p in zip(y_true, y_pred) if t == 1 and p == 0)
+
+print(f"TP={tp}, FP={fp}, TN={tn}, FN={fn}")
+
+accuracy = (tp + tn) / (tp + fp + tn + fn)
+precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
+
+print(f"Accuracy:  {accuracy:.2f}")
+print(f"Precision: {precision:.2f}")
+print(f"Recall:    {recall:.2f}")
+print(f"F1 Score:  {f1:.2f}")
+```
+
+**Solution:**
+
+- TP=3, FP=1, TN=4, FN=2
+- Accuracy = 7/10 = 0.70
+- Precision = 3/4 = 0.75
+- Recall = 3/5 = 0.60
+- F1 = 2 *0.75* 0.60 / (0.75 + 0.60) = 0.67
+
+**Explanation:** Accuracy measures overall correctness but is misleading for imbalanced datasets. Precision measures how many predicted positives are actually positive. Recall measures how many actual positives are detected. F1 is the harmonic mean of precision and recall, balancing both concerns. For imbalanced datasets, F1 is more informative than accuracy.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for machine-learning notes.
+- **Practice:** Practice problems for revision.
+
+---
+
+## Machine Learning Deep Dive
+URL: https://machine-learning.wyattau.com/machine-learning-deep-dive/
+
+```mermaid
+flowchart TD
+    A[Machine Learning Deep Dive] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Introduction to Machine Learning
+
+- What is ML?
+- Types of ML
+- ML workflow
+- Evaluation metrics
+
+## Supervised Learning
+
+- Linear regression
+- Logistic regression
+- Decision trees
+- Random forests
+- SVM
+
+## Unsupervised Learning
+
+- K-means clustering
+- Hierarchical clustering
+- PCA
+- t-SNE
+
+## Neural Networks
+
+- Perceptrons
+- Backpropagation
+- Activation functions
+- Regularization
+
+## Deep Learning
+
+- CNNs
+- RNNs
+- LSTMs
+- Transformers
+- GANs
+
+## Practical ML
+
+- Feature engineering
+- Hyperparameter tuning
+- Model deployment
+- MLOps
+
+## See Also
+
+- [Machine Learning](./)
+- [About This Site](/about/)
+- [advanced topics](/advanced-topics/)
+
+## Worked Examples
+
+### Example 1: Bias-Variance Trade-off
+
+A model with high bias (underfitting) makes strong assumptions and misses
+relevant patterns. A model with high variance (overfitting) captures noise
+along with signal. The total error decomposes as:
+
+$$\text{Error} = \text{Bias}^2 + \text{Variance} + \text{Irreducible Noise}$$
+
+A linear regression on non-linear data has high bias. A decision tree with no
+depth limit has high variance. Regularisation (L1/L2) and ensemble methods
+(bagging, boosting) navigate this trade-off.
+
+### Example 2: Cross-Validation
+
+K-fold cross-validation splits data into K folds, training on K-1 and testing
+on 1, rotating through all folds. This gives a more reliable estimate of
+generalisation performance than a single train/test split, especially with
+limited data.
+
+## Common Pitfalls
+
+1. **Evaluating on training data**: Always use a held-out test set or
+   cross-validation. Training accuracy is not generalisation accuracy.
+2. **Ignoring class imbalance**: 99% accuracy on a dataset with 99% negative
+   class means the model learned nothing. Use precision, recall, F1, or AUC.
+3. **Feature scaling for distance-based methods**: KNN, SVM, and k-means
+   require normalised features. Tree-based methods do not.
+
+## Summary
+
+Machine learning encompasses supervised learning (classification, regression),
+unsupervised learning (clustering, dimensionality reduction), and reinforcement
+learning. Model selection requires understanding the bias-variance trade-off,
+regularisation, and proper evaluation via cross-validation. Deep learning
+extends classical ML with neural networks (CNNs, RNNs, Transformers) for
+unstructured data. Practical ML requires feature engineering, hyperparameter
+tuning, and deployment pipelines (MLOps).
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Practice Ml Fundamentals
+URL: https://machine-learning.wyattau.com/practice-ml-fundamentals/
+
+## ML Fundamentals Practice
+
+15 practice questions covering supervised and unsupervised learning, bias-variance tradeoff, cross-validation, gradient descent, overfitting, and feature engineering.
+
+---
+
+### Supervised vs. Unsupervised Learning
+
+**Question 1.** Which of the following is an example of a supervised learning task?
+
+(A) Clustering customer segments from purchase data
+(B) Predicting house prices from features such as square footage and location
+(C) Reducing the dimensionality of a dataset using PCA
+(D) Discovering frequent itemsets in a transaction database
+
+**Correct Answer:** (B)
+
+**Explanation:** Supervised learning requires labeled training data where both inputs and target outputs are provided. Predicting house prices uses historical data with known prices (labels) to learn a mapping from features to values. Clustering, PCA, and association rule mining are unsupervised methods that discover structure without labeled targets.
+
+---
+
+**Question 2.** K-means clustering is an example of:
+
+(A) Supervised classification
+(B) Unsupervised learning
+(C) Semi-supervised learning
+(D) Reinforcement learning
+
+**Correct Answer:** (B)
+
+**Explanation:** K-means partitions data into k clusters by minimizing within-cluster variance. It operates on unlabeled data and discovers natural groupings based on feature similarity. No target labels are provided or used during training. This makes it a fundamental unsupervised learning algorithm.
+
+---
+
+### Bias-Variance Tradeoff
+
+**Question 3.** A model that performs well on training data but poorly on unseen test data most likely suffers from:
+
+(A) High bias and high variance
+(B) High bias and low variance
+(C) Low bias and high variance
+(D) Low bias and low variance
+
+**Correct Answer:** (C)
+
+**Explanation:** High variance (overfitting) means the model has learned noise and patterns specific to the training set that do not generalize. Low bias means the model is complex enough to capture the underlying pattern. The hallmark of overfitting is a large gap between training performance and test performance. High bias (underfitting) would show poor performance on both training and test data.
+
+---
+
+**Question 4.** Increasing model complexity generally:
+
+(A) Decreases both bias and variance
+(B) Decreases bias but increases variance
+(C) Increases bias but decreases variance
+(D) Increases both bias and variance
+
+**Correct Answer:** (B)
+
+**Explanation:** More complex models can fit more intricate patterns, reducing bias. However, they also become more sensitive to noise in the training data, increasing variance. The goal of model selection is to find the complexity that minimizes total error (bias squared plus variance plus irreducible noise).
+
+---
+
+### Cross-Validation
+
+**Question 5.** In 5-fold cross-validation, the dataset is:
+
+(A) Split once into 80 percent training and 20 percent testing
+(B) Split into 5 equal folds; the model is trained 5 times, each time using a different fold as the test set
+(C) Split into 5 equal folds; the model is trained on the first fold only
+(D) Randomly sampled 5 times with replacement
+
+**Correct Answer:** (B)
+
+**Explanation:** In k-fold cross-validation, the data is partitioned into k equal subsets (folds). The model is trained k times, each time using k-1 folds for training and the remaining fold for evaluation. The final performance metric is the average across all k iterations. This provides a more robust estimate of generalization performance than a single train-test split.
+
+---
+
+**Question 6.** Stratified k-fold cross-validation is preferred over standard k-fold when:
+
+(A) The dataset is very large
+(B) The dataset has a severe class imbalance
+(C) The model requires hyperparameter tuning
+(D) The features are highly correlated
+
+**Correct Answer:** (B)
+
+**Explanation:** Stratified k-fold ensures that each fold maintains approximately the same class distribution as the full dataset. This is critical for imbalanced datasets where random splitting could produce folds with very few instances of the minority class, leading to unreliable performance estimates.
+
+---
+
+### Gradient Descent
+
+**Question 7.** In gradient descent, the learning rate determines:
+
+(A) The number of training iterations
+(B) The step size for updating model parameters in the direction of the negative gradient
+(C) The batch size used for each parameter update
+(D) The regularization strength applied to the loss function
+
+**Correct Answer:** (B)
+
+**Explanation:** The learning rate controls how large a step is taken in the direction opposite to the gradient during each parameter update. A learning rate that is too small leads to slow convergence; one that is too large may cause the optimization to overshoot the minimum or diverge. Adaptive methods adjust the learning rate per parameter.
+
+---
+
+**Question 8.** Mini-batch gradient descent offers which advantage over pure stochastic gradient descent?
+
+(A) It always converges to the global minimum
+(B) It provides a balance between computational efficiency and convergence stability
+(C) It requires no learning rate tuning
+(D) It eliminates the need for feature scaling
+
+**Correct Answer:** (B)
+
+**Explanation:** Mini-batch gradient descent computes the gradient over a small subset of training examples rather than a single example or the entire dataset. This provides noisy but more stable gradient estimates than pure stochastic gradient descent, while being more computationally efficient and memory-friendly than full batch gradient descent.
+
+---
+
+### Overfitting and Regularization
+
+**Question 9.** L2 regularization (Ridge regression) addresses overfitting by:
+
+(A) Setting some model weights exactly to zero
+(B) Adding a penalty proportional to the sum of squared weights to the loss function
+(C) Removing features that are not statistically significant
+(D) Increasing the model capacity to fit training data
+
+**Correct Answer:** (B)
+
+**Explanation:** L2 regularization adds a penalty term proportional to the sum of squared weights to the loss function, penalizing large weight values. This encourages the model to use smaller, more distributed weights, reducing the tendency to overfit to noise. Unlike L1 regularization, L2 does not produce sparse solutions.
+
+---
+
+**Question 10.** Early stopping prevents overfitting by:
+
+(A) Limiting the number of input features
+(B) Terminating training when validation performance stops improving
+(C) Reducing the learning rate to zero after each epoch
+(D) Removing the last layer of a neural network
+
+**Correct Answer:** (B)
+
+**Explanation:** Early stopping monitors a validation metric during training. When the validation metric stops improving for a specified number of epochs (patience), training is halted. This prevents the model from continuing to overfit to training data after it has already learned the generalizable patterns.
+
+---
+
+### Feature Engineering
+
+**Question 11.** Feature scaling (such as standardization or normalization) is particularly important for:
+
+(A) Decision trees and random forests
+(B) Gradient descent-based algorithms and distance-based models
+(C) Naive Bayes classifiers
+(D) Rule-based systems
+
+**Correct Answer:** (B)
+
+**Explanation:** Algorithms that use gradient descent converge faster and more reliably when features are on similar scales. Distance-based methods such as k-NN, k-means, and SVM with RBF kernel are sensitive to the magnitude of features. Tree-based methods are invariant to feature scaling because they make splits based on thresholds.
+
+---
+
+**Question 12.** One-hot encoding is used to:
+
+(A) Normalize numerical features to zero mean and unit variance
+(B) Convert categorical variables into binary indicator columns
+(C) Reduce the dimensionality of high-dimensional feature spaces
+(D) Handle missing values in numerical features
+
+**Correct Answer:** (B)
+
+**Explanation:** One-hot encoding transforms a categorical variable with k categories into k binary indicator columns, each representing the presence or absence of a category. This is necessary because most machine learning algorithms operate on numerical inputs and cannot directly process categorical labels. Alternative approaches include ordinal encoding for ordered categories and target encoding for high-cardinality features.
+
+---
+
+### Model Evaluation
+
+**Question 13.** For a binary classification problem with 95 percent negative and 5 percent positive examples, which metric is most informative?
+
+(A) Accuracy
+(B) F1 score
+(C) Area under the ROC curve (AUC-ROC)
+(D) Mean squared error
+
+**Correct Answer:** (B)
+
+**Explanation:** With severe class imbalance, accuracy is misleading because a model that predicts all negatives achieves 95 percent accuracy. The F1 score, the harmonic mean of precision and recall, captures both false positives and false negatives and is more informative for imbalanced problems. AUC-ROC is also useful but can be overly optimistic with extreme imbalance. Mean squared error is a regression metric, not applicable to classification.
+
+---
+
+**Question 14.** Precision measures:
+
+(A) The fraction of true positives among all positive predictions
+(B) The fraction of true positives among all actual positives
+(C) The overall correctness of the model
+(D) The model's ability to distinguish between classes
+
+**Correct Answer:** (A)
+
+**Explanation:** Precision equals true positives divided by (true positives plus false positives). It answers: of all instances the model labeled positive, how many were actually positive? High precision means few false positives. Recall (sensitivity) equals true positives divided by (true positives plus false negatives) and answers: of all actual positives, how many did the model find? The F1 score balances both.
+
+---
+
+**Question 15.** Which technique is most appropriate for handling missing values in a dataset where the missingness depends on other observed features?
+
+(A) Removing all rows with missing values
+(B) Imputing with the column mean
+(C) Using a model-based imputation method such as multiple imputation or k-NN imputation
+(D) Replacing missing values with zero
+
+**Correct Answer:** (C)
+
+**Explanation:** When missingness depends on observed features (missing at random), model-based imputation methods leverage the relationships between features to produce more accurate imputations. k-NN imputation uses similar complete records to estimate missing values. Multiple imputation generates several plausible imputed datasets to account for imputation uncertainty. Simple mean imputation ignores relationships and distorts distributions. Listwise deletion can introduce bias and loses data.
+
+## Intuition
+
+**ML fundamentals connect theory to practice:** Understanding linear regression, decision trees, and neural networks from first principles enables you to choose the right model for the right problem and diagnose when things go wrong.
+
+**Why it matters:** ML skills are increasingly required across all technical disciplines, from biology to finance to engineering.
+
+**The key insight:** Feature engineering, transforming raw data into informative representations, is often more impactful than model selection.
+
+## Common Mistakes
+
+**Confusing classification with regression:** Classification predicts discrete labels. Regression predicts continuous values. Using a classification model for regression (or vice versa) gives meaningless results.
+
+**Not regularising when needed:** Regularisation prevents overfitting by penalising complex models. Without regularisation, models with many parameters memorise training data. Always use regularisation unless you have strong reasons not to.
+
+**Ignoring the cost function:** The cost function measures how wrong your model is. Different problems need different cost functions: MSE for regression, cross-entropy for classification. Optimising the wrong cost function produces models that minimise the wrong objective.
+
+## See Also
+
+- [Machine Learning](./)
+- [About This Site](/about/)
+- [advanced topics](/advanced-topics/)
+
+## Diagnostics
+
+---
+
+## Diag Ml
+URL: https://machine-learning.wyattau.com/diagnostics/diag-ml/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+## Diagnostic Test: Machine Learning
+
+10 multiple-choice questions covering machine learning fundamentals. Select the best answer for each question, then check your score using the answer key below.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 1.** Which of the following is a supervised learning algorithm?
+
+(A) K-means clustering
+(B) Principal component analysis (PCA)
+(C) Linear regression
+(D) Apriori algorithm
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 2.** The bias-variance tradeoff describes:
+
+(A) The tradeoff between training speed and prediction accuracy
+(B) The tradeoff between model complexity and generalization error
+(C) The tradeoff between the number of features and the number of samples
+(D) The tradeoff between precision and recall
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 3.** Overfitting is characterized by:
+
+(A) High training error and high test error
+(B) Low training error and low test error
+(C) Low training error and high test error
+(D) High training error and low test error
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 4.** What is the purpose of a validation set?
+
+(A) To train the model parameters
+(B) To tune hyperparameters and estimate generalization performance
+(C) To deploy the model in production
+(D) To store raw data before preprocessing
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 5.** In gradient descent, what happens when the learning rate is too large?
+
+(A) The model converges slowly but reliably
+(B) The optimization may overshoot the minimum and diverge
+(C) The model always finds the global minimum
+(D) Training time decreases without affecting convergence
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 6.** L1 regularization (Lasso) has the property of:
+
+(A) Producing dense weight vectors with small non-zero values
+(B) Producing sparse weight vectors by setting some weights exactly to zero
+(C) Being computationally more expensive than L2 regularization
+(D) Only working with linear models
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 7.** In k-fold cross-validation with k equals 10, the model is:
+
+(A) Trained once on 90 percent of the data
+(B) Trained 10 times, each time on 9 folds and evaluated on 1 fold
+(C) Trained 10 times on the same training set
+(D) Evaluated only on the first fold
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 8.** Feature standardization transforms features to have:
+
+(A) A minimum value of 0 and a maximum value of 1
+(B) Zero mean and unit variance
+(C) Only binary values of 0 and 1
+(D) The same distribution as the target variable
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 9.** The F1 score is the harmonic mean of:
+
+(A) Accuracy and precision
+(B) Precision and recall
+(C) True positive rate and false positive rate
+(D) Sensitivity and specificity
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+**Question 10.** Which technique helps prevent overfitting in neural networks?
+
+(A) Increasing the number of hidden layers
+(B) Using dropout during training
+(C) Removing all regularization
+(D) Training for more epochs without monitoring validation loss
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "machine-learning", "url": "https://machine-learning.wyattau.com"}, {"name": "Diagnostics", "url": "https://machine-learning.wyattau.com/diagnostics"}, {"name": "Diag Ml", "url": "https://machine-learning.wyattau.com/diagnostics/diag-ml"}]
+}
+</script>
+
+## Answer Key
+
+| Question | Correct Answer |
+|----------|---------------|
+| 1        | C             |
+| 2        | B             |
+| 3        | C             |
+| 4        | B             |
+| 5        | B             |
+| 6        | B             |
+| 7        | B             |
+| 8        | B             |
+| 9        | B             |
+| 10       | B             |
+
+**Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of machine learning fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+
+```mermaid
+flowchart TD
+    A[Diag Ml] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Intuition
+
+**ML diagnostic assessment tests foundational understanding:** Before building complex models, you need to understand the basics, data preprocessing, model evaluation, overfitting, and the bias-variance trade-off.
+
+**Why it matters:** These fundamentals determine whether your models will actually work in practice, not just in theory.
+
+**The key insight:** Always evaluate on data the model has never seen, training accuracy tells you almost nothing about real-world performance.
+
+## Common Mistakes
+
+**Confusing bias and variance:** Bias is error from overly simplistic models (underfitting). Variance is error from models that are too complex (overfitting). Reducing one often increases the other. The bias-variance tradeoff is fundamental.
+
+**Using accuracy for imbalanced datasets:** If 95% of samples are class A, a model that always predicts A achieves 95% accuracy but is useless. Use precision, recall, F1-score, or AUC-ROC for imbalanced problems.
+
+**Forgetting to split data before feature engineering:** If you compute statistics on the entire dataset before splitting, information from the test set leaks into training. Always split first, then compute statistics only on the training set.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for machine-learning notes.
+- **Practice:** Practice problems for revision.

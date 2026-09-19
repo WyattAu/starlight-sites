@@ -99,10 +99,10 @@ Dart's sound null safety ensures that non-nullable types can never contain null.
 
 ### Topic Notes
 
-- [Nullable Types](03-null-safety/01-nullable-types), the `?` operator, null-aware operators, and late variables
-- [Sound Null Safety](03-null-safety/02-sound-null-safety), how Dart's type system tracks nullability
-- [Type Promotion](03-null-safety/03-type-promotion), how the compiler narrows types based on null checks
-- [Null Safety Migration](03-null-safety/04-null-safety-migration), migrating pre-null-safety code
+- Nullable Types, the `?` operator, null-aware operators, and late variables
+- Sound Null Safety, how Dart's type system tracks nullability
+- Type Promotion, how the compiler narrows types based on null checks
+- Null Safety Migration, migrating pre-null-safety code
 
 ### Key Concepts
 
@@ -122,8 +122,8 @@ Dart provides built-in support for asynchronous programming with Futures, async/
 
 - [Futures](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/5_futures_promises/), Future, async/await, and error handling
 - [Streams](https://java.wyattau.com/05-streams/01-streams-api/), Stream, StreamController, and stream operators
-- [Isolates](04-asynchronous/03-isolates), concurrent execution without shared memory
-- [Async Patterns](04-asynchronous/04-async-patterns), parallel requests, debouncing, and throttling
+- Isolates, concurrent execution without shared memory
+- Async Patterns, parallel requests, debouncing, and throttling
 
 ### Key Concepts
 
@@ -141,7 +141,7 @@ Flutter is Google's UI toolkit for building cross-platform applications from a s
 
 ### Topic Notes
 
-- [Flutter Basics](05-flutter/01-flutter-basics), MaterialApp, Scaffold, runApp, and the widget tree
+- Flutter Basics, MaterialApp, Scaffold, runApp, and the widget tree
 - [Navigation](/09-flutter-fundamentals/01-navigation/), Navigator, named routes, and push/pop
 - [Platform Integration](/11-networking-and-data/01-platform-integration/), platform channels, plugins, and native code
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), unit tests, widget tests, and integration tests
@@ -163,11 +163,11 @@ Flutter's widget system is the foundation of every UI. Widgets are divided into 
 
 ### Topic Notes
 
-- [StatelessWidget](06-widgets/01-stateless-widget), creating, composing, and returning widgets
-- [StatefulWidget](06-widgets/02-stateful-widget), lifecycle, setState, and state management
-- [Layout Widgets](06-widgets/03-layout-widgets), Row, Column, Stack, and Flex
-- [Common Widgets](06-widgets/04-common-widgets), Text, Image, Container, and Card
-- [Custom Widgets](06-widgets/05-custom-widgets), building reusable components and custom painters
+- StatelessWidget, creating, composing, and returning widgets
+- StatefulWidget, lifecycle, setState, and state management
+- Layout Widgets, Row, Column, Stack, and Flex
+- Common Widgets, Text, Image, Container, and Card
+- Custom Widgets, building reusable components and custom painters
 
 ### Key Concepts
 
@@ -185,8 +185,8 @@ State management is one of the most important architectural decisions in a Flutt
 
 ### Topic Notes
 
-- [Provider](07-state-management/01-provider), ChangeNotifier, ProxyProvider, and Consumer
-- [Riverpod](07-state-management/02-riverpod), Provider, StateProvider, and modern dependency injection
+- Provider, ChangeNotifier, ProxyProvider, and Consumer
+- Riverpod, Provider, StateProvider, and modern dependency injection
 - [BLoC](https://languages.wyattau.com/ruby/03-methods-blocks/1_methods-and-blocks/), Business Logic Component, events, and streams
 - [Other Approaches](https://ib.wyattau.com/psychology/approaches/), GetX, MobX, and Redux
 

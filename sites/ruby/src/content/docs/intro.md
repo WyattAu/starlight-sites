@@ -97,7 +97,7 @@ end
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for ruby notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.
 
 ## Detailed Content
 

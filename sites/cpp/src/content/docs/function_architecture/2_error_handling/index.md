@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "2_error_handling"
-description: "This section provides study materials and resources for 2_error_handling. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for 2_error_handling. Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for 2_error_handling. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for 2_error_handling. Work through 2_error_handling alongside the practice problems for Function Architecture, then let the diagnostic tests tell you whether it stuck.
 
 # 2_error_handling
 
@@ -34,7 +34,7 @@ This section provides study materials and resources for 2_error_handling. Browse
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through 2_error_handling alongside the practice problems for Function Architecture, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

@@ -38,7 +38,7 @@ sources:
 
 ## Overview
 
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+This section provides comprehensive study materials and resources. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic.
 
 ## Key Topics
 

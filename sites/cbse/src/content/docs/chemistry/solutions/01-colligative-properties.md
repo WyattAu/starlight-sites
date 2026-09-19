@@ -121,10 +121,10 @@ Colligative properties depend only on how many solute particles you add, not wha
 
 ## Cross-References
 
-- **[Solutions](../../../../../../typescript/src/content/docs/index):** Colligative properties are direct applications of solution concentration concepts like molality and mole fraction.
-- **[Chemical Kinetics](../chemical-kinetics/index):** Solute concentration affects reaction rates, understanding colligative properties deepens your grasp of concentration effects.
-- **[Biomolecules](../biomolecules/index):** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
-- **[Surface Chemistry](../surface-chemistry/index):** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
+- **Solutions:** Colligative properties are direct applications of solution concentration concepts like molality and mole fraction.
+- **Chemical Kinetics:** Solute concentration affects reaction rates, understanding colligative properties deepens your grasp of concentration effects.
+- **Biomolecules:** Osmotic pressure determines how water moves across cell membranes, directly connecting colligative properties to biology.
+- **Surface Chemistry:** Adsorption and colligative properties both arise from solute-solvent interactions at the molecular level.
 
 
 ## Advanced Content

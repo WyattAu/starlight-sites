@@ -110,9 +110,9 @@ Topology is the study of properties preserved under continuous deformation. Imag
 
 ## Cross-References
 
-- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Metric spaces and topological spaces; every metric space induces a topology.
-- **[Abstract Algebra](../../../../../typescript/src/content/docs/index):** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
-- **[Differential Geometry](../../../../../typescript/src/content/docs/index):** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.
+- **Real Analysis:** Metric spaces and topological spaces; every metric space induces a topology.
+- **Abstract Algebra:** Topological groups and algebraic topology; group theory underpins homology and fundamental groups.
+- **Differential Geometry:** Smooth manifolds as topological spaces; differential geometry adds calculus to topology.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

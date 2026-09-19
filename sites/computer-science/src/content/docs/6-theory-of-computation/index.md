@@ -117,8 +117,8 @@ Each section includes:
 
 ## Cross-References
 
-- **[Algorithms](../../../../../typescript/src/content/docs/index):** Algorithm design and complexity analysis.
-- **[Discrete Mathematics](../../../../../typescript/src/content/docs/index):** Mathematical foundations for formal languages.
+- **Algorithms:** Algorithm design and complexity analysis.
+- **Discrete Mathematics:** Mathematical foundations for formal languages.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)

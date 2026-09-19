@@ -1,0 +1,4441 @@
+# HSC — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Overview
+
+---
+
+## About
+URL: https://hsc.wyattau.com/about/
+
+## About Wyatt's Notes, HSC
+
+Wyatt's Notes provides comprehensive study materials for the Australian Higher School Certificate (HSC). The HSC is the qualification awarded to students completing secondary school in New South Wales, with ATAR (Australian Tertiary Admission Rank) scores determining university entry.
+
+### Why Trust These Resources?
+
+These notes are developed by **Wyatt**, an educator and content creator with knowledge of the NSW Education Standards Authority (NESA) curriculum. Content is aligned to the current HSC syllabus documents, covering both the foundational and extension courses.
+
+Materials are structured to address the specific demands of HSC assessments, including the balance between trial exams and the final HSC examinations. Content emphasises the depth of understanding and application skills that Band 6 results require.
+
+### What You'll Find
+
+- **Subject notes** for major HSC subjects including Physics and Mathematics
+- **Syllabus-aligned content** matching NESA specifications
+- **Exam technique** for HSC-specific question formats
+- **Study guides** organised for efficient ATAR preparation
+
+### Credentials
+
+Wyatt develops resources across multiple qualification systems, providing a comparative perspective that enhances HSC content accuracy. Materials are informed by NESA syllabus documents, past papers, and curriculum updates.
+
+## Related Sites
+
+- **[IB](https://ib.wyattau.com)**, International Baccalaureate programme resources
+- **[AP](https://ap.wyattau.com)**, US Advanced Placement course notes
+- **[Physics](https://physics.wyattau.com)**, University-level physics notes
+
+## Explore the Site
+
+Select your subject to find syllabus-aligned topic breakdowns. Each section builds from core concepts to exam-level application. Use the practice problems to develop the analytical skills HSC exams demand.
+
+Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## Content Coverage
+
+This site provides comprehensive study materials covering:
+
+- Physics
+- Chemistry
+- Mathematics
+- Biology
+
+Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
+
+## How to Use These Notes
+
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
+
+## Study Resources
+
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
+
+## Textbooks and References
+
+These notes are informed by standard university textbooks including NSW HSC texts. While the notes follow the general structure of these texts, they are not a substitute for reading the primary sources.
+
+## Prerequisites
+
+Year 10 equivalents
+
+## About Wyatt's Notes
+
+Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
+
+## Related Sites
+
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
+
+## Contact
+
+For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) or open an issue on GitHub.
+
+## See Also
+
+- [HSC](./)
+- [HSC Physics Flashcards](/flashcards-physics/)
+- [Complete HSC Study Guide, Physics and Maths](/hub/)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Flashcards Physics
+URL: https://hsc.wyattau.com/flashcards-physics/
+
+import FlashcardDeck from "@components/FlashcardDeck";
+import { flashcard1, flashcard2, flashcard3, flashcard4 } from '@/data/flashcards/hsc/flashcards-physics-data.js';
+
+## NSW HSC Physics -- Flashcard Deck
+
+20 flashcards with spaced repetition. Press Space to flip, then rate your recall (1--4).
+
+---
+
+## Intuition
+
+HSC Physics spans the entire scale of the physical world, from kinematics (how objects move) through energy transformations to the quantum realm. Forces cause acceleration (Newton's second law), energy is always conserved but changes form (kinetic ↔ potential ↔ thermal), and waves carry information and energy across space. Electromagnetism unifies electricity and magnetism into a single force that powers civilisation.
+
+## Common Pitfalls
+
+- **Projectile motion components**: Forgetting that horizontal and vertical motion are independent, gravity only affects the vertical component, so horizontal velocity remains constant (ignoring air resistance).
+- **Energy conservation in inelastic collisions**: Momentum is conserved in all collisions, but kinetic energy is only conserved in elastic collisions, inelastic collisions convert KE to heat/deformation.
+- **Relativity length contraction vs time dilation**: Confusing which quantity changes, moving clocks run slow (time dilation), and moving objects are shorter along the direction of motion (length contraction). The stationary observer measures both effects.
+
+---
+
+<FlashcardDeck client:only="solid-js" deckId="hsc-physics" title="NSW HSC Physics" description="Kinematics, forces, energy, waves, electromagnetism, relativity, quantum, orbital mechanics, nuclear physics" cards={[...flashcard1, ...flashcard2, ...flashcard3, ...flashcard4]}  />
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Glossary
+URL: https://hsc.wyattau.com/glossary/
+
+## HSC Structure
+
+**HSC (Higher School Certificate)**: The qualification earned by students in New South Wales, Australia, upon completing secondary school.
+
+**NESA (NSW Education Standards Authority)**: The body that sets the HSC curriculum, administers exams, and awards results.
+
+**ATAR (Australian Tertiary Admission Rank)**: A rank from 0 to 99.95 determining university eligibility.
+
+**Year 12**: The final year of secondary school when HSC examinations are taken.
+
+**Preliminary Course**: The first half of a HSC subject, studied in Year 11.
+
+**HSC Course**: The second half of a HSC subject, studied and examined in Year 12.
+
+**Units**: Each subject is worth 2 units. The ATAR is calculated from the best 10 units (including compulsory English).
+
+**Category A Subjects**: Subjects that count towards the ATAR calculation.
+
+**Category B Subjects**: Subjects that do not count towards the ATAR (e.g., some vocational courses).
+
+**School-Assessed Component (SAC)**: Assessment tasks completed at school, contributing to the HSC mark.
+
+**Preliminary Results**: Year 11 results that do not count towards the ATAR but are reported on the Record of Achievement.
+
+## Mathematics Levels
+
+**General Mathematics**: Covers financial mathematics, measurement, statistical investigation, and algebraic modelling.
+
+**Mathematics Standard 2**: Covers algebra, measurement, financial modelling, and statistics.
+
+**Mathematics Advanced**: Covers functions, calculus, financial modelling, and statistics.
+
+**Mathematics Extension 1**: Covers combinatorics, polynomial functions, trigonometric functions, and calculus. Taken alongside Advanced.
+
+**Mathematics Extension 2**: Covers complex numbers, vectors, proof, mechanics, and harder calculus. The most challenging HSC maths course.
+
+**Scaling**: Adjustment of HSC marks based on subject difficulty to ensure fairness across different subjects.
+
+**Scaled Marks**: The marks adjusted by NESA to account for differences in subject difficulty when calculating the ATAR.
+
+**Raw Mark**: The mark a student receives before scaling is applied.
+
+**Internal Assessment**: School-based assessment contributing to the HSC mark, typically 50% of the final mark.
+
+**External Examination**: The final exam set and marked by NESA, typically contributing 50% of the final mark.
+
+## Physics Topics
+
+**Mechanics**: Motion, forces, energy, momentum, and circular motion.
+
+**Electricity and Magnetism**: Electric fields, magnetic fields, electromagnetic induction, and generators.
+
+**Waves and Light**: Mechanical waves, electromagnetic spectrum, reflection, refraction, diffraction, and interference.
+
+**The Universe**: Stellar evolution, cosmology, and the expansion of the universe.
+
+**The Motor Effect**: Force on a current-carrying conductor in a magnetic field.
+
+**Electromagnetic Induction**: Faraday's law and Lenz's law, generating EMF from changing magnetic fields.
+
+**Circular Motion**: Objects moving in circles under centripetal force.
+
+**Projectile Motion**: Motion under gravity with both horizontal and vertical components.
+
+**Conservation of Energy**: Energy cannot be created or destroyed, only transformed.
+
+**Conservation of Momentum**: Total momentum in a closed system remains constant.
+
+**Thermodynamics**: Heat, work, and internal energy in physical systems.
+
+## Physics Concepts
+
+**Newton's Laws**: Three laws describing the relationship between forces and motion.
+
+**Work-Energy Theorem**: The net work done on an object equals its change in kinetic energy.
+
+**Power**: The rate at which work is done or energy is transferred.
+
+**Electromagnetic Spectrum**: The range of all electromagnetic radiation from radio waves to gamma rays.
+
+**Snell's Law**: Relates angles of incidence and refraction: n₁sinθ₁ = n₂sinθ₂.
+
+**Diffraction**: The bending of waves around obstacles or through openings.
+
+**Interference**: The superposition of waves producing regions of constructive and destructive interference.
+
+**Photoelectric Effect**: Electrons emitted from a surface when light of sufficient frequency shines on it.
+
+**Atomic Models**: Quantum mechanical models of atomic structure.
+
+**Nuclear Physics**: Radioactive decay, half-life, and nuclear reactions.
+
+**Quantum Mechanics**: The physics of the very small, describing particles as wavefunctions.
+
+## Assessment and HSC Mark
+
+**HSC Examination**: The final examination set and marked by NESA.
+
+**Examination Mark**: The mark received on the written examination.
+
+**Assessment Mark**: The mark received from school-assessed work.
+
+**Alignment**: NESA's process of adjusting school assessment marks to match exam difficulty.
+
+**Final HSC Mark**: The combination of examination mark and assessment mark.
+
+**Performance Band**: The grade awarded based on the final HSC mark (Band 6: 90+, Band 5: 80–89, etc.).
+
+**Band 6**: Marks 90–100, the highest performance band.
+
+**Band 5**: Marks 80–89, indicating strong performance.
+
+**Band 4**: Marks 70–79, indicating competent performance.
+
+**Band 3**: Marks 60–69, indicating adequate performance.
+
+**Band 2**: Marks 50–59, indicating limited performance.
+
+**Band 1**: Marks below 50, indicating very limited performance.
+
+**In-depth Investigation**: A major research project in Physics, contributing to the HSC mark.
+
+**Marking Criteria**: The standards NESA uses to assess responses.
+
+## University Admissions
+
+**UAC (Universities Admissions Centre)**: Processes university applications for NSW and ACT institutions.
+
+**ATAR-Based Admission**: Admission primarily determined by ATAR score.
+
+**Bonus Points**: Additional points added to ATAR for achieving in certain subjects or circumstances.
+
+**Early Offer**: University offers made before ATAR results are released.
+
+**Guaranteed ATAR**: The ATAR at which a university guarantees a place in a specific course.
+
+**Selection Rank**: ATAR plus any bonus points, used for university offers.
+
+**Preference**: The order in which you list university courses in your UAC application.
+
+**Adjustment Factors**: Points added to ATAR based on location, disadvantage, or subject performance.
+
+**Portfolio Entry**: University admission based on a portfolio of work rather than ATAR alone.
+
+**Interview**: Some courses (medicine, arts) require interviews as part of the selection process.
+
+**Direct Entry**: Admission to university based on criteria other than ATAR, such as portfolio or interview.
+
+## Study Strategies
+
+**Past Papers**: Official NESA exams from previous years, the single best exam preparation resource.
+
+**Marking Criteria**: Understanding what markers award marks for in each question.
+
+**Active Recall**: Retrieving information from memory rather than passively reading notes.
+
+**Spaced Repetition**: Reviewing material at increasing intervals for long-term retention.
+
+**Diagnostic Quiz**: A short test to identify strengths and weaknesses.
+
+**Timed Practice**: Completing practice questions under exam conditions.
+
+**Flashcards**: Study cards for memorizing key formulas and concepts.
+
+**Study Timetable**: A planned schedule allocating specific time blocks to each subject.
+
+**In-depth Investigation Planning**: Start early, choose a topic with measurable outcomes, document everything.
+
+**Essay Plans**: Structured outlines for writing HSC essays, ensuring logical argument flow.
+
+## Related Terms
+
+- See [IB Glossary](/glossary/) for International Baccalaureate comparison
+- See [AP Glossary](/glossary/) for Advanced Placement comparison
+- See [University Physics Glossary](/glossary/) for deeper physics
+- See [Mathematics Glossary](/glossary/) for university-level mathematics
+
+---
+
+## Hub
+URL: https://hsc.wyattau.com/hub/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"name": "Home", "url": "https://hsc.wyattau.com"},
+    {"name": "Hub", "url": "https://hsc.wyattau.com/hub"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complete HSC Study Guide",
+  "description": "Comprehensive NSW HSC study guide covering Physics and Mathematics with topic notes, flashcards, practice questions, and diagnostics.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://hsc.wyattau.com"
+  },
+  "url": "https://hsc.wyattau.com/hub",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Why This Guide Exists
+
+The Higher School Certificate (HSC) is the qualification earned by students in New South Wales, Australia, upon completing secondary school. The HSC is administered by NESA (NSW Education Standards Authority) and is the primary pathway to university admissions in Australia. Physics and Mathematics are among the most challenging and high-value HSC subjects, they develop analytical thinking, problem-solving skills, and the quantitative foundation for university STEM courses.
+
+This hub page maps every resource on this site, organised by subject, with study plans and exam strategies tailored to the HSC assessment approach. Every topic below links to detailed notes, practice questions, flashcards, and diagnostic quizzes.
+
+## Table of Contents
+
+- [Physics](#physics)
+- [Mathematics](#mathematics)
+- [Recommended Study Plan](#recommended-study-plan)
+- [Cross-Site Resources](#cross-site-resources)
+- [FAQ](/hub/)
+
+---
+
+## Physics
+
+HSC Physics covers mechanics, electricity and magnetism, waves and light, the universe, and additional topics including technological implications. The HSC course emphasises understanding physical principles and applying them to real-world scenarios.
+
+### Topic Notes
+
+- [Physics Overview](/physics/), course structure, syllabus topics, and assessment format
+- [Mechanics](/physics/mechanics/), motion, forces, energy, momentum, and circular motion
+- [Waves](/physics/waves/), wave properties, sound, electromagnetic waves, and diffraction
+
+### Practice and Review
+
+- [Flashcards: Physics](/flashcards-physics/)
+- [Practice Questions: Physics](/practice-physics/)
+
+### Key Exam Focus
+
+HSC Physics requires you to explain, predict, and analyse physical phenomena. The exam includes short-answer questions, extended-response questions, and data analysis. Practise explaining concepts clearly in writing, the exam rewards well-structured explanations supported by calculations and diagrams.
+
+The exam is divided into a first paper (typically 1.5 hours) covering all topics and a second paper that may include additional depth. You must manage your time carefully, allocate roughly 1 minute per mark and move on if a question is stalling you.
+
+**The "In-depth Investigation"** (major work) is a significant component of your HSC mark. Plan it carefully, choose a topic that allows genuine investigation with measurable outcomes. Start early, document everything, and ensure your conclusion directly addresses your hypothesis.
+
+### Topic Breakdown
+
+**Mechanics** is the foundation of HSC Physics. You must understand Newton's laws, projectile motion, momentum conservation, and energy transformations. The exam frequently combines mechanics concepts, for example, a projectile problem that also involves energy conservation and circular motion. Practise drawing free-body diagrams and applying Newton's second law to objects on inclined planes, in circular motion, and in collision scenarios.
+
+**Electricity and Magnetism** covers electric fields, magnetic fields, electromagnetic induction, and generators. Understanding the relationship between electricity and magnetism, Faraday's law, Lenz's law, and motor/generator principles, is essential. You should be able to predict the direction of induced current and calculate induced EMF using Faraday's law.
+
+**Waves and Light** includes mechanical waves, electromagnetic spectrum, reflection, refraction, diffraction, and interference. The HSC tests both the physics of waves and their practical applications. Practise solving problems involving Snell's law, diffraction gratings, and double-slit interference. Understanding the relationship between wavelength, frequency, and wave speed is fundamental.
+
+**The Universe** covers stellar evolution, cosmology, and the expansion of the universe. This topic requires both factual recall and the ability to apply physical principles to astronomical phenomena. You should understand Hertzsprung-Russell diagrams, the life cycle of stars, redshift, and the Big Bang theory.
+
+---
+
+## Mathematics
+
+HSC Mathematics is available in three levels: General Mathematics, Mathematics (Standard 2), and Mathematics (Advanced). Each level builds on the previous one and serves different academic pathways.
+
+### Topic Notes
+
+- [Mathematics Overview](/mathematics/), course structure, syllabus topics, and assessment format
+- [Algebra](/mathematics/algebra/), algebraic manipulation, functions, and equations
+- [Calculus](/mathematics/calculus/), differentiation, integration, and applications
+
+### Practice and Review
+
+- [Practice Questions: Mathematics](/practice-mathematics/)
+- [Diagnostic Quizzes](/mathematics/), test across all maths topics
+
+### Key Exam Focus
+
+HSC Mathematics rewards clear, structured working. Show every step of your solution, markers award marks for correct method even when the final answer is wrong. The exam includes both short-answer and extended-response questions.
+
+The exam typically consists of a 2-hour paper for Standard and Advanced levels. You must manage your time carefully, allocate time proportional to marks and do not spend too long on any single question. Read each question carefully to ensure you are answering what is actually asked.
+
+### Mathematics Levels
+
+**General Mathematics** covers financial mathematics, measurement, statistical investigation, algebraic modelling, and networks. It is designed for students who need quantitative skills but not advanced mathematical reasoning. This course is suitable for students planning non-STEM university courses.
+
+**Mathematics (Standard 2)** covers algebra, measurement, financial modelling, statistical analysis, and networks. It is suitable for students planning university courses that require some mathematical background. Standard 2 provides a solid foundation without the demands of calculus.
+
+**Mathematics (Advanced)** covers functions, calculus, financial modelling, statistical analysis, and networks. It is the prerequisite for Mathematics Extension 1 and is designed for students planning STEM university courses. Calculus, differentiation and integration, forms a major component of the Advanced course.
+
+### Mathematics Extension 1
+
+Extension 1 covers combinatorics, polynomial functions, trigonometric functions, calculus, and proof. It is taken alongside Mathematics (Advanced) and provides additional depth and challenge. Extension 1 is essential for students planning to study engineering, mathematics, or physics at university.
+
+### Mathematics Extension 2
+
+Extension 2 covers complex numbers, vectors, proof, mechanics, and harder calculus. It is the most challenging HSC mathematics course and is designed for students with strong mathematical ability planning to study mathematics or engineering at university. The exam tests both technical skill and mathematical reasoning.
+
+---
+
+## Recommended Study Plan
+
+Preparing for the HSC requires sustained effort across your subject selections. Here is a structured approach for Physics and Mathematics.
+
+### Phase 1: Foundation (Months 1–6)
+
+- Study all topic notes for each subject, building conceptual understanding
+- Complete flashcards daily for formulas and key concepts
+- Aim for one diagnostic quiz per subject per week
+- Focus on understanding before memorisation
+- For Physics, practise drawing diagrams and labelling them correctly
+- For Mathematics, work through examples step by step, verifying each calculation
+
+### Phase 2: Consolidation (Months 7–10)
+
+- Revisit weak areas identified by diagnostic quizzes
+- Begin practice questions under timed conditions
+- Work through past HSC papers, they reveal the exam's style and marking criteria
+- Practise extended-response questions for Physics
+- For Mathematics, focus on calculus and algebra, they carry the most marks
+- Analyse NESA marking criteria to understand what markers reward
+
+### Phase 3: Exam Readiness (Months 11–12)
+
+- Focus almost entirely on practice questions and past papers
+- Study NESA marking criteria, they show exactly what markers look for
+- Do full-length timed papers under real conditions
+- Revise formulas and key concepts daily
+- Practise explaining Physics concepts in writing, clarity is rewarded
+- Reserve the last two weeks for light revision and rest
+
+### Daily Routine
+
+| Time | Activity |
+| ------ | ---------- |
+| Morning | Active recall, flashcards and formula review for 20 minutes |
+| Afternoon | Topic study, read notes on one new topic |
+| Evening | Practice, complete 5–10 practice questions |
+| Weekend | Diagnostic quiz + review weak areas |
+
+---
+
+## Cross-Site Resources
+
+Wyatt's Notes is a network of interconnected study sites. The HSC content connects to related material:
+
+- **[IB Study Guide](https://ib.wyattau.com/hub)**, the International Baccalaureate as an alternative qualification
+- **[AP Study Guide](https://ap.wyattau.com/hub)**, Advanced Placement courses as an alternative pathway
+- **[University Physics](https://physics.wyattau.com/hub)**, deeper coverage beyond HSC level
+- **[University Mathematics](https://mathematics.wyattau.com/hub)**, proof-based mathematics beyond HSC level
+
+---
+
+## Frequently Asked Questions
+
+### How should I start using this site?
+
+Take a diagnostic quiz for each subject. This takes about 10–15 minutes per subject and gives you a clear picture of your strengths and weaknesses. Then prioritise studying the topics where you scored lowest.
+
+### Which mathematics level should I take?
+
+Choose based on your university plans and mathematical ability. If you are planning a STEM degree, take Mathematics (Advanced) at minimum. If you are confident in mathematics and want to study engineering or mathematics at university, consider Extension 1 or Extension 2.
+
+### How important are past papers?
+
+Very. Past HSC papers are the single best resource for exam preparation. They reveal the exam's structure, difficulty, and marking criteria. Complete as many as possible under timed conditions.
+
+### How often should I use the flashcards?
+
+Daily. Flashcards use spaced repetition to optimise review timing. Spend 15–20 minutes each morning reviewing formulas and key concepts.
+
+### What is the difference between the HSC and other Australian state exams?
+
+The HSC is specific to New South Wales. Other states have their own qualifications (e.g., VCE in Victoria, ATAR in Queensland). The content is similar but the exam structure and assessment methods differ. If you are planning to study interstate, check the specific requirements of your target university.
+
+### How should I prepare for the Physics major work?
+
+Start early, the major work is a long-term project. Choose a topic that genuinely interests you and allows measurable investigation. Follow the NESA guidelines carefully and seek feedback from your teacher throughout the process. Keep a detailed logbook, it is assessed alongside your final report.
+
+### What is the ATAR and how does it affect my university options?
+
+The ATAR (Australian Tertiary Admission Rank) is a rank from 0 to 99.95 that determines your eligibility for university courses. Your ATAR is calculated from your best HSC subjects (including any scaling adjustments). Higher ATARs give access to more competitive courses.
+
+### Does HSC Physics scale well for ATAR?
+
+Physics is generally considered a moderately scaling subject, it may be scaled up slightly depending on the difficulty of the exam. However, choose subjects based on your strengths and interests, not just scaling. A strong mark in a subject you enjoy will always outperform a mediocre mark in a scaled subject.
+
+---
+
+*Last updated: 24 July 2026*
+
+*Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+---
+
+## Index
+URL: https://hsc.wyattau.com/
+
+sources:
+  - text: Standard textbook reference
+
+
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+HSC revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
+
+## Why This Matters
+
+The Higher School Certificate is the primary qualification for students completing secondary education in New South Wales, Australia. Physics at this level develops analytical thinking, problem-solving skills, and a deep understanding of the physical laws governing everything from subatomic particles to planetary motion. These notes provide structured revision material aligned with the NSW Physics syllabus.
+
+## Subjects
+
+<CardGrid>
+  <a href="/flashcards-physics/" class="landing-card">
+    <Card title="Physics" icon="document">
+      HSC Physics notes covering key definitions, core concepts, worked examples, and practice problems.
+    </Card>
+  </a>
+</CardGrid>
+
+## What You Will Find
+
+- **Detailed notes**: Comprehensive coverage of each topic in the HSC Physics syllabus
+- **Worked examples**: Step-by-step solutions to typical exam questions
+- **Practice problems**: Additional questions for self-assessment and revision
+- **Flashcards**: Interactive spaced-repetition cards for key definitions and concepts
+
+## Intuition
+
+**The HSC is the culmination of secondary education in NSW:** The subjects covered develop analytical thinking, problem-solving skills, and subject-specific knowledge that prepare students for university and careers.
+
+**Why it matters:** The HSC qualification opens doors to university admission and employment, while the skills developed serve you throughout life.
+
+**The key insight:** HSC exams reward demonstrated understanding, showing your reasoning process earns marks even when the final answer is incomplete.
+
+## Common Mistakes
+
+**Ignoring the HSC marking criteria:** HSC exams award marks for specific criteria (knowledge, understanding, application, thinking). Even correct answers lose marks if they do not demonstrate the required criteria. Study marking centre feedback to understand what examiners reward.
+
+**Not practising with past papers under exam conditions:** HSC is time-pressured. Solving problems at home without timing does not prepare you for the real exam. Use official past papers and strict timing to build exam technique.
+
+**Confusing HSC content with university content:** HSC courses are designed for 17-18 year olds and have specific scope. Going beyond the syllabus wastes time and may introduce concepts that are marked differently at university level.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+---
+
+## Intro
+URL: https://hsc.wyattau.com/intro/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Intro", "url": "https://hsc.wyattau.com/intro"}]
+}
+</script>
+
+## Overview
+
+The **Higher School Certificate (HSC)** and the **Victorian Certificate of Education (VCE)** are the
+two major school-leaving qualifications in Australia. They are awarded upon completion of senior
+secondary schooling and are the primary pathway to university admission.
+
+- **HSC**, administered by the **New South Wales Education Standards Authority (NESA)**, completed
+  by Year 12 students in NSW and the ACT.
+- **VCE**, administered by the **Victorian Curriculum and Assessment Authority (VCAA)**, completed
+  by Year 12 students in Victoria.
+
+Both qualifications are recognised nationally and internationally. University admission in Australia
+is primarily determined by an **Australian Tertiary Admission Rank (ATAR)**, which is derived from a
+student"s results in their HSC or VCE studies.
+
+## HSC vs VCE
+
+Although the two systems share a common purpose, they differ in several important ways:
+
+| Feature                | HSC (NSW)                                     | VCE (Victoria)                               |
+| ---------------------- | --------------------------------------------- | -------------------------------------------- |
+| Administering body     | NESA                                          | VCAA                                         |
+| Minimum units required | 12 units Preliminary + 10 units HSC           | 16 units over 2 years                        |
+| Minimum units examined | At least 6 units (2 units English compulsory) | At least 4 VCE studies (3 English sequences) |
+| Internal assessment    | School-based, moderated by NESA               | School-based (SACs), moderated by VCAA       |
+| External exam          | NESA-set final exams                          | VCAA-set final exams                         |
+| Scaling method         | Raw marks scaled by NESA                      | Study scores scaled by VCAA                  |
+| ATAR conversion        | UAC                                           | VTAC                                         |
+
+## Subject Structure
+
+### HSC (NSW)
+
+Students must complete a minimum of **12 units** in the Preliminary year (Year 11) and **10 units**
+in the HSC year (Year 12), including:
+
+- **2 units of English** (compulsory, English Standard, English Advanced, English Extension 1/2, or
+  English as an Additional Language/Dialect)
+- At least **4 other units** from Key Learning Areas (KLAs)
+
+Key KLAs include:
+
+- **Mathematics**, Mathematics Standard 1/2, Mathematics Advanced, Mathematics Extension 1,
+  Mathematics Extension 2
+- **Sciences**, Biology, Chemistry, Physics, Earth and Environmental Science, Investigating Science
+- **English**, English Standard, English Advanced, English Extension 1, English Extension 2, EAL/D
+- **Humanities**, Modern History, Ancient History, Geography, Economics, Business Studies, Legal
+  Studies
+- **Technologies**, Software Design and Development, Information Processes and Technology, Design
+  and Technology, Engineering Studies
+- **Creative Arts**, Music, Visual Arts, Drama
+- **Personal Development, Health and Physical Education (PDHPE)**
+- **Languages**, a wide range of languages other than English
+- **VET**, Vocational Education and Training courses
+
+### VCE (Victoria)
+
+Students must complete a minimum of **16 units** over Years 11 and 12, including:
+
+- **At least 3 units of English** (including a Unit 3–4 sequence)
+- At least **3 other Unit 3–4 sequences**
+
+Popular VCE subjects include:
+
+- **Mathematics**, General Mathematics, Mathematical Methods, Specialist Mathematics
+- **Sciences**, Biology, Chemistry, Physics, Psychology
+- **English**, English, English Language, Literature
+- **Humanities**, History (Revolutions), Geography, Economics, Business Management, Legal Studies,
+  Accounting
+- **Technologies**, Algorithmics (HESS), Computing, Software Development
+- **Health and Physical Education**
+
+## Assessment
+
+### Internal Assessment
+
+Both the HSC and VCE include school-based internal assessment that contributes to a student's final
+result.
+
+**HSC:** Each course has mandatory assessment tasks set by the school following NESA guidelines.
+These may include assignments, practical exams, oral presentations, and written tests. Internal
+marks are moderated against external exam performance to ensure fairness across schools.
+
+**VCE:** School-Assessed Coursework (SACs) and School-Assessed Tasks (SATs) are set by VCAA but
+administered by the school. SACs are in most cases in-class tasks under supervision, while SATs may
+involve extended projects or folios. VCAA applies statistical moderation to align school-assessed
+scores with exam performance.
+
+### External Exams
+
+**HSC:** Most HSC courses include a written external examination set and marked by NESA. These exams
+are in most cases held in October–November. Some courses (e.g., Visual Arts, Music, Design and
+Technology) also include a major work or performance submitted externally.
+
+**VCE:** Written examinations are set by VCAA and held in October–November. Performance and oral
+exams are conducted earlier (in most cases June for LOTE and October for performance-based studies).
+The General Achievement Test (GAT) is a separate test taken by all VCE students in June, used for
+quality assurance and as a "derived examination score" if a student misses an exam due to illness.
+
+## ATAR Calculation
+
+The ATAR is a percentile rank (0.00–99.95) that indicates a student's position relative to all other
+students in their age group. A higher ATAR increases access to competitive university courses.
+
+### HSC Pathway (via UAC)
+
+1. Raw marks from internal and external assessments are combined and **scaled** by NESA to produce
+   HSC marks on a common scale.
+2. Scaled HSC marks are converted to an **aggregate** (sum of the best 10 units, including at least
+   2 units of English).
+3. The aggregate is converted to an **ATAR** by the Universities Admissions Centre (UAC).
+
+### VCE Pathway (via VTAC)
+
+1. Each Unit 3–4 study receives a **study score** (0–50), which is a normalised measure of
+   performance relative to all students in that study.
+2. Study scores are **scaled** to produce VTAC scaled scores, accounting for the competitiveness of
+   each subject's cohort.
+3. An **aggregate** is calculated from the English study and the next best scaled study scores
+   (English + 3 others for most students; can include up to 6 if a VCE VET study or Extension study
+   is included).
+4. The aggregate is converted to an **ATAR** by the Victorian Tertiary Admissions Centre (VTAC).
+
+## Available Subjects on This Site
+
+This site provides comprehensive revision notes for the following HSC and VCE subjects:
+
+- **Mathematics**, covers both HSC (Advanced, Extension 1, Extension 2) and VCE (Methods,
+  Specialist) content
+- **Physics**, aligned to both HSC and VCE syllabi
+- **Chemistry**, aligned to both HSC and VCE syllabi
+- **Biology**, aligned to both HSC and VCE syllabi
+- **English**, essay writing strategies, textual analysis, and comparative study techniques
+  applicable to both qualifications
+
+Each subject page includes key concepts, worked examples, exam-style questions, and detailed
+solutions.
+
+## Study Tips
+
+### General Strategies
+
+- **Start early.** Both HSC and VCE content is cumulative. Building a strong foundation in Year 11
+  content is essential for success in Year 12.
+- **Use past papers.** NESA and VCAA publish past exam papers with marking guidelines. These are the
+  most valuable resource for exam preparation. Aim to complete at least 5–10 past papers per
+  subject.
+- **Understand the syllabus.** Both NESA and VCAA provide detailed syllabus documents. Use these as
+  checklists to track your progress and identify gaps.
+- **Focus on understanding, not memorisation.** Both qualifications test the ability to apply
+  concepts to unfamiliar situations. Memorising formulas without understanding when and how to use
+  them will not be sufficient.
+
+### Subject-Specific Advice
+
+- **Mathematics:** Practise a wide variety of problem types. Focus on interpreting the question
+  before choosing a method. For Extension courses, ensure fluency in proof techniques and abstract
+  reasoning.
+- **Sciences (Physics, Chemistry, Biology):** Understand the underlying models and theories. Be
+  prepared to explain phenomena, analyse data, and evaluate experimental methods. Practise drawing
+  diagrams and graphs.
+- **English:** Read widely and develop a personal reading program. Practise writing essays under
+  timed conditions. For comparative studies, prepare detailed notes on themes, techniques, and
+  contexts.
+
+### Exam Technique
+
+- **Read the question carefully.** Underline or highlight key terms. Identify the verb (describe,
+  explain, evaluate, justify, compare) and respond accordingly.
+- **Show all working.** In mathematics and sciences, marks are often awarded for the method, not
+  just the final answer.
+- **Manage your time.** Allocate time per question based on the marks available. Leave difficult
+  questions and return to them at the end.
+- **Review your answers.** If time permits, check calculations, re-read responses, and ensure you
+  have answered all parts of every question.
+
+## Summary
+
+The key principles covered in this topic are linked in the sub-pages above. Focus on understanding
+the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
+each approach.
+
+## Worked Examples
+
+Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
+linked above.
+
+## Common Pitfalls
+
+- Confusing terminology or concepts that appear similar but have distinct meanings.
+- Overlooking key assumptions or boundary conditions that limit applicability.
+
+## Intuition
+
+The HSC and VCE are two different roads to the same destination -- university admission. They test the same capabilities through different assessment structures: the HSC relies more heavily on external exams while the VCE distributes weight across School-Assessed Coursework. The ATAR is not an absolute score but a relative ranking, like placing every student on a single line sorted by performance. Internal and external assessments moderate each other to prevent any single exam from defining a student's outcome.
+
+## Cross-References
+
+- [Algebra](/mathematics/algebra/) -- Core algebraic skills underpin all HSC mathematics and science subjects.
+- [Calculus](/mathematics/calculus/) -- Calculus is essential for advanced mathematics and physics at the HSC level.
+- [Reading](/english/reading/) -- Reading comprehension and analytical skills are fundamental across all HSC subjects.
+- [Writing](/english/writing/) -- Essay writing and persuasive techniques are assessed across English and humanities subjects.
+
+---
+
+## Practice Mathematics
+URL: https://hsc.wyattau.com/practice-mathematics/
+
+import PracticeProblem from "@components/PracticeProblem";
+
+## HSC Mathematics -- Practice Problems
+
+15 MCQ questions covering algebra, calculus, trigonometry, probability, and statistics. Select an option to check your answer and view the explanation.
+
+---
+
+## Algebra
+
+
+
+
+---
+
+## Calculus
+
+
+
+
+---
+
+## Trigonometry
+
+
+
+
+---
+
+## Probability
+
+
+
+---
+
+## Statistics
+
+
+
+
+## Intuition
+
+**Mathematics is the language of patterns and relationships:** Every mathematical concept describes a pattern, from the symmetry of geometry to the rates of change in calculus. Recognising these patterns is the key to mathematical problem-solving.
+
+**Why it matters:** Mathematical proficiency is essential for science, engineering, technology, and financial literacy.
+
+**The key insight:** In mathematics, the method matters as much as the answer, a correct approach with an arithmetic error earns more marks than a guessed answer.
+
+## Common Mistakes
+
+**Confusing probability with odds:** Probability = favorable/total outcomes. Odds = favorable/unfavorable outcomes. Converting between them: P(A) = odds/(1+odds). Using the wrong formula gives incorrect probability values.
+
+**Forgetting boundary conditions in differential equations:** When solving $y'' + y = 0$ with $y(0) = 1, y'(0) = 0$, you must apply both conditions to find the specific solution. Using only one condition leaves an arbitrary constant, giving the general solution instead.
+
+**Misidentifying conic sections from equations:** $x^2 + y^2 = r^2$ is a circle. $x^2/a^2 + y^2/b^2 = 1$ is an ellipse. $x^2/a^2 - y^2/b^2 = 1$ is a hyperbola. The sign between the squared terms determines the conic type.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Practice Physics
+URL: https://hsc.wyattau.com/practice-physics/
+
+import PracticeProblem from "@components/PracticeProblem";
+
+## HSC Physics -- Practice Problems
+
+15 MCQ questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select an option to check your answer and view the explanation.
+
+---
+
+## Mechanics
+
+
+
+
+---
+
+## Electricity
+
+
+
+
+---
+
+## Waves
+
+
+
+
+---
+
+## Nuclear Physics
+
+
+
+
+---
+
+## Thermal Physics
+
+
+
+
+## Intuition
+
+**Physics connects mathematical models to physical reality:** Every physics equation represents a relationship between measurable quantities. The art of physics is applying the right model to the right situation.
+
+**Why it matters:** Physics understanding enables technological innovation and explains natural phenomena from everyday events to cosmic processes.
+
+**The key insight:** Units are your built-in error checker, if the units do not balance on both sides of an equation, something is wrong.
+
+## Common Mistakes
+
+**Confusing centripetal and centrifugal forces:** Centripetal force is real and directed toward the center of circular motion. Centrifugal force is a fictitious force perceived in a rotating reference frame. In inertial frames, only centripetal force exists.
+
+**Using the wrong value for g in energy calculations:** Gravitational potential energy $mgh$ assumes constant $g$ near Earths surface. For satellite orbits or large height changes, use $U = -GMm/r$. Using $mgh$ for orbital mechanics gives wrong answers.
+
+**Confusing current and voltage in circuit analysis:** Current is the flow rate of charge (amperes). Voltage is the energy per unit charge (volts). In series circuits, current is the same; voltage divides. In parallel circuits, voltage is the same; current divides.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+## Chemistry
+
+---
+
+## Index
+URL: https://hsc.wyattau.com/chemistry/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If Chemistry feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
+
+# Chemistry
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [Inorganic](/chemistry/inorganic/)
+- [Organic](/chemistry/organic/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Use the diagnostic tests to find out whether Chemistry needs another pass before your exam, rather than revising topics you have already mastered.
+Use the cross-references to link related concepts across subjects where applicable.
+
+## Key Concepts
+
+This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+
+## Common Mistakes
+
+- Skipping prerequisite material before attempting this section
+- Not practising problems after reading the theory
+- Failing to connect concepts across different topics
+
+## Further Reading
+
+For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.
+
+---
+
+## Inorganic
+URL: https://hsc.wyattau.com/chemistry/inorganic/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Chemistry", "url": "https://hsc.wyattau.com/chemistry"}, {"name": "Inorganic", "url": "https://hsc.wyattau.com/chemistry/inorganic"}]
+}
+</script>
+
+## Inorganic
+
+HSC chemistry study notes - Inorganic
+
+
+```mermaid
+flowchart TD
+    A[Inorganic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Periodic Trends
+
+**Atomic radius:** Decreases across a period (left to right), increases down a group
+
+**Ionisation energy:** Increases across a period, decreases down a group
+
+**Electronegativity:** Increases across a period, decreases down a group
+
+### Chemical Reactions
+
+**Acid-base reactions:** $HA + B \rightarrow A^- + BH^+$
+
+**Oxidation-reduction:** Loss of electrons = oxidation; gain of electrons = reduction
+
+**Solubility rules:**
+
+- Most nitrates are soluble
+- Most Group 1 salts are soluble
+- Most chlorides are soluble (except AgCl, PbCl₂)
+- Most sulfates are soluble (except BaSO₄, PbSO₄)
+
+### Thermochemistry
+
+**Enthalpy change:** $\Delta H = H_{\text{products}} - H_{\text{reactants}}$
+
+**Hess's Law:** The total enthalpy change is independent of the pathway.
+
+**Calorimetry:** $q = mc\Delta T$
+
+### Electrochemistry
+
+**Cell potential:** $E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}}$
+
+**Faraday's laws:** $m = \frac{MIt}{nF}$ where $F = 96485\,\text{C/mol}$
+
+## Worked Examples
+
+### Example 1: Balancing Redox Equations
+
+**Problem:** Balance the following equation in acidic solution:
+$$\text{MnO}_4^- + \text{Fe}^{2+} \rightarrow \text{Mn}^{2+} + \text{Fe}^{3+}$$
+
+**Solution:**
+
+Step 1: Identify oxidation states:
+
+- Mn: +7 $\rightarrow$ +2 (reduction, gain of 5 electrons)
+- Fe: +2 $\rightarrow$ +3 (oxidation, loss of 1 electron)
+
+Step 2: Balance electron transfer: multiply $\text{Fe}^{2+}$ by 5
+
+Step 3: Balance oxygen with water and hydrogen with $\text{H}^+$:
+$$\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$$
+
+**Answer:** $\text{MnO}_4^- + 5\text{Fe}^{2+} + 8\text{H}^+ \rightarrow \text{Mn}^{2+} + 5\text{Fe}^{3+} + 4\text{H}_2\text{O}$
+
+### Example 2: Enthalpy Calculation
+
+**Problem:** Calculate the enthalpy change for the combustion of methane:
+$$\text{CH}_4(g) + 2\text{O}_2(g) \rightarrow \text{CO}_2(g) + 2\text{H}_2\text{O}(l)$$
+
+Given: $\Delta H_f°(\text{CH}_4) = -74.8\,\text{kJ/mol}$, $\Delta H_f°(\text{CO}_2) = -393.5\,\text{kJ/mol}$, $\Delta H_f°(\text{H}_2\text{O}) = -285.8\,\text{kJ/mol}$
+
+**Solution:**
+
+Step 1: Apply Hess's Law:
+$$\Delta H = \sum \Delta H_f°(\text{products}) - \sum \Delta H_f°(\text{reactants})$$
+
+Step 2: Calculate:
+$$\Delta H = [(-393.5) + 2(-285.8)] - [(-74.8) + 2(0)]$$
+$$\Delta H = -965.1 + 74.8 = -890.3\,\text{kJ/mol}$$
+
+**Answer:** $\Delta H = -890.3\,\text{kJ/mol}$
+
+### Example 3: Electrochemistry
+
+**Problem:** Calculate the cell potential for a Daniell cell:
+$$\text{Zn} | \text{Zn}^{2+} || \text{Cu}^{2+} | \text{Cu}$$
+
+Given: $E°(\text{Zn}^{2+}/\text{Zn}) = -0.76\,\text{V}$, $E°(\text{Cu}^{2+}/\text{Cu}) = +0.34\,\text{V}$
+
+**Solution:**
+
+Step 1: Identify cathode (reduction) and anode (oxidation):
+
+- Cathode: Cu²⁺ + 2e⁻ → Cu (reduction)
+- Anode: Zn → Zn²⁺ + 2e⁻ (oxidation)
+
+Step 2: Calculate cell potential:
+$$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.34 - (-0.76) = 1.10\,\text{V}$$
+
+**Answer:** $E_{\text{cell}} = 1.10\,\text{V}$
+
+## Exam Tips
+
+1. In redox balancing, always balance atoms first, then charges
+2. Use standard enthalpies of formation for Hess's Law calculations
+3. Positive cell potential means the reaction is spontaneous
+4. Remember that oxidation occurs at the anode and reduction at the cathode
+
+## Practice Problems
+
+1. Balance the following in basic solution: $\text{ClO}^- + \text{Cr(OH)}_4^- \rightarrow \text{Cl}^- + \text{CrO}_4^{2-}$
+2. Calculate the enthalpy of neutralisation for HCl + NaOH
+3. A cell has $E_{\text{cell}} = 0.80\,\text{V}$. If the anode has $E° = -0.25\,\text{V}$, what is the cathode potential?
+
+### Example 4: Solubility Rules
+
+**Problem:** Will a precipitate form when $0.1\,\text{M}$ $\text{AgNO}_3$ is mixed with $0.1\,\text{M}$ $\text{NaCl}$?
+
+**Solution:**
+
+Step 1: Identify the possible products by ion exchange:
+$$\text{AgNO}_3 + \text{NaCl} \rightarrow \text{AgCl} + \text{NaNO}_3$$
+
+Step 2: Check solubility rules:
+
+- $\text{NaNO}_3$: All nitrates and Group 1 salts are soluble
+- $\text{AgCl}$: Most chlorides are soluble, BUT $\text{AgCl}$ is an exception (insoluble)
+
+Step 3: Since $\text{AgCl}$ is insoluble, a precipitate will form.
+
+**Answer:** Yes, a white precipitate of $\text{AgCl}$ forms.
+
+**Common mistake:** Assuming all chloride salts are soluble. AgCl, PbCl₂, and Hg₂Cl₂ are notable exceptions.
+
+### Example 5: Calorimetry
+
+**Problem:** $50\,\text{mL}$ of $1.0\,\text{M}$ HCl is mixed with $50\,\text{mL}$ of $1.0\,\text{M}$ NaOH in a calorimeter. The temperature rises from $25.0°\text{C}$ to $31.4°\text{C}$. Calculate the enthalpy of neutralisation. (Assume the density of the solution is $1.0\,\text{g/mL}$ and $c = 4.18\,\text{J/(g K)}$.)
+
+**Solution:**
+
+Step 1: Calculate total mass of solution:
+$$m = (50 + 50) \times 1.0 = 100\,\text{g}$$
+
+Step 2: Calculate heat absorbed:
+$$q = mc\Delta T = 100 \times 4.18 \times (31.4 - 25.0) = 100 \times 4.18 \times 6.4 = 2675.2\,\text{J} = 2.675\,\text{kJ}$$
+
+Step 3: Moles of water formed:
+$$n = 0.050 \times 1.0 = 0.050\,\text{mol}$$
+
+Step 4: Enthalpy of neutralisation:
+$$\Delta H = -\frac{q}{n} = -\frac{2.675}{0.050} = -53.5\,\text{kJ/mol}$$
+
+**Answer:** $\Delta H = -53.5\,\text{kJ/mol}$ (close to the theoretical value of $-57.1\,\text{kJ/mol}$)
+
+**Common mistake:** Forgetting the negative sign. The reaction is exothermic, so $\Delta H$ is negative.
+
+### Example 6: Electrochemistry, Nernst Equation
+
+**Problem:** Calculate the cell potential for a Daniell cell at $25°\text{C}$ when $[\text{Zn}^{2+}] = 0.5\,\text{M}$ and $[\text{Cu}^{2+}] = 0.01\,\text{M}$. Given $E°_{\text{cell}} = 1.10\,\text{V}$.
+
+**Solution:**
+
+Step 1: Write the cell reaction:
+$$\text{Zn}(s) + \text{Cu}^{2+}(aq) \rightarrow \text{Zn}^{2+}(aq) + \text{Cu}(s)$$
+
+Step 2: Write the reaction quotient:
+$$Q = \frac{[\text{Zn}^{2+}]}{[\text{Cu}^{2+}]} = \frac{0.5}{0.01} = 50$$
+
+Step 3: Apply the Nernst equation ($n = 2$ electrons transferred):
+$$E = E° - \frac{RT}{nF}\ln Q = 1.10 - \frac{0.0257}{2}\ln 50$$
+
+Step 4: Calculate:
+$$E = 1.10 - 0.01285 \times 3.912 = 1.10 - 0.0503 = 1.050\,\text{V}$$
+
+**Answer:** $E = 1.05\,\text{V}$
+
+**Common mistake:** Using $\log_{10}$ instead of $\ln$ in the Nernst equation. At $25°\text{C}$, $\frac{RT}{F} = 0.0257\,\text{V}$ with $\ln$, or $\frac{0.0592}{n}$ with $\log_{10}$.
+
+## More Worked Examples
+
+### Example 7: Periodic Trends
+
+**Problem:** Arrange the following elements in order of increasing ionisation energy: Na, Mg, Al, Si, P.
+
+**Solution:**
+
+Step 1: These elements are all in Period 3 of the periodic table.
+
+Step 2: Ionisation energy generally increases across a period due to increasing nuclear charge and decreasing atomic radius.
+
+Step 3: However, there are exceptions:
+
+- Between Mg and Al: Al has a lower IE than Mg because Al's outer electron is in a higher energy subshell (3p vs 3s)
+- Between P and S: S has a lower IE than P due to electron-electron repulsion in the paired 3p orbital
+
+Step 4: Order: Na < Al < Mg < Si < P
+
+**Answer:** Na < Al < Mg < Si < P
+
+**Common mistake:** Assuming ionisation energy always increases uniformly across a period. Exceptions occur at Groups 2-13 and 15-16 due to subshell and pairing effects.
+
+### Example 8: Hess's Law Application
+
+**Problem:** Given the following data, calculate the enthalpy of formation of ethane ($\text{C}_2\text{H}_6$):
+
+1. $\text{C}_2\text{H}_6(g) + \frac{7}{2}\text{O}_2(g) \rightarrow 2\text{CO}_2(g) + 3\text{H}_2\text{O}(l)$, $\Delta H_1 = -1560\,\text{kJ/mol}$
+2. $\text{C}(s) + \text{O}_2(g) \rightarrow \text{CO}_2(g)$, $\Delta H_2 = -393.5\,\text{kJ/mol}$
+3. $\text{H}_2(g) + \frac{1}{2}\text{O}_2(g) \rightarrow \text{H}_2\text{O}(l)$, $\Delta H_3 = -285.8\,\text{kJ/mol}$
+
+**Solution:**
+
+Step 1: The formation reaction is:
+$$2\text{C}(s) + 3\text{H}_2(g) \rightarrow \text{C}_2\text{H}_6(g)$$
+
+Step 2: Using Hess's Law:
+$$\Delta H_f = 2\Delta H_2 + 3\Delta H_3 - \Delta H_1$$
+
+Step 3: Calculate:
+$$\Delta H_f = 2(-393.5) + 3(-285.8) - (-1560)$$
+$$= -787 - 857.4 + 1560 = -84.4\,\text{kJ/mol}$$
+
+**Answer:** $\Delta H_f(\text{C}_2\text{H}_6) = -84.4\,\text{kJ/mol}$
+
+**Common mistake:** Forgetting to reverse the combustion equation (multiply by -1) when using Hess's Law. The combustion equation is the reverse of what we need to subtract.
+
+### Example 9: Galvanic Cell
+
+**Problem:** A galvanic cell is constructed with Fe/Fe²⁺ ($E° = -0.44\,\text{V}$) and Ag/Ag⁺ ($E° = +0.80\,\text{V}$). Write the cell notation, calculate the cell potential, and determine the spontaneous reaction.
+
+**Solution:**
+
+Step 1: Identify cathode and anode:
+
+- Fe has the lower reduction potential, so it is oxidised (anode)
+- Ag has the higher reduction potential, so it is reduced (cathode)
+
+Step 2: Cell notation:
+$$\text{Fe}(s) | \text{Fe}^{2+}(aq) || \text{Ag}^{+}(aq) | \text{Ag}(s)$$
+
+Step 3: Cell potential:
+$$E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}} = 0.80 - (-0.44) = 1.24\,\text{V}$$
+
+Step 4: Spontaneous reaction:
+$$\text{Fe}(s) + 2\text{Ag}^{+}(aq) \rightarrow \text{Fe}^{2+}(aq) + 2\text{Ag}(s)$$
+
+**Answer:** $E_{\text{cell}} = 1.24\,\text{V}$, reaction: $\text{Fe} + 2\text{Ag}^{+} \rightarrow \text{Fe}^{2+} + 2\text{Ag}$
+
+**Common mistake:** Forgetting to balance the number of electrons transferred when writing the overall cell reaction.
+
+## Intuition
+
+The periodic table is a map of elemental behaviour -- position predicts chemical personality. Periodic trends arise from a tug-of-war between nuclear charge (pulling electrons inward) and electron shielding (pushing them outward). Redox chemistry is fundamentally about electron transfer, and electrochemistry measures the driving force behind that transfer as cell potential. Hess's Law is an energy bookkeeping principle: energy is conserved regardless of the path taken, just as distance walked does not depend on the route.
+
+## Common Mistakes
+
+### Mistake 1: Confusing endothermic and exothermic sign conventions
+
+For exothermic reactions, $\Delta H$ is negative (heat is released). For endothermic reactions, $\Delta H$ is positive (heat is absorbed). Students often write the correct numerical value but assign the wrong sign. In calorimetry, $q = mc\Delta T$ gives the heat absorbed by the solution, so the reaction enthalpy is $\Delta H = -q/n$ for an exothermic reaction. The negative sign is essential.
+
+### Mistake 2: Using the wrong standard electrode potential in cell calculations
+
+The cell potential is $E_{cell} = E_{cathode} - E_{anode}$, where the cathode is where reduction occurs and the anode is where oxidation occurs. Students sometimes add the two standard potentials instead of subtracting, or misidentify which half-cell is the cathode. The cathode always has the higher (more positive) reduction potential in a galvanic cell.
+
+### Mistake 3: Forgetting to multiply by the number of electrons in Faraday's law calculations
+
+Faraday's first law states $m = MIt/(nF)$, where $n$ is the number of electrons transferred per ion. For example, depositing Cu²⁺ requires 2 electrons ($n = 2$), while depositing Ag⁺ requires only 1 ($n = 1$). Students often use $n = 1$ by default, leading to mass calculations that are off by a factor of 2 or more. Always check the ion's charge to determine $n$.
+
+## Cross-References
+
+- [Algebra](/mathematics/algebra/) -- Logarithmic functions and matrix operations are used in electrochemistry and equilibrium calculations.
+- [Calculus](/mathematics/calculus/) -- Rate equations and integrated rate laws in chemical kinetics require differentiation and integration.
+- [Organic](/chemistry/organic/) -- Organic reactions involve redox processes and functional group transformations that build on inorganic principles.
+- [Mechanics](/physics/mechanics/) -- Energy conservation and work-energy concepts connect thermochemistry to mechanical systems.
+
+---
+
+## Organic
+URL: https://hsc.wyattau.com/chemistry/organic/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Chemistry", "url": "https://hsc.wyattau.com/chemistry"}, {"name": "Organic", "url": "https://hsc.wyattau.com/chemistry/organic"}]
+}
+</script>
+
+## Organic
+
+HSC chemistry study notes - Organic
+
+
+```mermaid
+flowchart TD
+    A[Organic] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Functional Groups
+
+| Functional Group | Formula | Suffix |
+| ----------------- | --------- | -------- |
+| Alkane | C-C | -ane |
+| Alkene | C=C | -ene |
+| Alcohol | -OH | -ol |
+| Aldehyde | -CHO | -al |
+| Carboxylic acid | -COOH | -oic acid |
+| Ester | -COO- | -oate |
+
+### Naming Conventions
+
+1. Find the longest carbon chain containing the functional group
+2. Number from the end nearest the functional group
+3. Name substituents as prefixes
+4. Add the appropriate suffix
+
+### Reactions of Organic Compounds
+
+**Addition reactions (alkenes):** Addition of H₂, H₂O, HX, Br₂
+
+**Substitution reactions (alkanes):** Halogenation under UV light
+
+**Condensation reactions:** Esterification, peptide bond formation
+
+**Elimination reactions:** Dehydration of alcohols to form alkenes
+
+### Isomerism
+
+**Structural isomers:** Same molecular formula, different structural formula
+
+**Stereoisomers:** Same structural formula, different spatial arrangement
+
+- Geometric (cis-trans) isomerism
+- Optical isomerism
+
+## Worked Examples
+
+### Example 1: Naming Organic Compounds
+
+**Problem:** Name the following compound: CH₃CH(OH)CH₂CH₃
+
+**Solution:**
+
+Step 1: Find the longest chain containing -OH: 4 carbons (butane)
+
+Step 2: Number from the end nearest -OH: -OH is on carbon 2
+
+Step 3: Name: butan-2-ol
+
+**Answer:** butan-2-ol
+
+### Example 2: Esterification
+
+**Problem:** Write the equation for the reaction between ethanoic acid and ethanol. Name the product.
+
+**Solution:**
+
+Step 1: Identify the reactants:
+
+- Ethanoic acid: CH₃COOH
+- Ethanol: CH₃CH₂OH
+
+Step 2: Write the condensation reaction:
+$$\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \xrightarrow{\text{H}_2\text{SO}_4} \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+
+Step 3: The product is an ester: ethyl ethanoate
+
+**Answer:** $\text{CH}_3\text{COOH} + \text{CH}_3\text{CH}_2\text{OH} \rightarrow \text{CH}_3\text{COOCH}_2\text{CH}_3 + \text{H}_2\text{O}$ (ethyl ethanoate)
+
+### Example 3: Isomerism
+
+**Problem:** How many structural isomers does C₄H₁₀ have?
+
+**Solution:**
+
+Step 1: Calculate degree of unsaturation: $\frac{2(4) + 2 - 10}{2} = 0$ (saturated)
+
+Step 2: Draw possible structures:
+
+- Straight chain: CH₃CH₂CH₂CH₃ (butane)
+- Branched: (CH₃)₃CH (2-methylpropane, isobutane)
+
+Step 3: Count: 2 structural isomers
+
+**Answer:** 2 structural isomers
+
+## Exam Tips
+
+1. Always identify the functional group first when naming compounds
+2. Esterification is reversible; use excess reagent or remove water to drive forward
+3. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
+4. Molecular formula alone doesn't determine structure; always consider isomerism
+
+## Practice Problems
+
+1. Name: CH₃CH₂CH₂COOH
+2. Write the equation for the reaction between propanoic acid and methanol
+3. Draw all structural isomers of C₅H₁₂
+
+### Example 4: Reaction Mechanisms
+
+**Problem:** Write the mechanism for the acid-catalysed hydration of ethene to form ethanol.
+
+**Solution:**
+
+Step 1: Protonation of ethene (electrophilic addition):
+$$\text{CH}_2=\text{CH}_2 + \text{H}^+ \rightarrow \text{CH}_3\text{CH}_2^+$$
+
+Step 2: Nucleophilic attack by water:
+$$\text{CH}_3\text{CH}_2^+ + \text{H}_2\text{O} \rightarrow \text{CH}_3\text{CH}_2\text{OH}_2^+$$
+
+Step 3: Deprotonation:
+$$\text{CH}_3\text{CH}_2\text{OH}_2^+ \rightarrow \text{CH}_3\text{CH}_2\text{OH} + \text{H}^+$$
+
+**Answer:** The mechanism involves protonation, nucleophilic attack, and deprotonation. The acid catalyst is regenerated.
+
+### Example 5: Optical Isomerism
+
+**Problem:** Does 2-bromobutane exhibit optical isomerism? Explain.
+
+**Solution:**
+
+Step 1: Draw the structure: CH₃CHBrCH₂CH₃
+
+Step 2: Identify the chiral centre: Carbon 2 is bonded to four different groups: CH₃, H, Br, and CH₂CH₃
+
+Step 3: Since carbon 2 has four different substituents, it is a chiral centre.
+
+Step 4: The molecule exists as two enantiomers (R and 2-bromobutane), which rotate plane-polarized light in opposite directions.
+
+**Answer:** Yes, 2-bromobutane exhibits optical isomerism because it has a chiral centre at carbon 2.
+
+### Example 6: Elimination vs Substitution
+
+**Problem:** Predict whether the reaction of 2-bromopropan with alcoholic KOH gives mainly an alkene or an alcohol.
+
+**Solution:**
+
+Step 1: Identify the reaction conditions: alcoholic KOH (strong base in non-aqueous solvent)
+
+Step 2: These conditions favour elimination (E2 mechanism) over substitution (SN2)
+
+Step 3: The product is propene via dehydrohalogenation:
+$$\text{CH}_3\text{CHBrCH}_3 + \text{KOH (alc)} \rightarrow \text{CH}_3\text{CH}=\text{CH}_2 + \text{KBr} + \text{H}_2\text{O}$$
+
+**Answer:** Elimination predominates, giving propene as the major product.
+
+## Why This Matters
+
+Organic chemistry is the basis of pharmaceuticals, plastics, food science, and biochemistry. Understanding reaction mechanisms allows chemists to design and synthesise new molecules with specific properties.
+
+## Additional Exam Tips
+
+1. When naming compounds, always identify the longest chain containing the functional group
+2. Degree of unsaturation = $\frac{2C + 2 - H}{2}$ helps determine if rings or double bonds are present
+3. Esterification is reversible, use excess reagent or remove water to drive equilibrium
+4. Cis-trans isomerism requires restricted rotation (C=C or ring) and two different groups on each carbon
+
+## More Worked Examples
+
+### Example 7: Identifying Functional Groups
+
+**Problem:** Identify all functional groups in the following molecule: $\text{CH}_3\text{CH(OH)CHO}$
+
+**Solution:**
+
+Step 1: Draw the structure:
+$$\text{CH}_3-\text{CH(OH)}-\text{CHO}$$
+
+Step 2: Identify functional groups:
+
+- $-\text{OH}$: hydroxyl group (alcohol)
+- $-\text{CHO}$: aldehyde group
+
+Step 3: The molecule has both alcohol and aldehyde functional groups. The IUPAC name is 2-hydroxypropanal.
+
+**Answer:** The molecule contains a hydroxyl group ($-\text{OH}$) and an aldehyde group ($-\text{CHO}$).
+
+**Common mistake:** Confusing the aldehyde group ($-\text{CHO}$) with the alcohol group ($-\text{OH}$). The aldehyde carbon is bonded to both a hydrogen and a double-bonded oxygen.
+
+### Example 8: Reaction of Alcohols
+
+**Problem:** Write the equation for the dehydration of ethanol to form ethene. What conditions are required?
+
+**Solution:**
+
+Step 1: Dehydration is an elimination reaction where water is removed from an alcohol.
+
+Step 2: The reaction requires concentrated sulfuric acid as a catalyst and heating to approximately $170°\text{C}$:
+$$\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$$
+
+Step 3: At lower temperatures ($140°\text{C}$), the substitution product (diethyl ether) forms instead:
+$$2\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{140°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_3\text{CH}_2\text{OCH}_2\text{CH}_3 + \text{H}_2\text{O}$$
+
+**Answer:** $\text{CH}_3\text{CH}_2\text{OH} \xrightarrow[\text{170°C}]{\text{conc. H}_2\text{SO}_4} \text{CH}_2=\text{CH}_2 + \text{H}_2\text{O}$
+
+**Common mistake:** Confusing elimination (forming alkenes) with substitution (forming ethers). Temperature determines which product forms.
+
+### Example 9: Polymerisation
+
+**Problem:** Draw the repeating unit of the polymer formed from the addition polymerisation of propene ($\text{CH}_3\text{CH}=\text{CH}_2$).
+
+**Solution:**
+
+Step 1: In addition polymerisation, the double bond opens up and monomers join together.
+
+Step 2: The repeating unit is:
+$$-\left[\text{CH}_2-\text{CH(CH}_3)\right]-$$
+
+Step 3: The polymer is polypropene (polypropylene). The methyl group ($\text{CH}_3$) is a side chain.
+
+Step 4: The number of monomers $n$ in the polymer chain is the degree of polymerisation.
+
+**Answer:** The repeating unit is $-\text{CH}_2-\text{CH(CH}_3)-$
+
+**Common mistake:** Forgetting that in addition polymerisation, the double bond becomes a single bond in the polymer backbone. The side groups remain as branches.
+
+## Intuition
+
+**Organic chemistry is about carbon's unique bonding:** Carbon forms four covalent bonds and can chain with other carbons indefinitely. This creates an enormous variety of molecules, from simple methane (CH₄) to complex proteins. The functional groups attached to the carbon backbone determine how the molecule behaves chemically.
+
+**Why it matters:** Organic chemistry is the foundation of biochemistry, pharmaceuticals, and materials science. Understanding reaction mechanisms (SN1/SN2, addition, elimination) lets you predict products and design synthesis routes for new molecules.
+
+**The key insight:** The structure of a molecule determines its reactivity, the same atoms arranged differently (isomers) can have completely different chemical properties.
+
+## Common Mistakes
+
+**Confusing SN1 and SN2 reaction mechanisms for haloalkanes.** SN1 proceeds through a carbocation intermediate and gives racemisation. SN2 proceeds through backside attack and gives inversion of configuration. Students often assume all nucleophilic substitutions follow the same mechanism.
+
+## Cross-References
+
+- [Inorganic](/chemistry/inorganic/) -- Redox reactions and electrochemistry provide the foundation for understanding organic oxidation and reduction.
+- [Algebra](/mathematics/algebra/) -- Logarithmic functions are used in rate equations for organic reaction kinetics.
+- [Calculus](/mathematics/calculus/) -- Integration is used to derive integrated rate laws for organic reaction mechanisms.
+- [Reading](/english/reading/) -- Close reading skills help analyse organic chemistry problems and interpret reaction mechanisms.
+
+**Forgetting Markovnikov's rule for alkene addition reactions.** When HX adds to an unsymmetrical alkene, hydrogen adds to the carbon with more hydrogens (Markovnikov product). Students sometimes add in the reverse direction, getting the anti-Markovnikov product which only forms in the presence of peroxides.
+
+**Misidentifying the functional group in organic molecules.** Alcohols (-OH), ethers (-O-), aldehydes (-CHO), ketones (-CO-), and carboxylic acids (-COOH) have distinct structures and reactivities. Students often confuse esters (-COO-) with ethers (-O-) or aldehydes with ketones, leading to incorrect reaction predictions.
+
+## Diagnostics
+
+---
+
+## Diag Mathematics
+URL: https://hsc.wyattau.com/diagnostics/diag-mathematics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+## Diagnostic Test: Mathematics
+
+10 multiple-choice questions covering algebra, calculus, trigonometry, probability, and statistics. Select the best answer for each question, then check your score using the answer key below.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 1.** Solve for $x$: $3x - 7 = 2x + 5$.
+
+(A) $x = 2$
+(B) $x = 12$
+(C) $x = -12$
+(D) $x = -2$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 2.** What is the value of $\\displaystyle\\lim_{x \\to 3} \\dfrac{x^2 - 9}{x - 3}$?
+
+(A) 0
+(B) 3
+(C) 6
+(D) Undefined
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 3.** If $\\tan \\theta = \\dfrac{5}{12}$ and $\\theta$ is acute, what is $\\sin \\theta$?
+
+(A) $\\dfrac{5}{13}$
+(B) $\\dfrac{12}{13}$
+(C) $\\dfrac{5}{12}$
+(D) $\\dfrac{13}{5}$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 4.** A coin is flipped 3 times. What is the probability of getting exactly 2 heads?
+
+(A) $\\dfrac{1}{2}$
+(B) $\\dfrac{1}{4}$
+(C) $\\dfrac{3}{8}$
+(D) $\\dfrac{1}{8}$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 5.** The gradient of the curve $y = x^3 - 2x$ at $x = 1$ is:
+
+(A) $-1$
+(B) 0
+(C) 1
+(D) 3
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 6.** Which of the following is the derivative of $y = \\ln(2x)$?
+
+(A) $\\dfrac{1}{2x}$
+(B) $\\dfrac{1}{x}$
+(C) $\\dfrac{2}{x}$
+(D) $\\dfrac{x}{2}$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 7.** The median of the data set $\\{2, 5, 8, 3, 7\\}$ is:
+
+(A) 5
+(B) 7
+(C) 8
+(D) 3
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 8.** Simplify: $\\dfrac{x^2 - 4}{x + 2}$.
+
+(A) $x - 2$, $x \\neq -2$
+(B) $x + 2$
+(C) $x^2 - 2$
+(D) $x - 4$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 9.** What is the exact value of $\\sin\\left(\\dfrac{\\pi}{6}\\right)$?
+
+(A) $\\dfrac{\\sqrt{3}}{2}$
+(B) $\\dfrac{1}{2}$
+(C) $\\dfrac{\\sqrt{2}}{2}$
+(D) 1
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+**Question 10.** If events $A$ and $B$ are mutually exclusive with $P(A) = 0.3$ and $P(B) = 0.5$, then $P(A \\cup B)$ is:
+
+(A) 0.15
+(B) 0.65
+(C) 0.8
+(D) 0.85
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Mathematics", "url": "https://hsc.wyattau.com/diagnostics/diag-mathematics"}]
+}
+</script>
+
+## Answer Key
+
+| Question | Correct Answer |
+|----------|---------------|
+| 1        | B             |
+| 2        | C             |
+| 3        | A             |
+| 4        | C             |
+| 5        | A             |
+| 6        | B             |
+| 7        | A             |
+| 8        | A             |
+| 9        | B             |
+| 10       | C             |
+
+**Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Mathematics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+
+```mermaid
+flowchart TD
+    A[Diag Mathematics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Intuition
+
+**Mathematics is the tool for quantitative reasoning:** From algebra to calculus, mathematics provides systematic methods for solving problems involving numbers, patterns, and change. Each topic builds on previous ones to create a powerful problem-solving toolkit.
+
+**Why it matters:** Mathematical skills are essential for science, engineering, finance, and any career involving data or quantitative analysis.
+
+**The key insight:** Mathematics is cumulative, gaps in algebra will cause difficulties in calculus, and weak trigonometry will hinder physics and engineering.
+
+## Common Mistakes
+
+**Confusing arithmetic and geometric progressions:** Arithmetic has constant difference $d$; geometric has constant ratio $r$. Using the wrong formula ($a_n = a_1 + (n-1)d$ vs $a_n = a_1 r^{n-1}$) gives completely wrong answers for term values and sums.
+
+**Sign errors in trigonometry:** The CAST diagram (All, Sin, Tan, Cos) determines which quadrants give positive values. Forgetting the sign in specific quadrants leads to wrong angle solutions. Always check the quadrant before finalising an answer.
+
+**Misapplying the cosine rule:** The cosine rule $c^2 = a^2 + b^2 - 2ab\cos C$ requires the angle to be between sides $a$ and $b$. Using the wrong angle gives incorrect side lengths. Identify the included angle before applying the rule.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+---
+
+## Diag Physics
+URL: https://hsc.wyattau.com/diagnostics/diag-physics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+## Diagnostic Test: Physics
+
+10 multiple-choice questions covering mechanics, electricity, waves, nuclear physics, and thermal physics. Select the best answer for each question, then check your score using the answer key below.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 1.** A car travelling at 20 m/s brakes uniformly and comes to rest in 4 seconds. What is its deceleration?
+
+(A) $5 \\, \\text{m/s}^2$
+(B) $80 \\, \\text{m/s}^2$
+(C) $0.2 \\, \\text{m/s}^2$
+(D) $4 \\, \\text{m/s}^2$
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 2.** What is the weight of a 5 kg object on Earth? (Take $g = 10 \\, \\text{m/s}^2$)
+
+(A) 0.5 N
+(B) 50 N
+(C) 5 N
+(D) 25 N
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 3.** A circuit contains a 9 V battery and three $3 \\, \\Omega$ resistors in series. What is the current in the circuit?
+
+(A) 9 A
+(B) 1 A
+(C) 3 A
+(D) 27 A
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 4.** Sound waves cannot travel through:
+
+(A) Air
+(B) Water
+(C) Steel
+(D) A vacuum
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 5.** The phenomenon where a wave bends around an obstacle is called:
+
+(A) Reflection
+(B) Refraction
+(C) Diffraction
+(D) Polarisation
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 6.** In nuclear notation $^{14}_{\\ 6}\\text{C}$, the number of neutrons is:
+
+(A) 14
+(B) 6
+(C) 8
+(D) 20
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 7.** A metal rod is heated. Its length increases. This is an example of:
+
+(A) Thermal expansion
+(B) Heat conduction
+(C) Thermal radiation
+(D) Convection
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 8.** Which of the following has the highest electrical resistance?
+
+(A) A short, thick copper wire
+(B) A long, thin copper wire
+(C) A short, thin copper wire
+(D) A long, thick copper wire
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 9.** The SI unit of energy is:
+
+(A) Watt (W)
+(B) Joule (J)
+(C) Newton (N)
+(D) Pascal (Pa)
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+**Question 10.** In a perfectly elastic collision, which quantity is conserved?
+
+(A) Only momentum
+(B) Only kinetic energy
+(C) Both momentum and kinetic energy
+(D) Neither momentum nor kinetic energy
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Diagnostics", "url": "https://hsc.wyattau.com/diagnostics"}, {"name": "Diag Physics", "url": "https://hsc.wyattau.com/diagnostics/diag-physics"}]
+}
+</script>
+
+## Answer Key
+
+| Question | Correct Answer |
+|----------|---------------|
+| 1        | A             |
+| 2        | B             |
+| 3        | B             |
+| 4        | D             |
+| 5        | C             |
+| 6        | C             |
+| 7        | A             |
+| 8        | B             |
+| 9        | B             |
+| 10       | C             |
+
+**Scoring:** Count your correct answers out of 10. A score of 8 or above indicates strong mastery of HSC Physics fundamentals. Review the explanations in the practice problems for any questions you answered incorrectly.
+
+
+```mermaid
+flowchart TD
+    A[Diag Physics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Intuition
+
+**Physics describes the fundamental rules of the universe:** From motion to electricity to quantum phenomena, physics provides mathematical models that predict how the natural world behaves. It is the most quantitative of the sciences.
+
+**Why it matters:** Physics understanding underpins all technology, from smartphones to solar panels to medical imaging devices.
+
+**The key insight:** Physics is about building models, choosing the right simplification for the right situation. A physicist knows when to treat a car as a point mass and when its internal structure matters.
+
+## Common Mistakes
+
+**Confusing weight and mass:** Weight is a force ($W = mg$, in Newtons). Mass is the amount of matter (in kg). On Earth, $g = 9.8$ m/s², so a 10 kg mass has a weight of 98 N. Confusing the two leads to wrong force calculations.
+
+**Using the wrong formula for projectile motion:** Horizontal and vertical components are independent. Horizontal velocity is constant (no air resistance); vertical velocity changes due to gravity. Using $v = u + at$ for the horizontal component is wrong because $a_x = 0$.
+
+**Misunderstanding electric field direction:** Electric field lines point from positive to negative charges. A positive test charge experiences force in the direction of the field. A negative test charge experiences force opposite to the field direction.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for hsc notes.
+- **Practice:** Practice problems for revision.
+
+## English
+
+---
+
+## Index
+URL: https://hsc.wyattau.com/english/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers literary analysis, language techniques, and critical writing skills. If English feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
+
+# English
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [Reading](/english/reading/)
+- [Writing](/english/writing/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
+Use the cross-references to link related concepts across subjects where applicable.
+
+## Key Concepts
+
+This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+
+## Common Mistakes
+
+- Skipping prerequisite material before attempting this section
+- Not practising problems after reading the theory
+- Failing to connect concepts across different topics
+
+## Further Reading
+
+For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.
+
+---
+
+## Reading
+URL: https://hsc.wyattau.com/english/reading/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Reading", "url": "https://hsc.wyattau.com/english/reading"}]
+}
+</script>
+
+## Reading
+
+HSC english study notes - Reading
+
+
+```mermaid
+flowchart TD
+    A[Reading] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Close Reading Techniques
+
+**Annotation:** Mark key ideas, vocabulary, and literary devices while reading.
+
+**SQ3R Method:**
+
+- Survey: Skim the text for structure and main ideas
+- Question: Form questions about the content
+- Read: Read actively to answer your questions
+- Recite: Summarise key points in your own words
+- Review: Revisit and reflect on the text
+
+### Essay Structure
+
+**Introduction:** Hook, context, thesis statement
+
+**Body paragraphs:** Topic sentence, evidence, analysis, link to thesis
+
+**Conclusion:** Restate thesis, synthesise key ideas, broader significance
+
+### Literary Devices
+
+**Techniques:** Metaphor, simile, personification, imagery, symbolism
+
+**Language features:** Tone, diction, syntax, voice
+
+**Structure:** Chronological, thematic, episodic, frame narrative
+
+### Analytical Framework
+
+**Context:** Historical, cultural, biographical factors
+
+**Text:** Language, structure, form, style
+
+**Reader:** Interpretation, response, personal connection
+
+## Worked Examples
+
+### Example 1: Essay Introduction
+
+**Problem:** Write an introduction for an essay on the theme of identity in a novel.
+
+**Solution:**
+
+"Identity is not a fixed entity but a fluid construct shaped by societal expectations, personal experiences, and cultural heritage. In [Author]'s [Title], the protagonist's journey of self-discovery reveals the tension between individual desire and collective belonging. Through a careful examination of character development and narrative structure, this essay argues that the author presents identity as an ongoing negotiation rather than a predetermined destination."
+
+**Answer:** See the introduction above
+
+### Example 2: Analysing a Quote
+
+**Problem:** Analyse the following quote from a novel: "She wore her scars like armour, each one a testament to battles fought and survived."
+
+**Solution:**
+
+Step 1: Identify the technique: Extended metaphor (scars as armour)
+
+Step 2: Explain the literal meaning: The character's physical or emotional scars are visible
+
+Step 3: Explain the figurative meaning: The metaphor suggests that suffering has been transformed into strength; the character uses past trauma as protection
+
+Step 4: Connect to theme: This reflects the broader theme of resilience and the idea that pain can become a source of power
+
+**Answer:** The extended metaphor of "scars as armour" transforms the character's suffering into a symbol of strength, suggesting that past trauma has been repurposed as emotional protection.
+
+### Example 3: Thesis Statement
+
+**Problem:** Write a thesis statement for an essay on how power is represented in a Shakespeare play.
+
+**Solution:**
+
+"In [Play], Shakespeare interrogates the nature of power by demonstrating that its acquisition inevitably leads to moral corruption. Through the trajectories of [Character A] and [Character B], Shakespeare suggests that power is not merely a political commodity but a force that fundamentally transforms identity."
+
+**Answer:** See thesis above
+
+## Exam Tips
+
+1. Always ground your analysis in specific textual evidence
+2. Use the PEEL structure: Point, Evidence, Explanation, Link
+3. Consider multiple interpretations rather than a single "correct" reading
+4. Manage your time: allocate roughly 40 minutes per essay in the HSC exam
+5. Proofread for spelling, grammar, and clarity
+6. Use present tense when discussing texts (the author "argues," not "argued")
+
+## Practice Problems
+
+1. Analyse the opening paragraph of a novel of your choice using the close reading techniques
+2. Write a thesis statement for an essay on a theme in a text you have studied
+3. Practise the SQ3R method on a non-fiction article
+
+## Why This Matters
+
+Reading comprehension and analytical writing are foundational skills across all subjects. The ability to close read a text, identify literary techniques, and construct a well-supported argument transfers to every discipline in the HSC and beyond.
+
+## More Worked Examples
+
+### Example 4: Analysing a Poem
+
+**Problem:** Analyse the following lines from a poem: "The fog comes / on little cat feet."
+
+**Solution:**
+
+Step 1: Identify the technique: Personification (fog described as a cat) and visual imagery
+
+Step 2: Explain the literal meaning: Fog arrives quietly and gradually
+
+Step 3: Explain the figurative meaning: The simile compares fog to a cat, both are quiet, stealthy, and move without warning. The image of "little cat feet" suggests delicacy and softness.
+
+Step 4: Connect to theme: This reflects the theme of nature's quiet beauty and the way natural phenomena can be observed with wonder and appreciation.
+
+**Answer:** The personification of fog as a cat with "little cat feet" creates a vivid image of quiet, stealthy movement, suggesting the speaker observes nature with attentive wonder.
+
+### Example 5: Constructing an Argument
+
+**Problem:** Write a body paragraph for an essay arguing that a character in a novel represents the cost of ambition.
+
+**Solution:**
+
+"The protagonist's relentless pursuit of power ultimately costs him his humanity, as demonstrated through his deteriorating relationships. Initially presented as a loving family man, his ambition gradually erodes his moral compass. The pivotal scene in which he chooses career advancement over his daughter's recital illustrates this transformation: 'He watched the phone ring, knowing what it meant, and answered anyway.' The author uses this moment of direct speech to reveal the character's conscious choice, suggesting that ambition demands sacrifice. This portrayal implies that the pursuit of power, when unchecked by moral boundaries, transforms individuals into hollow versions of their former selves."
+
+**Answer:** The paragraph uses the PEEL structure, integrates a quote, and connects to the broader theme of ambition's cost.
+
+### Example 6: Evaluating Sources
+
+**Problem:** You are researching the impact of social media on teenagers. How would you evaluate the reliability of a blog post versus a peer-reviewed journal article?
+
+**Solution:**
+
+Step 1: Consider the source: A blog post is in standard practice written by an individual without peer review, while a journal article undergoes rigorous evaluation by experts.
+
+Step 2: Check the evidence: Journal articles cite empirical data and methodology; blog posts may rely on anecdotal evidence.
+
+Step 3: Assess bias: Blog posts may reflect personal opinions; journal articles are held to standards of objectivity.
+
+Step 4: Currency: Both may be current, but journal articles have publication delays.
+
+Step 5: Conclusion: The journal article is more reliable for academic purposes, though blog posts may offer accessible overviews.
+
+**Answer:** Journal articles are more reliable due to peer review, empirical evidence, and methodological rigour. Blog posts should be used cautiously and cross-referenced with authoritative sources.
+
+## Intuition
+
+**Reading comprehension is active engagement with text:** Effective reading is not passive, it involves questioning, analysing, and evaluating what you read. Understanding an author's purpose, audience, and technique deepens your comprehension.
+
+**Why it matters:** Strong reading skills are essential for academic success across all subjects, professional communication, and informed citizenship.
+
+**The key insight:** Authors make deliberate choices about language, structure, and form, identifying these choices reveals deeper meaning beyond the surface content.
+
+## Common Mistakes
+
+### Mistake 1: Describing techniques without explaining their effect
+
+In HSC short answer questions, directly naming a technique (metaphor, symbolism, etc.) earns minimal marks. You must explain how the technique shapes meaning and connects to the theme. For example, writing "The author uses metaphor" is insufficient. Instead, write "The author uses the metaphor of X to suggest Y, which reinforces the theme of Z." Always link technique to effect to theme.
+
+### Mistake 2: Writing in past tense when discussing texts
+
+When analysing literature, always use the present tense: the author "demonstrates," the character "rejects," the poem "explores." Students frequently slip into past tense ("the author showed"), which suggests the text is a historical event rather than a living work. The convention is that texts exist in a permanent present.
+
+### Mistake 3: Failing to consider multiple interpretations
+
+HSC examiners reward essays that acknowledge complexity and alternative readings. Students who present only one interpretation without considering counterarguments or nuanced readings limit their marks. Even if you strongly favour one reading, briefly acknowledge another perspective and explain why your interpretation is more convincing. This demonstrates critical thinking.
+
+## Additional Exam Tips
+
+1. When analysing poetry, consider the interplay between form and content
+2. In essays, use topic sentences that evidently link to your thesis
+3. For creative responses, engage with the prompt from multiple angles
+4. Practice writing under timed conditions to build speed and fluency
+
+## Cross-References
+
+- [Writing](/english/writing/) -- Essay and creative writing techniques apply the analytical skills developed through close reading.
+- [Algebra](/mathematics/algebra/) -- Logical reasoning and structured argumentation in reading mirror algebraic proof techniques.
+- [Mechanics](/physics/mechanics/) -- Scientific literacy and comprehension skills transfer to interpreting physics problems and experimental reports.
+- [Intro](/intro/) -- Understanding the HSC assessment structure helps focus reading strategies on exam-relevant skills.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## Writing
+URL: https://hsc.wyattau.com/english/writing/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "English", "url": "https://hsc.wyattau.com/english"}, {"name": "Writing", "url": "https://hsc.wyattau.com/english/writing"}]
+}
+</script>
+
+## Writing
+
+HSC english study notes - Writing
+
+
+```mermaid
+flowchart TD
+    A[Writing] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Creative Writing
+
+**Narrative voice:** First person, third person limited, third person omniscient
+
+**Setting:** Time, place, atmosphere; how setting reflects character or theme
+
+**Characterisation:** Direct description, dialogue, action, inner thoughts
+
+**Show don't tell:** Use sensory details and actions rather than stating emotions
+
+### Persuasive Writing
+
+**Argument structure:** Claim, evidence, reasoning, counterargument, rebuttal
+
+**Rhetorical devices:** Rhetorical questions, repetition, inclusive language, appeals to ethos/pathos/logos
+
+**Tone:** Formal, authoritative, empathetic, urgent
+
+### Short Answer Techniques
+
+**Technique identification:** State the technique, provide evidence, explain the effect
+
+**Formula:** "The author uses [technique] in [quote] to [effect], which [significance]"
+
+### Essay Writing
+
+**Introduction:** Context + thesis + roadmap
+
+**Body:** Topic sentence + evidence + analysis + link
+
+**Conclusion:** Restate thesis + synthesise + wider significance
+
+## Worked Examples
+
+### Example 1: Creative Writing Opening
+
+**Problem:** Write the opening of a short story that immediately engages the reader.
+
+**Solution:**
+
+"The last time I saw my father, he was standing in the rain without an umbrella. I was twelve, and I thought he was waiting for something. Now I know he was leaving."
+
+**Answer:** The opening uses retrospective narration, concrete imagery, and a twist in the final sentence to create intrigue.
+
+### Example 2: Short Answer on Technique
+
+**Problem:** How does the author use metaphor to explore the theme of memory?
+
+**Solution:**
+
+"The author employs the extended metaphor of 'fading photographs' to illustrate the gradual erosion of memory. In the line 'her face blurred at the edges like a photograph left in the sun,' the comparison suggests that memory is not lost suddenly but deteriorates over time. This metaphor reinforces the theme that memory is fragile and impermanent, evoking a sense of loss and nostalgia."
+
+**Answer:** See the analysis above
+
+### Example 3: Essay Body Paragraph
+
+**Problem:** Write a body paragraph on how a character develops throughout a novel.
+
+**Solution:**
+
+"At the outset of the novel, the protagonist is characterised by passivity and reluctance, as evidenced by her refusal to intervene when confronted with injustice. However, by the novel's climax, she has undergone a fundamental transformation. The pivotal scene in which she confronts her antagonist demonstrates her newfound agency: 'For the first time, she did not look away.' This moment marks a turning point in her development, as the author uses direct speech and decisive action to convey her shift from spectator to participant. This transformation underscores the novel's broader argument that courage is not the absence of fear but the decision to act despite it."
+
+**Answer:** See the paragraph above
+
+## Exam Tips
+
+1. In creative writing, establish voice and tone early
+2. Use specific, concrete details rather than vague descriptions
+3. In analytical writing, always link technique to theme
+4. Manage your time: spend no more than 40 minutes per essay
+5. Leave 5 minutes at the end to proofread
+6. Read your work aloud to check for flow and clarity
+
+## Practice Problems
+
+1. Write a 500-word creative piece that begins with the line "The door was unlocked"
+2. Write a short answer response analysing the use of symbolism in a text you have studied
+3. Write an essay introduction for a question on a text you have studied
+
+### Example 4: Persuasive Writing
+
+**Problem:** Write a persuasive paragraph arguing for the importance of school libraries.
+
+**Solution:**
+
+"In an age dominated by digital distractions, school libraries remain indispensable sanctuaries of learning. They provide equal access to information regardless of socioeconomic background, fostering intellectual curiosity and critical thinking. Research consistently demonstrates that students with regular library access achieve higher academic outcomes and develop stronger research skills. Moreover, libraries cultivate a love of reading, a habit that transcends academic achievement and enriches personal development. To underfund school libraries is to undermine the very foundation of education itself."
+
+**Answer:** The paragraph uses evidence-based reasoning, inclusive language ("sanctuaries," "fostering"), and a strong concluding statement to persuade.
+
+### Example 5: Analytical Paragraph
+
+**Problem:** Write a PEEL paragraph analysing the theme of isolation in a novel.
+
+**Solution:**
+
+"The author presents isolation as both a physical and psychological condition through the protagonist's deliberate withdrawal from society. In Chapter 5, the description of the character's 'deliberate solitude' and 'unwillingness to engage' demonstrates a conscious rejection of human connection. This isolation is further reinforced through the recurring motif of locked doors and closed windows, symbolising the character's emotional barriers. The author's use of claustrophobic imagery, 'walls closing in,' 'air thick with silence', creates a sense of entrapment that suggests isolation is not freedom but imprisonment. This portrayal ultimately argues that genuine human connection is essential for psychological wellbeing."
+
+**Answer:** The paragraph follows PEEL: Point (isolation as physical and psychological), Evidence (Chapter 5 quote), Explanation (symbolism analysis), Link (broader theme).
+
+### Example 6: Creative Writing Character Development
+
+**Problem:** Write a 100-word passage showing a character's change in attitude through action and dialogue.
+
+**Solution:**
+
+"Maria slammed the textbook shut. 'I'm done,' she muttered, pushing back from the desk. 'This is pointless.' Her tutor paused, watching her gather her bag with aggressive jerks. 'You said that about calculus last month,' he said quietly. 'And now you teach it.' Maria's hands stilled. She remembered the night she'd cried over derivatives, convinced she'd never understand. Now the symbols sang. She set the bag down slowly. 'One more problem,' she said, pulling the book back. The tutor smiled. 'That's all I ask.'"
+
+**Answer:** The passage shows character change through physical actions (slamming to setting down slowly), dialogue progression, and internal reflection.
+
+## Why This Matters
+
+Writing is a transferable skill essential for academic success, professional communication, and creative expression. The HSC English course develops both analytical and creative writing abilities.
+
+## Additional Exam Tips
+
+1. In creative writing, use sensory details (sight, sound, smell, touch, taste) to create atmosphere
+2. In analytical writing, always use the present tense when discussing texts
+3. Vary sentence length for effect, short sentences for emphasis, longer for complexity
+4. Leave time to proofread, errors in spelling and grammar cost marks
+
+## More Worked Examples
+
+### Example 7: Creative Writing, Building Tension
+
+**Problem:** Write a 150-word passage that builds tension through pacing and imagery.
+
+**Solution:**
+
+"The corridor stretched ahead, fluorescent lights flickering in staccato bursts. Each step echoed against linoleum, too loud in the silence. She counted doors: three, four, five. The fifth was ajar. Through the gap, a sliver of amber light cut across the floor. She pressed her palm against the wood. It yielded with a groan. Inside, the desk lamp cast long shadows across scattered papers. A chair faced the window, its back to her. Someone was sitting in it, motionless, waiting. She opened her mouth to speak, but the words dissolved. The chair creaked. A hand reached for the lamp. Click."
+
+**Answer:** The passage uses short sentences, sensory detail, and strategic punctuation to build tension progressively, culminating in an ambiguous cliffhanger.
+
+### Example 8: Persuasive Essay Introduction
+
+**Problem:** Write an introduction for a persuasive essay arguing that schools should teach financial literacy as a core subject.
+
+**Solution:**
+
+"In an era of rising student debt, cryptocurrency volatility, and widening economic inequality, financial literacy has become an essential life skill rather than a peripheral concern. Yet most secondary school curricula remain silent on the practical knowledge students need to navigate the financial world, from understanding compound interest to evaluating investment risks. This silence perpetuates a cycle of financial disadvantage, disproportionately affecting students from lower socioeconomic backgrounds. Schools must integrate financial literacy into the core curriculum, not as an elective but as a fundamental component of education that equips students for the economic realities of the twenty-first century."
+
+**Answer:** The introduction establishes context (financial challenges), identifies the problem (curriculum gap), and presents a clear thesis (financial literacy must be core).
+
+### Example 9: Analytical Short Answer
+
+**Problem:** How does the author use setting to reflect the protagonist's emotional state in the opening chapter?
+
+**Solution:**
+
+"The author employs pathetic fallacy to mirror the protagonist's internal turmoil through the depiction of a relentless storm. The description of 'rain lashing against windows like accusations' and 'thunder that shook the foundations' creates an atmosphere of chaos and hostility. This external turbulence parallels the character's emotional distress, suggesting that his inner world is as fractured as the landscape around him. By conflating setting and psychology, the author establishes from the outset that the protagonist's journey will be one of confronting both external and internal storms. The pathetic fallacy thus functions not merely as atmosphere but as a narrative device that deepens the reader's understanding of the character's psychological state."
+
+**Answer:** The response identifies the technique (pathetic fallay), provides textual evidence, explains the effect, and links to the broader narrative purpose.
+
+## Common Mistakes
+
+### Mistake 1: Telling emotions instead of showing them through action
+
+In creative writing, "She was sad" is weak compared to "She stared at the empty chair, her coffee growing cold." The HSC marking criteria reward "showing" over "telling." Instead of stating emotions directly, convey them through physical actions, dialogue, sensory details, and environmental cues. This creates vivid, immersive writing that demonstrates technical skill.
+
+### Mistake 2: Using vague language instead of specific concrete details
+
+Phrases like "nice weather" or "a big building" are vague and unpersuasive. Effective writing uses precise, concrete details: "a sun-bleached Queenslander with peeling paint" or "the sharp December heat pressing against the classroom windows." Specificity makes writing vivid and demonstrates vocabulary control, both of which are assessed in the HSC.
+
+### Mistake 3: Neglecting to link technique to theme in analytical writing
+
+In analytical paragraphs, students often describe what happens in the text without explaining why it matters thematically. Every piece of evidence should connect back to your thesis. For example, don't just say "the author uses short sentences." Instead: "The author's use of short, clipped sentences mirrors the character's fractured mental state, reinforcing the theme of psychological disintegration." Always close the loop between technique and meaning.
+
+## Cross-References
+
+- [Reading](/english/reading/) -- Close reading and analytical skills are prerequisites for effective essay and creative writing.
+- [Algebra](/mathematics/algebra/) -- Logical structuring and systematic thinking in writing parallel algebraic reasoning.
+- [Mechanics](/physics/mechanics/) -- Scientific report writing requires the same evidence-based structure used in English essays.
+- [Intro](/intro/) -- Understanding the HSC assessment framework helps tailor writing to marking criteria.
+
+## Intuition
+
+Writing is fundamentally about communication, translating the thoughts in your head into words on a page that produce the intended effect in another person's mind. Good writing doesn't happen by accident; it follows structural patterns that have been refined over centuries. The PEEL paragraph structure (Point, Evidence, Explanation, Link) is not an arbitrary formula, it mirrors how humans logically process arguments. We first need to know what you're claiming, then see the proof, then understand why the proof supports the claim, and finally see why it matters. When you write "show don't tell," you're exploiting the fact that concrete sensory details activate richer mental representations than abstract statements.
+
+The different modes of writing, creative, persuasive, analytical, are really just variations on the same skill: controlling the reader's experience. In creative writing, you're creating a vivid mental movie. In persuasive writing, you're guiding someone toward a conclusion while making them feel it was their own idea. In analytical writing, you're demonstrating that you can see beneath the surface of a text. The common thread is that you're always making deliberate choices about what to include, what to emphasise, and what tone to strike. Every sentence should serve a purpose, if it doesn't advance your argument or develop your narrative, it's working against you.
+
+For HSC English specifically, the marking criteria reward precision and sophistication. A Band 6 response doesn't just identify techniques, it explains how they create meaning in context. The difference between "the author uses metaphor" and "the author's extended metaphor of decay mirrors the protagonist's psychological deterioration" is the difference between describing and analysing. Train yourself to close the loop: every observation about technique must connect back to theme, character, or the composer's purpose.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+## Mathematics
+
+---
+
+## Algebra
+URL: https://hsc.wyattau.com/mathematics/algebra/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Mathematics", "url": "https://hsc.wyattau.com/mathematics"}, {"name": "Algebra", "url": "https://hsc.wyattau.com/mathematics/algebra"}]
+}
+</script>
+
+## Algebra
+
+HSC mathematics study notes - Algebra
+
+
+```mermaid
+flowchart TD
+    A[Algebra] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Quadratic Equations
+
+The general form is $ax^2 + bx + c = 0$ where $a \neq 0$.
+
+**Quadratic Formula:**
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+**Discriminant $\Delta = b^2 - 4ac$:**
+
+- $\Delta > 0$: two distinct real roots
+- $\Delta = 0$: one repeated real root
+- $\Delta < 0$: no real roots
+
+**Sum and product of roots:**
+$$x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}$$
+
+### Sequences and Series
+
+**Arithmetic:** $T_n = a + (n-1)d$, $S_n = \frac{n}{2}(2a + (n-1)d)$
+
+**Geometric:** $T_n = ar^{n-1}$, $S_n = \frac{a(r^n - 1)}{r - 1}$ ($r \neq 1$)
+
+**Infinite geometric series:** $S_\infty = \frac{a}{1 - r}$ when $|r| < 1$
+
+### Logarithms
+
+**Properties:**
+$$\log_a(MN) = \log_a M + \log_a N$$
+$$\log_a \frac{M}{N} = \log_a M - \log_a N$$
+$$\log_a M^n = n \log_a M$$
+
+**Change of base:** $\log_a b = \frac{\log_c b}{\log_c a}$
+
+### Matrices
+
+**Addition:** $(A + B)_{ij} = A_{ij} + B_{ij}$
+
+**Multiplication:** $(AB)_{ij} = \sum_k A_{ik} B_{kj}$
+
+**Determinant (2x2):** $\det \begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc$
+
+**Inverse (2x2):** $\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1} = \frac{1}{ad - bc} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$
+
+## Worked Examples
+
+### Example 1: Quadratic Equations
+
+**Problem:** Solve $2x^2 - 7x + 3 = 0$.
+
+**Solution:**
+
+Step 1: Identify $a = 2$, $b = -7$, $c = 3$
+
+Step 2: Calculate the discriminant:
+$$\Delta = (-7)^2 - 4(2)(3) = 49 - 24 = 25$$
+
+Step 3: Apply the quadratic formula:
+$$x = \frac{7 \pm \sqrt{25}}{4} = \frac{7 \pm 5}{4}$$
+
+Step 4: $x = 3$ or $x = \frac{1}{2}$
+
+**Answer:** $x = 3$ or $x = \frac{1}{2}$
+
+### Example 2: Geometric Series
+
+**Problem:** Find the sum of the first 8 terms of the geometric series $3 + 6 + 12 + \ldots$
+
+**Solution:**
+
+Step 1: Identify $a = 3$, $r = \frac{6}{3} = 2$, $n = 8$
+
+Step 2: Apply the sum formula:
+$$S_8 = \frac{3(2^8 - 1)}{2 - 1} = \frac{3(256 - 1)}{1} = 3 \times 255 = 765$$
+
+**Answer:** $S_8 = 765$
+
+### Example 3: Matrix Operations
+
+**Problem:** Find the inverse of $A = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix}$.
+
+**Solution:**
+
+Step 1: Calculate the determinant:
+$$\det(A) = (3)(2) - (1)(5) = 6 - 5 = 1$$
+
+Step 2: Apply the inverse formula:
+$$A^{-1} = \frac{1}{1} \begin{pmatrix} 2 & -1 \\ -5 & 3 \end{pmatrix} = \begin{pmatrix} 2 & -1 \\ -5 & 3 \end{pmatrix}$$
+
+Step 3: Verify: $AA^{-1} = \begin{pmatrix} 3 & 1 \\ 5 & 2 \end{pmatrix} \begin{pmatrix} 2 & -1 \\ -5 & 3 \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$
+
+**Answer:** $A^{-1} = \begin{pmatrix} 2 & -1 \\ -5 & 3 \end{pmatrix}$
+
+## Exam Tips
+
+1. Always check the discriminant before solving quadratics
+2. For geometric series, verify $|r| < 1$ before using the infinite sum formula
+3. Matrix multiplication is not commutative: $AB \neq BA$ as a rule
+4. When finding matrix inverses, always verify your answer
+
+## Practice Problems
+
+1. Solve $x^2 - 5x + 6 = 0$ using the quadratic formula
+2. Find the sum of the first 10 terms of $5 + 15 + 45 + \ldots$
+3. Find the inverse of $\begin{pmatrix} 2 & 3 \\ 1 & 4 \end{pmatrix}$
+
+### Example 4: Logarithmic Equations
+
+**Problem:** Solve $\log_2(x + 3) + \log_2(x - 1) = 5$.
+
+**Solution:**
+
+Step 1: Determine the domain. Both arguments must be positive:
+$$x + 3 > 0 \implies x > -3$$
+$$x - 1 > 0 \implies x > 1$$
+
+Step 2: Combine logarithms:
+$$\log_2[(x+3)(x-1)] = 5$$
+
+Step 3: Convert to exponential form:
+$$(x+3)(x-1) = 2^5 = 32$$
+
+Step 4: Expand and solve:
+$$x^2 + 2x - 3 = 32$$
+$$x^2 + 2x - 35 = 0$$
+$$(x+7)(x-5) = 0$$
+$$x = -7 \quad \text{or} \quad x = 5$$
+
+Step 5: Check domain: $x = -7$ fails $x > 1$, so reject. $x = 5$ satisfies $x > 1$.
+
+**Answer:** $x = 5$
+
+**Common mistake:** Forgetting to check the domain. Always verify that the solution satisfies the original logarithmic constraints.
+
+### Example 5: Arithmetic and Geometric Sequences Combined
+
+**Problem:** The first term of an arithmetic sequence is 5 and the common difference is 3. Find the sum of the first 20 terms.
+
+**Solution:**
+
+Step 1: Use the arithmetic series formula:
+$$S_n = \frac{n}{2}[2a + (n-1)d]$$
+
+Step 2: Substitute $n = 20$, $a = 5$, $d = 3$:
+$$S_{20} = \frac{20}{2}[2(5) + 19(3)] = 10[10 + 57] = 10 \times 67 = 670$$
+
+**Answer:** $S_{20} = 670$
+
+**Common mistake:** Using the wrong formula. For arithmetic series, $S_n = \frac{n}{2}(2a + (n-1)d)$ or equivalently $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term.
+
+### Example 6: Matrix Determinant Properties
+
+**Problem:** If $A$ is a $3 \times 3$ matrix with $\det(A) = 5$, find $\det(2A)$ and $\det(A^{-1})$.
+
+**Solution:**
+
+Step 1: For a scalar multiple of an $n \times n$ matrix:
+$$\det(kA) = k^n \det(A)$$
+
+Step 2: For $n = 3$ and $k = 2$:
+$$\det(2A) = 2^3 \times 5 = 8 \times 5 = 40$$
+
+Step 3: For the inverse:
+$$\det(A^{-1}) = \frac{1}{\det(A)} = \frac{1}{5} = 0.2$$
+
+**Answer:** $\det(2A) = 40$, $\det(A^{-1}) = 0.2$
+
+**Common mistake:** Writing $\det(2A) = 2\det(A)$. For an $n \times n$ matrix, $\det(kA) = k^n \det(A)$ because each of the $n$ rows is multiplied by $k$.
+
+## More Worked Examples
+
+### Example 7: Quadratic Inequalities
+
+**Problem:** Solve $x^2 - 5x + 6 < 0$.
+
+**Solution:**
+
+Step 1: Factor the quadratic:
+$$x^2 - 5x + 6 = (x - 2)(x - 3)$$
+
+Step 2: Find the roots: $x = 2$ and $x = 3$
+
+Step 3: Since the coefficient of $x^2$ is positive, the parabola opens upward. The quadratic is negative between the roots.
+
+Step 4: Solution: $2 < x < 3$
+
+**Answer:** $x \in (2, 3)$
+
+**Common mistake:** Forgetting that the inequality sign determines whether the solution is between or outside the roots. For $ax^2 + bx + c < 0$ with $a > 0$, the solution is between the roots.
+
+### Example 8: Sum of an Infinite Geometric Series
+
+**Problem:** Find the sum of the infinite series $1 + \frac{1}{3} + \frac{1}{9} + \frac{1}{27} + \ldots$
+
+**Solution:**
+
+Step 1: Identify $a = 1$, $r = \frac{1}{3}$
+
+Step 2: Check $|r| < 1$: $\left|\frac{1}{3}\right| = \frac{1}{3} < 1$ (converges)
+
+Step 3: Apply the infinite sum formula:
+$$S_\infty = \frac{a}{1 - r} = \frac{1}{1 - \frac{1}{3}} = \frac{1}{\frac{2}{3}} = \frac{3}{2}$$
+
+**Answer:** $S_\infty = \frac{3}{2}$
+
+**Common mistake:** Using the formula when $|r| \geq 1$. The infinite geometric series only converges when $|r| < 1$.
+
+### Example 9: Matrix Equation
+
+**Problem:** Solve for $X$ if $\begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} X = \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix}$.
+
+**Solution:**
+
+Step 1: Let $A = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix}$. We need $X = A^{-1} B$.
+
+Step 2: Find $A^{-1}$:
+$$\det(A) = 2 \times 3 - 1 \times 5 = 1$$
+$$A^{-1} = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix}$$
+
+Step 3: Multiply:
+$$X = \begin{pmatrix} 3 & -1 \\ -5 & 2 \end{pmatrix} \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix} = \begin{pmatrix} 21 - 17 & 12 - 10 \\ -35 + 34 & -20 + 20 \end{pmatrix} = \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix}$$
+
+Step 4: Verify: $AX = \begin{pmatrix} 2 & 1 \\ 5 & 3 \end{pmatrix} \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix} = \begin{pmatrix} 7 & 4 \\ 17 & 10 \end{pmatrix}$ (correct)
+
+**Answer:** $X = \begin{pmatrix} 4 & 2 \\ -1 & 0 \end{pmatrix}$
+
+**Common mistake:** For matrix equations $AX = B$, multiply both sides by $A^{-1}$ on the left: $X = A^{-1}B$, not $X = BA^{-1}$. Matrix multiplication is not commutative.
+
+## Cross-References
+
+- [Calculus](/mathematics/calculus/) -- Differentiation and integration build on the algebraic foundations of functions and equations covered here.
+- [Waves](/physics/waves/) -- Wave equations use logarithmic and trigonometric functions that extend the algebraic techniques in this topic.
+- [Mechanics](/physics/mechanics/) -- Kinematic equations and force calculations apply algebraic manipulation to physical systems.
+- [Inorganic](/chemistry/inorganic/) -- Electrochemistry and thermochemistry calculations use the logarithmic and matrix skills developed in this topic.
+
+### Example 10: Solving Quadratic Inequalities
+
+**Problem:** Solve the inequality $2x^2 - 5x - 3 < 0$.
+
+**Solution:**
+
+Step 1: Factor the quadratic:
+$$2x^2 - 5x - 3 = (2x + 1)(x - 3)$$
+
+Step 2: Find the roots: $x = -\frac{1}{2}$ and $x = 3$
+
+Step 3: Since the coefficient of $x^2$ is positive ($2 > 0$), the parabola opens upward. The quadratic is negative between the roots.
+
+Step 4: Solution: $-\frac{1}{2} < x < 3$
+
+**Answer:** $x \in \left(-\frac{1}{2}, 3\right)$
+
+**Common mistake:** Forgetting that the inequality sign determines whether the solution is between or outside the roots. For $ax^2 + bx + c < 0$ with $a > 0$, the solution is between the roots. For $ax^2 + bx + c > 0$ with $a > 0$, the solution is outside the roots.
+
+### Example 11: Logarithmic Equations with Different Bases
+
+**Problem:** Solve $9^x - 4 \cdot 3^x + 3 = 0$.
+
+**Solution:**
+
+Step 1: Let $u = 3^x$ (note $u > 0$). Then $9^x = (3^2)^x = (3^x)^2 = u^2$.
+
+Step 2: Substitute:
+$$u^2 - 4u + 3 = 0$$
+
+Step 3: Factor:
+$$(u - 1)(u - 3) = 0$$
+
+Step 4: $u = 1$ or $u = 3$
+
+Step 5: Back-substitute:
+
+- $3^x = 1 \implies x = 0$
+- $3^x = 3 \implies x = 1$
+
+Step 6: Both solutions are valid (both satisfy $u > 0$).
+
+**Answer:** $x = 0$ or $x = 1$
+
+**Common mistake:** Forgetting to check that the solutions satisfy the original domain constraints. Always substitute back to verify.
+
+### Example 12: Matrix Eigenvalues (Extension)
+
+**Problem:** Find the eigenvalues of $A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
+
+**Solution:**
+
+Step 1: Set up the characteristic equation $\det(A - \lambda I) = 0$:
+$$\det \begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = 0$$
+
+Step 2: Compute the determinant:
+$$(4 - \lambda)(3 - \lambda) - (1)(2) = 0$$
+$$12 - 7\lambda + \lambda^2 - 2 = 0$$
+$$\lambda^2 - 7\lambda + 10 = 0$$
+
+Step 3: Factor:
+$$(\lambda - 5)(\lambda - 2) = 0$$
+
+Step 4: Eigenvalues: $\lambda_1 = 5$ and $\lambda_2 = 2$
+
+**Answer:** The eigenvalues are $\lambda = 5$ and $\lambda = 2$
+
+**Common mistake:** The characteristic equation is $\det(A - \lambda I) = 0$, not $\det(A) - \lambda = 0$. The eigenvalues are the roots of the characteristic polynomial.
+
+## Additional Exam Tips
+
+1. For logarithmic equations, always check the domain after solving
+2. When solving matrix equations, always verify your answer by multiplying back
+3. The sum of an arithmetic series can also be written as $S_n = \frac{n}{2}(a + l)$ where $l$ is the last term
+4. For geometric series with $|r| > 1$, the series diverges (no finite sum)
+
+## Intuition
+
+Quadratic equations describe parabolas, and the discriminant tells you how many times the curve crosses the x-axis -- the roots are where the curve meets the ground. Sequences and series are patterns of growth: arithmetic sequences add a constant like footsteps, while geometric sequences multiply like compound interest. The sum of an infinite convergent series is a finite number approached but never quite reached, like Zeno's paradox resolved by mathematics. Matrices are machines that transform space, and their inverses reverse that transformation.
+
+## Common Mistakes
+
+**Forgetting to check the discriminant before solving quadratics.** Always compute Delta = b^2 - 4ac first. If Delta < 0, there are no real roots. Students sometimes proceed with the quadratic formula and obtain complex numbers when the problem expects real solutions or no solution.
+
+**Confusing the geometric series sum formula for finite and infinite series.** The finite sum Sn = a(1 - r^n)/(1 - r) applies for any r != 1. The infinite sum S_infinity = a/(1 - r) only converges when |r| < 1. Using the infinite formula when |r| >= 1 gives incorrect results because the series diverges.
+
+**Making sign errors in matrix inverses.** For a 2x2 matrix, the inverse formula swaps the diagonal elements and negates the off-diagonal elements, all divided by the determinant. Students often forget to negate the off-diagonal elements or swap the diagonal elements, giving an incorrect inverse that does not satisfy AA^-1 = I.
+
+---
+
+## Calculus
+URL: https://hsc.wyattau.com/mathematics/calculus/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Mathematics", "url": "https://hsc.wyattau.com/mathematics"}, {"name": "Calculus", "url": "https://hsc.wyattau.com/mathematics/calculus"}]
+}
+</script>
+
+## Calculus
+
+HSC mathematics study notes - Calculus
+
+
+```mermaid
+flowchart TD
+    A[Calculus] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Differentiation
+
+**First Principles:** $f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$
+
+**Common Rules:**
+
+- Power rule: $\frac{d}{dx}[x^n] = nx^{n-1}$
+- Chain rule: $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$
+- Product rule: $\frac{d}{dx}[fg] = f'g + fg'$
+- Quotient rule: $\frac{d}{dx}\left[\frac{f}{g}\right] = \frac{f'g - fg'}{g^2}$
+
+### Integration
+
+**Basic Integrals:**
+$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
+$$\int \frac{1}{x} \, dx = \ln|x| + C$$
+$$\int e^x \, dx = e^x + C$$
+
+**Definite Integral:** $\int_a^b f(x) \, dx = F(b) - F(a)$
+
+### Applications
+
+**Stationary points:** Set $f'(x) = 0$ and use the second derivative test:
+
+- $f''(x) > 0$: local minimum
+- $f''(x) < 0$: local maximum
+
+**Area between curves:** $A = \int_a^b |f(x) - g(x)| \, dx$
+
+**Kinematics:** $v = \frac{ds}{dt}$, $a = \frac{dv}{dt}$
+
+## Worked Examples
+
+### Example 1: Differentiation
+
+**Problem:** Find the derivative of $f(x) = 3x^4 - 2x^2 + 5x - 1$.
+
+**Solution:**
+
+Step 1: Apply the power rule to each term:
+$$f'(x) = 3 \cdot 4x^3 - 2 \cdot 2x + 5 \cdot 1 - 0$$
+
+Step 2: Simplify:
+$$f'(x) = 12x^3 - 4x + 5$$
+
+**Answer:** $f'(x) = 12x^3 - 4x + 5$
+
+### Example 2: Chain Rule
+
+**Problem:** Find $\frac{dy}{dx}$ if $y = (3x + 2)^5$.
+
+**Solution:**
+
+Step 1: Let $u = 3x + 2$, so $y = u^5$
+
+Step 2: $\frac{dy}{du} = 5u^4$ and $\frac{du}{dx} = 3$
+
+Step 3: Apply chain rule:
+$$\frac{dy}{dx} = 5u^4 \cdot 3 = 15(3x + 2)^4$$
+
+**Answer:** $\frac{dy}{dx} = 15(3x + 2)^4$
+
+### Example 3: Area Under a Curve
+
+**Problem:** Find the area enclosed between $y = x^2$ and $y = x$ for $0 \leq x \leq 1$.
+
+**Solution:**
+
+Step 1: Find intersection points: $x^2 = x \Rightarrow x(x-1) = 0 \Rightarrow x = 0$ or $x = 1$
+
+Step 2: On $[0, 1]$, $x \geq x^2$, so:
+$$A = \int_0^1 (x - x^2) \, dx$$
+
+Step 3: Integrate:
+$$A = \left[\frac{x^2}{2} - \frac{x^3}{3}\right]_0^1 = \left(\frac{1}{2} - \frac{1}{3}\right) - 0 = \frac{1}{6}$$
+
+**Answer:** Area $= \frac{1}{6}$ square units
+
+## Exam Tips
+
+1. Always include the constant of integration $C$ for indefinite integrals
+2. For chain rule problems, identify the inner and outer functions
+3. To find areas between curves, always determine which function is above
+4. Check stationary points using the second derivative test, not just the first
+
+## Practice Problems
+
+1. Find the derivative of $f(x) = \sin(3x^2)$
+2. Evaluate $\int_0^2 (4x^3 - 6x) \, dx$
+3. Find the area between $y = x^2$ and $y = 4$ for $-2 \leq x \leq 2$
+
+### Example 4: Product Rule
+
+**Problem:** Find the derivative of $f(x) = x^2 e^x$.
+
+**Solution:**
+
+Step 1: Apply the product rule with $u = x^2$ and $v = e^x$:
+$$f'(x) = u'v + uv' = 2x \cdot e^x + x^2 \cdot e^x$$
+
+Step 2: Factor:
+$$f'(x) = e^x(2x + x^2) = xe^x(2 + x)$$
+
+**Answer:** $f'(x) = xe^x(x + 2)$
+
+### Example 5: Definite Integral
+
+**Problem:** Evaluate $\int_1^4 \frac{1}{\sqrt{x}} \, dx$.
+
+**Solution:**
+
+Step 1: Rewrite: $\int_1^4 x^{-1/2} \, dx$
+
+Step 2: Integrate using the power rule:
+$$\left[\frac{x^{1/2}}{1/2}\right]_1^4 = \left[2\sqrt{x}\right]_1^4$$
+
+Step 3: Evaluate at limits:
+$$2\sqrt{4} - 2\sqrt{1} = 4 - 2 = 2$$
+
+**Answer:** The integral equals $2$
+
+### Example 6: Optimisation
+
+**Problem:** A farmer has $200\,\text{m}$ of fencing and wants to enclose a rectangular paddock along a river (no fence needed on the river side). Find the dimensions that maximize the area.
+
+**Solution:**
+
+Step 1: Let $x$ be the width (two sides) and $l$ be the length (one side parallel to river).
+
+Step 2: Fencing constraint: $2x + l = 200 \implies l = 200 - 2x$
+
+Step 3: Area: $A = x \cdot l = x(200 - 2x) = 200x - 2x^2$
+
+Step 4: Find stationary points: $\frac{dA}{dx} = 200 - 4x = 0 \implies x = 50\,\text{m}$
+
+Step 5: Second derivative test: $\frac{d^2A}{dx^2} = -4 < 0$, so this is a maximum.
+
+Step 6: Length: $l = 200 - 2(50) = 100\,\text{m}$
+
+**Answer:** Width $= 50\,\text{m}$, length $= 100\,\text{m}$, maximum area $= 5000\,\text{m}^2$
+
+## Why This Matters
+
+Calculus is the mathematical study of continuous change. Differentiation and integration are used in physics, engineering, economics, biology, and virtually every quantitative science.
+
+## Additional Exam Tips
+
+1. For optimisation problems, always check the second derivative or boundary values
+2. The chain rule is the most commonly tested rule, practise identifying inner and outer functions
+3. When finding areas between curves, always sketch the graph first
+4. Remember: $\int_a^b f(x) \, dx = F(b) - F(a)$, not $F(a) - F(b)$
+
+## More Worked Examples
+
+### Example 7: Quotient Rule
+
+**Problem:** Find the derivative of $f(x) = \frac{\sin x}{x^2 + 1}$.
+
+**Solution:**
+
+Step 1: Apply the quotient rule with $u = \sin x$ and $v = x^2 + 1$:
+$$f'(x) = \frac{u'v - uv'}{v^2}$$
+
+Step 2: Compute derivatives:
+$$u' = \cos x, \quad v' = 2x$$
+
+Step 3: Substitute:
+$$f'(x) = \frac{\cos x \cdot (x^2 + 1) - \sin x \cdot 2x}{(x^2 + 1)^2}$$
+
+Step 4: Simplify:
+$$f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$$
+
+**Answer:** $f'(x) = \frac{(x^2 + 1)\cos x - 2x\sin x}{(x^2 + 1)^2}$
+
+**Common mistake:** Forgetting the minus sign in the quotient rule numerator. Remember: "low d-high minus high d-low, over low squared."
+
+### Example 8: Integration by Substitution
+
+**Problem:** Evaluate $\int_0^1 2x\sqrt{x^2 + 1} \, dx$.
+
+**Solution:**
+
+Step 1: Let $u = x^2 + 1$, so $du = 2x \, dx$
+
+Step 2: Change limits: when $x = 0$, $u = 1$; when $x = 1$, $u = 2$
+
+Step 3: Substitute:
+$$\int_0^1 2x\sqrt{x^2 + 1} \, dx = \int_1^2 \sqrt{u} \, du = \int_1^2 u^{1/2} \, du$$
+
+Step 4: Integrate:
+$$\left[\frac{2}{3}u^{3/2}\right]_1^2 = \frac{2}{3}(2^{3/2} - 1^{3/2}) = \frac{2}{3}(2\sqrt{2} - 1)$$
+
+**Answer:** $\frac{2}{3}(2\sqrt{2} - 1) \approx 1.22$
+
+**Common mistake:** Forgetting to change the limits of integration when making a substitution. If you change variables, you must also change the limits.
+
+### Example 9: Kinematics with Calculus
+
+**Problem:** A particle moves along a line with velocity $v(t) = 3t^2 - 12t + 9$ m/s. Find the total distance traveled between $t = 0$ and $t = 4$ seconds.
+
+**Solution:**
+
+Step 1: Find when $v(t) = 0$:
+$$3t^2 - 12t + 9 = 0 \implies t^2 - 4t + 3 = 0 \implies (t-1)(t-3) = 0$$
+$$t = 1 \text{ or } t = 3$$
+
+Step 2: Check the sign of $v(t)$ in each interval:
+
+- $[0, 1]$: $v(0.5) = 3(0.25) - 12(0.5) + 9 = 0.75 - 6 + 9 = 3.75 > 0$ (moving forward)
+- $[1, 3]$: $v(2) = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3 < 0$ (moving backward)
+- $[3, 4]$: $v(3.5) = 3(12.25) - 12(3.5) + 9 = 36.75 - 42 + 9 = 3.75 > 0$ (moving forward)
+
+Step 3: Distance = $\int_0^4 |v(t)| \, dt$:
+$$= \int_0^1 (3t^2 - 12t + 9) \, dt + \int_1^3 -(3t^2 - 12t + 9) \, dt + \int_3^4 (3t^2 - 12t + 9) \, dt$$
+
+Step 4: Compute each integral:
+$$\int (3t^2 - 12t + 9) \, dt = t^3 - 6t^2 + 9t$$
+
+$$[t^3 - 6t^2 + 9t]_0^1 = (1 - 6 + 9) - 0 = 4$$
+
+$$-[t^3 - 6t^2 + 9t]_1^3 = -[(27 - 54 + 27) - (1 - 6 + 9)] = -[0 - 4] = 4$$
+
+$$[t^3 - 6t^2 + 9t]_3^4 = [(64 - 96 + 36) - (27 - 54 + 27)] = [4 - 0] = 4$$
+
+Step 5: Total distance = $4 + 4 + 4 = 12$ m
+
+**Answer:** Total distance traveled is $12$ m
+
+**Common mistake:** Confusing distance with displacement. Displacement would be $\int_0^4 v(t) \, dt = 4$, but distance requires integrating the absolute value of velocity.
+
+### Example 10: Implicit Differentiation
+
+**Problem:** Find $\frac{dy}{dx}$ if $x^2 + xy + y^2 = 7$.
+
+**Solution:**
+
+Step 1: Differentiate both sides with respect to $x$:
+$$2x + y + x\frac{dy}{dx} + 2y\frac{dy}{dx} = 0$$
+
+Step 2: Collect $\frac{dy}{dx}$ terms:
+$$\frac{dy}{dx}(x + 2y) = -2x - y$$
+
+Step 3: Solve:
+$$\frac{dy}{dx} = \frac{-2x - y}{x + 2y} = -\frac{2x + y}{x + 2y}$$
+
+**Answer:** $\frac{dy}{dx} = -\frac{2x + y}{x + 2y}$
+
+**Common mistake:** Forgetting that $y$ is a function of $x$, so $\frac{d}{dx}[xy] = y + x\frac{dy}{dx}$ (product rule), not just $y$.
+
+### Example 11: Integration by Parts
+
+**Problem:** Evaluate $\int x \cos x \, dx$.
+
+**Solution:**
+
+Step 1: Choose $u = x$ and $dv = \cos x \, dx$
+
+Step 2: Then $du = dx$ and $v = \sin x$
+
+Step 3: Apply integration by parts $\int u \, dv = uv - \int v \, du$:
+$$\int x \cos x \, dx = x \sin x - \int \sin x \, dx$$
+
+Step 4: Evaluate the remaining integral:
+$$= x \sin x - (-\cos x) + C = x \sin x + \cos x + C$$
+
+**Answer:** $\int x \cos x \, dx = x \sin x + \cos x + C$
+
+**Common mistake:** Choosing the wrong $u$ and $dv$. A good rule of thumb is LIATE (Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential), choose $u$ from left to right.
+
+### Example 12: Volume of Revolution
+
+**Problem:** Find the volume generated when the region bounded by $y = x^2$, $y = 0$, $x = 1$ is rotated about the $x$-axis.
+
+**Solution:**
+
+Step 1: The volume formula for rotation about the $x$-axis:
+$$V = \pi \int_a^b [f(x)]^2 \, dx$$
+
+Step 2: Substitute $f(x) = x^2$, $a = 0$, $b = 1$:
+$$V = \pi \int_0^1 (x^2)^2 \, dx = \pi \int_0^1 x^4 \, dx$$
+
+Step 3: Integrate:
+$$V = \pi \left[\frac{x^5}{5}\right]_0^1 = \pi \left(\frac{1}{5} - 0\right) = \frac{\pi}{5}$$
+
+**Answer:** Volume $= \frac{\pi}{5}$ cubic units
+
+**Common mistake:** Forgetting to square the function when using the disk method. The formula is $\pi \int [f(x)]^2 \, dx$, not $\pi \int f(x) \, dx$.
+
+## Cross-References
+
+- [Algebra](/mathematics/algebra/) -- Quadratic equations and logarithmic functions from algebra are prerequisites for many calculus techniques.
+- [Mechanics](/physics/mechanics/) -- Kinematics uses derivatives and integrals to describe motion, directly applying calculus to physics.
+- [Waves](/physics/waves/) -- Wave equations involve trigonometric differentiation and integration used throughout this topic.
+- [Organic](/chemistry/organic/) -- Reaction rate equations in organic chemistry use exponential and logarithmic functions from calculus.
+
+## Intuition
+
+**Calculus is about change and accumulation:** Differentiation measures how fast something changes (slope of a curve), while integration measures how much accumulates (area under a curve). These are inverse operations, the Fundamental Theorem of Calculus connects them, just as addition and subtraction are inverses.
+
+**Why it matters:** Calculus is the language of change, it describes how planets orbit, how populations grow, how heat flows, and how objects move. Every branch of science and engineering uses calculus to model dynamic systems.
+
+**The key insight:** The derivative tells you the rate of change at an instant, while the integral tells you the total change over an interval, they're two perspectives on the same relationship.
+
+## Common Mistakes
+
+**Forgetting the constant of integration for indefinite integrals.** Every indefinite integral must include "+ C" because the derivative of a constant is zero. Students often omit the constant, losing the family of antiderivatives. This is automatically handled in definite integrals via the Fundamental Theorem, but is essential for indefinite integrals.
+
+**Confusing the product rule and chain rule.** The product rule (fg)' = f'g + fg' applies to the product of two functions. The chain rule (f(g(x)))' = f'(g(x)) * g'(x) applies to composition. Students often apply the product rule to composite functions or the chain rule to products, giving incorrect derivatives.
+
+**Forgetting to change limits when using substitution in definite integrals.** When substituting u = g(x), the limits of integration must also change to u(a) and u(b). Students sometimes evaluate the antiderivative at the original x-limits instead of the new u-limits, giving incorrect numerical answers.
+
+---
+
+## Index
+URL: https://hsc.wyattau.com/mathematics/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
+
+# Mathematics
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [Algebra](/mathematics/algebra/)
+- [Calculus](/mathematics/calculus/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Work through Mathematics alongside the practice problems for Mathematics, then let the diagnostic tests tell you whether it stuck.
+Use the cross-references to link related concepts across subjects where applicable.
+
+## Key Concepts
+
+This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+
+## Common Mistakes
+
+- Skipping prerequisite material before attempting this section
+- Not practising problems after reading the theory
+- Failing to connect concepts across different topics
+
+## Further Reading
+
+For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.
+
+## Physics
+
+---
+
+## Index
+URL: https://hsc.wyattau.com/physics/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Physics, attempt the practice problems cold, and only then check the worked solutions.
+
+# Physics
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [Mechanics](/physics/mechanics/)
+- [Waves](/physics/waves/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Work through Physics alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
+Use the cross-references to link related concepts across subjects where applicable.
+
+## Key Concepts
+
+This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+
+## Common Mistakes
+
+- Skipping prerequisite material before attempting this section
+- Not practising problems after reading the theory
+- Failing to connect concepts across different topics
+
+## Further Reading
+
+For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.
+
+---
+
+## Mechanics
+URL: https://hsc.wyattau.com/physics/mechanics/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Physics", "url": "https://hsc.wyattau.com/physics"}, {"name": "Mechanics", "url": "https://hsc.wyattau.com/physics/mechanics"}]
+}
+</script>
+
+## Mechanics
+
+HSC physics study notes - Mechanics
+
+
+```mermaid
+flowchart TD
+    A[Mechanics] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Kinematics
+
+**Equations of motion (constant acceleration):**
+$$v = u + at$$
+$$s = ut + \frac{1}{2}at^2$$
+$$v^2 = u^2 + 2as$$
+
+**Average velocity:** $\bar{v} = \frac{u + v}{2}$
+
+### Forces
+
+**Newton's Second Law:** $F = ma$
+
+**Weight:** $W = mg$ (where $g \approx 9.8\,\text{m/s}^2$)
+
+**Friction:** $f = \mu N$ where $\mu$ is the coefficient of friction
+
+### Momentum
+
+**Linear momentum:** $p = mv$
+
+**Impulse:** $J = F\Delta t = \Delta p$
+
+**Conservation of momentum:** $m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$ (when no external forces)
+
+### Energy
+
+**Kinetic energy:** $E_k = \frac{1}{2}mv^2$
+
+**Gravitational potential energy:** $E_p = mgh$
+
+**Work done:** $W = Fs\cos\theta$
+
+**Work-energy theorem:** $W_{\text{net}} = \Delta E_k$
+
+## Worked Examples
+
+### Example 1: Projectile Motion
+
+**Problem:** A ball is thrown horizontally at $20\,\text{m/s}$ from a height of $45\,\text{m}$. Find the horizontal range ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Find time of flight using vertical motion:
+$$s = \frac{1}{2}gt^2 \Rightarrow 45 = \frac{1}{2}(10)t^2 \Rightarrow t = 3\,\text{s}$$
+
+Step 2: Find horizontal range:
+$$\text{Range} = u_x \cdot t = 20 \times 3 = 60\,\text{m}$$
+
+**Answer:** The horizontal range is $60\,\text{m}$
+
+### Example 2: Newton's Laws
+
+**Problem:** A $5\,\text{kg}$ block is pushed across a rough surface with a $20\,\text{N}$ horizontal force. If the coefficient of kinetic friction is $0.3$, find the acceleration ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Calculate the normal force: $N = mg = 5 \times 10 = 50\,\text{N}$
+
+Step 2: Calculate friction: $f = \mu N = 0.3 \times 50 = 15\,\text{N}$
+
+Step 3: Find net force: $F_{\text{net}} = 20 - 15 = 5\,\text{N}$
+
+Step 4: Apply Newton's second law: $a = \frac{F_{\text{net}}}{m} = \frac{5}{5} = 1\,\text{m/s}^2$
+
+**Answer:** The acceleration is $1\,\text{m/s}^2$
+
+### Example 3: Conservation of Momentum
+
+**Problem:** A $2\,\text{kg}$ ball moving at $3\,\text{m/s}$ collides with a stationary $3\,\text{kg}$ ball. After the collision, the $2\,\text{kg}$ ball moves at $1\,\text{m/s}$. Find the velocity of the $3\,\text{kg}$ ball.
+
+**Solution:**
+
+Step 1: Apply conservation of momentum:
+$$m_1 u_1 + m_2 u_2 = m_1 v_1 + m_2 v_2$$
+$$2 \times 3 + 3 \times 0 = 2 \times 1 + 3 \times v_2$$
+
+Step 2: Solve for $v_2$:
+$$6 = 2 + 3v_2 \Rightarrow v_2 = \frac{4}{3} \approx 1.33\,\text{m/s}$$
+
+**Answer:** The velocity of the $3\,\text{kg}$ ball is $\frac{4}{3}\,\text{m/s}$
+
+## Exam Tips
+
+1. Always draw a free-body diagram before applying Newton's laws
+2. For projectile motion, separate horizontal and vertical components
+3. Momentum is conserved only when there are no external forces
+4. Check units and significant figures in your final answer
+
+## Practice Problems
+
+1. A car accelerates from rest at $2\,\text{m/s}^2$ for $5\,\text{s}$. Find the distance covered.
+2. A $10\,\text{kg}$ object is pulled up a $30°$ incline with a force of $80\,\text{N}$. Find the acceleration (frictionless).
+3. Two objects of mass $4\,\text{kg}$ and $6\,\text{kg}$ collide head-on. The $4\,\text{kg}$ object was moving at $5\,\text{m/s}$ and the $6\,\text{kg}$ object at $-3\,\text{m/s}$. After the collision, the $4\,\text{kg}$ object moves at $-1\,\text{m/s}$. Find the final velocity of the $6\,\text{kg}$ object.
+
+### Example 4: Work and Energy
+
+**Problem:** A $20\,\text{kg}$ block is pushed $10\,\text{m}$ along a horizontal surface by a $50\,\text{N}$ force at $30°$ above the horizontal. The coefficient of kinetic friction is $0.2$. Find the work done by each force and the net work.
+
+**Solution:**
+
+Step 1: Work done by applied force:
+$$W_F = Fd\cos\theta = 50 \times 10 \times \cos 30° = 50 \times 10 \times 0.866 = 433\,\text{J}$$
+
+Step 2: Normal force: $N = mg - F\sin\theta = 20 \times 10 - 50 \times \sin 30° = 200 - 25 = 175\,\text{N}$
+
+Step 3: Friction force: $f = \mu N = 0.2 \times 175 = 35\,\text{N}$
+
+Step 4: Work done by friction: $W_f = -f \times d = -35 \times 10 = -350\,\text{J}$
+
+Step 5: Work done by gravity and normal force is zero (perpendicular to displacement).
+
+Step 6: Net work: $W_{\text{net}} = 433 - 350 = 83\,\text{J}$
+
+**Answer:** Net work is $83\,\text{J}$
+
+### Example 5: Projectile Motion with Height
+
+**Problem:** A ball is thrown from a $20\,\text{m}$ cliff at $25\,\text{m/s}$ at $45°$ above the horizontal. Find the horizontal range ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Components: $v_{0x} = 25\cos 45° = 17.68\,\text{m/s}$, $v_{0y} = 25\sin 45° = 17.68\,\text{m/s}$
+
+Step 2: Vertical displacement: $s = -20\,\text{m}$ (below starting point)
+
+Step 3: Using $s = v_{0y}t - \frac{1}{2}gt^2$:
+$$-20 = 17.68t - 5t^2$$
+$$5t^2 - 17.68t - 20 = 0$$
+
+Step 4: Solving: $t = \frac{17.68 + \sqrt{17.68^2 + 400}}{10} = \frac{17.68 + 26.83}{10} = 4.45\,\text{s}$
+
+Step 5: Range: $R = v_{0x} \times t = 17.68 \times 4.45 = 78.7\,\text{m}$
+
+**Answer:** The horizontal range is approximately $78.7\,\text{m}$
+
+### Example 6: Elastic Collision
+
+**Problem:** A $3\,\text{kg}$ ball moving at $4\,\text{m/s}$ collides elastically with a $1\,\text{kg}$ ball at rest. Find the velocities after collision.
+
+**Solution:**
+
+For elastic collisions:
+$$v_1' = \frac{m_1 - m_2}{m_1 + m_2}v_1 = \frac{3-1}{3+1} \times 4 = \frac{2}{4} \times 4 = 2\,\text{m/s}$$
+
+$$v_2' = \frac{2m_1}{m_1 + m_2}v_1 = \frac{2 \times 3}{3+1} \times 4 = \frac{6}{4} \times 4 = 6\,\text{m/s}$$
+
+**Answer:** The $3\,\text{kg}$ ball continues at $2\,\text{m/s}$ and the $1\,\text{kg}$ ball moves at $6\,\text{m/s}$
+
+## Why This Matters
+
+Mechanics is the foundation of physics and engineering. From designing bridges and vehicles to understanding planetary motion, the principles of Newton's laws, energy conservation, and momentum are universally applicable.
+
+## Additional Exam Tips
+
+1. For problems involving height, always define a coordinate system and be consistent with signs
+2. Kinetic energy is always positive; work can be positive or negative
+3. In elastic collisions, both momentum and kinetic energy are conserved
+4. Use energy methods when speed and height are involved, they are often simpler than force methods
+
+## More Worked Examples
+
+### Example 7: Inclined Plane with Friction
+
+**Problem:** A $5\,\text{kg}$ block is placed on a $30°$ incline with coefficient of kinetic friction $\mu = 0.2$. The block is given an initial velocity of $4\,\text{m/s}$ up the incline. Find how far up the incline the block travels before stopping ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Forces along the incline (taking up as positive):
+$$F_{\text{gravity along incline}} = -mg\sin\theta = -5 \times 10 \times \sin 30° = -25\,\text{N}$$
+
+Step 2: Normal force: $N = mg\cos\theta = 5 \times 10 \times \cos 30° = 43.3\,\text{N}$
+
+Step 3: Friction (opposes motion, so acts down the incline):
+$$f = \mu N = 0.2 \times 43.3 = 8.66\,\text{N}$$
+
+Step 4: Net force: $F_{\text{net}} = -25 - 8.66 = -33.66\,\text{N}$
+
+Step 5: Acceleration: $a = \frac{F_{\text{net}}}{m} = \frac{-33.66}{5} = -6.73\,\text{m/s}^2$
+
+Step 6: Using $v^2 = u^2 + 2as$:
+$$0 = 16 + 2(-6.73)s \implies s = \frac{16}{13.46} = 1.19\,\text{m}$$
+
+**Answer:** The block travels $1.19\,\text{m}$ up the incline before stopping
+
+**Common mistake:** Forgetting that friction acts down the incline when the block is moving up. Friction always opposes the direction of motion.
+
+### Example 8: Work-Energy Theorem
+
+**Problem:** A $2\,\text{kg}$ ball is thrown vertically upward at $15\,\text{m/s}$. Find the height at which its speed is $5\,\text{m/s}$ ($g = 10\,\text{m/s}^2$).
+
+**Solution:**
+
+Step 1: Apply the work-energy theorem: $W_{\text{net}} = \Delta E_k$
+
+Step 2: The only force doing work is gravity: $W = -mgh$
+
+Step 3: Change in kinetic energy:
+$$\Delta E_k = \frac{1}{2}m v_f^2 - \frac{1}{2}m v_i^2 = \frac{1}{2}(2)(25) - \frac{1}{2}(2)(225) = 25 - 225 = -200\,\text{J}$$
+
+Step 4: Set equal:
+$$-mgh = -200$$
+$$-2 \times 10 \times h = -200$$
+$$h = 10\,\text{m}$$
+
+**Answer:** The height is $10\,\text{m}$
+
+**Common mistake:** Forgetting the negative sign for work done by gravity. Gravity does negative work when the object moves upward.
+
+### Example 9: Centripetal Force
+
+**Problem:** A $0.5\,\text{kg}$ ball is tied to a string of length $1\,\text{m}$ and swung in a horizontal circle at $3\,\text{rev/s}$. Find the tension in the string.
+
+**Solution:**
+
+Step 1: Find the angular velocity:
+$$\omega = 2\pi f = 2\pi \times 3 = 6\pi\,\text{rad/s}$$
+
+Step 2: The tension provides the centripetal force:
+$$T = m\omega^2 r = 0.5 \times (6\pi)^2 \times 1 = 0.5 \times 36\pi^2 = 18\pi^2 \approx 177.7\,\text{N}$$
+
+**Answer:** The tension is approximately $178\,\text{N}$
+
+**Common mistake:** Using $v = \omega r$ incorrectly. For uniform circular motion, $v = \omega r$ and $T = mv^2/r = m\omega^2 r$.
+
+## Intuition
+
+**Mechanics describes how objects move under forces:** Think of forces as pushes and pulls. When you push a shopping cart, you apply a force. Friction pushes back. The net force determines how the cart accelerates. This simple principle, force equals mass times acceleration, explains everything from falling apples to orbiting planets.
+
+**Why it matters:** Mechanics is the foundation of physics and engineering. Every bridge, building, vehicle, and aircraft is designed using these principles. Understanding kinematics, forces, momentum, and energy is essential for solving real-world problems.
+
+**The key insight:** Energy methods are often simpler than force methods, instead of tracking every force at every moment, just compare the beginning and end states.
+
+## Common Mistakes
+
+**Confusing mass with weight in force calculations.** Mass (kg) is the amount of matter, while weight (N) is the gravitational force W = mg. When applying Newton's second law F = ma, the mass in kg is used, not the weight in Newtons. Students often substitute weight where mass is required, giving acceleration values that are too large.
+
+## Cross-References
+
+- [Calculus](/mathematics/calculus/) -- Differentiation and integration are used to derive kinematic equations and analyse variable acceleration.
+- [Algebra](/mathematics/algebra/) -- Solving systems of equations and quadratic formulas are essential for force and projectile problems.
+- [Waves](/physics/waves/) -- Oscillatory motion and wave mechanics extend the principles of simple harmonic motion from mechanics.
+- [Inorganic](/chemistry/inorganic/) -- Energy conservation in thermochemistry parallels the work-energy theorem in mechanics.
+
+**Forgetting that friction opposes motion, not force direction.** Friction acts opposite to the direction of relative motion or attempted motion, not necessarily opposite to the applied force. When pushing a block up a ramp, friction acts down the ramp. When the block slides down, friction acts up the ramp. The direction changes with the motion.
+
+**Using displacement instead of distance in kinematics.** Displacement is a vector (can be negative), while distance is a scalar (always positive). When an object changes direction, the total distance travelled is the sum of the magnitudes of each segment, while the net displacement may be small or zero. Confusing the two gives incorrect speed calculations.
+
+---
+
+## Waves
+URL: https://hsc.wyattau.com/physics/waves/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "hsc", "url": "https://hsc.wyattau.com"}, {"name": "Physics", "url": "https://hsc.wyattau.com/physics"}, {"name": "Waves", "url": "https://hsc.wyattau.com/physics/waves"}]
+}
+</script>
+
+## Waves
+
+HSC physics study notes - Waves
+
+
+```mermaid
+flowchart TD
+    A[Waves] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Key Concepts
+
+### Wave Properties
+
+**Wave speed equation:** $v = f\lambda$
+
+**Frequency:** $f = \frac{1}{T}$ (where $T$ is the period)
+
+**Wave types:**
+
+- Transverse: oscillations perpendicular to wave direction (e.g., light, water waves)
+- Longitudinal: oscillations parallel to wave direction (e.g., sound, compressions)
+
+### Sound Waves
+
+**Speed of sound in air:** $v \approx 340\,\text{m/s}$ at $20°C$
+
+**Sound intensity:** $I = \frac{P}{4\pi r^2}$ (inverse square law)
+
+**Sound level (decibels):** $\beta = 10\log_{10}\left(\frac{I}{I_0}\right)$ where $I_0 = 10^{-12}\,\text{W/m}^2$
+
+### Electromagnetic Spectrum
+
+**Speed of EM waves in vacuum:** $c = 3 \times 10^8\,\text{m/s}$
+
+**Energy of a photon:** $E = hf = \frac{hc}{\lambda}$
+
+**Relationship:** $c = f\lambda$
+
+### Interference
+
+**Superposition principle:** When two waves meet, the resultant displacement is the sum of individual displacements.
+
+**Constructive interference:** Path difference $= n\lambda$ ($n = 0, 1, 2, \ldots$)
+
+**Destructive interference:** Path difference $= (n + \frac{1}{2})\lambda$ ($n = 0, 1, 2, \ldots$)
+
+### Diffraction
+
+**Single slit:** Central maximum is twice the width of other maxima.
+
+**Diffraction grating:** $d\sin\theta = n\lambda$
+
+## Worked Examples
+
+### Example 1: Wave Speed
+
+**Problem:** A wave has frequency $50\,\text{Hz}$ and wavelength $0.8\,\text{m}$. Find the wave speed.
+
+**Solution:**
+
+Step 1: Apply the wave speed equation:
+$$v = f\lambda = 50 \times 0.8 = 40\,\text{m/s}$$
+
+**Answer:** The wave speed is $40\,\text{m/s}$
+
+### Example 2: Sound Intensity
+
+**Problem:** A sound has intensity $10^{-4}\,\text{W/m}^2$. Find the sound level in decibels.
+
+**Solution:**
+
+Step 1: Apply the decibel formula:
+$$\beta = 10\log_{10}\left(\frac{I}{I_0}\right) = 10\log_{10}\left(\frac{10^{-4}}{10^{-12}}\right)$$
+
+Step 2: Simplify:
+$$\beta = 10\log_{10}(10^8) = 10 \times 8 = 80\,\text{dB}$$
+
+**Answer:** The sound level is $80\,\text{dB}$
+
+### Example 3: Diffraction Grating
+
+**Problem:** Light of wavelength $600\,\text{nm}$ passes through a diffraction grating with $5000$ lines per cm. Find the angle of the first-order maximum.
+
+**Solution:**
+
+Step 1: Find the grating spacing:
+$$d = \frac{1}{5000} = 2 \times 10^{-4}\,\text{cm} = 2 \times 10^{-6}\,\text{m}$$
+
+Step 2: Convert wavelength: $\lambda = 600\,\text{nm} = 6 \times 10^{-7}\,\text{m}$
+
+Step 3: Apply the grating equation for $n = 1$:
+$$\sin\theta = \frac{n\lambda}{d} = \frac{1 \times 6 \times 10^{-7}}{2 \times 10^{-6}} = 0.3$$
+
+Step 4: $\theta = \arcsin(0.3) \approx 17.5°$
+
+**Answer:** The angle of the first-order maximum is approximately $17.5°$
+
+## Exam Tips
+
+1. Remember that $v = f\lambda$ applies to all waves
+2. Sound intensity follows the inverse square law
+3. For diffraction gratings, higher orders are only visible if $\sin\theta \leq 1$
+4. EM spectrum: radio, microwave, infrared, visible, UV, X-ray, gamma (increasing energy)
+
+## Practice Problems
+
+1. A wave travels at $340\,\text{m/s}$ with wavelength $0.5\,\text{m}$. Find the frequency.
+2. Two sound sources are $2\,\text{m}$ apart and vibrate in phase. Find the position of the first minimum between them for sound of wavelength $0.4\,\text{m}$.
+3. What is the energy of a photon with wavelength $500\,\text{nm}$? ($h = 6.63 \times 10^{-34}\,\text{J s}$, $c = 3 \times 10^8\,\text{m/s}$)
+
+### Example 4: Standing Waves on a String
+
+**Problem:** A string of length $0.5\,\text{m}$ is fixed at both ends and vibrates in its third harmonic at $150\,\text{Hz}$. Find the wave speed.
+
+**Solution:**
+
+Step 1: For a string fixed at both ends, the $n$-th harmonic frequency is:
+$$f_n = \frac{nv}{2L}$$
+
+Step 2: For the third harmonic ($n = 3$):
+$$150 = \frac{3v}{2 \times 0.5} = \frac{3v}{1}$$
+
+Step 3: Solve for $v$:
+$$v = \frac{150}{3} = 50\,\text{m/s}$$
+
+**Answer:** The wave speed is $50\,\text{m/s}$
+
+**Common mistake:** Using $f_n = nv/L$ instead of $f_n = nv/(2L)$ for a string fixed at both ends. The factor of 2 arises because both ends are nodes.
+
+### Example 5: Doppler Effect
+
+**Problem:** A train sounding its horn at $400\,\text{Hz}$ approaches a stationary observer at $30\,\text{m/s}$. The speed of sound is $340\,\text{m/s}$. Find the frequency heard by the observer.
+
+**Solution:**
+
+Step 1: For a source approaching a stationary observer:
+$$f' = f \cdot \frac{v}{v - v_s}$$
+
+Step 2: Substitute values:
+$$f' = 400 \times \frac{340}{340 - 30} = 400 \times \frac{340}{310} = 400 \times 1.097 = 438.7\,\text{Hz}$$
+
+**Answer:** The observer hears a frequency of approximately $439\,\text{Hz}$
+
+**Common mistake:** Using the wrong sign in the Doppler formula. When the source approaches, the denominator is $v - v_s$ (frequency increases). When the source recedes, it is $v + v_s$ (frequency decreases).
+
+### Example 6: Photon Energy and Photoelectric Effect
+
+**Problem:** Light of wavelength $200\,\text{nm}$ strikes a metal with work function $3.5\,\text{eV}$. Find the maximum kinetic energy of the emitted electrons ($h = 6.63 \times 10^{-34}\,\text{J s}$, $c = 3 \times 10^8\,\text{m/s}$, $1\,\text{eV} = 1.6 \times 10^{-19}\,\text{J}$).
+
+**Solution:**
+
+Step 1: Calculate photon energy:
+$$E = \frac{hc}{\lambda} = \frac{6.63 \times 10^{-34} \times 3 \times 10^8}{200 \times 10^{-9}} = 9.945 \times 10^{-19}\,\text{J}$$
+
+Step 2: Convert to eV:
+$$E = \frac{9.945 \times 10^{-19}}{1.6 \times 10^{-19}} = 6.22\,\text{eV}$$
+
+Step 3: Apply the photoelectric equation:
+$$E_k = E - W_0 = 6.22 - 3.5 = 2.72\,\text{eV}$$
+
+**Answer:** The maximum kinetic energy is $2.72\,\text{eV}$
+
+**Common mistake:** Forgetting to convert between joules and electron volts. Always check the units requested in the answer.
+
+## More Worked Examples
+
+### Example 7: Standing Waves in a Pipe
+
+**Problem:** Find the fundamental frequency of a pipe of length $0.8\,\text{m}$ that is open at both ends ($v = 340\,\text{m/s}$).
+
+**Solution:**
+
+Step 1: For a pipe open at both ends, the fundamental frequency occurs when the length equals half a wavelength:
+$$L = \frac{\lambda}{2} \implies \lambda = 2L = 2 \times 0.8 = 1.6\,\text{m}$$
+
+Step 2: Apply the wave equation:
+$$f = \frac{v}{\lambda} = \frac{340}{1.6} = 212.5\,\text{Hz}$$
+
+**Answer:** The fundamental frequency is $212.5\,\text{Hz}$
+
+**Common mistake:** Using $L = \lambda$ instead of $L = \lambda/2$ for the fundamental mode in a pipe open at both ends.
+
+### Example 8: Beats
+
+**Problem:** Two tuning forks produce frequencies of $256\,\text{Hz}$ and $260\,\text{Hz}$. Find the beat frequency and the time interval between successive maxima.
+
+**Solution:**
+
+Step 1: Beat frequency is the difference of the two frequencies:
+$$f_{\text{beat}} = |f_1 - f_2| = |256 - 260| = 4\,\text{Hz}$$
+
+Step 2: Time interval between successive maxima:
+$$T = \frac{1}{f_{\text{beat}}} = \frac{1}{4} = 0.25\,\text{s}$$
+
+**Answer:** The beat frequency is $4\,\text{Hz}$ and the time interval is $0.25\,\text{s}$
+
+**Common mistake:** Confusing beat frequency with the average frequency. The beat frequency is the difference, not the sum or average.
+
+### Example 9: Refraction and Snell's Law
+
+**Problem:** Light traveling in glass ($n = 1.5$) strikes the glass-air boundary at an angle of incidence of $40°$. Find the angle of refraction and determine if total internal reflection occurs.
+
+**Solution:**
+
+Step 1: Check for total internal reflection. The critical angle is:
+$$\sin C = \frac{n_2}{n_1} = \frac{1}{1.5} = 0.667$$
+$$C = \arcsin(0.667) = 41.8°$$
+
+Step 2: Since the angle of incidence ($40°$) is less than the critical angle ($41.8°$), total internal reflection does not occur.
+
+Step 3: Apply Snell's law:
+$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
+$$1.5 \times \sin 40° = 1 \times \sin\theta_2$$
+$$\sin\theta_2 = 1.5 \times 0.643 = 0.964$$
+$$\theta_2 = \arcsin(0.964) = 74.6°$$
+
+**Answer:** The angle of refraction is $74.6°$ and no total internal reflection occurs
+
+**Common mistake:** Forgetting to check the critical angle before applying Snell's law. If the angle of incidence exceeds the critical angle, all light is reflected back into the denser medium.
+
+## Intuition
+
+Waves are energy in motion without matter following it -- think of a Mexican wave in a stadium where each person moves up and down while the pattern travels forward. Interference is what happens when two waves occupy the same space: they add together, creating regions of reinforcement and cancellation. Diffraction reveals that waves bend around obstacles, a behaviour that becomes more pronounced when the obstacle size approaches the wavelength. The Doppler effect is the reason a siren changes pitch as it passes you -- the wavefronts compress ahead and stretch behind.
+
+## Common Mistakes
+
+**Confusing the wave speed equation variables.** The equation v = f * lambda relates wave speed (m/s), frequency (Hz), and wavelength (m). Students often rearrange it incorrectly or mix up which variable to solve for. Remember: speed equals frequency times wavelength, always.
+
+**Using the wrong sign in the Doppler effect formula.** When the source approaches the observer, the observed frequency increases: f' = f *v / (v - vs). When the source recedes, frequency decreases: f' = f* v / (v + vs). Students often use the wrong sign, giving the opposite effect to what actually occurs.
+
+**Forgetting that sound intensity follows the inverse square law.** Sound intensity decreases as 1/r^2 with distance from the source. Doubling the distance reduces intensity to one-quarter, not one-half. Students often assume a linear decrease, leading to incorrect calculations of sound levels at different distances.
+
+## Cross-References
+
+- [Mechanics](/physics/mechanics/) -- Simple harmonic motion is the foundation for understanding oscillatory wave behaviour.
+- [Algebra](/mathematics/algebra/) -- Logarithmic functions are used in decibel calculations and sound intensity levels.
+- [Calculus](/mathematics/calculus/) -- Differentiation and integration are used in wave equations and standing wave analysis.
+- [Inorganic](/chemistry/inorganic/) -- Electromagnetic spectrum properties connect to atomic structure and electron transitions.

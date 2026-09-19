@@ -194,5 +194,5 @@ tags: [glossary]
 ## Related Resources
 
 - [DSE Exam Overview](https://computer-science.wyattau.com/4-databases/8_nosql-overview/)
-- [Subject Guides](/dse/subjects/)
+- Subject Guides
 - [Exam Preparation Tips](https://admissions.wyattau.com/bmo-preparation/)

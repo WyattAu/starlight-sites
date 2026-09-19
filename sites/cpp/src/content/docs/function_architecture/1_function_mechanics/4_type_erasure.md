@@ -759,4 +759,4 @@ linked above.
 
 - **[Lambdas](/function_architecture/1_function_mechanics/3_lambdas/):** Lambda expressions used to implement type-erased callable wrappers.
 - **[Templates and Metaprogramming](/templates_and_metaprogramming/):** Template techniques that type erasure often replaces.
-- **[Standard Library](../../standard_library/):** Standard library components like std::function that use type erasure.
+- **Standard Library:** Standard library components like std::function that use type erasure.

@@ -2,73 +2,71 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Information security from principles to practice: threat modelling, secure coding, system hardening, network security, monitoring, and incident response.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Security-Fundamentals
 
-- [Security Fundamentals](https://security.wyattau.com/01-security-fundamentals/): This section covers security fundamentals concepts, definitions, and applications with worked examples and practice problems.
-- [Security Fundamentals](https://security.wyattau.com/01-security-fundamentals/security-fundamentals/): The CIA triad is the foundational model for information security. Every security control, Vulnerability, and threat maps to one or more of these three
+- [Index](https://security.wyattau.com/01-security-fundamentals/)
+- [Security Fundamentals](https://security.wyattau.com/01-security-fundamentals/security-fundamentals/)
 
 ## Cryptography
 
-- [Cryptography](https://security.wyattau.com/02-cryptography/cryptography/): Cryptography is the mathematical science of securing communication and data. It is not a security Solution by itself, it is a tool that, when correctly
-- [Cryptography](https://security.wyattau.com/02-cryptography/): This section covers cryptography concepts, definitions, and applications with worked examples and practice problems.
-- [TLS in Practice](https://security.wyattau.com/02-cryptography/tls-in-practice/): Study notes for TLS in Practice | Security - Wyatt's Notes with worked examples and practice questions.
+- [Cryptography](https://security.wyattau.com/02-cryptography/cryptography/)
+- [Index](https://security.wyattau.com/02-cryptography/)
+- [Tls In Practice](https://security.wyattau.com/02-cryptography/tls-in-practice/)
 
 ## Authentication
 
-- [Authentication](https://security.wyattau.com/03-authentication/): This section covers authentication concepts, definitions, and applications with worked examples and practice problems.
-- [Authentication and Authorization](https://security.wyattau.com/03-authentication/authentication/): Study notes for Authentication and Authorization with worked examples, practice problems, and key concepts for exam preparation.
-- [OAuth 2.0 Deep Dive](https://security.wyattau.com/03-authentication/oauth-deep-dive/): OAuth 2.0 is an framework defined in RFC 6749. It allows a third-party application To obtain limited access to a user' s resources on a resource server
+- [Authentication](https://security.wyattau.com/03-authentication/authentication/)
+- [Index](https://security.wyattau.com/03-authentication/)
+- [Oauth Deep Dive](https://security.wyattau.com/03-authentication/oauth-deep-dive/)
 
 ## Web-Security
 
-- [API Security](https://security.wyattau.com/04-web-security/api-security/): REST APIs are stateless by design: each request must contain all information needed for Authentication and authorization. The server does not maintain
-- [OWASP Top 10 (2021) Detailed](https://security.wyattau.com/04-web-security/owasp-top-10/): Broken access control is the most critical web application security risk. It occurs when users can Act outside their intended permissions.
-- [Web Security](https://security.wyattau.com/04-web-security/): This section covers web security concepts, definitions, and applications with worked examples and practice problems.
-- [Web Security](https://security.wyattau.com/04-web-security/web-security/): The OWASP Top 10 is the de facto standard for web application security awareness. The 2021 edition Reflects the shift toward cloud-native architectures and
+- [Api Security](https://security.wyattau.com/04-web-security/api-security/)
+- [Index](https://security.wyattau.com/04-web-security/)
+- [Owasp Top 10](https://security.wyattau.com/04-web-security/owasp-top-10/)
+- [Web Security](https://security.wyattau.com/04-web-security/web-security/)
 
 ## Network-Security
 
-- [Network Security](https://security.wyattau.com/05-network-security/): This section covers network security concepts, definitions, and applications with worked examples and practice problems.
-- [Network Security](https://security.wyattau.com/05-network-security/network-security/): A firewall is a network security device or software that monitors and filters incoming and outgoing Network traffic based on an organization' s security
-- [VPN and Tunneling](https://security.wyattau.com/05-network-security/vpn-and-tunneling/): Study notes for VPN and Tunneling with worked examples, practice problems, and key concepts for exam preparation.
+- [Index](https://security.wyattau.com/05-network-security/)
+- [Network Security](https://security.wyattau.com/05-network-security/network-security/)
+- [Vpn And Tunneling](https://security.wyattau.com/05-network-security/vpn-and-tunneling/)
 
 ## Incident-Response
 
-- [Digital Forensics Basics](https://security.wyattau.com/06-incident-response/forensics/): The chain of custody is a documented record of every person who handled evidence, when, where, and Why. A broken chain of custody renders evidence
-- [Incident Response](https://security.wyattau.com/06-incident-response/incident-response/): NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and
-- [Incident Response](https://security.wyattau.com/06-incident-response/): This section covers incident response concepts, definitions, and applications with worked examples and practice problems.
+- [Forensics](https://security.wyattau.com/06-incident-response/forensics/)
+- [Index](https://security.wyattau.com/06-incident-response/)
+- [SSH Brute Force Attempt](https://security.wyattau.com/06-incident-response/incident-response/): NIST SP 800-61 Rev. 2 defines the incident response lifecycle as four phases: Preparation, Detection And Analysis, Containment Eradication and Recovery, and...
 
 ## Cloud-Security
 
-- [Cloud Security](https://security.wyattau.com/07-cloud-security/cloud-security/): Cloud security is governed by a shared responsibility model. The division of responsibility between The cloud provider and the customer depends on the
-- [Cloud Security](https://security.wyattau.com/07-cloud-security/): This section covers cloud security concepts, definitions, and applications with worked examples and practice problems.
+- [Cloud Security](https://security.wyattau.com/07-cloud-security/cloud-security/)
+- [Index](https://security.wyattau.com/07-cloud-security/)
 
 ## Os-Security
 
-- [Os Security](https://security.wyattau.com/08-os-security/): This section covers os security concepts, definitions, and applications with worked examples and practice problems.
-- [OS Security](https://security.wyattau.com/08-os-security/os-security/): SSH is the primary remote administration protocol on Linux. Default configuratio Comprehensive educational content coverage with definitions and practice proble
+- [Index](https://security.wyattau.com/08-os-security/)
+- [Os Security](https://security.wyattau.com/08-os-security/os-security/)
 
 ## Malware-Analysis
 
-- [Malware Analysis](https://security.wyattau.com/09-malware-analysis/): This section covers malware analysis concepts, definitions, and applications with worked examples and practice problems.
-- [Malware Analysis](https://security.wyattau.com/09-malware-analysis/malware-analysis/): Malware classification is the foundational step in any analysis workflow. Understanding the category Of a specimen determines the analyst' s tooling,
+- [Index](https://security.wyattau.com/09-malware-analysis/)
+- [Malware Analysis](https://security.wyattau.com/09-malware-analysis/malware-analysis/)
 
 ## Overview
 
-- [About This Site](https://security.wyattau.com/about/): Wyatt's Notes delivers thorough study materials for cybersecurity. These notes cover network security, cryptography, vulnerability analysis, and secure
-- [Complete Cybersecurity Study Guide](https://security.wyattau.com/hub/): Study notes for Complete Cybersecurity Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Cybersecurity Glossary, Key Terms and Definitions](https://security.wyattau.com/glossary/): Advanced Persistent Threat (APT): A prolonged and targeted cyber attack where an intruder gains access and remains undetected for an extended period.
-- [Cybersecurity Practice Test, 30 Problems](https://security.wyattau.com/practice-test-mega/): 30 cybersecurity problems covering Network Security, Cryptography, and Compliance. Multiple choice and scenario analysis with detailed explanations.
-- [Introduction to Security](https://security.wyattau.com/intro/): Information security is not a feature you bolt on after the fact. It is a property of a system that Must be designed in from the start, validated
-- [Penetration Testing and Attack Methodologies](https://security.wyattau.com/pentesting-and-attacks/): Penetration testing is an authorized, simulated attack against a system, network, or Application to identify exploitable vulnerabilities before adversaries
-- [Security](https://security.wyattau.com/): Information security from principles to practice: threat modelling, secure coding, system hardening, network security, monitoring, and incident response.
-- [Security Fundamentals Practice](https://security.wyattau.com/practice-security-fundamentals/): 15 practice questions covering the CIA triad, encryption, authentication, network security, OWASP Top 10, and incident response.
+- [About](https://security.wyattau.com/about/)
+- [Glossary](https://security.wyattau.com/glossary/)
+- [Hub](https://security.wyattau.com/hub/)
+- [Index](https://security.wyattau.com/)
+- [Intro](https://security.wyattau.com/intro/)
+- [Practice Security Fundamentals](https://security.wyattau.com/practice-security-fundamentals/)
+- [Practice Test Mega](https://security.wyattau.com/practice-test-mega/)
+- [SQL Injection in Search Functionality](https://security.wyattau.com/pentesting-and-attacks/)
 
 ## Diagnostics
 
-- [Diagnostic Test: Security](https://security.wyattau.com/diagnostics/diag-security/): Diagnostic test notes for security Diagnostic Test: Security covering key concepts, worked examples, and practice problems for exam preparation.
-- [Diagnostics](https://security.wyattau.com/diagnostics/): Diagnostic test notes for security Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Diag Security](https://security.wyattau.com/diagnostics/diag-security/)
+- [Index](https://security.wyattau.com/diagnostics/)

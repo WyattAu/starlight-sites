@@ -64,7 +64,7 @@ This hub page maps every resource on this site, organised by subject, with study
 - [Chemistry](#chemistry)
 - [Mathematics](#mathematics)
 - [Recommended Study Plan](#recommended-study-plan)
-- [JEE/NEET Preparation](#jee-neet-preparation)
+- [JEE/NEET Preparation](/hub/)
 - [Cross-Site Resources](#cross-site-resources)
 - [FAQ](/hub/)
 
@@ -154,7 +154,7 @@ CBSE Mathematics covers algebra, calculus, vectors, three-dimensional geometry, 
 
 - [Flashcards: Mathematics Class 12](/flashcards-mathematics-class12/)
 - [Practice Questions: Mathematics](/practice-maths/)
-- [Diagnostic Quizzes](mathematics), test across all maths topics
+- Diagnostic Quizzes, test across all maths topics
 
 ### Key Exam Focus
 

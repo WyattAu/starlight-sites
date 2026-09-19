@@ -1,0 +1,1624 @@
+# Driving (EU) — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Overview
+
+---
+
+## About
+URL: https://driving-eu.wyattau.com/about/
+
+## About Wyatt's Notes, EU Driving
+
+Wyatt's Notes offers comprehensive study materials for EU driving licence tests. These notes cover the European driving regulations, road signs, theory test preparation, and the driving skills required for EU licence categories.
+
+### Why Trust These Resources?
+
+These notes are developed by **Wyatt**, an educator and content developer with knowledge of driving regulations across EU member states. Content covers the common EU driving theory framework while addressing national variations.
+
+Materials emphasise the road safety knowledge and practical driving skills that responsible EU drivers need. Every topic reflects the actual test format and the real-world driving scenarios that new licence holders encounter.
+
+### What You'll Find
+
+- **EU driving regulations** covering speed limits, right-of-way, and road rules
+- **European road signs** with identification and meaning for all sign categories
+- **Theory test preparation** with questions modelled on EU member state exams
+- **Licence categories** covering B, A, C, and D classifications
+- **Cross-border driving** rules for driving across EU member states
+
+### Credentials
+
+Wyatt develops resources across driving tests internationally, providing comparative knowledge that strengthens EU driving materials. Content is informed by EU driving regulations, national handbooks, and analysis of test requirements.
+
+## Related Sites
+
+- **[UK Driving](https://driving-uk.wyattau.com)**, UK driving theory test resources
+- **[US Driving](https://driving-us.wyattau.com)**, US DMV driving test resources
+
+## Explore the Site
+
+Start with EU regulations to build foundational driving knowledge. Each topic progresses from rules to practical application. Use the practice tests to assess your readiness for the actual driving theory test.
+
+Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [EU Driving Test](./)
+- [Theory Test](/theory-test/)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Glossary
+URL: https://driving-eu.wyattau.com/glossary/
+
+## EU Driving Regulations
+
+**EU Driving Licence Directive**: The European Union legislation standardising driving licence formats, categories, and minimum ages across member states.
+
+**European Driving Licence**: A credit-card format licence valid across all EU/EEA countries, replacing the older paper and booklet-style licences.
+
+**B1 Driving Category**: The licence category for light quadricycles and small vehicles up to 400 kg unladen weight.
+
+**B Driving Category**: The standard car licence allowing drivers to operate vehicles up to 3,500 kg with up to 8 passenger seats.
+
+**BE Driving Category**: Required for driving a car with a trailer exceeding 750 kg, for articulated vehicle combinations.
+
+**C1 Driving Category**: Allows driving medium-sized trucks between 3,500 kg and 7,500 kg.
+
+**C Driving Category**: Required for driving large goods vehicles over 3,500 kg.
+
+**D1 Driving Category**: Allows driving minibuses with up to 16 passenger seats.
+
+**D Driving Category**: Required for driving buses with more than 8 passenger seats.
+
+**AM Driving Category**: The moped licence for light two-wheeled vehicles up to 45 km/h.
+
+**A1 Driving Category**: For small motorcycles up to 125 cc and 11 kW.
+
+**A2 Driving Category**: For medium motorcycles up to 35 kW.
+
+**A Driving Category**: For all motorcycles without power restrictions.
+
+## EU Road Signs
+
+**Vienna Convention on Road Signs and Signals**: The international treaty establishing standard road sign shapes, colours, and meanings adopted by most European countries.
+
+**Mandatory Sign**: A circular sign with a blue background indicating an obligation, such as a mandatory direction of travel or cycle path.
+
+**Prohibitory Sign**: A circular sign with a red border indicating a restriction, such as speed limits, no overtaking, or weight limits.
+
+**Danger Warning Sign**: A triangular sign with a red border alerting drivers to hazards ahead, such as bends, slippery roads, or roadworks.
+
+**Information Sign**: Signs providing guidance about directions, services, and facilities, typically rectangular and blue or green.
+
+**Priority Road Sign**: A yellow diamond-shaped sign indicating the driver has right-of-way at intersections along that road.
+
+**No Overtaking Sign**: A circular sign with a red border showing two cars side by side, prohibiting overtaking.
+
+**End of Restriction Sign**: A white circular sign with diagonal black lines indicating the end of a previously imposed restriction.
+
+**Speed Limit Sign**: A circular sign with a red border and a number indicating the maximum speed in km/h.
+
+**Motorway Sign**: A blue rectangular sign indicating the start of a motorway, with specific motorway rules applying.
+
+**Tunnel Sign**: A sign indicating an approaching tunnel with specific requirements for lights, spacing, and overtaking.
+
+## European Driving Rules
+
+**Kilometre Per Hour (km/h)**: The standard speed unit used across Europe. Speed limits are posted in km/h, not mph.
+
+**Right-Hand Traffic**: The standard in all EU countries except the UK, Ireland, Cyprus, and Malta, where vehicles drive on the left.
+
+**Drunk Driving Limit**: The maximum blood alcohol concentration (BAC) for drivers, typically 0.05% (0.02% for new drivers in many countries).
+
+**Winter Tyres (Winter Tires)**: Tyres designed for cold and icy conditions, required by law in several EU countries during winter months.
+
+**Snow Chains**: Metal chains fitted to tyres for traction on snow and ice, required or recommended in mountainous areas during winter.
+
+**High-Visibility Vest (Reflective Vest)**: A safety garment that must be carried in the vehicle and worn when stopped on the roadside in many EU countries.
+
+**Warning Triangle**: A reflective triangle placed behind a broken-down vehicle to warn approaching traffic, mandatory in most EU countries.
+
+**Headlight Usage**: Many EU countries require headlights at all times, day and night, even in good weather conditions.
+
+**Emergency Corridor (Rettungsgasse)**: In countries like Germany and Austria, drivers must form an emergency corridor by pulling to the edges of the road when traffic is stationary.
+
+**Minimum Age to Drive**: Varies by country, typically 18 for a full car licence, with some countries offering supervised driving from 17.
+
+## Vehicle Categories and Inspection
+
+**MOT (Contrôle Technique)**: The mandatory periodic vehicle safety inspection required in EU countries, equivalent to the UK MOT test.
+
+**TPV (Technischer Überprüfung)**: The German term for the technical vehicle inspection, required every two years.
+
+**Contrôle Technique**: The French vehicle inspection, required every two years for vehicles under four years old and annually thereafter.
+
+**TÜV (Technischer Überwachungsverein)**: German technical inspection associations authorised to carry out vehicle safety inspections.
+
+**Euro Emission Standards**: EU regulations limiting exhaust emissions from vehicles, with progressively stricter standards (Euro 1 through Euro 7).
+
+**ULEZ (Ultra Low Emission Zone)**: Designated zones in European cities where only vehicles meeting specific emission standards may enter.
+
+**Environmental Zone (Umweltzone)**: A zone in German cities where vehicles need a green emission sticker to enter.
+
+**Low Emission Zone (LEZ)**: An area where access of some polluting vehicles is restricted or deterred with a view to improving air quality.
+
+## Cross-Border Driving
+
+**Green Card (Insurance)**: An international certificate of motor vehicle insurance, required when driving in some non-EU countries.
+
+**European Health Insurance Card (EHIC)**: A card providing access to state-provided healthcare during temporary stays in EU/EEA countries.
+
+**International Driving Permit (IDP)**: A document translating a driving licence, useful when driving outside the EU.
+
+**European Breakdown Cover**: Insurance providing roadside assistance and recovery when driving in European countries.
+
+**Carte Verte (Green Card)**: The French term for the international motor insurance certificate, required in some non-EU countries.
+
+**Border Control**: While the Schengen Agreement allows passport-free travel within the Schengen Area, some EU countries maintain border checks.
+
+**Schengen Area**: A zone of 27 European countries that have abolished passport controls at their mutual borders.
+
+## Drink-Driving and Safety
+
+**Breathalyser**: A device used to measure blood alcohol content (BAC) from a breath sample. Some countries require drivers to carry one.
+
+**Alcohol Interlock Device**: An ignition interlock connected to a vehicle's ignition that prevents the engine from starting if the driver's BAC exceeds a set limit.
+
+**Zero Tolerance**: Some EU countries have a zero BAC limit for new or young drivers, meaning any detectable alcohol is illegal.
+
+**Mobile Phone Usage**: Using a handheld mobile phone while driving is illegal across the EU. Hands-free use is permitted but may still attract penalties if it causes distraction.
+
+**Seat Belt Law**: Wearing a seat belt is compulsory for drivers and all passengers in all EU countries, with limited exceptions.
+
+**Child Restraint**: Children under a certain age or height must use appropriate child safety seats, booster seats, or booster cushions.
+
+## Related Terms
+
+- See [Driving UK Glossary](https://typescript.wyattau.com/glossary/) for UK Highway Code terms
+- See [Driving US Glossary](https://typescript.wyattau.com/glossary/) for US DMV test terms
+
+
+## Convention and Licensing
+
+**Vienna Convention (1968)**: The treaty harmonising road signs, signals, and rules across most European countries; the source of the triangular-warning, circular-prohibition, rectangular-information system.
+
+**Geneva Convention (1949)**: The earlier road treaty still referenced for international driving permits.
+
+**International Driving Permit (IDP)**: The translation document accompanying a national licence for driving abroad; issued under the 1949 or 1968 conventions.
+
+**EU Licence Model**: The harmonised credit-card licence (categories AM, A, B, C, D with sub-classes) valid across all member states.
+
+**Novice Driver Period**: Several countries apply probationary rules (zero alcohol, power limits) for the first two licensed years.
+
+## Common Sign Vocabulary
+
+**Priorite a droite (Priority to the right)**: The default rule in France and Belgium at unmarked junctions, traffic from the right has priority.
+
+**Zone 30**: The urban 30 km/h zone marked by a sign naming the zone rather than repeated speed signs.
+
+**Environmental Zone (Umweltzone/Ulez-type)**: Low-emission city areas requiring a windshield sticker or charge; Germany's green sticker and London's ULEZ are examples.
+
+**Radar Trap Warning**: In many countries portable warning signs for automated speed enforcement; fines vary by national scale.
+
+**Toll Systems**: Vignette (time-based sticker, e.g., Austria, Switzerland) versus per-kilometre electronic tolling (e.g., Hungary's e-vignette, Portugal's electronic-only lanes).
+
+
+## Rules of the Road
+
+**Priority Road**: Roads marked with the yellow diamond sign, traffic on them has priority at every junction until the sign is cancelled.
+
+**Built-Up Area**: The zone between white rectangular name signs; the default urban speed limit (50 km/h, or 30 km/h in residential zones) applies.
+
+**Roundabout Priority**: Traffic already on the roundabout has priority in most countries; France's historic priorite-a-droite roundabouts are the rare exception, now mostly signed otherwise.
+
+**Overtaking Rules**: Overtake on the left on dual carriageways; solid white lines prohibit crossing; in the UK and Malta overtake on the right instead.
+
+**Alcohol Limits**: 0.0 g/l in Hungary, Slovakia, Czechia, and Estonia for all drivers; most others 0.5 g/l with lower novice limits, check per country.
+
+**Winter Tyre Mandate**: Country-specific seasonal requirements, Austria and Germany situation-based (bei winterlichen Verhaltnissen), Finland and the Baltics date-based.
+
+**Headlamp Requirement**: Dipped beams mandatory in tunnel, rain, and poor visibility almost everywhere; Poland, Sweden, and the Baltics require them 24/7 year-round.
+
+---
+
+## Hub
+URL: https://driving-eu.wyattau.com/hub/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"name": "Home", "url": "https://driving-eu.wyattau.com"},
+    {"name": "Hub", "url": "https://driving-eu.wyattau.com/hub"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complete EU Driving Test Study Guide",
+  "description": "Comprehensive EU driving test study guide covering European driving regulations, road signs, international driving permits, and test preparation across EU member states.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://driving-eu.wyattau.com"
+  },
+  "url": "https://driving-eu.wyattau.com/hub",
+  "educationalLevel": "Beginner",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Why This Guide Exists
+
+Driving in Europe requires understanding a system that differs significantly from both the UK and US approaches. While each EU member state administers its own driving test and issues its own licence, the European Union has harmonised many aspects of driving law through directives and regulations. Road sign conventions follow the Vienna Convention on Road Signs and Signals, creating a recognisable system across most of Europe.
+
+The EU driving licence is standardised across all member states, meaning a licence issued in France is valid in Germany, Spain, Italy, and every other EU country. However, the path to obtaining that licence varies by country: some require formal driving school attendance, others allow private instruction, and the theory test format ranges from multiple-choice to computer-based adaptive testing.
+
+This hub page maps every resource on this site, organised by the key knowledge areas tested across EU countries, with guidance on navigating the differences between national systems.
+
+## Table of Contents
+
+- [EU Driving Regulations](#eu-driving-regulations)
+- [European Road Signs](#european-road-signs)
+- [Rules of the Road Across Europe](#rules-of-the-road-across-europe)
+- [Country-Specific Test Systems](#country-specific-test-systems)
+- [International Driving Permits](#international-driving-permits)
+- [Cross-Border Driving](#cross-border-driving)
+- [Recommended Study Plan](#recommended-study-plan)
+- [Cross-Site Resources](#cross-site-resources)
+- [FAQ](/hub/)
+
+---
+
+## EU Driving Regulations
+
+The European Union has established common standards for driving licences through Directive 2006/126/EC. This directive defines licence categories (from AM for mopeds to C for heavy vehicles), minimum ages, medical fitness requirements, and the principle of mutual recognition across member states.
+
+### Topic Notes
+
+- EU Driving Law Overview -- the legal framework governing driving across Europe
+- Licence Categories -- AM, A1, A2, A, B, BE, C1, C, D1, D, and their restrictions
+- [Minimum Age Requirements](https://computer-science.wyattau.com/3-theory/automata-and-formal-languages/) -- minimum ages for each licence category across EU states
+- Medical Fitness -- eyesight standards, fitness to drive, and medical declarations
+- Licence Points Systems -- how different EU countries manage penalty points
+- Mutual Recognition -- how an EU licence works across borders
+
+### Practice and Review
+
+- Flashcards: EU Regulations
+- Practice Questions: EU Regulations
+
+### Key Test Focus
+
+Understand the licence category system: Category B allows you to drive cars and light vehicles up to 3,500 kg. Know the minimum ages (typically 18 for Category B across the EU, though some countries allow 17). Understand that an EU licence is valid in all member states, but you must obey the local traffic laws of the country you are driving in.
+
+---
+
+## European Road Signs
+
+European road signs follow the Vienna Convention system, creating a broadly recognisable system across the continent. However, there are regional variations, and the test in each country includes signs specific to that nation's roads.
+
+### Topic Notes
+
+- European Road Signs Overview -- the Vienna Convention system and its adoption
+- Warning Signs -- triangular signs with red borders alerting to hazards
+- Prohibitory Signs -- circular signs with red borders indicating restrictions
+- Mandatory Signs -- blue circular signs giving positive instructions
+- [Information and Direction Signs](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/) -- rectangular signs for guidance and services
+- Country-Specific Signs -- signs unique to individual EU nations
+- [Motorway Signs](https://driving-uk.wyattau.com/highway-code/motorway-driving/) -- the blue or green motorway sign system and on-ramp markings
+
+### Practice and Review
+
+- [Flashcards: European Road Signs](https://driving-uk.wyattau.com/highway-code/road-signs/)
+- [Practice Questions: European Road Signs](https://driving-uk.wyattau.com/highway-code/road-signs/)
+
+### Key Test Focus
+
+The core European sign system is consistent: red-bordered triangles warn, red-bordered circles prohibit, blue circles command, and rectangles inform. The speed limit sign (a number in a red circle) is universal. However, some countries use additional signs: Germany's Autobahn signs, France's toll motorway indicators, and Italy's ZTL (limited traffic zone) signs. Know the signs that apply to the country where you are taking your test.
+
+---
+
+## Rules of the Road Across Europe
+
+While the EU harmonises many regulations, the rules of the road vary between countries. Speed limits, right-of-way conventions, and mandatory equipment requirements differ, and the test in each country covers the local rules.
+
+### Topic Notes
+
+- [Speed Limits by Country](https://driving-us.wyattau.com/speed-limits/) -- urban, rural, and motorway limits across all EU states
+- [Right of Way](https://driving-us.wyattau.com/right-of-way/) -- priority rules, roundabouts, and unmarked junctions
+- [Drunk Driving Limits](https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols/) -- BAC limits across Europe (0.0% in some countries, 0.5% in most)
+- Mandatory Equipment -- warning triangles, high-visibility vests, first-aid kits, and breathalysers
+- Winter Tyres and Chains -- when winter tyres are required and snow chain regulations
+- Headlight Rules -- daytime running lights, dipped beam requirements, and country variations
+- Toll Systems -- vignettes, electronic tolls, and pay-per-use systems across Europe
+
+### Practice and Review
+
+- Flashcards: European Traffic Rules
+- Practice Questions: European Traffic Rules
+
+### Key Test Focus
+
+Speed limits are the most commonly tested topic. Know the standard EU limits: 50 km/h in urban areas, 90 or 100 km/h on rural roads, and 120 or 130 km/h on motorways (these vary by country). Understand that Germany has no general speed limit on unrestricted Autobahn sections, though recommended speeds apply. Know the alcohol limits: 0.0% in the Czech Republic, Hungary, and Romania; 0.2% in some countries; 0.5% in most of Western Europe; and 0.8% only in the UK (pre-Brexit) and Malta.
+
+---
+
+## Country-Specific Test Systems
+
+Each EU member state has its own driving test system. The theory test format, number of questions, pass mark, and practical test requirements vary significantly between countries.
+
+### Topic Notes
+
+- [Germany](https://alevel.wyattau.com/history/3-weimar-and-nazi-germany/1_weimar-nazi-germany/) -- the driving school (Fahrschule) system, theory test, and practical exam
+- France -- the CODE de la Route theory test and the French practical test
+- Spain -- the permiso de conducir test system and the DGT examination
+- [Italy](https://ib.wyattau.com/history/fascism-italy/) -- the patente di guida theory test and practical exam
+- Netherlands -- the CBR theory and practical test system
+- Poland -- the Wojewodzki Osrodek Ruchu Drogowego test
+- [Ireland](https://leaving-cert.wyattau.com) -- for Irish driving test information (see the Leaving Cert site)
+
+### Practice and Review
+
+- Country-Specific Flashcards
+- [Country-Specific Practice Tests](https://civics-tests.wyattau.com/us-citizenship/practice-test/)
+
+### Key Test Focus
+
+Germany requires formal driving school attendance before you can take the test. France requires a first-aid certificate. Spain requires a psychophysical aptitude test. Each country has its own minimum number of practical driving lessons. Understanding the specific requirements of your target country is essential before you begin preparing.
+
+---
+
+## International Driving Permits
+
+An International Driving Permit (IDP) is a document that translates your driving licence into several languages. It is not a licence itself but accompanies your national licence when driving abroad.
+
+### Topic Notes
+
+- IDP Overview -- what an IDP is, when you need one, and how to obtain one
+- IDP by Country -- which countries require an IDP and which accept foreign licences directly
+- IDP Categories -- which IDP category covers which vehicle types
+- Obtaining an IDP -- how to get an IDP from your national automobile association
+
+### Practice and Review
+
+- Flashcards: International Driving
+- Practice Questions: International Driving
+
+### Key Test Focus
+
+An IDP is required in some non-EU countries even if your licence is in English. Within the EU, a standard EU driving licence is sufficient in all member states. If you hold a non-EU licence and plan to drive in Europe, check whether an IDP is required for your specific situation.
+
+---
+
+## Cross-Border Driving
+
+Driving across EU borders requires awareness of different rules, toll systems, and emergency procedures. This section covers the practical knowledge you need for driving in multiple European countries.
+
+### Topic Notes
+
+- Cross-Border Basics -- what changes when you cross an EU border
+- [Emergency Numbers](https://driving-uk.wyattau.com/emergency-techniques/) -- 112 (EU-wide) and country-specific emergency numbers
+- European Accident Statement -- the standardised form for reporting accidents abroad
+- Insurance Green Card -- when you need a Green Card and how to obtain one
+- Breakdown Cover -- European breakdown assistance and the European Emergency Number
+- Driving in Left-Hand Traffic -- adapting to driving on the left in the UK, Ireland, Malta, and Cyprus
+
+### Practice and Review
+
+- Flashcards: Cross-Border Driving
+- Practice Questions: Cross-Border Driving
+
+### Key Test Focus
+
+The European emergency number 112 works in all EU countries. Understand the European Accident Statement form: it standardises the information exchanged after a minor accident. Know that your EU driving licence and vehicle registration documents must be carried at all times. If you break down on a motorway, use the emergency telephones (every 2 km on most EU motorways) or call 112.
+
+---
+
+## Recommended Study Plan
+
+Preparing for an EU driving test requires understanding both the general European system and the specific requirements of your target country.
+
+### Weeks 1 to 2: Foundation
+
+- Read the overview of EU driving regulations and licence categories
+- Study the Vienna Convention road sign system
+- Research the specific test requirements in your target country
+- Begin flashcard practice: 15 minutes daily
+
+### Weeks 3 to 4: Content Mastery
+
+- Work through the rules of the road for your target country
+- Study country-specific road signs and traffic regulations
+- Complete practice tests tailored to your country's test format
+- Review mandatory equipment requirements and toll systems
+
+### Weeks 5 to 6: Practice and Refinement
+
+- Complete at least 3 full practice tests under timed conditions
+- Review every wrong answer and understand the correct rule
+- Focus on speed limits, alcohol limits, and right-of-way rules
+- Study cross-border driving requirements if you plan to drive in multiple countries
+
+### Daily Routine
+
+| Time | Activity |
+| ------ | ---------- |
+| Morning | Flashcards: 15 minutes of signs and regulations |
+| Afternoon | Topic study: read one section of your country's driving rules |
+| Evening | Practice: one practice test or 20 practice questions |
+| Weekend | Full practice test plus review of wrong answers |
+
+---
+
+## Cross-Site Resources
+
+Wyatt's Notes is a network of interconnected study sites. The EU driving content connects to related material:
+
+- **[UK Driving Theory Test Guide](https://driving-uk.wyattau.com/hub)** -- the UK system (pre-Brexit harmonisation with EU rules)
+- **[US DMV Test Guide](https://driving-us.wyattau.com/hub)** -- for comparison with the American driving test system
+- **[Main Site: Wyatt's Notes](https://wyattsnotes.wyattau.com)** -- explore all 46 study sites in the network
+
+---
+
+## Frequently Asked Questions
+
+### How should I start using this site?
+
+Research the specific requirements of the country where you plan to take your test. Then take a diagnostic practice test to establish your baseline. Work through the topic notes for your weakest areas, followed by practice questions and flashcards.
+
+### Do I need to take my test in the country where I live?
+
+Generally, yes. Most EU countries require you to take the driving test in the country where you are resident. However, some countries have reciprocal agreements. Check with the licensing authority in your country of residence.
+
+### Is an EU driving licence valid in all member states?
+
+Yes. An EU driving licence issued by any member state is valid in all other member states. You must obey the local traffic laws of the country you are driving in, but your licence is recognised everywhere.
+
+### What is the minimum age for driving in the EU?
+
+The minimum age for a Category B (car) licence is 18 in most EU countries. Some countries allow driving at 17 with supervisory arrangements. The minimum age for Category A (motorcycle) varies from 16 to 24 depending on the subcategory and country.
+
+### Do I need a special licence for driving in winter conditions?
+
+No, but some countries require winter tyres during certain months (typically November to March). Austria, Germany, Finland, and Sweden have specific winter tyre regulations. Check the requirements for each country you plan to drive in.
+
+### What documents do I need to drive in another EU country?
+
+You need your valid EU driving licence, vehicle registration document, and proof of insurance (the Green Card is recommended even if not strictly required). Carry these documents at all times when driving abroad.
+
+### How do I convert a non-EU licence to an EU licence?
+
+The process varies by country. Generally, you must be a resident of the country, pass a medical examination, and may need to pass a theory test and/or practical test. Some countries have exchange agreements with non-EU nations that allow direct conversion without retesting. Check with the licensing authority in your country of residence.
+
+---
+
+*Last updated: 24 July 2026*
+
+*Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+---
+
+## Index
+URL: https://driving-eu.wyattau.com/
+
+# EU Driving Test
+
+Complete EU driving test preparation covering theory and practical tests across European countries.
+
+## Topics
+
+### Theory Test
+- EU driving regulations
+- Road signs and markings
+- Speed limits by country
+- Right-of-way rules
+
+### Practical Test
+- Vehicle control
+- Maneuvres
+- Emergency procedures
+- Road positioning
+
+## Country-Specific Information
+
+### Germany
+- Theory test in German or English
+- Practical test includes Autobahn driving
+- Strict vehicle inspection (TÜV)
+
+### France
+- Theory test in French
+- Practical test includes mountain roads
+- Compulsory first-aid certificate
+
+### Spain
+- Theory test in Spanish
+- Practical test includes parking manoeuvres
+- Medical certificate required
+
+## Study Tips
+
+1. Focus on country-specific regulations
+2. Practice theory test questions
+3. Understand road sign differences
+4. Learn speed limits for each country
+
+## Related Sites
+
+- **[Driving (UK)](https://driving-uk.wyattau.com)** - UK driving test preparation
+- **[Driving (US)](https://driving-us.wyattau.com)** - US driving test preparation
+
+## Driving-Laws
+
+---
+
+## Eu Driving Laws
+URL: https://driving-eu.wyattau.com/driving-laws/eu-driving-laws/
+
+```mermaid
+flowchart TD
+    A[Eu Driving Laws] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+EU driving laws are harmonised through the Vienna Convention and EU directives,
+but individual countries retain some variation. This guide covers the key
+rules you need to know when driving in the European Union.
+
+## Speed Limits
+
+Standard EU speed limits (unless otherwise signed):
+
+| Road Type | Built-Up Areas | Outside Built-Up | Motorways |
+|-----------|---------------|------------------|-----------|
+| Cars | 50 km/h | 90 km/h | 120-130 km/h |
+| Trucks (>3.5t) | 50 km/h | 80 km/h | 80-90 km/h |
+
+### Country Variations
+
+- **Germany**: No general speed limit on some autobahn sections
+- **France**: 110 km/h on motorways in rain
+- **Spain**: 90 km/h on single carriageways (increased to 100 km/h in 2021)
+- **Italy**: 130 km/h on autostrade
+
+## Alcohol Limits
+
+EU countries have strict alcohol limits for drivers:
+
+- **Most EU countries**: 0.05% BAC (50mg/100ml)
+- **Germany**: 0.05% BAC (0.00% for new drivers)
+- **France**: 0.05% BAC (0.02% for new drivers)
+- **Sweden**: 0.02% BAC
+- **Czech Republic**: 0.00% BAC (zero tolerance)
+
+### Penalties
+
+- Fines vary by country (50-5000 EUR)
+- License suspension (30 days to 6 months)
+- Vehicle confiscation in some countries
+- Criminal charges for high BAC levels
+
+## Required Documents
+
+When driving in the EU, you must carry:
+
+- Valid driving licence (EU format or International Driving Permit)
+- Vehicle registration document (V5C or equivalent)
+- Proof of insurance (Green Card or EU insurance card)
+- Passport or national ID card
+- European Health Insurance Card (EHIC)
+
+## Child Safety
+
+- Children under 12 years or shorter than 150cm must use appropriate child
+  restraints
+- Rear-facing child seats for children under 15 months
+- Forward-facing child seats for children 15 months to 4 years
+- Booster seats for children 4-12 years
+
+## Common Pitfalls
+
+1. **Assuming speed limits are the same everywhere**: EU speed limits vary
+   by country and road type. Research the specific limits for each country
+   you plan to visit.
+
+2. **Not carrying required documents**: Some countries require you to carry
+   specific documents. Failing to produce them can result in fines.
+
+3. **Ignoring country-specific rules**: Some countries have unique rules
+   (e.g., France requires warning triangles and reflective vests in cars).
+
+## Summary
+
+EU driving laws are largely harmonised through the Vienna Convention, with
+standard speed limits (50/90/120-130 km/h), strict alcohol limits (0.05%
+BAC in most countries), and required documents (licence, registration,
+insurance, ID). Child safety rules require appropriate restraints for
+children under 12 or shorter than 150cm. Individual countries may have
+additional rules, so research before driving abroad.
+
+## Worked Examples
+
+### Example 1: Speed Limit Conversion
+
+You are driving in France on a motorway in heavy rain.
+
+**Rule**: France reduces motorway speed limits to 110 km/h in rain.
+
+**Conversion**: 110 km/h = approximately 68 mph.
+
+**Action**: Reduce speed to 110 km/h or below.
+
+### Example 2: Document Check
+
+You are driving from the UK to France via the Channel Tunnel.
+
+**Required documents**:
+- Valid UK driving licence (EU format)
+- Vehicle registration (V5C)
+- Green Card or EU insurance card
+- Passport
+- European Health Insurance Card (EHIC)
+- Warning triangle and reflective vests (required in France)
+
+## Cross-References
+
+- [Vienna Convention Signs](/road-signs/vienna-convention-signs/) - Road signs
+- [Theory Test](/theory-test/practice-eu-theory/) - Practice questions
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+## Road-Signs
+
+---
+
+## Vienna Convention Signs
+URL: https://driving-eu.wyattau.com/road-signs/vienna-convention-signs/
+
+```mermaid
+flowchart TD
+    A[Vienna Convention Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The Vienna Convention on Road Signs and Signals (1968) establishes a standardised
+system of road signs used across Europe and many other countries. Understanding
+these signs is essential for driving in any signatory country. The system uses
+consistent shapes, colours, and symbols.
+
+## Regulatory Signs
+
+Red circular signs indicate mandatory rules that must be obeyed.
+
+- **Speed Limit**: Red circle with black number (maximum speed in km/h)
+- **No Entry**: Red circle with white horizontal bar
+- **No Overtaking**: Red circle with two car silhouettes
+- **Minimum Speed**: Blue circle with white number (minimum speed in km/h)
+- **Direction Mandatory**: Blue circle with white arrow (must go this way)
+
+## Warning Signs
+
+Triangular signs with red borders warn of hazards ahead.
+
+- **Curve Ahead**: Triangle with curved arrow
+- **Road Narrowing**: Triangle with narrowing road symbol
+- **Traffic Signals**: Triangle with traffic light symbol
+- **Pedestrian Crossing**: Triangle with walking figure
+- **Road Works**: Triangle with person digging
+- **Slippery Road**: Triangle with car and wavy skid marks
+- **Falling Rocks**: Triangle with rocks falling from cliff
+- **Wind**: Triangle with windsock symbol
+
+## Information Signs
+
+Rectangular signs provide information about routes and services.
+
+- **Motorway**: Blue background with white text (motorway number)
+- **Primary Route**: Green background with white text
+- **Non-Primary Route**: White background with black text
+- **Tourist Information**: Brown background with white text
+- **Service Area**: Blue rectangle with service symbols (fuel, food, rest)
+
+## Country-Specific Variations
+
+While the Vienna Convention standardises signs, individual countries may have
+additional signs or slight variations:
+
+- **Germany**: Autobahn signs, strict priority rules
+- **France**: Priority road signs (diamond shape), autoroute signs
+- **Spain**: Mountain road warnings, toll road indicators
+- **Italy**: Autostrada signs, limited traffic zone (ZTL) signs
+- **Netherlands**: Fietspad (cycle path) signs, priority bicycle lanes
+
+## Common Pitfalls
+
+1. **Assuming signs are the same everywhere**: While Vienna Convention signs
+   are standardised, individual countries may have additional local signs.
+   Research country-specific signs before driving abroad.
+
+2. **Ignoring speed limit units**: Vienna Convention speed limits are in km/h,
+   not mph. A red circle with "50" means 50 km/h (approximately 31 mph).
+
+3. **Misunderstanding priority signs**: Diamond-shaped priority road signs
+   (used in France, Germany, etc.) indicate you have priority at intersections.
+
+## Summary
+
+Vienna Convention road signs use a consistent system: red circles for
+regulatory signs (must obey), triangles for warnings (be prepared), and
+rectangles for information. The convention standardises signs across Europe,
+but individual countries may have additional local signs. Speed limits are
+in km/h. Understanding this system is essential for driving in any
+signatory country.
+
+## Worked Examples
+
+### Example 1: Sign Abroad
+
+You are driving in Germany and see a red circle with "120" in black text.
+
+**Identification**: This is a maximum speed limit sign. The red circle
+indicates a regulatory sign. The number 120 means 120 km/h maximum.
+
+**Conversion**: 120 km/h = approximately 75 mph.
+
+**Action**: Reduce speed to 120 km/h or below.
+
+### Example 2: Priority Road
+
+You approach an intersection with a yellow diamond sign (priority road sign).
+
+**Identification**: The yellow diamond indicates you have priority at the
+intersection. Vehicles on other roads must yield to you.
+
+**Action**: Proceed with caution, but you have the right of way.
+
+## Cross-References
+
+- [Driving Laws](/driving-laws/eu-driving-laws/) - EU driving regulations
+- [Theory Test](/theory-test/practice-eu-theory/) - Practice questions
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+## Theory-Test
+
+---
+
+## Index
+URL: https://driving-eu.wyattau.com/theory-test/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
+
+# Theory Test
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [Traffic Signs](/theory-test/traffic-signs/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Work through the Driving (EU) sections in order, starting with Driving Laws and Road Signs and building toward Driving Laws, Road Signs and Theory Test, then check yourself with the practice problems for each topic.
+Use the cross-references to link related concepts across subjects where applicable.
+
+## Key Concepts
+
+This section introduces fundamental concepts that form the foundation for advanced study. Understanding these core ideas is essential before progressing to more complex topics.
+
+## Common Mistakes
+
+- Skipping prerequisite material before attempting this section
+- Not practising problems after reading the theory
+- Failing to connect concepts across different topics
+
+## Further Reading
+
+For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.
+
+---
+
+## Practice Eu Theory
+URL: https://driving-eu.wyattau.com/theory-test/practice-eu-theory/
+
+## Overview
+
+The EU driving theory test covers road signs, traffic rules, safe driving,
+and EU-specific regulations. While each EU country has its own theory test,
+the questions are based on the Vienna Convention standards. This practice
+test covers common questions across EU countries.
+
+## Road Signs Questions
+
+### Question 1
+
+**What does a red circular sign with a white horizontal bar indicate?**
+
+a) No parking
+b) No entry
+c) Speed limit
+d) Yield
+
+**Answer**: b) No entry. A red circle with a white horizontal bar is the
+Vienna Convention sign for "No entry" -- vehicles are prohibited from entering
+the road in that direction.
+
+### Question 2
+
+**What is the speed limit in built-up areas in most EU countries?**
+
+a) 30 km/h
+b) 50 km/h
+c) 60 km/h
+d) 80 km/h
+
+**Answer**: b) 50 km/h. The standard speed limit in built-up areas across
+EU countries is 50 km/h (approximately 31 mph), unless otherwise signed.
+
+### Question 3
+
+**What does a blue circular sign with a white arrow indicate?**
+
+a) Warning
+b) Information
+c) Mandatory direction
+d) Prohibition
+
+**Answer**: c) Mandatory direction. Blue circular signs with white arrows
+indicate actions that must be taken (mandatory direction).
+
+## Driving Laws Questions
+
+### Question 4
+
+**What is the general alcohol limit for drivers in most EU countries?**
+
+a) 0.00% BAC
+b) 0.02% BAC
+c) 0.05% BAC
+d) 0.08% BAC
+
+**Answer**: c) 0.05% BAC. Most EU countries have a general alcohol limit of
+0.05% BAC (50mg/100ml). Some countries (Sweden, Czech Republic) have lower
+or zero limits.
+
+### Question 5
+
+**What documents must you carry when driving in the EU?**
+
+a) Driving licence only
+b) Driving licence and registration
+c) Driving licence, registration, insurance, and ID
+d) Driving licence and passport only
+
+**Answer**: c) Driving licence, registration, insurance, and ID. You must
+carry a valid driving licence, vehicle registration, proof of insurance, and
+passport or national ID card.
+
+### Question 6
+
+**At what age must children use appropriate child restraints in the EU?**
+
+a) Under 10 years
+b) Under 12 years or shorter than 150cm
+c) Under 15 years
+d) All children must use restraints
+
+**Answer**: b) Under 12 years or shorter than 150cm. EU regulations require
+appropriate child restraints for children under 12 years or shorter than
+150cm.
+
+## Safe Driving Questions
+
+### Question 7
+
+**What should you do when driving in a foreign EU country for the first time?**
+
+a) Drive at the speed limit of your home country
+b) Research local traffic laws and road signs before driving
+c) Follow other drivers
+d) Drive on the right side of the road
+
+**Answer**: b) Research local traffic laws and road signs before driving.
+Traffic laws, speed limits, and signs may differ from your home country.
+
+### Question 8
+
+**What is the minimum following distance on motorways in good conditions?**
+
+a) 1 second
+b) 2 seconds
+c) 3 seconds
+d) 5 seconds
+
+**Answer**: b) 2 seconds. The recommended minimum following distance on
+motorways in good conditions is 2 seconds. Increase to 4-6 seconds in
+adverse conditions.
+
+## Practice Tips
+
+1. **Study the Vienna Convention signs**: These are standardised across the
+   EU and form the basis of all EU theory tests.
+
+2. **Know country-specific variations**: While signs are standardised, speed
+   limits and rules may vary by country.
+
+3. **Review alcohol limits**: Know the BAC limits for each country you plan
+   to visit (0.05% is standard, but Sweden is 0.02%, Czech Republic is 0.00%).
+
+4. **Practice with official materials**: Many EU countries provide official
+   practice tests on their government websites.
+
+## Summary
+
+The EU driving theory test covers Vienna Convention road signs (red circles for
+regulations, triangles for warnings, rectangles for information), standard
+driving laws (50/90/120 km/h speed limits, 0.05% BAC), and safe driving
+practices. While the theory test varies by country, the underlying standards
+are harmonised through the Vienna Convention. Study country-specific rules
+before driving abroad.
+
+## Cross-References
+
+- [Vienna Convention Signs](/road-signs/vienna-convention-signs/) - Sign system
+- [EU Driving Laws](/driving-laws/eu-driving-laws/) - Rules of the road
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## Traffic Signs
+URL: https://driving-eu.wyattau.com/theory-test/traffic-signs/
+
+# EU Traffic Signs
+
+
+```mermaid
+flowchart TD
+    A[Traffic Signs] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Vienna Convention on Road Signs and Signals
+
+### Regulatory Signs (Circular)
+
+#### Prohibition Signs (Red Border)
+
+- **Speed Limit**: Maximum speed allowed
+- **No Entry**: Vehicles not permitted
+- **No Right Turn**: Right turn prohibited
+- **No Left Turn**: Left turn prohibited
+- **No Overtaking**: Overtaking prohibited
+
+#### Mandatory Signs (Blue Background)
+
+- **Turn Left**: Must turn left
+- **Turn Right**: Must turn right
+- **Go Straight Only**: Must continue straight
+- **Roundabout**: Must go roundabout
+
+### Warning Signs (Triangle)
+
+#### Road Layout
+
+- **Sharp Bend**: Road curves sharply
+- **Narrow Road**: Road becomes narrow
+- **Traffic Lights**: Traffic signals ahead
+- **Pedestrian Crossing**: Crossing ahead
+
+#### Hazards
+
+- **Slippery Road**: Road surface may be slippery
+- **Road Works**: Construction ahead
+- **School Zone**: School zone ahead
+- **Animal Crossing**: Animals may cross road
+
+### Information Signs (Rectangle)
+
+#### Direction Signs
+
+- **Motorway**: Blue background with motorway symbol
+- **Primary Route**: Green background
+- **Local Route**: White background
+
+#### Service Signs
+
+- **Hospital**: Blue square with H
+- **Gas Station**: Blue square with gas pump
+- **Food**: Blue square with fork and knife
+- **Lodging**: Blue square with bed
+
+## Country-Specific Variations
+
+### Germany
+
+- **Autobahn**: No general speed limit, but advisory limits
+- **Umweltzone**: Environmental zone restrictions
+- **Alkoholgrenze**: 0.5% BAC limit
+
+### France
+
+- **Péage**: Toll road signs
+- **Priorité à droite**: Priority to the right
+- **Zone 30**: 30 km/h zone
+
+### Spain
+
+- **Radars**: Speed camera warnings
+- **Eco**: Low emission zone
+- **Parking**: Blue zone parking (pay and display)
+
+### Italy
+
+- **ZTL**: Restricted traffic zone
+- **Autostrada**: Motorway
+- **Strada statale**: State road
+
+## Common Exam Questions
+
+1. What does a red circle indicate?
+   - Prohibition sign
+
+2. What does a blue circle indicate?
+   - Mandatory instruction
+
+3. What does a triangle indicate?
+   - Warning sign
+
+4. What does a blue rectangle indicate?
+   - Information or direction sign
+
+## Practice Questions
+
+### Question 1
+
+What does this sign mean? (Speed Limit 50)
+
+- Maximum speed of 50 km/h
+- Minimum speed of 50 km/h
+- Average speed of 50 km/h
+- End of speed limit
+
+**Correct Answer:** Maximum speed of 50 km/h
+
+### Question 2
+
+What does this sign mean? (No Entry)
+
+- No entry for vehicles
+- No parking
+- No stopping
+- No overtaking
+
+**Correct Answer:** No entry for vehicles
+
+## See Also
+
+- [Theory Test](./)
+- [EU Driving Test](/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

@@ -149,5 +149,5 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 ## See Also
 
 - [A-Level Notes](..)
-- [Historical Skills](./1-historical-skills)
-- [Source Analysis](./10-source-analysis)
+- Historical Skills
+- Source Analysis

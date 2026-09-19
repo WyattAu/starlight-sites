@@ -78,11 +78,11 @@ Swift's fundamentals are designed for safety and clarity. The type system catche
 
 ### Topic Notes
 
-- [Variables and Types](02-fundamentals/01-variables-and-types), let vs var, type inference, and basic types
-- [Strings and Characters](02-fundamentals/02-strings-and-characters), string interpolation, multi-line strings, and Unicode
-- [Collections](02-fundamentals/03-collections), Array, Set, Dictionary, and their mutability
-- [Control Flow](02-fundamentals/04-control-flow), if/else, switch, for/while, and where clauses
-- [Functions and Closures](02-fundamentals/05-functions-and-closures), parameters, return types, trailing closures, and capture lists
+- Variables and Types, let vs var, type inference, and basic types
+- Strings and Characters, string interpolation, multi-line strings, and Unicode
+- Collections, Array, Set, Dictionary, and their mutability
+- Control Flow, if/else, switch, for/while, and where clauses
+- Functions and Closures, parameters, return types, trailing closures, and capture lists
 
 ### Key Concepts
 
@@ -100,10 +100,10 @@ Optionals are Swift's most distinctive feature. An optional type (`Type?`) can h
 
 ### Topic Notes
 
-- [Optionals](03-optionals/01-optionals), nil, optional binding, and force unwrapping
-- [Optional Chaining](03-optionals/02-optional-chaining), ?. operator and nil coalescing ??
-- [Error Handling](03-optionals/03-error-handling), throws, try/catch, and Result type
-- [Guard Statements](03-optionals/04-guard-statements), early returns and unwrapping
+- Optionals, nil, optional binding, and force unwrapping
+- Optional Chaining, ?. operator and nil coalescing ??
+- Error Handling, throws, try/catch, and Result type
+- Guard Statements, early returns and unwrapping
 
 ### Key Concepts
 
@@ -121,10 +121,10 @@ Swift's protocol-oriented design is a distinctive feature. Protocols define capa
 
 ### Topic Notes
 
-- [Protocol Basics](04-protocols/01-protocol-basics), defining protocols, conforming to protocols
-- [Protocol Extensions](04-protocols/02-protocol-extensions), default implementations and protocol-oriented design
-- [Protocol Inheritance](04-protocols/03-protocol-inheritance), composing protocols and protocol hierarchies
-- [Associated Types](04-protocols/04-associated-types), generic protocols and type constraints
+- Protocol Basics, defining protocols, conforming to protocols
+- Protocol Extensions, default implementations and protocol-oriented design
+- Protocol Inheritance, composing protocols and protocol hierarchies
+- Associated Types, generic protocols and type constraints
 
 ### Key Concepts
 
@@ -142,11 +142,11 @@ SwiftUI is Apple's declarative UI framework for building user interfaces across 
 
 ### Topic Notes
 
-- [SwiftUI Basics](05-swiftui/01-swiftui-basics), Text, Image, VStack, HStack, and the view hierarchy
-- [State Management](05-swiftui/02-state-management), @State, @Binding, @ObservedObject, @EnvironmentObject
-- [Navigation](05-swiftui/03-navigation), NavigationStack, NavigationLink, and sheet presentation
-- [Lists and Data](05-swiftui/04-lists-and-data), List, ForEach, and data flow patterns
-- [Animations](05-swiftui/05-animations), withAnimation, transition, and matchedGeometryEffect
+- SwiftUI Basics, Text, Image, VStack, HStack, and the view hierarchy
+- State Management, @State, @Binding, @ObservedObject, @EnvironmentObject
+- Navigation, NavigationStack, NavigationLink, and sheet presentation
+- Lists and Data, List, ForEach, and data flow patterns
+- Animations, withAnimation, transition, and matchedGeometryEffect
 
 ### Key Concepts
 
@@ -164,11 +164,11 @@ Building iOS applications requires understanding the app lifecycle, data persist
 
 ### Topic Notes
 
-- [App Lifecycle](06-ios/01-app-lifecycle), @main, App protocol, and scene lifecycle
-- [Data Persistence](06-ios/02-data-persistence), UserDefaults, SwiftData, and Core Data
-- [Networking](06-ios/03-networking), URLSession, async/await, and Codable
-- [Notifications](06-ios/04-notifications), local and remote notifications
-- [App Store](06-ios/05-app-store), submission, review, and distribution
+- App Lifecycle, @main, App protocol, and scene lifecycle
+- Data Persistence, UserDefaults, SwiftData, and Core Data
+- Networking, URLSession, async/await, and Codable
+- Notifications, local and remote notifications
+- App Store, submission, review, and distribution
 
 ### Key Concepts
 
@@ -186,10 +186,10 @@ Swift's concurrency model prevents data races at compile time. Actors isolate mu
 
 ### Topic Notes
 
-- [async/await](07-concurrency/01-async-await), async functions, await, and structured concurrency
-- [Actors](07-concurrency/02-actors), actor isolation, Sendable, and thread safety
-- [TaskGroup](07-concurrency/03-taskgroup), concurrent tasks and result collection
-- [Continuations](07-concurrency/04-continuations), bridging callback-based APIs to async
+- async/await, async functions, await, and structured concurrency
+- Actors, actor isolation, Sendable, and thread safety
+- TaskGroup, concurrent tasks and result collection
+- Continuations, bridging callback-based APIs to async
 
 ### Key Concepts
 

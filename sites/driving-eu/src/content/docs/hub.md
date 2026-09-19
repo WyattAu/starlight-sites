@@ -79,17 +79,17 @@ The European Union has established common standards for driving licences through
 
 ### Topic Notes
 
-- [EU Driving Law Overview](eu-regulations) -- the legal framework governing driving across Europe
-- [Licence Categories](eu-regulations/categories) -- AM, A1, A2, A, B, BE, C1, C, D1, D, and their restrictions
+- EU Driving Law Overview -- the legal framework governing driving across Europe
+- Licence Categories -- AM, A1, A2, A, B, BE, C1, C, D1, D, and their restrictions
 - [Minimum Age Requirements](https://computer-science.wyattau.com/3-theory/automata-and-formal-languages/) -- minimum ages for each licence category across EU states
-- [Medical Fitness](eu-regulations/medical) -- eyesight standards, fitness to drive, and medical declarations
-- [Licence Points Systems](eu-regulations/points) -- how different EU countries manage penalty points
-- [Mutual Recognition](eu-regulations/recognition) -- how an EU licence works across borders
+- Medical Fitness -- eyesight standards, fitness to drive, and medical declarations
+- Licence Points Systems -- how different EU countries manage penalty points
+- Mutual Recognition -- how an EU licence works across borders
 
 ### Practice and Review
 
-- [Flashcards: EU Regulations](flashcards-eu-regulations)
-- [Practice Questions: EU Regulations](practice-eu-regulations)
+- Flashcards: EU Regulations
+- Practice Questions: EU Regulations
 
 ### Key Test Focus
 
@@ -103,12 +103,12 @@ European road signs follow the Vienna Convention system, creating a broadly reco
 
 ### Topic Notes
 
-- [European Road Signs Overview](road-signs) -- the Vienna Convention system and its adoption
-- [Warning Signs](road-signs/warning) -- triangular signs with red borders alerting to hazards
-- [Prohibitory Signs](road-signs/prohibitory) -- circular signs with red borders indicating restrictions
-- [Mandatory Signs](road-signs/mandatory) -- blue circular signs giving positive instructions
+- European Road Signs Overview -- the Vienna Convention system and its adoption
+- Warning Signs -- triangular signs with red borders alerting to hazards
+- Prohibitory Signs -- circular signs with red borders indicating restrictions
+- Mandatory Signs -- blue circular signs giving positive instructions
 - [Information and Direction Signs](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/) -- rectangular signs for guidance and services
-- [Country-Specific Signs](road-signs/country-specific) -- signs unique to individual EU nations
+- Country-Specific Signs -- signs unique to individual EU nations
 - [Motorway Signs](https://driving-uk.wyattau.com/highway-code/motorway-driving/) -- the blue or green motorway sign system and on-ramp markings
 
 ### Practice and Review
@@ -131,15 +131,15 @@ While the EU harmonises many regulations, the rules of the road vary between cou
 - [Speed Limits by Country](https://driving-us.wyattau.com/speed-limits/) -- urban, rural, and motorway limits across all EU states
 - [Right of Way](https://driving-us.wyattau.com/right-of-way/) -- priority rules, roundabouts, and unmarked junctions
 - [Drunk Driving Limits](https://alevel.wyattau.com/chemistry/diagnostics/diag-halogenoalkanes-alcohols/) -- BAC limits across Europe (0.0% in some countries, 0.5% in most)
-- [Mandatory Equipment](rules/equipment) -- warning triangles, high-visibility vests, first-aid kits, and breathalysers
-- [Winter Tyres and Chains](rules/winter) -- when winter tyres are required and snow chain regulations
-- [Headlight Rules](rules/headlights) -- daytime running lights, dipped beam requirements, and country variations
-- [Toll Systems](rules/tolls) -- vignettes, electronic tolls, and pay-per-use systems across Europe
+- Mandatory Equipment -- warning triangles, high-visibility vests, first-aid kits, and breathalysers
+- Winter Tyres and Chains -- when winter tyres are required and snow chain regulations
+- Headlight Rules -- daytime running lights, dipped beam requirements, and country variations
+- Toll Systems -- vignettes, electronic tolls, and pay-per-use systems across Europe
 
 ### Practice and Review
 
-- [Flashcards: European Traffic Rules](flashcards-european-rules)
-- [Practice Questions: European Traffic Rules](practice-european-rules)
+- Flashcards: European Traffic Rules
+- Practice Questions: European Traffic Rules
 
 ### Key Test Focus
 
@@ -154,16 +154,16 @@ Each EU member state has its own driving test system. The theory test format, nu
 ### Topic Notes
 
 - [Germany](https://alevel.wyattau.com/history/3-weimar-and-nazi-germany/1_weimar-nazi-germany/) -- the driving school (Fahrschule) system, theory test, and practical exam
-- [France](country-systems/france) -- the CODE de la Route theory test and the French practical test
-- [Spain](country-systems/spain) -- the permiso de conducir test system and the DGT examination
+- France -- the CODE de la Route theory test and the French practical test
+- Spain -- the permiso de conducir test system and the DGT examination
 - [Italy](https://ib.wyattau.com/history/fascism-italy/) -- the patente di guida theory test and practical exam
-- [Netherlands](country-systems/netherlands) -- the CBR theory and practical test system
-- [Poland](country-systems/poland) -- the Wojewodzki Osrodek Ruchu Drogowego test
+- Netherlands -- the CBR theory and practical test system
+- Poland -- the Wojewodzki Osrodek Ruchu Drogowego test
 - [Ireland](https://leaving-cert.wyattau.com) -- for Irish driving test information (see the Leaving Cert site)
 
 ### Practice and Review
 
-- [Country-Specific Flashcards](flashcards-country-specific)
+- Country-Specific Flashcards
 - [Country-Specific Practice Tests](https://civics-tests.wyattau.com/us-citizenship/practice-test/)
 
 ### Key Test Focus
@@ -178,15 +178,15 @@ An International Driving Permit (IDP) is a document that translates your driving
 
 ### Topic Notes
 
-- [IDP Overview](idp) -- what an IDP is, when you need one, and how to obtain one
-- [IDP by Country](idp/by-country) -- which countries require an IDP and which accept foreign licences directly
-- [IDP Categories](idp/categories) -- which IDP category covers which vehicle types
-- [Obtaining an IDP](idp/obtaining) -- how to get an IDP from your national automobile association
+- IDP Overview -- what an IDP is, when you need one, and how to obtain one
+- IDP by Country -- which countries require an IDP and which accept foreign licences directly
+- IDP Categories -- which IDP category covers which vehicle types
+- Obtaining an IDP -- how to get an IDP from your national automobile association
 
 ### Practice and Review
 
-- [Flashcards: International Driving](flashcards-international-driving)
-- [Practice Questions: International Driving](practice-international-driving)
+- Flashcards: International Driving
+- Practice Questions: International Driving
 
 ### Key Test Focus
 
@@ -200,17 +200,17 @@ Driving across EU borders requires awareness of different rules, toll systems, a
 
 ### Topic Notes
 
-- [Cross-Border Basics](cross-border) -- what changes when you cross an EU border
+- Cross-Border Basics -- what changes when you cross an EU border
 - [Emergency Numbers](https://driving-uk.wyattau.com/emergency-techniques/) -- 112 (EU-wide) and country-specific emergency numbers
-- [European Accident Statement](cross-border/accident) -- the standardised form for reporting accidents abroad
-- [Insurance Green Card](cross-border/insurance) -- when you need a Green Card and how to obtain one
-- [Breakdown Cover](cross-border/breakdown) -- European breakdown assistance and the European Emergency Number
-- [Driving in Left-Hand Traffic](cross-border/left-hand) -- adapting to driving on the left in the UK, Ireland, Malta, and Cyprus
+- European Accident Statement -- the standardised form for reporting accidents abroad
+- Insurance Green Card -- when you need a Green Card and how to obtain one
+- Breakdown Cover -- European breakdown assistance and the European Emergency Number
+- Driving in Left-Hand Traffic -- adapting to driving on the left in the UK, Ireland, Malta, and Cyprus
 
 ### Practice and Review
 
-- [Flashcards: Cross-Border Driving](flashcards-cross-border)
-- [Practice Questions: Cross-Border Driving](practice-cross-border)
+- Flashcards: Cross-Border Driving
+- Practice Questions: Cross-Border Driving
 
 ### Key Test Focus
 

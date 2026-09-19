@@ -375,7 +375,7 @@ Substituting $k = r-1$:
 $= \lambda e^{-\lambda}\sum_{k=0}^{\infty}\dfrac{\lambda^k}{k!} = \lambda e^{-\lambda}\cdot e^{\lambda} = \lambda$.
 $\blacksquare$
 
-**If you get this wrong, revise:** [Proof that $E(X) = \lambda$](#13-proof-that-ex--lambda),
+**If you get this wrong, revise:** [Proof that $E(X) = \lambda$](/further-maths/further-statistics/01-poisson-and-geometric-distributions/),
 Section 1.3.
 
 </details>
@@ -665,7 +665,7 @@ Therefore $P(X = k) \to \dfrac{e^{-\lambda}\lambda^k}{k!}$. $\blacksquare$
 
 If events occur according to a Poisson process with rate $\lambda$The time between consecutive
 Events follows the exponential distribution $\mathrm{Exp}(\lambda)$. See
-[Exponential and Continuous Random Variables](/further-maths/further-statistics/exponential-continuous-rv).
+Exponential and Continuous Random Variables.
 
 ### 8.2 Geometric distribution and series summation
 
@@ -988,7 +988,7 @@ $P(X > 3) = 0.75^3 = \boxed{0.4219}$.
 
 The inter-arrival times of a Poisson process follow the exponential distribution. If events occur at
 Rate $\lambda$ per unit time, the time between consecutive events is $\mathrm{Exp}(\lambda)$. See
-[Exponential and Continuous Random Variables](/further-maths/further-statistics/exponential-continuous-rv).
+Exponential and Continuous Random Variables.
 
 ### 11.2 Poisson and binomial
 

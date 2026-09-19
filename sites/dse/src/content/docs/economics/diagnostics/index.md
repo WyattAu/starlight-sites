@@ -36,7 +36,7 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the DSE sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Economics, Geography, History, Ict, Maths, Physics and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

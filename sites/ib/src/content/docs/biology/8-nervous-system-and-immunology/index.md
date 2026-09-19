@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Understanding these foundations is essential for tackling exam questions that require application of biological principles to unfamiliar contexts.
+This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Use the diagnostic tests to find out whether Nervous System And Immunology needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Nervous System And Immunology
 
@@ -29,7 +29,7 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read Nervous System And Immunology, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

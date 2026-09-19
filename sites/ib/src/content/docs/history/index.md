@@ -3,13 +3,13 @@
 sources:
   - text: Standard textbook reference
 title: "History"
-description: "This section provides study materials and resources for history. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for history. Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
-This section provides study materials and resources for history. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for history. If History feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # History
 

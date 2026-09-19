@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Sociocultural"
-description: "This section provides study materials and resources for sociocultural. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for sociocultural. Work through the IB sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Geography, History, I18n, Mathematics, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for sociocultural. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for sociocultural. Revision works best in one direction here: read Sociocultural, attempt the practice problems cold, and only then check the worked solutions.
 
 # Sociocultural
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for sociocultural. Browse th
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Sociocultural needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

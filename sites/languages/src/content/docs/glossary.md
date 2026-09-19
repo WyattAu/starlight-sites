@@ -51,7 +51,7 @@ tags: [glossary]
 
 ## Further Resources
 
-Return to the [Languages Hub](/hub/) to compare languages, or jump into a specific language's guides: [Dart](/dart/), [Elixir](/elixir/), [Go](/go/), [Haskell](/haskell/), [Java](/java/), [Kotlin](/kotlin/), [Python](/python/), [Ruby](/ruby/), [Rust](/rust/), [Swift](/swift/), [TypeScript](/typescript/).
+Return to the [Languages Hub](/hub/) to compare languages, or jump into a specific language's guides: [Dart](/dart/), [Elixir](/elixir/), Go, [Haskell](/haskell/), [Java](/java/), [Kotlin](/kotlin/), [Python](/python/), [Ruby](/ruby/), [Rust](/rust/), [Swift](/swift/), [TypeScript](/typescript/).
 
 ## Tooling and Ecosystem
 

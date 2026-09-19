@@ -7,13 +7,13 @@ tags: [glossary]
 
 ## Mechanics
 
-**Acceleration**: The rate of change of velocity with respect to time, measured in m/s². Defined as **a** = Δ**v**/Δt. See also [Newton's Second Law](#newtons-second-law).
+**Acceleration**: The rate of change of velocity with respect to time, measured in m/s². Defined as **a** = Δ**v**/Δt. See also [Newton's Second Law](/glossary/).
 
 **Angular Momentum**: The rotational equivalent of linear momentum, calculated as **L** = **r** × **p** = I**ω**. Conserved in isolated systems with no external torque.
 
 **Centripetal Force**: The net force directed toward the center of a circular path, given by F = mv²/r. This force keeps objects in uniform circular motion.
 
-**Conservation of Energy**: The principle that total energy in an isolated system remains constant. Energy can transform between forms but cannot be created or destroyed. Related: [First Law of Thermodynamics](#first-law-of-thermodynamics).
+**Conservation of Energy**: The principle that total energy in an isolated system remains constant. Energy can transform between forms but cannot be created or destroyed. Related: [First Law of Thermodynamics](/glossary/).
 
 **Displacement**: A vector quantity representing the change in position of an object, measured from initial to final position. Unlike distance, displacement has both magnitude and direction.
 
@@ -25,13 +25,13 @@ tags: [glossary]
 
 **Friction**: A force that opposes relative motion between surfaces. The frictional force is f = μN, where μ is the coefficient of friction and N is the normal force.
 
-**Impulse**: The change in momentum of an object, equal to the force applied multiplied by the time interval: **J** = **F**Δt = Δ**p**. Related: [Momentum](#momentum).
+**Impulse**: The change in momentum of an object, equal to the force applied multiplied by the time interval: **J** = **F**Δt = Δ**p**. Related: [Momentum](/glossary/).
 
 **Inertia**: The tendency of an object to resist changes in its state of motion. Mass is a quantitative measure of inertia.
 
 **Kinetic Energy**: The energy of motion, given by KE = ½mv². Depends on both mass and velocity squared.
 
-**Momentum**: The product of mass and velocity, **p** = m**v**. A conserved quantity in isolated systems. Related: [Impulse](#impulse).
+**Momentum**: The product of mass and velocity, **p** = m**v**. A conserved quantity in isolated systems. Related: [Impulse](/glossary/).
 
 **Newton's First Law**: An object at rest stays at rest, and an object in motion stays in uniform motion, unless acted upon by a net external force. Also called the law of inertia.
 
@@ -39,7 +39,7 @@ tags: [glossary]
 
 **Newton's Third Law**: For every action, there is an equal and opposite reaction. Forces always occur in pairs.
 
-**Potential Energy**: Stored energy due to position or configuration. Gravitational PE = mgh; elastic PE = ½kx². Related: [Kinetic Energy](#kinetic-energy).
+**Potential Energy**: Stored energy due to position or configuration. Gravitational PE = mgh; elastic PE = ½kx². Related: [Kinetic Energy](/glossary/).
 
 **Power**: The rate at which work is done or energy is transferred: P = W/t = **F**·**v**. Measured in watts (W).
 
@@ -55,7 +55,7 @@ tags: [glossary]
 
 **Absolute Zero**: The lowest possible temperature (0 K or -273.15°C), at which particles have minimum thermal motion. Cannot be reached by any physical process.
 
-**Adiabatic Process**: A thermodynamic process with no heat transfer between the system and surroundings (Q = 0). Related: [Isothermal Process](#isothermal-process).
+**Adiabatic Process**: A thermodynamic process with no heat transfer between the system and surroundings (Q = 0). Related: [Isothermal Process](/glossary/).
 
 **Carnot Cycle**: The most efficient theoretical heat engine cycle, consisting of two isothermal and two adiabatic processes. Maximum efficiency = 1 - T_cold/T_hot.
 
@@ -77,7 +77,7 @@ tags: [glossary]
 
 ## Electromagnetism
 
-**Capacitance**: The ability of a system to store electric charge per unit voltage: C = Q/V. Measured in farads (F). Related: [Capacitor](#capacitor).
+**Capacitance**: The ability of a system to store electric charge per unit voltage: C = Q/V. Measured in farads (F). Related: [Capacitor](/glossary/).
 
 **Capacitor**: A device that stores electrical energy in an electric field between two conductors. Energy stored: U = ½CV².
 

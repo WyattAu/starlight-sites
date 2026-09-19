@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Maths | A-Level - Wyatt's Notes"
-description: "This section provides study materials and resources for maths. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for maths. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for maths. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for maths. The Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Maths
 
@@ -34,7 +34,7 @@ This section provides study materials and resources for maths. Browse the topics
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

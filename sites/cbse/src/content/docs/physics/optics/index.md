@@ -160,10 +160,10 @@ A real image is formed where light rays actually converge and can be projected o
 
 ## Cross-References
 
-- **[Electrostatics](../electrostatics/index):** Electric fields influence the propagation of light through materials (electro-optic effects), connecting optics to electrostatics.
-- **[Magnetic Effects](../magnetic-effects/index):** Electromagnetic theory unifies optics with electricity and magnetism, light is an electromagnetic wave.
-- **[Dual Nature](../dual-nature/index):** Wave optics (interference, diffraction) reveals light's wave nature, while the photoelectric effect shows its particle nature.
-- **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** Calculus is used to derive lens equations and analyze ray paths mathematically.
+- **Electrostatics:** Electric fields influence the propagation of light through materials (electro-optic effects), connecting optics to electrostatics.
+- **Magnetic Effects:** Electromagnetic theory unifies optics with electricity and magnetism, light is an electromagnetic wave.
+- **Dual Nature:** Wave optics (interference, diffraction) reveals light's wave nature, while the photoelectric effect shows its particle nature.
+- **Derivatives (Mathematics):** Calculus is used to derive lens equations and analyze ray paths mathematically.
 
 ### Mistake 3: Forgetting that total internal reflection requires light to travel from denser to rarer medium
 

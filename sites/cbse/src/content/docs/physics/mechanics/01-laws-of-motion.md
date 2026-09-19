@@ -189,7 +189,7 @@ On an inclined plane at angle $\theta$, the component of weight along the inclin
 
 - [Work, Energy, and Power](/physics/mechanics/02-work-energy-power/) -- The work-energy theorem provides an alternative formulation of Newton's second law in terms of energy.
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Newton's second law extends to rotational dynamics through torque and angular acceleration.
-- [Gravitation](../optics/index) -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.
+- Gravitation -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.
 
 
 ## Advanced Content

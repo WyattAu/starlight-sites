@@ -109,7 +109,7 @@ dispatch = {
 }
 
 format_type = "bold"
-print(dispatch[format_type]("hello"))  # '**hello**'
+print(dispatchformat_type)  # '**hello**'
 ```
 
 This is the foundation of **strategy patterns**, **command dispatch**, and **plugin registries** in

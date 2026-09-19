@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.
+This section covers computational thinking, data structures, algorithms, and systems. Revision works best in one direction here: read Abstract Data Structures, attempt the practice problems cold, and only then check the worked solutions.
 
 # Abstract Data Structures
 
@@ -28,7 +28,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read Abstract Data Structures, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

@@ -1393,7 +1393,7 @@ services, requiring more retraining and creating higher opportunity costs.
 
 </details>
 
-If you get this wrong, revise: [PPC and Opportunity Cost](#ppc-and-opportunity-cost)
+If you get this wrong, revise: [PPC and Opportunity Cost](/economics/1-basic-economic-concepts/1_basic-economic-concepts/)
 
 ### Problem 10: Mixed Economy -- Government Intervention in Hong Kong Housing
 
@@ -1469,7 +1469,7 @@ support (HOS, PRH) is likely more effective than any single policy.
 </details>
 
 If you get this wrong, revise:
-[Economic Systems and Government Intervention](#economic-systems-and-government-intervention)
+[Economic Systems and Government Intervention](/economics/1-basic-economic-concepts/1_basic-economic-concepts/)
 
 ### Problem 11: Specialisation and Trade with Unequal Country Sizes
 

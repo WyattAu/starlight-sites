@@ -2,21 +2,19 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-This section covers admissions concepts, definitions, and applications with worked examples and practice problems.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://admissions.wyattau.com/about/): About Wyatt's Notes Admissions resources, experience, expertise, and credentials behind university admissions study materials.
-- [Admissions](https://admissions.wyattau.com/): This section covers admissions concepts, definitions, and applications with worked examples and practice problems.
-- [Admissions](https://admissions.wyattau.com/intro/): Study notes for Admissions with worked examples, practice problems, and key concepts for exam preparation.
-- [Admissions Practice (Interactive)](https://admissions.wyattau.com/practice-admissions/): 10 auto-graded practice problems ranging from easy to hard. Select an answer, su Comprehensive educational content coverage with definitions and practice proble
-- [BMO Preparation](https://admissions.wyattau.com/bmo-preparation/): University Admissions BMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.
-- [IMO Preparation](https://admissions.wyattau.com/imo-preparation/): University Admissions IMO Preparation notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.
-- [MAT Preparation](https://admissions.wyattau.com/mat-preparation/): University Admissions MAT Preparation notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.
-- [STEP Preparation](https://admissions.wyattau.com/step-preparation/): University Admissions STEP Preparation notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
-- [TMUA Preparation](https://admissions.wyattau.com/tmua-preparation/): University Admissions TMUA Preparation notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
-- [University Admissions Flashcards](https://admissions.wyattau.com/flashcards-admissions/): 20 interactive flashcards covering TMUA, personal statements, Oxbridge interviews, extracurriculars, references, and admissions strategy. Press Space to
-- [University Admissions Glossary, Key Terms and Definitions](https://admissions.wyattau.com/glossary/): Study notes for University Admissions Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [University Admissions Guide, Applications, Essays, Interviews](https://admissions.wyattau.com/hub/): Study notes for University Admissions Guide, Applications, Essays, Interviews with worked examples, practice problems, and key concepts for exam preparation.
+- [About](https://admissions.wyattau.com/about/)
+- [Bmo Preparation](https://admissions.wyattau.com/bmo-preparation/)
+- [Flashcards Admissions](https://admissions.wyattau.com/flashcards-admissions/)
+- [Glossary](https://admissions.wyattau.com/glossary/)
+- [Hub](https://admissions.wyattau.com/hub/)
+- [Imo Preparation](https://admissions.wyattau.com/imo-preparation/)
+- [Index](https://admissions.wyattau.com/)
+- [Intro](https://admissions.wyattau.com/intro/)
+- [Mat Preparation](https://admissions.wyattau.com/mat-preparation/)
+- [Practice Admissions](https://admissions.wyattau.com/practice-admissions/)
+- [Step Preparation](https://admissions.wyattau.com/step-preparation/)
+- [Tmua Preparation](https://admissions.wyattau.com/tmua-preparation/)

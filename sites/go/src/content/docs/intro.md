@@ -280,6 +280,6 @@ Version control and never edited manually.
 
 ## Cross-References
 
-- **[Basics](basics/):** Fundamental Go concepts including types, functions, and control flow.
-- **[Intermediate](intermediate/):** Error handling, interfaces, and generics.
-- **[Concurrency](concurrency/):** Goroutines, channels, and race conditions.
+- **Basics:** Fundamental Go concepts including types, functions, and control flow.
+- **Intermediate:** Error handling, interfaces, and generics.
+- **Concurrency:** Goroutines, channels, and race conditions.

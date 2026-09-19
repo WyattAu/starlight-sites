@@ -118,10 +118,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Thermal Physics](../../../../../typescript/src/content/docs/index):** Statistical mechanics and thermodynamics; kinetic theory connects classical mechanics to temperature.
-- **[Electromagnetism](../../../../../typescript/src/content/docs/index):** Electromagnetic forces and fields; charged particle motion in electromagnetic fields.
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Classical limit of quantum theory; the correspondence principle connects classical and quantum mechanics.
-- **[Mathematics](../../../../../typescript/src/content/docs/index):** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
+- **Thermal Physics:** Statistical mechanics and thermodynamics; kinetic theory connects classical mechanics to temperature.
+- **Electromagnetism:** Electromagnetic forces and fields; charged particle motion in electromagnetic fields.
+- **Quantum Mechanics:** Classical limit of quantum theory; the correspondence principle connects classical and quantum mechanics.
+- **Mathematics:** Multivariable calculus, linear algebra, and differential equations are the mathematical tools of classical mechanics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

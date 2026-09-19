@@ -118,10 +118,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Optics and Waves](../../../../../typescript/src/content/docs/index):** Electromagnetic waves and optics; light is an electromagnetic wave.
-- **[Classical Mechanics](../../../../../typescript/src/content/docs/index):** Electromagnetic forces in mechanics; charged particle dynamics.
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
-- **[Particle Physics](../../../../../typescript/src/content/docs/index):** The photon is the gauge boson of electromagnetism in the Standard Model.
+- **Optics and Waves:** Electromagnetic waves and optics; light is an electromagnetic wave.
+- **Classical Mechanics:** Electromagnetic forces in mechanics; charged particle dynamics.
+- **Quantum Mechanics:** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
+- **Particle Physics:** The photon is the gauge boson of electromagnetism in the Standard Model.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

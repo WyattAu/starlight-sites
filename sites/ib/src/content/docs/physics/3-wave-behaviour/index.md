@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.
+This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Wave Behaviour
 
@@ -31,7 +31,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Wave Behaviour needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

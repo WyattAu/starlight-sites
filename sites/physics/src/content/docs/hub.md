@@ -144,7 +144,7 @@ Thermal physics bridges the macroscopic laws of thermodynamics with the microsco
 ### Core Topics
 
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/), zeroth through third laws, work, heat, and entropy
-- [Statistical Mechanics](/2-thermal-physics/2_statistical-microchanics), microstates, macrostates, and the Boltzmann distribution
+- Statistical Mechanics, microstates, macrostates, and the Boltzmann distribution
 - [The Grand Canonical Ensemble](/2-thermal-physics/3_the-grand-canonical-ensemble/), variable particle number and chemical potential
 - [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/), Fermi-Dirac statistics and electron gases
 - [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/), quantum statistics and condensates
@@ -210,7 +210,7 @@ Optics describes how light propagates, interferes, diffracts, and polarises. The
 - [Electromagnetic Waves](/4-optics-and-waves/2_electromagnetic-waves/), plane waves, polarisation, and energy flux
 - [Interference](/4-optics-and-waves/3_interference/), Young's slit, thin films, and multiple-beam interference
 - [Diffraction](/4-optics-and-waves/4_diffraction/), single slit, diffraction gratings, and the Fraunhofer limit
-- [Polarisation](/4-optics-and-waves/5_polarisation), Malus' law, birefringence, and wave plates
+- Polarisation, Malus' law, birefringence, and wave plates
 - [Geometric Optics](/4-optics-and-waves/6_geometric-optics/), ray tracing, mirrors, lenses, and optical instruments
 - [Fourier Optics](/4-optics-and-waves/7_fourier-optics/), spatial frequency filtering and the optical transfer function
 - [Coherence](/4-optics-and-waves/8_coherence/), temporal and spatial coherence, mutual coherence functions

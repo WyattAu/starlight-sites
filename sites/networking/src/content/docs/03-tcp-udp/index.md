@@ -30,7 +30,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Networking sections in order, starting with Dns and Email And App Protocols and building toward Dns, Email And App Protocols, Http Https, Ip Addressing, Layer2, Network Tools, Osi Model, Tcp Udp, Tls and Wireless, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

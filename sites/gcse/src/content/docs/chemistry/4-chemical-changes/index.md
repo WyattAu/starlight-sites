@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables you to analyse quantitative problems and predict reaction outcomes systematically.
+This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Chemical Changes, attempt the practice problems cold, and only then check the worked solutions.
 
 # Chemical Changes
 
@@ -28,7 +28,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Chemical Changes needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

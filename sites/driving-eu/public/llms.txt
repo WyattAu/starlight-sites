@@ -2,27 +2,25 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Complete EU driving test preparation covering theory and practical tests across European countries with practice questions and study guides.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://driving-eu.wyattau.com/about/): About Wyatt's Notes EU Driving resources, experience, expertise, and credentials behind EU driving licence test study materials.
-- [Complete EU Driving Test Study Guide](https://driving-eu.wyattau.com/hub/): Study notes for Complete EU Driving Test Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [EU Driving Test](https://driving-eu.wyattau.com/): Complete EU driving test preparation covering theory and practical tests across European countries with practice questions and study guides.
-- [EU Driving Test Glossary, Key Terms](https://driving-eu.wyattau.com/glossary/): Comprehensive glossary of European driving test terms covering EU driving regulations, road signs, vehicle categories, and cross-border rules.
+- [About](https://driving-eu.wyattau.com/about/)
+- [Glossary](https://driving-eu.wyattau.com/glossary/)
+- [Hub](https://driving-eu.wyattau.com/hub/)
+- [Index](https://driving-eu.wyattau.com/)
 
 ## Driving-Laws
 
-- [EU Driving Laws](https://driving-eu.wyattau.com/driving-laws/eu-driving-laws/): Complete guide to EU driving laws including speed limits, alcohol limits, and document requirements.
+- [Eu Driving Laws](https://driving-eu.wyattau.com/driving-laws/eu-driving-laws/)
 
 ## Road-Signs
 
-- [Vienna Convention Road Signs](https://driving-eu.wyattau.com/road-signs/vienna-convention-signs/): Complete guide to Vienna Convention road signs used across Europe including regulatory, warning, and information signs.
+- [Vienna Convention Signs](https://driving-eu.wyattau.com/road-signs/vienna-convention-signs/)
 
 ## Theory-Test
 
-- [EU Driving Theory Test Practice](https://driving-eu.wyattau.com/theory-test/practice-eu-theory/): Practice questions for the EU driving theory test covering road signs, rules, and safety.
-- [EU Traffic Signs](https://driving-eu.wyattau.com/theory-test/traffic-signs/): EU Traffic Signs - Complete study guide and practice questions
-- [Theory Test | driving-eu](https://driving-eu.wyattau.com/theory-test/): This section covers theory test concepts, definitions, and applications with worked examples and practice problems.
+- [Index](https://driving-eu.wyattau.com/theory-test/)
+- [Practice Eu Theory](https://driving-eu.wyattau.com/theory-test/practice-eu-theory/)
+- [Traffic Signs](https://driving-eu.wyattau.com/theory-test/traffic-signs/)

@@ -247,6 +247,6 @@ When dielectrics or plate separations change, students often treat capacitors as
 
 ## Cross-References
 
-- [Current Electricity](../current-electricity/index) -- Electrostatics describes charge at rest while current electricity describes charge in motion, together covering the full behaviour of electric charge.
-- [Magnetic Effects of Current](../magnetic-effects/index) -- Moving charges produce magnetic fields, linking electrostatics to electromagnetism through the relationship between electricity and magnetism.
-- [Modern Physics](../atoms-nuclei/index) -- Atomic structure depends on electrostatic attraction between nucleus and electrons, connecting macroscopic charge behaviour to quantum models.
+- Current Electricity -- Electrostatics describes charge at rest while current electricity describes charge in motion, together covering the full behaviour of electric charge.
+- Magnetic Effects of Current -- Moving charges produce magnetic fields, linking electrostatics to electromagnetism through the relationship between electricity and magnetism.
+- Modern Physics -- Atomic structure depends on electrostatic attraction between nucleus and electrons, connecting macroscopic charge behaviour to quantum models.

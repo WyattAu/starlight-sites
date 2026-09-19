@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.
+This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Thermal Physics, attempt the practice problems cold, and only then check the worked solutions.
 
 # Thermal Physics
 
@@ -28,7 +28,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read Thermal Physics, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

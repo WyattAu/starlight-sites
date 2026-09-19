@@ -26,7 +26,7 @@ The IB Psychology course is divided into a core component and an elective compon
 - [Flashcards Cognitive](/psychology/flashcards-cognitive/)
 - [Flashcards Developmental](/psychology/flashcards-developmental/)
 - [Flashcards Qualitative](/psychology/flashcards-qualitative/)
-- [Flashcards Research Methods](./flashcards-review-methods)
+- Flashcards Research Methods
 - [Flashcards Sociocultural](/psychology/flashcards-sociocultural/)
 - [Practice Abnormal](/psychology/practice-abnormal/)
 - [Practice Biological](/psychology/practice-biological/)

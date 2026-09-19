@@ -2,70 +2,68 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Python is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Fundamentals
 
-- [Control Flow](https://python.wyattau.com/02-fundamentals/02-control-flow/): Python' s conditional statements are the most basic form of control flow. Unlike many languages, Python uses rather than braces or keywords to delimit blocks.
-- [Functions, Closures, and Decorators](https://python.wyattau.com/02-fundamentals/03-functions/): In Python, means that functions are values on equal footing with every other kind Of value -- integers, strings, lists, class instances. There is no
-- [Fundamentals](https://python.wyattau.com/02-fundamentals/): This section provides study materials and resources for fundamentals. Browse the topics below to find the specific area you need to revise.
-- [Generators and Iterators](https://python.wyattau.com/02-fundamentals/04-generators-and-iterators/): Python' s iteration mechanism is built on a two-method protocol defined by the data model. Any object That implements and is an iterator. The CPython
-- [Modules and Packages](https://python.wyattau.com/02-fundamentals/06-modules-and-packages/): The import system is the mechanism by which Python locates, loads, and binds module objects into the Current namespace. It is one of the most critical
-- [Python Internals](https://python.wyattau.com/02-fundamentals/05-python-internals/): CPython is the reference implementation of Python, written in C. It is the most widely used Implementation and the one most people mean when they say
-- [Types and Variables](https://python.wyattau.com/02-fundamentals/01-types-and-variables/): Python is and . These two properties are frequently Confused, so it is worth bei Comprehensive educational content coverage with definitions and practice proble
+- [Control Flow](https://python.wyattau.com/02-fundamentals/02-control-flow/)
+- [Functions](https://python.wyattau.com/02-fundamentals/03-functions/)
+- [Generators And Iterators](https://python.wyattau.com/02-fundamentals/04-generators-and-iterators/)
+- [Index](https://python.wyattau.com/02-fundamentals/)
+- [Modules And Packages](https://python.wyattau.com/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](https://python.wyattau.com/02-fundamentals/05-python-internals/)
+- [Types And Variables](https://python.wyattau.com/02-fundamentals/01-types-and-variables/)
 
 ## Data-Structures
 
-- [Collections](https://python.wyattau.com/03-data-structures/01-collections/): Python lists are of arbitrary objects. They are the most frequently Used built-in container and serve as the default sequence type for most tasks.
-- [Dicts, Sets, and Collections Deep Dive](https://python.wyattau.com/03-data-structures/02-dicts-sets-counter/): Python dicts are hash tables. CPython implements them using a combination of a sparse array of Indices and a dense array of entries, a design introduced in
+- [Collections](https://python.wyattau.com/03-data-structures/01-collections/)
+- [Dicts Sets Counter](https://python.wyattau.com/03-data-structures/02-dicts-sets-counter/)
 
 ## Object-Oriented
 
-- [Classes and Inheritance](https://python.wyattau.com/04-object-oriented/01-classes/): In Python, a class is created with the keyword. A class is itself an object -- an instance Of . The body of a statement executes at definition time (when
-- [Descriptors and Properties](https://python.wyattau.com/04-object-oriented/03-descriptors/): Descriptors are the mechanism behind And the entire Attribute access system in Python. A descriptor is any object that implements at least one of Or .
-- [Metaclasses and Class Creation](https://python.wyattau.com/04-object-oriented/02-metaclasses/): The statement in Python is not a declarative construct. It is an executable statement that Runs at import time (or at function call time if the class is
+- [Classes](https://python.wyattau.com/04-object-oriented/01-classes/)
+- [Descriptors](https://python.wyattau.com/04-object-oriented/03-descriptors/)
+- [Metaclasses](https://python.wyattau.com/04-object-oriented/02-metaclasses/)
 
 ## Standard-Library
 
-- [CLI Tools](https://python.wyattau.com/05-standard-library/03-cli-tools/): Study notes for CLI Tools with worked examples, practice problems, and key concepts for exam preparation.
-- [Concurrency Primitives](https://python.wyattau.com/05-standard-library/05-concurrency-primitives/): The module provides low-level thread primitives. Python threads are OS-level threads Managed by the platform' s native threading implementation (pthreads on
-- [Essential Modules](https://python.wyattau.com/05-standard-library/01-essential-modules/): The module is a collection of free functions that operate on path strings. It was designed In an era before Python had a coherent object model for paths.
-- [File I/O](https://python.wyattau.com/05-standard-library/02-file-io/): is the primary interface for file I/O in Python. It returns a file object (an instance of for text mode or / for binary mode) that Provides methods for
-- [Serialization and Data Formats](https://python.wyattau.com/05-standard-library/04-serialization/): The module is the standard way to serialize Python objects to JSON and back. It ships with CPython and uses a C extension for performance.
-- [Standard Library](https://python.wyattau.com/05-standard-library/): This section provides study materials and resources for standard library. Browse the topics below to find the specific area you need to revise.
+- [Cli Tools](https://python.wyattau.com/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](https://python.wyattau.com/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](https://python.wyattau.com/05-standard-library/01-essential-modules/)
+- [File Io](https://python.wyattau.com/05-standard-library/02-file-io/)
+- [Index](https://python.wyattau.com/05-standard-library/)
+- [Serialization](https://python.wyattau.com/05-standard-library/04-serialization/)
 
 ## Async
 
-- [Async and Await](https://python.wyattau.com/06-async/01-async-await/): Python Async and Await notes covering key definitions, core concepts, worked examples, and practice questions for in-depth learning and effective revision.
+- [Async Await](https://python.wyattau.com/06-async/01-async-await/)
 
 ## Best-Practices
 
-- [Best Practices](https://python.wyattau.com/07-best-practices/): This section provides study materials and resources for best practices. Browse the topics below to find the specific area you need to revise.
-- [Debugging and Profiling](https://python.wyattau.com/07-best-practices/02-debugging-and-profiling/): Debugging and profiling are not afterthoughts bolted onto a codebase after the fact. They are First-class engineering disciplines. A systems engineer does
-- [Error Handling Patterns](https://python.wyattau.com/07-best-practices/03-error-handling-patterns/): Python exceptions form a class hierarchy rooted at . Understanding this hierarchy is Essential for writing correct exception handlers.
-- [Packaging and Distribution](https://python.wyattau.com/07-best-practices/04-packaging-distribution/): is the modern standard for Python project configuration, defined by PEP 518 (build System) and PEP 621 (project metadata).
-- [Style and Idioms](https://python.wyattau.com/07-best-practices/01-style-and-idioms/): Study notes for Style and Idioms with worked examples, practice problems, and key concepts for exam preparation.
+- [Debugging And Profiling](https://python.wyattau.com/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](https://python.wyattau.com/07-best-practices/03-error-handling-patterns/)
+- [Index](https://python.wyattau.com/07-best-practices/)
+- [Packaging Distribution](https://python.wyattau.com/07-best-practices/04-packaging-distribution/)
+- [Style And Idioms](https://python.wyattau.com/07-best-practices/01-style-and-idioms/)
 
 ## Advanced-Topics
 
-- [Advanced Topics](https://python.wyattau.com/08-advanced-topics/): This section provides study materials and resources for advanced topics. Browse the topics below to find the specific area you need to revise.
-- [Advanced Type System](https://python.wyattau.com/08-advanced-topics/01-advanced-typing/): Python Advanced Type System notes covering key definitions, core concepts, worked examples, and practice questions for solid study and thorough revision.
-- [Context Managers and the with Statement](https://python.wyattau.com/08-advanced-topics/03-context-managers/): The statement guarantees that setup and teardown code runs, even if an exception occurs in The block body. It is the primary mechanism for resource
-- [Data Validation](https://python.wyattau.com/08-advanced-topics/02-data-validation/): Every non-trivial system receives data from sources it does not control: HTTP request bodies parsed From JSON, rows read from CSV files, configuration
-- [Protocols and Dunder Methods](https://python.wyattau.com/08-advanced-topics/04-protocols-dunder-methods/): Python' s data model defines a set of protocols that objects can implement to integrate with built-in Operations. These are invoked by the interpreter, not
+- [Advanced Typing](https://python.wyattau.com/08-advanced-topics/01-advanced-typing/)
+- [Context Managers](https://python.wyattau.com/08-advanced-topics/03-context-managers/)
+- [Data Validation](https://python.wyattau.com/08-advanced-topics/02-data-validation/)
+- [Index](https://python.wyattau.com/08-advanced-topics/)
+- [Protocols Dunder Methods](https://python.wyattau.com/08-advanced-topics/04-protocols-dunder-methods/)
 
 ## Overview
 
-- [About This Site](https://python.wyattau.com/about/): About Wyatt's Notes Python resources, experience, expertise, and credentials behind Python programming study materials.
-- [Algorithm Practice](https://python.wyattau.com/practice-algorithms/): Solve the 0/1 knapsack problem. Given items with weights and values, and a capacity, return the maximum value achievable.
-- [Complete Python Programming Study Guide](https://python.wyattau.com/hub/): Study notes for Complete Python Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Data Structures Practice](https://python.wyattau.com/practice-data-structures/): Implement both a stack and a queue using a single `Deque` class with `push, pop, enqueue`and `dequeue` operations.
-- [Introduction to Python](https://python.wyattau.com/intro/): Python Introduction to Python notes covering key definitions, core concepts, worked examples, and practice questions for complete study and thorough revision.
-- [Practice](https://python.wyattau.com/practice-python-basics/): Auto-generated practice questions.
-- [Python - Wyatt's Notes](https://python.wyattau.com/): Python is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Python Flashcards: Fundamentals](https://python.wyattau.com/flashcards-python-basics/): 20 interactive flashcards covering core Python concepts from types and control flow to metaclasses and the GIL. Press Space to flip, rate 1-4.
-- [Python Glossary, Key Terms and Definitions](https://python.wyattau.com/glossary/): Study notes for Python Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Python Practice (Interactive)](https://python.wyattau.com/practice-interactive/): 8 auto-graded practice problems covering core Python concepts. Select an answer, Comprehensive educational content coverage with definitions and practice proble
-- [Python Programming Practice Test, 30 Problems](https://python.wyattau.com/practice-test-mega/): 30 Python programming problems covering Syntax, Data Structures, OOP, and Algorithms. Code analysis and debugging with detailed explanations.
+- [About](https://python.wyattau.com/about/)
+- [Flashcards Python Basics](https://python.wyattau.com/flashcards-python-basics/)
+- [Glossary](https://python.wyattau.com/glossary/)
+- [Hub](https://python.wyattau.com/hub/)
+- [Index](https://python.wyattau.com/)
+- [Intro](https://python.wyattau.com/intro/)
+- [Practice Algorithms](https://python.wyattau.com/practice-algorithms/)
+- [Practice Data Structures](https://python.wyattau.com/practice-data-structures/)
+- [Practice Interactive](https://python.wyattau.com/practice-interactive/)
+- [Practice Python Basics](https://python.wyattau.com/practice-python-basics/)
+- [Practice Test Mega](https://python.wyattau.com/practice-test-mega/)

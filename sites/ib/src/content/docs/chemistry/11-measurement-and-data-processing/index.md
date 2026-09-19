@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables you to analyse quantitative problems and predict reaction outcomes systematically.
+This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Measurement And Data Processing alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
 # Measurement And Data Processing
 
@@ -28,7 +28,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read Measurement And Data Processing, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

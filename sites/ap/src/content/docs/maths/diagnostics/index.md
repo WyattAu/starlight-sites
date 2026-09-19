@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for diagnostics. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for diagnostics. If Diagnostics | AP Mathematics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
 

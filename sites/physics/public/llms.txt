@@ -2,181 +2,179 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-This section covers physics concepts, definitions, and applications with worked examples and practice problems.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Classical-Mechanics
 
-- [Central Force Problems](https://physics.wyattau.com/1-classical-mechanics/6_central-force-problems/): For a particle of mass in a central potential Using polar coordinates in the Pla Comprehensive educational content coverage with definitions and practice proble
-- [Classical Field Theory](https://physics.wyattau.com/1-classical-mechanics/13_classical-field-theory/): For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems.
-- [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/): 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Classical Mechanics Flashcards](https://physics.wyattau.com/1-classical-mechanics/14_flashcards-classical-mechanics/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/physics/1-classical-mechanics/14_flashcards-classical-mechanics-data.js';
-- [Classical Mechanics Practice (Interactive)](https://physics.wyattau.com/1-classical-mechanics/15_practice-classical-mechanics/): The language of motion: Classical mechanics provides the mathematical framework for describing and predicting motion, from simple projectile motion to complex
-- [Generalised Coordinates and Constraints](https://physics.wyattau.com/1-classical-mechanics/2_generalised-coordinates-and-constraints/): A system with degrees of freedom can be described by Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Hamiltonian Mechanics](https://physics.wyattau.com/1-classical-mechanics/4_hamiltonian-mechanics/): Hamiltonian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Hamiltonian Mechanics: Advanced Topics](https://physics.wyattau.com/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/): Study notes for Hamiltonian Mechanics: Advanced Topics with worked examples, practice problems, and key concepts for exam preparation.
-- [Lagrangian Mechanics](https://physics.wyattau.com/1-classical-mechanics/3_lagrangian-mechanics/): Lagrangian Mechanics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Newtonian Mechanics Review](https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review/): 1. A body remains at rest or in uniform motion unless acted upon by a net force. 2. where . 3. For every action, there is an equal and opposite reaction.
-- [Noether's Theorem and Conservation Laws](https://physics.wyattau.com/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/): For every continuous symmetry of the action, there is a Corresponding conserved  Comprehensive educational content coverage with definitions and practice proble
-- [Nonlinear Dynamics and Chaos](https://physics.wyattau.com/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/): The logistic map is the simplest model of chaotic dynamics: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://physics.wyattau.com/1-classical-mechanics/9_problem-set/): A particle of mass is placed on top of a smooth sphere of radius . It is given a tiny nudge so it begins to slide. At what angle does it leave the surface
-- [Rigid Body Dynamics](https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics/): A is a system of particles in which the distance between every pair of particles Comprehensive educational content coverage with definitions and practice proble
-- [Rigid Body Dynamics: Advanced Topics](https://physics.wyattau.com/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/): For a rigid body rotating freely (no external torques), the angular momentum in  Comprehensive educational content coverage with definitions and practice proble
-- [Small Oscillations and Normal Modes](https://physics.wyattau.com/1-classical-mechanics/7_small-oscillations-and-normal-modes/): At a stable equilibrium, has a local minimum. Expanding around equilibrium (): Comprehensive educational content coverage with definitions and practice problems
+- [Central Force Problems](https://physics.wyattau.com/1-classical-mechanics/6_central-force-problems/)
+- [Classical Field Theory](https://physics.wyattau.com/1-classical-mechanics/13_classical-field-theory/)
+- [Flashcards Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/14_flashcards-classical-mechanics/)
+- [Generalised Coordinates And Constraints](https://physics.wyattau.com/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](https://physics.wyattau.com/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics Advanced Topics](https://physics.wyattau.com/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+- [Index](https://physics.wyattau.com/1-classical-mechanics/)
+- [Lagrangian Mechanics](https://physics.wyattau.com/1-classical-mechanics/3_lagrangian-mechanics/)
+- [Newtonian Mechanics Review](https://physics.wyattau.com/1-classical-mechanics/1_newtonian-mechanics-review/)
+- [Noether S Theorem And Conservation Laws](https://physics.wyattau.com/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)
+- [Nonlinear Dynamics And Chaos](https://physics.wyattau.com/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/)
+- [Practice Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/15_practice-classical-mechanics/)
+- [Problem Set](https://physics.wyattau.com/1-classical-mechanics/9_problem-set/)
+- [Rigid Body Dynamics](https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics/)
+- [Rigid Body Dynamics Advanced Topics](https://physics.wyattau.com/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/)
+- [Small Oscillations And Normal Modes](https://physics.wyattau.com/1-classical-mechanics/7_small-oscillations-and-normal-modes/)
 
 ## Thermal-Physics
 
-- [Bose-Einstein Condensation](https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation/): For bosons, the average occupation of a single-particle state of energy is Comprehensive educational content coverage with definitions and practice problems.
-- [Classical Limit and the Maxwell-Boltzmann Distribution](https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/): In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the Maxwell-Boltzmann distribution. The condition for the
-- [Common Pitfalls](https://physics.wyattau.com/2-thermal-physics/8_common-pitfalls/): - The microcanonical ensemble describes an isolated system with fixed . The canonical ensemble describes a system in contact with a heat bath at fixed . The
-- [Fermi Gas at Finite Temperature](https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature/): Study notes for Fermi Gas at Finite Temperature with worked examples, practice problems, and key concepts for exam preparation.
-- [Fluctuation-Dissipation Theorem](https://physics.wyattau.com/2-thermal-physics/13_fluctuation-dissipation-theorem/): The (FDT) connects the response of a system to a small perturbation with the spontaneous fluctuations of the system at equilibrium.
-- [Irreversible Thermodynamics and Fluctuations](https://physics.wyattau.com/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/): The classical fluctuation-dissipation theorem relates the autocorrelation function of a fluctuating variable to the linear response function.
-- [Ising Model and Mean-Field Theory](https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field-theory/): The Ising model is the simplest model of interacting spins on a lattice. Each si Comprehensive educational content coverage with definitions and practice proble
-- [Landau Theory of Phase Transitions](https://physics.wyattau.com/2-thermal-physics/11_landau-theory-of-phase-transitions/): Landau theory provides a phenomenological framework for continuous (second-order) phase transitions by expanding the free energy in powers of an .
-- [Microcanonical Ensemble](https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble/): The describes an isolated system with fixed total energy Particle number And vol Comprehensive educational content coverage with definitions and practice proble
-- [Phase Transitions](https://physics.wyattau.com/2-thermal-physics/10_phase-transitions/): A is a discontinuity in a thermodynamic quantity or its derivative as a function of a state variable. Phase transitions are classified by Ehrenfest
-- [Problem Set](https://physics.wyattau.com/2-thermal-physics/9_problem-set/): Calculate the Fermi energy and Fermi temperature for sodium. Given: electron den Comprehensive educational content coverage with definitions and practice proble
-- [Quantum Statistical Mechanics: Advanced Topics](https://physics.wyattau.com/2-thermal-physics/18_quantum-statistical-mechanics-advanced-topics/): The (or density operator) provides the most general description of a quantum system, encompassing both pure and mixed states:
-- [Quantum Statistics in Detail](https://physics.wyattau.com/2-thermal-physics/15_quantum-statistics-in-detail/): Quantum Statistics in Detail: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics/): A is a complete specification of the state of a system (positions and momenta of all particles). A is specified by macroscopic variables (energy, volume,
-- [The Debye Model of Solids](https://physics.wyattau.com/2-thermal-physics/16_the-debye-model-of-solids/): The treats all atoms as independent quantum oscillators with the same frequency . Comprehensive educational content coverage with definitions and practice problems.
-- [The Grand Canonical Ensemble](https://physics.wyattau.com/2-thermal-physics/3_the-grand-canonical-ensemble/): In many physical situations, a system exchanges both energy and particles with a reservoir. The describes such open systems. The macroscopic variables are
-- [The Ising Model](https://physics.wyattau.com/2-thermal-physics/6_the-ising-model/): The is the simplest model of a phase transition. On a lattice of sites, each site has a spin variable . The Hamiltonian is
-- [The Laws of Thermodynamics](https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics/): If system is in thermal equilibrium with system And is in thermal equilibrium with system Then is in thermal equilibrium with .
-- [Thermal Physics](https://physics.wyattau.com/2-thermal-physics/): 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. Comprehensive educational content coverage with definitions and practice problems.
-- [Thermal Physics Practice (Interactive)](https://physics.wyattau.com/2-thermal-physics/22_practice-thermal-physics/): UNIVERSITY Physics practice problems: Thermal Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Thermodynamic Response Functions](https://physics.wyattau.com/2-thermal-physics/17_thermodynamic-response-functions/): Response functions measure how thermodynamic quantities change with state variab Comprehensive educational content coverage with definitions and practice proble
-- [Thermodynamics and Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/): If system is in thermal equilibrium with system And is in thermal Equilibrium with system Then is in thermal equilibrium with .
-- [Thermodynamics of Information Processing](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/): The minimum energy dissipation per irreversible bit operation depends on the phy Comprehensive educational content coverage with definitions and practice proble
+- [Bose Einstein Condensation](https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit And The Maxwell Boltzmann Distribution](https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](https://physics.wyattau.com/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas At Finite Temperature](https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+- [Fluctuation Dissipation Theorem](https://physics.wyattau.com/2-thermal-physics/13_fluctuation-dissipation-theorem/)
+- [Index](https://physics.wyattau.com/2-thermal-physics/)
+- [Irreversible Thermodynamics And Fluctuations](https://physics.wyattau.com/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/)
+- [Ising Model And Mean Field Theory](https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field-theory/)
+- [Landau Theory Of Phase Transitions](https://physics.wyattau.com/2-thermal-physics/11_landau-theory-of-phase-transitions/)
+- [Microcanonical Ensemble](https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble/)
+- [Phase Transitions](https://physics.wyattau.com/2-thermal-physics/10_phase-transitions/)
+- [Practice Thermal Physics](https://physics.wyattau.com/2-thermal-physics/22_practice-thermal-physics/)
+- [Problem Set](https://physics.wyattau.com/2-thermal-physics/9_problem-set/)
+- [Quantum Statistical Mechanics Advanced Topics](https://physics.wyattau.com/2-thermal-physics/18_quantum-statistical-mechanics-advanced-topics/)
+- [Quantum Statistics In Detail](https://physics.wyattau.com/2-thermal-physics/15_quantum-statistics-in-detail/)
+- [Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics/)
+- [The Debye Model Of Solids](https://physics.wyattau.com/2-thermal-physics/16_the-debye-model-of-solids/)
+- [The Grand Canonical Ensemble](https://physics.wyattau.com/2-thermal-physics/3_the-grand-canonical-ensemble/)
+- [The Ising Model](https://physics.wyattau.com/2-thermal-physics/6_the-ising-model/)
+- [The Laws Of Thermodynamics](https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics/)
+- [Thermodynamic Response Functions](https://physics.wyattau.com/2-thermal-physics/17_thermodynamic-response-functions/)
+- [Thermodynamics And Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/)
+- [Thermodynamics Of Information Processing](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/)
 
 ## Electromagnetism
 
-- [Advanced Electrodynamics](https://physics.wyattau.com/3-electromagnetism/11_advanced-electrodynamics/): The scalar potential of a localised charge distribution at large distances (Wher Comprehensive educational content coverage with definitions and practice proble
-- [Electrodynamics](https://physics.wyattau.com/3-electromagnetism/4_electrodynamics/): A changing magnetic field induces an electric field: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/): In free space (, ), take the curl of Faraday' s law: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/): UNIVERSITY Physics notes: Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.
-- [Electromagnetism Flashcards](https://physics.wyattau.com/3-electromagnetism/14_flashcards-electromagnetism/): Interactive flashcard deck for university electromagnetism revision. Spaced repetition covering electrostatics, magnetism, electromagnetic induction,
-- [Electromagnetism Practice (Interactive)](https://physics.wyattau.com/3-electromagnetism/15_practice-electromagnetism/): Interactive university electromagnetism practice with auto-graded questions. Covers electrostatics, magnetostatics, Maxwell's equations, circuits, and EM waves.
-- [Electrostatics](https://physics.wyattau.com/3-electromagnetism/2_electrostatics/): The force between two point charges and separated by distance : Comprehensive educational content coverage with definitions and practice problems.
-- [Magnetostatics](https://physics.wyattau.com/3-electromagnetism/3_magnetostatics/): The magnetic field due to a steady current in a wire element : Comprehensive educational content coverage with definitions and practice problems.
-- [Maxwell's Equations](https://physics.wyattau.com/3-electromagnetism/1_maxwell-s-equations/): Maxwell' s equations are the foundation of classical electromagnetism. In SI unit Comprehensive educational content coverage with definitions and practice pr
-- [Plasma Physics: Brief Overview](https://physics.wyattau.com/3-electromagnetism/13_plasma-physics-brief-overview/): A plasma screens electric fields over the : Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Potentials and Gauge Transformations](https://physics.wyattau.com/3-electromagnetism/6_potentials-and-gauge-transformations/): We can express the fields in terms of potentials: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://physics.wyattau.com/3-electromagnetism/8_problem-set/): Starting from Maxwell' s equations in differential form, derive the continuity Equation . Explain why this result Requires the displacement current term.
-- [Radiation from Accelerating Charges](https://physics.wyattau.com/3-electromagnetism/10_radiation-from-accelerating-charges/): A non-relativistic charge undergoing acceleration radiates power: Comprehensive educational content coverage with definitions and practice problems.
-- [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/12_special-relativity-and-electromagnetism-12/): Study notes for Special Relativity and Electromagnetism with worked examples, practice problems, and key concepts for exam preparation.
-- [Special Relativity and Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/): The laws of electromagnetism are inherently relativistic. In fact, it was the inconsistency of Maxwell' s equations with Galilean relativity that motivated
-- [Waveguides and Cavities](https://physics.wyattau.com/3-electromagnetism/9_waveguides-and-cavities/): A rectangular waveguide with dimensions (width) and (height) supports electromagnetic waves propagating in the -direction. Two families of modes exist:
+- [Advanced Electrodynamics](https://physics.wyattau.com/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](https://physics.wyattau.com/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](https://physics.wyattau.com/3-electromagnetism/5_electromagnetic-waves/)
+- [Electrostatics](https://physics.wyattau.com/3-electromagnetism/2_electrostatics/)
+- [Flashcards Electromagnetism](https://physics.wyattau.com/3-electromagnetism/14_flashcards-electromagnetism/)
+- [Index](https://physics.wyattau.com/3-electromagnetism/)
+- [Magnetostatics](https://physics.wyattau.com/3-electromagnetism/3_magnetostatics/)
+- [Maxwell S Equations](https://physics.wyattau.com/3-electromagnetism/1_maxwell-s-equations/)
+- [Plasma Physics Brief Overview](https://physics.wyattau.com/3-electromagnetism/13_plasma-physics-brief-overview/)
+- [Potentials And Gauge Transformations](https://physics.wyattau.com/3-electromagnetism/6_potentials-and-gauge-transformations/)
+- [Practice Electromagnetism](https://physics.wyattau.com/3-electromagnetism/15_practice-electromagnetism/)
+- [Problem Set](https://physics.wyattau.com/3-electromagnetism/8_problem-set/)
+- [Radiation From Accelerating Charges](https://physics.wyattau.com/3-electromagnetism/10_radiation-from-accelerating-charges/)
+- [Special Relativity And Electromagnetism](https://physics.wyattau.com/3-electromagnetism/7_special-relativity-and-electromagnetism/)
+- [Special Relativity And Electromagnetism 12](https://physics.wyattau.com/3-electromagnetism/12_special-relativity-and-electromagnetism-12/)
+- [Waveguides And Cavities](https://physics.wyattau.com/3-electromagnetism/9_waveguides-and-cavities/)
 
 ## Optics-And-Waves
 
-- [Coherence](https://physics.wyattau.com/4-optics-and-waves/8_coherence/): : the time over which the wave maintains a well-defined phase. Comprehensive educational content coverage with definitions and practice problems.
-- [Coherence Theory](https://physics.wyattau.com/4-optics-and-waves/15_coherence-theory/): A source has finite if the emitted light has a finite bandwidth . The is . Comprehensive educational content coverage with definitions and practice problems.
-- [Coherence Theory](https://physics.wyattau.com/4-optics-and-waves/20_coherence-theory-16/): describes the correlation of a wave with itself at different times. The is the time over which the phase relationship is maintained.
-- [Common Pitfalls](https://physics.wyattau.com/4-optics-and-waves/18_common-pitfalls/): - Fraunhofer (far-field) patterns are Fourier transforms; Fresnel (near-field) patterns involve Fresnel integrals. The transition occurs at
-- [Computational Imaging and Adaptive Optics](https://physics.wyattau.com/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/): (Candes, Tao, Donoho, 2006) shows that signals that are in some basis can be reconstructed from far fewer measurements than Nyquist sampling requires:
-- [Detailed Diffraction Theory](https://physics.wyattau.com/4-optics-and-waves/16_detailed-diffraction-theory/): (near-field): the observation screen is close enough that the curvature of the wavefronts matters. The Fresnel diffraction integral is:
-- [Diffraction](https://physics.wyattau.com/4-optics-and-waves/4_diffraction/): Every point on a wavefront acts as a source of secondary spherical wavelets. The new wavefront is the Envelope of these wavelets, accounting for both
-- [Dispersion](https://physics.wyattau.com/4-optics-and-waves/11_dispersion/): The refractive index varies with frequency: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Electromagnetic Waves](https://physics.wyattau.com/4-optics-and-waves/2_electromagnetic-waves/): From Maxwell' s equations, the following properties hold for plane EM waves: Comprehensive educational content coverage with definitions and practice problems.
-- [Fourier Optics](https://physics.wyattau.com/4-optics-and-waves/14_fourier-optics-10/): The Fraunhofer diffraction pattern of an aperture with transmittance function illuminated by a plane wave is proportional to the 2D Fourier transform of the
-- [Fourier Optics](https://physics.wyattau.com/4-optics-and-waves/19_fourier-optics-15/): Study notes for Fourier Optics with worked examples, practice problems, and key concepts for exam preparation.
-- [Fourier Optics](https://physics.wyattau.com/4-optics-and-waves/7_fourier-optics/): In the Fraunhofer limit, the diffraction pattern is the of the aperture function Comprehensive educational content coverage with definitions and practice problems.
-- [Fresnel Equations](https://physics.wyattau.com/4-optics-and-waves/10_fresnel-equations/): When light strikes a planar interface between media with refractive indices and The Amplitudes of the reflected and transmitted waves depend on the
-- [Geometric Optics](https://physics.wyattau.com/4-optics-and-waves/6_geometric-optics/): The angle of incidence equals the angle of reflection: (both measured from the n Comprehensive educational content coverage with definitions and practice proble
-- [Interference](https://physics.wyattau.com/4-optics-and-waves/3_interference/): Study notes for Interference with worked examples, practice problems, and key concepts for exam preparation.
-- [Lasers | Physics - Wyatt's Notes](https://physics.wyattau.com/4-optics-and-waves/21_lasers-17/): Lasers: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Lasers | Physics - Wyatt's Notes](https://physics.wyattau.com/4-optics-and-waves/9_lasers/): Einstein's coefficients: (spontaneous emission), (stimulated emission), (absorption). Comprehensive educational content coverage with definitions and practice problems.
-- [Nonlinear Optics](https://physics.wyattau.com/4-optics-and-waves/22_nonlinear-optics/): When the electric field is strong (e.g., laser), the polarisation develops nonli Comprehensive educational content coverage with definitions and practice proble
-- [Optical Fibres](https://physics.wyattau.com/4-optics-and-waves/12_optical-fibres/): An optical fibre consists of a core (refractive index ) surrounded by a cladding (). Light is guided by total internal reflection.
-- [Optics and Wave Physics](https://physics.wyattau.com/4-optics-and-waves/): 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 2 Comprehensive educational content coverage with definitions and practice proble
-- [Optics and Waves Practice (Interactive)](https://physics.wyattau.com/4-optics-and-waves/24_practice-optics-waves/): UNIVERSITY Physics practice problems: Optics and Waves Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Polarisation in Detail](https://physics.wyattau.com/4-optics-and-waves/17_polarisation-in-detail/): The represents the polarisation state of a monochromatic plane wave: Comprehensive educational content coverage with definitions and practice problems.
-- [Polarization](https://physics.wyattau.com/4-optics-and-waves/5_polarization/): For a plane wave propagating in the -direction: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://physics.wyattau.com/4-optics-and-waves/13_problem-set/): A string of length m is fixed at both ends and has wave speed m/s. Find the fundamental frequency and the frequencies of the first three harmonics.
-- [The Wave Equation](https://physics.wyattau.com/4-optics-and-waves/1_the-wave-equation/): In vacuum, with no sources ( ), Maxwell' s equations give: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
+- [Coherence](https://physics.wyattau.com/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](https://physics.wyattau.com/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory 16](https://physics.wyattau.com/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](https://physics.wyattau.com/4-optics-and-waves/18_common-pitfalls/)
+- [Computational Imaging And Adaptive Optics](https://physics.wyattau.com/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)
+- [Detailed Diffraction Theory](https://physics.wyattau.com/4-optics-and-waves/16_detailed-diffraction-theory/)
+- [Diffraction](https://physics.wyattau.com/4-optics-and-waves/4_diffraction/)
+- [Dispersion](https://physics.wyattau.com/4-optics-and-waves/11_dispersion/)
+- [Electromagnetic Waves](https://physics.wyattau.com/4-optics-and-waves/2_electromagnetic-waves/)
+- [Fourier Optics](https://physics.wyattau.com/4-optics-and-waves/7_fourier-optics/)
+- [Fourier Optics 10](https://physics.wyattau.com/4-optics-and-waves/14_fourier-optics-10/)
+- [Fourier Optics 15](https://physics.wyattau.com/4-optics-and-waves/19_fourier-optics-15/)
+- [Fresnel Equations](https://physics.wyattau.com/4-optics-and-waves/10_fresnel-equations/)
+- [Geometric Optics](https://physics.wyattau.com/4-optics-and-waves/6_geometric-optics/)
+- [Index](https://physics.wyattau.com/4-optics-and-waves/)
+- [Interference](https://physics.wyattau.com/4-optics-and-waves/3_interference/)
+- [Lasers](https://physics.wyattau.com/4-optics-and-waves/9_lasers/)
+- [Lasers 17](https://physics.wyattau.com/4-optics-and-waves/21_lasers-17/)
+- [Nonlinear Optics](https://physics.wyattau.com/4-optics-and-waves/22_nonlinear-optics/)
+- [Optical Fibres](https://physics.wyattau.com/4-optics-and-waves/12_optical-fibres/)
+- [Polarisation In Detail](https://physics.wyattau.com/4-optics-and-waves/17_polarisation-in-detail/)
+- [Polarization](https://physics.wyattau.com/4-optics-and-waves/5_polarization/)
+- [Practice Optics Waves](https://physics.wyattau.com/4-optics-and-waves/24_practice-optics-waves/)
+- [Problem Set](https://physics.wyattau.com/4-optics-and-waves/13_problem-set/)
+- [The Wave Equation](https://physics.wyattau.com/4-optics-and-waves/1_the-wave-equation/)
 
 ## Quantum-Mechanics
 
-- [Angular Momentum and the Hydrogen Atom](https://physics.wyattau.com/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/): Study notes for Angular Momentum and the Hydrogen Atom with worked examples, practice problems, and key concepts for exam preparation.
-- [Approximation Methods](https://physics.wyattau.com/5-quantum-mechanics/8_approximation-methods/): Approximation Methods: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Density Functional Theory: Conceptual Overview](https://physics.wyattau.com/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/): The ground-state electron density uniquely determines the external potential (up to an additive constant), and hence the full many-body Hamiltonian and all
-- [Historical Motivation](https://physics.wyattau.com/5-quantum-mechanics/1_historical-motivation/): By the late 19th century, classical physics could not explain several phenomena: Comprehensive educational content coverage with definitions and practice proble
-- [Identical Particles and Exchange Symmetry](https://physics.wyattau.com/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/): For a system of identical particles, the wavefunction must satisfy: Comprehensive educational content coverage with definitions and practice problems.
-- [One-Dimensional Problems](https://physics.wyattau.com/5-quantum-mechanics/5_one-dimensional-problems/): A particle of mass in a potential for and otherwise. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Operators and Observables](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-observables/): Operators and Observables: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Postulates of Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/2_postulates-of-quantum-mechanics/): The state of a quantum system is completely described by a normalised Vector in  Comprehensive educational content coverage with definitions and practice proble
-- [Problem Set](https://physics.wyattau.com/5-quantum-mechanics/9_problem-set/): (Photoelectric effect) A sodium surface has work function eV. When illuminated With light of wavelength nm, find (a) the maximum kinetic energy of emitted
-- [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/): UNIVERSITY Physics notes: Quantum Mechanics. Comprehensive study material with definitions, examples, and assessment tools.
-- [Quantum Mechanics Flashcards](https://physics.wyattau.com/5-quantum-mechanics/16_flashcards-quantum-mechanics/): UNIVERSITY Physics flashcards: Quantum Mechanics Flashcards. Comprehensive study material with definitions, examples, and assessment tools.
-- [quantum mechanics ii](https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii/): The is the splitting of atomic energy levels by an external electric field Comprehensive educational content coverage with definitions and practice problems.
-- [Quantum Mechanics Practice (Interactive)](https://physics.wyattau.com/5-quantum-mechanics/17_practice-quantum-mechanics/): UNIVERSITY Physics practice problems: Quantum Mechanics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Scattering Theory](https://physics.wyattau.com/5-quantum-mechanics/13_scattering-theory/): For a spherically symmetric potential The scattering amplitude can be expanded i Comprehensive educational content coverage with definitions and practice proble
-- [Spin | Physics - Wyatt's Notes](https://physics.wyattau.com/5-quantum-mechanics/7_spin/): Spin is an form of angular momentum with no classical analogue. For spin- partic Comprehensive educational content coverage with definitions and practice proble
-- [Time-Dependent Perturbation Theory](https://physics.wyattau.com/5-quantum-mechanics/12_time-dependent-perturbation-theory/): For a time-dependent perturbation applied to an initial state Comprehensive educational content coverage with definitions and practice problems.
-- [Variational Methods](https://physics.wyattau.com/5-quantum-mechanics/11_variational-methods/): For any trial wavefunction (normalised), the expectation value of the Hamiltonian is an upper bound on the true ground state energy:
-- [Wave Functions and the Schrodinger Equation](https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/): In the position representation, the state is described by a Where is the probabi Comprehensive educational content coverage with definitions and practice proble
-- [WKB Approximation](https://physics.wyattau.com/5-quantum-mechanics/14_wkb-approximation/): The WKB (Wentzel--Kramers--Brillouin) method provides approximate solutions to the one-dimensional Schrodinger equation when the potential varies slowly
+- [Angular Momentum And The Hydrogen Atom](https://physics.wyattau.com/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](https://physics.wyattau.com/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory Conceptual Overview](https://physics.wyattau.com/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Flashcards Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/16_flashcards-quantum-mechanics/)
+- [Historical Motivation](https://physics.wyattau.com/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles And Exchange Symmetry](https://physics.wyattau.com/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
+- [Index](https://physics.wyattau.com/5-quantum-mechanics/)
+- [One Dimensional Problems](https://physics.wyattau.com/5-quantum-mechanics/5_one-dimensional-problems/)
+- [Operators And Observables](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-observables/)
+- [Postulates Of Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/2_postulates-of-quantum-mechanics/)
+- [Practice Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/17_practice-quantum-mechanics/)
+- [Problem Set](https://physics.wyattau.com/5-quantum-mechanics/9_problem-set/)
+- [Quantum Mechanics Ii](https://physics.wyattau.com/5-quantum-mechanics/18_quantum-mechanics-ii/)
+- [Scattering Theory](https://physics.wyattau.com/5-quantum-mechanics/13_scattering-theory/)
+- [Spin](https://physics.wyattau.com/5-quantum-mechanics/7_spin/)
+- [Time Dependent Perturbation Theory](https://physics.wyattau.com/5-quantum-mechanics/12_time-dependent-perturbation-theory/)
+- [Variational Methods](https://physics.wyattau.com/5-quantum-mechanics/11_variational-methods/)
+- [Wave Functions And The Schrodinger Equation](https://physics.wyattau.com/5-quantum-mechanics/3_wave-functions-and-the-schrodinger-equation/)
+- [Wkb Approximation](https://physics.wyattau.com/5-quantum-mechanics/14_wkb-approximation/)
 
 ## Solid-State-Physics
 
-- [Advanced Semiconductor Physics](https://physics.wyattau.com/6-solid-state-physics/15_advanced-semiconductor-physics/): In an n-channel MOSFET, the gate voltage controls the channel charge: Comprehensive educational content coverage with definitions and practice problems.
-- [Advanced Semiconductor Physics (Continued)](https://physics.wyattau.com/6-solid-state-physics/16_advanced-semiconductor-physics-continued/): When a 2D electron gas (2DEG) is placed in a strong perpendicular magnetic field at low temperature, the Hall resistance shows quantised plateaux:
-- [Advanced Topics in Superconductivity](https://physics.wyattau.com/6-solid-state-physics/12_advanced-topics-in-superconductivity/): The Ginzburg--Landau (GL) theory provides a phenomenological description of supe Comprehensive educational content coverage with definitions and practice proble
-- [Crystal Structures](https://physics.wyattau.com/6-solid-state-physics/1_crystal-structures/): A crystal is defined by a (infinite array of points with translational symmetry) and a (the arrangement of atoms associated with each lattice point).
-- [Defects in Crystals](https://physics.wyattau.com/6-solid-state-physics/9_defects-in-crystals/): - Missing atom at a lattice site. - Extra atom between lattice sites. - Foreign atom replacing a host atom. - Vacancy-interstitial pair (atom moves to interstitial site).
-- [Diffraction](https://physics.wyattau.com/6-solid-state-physics/3_diffraction/): X-ray diffraction from crystal planes produces constructive interference when: Comprehensive educational content coverage with definitions and practice problems
-- [Electronic Band Structure](https://physics.wyattau.com/6-solid-state-physics/5_electronic-band-structure/): Study notes for Electronic Band Structure with worked examples, practice problems, and key concepts for exam preparation.
-- [Lattice Vibrations and Phonons](https://physics.wyattau.com/6-solid-state-physics/4_lattice-vibrations-and-phonons/): Consider atoms of mass connected by springs of constant with equilibrium spacing Comprehensive educational content coverage with definitions and practice proble
-- [Magnetism in Solids](https://physics.wyattau.com/6-solid-state-physics/10_magnetism-in-solids/): - Weak, negative susceptibility (). Present in all materials. Arises from the orbital response to an applied field (Lenz' s law). . - Positive susceptibility
-- [Many-Body Physics in Solids](https://physics.wyattau.com/6-solid-state-physics/14_many-body-physics-in-solids/): In a metal, the Coulomb interaction between electrons is screened by the other e Comprehensive educational content coverage with definitions and practice proble
-- [Problem Set](https://physics.wyattau.com/6-solid-state-physics/11_problem-set/): Calculate the packing fraction of the simple cubic lattice. Compare it with BCC and FCC, And explain why SC is rarely observed in elemental metals.
-- [Reciprocal Lattice](https://physics.wyattau.com/6-solid-state-physics/2_reciprocal-lattice/): Reciprocal Lattice: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Semiconductors](https://physics.wyattau.com/6-solid-state-physics/6_semiconductors/): At The valence band is completely filled and the conduction band is completely e Comprehensive educational content coverage with definitions and practice proble
-- [Solid State Physics](https://physics.wyattau.com/6-solid-state-physics/): 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Solid State Physics Practice (Interactive)](https://physics.wyattau.com/6-solid-state-physics/17_practice-solid-state-physics/): UNIVERSITY Physics practice problems: Solid State Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Superconductivity](https://physics.wyattau.com/6-solid-state-physics/7_superconductivity/): is the complete loss of electrical resistance below a critical temperature Comprehensive educational content coverage with definitions and practice problems.
-- [Topological Insulators and Semimetals](https://physics.wyattau.com/6-solid-state-physics/13_topological-insulators-and-semimetals/): When an electron adiabatically traverses a closed loop in -space, its Bloch stat Comprehensive educational content coverage with definitions and practice proble
-- [Transport Properties](https://physics.wyattau.com/6-solid-state-physics/8_transport-properties/): The treats conduction electrons as a classical gas scattering off ions with a me Comprehensive educational content coverage with definitions and practice proble
+- [Advanced Semiconductor Physics](https://physics.wyattau.com/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics Continued](https://physics.wyattau.com/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics In Superconductivity](https://physics.wyattau.com/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](https://physics.wyattau.com/6-solid-state-physics/1_crystal-structures/)
+- [Defects In Crystals](https://physics.wyattau.com/6-solid-state-physics/9_defects-in-crystals/)
+- [Diffraction](https://physics.wyattau.com/6-solid-state-physics/3_diffraction/)
+- [Electronic Band Structure](https://physics.wyattau.com/6-solid-state-physics/5_electronic-band-structure/)
+- [Index](https://physics.wyattau.com/6-solid-state-physics/)
+- [Lattice Vibrations And Phonons](https://physics.wyattau.com/6-solid-state-physics/4_lattice-vibrations-and-phonons/)
+- [Magnetism In Solids](https://physics.wyattau.com/6-solid-state-physics/10_magnetism-in-solids/)
+- [Many Body Physics In Solids](https://physics.wyattau.com/6-solid-state-physics/14_many-body-physics-in-solids/)
+- [Practice Solid State Physics](https://physics.wyattau.com/6-solid-state-physics/17_practice-solid-state-physics/)
+- [Problem Set](https://physics.wyattau.com/6-solid-state-physics/11_problem-set/)
+- [Reciprocal Lattice](https://physics.wyattau.com/6-solid-state-physics/2_reciprocal-lattice/)
+- [Semiconductors](https://physics.wyattau.com/6-solid-state-physics/6_semiconductors/)
+- [Superconductivity](https://physics.wyattau.com/6-solid-state-physics/7_superconductivity/)
+- [Topological Insulators And Semimetals](https://physics.wyattau.com/6-solid-state-physics/13_topological-insulators-and-semimetals/)
+- [Transport Properties](https://physics.wyattau.com/6-solid-state-physics/8_transport-properties/)
 
 ## Particle-Physics-And-Cosmology
 
-- [Advanced Topics in Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/): The describes the temperature anisotropy of the CMB caused by gravitational potential fluctuations at the surface of last scattering:
-- [Advanced Topics in Particle Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/): experiments (SLAC, 1968) scattered high-energy electrons off protons. The key observation: at large momentum transfer The proton behaves as if composed of
-- [Beyond the Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/9_beyond-the-standard-model/): Supersymmetry relates fermions and bosons: every SM particle has a superpartner  Comprehensive educational content coverage with definitions and practice proble
-- [Big Bang Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/7_big-bang-cosmology/): The dynamics of a homogeneous, isotropic universe are described by the : Comprehensive educational content coverage with definitions and practice problems.
-- [Conservation Laws and Symmetries](https://physics.wyattau.com/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/): The following are conserved in all known interactions: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Feynman Diagrams](https://physics.wyattau.com/7-particle-physics-and-cosmology/3_feynman-diagrams/): Feynman diagrams are a pictorial representation of perturbation theory in quantu Comprehensive educational content coverage with definitions and practice proble
-- [Group Theory in Particle Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/): The strong interaction is governed by the gauge group . The eight gluons correspond to the Eight generators of SU(3), the Gell-Mann matrices ().
-- [Neutrino Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/8_neutrino-physics/): Neutrinos are produced and detected in flavour eigenstates But propagate As mass Comprehensive educational content coverage with definitions and practice proble
-- [Particle Physics and Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/): UNIVERSITY Physics notes: Particle Physics and Cosmology. Comprehensive study material with definitions, examples, and assessment tools.
-- [Particle Physics and Cosmology Practice (Interactive)](https://physics.wyattau.com/7-particle-physics-and-cosmology/14_practice-particle-physics-cosmology/): UNIVERSITY Physics practice problems: Particle Physics and Cosmology Practice (Interactive). Comprehensive study material with definitions, examples,
-- [Precision Tests of the Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model/): The anomalous magnetic moment of the electron and muon: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://physics.wyattau.com/7-particle-physics-and-cosmology/10_problem-set/): Using the Gell-Mann--Nishijima formula, determine the electric charge of the Comprehensive educational content coverage with definitions and practice problems.
-- [Running Coupling Constants](https://physics.wyattau.com/7-particle-physics-and-cosmology/6_running-coupling-constants/): The strong coupling depends on the energy scale : Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [The Higgs Mechanism](https://physics.wyattau.com/7-particle-physics-and-cosmology/4_the-higgs-mechanism/): The Higgs mechanism gives mass to the and bosons while preserving gauge invariance. The Key idea: a scalar field acquires a non-zero , spontaneously
-- [The Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/1_the-standard-model/): The of particle physics describes the fundamental particles and their interactions Via three of the four known forces: the electromagnetic, weak, and strong
+- [Advanced Topics In Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics In Particle Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond The Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+- [Conservation Laws And Symmetries](https://physics.wyattau.com/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
+- [Feynman Diagrams](https://physics.wyattau.com/7-particle-physics-and-cosmology/3_feynman-diagrams/)
+- [Group Theory In Particle Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/5_group-theory-in-particle-physics/)
+- [Index](https://physics.wyattau.com/7-particle-physics-and-cosmology/)
+- [Neutrino Physics](https://physics.wyattau.com/7-particle-physics-and-cosmology/8_neutrino-physics/)
+- [Practice Particle Physics Cosmology](https://physics.wyattau.com/7-particle-physics-and-cosmology/14_practice-particle-physics-cosmology/)
+- [Precision Tests Of The Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/13_precision-tests-of-the-standard-model/)
+- [Problem Set](https://physics.wyattau.com/7-particle-physics-and-cosmology/10_problem-set/)
+- [Running Coupling Constants](https://physics.wyattau.com/7-particle-physics-and-cosmology/6_running-coupling-constants/)
+- [The Higgs Mechanism](https://physics.wyattau.com/7-particle-physics-and-cosmology/4_the-higgs-mechanism/)
+- [The Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/1_the-standard-model/)
 
 ## Overview
 
-- [About This Site](https://physics.wyattau.com/about/): About Wyatt's Notes Physics resources, experience, expertise, and credentials behind university-level physics study materials.
-- [Classical Mechanics Flashcards](https://physics.wyattau.com/classical-mechanics-flashcards/): Flashcards for muscle memory: Flashcards are like drilling scales on a musical instrument, they build the automatic recall that frees your mind for
-- [Complete University Physics Study Guide](https://physics.wyattau.com/hub/): Study notes for Complete University Physics Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Mechanics Practice](https://physics.wyattau.com/practice-mechanics/): Question 1. A 10 kg block rests on a horizontal surface with a coefficient of static friction of 0.4. What is the minimum horizontal force required to start
-- [Physics](https://physics.wyattau.com/): This section covers physics concepts, definitions, and applications with worked examples and practice problems.
-- [Physics](https://physics.wyattau.com/intro/): Study notes for Physics with worked examples, practice problems, and key concepts for exam preparation.
-- [Physics Glossary, Key Terms and Definitions](https://physics.wyattau.com/glossary/): Study notes for Physics Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Physics Practice Problems](https://physics.wyattau.com/practice-problems/): Practice problems covering fundamental concepts in classical mechanics. Each problem includes multiple-choice options and detailed explanations.
-- [thermodynamics](https://physics.wyattau.com/thermodynamics/): is the branch of physics that deals with heat, work, temperature, and their relation to energy, entropy, and the physical properties of matter. It provides
+- [About](https://physics.wyattau.com/about/)
+- [Classical Mechanics Flashcards](https://physics.wyattau.com/classical-mechanics-flashcards/)
+- [Glossary](https://physics.wyattau.com/glossary/)
+- [Hub](https://physics.wyattau.com/hub/)
+- [Index](https://physics.wyattau.com/)
+- [Intro](https://physics.wyattau.com/intro/)
+- [Practice Mechanics](https://physics.wyattau.com/practice-mechanics/)
+- [Practice Problems](https://physics.wyattau.com/practice-problems/)
+- [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [University Physics Practice Test, 30 Challenging Problems](https://physics.wyattau.com/practice-test-mega/): 30 university-level physics problems covering Classical Mechanics, Thermodynamics, Electromagnetism, and Quantum Mechanics. Problem-solving with detailed solutions.
 
 ## Diagnostics
 
-- [Diagnostic Test: Mechanics](https://physics.wyattau.com/diagnostics/diag-mechanics/): Diagnostic test notes for physics Diagnostic Test: Mechanics covering key concepts, worked examples, and practice problems for exam preparation.
-- [Diagnostics](https://physics.wyattau.com/diagnostics/): Diagnostic test notes for physics Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
+- [Diag Mechanics](https://physics.wyattau.com/diagnostics/diag-mechanics/)
+- [Index](https://physics.wyattau.com/diagnostics/)
 
 ## Zh
 
-- [Physics | 简体中文](https://physics.wyattau.com/zh/): Confusing Chinese and international unit conventions: Chinese textbooks sometimes use different unit names or conventions. Always verify the unit system before
+- [Index](https://physics.wyattau.com/zh/)

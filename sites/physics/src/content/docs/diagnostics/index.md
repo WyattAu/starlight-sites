@@ -10,7 +10,7 @@ sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 
-This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.
+This section covers key physical principles, from classical mechanics to modern physics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
 

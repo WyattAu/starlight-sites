@@ -63,7 +63,7 @@ int main() {
 The full lambda syntax is:
 
 ```
-[capture](template_params)(params) mutable noexcept(…) -> ret { body }
+capture(params) mutable noexcept(…) -> ret { body }
 ```
 
 Every component after `capture` is optional:

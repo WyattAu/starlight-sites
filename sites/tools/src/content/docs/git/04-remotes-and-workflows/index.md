@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Remotes And Workflows"
-description: "This section provides study materials and resources for remotes and workflows. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for remotes and workflows. Work through the Tools sections in order, starting with Algorithms and Diagnostics and building toward Algorithms, Diagnostics, General, Git, Licensing, Probabilisticml and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for remotes and workflows. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for remotes and workflows. Work through Remotes And Workflows alongside the practice problems for Git, then let the diagnostic tests tell you whether it stuck.
 
 # Remotes And Workflows
 
@@ -32,7 +32,7 @@ This section provides study materials and resources for remotes and workflows. B
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Remotes And Workflows feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

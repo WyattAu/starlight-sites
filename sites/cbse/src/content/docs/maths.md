@@ -539,7 +539,7 @@ $$P(X = r) = \binom{n}{r} p^r (1-p)^{n-r}$$
 ### Example 2: Solving a System Using Matrices
 
 **Problem:** Solve: 2x + y = 5, x - y = 1.
-**Solution:** In matrix form AX = B, where A = [[2,1],[1,-1]], B = [[5],[1]]. |A| = (2)(-1) - (1)(1) = -3. Since |A| != 0, unique solution exists. A^{-1} = [1/-3]([-1,-1),[-1,2]] = [1/3]([1,1),[1,-2]]. X = A^{-1}B = [1/3]([1,1),[1,-2]][[5],[1]] = [1/3]([6),[3]] = [[2],[1]]. So x = 2, y = 1.
+**Solution:** In matrix form AX = B, where A = [[2,1],[1,-1]], B = [[5],[1]]. |A| = (2)(-1) - (1)(1) = -3. Since |A| != 0, unique solution exists. A^{-1} = 1/-3,[-1,2]] = 1/3,[1,-2]]. X = A^{-1}B = 1/3,[1,-2]][[5],[1]] = 1/3,[3]] = [[2],[1]]. So x = 2, y = 1.
 
 ### Example 3: Probability Using Bayes' Theorem
 

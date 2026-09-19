@@ -158,6 +158,6 @@ tags: [glossary]
 ## Related Resources
 
 - [IB Diploma Overview](https://computer-science.wyattau.com/4-databases/8_nosql-overview/)
-- [Subject Guides](/ib/subjects/)
-- [TOK Resources](/ib/tok/)
+- Subject Guides
+- TOK Resources
 - [Extended Essay Guide](https://sat.wyattau.com/writing/essay/)

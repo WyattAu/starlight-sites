@@ -29,7 +29,7 @@ This section covers civic knowledge, governance structures, and responsible citi
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Civics Tests sections in order, starting with Practice and Us Citizenship and building toward Practice and Us Citizenship, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

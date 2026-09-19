@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Further Maths"
-description: "This section provides study materials and resources for further maths. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for further maths. Work through the A-Level sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Computer Science, Economics, English, Further Maths, Geography, History, Maths, Physics, Psychology and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for further maths. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for further maths. If Further Maths feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Further Maths
 
@@ -34,7 +34,7 @@ This section provides study materials and resources for further maths. Browse th
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Further Maths needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

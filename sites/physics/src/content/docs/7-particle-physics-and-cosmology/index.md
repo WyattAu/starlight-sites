@@ -114,9 +114,9 @@ Particle physics seeks to identify the fundamental building blocks of matter and
 
 ## Cross-References
 
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Quantum field theory foundations.
-- **[Classical Mechanics](../../../../../typescript/src/content/docs/index):** Gravitational theory in cosmology.
-- **[Thermal Physics](../../../../../typescript/src/content/docs/index):** Thermodynamics of the early universe.
+- **Quantum Mechanics:** Quantum field theory foundations.
+- **Classical Mechanics:** Gravitational theory in cosmology.
+- **Thermal Physics:** Thermodynamics of the early universe.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

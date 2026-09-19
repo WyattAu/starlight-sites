@@ -78,7 +78,7 @@ Relational theory is the mathematical foundation of SQL databases. Understanding
 
 ### Topic Notes
 
-- [Relational Theory Overview](01-relational-theory), the relational model, sets, and relations
+- Relational Theory Overview, the relational model, sets, and relations
 - [Relational Theory](/01-relational-theory/relational-theory/), tuples, domains, keys, and foreign keys
 - [Normalisation](/01-relational-theory/normalization/), normal forms (1NF through BCNF) and functional dependencies
 
@@ -105,7 +105,7 @@ SQL (Structured Query Language) is the language used to interact with relational
 
 ### Topic Notes
 
-- [SQL Fundamentals Overview](02-sql-fundamentals), SQL syntax, queries, and operations
+- SQL Fundamentals Overview, SQL syntax, queries, and operations
 - [SQL](/02-sql-fundamentals/sql/), SELECT, INSERT, UPDATE, DELETE, JOIN, and subqueries
 - [Advanced SQL](/02-sql-fundamentals/advanced-sql/), window functions, CTEs, pivoting, and recursive queries
 
@@ -127,7 +127,7 @@ Indexes are the single most important factor in database query performance. A we
 
 ### Topic Notes
 
-- [Indexing and Optimisation Overview](03-indexing-optimization), index types, query plans, and performance analysis
+- Indexing and Optimisation Overview, index types, query plans, and performance analysis
 - [Indexing](/03-indexing-optimization/indexing/), B-tree indexes, hash indexes, covering indexes, and index design
 - [Query Optimisation](/03-indexing-optimization/query-optimization/), EXPLAIN plans, query rewriting, and join order
 
@@ -149,7 +149,7 @@ Transactions ensure that database operations are atomic, consistent, isolated, a
 
 ### Topic Notes
 
-- [Transactions Overview](04-transactions), ACID properties and transaction management
+- Transactions Overview, ACID properties and transaction management
 - [Transactions](/04-transactions/transactions/), BEGIN, COMMIT, ROLLBACK, and savepoints
 - [Locking and Deadlocks](/04-transactions/locking-and-deadlocks/), lock types, deadlock detection, and avoidance strategies
 
@@ -174,7 +174,7 @@ NoSQL databases provide alternatives to the relational model for specific use ca
 
 ### Topic Notes
 
-- [NoSQL Overview](05-nosql), types of NoSQL databases and when to use them
+- NoSQL Overview, types of NoSQL databases and when to use them
 - [NoSQL Databases](/05-nosql/nosql/), document, key-value, column-family, and graph databases
 - [PostgreSQL Advanced](/05-nosql/postgresql-advanced/), JSON support, full-text search, and advanced PostgreSQL features
 - [Redis](/05-nosql/redis/), in-memory data structures, caching, and pub/sub
@@ -195,7 +195,7 @@ Good database design balances normalisation, performance, and application requir
 
 ### Topic Notes
 
-- [Database Design Overview](06-database-design), design principles and methodology
+- Database Design Overview, design principles and methodology
 - [Data Modelling](/06-database-design/data-modeling/), conceptual, logical, and physical models
 - [Database Design](/06-database-design/database-design/), schema design, naming conventions, and best practices
 - [Migrations](/06-database-design/migrations/), schema versioning, rollback strategies, and deployment
@@ -203,7 +203,7 @@ Good database design balances normalisation, performance, and application requir
 ### Practice and Review
 
 - [Practice Questions: Database Design](/practice-database-design/)
-- [Diagnostic Quizzes](diagnostics)
+- Diagnostic Quizzes
 
 ### Key Concepts
 

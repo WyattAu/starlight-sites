@@ -55,7 +55,7 @@ tags: [glossary]
 
 ## Further Resources
 
-Return to the [Tuning Hub](/hub/) for per-component guides, or see [Linux](/linux/) for OS-side scheduling and governor tuning.
+Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-side scheduling and governor tuning.
 
 ## Platform and Circuitry
 

@@ -224,6 +224,6 @@ $$2\text{C}_6\text{H}_5\text{OH} + 2\text{Na} \rightarrow 2\text{C}_6\text{H}_5\
 
 ## Cross-References
 
-- [Organic Chemistry Fundamentals](../haloalkanes/index) -- Alcohols are synthesised from haloalkanes via nucleophilic substitution, connecting the two functional group families.
-- [Carboxylic Acids](../carboxylic-acids/index) -- Oxidation of alcohols produces carboxylic acids, linking alcohol chemistry to the broader oxidation-reduction framework.
-- [Chemical Kinetics](../chemical-kinetics/index) -- Reaction rates of alcohol substitution and elimination depend on concentration and temperature, connecting organic reactions to kinetics.
+- Organic Chemistry Fundamentals -- Alcohols are synthesised from haloalkanes via nucleophilic substitution, connecting the two functional group families.
+- Carboxylic Acids -- Oxidation of alcohols produces carboxylic acids, linking alcohol chemistry to the broader oxidation-reduction framework.
+- Chemical Kinetics -- Reaction rates of alcohol substitution and elimination depend on concentration and temperature, connecting organic reactions to kinetics.

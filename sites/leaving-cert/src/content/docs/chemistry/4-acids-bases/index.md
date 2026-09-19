@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Mastery of these concepts enables you to analyse quantitative problems and predict reaction outcomes systematically.
+This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Acids Bases alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 
 # Acids Bases
 
@@ -28,7 +28,7 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Acids Bases feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

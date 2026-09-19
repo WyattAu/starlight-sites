@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Programming And Databases"
-description: "This section provides study materials and resources for programming and databases. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for programming and databases. Work through the DSE sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Economics, Geography, History, Ict, Maths, Physics and Zh, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for programming and databases. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for programming and databases. Use the diagnostic tests to find out whether Programming And Databases needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Programming And Databases
 
@@ -30,7 +30,7 @@ This section provides study materials and resources for programming and database
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Programming And Databases feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

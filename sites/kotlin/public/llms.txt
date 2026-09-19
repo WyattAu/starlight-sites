@@ -2,42 +2,40 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Kotlin is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://kotlin.wyattau.com/about/): About Wyatt's Notes Kotlin resources, experience, expertise, and credentials behind Kotlin programming study materials.
-- [Complete Kotlin Programming Study Guide](https://kotlin.wyattau.com/hub/): Study notes for Complete Kotlin Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Coroutines Practice](https://kotlin.wyattau.com/practice-coroutines/): 5 exercises covering structured concurrency, channel communication, flow operators, exception handling, and context switching.
-- [Introduction to Kotlin](https://kotlin.wyattau.com/intro/): Kotlin Introduction to Kotlin notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.
-- [Kotlin - Wyatt's Notes](https://kotlin.wyattau.com/): Kotlin is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Kotlin Basics Flashcards](https://kotlin.wyattau.com/flashcards-kotlin-basics/): Kotlin is a modern JVM language that eliminates Java's verbosity while maintaining full interoperability. Null safety is built into the type system, `String`
-- [Kotlin Fundamentals Practice (Interactive)](https://kotlin.wyattau.com/practice-kotlin-basics/): 10 auto-graded practice problems covering Kotlin fundamentals. Select an answer, Comprehensive educational content coverage with definitions and practice proble
-- [Kotlin Glossary, Key Terms and Definitions](https://kotlin.wyattau.com/glossary/): Study notes for Kotlin Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Kotlin Null Safety Practice (Interactive)](https://kotlin.wyattau.com/practice-null-safety/): 8 auto-graded practice problems covering Kotlin null safety, scope functions, sealed classes, and coroutines. Select an answer, submit, and review the
+- [About](https://kotlin.wyattau.com/about/)
+- [Flashcards Kotlin Basics](https://kotlin.wyattau.com/flashcards-kotlin-basics/)
+- [Glossary](https://kotlin.wyattau.com/glossary/)
+- [Hub](https://kotlin.wyattau.com/hub/)
+- [Index](https://kotlin.wyattau.com/)
+- [Intro](https://kotlin.wyattau.com/intro/)
+- [Practice Coroutines](https://kotlin.wyattau.com/practice-coroutines/)
+- [Practice Kotlin Basics](https://kotlin.wyattau.com/practice-kotlin-basics/)
+- [Practice Null Safety](https://kotlin.wyattau.com/practice-null-safety/)
 
 ## Advanced
 
-- [Java Interoperability](https://kotlin.wyattau.com/advanced/interoperability/): Kotlin code can call any Java class, method, or field without adapters or wrappers. This is a Fundamental design principle of the language.
-- [Metaprogramming](https://kotlin.wyattau.com/advanced/metaprogramming/): Reflection allows inspection of classes, functions, properties, and annotations at runtime. Kotlin Reflection requires an additional dependency.
-- [Null Safety Deep Dive](https://kotlin.wyattau.com/advanced/null-safety-deep-dive/): Kotlin' s type system distinguishes between nullable and non-null types at compil Comprehensive educational content coverage with definitions and practice pr
-- [Testing](https://kotlin.wyattau.com/advanced/testing/): Study notes for Testing with worked examples, practice problems, and key concepts for exam preparation.
+- [Interoperability](https://kotlin.wyattau.com/advanced/interoperability/)
+- [Metaprogramming](https://kotlin.wyattau.com/advanced/metaprogramming/)
+- [Null Safety Deep Dive](https://kotlin.wyattau.com/advanced/null-safety-deep-dive/)
+- [Testing](https://kotlin.wyattau.com/advanced/testing/)
 
 ## Basics
 
-- [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/): Classes in Kotlin are declared with the keyword. They are final by default -- us Comprehensive educational content coverage with definitions and practice proble
-- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/): In Kotlin, is an expression -- it returns a value. There is no ternary operator  Comprehensive educational content coverage with definitions and practice proble
-- [Functions](https://kotlin.wyattau.com/basics/functions/): Kotlin uses the keyword. The return type follows the parameter list, separated b Comprehensive educational content coverage with definitions and practice proble
-- [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/): declares a read-only variable (assigned once). declares a mutable variable. Comprehensive educational content coverage with definitions and practice problems.
+- [Classes And Objects](https://kotlin.wyattau.com/basics/classes-and-objects/)
+- [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
+- [Functions](https://kotlin.wyattau.com/basics/functions/)
+- [Types And Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 
 ## Intermediate
 
-- [Collections](https://kotlin.wyattau.com/intermediate/collections/): Kotlin' s collection types are split into two hierarchies: and . Comprehensive educational content coverage with definitions and practice problems.
-- [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/): Coroutines are Kotlin' s mechanism for asynchronous programming. They are lightweight -- a coroutine Suspends instead of blocking a thread, allowing a small
-- [coroutines advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/): This document builds on the coroutine fundamentals covered in . It assumes familiarity with suspend functions, coroutine builders, dispatchers, structured
-- [delegation and result](https://kotlin.wyattau.com/intermediate/delegation-and-result/): Property delegation transfers the getter and setter logic to a delegate object using the keyword. The delegate must provide (and for mutable properties).
-- [Generics](https://kotlin.wyattau.com/intermediate/generics/): Generics allow types to be parameterized. The compiler enforces type safety at compile time, and the JVM erases generic type parameters at runtime (type
-- [Intermediate](https://kotlin.wyattau.com/intermediate/): This section provides study materials and resources for intermediate. Browse the topics below to find the specific area you need to revise.
-- [scope functions](https://kotlin.wyattau.com/intermediate/scope-functions/): Scope functions execute a block of code within the context of an object. Kotlin provides five built-in scope functions ( ) and one coroutine-specific
+- [Collections](https://kotlin.wyattau.com/intermediate/collections/)
+- [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/)
+- [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/)
+- [Delegation And Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/)
+- [Generics](https://kotlin.wyattau.com/intermediate/generics/)
+- [Index](https://kotlin.wyattau.com/intermediate/)
+- [Scope Functions](https://kotlin.wyattau.com/intermediate/scope-functions/)

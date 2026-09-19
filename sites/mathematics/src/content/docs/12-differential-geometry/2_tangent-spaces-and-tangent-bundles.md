@@ -52,7 +52,7 @@ map:
 $$df_p : T_p M \to T_{f(p)} N, \quad df_p(v)(g) = v(g \circ f)$$
 
 for $v \in T_p M$ and $g \in C^\infty(N)$. In local coordinates, $df_p$ is represented by the
-Jacobian matrix $[D(f \circ \varphi^{-1})](\varphi(p))$.
+Jacobian matrix $D(f \circ \varphi^{-1}))$.
 
 **Proposition 2.2 (Chain Rule).** $d(g \circ f)_p = dg_{f(p)} \circ df_p$.
 

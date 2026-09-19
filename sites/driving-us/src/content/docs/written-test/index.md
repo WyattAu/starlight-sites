@@ -28,7 +28,7 @@ This section covers driving theory and practical knowledge required for the driv
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Driving (US) sections in order, starting with Practice and Rules and building toward Practice, Rules, Safe Driving, Signs, State Guides and Written Test, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

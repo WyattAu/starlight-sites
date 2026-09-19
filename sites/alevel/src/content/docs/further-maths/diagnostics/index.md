@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for diagnostics. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for diagnostics. The Further Maths section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Diagnostics
 
@@ -37,7 +37,7 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

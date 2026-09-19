@@ -2,82 +2,80 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Java is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Fundamentals
 
-- [Control Flow](https://java.wyattau.com/02-fundamentals/02-control-flow/): Study notes for Control Flow with worked examples, practice problems, and key concepts for exam preparation.
-- [Strings and Text Processing](https://java.wyattau.com/02-fundamentals/03-strings/): is the most used class in the Java platform. It is Implements And And its instances are . Every character in a is stored internally as UTF-16 code units in
-- [Types and Variables](https://java.wyattau.com/02-fundamentals/01-types-and-variables/): Study notes for Types and Variables with worked examples, practice problems, and key concepts for exam preparation.
+- [Control Flow](https://java.wyattau.com/02-fundamentals/02-control-flow/)
+- [Strings](https://java.wyattau.com/02-fundamentals/03-strings/)
+- [Types And Variables](https://java.wyattau.com/02-fundamentals/01-types-and-variables/)
 
 ## Object-Oriented
 
-- [Classes and Inheritance](https://java.wyattau.com/03-object-oriented/01-classes/): Study notes for Classes and Inheritance with worked examples, practice problems, and key concepts for exam preparation.
-- [Inheritance and Polymorphism](https://java.wyattau.com/03-object-oriented/02-inheritance-polymorphism/): Study notes for Inheritance and Polymorphism with worked examples, practice problems, and key concepts for exam preparation.
+- [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
+- [Inheritance Polymorphism](https://java.wyattau.com/03-object-oriented/02-inheritance-polymorphism/)
 
 ## Collections
 
-- [Collections Framework](https://java.wyattau.com/04-collections/01-collections-framework/): Study notes for Collections Framework with worked examples, practice problems, and key concepts for exam preparation.
-- [Maps and Sets](https://java.wyattau.com/04-collections/02-maps-and-sets/): maps keys to values. It is not part of the hierarchy, it models a Fundamentally different abstraction. Each key maps to at most one value, and each key can
+- [Collections Framework](https://java.wyattau.com/04-collections/01-collections-framework/)
+- [Maps And Sets](https://java.wyattau.com/04-collections/02-maps-and-sets/)
 
 ## Streams
 
-- [Streams API](https://java.wyattau.com/05-streams/01-streams-api/): Study notes for Streams API with worked examples, practice problems, and key concepts for exam preparation.
+- [Streams Api](https://java.wyattau.com/05-streams/01-streams-api/)
 
 ## Concurrency
 
-- [Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/): Study notes for Concurrency with worked examples, practice problems, and key concepts for exam preparation.
-- [Concurrency Deep Dive](https://java.wyattau.com/06-concurrency/02-concurrency-deep-dive/): provides mutual exclusion with features beyond : fair/unfair ordering, timed lock acquisition, interruptible lock acquisition, and Multiple condition
+- [Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/)
+- [Concurrency Deep Dive](https://java.wyattau.com/06-concurrency/02-concurrency-deep-dive/)
 
 ## Best-Practices
 
-- [Style and Patterns](https://java.wyattau.com/07-best-practices/01-style-and-patterns/): Study notes for Style and Patterns with worked examples, practice problems, and key concepts for exam preparation.
+- [Style And Patterns](https://java.wyattau.com/07-best-practices/01-style-and-patterns/)
 
 ## Modern-Java
 
-- [Records, Sealed Classes, and Pattern Matching](https://java.wyattau.com/08-modern-java/01-records-sealed-patterns/): Study notes for Records, Sealed Classes, and Pattern Matching with worked examples, practice problems, and key concepts for exam preparation.
-- [Virtual Threads and Structured Concurrency](https://java.wyattau.com/08-modern-java/02-virtual-threads-structured-concurrency/): Study notes for Virtual Threads and Structured Concurrency with worked examples, practice problems, and key concepts for exam preparation.
+- [Records Sealed Patterns](https://java.wyattau.com/08-modern-java/01-records-sealed-patterns/)
+- [Virtual Threads Structured Concurrency](https://java.wyattau.com/08-modern-java/02-virtual-threads-structured-concurrency/)
 
 ## Jvm-Internals
 
-- [Class Loading and Memory Model](https://java.wyattau.com/09-jvm-internals/01-class-loading-memory/): Study notes for Class Loading and Memory Model with worked examples, practice problems, and key concepts for exam preparation.
-- [Garbage Collection](https://java.wyattau.com/09-jvm-internals/03-garbage-collection/): An object is garbage when it is no longer reachable from any live thread through any chain of References. The JVM determines this through, starting from a
-- [JIT Compilation and Deoptimization](https://java.wyattau.com/09-jvm-internals/02-jit-compilation/): Study notes for JIT Compilation and Deoptimization with worked examples, practice problems, and key concepts for exam preparation.
+- [Class Loading Memory](https://java.wyattau.com/09-jvm-internals/01-class-loading-memory/)
+- [Garbage Collection](https://java.wyattau.com/09-jvm-internals/03-garbage-collection/)
+- [Jit Compilation](https://java.wyattau.com/09-jvm-internals/02-jit-compilation/)
 
 ## Io-Nio
 
-- [I/O, NIO, and the Path API](https://java.wyattau.com/10-io-nio/01-io-nio/): Java I/O, NIO, and the Path API notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
-- [NIO Deep Dive](https://java.wyattau.com/10-io-nio/02-nio-deep-dive/): (New I/O, introduced in JDK 1.4) provides a buffer-oriented, non-blocking alternative to The stream-based API. NIO is designed for high-throughput I/O
+- [Io Nio](https://java.wyattau.com/10-io-nio/01-io-nio/)
+- [Nio Deep Dive](https://java.wyattau.com/10-io-nio/02-nio-deep-dive/)
 
 ## Generics-Reflection
 
-- [Annotations and Reflection](https://java.wyattau.com/11-generics-reflection/02-annotations-reflection/): (JDK 5) marks a method as intending to override a method from a superclass or implement A method from an interface. The compiler verifies the declaration
-- [Generics and Type Erasure](https://java.wyattau.com/11-generics-reflection/01-generics/): Before generics (JDK 5, 2004), the Java collections API worked with . Every retrieval Required a cast, and the compiler could not verify that you were
+- [Annotations Reflection](https://java.wyattau.com/11-generics-reflection/02-annotations-reflection/)
+- [Generics](https://java.wyattau.com/11-generics-reflection/01-generics/)
 
 ## Exceptions
 
-- [Exception Handling](https://java.wyattau.com/12-exceptions/01-exceptions/): Throwable ├── Error │ ├── OutOfMemoryError │ ├── StackOverflowError │ ├── NoClassDefFoundError │ └── InternalError └── Exception ├── RuntimeException
+- [Exceptions](https://java.wyattau.com/12-exceptions/01-exceptions/)
 
 ## Build-Tools
 
-- [Build Tools and Dependency Management](https://java.wyattau.com/13-build-tools/build-tools/): Java projects follow a standard directory layout established by Maven and adopte Comprehensive educational content coverage with definitions and practice proble
+- [Build Tools](https://java.wyattau.com/13-build-tools/build-tools/)
 
 ## Testing
 
-- [Testing in Java](https://java.wyattau.com/14-testing/testing/): JUnit 5 (Jupiter) is the standard testing framework for Java. It consists of thr Comprehensive educational content coverage with definitions and practice proble
+- [Testing](https://java.wyattau.com/14-testing/testing/)
 
 ## Overview
 
-- [About This Site](https://java.wyattau.com/about/): Wyatt's Notes offers comprehensive study materials for Java programming. These notes cover the language from core syntax through OOP principles, concurrency,
-- [Complete Java Programming Study Guide](https://java.wyattau.com/hub/): Study notes for Complete Java Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Concurrency Practice](https://java.wyattau.com/practice-concurrency/): Java concurrency is built into the language and standard library: From synchronized blocks to ExecutorService to CompletableFuture, Java provides multiple
-- [GraalVM and Modern JVM](https://java.wyattau.com/graalvm-and-modern-jvm/): GraalVM is a high-performance JDK distribution that extends the standard HotSpot JVM with an Advanced just-in-time compiler (Graal), a native image
-- [Introduction to Java](https://java.wyattau.com/intro/): Java Introduction to Java notes covering key definitions, core concepts, worked examples, and practice questions for structured review and exam preparation.
-- [Java - Wyatt's Notes](https://java.wyattau.com/): Java is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Java Fundamentals Flashcards](https://java.wyattau.com/flashcards-java-basics/): Java Fundamentals Flashcards: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Java Fundamentals Practice (Interactive)](https://java.wyattau.com/practice-java-basics/): 10 auto-graded practice problems covering Java fundamentals. Select an answer, s Comprehensive educational content coverage with definitions and practice proble
-- [Java Glossary, Key Terms and Definitions](https://java.wyattau.com/glossary/): Study notes for Java Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [Java Programming Practice Test, 30 Problems](https://java.wyattau.com/practice-test-mega/): 30 Java programming problems covering OOP, Collections, Concurrency, Streams, and Exceptions. Code analysis and debugging with detailed explanations.
-- [OOP Practice](https://java.wyattau.com/practice-oop/): Object-oriented programming models real-world entities as objects: Objects combine data (fields) and behaviour (methods) into cohesive units. Encapsulation
+- [About](https://java.wyattau.com/about/)
+- [Flashcards Java Basics](https://java.wyattau.com/flashcards-java-basics/)
+- [Glossary](https://java.wyattau.com/glossary/)
+- [Graalvm And Modern Jvm](https://java.wyattau.com/graalvm-and-modern-jvm/)
+- [Hub](https://java.wyattau.com/hub/)
+- [Index](https://java.wyattau.com/)
+- [Intro](https://java.wyattau.com/intro/)
+- [Practice Concurrency](https://java.wyattau.com/practice-concurrency/)
+- [Practice Java Basics](https://java.wyattau.com/practice-java-basics/)
+- [Practice Oop](https://java.wyattau.com/practice-oop/)
+- [Practice Test Mega](https://java.wyattau.com/practice-test-mega/)

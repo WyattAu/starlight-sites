@@ -25,11 +25,15 @@ const { domainSuffix } = meta.defaults
 
 // ── frontmatter scraping (no YAML dependency; titles/descriptions only) ──
 
+function frontmatterEnd(text) {
+  if (!text.startsWith('---')) return 0
+  const end = text.indexOf('\n---', 3)
+  return end === -1 ? 0 : end + 4
+}
+
 function frontmatter(text) {
   if (!text.startsWith('---')) return {}
-  const end = text.indexOf('\n---', 3)
-  if (end === -1) return {}
-  const fm = text.slice(4, end)
+  const fm = text.slice(frontmatterEnd(text))
   const out = {}
   let key = null
   for (const line of fm.split('\n')) {
@@ -98,7 +102,8 @@ function sitePages(slug) {
     const title = fm.title || titleFromFilename(path.basename(file, path.extname(file)))
     const description = fm.description || ''
     const section = dirPart === '.' ? 'General' : dirPart.split('/')[0]
-    pages.push({ urlPath, title, description, section })
+    const body = text.slice(frontmatterEnd(text)).trim()
+    pages.push({ urlPath, title, description, section, body })
   }
   // stable order: section, then title
   pages.sort((a, b) => a.section.localeCompare(b.section) || a.title.localeCompare(b.title))
@@ -159,6 +164,27 @@ for (const slug of Object.keys(meta.sites)) {
     lines.push('')
   }
   emit(`sites/${slug}/public/llms.txt`, lines.join('\n'))
+
+  // llms-full.txt: complete markdown content for deep LLM ingestion
+  const full = [`# ${info.name} — Wyatt's Notes (full content)`, '']
+  full.push('> The complete content of every page on this site, in Markdown, for LLM consumption.')
+  full.push('> Each page is preceded by its canonical URL.')
+  full.push('')
+  for (const section of sections) {
+    full.push(`## ${section === 'General' ? 'Overview' : section.replace(/^\d+[_-]/, '').replace(/\b\w/g, (c) => c.toUpperCase())}`)
+    full.push('')
+    for (const p of pages.filter((pp) => pp.section === section)) {
+      const u = p.urlPath === '/' ? `${url}/` : `${url}${p.urlPath}`
+      full.push('---')
+      full.push('')
+      full.push(`## ${p.title}`)
+      full.push(`URL: ${u}`)
+      full.push('')
+      full.push(p.body)
+      full.push('')
+    }
+  }
+  emit(`sites/${slug}/public/llms-full.txt`, full.join('\n'))
 }
 
 // Network root llms.txt (landing site)
@@ -190,5 +216,5 @@ if (CHECK) {
   }
   console.log('All llms.txt files are up to date.')
 } else {
-  console.log(`Generated ${written + 1} llms.txt files (45 site indexes + network root).`)
+  console.log(`Generated ${written} llms.txt/llms-full.txt files (45 site indexes + network root).`)
 }

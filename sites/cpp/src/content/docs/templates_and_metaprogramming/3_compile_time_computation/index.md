@@ -31,7 +31,7 @@ This section covers programming language concepts, from syntax and type systems 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

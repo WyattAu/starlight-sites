@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based argumentation, and awareness of historical and cultural contexts.
+This section covers literary analysis, language techniques, and critical writing skills. The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Drama
 
@@ -28,7 +28,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+The English section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

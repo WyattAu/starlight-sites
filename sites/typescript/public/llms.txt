@@ -2,29 +2,27 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Typescript is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://typescript.wyattau.com/about/): About Wyatt's Notes TypeScript resources, experience, expertise, and credentials behind TypeScript programming study materials.
-- [Advanced Patterns](https://typescript.wyattau.com/advanced-patterns/): Typescript Advanced Patterns notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.
-- [advanced types](https://typescript.wyattau.com/advanced-types/): and are built-in conditional types defined in . Their implementations reveal the Comprehensive educational content coverage with definitions and practice proble
-- [Classes](https://typescript.wyattau.com/classes/): A TypeScript class declares fields, a constructor, and methods. Unlike JavaScript, TypeScript Requires that all fields accessed in the class body be
-- [Complete TypeScript Programming Study Guide](https://typescript.wyattau.com/hub/): Study notes for Complete TypeScript Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Design Patterns Practice](https://typescript.wyattau.com/practice-patterns/): TypeScript patterns solve common design problems: Discriminated unions, mapped types, conditional types, and template literal types provide powerful
-- [Enums and Modules](https://typescript.wyattau.com/enums-and-modules/): Numeric enums assign auto-incrementing integer values to their members. By default, the first member Has value And each subsequent member increments by .
-- [Error Handling](https://typescript.wyattau.com/error-handling/): The type is the of the TypeScript type system. It has no inhabitants: no Value of type can exist at runtime. It is a subtype of every type, and no type is a
-- [Functions](https://typescript.wyattau.com/functions/): Every function parameter may carry a type annotation. When the annotation is present, the compiler Verifies that all call sites provide arguments of the
-- [Generics](https://typescript.wyattau.com/generics/): Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or
-- [Generics Practice](https://typescript.wyattau.com/practice-generics/): Generics let you write code that works with any type: Instead of writing separate functions for numbers, strings, and objects, generics let you write one
-- [Tooling and Configuration](https://typescript.wyattau.com/tooling-and-configuration/): Every TypeScript project is governed by a file at the project root. This file Specifies compiler options, file inclusion/exclusion, and project references.
-- [Types and Annotations](https://typescript.wyattau.com/types-and-annotations/): TypeScript provides seven primitive types that correspond directly to JavaScript Comprehensive educational content coverage with definitions and practice proble
-- [Typescript](https://typescript.wyattau.com/): Typescript is a programming language with a rich type system and ecosystem. These notes cover the language from fundamentals to advanced topics, with worked
-- [Typescript](https://typescript.wyattau.com/intro/): Study notes for Typescript with worked examples, practice problems, and key concepts for exam preparation.
-- [TypeScript -- Course Overview](https://typescript.wyattau.com/typescript/): TypeScript is a statically typed programming language developed by Microsoft. It is a of JavaScript: every valid JavaScript program is, by definition, a
-- [TypeScript Fundamentals Flashcards](https://typescript.wyattau.com/flashcards-typescript-basics/): 20 interactive flashcards covering core TypeScript concepts from the type system to React integration. Press Space to flip, rate 1-4.
-- [TypeScript Fundamentals Practice (Interactive)](https://typescript.wyattau.com/practice-typescript-basics/): 10 auto-graded practice problems covering TypeScript fundamentals. Select an answer, submit, and review the explanation.
-- [TypeScript Glossary, Key Terms and Definitions](https://typescript.wyattau.com/glossary/): Study notes for TypeScript Glossary, Key Terms and Definitions with worked examples, practice problems, and key concepts for exam preparation.
-- [TypeScript with React](https://typescript.wyattau.com/typescript-with-react/): Study notes for TypeScript with React with worked examples, practice problems, and key concepts for exam preparation.
+- [About](https://typescript.wyattau.com/about/)
+- [Advanced Patterns](https://typescript.wyattau.com/advanced-patterns/)
+- [Advanced Types](https://typescript.wyattau.com/advanced-types/)
+- [Classes](https://typescript.wyattau.com/classes/)
+- [Enums And Modules](https://typescript.wyattau.com/enums-and-modules/)
+- [Error Handling](https://typescript.wyattau.com/error-handling/)
+- [Flashcards Typescript Basics](https://typescript.wyattau.com/flashcards-typescript-basics/)
+- [Functions](https://typescript.wyattau.com/functions/)
+- [Generics](https://typescript.wyattau.com/generics/): Generics allow functions, interfaces, and type aliases to operate over a range of types rather than A single fixed type. A generic function declares one or...
+- [Glossary](https://typescript.wyattau.com/glossary/)
+- [Hub](https://typescript.wyattau.com/hub/)
+- [Index](https://typescript.wyattau.com/)
+- [Intro](https://typescript.wyattau.com/intro/)
+- [Practice Generics](https://typescript.wyattau.com/practice-generics/)
+- [Practice Patterns](https://typescript.wyattau.com/practice-patterns/)
+- [Practice Typescript Basics](https://typescript.wyattau.com/practice-typescript-basics/)
+- [Tooling And Configuration](https://typescript.wyattau.com/tooling-and-configuration/)
+- [Types And Annotations](https://typescript.wyattau.com/types-and-annotations/)
+- [Typescript](https://typescript.wyattau.com/typescript/)
+- [Typescript With React](https://typescript.wyattau.com/typescript-with-react/)

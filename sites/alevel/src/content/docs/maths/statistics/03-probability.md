@@ -636,7 +636,7 @@ This is a binomial scenario: $X \sim B(20, 0.05)$.
 $P(X=1) = \binom{20}{1}(0.05)^1(0.95)^{19} = 20 \times 0.05 \times 0.95^{19} \approx 0.3774$.
 
 **If you get this wrong, revise:**
-[Binomial Distribution](04-statistical-distributions.md#2-the-binomial-distribution), Statistical
+Binomial Distribution, Statistical
 Distributions chapter.
 
 </details>

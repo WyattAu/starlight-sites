@@ -46,7 +46,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 ## See Also
 
 - [Professional Certifications](./)
-- [Aws](./aws)
+- Aws
 
 
 ## Detailed Content

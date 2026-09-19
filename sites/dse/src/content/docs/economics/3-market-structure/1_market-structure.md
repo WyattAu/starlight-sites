@@ -1595,7 +1595,7 @@ Using the quadratic formula: `Q = (80 \pm \sqrt{6400 - 2400}) / 2 = (80 \pm 63.2
 </details>
 
 If you get this wrong, revise:
-[Natural Monopoly: Detailed Analysis](#natural-monopoly-detailed-analysis)
+[Natural Monopoly: Detailed Analysis](/economics/3-market-structure/1_market-structure/)
 
 ### Problem 8: Contestable Markets
 
@@ -1749,7 +1749,7 @@ must optimally respond by producing less. The Leader effectively captures a larg
 
 </details>
 
-If you get this wrong, revise: [Oligopoly Models](#oligopoly-models)
+If you get this wrong, revise: [Oligopoly Models](/economics/3-market-structure/1_market-structure/)
 
 ### Problem 11: Natural Monopoly Regulation in Practice
 
@@ -1812,7 +1812,7 @@ regulation, representing a hybrid approach.
 
 </details>
 
-If you get this wrong, revise: [Regulation of Monopoly](#regulation-of-monopoly)
+If you get this wrong, revise: [Regulation of Monopoly](/economics/3-market-structure/1_market-structure/)
 
 ### Problem 12: Monopolistic Competition and Advertising
 
@@ -1952,7 +1952,7 @@ more difficult to coordinate; (iv) the probability of detection is lower.
 
 </details>
 
-If you get this wrong, revise: [Oligopoly and Game Theory](#oligopoly-and-game-theory)
+If you get this wrong, revise: [Oligopoly and Game Theory](/economics/3-market-structure/1_market-structure/)
 
 ### Problem 14: Perfect Competition Long-Run Industry Supply
 
@@ -1996,7 +1996,7 @@ prices are unaffected by industry scale.
 
 </details>
 
-If you get this wrong, revise: [Long-Run Supply](#long-run-supply)
+If you get this wrong, revise: [Long-Run Supply](/economics/3-market-structure/1_market-structure/)
 
 ### Problem 15: Monopoly and Price Discrimination in Hong Kong
 

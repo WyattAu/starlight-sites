@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.
+This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Computing Systems needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Computing Systems
 
@@ -28,7 +28,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Computing Systems needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

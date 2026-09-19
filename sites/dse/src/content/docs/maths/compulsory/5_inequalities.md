@@ -19,9 +19,9 @@ categories:
 </script>
 
 An inequality states that one expression is greater than or less than another. Inequalities arise
-when finding the [domain](1_functions.mdx#definition-of-a-function) and
-[range](1_functions.mdx#definition-of-a-function) of functions, and are closely related to
-[quadratic functions](1_functions.mdx#quadratic-functions) through their graphical interpretation.
+when finding the domain and
+range of functions, and are closely related to
+quadratic functions through their graphical interpretation.
 
 ## Inequality Rules
 
@@ -126,13 +126,13 @@ $$
 5x - 10 \geq 3x + 4 \implies 2x \geq 14 \implies x \geq 7
 $$
 
-The solution set is $[7, \infty)$.
+The solution set is $7, \infty)$.
 
 ## Quadratic Inequalities
 
 A quadratic inequality has the form $ax^2 + bx + c > 0$, $ax^2 + bx + c < 0$Or their non-strict
 Variants, where $a \neq 0$. Solving quadratic inequalities relies on understanding the graph of the
-Corresponding [quadratic function](1_functions.mdx#quadratic-functions) $f(x) = ax^2 + bx + c$.
+Corresponding [quadratic function $f(x) = ax^2 + bx + c$.
 
 ### Graphical Interpretation
 
@@ -140,7 +140,7 @@ The graph of $f(x) = ax^2 + bx + c$ is a parabola. The solution of $f(x) > 0$ co
 $x$-values where the parabola lies **above** the $x$-axis, and $f(x) < 0$ corresponds to where the
 Parabola lies **below** the $x$-axis.
 
-The [discriminant](1_functions.mdx#discriminant) $\Delta = b^2 - 4ac$ determines the number of
+The discriminant $\Delta = b^2 - 4ac$ determines the number of
 Intersections with the $x$-axis:
 
 | Condition    | Parabola and $x$-axis                             | $ax^2 + bx + c > 0$ (for $a > 0$)              |
@@ -489,7 +489,7 @@ Distinct real roots?
 
 <details>
 <summary>Answer</summary>
-For two distinct real roots, the [discriminant](1_functions.mdx#discriminant) must satisfy $\Delta > 0$:
+For two distinct real roots, the discriminant must satisfy $\Delta > 0$:
 
 $$
 \Delta = (2k)^2 - 4(1)(k + 6) = 4k^2 - 4k - 24 > 0

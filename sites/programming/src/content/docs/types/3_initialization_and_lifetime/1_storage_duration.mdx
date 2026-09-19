@@ -319,7 +319,7 @@ Similarly, `operator delete` handles deallocation, and the destructor runs befor
 | Function                            | Behavior                      | Customization        |
 | :---------------------------------- | :---------------------------- | :------------------- |
 | `operator new(size_t)`              | Single-object allocation      | Replaceable globally |
-| `operator new[](size_t)`            | Array allocation              | Replaceable globally |
+| `operator new`            | Array allocation              | Replaceable globally |
 | `operator new(size_t, nothrow_t)`   | Returns `nullptr` on failure  | Replaceable globally |
 | `operator new(size_t, align_val_t)` | C++17 aligned allocation      | Replaceable globally |
 | `operator new(size_t, void* p)`     | Placement new (no allocation) | Not replaceable      |
@@ -370,7 +370,7 @@ delete[] arr;  // must use delete[] for arrays
 
 // What delete[] actually does:
 // 1. Calls ~Widget() on arr[9], arr[8], ..., arr[0] (reverse order)
-// 2. Calls operator delete[](arr) to free the memory
+// 2. Calls operator delete to free the memory
 ```
 
 The array size is stored by the allocator alongside the allocation (a "cookie" before the Array

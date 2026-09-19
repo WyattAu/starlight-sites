@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers key physical principles, from classical mechanics to modern physics. Each topic builds on mathematical modelling to describe natural phenomena quantitatively.
+This section covers key physical principles, from classical mechanics to modern physics. Work through Particles Waves alongside the practice problems for Physics, then let the diagnostic tests tell you whether it stuck.
 
 # Particles Waves
 
@@ -28,7 +28,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Particles Waves feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

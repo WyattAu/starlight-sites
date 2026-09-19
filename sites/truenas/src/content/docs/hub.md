@@ -57,7 +57,7 @@ flowchart TD
 
 TrueNAS is the leading open-source storage operating system, powering everything from home media servers to enterprise-grade storage arrays. Built on ZFS, the most advanced filesystem available, TrueNAS provides data integrity, snapshotting, replication, and sharing capabilities that rival commercial storage solutions costing many times more.
 
-This hub page maps every resource on this site. Whether you are setting up your first NAS, migrating from another storage platform, or optimising an existing TrueNAS deployment, the guides below give you the knowledge to configure, maintain, and troubleshoot your system with confidence. The guides cover both TrueNAS CORE (FreeBSD-based) and TrueNAS SCALE (Linux-based), highlighting where the platforms differ.
+Work through the TrueNAS sections in order, starting with Apps And Services and Backup And Replication and building toward Apps And Services, Backup And Replication, Diagnostics, Monitoring And Alerting, Performance Tuning, Setup, Sharing And Permissions and Zfs, then check yourself with the practice problems for each topic. Whether you are setting up your first NAS, migrating from another storage platform, or optimising an existing TrueNAS deployment, the guides below give you the knowledge to configure, maintain, and troubleshoot your system with confidence. The guides cover both TrueNAS CORE (FreeBSD-based) and TrueNAS SCALE (Linux-based), highlighting where the platforms differ.
 
 ## Table of Contents
 

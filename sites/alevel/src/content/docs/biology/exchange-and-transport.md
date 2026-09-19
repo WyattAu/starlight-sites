@@ -663,7 +663,7 @@ Nearly $15\ \mathrm{kPa}$. In parallel flow, water and blood flow in the same di
 Is reached partway along the gill, and no further $\mathrm{O_2}$ transfer occurs. The countercurrent
 System achieves approximately 80% oxygen extraction versus approximately 50% for parallel flow.
 
-<b>If you get this wrong, revise:</b> [Fish: Gills](#32-fish-gills)
+<b>If you get this wrong, revise:</b> [Fish: Gills](/biology/exchange-and-transport/)
 
 </details>
 
@@ -745,7 +745,7 @@ Metabolic demands. This is why giant insects existed in the Carboniferous period
 $\mathrm{O_2}$ was higher (approximately 35% vs. 21% today), increasing the diffusion gradient.
 
 <b>If you get this wrong, revise:</b>
-[Insects: The Tracheal System](#31-insects-the-tracheal-system)
+[Insects: The Tracheal System](/biology/exchange-and-transport/)
 
 </details>
 

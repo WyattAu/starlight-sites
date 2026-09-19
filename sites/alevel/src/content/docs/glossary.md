@@ -57,7 +57,7 @@ tags: [glossary]
 
 ## Further Resources
 
-Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse the [practice problems](/practice/) for exam-style questions.
+Return to the [A-Level Study Hub](/hub/) for the full subject index, or browse the practice problems for exam-style questions.
 
 ## Computer Science
 

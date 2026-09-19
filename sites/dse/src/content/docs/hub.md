@@ -159,7 +159,7 @@ DSE Geography covers population distribution, climate, urbanisation, agricultura
 
 - [Flashcards: Geography](/geography/flashcards-geography/)
 - [Practice Questions: Geography](/geography/practice-geography/)
-- [Diagnostic Quizzes](geography/diagnostics), test across all geography topics
+- Diagnostic Quizzes, test across all geography topics
 
 ---
 
@@ -181,7 +181,7 @@ DSE History examines the Chinese Revolution, the Cold War, decolonisation, imper
 
 - [Flashcards: History](/history/flashcards-history/)
 - [Practice Questions: History](/history/practice-history/)
-- [Diagnostic Quizzes](history/diagnostics), test across all history topics
+- Diagnostic Quizzes, test across all history topics
 
 ---
 
@@ -235,7 +235,7 @@ DSE Mathematics is divided into compulsory and extended modules. Compulsory topi
 
 - [Flashcards: Compulsory Maths](/maths/flashcards-compulsory/)
 - [Practice Questions: Compulsory Maths](/maths/practice-compulsory/)
-- [Diagnostic Quizzes](maths/diagnostics), test across all maths topics
+- Diagnostic Quizzes, test across all maths topics
 
 ---
 
@@ -245,11 +245,11 @@ DSE Physics covers mechanics, waves, electricity and magnetism, thermal physics,
 
 ### Topic Notes
 
-- [Mechanics](physics/1-mechanics/index), Newton's laws, projectiles, and momentum
-- [Waves](physics/2-waves/index), wave properties, sound, and optics
-- [Electricity and Magnetism](physics/3-electricity-and-magnetism/index), circuits, electrostatics, and electromagnetic induction
-- [Thermal Physics](physics/4-thermal-physics/index), heat, gases, and the kinetic theory
-- [Nuclear Physics](physics/5-nuclear-physics/index), radioactivity, fission, and fusion
+- Mechanics, Newton's laws, projectiles, and momentum
+- Waves, wave properties, sound, and optics
+- Electricity and Magnetism, circuits, electrostatics, and electromagnetic induction
+- Thermal Physics, heat, gases, and the kinetic theory
+- Nuclear Physics, radioactivity, fission, and fusion
 
 ### Practice and Review
 

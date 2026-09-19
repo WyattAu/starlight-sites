@@ -557,7 +557,7 @@ The high $\mathrm{CO_2}$ concentration suppresses photorespiration by outcompeti
 for Rubisco's active site.
 
 <b>If you get this wrong, revise:</b> [Photorespiration](#55-photorespiration) and
-[C4 Plants](#72-c4-plants)
+[C4 Plants](/biology/photosynthesis-depth/)
 
 </details>
 

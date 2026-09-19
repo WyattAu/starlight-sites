@@ -1067,10 +1067,10 @@ Option B provides specific evidence (a study, a percentage, a comparison) that d
 
 ## Cross-References
 
-- **[SAT Math](math)**, Algebra, problem-solving, and advanced math
-- **[SAT Reading](reading)**, Passage analysis, evidence-based reasoning, and vocabulary
-- **[SAT Writing](writing)**, Grammar, usage, and rhetorical effectiveness
-- **[SAT Test-Taking Strategies](strategies)**, Time management and question techniques
+- **SAT Math**, Algebra, problem-solving, and advanced math
+- **SAT Reading**, Passage analysis, evidence-based reasoning, and vocabulary
+- **SAT Writing**, Grammar, usage, and rhetorical effectiveness
+- **SAT Test-Taking Strategies**, Time management and question techniques
 
 ---
 

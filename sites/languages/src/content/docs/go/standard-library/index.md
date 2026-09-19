@@ -31,7 +31,7 @@ This section covers language learning, proficiency levels, and assessment framew
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

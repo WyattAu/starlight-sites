@@ -55,7 +55,7 @@ flowchart TD
 
 University mathematics is fundamentally different from computational mathematics. It asks not "what is the answer?" but "why must this be true, and what would have to change for it to be false?" This shift, from computation to proof, is what transforms a collection of facts into genuine mathematical understanding.
 
-This hub page maps every resource on this site. The prerequisite map shows you exactly how the subjects connect, so you can study in the right order and build understanding that compounds. Each section includes definitions, theorems, worked examples, common pitfalls, and practice problems.
+Work through the Mathematics sections in order, starting with Abstract Algebra and Complex Analysis and building toward Abstract Algebra, Complex Analysis, Demos, Diagnostics, Differential Geometry, Functional Analysis, Linear Algebra, Measure Theory, Multivariable Calculus, Number Theory, Ordinary Differential Equations, Probability And Statistics, Real Analysis, Topology and Zh, then check yourself with the practice problems for each topic. The prerequisite map shows you exactly how the subjects connect, so you can study in the right order and build understanding that compounds. Each section includes definitions, theorems, worked examples, common pitfalls, and practice problems.
 
 ## Table of Contents
 
@@ -215,7 +215,7 @@ ODEs describe how quantities change in relation to each other, the language of d
 
 - [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/), order, linearity, and initial/boundary value problems
 - [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/), separable, exact, and integrating factor methods
-- [Higher-Order Linear ODEs](/5-ordinary-differential-equations/4_higher-order-linear-odes), characteristic equation, undetermined coefficients, and variation of parameters
+- Higher-Order Linear ODEs, characteristic equation, undetermined coefficients, and variation of parameters
 - [Laplace Transforms](/5-ordinary-differential-equations/5_laplace-transforms/), transforming ODEs into algebraic equations
 - [Series Solutions](/5-ordinary-differential-equations/6_series-solutions/), power series methods and Frobenius method
 - [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/), representing periodic functions as sums of sines and cosines

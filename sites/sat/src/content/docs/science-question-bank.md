@@ -619,4 +619,4 @@ terminology, reference to specific data points, and understanding of experimenta
 | Topic                   | Link                                                 |
 | ----------------------- | ---------------------------------------------------- |
 | SAT Advanced Strategies | [View](/advanced-strategies/) |
-| SAT Math Strategies     | [View](/math-strategies)     |
+| SAT Math Strategies     | View     |

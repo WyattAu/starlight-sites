@@ -28,7 +28,7 @@ This section covers driving theory and practical knowledge required for the driv
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Driving (EU) sections in order, starting with Driving Laws and Road Signs and building toward Driving Laws, Road Signs and Theory Test, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

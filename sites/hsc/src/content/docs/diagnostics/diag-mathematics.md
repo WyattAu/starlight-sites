@@ -258,4 +258,4 @@ flowchart TD
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for hsc notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.

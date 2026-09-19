@@ -627,4 +627,4 @@ linked above.
 
 - **[Stream Buffers](https://programming.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers/):** Low-level stream buffer concepts used in Unicode I/O.
 - **[Type-Safe Formatting](https://programming.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting/):** Modern formatting utilities that handle Unicode strings.
-- **[Types](../../types/):** Type system concepts including character types and string representations.
+- **Types:** Type system concepts including character types and string representations.

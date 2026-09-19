@@ -82,21 +82,21 @@ Amazon Web Services offers certifications across cloud architecture, operations,
 
 ### Topic Notes
 
-- [AWS Certification Overview](aws) -- the certification landscape, exam formats, and renewal requirements
+- AWS Certification Overview -- the certification landscape, exam formats, and renewal requirements
 - [Cloud Practitioner](/aws/cloud-practitioner/) -- the entry-level certification covering AWS cloud fundamentals
-- [Solutions Architect Associate](aws/solutions-architect-associate) -- designing distributed systems on AWS
-- [Developer Associate](aws/developer-associate) -- developing and deploying AWS-based applications
-- [SysOps Administrator Associate](aws/sysops-associate) -- operating and managing workloads on AWS
-- [Solutions Architect Professional](aws/solutions-architect-professional) -- advanced architectural design on AWS
-- [Specialty Certifications](aws/specialty) -- Security, Advanced Networking, Machine Learning, and Database
+- Solutions Architect Associate -- designing distributed systems on AWS
+- Developer Associate -- developing and deploying AWS-based applications
+- SysOps Administrator Associate -- operating and managing workloads on AWS
+- Solutions Architect Professional -- advanced architectural design on AWS
+- Specialty Certifications -- Security, Advanced Networking, Machine Learning, and Database
 
 ### Practice and Review
 
-- [Flashcards: AWS Cloud Practitioner](flashcards-aws-cp)
-- [Flashcards: AWS Solutions Architect](flashcards-aws-saa)
-- [Practice Questions: Cloud Practitioner](practice-aws-cp)
-- [Practice Questions: Solutions Architect](practice-aws-saa)
-- [AWS Scenario-Based Questions](aws/scenarios)
+- Flashcards: AWS Cloud Practitioner
+- Flashcards: AWS Solutions Architect
+- Practice Questions: Cloud Practitioner
+- Practice Questions: Solutions Architect
+- AWS Scenario-Based Questions
 
 ### Key Exam Focus
 
@@ -110,23 +110,23 @@ CompTIA (Computing Technology Industry Association) offers vendor-neutral certif
 
 ### Topic Notes
 
-- [CompTIA Certification Overview](comptia) -- the certification portfolio and career paths
-- [IT Fundamentals (ITF+)](comptia/itf) -- the entry-level certification for IT newcomers
-- [A+](comptia/a-plus) -- hardware and software support, the standard entry-level IT certification
-- [Network+](comptia/network-plus) -- networking concepts, infrastructure, and troubleshooting
-- [Security+](comptia/security-plus) -- cybersecurity concepts, threats, and risk management
-- [CySA+](comptia/cybersecurity-analyst) -- behavioural analytics and threat detection
+- CompTIA Certification Overview -- the certification portfolio and career paths
+- IT Fundamentals (ITF+) -- the entry-level certification for IT newcomers
+- A+ -- hardware and software support, the standard entry-level IT certification
+- Network+ -- networking concepts, infrastructure, and troubleshooting
+- Security+ -- cybersecurity concepts, threats, and risk management
+- CySA+ -- behavioural analytics and threat detection
 - [PenTest+](https://security.wyattau.com/pentesting-and-attacks/) -- penetration testing and vulnerability assessment
-- [Cloud+](comptia/cloud-plus) -- cloud computing concepts and virtualisation
+- Cloud+ -- cloud computing concepts and virtualisation
 
 ### Practice and Review
 
-- [Flashcards: CompTIA A+](flashcards-comptia-aplus)
-- [Flashcards: CompTIA Network+](flashcards-comptia-network)
-- [Flashcards: CompTIA Security+](flashcards-comptia-security)
-- [Practice Questions: A+](practice-comptia-aplus)
-- [Practice Questions: Network+](practice-comptia-network)
-- [Practice Questions: Security+](practice-comptia-security)
+- Flashcards: CompTIA A+
+- Flashcards: CompTIA Network+
+- Flashcards: CompTIA Security+
+- Practice Questions: A+
+- Practice Questions: Network+
+- Practice Questions: Security+
 
 ### Key Exam Focus
 
@@ -140,20 +140,20 @@ Cisco certifications validate networking and infrastructure skills. Cisco's cert
 
 ### Topic Notes
 
-- [Cisco Certification Overview](cisco) -- the certification hierarchy and specialisation tracks
-- [CCNA](cisco/ccna) -- Cisco Certified Network Associate, the foundational networking certification
-- [CCNP Enterprise](cisco/ccnp-enterprise) -- advanced enterprise networking and infrastructure
-- [CCNP Security](cisco/ccnp-security) -- Cisco security technologies and solutions
-- [CCNP Data Center](cisco/ccnp-datacenter) -- data centre infrastructure and automation
-- [CCIE](cisco/ccie) -- Cisco Certified Internetwork Expert, the expert-level certification
-- [DevNet](cisco/devnet) -- network automation, APIs, and software development
+- Cisco Certification Overview -- the certification hierarchy and specialisation tracks
+- CCNA -- Cisco Certified Network Associate, the foundational networking certification
+- CCNP Enterprise -- advanced enterprise networking and infrastructure
+- CCNP Security -- Cisco security technologies and solutions
+- CCNP Data Center -- data centre infrastructure and automation
+- CCIE -- Cisco Certified Internetwork Expert, the expert-level certification
+- DevNet -- network automation, APIs, and software development
 
 ### Practice and Review
 
-- [Flashcards: CCNA](flashcards-ccna)
-- [Flashcards: CCNP](flashcards-ccnp)
-- [Practice Questions: CCNA](practice-ccna)
-- [Cisco Lab Scenarios](cisco/labs) -- hands-on lab exercises for practical exam preparation
+- Flashcards: CCNA
+- Flashcards: CCNP
+- Practice Questions: CCNA
+- Cisco Lab Scenarios -- hands-on lab exercises for practical exam preparation
 
 ### Key Exam Focus
 
@@ -167,19 +167,19 @@ Microsoft certifications cover Azure cloud services, Microsoft 365, Dynamics 365
 
 ### Topic Notes
 
-- [Microsoft Certification Overview](microsoft) -- the certification landscape and role-based certification model
-- [Azure Fundamentals (AZ-900)](microsoft/az-900) -- Azure cloud concepts, services, and pricing
-- [Azure Administrator (AZ-104)](microsoft/az-104) -- managing Azure subscriptions and resources
-- [Azure Developer (AZ-204)](microsoft/az-204) -- developing solutions for Azure
-- [Azure Solutions Architect (AZ-305)](microsoft/az-305) -- designing cloud and hybrid solutions on Azure
-- [Microsoft 365](microsoft/m365) -- endpoint management, security, and compliance
+- Microsoft Certification Overview -- the certification landscape and role-based certification model
+- Azure Fundamentals (AZ-900) -- Azure cloud concepts, services, and pricing
+- Azure Administrator (AZ-104) -- managing Azure subscriptions and resources
+- Azure Developer (AZ-204) -- developing solutions for Azure
+- Azure Solutions Architect (AZ-305) -- designing cloud and hybrid solutions on Azure
+- Microsoft 365 -- endpoint management, security, and compliance
 
 ### Practice and Review
 
-- [Flashcards: AZ-900](flashcards-az-900)
-- [Flashcards: AZ-104](flashcards-az-104)
-- [Practice Questions: AZ-900](practice-az-900)
-- [Practice Questions: AZ-104](practice-az-104)
+- Flashcards: AZ-900
+- Flashcards: AZ-104
+- Practice Questions: AZ-900
+- Practice Questions: AZ-104
 
 ### Key Exam Focus
 
@@ -193,19 +193,19 @@ Beyond the major vendors, several other certifications are valuable in specific 
 
 ### Topic Notes
 
-- [Google Cloud Certifications](other/google-cloud) -- GCP Associate Cloud Engineer, Professional Cloud Architect
+- Google Cloud Certifications -- GCP Associate Cloud Engineer, Professional Cloud Architect
 - [Kubernetes (CKA/CKAD)](https://tools.wyattau.com/kubernetes-docker/) -- Certified Kubernetes Administrator and Application Developer
-- [Terraform (HashiCorp)](other/terraform) -- HashiCorp Certified Terraform Associate
-- [ITIL](other/itil) -- IT service management certifications
-- [Certified Information Systems Security Professional (CISSP)](other/cissp) -- the premier cybersecurity certification
-- [Project Management Professional (PMP)](other/pmp) -- project management certification
+- Terraform (HashiCorp) -- HashiCorp Certified Terraform Associate
+- ITIL -- IT service management certifications
+- Certified Information Systems Security Professional (CISSP) -- the premier cybersecurity certification
+- Project Management Professional (PMP) -- project management certification
 
 ### Practice and Review
 
-- [Flashcards: Google Cloud](flashcards-google-cloud)
-- [Flashcards: Kubernetes](flashcards-kubernetes)
-- [Practice Questions: Google Cloud](practice-google-cloud)
-- [Practice Questions: Kubernetes](practice-kubernetes)
+- Flashcards: Google Cloud
+- Flashcards: Kubernetes
+- Practice Questions: Google Cloud
+- Practice Questions: Kubernetes
 
 ### Key Exam Focus
 

@@ -30,7 +30,7 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Linux sections in order, starting with Cli Fundamentals and Diagnostics and building toward Cli Fundamentals, Diagnostics, File Systems, Networking, Package Management, Process Management, Security and Systemd, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

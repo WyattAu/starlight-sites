@@ -151,7 +151,7 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 
 ## Cross-References
 
-- **[Coordination Compounds](../coordination/index):** Crystal field theory explains d-orbital splitting in coordination complexes, connecting d-block properties to coordination chemistry.
-- **[F-Block Elements](../f-block/index):** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
-- **[Electrochemistry](../electrochemistry/index):** Variable oxidation states enable redox cycling in electrochemical cells, connecting d-block properties to batteries and electrolysis.
-- **[Surface Chemistry](../surface-chemistry/index):** Transition metals are heterogeneous catalysts, their surface properties and d-electrons enable catalytic activity.
+- **Coordination Compounds:** Crystal field theory explains d-orbital splitting in coordination complexes, connecting d-block properties to coordination chemistry.
+- **F-Block Elements:** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
+- **Electrochemistry:** Variable oxidation states enable redox cycling in electrochemical cells, connecting d-block properties to batteries and electrolysis.
+- **Surface Chemistry:** Transition metals are heterogeneous catalysts, their surface properties and d-electrons enable catalytic activity.

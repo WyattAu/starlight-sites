@@ -56,7 +56,7 @@ flowchart TD
 
 Machine learning is the field of computer science that enables systems to learn from data and improve their performance without being explicitly programmed. It is the foundation of modern AI, from image recognition and natural language processing to recommendation systems and autonomous vehicles.
 
-This hub page maps every resource on this site. The guides cover the mathematical foundations, the major algorithm families, neural network architectures, and practical implementation techniques. Whether you are a student encountering machine learning for the first time, a software engineer adding ML capabilities to your applications, or a researcher exploring new frontiers, these resources provide the theory and practice you need.
+Work through the Machine Learning sections in order, starting with Diagnostics and building toward Diagnostics, then check yourself with the practice problems for each topic. The guides cover the mathematical foundations, the major algorithm families, neural network architectures, and practical implementation techniques. Whether you are a student encountering machine learning for the first time, a software engineer adding ML capabilities to your applications, or a researcher exploring new frontiers, these resources provide the theory and practice you need.
 
 ## Table of Contents
 

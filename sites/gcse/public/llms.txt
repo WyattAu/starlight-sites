@@ -2,145 +2,143 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-GCSE revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://gcse.wyattau.com/about/): About Wyatt's Notes GCSE resources, experience, expertise, and credentials behind UK GCSE qualification study materials.
-- [Complete GCSE Study Guide, All Subjects](https://gcse.wyattau.com/hub/): Study notes for Complete GCSE Study Guide, All Subjects with worked examples, practice problems, and key concepts for exam preparation.
-- [GCSE - Wyatt's Notes](https://gcse.wyattau.com/): GCSE revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-- [GCSE Biology Study Guide](https://gcse.wyattau.com/biology/): A complete single-page revision guide covering the full GCSE Biology specification. Each section contains key concepts, definitions, and essential facts.
-- [GCSE Chemistry Flashcards](https://gcse.wyattau.com/flashcards-chemistry/): Chemistry is about understanding what matter is made of and how it transforms. The key insight is that all matter consists of atoms, and chemical reactions are
-- [GCSE Chemistry Study Guide](https://gcse.wyattau.com/chemistry/): A complete single-page revision guide covering the full GCSE Chemistry specification. Each section contains key concepts, definitions, and essential facts.
-- [GCSE English Study Guide](https://gcse.wyattau.com/english/): A complete single-page revision guide covering the full GCSE English Language specification. Each section contains key skills, methods, and essential
-- [GCSE Glossary, Key Terms Across All Subjects](https://gcse.wyattau.com/glossary/): Assessment Objective (AO): The skills and knowledge being assessed. Different subjects have different AOs (e.g., AO1: demonstrate knowledge, AO2: apply
-- [GCSE Maths Study Guide](https://gcse.wyattau.com/maths/): GCSE Maths.Md Maths Study notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.
-- [GCSE Notes](https://gcse.wyattau.com/intro/): These notes are written with the rigour of an undergraduate textbook, but targeted at the GCSE Syllabus. Every definition is precise, every result is
-- [GCSE Physics Study Guide](https://gcse.wyattau.com/physics/): A complete single-page revision guide covering the full GCSE Physics specification. Each section contains key concepts, definitions, and essential facts.
-- [GCSE Practice Test, 50 Questions Across All Subjects](https://gcse.wyattau.com/practice-test-mega/): 50 exam-style GCSE practice questions covering Biology, Chemistry, Physics, Maths, and English. Multiple choice with mark scheme, difficulty ratings, and detailed explanations.
-- [Maths Practice (Interactive)](https://gcse.wyattau.com/maths-practice-interactive/): 10 auto-graded practice problems covering key GCSE Maths topics. Select an answe Comprehensive educational content coverage with definitions and practice proble
-- [Maths Question Bank](https://gcse.wyattau.com/maths-question-bank/): 20 exam-style multiple-choice questions organised by topic. Each question includes four options, the correct answer, a full explanation, a difficulty badge,
-- [Physics Flashcards](https://gcse.wyattau.com/flashcards-physics/): Physics is about understanding how the universe works, from the smallest particles to the largest structures. The key insight is that complex phenomena can be
+- [About](https://gcse.wyattau.com/about/)
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://gcse.wyattau.com/chemistry/)
+- [English](https://gcse.wyattau.com/english/)
+- [Flashcards Chemistry](https://gcse.wyattau.com/flashcards-chemistry/)
+- [Flashcards Physics](https://gcse.wyattau.com/flashcards-physics/)
+- [Glossary](https://gcse.wyattau.com/glossary/)
+- [Hub](https://gcse.wyattau.com/hub/)
+- [Index](https://gcse.wyattau.com/)
+- [Intro](https://gcse.wyattau.com/intro/)
+- [Maths](https://gcse.wyattau.com/maths/)
+- [Maths Practice Interactive](https://gcse.wyattau.com/maths-practice-interactive/)
+- [Maths Question Bank](https://gcse.wyattau.com/maths-question-bank/)
+- [Physics](https://gcse.wyattau.com/physics/)
+- [Practice Test Mega](https://gcse.wyattau.com/practice-test-mega/)
 
 ## Biology
 
-- [Bioenergetics](https://gcse.wyattau.com/biology/4-bioenergetics/4_bioenergetics/): Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water Into glucose and oxygen.
-- [Bioenergetics](https://gcse.wyattau.com/biology/4-bioenergetics/): This section covers bioenergetics concepts, definitions, and applications with worked examples and practice problems.
-- [Bioenergetics -- Diagnostic Tests](https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics/): (a) Write the balanced symbol equation for photosynthesis. (b) Explain how the structure of a leaf is adapted for photosynthesis. (c) A leaf with surface
-- [Biology Practice (Interactive)](https://gcse.wyattau.com/biology/practice-biology/): QUALIFICATIONS Gcse practice problems: Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Cell Biology](https://gcse.wyattau.com/biology/1-cell-biology/1_cell-biology/): All living organisms are made of cells. This is the first principle of cell theory, proposed by Schleiden and Schwann in the 1830s and extended by Virchow
-- [Cell Biology](https://gcse.wyattau.com/biology/1-cell-biology/): This section covers cell biology concepts, definitions, and applications with worked examples and practice problems.
-- [Cell Biology -- Diagnostic Tests](https://gcse.wyattau.com/biology/diagnostics/diag-cell-biology/): (a) Draw a labelled diagram of an animal cell and a plant cell, identifying at least 5 structures in each. (b) Create a comparison table of plant and animal
-- [Diagnostics](https://gcse.wyattau.com/biology/diagnostics/): Diagnostic test notes for gcse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [Ecology](https://gcse.wyattau.com/biology/7-ecology/7_ecology/): - A single organism. - All the organisms of one species in a habitat. The size of a population can change over time due to birth rate, death rate,
-- [Ecology](https://gcse.wyattau.com/biology/7-ecology/): This section covers ecology concepts, definitions, and applications with worked examples and practice problems.
-- [Ecology -- Diagnostic Tests](https://gcse.wyattau.com/biology/diagnostics/diag-ecology/): A food chain in a woodland ecosystem is: oak tree caterpillar blue tit Comprehensive educational content coverage with definitions and practice problems.
-- [GCSE Biology](https://gcse.wyattau.com/biology/): This section covers gcse biology concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Biology -- Diagnostic Guide](https://gcse.wyattau.com/biology/diagnostics/diagnostic-guide/): Study notes for GCSE Biology -- Diagnostic Guide with worked examples and practice questions.
-- [Inheritance Variation Evolution](https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/): This section covers inheritance variation evolution concepts, definitions, and applications with worked examples and practice problems.
-- [Inheritance, Variation and Evolution -- Diagnostic Tests](https://gcse.wyattau.com/biology/diagnostics/diag-inheritance-variation-evolution/): (a) Describe the structure of DNA. (b) Explain the relationship between DNA, genes, and chromosomes. (c) In humans, the gene for earlobe attachment has two
-- [Inheritance, Variation, and Evolution](https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/6_inheritance-variation-evolution/): DNA (deoxyribonucleic acid) is a long molecule that carries the genetic code. It is found in the Nucleus of cells and is organised into structures called .
-- [Organisation](https://gcse.wyattau.com/biology/2-organisation/2_organisation/): The digestive system breaks down large, insoluble food molecules into small, soluble molecules that Can be absorbed into the blood. This is not a single
-- [Organisation](https://gcse.wyattau.com/biology/2-organisation/): This section covers organisation concepts, definitions, and applications with worked examples and practice problems.
-- [Organisation -- Diagnostic Tests](https://gcse.wyattau.com/biology/diagnostics/diag-organisation/): (a) Label the main organs of the digestive system in order from mouth to anus. (b) Explain where and how starch, proteins, and lipids are digested, naming
+- [Bioenergetics](https://gcse.wyattau.com/biology/4-bioenergetics/4_bioenergetics/)
+- [Cell Biology](https://gcse.wyattau.com/biology/1-cell-biology/1_cell-biology/)
+- [Diag Bioenergetics](https://gcse.wyattau.com/biology/diagnostics/diag-bioenergetics/)
+- [Diag Cell Biology](https://gcse.wyattau.com/biology/diagnostics/diag-cell-biology/)
+- [Diag Ecology](https://gcse.wyattau.com/biology/diagnostics/diag-ecology/)
+- [Diag Inheritance Variation Evolution](https://gcse.wyattau.com/biology/diagnostics/diag-inheritance-variation-evolution/)
+- [Diag Organisation](https://gcse.wyattau.com/biology/diagnostics/diag-organisation/)
+- [Diagnostic Guide](https://gcse.wyattau.com/biology/diagnostics/diagnostic-guide/)
+- [Ecology](https://gcse.wyattau.com/biology/7-ecology/7_ecology/)
+- [Index](https://gcse.wyattau.com/biology/1-cell-biology/)
+- [Index](https://gcse.wyattau.com/biology/2-organisation/)
+- [Index](https://gcse.wyattau.com/biology/4-bioenergetics/)
+- [Index](https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/)
+- [Index](https://gcse.wyattau.com/biology/7-ecology/)
+- [Index](https://gcse.wyattau.com/biology/diagnostics/)
+- [Index](https://gcse.wyattau.com/biology/)
+- [Inheritance Variation Evolution](https://gcse.wyattau.com/biology/6-inheritance-variation-evolution/6_inheritance-variation-evolution/)
+- [Organisation](https://gcse.wyattau.com/biology/2-organisation/2_organisation/)
+- [Practice Biology](https://gcse.wyattau.com/biology/practice-biology/)
 
 ## Chemistry
 
-- [Atomic Structure](https://gcse.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure/): Study notes for Atomic Structure with worked examples, practice problems, and key concepts for exam preparation.
-- [Atomic Structure](https://gcse.wyattau.com/chemistry/1-atomic-structure/): This section covers atomic structure concepts, definitions, and applications with worked examples and practice problems.
-- [Atomic Structure -- Diagnostic Tests](https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure/): Atomic Structure -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Bonding](https://gcse.wyattau.com/chemistry/2-bonding/2_bonding/): occurs between metals and non-metals. Metal atoms lose electrons to form positive Ions (cations), and non-metal atoms gain electrons to form negative ions
-- [Bonding](https://gcse.wyattau.com/chemistry/2-bonding/): This section covers bonding concepts, definitions, and applications with worked examples and practice problems.
-- [Chemical Bonding -- Diagnostic Tests](https://gcse.wyattau.com/chemistry/diagnostics/diag-chemical-bonding/): Chemical Bonding -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Chemical Changes](https://gcse.wyattau.com/chemistry/4-chemical-changes/): This section covers chemical changes concepts, definitions, and applications with worked examples and practice problems.
-- [Chemical Reactions](https://gcse.wyattau.com/chemistry/4-chemical-changes/4_chemical-changes/): GCSE Chemistry Chemical Reactions notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.
-- [Chemistry Practice (Interactive)](https://gcse.wyattau.com/chemistry/practice-chemistry/): QUALIFICATIONS Gcse practice problems: Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Diagnostics](https://gcse.wyattau.com/chemistry/diagnostics/): Diagnostic test notes for gcse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [GCSE Chemistry](https://gcse.wyattau.com/chemistry/): This section covers gcse chemistry concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Chemistry, Diagnostic Test](https://gcse.wyattau.com/chemistry/diagnostic-test/): Count your correct answers and identify areas for revision: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Organic Chemistry](https://gcse.wyattau.com/chemistry/8-organic-chemistry/8_organic-chemistry/): is the study of carbon compounds. Carbon is unique because each carbon atom Can form four covalent bonds and can bond with other carbon atoms to form chains
-- [Organic Chemistry](https://gcse.wyattau.com/chemistry/8-organic-chemistry/): This section covers organic chemistry concepts, definitions, and applications with worked examples and practice problems.
-- [Quantitative Chemistry](https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/3_quantitative-chemistry/): The () of a compound is the sum of the relative atomic masses of all Atoms in the formula. For a molecule, this is also called the relative molecular mass.
-- [Quantitative Chemistry](https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/): This section covers quantitative chemistry concepts, definitions, and applications with worked examples and practice problems.
+- [Atomic Structure](https://gcse.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure/)
+- [Bonding](https://gcse.wyattau.com/chemistry/2-bonding/2_bonding/)
+- [Chemical Changes](https://gcse.wyattau.com/chemistry/4-chemical-changes/4_chemical-changes/)
+- [Diag Atomic Structure](https://gcse.wyattau.com/chemistry/diagnostics/diag-atomic-structure/)
+- [Diag Chemical Bonding](https://gcse.wyattau.com/chemistry/diagnostics/diag-chemical-bonding/)
+- [Diagnostic Test](https://gcse.wyattau.com/chemistry/diagnostic-test/)
+- [Index](https://gcse.wyattau.com/chemistry/1-atomic-structure/)
+- [Index](https://gcse.wyattau.com/chemistry/2-bonding/)
+- [Index](https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/)
+- [Index](https://gcse.wyattau.com/chemistry/4-chemical-changes/)
+- [Index](https://gcse.wyattau.com/chemistry/8-organic-chemistry/)
+- [Index](https://gcse.wyattau.com/chemistry/diagnostics/)
+- [Index](https://gcse.wyattau.com/chemistry/)
+- [Organic Chemistry](https://gcse.wyattau.com/chemistry/8-organic-chemistry/8_organic-chemistry/)
+- [Practice Chemistry](https://gcse.wyattau.com/chemistry/practice-chemistry/)
+- [Quantitative Chemistry](https://gcse.wyattau.com/chemistry/3-quantitative-chemistry/3_quantitative-chemistry/)
 
 ## Computer-Science
 
-- [Algorithms](https://gcse.wyattau.com/computer-science/4-algorithms/4_algorithms/): An is a finite set of precise, step-by-step instructions for solving a problem.  Comprehensive educational content coverage with definitions and practice proble
-- [Algorithms](https://gcse.wyattau.com/computer-science/4-algorithms/): This section covers algorithms concepts, definitions, and applications with worked examples and practice problems.
-- [Algorithms -- Diagnostic Tests](https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms/): Algorithms -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Computer Science Practice (Interactive)](https://gcse.wyattau.com/computer-science/practice-computer-science/): QUALIFICATIONS Gcse practice problems: Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Computer Systems](https://gcse.wyattau.com/computer-science/2-hardware/2_hardware/): The is the brain of the computer. It processes data and executes Instructions. Comprehensive educational content coverage with definitions and practice problems
-- [Data Representation](https://gcse.wyattau.com/computer-science/1-fundamentals/1_fundamentals/): Computers use (base 2), which has only two digits: 0 and 1. Each binary digit is Comprehensive educational content coverage with definitions and practice proble
-- [Diagnostics | GCSE Computer Science](https://gcse.wyattau.com/computer-science/diagnostics/): Diagnostic test notes for GCSE Computer Science covering key concepts, worked examples, and practice problems for exam preparation.
-- [Fundamentals](https://gcse.wyattau.com/computer-science/1-fundamentals/): This section covers fundamentals concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Computer Science](https://gcse.wyattau.com/computer-science/): This section covers gcse computer science concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Computer Science, Diagnostic Test](https://gcse.wyattau.com/computer-science/diagnostic-test/): QUALIFICATIONS Gcse diagnostic tests: GCSE Computer Science, Diagnostic Test. Comprehensive study material with definitions, examples, and assessment tools.
-- [Hardware](https://gcse.wyattau.com/computer-science/2-hardware/): This section covers hardware concepts, definitions, and applications with worked examples and practice problems.
-- [Networks](https://gcse.wyattau.com/computer-science/3-networks/3_networks/): Study notes for Networks | GCSE - Wyatt's Notes with worked examples and practice questions.
-- [Networks](https://gcse.wyattau.com/computer-science/3-networks/): This section covers networks concepts, definitions, and applications with worked examples and practice problems.
-- [Programming](https://gcse.wyattau.com/computer-science/5-programming/5_programming/): Programming: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Programming](https://gcse.wyattau.com/computer-science/5-programming/): This section covers programming concepts, definitions, and applications with worked examples and practice problems.
-- [Programming -- Diagnostic Tests](https://gcse.wyattau.com/computer-science/diagnostics/diag-programming/): Programming -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [Algorithms](https://gcse.wyattau.com/computer-science/4-algorithms/4_algorithms/)
+- [Diag Algorithms](https://gcse.wyattau.com/computer-science/diagnostics/diag-algorithms/)
+- [Diag Programming](https://gcse.wyattau.com/computer-science/diagnostics/diag-programming/)
+- [Diagnostic Test](https://gcse.wyattau.com/computer-science/diagnostic-test/)
+- [Fundamentals](https://gcse.wyattau.com/computer-science/1-fundamentals/1_fundamentals/)
+- [Hardware](https://gcse.wyattau.com/computer-science/2-hardware/2_hardware/)
+- [Index](https://gcse.wyattau.com/computer-science/1-fundamentals/)
+- [Index](https://gcse.wyattau.com/computer-science/2-hardware/)
+- [Index](https://gcse.wyattau.com/computer-science/3-networks/)
+- [Index](https://gcse.wyattau.com/computer-science/4-algorithms/)
+- [Index](https://gcse.wyattau.com/computer-science/5-programming/)
+- [Index](https://gcse.wyattau.com/computer-science/diagnostics/)
+- [Index](https://gcse.wyattau.com/computer-science/)
+- [Networks](https://gcse.wyattau.com/computer-science/3-networks/3_networks/)
+- [Practice Computer Science](https://gcse.wyattau.com/computer-science/practice-computer-science/)
+- [Programming](https://gcse.wyattau.com/computer-science/5-programming/5_programming/)
 
 ## English
 
-- [19th Century Novel](https://gcse.wyattau.com/english/2-19th-century-novel/): This section covers 19th century novel concepts, definitions, and applications with worked examples and practice problems.
-- [Creative Writing -- Diagnostic Tests](https://gcse.wyattau.com/english/diagnostics/diag-creative-writing/): Creative Writing -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Diagnostics](https://gcse.wyattau.com/english/diagnostics/): Diagnostic test notes for gcse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [English Practice (Interactive)](https://gcse.wyattau.com/english/practice-english/): QUALIFICATIONS Gcse practice problems: English Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Essay Writing](https://gcse.wyattau.com/english/4-essay-writing/): This section covers essay writing concepts, definitions, and applications with worked examples and practice problems.
-- [Essay Writing for GCSE English Literature](https://gcse.wyattau.com/english/4-essay-writing/4_essay-writing/): GCSE Essay Writing for GCSE English Literature notes covering key definitions, core concepts, worked examples, and practice questions for effective preparation.
-- [GCSE English Literature](https://gcse.wyattau.com/english/): GCSE English Literature is a compulsory qualification across all major examination boards in England, Wales, and Northern Ireland. The course requires
-- [GCSE English, Diagnostic Test](https://gcse.wyattau.com/english/diagnostic-test/): QUALIFICATIONS Gcse diagnostic tests: GCSE English, Diagnostic Test. Comprehensive study material with definitions, examples, and assessment tools.
-- [Modern Texts and Poetry](https://gcse.wyattau.com/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/): (Poetry) | OCR Paper 2 | WJEC/Eduqas Paper 2 Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Modern Texts And Poetry](https://gcse.wyattau.com/english/3-modern-texts-and-poetry/): This section covers modern texts and poetry concepts, definitions, and applications with worked examples and practice problems.
-- [Reading Fiction -- Diagnostic Tests](https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction/): Reading Fiction -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Reading Non-Fiction -- Diagnostic Tests](https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction/): Diagnostic test notes for gcse Reading Non-Fiction -- Diagnostic Tests covering key concepts, worked examples, and practice problems for exam preparation.
-- [Shakespeare](https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare/): (with Pre-1900 Poetry) | WJEC/Eduqas Paper 1 Section A Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Shakespeare](https://gcse.wyattau.com/english/1-shakespeare/): This section covers shakespeare concepts, definitions, and applications with worked examples and practice problems.
-- [The 19th-Century Novel](https://gcse.wyattau.com/english/2-19th-century-novel/2_19th-century-novel/): The 19th-Century Novel: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
+- [19th Century Novel](https://gcse.wyattau.com/english/2-19th-century-novel/2_19th-century-novel/)
+- [Diag Creative Writing](https://gcse.wyattau.com/english/diagnostics/diag-creative-writing/)
+- [Diag Reading Fiction](https://gcse.wyattau.com/english/diagnostics/diag-reading-fiction/)
+- [Diag Reading Nonfiction](https://gcse.wyattau.com/english/diagnostics/diag-reading-nonfiction/)
+- [Diagnostic Test](https://gcse.wyattau.com/english/diagnostic-test/)
+- [Essay Writing](https://gcse.wyattau.com/english/4-essay-writing/4_essay-writing/)
+- [Index](https://gcse.wyattau.com/english/1-shakespeare/)
+- [Index](https://gcse.wyattau.com/english/2-19th-century-novel/)
+- [Index](https://gcse.wyattau.com/english/3-modern-texts-and-poetry/)
+- [Index](https://gcse.wyattau.com/english/4-essay-writing/)
+- [Index](https://gcse.wyattau.com/english/diagnostics/)
+- [Index](https://gcse.wyattau.com/english/)
+- [Modern Texts And Poetry](https://gcse.wyattau.com/english/3-modern-texts-and-poetry/3_modern-texts-and-poetry/)
+- [Practice English](https://gcse.wyattau.com/english/practice-english/)
+- [Shakespeare](https://gcse.wyattau.com/english/1-shakespeare/1_shakespeare/)
 
 ## Maths
 
-- [Algebra](https://gcse.wyattau.com/maths/2-algebra/2_algebra/): have the same variable part. They can be combined by addition and subtraction. Comprehensive educational content coverage with definitions and practice problems
-- [Algebra -- Diagnostic Tests](https://gcse.wyattau.com/maths/diagnostics/diag-algebra/): (a) Solve . (b) Solve by factorisation. (c) Solve using the quadratic formula. (d) Solve the inequality and represent the solution on a number line.
-- [Diagnostics](https://gcse.wyattau.com/maths/diagnostics/): Diagnostic test notes for gcse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [GCSE Maths](https://gcse.wyattau.com/maths/): This section covers gcse maths concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Maths -- Diagnostic Guide](https://gcse.wyattau.com/maths/diagnostics/diagnostic-guide/): Study notes for GCSE Maths -- Diagnostic Guide with worked examples and practice questions.
-- [Geometry](https://gcse.wyattau.com/maths/4-geometry/4_geometry/): Study notes for Geometry | GCSE - Wyatt's Notes with worked examples and practice questions.
-- [Geometry -- Diagnostic Tests](https://gcse.wyattau.com/maths/diagnostics/diag-geometry/): (a) A right-angled triangle has sides of 5 cm and 12 cm forming the right angle. Calculate the length of the hypotenuse. (b) A ladder leans against a wall.
-- [Maths Practice (Interactive)](https://gcse.wyattau.com/maths/practice-maths/): QUALIFICATIONS Gcse practice problems: Maths Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Number -- Diagnostic Tests](https://gcse.wyattau.com/maths/diagnostics/diag-number/): (a) Calculate . (b) Convert (recurring) to a fraction in its simplest form. (c) A shirt originally costs . It is discounted by 20%, then the discounted
-- [Number | GCSE - Wyatt's Notes](https://gcse.wyattau.com/maths/1-number/1_number/): Number: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Ratio, Proportion, and Rates of Change](https://gcse.wyattau.com/maths/3-ratio-proportion/3_ratio-proportion/): A compares quantities of the same kind. Ratios are written in their simplest form by Dividing all parts by their highest common factor.
-- [Ratio, Proportion, and Rates of Change -- Diagnostic Tests](https://gcse.wyattau.com/maths/diagnostics/diag-ratio-proportion/): (a) Divide in the ratio 2:3:7. (b) The ratio of boys to girls in a class is 5:3. If there are 15 girls, how many boys are there? (c) A recipe for 6 people
-- [Statistics](https://gcse.wyattau.com/maths/6-statistics/6_statistics/): Statistics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Statistics -- Diagnostic Tests](https://gcse.wyattau.com/maths/diagnostics/diag-statistics/): The grouped frequency table shows the marks of 60 students in a maths test: Comprehensive educational content coverage with definitions and practice problems.
+- [Algebra](https://gcse.wyattau.com/maths/2-algebra/2_algebra/)
+- [Diag Algebra](https://gcse.wyattau.com/maths/diagnostics/diag-algebra/)
+- [Diag Geometry](https://gcse.wyattau.com/maths/diagnostics/diag-geometry/)
+- [Diag Number](https://gcse.wyattau.com/maths/diagnostics/diag-number/)
+- [Diag Ratio Proportion](https://gcse.wyattau.com/maths/diagnostics/diag-ratio-proportion/)
+- [Diag Statistics](https://gcse.wyattau.com/maths/diagnostics/diag-statistics/)
+- [Diagnostic Guide](https://gcse.wyattau.com/maths/diagnostics/diagnostic-guide/)
+- [Geometry](https://gcse.wyattau.com/maths/4-geometry/4_geometry/)
+- [Index](https://gcse.wyattau.com/maths/diagnostics/)
+- [Index](https://gcse.wyattau.com/maths/)
+- [Number](https://gcse.wyattau.com/maths/1-number/1_number/)
+- [Practice Maths](https://gcse.wyattau.com/maths/practice-maths/)
+- [Ratio Proportion](https://gcse.wyattau.com/maths/3-ratio-proportion/3_ratio-proportion/)
+- [Statistics](https://gcse.wyattau.com/maths/6-statistics/6_statistics/)
 
 ## Physics
 
-- [Diagnostics](https://gcse.wyattau.com/physics/diagnostics/): Diagnostic test notes for gcse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [Electricity](https://gcse.wyattau.com/physics/2-electricity/2_electricity/): QUALIFICATIONS Gcse notes: Electricity. Comprehensive study material with defini Comprehensive A-Level electricity revision notes with definitions and examples.
-- [Electricity](https://gcse.wyattau.com/physics/2-electricity/): This section covers electricity concepts, definitions, and applications with worked examples and practice problems.
-- [Electricity -- Diagnostic Tests](https://gcse.wyattau.com/physics/diagnostics/diag-electricity/): (a) Define current, voltage, and resistance. (b) A circuit has a 12 V battery connected to a resistor of 4 . Calculate the current. (c) A bulb has a
-- [Energy -- Diagnostic Tests](https://gcse.wyattau.com/physics/diagnostics/diag-energy/): (a) Describe the energy transfers when a ball is thrown upwards and then caught at the same height. (b) A 0.5 kg ball is thrown vertically upwards at 10
-- [Energy | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/1-energy/1_energy/): QUALIFICATIONS Gcse notes: Energy. Comprehensive study material with definitions Study guide for A-Level energy with worked examples and practice questions.
-- [Energy | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/1-energy/): This section covers energy concepts, definitions, and applications with worked examples and practice problems.
-- [Forces -- Diagnostic Tests](https://gcse.wyattau.com/physics/diagnostics/diag-forces/): Diagnostic test notes for gcse Forces -- Diagnostic Tests covering key concepts, worked examples, and practice problems for exam preparation.
-- [Forces | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/5-forces/5_forces/): QUALIFICATIONS Gcse notes: Forces. Comprehensive study material with definitions Study guide for A-Level forces with worked examples and practice questions.
-- [Forces | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/5-forces/): This section covers forces concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Physics](https://gcse.wyattau.com/physics/): This section covers gcse physics concepts, definitions, and applications with worked examples and practice problems.
-- [GCSE Physics -- Diagnostic Guide](https://gcse.wyattau.com/physics/diagnostics/diagnostic-guide/): Study notes for GCSE Physics -- Diagnostic Guide with worked examples and practice questions.
-- [Magnetism](https://gcse.wyattau.com/physics/7-magnetism/): This section covers magnetism concepts, definitions, and applications with worked examples and practice problems.
-- [Magnetism and Electromagnetism](https://gcse.wyattau.com/physics/7-magnetism/7_magnetism/): QUALIFICATIONS Gcse notes: Magnetism and Electromagnetism. Comprehensive study material with definitions, examples, and assessment tools.
-- [Magnetism and Electromagnetism -- Diagnostic Tests](https://gcse.wyattau.com/physics/diagnostics/diag-magnetism/): (a) Describe the magnetic field pattern around a bar magnet. (b) Explain how to magnetise a steel nail using a solenoid. (c) An electromagnet consists of a
-- [Physics Practice (Interactive)](https://gcse.wyattau.com/physics/practice-physics/): QUALIFICATIONS Gcse practice problems: Physics Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Waves -- Diagnostic Tests](https://gcse.wyattau.com/physics/diagnostics/diag-waves/): (a) Define the terms: amplitude, wavelength, frequency, and period. State the relationship between frequency, wavelength, and wave speed. (b) A wave has a
-- [Waves | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/6-waves/6_waves/): QUALIFICATIONS Gcse notes: Waves. Comprehensive study material with definitions, Study guide for A-Level waves with worked examples and practice questions.
-- [Waves | GCSE - Wyatt's Notes](https://gcse.wyattau.com/physics/6-waves/): This section covers waves concepts, definitions, and applications with worked examples and practice problems.
+- [Diag Electricity](https://gcse.wyattau.com/physics/diagnostics/diag-electricity/)
+- [Diag Energy](https://gcse.wyattau.com/physics/diagnostics/diag-energy/)
+- [Diag Forces](https://gcse.wyattau.com/physics/diagnostics/diag-forces/)
+- [Diag Magnetism](https://gcse.wyattau.com/physics/diagnostics/diag-magnetism/)
+- [Diag Waves](https://gcse.wyattau.com/physics/diagnostics/diag-waves/)
+- [Diagnostic Guide](https://gcse.wyattau.com/physics/diagnostics/diagnostic-guide/)
+- [Electricity](https://gcse.wyattau.com/physics/2-electricity/2_electricity/)
+- [Energy](https://gcse.wyattau.com/physics/1-energy/1_energy/)
+- [Forces](https://gcse.wyattau.com/physics/5-forces/5_forces/)
+- [Index](https://gcse.wyattau.com/physics/1-energy/)
+- [Index](https://gcse.wyattau.com/physics/2-electricity/)
+- [Index](https://gcse.wyattau.com/physics/5-forces/)
+- [Index](https://gcse.wyattau.com/physics/6-waves/)
+- [Index](https://gcse.wyattau.com/physics/7-magnetism/)
+- [Index](https://gcse.wyattau.com/physics/diagnostics/)
+- [Index](https://gcse.wyattau.com/physics/)
+- [Magnetism](https://gcse.wyattau.com/physics/7-magnetism/7_magnetism/)
+- [Practice Physics](https://gcse.wyattau.com/physics/practice-physics/)
+- [Waves](https://gcse.wyattau.com/physics/6-waves/6_waves/)
 
 ## Zh
 
-- [GCSE | 简体中文](https://gcse.wyattau.com/zh/): A bilingual bridge: This Chinese-language page provides the same comprehensive GCSE content but in simplified Chinese, making it accessible to Chinese-speaking
+- [Index](https://gcse.wyattau.com/zh/)

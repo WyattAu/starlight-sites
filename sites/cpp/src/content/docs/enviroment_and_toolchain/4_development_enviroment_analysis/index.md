@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: 4_development_enviroment_analysis
-description: "This section provides study materials and resources for 4_development_enviroment_analysis. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for 4_development_enviroment_analysis. Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for 4_development_enviroment_analysis. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for 4_development_enviroment_analysis. Revision works best in one direction here: read 4_development_enviroment_analysis, attempt the practice problems cold, and only then check the worked solutions.
 
 # 4_development_enviroment_analysis
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for 4_development_enviroment
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether 4_development_enviroment_analysis needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

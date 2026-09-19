@@ -209,6 +209,6 @@ Similarly: $D_y = -8$, $y = 2$; $D_z = 2$, $z = -\frac{1}{2}$
 
 ## Cross-References
 
-- [Matrices](../matrices/index) -- Determinants are properties of square matrices, used to test invertibility and compute areas and volumes.
-- [Calculus](../integrals/index) -- Jacobian determinants appear in change of variables for multiple integrals, connecting determinants to integration.
-- [Linear Equations](../relations-functions/index) -- The determinant determines whether a system of linear equations has a unique solution.
+- Matrices -- Determinants are properties of square matrices, used to test invertibility and compute areas and volumes.
+- Calculus -- Jacobian determinants appear in change of variables for multiple integrals, connecting determinants to integration.
+- Linear Equations -- The determinant determines whether a system of linear equations has a unique solution.

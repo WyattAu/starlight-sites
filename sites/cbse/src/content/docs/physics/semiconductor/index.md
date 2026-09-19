@@ -150,10 +150,10 @@ $$Y = \overline{A \cdot B}$$
 
 ## Cross-References
 
-- **[Current Electricity](../current-electricity/index):** Semiconductor circuits follow Ohm's law and Kirchhoff's rules, understanding circuits is prerequisite to understanding semiconductor devices.
-- **[Dual Nature](../dual-nature/index):** Band theory of semiconductors involves energy levels and photon absorption, connecting to quantum concepts.
-- **[Electrostatics](../electrostatics/index):** The built-in potential in a p-n junction arises from charge separation, connecting to electrostatic principles.
-- **[Derivatives (Mathematics)](../../mathematics/derivatives/index):** The diode equation involves exponential functions whose analysis uses calculus concepts.
+- **Current Electricity:** Semiconductor circuits follow Ohm's law and Kirchhoff's rules, understanding circuits is prerequisite to understanding semiconductor devices.
+- **Dual Nature:** Band theory of semiconductors involves energy levels and photon absorption, connecting to quantum concepts.
+- **Electrostatics:** The built-in potential in a p-n junction arises from charge separation, connecting to electrostatic principles.
+- **Derivatives (Mathematics):** The diode equation involves exponential functions whose analysis uses calculus concepts.
 
 ## Practice Problems
 

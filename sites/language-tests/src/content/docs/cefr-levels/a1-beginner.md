@@ -131,7 +131,7 @@ See you soon, Marie"
 ## Cross-References
 
 - [A2 Elementary](/cefr-levels/a2-elementary/) - Next level
-- [Practice Tests](../practice/practice-a1) - Test your knowledge
+- Practice Tests - Test your knowledge
 
 
 ## Advanced Content

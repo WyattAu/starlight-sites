@@ -57,7 +57,7 @@ flowchart TD
 
 Linux powers the majority of the world's servers, cloud infrastructure, embedded systems, and supercomputers. Whether you are managing a home server, deploying applications to the cloud, or administering enterprise infrastructure, Linux administration is an essential skill for any systems professional.
 
-This hub page maps every resource on this site. The guides cover the core competencies of Linux administration: the command line, file systems, process management, networking, systemd, security, and package management. Each section provides both conceptual understanding and practical, hands-on commands that you can apply immediately. The goal is not to memorise every command, but to understand the system deeply enough that you can solve problems you have never encountered before.
+Work through the Linux sections in order, starting with Cli Fundamentals and Diagnostics and building toward Cli Fundamentals, Diagnostics, File Systems, Networking, Package Management, Process Management, Security and Systemd, then check yourself with the practice problems for each topic. The guides cover the core competencies of Linux administration: the command line, file systems, process management, networking, systemd, security, and package management. Each section provides both conceptual understanding and practical, hands-on commands that you can apply immediately. The goal is not to memorise every command, but to understand the system deeply enough that you can solve problems you have never encountered before.
 
 ## Table of Contents
 

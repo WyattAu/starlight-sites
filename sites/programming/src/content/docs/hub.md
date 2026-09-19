@@ -122,9 +122,9 @@ C++ is a statically typed language, understanding how types work at the memory l
 
 ### Topics
 
-- [Data Layout](types/1_data_layout/index), object size, alignment, padding, and struct layout
-- [Pointers, References, and Views](types/2_pointers_references_views/index), raw pointers, smart pointers, and non-owning views
-- [Initialization and Lifetime](types/3_initialization_and_lifetime/index), default initialization, value initialization, and object lifetime rules
+- Data Layout, object size, alignment, padding, and struct layout
+- Pointers, References, and Views, raw pointers, smart pointers, and non-owning views
+- Initialization and Lifetime, default initialization, value initialization, and object lifetime rules
 
 ### Why This Matters
 

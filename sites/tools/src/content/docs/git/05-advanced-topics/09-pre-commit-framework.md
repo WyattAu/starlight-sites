@@ -1016,4 +1016,4 @@ linked above.
 - [GitHub Actions CI/CD](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/) -- Pre-commit hooks run locally while CI/CD runs remotely; together they provide a complete quality gate.
 - [Branching and Merging](/git/03-branching-and-merging/01-branching/) -- Pre-commit hooks run automatically on each commit, complementing branch protection rules.
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) -- Git hooks are a core Git feature; pre-commit provides a declarative wrapper around them.
-- [Code Review](general/collaboration/code-review) -- Automated linting via pre-commit reduces review burden by catching style issues before submission.
+- Code Review -- Automated linting via pre-commit reduces review burden by catching style issues before submission.

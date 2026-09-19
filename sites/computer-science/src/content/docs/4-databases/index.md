@@ -343,8 +343,8 @@ Each section includes:
 
 ## Cross-References
 
-- **[Systems](../../../../../typescript/src/content/docs/index):** Computer architecture and systems that databases build upon.
-- **[Theory of Computation](../../../../../typescript/src/content/docs/index):** Formal languages underlying query languages.
+- **Systems:** Computer architecture and systems that databases build upon.
+- **Theory of Computation:** Formal languages underlying query languages.
 
 ## Common Mistakes
 

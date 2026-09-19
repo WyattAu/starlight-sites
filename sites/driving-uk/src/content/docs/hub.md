@@ -80,16 +80,16 @@ The Highway Code is the foundation of the UK theory test. It sets out the rules,
 ### Topic Notes
 
 - [Highway Code Overview](/highway-code/), structure, editions, and what the test covers
-- [Rules for All Drivers](highway-code/all-drivers), rules 1–154 covering general driving conduct
-- [Alertness and Attitude](highway-code/alertness), awareness, concentration, and road rage prevention
-- [Safety Margins](highway-code/safety-margins), stopping distances, following distances, and space management
+- Rules for All Drivers, rules 1–154 covering general driving conduct
+- Alertness and Attitude, awareness, concentration, and road rage prevention
+- Safety Margins, stopping distances, following distances, and space management
 - [Control](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/), steering, braking, accelerating, and gear use
 
 ### Practice and Review
 
-- [Flashcards: Highway Code](flashcards-highway-code)
-- [Practice Questions: Highway Code](practice-highway-code)
-- [Mock Theory Tests](mock-tests), full 50-question simulations under timed conditions
+- Flashcards: Highway Code
+- Practice Questions: Highway Code
+- Mock Theory Tests, full 50-question simulations under timed conditions
 
 ### Key Test Focus
 
@@ -104,16 +104,16 @@ The UK uses a comprehensive system of road signs governed by the Traffic Signs R
 ### Topic Notes
 
 - [Road Signs Overview](/road-signs/), categories, classification, and legal status
-- [Warning Signs](road-signs/warning), triangular signs alerting you to hazards ahead
-- [Regulatory Signs](road-signs/regulatory), circular signs giving orders (speed limits, no entry, etc.)
+- Warning Signs, triangular signs alerting you to hazards ahead
+- Regulatory Signs, circular signs giving orders (speed limits, no entry, etc.)
 - [Information Signs](https://physics.wyattau.com/2-thermal-physics/20_thermodynamics-of-information-processing/), rectangular signs providing directions and guidance
-- [Road Markings](road-signs/markings), centre lines, hatched areas, bus lanes, and cycle lanes
+- Road Markings, centre lines, hatched areas, bus lanes, and cycle lanes
 - [Temporary Signs](https://alevel.wyattau.com/geography/2-human-geography/3_contemporary-urban-environments/), roadworks, diversions, and contraflow systems
 
 ### Practice and Review
 
-- [Flashcards: Road Signs](flashcards-road-signs)
-- [Practice Questions: Road Signs](practice-road-signs)
+- Flashcards: Road Signs
+- Practice Questions: Road Signs
 
 ### Key Test Focus
 
@@ -127,17 +127,17 @@ Beyond the Highway Code, the theory test covers specific traffic regulations inc
 
 ### Topic Notes
 
-- [Speed Limits](rules/speed-limits), urban, rural, and motorway limits for different vehicle types
+- Speed Limits, urban, rural, and motorway limits for different vehicle types
 - [Overtaking](/overtaking/), when you may and may not overtake, including on dual carriageways
-- [Right of Way](rules/right-of-way), roundabouts, junctions, pedestrian crossings, and emergency vehicles
+- Right of Way, roundabouts, junctions, pedestrian crossings, and emergency vehicles
 - [Parking Rules](/parking/), legal and illegal parking, controlled zones, and penalty charges
-- [Motorway Rules](rules/motorways), lane discipline, hard shoulder use, and smart motorway regulations
-- [Rural Roads](rules/rural-roads), single-track roads, passing places, and farm vehicles
+- Motorway Rules, lane discipline, hard shoulder use, and smart motorway regulations
+- Rural Roads, single-track roads, passing places, and farm vehicles
 
 ### Practice and Review
 
-- [Flashcards: Rules of the Road](flashcards-rules)
-- [Practice Questions: Rules of the Road](practice-rules)
+- Flashcards: Rules of the Road
+- Practice Questions: Rules of the Road
 
 ### Key Test Focus
 
@@ -151,16 +151,16 @@ The theory test includes questions about vehicle safety, the MOT, insurance requ
 
 ### Topic Notes
 
-- [Vehicle Checks](vehicle-safety/checks), daily checks: tyres, lights, mirrors, and fluid levels
+- Vehicle Checks, daily checks: tyres, lights, mirrors, and fluid levels
 - [MOT and Insurance](https://alevel.wyattau.com/computer-science/fundamentals/06-legal-ethical-moral/), legal requirements, certificate validity, and penalty for non-compliance
-- [Tyres and Tread](vehicle-safety/tyres), legal tread depth, pressure, and condition
-- [Lights and Signals](vehicle-safety/lights), using lights correctly in different conditions
-- [Emergency Procedures](vehicle-safety/emergency), breakdowns, accidents, and what to carry in the car
+- Tyres and Tread, legal tread depth, pressure, and condition
+- Lights and Signals, using lights correctly in different conditions
+- Emergency Procedures, breakdowns, accidents, and what to carry in the car
 
 ### Practice and Review
 
-- [Flashcards: Vehicle Safety](flashcards-vehicle-safety)
-- [Practice Questions: Vehicle Safety](practice-vehicle-safety)
+- Flashcards: Vehicle Safety
+- Practice Questions: Vehicle Safety
 
 ### Key Test Focus
 
@@ -175,13 +175,13 @@ The hazard perception test is the second part of the theory exam. It shows you 1
 ### Topic Notes
 
 - [Hazard Perception Overview](/theory-test/hazard-perception/), test format, scoring, and the developing hazard concept
-- [Scoring System](hazard-perception/scoring), up to 5 points per hazard, the earlier you click, the higher the score
+- Scoring System, up to 5 points per hazard, the earlier you click, the higher the score
 - [Common Hazards](https://mathematics.wyattau.com/1-abstract-algebra/17_common-pitfalls/), pedestrians, cyclists, junctions, parked cars, and roadworks
 - [Practice Clips](https://admissions.wyattau.com/practice-admissions/), sample video clips with timed responses
 
 ### Practice and Review
 
-- [Hazard Perception Practice](hazard-perception/mock), simulated clips to build your observational speed
+- Hazard Perception Practice, simulated clips to build your observational speed
 - [Flashcards: Hazard Types](/theory-test/hazard-perception/)
 
 ### Key Test Focus

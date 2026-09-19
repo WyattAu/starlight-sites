@@ -30,7 +30,7 @@ $I_p \subseteq \mathbb{R}$ containing $0$.
 
 For vector fields $X, Y$ on $M$, the **Lie bracket** $[X, Y]$ is the vector field defined by:
 
-$$[X, Y](f) = X(Y(f)) - Y(X(f))$$
+$$X, Y = X(Y(f)) - Y(X(f))$$
 
 for $f \in C^\infty(M)$.
 

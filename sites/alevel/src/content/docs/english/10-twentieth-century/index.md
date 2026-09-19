@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers literary analysis, language techniques, and critical writing skills. Strong performance requires close reading, evidence-based argumentation, and awareness of historical and cultural contexts.
+This section covers literary analysis, language techniques, and critical writing skills. Use the diagnostic tests to find out whether Twentieth Century needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Twentieth Century
 
@@ -28,7 +28,7 @@ This section covers literary analysis, language techniques, and critical writing
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Twentieth Century feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

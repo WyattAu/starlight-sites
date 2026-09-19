@@ -129,10 +129,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Electromagnetism](../../../../../typescript/src/content/docs/index):** Electromagnetic wave theory; light is an electromagnetic wave.
-- **[Quantum Mechanics](../../../../../typescript/src/content/docs/index):** Quantum optics and photonics; photons are quantum particles of light.
-- **[Classical Mechanics](../../../../../typescript/src/content/docs/index):** Wave mechanics foundations; oscillations and vibrations are mechanical waves.
-- **[Mathematics](../../../../../typescript/src/content/docs/index):** Fourier analysis and complex numbers are essential mathematical tools for optics.
+- **Electromagnetism:** Electromagnetic wave theory; light is an electromagnetic wave.
+- **Quantum Mechanics:** Quantum optics and photonics; photons are quantum particles of light.
+- **Classical Mechanics:** Wave mechanics foundations; oscillations and vibrations are mechanical waves.
+- **Mathematics:** Fourier analysis and complex numbers are essential mathematical tools for optics.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

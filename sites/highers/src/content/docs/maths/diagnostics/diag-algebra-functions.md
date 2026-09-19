@@ -381,4 +381,4 @@ $$
 - **[Site Home](/):** Main landing page for Higher notes.
 - **[Biology](/biology/):** Biology notes covering cell biology and ecology.
 - **[Chemistry](/chemistry/):** Chemistry notes covering atomic structure and bonding.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.

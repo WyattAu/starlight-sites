@@ -628,4 +628,4 @@ linked above.
 
 - **[I/O](/standard-library/io/):** File and stream operations used in HTTP handlers.
 - **[Strings and Time](/standard-library/strings-and-time/):** String and time utilities used in HTTP processing.
-- **[Concurrency](../concurrency/):** Goroutines and channels for handling concurrent HTTP requests.
+- **Concurrency:** Goroutines and channels for handling concurrent HTTP requests.

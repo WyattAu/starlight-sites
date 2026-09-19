@@ -47,7 +47,7 @@ graph TD
 
 ## Calculus
 
-**Antiderivative**: A function F(x) such that F'(x) = f(x). Also called an indefinite integral. Related: [Integral](#integral).
+**Antiderivative**: A function F(x) such that F'(x) = f(x). Also called an indefinite integral. Related: [Integral](/glossary/).
 
 **Chain Rule**: The derivative of a composite function: d/dx[f(g(x))] = f'(g(x)) · g'(x). Essential for differentiating nested functions.
 

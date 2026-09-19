@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Standard Library"
-description: "This section provides study materials and resources for standard library. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for standard library. Work through the Python sections in order, starting with Advanced Topics and Async and building toward Advanced Topics, Async, Best Practices, Data Structures, Fundamentals, Object Oriented and Standard Library, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for standard library. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for standard library. The Standard Library section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Standard Library
 
@@ -32,7 +32,7 @@ This section provides study materials and resources for standard library. Browse
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If Standard Library feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

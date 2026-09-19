@@ -149,7 +149,7 @@ Polymers are everywhere: clothing, packaging, electronics, medical devices, and 
 
 ## Cross-References
 
-- **[Biomolecules](../biomolecules/index):** Natural polymers (proteins, cellulose, DNA) are the biological counterparts of synthetic polymers, both use condensation or addition mechanisms.
-- **[Surface Chemistry](../surface-chemistry/index):** Polymer surfaces interact with adsorbates, and polymer colloids are important in surface chemistry applications.
-- **[Haloalkanes](../haloalkanes/index):** Vinyl chloride (a haloalkane) is the monomer for PVC, connecting organic halide chemistry to polymer synthesis.
-- **[D-Block Elements](../d-block/index):** Ziegler-Natta catalysts (using Ti or Zr compounds) are essential for producing stereoregular polymers like polypropylene.
+- **Biomolecules:** Natural polymers (proteins, cellulose, DNA) are the biological counterparts of synthetic polymers, both use condensation or addition mechanisms.
+- **Surface Chemistry:** Polymer surfaces interact with adsorbates, and polymer colloids are important in surface chemistry applications.
+- **Haloalkanes:** Vinyl chloride (a haloalkane) is the monomer for PVC, connecting organic halide chemistry to polymer synthesis.
+- **D-Block Elements:** Ziegler-Natta catalysts (using Ti or Zr compounds) are essential for producing stereoregular polymers like polypropylene.

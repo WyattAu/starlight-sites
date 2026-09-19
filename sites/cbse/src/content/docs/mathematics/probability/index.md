@@ -210,6 +210,6 @@ Standard deviation: $\sigma = \sqrt{1.92} \approx 1.386$
 
 ## Cross-References
 
-- [Statistics](../relations-functions/index) -- Probability distributions provide the theoretical foundation for statistical inference and hypothesis testing.
-- [Matrices](../matrices/index) -- Transition matrices in Markov chains use matrix multiplication to compute state probabilities.
-- [Calculus](../integrals/index) -- Continuous probability distributions require integration to find probabilities over intervals.
+- Statistics -- Probability distributions provide the theoretical foundation for statistical inference and hypothesis testing.
+- Matrices -- Transition matrices in Markov chains use matrix multiplication to compute state probabilities.
+- Calculus -- Continuous probability distributions require integration to find probabilities over intervals.

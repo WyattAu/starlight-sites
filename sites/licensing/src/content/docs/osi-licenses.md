@@ -408,7 +408,7 @@ linked above.
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for licensing notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.
 
 ## Detailed Explanation
 

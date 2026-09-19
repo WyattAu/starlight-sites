@@ -166,8 +166,8 @@ batch processing. This balances cost and flexibility.
 
 ## Cross-References
 
-- [AWS Solutions Architect](./solutions-architect) - Next level
-- [Cloud Security](../cloud-security) - Security deep dive
+- AWS Solutions Architect - Next level
+- Cloud Security - Security deep dive
 
 
 ## Advanced Content

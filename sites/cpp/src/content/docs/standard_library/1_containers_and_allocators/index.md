@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "1_containers_and_allocators"
-description: "This section provides study materials and resources for 1_containers_and_allocators. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for 1_containers_and_allocators. Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for 1_containers_and_allocators. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for 1_containers_and_allocators. Work through 1_containers_and_allocators alongside the practice problems for Standard Library, then let the diagnostic tests tell you whether it stuck.
 
 # 1_containers_and_allocators
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for 1_containers_and_allocat
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read 1_containers_and_allocators, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

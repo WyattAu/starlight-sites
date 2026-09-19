@@ -120,9 +120,9 @@ The column space of $A$ consists of all vectors $A\mathbf{x}$, while the null sp
 
 ## Cross-References
 
-- **[Abstract Algebra](../../../../../typescript/src/content/docs/index):** Groups, rings, and modules.
-- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Metric spaces and convergence.
-- **[Multivariable Calculus](../../../../../typescript/src/content/docs/index):** Applications of linear algebra in calculus.
+- **Abstract Algebra:** Groups, rings, and modules.
+- **Real Analysis:** Metric spaces and convergence.
+- **Multivariable Calculus:** Applications of linear algebra in calculus.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

@@ -2,156 +2,154 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-This section covers computing concepts, definitions, and applications with worked examples and practice problems.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Algorithms
 
-- [Algorithm Design](https://computer-science.wyattau.com/1-algorithms/algorithm-design/): University Computer Science Algorithm Design notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.
-- [Algorithm Design -- Practice Problems](https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design/): 10 MCQ questions covering divide and conquer, dynamic programming, greedy algorithms, backtracking, and the Master theorem. Select an option to check your
-- [Algorithms](https://computer-science.wyattau.com/1-algorithms/): The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem.
-- [Complexity Theory](https://computer-science.wyattau.com/1-algorithms/complexity-theory/): University Computer Science Complexity Theory notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.
-- [Complexity Theory -- Practice Problems](https://computer-science.wyattau.com/1-algorithms/practice-complexity-theory/): Sorting problems into difficulty bins: Complexity classes are like sorting problems into difficulty bins, P problems are easy (solvable quickly), NP problems
-- [Data Structures](https://computer-science.wyattau.com/1-algorithms/data-structures/): An is a contiguous block of memory storing elements of the same type, accessed b Comprehensive educational content coverage with definitions and practice proble
-- [Data Structures -- Practice Problems](https://computer-science.wyattau.com/1-algorithms/practice-data-structures/): 10 MCQ questions covering hash tables, binary search trees, heaps, tries, B-trees, and amortized analysis. Select an option to check your answer and view
-- [Graph Algorithms](https://computer-science.wyattau.com/1-algorithms/graph-algorithms/): Explores vertices in order of increasing distance from the source. Comprehensive educational content coverage with definitions and practice problems.
-- [University CS Flashcards: Algorithms](https://computer-science.wyattau.com/1-algorithms/flashcards-algorithms/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/1-algorithms/flashcards-algorithms-data.js';
-- [University CS Practice: Algorithms](https://computer-science.wyattau.com/1-algorithms/practice-algorithms/): 10 MCQ questions covering algorithm design paradigms, complexity analysis, divide-and-conquer, dynamic programming, greedy algorithms, and amortized
+- [Algorithm Design](https://computer-science.wyattau.com/1-algorithms/algorithm-design/)
+- [Complexity Theory](https://computer-science.wyattau.com/1-algorithms/complexity-theory/)
+- [Data Structures](https://computer-science.wyattau.com/1-algorithms/data-structures/)
+- [Flashcards Algorithms](https://computer-science.wyattau.com/1-algorithms/flashcards-algorithms/)
+- [Graph Algorithms](https://computer-science.wyattau.com/1-algorithms/graph-algorithms/)
+- [Index](https://computer-science.wyattau.com/1-algorithms/)
+- [Practice Algorithm Design](https://computer-science.wyattau.com/1-algorithms/practice-algorithm-design/)
+- [Practice Algorithms](https://computer-science.wyattau.com/1-algorithms/practice-algorithms/)
+- [Practice Complexity Theory](https://computer-science.wyattau.com/1-algorithms/practice-complexity-theory/)
+- [Practice Data Structures](https://computer-science.wyattau.com/1-algorithms/practice-data-structures/)
 
 ## Discrete-Mathematics
 
-- [Combinatorics](https://computer-science.wyattau.com/1-discrete-mathematics/4_combinatorics/): If task can be done in ways and task in ways, and they cannot both be Done, then Comprehensive educational content coverage with definitions and practice proble
-- [Discrete Mathematics](https://computer-science.wyattau.com/1-discrete-mathematics/): Discrete mathematics provides the mathematical foundations required throughout computer science. Unlike continuous mathematics, which studies quantities
-- [Discrete Mathematics Practice (Interactive)](https://computer-science.wyattau.com/1-discrete-mathematics/9_practice-discrete-mathematics/): 10 auto-graded practice problems at medium to hard difficulty. Select an answer, Comprehensive educational content coverage with definitions and practice proble
-- [Graph Theory](https://computer-science.wyattau.com/1-discrete-mathematics/5_graph-theory/): A consists of a set of vertices and a set of edges Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://computer-science.wyattau.com/1-discrete-mathematics/7_problem-set/): Prove that is a tautology using a truth table. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Proof Techniques](https://computer-science.wyattau.com/1-discrete-mathematics/3_proof-techniques/): To prove : assume Derive by a chain of logical deductions. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Propositional and Predicate Logic](https://computer-science.wyattau.com/1-discrete-mathematics/1_propositional-and-predicate-logic/): A is a statement that is either true or false. Propositional logic deals with Propositions and their combinations using logical connectives.
-- [Recurrence Relations](https://computer-science.wyattau.com/1-discrete-mathematics/6_recurrence-relations/): A defines a sequence by expressing in terms of previous terms. Comprehensive educational content coverage with definitions and practice problems.
-- [Sets, Relations, and Functions](https://computer-science.wyattau.com/1-discrete-mathematics/2_sets-relations-and-functions/): Sets, Relations, and Functions: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [University Computing Flashcards: Discrete Mathematics](https://computer-science.wyattau.com/1-discrete-mathematics/8_flashcards-discrete-mathematics/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/1-discrete-mathematics/8_flashcards-discrete-mathematics-data.js
+- [Combinatorics](https://computer-science.wyattau.com/1-discrete-mathematics/4_combinatorics/)
+- [Flashcards Discrete Mathematics](https://computer-science.wyattau.com/1-discrete-mathematics/8_flashcards-discrete-mathematics/)
+- [Graph Theory](https://computer-science.wyattau.com/1-discrete-mathematics/5_graph-theory/)
+- [Index](https://computer-science.wyattau.com/1-discrete-mathematics/)
+- [Practice Discrete Mathematics](https://computer-science.wyattau.com/1-discrete-mathematics/9_practice-discrete-mathematics/)
+- [Problem Set](https://computer-science.wyattau.com/1-discrete-mathematics/7_problem-set/)
+- [Proof Techniques](https://computer-science.wyattau.com/1-discrete-mathematics/3_proof-techniques/)
+- [Propositional And Predicate Logic](https://computer-science.wyattau.com/1-discrete-mathematics/1_propositional-and-predicate-logic/)
+- [Recurrence Relations](https://computer-science.wyattau.com/1-discrete-mathematics/6_recurrence-relations/)
+- [Sets Relations And Functions](https://computer-science.wyattau.com/1-discrete-mathematics/2_sets-relations-and-functions/)
 
 ## Algorithms-And-Data-Structures
 
-- [Advanced Topics](https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics/): The class of decision problems solvable in polynomial time by a deterministic Tu Comprehensive educational content coverage with definitions and practice proble
-- [Algorithm Analysis](https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_algorithm-analysis/): Algorithm Analysis: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Algorithm Analysis](https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_algorithm_analysis/): Methods for analyzing algorithm efficiency including asymptotic notation, amortized analysis, and space-time trade-offs.
-- [Algorithms (Advanced)](https://computer-science.wyattau.com/2-algorithms-and-data-structures/9_algorithms-advanced/): Algorithms (Advanced): comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Algorithms and Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/): Algorithms and data structures form the core of practical computer science. An algorithm is a step-by-step procedure for solving a problem, while a data
-- [Algorithms and Data Structures -- Practice Problems](https://computer-science.wyattau.com/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/): The art of efficient computation: Algorithm design is like chess strategy, you need to think ahead (plan your approach), recognise patterns (identify the
-- [Algorithms and Data Structures Practice (Interactive)](https://computer-science.wyattau.com/2-algorithms-and-data-structures/11_practice-algorithms-and-data-structures/): UNIVERSITY Computing practice problems: Algorithms and Data Structures Practice (Interactive). Comprehensive study material with definitions, examples,
-- [Data Structures (Advanced)](https://computer-science.wyattau.com/2-algorithms-and-data-structures/8_data-structures-advanced/): A is a self-balancing BST satisfying five invariants: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Dynamic Programming](https://computer-science.wyattau.com/2-algorithms-and-data-structures/5_dynamic-programming/): Dynamic programming (DP) solves problems by: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Fundamental Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/2_fundamental-data-structures/): Contiguous memory, access by index, insertion/deletion (shift required). Comprehensive educational content coverage with definitions and practice problems.
-- [Graph Algorithms](https://computer-science.wyattau.com/2-algorithms-and-data-structures/4_graph-algorithms/): BFS explores the graph level by level from a source vertex. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://computer-science.wyattau.com/2-algorithms-and-data-structures/7_problem-set/): Problem Set: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Sorting Algorithms](https://computer-science.wyattau.com/2-algorithms-and-data-structures/3_sorting-algorithms/): Divide the array in half, recursively sort each half, then merge. Comprehensive educational content coverage with definitions and practice problems.
-- [University Computing Flashcards: Algorithms and Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/2-algorithms-and-data-structures/10_flashcards-algorithms-and-da
+- [Advanced Topics](https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics/)
+- [Algorithm Analysis](https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_algorithm-analysis/)
+- [Algorithm Analysis](https://computer-science.wyattau.com/2-algorithms-and-data-structures/1_algorithm_analysis/)
+- [Algorithms Advanced](https://computer-science.wyattau.com/2-algorithms-and-data-structures/9_algorithms-advanced/)
+- [Data Structures Advanced](https://computer-science.wyattau.com/2-algorithms-and-data-structures/8_data-structures-advanced/)
+- [Dynamic Programming](https://computer-science.wyattau.com/2-algorithms-and-data-structures/5_dynamic-programming/)
+- [Flashcards Algorithms And Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/10_flashcards-algorithms-and-data-structures/)
+- [Fundamental Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/2_fundamental-data-structures/)
+- [Graph Algorithms](https://computer-science.wyattau.com/2-algorithms-and-data-structures/4_graph-algorithms/)
+- [Index](https://computer-science.wyattau.com/2-algorithms-and-data-structures/)
+- [Practice Algorithms And Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/11_practice-algorithms-and-data-structures/)
+- [Practice Algorithms Data Structures](https://computer-science.wyattau.com/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/)
+- [Problem Set](https://computer-science.wyattau.com/2-algorithms-and-data-structures/7_problem-set/)
+- [Sorting Algorithms](https://computer-science.wyattau.com/2-algorithms-and-data-structures/3_sorting-algorithms/)
 
 ## Systems
 
-- [Databases](https://computer-science.wyattau.com/2-systems/databases/): A is a set of tuples over a relation schema where each is an attribute from doma Comprehensive educational content coverage with definitions and practice proble
-- [Databases -- Practice Problems](https://computer-science.wyattau.com/2-systems/practice-databases/): 10 MCQ questions covering SQL queries, normalization (1NF to BCNF), ACID properties, indexing strategies, and query optimization. Select an option to check
-- [Distributed Systems](https://computer-science.wyattau.com/2-systems/distributed-systems/): A distributed system can guarantee at most of the following three properties sim Comprehensive educational content coverage with definitions and practice proble
-- [Distributed Systems -- Practice Problems](https://computer-science.wyattau.com/2-systems/practice-distributed-systems/): 10 MCQ questions covering the CAP theorem, consistency models, Paxos/Raft consensus, replication strategies, fault tolerance, and logical clocks. Select an
-- [Networking](https://computer-science.wyattau.com/2-systems/networking/): Study notes for Networking | Computer Science - Wyatt's Notes with worked examples and practice questions.
-- [Networking -- Practice Problems](https://computer-science.wyattau.com/2-systems/practice-networking/): 10 MCQ questions covering network models, IP addressing, routing protocols, TCP congestion control, DNS, HTTP, and error detection. Select an option to
-- [Operating Systems](https://computer-science.wyattau.com/2-systems/operating-systems/): A is an instance of a program in execution. Each process has its own: Comprehensive educational content coverage with definitions and practice problems.
-- [Operating Systems -- Practice Problems](https://computer-science.wyattau.com/2-systems/practice-operating-systems/): 10 MCQ questions covering CPU scheduling, synchronization, deadlock, memory management, paging, and virtual memory. Select an option to check your answer
-- [Systems](https://computer-science.wyattau.com/2-systems/): Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.
-- [University CS Flashcards: Systems](https://computer-science.wyattau.com/2-systems/flashcards-systems/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/2-systems/flashcards-systems-data.js';
-- [University CS Practice: Systems](https://computer-science.wyattau.com/2-systems/practice-systems/): 10 MCQ questions covering database theory, CAP theorem, consensus protocols, network layers, OS kernel, and virtual memory. Select an option to check your
+- [Databases](https://computer-science.wyattau.com/2-systems/databases/)
+- [Distributed Systems](https://computer-science.wyattau.com/2-systems/distributed-systems/)
+- [Flashcards Systems](https://computer-science.wyattau.com/2-systems/flashcards-systems/)
+- [Index](https://computer-science.wyattau.com/2-systems/)
+- [Networking](https://computer-science.wyattau.com/2-systems/networking/)
+- [Operating Systems](https://computer-science.wyattau.com/2-systems/operating-systems/)
+- [Practice Databases](https://computer-science.wyattau.com/2-systems/practice-databases/)
+- [Practice Distributed Systems](https://computer-science.wyattau.com/2-systems/practice-distributed-systems/)
+- [Practice Networking](https://computer-science.wyattau.com/2-systems/practice-networking/)
+- [Practice Operating Systems](https://computer-science.wyattau.com/2-systems/practice-operating-systems/)
+- [Practice Systems](https://computer-science.wyattau.com/2-systems/practice-systems/)
 
 ## Computer-Networks
 
-- [Application Layer](https://computer-science.wyattau.com/3-computer-networks/6_application-layer/): DNS translates domain names to IP addresses. Hierarchical, distributed database. Comprehensive educational content coverage with definitions and practice proble
-- [Computer Networks](https://computer-science.wyattau.com/3-computer-networks/): Computer networks enable the exchange of data between devices across local and wide areas. The study of networking is organised around layered models, such
-- [Computer Networks (Advanced)](https://computer-science.wyattau.com/3-computer-networks/9_computer-networks-advanced/): Study notes for Computer Networks (Advanced) with worked examples, practice problems, and key concepts for exam preparation.
-- [Computer Networks Practice (Interactive)](https://computer-science.wyattau.com/3-computer-networks/11_practice-computer-networks/): UNIVERSITY Computing practice problems: Computer Networks Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Data Link Layer](https://computer-science.wyattau.com/3-computer-networks/3_data-link-layer/): The data link layer receives a bit stream and divides it into manageable . Comprehensive educational content coverage with definitions and practice problems.
-- [Network Layer](https://computer-science.wyattau.com/3-computer-networks/4_network-layer/): An IPv4 address is a 32-bit number in dotted-decimal: . Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Network Models](https://computer-science.wyattau.com/3-computer-networks/1_network-models/): The model defines seven layers of abstraction for network Communication: Comprehensive educational content coverage with definitions and practice problems.
-- [Network Security](https://computer-science.wyattau.com/3-computer-networks/7_network-security/): uses the same secret key for both encryption and decryption. Both parties Must share the key securely before communication.
-- [Physical Layer](https://computer-science.wyattau.com/3-computer-networks/2_physical-layer/): Twisted pair (UTP, STP), coaxial cable, fibre optic. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Problem Set](https://computer-science.wyattau.com/3-computer-networks/8_problem-set/): 1. A noiseless channel has bandwidth 8000 Hz. What is the maximum data rate with 16 signal levels? With 256 signal levels?
-- [Transport Layer](https://computer-science.wyattau.com/3-computer-networks/5_transport-layer/): Transport Layer: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [University Computing Flashcards: Computer Networks](https://computer-science.wyattau.com/3-computer-networks/10_flashcards-computer-networks/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/3-computer-networks/10_flashcards-computer-networks-data.js';
+- [Application Layer](https://computer-science.wyattau.com/3-computer-networks/6_application-layer/)
+- [Computer Networks Advanced](https://computer-science.wyattau.com/3-computer-networks/9_computer-networks-advanced/)
+- [Data Link Layer](https://computer-science.wyattau.com/3-computer-networks/3_data-link-layer/)
+- [Flashcards Computer Networks](https://computer-science.wyattau.com/3-computer-networks/10_flashcards-computer-networks/)
+- [Index](https://computer-science.wyattau.com/3-computer-networks/)
+- [Network Layer](https://computer-science.wyattau.com/3-computer-networks/4_network-layer/)
+- [Network Models](https://computer-science.wyattau.com/3-computer-networks/1_network-models/)
+- [Network Security](https://computer-science.wyattau.com/3-computer-networks/7_network-security/)
+- [Physical Layer](https://computer-science.wyattau.com/3-computer-networks/2_physical-layer/)
+- [Practice Computer Networks](https://computer-science.wyattau.com/3-computer-networks/11_practice-computer-networks/)
+- [Problem Set](https://computer-science.wyattau.com/3-computer-networks/8_problem-set/)
+- [Transport Layer](https://computer-science.wyattau.com/3-computer-networks/5_transport-layer/)
 
 ## Theory
 
-- [Automata and Formal Languages](https://computer-science.wyattau.com/3-theory/automata-and-formal-languages/): University Computer Science Automata and Formal Languages notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Automata and Formal Languages -- Practice Problems](https://computer-science.wyattau.com/3-theory/practice-automata/): 10 MCQ questions covering finite automata, regular expressions, pumping lemma, context-free grammars, pushdown automata, and Turing machines. Select an
-- [Compilers](https://computer-science.wyattau.com/3-theory/compilers/): Source Code → Lexical Analysis (tokens) → Syntax Analysis (parse tree) → Semantic Analysis (annotated tree) → Intermediate Representation (IR) → Code
-- [Compilers -- Practice Problems](https://computer-science.wyattau.com/3-theory/practice-compilers/): 10 MCQ questions covering lexical analysis, parsing (LL and LR), abstract syntax trees, intermediate representations, optimization, and code generation.
-- [Cryptography](https://computer-science.wyattau.com/3-theory/cryptography/): University Computer Science Cryptography notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
-- [Cryptography -- Practice Problems](https://computer-science.wyattau.com/3-theory/practice-cryptography/): 10 MCQ questions covering symmetric/asymmetric encryption, AES, RSA, hash functions, digital signatures, key exchange, and post-quantum cryptography. Select
-- [Machine Learning -- Practice Problems](https://computer-science.wyattau.com/3-theory/practice-machine-learning/): 10 MCQ questions covering linear/logistic regression, decision trees, neural networks, loss functions, regularization, bias-variance tradeoff, and
-- [Machine Learning Fundamentals](https://computer-science.wyattau.com/3-theory/machine-learning-fundamentals/): Given features , predict a continuous target : Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Theory | Computer Science - Wyatt's Notes](https://computer-science.wyattau.com/3-theory/): Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how
-- [University CS Flashcards: Theory of Computation](https://computer-science.wyattau.com/3-theory/flashcards-theory/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computer-science/3-theory/flashcards-theory-data.js';
-- [University CS Practice: Theory](https://computer-science.wyattau.com/3-theory/practice-theory/): 10 MCQ questions covering automata theory, compiler phases, cryptography, and machine learning fundamentals. Select an option to check your answer and view
+- [Automata And Formal Languages](https://computer-science.wyattau.com/3-theory/automata-and-formal-languages/)
+- [Compilers](https://computer-science.wyattau.com/3-theory/compilers/)
+- [Cryptography](https://computer-science.wyattau.com/3-theory/cryptography/)
+- [Flashcards Theory](https://computer-science.wyattau.com/3-theory/flashcards-theory/)
+- [Index](https://computer-science.wyattau.com/3-theory/)
+- [Machine Learning Fundamentals](https://computer-science.wyattau.com/3-theory/machine-learning-fundamentals/)
+- [Practice Automata](https://computer-science.wyattau.com/3-theory/practice-automata/)
+- [Practice Compilers](https://computer-science.wyattau.com/3-theory/practice-compilers/)
+- [Practice Cryptography](https://computer-science.wyattau.com/3-theory/practice-cryptography/)
+- [Practice Machine Learning](https://computer-science.wyattau.com/3-theory/practice-machine-learning/)
+- [Practice Theory](https://computer-science.wyattau.com/3-theory/practice-theory/)
 
 ## Databases
 
-- [Database Systems](https://computer-science.wyattau.com/4-databases/): Topics in database systems including the relational model, SQL, normalisation, indexing, transactions, and distributed databases.
-- [Database Systems (Advanced)](https://computer-science.wyattau.com/4-databases/12_databases-advanced/): Beyond the basic operations (selection, projection, join, etc.), extended relati Comprehensive educational content coverage with definitions and practice proble
-- [Databases Practice (Interactive)](https://computer-science.wyattau.com/4-databases/14_practice-databases/): UNIVERSITY Computing practice problems: Databases Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Distributed Databases](https://computer-science.wyattau.com/4-databases/9_distributed-databases/): A stores data across multiple nodes connected by a network. Motivations Include: Comprehensive educational content coverage with definitions and practice proble
-- [Further Reading](https://computer-science.wyattau.com/4-databases/11_further-reading/): - Silberschatz, Korth, Sudarshan: _Database System Concepts_ (7th ed.). - Ramakrishnan, Gehrke: _Database Management Systems_ (3rd ed.). - Elmasri, Navathe:
-- [Indexing](https://computer-science.wyattau.com/4-databases/5_indexing/): A balanced search tree where each internal node has between Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Introduction to Database Systems](https://computer-science.wyattau.com/4-databases/1_introduction-to-database-systems/): A is an organised collection of structured data, managed by a . A DBMS provides: Comprehensive educational content coverage with definitions and practice proble
-- [Normalisation](https://computer-science.wyattau.com/4-databases/4_normalisation/): A holds on relation if for any two tuples in Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [NoSQL Overview](https://computer-science.wyattau.com/4-databases/8_nosql-overview/): NoSQL databases address limitations of relational databases for certain workload Comprehensive educational content coverage with definitions and practice proble
-- [Problem Set](https://computer-science.wyattau.com/4-databases/10_problem-set/): UNIVERSITY Computing notes: Problem Set. Comprehensive study material with defin Comprehensive A-Level problem set revision notes with definitions and examples.
-- [Query Optimisation](https://computer-science.wyattau.com/4-databases/7_query-optimisation/): The optimiser estimates the cost of alternative execution plans and chooses the  Comprehensive educational content coverage with definitions and practice proble
-- [Relational Model](https://computer-science.wyattau.com/4-databases/2_relational-model/): A over attributes is a set of tuples where Each is drawn from the domain of . A  Comprehensive educational content coverage with definitions and practice proble
-- [SQL | Computer Science - Wyatt's Notes](https://computer-science.wyattau.com/4-databases/3_sql/): CREATE TABLE Student ( ID INT PRIMARY KEY, Name VARCHAR(100) NOT NULL, Email VARCHAR(255) UNIQUE, GPA DECIMAL(3,2) CHECK (GPA >= 0.0 AND GPA <= 4.0), Dept
-- [Transaction Management](https://computer-science.wyattau.com/4-databases/6_transaction-management/): A is a logical unit of work that must satisfy: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [University Computing Flashcards: Databases](https://computer-science.wyattau.com/4-databases/13_flashcards-databases/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/4-databases/13_flashcards-databases-data.js';
+- [Databases Advanced](https://computer-science.wyattau.com/4-databases/12_databases-advanced/)
+- [Distributed Databases](https://computer-science.wyattau.com/4-databases/9_distributed-databases/)
+- [Flashcards Databases](https://computer-science.wyattau.com/4-databases/13_flashcards-databases/)
+- [Further Reading](https://computer-science.wyattau.com/4-databases/11_further-reading/)
+- [Index](https://computer-science.wyattau.com/4-databases/)
+- [Indexing](https://computer-science.wyattau.com/4-databases/5_indexing/)
+- [Introduction To Database Systems](https://computer-science.wyattau.com/4-databases/1_introduction-to-database-systems/)
+- [Normalisation](https://computer-science.wyattau.com/4-databases/4_normalisation/)
+- [Nosql Overview](https://computer-science.wyattau.com/4-databases/8_nosql-overview/)
+- [Practice Databases](https://computer-science.wyattau.com/4-databases/14_practice-databases/)
+- [Problem Set](https://computer-science.wyattau.com/4-databases/10_problem-set/)
+- [Query Optimisation](https://computer-science.wyattau.com/4-databases/7_query-optimisation/)
+- [Relational Model](https://computer-science.wyattau.com/4-databases/2_relational-model/)
+- [Sql](https://computer-science.wyattau.com/4-databases/3_sql/)
+- [Transaction Management](https://computer-science.wyattau.com/4-databases/6_transaction-management/)
 
 ## Operating-Systems
 
-- [Deadlocks](https://computer-science.wyattau.com/5-operating-systems/4_deadlocks/): A is a situation where a set of processes are all blocked, each waiting for a resource Held by another process in the set.
-- [File Systems](https://computer-science.wyattau.com/5-operating-systems/6_file-systems/): A is a named collection of related data on secondary storage. Comprehensive educational content coverage with definitions and practice problems.
-- [I/O Systems](https://computer-science.wyattau.com/5-operating-systems/7_i-o-systems/): Study notes for I/O Systems | Computer Science with worked examples and practice questions.
-- [Introduction to Operating Systems](https://computer-science.wyattau.com/5-operating-systems/1_introduction-to-operating-systems/): An operating system (OS) is system software that manages hardware resources and provides services To application programs. It serves as an intermediary
-- [Memory Management](https://computer-science.wyattau.com/5-operating-systems/5_memory-management/): Memory divided into fixed-size partitions at boot. Internal fragmentation. Comprehensive educational content coverage with definitions and practice problems.
-- [Operating Systems](https://computer-science.wyattau.com/5-operating-systems/): Topics in operating systems including process management, synchronisation, memory management, file systems, and virtualization.
-- [Operating Systems (Advanced)](https://computer-science.wyattau.com/5-operating-systems/11_operating-systems-advanced/): The system call creates a new process by duplicating the calling process. The new process (child) is an exact copy of the parent, except for its PID, PPID,
-- [Operating Systems Practice (Interactive)](https://computer-science.wyattau.com/5-operating-systems/13_practice-operating-systems/): UNIVERSITY Computing practice problems: Operating Systems Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Problem Set](https://computer-science.wyattau.com/5-operating-systems/10_problem-set/): List all possible state transitions for a process and identify which transition requires the Scheduler, which requires an I/O event, and which is initiated
-- [Process Management](https://computer-science.wyattau.com/5-operating-systems/2_process-management/): A is an instance of a program in execution. The OS maintains a for each process: Comprehensive educational content coverage with definitions and practice proble
-- [Security](https://computer-science.wyattau.com/5-operating-systems/9_security/): Each object (file, directory, device) has an associated list of Entries specifying which subjects (users, groups) have which permissions (read, write, execute).
-- [Synchronisation](https://computer-science.wyattau.com/5-operating-systems/3_synchronisation/): Consider processes sharing a resource. The is the code segment accessing the Res Comprehensive educational content coverage with definitions and practice proble
-- [University Computing Flashcards: Operating Systems](https://computer-science.wyattau.com/5-operating-systems/12_flashcards-operating-systems/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/5-operating-systems/12_flashcards-operating-systems-data.js';
-- [Virtualization](https://computer-science.wyattau.com/5-operating-systems/8_virtualization/): Runs directly on hardware. Examples: VMware ESXi, Xen, Hyper-V. Comprehensive educational content coverage with definitions and practice problems.
+- [Deadlocks](https://computer-science.wyattau.com/5-operating-systems/4_deadlocks/)
+- [File Systems](https://computer-science.wyattau.com/5-operating-systems/6_file-systems/)
+- [Flashcards Operating Systems](https://computer-science.wyattau.com/5-operating-systems/12_flashcards-operating-systems/)
+- [I O Systems](https://computer-science.wyattau.com/5-operating-systems/7_i-o-systems/)
+- [Index](https://computer-science.wyattau.com/5-operating-systems/)
+- [Introduction To Operating Systems](https://computer-science.wyattau.com/5-operating-systems/1_introduction-to-operating-systems/)
+- [Memory Management](https://computer-science.wyattau.com/5-operating-systems/5_memory-management/)
+- [Operating Systems Advanced](https://computer-science.wyattau.com/5-operating-systems/11_operating-systems-advanced/)
+- [Practice Operating Systems](https://computer-science.wyattau.com/5-operating-systems/13_practice-operating-systems/)
+- [Problem Set](https://computer-science.wyattau.com/5-operating-systems/10_problem-set/)
+- [Process Management](https://computer-science.wyattau.com/5-operating-systems/2_process-management/)
+- [Security](https://computer-science.wyattau.com/5-operating-systems/9_security/)
+- [Synchronisation](https://computer-science.wyattau.com/5-operating-systems/3_synchronisation/)
+- [Virtualization](https://computer-science.wyattau.com/5-operating-systems/8_virtualization/)
 
 ## Theory-Of-Computation
 
-- [Complexity Theory](https://computer-science.wyattau.com/6-theory-of-computation/6_complexity-theory/): The of a deterministic TM on input is the number of steps takes before Halting.  Comprehensive educational content coverage with definitions and practice proble
-- [Context-Free Languages](https://computer-science.wyattau.com/6-theory-of-computation/3_context-free-languages/): Context-Free Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Decidability](https://computer-science.wyattau.com/6-theory-of-computation/5_decidability/): Decidability: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Introduction](https://computer-science.wyattau.com/6-theory-of-computation/1_introduction/): The theory of computation provides the mathematical foundations for computer science. It answers Fundamental questions: What can be computed? What cannot?
-- [Problem Set](https://computer-science.wyattau.com/6-theory-of-computation/7_problem-set/): Construct a DFA over that accepts exactly those strings whose Length is a multip Comprehensive educational content coverage with definitions and practice proble
-- [Regular Languages](https://computer-science.wyattau.com/6-theory-of-computation/2_regular-languages/): Regular Languages: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Theory of Computation](https://computer-science.wyattau.com/6-theory-of-computation/): Topics in the theory of computation including automata, formal languages, Turing machines, and computational complexity.
-- [Theory of Computation Practice (Interactive)](https://computer-science.wyattau.com/6-theory-of-computation/9_practice-theory-of-computation/): UNIVERSITY Computing practice problems: Theory of Computation Practice (Interactive). Comprehensive study material with definitions, examples, and assessment
-- [Turing Machines](https://computer-science.wyattau.com/6-theory-of-computation/4_turing-machines/): Turing Machines: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [University Computing Flashcards: Theory of Computation](https://computer-science.wyattau.com/6-theory-of-computation/8_flashcards-theory-of-computation/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/computing/6-theory-of-computation/8_flashcards-theory-of-computation-data.
+- [Complexity Theory](https://computer-science.wyattau.com/6-theory-of-computation/6_complexity-theory/)
+- [Context Free Languages](https://computer-science.wyattau.com/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](https://computer-science.wyattau.com/6-theory-of-computation/5_decidability/)
+- [Flashcards Theory Of Computation](https://computer-science.wyattau.com/6-theory-of-computation/8_flashcards-theory-of-computation/)
+- [Index](https://computer-science.wyattau.com/6-theory-of-computation/)
+- [Introduction](https://computer-science.wyattau.com/6-theory-of-computation/1_introduction/)
+- [Practice Theory Of Computation](https://computer-science.wyattau.com/6-theory-of-computation/9_practice-theory-of-computation/)
+- [Problem Set](https://computer-science.wyattau.com/6-theory-of-computation/7_problem-set/)
+- [Regular Languages](https://computer-science.wyattau.com/6-theory-of-computation/2_regular-languages/)
+- [Turing Machines](https://computer-science.wyattau.com/6-theory-of-computation/4_turing-machines/)
 
 ## Overview
 
-- [About This Site](https://computer-science.wyattau.com/about/): About Wyatt's Notes Computer Science resources, experience, expertise, and credentials behind computer science theory study materials.
-- [Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures/): Algorithms and Data Structures: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Complete Computer Science Study Guide](https://computer-science.wyattau.com/hub/): Study notes for Complete Computer Science Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Computer Networks](https://computer-science.wyattau.com/computer-networks/): UNIVERSITY Computing notes: Computer Networks. Comprehensive study material with definitions, examples, and assessment tools.
-- [Computer science](https://computer-science.wyattau.com/intro/): Study notes for Computer science with worked examples, practice problems, and key concepts for exam preparation.
-- [Computer Science Glossary, Key Terms and Definitions](https://computer-science.wyattau.com/glossary/): Abstract Data Type (ADT): A theoretical model of a data type defined by its behavior (operations and semantics) without implementation details. Examples:
-- [Computer Science Practice Test, 30 Problems](https://computer-science.wyattau.com/practice-test-mega/): 30 computer science problems covering Algorithms, Data Structures, Theory of Computation, and Databases. Multiple choice and coding problems with detailed explanations.
-- [Computing](https://computer-science.wyattau.com/): This section covers computing concepts, definitions, and applications with worked examples and practice problems.
-- [Database Systems](https://computer-science.wyattau.com/databases/): UNIVERSITY Computing notes: Database Systems. Comprehensive study material with definitions, examples, and assessment tools.
-- [Discrete Mathematics](https://computer-science.wyattau.com/discrete-mathematics/): UNIVERSITY Computing notes: Discrete Mathematics. Comprehensive study material with definitions, examples, and assessment tools.
-- [Discrete Mathematics: Practice Problems](https://computer-science.wyattau.com/practice-discrete-math/): 12 practice problems covering propositional logic, set theory, functions, graph theory, and algorithm analysis. These problems test understanding of
-- [Operating Systems](https://computer-science.wyattau.com/operating-systems/): UNIVERSITY Computing notes: Operating Systems. Comprehensive study material with definitions, examples, and assessment tools.
-- [Theory of Computation](https://computer-science.wyattau.com/theory-of-computation/): UNIVERSITY Computing notes: Theory of Computation. Comprehensive study material with definitions, examples, and assessment tools.
+- [About](https://computer-science.wyattau.com/about/)
+- [Algorithms And Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures/)
+- [Computer Networks](https://computer-science.wyattau.com/computer-networks/)
+- [Databases](https://computer-science.wyattau.com/databases/)
+- [Discrete Mathematics](https://computer-science.wyattau.com/discrete-mathematics/)
+- [Glossary](https://computer-science.wyattau.com/glossary/)
+- [Hub](https://computer-science.wyattau.com/hub/)
+- [Index](https://computer-science.wyattau.com/)
+- [Intro](https://computer-science.wyattau.com/intro/)
+- [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
+- [Practice Discrete Math](https://computer-science.wyattau.com/practice-discrete-math/)
+- [Practice Test Mega](https://computer-science.wyattau.com/practice-test-mega/)
+- [Theory Of Computation](https://computer-science.wyattau.com/theory-of-computation/)

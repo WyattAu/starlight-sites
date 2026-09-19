@@ -152,14 +152,14 @@ IB Physics covers space, time and motion; the particulate nature of matter; wave
 
 ### Topic Notes
 
-- [Space, Time and Motion](physics/1-space-time-and-motion/index), kinematics, dynamics, energy, and momentum
+- Space, Time and Motion, kinematics, dynamics, energy, and momentum
 - [Forces and Momentum](/physics/1-space-time-and-motion/5_forces-and-momentum/)
 - [Rotational Motion](/physics/1-space-time-and-motion/4_rotational-motion/), torque, angular momentum, and rotational energy
-- [Particulate Nature of Matter](physics/2-particulate-nature-of-matter/index), thermal physics and ideal gases
-- [Wave Behaviour](physics/3-wave-behaviour/index), wave properties, interference, and diffraction
-- [Fields](physics/4-fields/index), gravitational, electric, and magnetic fields
+- Particulate Nature of Matter, thermal physics and ideal gases
+- Wave Behaviour, wave properties, interference, and diffraction
+- Fields, gravitational, electric, and magnetic fields
 - [Motion in Electromagnetic Fields](/physics/4-fields/3_motion-in-electromagnetic-fields/)
-- [Nuclear and Quantum Physics](physics/5-nuclear-and-quantum-physics/index), photoelectric effect, atomic models, and nuclear reactions
+- Nuclear and Quantum Physics, photoelectric effect, atomic models, and nuclear reactions
 
 ### Practice and Review
 
@@ -185,12 +185,12 @@ IB Mathematics covers number and algebra, functions, geometry and trigonometry, 
 
 ### Topic Notes
 
-- [Number and Algebra](zh/index)
-- [Functions](zh/index)
-- [Geometry and Trigonometry](zh/index)
-- [Statistics and Probability](zh/index)
-- [Calculus](maths/5-calculus/index)
-- [Discrete Mathematics](zh/index)
+- Number and Algebra
+- Functions
+- Geometry and Trigonometry
+- Statistics and Probability
+- Calculus
+- Discrete Mathematics
 - [Analysis and Approaches Question Bank](/mathematics/analysis-and-approaches-question-bank/)
 
 ### Practice and Review
@@ -264,11 +264,11 @@ IB Geography covers climate change and hazards, freshwater issues, population di
 
 ### Topic Notes
 
-- [Climate Change and Hazards](zh/index), climate systems, global warming, and natural hazards
-- [Freshwater Issues](zh/index), water resources, drainage basins, and water management
-- [Population Distribution](zh/index), demographics, migration, and population policies
-- [Urban Environments](zh/index), urbanisation, land use, and sustainable cities
-- [Economic Development](zh/index), development indicators, industrialisation, and inequality
+- Climate Change and Hazards, climate systems, global warming, and natural hazards
+- Freshwater Issues, water resources, drainage basins, and water management
+- Population Distribution, demographics, migration, and population policies
+- Urban Environments, urbanisation, land use, and sustainable cities
+- Economic Development, development indicators, industrialisation, and inequality
 
 ### Practice and Review
 
@@ -291,8 +291,8 @@ IB History examines the Cold War, authoritarian states, and comparative studies.
 
 ### Topic Notes
 
-- [Comparative Studies](zh/index), comparing regimes, movements, and events
-- [Diagnostics](history/diagnostics)
+- Comparative Studies, comparing regimes, movements, and events
+- Diagnostics
 
 ### Practice and Review
 
@@ -306,7 +306,7 @@ IB English covers language and literature analysis, including poetry, prose, and
 
 ### Topic Notes
 
-- [Comparative Studies](english/comparitives/index), comparative analysis of texts
+- Comparative Studies, comparative analysis of texts
 - [Diagnostics](/english/diagnostics/)
 
 ### Practice and Review
@@ -322,11 +322,11 @@ IB Psychology covers biological, cognitive, developmental, social, and abnormal 
 
 ### Topic Notes
 
-- [Biological Psychology](psychology/biological/index), neuroscience, genetics, and behaviour
-- [Cognitive Psychology](zh/index), memory, thinking, and decision-making
-- [Developmental Psychology](zh/index), attachment, Piaget, and Vygotsky
-- [Social Psychology](psychology/sociocultural/index), conformity, obedience, and group behaviour
-- [Abnormal Psychology](zh/index), psychological disorders and treatment
+- Biological Psychology, neuroscience, genetics, and behaviour
+- Cognitive Psychology, memory, thinking, and decision-making
+- Developmental Psychology, attachment, Piaget, and Vygotsky
+- Social Psychology, conformity, obedience, and group behaviour
+- Abnormal Psychology, psychological disorders and treatment
 
 ### Practice and Review
 

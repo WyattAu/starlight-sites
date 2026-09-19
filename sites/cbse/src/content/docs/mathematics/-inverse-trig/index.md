@@ -240,6 +240,6 @@ The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for convertin
 
 ## Cross-References
 
-- [Trigonometry](../relations-functions/index) -- Inverse trigonometric functions are defined as inverses of restricted trigonometric functions, requiring understanding of domain restrictions.
-- [Matrices](../matrices/index) -- Rotation matrices use trigonometric functions, and their inverses connect to inverse trigonometric representations.
-- [Calculus](../derivatives/index) -- Differentiation and integration of inverse trigonometric functions are key applications in calculus.
+- Trigonometry -- Inverse trigonometric functions are defined as inverses of restricted trigonometric functions, requiring understanding of domain restrictions.
+- Matrices -- Rotation matrices use trigonometric functions, and their inverses connect to inverse trigonometric representations.
+- Calculus -- Differentiation and integration of inverse trigonometric functions are key applications in calculus.

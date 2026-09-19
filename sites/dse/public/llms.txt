@@ -2,253 +2,251 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-HKDSE revision notes for physics, chemistry, biology, maths, economics, and ICT with worked examples aligned to the HKEAA curriculum.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://dse.wyattau.com/about/): About Wyatt's Notes DSE preparation resources, experience, expertise, and credentials behind the Hong Kong DSE exam materials.
-- [Complete DSE Study Guide, Everything You Need to Pass](https://dse.wyattau.com/hub/): Study notes for Complete DSE Study Guide, Everything You Need to Pass with worked examples, practice problems, and key concepts for exam preparation.
-- [DSE Exam Glossary, Key Terms Across All Subjects](https://dse.wyattau.com/glossary/): Compulsory Module: A module that all candidates must take as part of a subject. Forms the foundation of the subject curriculum.
-- [DSE Notes](https://dse.wyattau.com/): HKDSE revision notes for physics, chemistry, biology, maths, economics, and ICT with worked examples aligned to the HKEAA curriculum.
-- [DSE Practice Test, 50 Questions Across All Subjects](https://dse.wyattau.com/practice-test-mega/): 50 exam-style DSE practice questions covering Biology, Chemistry, Physics, Maths, and Economics. Multiple choice with detailed explanations, difficulty ratings, and a hidden answer key.
+- [About](https://dse.wyattau.com/about/)
+- [Glossary](https://dse.wyattau.com/glossary/)
+- [Hub](https://dse.wyattau.com/hub/)
+- [Index](https://dse.wyattau.com/)
+- [Practice Test Mega](https://dse.wyattau.com/practice-test-mega/)
 
 ## Biology
 
-- [Biodiversity and Conservation](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/): Study notes for Biodiversity and Conservation with worked examples, practice problems, and key concepts for exam preparation.
-- [Biodiversity and Conservation -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation/): DSE Biology Biodiversity and Conservation -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Biology - Cell Biology](https://dse.wyattau.com/biology/cell-biology/): DSE Biology - Cell Biology notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
-- [Biology - Cell Biology and Biochemistry](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/): 1. All living organisms are composed of one or more cells 2. The cell is the basic unit of structure and function in all living organisms 3. All cells arise
-- [Cell Biology](https://dse.wyattau.com/biology/1-cell-biology/): This section covers cell biology concepts, definitions, and applications with worked examples and practice problems.
-- [Cell Biology and Biochemistry -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry/): DSE Cell Biology and Biochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.
-- [Diagnostics](https://dse.wyattau.com/biology/diagnostics/): Diagnostic test notes for dse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE Biology](https://dse.wyattau.com/biology/): DSE Biology notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision and examination preparation.
-- [DSE Biology Diagnostic Tests -- Guide](https://dse.wyattau.com/biology/diagnostics/diagnostic-guide/): These diagnostic tests target the questions within the HKDSE Biology specification. Each test is designed to expose deep misconceptions that separate
-- [DSE Biology Flashcards: Cell Biology](https://dse.wyattau.com/biology/flashcards-cell-biology/): DSE Biology Flashcards: Cell Biology: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [DSE Biology Practice: Cell Biology](https://dse.wyattau.com/biology/practice-cell-biology/): 18 MCQ practice problems on cell biology. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover
-- [Ecology](https://dse.wyattau.com/biology/2-ecology/): This section covers ecology concepts, definitions, and applications with worked examples and practice problems.
-- [Evolution](https://dse.wyattau.com/biology/6-evolution/1_evolution/): The is the total collection of all the alleles of all the genes in a population at a given time. Population genetics studies the composition of the gene
-- [Evolution](https://dse.wyattau.com/biology/6-evolution/): This section covers evolution concepts, definitions, and applications with worked examples and practice problems.
-- [Evolution and Ecology](https://dse.wyattau.com/biology/2-ecology/1_ecology/): Evolution is the cumulative change in the heritable characteristics of a population Over successive generations, driven by mechanisms such as natural
-- [Evolution and Ecology -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology/): DSE Biology Evolution and Ecology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.
-- [Genetics](https://dse.wyattau.com/biology/3-genetics/1_genetics/): Before proceeding, the following terms must be understood precisely. Ambiguity in terminology is the Single most common source of lost marks in DSE genetics
-- [Genetics](https://dse.wyattau.com/biology/3-genetics/): This section covers genetics concepts, definitions, and applications with worked examples and practice problems.
-- [Genetics -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-genetics/): DSE Biology Genetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.
-- [Homeostasis](https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis/): Homeostasis is the maintenance of a constant internal environment despite changes in the external environment. It is essential for the proper functioning of
-- [Human Physiology](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/): Study notes for Human Physiology with worked examples, practice problems, and key concepts for exam preparation.
-- [Human Physiology](https://dse.wyattau.com/biology/4-human-physiology/): This section covers human physiology concepts, definitions, and applications with worked examples and practice problems.
-- [Human Physiology -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-human-physiology/): DSE Biology Human Physiology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Human Reproduction and Homeostasis](https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis/): Study notes for Human Reproduction and Homeostasis with worked examples and practice questions.
-- [Human Reproduction and Homeostasis -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis/): DSE Biology Human Reproduction and Homeostasis -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Immunology](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology/): A pathogen is any organism or agent that can cause disease. The DSE specification requires knowledge of four main types of pathogen.
-- [Microorganisms and Biotechnology](https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology/): Microorganisms are organisms that are too small to be seen with the naked eye. They are Found in all three domains of life and include bacteria, fungi, and
-- [Microorganisms and Biotechnology -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology/): DSE Biology Microorganisms and Biotechnology -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Nervous System](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/): Neurons (nerve cells) are the fundamental functional units of the nervous system. They are specialised for transmitting electrical impulses (action
-- [Nervous System And Immunology](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/): This section covers nervous system and immunology concepts, definitions, and applications with worked examples and practice problems.
-- [Plant Biology](https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology/): Photosynthesis is the process by which photoautotrophs (plants, algae, cyanobacteria) convert light Energy into chemical energy stored in organic molecules.
-- [Plant Biology](https://dse.wyattau.com/biology/5-plant-biology/): This section covers plant biology concepts, definitions, and applications with worked examples and practice problems.
-- [Plant Biology -- Diagnostic Tests](https://dse.wyattau.com/biology/diagnostics/diag-plant-biology/): DSE Plant Biology -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
+- [Biodiversity And Conservation](https://dse.wyattau.com/biology/2-ecology/2_biodiversity-and-conservation/)
+- [Cell Biology](https://dse.wyattau.com/biology/cell-biology/)
+- [Cell Biology And Biochemistry](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/)
+- [Diag Biodiversity Conservation](https://dse.wyattau.com/biology/diagnostics/diag-biodiversity-conservation/)
+- [Diag Cell Biology Biochemistry](https://dse.wyattau.com/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [Diag Evolution Ecology](https://dse.wyattau.com/biology/diagnostics/diag-evolution-ecology/)
+- [Diag Genetics](https://dse.wyattau.com/biology/diagnostics/diag-genetics/)
+- [Diag Human Physiology](https://dse.wyattau.com/biology/diagnostics/diag-human-physiology/)
+- [Diag Human Reproduction Homeostasis](https://dse.wyattau.com/biology/diagnostics/diag-human-reproduction-homeostasis/)
+- [Diag Microorganisms Biotechnology](https://dse.wyattau.com/biology/diagnostics/diag-microorganisms-biotechnology/)
+- [Diag Plant Biology](https://dse.wyattau.com/biology/diagnostics/diag-plant-biology/)
+- [Diagnostic Guide](https://dse.wyattau.com/biology/diagnostics/diagnostic-guide/)
+- [Ecology](https://dse.wyattau.com/biology/2-ecology/1_ecology/)
+- [Evolution](https://dse.wyattau.com/biology/6-evolution/1_evolution/)
+- [Flashcards Cell Biology](https://dse.wyattau.com/biology/flashcards-cell-biology/)
+- [Genetics](https://dse.wyattau.com/biology/3-genetics/1_genetics/)
+- [Homeostasis](https://dse.wyattau.com/biology/4-human-physiology/3_homeostasis/)
+- [Human Physiology](https://dse.wyattau.com/biology/4-human-physiology/1_human-physiology/)
+- [Human Reproduction And Homeostasis](https://dse.wyattau.com/biology/4-human-physiology/2_human-reproduction-and-homeostasis/)
+- [Immunology](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/2_immunology/)
+- [Index](https://dse.wyattau.com/biology/1-cell-biology/)
+- [Index](https://dse.wyattau.com/biology/2-ecology/)
+- [Index](https://dse.wyattau.com/biology/3-genetics/)
+- [Index](https://dse.wyattau.com/biology/4-human-physiology/)
+- [Index](https://dse.wyattau.com/biology/5-plant-biology/)
+- [Index](https://dse.wyattau.com/biology/6-evolution/)
+- [Index](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/)
+- [Index](https://dse.wyattau.com/biology/diagnostics/)
+- [Index](https://dse.wyattau.com/biology/)
+- [Microorganisms And Biotechnology](https://dse.wyattau.com/biology/5-plant-biology/2_microorganisms-and-biotechnology/)
+- [Nervous System](https://dse.wyattau.com/biology/7-nervous-system-and-immunology/1_nervous-system/)
+- [Plant Biology](https://dse.wyattau.com/biology/5-plant-biology/1_plant-biology/)
+- [Practice Cell Biology](https://dse.wyattau.com/biology/practice-cell-biology/)
 
 ## Chemistry
 
-- [Acids Bases](https://dse.wyattau.com/chemistry/5-acids-bases/): This section covers acids bases concepts, definitions, and applications with worked examples and practice problems.
-- [Acids, Bases and Salts -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases/): DSE Chemistry Acids, Bases and Salts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Atomic Structure -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure/): DSE Chemistry Atomic Structure -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Atomic Structure And Bonding](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/): This section covers atomic structure and bonding concepts, definitions, and applications with worked examples and practice problems.
-- [Bonding -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-bonding/): DSE Chemistry Bonding -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.
-- [Carbon Chemistry -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry/): DSE Carbon Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for systematic revision.
-- [Chemical Equilibrium -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium/): DSE Chemistry Chemical Equilibrium -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Chemical Kinetics -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics/): DSE Chemistry Chemical Kinetics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Chemical Kinetics And Energetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/): This section covers chemical kinetics and energetics concepts, definitions, and applications with worked examples and practice problems.
-- [Chemistry - Acids, Bases, and Electrochemistry](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/): Study notes for Chemistry - Acids, Bases, and Electrochemistry with worked examples, practice problems, and key concepts for exam preparation.
-- [Chemistry - Atomic Structure and Bonding](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/): Study notes for Chemistry - Atomic Structure and Bonding with worked examples and practice questions.
-- [Chemistry - Atomic Structure and Bonding](https://dse.wyattau.com/chemistry/atomic-structure-and-bonding/): Particle properties and atomic structure for DSE Chemistry
-- [Chemistry - Carbon Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/): DSE Chemistry - Carbon Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for focused preparation.
-- [Chemistry - Chemical Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/): A reversible reaction is one that can proceed in both the forward and reverse di Comprehensive educational content coverage with definitions and practice proble
-- [Chemistry - Chemical Kinetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/): The rate of reaction measures how fast reactants are consumed or products are fo Comprehensive educational content coverage with definitions and practice proble
-- [Chemistry - Energetics / Thermochemistry](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics/): The heat content of a system at constant pressure. It is a state function. Comprehensive educational content coverage with definitions and practice problems.
-- [Chemistry - Mole Concept and Stoichiometry](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/): The relative atomic mass of an element is the weighted average mass of one atom of the element Relative to the mass of one atom of carbon-12.
-- [Chemistry - Redox and Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/): DSE Chemistry - Redox and Electrochemistry notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.
-- [Diagnostics](https://dse.wyattau.com/chemistry/diagnostics/): Diagnostic test notes for dse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE Chemistry](https://dse.wyattau.com/chemistry/dse-chemistry/): Study notes for DSE Chemistry with worked examples, practice problems, and key concepts for exam preparation.
-- [DSE Chemistry](https://dse.wyattau.com/chemistry/): DSE Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for thorough exam preparation and revision.
-- [DSE Chemistry Diagnostic Tests -- Guide](https://dse.wyattau.com/chemistry/diagnostics/diagnostic-guide/): These diagnostic tests target the questions within the HKDSE Chemistry specification. Each test is designed to expose deep misconceptions that separate
-- [DSE Chemistry Flashcards: Atomic Structure](https://dse.wyattau.com/chemistry/flashcards-atomic-structure/): 20 interactive flashcards. Press Space to flip, rate 1-4. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [DSE Chemistry Practice: Atomic Structure and Bonding](https://dse.wyattau.com/chemistry/practice-atomic-structure/): 18 MCQ practice problems on atomic structure and bonding. Select an answer, submit, and review the explanation. Questions follow the DSE examination style
-- [Electrochemistry -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry/): DSE Electrochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Energetics / Thermochemistry -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-energetics/): DSE Energetics / Thermochemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.
-- [Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/): This section covers equilibrium concepts, definitions, and applications with worked examples and practice problems.
-- [Organic Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/): Organic chemistry is the study of carbon compounds. The definition traditionally excludes simple Carbon compounds such as carbon monoxide (), carbon dioxide
-- [Organic Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/): This section covers organic chemistry concepts, definitions, and applications with worked examples and practice problems.
-- [Organic Chemistry -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry/): DSE Organic Chemistry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.
-- [Redox And Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/): This section covers redox and electrochemistry concepts, definitions, and applications with worked examples and practice problems.
-- [Stoichiometry](https://dse.wyattau.com/chemistry/2-stoichiometry/): This section covers stoichiometry concepts, definitions, and applications with worked examples and practice problems.
-- [Stoichiometry and Mole Concept -- Diagnostic Tests](https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry/): DSE Chemistry Stoichiometry and Mole Concept -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
+- [Acids Bases And Electrochemistry](https://dse.wyattau.com/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)
+- [Atomic Structure And Bonding](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/)
+- [Atomic Structure And Bonding](https://dse.wyattau.com/chemistry/atomic-structure-and-bonding/)
+- [Carbon Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/2_carbon-chemistry/)
+- [Chemical Equilibrium](https://dse.wyattau.com/chemistry/4-equilibrium/1_chemical-equilibrium/)
+- [Chemical Kinetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/1_chemical-kinetics/)
+- [Diag Acids Bases](https://dse.wyattau.com/chemistry/diagnostics/diag-acids-bases/)
+- [Diag Atomic Structure](https://dse.wyattau.com/chemistry/diagnostics/diag-atomic-structure/)
+- [Diag Bonding](https://dse.wyattau.com/chemistry/diagnostics/diag-bonding/)
+- [Diag Carbon Chemistry](https://dse.wyattau.com/chemistry/diagnostics/diag-carbon-chemistry/)
+- [Diag Electrochemistry](https://dse.wyattau.com/chemistry/diagnostics/diag-electrochemistry/)
+- [Diag Energetics](https://dse.wyattau.com/chemistry/diagnostics/diag-energetics/)
+- [Diag Equilibrium](https://dse.wyattau.com/chemistry/diagnostics/diag-equilibrium/)
+- [Diag Kinetics](https://dse.wyattau.com/chemistry/diagnostics/diag-kinetics/)
+- [Diag Organic Chemistry](https://dse.wyattau.com/chemistry/diagnostics/diag-organic-chemistry/)
+- [Diag Stoichiometry](https://dse.wyattau.com/chemistry/diagnostics/diag-stoichiometry/)
+- [Diagnostic Guide](https://dse.wyattau.com/chemistry/diagnostics/diagnostic-guide/)
+- [Dse Chemistry](https://dse.wyattau.com/chemistry/dse-chemistry/)
+- [Energetics](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/2_energetics/)
+- [Flashcards Atomic Structure](https://dse.wyattau.com/chemistry/flashcards-atomic-structure/)
+- [Index](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/)
+- [Index](https://dse.wyattau.com/chemistry/2-stoichiometry/)
+- [Index](https://dse.wyattau.com/chemistry/3-chemical-kinetics-and-energetics/)
+- [Index](https://dse.wyattau.com/chemistry/4-equilibrium/)
+- [Index](https://dse.wyattau.com/chemistry/5-acids-bases/)
+- [Index](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/)
+- [Index](https://dse.wyattau.com/chemistry/7-organic-chemistry/)
+- [Index](https://dse.wyattau.com/chemistry/diagnostics/)
+- [Index](https://dse.wyattau.com/chemistry/)
+- [Mole Concept And Stoichiometry](https://dse.wyattau.com/chemistry/2-stoichiometry/1_mole-concept-and-stoichiometry/)
+- [Organic Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/)
+- [Practice Atomic Structure](https://dse.wyattau.com/chemistry/practice-atomic-structure/)
+- [Redox And Electrochemistry](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/)
 
 ## Economics
 
-- [Basic Economic Concepts](https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts/): Scarcity is the fundamental economic problem: human wants are unlimited, but the resources available To satisfy those wants are limited. Because resources
-- [Basic Economic Concepts](https://dse.wyattau.com/economics/1-basic-economic-concepts/): This section covers basic economic concepts concepts, definitions, and applications with worked examples and practice problems.
-- [Basic Economic Concepts -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-basic-economic-concepts/): DSE Economics Basic Economic Concepts -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Demand Supply Markets](https://dse.wyattau.com/economics/2-demand-supply-markets/): This section covers demand supply markets concepts, definitions, and applications with worked examples and practice problems.
-- [Demand, Supply, and Markets -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-demand-supply-markets/): DSE Economics Demand, Supply, and Markets -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Diagnostics](https://dse.wyattau.com/economics/diagnostics/): Diagnostic test notes for dse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE Economics](https://dse.wyattau.com/economics/): DSE Economics notes covering key definitions, core concepts, worked examples, and practice questions for in-depth study and examination practice.
-- [DSE Economics -- Diagnostic Guide](https://dse.wyattau.com/economics/diagnostics/diagnostic-guide/): Study notes for DSE Economics -- Diagnostic Guide with worked examples and practice questions.
-- [DSE Economics Flashcards: Macroeconomics](https://dse.wyattau.com/economics/flashcards-macroeconomics/): DSE Economics flashcards: DSE Economics Flashcards: Macroeconomics. Comprehensive study material with definitions, examples, and assessment tools.
-- [DSE Economics Flashcards: Microeconomics](https://dse.wyattau.com/economics/flashcards-microeconomics/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/economics/flashcards-microeconomics-data.js';
-- [DSE Economics: Macroeconomics Practice](https://dse.wyattau.com/economics/practice-macroeconomics/): 16 MCQ practice problems on macroeconomics. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover GDP,
-- [DSE Economics: Microeconomics Practice](https://dse.wyattau.com/economics/practice-microeconomics/): 16 MCQ practice problems on microeconomics. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover
-- [Economics - Demand, Supply, and Markets](https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets/): Demand is the willingness and ability of consumers to purchase goods and services at various prices During a given period of time, (all other things being
-- [Fiscal and Monetary Policy](https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy/): Study notes for Fiscal and Monetary Policy with worked examples, practice problems, and key concepts for exam preparation.
-- [Fiscal and Monetary Policy -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-fiscal-monetary-policy/): DSE Economics Fiscal and Monetary Policy -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Government Policy](https://dse.wyattau.com/economics/6-government-policy/): This section covers government policy concepts, definitions, and applications with worked examples and practice problems.
-- [International Trade](https://dse.wyattau.com/economics/7-international-trade/): This section covers international trade concepts, definitions, and applications with worked examples and practice problems.
-- [International Trade and Finance](https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance/): A country has an in producing a good if it can produce more of that good with The same amount of resources, or use fewer resources to produce the same
-- [International Trade and Finance -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-international-trade/): DSE Economics International Trade and Finance -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Macroeconomic Indicators](https://dse.wyattau.com/economics/5-macroeconomic-indicators/): This section covers macroeconomic indicators concepts, definitions, and applications with worked examples and practice problems.
-- [Market Failure](https://dse.wyattau.com/economics/4-market-failure/): This section covers market failure concepts, definitions, and applications with worked examples and practice problems.
-- [Market Failure and Government Intervention](https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention/): Market failure occurs when the free market, operating without government intervention, fails to Allocate resources in a way that maximises economic welfare.
-- [Market Failure and Government Intervention -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-market-failure/): DSE Economics Market Failure and Government Intervention -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Market Structure](https://dse.wyattau.com/economics/3-market-structure/): This section covers market structure concepts, definitions, and applications with worked examples and practice problems.
-- [Market Structure and Theory of the Firm](https://dse.wyattau.com/economics/3-market-structure/1_market-structure/): A market structure describes the organisational and competitive characteristics of a market. The Classification framework rests on four axes: the number of
-- [Market Structure and Theory of the Firm -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-market-structure/): DSE Economics Market Structure and Theory of the Firm -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Money and Banking](https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking/): Money is anything that is generally accepted as a medium of exchange. It serves  Comprehensive educational content coverage with definitions and practice proble
-- [Money And Banking](https://dse.wyattau.com/economics/8-money-and-banking/): This section covers money and banking concepts, definitions, and applications with worked examples and practice problems.
-- [Money and Banking -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-money-banking/): DSE Economics Money and Banking -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [National Income and Macroeconomic Indicators](https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income/): Study notes for National Income and Macroeconomic Indicators with worked examples, practice problems, and key concepts for exam preparation.
-- [National Income and Macroeconomic Indicators -- Diagnostic Tests](https://dse.wyattau.com/economics/diagnostics/diag-national-income/): DSE Economics National Income and Macroeconomic Indicators notes covering key definitions, core concepts, worked practice questions for diagnostic revision.
+- [Basic Economic Concepts](https://dse.wyattau.com/economics/1-basic-economic-concepts/1_basic-economic-concepts/)
+- [Demand Supply And Markets](https://dse.wyattau.com/economics/2-demand-supply-markets/1_demand-supply-and-markets/)
+- [Diag Basic Economic Concepts](https://dse.wyattau.com/economics/diagnostics/diag-basic-economic-concepts/)
+- [Diag Demand Supply Markets](https://dse.wyattau.com/economics/diagnostics/diag-demand-supply-markets/)
+- [Diag Fiscal Monetary Policy](https://dse.wyattau.com/economics/diagnostics/diag-fiscal-monetary-policy/)
+- [Diag International Trade](https://dse.wyattau.com/economics/diagnostics/diag-international-trade/)
+- [Diag Market Failure](https://dse.wyattau.com/economics/diagnostics/diag-market-failure/)
+- [Diag Market Structure](https://dse.wyattau.com/economics/diagnostics/diag-market-structure/)
+- [Diag Money Banking](https://dse.wyattau.com/economics/diagnostics/diag-money-banking/)
+- [Diag National Income](https://dse.wyattau.com/economics/diagnostics/diag-national-income/)
+- [Diagnostic Guide](https://dse.wyattau.com/economics/diagnostics/diagnostic-guide/)
+- [Fiscal And Monetary Policy](https://dse.wyattau.com/economics/6-government-policy/1_fiscal-and-monetary-policy/)
+- [Flashcards Macroeconomics](https://dse.wyattau.com/economics/flashcards-macroeconomics/)
+- [Flashcards Microeconomics](https://dse.wyattau.com/economics/flashcards-microeconomics/)
+- [Index](https://dse.wyattau.com/economics/1-basic-economic-concepts/)
+- [Index](https://dse.wyattau.com/economics/2-demand-supply-markets/)
+- [Index](https://dse.wyattau.com/economics/3-market-structure/)
+- [Index](https://dse.wyattau.com/economics/4-market-failure/)
+- [Index](https://dse.wyattau.com/economics/5-macroeconomic-indicators/)
+- [Index](https://dse.wyattau.com/economics/6-government-policy/)
+- [Index](https://dse.wyattau.com/economics/7-international-trade/)
+- [Index](https://dse.wyattau.com/economics/8-money-and-banking/)
+- [Index](https://dse.wyattau.com/economics/diagnostics/)
+- [Index](https://dse.wyattau.com/economics/)
+- [International Trade And Finance](https://dse.wyattau.com/economics/7-international-trade/1_international-trade-and-finance/)
+- [Market Failure And Government Intervention](https://dse.wyattau.com/economics/4-market-failure/1_market-failure-and-government-intervention/)
+- [Market Structure](https://dse.wyattau.com/economics/3-market-structure/1_market-structure/)
+- [Money And Banking](https://dse.wyattau.com/economics/8-money-and-banking/1_money-and-banking/)
+- [National Income](https://dse.wyattau.com/economics/5-macroeconomic-indicators/1_national-income/)
+- [Practice Macroeconomics](https://dse.wyattau.com/economics/practice-macroeconomics/)
+- [Practice Microeconomics](https://dse.wyattau.com/economics/practice-microeconomics/)
 
 ## Geography
 
-- [Agricultural Systems and Food Security](https://dse.wyattau.com/geography/agriculture/): Subsistence and commercial farming, rice cultivation, agricultural change in the Pearl River Delta, food security in Hong Kong, urban agriculture, and fisheries for DSE Geography.
-- [Diagnostic Test: Climate](https://dse.wyattau.com/geography/diagnostics/diag-climate/): Diagnostic test notes for dse Diagnostic Test: Climate covering key concepts, worked examples, and practice problems for exam preparation.
-- [Diagnostic Test: Urbanization](https://dse.wyattau.com/geography/diagnostics/diag-urbanization/): Diagnostic test notes for dse Diagnostic Test: Urbanization covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE Geography](https://dse.wyattau.com/geography/intro/): Complete revision notes for HKDSE Geography, covering both human and physical geography with worked examples, data-response practice, and exam-style
-- [DSE Geography Flashcards](https://dse.wyattau.com/geography/flashcards-geography/): DSE Geography Flashcards: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [DSE Geography Practice](https://dse.wyattau.com/geography/practice-geography/): 10 MCQ practice problems on geography. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover
-- [Geography](https://dse.wyattau.com/geography/): This section provides study materials and resources for geography. Browse the topics below to find the specific area you need to revise.
-- [Industrial Location and Economic Development](https://dse.wyattau.com/geography/economic-development/): Economic development in East Asia, core-periphery models, globalisation, Belt and Road Initiative, and Hong Kong's economic transition for DSE Geography.
-- [Population -- Diagnostic Tests](https://dse.wyattau.com/geography/diagnostics/diag-population/): Population -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Population and Migration](https://dse.wyattau.com/geography/population/): Demographic transition model, population pyramids, migration patterns, ageing population, fertility trends, and government policy responses for DSE Geography.
-- [Resources and Sustainability](https://dse.wyattau.com/geography/resources/): Water resource management, energy resources, land use, Country Parks, land premium system, reclamation debates, and sustainability strategies for DSE Geography.
-- [Urbanisation and Urban Processes](https://dse.wyattau.com/geography/urbanization/): Urban land use models, Hong Kong new towns, urban sprawl, squatter settlements, container port development, and urban renewal strategies for DSE Geography.
-- [Weather and Climate](https://dse.wyattau.com/geography/climate/): Global atmospheric circulation, monsoon systems, tropical cyclone formation, climate change impacts on South China, and IPCC projections for DSE Geography.
+- [Agriculture](https://dse.wyattau.com/geography/agriculture/)
+- [Climate](https://dse.wyattau.com/geography/climate/)
+- [Diag Climate](https://dse.wyattau.com/geography/diagnostics/diag-climate/)
+- [Diag Population](https://dse.wyattau.com/geography/diagnostics/diag-population/)
+- [Diag Urbanization](https://dse.wyattau.com/geography/diagnostics/diag-urbanization/)
+- [Economic Development](https://dse.wyattau.com/geography/economic-development/)
+- [Flashcards Geography](https://dse.wyattau.com/geography/flashcards-geography/)
+- [Index](https://dse.wyattau.com/geography/)
+- [Intro](https://dse.wyattau.com/geography/intro/)
+- [Population](https://dse.wyattau.com/geography/population/)
+- [Practice Geography](https://dse.wyattau.com/geography/practice-geography/)
+- [Resources](https://dse.wyattau.com/geography/resources/)
+- [Urbanization](https://dse.wyattau.com/geography/urbanization/)
 
 ## History
 
-- [Decolonisation and the Path to 1997](https://dse.wyattau.com/history/decolonisation/): Decolonisation movements post-WWII, Indian independence, Indonesian and Vietnamese decolonisation, African decolonisation, impact on Hong Kong, and the Sino-British Joint Declaration.
-- [Diagnostic Test: Cold War](https://dse.wyattau.com/history/diagnostics/diag-cold-war/): Diagnostic test notes for dse Diagnostic Test: Cold War covering key concepts, worked examples, and practice problems for exam preparation.
-- [Diagnostic Test: World War II](https://dse.wyattau.com/history/diagnostics/diag-wwii/): Diagnostic test notes for dse Diagnostic Test: World War II covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE History](https://dse.wyattau.com/history/intro/): Complete revision notes for HKDSE History, covering major themes in modern world history and regional developments in Asia. The syllabus emphasises
-- [DSE History Flashcards](https://dse.wyattau.com/history/flashcards-history/): DSE History Flashcards: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [DSE History Practice](https://dse.wyattau.com/history/practice-history/): 10 MCQ practice problems on history. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover modern
-- [European Imperialism in Asia](https://dse.wyattau.com/history/imperialism/): European imperialism in Asia, the Treaty of Nanking, Unequal Treaties, colonisation of Hong Kong, impact on China, and responses to imperialism.
-- [History](https://dse.wyattau.com/history/): This section provides study materials and resources for history. Browse the topics below to find the specific area you need to revise.
-- [Hong Kong Since 1945](https://dse.wyattau.com/history/modern-hk/): Post-war reconstruction, refugee influxes, industrialisation, 1967 riots, economic transformation, political development, Basic Law, 1997 Handover, and post-handover developments.
-- [Modern China -- Diagnostic Tests](https://dse.wyattau.com/history/diagnostics/diag-modern-china/): Modern China -- Diagnostic Tests: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [The Chinese Revolution](https://dse.wyattau.com/history/chinese-revolution/): Fall of the Qing Dynasty, warlord era, rise of the CCP and KMT, Long March, Nanjing Decade, Second United Front, Chinese Civil War, and establishment of the PRC.
-- [The Cold War](https://dse.wyattau.com/history/cold-war/): Origins of the Cold War, containment doctrine, Korean War, Vietnam War, Cuban Missile Crisis, Sino-Soviet split, impact on Hong Kong, and the end of the Cold War.
-- [World War II in the Pacific and China](https://dse.wyattau.com/history/wwii/): Causes and course of WWII in the Pacific and China, the Second Sino-Japanese War, the Battle and Occupation of Hong Kong, and resistance movements during 1937-1945.
+- [Chinese Revolution](https://dse.wyattau.com/history/chinese-revolution/)
+- [Cold War](https://dse.wyattau.com/history/cold-war/)
+- [Decolonisation](https://dse.wyattau.com/history/decolonisation/)
+- [Diag Cold War](https://dse.wyattau.com/history/diagnostics/diag-cold-war/)
+- [Diag Modern China](https://dse.wyattau.com/history/diagnostics/diag-modern-china/)
+- [Diag Wwii](https://dse.wyattau.com/history/diagnostics/diag-wwii/)
+- [Flashcards History](https://dse.wyattau.com/history/flashcards-history/)
+- [Imperialism](https://dse.wyattau.com/history/imperialism/)
+- [Index](https://dse.wyattau.com/history/)
+- [Intro](https://dse.wyattau.com/history/intro/)
+- [Modern Hk](https://dse.wyattau.com/history/modern-hk/)
+- [Practice History](https://dse.wyattau.com/history/practice-history/)
+- [Wwii](https://dse.wyattau.com/history/wwii/)
 
 ## Ict
 
-- [Computer Systems -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-computer-systems/): DSE Ict Computer Systems -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
-- [Data Management](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/): This document covers data management topics for the DSE ICT examination, including data structures, Database models, data integrity, security, privacy
-- [Data Representation](https://dse.wyattau.com/ict/1-data-representation/1_data-representation/): This document extends the foundational data representation topics in with deeper technical treatment of number systems, Character encoding mechanisms,
-- [Data Representation -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-data-representation/): DSE Ict Data Representation -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.
-- [Diagnostics](https://dse.wyattau.com/ict/diagnostics/): Diagnostic test notes for dse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE ICT](https://dse.wyattau.com/ict/): DSE ICT notes covering key definitions, core concepts, worked examples, and practice questions for solid revision and exam readiness.
-- [DSE ICT -- Diagnostic Guide](https://dse.wyattau.com/ict/diagnostics/diagnostic-guide/): Study notes for DSE ICT -- Diagnostic Guide - Wyatt's Notes with worked examples and practice questions.
-- [DSE ICT Flashcards: Fundamentals](https://dse.wyattau.com/ict/flashcards-fundamentals/): DSE Ict flashcards: DSE ICT Flashcards: Fundamentals. Comprehensive study material with definitions, examples, and assessment tools.
-- [DSE ICT: Fundamentals Practice](https://dse.wyattau.com/ict/practice-fundamentals/): 16 MCQ practice problems on ICT fundamentals. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover
-- [Fundamentals of Computer Systems](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/): The CPU is the primary component that executes instructions. It consists of thre Comprehensive educational content coverage with definitions and practice proble
-- [ICT - Programming and Databases](https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases/): A variable is a named storage location in memory that holds a value which can ch Comprehensive educational content coverage with definitions and practice proble
-- [Internet and Data Communications](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/): Study notes for Internet and Data Communications with worked examples and practice questions.
-- [Internet and Data Communications -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-internet-data-communications/): DSE Ict Internet and Data Communications -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Network Security and Social Implications](https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications/): This document extends the network security and social implications topics covered in with deeper analysis of Threats, security measures, legal frameworks,
-- [Network Security and Social Implications -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-network-security-social-implications/): DSE Ict Network Security and Social Implications -- notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Office Applications in Depth](https://dse.wyattau.com/ict/5-office-automation/2_office-applications/): This document extends the spreadsheet, database, and office automation topics in with advanced Spreadsheet functions, deeper database operations, and
-- [Office Automation and Productivity](https://dse.wyattau.com/ict/5-office-automation/1_office-automation/): This document covers spreadsheet concepts, database usage from an end-user perspective, word Processing, presentation software, application integration, and
-- [Office Automation and Productivity -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-office-automation/): DSE Ict Office Automation and Productivity -- Diagnostic notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Programming And Databases](https://dse.wyattau.com/ict/3-programming-and-databases/): This section provides study materials and resources for programming and databases. Browse the topics below to find the specific area you need to revise.
-- [Programming and Databases -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-programming-databases/): DSE Ict Programming and Databases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.
-- [Programming Fundamentals](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/): This document provides comprehensive coverage of programming fundamentals for the DSE ICT examination. Basic programming concepts and SQL are covered in .
-- [System Lifecycle](https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle/): This document covers the system development lifecycle (SDLC) for the DSE ICT examination. Understanding The SDLC is essential for analysing how information
-- [Web Development and Multimedia](https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia/): This document provides in-depth coverage of web development (HTML, CSS, JavaScript), web hosting, Client-side vs server-side processing, multimedia
-- [Web Development and Multimedia -- Diagnostic Tests](https://dse.wyattau.com/ict/diagnostics/diag-web-multimedia/): DSE Ict Web Development and Multimedia -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.
+- [Computer Systems](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/)
+- [Data Management](https://dse.wyattau.com/ict/3-programming-and-databases/3_data-management/)
+- [Data Representation](https://dse.wyattau.com/ict/1-data-representation/1_data-representation/)
+- [Diag Computer Systems](https://dse.wyattau.com/ict/diagnostics/diag-computer-systems/)
+- [Diag Data Representation](https://dse.wyattau.com/ict/diagnostics/diag-data-representation/)
+- [Diag Internet Data Communications](https://dse.wyattau.com/ict/diagnostics/diag-internet-data-communications/)
+- [Diag Network Security Social Implications](https://dse.wyattau.com/ict/diagnostics/diag-network-security-social-implications/)
+- [Diag Office Automation](https://dse.wyattau.com/ict/diagnostics/diag-office-automation/)
+- [Diag Programming Databases](https://dse.wyattau.com/ict/diagnostics/diag-programming-databases/)
+- [Diag Web Multimedia](https://dse.wyattau.com/ict/diagnostics/diag-web-multimedia/)
+- [Diagnostic Guide](https://dse.wyattau.com/ict/diagnostics/diagnostic-guide/)
+- [Flashcards Fundamentals](https://dse.wyattau.com/ict/flashcards-fundamentals/)
+- [Index](https://dse.wyattau.com/ict/3-programming-and-databases/)
+- [Index](https://dse.wyattau.com/ict/diagnostics/)
+- [Index](https://dse.wyattau.com/ict/)
+- [Internet And Data Communications](https://dse.wyattau.com/ict/4-networking-and-internet/1_internet-and-data-communications/)
+- [Network Security And Social Implications](https://dse.wyattau.com/ict/8-network-security/1_network-security-and-social-implications/)
+- [Office Applications](https://dse.wyattau.com/ict/5-office-automation/2_office-applications/)
+- [Office Automation](https://dse.wyattau.com/ict/5-office-automation/1_office-automation/)
+- [Practice Fundamentals](https://dse.wyattau.com/ict/practice-fundamentals/)
+- [Programming And Databases](https://dse.wyattau.com/ict/3-programming-and-databases/2_programming-and-databases/)
+- [Programming Fundamentals](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/)
+- [System Lifecycle](https://dse.wyattau.com/ict/6-system-lifecycle/1_system-lifecycle/)
+- [Web Development And Multimedia](https://dse.wyattau.com/ict/7-web-and-multimedia/1_web-development-and-multimedia/)
 
 ## Maths
 
-- [Combinatorics -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-combinatorics/): DSE Maths Combinatorics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for detailed preparation.
-- [Coordinate Geometry](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/): Coordinate Geometry: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Coordinate Geometry -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry/): DSE Maths Coordinate Geometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
-- [Dispersion](https://dse.wyattau.com/maths/compulsory/12_dispersion/): Statistics is the branch of mathematics concerned with the collection, organisation, analysis, and Interpretation of data. In the DSE compulsory syllabus,
-- [Dispersion -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-dispersion/): DSE Maths Dispersion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.
-- [DSE Mathematics](https://dse.wyattau.com/maths/): DSE Maths Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for clear study and thorough revision.
-- [DSE Mathematics Diagnostic Guide](https://dse.wyattau.com/maths/diagnostics/diagnostic-guide/): Diagnostic tests identify specific gaps in your mathematical understanding before they compound into larger problems. Unlike practice papers that measure
-- [DSE Mathematics Flashcards: Compulsory Part](https://dse.wyattau.com/maths/flashcards-compulsory/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/maths/flashcards-compulsory-data.js';
-- [DSE Mathematics: Compulsory Practice](https://dse.wyattau.com/maths/practice-compulsory/): 18 MCQ practice problems on the compulsory part of the HKDSE Mathematics curriculum. Select an answer, submit, and review the explanation. Questions cover
-- [Functions](https://dse.wyattau.com/maths/compulsory/1_functions/): A is a rule that assigns to each element in one set exactly one element in another set. Functions are central to the DSE Mathematics compulsory syllabus and
-- [Functions -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-functions/): DSE Maths Functions -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
-- [Functions (Advanced)](https://dse.wyattau.com/maths/compulsory/2_functions-advanced/): This note assumes the reader is already familiar with: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Geometries](https://dse.wyattau.com/maths/compulsory/8_geometries/): Coordinate geometry provides a bridge between algebraic equations and geometric figures, enabling The use of algebraic methods to solve geometric problems
-- [Geometries -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-geometries/): DSE Maths Geometries -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
-- [Inequalities](https://dse.wyattau.com/maths/compulsory/5_inequalities/): An inequality states that one expression is greater than or less than another. Inequalities arise when finding the and of functions, and are closely related
-- [Inequalities -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-inequalities/): DSE Maths Inequalities -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for comprehensive revision.
-- [Logarithms](https://dse.wyattau.com/maths/compulsory/7_logarithmics/): Logarithms are the inverse operation of exponentiation and play a central role in the DSE Mathematics compulsory syllabus. They arise when solving
-- [Logarithms -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-logarithms/): DSE Maths Logarithms -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for clear revision.
-- [M1: Algebra and Calculus](https://dse.wyattau.com/maths/extended/1_m1_algebra-and-calculus/): Solving linear inequalities follows the same principles as solving linear equations, with one critical difference: multiplying or dividing both sides by a
-- [M2: Coordinate Geometry](https://dse.wyattau.com/maths/extended/2_m2_coordinate-geometry/): The gradient of a line passing through and is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Permutations and Combinations](https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations/): DSE Maths Permutations and Combinations notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision.
-- [Polynomials](https://dse.wyattau.com/maths/compulsory/4_polynomials/): A polynomial in one variable is an expression of the form Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Polynomials -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-polynomials/): DSE Maths Polynomials -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for analytical revision.
-- [Probability](https://dse.wyattau.com/maths/compulsory/11_probability/): Probability theory provides a rigorous mathematical framework for quantifying uncertainty. In the DSE compulsory syllabus, we focus on discrete probability
-- [Probability -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-probability/): DSE Maths Probability -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for structured preparation.
-- [Quadratics](https://dse.wyattau.com/maths/compulsory/3_quadratics/): A quadratic equation in has the general form: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Quadratics -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-quadratics/): DSE Maths Quadratics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.
-- [Sequences and Series](https://dse.wyattau.com/maths/compulsory/6_sequences-and-series/): Sequences and series are fundamental to the DSE compulsory maths syllabus. A sequence is an ordered List of numbers governed by a rule; a series is the sum
-- [Sequences and Series -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-sequences-series/): DSE Maths Sequences and Series -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Trigonometry](https://dse.wyattau.com/maths/compulsory/10_trigonometry/): Trigonometry is the study of relationships involving lengths and angles of triangles. It is a Central topic in the DSE Mathematics compulsory syllabus,
-- [Trigonometry -- Diagnostic Tests](https://dse.wyattau.com/maths/diagnostics/diag-trigonometry/): DSE Maths Trigonometry -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for in-depth revision.
+- [Coordinate Geometry](https://dse.wyattau.com/maths/compulsory/9_coordinate-geometry/)
+- [Diag Combinatorics](https://dse.wyattau.com/maths/diagnostics/diag-combinatorics/)
+- [Diag Coordinate Geometry](https://dse.wyattau.com/maths/diagnostics/diag-coordinate-geometry/)
+- [Diag Dispersion](https://dse.wyattau.com/maths/diagnostics/diag-dispersion/)
+- [Diag Functions](https://dse.wyattau.com/maths/diagnostics/diag-functions/)
+- [Diag Geometries](https://dse.wyattau.com/maths/diagnostics/diag-geometries/)
+- [Diag Inequalities](https://dse.wyattau.com/maths/diagnostics/diag-inequalities/)
+- [Diag Logarithms](https://dse.wyattau.com/maths/diagnostics/diag-logarithms/)
+- [Diag Polynomials](https://dse.wyattau.com/maths/diagnostics/diag-polynomials/)
+- [Diag Probability](https://dse.wyattau.com/maths/diagnostics/diag-probability/)
+- [Diag Quadratics](https://dse.wyattau.com/maths/diagnostics/diag-quadratics/)
+- [Diag Sequences Series](https://dse.wyattau.com/maths/diagnostics/diag-sequences-series/)
+- [Diag Trigonometry](https://dse.wyattau.com/maths/diagnostics/diag-trigonometry/)
+- [Diagnostic Guide](https://dse.wyattau.com/maths/diagnostics/diagnostic-guide/)
+- [Dispersion](https://dse.wyattau.com/maths/compulsory/12_dispersion/)
+- [Flashcards Compulsory](https://dse.wyattau.com/maths/flashcards-compulsory/)
+- [Functions](https://dse.wyattau.com/maths/compulsory/1_functions/)
+- [Functions Advanced](https://dse.wyattau.com/maths/compulsory/2_functions-advanced/)
+- [Geometries](https://dse.wyattau.com/maths/compulsory/8_geometries/)
+- [Index](https://dse.wyattau.com/maths/)
+- [Inequalities](https://dse.wyattau.com/maths/compulsory/5_inequalities/)
+- [Logarithmics](https://dse.wyattau.com/maths/compulsory/7_logarithmics/)
+- [M1 Algebra And Calculus](https://dse.wyattau.com/maths/extended/1_m1_algebra-and-calculus/)
+- [M2 Coordinate Geometry](https://dse.wyattau.com/maths/extended/2_m2_coordinate-geometry/)
+- [Permutations And Combinations](https://dse.wyattau.com/maths/compulsory/13_permutations-and-combinations/)
+- [Polynomials](https://dse.wyattau.com/maths/compulsory/4_polynomials/)
+- [Practice Compulsory](https://dse.wyattau.com/maths/practice-compulsory/)
+- [Probability](https://dse.wyattau.com/maths/compulsory/11_probability/)
+- [Quadratics](https://dse.wyattau.com/maths/compulsory/3_quadratics/)
+- [Sequences And Series](https://dse.wyattau.com/maths/compulsory/6_sequences-and-series/)
+- [Trigonometry](https://dse.wyattau.com/maths/compulsory/10_trigonometry/)
 
 ## Physics
 
-- [Diagnostics](https://dse.wyattau.com/physics/diagnostics/): Diagnostic test notes for dse Diagnostics covering key concepts, worked examples, and practice problems for exam preparation.
-- [DSE Physics](https://dse.wyattau.com/physics/dse-physics/): Study notes for DSE Physics with worked examples, practice problems, and key concepts for exam preparation.
-- [DSE Physics](https://dse.wyattau.com/physics/): DSE Physics notes covering key definitions, core concepts, worked examples, and practice questions for systematic study and examination practice.
-- [DSE Physics Diagnostic Guide](https://dse.wyattau.com/physics/diagnostics/diagnostic-guide/): This diagnostic system covers all 10 core topics of the HKDSE Physics examination. Each topic file contains 3 unit tests (single-topic, testing deep
-- [DSE Physics Flashcards: Kinematics](https://dse.wyattau.com/physics/flashcards-kinematics/): DSE Physics Flashcards: Kinematics: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [DSE Physics Practice: Kinematics](https://dse.wyattau.com/physics/practice-kinematics/): 18 MCQ practice problems on kinematics. Select an answer, submit, and review the explanation. Questions follow the DSE examination style and cover the full
-- [Electrical Circuits](https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits/): Electric current is the rate of flow of electric charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Electrical Circuits -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits/): DSE Physics Electrical Circuits -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Electricity and Magnetism](https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/): Electric charge is a fundamental property of matter. There are two types of charge: positive and Negative. Like charges repel and unlike charges attract.
-- [Electricity And Magnetism](https://dse.wyattau.com/physics/3-electricity-and-magnetism/): This section covers electricity and magnetism concepts, definitions, and applications with worked examples and practice problems.
-- [Electricity and Magnetism -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism/): DSE Physics Electricity and Magnetism -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Energy and Work](https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work/): Work is done when a force causes displacement in the direction of the force. Comprehensive educational content coverage with definitions and practice problems.
-- [Energy and Work -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-energy-work/): DSE Physics Energy and Work -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.
-- [Forces and Motion](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/): An object remains at rest or continues to move with uniform velocity unless acte Comprehensive educational content coverage with definitions and practice proble
-- [Forces and Motion -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-forces-motion/): DSE Physics Forces and Motion -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Heat and Gases](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/): Temperature measures how energetic particles are, heat is the transfer of that energy: Think of a room full of people bouncing balls. Temperature is how fast
-- [Heat and Gases -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-heat-gases/): DSE Physics Heat and Gases -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Magnetism and Electromagnetism](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/): A magnetic field is a region where a magnetic force acts on magnetic materials, current-carrying Conductors, or moving charges. Magnetic field lines emerge
-- [Mechanics](https://dse.wyattau.com/physics/1-mechanics/): This section covers mechanics concepts, definitions, and applications with worked examples and practice problems.
-- [Mechanics -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-mechanics/): DSE Physics Mechanics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for thorough preparation.
-- [Nuclear Physics](https://dse.wyattau.com/physics/5-nuclear-physics/1_nuclear-physics/): The nucleus is a tiny, dense powerhouse that contains almost all the atom's mass: If an atom were a football stadium, the nucleus would be a marble at the
-- [Nuclear Physics](https://dse.wyattau.com/physics/5-nuclear-physics/): This section covers nuclear physics concepts, definitions, and applications with worked examples and practice problems.
-- [Nuclear Physics -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics/): DSE Nuclear Physics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
-- [Optics -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-optics/): DSE Physics Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam readiness.
-- [Optics | DSE - Wyatt's Notes](https://dse.wyattau.com/physics/2-waves/3_optics/): 1. The incident ray, reflected ray, and normal all lie in the same plane. 2. The angle of incidence equals the angle of reflection: .
-- [Physics - Kinematics](https://dse.wyattau.com/physics/kinematics/): DSE Physics - Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for rigorous study and thorough revision.
-- [Physics - Mechanics](https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth/): Kinematics is the study of motion without considering the forces that cause it. It describes the Motion of objects using displacement, velocity, and
-- [Physics - Waves and Optics](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/): A wave is a disturbance that transfers energy from one point to another without transferring matter. Waves can be classified by the direction of particle
-- [Thermal Physics](https://dse.wyattau.com/physics/4-thermal-physics/): This section covers thermal physics concepts, definitions, and applications with worked examples and practice problems.
-- [Waves | DSE - Wyatt's Notes](https://dse.wyattau.com/physics/2-waves/): This section covers waves concepts, definitions, and applications with worked examples and practice problems.
-- [Waves and Optics -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-waves-optics/): DSE Physics Waves and Optics -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Waves and Sound](https://dse.wyattau.com/physics/2-waves/1_waves-and-sound/): Waves are classified by the direction of particle displacement relative to the d Comprehensive educational content coverage with definitions and practice proble
-- [Waves and Sound -- Diagnostic Tests](https://dse.wyattau.com/physics/diagnostics/diag-waves-sound/): DSE Physics Waves and Sound -- Diagnostic Tests notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.
+- [Diag Electrical Circuits](https://dse.wyattau.com/physics/diagnostics/diag-electrical-circuits/)
+- [Diag Electricity Magnetism](https://dse.wyattau.com/physics/diagnostics/diag-electricity-magnetism/)
+- [Diag Energy Work](https://dse.wyattau.com/physics/diagnostics/diag-energy-work/)
+- [Diag Forces Motion](https://dse.wyattau.com/physics/diagnostics/diag-forces-motion/)
+- [Diag Heat Gases](https://dse.wyattau.com/physics/diagnostics/diag-heat-gases/)
+- [Diag Mechanics](https://dse.wyattau.com/physics/diagnostics/diag-mechanics/)
+- [Diag Nuclear Physics](https://dse.wyattau.com/physics/diagnostics/diag-nuclear-physics/)
+- [Diag Optics](https://dse.wyattau.com/physics/diagnostics/diag-optics/)
+- [Diag Waves Optics](https://dse.wyattau.com/physics/diagnostics/diag-waves-optics/)
+- [Diag Waves Sound](https://dse.wyattau.com/physics/diagnostics/diag-waves-sound/)
+- [Diagnostic Guide](https://dse.wyattau.com/physics/diagnostics/diagnostic-guide/)
+- [Dse Physics](https://dse.wyattau.com/physics/dse-physics/)
+- [Electrical Circuits](https://dse.wyattau.com/physics/3-electricity-and-magnetism/1_electrical-circuits/)
+- [Electricity And Magnetism](https://dse.wyattau.com/physics/3-electricity-and-magnetism/2_electricity-and-magnetism/)
+- [Energy And Work](https://dse.wyattau.com/physics/1-mechanics/3_energy-and-work/)
+- [Flashcards Kinematics](https://dse.wyattau.com/physics/flashcards-kinematics/)
+- [Forces And Motion](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/)
+- [Heat And Gases](https://dse.wyattau.com/physics/4-thermal-physics/1_heat-and-gases/)
+- [Index](https://dse.wyattau.com/physics/1-mechanics/)
+- [Index](https://dse.wyattau.com/physics/2-waves/)
+- [Index](https://dse.wyattau.com/physics/3-electricity-and-magnetism/)
+- [Index](https://dse.wyattau.com/physics/4-thermal-physics/)
+- [Index](https://dse.wyattau.com/physics/5-nuclear-physics/)
+- [Index](https://dse.wyattau.com/physics/diagnostics/)
+- [Index](https://dse.wyattau.com/physics/)
+- [Kinematics](https://dse.wyattau.com/physics/kinematics/)
+- [Magnetism And Electromagnetism](https://dse.wyattau.com/physics/3-electricity-and-magnetism/3_magnetism-and-electromagnetism/)
+- [Mechanics Depth](https://dse.wyattau.com/physics/1-mechanics/2_mechanics-depth/)
+- [Nuclear Physics](https://dse.wyattau.com/physics/5-nuclear-physics/1_nuclear-physics/)
+- [Optics](https://dse.wyattau.com/physics/2-waves/3_optics/)
+- [Practice Kinematics](https://dse.wyattau.com/physics/practice-kinematics/)
+- [Waves And Optics](https://dse.wyattau.com/physics/2-waves/2_waves-and-optics/)
+- [Waves And Sound](https://dse.wyattau.com/physics/2-waves/1_waves-and-sound/)
 
 ## Zh
 
-- [DSE | 简体中文](https://dse.wyattau.com/zh/): A bilingual bridge: This Chinese-language page provides the same comprehensive DSE content but in simplified Chinese, making it accessible to Chinese-speaking
+- [Index](https://dse.wyattau.com/zh/)

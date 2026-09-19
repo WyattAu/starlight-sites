@@ -9,7 +9,7 @@ date: 2026-01-01T00:00:00Z
 sources:
   - text: Standard textbook reference
 
-This section provides study materials and resources for diagnostics. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for diagnostics. Work through Diagnostics alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 
 # Diagnostics
 

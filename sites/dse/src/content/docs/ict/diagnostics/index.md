@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for diagnostics. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for diagnostics. If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Diagnostics
 
@@ -35,7 +35,7 @@ This section provides study materials and resources for diagnostics. Browse the 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

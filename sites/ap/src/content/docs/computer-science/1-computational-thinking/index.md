@@ -10,7 +10,7 @@ sources:
   - text: Standard textbook reference
 
 
-This section covers computational thinking, data structures, algorithms, and systems. Understanding these concepts is critical for both theory examinations and practical programming assessments.
+This section covers computational thinking, data structures, algorithms, and systems. The Computer Science section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 
 # Computational Thinking
 
@@ -28,7 +28,7 @@ This section covers computational thinking, data structures, algorithms, and sys
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through Computational Thinking alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
 
 ## Key Concepts

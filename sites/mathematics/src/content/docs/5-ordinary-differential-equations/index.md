@@ -111,9 +111,9 @@ Differential equations describe how systems evolve, from planetary orbits to pop
 
 ## Cross-References
 
-- **[Multivariable Calculus](../../../../../typescript/src/content/docs/index):** Vector calculus and partial derivatives; systems of ODEs use multivariable calculus.
-- **[Linear Algebra](../../../../../typescript/src/content/docs/index):** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
-- **[Complex Analysis](../../../../../typescript/src/content/docs/index):** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
+- **Multivariable Calculus:** Vector calculus and partial derivatives; systems of ODEs use multivariable calculus.
+- **Linear Algebra:** Systems of linear ODEs using eigenvalues; matrix exponentials solve linear systems.
+- **Complex Analysis:** Contour integration for solving ODEs; the Laplace transform uses complex analysis.
 
 - [Quantum Mechanics](https://physics.wyattau.com/docs/quantum-mechanics)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)

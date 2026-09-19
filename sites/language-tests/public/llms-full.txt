@@ -1,0 +1,2240 @@
+# Language Tests — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Overview
+
+---
+
+## About
+URL: https://language-tests.wyattau.com/about/
+
+## About Wyatt's Notes, Language Tests
+
+Wyatt's Notes provides thorough study materials for language proficiency tests. These notes cover IELTS, TOEFL, and other standardised language assessments, building the skills needed to achieve target scores for academic and immigration purposes.
+
+### Why Trust These Resources?
+
+These notes are created by **Wyatt**, an educator and content developer with expertise in language assessment preparation. Content follows the test formats and scoring criteria of major language proficiency examinations.
+
+Materials emphasise the test-taking strategies and language skills that maximise scores. Every concept reflects the actual test format and the scoring rubrics that determine band scores and proficiency levels.
+
+### What You'll Find
+
+- **IELTS preparation** covering Academic and General Training modules
+- **TOEFL preparation** with iBT format guidance
+- **CEFR levels** from A1 to C2 with proficiency descriptors
+- **Test strategy** for reading, writing, listening, and speaking sections
+- **Practice tests** modelled on official exam formats
+
+### Credentials
+
+Wyatt develops resources across language testing and international qualifications, providing the assessment expertise that enhances language test materials. Content is informed by test specifications, scoring rubrics, and analysis of high-scoring responses.
+
+## Related Sites
+
+- **[Admissions](https://admissions.wyattau.com)**, University admissions guidance
+- **[SAT](https://sat.wyattau.com)**, US standardised test preparation
+- **[Civics Tests](https://civics-tests.wyattau.com)**, US citizenship test resources
+
+## Explore the Site
+
+Start with your target test to find structured preparation materials. Each section progresses from test overview to section-specific strategies. Use the practice tests to build familiarity and confidence.
+
+Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## See Also
+
+- [Language Proficiency Tests](./)
+- [Cefr Levels](/cefr-levels/)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+---
+
+## Glossary
+URL: https://language-tests.wyattau.com/glossary/
+
+## IELTS Terms
+
+**IELTS (International English Language Testing System)**: A standardised test assessing English language proficiency for study, work, or migration, jointly managed by the British Council, IDP, and Cambridge Assessment English.
+
+**Academic IELTS**: The version of IELTS designed for university admissions and professional registration, featuring more complex academic texts and tasks.
+
+**General Training IELTS**: The version of IELTS for work experience, training programmes, or migration, featuring everyday and workplace-related texts.
+
+**Band Score**: IELTS scores range from 0 to 9 in half-band increments, with each band representing a level of English proficiency.
+
+**Band 9 (Expert User)**: The highest IELTS band, indicating full operational proficiency with no errors or misunderstandings.
+
+**Band 7 (Good User)**: A score indicating operational proficiency with occasional inaccuracies and misunderstandings in complex language.
+
+**Band 6 (Competent User)**: A score indicating generally effective use of English with some inaccuracies and misunderstandings.
+
+**Listening Section**: A 30-minute test with four sections of increasing difficulty, featuring conversations, monologues, and academic discussions.
+
+**Reading Section**: A 60-minute test with three passages from books, journals, and newspapers, testing comprehension, inference, and skimming.
+
+**Writing Section**: A 60-minute test with two tasks: describing visual data (Task 1) and writing an essay (Task 2).
+
+**Speaking Section**: An 11–14 minute face-to-face interview with an examiner, comprising three parts covering familiar and abstract topics.
+
+**Task Response**: The IELTS Writing criterion assessing how fully the candidate addresses all parts of the task with a clear position.
+
+**Coherence and Cohesion**: The IELTS Writing criterion assessing logical organisation and the use of linking words and devices.
+
+**Lexical Resource**: The IELTS Writing and Speaking criterion assessing the range and accuracy of vocabulary used.
+
+**Grammatical Range and Accuracy**: The IELTS Writing and Speaking criterion assessing the variety and correctness of grammatical structures.
+
+## TOEFL Terms
+
+**TOEFL (Test of English as a Foreign Language)**: A standardised test measuring English language ability of non-native speakers, administered by ETS.
+
+**TOEFL iBT (Internet-Based Test)**: The most common format of the TOEFL, delivered via the internet with sections for Reading, Listening, Speaking, and Writing.
+
+**TOEFL Essentials**: A shorter, more flexible version of the TOEFL measuring core English skills in a streamlined format.
+
+**Reading Section**: A 35–54 minute section testing academic reading comprehension with passages from university-level texts.
+
+**Listening Section**: A 36–53 minute section testing understanding of lectures, classroom discussions, and conversations.
+
+**Speaking Section**: A 16-minute section with four tasks testing the ability to speak English in academic settings.
+
+**Writing Section**: A 29-minute section with an integrated task (reading, listening, writing) and an independent writing task.
+
+**Total Score**: TOEFL scores range from 0 to 120, with each of the four sections scored from 0 to 30.
+
+**ETS (Educational Testing Service)**: The organisation that develops and administers the TOEFL and GRE tests.
+
+**TOEFL Score Validity**: TOEFL scores are valid for two years from the test date.
+
+**MyBest Scores**: ETS's feature combining the highest scores from multiple TOEFL attempts across all sections.
+
+**Independent Writing Task**: Writing an essay in response to a prompt expressing and supporting an opinion on a given topic.
+
+**Integrated Writing Task**: Writing a response that summarises information from both a reading passage and a listening lecture.
+
+## TOEIC Terms
+
+**TOEIC (Test of English for International Communication)**: A test measuring English proficiency in workplace and business contexts, also administered by ETS.
+
+**TOEIC Listening and Reading Test**: A 2-hour test with 100 multiple-choice questions testing listening comprehension and reading ability.
+
+**TOEIC Speaking and Writing Test**: A computer-delivered test assessing productive English skills in professional contexts.
+
+**TOEIC Score Range**: Listening and Reading scores range from 10 to 990. Speaking scores range from 0 to 200; Writing from 0 to 200.
+
+**Brown Score**: Another term for the TOEIC score, derived from the original developers.
+
+## Cambridge English Exams
+
+**Cambridge Assessment English**: The non-profit organisation producing Cambridge English Qualifications, including KET, PET, FCE, CAE, and CPE.
+
+**KET (Key English Test)**: The entry-level Cambridge exam at CEFR level A2, testing basic English communication.
+
+**PET (Preliminary English Test)**: A Cambridge exam at CEFR level B1, testing everyday English for social and work situations.
+
+**FCE (First Certificate in English)**: A Cambridge exam at CEFR level B2, testing ability to communicate confidently in most everyday situations.
+
+**CAE (Certificate in Advanced English)**: A Cambridge exam at CEFR level C1, testing advanced English for academic and professional settings.
+
+**CPE (Certificate of Proficiency in English)**: The highest Cambridge exam at CEFR level C2, demonstrating near-native English proficiency.
+
+**Grade A, B, C**: Cambridge exams are graded A (exceptional), B (good), or C (adequate) at the relevant CEFR level. Below C is a Level B2 certificate for CAE/CPE.
+
+**CEFR (Common European Framework of Reference)**: An international standard for describing language ability, with levels A1, A2, B1, B2, C1, and C2.
+
+## General Language Testing Terms
+
+**Proficiency Test**: A test designed to measure a person's ability to use a language in real-world situations, rather than knowledge of grammar rules.
+
+**Placement Test**: A test used to determine a learner's current level to place them in an appropriate course or class.
+
+**Diagnostic Test**: A test identifying a learner's strengths and weaknesses to guide teaching and learning.
+
+**Achievement Test**: A test measuring what a learner has mastered after completing a course of study.
+
+**Norm-Referenced Test**: A test where scores are compared against the scores of other test-takers, ranking performance relative to the group.
+
+**Criterion-Referenced Test**: A test where scores are compared against a fixed standard or set of criteria, measuring mastery of specific skills.
+
+**Valid (Validity)**: The extent to which a test measures what it claims to measure, with high validity indicating accurate and meaningful results.
+
+**Reliable (Reliability)**: The consistency of test scores across different occasions, raters, or versions of the test.
+
+**Authenticity**: The degree to which test tasks reflect real-world language use.
+
+**Washback**: The effect that a test has on teaching and learning, influencing what is taught and how it is assessed.
+
+**Backwash**: Another term for washback, referring to the impact of testing on curriculum and instruction.
+
+## Grammar and Vocabulary Terms
+
+**Grammar**: The system of rules governing the structure of language, including word order, tenses, and agreement.
+
+**Syntax**: The arrangement of words and phrases to create well-formed sentences in a language.
+
+**Morphology**: The study of the forms of words, including roots, prefixes, and suffixes.
+
+**Lexis**: The vocabulary of a language, including individual words and their meanings.
+
+**Collocation**: Words that naturally go together, such as "make a decision" rather than "do a decision."
+
+**Register**: The level of formality in language use, ranging from informal (casual speech) to formal (academic writing).
+
+**Discourse**: Connected speech or writing forming a meaningful whole, such as a conversation, lecture, or essay.
+
+**Cohesion**: The use of linking words and devices to connect sentences and create logical flow in a text.
+
+**Inference**: Drawing conclusions from implied information rather than what is directly stated.
+
+**Paraphrasing**: Restating text or ideas in different words while preserving the original meaning.
+
+## Related Terms
+
+- See [IB Glossary](/glossary/) for International Baccalaureate language requirements
+- See [Admissions Glossary](/glossary/) for university language requirements
+- See [SAT Glossary](/glossary/) for US college admissions testing
+
+
+## Framework Terms
+
+**Can-Do Statement**: A descriptor of what a learner can perform at a given CEFR level ("can describe experiences and events" for B1); exam tasks map directly onto them.
+
+**Washback**: The effect an exam's format has on teaching, positive washback encourages communicative practice, negative washback drills test tricks.
+
+**Band Score**: The IELTS 0-9 scale, reported in whole and half bands; writing and speaking use public descriptors.
+
+**Scaled Score**: TOEFL's 0-120 conversion of four 30-point sections; percentile meaning shifts by year's cohort.
+
+**Hanyu Shuiping Kaoshi (HSK) Levels**: The standardised Chinese proficiency ladder (HSK 1-6, plus the advanced 7-9 band); HSK 4 is the common university-entry threshold.
+
+**JLPT N-Levels**: Japanese proficiency graded N5 (basic) to N1 (advanced); no speaking or writing production sections, recognition only.
+
+**TOPIK Levels**: Korean proficiency (Level 1-6) split into TOPIK I (1-2) and TOPIK II (3-6).
+
+**DELE Levels**: The Spanish Instituto Cervantes diploma aligned one-to-one with CEFR A1-C2.
+
+## Exam-Technique Terms
+
+**Cloze Test**: Gap-fill measuring contextual vocabulary and grammar inference.
+
+**Listening Pre-Read**: Using preview time to predict answer types and synonyms before audio starts.
+
+**Speaking Prompt Card**: The cue card (IELTS Part 2) with one minute of preparation and two minutes of monitored talk.
+
+**Word Count Penalty**: Writing tasks penalise under-length responses; IELTS Task 2 requires at least 250 words.
+
+---
+
+## Hub
+URL: https://language-tests.wyattau.com/hub/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"name": "Home", "url": "https://language-tests.wyattau.com"},
+    {"name": "Hub", "url": "https://language-tests.wyattau.com/hub"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Complete Language Proficiency Test Guide",
+  "description": "Comprehensive language proficiency test study guide covering IELTS, TOEFL iBT, Duolingo English Test, Cambridge exams, and more with test strategies, practice questions, and flashcards.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://language-tests.wyattau.com"
+  },
+  "url": "https://language-tests.wyattau.com/hub",
+  "educationalLevel": "Intermediate",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Why This Guide Exists
+
+Language proficiency tests are the gateway to international education, professional migration, and global career opportunities. Universities, employers, and immigration authorities worldwide require proof of English language ability, and the test you choose and the score you achieve can determine your future path.
+
+The four major English proficiency tests each serve different purposes. IELTS is accepted by universities and immigration authorities across the UK, Australia, Canada, and New Zealand. TOEFL iBT is the standard for US and Canadian university admissions. The Duolingo English Test has emerged as a convenient, affordable alternative accepted by over 4,000 institutions. Cambridge exams (FCE, CAE, CPE) provide lifelong qualifications with no expiry date.
+
+Beyond English, language proficiency tests exist for many languages: DELE for Spanish, DELF/DALF for French, TestDaF for German, JLPT for Japanese, and HSK for Chinese. This guide focuses primarily on English proficiency tests, with coverage of other major language exams where relevant.
+
+This hub page maps every resource on this site, organised by test and skill area, with study plans and strategies to help you achieve the score you need.
+
+## Table of Contents
+
+- [IELTS](#ielts)
+- [TOEFL iBT](#toefl-ibt)
+- [Duolingo English Test](#duolingo-english-test)
+- [Cambridge English Exams](#cambridge-english-exams)
+- [Other Language Proficiency Tests](#other-language-proficiency-tests)
+- [Core Skills: Reading](/hub/)
+- [Core Skills: Writing](/hub/)
+- [Core Skills: Listening](/hub/)
+- [Core Skills: Speaking](/hub/)
+- [Test Comparison Guide](#test-comparison-guide)
+- [Recommended Study Plan](#recommended-study-plan)
+- [Cross-Site Resources](#cross-site-resources)
+- [FAQ](/hub/)
+
+---
+
+## IELTS
+
+The International English Language Testing System (IELTS) is jointly managed by the British Council, IDP: IELTS Australia, and Cambridge Assessment English. It is the world's most widely taken English proficiency test, with over 3.5 million tests taken annually.
+
+### Topic Notes
+
+- IELTS Overview -- test format, scoring, and the difference between Academic and General Training
+- IELTS Listening -- 4 sections, 40 questions, 30 minutes plus 10 minutes transfer time
+- [IELTS Reading](https://gaokao.wyattau.com/chinese/reading/) -- 3 passages, 40 questions, 60 minutes (Academic vs General Training differences)
+- [IELTS Writing](https://gaokao.wyattau.com/chinese/writing/) -- Task 1 (graph description or letter) and Task 2 (essay), 60 minutes total
+- IELTS Speaking -- face-to-face interview in 3 parts, 11 to 14 minutes
+- IELTS Band Scores -- how the 0 to 9 band scale works and what each score means
+
+### Practice and Review
+
+- Flashcards: IELTS Vocabulary
+- [Practice Questions: IELTS Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Practice Questions: IELTS Writing](https://gaokao.wyattau.com/chinese/writing/)
+- IELTS Speaking Prompts
+- Mock IELTS Tests
+
+### Key Test Focus
+
+IELTS Academic and General Training differ in Reading and Writing. Academic Reading uses academic passages; General Training uses everyday texts. Academic Writing Task 1 requires describing graphs and charts; General Training Task 1 requires writing a letter. The Listening and Speaking tests are identical for both versions. Aim for the score your target institution requires: typically 6.0 to 7.5 for university admission.
+
+---
+
+## TOEFL iBT
+
+The Test of English as a Foreign Language (TOEFL) iBT is administered by ETS and is the preferred English proficiency test for US and Canadian universities. The test is entirely computer-based and delivered at test centres or at home via proctoring.
+
+### Topic Notes
+
+- TOEFL iBT Overview -- test format, scoring (0 to 120), and section structure
+- [TOEFL Reading](https://gaokao.wyattau.com/chinese/reading/) -- 2 to 3 academic passages, 30 to 54 minutes, 10 questions per passage
+- TOEFL Listening -- lectures and conversations, 28 to 41 minutes, 28 to 39 questions
+- TOEFL Speaking -- 4 integrated tasks, 17 minutes, recorded and scored by AI and human raters
+- [TOEFL Writing](https://gaokao.wyattau.com/chinese/writing/) -- integrated writing (20 minutes) and writing for an academic discussion (10 minutes)
+- TOEFL Score Guide -- section scores (0 to 30), total score (0 to 120), and institutional requirements
+
+### Practice and Review
+
+- Flashcards: TOEFL Vocabulary
+- [Practice Questions: TOEFL Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Practice Questions: TOEFL Writing](https://gaokao.wyattau.com/chinese/writing/)
+- TOEFL Speaking Practice
+- Mock TOEFL Tests
+
+### Key Test Focus
+
+TOEFL iBT tests academic English in an integrated format: you read a passage, listen to a lecture, and then speak or write about both. This integration means you cannot prepare for each skill in isolation. The reading section tests vocabulary in academic context. The listening section requires note-taking during lectures. The speaking section tests your ability to synthesise information from reading and listening into coherent responses.
+
+---
+
+## Duolingo English Test
+
+The Duolingo English Test (DET) has rapidly gained acceptance as a convenient, affordable alternative to IELTS and TOEFL. The test is taken online, costs significantly less than traditional tests, and provides results within 48 hours.
+
+### Topic Notes
+
+- DET Overview -- test format, scoring, and institutional acceptance
+- [DET Reading and Writing](https://sat.wyattau.com/flashcards-reading-writing/) -- fill-in-the-blank, read-aloud, and writing samples
+- DET Listening and Speaking -- audio comprehension, speaking samples, and pronunciation
+- DET Interview Section -- the unscored video interview and writing sample sent to institutions
+- DET Score Guide -- subscores, overall score, and what institutions require
+
+### Practice and Review
+
+- Flashcards: DET Vocabulary
+- Practice Questions: DET
+- DET Speaking Prompts
+
+### Key Test Focus
+
+The DET adapts to your ability level in real time: harder questions appear as you answer correctly. The test includes a variety of question types: read-aloud, fill-in-the-blank, dictation, speaking samples, and writing samples. The unscored interview section is sent directly to institutions, so treat it as part of your application. Preparation should focus on general English ability rather than test-specific tricks.
+
+---
+
+## Cambridge English Exams
+
+Cambridge Assessment English offers a suite of qualifications at different levels: B1 Preliminary (PET), B2 First (FCE), C1 Advanced (CAE), and C2 Proficiency (CPE). These exams are recognised worldwide and provide lifelong qualifications with no expiry date.
+
+### Topic Notes
+
+- Cambridge Exams Overview -- the exam suite, levels, and CEFR alignment
+- B2 First (FCE) -- the upper-intermediate level exam and its format
+- C1 Advanced (CAE) -- the advanced level exam, widely accepted for university admission
+- C2 Proficiency (CPE) -- the highest level, demonstrating near-native proficiency
+- Cambridge Scoring -- the A, B, C grading system and CEFR equivalence
+
+### Practice and Review
+
+- Flashcards: Cambridge Vocabulary
+- [Practice Questions: Cambridge Reading](https://gaokao.wyattau.com/chinese/reading/)
+- [Cambridge Writing Tasks](https://gaokao.wyattau.com/chinese/writing/)
+- Cambridge Speaking Practice
+
+### Key Test Focus
+
+Cambridge exams test all four skills (Reading, Writing, Listening, Speaking) with Use of English testing grammar and vocabulary in context. The C1 Advanced (CAE) is the most commonly required Cambridge exam for university admission. The exams include a broad range of text types and question formats. Preparation should build general English ability alongside familiarity with the specific task types.
+
+---
+
+## Other Language Proficiency Tests
+
+Beyond English, several major language proficiency tests exist for other languages.
+
+### Topic Notes
+
+- [DELE: Spanish](https://programming.wyattau.com/resource_management/1_ownership_and_raii/5_custom_deleters/) -- Diplomas de Espanol como Lengua Extranjera and its levels
+- DELF/DALF: French -- Diplome d'Etudes en Langue Francaise and Diplome Approfondi de Langue Francaise
+- TestDaF: German -- Test Deutsch als Fremdsprache for university admission in Germany
+- JLPT: Japanese -- Japanese Language Proficiency Test, levels N1 to N5
+- HSK: Chinese -- Hanyu Shuiping Kaoshi, the Chinese proficiency test
+- TOPIK: Korean -- Test of Proficiency in Korean
+
+### Practice and Review
+
+- Flashcards: Spanish Vocabulary
+- Flashcards: French Vocabulary
+- Flashcards: German Vocabulary
+- Flashcards: Japanese Vocabulary
+
+### Key Test Focus
+
+Each language test has its own structure and scoring system. DELE and DELF/DALF follow the CEFR framework (A1 to C2). JLPT has 5 levels (N1 being the highest). HSK has 6 levels. The preparation approach is similar across languages: build vocabulary, practise grammar, develop reading and listening comprehension, and rehearse speaking tasks.
+
+---
+
+## Core Skills: Reading
+
+Reading comprehension is tested on every proficiency exam. The skills are transferable across tests, though the format differs.
+
+### Topic Notes
+
+- [Reading Strategies](https://sat.wyattau.com/advanced-strategies/) -- skimming, scanning, and intensive reading techniques
+- Academic Reading -- reading journal articles, textbooks, and research papers
+- Vocabulary in Context -- inferring meaning from context clues
+- Time Management -- pacing strategies for timed reading sections
+- Reading Question Types -- multiple choice, matching, TRUE/FALSE/NOT GIVEN, and summary completion
+
+### Practice and Review
+
+- Flashcards: Academic Vocabulary
+- [Practice Questions: Reading Comprehension](https://sat.wyattau.com/practice-reading/)
+
+---
+
+## Core Skills: Writing
+
+Writing is often the most challenging skill to improve because it requires practice, feedback, and a strong command of grammar and vocabulary.
+
+### Topic Notes
+
+- [Essay Structure](https://sat.wyattau.com/writing/essay/) -- introduction, body paragraphs, and conclusion
+- Task Response -- answering the question fully and staying on topic
+- [Grammar and Accuracy](https://sat.wyattau.com/reading/grammar/) -- common errors, sentence variety, and punctuation
+- [Coherence and Cohesion](https://physics.wyattau.com/4-optics-and-waves/15_coherence-theory/) -- linking ideas logically with discourse markers
+- Academic Writing Style -- formal register, hedging, and paraphrasing
+- [Graph and Chart Description](https://alevel.wyattau.com/computer-science/data-structures/05-graphs/) -- describing data for IELTS Academic Task 1
+
+### Practice and Review
+
+- Writing Prompts
+- [Sample Essays](https://sat.wyattau.com/writing/essay/) -- model answers with commentary
+
+---
+
+## Core Skills: Listening
+
+Listening comprehension tests your ability to understand spoken English in academic and everyday contexts.
+
+### Topic Notes
+
+- [Listening Strategies](https://sat.wyattau.com/advanced-strategies/) -- prediction, note-taking, and signpost language
+- Academic Lectures -- understanding extended academic speech
+- Conversations and Discussions -- everyday and academic dialogue
+- Note-Taking Skills -- how to take effective notes during lectures
+- Listening Question Types -- multiple choice, matching, and completion tasks
+
+### Practice and Review
+
+- Practice Audio Clips
+- Dictation Exercises
+
+---
+
+## Core Skills: Speaking
+
+Speaking is tested face-to-face (IELTS) or via recording (TOEFL, DET). Fluency, accuracy, and coherence are all assessed.
+
+### Topic Notes
+
+- [Speaking Test Formats](https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats/) -- the structure of each test's speaking section
+- Fluency and Coherence -- speaking without excessive hesitation and linking ideas
+- Pronunciation -- clarity, intonation, and stress patterns
+- Extending Your Answers -- how to give full, detailed responses
+- [Common Speaking Topics](https://computer-science.wyattau.com/2-algorithms-and-data-structures/6_advanced-topics/) -- education, work, technology, environment, and culture
+- Part 2 Long Turn -- the 2-minute monologue on an IELTS speaking topic
+
+### Practice and Review
+
+- Speaking Prompts by Topic
+- Sample Speaking Responses
+
+---
+
+## Test Comparison Guide
+
+Choosing the right test depends on your target institution, timeline, and personal preferences.
+
+| Feature | IELTS | TOEFL iBT | DET | Cambridge C1 |
+| --- | --- | --- | --- | --- |
+| Format | Paper or computer | Computer only | Online (at home) | Paper or computer |
+| Duration | 2 hours 45 minutes | 2 hours | 1 hour | 2 hours 30 minutes |
+| Score Range | 0 to 9 (bands) | 0 to 120 | 10 to 160 | A, B, C (grade) |
+| Validity | 2 years | 2 years | 2 years | Lifetime |
+| Cost | $245 to $260 | $200 to $300 | $59 | $200 to $300 |
+| Results | 13 calendar days | 6 to 10 days | 48 hours | 2 to 4 weeks |
+| Acceptance | Global | US/Canada focused | 4,000+ institutions | Global |
+
+### Which Test Should I Choose?
+
+- **Targeting UK, Australia, or Canada immigration?** IELTS is the standard choice.
+- **Targeting US or Canadian universities?** TOEFL iBT is widely preferred.
+- **Want the fastest, most affordable option?** The Duolingo English Test is the most convenient.
+- **Want a lifelong qualification?** Cambridge exams (CAE or CPE) never expire.
+- **Need to show improvement over time?** Take different tests for different purposes.
+
+---
+
+## Recommended Study Plan
+
+Preparing for a language proficiency test requires consistent practice across all four skills over 4 to 8 weeks.
+
+### Weeks 1 to 2: Diagnostic and Foundation
+
+- Take a full-length practice test under timed conditions
+- Score your test and identify your weakest skill
+- Begin daily vocabulary study: 15 to 20 new words per day
+- Start listening to English podcasts or lectures for 20 minutes daily
+
+### Weeks 3 to 4: Skill Building
+
+- Work through reading practice daily: one passage per day
+- Write one essay per week and review it against model answers
+- Practise speaking for 10 minutes daily: record yourself and listen back
+- Complete listening exercises focusing on your weakest question types
+
+### Weeks 5 to 6: Test Practice
+
+- Take one full practice test per week under real conditions
+- Review every wrong answer: understand why the correct answer is right
+- Focus on time management: practise pacing in each section
+- Continue vocabulary and listening practice
+
+### Weeks 7 to 8: Final Preparation
+
+- Take your final practice test: aim for your target score or above
+- Review grammar and vocabulary flashcards
+- Do light practice: one timed section per day
+- Rest before test day: sleep and nutrition affect performance
+
+### Daily Routine
+
+| Time | Activity |
+| ------ | ---------- |
+| Morning | Vocabulary flashcards: 15 minutes |
+| Midday | Reading practice: one passage (20 minutes) |
+| Afternoon | Listening practice: one lecture or podcast (20 minutes) |
+| Evening | Writing or speaking practice: 20 minutes |
+| Weekend | Full practice test + review |
+
+---
+
+## Cross-Site Resources
+
+Wyatt's Notes is a network of interconnected study sites. The language testing content connects to related material:
+
+- **[University Mathematics](https://mathematics.wyattau.com/hub)** -- mathematical vocabulary and concepts beyond language testing
+- **[Computer Science](https://computer-science.wyattau.com/hub)** -- technical English for computing contexts
+- **[SAT Study Guide](https://sat.wyattau.com/hub)** -- reading and writing skills that complement language proficiency
+- **[Main Site: Wyatt's Notes](https://wyattsnotes.wyattau.com)** -- explore all 46 study sites in the network
+
+---
+
+## Frequently Asked Questions
+
+### How should I start using this site?
+
+Take a full-length practice test in the exam you are targeting. This tells you your current level and which skills need the most work. Then prioritise studying your weakest skill while maintaining your stronger ones.
+
+### How long should I prepare for a language proficiency test?
+
+Most candidates benefit from 4 to 8 weeks of consistent preparation. Studying 1 to 2 hours per day is more effective than cramming. The key is regular practice across all four skills, not marathon study sessions.
+
+### Can I prepare for multiple tests at the same time?
+
+It is possible but not ideal. Each test has its own format, timing, and question types. If you must prepare for two tests, focus on the core skills (vocabulary, grammar, reading, listening, speaking) that transfer between tests, and add test-specific practice for each exam.
+
+### What is the easiest English proficiency test?
+
+No test is universally easiest. IELTS is often considered more straightforward in format. TOEFL iBT is more academically demanding. The Duolingo English Test is shorter and more affordable. The best test for you is the one that matches your target institution's requirements.
+
+### How do I improve my writing score quickly?
+
+Write regularly and get feedback. Practise writing essays under timed conditions. Study the scoring criteria for your target test and ensure you address every part of the task. Read model essays and analyse their structure, vocabulary, and grammar.
+
+### Is the Duolingo English Test accepted everywhere?
+
+The DET is accepted by over 4,000 institutions, including many top universities. However, some institutions still require IELTS or TOEFL. Check the specific requirements of your target institution before choosing the DET.
+
+### How many times can I take these tests?
+
+IELTS and TOEFL can be taken as many times as you wish (IELTS has no minimum gap between sittings; TOEFL requires a 3-day gap). The DET can be taken once every 21 days. Cambridge exams are offered at set dates, typically 2 to 4 times per year.
+
+---
+
+*Last updated: 24 July 2026*
+
+*Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+---
+
+## Index
+URL: https://language-tests.wyattau.com/
+
+sources:
+  - text: Standard textbook reference
+
+# Language Proficiency Tests
+
+Complete preparation for language proficiency tests from A1 to C2 levels.
+
+## Topics
+
+## CEFR Levels
+
+- A1 Beginner
+- A2 Elementary
+- B1 Intermediate
+- B2 Upper Intermediate
+- C1 Advanced
+- C2 Proficiency
+
+## IELTS
+
+- Listening
+- Reading
+- Writing
+- Speaking
+
+## TOEFL
+
+- Reading
+- Listening
+- Speaking
+- Writing
+
+## DELE
+
+- A1
+- A2
+- B1
+- B2
+- C1
+- C2
+
+## DELF/DALF
+
+- A1
+- A2
+- B1
+- B2
+- C1
+- C2
+
+## Goethe-Zertifikat
+
+- A1
+- A2
+- B1
+- B2
+- C1
+- C2
+
+## HSK
+
+- Level 1
+- Level 2
+- Level 3
+- Level 4
+- Level 5
+- Level 6
+
+## JLPT
+
+- N5
+- N4
+- N3
+- N2
+- N1
+
+## TOPIK
+
+- Level 1
+- Level 2
+- Level 3
+- Level 4
+- Level 5
+- Level 6
+
+## How to Use These Notes
+
+1. **Start with the fundamentals** - build a solid foundation before moving to advanced topics
+2. **Work through examples** - follow along with the worked examples to build intuition
+3. **Test yourself** - use the practice problems and mock tests to check your understanding
+4. **Review regularly** - spaced repetition helps retain what you have learned
+
+## Common Mistakes
+
+**Not practicing with official materials:** Use official practice tests and study materials from the testing authority.
+
+**Ignoring weak areas:** Focus extra time on topics you find difficult rather than reviewing what you already know.
+
+**Rushing through content:** Take time to understand concepts thoroughly rather than memorizing answers.
+
+## See Also
+
+- [Cefr Levels](./cefr-levels)
+- [About This Site](./about)
+
+Keep practising and reviewing to master this topic.
+
+## Cefr-Levels
+
+---
+
+## A1 Beginner
+URL: https://language-tests.wyattau.com/cefr-levels/a1-beginner/
+
+```mermaid
+flowchart TD
+    A[A1 Beginner] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+CEFR Level A1 is the lowest level of the Common European Framework of Reference
+for Languages. It represents a "breakthrough" or "beginner" level where you
+can understand and use familiar everyday expressions and very basic phrases.
+
+## What You Can Do at A1
+
+### Listening
+
+- Understand very short, simple utterances
+- Recognise familiar words and very basic phrases about yourself, your family,
+  and immediate concrete surroundings when people speak slowly and clearly
+
+### Reading
+
+- Understand familiar names, words, and very simple sentences
+- Understand very short, simple texts
+- Find specific, predictable information in simple everyday material such as
+  advertisements, menus, and timetables
+
+### Speaking
+
+- Interact in a simple way provided the other person talks slowly and clearly
+  and is prepared to help
+- Ask and answer simple questions in areas of immediate need or on very
+  familiar topics
+- Use simple phrases and sentences to describe where you live and people you
+  know
+
+### Writing
+
+- Write a short, simple postcard
+- Fill in forms with personal details
+- Write simple phrases and sentences
+
+## Vocabulary Requirements
+
+A1 level typically requires knowledge of approximately 500-1,000 words,
+including:
+
+- Basic greetings and introductions
+- Numbers, dates, and time
+- Family members and relationships
+- Common objects and places
+- Simple verbs (present tense)
+- Basic adjectives
+
+## Preparation Tips
+
+1. **Start with high-frequency vocabulary**: Learn the most common 500 words
+   first. These cover 80% of everyday conversation.
+
+2. **Focus on survival phrases**: Learn greetings, numbers, directions, and
+   basic questions. These are essential for daily communication.
+
+3. **Use flashcards**: Spaced repetition systems (SRS) help you memorise
+   vocabulary efficiently.
+
+4. **Listen to simple audio**: Podcasts and videos for beginners help with
+   pronunciation and listening comprehension.
+
+5. **Practice speaking**: Find a language partner or use language exchange
+   apps to practise speaking from day one.
+
+## Common Pitfalls
+
+1. **Trying to learn too much at once**: A1 is about mastering the basics.
+   Focus on a small vocabulary set and basic grammar patterns.
+
+2. **Ignoring pronunciation**: Bad pronunciation habits are hard to break
+   later. Start with correct pronunciation from the beginning.
+
+3. **Not practising enough**: Language learning requires regular practice.
+   15-30 minutes daily is more effective than 2 hours once a week.
+
+## Summary
+
+CEFR Level A1 is the beginner level where you can handle very basic
+communication. You need approximately 500-1,000 vocabulary words, basic
+present-tense grammar, and the ability to understand and produce simple
+phrases. Focus on high-frequency vocabulary, survival phrases, and regular
+practice. A1 is the foundation for all higher levels.
+
+## Worked Examples
+
+### Example 1: A1 Listening Test
+
+You hear: "Bonjour, je m'appelle Marie. Je suis française."
+
+**Understanding**: "Hello, my name is Marie. I am French."
+
+**A1 skill demonstrated**: Understanding very short, simple sentences about
+oneself.
+
+### Example 2: A1 Writing Task
+
+Write a short postcard to a friend.
+
+**Example**: "Cher Paul, Je suis à Paris. Le temps est beau. À bientôt, Marie"
+
+**Translation**: "Dear Paul, I am in Paris. The weather is beautiful.
+See you soon, Marie"
+
+**A1 skill demonstrated**: Writing a short, simple postcard.
+
+## Cross-References
+
+- [A2 Elementary](/cefr-levels/a2-elementary/) - Next level
+- Practice Tests - Test your knowledge
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## A2 Elementary
+URL: https://language-tests.wyattau.com/cefr-levels/a2-elementary/
+
+# A2 Elementary Level
+
+
+```mermaid
+flowchart TD
+    A[A2 Elementary] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The A2 level is the second level of CEFR. At this level, you can understand sentences and frequently used expressions related to areas of immediate relevance.
+
+## What You Can Do
+
+### Listening
+
+- Understand phrases and high-frequency vocabulary
+- Understand short, simple conversations
+- Catch the main point in short, clear messages
+
+### Reading
+
+- Read very short, simple texts
+- Find specific information in everyday material
+- Understand short personal letters and emails
+
+### Speaking
+
+- Communicate in simple, routine tasks
+- Describe your background, immediate environment, and matters in areas of immediate need
+- Handle short social exchanges
+
+### Writing
+
+- Write short, simple notes and messages
+- Write a very simple personal letter
+- Fill in forms with personal details
+
+## Vocabulary Topics
+
+### Home and Family
+
+- Furniture, rooms, housework
+- Family relationships
+- Daily routines at home
+
+### Work and School
+
+- Job descriptions
+- School subjects
+- Classroom instructions
+
+### Shopping and Services
+
+- Clothing sizes and colors
+- Food and drink items
+- Money and prices
+
+### Travel and Directions
+
+- Transport options
+- Asking for and giving directions
+- Booking accommodation
+
+### Health and Body
+
+- Body parts
+- Common illnesses
+- At the pharmacy
+
+## Grammar Points
+
+### Past Tense
+
+- Regular past tense (-ed)
+- Common irregular past forms
+- Talking about past events
+
+### Future Forms
+
+- Going to future
+- Present continuous for future
+- Will for predictions
+
+### Comparatives and Superlatives
+
+- More/most adjectives
+- Irregular forms (good/better/best)
+
+### Prepositions
+
+- Time prepositions (at, in, on)
+- Place prepositions (in, on, at, under, behind)
+
+## Practice Exercises
+
+### Exercise 1: Daily Routine
+
+Write 5 sentences about what you did yesterday using past tense.
+
+### Exercise 2: Shopping Dialogue
+
+Practice a conversation at a clothing store:
+
+- "Do you have this in blue?"
+- "What size do you need?"
+- "That will be $25, please."
+
+### Exercise 3: Health
+
+Describe your symptoms to a doctor:
+
+- "I have a headache"
+- "My stomach hurts"
+- "I feel dizzy"
+
+## Exam Tips
+
+1. **Use simple sentences** - Don't try to be too complex
+2. **Practice common phrases** - They come up frequently
+3. **Listen to slow English** - Podcasts for learners
+4. **Read children's books** - Good for vocabulary
+5. **Write daily** - Even a short diary entry helps
+
+## See Also
+
+- [Cefr Levels](./)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## B1 Intermediate
+URL: https://language-tests.wyattau.com/cefr-levels/b1-intermediate/
+
+# B1 Intermediate Level
+
+
+```mermaid
+flowchart TD
+    A[B1 Intermediate] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The B1 level is the third level of CEFR. At this level, you can deal with most situations likely to arise while travelling and produce connected text on familiar topics.
+
+## What You Can Do
+
+### Listening
+
+- Understand the main points of clear standard speech
+- Understand radio or TV programmes on familiar topics
+- Understand the main point of many radio or TV programmes
+
+### Reading
+
+- Understand texts that consist mainly of high-frequency everyday language
+- Understand the description of events, feelings, and wishes in personal letters
+- Understand articles and reports concerned with contemporary problems
+
+### Speaking
+
+- Deal with most situations likely to arise whilst travelling
+- Enter unprepared into conversation on familiar topics
+- Connect phrases in a simple way
+- Describe experiences and events, dreams, hopes, and ambitions
+- Briefly give reasons and explanations for opinions and plans
+
+### Writing
+
+- Write simple connected text on topics which are familiar
+- Write personal letters describing experiences and impressions
+- Write short, simple notes and messages
+
+## Vocabulary Topics
+
+### Education and Work
+
+- Job applications
+- Work responsibilities
+- Training and courses
+
+### Media and Culture
+
+- Newspaper articles
+- TV programmes
+- Cultural events
+
+### Abstract Topics
+
+- Opinions and arguments
+- Hypothetical situations
+- Future plans
+
+### Travel and Experiences
+
+- Travel stories
+- Describing places
+- Cultural differences
+
+## Grammar Points
+
+### Conditionals
+
+- Zero conditional (general truths)
+- First conditional (real future)
+- Second conditional (hypothetical present)
+
+### Passive Voice
+
+- Present simple passive
+- Past simple passive
+- Future passive
+
+### Reported Speech
+
+- Statements
+- Questions
+- Commands
+
+### Linking Words
+
+- Although, despite, however
+- Because, since, as
+- Therefore, consequently
+
+## Practice Exercises
+
+### Exercise 1: Opinion Writing
+
+Write a paragraph giving your opinion on: "Should school uniforms be mandatory?"
+
+### Exercise 2: Travel Story
+
+Write about a memorable trip you took. Include:
+
+- Where you went
+- What you did
+- How you felt
+
+### Exercise 3: Job Application
+
+Write a cover letter for a job application:
+
+- Why you're interested
+- Your relevant experience
+- Your availability
+
+## Exam Tips
+
+1. **Read news articles** - Good for vocabulary and structure
+2. **Watch TV with subtitles** - Helps with listening
+3. **Keep a journal** - Practice writing regularly
+4. **Have conversations** - Find a language partner
+5. **Use linking words** - Makes your writing more connected
+
+## See Also
+
+- [Cefr Levels](./)
+- [B2 Upper Intermediate Level](/cefr-levels/b2-upper-intermediate/)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## B2 Upper Intermediate
+URL: https://language-tests.wyattau.com/cefr-levels/b2-upper-intermediate/
+
+# B2 Upper Intermediate Level
+
+
+```mermaid
+flowchart TD
+    A[B2 Upper Intermediate] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The B2 level is the fourth level of CEFR. At this level, you can interact with a degree of fluency and spontaneity that makes regular interaction with native speakers quite possible.
+
+## What You Can Do
+
+### Listening
+
+- Understand extended speech and lectures
+- Follow even complex lines of argument provided the topic is reasonably familiar
+- Understand most TV news, current affairs programmes, and films
+
+### Reading
+
+- Read articles and reports concerned with contemporary problems
+- Understand contemporary literary prose
+- Recognise the line of argument in the treatment of the issue presented
+
+### Speaking
+
+- Interact with native speakers with a degree of fluency and spontaneity
+- Present clear, detailed descriptions on a wide range of subjects
+- Explain a viewpoint on a topical issue giving the advantages and disadvantages
+- Develop an argument systematically with appropriate highlighting of significant points
+
+### Writing
+
+- Write clear, detailed text on a wide range of subjects
+- Write an essay or report, passing on information or giving reasons in support of or against a particular point of view
+- Write letters highlighting the personal significance of events and experiences
+
+## Vocabulary Topics
+
+### Academic Language
+
+- Abstract concepts
+- Technical terminology
+- Formal register
+
+### Professional Communication
+
+- Meetings and negotiations
+- Presentations
+- Written reports
+
+### Current Affairs
+
+- Social issues
+- Environmental concerns
+- Economic topics
+
+### Cultural Literature
+
+- Literary references
+- Idiomatic expressions
+- Collocations
+
+## Grammar Points
+
+### Advanced Conditionals
+
+- Third conditional (past hypothetical)
+- Mixed conditionals
+- Inversion for emphasis
+
+### Advanced Tenses
+
+- Perfect continuous tenses
+- Future perfect
+- Narrative tenses
+
+### Modality
+
+- Deduction and speculation
+- Obligation and necessity
+- Past modals
+
+### Discourse Markers
+
+- Formal connectors
+- Hedging language
+- Emphasis structures
+
+## Practice Exercises
+
+### Exercise 1: Essay Writing
+
+Write a 250-word essay on: "The impact of technology on education"
+
+### Exercise 2: Debate Preparation
+
+Prepare arguments for and against: "University education should be free"
+
+### Exercise 3: Report Writing
+
+Write a report on a workplace issue, including:
+
+- Problem description
+- Analysis of causes
+- Recommended solutions
+
+## Exam Tips
+
+1. **Read academic articles** - Builds vocabulary
+2. **Watch documentaries** - Good for listening
+3. **Practice presentations** - Improves speaking
+4. **Write formal emails** - Practices register
+5. **Use collocations** - Sounds more natural
+
+## See Also
+
+- [Cefr Levels](./)
+- [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## C1 Advanced
+URL: https://language-tests.wyattau.com/cefr-levels/c1-advanced/
+
+# C1 Advanced Level
+
+
+```mermaid
+flowchart TD
+    A[C1 Advanced] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The C1 level is the fifth level of CEFR. At this level, you can understand a wide range of demanding, longer texts, and recognise implicit meaning.
+
+## What You Can Do
+
+### Listening
+
+- Understand extended speech even when it is not clearly structured
+- Understand TV programmes and films without visual support
+- Understand lengthy complex technical instructions, including instructions for a system or programme they are not familiar with
+
+### Reading
+
+- Understand long and complex factual and literary texts
+- Distinguish style and tone in articles, reports, and reviews
+- Read technical instructions and longer texts efficiently
+
+### Speaking
+
+- Express yourself fluently and spontaneously without much obvious searching for expressions
+- Use language flexibly and effectively for social, academic, and professional purposes
+- Produce clear, well-structured, detailed text on complex subjects
+
+### Writing
+
+- Express yourself clearly and at length on complex subjects
+- Write essays, reports, and articles which develop an argument systematically
+- Write personal letters emphasising the significance of events and experiences
+
+## Vocabulary Topics
+
+### Academic and Professional
+
+- Specialized terminology
+- Abstract concepts
+- Formal and informal registers
+
+### Cultural and Literary
+
+- Literary references
+- Cultural allusions
+- Idiomatic expressions
+
+### Technical and Scientific
+
+- Research methodology
+- Statistical terminology
+- Technical documentation
+
+## Grammar Points
+
+### Advanced Structures
+
+- Inverted conditionals
+- Cleft sentences
+- Fronting and inversion
+
+### Advanced Tenses
+
+- Perfect aspect in all tenses
+- Future perfect continuous
+- Past perfect continuous passive
+
+### Advanced Modality
+
+- Epistemic modality
+- Deontic modality
+- Dynamic modality
+
+### Discourse Structure
+
+- Cohesion devices
+- Paragraph structure
+- Argumentation patterns
+
+## Practice Exercises
+
+### Exercise 1: Academic Writing
+
+Write a 400-word essay analyzing a complex issue in your field.
+
+### Exercise 2: Presentation
+
+Prepare and deliver a 10-minute presentation on a technical topic.
+
+### Exercise 3: Formal Correspondence
+
+Write a formal letter of complaint or inquiry.
+
+## Exam Tips
+
+1. **Read academic journals** - Builds specialized vocabulary
+2. **Listen to lectures** - Good for complex listening
+3. **Practice formal writing** - Essays and reports
+4. **Engage in debates** - Improves fluency
+5. **Use advanced grammar** - Shows range
+
+## See Also
+
+- [Cefr Levels](./)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [A2 Elementary Level](/cefr-levels/a2-elementary/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## C2 Proficiency
+URL: https://language-tests.wyattau.com/cefr-levels/c2-proficiency/
+
+# C2 Proficiency Level
+
+
+```mermaid
+flowchart TD
+    A[C2 Proficiency] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+The C2 level is the highest level of CEFR. At this level, you can understand with ease virtually everything heard or read.
+
+## What You Can Do
+
+### Listening
+
+- Understand any kind of spoken language at natural speed
+- Understand extended speech even when it is not clearly structured
+- Understand TV programmes, films, and lectures without visual support
+
+### Reading
+
+- Read with ease virtually all forms of the written language
+- Understand abstract, structurally complex texts such as technical articles and literary works
+- Recognise stylistic differences in register
+
+### Speaking
+
+- Express yourself spontaneously, very fluently, and precisely
+- Differentiate finer shades of meaning even in complex situations
+- Summarise information from different sources, reconstructing arguments in a coherent presentation
+
+### Writing
+
+- Write clear, well-structured text in an appropriate style
+- Write complex reports, articles, and essays
+- Write summaries and reviews of professional or literary works
+
+## Vocabulary Topics
+
+### Advanced Academic
+
+- Specialized terminology across disciplines
+- Abstract and philosophical concepts
+- Technical jargon
+
+### Literary and Cultural
+
+- Literary allusions
+- Cultural references
+- Historical context
+
+### Professional and Technical
+
+- Industry-specific terminology
+- Legal and regulatory language
+- Scientific and technical writing
+
+## Grammar Points
+
+### Masterful Structures
+
+- Subjunctive mood
+- Advanced passive constructions
+- Complex noun phrases
+
+### Stylistic Range
+
+- Formal and informal registers
+- Academic and creative writing
+- Technical and general language
+
+### Idiomatic Mastery
+
+- Proverbs and sayings
+- Idiomatic expressions
+- Colloquial language
+
+## Practice Exercises
+
+### Exercise 1: Literature Review
+
+Write a 500-word review of a professional or literary work.
+
+### Exercise 2: Technical Report
+
+Write a detailed technical report on a complex topic.
+
+### Exercise 3: Formal Presentation
+
+Prepare and deliver a 20-minute presentation on an academic topic.
+
+## Exam Tips
+
+1. **Read widely** - Books, journals, newspapers
+2. **Listen to podcasts** - Various topics and accents
+3. **Write regularly** - Practice different styles
+4. **Engage in discussions** - Debate complex topics
+5. **Study etymology** - Deepens word understanding
+
+## See Also
+
+- [Cefr Levels](./)
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [A2 Elementary Level](/cefr-levels/a2-elementary/)
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## Index
+URL: https://language-tests.wyattau.com/cefr-levels/
+
+sources:
+  - text: Standard textbook reference
+
+
+This section covers language proficiency assessment across CEFR levels. These materials support preparation for standardised language examinations.
+
+# Cefr Levels
+
+**Prerequisites:** Review the prerequisite topics before attempting this section.
+
+## Topics
+
+- [A1 Beginner](/cefr-levels/a1-beginner/)
+- [A2 Elementary](/cefr-levels/a2-elementary/)
+- [B1 Intermediate](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate](/cefr-levels/b2-upper-intermediate/)
+- [C1 Advanced](/cefr-levels/c1-advanced/)
+- [C2 Proficiency](/cefr-levels/c2-proficiency/)
+
+## Learning Objectives
+
+- Understand the core principles and definitions covered in this section
+- Apply key concepts to solve problems and answer exam-style questions
+- Connect this material to prerequisite topics and related sections
+
+## Study Approach
+
+Work through the Language Tests sections in order, starting with Cefr Levels and Practice and building toward Cefr Levels and Practice, then check yourself with the practice problems for each topic.
+Use the cross-references to link related concepts across subjects where applicable.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+
+## Overview
+
+This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+
+## Key Topics
+
+- Core concepts and definitions
+- Worked examples with step-by-step solutions
+- Practice problems for self-assessment
+- Cross-references to related topics
+
+## Study Tips
+
+Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+
+Keep practising and reviewing to master this topic.

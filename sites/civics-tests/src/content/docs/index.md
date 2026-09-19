@@ -63,7 +63,7 @@ Complete preparation for civics and citizenship tests across countries.
 
 ## Overview
 
-This section provides comprehensive study materials and resources. Content is organised to build understanding progressively, from foundational concepts to advanced applications.
+This section provides comprehensive study materials and resources. Work through the Civics Tests sections in order, starting with Practice and Us Citizenship and building toward Practice and Us Citizenship, then check yourself with the practice problems for each topic.
 
 ## Key Topics
 

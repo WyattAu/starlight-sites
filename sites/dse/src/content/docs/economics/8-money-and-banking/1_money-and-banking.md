@@ -1143,7 +1143,7 @@ interest Rates.
 
 </details>
 
-If you get this wrong, revise: [Open Market Operations (OMO)](#open-market-operations-omo)
+If you get this wrong, revise: [Open Market Operations (OMO)](/economics/8-money-and-banking/1_money-and-banking/)
 
 ### Problem 3: Real vs Nominal Interest Rates
 
@@ -1361,7 +1361,7 @@ depositor) provides additional confidence.
 
 </details>
 
-If you get this wrong, revise: [Banking System Stability](#banking-system-stability)
+If you get this wrong, revise: [Banking System Stability](/economics/8-money-and-banking/1_money-and-banking/)
 
 ### Problem 10: Interest Rate Risk and Bank Profitability
 
@@ -1423,7 +1423,7 @@ deposits, reducing the amount of deposits that reprice quickly.
 
 </details>
 
-If you get this wrong, revise: [Bank Management](#bank-management)
+If you get this wrong, revise: [Bank Management](/economics/8-money-and-banking/1_money-and-banking/)
 
 ### Problem 11: Monetary Policy and Asset Price Bubbles
 
@@ -1483,7 +1483,7 @@ aligned with the Fed.
 
 </details>
 
-If you get this wrong, revise: [Monetary Policy and Asset Prices](#monetary-policy-and-asset-prices)
+If you get this wrong, revise: [Monetary Policy and Asset Prices](/economics/8-money-and-banking/1_money-and-banking/)
 
 ### Problem 12: Digital Currencies and the Future of Money
 
@@ -1545,7 +1545,7 @@ carefully managing the risks to financial stability.
 
 </details>
 
-If you get this wrong, revise: [Future of Money](#future-of-money)
+If you get this wrong, revise: [Future of Money](/economics/8-money-and-banking/1_money-and-banking/)
 
 ---
 
@@ -1598,7 +1598,7 @@ unwilling to reduce lending if loan demand is strong (they may sell other assets
 
 </details>
 
-If you get this wrong, revise: [Open Market Operations](#open-market-operations)
+If you get this wrong, revise: [Open Market Operations](/economics/8-money-and-banking/1_money-and-banking/)
 
 ### Problem 14: Inflation Targeting and Central Bank Credibility
 

@@ -416,7 +416,7 @@ Understanding algorithms and data structures is essential for writing efficient 
 
 ### Practice
 
-- [Algorithms Guide](algorithms), topic-by-topic notes with complexity analysis
+- Algorithms Guide, topic-by-topic notes with complexity analysis
 - [Algorithm Practice Problems](/practice-algorithms/), worked examples and challenge problems
 
 ---

@@ -501,22 +501,22 @@ public:
 
     void update_progress(int pct) {
         std::visit(overloaded{
-            [](Idle&) { std::cout << "  ignore: not loading\n"; },
+             { std::cout << "  ignore: not loading\n"; },
             [&](Loading& l) { l.progress = pct; },
-            [](Active&) { std::cout << "  ignore: already active\n"; },
-            [](Error&) { std::cout << "  ignore: in error state\n"; },
+             { std::cout << "  ignore: already active\n"; },
+             { std::cout << "  ignore: in error state\n"; },
         }, state_);
     }
 
     void finish_load() {
         std::visit(overloaded{
-            [](Idle&) { std::cout << "  error: not loading\n"; },
+             { std::cout << "  error: not loading\n"; },
             [&](Loading& l) {
                 std::cout << "  loaded " << l.resource << "\n";
                 state_ = Active{42};
             },
-            [](Active&) { std::cout << "  ignore: already active\n"; },
-            [](Error&) { std::cout << "  ignore: in error state\n"; },
+             { std::cout << "  ignore: already active\n"; },
+             { std::cout << "  ignore: in error state\n"; },
         }, state_);
     }
 

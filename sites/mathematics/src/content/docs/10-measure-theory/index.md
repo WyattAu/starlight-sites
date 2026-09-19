@@ -121,9 +121,9 @@ Pointwise convergence does not imply convergence in $L^p$ without a dominating f
 
 ## Cross-References
 
-- **[Real Analysis](../../../../../typescript/src/content/docs/index):** Foundational analysis concepts extended by measure theory.
-- **[Functional Analysis](../../../../../typescript/src/content/docs/index):** L^p spaces and operator theory built on measure.
-- **[Probability and Statistics](../../../../../typescript/src/content/docs/index):** Measure-theoretic probability foundations.
+- **Real Analysis:** Foundational analysis concepts extended by measure theory.
+- **Functional Analysis:** L^p spaces and operator theory built on measure.
+- **Probability and Statistics:** Measure-theoretic probability foundations.
 
 - [Classical Mechanics](https://physics.wyattau.com/docs/classical-mechanics)
 - [Electromagnetism](https://physics.wyattau.com/docs/electromagnetism)

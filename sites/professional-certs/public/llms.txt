@@ -2,18 +2,16 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Complete preparation for professional certification exams.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site | professional-certs](https://professional-certs.wyattau.com/about/): About Wyatt's Notes Professional Certifications resources, experience, expertise, and credentials behind professional certification study materials.
-- [Professional Certification Glossary, IT Terms](https://professional-certs.wyattau.com/glossary/): Comprehensive glossary of professional IT certification terms covering AWS, CompTIA, Cisco, Microsoft, and cloud computing certifications.
-- [Professional Certification Study Guides](https://professional-certs.wyattau.com/hub/): Study notes for Professional Certification Study Guides with worked examples, practice problems, and key concepts for exam preparation.
-- [Professional Certifications | professional-certs](https://professional-certs.wyattau.com/): Complete preparation for professional certification exams.
+- [About](https://professional-certs.wyattau.com/about/)
+- [Glossary](https://professional-certs.wyattau.com/glossary/)
+- [Hub](https://professional-certs.wyattau.com/hub/)
+- [Index](https://professional-certs.wyattau.com/)
 
 ## Aws
 
-- [AWS Cloud Practitioner | professional-certs](https://professional-certs.wyattau.com/aws/cloud-practitioner/): The AWS Cloud Practitioner certification is an entry-level certification that validates foundational knowledge of AWS Cloud services and concepts.
-- [AWS Cloud Practitioner Essentials](https://professional-certs.wyattau.com/aws/cloud-practitioner-essentials/): Study guide for the AWS Cloud Practitioner certification covering cloud concepts, security, technology, and billing.
+- [Cloud Practitioner](https://professional-certs.wyattau.com/aws/cloud-practitioner/)
+- [Cloud Practitioner Essentials](https://professional-certs.wyattau.com/aws/cloud-practitioner-essentials/)

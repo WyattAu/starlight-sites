@@ -2,41 +2,39 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-SAT revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://sat.wyattau.com/about/): About Wyatt's Notes SAT resources, experience, expertise, and credentials behind US college admissions test preparation materials.
-- [Advanced Strategies](https://sat.wyattau.com/advanced-strategies/): These strategies go beyond content knowledge. They address the meta-skills of test-taking: pacing, decision-making under time pressure, and maximising your
-- [Complete SAT Study Guide, Math, Reading, Writing](https://sat.wyattau.com/hub/): Study notes for Complete SAT Study Guide, Math, Reading, Writing with worked examples, practice problems, and key concepts for exam preparation.
-- [Introduction to SAT Notes](https://sat.wyattau.com/intro/): The SAT, administered by the College Board, is a standardised test widely used for undergraduate admissions in the United States. Since 2024 the SAT has
-- [Math Flashcards](https://sat.wyattau.com/flashcards-math/): QUALIFICATIONS Sat flashcards: Math Flashcards. Comprehensive study material with definitions, examples, and assessment tools.
-- [Mathematics](https://sat.wyattau.com/mathematics/): The Mathematics section of the digital SAT consists of across , split into two adaptive modules of 22 questions each (35 minutes per module). Approximately
-- [mathematics practice](https://sat.wyattau.com/practice-math/): This page contains 25 practice problems organised by the four content domains of the SAT Mathematics section. Each problem includes a step-by-step solution,
-- [Reading and Writing](https://sat.wyattau.com/reading-and-writing/): Study notes for Reading and Writing with worked examples, practice problems, and key concepts for exam preparation.
-- [reading and writing practice](https://sat.wyattau.com/practice-reading/): Study notes for reading and writing practice with worked examples, practice problems, and key concepts for exam preparation.
-- [SAT - Wyatt's Notes](https://sat.wyattau.com/): SAT revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-- [SAT Flashcards: Reading and Writing](https://sat.wyattau.com/flashcards-reading-writing/): SAT Flashcards: Reading and Writing: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [SAT Glossary, Key Terms for Math and Verbal](https://sat.wyattau.com/glossary/): Scholastic Assessment Test (SAT): A standardized college admissions test developed by the College Board, measuring reading, writing, and math skills.
-- [SAT Math Advanced Flashcards](https://sat.wyattau.com/flashcards-math-advanced/): QUALIFICATIONS Sat flashcards: SAT Math Advanced Flashcards. Comprehensive study material with definitions, examples, and assessment tools.
-- [SAT Practice Test, 50 Questions](https://sat.wyattau.com/practice-test-mega/): 50 SAT-style practice questions covering Math, Reading, and Writing sections. Multiple choice with detailed explanations and difficulty ratings.
-- [Science Practice Questions](https://sat.wyattau.com/science-question-bank/): This page contains 15 practice problems covering general science topics commonly tested on standardised science sections such as the test and other
+- [About](https://sat.wyattau.com/about/)
+- [Advanced Strategies](https://sat.wyattau.com/advanced-strategies/)
+- [Flashcards Math](https://sat.wyattau.com/flashcards-math/)
+- [Flashcards Math Advanced](https://sat.wyattau.com/flashcards-math-advanced/)
+- [Flashcards Reading Writing](https://sat.wyattau.com/flashcards-reading-writing/)
+- [Glossary](https://sat.wyattau.com/glossary/)
+- [Hub](https://sat.wyattau.com/hub/)
+- [Index](https://sat.wyattau.com/)
+- [Intro](https://sat.wyattau.com/intro/)
+- [Mathematics](https://sat.wyattau.com/mathematics/)
+- [Practice Math](https://sat.wyattau.com/practice-math/)
+- [Practice Reading](https://sat.wyattau.com/practice-reading/)
+- [Practice Test Mega](https://sat.wyattau.com/practice-test-mega/)
+- [Reading And Writing](https://sat.wyattau.com/reading-and-writing/)
+- [Science Question Bank](https://sat.wyattau.com/science-question-bank/)
 
 ## Mathematics
 
-- [Algebra](https://sat.wyattau.com/mathematics/algebra/): Study notes for Algebra with worked examples, practice problems, and key concepts for exam preparation.
-- [Data analysis](https://sat.wyattau.com/mathematics/data-analysis/): Study notes for Data analysis with worked examples, practice problems, and key concepts for exam preparation.
-- [Geometry](https://sat.wyattau.com/mathematics/geometry/): Study notes for Geometry with worked examples, practice problems, and key concepts for exam preparation.
-- [Mathematics](https://sat.wyattau.com/mathematics/): This section covers mathematics concepts, definitions, and applications with worked examples and practice problems.
+- [Algebra](https://sat.wyattau.com/mathematics/algebra/)
+- [Data Analysis](https://sat.wyattau.com/mathematics/data-analysis/)
+- [Geometry](https://sat.wyattau.com/mathematics/geometry/)
+- [Index](https://sat.wyattau.com/mathematics/)
 
 ## Reading
 
-- [Comprehension](https://sat.wyattau.com/reading/comprehension/): Study notes for Comprehension with worked examples, practice problems, and key concepts for exam preparation.
-- [Grammar](https://sat.wyattau.com/reading/grammar/): Study notes for Grammar with worked examples, practice problems, and key concepts for exam preparation.
+- [Comprehension](https://sat.wyattau.com/reading/comprehension/)
+- [Grammar](https://sat.wyattau.com/reading/grammar/)
 
 ## Writing
 
-- [Essay | SAT - Wyatt's Notes](https://sat.wyattau.com/writing/essay/): Study notes for Essay with worked examples, practice problems, and key concepts for exam preparation.
-- [Language](https://sat.wyattau.com/writing/language/): Study notes for Language with worked examples, practice problems, and key concepts for exam preparation.
+- [Essay](https://sat.wyattau.com/writing/essay/)
+- [Language](https://sat.wyattau.com/writing/language/)

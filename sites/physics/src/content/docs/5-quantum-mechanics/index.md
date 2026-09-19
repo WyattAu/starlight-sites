@@ -120,10 +120,10 @@ Each section includes:
 
 ## Cross-References
 
-- **[Classical Mechanics](../../../../../typescript/src/content/docs/index):** Classical limit of quantum mechanics; the correspondence principle connects quantum to classical.
-- **[Electromagnetism](../../../../../typescript/src/content/docs/index):** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
-- **[Particle Physics](../../../../../typescript/src/content/docs/index):** Quantum field theory and particle physics; quantum mechanics is the foundation.
-- **[Thermal Physics](../../../../../typescript/src/content/docs/index):** Statistical mechanics uses quantum theory to explain thermodynamic properties.
+- **Classical Mechanics:** Classical limit of quantum mechanics; the correspondence principle connects quantum to classical.
+- **Electromagnetism:** Quantum electrodynamics; the quantum theory of electromagnetic interactions.
+- **Particle Physics:** Quantum field theory and particle physics; quantum mechanics is the foundation.
+- **Thermal Physics:** Statistical mechanics uses quantum theory to explain thermodynamic properties.
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/docs/linear-algebra)

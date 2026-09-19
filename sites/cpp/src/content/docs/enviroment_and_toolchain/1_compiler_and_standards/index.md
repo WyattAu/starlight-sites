@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "1_compiler_and_standards"
-description: "This section provides study materials and resources for 1_compiler_and_standards. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for 1_compiler_and_standards. Work through the C++ sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for 1_compiler_and_standards. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for 1_compiler_and_standards. Use the diagnostic tests to find out whether 1_compiler_and_standards needs another pass before your exam, rather than revising topics you have already mastered.
 
 # 1_compiler_and_standards
 
@@ -32,7 +32,7 @@ This section provides study materials and resources for 1_compiler_and_standards
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+If 1_compiler_and_standards feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

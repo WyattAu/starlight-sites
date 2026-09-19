@@ -79,13 +79,13 @@ GCSE Biology covers cell biology, organisation, infection and response, bioenerg
 ### Topic Notes
 
 - [Cell Biology](/biology/1-cell-biology/1_cell-biology/), cell structure, organelles, and microscopy
-- [Cell Division](/biology/1-cell-biology/2_cell-division), mitosis, meiosis, and the cell cycle
-- [Organisation](/biology/2-organisation/1_organisation), levels of organisation, specialised cells, and organ systems
-- [Plant Organisation](/biology/2-organisation/2_plant-organisation), transport systems in plants, xylem, and phloem
-- [Infection and Response](/biology/3-infection-and-response/1_infection-and-response), pathogens, immune system, and vaccination
-- [Bioenergetics](/biology/4-bioenergetics/1_bioenergetics), photosynthesis, cellular respiration, and metabolic pathways
+- Cell Division, mitosis, meiosis, and the cell cycle
+- Organisation, levels of organisation, specialised cells, and organ systems
+- Plant Organisation, transport systems in plants, xylem, and phloem
+- Infection and Response, pathogens, immune system, and vaccination
+- Bioenergetics, photosynthesis, cellular respiration, and metabolic pathways
 - [Homeostasis](https://alevel.wyattau.com/biology/homeostasis/), nervous system, hormonal coordination, and feedback mechanisms
-- [Inheritance and Variation](/biology/6-inheritance/1_inheritance), genetics, DNA, evolution, and genetic engineering
+- Inheritance and Variation, genetics, DNA, evolution, and genetic engineering
 - [Ecology](https://dse.wyattau.com/biology/2-ecology/1_ecology/), ecosystems, biodiversity, and environmental change
 
 ### Practice and Review
@@ -105,18 +105,18 @@ GCSE Chemistry covers atomic structure and bonding, quantitative chemistry, chem
 - [Atomic Structure and Bonding](https://dse.wyattau.com/chemistry/1-atomic-structure-and-bonding/1_atomic-structure-and-bonding/), electron configuration, ionic, covalent, and metallic bonding
 - [States of Matter](https://ib.wyattau.com/chemistry/1-stoichiometry/2_states-of-matter/), solids, liquids, gases, and changes of state
 - [Quantitative Chemistry](https://alevel.wyattau.com/chemistry/quantitative-chemistry/), moles, concentration, yield, and titrations
-- [Chemical Changes](/chemistry/3-chemical-changes/1_chemical-changes), acids, bases, electrolysis, and reactivity series
+- Chemical Changes, acids, bases, electrolysis, and reactivity series
 - [Energy Changes](/physics/1-energy/1_energy/), exothermic and endothermic reactions, bond energies
-- [Rate of Reaction](/chemistry/5-rate-of-reaction/1_rate-of-reaction), collision theory, factors affecting rate, and graphs
+- Rate of Reaction, collision theory, factors affecting rate, and graphs
 - [Organic Chemistry](https://dse.wyattau.com/chemistry/7-organic-chemistry/1_organic-chemistry/), hydrocarbons, alcohols, carboxylic acids, and polymers
-- [Chemical Analysis](/chemistry/7-chemical-analysis/1_chemical-analysis), pure substances, mixtures, and chromatography
-- [The Atmosphere](/chemistry/8-the-atmosphere/1_the-atmosphere), composition, climate change, and greenhouse gases
+- Chemical Analysis, pure substances, mixtures, and chromatography
+- The Atmosphere, composition, climate change, and greenhouse gases
 - [Using Resources](https://dse.wyattau.com/geography/resources/), sustainability, water treatment, and life cycle assessment
 
 ### Practice and Review
 
 - [Flashcards: Atomic Structure](https://ib.wyattau.com/chemistry/flashcards-atomic-structure/)
-- [Practice Questions: Bonding](/chemistry/practice-bonding)
+- Practice Questions: Bonding
 - [Diagnostic Quizzes](/chemistry/diagnostics/), assess your strengths and weaknesses across chemistry topics
 
 ---
@@ -133,15 +133,15 @@ GCSE Computer Science covers computational thinking, algorithms, programming, da
 - [Programming Fundamentals](https://dse.wyattau.com/ict/3-programming-and-databases/1_programming-fundamentals/), variables, control structures, and I/O
 - [Programming Concepts](https://leaving-cert.wyattau.com/computer-science/2-programming/2_programming/), functions, arrays, file handling, and string manipulation
 - [Computer Systems](https://dse.wyattau.com/ict/2-computer-systems/1_computer-systems/), hardware, software, and the CPU
-- [Memory and Storage](/computer-science/4-computer-systems/2_memory-and-storage), RAM, ROM, and secondary storage
+- Memory and Storage, RAM, ROM, and secondary storage
 - [Networking](https://computer-science.wyattau.com/2-systems/networking/), network types, protocols, and the internet
-- [Cybersecurity](/computer-science/6-cybersecurity/1_cybersecurity), threats, protection, and data security
-- [Ethical, Legal, Cultural, and Environmental Issues](/computer-science/7-ethics/1_ethics), legislation, copyright, and digital citizenship
+- Cybersecurity, threats, protection, and data security
+- Ethical, Legal, Cultural, and Environmental Issues, legislation, copyright, and digital citizenship
 
 ### Practice and Review
 
 - [Flashcards: Algorithms](https://alevel.wyattau.com/computer-science/flashcards-algorithms/)
-- [Practice Questions: Programming](/computer-science/practice-programming)
+- Practice Questions: Programming
 - [Diagnostic Quizzes](/computer-science/diagnostics/), test across all computer science topics
 
 ---
@@ -177,11 +177,11 @@ GCSE Mathematics covers number, algebra, ratio and proportion, geometry and meas
 
 - [Number](/maths/1-number/1_number/), integers, fractions, decimals, percentages, and surds
 - [Algebra](https://leaving-cert.wyattau.com/maths/1-algebra/1_algebra/), expressions, equations, inequalities, sequences, and graphs
-- [Ratio and Proportion](/maths/3-ratio/1_ratio), ratios, percentages, compound measures, and direct/inverse proportion
+- Ratio and Proportion, ratios, percentages, compound measures, and direct/inverse proportion
 - [Geometry and Measure](https://sat.wyattau.com/mathematics/geometry/), angles, polygons, circles, trigonometry, vectors, and transformations
 - [Probability](https://ib.wyattau.com/maths/4-statistics-and-probability/1_probability/), single events, combined events, tree diagrams, and conditional probability
-- [Statistics](/maths/6-statistics/1_statistics), averages, spread, frequency tables, cumulative frequency, and scatter graphs
-- [Problem Solving](/maths/7-problem-solving/1_problem-solving), multi-step problems, mathematical reasoning, and real-world applications
+- Statistics, averages, spread, frequency tables, cumulative frequency, and scatter graphs
+- Problem Solving, multi-step problems, mathematical reasoning, and real-world applications
 
 ### Practice and Review
 
@@ -199,15 +199,15 @@ GCSE Physics covers energy, electricity, particle model of matter, atomic struct
 
 - [Energy](/physics/1-energy/1_energy/), energy stores, transfers, efficiency, and power
 - [Electricity](https://gaokao.wyattau.com/physics/electricity/), current, voltage, resistance, circuits, and the national grid
-- [Particle Model of Matter](/physics/3-particle-model/1_particle-model), states of matter, density, and specific heat capacity
+- Particle Model of Matter, states of matter, density, and specific heat capacity
 - [Atomic Structure](https://leaving-cert.wyattau.com/chemistry/1-atomic-structure/1_atomic-structure/), the atom, radioactive decay, and half-life
 - [Forces](https://dse.wyattau.com/physics/1-mechanics/1_forces-and-motion/), Newton's laws, resultant forces, momentum, and braking distance
 - [Waves](https://dse.wyattau.com/physics/2-waves/1_waves-and-sound/), transverse and longitudinal waves, reflection, refraction, and the electromagnetic spectrum
-- [Magnetism and Electromagnetic Induction](/physics/7-magnetism/1_magnetism), magnetic fields, the motor effect, and induced EMF
+- Magnetism and Electromagnetic Induction, magnetic fields, the motor effect, and induced EMF
 
 ### Practice and Review
 
-- [Flashcards: Forces](/physics/flashcards-forces)
+- Flashcards: Forces
 - [Practice Questions: Electricity](https://ib.wyattau.com/physics/practice-electricity/)
 - [Diagnostic Quizzes](/physics/diagnostics/), test across all physics topics
 

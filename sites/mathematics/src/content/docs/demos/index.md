@@ -10,7 +10,7 @@ sources:
   - text: Spivak - Calculus
 
 
-This section covers essential mathematical techniques and theories. These foundations underpin quantitative reasoning across the sciences and are tested in both pure and applied contexts.
+This section covers essential mathematical techniques and theories. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Demos
 

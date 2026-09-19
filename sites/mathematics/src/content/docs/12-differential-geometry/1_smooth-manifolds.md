@@ -119,7 +119,7 @@ diffeomorphisms.
 
 **Lie bracket.** The Lie bracket of two vector fields $X, Y$ is:
 
-$$[X, Y](f) = X(Y(f)) - Y(X(f))$$
+$$X, Y = X(Y(f)) - Y(X(f))$$
 
 In coordinates: $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$.
 

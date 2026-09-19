@@ -147,7 +147,7 @@ Lanthanoids are used in magnets (Nd$_2$Fe$_{14}$B), electronics (Ce in catalytic
 
 ## Cross-References
 
-- **[D-Block Elements](../d-block/index):** Lanthanoid contraction directly affects Period 6 d-block elements (Zr ≈ Hf, Nb ≈ Ta), connecting f-block trends to d-block chemistry.
-- **[Coordination Compounds](../coordination/index):** Lanthanoid ions form coordination complexes, though with less variety than d-block metals due to their fixed +3 oxidation state.
-- **[Electrochemistry](../electrochemistry/index):** The different oxidation states of cerium (Ce³⁺/Ce⁴⁺) are used in redox titrations and electrochemical applications.
-- **[Atoms and Nuclei (Physics)](../../physics/atoms-nuclei/index):** Actinoid radioactive decay and nuclear binding energy connect f-block chemistry to nuclear physics.
+- **D-Block Elements:** Lanthanoid contraction directly affects Period 6 d-block elements (Zr ≈ Hf, Nb ≈ Ta), connecting f-block trends to d-block chemistry.
+- **Coordination Compounds:** Lanthanoid ions form coordination complexes, though with less variety than d-block metals due to their fixed +3 oxidation state.
+- **Electrochemistry:** The different oxidation states of cerium (Ce³⁺/Ce⁴⁺) are used in redox titrations and electrochemical applications.
+- **Atoms and Nuclei (Physics):** Actinoid radioactive decay and nuclear binding energy connect f-block chemistry to nuclear physics.

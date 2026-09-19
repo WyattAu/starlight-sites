@@ -1323,7 +1323,7 @@ can achieve the efficient outcome at lower cost than private bargaining.
 </details>
 
 If you get this wrong, revise:
-[Coase Theorem and Property Rights](#coase-theorem-and-property-rights)
+[Coase Theorem and Property Rights](/economics/4-market-failure/1_market-failure-and-government-intervention/)
 
 ### Problem 10: Merit Goods and Demerit Goods
 
@@ -1369,7 +1369,7 @@ benefit beyond what the tax alone achieves.
 
 </details>
 
-If you get this wrong, revise: [Government Intervention Methods](#government-intervention-methods)
+If you get this wrong, revise: [Government Intervention Methods](/economics/4-market-failure/1_market-failure-and-government-intervention/)
 
 ### Problem 11: Tragedy of the Commons -- Fisheries Management
 

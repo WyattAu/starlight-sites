@@ -1496,7 +1496,7 @@ currencies, making non-USD imports cheaper and HKD exports more expensive.
 
 </details>
 
-If you get this wrong, revise: [Exchange Rates and Inflation](#exchange-rates-and-inflation)
+If you get this wrong, revise: [Exchange Rates and Inflation](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ### Problem 11: Balance of Payments and the Mundell-Fleming Model
 
@@ -1545,7 +1545,7 @@ the HKMA to expand the money supply, amplifying the stimulus.
 
 </details>
 
-If you get this wrong, revise: [Mundell-Fleming Model](#mundell-fleming-model)
+If you get this wrong, revise: [Mundell-Fleming Model](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ### Problem 12: Foreign Direct Investment and Development
 
@@ -1580,7 +1580,7 @@ now creates a growing primary income deficit in the BOP.
 
 </details>
 
-If you get this wrong, revise: [Foreign Direct Investment](#foreign-direct-investment)
+If you get this wrong, revise: [Foreign Direct Investment](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ---
 
@@ -1626,7 +1626,7 @@ loss $\to$ crisis. Reserves are finite; when exhausted, devaluation is forced.
 
 </details>
 
-If you get this wrong, revise: [Currency Crises](#currency-crises)
+If you get this wrong, revise: [Currency Crises](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ### Problem 14: Global Value Chains and Trade in Value Added
 
@@ -1663,7 +1663,7 @@ finance.
 
 </details>
 
-If you get this wrong, revise: [Global Value Chains](#global-value-chains)
+If you get this wrong, revise: [Global Value Chains](/economics/7-international-trade/1_international-trade-and-finance/)
 
 ### Problem 15: Development Strategies -- ISI vs Export Promotion
 

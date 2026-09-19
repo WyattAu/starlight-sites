@@ -179,9 +179,9 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 ## Cross-References
 
 - **[Electric Charge (01-electric-charge)](/physics/electrostatics/01-electric-charge/):** Electric fields are created by charges, understanding Coulomb's law is prerequisite to understanding field calculations.
-- **[Electrostatics](../../../../../../typescript/src/content/docs/index):** Gauss's law and electric potential are closely linked to the electric field concept.
-- **[Current Electricity](../current-electricity/index):** Electric fields drive current through conductors, connecting static fields to dynamic flow.
-- **[Magnetic Effects](../magnetic-effects/index):** Moving charges produce magnetic fields, extending the electric field concept to magnetism.
+- **Electrostatics:** Gauss's law and electric potential are closely linked to the electric field concept.
+- **Current Electricity:** Electric fields drive current through conductors, connecting static fields to dynamic flow.
+- **Magnetic Effects:** Moving charges produce magnetic fields, extending the electric field concept to magnetism.
 
 ### Mistake 3: Forgetting that electric field is a vector and must be added as such
 

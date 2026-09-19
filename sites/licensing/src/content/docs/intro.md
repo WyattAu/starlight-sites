@@ -79,7 +79,7 @@ Choosing the wrong license can have lasting consequences for your project. A GPL
 ## Cross-References
 
 - **[Site Home](../../):** Main landing page for licensing notes.
-- **[Practice](../../practice-*):** Practice problems for revision.
+- **Practice:** Practice problems for revision.
 
 
 ## Detailed Content

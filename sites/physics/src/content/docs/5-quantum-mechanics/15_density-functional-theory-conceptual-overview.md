@@ -32,13 +32,13 @@ principle applies: $E_0 \leq E[n]$ for any trial density $n(\mathbf{r})$.
 The interacting system is mapped to a fictitious system of non-interacting electrons in an effective
 potential:
 
-$$\left[-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{eff}[n](\mathbf{r})\right]\psi_i(\mathbf{r}) = \varepsilon_i\psi_i(\mathbf{r})}$$
+$$\left-\frac{\hbar^2}{2m}\nabla^2 + V_{\text{eff}[n\right]\psi_i(\mathbf{r}) = \varepsilon_i\psi_i(\mathbf{r})}$$
 
 $$n(\mathbf{r}) = \sum_{i=1}^{N}|\psi_i(\mathbf{r})|^2 \quad \text{(summing over occupied states)}$$
 
 $$V_{\text{eff} = V_{\text{ext} + V_H[n] + V_{\text{xc}[n]}}}$$
 
-$$V_H[n](\mathbf{r}) = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
+$$V_Hn = e^2\int\frac{n(\mathbf{r}")}{|\mathbf{r} - \mathbf{r}'|}\,d^3r' \quad \text{(Hartree potential)}$$
 
 The exchange-correlation functional $V_{\text{xc}[n]}$ contains all many-body effects beyond the
 classical Hartree approximation.

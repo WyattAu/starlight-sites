@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Advanced"
-description: "This section provides study materials and resources for advanced. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for advanced. Work through the Go sections in order, starting with Advanced and Basics and building toward Advanced, Basics, Concurrency, Intermediate and Standard Library, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for advanced. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for advanced. Use the diagnostic tests to find out whether Advanced needs another pass before your exam, rather than revising topics you have already mastered.
 
 # Advanced
 
@@ -33,7 +33,7 @@ This section provides study materials and resources for advanced. Browse the top
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+The Advanced section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Advanced Topics"
-description: "This section provides study materials and resources for advanced topics. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for advanced topics. Work through the Python sections in order, starting with Advanced Topics and Async and building toward Advanced Topics, Async, Best Practices, Data Structures, Fundamentals, Object Oriented and Standard Library, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for advanced topics. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for advanced topics. If Advanced Topics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
 # Advanced Topics
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for advanced topics. Browse 
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Use the diagnostic tests to find out whether Advanced Topics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

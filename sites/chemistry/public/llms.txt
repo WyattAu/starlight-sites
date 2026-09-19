@@ -2,55 +2,53 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-This section covers chemistry concepts, definitions, and applications with worked examples and practice problems.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Physical-Chemistry
 
-- [Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/): For the reaction, the rate of reaction is: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Chemical Kinetics -- Practice Problems](https://chemistry.wyattau.com/1-physical-chemistry/practice-chemical-kinetics/): 10 MCQ questions covering rate laws, integrated rate laws, reaction mechanisms, the Arrhenius equation, and catalysis. Select an option to check your answer
-- [Physical Chemistry](https://chemistry.wyattau.com/1-physical-chemistry/): Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.
-- [Physical Chemistry -- Practice Problems](https://chemistry.wyattau.com/1-physical-chemistry/practice-physical-chemistry/): Problem: A drug degrades via first-order kinetics with  min at 25°C. If the initial concentration is 100 mg/L, how long does it take for the concentration to
-- [Practice](https://chemistry.wyattau.com/1-physical-chemistry/practice-statistical-mechanics/): Auto-generated practice questions.
-- [Quantum Chemistry](https://chemistry.wyattau.com/1-physical-chemistry/quantum-chemistry/): University Quantum Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
-- [Quantum Chemistry -- Practice Problems](https://chemistry.wyattau.com/1-physical-chemistry/practice-quantum-chemistry/): 10 MCQ questions covering the Schrodinger equation, particle in a box, atomic orbitals, angular momentum, vibrational/rotational spectroscopy, and molecular
-- [Statistical Mechanics](https://chemistry.wyattau.com/1-physical-chemistry/statistical-mechanics/): University Chemistry Statistical Mechanics notes covering key definitions, core concepts, worked examples, and practice questions for study and revision.
-- [Thermodynamics](https://chemistry.wyattau.com/1-physical-chemistry/thermodynamics/): University Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.
+- [Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/chemical-kinetics/)
+- [Index](https://chemistry.wyattau.com/1-physical-chemistry/)
+- [Practice Chemical Kinetics](https://chemistry.wyattau.com/1-physical-chemistry/practice-chemical-kinetics/)
+- [Practice Physical Chemistry](https://chemistry.wyattau.com/1-physical-chemistry/practice-physical-chemistry/)
+- [Practice Quantum Chemistry](https://chemistry.wyattau.com/1-physical-chemistry/practice-quantum-chemistry/)
+- [Practice Statistical Mechanics](https://chemistry.wyattau.com/1-physical-chemistry/practice-statistical-mechanics/)
+- [Quantum Chemistry](https://chemistry.wyattau.com/1-physical-chemistry/quantum-chemistry/)
+- [Statistical Mechanics](https://chemistry.wyattau.com/1-physical-chemistry/statistical-mechanics/)
+- [Thermodynamics](https://chemistry.wyattau.com/1-physical-chemistry/thermodynamics/)
 
 ## Organic-Chemistry
 
-- [Organic Chemistry](https://chemistry.wyattau.com/2-organic-chemistry/): Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.
-- [Organic Chemistry -- Practice Problems](https://chemistry.wyattau.com/2-organic-chemistry/practice-organic-chemistry/): Organic chemistry is the chemistry of carbon's infinite variety: Carbon's ability to form four bonds, chains, rings, and double bonds with itself creates
-- [Reaction Mechanisms](https://chemistry.wyattau.com/2-organic-chemistry/reaction-mechanisms/): Bimolecular nucleophilic substitution, a single concerted step with backside at Comprehensive educational content coverage with definitions and practice proble
-- [Reaction Mechanisms -- Practice Problems](https://chemistry.wyattau.com/2-organic-chemistry/practice-reaction-mechanisms/): 10 MCQ questions covering SN1/SN2, E1/E2, electrophilic aromatic substitution, and carbocation chemistry. Select an option to check your answer and view the
-- [Spectroscopy](https://chemistry.wyattau.com/2-organic-chemistry/spectroscopy/): University Chemistry Spectroscopy notes covering key definitions, core concepts, worked examples, and practice questions for solid revision.
-- [Spectroscopy and Synthesis -- Practice Problems](https://chemistry.wyattau.com/2-organic-chemistry/practice-spectroscopy-synthesis/): 10 MCQ questions covering IR spectroscopy, NMR spectroscopy, mass spectrometry, UV-Vis, and retrosynthetic analysis. Select an option to check your answer
-- [Structure and Bonding](https://chemistry.wyattau.com/2-organic-chemistry/structure-and-bonding/): One and three orbitals combine to form four equivalent sp hybrid orbitals, arranged tetrahedrally with bond angles of 109.5°.
-- [Structure and Bonding -- Practice Problems](https://chemistry.wyattau.com/2-organic-chemistry/practice-structure-and-bonding/): 10 MCQ questions covering hybridization, resonance, stereochemistry (R/S, E/Z), conformational analysis, and aromaticity. Select an option to check your
-- [Synthesis](https://chemistry.wyattau.com/2-organic-chemistry/synthesis/): University Chemistry Synthesis notes covering key definitions, core concepts, worked examples, and practice questions for effective revision.
+- [Index](https://chemistry.wyattau.com/2-organic-chemistry/)
+- [Practice Organic Chemistry](https://chemistry.wyattau.com/2-organic-chemistry/practice-organic-chemistry/)
+- [Practice Reaction Mechanisms](https://chemistry.wyattau.com/2-organic-chemistry/practice-reaction-mechanisms/)
+- [Practice Spectroscopy Synthesis](https://chemistry.wyattau.com/2-organic-chemistry/practice-spectroscopy-synthesis/)
+- [Practice Structure And Bonding](https://chemistry.wyattau.com/2-organic-chemistry/practice-structure-and-bonding/)
+- [Reaction Mechanisms](https://chemistry.wyattau.com/2-organic-chemistry/reaction-mechanisms/)
+- [Spectroscopy](https://chemistry.wyattau.com/2-organic-chemistry/spectroscopy/)
+- [Structure And Bonding](https://chemistry.wyattau.com/2-organic-chemistry/structure-and-bonding/)
+- [Synthesis](https://chemistry.wyattau.com/2-organic-chemistry/synthesis/)
 
 ## Inorganic-Chemistry
 
-- [Atomic Structure and Periodicity](https://chemistry.wyattau.com/3-inorganic-chemistry/atomic-structure-and-periodicity/): Each atomic orbital is characterized by four quantum numbers: Comprehensive educational content coverage with definitions and practice problems.
-- [Atomic Structure and Periodicity -- Practice Problems](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-atomic-structure/): 10 MCQ questions covering quantum numbers, effective nuclear charge, periodic trends, electron configurations, and atomic properties. Select an option to
-- [Coordination Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/coordination-chemistry/): A model in which ligands are treated as point charges (or point dipoles) that interact electrostatically with the orbitals of the central metal ion.
-- [Coordination Chemistry -- Practice Problems](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-coordination-chemistry/): 10 MCQ questions covering crystal field theory, octahedral/tetrahedral complexes, spectrochemical series, isomerism, and magnetic properties. Select an
-- [Inorganic Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/): Inorganic chemistry covers the chemistry of all elements except carbon in its primary organic forms, although it includes organometallic compounds that
-- [Inorganic Chemistry -- Practice Problems](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-inorganic-chemistry/): Inorganic chemistry covers the rest of the periodic table: While organic chemistry focuses on carbon, inorganic chemistry encompasses metals, minerals, and
-- [Main-Group and Solid-State Chemistry -- Practice Problems](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-main-group-solid-state/): 10 MCQ questions covering main-group element trends, Bravais lattices, crystal structures, defects, and electronic properties of solids. Select an option to
-- [Main-Group Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/main-group-chemistry/): University Main-Group Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for rigorous review and exam preparation.
-- [Solid-State Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/solid-state-chemistry/): University Solid-State Chemistry notes covering key definitions, core concepts, worked examples, and practice questions for methodical revision.
+- [Atomic Structure And Periodicity](https://chemistry.wyattau.com/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Coordination Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/coordination-chemistry/)
+- [Index](https://chemistry.wyattau.com/3-inorganic-chemistry/)
+- [Main Group Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/main-group-chemistry/)
+- [Practice Atomic Structure](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-atomic-structure/)
+- [Practice Coordination Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-coordination-chemistry/)
+- [Practice Inorganic Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-inorganic-chemistry/)
+- [Practice Main Group Solid State](https://chemistry.wyattau.com/3-inorganic-chemistry/practice-main-group-solid-state/)
+- [Solid State Chemistry](https://chemistry.wyattau.com/3-inorganic-chemistry/solid-state-chemistry/)
 
 ## Overview
 
-- [About This Site](https://chemistry.wyattau.com/about/): About Wyatt's Notes Chemistry resources, experience, expertise, and credentials behind university-level chemistry study materials.
-- [Chemistry](https://chemistry.wyattau.com/): This section covers chemistry concepts, definitions, and applications with worked examples and practice problems.
-- [Chemistry](https://chemistry.wyattau.com/intro/): Study notes for Chemistry with worked examples, practice problems, and key concepts for exam preparation.
-- [Chemistry Glossary, Key Terms and Definitions](https://chemistry.wyattau.com/glossary/): Atom: The smallest unit of an element that retains the chemical properties of that element. Consists of a nucleus (protons + neutrons) and electrons.
-- [Complete University Chemistry Study Guide](https://chemistry.wyattau.com/hub/): Study notes for Complete University Chemistry Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [University Chemistry Practice Test, 30 Problems](https://chemistry.wyattau.com/practice-test-mega/): 30 university-level chemistry problems covering Physical, Organic, and Inorganic Chemistry. Multiple choice and problem-solving with detailed explanations.
+- [About](https://chemistry.wyattau.com/about/)
+- [Glossary](https://chemistry.wyattau.com/glossary/)
+- [Hub](https://chemistry.wyattau.com/hub/)
+- [Index](https://chemistry.wyattau.com/)
+- [Intro](https://chemistry.wyattau.com/intro/)
+- [Practice Test Mega](https://chemistry.wyattau.com/practice-test-mega/)
 
 ## Zh
 
-- [Chemistry | 简体中文](https://chemistry.wyattau.com/zh/): Chemistry transcends language barriers: The fundamental laws of chemistry, conservation of mass, periodic trends, reaction mechanisms, are universal
+- [Index](https://chemistry.wyattau.com/zh/)

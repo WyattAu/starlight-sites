@@ -1193,7 +1193,7 @@ by the economy, while the tax increase only reduces consumption by the MPC fract
 
 </details>
 
-If you get this wrong, revise: [Fiscal Multipliers](#fiscal-multipliers)
+If you get this wrong, revise: [Fiscal Multipliers](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ### Problem 10: Crowding Out with a Loanable Funds Model
 
@@ -1230,7 +1230,7 @@ private spending.
 
 </details>
 
-If you get this wrong, revise: [Crowding Out](#crowding-out)
+If you get this wrong, revise: [Crowding Out](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ### Problem 11: Fiscal Policy in Hong Kong Under the Currency Board
 
@@ -1271,7 +1271,7 @@ contraction (imported from the Fed) dampens it. The fiscal multiplier would be s
 
 </details>
 
-If you get this wrong, revise: [Fiscal Policy Effectiveness](#fiscal-policy-effectiveness)
+If you get this wrong, revise: [Fiscal Policy Effectiveness](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ### Problem 12: Quantitative Easing and the Money Supply
 
@@ -1315,7 +1315,7 @@ demonstrates how banks' risk appetite affects the transmission of monetary polic
 
 </details>
 
-If you get this wrong, revise: [Monetary Policy Tools](#monetary-policy-tools)
+If you get this wrong, revise: [Monetary Policy Tools](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ### Problem 13: AD-AS Model with Supply Shocks
 
@@ -1360,7 +1360,7 @@ shock to dissipate (e.g., oil prices falling back).
 
 </details>
 
-If you get this wrong, revise: [AD-AS Model](#ad-as-model)
+If you get this wrong, revise: [AD-AS Model](/economics/6-government-policy/1_fiscal-and-monetary-policy/)
 
 ---
 

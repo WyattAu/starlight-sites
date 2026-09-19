@@ -229,6 +229,6 @@ $
 
 ## Cross-References
 
-- **[Exploring Data](../1-exploring-data/1_exploring_data):** Probability distributions describe the theoretical models behind the data you explore.
-- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** The Central Limit Theorem is the foundation of all inference procedures.
-- **[Sampling](../2-sampling-experimentation/2_sampling_and_experimentation):** Random sampling relies on probability to ensure representative samples.
+- **Exploring Data:** Probability distributions describe the theoretical models behind the data you explore.
+- **Statistical Inference:** The Central Limit Theorem is the foundation of all inference procedures.
+- **Sampling:** Random sampling relies on probability to ensure representative samples.

@@ -152,17 +152,17 @@ Leaving Cert Mathematics covers algebra, calculus, geometry and trigonometry, pr
 ### Topic Notes
 
 - [Mathematics Overview](/maths/), course structure and assessment format
-- [Algebra](maths/1-algebra), equations, inequalities, and polynomial manipulation
-- [Calculus](maths/2-calculus), differentiation, integration, and applications
-- [Geometry and Trigonometry](maths/3-geometry-trig), triangles, circles, coordinate geometry, and trigonometric identities
-- [Probability and Statistics](maths/4-probability-statistics), probability rules, distributions, and data analysis
-- [Number Sequences](maths/5-number-sequences), arithmetic and geometric sequences and series
+- Algebra, equations, inequalities, and polynomial manipulation
+- Calculus, differentiation, integration, and applications
+- Geometry and Trigonometry, triangles, circles, coordinate geometry, and trigonometric identities
+- Probability and Statistics, probability rules, distributions, and data analysis
+- Number Sequences, arithmetic and geometric sequences and series
 
 ### Practice and Review
 
 - [Flashcards: Mathematics](/flashcards-maths/)
 - [Practice Questions: Mathematics](/maths/practice-maths/)
-- [Diagnostic Quizzes](maths/diagnostics), test across all maths topics
+- Diagnostic Quizzes, test across all maths topics
 
 ### Key Exam Focus
 

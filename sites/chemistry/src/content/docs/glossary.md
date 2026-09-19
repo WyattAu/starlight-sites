@@ -14,7 +14,7 @@ graph TD
 ```
 
 
-**Accuracy**: How close a measurement is to the true or accepted value. Related to [Precision](#precision).
+**Accuracy**: How close a measurement is to the true or accepted value. Related to [Precision](/glossary/).
 
 **Atom**: The smallest unit of an element that retains the chemical properties of that element. Consists of a nucleus (protons + neutrons) and electrons.
 
@@ -38,7 +38,7 @@ graph TD
 
 **Empirical Formula**: The simplest whole-number ratio of atoms in a compound. For glucose (C₆H₁₂O₆), the empirical formula is CH₂O.
 
-**Hypothesis**: A testable explanation for an observation. Forms the basis of scientific experiments. Related to [Theory](#theory).
+**Hypothesis**: A testable explanation for an observation. Forms the basis of scientific experiments. Related to [Theory](/glossary/).
 
 **Molar Mass**: The mass of one mole of a substance, equal to the atomic or molecular mass in g/mol.
 
@@ -50,7 +50,7 @@ graph TD
 
 **Significant Figures**: Digits in a measurement that carry meaning about its precision. Rules govern how many digits to report.
 
-**Solute**: The substance dissolved in a solvent to form a solution. Related: [Solvent](#solvent), [Solution](#solution).
+**Solute**: The substance dissolved in a solvent to form a solution. Related: [Solvent](/glossary/), [Solution](/glossary/).
 
 **Solution**: A homogeneous mixture of two or more substances. The solute is dissolved in the solvent.
 
@@ -58,7 +58,7 @@ graph TD
 
 **Standard State**: The reference state for thermodynamic quantities: 1 atm pressure and specified temperature (usually 25°C).
 
-**Theory**: A well-substantiated explanation of natural phenomena supported by extensive evidence. More robust than a [Hypothesis](#hypothesis).
+**Theory**: A well-substantiated explanation of natural phenomena supported by extensive evidence. More robust than a [Hypothesis](/glossary/).
 
 ## Physical Chemistry
 
@@ -78,7 +78,7 @@ graph TD
 
 **Endothermic**: A reaction that absorbs heat from the surroundings. ΔH is negative for the surroundings, positive for the system.
 
-**Entropy**: A measure of disorder or randomness. Increases in spontaneous processes. Related: [Second Law of Thermodynamics](#second-law-of-thermodynamics).
+**Entropy**: A measure of disorder or randomness. Increases in spontaneous processes. Related: [Second Law of Thermodynamics](/glossary/).
 
 **Exothermic**: A reaction that releases heat to the surroundings. ΔH is negative for the system.
 
@@ -94,9 +94,9 @@ graph TD
 
 **Nernst Equation**: Relates cell potential to standard potential and concentrations: E = E° - (RT/nF)lnQ.
 
-**Oxidation**: Loss of electrons by a substance. Oxidation states increase. Always accompanied by [Reduction](#reduction) in a redox reaction.
+**Oxidation**: Loss of electrons by a substance. Oxidation states increase. Always accompanied by [Reduction](/glossary/) in a redox reaction.
 
-**Reduction**: Gain of electrons by a substance. Oxidation states decrease. Always accompanied by [Oxidation](#oxidation).
+**Reduction**: Gain of electrons by a substance. Oxidation states decrease. Always accompanied by [Oxidation](/glossary/).
 
 **Redox Reaction**: A reaction involving electron transfer between species. One species is oxidized, another is reduced.
 

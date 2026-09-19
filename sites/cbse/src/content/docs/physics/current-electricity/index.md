@@ -229,6 +229,6 @@ In a balanced Wheatstone bridge, the ratio is $\frac{R_1}{R_2} = \frac{R_3}{R_4}
 
 ## Cross-References
 
-- [Electrostatics](../electrostatics/index) -- Current electricity involves the flow of charge, building on the electrostatic concepts of charge and electric fields.
-- [Magnetic Effects of Current](../magnetic-effects/index) -- Electric currents produce magnetic fields, connecting current electricity to electromagnetism.
-- [Electromagnetic Induction](../magnetic-effects/index) -- Changing magnetic fields induce currents, linking magnetism back to current electricity through Faraday's law.
+- Electrostatics -- Current electricity involves the flow of charge, building on the electrostatic concepts of charge and electric fields.
+- Magnetic Effects of Current -- Electric currents produce magnetic fields, connecting current electricity to electromagnetism.
+- Electromagnetic Induction -- Changing magnetic fields induce currents, linking magnetism back to current electricity through Faraday's law.

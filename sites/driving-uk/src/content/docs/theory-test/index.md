@@ -31,7 +31,7 @@ This section covers driving theory and practical knowledge required for the driv
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+Work through the Driving (UK) sections in order, starting with Highway Code and Practical Test and building toward Highway Code, Practical Test, Practice, Road Signs, Theory Test and Vehicle Safety, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

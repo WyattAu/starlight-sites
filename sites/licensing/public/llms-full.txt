@@ -1,0 +1,4128 @@
+# Licensing — Wyatt's Notes (full content)
+
+> The complete content of every page on this site, in Markdown, for LLM consumption.
+> Each page is preceded by its canonical URL.
+
+## Overview
+
+---
+
+## About
+URL: https://licensing.wyattau.com/about/
+
+## About Wyatt's Notes, Licensing
+
+Wyatt's Notes provides thorough study materials for software licensing. These notes cover open-source licences, proprietary licensing models, copyright law basics, and compliance requirements, building the skills needed to navigate the legal landscape of software development.
+
+### Why Trust These Resources?
+
+These notes are developed by **Wyatt**, an educator and content creator with expertise in software law and open-source compliance. Content follows a structured progression from licence types through compliance requirements to practical licensing decisions.
+
+Materials emphasise the practical implications of licensing choices for developers and organisations. Every concept includes real-world examples and explains the obligations and restrictions that different licences impose.
+
+### What You'll Find
+
+- **Licence categories** covering permissive, copyleft, and proprietary models
+- **Key licences** including MIT, GPL, Apache, and BSD
+- **Compliance requirements** with attribution, source distribution, and modification notices
+- **Patent considerations** and patent grant implications
+- **Licence compatibility** and combining code under different licences
+
+### Credentials
+
+Wyatt develops resources across software engineering, legal compliance, and open-source practice, providing the interdisciplinary perspective that enhances licensing materials. Content is informed by licence text analysis, legal guidance, and open-source community best practices.
+
+## Related Sites
+
+- **[Tools](https://tools.wyattau.com)**, Development tools resources
+- **[Programming](https://programming.wyattau.com)**, Programming language resources
+- **[Computer Science](https://computer-science.wyattau.com)**, Computer science theory notes
+
+## Explore the Site
+
+Start with licence categories to build foundational understanding. Each topic progresses from definitions to practical compliance. Use the examples to develop your licensing judgement for real-world projects.
+
+Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full network of study resources.
+
+## Content Coverage
+
+This site provides comprehensive study materials covering:
+
+- Software licenses
+- Open source
+- Compliance
+
+Each topic includes detailed explanations, worked examples, and practice problems designed to build deep understanding.
+
+## How to Use These Notes
+
+1. **Start with fundamentals**, begin with the core topics before moving to advanced material
+2. **Work through examples**, every concept includes worked examples with step-by-step solutions
+3. **Test yourself**, use the practice problems and diagnostic tests to identify knowledge gaps
+4. **Cross-reference**, related topics on other sites in the Wyatt's Notes network provide additional perspectives
+
+## Study Resources
+
+- **Flashcards**, spaced repetition flashcards for key concepts and formulas
+- **Practice Problems**, graded problems from basic to advanced
+- **Diagnostic Tests**, identify your strengths and weaknesses
+- **Worked Examples**, step-by-step solutions to common problems
+
+## Textbooks and References
+
+These notes are informed by standard university textbooks including Open Source License Guide. While the notes follow the general structure of these texts, they are not a substitute for reading the primary sources.
+
+## Prerequisites
+
+none
+
+## About Wyatt's Notes
+
+Wyatt's Notes is a network of 45+ study sites covering physics, mathematics, computer science, programming languages, and more. Each site is built with Astro and Starlight, using SolidJS for interactive components.
+
+## Related Sites
+
+- **[Mathematics](https://mathematics.wyattau.com)**, University-level mathematics
+- **[Physics](https://physics.wyattau.com)**, University-level physics
+- **[Computer Science](https://computer-science.wyattau.com)**, Algorithms, data structures, and theory
+- **[Programming](https://programming.wyattau.com)**, Programming fundamentals and practice
+
+## Contact
+
+For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) or open an issue on GitHub.
+
+## See Also
+
+- [Licensing](./)
+- [Licensing](/intro/)
+- [Open Source Licenses](/osi-licenses/)
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+---
+
+## Apache License
+URL: https://licensing.wyattau.com/apache-license/
+
+# Apache License
+
+This section covers apache license concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding apache license is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of apache license?
+2. How do you apply apache license in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Attribution
+URL: https://licensing.wyattau.com/attribution/
+
+# Attribution
+
+This section covers attribution concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding attribution is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of attribution?
+2. How do you apply attribution in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Compliance
+URL: https://licensing.wyattau.com/compliance/
+
+# Compliance
+
+This section covers compliance concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding compliance is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of compliance?
+2. How do you apply compliance in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Copyleft
+URL: https://licensing.wyattau.com/copyleft/
+
+# Copyleft
+
+This section covers copyleft concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding copyleft is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of copyleft?
+2. How do you apply copyleft in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Creative Commons
+URL: https://licensing.wyattau.com/creative-commons/
+
+# Creative Commons
+
+This section covers creative commons concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding creative commons is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of creative commons?
+2. How do you apply creative commons in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Dual Licensing
+URL: https://licensing.wyattau.com/dual-licensing/
+
+# Dual Licensing
+
+This section covers dual licensing concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding dual licensing is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of dual licensing?
+2. How do you apply dual licensing in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Glossary
+URL: https://licensing.wyattau.com/glossary/
+
+## License Categories
+
+**Copyleft**: A licensing approach requiring derivative works to be distributed under the same license terms. The GPL family uses copyleft to ensure code stays open.
+
+**Permissive License**: A license allowing use, modification, and distribution with minimal restrictions, including in proprietary software. MIT and BSD are canonical examples.
+
+**Proprietary License**: A license restricting use, modification, or distribution. Source code is typically not made available.
+
+**Dual Licensing**: Offering the same software under two different licenses, typically one open-source and one commercial.
+
+## Common Licenses
+
+**GPL (GNU General Public License)**: A strong copyleft license. Any distributed work incorporating GPL code must itself be GPL-licensed. Version 3 addresses patents and tivoization.
+
+**LGPL (Lesser GPL)**: A weaker copyleft license allowing linking from proprietary software while requiring modifications to the library itself to stay open.
+
+**MIT License**: A minimal permissive license requiring only that the copyright notice and license text be preserved.
+
+**Apache License 2.0**: A permissive license with an explicit patent grant and trademark restrictions.
+
+**BSD Licenses**: A family of permissive licenses (2-clause and 3-clause variants) similar in spirit to MIT, originating from Berkeley Unix.
+
+**MPL (Mozilla Public License)**: A file-level copyleft license, modifications to licensed files stay open, but new files can be proprietary.
+
+## Concepts
+
+**Tivoization**: Distributing GPL software on hardware that refuses to run modified versions, addressed by GPLv3's anti-tivoization clause.
+
+**License Compatibility**: Whether code under two different licenses can legally be combined. Permissive licenses are generally compatible with copyleft ones, not vice versa.
+
+**Contributor License Agreement (CLA)**: A legal agreement contributors sign granting the project maintainer rights to relicense their contributions.
+
+**SPDX Identifier**: A standardised short string identifying a license (e.g., `MIT``Apache-2.0``GPL-3.0-only`), used in package metadata.
+
+## Further Resources
+
+Return to the [Licensing Hub](/hub/) for license comparisons, or explore Tools for license-scanning utilities.
+
+## Copyleft Spectrum
+
+**Strong Copyleft**: Derivatives of the whole work must adopt the same license. GPL-2.0-only and GPL-3.0-only are the canonical examples.
+
+**Weak Copyleft**: Copyleft applies only to the licensed component itself, not to works that link against it. LGPL and MPL are weak/medium copyleft.
+
+**Network Copyleft**: Triggers copyleft obligations when the software is offered over a network, not just distributed. AGPL-3.0 closes the "hosting loophole" that allowed SaaS providers to modify GPL software without sharing changes.
+
+**Share-Alike**: The Creative Commons term (SA) for the copyleft principle: adaptations must be licensed under the same terms.
+
+## License Mechanics
+
+**Patent Grant**: An explicit licence to use patents held by contributors that read on the software. Apache-2.0 grants it expressly; GPLv3 includes it indirectly; MIT/BSD rely on implied licence only.
+
+**Attribution Clause**: The requirement to preserve copyright notices and license text in copies. Present in every OSI-approved permissive license.
+
+**Notices File**: A compiled listing of all dependencies and their licenses, required for compliance when shipping permissively-licensed code in proprietary products.
+
+**License Proliferation**: The historical over-creation of slightly-different open-source licenses, raising compatibility analysis costs. The SPDX list now tracks 600+ identifiers.
+
+**Public Domain Equivalent**: Licenses/declarations that surrender copyright entirely: CC0 and the Unlicense. Not recognised in all jurisdictions (notably Germany), which is why most projects still prefer a formal license.
+
+**Non-Commercial Clauses**: Restrictions on commercial use that fail the Open Source Definition (freedom to use for any purpose). CC BY-NC is common but not open source.
+
+## Compliance Practice
+
+**Copyleft Compliance Checklist**: Distributing GPL code requires: preserving notices, providing the corresponding source (or written offer), stating changes, and passing the license terms downstream.
+
+**Vulnerability vs License Scanning**: SCA (Software Composition Analysis) tools audit both security advisories and license obligations across dependency trees.
+
+**License Header**: A short declaration at the top of each source file; SPDX recommends a single-line `// SPDX-License-Identifier: <id>` rather than full license text.
+
+## Further Resources
+
+See the Licensing Hub for per-license comparison tables and the Tools section for scanners that automate compliance checks.
+
+## Additional Licenses and Models
+
+**BSL (Boost Software License)**: A permissive license similar to MIT with an explicit patent grant and no attribution requirement in binaries.
+
+**Zlib License**: A short permissive license requiring altered source versions to be plainly marked.
+
+**Artistic License 2.0**: A Perl's-license allowing redistribution with modified source under conditions; OSI-approved but rarely chosen today.
+
+**EPL (Eclipse Public License)**: A weak-copyleft license (EPL-2.0 current) used by Eclipse, Jetty, and enterprise Java tooling; module-level copyleft.
+
+**CDDL (Common Development and Distribution License)**: File-level copyleft license originated by Sun for OpenSolaris; compatible with GPL under certain interpretations.
+
+**SSPL (Server Side Public License)**: MongoDB's license requiring source disclosure for offering the software as a service; rejected by OSI as not open source.
+
+**BSL (Business Source License)**: Time-delayed open source, code converts to an open license after a change date (MariaDB, HashiCorp post-2023).
+
+**AGPL (Affero GPL)**: GPLv3 plus network-use clause; the standard choice for server software that wants to force SaaS disclosure.
+
+**CC BY**: Creative Commons attribution license for creative works; permissive but not recommended for software (no patent or source provisions).
+
+**MIT-0**: MIT variant with the attribution condition removed, effectively a public-domain dedication with warranty language.
+
+## Legal Concepts
+
+**Derivative Work**: Copyright law's term for adaptations; the trigger point for copyleft obligations and the reason linking analysis matters.
+
+**Mere Aggregation**: Distributing independent programs side-by-side (e.g., on one disk image) without combining them into a single work; GPL obligations do not cross this boundary.
+
+**Static vs Dynamic Linking**: The legal debate over whether linking produces a derivative work; the FSF says yes for both, most practitioners treat dynamic linking as a weaker claim.
+
+**Operating System Modification Exception**: GPLv3 language covering system libraries and kernel modules whose linking the OS itself permits.
+
+**Conveying vs Mere Distribution**: GPLv3's broader term covering both physical transfer and network distribution of object code.
+
+**Installation Information**: GPLv3's requirement to provide build/install instructions when conveying object code for consumer devices.
+
+**Termination and Cure**: GPLv3's provision allowing licensees who violate terms to regain the license automatically if they cure within 30 days, a first-offence forgiveness clause.
+
+## Quick Reference Table
+
+| Term | Meaning |
+|------|---------|
+| SPDX | Standardised license identifier system (SPDX-License-Identifier: MIT) |
+| SBOM | Software Bill of Materials, machine-readable dependency inventory |
+| SCA | Software Composition Analysis, automated license/security auditing |
+| AGPL | GPL plus network-use clause closing the SaaS loophole |
+| EPL | Eclipse Public License, weak module-level copyleft |
+| CDDL | Sun's file-level copyleft license (OpenSolaris, ZFS) |
+| BSL | Business Source License, converts to open source after change date |
+| SSPL | MongoDB's service-restriction license, rejected by OSI |
+| CC0 | Public-domain dedication, unrecognised in some jurisdictions |
+| Unlicense | Alternative public-domain dedication with explicit waiver text |
+| CLA | Contributor License Agreement granting relicensing rights to maintainer |
+| DCO | Developer Certificate of Origin, lighter-weight CLA alternative |
+| ORM | Open Source Rewards/OSI-approved mark, compliance certification schemes |
+| Compatibility | Whether two licenses' code may be legally combined |
+| One-way compatibility | A-permissive-in-B-copyleft is fine; the reverse is not |
+| License stack | Combined obligations of a dependency tree's many licenses |
+| Copyleft clause | Requirement that derivatives carry the same license |
+| Patent grant | Express permission to use contributor patents covering the code |
+| Tivoization | Hardware refusing modified GPL software; restricted by GPLv3 |
+| for prod | Non- OSI-approved licenses fail the open-source definition |
+
+## Decision Guide
+
+| If you want | Use | Avoid |
+|-------------|-----|-------|
+| Maximum reuse, no conditions | MIT-0, CC0, Unlicense | GPL family |
+| Permissive with patent safety | Apache-2.0, BSD-3 | Bare MIT (implied patents only) |
+| Copyleft on your library | LGPL, MPL-2.0 | AGPL (network triggers) |
+| Force SaaS sources open | AGPL-3.0 | Permissive licenses |
+| Delay-then-open commercial | BSL 1.1 | SSPL (never converts) |
+| Creative works | CC BY / CC BY-SA | Software-specific licenses |
+
+---
+
+## Gnu Gpl
+URL: https://licensing.wyattau.com/gnu-gpl/
+
+# Gnu Gpl
+
+This section covers gnu gpl concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding gnu gpl is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of gnu gpl?
+2. How do you apply gnu gpl in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Hub
+URL: https://licensing.wyattau.com/hub/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"name": "Home", "url": "https://licensing.wyattau.com"},
+    {"name": "Hub", "url": "https://licensing.wyattau.com/hub"}
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "Software Licensing Guide",
+  "description": "Comprehensive software licensing guide covering open-source licenses, copyleft vs permissive, license compatibility, and compliance for developers.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://licensing.wyattau.com"
+  },
+  "url": "https://licensing.wyattau.com/hub",
+  "educationalLevel": "Professional",
+  "inLanguage": "en",
+  "isAccessibleForFree": true
+}
+</script>
+
+```mermaid
+flowchart TD
+    A[Hub] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Why This Guide Exists
+
+Software licensing determines what you can do with code, who can use it, modify it, distribute it, and under what conditions. For developers, understanding licensing is not optional. Choosing the wrong license for your project can inadvertently prevent adoption. Using code under the wrong license can result in legal liability. Ignoring license obligations can lead to lawsuits and damaged reputations.
+
+This hub page maps every resource on this site. The guides cover the major open-source licenses (GPL, MIT, Apache, BSD), the philosophy and legal mechanics of copyleft versus permissive licensing, license compatibility and dual licensing, and practical compliance guidance. Whether you are choosing a license for your own project or ensuring compliance when using open-source dependencies, these resources provide the knowledge you need.
+
+## Table of Contents
+
+- [Why Licensing Matters](#why-licensing-matters)
+- [Open-Source Licenses](#open-source-licenses)
+- [Copyleft vs. Permissive](#copyleft-vs-permissive)
+- [License Compatibility](#license-compatibility)
+- [Proprietary and Source-Available Licenses](#proprietary-and-source-available-licenses)
+- [Choosing a License](#choosing-a-license)
+- [License Compliance](#license-compliance)
+- [Common Licensing Scenarios](#common-licensing-scenarios)
+- [Cross-Site Resources](#cross-site-resources)
+- [FAQ](/hub/)
+
+---
+
+## Why Licensing Matters
+
+Every piece of software has a license, even if it is not explicitly stated. When no license is specified, the default under copyright law is "all rights reserved." This means no one can use, copy, modify, or distribute the code without explicit permission.
+
+### The Four Freedoms
+
+The Free Software Definition (Free Software Foundation) identifies four essential freedoms:
+
+- **Freedom 0**, the freedom to run the program for any purpose
+- **Freedom 1**, the freedom to study how the program works and modify it
+- **Freedom 2**, the freedom to redistribute copies
+- **Freedom 3**, the freedom to distribute copies of your modified versions
+
+A license is the legal mechanism that grants these freedoms while protecting the author's rights.
+
+### Why Developers Care
+
+- **Choosing a license**, affects who can use your code and how
+- **Using dependencies**, every library has a license that constrains your project
+- **Compliance**, failure to comply with license terms can result in legal action
+- **Business considerations**, licensing affects monetisation, partnerships, and adoption
+
+---
+
+## Open-Source Licenses
+
+Open-source licenses grant broad permissions to use, modify, and distribute software. The major licenses differ in their requirements and restrictions.
+
+### MIT License
+
+The MIT License is the most permissive major open-source license. It grants nearly unrestricted rights to use, modify, and distribute the software.
+
+**Key terms:**
+
+- Permission is granted free of charge
+- Can use, copy, modify, merge, publish, distribute, sublicense, and sell
+- Must include the copyright notice and license text in all copies
+- No warranty or liability
+
+**When to use MIT:**
+
+- Maximum adoption is the priority
+- You do not require derivative works to remain open source
+- You want minimal legal complexity
+
+**Example projects:** React, jQuery, Ruby on Rails, .NET Core
+
+### Apache License 2.0
+
+The Apache License is permissive like MIT but includes additional provisions for patent protection and contributor agreements.
+
+**Key terms:**
+
+- Grants patent rights from contributors
+- Requires notice of modifications
+- Includes a patent grant that protects users from patent claims
+- Must include copyright, patent, trademark, and attribution notices
+
+**When to use Apache 2.0:**
+
+- You want patent protection for contributors
+- You need attribution requirements
+- Enterprise adoption is a priority
+- You are contributing to a foundation-managed project
+
+**Example projects:** Android, Kubernetes, TensorFlow, Apache HTTP Server
+
+### BSD Licenses
+
+The BSD licenses are permissive licenses similar to MIT. There are several variants:
+
+**2-Clause BSD (Simplified):**
+
+- Similar to MIT
+- Grants permission to use, copy, modify, and distribute
+- Requires copyright notice in documentation
+
+**3-Clause BSD:**
+
+- Adds a non-endorsement clause
+- Prohibits using the names of contributors to endorse derived products without permission
+
+**4-Clause BSD (Original):**
+
+- Adds an advertising clause
+- Largely obsolete; not recommended for new projects
+
+### GNU General Public License (GPL)
+
+The GPL is the most well-known copyleft license. It requires that derivative works also be released under the GPL.
+
+**GPL v2:**
+
+- Grants permission to use, copy, modify, and distribute
+- Derivative works must be released under GPL v2
+- Source code must be made available when distributing binaries
+- Includes a patent grant
+
+**GPL v3:**
+
+- Adds protections against tivoisation (hardware restrictions on modified software)
+- Includes patent protection
+- Adds anti-DRM provisions
+- Compatible with Apache 2.0 (but not vice versa)
+
+**When to use GPL:**
+
+- You want to ensure derivative works remain open source
+- You want to prevent proprietary adoption of your code
+- You are building a community-driven project
+
+**Example projects:** Linux kernel (GPLv2), WordPress, GCC, Bash
+
+### GNU Lesser General Public License (LGPL)
+
+The LGPL is a weaker form of copyleft that allows proprietary software to link to LGPL-licensed libraries.
+
+**Key terms:**
+
+- Libraries can be linked by proprietary software
+- Modifications to the library itself must be released under LGPL
+- The library can be dynamically linked (not statically) by proprietary code
+
+**When to use LGPL:**
+
+- You want a library to be usable by proprietary software
+- You want modifications to the library to remain open source
+- You want wider adoption than GPL allows
+
+### GNU Affero General Public License (AGPL)
+
+The AGPL is the strongest copyleft license. It extends GPL to cover software used over a network.
+
+**Key terms:**
+
+- If the software is used to provide a service over a network (SaaS), the source code must be made available
+- Closes the "SaaS loophole" that GPL does not address
+- Derivative works must be released under AGPL
+
+**When to use AGPL:**
+
+- You want to ensure SaaS providers release their source code
+- You are building infrastructure software
+- You want maximum copyleft protection
+
+**Example projects:** MongoDB (switched to AGPL), GNU Health
+
+### Mozilla Public License (MPL)
+
+The MPL is a weak copyleft license that applies at the file level.
+
+**Key terms:**
+
+- Modifications to MPL-licensed files must be released under MPL
+- Can be combined with code under other licenses
+- Each file has its own license header
+
+**When to use MPL:**
+
+- You want copyleft protection for your own files but allow combination with proprietary code
+- You want a middle ground between permissive and copyleft
+
+**Example projects:** Firefox, Rust (dual-licensed with Apache 2.0)
+
+---
+
+## Copyleft vs. Permissive
+
+The fundamental distinction in open-source licensing is between copyleft and permissive licenses.
+
+### Copyleft
+
+Copyleft licenses require that derivative works be released under the same license. The key principle: freedom must be preserved across all versions.
+
+**Advantages:**
+
+- Ensures the code remains free and open
+- Prevents proprietary appropriation
+- Builds strong community around shared code
+- Creates a level playing field
+
+**Disadvantages:**
+
+- Limits adoption by proprietary software
+- Can create compliance complexity
+- May deter commercial contributions
+- License incompatibilities with other copyleft licenses
+
+**Examples:** GPL, LGPL, AGPL, MPL
+
+### Permissive
+
+Permissive licenses grant broad freedoms with minimal restrictions. Users can do almost anything with the code, including incorporating it into proprietary software.
+
+**Advantages:**
+
+- Maximum adoption and reuse
+- Simple compliance requirements
+- No restrictions on proprietary use
+- Compatible with most other licenses
+
+**Disadvantages:**
+
+- Derivative works can be made proprietary
+- No guarantee the code remains open
+- Contributors' work may benefit proprietary companies without reciprocation
+- Less community protection
+
+**Examples:** MIT, Apache 2.0, BSD
+
+### Choosing Between Them
+
+| Priority | Recommended License Type |
+| ---------- | ------------------------ |
+| Maximum adoption | Permissive (MIT, Apache 2.0) |
+| Keep derivative works open | Copyleft (GPL, AGPL) |
+| Enterprise use | Permissive (Apache 2.0) |
+| Community-driven project | Copyleft (GPL) |
+| Library for wide use | Weak copyleft (LGPL) or permissive |
+| SaaS protection | AGPL |
+
+---
+
+## License Compatibility
+
+License compatibility determines whether code under different licenses can be combined in a single project.
+
+### Compatible Combinations
+
+- MIT + MIT = MIT
+- MIT + Apache 2.0 = Apache 2.0
+- MIT + BSD = MIT (or BSD)
+- MIT + GPL = GPL
+- Apache 2.0 + GPL v3 = GPL v3
+- BSD + GPL = GPL
+
+### Incompatible Combinations
+
+- GPL v2 + Apache 2.0, Apache 2.0 includes patent provisions incompatible with GPL v2
+- GPL v2 + GPL v3, the licenses have different requirements
+- AGPL + proprietary code, AGPL requires source code disclosure
+- Any copyleft + proprietary, copyleft licenses require derivative works to be open
+
+### Dual Licensing
+
+Many projects offer code under two licenses (e.g., "GPL or MIT"). This allows users to choose the license that fits their use case. It is also a business model: commercial users pay for a non-copyleft license while open-source users get the free copyleft version.
+
+---
+
+## Proprietary and Source-Available Licenses
+
+Not all software is open source. Understanding other licensing models is essential for comprehensive knowledge.
+
+### Proprietary Licenses
+
+- **EULA** (End-User License Agreement), restricts use, modification, and distribution
+- **Subscription**, pay periodically for continued use (SaaS model)
+- **Perpetual**, one-time purchase with ongoing use rights
+- **OEM**, bundled with hardware
+
+### Source-Available Licenses
+
+These licenses provide access to source code but do not meet the Open Source Definition:
+
+- **BSL (Business Source License)**, source available, converts to open source after a period
+- **Elastic License 2.0**, source available but restricts SaaS and competitive use
+- **Server Side Public License (SSPL)**, MongoDB's license; requires SaaS providers to release their entire stack
+
+---
+
+## Choosing a License
+
+### Decision Framework
+
+1. **Do you want derivative works to remain open?**
+   - Yes → Copyleft (GPL, AGPL)
+   - No → Permissive (MIT, Apache 2.0)
+
+2. **Do you want patent protection?**
+   - Yes → Apache 2.0 or GPL v3
+   - No → MIT or BSD
+
+3. **Is your project a library?**
+   - Yes, and you want proprietary use → LGPL or MIT
+   - Yes, and you want copyleft → GPL
+   - No → GPL or Apache 2.0
+
+4. **Do you want to prevent SaaS adoption without source release?**
+   - Yes → AGPL
+   - No → GPL
+
+### Tools for Choosing
+
+- **choosealicense.com**, interactive license chooser by GitHub
+- **tldrlegal.com**, plain-English summaries of licenses
+- **opensource.org**, the Open Source Initiative's license list
+
+---
+
+## License Compliance
+
+Compliance means following the terms of every license that applies to your software.
+
+### For Users of Open-Source Software
+
+- **Include copyright notices**, every permissive license requires this
+- **Include license text**, distribute the full license text with your software
+- **Document modifications**, some licenses require you to note changes
+- **Disclose source code**, copyleft licenses require source availability
+- **Maintain license compatibility**, ensure all licenses in your project are compatible
+
+### For Distributors
+
+- **SBOM (Software Bill of Materials)**, maintain a list of all components and their licenses
+- **License scanning tools**, FOSSology, LicenseFinder, FOSSA, Snyk
+- **Automated compliance**, CI/CD pipelines can scan for license issues on every commit
+
+### Common Compliance Mistakes
+
+1. **Ignoring transitive dependencies**, your dependencies have dependencies, each with their own license
+2. **Assuming all open-source is MIT**, every license has specific requirements
+3. **Not including license text**, most licenses require the full text to be distributed
+4. **Mixing incompatible licenses**, GPL and Apache 2.0 are not compatible under GPL v2
+5. **Forgetting about documentation**, some licenses apply to documentation as well as code
+
+---
+
+## Common Licensing Scenarios
+
+### Scenario 1: Building a Web Application
+
+If your web application does not distribute software (SaaS), copyleft licenses like GPL do not apply. You can use GPL-licensed libraries without releasing your source code. However, if you distribute binaries (desktop app), GPL applies.
+
+### Scenario 2: Creating a Library
+
+If you want maximum adoption, use MIT or Apache 2.0. If you want to ensure derivatives remain open, use GPL or LGPL. If you want commercial revenue, consider dual licensing.
+
+### Scenario 3: Contributing to an Existing Project
+
+Check the project's LICENSE file. You must contribute under the same license or one compatible with it. Some projects require a CLA (Contributor License Agreement).
+
+### Scenario 4: Using Code from Stack Overflow
+
+Code posted on Stack Overflow is licensed under CC BY-SA 4.0, which requires attribution and share-alike. This is different from most software licenses and can create compatibility issues.
+
+### Scenario 5: Enterprise Software Development
+
+Enterprises typically prefer permissive licenses (MIT, Apache 2.0) to avoid copyleft obligations. Apache 2.0 is the most common choice for enterprise projects because of its patent protection.
+
+---
+
+## Cross-Site Resources
+
+Software licensing connects to many areas of development:
+
+- **[Developer Tools](https://tools.wyattau.com/hub)**, tools for license scanning and compliance
+- **[Linux Administration](https://linux.wyattau.com/hub)**, Linux is GPL-licensed; understanding GPL matters
+- **[C++ Programming](https://programming.wyattau.com/hub)**, license considerations for C++ projects
+- **[Go Programming](https://go.wyattau.com/hub)**, Go standard library licensing
+- **[Rust Programming](https://rust.wyattau.com/hub)**, Rust is dual-licensed MIT/Apache 2.0
+- **[Python](https://python.wyattau.com/hub)**, Python's PSF license
+
+---
+
+## Frequently Asked Questions
+
+### Can I use GPL code in a proprietary project?
+
+Not directly. If you distribute the GPL code as part of your project, the entire project must be released under GPL v2 or v3 (depending on which version the original code uses). You can dynamically link to GPL libraries if they are under LGPL, but static linking generally triggers copyleft obligations.
+
+### Is MIT more permissive than Apache 2.0?
+
+Both are permissive, but they differ in specific ways. MIT is simpler and shorter. Apache 2.0 includes a patent grant and requires notice of modifications. For maximum simplicity, choose MIT. For patent protection, choose Apache 2.0.
+
+### What happens if I violate a license?
+
+License violation can result in: loss of the license grant (meaning you no longer have permission to use the code), copyright infringement claims, and potential lawsuits. In practice, most authors will first ask you to comply. Legal action is a last resort.
+
+### Can I change from one license to another?
+
+You can change the license of code you authored. You cannot change the license of code you received under an existing license. For example, if you received code under GPL, that code remains under GPL. You can license your own new contributions under a different license.
+
+### Do I need a license for my GitHub repository?
+
+Technically, no, the code is copyrighted by default. But without a license, no one can legally use, modify, or distribute your code. If you want others to use your code, add a license. If you want to keep it private, do not publish it.
+
+### How do I check the licenses of my dependencies?
+
+Use license scanning tools: FOSSology, LicenseFinder, FOSSA, or Snyk. Most package managers have license information built in (`npm licenses``pip show``cargo metadata`). CI/CD pipelines can automate this checking.
+
+---
+
+*Last updated: 24 July 2026*
+
+*Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+---
+
+## Index
+URL: https://licensing.wyattau.com/
+
+sources:
+  - text: Standard textbook reference
+
+
+
+## What This Site Covers
+
+Practical software licensing guidance: choosing between MIT, GPL, Apache, and other licenses; understanding copyleft vs permissive models; handling license compatibility when combining third-party code; and navigating compliance requirements for commercial and open-source projects.
+
+## Why This Matters
+
+Every piece of software you use, modify, or distribute has a license that defines what you can and cannot do with it. Ignoring licensing can result in legal liability, forced code release, or loss of intellectual property. Understanding licensing is essential for developers working on open-source projects, commercial products, or anything in between.
+
+## How to Use These Notes
+
+1. **Start with the introduction**, Understand the basics of copyright, licensing, and open-source models
+2. **Choose the right license**, Match your license to your project goals and community expectations
+3. **Handle compatibility**, Learn which licenses can be combined and which cannot
+4. **Ensure compliance**, Meet the requirements of licenses you use in your projects
+
+## Practical Applications
+
+- **Open-source projects:** Choosing the right license attracts contributors and users. MIT is most popular for libraries; GPL for applications that should remain open.
+- **Commercial software:** Understanding which licenses are compatible with commercial use prevents legal issues. Apache 2.0 and MIT are generally safe choices.
+- **Enterprise environments:** Large organisations need license compliance policies. Understanding SBOMs (Software Bill of Materials) and dependency license scanning is essential.
+
+## Key Topics
+
+- **License Selection**, Matching license to project goals
+- **Copyleft vs Permissive**, Understanding obligations and trade-offs
+- **Compatibility**, Combining code from differently-licensed sources
+- **Compliance**, Meeting license requirements in practice
+
+## Resources
+
+- Choose a License (choosealicense.com), Simple guide to popular open-source licenses
+- TLDRLegal (tldrlegal.com), Plain-language summaries of common licenses
+- FOSSA (fossa.com), License compliance automation tools
+
+## Intuition
+
+**Licensing is the legal infrastructure of software development:** Just as building codes govern construction, software licences govern how code can be used, shared, and modified. Every developer needs to understand licensing basics.
+
+**Why it matters:** Licensing decisions affect commercial viability, community adoption, and legal exposure for software projects.
+
+**The key insight:** The choice between copyleft (GPL) and permissive (MIT/Apache) licences has profound consequences for how your code can be used in commercial and open source projects.
+
+## Common Mistakes
+
+**Assuming "open source" means "no rules":** Open source licenses have specific requirements (attribution, share-alike, patent grants). Violating these requirements is license infringement. Open source is not the same as public domain.
+
+**Choosing a license based on popularity rather than needs:** MIT is popular but provides no patent protection. Apache 2.0 includes patent grants but is more complex. GPL ensures copyleft but limits commercial use. Choose based on your goals, not what others use.
+
+**Forgetting to include license files:** A LICENSE file in the repository root is essential. Without it, users cannot determine their rights. Include the full license text, not just a reference to it.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for licensing notes.
+- **Practice:** Practice problems for revision.
+
+---
+
+## Intro
+URL: https://licensing.wyattau.com/intro/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
+}
+</script>
+
+Welcome to the licensing notes.
+
+Browse the content using the sidebar navigation on the left.
+
+## Why Licensing Matters
+
+Every piece of software has a license, even if you did not choose one. Without an explicit license, copyright law gives you "all rights reserved" by default, meaning nobody can use, modify, or distribute your code. Choosing the right license protects you and communicates your intentions to users.
+
+## Key Concepts
+
+- **Copyright** is automatic and grants exclusive rights to the creator. It does not need to be registered.
+- **Licensing** is the act of granting specific permissions to others. An MIT license grants broad permissions; a GPL license grants permissions with conditions.
+- **Copyleft** (GPL, AGPL) requires derivative works to use the same license. Permissive licenses (MIT, BSD, Apache) allow proprietary derivatives.
+
+## Common License Families
+
+| License | Type | Key Requirement |
+| --------- | ------ | ----------------- |
+| MIT | Permissive | Include copyright notice |
+| BSD 2-Clause | Permissive | Include copyright notice |
+| Apache 2.0 | Permissive | Include notice, state changes, patent grant |
+| GPL v3 | Copyleft | Derivative works must be GPL |
+| AGPL v3 | Strong Copyleft | Network use triggers copyleft |
+| MPL 2.0 | Weak Copyleft | File-level copyleft |
+
+## Why This Matters
+
+Choosing the wrong license can have lasting consequences for your project. A GPL license in a commercial product may require you to release your source code. A permissive license without patent protection may leave you vulnerable to patent claims. Understanding the legal implications of each license family is not optional, it is a fundamental part of software development.
+
+## Practical Guidance
+
+- **For personal projects:** MIT or BSD are simple and permissive. They allow anyone to use, modify, and distribute your code with minimal restrictions.
+- **For commercial products:** Apache 2.0 provides patent grants and explicit contributor licensing. Avoid GPL if you want to keep your code proprietary.
+- **For community projects:** GPL or AGPL ensure that improvements remain open. Choose based on whether you want to allow proprietary forks.
+
+---
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Intro", "url": "https://licensing.wyattau.com/intro"}]
+}
+</script>
+
+## Intuition
+
+**Software licences govern the legal use of code:** Every piece of software has a licence, whether explicitly stated or determined by default copyright law. Understanding licensing is essential for developers, companies, and open source contributors.
+
+**Why it matters:** Incorrect licensing can result in legal disputes, forced code disclosure, or loss of intellectual property rights.
+
+**The key insight:** There is no such thing as "no licence", if you do not specify one, default copyright applies, meaning nobody can legally use, modify, or distribute your code.
+
+## Common Mistakes
+
+**Confusing copyright with licensing:** Copyright is automatic (applied on creation). Licensing is a choice, you decide how others can use your work. An unlicensed work is "all rights reserved" by default, even if you want to share it. Always apply an explicit license.
+
+**Using GPL code in proprietary software:** GPL requires derivative works to also be GPL. If you incorporate GPL-licensed code into your project, your entire project must be GPL-compatible. Use MIT or Apache 2.0 for permissive licensing if you want proprietary compatibility.
+
+**Ignoring license compatibility:** Not all licenses can be combined. GPL and Apache 2.0 have compatibility issues. BSD and MIT are broadly compatible. Before combining code from different sources, verify their licenses allow the combination.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for licensing notes.
+- **Practice:** Practice problems for revision.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+---
+
+## License Compatibility
+URL: https://licensing.wyattau.com/license-compatibility/
+
+# License Compatibility
+
+This section covers license compatibility concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding license compatibility is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of license compatibility?
+2. How do you apply license compatibility in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Mit License
+URL: https://licensing.wyattau.com/mit-license/
+
+# Mit License
+
+This section covers mit license concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding mit license is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of mit license?
+2. How do you apply mit license in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Open Source
+URL: https://licensing.wyattau.com/open-source/
+
+# Open Source
+
+This section covers open source concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding open source is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of open source?
+2. How do you apply open source in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Osi Licenses
+URL: https://licensing.wyattau.com/osi-licenses/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "licensing", "url": "https://licensing.wyattau.com"}, {"name": "Osi Licenses", "url": "https://licensing.wyattau.com/osi-licenses"}]
+}
+</script>
+
+## License Classification
+
+Open source licenses fall on a spectrum from permissive to copyleft. Permissive licenses place
+minimal restrictions on how the code can be used, they require attribution but do not impose
+conditions on derivative works. Copyleft licenses require that derivative works carry the same
+license, ensuring that modifications remain open source.
+
+The Open Source Initiative (OSI) maintains the definitive list of OSI-approved licenses. Approval
+requires that the license comply with the Open Source Definition: free redistribution, access to
+source code, allowance for modifications, no discrimination against persons or fields of endeavor,
+and no restriction on other software distributed alongside the licensed code.
+
+| Category         | Mechanism                       | Examples                  |
+| ---------------- | ------------------------------- | ------------------------- |
+| Permissive       | Attribution only                | MIT, Apache 2.0, BSD, ISC |
+| Weak copyleft    | Same license for modified files | LGPL v3, MPL 2.0          |
+| Strong copyleft  | Same license for the whole work | GPL v3                    |
+| Network copyleft | Extends strong copyleft to SaaS | AGPL v3                   |
+
+The practical difference matters most when you combine code from multiple projects. Permissive code
+can be incorporated into proprietary software. Copyleft code forces openness. The wrong choice of
+license can make a project unshippable or expose a company to legal risk.
+
+## MIT License
+
+The MIT License is the most popular open source license. It is short, a single paragraph, and
+unambiguous. You can do almost anything with MIT-licensed code as long as you include the original
+copyright notice and license text.
+
+### Terms
+
+- Permission to use, copy, modify, merge, publish, distribute, sublicense, and sell
+- The license text and copyright notice must be included in all copies or substantial portions
+- No warranty, the software is provided "as is"
+
+### Requirements
+
+1. Include the original copyright notice
+2. Include the MIT license text
+3. That is the entire list
+
+### Notable Projects
+
+React, Angular, Vue.js, Rails, Django, Node.js, Go, Rust standard library, jQuery, .NET Core, most
+npm packages, most Cargo crates, most GitHub projects by count
+
+### When to Use
+
+Use MIT when you want maximum adoption with minimal friction. The license is so short and
+well-understood that it rarely creates legal uncertainty. It is the default choice for libraries,
+tools, and frameworks that serve as infrastructure for other projects.
+
+## Apache 2.0 License
+
+The Apache 2.0 License is a permissive license with explicit patent protections that MIT lacks. It
+is the standard license for large organizations and projects where patent risk is a realistic
+concern.
+
+### Patent Grant
+
+Section 3 of Apache 2.0 grants contributors a patent license covering the code they contribute. If a
+contributor holds a patent that the contributed code necessarily infringes, they grant every
+licensee a non-exclusive, worldwide, royalty-free license to use that patent. Section 3 also
+includes a patent retaliation clause: if a licensee sues any contributor for patent infringement
+over the software, that licensee loses its patent license.
+
+This is significant. MIT and BSD do not address patents at all. Without an explicit patent grant, a
+contributor could theoretically contribute code and later sue users for patent infringement on the
+same code. Apache 2.0 prevents this.
+
+### NOTICE File
+
+Apache 2.0 requires that derivative works preserve a NOTICE file if the original work includes one.
+The NOTICE file contains additional attribution, names of contributors, copyright holders, and
+specific attribution notices. This is more burdensome than MIT"s single requirement.
+
+### Notable Projects
+
+Android, Kubernetes, TensorFlow, Apache ecosystem (HTTP Server, Kafka, Spark), Swift, Terraform,
+Docker (not all components), Podman
+
+### When to Use
+
+Use Apache 2.0 when patent protection matters. This includes projects with corporate contributors,
+projects that implement standardized protocols or formats (where patent claims are common), and
+projects that want to be compatible with Apache Foundation governance.
+
+## LGPL v3
+
+The GNU Lesser General Public License v3 is a weak copyleft license. It applies copyleft
+requirements to the LGPL-licensed code itself but not to software that merely uses it. This makes
+LGPL suitable for libraries, code that is linked into larger applications, where requiring the
+entire application to be GPL-licensed would be impractical.
+
+### Weak Copyleft Mechanism
+
+LGPL v3 requires that modifications to the LGPL-licensed library itself must be published under LGPL
+v3 or GPL v3. However, a proprietary application that dynamically links to an unmodified LGPL
+library is not subject to copyleft. The boundary is:
+
+- **Modifying the library**, must release modifications under LGPL/GPL
+- **Linking against the library**, no copyleft obligation for the linking application
+- **Static linking**, may trigger copyleft (debated; safest to use dynamic linking)
+- **Distributing the library**, must provide source or an offer for source
+
+### Notable Projects
+
+GNU C Library (glibc), Qt (LGPL), OpenSSL (dual-licensed, formerly), FLTK, many GNOME libraries
+
+### When to Use
+
+Use LGPL when you want to ensure that improvements to your library remain open source, but you do
+not want to force proprietary applications that depend on it to open-source their entire codebase.
+This is the right choice for shared libraries, frameworks, and runtime components.
+
+## MPL 2.0
+
+The Mozilla Public License 2.0 is a file-level copyleft license. Modifications to MPL-licensed files
+must remain under MPL, but new files in the same project can use any license. This makes MPL less
+restrictive than GPL but more protective than MIT or Apache.
+
+### File-Level Copyleft
+
+The defining feature of MPL 2.0 is that copyleft applies at the file level, not the project level.
+If you modify an MPL-licensed file, your modifications must be distributed under MPL 2.0. If you add
+a new file to the project, you can license that file however you want, MIT, Apache, proprietary. A
+larger work that includes MPL files alongside other-licensed files is not subject to copyleft as a
+whole.
+
+This makes MPL 2.0 practical for mixed-license codebases and for projects that want to protect core
+files while allowing proprietary extensions.
+
+### Notable Projects
+
+Firefox (historically; now MPL/GPL/LGPL tri-license), LibreOffice, MariaDB, HashiCorp Vault
+(transitioned to BSL, see lessons in license changes)
+
+### When to Use
+
+Use MPL 2.0 when you want a middle ground between permissive and copyleft, protect your core code
+while allowing proprietary additions. It is well-suited for applications with extensible plugin
+architectures where you want the core to remain open but do not want to restrict what third parties
+build on top.
+
+## GPL v3
+
+The GNU General Public License v3 is a strong copyleft license. Any work that contains GPL-licensed
+code, linked statically or dynamically, combined into a single executable, or distributed as a
+whole, must be distributed under GPL v3. This is the "viral" nature of GPL: the copyleft
+requirement propagates to the entire combined work.
+
+### Strong Copyleft Mechanism
+
+GPL v3 applies to "covered works", works that are based on the GPL-licensed program or that
+incorporate it. The boundary is clear for static linking and direct inclusion. For dynamic linking,
+the FSF considers it a combined work; others disagree. The safest approach is to assume GPL copyleft
+applies to any form of linking.
+
+Key requirements of GPL v3:
+
+1. Source code must be provided with any distribution of the program or an offer valid for at least
+   3 years
+2. Modifications must be evidently marked
+3. The GPL license notice and copyright notices must be preserved
+4. No additional restrictions may be imposed beyond GPL v3
+5. Anti-Tivoization provision (Section 6): if the product includes installation information, you
+   must provide that information to users so they can modify and reinstall the software
+
+### Notable Projects
+
+Linux kernel (GPL v2), GCC, GNU Coreutils, Git, WordPress, VLC, OBS Studio, many command-line tools
+
+### When to Use
+
+Use GPL v3 when you want to ensure that all derivative works remain free software. This is the right
+choice when you believe that software freedom is a non-negotiable requirement, not a preference. It
+prevents corporations from taking your code proprietary. It also means that many companies will not
+use your code in proprietary products.
+
+## AGPL v3
+
+The Affero General Public License v3 extends GPL v3 with a network interaction clause (Section 13).
+If you modify AGPL-licensed software and offer users the ability to interact with it over a network
+- such as hosting it as a web service, you must provide those users with the complete source code
+of your version.
+
+### Network Copyleft
+
+GPL v3 triggers source distribution only when the software is distributed. Hosting software as a
+service (SaaS) does not count as distribution under traditional copyright law, so GPL v3 did not
+reach SaaS deployments. AGPL v3 closes this loophole: network use is treated as equivalent to
+distribution.
+
+This makes AGPL v3 the strongest copyleft license in common use. It is the license that prevents
+companies from hosting your code as a paid service without contributing back.
+
+### Notable Projects
+
+MongoDB (historically; transitioned to SSPL), Mastodon, Nextcloud, Plausible Analytics,
+Matrix/Synapse, Gitea, Many open-source SaaS alternatives
+
+### When to Use
+
+Use AGPL v3 when you want to prevent commercial appropriation through SaaS. This is the right choice
+for web applications, APIs, and backend services that are in most cases consumed over a network.
+Companies that would freely use MIT or Apache-licensed code as a SaaS foundation will hesitate
+before using AGPL-licensed code, because doing so would force them to open-source their
+modifications.
+
+## BSD and ISC
+
+The BSD and ISC licenses are minimalist permissive licenses that differ from MIT in minor wording
+and historical context rather than substance.
+
+### BSD (2-Clause)
+
+The BSD 2-Clause (Simplified BSD) license is functionally equivalent to MIT. It grants permission to
+use, modify, and distribute with attribution. The primary difference is wording, BSD uses
+"Redistribute and use in source and binary forms" while MIT uses "Permission is hereby granted."
+
+### BSD (3-Clause)
+
+The BSD 3-Clause (New BSD) license adds a non-endorsement clause:
+
+```
+Neither the name of the copyright holder nor the names of its contributors may be used
+to endorse or promote products derived from this software without specific prior
+written permission.
+```
+
+This prevents downstream users from using the project name or contributor names for marketing
+without permission. It is a minor restriction that has no practical impact in most cases.
+
+### ISC
+
+The ISC license was originally written for the Internet Software Consortium (BIND, DHCP). It is
+functionally equivalent to the BSD 2-Clause license with even shorter text. Some projects prefer it
+purely for brevity.
+
+### Notable Projects
+
+BSD: FreeBSD, OpenBSD, NetBSD, SQLite (public domain / blessing), nginx (BSD-like), Go (BSD-style
+with patent grant in additional file) ISC: OpenSSH, ncurses, many OpenBSD utilities
+
+### When to Use
+
+Use BSD or ISC when you want a permissive license that is functionally equivalent to MIT but prefer
+different wording. The choice between MIT, BSD-2, BSD-3, and ISC is largely aesthetic, all four are
+permissive, well-understood, and compatible with each other. Pick the one your community uses and
+move on.
+
+## License Compatibility Matrix
+
+License compatibility determines which licenses can be combined in a single project. When you
+include code under different licenses, the result must satisfy all license requirements
+simultaneously. Some combinations are impossible.
+
+| Downstream \ Dependency | MIT | Apache 2.0 | BSD | LGPL v3 | MPL 2.0 | GPL v3 | AGPL v3 |
+| ----------------------- | --- | ---------- | --- | ------- | ------- | ------ | ------- |
+| **Proprietary**         | Yes | Yes        | Yes | Yes¹    | Yes²    | No     | No      |
+| **MIT**                 | Yes | No³        | Yes | No³     | No³     | No     | No      |
+| **Apache 2.0**          | Yes | Yes        | Yes | No³     | No³     | No     | No      |
+| **GPL v3**              | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
+| **AGPL v3**             | Yes | No³        | Yes | Yes     | Yes⁴    | Yes    | Yes     |
+
+¹ Via dynamic linking only; static linking may trigger copyleft. ² MPL copyleft applies only to
+modified MPL files; the larger work can be proprietary. ³ Apache 2.0 and GPL v3 are incompatible in
+one direction: Apache-licensed code cannot be included in a GPL v3 project because Apache 2.0 has
+additional restrictions (patent retaliation, NOTICE file) that GPL v3 does not permit. GPL-licensed
+code can be included in an Apache 2.0 project. ⁴ MPL 2.0 is explicitly compatible with GPL v3 by
+virtue of its secondary license clause (Section 13).
+
+## Choosing a License
+
+The choice of license is a strategic decision, not a legal optimization. The license you choose
+communicates what you want to happen with your code.
+
+### Decision Framework
+
+**Do you want anyone to use your code in any way, with minimal restrictions?** → MIT, BSD-2-Clause,
+or ISC
+
+**Do you want anyone to use your code but with explicit patent protection?** → Apache 2.0
+
+**Do you want to protect your library but allow proprietary applications to link against it?** →
+LGPL v3
+
+**Do you want to protect your code at the file level while allowing proprietary additions?** → MPL
+2.0
+
+**Do you want to ensure all derivative works remain open source?** → GPL v3
+
+**Do you want to prevent commercial SaaS appropriation without contribution?** → AGPL v3
+
+### Common Scenarios
+
+| Scenario                                        | Recommended License |
+| ----------------------------------------------- | ------------------- |
+| Developer tool or CLI utility                   | MIT or Apache 2.0   |
+| Library or framework for others                 | MIT or Apache 2.0   |
+| Library where you want changes contributed back | LGPL v3             |
+| Application with plugin architecture            | MPL 2.0             |
+| Standalone application, free software ideology  | GPL v3              |
+| Web service / SaaS, want to prevent enclosure   | AGPL v3             |
+| Corporate open-source project                   | Apache 2.0          |
+
+### One License Per File
+
+A project can contain files under different licenses, but this adds complexity. Every contributor
+must understand which license applies to their contributions. Every user must audit the license
+headers. For simplicity, use one license for the entire project unless there is a specific reason
+not to.
+
+## Common Pitfalls
+
+1. **Assuming "open source" means "public domain."** Public domain and open source are different
+   concepts. Open source licenses retain copyright; they grant permissions that copyright law would
+   otherwise deny. Public domain means no copyright at all. Using the Creative Commons Zero (CC0)
+   declaration is the closest practical equivalent for software.
+
+2. **Mixing incompatible licenses.** Including GPL v3 code in an Apache 2.0 project is not possible. The combined work must satisfy both licenses simultaneously, and the additional restrictions in
+   Apache 2.0 (patent retaliation, NOTICE requirement) conflict with GPL v3's "no additional
+   restrictions" clause. Always check compatibility before combining code.
+
+3. **Not including license headers in every file.** Some licenses (MIT, BSD) require the license
+   text to appear in "all copies or substantial portions." This means every source file should carry
+   the copyright notice and a license reference. A LICENSE file at the root is necessary but not
+   sufficient for most permissive licenses.
+
+4. **Assuming GPL only applies to static linking.** The Free Software Foundation's position is that
+   dynamic linking creates a combined work under GPL. Not everyone agrees. If your business model
+   depends on dynamically linking to GPL code while keeping your code proprietary, you are relying
+   on an interpretation that has never been tested in court and that the license authors explicitly
+   reject.
+
+5. **Ignoring contributor license agreements.** If you accept contributions from others without a
+   CLA or DCO, you do not have a clear record of who holds copyright to what. This becomes a problem
+   when you want to change the license, enforce it, or relicense the code. A DCO (Developer
+   Certificate of Origin) is the lightweight option, contributors certify they have the right to
+   submit their contribution under the project's license.
+
+6. **Choosing AGPL v3 for libraries.** AGPL v3's network copyleft is designed for network services,
+   not libraries. If you ship an AGPL library, any application that uses it and is offered over a
+   network must release its full source code. This is likely stronger protection than you intend and
+   will deter adoption. Use LGPL v3 for libraries and AGPL v3 for server applications.
+
+7. **Changing licenses without consent.** You cannot unilaterally relicense code contributed by
+   others unless they signed a CLA granting you that right. If you accepted contributions under MIT
+   and later want to switch to GPL, you need permission from every contributor, or you must rewrite
+   the code yourself. Plan the license from the start.
+
+## Intuition
+
+**Open source licences are legal frameworks for code sharing:** They define what you can, cannot, and must do when using, modifying, and distributing software. The choice of licence affects how your code can be used by others.
+
+**Why it matters:** Using the wrong licence can expose you to legal liability or prevent others from using your code. Understanding licences is essential for any software project.
+
+**The key insight:** Copyleft licences (GPL) require derivative works to use the same licence, while permissive licences (MIT, Apache) allow proprietary use, this fundamental distinction shapes the open source ecosystem.
+
+
+```mermaid
+flowchart TD
+    A[Osi Licenses] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Summary
+
+Open source licenses exist on a spectrum from permissive (MIT, Apache, BSD, ISC) to copyleft (LGPL,
+MPL, GPL, AGPL). Permissive licenses maximize adoption by placing minimal conditions on use.
+Copyleft licenses ensure that modifications remain open, with varying scope: file-level (MPL),
+library-level (LGPL), project-level (GPL), and network-level (AGPL). Apache 2.0 is the permissive
+license of choice when patent protection matters. GPL v3 is the strong copyleft standard. AGPL v3
+extends GPL v3 to network services. License compatibility is not automatic, incompatible
+combinations make projects legally unshippable. Choose a license based on what you want to happen to
+your code, verify compatibility before combining code, and include proper license headers in every
+file.
+
+## Worked Examples
+
+Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
+linked above.
+
+## Cross-References
+
+- **[Site Home](../../):** Main landing page for licensing notes.
+- **Practice:** Practice problems for revision.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+---
+
+## Permissive
+URL: https://licensing.wyattau.com/permissive/
+
+# Permissive
+
+This section covers permissive concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding permissive is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of permissive?
+2. How do you apply permissive in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Proprietary
+URL: https://licensing.wyattau.com/proprietary/
+
+# Proprietary
+
+This section covers proprietary concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding proprietary is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of proprietary?
+2. How do you apply proprietary in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Public Domain
+URL: https://licensing.wyattau.com/public-domain/
+
+# Public Domain
+
+This section covers public domain concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding public domain is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of public domain?
+2. How do you apply public domain in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Software Licenses
+URL: https://licensing.wyattau.com/software-licenses/
+
+# Software Licenses
+
+This section covers software licenses concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding software licenses is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of software licenses?
+2. How do you apply software licenses in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+---
+
+## Trade Secret
+URL: https://licensing.wyattau.com/trade-secret/
+
+# Trade Secret
+
+This section covers trade secret concepts and provides practice questions for licensing preparation.
+
+## Key Concepts
+
+Understanding trade secret is essential for licensing success. This guide covers the fundamental principles and practical applications.
+
+## Practice Questions
+
+Test your knowledge with these practice questions:
+
+1. What are the main principles of trade secret?
+2. How do you apply trade secret in practice?
+3. What are common mistakes to avoid?
+
+## Study Tips
+
+- Review the key concepts thoroughly
+- Practice with sample questions
+- Focus on understanding, not memorisation
+- Use visual aids where available
+
+## Related Topics
+
+Browse other topics in this section for a comprehensive understanding.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+
+## Detailed Content
+
+This topic covers the fundamental principles and applications in depth. Each concept is explained with clear definitions, worked examples, and practice problems to reinforce understanding.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic. They form the foundation for more advanced study and are frequently examined.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems. Each example is broken down into clear steps with explanations.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+
+Keep practising and reviewing to master this topic.
+
+## Detailed Explanation
+
+This topic covers the fundamental principles and applications in depth.
+
+### Core Concepts
+
+Understanding these core concepts is essential for mastering this topic.
+
+### Worked Examples
+
+Worked examples demonstrate how to apply the concepts to solve problems.
+
+### Common Mistakes
+
+- Rushing through foundational material
+- Not practising problems after reading
+- Failing to connect concepts across topics
+
+### Further Reading
+
+Consult the recommended textbooks and additional resources.
+
+
+## Summary
+
+This topic provides comprehensive coverage of the subject matter.
+
+### Key Takeaways
+
+- Understanding core principles is essential
+- Practice and application reinforce learning
+- Connect concepts across related topics
+
+### Next Steps
+
+1. Review the worked examples
+2. Complete the practice problems
+3. Explore related topics in other sections
+
+
+## Practice Tips
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Key Points
+
+- Review this material regularly
+- Apply concepts to real scenarios
+- Connect with related topics
+
+
+## Final Notes
+
+- Understanding this topic is important for software licensing
+- Review the key concepts and practice regularly
+- Connect with other licensing topics for a complete understanding
+
+
+## Summary
+
+Review the key concepts and practice regularly to master this topic.
+
+
+Good luck with your studies!
+
+Practice makes perfect!
+
+Keep practising!
+
+## Os-Licenses
+
+---
+
+## Open Source Licenses
+URL: https://licensing.wyattau.com/os-licenses/open-source-licenses/
+
+```mermaid
+flowchart TD
+    A[Open Source Licenses] --> B[Key Concepts]
+    A --> C[Core Principles]
+    A --> D[Practical Applications]
+    B --> E[Fundamental definitions]
+    C --> F[Design patterns]
+    D --> G[Real-world usage]
+```
+
+## Overview
+
+Open source licences define how software can be used, modified, and distributed.
+Understanding these licences is essential for developers, businesses, and
+organisations that use or contribute to open source software.
+
+## Permissive Licences
+
+Permissive licences allow almost any use, including proprietary software, with
+minimal restrictions.
+
+### MIT Licence
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include the original copyright notice and licence
+- **Limitations**: No liability, no warranty
+- **Use case**: Libraries, frameworks, small projects
+- **Popularity**: Most popular open source licence
+
+### Apache 2.0
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include copyright notice, state changes, include licence
+- **Limitations**: No liability, no warranty, patent grant
+- **Use case**: Enterprise software, large projects
+- **Popularity**: Second most popular, preferred by Google, Microsoft
+
+### BSD 2-Clause
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include copyright notice and disclaimer
+- **Limitations**: No liability, no warranty
+- **Use case**: Operating systems, small libraries
+
+### BSD 3-Clause
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include copyright notice, no endorsement from original author
+- **Limitations**: No liability, no warranty
+- **Use case**: Operating systems, libraries
+
+## Copyleft Licences
+
+Copyleft licences require derivative works to be distributed under the same
+licence terms, ensuring software remains free.
+
+### GNU General Public Licence (GPL)
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include source code, same licence for derivatives
+- **Limitations**: No liability, no warranty
+- **Use case**: Operating systems (Linux), large projects
+- **Key feature**: Strong copyleft -- derivatives must be GPL
+
+### GNU Lesser General Public Licence (LGPL)
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include source code, same licence for modifications
+- **Limitations**: No liability, no warranty
+- **Use case**: Libraries that want to allow proprietary use
+- **Key feature**: Weak copyleft -- only modifications to the library must be LGPL
+
+### GNU Affero General Public Licence (AGPL)
+
+- **Permissions**: Use, copy, modify, merge, publish, distribute, sublicense, sell
+- **Conditions**: Include source code, same licence for derivatives, network use
+- **Limitations**: No liability, no warranty
+- **Use case**: Web applications, server software
+- **Key feature**: Strong copyleft including network use (SaaS)
+
+## Comparing Licences
+
+| Feature | MIT | Apache 2.0 | BSD 3 | GPL | LGPL | AGPL |
+|---------|-----|------------|-------|-----|------|------|
+| Commercial use | Yes | Yes | Yes | Yes | Yes | Yes |
+| Modification | Yes | Yes | Yes | Yes | Yes | Yes |
+| Distribution | Yes | Yes | Yes | Yes | Yes | Yes |
+| Private use | Yes | Yes | Yes | Yes | Yes | Yes |
+| Patent grant | No | Yes | No | No | No | No |
+| Same licence | No | No | No | Yes | Yes* | Yes |
+| Source code | No | No | No | Yes | Yes | Yes |
+| Network use | No | No | No | No | No | Yes |
+
+*LGPL: Only for modifications to the library itself
+
+## Choosing a Licence
+
+### For Libraries
+
+- **Want maximum adoption**: MIT
+- **Want patent protection**: Apache 2.0
+- **Want copyleft**: LGPL
+
+### For Applications
+
+- **Want maximum freedom**: MIT or Apache 2.0
+- **Want to keep source open**: GPL or AGPL
+- **Enterprise use**: Apache 2.0
+
+### For Web Applications
+
+- **Want SaaS protection**: AGPL
+- **Want permissive**: MIT or Apache 2.0
+
+## Common Pitfalls
+
+1. **Ignoring licence obligations**: Even permissive licences require
+   including the copyright notice and licence text. Failing to do so is
+   copyright infringement.
+
+2. **Mixing incompatible licences**: GPL code cannot be combined with
+   proprietary code. Understand licence compatibility before combining.
+
+3. **Not understanding copyleft**: GPL requires derivative works to be GPL.
+   If you modify GPL code, your modifications must also be GPL.
+
+## Summary
+
+Open source licences range from permissive (MIT, Apache 2.0, BSD) to copyleft
+(GPL, LGPL, AGPL). Permissive licences allow almost any use with minimal
+restrictions. Copyleft licences require derivative works to be under the same
+licence, ensuring software remains free. Choose MIT for maximum adoption,
+Apache 2.0 for patent protection, and GPL for copyleft. Always include the
+copyright notice and licence text when using open source software.
+
+## Worked Examples
+
+### Example 1: Using an MIT Library
+
+You want to use an MIT-licensed JavaScript library in your commercial product.
+
+**Requirements**: Include the original copyright notice and licence text in
+your distribution.
+
+**Action**: Copy the LICENSE file from the library into your project. Include
+a notice in your documentation or about page.
+
+### Example 2: Modifying GPL Code
+
+You modify a GPL-licensed application for internal use.
+
+**Requirements**: Your modifications must be distributed under the GPL licence.
+If you distribute the modified version, you must provide the source code.
+
+**Action**: If you only use it internally (no distribution), you are not
+required to release source code. If you distribute it, you must release
+source code under GPL.
+
+## Cross-References
+
+- [OSI Licences](/osi-licenses/) - OSI-approved licence list
+- Commercial Use - Using open source commercially
+
+
+## Advanced Content
+
+This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.
+
+### Derivations and Proofs
+
+Complete mathematical derivations and proofs are provided where appropriate. Each step is explained to ensure understanding of the underlying reasoning.
+
+### Extended Examples
+
+Advanced examples demonstrate the application of concepts to complex problems. These examples go beyond standard exam questions to develop deeper understanding.
+
+### Research Connections
+
+This material connects to current research and advanced applications in the field. Understanding these connections provides context for the study material.
+
+### Prerequisites
+
+Ensure you have mastered the prerequisite material before attempting this advanced content.

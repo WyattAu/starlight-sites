@@ -230,6 +230,6 @@ Regression analysis is about **quantifying the relationship between two quantita
 
 ## Cross-References
 
-- **[Exploring Data](../1-exploring-data/1_exploring_data):** Scatterplots and correlation are the starting point for regression analysis.
-- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** Confidence intervals and hypothesis tests for regression parameters use the same inferential framework.
+- **Exploring Data:** Scatterplots and correlation are the starting point for regression analysis.
+- **Statistical Inference:** Confidence intervals and hypothesis tests for regression parameters use the same inferential framework.
 - **[Probability](/statistics/3-probability/3_probability/):** The normal distribution underlies hypothesis tests for regression slope.

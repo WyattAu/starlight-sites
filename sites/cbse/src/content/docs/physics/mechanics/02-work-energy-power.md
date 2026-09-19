@@ -190,7 +190,7 @@ Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that
 
 - [Laws of Motion](/physics/mechanics/01-laws-of-motion/) -- The work-energy theorem connects Newton's second law to energy methods, providing an alternative approach to dynamics problems.
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Rotational kinetic energy and work done by torque extend energy concepts to rotational systems.
-- [Electrostatics](../electrostatics/index) -- Electric potential energy applies the work-energy framework to charges in electric fields.
+- Electrostatics -- Electric potential energy applies the work-energy framework to charges in electric fields.
 
 
 ## Advanced Content

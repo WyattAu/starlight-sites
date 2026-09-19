@@ -132,7 +132,7 @@ the junction.
 
 - [Highway Code Rules](/highway-code/) - Rules of the road
 - [Theory Test](https://computer-science.wyattau.com/3-theory/practice-theory/) - Practice questions
-- [Safe Driving](../safe-driving/safe-driving-tips) - Driving techniques
+- Safe Driving - Driving techniques
 
 
 ## Advanced Content

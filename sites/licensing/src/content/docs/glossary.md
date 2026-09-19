@@ -41,7 +41,7 @@ tags: [glossary]
 
 ## Further Resources
 
-Return to the [Licensing Hub](/hub/) for license comparisons, or explore [Tools](/tools/) for license-scanning utilities.
+Return to the [Licensing Hub](/hub/) for license comparisons, or explore Tools for license-scanning utilities.
 
 ## Copyleft Spectrum
 

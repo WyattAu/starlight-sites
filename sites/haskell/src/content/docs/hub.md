@@ -78,11 +78,11 @@ Haskell is the purest functional programming language in mainstream use. Functio
 
 ### Topic Notes
 
-- [Syntax Basics](02-fundamentals/01-syntax-basics), function definitions, guards, and where clauses
+- Syntax Basics, function definitions, guards, and where clauses
 - [Higher-Order Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/), map, filter, fold, and function composition
-- [Currying and Partial Application](02-fundamentals/03-currying-and-partial-application), all functions take one argument, function application
-- [Laziness](02-fundamentals/04-laziness), lazy evaluation, infinite data structures, and thunks
-- [Lists and Recursion](02-fundamentals/05-lists-and-recursion), list comprehension, pattern matching, and recursive data structures
+- Currying and Partial Application, all functions take one argument, function application
+- Laziness, lazy evaluation, infinite data structures, and thunks
+- Lists and Recursion, list comprehension, pattern matching, and recursive data structures
 
 ### Key Concepts
 
@@ -100,11 +100,11 @@ Haskell's type system is one of its greatest strengths. Types are inferred, you 
 
 ### Topic Notes
 
-- [Basic Types](03-types/01-basic-types), Int, Integer, Float, Double, Bool, Char, and String
-- [Type Inference](03-types/02-type-inference), how the compiler deduces types
-- [Type Annotations](03-types/03-type-annotations), explicit type signatures and why they matter
-- [Parametric Polymorphism](03-types/04-parametric-polymorphism), type variables and generic functions
-- [Higher-Kinded Types](03-types/05-higher-kinded-types), kind inference and type constructors
+- Basic Types, Int, Integer, Float, Double, Bool, Char, and String
+- Type Inference, how the compiler deduces types
+- Type Annotations, explicit type signatures and why they matter
+- Parametric Polymorphism, type variables and generic functions
+- Higher-Kinded Types, kind inference and type constructors
 
 ### Key Concepts
 
@@ -122,9 +122,9 @@ Type classes define interfaces for groups of types. They are similar to interfac
 
 ### Topic Notes
 
-- [Type Class Basics](04-type-classes/01-type-class-basics), defining type classes, deriving instances
+- Type Class Basics, defining type classes, deriving instances
 - [Standard Type Classes](https://java.wyattau.com/03-object-oriented/01-classes/), Eq, Ord, Show, Read, Num, Functor, Applicative, Monad
-- [Instance Resolution](04-type-classes/03-instance-resolution), how the compiler finds the right instance
+- Instance Resolution, how the compiler finds the right instance
 - [Multi-Parameter Type Classes](https://java.wyattau.com/03-object-oriented/01-classes/) and functional dependencies
 
 ### Key Concepts
@@ -143,10 +143,10 @@ Algebraic data types (ADTs) model data by combining types. Sum types represent a
 
 ### Topic Notes
 
-- [Sum Types](05-adts/01-sum-types), data declarations with multiple constructors
-- [Product Types](05-adts/02-product-types), records and positional constructors
-- [Newtype](05-adts/03-newtype), zero-cost type wrappers for safety and clarity
-- [Recursive Types](05-adts/04-recursive-types), lists, trees, and other recursive structures
+- Sum Types, data declarations with multiple constructors
+- Product Types, records and positional constructors
+- Newtype, zero-cost type wrappers for safety and clarity
+- Recursive Types, lists, trees, and other recursive structures
 
 ### Key Concepts
 
@@ -164,11 +164,11 @@ Monads are the most discussed and least understood concept in Haskell. They are 
 
 ### Topic Notes
 
-- [Monad Basics](06-monads/01-monad-basics), return, bind (>>=), and do notation
-- [IO Monad](06-monads/02-io-monad), sequencing side effects in a pure language
-- [Maybe and Either](06-monads/03-maybe-and-either), monadic error handling
-- [State Monad](06-monads/04-state-monad), threading state through computations
-- [Monad Transformers](06-monads/05-monad-transformers), combining monadic effects
+- Monad Basics, return, bind (>>=), and do notation
+- IO Monad, sequencing side effects in a pure language
+- Maybe and Either, monadic error handling
+- State Monad, threading state through computations
+- Monad Transformers, combining monadic effects
 
 ### Key Concepts
 
@@ -186,9 +186,9 @@ These topics cover Haskell's deeper layers, applicatives, monoids, lenses, and p
 
 ### Topic Notes
 
-- [Applicative Functors](07-advanced/01-applicative-functors), pure, (<*>), and applicative style
-- [Monoids and Folds](07-advanced/02-monoids-and-folds), Monoid type class, foldMap, and monoidal aggregation
-- [Lenses](07-advanced/03-lenses), focusing on parts of nested data structures
+- Applicative Functors, pure, (<*>), and applicative style
+- Monoids and Folds, Monoid type class, foldMap, and monoidal aggregation
+- Lenses, focusing on parts of nested data structures
 - [Property-Based Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/), QuickCheck, Arbitrary, and generative testing
 
 ### Key Concepts

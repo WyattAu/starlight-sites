@@ -756,7 +756,7 @@ int main() {
     std::copy_if(std::execution::par,
         data.begin(), pivot,
         std::back_inserter(evens),
-        [](int) { return true; });
+         { return true; });
 
     std::cout << "Copied " << evens.size() << " evens\n";
 }

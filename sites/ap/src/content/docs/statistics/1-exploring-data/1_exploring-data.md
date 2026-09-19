@@ -243,5 +243,5 @@ Exploring data is about **seeing the story before computing the statistics**. A 
 ## Cross-References
 
 - **[Probability](/statistics/3-probability/3_probability/):** Probability distributions provide the theoretical foundation for understanding data patterns.
-- **[Statistical Inference](../4-statistical-inference/4_statistical_inference):** Descriptive statistics from exploring data feed into inferential procedures.
+- **Statistical Inference:** Descriptive statistics from exploring data feed into inferential procedures.
 - **[Regression](/statistics/5-regression/5_regression/):** Scatterplots and correlation from exploring data are the starting point for regression analysis.

@@ -2,199 +2,197 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-Deep systems programming notes covering C++ ownership, templates, concurrency, the standard library, and build systems with worked examples.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://programming.wyattau.com/about/): About Wyatt's Notes Programming resources, experience, expertise, and credentials behind programming language study materials.
-- [C++ Programming Practice Test, 30 Problems](https://programming.wyattau.com/practice-test-mega/): 30 C++ programming problems covering Syntax, Object-Oriented Programming, Memory Management, and the Standard Template Library. Code analysis and debugging with detailed explanations.
-- [Complete C++ Programming Study Guide](https://programming.wyattau.com/hub/): Study notes for Complete C++ Programming Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [Programming Concepts Glossary, Key Terms](https://programming.wyattau.com/glossary/): Study notes for Programming Concepts Glossary, Key Terms with worked examples, practice problems, and key concepts for exam preparation.
-- [Programming Notes](https://programming.wyattau.com/): Deep systems programming notes covering C++ ownership, templates, concurrency, the standard library, and build systems with worked examples.
+- [About](https://programming.wyattau.com/about/)
+- [Glossary](https://programming.wyattau.com/glossary/)
+- [Hub](https://programming.wyattau.com/hub/)
+- [Index](https://programming.wyattau.com/)
+- [Practice Test Mega](https://programming.wyattau.com/practice-test-mega/)
 
 ## Compilation_model
 
-- [1_translation](https://programming.wyattau.com/compilation_model/1_translation/): This section covers 1_translation concepts, definitions, and applications with worked examples and practice problems.
-- [2_modules](https://programming.wyattau.com/compilation_model/2_modules/): This section covers 2_modules concepts, definitions, and applications with worked examples and practice problems.
-- [Binary Formats](https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats/): When the linker completes its work, it produces a binary file. This file is not merely a linear Sequence of machine code; it is a structured database
-- [Binary Module Interfaces](https://programming.wyattau.com/compilation_model/2_modules/2_bmi/): The introduction of Modules alters the C++ compilation model. In the header-based model, source Files are compiled in parallel because is handled locally by
-- [C++23 | Programming - Wyatt's Notes](https://programming.wyattau.com/compilation_model/2_modules/1_cpp_23/): C++ Programming C++23 notes covering key definitions, core concepts, worked examples, and practice questions for detailed exam preparation and revision.
-- [Header Units](https://programming.wyattau.com/compilation_model/2_modules/3_header_unit/): The transition from a text-based inclusion model () to a semantic module model () Cannot happen instantaneously. The C++ ecosystem relies on millions of
-- [Linker | Programming - Wyatt's Notes](https://programming.wyattau.com/compilation_model/1_translation/3_linker/): The linker is the post office of compilation: it takes separately compiled object files and delivers messages between them by resolving function calls to their
-- [Name Mangling](https://programming.wyattau.com/compilation_model/1_translation/5_name_mangling/): Linkers were originally designed for C and Fortran, languages where function names are unique Identifiers. C++, however, introduces features that break this
-- [Preprocessing and AST Generation, and Object Code](https://programming.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object/): Understanding the translation stages are critical for debugging compilation errors, optimizing build Times, and understanding. The pipeline processes one at
-- [Symbol Visibility](https://programming.wyattau.com/compilation_model/1_translation/2_symbol_visibility/): While the compiler processes one Translation Unit (TU) at a time, the fuses them Together. To do this, it must determine which names (symbols) in refer to
-- [The C Runtime (CRT)](https://programming.wyattau.com/compilation_model/2_modules/4_c_runtime/): A common misconception is that the execution of a C++ program begins at . In reality, is merely a callback function invoked by the after a complex
+- [Binary Formats](https://programming.wyattau.com/compilation_model/1_translation/4_binary_formats/)
+- [Bmi](https://programming.wyattau.com/compilation_model/2_modules/2_bmi/)
+- [C Runtime](https://programming.wyattau.com/compilation_model/2_modules/4_c_runtime/)
+- [Cpp 23](https://programming.wyattau.com/compilation_model/2_modules/1_cpp_23/)
+- [Header Unit](https://programming.wyattau.com/compilation_model/2_modules/3_header_unit/)
+- [Index](https://programming.wyattau.com/compilation_model/1_translation/)
+- [Index](https://programming.wyattau.com/compilation_model/2_modules/)
+- [Linker](https://programming.wyattau.com/compilation_model/1_translation/3_linker/)
+- [Name Mangling](https://programming.wyattau.com/compilation_model/1_translation/5_name_mangling/)
+- [Preprocessing Ast Object](https://programming.wyattau.com/compilation_model/1_translation/1_preprocessing_ast_object/)
+- [Symbol Visibility](https://programming.wyattau.com/compilation_model/1_translation/2_symbol_visibility/)
 
 ## Concurrency
 
-- [1_threading_and_synchronization](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/): This section covers 1_threading_and_synchronization concepts, definitions, and applications with worked examples and practice problems.
-- [2_memory_model_and_atomics](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/): This section covers 2_memory_model_and_atomics concepts, definitions, and applications with worked examples and practice problems.
-- [3_coroutines_and_async_io](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/): This section covers 3_coroutines_and_async_io concepts, definitions, and applications with worked examples and practice problems.
-- [Atomic Operations and Lock-Free Programming](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/): Study notes for Atomic Operations and Lock-Free Programming with worked examples, practice problems, and key concepts for exam preparation.
-- [Cache Coherency (MESI) and False Sharing](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency/): Study notes for Cache Coherency (MESI) and False Sharing with worked examples, practice problems, and key concepts for exam preparation.
-- [Compare-and-Swap (CAS) Loops](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops/): Study notes for Compare-and-Swap (CAS) Loops with worked examples, practice problems, and key concepts for exam preparation.
-- [Condition Variables, Latches, and Barriers](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables/): Study notes for Condition Variables, Latches, and Barriers with worked examples, practice problems, and key concepts for exam preparation.
-- [Coroutine Handle, Promise Type, and Awaiter](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter/): Study notes for Coroutine Handle, Promise Type, and Awaiter with worked examples, practice problems, and key concepts for exam preparation.
-- [Data Races and Critical Sections](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/2_data_races/): Study notes for Data Races and Critical Sections with worked examples, practice problems, and key concepts for exam preparation.
-- [Futures, Promises, and Async Flows](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/5_futures_promises/): Study notes for Futures, Promises, and Async Flows with worked examples, practice problems, and key concepts for exam preparation.
-- [Generators (std::generator)](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/3_generators/): Study notes for Generators (std::generator) with worked examples, practice problems, and key concepts for exam preparation.
-- [Instruction Reordering and Happens-Before](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering/): Study notes for Instruction Reordering and Happens-Before with worked examples, practice problems, and key concepts for exam preparation.
-- [Memory Orderings](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings/): Study notes for Memory Orderings with worked examples, practice problems, and key concepts for exam preparation.
-- [Mutexes, Shared Locks, and Deadlock Prevention](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/): Study notes for Mutexes, Shared Locks, and Deadlock Prevention with worked examples, practice problems, and key concepts for exam preparation.
-- [Stackless Coroutine Frames and Heap Allocation](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames/): Study notes for Stackless Coroutine Frames and Heap Allocation with worked examples, practice problems, and key concepts for exam preparation.
-- [Task Scheduling and Executors](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/4_task_scheduling/): Study notes for Task Scheduling and Executors with worked examples, practice problems, and key concepts for exam preparation.
-- [Thread Execution (std::jthread) and Hardware Mapping](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/1_threads_jthread/): Study notes for Thread Execution (std::jthread) and Hardware Mapping with worked examples, practice problems, and key concepts for exam preparation.
-- [Thread-Local Storage (TLS)](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage/): Study notes for Thread-Local Storage (TLS) with worked examples, practice problems, and key concepts for exam preparation.
+- [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Cache Coherency](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [Cas Loops](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Condition Variables](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Coroutine Frames](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Data Races](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Futures Promises](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Generators](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Index](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/)
+- [Index](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/)
+- [Index](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/)
+- [Instruction Reordering](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [Memory Orderings](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+- [Mutexes Deadlocks](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Promise Awaiter](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Task Scheduling](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
+- [Thread Local Storage](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
+- [Threads Jthread](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/1_threads_jthread/)
 
 ## Enviroment_and_toolchain
 
-- [1_compiler_and_standards](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/): This section covers 1_compiler_and_standards concepts, definitions, and applications with worked examples and practice problems.
-- [2_build_system](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/): This section covers 2_build_system concepts, definitions, and applications with worked examples and practice problems.
-- [3_dependency_management](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/): This section covers 3_dependency_management concepts, definitions, and applications with worked examples and practice problems.
-- [Binary Caching](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/6_binary_caching/): The distinction between (Module 2.4) and is Critical. Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Build Caching](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/4_build_caching/): Compiling C++ is computationally expensive. Each Translation Unit (TU) must be preprocessed, parsed Into an Abstract Syntax Tree (AST), optimized, and
-- [CMake Presets and Toolchain Files](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/): A major challenge in C++ systems engineering is . A developer on Linux, a Developer on Windows, and a CI/CD agent should all generate the build environment
-- [CMake Targets Properties and Generator Expressions](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/): Legacy CMake (versions pre-3.0) relied on global state variables and directory-scope commands (e.g.). This approach prevents modularity and leaks
-- [Code Coverage](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/6_code_coverage/): Code coverage is a metric used to calculate the percentage of source code executed during the Testing phase. In high-reliability C++ systems, coverage
-- [Conan | Programming - Wyatt's Notes](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan/): Study notes for Conan with worked examples, practice problems, and key concepts for exam preparation.
-- [CPM.cmake](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/2_cpm/): (CMake Package Manager) provides a lightweight abstraction over the standard CMake module. It bridges the gap between manual vendoring (git submodules) and
-- [Cross-compilation Toolchains](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/): Cross-compilation is the process of building executable code on one architecture (the ) that is intended to execute on a different architecture or operating
-- [Debugger](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger/): A compiled C++ binary consists of machine code instructions. To map an Instruction Pointer (IP) Address back to a specific line of C++ source code, variable
-- [Dependency Resolution](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/): Unlike languages with a unified ecosystem (Rust/Cargo, Node/NPM, Python/Pip), C++ does not utilize a Centralized registry or a standard package manager.
-- [Development Environment Analysis](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/): This section covers development environment analysis concepts, definitions, and applications with worked examples and practice problems.
-- [Installing Compiler](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler/): To develop in C++, a strictly compliant toolchain is required. The following details the Installation of the and toolchains.
-- [Language Server Protocol Configuration](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/1_language_server_protocol_configuration/): decouples the specific IDE (VS Code, Neovim, Emacs) from the Language intelligen Comprehensive educational content coverage with definitions and practice proble
-- [Language Standard Flags and ABI Compatibility](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility/): Installing a compiler is insufficient for C++23 development. By default, compilers often default to Older standards (C++14 or C++17) to maintain backward
-- [Linker Configuration](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/): The linker is the final stage of the translation pipeline. It accepts object files ( or ) Generated by the compiler, resolves symbol references (functions
-- [Ninja Build System and Parrallelism](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/): The build system is responsible for orchestrating the execution of compilers, linkers, and custom Commands to transform source code into artifacts. While
-- [Property Propagation](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/5_property_propagation/): Study notes for Property Propagation with worked examples, practice problems, and key concepts for exam preparation.
-- [Sanitizer](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/): Static analysis predicts defects by parsing source code. detect defects by Monit Comprehensive educational content coverage with definitions and practice proble
-- [Standard Library Implementation](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation/): In C++, the language specification (syntax, keywords, type system) and the Standard Library (headers Like ) are distinct entities. While the ISO C++
-- [Static Analysis](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/3_static_analysis/): Static Analysis involves examining source code without executing it. Unlike the compiler, which Focuses on grammar and binary generation, static analyzers
-- [Unit Testing](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/5_unit_tests/): In a standard workflow, unit tests are compiled and executed as part of the build process. The build System must be capable of resolving testing
-- [vcpkg | Programming - Wyatt's Notes](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/3_vcpkg/): Study notes for vcpkg with worked examples, practice problems, and key concepts for exam preparation.
+- [Binary Caching](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [Build Caching](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/4_build_caching/)
+- [Cmake Presets And Toolchain Files](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [Cmake Targets Properties Generator](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
+- [Code Coverage](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/6_code_coverage/)
+- [Conan](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Cpm](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Crosscompilation Toolchains](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/4_crosscompilation_toolchains/)
+- [Debugger](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/2_debugger/)
+- [Dependency Architectures Models](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Index](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/)
+- [Index](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/)
+- [Index](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/)
+- [Index](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/)
+- [Installing Compiler](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/1_installing_compiler/)
+- [Language Server Protocol Configuration](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/1_language_server_protocol_configuration/)
+- [Language Standard And Abi Compatibility](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/2_language_standard_and_abi_compatibility/)
+- [Linker Configuration](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/5_linker_configuration/)
+- [Ninja And Parallelism](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
+- [Property Propagation](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
+- [Sanitizer](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/4_sanitizer/)
+- [Standard Library Implementation](https://programming.wyattau.com/enviroment_and_toolchain/1_compiler_and_standards/3_standard_library_implementation/)
+- [Static Analysis](https://programming.wyattau.com/enviroment_and_toolchain/4_development_enviroment_analysis/3_static_analysis/)
+- [Unit Tests](https://programming.wyattau.com/enviroment_and_toolchain/2_build_system/5_unit_tests/)
+- [Vcpkg](https://programming.wyattau.com/enviroment_and_toolchain/3_dependency_management/3_vcpkg/)
 
 ## Function_architecture
 
-- [1_function_mechanics](https://programming.wyattau.com/function_architecture/1_function_mechanics/): This section covers 1_function_mechanics concepts, definitions, and applications with worked examples and practice problems.
-- [2_error_handling](https://programming.wyattau.com/function_architecture/2_error_handling/): This section covers 2_error_handling concepts, definitions, and applications with worked examples and practice problems.
-- [Algebraic Error Handling, std::optional and std::variant](https://programming.wyattau.com/function_architecture/2_error_handling/4_optional_variant/): and are stack-allocated, type-safe alternatives to exceptions for Representing values that may be absent or that may hold one of several alternative types.
-- [C-Interop and FFI](https://programming.wyattau.com/function_architecture/1_function_mechanics/5_c_interop/): C++ uses to encode type information into function symbols, enabling overloading. C Does not mangle names, each function has a single symbol matching its
-- [C++ Error Handling Practice (Interactive)](https://programming.wyattau.com/function_architecture/2_error_handling/practice-error-handling/): 15 auto-graded MCQ questions covering exceptions, try/catch blocks, noexcept, std::error_code, custom exception hierarchies, RAII-based error handling, and
-- [C++ Flashcards: Error Handling](https://programming.wyattau.com/function_architecture/2_error_handling/flashcards-error-handling/): PROGRAMMING 5_function_architecture flashcards: C++ Flashcards: Error Handling. Comprehensive study material with definitions, examples, and assessment tools.
-- [Calling Conventions and Stack Management](https://programming.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions/): The C++ Standard does not prescribe a calling convention [N4950 §8.4.4]. On x86-64 Linux and macOS, The governs how functions pass arguments, return values,
-- [Exception Safety Guarantees](https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety/): The exception safety taxonomy, formalized by Abrahams (2001) and referenced in the C++ Standard Library requirements, classifies every operation into four
-- [Lambda Expressions, Capture Layouts and Closure Types](https://programming.wyattau.com/function_architecture/1_function_mechanics/3_lambdas/): A lambda expression produces a, an unnamed object of an unnamed class type (the Closure type). This section covers lambda syntax, capture modes, generic
-- [Monadic Error Handling, std::expected](https://programming.wyattau.com/function_architecture/2_error_handling/5_expected/): Study notes for Monadic Error Handling, std::expected with worked examples, practice problems, and key concepts for exam preparation.
-- [Overload Resolution](https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution/): C++ function resolution is not a simple name match. The compiler performs a multi-phase search Through namespaces, ranks candidate functions against a
-- [The Itanium Exception ABI](https://programming.wyattau.com/function_architecture/2_error_handling/1_exception_abi/): The dominant exception model on all major platforms (GCC, Clang, MSVC on x64) is the model specified informally by the Itanium C++ ABI and adopted as the
-- [The noexcept Specifier](https://programming.wyattau.com/function_architecture/2_error_handling/3_noexcept/): Since C++17, is part of the [N4950 §14.5.1]. This has Significant implications for overload resolution, optimization, and exception safety guarantees.
-- [Type Erasure, Function Pointers, std::function, std::move_only_function](https://programming.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure/): Type erasure allows heterogeneous callables to be stored and invoked through a uniform interface. This section covers the progression from raw function
+- [C Interop](https://programming.wyattau.com/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions](https://programming.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Exception Abi](https://programming.wyattau.com/function_architecture/2_error_handling/1_exception_abi/)
+- [Exception Safety](https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety/)
+- [Expected](https://programming.wyattau.com/function_architecture/2_error_handling/5_expected/)
+- [Flashcards Error Handling](https://programming.wyattau.com/function_architecture/2_error_handling/flashcards-error-handling/)
+- [Index](https://programming.wyattau.com/function_architecture/1_function_mechanics/)
+- [Index](https://programming.wyattau.com/function_architecture/2_error_handling/)
+- [Lambdas](https://programming.wyattau.com/function_architecture/1_function_mechanics/3_lambdas/)
+- [Noexcept](https://programming.wyattau.com/function_architecture/2_error_handling/3_noexcept/)
+- [Optional Variant](https://programming.wyattau.com/function_architecture/2_error_handling/4_optional_variant/)
+- [Overload Resolution](https://programming.wyattau.com/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Practice Error Handling](https://programming.wyattau.com/function_architecture/2_error_handling/practice-error-handling/)
+- [Type Erasure](https://programming.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure/)
 
 ## Object_oriented
 
-- [1_class_design](https://programming.wyattau.com/object_oriented/1_class_design/): This section covers 1_class_design concepts, definitions, and applications with worked examples and practice problems.
-- [2_runtime_polymorphism](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/): This section covers 2_runtime_polymorphism concepts, definitions, and applications with worked examples and practice problems.
-- [Access Control and Friendship](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/): C++ provides fine-grained access control through And specifiers, Plus the mechanism for granting selective access to non-members. Access control is enforced
-- [C++ Flashcards: Object-Oriented Programming](https://programming.wyattau.com/object_oriented/flashcards-oop/): PROGRAMMING 6_object_oriented flashcards: C++ Flashcards: Object-Oriented Programming. Comprehensive study material with definitions, examples, and assessmen
-- [Custom Formatting with std::formatter](https://programming.wyattau.com/object_oriented/1_class_design/6_std_formatter/): C++20 introduced Providing type-safe text formatting through . To enable Formatting for user-defined types, you specialize in namespace . This section
-- [Deducing This and CRTP](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/): C++23 introduces (deducing this), which eliminates the need for the Curiously Recurring Template Pattern (CRTP) in most cases. This section covers the CRTP
-- [Devirtualization and Final Specifiers](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/3_devirtualization/): is a compiler optimization that replaces a virtual function call with a direct Call or inlines it entirely, eliminating the vtable lookup overhead. This
-- [Inheritance, Object Slicing, and Virtual Destructors](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/): Inheritance allows derived classes to extend base classes, but copying polymorphic objects by value Causes -- the derived portion is discarded. This section
-- [Object Layout, vptr, and the this Pointer](https://programming.wyattau.com/object_oriented/1_class_design/1_object_layout_vptr/): Understanding how the compiler lays out objects in memory is fundamental to writing correct and Efficient C++. This section covers the memory layout of
-- [Object_oriented](https://programming.wyattau.com/object_oriented/): This section covers object_oriented concepts, definitions, and applications with worked examples and practice problems.
-- [Operator Overloading](https://programming.wyattau.com/object_oriented/1_class_design/4_operator_overloading/): C++ allows user-defined types to overload most operators, enabling natural syntax for custom types. This section covers the rules for overloading, member vs
-- [RTTI, dynamic_cast, and typeid](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/): Run-Time Type Information (RTTI) allows programs to query the dynamic type of polymorphic objects at Runtime. This section covers for safe downcasting, the
-- [Special Member Function Generation Rules](https://programming.wyattau.com/object_oriented/1_class_design/3_special_member_functions/): The compiler automatically generates special member functions (SMFs), destructor, copy/move Constructors, and copy/move assignment operators, according to
-- [The Spaceship Operator](https://programming.wyattau.com/object_oriented/1_class_design/5_spaceship_operator/): Study notes for The Spaceship Operator with worked examples, practice problems, and key concepts for exam preparation.
-- [Virtual Functions and vtables](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/1_vtables/): Virtual functions are the foundation of runtime polymorphism in C++. When a member function is Declared The call is resolved at runtime based on the
+- [Access Control](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/)
+- [Deducing This Crtp](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
+- [Devirtualization](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Flashcards Oop](https://programming.wyattau.com/object_oriented/flashcards-oop/)
+- [Index](https://programming.wyattau.com/object_oriented/1_class_design/)
+- [Index](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/)
+- [Index](https://programming.wyattau.com/object_oriented/)
+- [Inheritance Slicing](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [Object Layout Vptr](https://programming.wyattau.com/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](https://programming.wyattau.com/object_oriented/1_class_design/4_operator_overloading/)
+- [Rtti Dynamic Cast](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [Spaceship Operator](https://programming.wyattau.com/object_oriented/1_class_design/5_spaceship_operator/)
+- [Special Member Functions](https://programming.wyattau.com/object_oriented/1_class_design/3_special_member_functions/)
+- [Std Formatter](https://programming.wyattau.com/object_oriented/1_class_design/6_std_formatter/)
+- [Vtables](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/1_vtables/)
 
 ## Resource_management
 
-- [1_ownership_and_raii](https://programming.wyattau.com/resource_management/1_ownership_and_raii/): This section covers 1_ownership_and_raii concepts, definitions, and applications with worked examples and practice problems.
-- [2_value_categories_and_move](https://programming.wyattau.com/resource_management/2_value_categories_and_move/): This section covers 2_value_categories_and_move concepts, definitions, and applications with worked examples and practice problems.
-- [C++ Flashcards: Memory Management](https://programming.wyattau.com/resource_management/1_ownership_and_raii/flashcards-memory-management/): PROGRAMMING 4_resource_management flashcards: C++ Flashcards: Memory Management. Comprehensive study material with definitions, examples, and assessment tools.
-- [C++ Memory Management Practice (Interactive)](https://programming.wyattau.com/resource_management/1_ownership_and_raii/practice-memory-management/): 15 auto-graded MCQ questions covering stack vs heap allocation, pointers, references, smart pointers, RAII, memory leaks, new/delete, sizeof, and alignment.
-- [Common Pitfalls](https://programming.wyattau.com/resource_management/1_ownership_and_raii/5_custom_deleters/): Smart pointers eliminate many classes of resource bugs, but misuse still leads to leaks, undefined Behavior, and performance regressions. This section
-- [Move Constructors, Assignment, Swap Idiom](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/): Move semantics allow resources to be transferred between objects without copying. The move Constructor steals resources from a source object, leaving it in
-- [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/): RAII (Resource Acquisition Is Initialization) is the foundational C++ idiom that binds resource Lifetime to object lifetime. By acquiring resources in
-- [Reference Collapsing and Forwarding References](https://programming.wyattau.com/resource_management/2_value_categories_and_move/2_reference_collapsing/): Reference collapsing is the template mechanism that enables a single function template to accept Both lvalues and rvalues while preserving their original
-- [Resource Management and Move Semantics](https://programming.wyattau.com/resource_management/0_intro/): Part 4 addresses the central problem in systems programming: Comprehensive educational content coverage with definitions and practice problems.
-- [Resource_management](https://programming.wyattau.com/resource_management/): This section covers resource_management concepts, definitions, and applications with worked examples and practice problems.
-- [Return Value Optimization (RVO) and NRVO](https://programming.wyattau.com/resource_management/2_value_categories_and_move/5_return_value_optimization/): Study notes for Return Value Optimization (RVO) and NRVO with worked examples, practice problems, and key concepts for exam preparation.
-- [Shared Ownership (std::shared_ptr) and Control Block](https://programming.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr/): enables multiple owners to share a single heap-allocated object via a Reference-counted control block. While powerful, it carries significant overhead,
-- [Temporary Materialization](https://programming.wyattau.com/resource_management/2_value_categories_and_move/3_temporary_materialization/): In C++17 and later, a prvalue is not an object, it is a recipe for constructing one. The prvalue is into an actual object only when the language requires
-- [Unique Ownership (std::unique_ptr) and EBO](https://programming.wyattau.com/resource_management/1_ownership_and_raii/2_unique_ptr/): is the default smart pointer for exclusive ownership of heap-allocated objects. It Is zero-overhead relative to a raw pointer, supports custom deleters with
-- [Value Taxonomy](https://programming.wyattau.com/resource_management/2_value_categories_and_move/1_value_taxonomy/): Every C++ expression has a, a property that determines which operations are Legal on it and how it interacts with overloaded functions. C++17 defines three
-- [Weak Pointers and Cyclic Reference Breaking](https://programming.wyattau.com/resource_management/1_ownership_and_raii/4_weak_ptr/): is a non-owning observer of a -managed object. Its primary use case is Breaking reference cycles in graph structures, the most common source of memory
+- [Custom Deleters](https://programming.wyattau.com/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Flashcards Memory Management](https://programming.wyattau.com/resource_management/1_ownership_and_raii/flashcards-memory-management/)
+- [Index](https://programming.wyattau.com/resource_management/1_ownership_and_raii/)
+- [Index](https://programming.wyattau.com/resource_management/2_value_categories_and_move/)
+- [Index](https://programming.wyattau.com/resource_management/)
+- [Intro](https://programming.wyattau.com/resource_management/0_intro/)
+- [Move Constructors Rvo](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Practice Memory Management](https://programming.wyattau.com/resource_management/1_ownership_and_raii/practice-memory-management/)
+- [Raii Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Reference Collapsing](https://programming.wyattau.com/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization](https://programming.wyattau.com/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Shared Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Temporary Materialization](https://programming.wyattau.com/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Unique Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Value Taxonomy](https://programming.wyattau.com/resource_management/2_value_categories_and_move/1_value_taxonomy/)
+- [Weak Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/4_weak_ptr/)
 
 ## Standard_library
 
-- [1_containers_and_allocators](https://programming.wyattau.com/standard_library/1_containers_and_allocators/): This section covers 1_containers_and_allocators concepts, definitions, and applications with worked examples and practice problems.
-- [2_algorithms_and_ranges](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/): This section covers 2_algorithms_and_ranges concepts, definitions, and applications with worked examples and practice problems.
-- [3_input_output_formatting](https://programming.wyattau.com/standard_library/3_input_output_formatting/): This section covers 3_input_output_formatting concepts, definitions, and applications with worked examples and practice problems.
-- [4_system_utilities](https://programming.wyattau.com/standard_library/4_system_utilities/): This section covers 4_system_utilities concepts, definitions, and applications with worked examples and practice problems.
-- [Associative and Unordered Containers](https://programming.wyattau.com/standard_library/1_containers_and_allocators/2_associative_containers/): C++ provides two families of associative containers: containers () Backed by balanced binary search trees with operations, and containers () backed by hash
-- [Chrono Library](https://programming.wyattau.com/standard_library/4_system_utilities/2_chrono/): (C++11) provides types and functions for representing and manipulating time values. The library uses the type system to prevent accidental mixing of time
-- [Filesystem Library](https://programming.wyattau.com/standard_library/4_system_utilities/1_filesystem/): (C++17) provides a portable interface for manipulating paths, querying file Metadata, iterating directories, and performing file operations. It abstracts
-- [Iterator Categories, Traversal, and Invalidation](https://programming.wyattau.com/standard_library/1_containers_and_allocators/3_iterators/): Iterators are the glue between containers and algorithms in the C++ standard library. Understanding Iterator categories is essential for knowing which
-- [Iterator-Sentinel Model](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/): C++20 fundamentally restructured the standard library around , introducing the Iterator-sentinel model as the primary abstraction for sequence traversal. A
-- [Parallel Algorithms](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/): C++17 introduced execution policies that enable many standard algorithms to run in parallel across Multiple threads. This section covers the three standard
-- [Polymorphic Memory Resources (PMR)](https://programming.wyattau.com/standard_library/1_containers_and_allocators/4_pmr/): C++17 introduced (PMR) in Enabling Containers to use different allocation strategies without changing their type. PMR decouples the Allocation strategy from
-- [Projections and Callable Objects](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/3_projections/): Study notes for Projections and Callable Objects with worked examples, practice problems, and key concepts for exam preparation.
-- [Random Number Generation](https://programming.wyattau.com/standard_library/4_system_utilities/3_random_numbers/): The header provides a modular random number generation system consisting of engines (stateful objects producing random number sequences), distributions
-- [Range Adaptors, Views, and Composition](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/2_range_adaptors/): Range adaptors are lazy, composable transformations applied to ranges via the pipe operator . Each adaptor returns a --- a lightweight object that refers to
-- [Range Materialization (std::ranges::to)](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/4_range_materialization/): Views are lazy and borrow elements from their source. When you need ownership, multiple passes, or Independence from the source lifetime, you must the view
-- [Regular Expressions](https://programming.wyattau.com/standard_library/4_system_utilities/4_regular_expressions/): (C++11) provides regular expression matching, searching, and replacement using the ECMAScript regex grammar by default. This section covers the three main
-- [Sequence Containers (Vector, Deque, List)](https://programming.wyattau.com/standard_library/1_containers_and_allocators/1_sequence_containers/): The C++ standard library provides three primary sequence containers: And . Each uses a different memory model with distinct trade-offs in terms of random
-- [Stream Buffers and Locale Facets](https://programming.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers/): The C++ I/O system is built on a layered architecture. High-level stream classes ( ) perform formatting and parsing, then delegate actual character transfer
-- [Type-Safe Formatting (std::format, std::print)](https://programming.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting/): C++20 introduced A type-safe formatting function that checks argument types at Compile time using a concise format specification syntax. C++23 added and for
-- [Unicode Support](https://programming.wyattau.com/standard_library/3_input_output_formatting/3_unicode_support/): C++ provides several character types for Unicode support and string literals for UTF-8 text. However, the standard library provides minimal high-level
+- [Associative Containers](https://programming.wyattau.com/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [Chrono](https://programming.wyattau.com/standard_library/4_system_utilities/2_chrono/)
+- [Filesystem](https://programming.wyattau.com/standard_library/4_system_utilities/1_filesystem/)
+- [Index](https://programming.wyattau.com/standard_library/1_containers_and_allocators/)
+- [Index](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/)
+- [Index](https://programming.wyattau.com/standard_library/3_input_output_formatting/)
+- [Index](https://programming.wyattau.com/standard_library/4_system_utilities/)
+- [Iterator Sentinel](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Iterators](https://programming.wyattau.com/standard_library/1_containers_and_allocators/3_iterators/)
+- [Parallel Algorithms](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Pmr](https://programming.wyattau.com/standard_library/1_containers_and_allocators/4_pmr/)
+- [Projections](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Random Numbers](https://programming.wyattau.com/standard_library/4_system_utilities/3_random_numbers/)
+- [Range Adaptors](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+- [Regular Expressions](https://programming.wyattau.com/standard_library/4_system_utilities/4_regular_expressions/)
+- [Sequence Containers](https://programming.wyattau.com/standard_library/1_containers_and_allocators/1_sequence_containers/)
+- [Stream Buffers](https://programming.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Type Safe Formatting](https://programming.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting/)
+- [Unicode Support](https://programming.wyattau.com/standard_library/3_input_output_formatting/3_unicode_support/)
 
 ## Templates_and_metaprogramming
 
-- [1_generic_programming](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/): This section covers 1_generic_programming concepts, definitions, and applications with worked examples and practice problems.
-- [2_concepts_and_constraints](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/): This section covers 2_concepts_and_constraints concepts, definitions, and applications with worked examples and practice problems.
-- [3_compile_time_computation](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/): This section covers 3_compile_time_computation concepts, definitions, and applications with worked examples and practice problems.
-- [Argument Deduction (Class and Function)](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/): Template argument deduction allows the compiler to infer template parameters from the types of Arguments provided at call sites or construction sites. This
-- [C++ Flashcards: Templates and Metaprogramming](https://programming.wyattau.com/templates_and_metaprogramming/flashcards-templates/): PROGRAMMING 7_templates_and_metaprogramming flashcards: C++ Flashcards: Templates and Metaprogramming. Comprehensive study material with definitions,
-- [Compile-Time Branching and Constexpr Functions](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/): C++ provides multiple mechanisms for compile-time computation: for type-based Dispatch within function bodies, functions that may be evaluated at compile
-- [Constraint Subsumption and Overload Resolution](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/): When multiple constrained function templates are viable for a call, the compiler uses --- a partial ordering on constraints --- to select the most
-- [Defining Concepts and Requires Clauses](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/): C++20 introduced --- named requirements for template parameters that allow the compiler To check, at the point of instantiation, whether a type satisfies a
-- [Dependent Names and Two-Phase Lookup](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/4_dependent_names/): In templates, the distinction between and names determines when name Lookup occurs. Dependent names (those that depend on a template parameter) are looked
-- [Explicit and Partial Specialization](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization/): Specialization allows you to provide alternative implementations for specific sets of template Arguments. replaces the primary template entirely for a
-- [Explicit Instantiation and Extern Templates](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/): When templates are instantiated implicitly in every translation unit that uses them, compilation Time and binary size can grow significantly. C++ provides
-- [Fold Expressions and Pack Expansion](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/): A reduces a parameter pack using a binary operator [N4950 §7.6.1], introduced in C++17. Fold expressions come in four forms (unary left/right, binary
-- [Parameter Packs and Variadic Templates](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/): A accepts a variable number of template arguments via a [N4950 §13.7.3]. Parameter packs come in two forms: type parameter packs and non-type parameter
-- [SFINAE vs Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/): (Substitution Failure Is Not An Error) was the primary mechanism for constraining Templates from C++98 through C++17. C++20 concepts provide a cleaner, more
-- [Standard Library Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/): The header [N4950 §18.4] provides a comprehensive set of predefined concepts that serve As building blocks for user-defined constraints. These concepts
-- [Template Instantiation, Monomorphization, and Code Bloat](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/1_instantiation/): Templates are blueprints the compiler uses to generate type-specific code on demand. This process, Called, produces optimized, type-specific functions and
-- [Templates_and_metaprogramming](https://programming.wyattau.com/templates_and_metaprogramming/): This section covers templates_and_metaprogramming concepts, definitions, and applications with worked examples and practice problems.
-- [Type Traits and Static Reflection Patterns](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/): Type traits provide compile-time type introspection and transformation, forming the foundation of Generic programming in C++. Combined with techniques like
+- [Argument Deduction](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Constraint Subsumption](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [Defining Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [Dependent Names](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Flashcards Templates](https://programming.wyattau.com/templates_and_metaprogramming/flashcards-templates/)
+- [Fold Expressions](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [If Constexpr](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Index](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/)
+- [Index](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/)
+- [Index](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/)
+- [Index](https://programming.wyattau.com/templates_and_metaprogramming/)
+- [Instantiation](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
+- [Parameter Packs](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Sfinae Vs Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
+- [Specialization](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Standard Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+- [Type Traits](https://programming.wyattau.com/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 ## Types
 
-- [1_data_layout](https://programming.wyattau.com/types/1_data_layout/): This section covers 1_data_layout concepts, definitions, and applications with worked examples and practice problems.
-- [2_pointers_references_views](https://programming.wyattau.com/types/2_pointers_references_views/): This section covers 2_pointers_references_views concepts, definitions, and applications with worked examples and practice problems.
-- [3_initialization_and_lifetime](https://programming.wyattau.com/types/3_initialization_and_lifetime/): This section covers 3_initialization_and_lifetime concepts, definitions, and applications with worked examples and practice problems.
-- [Aggregate Initialization](https://programming.wyattau.com/types/3_initialization_and_lifetime/3_aggregate_initialization/): Aggregate initialization is the mechanism by which plain data structures (structs, arrays, unions) Are initialized without invoking user-defined
-- [Alignment and Layout](https://programming.wyattau.com/types/1_data_layout/2_layout/): In C++, is rarely equal to the sum of the sizes of its members. The compiler inserts Invisible bytes known as between members to satisfy .
-- [Bit Manipulation](https://programming.wyattau.com/types/1_data_layout/3_bit_manipulation/): Systems programming frequently requires bypassing the C++ type system to manipulate the raw binary Representation of data. This includes parsing network
-- [C++ Flashcards: Type System](https://programming.wyattau.com/types/flashcards-type-system/): import { flashcards1, flashcards2, flashcards3, flashcards4 } from '@/data/flashcards/3_types/flashcards-type-system-data.js';
-- [C++ Types and Resource Management: Practice Problems](https://programming.wyattau.com/types/practice-types-resources/): 17 practice problems covering fundamental C++ concepts: types, RAII, ownership, move semantics, smart pointers, and undefined behavior.
-- [Constant Expressions](https://programming.wyattau.com/types/3_initialization_and_lifetime/4_constexpr_consteval_constinit/): `constexpr` tells the compiler \"this value can be computed at compile time if all inputs are known,\" turning runtime work into compile-time work, like
-- [Contiguous Memory Views (std::span)](https://programming.wyattau.com/types/2_pointers_references_views/5_contiguous_memory_views/): (C++20, ) is a non-owning view over a contiguous sequence of objects. It is The type-safe replacement for the raw interface pattern that pervades C and
-- [Deterministic Destruction](https://programming.wyattau.com/types/3_initialization_and_lifetime/5_deterministic_destruction/): C++ guarantees that destructors run at well-defined points in program execution. Unlike Java Finalizers or C# C++ destruction is deterministic, automatic,
-- [Fundamental Types](https://programming.wyattau.com/types/1_data_layout/1_fundamental_types/): In managed languages (Java, C#), types are abstract constraints enforced by a virtual machine. In C++, types are direct mappings to hardware capabilities. A
-- [Heap | Programming - Wyatt's Notes](https://programming.wyattau.com/types/1_data_layout/5_heap/): The heap is the Wild West of memory, vast and untamed, where any object can live at any address. Unlike the stack, which moves like a well-organised conveyor
-- [Pointers](https://programming.wyattau.com/types/2_pointers_references_views/1_pointers/): In high-level languages (Java, Python), references are opaque handles. In C++, pointers are direct Abstractions over virtual memory addresses with distinct
-- [Reference And Lifetime](https://programming.wyattau.com/types/2_pointers_references_views/2_reference_lifetime/): A C++ Reference () is an alias for an existing object. Unlike pointers, references are not Objects themselves in the abstract machine; they imply a direct
-- [Stack | Programming - Wyatt's Notes](https://programming.wyattau.com/types/1_data_layout/4_stack/): The stack is like a stack of plates in a cafeteria, you can only add or remove from the top, and you do it in constant time. When a function is called, a new
-- [Storage Duration](https://programming.wyattau.com/types/3_initialization_and_lifetime/1_storage_duration/): C++ Programming Storage Duration notes covering key definitions, core concepts, worked examples, and practice questions for structured revision.
-- [String Views and Small String Optimization](https://programming.wyattau.com/types/2_pointers_references_views/4_string_views_sso/): owns its character data and manages heap allocation. This is correct for long-lived Strings but creates unnecessary overhead when strings are passed between
-- [Type Punning and the Strict Aliasing Rule](https://programming.wyattau.com/types/2_pointers_references_views/3_type_punning/): Type punning is the act of accessing the object representation of one type through a pointer or Reference of a different type. It is one of the most
-- [Types | Programming - Wyatt's Notes](https://programming.wyattau.com/types/): This section covers types concepts, definitions, and applications with worked examples and practice problems.
-- [Uniform Initialization](https://programming.wyattau.com/types/3_initialization_and_lifetime/2_uniform_initialization/): C++98 had three initialization syntaxes: And . Each had subtly different rules, And none could initialize containers or arrays uniformly. C++11 introduced
+- [Aggregate Initialization](https://programming.wyattau.com/types/3_initialization_and_lifetime/3_aggregate_initialization/)
+- [Bit Manipulation](https://programming.wyattau.com/types/1_data_layout/3_bit_manipulation/)
+- [Constexpr Consteval Constinit](https://programming.wyattau.com/types/3_initialization_and_lifetime/4_constexpr_consteval_constinit/)
+- [Contiguous Memory Views](https://programming.wyattau.com/types/2_pointers_references_views/5_contiguous_memory_views/)
+- [Deterministic Destruction](https://programming.wyattau.com/types/3_initialization_and_lifetime/5_deterministic_destruction/)
+- [Flashcards Type System](https://programming.wyattau.com/types/flashcards-type-system/)
+- [Fundamental Types](https://programming.wyattau.com/types/1_data_layout/1_fundamental_types/)
+- [Heap](https://programming.wyattau.com/types/1_data_layout/5_heap/)
+- [Index](https://programming.wyattau.com/types/1_data_layout/)
+- [Index](https://programming.wyattau.com/types/2_pointers_references_views/)
+- [Index](https://programming.wyattau.com/types/3_initialization_and_lifetime/)
+- [Index](https://programming.wyattau.com/types/)
+- [Layout](https://programming.wyattau.com/types/1_data_layout/2_layout/)
+- [Pointers](https://programming.wyattau.com/types/2_pointers_references_views/1_pointers/)
+- [Practice Types Resources](https://programming.wyattau.com/types/practice-types-resources/)
+- [Reference Lifetime](https://programming.wyattau.com/types/2_pointers_references_views/2_reference_lifetime/)
+- [Stack](https://programming.wyattau.com/types/1_data_layout/4_stack/)
+- [Storage Duration](https://programming.wyattau.com/types/3_initialization_and_lifetime/1_storage_duration/)
+- [String Views Sso](https://programming.wyattau.com/types/2_pointers_references_views/4_string_views_sso/)
+- [Type Punning](https://programming.wyattau.com/types/2_pointers_references_views/3_type_punning/)
+- [Uniform Initialization](https://programming.wyattau.com/types/3_initialization_and_lifetime/2_uniform_initialization/)

@@ -399,7 +399,7 @@ You can also explicitly instantiate individual member functions:
 template void Vector<int>::push_back(const int&);
 
 // Only instantiates Vector<int>::operator[]
-template int& Vector<int>::operator[](std::size_t);
+template int& Vector<int>::operator;
 ```
 
 This selective approach is useful when a class has many member functions but only a few are used

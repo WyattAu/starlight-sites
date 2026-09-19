@@ -3,14 +3,14 @@
 sources:
   - text: Standard textbook reference
 title: "Best Practices"
-description: "This section provides study materials and resources for best practices. Browse the topics below to find the specific area you need to revise."
+description: "This section provides study materials and resources for best practices. Work through the Python sections in order, starting with Advanced Topics and Async and building toward Advanced Topics, Async, Best Practices, Data Structures, Fundamentals, Object Oriented and Standard Library, then check yourself with the practice problems for each topic."
 date: 2026-01-01T00:00:00Z
 ---
 sources:
   - text: Standard textbook reference
 
 
-This section provides study materials and resources for best practices. Browse the topics below to find the specific area you need to revise.
+This section provides study materials and resources for best practices. Work through Best Practices alongside the practice problems for Best Practices, then let the diagnostic tests tell you whether it stuck.
 
 # Best Practices
 
@@ -31,7 +31,7 @@ This section provides study materials and resources for best practices. Browse t
 
 ## Study Approach
 
-Begin with the topic summaries, then work through the practice problems to test your understanding.
+The Best Practices section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
 
 

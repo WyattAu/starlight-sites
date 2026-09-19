@@ -209,6 +209,6 @@ $$\frac{dy}{dx} = \frac{-2x - y\cos(xy)}{2y + x\cos(xy)}$$
 
 ## Cross-References
 
-- [Derivatives](../derivatives/index) -- Differentiability implies continuity, making continuity a prerequisite for understanding derivatives.
-- [Integrals](../integrals/index) -- The definite integral requires the function to be continuous over the interval of integration.
-- [Limits](../relations-functions/index) -- Continuity is defined in terms of limits, connecting the concept to the foundational notion of limiting behaviour.
+- Derivatives -- Differentiability implies continuity, making continuity a prerequisite for understanding derivatives.
+- Integrals -- The definite integral requires the function to be continuous over the interval of integration.
+- Limits -- Continuity is defined in terms of limits, connecting the concept to the foundational notion of limiting behaviour.

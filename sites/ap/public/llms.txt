@@ -2,144 +2,142 @@
 
 > Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com
 
-AP revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-
 All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Overview
 
-- [About This Site](https://ap.wyattau.com/about/): About Wyatt's Notes AP resources, experience, expertise, and credentials behind US Advanced Placement course study materials.
-- [AP - Wyatt's Notes](https://ap.wyattau.com/): AP revision notes covering core subjects with detailed explanations, worked examples, practice problems, and flashcards.
-- [AP Biology Study Guide](https://ap.wyattau.com/biology/): Study notes for AP Biology Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [AP Calculus AB Practice](https://ap.wyattau.com/practice-calculus-ab/): Limits are the foundation of calculus. Before you can differentiate or integrate, you need to understand what happens to a function as the input approaches a
-- [AP Calculus AB Study Guide](https://ap.wyattau.com/calculus-ab/): Study notes for AP Calculus AB Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [AP Computer Science A](https://ap.wyattau.com/ap-computer-science-a/): AP Computer Science A is a college-level course that introduces students to computer science through Java programming. The course covers fundamental
-- [AP Computer Science Principles](https://ap.wyattau.com/ap-computer-science-principles/): Comprehensive guide to AP Computer Science Principles covering computational thinking, programming, and digital information.
-- [AP Exam Glossary, Key Terms Across All Subjects](https://ap.wyattau.com/glossary/): Study notes for AP Exam Glossary, Key Terms Across All Subjects with worked examples, practice problems, and key concepts for exam preparation.
-- [AP Physics 1 Study Guide](https://ap.wyattau.com/physics-1/): Study notes for AP Physics 1 Study Guide with worked examples, practice problems, and key concepts for exam preparation.
-- [AP Physics C Mechanics Practice](https://ap.wyattau.com/practice-physics-mechanics/): Intuition: Kinematics is the geometry of motion. It describes *how* objects move (trajectory, velocity, acceleration) without worrying about *why* they move
-- [AP Practice Test, 50 Questions Across All Subjects](https://ap.wyattau.com/practice-test-mega/): 50 AP-style practice questions covering Biology, Chemistry, Physics, Calculus, and Statistics. Multiple choice with detailed explanations and difficulty ratings.
-- [Calculus Practice](https://ap.wyattau.com/practice-calculus/): 10 auto-graded practice problems covering key AP Calculus AB topics. Select an answer, submit, and review the explanation.
-- [Complete AP Course Guide, All Subjects](https://ap.wyattau.com/hub/): Study notes for Complete AP Course Guide, All Subjects with worked examples, practice problems, and key concepts for exam preparation.
-- [Introduction to AP Notes](https://ap.wyattau.com/intro/): The Advanced Placement (AP) program, administered by the College Board, allows US high school Students to take college-level courses and earn credit or
+- [About](https://ap.wyattau.com/about/)
+- [Ap Computer Science A](https://ap.wyattau.com/ap-computer-science-a/)
+- [Ap Computer Science Principles](https://ap.wyattau.com/ap-computer-science-principles/)
+- [Biology](https://ap.wyattau.com/biology/)
+- [Calculus Ab](https://ap.wyattau.com/calculus-ab/)
+- [Glossary](https://ap.wyattau.com/glossary/)
+- [Hub](https://ap.wyattau.com/hub/)
+- [Index](https://ap.wyattau.com/)
+- [Intro](https://ap.wyattau.com/intro/)
+- [Physics 1](https://ap.wyattau.com/physics-1/)
+- [Practice Calculus](https://ap.wyattau.com/practice-calculus/)
+- [Practice Calculus Ab](https://ap.wyattau.com/practice-calculus-ab/)
+- [Practice Physics Mechanics](https://ap.wyattau.com/practice-physics-mechanics/)
+- [Practice Test Mega](https://ap.wyattau.com/practice-test-mega/)
 
 ## Biology
 
-- [AP Biology](https://ap.wyattau.com/biology/): This section covers ap biology concepts, definitions, and applications with worked examples and practice problems.
-- [AP Biology Diagnostic Test](https://ap.wyattau.com/biology/diagnostic-test/): This diagnostic test covers the full AP Biology syllabus. There are 20 questions spanning 5 core topics. The test uses adaptive difficulty, selecting
-- [AP Biology Practice (Interactive)](https://ap.wyattau.com/biology/practice-biology/): QUALIFICATIONS Ap practice problems: AP Biology Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Cell Structure and Function](https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structure-and-function/): Qualifications Biology Cell Structure and Function notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Cell Structure And Function](https://ap.wyattau.com/biology/2-cell-structure-and-function/): This section covers cell structure and function concepts, definitions, and applications with worked examples and practice problems.
-- [Cellular Energetics](https://ap.wyattau.com/biology/3-cellular-energetics/3_cellular-energetics/): Qualifications Biology Cellular Energetics notes covering key definitions, core concepts, worked examples, and practice questions for thorough revision.
-- [Cellular Energetics](https://ap.wyattau.com/biology/3-cellular-energetics/): This section covers cellular energetics concepts, definitions, and applications with worked examples and practice problems.
-- [Chemistry of Life](https://ap.wyattau.com/biology/1-chemistry-of-life/1_chemistry-of-life/): The most common elements in living organisms: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Chemistry Of Life](https://ap.wyattau.com/biology/1-chemistry-of-life/): This section covers chemistry of life concepts, definitions, and applications with worked examples and practice problems.
-- [Heredity](https://ap.wyattau.com/biology/4-heredity/4_heredity/): Qualifications Biology Heredity notes covering key definitions, core concepts, worked examples, and practice questions for practical revision.
-- [Heredity](https://ap.wyattau.com/biology/4-heredity/): This section covers heredity concepts, definitions, and applications with worked examples and practice problems.
-- [Natural Selection](https://ap.wyattau.com/biology/5-natural-selection/5_natural-selection/): 1. Individuals in a population exhibit heritable variation. 2. Populations produce more offspring than the environment can support. 3. Individuals compete
-- [Natural Selection](https://ap.wyattau.com/biology/5-natural-selection/): This section covers natural selection concepts, definitions, and applications with worked examples and practice problems.
+- [Cell Structure And Function](https://ap.wyattau.com/biology/2-cell-structure-and-function/2_cell-structure-and-function/)
+- [Cellular Energetics](https://ap.wyattau.com/biology/3-cellular-energetics/3_cellular-energetics/)
+- [Chemistry Of Life](https://ap.wyattau.com/biology/1-chemistry-of-life/1_chemistry-of-life/)
+- [Diagnostic Test](https://ap.wyattau.com/biology/diagnostic-test/)
+- [Heredity](https://ap.wyattau.com/biology/4-heredity/4_heredity/)
+- [Index](https://ap.wyattau.com/biology/1-chemistry-of-life/)
+- [Index](https://ap.wyattau.com/biology/2-cell-structure-and-function/)
+- [Index](https://ap.wyattau.com/biology/3-cellular-energetics/)
+- [Index](https://ap.wyattau.com/biology/4-heredity/)
+- [Index](https://ap.wyattau.com/biology/5-natural-selection/)
+- [Index](https://ap.wyattau.com/biology/)
+- [Natural Selection](https://ap.wyattau.com/biology/5-natural-selection/5_natural-selection/)
+- [Practice Biology](https://ap.wyattau.com/biology/practice-biology/)
 
 ## Chemistry
 
-- [AP Chemistry](https://ap.wyattau.com/chemistry/): This section covers ap chemistry concepts, definitions, and applications with worked examples and practice problems.
-- [AP Chemistry Diagnostic Test](https://ap.wyattau.com/chemistry/diagnostic-test/): This diagnostic test covers the full AP Chemistry syllabus. There are 20 questions spanning 7 core topics. The test uses adaptive difficulty, selecting
-- [AP Chemistry Practice (Interactive)](https://ap.wyattau.com/chemistry/practice-chemistry/): QUALIFICATIONS Ap practice problems: AP Chemistry Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Atomic Structure and Periodicity](https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/): Study notes for Atomic Structure and Periodicity with worked examples and practice questions.
-- [Atomic Structure And Periodicity](https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/): This section covers atomic structure and periodicity concepts, definitions, and applications with worked examples and practice problems.
-- [Bonding and Intermolecular Forces](https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/): Qualifications Chemistry Bonding and Intermolecular Forces notes covering key definitions, core concepts, worked examples, and practice questions for revision.
-- [Bonding And Intermolecular Forces](https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/): This section covers bonding and intermolecular forces concepts, definitions, and applications with worked examples and practice problems.
-- [Kinetics and Equilibrium](https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/5_kinetics-and-equilibrium/): Qualifications Chemistry Kinetics and Equilibrium notes covering key definitions, core concepts, worked examples, and practice questions for exam preparation.
-- [Kinetics And Equilibrium](https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/): This section covers kinetics and equilibrium concepts, definitions, and applications with worked examples and practice problems.
-- [Stoichiometry](https://ap.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry/): Qualifications Chemistry Stoichiometry notes covering key definitions, core concepts, worked examples, and practice questions for focused revision.
-- [Stoichiometry](https://ap.wyattau.com/chemistry/3-stoichiometry/): This section covers stoichiometry concepts, definitions, and applications with worked examples and practice problems.
-- [Thermodynamics](https://ap.wyattau.com/chemistry/4-thermodynamics/4_thermodynamics/): Qualifications Chemistry Thermodynamics notes covering key definitions, core concepts, worked examples, and practice questions for complete revision.
-- [Thermodynamics](https://ap.wyattau.com/chemistry/4-thermodynamics/): This section covers thermodynamics concepts, definitions, and applications with worked examples and practice problems.
+- [Atomic Structure And Periodicity](https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/1_atomic-structure-and-periodicity/)
+- [Bonding And Intermolecular Forces](https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/2_bonding-and-intermolecular-forces/)
+- [Diagnostic Test](https://ap.wyattau.com/chemistry/diagnostic-test/)
+- [Index](https://ap.wyattau.com/chemistry/1-atomic-structure-and-periodicity/)
+- [Index](https://ap.wyattau.com/chemistry/2-bonding-and-intermolecular-forces/)
+- [Index](https://ap.wyattau.com/chemistry/3-stoichiometry/)
+- [Index](https://ap.wyattau.com/chemistry/4-thermodynamics/)
+- [Index](https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/)
+- [Index](https://ap.wyattau.com/chemistry/)
+- [Kinetics And Equilibrium](https://ap.wyattau.com/chemistry/5-kinetics-and-equilibrium/5_kinetics-and-equilibrium/)
+- [Practice Chemistry](https://ap.wyattau.com/chemistry/practice-chemistry/)
+- [Stoichiometry](https://ap.wyattau.com/chemistry/3-stoichiometry/3_stoichiometry/)
+- [Thermodynamics](https://ap.wyattau.com/chemistry/4-thermodynamics/4_thermodynamics/)
 
 ## Computer-Science
 
-- [Algorithms and Programming](https://ap.wyattau.com/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/): Repeatedly find the minimum element from the unsorted portion and place it at th Comprehensive educational content coverage with definitions and practice proble
-- [Algorithms And Programming](https://ap.wyattau.com/computer-science/3-algorithms-and-programming/): This section covers algorithms and programming concepts, definitions, and applications with worked examples and practice problems.
-- [AP Computer Science](https://ap.wyattau.com/computer-science/): This section covers ap computer science concepts, definitions, and applications with worked examples and practice problems.
-- [AP Computer Science Practice (Interactive)](https://ap.wyattau.com/computer-science/practice-computer-science/): QUALIFICATIONS Ap practice problems: AP Computer Science Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [AP Computer Science Principles Diagnostic Test](https://ap.wyattau.com/computer-science/diagnostic-test/): This diagnostic test covers the full AP Computer Science Principles syllabus. There are 20 questions spanning 5 core topics. The test uses adaptive
-- [Computational Thinking](https://ap.wyattau.com/computer-science/1-computational-thinking/1_computational-thinking/): Computational thinking is a problem-solving approach that involves breaking down complex problems, Finding patterns, abstracting details, and designing
-- [Computational Thinking](https://ap.wyattau.com/computer-science/1-computational-thinking/): This section covers computational thinking concepts, definitions, and applications with worked examples and practice problems.
-- [Computing Systems](https://ap.wyattau.com/computer-science/2-computing-systems/2_computing-systems/): Study notes for Computing Systems | AP - Wyatt's Notes with worked examples and practice questions.
-- [Computing Systems](https://ap.wyattau.com/computer-science/2-computing-systems/): This section covers computing systems concepts, definitions, and applications with worked examples and practice problems.
-- [Data Analysis](https://ap.wyattau.com/computer-science/4-data-analysis/4_data-analysis/): A fixed-size, ordered collection of elements of the same type. Comprehensive educational content coverage with definitions and practice problems.
-- [Data Analysis](https://ap.wyattau.com/computer-science/4-data-analysis/): This section covers data analysis concepts, definitions, and applications with worked examples and practice problems.
-- [Networks and the Internet](https://ap.wyattau.com/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/): The Internet is a global network of interconnected computer networks. Key concep Comprehensive educational content coverage with definitions and practice proble
-- [Networks And The Internet](https://ap.wyattau.com/computer-science/5-networks-and-the-internet/): This section covers networks and the internet concepts, definitions, and applications with worked examples and practice problems.
+- [Algorithms And Programming](https://ap.wyattau.com/computer-science/3-algorithms-and-programming/3_algorithms-and-programming/)
+- [Computational Thinking](https://ap.wyattau.com/computer-science/1-computational-thinking/1_computational-thinking/)
+- [Computing Systems](https://ap.wyattau.com/computer-science/2-computing-systems/2_computing-systems/)
+- [Data Analysis](https://ap.wyattau.com/computer-science/4-data-analysis/4_data-analysis/)
+- [Diagnostic Test](https://ap.wyattau.com/computer-science/diagnostic-test/)
+- [Index](https://ap.wyattau.com/computer-science/1-computational-thinking/)
+- [Index](https://ap.wyattau.com/computer-science/2-computing-systems/)
+- [Index](https://ap.wyattau.com/computer-science/3-algorithms-and-programming/)
+- [Index](https://ap.wyattau.com/computer-science/4-data-analysis/)
+- [Index](https://ap.wyattau.com/computer-science/5-networks-and-the-internet/)
+- [Index](https://ap.wyattau.com/computer-science/)
+- [Networks And The Internet](https://ap.wyattau.com/computer-science/5-networks-and-the-internet/5_networks-and-the-internet/)
+- [Practice Computer Science](https://ap.wyattau.com/computer-science/practice-computer-science/)
 
 ## English
 
-- [AP English Language](https://ap.wyattau.com/english/): This section covers ap english language concepts, definitions, and applications with worked examples and practice problems.
-- [AP English Language Diagnostic Test](https://ap.wyattau.com/english/diagnostic-test/): This diagnostic test covers the full AP English Language and Composition syllabus. There are 20 questions spanning 4 core topics. The test uses adaptive
-- [Argument](https://ap.wyattau.com/english/2-argument/2_argument/): Study notes for Argument with worked examples, practice problems, and key concepts for exam preparation.
-- [Argument](https://ap.wyattau.com/english/2-argument/): This section covers argument concepts, definitions, and applications with worked examples and practice problems.
-- [Close Reading](https://ap.wyattau.com/english/4-close-reading/4_close-reading/): Close reading is the careful, detailed analysis of a text to understand how the author uses language, structure, and rhetorical choices to create meaning
-- [Close Reading](https://ap.wyattau.com/english/4-close-reading/): This section covers close reading concepts, definitions, and applications with worked examples and practice problems.
-- [Practice](https://ap.wyattau.com/english/practice-english/): Auto-generated practice questions.
-- [Rhetorical Analysis](https://ap.wyattau.com/english/1-rhetorical-analysis/1_rhetorical-analysis/): Study notes for Rhetorical Analysis with worked examples, practice problems, and key concepts for exam preparation.
-- [Rhetorical Analysis](https://ap.wyattau.com/english/1-rhetorical-analysis/): This section covers rhetorical analysis concepts, definitions, and applications with worked examples and practice problems.
-- [Synthesis](https://ap.wyattau.com/english/3-synthesis/3_synthesis/): The synthesis essay requires you to to construct a coherent, well-supported argument on a given topic. You are given 6-7 sources (text, visual, data-based)
-- [Synthesis](https://ap.wyattau.com/english/3-synthesis/): This section covers synthesis concepts, definitions, and applications with worked examples and practice problems.
+- [Argument](https://ap.wyattau.com/english/2-argument/2_argument/)
+- [Close Reading](https://ap.wyattau.com/english/4-close-reading/4_close-reading/)
+- [Diagnostic Test](https://ap.wyattau.com/english/diagnostic-test/)
+- [Index](https://ap.wyattau.com/english/1-rhetorical-analysis/)
+- [Index](https://ap.wyattau.com/english/2-argument/)
+- [Index](https://ap.wyattau.com/english/3-synthesis/)
+- [Index](https://ap.wyattau.com/english/4-close-reading/)
+- [Index](https://ap.wyattau.com/english/)
+- [Practice English](https://ap.wyattau.com/english/practice-english/)
+- [Rhetorical Analysis](https://ap.wyattau.com/english/1-rhetorical-analysis/1_rhetorical-analysis/)
+- [Synthesis](https://ap.wyattau.com/english/3-synthesis/3_synthesis/)
 
 ## History
 
-- [AP US History](https://ap.wyattau.com/history/): This section covers ap us history concepts, definitions, and applications with worked examples and practice problems.
-- [AP US History Diagnostic Test](https://ap.wyattau.com/history/diagnostic-test/): This diagnostic test covers the full AP US History syllabus. There are 20 questions spanning 5 core topic areas. The test uses adaptive difficulty,
-- [AP US History Practice (Interactive)](https://ap.wyattau.com/history/practice-history/): QUALIFICATIONS Ap practice problems: AP US History Practice (Interactive). Comprehensive study material with definitions, examples, and assessment tools.
-- [Period 5 (1844-1877)](https://ap.wyattau.com/history/3-period-5/3_period-5/): The idea of -- the belief that the United States was divinely ordained to expand across the North American continent -- drove westward expansion in the
-- [Period 6 (1865-1898)](https://ap.wyattau.com/history/4-period-6/4_period-6/): The period from 1865 to 1898 witnessed a dramatic transformation of the American economy, driven by technological innovation, the rise of large
-- [Period 7 (1890-Present)](https://ap.wyattau.com/history/5-period-7/5_period-7/): Progressivism was a reform movement that sought to address the social, political, and economic problems caused by industrialisation, urbanisation, and
-- [Periods 1-2 (1491-1754)](https://ap.wyattau.com/history/1-periods-1-2/1_period-1-2/): Before European contact, the Americas were home to diverse and complex societies with populations estimated between 50 and 100 million. Key regional
-- [Periods 3-4 (1754-1800)](https://ap.wyattau.com/history/2-periods-3-4/2_periods-3-4/): The French and Indian War (1754-1763) was a global conflict between Britain and France that was fought in North America primarily for control of the Ohio
+- [Diagnostic Test](https://ap.wyattau.com/history/diagnostic-test/)
+- [Index](https://ap.wyattau.com/history/)
+- [Period 1 2](https://ap.wyattau.com/history/1-periods-1-2/1_period-1-2/)
+- [Period 5](https://ap.wyattau.com/history/3-period-5/3_period-5/)
+- [Period 6](https://ap.wyattau.com/history/4-period-6/4_period-6/)
+- [Period 7](https://ap.wyattau.com/history/5-period-7/5_period-7/)
+- [Periods 3 4](https://ap.wyattau.com/history/2-periods-3-4/2_periods-3-4/)
+- [Practice History](https://ap.wyattau.com/history/practice-history/)
 
 ## Maths
 
-- [AP Calculus](https://ap.wyattau.com/maths/): This section covers ap calculus concepts, definitions, and applications with worked examples and practice problems.
-- [AP Calculus Diagnostic Guide](https://ap.wyattau.com/maths/diagnostics/diagnostic-guide/): Diagnostic tests are targeted assessments designed to probe the boundaries of your understanding. Unlike practice exams that sample broadly, diagnostics
-- [Derivatives](https://ap.wyattau.com/maths/2-derivatives/2_derivatives/): Derivatives: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Derivatives -- Diagnostic Tests](https://ap.wyattau.com/maths/diagnostics/diag-derivatives/): > Tests edge cases, boundary conditions, and common misconceptions for derivativ Comprehensive educational content coverage with definitions and practice proble
-- [Diagnostics | AP Mathematics](https://ap.wyattau.com/maths/diagnostics/): Diagnostic test notes for AP Mathematics covering key concepts, worked examples, and practice problems for exam preparation.
-- [Differential Equations](https://ap.wyattau.com/maths/4-differential-equations/4_differential-equations/): A (DE) is an equation that relates a function to one or more of its Derivatives. The of a DE is the highest derivative that appears. A first-order DE
-- [Differential Equations -- Diagnostic Tests](https://ap.wyattau.com/maths/diagnostics/diag-differential-equations/): > Tests edge cases, boundary conditions, and common misconceptions for different Comprehensive educational content coverage with definitions and practice proble
-- [Integrals](https://ap.wyattau.com/maths/3-integrals/3_integrals/): Integrals: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Integrals -- Diagnostic Tests](https://ap.wyattau.com/maths/diagnostics/diag-integrals/): > Tests edge cases, boundary conditions, and common misconceptions for integrals Comprehensive educational content coverage with definitions and practice proble
-- [Limits and Continuity](https://ap.wyattau.com/maths/1-limits-and-continuity/1_limits-and-continuity/): The limit of a function as approaches is the value that approaches, regardless O Comprehensive educational content coverage with definitions and practice proble
-- [Limits and Continuity -- Diagnostic Tests](https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity/): > Tests edge cases, boundary conditions, and common misconceptions for limits an Comprehensive educational content coverage with definitions and practice proble
-- [Sequences and Series](https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series/): Study notes for Sequences and Series with worked examples, practice problems, and key concepts for exam preparation.
-- [Sequences and Series -- Diagnostic Tests [BC Only]](https://ap.wyattau.com/maths/diagnostics/diag-sequences-series/): Diagnostic test notes for ap Sequences and Series -- Diagnostic Tests [BC Only] covering key concepts, worked examples, and practice problems for exam preparation.
+- [Derivatives](https://ap.wyattau.com/maths/2-derivatives/2_derivatives/)
+- [Diag Derivatives](https://ap.wyattau.com/maths/diagnostics/diag-derivatives/)
+- [Diag Differential Equations](https://ap.wyattau.com/maths/diagnostics/diag-differential-equations/)
+- [Diag Integrals](https://ap.wyattau.com/maths/diagnostics/diag-integrals/)
+- [Diag Limits Continuity](https://ap.wyattau.com/maths/diagnostics/diag-limits-continuity/)
+- [Diag Sequences Series](https://ap.wyattau.com/maths/diagnostics/diag-sequences-series/)
+- [Diagnostic Guide](https://ap.wyattau.com/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations](https://ap.wyattau.com/maths/4-differential-equations/4_differential-equations/)
+- [Index](https://ap.wyattau.com/maths/diagnostics/)
+- [Index](https://ap.wyattau.com/maths/)
+- [Integrals](https://ap.wyattau.com/maths/3-integrals/3_integrals/)
+- [Limits And Continuity](https://ap.wyattau.com/maths/1-limits-and-continuity/1_limits-and-continuity/)
+- [Sequences And Series](https://ap.wyattau.com/maths/5-sequences-and-series/5_sequences-and-series/)
 
 ## Physics
 
-- [AP Physics](https://ap.wyattau.com/physics/): This section covers ap physics concepts, definitions, and applications with worked examples and practice problems.
-- [AP Physics Diagnostic Test](https://ap.wyattau.com/physics/diagnostic-test/): Intuition: Physics describes how the universe works through forces, energy, and motion. Every physical system, from a falling apple to orbiting planets,
-- [Circuits](https://ap.wyattau.com/physics/7-circuits/7_circuits/): Electric current is the rate of flow of charge: Comprehensive educational content coverage with definitions, worked examples, and practice problems.
-- [Circuits](https://ap.wyattau.com/physics/7-circuits/): This section covers circuits concepts, definitions, and applications with worked examples and practice problems.
-- [Electrostatics](https://ap.wyattau.com/physics/6-electrostatics/6_electrostatics/): Charge is a fundamental property of matter. There are two types: positive and ne Comprehensive educational content coverage with definitions and practice proble
-- [Electrostatics](https://ap.wyattau.com/physics/6-electrostatics/): This section covers electrostatics concepts, definitions, and applications with worked examples and practice problems.
-- [Kinematics](https://ap.wyattau.com/physics/1-kinematics/1_kinematics/): Qualifications Physics Kinematics notes covering key definitions, core concepts, worked examples, and practice questions for efficient revision.
-- [Kinematics](https://ap.wyattau.com/physics/1-kinematics/): This section covers kinematics concepts, definitions, and applications with worked examples and practice problems.
-- [Magnetism](https://ap.wyattau.com/physics/8-magnetism/8_magnetism/): A charge moving with velocity in a magnetic field experiences: Comprehensive educational content coverage with definitions and practice problems.
-- [Magnetism](https://ap.wyattau.com/physics/8-magnetism/): This section covers magnetism concepts, definitions, and applications with worked examples and practice problems.
-- [Momentum and Impulse](https://ap.wyattau.com/physics/4-momentum-and-impulse/4_momentum-and-impulse/): Momentum and Impulse: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.
-- [Momentum And Impulse](https://ap.wyattau.com/physics/4-momentum-and-impulse/): This section covers momentum and impulse concepts, definitions, and applications with worked examples and practice problems.
-- [Newton's Laws of Motion](https://ap.wyattau.com/physics/2-newtons-laws/2_newtons-laws/): An object at rest stays at rest, and an object in motion stays in motion with the same speed and in The same direction, unless acted upon by a net external
-- [Newtons Laws](https://ap.wyattau.com/physics/2-newtons-laws/): This section covers newtons laws concepts, definitions, and applications with worked examples and practice problems.
-- [Rotational Motion](https://ap.wyattau.com/physics/5-rotational-motion/5_rotational-motion/): Study notes for Rotational Motion | AP - Wyatt's Notes with worked examples and practice questions.
-- [Rotational Motion](https://ap.wyattau.com/physics/5-rotational-motion/): This section covers rotational motion concepts, definitions, and applications with worked examples and practice problems.
-- [Work Energy Power](https://ap.wyattau.com/physics/3-work-energy-power/): This section covers work energy power concepts, definitions, and applications with worked examples and practice problems.
-- [Work, Energy, and Power](https://ap.wyattau.com/physics/3-work-energy-power/3_work-energy-power/): Work is the energy transferred to or from an object by a force acting through a  Comprehensive educational content coverage with definitions and practice proble
+- [Circuits](https://ap.wyattau.com/physics/7-circuits/7_circuits/)
+- [Diagnostic Test](https://ap.wyattau.com/physics/diagnostic-test/)
+- [Electrostatics](https://ap.wyattau.com/physics/6-electrostatics/6_electrostatics/)
+- [Index](https://ap.wyattau.com/physics/1-kinematics/)
+- [Index](https://ap.wyattau.com/physics/2-newtons-laws/)
+- [Index](https://ap.wyattau.com/physics/3-work-energy-power/)
+- [Index](https://ap.wyattau.com/physics/4-momentum-and-impulse/)
+- [Index](https://ap.wyattau.com/physics/5-rotational-motion/)
+- [Index](https://ap.wyattau.com/physics/6-electrostatics/)
+- [Index](https://ap.wyattau.com/physics/7-circuits/)
+- [Index](https://ap.wyattau.com/physics/8-magnetism/)
+- [Index](https://ap.wyattau.com/physics/)
+- [Kinematics](https://ap.wyattau.com/physics/1-kinematics/1_kinematics/)
+- [Magnetism](https://ap.wyattau.com/physics/8-magnetism/8_magnetism/)
+- [Momentum And Impulse](https://ap.wyattau.com/physics/4-momentum-and-impulse/4_momentum-and-impulse/)
+- [Newtons Laws](https://ap.wyattau.com/physics/2-newtons-laws/2_newtons-laws/)
+- [Rotational Motion](https://ap.wyattau.com/physics/5-rotational-motion/5_rotational-motion/)
+- [Work Energy Power](https://ap.wyattau.com/physics/3-work-energy-power/3_work-energy-power/)
 
 ## Statistics
 
-- [AP Statistics](https://ap.wyattau.com/statistics/): This section covers ap statistics concepts, definitions, and applications with worked examples and practice problems.
-- [AP Statistics Diagnostic Test](https://ap.wyattau.com/statistics/diagnostic-test/): This diagnostic test covers the full AP Statistics syllabus. There are 20 questions spanning 4 core topics. The test uses adaptive difficulty, selecting
-- [Exploring Data](https://ap.wyattau.com/statistics/1-exploring-data/1_exploring-data/): A (qualitative variable) places an individual or item into one of several groups or categories. The values are labels, not numerical quantities.
-- [Practice](https://ap.wyattau.com/statistics/practice-statistics/): Auto-generated practice questions.
-- [Probability](https://ap.wyattau.com/statistics/3-probability/3_probability/): - : The set of all possible outcomes of an experiment - : Any subset of the sample space - : A number between 0 and 1 that measures the likelihood of an event
-- [Regression](https://ap.wyattau.com/statistics/5-regression/5_regression/): A scatterplot displays the relationship between two measured on the same individuals. The explanatory variable () is plotted on the horizontal axis and the
-- [Sampling and Experimentation](https://ap.wyattau.com/statistics/2-sampling-experimentation/2_sampling-and-experimentation/): - : The entire group of individuals about which we want information - : A subset of the population that is actually studied - : A study that collects data
-- [Statistical Inference](https://ap.wyattau.com/statistics/4-statistical-inference/4_statistical-inference/): Statistical inference uses sample data to draw conclusions about a population. There are two main types: (estimating a parameter) and (testing a claim about
+- [Diagnostic Test](https://ap.wyattau.com/statistics/diagnostic-test/)
+- [Exploring Data](https://ap.wyattau.com/statistics/1-exploring-data/1_exploring-data/)
+- [Index](https://ap.wyattau.com/statistics/)
+- [Practice Statistics](https://ap.wyattau.com/statistics/practice-statistics/)
+- [Probability](https://ap.wyattau.com/statistics/3-probability/3_probability/)
+- [Regression](https://ap.wyattau.com/statistics/5-regression/5_regression/)
+- [Sampling And Experimentation](https://ap.wyattau.com/statistics/2-sampling-experimentation/2_sampling-and-experimentation/)
+- [Statistical Inference](https://ap.wyattau.com/statistics/4-statistical-inference/4_statistical-inference/)
