@@ -81,7 +81,7 @@ for (const site of fs.readdirSync(SITES_DIR)) {
 
 // aggregate: report normalized sentences appearing on many pages
 const repeated = [...fingerprint.entries()]
-  .filter(([sentence, occurrences]) => {
+  .filter(([, occurrences]) => {
     // distinct sites count (same sentence on 6 sites is template; 6 times
     // on one site is a writing tic but not network boilerplate)
     return new Set(occurrences.map(o => o.site)).size >= MIN_PAGES
