@@ -33,7 +33,8 @@ const { extractLinks, normalizeLink, resolveLinkTarget, targetExists } = require
 
 // Utility pages exempt from orphan detection: navigation and generated
 // surfaces are not expected to accumulate inbound content links.
-const ORPHAN_EXEMPT = /(^|\/)(index|404|hub|about|glossary|intro)$|(^|\/)(practice|flashcards|diagnostic|diag|quiz)[\w-]*$|(^|\/)zh(\/|$)/
+const ORPHAN_EXEMPT =
+  /(^|\/)(index|404|hub|about|glossary|intro)$|(^|\/)(practice|flashcards|diagnostic|diag|quiz)[\w-]*$|(^|\/)zh(\/|$)/
 
 const mdLink = /(?<!!)\[([^\]]*)\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g
 
@@ -122,7 +123,9 @@ function resolveInternal(site, fromUrlPath, href) {
   if (pathPart.startsWith('/')) {
     target = pathPart
   } else {
-    const dir = fromUrlPath.endsWith('/') ? fromUrlPath : fromUrlPath.slice(0, fromUrlPath.lastIndexOf('/') + 1)
+    const dir = fromUrlPath.endsWith('/')
+      ? fromUrlPath
+      : fromUrlPath.slice(0, fromUrlPath.lastIndexOf('/') + 1)
     target = new URL(pathPart, `https://x${dir}`).pathname
   }
   target = target.replace(/\/$/, '') || '/'
@@ -156,7 +159,11 @@ for (const [site, { pages }] of Object.entries(sites)) {
 
     for (const href of links) {
       if (href.startsWith('mailto:') || href.startsWith('tel:')) continue
-      const isInternal = href.startsWith('/') || href.startsWith('./') || href.startsWith('../') || href.startsWith('#') ||
+      const isInternal =
+        href.startsWith('/') ||
+        href.startsWith('./') ||
+        href.startsWith('../') ||
+        href.startsWith('#') ||
         (!/^https?:\/\//.test(href) && !href.startsWith('//'))
       if (!isInternal) continue
       linksChecked++
@@ -174,7 +181,9 @@ for (const [site, { pages }] of Object.entries(sites)) {
 
         if (FIX && !href.startsWith('#')) {
           // 1) ancestor climb: try progressively shallower directories
-          const dir = urlPath.endsWith('/') ? urlPath : urlPath.slice(0, urlPath.lastIndexOf('/') + 1)
+          const dir = urlPath.endsWith('/')
+            ? urlPath
+            : urlPath.slice(0, urlPath.lastIndexOf('/') + 1)
           const segs = dir.split('/').filter(Boolean)
           let pathPart = href
           let fragment = ''
@@ -189,7 +198,10 @@ for (const [site, { pages }] of Object.entries(sites)) {
               const candPath = stripTrailingSlash(new URL(pathPart, `https://x${base}`).pathname)
               let found = null
               for (const c of [candPath, `${candPath}/`]) {
-                if (sites[site].urlPathSet.has(c)) { found = c; break }
+                if (sites[site].urlPathSet.has(c)) {
+                  found = c
+                  break
+                }
               }
               if (found) {
                 fixHref = found + fragment
@@ -235,7 +247,8 @@ for (const [site, { pages }] of Object.entries(sites)) {
         const targetPage = sites[resolved.site].pages.get(resolved.urlPath)
         if (targetPage) {
           const frag = decodeURIComponent(resolved.fragment).toLowerCase()
-          const anchorOk = targetPage.anchors.has(frag) || targetPage.anchors.has(resolved.fragment.toLowerCase())
+          const anchorOk =
+            targetPage.anchors.has(frag) || targetPage.anchors.has(resolved.fragment.toLowerCase())
           if (!anchorOk) {
             broken.push({ site, urlPath, href, cls: 'missing-anchor' })
           }
@@ -265,7 +278,8 @@ if (broken.length) {
   for (const [cls, count] of Object.entries(byClass).sort((a, b) => b[1] - a[1])) {
     console.error(`  ${cls}: ${count}`)
   }
-  for (const b of broken.slice(0, 25)) console.error(`  ${b.site}:${b.urlPath} -> ${b.href} (${b.cls})`)
+  for (const b of broken.slice(0, 25))
+    console.error(`  ${b.site}:${b.urlPath} -> ${b.href} (${b.cls})`)
   if (broken.length > 25) console.error(`  ...and ${broken.length - 25} more`)
 }
 

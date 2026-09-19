@@ -43,8 +43,14 @@ function frontmatter(text) {
       continue
     }
     // continuation lines (folded scalars) -- append to the last key once
-    if (key && /^\s+\S/.test(line) && typeof out[key] === 'string' && out[key] !== '' &&
-        !out[key].endsWith('.') && !/^\s*-\s/.test(line)) {
+    if (
+      key &&
+      /^\s+\S/.test(line) &&
+      typeof out[key] === 'string' &&
+      out[key] !== '' &&
+      !out[key].endsWith('.') &&
+      !/^\s*-\s/.test(line)
+    ) {
       out[key] += ' ' + line.trim()
     }
   }
@@ -85,7 +91,9 @@ function sitePages(slug) {
     const isIndex = /^index\.mdx?$/.test(path.basename(file))
     const dirPart = path.dirname(rel)
     const urlPath = isIndex
-      ? (dirPart === '.' ? '/' : `/${dirPart}/`)
+      ? dirPart === '.'
+        ? '/'
+        : `/${dirPart}/`
       : `/${rel.replace(/\.mdx?$/, '')}/`
     const title = fm.title || titleFromFilename(path.basename(file, path.extname(file)))
     const description = fm.description || ''
@@ -126,7 +134,9 @@ for (const slug of Object.keys(meta.sites)) {
   const url = siteUrl(slug)
   const pages = sitePages(slug)
   const lines = [`# ${info.name} — Wyatt's Notes`, '']
-  lines.push(`> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com`)
+  lines.push(
+    `> Free, open-access study notes. Part of the Wyatt's Notes network at https://wyattsnotes.wyattau.com`,
+  )
   lines.push('')
   const siteIndex = pages.find(p => p.urlPath === '/')
   if (siteIndex && siteIndex.description) {
@@ -138,7 +148,9 @@ for (const slug of Object.keys(meta.sites)) {
 
   const sections = [...new Set(pages.map(p => p.section))].sort()
   for (const section of sections) {
-    lines.push(`## ${section === 'General' ? 'Overview' : section.replace(/^\d+[_-]/, '').replace(/\b\w/g, c => c.toUpperCase())}`)
+    lines.push(
+      `## ${section === 'General' ? 'Overview' : section.replace(/^\d+[_-]/, '').replace(/\b\w/g, c => c.toUpperCase())}`,
+    )
     lines.push('')
     for (const p of pages.filter(p => p.section === section)) {
       const u = p.urlPath === '/' ? `${url}/` : `${url}${p.urlPath}`
@@ -153,9 +165,11 @@ for (const slug of Object.keys(meta.sites)) {
 const main = []
 main.push("# Wyatt's Notes — Free Study Notes Network")
 main.push('')
-main.push('> Rigorous, exam-aligned study notes for IB, A-Level, GCSE, AP, DSE, and ' +
-  'university STEM plus programming languages and infrastructure topics. ' +
-  '2,860+ pages across 45 subject sites. Open-access, ad-free, no accounts, AGPLv3.')
+main.push(
+  '> Rigorous, exam-aligned study notes for IB, A-Level, GCSE, AP, DSE, and ' +
+    'university STEM plus programming languages and infrastructure topics. ' +
+    '2,860+ pages across 45 subject sites. Open-access, ad-free, no accounts, AGPLv3.',
+)
 main.push('')
 main.push('Each site below exposes its own `/llms.txt` page index.')
 main.push('')
@@ -169,7 +183,9 @@ emit('sites/main/public/llms.txt', main.join('\n'))
 
 if (CHECK) {
   if (stale) {
-    console.error(`Found ${stale} stale llms.txt file(s) -- run "node scripts/generate-llms-txt.js" to refresh.`)
+    console.error(
+      `Found ${stale} stale llms.txt file(s) -- run "node scripts/generate-llms-txt.js" to refresh.`,
+    )
     process.exit(1)
   }
   console.log('All llms.txt files are up to date.')
