@@ -219,8 +219,7 @@ function verifyDesignTokens(distDir) {
 function scanForPictographs(html) {
   const matches = []
   const re = new RegExp(PICTOGRAPH_RE.source, 'g')
-  let m
-  while ((m = re.exec(html)) !== null) {
+  for (const m of html.matchAll(re)) {
     matches.push({ char: m[0], codePoint: m.codePointAt(0) })
     if (matches.length >= 10) break
   }
