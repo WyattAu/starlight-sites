@@ -87,8 +87,14 @@ jobs:
             const slugs = new Set(JSON.parse(process.env.SLUGS || '[]'));
             const force = process.env.FORCE === 'true';
             const filtered = force ? rollout : rollout.filter(s => slugs.has(s.site));
-            require('fs').writeFileSync(process.env.GITHUB_OUTPUT, 'rollout=' + JSON.stringify(filtered) + '\n');
-            console.log('rollout sites: ' + filtered.length + ' of ' + rollout.length);
+            // An EMPTY matrix makes deploy-rollout report 'failure' (GitHub
+            // treats zero combinations as a failed job), which would fire
+            // rollback on no-change pushes. Fall back to the full rollout:
+            // redeploying everything is wasteful but never wrong, and these
+            // pushes are rare (test-only or workflow-only changes).
+            const final = filtered.length > 0 ? filtered : rollout;
+            require('fs').writeFileSync(process.env.GITHUB_OUTPUT, 'rollout=' + JSON.stringify(final) + '\n');
+            console.log('rollout sites: ' + final.length + ' of ' + rollout.length);
           "
 
   # Gate: production deployments must not proceed unless the full quality
@@ -682,6 +688,9 @@ jobs:
       - name: Trigger rollback of last-good-deploy
         env:
           GH_TOKEN: ${{ github.token }}
+          # The rollback job has no checkout step, so gh cannot resolve the
+          # repository from a git context -- point it at the repo explicitly.
+          GH_REPO: ${{ github.repository }}
         run: |
           if git ls-remote --exit-code --tags "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "refs/tags/${LAST_GOOD_TAG}"; then
             echo "::warning::Deploy failed after sites changed -- triggering rollback to ${LAST_GOOD_TAG}"
