@@ -86,6 +86,17 @@ for goodness of fit and independence.
 - **Combining cells**, when expected frequencies are below 5
 - **Interpretation**, what a significant result actually means in context
 
+### Probability Generating Functions
+
+- **Definition**, $G_X(t) = \mathrm{E}(t^X) = \sum \mathrm{P}(X = x)t^x$; $G(1) = 1$,
+  $G(0) = \mathrm{P}(X = 0)$
+- **Expectation and variance**, $\mathrm{E}(X) = G'(1)$;
+  $\mathrm{Var}(X) = G''(1) + G'(1) - (G'(1))^2$
+- **Standard forms**, Binomial $(q + pt)^n$; Poisson $e^{\lambda(t-1)}$; Geometric
+  $\dfrac{pt}{1-qt}$
+- **Sums of independent random variables**, $G_{X+Y}(t) = G_X(t)G_Y(t)$; identifying the
+  distribution of a sum from its PGF
+
 ## Study Tips
 
 1. **Know when to use each distribution**. Binomial for fixed trials, Poisson for rare events in a
@@ -170,3 +181,4 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - [Further Maths](..)
 - [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)
 - [Exponential Distribution and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)
+- [Probability Generating Functions](/further-maths/further-statistics/probability-generating-functions/)

@@ -134219,6 +134219,17 @@ for goodness of fit and independence.
 - **Combining cells**, when expected frequencies are below 5
 - **Interpretation**, what a significant result actually means in context
 
+### Probability Generating Functions
+
+- **Definition**, $G_X(t) = \mathrm{E}(t^X) = \sum \mathrm{P}(X = x)t^x$; $G(1) = 1$,
+  $G(0) = \mathrm{P}(X = 0)$
+- **Expectation and variance**, $\mathrm{E}(X) = G'(1)$;
+  $\mathrm{Var}(X) = G''(1) + G'(1) - (G'(1))^2$
+- **Standard forms**, Binomial $(q + pt)^n$; Poisson $e^{\lambda(t-1)}$; Geometric
+  $\dfrac{pt}{1-qt}$
+- **Sums of independent random variables**, $G_{X+Y}(t) = G_X(t)G_Y(t)$; identifying the
+  distribution of a sum from its PGF
+
 ## Study Tips
 
 1. **Know when to use each distribution**. Binomial for fixed trials, Poisson for rare events in a
@@ -134303,6 +134314,7 @@ Focus on command word interpretation and mark scheme analysis. Practice timing y
 - [Further Maths](..)
 - [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)
 - [Exponential Distribution and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)
+- [Probability Generating Functions](/further-maths/further-statistics/probability-generating-functions/)
 
 ---
 
@@ -141383,6 +141395,136 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## Probability Generating Functions
+URL: https://alevel.wyattau.com/further-maths/further-statistics/probability-generating-functions/
+
+## Probability Generating Functions
+
+> **Info:** Board Coverage Edexcel FS1 (Section 5) | AQA Optional Topic | OCR (A) FS1
+>
+A **probability generating function (PGF)** packs the whole probability distribution of a discrete
+random variable taking non-negative integer values into one expression:
+
+$$
+G_X(t) = \mathrm{E}(t^X) = \sum_{x=0}^{\infty} \mathrm{P}(X = x)\, t^x
+$$
+
+The coefficient of $t^x$ in the expansion of $G_X(t)$ is exactly $\mathrm{P}(X = x)$. PGFs are
+examinable for three reasons: they give expectation and variance quickly, they classify standard
+distributions, and they handle **sums of independent random variables** with almost no work.
+
+## 1. Basic Properties
+
+- $G_X(1) = \sum \mathrm{P}(X = x) = 1$: every PGF equals 1 at $t = 1$. This is the standard check
+  for unknown constants.
+- $G_X(0) = \mathrm{P}(X = 0)$.
+- The PGF fully determines the distribution of $X$.
+
+## 2. Expectation and Variance from $G(t)$
+
+Differentiate and evaluate at $t = 1$:
+
+$$
+\mathrm{E}(X) = G_X'(1), \qquad
+\mathrm{E}(X(X-1)) = G_X''(1)
+$$
+
+so
+
+$$
+\mathrm{Var}(X) = G_X''(1) + G_X'(1) - \bigl(G_X'(1)\bigr)^2
+$$
+
+**Worked example.** $G_X(t) = \frac{1}{2}(1 + t)^2$. Then
+
+$$
+G'(t) = (1+t), \quad G'(1) = 2; \qquad G''(t) = 1, \quad G''(1) = 1
+$$
+
+$$
+\mathrm{E}(X) = 2, \qquad \mathrm{Var}(X) = 1 + 2 - 2^2 = 1
+$$
+
+(Expand to check: this is $X \sim \mathrm{B}(2, \tfrac12)$ -- see the standard forms below.)
+
+## 3. Standard PGFs to Memorise
+
+| Distribution | $G_X(t)$ | $\mathrm{E}(X)$ | $\mathrm{Var}(X)$ |
+| ------------ | -------- | --------------- | ----------------- |
+| $\mathrm{B}(n, p)$ | $(q + pt)^n$, $q = 1-p$ | $np$ | $npq$ |
+| $\mathrm{Po}(\lambda)$ | $e^{\lambda(t-1)}$ | $\lambda$ | $\lambda$ |
+| Geometric$(p)$ on $\{1, 2, \ldots\}$ | $\dfrac{pt}{1 - q t}$ | $\dfrac{1}{p}$ | $\dfrac{q}{p^2}$ |
+
+Learn the binomial and Poisson forms derivationally: expand $(q+pt)^n$ by the binomial theorem and
+read off coefficients; expand $e^{\lambda(t-1)}$ as a Maclaurin series and compare with the Poisson
+pmf.
+
+## 4. Sums of Independent Random Variables
+
+For independent $X$ and $Y$:
+
+$$
+G_{X+Y}(t) = G_X(t)\, G_Y(t)
+$$
+
+This is the result the exam is built around.
+
+**Worked example.** $X \sim \mathrm{B}(4, 0.3)$, $Y \sim \mathrm{B}(6, 0.3)$, independent. Then
+
+$$
+G_{X+Y}(t) = (0.7 + 0.3t)^4 (0.7+0.3t)^6 = (0.7 + 0.3t)^{10}
+$$
+
+which is the PGF of $\mathrm{B}(10, 0.3)$: the sum of independent binomials with the same $p$ is
+binomial. The same argument for independent Poissons gives
+$\mathrm{Po}(\lambda_1) + \mathrm{Po}(\lambda_2) = \mathrm{Po}(\lambda_1 + \lambda_2)$.
+
+A related form: if $X_1, \ldots, X_n$ are i.i.d. then
+$G_{S_n}(t) = \bigl(G_X(t)\bigr)^n$. For example, the sum of 12 independent geometric variables has
+PGF $\left(\dfrac{pt}{1-qt}\right)^{12}$ -- a negative binomial distribution.
+
+## 5. Finding the Distribution from a PGF
+
+Given an unfamiliar PGF, either match it to a standard form or expand enough coefficients to
+identify the probabilities, then name the distribution and state its parameters.
+
+**Worked example.** $G(t) = e^{2(t - 1)} \cdot (0.6 + 0.4t)^5$ for independent
+$X \sim \mathrm{Po}(2)$ and $Y \sim \mathrm{B}(5, 0.4)$. Then $X + Y$ has PGF equal to the product,
+which has no simple closed form -- but you can still compute $\mathrm{E}(X+Y) = 2 + 2 = 3$ and
+$\mathrm{Var}(X+Y) = 2 + 5(0.4)(0.6) = 3.2$ from the product rule applied to derivatives at $t=1$.
+
+## 6. Common Pitfalls
+
+- **Forgetting $G''(1)$ is $\mathrm{E}(X(X-1))$, not $\mathrm{Var}(X)$**: the variance formula has
+  three terms.
+- **Valid PGFs satisfy $G(1) = 1$**: if an unknown constant $k$ appears, set $G(1) = 1$ *first*,
+  then read off probabilities.
+- **Sums of independent variables only.** If $X$ and $Y$ are dependent, the PGF product is wrong;
+  state independence in your working.
+- **Geometric support**: some specifications define the geometric distribution on
+  $\{0, 1, 2, \ldots\}$ (number of failures); its PGF is then $\dfrac{p}{1-qt}$. Check which
+  convention your board uses -- the exam paper will match the formula booklet.
+- Mixed distributions (constant + random parts) do not have PGFs on their own: write
+  $X = c + Y$ and use $G_Y$.
+
+## 7. Summary
+
+| Task | Method |
+| ---- | ------ |
+| $\mathrm{P}(X = x)$ | Coefficient of $t^x$ |
+| $\mathrm{E}(X)$ | $G'(1)$ |
+| $\mathrm{Var}(X)$ | $G''(1) + G'(1) - (G'(1))^2$ |
+| Sum of independent RVs | Multiply the PGFs |
+| Unknown constant | Use $G(1) = 1$ |
+
+## Cross-References
+
+- [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)
+- [Exponential and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)
+- [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/)
 
 ---
 
@@ -217526,6 +217668,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 - [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/)
 - [Particle Physics](/physics/nuclear-and-particle/particle-physics/)
+- [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/)
 
 ## Learning Objectives
 
@@ -218199,6 +218342,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 
 - [Thermal Properties](/physics/thermal-physics/01-thermal-properties/)
 - [Thermodynamics](/physics/thermal-physics/02-thermodynamics/)
+- [Thermal Energy Transfer](/physics/thermal-physics/03-thermal-energy-transfer/)
 
 ---
 
@@ -223598,6 +223742,142 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 - [Waves](/physics/waves/)
 - [Electricity](/physics/electricity/)
 - [Fields](/physics/fields/)
+
+---
+
+## Nuclear Power And Safety
+URL: https://alevel.wyattau.com/physics/nuclear-and-particle/nuclear-power-and-safety/
+
+## Nuclear Power and Safety
+
+> **Info:** Board Coverage AQA Paper 3 (Section B) | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
+>
+The induced fission of uranium-235 releases about 200 MeV per event. A reactor is an engineering
+arrangement for releasing that energy at a **controlled, steady rate** and turning it into
+electricity. Every component in the core exists to solve one of three problems: keep the chain
+reaction going, slow the neutrons down, or absorb the excess.
+
+## 1. The Fission Chain Reaction
+
+A thermal neutron absorbed by ${}^{235}_{92}\mathrm{U}$ produces the unstable
+${}^{236}_{92}\mathrm{U}$, which splits into two unequal fragments plus two or three fresh
+neutrons:
+
+$$
+{}^{235}_{92}\mathrm{U} + {}^{1}_{0}n \rightarrow {}^{236}_{92}\mathrm{U} \rightarrow {}^{144}_{56}\mathrm{Ba} + {}^{89}_{36}\mathrm{Kr} + 3\,{}^{1}_{0}n + 200\ \mathrm{MeV}
+$$
+
+Each released neutron can induce further fissions. If, on average, exactly one neutron from each
+fission goes on to cause another fission, the reaction is **critical**: steady power. Fewer than
+one: the reaction dies out (subcritical). More than one: it grows exponentially (supercritical) --
+fine inside a bomb, catastrophic in a power station.
+
+## 2. The Moderator
+
+Fission neutrons emerge at about 2 MeV ("fast" neutrons). Uranium-235 fissions much more readily
+when hit by **slow, thermal** neutrons (around 1-2 eV), so the neutrons must be slowed between
+fissions. The moderator does this by **elastic collisions**.
+
+- In **thermal reactors** (e.g. the AGR and PWR) the moderator is water or graphite.
+- The best moderator has a low mass number: a neutron loses the largest fraction of its kinetic
+  energy in a head-on collision with a particle of comparable mass. This is why
+  ${}^{1}_{1}\mathrm{H}$ (in water) and ${}^{12}_{6}\mathrm{C}$ (graphite) are used, and why
+  deuterium (${}^{2}_{1}\mathrm{H}$) is slightly worse but still used in heavy-water reactors.
+- A moderator must **not** absorb neutrons appreciably.
+
+In about 25 collisions with water a 2 MeV neutron reaches thermal energies. A fast-breeder reactor,
+by contrast, has **no moderator**: it relies on fast neutrons converting
+${}^{238}_{92}\mathrm{U}$ into plutonium-239 faster than the plutonium is consumed.
+
+## 3. Control Rods and Criticality
+
+**Control rods** (boron or cadmium) are raised and lowered into the core to absorb neutrons. Their
+job is to make the reactor **critical rather than supercritical**: rod depth is adjusted so the
+effective neutron multiplication factor $k$ sits at $k = 1$ at steady power.
+
+Two facts examiners reward:
+
+- Control rods are **moveable** and **rapidly adjustable**; the moderator is fixed; the coolant
+  circulates. Confusing these three roles is the single most common marking-point loss.
+- Dropping the rods fully (SCRAM) shuts the fission chain reaction down in seconds. The reactor
+  still produces **decay heat** afterwards, which is why cooling must continue.
+
+The fuel is enriched to roughly 3-4 % ${}^{235}\mathrm{U}$ -- far below weapons-grade -- precisely
+so that it cannot explode like a bomb; a bomb requires near-pure ${}^{235}\mathrm{U}$ assembled
+supercritical almost instantly.
+
+## 4. The Coolant
+
+The coolant carries the fission energy (mostly the kinetic energy of the fragments) from the core
+to the boilers. Requirements: high specific heat capacity, chemically stable at high temperature,
+and low neutron absorption.
+
+- PWR: ordinary water acts as **both moderator and coolant** in one loop, kept at about
+  150 atmospheres so it stays liquid at 320 °C.
+- Gas-cooled reactors: carbon dioxide gas through the core.
+- Liquid sodium coolant in fast reactors.
+
+A steam generator transfers energy from the primary (radioactive) loop to a secondary loop; the
+steam drives turbines, and the reactor is essentially a way of boiling water.
+
+## 5. Safety Systems and Shielding
+
+- **Shielding**: several metres of concrete surround the core, absorbing neutrons and gamma
+  radiation. The fuel stays inside the shielding while in use; the coolant loop may be inside or
+  outside depending on design.
+- **Emergency cooling**: independent backup systems inject water if the primary coolant loop fails.
+  Loss-of-coolant accidents (LOCA) are the design-basis concern, because decay heat continues after
+  shutdown.
+- **Reactor containment**: the building is designed to contain steam and any released
+  radioactivity.
+
+## 6. Radioactive Waste
+
+Spent fuel rods contain fission products with a huge range of half-lives, plus unreprocessed
+${}^{235}\mathrm{U}$ and bred ${}^{239}\mathrm{Pu}$.
+
+- **High-level waste** (spent fuel, fission products): thermally hot and intensely radioactive.
+  Stored in cooling ponds for months to years while short-lived isotopes decay, then vitrified
+  (locked in glass) for long-term storage deep underground.
+- **Intermediate-level waste** (reactor components, chemical sludges): sealed in concrete or resin
+  in steel drums.
+- **Low-level waste** (gloves, clothing, filters): compacted and buried in shallow lined
+  repositories.
+
+The activity of stored waste falls with the half-lives of its isotopes; show you can use
+$A = A_0 e^{-\lambda t}$ with $\lambda = \frac{\ln 2}{t_{1/2}}$ to justify how long a category of
+waste must be stored before handling becomes safe.
+
+## 7. Common Pitfalls
+
+- The moderator **slows neutrons**; control rods **absorb them**. Swapping these two roles loses
+  both marks.
+- "The water prevents the reactor melting" is not the moderator's job -- the coolant removes
+  *thermal* energy; the moderator *slows neutrons*.
+- Neutrons are slowed by **elastic collisions with nuclei**, not by "friction" with the water.
+- Enrichment makes the fuel economical to use, not safe to explode: a civil reactor cannot detonate
+  like a fission weapon.
+- Activity after shutdown: the chain reaction stops within seconds, but **decay heat** continues
+  for years.
+
+## 8. Summary
+
+| Component | Material | Function |
+| --------- | -------- | -------- |
+| Fuel | Enriched ${}^{235}\mathrm{U}$ (${O_2}$) | Sustains the chain reaction |
+| Moderator | Water or graphite | Slows fast neutrons to thermal speeds by elastic collisions |
+| Control rods | Boron or cadmium | Absorb neutrons; keep $k = 1$; SCRAM shuts down |
+| Coolant | Water, CO₂ or liquid sodium | Transfers fission energy to the boilers |
+| Shielding | Thick concrete | Absorbs neutrons and gamma radiation |
+
+## Cross-References
+
+- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/) -- fission energetics, mass
+  defect and the decay law
+- [Particle Physics](/physics/nuclear-and-particle/particle-physics/) -- quarks and the standard
+  model
+- [Thermal Energy Transfer](/physics/thermal-physics/03-thermal-energy-transfer/) -- coolant heat
+  transfer mechanisms
 
 ---
 
@@ -231092,6 +231372,173 @@ linked above.
 - [Refraction and Total Internal Reflection](/physics/waves/03-refraction-and-total-internal-reflection/): Explains how wave speed changes at boundaries, which affects path differences in interference.
 - [Diffraction](https://physics.wyattau.com/4-optics-and-waves/16_detailed-diffraction-theory/): Explores how waves spread around obstacles, a key phenomenon related to interference and superposition.
 - [Standing Waves](https://hsc.wyattau.com/physics/waves/): Shows how interference of two identical waves traveling in opposite directions creates stationary patterns.
+
+---
+
+## Thermal Energy Transfer
+URL: https://alevel.wyattau.com/physics/thermal-physics/03-thermal-energy-transfer/
+
+## Thermal Energy Transfer
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP9/CB6 | OCR (A) Paper 2 | CIE P3
+>
+Energy moves from hot to cold by three mechanisms: **conduction**, **convection** and
+**radiation**. This page consolidates the transfer mechanisms, U-values, and the latent-heat
+calculations that sit alongside the specific heat capacity work in
+[Thermal Properties](/physics/thermal-physics/01-thermal-properties/).
+
+## 1. Conduction
+
+Conduction is the transfer of energy through a material without any bulk movement of the material
+itself. In metals, the dominant mechanism is **free (delocalised) electrons** colliding with the
+lattice; in non-metals, energy passes through **lattice vibrations (phonons)**. This is why metals
+conduct heat far better than insulators: the same free electrons that carry current carry thermal
+energy.
+
+### The Conduction Equation (Fourier's Law)
+
+The rate of energy flow through a slab of material is
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = \frac{kA\,\Delta\theta}{d}
+$$
+
+where $k$ is the thermal conductivity ($\mathrm{W\,m^{-1}\,K^{-1}}$), $A$ the cross-sectional area,
+$d$ the thickness, and $\Delta\theta$ the temperature difference across the slab.
+
+**Worked example.** A window pane has area $2.0\ \mathrm{m^2}$, thickness $4.0\ \mathrm{mm}$ and
+$k = 0.80\ \mathrm{W\,m^{-1}K^{-1}}$. The inside is at $20\ ^\circ\mathrm{C}$, the outside at
+$5.0\ ^\circ\mathrm{C}$.
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = \frac{0.80 \times 2.0 \times 15}{4.0\times10^{-3}} = 6.0\times10^{3}\ \mathrm{W}
+$$
+
+In reality the glass surfaces are not at room temperature; the temperature drops mostly across
+boundary air layers. That is exactly why double glazing works: a trapped argon gap with low $k$ adds
+a large effective thickness.
+
+## 2. Convection
+
+Convection requires a **fluid**. The heated fluid expands, becomes less dense, and rises; cooler
+fluid replaces it, forming a **convection current**. Energy is then carried by the bulk motion of
+the fluid itself.
+
+- **Natural convection**: driven by density differences alone (radiator warming a room).
+- **Forced convection**: driven by an external pump or fan (a fan heater, or coolant pumped
+  through a nuclear reactor -- see [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/)).
+
+The rate of transfer is commonly modelled as
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = hA\,(\theta_\text{surface} - \theta_\text{fluid})
+$$
+
+with $h$ a heat transfer coefficient. You are rarely asked to calculate with $h$ at A-level, but
+you are expected to *explain* designs that reduce convection: trapping air in foam or fibreglass
+works because air is a poor conductor and the fibres prevent the air from circulating.
+
+## 3. Radiation
+
+All bodies emit **electromagnetic radiation**. The power radiated by a body at Kelvin temperature
+$T$ is given by the Stefan--Boltzmann law in the form used at A-level:
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = e\,\sigma A T^4
+$$
+
+where $e$ is the emissivity ($0 \le e \le 1$; $e = 1$ for a perfect black body) and
+$\sigma = 5.67\times10^{-8}\ \mathrm{W\,m^{-2}K^{-4}}$ is the Stefan--Boltzmann constant.
+
+For an object in surroundings at temperature $T_s$, the **net** exchange is
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = e\,\sigma A\,(T^4 - T_s^4)
+$$
+
+Key qualitative points examiners award marks for:
+
+- Emission depends on $T^4$: doubling the *Kelvin* temperature multiplies the radiated power by 16.
+  Using the Celsius temperature here is one of the most common errors in the paper.
+- Matte black surfaces are the best absorbers **and** the best emitters; shiny silver surfaces are
+  the worst at both.
+- The Earth's radiative equilibrium temperature follows from balancing absorbed solar flux against
+  $e\sigma T^4$ -- a standard application question.
+
+## 4. U-Values
+
+For a building element, the U-value bundles conduction through all layers into one figure:
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = U A\, \Delta\theta
+$$
+
+A double-glazed unit might have $U \approx 1.5\ \mathrm{W\,m^{-2}K^{-1}}$ against
+$U \approx 5.0$ for single glazing. Lower U-value means better insulation. Exam questions typically
+give several layers in series and ask you to compare energy loss before and after an upgrade, then
+comment on cost savings from a stated energy price.
+
+## 5. Specific Latent Heat and Phase Changes
+
+During a **phase change** the temperature of a pure substance is constant even though energy is
+still being supplied: the energy goes into breaking intermolecular bonds, not into kinetic energy.
+The energy required is
+
+$$
+Q = m L
+$$
+
+with $L_f$ the specific latent heat of fusion (solid $\leftrightarrow$ liquid) and $L_v$ the
+specific latent heat of vaporisation (liquid $\leftrightarrow$ gas). For water,
+$L_v \approx 2.26\times10^{6}\ \mathrm{J\,kg^{-1}}$ -- roughly seven times $L_f$, which is why
+scalding steam burns are so severe: the steam releases $mL_v$ **plus** the cooling water releases
+$m c \Delta\theta$ as it condenses and cools.
+
+**Worked example.** An electric kettle delivers $2.5\ \mathrm{kW}$ to $0.30\ \mathrm{kg}$ of
+boiling water. How long to boil it dry? ($L_v = 2.26\times10^{6}\ \mathrm{J\,kg^{-1}}$)
+
+$$
+t = \frac{m L_v}{P} = \frac{0.30 \times 2.26\times10^{6}}{2500} \approx 270\ \mathrm{s}\ (\approx 4.6\ \text{minutes})
+$$
+
+### Mixing Problems (Calorimetry)
+
+Multi-stage problems chain latent heat with specific heat capacity. A standard ice-to-steam
+calculation has five stages: warm the ice to $0\ ^\circ\mathrm{C}$, melt it, heat the water to
+$100\ ^\circ\mathrm{C}$, boil it, superheat the steam. Set total energy supplied equal to the sum
+over stages and solve for the unknown. Always compute and compare stage-by-stage when the question
+asks "does the ice all melt?" -- answer that sub-question explicitly first.
+
+## 6. Common Pitfalls
+
+- **Celsius vs Kelvin**: $T^4$ radiation laws and the ideal gas law need Kelvin. Specific heat
+  questions only need *differences*, where Celsius is fine.
+- **Area vs radius**: radiation questions give a diameter. $A = 4\pi r^2$ needs $r = d/2$.
+- **Latent heat has no $\Delta\theta$**: writing $Q = mL\Delta\theta$ in a phase-change stage is an
+  automatic mark loss.
+- **Direction of energy flow**: in net-radiation questions, quote the sign convention you are
+  using (net loss from the object vs net gain by the surroundings).
+- **Conduction in a steady state**: the rate is the same through every layer in series; the
+  temperature *differences* distribute in proportion to the thermal resistances.
+
+## 7. Summary
+
+| Mechanism | Requires a medium? | Key equation | Main source of error |
+| --------- | ------------------ | ------------ | -------------------- |
+| Conduction | Solid/fluid, no bulk flow | $\frac{kA\Delta\theta}{d}$ | Unit conversion of thickness |
+| Convection | Fluid + bulk motion | $hA\Delta\theta$ | Vague descriptions (say *density change*) |
+| Radiation | Nothing (vacuum fine) | $e\sigma A(T^4 - T_s^4)$ | Using Celsius in $T^4$ |
+
+Phase changes: $Q = mL$ at constant temperature. Mixing problems: sum the stages.
+
+## Cross-References
+
+- [Thermal Properties](/physics/thermal-physics/01-thermal-properties/) -- specific heat capacity,
+  gas laws and kinetic theory
+- [Thermodynamics](/physics/thermal-physics/02-thermodynamics/) -- first law, $p$-$V$ work and
+  the Carnot cycle
+- [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/) --
+  forced-convection coolant loops in reactors
 
 ---
 

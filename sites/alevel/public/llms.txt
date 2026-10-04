@@ -245,6 +245,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Practice Further Mechanics](https://alevel.wyattau.com/further-maths/practice-further-mechanics/)
 - [Practice Further Statistics](https://alevel.wyattau.com/further-maths/practice-further-statistics/)
 - [Practice Pure Mathematics](https://alevel.wyattau.com/further-maths/practice-pure-mathematics/)
+- [Probability Generating Functions](https://alevel.wyattau.com/further-maths/further-statistics/probability-generating-functions/)
 - [Projectile Motion](https://alevel.wyattau.com/further-maths/further-mechanics/01-projectile-motion/)
 - [Vectors In 3d](https://alevel.wyattau.com/further-maths/pure-mathematics/09-vectors-in-3d/)
 
@@ -422,6 +423,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Momentum](https://alevel.wyattau.com/physics/mechanics/05-momentum/)
 - [Nuclear Energy](https://alevel.wyattau.com/physics/nuclear-physics/02-nuclear-energy/)
 - [Nuclear Physics](https://alevel.wyattau.com/physics/nuclear-and-particle/nuclear-physics/)
+- [Nuclear Power And Safety](https://alevel.wyattau.com/physics/nuclear-and-particle/nuclear-power-and-safety/)
 - [Oscillations](https://alevel.wyattau.com/physics/mechanics/07-oscillations/)
 - [Particle Physics](https://alevel.wyattau.com/physics/nuclear-and-particle/particle-physics/)
 - [Particle Physics](https://alevel.wyattau.com/physics/nuclear-physics/04-particle-physics/)
@@ -435,6 +437,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Radioactivity](https://alevel.wyattau.com/physics/nuclear-physics/01-radioactivity/)
 - [Refraction And Total Internal Reflection](https://alevel.wyattau.com/physics/waves/03-refraction-and-total-internal-reflection/)
 - [Superposition And Interference](https://alevel.wyattau.com/physics/waves/02-superposition-and-interference/)
+- [Thermal Energy Transfer](https://alevel.wyattau.com/physics/thermal-physics/03-thermal-energy-transfer/)
 - [Thermal Properties](https://alevel.wyattau.com/physics/thermal-physics/01-thermal-properties/)
 - [Thermodynamics](https://alevel.wyattau.com/physics/thermal-physics/02-thermodynamics/)
 - [Wave Properties](https://alevel.wyattau.com/physics/waves/01-wave-properties/)

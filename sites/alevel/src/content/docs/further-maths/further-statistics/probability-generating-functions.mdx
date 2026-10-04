@@ -1,0 +1,132 @@
+---
+title: "Probability Generating Functions"
+description: "PGFs for Edexcel Further Mathematics FS1: definition, expectation and variance from G(t), binomial, Poisson and geometric PGFs, and sums of independent random variables."
+date: 2026-09-19T00:00:00.000Z
+tags: [Maths, FurtherMaths, ALevel]
+categories: [Further Maths]
+---
+
+## Probability Generating Functions
+
+> **Info:** Board Coverage Edexcel FS1 (Section 5) | AQA Optional Topic | OCR (A) FS1
+>
+A **probability generating function (PGF)** packs the whole probability distribution of a discrete
+random variable taking non-negative integer values into one expression:
+
+$$
+G_X(t) = \mathrm{E}(t^X) = \sum_{x=0}^{\infty} \mathrm{P}(X = x)\, t^x
+$$
+
+The coefficient of $t^x$ in the expansion of $G_X(t)$ is exactly $\mathrm{P}(X = x)$. PGFs are
+examinable for three reasons: they give expectation and variance quickly, they classify standard
+distributions, and they handle **sums of independent random variables** with almost no work.
+
+## 1. Basic Properties
+
+- $G_X(1) = \sum \mathrm{P}(X = x) = 1$: every PGF equals 1 at $t = 1$. This is the standard check
+  for unknown constants.
+- $G_X(0) = \mathrm{P}(X = 0)$.
+- The PGF fully determines the distribution of $X$.
+
+## 2. Expectation and Variance from $G(t)$
+
+Differentiate and evaluate at $t = 1$:
+
+$$
+\mathrm{E}(X) = G_X'(1), \qquad
+\mathrm{E}(X(X-1)) = G_X''(1)
+$$
+
+so
+
+$$
+\mathrm{Var}(X) = G_X''(1) + G_X'(1) - \bigl(G_X'(1)\bigr)^2
+$$
+
+**Worked example.** $G_X(t) = \frac{1}{2}(1 + t)^2$. Then
+
+$$
+G'(t) = (1+t), \quad G'(1) = 2; \qquad G''(t) = 1, \quad G''(1) = 1
+$$
+
+$$
+\mathrm{E}(X) = 2, \qquad \mathrm{Var}(X) = 1 + 2 - 2^2 = 1
+$$
+
+(Expand to check: this is $X \sim \mathrm{B}(2, \tfrac12)$ -- see the standard forms below.)
+
+## 3. Standard PGFs to Memorise
+
+| Distribution | $G_X(t)$ | $\mathrm{E}(X)$ | $\mathrm{Var}(X)$ |
+| ------------ | -------- | --------------- | ----------------- |
+| $\mathrm{B}(n, p)$ | $(q + pt)^n$, $q = 1-p$ | $np$ | $npq$ |
+| $\mathrm{Po}(\lambda)$ | $e^{\lambda(t-1)}$ | $\lambda$ | $\lambda$ |
+| Geometric$(p)$ on $\{1, 2, \ldots\}$ | $\dfrac{pt}{1 - q t}$ | $\dfrac{1}{p}$ | $\dfrac{q}{p^2}$ |
+
+Learn the binomial and Poisson forms derivationally: expand $(q+pt)^n$ by the binomial theorem and
+read off coefficients; expand $e^{\lambda(t-1)}$ as a Maclaurin series and compare with the Poisson
+pmf.
+
+## 4. Sums of Independent Random Variables
+
+For independent $X$ and $Y$:
+
+$$
+G_{X+Y}(t) = G_X(t)\, G_Y(t)
+$$
+
+This is the result the exam is built around.
+
+**Worked example.** $X \sim \mathrm{B}(4, 0.3)$, $Y \sim \mathrm{B}(6, 0.3)$, independent. Then
+
+$$
+G_{X+Y}(t) = (0.7 + 0.3t)^4 (0.7+0.3t)^6 = (0.7 + 0.3t)^{10}
+$$
+
+which is the PGF of $\mathrm{B}(10, 0.3)$: the sum of independent binomials with the same $p$ is
+binomial. The same argument for independent Poissons gives
+$\mathrm{Po}(\lambda_1) + \mathrm{Po}(\lambda_2) = \mathrm{Po}(\lambda_1 + \lambda_2)$.
+
+A related form: if $X_1, \ldots, X_n$ are i.i.d. then
+$G_{S_n}(t) = \bigl(G_X(t)\bigr)^n$. For example, the sum of 12 independent geometric variables has
+PGF $\left(\dfrac{pt}{1-qt}\right)^{12}$ -- a negative binomial distribution.
+
+## 5. Finding the Distribution from a PGF
+
+Given an unfamiliar PGF, either match it to a standard form or expand enough coefficients to
+identify the probabilities, then name the distribution and state its parameters.
+
+**Worked example.** $G(t) = e^{2(t - 1)} \cdot (0.6 + 0.4t)^5$ for independent
+$X \sim \mathrm{Po}(2)$ and $Y \sim \mathrm{B}(5, 0.4)$. Then $X + Y$ has PGF equal to the product,
+which has no simple closed form -- but you can still compute $\mathrm{E}(X+Y) = 2 + 2 = 3$ and
+$\mathrm{Var}(X+Y) = 2 + 5(0.4)(0.6) = 3.2$ from the product rule applied to derivatives at $t=1$.
+
+## 6. Common Pitfalls
+
+- **Forgetting $G''(1)$ is $\mathrm{E}(X(X-1))$, not $\mathrm{Var}(X)$**: the variance formula has
+  three terms.
+- **Valid PGFs satisfy $G(1) = 1$**: if an unknown constant $k$ appears, set $G(1) = 1$ *first*,
+  then read off probabilities.
+- **Sums of independent variables only.** If $X$ and $Y$ are dependent, the PGF product is wrong;
+  state independence in your working.
+- **Geometric support**: some specifications define the geometric distribution on
+  $\{0, 1, 2, \ldots\}$ (number of failures); its PGF is then $\dfrac{p}{1-qt}$. Check which
+  convention your board uses -- the exam paper will match the formula booklet.
+- Mixed distributions (constant + random parts) do not have PGFs on their own: write
+  $X = c + Y$ and use $G_Y$.
+
+## 7. Summary
+
+| Task | Method |
+| ---- | ------ |
+| $\mathrm{P}(X = x)$ | Coefficient of $t^x$ |
+| $\mathrm{E}(X)$ | $G'(1)$ |
+| $\mathrm{Var}(X)$ | $G''(1) + G'(1) - (G'(1))^2$ |
+| Sum of independent RVs | Multiply the PGFs |
+| Unknown constant | Use $G(1) = 1$ |
+
+## Cross-References
+
+- [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)
+- [Exponential and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)
+- [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/)

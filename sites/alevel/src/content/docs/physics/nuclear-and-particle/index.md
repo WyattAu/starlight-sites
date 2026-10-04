@@ -20,6 +20,7 @@ This section covers key physical principles, from classical mechanics to modern 
 
 - [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/)
 - [Particle Physics](/physics/nuclear-and-particle/particle-physics/)
+- [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/)
 
 ## Learning Objectives
 

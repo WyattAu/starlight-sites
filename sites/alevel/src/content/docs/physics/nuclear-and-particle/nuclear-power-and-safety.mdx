@@ -1,0 +1,138 @@
+---
+title: "Nuclear Power and Safety"
+description: "Reactor physics for A-level: moderation, control, criticality, the fission reactor core, safety systems and radioactive waste, for AQA, Edexcel, OCR and CIE."
+date: 2026-09-19T00:00:00.000Z
+tags: [Physics, ALevel]
+categories: [Physics]
+---
+
+## Nuclear Power and Safety
+
+> **Info:** Board Coverage AQA Paper 3 (Section B) | Edexcel CP6 | OCR (A) Paper 2 | CIE P4
+>
+The induced fission of uranium-235 releases about 200 MeV per event. A reactor is an engineering
+arrangement for releasing that energy at a **controlled, steady rate** and turning it into
+electricity. Every component in the core exists to solve one of three problems: keep the chain
+reaction going, slow the neutrons down, or absorb the excess.
+
+## 1. The Fission Chain Reaction
+
+A thermal neutron absorbed by ${}^{235}_{92}\mathrm{U}$ produces the unstable
+${}^{236}_{92}\mathrm{U}$, which splits into two unequal fragments plus two or three fresh
+neutrons:
+
+$$
+{}^{235}_{92}\mathrm{U} + {}^{1}_{0}n \rightarrow {}^{236}_{92}\mathrm{U} \rightarrow {}^{144}_{56}\mathrm{Ba} + {}^{89}_{36}\mathrm{Kr} + 3\,{}^{1}_{0}n + 200\ \mathrm{MeV}
+$$
+
+Each released neutron can induce further fissions. If, on average, exactly one neutron from each
+fission goes on to cause another fission, the reaction is **critical**: steady power. Fewer than
+one: the reaction dies out (subcritical). More than one: it grows exponentially (supercritical) --
+fine inside a bomb, catastrophic in a power station.
+
+## 2. The Moderator
+
+Fission neutrons emerge at about 2 MeV ("fast" neutrons). Uranium-235 fissions much more readily
+when hit by **slow, thermal** neutrons (around 1-2 eV), so the neutrons must be slowed between
+fissions. The moderator does this by **elastic collisions**.
+
+- In **thermal reactors** (e.g. the AGR and PWR) the moderator is water or graphite.
+- The best moderator has a low mass number: a neutron loses the largest fraction of its kinetic
+  energy in a head-on collision with a particle of comparable mass. This is why
+  ${}^{1}_{1}\mathrm{H}$ (in water) and ${}^{12}_{6}\mathrm{C}$ (graphite) are used, and why
+  deuterium (${}^{2}_{1}\mathrm{H}$) is slightly worse but still used in heavy-water reactors.
+- A moderator must **not** absorb neutrons appreciably.
+
+In about 25 collisions with water a 2 MeV neutron reaches thermal energies. A fast-breeder reactor,
+by contrast, has **no moderator**: it relies on fast neutrons converting
+${}^{238}_{92}\mathrm{U}$ into plutonium-239 faster than the plutonium is consumed.
+
+## 3. Control Rods and Criticality
+
+**Control rods** (boron or cadmium) are raised and lowered into the core to absorb neutrons. Their
+job is to make the reactor **critical rather than supercritical**: rod depth is adjusted so the
+effective neutron multiplication factor $k$ sits at $k = 1$ at steady power.
+
+Two facts examiners reward:
+
+- Control rods are **moveable** and **rapidly adjustable**; the moderator is fixed; the coolant
+  circulates. Confusing these three roles is the single most common marking-point loss.
+- Dropping the rods fully (SCRAM) shuts the fission chain reaction down in seconds. The reactor
+  still produces **decay heat** afterwards, which is why cooling must continue.
+
+The fuel is enriched to roughly 3-4 % ${}^{235}\mathrm{U}$ -- far below weapons-grade -- precisely
+so that it cannot explode like a bomb; a bomb requires near-pure ${}^{235}\mathrm{U}$ assembled
+supercritical almost instantly.
+
+## 4. The Coolant
+
+The coolant carries the fission energy (mostly the kinetic energy of the fragments) from the core
+to the boilers. Requirements: high specific heat capacity, chemically stable at high temperature,
+and low neutron absorption.
+
+- PWR: ordinary water acts as **both moderator and coolant** in one loop, kept at about
+  150 atmospheres so it stays liquid at 320 °C.
+- Gas-cooled reactors: carbon dioxide gas through the core.
+- Liquid sodium coolant in fast reactors.
+
+A steam generator transfers energy from the primary (radioactive) loop to a secondary loop; the
+steam drives turbines, and the reactor is essentially a way of boiling water.
+
+## 5. Safety Systems and Shielding
+
+- **Shielding**: several metres of concrete surround the core, absorbing neutrons and gamma
+  radiation. The fuel stays inside the shielding while in use; the coolant loop may be inside or
+  outside depending on design.
+- **Emergency cooling**: independent backup systems inject water if the primary coolant loop fails.
+  Loss-of-coolant accidents (LOCA) are the design-basis concern, because decay heat continues after
+  shutdown.
+- **Reactor containment**: the building is designed to contain steam and any released
+  radioactivity.
+
+## 6. Radioactive Waste
+
+Spent fuel rods contain fission products with a huge range of half-lives, plus unreprocessed
+${}^{235}\mathrm{U}$ and bred ${}^{239}\mathrm{Pu}$.
+
+- **High-level waste** (spent fuel, fission products): thermally hot and intensely radioactive.
+  Stored in cooling ponds for months to years while short-lived isotopes decay, then vitrified
+  (locked in glass) for long-term storage deep underground.
+- **Intermediate-level waste** (reactor components, chemical sludges): sealed in concrete or resin
+  in steel drums.
+- **Low-level waste** (gloves, clothing, filters): compacted and buried in shallow lined
+  repositories.
+
+The activity of stored waste falls with the half-lives of its isotopes; show you can use
+$A = A_0 e^{-\lambda t}$ with $\lambda = \frac{\ln 2}{t_{1/2}}$ to justify how long a category of
+waste must be stored before handling becomes safe.
+
+## 7. Common Pitfalls
+
+- The moderator **slows neutrons**; control rods **absorb them**. Swapping these two roles loses
+  both marks.
+- "The water prevents the reactor melting" is not the moderator's job -- the coolant removes
+  *thermal* energy; the moderator *slows neutrons*.
+- Neutrons are slowed by **elastic collisions with nuclei**, not by "friction" with the water.
+- Enrichment makes the fuel economical to use, not safe to explode: a civil reactor cannot detonate
+  like a fission weapon.
+- Activity after shutdown: the chain reaction stops within seconds, but **decay heat** continues
+  for years.
+
+## 8. Summary
+
+| Component | Material | Function |
+| --------- | -------- | -------- |
+| Fuel | Enriched ${}^{235}\mathrm{U}$ (${O_2}$) | Sustains the chain reaction |
+| Moderator | Water or graphite | Slows fast neutrons to thermal speeds by elastic collisions |
+| Control rods | Boron or cadmium | Absorb neutrons; keep $k = 1$; SCRAM shuts down |
+| Coolant | Water, CO₂ or liquid sodium | Transfers fission energy to the boilers |
+| Shielding | Thick concrete | Absorbs neutrons and gamma radiation |
+
+## Cross-References
+
+- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/) -- fission energetics, mass
+  defect and the decay law
+- [Particle Physics](/physics/nuclear-and-particle/particle-physics/) -- quarks and the standard
+  model
+- [Thermal Energy Transfer](/physics/thermal-physics/03-thermal-energy-transfer/) -- coolant heat
+  transfer mechanisms

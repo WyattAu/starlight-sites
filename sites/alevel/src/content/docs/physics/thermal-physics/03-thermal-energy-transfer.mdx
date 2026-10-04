@@ -1,0 +1,169 @@
+---
+title: "Thermal Energy Transfer"
+description: "Conduction, convection and radiation, U-values, latent heat and phase changes, with worked examples for AQA, Edexcel, OCR and CIE A-level Physics."
+date: 2026-09-19T00:00:00.000Z
+tags: [Physics, ALevel]
+categories: [Physics]
+---
+
+## Thermal Energy Transfer
+
+> **Info:** Board Coverage AQA Paper 2 | Edexcel CP9/CB6 | OCR (A) Paper 2 | CIE P3
+>
+Energy moves from hot to cold by three mechanisms: **conduction**, **convection** and
+**radiation**. This page consolidates the transfer mechanisms, U-values, and the latent-heat
+calculations that sit alongside the specific heat capacity work in
+[Thermal Properties](/physics/thermal-physics/01-thermal-properties/).
+
+## 1. Conduction
+
+Conduction is the transfer of energy through a material without any bulk movement of the material
+itself. In metals, the dominant mechanism is **free (delocalised) electrons** colliding with the
+lattice; in non-metals, energy passes through **lattice vibrations (phonons)**. This is why metals
+conduct heat far better than insulators: the same free electrons that carry current carry thermal
+energy.
+
+### The Conduction Equation (Fourier's Law)
+
+The rate of energy flow through a slab of material is
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = \frac{kA\,\Delta\theta}{d}
+$$
+
+where $k$ is the thermal conductivity ($\mathrm{W\,m^{-1}\,K^{-1}}$), $A$ the cross-sectional area,
+$d$ the thickness, and $\Delta\theta$ the temperature difference across the slab.
+
+**Worked example.** A window pane has area $2.0\ \mathrm{m^2}$, thickness $4.0\ \mathrm{mm}$ and
+$k = 0.80\ \mathrm{W\,m^{-1}K^{-1}}$. The inside is at $20\ ^\circ\mathrm{C}$, the outside at
+$5.0\ ^\circ\mathrm{C}$.
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = \frac{0.80 \times 2.0 \times 15}{4.0\times10^{-3}} = 6.0\times10^{3}\ \mathrm{W}
+$$
+
+In reality the glass surfaces are not at room temperature; the temperature drops mostly across
+boundary air layers. That is exactly why double glazing works: a trapped argon gap with low $k$ adds
+a large effective thickness.
+
+## 2. Convection
+
+Convection requires a **fluid**. The heated fluid expands, becomes less dense, and rises; cooler
+fluid replaces it, forming a **convection current**. Energy is then carried by the bulk motion of
+the fluid itself.
+
+- **Natural convection**: driven by density differences alone (radiator warming a room).
+- **Forced convection**: driven by an external pump or fan (a fan heater, or coolant pumped
+  through a nuclear reactor -- see [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/)).
+
+The rate of transfer is commonly modelled as
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = hA\,(\theta_\text{surface} - \theta_\text{fluid})
+$$
+
+with $h$ a heat transfer coefficient. You are rarely asked to calculate with $h$ at A-level, but
+you are expected to *explain* designs that reduce convection: trapping air in foam or fibreglass
+works because air is a poor conductor and the fibres prevent the air from circulating.
+
+## 3. Radiation
+
+All bodies emit **electromagnetic radiation**. The power radiated by a body at Kelvin temperature
+$T$ is given by the Stefan--Boltzmann law in the form used at A-level:
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = e\,\sigma A T^4
+$$
+
+where $e$ is the emissivity ($0 \le e \le 1$; $e = 1$ for a perfect black body) and
+$\sigma = 5.67\times10^{-8}\ \mathrm{W\,m^{-2}K^{-4}}$ is the Stefan--Boltzmann constant.
+
+For an object in surroundings at temperature $T_s$, the **net** exchange is
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = e\,\sigma A\,(T^4 - T_s^4)
+$$
+
+Key qualitative points examiners award marks for:
+
+- Emission depends on $T^4$: doubling the *Kelvin* temperature multiplies the radiated power by 16.
+  Using the Celsius temperature here is one of the most common errors in the paper.
+- Matte black surfaces are the best absorbers **and** the best emitters; shiny silver surfaces are
+  the worst at both.
+- The Earth's radiative equilibrium temperature follows from balancing absorbed solar flux against
+  $e\sigma T^4$ -- a standard application question.
+
+## 4. U-Values
+
+For a building element, the U-value bundles conduction through all layers into one figure:
+
+$$
+\frac{\mathrm{d}Q}{\mathrm{d}t} = U A\, \Delta\theta
+$$
+
+A double-glazed unit might have $U \approx 1.5\ \mathrm{W\,m^{-2}K^{-1}}$ against
+$U \approx 5.0$ for single glazing. Lower U-value means better insulation. Exam questions typically
+give several layers in series and ask you to compare energy loss before and after an upgrade, then
+comment on cost savings from a stated energy price.
+
+## 5. Specific Latent Heat and Phase Changes
+
+During a **phase change** the temperature of a pure substance is constant even though energy is
+still being supplied: the energy goes into breaking intermolecular bonds, not into kinetic energy.
+The energy required is
+
+$$
+Q = m L
+$$
+
+with $L_f$ the specific latent heat of fusion (solid $\leftrightarrow$ liquid) and $L_v$ the
+specific latent heat of vaporisation (liquid $\leftrightarrow$ gas). For water,
+$L_v \approx 2.26\times10^{6}\ \mathrm{J\,kg^{-1}}$ -- roughly seven times $L_f$, which is why
+scalding steam burns are so severe: the steam releases $mL_v$ **plus** the cooling water releases
+$m c \Delta\theta$ as it condenses and cools.
+
+**Worked example.** An electric kettle delivers $2.5\ \mathrm{kW}$ to $0.30\ \mathrm{kg}$ of
+boiling water. How long to boil it dry? ($L_v = 2.26\times10^{6}\ \mathrm{J\,kg^{-1}}$)
+
+$$
+t = \frac{m L_v}{P} = \frac{0.30 \times 2.26\times10^{6}}{2500} \approx 270\ \mathrm{s}\ (\approx 4.6\ \text{minutes})
+$$
+
+### Mixing Problems (Calorimetry)
+
+Multi-stage problems chain latent heat with specific heat capacity. A standard ice-to-steam
+calculation has five stages: warm the ice to $0\ ^\circ\mathrm{C}$, melt it, heat the water to
+$100\ ^\circ\mathrm{C}$, boil it, superheat the steam. Set total energy supplied equal to the sum
+over stages and solve for the unknown. Always compute and compare stage-by-stage when the question
+asks "does the ice all melt?" -- answer that sub-question explicitly first.
+
+## 6. Common Pitfalls
+
+- **Celsius vs Kelvin**: $T^4$ radiation laws and the ideal gas law need Kelvin. Specific heat
+  questions only need *differences*, where Celsius is fine.
+- **Area vs radius**: radiation questions give a diameter. $A = 4\pi r^2$ needs $r = d/2$.
+- **Latent heat has no $\Delta\theta$**: writing $Q = mL\Delta\theta$ in a phase-change stage is an
+  automatic mark loss.
+- **Direction of energy flow**: in net-radiation questions, quote the sign convention you are
+  using (net loss from the object vs net gain by the surroundings).
+- **Conduction in a steady state**: the rate is the same through every layer in series; the
+  temperature *differences* distribute in proportion to the thermal resistances.
+
+## 7. Summary
+
+| Mechanism | Requires a medium? | Key equation | Main source of error |
+| --------- | ------------------ | ------------ | -------------------- |
+| Conduction | Solid/fluid, no bulk flow | $\frac{kA\Delta\theta}{d}$ | Unit conversion of thickness |
+| Convection | Fluid + bulk motion | $hA\Delta\theta$ | Vague descriptions (say *density change*) |
+| Radiation | Nothing (vacuum fine) | $e\sigma A(T^4 - T_s^4)$ | Using Celsius in $T^4$ |
+
+Phase changes: $Q = mL$ at constant temperature. Mixing problems: sum the stages.
+
+## Cross-References
+
+- [Thermal Properties](/physics/thermal-physics/01-thermal-properties/) -- specific heat capacity,
+  gas laws and kinetic theory
+- [Thermodynamics](/physics/thermal-physics/02-thermodynamics/) -- first law, $p$-$V$ work and
+  the Carnot cycle
+- [Nuclear Power and Safety](/physics/nuclear-and-particle/nuclear-power-and-safety/) --
+  forced-convection coolant loops in reactors
