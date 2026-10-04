@@ -157,9 +157,21 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Number-Theory
 
+- [Arithmetic Functions](https://mathematics.wyattau.com/7-number-theory/6_arithmetic-functions/)
+- [Congruences](https://mathematics.wyattau.com/7-number-theory/3_congruences/)
+- [Continued Fractions](https://mathematics.wyattau.com/7-number-theory/11_continued-fractions/)
+- [Distribution Of Primes](https://mathematics.wyattau.com/7-number-theory/10_distribution-of-primes/)
+- [Divisibility And Euclidean Algorithm](https://mathematics.wyattau.com/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat Euler And Wilson Theorems](https://mathematics.wyattau.com/7-number-theory/4_fermat-euler-and-wilson-theorems/)
 - [Flashcards Number Theory](https://mathematics.wyattau.com/7-number-theory/flashcards-number-theory/)
 - [Index](https://mathematics.wyattau.com/7-number-theory/)
+- [Linear Congruences And The Chinese Remainder Theorem](https://mathematics.wyattau.com/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/)
+- [Number Theory And Cryptography](https://mathematics.wyattau.com/7-number-theory/12_number-theory-and-cryptography/)
 - [Practice Number Theory](https://mathematics.wyattau.com/7-number-theory/practice-number-theory/)
+- [Primes And The Fundamental Theorem Of Arithmetic](https://mathematics.wyattau.com/7-number-theory/2_primes-and-the-fundamental-theorem-of-arithmetic/)
+- [Primitive Roots And Discrete Logarithms](https://mathematics.wyattau.com/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
+- [Quadratic Residues](https://mathematics.wyattau.com/7-number-theory/8_quadratic-residues/)
+- [Sums Of Squares And Pells Equation](https://mathematics.wyattau.com/7-number-theory/9_sums-of-squares-and-pells-equation/)
 
 ## Probability-And-Statistics
 

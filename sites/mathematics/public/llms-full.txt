@@ -30515,6 +30515,734 @@ Ensure you have mastered the prerequisite material before attempting this advanc
 
 ---
 
+## Arithmetic Functions
+URL: https://mathematics.wyattau.com/7-number-theory/6_arithmetic-functions/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Arithmetic Functions", "url": "https://mathematics.wyattau.com/7-number-theory/arithmetic-functions"}]
+}
+</script>
+
+### 6.1 Arithmetic Functions
+
+**Definition.** An **arithmetic function** is a function $f: \mathbb{Z}_{>0} \to \mathbb{C}$.
+
+The subject studies how these functions interact with factorisation. Two operations:
+
+- **Pointwise addition**: $(f + g)(n) = f(n) + g(n)$.
+- **Dirichlet convolution**: $(f * g)(n) = \sum_{d \mid n} f(d)\, g(n/d)$.
+
+Convolution is commutative and associative, with identity $\varepsilon(n) = 1$ if $n = 1$ else 0.
+A function is **multiplicative** if $f(mn) = f(m)f(n)$ whenever $\gcd(m, n) = 1$ — the central
+property: a multiplicative function is determined by its values on prime powers.
+
+### 6.2 The Totient and Its Formula
+
+$\varphi(n)$ (see [Fermat, Euler and Wilson](/7-number-theory/4_fermat-euler-and-wilson-theorems/))
+is multiplicative, which proves the product formula:
+
+$$
+n = p_1^{e_1} \cdots p_k^{e_k} \;\Longrightarrow\; \varphi(n) = \prod_{i=1}^{k} p_i^{e_i - 1}(p_i - 1).
+$$
+
+*Why.* $\varphi(p^e) = p^e - p^{e-1}$ (the non-coprime residues are exactly the $p^{e-1}$
+multiples of $p$), and multiplicativity handles coprime factors. Example:
+$\varphi(360) = \varphi(2^3)\varphi(3^2)\varphi(5) = 4 \cdot 6 \cdot 4 = 96$.
+
+### 6.3 Divisor Functions
+
+The **divisor function** $\tau(n)$ counts positive divisors; $\sigma(n)$ sums them. For
+$n = \prod p_i^{e_i}$:
+
+$$
+\tau(n) = \prod_{i} (e_i + 1), \qquad
+\sigma(n) = \prod_{i} \frac{p_i^{e_i + 1} - 1}{p_i - 1}.
+$$
+
+*Why.* Divisors choose one power of each prime; the geometric-series sum arises from multiplying
+out $\prod (1 + p_i + p_i^2 + \cdots + p_i^{e_i})$.
+
+Both are multiplicative. $n$ is **perfect** when $\sigma(n) = 2n$; the even perfect numbers are
+exactly $2^{p-1}(2^p - 1)$ with $2^p - 1$ prime (Euler, and the Mersenne connection).
+
+### 6.4 The Möbius Function
+
+$$
+\mu(n) = \begin{cases} 1 & n = 1 \\ 0 & p^2 \mid n \text{ for some prime } p \\ (-1)^k & n \text{ is a product of } k \text{ distinct primes} \end{cases}
+$$
+
+Key identity: $\sum_{d \mid n} \mu(d) = \varepsilon(n)$ (1 at $n=1$, else 0). The inversion theorem:
+
+$$
+g(n) = \sum_{d \mid n} f(d) \quad\Longleftrightarrow\quad f(n) = \sum_{d \mid n} \mu(d)\, g(n/d).
+$$
+
+**Classical application.** Since $\sum_{d \mid n} \varphi(d) = n$, Möbius inversion recovers
+$\varphi(n) = n \sum_{d \mid n} \mu(d)/d$ — the product formula drops out of the number-theoretic
+machinery instead of being assumed.
+
+### 6.5 The Divisor-Sum Identity for the GCD
+
+A standard exam theorem:
+
+$$
+\sum_{d \mid n} \varphi(d) = n.
+$$
+
+*Proof.* Partition the fractions $\frac{k}{n}$, $1 \leq k \leq n$, by reduced denominator:
+each reduces to $\frac{a}{d}$ in lowest terms with $d \mid n$, $\gcd(a, d) = 1$ — and there are
+exactly $\varphi(d)$ of those for each $d$. The classes exhaust the $n$ fractions. $\blacksquare$
+
+### 6.6 Worked Problems
+
+**Problem 1.** Compute $\tau(720)$, $\sigma(720)$ and $\varphi(720)$.
+
+$720 = 2^4 \cdot 3^2 \cdot 5$:
+
+- $\tau(720) = 5 \cdot 3 \cdot 2 = 30$
+- $\sigma(720) = (31)(13)(6) = 2418$
+- $\varphi(720) = 720(1 - \tfrac12)(1 - \tfrac13)(1 - \tfrac15) = 720 \cdot \tfrac{4}{15} = 192$
+
+**Problem 2.** How many $\gcd(a, 720) = 5$ pairs... i.e. how many integers $1 \leq a \leq 720$
+satisfy $\gcd(a, 720) = 5$?
+
+$\gcd(a, 720) = 5$ iff $a = 5b$ with $\gcd(b, 144) = 1$ and $5 \nmid b$. Count
+$b \leq 144$, $\gcd(b, 144) = 1$, $5 \nmid b$: $\varphi(144) = 48$ coprime values, of which those
+with $5 \mid b$... inclusion–exclusion: multiples of 5 that are coprime to 144:
+$b = 5c$, $c \leq 28$, $\gcd(c, 144) = 1$: count coprime $c$ to 144 up to 28 directly = 13.
+So $48 - 13 = 35$ values of $b$, giving $\gcd(a, 720) = 5$ for exactly 35 integers.
+
+### 6.7 Common Pitfalls
+
+- Multiplicativity needs **coprimality**: $\tau(12) = 6 \neq \tau(4)\tau(3) = 3 \cdot 2 = 6$ holds
+  by luck ($4$ and $3$ are coprime ✓) — but $\tau(8) = 4 \neq \tau(4)\tau(2) = 3 \cdot 2 = 6$
+  fails because $8 = 4 \cdot 2$ share the factor 2.
+- $\sigma$ vs $\sigma_0$: some books write $\sigma_k$ with $\sigma = \sigma_1$, $\tau = \sigma_0$.
+  Read conventions carefully.
+- Möbius values are 0 exactly when $n$ is divisible by a **square**; "square-free with $k$ prime
+  factors" gives $(-1)^k$.
+
+## See Also
+
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+- [Primitive Roots](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
+- [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
+A final sanity check: $\varphi(1) = 1$, $\tau(1) = \sigma(1) = 1$, and $\mu(1) = 1$ — the empty product conventions that keep every formula valid at $n = 1$.
+
+---
+
+## Congruences
+URL: https://mathematics.wyattau.com/7-number-theory/3_congruences/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Congruences", "url": "https://mathematics.wyattau.com/7-number-theory/congruences"}]
+}
+</script>
+
+### 3.1 Congruence Modulo n
+
+**Definition.** For integers $a, b$ and $n \geq 1$, $a$ is **congruent** to $b$ modulo $n$,
+written $a \equiv b \pmod n$, if $n \mid a - b$ — equivalently, $a$ and $b$ leave the same
+remainder on division by $n$.
+
+Congruence is an **equivalence relation**: reflexive ($a - a = 0$), symmetric, and transitive (if
+$n \mid a-b$ and $n \mid b-c$ then $n \mid a-c$). It partitions $\mathbb{Z}$ into $n$ residue
+classes $[0], [1], \ldots, [n-1]$, each containing all integers with the same remainder.
+
+### 3.2 Arithmetic Modulo n
+
+Congruences respect addition and multiplication: if $a \equiv b$ and $c \equiv d \pmod n$, then
+
+$$
+a + c \equiv b + d, \qquad a - c \equiv b - d, \qquad ac \equiv bd \pmod n.
+$$
+
+*Proof.* $n \mid (a-b) + (c-d) = (a+c)-(b+d)$ and
+$ac - bd = ac - bc + bc - bd = c(a-b) + b(c-d)$. $\blacksquare$
+
+Consequences: powers reduce freely — $a \equiv b \pmod n \Rightarrow a^k \equiv b^k$ — and
+polynomials with integer coefficients preserve congruence. This is what makes "reduce as you go"
+legal in exponent calculations.
+
+**Warning (division).** Congruence does **not** respect division in general: from
+$ac \equiv bc \pmod n$ you can conclude $a \equiv b \pmod{n/\gcd(c,n)}$, and only $a \equiv b$
+when $\gcd(c, n) = 1$. For example $6 \equiv 0 \pmod 3$ and $3 \equiv 0 \pmod 3$, but $2 \not\equiv 0$.
+
+### 3.3 The Ring $\mathbb{Z}/n\mathbb{Z}$
+
+The residue classes form a commutative ring with identity $[1]$ under class addition and
+multiplication. A class $[a]$ is **invertible** (a unit) precisely when $\gcd(a, n) = 1$, in which
+case the extended Euclidean algorithm gives $ax + ny = 1$, so $ax \equiv 1 \pmod n$; the inverse is
+the class of $x \bmod n$. The units form a group of order $\varphi(n)$ — see
+[Arithmetic Functions](/7-number-theory/6_arithmetic-functions/).
+
+When $n = p$ is prime, every nonzero class is invertible, so $\mathbb{Z}/p\mathbb{Z}$ is a **field**.
+
+### 3.4 Reducing Exponents
+
+Any power tower collapses modulo $n$ by reducing the base modulo $n$ first, and the exponent via
+Euler/Fermat when the base is invertible:
+
+- Last digit of $7^{2026}$: $7^k \pmod{10}$ cycles $7, 9, 3, 1$ with period 4; since
+  $2026 \equiv 2 \pmod 4$, the answer is $9$.
+- $2^{10} = 1024 \equiv 24 \pmod{100}$, so the last two digits of $2^{2026}$ follow from
+  $2026 \bmod 20 = 6$: $2^6 = 64$.
+
+Carmichael's theorem refines the exponent period to $\lambda(n)$, and the order of an element
+divides $\lambda(n)$ — worth stating in a proof-based answer.
+
+### 3.5 Worked Problems
+
+**Problem 1.** Show that $2^{4n} \equiv 1 \pmod{17}$ whenever $n$ is even.
+
+$2^4 = 16 \equiv -1 \pmod{17}$, so $2^{4n} \equiv (-1)^n$: the claim holds for even $n$, while
+odd $n$ gives $-1$. In fact $2^8 = 256 = 15 \cdot 17 + 1 \equiv 1 \pmod{17}$, so the order of 2
+modulo 17 is exactly 8.
+
+**Problem 2.** Find the remainder of $3^{100}$ on division by 7.
+
+$3^1 \equiv 3$, $3^2 \equiv 2$, $3^3 \equiv 6$, $3^6 \equiv 1 \pmod 7$ (the order of 3 is 6).
+Since $100 \equiv 4 \pmod 6$: $3^{100} \equiv 3^4 = 81 \equiv 4 \pmod 7$.
+
+**Problem 3.** Prove that no integer of the form $4k + 3$ is a sum of two squares.
+
+Squares mod 4 are 0 and 1, so a sum of two squares is $0, 1$ or $2 \pmod 4$ — never 3.
+
+### 3.6 Common Pitfalls
+
+- Subtracting congruences across **different moduli**: $a \equiv b \pmod 6$ and $a \equiv b \pmod 4$
+  gives $a \equiv b \pmod{\mathrm{lcm}(6,4)} = \pmod{12}$, not mod 3 or 24.
+- Exponent reduction requires $\gcd(\text{base}, n) = 1$ (Euler) or knowledge of the element's
+  order; otherwise reduce only the base.
+- In $\mathbb{Z}/n\mathbb{Z}$ there are zero divisors when $n$ is composite:
+  $[2]\cdot[3] = [0]$ in $\mathbb{Z}/6\mathbb{Z}$ — products can vanish without a zero factor.
+
+## See Also
+
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+- [Linear Congruences and the Chinese Remainder Theorem](/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+### 3.x A Supply-and-Demand Check
+
+Residue classes are preserved by polynomial evaluation: if $a \equiv b \pmod n$ then $f(a) \equiv f(b) \pmod n$ for any integer polynomial $f$. Verify for $f(x) = x^2 + x + 1$ with $a = 2$, $b = 5$, $n = 3$ before using it in proofs.
+
+
+$$
+a \equiv b \pmod n, \quad c \equiv d \pmod n \Longrightarrow ac \equiv bd \pmod n
+$$
+
+The multiplicative property is what powers fast exponentiation: reduce the base once, then
+multiply reduced residues. In exams, reduce after every multiplication to keep numbers small; the
+marker expects reduced residues, not 30-digit intermediates.
+
+A standard application: divisibility tests. The rule for 11 follows from $10 \equiv -1
+\pmod{11}$, so a decimal number alternately sums its digits. Reproduce this derivation once and
+the rule is yours forever.
+
+A final check worth one mark: reduce every intermediate result immediately, and state the residue class, e.g. "the answer is the class of 4 modulo 7", rather than only the integer.
+For multi-step reductions, tabulate powers as you go: the table of $a$, $a^2$, $a^4$, $a^8$ modulo $n$ converts any exponent to its binary form and avoids every overflow risk.
+
+### 3.7 A Closing Worked Reduction
+
+Reduce $11^{21} \pmod{13}$: Fermat gives $11^{12} \equiv 1$, so $11^{21} \equiv 11^9$.
+Now $11^2 = 121 \equiv 4$, $11^4 \equiv 16 \equiv 3$, $11^8 \equiv 9$, and $11^9 \equiv 9 \cdot 11 = 99 \equiv 8 \pmod{13}$.
+
+---
+
+## Continued Fractions
+URL: https://mathematics.wyattau.com/7-number-theory/11_continued-fractions/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Continued Fractions", "url": "https://mathematics.wyattau.com/7-number-theory/continued-fractions"}]
+}
+</script>
+
+### 11.1 Finite Continued Fractions
+
+**Definition.** For integers $a_0, a_1, \ldots, a_n$ with $a_i > 0$ for $i \geq 1$,
+
+$$
+[a_0; a_1, a_2, \ldots, a_n] = a_0 + \cfrac{1}{a_1 + \cfrac{1}{a_2 + \cdots + \cfrac{1}{a_n}}}
+$$
+
+Every rational number has exactly two such expansions — the last term must exceed 1, and one of
+$[a_0; \ldots, a_n]$ vs $[a_0; \ldots, a_n - 1, 1]$ is chosen by convention:
+
+$$
+\frac{43}{19} = [2; 3, 1, 4]: \quad 43/19 = 2 + \tfrac{5}{19},\; 19/5 = 3 + \tfrac45,\; 5/4 = 1 + \tfrac14,\; 4.
+$$
+
+### 11.2 Convergents
+
+The **convergents** $p_k/q_k = [a_0; a_1, \ldots, a_k]$ satisfy the recurrences
+
+$$
+p_k = a_k p_{k-1} + p_{k-2}, \qquad q_k = a_k q_{k-1} + q_{k-2},
+$$
+
+with $p_{-1} = 1, p_0 = a_0$, $q_{-1} = 0, q_0 = 1$. Two classical identities:
+
+$$
+p_k q_{k-1} - p_{k-1} q_k = (-1)^{k-1}, \qquad p_k q_{k-2} - p_{k-2} q_k = (-1)^k a_k.
+$$
+
+Convergents are **best rational approximations**: $p_k/q_k$ is closer to the true value than any
+fraction with denominator $\leq q_k$. This is why continued fractions convert decimal approximations
+into "likely" rationals — a standard exam task (feed $\pi \approx 3.14159$ and recover $22/7$,
+$355/113$).
+
+### 11.3 Infinite Continued Fractions
+
+For irrational $\alpha$ the expansion is infinite and the convergents converge to $\alpha$
+(monotone even/odd subsequences, with $|p_k/q_k - \alpha| < \frac{1}{q_k q_{k+1}}$).
+
+Irrational **quadratic** surds have **eventually periodic** expansions — and conversely:
+
+$$
+\sqrt{7} = [2; \overline{1, 1, 1, 4}], \qquad \sqrt{13} = [3; \overline{1, 1, 1, 1, 6}].
+$$
+
+This is the algorithmic heart of Pell's equation
+([Pell's Equation and Sums of Squares](/7-number-theory/9_sums-of-squares-and-pells-equation/)):
+period length parity decides solvability of $x^2 - Dy^2 = \pm 1$, and convergents at period
+boundaries are the solutions.
+
+The most famous infinite expansion:
+
+$$
+e = [2; 1, 2, 1, 1, 4, 1, 1, 6, 1, \ldots], \qquad \pi \text{ has no known pattern}.
+$$
+
+### 11.4 Worked Problems
+
+**Problem 1.** Expand $\sqrt{2} = [1; \overline{2}]$.
+
+Let $x = 1 + \frac{1}{x}$ (the periodic self-similarity: $\sqrt 2 = 1 + (\sqrt 2 - 1)$ and
+$\sqrt 2 + 1 = 1/\left(\sqrt 2 - 1\right)$). Then $x^2 = x + 1$, so $x = \frac{1+\sqrt5}{2}$ —
+the **golden ratio** $\varphi = [1; 1, 1, \ldots]$: the "slowest" continued fraction, and why its
+convergents (Fibonacci ratios) are the worst approximable numbers. For $\sqrt 2$:
+$x = [1;\overline 2]$ follows from $x = 1 + \frac{1}{2 + \frac{1}{x - 1}}$-style substitution —
+compute the expansion directly by the standard algorithm:
+
+$a_0 = 1$, $m_1 = 1$, $d_1 = 1$, $a_1 = \lfloor (1 + 1)/1 \rfloor = 2$; iterate
+$m_{k+1} = d_k a_k - m_k$, $d_{k+1} = (D - m_{k+1}^2)/d_k$, $a_{k+1} = \lfloor (a_0 + m_{k+1})/d_{k+1} \rfloor$.
+
+**Problem 2.** Compute convergents of $[1; 2, 2, 2]$ and bound the error.
+
+$p_0/q_0 = 1/1$, $p_1/q_1 = 3/2$, $p_2/q_2 = 7/5$, $p_3/q_3 = 17/12$; check
+$17/12 = 1.41\overline{6}$ vs $\sqrt 2 = 1.41421\ldots$ — error $< \frac{1}{12 \cdot 29}$ by the
+identity $p_3 q_2 - p_2 q_3 = (-1)^3$.
+
+### 11.5 Common Pitfalls
+
+- Every finite expansion terminates in a rational: irrationals have **infinite** expansions.
+- Convergent denominators grow at least like Fibonacci numbers (all $a_k = 1$ worst case, golden
+  ratio) — quoting this justifies "best approximation" claims.
+- Periodic expansions detect **degree-2** irrationals exactly: $\sqrt[3]{2}$ is neither rational
+  nor quadratic, so its expansion is aperiodic — do not claim periodicity for cube roots.
+- The final partial quotient convention: forbid $a_n = 1$ in canonical form or you get two valid
+  expansions and inconsistent convergent tables.
+
+## See Also
+
+- [Pell's Equation and Sums of Squares](/7-number-theory/9_sums-of-squares-and-pells-equation/)
+- [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
+- [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
+
+
+$$
+\left| \alpha - \frac{p_k}{q_k} \right| < \frac{1}{q_k q_{k+1}} \leq \frac{1}{q_k^2}
+$$
+
+This bound is the theorem behind "best rational approximation": every convergent beats every
+fraction with a smaller denominator. A typical exam question supplies a decimal expansion and a
+denominator bound and asks you to recover the fraction; the method is to expand the decimal as a
+continued fraction and stop at the last convergent within the bound.
+
+For periodic expansions, quote the structure: $\sqrt{D}$ has partial quotients generated by the
+recurrence on $m_k, d_k, a_k$, the period begins at $a_1$, and the last term of the period is
+always $2a_0$. Citing these facts precisely earns the method marks even when the arithmetic is
+long.
+
+---
+
+## Distribution Of Primes
+URL: https://mathematics.wyattau.com/7-number-theory/10_distribution-of-primes/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "The Distribution of Primes", "url": "https://mathematics.wyattau.com/7-number-theory/distribution-of-primes"}]
+}
+</script>
+
+### 10.1 The Prime Counting Function
+
+**Definition.** $\pi(x)$ counts the primes $\leq x$: $\pi(10) = 4$, $\pi(100) = 25$,
+$\pi(1000) = 168$.
+
+The primes become sparser on average but never stop. The density near $x$ behaves like
+$1/\ln x$ — the heuristic at the heart of everything below: a random integer near $x$ is prime
+with "probability" about $1/\ln x$.
+
+### 10.2 Bertrand's Postulate
+
+**Theorem (Bertrand).** For every integer $n > 1$ there is a prime $p$ with
+$n < p < 2n$.
+
+*Proof idea (Erdős's elementary argument).* Consider the prime factorisation of the central
+binomial coefficient $\binom{2n}{n}$; its size ($\geq 4^n/(2n+2)$ by elementary bounds) versus the
+product of prime powers below $2n$ forces at least one prime $p$ with $n < p < 2n$ to divide it —
+such a prime divides the coefficient exactly once, contributing a large factor. $\blacksquare$
+
+Immediate corollaries examinable at this level: there is always a prime between $n$ and $2n$, so
+$p_{k+1} < 2 p_k$ for the $k$-th prime, and hence $p_k < 2^k$.
+
+### 10.3 Dirichlet's Theorem
+
+**Theorem (Dirichlet, 1837).** If $\gcd(a, m) = 1$, the arithmetic progression
+$a, a+m, a+2m, \ldots$ contains infinitely many primes.
+
+Examples: infinitely many primes $\equiv 3 \pmod 4$ (there is also an elementary Euclid-style
+proof for this special case); infinitely many primes ending in ...001 (i.e. $1 \pmod{1000}$).
+The general theorem needs complex analysis (L-functions) — quote it, do not prove it, unless the
+course covers Dirichlet characters.
+
+Special case worth knowing: the Euclid-style proof of infinitely many primes $\equiv 3 \pmod 4$
+— suppose $p_1, \ldots, p_k$ are all of them, set $N = 4 p_1 \cdots p_k - 1$; every prime factor
+of $N$ is $\equiv 3 \pmod 4$ (products of numbers $\equiv 1 \bmod 4$ are $1 \bmod 4$) and cannot
+be among the $p_i$, contradiction.
+
+### 10.4 The Prime Number Theorem
+
+**Theorem (Hadamard, de la Vallée Poussin, 1896).**
+
+$$
+\pi(x) \sim \frac{x}{\ln x}, \qquad \text{i.e.} \qquad \lim_{x \to \infty} \frac{\pi(x)}{x/\ln x} = 1.
+$$
+
+Consequences quotable at this level:
+
+- The $n$-th prime satisfies $p_n \sim n \ln n$.
+- The average gap between consecutive primes near $x$ is about $\ln x$.
+- The probability that a random integer near $x$ is prime is about $1/\ln x$.
+
+Refinements: the logarithmic integral $\mathrm{Li}(x) = \int_2^x \frac{dt}{\ln t}$ is a better
+approximation, and the **Riemann Hypothesis** asserts the error is
+$O(\sqrt{x} \ln x)$ — the most famous open problem in mathematics.
+
+### 10.5 Exam-Level Estimates
+
+Without the PNT, elementary bounds still yield marks:
+
+- **Euclid-style lower bound** on $\pi(x)$: $\pi(2^k) \geq k$ (Bertrand repeatedly).
+- **Euler product** (heuristic and provable in the form
+  $\sum_{n \leq x} 1/n \approx \prod_{p \leq x} (1 - 1/p)^{-1}$): taking logarithms relates the
+  harmonic series divergence to the divergence of $\sum 1/p$ — the standard route to proving
+  $\sum_{p} 1/p = \infty$ by elementary means (Euler).
+- Typical structured question: use $\pi(x)$ data to estimate $\pi(10^6) \approx 10^6/\ln 10^6
+\approx 72382$ against the true value 78498, and comment on the systematic overestimate of the
+  naive estimate versus $\mathrm{Li}$.
+
+### 10.6 Common Pitfalls
+
+- $\pi(x) \sim x/\ln x$ is an **asymptotic** statement: relative error tends to 0, but the
+  absolute error $\pi(x) - x/\ln x$ grows.
+- Bertrand gives a prime below $2n$, **not** below $n + c$ for fixed $c$.
+- Dirichlet's theorem requires $\gcd(a, m) = 1$: no primes $\equiv 0 \pmod m$ beyond $m$ itself,
+  and primes $\equiv 2 \pmod 4$ beyond 2 — coprimality is necessary for infinitude.
+
+## See Also
+
+- [Primes and the Fundamental Theorem of Arithmetic](/7-number-theory/2_primes-and-the-fundamental-theorem-of-arithmetic/)
+- [Quadratic Residues](/7-number-theory/8_quadratic-residues/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+### 10.x Worked Estimate
+
+Estimate $\pi(10^8)$ using $x/\ln x$ and $\mathrm{Li}(x)$: $10^8/\ln 10^8 \approx 5{,}428{,}681$ against the true $\pi(10^8) = 5{,}761{,}455$; $\mathrm{Li}(10^8) \approx 5{,}762{,}209$ is dramatically closer. Comment on why $\mathrm{Li}$ stays closer for every measurable $x$.
+
+
+$$
+\pi(x) \approx \frac{x}{\ln x - 1}
+$$
+
+The shifted approximation is better over all practical ranges: at $x = 10^9$ the naive estimate
+overshoots by about 6%, the shifted one by under 0.1%. Typical structured questions ask you to
+compute both estimates and to explain why the logarithmic integral dominates.
+
+A second standard question type: given $\pi(100) = 25$ and $\pi(200) = 46$, estimate the number
+of primes between 100 and 200 as $\frac{200}{\ln 200} - \frac{100}{\ln 100} \approx 46 - 25
+= 21$, and note that direct counting gives 21 — interval estimates are already accurate at this
+size. Close by stating Bertrand: there is always a prime in any such interval of the form
+$(n, 2n)$.
+
+A closing remark for exams: quote $\pi(2^{20})$-style data accurately if the question supplies it, and never round intermediate logarithms — the marker scheme penalises premature rounding far more than the final answer.
+A useful sanity check for estimates: $\pi(x)$ increases by exactly 1 at each prime, so any approximation must stay constant between primes — quote this when explaining why pointwise error is unavoidable.
+
+---
+
+## Divisibility And Euclidean Algorithm
+URL: https://mathematics.wyattau.com/7-number-theory/1_divisibility-and-euclidean-algorithm/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Divisibility and the Euclidean Algorithm", "url": "https://mathematics.wyattau.com/7-number-theory/divisibility-and-euclidean-algorithm"}]
+}
+</script>
+
+### 1.1 Divisibility
+
+**Definition.** For integers $a$ and $b$ with $a \neq 0$, we say $a$ **divides** $b$, written
+$a \mid b$, if there exists an integer $k$ such that $b = ak$.
+
+**Elementary properties.** For integers $a, b, c$:
+
+1. $a \mid a$ (reflexivity) and $1 \mid a$ (1 divides everything).
+2. If $a \mid b$ and $b \mid a$ then $a = \pm b$ (antisymmetry up to sign).
+3. If $a \mid b$ and $b \mid c$ then $a \mid c$ (transitivity).
+4. If $a \mid b$ and $a \mid c$ then $a \mid (bx + cy)$ for all integers $x, y$: divisibility is
+   preserved under **integer linear combinations**.
+
+Property 4 is the engine of most elementary proofs: to show $n \mid f(n) - g(n)$, show $n$ divides
+each term separately.
+
+### 1.2 The Division Algorithm
+
+**Theorem (Division Algorithm).** For integers $a$ and $b$ with $b > 0$, there exist **unique**
+integers $q$ (quotient) and $r$ (remainder) such that
+
+$$a = bq + r, \qquad 0 \leq r < b.$$
+
+*Proof of existence.* Choose $q$ to be the largest integer with $bq \leq a$ (the floor $\lfloor a/b
+\rfloor$) and set $r = a - bq$. Then $r \geq 0$ by maximality, and if $r \geq b$ then
+$a - b(q+1) = r - b \geq 0$ contradicts the maximality of $q$.
+
+*Proof of uniqueness.* Suppose $a = bq_1 + r_1 = bq_2 + r_2$ with both remainders in
+$[0, b)$. Then $b(q_1 - q_2) = r_2 - r_1$, so $b$ divides $r_2 - r_1$. But
+$|r_2 - r_1| < b$, forcing $r_2 = r_1$ and hence $q_1 = q_2$. $\blacksquare$
+
+The remainder $r$ is written $a \bmod b$. Reducing every integer modulo $b$ partitions
+$\mathbb{Z}$ into $b$ **residue classes** — the foundational idea of modular arithmetic
+(see [Congruences](/7-number-theory/3_congruences/)).
+
+### 1.3 The Greatest Common Divisor
+
+**Definition.** For integers $a, b$ not both zero, the **greatest common divisor**
+$\gcd(a, b)$ is the largest positive integer dividing both.
+
+**Theorem (Bézout's identity).** $\gcd(a, b)$ is the **smallest positive** value of the linear
+combination $ax + by$ over all integers $x, y$; in particular there exist integers $x, y$ with
+
+$$ax + by = \gcd(a, b).$$
+
+*Proof sketch.* The set $S = \{ax + by > 0\}$ is non-empty (take $x = a$, $y = b$ when not both
+zero). Let $d$ be its least element, $d = ax_0 + by_0$. Any common divisor of $a, b$ divides $d$;
+conversely, dividing $a$ by $d$ with the division algorithm gives a remainder $a - qd$ which is
+*also* an element of $S$, so by minimality the remainder is zero: $d \mid a$. Similarly
+$d \mid b$. Hence $d$ is a common divisor divisible by every common divisor, i.e. the greatest. $\blacksquare$
+
+**Consequences.**
+
+- $\gcd(a, b) \mid$ every integer combination of $a$ and $b$.
+- $a$ and $b$ are **coprime** ($\gcd(a,b) = 1$) if and only if $ax + by = 1$ is solvable.
+- If $a \mid bc$ and $\gcd(a, b) = 1$, then $a \mid c$ (**Euclid's lemma**) — the key step in
+  proving unique factorisation.
+
+### 1.4 The Euclidean Algorithm
+
+Repeatedly apply the division algorithm:
+
+$$
+a = bq_1 + r_1,\quad b = r_1q_2 + r_2,\quad r_1 = r_2q_3 + r_3,\ \ldots
+$$
+
+The remainders strictly decrease and stay non-negative, so the algorithm terminates; the last
+non-zero remainder is $\gcd(a, b)$, because
+$\gcd(a, b) = \gcd(b, r_1) = \gcd(r_1, r_2) = \cdots$.
+
+**Worked example.** $\gcd(252, 198)$:
+
+$$
+252 = 198 \cdot 1 + 54,\qquad 198 = 54 \cdot 3 + 36,\qquad 54 = 36 \cdot 1 + 18,\qquad 36 = 18 \cdot 2 + 0.
+$$
+
+So $\gcd(252, 198) = 18$.
+
+### 1.5 The Extended Euclidean Algorithm
+
+Back-substitute to obtain Bézout coefficients. From the example above:
+
+$$
+18 = 54 - 36 = 54 - (198 - 54 \cdot 3) = 4 \cdot 54 - 198 = 4(252 - 198) - 198 = 4 \cdot 252 - 5 \cdot 198.
+$$
+
+So $x = 4$, $y = -5$: indeed $4 \cdot 252 - 5 \cdot 198 = 18$.
+
+The extended algorithm is constructive and runs in $O(\log(\min(a,b)))$ arithmetic steps — and the
+number of steps is bounded by roughly five times the number of decimal digits of $b$ (Lamé's
+theorem, via Fibonacci numbers: the worst case is consecutive Fibonacci pairs).
+
+### 1.6 Common Pitfalls
+
+- The division algorithm requires $0 \leq r < b$ with $b > 0$: for negative $a$, adjust the
+  quotient rather than allowing a negative remainder.
+- $\gcd(0, 0)$ is undefined (every integer divides 0); $\gcd(a, 0) = |a|$.
+- Bézout coefficients are **not unique**: $(x + tb, y - ta)$ works for every integer $t$. Exams
+  ask for *a* pair, or the pair with $|x|$ minimal.
+- Cancelling in congruences: from $ac \equiv bc \pmod n$ you may cancel $c$ only if
+  $\gcd(c, n) = 1$ — Euclid's lemma in disguise.
+
+## See Also
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Primes and the Fundamental Theorem of Arithmetic](/7-number-theory/2_primes-and-the-fundamental-theorem-of-arithmetic/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+---
+
+## Fermat Euler And Wilson Theorems
+URL: https://mathematics.wyattau.com/7-number-theory/4_fermat-euler-and-wilson-theorems/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Fermat, Euler and Wilson Theorems", "url": "https://mathematics.wyattau.com/7-number-theory/fermat-euler-and-wilson-theorems"}]
+}
+</script>
+
+### 4.1 Fermat's Little Theorem
+
+**Theorem (Fermat).** If $p$ is prime and $p \nmid a$, then
+
+$$a^{p-1} \equiv 1 \pmod p.$$
+
+Equivalently, for *every* integer $a$ (including multiples of $p$): $a^p \equiv a \pmod p$.
+
+*Proof.* The products $a, 2a, \ldots, (p-1)a$ are all distinct modulo $p$ (if $ia \equiv ja$ then
+$p \mid (i-j)a$, and $p \nmid a$, so $p \mid i - j$ with $|i - j| < p$). They are therefore a
+permutation of $1, 2, \ldots, p-1$ modulo $p$. Multiplying the $p-1$ congruences
+$ia \equiv k_i$ together gives
+
+$$a^{p-1}(p-1)! \equiv (p-1)! \pmod p,$$
+
+and since $p \nmid (p-1)!$ we may cancel the factorial. $\blacksquare$
+
+**Uses.** Exponent reduction modulo a prime ($a^{100} \pmod 7$: reduce the exponent mod 6), and
+the primality test $a^{n-1} \not\equiv 1 \pmod n$ certifies $n$ **composite** (the converse fails:
+Carmichael numbers satisfy Fermat for *every* base $a$ coprime to $n$; 561 is the smallest).
+
+### 4.2 Euler's Totient Function and Euler's Theorem
+
+**Definition.** $\varphi(n)$ counts the integers in $\{1, \ldots, n\}$ that are coprime to $n$.
+
+Key values and formulas:
+
+- $\varphi(p) = p - 1$ for prime $p$; $\varphi(p^k) = p^k - p^{k-1} = p^k(1 - 1/p)$.
+- $\varphi$ is **multiplicative**: $\gcd(m,n) = 1 \Rightarrow \varphi(mn) = \varphi(m)\varphi(n)$.
+- If $n = p_1^{e_1} \cdots p_k^{e_k}$, then
+  $\varphi(n) = n \prod_{i} \left(1 - \frac{1}{p_i}\right)$.
+
+**Theorem (Euler).** If $\gcd(a, n) = 1$ then
+
+$$a^{\varphi(n)} \equiv 1 \pmod n.$$
+
+*Proof.* The units of $\mathbb{Z}/n\mathbb{Z}$ form a group of order $\varphi(n)$; multiplying all
+units by $a$ permutes the group (cancellation by the unit $a$), and multiplying the permuted
+products gives $a^{\varphi(n)} \cdot (\text{product of units}) \equiv (\text{product of units})$;
+cancel. $\blacksquare$
+
+Fermat is the special case $n = p$, $\varphi(p) = p-1$. Euler also handles composite moduli:
+$3^{100} \pmod{10}$ has $\varphi(10) = 4$, $100 \equiv 0 \pmod 4$... careful — reduce
+$100 = 4 \cdot 25$, so $3^{100} = (3^4)^{25} \equiv 1^{25} = 1 \pmod{10}$.
+
+**Negative and large exponents.** When $\gcd(a, n) = 1$ the inverse of $a^e$ is $a^{\varphi(n)-e}$:
+compute $7^{-1} \pmod{20}$ as $7^{\varphi(20)-1} = 7^{7}$, or directly via the extended Euclidean
+algorithm ($7 \cdot 3 = 21 \equiv 1$, so $7^{-1} \equiv 3$).
+
+### 4.3 Wilson's Theorem
+
+**Theorem (Wilson).** For $p > 1$:
+
+$$
+(p-1)! \equiv -1 \pmod p \iff p \text{ is prime.}
+$$
+
+*Proof ($\Rightarrow$).* Pair each $k \in \{1, \ldots, p-1\}$ with its inverse modulo $p$. Only 1
+and $p-1$ are their own inverses ($k^2 \equiv 1$ means $p \mid (k-1)(k+1)$, so $k \equiv \pm 1$).
+The remaining $p - 3$ elements pair off into inverse pairs with product 1, leaving
+$(p-1)! \equiv 1 \cdot (p-1) \equiv -1$. $\blacksquare$
+
+($\Leftarrow$ is a nice exercise: if $(n-1)! \equiv -1 \pmod n$ then every proper divisor of $n$
+cancels in $(n-1)!$, so $n$ has no proper divisor $> 1$.)
+
+**Applications.**
+
+- $(p-2)! \equiv 1 \pmod p$: multiply Wilson by $p - 1 \equiv -1$.
+- Wilson gives the classical formula for the number of ways to order a complete residue system,
+  and certifies primality — though it is useless as a practical test (factorials are enormous).
+
+### 4.4 Worked Problems
+
+**Problem 1.** Find the remainder of $2^{500}$ on division by 13.
+
+$\varphi(13) = 12$ and $500 = 12 \cdot 41 + 8$, so $2^{500} \equiv 2^8 = 256 \equiv 9 \pmod{13}$.
+
+**Problem 2.** Show $30 \mid n^5 - n$ for every integer $n$.
+
+$n^5 - n = n(n^4 - 1)$. Fermat for 2, 3 and 5: $n^5 \equiv n \pmod p$ for $p = 2, 3, 5$ (directly
+or by $n^5 - n = n(n^4-1)$ and $p - 1 \mid 4$ for $p \in \{2,3,5\}$... more precisely
+$p - 1 \in \{1, 2, 4\}$ all divide 4). Since 2, 3, 5 are pairwise coprime, their product 30 divides
+$n^5 - n$.
+
+**Problem 3.** Solve $4^{340} \pmod{341}$ where $341 = 11 \cdot 31$.
+
+Fermat for 11: $4^{10} \equiv 1$, and $340 = 34 \cdot 10$, so $4^{340} \equiv 1 \pmod{11}$.
+Fermat for 31: $4^{30} \equiv 1$, and $340 \equiv 10 \pmod{30}$, so
+$4^{340} \equiv 4^{10} = 1048576$. Then $1048576 = 33824 \cdot 31 + 12$, so $4^{340} \equiv 12
+\pmod{31}$. Combine by CRT (see the next page): the answer is congruent to 1 mod 11 and 12 mod 31.
+(341 is a Poulet number: $4^{340} \equiv 1 \pmod{341}$ despite being composite.)
+
+### 4.5 Common Pitfalls
+
+- Fermat requires **prime** modulus and (in the $a^{p-1}$ form) $\gcd(a, p) = 1$.
+- Euler requires **coprimality**: $2^{100} \pmod{12}$ cannot be reduced with $\varphi(12) = 4$
+  because $\gcd(2, 12) \neq 1$. Instead track the residue directly ($2^{100} \equiv 0 \pmod 4$ and
+  $2^{100} \equiv 4 \pmod 3$, giving $8 \equiv 8 \pmod{12}$ by CRT).
+- $\varphi$ is **not** multiplicative when $\gcd(m, n) \neq 1$:
+  $\varphi(8) = 4 \neq \varphi(4)\varphi(2) = 4$ is fine, but
+  $\varphi(4)\varphi(2) = 2 \cdot 1 = 2 \neq \varphi(8) = 4$ shows the multiplication rule breaks
+  without coprimality.
+- Wilson is an **iff**: the failure direction is a legitimate one-line primality *certificate*.
+
+## See Also
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+---
+
 ## Flashcards Number Theory
 URL: https://mathematics.wyattau.com/7-number-theory/flashcards-number-theory/
 
@@ -30759,124 +31487,312 @@ Ensure you have mastered the prerequisite material before attempting this advanc
 ## Index
 URL: https://mathematics.wyattau.com/7-number-theory/
 
-sources:
-  - text: Spivak - Calculus
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}]
+}
+</script>
+
+## Number Theory
+
+> **Info:** University module — from the Euclidean algorithm to RSA.
+>
+Number theory is the arithmetic of the integers: primes, divisibility, congruences, and the deep
+structure hiding behind them. It is the oldest branch of mathematics and the foundation of modern
+cryptography. This module builds the theory from first principles (divisibility and Bézout) to
+public-key encryption (RSA, Diffie–Hellman).
+
+## Module Structure
+
+### Foundations
+
+1. [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/) — division algorithm, gcd, Bézout, extended Euclid
+2. [Primes and the Fundamental Theorem of Arithmetic](/7-number-theory/2_primes-and-the-fundamental-theorem-of-arithmetic/) — Euclid's infinitude proof, unique factorisation, divisor counting
+
+### Congruence Arithmetic
+
+3. [Congruences](/7-number-theory/3_congruences/) — residue classes, the ring $\mathbb{Z}/n\mathbb{Z}$, exponent reduction
+4. [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/) — exponent reduction laws, the totient, primality certificates
+5. [Linear Congruences and the Chinese Remainder Theorem](/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/) — solvability, CRT with proof, non-coprime systems
+
+### Structure of the Multiplicative Group
+
+6. [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/) — $\varphi$, $\tau$, $\sigma$, $\mu$, multiplicativity, Möbius inversion
+7. [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/) — element orders, indices, which moduli have primitive roots
+
+### Quadratic and Diophantine Theory
+
+8. [Quadratic Residues](/7-number-theory/8_quadratic-residues/) — Euler's criterion, Legendre symbol, quadratic reciprocity
+9. [Pell's Equation and Sums of Squares](/7-number-theory/9_sums-of-squares-and-pells-equation/) — continued-fraction solutions, two-square and four-square theorems
+
+### The Big Picture
+
+10. [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/) — Bertrand, Dirichlet, the Prime Number Theorem
+11. [Continued Fractions](/7-number-theory/11_continued-fractions/) — convergents, best approximations, periodic expansions
+12. [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/) — RSA, Diffie–Hellman, ElGamal
+
+## Prerequisites
+
+Comfort with proof by induction and contradiction. Everything else is built in-module from the
+division algorithm onward.
+
+## Assessment Alignment
+
+- **Computation**: Euclidean algorithm, modular exponentiation, CRT reconstructions
+- **Proof**: Euclid's lemma, Fermat and Euler theorems, CRT uniqueness, quadratic reciprocity
+- **Applications**: linear congruence systems, primality testing, RSA and Diffie–Hellman
+
+## See Also
+
+- [Number Theory Flashcards](flashcards-number-theory)
+- [Number Theory Practice Problems](practice-number-theory)
+- [Probability and Statistics](/8-probability-and-statistics/)
+
+---
+
+## Linear Congruences And The Chinese Remainder Theorem
+URL: https://mathematics.wyattau.com/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Index", "url": "https://mathematics.wyattau.com/7-number-theory/index"}]
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Linear Congruences and the Chinese Remainder Theorem", "url": "https://mathematics.wyattau.com/7-number-theory/linear-congruences-and-the-chinese-remainder-theorem"}]
 }
 </script>
 
-<!-- Course Schema for SEO -->
+### 5.1 Solving $ax \equiv b \pmod n$
+
+**Theorem.** The congruence $ax \equiv b \pmod n$ is solvable if and only if
+$\gcd(a, n) \mid b$. When solvable, there are exactly $\gcd(a, n)$ incongruent solutions modulo
+$n$.
+
+*Method.* Let $d = \gcd(a, n)$. Dividing through by $d$ reduces to
+
+$$
+a' x \equiv b' \pmod{n'}, \qquad a' = a/d,\; b' = b/d,\; n' = n/d, \qquad \gcd(a', n') = 1,
+$$
+
+whose solution is $x \equiv b' \cdot (a')^{-1} \pmod{n'}$ with the inverse from the extended
+Euclidean algorithm. Modulo $n$ the full solution set is
+$x \equiv x_0 + k n' \pmod n$, $k = 0, \ldots, d-1$.
+
+**Worked example.** Solve $6x \equiv 15 \pmod{21}$.
+
+$d = \gcd(6, 21) = 3$ and $3 \mid 15$, so there are 3 solutions modulo 21. Divide:
+$2x \equiv 5 \pmod 7$. Since $2 \cdot 4 = 8 \equiv 1 \pmod 7$, the inverse of 2 is 4:
+$x \equiv 20 \equiv 6 \pmod 7$. Modulo 21 the solutions are $x \equiv 6, 13, 20 \pmod{21}$.
+
+### 5.2 The Chinese Remainder Theorem
+
+**Theorem (CRT).** Let $m_1, m_2$ be coprime. Then the system
+
+$$
+x \equiv a_1 \pmod{m_1}, \qquad x \equiv a_2 \pmod{m_2}
+$$
+
+has a unique solution modulo $m_1 m_2$.
+
+*Proof.* Existence: set $M = m_1 m_2$, $M_1 = m_2$, $M_2 = m_1$. Since $\gcd(M_1, m_1) = 1$, let
+$y_1$ be the inverse of $M_1$ modulo $m_1$ (extended Euclid). Then
+
+$$
+x_0 = a_1 M_1 y_1 + a_2 M_2 y_2, \qquad M_2 y_2 \equiv 1 \pmod{m_2}
+$$
+
+satisfies both congruences: modulo $m_1$, every term containing $M_2 = m_1$ vanishes and
+$M_1 y_1 \equiv 1$; modulo $m_2$ symmetrically.
+
+Uniqueness: if $x_1 \equiv x_2$ modulo both $m_1$ and $m_2$ then $m_1 m_2 \mid x_1 - x_2$
+(coprimality). $\blacksquare$
+
+**Worked example.** Solve $x \equiv 2 \pmod 3$, $x \equiv 3 \pmod 5$, $x \equiv 2 \pmod 7$
+(Sunzi's original problem, ~4th century CE).
+
+$M = 105$. $M_1 = 35$, $M_2 = 21$, $M_3 = 15$. Inverses: $35 \equiv 2 \pmod 3$, $2^{-1} = 2$;
+$21 \equiv 1 \pmod 5$, inverse 1; $15 \equiv 1 \pmod 7$, inverse 1.
+
+$$
+x \equiv 2 \cdot 35 \cdot 2 + 3 \cdot 21 \cdot 1 + 2 \cdot 15 \cdot 1 = 140 + 63 + 30 = 233 \equiv 23 \pmod{105}.
+$$
+
+### 5.3 General Systems
+
+For non-coprime moduli the CRT condition becomes: the system $x \equiv a_1 \pmod{m_1}$,
+$x \equiv a_2 \pmod{m_2}$ is solvable iff $a_1 \equiv a_2 \pmod{\gcd(m_1, m_2)}$, and solutions are
+unique modulo $\mathrm{lcm}(m_1, m_2)$. Combine pairwise, replacing a pair by its single lcm-form
+congruence.
+
+### 5.4 Applications
+
+- **Calendar cycles** (Sunzi's original use), and the Zeller-type day-of-week congruences.
+- **Residue number systems**: represent a large integer by its residues modulo pairwise coprime
+  moduli; addition and multiplication act componentwise with no carries — the hardware basis of
+  RNS arithmetic.
+- **Exponent reduction on composite moduli**: to compute $7^{1000} \pmod{55}$, split into mod 5
+  and mod 11 (Fermat on each prime factor), solve by CRT. This "split through the prime factors"
+  workflow is the standard exam technique.
+
+### 5.5 Common Pitfalls
+
+- The CRT uniqueness is **modulo the product**; infinitely many integer solutions exist (all
+  congruent modulo $M$).
+- The reconstruction formula requires the **inverses of $M_i$ modulo $m_i$** — a common slip is
+  inverting $m_i$ instead.
+- Non-coprime moduli: check $a_1 \equiv a_2 \pmod{\gcd(m_1, m_2)}$ first, otherwise the system has
+  **no solution at all** (students often "solve" impossible systems).
+
+## See Also
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+### 5.x A Non-Coprime System Example
+
+Solve $x \equiv 1 \pmod 6$, $x \equiv 7 \pmod{10}$: $\gcd(6, 10) = 2$ and $1 \equiv 7 \equiv 1 \pmod 2$, so solutions exist. Combine into $x \equiv 7 \pmod{\mathrm{lcm}(6,10) = 30}$, i.e. $x = 7, 37, \ldots$
+
+
+$$
+x = a_1 M_1 y_1 + a_2 M_2 y_2, \qquad M_i = M/m_i, \quad M = m_1 m_2
+$$
+
+The reconstruction formula is worth memorising as a pattern, not as symbols: take the product of
+the other moduli, multiply by its inverse modulo your modulus, multiply by your residue, and sum
+over congruences. A worked three-modulus example with $M = 105$ appears on this page — recompute
+it end-to-end as revision.
+Always finish with the residue class statement: solutions are classes modulo the product, and writing $x \equiv$ the found value makes the answer unambiguous for the marker.
+
+### 5.x A Second Reconstruction
+
+Alternatively solve by substitution: from $x = 2 + 3k$ into $x \equiv 3 \pmod 5$ gives $3k \equiv 1 \pmod 5$, $k \equiv 2$, so $x = 8 + 15t$; substituting into $x \equiv 2 \pmod 7$ gives $t \equiv 4 \pmod 7$ and $x = 68 + 105t$ — the same class as the CRT formula.
+
+---
+
+## Number Theory And Cryptography
+URL: https://mathematics.wyattau.com/7-number-theory/12_number-theory-and-cryptography/
+
+<!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "Number Theory",
-  "description": "For any integers and with There exist unique Integers and such that with . Comprehensive educational content coverage with definitions and practice problems.",
-  "provider": {
-    "@type": "Organization",
-    "name": "Wyatt's Notes",
-    "url": "https://mathematics.wyattau.com"
-  },
-  "url": "https://mathematics.wyattau.com",
-  "educationalLevel": "Secondary",
-  "inLanguage": "en",
-  "isAccessibleForFree": true,
-  "hasCourseInstance": {
-    "@type": "CourseInstance",
-    "courseMode": "online",
-    "courseWorkload": "PT1H"
-  }
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Number Theory and Cryptography", "url": "https://mathematics.wyattau.com/7-number-theory/number-theory-and-cryptography"}]
 }
 </script>
 
-## 1. Divisibility
+### 12.1 Public-Key Cryptography
 
-### 1.1 The Division Algorithm
+Classical ciphers share one key: anyone who can encrypt can decrypt. **Public-key cryptography**
+splits the key: a **public key** (published, used to encrypt or verify) and a **private key**
+(secret, used to decrypt or sign). The trick is a **one-way function with a trapdoor**: easy to
+compute in one direction, computationally infeasible to invert without secret knowledge.
 
-**Theorem 1.1 (Division Algorithm).** For any integers $a$ and $b$ with $b > 0$There exist unique
-Integers $q$ and $r$ such that $a = bq + r$ with $0 \leq r \lt b$.
+Number theory supplies both halves:
 
-_Proof._ Consider the set $S = \\{a - bk : k \in \mathbb{Z},\ a - bk \geq 0\\}$. This set is
-non-empty (by the Archimedean property, choosing $k$ sufficiently negative). By the well-ordering
-principle, $S$ has a least element $r = a - bq$. If $r \geq b$ Then $r - b = a - (q+1)b \in S$ with
-$r - b \lt r$Contradicting minimality. So $0 \leq r \lt b$. For uniqueness, if
-$a = bq_1 + r_1 = bq_2 + r_2$ Then $b(q_1 - q_2) = r_2 - r_1$. Since $|r_2 - r_1| \lt b$We must Have
-$q_1 = q_2$ and $r_1 = r_2$. $\blacksquare$
+- **Easy**: multiply two large primes; compute modular powers by repeated squaring.
+- **Hard**: factor a 600-digit composite; compute discrete logarithms modulo a large prime.
 
-### 1.2 Divisibility
+### 12.2 RSA
 
-We write $d \mid a$ (read "$d$ divides $a$") if there exists $k \in \mathbb{Z}$ with $a = dk$.
+**Setup.** Choose two large distinct primes $p, q$ (each hundreds of digits). Let $n = pq$ and
+$\varphi(n) = (p-1)(q-1)$. Choose $e$ with $\gcd(e, \varphi(n)) = 1$; compute the private
+exponent $d$ with $ed \equiv 1 \pmod{\varphi(n)}$ (extended Euclid). Public key: $(n, e)$.
+Private key: $d$.
 
-**Proposition 1.2.** For all $a, b, c \in \mathbb{Z}$:
+**Encryption** of a message $m$ ($0 \leq m < n$): $c \equiv m^e \pmod n$.
 
-1. If $a \mid b$ and $b \mid c$ Then $a \mid c$.
-2. If $a \mid b$ and $a \mid c$ Then $a \mid (mb + nc)$ for all $m, n \in \mathbb{Z}$.
-3. If $a \mid b$ and $b \neq 0$ Then $|a| \leq |b|$.
-4. $a \mid 0$ for all $a$ But $0 \mid a$ only when $a = 0$.
+**Decryption**: $m \equiv c^d \pmod n$.
 
-_Proof._ (1) $a \mid b$ means $b = ak$ and $b \mid c$ means $c = b\ell = ak\ell$ So $a \mid c$. (2)
-$a \mid b$ means $b = ak$ and $a \mid c$ means $c = a\ell$ So $mb + nc = a(mk + n\ell)$. (3)
-$a \mid b$ means $b = ak$ So $|b| = |a| \cdot |k| \geq |a|$. (4) $0 = a \cdot 0$ So $a \mid 0$. If
-$0 \mid a$ Then $a = 0 \cdot k = 0$. $\blacksquare$
+*Why it works.* Euler's theorem: since $\gcd(m, n) = 1$ (for $m$ coprime to $n$),
 
-### 1.3 Worked Examples of the Division Algorithm
+$$
+c^d \equiv (m^e)^d = m^{ed} \equiv m \pmod n,
+$$
 
-**Problem.** Apply the division algorithm to write $-237 = 14q + r$ with $0 \leq r \lt 14$.
+because $ed \equiv 1 \pmod{\varphi(n)}$ implies $ed = 1 + k\varphi(n)$ and
+$m^{ed} = m \cdot (m^{\varphi(n)})^k \equiv m$. (A sharper proof works for all $m$ using
+$m^{ed} \equiv m \pmod p$ and $\pmod q$ and CRT.)
 
-<details>
-<summary>Solution</summary>
+**Worked example (toy size).** $p = 61$, $q = 53$, $n = 3233$,
+$\varphi(n) = 60 \cdot 52 = 3120$, $e = 17$, $d = 2753$ (since $17 \cdot 2753 = 46801 = 15 \cdot
+3120 + 1$). Encrypt $m = 65$: $c = 65^{17} \bmod 3233 = 2790$. Decrypt: $2790^{2753} \bmod 3233 =
+65$ ✓ (by repeated squaring: 12 squarings and a handful of multiplications).
 
-We compute $237 \div 14 = 16.93\ldots$ So $14 \cdot 16 = 224$ and $14 \cdot 17 = 238 > 237$. Thus for
-positive $237$: $q = 16$, $r = 13$Giving $237 = 14 \cdot 16 + 13$.
+**Security.** Recovering $d$ from $(n, e)$ is as hard as factoring $n$ (there are reductions both
+ways for proper key generation). All classical attacks reduce to factoring; 2048-bit $n$ is the
+current floor. *Pitfall*: shared primes, small $e$ without padding, and deterministic encryption
+are the standard exam criticisms.
 
-For $a = -237$: we need $q$ such that $r = -237 - 14q$ satisfies $0 \leq r \lt 14$.
-$-237 = 14(-17) + 1$: check $14 \cdot (-17) = -238$ And $-238 + 1 = -237$. Here $q = -17$ and $r = 1$
-with $0 \leq 1 \lt 14$. $\blacksquare$
+### 12.3 Diffie–Hellman Key Exchange
 
-</details>
+Public: a large prime $p$ and a primitive root $g$ modulo $p$.
 
-**Problem.** Find all integers $n$ such that $n \equiv 3 \pmod{7}$ and $n \equiv 2 \pmod{5}$.
+1. Alice chooses secret $a$; publishes $A = g^a \bmod p$.
+2. Bob chooses secret $b$; publishes $B = g^b \bmod p$.
+3. Shared secret: Alice computes $K = B^a \equiv g^{ab}$; Bob computes $K = A^b \equiv g^{ab}$
+   (both reduced mod $p$).
 
-<details>
-<summary>Solution</summary>
+An eavesdropper sees $p, g, g^a, g^b$ but must solve the **discrete logarithm problem** to get $a$
+or $b$ — infeasible for 2048-bit $p$.
 
-From $n \equiv 3 \pmod{7}$We have $n = 7k + 3$ for some $k \in \mathbb{Z}$. Substituting into
-$n \equiv 2 \pmod{5}$: $7k + 3 \equiv 2 \pmod{5}$ So $7k \equiv -1 \equiv 4 \pmod{5}$Giving
-$2k \equiv 4 \pmod{5}$Hence $k \equiv 2 \pmod{5}$.
+*Worked example.* $p = 23$, $g = 5$ (primitive root mod 23). Alice: $a = 6$, $A = 5^6 = 15625
+\equiv 8 \pmod{23}$. Bob: $b = 15$, $B = 5^{15} \equiv 19 \pmod{23}$. Shared:
+$K = 19^6 \equiv 2 \pmod{23} = 8^{15} \pmod{23}$ ✓.
 
-So $k = 5m + 2$ And $n = 7(5m + 2) + 3 = 35m + 17$. The solutions are $n \equiv 17 \pmod{35}$.
-$\blacksquare$
+### 12.4 ElGamal Encryption
 
-</details>
+Public: $p, g$ as above and Alice's public key $A = g^a$. To encrypt $m$ to Alice: pick ephemeral
+$k$, send $c_1 = g^k$ and $c_2 = m \cdot A^k \bmod p$. Alice decrypts with her secret $a$:
 
-### 1.4 Uniqueness of the Greatest Common Divisor
+$$
+m = c_2 \cdot (c_1^a)^{-1} \pmod p,
+$$
 
-**Theorem 1.3.** Let $a, b \in \mathbb{Z}$Not both zero. The greatest common divisor of $a$ and $b$
-Exists and is unique.
+using $c_1^a = g^{ka} = A^k$. Security rests on the Diffie–Hellman problem.
 
-_Proof._ The set $D = \\{d \in \mathbb{N} : d \mid a \mathrm{\ and\ } d \mid b\\}"$ is non-empty since $|a| \in D$ (if $a \neq 0$) or $|b| \in D$ (if $b \neq 0$). By the well-ordering principle, $D$ has A least element $g$. We claim $g = \gcd(a, b)$. By definition $g \mid a$ and $g \mid b$. If $c \mid a$ And $c \mid b$ Then $c \leq |c| \leq g$ (since $g$ is the least positive common divisor). For Uniqueness: if $g_1$ and $g_2$ are both greatest common divisors, then $g_1 \mid g_2$ and $g_2 \mid g_1$ So $g_1 = g_2$ (since both are positive). $\blacksquare$ ### 1.5 Least Common Multiple **Definition.** The **least common multiple** of positive integers $a$ and $b$Written $\mathrm{lcm}(a, b)$Is the smallest positive integer $m$ such that $a \mid m$ and $b \mid m$. **Theorem 1.4 (GCD--LCM Identity).** For all positive integers $a$ and $b$ $$\gcd(a, b) \cdot \mathrm{lcm}(a, b) = ab$$ _Proof._ Write $a = \prod_{i=1}^k p_i^{\alpha_i}$ and $b = \prod_{i=1}^k p_i^{\beta_i}$ where $\alpha_i, \beta_i \geq 0$. Then $\gcd(a, b) = \prod_{i=1}^k p_i^{\min(\alpha_i, \beta_i)}$ and $\mathrm{lcm}(a, b) = \prod_{i=1}^k p_i^{\max(\alpha_i, \beta_i)}$. Since $\min(\alpha_i, \beta_i) + \max(\alpha_i, \beta_i) = \alpha_i + \beta_i$ for each $i$We have $$\gcd(a,b) \cdot \mathrm{lcm}(a,b) = \prod_{i=1}^k p_i^{\alpha_i + \beta_i} = ab \qquad \blacksquare$$ **Proposition 1.5.** For all positive integers $a, b$: 1. $\mathrm{lcm}(a, b) = ab / \gcd(a, b)$. 2. $\gcd(a, \mathrm{lcm}(b, c)) = \mathrm{lcm}(\gcd(a, b), \gcd(a, c))$. ### 1.6 Worked Example: LCM Computation **Problem.** Compute $\mathrm{lcm}(252, 105)$ and verify the gcd--lcm identity. <details> <summary>Solution</summary> First, $\gcd(252, 105)$. Using the Euclidean algorithm: $252 = 2 \cdot 105 + 42$, $105 = 2 \cdot 42 + 21$, $42 = 2 \cdot 21 + 0$. So $\gcd(252, 105) = 21$. By the identity: $\mathrm{lcm}(252, 105) = 252 \cdot 105 / 21 = 252 \cdot 5 = 1260$. Verification: $1260 / 252 = 5$ and $1260 / 105 = 12$Both integers. $\blacksquare$ </details> ## 2. The Greatest Common Divisor ### 2.1 Definition and Existence **Definition.** The **greatest common divisor** of $a$ and $b$ (not both zero) is the largest Positive integer $d$ such that $d \mid a$ and $d \mid b$. We write $d = \gcd(a, b)$. **Theorem 2.1 (Bézout"s Identity).** For any $a, b \in \mathbb{Z}$ not both zero, there exist $x, y \in \mathbb{Z}$ such that $$\gcd(a, b) = ax + by$$ _Proof._ Let $S = \\{ax + by : x, y \in \mathbb{Z},\ ax + by > 0\\}$. By the well-ordering principle, $S$ has a least element $d = ax_0 + by_0$. We show $d = \gcd(a, b)$. First, $d \mid a$: write $a = dq + r$ with $0 \leq r \lt d$. Then $r = a - dq = a - (ax_0 + by_0)q = a(1 - x_0 q) + b(-y_0 q)$. If $r > 0$ Then $r \in S$ with $r \lt d$Contradicting minimality. So $r = 0$Giving $d \mid a$. Similarly $d \mid b$. For any Common divisor $c$ of $a$ and $b$: $c \mid (ax_0 + by_0) = d$ So $c \leq d$. $\blacksquare$ ### 2.2 The Euclidean Algorithm To compute $\gcd(a, b)$ with $a \geq b > 0$: $$a = bq_1 + r_1, \quad 0 \lt r_1 \lt b$$ $$b = r_1 q_2 + r_2, \quad 0 \lt r_2 \lt r_1$$ $$\vdots$$ $$r_{n-1} = r_n q_{n+1} + 0$$ Then $\gcd(a, b) = r_n$. The algorithm terminates because $b > r_1 > r_2 > \cdots \geq 0$. **Proposition 2.2.** $\gcd(a, b) = \gcd(b, r)$ where $r = a \bmod b$. _Proof._ Write $a = bq + r$. If $d \mid a$ and $d \mid b$ Then $d \mid (a - bq) = r$. Conversely, if $d \mid b$ and $d \mid r$ Then $d \mid (bq + r) = a$. So the set of common Divisors of $(a, b)$ equals the set of common divisors of $(b, r)$Hence their greatest Common divisors are equal. $\blacksquare$ ### 2.3 The Extended Euclidean Algorithm The extended Euclidean algorithm computes $\gcd(a, b)$ **and** finds integers $x, y$ such that $ax + by = \gcd(a, b)$ simultaneously by back-substituting through the Euclidean algorithm steps. **Problem.** Find $\gcd(252, 105)$ and express it as a linear combination of $252$ and $105$. <details> <summary>Solution</summary> We perform the Euclidean algorithm and back-substitute: $252 = 2 \cdot 105 + 42 \quad \Rightarrow \quad 42 = 252 - 2 \cdot 105$ $105 = 2 \cdot 42 + 21 \quad \Rightarrow \quad 21 = 105 - 2 \cdot 42$ $42 = 2 \cdot 21 + 0$ So $\gcd(252, 105) = 21$. Back-substituting: $21 = 105 - 2(252 - 2 \cdot 105) = 105 - 2 \cdot 252 + 4 \cdot 105 = 5 \cdot 105 - 2 \cdot 252$ Verification: $5 \cdot 105 - 2 \cdot 252 = 525 - 504 = 21$. $\blacksquare$ </details> **Problem.** Find integers $x, y$ such that $1073x + 313y = \gcd(1073, 313)$. <details> <summary>Solution</summary> Euclidean algorithm: $1073 = 3 \cdot 313 + 134$ $313 = 2 \cdot 134 + 45$ $134 = 2 \cdot 45 + 44$ $45 = 1 \cdot 44 + 1$ $44 = 44 \cdot 1 + 0$ So $\gcd(1073, 313) = 1$. Back-substituting from $1 = 45 - 44$: $44 = 134 - 2 \cdot 45$ So $1 = 45 - (134 - 2 \cdot 45) = 3 \cdot 45 - 134$ $45 = 313 - 2 \cdot 134$ So $1 = 3(313 - 2 \cdot 134) - 134 = 3 \cdot 313 - 7 \cdot 134$ $134 = 1073 - 3 \cdot 313$ So $1 = 3 \cdot 313 - 7(1073 - 3 \cdot 313) = 24 \cdot 313 - 7 \cdot 1073$ Therefore $x = -7$ and $y = 24$: $(-7)(1073) + 24(313) = -7511 + 7512 = 1$. $\blacksquare$ </details> ### 2.4 Coprime Integers Integers $a$ and $b$ are **coprime** (or **relatively prime**) if $\gcd(a, b) = 1$. **Proposition 2.3 (Euclid’s Lemma).** If $p$ is prime and $p \mid ab$ Then $p \mid a$ or $p \mid b$. _Proof._ If $p \nmid a$ Then $\gcd(p, a) = 1$. By Bézout's identity, $1 = px + ay$ for some $x, y \in \mathbb{Z}$. Multiplying by $b$: $b = pbx + aby$. Since $p \mid aby$We get $p \mid b$. $\blacksquare$ **Corollary 2.4.** If $p$ is prime and $p \mid a_1 a_2 \cdots a_n$ Then $p \mid a_i$ for some $i$. **Proposition 2.5.** If $\gcd(a, b) = 1$ and $a \mid bc$ Then $a \mid c$. _Proof._ Since $\gcd(a, b) = 1$By Bézout’s identity there exist $x, y$ with $ax + by = 1$. Multiplying by $c$: $acx + bcy = c$. Since $a \mid bc$We have $a \mid bcy$ And $a \mid acx$ So $a \mid c$. $\blacksquare$ **Proposition 2.6.** If $\gcd(a, b) = 1$ and $\gcd(a, c) = 1$ Then $\gcd(a, bc) = 1$. _Proof._ By Bézout, $ax_1 + by_1 = 1$ and $ax_2 + cz_2 = 1$. Multiplying: $(ax_1 + by_1)(ax_2 + cz_2) = a(ax_1 x_2 + x_1 c z_2 + by_1 x_2) + (by_1)(cz_2) = 1$. This expresses $1$ as a linear combination of $a$ and $bc$ So $\gcd(a, bc) = 1$. $\blacksquare$ ## 3. Prime Numbers ### 3.1 The Fundamental Theorem of Arithmetic **Theorem 3.1 (Fundamental Theorem of Arithmetic).** Every integer $n > 1$ can be written uniquely (including order) as a product of primes: $$n = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$$ Where $p_1 \lt p_2 \lt \cdots \lt p_k$ are primes and $a_i \geq 1$. _Proof (existence)._ Suppose for contradiction that some integer $n > 1$ cannot be factored into Primes. Let $n$ be the smallest such integer. If $n$ is prime, we are done. Otherwise $n = ab$ with $1 \lt a, b \lt n$. By minimality of $n$Both $a$ and $b$ factor into primes, so $n = ab$ also Factors into primes, a contradiction. $\blacksquare$ _Proof (uniqueness)._ Suppose $n = p_1 \cdots p_r = q_1 \cdots q_s$ where all $p_i, q_j$ are prime. Since $p_1 \mid q_1 \cdots q_s$By Euclid's lemma (applied inductively), $p_1 \mid q_j$ for some $j$. Since $q_j$ is prime, $p_1 = q_j$. Cancel to get $p_2 \cdots p_r = q_1 \cdots \hat{q}_j \cdots q_s$. Continue by induction. $\blacksquare$ ### 3.2 The Infinitude of Primes **Theorem 3.2 (Euclid).** There are infinitely many primes. _Proof._ Suppose $p_1, p_2, \ldots, p_n$ is a complete list of all primes. Consider $N = p_1 p_2 \cdots p_n + 1$. Then $N > 1$ So by the fundamental theorem, $N$ has a prime divisor $p$. But $p \mid N$ and $p \mid p_1 \cdots p_n$ implies $p \mid (N - p_1 \cdots p_n) = 1$Which is Impossible. Contradiction. $\blacksquare$ ### 3.3 The Prime Number Theorem **Theorem 3.3 (Prime Number Theorem).** Let $\pi(x)$ denote the number of primes $\leq x$. Then $$\lim_{x \to \infty} \frac{\pi(x)}{x / \ln x} = 1$$ This tells us that primes thin out as numbers grow larger, with the density near $x$ being Approximately $1/\ln x$. **Proposition 3.3a (Chebyshev estimates).** There exist positive constants $c_1, c_2$ such that $$c_1 \frac{x}{\ln x} \leq \pi(x) \leq c_2 \frac{x}{\ln x}$$ For all sufficiently large $x$. _Intuition._ Chebyshev proved $\pi(x) = O(x/\ln x)$ and $\pi(x) = \Omega(x/\ln x)$ using properties Of the binomial coefficient $\binom{2n}{n}$. The prime number theorem strengthens this to $\pi(x) \sim x/\ln x$. **Proposition 3.3b.** For $n \geq 2$The $n$-th prime $p_n$ satisfies $n \ln n \lt p_n \lt 2n \ln n$. This follows from the prime number theorem and the estimate $\pi(x) \sim x/\ln x$. ### 3.4 Worked Examples of Prime Factorization **Problem.** Find the prime factorization of $N = 2016$ and determine $\sigma(2016)$ and $\tau(2016)$. <details> <summary>Solution</summary> $2016 = 2 \cdot 1008 = 2^2 \cdot 504 = 2^3 \cdot 252 = 2^4 \cdot 126 = 2^5 \cdot 63 = 2^5 \cdot 7 \cdot 9 = 2^5 \cdot 3^2 \cdot 7$. So $2016 = 2^5 \cdot 3^2 \cdot 7^1$. $\tau(2016) = (5+1)(2+1)(1+1) = 6 \cdot 3 \cdot 2 = 36$. $\sigma(2016) = \frac{2^6 - 1}{2-1} \cdot \frac{3^3 - 1}{3-1} \cdot \frac{7^2 - 1}{7-1} = 63 \cdot 13 \cdot 8 = 6552$. $\blacksquare$ </details> **Problem.** Prove that $\sqrt{2}$ is irrational using the fundamental theorem of arithmetic. <details> <summary>Solution</summary> Suppose $\sqrt{2} = a/b$ where $a, b \in \mathbb{N}$ with $\gcd(a, b) = 1$. Then $2b^2 = a^2$ So $2 \mid a^2$Hence $2 \mid a$. Write $a = 2c$. Then $2b^2 = 4c^2$ So $b^2 = 2c^2$Giving $2 \mid b^2$ and hence $2 \mid b$. But then $2 \mid \gcd(a, b) = 1$Contradiction. $\blacksquare$ </details> ### 3.5 The Sieve of Eratosthenes The **Sieve of Eratosthenes** is an ancient algorithm for finding all primes up to a given bound $N$. **Algorithm.** Start with the list $\\{2, 3, 4, \ldots, N\\}$. For each prime $p \leq \sqrt{N}$Mark All multiples of $p$ (starting from $p^2$) as composite. The remaining unmarked numbers are prime. **Proposition 3.4.** The sieve of Eratosthenes correctly identifies all primes up to $N$ in $O(N \log \log N)$ arithmetic operations. _Proof._ Every composite $n \leq N$ has a prime factor $p \leq \sqrt{n} \leq \sqrt{N}$. When the sieve Reaches this prime $p$It marks $n$ as composite (since $n = p \cdot m$ with $m \geq p$ So $n \geq p^2$ and $n$ is a multiple of $p$ at least $p^2$). Conversely, no prime is ever marked since The only multiples of $p$ marked are $kp$ for $k \geq 2$. $\blacksquare$ **Problem.** Use the sieve of Eratosthenes to find all primes up to $50$. <details> <summary>Solution</summary> Start with $\\{2, 3, 4, \ldots, 50\\}$. Mark multiples of $2$ (from $4$): remove $4, 6, 8, 10, \ldots, 50$. Mark multiples of $3$ (from $9$): remove $9, 12, 15, 18, \ldots, 48$. Mark multiples of $5$ (from $25$): remove $25, 30, 35, 40, 45$. Mark multiples of $7$ (from $49$): remove $49$. We stop at $\lfloor\sqrt{50}\rfloor = 7$. The primes up to $50$ are: $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47$. $\blacksquare$ </details> ### 3.6 Bertrand’s Postulate **Theorem 3.5 (Bertrand's Postulate, Chebyshev 1852).** For every integer $n > 1$There exists at Least one prime $p$ with $n \lt p \lt 2n$. _Proof (sketch)._ Let $\theta(x) = \sum_{p \leq x} \ln p$ (Chebyshev’s function). The .../1-number-and-algebra/3_proof-and-logic proceeds In three main steps: 1. Show $\theta(n) \lt 2n \ln 2$ for all $n \geq 1$ by induction using properties of binomial coefficients. Specifically, $\binom{2n}{n}$ is divisible by every prime $p$ with $n \lt p \leq 2n$ and $\binom{2n}{n} \leq 4^n$ So $\prod_{n \lt p \leq 2n} p \leq 4^n$. 2. Strengthen the bound to show that if no prime $p$ satisfies $n \lt p \leq 2n$ Then $\theta(2n) = \theta(n)$Leading to a contradiction with the bound for sufficiently large $n$. 3. The remaining small values of $n$ are checked directly. $\blacksquare$ _Remark._ This was famously conjectured by Bertrand in 1845 and proved by Chebyshev in 1852. Erdős published an elegant .../1-number-and-algebra/3_proof-and-logic in 1932. **Problem.** Verify Bertrand's postulate for $n = 20$: find a prime $p$ with $20 \lt p \lt 40$. <details> <summary>Solution</summary> The primes in the range $(20, 40)$ are: $23, 29, 31, 37$. There are four such primes, Confirming the postulate. $\blacksquare$ </details> _Remark._ Bertrand’s postulate has been significantly strengthened. The prime number theorem Implies that for large $n$There are approximately $n/\ln n$ primes between $n$ and $2n$. ## 4. Congruences ### 4.1 Basic Properties We write $a \equiv b \pmod{m}$ (read "$a$ is congruent to $b$ modulo $m$") if $m \mid (a - b)$. **Proposition 4.1.** Congruence modulo $m$ is an equivalence relation on $\mathbb{Z}$. **Proposition 4.2.** If $a \equiv b \pmod{m}$ and $c \equiv d \pmod{m}$ Then: 1. $a + c \equiv b + d \pmod{m}$. 2. $ac \equiv bd \pmod{m}$. 3. $a^n \equiv b^n \pmod{m}$ for all $n \geq 1$. **Proposition 4.3.** If $ac \equiv bc \pmod{m}$ and $\gcd(c, m) = d$ Then $a \equiv b \pmod{m/d}$. In particular, if $\gcd(c, m) = 1$We can cancel: $a \equiv b \pmod{m}$. ### 4.2 Solving Linear Congruences **Theorem 4.4.** The congruence $ax \equiv b \pmod{m}$ has a solution if and only if $\gcd(a, m) \mid b$. When solutions exist, there are exactly $\gcd(a, m)$ incongruent solutions Modulo $m$. _Proof._ $ax \equiv b \pmod{m}$ is equivalent to $ax - my = b$ for some $y \in \mathbb{Z}$. By Bézout's identity, solutions exist iff $\gcd(a, m) \mid b$. If $d = \gcd(a, m)$ and $x_0$ is one Solution, then $x_0 + k(m/d)$ for $k = 0, 1, \ldots, d-1$ gives $d$ incongruent solutions modulo $m$. $\blacksquare$ ### 4.3 Worked Example **Problem.** Solve $14x \equiv 6 \pmod{33}$. _Solution._ $\gcd(14, 33) = 1$ So a unique solution exists. Using the extended Euclidean algorithm: $33 = 2 \cdot 14 + 5$, $14 = 2 \cdot 5 + 4$, $5 = 1 \cdot 4 + 1$. Back-substituting: $1 = 5 - 4 = 5 - (14 - 2 \cdot 5) = 3 \cdot 5 - 14 = 3(33 - 2 \cdot 14) - 14 = 3 \cdot 33 - 7 \cdot 14$. So $14(-7) \equiv 1 \pmod{33}$Giving $x \equiv -42 \equiv 24 \pmod{33}$. $\blacksquare$ ### 4.4 Additional Properties of Congruences **Proposition 4.5.** For any $a, b, m \in \mathbb{Z}$ with $m > 0$: 1. $a \equiv b \pmod{m}$ if and only if $a$ and $b$ leave the same remainder when divided by $m$. 2. If $a \equiv b \pmod{m}$ and $d \mid m$ Then $a \equiv b \pmod{d}$. 3. If $a \equiv b \pmod{m_i}$ for $i = 1, \ldots, k$ Then $a \equiv b \pmod{\mathrm{lcm}(m_1, \ldots, m_k)}$. _Proof of (1)._ Write $a = mq_1 + r_1$ and $b = mq_2 + r_2$ with $0 \leq r_1, r_2 \lt m$. Then $a - b = m(q_1 - q_2) + (r_1 - r_2)$. So $m \mid (a - b)$ iff $m \mid (r_1 - r_2)$Which Happens iff $r_1 = r_2$ (since $|r_1 - r_2| \lt m$). $\blacksquare$ _Proof of (2)._ $m \mid (a - b)$ and $d \mid m$ So $d \mid (a - b)$. $\blacksquare$ _Proof of (3)._ We have $m_i \mid (a - b)$ for each $i$ So $\mathrm{lcm}(m_1, \ldots, m_k) \mid (a-b)$ By definition of the lcm. Hence $a \equiv b \pmod{\mathrm{lcm}(m_1, \ldots, m_k)}$. $\blacksquare$ **Proposition 4.6.** If $a \equiv b \pmod{m}$ and $f(x) = c_k x^k + \cdots + c_1 x + c_0$ is a Polynomial with integer coefficients, then $f(a) \equiv f(b) \pmod{m}$. _Proof._ By Proposition 4.2, $a^j \equiv b^j \pmod{m}$ for all $j \geq 0$ And $c_j a^j \equiv c_j b^j \pmod{m}$. Summing over $j$ gives the result. $\blacksquare$ **Corollary 4.6a.** If $a \equiv b \pmod{m}$ Then $a^k \equiv b^k \pmod{m}$ for all $k \geq 0$. In Particular, the last $d$ digits of $a$ and $b$ (in base $10$) determine the last $d$ digits of $a^k$ And $b^k$. ### 4.5 More Worked Examples **Problem.** Solve $12x \equiv 9 \pmod{15}$. <details> <summary>Solution</summary> $\gcd(12, 15) = 3$ And $3 \mid 9$ So solutions exist. There are exactly $3$ incongruent Solutions modulo $15$. Divide through by $3$: $4x \equiv 3 \pmod{5}$. Now $\gcd(4, 5) = 1$ So $4x \equiv 3 \pmod{5}$ Gives $x \equiv 4^{-1} \cdot 3 \pmod{5}$. Since $4 \cdot 4 = 16 \equiv 1 \pmod{5}$We get $x \equiv 4 \cdot 3 = 12 \equiv 2 \pmod{5}$. The solutions modulo $15$ are $x \equiv 2, 7, 12 \pmod{15}$. $\blacksquare$ </details> **Problem.** Find the last two digits of $7^{1947}$. <details> <summary>Solution</summary> We need $7^{1947} \bmod 100$. Since $\phi(100) = \phi(4)\phi(25) = 2 \cdot 20 = 40$ and $\gcd(7, 100) = 1$Euler’s theorem gives $7^{40} \equiv 1 \pmod{100}$. $1947 = 48 \cdot 40 + 27$ So $7^{1947} = (7^{40})^{48} \cdot 7^{27} \equiv 7^{27} \pmod{100}$. $7^2 = 49$, $7^4 = 2401 \equiv 1 \pmod{100}$. So $7^{27} = (7^4)^6 \cdot 7^3 \equiv 1^6 \cdot 343 \equiv 43 \pmod{100}$. The last two digits of $7^{1947}$ are $43$. $\blacksquare$ </details> ### 4.6 Wilson's Theorem **Theorem 4.7 (Wilson’s Theorem).** An integer $p \geq 2$ is prime if and only if $$(p - 1)! \equiv -1 \pmod{p}$$ _Proof._ ($\Rightarrow$) Suppose $p$ is prime. In $(\mathbb{Z}/p\mathbb{Z})^*$Every element $a$ has a Unique multiplicative inverse $a^{-1}$. The elements $1$ and $p - 1$ are **self-inverse** since $1 \cdot 1 \equiv 1$ and $(p-1)^2 = p^2 - 2p + 1 \equiv 1 \pmod{p}$. For $2 \leq a \leq p-2$We have $a \neq a^{-1}$ (if $a^2 \equiv 1$ Then $p \mid (a-1)(a+1)$ So $p \mid (a-1)$ or $p \mid (a+1)$ Giving $a \equiv 1$ or $a \equiv p-1$). Thus the elements $\\{2, 3, \ldots, p-2\\}$ pair up into $(p-3)/2$ pairs of mutually inverse elements. The product of all elements in each pair is $1$ modulo $p$ So $$(p-1)! = 1 \cdot (p-1) \prod_{a=2}^{p-2} a \equiv 1 \cdot (p-1) \cdot 1^{(p-3)/2} \equiv -1 \pmod{p}$$ ($\Leftarrow$) If $n \geq 2$ is composite, then $n = ab$ with $1 \lt a \leq b \lt n$. If $a \neq b$ Both $a$ and $b$ appear in $(n-1)!$ So $n \mid (n-1)!$ and $(n-1)! \equiv 0 \pmod{n}$. If $a = b$ (i.e., $n = a^2$), then $n > 4$ implies $a > 2$ And both $a$ and $2a \lt a^2 = n$ appear in $(n-1)!$ So again $(n-1)! \equiv 0 \pmod{n}$. The case $n = 4$ gives $3! = 6 \equiv 2 \pmod{4} \neq -1$. $\blacksquare$ **Problem.** Use Wilson's theorem to find $8! \bmod 11$. <details> <summary>Solution</summary> By Wilson’s theorem, $(11 - 1)! = 10! \equiv -1 \pmod{11}$. $10! = 10 \cdot 9 \cdot 8!$ So $10 \cdot 9 \cdot 8! \equiv -1 \pmod{11}$. $90 \equiv 2 \pmod{11}$ So $2 \cdot 8! \equiv -1 \pmod{11}$. Multiplying by $6$ (the inverse of $2$ mod $11$): $8! \equiv -6 \equiv 5 \pmod{11}$. $\blacksquare$ </details> ## 5. The Chinese Remainder Theorem ### 5.1 Statement and Proof **Theorem 5.1 (Chinese Remainder Theorem).** Let $m_1, m_2, \ldots, m_k$ be pairwise coprime Positive integers. Then for any integers $a_1, a_2, \ldots, a_k$The system of congruences $$x \equiv a_i \pmod{m_i}, \quad i = 1, 2, \ldots, k$$ Has a unique solution modulo $M = m_1 m_2 \cdots m_k$. _Proof._ Let $M_i = M/m_i$. Since $\gcd(m_i, M_i) = 1$There exist $b_i$ with $b_i M_i \equiv 1 \pmod{m_i}$ (by Bézout). Set $x = \sum_{i=1}^k a_i b_i M_i$. Then $x \equiv a_i b_i M_i \equiv a_i \cdot 1 \equiv a_i \pmod{m_i}$ since $M_j \equiv 0 \pmod{m_i}$ for $j \neq i$. For uniqueness: if $x$ and $x'$ are both solutions, then $x - x'$ is divisible by each $m_i$Hence by $M$ So $x \equiv x' \pmod{M}$. $\blacksquare$ ### 5.2 Worked Example **Problem.** Solve $x \equiv 2 \pmod{3}$, $x \equiv 3 \pmod{5}$, $x \equiv 2 \pmod{7}$. _Solution._ $M = 3 \cdot 5 \cdot 7 = 105$. $M_1 = 35$, $M_2 = 21$, $M_3 = 15$. $35 \cdot 2 = 70 \equiv 1 \pmod{3}$ So $b_1 = 2$. $21 \cdot 1 = 21 \equiv 1 \pmod{5}$ So $b_2 = 1$. $15 \cdot 1 = 15 \equiv 1 \pmod{7}$ So $b_3 = 1$. $x = 2 \cdot 2 \cdot 35 + 3 \cdot 1 \cdot 21 + 2 \cdot 1 \cdot 15 = 140 + 63 + 30 = 233 \equiv 23 \pmod{105}$. Verification: $23 = 7 \cdot 3 + 2 \equiv 2 \pmod{3}$. $23 = 4 \cdot 5 + 3 \equiv 3 \pmod{5}$. $23 = 3 \cdot 7 + 2 \equiv 2 \pmod{7}$. $\blacksquare$ ### 5.3 More Worked Examples **Problem.** Solve the system: $x \equiv 3 \pmod{7}$, $x \equiv 5 \pmod{11}$, $x \equiv 2 \pmod{13}$. <details> <summary>Solution</summary> $M = 7 \cdot 11 \cdot 13 = 1001$. $M_1 = 143$. We need $143 b_1 \equiv 1 \pmod{7}$. Since $143 = 20 \cdot 7 + 3$We need $3b_1 \equiv 1 \pmod{7}$ So $b_1 \equiv 5 \pmod{7}$. $M_2 = 91$. We need $91 b_2 \equiv 1 \pmod{11}$. Since $91 = 8 \cdot 11 + 3$We need $3b_2 \equiv 1 \pmod{11}$ So $b_2 \equiv 4 \pmod{11}$. $M_3 = 77$. We need $77 b_3 \equiv 1 \pmod{13}$. Since $77 = 5 \cdot 13 + 12$We need $12b_3 \equiv 1 \pmod{13}$. $12 \equiv -1 \pmod{13}$ So $-b_3 \equiv 1$Giving $b_3 \equiv 12 \pmod{13}$. $x = 3 \cdot 5 \cdot 143 + 5 \cdot 4 \cdot 91 + 2 \cdot 12 \cdot 77 = 2145 + 1820 + 1848 = 5813$. $5813 \bmod 1001$: $5813 = 5 \cdot 1001 + 808$. So $x \equiv 808 \pmod{1001}$. $\blacksquare$ </details> ### 5.4 The General Chinese Remainder Theorem The CRT can be extended to systems where the moduli are not necessarily pairwise coprime. **Theorem 5.2 (General CRT).** The system $x \equiv a_i \pmod{m_i}$ for $i = 1, \ldots, k$ has a Solution if and only if $a_i \equiv a_j \pmod{\gcd(m_i, m_j)}$ for all $i, j$. When a solution Exists, it is unique modulo $\mathrm{lcm}(m_1, \ldots, m_k)$. _Proof._ ($\Rightarrow$) If $x \equiv a_i \pmod{m_i}$ and $x \equiv a_j \pmod{m_j}$ Then $m_i \mid (x - a_i)$ and $m_j \mid (x - a_j)$. Any common divisor of $m_i$ and $m_j$ divides $(x - a_i) - (x - a_j) = a_j - a_i$. So $\gcd(m_i, m_j) \mid (a_i - a_j)$. ($\Leftarrow$) Proceed pairwise. Consider $x \equiv a_1 \pmod{m_1}$ and $x \equiv a_2 \pmod{m_2}$. Write $m_1 = d \cdot m_1'$ and $m_2 = d \cdot m_2'$ where $d = \gcd(m_1, m_2)$. By hypothesis $a_1 \equiv a_2 \pmod{d}$. The combined congruence is equivalent to $x \equiv a_2 + dk \pmod{m_2}$ for some $k$ with $d \mid k$. By induction on $k$The full system Is solvable. Uniqueness modulo the lcm follows from Proposition 4.5(3). $\blacksquare$ **Problem.** Solve $x \equiv 3 \pmod{6}$, $x \equiv 5 \pmod{10}$. <details> <summary>Solution</summary> $\gcd(6, 10) = 2$. Check: $3 \equiv 5 \pmod{2}$? $3 \bmod 2 = 1$, $5 \bmod 2 = 1$. Yes, so a Solution exists. $x \equiv 3 \pmod{6}$ means $x = 6k + 3$. Substituting: $6k + 3 \equiv 5 \pmod{10}$ So $6k \equiv 2 \pmod{10}$. Dividing by $\gcd(6, 10) = 2$: $3k \equiv 1 \pmod{5}$Giving $k \equiv 2 \pmod{5}$. So $k = 5m + 2$ And $x = 6(5m + 2) + 3 = 30m + 15$. The solution is $x \equiv 15 \pmod{30}$. Note $\mathrm{lcm}(6, 10) = 30$. $\blacksquare$ </details> **Problem.** Determine whether the system $x \equiv 5 \pmod{12}$, $x \equiv 3 \pmod{15}$ $x \equiv 8 \pmod{20}$ has a solution. <details> <summary>Solution</summary> Check pairwise compatibility: $\gcd(12, 15) = 3$. $5 \equiv 3 \pmod{3}$? $5 \bmod 3 = 2$, $3 \bmod 3 = 0$. No! $2 \neq 0$. Therefore the system has no solution. $\blacksquare$ </details> ### 5.5 Applications of the CRT **Application (RSA decryption).** In RSA, one computes $m^d \bmod n$ where $n = pq$. Since $\phi(n) = (p-1)(q-1)$One can compute $m^d \bmod p$ and $m^d \bmod q$ separately (much faster For large moduli) and then combine using the CRT. **Application (Constructing integers with prescribed residues).** The CRT guarantees that for any Choice of residues $a_i$ modulo pairwise coprime $m_i$We can find an integer with all those Residues simultaneously. This is used in error-correcting codes and in the construction of Pseudorandom number generators. **Application (Simultaneous systems).** The CRT is used to reduce computation modulo a large Number $n = m_1 m_2 \cdots m_k$ to computations modulo each smaller $m_i$. This "garner’s Algorithm" approach is widely used in computer algebra systems. **Problem.** A number $N$ leaves remainder $3$ when divided by $8$, $1$ when divided by $9$ And $7$ when divided by $25$. Find the smallest such $N$. <details> <summary>Solution</summary> $M = 8 \cdot 9 \cdot 25 = 1800$. $M_1 = 225$. $225b_1 \equiv 1 \pmod{8}$. $225 \equiv 1 \pmod{8}$ So $b_1 = 1$. $M_2 = 200$. $200b_2 \equiv 1 \pmod{9}$. $200 = 22 \cdot 9 + 2$ So $2b_2 \equiv 1 \pmod{9}$, $b_2 = 5$. $M_3 = 72$. $72b_3 \equiv 1 \pmod{25}$. $72 = 2 \cdot 25 + 22$ So $22b_3 \equiv 1 \pmod{25}$. $22 \equiv -3 \pmod{25}$. We need $-3b_3 \equiv 1$ So $3b_3 \equiv 24$, $b_3 = 8$. $N = 3 \cdot 1 \cdot 225 + 1 \cdot 5 \cdot 200 + 7 \cdot 8 \cdot 72 = 675 + 1000 + 4032 = 5707$. $5707 \bmod 1800 = 5707 - 3 \cdot 1800 = 5707 - 5400 = 307$. The smallest positive solution is $N = 307$. $\blacksquare$ </details> ## 6. Euler's Theorem and Fermat’s Little Theorem ### 6.1 Euler's Totient Function **Definition.** Euler’s **totient function** $\phi(n)$ counts the integers in $\\{1, 2, \ldots, n\\}$ That are coprime to $n$. **Proposition 6.1.** If $p$ is prime, then $\phi(p) = p - 1$. ### 6.2 Multiplicativity of the Totient Function **Theorem 6.2.** If $\gcd(m, n) = 1$ Then $\phi(mn) = \phi(m)\phi(n)$. _Proof._ We count the integers in $\\{1, 2, \ldots, mn\\}$ coprime to $mn$. Since $\gcd(m, n) = 1$ We have $\gcd(k, mn) = 1$ if and only if $\gcd(k, m) = 1$ and $\gcd(k, n) = 1$. Consider the $m \times n$ grid where entry $(i, j)$ represents the number $k \equiv i \pmod{m}$ $k \equiv j \pmod{n}$. By the CRT, each pair $(i, j)$ with $1 \leq i \leq m$, $1 \leq j \leq n$ Corresponds to a unique $k$ modulo $mn$. The number $k$ is coprime to $mn$ iff $i$ is coprime to $m$ And $j$ is coprime to $n$. There are $\phi(m)$ choices for $i$ and $\phi(n)$ choices for $j$ Giving $\phi(m) \cdot \phi(n)$ values of $k$ coprime to $mn$. $\blacksquare$ **Proposition 6.3.** If $n = p_1^{a_1} \cdots p_k^{a_k}$ Then $\phi(n) = n \prod_{p \mid n}(1 - 1/p)$. _Proof._ By multiplicativity, $\phi(n) = \prod_{i=1}^k \phi(p_i^{a_i})$. Now $\phi(p^a) = p^a - p^{a-1} = p^a(1 - 1/p)$Since exactly $p^{a-1}$ of the $p^a$ integers in $\\{1, \ldots, p^a\\}$ are multiples of $p$. $\blacksquare$ ### 6.3 Euler's Theorem **Theorem 6.4 (Euler’s Theorem).** If $\gcd(a, n) = 1$ Then $$a^{\phi(n)} \equiv 1 \pmod{n}$$ _Proof._ Let $U_n = \\{r_1, r_2, \ldots, r_{\phi(n)}\\}$ be the reduced residue system modulo $n$. Since $\gcd(a, n) = 1$The map $r_i \mapsto ar_i \pmod{n}$ permutes $U_n$. Thus $\prod_{i=1}^{\phi(n)} (ar_i) \equiv \prod_{i=1}^{\phi(n)} r_i \pmod{n}$ So $a^{\phi(n)} \prod r_i \equiv \prod r_i \pmod{n}$. Since $\gcd(\prod r_i, n) = 1$We cancel to get $a^{\phi(n)} \equiv 1 \pmod{n}$. $\blacksquare$ **Corollary 6.5 (Fermat's Little Theorem).** If $p$ is prime and $\gcd(a, p) = 1$ Then $a^{p-1} \equiv 1 \pmod{p}$. Equivalently, $a^p \equiv a \pmod{p}$ for all $a$. ### 6.4 Worked Examples **Problem.** Compute $7^{222} \bmod 15$. _Solution._ $\phi(15) = \phi(3)\phi(5) = 2 \cdot 4 = 8$. Since $\gcd(7, 15) = 1$ $7^8 \equiv 1 \pmod{15}$. We have $222 = 27 \cdot 8 + 6$ So $7^{222} = (7^8)^{27} \cdot 7^6 \equiv 1^{27} \cdot 7^6 \pmod{15}$. Now $7^2 = 49 \equiv 4 \pmod{15}$, $7^4 \equiv 16 \equiv 1 \pmod{15}$ So $7^6 = 7^4 \cdot 7^2 \equiv 1 \cdot 4 = 4 \pmod{15}$. $\blacksquare$ **Problem.** Show that $n^{13} - n$ is divisible by $2730$ for all $n \in \mathbb{Z}$. <details> <summary>Solution</summary> $2730 = 2 \cdot 3 \cdot 5 \cdot 7 \cdot 13$. We show $n^{13} \equiv n \pmod{p}$ for each prime $p \in \\{2, 3, 5, 7, 13\\}$. For $p = 13$: by Fermat, $n^{13} \equiv n \pmod{13}$. For $p \in \\{2, 3, 5, 7\\}$: by Fermat, $n^p \equiv n \pmod{p}$. Since $p \lt 13$By repeated Application $n^{13} = n^{qp+r} = (n^p)^q \cdot n^r \equiv n^q \cdot n^r = n^{q+r}$. Iterating gives $n^{13} \equiv n \pmod{p}$. By the CRT (since $2, 3, 5, 7, 13$ are pairwise coprime), $n^{13} \equiv n \pmod{2730}$ So $2730 \mid (n^{13} - n)$. $\blacksquare$ </details> ### 6.5a Fermat Pseudoprimes **Definition.** A composite integer $n$ is a **Fermat pseudoprime to base $a$** if $a^{n-1} \equiv 1 \pmod{n}$. A composite integer that is a Fermat pseudoprime to all bases $a$ with $\gcd(a, n) = 1$ is a **Carmichael number**. The existence of Carmichael numbers shows that Fermat’s little theorem is a necessary but not Sufficient test for primality. The smallest Carmichael number is $561 = 3 \cdot 11 \cdot 17$. **Problem.** Verify that $561$ is a Fermat pseudoprime to base $2$. <details> <summary>Solution</summary> $2^{560} \bmod 561$. Since $561 = 3 \cdot 11 \cdot 17$Compute modulo each factor: $2^2 \equiv 1 \pmod{3}$ So $2^{560} = (2^2)^{280} \equiv 1 \pmod{3}$. $2^{10} \equiv 1 \pmod{11}$ (Fermat), and $560 = 56 \cdot 10$ So $2^{560} \equiv 1 \pmod{11}$. $2^{16} \equiv 1 \pmod{17}$ (Fermat), and $560 = 35 \cdot 16$ So $2^{560} \equiv 1 \pmod{17}$. By the CRT, $2^{560} \equiv 1 \pmod{561}$. Since $561$ is composite, it is a Fermat pseudoprime To base $2$. $\blacksquare$ </details> ### 6.5 Application to RSA The RSA cryptosystem is a direct application of Euler's theorem. **Setup.** Choose two large distinct primes $p$ and $q$. Set $n = pq$ and $\phi(n) = (p-1)(q-1)$. Choose $e$ with $1 \lt e \lt \phi(n)$ and $\gcd(e, \phi(n)) = 1$. Compute $d$ such that $ed \equiv 1 \pmod{\phi(n)}$ using the extended Euclidean algorithm. **Public key:** $(n, e)$. **Private key:** $(n, d)$. **Encryption:** To send message $m$ ($0 \leq m \lt n$), compute $c = m^e \bmod n$. **Decryption:** Compute $m = c^d \bmod n$. **Theorem 6.6.** RSA decryption is correct: $c^d \equiv m \pmod{n}$. _Proof._ Since $ed \equiv 1 \pmod{\phi(n)}$Write $ed = 1 + k\phi(n)$ for some $k \in \mathbb{Z}$. If $\gcd(m, n) = 1$ Then $c^d \equiv m^{ed} = m^{1 + k\phi(n)} \equiv m \cdot (m^{\phi(n)})^k \equiv m \cdot 1^k \equiv m \pmod{n}$ by Euler’s theorem. If $\gcd(m, n) > 1$ Then since $n = pq$We have $p \mid m$ or $q \mid m$. Suppose $p \mid m$ And $q \nmid m$. By Fermat, $m^{q-1} \equiv 1 \pmod{q}$. So $m^{ed} = m^{1 + k(p-1)(q-1)} \equiv m \pmod{q}$. Also $m^{ed} \equiv 0 \equiv m \pmod{p}$. By the CRT, $m^{ed} \equiv m \pmod{n}$. $\blacksquare$ **Problem.** Given $p = 61$, $q = 53$, $e = 17$Encrypt and decrypt the message $m = 65$. <details> <summary>Solution</summary> $n = 61 \cdot 53 = 3233$, $\phi(n) = 60 \cdot 52 = 3120$. Find $d$: solve $17d \equiv 1 \pmod{3120}$. Using the extended Euclidean algorithm: $3120 = 183 \cdot 17 + 9$, $17 = 1 \cdot 9 + 8$, $9 = 1 \cdot 8 + 1$. Back-substituting: $1 = 9 - 8 = 9 - (17 - 9) = 2 \cdot 9 - 17 = 2(3120 - 183 \cdot 17) - 17 = 2 \cdot 3120 - 367 \cdot 17$. So $d \equiv -367 \equiv 2753 \pmod{3120}$. Encrypt: $c = 65^{17} \bmod 3233$. Compute: $65^2 = 4225 \equiv 992 \pmod{3233}$. $65^4 \equiv 992^2 = 984064 \equiv 1232 \pmod{3233}$. $65^8 \equiv 1232^2 = 1517824 \equiv 1547 \pmod{3233}$. $65^{16} \equiv 1547^2 = 2393209 \equiv 789 \pmod{3233}$. $65^{17} = 65^{16} \cdot 65 \equiv 789 \cdot 65 = 51285 \equiv 2790 \pmod{3233}$. So $c = 2790$. Decrypt: $m = 2790^{2753} \bmod 3233$. (By the correctness .../1-number-and-algebra/3_proof-and-logic, this returns $65$.) $\blacksquare$ </details> ## 7. Primitive Roots ### 7.1 The Multiplicative Order **Definition.** The **multiplicative order** of $a$ modulo $n$ (where $\gcd(a, n) = 1$) is the Smallest positive integer $k$ such that $a^k \equiv 1 \pmod{n}$. We write $\mathrm{ord_n}(a) = k$. **Proposition 7.1.** $\mathrm{ord_n}(a)$ divides $\phi(n)$. **Proposition 7.2.** $a^k \equiv 1 \pmod{n}$ if and only if $\mathrm{ord_n}(a) \mid k$. **Proposition 7.3.** If $\mathrm{ord_n}(a) = k$ Then $\mathrm{ord_n}(a^m) = k / \gcd(k, m)$. ### 7.2 Primitive Roots **Definition.** $g$ is a **primitive root modulo $n$** if $\mathrm{ord_n}(g) = \phi(n)$I.e., $g$ Generates the multiplicative group $(\mathbb{Z}/n\mathbb{Z})^*$. **Theorem 7.4.** A primitive root modulo $n$ exists if and only if $n = 2$, $n = 4$, $n = p^k$Or $n = 2p^k$ where $p$ is an odd prime and $k \geq 1$. _Intuition._ The multiplicative group $(\mathbb{Z}/n\mathbb{Z})^*$ is cyclic precisely for these Values of $n$. When the group is not cyclic (e.g., $n = 8$ where $(\mathbb{Z}/8\mathbb{Z})^* \cong C_2 \times C_2$), no single element can generate the entire group. **Proposition 7.4a.** $(\mathbb{Z}/n\mathbb{Z})^* \cong \prod_{i=1}^k (\mathbb{Z}/p_i^{a_i}\mathbb{Z})^*$ Where $n = \prod p_i^{a_i}$ is the prime factorization. Each factor $(\mathbb{Z}/p^a\mathbb{Z})^*$ is cyclic for odd primes $p$. This decomposition explains why primitive roots exist only for the stated values: a product of Cyclic groups is cyclic if and only if the orders are pairwise coprime. **Theorem 7.5.** If $n$ has a primitive root, then there are exactly $\phi(\phi(n))$ primitive roots Modulo $n$. ### 7.3 Existence of Primitive Roots for Primes **Theorem 7.6.** Every prime $p$ has a primitive root. _Proof._ Let $\psi(d)$ denote the number of elements of $(\mathbb{Z}/p\mathbb{Z})^*$ of order Exactly $d$. The key facts are: 1. $\psi(d) \leq \phi(d)$ for all $d \mid (p-1)$. 2. $\sum_{d \mid (p-1)} \psi(d) = p - 1 = \sum_{d \mid (p-1)} \phi(d)$. If $\psi(d) \lt \phi(d)$ for some $d$ Then the sum $\sum \psi(d)$ would be strictly less than $\sum \phi(d) = p - 1$A contradiction. So $\psi(d) = \phi(d)$ for all $d \mid (p-1)$. In Particular, $\psi(p - 1) = \phi(p - 1) > 0$ So primitive roots exist. $\blacksquare$ ### 7.4 Finding Primitive Roots To test whether $g$ is a primitive root modulo $p$ (where $p$ is prime), it suffices to verify $g^{(p-1)/q} \not\equiv 1 \pmod{p}$ for every prime divisor $q$ of $p - 1$. **Proposition 7.7.** Let $p$ be prime and $g \in (\mathbb{Z}/p\mathbb{Z})^*$. Then $g$ is a primitive Root modulo $p$ if and only if for every prime $q \mid (p - 1)$, $g^{(p-1)/q} \not\equiv 1 \pmod{p}$. _Proof._ If $g$ is a primitive root, $\mathrm{ord_p}(g) = p - 1$. If $g^{(p-1)/q} \equiv 1 \pmod{p}$ For some prime $q \mid (p-1)$ Then $\mathrm{ord_p}(g) \mid (p-1)/q \lt p-1$Contradiction. Conversely, if $g$ is not a primitive root, let $d = \mathrm{ord_p}(g) \lt p - 1$. Then $d \mid (p-1)$ So $(p-1)/d > 1$ has some prime factor $q$Meaning $q \mid (p-1)$ and $d \mid (p-1)/q$. Then $g^{(p-1)/q} \equiv 1 \pmod{p}$Contradicting the hypothesis. $\blacksquare$ **Problem.** Find all primitive roots modulo $13$. <details> <summary>Solution</summary> $\phi(13) = 12$. We need elements of order $12$ in $(\mathbb{Z}/13\mathbb{Z})^*$. The prime divisors of $12$ are $2$ and $3$. We test $g^6$ and $g^4$. $g = 2$: $2^4 = 16 \equiv 3 \not\equiv 1$, $2^6 = 64 \equiv 12 \equiv -1 \not\equiv 1 \pmod{13}$. So $2$ is a primitive root. $g = 3$: $3^4 = 81 \equiv 3 \pmod{13}$. Not a primitive root (order divides $4$). $g = 5$: $5^4 = 625 \equiv 1 \pmod{13}$. Not a primitive root. $g = 6$: $6^4 \equiv 9$, $6^6 \equiv 12 \equiv -1 \pmod{13}$. Primitive root. $g = 7$: $7^4 \equiv 9$, $7^6 \equiv 12 \equiv -1 \pmod{13}$. Primitive root. $g = 11$: $11^4 \equiv 3$, $11^6 \equiv 12 \equiv -1 \pmod{13}$. Primitive root. By Theorem 7.5, there are $\phi(12) = 4$ primitive roots modulo $13$: $2, 6, 7, 11$. $\blacksquare$ </details> ### 7.5 Index Calculus When a primitive root $g$ modulo $p$ is known, every element $a$ of $(\mathbb{Z}/p\mathbb{Z})^*$ Can be written uniquely as $a \equiv g^k \pmod{p}$ with $0 \leq k \lt p - 1$. The exponent $k$ Is called the **index** (or **discrete logarithm**) of $a$ to base $g$Written $\mathrm{ind_g}(a) = k$. **Proposition 7.8 (Properties of indices).** Let $g$ be a primitive root modulo $p$. For all $a, b \in (\mathbb{Z}/p\mathbb{Z})^*$: 1. $\mathrm{ind_g}(ab) \equiv \mathrm{ind_g}(a) + \mathrm{ind_g}(b) \pmod{p-1}$. 2. $\mathrm{ind_g}(a^k) \equiv k \cdot \mathrm{ind_g}(a) \pmod{p-1}$. 3. $\mathrm{ind_g}(1) = 0$ and $\mathrm{ind_g}(g) = 1$. ### 7.6 The Discrete Logarithm Problem **Definition.** Given a prime $p$A primitive root $g$ modulo $p$ And $a \in (\mathbb{Z}/p\mathbb{Z})^*$ The **discrete logarithm problem** (DLP) asks: find $k$ such that $g^k \equiv a \pmod{p}$. Unlike ordinary logarithms, no polynomial-time algorithm is known for the DLP. The best known Algorithms (baby-step giant-step, index calculus, number field sieve) run in subexponential time. **Application (Diffie--Hellman key exchange).** Alice and Bob agree on a large prime $p$ and Primitive root $g$ (public). Alice chooses secret $a$Sends $g^a \bmod p$. Bob chooses secret $b$ Sends $g^b \bmod p$. The shared secret is $g^{ab} \bmod p$Computable by Alice as $(g^b)^a$ and By Bob as $(g^a)^b$. An eavesdropper seeing $g^a$ and $g^b$ cannot efficiently compute $g^{ab}$ Without solving the DLP. ### 7.7 Worked Example: Index Calculus **Problem.** Let $g = 2$ be a primitive root modulo $19$. Find $\mathrm{ind_2}(14) \pmod{19}$. <details> <summary>Solution</summary> First, verify $2$ is a primitive root modulo $19$: $\phi(19) = 18$Prime factors of $18$ are $2$ and $3$. $2^{18/2} = 2^9 = 512$. $512 / 19 = 26.9\ldots$, $26 \cdot 19 = 494$, $512 - 494 = 18 \equiv -1 \pmod{19}$. $2^{18/3} = 2^6 = 64$. $64 / 19 = 3.4\ldots$, $64 - 57 = 7 \not\equiv 1 \pmod{19}$. Confirmed. Compute powers of $2$ modulo $19$: $2^1 = 2$, $2^2 = 4$, $2^3 = 8$, $2^4 = 16 \equiv -3$, $2^5 = 32 \equiv 13 \equiv -6$ $2^6 = 64 \equiv 7$, $2^7 = 14$, $2^8 = 28 \equiv 9$, $2^9 = 18 \equiv -1$ $2^{10} \equiv -2 \equiv 17$, $2^{11} \equiv -4 \equiv 15$, $2^{12} \equiv -8 \equiv 11$ $2^{13} \equiv -16 \equiv 3$, $2^{14} = 6$, $2^{15} = 12$, $2^{16} = 24 \equiv 5$ $2^{17} = 10$, $2^{18} = 20 \equiv 1$. From $2^7 = 14 \pmod{19}$We get $\mathrm{ind_2}(14) = 7$. $\blacksquare$ </details> **Problem.** Using the index table above, solve $6^x \equiv 11 \pmod{19}$. <details> <summary>Solution</summary> Taking indices base $2$: $\mathrm{ind_2}(6^x) = \mathrm{ind_2}(11)$. $x \cdot \mathrm{ind_2}(6) \equiv \mathrm{ind_2}(11) \pmod{18}$. From the table: $\mathrm{ind_2}(6) = 14$ and $\mathrm{ind_2}(11) = 12$. So $14x \equiv 12 \pmod{18}$. $\gcd(14, 18) = 2$ and $2 \mid 12$ So solutions exist. Divide by $2$: $7x \equiv 6 \pmod{9}$. $7^{-1} \equiv 4 \pmod{9}$ (since $7 \cdot 4 = 28 \equiv 1$). So $x \equiv 4 \cdot 6 = 24 \equiv 6 \pmod{9}$. The solutions modulo $18$ are $x \equiv 6, 15 \pmod{18}$. Check: $6^6 = 46656$. $46656 / 19 = 2455.6\ldots$, $2455 \cdot 19 = 46645$, $46656 - 46645 = 11$. $\blacksquare$ </details> ## 8. Quadratic Residues ### 8.1 Definition **Definition.** Let $p$ be an odd prime. An integer $a$ not divisible by $p$ is a **quadratic Residue** modulo $p$ if the congruence $x^2 \equiv a \pmod{p}$ has a solution. Otherwise $a$ is a **quadratic non-residue**. **Proposition 8.1.** There are exactly $(p - 1)/2$ quadratic residues and $(p - 1)/2$ quadratic Non-residues modulo $p$. _Proof._ The map $x \mapsto x^2 \pmod{p}$ from $\\{1, 2, \ldots, p-1\\}$ to the set of quadratic Residues is exactly two-to-one since $x^2 \equiv (-x)^2 \pmod{p}$ but $x \not\equiv -x \pmod{p}$ for $x \not\equiv 0 \pmod{p}$ (since $p$ is odd). $\blacksquare$ ### 8.2 Euler's Criterion **Theorem 8.2 (Euler’s Criterion).** Let $p$ be an odd prime and $\gcd(a, p) = 1$. Then $$a^{(p-1)/2} \equiv \begin{cases} 1 \pmod{p} & \mathrm{if\ } a \mathrm{\ is\ a\ QR\ mod\ } p \\ -1 \pmod{p} & \mathrm{if\ } a \mathrm{\ is\ a\ QNR\ mod\ } p \end{cases}$$ _Proof._ By Fermat's little theorem, $a^{p-1} \equiv 1 \pmod{p}$ So $(a^{(p-1)/2} - 1)(a^{(p-1)/2} + 1) \equiv 0 \pmod{p}$. Thus $a^{(p-1)/2} \equiv \pm 1 \pmod{p}$. If $a$ is a QR, say $a \equiv x^2 \pmod{p}$ Then $a^{(p-1)/2} \equiv x^{p-1} \equiv 1 \pmod{p}$. For the converse: $a^{(p-1)/2} \equiv 1 \pmod{p}$ implies $a$ is a QR (by a polynomial argument: the Equation $x^{(p-1)/2} - 1 \equiv 0 \pmod{p}$ has at most $(p-1)/2$ solutions, and all QRs are Solutions). Since there are exactly $(p-1)/2$ QRs and $(p-1)/2$ elements with $a^{(p-1)/2} \equiv 1 \pmod{p}$These sets coincide. $\blacksquare$ ### 8.3 The Legendre Symbol **Definition.** The **Legendre symbol** is defined by $$\left(\frac{a}{p}\right) = \begin{cases} 0 & \mathrm{if\ } p \mid a \\ 1 & \mathrm{if\ } a \mathrm{\ is\ a\ QR\ mod\ } p \\ -1 & \mathrm{if\ } a \mathrm{\ is\ a\ QNR\ mod\ } p \end{cases}$$ **Proposition 8.3.** The Legendre symbol is completely multiplicative: $\left(\frac{ab}{p}\right) = \left(\frac{a}{p}\right)\left(\frac{b}{p}\right)$. ### 8.4 Quadratic Reciprocity **Theorem 8.4 (Law of Quadratic Reciprocity).** For distinct odd primes $p$ and $q$: $$\left(\frac{p}{q}\right)\left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}$$ **Theorem 8.5 (First Supplement).** $\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}$. So $-1$ is a QR Mod $p$ if and only if $p \equiv 1 \pmod{4}$. **Theorem 8.6 (Second Supplement).** $\left(\frac{2}{p}\right) = (-1)^{(p^2-1)/8}$. So $2$ is a QR Mod $p$ if and only if $p \equiv \pm 1 \pmod{8}$. ### 8.5 Proofs of the Supplements **Proof of the First Supplement.** By Euler’s criterion: $\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}$. This equals $1$ when $p \equiv 1 \pmod{4}$ (since $(p-1)/2$ is even) and $-1$ when $p \equiv 3 \pmod{4}$ (since $(p-1)/2$ is odd). $\blacksquare$ **Proof of the Second Supplement.** By Euler's criterion, $\left(\frac{2}{p}\right) = 2^{(p-1)/2} \pmod{p}$. Consider the product $P = \prod_{k=1}^{(p-1)/2} 2k = 2^{(p-1)/2} \cdot ((p-1)/2)!$. Reduce each $2k$ modulo $p$ into the set $\\{-(p-1)/2, \ldots, -1, 1, \ldots, (p-1)/2\\}$. The key observation (Gauss’s lemma) is that the number of $2k$ landing in the negative range is $(p^2 - 1)/8$Which depends on $p \bmod 8$. $\blacksquare$ ### 8.6 The Jacobi Symbol **Definition.** The **Jacobi symbol** generalizes the Legendre symbol to odd composite moduli. For $n = p_1^{a_1} \cdots p_k^{a_k}$ (odd, positive): $$\left(\frac{a}{n}\right) = \prod_{i=1}^k \left(\frac{a}{p_i}\right)^{a_i}$$ **Warning.** $\left(\frac{a}{n}\right) = 1$ does not imply $a$ is a QR modulo $n$ when $n$ is Composite. The Jacobi symbol satisfies the same reciprocity law and supplements as the Legendre symbol, making It efficient for computation. **Proposition 8.7 (Properties of the Jacobi symbol).** For odd positive $m, n$: 1. $\left(\frac{a}{mn}\right) = \left(\frac{a}{m}\right)\left(\frac{a}{n}\right)$. 2. $\left(\frac{ab}{n}\right) = \left(\frac{a}{n}\right)\left(\frac{b}{n}\right)$. 3. $\left(\frac{m}{n}\right)\left(\frac{n}{m}\right) = (-1)^{\frac{m-1}{2} \cdot \frac{n-1}{2}}$. 4. $\left(\frac{-1}{n}\right) = (-1)^{(n-1)/2}$. 5. $\left(\frac{2}{n}\right) = (-1)^{(n^2-1)/8}$. 6. If $a \equiv b \pmod{n}$ Then $\left(\frac{a}{n}\right) = \left(\frac{b}{n}\right)$. ### 8.7 Worked Examples **Problem.** Determine whether $73$ is a quadratic residue modulo $97$. _Solution._ By quadratic reciprocity, since both $73$ and $97$ are congruent to $1 \pmod{4}$: $$\left(\frac{73}{97}\right) = \left(\frac{97}{73}\right) = \left(\frac{24}{73}\right) = \left(\frac{4}{73}\right)\left(\frac{6}{73}\right) = 1 \cdot \left(\frac{6}{73}\right)$$ $$\left(\frac{6}{73}\right) = \left(\frac{2}{73}\right)\left(\frac{3}{73}\right)$$ $\left(\frac{2}{73}\right) = 1$ since $73 \equiv 1 \pmod{8}$. $\left(\frac{3}{73}\right) = (-1)^{\frac{3-1}{2} \cdot \frac{73-1}{2}} \left(\frac{73}{3}\right) = (-1)^{72} \left(\frac{1}{3}\right) = 1 \cdot 1 = 1$. So $\left(\frac{73}{97}\right) = 1$ And $73$ is a QR modulo $97$. $\blacksquare$ **Problem.** Compute the Jacobi symbol $\left(\frac{219}{383}\right)$. <details> <summary>Solution</summary> Both $219 = 3 \cdot 73$ and $383$ are odd. Since $383 \equiv 3 \pmod{4}$ and $219 \equiv 3 \pmod{4}$ By reciprocity: $\left(\frac{219}{383}\right) = -\left(\frac{383}{219}\right)$. $383 \bmod 219 = 164$. So $\left(\frac{383}{219}\right) = \left(\frac{164}{219}\right) = \left(\frac{4}{219}\right)\left(\frac{41}{219}\right) = \left(\frac{41}{219}\right)$. $41 \equiv 1 \pmod{4}$, $219 \equiv 3 \pmod{4}$ So $\left(\frac{41}{219}\right) = -\left(\frac{219}{41}\right)$. $219 \bmod 41 = 14$. So $\left(\frac{219}{41}\right) = \left(\frac{14}{41}\right) = \left(\frac{2}{41}\right)\left(\frac{7}{41}\right)$. $\left(\frac{2}{41}\right) = 1$ since $41 \equiv 1 \pmod{8}$. $7 \equiv 3 \pmod{4}$, $41 \equiv 1 \pmod{4}$ So $\left(\frac{7}{41}\right) = \left(\frac{41}{7}\right) = \left(\frac{6}{7}\right) = \left(\frac{2}{7}\right)\left(\frac{3}{7}\right)$. $\left(\frac{2}{7}\right) = 1$ since $7 \equiv -1 \pmod{8}$. $\left(\frac{3}{7}\right) = (-1)^{1 \cdot 3} \left(\frac{7}{3}\right) = -\left(\frac{1}{3}\right) = -1$. Working back: $\left(\frac{7}{41}\right) = 1 \cdot (-1) = -1$. $\left(\frac{219}{41}\right) = 1 \cdot (-1) = -1$. $\left(\frac{41}{219}\right) = -(-1) = 1$. $\left(\frac{383}{219}\right) = 1$. $\left(\frac{219}{383}\right) = -(1) = -1$. So $219$ is a QNR modulo $383$. $\blacksquare$ </details> ### 8.8 Applications of Quadratic Reciprocity **Application (Solovay--Strassen primality test).** For an odd candidate $n$Choose random $a$ and Check whether $a^{(n-1)/2} \equiv \left(\frac{a}{n}\right) \pmod{n}$ (where the Jacobi symbol is used). If $n$ is composite, at least half of all $a$ violate this. This gives a probabilistic primality test. **Application (determining solvability).** Quadratic reciprocity allows efficient computation of Legendre symbols without directly checking all residues, reducing an $O(p)$ problem to $O(\log p)$ arithmetic operations. ### 8.9 Computing Square Roots Modulo p When $a$ is a quadratic residue modulo an odd prime $p$Finding $x$ with $x^2 \equiv a \pmod{p}$ Is the **square root problem modulo $p$**. **Proposition 8.8.** When $p \equiv 3 \pmod{4}$A square root of $a$ modulo $p$ (when $a$ is a QR) is Given by $x \equiv \pm a^{(p+1)/4} \pmod{p}$. _Proof._ $(a^{(p+1)/4})^2 = a^{(p+1)/2} = a \cdot a^{(p-1)/2} \equiv a \cdot 1 = a \pmod{p}$ by Euler's criterion. $\blacksquare$ **Problem.** Find a square root of $5$ modulo $29$. <details> <summary>Solution</summary> First verify $5$ is a QR modulo $29$: $\left(\frac{5}{29}\right) = \left(\frac{29}{5}\right) = \left(\frac{4}{5}\right) = 1$. Yes. Since $29 \equiv 1 \pmod{4}$We cannot use the simple formula. We use a direct search among The QRs modulo $29$. The squares modulo $29$ of $1, 2, \ldots, 14$ are: $1, 4, 9, 16, 25, 36 \equiv 7, 49 \equiv 20, 64 \equiv 6, 81 \equiv 23, 100 \equiv 13$ $121 \equiv 5, 144 \equiv 28, 169 \equiv 24, 196 \equiv 22$. So $11^2 = 121 \equiv 5 \pmod{29}$. A square root of $5$ modulo $29$ is $x \equiv 11$ (and also $x \equiv 18$). $\blacksquare$ </details> **Problem.** Find a square root of $7$ modulo $19$. <details> <summary>Solution</summary> $19 \equiv 3 \pmod{4}$ So we can use the formula. First verify $7$ is a QR: $\left(\frac{7}{19}\right) = (-1)^{\frac{7-1}{2} \cdot \frac{19-1}{2}} \left(\frac{19}{7}\right) = (-1)^{54} \left(\frac{5}{7}\right) = \left(\frac{5}{7}\right)$. $\left(\frac{5}{7}\right) = (-1)^{2 \cdot 3} \left(\frac{7}{5}\right) = \left(\frac{2}{5}\right) = (-1)^{(25-1)/8} = (-1)^3 = -1$. Wait, let me recompute. $\left(\frac{7}{19}\right)$: $7 \equiv 3 \pmod{4}$, $19 \equiv 3 \pmod{4}$ So $\left(\frac{7}{19}\right) = -\left(\frac{19}{7}\right) = -\left(\frac{5}{7}\right)$. Now $5 \equiv 1 \pmod{4}$, $7 \equiv 3 \pmod{4}$ So $\left(\frac{5}{7}\right) = -\left(\frac{7}{5}\right) = -\left(\frac{2}{5}\right) = -(-1) = 1$. So $\left(\frac{7}{19}\right) = -1$. This means $7$ is a QNR modulo $19$ So no square root exists. $\blacksquare$ </details> ## 9. Continued Fractions ### 9.1 Simple Continued Fractions A **simple continued fraction** is an expression of the form $$a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}}$$ Where $a_0 \in \mathbb{Z}$ and $a_1, a_2, \ldots \in \mathbb{N}$. We write $[a_0; a_1, a_2, \ldots]$. ### 9.2 Computation For an irrational number $\alpha$The continued fraction expansion is computed recursively: $a_0 = \lfloor \alpha \rfloor$, $\alpha_1 = 1/(\alpha - a_0)$, $a_1 = \lfloor \alpha_1 \rfloor$ And So on. **Example.** $\sqrt{2} = 1 + (\sqrt{2} - 1) = 1 + \frac{1}{\sqrt{2} + 1} = 1 + \frac{1}{2 + (\sqrt{2} - 1)}$. So $\sqrt{2} = [1; 2, 2, 2, \ldots] = [1; \overline{2}]$. ### 9.3 Convergents The $n$-th **convergent** $p_n/q_n = [a_0; a_1, \ldots, a_n]$ is computed by: $$p_{-1} = 1, \quad p_0 = a_0, \quad p_n = a_n p_{n-1} + p_{n-2}$$ $$q_{-1} = 0, \quad q_0 = 1, \quad q_n = a_n q_{n-1} + q_{n-2}$$ **Theorem 9.1.** $|p_n/q_n - \alpha| \lt 1/q_n^2$ for all $n$. **Theorem 9.2 (Best Approximation).** If $|q\alpha - p| \lt |q_n \alpha - p_n|$ for $q \lt q_{n+1}$ Then $p/q = p_n/q_n$. ### 9.4 Periodic Continued Fractions **Theorem 9.3 (Lagrange).** The continued fraction of $\alpha$ is periodic if and only if $\alpha$ Is a quadratic irrational. **Example.** The golden ratio $\varphi = \frac{1 + \sqrt{5}}{2} = [1; 1, 1, 1, \ldots] = [1; \overline{1}]$. ### 9.5 More Computation Examples **Problem.** Find the continued fraction expansion of $\sqrt{7}$. <details> <summary>Solution</summary> $\sqrt{7} = 2 + (\sqrt{7} - 2)$ So $a_0 = 2$. $\alpha_1 = \frac{1}{\sqrt{7} - 2} = \frac{\sqrt{7} + 2}{3}$. So $a_1 = 1$. $\alpha_2 = \frac{3}{\sqrt{7} - 1} = \frac{\sqrt{7} + 1}{2}$. So $a_2 = 1$. $\alpha_3 = \frac{2}{\sqrt{7} - 1} = \frac{\sqrt{7} + 1}{3}$. So $a_3 = 1$. $\alpha_4 = \frac{3}{\sqrt{7} - 2} = \sqrt{7} + 2$. So $a_4 = 4$. $\alpha_5 = \frac{1}{\sqrt{7} - 2} = \alpha_1$. The process repeats. Therefore $\sqrt{7} = [2; \overline{1, 1, 1, 4}]$. $\blacksquare$ </details> **Problem.** Compute the convergents of $[1; 1, 1, 1, 1]$ (the first five terms of $\varphi$). <details> <summary>Solution</summary> $p_{-1} = 1$, $p_0 = 1$. $q_{-1} = 0$, $q_0 = 1$. $a_1 = 1$: $p_1 = 1 \cdot 1 + 1 = 2$, $q_1 = 1 \cdot 1 + 0 = 1$. Convergent: $2/1 = 2$. $a_2 = 1$: $p_2 = 1 \cdot 2 + 1 = 3$, $q_2 = 1 \cdot 1 + 1 = 2$. Convergent: $3/2 = 1.5$. $a_3 = 1$: $p_3 = 1 \cdot 3 + 2 = 5$, $q_3 = 1 \cdot 2 + 1 = 3$. Convergent: $5/3 \approx 1.667$. $a_4 = 1$: $p_4 = 1 \cdot 5 + 3 = 8$, $q_4 = 1 \cdot 3 + 2 = 5$. Convergent: $8/5 = 1.6$. These are ratios of consecutive Fibonacci numbers, converging to $\varphi \approx 1.618$. $\blacksquare$ </details> **Problem.** Find the continued fraction expansion of the rational number $157/68$. <details> <summary>Solution</summary> $157/68 = 2 + 21/68$ So $a_0 = 2$. $68/21 = 3 + 5/21$ So $a_1 = 3$. $21/5 = 4 + 1/5$ So $a_2 = 4$. $5/1 = 5$ So $a_3 = 5$. Therefore $157/68 = [2; 3, 4, 5]$. Verification: $[2; 3, 4, 5] = 2 + \frac{1}{3 + \frac{1}{4 + 1/5}} = 2 + \frac{1}{3 + 5/21} = 2 + \frac{1}{68/21} = 2 + 21/68 = 157/68$. $\blacksquare$ </details> ### 9.6 Periodic Continued Fractions and Pell’s Equation The continued fraction expansion of $\sqrt{D}$ is closely connected to Pell's equation $x^2 - Dy^2 = 1$. **Theorem 9.4.** If the continued fraction of $\sqrt{D}$ has period length $\ell$ Then: - If $\ell$ is even, the fundamental solution of $x^2 - Dy^2 = 1$ is $(p_{\ell-1}, q_{\ell-1})$. - If $\ell$ is odd, the fundamental solution is $(p_{2\ell-1}, q_{2\ell-1})$. ### 9.7 Approximation Properties **Theorem 9.5.** If $p/q$ is a convergent to $\alpha$ Then $$\left|\alpha - \frac{p}{q}\right| \lt \frac{1}{q^2}$$ Furthermore, if $|\alpha - p/q| \lt 1/(2q^2)$ Then $p/q$ must be a convergent to $\alpha$. **Proposition 9.6.** The convergents $p_n/q_n$ satisfy $q_n \geq F_{n+1}$ (the $(n+1)$-th Fibonacci Number), so the denominators grow at least exponentially. ### 9.8 Irrationality via Continued Fractions **Theorem 9.7.** If $\alpha$ has an infinite continued fraction expansion, then $\alpha$ is irrational. _Proof._ If $\alpha$ were rational, the Euclidean algorithm would terminate in finitely many Steps, producing a finite continued fraction. Contradiction. $\blacksquare$ **Proposition 9.8.** $e$ is irrational. _Proof._ The continued fraction of $e$ is $[2; 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, 1, \ldots]$ Which has a regular but infinite pattern. By Theorem 9.7, $e$ is irrational. $\blacksquare$ ## 10. Diophantine Equations ### 10.1 Linear Diophantine Equations **Theorem 10.1.** The equation $ax + by = c$ has integer solutions if and only if $\gcd(a, b) \mid c$. _Proof._ This follows directly from Bézout’s identity. $\blacksquare$ **Proposition 10.1a.** If $d = \gcd(a, b)$ and $(x_0, y_0)$ is a particular solution of $ax + by = c$ Then all integer solutions are given by $$x = x_0 + \frac{b}{d} \cdot t, \quad y = y_0 - \frac{a}{d} \cdot t, \quad t \in \mathbb{Z}$$ **Problem.** Find all integer solutions to $15x + 21y = 12$. <details> <summary>Solution</summary> $d = \gcd(15, 21) = 3$ and $3 \mid 12$ So solutions exist. Divide through by $3$: $5x + 7y = 4$. Using the extended Euclidean algorithm: $7 = 1 \cdot 5 + 2$, $5 = 2 \cdot 2 + 1$. So $1 = 5 - 2 \cdot 2 = 5 - 2(7 - 5) = 3 \cdot 5 - 2 \cdot 7$. Thus $5(3) + 7(-2) = 1$ And $5(12) + 7(-8) = 4$. A particular solution: $(x_0, y_0) = (12, -8)$. All solutions: $x = 12 + 7t$, $y = -8 - 5t$For $t \in \mathbb{Z}$. $\blacksquare$ </details> ### 10.2 Pythagorean Triples **Theorem 10.2.** All primitive Pythagorean triples $(a, b, c)$ (with $\gcd(a, b, c) = 1$ and $a^2 + b^2 = c^2$) are given by $$a = m^2 - n^2, \quad b = 2mn, \quad c = m^2 + n^2$$ Where $m > n > 0$, $\gcd(m, n) = 1$ And $m \not\equiv n \pmod{2}$. _Proof._ Without loss, $a$ is odd and $b$ is even. From $a^2 = c^2 - b^2 = (c-b)(c+b)$. Setting $m = (c + a)/2$ and $n = (c - a)/2$ yields the parameterization. $\blacksquare$ **Proposition 10.2a.** The number of primitive Pythagorean triples with hypotenuse $\leq N$ is Asymptotically $\frac{N}{2\pi}$. **Problem.** Find all primitive Pythagorean triples with $c \leq 50$. <details> <summary>Solution</summary> We need $m > n > 0$, $\gcd(m, n) = 1$, $m \not\equiv n \pmod{2}$ And $c = m^2 + n^2 \leq 50$. Try $m$ values: $m^2 \leq 49$ So $m \leq 7$. $m = 2$: $n = 1$: $(3, 4, 5)$. $m = 3$: $n = 2$: $(5, 12, 13)$. $m = 4$: $n = 1$: $(15, 8, 17)$. $n = 3$: $\gcd(4,3) = 1$, $(7, 24, 25)$. $m = 5$: $n = 2$: $(21, 20, 29)$. $n = 4$: $(9, 40, 41)$. $m = 6$: $n = 1$: $\gcd(6,1) = 1$, $(35, 12, 37)$. $n = 5$: $(11, 60, 61)$ but $c > 50$. $m = 7$: $n = 2$: $(45, 28, 53)$ but $c > 50$. $n = 4$: $(33, 56, 65)$ but $c > 50$. $n = 6$: $\gcd(7,6) = 1$, $(13, 84, 85)$ but $c > 50$. Primitive triples with $c \leq 50$: $(3,4,5)$, $(5,12,13)$, $(15,8,17)$, $(7,24,25)$, $(21,20,29)$, $(9,40,41)$, $(35,12,37)$. $\blacksquare$ </details> ### 10.3 Pell's Equation **Theorem 10.3.** The equation $x^2 - Dy^2 = 1$ (where $D$ is not a perfect square) always has Non-trivial integer solutions. If $(x_1, y_1)$ is the smallest positive solution, then all solutions Are given by $(x_n + y_n\sqrt{D}) = (x_1 + y_1\sqrt{D})^n$. _Proof._ The existence of a non-trivial solution follows from Dirichlet’s unit theorem applied to $\mathbb{Z}[\sqrt{D}]$. The general solution follows from the fact that the group of units of norm $1$ in $\mathbb{Z}[\sqrt{D}]$ is cyclic and generated by the fundamental unit. $\blacksquare$ **Problem.** Find all solutions to $x^2 - 2y^2 = 1$. <details> <summary>Solution</summary> The continued fraction of $\sqrt{2} = [1; \overline{2}]$ has period $\ell = 1$ (odd). The first convergent after $p_0/q_0 = 1/1$ is $p_1/q_1 = 3/2$. Check: $3^2 - 2 \cdot 2^2 = 9 - 8 = 1$. The fundamental solution is $(x_1, y_1) = (3, 2)$. All solutions are given by $(3 + 2\sqrt{2})^n = x_n + y_n\sqrt{2}$. $n = 1$: $(3, 2)$. $n = 2$: $(17, 12)$. $n = 3$: $(99, 70)$. $n = 4$: $(577, 408)$. $\blacksquare$ </details> **Problem.** Find the fundamental solution to $x^2 - 3y^2 = 1$. <details> <summary>Solution</summary> $\sqrt{3} = [1; \overline{1, 2}]$Period $\ell = 2$ (even). Convergents: $p_0/q_0 = 1/1$, $p_1/q_1 = 2/1$. $a_2 = 2$: $p_2 = 2 \cdot 2 + 1 = 5$, $q_2 = 2 \cdot 1 + 1 = 3$. Since $\ell = 2$ is even, the fundamental solution is $(p_{\ell-1}, q_{\ell-1}) = (p_1, q_1) = (2, 1)$. Check: $2^2 - 3 \cdot 1^2 = 4 - 3 = 1$. Confirmed. All solutions: $(2 + \sqrt{3})^n = x_n + y_n\sqrt{3}$. $n = 1$: $(2, 1)$. $n = 2$: $(7, 4)$. $n = 3$: $(26, 15)$. $n = 4$: $(97, 56)$. $\blacksquare$ </details> ### 10.4 The Method of Descent **Theorem 10.4.** The equation $x^4 + y^4 = z^2$ has no non-trivial integer solutions. _Proof (sketch)._ Assume a minimal solution $(x, y, z)$ with $z > 0$ minimal. Then $(x^2, y^2, z)$ Is a Pythagorean triple. Using the parameterization of Pythagorean triples and infinite descent, one Constructs a smaller solution, contradicting minimality. $\blacksquare$ **Corollary 10.5.** The equation $x^4 + y^4 = z^4$ has no non-trivial integer solutions (this is Fermat's last theorem for $n = 4$). ### 10.5 The Generalized Riemann Hypothesis **Conjecture (Generalized Riemann Hypothesis).** All non-trivial zeros of the Dirichlet $L$-function $L(s, \chi)$ for any Dirichlet character $\chi$ lie on the line $\mathrm{Re}(s) = 1/2$. This is one of the most important open problems in mathematics. It has profound implications for the Distribution of primes in arithmetic progressions and the error terms in various number-theoretic Estimates. ## 11. Algebraic Number Theory: Gaussian Integers ### 11.1 The Gaussian Integers **Definition.** The **Gaussian integers** are $\mathbb{Z}[i] = \\{a + bi : a, b \in \mathbb{Z}\\}$ Where $i = \sqrt{-1}$. They form a commutative ring with unity under the usual addition and Multiplication of complex numbers. ### 11.2 Norm and Units The **norm** of $\alpha = a + bi \in \mathbb{Z}[i]$ is $N(\alpha) = a^2 + b^2 = \alpha \bar{\alpha}$. **Proposition 11.1.** $N(\alpha\beta) = N(\alpha)N(\beta)$. **Proposition 11.2.** The units of $\mathbb{Z}[i]$ are $\\{1, -1, i, -i\\}$ (exactly those with norm $1$). ### 11.3 Primes in Gaussian Integers **Theorem 11.3.** An element $\pi \in \mathbb{Z}[i]$ is prime if and only if one of the following Holds: 1. $\pi = u(1 + i)$ for some unit $u$ (up to associates, $\pi = 1 + i$With norm $2$). 2. $\pi = u(a + bi)$ where $a^2 + b^2 = p$ for a prime $p \equiv 1 \pmod{4}$. 3. $\pi = up$ where $p \equiv 3 \pmod{4}$ is a prime in $\mathbb{Z}$. _Proof._ If $N(\pi) = p$ where $p \equiv 1 \pmod{4}$ is prime, then $\pi$ is Gaussian prime. If $p \equiv 3 \pmod{4}$ Then $p$ is Gaussian prime (since $p = (a + bi)(c + di)$ would give $p^2 = N(p) = (a^2 + b^2)(c^2 + d^2)$Forcing one factor to have norm $1$A unit). The prime $2 = (1 + i)(1 - i) = (1+i)^2 \cdot (-i)$ So $1 + i$ is Gaussian prime with norm $2$. $\blacksquare$ **Corollary 11.4 (Fermat’s Theorem on Sums of Two Squares).** A prime $p$ can be written as a sum of Two squares if and only if $p = 2$ or $p \equiv 1 \pmod{4}$. _Proof._ For $p \equiv 1 \pmod{4}$: by quadratic reciprocity, $-1$ is a QR mod $p$ So $a^2 \equiv -1 \pmod{p}$ for some $a$. Then $p \mid (a^2 + 1) = (a + i)(a - i)$ in $\mathbb{Z}[i]$. If $p$ were prime in $\mathbb{Z}[i]$It would divide $a + i$ or $a - i$ But neither quotient is in $\mathbb{Z}[i]$. So $p = \alpha\beta$ with neither a unit, giving $p^2 = N(p) = N(\alpha)N(\beta)$ So $N(\alpha) = N(\beta) = p$I.e., $p = a^2 + b^2$. $\blacksquare$ ### 11.4 The Gaussian Integers Form a UFD **Theorem 11.5.** $\mathbb{Z}[i]$ is a Euclidean domain (with norm as the Euclidean function), hence A PID, hence a UFD. _Proof._ For $\alpha, \beta \in \mathbb{Z}[i]$ with $\beta \neq 0$Write $\alpha/\beta = s + ti$ With $s, t \in \mathbb{Q}$. Choose $m, n \in \mathbb{Z}$ with $|s - m| \leq 1/2$ and $|t - n| \leq 1/2$. Set $q = m + ni$ and $r = \alpha - \beta q$. Then $r \in \mathbb{Z}[i]$ and $N(r) = N(\beta) \cdot N(\alpha/\beta - q) = N(\beta)((s-m)^2 + (t-n)^2) \leq N(\beta) \cdot 1/2 \lt N(\beta)$. So $\mathbb{Z}[i]$ is Euclidean. $\blacksquare$ ### 11.5 Worked Example **Problem.** Factor $5$ in $\mathbb{Z}[i]$. _Solution._ $N(5) = 25$. We need $a^2 + b^2 = 5$Which gives $(a, b) = (1, 2)$ or $(2, 1)$. So $5 = (1 + 2i)(1 - 2i) = (2 + i)(2 - i)$. Note that $1 + 2i$ and $2 - i$ differ by a unit: $1 + 2i = -i(2 - i)$. So up to associates, $5 = (2 + i)(2 - i)$. $\blacksquare$ **Problem.** Factor $13$ in $\mathbb{Z}[i]$ and verify that $13 = a^2 + b^2$. <details> <summary>Solution</summary> Since $13 \equiv 1 \pmod{4}$It factors in $\mathbb{Z}[i]$. We need $a^2 + b^2 = 13$ with $a, b \in \mathbb{Z}$. Trying: $a^2 \leq 13$ So $a \in \\{0, 1, 2, 3\\}$. $a = 2$: $b^2 = 9$, $b = 3$. So $13 = 2^2 + 3^2 = (2 + 3i)(2 - 3i)$. Verification: $(2 + 3i)(2 - 3i) = 4 + 9 = 13$. Both $2 + 3i$ and $2 - 3i$ are Gaussian primes Since $N(2 + 3i) = 13$ is prime. $\blacksquare$ </details> ### 11.6 Associates and Irreducibility **Definition.** Two Gaussian integers $\alpha, \beta$ are **associates** if $\alpha = u\beta$ for some Unit $u \in \\{1, -1, i, -i\\}$. Associates have the same norm. **Proposition 11.6.** A Gaussian integer $\alpha$ is irreducible if and only if $N(\alpha)$ is either A prime in $\mathbb{Z}$ or the square of a prime in $\mathbb{Z}$. _Proof._ If $N(\alpha) = p$ (prime in $\mathbb{Z}$) and $\alpha = \beta\gamma$ Then $N(\alpha) = N(\beta)N(\gamma) = p$ So one of $N(\beta), N(\gamma)$ equals $1$Making that Factor a unit. Conversely, if $\alpha$ is irreducible, then $N(\alpha)$ has no nontrivial Factorizations compatible with factorizations of $\alpha$. $\blacksquare$ **Problem.** Determine whether the following Gaussian integers are irreducible: $3 + 4i$, $6 + 7i$, $2 + 5i$. <details> <summary>Solution</summary> $3 + 4i$: $N(3 + 4i) = 9 + 16 = 25 = 5^2$. This is a square of a prime, so $3 + 4i$ may or may Not be irreducible. In fact, $(2+i)^2 = 4 + 4i + i^2 = 3 + 4i$ So $3 + 4i$ is **reducible**. $6 + 7i$: $N(6 + 7i) = 36 + 49 = 85 = 5 \cdot 17$. Neither $5$ nor $17$ is a square of a prime, And $N(6 + 7i)$ is not prime. We check if $6 + 7i$ has a proper factor. If $6 + 7i = (a + bi)(c + di)$ With $N(a + bi) = 5$ Then $a^2 + b^2 = 5$Giving $(a, b) = (1, 2)$ or $(2, 1)$. Check: $(1 + 2i)(2 + 3i) = 2 + 3i + 4i + 6i^2 = -4 + 7i \neq 6 + 7i$. $(1+2i)(3+2i) = 3 + 2i + 6i + 4i^2 = -1 + 8i$. $(2+i)(3+4i) = 6 + 8i + 3i + 4i^2 = 2 + 11i$. $(2+i)(4+3i) = 8 + 6i + 4i + 3i^2 = 5 + 10i$. $(1+2i)(4+3i) = 4 + 3i + 8i + 6i^2 = -2 + 11i$. None match, so $6 + 7i$ is **irreducible**. $2 + 5i$: $N(2 + 5i) = 4 + 25 = 29$Which is prime. So $2 + 5i$ is **irreducible**. $\blacksquare$ </details> ### 11.7 Division in Gaussian Integers **Proposition 11.7.** If $\alpha, \beta \in \mathbb{Z}[i]$ with $\beta \neq 0$ Then there exist $\kappa, \rho \in \mathbb{Z}[i]$ such that $\alpha = \beta\kappa + \rho$ with $N(\rho) \lt N(\beta)$. This is the Euclidean algorithm for $\mathbb{Z}[i]$ (proved in Theorem 11.5). **Problem.** Divide $11 + 3i$ by $4 - i$ in $\mathbb{Z}[i]$Finding quotient and remainder. <details> <summary>Solution</summary> $\frac{11 + 3i}{4 - i} = \frac{(11 + 3i)(4 + i)}{(4 - i)(4 + i)} = \frac{44 + 11i + 12i + 3i^2}{17} = \frac{41 + 23i}{17} = \frac{41}{17} + \frac{23}{17}i$. Round: $\kappa = 2 + 1i = 2 + i$. $\rho = (11 + 3i) - (4 - i)(2 + i) = (11 + 3i) - (8 + 4i - 2i - i^2) = (11 + 3i) - (9 + 2i) = 2 + i$. Check: $N(\rho) = N(2 + i) = 5 \lt N(4 - i) = 17$. $\blacksquare$ </details> ## 12. Arithmetic Functions ### 12.1 Multiplicative Functions **Definition.** An arithmetic function $f \colon \mathbb{N} \to \mathbb{C}$ is **multiplicative** if $f(mn) = f(m)f(n)$ whenever $\gcd(m, n) = 1$. It is **completely multiplicative** if $f(mn) = f(m)f(n)$ for all $m, n$. **Proposition 12.1.** If $f$ is multiplicative and $n = p_1^{a_1} \cdots p_k^{a_k}$ Then $f(n) = f(p_1^{a_1}) \cdots f(p_k^{a_k})$. **Example.** $\phi(n)$ is multiplicative (but not completely multiplicative). $\phi(6) = 2 \neq \phi(2)\phi(2) = 1$. ### 12.2 The Sum-of-Divisors Function **Definition.** $\sigma(n) = \sum_{d \mid n} d$ (the sum of all positive divisors of $n$). $\tau(n) = \sum_{d \mid n} 1$ (the number of positive divisors of $n$). **Proposition 12.2.** If $n = p_1^{a_1} \cdots p_k^{a_k}$ Then $$\sigma(n) = \prod_{i=1}^k \frac{p_i^{a_i + 1} - 1}{p_i - 1}, \quad \tau(n) = \prod_{i=1}^k (a_i + 1)$$ _Proof._ Both $\sigma$ and $\tau$ are multiplicative (since the divisor structure of $mn$ with $\gcd(m,n) = 1$ factors as the product of the divisor structures of $m$ and $n$). So it suffices To verify the formula for prime powers. For $n = p^a$: the divisors are $1, p, p^2, \ldots, p^a$Giving $$\sigma(p^a) = 1 + p + p^2 + \cdots + p^a = \frac{p^{a+1} - 1}{p - 1}, \quad \tau(p^a) = a + 1$$ The general formula follows from multiplicativity. $\blacksquare$ **Definition.** $n$ is **perfect** if $\sigma(n) = 2n$. **Theorem 12.3 (Euclid--Euler).** An even number $n$ is perfect if and only if $n = 2^{p-1}(2^p - 1)$ Where $2^p - 1$ is a Mersenne prime. _Proof._ If $n = 2^{p-1}(2^p - 1)$ with $2^p - 1$ prime, then $\sigma(n) = \sigma(2^{p-1})\sigma(2^p - 1) = (2^p - 1) \cdot 2^p = 2n$. Conversely, if $n$ is even And perfect, write $n = 2^{p-1}m$ with $m$ odd. Then $\sigma(n) = (2^p - 1)\sigma(m) = 2^p m$ So $\sigma(m) = 2^p m / (2^p - 1)$. Since $\sigma(m)$ must be an integer, $(2^p - 1) \mid m$. Write $m = (2^p - 1)q$. Then $\sigma(m) = 2^p q$ But also $\sigma(m) \geq m + 1 = (2^p - 1)q + 1$. If $q > 1$ Then $\sigma(m) \geq m + 1 + q > 2^p q$ Contradiction. So $q = 1$ and $m = 2^p - 1$ is prime. $\blacksquare$ ### 12.3 The Möbius Function **Definition.** The **Möbius function** $\mu \colon \mathbb{N} \to \\{-1, 0, 1\\}$ is defined by: - $\mu(1) = 1$. - $\mu(n) = 0$ if $n$ is divisible by a square of a prime ($n$ is not **squarefree**). - $\mu(n) = (-1)^k$ if $n$ is a product of $k$ **distinct** primes. **Proposition 12.4 (Properties of $\mu$).** 1. $\mu$ is multiplicative: if $\gcd(m, n) = 1$ Then $\mu(mn) = \mu(m)\mu(n)$. 2. $\sum_{d \mid n} \mu(d) = 1$ if $n = 1$ and $0$ if $n > 1$. _Proof of (2)._ If $n = 1$: $\sum_{d \mid 1} \mu(d) = \mu(1) = 1$. If $n > 1$Write $n = p_1^{a_1} \cdots p_k^{a_k}$. By multiplicativity, $\sum_{d \mid n} \mu(d) = \prod_{i=1}^k \sum_{j=0}^{a_i} \mu(p_i^j)$. For each factor: $\sum_{j=0}^{a_i} \mu(p_i^j) = \mu(1) + \mu(p_i) + \mu(p_i^2) + \cdots = 1 + (-1) + 0 + \cdots = 0$ Since $a_i \geq 1$. $\blacksquare$ ### 12.4 Dirichlet Convolution **Definition.** The **Dirichlet convolution** of two arithmetic functions $f$ and $g$ is $$(f * g)(n) = \sum_{d \mid n} f(d) \cdot g\!\left(\frac{n}{d}\right)$$ **Proposition 12.5 (Properties of Dirichlet convolution).** 1. **Commutativity:** $f * g = g * f$. 2. **Associativity:** $(f * g) * h = f * (g * h)$. 3. **Identity element:** The function $\varepsilon(n) = \begin{cases} 1 & n = 1 \\ 0 & n > 1 \end{cases}$ satisfies $f * \varepsilon = f$. 4. **Möbius inversion:** $\mu$ is the convolution inverse of $\mathbf{1}$ (where $\mathbf{1}(n) = 1$ for all $n$), i.e., $\mathbf{1} * \mu = \varepsilon$. _Proof of (1)._ $(f * g)(n) = \sum_{d \mid n} f(d)g(n/d)$. Setting $e = n/d$This equals $\sum_{e \mid n} f(n/e)g(e) = (g * f)(n)$. $\blacksquare$ ### 12.5 Möbius Inversion **Theorem 12.6 (Möbius Inversion).** If $f(n) = \sum_{d \mid n} g(d)$ for all $n \geq 1$ Then $$g(n) = \sum_{d \mid n} \mu(d) f(n/d)$$ _Proof._ In terms of Dirichlet convolution: $f = g * \mathbf{1}$ So $f * \mu = (g * \mathbf{1}) * \mu = g * (\mathbf{1} * \mu) = g * \varepsilon = g$. The explicit form Follows by writing out the convolution: $\sum_{d \mid n} \mu(d) f(n/d) = \sum_{d \mid n} \mu(d) \sum_{e \mid (n/d)} g(e) = \sum_{e \mid n} g(e) \sum_{d \mid (n/e)} \mu(d)$. The inner sum is $1$ if $e = n$ and $0$ otherwise, so only $g(n)$ remains. $\blacksquare$ ### 12.6 Euler's Totient Summation Formula **Proposition 12.7.** $\sum_{k=1}^{n} \phi(k) = \frac{3}{\pi^2} n^2 + O(n \log n)$. _Intuition._ The probability that two random integers are coprime is $1/\zeta(2) = 6/\pi^2$. The Number of pairs $(a, b)$ with $1 \leq a \leq b \leq n$ and $\gcd(a, b) = 1$ is $\sum_{b=1}^n \phi(b)$Which should be approximately $\frac{1}{2} \cdot \frac{6}{\pi^2} n^2 = \frac{3}{\pi^2}n^2$. ### 12.7 Worked Examples **Problem.** Express $\sum_{d \mid n} \phi(d)$ in closed form. _Solution._ Let $f(n) = \sum_{d \mid n} \phi(d)$. We claim $f(n) = n$. Since $\phi$ is multiplicative, $f$ is multiplicative. For $n = p^a$: $f(p^a) = \sum_{j=0}^a \phi(p^j) = \phi(1) + \phi(p) + \cdots + \phi(p^a) = 1 + (p - 1) + (p^2 - p) + \cdots + (p^a - p^{a-1}) = p^a$. So $f(n) = n$. This can also be proved directly: the integers $1, 2, \ldots, n$ are partitioned by Their gcd with $n$ And the number with $\gcd(k, n) = d$ is $\phi(n/d)$. $\blacksquare$ **Problem.** Use Möbius inversion to find a formula for $\phi(n)$ in terms of the divisors of $n$. <details> <summary>Solution</summary> We know $\sum_{d \mid n} \phi(d) = n$. By Möbius inversion: $$\phi(n) = \sum_{d \mid n} \mu(d) \cdot \frac{n}{d} = n \sum_{d \mid n} \frac{\mu(d)}{d} = n \prod_{p \mid n}\left(1 - \frac{1}{p}\right)$$ The last equality uses the multiplicative property of $\mu$: the sum $\sum_{d \mid n} \mu(d)/d$ factors Over prime powers as $\prod_{p \mid n} (1 - 1/p)$. $\blacksquare$ </details> **Problem.** Compute $\sum_{d \mid 60} \mu(d) \cdot \sigma(60/d)$. <details> <summary>Solution</summary> $60 = 2^2 \cdot 3 \cdot 5$. The divisors of $60$ are $\\{1, 2, 3, 4, 5, 6, 10, 12, 15, 20, 30, 60\\}$. $\mu$ is nonzero only for squarefree divisors: $\mu(1) = 1$, $\mu(2) = -1$, $\mu(3) = -1$, $\mu(5) = -1$, $\mu(6) = 1$, $\mu(10) = 1$, $\mu(15) = 1$, $\mu(30) = -1$. $\sigma(60) = 168$, $\sigma(30) = 72$, $\sigma(20) = 42$, $\sigma(15) = 24$ $\sigma(12) = 28$, $\sigma(10) = 18$, $\sigma(6) = 12$, $\sigma(1) = 1$. $\sum_{d \mid 60} \mu(d)\sigma(60/d) = 1 \cdot 168 + (-1) \cdot 72 + (-1) \cdot 42 + (-1) \cdot 24 + 1 \cdot 28 + 1 \cdot 18 + 1 \cdot 12 + (-1) \cdot 1 = 168 - 72 - 42 - 24 + 28 + 18 + 12 - 1 = 87$. This computes the Dirichlet convolution $(\mu * \sigma)(60)$. $\blacksquare$ </details> ### 12.8 Perfect Numbers and Amicable Numbers **Definition.** Two positive integers $m$ and $n$ are **amicable** (or **friendly**) if $\sigma(m) = \sigma(n) = m + n$. The pair $(m, n)$ is called an **amicable pair**. **Example.** $(220, 284)$ is the smallest amicable pair: $\sigma(220) = \sigma(2^2)\sigma(5)\sigma(11) = 7 \cdot 6 \cdot 12 = 504 = 220 + 284$. $\sigma(284) = \sigma(4)\sigma(71) = 7 \cdot 72 = 504 = 220 + 284$. **Proposition 12.9.** If $m$ and $n$ form an amicable pair, then $\frac{\sigma(m)}{m} = \frac{\sigma(n)}{n}$. **Problem.** Show that $(1184, 1210)$ is an amicable pair. <details> <summary>Solution</summary> $1184 = 2^5 \cdot 37$. $\sigma(1184) = \sigma(32)\sigma(37) = 63 \cdot 38 = 2394$. $1210 = 2 \cdot 5 \cdot 11^2$. $\sigma(1210) = \sigma(2)\sigma(5)\sigma(121) = 3 \cdot 6 \cdot 133 = 2394$. $1184 + 1210 = 2394 = \sigma(1184) = \sigma(1210)$. Confirmed: $(1184, 1210)$ is amicable. $\blacksquare$ </details> ### 12.9 Ramanujan’s Tau Function **Definition.** **Ramanujan's tau function** $\tau(n)$ (not to be confused with the divisor-counting Function) is defined by the identity $$\sum_{n=1}^{\infty} \tau(n) q^n = q \prod_{n=1}^{\infty}(1 - q^n)^{24}$$ **Proposition 12.10 (Ramanujan’s congruences).** For all $n \geq 1$: 1. $\tau(5n) \equiv \tau(n) \pmod{5}$ 2. $\tau(7n) \equiv \tau(n) \pmod{7}$ 3. $\tau(11n) \equiv \tau(n) \pmod{11}$ These congruences were conjectured by Ramanujan in 1916 and proved by Mordell in 1917. They Were later explained by Deligne's .../1-number-and-algebra/3_proof-and-logic of the Weil conjectures. ## 13. Additional Topics ### 13.1 Wilson’s Theorem **Theorem 13.1 (Wilson's Theorem).** $p$ is prime if and only if $(p - 1)! \equiv -1 \pmod{p}$. _Proof._ If $p$ is prime: in $\mathbb{Z}/p\mathbb{Z}$Each element pairs with its inverse. The only Self-inverse elements are $1$ and $p - 1$. So $(p-1)! \equiv 1 \cdot (p-1) \equiv -1 \pmod{p}$. Conversely, if $n$ is composite and $n > 4$ Then $(n-1)! \equiv 0 \pmod{n}$ since $n$ has a proper Factor appearing in $(n-1)!$. $\blacksquare$ ### 13.2 The Ring $\mathbb{Z}/n\mathbb{Z}$ **Theorem 13.2.** The ring $\mathbb{Z}/n\mathbb{Z}$ is a field if and only if $n$ is prime. **Proposition 13.3.** $(\mathbb{Z}/n\mathbb{Z})^*$ has order $\phi(n)$ and is a group under Multiplication. ### 13.3 Dirichlet’s Theorem on Primes in Arithmetic Progressions **Theorem 13.4 (Dirichlet).** If $\gcd(a, m) = 1$ Then there are infinitely many primes of the form $a + km$ ($k \geq 0$). _Proof (sketch)._ Dirichlet introduced $L$-functions $L(s, \chi) = \sum_{n=1}^{\infty} \chi(n)/n^s$ Where $\chi$ is a Dirichlet character mod $m$. The key steps are: 1. $L(s, \chi_0)$ has a simple pole at $s = 1$ (where $\chi_0$ is the principal character). 2. $L(1, \chi) \neq 0$ for non-principal characters $\chi$. 3. $\log L(s, \chi_0) = \sum_p \log(1 - \chi_0(p)/p^s)^{-1} = \sum_p \sum_{k \geq 1} \chi_0(p^k)/(kp^{ks})$. 4. Combining over all characters: $\sum_\chi \log L(s, \chi)$ diverges as $s \to 1^+$ And the contribution from $\chi_0$ captures primes $p \equiv a \pmod{m}$. $\blacksquare$ ### 13.4 The Frobenius Coin Problem **Theorem 13.5 (Frobenius).** If $\gcd(a, b) = 1$ and $a, b$ are positive, then the largest integer That cannot be expressed as $ax + by$ with $x, y \geq 0$ is $ab - a - b$. _Proof._ First, we show every integer $n \geq ab$ can be written as $ax + by$ with $x, y \geq 0$. Since $\gcd(a, b) = 1$The set $\\{0, a, 2a, \ldots, (b-1)a\\}$ is a complete residue system modulo $b$. So for any $n \geq 0$There exists $x$ with $0 \leq x \leq b - 1$ and $ax \equiv n \pmod{b}$Meaning $n - ax = by$ for some integer $y$. When $n \geq (b-1)a$We have $by = n - ax \geq 0$ So $y \geq 0$. Thus all $n \geq (b-1)a = ab - a$ are representable. To show $ab - a - b$ is not representable: if $ab - a - b = ax + by$ with $x, y \geq 0$ Then $ab = a(x+1) + b(y+1)$ So $b \mid a(x+1)$Hence $b \mid (x+1)$ (since $\gcd(a,b) = 1$). So $x + 1 \geq b$Giving $ax \geq a(b-1) = ab - a$. Then $by = ab - a - b - ax \leq ab - a - b - (ab - a) = -b \lt 0$ Contradicting $y \geq 0$. $\blacksquare$ **Problem.** What is the largest amount of postage that cannot be made using 6-cent and 11-cent stamps? <details> <summary>Solution</summary> $\gcd(6, 11) = 1$. By the Frobenius theorem, the largest non-representable amount is $6 \cdot 11 - 6 - 11 = 66 - 17 = 49$ cents. Verification: $49 = 6x + 11y$ requires $y$ odd (since $49 - 11y$ must be even). $y = 1$: $38/6$ (no). $y = 3$: $16/6$ (no). $y = 5$: $-6/6$ (negative). So $49$ is indeed not representable. $50 = 6 \cdot 4 + 11 \cdot 2$, $51 = 6 \cdot 5 + 11 \cdot 1$, $52 = 6 \cdot 7 + 11 \cdot 0$. All Values $50$ and above are representable. $\blacksquare$ </details> ### 13.5 The Carmichael Function **Definition.** The **Carmichael function** $\lambda(n)$ is the smallest positive integer such that $a^{\lambda(n)} \equiv 1 \pmod{n}$ for all $a$ with $\gcd(a, n) = 1$. For $n = p_1^{a_1} \cdots p_k^{a_k}$: $$\lambda(n) = \mathrm{lcm}\!\left(\lambda(p_1^{a_1}), \ldots, \lambda(p_k^{a_k})\right)$$ Where $\lambda(2) = 1$, $\lambda(4) = 2$, $\lambda(2^k) = 2^{k-2}$ for $k \geq 3$ And $\lambda(p^k) = (p-1)p^{k-1}$ for odd primes $p$. **Proposition 13.6.** $\lambda(n) \mid \phi(n)$ for all $n \geq 1$ And $\lambda(n) = \phi(n)$ precisely When $n = 1, 2, 4$, $n = p^k$Or $n = 2p^k$ (where $p$ is an odd prime). _Intuition._ The Carmichael function gives the **exponent** of the group $(\mathbb{Z}/n\mathbb{Z})^*$ Which equals the lcm of the orders of all elements. Euler's totient $\phi(n)$ gives the order of The group. The exponent always divides the order, with equality exactly when the group is cyclic (i.e., when a primitive root exists). **Theorem 13.7 (Korselt’s Criterion).** $n$ is a **Carmichael number** (composite $n$ with $a^{n-1} \equiv 1 \pmod{n}$ for all $\gcd(a, n) = 1$) if and only if: 1. $n$ is squarefree, and 2. For every prime $p \mid n$, $(p - 1) \mid (n - 1)$. _Proof._ If $n$ is squarefree with $n = p_1 \cdots p_k$ Then $\lambda(n) = \mathrm{lcm}(p_1 - 1, \ldots, p_k - 1)$. We need $\lambda(n) \mid (n - 1)$Which is equivalent to each $(p_i - 1) \mid (n - 1)$. $\blacksquare$ **Example.** $561 = 3 \cdot 11 \cdot 17$. Check: $3 - 1 = 2 \mid 560$, $11 - 1 = 10 \mid 560$ $17 - 1 = 16 \mid 560$. So $561$ is a Carmichael number (the smallest). ### 13.6 Sophie Germain Primes **Definition.** A prime $p$ is a **Sophie Germain prime** if $2p + 1$ is also prime. The prime $q = 2p + 1$ is called a **safe prime**. Sophie Germain primes arise in the study of Fermat's last theorem: if $p$ is a Sophie Germain prime, then there are no non-zero integer solutions to $x^p + y^p = z^p$ with $p \nmid xyz$ (this was proved by Sophie Germain). **Proposition 13.8.** If $q = 2p + 1$ is a safe prime and $a$ is a quadratic residue modulo $q$ Then $a^p \equiv 1 \pmod{q}$. _Proof._ By Euler’s criterion, $a^{(q-1)/2} = a^p \equiv 1 \pmod{q}$. $\blacksquare$ The first few Sophie Germain primes are: $2, 3, 5, 11, 23, 29, 41, 53, 83, 89, 113, \ldots$ It is conjectured (but not proved) that there are infinitely many Sophie Germain primes. ### 13.7 Mersenne and Fermat Primes **Definition.** A **Mersenne prime** is a prime of the form $M_p = 2^p - 1$ where $p$ is prime. A **Fermat prime** is a prime of the form $F_n = 2^{2^n} + 1$. **Proposition 13.9.** If $2^p - 1$ is prime, then $p$ is prime. _Proof._ If $p = ab$ with $a, b > 1$ Then $2^p - 1 = (2^a)^b - 1 = (2^a - 1)(2^{a(b-1)} + \cdots + 2^a + 1)$ Which is composite. $\blacksquare$ **Proposition 13.10.** If $2^{2^n} + 1$ is prime, then $n$ is a power of $2$. _Proof._ If $n = ab$ with $b$ odd, then $2^{2^n} + 1 = (2^{2^a})^{2^{n-a}} + 1$ And we can factor $x^{2^k} + 1 = (x^{2^{k-1}} + 1)^2 - 2x^{2^{k-1}}$Which allows induction. $\blacksquare$ The known Fermat primes are $F_0 = 3$, $F_1 = 5$, $F_2 = 17$, $F_3 = 257$, $F_4 = 65537$. No others are known, and it is conjectured that these are the only ones. ## 14. Additional Results ### 14.1 Fermat's Last Theorem **Theorem 14.1 (Wiles, 1995).** For $n \geq 3$The equation $x^n + y^n = z^n$ has no non-zero Integer solutions. The .../1-number-and-algebra/3_proof-and-logic is far beyond our scope, using deep results from algebraic geometry (elliptic curves, Modular forms, Galois representations). ### 14.1a The Twin Prime Conjecture **Conjecture (Twin Prime Conjecture).** There are infinitely many primes $p$ such that $p + 2$ Is also prime. The largest known twin prime pair (as of 2026) contains numbers with over 400,000 digits. In 2013, Yitang Zhang proved that there exists some constant $N \lt 7 \times 10^7$ such that infinitely many Prime pairs $(p, p + N)$ exist. This bound has since been improved to $N \leq 246$ by the Polymath project. **Theorem 14.1a (Brun, 1919).** The sum of the reciprocals of the twin primes converges: $$\sum_{\substack{p \mathrm{\ prime} \\ p+2 \mathrm{\ prime}} \left(\frac{1}{p} + \frac{1}{p+2}\right) \lt \infty}$$ This is known as **Brun’s theorem**. It establishes that the twin primes form a "thin" set, In contrast to the full set of primes (whose reciprocal sum diverges by Euler). ### 14.2 The Ring $\mathbb{Z}[\sqrt{-5}]$ **Example.** In $\mathbb{Z}[\sqrt{-5}]$Unique factorization fails: $$6 = 2 \cdot 3 = (1 + \sqrt{-5})(1 - \sqrt{-5})$$ The elements $2, 3, 1 + \sqrt{-5}, 1 - \sqrt{-5}$ are all irreducible but not prime (in the Ring-theoretic sense). This failure of unique factorization motivates the development of ideal Theory. ### 14.3 Quadratic Forms **Definition.** A **binary quadratic form** is $Q(x, y) = ax^2 + bxy + cy^2$ with $a, b, c \in \mathbb{Z}$. Its **discriminant** is $D = b^2 - 4ac$. Two forms are **equivalent** if one can be obtained from the other by a change of variables $(x, y) \mapsto (px + qy, rx + sy)$ with $ps - qr = 1$. **Theorem 14.2 (Gauss).** The number of equivalence classes of binary quadratic forms of Discriminant $D \lt 0$ is finite. The class number $h(D)$ is 1 precisely for $D \in \{-3, -4, -7, -8, -11, -19, -43, -67, -163\}$. _Remark._ The fact that $-163$ is the largest such $D$ was conjectured by Gauss and proved by Heegner in 1952 (with later simplified .../1-number-and-algebra/3_proof-and-logics by Stark and Baker). This is the celebrated **class number 1 problem**. **Proposition 14.2a.** A binary quadratic form $Q(x, y) = ax^2 + bxy + cy^2$ of discriminant $D \lt 0$ represents $n$ if and only if $D$ is a quadratic residue modulo $4n$. ### 14.4 The Class Number and Unique Factorization The **class group** of a quadratic field $\mathbb{Q}(\sqrt{D})$ measures the failure of unique Factorization in its ring of integers. The **class number** $h(D)$ is the order of this group. **Theorem 14.3.** Unique factorization holds in the ring of integers of $\mathbb{Q}(\sqrt{D})$ If and only if $h(D) = 1$. This connects the algebraic question of unique factorization to the analytic properties of the Dedekind zeta function, via the class number formula: $$h(D) = \frac{\sqrt{|D|}}{2\pi} \cdot L(1, \chi_D)$$ Where $L(s, \chi_D)$ is the Dirichlet $L$-function associated to the quadratic character $\chi_D$. **Proposition 14.3a.** The class number $h(-D)$ grows roughly as $\sqrt{D}$ for large $D$: $h(-D) \sim \frac{\sqrt{D}}{\pi} \cdot L(1, \chi_{-D})$ as $D \to \infty$. ### 14.5 Mersenne Numbers **Theorem 14.4 (Lucas--Lehmer test).** Let $M_p = 2^p - 1$ with $p$ an odd prime. Define the sequence $L_0 = 4$, $L_{n+1} = L_n^2 - 2$. Then $M_p$ is prime if and only if $L_{p-2} \equiv 0 \pmod{M_p}$. This test makes it possible to efficiently determine the primality of Mersenne numbers, which is Why the largest known primes are Mersenne primes. **Proposition 14.4a.** Every even perfect number is a Mersenne prime times a power of $2$. This is the Euclid--Euler theorem (Theorem 12.3) restated in terms of Mersenne primes. **Problem.** Use the Lucas--Lehmer test to verify that $M_5 = 31$ is prime. <details> <summary>Solution</summary> $M_5 = 2^5 - 1 = 31$. We need $L_{5-2} = L_3 \equiv 0 \pmod{31}$. $L_0 = 4$ $L_1 = 4^2 - 2 = 14$ $L_2 = 14^2 - 2 = 194$. $194 = 6 \cdot 31 + 8$ So $L_2 \equiv 8 \pmod{31}$. $L_3 = 8^2 - 2 = 62 \equiv 0 \pmod{31}$. Since $L_3 \equiv 0 \pmod{31}$, $M_5 = 31$ is prime. $\blacksquare$ </details> ### 14.6 The abc Conjecture **Conjecture (Masser--Oesterlé, 1985).** For every $\varepsilon > 0$There exists $K_\varepsilon > 0$ Such that for all coprime positive integers $a, b, c$ with $a + b = c$: $$c \lt K_\varepsilon \cdot \mathrm{rad}(abc)^{1 + \varepsilon}$$ Where $\mathrm{rad}(n) = \prod_{p \mid n} p$ is the **radical** of $n$ (the product of distinct prime Factors). The abc conjecture is one of the most important open problems in number theory. It implies: - Fermat's last theorem for sufficiently large exponents. - Mordell’s conjecture (Faltings' theorem). - Roth’s theorem on Diophantine approximation. - The existence of infinitely many non-Wieferich primes. ### 14.7 The Collatz Conjecture **Conjecture (Collatz, 1937).** Define $T \colon \mathbb{N} \to \mathbb{N}$ by $$T(n) = \begin{cases} n/2 & n \mathrm{\ even} \\ 3n + 1 & n \mathrm{\ odd} \end{cases}$$ For every positive integer $n$The sequence $n, T(n), T(T(n)), \ldots$ eventually reaches $1$. Despite its simple statement, the Collatz conjecture remains open. It has been verified by computer For all starting values up to at least $2^{68}$ But no general .../1-number-and-algebra/3_proof-and-logic exists. ### 14.8 Worked Example **Problem.** Determine all representations of $n = 7$ as a sum of two squares. _Solution._ We need $a^2 + b^2 = 7$ with $a, b \in \mathbb{Z}$. Checking: $a^2 \leq 7$ So $a \in \\{0, 1, 2\\}$. For $a = 0$: $b^2 = 7$ (no). For $a = 1$: $b^2 = 6$ (no). For $a = 2$: $b^2 = 3$ (no). By symmetry, $a = -1, -2$ give the same. So $7$ cannot be written as a sum of two Squares. This is consistent with the theorem: $7 \equiv 3 \pmod{4}$ So it is not a sum of two squares. $\blacksquare$ ### 14.9 Worked Example: Quadratic Forms **Problem.** Determine the number of representations of $n = 65$ as a sum of two squares. <details> <summary>Solution</summary> $65 = 5 \cdot 13$. Both $5 \equiv 1 \pmod{4}$ and $13 \equiv 1 \pmod{4}$ So both are sums of two Squares: $5 = 1^2 + 2^2$ and $13 = 2^2 + 3^2$. By the identity $(a^2 + b^2)(c^2 + d^2) = (ac - bd)^2 + (ad + bc)^2 = (ac + bd)^2 + (ad - bc)^2$: Using $5 = 1^2 + 2^2$ and $13 = 2^2 + 3^2$: $(1 \cdot 2 - 2 \cdot 3)^2 + (1 \cdot 3 + 2 \cdot 2)^2 = (-4)^2 + 7^2 = 16 + 49 = 65$. $(1 \cdot 2 + 2 \cdot 3)^2 + (1 \cdot 3 - 2 \cdot 2)^2 = 8^2 + (-1)^2 = 64 + 1 = 65$. Also $65 = 8^2 + 1^2 = 7^2 + 4^2$. Including signs and order, the representations are $(\pm 1, \pm 8)$, $(\pm 4, \pm 7)$, $(\pm 7, \pm 4)$, $(\pm 8, \pm 1)$Giving $16$ ordered pairs. $\blacksquare$ </details> ## 15. Common Pitfalls :::caution Common Pitfall The Chinese Remainder Theorem requires the moduli to be pairwise coprime. If $m_1$ and $m_2$ share a common factor $d$The system $x \equiv a_1 \pmod{m_1}$ $x \equiv a_2 \pmod{m_2}$ is solvable only if $a_1 \equiv a_2 \pmod{d}$. ::: :::caution Common Pitfall $\left(\frac{a}{n}\right) = 1$ for the Jacobi symbol does NOT mean $a$ is A QR modulo $n$. For example, $\left(\frac{2}{15}\right) = \left(\frac{2}{3}\right)\left(\frac{2}{5}\right) = (-1)(-1) = 1$ But $x^2 \equiv 2 \pmod{15}$ has no solution (checking mod $3$: $x^2 \equiv 2 \pmod{3}$ is impossible). ::: :::caution Common Pitfall When using Fermat's little theorem, remember that $a^{p-1} \equiv 1 \pmod{p}$ only when $\gcd(a, p) = 1$. The correct form for all $a$ is $a^p \equiv a \pmod{p}$. ::: :::caution Common Pitfall Not every prime in $\mathbb{Z}$ remains prime in $\mathbb{Z}[i]$. Only Primes $p \equiv 3 \pmod{4}$ remain prime in $\mathbb{Z}[i]$. Primes $p \equiv 1 \pmod{4}$ factor as $p = (a + bi)(a - bi)$ And $2 = (1 + i)^2 \cdot (-i)$. ::: :::caution Common Pitfall The Euclidean algorithm computes $\gcd(a, b)$ for positive integers. When Working with negative integers or polynomials, remember that $\gcd$ is defined up to a unit (sign For integers, leading coefficient for polynomials). ::: :::caution Common Pitfall When solving $ax \equiv b \pmod{m}$You must first check that $\gcd(a, m) \mid b$. If not, there is no solution. If $\gcd(a, m) = d > 1$Divide through by $d$ And remember that the modulus becomes $m/d$. ::: :::caution Common Pitfall Primitive roots do not exist for all moduli. A primitive root modulo $n$ Exists only for $n = 2$, $n = 4$, $n = p^k$Or $n = 2p^k$ where $p$ is an odd prime. For example, There is no primitive root modulo $8$ or modulo $15$. ::: :::caution Common Pitfall In the division algorithm $a = bq + r$The remainder satisfies $0 \leq r \lt b$ when $b > 0$. When $a$ is negative, the quotient $q$ is also negative (or zero). For example, $-17 = 5 \cdot (-4) + 3$Not $-17 = 5 \cdot (-3) + (-2)$. ::: :::caution Common Pitfall The Möbius function $\mu(n) = 0$ when $n$ has a repeated prime factor. Only squarefree integers have nonzero Möbius function values. When using Möbius inversion, many Terms in the sum may be zero. ::: :::caution Common Pitfall Euler’s theorem requires $\gcd(a, n) = 1$. To compute $a^k \bmod n$ When $\gcd(a, n) \neq 1$Factor out common prime factors first, or use the CRT to work modulo Prime power factors of $n$ separately.
+### 12.5 Euler, Fermat and Practical Detail
 
-## Cross-References
+- Repeated squaring computes $m^e \bmod n$ in $O(\log e)$ multiplications — the reason large
+  exponents are feasible.
+- $\gcd(e, \varphi(n)) = 1$ guarantees $d$ exists (multiplicative inverse modulo $\varphi(n)$,
+  extended Euclid — see [Congruences](/7-number-theory/3_congruences/)).
+- Decryption works for **all** $m$ (not just coprime ones) when $n = pq$: check $m^{ed} \equiv m$
+  mod $p$ and mod $q$ separately, then CRT.
 
-- **[Probability Spaces](../8-probability-and-statistics/1_probability-spaces)**: Probability theory uses number-theoretic concepts like divisibility and modular arithmetic in cryptographic applications.
-- **[Random Variables](../8-probability-and-statistics/2_random-variables)**: Random variables in number theory include the Mobius function and Euler's totient function.
-- **[Complex Numbers Review](../6-complex-analysis/1_complex-numbers-review)**: Complex numbers extend the integers to Gaussian integers, enabling deeper number-theoretic results.
+### 12.6 Common Pitfalls
 
-- [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
-- [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+- $\varphi(n) = (p-1)(q-1)$ requires $p \neq q$: with $p = q$, $\varphi(n) = p(p-1)$, not
+  $(p-1)^2$.
+- Never publish $d$ or $\varphi(n)$: knowing $\varphi(n)$ is equivalent to knowing $p$ and $q$.
+- Textbook RSA is **deterministic** and malleable: real systems use randomised padding (OAEP);
+  state this in "criticise the scheme" questions.
+- Diffie–Hellman without authentication is a man-in-the-middle target: the fix is signatures
+  (RSA or ElGamal signatures), not a change of group.
 
-Keep practising and reviewing to master this topic.
-## See also
+## See Also
 
-- [University Maths Flashcards: Number Theory](/7-number-theory/flashcards-number-theory/)
-- [Number Theory Practice (Interactive)](/7-number-theory/practice-number-theory/)
-- [Number Theory](/number-theory/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+- [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
+- [Linear Congruences and the Chinese Remainder Theorem](/7-number-theory/5_linear-congruences-and-the-chinese-remainder-theorem/)
+
+
+$$
+m^{ed} \equiv m \pmod n \quad \text{whenever } ed \equiv 1 \pmod{\varphi(n)}
+$$
+
+A full exam question walks the entire key generation: choose primes, compute $n$ and
+$\varphi(n)$, pick $e$ and invert it, encrypt a small message by repeated squaring, decrypt, and
+then criticise the scheme. Practise each stage to the point where repeated squaring is mechanical.
+
+The standard criticism list: deterministic encryption leaks equality of plaintexts; small
+decryption exponents fall to Wiener's continued-fraction attack (the continued-fraction page is
+the natural companion); shared factors between two public moduli break both keys — the factoring
+is a single gcd.
 
 ---
 
@@ -31123,6 +32039,486 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+
+---
+
+## Primes And The Fundamental Theorem Of Arithmetic
+URL: https://mathematics.wyattau.com/7-number-theory/2_primes-and-the-fundamental-theorem-of-arithmetic/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Primes and the Fundamental Theorem of Arithmetic", "url": "https://mathematics.wyattau.com/7-number-theory/primes-and-the-fundamental-theorem-of-arithmetic"}]
+}
+</script>
+
+### 2.1 Primes
+
+**Definition.** An integer $p > 1$ is **prime** if its only positive divisors are $1$ and $p$.
+An integer $n > 1$ that is not prime is **composite**.
+
+1 is neither prime nor composite — a convention that makes unique factorisation statements clean.
+
+**Euclid's lemma** (from [Divisibility](/7-number-theory/1_divisibility-and-euclidean-algorithm/)):
+if $p$ is prime and $p \mid ab$, then $p \mid a$ or $p \mid b$. This *fails* for composite $p$
+($6 \mid 4 \cdot 9$ but $6 \nmid 4$ and $6 \nmid 9$), and is precisely what makes primes special.
+
+### 2.2 Infinitely Many Primes (Euclid)
+
+**Theorem.** There are infinitely many primes.
+
+*Proof.* Suppose $p_1, \ldots, p_k$ are all the primes and consider
+
+$$
+N = p_1 p_2 \cdots p_k + 1.
+$$
+
+$N > 1$, so it has a prime divisor $p$. But no $p_i$ divides $N$ (each leaves remainder 1), so $p$
+is a prime not in the list — contradiction. $\blacksquare$
+
+Note the proof gives **no efficient method** for producing new primes: $p_1 \cdots p_k + 1$ need
+not be prime (the products are called *Euclid numbers*; $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13
++ 1 = 30031 = 59 \times 509$ is composite).
+
+### 2.3 The Fundamental Theorem of Arithmetic
+
+**Theorem (FTA).** Every integer $n > 1$ can be written as a product of primes, and this factorisation
+is unique up to the order of the factors.
+
+*Existence* (strong induction): $n = 2$ is prime. If $n > 2$ is composite, $n = ab$ with
+$1 < a, b < n$; each factor factors into primes by induction, so $n$ does too.
+
+*Uniqueness* (Euclid's lemma): suppose
+
+$$
+n = p_1 p_2 \cdots p_r = q_1 q_2 \cdots q_s
+$$
+
+with primes $p_i, q_j$. Then $p_1 \mid q_1 \cdots q_s$, so $p_1 \mid q_j$ for some $j$; both are
+prime so $q_j = p_1$. Cancel and repeat on the remaining product. The lists match exactly.
+$\blacksquare$
+
+**Canonical form.** Collect equal primes:
+
+$$
+n = p_1^{e_1} p_2^{e_2} \cdots p_k^{e_k}, \qquad p_1 < p_2 < \cdots < p_k, \quad e_i \geq 1.
+$$
+
+### 2.4 Consequences You Can Quote
+
+- $\gcd$ and $\mathrm{lcm}$ from factorisations:
+
+$$
+\gcd(a, b) = \prod p_i^{\min(\alpha_i, \beta_i)}, \qquad
+\mathrm{lcm}(a, b) = \prod p_i^{\max(\alpha_i, \beta_i)},
+$$
+
+and always $\gcd(a,b) \cdot \mathrm{lcm}(a,b) = |ab|$.
+
+- **Irrationality of $\sqrt{2}$**: if $\sqrt{2} = a/b$ in lowest terms then $a^2 = 2b^2$, so
+  $2 \mid a^2$, hence $2 \mid a$ (Euclid's lemma); writing $a = 2c$ gives $4c^2 = 2b^2$, so
+  $2 \mid b$ — contradicting lowest terms. The same argument works with 2 replaced by any prime,
+  proving $\sqrt{p}$ irrational for every prime $p$.
+- **No integer between 0 and 1 is a product of primes**: the FTA genuinely fails in systems like
+  $\mathbb{Z}[\sqrt{-5}]$ ($6 = 2 \cdot 3 = (1+\sqrt{-5})(1-\sqrt{-5})$) — uniqueness, not
+  existence, is the delicate part.
+
+### 2.5 Counting Divisors
+
+If $n = p_1^{e_1} \cdots p_k^{e_k}$ then the number of positive divisors is
+
+$$
+\tau(n) = (e_1 + 1)(e_2 + 1) \cdots (e_k + 1),
+$$
+
+since a divisor chooses an exponent between 0 and $e_i$ independently for each prime. For example,
+$720 = 2^4 \cdot 3^2 \cdot 5$ has $(5)(3)(2) = 30$ divisors.
+
+### 2.6 The Sieve of Eratosthenes
+
+To list all primes up to $N$: write the integers from 2 to $N$, circle 2 and cross out all larger
+multiples of 2; circle the next surviving number and cross out its larger multiples; repeat while
+the circled number satisfies $p \leq \sqrt{N}$. Composites up to $N$ always have a prime factor
+$\leq \sqrt{N}$, so the survivors are exactly the primes. Cost: $O(N \log \log N)$ operations.
+
+### 2.7 Common Pitfalls
+
+- 1 is **not** prime: allowing $1$ as a factor would destroy uniqueness of the factorisation.
+- Factorisations must cover **negative** integers via the sign: $-12 = -1 \cdot 2^2 \cdot 3$.
+- The FTA is about the **multiset** of primes: $12 = 2 \cdot 2 \cdot 3 = 3 \cdot 2 \cdot 2$ are the
+  same factorisation in different orders.
+- Euclid's infinitude proof does **not** say $p_1 \cdots p_k + 1$ is prime — only that it has a
+  new prime factor.
+
+## See Also
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+
+For exam proofs, write factorisations in canonical ascending-prime form before comparing — order-free multisets earn no method marks unless the canonical form is stated first.
+Every exam answer should conclude with the canonical form restated: the uniqueness statement is about the multiset of prime factors, not the written order of the product.
+
+---
+
+## Primitive Roots And Discrete Logarithms
+URL: https://mathematics.wyattau.com/7-number-theory/7_primitive-roots-and-discrete-logarithms/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Primitive Roots and Discrete Logarithms", "url": "https://mathematics.wyattau.com/7-number-theory/primitive-roots-and-discrete-logarithms"}]
+}
+</script>
+
+### 7.1 The Order of an Element
+
+**Definition.** The **order** of $a$ modulo $n$ ($\gcd(a, n) = 1$) is the smallest positive $d$
+with $a^d \equiv 1 \pmod n$. It always exists (Fermat/Euler bound it by $p - 1$, $\varphi(n)$)
+and divides every exponent that kills $a$: if $a^k \equiv 1$ then $d \mid k$.
+
+*Proof of the division fact.* Write $k = qd + r$, $0 \leq r < d$. Then
+$a^k = (a^d)^q a^r \equiv a^r \equiv 1$; minimality of $d$ forces $r = 0$. $\blacksquare$
+
+**Worked example.** Powers of 3 mod 7: $3, 2, 6, 4, 5, 1$ — order 6 = $\varphi(7)$.
+
+### 7.2 Primitive Roots
+
+**Definition.** $g$ is a **primitive root** modulo $n$ if the order of $g$ is $\varphi(n)$, i.e.
+the powers of $g$ run through *all* units:
+
+$$
+\{g^1, g^2, \ldots, g^{\varphi(n)}\} = \{1 \leq a < n : \gcd(a, n) = 1\}.
+$$
+
+Equivalently $g$ generates the group of units, and every unit is $g^k$ for exactly one
+$k \in \{1, \ldots, \varphi(n)\}$.
+
+**Theorem (Gauss).** $n$ possesses a primitive root if and only if
+$n \in \{1, 2, 4, p^k, 2p^k\}$ for odd primes $p$.
+
+So primitive roots exist for every odd prime power (and 2, 4), but **not** for $n = 8$ (squares
+of odd units are $\equiv 1 \pmod 8$) nor for most even moduli.
+
+**Example.** Mod 7, the order of 3 is 6 = $\varphi(7)$, so 3 is a primitive root; every unit is a
+power of 3. Mod 7, 2 has order 3 ($2, 4, 1$) — not a primitive root.
+
+### 7.3 Indices (Discrete Logarithms)
+
+If $g$ is a primitive root mod $n$ and $\gcd(a, n) = 1$, the **index** of $a$ (base $g$) is the
+unique $k$ with $a \equiv g^k \pmod n$ — the **discrete logarithm**. Indices turn multiplication
+into addition, exactly like logarithms:
+
+$$
+\operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b) \pmod{\varphi(n)}.
+$$
+
+They are the computational engine of old-style power-congruence problems, and their **one-way
+hardness** (computing $\operatorname{ind}$ from $g^k$) underlies Diffie–Hellman key exchange — see
+[Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/).
+
+### 7.4 Finding Primitive Roots
+
+The order of any unit divides $\varphi(n)$; $g$ is primitive iff
+$g^{\varphi(n)/q} \not\equiv 1$ for **every prime** $q \mid \varphi(n)$. Testing the prime
+factors only is the standard shortcut.
+
+**Example.** Mod 31, $\varphi(31) = 30 = 2 \cdot 3 \cdot 5$. Test 3:
+$3^{15} \equiv$ (compute) $\not\equiv 1$, $3^{10} \equiv 26 \not\equiv 1$,
+$3^6 = 729 \equiv 16 \not\equiv 1$: order 30 — 3 is a primitive root mod 31.
+
+The number of primitive roots mod $p$ is $\varphi(p - 1)$, and they are exactly $g^k$ for
+$\gcd(k, p-1) = 1$.
+
+### 7.5 Consequences
+
+- **Power equation solvability**: $x^m \equiv a \pmod p$ (with $g$ a primitive root and
+  $\operatorname{ind}(a) = b$) reduces to the linear congruence $m k \equiv b \pmod{p - 1}$ in
+  indices — solvable iff $\gcd(m, p-1) \mid b$.
+- **Quadratic residues** are exactly the even-index powers: see
+  [Quadratic Residues](/7-number-theory/8_quadratic-residues/).
+- **Products of two squares** and related characterisations fall out of the index parity.
+
+### 7.6 Common Pitfalls
+
+- Checking only $g^{(p-1)/2} \not\equiv 1$ does **not** prove $g$ is primitive — all prime factors
+  of $p - 1$ must be excluded.
+- Primitive roots exist only for $n \in \{1, 2, 4, p^k, 2p^k\}$: there is no primitive root mod 8
+  or mod 15; "find a primitive root mod 15" is a trick question.
+- $\operatorname{ind}$ values live modulo $\varphi(n)$, and the discrete log of a sum is not the
+  sum of discrete logs.
+
+## See Also
+
+- [Quadratic Residues](/7-number-theory/8_quadratic-residues/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+- [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+### 7.x Index Arithmetic in Action
+
+Solve $3^x \equiv 5 \pmod 7$ using index tables base 3: $\operatorname{ind}_3(5) = 5$ and $\operatorname{ind}_3(3) = 1$, so $x \equiv 5 \pmod 6$ — the linear-congruence method from the CRT page.
+
+
+$$
+\operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)
+\pmod{\varphi(n)}
+$$
+
+Index arithmetic converts multiplication problems into linear congruences. To compute
+$3^{17} \pmod{7}$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
+$3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
+
+
+$$
+\operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)
+\pmod{\varphi(n)}
+$$
+
+Index arithmetic converts multiplication problems into linear congruences. To compute
+$3^{17} \pmod 7$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
+$3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
+
+---
+
+## Quadratic Residues
+URL: https://mathematics.wyattau.com/7-number-theory/8_quadratic-residues/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Quadratic Residues", "url": "https://mathematics.wyattau.com/7-number-theory/quadratic-residues"}]
+}
+</script>
+
+### 8.1 Quadratic Residues
+
+**Definition.** For $p$ prime and $p \nmid a$, $a$ is a **quadratic residue** (QR) mod $p$ if
+$x^2 \equiv a \pmod p$ is solvable, and a **non-residue** otherwise.
+
+For odd $p$, exactly half of the nonzero residue classes are QRs: the map $x \mapsto x^2$ on
+$(\mathbb{Z}/p\mathbb{Z})^\times$ is two-to-one ($x$ and $-x$), so its image has
+$(p-1)/2$ elements. Example mod 7: squares are $1, 4, 2, 2, 4, 1$ — QRs are $\{1, 2, 4\}$.
+
+### 8.2 Euler's Criterion
+
+$$
+a^{(p-1)/2} \equiv \begin{cases} 1 & a \text{ is a QR} \\ -1 & a \text{ is a non-residue}\end{cases} \pmod p.
+$$
+
+*Proof sketch.* With $g$ a primitive root, $a = g^k$; then
+$a^{(p-1)/2} = g^{k(p-1)/2} \equiv 1$ iff $(p-1) \mid k(p-1)/2$, i.e. $k$ even iff $a$ is a QR.
+If $a$ is a non-residue ($k$ odd), $a^{(p-1)/2}$ squares to 1 but is not 1, hence is $-1$
+(only two square roots of 1 mod $p$). $\blacksquare$
+
+### 8.3 The Legendre Symbol
+
+$$
+\left(\frac{a}{p}\right) = \begin{cases} 1 & a \text{ QR mod } p \\ -1 & a \text{ non-residue} \\ 0 & p \mid a \end{cases}
+$$
+
+Euler's criterion becomes
+$\left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p$ — a fast evaluation method.
+
+**Properties.**
+
+- Multiplicativity: $\left(\frac{ab}{p}\right) = \left(\frac{a}{p}\right)\left(\frac{b}{p}\right)$.
+- $\left(\frac{-1}{p}\right) = (-1)^{(p-1)/2}$: $-1$ is a QR exactly for $p \equiv 1 \pmod 4$.
+- $\left(\frac{2}{p}\right) = (-1)^{(p^2-1)/8}$: 2 is a QR exactly for $p \equiv \pm 1 \pmod 8$.
+- **Quadratic reciprocity** (Gauss): for odd primes $p \neq q$,
+  $\left(\frac{p}{q}\right)\left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2}\frac{q-1}{2}}$ — the
+  deep theorem that lets you evaluate any Legendre symbol by repeated reduction.
+
+**Worked example.** Is 5 a QR mod 23? $23 \equiv 3 \pmod 5$. Reciprocity:
+$\left(\frac{5}{23}\right) = \left(\frac{23}{5}\right)$ (sign $= (-1)^{11 \cdot 2} = +1$), and
+$23 \equiv 3 \pmod 5$: $\left(\frac{3}{5}\right) = -1$ (squares mod 5 are 1, 4). So 5 is a
+non-residue mod 23. Check by Euler: $5^{11} \equiv -1 \pmod{23}$.
+
+### 8.4 Counting Solutions of $x^2 \equiv a$
+
+For odd $p$ and $p \nmid a$:
+
+- $a$ QR: exactly **two** solutions, $x$ and $p - x$ (found by Tonelli's algorithm or trial).
+- $a$ non-residue: **zero** solutions.
+
+The equation $x^2 \equiv a \pmod{p^k}$ behaves differently: solutions lift uniquely from mod $p$
+when $p$ is odd. For $x^2 \equiv a \pmod{2^k}$ the 2-adic analysis is more delicate — a favourite
+distinction-level question.
+
+### 8.5 Worked Problems
+
+**Problem 1.** Determine $\left(\frac{7}{13}\right)$ and, if 7 is a QR, solve $x^2 \equiv 7$.
+
+Euler: $7^6 \pmod{13}$: $7^2 = 49 \equiv 10$, $7^4 \equiv 100 \equiv 9$, $7^6 \equiv 9 \cdot 10
+= 90 \equiv 12 \equiv -1$. So 7 is a non-residue: no solutions.
+
+**Problem 2.** Show $x^2 \equiv -1 \pmod p$ is solvable iff $p = 2$ or $p \equiv 1 \pmod 4$.
+Euler: $(-1)^{(p-1)/2} = 1$ iff $p \equiv 1 \pmod 4$.
+
+### 8.6 Common Pitfalls
+
+- Euler's criterion works **only for odd prime** $p$.
+- $\left(\frac{a}{p}\right) = 1$ gives two solutions, not one: remember $\pm x$.
+- Reciprocity sign bookkeeping: the exponent is $\frac{p-1}{2}\cdot\frac{q-1}{2}$; an odd product
+  flips the symbol, an even one does not.
+- Composite moduli need the Jacobi symbol $(a/n)$, which is **multiplicative but does not decide**
+  solvability when $n$ is composite: $\left(\frac{a}{n}\right) = 1$ does not imply $x^2 \equiv a$
+  is solvable.
+
+## See Also
+
+- [Primitive Roots and Discrete Logarithms](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Pell's Equation and Diophantine Equations](/7-number-theory/9_sums-of-squares-and-pells-equation/)
+
+### 8.x A Counting Check
+
+Mod 11, the QRs are $\{1, 3, 4, 5, 9\}$ — exactly $(11-1)/2 = 5$ classes. Verify by squaring $1, \ldots, 10$ and note the symmetry $x$ and $11 - x$ share a square.
+
+
+$$
+\left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p
+$$
+
+Euler's criterion doubles as a computation recipe: exponentiate and read the sign. For
+$p = 23$, $a = 5$: $5^{11} \equiv -1 \pmod{23}$, so 5 is a non-residue and $x^2 \equiv 5$ has
+no solution. Pair this with reciprocity for a two-mark derivation.
+
+
+$$
+\left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p
+$$
+
+Euler's criterion doubles as a computation recipe: exponentiate and read the sign. For
+$p = 23$, $a = 5$: $5^{11} \equiv -1 \pmod{23}$, so 5 is a non-residue and $x^2 \equiv 5$ has
+no solution. Pair this with reciprocity for a two-mark derivation.
+Euler's criterion also solves $x$: when $a^{(p+1)/4} \equiv \pm x$ for $p \equiv 3 \pmod 4$, squaring recovers $a$ — the two solutions are negatives of each other.
+
+### 8.x A QR Table Worth Memorising
+
+Mod 11 the QRs are $\{1, 3, 4, 5, 9\}$ and mod 13 they are $\{1, 3, 4, 9, 10, 12\}$ — five and six classes respectively, each exactly half of the nonzero residues as Euler's criterion predicts.
+
+---
+
+## Sums Of Squares And Pells Equation
+URL: https://mathematics.wyattau.com/7-number-theory/9_sums-of-squares-and-pells-equation/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "7 Number Theory", "url": "https://mathematics.wyattau.com/7-number-theory"}, {"name": "Pell's Equation and Sums of Squares", "url": "https://mathematics.wyattau.com/7-number-theory/pells-equation-and-sums-of-squares"}]
+}
+</script>
+
+### 9.1 Pell's Equation
+
+**Definition.** For a nonsquare positive integer $D$, **Pell's equation** is
+
+$$
+x^2 - D y^2 = 1, \qquad x, y \in \mathbb{Z}.
+$$
+
+The trivial solutions $(\pm 1, 0)$ always exist; the equation is interesting because whenever one
+non-trivial solution $(x_1, y_1)$ exists, **infinitely many** do — all generated by powers of the
+fundamental solution in the ring $\mathbb{Z}[\sqrt{D}]$:
+
+$$
+x_k + y_k \sqrt{D} = (x_1 + y_1 \sqrt{D})^k, \qquad k = 1, 2, 3, \ldots
+$$
+
+(the algebra works because $(x_1^2 - D y_1^2)(x_2^2 - D y_2^2) = (x_1 x_2 - D y_1 y_2)^2 -
+D(x_1 y_2 + x_2 y_1)^2$ — Brahmagupta's identity).
+
+**Example.** $x^2 - 2y^2 = 1$: fundamental solution $(3, 2)$, and successive solutions
+$(17, 12), (99, 70), (577, 408), \ldots$ — the $y$-values grow like $(3 + 2\sqrt 2)^k / (2\sqrt 2)$,
+exponentially.
+
+**Example (the cattle problem of Archimedes, simplified).** $x^2 - 61 y^2 = 1$ has fundamental
+solution $x = 1766319049$, $y = 226153980$ — a famously enormous answer discovered via continued
+fractions, illustrating why the equation resisted solution for centuries.
+
+### 9.2 Solving Pell via Continued Fractions
+
+The **continued fraction expansion** of $\sqrt{D}$ is periodic for every nonsquare $D$:
+
+$$
+\sqrt{D} = [a_0; \overline{a_1, a_2, \ldots, a_r}].
+$$
+
+The solutions of Pell's equation come from the convergents $p_k/q_k$:
+
+- If the period length $r$ is even, $(p_{r-1}, q_{r-1})$ is the fundamental solution of
+  $x^2 - Dy^2 = 1$.
+- If $r$ is odd, $(p_{2r-1}, q_{2r-1})$ solves $= 1$, and $(p_{r-1}, q_{r-1})$ solves the
+  **negative Pell** equation $x^2 - D y^2 = -1$.
+
+**Worked example.** $\sqrt{7} = [2; \overline{1, 1, 1, 4}]$ ($r = 4$, even). Convergents: $2/1$,
+$3/1$, $5/2$, $8/3$ — check $8^2 - 7 \cdot 3^2 = 64 - 63 = 1$: fundamental solution $(8, 3)$, and
+the next is $(127, 48)$.
+
+### 9.3 Sums of Two Squares
+
+**Theorem (Fermat, two squares).** An odd prime $p$ satisfies $p = x^2 + y^2$ iff
+$p \equiv 1 \pmod 4$; and a general integer $n$ is a sum of two squares iff every prime
+$q \equiv 3 \pmod 4$ divides $n$ to an **even** power.
+
+*Proof idea of the prime case.* For $p \equiv 1 \pmod 4$, $-1$ is a QR (Euler's criterion), so
+$x^2 \equiv -1 \pmod p$ has a solution; $x^2 + 1 \equiv 0 \pmod p$ means $p \mid x^2 + 1$ with
+$0 < x^2 + 1 < p^2$, so by **descent** (repeatedly halving via a multiple of $p$) a genuine
+representation is produced. $\blacksquare$
+
+Examples: $5 = 1 + 4$, $13 = 4 + 9$, $17 = 16 + 1$, $29 = 25 + 4$ ($p \equiv 1 \bmod 4$); while
+$3, 7, 11, 19 \equiv 3 \bmod 4$ are never sums of two squares. $21 = 3 \cdot 7$ has 3 to an odd
+power → not a sum of two squares. $45 = 3^2 \cdot 5$ → $45 = 36 + 9$ ✓ (3 appears to an even
+power).
+
+### 9.4 Four Squares and Beyond
+
+**Lagrange's four-square theorem**: every $n \geq 0$ is a sum of four squares (proven by Euler's
+identity plus descent). Waring's theorem generalises: every $n$ is a sum of at most $g(k)$
+$k$-th powers; the conjectured values $g(2) = 4$, $g(3) = 9$, $g(4) = 19$ are known.
+
+Two squares → at most four squares → the pattern of *which* numbers need how many squares is
+governed by Legendre's three-square theorem: $n$ is a sum of three squares iff $n$ is **not** of
+the form $4^a(8b + 7)$.
+
+### 9.5 Common Pitfalls
+
+- Pell has **no solutions** when $D$ is a perfect square ($x^2 - k^2 y^2 = 1$ factors over
+  $\mathbb{Z}$, forcing $y = 0$).
+- The fundamental solution can be astronomically large ($D = 61$ case) — never guess it; use the
+  continued fraction of $\sqrt{D}$.
+- The two-squares criterion fails on the *power* of a $3 \bmod 4$ prime: $9 = 3^2$ is not a sum of
+  two squares (odd power test), but $9 \cdot 5 = 45$ is.
+- Products of sums of two squares are again sums of two squares (Brahmagupta) — quotable in
+  constructions.
+
+## See Also
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Quadratic Residues](/7-number-theory/8_quadratic-residues/)
+- [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
+
+
+$$
+x_k + y_k \sqrt{D} = (x_1 + y_1 \sqrt{D})^k
+$$
+
+Generate Pell solutions by repeated multiplication in $\mathbb{Z}[\sqrt{D}]$: for $D = 2$,
+$(3 + 2\sqrt2)^2 = 17 + 12\sqrt2$, so the next solution is $(17, 12)$. Quote Brahmagupta's
+identity as the reason powers of one solution are again solutions.
+Check every Pell solution by substitution before quoting it: $x^2 - Dy^2$ must equal exactly 1, and one arithmetic slip in a large multiplication invalidates the whole sequence.
+
+### 9.x A Second Pell Cascade
+
+For $D = 5$: $\sqrt5 = [2; \overline{4}]$, period 1 (odd), so $(9, 4)$ solves $x^2 - 5y^2 = 1$ from the convergent $9/4$, and $(2, 1)$ solves $x^2 - 5y^2 = -1$.
 
 ## Probability-And-Statistics
 
