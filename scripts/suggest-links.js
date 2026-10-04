@@ -143,7 +143,9 @@ if (APPLY) {
     const targets = new Set(s.page.outboundTargets.map(t => t.replace(/\/$/, '')))
     const fresh = s.links.filter(l => !targets.has(l.other.urlPath.replace(/\/$/, '')))
     if (fresh.length === 0) continue
-    const bullets = fresh.map(l => `- [${l.other.title}](/${l.other.urlPath === '/' ? '' : l.other.urlPath.slice(1)})`).join('\n')
+    const bullets = fresh
+      .map(l => `- [${l.other.title}](/${l.other.urlPath === '/' ? '' : l.other.urlPath.slice(1)})`)
+      .join('\n')
     const block = `## See also\n\n${bullets}\n`
     let text = fs.readFileSync(s.page.abs, 'utf8')
     if (text.includes('## See also')) continue
