@@ -228,3 +228,8 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Database Design and Development](/computer-science/3-databases/3_databases/)
+- [Databases](/computer-science/3-databases/)
+- [Computer Systems](/computer-science/1-hardware/1_hardware/)

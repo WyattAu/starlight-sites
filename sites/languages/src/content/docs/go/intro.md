@@ -272,3 +272,8 @@ Go is the language of simplicity at scale. It was designed at Google to solve th
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Goroutines](https://go.wyattau.com/concurrency/goroutines/)
 - [Channels](https://go.wyattau.com/concurrency/channels/)
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Haskell](/haskell/00-intro/1_haskell-intro/)

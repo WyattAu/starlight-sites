@@ -909,3 +909,6 @@ Rust splits errors into two bins: bugs (panics) and expected failures (Results).
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+## See also
+
+- [Error Handling Patterns](/04-error-handling/error-handling-patterns/)

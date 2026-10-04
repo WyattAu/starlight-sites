@@ -154,3 +154,8 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 - **Mixing up mass and weight:** Mass ($m$) is in kg and is constant; weight ($W = mg$) is a force in Newtons and varies with gravity. Using mass where weight is required (or vice versa) gives wrong answers by a factor of $g$.
 - **Sign errors in projectile motion:** The acceleration due to gravity is $-g$ (downward) in the vertical direction. Forgetting the negative sign leads to objects accelerating upward instead of falling.
 - **Using rotational kinetic energy without the correct moment of inertia:** The moment of inertia depends on geometry (solid disk $\frac{1}{2}mr^2$, thin ring $mr^2$, etc.). Using the wrong formula gives incorrect rotational energy values.
+## See also
+
+- [Laws Of Motion](/physics/mechanics/01-laws-of-motion/)
+- [Work energy power](/physics/mechanics/02-work-energy-power/)
+- [Rotational motion](/physics/mechanics/03-rotational-motion/)

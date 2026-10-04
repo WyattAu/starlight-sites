@@ -922,3 +922,7 @@ Metaclasses are classes of classes: just as a class defines how instances behave
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
+## See also
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/04-object-oriented/03-descriptors/)

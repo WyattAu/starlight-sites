@@ -2704,6 +2704,10 @@ Good luck with your studies!
 Practice makes perfect!
 
 Keep practising!
+## See also
+
+- [Open Source Licences Guide](/os-licenses/open-source-licenses/)
+- [Open Source Licenses | licensing](/osi-licenses/)
 
 ---
 
@@ -4126,3 +4130,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Open Source](/open-source/)

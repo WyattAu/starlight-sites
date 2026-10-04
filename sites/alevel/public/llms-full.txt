@@ -78572,6 +78572,11 @@ linked above.
 - [Programming Paradigms](https://programming.wyattau.com/fundamentals/programming-paradigms/) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
 - Data Types and Structures -- Data storage and processing techniques have legal implications under data protection regulations.
 :::
+## See also
+
+- [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)
+- [A-Level CS Flashcards: Fundamentals](/computer-science/flashcards-fundamentals/)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)
 
 ---
 
@@ -91575,6 +91580,11 @@ each approach.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
+## See also
+
+- [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
+- [A-Level CS Flashcards: Networks](/computer-science/flashcards-networks/)
+- [Network Fundamentals](/computer-science/networks/01-network-fundamentals/)
 
 ## Economics
 
@@ -93489,6 +93499,11 @@ Social premium for community development projects (schools, healthcare, clean wa
   tariffs to developing-country exports.
 - **Economic Partnership Agreements (EPAs)**: trade agreements between the EU and developing
   countries.
+## See also
+
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [The Financial Sector](/economics/macro/03-the-financial-sector/)
 
 ---
 
@@ -113396,6 +113411,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Diagnostic Test: Literary Analysis](/english/diagnostics/diag-literary-analysis/)
+- [A-Level English: Literary Analysis Practice](/english/practice-literary-analysis/)
 
 ---
 
@@ -113700,6 +113719,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/english/3-prose/)
+- [Index](/english/4-drama/)
 
 ---
 
@@ -113776,6 +113799,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/english/2-poetry/)
+- [Index](/english/4-drama/)
 
 ---
 
@@ -113852,6 +113879,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/english/2-poetry/)
+- [Index](/english/3-prose/)
 
 ---
 
@@ -114004,6 +114035,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Literary Analysis](/english/1-literary-analysis/1_literary-analysis/)
+- [Literary Analysis](/english/1-literary-analysis/)
 
 ---
 
@@ -114232,6 +114267,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Poetry Analysis](/english/2-poetry/1_poetry-analysis/)
+- [Index](/english/2-poetry/)
 
 ---
 
@@ -191695,6 +191734,11 @@ Also independent.
 $$P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - P(A) - P(B) + P(A)P(B)$$
 
 $$= (1 - P(A))(1 - P(B)) = P(A') \cdot P(B') \quad \blacksquare$$
+## See also
+
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Hypothesis Testing (Extended)](/maths/statistics/hypothesis-testing-depth/)
+- [Statistical Distributions (Extended)](/maths/statistics/statistical-distributions-depth/)
 
 ---
 
@@ -198676,6 +198720,11 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 **Mixing up the H-R diagram axes:** The H-R diagram has temperature decreasing from left to right (hot blue stars on the left, cool red stars on the right). Students often plot temperature increasing left to right, which reverses the diagram. Luminosity increases upward.
 
 **Confusing Type Ia and Type II supernovae:** Type Ia supernovae occur when a white dwarf exceeds the Chandrasekhar limit (thermonuclear explosion, no remnant). Type II supernovae occur when a massive star's core collapses (leaves behind a neutron star or black hole). Type Ia are standard candles; Type II are not.
+## See also
+
+- [Astrophysics](/physics/astrophysics/)
+- [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
+- [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)
 
 ---
 
@@ -216773,6 +216822,11 @@ From Newton's apple to quantum particles, physics explains how the world works t
 - [Waves](../waves)
 - [Electricity](../electricity)
 - [Fields](../fields)
+## See also
+
+- [Astrophysics](/physics/astrophysics/01-astrophysics/)
+- [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
+- [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)
 
 ---
 
@@ -217977,6 +218031,10 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 - [Waves](../waves)
 - [Electricity](../electricity)
 - [Fields](../fields)
+## See also
+
+- [Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
+- [Experimental Design](/physics/practical-skills/02-experimental-design/)
 
 ---
 
@@ -218137,6 +218195,10 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 - [Waves](../waves)
 - [Electricity](../electricity)
 - [Fields](../fields)
+## See also
+
+- [Thermal Properties](/physics/thermal-physics/01-thermal-properties/)
+- [Thermodynamics](/physics/thermal-physics/02-thermodynamics/)
 
 ---
 

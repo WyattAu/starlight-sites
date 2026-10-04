@@ -149,3 +149,6 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Crystal structure](/chemistry/solid-state/01-crystal-structure/)

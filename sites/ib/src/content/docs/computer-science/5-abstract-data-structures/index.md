@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)
+- [IB CS Flashcards: Algorithms and Data Structures](/computer-science/flashcards-algorithms-data-structures/)

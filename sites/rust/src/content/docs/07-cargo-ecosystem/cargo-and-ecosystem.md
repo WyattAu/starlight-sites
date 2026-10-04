@@ -976,3 +976,6 @@ Cargo is Rust's project manager, build system, and dependency registry rolled in
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/)
 - [Macros](https://languages.wyattau.com/rust/08-macros/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+## See also
+
+- [Unsafe Rust](/07-cargo-ecosystem/unsafe-rust/)

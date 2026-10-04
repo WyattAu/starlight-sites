@@ -147,3 +147,8 @@ across days (spaced practice) is more effective than cramming.
 **Forgetting that recursion has overhead:** Recursive calls use stack space. Very deep recursion can cause stack overflow. Consider iterative alternatives for large inputs.
 
 **Mixing up determinism with randomness:** Deterministic algorithms produce the same output for the same input. Randomised algorithms use random choices. Don't assume all algorithms are deterministic.
+## See also
+
+- [Computer Science Glossary, Key Terms and Definitions](/glossary/)
+- [Complete Computer Science Study Guide](/hub/)
+- [Computing](/)

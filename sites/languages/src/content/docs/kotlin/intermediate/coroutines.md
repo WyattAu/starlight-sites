@@ -378,3 +378,8 @@ linked above.
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Flow operators (map, filter, fold) mirror collection transformation operations; sequences provide lazy evaluation.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Deferred<T>, Flow<T>, and Channel<T> use generic type parameters with variance annotations.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Property delegation and the Result type complement coroutine patterns for state management and error handling.
+## See also
+
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [Collections](/kotlin/intermediate/collections/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)

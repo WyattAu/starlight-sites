@@ -10139,3 +10139,7 @@ flowchart TD
 
 - **[Site Home](../../):** Main landing page for tuning notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Performance Tuning and Optimization Guide](/hub/)
+- [Performance Tuning Practice](/practice-performance-tuning/)

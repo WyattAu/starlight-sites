@@ -912,3 +912,7 @@ Dicts are hash tables: they map keys to values with O(1) average lookup time. Th
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/)
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+## See also
+
+- [Collections](/03-data-structures/01-collections/)
+- [Data Structures Practice](/practice-data-structures/)

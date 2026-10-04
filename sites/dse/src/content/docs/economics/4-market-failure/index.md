@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Market Structure and Theory of the Firm](/economics/3-market-structure/1_market-structure/)

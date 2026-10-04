@@ -197,3 +197,8 @@ Kotlin is the language that modernised the JVM. It runs on the JVM but adds null
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/)
 - [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/)
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Go](/go/intro/)

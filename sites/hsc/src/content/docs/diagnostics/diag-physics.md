@@ -259,3 +259,6 @@ flowchart TD
 
 - **[Site Home](../../):** Main landing page for hsc notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Diagnostic Test: Mathematics](/diagnostics/diag-mathematics/)

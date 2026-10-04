@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Poetry Analysis](/english/2-poetry/1_poetry-analysis/)
+- [Index](/english/2-poetry/)

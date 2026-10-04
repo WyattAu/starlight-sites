@@ -186,3 +186,7 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)

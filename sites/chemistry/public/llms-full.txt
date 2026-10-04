@@ -1673,6 +1673,11 @@ D. always superconducting
 **Answer: A**
 - Maxwell-Boltzmann counting assumes distinguishable classical particles at low density. Option B describes fermions (Fermi-Dirac); option C describes bosons (Bose-Einstein). Molecular gases at room temperature are well approximated by A.
 *Difficulty: hard*
+## See also
+
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)
+- [Chemical Kinetics -- Practice Problems](/1-physical-chemistry/practice-chemical-kinetics/)
+- [Physical Chemistry -- Practice Problems](/1-physical-chemistry/practice-physical-chemistry/)
 
 ---
 

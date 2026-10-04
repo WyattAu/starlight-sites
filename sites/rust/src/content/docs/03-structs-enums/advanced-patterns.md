@@ -468,3 +468,6 @@ let p2 = Point { y: 5.0, ..p1 };
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 :::
+## See also
+
+- [Structs and Enums](/03-structs-enums/structs-and-enums/)

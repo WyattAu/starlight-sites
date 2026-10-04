@@ -9,7 +9,10 @@
  * is a ranked report for hand-review -- nothing is rewritten
  * automatically.
  *
- * Usage: node scripts/suggest-links.js [maxSuggestionsPerPage]
+ * Usage: node scripts/suggest-links.js [--apply]
+ *
+ *   (default)  ranked report of suggested internal links
+ *   --apply    insert "See also" sections on pages that need them
  */
 
 const fs = require('node:fs')
@@ -17,7 +20,8 @@ const path = require('node:path')
 
 const ROOT = path.join(__dirname, '..')
 const SITES_DIR = path.join(ROOT, 'sites')
-const MAX_SUGGESTIONS = Number(process.argv[2] || 3)
+const APPLY = process.argv.includes('--apply')
+const MAX_SUGGESTIONS = 3
 
 const STOP = new Set(
   'the a an and or of in on for to with by from as is are was were be been at it its this that these those how what why when who which notes guide guide-revision revision level paper papers'.split(
@@ -132,13 +136,31 @@ for (const page of weak) {
 suggestions.sort((a, b) => a.page.inbound - b.page.inbound)
 
 console.log(`Pages needing internal links: ${suggestions.length} of ${pages.length} pages.`)
-console.log('')
-for (const s of suggestions.slice(0, 30)) {
-  console.log(`${s.page.site}.wyattau.com${s.page.urlPath} (inbound: ${s.page.inbound || 0})`)
-  for (const l of s.links) {
-    console.log(
-      `    -> link to ${l.other.site}.wyattau.com${l.other.urlPath} [${l.other.title}] (shared terms: ${l.overlap})`,
-    )
+
+if (APPLY) {
+  let applied = 0
+  for (const s of suggestions) {
+    const targets = new Set(s.page.outboundTargets.map(t => t.replace(/\/$/, '')))
+    const fresh = s.links.filter(l => !targets.has(l.other.urlPath.replace(/\/$/, '')))
+    if (fresh.length === 0) continue
+    const bullets = fresh.map(l => `- [${l.other.title}](/${l.other.urlPath === '/' ? '' : l.other.urlPath.slice(1)})`).join('\n')
+    const block = `## See also\n\n${bullets}\n`
+    let text = fs.readFileSync(s.page.abs, 'utf8')
+    if (text.includes('## See also')) continue
+    text = text.replace(/\s*$/, '') + '\n' + block
+    fs.writeFileSync(s.page.abs, text)
+    applied++
   }
+  console.log(`Applied See also sections to ${applied} pages.`)
+} else {
+  console.log('')
+  for (const s of suggestions.slice(0, 30)) {
+    console.log(`${s.page.site}.wyattau.com${s.page.urlPath} (inbound: ${s.page.inbound || 0})`)
+    for (const l of s.links) {
+      console.log(
+        `    -> link to ${l.other.site}.wyattau.com${l.other.urlPath} [${l.other.title}] (shared terms: ${l.overlap})`,
+      )
+    }
+  }
+  if (suggestions.length > 30) console.log(`...and ${suggestions.length - 30} more pages`)
 }
-if (suggestions.length > 30) console.log(`...and ${suggestions.length - 30} more pages`)

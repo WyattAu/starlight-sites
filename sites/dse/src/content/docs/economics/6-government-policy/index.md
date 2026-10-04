@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Market Failure and Government Intervention](/economics/4-market-failure/1_market-failure-and-government-intervention/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)

@@ -243,3 +243,7 @@ The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for convertin
 - Trigonometry -- Inverse trigonometric functions are defined as inverses of restricted trigonometric functions, requiring understanding of domain restrictions.
 - Matrices -- Rotation matrices use trigonometric functions, and their inverses connect to inverse trigonometric representations.
 - Calculus -- Differentiation and integration of inverse trigonometric functions are key applications in calculus.
+## See also
+
+- [Types of relations](/mathematics/relations-functions/01-types-of-relations/)
+- [Relations and Functions](/mathematics/relations-functions/)

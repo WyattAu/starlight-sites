@@ -2972,6 +2972,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Quantum Mechanics Practice (Interactive)](/5-quantum-mechanics/17_practice-quantum-mechanics/)
+- [Rigid Body Dynamics: Advanced Topics](/1-classical-mechanics/10_rigid-body-dynamics-advanced-topics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
 
 ---
 
@@ -6728,6 +6733,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Solid State Physics Practice (Interactive)](/6-solid-state-physics/17_practice-solid-state-physics/)
+- [Particle Physics and Cosmology Practice (Interactive)](/7-particle-physics-and-cosmology/14_practice-particle-physics-cosmology/)
+- [Classical Mechanics Practice (Interactive)](/1-classical-mechanics/15_practice-classical-mechanics/)
 
 ---
 
@@ -20886,6 +20896,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Classical Mechanics Practice (Interactive)](/1-classical-mechanics/15_practice-classical-mechanics/)
+- [Thermal Physics Practice (Interactive)](/2-thermal-physics/22_practice-thermal-physics/)
+- [Electromagnetism Practice (Interactive)](/3-electromagnetism/15_practice-electromagnetism/)
 
 ---
 
@@ -33327,6 +33342,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Thermal Physics Practice (Interactive)](/2-thermal-physics/22_practice-thermal-physics/)
+- [Solid State Physics Practice (Interactive)](/6-solid-state-physics/17_practice-solid-state-physics/)
+- [Problem Set](/7-particle-physics-and-cosmology/10_problem-set/)
 
 ---
 
@@ -35665,6 +35685,10 @@ URL: https://physics.wyattau.com/practice-mechanics/
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Classical Mechanics Practice (Interactive)](/1-classical-mechanics/15_practice-classical-mechanics/)
+- [Quantum Mechanics Practice (Interactive)](/5-quantum-mechanics/17_practice-quantum-mechanics/)
 
 ---
 
@@ -35821,6 +35845,11 @@ Practice problems covering fundamental concepts in classical mechanics. Each pro
 
 - **[Site Home](../../):** Main landing page for physics notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [University Physics Practice Test, 30 Challenging Problems](/practice-test-mega/)
+- [Thermal Physics Practice (Interactive)](/2-thermal-physics/22_practice-thermal-physics/)
+- [Solid State Physics Practice (Interactive)](/6-solid-state-physics/17_practice-solid-state-physics/)
 
 ---
 

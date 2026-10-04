@@ -199,3 +199,8 @@ From Newton's apple to quantum particles, physics explains how the world works t
 - [Waves](../waves)
 - [Electricity](../electricity)
 - [Fields](../fields)
+## See also
+
+- [Astrophysics](/physics/astrophysics/01-astrophysics/)
+- [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
+- [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)

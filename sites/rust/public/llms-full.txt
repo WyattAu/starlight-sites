@@ -2788,6 +2788,10 @@ c2.set(c2.get() + 1);
 assert_eq!(counter.get(), 2);
 ```
 :::
+## See also
+
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)
 
 ---
 
@@ -2974,6 +2978,10 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)
 
 ---
 
@@ -3983,6 +3991,10 @@ Ownership is Rust's single most important concept. Imagine every value is a libr
 - [Interior Mutability](https://languages.wyattau.com/rust/02-ownership-borrowing/interior-mutability/)
 - [Structs and Enums](https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums/)
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/)
+## See also
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)
 
 ## Structs-Enums
 
@@ -4453,6 +4465,9 @@ let p2 = Point { y: 5.0, ..p1 };
 println!("{}", p1.x);  // ERROR: x was moved into p2
 ```
 :::
+## See also
+
+- [Structs and Enums](/03-structs-enums/structs-and-enums/)
 
 ---
 
@@ -5134,6 +5149,9 @@ struct User {
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
 :::
+## See also
+
+- [Advanced Struct and Enum Patterns](/03-structs-enums/advanced-patterns/)
 
 ## Error-Handling
 
@@ -6046,6 +6064,9 @@ Rust splits errors into two bins: bugs (panics) and expected failures (Results).
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+## See also
+
+- [Error Handling Patterns](/04-error-handling/error-handling-patterns/)
 
 ---
 
@@ -7064,6 +7085,9 @@ Error handling patterns in Rust are about designing APIs that make failure modes
 - [Error Handling](https://dart.wyattau.com/08-error-handling/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
 - [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
+## See also
+
+- [Error Handling](/04-error-handling/error-handling/)
 
 ## Traits-Generics
 
@@ -11937,6 +11961,9 @@ Cargo is Rust's project manager, build system, and dependency registry rolled in
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/)
 - [Macros](https://languages.wyattau.com/rust/08-macros/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+## See also
+
+- [Unsafe Rust](/07-cargo-ecosystem/unsafe-rust/)
 
 ---
 
@@ -12875,6 +12902,9 @@ Unsafe Rust is the escape hatch from the borrow checker's safety guarantees. Thi
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
 - [Cargo and Ecosystem](https://languages.wyattau.com/rust/07-cargo-ecosystem/cargo-and-ecosystem/)
 - [Traits and Generics](https://languages.wyattau.com/rust/05-traits-generics/traits-and-generics/)
+## See also
+
+- [Cargo and Ecosystem](/07-cargo-ecosystem/cargo-and-ecosystem/)
 
 ## Overview
 
@@ -16923,6 +16953,10 @@ Preview: Rust Ownership: Owner...
 
 - **[Site Home](../../):** Main landing page for rust notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Rust Flashcards: Fundamentals](/flashcards-rust-basics/)
+- [Rust Programming Practice Test, 30 Problems](/practice-test-mega/)
 
 ---
 
@@ -17887,3 +17921,7 @@ fn main() {
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+## See also
+
+- [Complete Rust Programming Study Guide](/hub/)
+- [Rust Practice (Basics)](/practice-rust-basics/)

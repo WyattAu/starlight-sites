@@ -192,3 +192,8 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Go](/go/intro/)

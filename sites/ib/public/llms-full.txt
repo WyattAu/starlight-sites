@@ -18761,6 +18761,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Molecular Biology -- Diagnostic Tests](/biology/diagnostics/diag-molecular-biology/)
 
 ---
 
@@ -18898,6 +18901,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
 
 ---
 
@@ -19050,6 +19056,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Human Physiology -- Diagnostic Tests](/biology/diagnostics/diag-human-physiology/)
 
 ---
 
@@ -19126,6 +19135,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Plant Biology -- Diagnostic Tests](/biology/diagnostics/diag-plant-biology/)
 
 ---
 
@@ -43101,6 +43113,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)
+- [IB Chemistry Flashcards: Measurement and Data Processing](/chemistry/flashcards-measurement-data/)
 
 ---
 
@@ -43238,6 +43254,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Atomic Structure and Periodicity](/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity/)
+- [Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-periodicity/)
 
 ---
 
@@ -43375,6 +43395,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [IB Chemistry Flashcards: Energetics](/chemistry/flashcards-energetics/)
+- [IB Chemistry: Energetics Practice](/chemistry/practice-energetics/)
 
 ---
 
@@ -43451,6 +43475,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [IB Chemistry Flashcards: Kinetics and Equilibrium](/chemistry/flashcards-kinetics-equilibrium/)
+- [Kinetics and Equilibrium Practice (Interactive)](/chemistry/practice-kinetics-equilibrium/)
 
 ---
 
@@ -43527,6 +43555,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [IB Chemistry Flashcards: Kinetics and Equilibrium](/chemistry/flashcards-kinetics-equilibrium/)
+- [Kinetics and Equilibrium Practice (Interactive)](/chemistry/practice-kinetics-equilibrium/)
 
 ---
 
@@ -68124,6 +68156,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [System In Organizations](/computer-science/1-system-fundamentals/2_system-organization/)
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/)
 
 ---
 
@@ -68200,6 +68236,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [IB CS Flashcards: Networks and Databases](/computer-science/flashcards-networks-databases/)
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/)
 
 ---
 
@@ -68337,6 +68377,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Algorithms and Data Structures](/computer-science/4-computational-thinking/2_algorithms-and-data-structures/)
+- [IB CS Flashcards: Algorithms and Data Structures](/computer-science/flashcards-algorithms-data-structures/)
 
 ---
 
@@ -68413,6 +68457,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Abstraction and Data Management](/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/)
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/)
 
 ---
 
@@ -68489,6 +68537,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/)
+- [System In Organizations](/computer-science/1-system-fundamentals/2_system-organization/)
 
 ---
 
@@ -68565,6 +68617,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Programming Fundamentals](/computer-science/7-control/1_programming-fundamentals/)
+- [IB CS Flashcards: Programming and OOP](/computer-science/flashcards-programming-oop/)
 
 ---
 
@@ -83497,6 +83553,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/)
 
 ---
 

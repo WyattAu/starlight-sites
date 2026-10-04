@@ -149,3 +149,6 @@ Good luck with your driving test!
 Practice makes perfect!
 
 Keep practising!
+## See also
+
+- [Hazard Perception | driving-uk](/theory-test/hazard-perception/)

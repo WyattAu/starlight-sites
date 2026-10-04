@@ -78,3 +78,7 @@ Complete preparation for professional certification exams.
 - [About This Site](./about)
 
 Keep practising and reviewing to master this topic.
+## See also
+
+- [About This Site | professional-certs](/about/)
+- [AWS Cloud Practitioner | professional-certs](/aws/cloud-practitioner/)

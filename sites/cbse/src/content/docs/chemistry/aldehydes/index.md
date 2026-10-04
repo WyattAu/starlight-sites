@@ -151,3 +151,6 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Carboxylic Acids](/chemistry/carboxylic-acids/)

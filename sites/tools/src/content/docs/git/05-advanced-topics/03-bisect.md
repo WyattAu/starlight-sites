@@ -204,3 +204,8 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Reflog](/git/05-advanced-topics/01-reflog/)
+- [Stash](/git/05-advanced-topics/02-stash/)
+- [Submodules](/git/05-advanced-topics/04-submodules/)

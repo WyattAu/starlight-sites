@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Abstraction and Data Management](/computer-science/5-abstract-data-structures/1_abstraction-and-data-management/)
+- [System Design](/computer-science/1-system-fundamentals/1_system-design/)

@@ -132,3 +132,8 @@ Good luck with your driving test!
 Practice makes perfect!
 
 Keep practising!
+## See also
+
+- [Complete UK Driving Theory Test Study Guide](/hub/)
+- [Driving Manoeuvres | driving-uk](/practical-test/driving-manoeuvres/)
+- [Hazard Perception | driving-uk](/theory-test/hazard-perception/)

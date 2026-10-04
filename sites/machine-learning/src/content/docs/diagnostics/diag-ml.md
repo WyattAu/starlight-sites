@@ -259,3 +259,8 @@ flowchart TD
 
 - **[Site Home](../../):** Main landing page for machine-learning notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning](/)

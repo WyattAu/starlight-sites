@@ -9064,6 +9064,10 @@ Dicts are hash tables: they map keys to values with O(1) average lookup time. Th
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/)
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+## See also
+
+- [Collections](/03-data-structures/01-collections/)
+- [Data Structures Practice](/practice-data-structures/)
 
 ## Object-Oriented
 
@@ -11079,6 +11083,10 @@ Descriptors are objects that define `__get__`, `__set__`, or `__delete__` method
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Metaclasses](https://languages.wyattau.com/python/04-object-oriented/02-metaclasses/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
+## See also
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)
 
 ---
 
@@ -11997,6 +12005,10 @@ Metaclasses are classes of classes: just as a class defines how instances behave
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
+## See also
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/04-object-oriented/03-descriptors/)
 
 ## Standard-Library
 
@@ -29550,6 +29562,10 @@ class MinHeap:
 - **[Site Home](../../):** Main landing page for python notes.
 - **Practice:** Practice problems for revision.
 - **[Computer Science, Algorithms and Data Structures](https://computer-science.wyattau.com/algorithms-and-data-structures):** Data structure analysis (arrays, linked lists, hash tables, trees) and their Big-O complexities are covered in depth in the CS algorithms course.
+## See also
+
+- [Collections](/03-data-structures/01-collections/)
+- [Dicts, Sets, and Collections Deep Dive](/03-data-structures/02-dicts-sets-counter/)
 
 ---
 
@@ -30776,3 +30792,8 @@ print(result)
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+## See also
+
+- [Complete Python Programming Study Guide](/hub/)
+- [Python Practice (Interactive)](/practice-interactive/)
+- [Practice](/practice-python-basics/)

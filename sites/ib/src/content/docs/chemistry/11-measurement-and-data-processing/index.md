@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)
+- [IB Chemistry Flashcards: Measurement and Data Processing](/chemistry/flashcards-measurement-data/)

@@ -832,3 +832,8 @@ Converting to megaparsecs: $d = 4.99 \times 10^{24}/(3.09 \times 10^{22}) = 161$
 **Mixing up the H-R diagram axes:** The H-R diagram has temperature decreasing from left to right (hot blue stars on the left, cool red stars on the right). Students often plot temperature increasing left to right, which reverses the diagram. Luminosity increases upward.
 
 **Confusing Type Ia and Type II supernovae:** Type Ia supernovae occur when a white dwarf exceeds the Chandrasekhar limit (thermonuclear explosion, no remnant). Type II supernovae occur when a massive star's core collapses (leaves behind a neutron star or black hole). Type Ia are standard candles; Type II are not.
+## See also
+
+- [Astrophysics](/physics/astrophysics/)
+- [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
+- [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)

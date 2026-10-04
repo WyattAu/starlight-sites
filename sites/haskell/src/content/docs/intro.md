@@ -138,3 +138,6 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+## See also
+
+- [Introduction to Haskell](/00-intro/1_haskell-intro/)

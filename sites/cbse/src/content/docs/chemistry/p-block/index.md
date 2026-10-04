@@ -149,3 +149,7 @@ P-block elements are essential for life (N, O, S), industry (Cl, P, S), and tech
 - Group 17: oxidizing power decreases down the group, interhalogen compounds
 - Group 18: Xe compounds ($\text{XeF}_2$, $\text{XeF}_4$, $\text{XeF}_6$)
 - Practice writing balanced equations for reactions of these elements
+## See also
+
+- [D-Block Elements](/chemistry/d-block/)
+- [F-Block Elements](/chemistry/f-block/)

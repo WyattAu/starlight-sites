@@ -681,3 +681,6 @@ struct User {
 | `Hash`       | Hash function for `HashMap`/`HashSet` keys                     |
 | `Default`    | Default value (all fields must implement `Default`)            |
 :::
+## See also
+
+- [Advanced Struct and Enum Patterns](/03-structs-enums/advanced-patterns/)

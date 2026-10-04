@@ -125,3 +125,8 @@ _Proof._ The set $D = \\{d \in \mathbb{N} : d \mid a \mathrm{\ and\ } d \mid b\\
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
 Keep practising and reviewing to master this topic.
+## See also
+
+- [University Maths Flashcards: Number Theory](/7-number-theory/flashcards-number-theory/)
+- [Number Theory Practice (Interactive)](/7-number-theory/practice-number-theory/)
+- [Number Theory](/number-theory/)

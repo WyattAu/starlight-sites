@@ -151,3 +151,7 @@ Lanthanoids are used in magnets (Nd$_2$Fe$_{14}$B), electronics (Ce in catalytic
 - **Coordination Compounds:** Lanthanoid ions form coordination complexes, though with less variety than d-block metals due to their fixed +3 oxidation state.
 - **Electrochemistry:** The different oxidation states of cerium (Ce³⁺/Ce⁴⁺) are used in redox titrations and electrochemical applications.
 - **Atoms and Nuclei (Physics):** Actinoid radioactive decay and nuclear binding energy connect f-block chemistry to nuclear physics.
+## See also
+
+- [D-Block Elements](/chemistry/d-block/)
+- [P-Block Elements](/chemistry/p-block/)

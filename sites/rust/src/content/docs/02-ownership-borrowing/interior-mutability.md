@@ -813,3 +813,7 @@ c2.set(c2.get() + 1);
 assert_eq!(counter.get(), 2);
 ```
 :::
+## See also
+
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)

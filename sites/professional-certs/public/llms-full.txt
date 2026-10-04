@@ -754,6 +754,10 @@ Complete preparation for professional certification exams.
 - [About This Site](./about)
 
 Keep practising and reviewing to master this topic.
+## See also
+
+- [About This Site | professional-certs](/about/)
+- [AWS Cloud Practitioner | professional-certs](/aws/cloud-practitioner/)
 
 ## Aws
 
@@ -1151,3 +1155,6 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [AWS Cloud Practitioner | professional-certs](/aws/cloud-practitioner/)

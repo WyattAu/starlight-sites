@@ -163,3 +163,7 @@ Physics explores the fundamental rules governing matter, energy, space, and time
 - [Waves](../waves)
 - [Electricity](../electricity)
 - [Fields](../fields)
+## See also
+
+- [Measurements and Error Analysis](/physics/practical-skills/01-measurements-and-error-analysis/)
+- [Experimental Design](/physics/practical-skills/02-experimental-design/)

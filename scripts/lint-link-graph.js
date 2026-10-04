@@ -71,7 +71,7 @@ function headingsOf(absPath) {
 
 function pageUrlPath(rel) {
   const noExt = rel.replace(/\.mdx?$/, '')
-  if (noExt.endsWith('/index')) return `${noExt.slice(0, -'/index'.length)}/`
+  if (noExt.endsWith('/index')) return `/${noExt.slice(0, -'/index'.length)}/`
   if (noExt === 'index') return '/'
   return `/${noExt}/`
 }

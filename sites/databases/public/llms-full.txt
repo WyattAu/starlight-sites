@@ -15106,6 +15106,11 @@ URL: https://databases.wyattau.com/practice-database-design/
 
 - **[Site Home](../../):** Main landing page for databases notes.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Data Modeling Patterns](/06-database-design/data-modeling/)
+- [Database Design](/06-database-design/database-design/)
+- [Schema Migrations](/06-database-design/migrations/)
 
 ## Diagnostics
 

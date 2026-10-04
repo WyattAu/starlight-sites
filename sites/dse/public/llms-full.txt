@@ -22669,6 +22669,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)
 
 ---
 
@@ -22870,6 +22873,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Evolution and Ecology](/biology/2-ecology/1_ecology/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
 
 ---
 
@@ -41507,6 +41514,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Chemistry - Atomic Structure and Bonding](/chemistry/atomic-structure-and-bonding/)
+- [DSE Chemistry Practice: Atomic Structure and Bonding](/chemistry/practice-atomic-structure/)
 
 ---
 
@@ -41583,6 +41594,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Stoichiometry and Mole Concept -- Diagnostic Tests](/chemistry/diagnostics/diag-stoichiometry/)
 
 ---
 
@@ -41720,6 +41734,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Chemical Equilibrium -- Diagnostic Tests](/chemistry/diagnostics/diag-equilibrium/)
 
 ---
 
@@ -41796,6 +41813,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Acids, Bases and Salts -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
 
 ---
 
@@ -41872,6 +41892,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Chemistry - Acids, Bases, and Electrochemistry](/chemistry/5-acids-bases/1_acids-bases-and-electrochemistry/)
+- [Electrochemistry -- Diagnostic Tests](/chemistry/diagnostics/diag-electrochemistry/)
 
 ---
 
@@ -56632,6 +56656,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
 
 ---
 
@@ -56708,6 +56735,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
 
 ---
 
@@ -56784,6 +56814,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Market Structure and Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-market-structure/)
+- [Market Failure and Government Intervention](/economics/4-market-failure/1_market-failure-and-government-intervention/)
 
 ---
 
@@ -56860,6 +56894,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Market Structure and Theory of the Firm](/economics/3-market-structure/1_market-structure/)
 
 ---
 
@@ -56936,6 +56974,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [National Income and Macroeconomic Indicators -- Diagnostic Tests](/economics/diagnostics/diag-national-income/)
 
 ---
 
@@ -57012,6 +57053,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Market Failure and Government Intervention](/economics/4-market-failure/1_market-failure-and-government-intervention/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)
 
 ---
 
@@ -57088,6 +57133,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [International Trade and Finance -- Diagnostic Tests](/economics/diagnostics/diag-international-trade/)
 
 ---
 
@@ -57164,6 +57212,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Money and Banking -- Diagnostic Tests](/economics/diagnostics/diag-money-banking/)
 
 ---
 
@@ -106077,6 +106128,11 @@ Mathematics is the study of structure, quantity, and change. Algebra provides sy
 - [Calculus](https://hsc.wyattau.com/mathematics/calculus/)
 - [Statistics](https://alevel.wyattau.com/further-maths/flashcards-further-statistics/)
 - [Trigonometry](https://alevel.wyattau.com/maths/pure-mathematics/08-trigonometry/)
+## See also
+
+- [Coordinate Geometry](/maths/compulsory/9_coordinate-geometry/)
+- [Coordinate Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinate-geometry/)
+- [M1: Algebra and Calculus](/maths/extended/1_m1_algebra-and-calculus/)
 
 ---
 
@@ -112327,6 +112383,11 @@ each approach.
 ## Intuition
 
 Mathematics provides the language for describing patterns, relationships, and change. Functions transform inputs to outputs like machines, calculus measures how things change and accumulate, and probability quantifies uncertainty. The power of mathematics lies in its ability to model real-world situations abstractly, allowing us to solve problems and make predictions across science, engineering, and everyday life.
+## See also
+
+- [Probability](/maths/compulsory/11_probability/)
+- [Dispersion](/maths/compulsory/12_dispersion/)
+- [Permutations and Combinations](/maths/compulsory/13_permutations-and-combinations/)
 
 ## Physics
 
@@ -125119,6 +125180,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Nuclear Physics -- Diagnostic Tests](/physics/diagnostics/diag-nuclear-physics/)
 
 ---
 
@@ -125732,6 +125796,10 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 - [Waves](https://hsc.wyattau.com/physics/waves/)
 - [Electricity](https://gaokao.wyattau.com/physics/electricity/)
 - [Fields](https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields/)
+## See also
+
+- [DSE Physics Flashcards: Kinematics](/physics/flashcards-kinematics/)
+- [DSE Physics Practice: Kinematics](/physics/practice-kinematics/)
 
 ---
 

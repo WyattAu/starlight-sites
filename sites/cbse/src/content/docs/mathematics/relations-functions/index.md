@@ -227,3 +227,7 @@ Students sometimes compute $(f \circ g)(x)$ as $f(x) \cdot g(x)$ instead of $f(g
 - Inverse Trigonometric Functions -- Inverse trigonometric functions are specific examples of inverse functions, requiring understanding of bijectivity.
 - Matrices -- Linear transformations are functions from vectors to vectors, extending function theory to matrix algebra.
 - Calculus -- Derivatives measure rates of change of functions, connecting function theory to differential calculus.
+## See also
+
+- [Types of relations](/mathematics/relations-functions/01-types-of-relations/)
+- [Inverse Trigonometric Functions](/mathematics/-inverse-trig/)

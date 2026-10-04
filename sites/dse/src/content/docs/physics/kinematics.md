@@ -366,3 +366,7 @@ Physics reveals that nature follows mathematical laws at every scale. Matter is 
 - [Waves](https://hsc.wyattau.com/physics/waves/)
 - [Electricity](https://gaokao.wyattau.com/physics/electricity/)
 - [Fields](https://alevel.wyattau.com/physics/diagnostics/diag-electric-fields/)
+## See also
+
+- [DSE Physics Flashcards: Kinematics](/physics/flashcards-kinematics/)
+- [DSE Physics Practice: Kinematics](/physics/practice-kinematics/)

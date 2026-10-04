@@ -1482,3 +1482,8 @@ linked above.
 - [Programming Paradigms](https://programming.wyattau.com/fundamentals/programming-paradigms/) -- Software development practices raise ethical questions about AI, automation, and algorithmic bias.
 - Data Types and Structures -- Data storage and processing techniques have legal implications under data protection regulations.
 :::
+## See also
+
+- [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)
+- [A-Level CS Flashcards: Fundamentals](/computer-science/flashcards-fundamentals/)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)

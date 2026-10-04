@@ -351,3 +351,8 @@ Mathematics is the study of structure, quantity, and change. Algebra provides sy
 - [Calculus](https://hsc.wyattau.com/mathematics/calculus/)
 - [Statistics](https://alevel.wyattau.com/further-maths/flashcards-further-statistics/)
 - [Trigonometry](https://alevel.wyattau.com/maths/pure-mathematics/08-trigonometry/)
+## See also
+
+- [Coordinate Geometry](/maths/compulsory/9_coordinate-geometry/)
+- [Coordinate Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinate-geometry/)
+- [M1: Algebra and Calculus](/maths/extended/1_m1_algebra-and-calculus/)

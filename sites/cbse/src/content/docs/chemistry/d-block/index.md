@@ -155,3 +155,7 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 - **F-Block Elements:** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
 - **Electrochemistry:** Variable oxidation states enable redox cycling in electrochemical cells, connecting d-block properties to batteries and electrolysis.
 - **Surface Chemistry:** Transition metals are heterogeneous catalysts, their surface properties and d-electrons enable catalytic activity.
+## See also
+
+- [F-Block Elements](/chemistry/f-block/)
+- [P-Block Elements](/chemistry/p-block/)

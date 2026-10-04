@@ -149,3 +149,7 @@ Good luck with your studies!
 Practice makes perfect!
 
 Keep practising!
+## See also
+
+- [Open Source Licences Guide](/os-licenses/open-source-licenses/)
+- [Open Source Licenses | licensing](/osi-licenses/)

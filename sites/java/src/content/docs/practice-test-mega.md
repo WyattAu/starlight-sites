@@ -1065,3 +1065,7 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+## See also
+
+- [Complete Java Programming Study Guide](/hub/)
+- [Java Fundamentals Practice (Interactive)](/practice-java-basics/)

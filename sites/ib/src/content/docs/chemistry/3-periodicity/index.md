@@ -76,3 +76,7 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Atomic Structure and Periodicity](/chemistry/2-atomic-structure/2_atomic-structure-and-periodicity/)
+- [Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-periodicity/)

@@ -1008,3 +1008,7 @@ Ownership is Rust's single most important concept. Imagine every value is a libr
 - [Interior Mutability](https://languages.wyattau.com/rust/02-ownership-borrowing/interior-mutability/)
 - [Structs and Enums](https://languages.wyattau.com/rust/03-structs-enums/structs-and-enums/)
 - [Unsafe Rust](https://languages.wyattau.com/rust/07-cargo-ecosystem/unsafe-rust/)
+## See also
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)

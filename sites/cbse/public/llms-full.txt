@@ -999,6 +999,11 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+## See also
+
+- [CBSE Flashcards: Physics Class 12](/flashcards-physics-class12/)
+- [CBSE Flashcards: Chemistry Class 12](/flashcards-chemistry/)
+- [CBSE Practice: Mathematics Class 12](/practice-maths/)
 
 ---
 
@@ -1165,6 +1170,11 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+## See also
+
+- [CBSE Flashcards: Mathematics Class 12](/flashcards-mathematics-class12/)
+- [CBSE Flashcards: Chemistry Class 12](/flashcards-chemistry/)
+- [Complete CBSE Study Guide, Physics, Chemistry, Maths](/hub/)
 
 ---
 
@@ -3184,6 +3194,11 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+## See also
+
+- [CBSE Flashcards: Chemistry Class 12](/flashcards-chemistry/)
+- [CBSE Practice: Mathematics Class 12](/practice-maths/)
+- [CBSE Chemistry Study Guide](/chemistry/)
 
 ---
 
@@ -3352,6 +3367,11 @@ Worked examples demonstrate how to apply the concepts to solve problems. Each ex
 ### Further Reading
 
 Consult the recommended textbooks and additional resources for deeper understanding of this topic.
+## See also
+
+- [CBSE Flashcards: Mathematics Class 12](/flashcards-mathematics-class12/)
+- [CBSE Mathematics Study Guide](/maths/)
+- [CBSE Practice: Chemistry Class 12](/practice-chemistry/)
 
 ---
 
@@ -3744,6 +3764,9 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Solutions](/chemistry/solutions/)
 
 ---
 
@@ -3945,6 +3968,9 @@ The density formula $\rho = ZM / (N_A a^3)$ requires consistent units. If the ed
 - [Solutions](https://mathematics.wyattau.com/5-ordinary-differential-equations/6_series-solutions/) -- how solutes interact with crystal lattices
 - [CBSE Physics](https://ib.wyattau.com/physics/physics/) -- solid-state physics and material properties
 - [CBSE Mathematics](https://ib.wyattau.com/maths/maths/) -- geometry and 3D coordinate systems
+## See also
+
+- [Solid State](/chemistry/solid-state/)
 
 ---
 
@@ -4321,6 +4347,9 @@ Aldehydes and ketones are found in formaldehyde (preservative), acetone (solvent
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Carboxylic Acids](/chemistry/carboxylic-acids/)
 
 ---
 
@@ -4769,6 +4798,9 @@ Carboxylic acids are found in vinegar (acetic acid), citrus fruits (citric acid)
 - [Alcohols, Phenols, and Ethers](../alcohols)
 - [Aldehydes, Ketones, and Carboxylic Acids](../aldehydes)
 - [Amines](../amines)
+## See also
+
+- [Aldehydes, Ketones, and Carboxylic Acids](/chemistry/aldehydes/)
 
 ---
 
@@ -5393,6 +5425,10 @@ Transition metals are essential for industrial catalysis (Haber process, catalyt
 - **F-Block Elements:** Lanthanoid contraction affects Period 6 d-block elements (Zr ≈ Hf), linking f-block trends to d-block chemistry.
 - **Electrochemistry:** Variable oxidation states enable redox cycling in electrochemical cells, connecting d-block properties to batteries and electrolysis.
 - **Surface Chemistry:** Transition metals are heterogeneous catalysts, their surface properties and d-electrons enable catalytic activity.
+## See also
+
+- [F-Block Elements](/chemistry/f-block/)
+- [P-Block Elements](/chemistry/p-block/)
 
 ---
 
@@ -5753,6 +5789,10 @@ Lanthanoids are used in magnets (Nd$_2$Fe$_{14}$B), electronics (Ce in catalytic
 - **Coordination Compounds:** Lanthanoid ions form coordination complexes, though with less variety than d-block metals due to their fixed +3 oxidation state.
 - **Electrochemistry:** The different oxidation states of cerium (Ce³⁺/Ce⁴⁺) are used in redox titrations and electrochemical applications.
 - **Atoms and Nuclei (Physics):** Actinoid radioactive decay and nuclear binding energy connect f-block chemistry to nuclear physics.
+## See also
+
+- [D-Block Elements](/chemistry/d-block/)
+- [P-Block Elements](/chemistry/p-block/)
 
 ---
 
@@ -6049,6 +6089,10 @@ P-block elements are essential for life (N, O, S), industry (Cl, P, S), and tech
 - Group 17: oxidizing power decreases down the group, interhalogen compounds
 - Group 18: Xe compounds ($\text{XeF}_2$, $\text{XeF}_4$, $\text{XeF}_6$)
 - Practice writing balanced equations for reactions of these elements
+## See also
+
+- [D-Block Elements](/chemistry/d-block/)
+- [F-Block Elements](/chemistry/f-block/)
 
 ---
 
@@ -6349,6 +6393,9 @@ Solid state chemistry is fundamental to materials science, metallurgy, semicondu
 - **[Chemistry](../../chemistry/):** Chemistry notes covering organic and physical chemistry.
 - **[Physics](../../physics/):** Physics notes covering mechanics and thermodynamics.
 - **Practice:** Practice problems for revision.
+## See also
+
+- [Crystal structure](/chemistry/solid-state/01-crystal-structure/)
 
 ---
 
@@ -6910,6 +6957,10 @@ The identity $\sin^{-1}x + \cos^{-1}x = \pi/2$ is extremely useful for convertin
 - Trigonometry -- Inverse trigonometric functions are defined as inverses of restricted trigonometric functions, requiring understanding of domain restrictions.
 - Matrices -- Rotation matrices use trigonometric functions, and their inverses connect to inverse trigonometric representations.
 - Calculus -- Differentiation and integration of inverse trigonometric functions are key applications in calculus.
+## See also
+
+- [Types of relations](/mathematics/relations-functions/01-types-of-relations/)
+- [Relations and Functions](/mathematics/relations-functions/)
 
 ---
 
@@ -8689,6 +8740,10 @@ Students sometimes compute $(f \circ g)(x)$ as $f(x) \cdot g(x)$ instead of $f(g
 - Inverse Trigonometric Functions -- Inverse trigonometric functions are specific examples of inverse functions, requiring understanding of bijectivity.
 - Matrices -- Linear transformations are functions from vectors to vectors, extending function theory to matrix algebra.
 - Calculus -- Derivatives measure rates of change of functions, connecting function theory to differential calculus.
+## See also
+
+- [Types of relations](/mathematics/relations-functions/01-types-of-relations/)
+- [Inverse Trigonometric Functions](/mathematics/-inverse-trig/)
 
 ---
 
@@ -8897,6 +8952,9 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Matrices](/mathematics/matrices/)
 
 ---
 
@@ -9984,6 +10042,9 @@ In a balanced Wheatstone bridge, the ratio is $\frac{R_1}{R_2} = \frac{R_3}{R_4}
 - Electrostatics -- Current electricity involves the flow of charge, building on the electrostatic concepts of charge and electric fields.
 - Magnetic Effects of Current -- Electric currents produce magnetic fields, connecting current electricity to electromagnetism.
 - Electromagnetic Induction -- Changing magnetic fields induce currents, linking magnetism back to current electricity through Faraday's law.
+## See also
+
+- [Magnetic Effects of Current and Magnetism](/physics/magnetic-effects/)
 
 ---
 
@@ -10401,6 +10462,10 @@ When dielectrics or plate separations change, students often treat capacitors as
 - Current Electricity -- Electrostatics describes charge at rest while current electricity describes charge in motion, together covering the full behaviour of electric charge.
 - Magnetic Effects of Current -- Moving charges produce magnetic fields, linking electrostatics to electromagnetism through the relationship between electricity and magnetism.
 - Modern Physics -- Atomic structure depends on electrostatic attraction between nucleus and electrons, connecting macroscopic charge behaviour to quantum models.
+## See also
+
+- [Electric charge](/physics/electrostatics/01-electric-charge/)
+- [Electric field](/physics/electrostatics/02-electric-field/)
 
 ---
 
@@ -10716,6 +10781,11 @@ Mechanics forms the foundation of all physics. Understanding Newton's laws, ener
 - **Mixing up mass and weight:** Mass ($m$) is in kg and is constant; weight ($W = mg$) is a force in Newtons and varies with gravity. Using mass where weight is required (or vice versa) gives wrong answers by a factor of $g$.
 - **Sign errors in projectile motion:** The acceleration due to gravity is $-g$ (downward) in the vertical direction. Forgetting the negative sign leads to objects accelerating upward instead of falling.
 - **Using rotational kinetic energy without the correct moment of inertia:** The moment of inertia depends on geometry (solid disk $\frac{1}{2}mr^2$, thin ring $mr^2$, etc.). Using the wrong formula gives incorrect rotational energy values.
+## See also
+
+- [Laws Of Motion](/physics/mechanics/01-laws-of-motion/)
+- [Work energy power](/physics/mechanics/02-work-energy-power/)
+- [Rotational motion](/physics/mechanics/03-rotational-motion/)
 
 ---
 

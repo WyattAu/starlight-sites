@@ -290,3 +290,8 @@ Also independent.
 $$P(A' \cap B') = P((A \cup B)') = 1 - P(A \cup B) = 1 - P(A) - P(B) + P(A)P(B)$$
 
 $$= (1 - P(A))(1 - P(B)) = P(A') \cdot P(B') \quad \blacksquare$$
+## See also
+
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Hypothesis Testing (Extended)](/maths/statistics/hypothesis-testing-depth/)
+- [Statistical Distributions (Extended)](/maths/statistics/statistical-distributions-depth/)

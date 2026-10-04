@@ -11292,6 +11292,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Classes and Inheritance](/java/03-object-oriented/01-classes/)
+- [Inheritance and Polymorphism](/java/03-object-oriented/02-inheritance-polymorphism/)
 
 ---
 
@@ -11368,6 +11372,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/02-setup/)
+- [Index](/dart/03-basics/)
 
 ---
 
@@ -11797,6 +11805,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [testing](/dart/testing/)
 
 ---
 
@@ -26914,6 +26925,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/elixir/01-basics/)
+- [Index](/elixir/)
 
 ---
 
@@ -26990,6 +27005,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/03-basics/)
+- [Index](/elixir/00-intro/)
 
 ---
 
@@ -33667,6 +33686,11 @@ Go is the language of simplicity at scale. It was designed at Google to solve th
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Goroutines](https://go.wyattau.com/concurrency/goroutines/)
 - [Channels](https://go.wyattau.com/concurrency/channels/)
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Haskell](/haskell/00-intro/1_haskell-intro/)
 
 ---
 
@@ -36539,6 +36563,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Java Fundamentals Practice (Interactive)](/java/practice-java-basics/)
+- [Kotlin Fundamentals Practice (Interactive)](/kotlin/practice-kotlin-basics/)
+- [TypeScript Fundamentals Practice (Interactive)](/typescript/practice-typescript-basics/)
 
 ---
 
@@ -40887,6 +40916,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/elixir/00-intro/)
+- [Index](/haskell/01-basics/)
 
 ---
 
@@ -40963,6 +40996,11 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/03-basics/)
+- [Index](/elixir/01-basics/)
+- [Index](/go/basics/)
 
 ---
 
@@ -41039,6 +41077,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+- [Basics and Pattern Matching](/elixir/01-basics/1_basics-and-pattern-matching/)
 
 ---
 
@@ -41191,6 +41233,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/haskell/00-intro/)
+- [Index](/haskell/01-basics/)
 
 ---
 
@@ -58182,6 +58228,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Best Practices](/dart/04-best-practices/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 
 ---
 
@@ -59840,6 +59890,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Go](/go/intro/)
 
 ---
 
@@ -72702,6 +72757,11 @@ linked above.
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Flow operators (map, filter, fold) mirror collection transformation operations; sequences provide lazy evaluation.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Deferred<T>, Flow<T>, and Channel<T> use generic type parameters with variance annotations.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Property delegation and the Result type complement coroutine patterns for state management and error handling.
+## See also
+
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [Collections](/kotlin/intermediate/collections/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)
 
 ---
 
@@ -73732,6 +73792,11 @@ linked above.
 - [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), StateFlow update patterns and ViewModel lifecycle management build on the delegation concepts here.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Generic type parameters with variance constraints apply to delegate classes and Result type transformations.
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Lazy collection initialization and observable wrappers use the same delegation patterns covered in this topic.
+## See also
+
+- [Collections](/kotlin/intermediate/collections/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
 
 ---
 
@@ -74665,6 +74730,11 @@ linked above.
 - [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/), Deferred<T> and Flow<T> are generic types that use variance to define producer/consumer relationships.
 - [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), StateFlow<T> and SharedFlow<T> are generic flows whose type parameters constrain what values can be emitted and collected.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Generic delegate classes and the Result<T> type use type parameters to provide type-safe delegation and error handling.
+## See also
+
+- [Generics](/go/intermediate/generics/)
+- [Collections](/kotlin/intermediate/collections/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 
 ---
 
@@ -75490,6 +75560,11 @@ Kotlin is the language that modernised the JVM. It runs on the JVM but adds null
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Classes and Objects](https://kotlin.wyattau.com/basics/classes-and-objects/)
 - [Coroutines](https://kotlin.wyattau.com/intermediate/coroutines/)
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Go](/go/intro/)
 
 ---
 
@@ -97632,6 +97707,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/05-async/)
+- [Index](/python/)
 
 ---
 
@@ -98018,6 +98097,11 @@ This material connects to current research and advanced applications in the fiel
 ### Prerequisites
 
 Ensure you have mastered the prerequisite material before attempting this advanced content.
+## See also
+
+- [Introduction to Dart & Flutter](/dart/01-intro/)
+- [Introduction to Elixir](/elixir/00-intro/1_elixir-intro/)
+- [Introduction to Go](/go/intro/)
 
 ---
 
@@ -109510,6 +109594,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/elixir/00-intro/)
+- [Index](/haskell/00-intro/)
 
 ---
 
@@ -109586,6 +109674,11 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/03-basics/)
+- [Index](/elixir/01-basics/)
+- [Index](/go/basics/)
 
 ---
 
@@ -109662,6 +109755,10 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Control Flow](/go/basics/control-flow/)
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
 
 ---
 
@@ -135864,6 +135961,11 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/elixir/00-intro/)
+- [Index](/haskell/00-intro/)
+- [Index](/ruby/00-intro/)
 
 ---
 
@@ -135940,6 +136042,11 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Index](/dart/03-basics/)
+- [Index](/elixir/01-basics/)
+- [Index](/go/basics/)
 
 ---
 
@@ -136016,6 +136123,9 @@ This section provides comprehensive study materials and resources. Content is or
 ## Study Tips
 
 Begin with the introductory material before progressing to advanced topics. Use the practice problems to test your understanding and identify areas for further study.
+## See also
+
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
 
 ---
 

@@ -444,3 +444,8 @@ linked above.
 - [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), StateFlow update patterns and ViewModel lifecycle management build on the delegation concepts here.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Generic type parameters with variance constraints apply to delegate classes and Result type transformations.
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Lazy collection initialization and observable wrappers use the same delegation patterns covered in this topic.
+## See also
+
+- [Collections](/kotlin/intermediate/collections/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [Coroutines](/kotlin/intermediate/coroutines/)

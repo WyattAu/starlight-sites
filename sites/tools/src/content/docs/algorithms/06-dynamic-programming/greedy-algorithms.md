@@ -581,3 +581,7 @@ def greedy_set_cover(universe, subsets):
     return cover
 ```
 :::
+## See also
+
+- [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
+- [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
