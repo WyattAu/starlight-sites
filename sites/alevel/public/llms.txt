@@ -371,6 +371,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Astrophysics](https://alevel.wyattau.com/physics/astrophysics/01-astrophysics/)
 - [Capacitance](https://alevel.wyattau.com/physics/electricity/03-capacitance/)
 - [Circular Motion](https://alevel.wyattau.com/physics/mechanics/06-circular-motion/)
+- [Classification Of Stars And Cosmology](https://alevel.wyattau.com/physics/astrophysics/classification-of-stars-and-cosmology/)
 - [Current And Resistance](https://alevel.wyattau.com/physics/electricity/01-current-and-resistance/)
 - [Dc Circuits](https://alevel.wyattau.com/physics/electricity/02-dc-circuits/)
 - [Diag Capacitance](https://alevel.wyattau.com/physics/diagnostics/diag-capacitance/)

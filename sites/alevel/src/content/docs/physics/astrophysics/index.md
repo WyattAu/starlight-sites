@@ -202,5 +202,6 @@ From Newton's apple to quantum particles, physics explains how the world works t
 ## See also
 
 - [Astrophysics](/physics/astrophysics/01-astrophysics/)
+- [Classification of Stars and Cosmology](/physics/astrophysics/classification-of-stars-and-cosmology/)
 - [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
 - [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)

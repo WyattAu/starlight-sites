@@ -200716,6 +200716,206 @@ The key mental model: imagine swinging a ball on a string. At every instant, the
 
 ---
 
+## Classification Of Stars And Cosmology
+URL: https://alevel.wyattau.com/physics/astrophysics/classification-of-stars-and-cosmology/
+
+## Classification of Stars and Cosmology
+
+> **Info:** Board Coverage AQA Paper 2 (Astrophysics option) | Edexcel Paper 1 (P10) | OCR (A) Paper 2 | CIE P4
+>
+
+## 1. Stellar Classification
+
+Stars are classified by their surface temperature into spectral classes **O B A F G K M** (hot to
+cool, remembered by *"Oh Be A Fine Girl, Kiss Me"*).
+
+| Class | Temperature (K) | Colour | Example |
+| ----- | --------------- | ------ | ------- |
+| O | 30,000–60,000 | Blue | Orion Nebula stars |
+| B | 10,000–30,000 | Blue-white | Rigel |
+| A | 7,500–10,000 | White | Sirius, Vega |
+| F | 6,000–7,500 | Yellow-white | Canopus |
+| G | 5,000–6,000 | Yellow | **The Sun** |
+| K | 3,500–5,000 | Orange | Arcturus |
+| M | 2,500–3,500 | Red | Betelgeuse, Proxima Centauri |
+
+The classification is based on the **absorption lines** in the stellar spectrum: O-type stars show
+ionised helium lines (hot enough to ionise helium); M-type stars show molecular bands and neutral
+metals (cool enough for molecules to survive).
+
+### The Hydrogen Balmer Series
+
+The Balmer absorption lines (visible) are strongest in **A-class** stars. In O-type stars the
+hydrogen is ionised (no bound electron to absorb); in M-type stars the electron is in the $n = 2$
+level only rarely (too cold for thermal excitation). A-type stars have the right temperature for
+significant $n = 2$ population — the sweet spot for Balmer absorption.
+
+## 2. The Hertzsprung–Russell Diagram
+
+The H–R diagram plots **absolute magnitude** (or luminosity) against **temperature** (or spectral
+class), temperature decreasing left to right.
+
+Key regions:
+
+- **Main sequence**: stars fusing hydrogen in their cores, running from hot bright O-stars (top
+  left) to cool dim M-dwarfs (bottom right). About 90% of stars.
+- **Red giants and supergiants**: evolved stars that have exhausted core hydrogen; large radius,
+  cool surface, high luminosity (giants) or extreme luminosity (supergiants). Top right.
+- **White dwarfs**: the exposed core of a dead low-mass star; hot but small, so low luminosity
+  despite high temperature. Bottom left.
+
+The Sun is a G-type main-sequence star at absolute magnitude $M = 4.83$.
+
+### Stefan–Boltzmann and Stellar Radii
+
+$$
+L = 4 \pi r^2 \sigma T^4
+$$
+
+comparing a star to the Sun (subscript $\odot$):
+
+$$
+\frac{L}{L_\odot} = \left(\frac{r}{r_\odot}\right)^2 \left(\frac{T}{T_\odot}\right)^4
+$$
+
+**Worked example.** Betelgeuse: $T = 3500\ \mathrm{K}$ (about $T_\odot/2$), $L \approx 10^5
+L_\odot$. Find its radius.
+
+$$
+\frac{r}{r_\odot} = \sqrt{\frac{L}{L_\odot}} \cdot \left(\frac{T_\odot}{T}\right)^2 \approx \sqrt{10^5} \cdot 4 \approx 1260
+$$
+
+Betelgeuse is over 1000 solar radii — a supergiant that would engulf the orbit of Jupiter.
+
+## 3. Supernovae, Neutron Stars and Black Holes
+
+### Type II Supernova
+
+A star with mass $> 8 M_\odot$ fuses progressively heavier elements (H → He → C → O → Si → Fe).
+Iron-56 has the highest binding energy per nucleon, so fusion stops: the core collapses in
+milliseconds, the outer layers rebound off the rigid core in a shock wave, and the star explodes
+as a Type II supernova, briefly outshining its entire galaxy.
+
+### Neutron Stars
+
+For core masses between roughly 1.4 and 3 $M_\odot$, the collapse halts when neutron degeneracy
+pressure balances gravity. The result is a **neutron star**: diameter ~20 km, mass ~1.5
+$M_\odot$, density comparable to an atomic nucleus (~$10^{17}$ kg/m³). Rotation rates up to
+hundreds of Hz (pulsars).
+
+### Black Holes
+
+For core masses $> 3 M_\odot$, not even neutron degeneracy pressure can resist gravity. The core
+collapses to a **black hole**: a region where escape velocity exceeds $c$. The boundary is the
+**event horizon** at the Schwarzschild radius:
+
+$$
+R_s = \frac{2GM}{c^2}
+$$
+
+For $M = 10 M_\odot$: $R_s \approx 30$ km.
+
+## 4. Standard Candles and Distance
+
+### Type Ia Supernovae
+
+Type Ia supernovae occur when a white dwarf in a binary system accretes matter from its companion
+until it reaches the Chandrasekhar limit (~$1.4 M_\odot$) and carbon fusion ignites
+explosively. Because the mass at detonation is always the same, the peak luminosity is always
+approximately the same — Type Ia supernovae are **standard candles**.
+
+The distance is found by comparing the known absolute magnitude ($M \approx -19.3$) to the
+apparent magnitude $m$ via the distance modulus:
+
+$$
+m - M = 5 \log_{10}\left(\frac{d}{10\ \mathrm{pc}}\right)
+$$
+
+### Cepheid Variables
+
+Cepheid variables pulsate with a period that correlates directly with their absolute magnitude
+(the **period–luminosity relationship**). Henrietta Leavitt discovered this in 1908; Hubble used
+it to measure the distance to Andromeda and prove galaxies exist beyond the Milky Way.
+
+## 5. Hubble's Law and the Expanding Universe
+
+Hubble's 1929 observations showed that the redshift of distant galaxies is proportional to their
+distance:
+
+$$
+v = H_0 d, \qquad H_0 \approx 70\ \mathrm{km\,s^{-1}Mpc^{-1}}
+$$
+
+The redshift $z$ is defined as $z = \frac{\lambda_{\text{obs}} - \lambda_0}{\lambda_0}$, and for
+$z \ll 1$: $v \approx cz$.
+
+**Worked example.** A galaxy shows a spectral line at 500.2 nm where the rest wavelength is 500.0
+nm. Find the recession velocity and distance.
+
+$$
+z = \frac{0.2}{500} = 4\times10^{-4}, \quad v = cz = 1.2\times10^5\ \mathrm{km/s}, \quad d = \frac{v}{H_0} \approx 1.7\ \mathrm{Mpc}
+$$
+
+## 6. The Big Bang and the CMB
+
+If galaxies are receding, they were closer in the past. Extrapolating backwards leads to the
+**Big Bang** model: the universe began from an extremely hot, dense state approximately 13.8
+billion years ago.
+
+Evidence:
+
+- **Hubble's law** — the universal recession of distant galaxies
+- **Cosmic Microwave Background (CMB)** — predicted by Gamow (1948), discovered by Penzias and
+  Wilson (1965), a uniform 2.7 K black-body radiation filling all space
+- **Abundance of light elements** — Big Bang nucleosynthesis correctly predicts the ~75% H, ~25%
+  He ratio
+
+## 7. Dark Matter and Dark Energy
+
+Rotation curves of galaxies remain flat at large radii instead of declining as
+$v \propto r^{-1/2}$ — visible mass alone cannot explain this. The missing mass is called
+**dark matter** (does not emit, absorb or reflect light; detected only gravitationally).
+
+Type Ia supernova data from 1998 onward shows that distant supernovae are *dimmer* than expected:
+the expansion of the universe is **accelerating**. The cause is called **dark energy**
+($\Lambda \approx 0.7$ of the total energy density).
+
+The composition of the universe: approximately 5% ordinary matter, 27% dark matter, 68% dark
+energy.
+
+## 8. Common Pitfalls
+
+- **Magnitude sign convention**: brighter stars have *more negative* magnitudes. The distance
+  modulus $m - M = 5\log_{10}(d/10)$ gives positive $m - M$ for distant (dim-looking) objects.
+- **Temperature axis on H–R diagram** increases to the LEFT (cool right, hot left) — the
+  counterintuitive convention causes diagram-reading errors.
+- **Type Ia vs Type II**: Type Ia = white dwarf + accretion = standard candle. Type II = massive
+  star core collapse = NOT a standard candle (varies too much).
+- **Redshift formula only valid for $z \ll 1$**: at large $z$, relativistic cosmology replaces
+  the simple $v = cz$ relation.
+- The CMB temperature (2.7 K) is the **current** temperature: it has cooled from ~3000 K at
+  recombination due to expansion.
+
+## 9. Summary
+
+| Object/Phenomenon | Key Evidence | Significance |
+| ----------------- | ------------ | ------------ |
+| Main sequence | H–R diagram | Hydrogen fusion, mass–luminosity relation |
+| Type Ia supernova | Standard candle | Distance measurement to cosmological scales |
+| Cepheid variables | Period–luminosity | Distance within and beyond the Local Group |
+| CMB | Uniform 2.7 K radiation | Evidence for the Big Bang |
+| Hubble's law | Redshift–distance relation | Universe is expanding |
+| Dark matter | Flat rotation curves | 27% of universe, unknown nature |
+| Dark energy | Accelerating expansion | 68% of universe, unknown nature |
+
+## See Also
+
+- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/) — fusion and binding energy
+- [Particle Physics](/physics/nuclear-and-particle/particle-physics/) — the standard model
+- [Gravitational Fields](/physics/fields/) — gravitational potential and escape velocity
+
+---
+
 ## Current And Resistance
 URL: https://alevel.wyattau.com/physics/electricity/01-current-and-resistance/
 
@@ -216967,6 +217167,7 @@ From Newton's apple to quantum particles, physics explains how the world works t
 ## See also
 
 - [Astrophysics](/physics/astrophysics/01-astrophysics/)
+- [Classification of Stars and Cosmology](/physics/astrophysics/classification-of-stars-and-cosmology/)
 - [A-Level Physics Flashcards: Nuclear and Astrophysics](/physics/flashcards-nuclear-astrophysics/)
 - [A-Level Physics: Nuclear and Astrophysics Practice](/physics/practice-nuclear-astrophysics/)
 
